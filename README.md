@@ -1,63 +1,73 @@
 # weekly
 
-Lucerna 周报(Lucerna Weekly)的内容仓。**只放内容,不放代码** —— 每一期周报的
-每个版本(edition)在这里归档,站点与社区工具在运行时从这里读 `index.json`
-和各版本的元数据。
+The content repository for **Lucerna Weekly**, Lucerna's multilingual weekly
+newspaper for language learners. **Content only, no code** — every published
+edition is archived here, and the site and community tools read `index.json`
+plus each edition's metadata from this repo at runtime.
 
-## 一个版本 = 一个目录
+## One edition = one directory
 
-周报的一版 = **目标语正文 × 读者母语讲解**的一个配对。12 个目标语 × 11 个
-母语 ≈ 130 版/周(简繁两个跨书写配对不存在)。目录名就是这一版的标识:
+An edition is one **target language × reader's native language** pairing:
+target-language text with all explanations written in the reader's language.
+With 12 target languages × 11 native languages the full grid is ~130 editions
+per week (the two cross-script Chinese pairings do not exist — see rule 2).
+The directory name is the edition's identifier:
 
 ```
 issues/2026-w43-fr-zh-cn/
-  2026-w43-fr-zh-cn.md    ← 元数据(frontmatter)+ 简介
-  2026-w43-fr-zh-cn.pdf   ← 整期网页版 PDF(可选实体,见下)
+  2026-w43-fr-zh-cn.md    ← metadata (frontmatter) + a short intro
+  2026-w43-fr-zh-cn.pdf   ← the full issue, web PDF
 ```
 
-slug 规则:`<week 小写>-<目标语>-<母语>`,语言代码:
-`en` `de` `fr` `es` `it` `pt` `nl` `ru` `ja` `ko` `zh-cn` `zh-tw`。
+Slug rule: `<week lowercase>-<target>-<native>`. Language codes:
+`en` `de` `fr` `es` `it` `pt` `nl` `ru` `ja` `ko` `zh-cn` `zh-tw`.
 
-md 开头是 frontmatter(title、excerpt、publishedAt、week、weekStart/weekEnd、
-vol、masthead、target/targetName/targetLabel、native/nativeName/nativeLabel、
-exercises、pages、pdf、pdfBytes、pdfSha256、discordThread、draft),
-字段齐全性由 lint 硬拦。
+Each `.md` opens with frontmatter — `title`, `excerpt`, `publishedAt`, `week`,
+`weekStart`/`weekEnd`, `vol`, `masthead`, `target`/`targetName`/`targetLabel`,
+`native`/`nativeName`/`nativeLabel`, `exercises`, `pages`, `pdf`, `pdfBytes`,
+`pdfSha256`, `discordThread`, `draft` — and the lint gate enforces that every
+field is present.
 
-## 三条硬规则
+## Three hard rules
 
-`node lint.mjs` 会挡住,CI 也会:
+`node lint.mjs` blocks violations, and so does CI:
 
-1. **只有一层目录** —— 版本目录里不能再有子目录;目录里只许有
-   `<slug>.md` 与 `<slug>.pdf` 两个文件。
-2. **配对合法** —— 目标语 ≠ 母语,语言必须在 12 语种列表内;
-   简体中文与繁體中文互为目标/母语的配对不存在。
-3. **PDF 与声明逐字节吻合** —— frontmatter 里钉死了 PDF 的字节数与
-   SHA-256;PDF 实体在仓内时,大小或哈希对不上就拦下。
+1. **One level only** — no subdirectories inside an edition directory, and
+   nothing in it except `<slug>.md` and `<slug>.pdf`.
+2. **Legal pairings only** — target ≠ native, both from the 12-language list,
+   and never Simplified ↔ Traditional Chinese as target/native of each other
+   (they are two scripts of one language; nobody learns one as a foreign
+   language from the other).
+3. **The PDF must match its declaration byte for byte** — the frontmatter
+   pins the PDF's byte size and SHA-256; if the file in the repo differs in
+   size or hash, the gate fails.
 
-## PDF
+## The gate and the index
 
-PDF 是二进制文件。本仓的索引在 md 入仓时就生成,pdfBytes 与 pdfSha256
-已经钉进 frontmatter 与 index.json —— 所以**任何来源的 PDF 副本都能对着
-索引验真**。PDF 实体通过普通 git 推送进对应目录(文件名必须是
-`<slug>.pdf`);推送后跑一次 `node lint.mjs --require-pdf` 可确认全部
-实体到齐且完好。印刷版 PDF 不进本仓(体积过大),只归档网页版。
-
-## 索引
-
-`index.json` 是消费方渲染列表要读的那一个文件 —— 有它,列表只取 1 次
-上游请求;没它就得把每版的 md 都拉下来(而 GitHub 未鉴权 API 是
-60 次/小时/IP)。排序在 lint 里定死(期倒序 → 目标语 → 母语),不留给
-消费方算。
+`lint.mjs` is both the structural validator and the index generator
+(zero-dependency Node):
 
 ```bash
-node lint.mjs            # 零依赖,不用 npm install。校验 + 检查 index.json 是否最新
-node lint.mjs --write    # 校验 + 写出 index.json(加完一版必须跑这个)
-node lint.mjs --require-pdf   # 额外要求每版 PDF 实体都在仓内且哈希吻合
+node lint.mjs                 # validate + check that index.json is up to date (CI mode)
+node lint.mjs --write         # validate + regenerate index.json (run after adding an edition)
+node lint.mjs --require-pdf   # additionally require every edition's PDF to be present and intact
 ```
 
-改完 md 忘了跑 `--write`,默认模式会比对出来并报错。
+`index.json` is the one file consumers read to render a listing: with it, a
+listing costs a single upstream request; without it, every edition's `.md`
+would have to be fetched individually (and the unauthenticated GitHub API
+allows only 60 requests/hour/IP). Sort order is fixed in the gate — week
+descending, then target language, then native language — never left to
+consumers. If you edit an `.md` and forget `--write`, the default mode
+compares and fails: a drifted index would silently show stale data.
 
-## 分支
+## PDFs
 
-`main` 是唯一的长期分支(本仓新建时即如此;与 blog_content 的
-dev/master 双分支不同,那是那个仓的历史形态)。
+The web PDF is the archived artifact; the print PDF is not kept here (size).
+Because each PDF's size and SHA-256 are pinned in the frontmatter and in
+`index.json`, any copy of a PDF can be verified against the index, wherever
+it was downloaded from.
+
+## Branches
+
+`main` is the only long-lived branch.

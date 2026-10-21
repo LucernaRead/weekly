@@ -1,0 +1,17 @@
+name: lint
+
+# 结构问题(配对非法、PDF 哈希对不上、索引漂移)的代价往往在消费方
+# 运行时才显现,所以在合并前就拦。
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # lint.mjs 零依赖,用 runner 自带的 node 就够 —— 内容仓不引入 npm 生态。
+      - run: node lint.mjs
