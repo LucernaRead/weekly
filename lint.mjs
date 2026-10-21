@@ -15,14 +15,17 @@
  *
  * 这个仓只有一种形态,校验的就是它:
  *
- *     issues/<slug>/
- *       <slug>.md     这一版的元数据(frontmatter)+ 一段简介
- *       <slug>.pdf    整期网页版 PDF(可选实体;见 README 的「PDF」一节)
+ *     issues/<week>/
+ *       <slug>/
+ *         <slug>.md     这一版的元数据(frontmatter)+ 一段简介
+ *         <slug>.pdf    整期网页版 PDF(可选实体;见 README 的「PDF」一节)
  *
+ * <week> 是周次目录(小写,如 2026-w43),它本身就是一层 —— 先按周找,再按版找。
  * slug = <week 小写>-<目标语>-<母语>,如 2026-w43-fr-zh-cn。
  *
  * 硬规则:
- *   1. **只有一层目录** —— issues/ 下面只有版本目录,版本目录里不能再有子目录。
+ *   1. **层级固定两层** —— issues/ 下面只有周次目录,周次目录里只有版本目录,
+ *      版本目录里不能再有子目录;版本必须放在它自己所属的周次目录下。
  *   2. **配对合法** —— 目标语 ≠ 母语;语言必须在 12 语种列表内;
  *      简体中文与繁體中文互为目标/母语的两个配对**不存在**(没人这样学外语)。
  *   3. **自包含** —— 版本目录里只许有 <slug>.md 和 <slug>.pdf;
@@ -47,6 +50,7 @@ const REQUIRED_FM = [
   'discordThread', 'draft',
 ];
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const WEEK_RE = /^\d{4}-w\d{2}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SHA_RE = /^[0-9a-f]{64}$/;
 const INDEX_FILE = 'index.json';
@@ -95,105 +99,120 @@ if (!existsSync(issuesDir)) {
 const editions = [];
 const seenPairs = new Set();
 
-for (const slug of readdirSync(issuesDir).sort()) {
-  const dir = join(issuesDir, slug);
-  if (!statSync(dir).isDirectory()) {
-    fail(`issues/${slug}`, 'issues/ 下只许放版本目录');
+for (const weekDirName of readdirSync(issuesDir).sort()) {
+  const weekPath = join(issuesDir, weekDirName);
+  if (!statSync(weekPath).isDirectory()) {
+    fail(`issues/${weekDirName}`, 'issues/ 下只许放周次目录');
     continue;
   }
-  if (!SLUG_RE.test(slug)) fail(`issues/${slug}`, 'slug 只能用小写字母、数字与连字符');
-
-  const files = readdirSync(dir);
-  for (const f of files) {
-    const p = join(dir, f);
-    if (statSync(p).isDirectory()) fail(`issues/${slug}/${f}`, '版本目录里不能再有子目录');
-  }
-  const mdName = `${slug}.md`;
-  const pdfName = `${slug}.pdf`;
-  for (const f of files) {
-    if (f !== mdName && f !== pdfName) fail(`issues/${slug}`, `多余的文件 ${f}(只许 ${mdName} 与 ${pdfName})`);
-  }
-  if (!files.includes(mdName)) {
-    fail(`issues/${slug}`, `缺少 ${mdName}`);
-    continue;
+  if (!WEEK_RE.test(weekDirName)) {
+    fail(`issues/${weekDirName}`, '周次目录名必须是 YYYY-wNN 小写(如 2026-w43)');
   }
 
-  const where = `issues/${slug}/${mdName}`;
-  const fm = frontmatter(readFileSync(join(dir, mdName), 'utf8'), where);
-  if (!fm) continue;
-
-  for (const key of REQUIRED_FM) {
-    if (!(key in fm) || fm[key] === '') fail(where, `frontmatter 缺少 ${key}`);
-  }
-  if (problems.length && fm.target === undefined) continue;
-
-  // 配对规则
-  const { target, native: nat } = fm;
-  if (!LANGS.includes(target)) fail(where, `未知目标语 ${target}`);
-  if (!LANGS.includes(nat)) fail(where, `未知母语 ${nat}`);
-  if (target === nat) fail(where, '目标语与母语不能相同');
-  if ((target === 'zh-cn' && nat === 'zh-tw') || (target === 'zh-tw' && nat === 'zh-cn')) {
-    fail(where, '简繁互译配对不存在(简体与繁體是同一语言的两种书写,没人这样学)');
-  }
-  const pair = `${fm.week}|${target}|${nat}`;
-  if (seenPairs.has(pair)) fail(where, `配对重复:${pair}`);
-  seenPairs.add(pair);
-
-  // slug 必须由 week + 配对推出,保证目录名永远可解析
-  const expectSlug = `${String(fm.week).toLowerCase()}-${target}-${nat}`;
-  if (slug !== expectSlug) fail(where, `slug 应为 ${expectSlug},实际 ${slug}`);
-
-  // 字段格式
-  for (const d of ['publishedAt', 'weekStart', 'weekEnd']) {
-    if (fm[d] && !DATE_RE.test(fm[d])) fail(where, `${d} 必须是 YYYY-MM-DD`);
-  }
-  for (const n of ['vol', 'exercises', 'pages', 'pdfBytes']) {
-    if (fm[n] !== undefined && !/^\d+$/.test(fm[n])) fail(where, `${n} 必须是整数`);
-  }
-  if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 必须是 64 位小写十六进制');
-  if (fm.pdf && fm.pdf !== pdfName) fail(where, `pdf 字段必须是 ${pdfName}`);
-
-  // PDF 实体在仓内时,逐字节核对(大小 + SHA-256)
-  const pdfPath = join(dir, pdfName);
-  const pdfInRepo = existsSync(pdfPath);
-  if (pdfInRepo) {
-    const data = readFileSync(pdfPath);
-    if (data.length !== Number(fm.pdfBytes)) {
-      fail(where, `PDF 大小不符:声明 ${fm.pdfBytes},实际 ${data.length}`);
+  for (const slug of readdirSync(weekPath).sort()) {
+    const dir = join(weekPath, slug);
+    const rel = `issues/${weekDirName}/${slug}`;
+    if (!statSync(dir).isDirectory()) {
+      fail(rel, '周次目录里只许放版本目录');
+      continue;
     }
-    const sha = createHash('sha256').update(data).digest('hex');
-    if (sha !== fm.pdfSha256) fail(where, 'PDF 的 SHA-256 与 frontmatter 声明不符');
-  } else if (requirePdf) {
-    fail(`issues/${slug}`, 'PDF 实体不在仓内(--require-pdf)');
-  }
+    if (!SLUG_RE.test(slug)) fail(rel, 'slug 只能用小写字母、数字与连字符');
+    if (!slug.startsWith(`${weekDirName}-`)) {
+      fail(rel, `版本必须放在它所属的周次目录下(slug 应以 ${weekDirName}- 开头)`);
+    }
 
-  editions.push({
-    slug,
-    title: fm.title,
-    excerpt: fm.excerpt,
-    publishedAt: fm.publishedAt,
-    week: fm.week,
-    weekStart: fm.weekStart,
-    weekEnd: fm.weekEnd,
-    vol: Number(fm.vol),
-    masthead: fm.masthead,
-    target,
-    targetName: fm.targetName,
-    targetLabel: fm.targetLabel,
-    native: nat,
-    nativeName: fm.nativeName,
-    nativeLabel: fm.nativeLabel,
-    exercises: Number(fm.exercises),
-    pages: Number(fm.pages),
-    dir: `issues/${slug}`,
-    md: `issues/${slug}/${mdName}`,
-    pdf: `issues/${slug}/${pdfName}`,
-    pdfBytes: Number(fm.pdfBytes),
-    pdfSha256: fm.pdfSha256,
-    pdfInRepo,
-    discordThread: fm.discordThread,
-    draft: fm.draft === 'true',
-  });
+    const files = readdirSync(dir);
+    for (const f of files) {
+      const p = join(dir, f);
+      if (statSync(p).isDirectory()) fail(`${rel}/${f}`, '版本目录里不能再有子目录');
+    }
+    const mdName = `${slug}.md`;
+    const pdfName = `${slug}.pdf`;
+    for (const f of files) {
+      if (f !== mdName && f !== pdfName) fail(rel, `多余的文件 ${f}(只许 ${mdName} 与 ${pdfName})`);
+    }
+    if (!files.includes(mdName)) {
+      fail(rel, `缺少 ${mdName}`);
+      continue;
+    }
+
+    const where = `${rel}/${mdName}`;
+    const fm = frontmatter(readFileSync(join(dir, mdName), 'utf8'), where);
+    if (!fm) continue;
+
+    for (const key of REQUIRED_FM) {
+      if (!(key in fm) || fm[key] === '') fail(where, `frontmatter 缺少 ${key}`);
+    }
+    if (problems.length && fm.target === undefined) continue;
+
+    // 配对规则
+    const { target, native: nat } = fm;
+    if (!LANGS.includes(target)) fail(where, `未知目标语 ${target}`);
+    if (!LANGS.includes(nat)) fail(where, `未知母语 ${nat}`);
+    if (target === nat) fail(where, '目标语与母语不能相同');
+    if ((target === 'zh-cn' && nat === 'zh-tw') || (target === 'zh-tw' && nat === 'zh-cn')) {
+      fail(where, '简繁互译配对不存在(简体与繁體是同一语言的两种书写,没人这样学)');
+    }
+    const pair = `${fm.week}|${target}|${nat}`;
+    if (seenPairs.has(pair)) fail(where, `配对重复:${pair}`);
+    seenPairs.add(pair);
+
+    // slug 必须由 week + 配对推出,保证目录名永远可解析
+    const expectSlug = `${String(fm.week).toLowerCase()}-${target}-${nat}`;
+    if (slug !== expectSlug) fail(where, `slug 应为 ${expectSlug},实际 ${slug}`);
+
+    // 字段格式
+    for (const d of ['publishedAt', 'weekStart', 'weekEnd']) {
+      if (fm[d] && !DATE_RE.test(fm[d])) fail(where, `${d} 必须是 YYYY-MM-DD`);
+    }
+    for (const n of ['vol', 'exercises', 'pages', 'pdfBytes']) {
+      if (fm[n] !== undefined && !/^\d+$/.test(fm[n])) fail(where, `${n} 必须是整数`);
+    }
+    if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 必须是 64 位小写十六进制');
+    if (fm.pdf && fm.pdf !== pdfName) fail(where, `pdf 字段必须是 ${pdfName}`);
+
+    // PDF 实体在仓内时,逐字节核对(大小 + SHA-256)
+    const pdfPath = join(dir, pdfName);
+    const pdfInRepo = existsSync(pdfPath);
+    if (pdfInRepo) {
+      const data = readFileSync(pdfPath);
+      if (data.length !== Number(fm.pdfBytes)) {
+        fail(where, `PDF 大小不符:声明 ${fm.pdfBytes},实际 ${data.length}`);
+      }
+      const sha = createHash('sha256').update(data).digest('hex');
+      if (sha !== fm.pdfSha256) fail(where, 'PDF 的 SHA-256 与 frontmatter 声明不符');
+    } else if (requirePdf) {
+      fail(rel, 'PDF 实体不在仓内(--require-pdf)');
+    }
+
+    editions.push({
+      slug,
+      title: fm.title,
+      excerpt: fm.excerpt,
+      publishedAt: fm.publishedAt,
+      week: fm.week,
+      weekStart: fm.weekStart,
+      weekEnd: fm.weekEnd,
+      vol: Number(fm.vol),
+      masthead: fm.masthead,
+      target,
+      targetName: fm.targetName,
+      targetLabel: fm.targetLabel,
+      native: nat,
+      nativeName: fm.nativeName,
+      nativeLabel: fm.nativeLabel,
+      exercises: Number(fm.exercises),
+      pages: Number(fm.pages),
+      dir: rel,
+      md: `${rel}/${mdName}`,
+      pdf: `${rel}/${pdfName}`,
+      pdfBytes: Number(fm.pdfBytes),
+      pdfSha256: fm.pdfSha256,
+      pdfInRepo,
+      discordThread: fm.discordThread,
+      draft: fm.draft === 'true',
+    });
+  }
 }
 
 // 排序:期(weekStart)倒序 → 目标语按 LANGS 序 → 母语按 LANGS 序。不留给消费方算。

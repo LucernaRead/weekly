@@ -11,10 +11,11 @@ An edition is one **target language × reader's native language** pairing:
 target-language text with all explanations written in the reader's language.
 With 12 target languages × 11 native languages the full grid is ~130 editions
 per week (the two cross-script Chinese pairings do not exist — see rule 2).
-The directory name is the edition's identifier:
+Editions live under a **week directory** — the week itself is one level —
+and the directory name is the edition's identifier:
 
 ```
-issues/2026-w43-fr-zh-cn/
+issues/2026-w43/2026-w43-fr-zh-cn/
   2026-w43-fr-zh-cn.md    ← metadata (frontmatter) + a short intro
   2026-w43-fr-zh-cn.pdf   ← the full issue, web PDF
 ```
@@ -32,8 +33,10 @@ field is present.
 
 `node lint.mjs` blocks violations, and so does CI:
 
-1. **One level only** — no subdirectories inside an edition directory, and
-   nothing in it except `<slug>.md` and `<slug>.pdf`.
+1. **Two fixed levels** — `issues/` holds only week directories
+   (`2026-w43`), a week directory holds only edition directories, an edition
+   directory holds nothing but `<slug>.md` and `<slug>.pdf`, and every
+   edition sits under its own week.
 2. **Legal pairings only** — target ≠ native, both from the 12-language list,
    and never Simplified ↔ Traditional Chinese as target/native of each other
    (they are two scripts of one language; nobody learns one as a foreign

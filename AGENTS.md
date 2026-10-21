@@ -8,7 +8,7 @@
 
 ## 加一版
 
-1. 建目录 `issues/<week 小写>-<目标语>-<母语>/`(如 `issues/2026-w43-fr-zh-cn/`)。
+1. 建目录 `issues/<week 小写>/<week 小写>-<目标语>-<母语>/`(如 `issues/2026-w43/2026-w43-fr-zh-cn/`)—— 周次本身是一层。
 2. 写 `<slug>.md`:frontmatter 字段照 README,一个不能少。
    pdfBytes 与 pdfSha256 从**最终定稿**的网页版 PDF 实测(SHA-256 全小写)。
 3. 有 PDF 实体要一并提交时,文件名必须是 `<slug>.pdf`,放进同一目录。
