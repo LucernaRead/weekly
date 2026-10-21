@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# 提交前重算 index.json,并把结果带进本次提交。
+# 索引漂移(改了 md 没重算)会让消费方显示旧数据且不报错;CI 能比对出来,
+# 但那时已经推上去了 —— 这一步把检查提前到提交那一刻。
+# --write 既校验也写盘;结构不合规时非零退出,提交被拦下。
+node lint.mjs --write
+
+# 只有真变了才 add,避免把 diff 弄脏。
+if ! git diff --quiet -- index.json; then
+  echo "[pre-commit] index.json 有更新,加入本次提交"
+  git add index.json
+fi
