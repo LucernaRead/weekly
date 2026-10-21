@@ -1,0 +1,1 @@
+{"description":"Lucerna Weekly content (edition metadata + PDFs, generated index). Not a published package.","devDependencies":{"husky":"^9.1.7"},"name":"lucerna-weekly","private":true,"scripts":{"index":"node lint.mjs --write","lint":"node lint.mjs","prepare":"husky"},"version":"0.0.0"}
