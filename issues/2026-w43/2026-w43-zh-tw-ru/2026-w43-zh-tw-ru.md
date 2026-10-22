@@ -1,6 +1,7 @@
 ---
 title: "Lucerna VOL.1 · Traditional Chinese text · Russian explanations"
 excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+abstract: "Сильный тайфун Цянпи (薔琵) вместе с северо-восточным муссоном задаёт погоду недели на Тайване, а Lucerna VOL.1 открывает номер первым матчем Тайваньской серии: Wei Chuan Dragons победили 3:0 при полных трибунах — 40 000 зрителей. В выпуске также 61-я церемония премии «Золотой колокол» (金鐘獎) 23–24 октября, гонконгский выходной на праздник 重陽 и фестиваль еды и вина Wine & Dine. Тексты на традиционном китайском сопровождаются объяснениями на русском; A2–B2 и 150 упражнений — практика чтения для изучающих китайский язык в тайваньской и гонконгской традиции письма."
 publishedAt: "2026-10-21"
 week: "2026-W43"
 weekStart: "2026-10-19"
@@ -21,9 +22,12 @@ pdfSha256: 7a72fd25e8a48e5924bcf60f0d6d7e1ac09a7f86efe58dff68ea3d345e1502e5
 discordThread: "1562312921759875144"
 draft: false
 ---
-
 # Lucerna VOL.1 · Traditional Chinese text · Russian explanations
 
 Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards
+
+## Аннотация
+
+Сильный тайфун Цянпи (薔琵) вместе с северо-восточным муссоном задаёт погоду недели на Тайване, а Lucerna VOL.1 открывает номер первым матчем Тайваньской серии: Wei Chuan Dragons победили 3:0 при полных трибунах — 40 000 зрителей. В выпуске также 61-я церемония премии «Золотой колокол» (金鐘獎) 23–24 октября, гонконгский выходной на праздник 重陽 и фестиваль еды и вина Wine & Dine. Тексты на традиционном китайском сопровождаются объяснениями на русском; A2–B2 и 150 упражнений — практика чтения для изучающих китайский язык в тайваньской и гонконгской традиции письма.
 
 Traditional Chinese text with explanations written in Russian. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

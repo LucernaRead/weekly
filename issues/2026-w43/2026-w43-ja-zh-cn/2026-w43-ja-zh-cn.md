@@ -1,6 +1,7 @@
 ---
 title: "Lucerna VOL.1 · Japanese text · Simplified Chinese explanations"
 excerpt: "The Japan Series — DeNA vs SoftBank"
+abstract: "本期 Lucerna 日语周报（VOL.1）聚焦深秋的日本：日本职棒总决赛日本大赛（日本シリーズ）开幕，横滨 DeNA 对阵福冈软银，第 1 战于 10 月 24 日 18 点 30 分开球；本期以赛事进程与秋日生活为线索编排日语原文阅读，讲解用简体中文。难度覆盖 A2–B2，共 150 道练习，适合学日语的读者用日语阅读练习跟上日本当周热点，慢慢读懂日语原版内容。"
 publishedAt: "2026-10-21"
 week: "2026-W43"
 weekStart: "2026-10-19"
@@ -21,10 +22,13 @@ pdfSha256: 52aa5e82d10cb3699c42ede076d0a1869a36f01105a6770cdd6f83fbe0012f2e
 discordThread: "1562312944123904102"
 draft: false
 ---
-
 # Lucerna VOL.1 · Japanese text · Simplified Chinese explanations
 
 The Japan Series — DeNA vs SoftBank.
+
+## 摘要
+
+本期 Lucerna 日语周报（VOL.1）聚焦深秋的日本：日本职棒总决赛日本大赛（日本シリーズ）开幕，横滨 DeNA 对阵福冈软银，第 1 战于 10 月 24 日 18 点 30 分开球；本期以赛事进程与秋日生活为线索编排日语原文阅读，讲解用简体中文。难度覆盖 A2–B2，共 150 道练习，适合学日语的读者用日语阅读练习跟上日本当周热点，慢慢读懂日语原版内容。
 
 Japanese text with explanations written in Simplified Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.
 

@@ -23,11 +23,26 @@ issues/2026-w43/2026-w43-fr-zh-cn/
 Slug rule: `<week lowercase>-<target>-<native>`. Language codes:
 `en` `de` `fr` `es` `it` `pt` `nl` `ru` `ja` `ko` `zh-cn` `zh-tw`.
 
-Each `.md` opens with frontmatter — `title`, `excerpt`, `publishedAt`, `week`,
-`weekStart`/`weekEnd`, `vol`, `masthead`, `target`/`targetName`/`targetLabel`,
-`native`/`nativeName`/`nativeLabel`, `exercises`, `pages`, `pdf`, `pdfBytes`,
-`pdfSha256`, `discordThread`, `draft` — and the lint gate enforces that every
-field is present.
+Each `.md` opens with frontmatter — `title`, `excerpt`, `abstract`,
+`publishedAt`, `week`, `weekStart`/`weekEnd`, `vol`, `masthead`,
+`target`/`targetName`/`targetLabel`, `native`/`nativeName`/`nativeLabel`,
+`exercises`, `pages`, `pdf`, `pdfBytes`, `pdfSha256`, `discordThread`,
+`draft` — and the lint gate enforces that every field is present.
+
+## Abstracts
+
+Every edition carries an **abstract**: a short summary of the issue, written
+in the reader's native language, naming the week's actual topics (events,
+festivals, matches) and the phrases learners search for. It lives twice in
+each `.md` — as the frontmatter `abstract` field (also copied into
+`index.json`, so listings and page descriptions can use it verbatim) and as
+a visible section in the body under the edition's own word for "abstract".
+Abstracts exist so search engines can match an edition to what learners are
+actually looking for that week; a generic description repeated across 130
+editions cannot do that. The field has been required by the gate since
+2026-10-22, and the W43 editions were backfilled with theirs the same day.
+An abstract states only what the issue contains — topics come from the
+edition itself, never from a template.
 
 ## Three hard rules
 

@@ -1,6 +1,7 @@
 ---
 title: "Lucerna VOL.1 · Traditional Chinese text · Korean explanations"
 excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+abstract: "Lucerna VOL.1은 강한 태풍 참피(薔琵)와 동북 계절풍이 겹친 대만의 날씨, 4만 관중 앞 웨이취안 드래건스의 3대 0 승리로 끝난 대만 시리즈 1차전, 제61회 금종장 소식을 번체 중국어 원문으로 읽는 호입니다. A2–B2 지문과 연습 문제 150개로 중국어 독해 실력을 기를 수 있습니다."
 publishedAt: "2026-10-21"
 week: "2026-W43"
 weekStart: "2026-10-19"
@@ -21,9 +22,12 @@ pdfSha256: 2a3c08fb97ba80f12436e077b90429e4761f5869694e330c06db7e52646610fb
 discordThread: "1562312921759875144"
 draft: false
 ---
-
 # Lucerna VOL.1 · Traditional Chinese text · Korean explanations
 
 Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards
+
+## 요약
+
+Lucerna VOL.1은 강한 태풍 참피(薔琵)와 동북 계절풍이 겹친 대만의 날씨, 4만 관중 앞 웨이취안 드래건스의 3대 0 승리로 끝난 대만 시리즈 1차전, 제61회 금종장 소식을 번체 중국어 원문으로 읽는 호입니다. A2–B2 지문과 연습 문제 150개로 중국어 독해 실력을 기를 수 있습니다.
 
 Traditional Chinese text with explanations written in Korean. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

@@ -44,7 +44,7 @@ const ROOT_ALLOW = new Set([
   '.github', '.gitignore',
 ]);
 const REQUIRED_FM = [
-  'title', 'excerpt', 'publishedAt', 'week', 'weekStart', 'weekEnd', 'vol',
+  'title', 'excerpt', 'abstract', 'publishedAt', 'week', 'weekStart', 'weekEnd', 'vol',
   'masthead', 'target', 'targetName', 'targetLabel', 'native', 'nativeName',
   'nativeLabel', 'exercises', 'pages', 'pdf', 'pdfBytes', 'pdfSha256',
   'discordThread', 'draft',
@@ -189,6 +189,7 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
       slug,
       title: fm.title,
       excerpt: fm.excerpt,
+      abstract: fm.abstract,
       publishedAt: fm.publishedAt,
       week: fm.week,
       weekStart: fm.weekStart,

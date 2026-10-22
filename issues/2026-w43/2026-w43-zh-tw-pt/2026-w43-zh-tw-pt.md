@@ -1,6 +1,7 @@
 ---
 title: "Lucerna VOL.1 · Traditional Chinese text · Portuguese explanations"
 excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+abstract: "Taiwan em alerta e em festa: o Lucerna em chinês tradicional acompanha o tufão forte 薔琵 e a monção de nordeste, enquanto o beisebol local vive a Taiwan Series （台灣大賽）, com vitória dos Wei Chuan Dragons por 3 a 0 e estádio lotado, 40 mil pessoas, no primeiro jogo. A edição cobre ainda os prêmios Golden Bell （金鐘獎）, nos dias 23 e 24 de outubro, o feriado de Chongyang （重陽） em Hong Kong e o festival Wine and Dine. São 150 exercícios, do A2 ao B2, para aprender chinês tradicional com explicações em português."
 publishedAt: "2026-10-21"
 week: "2026-W43"
 weekStart: "2026-10-19"
@@ -21,9 +22,12 @@ pdfSha256: 4b5b3ac5ff630ac12cdb6bfeb621ac53071d51b012da022bba1c5ffdcac434ab
 discordThread: "1562312921759875144"
 draft: false
 ---
-
 # Lucerna VOL.1 · Traditional Chinese text · Portuguese explanations
 
 Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards
+
+## Resumo
+
+Taiwan em alerta e em festa: o Lucerna em chinês tradicional acompanha o tufão forte 薔琵 e a monção de nordeste, enquanto o beisebol local vive a Taiwan Series （台灣大賽）, com vitória dos Wei Chuan Dragons por 3 a 0 e estádio lotado, 40 mil pessoas, no primeiro jogo. A edição cobre ainda os prêmios Golden Bell （金鐘獎）, nos dias 23 e 24 de outubro, o feriado de Chongyang （重陽） em Hong Kong e o festival Wine and Dine. São 150 exercícios, do A2 ao B2, para aprender chinês tradicional com explicações em português.
 
 Traditional Chinese text with explanations written in Portuguese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.
