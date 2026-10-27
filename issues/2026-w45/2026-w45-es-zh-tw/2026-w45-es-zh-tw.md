@@ -1,0 +1,34 @@
+---
+title: "La Lucerna VOL.2 · Spanish text · Traditional Chinese explanations"
+excerpt: "The 29-N countdown — housing decides the campaign, the puente weekend, and a Sunday double bill in Madrid"
+abstract: "La Lucerna 西班牙語週報 VOL.2：29-N 大選倒數 27 天，住房問題決定選戰走向，11 月 2 日星期一九個自治區的連假，11 月 8 日星期日伯納烏 NFL 與 21:00 的馬競對巴薩；正文西班牙語、講解繁體中文，A2–B2 分級，150 道練習，適合學西班牙語的台灣與香港讀者透過西班牙新聞學西班牙語。"
+publishedAt: "2026-11-02"
+week: "2026-W45"
+weekStart: "2026-11-02"
+weekEnd: "2026-11-08"
+vol: 2
+masthead: "La Lucerna"
+target: es
+targetName: "Spanish"
+targetLabel: "Español"
+native: zh-tw
+nativeName: "Traditional Chinese"
+nativeLabel: "繁體中文"
+exercises: 150
+pages: 8
+pdf: 2026-w45-es-zh-tw.pdf
+pdfBytes: 3547092
+pdfSha256: 8c4373e91ebca49eaf248a572d60a7b77470d659da4447d905ef265076235015
+discordThread: "1562312633057677373"
+draft: false
+---
+
+# La Lucerna VOL.2 · Spanish text · Traditional Chinese explanations
+
+The 29-N countdown — housing decides the campaign, the puente weekend, and a Sunday double bill in Madrid
+
+## 摘要
+
+La Lucerna 西班牙語週報 VOL.2：29-N 大選倒數 27 天，住房問題決定選戰走向，11 月 2 日星期一九個自治區的連假，11 月 8 日星期日伯納烏 NFL 與 21:00 的馬競對巴薩；正文西班牙語、講解繁體中文，A2–B2 分級，150 道練習，適合學西班牙語的台灣與香港讀者透過西班牙新聞學西班牙語。
+
+Spanish text with explanations written in Traditional Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.
