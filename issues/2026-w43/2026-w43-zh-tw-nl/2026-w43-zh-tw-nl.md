@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Traditional Chinese text · Dutch explanations"
-excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+excerpt: "颱風昌皮遇上東北季風——台灣大賽與金鐘獎"
 abstract: "Traditioneel Chinees leren door te lezen kan met Lucerna, met teksten in traditionele karakters en Nederlandse uitleg, onafhankelijk gemaakt in Taiwan en Hongkong. Deze editie volgt de sterke tyfoon Champi in combinatie met de noordoostmoesson, de Taiwan Series met wedstrijd 1 — de Wei Chuan Dragons wonnen met 3:0 voor 40.000 toeschouwers — en de 61e Golden Bell Awards op 23 en 24 oktober. Verder: de Chongyang-vakantie in Hongkong en het Wine & Dine-festival. Met 150 oefeningen op de niveaus A2–B2."
 publishedAt: "2026-10-21"
 week: "2026-W43"

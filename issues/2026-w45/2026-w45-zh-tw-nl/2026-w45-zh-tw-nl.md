@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Traditional Chinese text · Dutch explanations"
-excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
+excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
 abstract: "Lucerna weekblad: lees Traditioneel Chinees met Nederlandse uitleg — Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series-titel, Lidong, Kaohsiung staalfestival, Fulong zandfestival en Tianmu Halloween; leer Chinees lezen met 150 oefeningen op niveau A2–B2 — zoek: Chinees leren lezen met Nederlandse uitleg"
 publishedAt: "2026-11-02"
 week: "2026-W45"

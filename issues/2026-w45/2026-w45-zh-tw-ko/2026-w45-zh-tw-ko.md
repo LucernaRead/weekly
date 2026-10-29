@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Traditional Chinese text · Korean explanations"
-excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
+excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
 abstract: "Lucerna 중국어 번체 주간지 VOL.2 — 홍콩 핀테크 위크, 타이베이 국제 여행 박람회, 입동, 가오슝 강철 조각 축제, 푸룽 모래 조각 축제 폐막, 타이완 시리즈, 톈무 핼러윈, 11.11 쇼핑 미리보기까지 한 주 뉴스로 배우는 중국어 번체: A2–B2 학습자용 연습 문제 150개, 중국어 번체 신문으로 공부하기"
 publishedAt: "2026-11-02"
 week: "2026-W45"

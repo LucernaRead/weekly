@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Japanese text · Simplified Chinese explanations"
-excerpt: "The Japan Series — DeNA vs SoftBank"
+excerpt: "日本シリーズ週間——秋が深まり、横浜で開幕"
 abstract: "本期 Lucerna 日语周报（VOL.1）聚焦深秋的日本：日本职棒总决赛日本大赛（日本シリーズ）开幕，横滨 DeNA 对阵福冈软银，第 1 战于 10 月 24 日 18 点 30 分开球；本期以赛事进程与秋日生活为线索编排日语原文阅读，讲解用简体中文。难度覆盖 A2–B2，共 150 道练习，适合学日语的读者用日语阅读练习跟上日本当周热点，慢慢读懂日语原版内容。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

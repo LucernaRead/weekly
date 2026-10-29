@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Portuguese text · Traditional Chinese explanations"
-excerpt: "A semana do Enem: Finados long weekend 2 November, Enem day 1 on Sunday 8 November, and the Copa do Brasil semifinals second leg"
+excerpt: "A semana do Enem: fim de semana prolongado de Finados em 2 de novembro, dia 1 do Enem no domingo, 8 de novembro, e o jogo de volta das semifinais da Copa do Brasil"
 abstract: "A Lucerna 葡萄牙語週報 VOL.2：從 11 月 2 日亡靈節連休到 11 月 8 日巴西高考 Enem 第一天，附巴西盃準決賽次回合米內羅競技對格雷米奧、瓦斯科對帕爾梅拉斯；給繁體中文讀者的葡萄牙語學習週報，A2–B2 共 150 題，學葡萄牙語就從讀巴西新聞開始。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

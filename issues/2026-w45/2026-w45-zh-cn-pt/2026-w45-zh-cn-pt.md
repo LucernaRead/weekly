@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Simplified Chinese text · Portuguese explanations"
-excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
+excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
 abstract: "Lucerna, o semanário em chinês simplificado para quem fala português: nesta edição, a reta final do Double 11 com vendas imediatas até 13 de novembro, o Início do Inverno em 7 de novembro com os três microperíodos e as comidas regionais, a fase suíça do S16 com a eliminação da AL e a corrida de IG, TES e BLG às quartas de final, o Dia dos Jornalistas em 8 de novembro, o filme de IA Sanxingdui e We Only Have One Life, que estreia no dia do Início do Inverno, tudo em chinês com explicações em português, níveis A2 a B2 e 150 exercícios para aprender chinês lendo notícias de verdade."
 publishedAt: "2026-11-02"
 week: "2026-W45"

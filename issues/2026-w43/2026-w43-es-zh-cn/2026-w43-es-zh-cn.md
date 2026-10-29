@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Spanish text · Simplified Chinese explanations"
-excerpt: "One Sunday, three events — the clock change, El Clásico and F1 in Austin"
+excerpt: "Un domingo, tres acontecimientos — el cambio de hora, El Clásico y la F1 en Austin"
 abstract: "本期 La Lucerna（VOL.1）带中文读者读西班牙语原文：一个周日，三件大事——欧洲时钟拨慢一小时进入冬令时；周日晚 21 点国家德比（El Clásico）开球；一级方程式大奖赛移师奥斯汀。正文为西班牙语，讲解用简体中文，阅读材料按 A2–B2 分级编排，共 150 道练习。想学西班牙语又不想只背单词的读者，可以从这份周报开始，坚持做西班牙语阅读练习，逐步读懂西语新闻。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

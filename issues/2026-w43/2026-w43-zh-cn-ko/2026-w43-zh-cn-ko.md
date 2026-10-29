@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Simplified Chinese text · Korean explanations"
-excerpt: "Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up"
+excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "Lucerna VOL.1은 10월 20일 저녁 8시 티몰 잔금 결제(付尾款)로 시작하는 광군제 주간, 신파디 시장의 털게(大闸蟹) 시세, 10월 23일 상강(霜降) 절기를 간체 중국어 원문으로 읽는 호입니다. A2–B2 지문과 연습 문제 150개로 중국어 독해 연습을 할 수 있습니다."
 publishedAt: "2026-10-21"
 week: "2026-W43"

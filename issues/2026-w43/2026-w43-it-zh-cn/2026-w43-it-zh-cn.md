@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Italian text · Simplified Chinese explanations"
-excerpt: "Un'ora in più di sonno — the return of standard time"
+excerpt: "Un'ora in più di sonno — il ritorno dell'ora solare"
 abstract: "La Lucerna 意大利语周报（VOL.1）本期主题是多睡一小时：意大利结束夏令时，时钟拨回，ora solare 正式回归；经济版面则解读 2027 年预算法案 Manovra 的要点与争议。全刊正文为意大利语，讲解用简体中文，难度按 A2–B2 分级，共 150 道练习，适合学意大利语的读者通过意大利语阅读练习接触真实语境，为日后读原版书学意大利语打好基础。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Traditional Chinese text · Japanese explanations"
-excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
+excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
 abstract: "Lucerna中国語（繁体字）週刊VOL.2、11月2日～8日号：香港フィンテックウィークと台北国際旅展、味全龍の台湾シリーズ制覇、立冬と温泉・ハイキング、福隆サンドアートと高雄鉄彫刻祭、天母ハロウィーンと旅展攻略、ダブルイレブンの賢い買い方を中国語（繁体字）で読む、A2～B2・全150問の学習週刊、日本語の解説付きで中国語を学びたい人におすすめ"
 publishedAt: "2026-11-02"
 week: "2026-W45"

@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Russian text · Traditional Chinese explanations"
-excerpt: "First snow — the season's first flakes and the long New Year holidays ahead"
+excerpt: "Первый снег — первые хлопья сезона и долгие новогодние каникулы впереди"
 abstract: "Lucerna 本期迎接俄羅斯的第一場雪：本季初雪落下，深秋的生活節奏隨之轉換，版面同時展望前方長達 12 天的新年假期，帶讀者學會 первый снег、новогодние каникулы 等季節詞彙。沒有複雜的國際新聞，只有俄羅斯人此刻真實過著的秋天。全文俄語正文、繁體中文講解，難度 A2–B2 分級，共 150 題練習，適合學俄語、想用俄語閱讀練習感受當地季節氛圍的讀者。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

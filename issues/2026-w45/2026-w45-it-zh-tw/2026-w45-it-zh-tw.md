@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Italian text · Traditional Chinese explanations"
-excerpt: "Arriva il primo freddo: Forum Cultura Milan, Panettone World Cup final, Torrone festival in Cremona, and Serie A matchday 11"
+excerpt: "Arriva il primo freddo: Forum Cultura a Milano, finale della Panettone World Cup, festa del Torrone a Cremona e l'11ª giornata di Serie A"
 abstract: "La Lucerna 義大利語週報 VOL.2：跟著第一場寒冷讀義大利語——米蘭潘妮託尼決賽、克雷莫納牛軋糖節、意甲第 11 輪與天氣預報怎麼讀，A2–B2 共 150 題，適合想學義大利語的繁體中文讀者以閱讀學義大利文。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

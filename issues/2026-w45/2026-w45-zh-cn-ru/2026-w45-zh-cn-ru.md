@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Simplified Chinese text · Russian explanations"
-excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
+excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
 abstract: "Lucerna — еженедельник на китайском (упрощённом) языке для русскоязычных читателей: распродажи Double 11 со склада и прямые скидки, Начало зимы в субботу 7 ноября, четвертьфиналы чемпионата мира S16 по League of Legends, фильм ИИ Саньсиндуй: прошлое будущего и зимний фильм У нас только одна жизнь, упражнения уровней A2–B2, 150 заданий, слова, грамматика и ответы — учи китайский, читая настоящие китайские новости."
 publishedAt: "2026-11-02"
 week: "2026-W45"

@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Korean text · Traditional Chinese explanations"
-excerpt: "Typhoon Champi approaches — foliage peaks and CSAT countdown week"
+excerpt: "태풍 찬피 접근——단풍 절정과 수능 카운트다운 주간"
 abstract: "Lucerna 本期記錄韓國深秋的一週：颱風薔琵接近中（仍在預報階段），全國楓葉進入最佳觀賞期，距離大學修學能力試驗（수능）也進入倒數計時，季節、氣象與校園話題交織成本期的三條主線。全文韓語正文、繁體中文講解，難度 A2–B2 分級，共 150 題練習，適合學韓語、想用韓語閱讀練習貼近韓國日常的讀者。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

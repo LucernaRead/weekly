@@ -1,6 +1,6 @@
 ---
 title: "VOL.3 · French text · Traditional Chinese explanations"
-excerpt: "巴黎大师赛决赛周、万圣节与诸圣节、冬令时第二周、Pitchfork巴黎音乐节与法国预算周"
+excerpt: "Semaine des finales du Masters de Paris, Halloween et Toussaint, deuxième semaine de l'heure d'hiver, Pitchfork Paris et semaine du budget français"
 abstract: "法語週報 VOL.3：11 月 2 日至 8 日，開學復課、巴黎大師賽決賽週末、萬聖節與諸聖節、Pitchfork 巴黎音樂節、2027 社保預算國會審議，A2 到 B2 共 150 道法語練習，含本週金句、易錯診所與第 8 版作文範本，適合正在學法語的繁體中文讀者用法語讀真實生活。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

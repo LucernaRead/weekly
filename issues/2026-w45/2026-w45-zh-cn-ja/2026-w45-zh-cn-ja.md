@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Simplified Chinese text · Japanese explanations"
-excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
+excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
 abstract: "Lucerna中国語（簡体字）週刊VOL.2：双11の現物販売と立冬、S16スイスステージを中国語で読む、日本語解説付きのA2からB2まで全150問の中国語学習週報。中国語をニュースで学びたい人へ。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

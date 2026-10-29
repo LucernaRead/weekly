@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Korean text · Simplified Chinese explanations"
-excerpt: "Countdown to the Suneung exam, late autumn leaves, kimchi season begins, and Korean Series baseball"
+excerpt: "수능 카운트다운, 늦가을 단풍, 김장철 시작, 한국시리즈 야구"
 abstract: "Lucerna 韩语周报 VOL.2：立冬周的红叶尾声、泡菜季开端与高考倒计时，含韩史考试报名窗口与秋季棒球消息，适合用韩语学韩语的你搜索韩语阅读周报，A2到B2分级，150道练习题。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

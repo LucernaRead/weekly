@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Dutch text · Simplified Chinese explanations"
-excerpt: "Een volle week — autumn break, Dutch Design Week and the clock change"
+excerpt: "Een volle week — herfstvakantie, Dutch Design Week en de overgang naar de wintertijd"
 abstract: "De Lucerna 荷兰语周报本期（VOL.1）记录满满当当的一周：秋假（herfstvakantie）开启，埃因霍温荷兰设计周以 R.A.W. 为主题开幕，阿姆斯特丹舞曲活动 ADE 迎来第 30 届，周末时钟拨慢进入冬令时，还有埃因霍温对阵费耶诺德的联赛焦点战。正文为荷兰语，讲解用简体中文，全刊 A2–B2 分级、共 150 道练习，适合学荷兰语的读者做荷兰语阅读练习，在真实荷兰生活里积累表达。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

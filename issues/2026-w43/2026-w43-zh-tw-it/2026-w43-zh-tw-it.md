@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Traditional Chinese text · Italian explanations"
-excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+excerpt: "颱風昌皮遇上東北季風——台灣大賽與金鐘獎"
 abstract: "Lucerna VOL.1 è l'edizione in cinese tradizionale di Lucerna Weekly con spiegazioni in italiano: 8 pagine e 150 esercizi per i livelli A2–B2. A Taiwan la settimana è dominata dal forte tifone 薔琵 rafforzato dal monsone di nord-est, mentre la 台灣大賽 si apre con i Wei Chuan Dragons vittoriosi 3:0 davanti a 40.000 spettatori. Nel numero anche i premi 金鐘獎 61 del 23 e 24 ottobre, la festa del 重陽 a Hong Kong e il festival Wine & Dine. Per esercitare la lettura in cinese tradizionale tra Taiwan e Hong Kong."
 publishedAt: "2026-10-21"
 week: "2026-W43"

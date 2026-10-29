@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Dutch text · Simplified Chinese explanations"
-excerpt: "Nederland in de Klimaatweek: trees, museums and football — Museumnacht Amsterdam 7 November, Crossing Border Festival, and Eredivisie matchday 12"
+excerpt: "Nederland in de Klimaatweek: bomen, musea en voetbal — Museumnacht Amsterdam op 7 november, Crossing Border Festival en Eredivisie-speelronde 12"
 abstract: "De Lucerna 荷兰语周报 VOL.2：荷兰气候周 11 月 2–8 日，11 月 7 日阿姆斯特丹博物馆之夜，荷甲第 12 轮；正文荷兰语、讲解简体中文，A2–B2 分级，150 道练习，适合学荷兰语的读者通过荷兰新闻学荷兰语。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

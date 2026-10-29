@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Traditional Chinese text · Japanese explanations"
-excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+excerpt: "颱風昌皮遇上東北季風——台灣大賽與金鐘獎"
 abstract: "Lucerna VOL.1は台湾の中国語（繁体字）の週刊誌です。強い台風薔琵と東北季節風、台湾シリーズ第1戦（味全龍が3対0、満員の4万人）、第61回金鐘獎、香港の重陽節連休、美酒佳餚巡禮（Wine & Dine）を特集。A2からB2の記事と練習問題150題で、繁体字で中国語を読む練習に最適です。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

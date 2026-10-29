@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Spanish text · Traditional Chinese explanations"
-excerpt: "The 29-N countdown — housing decides the campaign, the puente weekend, and a Sunday double bill in Madrid"
+excerpt: "La cuenta atrás del 29-N — la vivienda decide la campaña, el fin de semana del puente y un domingo con doble cartel en Madrid"
 abstract: "La Lucerna 西班牙語週報 VOL.2：29-N 大選倒數 27 天，住房問題決定選戰走向，11 月 2 日星期一九個自治區的連假，11 月 8 日星期日伯納烏 NFL 與 21:00 的馬競對巴薩；正文西班牙語、講解繁體中文，A2–B2 分級，150 道練習，適合學西班牙語的台灣與香港讀者透過西班牙新聞學西班牙語。"
 publishedAt: "2026-11-02"
 week: "2026-W45"

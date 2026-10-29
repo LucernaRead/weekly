@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Portuguese text · Simplified Chinese explanations"
-excerpt: "Domingo é dia de decisão — the runoff Sunday"
+excerpt: "Domingo é dia de decisão — o domingo do segundo turno"
 abstract: "本期 A Lucerna（VOL.1）为巴西葡萄牙语版，正文葡语、简体中文讲解，主题是抉择之周日：10 月 25 日巴西选举第二轮投票，本期讲清如何投票、电子证件 e-Título 与电子投票机（urna eletrônica）的使用，还有 Globo 电视台的最终辩论、11 月来临的 ENEM 考试，以及南美杯半决赛瓦斯科迎战博卡青年。全刊 A2–B2 分级，共 150 道练习，适合学葡萄牙语、练葡语阅读的读者跟读巴西当周热点。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Traditional Chinese text · Spanish explanations"
-excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+excerpt: "颱風昌皮遇上東北季風——台灣大賽與金鐘獎"
 abstract: "Taiwán y Hong Kong protagonizan esta edición de Lucerna, el semanario en chino tradicional para lectores hispanohablantes: el fuerte tifón Champi se combina con el monzón del noreste mientras la Serie de Taiwán abre con victoria de los Wei Chuan Dragons por 3 a 0 ante 40.000 espectadores. La edición suma los premios Golden Bell, en su edición 61, los días 23 y 24 de octubre, el feriado del festival Chongyang en Hong Kong y el festival gastronómico Wine and Dine. Textos graduados A2–B2 y 150 ejercicios con explicación en español para aprender chino tradicional leyendo la región."
 publishedAt: "2026-10-21"
 week: "2026-W43"

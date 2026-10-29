@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Simplified Chinese text · German explanations"
-excerpt: "Double 11 tail-payment week — and the crabs are cheaper this year"
+excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "Schlusszahlungswoche beim Singles' Day: Lucerna VOL.1 begleitet auf Chinesisch (vereinfachte Zeichen), mit deutschen Erklärungen, die 双11-Woche — am 20. Oktober um 20 Uhr waren bei Tmall die Restbeträge fällig (付尾款). Dazu die neu auf dem Markt erschienenen Wollhandkrabben (大闸蟹) mit Preisen vom Xinfadi-Markt, der Termin 霜降 am 23. Oktober und ein Rückblick auf das 重阳-Fest vom 18. Oktober. 150 Übungen, Stufen A2–B2: Chinesisch lesen lernen mit Texten aus dem chinesischen Alltag dieser Woche."
 publishedAt: "2026-10-21"
 week: "2026-W43"

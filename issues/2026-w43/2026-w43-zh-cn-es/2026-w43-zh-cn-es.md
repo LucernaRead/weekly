@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Simplified Chinese text · Spanish explanations"
-excerpt: "Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up"
+excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "China entra en la semana del Doble 11 y Lucerna, el semanario en chino simplificado para lectores hispanohablantes, lo cuenta: el martes 20 a las 20:00 los compradores de Tmall pagan el saldo de sus pedidos. La edición visita además el mercado de Xinfadi para seguir los precios del cangrejo peludo, y repasa dos fechas del calendario tradicional: el término solar de Shuangjiang, la primera escarcha, el 23 de octubre, y el festival Chongyang, ya celebrado el día 18. Incluye textos A2–B2 y 150 ejercicios con explicación en español, ideales para aprender chino leyendo la vida real."
 publishedAt: "2026-10-21"
 week: "2026-W43"

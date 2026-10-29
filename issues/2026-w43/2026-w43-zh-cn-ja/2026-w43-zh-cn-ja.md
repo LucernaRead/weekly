@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Simplified Chinese text · Japanese explanations"
-excerpt: "Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up"
+excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "Lucerna VOL.1は中国語（簡体字）の週刊誌です。今週は「双11」の残金支払い週——10月20日20時の天猫の支払い開始、旬を迎えた大闸蟹と新発地の価格、二十四節気の霜降、そして過ぎた重陽節の振り返りまで。A2からB2の記事と練習問題150題で、中国語（簡体字）の読解練習にどうぞ。"
 publishedAt: "2026-10-21"
 week: "2026-W43"

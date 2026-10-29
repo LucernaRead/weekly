@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Traditional Chinese text · French explanations"
-excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
+excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
 abstract: "Lucerna, hebdomadaire en chinois traditionnel du 2 au 8 novembre 2026 : Semaine FinTech de Hong Kong, Salon international du voyage de Taipei, titre des Dragons de Wei Chuan en Série de Taïwan, Lidong, Halloween à Tianmu et festival de sculpture sur acier de Kaohsiung — 150 exercices du niveau A2 au niveau B2 pour apprendre le chinois traditionnel en lisant."
 publishedAt: "2026-11-02"
 week: "2026-W45"

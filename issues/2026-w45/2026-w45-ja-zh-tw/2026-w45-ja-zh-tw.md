@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Japanese text · Traditional Chinese explanations"
-excerpt: "Culture Day and autumn leaves, Kobe Luminarie, Reading Week, the Japan Series in Yokohama, and Shibuya Halloween"
+excerpt: "文化の日と紅葉、神戸ルミナリエ、読書週間、横浜での日本シリーズ、渋谷ハロウィーン"
 abstract: "日語週報 VOL.2：文化日、紅葉週末、讀書週與輕鬆食養，150題 A2–B2 練習，給繁體中文讀者的日語學習週報；學日語、看懂日本新聞、紅葉與文化日的日語怎麼說"
 publishedAt: "2026-11-02"
 week: "2026-W45"

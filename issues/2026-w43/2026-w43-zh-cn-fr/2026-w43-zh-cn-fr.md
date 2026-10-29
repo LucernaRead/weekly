@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Simplified Chinese text · French explanations"
-excerpt: "Double 11 tail-payment week — and the crabs are cheaper this year"
+excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "Lucerna (VOL.1) raconte en chinois simplifié la semaine du Double 11 (双11) : mardi 20 octobre à 20 h 00, les acheteurs règlent sur Tmall le solde de leurs précommandes (付尾款), pendant que les crabes velus (大闸蟹) arrivent sur les marchés, prix relevés à Xinfadi. Le numéro traverse aussi Shuangjiang (霜降, le 23 octobre), la descente du givre, et revient sur la fête de Chongyang (重阳) du 18 octobre. Pour apprendre le chinois simplifié en lisant : textes de A2 à B2, explications en français, 150 exercices."
 publishedAt: "2026-10-21"
 week: "2026-W43"

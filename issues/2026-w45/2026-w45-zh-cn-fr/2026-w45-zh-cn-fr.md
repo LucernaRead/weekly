@@ -1,6 +1,6 @@
 ---
 title: "VOL.2 · Simplified Chinese text · French explanations"
-excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
+excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
 abstract: "Lucerna, hebdomadaire chinois pour lecteurs francophones : ventes de stock du Double 11 et remises directes, début de l'hiver le samedi 7 novembre, quarts de finale du Mondial S16 de League of Legends, film IA Sanxingdui Future Past et nouveau film We Only Have One Life, avec des exercices de chinois de niveau A2 à B2, 150 questions, vocabulaire, grammaire et corrigés — apprendre le chinois en lisant de vraies infos chinoises."
 publishedAt: "2026-11-02"
 week: "2026-W45"

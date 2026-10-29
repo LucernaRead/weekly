@@ -1,6 +1,6 @@
 ---
 title: "VOL.1 · Traditional Chinese text · Korean explanations"
-excerpt: "Typhoon Champi meets the northeast monsoon — the Taiwan Series and the Golden Bell Awards"
+excerpt: "颱風昌皮遇上東北季風——台灣大賽與金鐘獎"
 abstract: "Lucerna VOL.1은 강한 태풍 참피(薔琵)와 동북 계절풍이 겹친 대만의 날씨, 4만 관중 앞 웨이취안 드래건스의 3대 0 승리로 끝난 대만 시리즈 1차전, 제61회 금종장 소식을 번체 중국어 원문으로 읽는 호입니다. A2–B2 지문과 연습 문제 150개로 중국어 독해 실력을 기를 수 있습니다."
 publishedAt: "2026-10-21"
 week: "2026-W43"
