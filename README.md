@@ -76,7 +76,9 @@ listing costs a single upstream request; without it, every edition's `.md`
 would have to be fetched individually (and the unauthenticated GitHub API
 allows only 60 requests/hour/IP). Sort order is fixed in the gate — week
 descending, then target language, then native language — never left to
-consumers. If you edit an `.md` and forget `--write`, the default mode
+consumers. The index also carries a `covers` section — one static HTML
+cover block per week per language — so the site can locate each week's
+cover without scanning the tree. If you edit an `.md` and forget `--write`, the default mode
 compares and fails: a drifted index would silently show stale data.
 
 ## PDFs
