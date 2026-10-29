@@ -32,8 +32,11 @@
  *      md 的 frontmatter 声明 pdf 文件名、字节数与 SHA-256,
  *      PDF 实体在仓内时必须与声明逐字节吻合(哈希对不上 = 文件被换过或传坏了)。
  *   4. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
+ *   4. **文本层** —— 版本目录里的 PDF 必须带可提取文本层(pdftotext 能提出文字);
+ *      图片版 PDF 没有文本层,站点 SEO 读不到,不进仓。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 
@@ -198,6 +201,17 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
       }
       const sha = createHash('sha256').update(data).digest('hex');
       if (sha !== fm.pdfSha256) fail(where, 'PDF 的 SHA-256 与 frontmatter 声明不符');
+      // 文本层:pdftotext 能提出文字才算有文本层;图片版 PDF 只有图片,没有文字。
+      // pdftotext 是 poppler 的工具(ubuntu-latest runner 自带);本地没有时报错明示,不静默放行。
+      try {
+        const text = execFileSync('pdftotext', [pdfPath, '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+        if (text.replace(/\s/g, '').length === 0) {
+          fail(where, 'PDF 没有可提取文本层(图片版 PDF 不进仓,先用 webpdf.py 生成带文本层的网页版)');
+        }
+      } catch (e) {
+        if (e.code === 'ENOENT') fail(where, 'PDF 文本层校验需要 pdftotext(安装 poppler-utils 后再跑)');
+        else fail(where, `PDF 文本层校验失败:${e.message}`);
+      }
     } else if (requirePdf) {
       fail(rel, 'PDF 实体不在仓内(--require-pdf)');
     }
