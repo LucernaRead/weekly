@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-ko.pdf"
-pdfBytes: 622110
-pdfSha256: "c9ad3b3a940cd16a87576d857abd42ecf88e17aa69440574decacde8663477c0"
+pdfBytes: 607242
+pdfSha256: "c3a838cb516f9c65b373b9035dc299355c3e16012eaf86a8acdbb0266ad229cd"
 ---
 
 주간 표지, 한국어 독자를 위해: 이번 주 12개 언어의 1면 헤드라인을 한 권에 모았습니다. 원문 헤드라인과 발췌문에 한국어 설명을 더했습니다. 2026년 11월 2일부터 11월 8일까지의 주간.

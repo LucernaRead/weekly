@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-it.pdf"
-pdfBytes: 409248
-pdfSha256: "890c993a5b83aa081dd3432484eb9e3374b3527056c09a674aaaa4bc53bbf6f1"
+pdfBytes: 395148
+pdfSha256: "7c5b340d17fe71418d84d162bd8ac6054d6190d32982cf6a839944892adf4cce"
 ---
 
 Copertina settimanale per lettori italiani: i 12 titoli principali della settimana, uno per lingua, con estratti e spiegazioni in italiano. Settimana dal 2 all’8 novembre 2026.

@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-fr.pdf"
-pdfBytes: 344301
-pdfSha256: "01df9c3247675d9e20f062c89d21d1a6bf2fe12fe63bca016b8652d0589803f4"
+pdfBytes: 339640
+pdfSha256: "eb91f1ca82525e0a10f920d3b22db5f66dd1a07ab296e7d37494dd7e697039f3"
 ---
 
 Couverture hebdomadaire pour les lecteurs français : les 12 titres principaux de la semaine, un par langue, avec extraits et explications en français. Semaine du 2 au 8 novembre 2026.

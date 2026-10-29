@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "La-Lucerna-COVER-W43.pdf"
-pdfBytes: 352550
-pdfSha256: "2687aa56661317b3bf326855d36ef468d26db044b7f9603a8a62608bfc9b7217"
+pdfBytes: 348377
+pdfSha256: "58ea7b32d828a5250fa4cd031b25cb7da3856f0f3c32b44925e5423987637c8b"
 ---
 
 Copertina settimanale per i lettori italiani: i 12 titoli principali della settimana, uno per lingua, con estratti e spiegazioni in italiano. Settimana dal 19 al 25 ottobre 2026.

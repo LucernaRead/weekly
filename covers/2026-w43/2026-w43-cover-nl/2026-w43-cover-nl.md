@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-nl.pdf"
-pdfBytes: 376514
-pdfSha256: "b96fadcbe131a199f00c2d46220838ef6913c01a143ec0e9036f966a5d8b421d"
+pdfBytes: 372522
+pdfSha256: "c07b9967476520c30312442a507ce7a43d4d6319f0261a4f3e7c6d3e67bccc77"
 ---
 
 Wekelijkse cover voor Nederlandse lezers: de 12 hoofdkoppen van de week, één per taal, met citaten en uitleg in het Nederlands. Week van 19 tot 25 oktober 2026.

@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-en.pdf"
-pdfBytes: 404990
-pdfSha256: "6e0770a64032c5b8a2653601a3a0eac602cc4f37477db51c395439ce523efa32"
+pdfBytes: 400522
+pdfSha256: "0cc5a035dc4fe51f8652a8f9eb8f6568add093d7b6000460d451778012c09ccd"
 ---
 
 Weekly cover for English readers: the 12 front-page headlines of the week, one per language, with excerpts and explanations in English. Week of October 19–25, 2026.

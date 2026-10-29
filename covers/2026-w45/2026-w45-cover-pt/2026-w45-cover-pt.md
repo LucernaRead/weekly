@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-pt.pdf"
-pdfBytes: 426351
-pdfSha256: "5d76593986616e3a0867f8485d5d5dae9b4fa24f22aecb7806899b6d131820e0"
+pdfBytes: 411864
+pdfSha256: "dbb3bec3fbbe756e9922b80b960319a7a06923c55c290449cd2bb8d1c13424da"
 ---
 
 Portada semanal para leitores de português: os 12 títulos principais da semana, um por língua, com excertos e explicações em português. Semana de 2 a 8 de novembro de 2026.

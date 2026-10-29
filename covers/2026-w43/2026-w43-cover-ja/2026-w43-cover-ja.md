@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-ja.pdf"
-pdfBytes: 647532
-pdfSha256: "1f671155d42ed9152d692029ba2c5436c369e5c425b42e287ecc87adbf3a76e9"
+pdfBytes: 630286
+pdfSha256: "c7872fa81efb825fe7208f5f50eef0d81b81d69b564276565468b9c7a4e2dbb3"
 ---
 
 週刊カバー、日本語の読者のために：今週の12の言語の第一面の見出しを一冊に集めました。原文の見出しと抜粋に日本語の解説を添えています。2026年10月19日から10月25日までの週。

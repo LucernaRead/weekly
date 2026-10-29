@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-ko.pdf"
-pdfBytes: 662651
-pdfSha256: "5b4ec13c8ed5056ca745ddec3d41fd49f42ec1f45f9dd4b16252f1213da8ea2b"
+pdfBytes: 648084
+pdfSha256: "046559117b5947155cb22382b71ec012d827a604d24c1f8fcdd01079d924177d"
 ---
 
 주간 표지, 한국어 독자를 위해: 이번 주 12개 언어의 1면 헤드라인을 한 권에 모았습니다. 원문 헤드라인과 발췌문에 한국어 설명을 더했습니다. 2026년 10월 19일부터 10월 25일까지의 주간.
