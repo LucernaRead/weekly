@@ -31,7 +31,7 @@ headlines:
     headline: "双11到了「付尾款」的这一周"
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
-pdf: "A-Lucerna-COVER-W43-web.pdf"
+pdf: "cover-w43-pt.pdf"
 pdfBytes: 389310
 pdfSha256: "a23c6afbfcc320fef648c7e2a5cf9e71a953a92bf1f571517290c871745a78d9"
 ---
