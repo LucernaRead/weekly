@@ -31,12 +31,12 @@
  *   3. **自包含** —— 版本目录里只许有 <slug>.md 和 <slug>.pdf;
  *      md 的 frontmatter 声明 pdf 文件名、字节数与 SHA-256,
  *      PDF 实体在仓内时必须与声明逐字节吻合(哈希对不上 = 文件被换过或传坏了)。
- *   4. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
  *   4. **文本层** —— 版本目录里的 PDF 必须带可提取文本层(pdftotext 能提出文字);
  *      图片版 PDF 没有文本层,站点 SEO 读不到,不进仓。
- *   4. **封面块零交互** —— 仓内任何 .html 不得含交互元素
+ *   5. **封面块零交互** —— 仓内任何 .html 不得含交互元素
  *      (脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等),只留静态内容;
  *      没有 .html 时此条空过,主线保持绿。
+ *   6. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -48,7 +48,7 @@ const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko', 'zh-c
 const ROOT_ALLOW = new Set([
   'issues', 'lint.mjs', 'index.json', 'README.md', 'AGENTS.md', 'CLAUDE.md',
   '.git', '.husky', 'package.json', 'package-lock.json', 'node_modules',
-  '.github', '.gitignore',
+  '.github', '.gitignore', 'covers',
 ]);
 const REQUIRED_FM = [
   'title', 'excerpt', 'abstract', 'publishedAt', 'week', 'weekStart', 'weekEnd', 'vol',
