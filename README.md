@@ -78,7 +78,12 @@ allows only 60 requests/hour/IP). Sort order is fixed in the gate — week
 descending, then target language, then native language — never left to
 consumers. The index also carries a `covers` section — one static HTML
 cover block per week per language — so the site can locate each week's
-cover without scanning the tree. If you edit an `.md` and forget `--write`, the default mode
+cover without scanning the tree. Each entry carries the block's byte size
+and SHA-256 (computed from the file by the gate), so the site can verify
+its copy. A cover block has no links; its `<body data-story-langs="…">`
+names the target language of each `<article>` in document order, and the
+site turns each story into a link to that language's edition (see
+AGENTS.md, "加封面"). If you edit an `.md` and forget `--write`, the default mode
 compares and fails: a drifted index would silently show stale data.
 
 ## PDFs

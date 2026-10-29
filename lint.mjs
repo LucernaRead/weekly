@@ -50,6 +50,10 @@
  *   7. **封面块进索引** —— covers/ 下每语种目录至多一个 .html,语种须在 12 语种列表内;
  *      有 .html 的才进索引(只有印刷版 md/pdf、没有 .html 的目录不进索引);
  *      索引的 covers 一节按周倒序、语种按 LANGS 序排列,站点凭它找到每期每语种的封面。
+ *      每条带 slug(封面目录名)和 html 的字节数、SHA-256(从文件实算),站点镜像时据此验真。
+ *   8. **封面块标出每篇报道的学习语言** —— <body> 上写 data-story-langs="<语种> <语种> …",
+ *      按文档顺序依次对应每个 <article>:12 个语种各出现一次,<article> 恰好 12 个。
+ *      站点凭它把每篇报道变成「学这种语言、用本封面读者语言讲解」那一版的入口(封面块本身仍零交互)。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -355,17 +359,42 @@ if (existsSync(coversDir)) {
         continue;
       }
       const mdName = `${coverDirName}.md`;
+      const htmlRel = `${rel}/${htmls[0]}`;
+      const htmlData = readFileSync(join(dir, htmls[0]));
+      checkStoryLangs(htmlData.toString('utf8'), htmlRel);
       covers.push({
+        slug: coverDirName,
         week: weekDirName,
         lang,
         dir: rel,
-        html: `${rel}/${htmls[0]}`,
+        html: htmlRel,
+        htmlBytes: htmlData.length,
+        htmlSha256: createHash('sha256').update(htmlData).digest('hex'),
         md: files.includes(mdName) ? `${rel}/${mdName}` : null,
         pdf: pdfs.length === 1 ? `${rel}/${pdfs[0]}` : null,
       });
     }
   }
 }
+/** 规则 8:<body data-story-langs> 列出 12 个语种各一次,且与 <article> 一一对应(按文档顺序)。 */
+function checkStoryLangs(text, where) {
+  const m = text.match(/<body\b[^>]*\sdata-story-langs\s*=\s*"([^"]*)"/i);
+  if (!m) {
+    fail(where, '封面块 <body> 缺少 data-story-langs(按顺序列出每篇 <article> 的学习语言,见 AGENTS.md「加封面」)');
+    return;
+  }
+  const langs = m[1].trim().split(/\s+/).filter(Boolean);
+  const unknown = langs.filter((l) => !LANGS.includes(l));
+  if (unknown.length) fail(where, `data-story-langs 里有未知语种 ${unknown.join(' ')}`);
+  const missing = LANGS.filter((l) => !langs.includes(l));
+  if (missing.length) fail(where, `data-story-langs 缺少语种 ${missing.join(' ')}`);
+  if (new Set(langs).size !== langs.length) fail(where, 'data-story-langs 里有重复语种');
+  const articles = (text.match(/<article\b/gi) ?? []).length;
+  if (articles !== langs.length) {
+    fail(where, `data-story-langs 列了 ${langs.length} 个语种,但封面块里有 ${articles} 个 <article>,两者必须一一对应`);
+  }
+}
+
 covers.sort((a, b) =>
   b.week.localeCompare(a.week) ||
   LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
