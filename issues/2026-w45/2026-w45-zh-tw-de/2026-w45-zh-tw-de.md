@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Traditional Chinese text · German explanations"
 excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
-abstract: "Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch lernen durch die Nachrichten dieser Woche aus Taiwan und Hongkong."
+abstract: "Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch üben mit den Themen dieser Woche aus Taiwan und Hongkong."
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## Zusammenfassung
 
-Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch lernen durch die Nachrichten dieser Woche aus Taiwan und Hongkong.
+Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch üben mit den Themen dieser Woche aus Taiwan und Hongkong.

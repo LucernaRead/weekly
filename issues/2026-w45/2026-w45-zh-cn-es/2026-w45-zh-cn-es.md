@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Simplified Chinese text · Spanish explanations"
 excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
-abstract: "Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — aprende chino leyendo noticias reales en chino."
+abstract: "Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — practica chino con los temas de la semana."
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## Resumen
 
-Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — aprende chino leyendo noticias reales en chino.
+Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — practica chino con los temas de la semana.

@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Portuguese text · Simplified Chinese explanations"
 excerpt: "A semana do Enem: fim de semana prolongado de Finados em 2 de novembro, dia 1 do Enem no domingo, 8 de novembro, e o jogo de volta das semifinais da Copa do Brasil"
-abstract: "A Lucerna 葡萄牙语周报 VOL.2（巴西版）：Enem 考试周，11 月 2 日星期一亡灵节长周末，11 月 8 日星期日 Enem 第一天（写作、人文与语言），巴西杯半决赛次回合；正文葡萄牙语、讲解简体中文，A2–B2 分级，150 道练习，适合学葡萄牙语的读者通过巴西新闻学葡萄牙语。"
+abstract: "A Lucerna 葡萄牙语周报 VOL.2（巴西版）：Enem 考试周，11 月 2 日星期一亡灵节长周末，11 月 8 日星期日 Enem 第一天（写作、人文与语言），巴西杯半决赛次回合；正文葡萄牙语、讲解简体中文，A2–B2 分级，适合学葡萄牙语的读者做以本周话题为素材的150道练习。"
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## 摘要
 
-A Lucerna 葡萄牙语周报 VOL.2（巴西版）：Enem 考试周，11 月 2 日星期一亡灵节长周末，11 月 8 日星期日 Enem 第一天（写作、人文与语言），巴西杯半决赛次回合；正文葡萄牙语、讲解简体中文，A2–B2 分级，150 道练习，适合学葡萄牙语的读者通过巴西新闻学葡萄牙语。
+A Lucerna 葡萄牙语周报 VOL.2（巴西版）：Enem 考试周，11 月 2 日星期一亡灵节长周末，11 月 8 日星期日 Enem 第一天（写作、人文与语言），巴西杯半决赛次回合；正文葡萄牙语、讲解简体中文，A2–B2 分级，适合学葡萄牙语的读者做以本周话题为素材的150道练习。

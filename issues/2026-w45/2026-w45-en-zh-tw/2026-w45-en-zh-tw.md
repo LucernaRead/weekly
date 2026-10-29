@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · English text · Traditional Chinese explanations"
 excerpt: "America votes — Election Day, the clocks fall back, and a Sunday of NFL in Madrid and F1 in São Paulo"
-abstract: "The Lucerna 英語週報 VOL.2：美國中期選舉投票日 11 月 3 日星期二、11 月 1 日時鐘撥回、11 月 6 日星期五電影《貓帽子》與《哥斯拉-1.0》、11 月 8 日星期日 NFL 馬德里賽與聖保羅 F1；正文英語、講解繁體中文，A2–B2 分級，150 道練習，適合學英語的讀者通過美國新聞學英語。"
+abstract: "The Lucerna 英語週報 VOL.2：美國中期選舉投票日 11 月 3 日星期二、11 月 1 日時鐘撥回、11 月 6 日星期五電影《貓帽子》與《哥斯拉-1.0》、11 月 8 日星期日 NFL 馬德里賽與聖保羅 F1；正文英語、講解繁體中文，A2–B2 分級，適合學英語的讀者做以本週話題為素材的150道練習。"
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## 摘要
 
-The Lucerna 英語週報 VOL.2：美國中期選舉投票日 11 月 3 日星期二、11 月 1 日時鐘撥回、11 月 6 日星期五電影《貓帽子》與《哥斯拉-1.0》、11 月 8 日星期日 NFL 馬德里賽與聖保羅 F1；正文英語、講解繁體中文，A2–B2 分級，150 道練習，適合學英語的讀者通過美國新聞學英語。
+The Lucerna 英語週報 VOL.2：美國中期選舉投票日 11 月 3 日星期二、11 月 1 日時鐘撥回、11 月 6 日星期五電影《貓帽子》與《哥斯拉-1.0》、11 月 8 日星期日 NFL 馬德里賽與聖保羅 F1；正文英語、講解繁體中文，A2–B2 分級，適合學英語的讀者做以本週話題為素材的150道練習。

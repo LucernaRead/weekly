@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Traditional Chinese text · Italian explanations"
 excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
-abstract: "Lucerna, il settimanale in cinese tradizionale per lettori italiani: Hong Kong FinTech Week, Fiera Internazionale del Turismo di Taipei, Wei Chuan Dragons campioni della Taiwan Series, Lìdōng e il festival dell'acciaio di Kaohsiung, finale delle sculture di sabbia di Fulong e Halloween a Tianmu — impara il cinese leggendo le notizie vere, come si dice in cinese, con 150 esercizi dal livello A2 al B2."
+abstract: "Lucerna, il settimanale in cinese tradizionale per lettori italiani: Hong Kong FinTech Week, Fiera Internazionale del Turismo di Taipei, Wei Chuan Dragons campioni della Taiwan Series, Lìdōng e il festival dell'acciaio di Kaohsiung, finale delle sculture di sabbia di Fulong e Halloween a Tianmu — esercizi per esercitarsi sui temi della settimana, come si dice in cinese, con 150 esercizi dal livello A2 al B2."
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## Riassunto
 
-Lucerna, il settimanale in cinese tradizionale per lettori italiani: Hong Kong FinTech Week, Fiera Internazionale del Turismo di Taipei, Wei Chuan Dragons campioni della Taiwan Series, Lìdōng e il festival dell'acciaio di Kaohsiung, finale delle sculture di sabbia di Fulong e Halloween a Tianmu — impara il cinese leggendo le notizie vere, come si dice in cinese, con 150 esercizi dal livello A2 al B2.
+Lucerna, il settimanale in cinese tradizionale per lettori italiani: Hong Kong FinTech Week, Fiera Internazionale del Turismo di Taipei, Wei Chuan Dragons campioni della Taiwan Series, Lìdōng e il festival dell'acciaio di Kaohsiung, finale delle sculture di sabbia di Fulong e Halloween a Tianmu — esercizi per esercitarsi sui temi della settimana, come si dice in cinese, con 150 esercizi dal livello A2 al B2.

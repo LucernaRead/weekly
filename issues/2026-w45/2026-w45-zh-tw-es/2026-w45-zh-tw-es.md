@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Traditional Chinese text · Spanish explanations"
 excerpt: "香港金融科技週、台北國際旅展、台灣大賽冠軍與天母萬聖節"
-abstract: "Lucerna VOL.2, semanario de chino tradicional para hispanohablantes, niveles A2 a B2, 150 ejercicios: Semana FinTech de Hong Kong, Feria Internacional de Viajes de Taipéi, campeonato de los Wei Chuan Dragons en la Serie de Taiwán, Lidong o Inicio del Invierno, Festival de Escultura en Acero de Kaohsiung y Halloween en Tianmu — aprende chino tradicional leyendo las noticias de esta semana en Taiwán y Hong Kong."
+abstract: "Lucerna VOL.2, semanario de chino tradicional para hispanohablantes, niveles A2 a B2, 150 ejercicios: Semana FinTech de Hong Kong, Feria Internacional de Viajes de Taipéi, campeonato de los Wei Chuan Dragons en la Serie de Taiwán, Lidong o Inicio del Invierno, Festival de Escultura en Acero de Kaohsiung y Halloween en Tianmu — practica chino tradicional con los temas de esta semana en Taiwán y Hong Kong."
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## Resumen
 
-Lucerna VOL.2, semanario de chino tradicional para hispanohablantes, niveles A2 a B2, 150 ejercicios: Semana FinTech de Hong Kong, Feria Internacional de Viajes de Taipéi, campeonato de los Wei Chuan Dragons en la Serie de Taiwán, Lidong o Inicio del Invierno, Festival de Escultura en Acero de Kaohsiung y Halloween en Tianmu — aprende chino tradicional leyendo las noticias de esta semana en Taiwán y Hong Kong.
+Lucerna VOL.2, semanario de chino tradicional para hispanohablantes, niveles A2 a B2, 150 ejercicios: Semana FinTech de Hong Kong, Feria Internacional de Viajes de Taipéi, campeonato de los Wei Chuan Dragons en la Serie de Taiwán, Lidong o Inicio del Invierno, Festival de Escultura en Acero de Kaohsiung y Halloween en Tianmu — practica chino tradicional con los temas de esta semana en Taiwán y Hong Kong.

@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · German text · Simplified Chinese explanations"
 excerpt: "Englische Woche in Deutschland: vier Fußballabende, dann der 9. Spieltag — Tankrabatt bis Silvester, Ferienwechsel und die Pflegedebatte"
-abstract: "Die Lucerna 德语周报 VOL.2：欧冠、欧联与德甲第 9 轮的密集赛程周，燃油折扣延至年底、假期交替与护理辩论；正文德语、讲解简体中文，A2–B2 分级，150 道练习，适合学德语的读者通过德国新闻学德语。"
+abstract: "Die Lucerna 德语周报 VOL.2：欧冠、欧联与德甲第 9 轮的密集赛程周，燃油折扣延至年底、假期交替与护理辩论；正文德语、讲解简体中文，A2–B2 分级，适合学德语的读者做以本周话题为素材的150道练习。"
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## 摘要
 
-Die Lucerna 德语周报 VOL.2：欧冠、欧联与德甲第 9 轮的密集赛程周，燃油折扣延至年底、假期交替与护理辩论；正文德语、讲解简体中文，A2–B2 分级，150 道练习，适合学德语的读者通过德国新闻学德语。
+Die Lucerna 德语周报 VOL.2：欧冠、欧联与德甲第 9 轮的密集赛程周，燃油折扣延至年底、假期交替与护理辩论；正文德语、讲解简体中文，A2–B2 分级，适合学德语的读者做以本周话题为素材的150道练习。

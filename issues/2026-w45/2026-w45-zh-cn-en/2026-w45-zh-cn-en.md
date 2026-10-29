@@ -1,7 +1,7 @@
 ---
 title: "VOL.2 · Simplified Chinese text · English explanations"
 excerpt: "双11购物预热、11月7日立冬、S16电竞10月27日截止与11月8日记者节"
-abstract: "Lucerna Simplified Chinese Weekly VOL.2 for English-speaking readers learning Chinese through real news: Double 11 spot sales and simpler direct discounts, Start of Winter on Saturday November 7, League of Legends Worlds S16 quarter-finals, the AI film Sanxingdui Future Past, and the winter film We Only Have One Life, with A2 to B2 exercises, 150 questions, vocabulary, grammar and answer keys — learn Chinese by reading real Chinese news."
+abstract: "Lucerna Simplified Chinese Weekly VOL.2 for English-speaking readers practicing Chinese with this week's topics: Double 11 spot sales and simpler direct discounts, Start of Winter on Saturday November 7, League of Legends Worlds S16 quarter-finals, the AI film Sanxingdui Future Past, and the winter film We Only Have One Life, with A2 to B2 exercises, 150 questions, vocabulary, grammar and answer keys — practice Chinese with this week's Chinese topics."
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
@@ -27,4 +27,4 @@ draft: false
 
 ## Abstract
 
-Lucerna Simplified Chinese Weekly VOL.2 for English-speaking readers learning Chinese through real news: Double 11 spot sales and simpler direct discounts, Start of Winter on Saturday November 7, League of Legends Worlds S16 quarter-finals, the AI film Sanxingdui Future Past, and the winter film We Only Have One Life, with A2 to B2 exercises, 150 questions, vocabulary, grammar and answer keys — learn Chinese by reading real Chinese news.
+Lucerna Simplified Chinese Weekly VOL.2 for English-speaking readers practicing Chinese with this week's topics: Double 11 spot sales and simpler direct discounts, Start of Winter on Saturday November 7, League of Legends Worlds S16 quarter-finals, the AI film Sanxingdui Future Past, and the winter film We Only Have One Life, with A2 to B2 exercises, 150 questions, vocabulary, grammar and answer keys — practice Chinese with this week's Chinese topics.
