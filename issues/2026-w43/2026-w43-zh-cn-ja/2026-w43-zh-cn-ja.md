@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.1 · Simplified Chinese text · Japanese explanations"
+title: "VOL.1 · Simplified Chinese text · Japanese explanations"
 excerpt: "Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up"
 abstract: "Lucerna VOL.1は中国語（簡体字）の週刊誌です。今週は「双11」の残金支払い週——10月20日20時の天猫の支払い開始、旬を迎えた大闸蟹と新発地の価格、二十四節気の霜降、そして過ぎた重陽節の振り返りまで。A2からB2の記事と練習問題150題で、中国語（簡体字）の読解練習にどうぞ。"
 publishedAt: "2026-10-21"
@@ -22,12 +22,8 @@ pdfSha256: b96230a26561bac9350c49f76c7092191aa5a91c60b519eb422bcb59d88dc2a5
 discordThread: "1562312827774042172"
 draft: false
 ---
-# Lucerna VOL.1 · Simplified Chinese text · Japanese explanations
-
-Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up
+# VOL.1 · Simplified Chinese text · Japanese explanations
 
 ## 概要
 
 Lucerna VOL.1は中国語（簡体字）の週刊誌です。今週は「双11」の残金支払い週——10月20日20時の天猫の支払い開始、旬を迎えた大闸蟹と新発地の価格、二十四節気の霜降、そして過ぎた重陽節の振り返りまで。A2からB2の記事と練習問題150題で、中国語（簡体字）の読解練習にどうぞ。
-
-Simplified Chinese text with explanations written in Japanese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Japanese text · Simplified Chinese explanations"
+title: "VOL.2 · Japanese text · Simplified Chinese explanations"
 excerpt: "Culture Day and autumn leaves, Kobe Luminarie, Reading Week, the Japan Series in Yokohama, and Shibuya Halloween"
 abstract: "Lucerna日语版VOL.2：11月3日文化日、金泽传统工艺展、红叶周末与神户灯光秀、读书周、ゆる整え食、日本大赛横滨两场延长赛、万圣节涩谷规则与秋日祭典、暖和的11月；中文讲解的日语学习周报，A2到B2分级，共150道练习，适合想通过读日语新闻学日语的读者。"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312944123904102"
 draft: false
 ---
 
-# Lucerna VOL.2 · Japanese text · Simplified Chinese explanations
-
-Culture Day and autumn leaves, Kobe Luminarie, Reading Week, the Japan Series in Yokohama, and Shibuya Halloween
+# VOL.2 · Japanese text · Simplified Chinese explanations
 
 ## 摘要
 
 Lucerna日语版VOL.2：11月3日文化日、金泽传统工艺展、红叶周末与神户灯光秀、读书周、ゆる整え食、日本大赛横滨两场延长赛、万圣节涩谷规则与秋日祭典、暖和的11月；中文讲解的日语学习周报，A2到B2分级，共150道练习，适合想通过读日语新闻学日语的读者。
-
-Japanese text with explanations written in Simplified Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

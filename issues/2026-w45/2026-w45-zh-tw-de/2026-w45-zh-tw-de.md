@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Traditional Chinese text · German explanations"
+title: "VOL.2 · Traditional Chinese text · German explanations"
 excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
 abstract: "Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch lernen durch die Nachrichten dieser Woche aus Taiwan und Hongkong."
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312921759875144"
 draft: false
 ---
 
-# Lucerna VOL.2 · Traditional Chinese text · German explanations
-
-Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween
+# VOL.2 · Traditional Chinese text · German explanations
 
 ## Zusammenfassung
 
 Lucerna Chinesische Wochenzeitung VOL.2 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Hong Kong FinTech Week, Taipei International Travel Fair, Wei Chuan Dragons Taiwan Series Meisterschaft, Lidong Winterbeginn, Kaohsiung Stahlskulpturen-Festival und Tianmu Halloween — Traditionelles Chinesisch lernen durch die Nachrichten dieser Woche aus Taiwan und Hongkong.
-
-Traditional Chinese text with explanations written in German. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

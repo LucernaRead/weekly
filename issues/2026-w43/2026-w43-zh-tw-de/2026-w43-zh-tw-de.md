@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.1 · Traditional Chinese text · German explanations"
+title: "VOL.1 · Traditional Chinese text · German explanations"
 excerpt: "Typhoon and the north-east monsoon — a week that watches the sky"
 abstract: "Sturmwarnung und Baseballfieber: Lucerna VOL.1 berichtet auf Chinesisch (traditionelle Zeichen), mit deutschen Erklärungen, über den starken Taifun 薔琵 samt Nordostmonsun, den Auftakt der 台灣大賽 — Spiel 1 gewannen die 味全龍 mit 3:0 vor 40.000 Zuschauern —, die 61. 金鐘獎-Verleihung am 23. und 24. Oktober, den 重陽-Feiertag in Hongkong und das Wine & Dine-Festival (美酒佳餚巡禮). 150 Übungen auf den Stufen A2–B2 für alle, die Chinesisch mit traditionellen Schriftzeichen lesen lernen möchten."
 publishedAt: "2026-10-21"
@@ -22,12 +22,8 @@ pdfSha256: d679b0046b025aeedfa3545be538d8231f163f522b3bb9680ea4e1e392ed17c0
 discordThread: "1562312921759875144"
 draft: false
 ---
-# Lucerna VOL.1 · Traditional Chinese text · German explanations
-
-Typhoon and the north-east monsoon — a week that watches the sky.
+# VOL.1 · Traditional Chinese text · German explanations
 
 ## Zusammenfassung
 
 Sturmwarnung und Baseballfieber: Lucerna VOL.1 berichtet auf Chinesisch (traditionelle Zeichen), mit deutschen Erklärungen, über den starken Taifun 薔琵 samt Nordostmonsun, den Auftakt der 台灣大賽 — Spiel 1 gewannen die 味全龍 mit 3:0 vor 40.000 Zuschauern —, die 61. 金鐘獎-Verleihung am 23. und 24. Oktober, den 重陽-Feiertag in Hongkong und das Wine & Dine-Festival (美酒佳餚巡禮). 150 Übungen auf den Stufen A2–B2 für alle, die Chinesisch mit traditionellen Schriftzeichen lesen lernen möchten.
-
-Traditional Chinese text with explanations written in German. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

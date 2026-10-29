@@ -1,5 +1,5 @@
 ---
-title: "La Lucerna VOL.2 · Italian text · Simplified Chinese explanations"
+title: "VOL.2 · Italian text · Simplified Chinese explanations"
 excerpt: "Arriva il primo freddo: Forum Cultura Milan, Panettone World Cup final, Torrone festival in Cremona, and Serie A matchday 11"
 abstract: "La Lucerna VOL.2，2026年11月2–8日一周：第一场寒冷、米兰文化论坛、潘妮托尼世界杯决赛、克雷莫纳牛轧糖节、意甲第11轮——读真实的意大利，学意大利语，A2–B2，150道练习附答案。"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312655073452062"
 draft: false
 ---
 
-# La Lucerna VOL.2 · Italian text · Simplified Chinese explanations
-
-Arriva il primo freddo: Forum Cultura Milan, Panettone World Cup final, Torrone festival in Cremona, and Serie A matchday 11
+# VOL.2 · Italian text · Simplified Chinese explanations
 
 ## 摘要
 
 La Lucerna VOL.2，2026年11月2–8日一周：第一场寒冷、米兰文化论坛、潘妮托尼世界杯决赛、克雷莫纳牛轧糖节、意甲第11轮——读真实的意大利，学意大利语，A2–B2，150道练习附答案。
-
-Italian text with explanations written in Simplified Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

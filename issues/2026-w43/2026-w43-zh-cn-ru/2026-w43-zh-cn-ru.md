@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.1 · Simplified Chinese text · Russian explanations"
+title: "VOL.1 · Simplified Chinese text · Russian explanations"
 excerpt: "Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up"
 abstract: "Неделя финальных платежей: 20 октября в 20:00 на Tmall открылась оплата остатков по предзаказам «Двойного одиннадцатого», и Lucerna VOL.1 разбирает механику распродажи на живом китайском языке. В номере также прилавки с волосатым крабом 大闸蟹 и цены рынка Синьфади, сезонный рубеж 霜降 23 октября и ретроспектива праздника 重阳. Тексты на упрощённом китайском (简体中文) сопровождаются объяснениями на русском; уровни A2–B2 и 150 упражнений делают выпуск практикой чтения на китайском языке для тех, кто учит китайский по новостям материкового Китая."
 publishedAt: "2026-10-21"
@@ -22,12 +22,8 @@ pdfSha256: 6c54630ea2e224f9fe61ebd71bb06311366d10de296a2b01e29b86b5b9c31ec2
 discordThread: "1562312827774042172"
 draft: false
 ---
-# Lucerna VOL.1 · Simplified Chinese text · Russian explanations
-
-Double 11 tail-payment week — hairy crabs, 霜降 and the shopping festival warms up
+# VOL.1 · Simplified Chinese text · Russian explanations
 
 ## Аннотация
 
 Неделя финальных платежей: 20 октября в 20:00 на Tmall открылась оплата остатков по предзаказам «Двойного одиннадцатого», и Lucerna VOL.1 разбирает механику распродажи на живом китайском языке. В номере также прилавки с волосатым крабом 大闸蟹 и цены рынка Синьфади, сезонный рубеж 霜降 23 октября и ретроспектива праздника 重阳. Тексты на упрощённом китайском (简体中文) сопровождаются объяснениями на русском; уровни A2–B2 и 150 упражнений делают выпуск практикой чтения на китайском языке для тех, кто учит китайский по новостям материкового Китая.
-
-Simplified Chinese text with explanations written in Russian. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

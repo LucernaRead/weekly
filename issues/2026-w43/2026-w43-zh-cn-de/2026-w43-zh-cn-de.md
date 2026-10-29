@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.1 · Simplified Chinese text · German explanations"
+title: "VOL.1 · Simplified Chinese text · German explanations"
 excerpt: "Double 11 tail-payment week — and the crabs are cheaper this year"
 abstract: "Schlusszahlungswoche beim Singles' Day: Lucerna VOL.1 begleitet auf Chinesisch (vereinfachte Zeichen), mit deutschen Erklärungen, die 双11-Woche — am 20. Oktober um 20 Uhr waren bei Tmall die Restbeträge fällig (付尾款). Dazu die neu auf dem Markt erschienenen Wollhandkrabben (大闸蟹) mit Preisen vom Xinfadi-Markt, der Termin 霜降 am 23. Oktober und ein Rückblick auf das 重阳-Fest vom 18. Oktober. 150 Übungen, Stufen A2–B2: Chinesisch lesen lernen mit Texten aus dem chinesischen Alltag dieser Woche."
 publishedAt: "2026-10-21"
@@ -22,12 +22,8 @@ pdfSha256: 95c305f991d874a3724054a342160e25e1387589436a2deceaf429a2723b9c22
 discordThread: "1562312827774042172"
 draft: false
 ---
-# Lucerna VOL.1 · Simplified Chinese text · German explanations
-
-Double 11 tail-payment week — and the crabs are cheaper this year.
+# VOL.1 · Simplified Chinese text · German explanations
 
 ## Zusammenfassung
 
 Schlusszahlungswoche beim Singles' Day: Lucerna VOL.1 begleitet auf Chinesisch (vereinfachte Zeichen), mit deutschen Erklärungen, die 双11-Woche — am 20. Oktober um 20 Uhr waren bei Tmall die Restbeträge fällig (付尾款). Dazu die neu auf dem Markt erschienenen Wollhandkrabben (大闸蟹) mit Preisen vom Xinfadi-Markt, der Termin 霜降 am 23. Oktober und ein Rückblick auf das 重阳-Fest vom 18. Oktober. 150 Übungen, Stufen A2–B2: Chinesisch lesen lernen mit Texten aus dem chinesischen Alltag dieser Woche.
-
-Simplified Chinese text with explanations written in German. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

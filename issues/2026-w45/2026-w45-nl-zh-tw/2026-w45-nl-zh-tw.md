@@ -1,5 +1,5 @@
 ---
-title: "De Lucerna VOL.2 · Dutch text · Traditional Chinese explanations"
+title: "VOL.2 · Dutch text · Traditional Chinese explanations"
 excerpt: "Nederland in de Klimaatweek: trees, museums and football — Museumnacht Amsterdam 7 November, Crossing Border Festival, and Eredivisie matchday 12"
 abstract: "De Lucerna 荷語週報 VOL.2：荷蘭全國氣候週、阿姆斯特丹博物館之夜、Crossing Border 海牙藝術節、荷甲第 12 輪、荒島遠征與 KNMI 氣象預警代碼，荷蘭語正文搭配繁體中文講解，A2–B2 共 150 題，適合想學荷蘭語、讀荷蘭語新聞的讀者。"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312784451084349"
 draft: false
 ---
 
-# De Lucerna VOL.2 · Dutch text · Traditional Chinese explanations
-
-Nederland in de Klimaatweek: trees, museums and football — Museumnacht Amsterdam 7 November, Crossing Border Festival, and Eredivisie matchday 12
+# VOL.2 · Dutch text · Traditional Chinese explanations
 
 ## 摘要
 
 De Lucerna 荷語週報 VOL.2：荷蘭全國氣候週、阿姆斯特丹博物館之夜、Crossing Border 海牙藝術節、荷甲第 12 輪、荒島遠征與 KNMI 氣象預警代碼，荷蘭語正文搭配繁體中文講解，A2–B2 共 150 題，適合想學荷蘭語、讀荷蘭語新聞的讀者。
-
-Dutch text with explanations written in Traditional Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

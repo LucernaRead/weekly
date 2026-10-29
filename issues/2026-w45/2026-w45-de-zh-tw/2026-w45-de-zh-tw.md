@@ -1,5 +1,5 @@
 ---
-title: "Die Lucerna VOL.2 · German text · Traditional Chinese explanations"
+title: "VOL.2 · German text · Traditional Chinese explanations"
 excerpt: "Englische Woche in Deutschland: four nights of football, then matchday 9 — fuel discount to New Year's Eve, holiday changeover, and the care debate"
 abstract: "Die Lucerna 德語週報 VOL.2：德語正文、繁體中文講解，帶你用德甲歐戰足球週、油價減稅、居家護理與開學季等真實德國新聞學德語，150 道 A2 到 B2 練習，適合搜尋德語新聞學德語、德語閱讀練習的讀者。"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312528405598248"
 draft: false
 ---
 
-# Die Lucerna VOL.2 · German text · Traditional Chinese explanations
-
-Englische Woche in Deutschland: four nights of football, then matchday 9 — fuel discount to New Year's Eve, holiday changeover, and the care debate
+# VOL.2 · German text · Traditional Chinese explanations
 
 ## 摘要
 
 Die Lucerna 德語週報 VOL.2：德語正文、繁體中文講解，帶你用德甲歐戰足球週、油價減稅、居家護理與開學季等真實德國新聞學德語，150 道 A2 到 B2 練習，適合搜尋德語新聞學德語、德語閱讀練習的讀者。
-
-German text with explanations written in Traditional Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Japanese text · Traditional Chinese explanations"
+title: "VOL.2 · Japanese text · Traditional Chinese explanations"
 excerpt: "Culture Day and autumn leaves, Kobe Luminarie, Reading Week, the Japan Series in Yokohama, and Shibuya Halloween"
 abstract: "日語週報 VOL.2：文化日、紅葉週末、讀書週與輕鬆食養，150題 A2–B2 練習，給繁體中文讀者的日語學習週報；學日語、看懂日本新聞、紅葉與文化日的日語怎麼說"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312944123904102"
 draft: false
 ---
 
-# Lucerna VOL.2 · Japanese text · Traditional Chinese explanations
-
-Culture Day and autumn leaves, Kobe Luminarie, Reading Week, the Japan Series in Yokohama, and Shibuya Halloween
+# VOL.2 · Japanese text · Traditional Chinese explanations
 
 ## 摘要
 
 日語週報 VOL.2：文化日、紅葉週末、讀書週與輕鬆食養，150題 A2–B2 練習，給繁體中文讀者的日語學習週報；學日語、看懂日本新聞、紅葉與文化日的日語怎麼說
-
-Japanese text with explanations written in Traditional Chinese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

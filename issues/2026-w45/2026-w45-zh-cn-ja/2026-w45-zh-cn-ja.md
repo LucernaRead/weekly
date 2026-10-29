@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Simplified Chinese text · Japanese explanations"
+title: "VOL.2 · Simplified Chinese text · Japanese explanations"
 excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
 abstract: "Lucerna中国語（簡体字）週刊VOL.2：双11の現物販売と立冬、S16スイスステージを中国語で読む、日本語解説付きのA2からB2まで全150問の中国語学習週報。中国語をニュースで学びたい人へ。"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312827774042172"
 draft: false
 ---
 
-# Lucerna VOL.2 · Simplified Chinese text · Japanese explanations
-
-Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November
+# VOL.2 · Simplified Chinese text · Japanese explanations
 
 ## 概要
 
 Lucerna中国語（簡体字）週刊VOL.2：双11の現物販売と立冬、S16スイスステージを中国語で読む、日本語解説付きのA2からB2まで全150問の中国語学習週報。中国語をニュースで学びたい人へ。
-
-Simplified Chinese text with explanations written in Japanese. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

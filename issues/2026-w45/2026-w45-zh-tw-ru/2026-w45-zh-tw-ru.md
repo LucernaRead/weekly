@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Traditional Chinese text · Russian explanations"
+title: "VOL.2 · Traditional Chinese text · Russian explanations"
 excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
 abstract: "Lucerna — еженедельник на традиционном китайском языке для русскоязычных читателей, уровни A2–B2, 150 упражнений: Гонконгская неделя финтеха, Тайбэйская международная туристическая ярмарка, чемпионство «Вэйцюань Драгонс» в Тайваньской серии, начало зимы Лидун, фестиваль стальной скульптуры в Гаосюне и Хэллоуин в Тяньму — учите традиционный китайский по новостям Тайваня и Гонконга."
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312921759875144"
 draft: false
 ---
 
-# Lucerna VOL.2 · Traditional Chinese text · Russian explanations
-
-Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween
+# VOL.2 · Traditional Chinese text · Russian explanations
 
 ## Аннотация
 
 Lucerna — еженедельник на традиционном китайском языке для русскоязычных читателей, уровни A2–B2, 150 упражнений: Гонконгская неделя финтеха, Тайбэйская международная туристическая ярмарка, чемпионство «Вэйцюань Драгонс» в Тайваньской серии, начало зимы Лидун, фестиваль стальной скульптуры в Гаосюне и Хэллоуин в Тяньму — учите традиционный китайский по новостям Тайваня и Гонконга.
-
-Traditional Chinese text with explanations written in Russian. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

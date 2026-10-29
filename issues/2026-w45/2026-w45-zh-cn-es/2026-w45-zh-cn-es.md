@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Simplified Chinese text · Spanish explanations"
+title: "VOL.2 · Simplified Chinese text · Spanish explanations"
 excerpt: "Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November"
 abstract: "Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — aprende chino leyendo noticias reales en chino."
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312827774042172"
 draft: false
 ---
 
-# Lucerna VOL.2 · Simplified Chinese text · Spanish explanations
-
-Double 11 shopping buildup, Start of Winter on 7 November, S16 esports to the 27 October cutoff, and Journalists' Day on 8 November
+# VOL.2 · Simplified Chinese text · Spanish explanations
 
 ## Resumen
 
 Lucerna, semanario en chino simplificado para lectores hispanohablantes: las ventas en stock del Doble 11 con descuentos directos, el Comienzo del Invierno el sábado 7 de noviembre, los cuartos de final del Mundial S16 de League of Legends, la película con IA Sanxingdui Future Past y la película de invierno We Only Have One Life, con ejercicios de nivel A2 a B2, 150 preguntas, vocabulario, gramática y claves — aprende chino leyendo noticias reales en chino.
-
-Simplified Chinese text with explanations written in Spanish. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

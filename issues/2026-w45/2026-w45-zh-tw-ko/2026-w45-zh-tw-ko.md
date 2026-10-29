@@ -1,5 +1,5 @@
 ---
-title: "Lucerna VOL.2 · Traditional Chinese text · Korean explanations"
+title: "VOL.2 · Traditional Chinese text · Korean explanations"
 excerpt: "Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween"
 abstract: "Lucerna 중국어 번체 주간지 VOL.2 — 홍콩 핀테크 위크, 타이베이 국제 여행 박람회, 입동, 가오슝 강철 조각 축제, 푸룽 모래 조각 축제 폐막, 타이완 시리즈, 톈무 핼러윈, 11.11 쇼핑 미리보기까지 한 주 뉴스로 배우는 중국어 번체: A2–B2 학습자용 연습 문제 150개, 중국어 번체 신문으로 공부하기"
 publishedAt: "2026-11-02"
@@ -23,12 +23,8 @@ discordThread: "1562312921759875144"
 draft: false
 ---
 
-# Lucerna VOL.2 · Traditional Chinese text · Korean explanations
-
-Hong Kong FinTech Week, Taipei travel fair, Taiwan Series championship, and Tianmu Halloween
+# VOL.2 · Traditional Chinese text · Korean explanations
 
 ## 요약
 
 Lucerna 중국어 번체 주간지 VOL.2 — 홍콩 핀테크 위크, 타이베이 국제 여행 박람회, 입동, 가오슝 강철 조각 축제, 푸룽 모래 조각 축제 폐막, 타이완 시리즈, 톈무 핼러윈, 11.11 쇼핑 미리보기까지 한 주 뉴스로 배우는 중국어 번체: A2–B2 학습자용 연습 문제 150개, 중국어 번체 신문으로 공부하기
-
-Traditional Chinese text with explanations written in Korean. 150 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.

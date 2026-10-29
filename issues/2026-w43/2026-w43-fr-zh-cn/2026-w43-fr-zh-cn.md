@@ -1,5 +1,5 @@
 ---
-title: "Le Lucerna VOL.2 · French text · Simplified Chinese explanations"
+title: "VOL.2 · French text · Simplified Chinese explanations"
 excerpt: "Deep autumn & festivals — the season turns, the holidays approach"
 abstract: "Le Lucerna 法语周报本期为 VOL.2，正文法语、讲解简体中文，主题是深秋与节日。周日法国进入冬令时，时钟拨慢一小时；诸圣节假期与菊花、万圣节在法国的过法相继登场；时政版面解读 2027 年总统大选民调与两轮投票制，体育与游戏版面有温班亚马和玩家苦等的 GTA VI，本周词是 reculer。全刊 A2–B2 分级，共 145 道练习，是学法语、坚持做法语阅读练习的好材料。"
 publishedAt: "2026-10-21"
@@ -22,12 +22,8 @@ pdfSha256: 0f9b37c965e7c230668e76eb740e7709559459487e3b4911c532949927c6af32
 discordThread: "1562312611603947611"
 draft: false
 ---
-# Le Lucerna VOL.2 · French text · Simplified Chinese explanations
-
-Deep autumn & festivals — the season turns, the holidays approach.
+# VOL.2 · French text · Simplified Chinese explanations
 
 ## 摘要
 
 Le Lucerna 法语周报本期为 VOL.2，正文法语、讲解简体中文，主题是深秋与节日。周日法国进入冬令时，时钟拨慢一小时；诸圣节假期与菊花、万圣节在法国的过法相继登场；时政版面解读 2027 年总统大选民调与两轮投票制，体育与游戏版面有温班亚马和玩家苦等的 GTA VI，本周词是 reculer。全刊 A2–B2 分级，共 145 道练习，是学法语、坚持做法语阅读练习的好材料。
-
-French text with explanations written in Simplified Chinese. 145 exercises, 8 pages, levels A2 to B2. Produced under the Lucerna Weekly SOP: trend-first sourcing in the target-language ecosystem, a full independent proofread to zero problems, and a geometric layout audit.
