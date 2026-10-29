@@ -31,6 +31,7 @@
  *   3. **自包含** —— 版本目录里只许有 <slug>.md 和 <slug>.pdf;
  *      md 的 frontmatter 声明 pdf 文件名、字节数与 SHA-256,
  *      PDF 实体在仓内时必须与声明逐字节吻合(哈希对不上 = 文件被换过或传坏了)。
+ *   4. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
@@ -54,6 +55,16 @@ const WEEK_RE = /^\d{4}-w\d{2}$/;
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SHA_RE = /^[0-9a-f]{64}$/;
 const INDEX_FILE = 'index.json';
+
+/** 非拉丁书写目标语:excerpt 可用书写判定语言。 */
+const NON_LATIN_TARGETS = new Set(['ru', 'ja', 'ko', 'zh-cn', 'zh-tw']);
+/** excerpt 中 ASCII 字母占全部字母的比例(数字与标点不计)。 */
+function asciiLetterFraction(s) {
+  const letters = [...s].filter((c) => /\p{L}/u.test(c));
+  if (!letters.length) return 0;
+  const ascii = letters.filter((c) => c.charCodeAt(0) < 128).length;
+  return ascii / letters.length;
+}
 
 const write = process.argv.includes('--write');
 const requirePdf = process.argv.includes('--require-pdf');
@@ -170,6 +181,12 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
     }
     if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 必须是 64 位小写十六进制');
     if (fm.pdf && fm.pdf !== pdfName) fail(where, `pdf 字段必须是 ${pdfName}`);
+
+    // excerpt 语言门(保守版):只对非拉丁书写目标语查 ASCII 字母占比。
+    // 拉丁书写目标语(de/fr/es/it/pt/nl/en)的 excerpt 本就是拉丁字母,无法用书写区分英文,故不查。
+    if (NON_LATIN_TARGETS.has(target) && fm.excerpt && asciiLetterFraction(fm.excerpt) > 0.5) {
+      fail(where, `excerpt 必须用目标语 ${target} 写(当前 ASCII 字母占比过高,疑似英文 excerpt)`);
+    }
 
     // PDF 实体在仓内时,逐字节核对(大小 + SHA-256)
     const pdfPath = join(dir, pdfName);
