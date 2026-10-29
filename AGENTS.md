@@ -12,9 +12,13 @@
 2. 写 `<slug>.md`:frontmatter 字段照 README,一个不能少。
    pdfBytes 与 pdfSha256 从**最终定稿**的网页版 PDF 实测(SHA-256 全小写)。
 3. 有 PDF 实体要一并提交时,文件名必须是 `<slug>.pdf`,放进同一目录。
-4. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿;把生成的
+4. 正文 md:把这一版的正文导出成 `<slug>.text.md`,放进同一目录(lint 规则 9)。
+   - 站点把它渲染成单期页的正文给人读、给搜索引擎读;没有它,站点只能退回 PDF 抽出的文字,版面乱、默认收起。
+   - 从生产端的源稿导出,标题、段落、练习按原顺序写成 markdown;不要从 PDF 反抽。
+   - 不许是空文件。lint 会把路径、字节数、SHA-256 写进 index 的 `text` 字段。
+5. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿;把生成的
    index.json 和 md 一起提交。**不要手工编辑 index.json。**
-5. 提交钩子会重算索引,不得跳过。提交前看 git diff,别混入无关文件。
+6. 提交钩子会重算索引,不得跳过。提交前看 git diff,别混入无关文件。
 
 ## 加封面
 

@@ -19,6 +19,7 @@
  *       <slug>/
  *         <slug>.md     这一版的元数据(frontmatter)+ 一段简介
  *         <slug>.pdf    整期网页版 PDF(可选实体;见 README 的「PDF」一节)
+ *         <slug>.text.md 这一版的正文 markdown(可选;见规则 9)
  *
  * <week> 是周次目录(小写,如 2026-w43),它本身就是一层 —— 先按周找,再按版找。
  * slug = <week 小写>-<目标语>-<母语>,如 2026-w43-fr-zh-cn。
@@ -38,7 +39,7 @@
  *      版本目录里不能再有子目录;版本必须放在它自己所属的周次目录下。
  *   2. **配对合法** —— 目标语 ≠ 母语;语言必须在 12 语种列表内;
  *      简体中文与繁體中文互为目标/母语的两个配对**不存在**(没人这样学外语)。
- *   3. **自包含** —— 版本目录里只许有 <slug>.md 和 <slug>.pdf;
+ *   3. **自包含** —— 版本目录里只许有 <slug>.md、<slug>.pdf 和(可选的)<slug>.text.md;
  *      md 的 frontmatter 声明 pdf 文件名、字节数与 SHA-256,
  *      PDF 实体在仓内时必须与声明逐字节吻合(哈希对不上 = 文件被换过或传坏了)。
  *   4. **文本层** —— 版本目录里的 PDF 必须带可提取文本层(pdftotext 能提出文字);
@@ -54,6 +55,9 @@
  *   8. **封面块标出每篇报道的学习语言** —— <body> 上写 data-story-langs="<语种> <语种> …",
  *      按文档顺序依次对应每个 <article>:12 个语种各出现一次,<article> 恰好 12 个。
  *      站点凭它把每篇报道变成「学这种语言、用本封面读者语言讲解」那一版的入口(封面块本身仍零交互)。
+ *   9. **正文 md(可选)** —— 版本目录里可以多放一份 <slug>.text.md:这一版的正文,markdown。
+ *      不许是空文件。有就进索引的 text 字段(路径、字节数、SHA-256,从文件实算),没有时 text 为 null。
+ *      站点把它渲染成单期页的正文;没有时站点只能用 PDF 抽出的文字。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -208,8 +212,11 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
     }
     const mdName = `${slug}.md`;
     const pdfName = `${slug}.pdf`;
+    const textName = `${slug}.text.md`;
     for (const f of files) {
-      if (f !== mdName && f !== pdfName) fail(rel, `多余的文件 ${f}(只许 ${mdName} 与 ${pdfName})`);
+      if (f !== mdName && f !== pdfName && f !== textName) {
+        fail(rel, `多余的文件 ${f}(只许 ${mdName}、${pdfName} 与 ${textName})`);
+      }
     }
     if (!files.includes(mdName)) {
       fail(rel, `缺少 ${mdName}`);
@@ -282,6 +289,18 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
       fail(rel, 'PDF 实体不在仓内(--require-pdf)');
     }
 
+    // 正文 md(规则 9,可选):有就进索引,带字节数与 SHA-256(从文件实算),站点渲染成单期页的正文。
+    let text = null;
+    if (files.includes(textName)) {
+      const data = readFileSync(join(dir, textName));
+      if (data.toString('utf8').trim().length === 0) fail(`${rel}/${textName}`, '正文 md 是空的');
+      text = {
+        path: `${rel}/${textName}`,
+        bytes: data.length,
+        sha256: createHash('sha256').update(data).digest('hex'),
+      };
+    }
+
     editions.push({
       slug,
       title: fm.title,
@@ -307,6 +326,7 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
       pdfBytes: Number(fm.pdfBytes),
       pdfSha256: fm.pdfSha256,
       pdfInRepo,
+      text,
       discordThread: fm.discordThread,
       draft: fm.draft === 'true',
     });

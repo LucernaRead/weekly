@@ -16,8 +16,9 @@ and the directory name is the edition's identifier:
 
 ```
 issues/2026-w43/2026-w43-fr-zh-cn/
-  2026-w43-fr-zh-cn.md    ← metadata (frontmatter) + a short intro
-  2026-w43-fr-zh-cn.pdf   ← the full issue, web PDF
+  2026-w43-fr-zh-cn.md       ← metadata (frontmatter) + a short intro
+  2026-w43-fr-zh-cn.pdf      ← the full issue, web PDF
+  2026-w43-fr-zh-cn.text.md  ← the full issue as markdown (optional; the site renders it)
 ```
 
 Slug rule: `<week lowercase>-<target>-<native>`. Language codes:
@@ -50,8 +51,8 @@ edition itself, never from a template.
 
 1. **Two fixed levels** — `issues/` holds only week directories
    (`2026-w43`), a week directory holds only edition directories, an edition
-   directory holds nothing but `<slug>.md` and `<slug>.pdf`, and every
-   edition sits under its own week.
+   directory holds nothing but `<slug>.md`, `<slug>.pdf` and the optional
+   `<slug>.text.md`, and every edition sits under its own week.
 2. **Legal pairings only** — target ≠ native, both from the 12-language list,
    and never Simplified ↔ Traditional Chinese as target/native of each other
    (they are two scripts of one language; nobody learns one as a foreign
