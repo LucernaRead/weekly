@@ -17,8 +17,8 @@ nativeLabel: "Français"
 exercises: 150
 pages: 8
 pdf: 2026-w45-zh-tw-fr.pdf
-pdfBytes: 3478378
-pdfSha256: d50c68bbfbca315a9b05504e6261b5c734a292d5441e8defc733678800b12645
+pdfBytes: 2453045
+pdfSha256: a65988ba64459a910dd10c57d7b1b74bf0259cf7747857867b66717f08a32692
 discordThread: "1562312921759875144"
 draft: false
 ---
