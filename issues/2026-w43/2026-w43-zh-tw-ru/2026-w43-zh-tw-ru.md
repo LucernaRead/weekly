@@ -17,8 +17,8 @@ nativeLabel: "Русский"
 exercises: 150
 pages: 8
 pdf: 2026-w43-zh-tw-ru.pdf
-pdfBytes: 3643978
-pdfSha256: 7a72fd25e8a48e5924bcf60f0d6d7e1ac09a7f86efe58dff68ea3d345e1502e5
+pdfBytes: 3350718
+pdfSha256: 0362523e82c7e73a3d0fca91313aa3cec96abe54e6d947712e426bb7dc4ffd37
 discordThread: "1562312921759875144"
 draft: false
 ---
