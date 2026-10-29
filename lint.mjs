@@ -34,6 +34,9 @@
  *   4. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
  *   4. **文本层** —— 版本目录里的 PDF 必须带可提取文本层(pdftotext 能提出文字);
  *      图片版 PDF 没有文本层,站点 SEO 读不到,不进仓。
+ *   4. **封面块零交互** —— 仓内任何 .html 不得含交互元素
+ *      (脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等),只留静态内容;
+ *      没有 .html 时此条空过,主线保持绿。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -103,6 +106,52 @@ const root = process.cwd();
 for (const name of readdirSync(root)) {
   if (!ROOT_ALLOW.has(name)) fail('根目录', `不允许的条目 ${name}`);
 }
+
+// 封面块零交互:仓内任何 .html 不得含交互元素,只留静态内容。
+// <a\b 不命中 <article>/<aside>;<link> 不是 <a>;不禁 <header>,不查 cursor/:hover。
+// 没有 .html 时空过。默认模式即 enforce,CI 与提交钩子都跑 plain lint。
+const INTERACTIVE_PATTERNS = [
+  [/<script\b/i, '<script>'],
+  [/<button\b/i, '<button>'],
+  [/<a\b/i, '<a>'],
+  [/<form\b/i, '<form>'],
+  [/<input\b/i, '<input>'],
+  [/<select\b/i, '<select>'],
+  [/<textarea\b/i, '<textarea>'],
+  [/<nav\b/i, '<nav>'],
+  [/<footer\b/i, '<footer>'],
+  [/<aside\b/i, '<aside>'],
+  [/onclick\b/i, 'onclick'],
+  [/addEventListener/i, 'addEventListener'],
+  [/tabindex\s*=/i, 'tabindex'],
+  [/role\s*=\s*["']button["']/i, 'role="button"'],
+];
+const SKIP_DIRS = new Set(['.git', 'node_modules']);
+function scanHtml(dir, rel) {
+  for (const name of readdirSync(dir).sort()) {
+    const p = join(dir, name);
+    const r = rel ? `${rel}/${name}` : name;
+    if (statSync(p).isDirectory()) {
+      if (!SKIP_DIRS.has(name)) scanHtml(p, r);
+      continue;
+    }
+    if (!name.toLowerCase().endsWith('.html')) continue;
+    let text;
+    try {
+      text = readFileSync(p, 'utf8');
+    } catch {
+      fail(r, '封面 HTML 读取失败');
+      continue;
+    }
+    for (const [re, label] of INTERACTIVE_PATTERNS) {
+      if (re.test(text)) {
+        fail(r, `封面块不得含有交互元素（脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等），只留静态内容（命中 ${label}）`);
+        break;
+      }
+    }
+  }
+}
+scanHtml(root, '');
 
 const issuesDir = join(root, 'issues');
 if (!existsSync(issuesDir)) {
