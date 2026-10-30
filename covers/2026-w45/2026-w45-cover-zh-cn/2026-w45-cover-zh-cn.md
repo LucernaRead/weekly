@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-zh-cn.pdf"
-pdfBytes: 577794
-pdfSha256: "2c8b71a1befae92bd09eba47d9b9cb38e9392f0a29e9be95d01e8203b9e6ed7e"
+pdfBytes: 555800
+pdfSha256: "1fb1414a848fb8c583d2dead1d23038dc54cae64e80df51a64244664dc3e5ed0"
 ---
 
 每周封面，献给简体中文读者：本周十二家核心报纸的头版头条，每种语言一篇，附原文摘录与简体中文讲解。2026年11月2日至11月8日这一周。
