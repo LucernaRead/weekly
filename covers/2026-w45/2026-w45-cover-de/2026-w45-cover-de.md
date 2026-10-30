@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-de.pdf"
-pdfBytes: 411142
-pdfSha256: "3bb6632e41cd525c70ee377d1078816954ee7cee9d349353cb97d9cbbbaebe33"
+pdfBytes: 405137
+pdfSha256: "83edf4258f3cd887624a450c4fffb35b150517c4da0b38decbd20f959be4116e"
 ---
 
 Wochentitel für deutsche Leser: die 12 Titelgeschichten der Woche, eine pro Sprache, mit Auszügen und Erklärungen auf Deutsch. Woche vom 2. bis 8. November 2026.
