@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-it.pdf"
-pdfBytes: 348377
-pdfSha256: "58ea7b32d828a5250fa4cd031b25cb7da3856f0f3c32b44925e5423987637c8b"
+pdfBytes: 342875
+pdfSha256: "eea04b0e88ef2ddb9d45dc97063f6c4fa1ec415752f3201fe4c2edd5851d5f0b"
 ---
 
 Copertina settimanale per i lettori italiani: i 12 titoli principali della settimana, uno per lingua, con estratti e spiegazioni in italiano. Settimana dal 19 al 25 ottobre 2026.
