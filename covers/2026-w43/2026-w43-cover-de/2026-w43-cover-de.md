@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-de.pdf"
-pdfBytes: 394453
-pdfSha256: "078a09cb1d5ad3e57f0749aab03e1609635dced0eb1552a7e75b212a03978a56"
+pdfBytes: 387197
+pdfSha256: "c5ed03602facc4b0a93918ce54d2ec1a88c33feac745ab6d9de02f0cdb136055"
 ---
 
 Wöchentliche Titelseite für deutschsprachige Leser: die 12 Schlagzeilen der Woche, eine pro Sprache, mit Auszügen und Erklärungen auf Deutsch. Woche vom 19. bis 25. Oktober 2026.
