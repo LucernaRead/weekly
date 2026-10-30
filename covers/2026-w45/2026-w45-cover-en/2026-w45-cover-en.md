@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-en.pdf"
-pdfBytes: 398950
-pdfSha256: "58601b7dc244180a7c8936f4e8fac1a5cc65d50e4e517633f8bd814aa8802318"
+pdfBytes: 393776
+pdfSha256: "8aeca0ead3a957568c4c5e4f47981619f15d5ab39df4e366fded21abb301f713"
 ---
 
 Weekly cover for English readers: the 12 front-page headlines of the week, one per language, with excerpts and explanations in English. Week of November 2–8, 2026.
