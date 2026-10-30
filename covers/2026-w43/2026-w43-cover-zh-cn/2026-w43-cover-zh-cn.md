@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-zh-cn.pdf"
-pdfBytes: 563255
-pdfSha256: "b7c8f20e50e92ddf9e07c575b1c6641b0a9783bc6b16c8aed7dc31ddba289b3e"
+pdfBytes: 541713
+pdfSha256: "685775673ce42f6f4e02b052ebed99b0a7607821f042d4ea263275343483b5d6"
 ---
 
 每周封面，献给简体中文读者：本周十二家核心报纸的头版头条，每种语言一篇，附原文摘录与简体中文讲解。2026年10月19日至10月25日这一周。
