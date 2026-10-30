@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-es.pdf"
-pdfBytes: 416181
-pdfSha256: "8ac6753538287a1da03c56fb510a6d585ba31506baf50daefecd1a2391f40a10"
+pdfBytes: 410849
+pdfSha256: "623f2eb58873cf76593e5be6024f127b64fb7c7642e69e927431479392b6766f"
 ---
 
 Portada semanal para lectores de español: los 12 titulares principales de la semana, uno por lengua, con extractos y explicaciones en español. Semana del 19 al 25 de octubre de 2026.
