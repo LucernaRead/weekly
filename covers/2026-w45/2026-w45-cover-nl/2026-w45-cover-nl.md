@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-nl.pdf"
-pdfBytes: 396003
-pdfSha256: "56829ac6862251460a2b60d92ce4d64c1c58f00c5e9e384695800193c80a121f"
+pdfBytes: 390604
+pdfSha256: "8e2fd830bb37fe46496d1f06dfa6110e7d3748d8351cd6c73236e0130282f6f3"
 ---
 
 Wekelijkse cover voor Nederlandse lezers: de 12 hoofdkoppen van de week, één per taal, met citaten en uitleg in het Nederlands. Week van 2 tot 8 november 2026.
