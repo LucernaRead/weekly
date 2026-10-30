@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "金融科技週開幕！香港迎四萬五千人"
 pdf: "cover-w45-ja.pdf"
-pdfBytes: 636911
-pdfSha256: "8d974c04c321de7999b58a1330f606e8cfa18f728b9de3110deecbebc083abed"
+pdfBytes: 618970
+pdfSha256: "81c2d6feb94ba3ff8d3ec7d6364e49f4c713c70ca243db819659d5fdc5f3fbc0"
 ---
 
 週刊カバー、日本語の読者のために：今週の12の言語の第一面の見出しを一冊に集めました。原文の見出しと抜粋に日本語の解説を添えています。2026年11月2日から11月8日までの週。
