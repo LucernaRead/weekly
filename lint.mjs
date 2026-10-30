@@ -31,6 +31,8 @@
  *         <week>-cover-<语种>.html   静态封面块(零交互,见规则 5)
  *         <week>-cover-<语种>.md     印刷版封面的元数据(可选)
  *         cover-<week 短码>-<语种>.pdf 印刷版封面 PDF(可选)
+ *       images/
+ *         <学习语言>.webp          那一周这种学习语言那篇报道的配图(可选;见规则 10)
  *
  * 封面块按周 + 语种进索引的 covers 一节,有 .html 的才进索引,站点凭它定位封面。
  *
@@ -58,6 +60,11 @@
  *   9. **正文 md(可选)** —— 版本目录里可以多放一份 <slug>.text.md:这一版的正文,markdown。
  *      不许是空文件。有就进索引的 text 字段(路径、字节数、SHA-256,从文件实算),没有时 text 为 null。
  *      站点把它渲染成单期页的正文;没有时站点只能用 PDF 抽出的文字。
+ *  10. **报道配图(可选)** —— 封面块里给图留位置:在某篇 <article> 里的占位元素上加 data-image-slot
+ *      (不带值;是哪种学习语言由规则 8 的顺序推出)。每篇至多一个,不许放在 <article> 外。
+ *      图放 covers/<week>/images/<学习语言>.webp:一种学习语言一张,12 份封面共用;
+ *      必须是 WebP、非空、≤ 400 KB(按文件字节数)。进索引的 coverImages(week、lang、路径、字节数、SHA-256)。
+ *      站点把图填进每份封面里那篇报道的图片位;没有图时占位元素原样显示。
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -337,6 +344,10 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
 // 目录形态 covers/<week>/<week>-cover-<语种>/,每语种目录至多一个 .html;
 // 只有印刷版、没有 .html 的目录不进索引(也不报错)。
 const covers = [];
+const coverImages = [];
+const IMAGES_DIR = 'images';
+const IMAGE_MAX_BYTES = 400 * 1024;
+const IMAGE_SLOT_RE = /\sdata-image-slot\b/gi;
 const coversDir = join(root, 'covers');
 if (existsSync(coversDir)) {
   for (const weekDirName of readdirSync(coversDir).sort()) {
@@ -352,6 +363,10 @@ if (existsSync(coversDir)) {
     for (const coverDirName of readdirSync(weekPath).sort()) {
       const dir = join(weekPath, coverDirName);
       const rel = `covers/${weekDirName}/${coverDirName}`;
+      if (coverDirName === IMAGES_DIR) {
+        collectCoverImages(dir, rel, weekDirName);
+        continue;
+      }
       if (!statSync(dir).isDirectory()) {
         fail(rel, '周次目录里只许放封面目录');
         continue;
@@ -382,6 +397,7 @@ if (existsSync(coversDir)) {
       const htmlRel = `${rel}/${htmls[0]}`;
       const htmlData = readFileSync(join(dir, htmls[0]));
       checkStoryLangs(htmlData.toString('utf8'), htmlRel);
+      checkImageSlots(htmlData.toString('utf8'), htmlRel);
       covers.push({
         slug: coverDirName,
         week: weekDirName,
@@ -415,7 +431,55 @@ function checkStoryLangs(text, where) {
   }
 }
 
+/** 规则 10:图片位(data-image-slot)只许在 <article> 里,每篇至多一个。 */
+function checkImageSlots(text, where) {
+  const [before, ...articles] = text.split(/<article\b/i);
+  let stray = (before.match(IMAGE_SLOT_RE) ?? []).length;
+  articles.forEach((chunk, i) => {
+    const [inside, ...after] = chunk.split(/<\/article>/i);
+    const n = (inside.match(IMAGE_SLOT_RE) ?? []).length;
+    if (n > 1) fail(where, `第 ${i + 1} 个 <article> 里有 ${n} 个 data-image-slot,每篇至多一个`);
+    stray += (after.join('').match(IMAGE_SLOT_RE) ?? []).length;
+  });
+  if (stray) fail(where, `有 ${stray} 个 data-image-slot 不在 <article> 里;图片位必须放在它那篇报道里`);
+}
+
+/** 规则 10:covers/<week>/images/<语种>.webp,每种学习语言(报道)至多一张,单张 ≤ IMAGE_MAX_BYTES。 */
+function collectCoverImages(dir, rel, week) {
+  if (!statSync(dir).isDirectory()) {
+    fail(rel, `${IMAGES_DIR} 必须是目录`);
+    return;
+  }
+  for (const name of readdirSync(dir).sort()) {
+    const fileRel = `${rel}/${name}`;
+    const m = name.match(/^(.+)\.webp$/);
+    if (!m || !LANGS.includes(m[1])) {
+      fail(fileRel, `图片文件名必须是 <学习语言>.webp(语种在 12 语种列表内,如 it.webp)`);
+      continue;
+    }
+    const data = readFileSync(join(dir, name));
+    if (data.length === 0 || data.length > IMAGE_MAX_BYTES) {
+      fail(fileRel, `图片 ${data.length} 字节;必须非空且 ≤ ${IMAGE_MAX_BYTES} 字节`);
+      continue;
+    }
+    if (data.subarray(0, 4).toString('latin1') !== 'RIFF' || data.subarray(8, 12).toString('latin1') !== 'WEBP') {
+      fail(fileRel, '不是 WebP 文件(文件头不是 RIFF…WEBP)');
+      continue;
+    }
+    coverImages.push({
+      week,
+      lang: m[1],
+      path: fileRel,
+      bytes: data.length,
+      sha256: createHash('sha256').update(data).digest('hex'),
+    });
+  }
+}
+
 covers.sort((a, b) =>
+  b.week.localeCompare(a.week) ||
+  LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
+coverImages.sort((a, b) =>
   b.week.localeCompare(a.week) ||
   LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
 
@@ -431,6 +495,7 @@ const index = {
   editions,
   coverCount: covers.length,
   covers,
+  coverImages,
 };
 const rendered = JSON.stringify(index, null, 2) + '\n';
 

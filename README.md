@@ -84,7 +84,10 @@ and SHA-256 (computed from the file by the gate), so the site can verify
 its copy. A cover block has no links; its `<body data-story-langs="…">`
 names the target language of each `<article>` in document order, and the
 site turns each story into a link to that language's edition (see
-AGENTS.md, "加封面"). If you edit an `.md` and forget `--write`, the default mode
+AGENTS.md, "加封面"). A story's placeholder may carry `data-image-slot`; the
+site fills it with that story's image from `covers/<week>/images/<lang>.webp`,
+listed in the index's `coverImages` section (see AGENTS.md, "加报道配图").
+If you edit an `.md` and forget `--write`, the default mode
 compares and fails: a drifted index would silently show stale data.
 
 ## PDFs

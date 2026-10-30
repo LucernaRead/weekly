@@ -34,11 +34,32 @@
      是哪种学习语言,用 README 里的语言代码,空格分隔,12 个各出现一次。
      例:`<body data-story-langs="de fr es en it pt nl ru ja ko zh-cn zh-tw">`。
      版式换了、报道顺序变了,这一行跟着改;顺序错了,读者会被带进错误的一版。
+   - 要配图的报道,在那篇 `<article>` 的占位元素上加 `data-image-slot`(lint 规则 10)。
+     不带值:是哪种学习语言,由 `data-story-langs` 的顺序推出。每篇至多一个,不许放在 `<article>` 外。
+     例:`<div class="plate" data-image-slot aria-hidden="true"><span class="mast">La Lucerna</span></div>`。
+     占位元素里的内容照常写:还没有图时,站点原样显示它。
 3. 印刷版封面(可选)放同一目录:`<目录名>.md` 与一份 PDF。
 4. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿。lint 会把这份封面写进
    `index.json` 的 `covers`:`slug`、`week`、`lang`、`html` 路径,以及 html 的字节数与 SHA-256
    (从文件实算,不手填)。站点按 SHA-256 验真,所以封面块改一个字节都要重跑 `--write`。
 5. 提交 html 和 index.json。**不要手工编辑 index.json。**
+
+## 加报道配图
+
+每周每种学习语言一张图,配那一周这种学习语言的那篇报道。
+12 份封面共用这 12 张图:站点把图填进每份封面里那篇报道的 `data-image-slot`。
+
+1. 读那一周任意一份封面里这种学习语言的那篇报道(标题和摘要),按内容生成一张图。
+2. 图的规格:
+   - 横版 3:2(建议 1200×800 像素)。站点按「裁切填满」放进图片位,四边可能各裁掉一点,主体放中间。
+   - 图里不放文字。12 种读者语言的封面共用这张图,文字只对一种读者有用。
+   - 格式 WebP,文件 ≤ 400 KB(按文件字节数)。超了就降质量重压,不要缩到 800 像素宽以下。
+3. 存为 `covers/<week 小写>/images/<学习语言>.webp`(如 `covers/2026-w45/images/it.webp`)。
+   文件名只用 README 里的语言代码,一种学习语言一张。
+4. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿。lint 会把图写进 `index.json` 的
+   `coverImages`:`week`、`lang`、路径、字节数、SHA-256。
+5. 提交图和 index.json。可以分批提交:缺图的报道,站点照常显示占位元素。
+6. 换一张已提交的图:直接覆盖同名文件,重跑第 4 步。站点按 SHA-256 取新图。
 
 ## 不许做的事
 
