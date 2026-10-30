@@ -32,8 +32,8 @@ headlines:
   - lang: zh-tw
     headline: "強颱薔琵壓境！週五、週六風雨最大"
 pdf: "cover-w43-pt.pdf"
-pdfBytes: 389310
-pdfSha256: "a23c6afbfcc320fef648c7e2a5cf9e71a953a92bf1f571517290c871745a78d9"
+pdfBytes: 386780
+pdfSha256: "9cc41e6147a676a77220b8917f2f5bc232caca233f063c92d99e1fee5e5e3d20"
 ---
 
 Capa semanal para leitores de português: as 12 manchetes principais da semana, uma por língua, com excertos e explicações em português. Semana de 19 a 25 de outubro de 2026.
