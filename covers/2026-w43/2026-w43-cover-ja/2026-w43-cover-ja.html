@@ -121,6 +121,8 @@
         .lucerna-cover .row-story { grid-template-columns: 1fr; gap: 12px; }
         .lucerna-cover .plate { min-height: 104px; }
       }
+      /* Excerpt: target-language original, between headline and reader-language teaser. */
+      .lucerna-cover p.lc-excerpt { margin: 0 0 8px; font-size: 17px; color: var(--lc-body); line-height: 1.55; }
     </style>
   </head>
   <body data-story-langs="de fr es en it pt nl ru ja ko zh-cn zh-tw">
@@ -134,14 +136,17 @@
         <div class="col-leads">
           <article class="lead-story">
             <h3>Eine Stunde geschenkt: Deutschland stellt die Uhren zurück — und elf Länder haben Ferien</h3>
+            <p class="lc-excerpt" lang="de">Am Sonntag ist es wieder so weit: Deutschland stellt die Uhren um. In der Nacht von Samstag auf Sonntag endet die Sommerzeit. Um 3.00 Uhr wird die Uhr eine Stunde zurückgestellt — auf 2.00 Uhr.</p>
             <p>はドイツ語の週刊誌です。今週のテーマは「一時間の贈り物」。10月25日の冬時間への切り替え（午前3時から2時へ一時間長く眠れます）、秋休み、そしてドイツの秋の暮らしを読み解きます。</p>
           </article>
           <article class="lead-story">
             <h3>Présidentielle 2027 : les Français regardent déjà les sondages</h3>
+            <p class="lc-excerpt" lang="fr">L'élection présidentielle est en 2027, mais les Français en parlent déjà. Cette semaine, sur Google, la recherche numéro un en France est : « sondage présidentielle 2027 ». Des milliers de personnes cherchent ces mots chaque jour.</p>
             <p>は、フランス語を読みながら学ぶための週刊誌です。深秋のフランスから、冬時間への移行と時計を一時間戻す習慣、諸聖人の日と秋休みの菊の花、ハロウィン、2027年大統領選の世論調査、ウェンバンヤマ、発売を待つGTA VIまで。</p>
           </article>
           <article class="lead-story">
             <h3>Este domingo: dormimos una hora más… ¡y se juega el Clásico!</h3>
+            <p class="lc-excerpt" lang="es">Este domingo pasa todo a la vez. Primero, en la madrugada, España cambia la hora: a las 03:00, el reloj vuelve a las 02:00. La noche tiene 25 horas y dormimos una hora más.</p>
             <p>はスペイン語の週刊誌です。今週の特集は「一つの日曜日に三つの出来事」——冬時間に合わせる時計の変更、21時キックオフのエル・クラシコ、そしてオースティンのF1。現地の話題をそのまま読む。</p>
           </article>
         </div>
@@ -153,6 +158,7 @@
               <figcaption>秋最大の週に期日前投票が始まる。</figcaption>
             </figure>
             <h2>First Votes, First Games : America's Biggest Week of the Autumn</h2>
+            <p class="lc-excerpt" lang="en">Election Day is Tuesday, November 3. But in much of America, the election has already started. This Monday, October 19, early voting opened in Texas — and in Alaska, Arkansas, Connecticut and Colorado too.</p>
             <p class="teaser">は、英語を読む楽しみを届ける週刊誌です。今週は「秋のアメリカ最大の一週間」——期日前投票の開始、NBA開幕戦（76ersがニックスに106対100で勝利）、ワールドシリーズ、オースティンのF1、そしてハロウィン。</p>
           </article>
         </div>
@@ -163,6 +169,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">La Lucerna</span></div>
           <div>
             <h3>Un'ora in più di sonno: domenica torna l'ora solare</h3>
+            <p class="lc-excerpt" lang="it">Succede tutto domenica. Nella notte tra sabato 24 e domenica 25 ottobre, l'Italia cambia l'ora: alle 03:00 l'orologio torna indietro di un'ora e segna di nuovo le 02:00. La notte dura un'ora in più e dormiamo un'ora in più: torna l'ora solare, dopo sette mesi di ora legale.</p>
             <p class="teaser">はイタリア語の週刊誌です。今週の話題は「一時間長く眠れる」こと——標準時間（ora solare）への切り替えで時計の針を戻す季節と、2027年予算案「Manovra」を取り上げます。</p>
           </div>
         </article>
@@ -170,6 +177,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">A Lucerna</span></div>
           <div>
             <h3>Domingo é dia de decisão: o Brasil volta às urnas</h3>
+            <p class="lc-excerpt" lang="pt">Acontece tudo no domingo. No dia 25 de outubro, das 8h às 17h (hora de Brasília), os brasileiros voltam às urnas para o segundo turno das eleições. Na disputa pela Presidência, só dois nomes: Lula (PT) e Flávio Bolsonaro (PL).</p>
             <p class="teaser">はブラジルのポルトガル語の週刊誌です。今週は決戦の日曜日——10月25日の大統領選挙決選投票と電子投票の仕組み、11月に迫るENEM、コパ・スダメリカーナ準決勝のバスコ対ボカまで。</p>
           </div>
         </article>
@@ -177,6 +185,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">De Lucerna</span></div>
           <div>
             <h3>Een volle week: vakantie, design, dance — en een uur extra slaap</h3>
+            <p class="lc-excerpt" lang="nl">Het is een volle week in Nederland. De regio's Midden en Zuid hebben de hele week herfstvakantie: van zaterdag 17 tot en met zondag 25 oktober. De regio Noord was vorige week vrij; daar begint de school weer op maandag.</p>
             <p class="teaser">はオランダ語の週刊誌です。秋休み、アイントホーフェンのダッチデザインウィーク、アムステルダム・ダンス・イベント第30回、冬時間への時計合わせ、人気番組やPSV対フェイエノールトと、盛りだくさんの一週間を特集。</p>
           </div>
         </article>
@@ -184,6 +193,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">Lucerna</span></div>
           <div>
             <h3>Первый снег — уже на этой неделе!</h3>
+            <p class="lc-excerpt" lang="ru">Первый снег может выпасть уже на этой неделе. Синоптики ждут первые снежинки в среду, в четверг или в пятницу — с 21 по 23 октября. На улице будет около нуля градусов.</p>
             <p class="teaser">はロシア語の週刊誌です。今週のテーマは「初雪」。今シーズン最初の雪の便り、12日間続く新年休暇への展望、そしてロシアの秋の日常を読みます。</p>
           </div>
         </article>
@@ -191,6 +201,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">Lucerna</span></div>
           <div>
             <h3>土よう日、日本シリーズが始まる！</h3>
+            <p class="lc-excerpt" lang="ja">日本シリーズの第1戦は、10月24日（土よう日）の18時30分、横浜スタジアムです。戦うのは、横浜DeNAベイスターズと福岡ソフトバンクホークスです。この対決は2年ぶりです。</p>
             <p class="teaser">日本シリーズ週間——秋が深まり、横浜で開幕</p>
           </div>
         </article>
@@ -198,6 +209,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">Lucerna</span></div>
           <div>
             <h3>태풍 참피가 오고 있어요</h3>
+            <p class="lc-excerpt" lang="ko">제30호 태풍 '참피'가 북상하고 있어요. '참피'는 라오스가 낸 이름으로, 꽃의 이름이에요. 기상청은 21일 아침, 참피가 아주 강한 태풍이라고 했어요.</p>
             <p class="teaser">は韓国語の週刊誌です。今週は接近する台風チャンピ（予報段階）、紅葉の見頃、大学修学能力試験・修能へのカウントダウンの週を取り上げます。</p>
           </div>
         </article>
@@ -205,6 +217,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">Lucerna</span></div>
           <div>
             <h3>双11到了「付尾款」的这一周</h3>
+            <p class="lc-excerpt" lang="zh-cn">今年的双11来得早。京东10月12日晚上8点就开始卖现货，10月20日晚上8点还有「开门红」。淘宝和天猫10月15日晚上8点开始预售。</p>
             <p class="teaser">は中国語（簡体字）の週刊誌です。今週は「双11」の残金支払い週——10月20日20時の天猫の支払い開始、旬を迎えた大闸蟹と新発地の価格、二十四節気の霜降、そして過ぎた重陽節の振り返りまで。</p>
           </div>
         </article>
@@ -212,6 +225,7 @@
           <div class="plate" data-image-slot aria-hidden="true"><span class="mast">Lucerna</span></div>
           <div>
             <h3>強颱薔琵壓境！週五、週六風雨最大</h3>
+            <p class="lc-excerpt" lang="zh-tw">強烈颱風「薔琵」正朝台灣東邊的海面走來。10月20日（二）晚上，颱風中心在鵝鑾鼻東南東方約1,390公里，近中心最大風速約每秒60公尺，暴風半徑280公里，是個又大又強的颱風。更麻煩的是東北季風。颱風的外圍環流加上季風，叫作「共伴效應」，雨會下得更大、更久。</p>
             <p class="teaser">は台湾の中国語（繁体字）の週刊誌です。強い台風薔琵と東北季節風、台湾シリーズ第1戦（味全龍が3対0、満員の4万人）、第61回金鐘獎、香港の重陽節連休、美酒佳餚巡禮（Wine & Dine）を特集。</p>
           </div>
         </article>
