@@ -11833,8 +11833,140 @@
       "draft": false
     }
   ],
-  "coverCount": 12,
+  "coverCount": 36,
   "covers": [
+    {
+      "slug": "2026-w46-cover-en",
+      "week": "2026-w46",
+      "lang": "en",
+      "dir": "covers/2026-w46/2026-w46-cover-en",
+      "html": "covers/2026-w46/2026-w46-cover-en/2026-w46-cover-en.html",
+      "htmlBytes": 306570,
+      "htmlSha256": "ac15098b321dea241df02d08e80b6ff2f4771db2f163503959fe84a4dd65d5ec",
+      "md": "covers/2026-w46/2026-w46-cover-en/2026-w46-cover-en.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-en/cover-w46-en.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-de",
+      "week": "2026-w46",
+      "lang": "de",
+      "dir": "covers/2026-w46/2026-w46-cover-de",
+      "html": "covers/2026-w46/2026-w46-cover-de/2026-w46-cover-de.html",
+      "htmlBytes": 306661,
+      "htmlSha256": "f05d46bcae3513720777a5c80d1bc2f332b6ae2200a3818834f596f2033677b8",
+      "md": "covers/2026-w46/2026-w46-cover-de/2026-w46-cover-de.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-de/cover-w46-de.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-fr",
+      "week": "2026-w46",
+      "lang": "fr",
+      "dir": "covers/2026-w46/2026-w46-cover-fr",
+      "html": "covers/2026-w46/2026-w46-cover-fr/2026-w46-cover-fr.html",
+      "htmlBytes": 308235,
+      "htmlSha256": "15982c9fb3a5af064a25b2f9308d223756934869148a9c47ea8996783e43c723",
+      "md": "covers/2026-w46/2026-w46-cover-fr/2026-w46-cover-fr.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-fr/cover-w46-fr.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-es",
+      "week": "2026-w46",
+      "lang": "es",
+      "dir": "covers/2026-w46/2026-w46-cover-es",
+      "html": "covers/2026-w46/2026-w46-cover-es/2026-w46-cover-es.html",
+      "htmlBytes": 308079,
+      "htmlSha256": "b3ed8ff1279a662edd535699b189006a91604d7f2814fca96de0e5cef4f11fef",
+      "md": "covers/2026-w46/2026-w46-cover-es/2026-w46-cover-es.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-es/cover-w46-es.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-it",
+      "week": "2026-w46",
+      "lang": "it",
+      "dir": "covers/2026-w46/2026-w46-cover-it",
+      "html": "covers/2026-w46/2026-w46-cover-it/2026-w46-cover-it.html",
+      "htmlBytes": 306872,
+      "htmlSha256": "8b53cd72ccc633cfb743ddad5170f563b1bbac527614f4740d64bec6c073f03d",
+      "md": "covers/2026-w46/2026-w46-cover-it/2026-w46-cover-it.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-it/cover-w46-it.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-pt",
+      "week": "2026-w46",
+      "lang": "pt",
+      "dir": "covers/2026-w46/2026-w46-cover-pt",
+      "html": "covers/2026-w46/2026-w46-cover-pt/2026-w46-cover-pt.html",
+      "htmlBytes": 306741,
+      "htmlSha256": "947096463b6dd645cbfa8fbd9b419d25da1294db9bf065f80f599240e5f5339a",
+      "md": "covers/2026-w46/2026-w46-cover-pt/2026-w46-cover-pt.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-pt/cover-w46-pt.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-nl",
+      "week": "2026-w46",
+      "lang": "nl",
+      "dir": "covers/2026-w46/2026-w46-cover-nl",
+      "html": "covers/2026-w46/2026-w46-cover-nl/2026-w46-cover-nl.html",
+      "htmlBytes": 306743,
+      "htmlSha256": "27028f3b96bef3b23f3a785825664597dba0ffa2dcd90b9da095fcde2d203e7d",
+      "md": "covers/2026-w46/2026-w46-cover-nl/2026-w46-cover-nl.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-nl/cover-w46-nl.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-ru",
+      "week": "2026-w46",
+      "lang": "ru",
+      "dir": "covers/2026-w46/2026-w46-cover-ru",
+      "html": "covers/2026-w46/2026-w46-cover-ru/2026-w46-cover-ru.html",
+      "htmlBytes": 308855,
+      "htmlSha256": "c1b373cd17d3c10e80a7f69cc9d51f0f585476342f99f7b5494baaef30565b0c",
+      "md": "covers/2026-w46/2026-w46-cover-ru/2026-w46-cover-ru.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-ru/cover-w46-ru.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-ja",
+      "week": "2026-w46",
+      "lang": "ja",
+      "dir": "covers/2026-w46/2026-w46-cover-ja",
+      "html": "covers/2026-w46/2026-w46-cover-ja/2026-w46-cover-ja.html",
+      "htmlBytes": 307080,
+      "htmlSha256": "31ae01ad3b185e90cfca3cdbf2c79d2ab5855826a5342eea090619d70a079433",
+      "md": "covers/2026-w46/2026-w46-cover-ja/2026-w46-cover-ja.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-ja/cover-w46-ja.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-ko",
+      "week": "2026-w46",
+      "lang": "ko",
+      "dir": "covers/2026-w46/2026-w46-cover-ko",
+      "html": "covers/2026-w46/2026-w46-cover-ko/2026-w46-cover-ko.html",
+      "htmlBytes": 306589,
+      "htmlSha256": "e01f723fc1634f69a2c452964a475f4c11e8ada0ab1296cb78616e0261a2ea57",
+      "md": "covers/2026-w46/2026-w46-cover-ko/2026-w46-cover-ko.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-ko/cover-w46-ko.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-zh-cn",
+      "week": "2026-w46",
+      "lang": "zh-cn",
+      "dir": "covers/2026-w46/2026-w46-cover-zh-cn",
+      "html": "covers/2026-w46/2026-w46-cover-zh-cn/2026-w46-cover-zh-cn.html",
+      "htmlBytes": 307847,
+      "htmlSha256": "669b3a0e2ca245e2cfea17537408cea337cb1b547093a494c521d96fd42ad378",
+      "md": "covers/2026-w46/2026-w46-cover-zh-cn/2026-w46-cover-zh-cn.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-zh-cn/cover-w46-zh-cn.pdf"
+    },
+    {
+      "slug": "2026-w46-cover-zh-tw",
+      "week": "2026-w46",
+      "lang": "zh-tw",
+      "dir": "covers/2026-w46/2026-w46-cover-zh-tw",
+      "html": "covers/2026-w46/2026-w46-cover-zh-tw/2026-w46-cover-zh-tw.html",
+      "htmlBytes": 308360,
+      "htmlSha256": "b6583cfbdfde135b2ed182f8385bd256fc274b8e25cecf198fa03c20cb20db2f",
+      "md": "covers/2026-w46/2026-w46-cover-zh-tw/2026-w46-cover-zh-tw.md",
+      "pdf": "covers/2026-w46/2026-w46-cover-zh-tw/cover-w46-zh-tw.pdf"
+    },
     {
       "slug": "2026-w45-cover-en",
       "week": "2026-w45",
@@ -11966,9 +12098,225 @@
       "htmlSha256": "501c04bb7e2c08b7d9e98893fd20202185bfa59f5f78e95d172d28170d2ecf67",
       "md": "covers/2026-w45/2026-w45-cover-zh-tw/2026-w45-cover-zh-tw.md",
       "pdf": "covers/2026-w45/2026-w45-cover-zh-tw/cover-w45-zh-tw.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-en",
+      "week": "2026-w43",
+      "lang": "en",
+      "dir": "covers/2026-w43/2026-w43-cover-en",
+      "html": "covers/2026-w43/2026-w43-cover-en/2026-w43-cover-en.html",
+      "htmlBytes": 512638,
+      "htmlSha256": "ead313abf98ef6365d03556c9861a2b45b1d3b032e80c6d58ed5c6504cab75a8",
+      "md": "covers/2026-w43/2026-w43-cover-en/2026-w43-cover-en.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-en/cover-w43-en.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-de",
+      "week": "2026-w43",
+      "lang": "de",
+      "dir": "covers/2026-w43/2026-w43-cover-de",
+      "html": "covers/2026-w43/2026-w43-cover-de/2026-w43-cover-de.html",
+      "htmlBytes": 513251,
+      "htmlSha256": "7d01c6a2640c656e3ea427c79dabb1b07fe6a51a7b1b856882f7a3ff8bdffd0d",
+      "md": "covers/2026-w43/2026-w43-cover-de/2026-w43-cover-de.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-de/cover-w43-de.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-fr",
+      "week": "2026-w43",
+      "lang": "fr",
+      "dir": "covers/2026-w43/2026-w43-cover-fr",
+      "html": "covers/2026-w43/2026-w43-cover-fr/2026-w43-cover-fr.html",
+      "htmlBytes": 516518,
+      "htmlSha256": "ede97502f9dfec66ba65f2d590266b684a918faeb5cf23b619ea51708275d8cf",
+      "md": "covers/2026-w43/2026-w43-cover-fr/2026-w43-cover-fr.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-fr/cover-w43-fr.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-es",
+      "week": "2026-w43",
+      "lang": "es",
+      "dir": "covers/2026-w43/2026-w43-cover-es",
+      "html": "covers/2026-w43/2026-w43-cover-es/2026-w43-cover-es.html",
+      "htmlBytes": 514079,
+      "htmlSha256": "190dc327ebe07a11d5f734f6ff2689665d5d5716f003cf1eedd8541f176d3909",
+      "md": "covers/2026-w43/2026-w43-cover-es/2026-w43-cover-es.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-es/cover-w43-es.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-it",
+      "week": "2026-w43",
+      "lang": "it",
+      "dir": "covers/2026-w43/2026-w43-cover-it",
+      "html": "covers/2026-w43/2026-w43-cover-it/2026-w43-cover-it.html",
+      "htmlBytes": 513763,
+      "htmlSha256": "b9dcdd2218fb9e03492af20c660a7554eada49240df08fb0e9da9a28441bad01",
+      "md": "covers/2026-w43/2026-w43-cover-it/2026-w43-cover-it.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-it/cover-w43-it.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-pt",
+      "week": "2026-w43",
+      "lang": "pt",
+      "dir": "covers/2026-w43/2026-w43-cover-pt",
+      "html": "covers/2026-w43/2026-w43-cover-pt/2026-w43-cover-pt.html",
+      "htmlBytes": 514431,
+      "htmlSha256": "c2fc98ae80bc5cde727a1a30dd5f800ad993fd140d7c813f19ad42d09acd5834",
+      "md": "covers/2026-w43/2026-w43-cover-pt/2026-w43-cover-pt.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-pt/cover-w43-pt.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-nl",
+      "week": "2026-w43",
+      "lang": "nl",
+      "dir": "covers/2026-w43/2026-w43-cover-nl",
+      "html": "covers/2026-w43/2026-w43-cover-nl/2026-w43-cover-nl.html",
+      "htmlBytes": 514366,
+      "htmlSha256": "dfdebd78ba88eb00ad4e95d4b544416a94a28f56f0745749c1a1d3c46ebbe2a8",
+      "md": "covers/2026-w43/2026-w43-cover-nl/2026-w43-cover-nl.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-nl/cover-w43-nl.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-ru",
+      "week": "2026-w43",
+      "lang": "ru",
+      "dir": "covers/2026-w43/2026-w43-cover-ru",
+      "html": "covers/2026-w43/2026-w43-cover-ru/2026-w43-cover-ru.html",
+      "htmlBytes": 516759,
+      "htmlSha256": "0c8e1b987edddc4b84e7f3e259cde6b6e3bc82869bd716eaee8cef2087ed7b53",
+      "md": "covers/2026-w43/2026-w43-cover-ru/2026-w43-cover-ru.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-ru/cover-w43-ru.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-ja",
+      "week": "2026-w43",
+      "lang": "ja",
+      "dir": "covers/2026-w43/2026-w43-cover-ja",
+      "html": "covers/2026-w43/2026-w43-cover-ja/2026-w43-cover-ja.html",
+      "htmlBytes": 513699,
+      "htmlSha256": "7023fd85f1cbc184487ed82bbd15fe4c24a4f70f379725e697b1b4bcb665156b",
+      "md": "covers/2026-w43/2026-w43-cover-ja/2026-w43-cover-ja.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-ja/cover-w43-ja.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-ko",
+      "week": "2026-w43",
+      "lang": "ko",
+      "dir": "covers/2026-w43/2026-w43-cover-ko",
+      "html": "covers/2026-w43/2026-w43-cover-ko/2026-w43-cover-ko.html",
+      "htmlBytes": 512957,
+      "htmlSha256": "8578f42560c2e3bb353a8184cea9008c8e1d07939a8967829ee9e31489e7622e",
+      "md": "covers/2026-w43/2026-w43-cover-ko/2026-w43-cover-ko.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-ko/cover-w43-ko.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-zh-cn",
+      "week": "2026-w43",
+      "lang": "zh-cn",
+      "dir": "covers/2026-w43/2026-w43-cover-zh-cn",
+      "html": "covers/2026-w43/2026-w43-cover-zh-cn/2026-w43-cover-zh-cn.html",
+      "htmlBytes": 515139,
+      "htmlSha256": "d85d613240264293145d0e90685151871f6bbd07075d5847c86d302de9003f1f",
+      "md": "covers/2026-w43/2026-w43-cover-zh-cn/2026-w43-cover-zh-cn.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-zh-cn/cover-w43-zh-cn.pdf"
+    },
+    {
+      "slug": "2026-w43-cover-zh-tw",
+      "week": "2026-w43",
+      "lang": "zh-tw",
+      "dir": "covers/2026-w43/2026-w43-cover-zh-tw",
+      "html": "covers/2026-w43/2026-w43-cover-zh-tw/2026-w43-cover-zh-tw.html",
+      "htmlBytes": 516311,
+      "htmlSha256": "75eeb67ec0dc686865d9fd024ca8558aec0d93da5a213fe18ef36baaf59583c1",
+      "md": "covers/2026-w43/2026-w43-cover-zh-tw/2026-w43-cover-zh-tw.md",
+      "pdf": "covers/2026-w43/2026-w43-cover-zh-tw/cover-w43-zh-tw.pdf"
     }
   ],
   "coverImages": [
+    {
+      "week": "2026-w46",
+      "lang": "en",
+      "path": "covers/2026-w46/images/en.webp",
+      "bytes": 127946,
+      "sha256": "0e947c465133145971bf8174a2cd2ce5185d4b891c1ed272c2fab652cdf7b2dd"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "de",
+      "path": "covers/2026-w46/images/de.webp",
+      "bytes": 134514,
+      "sha256": "173078ae889751c17af5d7ba57aeaa611565e4bf4ebecf6cf7241d0c450cc2e8"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "fr",
+      "path": "covers/2026-w46/images/fr.webp",
+      "bytes": 133812,
+      "sha256": "7cec46922d6a8daf628b84c5400e4252e4cfa9160fe4efbe53524b45ae7a6402"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "es",
+      "path": "covers/2026-w46/images/es.webp",
+      "bytes": 194828,
+      "sha256": "d2c624687f1bc9c0f4fc14b40c0fd9cf9754494dfc7c6f5454d220ff5d63ff39"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "it",
+      "path": "covers/2026-w46/images/it.webp",
+      "bytes": 102028,
+      "sha256": "d9540d15b882aaa0fe23b0f2e37b1115fc102264976f5e89593fcd98962f302d"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "pt",
+      "path": "covers/2026-w46/images/pt.webp",
+      "bytes": 126104,
+      "sha256": "f8c61ca15ead37eb0ff1c0e5eed3e8448e02a03f7aa59cf0eab8f22e8e891ee5"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "nl",
+      "path": "covers/2026-w46/images/nl.webp",
+      "bytes": 151862,
+      "sha256": "0d4611a6891e2d2c2ff575401915f89fd69abcb1cf8fbc65c912b8319b7dce9e"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "ru",
+      "path": "covers/2026-w46/images/ru.webp",
+      "bytes": 150416,
+      "sha256": "098b9663ae046a62c87a75e753de7fa2f8911a44c2d2b05ae8b6b7bee6dba448"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "ja",
+      "path": "covers/2026-w46/images/ja.webp",
+      "bytes": 231170,
+      "sha256": "eb5a19531f996b9107584de6edaf762b59f6c2fbbd430379fccbf31cc6b23589"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "ko",
+      "path": "covers/2026-w46/images/ko.webp",
+      "bytes": 142470,
+      "sha256": "5401d93817f0083ccf0150d661c872b9f1790d33b1422a8a15169155425d4f36"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "zh-cn",
+      "path": "covers/2026-w46/images/zh-cn.webp",
+      "bytes": 96498,
+      "sha256": "80466d23d5277712485459752d5ae71eba1ec64a419e9dabcfe1c1d8d3c2f46c"
+    },
+    {
+      "week": "2026-w46",
+      "lang": "zh-tw",
+      "path": "covers/2026-w46/images/zh-tw.webp",
+      "bytes": 153940,
+      "sha256": "4c587479777024ec0113beaf6e1780fa0862a8761fdb8f0c65eb9b02f0a9eb06"
+    },
     {
       "week": "2026-w45",
       "lang": "en",
@@ -12052,6 +12400,90 @@
       "path": "covers/2026-w45/images/zh-tw.webp",
       "bytes": 170980,
       "sha256": "cf483ff15776c30eb79bbed98345fb9320e6574fa95301bdbb763c5d5044bd3e"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "en",
+      "path": "covers/2026-w43/images/en.webp",
+      "bytes": 375428,
+      "sha256": "978a39636657f0b6128ebb7125f7ecb01f8d98f28d4ffcb903e7768a0a0ff930"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "de",
+      "path": "covers/2026-w43/images/de.webp",
+      "bytes": 129684,
+      "sha256": "8bd01d2fb133fffc5cc066a91288d2edb2e9c726850b08f0813e44ab50945959"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "fr",
+      "path": "covers/2026-w43/images/fr.webp",
+      "bytes": 250604,
+      "sha256": "755ed9dbcc0ba642f06f8dd2d717c536cd0f2fa5e8cfaa0fcb6f430b1abfd4a7"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "es",
+      "path": "covers/2026-w43/images/es.webp",
+      "bytes": 123420,
+      "sha256": "745d1fac4368bd4610734a5bbe7eb8e21b631a66c43ca9310a1864bddfe8eeef"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "it",
+      "path": "covers/2026-w43/images/it.webp",
+      "bytes": 109492,
+      "sha256": "5345d15e506768065b28cffb031cbefcf17cea8041bdf2322377280bdaf5b513"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "pt",
+      "path": "covers/2026-w43/images/pt.webp",
+      "bytes": 132754,
+      "sha256": "80a833f845e726147d82b91ebf50027fa5d13437ed0eb84739d2e0a848dc281a"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "nl",
+      "path": "covers/2026-w43/images/nl.webp",
+      "bytes": 280608,
+      "sha256": "385580fe3ecb1cd6105d1fa8b718ea921d17fcb146308fdc54d4f338dff38de9"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "ru",
+      "path": "covers/2026-w43/images/ru.webp",
+      "bytes": 176428,
+      "sha256": "cb6f707c0ec0fc898e8fed481db57898a8fff7cabc9e3cc0951837e95b09d148"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "ja",
+      "path": "covers/2026-w43/images/ja.webp",
+      "bytes": 143522,
+      "sha256": "8c0e5d29da5219da732786f7d8429bbb51e4d6d387cbaa98a0e396c4690d5ae7"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "ko",
+      "path": "covers/2026-w43/images/ko.webp",
+      "bytes": 245668,
+      "sha256": "d8c101578602e007ac6f59f84039c9bc4f13aa7ba489f4737ec736817e3998b8"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "zh-cn",
+      "path": "covers/2026-w43/images/zh-cn.webp",
+      "bytes": 183282,
+      "sha256": "dc7a6c217db14f0176ae851d1114fabdc6f27ca3c20c868e15c06612b6e92805"
+    },
+    {
+      "week": "2026-w43",
+      "lang": "zh-tw",
+      "path": "covers/2026-w43/images/zh-tw.webp",
+      "bytes": 113764,
+      "sha256": "b14c323899dcd4a4794fbb4b8ba0a83ad3366f5883046afcbeaa48262133d8d3"
     }
   ]
 }
