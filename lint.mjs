@@ -1,77 +1,90 @@
 #!/usr/bin/env node
 /**
- * Lucerna Weekly 内容仓的结构校验 **兼索引生成器**。零依赖,`node lint.mjs` 直接跑。
+ * Structure gate **and index generator** for the Lucerna Weekly content repo. Zero dependencies: run `node lint.mjs`.
  *
- *     node lint.mjs                校验 + 检查 index.json 是否最新(CI 用,不写盘)
- *     node lint.mjs --write        校验 + 写出 index.json(加完一版就跑这个)
- *     node lint.mjs --require-pdf  额外要求每版的 PDF 实体已在仓内(发布前检查用)
+ *     node lint.mjs                check, and check that index.json is current (CI mode, writes nothing)
+ *     node lint.mjs --write        check, and write index.json (run this after you add an edition)
+ *     node lint.mjs --require-pdf  also require every edition's PDF file to be in the repo (pre-release check)
  *
- * 为什么索引由 lint 生成:消费方(站点/社区)运行时从 GitHub 取内容。没有索引,
- * 渲染一个列表要把每版的 md 都拉下来 —— 上游请求数是 O(版本数),而 GitHub
- * 未鉴权 API 只有 60 次/小时/IP。有了索引,列表只取 1 个文件。
+ * Why lint generates the index: consumers (the site, the community) fetch content from GitHub at run time.
+ * Without an index, a listing must fetch every edition's md: upstream requests grow with the edition count,
+ * and the unauthenticated GitHub API allows only 60 requests/hour/IP. With the index, a listing fetches 1 file.
  *
- * ⚠️ 索引会**漂移**:改了 md 忘了跑 --write,index 里还是旧数据,而且不报任何错。
- * 所以默认模式会把重新生成的索引和仓里的 index.json 比对,不一致直接红。
+ * ⚠️ The index can **drift**: you change an md, forget --write, and the index keeps the old data with no error.
+ * So the default mode compares the regenerated index with the committed index.json and fails on a difference.
  *
- * 这个仓只有一种形态,校验的就是它:
+ * The repo has one shape, and this gate checks it:
  *
  *     issues/<week>/
  *       <slug>/
- *         <slug>.md     这一版的元数据(frontmatter)+ 一段简介
- *         <slug>.pdf    整期网页版 PDF(可选实体;见 README 的「PDF」一节)
- *         <slug>.text.md 这一版的正文 markdown(可选;见规则 9)
+ *         <slug>.md      the edition's metadata (frontmatter) + a short introduction
+ *         <slug>.pdf     the whole edition as a web PDF (file optional; see "PDFs" in README)
+ *         <slug>.text.md the edition's body in markdown (optional; see rule 9)
  *
- * <week> 是周次目录(小写,如 2026-w43),它本身就是一层 —— 先按周找,再按版找。
- * slug = <week 小写>-<目标语>-<母语>,如 2026-w43-fr-zh-cn。
+ * <week> is the week directory (lowercase, e.g. 2026-w43). It is its own level: find the week, then the edition.
+ * slug = <week, lowercase>-<target>-<native>, e.g. 2026-w43-fr-zh-cn.
  *
- * 另有一种形态 —— 网站封面块,站点靠索引找到它:
+ * The other shape is the website cover block. The site finds it through the index:
  *
  *     covers/<week>/
- *       <week>-cover-<语种>/
- *         <week>-cover-<语种>.html   静态封面块(零交互,见规则 5)
- *         <week>-cover-<语种>.md     印刷版封面的元数据(可选)
- *         cover-<week 短码>-<语种>.pdf 印刷版封面 PDF(可选)
+ *       <week>-cover-<lang>/
+ *         <week>-cover-<lang>.html       static cover block (no interaction, see rule 5)
+ *         <week>-cover-<lang>.md         print cover metadata (optional)
+ *         cover-<week short>-<lang>.pdf  print cover PDF (optional)
  *       images/
- *         <学习语言>.webp          那一周这种学习语言那篇报道的配图(可选;见规则 10)
+ *         <target language>.webp         the image for that week's story in that target language (see rule 10)
  *
- * 封面块按周 + 语种进索引的 covers 一节,有 .html 的才进索引,站点凭它定位封面。
+ * Cover blocks go into the index's covers section by week + language. Only a directory with a .html goes in.
+ * The site locates covers by that section.
  *
- * 硬规则:
- *   1. **层级固定两层** —— issues/ 下面只有周次目录,周次目录里只有版本目录,
- *      版本目录里不能再有子目录;版本必须放在它自己所属的周次目录下。
- *   2. **配对合法** —— 目标语 ≠ 母语;语言必须在 12 语种列表内;
- *      简体中文与繁體中文互为目标/母语的两个配对**不存在**(没人这样学外语)。
- *   3. **自包含** —— 版本目录里只许有 <slug>.md、<slug>.pdf 和(可选的)<slug>.text.md;
- *      md 的 frontmatter 声明 pdf 文件名、字节数与 SHA-256,
- *      PDF 实体在仓内时必须与声明逐字节吻合(哈希对不上 = 文件被换过或传坏了)。
- *   4. **文本层** —— 版本目录里的 PDF 必须带可提取文本层(pdftotext 能提出文字);
- *      图片版 PDF 没有文本层,站点 SEO 读不到,不进仓。
- *   5. **封面块零交互** —— 仓内任何 .html 不得含交互元素
- *      (脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等),只留静态内容;
- *      没有 .html 时此条空过,主线保持绿。
- *   6. **excerpt 目标语** —— 非拉丁书写目标语(ru/ja/ko/zh-cn/zh-tw)的 excerpt 若 ASCII 字母占比过高(>50%),视为英文 excerpt 错放,校验失败;拉丁书写目标语无法用书写区分,故不查。
- *   7. **封面块进索引** —— covers/ 下每语种目录至多一个 .html,语种须在 12 语种列表内;
- *      有 .html 的才进索引(只有印刷版 md/pdf、没有 .html 的目录不进索引);
- *      索引的 covers 一节按周倒序、语种按 LANGS 序排列,站点凭它找到每期每语种的封面。
- *      每条带 slug(封面目录名)和 html 的字节数、SHA-256(从文件实算),站点镜像时据此验真。
- *   8. **封面块标出每篇报道的学习语言** —— <body> 上写 data-story-langs="<语种> <语种> …",
- *      按文档顺序依次对应每个 <article>:12 个语种各出现一次,<article> 恰好 12 个。
- *      站点凭它把每篇报道变成「学这种语言、用本封面读者语言讲解」那一版的入口(封面块本身仍零交互)。
- *   9. **正文 md(可选)** —— 版本目录里可以多放一份 <slug>.text.md:这一版的正文,markdown。
- *      不许是空文件。有就进索引的 text 字段(路径、字节数、SHA-256,从文件实算),没有时 text 为 null。
- *      站点把它渲染成单期页的正文;没有时站点只能用 PDF 抽出的文字。
- *  10. **报道配图(可选)** —— 封面块里给图留位置:在某篇 <article> 里的占位元素上加 data-image-slot
- *      (不带值;是哪种学习语言由规则 8 的顺序推出)。每篇至多一个,不许放在 <article> 外。
- *      图放 covers/<week>/images/<学习语言>.webp:一种学习语言一张,12 份封面共用;
- *      必须是 WebP、非空、≤ 400 KB(按文件字节数)。进索引的 coverImages(week、lang、路径、字节数、SHA-256)。
- *      站点把图填进每份封面里那篇报道的图片位;没有图时占位元素原样显示。
+ * Hard rules:
+ *   1. **Two fixed levels** — issues/ holds only week directories; a week directory holds only edition directories;
+ *      an edition directory holds no subdirectory; an edition sits in the directory of its own week.
+ *   2. **Valid pairs** — target ≠ native; both languages are in the 12-language list;
+ *      the two pairs between Simplified and Traditional Chinese **do not exist** (nobody learns a language that way).
+ *   3. **Self-contained** — an edition directory holds only <slug>.md, <slug>.pdf and (optional) <slug>.text.md;
+ *      the md frontmatter declares the PDF file name, byte size and SHA-256;
+ *      when the PDF file is in the repo, it must match the declaration byte for byte
+ *      (a hash mismatch means the file was replaced or damaged in transfer).
+ *   4. **Text layer** — a PDF in an edition directory must carry an extractable text layer (pdftotext extracts text);
+ *      an image-only PDF has no text layer, the site's SEO cannot read it, and it does not enter the repo.
+ *   5. **No interaction in cover blocks** — no .html in the repo may contain interactive elements
+ *      (scripts, buttons, links, forms, navigation, footer, sidebar, click handlers, etc.); keep static content only.
+ *      With no .html in the repo, this rule passes and main stays green.
+ *   6. **Excerpt in the target language** — for a non-Latin-script target (ru/ja/ko/zh-cn/zh-tw), an excerpt with
+ *      too many ASCII letters (>50%) counts as an English excerpt in the wrong place and fails.
+ *      Latin-script targets cannot be told apart by script, so they are not checked.
+ *   7. **Cover blocks in the index** — each language directory under covers/ holds at most one .html,
+ *      and its language is in the 12-language list. Only a directory with a .html enters the index
+ *      (a directory with only the print md/pdf does not). The covers section is sorted week descending,
+ *      then language in LANGS order. The site finds each week's cover per language by that section.
+ *      Each entry carries a slug (the cover directory name) and the html's byte size and SHA-256
+ *      (computed from the file). The site verifies its copy with them.
+ *   8. **A cover block names each story's target language** — <body> carries data-story-langs="<lang> <lang> …",
+ *      matching each <article> in document order: each of the 12 languages once, exactly 12 <article> elements.
+ *      The site turns each story into a link to "learn this language, explained in this cover's reader language"
+ *      (the cover block itself stays free of interaction).
+ *   9. **Body md (optional)** — an edition directory may also hold <slug>.text.md: the edition's body in markdown.
+ *      It must not be empty. When present, it enters the index field text (path, byte size, SHA-256, computed
+ *      from the file); when absent, text is null. The site renders it as the edition page's body; without it,
+ *      the site can use only text extracted from the PDF.
+ *  10. **Story images** — a cover block reserves image places: put data-image-slot on the placeholder element
+ *      inside an <article> (no value; rule 8's order gives its target language). At most one per story;
+ *      none outside an <article>. The image goes in covers/<week>/images/<target language>.webp: one per target
+ *      language, shared by the 12 covers; it must be WebP, non-empty, ≤ 400 KB (file bytes).
+ *      It enters the index's coverImages (week, lang, path, byte size, SHA-256).
+ *      The site fills each cover's slot for that story with the image; without an image the placeholder shows as is.
+ *  11. **A complete week must have its website cover** — when a week's expected set (130 editions) is all present
+ *      (not draft, PDF in the repo), covers/<week>/ must hold one cover block .html for each of the 12 reader
+ *      languages, and images/ must hold one image for each of the 12 target languages.
+ *      A print md/pdf does not count. Without them the site can show that week only as a list of cards.
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 
-/** 12 个语种(目标语与母语共用同一套代码)。顺序即索引内的排序。 */
+/** The 12 languages (target and native use the same codes). This order is the sort order in the index. */
 const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko', 'zh-cn', 'zh-tw'];
 const ROOT_ALLOW = new Set([
   'issues', 'lint.mjs', 'index.json', 'README.md', 'AGENTS.md', 'CLAUDE.md',
@@ -90,9 +103,9 @@ const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const SHA_RE = /^[0-9a-f]{64}$/;
 const INDEX_FILE = 'index.json';
 
-/** 非拉丁书写目标语:excerpt 可用书写判定语言。 */
+/** Non-Latin-script targets: their excerpt language can be judged by script. */
 const NON_LATIN_TARGETS = new Set(['ru', 'ja', 'ko', 'zh-cn', 'zh-tw']);
-/** excerpt 中 ASCII 字母占全部字母的比例(数字与标点不计)。 */
+/** Share of ASCII letters among all letters in an excerpt (digits and punctuation do not count). */
 function asciiLetterFraction(s) {
   const letters = [...s].filter((c) => /\p{L}/u.test(c));
   if (!letters.length) return 0;
@@ -106,15 +119,15 @@ const requirePdf = process.argv.includes('--require-pdf');
 const problems = [];
 const fail = (where, msg) => problems.push(`${where}: ${msg}`);
 
-/** frontmatter 极简解析:只认 `key: value`(值可带引号),够校验与生成索引用。 */
+/** Minimal frontmatter parser: reads only `key: value` (value may be quoted). Enough for checking and the index. */
 function frontmatter(raw, where) {
   if (!raw.startsWith('---\n')) {
-    fail(where, '缺少 frontmatter(文件必须以 --- 开头)');
+    fail(where, 'no frontmatter (the file must start with ---)');
     return null;
   }
   const end = raw.indexOf('\n---', 4);
   if (end === -1) {
-    fail(where, 'frontmatter 没有闭合的 ---');
+    fail(where, 'frontmatter has no closing ---');
     return null;
   }
   const out = {};
@@ -130,14 +143,14 @@ function frontmatter(raw, where) {
 
 const root = process.cwd();
 
-// 根目录白名单
+// Root allowlist
 for (const name of readdirSync(root)) {
-  if (!ROOT_ALLOW.has(name)) fail('根目录', `不允许的条目 ${name}`);
+  if (!ROOT_ALLOW.has(name)) fail('repo root', `entry not allowed: ${name}`);
 }
 
-// 封面块零交互:仓内任何 .html 不得含交互元素,只留静态内容。
-// <a\b 不命中 <article>/<aside>;<link> 不是 <a>;不禁 <header>,不查 cursor/:hover。
-// 没有 .html 时空过。默认模式即 enforce,CI 与提交钩子都跑 plain lint。
+// No interaction in cover blocks: no .html in the repo may contain interactive elements; static content only.
+// <a\b does not match <article>/<aside>; <link> is not <a>; <header> is allowed; cursor/:hover are not checked.
+// With no .html this passes. The default mode enforces it; CI and the commit hook both run plain lint.
 const INTERACTIVE_PATTERNS = [
   [/<script\b/i, '<script>'],
   [/<button\b/i, '<button>'],
@@ -168,12 +181,12 @@ function scanHtml(dir, rel) {
     try {
       text = readFileSync(p, 'utf8');
     } catch {
-      fail(r, '封面 HTML 读取失败');
+      fail(r, 'cannot read the cover HTML');
       continue;
     }
     for (const [re, label] of INTERACTIVE_PATTERNS) {
       if (re.test(text)) {
-        fail(r, `封面块不得含有交互元素（脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等），只留静态内容（命中 ${label}）`);
+        fail(r, `a cover block must not contain interactive elements (scripts, buttons, links, forms, navigation, footer, sidebar, click handlers, etc.); keep static content only (found ${label})`);
         break;
       }
     }
@@ -183,7 +196,7 @@ scanHtml(root, '');
 
 const issuesDir = join(root, 'issues');
 if (!existsSync(issuesDir)) {
-  fail('issues/', '目录不存在');
+  fail('issues/', 'directory does not exist');
   report();
 }
 
@@ -193,40 +206,40 @@ const seenPairs = new Set();
 for (const weekDirName of readdirSync(issuesDir).sort()) {
   const weekPath = join(issuesDir, weekDirName);
   if (!statSync(weekPath).isDirectory()) {
-    fail(`issues/${weekDirName}`, 'issues/ 下只许放周次目录');
+    fail(`issues/${weekDirName}`, 'issues/ holds only week directories');
     continue;
   }
   if (!WEEK_RE.test(weekDirName)) {
-    fail(`issues/${weekDirName}`, '周次目录名必须是 YYYY-wNN 小写(如 2026-w43)');
+    fail(`issues/${weekDirName}`, 'a week directory name must be YYYY-wNN in lowercase (e.g. 2026-w43)');
   }
 
   for (const slug of readdirSync(weekPath).sort()) {
     const dir = join(weekPath, slug);
     const rel = `issues/${weekDirName}/${slug}`;
     if (!statSync(dir).isDirectory()) {
-      fail(rel, '周次目录里只许放版本目录');
+      fail(rel, 'a week directory holds only edition directories');
       continue;
     }
-    if (!SLUG_RE.test(slug)) fail(rel, 'slug 只能用小写字母、数字与连字符');
+    if (!SLUG_RE.test(slug)) fail(rel, 'a slug uses only lowercase letters, digits and hyphens');
     if (!slug.startsWith(`${weekDirName}-`)) {
-      fail(rel, `版本必须放在它所属的周次目录下(slug 应以 ${weekDirName}- 开头)`);
+      fail(rel, `an edition must sit in the directory of its own week (the slug must start with ${weekDirName}-)`);
     }
 
     const files = readdirSync(dir);
     for (const f of files) {
       const p = join(dir, f);
-      if (statSync(p).isDirectory()) fail(`${rel}/${f}`, '版本目录里不能再有子目录');
+      if (statSync(p).isDirectory()) fail(`${rel}/${f}`, 'an edition directory must not hold a subdirectory');
     }
     const mdName = `${slug}.md`;
     const pdfName = `${slug}.pdf`;
     const textName = `${slug}.text.md`;
     for (const f of files) {
       if (f !== mdName && f !== pdfName && f !== textName) {
-        fail(rel, `多余的文件 ${f}(只许 ${mdName}、${pdfName} 与 ${textName})`);
+        fail(rel, `extra file ${f} (only ${mdName}, ${pdfName} and ${textName} are allowed)`);
       }
     }
     if (!files.includes(mdName)) {
-      fail(rel, `缺少 ${mdName}`);
+      fail(rel, `${mdName} is missing`);
       continue;
     }
 
@@ -235,72 +248,73 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
     if (!fm) continue;
 
     for (const key of REQUIRED_FM) {
-      if (!(key in fm) || fm[key] === '') fail(where, `frontmatter 缺少 ${key}`);
+      if (!(key in fm) || fm[key] === '') fail(where, `frontmatter is missing ${key}`);
     }
     if (problems.length && fm.target === undefined) continue;
 
-    // 配对规则
+    // Pair rules
     const { target, native: nat } = fm;
-    if (!LANGS.includes(target)) fail(where, `未知目标语 ${target}`);
-    if (!LANGS.includes(nat)) fail(where, `未知母语 ${nat}`);
-    if (target === nat) fail(where, '目标语与母语不能相同');
+    if (!LANGS.includes(target)) fail(where, `unknown target language ${target}`);
+    if (!LANGS.includes(nat)) fail(where, `unknown native language ${nat}`);
+    if (target === nat) fail(where, 'target and native language must differ');
     if ((target === 'zh-cn' && nat === 'zh-tw') || (target === 'zh-tw' && nat === 'zh-cn')) {
-      fail(where, '简繁互译配对不存在(简体与繁體是同一语言的两种书写,没人这样学)');
+      fail(where, 'a Simplified/Traditional Chinese pair does not exist (they are two scripts of one language; nobody learns that way)');
     }
     const pair = `${fm.week}|${target}|${nat}`;
-    if (seenPairs.has(pair)) fail(where, `配对重复:${pair}`);
+    if (seenPairs.has(pair)) fail(where, `duplicate pair: ${pair}`);
     seenPairs.add(pair);
 
-    // slug 必须由 week + 配对推出,保证目录名永远可解析
+    // The slug must follow from week + pair, so a directory name always parses
     const expectSlug = `${String(fm.week).toLowerCase()}-${target}-${nat}`;
-    if (slug !== expectSlug) fail(where, `slug 应为 ${expectSlug},实际 ${slug}`);
+    if (slug !== expectSlug) fail(where, `slug must be ${expectSlug}, found ${slug}`);
 
-    // 字段格式
+    // Field formats
     for (const d of ['publishedAt', 'weekStart', 'weekEnd']) {
-      if (fm[d] && !DATE_RE.test(fm[d])) fail(where, `${d} 必须是 YYYY-MM-DD`);
+      if (fm[d] && !DATE_RE.test(fm[d])) fail(where, `${d} must be YYYY-MM-DD`);
     }
     for (const n of ['vol', 'exercises', 'pages', 'pdfBytes']) {
-      if (fm[n] !== undefined && !/^\d+$/.test(fm[n])) fail(where, `${n} 必须是整数`);
+      if (fm[n] !== undefined && !/^\d+$/.test(fm[n])) fail(where, `${n} must be an integer`);
     }
-    if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 必须是 64 位小写十六进制');
-    if (fm.pdf && fm.pdf !== pdfName) fail(where, `pdf 字段必须是 ${pdfName}`);
+    if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 must be 64 lowercase hex digits');
+    if (fm.pdf && fm.pdf !== pdfName) fail(where, `the pdf field must be ${pdfName}`);
 
-    // excerpt 语言门(保守版):只对非拉丁书写目标语查 ASCII 字母占比。
-    // 拉丁书写目标语(de/fr/es/it/pt/nl/en)的 excerpt 本就是拉丁字母,无法用书写区分英文,故不查。
+    // Excerpt language gate (conservative): only non-Latin-script targets, by share of ASCII letters.
+    // Latin-script targets (de/fr/es/it/pt/nl/en) use Latin letters anyway and cannot be told from English, so they are not checked.
     if (NON_LATIN_TARGETS.has(target) && fm.excerpt && asciiLetterFraction(fm.excerpt) > 0.5) {
-      fail(where, `excerpt 必须用目标语 ${target} 写(当前 ASCII 字母占比过高,疑似英文 excerpt)`);
+      fail(where, `the excerpt must be written in the target language ${target} (too many ASCII letters; it looks like an English excerpt)`);
     }
 
-    // PDF 实体在仓内时,逐字节核对(大小 + SHA-256)
+    // When the PDF file is in the repo, check it byte for byte (size + SHA-256)
     const pdfPath = join(dir, pdfName);
     const pdfInRepo = existsSync(pdfPath);
     if (pdfInRepo) {
       const data = readFileSync(pdfPath);
       if (data.length !== Number(fm.pdfBytes)) {
-        fail(where, `PDF 大小不符:声明 ${fm.pdfBytes},实际 ${data.length}`);
+        fail(where, `PDF size mismatch: declared ${fm.pdfBytes}, actual ${data.length}`);
       }
       const sha = createHash('sha256').update(data).digest('hex');
-      if (sha !== fm.pdfSha256) fail(where, 'PDF 的 SHA-256 与 frontmatter 声明不符');
-      // 文本层:pdftotext 能提出文字才算有文本层;图片版 PDF 只有图片,没有文字。
-      // pdftotext 是 poppler 的工具(ubuntu-latest runner 自带);本地没有时报错明示,不静默放行。
+      if (sha !== fm.pdfSha256) fail(where, 'the PDF SHA-256 does not match the frontmatter');
+      // Text layer: only a PDF that pdftotext extracts text from has a text layer; an image-only PDF has none.
+      // pdftotext comes with poppler (preinstalled on the ubuntu-latest runner); without it locally, fail loudly, never pass silently.
       try {
         const text = execFileSync('pdftotext', [pdfPath, '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
         if (text.replace(/\s/g, '').length === 0) {
-          fail(where, 'PDF 没有可提取文本层(图片版 PDF 不进仓,先用 webpdf.py 生成带文本层的网页版)');
+          fail(where, 'the PDF has no extractable text layer (image-only PDFs do not enter the repo; make the web PDF with webpdf.py first)');
         }
       } catch (e) {
-        if (e.code === 'ENOENT') fail(where, 'PDF 文本层校验需要 pdftotext(安装 poppler-utils 后再跑)');
-        else fail(where, `PDF 文本层校验失败:${e.message}`);
+        if (e.code === 'ENOENT') fail(where, 'the PDF text-layer check needs pdftotext (install poppler-utils, then run again)');
+        else fail(where, `PDF text-layer check failed: ${e.message}`);
       }
     } else if (requirePdf) {
-      fail(rel, 'PDF 实体不在仓内(--require-pdf)');
+      fail(rel, 'the PDF file is not in the repo (--require-pdf)');
     }
 
-    // 正文 md(规则 9,可选):有就进索引,带字节数与 SHA-256(从文件实算),站点渲染成单期页的正文。
+    // Body md (rule 9, optional): when present it enters the index with byte size and SHA-256 (computed from the file);
+    // the site renders it as the edition page's body.
     let text = null;
     if (files.includes(textName)) {
       const data = readFileSync(join(dir, textName));
-      if (data.toString('utf8').trim().length === 0) fail(`${rel}/${textName}`, '正文 md 是空的');
+      if (data.toString('utf8').trim().length === 0) fail(`${rel}/${textName}`, 'the body md is empty');
       text = {
         path: `${rel}/${textName}`,
         bytes: data.length,
@@ -340,9 +354,9 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
   }
 }
 
-// 封面块进索引:站点凭 covers 一节找到每期每语种的封面块(规则 7)。
-// 目录形态 covers/<week>/<week>-cover-<语种>/,每语种目录至多一个 .html;
-// 只有印刷版、没有 .html 的目录不进索引(也不报错)。
+// Cover blocks in the index: the site finds each week's cover per language by the covers section (rule 7).
+// Shape covers/<week>/<week>-cover-<lang>/, at most one .html per language directory.
+// A directory with only the print cover and no .html does not enter the index; rule 11 decides whether the week needs one.
 const covers = [];
 const coverImages = [];
 const IMAGES_DIR = 'images';
@@ -353,11 +367,11 @@ if (existsSync(coversDir)) {
   for (const weekDirName of readdirSync(coversDir).sort()) {
     const weekPath = join(coversDir, weekDirName);
     if (!statSync(weekPath).isDirectory()) {
-      fail(`covers/${weekDirName}`, 'covers/ 下只许放周次目录');
+      fail(`covers/${weekDirName}`, 'covers/ holds only week directories');
       continue;
     }
     if (!WEEK_RE.test(weekDirName)) {
-      fail(`covers/${weekDirName}`, '周次目录名必须是 YYYY-wNN 小写(如 2026-w45)');
+      fail(`covers/${weekDirName}`, 'a week directory name must be YYYY-wNN in lowercase (e.g. 2026-w45)');
       continue;
     }
     for (const coverDirName of readdirSync(weekPath).sort()) {
@@ -368,29 +382,29 @@ if (existsSync(coversDir)) {
         continue;
       }
       if (!statSync(dir).isDirectory()) {
-        fail(rel, '周次目录里只许放封面目录');
+        fail(rel, 'a week directory holds only cover directories');
         continue;
       }
       const m = coverDirName.match(new RegExp(`^${weekDirName}-cover-(.+)$`));
       if (!m) {
-        fail(rel, `封面目录名应为 ${weekDirName}-cover-<语种>`);
+        fail(rel, `a cover directory name must be ${weekDirName}-cover-<lang>`);
         continue;
       }
       const lang = m[1];
       if (!LANGS.includes(lang)) {
-        fail(rel, `未知语种 ${lang}`);
+        fail(rel, `unknown language ${lang}`);
         continue;
       }
       const files = readdirSync(dir);
       const htmls = files.filter((f) => f.toLowerCase().endsWith('.html'));
-      if (htmls.length === 0) continue; // 只有印刷版的封面目录:不进索引,也不报错
+      if (htmls.length === 0) continue; // print cover only: not in the index; rule 11 checks the week
       if (htmls.length > 1) {
-        fail(rel, `封面目录里至多一个 .html,实际 ${htmls.length} 个`);
+        fail(rel, `a cover directory holds at most one .html, found ${htmls.length}`);
         continue;
       }
       const pdfs = files.filter((f) => f.toLowerCase().endsWith('.pdf'));
       if (pdfs.length > 1) {
-        fail(rel, `封面目录里至多一个 PDF,实际 ${pdfs.length} 个`);
+        fail(rel, `a cover directory holds at most one PDF, found ${pdfs.length}`);
         continue;
       }
       const mdName = `${coverDirName}.md`;
@@ -412,58 +426,58 @@ if (existsSync(coversDir)) {
     }
   }
 }
-/** 规则 8:<body data-story-langs> 列出 12 个语种各一次,且与 <article> 一一对应(按文档顺序)。 */
+/** Rule 8: <body data-story-langs> lists each of the 12 languages once, one per <article>, in document order. */
 function checkStoryLangs(text, where) {
   const m = text.match(/<body\b[^>]*\sdata-story-langs\s*=\s*"([^"]*)"/i);
   if (!m) {
-    fail(where, '封面块 <body> 缺少 data-story-langs(按顺序列出每篇 <article> 的学习语言,见 AGENTS.md「加封面」)');
+    fail(where, 'the cover block <body> has no data-story-langs (list the target language of each <article> in order; see AGENTS.md, "Add a cover")');
     return;
   }
   const langs = m[1].trim().split(/\s+/).filter(Boolean);
   const unknown = langs.filter((l) => !LANGS.includes(l));
-  if (unknown.length) fail(where, `data-story-langs 里有未知语种 ${unknown.join(' ')}`);
+  if (unknown.length) fail(where, `data-story-langs has unknown languages ${unknown.join(' ')}`);
   const missing = LANGS.filter((l) => !langs.includes(l));
-  if (missing.length) fail(where, `data-story-langs 缺少语种 ${missing.join(' ')}`);
-  if (new Set(langs).size !== langs.length) fail(where, 'data-story-langs 里有重复语种');
+  if (missing.length) fail(where, `data-story-langs is missing languages ${missing.join(' ')}`);
+  if (new Set(langs).size !== langs.length) fail(where, 'data-story-langs has a duplicate language');
   const articles = (text.match(/<article\b/gi) ?? []).length;
   if (articles !== langs.length) {
-    fail(where, `data-story-langs 列了 ${langs.length} 个语种,但封面块里有 ${articles} 个 <article>,两者必须一一对应`);
+    fail(where, `data-story-langs lists ${langs.length} languages but the cover block has ${articles} <article> elements; they must match one to one`);
   }
 }
 
-/** 规则 10:图片位(data-image-slot)只许在 <article> 里,每篇至多一个。 */
+/** Rule 10: an image slot (data-image-slot) sits only inside an <article>, at most one per story. */
 function checkImageSlots(text, where) {
   const [before, ...articles] = text.split(/<article\b/i);
   let stray = (before.match(IMAGE_SLOT_RE) ?? []).length;
   articles.forEach((chunk, i) => {
     const [inside, ...after] = chunk.split(/<\/article>/i);
     const n = (inside.match(IMAGE_SLOT_RE) ?? []).length;
-    if (n > 1) fail(where, `第 ${i + 1} 个 <article> 里有 ${n} 个 data-image-slot,每篇至多一个`);
+    if (n > 1) fail(where, `<article> number ${i + 1} has ${n} data-image-slot attributes; at most one per story`);
     stray += (after.join('').match(IMAGE_SLOT_RE) ?? []).length;
   });
-  if (stray) fail(where, `有 ${stray} 个 data-image-slot 不在 <article> 里;图片位必须放在它那篇报道里`);
+  if (stray) fail(where, `${stray} data-image-slot attributes are outside an <article>; an image slot must sit in its story`);
 }
 
-/** 规则 10:covers/<week>/images/<语种>.webp,每种学习语言(报道)至多一张,单张 ≤ IMAGE_MAX_BYTES。 */
+/** Rule 10: covers/<week>/images/<lang>.webp, at most one per target language (story), each ≤ IMAGE_MAX_BYTES. */
 function collectCoverImages(dir, rel, week) {
   if (!statSync(dir).isDirectory()) {
-    fail(rel, `${IMAGES_DIR} 必须是目录`);
+    fail(rel, `${IMAGES_DIR} must be a directory`);
     return;
   }
   for (const name of readdirSync(dir).sort()) {
     const fileRel = `${rel}/${name}`;
     const m = name.match(/^(.+)\.webp$/);
     if (!m || !LANGS.includes(m[1])) {
-      fail(fileRel, `图片文件名必须是 <学习语言>.webp(语种在 12 语种列表内,如 it.webp)`);
+      fail(fileRel, 'an image file name must be <target language>.webp (a language from the 12-language list, e.g. it.webp)');
       continue;
     }
     const data = readFileSync(join(dir, name));
     if (data.length === 0 || data.length > IMAGE_MAX_BYTES) {
-      fail(fileRel, `图片 ${data.length} 字节;必须非空且 ≤ ${IMAGE_MAX_BYTES} 字节`);
+      fail(fileRel, `image is ${data.length} bytes; it must be non-empty and ≤ ${IMAGE_MAX_BYTES} bytes`);
       continue;
     }
     if (data.subarray(0, 4).toString('latin1') !== 'RIFF' || data.subarray(8, 12).toString('latin1') !== 'WEBP') {
-      fail(fileRel, '不是 WebP 文件(文件头不是 RIFF…WEBP)');
+      fail(fileRel, 'not a WebP file (the header is not RIFF…WEBP)');
       continue;
     }
     coverImages.push({
@@ -476,6 +490,34 @@ function collectCoverImages(dir, rel, week) {
   }
 }
 
+// Rule 11: when a week's editions are complete (all 130 of the expected set, none draft, every PDF in the repo —
+// the same bar the site uses to publish a week), its website cover must be complete too:
+// one cover block .html per reader language (12) and one story image per target language (12).
+// It is no longer optional: without it the site shows that week as a list of cards, not a front page
+// (W43 and W46 had only print covers).
+const coverLangsByWeek = new Map();
+for (const c of covers) coverLangsByWeek.set(c.week, (coverLangsByWeek.get(c.week) ?? new Set()).add(c.lang));
+const imageLangsByWeek = new Map();
+for (const i of coverImages) imageLangsByWeek.set(i.week, (imageLangsByWeek.get(i.week) ?? new Set()).add(i.lang));
+const expectedPairCount = LANGS.length * (LANGS.length - 1) - 2;
+const readyPairsByWeek = new Map();
+for (const e of editions) {
+  if (e.draft || !e.pdfInRepo) continue;
+  const week = e.week.toLowerCase();
+  readyPairsByWeek.set(week, (readyPairsByWeek.get(week) ?? new Set()).add(`${e.target}>${e.native}`));
+}
+for (const [week, pairs] of readyPairsByWeek) {
+  if (pairs.size < expectedPairCount) continue;
+  const noCover = LANGS.filter((l) => !coverLangsByWeek.get(week)?.has(l));
+  if (noCover.length) {
+    fail(`covers/${week}`, `this week has all ${expectedPairCount} editions but no website cover block .html for reader languages ${noCover.join(' ')}; see AGENTS.md, "Add a cover"`);
+  }
+  const noImage = LANGS.filter((l) => !imageLangsByWeek.get(week)?.has(l));
+  if (noImage.length) {
+    fail(`covers/${week}/${IMAGES_DIR}`, `this week has all ${expectedPairCount} editions but no story image for target languages ${noImage.join(' ')}; see AGENTS.md, "Add story images"`);
+  }
+}
+
 covers.sort((a, b) =>
   b.week.localeCompare(a.week) ||
   LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
@@ -483,7 +525,7 @@ coverImages.sort((a, b) =>
   b.week.localeCompare(a.week) ||
   LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
 
-// 排序:期(weekStart)倒序 → 目标语按 LANGS 序 → 母语按 LANGS 序。不留给消费方算。
+// Sort: week (weekStart) descending → target in LANGS order → native in LANGS order. Never left to consumers.
 editions.sort((a, b) =>
   b.weekStart.localeCompare(a.weekStart) ||
   LANGS.indexOf(a.target) - LANGS.indexOf(b.target) ||
@@ -503,21 +545,21 @@ if (problems.length) report();
 
 if (write) {
   writeFileSync(join(root, INDEX_FILE), rendered);
-  console.log(`index.json 已写出:${editions.length} 版`);
+  console.log(`index.json written: ${editions.length} editions`);
 } else {
   const current = existsSync(join(root, INDEX_FILE))
     ? readFileSync(join(root, INDEX_FILE), 'utf8')
     : '';
   if (current !== rendered) {
-    console.error('index.json 与内容不一致(漂移)—— 跑 `node lint.mjs --write` 重新生成并提交。');
+    console.error('index.json does not match the content (drift). Run `node lint.mjs --write` and commit the result.');
     process.exit(1);
   }
-  console.log(`OK:${editions.length} 版,index.json 最新`);
+  console.log(`OK: ${editions.length} editions, index.json is current`);
 }
 
 function report() {
   if (problems.length) {
-    console.error(`校验失败,${problems.length} 个问题:`);
+    console.error(`Check failed, ${problems.length} problems:`);
     for (const p of problems) console.error(`  - ${p}`);
     process.exit(1);
   }

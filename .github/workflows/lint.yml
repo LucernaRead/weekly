@@ -1,7 +1,7 @@
 name: lint
 
-# 结构问题(配对非法、PDF 哈希对不上、索引漂移)的代价往往在消费方
-# 运行时才显现,所以在合并前就拦。
+# Structure problems (an invalid pair, a PDF hash mismatch, index drift, a complete week without its website cover)
+# usually show up only at run time on the consumer side, so block them before the merge.
 on:
   push:
     branches: [main]
@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # lint.mjs 零依赖,用 runner 自带的 node 就够 —— 内容仓不引入 npm 生态。
+      # lint.mjs has zero dependencies; the runner's own node is enough. The content repo does not pull in npm.
       - run: node lint.mjs

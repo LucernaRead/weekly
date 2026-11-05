@@ -1,69 +1,93 @@
-# 周报内容 Agent 指南
+# Weekly content: agent guide
 
-## 开始前
+## Before you start
 
-- 先读 README.md。本仓只维护内容(周报各版本的元数据与 PDF),不放站点代码。
-- 一版能不能进仓,只看一条:它在生产端已经走完周报 SOP —— 独立校对
-  完整一轮零问题、几何遮挡审计零标记。没过门的版不要往这里放。
+- Read README.md first. This repo holds content only: edition metadata and PDFs. It holds no site code.
+- Add an edition only when it has passed the weekly SOP on the production side:
+  one full independent proofreading round with zero findings, and a geometry-overlap audit with zero flags.
+  Do not add an edition that has not passed.
 
-## 加一版
+## Add an edition
 
-1. 建目录 `issues/<week 小写>/<week 小写>-<目标语>-<母语>/`(如 `issues/2026-w43/2026-w43-fr-zh-cn/`)—— 周次本身是一层。
-2. 写 `<slug>.md`:frontmatter 字段照 README,一个不能少。
-   pdfBytes 与 pdfSha256 从**最终定稿**的网页版 PDF 实测(SHA-256 全小写)。
-3. 有 PDF 实体要一并提交时,文件名必须是 `<slug>.pdf`,放进同一目录。
-4. 正文 md:把这一版的正文导出成 `<slug>.text.md`,放进同一目录(lint 规则 9)。
-   - 站点把它渲染成单期页的正文给人读、给搜索引擎读;没有它,站点只能退回 PDF 抽出的文字,版面乱、默认收起。
-   - 从生产端的源稿导出,标题、段落、练习按原顺序写成 markdown;不要从 PDF 反抽。
-   - 不许是空文件。lint 会把路径、字节数、SHA-256 写进 index 的 `text` 字段。
-5. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿;把生成的
-   index.json 和 md 一起提交。**不要手工编辑 index.json。**
-6. 提交钩子会重算索引,不得跳过。提交前看 git diff,别混入无关文件。
+1. Create the directory `issues/<week, lowercase>/<week, lowercase>-<target>-<native>/`.
+   Example: `issues/2026-w43/2026-w43-fr-zh-cn/`. The week is its own level.
+2. Write `<slug>.md`. Give every frontmatter field in README. Do not omit a field.
+   Measure `pdfBytes` and `pdfSha256` from the **final** web PDF. Write the SHA-256 in lowercase.
+3. When you commit the PDF file, name it `<slug>.pdf` and put it in the same directory.
+4. Body markdown: export the edition's body as `<slug>.text.md` into the same directory (lint rule 9).
+   - The site renders this file as the edition page's body, for readers and for search engines.
+     Without it, the site falls back to text extracted from the PDF. That text has a broken layout and starts collapsed.
+   - Export it from the production source. Write titles, paragraphs and exercises in their original order.
+     Do not extract it back from the PDF.
+   - Do not commit an empty file. Lint writes its path, byte size and SHA-256 into the index field `text`.
+5. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+   Commit the generated index.json together with the md. **Do not edit index.json by hand.**
+6. The commit hook regenerates the index. Do not skip it. Read `git diff` before you commit. Do not commit unrelated files.
 
-## 加封面
+## Add a cover
 
-每周每种读者语言一份网站封面块。封面块是那一周 12 种学习语言头版的快照,
-站点把它放在周报页最上面,读者点哪一篇报道,就进那种学习语言、用封面读者语言讲解的那一版。
+Each week has one website cover block per reader language.
+A cover block is a snapshot of that week's 12 front pages, one per target language.
+The site shows it at the top of the weekly page.
+When a reader clicks a story, the site opens the edition for that target language, explained in the cover's reader language.
 
-1. 建目录 `covers/<week 小写>/<week 小写>-cover-<读者语言>/`(如 `covers/2026-w45/2026-w45-cover-en/`)。
-2. 放一份 `<目录名>.html`:自包含的静态封面块。
-   - 零交互(lint 规则 5):不许有脚本、按钮、链接、表单、导航、页脚、侧栏、点击事件。
-     入口由站点加,封面块里不写链接。
-   - 每篇报道是一个 `<article>`,12 种学习语言各一篇。
-   - `<body>` 上写 `data-story-langs="…"`(lint 规则 8):按文档顺序列出每个 `<article>`
-     是哪种学习语言,用 README 里的语言代码,空格分隔,12 个各出现一次。
-     例:`<body data-story-langs="de fr es en it pt nl ru ja ko zh-cn zh-tw">`。
-     版式换了、报道顺序变了,这一行跟着改;顺序错了,读者会被带进错误的一版。
-   - 要配图的报道,在那篇 `<article>` 的占位元素上加 `data-image-slot`(lint 规则 10)。
-     不带值:是哪种学习语言,由 `data-story-langs` 的顺序推出。每篇至多一个,不许放在 `<article>` 外。
-     例:`<div class="plate" data-image-slot aria-hidden="true"><span class="mast">La Lucerna</span></div>`。
-     占位元素里的内容照常写:还没有图时,站点原样显示它。
-3. 印刷版封面(可选)放同一目录:`<目录名>.md` 与一份 PDF。
-4. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿。lint 会把这份封面写进
-   `index.json` 的 `covers`:`slug`、`week`、`lang`、`html` 路径,以及 html 的字节数与 SHA-256
-   (从文件实算,不手填)。站点按 SHA-256 验真,所以封面块改一个字节都要重跑 `--write`。
-5. 提交 html 和 index.json。**不要手工编辑 index.json。**
+**The website cover is required (lint rule 11).** When a week holds all 130 editions, lint requires this week to have:
+12 website cover blocks (`.html`, one per reader language) and 12 story images (one per target language).
+If one is missing, lint fails. The commit hook and CI both block it.
+The print cover (`.md` + PDF) is **not** a website cover block. The site reads only the `.html`.
+Order: commit the cover blocks and the images first. Then commit the last batch of editions that completes the 130.
+Follow W45 (`covers/2026-w45/`): the lead story carries its image, and the other stories hold an image slot (`data-image-slot`).
 
-## 加报道配图
+1. Create the directory `covers/<week, lowercase>/<week, lowercase>-cover-<reader language>/`.
+   Example: `covers/2026-w45/2026-w45-cover-en/`.
+2. Put one `<directory name>.html` in it: a self-contained static cover block.
+   - No interaction (lint rule 5): no scripts, buttons, links, forms, navigation, footer, sidebar or click handlers.
+     The site adds the links. Do not write links into the cover block.
+   - Write each story as one `<article>`. Write one story per target language, 12 in total.
+   - Write `data-story-langs="…"` on `<body>` (lint rule 8).
+     List the target language of each `<article>` in document order.
+     Use the language codes from README, separated by spaces. Give each of the 12 exactly once.
+     Example: `<body data-story-langs="de fr es en it pt nl ru ja ko zh-cn zh-tw">`.
+     When the layout or the story order changes, change this line too.
+     A wrong order sends the reader to the wrong edition.
+   - For a story that gets an image, put `data-image-slot` on the placeholder element in that `<article>` (lint rule 10).
+     Give the attribute no value. Lint derives the target language from the order in `data-story-langs`.
+     Put at most one slot in each story. Do not put a slot outside an `<article>`.
+     Example: `<div class="plate" data-image-slot aria-hidden="true"><span class="mast">La Lucerna</span></div>`.
+     Write the placeholder's content as usual. The site shows it as is until the image exists.
+3. Put the print cover in the same directory: `<directory name>.md` and one PDF. The site does not use it.
+4. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+   Lint writes the cover into `covers` in `index.json`: `slug`, `week`, `lang`, the `html` path,
+   and the html's byte size and SHA-256 (computed from the file, never typed by hand).
+   The site verifies the SHA-256. When you change one byte of a cover block, run `--write` again.
+5. Commit the html and index.json. **Do not edit index.json by hand.**
 
-每周每种学习语言一张图,配那一周这种学习语言的那篇报道。
-12 份封面共用这 12 张图:站点把图填进每份封面里那篇报道的 `data-image-slot`。
+## Add story images
 
-1. 读那一周任意一份封面里这种学习语言的那篇报道(标题和摘要),按内容生成一张图。
-2. 图的规格:
-   - 横版 3:2(建议 1200×800 像素)。站点按「裁切填满」放进图片位,四边可能各裁掉一点,主体放中间。
-   - 图里不放文字。12 种读者语言的封面共用这张图,文字只对一种读者有用。
-   - 格式 WebP,文件 ≤ 400 KB(按文件字节数)。超了就降质量重压,不要缩到 800 像素宽以下。
-3. 存为 `covers/<week 小写>/images/<学习语言>.webp`(如 `covers/2026-w45/images/it.webp`)。
-   文件名只用 README 里的语言代码,一种学习语言一张。
-4. 跑 `node lint.mjs --write`,再跑 `node lint.mjs` 确认绿。lint 会把图写进 `index.json` 的
-   `coverImages`:`week`、`lang`、路径、字节数、SHA-256。
-5. 提交图和 index.json。可以分批提交:缺图的报道,站点照常显示占位元素。
-6. 换一张已提交的图:直接覆盖同名文件,重跑第 4 步。站点按 SHA-256 取新图。
+Each week has one image per target language. The image goes with that week's story in that target language.
+The 12 covers share these 12 images. The site puts each image into that story's `data-image-slot` on every cover.
 
-## 不许做的事
+1. Read that target language's story (headline and summary) on any of that week's covers. Make an image from its content.
+2. Image specification:
+   - Landscape 3:2 (recommended 1200×800 px). The site crops the image to fill the slot.
+     Each edge can lose a little. Keep the subject in the centre.
+   - Put no text in the image. The 12 reader-language covers share the image, and text serves only one reader.
+   - Format WebP, file ≤ 400 KB (counted in file bytes). If it is larger, compress it again at lower quality.
+     Do not scale it below 800 px wide.
+3. Save it as `covers/<week, lowercase>/images/<target language>.webp`. Example: `covers/2026-w45/images/it.webp`.
+   Use only the language codes from README in the file name. Save one image per target language.
+4. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+   Lint writes the image into `coverImages` in `index.json`: `week`, `lang`, path, byte size, SHA-256.
+5. Commit the image and index.json. Before the week has 130 editions, you can commit in batches.
+   When the week has 130 editions, all 12 images must exist (lint rule 11).
+6. To replace a committed image, overwrite the file with the same name. Then do step 4 again.
+   The site fetches the new image by its SHA-256.
 
-- 不许改已入仓版本的 frontmatter 来「修正」历史 —— 版有错,走生产端的
-  更正流程出新文件,再更新 md 的 pdfBytes/pdfSha256 并注明。
-- 不许出现简繁互译的配对目录(zh-cn × zh-tw):lint 会拦,也不要试图绕过。
-- 不许把各版的印刷版 PDF 放进 `issues/`(印刷版封面例外,放在 `covers/` 的封面目录里)。
+## Do not
+
+- Do not change the frontmatter of a committed edition to "fix" history.
+  When an edition has an error, use the production correction flow to make a new file.
+  Then update `pdfBytes` / `pdfSha256` in the md and note the correction.
+- Do not create a pair directory between Simplified and Traditional Chinese (zh-cn × zh-tw).
+  Lint blocks it. Do not try to get around it.
+- Do not put an edition's print PDF into `issues/`. A print cover is the exception: it goes into its cover directory under `covers/`.

@@ -1,5 +1,5 @@
-# Claude 工作指南
+# Claude guide
 
-开始操作前完整阅读并遵循仓根 [AGENTS.md](./AGENTS.md) 与 [README.md](./README.md)。
+Before you start, read [AGENTS.md](./AGENTS.md) and [README.md](./README.md) at the repo root completely. Follow them.
 
-修改后运行 `node lint.mjs --write` 和 `node lint.mjs`，将 index.json 一并提交。发布按用户授权执行。
+After a change, run `node lint.mjs --write` and `node lint.mjs`. Commit index.json with the change. Publish only with the user's authorization.
