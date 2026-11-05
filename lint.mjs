@@ -295,7 +295,7 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
       const sha = createHash('sha256').update(data).digest('hex');
       if (sha !== fm.pdfSha256) fail(where, 'the PDF SHA-256 does not match the frontmatter');
       // Text layer: only a PDF that pdftotext extracts text from has a text layer; an image-only PDF has none.
-      // pdftotext comes with poppler (preinstalled on the ubuntu-latest runner); without it locally, fail loudly, never pass silently.
+      // pdftotext comes with poppler (CI installs poppler-utils, see .github/workflows/lint.yml); without it, fail loudly, never pass silently.
       try {
         const text = execFileSync('pdftotext', [pdfPath, '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
         if (text.replace(/\s/g, '').length === 0) {

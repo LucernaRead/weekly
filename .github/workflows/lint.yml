@@ -13,5 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Rule 4 runs pdftotext on every PDF. The ubuntu-latest image no longer ships it
+      # (every run from 2026-11-03 failed with "needs pdftotext"), so install poppler first.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       # lint.mjs has zero dependencies; the runner's own node is enough. The content repo does not pull in npm.
       - run: node lint.mjs
