@@ -87,7 +87,7 @@ import { createHash } from 'node:crypto';
 /** The 12 languages (target and native use the same codes). This order is the sort order in the index. */
 const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko', 'zh-cn', 'zh-tw'];
 const ROOT_ALLOW = new Set([
-  'issues', 'lint.mjs', 'index.json', 'README.md', 'AGENTS.md', 'CLAUDE.md',
+  'issues', 'lint.mjs', 'index.json', 'README.md', 'AGENTS.md', 'CLAUDE.md', 'SOP.md',
   '.git', '.husky', 'package.json', 'package-lock.json', 'node_modules',
   '.github', '.gitignore', 'covers',
 ]);
