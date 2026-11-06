@@ -7,9 +7,9 @@
     --line: #d8d2c4;       /* 栏间细线 */
     --cloth: #37402f;      /* 书衣绿:栏目条、导读条 */
     --olive: #46581f;      /* 橄榄绿:栏目小字、首字、分隔线 */
-    --gosling: #f0d87c;    /* 鹅黄:书衣绿上的强调 */
+    --gosling: #f6e08e;    /* 鹅黄:书衣绿上的强调 */
     --on-cloth: #f4efe1;   /* 书衣绿上的字 */
-    --a2: #6b7d3a; --b1: #46581f; --b2: #37402f;   /* 等级徽章:越难越深 */
+    --a2: #5c6e30; --b1: #46581f; --b2: #37402f;   /* 等级徽章:越难越深 */
     --serif: 'Newsreader', 'Noto Serif SC', Georgia, serif;
     --cjk-serif: 'Noto Serif SC', 'Newsreader', serif;
     --sans: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
