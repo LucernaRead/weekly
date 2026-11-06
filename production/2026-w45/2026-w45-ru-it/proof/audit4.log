@@ -1,0 +1,58 @@
+== GOLDEN 8 (bare sentence, whitespace-normalized) ==
+  core x1 ed x1: 'Среда, 4 ноября, — выходной посреди рабочей недели'
+  core x1 ed x1: 'Как жить неделю с праздником посреди недели'
+  core x1 ed x1: 'Во вторник, 3 ноября, рабочий день короче на час'
+  core x1 ed x1: 'В среду города устраивают ярмарки и концерты'
+  core x1 ed x1: 'В воскресенье, 8 ноября, — три матча'
+  core x1 ed x1: 'Сначала — список: что вам правда нужно'
+  core x1 ed x1: 'Многие берут отпуск в четверг и в пятницу'
+  core x1 ed x1: 'Пять дней — почти маленькие каникулы'
+== GLOSS ITEM COUNTS (split on ·) ==
+  core: per-call=[3, 3, 3, 3, 3, 3, 3, 2, 3] total=26 ncalls=9
+  ed: per-call=[3, 3, 3, 3, 3, 3, 3, 2, 3] total=26 ncalls=9
+== MODEL WORD COUNT (P8 section H) ==
+  content8 mentions of 84: []
+  candidate model len=268 words=50: 'Маша учится в школе в Москве. На этой неделе у неё последние дни каникул: в среду, 4 ноября, — праздник, а в четверг — с'
+== CONTENTS 'все' tag + bilingual heads ==
+  P1: 'праздником всегда короче на один'
+  P1: 'Стр. 8'
+  P1: 'Тест и все ответы'
+  P1: 'все'
+  'НЕДЕЛЯ В ЦИФРАХ · In cifre': in_ed=True
+  'В ЭТОМ НОМЕРЕ · Sommario': in_ed=True
+  'СЛОВО НЕДЕЛИ · La parola': in_ed=True
+  'БЛИЦ-ВИКТОРИНА · Quiz lampo': in_ed=True
+  'КОРОТКО · In breve': in_ed=True
+  'ЗА И ПРОТИВ · Pro e contro': in_ed=True
+  'БОЛЬШОЙ РАЗБОР · Analisi': in_ed=True
+  'МОЛОДЁЖЬ · Giovani': in_ed=True
+  'А ВЫ? · E tu?': in_ed=True
+== FULL-WIDTH PARENS + CJK in ed ==
+  p1-pervaya: fullwidth_parens=0
+  p2-zhizn: fullwidth_parens=0
+  p3-kultura: fullwidth_parens=0
+  p4-sport: fullwidth_parens=0
+  p5-molodezh: fullwidth_parens=0
+  p6-razbor: fullwidth_parens=0
+  p7-yazyk: fullwidth_parens=0
+  p8-test: fullwidth_parens=0
+== FONT MEASUREMENTS (PIL) ==
+  fonts sample: ['/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Black.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Bold.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-ExtraBold.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-ExtraLight.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Light.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Medium.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Regular.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-SemiBold.ttf', '/usr/share/fonts/truetype/noto/NotoKufiArabic-Thin.ttf'] total 1845
+  serif fonts: ['/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', '/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', '/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', '/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', '/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-Black.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-BlackItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-Bold.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-BoldItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-Condensed.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedBlack.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedBlackItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedBold.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedBoldItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedExtraBold.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedExtraBoldItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedExtraLight.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedExtraLightItalic.ttf', '/usr/share/fonts/truetype/noto/NotoSerif-CondensedItalic.ttf']
+  top strip width via /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf: 1075.5 -> span 437.3–1512.7 (KIT 547.5–1402.5)
+  top strip width via /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf: 994.8 -> span 477.6–1472.4 (KIT 547.5–1402.5)
+  top strip width via /usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf: 907.2 -> span 521.4–1428.6 (KIT 547.5–1402.5)
+  top strip width via /usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf: 868.1 -> span 541.0–1409.0 (KIT 547.5–1402.5)
+  top strip width via /usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf: 825.6 -> span 562.2–1387.8 (KIT 547.5–1402.5)
+  top strip width via /usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf: 859.1 -> span 545.5–1404.5 (KIT 547.5–1402.5)
+  P6 label: size=21.5 x=65 text='Дома с семьёй' attrs=x="65" y="1634" font-family="Noto Serif CJK SC" font-size="21.5" fill="#28251d" text-anchor="start"
+  P6 label: size=21.5 x=65 text='Короткая поездка' attrs=x="65" y="1680" font-family="Noto Serif CJK SC" font-size="21.5" fill="#28251d" text-anchor="start"
+  P6 label: size=21.5 x=65 text='Ярмарка или концерт' attrs=x="65" y="1726" font-family="Noto Serif CJK SC" font-size="21.5" fill="#28251d" text-anchor="start"
+  P6 label: size=21.5 x=65 text='Просто выспятся' attrs=x="65" y="1772" font-family="Noto Serif CJK SC" font-size="21.5" fill="#28251d" text-anchor="start"
+  P6 note: size=26 x=65 y=1552: 'КАК ПРОВЕДУТ СРЕДУ 4 НОЯБРЯ? · УЧЕБНЫЕ ДАННЫЕ · Dati di esercitazione'
+  P6 note: size=19.5 x=65 y=1582: 'Это учебный опрос редакции для упражнений — не настоящая статистика. Dati di esercitazione della redazione, non statistiche reali.'
+  P6 note: size=20 x=65 y=2292.95: 'По учебным данным, больше всего'
+  P6 note: size=20 x=65 y=2468.95: 'По учебным данным, в короткую поездку'
+  P6 note: size=20 x=527 y=1946: 'По учебным данным, на ярмарку или'
+  P1 media head: size=27 x=1473 y=656: 'СМИ · Di che parlano'
+DONE4

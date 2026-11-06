@@ -1,0 +1,114 @@
+{
+ "svgdir": "../files/weekly-report-w45-nl-de/svg",
+ "flags": [
+  {
+   "page": "p1-voorpagina.svg",
+   "class": "COVER",
+   "text": "von unserem Klima.",
+   "box": [
+    1451.0,
+    1882.3,
+    1626.8,
+    1897.8
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]",
+   "by": "rect@164"
+  },
+  {
+   "page": "p2-leven.svg",
+   "class": "EDGE",
+   "text": "Wörter und Bedeutungen zuordnen",
+   "box": [
+    1647.0,
+    1957.5,
+    1967.5,
+    1978.0
+   ],
+   "detail": "ink box (1647.0, 1957.5, 1967.5, 1978.0) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p6-verdieping.svg",
+   "class": "BOXTITLE",
+   "text": "VOOR OF TEGEN? · DAFÜR ODER DAGEGEN?",
+   "box": [
+    1472.8,
+    765.0,
+    1930.2,
+    785.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1930.2 > border 1885.0",
+   "by": "rect@92"
+  },
+  {
+   "page": "p7-taal.svg",
+   "class": "TEXTX",
+   "text": "1)",
+   "box": [
+    65.0,
+    2098.0,
+    82.5,
+    2118.0
+   ],
+   "detail": "ink overlaps '«De herfst is de beste tijd om te plante' by 17.5x7.5px",
+   "by": "text@166"
+  }
+ ],
+ "flag_count": 4,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-voorpagina.svg",
+   "class": "COVER",
+   "text": "von unserem Klima.",
+   "box": [
+    1451.0,
+    1882.3,
+    1626.8,
+    1897.8
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]",
+   "by": "rect@164"
+  },
+  {
+   "page": "p2-leven.svg",
+   "class": "EDGE",
+   "text": "Wörter und Bedeutungen zuordnen",
+   "box": [
+    1647.0,
+    1957.5,
+    1967.5,
+    1978.0
+   ],
+   "detail": "ink box (1647.0, 1957.5, 1967.5, 1978.0) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p6-verdieping.svg",
+   "class": "BOXTITLE",
+   "text": "VOOR OF TEGEN? · DAFÜR ODER DAGEGEN?",
+   "box": [
+    1472.8,
+    765.0,
+    1930.2,
+    785.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1930.2 > border 1885.0",
+   "by": "rect@92"
+  },
+  {
+   "page": "p7-taal.svg",
+   "class": "TEXTX",
+   "text": "1)",
+   "box": [
+    65.0,
+    2098.0,
+    82.5,
+    2118.0
+   ],
+   "detail": "ink overlaps '«De herfst is de beste tijd om te plante' by 17.5x7.5px",
+   "by": "text@166"
+  }
+ ],
+ "new_flag_count": 4
+}

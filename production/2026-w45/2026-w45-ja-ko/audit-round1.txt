@@ -1,0 +1,174 @@
+=== P8 dual-path (wrapped-joined, whitespace-stripped) ===
+core items: 150 edition items: 150 missing: [] extra: []
+fully identical P8 lines (must be 0): [92]
+true key changes (expect 137, 138 only):
+  #137: core='文化日是11月3日。' ed='문화의 날은 11월 3일이에요.'
+  #138: core='乱扔垃圾，要罚2,000日元。' ed='쓰레기를 버리면 벌금 2,000엔이에요.'
+  #150: core='✓ 范文见本版 H 区（167 字）Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY第 8 版 / 共 8 版' ed='✓ 모범 답안은 이 면 H 구역에 있어요(167자)Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어제 8 면 / 총 8 면'
+prompt-localization items 139/140 (keys must be identical):
+  #139: key_equal=True core_note='对照第7版' ed_note='7면 참조'
+  #140: key_equal=True core_note='对照第6版（神户的灯光秀）' ed_note='6면 참조(고베라이트업)'
+  #37 line: 8 — 전시는 11월 8일까지예요
+  #150 line: ✓ 모범 답안은 이 면 H 구역에 있어요(167자)Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어제 8 면 / 총 8 면
+
+=== gloss counts (source gloss() strings, split on middle dot) ===
+  content12.py core: 3 gloss calls, items [4, 4, 5] total 13
+  content12.py ed: 3 gloss calls, items [4, 4, 5] total 13
+  content34.py core: 4 gloss calls, items [4, 4, 4, 3] total 15
+  content34.py ed: 4 gloss calls, items [4, 4, 4, 3] total 15
+  content56.py core: 3 gloss calls, items [4, 3, 4] total 11
+  content56.py ed: 3 gloss calls, items [4, 3, 4] total 11
+
+=== P7 phrases (whitespace-stripped full-issue counts) ===
+  「文化の日は、11月3日（火よう日）です... x1
+  「ゆっくり、ゆるく整える日本の11月です... x1
+  「『ゆる』は、無理をしない、ゆっくり、と... x1
+  「鍋の材料が1か月早く並び始めました。」... x1
+  「伝統工芸と紅葉と光を、いっしょに楽しむ... x1
+  「ソフトバンクが2連勝でスタートしました... x1
+  「ルールを守って、楽しいハロウィンにしま... x1
+  「紅葉を見に行く人は、北から南へ、見頃を... x1
+  P7 page tags in order: ['(p.1)', '(p.1)', '(p.2)', '(p.2)', '(p.3)', '(p.4)', '(p.5)', '(p.6)']
+
+=== P1 furniture geometry (edition) ===
+  y=262 fs=168 fw=- fill=#28251d :: Lucerna
+  y=316 fs=40 fw=700 fill=#28251d :: 日本語版 · VOL.2 · 文化の日 · 紅葉 · 読書週間
+  y=356 fs=19 fw=700 fill=#a4553a :: 일본어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판
+  y=390 fs=19 fw=- fill=#57523f :: 日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で
+  dark band rect: ['424']
+  rules: ['112', '1844', '2312', '2580', '406', '413']
+  footers: ['>Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어<']
+  p1-hyoushi.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 1 면 / 총 8 면']
+  p2-kurashi.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 2 면 / 총 8 면']
+  p3-bunka.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 3 면 / 총 8 면']
+  p4-supotsu.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 4 면 / 총 8 면']
+  p5-wakamono.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 5 면 / 총 8 면']
+  p6-fukayomi.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 6 면 / 총 8 면']
+  p7-kotoba.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 7 면 / 총 8 면']
+  p8-tesuto.svg footer=['Lucerna · 일본어 주간지 VOL.2 · 텍스트는 일본어 · 해설은 한국어'] page=['제 8 면 / 총 8 면']
+  P8 separators: ['— 제 1 면 —', '— 제 2 면 —', '— 제 3 면 —', '— 제 4 면 —', '— 제 5 면 —', '— 제 6 면 —', '— 제 7 면 —', '— 제 8 면 —']
+  gloss prefix count (해설 — ): 11
+
+=== image payloads (sha256 of base64 href per page) ===
+  p1-hyoushi.svg: ed=1 core=1 payload_equal=[True]
+  p2-kurashi.svg: ed=0 core=0 payload_equal=[]
+  p3-bunka.svg: ed=1 core=1 payload_equal=[True]
+  p4-supotsu.svg: ed=1 core=1 payload_equal=[True]
+  p5-wakamono.svg: ed=1 core=1 payload_equal=[True]
+  p6-fukayomi.svg: ed=0 core=0 payload_equal=[]
+  p7-kotoba.svg: ed=0 core=0 payload_equal=[]
+  p8-tesuto.svg: ed=0 core=0 payload_equal=[]
+
+=== Han / punct inventories (edition vs core, all pages) ===
+  core: Han chars in text=5410 fullwidth 。=383 （）=260 ｜=10 half-paren()=44
+  ed: Han chars in text=3424 fullwidth 。=343 （）=214 ｜=0 half-paren()=90
+  Han chars in edition text but not in core text charset: []
+  Han chars in core text but not edition (removed apparatus): ['不', '与', '两', '个', '为', '主', '么', '义', '之', '乐', '习', '书', '乱', '了', '二', '于', '享', '亮', '什', '从', '以', '价', '份', '众', '传', '你', '佳', '信', '候', '假', '做', '元', '共', '关', '养', '冠', '冷', '则', '判', '别', '到', '动', '勉', '单', '即', '厅', '历', '县', '参', '发', '受', '变', '口', '句', '可', '叶', '吃', '后', '向', '吧']
+
+=== Han-bearing edition strings absent from core (adjudicate) ===
+  p1-hyoushi.svg :: 毎週、日本語で · 매주 발행 · 日本人が読んでいる日本語を読む
+  p1-hyoushi.svg :: 해설 — 祝日 공휴일 · 見頃 가장 보기 좋은 때
+  p1-hyoushi.svg :: · 暦 달력 · お届けします 전해 드려요.
+  p1-hyoushi.svg :: 数字で見る今週 · 한 주의 숫자
+  p1-hyoushi.svg :: 今すぐ練習 · 바로 연습
+  p1-hyoushi.svg :: この号の内容 · 이번 호 목차
+  p1-hyoushi.svg :: 今週のことば · 이번 주 단어
+  p1-hyoushi.svg :: 短いニュース · 짧은 소식
+  p2-kurashi.svg :: レベル A2 · ゆる整え食と暖かい11月 · 가볍게 차리는 식탁과 따뜻한 11월
+  p2-kurashi.svg :: 해설 — 蒸す 찌다 · 並ぶ 진열되다 · 食卓 식탁
+  p2-kurashi.svg :: · 超える 넘다.
+  p2-kurashi.svg :: 해설 — 予報 예보 · 平年 평년 · 季節風 계절풍
+  p2-kurashi.svg :: · 話題 화제 · 値上がり 가격 상승.
+  p2-kurashi.svg :: 季節のことば · 계절의 말
+  p2-kurashi.svg :: ゆる整え食の4つの言葉 · 가볍게 차리는 식탁의 단어 네 개
+  p2-kurashi.svg :: 練習 · 2면 연습
+  p3-bunka.svg :: レベル A2→B1 · 文化の日と金沢 · 문화의 날과 가나자와
+  p3-bunka.svg :: 해설 — 市場 시장 · 工芸 공예 · 光 빛 · 楽し
+  p3-bunka.svg :: 해설 — 陶器 도자기 · 漆器 옻칠 그릇 · 染物
+  p3-bunka.svg :: 염색 직물 · 金箔 금박.
+  p3-bunka.svg :: 練習 · 3면 연습
+  p4-supotsu.svg :: レベル B1 · 日本シリーズ横浜の2試合 · 일본시리즈 요코하마 2경기
+  p4-supotsu.svg :: 해설 — 延長 연장전 · 逆転 역전 · 同点 동점 ·
+  p4-supotsu.svg :: 優勝率 우승 확률.
+  p4-supotsu.svg :: 日本シリーズの日程 · 시리즈 일정
+  p4-supotsu.svg :: 해설 — 総括 정리 · 締め切り 마감 · 確認する
+  p4-supotsu.svg :: 横浜の2試合の記録 · 요코하마 2경기 기록
+  p4-supotsu.svg :: 練習 · 4면 연습
+  p5-wakamono.svg :: 若者・エンタメ · 청년
+  p5-wakamono.svg :: レベル B1 · ハロウィンと秋まつり · 할로윈과 가을 축제
+  p5-wakamono.svg :: 해설 — 罰金 벌금 · 像 동상 · 仮装 분장 · 守る
+  p5-wakamono.svg :: 해설 — 祭り 축제 · 週末 주말 · 話題 화제.
+  p5-wakamono.svg :: 練習 · 5면 연습
+  p6-fukayomi.svg :: レベル B2 · 暖かい11月と秋の旅 · 따뜻한 11월과 가을 여행
+  p6-fukayomi.svg :: 해설 — 予算 예산 · 満足 만족 · 観測 관측 · 追
+  p6-fukayomi.svg :: グラフを読もう · 그래프 읽기
+  p6-fukayomi.svg :: 練習用データ · 연습용 데이터
+  p6-fukayomi.svg :: 練習 · 6면 연습
+  p7-kotoba.svg :: 言語フォーカス · 三つのレベル、三つのテーマ · 세 가지 레벨, 세 가지 주제
+  p7-kotoba.svg :: 読書週間 독서 주간 · 紹介 소개 · 読み聞かせ 읽
+  p7-kotoba.svg :: 見頃 가장 보기 좋은 때 · 紅葉狩り 단풍 구경 · 落
+  p7-kotoba.svg :: 葉 낙엽
+  p7-kotoba.svg :: 〜倍 배 · 〜% 퍼센트 · 〜万食 만 끼.
+  p7-kotoba.svg :: まちがい診療所 · 실수 병원
+  p7-kotoba.svg :: 「昨日」가 있으면 과거형을 써요.
+  p7-kotoba.svg :: 장소는 「か所」로 세요.
+  p7-kotoba.svg :: 今週のフレーム · 이번 주의 틀
+  p7-kotoba.svg :: 読者の手紙 · 독자의 편지
+  p7-kotoba.svg :: 今週のフレーズ · 이번 주의 문장(이번호 기사에서 그대로)
+  p7-kotoba.svg :: 来週 · 다음 주 예고 (VOL.3)
+  p8-tesuto.svg :: テストと答え · 시험과 정답
+  p8-tesuto.svg :: 제 8 면 · 週の大きなテスト + 全ての答え
+  p8-tesuto.svg :: 答え · 정답 — 면별로 나누어 실었어요. 번호를 찾으세요
+  p8-tesuto.svg :: 3. 見頃 — 見頃 = 가장 보기 좋은 때
+  p8-tesuto.svg :: 4. 立冬 — 立冬 = 겨울의 시작
+  p8-tesuto.svg :: 6. 文化の日 — 문화의 날에는 전국에서 문화 행사가 열려요
+  p8-tesuto.svg :: 17. 蒸し器 — 蒸し器 = 찜기
+  p8-tesuto.svg :: 18. 整える — 整える = 몸과 마음을 다스리기
+  p8-tesuto.svg :: 20. 鍋 — 鍋 = 한 솥 요리
+  p8-tesuto.svg :: 26. a — 蒸し器 = 찜기 a
+  p8-tesuto.svg :: 27. d — 麻辣湯 = 매운 수프 요리 d
+  p8-tesuto.svg :: 28. c — 予報 = 날씨 예상 c
+  p8-tesuto.svg :: 34. 市場 — 市場 = 시장
+  p8-tesuto.svg :: 35. 工芸 — 工芸 = 공예
+  p8-tesuto.svg :: 36. 陶器 — 陶器 = 도자기
+  p8-tesuto.svg :: 38. 金箔 — 金箔 = 금박
+  p8-tesuto.svg :: 39. 文化の日は3日です。 — 주어 + 시간
+  p8-tesuto.svg :: 40. 金沢で工芸展があります。 — 장소 + で + あります
+  p8-tesuto.svg :: 41. ライトアップを見たいです。 — 見たい = 보고 싶다
+  p8-tesuto.svg :: 42. 家族で音楽を楽しみます。 — 가족과 함께
+  p8-tesuto.svg :: 43. b — 文化の日 = 11월 3일 b
+  p8-tesuto.svg :: 44. c — 工芸展 = 미술관 c
+  p8-tesuto.svg :: 57. B — 延長 = 경기가 길어지기
+  p8-tesuto.svg :: 79. 飲む — 飲むことができません = 마실 수 없어요
+  p8-tesuto.svg :: 80. 守って — 守って + 〜しましょう = 규칙을 지키고, ~해요
+  p8-tesuto.svg :: 81. 中 — フェンスの中 = 울타리 안
+  p8-tesuto.svg :: 82. 10月30日 — 행사는 10월 30일부터 11월 1일까지였어요
+  p8-tesuto.svg :: 88. 近場の満足 — 그래프에서 가장 인기 있는 것은 가까운 곳에서의 만족이
+  p8-tesuto.svg :: 103. B — 슬로건은 「静かだけど、冒険中。」예요
+  p8-tesuto.svg :: 105. B — 見頃 = 단풍이 가장 아름다울 때
+  p8-tesuto.svg :: 106. 紅葉狩り — 紅葉狩り = 단풍 구경 가기
+  p8-tesuto.svg :: 108. 落葉 — 落葉 = 낙엽
+  p8-tesuto.svg :: 128. A — 슬로건은 「静かだけど、冒険中。」예요
+  p8-tesuto.svg :: 133. 私は火よう日に金沢へ行きます。 — 주어 + 시간 + 장소 + 동사
+  p8-tesuto.svg :: 134. 紅葉は今週末が見頃です。 — 見頃 = 가장 보기 좋은 때
+  p8-tesuto.svg :: 135. 図書館で本を借ります。 — 장소는 「で」를 써요
+  p8-tesuto.svg :: 136. ソフトバンクは2連勝でスタートしました。 — 2연승으로 시작하기
+  p8-tesuto.svg :: 139. 読書週間は10月27日から始まります。 — 7면 참조
+  p8-tesuto.svg :: 140. 神戸の紅葉のライトアップを見に行きたいです。 — 6면 참조(고베
+  p8-tesuto.svg :: 141. b — 見頃 = 가장 보기 좋은 때 b
+  p8-tesuto.svg :: 142. d — 鍋 = 한 솥 요리 d
+  p8-tesuto.svg :: 143. a — 落葉 = 낙엽 a
+  p8-tesuto.svg :: 144. c — 予算 = 예산 c
+  p8-tesuto.svg :: 145. A — 見せてください = 보여 주세요
+  p8-tesuto.svg :: 146. A — 借りられます = 빌릴 수 있다(가능형)
+  p8-tesuto.svg :: 148. A — 「紅葉の本」이 인기예요
+
+=== max content y per page (excluding footer y=2624/line 2580) ===
+  p1-hyoushi.svg: max_text_y=2449.45
+  p2-kurashi.svg: max_text_y=2538.9000000000015
+  p3-bunka.svg: max_text_y=2497.6750000000006
+  p4-supotsu.svg: max_text_y=2555.8500000000013
+  p5-wakamono.svg: max_text_y=2551.4000000000005
+  p6-fukayomi.svg: max_text_y=2539.975000000001
+  p7-kotoba.svg: max_text_y=2408.08
+  p8-tesuto.svg: max_text_y=2530.3480000000027

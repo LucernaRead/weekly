@@ -1,0 +1,56 @@
+=== kana multiset added vs removed per page ===
+p1-hyoushi.svg kana added==removed: True added_kana_total 41 removed_kana_total 41
+p2-kurashi.svg kana added==removed: True added_kana_total 29 removed_kana_total 29
+p3-bunka.svg kana added==removed: True added_kana_total 11 removed_kana_total 11
+p4-supotsu.svg kana added==removed: True added_kana_total 23 removed_kana_total 23
+p5-wakamono.svg kana added==removed: True added_kana_total 18 removed_kana_total 18
+p6-fukayomi.svg kana added==removed: True added_kana_total 20 removed_kana_total 20
+p7-kotoba.svg kana added==removed: True added_kana_total 43 removed_kana_total 43
+p8-tesuto.svg kana added==removed: True added_kana_total 147 removed_kana_total 147
+=== bridge term counts ===
+ED svg all 桥接 0
+CORE svg all 桥接 0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-zh-tw/WEEKLY-KIT.md 桥接 0 bridge 0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-zh-tw/ABSTRACT.txt 桥接 0 bridge 0
+=== 只 counts ===
+core svg 只 0
+edition svg 只 0
+W43 svg 只 0
+=== quotes ===
+core p1-hyoushi.svg 「 2 」 2 « 0 » 0
+core p2-kurashi.svg 「 5 」 5 « 0 » 0
+core p3-bunka.svg 「 1 」 1 « 0 » 0
+core p4-supotsu.svg 「 1 」 1 « 0 » 0
+core p5-wakamono.svg 「 0 」 0 « 0 » 0
+core p6-fukayomi.svg 「 1 」 1 « 0 » 0
+core p7-kotoba.svg 「 20 」 20 « 0 » 0
+core p8-tesuto.svg 「 6 」 6 « 0 » 0
+edition p1-hyoushi.svg 「 2 」 2 « 0 » 0
+edition p2-kurashi.svg 「 5 」 5 « 0 » 0
+edition p3-bunka.svg 「 1 」 1 « 0 » 0
+edition p4-supotsu.svg 「 1 」 1 « 0 » 0
+edition p5-wakamono.svg 「 0 」 0 « 0 » 0
+edition p6-fukayomi.svg 「 1 」 1 « 0 » 0
+edition p7-kotoba.svg 「 20 」 20 « 0 » 0
+edition p8-tesuto.svg 「 6 」 6 « 0 » 0
+=== gloss rows ===
+core
+  p1-hyoushi.svg rows 1 segments 3 ['译注｜祝日 节假日 · 見頃 最佳观赏期 · 暦']
+  p2-kurashi.svg rows 2 segments 6 ['译注｜蒸す 蒸 · 並ぶ 摆上货架 · 食卓 餐桌', '译注｜予報 预报 · 平年 往年平均 · 季節風']
+  p3-bunka.svg rows 2 segments 7 ['译注｜市場 市场 · 工芸 工艺 · 光 灯光 · 楽', '译注｜陶器 陶瓷 · 漆器 漆器 · 染物 染色织']
+  p4-supotsu.svg rows 2 segments 6 ['译注｜延長 延长赛 · 逆転 逆转 · 同点 平分', '译注｜総括 总结 · 締め切り 截稿 · 確認す']
+  p5-wakamono.svg rows 2 segments 7 ['译注｜罰金 罚款 · 像 雕像 · 仮装 变装 · 守', '译注｜祭り 节日 · 週末 周末 · 話題 话题。']
+  p6-fukayomi.svg rows 1 segments 3 ['译注｜予算 预算 · 満足 满足 · 観測 观测 ·']
+  p7-kotoba.svg rows 0 segments 0 []
+  p8-tesuto.svg rows 0 segments 0 []
+ total 32 {'p1-hyoushi.svg': 3, 'p2-kurashi.svg': 6, 'p3-bunka.svg': 7, 'p4-supotsu.svg': 6, 'p5-wakamono.svg': 7, 'p6-fukayomi.svg': 3, 'p7-kotoba.svg': 0, 'p8-tesuto.svg': 0}
+edition
+  p1-hyoushi.svg rows 1 segments 3 ['譯注｜祝日 節假日 · 見頃 最佳觀賞期 · 暦']
+  p2-kurashi.svg rows 2 segments 6 ['譯注｜蒸す 蒸 · 並ぶ 擺上貨架 · 食卓 餐', '譯注｜予報 預報 · 平年 往年平均 · 季節風']
+  p3-bunka.svg rows 2 segments 6 ['譯注｜市場 市場 · 工芸 工藝 · 光 燈光 ·', '譯注｜陶器 陶瓷 · 漆器 漆器 · 染物 染色']
+  p4-supotsu.svg rows 2 segments 6 ['譯注｜延長 延長賽 · 逆転 逆轉 · 同点 平', '譯注｜総括 總結 · 締め切り 截稿 · 確認す']
+  p5-wakamono.svg rows 2 segments 6 ['譯注｜罰金 罰款 · 像 雕像 · 仮装 變裝 ·', '譯注｜祭り 節日 · 週末 週末 · 話題 話']
+  p6-fukayomi.svg rows 1 segments 3 ['譯注｜予算 預算 · 満足 滿足 · 観測 觀測']
+  p7-kotoba.svg rows 0 segments 0 []
+  p8-tesuto.svg rows 0 segments 0 []
+ total 30 {'p1-hyoushi.svg': 3, 'p2-kurashi.svg': 6, 'p3-bunka.svg': 6, 'p4-supotsu.svg': 6, 'p5-wakamono.svg': 6, 'p6-fukayomi.svg': 3, 'p7-kotoba.svg': 0, 'p8-tesuto.svg': 0}

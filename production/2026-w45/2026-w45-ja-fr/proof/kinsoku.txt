@@ -1,0 +1,18 @@
+p1-hyoushi.svg: start-violations=0 end-violations=4
+   ('END', 1144.8, '日）までです。今年のスローガンは『')
+   ('END', 1051.6, '暮らしの話題は、noteの10月22日のまとめ（')
+   ('END', 2106.4, '7日（土）は、暦の上で冬の始まりです。（')
+   ('END', 2419.0, '立冬はいつですか。 A. 3日（火） · B. 7日（')
+p2-kurashi.svg: start-violations=0 end-violations=1
+   ('END', 415.0, '味の素は10月21日、冬の食トレンド『')
+p3-bunka.svg: start-violations=0 end-violations=1
+   ('END', 1827.0, '文化の日はいつですか。 A. 3日（火） · B. 7日（')
+p4-supotsu.svg: start-violations=0 end-violations=1
+   ('END', 415.0, '日本シリーズの第1戦は、10月24日（')
+p5-wakamono.svg: start-violations=0 end-violations=2
+   ('END', 1496.9, 'わん秋まつり』があります。8日（')
+   ('END', 2302.9, '『ハローよこはま2026』はいつですか。 A. 7日（')
+p6-fukayomi.svg: start-violations=0 end-violations=0
+p7-kotoba.svg: start-violations=0 end-violations=0
+p8-tesuto.svg: start-violations=0 end-violations=0
+TOTAL violations=9

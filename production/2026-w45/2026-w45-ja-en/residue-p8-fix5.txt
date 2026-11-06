@@ -1,0 +1,53 @@
+=== 艺 per page (edition) ===
+p1-hyoushi.svg 0
+p2-kurashi.svg 0
+p3-bunka.svg 0
+p4-supotsu.svg 0
+p5-wakamono.svg 0
+p6-fukayomi.svg 0
+p7-kotoba.svg 0
+p8-tesuto.svg 0
+total 艺 in edition: 0
+=== 艺 in core (for reference) ===
+p3-bunka.svg 1
+p7-kotoba.svg 1
+p8-tesuto.svg 6
+=== proof SIMP_ONLY set per page (edition) ===
+p1-hyoushi.svg []
+p2-kurashi.svg []
+p3-bunka.svg []
+p4-supotsu.svg ['点']
+p5-wakamono.svg []
+p6-fukayomi.svg []
+p7-kotoba.svg []
+p8-tesuto.svg []
+=== proof SIMP_ONLY set per page (core) ===
+p1-hyoushi.svg ['个', '为', '头', '电', '见', '观', '话', '语', '读', '这', '问']
+p2-kurashi.svg ['个', '义', '对', '见', '话', '语', '说']
+p3-bunka.svg ['动', '对', '点', '见', '语', '说']
+p4-supotsu.svg ['实', '点', '见', '语']
+p5-wakamono.svg ['见', '话', '语', '说']
+p6-fukayomi.svg ['见', '观', '语', '读']
+p7-kotoba.svg ['个', '动', '发', '实', '点', '观', '语', '读', '这']
+p8-tesuto.svg ['为', '义', '动', '对', '点', '见', '观', '语', '说', '读']
+=== broad simplified-only per page (edition), with core-presence adjudication ===
+p1-hyoushi.svg edition-only: [] | shared-with-core: ['国', '学'] | edition-all: ['国', '学']
+p2-kurashi.svg edition-only: [] | shared-with-core: ['万', '体', '国'] | edition-all: ['万', '体', '国']
+p3-bunka.svg edition-only: [] | shared-with-core: ['国'] | edition-all: ['国']
+p4-supotsu.svg edition-only: [] | shared-with-core: ['体', '点'] | edition-all: ['体', '点']
+p5-wakamono.svg edition-only: [] | shared-with-core: [] | edition-all: []
+p6-fukayomi.svg edition-only: [] | shared-with-core: ['国'] | edition-all: ['国']
+p7-kotoba.svg edition-only: [] | shared-with-core: ['万', '体', '学'] | edition-all: ['万', '体', '学']
+p8-tesuto.svg edition-only: [] | shared-with-core: [] | edition-all: []
+=== P8 answer-line extraction ===
+edition answer lines: 150 core answer lines: 150
+numbers missing in edition: [] extra in edition: []
+IDENTICAL full lines (edition == core): []
+changed lines count: 150
+ #32 core   : 32. B — 工艺展到11月8日（周日）
+ #32 edition: 32. B — The exhibition runs to November 8 (Sunday)
+ #37 core   : 37. 8 — 工艺展到11月8日
+ #37 edition: 37. 8 — The exhibition runs to November 8
+old note substring '工艺展到11月8日' in edition P8 SVG text: 0
+old note substring in edition ALL SVGs: 0
+new note 'The exhibition runs to November 8' occurrences in edition P8: 3

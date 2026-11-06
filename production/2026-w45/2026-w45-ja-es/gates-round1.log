@@ -1,0 +1,80 @@
+== 1. kinsoku line-start scan (NO_START + small kana) ==
+  kinsoku hits: 0
+== 2. gloss item counts (split gloss() strings on ·) ==
+  core: 39 {'content12.py': 13, 'content34.py': 15, 'content56.py': 11, 'content7.py': 0, 'content8.py': 0}
+  edition: 39 {'content12.py': 13, 'content34.py': 15, 'content56.py': 11, 'content7.py': 0, 'content8.py': 0}
+  MATCH: True
+== 3. P7 phrases exactly 2x (whitespace-stripped concat) ==
+  2x :: 文化の日は、11月3日（火よう日）です。
+  2x :: ゆっくり、ゆるく整える日本の11月です。
+  2x :: 『ゆる』は、無理をしない、ゆっくり、という意味です。
+  2x :: 鍋の材料が1か月早く並び始めました。
+  2x :: 伝統工芸と紅葉と光を、いっしょに楽しむことができます。
+  2x :: ソフトバンクが2連勝でスタートしました。
+  2x :: ルールを守って、楽しいハロウィンにしましょう。
+  2x :: 紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。
+== 4. banned-term scan (unicode escapes, no literal in this file) ==
+  edition-svg: 0 hits
+  edition-build: 0 hits
+== 5. image payloads byte-identical + credit lines ==
+  p1-hyoushi.svg: images 1 vs core 1 identical=True credits=['写真：Poliphilo — CC0（Wikimedia Commons）']
+  p2-kurashi.svg: images 0 vs core 0 identical=True credits=[]
+  p3-bunka.svg: images 1 vs core 1 identical=True credits=[]
+  p4-supotsu.svg: images 1 vs core 1 identical=True credits=['写真：Syced — CC0（Wikimedia Commons）']
+  p5-wakamono.svg: images 1 vs core 1 identical=True credits=['写真：Petr Kratochvil — パブリックドメイン（Wikimedia']
+  p6-fukayomi.svg: images 0 vs core 0 identical=True credits=[]
+  p7-kotoba.svg: images 0 vs core 0 identical=True credits=[]
+  p8-tesuto.svg: images 0 vs core 0 identical=True credits=[]
+== 6. P1 top-band same-baseline spacing ==
+  y=92 x=65 w=154.9 end=219.9 :: 'VOL. 2 · 第2号'
+  y=92 x=975 w=589.3 end=1564.3 :: '毎週、日本語で · Semanal · 日本人が読んでいる日本語を読む'
+  y=92 x=1885 w=355.1 end=2240.1 :: '2026年11月2日（月）〜8日（日）'
+== 7. right-edge advance scan (x + advance > 1950 hard; > 1885 listed) ==
+  HARD p1-hyoushi.svg y=92 end=2240.1 :: '2026年11月2日（月）〜8日（日）'
+  HARD p1-hyoushi.svg y=356 end=1990.8 :: 'TEXTOS EN JAPONÉS · EXPLICACIONES EN ESPAÑOL — LA '
+  HARD p1-hyoushi.svg y=478 end=2223.4 :: 'El martes es el Día de la Cultura'
+  HARD p1-hyoushi.svg y=522 end=2450.7 :: 'Tras la fiesta llega el fin de semana de las hojas'
+  over-margin p1-hyoushi.svg y=1244 end=1919.6 :: 'Fechas en los artículos; no son estadísticas exact'
+  over-margin p1-hyoushi.svg y=1378 end=1885.2 :: 'A2'
+  over-margin p1-hyoushi.svg y=1415 end=1926.0 :: 'A2→B1'
+  over-margin p1-hyoushi.svg y=1452 end=1885.9 :: 'B1'
+  over-margin p1-hyoushi.svg y=1489 end=1885.9 :: 'B1'
+  over-margin p1-hyoushi.svg y=1526 end=1885.9 :: 'B2'
+  over-margin p1-hyoushi.svg y=1563 end=1926.0 :: 'A2→B2'
+  over-margin p1-hyoushi.svg y=1600 end=1899.0 :: '全部'
+  HARD p1-hyoushi.svg y=2348 end=2339.8 :: 'Lee la portada y elige · Respuestas en la página 8'
+  HARD p1-hyoushi.svg y=2624 end=2007.3 :: 'Página 1 de 8'
+  HARD p2-kurashi.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p2-kurashi.svg y=142 end=2529.3 :: 'レベル A2 · ゆる整え食と暖かい11月 · Comida suave y un noviembr'
+  HARD p2-kurashi.svg y=1594 end=2473.8 :: 'ゆる整え食の4つの言葉 · Cuatro palabras para comer con calma'
+  HARD p2-kurashi.svg y=1844 end=2482.4 :: 'Respuestas en la página 8 · Niveles mezclados: bus'
+  HARD p2-kurashi.svg y=2624 end=2007.3 :: 'Página 2 de 8'
+  HARD p3-bunka.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p3-bunka.svg y=142 end=2443.4 :: 'レベル A2→B1 · 文化の日と金沢 · El Día de la Cultura y Kanaz'
+  HARD p3-bunka.svg y=1608 end=2482.4 :: 'Respuestas en la página 8 · Niveles mezclados: bus'
+  HARD p3-bunka.svg y=2624 end=2007.3 :: 'Página 3 de 8'
+  HARD p4-supotsu.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p4-supotsu.svg y=142 end=2613.7 :: 'レベル B1 · 日本シリーズ横浜の2試合 · La Serie de Japón: dos par'
+  HARD p4-supotsu.svg y=1868 end=2482.4 :: 'Respuestas en la página 8 · Niveles mezclados: bus'
+  HARD p4-supotsu.svg y=2624 end=2007.3 :: 'Página 4 de 8'
+  HARD p5-wakamono.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p5-wakamono.svg y=142 end=2437.8 :: 'レベル B1 · ハロウィンと秋まつり · Halloween y fiestas de otoño'
+  HARD p5-wakamono.svg y=1608 end=2482.4 :: 'Respuestas en la página 8 · Niveles mezclados: bus'
+  HARD p5-wakamono.svg y=2624 end=2007.3 :: 'Página 5 de 8'
+  HARD p6-fukayomi.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p6-fukayomi.svg y=142 end=2503.7 :: 'レベル B2 · 暖かい11月と秋の旅 · Un noviembre cálido y viajes'
+  HARD p6-fukayomi.svg y=1526 end=2210.8 :: '練習用データ · Datos de práctica'
+  HARD p6-fukayomi.svg y=1928 end=2482.4 :: 'Respuestas en la página 8 · Niveles mezclados: bus'
+  HARD p6-fukayomi.svg y=2624 end=2007.3 :: 'Página 6 de 8'
+  HARD p7-kotoba.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p7-kotoba.svg y=142 end=2495.7 :: '言語フォーカス · 三つのレベル、三つのテーマ · Tres niveles, tres temas'
+  HARD p7-kotoba.svg y=2624 end=2007.3 :: 'Página 7 de 8'
+  HARD p8-tesuto.svg y=116 end=2023.2 :: 'Lucerna'
+  HARD p8-tesuto.svg y=142 end=2214.3 :: '第 8 面 · 週の大きなテスト + 全ての答え'
+  HARD p8-tesuto.svg y=1302 end=2558.4 :: 'Una breve explicación en español por respuesta · ✓'
+  HARD p8-tesuto.svg y=2624 end=2007.3 :: 'Página 8 de 8'
+  hard=35 over-margin=8
+== 8. P6 chart labels vs later bar rects (true ink, 4x getbbox) ==
+  (chart-label detail resolved visually + audit COVER=0; bar/label geometry in KIT)
+== 9. added-node Han review (freeze diff) ==
+  diff json keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']

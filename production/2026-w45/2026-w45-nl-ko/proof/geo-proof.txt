@@ -1,0 +1,37 @@
+=== SVG root ===
+<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="2700" viewBox="0 0 1950 2700"><rect width="1950" height="2700" fill="#f7f1e2"/><rect x="28" y="28" width="1894" height="2644" fill="none" stroke="#28251d" stroke-width="3.4"/><rect x="40" y="40" width="1870" height="2620" fill="none" strok
+
+=== 1. SAME-BASELINE ink collisions (>1.5px) ED vs CORE ===
+-- ED
+-- CORE
+
+=== 2. P6 chart-label coverage (baseline-anchored) ===
+  label 'Ik blijf thuis' ink=[1473.0, 277.0, 1599.0, 300.0] coverage=0.0%
+  label '45' ink=[1839.0, 279.0, 1863.0, 294.0] coverage=0.0%
+  label 'Ik kijk eerst naar de tekst' ink=[1473.0, 335.0, 1731.0, 358.0] coverage=0.0%
+  label '25' ink=[1839.0, 337.0, 1863.0, 352.0] coverage=0.0%
+  label 'Ik ga toch naar buiten' ink=[1473.0, 393.0, 1697.0, 415.0] coverage=0.0%
+  label '20' ink=[1839.0, 395.0, 1863.0, 410.0] coverage=0.0%
+  label 'Ik weet het niet' ink=[1473.0, 451.0, 1630.0, 468.0] coverage=0.0%
+  label '10' ink=[1839.0, 453.0, 1863.0, 468.0] coverage=0.0%
+  WORST=0.0% (pass <30%)
+
+=== 3. Box-title widths P1/P6 final ===
+  p1-voorpagina.svg title 'DE WEEK IN CIJFERS · 숫자로 보기' size=23.0 ink_left=545.0 ink_right=920.0 ink_width=375.0
+    containing rect x=28.0 y=28.0 w=1894.0 h=2644.0 right=1922.0 fill=none stroke=#28251d
+    containing rect x=40.0 y=40.0 w=1870.0 h=2620.0 right=1910.0 fill=none stroke=#28251d
+    containing rect x=527.0 y=1303.475 w=434.0 h=434.0 right=961.0 fill=#fdfaf0 stroke=#d8cfb4
+  p6-verdieping.svg title 'VOOR OF TEGEN? · 찬반 토론' size=21.0 ink_left=1472.0 ink_right=1765.0 ink_width=293.0
+    containing rect x=28.0 y=28.0 w=1894.0 h=2644.0 right=1922.0 fill=none stroke=#28251d
+    containing rect x=40.0 y=40.0 w=1870.0 h=2620.0 right=1910.0 fill=none stroke=#28251d
+    containing rect x=1451.0 y=717.0 w=434.0 h=309.0 right=1885.0 fill=#f1ead6 stroke=#d8cfb4
+
+=== 4. Frame / right-edge scan (all pages) ===
+  p1-voorpagina.svg frames(right)=[1885.0, 1910.0, 1922.0] max_ink_right=1886.0 flags=[]
+  p2-leven.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1901.0 flags=[]
+  p3-cultuur.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1885.0 flags=[]
+  p4-sport.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1885.0 flags=[]
+  p5-jongeren.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1885.0 flags=[]
+  p6-verdieping.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1893.0 flags=[]
+  p7-taal.svg frames(right)=[1885.0, 1898.0, 1910.0, 1922.0] max_ink_right=1885.0 flags=[]
+  p8-toets.svg frames(right)=[1898.0, 1910.0, 1922.0] max_ink_right=1899.0 flags=[]

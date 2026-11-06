@@ -1,0 +1,22 @@
+NOTE: first scope pass had a parser bug (size lines overwrote hash entries); this pass matches only 64-hex hash lines.
+CHANGED Lucerna-VOL2-EN-web.pdf  pre=394b93996688 post=5a4893e50047
+CHANGED Lucerna-VOL2-EN.pdf  pre=a213dcf6357b post=abb86daf0ff1
+unchanged p1-hyoushi.png  pre=685089c6642d post=685089c6642d
+unchanged p1-hyoushi.svg  pre=6a422da4b734 post=6a422da4b734
+unchanged p2-kurashi.png  pre=cbb6171d9b83 post=cbb6171d9b83
+unchanged p2-kurashi.svg  pre=ae82918353c3 post=ae82918353c3
+unchanged p3-bunka.png  pre=6108f6656cc4 post=6108f6656cc4
+unchanged p3-bunka.svg  pre=b8527665dcbd post=b8527665dcbd
+unchanged p4-supotsu.png  pre=4592452661b4 post=4592452661b4
+unchanged p4-supotsu.svg  pre=16322615ecc6 post=16322615ecc6
+unchanged p5-wakamono.png  pre=c58c74245568 post=c58c74245568
+unchanged p5-wakamono.svg  pre=ed8f176c89d5 post=ed8f176c89d5
+unchanged p6-fukayomi.png  pre=ad11f3903292 post=ad11f3903292
+unchanged p6-fukayomi.svg  pre=2dc4502b7a52 post=2dc4502b7a52
+unchanged p7-kotoba.png  pre=e4d37ca2631e post=e4d37ca2631e
+unchanged p7-kotoba.svg  pre=421b272aae12 post=421b272aae12
+CHANGED p8-tesuto.png  pre=8b28f8e7d8d6 post=641e290f07c7
+CHANGED p8-tesuto.svg  pre=65b63e637613 post=a7433832d190
+
+changed set: ['Lucerna-VOL2-EN-web.pdf', 'Lucerna-VOL2-EN.pdf', 'p8-tesuto.png', 'p8-tesuto.svg']
+unchanged set: ['p1-hyoushi.png', 'p1-hyoushi.svg', 'p2-kurashi.png', 'p2-kurashi.svg', 'p3-bunka.png', 'p3-bunka.svg', 'p4-supotsu.png', 'p4-supotsu.svg', 'p5-wakamono.png', 'p5-wakamono.svg', 'p6-fukayomi.png', 'p6-fukayomi.svg', 'p7-kotoba.png', 'p7-kotoba.svg']

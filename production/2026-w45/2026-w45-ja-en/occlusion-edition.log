@@ -1,0 +1,9 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg: 3 flags {'BOXTITLE': 1, 'EDGE': 1, 'TEXTX': 1}
+  [EDGE] p1-hyoushi.svg 'Sources and dates are in each article, not exact statistics' — ink box (1473.0, 1228.75, 1967.0, 1247.75) outside page 1950.0x2700.0
+  [TEXTX] p1-hyoushi.svg 'issue.' — ink overlaps '出典：各発表・予報の日付は記事の中にあります' by 49.0x5.8px
+  [BOXTITLE] p1-hyoushi.svg 'Sources and dates are in each article, not exact statistics' — ink crosses its box borders: right ink 1967.0 > border 1885.0
+core: 0 flags; NEW vs core: 3
+  NEW [EDGE] p1-hyoushi.svg 'Sources and dates are in each article, not exact statistics' — ink box (1473.0, 1228.75, 1967.0, 1247.75) outside page 1950.0x2700.0
+  NEW [TEXTX] p1-hyoushi.svg 'issue.' — ink overlaps '出典：各発表・予報の日付は記事の中にあります' by 49.0x5.8px
+  NEW [BOXTITLE] p1-hyoushi.svg 'Sources and dates are in each article, not exact statistics' — ink crosses its box borders: right ink 1967.0 > border 1885.0

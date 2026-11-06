@@ -1,0 +1,45 @@
+== image counts + geometry (no data dump) ==
+p1-voorpagina CORE 1 [('65', '1874', '896', '320')]
+p1-voorpagina ED 1 [('65', '1874', '896', '320')]
+p2-leven CORE 1 [('1451', '200', '434', '272')]
+p2-leven ED 1 [('1451', '200', '434', '272')]
+p3-cultuur CORE 1 [('1451', '200', '434', '250')]
+p3-cultuur ED 1 [('1451', '200', '434', '250')]
+p4-sport CORE 1 [('1451', '200', '434', '250')]
+p4-sport ED 1 [('1451', '200', '434', '250')]
+p5-jongeren CORE 0 []
+p5-jongeren ED 0 []
+p6-verdieping CORE 0 []
+p6-verdieping ED 0 []
+p7-taal CORE 0 []
+p7-taal ED 0 []
+p8-toets CORE 0 []
+p8-toets ED 0 []
+
+== credit lines ==
+p1-voorpagina CORE ['Foto: Vovogov90 — CC0']
+p1-voorpagina ED ['Foto: Vovogov90 — CC0']
+p2-leven CORE ['Foto: Nationaal Archief — CC0']
+p2-leven ED ['Foto: Nationaal Archief — CC0']
+p3-cultuur CORE ['Foto: W. Punt / Anefo, Nationaal Archief — CC0']
+p3-cultuur ED ['Foto: W. Punt / Anefo, Nationaal Archief — CC0']
+p4-sport CORE ['Foto: Spaarnestad Photo / Wikimedia Commons — publiek']
+p4-sport ED ['Foto: Spaarnestad Photo / Wikimedia Commons — publiek']
+
+== banned term in SVG texts (decoded) + ABSTRACT + KIT text ==
+files/weekly-report-w45-nl-es/svg/p1-voorpagina.svg 0
+files/weekly-report-w45-nl-es/svg/p2-leven.svg 0
+files/weekly-report-w45-nl-es/svg/p3-cultuur.svg 0
+files/weekly-report-w45-nl-es/svg/p4-sport.svg 0
+files/weekly-report-w45-nl-es/svg/p5-jongeren.svg 0
+files/weekly-report-w45-nl-es/svg/p6-verdieping.svg 0
+files/weekly-report-w45-nl-es/svg/p7-taal.svg 0
+files/weekly-report-w45-nl-es/svg/p8-toets.svg 0
+files/weekly-report-w45-nl-es/ABSTRACT.txt 0
+files/weekly-report-w45-nl-es/WEEKLY-KIT.md 0
+
+== P1/P2 Dutch article line-count check: compare core vs ed for frozen article paragraphs ==
+p1-voorpagina CORE max text y 2624.0 n texts 171
+p1-voorpagina ED max text y 2624.0 n texts 172
+p2-leven CORE max text y 2624.0 n texts 189
+p2-leven ED max text y 2624.0 n texts 195

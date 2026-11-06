@@ -1,0 +1,57 @@
+=== FIX ROUND 5 (B-1 #37) PRE-FIX BASELINE ===
+recorded: 2026-10-28T01:31:14Z ; running render check: PID 18280 cwd = weekly-report-w45-ja-fr-build (NOT this edition) ; JA-EN latest mtime 2026-10-28T01:16:37Z, silence >13 min at record time -> safe to start, no stand-down
+--- 18 deliverables (8 SVG + 8 cards + 2 PDF) ---
+6a422da4b7340fcb7c846ce79694b1af895e762399cc50cc419f67419cc2acaa  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p1-hyoushi.svg
+ae82918353c3b335ad0fc235b4888dd7ba6c366f73b3002aaf74156992735800  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p2-kurashi.svg
+b8527665dcbdfa90d95aa0f5779427ed81a3edc7745997d65c1c631617458ceb  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p3-bunka.svg
+16322615ecc6c749ea3e6f7b654e75ba71b04123160f1a066a375eaaec561c42  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p4-supotsu.svg
+ed8f176c89d5b341c1dd9f471dd4c4fcd4eee5aa3ce382ecd77070a05a42223a  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p5-wakamono.svg
+2dc4502b7a52af5f81935491bcdbb1dc02a9f436b6fb7b44ac4d4d2c7bd2f7e6  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p6-fukayomi.svg
+421b272aae127c23298ac8106aacd99c73144d9504805fd5c43da3dc3962704b  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p7-kotoba.svg
+65b63e6376139b2e8ada928110ff2c59a1957ef29f775e092230edfe781dfc51  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p8-tesuto.svg
+685089c6642d8199a1f640db7dd4675ed8165e37b791a107ae62946175cafe42  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p1-hyoushi.png
+cbb6171d9b8322eb1fc3a75071f88fc03bcc5a57b5c35a2df27e10945a0384ef  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p2-kurashi.png
+6108f6656cc4124d4ba87043bdcfaa14cd0d6739150c68ab3ebf7b0813909b91  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p3-bunka.png
+4592452661b4f789b31e9d1156e788f311883c6e17b0cb09eda8d25007bd19fa  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p4-supotsu.png
+c58c74245568e948ce2f8d2d8351b741370323a36cfc4dc132235130ff11fac1  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p5-wakamono.png
+ad11f39032923a92cc33d2b53eb58c3d183281d1c1ab46701f3c173b3f31224c  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p6-fukayomi.png
+e4d37ca2631e88470b1b810804517a2e9967ff68c248b73f975b9544f54f3774  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p7-kotoba.png
+8b28f8e7d8d6e283593f6255fc9d0faf352f811d34a21e68db250c1fc0876444  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p8-tesuto.png
+a213dcf6357b59c4a3575fc2c5311c54140adc346d907f5229b958ebe326c8b8  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/Lucerna-VOL2-EN.pdf
+394b93996688194cae54871fffc32785afe8a2990ce336f2bded517f32a518a3  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/Lucerna-VOL2-EN-web.pdf
+--- KIT + ABSTRACT (for completeness, not counted in the 18) ---
+e3916e82b99697937b69988984196b5cf5b986861af981daef1388cea7c1c62f  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/WEEKLY-KIT.md
+ea5526a0e898fd4411abc2cd6381ea6bdbc8b5f8023a8126a5d4799521abd591  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/ABSTRACT.txt
+--- build-tree key files ---
+005c6a0b25d8c690701e4163922cd67a9554816f07164d79703dc1c58d89992f  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/transform.py
+ca45aabf00da011853dd286337e83be8be8f3ae864c2ab9de0f1e2f5780493d3  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/run.py
+79c998e7186a9a131b590a06e6cabd70e30a302247a50f52ac792bb7b5efa371  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/render.py
+56343cf901e0687a22d5cbc40d7ccd9c3876b64cbcb07dad1ef3f2eca3b4010c  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/content12.py
+0570cb3ce9f1df223a354fbde22ce3039d1bf54b949d53b317c051019ebf1133  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/content34.py
+0075df4620687f88ec0eaa5ec2fcd7e647454ef17d987f4aebdefd8b427d9a0f  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/content56.py
+1ea58815d24be90e529dfe3d205bd4855c520269d4f79beae328abadc1016028  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/content7.py
+17824d15936d7848fe1ec6871511df7404ae88cc65209311b00b652e7269d425  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/content8.py
+0f9b85aec5755bf95e32038706190b4be5dd5fbf40d68f330fbd14b4f58b4c6e  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/bslib4.py
+b55102b5c97c0ab99aa9873f0e783acb2eedbfd6648abbd6419b2664302ea90f  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-ja-en-build/svglib.py
+--- sizes ---
+657676 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p1-hyoushi.svg
+26998 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p2-kurashi.svg
+840977 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p3-bunka.svg
+815419 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p4-supotsu.svg
+119870 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p5-wakamono.svg
+25161 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p6-fukayomi.svg
+25438 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p7-kotoba.svg
+57568 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg/p8-tesuto.svg
+1329865 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p1-hyoushi.png
+822239 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p2-kurashi.png
+942814 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p3-bunka.png
+1029702 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p4-supotsu.png
+841919 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p5-wakamono.png
+768511 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p6-fukayomi.png
+814436 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p7-kotoba.png
+1159662 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/cards/p8-tesuto.png
+27138695 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/Lucerna-VOL2-EN.pdf
+3038546 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/Lucerna-VOL2-EN-web.pdf
+--- pre-fix P8 printed lines #32/#37 (edition vs core) ---
+37. 8 — 工艺展到11月8日
+32. B — The exhibition runs to November 8 (Sunday)

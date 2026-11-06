@@ -1,0 +1,12 @@
+p1-pervaya.svg core_total 400 ed_total 390 only_core {'ПО': 1, 'РУССКИ': 1, 'ГАЗЕТА': 1, 'ЕЖЕНЕДЕЛЬНАЯ': 1, 'ДЛЯ': 1, 'ИЗУЧАЮЩИХ': 1, 'РУССКИЙ': 1, 'ЯЗЫК': 1, 'НАСТОЯЩАЯ': 1, 'РОССИЯ': 1} only_ed {}
+p2-zhizn.svg core_total 443 ed_total 443 only_core {} only_ed {}
+p3-kultura.svg core_total 338 ed_total 338 only_core {} only_ed {}
+p4-sport.svg core_total 306 ed_total 306 only_core {} only_ed {}
+p5-molodezh.svg core_total 316 ed_total 316 only_core {} only_ed {}
+p6-razbor.svg core_total 354 ed_total 354 only_core {} only_ed {}
+p7-yazyk.svg core_total 397 ed_total 397 only_core {} only_ed {}
+p8-test.svg core_total 641 ed_total 641 only_core {} only_ed {}
+core p1 subtitle/badge candidates: ['ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ']
+ed p1 subtitle/badge candidates: ['TEXT IN RUSSIAN · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS']
+core contents around Стр8: ['Стр. 7', 'Фразы недели', 'A2→B2', 'Стр. 8', 'Тест и все ответы', 'все', 'СЛОВО НЕДЕЛИ · 本周单词']
+ed contents around Стр8: ['Стр. 7', 'Фразы недели', 'A2→B2', 'Стр. 8', 'Тест и все ответы', 'все', 'СЛОВО НЕДЕЛИ · Word of the week']

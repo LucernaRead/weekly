@@ -1,0 +1,51 @@
+=== gloss reconstruction ===
+core p1-hyoushi.svg boxes 1 segments 4 ['祝日 节假日', '見頃 最佳观赏期', '暦历法', 'お届けします 为您送上。']
+core p2-kurashi.svg boxes 2 segments 9 ['蒸す 蒸', '並ぶ 摆上货架', '食卓 餐桌', '超える 超过。', '予報 预报', '平年 往年平均', '季節風季风', '話題 话题', '値上がり 涨价。']
+core p3-bunka.svg boxes 2 segments 8 ['市場 市场', '工芸 工艺', '光 灯光', '楽しむ 享受。', '陶器 陶瓷', '漆器 漆器', '染物 染色织物', '金箔 金箔。']
+core p4-supotsu.svg boxes 2 segments 7 ['延長 延长赛', '逆転 逆转', '同点 平分', '優勝率 夺冠率。', '総括 总结', '締め切り 截稿', '確認する 核实。']
+core p5-wakamono.svg boxes 2 segments 7 ['罰金 罚款', '像 雕像', '仮装 变装', '守る 遵守。', '祭り 节日', '週末 周末', '話題 话题。']
+core p6-fukayomi.svg boxes 1 segments 4 ['予算 预算', '満足 满足', '観測 观测', '追いかける 追赶。']
+core p7-kotoba.svg boxes 0 segments 0 []
+core p8-tesuto.svg boxes 0 segments 0 []
+core TOTAL 39 {'p1-hyoushi.svg': 4, 'p2-kurashi.svg': 9, 'p3-bunka.svg': 8, 'p4-supotsu.svg': 7, 'p5-wakamono.svg': 7, 'p6-fukayomi.svg': 4, 'p7-kotoba.svg': 0, 'p8-tesuto.svg': 0}
+edition p1-hyoushi.svg boxes 1 segments 4 ['祝日 節假日', '見頃 最佳觀賞期', '暦曆法', 'お届けします 為您送上。']
+edition p2-kurashi.svg boxes 2 segments 9 ['蒸す 蒸', '並ぶ 擺上貨架', '食卓 餐桌', '超える 超過。', '予報 預報', '平年 往年平均', '季節風季風', '話題 話題', '値上がり 漲價。']
+edition p3-bunka.svg boxes 2 segments 8 ['市場 市場', '工芸 工藝', '光 燈光', '楽しむ 享受。', '陶器 陶瓷', '漆器 漆器', '染物 染色織物', '金箔 金箔。']
+edition p4-supotsu.svg boxes 2 segments 7 ['延長 延長賽', '逆転 逆轉', '同点 平分', '優勝率 奪冠率。', '総括 總結', '締め切り 截稿', '確認する 核實。']
+edition p5-wakamono.svg boxes 2 segments 7 ['罰金 罰款', '像 雕像', '仮装 變裝', '守る 遵守。', '祭り 節日', '週末 週末', '話題 話題。']
+edition p6-fukayomi.svg boxes 1 segments 4 ['予算 預算', '満足 滿足', '観測 觀測', '追いかける 追趕。']
+edition p7-kotoba.svg boxes 0 segments 0 []
+edition p8-tesuto.svg boxes 0 segments 0 []
+edition TOTAL 39 {'p1-hyoushi.svg': 4, 'p2-kurashi.svg': 9, 'p3-bunka.svg': 8, 'p4-supotsu.svg': 7, 'p5-wakamono.svg': 7, 'p6-fukayomi.svg': 4, 'p7-kotoba.svg': 0, 'p8-tesuto.svg': 0}
+=== P7 golden phrases: P7 quoted sentences, whole-edition whitespace-stripped counts ===
+core P7 quoted candidates 12
+   '昨日、友達と鍋を食べます' whole-edition count 1
+   '私の趣味は鍋を食べるです' whole-edition count 1
+   'ライトアップを三本見ました' whole-edition count 1
+   '金沢に紅葉を見ます' whole-edition count 1
+   '文化の日は、11月3日（火よう日）です。' whole-edition count 2
+   'ゆっくり、ゆるく整える日本の11月です。' whole-edition count 2
+   '『ゆる』は、無理をしない、ゆっくり、という意味です。' whole-edition count 2
+   '鍋の材料が1か月早く並び始めました。' whole-edition count 2
+   '伝統工芸と紅葉と光を、いっしょに楽しむことができます。' whole-edition count 2
+   'ソフトバンクが2連勝でスタートしました。' whole-edition count 2
+   'ルールを守って、楽しいハロウィンにしましょう。' whole-edition count 2
+   '紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。' whole-edition count 2
+edition P7 quoted candidates 12
+   '昨日、友達と鍋を食べます' whole-edition count 1
+   '私の趣味は鍋を食べるです' whole-edition count 1
+   'ライトアップを三本見ました' whole-edition count 1
+   '金沢に紅葉を見ます' whole-edition count 1
+   '文化の日は、11月3日（火よう日）です。' whole-edition count 2
+   'ゆっくり、ゆるく整える日本の11月です。' whole-edition count 2
+   '『ゆる』は、無理をしない、ゆっくり、という意味です。' whole-edition count 2
+   '鍋の材料が1か月早く並び始めました。' whole-edition count 2
+   '伝統工芸と紅葉と光を、いっしょに楽しむことができます。' whole-edition count 2
+   'ソフトバンクが2連勝でスタートしました。' whole-edition count 2
+   'ルールを守って、楽しいハロウィンにしましょう。' whole-edition count 2
+   '紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。' whole-edition count 2
+=== P7 page labels after phrases ===
+core ['でに、本当の読者の手紙と第8版の作文の', '收到真实来信与第8版最佳作文；VOL.3将刊', '文化日是11月3日星期二。 (第1面)', '这是一个慢慢地、轻松调理的日本11月。 (第1面)', '所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)', '火锅食材提前一个月上架了。 (第2面)', '可以同时欣赏传统工艺、红叶与灯光。 (第3面)', '软银以两连胜开局。 (第4面)', '遵守规则，过一个快乐的万圣节吧。 (第5面)', '去看红叶的人可以自北向南追赶最佳观赏期。 (第6面)', '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！']
+core all 第N版/面 lines: ['でに、本当の読者の手紙と第8版の作文の', '收到真实来信与第8版最佳作文；VOL.3将刊', '文化日是11月3日星期二。 (第1面)', '这是一个慢慢地、轻松调理的日本11月。 (第1面)', '所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)', '火锅食材提前一个月上架了。 (第2面)', '可以同时欣赏传统工艺、红叶与灯光。 (第3面)', '软银以两连胜开局。 (第4面)', '遵守规则，过一个快乐的万圣节吧。 (第5面)', '去看红叶的人可以自北向南追赶最佳观赏期。 (第6面)', '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！', '第 7 版 / 共 8 版']
+edition ['でに、本当の読者の手紙と第8版の作文の', '收到真實來信與第8版最佳作文；VOL.3將刊', '文化日是11月3日星期二。 (第1版)', '這是一個慢慢地、輕鬆調理的日本11月。 (第1版)', '所謂ゆる，就是不勉強、慢慢來的意思。 (第2版)', '火鍋食材提前一個月上架了。 (第2版)', '可以同時欣賞傳統工藝、紅葉與燈光。 (第3版)', '軟銀以兩連勝開局。 (第4版)', '遵守規則，過一個快樂的萬聖節吧。 (第5版)', '去看紅葉的人可以自北向南追趕最佳觀賞期。 (第6版)', '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！']
+edition all 第N版/面 lines: ['でに、本当の読者の手紙と第8版の作文の', '收到真實來信與第8版最佳作文；VOL.3將刊', '文化日是11月3日星期二。 (第1版)', '這是一個慢慢地、輕鬆調理的日本11月。 (第1版)', '所謂ゆる，就是不勉強、慢慢來的意思。 (第2版)', '火鍋食材提前一個月上架了。 (第2版)', '可以同時欣賞傳統工藝、紅葉與燈光。 (第3版)', '軟銀以兩連勝開局。 (第4版)', '遵守規則，過一個快樂的萬聖節吧。 (第5版)', '去看紅葉的人可以自北向南追趕最佳觀賞期。 (第6版)', '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！', '第 7 版 / 共 8 版']

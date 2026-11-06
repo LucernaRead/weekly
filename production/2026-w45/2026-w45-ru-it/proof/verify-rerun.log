@@ -1,0 +1,95 @@
+== 1. Cyrillic token multiset per page (core vs edition) ==
+  p1-pervaya: core total 400 edition total 390 diff-tokens 10
+    ГАЗЕТА: core 2 -> ed 1
+    ДЛЯ: core 1 -> ed 0
+    ЕЖЕНЕДЕЛЬНАЯ: core 1 -> ed 0
+    ИЗУЧАЮЩИХ: core 1 -> ed 0
+    НАСТОЯЩАЯ: core 1 -> ed 0
+    ПО: core 3 -> ed 2
+    РОССИЯ: core 1 -> ed 0
+    РУССКИ: core 2 -> ed 1
+    РУССКИЙ: core 1 -> ed 0
+    ЯЗЫК: core 1 -> ed 0
+  p2-zhizn: core total 443 edition total 443 diff-tokens 0
+  p3-kultura: core total 338 edition total 338 diff-tokens 0
+  p4-sport: core total 306 edition total 306 diff-tokens 0
+  p5-molodezh: core total 316 edition total 316 diff-tokens 0
+  p6-razbor: core total 354 edition total 354 diff-tokens 0
+  p7-yazyk: core total 397 edition total 397 diff-tokens 0
+  p8-test: core total 641 edition total 641 diff-tokens 0
+== 2. CJK totals ==
+  p1-pervaya: CJK chars 0
+  p2-zhizn: CJK chars 0
+  p3-kultura: CJK chars 0
+  p4-sport: CJK chars 0
+  p5-molodezh: CJK chars 0
+  p6-razbor: CJK chars 0
+  p7-yazyk: CJK chars 0
+  p8-test: CJK chars 0
+== 3. P8 dash-parse: split each printed answer line on first ' — ' ==
+  core keys 150 edition keys 150
+  key diffs: {137: ('11 月 4 日星期三放假。', 'Mercoledì 4 novembre è festa.'), 138: ('促销码就是折扣码。', 'Il codice promozionale è un codice sconto.')}
+  139/140 identical: True
+  150: core '✓' ed '✓'
+== 4. Gloss counts (split on · itself) ==
+  content12.py: 3 calls counts [3, 3, 3] expected (3, 3, 3) match=True
+  content34.py: 3 calls counts [3, 3, 3] expected (3, 3, 3) match=True
+  content56.py: 3 calls counts [3, 2, 3] expected (3, 2, 3) match=True
+== 5. Image payloads per page (base64 blob sha256) ==
+  p1-pervaya: core ['d6ec5d824006dfff'] edition ['d6ec5d824006dfff'] identical=True
+  p2-zhizn: core [] edition [] identical=True
+  p3-kultura: core [] edition [] identical=True
+  p4-sport: core ['e59efdb05aa679d8'] edition ['e59efdb05aa679d8'] identical=True
+  p5-molodezh: core ['a60d34800d2b4a53'] edition ['a60d34800d2b4a53'] identical=True
+  p6-razbor: core [] edition [] identical=True
+  p7-yazyk: core [] edition [] identical=True
+  p8-test: core [] edition [] identical=True
+== 6. P7 golden sentences: bare Russian quote occurrences, page-joined text ==
+  2x Среда, 4 ноября, — выходной посреди рабочей недели
+  2x Как жить неделю с праздником посреди недели
+  2x Во вторник, 3 ноября, рабочий день короче на час
+  2x В среду города устраивают ярмарки и концерты
+  2x В воскресенье, 8 ноября, — три матча
+  2x Сначала — список: что вам правда нужно
+  2x Многие берут отпуск в четверг и в пятницу
+  2x Пять дней — почти маленькие каникулы
+== 7. P7 letters-box geometry (core vs edition) ==
+  core: ([('200', '808.08'), ('1020.08', '222.5'), ('1254.58', '473.0')], [], [('1527.2299999999998', 'Настоящих писем и лучших')])
+  ed  : ([('200', '808.08'), ('1020.08', '222.5'), ('1254.58', '473.0')], [('1738.2799999999997', 'esempio redazionale, promessa VOL.3.')], [('1527.2299999999998', 'Настоящих писем и лучших')])
+== 8. P6 chart element check: labels, values, later-rect overlap ==
+  labels present: {'Дома с семьёй': True, 'Короткая поездка': True, 'Ярмарка или концерт': True, 'Просто выспятся': True}
+  values present: {'34%': True, '28%': True, '22%': True, '16%': True}
+  chart-region text elements (from SVG order):
+    y=1552.0 x=65.0 w=1028.6 'КАК ПРОВЕДУТ СРЕДУ 4 НОЯБРЯ? · УЧЕБНЫЕ Д'
+    y=1582.0 x=65.0 w=1241.9 'Это учебный опрос редакции для упражнени'
+    y=1634.0 x=65.0 w=159.4 'Дома с семьёй'
+    y=1634.0 x=1299.0 w=46.1 '34%'
+    y=1680.0 x=65.0 w=196.5 'Короткая поездка'
+    y=1680.0 x=1193.0 w=46.1 '28%'
+    y=1726.0 x=65.0 w=242.6 'Ярмарка или концерт'
+    y=1726.0 x=1087.0 w=46.1 '22%'
+    y=1772.0 x=65.0 w=191.2 'Просто выспятся'
+    y=1772.0 x=981.0 w=46.1 '16%'
+== 9. Full-width parens + quote-digit leak scan ==
+  p1-pervaya: full-width parens 0 quote-digit []
+  p2-zhizn: full-width parens 0 quote-digit []
+  p3-kultura: full-width parens 0 quote-digit []
+  p4-sport: full-width parens 0 quote-digit []
+  p5-molodezh: full-width parens 0 quote-digit []
+  p6-razbor: full-width parens 0 quote-digit []
+  p7-yazyk: full-width parens 0 quote-digit []
+  p8-test: full-width parens 0 quote-digit []
+== 10. Same-baseline scan, P1 furniture bands (advance widths, gap < 5px) ==
+  svg: 0 flags (y<=600)
+  svg: 0 flags (y<=600)
+== 11. PDFs + cards ==
+  Lucerna-VOL2-IT.pdf: 13551274 bytes, 8 pages
+  Lucerna-VOL2-IT-web.pdf: 3173183 bytes, 8 pages
+  p1-pervaya.png: (1950, 2700)
+  p2-zhizn.png: (1950, 2700)
+  p3-kultura.png: (1950, 2700)
+  p4-sport.png: (1950, 2700)
+  p5-molodezh.png: (1950, 2700)
+  p6-razbor.png: (1950, 2700)
+  p7-yazyk.png: (1950, 2700)
+  p8-test.png: (1950, 2700)

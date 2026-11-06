@@ -1,0 +1,30 @@
+NL x ZH-TW W45 (VOL.2) BUILD LOG — builder run, 2026-10-27
+===========================================================
+Preflight: edition dir + build dir absent; no in-progress writes for this
+edition (only an unrelated NL x IT insert process running); 60-120s recheck
+showed no foreign writes. Core build copied to build dir.
+Freeze baseline (tools/freeze.py): 8/8 byte-identical; core SVGs re-hashed
+unchanged at close-out (see core-svg-sha256-before.txt).
+Transform: transform.py (OpenCC s2twp + Taiwan fixups + W43 furniture, all
+count-asserted). Two aborted-then-fixed runs during development (nameplate
+spaced-Zhou residue guard; OUT path prefix) — each time the build was
+re-copied pristine from the core and transform.py fixed, then re-run clean;
+shipped files come from the final clean run only.
+Render round 1 (only round): run.py one process -> 150 exercises
+(A2 47 / B1 72 / B2 31), pages 10/18/18/18/18/18/12/38, model essay 87 words,
+zero FLOW OVERFLOW / HEAD TOO WIDE; render.py -> 8 cards 1950x2700 +
+print/web PDFs. Full outputs: build-log-run1.txt, build-log-render1.txt.
+Gates (raw outputs alongside this log): p8-compare.txt (CLEAN 150=150,
+keydiff [7,70,71,76,96,137,138,148] adjudicated in KIT §4-§5),
+occlusion.txt (edition 0 / core 0 / NEW 0), freeze-diff.txt/json
+(symmetric +N/-N, added CJK 927, non-CJK residual = furniture only),
+checks-run2.txt (same-baseline rowcheck 0; P6 chart-label coverage 0.0%
+by baseline-anchored ink method; an earlier checks run1 over-reported
+44.9% due to a 4x-supersampling scaling bug in the check script itself --
+fixed, re-run as run2; the canonical occlusion audit independently read 0),
+reg-core/reg-ed registry dumps (keys {137,138,150} only).
+Visual: all 8 cards inspected page by page (see KIT §7).
+Baseline: baseline-run1.sha256 (svg + cards + PDFs, run1).
+Delivery: builder-complete only. NOT finalized, NOT inserted, NOT posted
+to Discord, NOT messaged to main chat, NO cron, weekly-git untouched,
+core/W43 dirs read-only.

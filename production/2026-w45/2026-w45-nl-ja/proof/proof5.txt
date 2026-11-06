@@ -1,0 +1,52 @@
+ED P8: fullwidth （ 20 ） 20 ; halfwidth ( 13 ) 13
+   FW: '作文問題（正解は一つではない）；模範文（87'
+   FW: 'ANTWOORDEN · 全解答と解説（1–8ページ）'
+   FW: '3. 7 — ミュージアムナハトは11月7日（土）'
+   FW: '7. B — 気候週間は全7日間（11月2–8日）'
+   FW: '17. wortelen — wortelen = 根付く（複数主語）'
+   FW: '24. 8 — 気候週間は11月8日（日）に終了'
+   FW: '29. B — ミュージアムナハトは11月7日（土）'
+   FW: '65. B — ロビンソンは11月1日（日）に開始'
+   FW: '69. A — ADE と DDW は10月25日（日）に閉幕'
+   FW: '70. eiland — eiland = 島（het）'
+   FW: '71. proef — proef = 競技・試練（de）'
+   FW: '73. aflevering — aflevering = （1）話'
+   FW: '76. gaat winnen — gaat winnen = 勝つだろう（推測）'
+   FW: '79. gaan zoeken — zij（複数）→ gaan zoeken'
+   FW: '96. advies — advies = 助言（het）'
+   FW: '121. A — 気候週間は11月2日（月）に開始'
+   FW: '148. B — zachte = 柔らかい（土）'
+   FW: '150. ✓ 模範文はこのページの H 欄（87語）'
+   FW: '8 ページ（全 8 ページ）'
+   halfwidth ( contexts in ED P8:
+   HW: 'De Klimaatweek duurt van 2 tot en met ___ november. (A. 7 · B.'
+   HW: 'Coevorden deelt ___ bomen en struiken uit. (A. 100 · B. 200)'
+   HW: 'Museumnacht is op zaterdag ___ november. (A. 6 · B. 7)'
+   HW: 'Twente – Ajax begint om ___ uur. (A. 11:15 · B. 13:30)'
+   HW: 'Ajax won van Atalanta met ___. (A. 2–0 · B. 4–1)'
+   HW: 'Expeditie Robinson begon op 1 ___. (A. november · B. oktober)'
+   HW: 'Code oranje betekent: het weer is ___. (A. veilig · B. gevaarlijk)'
+   HW: '«Meedoen» betekent ___. (A. weggaan · B. deelnemen)'
+   HW: '— Goedemiddag! Ik kom voor een ___. (A. boom · B. fiets)'
+   HW: '— Natuurlijk. Wilt u een boom of een ___? (A. struik · B. auto)'
+   HW: '— Een struik, graag. En waar moet ik hem ___? (A. planten · B.'
+   HW: '— In de tuin, in de ___ grond. (A. harde · B. zachte)'
+   HW: '— De uitdeling duurt tot ___ uur. (A. 16:00 · B. 20:00)'
+W43 P8: fullwidth （ 28 ） 28 ; halfwidth ( 13 ) 13
+CORE P8: fullwidth （ 11 ） 11 ; halfwidth ( 14 ) 14
+W43 content8 code: fullwidth （ count 7  halfwidth ( in note-like? total 98
+W45 content8 code: fullwidth （ count 7
+
+=== Chinese word residue scan (edition all pages) ===
+FOUND Chinese-word candidates in ED: {'非常': 3, '作文': 4, '注意': 9, '参加': 8, '禁止': 1, '助言': 3}
+不定式 count: 0  不定詞 count: 2
+
+Distinct added CJK chars: 332
+Added kanji (non-kana): 一下並中主乗了予事人今付令位低体何作使備催優元充全内出切刊利加助動勝北単取受古号各合名向味命問固土域報場変外夜好始季完定容対屋島州市布幕店引当形後従得思想意態成戦房所手技押掘探推掲敗文料方日早時曜曰書月木未本束来枠架査植楽様模横樹欄止正歩残毎気決注深済測点無片物現番目相秀私空章競節範約紙終結続締編練績美習者自芸若蚤術表補複見覚解言計記訳詞試話詳語誤説読調警賛質赤起超車転載送通速週過道違適選配長閉開間険集離響順頭題館首
+Added kana/punct: 、。「」『』あいうえおかがきぎくぐけげこさしすずせそぞただちっつてでとどなにのはばぶへべまみむめもよらりるれろわをんアィイゥウェエオカガキギクグコゴザシジスズソタダッツテデトドナニネノハパビフブプヘベペボポミムモヤュヨラリルレロンヴ・ー（）？～
+Added chars in simplified-only set: ['文']
+桥接 count ED: 0  CORE: 0
+
+=== Orphan line-start scan ===
+orphan hits (NO_START+small+ASCII): []
+total text elements ED: 1549

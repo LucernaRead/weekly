@@ -1,0 +1,24 @@
+#137 CORE: ['137.', '137. 气候周持续七天。 — 对照第 1 版头条']
+#137 ED: ['137.', '137. 기후 주간은 7일 동안 이어져요. — 1면 헤드라인 참조']
+#138 CORE: ['138.', '138. 橙色预警意味着：做好准备。 — 第 2 版原句 · bereid je voor 做好']
+#138 ED: ['138.', '138. 주황색 경보는 대비하라는 뜻이에요. — 2면 원문 · bereid je voor는']
+#139 CORE: ['139.', '139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意时间表']
+#139 ED: ['139.', '139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 시간 표현']
+#140 CORE: ['140.', '140. Ik doe mee aan de Klimaatweek. — meedoen 是可分动词']
+#140 ED: ['140.', '140. Ik doe mee aan de Klimaatweek. — meedoen은 분리 동사예요']
+#150 CORE: ['150.', '150. ✓ 范文见本版 H 区（87 词）']
+#150 ED: ['150.', '150. ✓ 모범 답안은 이 면 H 구역에 있어요(87단어)']
+
+--- 139/140 stems on exercise pages ---
+CORE p8-toets.svg '博物馆之夜从晚上 19 点到凌晨 2 点。→ ___'
+CORE p8-toets.svg '我参加气候周。→ ___'
+ED p8-toets.svg '박물관의 밤은 저녁 7시부터 새벽 2시까지예요. → ___'
+ED p8-toets.svg '저는 기후 주간에 참여해요. → ___'
+
+--- P8 note Latin tokens in ED (should be Dutch headwords/proper nouns only) ---
+{'veel': 1, 'mensen': 1, 'planten': 3, 'wortelen': 1, 'besparen': 2, 'fiets': 1, 'Klimaatweek': 1, 'b': 2, 'd': 2, 'waarschuwing': 2, 'a': 2, 'lokaal': 2, 'c': 2, 'PAN': 2, 'museum': 1, 'musea': 1, 'rondleiding': 1, 'tijdslot': 1, 'tweedehands': 1, 'beurs': 1, 'zijn': 5, 'perfectum': 4, 'geweest': 1, 'kopen': 1, 'hebben': 2, 'gekocht': 1, 'voorlezen': 1, 'komen': 2, 'gekomen': 1, 'NEC': 2, 'balans': 1, 'gelijkspelen': 1, 'speelden': 1, 'gelijk': 1, 'topper': 1, 'stand': 1, 'doelpunt': 1, 'winnen': 2, 'won': 1, 'gaan': 3, 'ging': 1, 'verliezen': 1, 'verloor': 1, 'ADE': 3, 'eiland': 1, 'proef': 1, 'stemmen': 1, 'aflevering': 1, 'voorbij': 1, 'kandidaat': 1, 'kandidaten': 1, 'gaat': 2, 'wij': 2, 'kijken': 1, 'hij': 1, 'praten': 1, 'zij': 1, 'zoeken': 1, 'KNMI': 1, 'waarschuwingsmoeheid': 1, 'vastzetten': 3, 'advies': 1, 'weinig': 1, 'voor': 2, 'raakt': 1, 'je': 2, 'bespaar': 1, 'rood': 1, 'blijf': 1, 'binnen': 1, 'ik': 1, 'doe': 1, 'mee': 2, 'opruimen': 1, 'opgeruimd': 1, 'zette': 1, 'vast': 1, 'meedoen': 4, 'Volgens': 2, 'mij': 2, 'Ik': 1, 'vind': 1, 'dat': 2, 'Het': 1, 'lijkt': 1, 'me': 1, 'RAI': 1, 'bereid': 1, 'klimaat': 1, 'boom': 1, 'struik': 1, 'zachte': 1}
+--- P8 notes with Hanzi in ED ---
+[]
+--- P8 150 apparatus ---
+CORE ['写作题（无唯一答案）；范文（87 词）见下。', '87. 100 — 图表共 100 人：45+25+20+10', '150. ✓ 范文见本版 H 区（87 词）']
+ED ['(87단어)은 아래에 있어요.', '87. 100 — 그래프 전체 100명: 45+25+20+10', '150. ✓ 모범 답안은 이 면 H 구역에 있어요(87단어)']

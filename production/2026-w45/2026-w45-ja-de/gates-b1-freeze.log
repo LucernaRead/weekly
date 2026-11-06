@@ -1,0 +1,23 @@
+===== freeze baseline (core) =====
+baseline: 8/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content8.py, render.py, content7.py)
+  OK  p1-hyoushi.svg core 4abe63d2a0e8076f produced 4abe63d2a0e8076f
+  OK  p2-kurashi.svg core 08439072c0d680fa produced 08439072c0d680fa
+  OK  p3-bunka.svg core 48a1fe9450c3e798 produced 48a1fe9450c3e798
+  OK  p4-supotsu.svg core 11b592b546e64fee produced 11b592b546e64fee
+  OK  p5-wakamono.svg core 3035b928c6b7c715 produced 3035b928c6b7c715
+  OK  p6-fukayomi.svg core a8095c47341dd03d produced a8095c47341dd03d
+  OK  p7-kotoba.svg core 08060a286dd81b55 produced 08060a286dd81b55
+  OK  p8-tesuto.svg core 9e733a427864a613 produced 9e733a427864a613
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze-baseline exit=0
+===== freeze diff core->edition --strict-cjk =====
+p1: +20 strings / -18 strings; CJK core 1406 -> edition 1275; added CJK chars: 0 
+p2: +33 strings / -28 strings; CJK core 1312 -> edition 1161; added CJK chars: 0 
+p3: +24 strings / -22 strings; CJK core 1172 -> edition 1051; added CJK chars: 0 
+p4: +21 strings / -20 strings; CJK core 1263 -> edition 1169; added CJK chars: 0 
+p5: +27 strings / -25 strings; CJK core 1247 -> edition 1132; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1186 -> edition 1101; added CJK chars: 0 
+p7: +41 strings / -40 strings; CJK core 1676 -> edition 1308; added CJK chars: 0 
+p8: +179 strings / -177 strings; CJK core 2721 -> edition 1448; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze-diff exit=0

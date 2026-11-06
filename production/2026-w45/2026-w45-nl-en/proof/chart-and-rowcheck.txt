@@ -1,0 +1,11 @@
+=== P6 chart: baseline-anchored ink vs later-drawn bars ===
+  label 'Ik blijf thuis' baseline y=294.0 ink y [277.8,299.2] ink x [1473.8,1595.2]
+  label '45' baseline y=294.0 ink y [279.5,294.2] ink x [1840.2,1862.0]
+  label '25' baseline y=352.0 ink y [337.2,352.2] ink x [1840.5,1862.0]
+  label '20' baseline y=410.0 ink y [395.2,410.2] ink x [1840.5,1862.2]
+  label '10' baseline y=468.0 ink y [453.2,468.2] ink x [1841.5,1862.2]
+=== getbbox-bug demonstration ===
+  getbbox default(la)=(0, 25, 491, 111) (4x); getmetrics ascent=90 descent=23 (4x); ls-anchored offsets=(0.75, -16.25, 122.25, 5.25)
+  naive baseline-relative bottom = 294 + 27.8 = 321.8 vs bar top 304
+  correct bottom = 294 + 5.2 = 299.2 vs bar top 304, gap 4.8px
+  (naive top 6.2 is measured from ascender line, not baseline; misreading it as baseline-relative shifts ink down by ascent/4=22.5px)

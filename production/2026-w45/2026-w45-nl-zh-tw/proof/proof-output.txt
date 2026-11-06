@@ -1,0 +1,502 @@
+=== A. CJK reference sets ===
+edition distinct CJK: 458
+W43 zh-tw distinct CJK: 444
+core distinct CJK: 458
+edition chars NOT in W43 zh-tw set: 154
+unseen list: 七事代但低使供依候倫備僅儘先內勞危友各周味嗎圍土壤太如安室專導少就屬已市常幕度延建弗形影征待很必忠怎思截扎打承投拾持接摩播擇攤於旁暖朋木未束柔查根格棵榜構樹橙段母氣決洛海灌牙甲當疲皇直省知碼祈禁科程種稿積籍紅納績繼續考而肯腳致舊色芬茲落著蒂薩虛術覽認誰警議象貝貨跑路踏軟輕輸迎迪這邊那量針長韋響項順領顏驗魔黃
+s2t-changing chars in edition (simplified-form candidates): 1: 征
+  UNSEEN 七 U+4E03 n_ctx=1 :: p8-toets:'7. 氣候週持續七天。 — 對照第'
+  UNSEEN 事 U+4E8B n_ctx=1 :: p1-voorpagina:'ek · 本週大事'
+  UNSEEN 代 U+4EE3 n_ctx=5 :: p2-leven:'用顏色代碼和日期填空。' | p7-taal:'預警代碼不是禁令，而是' | p8-toets:'eel — 黃色代碼：當心' | p8-toets:'nje — 橙色代碼：危險' | p8-toets:'KNMI 說：看代碼旁邊的文字'
+  UNSEEN 但 U+4F46 n_ctx=1 :: p7-taal:'屬於我們所有人，但對每個人的影響各'
+  UNSEEN 低 U+4F4E n_ctx=1 :: p8-toets:'節約能源：暖氣調低一度'
+  UNSEEN 使 U+4F7F n_ctx=1 :: p8-toets:'ode. — 祈使句：動詞在首位'
+  UNSEEN 供 U+4F9B n_ctx=1 :: p6-verdieping:'據：虛構數字，僅供練習，非真實調查'
+  UNSEEN 依 U+4F9D n_ctx=3 :: p7-taal:'ns mij… 依我看；' | p8-toets:' mij… = 依我看' | p8-toets:' mij… = 依我看'
+  UNSEEN 候 U+5019 n_ctx=26 :: p1-voorpagina:'氣候週' | p1-voorpagina:'本週全國氣候週 · 詳見第 ' | p1-voorpagina:'atweek 氣候週 · de b' | p1-voorpagina:'atweek（氣候' | p1-voorpagina:'「氣候」：我們周圍長期' | p1-voorpagina:'的就是我們的氣候。'
+  UNSEEN 倫 U+502B n_ctx=2 :: p8-toets:'1:15 — 海倫芬–費耶諾德 1' | p8-toets:'11:15 是海倫芬–費耶諾'
+  UNSEEN 備 U+5099 n_ctx=3 :: p2-leven:'危險，做好準備' | p8-toets:'警意味著：做好準備。 — 第 2 ' | p8-toets:'準備'
+  UNSEEN 僅 U+50C5 n_ctx=1 :: p6-verdieping:'數據：虛構數字，僅供練習，非真實調'
+  UNSEEN 儘 U+5118 n_ctx=1 :: p2-leven:'非常危險，儘量待在室內'
+  UNSEEN 先 U+5148 n_ctx=1 :: p8-toets:'5 — 25 人先看預警文字'
+  UNSEEN 內 U+5167 n_ctx=2 :: p2-leven:'危險，儘量待在室內' | p8-toets:'非常危險，待在室內'
+  UNSEEN 勞 U+52DE n_ctx=4 :: p6-verdieping:'heid 預警疲勞 ·' | p8-toets:' A — 預警疲勞：警告太多導致不' | p8-toets:'id = 預警疲勞' | p8-toets:' B — 預警疲勞：警告太多導致不'
+  UNSEEN 危 U+5371 n_ctx=8 :: p2-leven:'天氣可能危險，要當心' | p2-leven:'危險，做好準備' | p2-leven:'非常危險，儘量待在室內' | p7-taal:'：當心，天氣可能危險。 (Pagi' | p8-toets:' 紅色預警：非常危險，待在室內' | p8-toets:' — 橙色代碼：危險'
+  UNSEEN 友 U+53CB n_ctx=1 :: p5-jongeren:'lijft（和朋友猜誰能留到最後）'
+  UNSEEN 各 U+5404 n_ctx=1 :: p7-taal:'但對每個人的影響各不相同。 (Pa'
+  UNSEEN 周 U+5468 n_ctx=1 :: p1-voorpagina:'「氣候」：我們周圍長期的天氣與自'
+  UNSEEN 味 U+5473 n_ctx=2 :: p7-taal:'黃色意味著：當心，天氣可' | p8-toets:'8. 橙色預警意味著：做好準備。 '
+  UNSEEN 嗎 U+55CE n_ctx=1 :: p5-jongeren:'你看《荒島遠征》嗎，還是更愛自己出'
+  UNSEEN 圍 U+570D n_ctx=1 :: p1-voorpagina:'「氣候」：我們周圍長期的天氣與自然'
+  UNSEEN 土 U+571F n_ctx=1 :: p8-toets:'e = 柔軟的（土壤）'
+  UNSEEN 壤 U+58E4 n_ctx=1 :: p8-toets:' = 柔軟的（土壤）'
+  UNSEEN 太 U+592A n_ctx=2 :: p8-toets:' 預警疲勞：警告太多導致不再注意' | p8-toets:' 預警疲勞：警告太多導致不再注意'
+  UNSEEN 如 U+5982 n_ctx=1 :: p8-toets:'89. B — 如今預警是本地的'
+  UNSEEN 安 U+5B89 n_ctx=1 :: p8-toets:'8. C — 扎安丹舊貨市場約 2'
+  UNSEEN 室 U+5BA4 n_ctx=2 :: p2-leven:'常危險，儘量待在室內' | p8-toets:'：非常危險，待在室內'
+  UNSEEN 專 U+5C08 n_ctx=1 :: p7-taal:'atweek 是專名，首字母大寫。'
+  UNSEEN 導 U+5C0E n_ctx=5 :: p3-cultuur:'leiding 導覽 · het ' | p5-jongeren:'（下週這裡繼續報導進展）' | p8-toets:'iding = 導覽' | p8-toets:'警疲勞：警告太多導致不再注意' | p8-toets:'警疲勞：警告太多導致不再注意'
+  UNSEEN 少 U+5C11 n_ctx=1 :: p8-toets:'voor = 很少出現'
+  UNSEEN 就 U+5C31 n_ctx=1 :: p1-voorpagina:'的就是我們的氣候。'
+  UNSEEN 屬 U+5C6C n_ctx=1 :: p7-taal:'天氣屬於我們所有人，但'
+  UNSEEN 已 U+5DF2 n_ctx=1 :: p8-toets:'0 月 25 日已落幕'
+  UNSEEN 市 U+5E02 n_ctx=3 :: p3-cultuur:'eurs 展會、市' | p8-toets:'rs = 展會、市集' | p8-toets:' — 扎安丹舊貨市場約 250 個'
+  UNSEEN 常 U+5E38 n_ctx=3 :: p2-leven:'非常危險，儘量待在室' | p8-toets:'— 紅色預警：非常危險，待在室內' | p8-toets:'C — 紅色：非常危險，非必要不上'
+  UNSEEN 幕 U+5E55 n_ctx=3 :: p5-jongeren:'音樂節與設計週落幕' | p8-toets:' 25 日週日落幕' | p8-toets:'月 25 日已落幕'
+  UNSEEN 度 U+5EA6 n_ctx=2 :: p6-verdieping:' · 氣象預警深度解讀' | p8-toets:'能源：暖氣調低一度'
+  UNSEEN 延 U+5EF6 n_ctx=1 :: p7-taal:'登示例信，承諾順延 VOL.3。'
+  UNSEEN 建 U+5EFA n_ctx=3 :: p6-verdieping:' advies 建議、忠' | p7-taal:'是禁令，而是一條建議。 (Pagi' | p8-toets:'dvies = 建議（het）'
+  UNSEEN 弗 U+5F17 n_ctx=6 :: p1-voorpagina:'eelt（週六科弗登' | p8-toets:' 200 — 科弗登發放 200 ' | p8-toets:'8. B — 科弗登發放 200 ' | p8-toets:'2. B — 科弗登發放 200 ' | p8-toets:'4. B — 科弗登發放 200 ' | p8-toets:'Daan 住在科弗登'
+  UNSEEN 形 U+5F62 n_ctx=1 :: p4-sport:'詞填空。注意動詞形式。'
+  UNSEEN 影 U+5F71 n_ctx=1 :: p7-taal:'人，但對每個人的影響各不相同。 ('
+  UNSEEN 征 U+5F81 n_ctx=2 :: p5-jongeren:'你看《荒島遠征》嗎，還是更愛自' | p7-taal:'日週日，《荒島遠征》在 RTL 4'
+  UNSEEN 待 U+5F85 n_ctx=3 :: p2-leven:'非常危險，儘量待在室內' | p8-toets:'預警：非常危險，待在室內' | p8-toets:'5 名年輕人選擇待在家裡'
+  UNSEEN 很 U+5F88 n_ctx=1 :: p8-toets:' voor = 很少出現'
+  UNSEEN 必 U+5FC5 n_ctx=1 :: p8-toets:'色：非常危險，非必要不上路'
+  UNSEEN 忠 U+5FE0 n_ctx=1 :: p6-verdieping:'vies 建議、忠'
+  UNSEEN 怎 U+600E n_ctx=1 :: p6-verdieping:'：橙色預警時你會怎麼做？（100 '
+  UNSEEN 思 U+601D n_ctx=1 :: p2-leven:'每種顏色是什麼意思'
+  UNSEEN 截 U+622A n_ctx=1 :: p7-taal:'截稿時未收到真實來'
+  UNSEEN 扎 U+624E n_ctx=1 :: p8-toets:'28. C — 扎安丹舊貨市場約 '
+  UNSEEN 打 U+6253 n_ctx=1 :: p4-sport:'kspelen 打平 · de s'
+  UNSEEN 承 U+627F n_ctx=1 :: p7-taal:'刊登示例信，承諾順延 VOL.'
+  UNSEEN 投 U+6295 n_ctx=2 :: p5-jongeren:'stemmen 投票 · de a' | p8-toets:'emmen = 投票'
+  UNSEEN 拾 U+62FE n_ctx=1 :: p7-taal:'ruimen 收拾'
+  UNSEEN 持 U+6301 n_ctx=2 :: p6-verdieping:'tander 支持者。' | p8-toets:'137. 氣候週持續七天。 — 對'
+  UNSEEN 接 U+63A5 n_ctx=1 :: p7-taal:'boom；複數直接用'
+  UNSEEN 摩 U+6469 n_ctx=1 :: p8-toets:'輸給薩格勒布迪納摩'
+  UNSEEN 播 U+64AD n_ctx=2 :: p5-jongeren:' · 荒島節目開播、音樂節與設計週' | p7-taal:' RTL 4 開播，20 點。 ('
+  UNSEEN 擇 U+64C7 n_ctx=1 :: p8-toets:'45 名年輕人選擇待在家裡'
+  UNSEEN 攤 U+6524 n_ctx=1 :: p8-toets:'場約 250 個攤位'
+  UNSEEN 於 U+65BC n_ctx=1 :: p7-taal:'天氣屬於我們所有人，但對'
+  UNSEEN 旁 U+65C1 n_ctx=1 :: p8-toets:'MI 說：看代碼旁邊的文字'
+  UNSEEN 暖 U+6696 n_ctx=2 :: p2-leven:'warming 暖氣' | p8-toets:' — 節約能源：暖氣調低一度'
+  UNSEEN 朋 U+670B n_ctx=1 :: p5-jongeren:'blijft（和朋友猜誰能留到最後'
+  UNSEEN 木 U+6728 n_ctx=7 :: p1-voorpagina:'發放的樹木和灌木）' | p8-toets:'放 200 棵樹木灌木' | p8-toets:'放 200 棵樹木灌木' | p8-toets:'放 200 棵樹木灌木' | p8-toets:'放 200 棵樹木灌木' | p8-toets:'六領了一棵免費灌木'
+  UNSEEN 未 U+672A n_ctx=1 :: p7-taal:'截稿時未收到真實來信或第'
+  UNSEEN 束 U+675F n_ctx=4 :: p5-jongeren:'ij 過去了、結束了。' | p8-toets:'月 8 日週日結束' | p8-toets:' = 過去了、結束了' | p8-toets:' 16:00 結束'
+  UNSEEN 柔 U+67D4 n_ctx=1 :: p8-toets:'achte = 柔軟的（土壤）'
+  UNSEEN 查 U+67E5 n_ctx=1 :: p6-verdieping:'供練習，非真實調查。'
+  UNSEEN 根 U+6839 n_ctx=2 :: p2-leven:'rtelen 生根' | p8-toets:'elen = 生根（複數主語）'
+  UNSEEN 格 U+683C n_ctx=1 :: p8-toets:' 2–4 輸給薩格勒布迪納摩'
+  UNSEEN 棵 U+68F5 n_ctx=5 :: p8-toets:'登發放 200 棵樹木灌木' | p8-toets:'登發放 200 棵樹木灌木' | p8-toets:'登發放 200 棵樹木灌木' | p8-toets:'登發放 200 棵樹木灌木' | p8-toets:'— 他週六領了一棵免費灌木'
+  UNSEEN 榜 U+699C n_ctx=2 :: p4-sport:'stand 積分榜。' | p8-toets:'and = 積分榜'
+  UNSEEN 構 U+69CB n_ctx=1 :: p6-verdieping:'練習數據：虛構數字，僅供練習，'
+  UNSEEN 樹 U+6A39 n_ctx=10 :: p1-voorpagina:'lanten 種樹 · bespa' | p1-voorpagina:'發放的樹木和灌木）' | p2-leven:'候週你做什麼？種樹、節約能源還是騎' | p7-taal:'種樹；bespare' | p7-taal:'秋天是種樹的最好時節。 (' | p8-toets:'發放 200 棵樹木灌木'
+  UNSEEN 橙 U+6A59 n_ctx=4 :: p6-verdieping:'問題：橙色預警時你會怎麼' | p8-toets:'ranje — 橙色代碼：危險' | p8-toets:'19. B — 橙色預警：天氣危險' | p8-toets:'138. 橙色預警意味著：做'
+  UNSEEN 段 U+6BB5 n_ctx=2 :: p3-cultuur:'dslot 時間段 ·' | p8-toets:'lot = 時間段'
+  UNSEEN 母 U+6BCD n_ctx=1 :: p7-taal:'k 是專名，首字母大寫。'
+  UNSEEN 氣 U+6C23 n_ctx=35 :: p1-voorpagina:'氣候週' | p1-voorpagina:'本週全國氣候週 · 詳見第' | p1-voorpagina:'aatweek 氣候週 · de ' | p1-voorpagina:'aatweek（氣候' | p1-voorpagina:'「氣候」：我們周圍長' | p1-voorpagina:'的就是我們的氣候。'
+  UNSEEN 決 U+6C7A n_ctx=1 :: p5-jongeren:'在那裡決出）'
+  UNSEEN 洛 U+6D1B n_ctx=2 :: p8-toets:' 發放地點在茲韋洛' | p8-toets:' 發放地點在茲韋洛'
+  UNSEEN 海 U+6D77 n_ctx=4 :: p8-toets:'11:15 — 海倫芬–費耶諾德 ' | p8-toets:'Border 在海牙' | p8-toets:'；11:15 是海倫芬–費耶諾' | p8-toets:'Border 在海牙'
+  UNSEEN 灌 U+704C n_ctx=7 :: p1-voorpagina:'發放的樹木和灌木）' | p8-toets:' 200 棵樹木灌木' | p8-toets:' 200 棵樹木灌木' | p8-toets:' 200 棵樹木灌木' | p8-toets:' 200 棵樹木灌木' | p8-toets:'週六領了一棵免費灌木'
+  UNSEEN 牙 U+7259 n_ctx=2 :: p8-toets:'order 在海牙' | p8-toets:'order 在海牙'
+  UNSEEN 甲 U+7532 n_ctx=1 :: p1-voorpagina:'ivisie（荷甲第 12 輪的比'
+  UNSEEN 當 U+7576 n_ctx=4 :: p2-leven:' lokaal 當地的' | p2-leven:'天氣可能危險，要當心' | p7-taal:'黃色意味著：當心，天氣可能危險' | p8-toets:' — 黃色代碼：當心'
+  UNSEEN 疲 U+75B2 n_ctx=4 :: p6-verdieping:'eheid 預警疲勞 ·' | p8-toets:'. A — 預警疲勞：警告太多導致' | p8-toets:'eid = 預警疲勞' | p8-toets:'. B — 預警疲勞：警告太多導致'
+  UNSEEN 皇 U+7687 n_ctx=2 :: p8-toets:'50. B — 皇家貝蒂斯 1–0' | p8-toets:'25. B — 皇家貝蒂斯 1–0'
+  UNSEEN 直 U+76F4 n_ctx=1 :: p7-taal:' boom；複數直接用'
+  UNSEEN 省 U+7701 n_ctx=2 :: p8-toets:'本地，不針對整個省' | p8-toets:'以前預警針對整個省'
+  UNSEEN 知 U+77E5 n_ctx=1 :: p8-toets:' — 10 人不知道'
+  UNSEEN 碼 U+78BC n_ctx=5 :: p2-leven:'用顏色代碼和日期填空。' | p7-taal:'預警代碼不是禁令，而是一' | p8-toets:'el — 黃色代碼：當心' | p8-toets:'je — 橙色代碼：危險' | p8-toets:'NMI 說：看代碼旁邊的文字'
+  UNSEEN 祈 U+7948 n_ctx=1 :: p8-toets:'code. — 祈使句：動詞在首位'
+  UNSEEN 禁 U+7981 n_ctx=1 :: p7-taal:'預警代碼不是禁令，而是一條建議'
+  UNSEEN 科 U+79D1 n_ctx=6 :: p1-voorpagina:'deelt（週六科弗登' | p8-toets:'. 200 — 科弗登發放 200' | p8-toets:'8. B — 科弗登發放 200' | p8-toets:'12. B — 科弗登發放 200' | p8-toets:'14. B — 科弗登發放 200' | p8-toets:' Daan 住在科弗登'
+  UNSEEN 程 U+7A0B n_ctx=2 :: p1-voorpagina:'· 本週日程' | p1-voorpagina:'本週日程見第 2–4 版'
+  UNSEEN 種 U+7A2E n_ctx=6 :: p1-voorpagina:'planten 種樹 · besp' | p2-leven:'氣候週你做什麼？種樹、節約能源還是' | p2-leven:'eur? · 每種顏色是什麼意思' | p7-taal:'種樹；bespar' | p7-taal:'秋天是種樹的最好時節。 ' | p8-toets:'anten = 種'
+  UNSEEN 稿 U+7A3F n_ctx=1 :: p7-taal:'截稿時未收到真實來信'
+  UNSEEN 積 U+7A4D n_ctx=2 :: p4-sport:'e stand 積分榜。' | p8-toets:'stand = 積分榜'
+  UNSEEN 籍 U+7C4D n_ctx=2 :: p3-cultuur:' 博物館之夜、書籍與藝術' | p8-toets:'rder 結合書籍與音樂'
+  UNSEEN 紅 U+7D05 n_ctx=3 :: p8-toets:'13. C — 紅色預警：非常危險' | p8-toets:' 4–1 贏林肯紅魔' | p8-toets:'90. C — 紅色：非常危險，非'
+  UNSEEN 納 U+7D0D n_ctx=1 :: p8-toets:' 輸給薩格勒布迪納摩'
+  UNSEEN 績 U+7E3E n_ctx=2 :: p4-sport:'balans 成績單、總結 ·' | p8-toets:'lans = 成績單、總結'
+  UNSEEN 繼 U+7E7C n_ctx=1 :: p5-jongeren:'ing（下週這裡繼續報導進展）'
+  UNSEEN 續 U+7E8C n_ctx=2 :: p5-jongeren:'ng（下週這裡繼續報導進展）' | p8-toets:'37. 氣候週持續七天。 — 對照'
+  UNSEEN 考 U+8003 n_ctx=2 :: p5-jongeren:'、考驗 · stem' | p8-toets:' = 比賽項目、考驗（de）'
+  UNSEEN 而 U+800C n_ctx=1 :: p7-taal:'警代碼不是禁令，而是一條建議。 ('
+  UNSEEN 肯 U+80AF n_ctx=1 :: p8-toets:'特 4–1 贏林肯紅魔'
+  UNSEEN 腳 U+8173 n_ctx=1 :: p8-toets:'fiets = 腳踏車'
+  UNSEEN 致 U+81F4 n_ctx=2 :: p8-toets:'疲勞：警告太多導致不再注意' | p8-toets:'疲勞：警告太多導致不再注意'
+  UNSEEN 舊 U+820A n_ctx=1 :: p8-toets:' C — 扎安丹舊貨市場約 250'
+  UNSEEN 色 U+8272 n_ctx=11 :: p2-leven:' · 氣象預警顏色' | p2-leven:'r? · 每種顏色是什麼意思' | p2-leven:'用顏色代碼和日期填空。' | p6-verdieping:'問題：橙色預警時你會怎麼做' | p7-taal:'黃色意味著：當心，天' | p8-toets:'3. C — 紅色預警：非常危險，'
+  UNSEEN 芬 U+82AC n_ctx=2 :: p8-toets:':15 — 海倫芬–費耶諾德 11' | p8-toets:'1:15 是海倫芬–費耶諾'
+  UNSEEN 茲 U+8332 n_ctx=2 :: p8-toets:' — 發放地點在茲韋洛' | p8-toets:' — 發放地點在茲韋洛'
+  UNSEEN 落 U+843D n_ctx=3 :: p5-jongeren:'、音樂節與設計週落幕' | p8-toets:'月 25 日週日落幕' | p8-toets:' 月 25 日已落幕'
+  UNSEEN 著 U+8457 n_ctx=2 :: p7-taal:'黃色意味著：當心，天氣可能' | p8-toets:'. 橙色預警意味著：做好準備。 —'
+  UNSEEN 蒂 U+8482 n_ctx=2 :: p8-toets:' B — 皇家貝蒂斯 1–0 贏費' | p8-toets:' B — 皇家貝蒂斯 1–0 贏費'
+  UNSEEN 薩 U+85A9 n_ctx=1 :: p8-toets:'C 2–4 輸給薩格勒布迪納摩'
+  UNSEEN 虛 U+865B n_ctx=1 :: p6-verdieping:'練習數據：虛構數字，僅供練習'
+  UNSEEN 術 U+8853 n_ctx=2 :: p3-cultuur:'館之夜、書籍與藝術' | p8-toets:' — PAN 藝術博覽會到 11 '
+  UNSEEN 覽 U+89BD n_ctx=4 :: p3-cultuur:'eiding 導覽 · het t' | p8-toets:' PAN 藝術博覽會到 11 月 ' | p8-toets:'ding = 導覽' | p8-toets:' 在 RAI 展覽中心'
+  UNSEEN 認 U+8A8D n_ctx=1 :: p7-taal:'d dat… 我認為；Volgen'
+  UNSEEN 誰 U+8AB0 n_ctx=1 :: p5-jongeren:'jft（和朋友猜誰能留到最後）'
+  UNSEEN 警 U+8B66 n_ctx=21 :: p1-voorpagina:'chuwing 警告、預警。' | p2-leven:'huwing 預警 · lokaa' | p2-leven:'MI · 氣象預警顏色' | p2-leven:'預警針對你所在的地區' | p6-verdieping:'MI · 氣象預警深度解讀' | p6-verdieping:'oeheid 預警疲勞 ·'
+  UNSEEN 議 U+8B70 n_ctx=3 :: p6-verdieping:'advies 建議、忠' | p7-taal:'禁令，而是一條建議。 (Pagin' | p8-toets:'vies = 建議（het）'
+  UNSEEN 象 U+8C61 n_ctx=3 :: p2-leven:'KNMI · 氣象預警顏色' | p6-verdieping:'KNMI · 氣象預警深度解讀' | p6-verdieping:'roloog 氣象學家 ·'
+  UNSEEN 貝 U+8C9D n_ctx=2 :: p8-toets:'. B — 皇家貝蒂斯 1–0 贏' | p8-toets:'. B — 皇家貝蒂斯 1–0 贏'
+  UNSEEN 貨 U+8CA8 n_ctx=1 :: p8-toets:'C — 扎安丹舊貨市場約 250 '
+  UNSEEN 跑 U+8DD1 n_ctx=1 :: p8-toets:'諾德 24 分領跑'
+  UNSEEN 路 U+8DEF n_ctx=1 :: p8-toets:'危險，非必要不上路'
+  UNSEEN 踏 U+8E0F n_ctx=1 :: p8-toets:'iets = 腳踏車'
+  UNSEEN 軟 U+8EDF n_ctx=1 :: p8-toets:'chte = 柔軟的（土壤）'
+  UNSEEN 輕 U+8F15 n_ctx=2 :: p6-verdieping:'？（100 名年輕人' | p8-toets:' — 45 名年輕人選擇待在家裡'
+  UNSEEN 輸 U+8F38 n_ctx=2 :: p8-toets:'NEC 2–4 輸給薩格勒布迪納摩' | p8-toets:'NEC 2–4 輸了'
+  UNSEEN 迎 U+8FCE n_ctx=1 :: p7-taal:'，非真實來信。歡迎寄來你的'
+  UNSEEN 迪 U+8FEA n_ctx=1 :: p8-toets:'4 輸給薩格勒布迪納摩'
+  UNSEEN 這 U+9019 n_ctx=1 :: p5-jongeren:' ging（下週這裡繼續報導進展）'
+  UNSEEN 邊 U+908A n_ctx=1 :: p8-toets:'I 說：看代碼旁邊的文字'
+  UNSEEN 那 U+90A3 n_ctx=1 :: p5-jongeren:'在那裡決出）'
+  UNSEEN 量 U+91CF n_ctx=1 :: p2-leven:'非常危險，儘量待在室內'
+  UNSEEN 針 U+91DD n_ctx=3 :: p2-leven:'預警針對你所在的地區' | p8-toets:'. B — 預警針對本地，不針對整' | p8-toets:'B — 以前預警針對整個省'
+  UNSEEN 長 U+9577 n_ctx=4 :: p1-voorpagina:'氣候」：我們周圍長期的天氣與自然。' | p7-taal:'maat 氣候（長期）；een b' | p7-taal:'氣候是長期的天氣自然，不' | p8-toets:' B — 氣候是長期的天氣與自然'
+  UNSEEN 韋 U+97CB n_ctx=2 :: p8-toets:'— 發放地點在茲韋洛' | p8-toets:'— 發放地點在茲韋洛'
+  UNSEEN 響 U+97FF n_ctx=1 :: p7-taal:'，但對每個人的影響各不相同。 (P'
+  UNSEEN 項 U+9805 n_ctx=3 :: p5-jongeren:'eld（注意比賽項目：分數' | p5-jongeren:'proef 比賽項目' | p8-toets:'oef = 比賽項目、考驗（de）'
+  UNSEEN 順 U+9806 n_ctx=1 :: p7-taal:'刊登示例信，承諾順延 VOL.3。'
+  UNSEEN 領 U+9818 n_ctx=2 :: p8-toets:'耶諾德 24 分領跑' | p8-toets:' B — 他週六領了一棵免費灌木'
+  UNSEEN 顏 U+984F n_ctx=3 :: p2-leven:'I · 氣象預警顏色' | p2-leven:'ur? · 每種顏色是什麼意思' | p2-leven:'用顏色代碼和日期填空'
+  UNSEEN 驗 U+9A57 n_ctx=2 :: p5-jongeren:'、考驗 · stemm' | p8-toets:'= 比賽項目、考驗（de）'
+  UNSEEN 魔 U+9B54 n_ctx=1 :: p8-toets:'4–1 贏林肯紅魔'
+  UNSEEN 黃 U+9EC3 n_ctx=2 :: p7-taal:'黃色意味著：當心，' | p8-toets:' geel — 黃色代碼：當心'
+--- all occurrences of 只 ---
+  p8-toets: '76. gaat winnen — gaat winnen = 會贏（只是猜測）'
+
+=== B. non-CJK residual (freeze strings, CJK stripped) ===
+page 1: residual added={'De Lucerna VOL.2': 1, '': 2} removed={'DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN HET ECHTE NEDERLAND, IN HET NEDERLANDS': 1, 'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1, '“”': 1}
+page 2: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 3: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 4: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 5: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 6: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 7: residual added={'De Lucerna VOL.2': 1} removed={'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1}
+page 8: residual added={'ANTWOORDEN 1–8': 1, 'De Lucerna VOL.2': 1, '1': 1, '2': 1, '3': 1, '4': 1, '5': 1, '6': 1, '7': 1, '8': 1} removed={'ANTWOORDEN': 1, 'De Lucerna VOL.2 LUCERNA DUTCH WEEKLY': 1, 'PAGINA 1': 1, 'PAGINA 2': 1, 'PAGINA 3': 1, 'PAGINA 4': 1, 'PAGINA 5': 1, 'PAGINA 6': 1, 'PAGINA 7': 1, 'PAGINA 8': 1}
+
+=== C. geometry non-text multiset core vs edition ===
+p1-voorpagina: core 29 edition 29 equal=True
+p2-leven: core 37 edition 37 equal=True
+p3-cultuur: core 33 edition 33 equal=True
+p4-sport: core 33 edition 33 equal=True
+p5-jongeren: core 33 edition 33 equal=True
+p6-verdieping: core 36 edition 36 equal=True
+p7-taal: core 25 edition 25 equal=True
+p8-toets: core 49 edition 49 equal=True
+
+=== D. P7 word box ===
+core has definition verbatim: False
+edition has definition verbatim: False
+  ed meedoen line: 'werkwoorden: meedoen (deed mee,'
+  ed meedoen line: 'meedoen 參加：ik doe mee；opruimen 收拾'
+  ed gloss line: 'meedoen 參加：ik doe mee；opruimen 收拾'
+  ed meedoen line: 'Ik ___ (meedoen) aan de Klimaatweek.'
+  ed meedoen line: 'meedoen.» «Het lijkt me dat lokaal'
+  ed meedoen line: '___ mij moet iedereen meedoen aan de'
+  ed meedoen line: '«Ik vind dat iedereen moet meedoen» is...'
+  ed meedoen line: '«meedoen» betekent: deelnemen,'
+  ed meedoen line: 'meedoen = 參加、參與：氣候週全荷蘭都參'
+  ed gloss line: 'meedoen = 參加、參與：氣候週全荷蘭都參'
+
+=== E. P7 quotes + labels ===
+--- core P7 texts (last 40) ---
+    'erbij zijn. In de Klimaatweek doet'
+    'heel Nederland mee.'
+    'meedoen = 参加、参与：气候周全荷兰都参'
+    '加。'
+    'BRIEVEN VAN LEZERS'
+    '«Hallo! Ik ben Li en ik leer'
+    'Nederlands in Shanghai. In de'
+    'Klimaatweek plant ik een boom op'
+    'mijn balkon!» — Li (voorbeeldbrief'
+    'van de redactie)'
+    'Ter perse: nog geen echte brieven of'
+    'beste pagina-8-teksten binnen —'
+    'daarom dit voorbeeld; belofte naar'
+    'VOL.3.'
+    '截稿时未收到真实来信或第 8 版最佳作文，'
+    '刊登示例信，承诺顺延 VOL.3。'
+    '编辑部示例信，非真实来信。欢迎寄来你的'
+    '真实来信和第 8 版最佳作文，VOL.3 刊登！'
+    'ZINNEN VAN DE WEEK · 本周金句（逐字摘自本期文章）'
+    '«Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland»'
+    '从 11 月 2 日周一到 8 日周日，荷兰是气候周。 (Pagina 1)'
+    '«De herfst is de beste tijd om te planten»'
+    '秋天是种树的最好时节。 (Pagina 1)'
+    '«Geel betekent: let op, het weer kan gevaarlijk zijn»'
+    '黄色意味着：当心，天气可能危险。 (Pagina 2)'
+    "«Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts»"
+    '70 多家博物馆从晚上 19 点开放到凌晨 2 点。 (Pagina 3)'
+    '«Ajax won donderdag 22 oktober met 2–0 van Atalanta»'
+    '阿贾克斯 10 月 22 日周四 2–0 战胜亚特兰大。 (Pagina 4)'
+    '«Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur»'
+    '11 月 1 日周日，《荒岛远征》在 RTL 4 开播，20 点。 (Pagina 5)'
+    '«Een code is geen verbod, maar een advies»'
+    '预警代码不是禁令，而是一条建议。 (Pagina 6)'
+    '«Het weer is van ons allemaal, maar het raakt ons allemaal anders»'
+    '天气属于我们所有人，但对每个人的影响各不相同。 (Pagina 6)'
+    'VOLGENDE WEEK · 下期预告 (VOL.3)'
+    'Zondag 15 november komt Sinterklaas aan in Amsterdam. En woensdag 11 november is het Sint-Maarten: kinderen gaan met lampionnen langs de deuren. Verder: jullie'
+    'brieven en de beste teksten van pagina 8. Tot maandag!'
+    'De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+    '第 7 版 / 共 8 版'
+--- edition P7 texts (last 40) ---
+    'erbij zijn. In de Klimaatweek doet'
+    'heel Nederland mee.'
+    'meedoen = 參加、參與：氣候週全荷蘭都參'
+    '加。'
+    'BRIEVEN VAN LEZERS'
+    '«Hallo! Ik ben Li en ik leer'
+    'Nederlands in Shanghai. In de'
+    'Klimaatweek plant ik een boom op'
+    'mijn balkon!» — Li (voorbeeldbrief'
+    'van de redactie)'
+    'Ter perse: nog geen echte brieven of'
+    'beste pagina-8-teksten binnen —'
+    'daarom dit voorbeeld; belofte naar'
+    'VOL.3.'
+    '截稿時未收到真實來信或第 8 版最佳作文，'
+    '刊登示例信，承諾順延 VOL.3。'
+    '編輯部示例信，非真實來信。歡迎寄來你的'
+    '真實來信和第 8 版最佳作文，VOL.3 刊登！'
+    'ZINNEN VAN DE WEEK · 本週金句（逐字摘自本期文章）'
+    '«Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland»'
+    '從 11 月 2 日週一到 8 日週日，荷蘭是氣候週。 (Pagina 1)'
+    '«De herfst is de beste tijd om te planten»'
+    '秋天是種樹的最好時節。 (Pagina 1)'
+    '«Geel betekent: let op, het weer kan gevaarlijk zijn»'
+    '黃色意味著：當心，天氣可能危險。 (Pagina 2)'
+    "«Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts»"
+    '70 多家博物館從晚上 19 點開放到凌晨 2 點。 (Pagina 3)'
+    '«Ajax won donderdag 22 oktober met 2–0 van Atalanta»'
+    '阿賈克斯 10 月 22 日週四 2–0 戰勝亞特蘭大。 (Pagina 4)'
+    '«Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur»'
+    '11 月 1 日週日，《荒島遠征》在 RTL 4 開播，20 點。 (Pagina 5)'
+    '«Een code is geen verbod, maar een advies»'
+    '預警代碼不是禁令，而是一條建議。 (Pagina 6)'
+    '«Het weer is van ons allemaal, maar het raakt ons allemaal anders»'
+    '天氣屬於我們所有人，但對每個人的影響各不相同。 (Pagina 6)'
+    'VOLGENDE WEEK · 下期預告 (VOL.3)'
+    'Zondag 15 november komt Sinterklaas aan in Amsterdam. En woensdag 11 november is het Sint-Maarten: kinderen gaan met lampionnen langs de deuren. Verder: jullie'
+    'brieven en de beste teksten van pagina 8. Tot maandag!'
+    'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+    '第 7 版 / 共 8 版'
+
+=== F. gloss counts P2-P6 (rendered gloss lines split on ·) ===
+p2-leven: core lines=11 items=[2, 3, 2, 2, 3, 3, 2, 2, 2, 2, 3]
+p2-leven: ed   lines=11 items=[2, 3, 2, 2, 3, 3, 2, 2, 2, 2, 4]
+    ed: 'LEVEN · 生活'
+    ed: 'NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步講氣候週'
+    ed: 'ZO ONTHOUD JE HET · 口訣'
+    ed: '譯注｜het klimaat 氣候 · wortelen 生根'
+    ed: '· besparen 節約 · de verwarming 暖氣'
+    ed: '· de waarschuwing 預警 · lokaal 當地的'
+    ed: 'EN JIJ? · 說說你自己'
+    ed: 'DE CODES VAN HET KNMI · 氣象預警顏色'
+    ed: 'Wat betekent elke kleur? · 每種顏色是什麼意思'
+    ed: 'OEFENINGEN · 第 2 版練習'
+    ed: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+p3-cultuur: core lines=7 items=[2, 3, 2, 3, 2, 2, 3]
+p3-cultuur: ed   lines=7 items=[2, 3, 2, 3, 2, 2, 4]
+    ed: 'CULTUUR · 文化'
+    ed: 'NIVEAU A2 → B1 · Museumnacht, boeken en kunst · 博物館之夜、書籍與藝術'
+    ed: '譯注｜het museum 博物館 · de'
+    ed: 'rondleiding 導覽 · het tijdslot 時間段 ·'
+    ed: 'tweedehands 二手的 · de beurs 展會、市'
+    ed: 'OEFENINGEN · 第 3 版練習'
+    ed: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+p4-sport: core lines=6 items=[2, 3, 3, 2, 2, 3]
+p4-sport: ed   lines=6 items=[2, 3, 3, 2, 2, 4]
+    ed: 'SPORT · 體育'
+    ed: 'NIVEAU B1 · Europese week en speelronde 12 · 歐戰週與第 12 輪'
+    ed: 'gelijkspelen 打平 · de speelronde 輪次 ·'
+    ed: 'de topper 焦點戰 · de stand 積分榜。'
+    ed: 'OEFENINGEN · 第 4 版練習'
+    ed: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+p5-jongeren: core lines=8 items=[2, 3, 2, 3, 2, 2, 2, 3]
+p5-jongeren: ed   lines=8 items=[2, 3, 2, 3, 2, 2, 2, 4]
+    ed: 'JONGEREN · 青年'
+    ed: 'NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒島節目開播、音樂節與設計週落幕'
+    ed: '譯注｜het eiland 島 · de proef 比賽項目'
+    ed: '、考驗 · stemmen 投票 · de aflevering'
+    ed: '（一）集 · voorbij 過去了、結束了。'
+    ed: 'EN JIJ? · 說說你自己'
+    ed: 'OEFENINGEN · 第 5 版練習'
+    ed: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+p6-verdieping: core lines=8 items=[2, 3, 2, 2, 2, 2, 2, 3]
+p6-verdieping: ed   lines=8 items=[2, 3, 2, 2, 2, 2, 2, 4]
+    ed: 'VERDIEPING · 深讀'
+    ed: 'NIVEAU B2 · De codes van het KNMI · 氣象預警深度解讀'
+    ed: 'vastzetten 固定好 · het advies 建議、忠'
+    ed: '告 · de voorstander 支持者。'
+    ed: 'DE GRAFIEK · 圖表（練習數據）'
+    ed: 'VOOR OF TEGEN? · 正方還是反方'
+    ed: 'OEFENINGEN · 第 6 版練習'
+    ed: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+
+=== G. P8 printed lines ===
+core P8 text elements: 332, edition: 332
+#7 core: ['7. B — 气候周共 7 天（11 月 2–8 日）']
+#7 ed  : ['7. B — 氣候週共 7 天（11 月 2–8 日）']
+#70 core: ['70. eiland — eiland = 岛（het）']
+#70 ed  : ['70. eiland — eiland = 島（het）']
+#71 core: ['71. proef — proef = 比赛项目、考验（de）']
+#71 ed  : ['71. proef — proef = 比賽項目、考驗（de）']
+#76 core: ['76. gaat winnen — gaat winnen = 会赢（只是猜测）']
+#76 ed  : ['76. gaat winnen — gaat winnen = 會贏（只是猜測）']
+#96 core: ['96. advies — advies = 建议（het）']
+#96 ed  : ['96. advies — advies = 建議（het）']
+#137 core: ['137. 气候周持续七天。 — 对照第 1 版头条']
+#137 ed  : ['137. 氣候週持續七天。 — 對照第 1 版頭條']
+#138 core: ['138. 橙色预警意味着：做好准备。 — 第 2 版原句 · bereid je voor 做好']
+#138 ed  : ['138. 橙色預警意味著：做好準備。 — 第 2 版原句 · bereid je voor 做好']
+#148 core: ['148. B — zachte = 柔软的（土壤）']
+#148 ed  : ['148. B — zachte = 柔軟的（土壤）']
+#150 core: ['150. ✓ 范文见本版 H 区（87 词）']
+#150 ed  : ['150. ✓ 範文見本版 H 區（87 詞）']
+#139 core: ['139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意时间表']
+#139 ed  : ['139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意時間表']
+#140 core: ['140. Ik doe mee aan de Klimaatweek. — meedoen 是可分动词']
+#140 ed  : ['140. Ik doe mee aan de Klimaatweek. — meedoen 是可分動詞']
+--- P8 separators / header ---
+  ed: 'TOETS EN ANTWOORDEN · 練習與答案'
+  ed: '第 8 版 · De grote toets van de week + alle antwoorden'
+  ed: '寫作題（無唯一答案）；範文（87 詞）見下。'
+  ed: 'ANTWOORDEN · 全部答案與簡析（第 1–8 版）'
+  ed: '— 第 1 版 —'
+  ed: '— 第 2 版 —'
+  ed: '— 第 3 版 —'
+  ed: '— 第 4 版 —'
+  ed: '— 第 5 版 —'
+  ed: '— 第 6 版 —'
+  ed: '— 第 7 版 —'
+  ed: '— 第 8 版 —'
+  ed: '137. 氣候週持續七天。 — 對照第 1 版頭條'
+  ed: '138. 橙色預警意味著：做好準備。 — 第 2 版原句 · bereid je voor 做好'
+  ed: '第 8 版 / 共 8 版'
+  core: 'TOETS EN ANTWOORDEN · 练习与答案'
+  core: 'ANTWOORDEN · 参考答案 — 按版面分页排列，找到题号即可'
+  core: '— PAGINA 1 —'
+  core: '— PAGINA 2 —'
+  core: '— PAGINA 3 —'
+  core: '— PAGINA 4 —'
+  core: '— PAGINA 5 —'
+  core: '— PAGINA 6 —'
+  core: '— PAGINA 7 —'
+  core: '— PAGINA 8 —'
+
+=== H. registry diff ===
+registry types: <class 'list'>  | items: 0 0
+registry top-level keys core: 
+registry top-level keys ed: 
+registry KEY diffs: []
+core registry notes ending with fullwidth ）: [] count 0
+ed registry notes ending with fullwidth ）: [] count 0
+
+=== I. reader garden P7 ===
+  ed: 'BRIEVEN VAN LEZERS'
+  ed: 'mijn balkon!» — Li (voorbeeldbrief'
+  ed: 'daarom dit voorbeeld; belofte naar'
+  ed: 'VOL.3.'
+  ed: '截稿時未收到真實來信或第 8 版最佳作文，'
+  ed: '刊登示例信，承諾順延 VOL.3。'
+  ed: '編輯部示例信，非真實來信。歡迎寄來你的'
+  ed: '真實來信和第 8 版最佳作文，VOL.3 刊登！'
+  ed: 'VOLGENDE WEEK · 下期預告 (VOL.3)'
+  core: 'BRIEVEN VAN LEZERS'
+  core: 'mijn balkon!» — Li (voorbeeldbrief'
+  core: 'daarom dit voorbeeld; belofte naar'
+  core: 'VOL.3.'
+  core: '刊登示例信，承诺顺延 VOL.3。'
+  core: '真实来信和第 8 版最佳作文，VOL.3 刊登！'
+  core: 'VOLGENDE WEEK · 下期预告 (VOL.3)'
+
+=== J. furniture vs W43 ===
+W45 ed P1 furniture: [({'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK TC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'}, '荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'), ({'x': '65', 'y': '752.8', 'font-family': 'Noto Sans CJK TC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'Van de redactie van De Lucerna · Leesniveau: A2'), ({'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK TC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文')]
+W43 ed P1 furniture: [({'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK TC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'}, '荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'), ({'x': '65', 'y': '805.5999999999999', 'font-family': 'Noto Sans CJK TC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'Van de redactie van De Lucerna · Leesniveau: A2'), ({'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK TC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文')]
+W45 core P1 furniture: [({'x': '65', 'y': '752.8', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'Van de redactie van De Lucerna · Leesniveau: A2'), ({'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY')]
+  W45ed y~372: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK TC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'} '荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+  W43ed y~372: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK TC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'} '荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+  W45core y~372: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK SC', 'font-size': '19', 'fill': '#57523f', 'text-anchor': 'middle'} 'DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS'
+footers all pages (ed):
+  p1-voorpagina: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p1-voorpagina: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p2-leven: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p2-leven: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p3-cultuur: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p3-cultuur: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p4-sport: 'Van de redactie van De Lucerna · Leesniveau:'
+  p4-sport: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p5-jongeren: 'Van de redactie van De Lucerna · Leesniveau:'
+  p5-jongeren: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p6-verdieping: 'Van de redactie van De Lucerna · Leesniveau:'
+  p6-verdieping: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p7-taal: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p8-toets: 'De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+footers W43:
+  p1-voorpagina: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p1-voorpagina: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p2-leven: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p2-leven: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p3-cultuur: 'Van de redactie van De Lucerna · Leesniveau: A2'
+  p3-cultuur: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p4-sport: 'Van de redactie van De Lucerna · Leesniveau:'
+  p4-sport: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p5-jongeren: 'Van de redactie van De Lucerna · Leesniveau:'
+  p5-jongeren: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p6-verdieping: 'Van de redactie van De Lucerna · Leesniveau:'
+  p6-verdieping: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p7-taal: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+  p8-toets: 'De Lucerna · 荷語週報 VOL.1 · 正文荷語 · 講解繁體中文'
+
+=== K. credits / images ===
+p1-voorpagina core: images=1 credits=['Foto: Vovogov90 — CC0']
+p1-voorpagina ed: images=1 credits=['Foto: Vovogov90 — CC0']
+p2-leven core: images=1 credits=['Foto: Nationaal Archief — CC0']
+p2-leven ed: images=1 credits=['Foto: Nationaal Archief — CC0']
+p3-cultuur core: images=1 credits=['Foto: W. Punt / Anefo, Nationaal Archief — CC0']
+p3-cultuur ed: images=1 credits=['Foto: W. Punt / Anefo, Nationaal Archief — CC0']
+p4-sport core: images=1 credits=['Foto: Spaarnestad Photo / Wikimedia Commons — publiek']
+p4-sport ed: images=1 credits=['Foto: Spaarnestad Photo / Wikimedia Commons — publiek']
+
+=== L. lone punctuation structures ===
+  p6-verdieping core idx77: '）' prev='问题：橙色预警时你会怎么做？（100 名年轻人' next='VOOR OF TEGEN? · 正方还是反方'
+  p6-verdieping ed idx77: '）' prev='問題：橙色預警時你會怎麼做？（100 名年輕人' next='VOOR OF TEGEN? · 正方還是反方'
+  p7-taal core idx16: '。' prev='种树；besparen 节约；de waarschuwing 预警' next='A2'
+  p7-taal core idx48: '：wij hebben opgeruimd；vastzetten 固定：' prev='meedoen 参加：ik doe mee；opruimen 收拾' next='zij zette vast。'
+  p7-taal ed idx16: '。' prev='種樹；besparen 節約；de waarschuwing 預警' next='A2'
+  p7-taal ed idx48: '：wij hebben opgeruimd；vastzetten 固定：' prev='meedoen 參加：ik doe mee；opruimen 收拾' next='zij zette vast。'
+
+=== M. P6 bars ===
+core chart-region rects: [('1473', '304', '180', '18', '#3e4c2a'), ('1473', '362', '100', '18', '#3e4c2a'), ('1473', '420', '80', '18', '#3e4c2a'), ('1473', '478', '40', '18', '#3e4c2a')]
+core chart labels:
+    'DE GRAFIEK · 图表（练习数据）' 1473 242.0 24 start
+    'Ik blijf thuis' 1473 294.0 19.5 start
+    '45' 1863 294.0 19.5 end
+    'Ik kijk eerst naar de tekst' 1473 352.0 19.5 start
+    '25' 1863 352.0 19.5 end
+    'Ik ga toch naar buiten' 1473 410.0 19.5 start
+    '20' 1863 410.0 19.5 end
+    'Ik weet het niet' 1473 468.0 19.5 start
+    '10' 1863 468.0 19.5 end
+    'OEFENDATA — verzonnen cijfers om mee' 1473 539.0 19 start
+    'te oefenen, geen echte enquête. Vraag:' 1473 564.84 19 start
+    'wat doe jij bij code oranje? (100 jongeren)' 1473 590.6800000000001 19 start
+    '练习数据：虚构数字，仅供练习，非真实调查。' 1473 635.0200000000001 18.5 start
+    '问题：橙色预警时你会怎么做？（100 名年轻人' 1473 659.44 18.5 start
+    '）' 1473 683.86 18.5 start
+ed chart-region rects: [('1473', '304', '180', '18', '#3e4c2a'), ('1473', '362', '100', '18', '#3e4c2a'), ('1473', '420', '80', '18', '#3e4c2a'), ('1473', '478', '40', '18', '#3e4c2a')]
+ed chart labels:
+    'DE GRAFIEK · 圖表（練習數據）' 1473 242.0 24 start
+    'Ik blijf thuis' 1473 294.0 19.5 start
+    '45' 1863 294.0 19.5 end
+    'Ik kijk eerst naar de tekst' 1473 352.0 19.5 start
+    '25' 1863 352.0 19.5 end
+    'Ik ga toch naar buiten' 1473 410.0 19.5 start
+    '20' 1863 410.0 19.5 end
+    'Ik weet het niet' 1473 468.0 19.5 start
+    '10' 1863 468.0 19.5 end
+    'OEFENDATA — verzonnen cijfers om mee' 1473 539.0 19 start
+    'te oefenen, geen echte enquête. Vraag:' 1473 564.84 19 start
+    'wat doe jij bij code oranje? (100 jongeren)' 1473 590.6800000000001 19 start
+    '練習數據：虛構數字，僅供練習，非真實調查。' 1473 635.0200000000001 18.5 start
+    '問題：橙色預警時你會怎麼做？（100 名年輕人' 1473 659.44 18.5 start
+    '）' 1473 683.86 18.5 start

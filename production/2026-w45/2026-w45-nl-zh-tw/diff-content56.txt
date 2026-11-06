@@ -1,0 +1,198 @@
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-core/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-zh-tw/svg")
+12c12
+< p.band("JONGEREN · 青年", "De Lucerna", "NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒岛节目开播、音乐节与设计周落幕")
+---
+> p.band("JONGEREN · 青年", "De Lucerna", "NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒島節目開播、音樂節與設計週落幕")
+24,27c24,27
+<     ("1. Kijk zondag om 20:00 uur op RTL 4（周日晚 20:00 在 RTL 4 收看）", "serif", False, INK, 21, 1.36),
+<     ("2. Let op de proeven: daar worden de punten verdeeld（注意比赛项目：分数在那里决出）", "serif", False, INK, 21, 1.36),
+<     ("3. Raad met vrienden wie het langst blijft（和朋友猜谁能留到最后）", "serif", False, INK, 21, 1.36),
+<     ("4. Volgende week lees je hier hoe het verder ging（下周这里继续报道进展）", "serif", False, INK, 21, 1.36),
+---
+>     ("1. Kijk zondag om 20:00 uur op RTL 4（週日晚 20:00 在 RTL 4 收看）", "serif", False, INK, 21, 1.36),
+>     ("2. Let op de proeven: daar worden de punten verdeeld（注意比賽專案：分數在那裡決出）", "serif", False, INK, 21, 1.36),
+>     ("3. Raad met vrienden wie het langst blijft（和朋友猜誰能留到最後）", "serif", False, INK, 21, 1.36),
+>     ("4. Volgende week lees je hier hoe het verder ging（下週這裡繼續報道進展）", "serif", False, INK, 21, 1.36),
+29c29
+< f.gloss("het eiland 岛 · de proef 比赛项目、考验 · stemmen 投票 · de aflevering （一）集 · voorbij 过去了、结束了。")
+---
+> f.gloss("het eiland 島 · de proef 比賽專案、考驗 · stemmen 投票 · de aflevering （一）集 · voorbij 過去了、結束了。")
+47c47
+< eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你看《荒岛远征》吗，还是更爱自己出门活动？写两句荷兰语寄来。", "sans", False, 20, CW - 44)) * 29 + 20
+---
+> eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你看《荒島遠征》嗎，還是更愛自己出門活動？寫兩句荷蘭語寄來。", "sans", False, 20, CW - 44)) * 29 + 20
+50c50
+< p.text(ix + 22, yy3 + 26, "EN JIJ? · 说说你自己", 24, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "EN JIJ? · 說說你自己", 24, "sans", True, OLIVE)
+53c53
+< p.para(ix + 22, yy3 + 20, "你看《荒岛远征》吗，还是更爱自己出门活动？写两句荷兰语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
+---
+> p.para(ix + 22, yy3 + 20, "你看《荒島遠征》嗎，還是更愛自己出門活動？寫兩句荷蘭語寄來。", 20, "sans", False, GREY, CW - 44, 1.42)
+59,60c59,60
+< p.text(MX, ey + 28, "OEFENINGEN · 第 5 版练习", 28, "sans", True, OLIVE)
+< p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, ey + 28, "OEFENINGEN · 第 5 版練習", 28, "sans", True, OLIVE)
+> p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+63,64c63,64
+< e.bridge("读第 5 版文章，选出正确答案。")
+< e.ex("B1", "单选", "B", "Robinson 在 11 月 1 日周日开始",
+---
+> e.expl("讀第 5 版文章，選出正確答案。")
+> e.ex("B1", "單選", "B", "Robinson 在 11 月 1 日週日開始",
+66c66
+< e.ex("B1", "单选", "A", "19 位参赛者",
+---
+> e.ex("B1", "單選", "A", "19 位參賽者",
+68c68
+< e.ex("B1", "单选", "C", "ADE 今年 30 年",
+---
+> e.ex("B1", "單選", "C", "ADE 今年 30 年",
+70c70
+< e.ex("B1", "单选", "B", "设计周约 2.500 位设计师",
+---
+> e.ex("B1", "單選", "B", "設計週約 2.500 位設計師",
+72c72
+< e.ex("B1", "单选", "A", "ADE 与 DDW 在 10 月 25 日周日落幕",
+---
+> e.ex("B1", "單選", "A", "ADE 與 DDW 在 10 月 25 日週日落幕",
+75c75
+< e.bridge("用方框里的词填空。")
+---
+> e.expl("用方框裡的詞填空。")
+77c77
+< e.ex("B1", "完成句子", "eiland", "eiland = 岛（het）",
+---
+> e.ex("B1", "完成句子", "eiland", "eiland = 島（het）",
+79c79
+< e.ex("B1", "完成句子", "proef", "proef = 比赛项目、考验（de）",
+---
+> e.ex("B1", "完成句子", "proef", "proef = 比賽專案、考驗（de）",
+85c85
+< e.ex("B1", "完成句子", "voorbij", "voorbij = 过去了、结束了",
+---
+> e.ex("B1", "完成句子", "voorbij", "voorbij = 過去了、結束了",
+87c87
+< e.ex("B1", "完成句子", "kandidaten", "kandidaat 复数：kandidaten",
+---
+> e.ex("B1", "完成句子", "kandidaten", "kandidaat 複數：kandidaten",
+90,91c90,91
+< e.bridge("用 gaan + 不定式说将来。")
+< e.ex("B1", "完成句子", "gaat winnen", "gaat winnen = 会赢（只是猜测）",
+---
+> e.expl("用 gaan + 不定式說將來。")
+> e.ex("B1", "完成句子", "gaat winnen", "gaat winnen = 會贏（只是猜測）",
+97c97
+< e.ex("B1", "完成句子", "gaan zoeken", "zij (复数) → gaan zoeken",
+---
+> e.ex("B1", "完成句子", "gaan zoeken", "zij (複數) → gaan zoeken",
+100,105c100,105
+< e.ex("B1", "判断对错", "Waar", "对：11 月 1 日开始",
+<      "Expeditie Robinson begon op 1 november. Waar of niet waar?", instr="判断", size=20, gap=8)
+< e.ex("B1", "判断对错", "Niet waar", "错：ADE 今年 30 年",
+<      "ADE werd dit jaar 26 jaar. Waar of niet waar?", instr="判断", size=20, gap=8)
+< e.ex("B2", "判断对错", "Niet waar", "错：10 月 25 日已落幕",
+<      "De Design Week is nog bezig. Waar of niet waar?", instr="判断", size=20, gap=8)
+---
+> e.ex("B1", "判斷對錯", "Waar", "對：11 月 1 日開始",
+>      "Expeditie Robinson begon op 1 november. Waar of niet waar?", instr="判斷", size=20, gap=8)
+> e.ex("B1", "判斷對錯", "Niet waar", "錯：ADE 今年 30 年",
+>      "ADE werd dit jaar 26 jaar. Waar of niet waar?", instr="判斷", size=20, gap=8)
+> e.ex("B2", "判斷對錯", "Niet waar", "錯：10 月 25 日已落幕",
+>      "De Design Week is nog bezig. Waar of niet waar?", instr="判斷", size=20, gap=8)
+114c114
+< p.band("VERDIEPING · 深读", "De Lucerna", "NIVEAU B2 · De codes van het KNMI · 气象预警深度解读")
+---
+> p.band("VERDIEPING · 深讀", "De Lucerna", "NIVEAU B2 · De codes van het KNMI · 氣象預警深度解讀")
+126c126
+< f.gloss("de meteoroloog 气象学家 · waarschuwingsmoeheid 预警疲劳 · vastzetten 固定好 · het advies 建议、忠告 · de voorstander 支持者。")
+---
+> f.gloss("de meteoroloog 氣象學家 · waarschuwingsmoeheid 預警疲勞 · vastzetten 固定好 · het advies 建議、忠告 · de voorstander 支持者。")
+138c138
+< capcn = "练习数据：虚构数字，仅供练习，非真实调查。问题：橙色预警时你会怎么做？（100 名年轻人）"
+---
+> capcn = "練習數據：虛構數字，僅供練習，非真實調查。問題：橙色預警時你會怎麼做？（100 名年輕人）"
+142c142
+< p.text(ix + 22, yy3 + 26, "DE GRAFIEK · 图表（练习数据）", 24, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "DE GRAFIEK · 圖表（練習數據）", 24, "sans", True, OLIVE)
+162c162
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN? · 正方还是反方", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN? · 正方還是反方", 21, "sans", True, OLIVE)
+171,172c171,172
+< p.text(MX, ey + 28, "OEFENINGEN · 第 6 版练习", 28, "sans", True, OLIVE)
+< p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, ey + 28, "OEFENINGEN · 第 6 版練習", 28, "sans", True, OLIVE)
+> p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+175,176c175,176
+< e.bridge("看第 6 版图表（练习数据）回答。")
+< e.ex("B2", "完成句子", "45", "45 名年轻人选择待在家里",
+---
+> e.expl("看第 6 版圖表（練習數據）回答。")
+> e.ex("B2", "完成句子", "45", "45 名年輕人選擇待在家裡",
+178c178
+< e.ex("B2", "完成句子", "25", "25 人先看预警文字",
+---
+> e.ex("B2", "完成句子", "25", "25 人先看預警文字",
+184c184
+< e.ex("B2", "完成句子", "100", "图表共 100 人：45+25+20+10",
+---
+> e.ex("B2", "完成句子", "100", "圖表共 100 人：45+25+20+10",
+187,188c187,188
+< e.bridge("读第 6 版文章，选出正确答案。")
+< e.ex("B2", "单选", "B", "以前预警针对整个省",
+---
+> e.expl("讀第 6 版文章，選出正確答案。")
+> e.ex("B2", "單選", "B", "以前預警針對整個省",
+190c190
+< e.ex("B2", "单选", "B", "如今预警是本地的",
+---
+> e.ex("B2", "單選", "B", "如今預警是本地的",
+192c192
+< e.ex("B2", "单选", "C", "红色：非常危险，非必要不上路",
+---
+> e.ex("B2", "單選", "C", "紅色：非常危險，非必要不上路",
+194c194
+< e.ex("B2", "单选", "A", "预警疲劳：警告太多导致不再注意",
+---
+> e.ex("B2", "單選", "A", "預警疲勞：警告太多導致不再注意",
+196c196
+< e.ex("B2", "单选", "B", "KNMI 说：看代码旁边的文字",
+---
+> e.ex("B2", "單選", "B", "KNMI 說：看程式碼旁邊的文字",
+199c199
+< e.bridge("用方框里的词填空。")
+---
+> e.expl("用方框裡的詞填空。")
+203c203
+< e.ex("B2", "完成句子", "waarschuwingsmoeheid", "waarschuwingsmoeheid = 预警疲劳",
+---
+> e.ex("B2", "完成句子", "waarschuwingsmoeheid", "waarschuwingsmoeheid = 預警疲勞",
+207c207
+< e.ex("B2", "完成句子", "advies", "advies = 建议（het）",
+---
+> e.ex("B2", "完成句子", "advies", "advies = 建議（het）",
+210,211c210,211
+< e.bridge("把词组成正确的句子。")
+< e.ex("B2", "造句", "De waarschuwing geldt voor jouw stad.", "主语 + 动词 + 地点",
+---
+> e.expl("把片語成正確的句子。")
+> e.ex("B2", "造句", "De waarschuwing geldt voor jouw stad.", "主語 + 動詞 + 地點",
+213c213
+< e.ex("B2", "造句", "Kijk altijd naar de tekst bij de code.", "祈使句：动词在首位",
+---
+> e.ex("B2", "造句", "Kijk altijd naar de tekst bij de code.", "祈使句：動詞在首位",
+215c215
+< e.ex("B2", "造句", "Rood komt weinig voor.", "weinig voor = 很少出现",
+---
+> e.ex("B2", "造句", "Rood komt weinig voor.", "weinig voor = 很少出現",
+217c217
+< e.ex("B2", "造句", "Het weer raakt ons allemaal anders.", "raakt + 宾语 + 方式",
+---
+> e.ex("B2", "造句", "Het weer raakt ons allemaal anders.", "raakt + 賓語 + 方式",

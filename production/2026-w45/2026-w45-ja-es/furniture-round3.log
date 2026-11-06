@@ -1,0 +1,50 @@
+== W43-ja-es P1 masthead ==
+  y=248 size=168 weight=None fill=#28251d ink=(713.0..1237.0) width=524.0 :: 'Lucerna'
+  y=316 size=40 weight=700 fill=#28251d ink=(528.7..1421.2) width=892.5 :: '日本語版 · VOL.1 · 日本シリーズ · 紅葉 · 読書の秋'
+  y=356 size=19 weight=700 fill=#a4553a ink=(467.1..1482.9) width=1015.8 :: 'TEXTOS EN JAPONÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISP'
+  y=390 size=19 weight=None fill=#57523f ink=(715.2..1234.8) width=519.5 :: '日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で'
+  y=1598.9600000000003 size=24 weight=None fill=#28251d ink=(65.0..482.8) width=417.8 :: '『Lucerna』日本語版の第1号です。毎'
+  rule y=112 stroke=#b3a06a w=1.6 x=65..1885
+  rule y=406 stroke=#28251d w=3 x=65..1885
+  rule y=413 stroke=#28251d w=1.2 x=65..1885
+  dark bands: []
+== W43-ja-es footers (all pages) ==
+  p1-hyoushi.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.1 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p1-hyoushi.svg :: 'Página 1 de 8'
+  p2-kurashi.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.1 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p2-kurashi.svg :: 'Página 2 de 8'
+  p8-tesuto.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.1 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p8-tesuto.svg :: 'Página 8 de 8'
+== W45-core P1 masthead ==
+  y=262 size=168 weight=None fill=#28251d ink=(713.0..1237.0) width=524.0 :: 'Lucerna'
+  y=330 size=40 weight=700 fill=#28251d ink=(567.7..1382.2) width=814.5 :: '日本語版 · VOL.2 · 文化の日 · 紅葉 · 読書週間'
+  y=372 size=19 weight=None fill=#57523f ink=(715.2..1234.8) width=519.5 :: '日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で'
+  y=1705.8 size=25 weight=None fill=#28251d ink=(65.0..477.2) width=412.2 :: '『Lucerna』日本語版の第2号です。'
+  rule y=112 stroke=#b3a06a w=1.6 x=65..1885
+  rule y=392 stroke=#28251d w=3 x=65..1885
+  rule y=401 stroke=#28251d w=1.2 x=65..1885
+  dark bands: []
+== W45-core footers (all pages) ==
+  p1-hyoushi.svg :: 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+  p1-hyoushi.svg :: '第 1 版 / 共 8 版'
+  p2-kurashi.svg :: 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+  p2-kurashi.svg :: '第 2 版 / 共 8 版'
+  p8-tesuto.svg :: 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+  p8-tesuto.svg :: '第 8 版 / 共 8 版'
+== W45-ja-es P1 masthead ==
+  y=248 size=168 weight=None fill=#28251d ink=(713.0..1237.0) width=524.0 :: 'Lucerna'
+  y=316 size=40 weight=700 fill=#28251d ink=(567.7..1382.2) width=814.5 :: '日本語版 · VOL.2 · 文化の日 · 紅葉 · 読書週間'
+  y=356 size=19 weight=700 fill=#a4553a ink=(467.1..1482.9) width=1015.8 :: 'TEXTOS EN JAPONÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISP'
+  y=390 size=19 weight=None fill=#57523f ink=(715.2..1234.8) width=519.5 :: '日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で'
+  y=1705.8 size=25 weight=None fill=#28251d ink=(65.0..477.2) width=412.2 :: '『Lucerna』日本語版の第2号です。'
+  rule y=112 stroke=#b3a06a w=1.6 x=65..1885
+  rule y=406 stroke=#28251d w=3 x=65..1885
+  rule y=413 stroke=#28251d w=1.2 x=65..1885
+  dark bands: []
+== W45-ja-es footers (all pages) ==
+  p1-hyoushi.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.2 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p1-hyoushi.svg :: 'Página 1 de 8'
+  p2-kurashi.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.2 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p2-kurashi.svg :: 'Página 2 de 8'
+  p8-tesuto.svg :: 'Lucerna · SEMANARIO JAPONÉS VOL.2 · TEXTO EN JAPONÉS · EXPLICACIONES EN ESPAÑOL'
+  p8-tesuto.svg :: 'Página 8 de 8'

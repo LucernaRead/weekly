@@ -1,0 +1,32 @@
+{
+ "svgdir": "../files/weekly-report-w45-ja-core/svg",
+ "flags": [
+  {
+   "page": "p4-supotsu.svg",
+   "class": "BOXTITLE",
+   "text": "※確率は過去の記録のまとめです。",
+   "box": [
+    1473.0,
+    835.8,
+    1783.5,
+    855.1
+   ],
+   "detail": "ink crosses its box borders: bottom ink 855.1 > border 854.4",
+   "by": "rect@65"
+  },
+  {
+   "page": "p7-kotoba.svg",
+   "class": "BOXTITLE",
+   "text": "登收到的来信与佳作。",
+   "box": [
+    1473.0,
+    1712.4,
+    1673.0,
+    1731.4
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1731.4 > border 1722.1",
+   "by": "rect@130"
+  }
+ ],
+ "flag_count": 2
+}

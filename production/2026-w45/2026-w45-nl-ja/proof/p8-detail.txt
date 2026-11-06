@@ -1,0 +1,54 @@
+p8.py extracted-key diffs:
+ #3 method dash->paren core_key='7' ed_key='7 — ミュージアムナハトは11月7日'
+      core_seg='7 — 博物馆之夜在 11 月 7 日周六'
+      ed_seg  ='7 — ミュージアムナハトは11月7日（土）'
+ #7 method paren->paren core_key='B — 气候周共 7 天' ed_key='B — 気候週間は全7日間'
+      core_seg='B — 气候周共 7 天（11 月 2–8 日）'
+      ed_seg  ='B — 気候週間は全7日間（11月2–8日）'
+ #17 method paren->paren core_key='wortelen — wortelen = 生根' ed_key='wortelen — wortelen = 根付く'
+      core_seg='wortelen — wortelen = 生根（复数主语）'
+      ed_seg  ='wortelen — wortelen = 根付く（複数主語）'
+ #29 method dash->paren core_key='B' ed_key='B — ミュージアムナハトは11月7日'
+      core_seg='B — 博物馆之夜在 11 月 7 日周六'
+      ed_seg  ='B — ミュージアムナハトは11月7日（土）'
+ #70 method paren->paren core_key='eiland — eiland = 岛' ed_key='eiland — eiland = 島'
+      core_seg='eiland — eiland = 岛（het）'
+      ed_seg  ='eiland — eiland = 島（het）'
+ #71 method paren->paren core_key='proef — proef = 比赛项目、考验' ed_key='proef — proef = 競技・試練'
+      core_seg='proef — proef = 比赛项目、考验（de）'
+      ed_seg  ='proef — proef = 競技・試練（de）'
+ #76 method paren->paren core_key='gaat winnen — gaat winnen = 会赢' ed_key='gaat winnen — gaat winnen = 勝つだろう'
+      core_seg='gaat winnen — gaat winnen = 会赢（只是猜测）'
+      ed_seg  ='gaat winnen — gaat winnen = 勝つだろう（推測）'
+ #96 method paren->paren core_key='advies — advies = 建议' ed_key='advies — advies = 助言'
+      core_seg='advies — advies = 建议（het）'
+      ed_seg  ='advies — advies = 助言（het）'
+ #137 method dash->dash core_key='气候周持续七天。' ed_key='気候週間は7日間続く。'
+      core_seg='气候周持续七天。 — 对照第 1 版头条'
+      ed_seg  ='気候週間は7日間続く。 — 1ページの見出し参照'
+ #138 method dash->dash core_key='橙色预警意味着：做好准备。' ed_key='オレンジ警報は「備えよ」という意味だ。'
+      core_seg='橙色预警意味着：做好准备。 — 第 2 版原句 · bereid je voor 做好准备'
+      ed_seg  ='オレンジ警報は「備えよ」という意味だ。 — 2ページの原文 · bereid je voor 備えよ'
+ #148 method paren->paren core_key='B — zachte = 柔软的' ed_key='B — zachte = 柔らかい'
+      core_seg='B — zachte = 柔软的（土壤）'
+      ed_seg  ='B — zachte = 柔らかい（土）'
+ #150 method check->check core_key='✓' ed_key='✓'
+      core_seg='✓ 范文见本版 H 区（87 词）'
+      ed_seg  ='✓ 模範文はこのページの H 欄（87語）'
+
+printed key-token diff (seg before first ' — ', or whole seg if no dash):
+ token diffs: [137, 138, 150]
+  #137 core_tok='气候周持续七天。' ed_tok='気候週間は7日間続く。'
+  #138 core_tok='橙色预警意味着：做好准备。' ed_tok='オレンジ警報は「備えよ」という意味だ。'
+  #150 core_tok='✓ 范文见本版 H 区（87 词）' ed_tok='✓ 模範文はこのページの H 欄（87語）'
+
+all 9 artifact items printed token (before dash):
+  #3 core='7' ed='7' SAME=True
+  #7 core='B' ed='B' SAME=True
+  #17 core='wortelen' ed='wortelen' SAME=True
+  #29 core='B' ed='B' SAME=True
+  #70 core='eiland' ed='eiland' SAME=True
+  #71 core='proef' ed='proef' SAME=True
+  #76 core='gaat winnen' ed='gaat winnen' SAME=True
+  #96 core='advies' ed='advies' SAME=True
+  #148 core='B' ed='B' SAME=True

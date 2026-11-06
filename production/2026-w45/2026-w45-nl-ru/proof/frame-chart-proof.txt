@@ -1,0 +1,49 @@
+P1 SUBTITLE node: {'x': '975', 'y': '330', 'font-family': 'Noto Serif CJK SC', 'font-size': '40', 'font-weight': '700', 'fill': '#28251d', 'text-anchor': 'middle'}
+P1 SUBTITLE text: 'ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · КЛИМАТ · НОЧЬ МУЗЕЕВ · 12-Й ТУР'
+P1 SUBTITLE ink box (l,t,r,b): [138.3, 291.0, 1811.8, 338.8] width: 1673.5
+  margins: left dist to outer frame x=28: 110.3 | right dist to 1922: 110.2 | left dist to content margin 65: 73.3 | right dist to 1885: 73.2
+  crosses outer frame? False | crosses inner frame 40/1910? False
+P1 SUBTITLE node: {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}
+P1 SUBTITLE text: 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+P1 SUBTITLE ink box (l,t,r,b): [65.0, 2605.0, 1160.5, 2628.2] width: 1095.5
+  margins: left dist to outer frame x=28: 37.0 | right dist to 1922: 761.5 | left dist to content margin 65: 0.0 | right dist to 1885: 724.5
+  crosses outer frame? False | crosses inner frame 40/1910? False
+
+=== ALL-PAGE FRAME-LINE PROXIMITY (ink crossing or within 2px of outer 28/1922/28/2672 or inner 40/1910/40/2660) ===
+p1-voorpagina.svg frame-touching texts: 0
+p2-leven.svg frame-touching texts: 0
+p3-cultuur.svg frame-touching texts: 0
+p4-sport.svg frame-touching texts: 0
+p5-jongeren.svg frame-touching texts: 0
+p6-verdieping.svg frame-touching texts: 0
+p7-taal.svg frame-touching texts: 0
+p8-toets.svg frame-touching texts: 0
+
+=== P6 CHART ===
+edition bars (y,width): [(304.0, 180.0), (362.0, 100.0), (420.0, 80.0), (478.0, 40.0)]
+core bars (y,width): [(304.0, 180.0), (362.0, 100.0), (420.0, 80.0), (478.0, 40.0)]
+bars identical: True
+edition labels:
+  y= 294.0 'Ik blijf thuis' ink: [1473.0, 277.8, 1595.8, 299.2]
+  y= 352.0 'Ik kijk eerst naar de tekst' ink: [1473.0, 335.8, 1724.8, 357.2]
+  y= 410.0 'Ik ga toch naar buiten' ink: [1473.0, 393.8, 1691.2, 415.0]
+  y= 468.0 'Ik weet het niet' ink: [1473.0, 451.8, 1626.5, 468.2]
+core labels:
+  y= 294.0 'Ik blijf thuis' ink: [1473.0, 277.8, 1595.8, 299.2]
+  y= 352.0 'Ik kijk eerst naar de tekst' ink: [1473.0, 335.8, 1724.8, 357.2]
+  y= 410.0 'Ik ga toch naar buiten' ink: [1473.0, 393.8, 1691.2, 415.0]
+  y= 468.0 'Ik weet het niet' ink: [1473.0, 451.8, 1626.5, 468.2]
+coverage (ink-box rect intersection / ink-box area), edition:
+  'Ik blijf thuis': label ink bottom 299.2 vs bar top 304.0 gap 4.8px; intersect 0.0 / 2639.1 = 0.0%
+  'Ik kijk eerst naar de tekst': label ink bottom 357.2 vs bar top 362.0 gap 4.8px; intersect 0.0 / 5412.6 = 0.0%
+  'Ik ga toch naar buiten': label ink bottom 415.0 vs bar top 420.0 gap 5.0px; intersect 0.0 / 4637.8 = 0.0%
+  'Ik weet het niet': label ink bottom 468.2 vs bar top 478.0 gap 9.8px; intersect 0.0 / 2532.8 = 0.0%
+edition value texts: [('294', '45'), ('352', '25'), ('410', '20'), ('468', '10')]
+core value texts: [('294', '45'), ('352', '25'), ('410', '20'), ('468', '10')]
+edition P6 chart caption (y 539..700, x=1473):
+   539 'OEFENDATA — verzonnen cijfers om mee'
+   564.84 'te oefenen, geen echte enquête. Vraag:'
+   590.6800000000001 'wat doe jij bij code oranje? (100 jongeren)'
+   635.0200000000001 'Тренировочные данные: выдуманные'
+   659.44 'цифры только для практики, а не'
+   683.86 'настоящий опрос. Вопрос: что вы делаете'

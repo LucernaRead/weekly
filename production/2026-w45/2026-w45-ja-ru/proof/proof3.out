@@ -1,0 +1,197 @@
+canonical extract how: lines lines
+
+== KEYDIFF 21: core key vs RU key (method) ==
+#1 CORE key='3 — 文化日在11月3日' method=paren | RU key='3 — День культуры — 3 ноября' method=paren
+     CORE seg='3 — 文化日在11月3日（周二）'
+     RU   seg='3 — День культуры — 3 ноября (вторник)'
+#2 CORE key='9 — 读书周到11月9日' method=paren | RU key='9 — Неделя чтения — до 9 ноября' method=paren
+     CORE seg='9 — 读书周到11月9日（周一）'
+     RU   seg='9 — Неделя чтения — до 9 ноября (понедельник)'
+#5 CORE key='7' method=dash | RU key='7 — Подсветка в Кобе начинается 7-го' method=paren
+     CORE seg='7 — 神户灯光秀从7日（周六）开始'
+     RU   seg='7 — Подсветка в Кобе начинается 7-го (в субботу)'
+#7 CORE key='B — 文化日在11月3日' method=paren | RU key='B — День культуры — 3 ноября' method=paren
+     CORE seg='B — 文化日在11月3日（周二）'
+     RU   seg='B — День культуры — 3 ноября (вторник)'
+#8 CORE key='C — 读书周到11月9日' method=paren | RU key='C — Неделя чтения — до 9 ноября' method=paren
+     CORE seg='C — 读书周到11月9日（周一）'
+     RU   seg='C — Неделя чтения — до 9 ноября (понедельник)'
+#9 CORE key='B — 立冬在11月7日' method=paren | RU key='B — 立冬 — 7 ноября' method=paren
+     CORE seg='B — 立冬在11月7日（周六）'
+     RU   seg='B — 立冬 — 7 ноября (суббота)'
+#29 CORE key='A — 文化日在11月3日' method=paren | RU key='A — День культуры — 3 ноября' method=paren
+     CORE seg='A — 文化日在11月3日（周二）'
+     RU   seg='A — День культуры — 3 ноября (вторник)'
+#32 CORE key='B — 工艺展到11月8日' method=paren | RU key='B — Выставка — до 8 ноября' method=paren
+     CORE seg='B — 工艺展到11月8日（周日）'
+     RU   seg='B — Выставка — до 8 ноября (воскресенье)'
+#65 CORE key='A — 万圣节在10月31日' method=paren | RU key='A — Хэллоуин — 31 октября' method=paren
+     CORE seg='A — 万圣节在10月31日（周六）'
+     RU   seg='A — Хэллоуин — 31 октября (суббота)'
+#69 CORE key='C — 横滨中区民祭在11月8日' method=paren | RU key='C — Фестиваль Нака — 8 ноября' method=paren
+     CORE seg='C — 横滨中区民祭在11月8日（周日）'
+     RU   seg='C — Фестиваль Нака — 8 ноября (воскресенье)'
+#78 CORE key='○ — ハロウィンは10月31日' method=paren | RU key='○ — Хэллоуин — 31 октября' method=paren
+     CORE seg='○ — ハロウィンは10月31日（土）'
+     RU   seg='○ — Хэллоуин — 31 октября (суббота)'
+#101 CORE key='27' method=dash | RU key='27 — Неделя чтения начинается 27 октября' method=paren
+     CORE seg='27 — 读书周从10月27日（周二）开始'
+     RU   seg='27 — Неделя чтения начинается 27 октября (вторник)'
+#113 CORE key='A — 文化日在11月3日' method=paren | RU key='A — День культуры — 3 ноября' method=paren
+     CORE seg='A — 文化日在11月3日（周二）'
+     RU   seg='A — День культуры — 3 ноября (вторник)'
+#115 CORE key='A — 日本大赛第1战在10月24日' method=paren | RU key='A — Матч 1 Японской серии: 24 октября' method=paren
+     CORE seg='A — 日本大赛第1战在10月24日（周六）'
+     RU   seg='A — Матч 1 Японской серии: 24 октября (суббота)'
+#117 CORE key='B — 万圣节在10月31日' method=paren | RU key='B — Хэллоуин — 31 октября' method=paren
+     CORE seg='B — 万圣节在10月31日（周六）'
+     RU   seg='B — Хэллоуин — 31 октября (суббота)'
+#118 CORE key='A — 立冬在11月7日' method=paren | RU key='A — 立冬 — 7 ноября' method=paren
+     CORE seg='A — 立冬在11月7日（周六）'
+     RU   seg='A — 立冬 — 7 ноября (суббота)'
+#137 CORE key='文化日是11月3日。' method=dash | RU key='День культуры' method=dash
+     CORE seg='文化日是11月3日。 — 对照第3版'
+     RU   seg='День культуры — 3 ноября. — См. страницу 3'
+#138 CORE key='乱扔垃圾，要罚2,000日元。' method=dash | RU key='За брошенный мусор' method=dash
+     CORE seg='乱扔垃圾，要罚2,000日元。 — 对照第5版'
+     RU   seg='За брошенный мусор — штраф 2 000 иен. — См. страницу 5'
+#140 CORE key='神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版' method=paren | RU key='神戸の紅葉のライトアップを見に行きたいです。' method=dash
+     CORE seg='神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）'
+     RU   seg='神戸の紅葉のライトアップを見に行きたいです。 — См. страницу 6'
+#146 CORE key='A — 借りられます＝能借' method=paren | RU key='A — 借りられます = можно взять' method=paren
+     CORE seg='A — 借りられます＝能借（可能形）'
+     RU   seg='A — 借りられます = можно взять (потенциальная форма)'
+#147 CORE key='A — 读书周到11月9日' method=paren | RU key='A — Неделя чтения: до 9 ноября' method=paren
+     CORE seg='A — 读书周到11月9日（第7版）'
+     RU   seg='A — Неделя чтения: до 9 ноября (страница 7)'
+
+== #139 (outside keydiff) ==
+#139 CORE key='読書週間は10月27日から始まります。' | RU key='読書週間は10月27日から始まります。'
+     CORE seg='読書週間は10月27日から始まります。 — 对照第7版'
+     RU   seg='読書週間は10月27日から始まります。 — См. страницу 7'
+
+== #37 ==
+CORE: {'has_note': True, 'key': '8', 'seg': '8 — 工艺展到11月8日', 'method': 'dash'} 
+RU: {'has_note': True, 'key': '8', 'seg': '8 — Выставка — до 8 ноября', 'method': 'dash'}
+
+== ITEM RECONSTRUCTION (builder's p8_compare_items logic, re-implemented) ==
+core items 150 missing []
+ed items 150 missing []
+identical full items (0): []
+
+== NOTE-TAIL equality (audit_geo 8b logic, re-implemented) ==
+identical note tails: NONE
+notes differing: 149
+
+== GLOSS rendered per page: join prefix block, count '·' separators ==
+-- CORE
+   p1-hyoushi y=1660.0 '今週のことば · 本周单词'
+   p1-hyoushi y=1914.0 '短いニュース · 快讯'
+   p1-hyoushi y=2348.0 'クイズ · 闪电问答'
+   p1-hyoushi y=2348.0 '读头版，选出正确答案 · 答案见第 8 版'
+   p1-hyoushi y=2419.0 '文化の日はいつですか。 A. 2日（月） · B. 3'
+   p1-hyoushi y=2449.45 '日（火） · C. 7日（土）'
+   p1-hyoushi y=2449.45 'B. 8日（日） · C. 9日（月）'
+   p1-hyoushi y=2419.0 '立冬はいつですか。 A. 3日（火） · B. 7日（'
+   p1-hyoushi y=2449.45 '土） · C. 9日（月）'
+   p1-hyoushi y=2449.45 '戸 · B. 金沢 · C. 鳴子峡'
+   p1-hyoushi y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+   p2-kurashi y=1594.0 '季節のことば · 季节词语'
+   p2-kurashi y=1594.0 'ゆる整え食の4つの言葉 · 关于轻松食养的四个词'
+   p2-kurashi y=1844.0 '練習 · 第 2 版练习'
+   p2-kurashi y=1844.0 '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+   p2-kurashi y=1897.0 'A · 理解'
+   p2-kurashi y=2062.95 '『ゆる』の意味は？ A. 速い · B. 無理をしない · C.'
+   p2-kurashi y=2202.6000000000004 '半分 · B. 1.5倍 · C. 3倍'
+   p2-kurashi y=2287.1500000000005 '味の素の発表はいつでしたか。 A. 10月21日 · B.'
+   p2-kurashi y=2314.7000000000007 '10月20日 · C. 10月22日'
+   p2-kurashi y=2426.800000000001 '年より低い · B. 平年と同じ · C. 平年より高い'
+   p2-kurashi y=2538.9000000000015 'ケート · B. noteのまとめ · C. 気象庁'
+   p2-kurashi y=1897.0 'B · ことば'
+   p2-kurashi y=2429.975000000001 'C · 数字と日付'
+   p2-kurashi y=2235.2000000000003 'D · ペアにしましょう'
+   p2-kurashi y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+   p3-bunka y=1608.0 '練習 · 第 3 版练习'
+   p3-bunka y=1608.0 '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+   p3-bunka y=1661.0 'A · 理解'
+   p3-bunka y=1826.95 '文化の日はいつですか。 A. 3日（火） · B. 7日（'
+   p3-bunka y=1854.5 '土） · C. 9日（月）'
+   p3-bunka y=1939.05 '杉並区のイベントは何ですか。 A. 伝統工芸展 · B.'
+   p3-bunka y=1966.6 '家族オーケストラ · C. ライトアップ'
+   p3-bunka y=2051.1499999999996 '伝統工芸展はどこですか。 A. 金沢城 · B. 兼六園 ·'
+   p3-bunka y=2163.25 '伝統工芸展はいつまでですか。 A. 11月3日 · B. 11'
+   p3-bunka y=2190.8 '月8日 · C. 11月9日'
+   p3-bunka y=2302.9000000000005 'B. 杉並区 · C. 神戸'
+   p3-bunka y=2361.4500000000007 'B · ことば'
+   p3-bunka y=2026.7499999999998 'C · 文を作りましょう'
+   p3-bunka y=2475.1750000000006 'D · ペアにしましょう'
+   p3-bunka y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+   p4-supotsu y=1516.0 '横浜の2試合の記録 · 横滨两场比赛的记录'
+   p4-supotsu y=1614.0 '延長11回 · 4時間12分 · 観客 33,388人'
+   p4-supotsu y=1614.0 '延長10回 · 3時間36分 · 観客 33,432人'
+   p4-supotsu y=1868.0 '練習 · 第 4 版练习'
+   p4-supotsu y=1868.0 '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+   p4-supotsu y=1921.0 'A · 理解'
+   p4-supotsu y=2086.95 '第1戦のスコアは？ A. 4-3 · B. 3-1 · C. 1-3'
+   p4-supotsu y=2199.05 'ムラン · B. 筒香の3点ホームラン · C. 川村のホーム'
+   p4-supotsu y=2311.1500000000005 '2連勝でスタートしたのは？ A. ソフトバンク · B.'
+   p4-supotsu y=2338.7000000000007 'DeNA · C. 阪神'
+   p4-supotsu y=2423.250000000001 '2連勝で始めたチームの優勝率は？ A. 24% · B.'
+   p4-supotsu y=2450.800000000001 '73% · C. 100%'
+   p4-supotsu y=1947.0 '2024年に優勝したのは？ A. DeNA · B. ソフトバン'
+   p4-supotsu y=1974.55 'ク · C. 阪神'
+   p4-supotsu y=2033.1 'B · 数字'
+   p4-supotsu y=1921.0 'C · ことばと記録'
+   p4-supotsu y=2084.775 'B. 試合が長く続くこと · C. 試合がないこと'
+   p4-supotsu y=2169.3250000000003 '第1戦の観客は何人でしたか。 A. 33,388人 · B.'
+   p4-supotsu y=2196.8750000000005 '33,432人 · C. 33,000人'
+   p4-supotsu y=2281.4250000000006 '第2戦の観客は何人でしたか。 A. 33,388人 · B.'
+   p4-supotsu y=2308.975000000001 '33,432人 · C. 33,000人'
+   p4-supotsu y=2421.075000000001 'かの戦い · B. もう終わり · C. 2つで十分'
+   p4-supotsu y=2479.6250000000014 'D · 正しい・正しくない'
+   p4-supotsu y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+   p5-wakamono y=1608.0 '練習 · 第 5 版练习'
+   p5-wakamono y=1608.0 '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+   p5-wakamono y=1661.0 'A · 理解'
+   p5-wakamono y=1854.5 '· B. 30日（金） · C. 1日（日）'
+   p5-wakamono y=1966.6 'ですか。 A. 5時から18時 · B. 18時から5時 · C. 18'
+   p5-wakamono y=2106.25 'B. 2,000円 · C. 20,000円'
+   p5-wakamono y=2190.8 'コスプレフェスはどこですか。 A. 渋谷 · B. 池袋 ·'
+   p5-wakamono y=2330.4500000000007 '土） · B. 31日（土） · C. 8日（日）'
+   p5-wakamono y=2389.000000000001 'B · 数字'
+   p5-wakamono y=2026.7499999999998 'C · 正しい・正しくない'
+   p5-wakamono y=2504.9000000000005 'D · 文を完成しましょう'
+   p5-wakamono y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+   p6-fukayomi y=1526.0 'グラフを読もう · 读图表'
+   p6-fukayomi y=1526.0 '練習用データ · 练习数据'
+   p6-fukayomi y=1928.0 '練習 · 第 6 版练习'
+   p6-fukayomi y=1928.0 '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+   p6-fukayomi y=1981.0 'A · 理解'
+   p6-fukayomi y=2174.5 '年より低い · B. 平年より高い · C. 平年と同じ'
+   p6-fukayomi y=2259.05 '雨が多いのはどこですか。 A. 日本海側 · B. 太平洋'
+   p6-fukayomi y=2286.6000000000004 '側 · C. 北の地方'
+   p6-fukayomi y=2398.7000000000007 'か。 A. 半分 · B. ほぼ2倍 · C. 3倍'
+   p6-fukayomi y=2510.800000000001 'B. 上がった · C. 同じ'
+   p6-fukayomi y=2007.0 '鳴子峡の見頃はいつですか。 A. 10月17日 · B. 10月'
+   p6-fukayomi y=2034.55 '31日から11月8日の週末 · C. 12月28日'
+   p6-fukayomi y=2093.1 'B · グラフ'
+   p6-fukayomi y=2150.1000000000004 'C · 数字と事実'
+   p6-fukayomi y=1981.0 'D · 正しい・正しくない'
+   p6-fukayomi y=2624.0 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'
+-- RU
+   p1-hyoushi block items=4: 'Пояснение — 祝日 праздник · 見頃лучшее время · 暦 календарь · お届けします представляем вам.'
+   p1-hyoushi TOTAL items=4
+   p2-kurashi block items=4: 'Пояснение — 蒸す готовить на пару · 並ぶ появляться на полках · 食卓обеденный стол · 超える превышать.'
+   p2-kurashi block items=5: 'Пояснение — 予報 прогноз · 平年средний год · 季節風 сезонный ветер ·話題 тема · 値上がり рост цен.'
+   p2-kurashi TOTAL items=9
+   p3-bunka block items=4: 'Пояснение — 市場 рынок · 工芸ремёсла · 光 свет · 楽しむнаслаждаться.'
+   p3-bunka block items=4: 'Пояснение — 陶器 керамика · 漆器 лак ·染物 крашеные ткани · 金箔 сусальноезолото.'
+   p3-bunka TOTAL items=8
+   p4-supotsu block items=4: 'Пояснение — 延長 дополнительныеиннинги · 逆転 перелом · 同点 ничья ·優勝率 процент титулов.'
+   p4-supotsu block items=3: 'Пояснение — 総括 итоги · 締め切り сроксдачи · 確認する проверить.'
+   p4-supotsu TOTAL items=7
+   p5-wakamono block items=4: 'Пояснение — 罰金 штраф · 像 статуя ·仮装 костюм · 守る соблюдать.'
+   p5-wakamono block items=3: 'Пояснение — 祭り фестиваль · 週末выходные · 話題 тема.'
+   p5-wakamono TOTAL items=7
+   p6-fukayomi block items=4: 'Пояснение — 予算 бюджет · 満足удовольствие · 観測 наблюдение · 追いかける следовать.'
+   p6-fukayomi TOTAL items=4

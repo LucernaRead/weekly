@@ -1,0 +1,207 @@
+== BADGE ELEMENT (P1) ==
+  W43: {'x': '975', 'y': '372', 'size': '20', 'weight': '700', 'fill': '#a4553a', 'anchor': 'middle', 'text': "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"}
+  W43: {'x': '65', 'y': '2624', 'size': '20', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'}
+  W45-ed: {'x': '975', 'y': '372', 'size': '20', 'weight': '700', 'fill': '#a4553a', 'anchor': 'middle', 'text': "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"}
+  W45-ed: {'x': '65', 'y': '2624', 'size': '20', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'}
+== TOP STRIP ==
+  W43: {'x': '975', 'y': '92', 'size': '21', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · OGNI SETTIMANA · IL RUSSO CHE LEGGE LA RUSSIA'}
+  W45-ed: {'x': '975', 'y': '92', 'size': '21', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · OGNI SETTIMANA · IL RUSSO CHE LEGGE LA RUSSIA'}
+== FOOTERS all pages ==
+  W43 ('p1-pervaya', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p1-pervaya', '1885', 'Pagina 1 di 8')
+  W43 ('p2-zhizn', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p2-zhizn', '1885', 'Pagina 2 di 8')
+  W43 ('p3-kultura', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p3-kultura', '1885', 'Pagina 3 di 8')
+  W43 ('p4-sport', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p4-sport', '1885', 'Pagina 4 di 8')
+  W43 ('p5-molodezh', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p5-molodezh', '1885', 'Pagina 5 di 8')
+  W43 ('p6-razbor', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p6-razbor', '1885', 'Pagina 6 di 8')
+  W43 ('p7-yazyk', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p7-yazyk', '1885', 'Pagina 7 di 8')
+  W43 ('p8-test', '65', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W43 ('p8-test', '1885', 'Pagina 8 di 8')
+  W45-ed ('p1-pervaya', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p1-pervaya', '1885', 'Pagina 1 di 8')
+  W45-ed ('p2-zhizn', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p2-zhizn', '1885', 'Pagina 2 di 8')
+  W45-ed ('p3-kultura', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p3-kultura', '1885', 'Pagina 3 di 8')
+  W45-ed ('p4-sport', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p4-sport', '1885', 'Pagina 4 di 8')
+  W45-ed ('p5-molodezh', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p5-molodezh', '1885', 'Pagina 5 di 8')
+  W45-ed ('p6-razbor', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p6-razbor', '1885', 'Pagina 6 di 8')
+  W45-ed ('p7-yazyk', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p7-yazyk', '1885', 'Pagina 7 di 8')
+  W45-ed ('p8-test', '65', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')
+  W45-ed ('p8-test', '1885', 'Pagina 8 di 8')
+== P6 CHART (fixed groups) ==
+  core values: [('1299', '1634', '34%'), ('1193', '1680', '28%'), ('1087', '1726', '22%'), ('981', '1772', '16%')]
+  core left labels: [('65', '1634', 'Дома с семьёй'), ('65', '1680', 'Короткая поездка'), ('65', '1726', 'Ярмарка или концерт'), ('65', '1772', 'Просто выспятся')]
+  core bar rect file offsets [] value-34% offset [10776] (bars before values: False)
+  core rects drawn after 34% text: 21 -> ['<rect x="685" y="1658" width="494" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="685" y="1704" width="388" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="685" y="1750" width="282" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="65" y="2004.225" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2122.225" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2211.225" width="60" height="30" rx="6" fill="#a4553a"/>']
+  ed values: [('1299', '1634', '34%'), ('1193', '1680', '28%'), ('1087', '1726', '22%'), ('981', '1772', '16%')]
+  ed left labels: [('65', '1634', 'Дома с семьёй'), ('65', '1680', 'Короткая поездка'), ('65', '1726', 'Ярмарка или концерт'), ('65', '1772', 'Просто выспятся')]
+  ed bar rect file offsets [] value-34% offset [11041] (bars before values: False)
+  ed rects drawn after 34% text: 21 -> ['<rect x="685" y="1658" width="494" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="685" y="1704" width="388" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="685" y="1750" width="282" height="30" rx="0" fill="#3e4c2a"/>', '<rect x="65" y="2033.95" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2151.95" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2240.95" width="60" height="30" rx="6" fill="#a4553a"/>']
+== P7 GOLDEN SENTENCES x2 ==
+  pure-Cyrillic long candidates in core P7: 51
+    core x1 ed x1: '11 ноября — день распродажи 11.11: что купили читатели? Плюс итоги 14-го тура и ваши письма. До поне'
+    core x1 ed x1: '___ торговой прессы, скидок может'
+    core x1 ed x1: '___ — это код со скидкой.'
+    core x1 ed x1: '«В воскресенье, 8 ноября, — три матча»'
+    core x1 ed x1: '«В среду города устраивают ярмарки и концерты»'
+    core x1 ed x1: '«Во вторник, 3 ноября, рабочий день короче на час»'
+    core x1 ed x1: '«Здравствуйте! Я учу русский язык'
+    core x1 ed x1: '«Как жить неделю с праздником посреди недели»'
+    core x1 ed x1: '«Многие берут отпуск в четверг и в пятницу»'
+    core x1 ed x1: '«Поздравляю с День единства!»'
+    core x1 ed x1: '«Пять дней — почти маленькие каникулы»'
+    core x1 ed x1: '«Распродажа с 22 октябрь»'
+    core x1 ed x1: '«Сначала — список: что вам правда нужно»'
+    core x1 ed x1: '«Среда, 4 ноября, — выходной посреди рабочей недели»'
+    core x1 ed x1: '«может быть» — возможно; «может'
+    core x1 ed x1: '«промокод» — код со скидкой: его'
+    core x1 ed x1: 'Взять отпуск — значит не работать'
+    core x1 ed x1: 'Когда факт — не ваш, а из прессы,'
+    core x1 ed x1: 'Неуверенность — тоже по-русски:'
+    core x1 ed x1: 'О неделе говорим так: выходной —'
+    core x1 ed x1: 'Отпуск — это дни ___ от работы.'
+    core x1 ed x1: 'Отпуск — это дни отдыха от работы.'
+    core x1 ed x1: 'Пример: «Сначала составьте список,'
+    core x1 ed x1: 'Промокод вводят при покупке: код'
+    core x1 ed x1: 'Слова распродажи: скидка — товар'
+    core x1 ed x1: 'Сравните ___ в разных магазинах.'
+    core x1 ed x1: 'Торговая пресса ___: скидок может быть'
+    core x1 ed x1: 'быть меньше» — возможно, будет'
+    core x1 ed x1: 'ввести: «Введите промокод!» — так'
+    core x1 ed x1: 'вводят при покупке, и цена'
+    core x1 ed x1: 'говорите так: «по сообщениям'
+    core x1 ed x1: 'даёт скидку. Глагол «вводить» —'
+    core x1 ed x1: 'день на час короче. Примеры: «В среду'
+    core x1 ed x1: 'день, когда не работают; будни —'
+    core x1 ed x1: 'меньше. Говорить «может быть» —'
+    core x1 ed x1: 'несколько дней. Пример: «Я беру'
+    core x1 ed x1: 'ноября, я тоже отдохну: пойду на'
+    core x1 ed x1: 'падеж: «с Днём единства!»'
+    core x1 ed x1: 'поступило: здесь снова пример от'
+    core x1 ed x1: 'пресса пишет». Это честно: читатель'
+    core x1 ed x1: 'рабочие дни; сокращённый день —'
+    core x1 ed x1: 'редакции. Обещание переносится'
+    core x1 ed x1: 'сочинений к сроку сдачи не'
+    core x1 ed x1: 'стоит дешевле; цена — сколько стоит'
+    core x1 ed x1: 'товар; список — что вы хотите купить.'
+    core x1 ed x1: 'торговой прессы» или «торговая'
+    core x1 ed x1: 'ярмарку с семьёй!» — М. (пример'
+    core x1 ed x1: '→ После 5 и больше — «процентов»:'
+    core x1 ed x1: '→ После «к» — дательный падеж:'
+    core x1 ed x1: '→ После «с» нужен творительный'
+    core x1 ed x1: '→ Родительный падеж: «с 22'
+== GLOSS CALLS (source) ==
+  core-build dir exists: True
+    content12.py: gloss( occurrences=3
+      ... gloss("перед праздником 节前 · уйдёте 下班离开 · выспаться 睡个够。") f.head("ЧТО МЕНЯЕТСЯ С 1 НОЯБРЯ", 25) f.para("С 1 ноября в России меняются некоторые правила: налоги, аренда, платежи. А ещё из-за праздника меняются даты выплат: пенсии, которые должны прийти 4 ноября, придут раньше — 3 ноября.") f.para("П
+      ... gloss("выплат 款项、到账 · раньше 提前 · почта 邮局。") f.head("ПРОШЛАЯ НЕДЕЛЯ: ЧТО БЫЛО", 25) f.para("В воскресенье, 25 октября, ЦСКА победил «Спартак» в дерби со счётом 2:0. Оба гола забили в первом тайме: Глебов и Мусаев. В прошлом номере мы писали о дерби до игры — теперь результат известен.") f.para("А п
+      ... gloss("сбылись 兑现（指预报）· дерби 德比 · в прошлом номере 在上一期。") f.end_report()  ix = COLX[3] last = ["Дерби 25 октября: ЦСКА — «Спартак» 2:0.",         "Первый снег в Москве не выпал: 26 октября было +12°.",         "28 октября — День бабушек и дедушек.",         "31 октября — Хэллоуин.",         "Каник
+    content34.py: gloss( occurrences=3
+      ... gloss("напоминает о 让人想起 · прежде всего 首先 · ярмарке 集市。") f.head("СРЕДА В ГОРОДЕ", 25) f.para("Что можно делать в среду? Пойти на ярмарку: там продают еду, тёплые вещи и подарки. Пойти на концерт: музыка звучит на площадях и в парках. Или просто погулять: ноябрьский город красив, когда светит солнц
+      ... gloss("площадях 广场 · погулять 散步 · светит солнце 出太阳。") f.end_report()  ix = COLX[3] facts = ["4 ноября — День народного единства, выходной.",          "Праздник появился в 2005 году.",          "Среда — последний день школьных каникул.",          "В четверг, 5 ноября, — снова в школу."] sy3 = 200 s
+      ... gloss("закрывается 结束（指一轮）· перерыва 间歇 · шанс 机会。") f.end_report()  bx = COLX[3] image(p, "football1912.jpg", bx, 200, CW, 250) cy4 = caption(p, bx, 450, CW, "Сборная России по футболу на Олимпиаде 1912 года. Футболу в России — больше ста лет.",               "Фото: автор неизвестен, 1912 — обществ
+    content56.py: gloss( occurrences=3
+      ... gloss("приложения 应用 · вводят 输入 · хватает 抓取。") f.head("СПИСОК ПОКУПОК", 25) f.para("Сначала — список: что вам правда нужно? Потом — цены: сколько стоит товар в трёх магазинах? Потом — промокод: есть ли код со скидкой? И только потом — покупка.") f.para("Студенты так и делают: список, цены, промоко
+      ... gloss("лишних 多余 · составили 列出。") f.end_report()  ix = COLX[3] image(p, "market.jpg", ix, 200, CW, 280) cy5 = caption(p, ix, 480, CW, "На рынке: свежие овощи и фрукты. Покупки — тоже выбор: сравнить цены и не спешить.",               "Фото: Престон Керес (USDA) — общественное достояние (Wikimedia C
+      ... gloss("сбивают ритм 打乱节奏 · подряд 连续 · из дома 在家（工作）。") f.end_report()  bx = COLX[3] cal = ["2–3 ноября — рабочие дни (3 ноября — на час короче)",        "4 ноября — выходной: День народного единства",        "5–6 ноября — снова рабочие дни",        "7–8 ноября — выходные"] sy6 = 200 sh6 = 62 + sum
+  ed-build dir exists: True
+    content12.py: gloss( occurrences=3
+      ... gloss("перед праздником prima della festa · уйдёте uscite dal lavoro · выспаться dormire quanto basta.") f.head("ЧТО МЕНЯЕТСЯ С 1 НОЯБРЯ", 25) f.para("С 1 ноября в России меняются некоторые правила: налоги, аренда, платежи. А ещё из-за праздника меняются даты выплат: пенсии, которые должны прийти 4 
+      ... gloss("выплат pagamenti · раньше prima · почта la posta.") f.head("ПРОШЛАЯ НЕДЕЛЯ: ЧТО БЫЛО", 25) f.para("В воскресенье, 25 октября, ЦСКА победил «Спартак» в дерби со счётом 2:0. Оба гола забили в первом тайме: Глебов и Мусаев. В прошлом номере мы писали о дерби до игры — теперь результат известен."
+      ... gloss("сбылись si sono avverate (le previsioni) · дерби un derby · в прошлом номере nel numero scorso.") f.end_report()  ix = COLX[3] last = ["Дерби 25 октября: ЦСКА — «Спартак» 2:0.",         "Первый снег в Москве не выпал: 26 октября было +12°.",         "28 октября — День бабушек и дедушек.",    
+    content34.py: gloss( occurrences=3
+      ... gloss("напоминает о ricorda · прежде всего prima di tutto · ярмарке una fiera.") f.head("СРЕДА В ГОРОДЕ", 25) f.para("Что можно делать в среду? Пойти на ярмарку: там продают еду, тёплые вещи и подарки. Пойти на концерт: музыка звучит на площадях и в парках. Или просто погулять: ноябрьский город крас
+      ... gloss("площадях le piazze · погулять fare una passeggiata · светит солнце c'è il sole.") f.end_report()  ix = COLX[3] facts = ["4 ноября — День народного единства, выходной.",          "Праздник появился в 2005 году.",          "Среда — последний день школьных каникул.",          "В четверг, 5 ноябр
+      ... gloss("закрывается si chiude (una giornata) · перерыва la pausa · шанс un'occasione.") f.end_report()  bx = COLX[3] image(p, "football1912.jpg", bx, 200, CW, 250) cy4 = caption(p, bx, 450, CW, "Сборная России по футболу на Олимпиаде 1912 года. Футболу в России — больше ста лет.",               "Фото
+    content56.py: gloss( occurrences=3
+      ... gloss("приложения le app · вводят inseriscono · хватает afferra.") f.head("СПИСОК ПОКУПОК", 25) f.para("Сначала — список: что вам правда нужно? Потом — цены: сколько стоит товар в трёх магазинах? Потом — промокод: есть ли код со скидкой? И только потом — покупка.") f.para("Студенты так и делают: спи
+      ... gloss("лишних inutili · составили hanno fatto.") f.end_report()  ix = COLX[3] image(p, "market.jpg", ix, 200, CW, 280) cy5 = caption(p, ix, 480, CW, "На рынке: свежие овощи и фрукты. Покупки — тоже выбор: сравнить цены и не спешить.",               "Фото: Престон Керес (USDA) — общественное достояни
+      ... gloss("сбивают ритм rompono il ritmo · подряд di fila · из дома da casa (lavorando).") f.end_report()  bx = COLX[3] cal = ["2–3 ноября — рабочие дни (3 ноября — на час короче)",        "4 ноября — выходной: День народного единства",        "5–6 ноября — снова рабочие дни",        "7–8 ноября — выход
+== P8 SEPARATORS ==
+  W43: ['PAGINA 8 · Большой тест недели + все ответы', '— СТРАНИЦА 1 —', '— СТРАНИЦА 2 —', '— СТРАНИЦА 3 —', '— СТРАНИЦА 4 —', '— СТРАНИЦА 5 —', '— СТРАНИЦА 6 —', '— СТРАНИЦА 7 —', '— СТРАНИЦА 8 —']
+  core: ['— СТРАНИЦА 1 —', '— СТРАНИЦА 2 —', '— СТРАНИЦА 3 —', '— СТРАНИЦА 4 —', '— СТРАНИЦА 5 —', '— СТРАНИЦА 6 —', '— СТРАНИЦА 7 —', '— СТРАНИЦА 8 —']
+  ed: ['PAGINA 8 · Большой тест недели + все ответы', '— СТРАНИЦА 1 —', '— СТРАНИЦА 2 —', '— СТРАНИЦА 3 —', '— СТРАНИЦА 4 —', '— СТРАНИЦА 5 —', '— СТРАНИЦА 6 —', '— СТРАНИЦА 7 —', '— СТРАНИЦА 8 —']
+== P8 keys flow end (max y of numbered lines) ==
+  core: max numbered-line y=2532.5870000000023
+  ed: max numbered-line y=2532.5870000000023
+== P7 READERS CORNER STACK (x>=1400, y 1200-1800) ==
+  --- core
+    x=1473 y=1230.6699999999998 size=20: 'промокод = 促销码，结账时输入。'
+    x=1473 y=1296.58 size=23: 'ПИСЬМА ЧИТАТЕЛЕЙ'
+    x=1473 y=1343.58 size=21.5: '«Здравствуйте! Я учу русский язык'
+    x=1473 y=1374.11 size=21.5: 'и читаю Lucerna. В среду, 4'
+    x=1473 y=1404.6399999999999 size=21.5: 'ноября, я тоже отдохну: пойду на'
+    x=1473 y=1435.1699999999998 size=21.5: 'ярмарку с семьёй!» — М. (пример'
+    x=1473 y=1465.6999999999998 size=21.5: 'от редакции)'
+    x=1473 y=1527.2299999999998 size=21.5: 'Настоящих писем и лучших'
+    x=1473 y=1557.7599999999998 size=21.5: 'сочинений к сроку сдачи не'
+    x=1473 y=1588.2899999999997 size=21.5: 'поступило: здесь снова пример от'
+    x=1473 y=1618.8199999999997 size=21.5: 'редакции. Обещание переносится'
+    x=1473 y=1649.3499999999997 size=21.5: 'на VOL.3.'
+    x=1473 y=1709.8799999999997 size=20: '截至交稿时未收到真实来信与最佳作文，仍'
+    x=1473 y=1738.2799999999997 size=20: '为编辑部示例；承诺顺延至 VOL.3。'
+  --- ed
+    x=1473 y=1230.6699999999998 size=20: 'промокод = codice promozionale.'
+    x=1473 y=1296.58 size=23: 'ПИСЬМА ЧИТАТЕЛЕЙ'
+    x=1473 y=1343.58 size=21.5: '«Здравствуйте! Я учу русский язык'
+    x=1473 y=1374.11 size=21.5: 'и читаю Lucerna. В среду, 4'
+    x=1473 y=1404.6399999999999 size=21.5: 'ноября, я тоже отдохну: пойду на'
+    x=1473 y=1435.1699999999998 size=21.5: 'ярмарку с семьёй!» — М. (пример'
+    x=1473 y=1465.6999999999998 size=21.5: 'от редакции)'
+    x=1473 y=1527.2299999999998 size=21.5: 'Настоящих писем и лучших'
+    x=1473 y=1557.7599999999998 size=21.5: 'сочинений к сроку сдачи не'
+    x=1473 y=1588.2899999999997 size=21.5: 'поступило: здесь снова пример от'
+    x=1473 y=1618.8199999999997 size=21.5: 'редакции. Обещание переносится'
+    x=1473 y=1649.3499999999997 size=21.5: 'на VOL.3.'
+    x=1473 y=1709.8799999999997 size=20: 'Nessuna lettera vera né testo migliore:'
+    x=1473 y=1738.2799999999997 size=20: 'esempio redazionale, promessa VOL.3.'
+== SHORT HEADS in ed vs W43 ==
+  'In cifre': ed=True w43=True
+  'Sommario': ed=True w43=True
+  'La parola': ed=True w43=True
+  'Quiz lampo': ed=True w43=True
+  'In breve': ed=True w43=True
+  'Pro e contro': ed=True w43=True
+  'Analisi': ed=True w43=True
+  'Giovani': ed=True w43=True
+  'E tu?': ed=True w43=True
+== P8 138/139 wrap continuation ==
+  core: x=1451 y=1792.0400000000009: '137. 11 月 4 日星期三放假。 — 对照第 3 版'
+  core: x=1451 y=1820.230000000001: '138. 促销码就是折扣码。 — 对照第 5 版'
+  core: no 'Confronta pagina' raw
+  ed: x=1451 y=1948.8700000000013: '137. Mercoledì 4 novembre è festa. — Confronta pagina 3'
+  ed: x=1451 y=1977.0600000000013: '138. Il codice promozionale è un codice sconto. — Confronta pagina'
+  ed raw around 'Confronta pagina': 'ок покупок. — Imperativo + oggetto</text><text x="1451" y="1948.8700000000013" font-family="Noto Serif CJK SC" font-size="13.0" fill="#28251d" text-anchor="start">137. Mercoledì 4 novembre è festa. — Confronta pagina 3</text><text x="1451" y="1977.0600000000013" font-family="Noto Serif CJK SC" font-size="13.0" fill="#28251d" text-anchor="start">138. Il codice promozionale è un codice sconto. — Confronta pagina</text><text x="1451" y="1991.7500000000014" font-family="Noto Serif CJK SC" font-size='
+== ABSTRACT ==
+  repr: "Lucerna Settimana Russa VOL.2: mercoledì 4 novembre festa, martedì 3 novembre un'ora in meno, acquisti intelligenti per i saldi 11.11 e 14ª giornata di calcio russo dal 6 all'8 novembre — 150 esercizi da A2 a B2 per italiani che imparano il russo con le notizie russe.\n"
+  lines=1 has_ascii_dquote=False len=268
+== CARDS (independent PIL) ==
+  p1-pervaya: (1950, 2700) mode=RGB
+  p2-zhizn: (1950, 2700) mode=RGB
+  p3-kultura: (1950, 2700) mode=RGB
+  p4-sport: (1950, 2700) mode=RGB
+  p5-molodezh: (1950, 2700) mode=RGB
+  p6-razbor: (1950, 2700) mode=RGB
+  p7-yazyk: (1950, 2700) mode=RGB
+  p8-test: (1950, 2700) mode=RGB
+== KIT SHA TABLE vs delivered ==
+  p1-pervaya: delivered=c1d2fb118d8ab2692fb93ae169b15195d15633430d331a71d316a729b5b32b65 in_KIT=True
+  p2-zhizn: delivered=423543926f102eba7019db4425e8a3434b87b965c80b462645efeb896f361faa in_KIT=True
+  p3-kultura: delivered=98020e283d53e98d604d5190205301ed132de95f1a7e5bf43f0a4d1a50468221 in_KIT=True
+  p4-sport: delivered=a94154971cad99da58d96b5d0a419745354b61699358a319b97c0e7c676035fd in_KIT=True
+  p5-molodezh: delivered=c5ca985498b4de9584447f34533b9da1e1086363c9683752945f77984d1597d4 in_KIT=True
+  p6-razbor: delivered=12b8a90175590ecc5c047d0d6dec27f060292db1d8dbd8186fe4353e6cb2a012 in_KIT=True
+  p7-yazyk: delivered=77c049c9ae88bc42f4e635cc86267c12889498fa1d63ef8da2b5a4cdc505f78e in_KIT=True
+  p8-test: delivered=f421a428e16fdbefb9472fd49c7409f266151c9f74a7c9fac03dfad195ca0bc4 in_KIT=True
+DONE2

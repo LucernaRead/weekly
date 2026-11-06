@@ -1,0 +1,222 @@
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-core/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-zh-tw/svg")
+15c15
+< p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 每周一期 · 读荷兰人正在读的荷兰语", 21, "sans", False, GREY, anchor="middle")
+---
+> p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 每週一期 · 讀荷蘭人正在讀的荷蘭語", 21, "sans", False, GREY, anchor="middle")
+19,20c19,20
+< p.text(975, 330, "荷 兰 语 周 报 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12", 40, "serif", True, INK, anchor="middle")
+< p.text(975, 372, "DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS", 19, "sans", False, GREY, anchor="middle")
+---
+> p.text(975, 330, "荷 語 週 報 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12", 40, "serif", True, INK, anchor="middle")
+> p.text(975, 372, "荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本", 19.5, "sans", True, BRICK, anchor="middle")
+27,28c27,28
+< p.text(RIGHT - 30, 478, "气候周", 24, "sans", True, "#b3a06a", anchor="end")
+< p.text(RIGHT - 30, 522, "本周全国气候周 · 详见第 2 版", 21, "sans", False, "#b3a06a", anchor="end")
+---
+> p.text(RIGHT - 30, 478, "氣候週", 24, "sans", True, "#b3a06a", anchor="end")
+> p.text(RIGHT - 30, 522, "本週全國氣候週 · 詳見第 2 版", 21, "sans", False, "#b3a06a", anchor="end")
+32c32
+< p.text(MX, hy + 26, "HET NIEUWS · 头条", 22, "sans", True, BRICK)
+---
+> p.text(MX, hy + 26, "HET NIEUWS · 頭條", 22, "sans", True, BRICK)
+42,47c42,47
+< f.bridge("讲解｜de Klimaatweek 气候周 · de boom planten 种树 · besparen 节约 · de waarschuwing 警告、预警。")
+< f.box("DE WEEK IN CIJFERS · 数字看本周", [
+<     ("7 — de dagen van de Klimaatweek（气候周的天数）", "serif", False, INK, 20, 1.35),
+<     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt（周六科弗登发放的树木和灌木）", "serif", False, INK, 20, 1.35),
+<     ("70+ — de musea die open zijn op Museumnacht（博物馆之夜开放的博物馆，70 多家）", "serif", False, INK, 20, 1.35),
+<     ("9 — de wedstrijden van speelronde 12 in de Eredivisie（荷甲第 12 轮的比赛场数）", "serif", False, INK, 20, 1.35),
+---
+> f.expl("講解｜de Klimaatweek 氣候週 · de boom planten 種樹 · besparen 節約 · de waarschuwing 警告、預警。")
+> f.box("DE WEEK IN CIJFERS · 數字看本週", [
+>     ("7 — de dagen van de Klimaatweek（氣候週的天數）", "serif", False, INK, 20, 1.35),
+>     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt（週六科弗登發放的樹木和灌木）", "serif", False, INK, 20, 1.35),
+>     ("70+ — de musea die open zijn op Museumnacht（博物館之夜開放的博物館，70 多家）", "serif", False, INK, 20, 1.35),
+>     ("9 — de wedstrijden van speelronde 12 in de Eredivisie（荷甲第 12 輪的比賽場數）", "serif", False, INK, 20, 1.35),
+49,50c49,50
+< f.head("NU JIJ · 即学即练", 25)
+< f.ex("A2", "完成句子", "8", "气候周 11 月 2–8 日",
+---
+> f.head("NU JIJ · 即學即練", 25)
+> f.ex("A2", "完成句子", "8", "氣候週 11 月 2–8 日",
+52c52
+< f.ex("A2", "完成句子", "200", "科弗登发放 200 棵树木灌木",
+---
+> f.ex("A2", "完成句子", "200", "科弗登發放 200 棵樹木灌木",
+54c54
+< f.ex("A2", "完成句子", "7", "博物馆之夜在 11 月 7 日周六",
+---
+> f.ex("A2", "完成句子", "7", "博物館之夜在 11 月 7 日週六",
+56c56
+< f.ex("A2", "完成句子", "11:15", "海伦芬–费耶诺德 11:15 开球",
+---
+> f.ex("A2", "完成句子", "11:15", "海倫芬–費耶諾德 11:15 開球",
+58c58
+< f.ex("A2", "完成句子", "13:30", "特温特–阿贾克斯 13:30 开球",
+---
+> f.ex("A2", "完成句子", "13:30", "特溫特–阿賈克斯 13:30 開球",
+69,70c69,70
+< p.text(gx + 22, gy + 76, "· 本周日程", 27, "sans", True, OLIVE)
+< p.text(gx + 22, gy + 106, "Agenda van de week · 本周大事", 19, "sans", False, GREY)
+---
+> p.text(gx + 22, gy + 76, "· 本週日程", 27, "sans", True, OLIVE)
+> p.text(gx + 22, gy + 106, "Agenda van de week · 本週大事", 19, "sans", False, GREY)
+85c85
+< p.text(gx + 22, byy + 76, "本周日程见第 2–4 版文章", 19, "sans", False, GREY)
+---
+> p.text(gx + 22, byy + 76, "本週日程見第 2–4 版文章", 19, "sans", False, GREY)
+90c90
+< p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 本期目录", 24, "sans", True, OLIVE)
+---
+> p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 本期目錄", 24, "sans", True, OLIVE)
+112c112
+< p.para(gx, y2 + 28, "“气候”：我们周围长期的天气与自然。气候周讲的就是我们的气候。", 19, "sans", False, GREY, gw, 1.35)
+---
+> p.para(gx, y2 + 28, "「氣候」：我們周圍長期的天氣與自然。氣候週講的就是我們的氣候。", 19, "sans", False, GREY, gw, 1.35)
+131c131
+< p.text(bx + 22, 1914, "IN HET KORT · 快讯", 24, "sans", True, OLIVE)
+---
+> p.text(bx + 22, 1914, "IN HET KORT · 快訊", 24, "sans", True, OLIVE)
+145,146c145,146
+< p.text(MX, qy + 36, "BLIKSEMQUIZ · 闪电问答", 26, "sans", True, OLIVE)
+< p.text(RIGHT, qy + 36, "读头版，选出正确答案 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, qy + 36, "BLIKSEMQUIZ · 閃電問答", 26, "sans", True, OLIVE)
+> p.text(RIGHT, qy + 36, "讀頭版，選出正確答案 · 答案見第 8 版", 20, "sans", False, GREY, anchor="end")
+148c148
+< qf.ex("A2", "单选", "B", "气候周共 7 天（11 月 2–8 日）",
+---
+> qf.ex("A2", "單選", "B", "氣候週共 7 天（11 月 2–8 日）",
+150c150
+< qf.ex("A2", "单选", "B", "科弗登发放 200 棵树木灌木",
+---
+> qf.ex("A2", "單選", "B", "科弗登發放 200 棵樹木灌木",
+152c152
+< qf.ex("A2", "单选", "C", "博物馆之夜在阿姆斯特丹",
+---
+> qf.ex("A2", "單選", "C", "博物館之夜在阿姆斯特丹",
+154c154
+< qf.ex("A2", "单选", "B", "特温特–阿贾克斯 13:30 开球",
+---
+> qf.ex("A2", "單選", "B", "特溫特–阿賈克斯 13:30 開球",
+164c164
+< p.band("LEVEN · 生活", "De Lucerna", "NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步讲气候周")
+---
+> p.band("LEVEN · 生活", "De Lucerna", "NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步講氣候週")
+176c176
+< f.box("ZO ONTHOUD JE HET · 口诀", [
+---
+> f.box("ZO ONTHOUD JE HET · 口訣", [
+179c179
+< f.gloss("het klimaat 气候 · wortelen 生根 · besparen 节约 · de verwarming 暖气 · de waarschuwing 预警 · lokaal 当地的、本地的。")
+---
+> f.gloss("het klimaat 氣候 · wortelen 生根 · besparen 節約 · de verwarming 暖氣 · de waarschuwing 預警 · lokaal 當地的、本地的。")
+200c200
+< eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("气候周你做什么？种树、节约能源还是骑车。写两句荷兰语寄给编辑部。", "sans", False, 20, CW - 44)) * 29 + 20
+---
+> eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("氣候週你做什麼？種樹、節約能源還是騎車。寫兩句荷蘭語寄給編輯部。", "sans", False, 20, CW - 44)) * 29 + 20
+203c203
+< p.text(ix + 22, yy3 + 26, "EN JIJ? · 说说你自己", 24, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "EN JIJ? · 說說你自己", 24, "sans", True, OLIVE)
+206c206
+< p.para(ix + 22, yy3 + 20, "气候周你做什么？种树、节约能源还是骑车。写两句荷兰语寄给编辑部。", 20, "sans", False, GREY, CW - 44, 1.42)
+---
+> p.para(ix + 22, yy3 + 20, "氣候週你做什麼？種樹、節約能源還是騎車。寫兩句荷蘭語寄給編輯部。", 20, "sans", False, GREY, CW - 44, 1.42)
+212,213c212,213
+< p.text(MX, dy + 28, "DE CODES VAN HET KNMI · 气象预警颜色", 28, "sans", True, OLIVE)
+< p.text(RIGHT, dy + 28, "Wat betekent elke kleur? · 每种颜色是什么意思", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, dy + 28, "DE CODES VAN HET KNMI · 氣象預警顏色", 28, "sans", True, OLIVE)
+> p.text(RIGHT, dy + 28, "Wat betekent elke kleur? · 每種顏色是什麼意思", 20, "sans", False, GREY, anchor="end")
+215,218c215,218
+<     ("GEEL", "let op", "天气可能危险，要当心"),
+<     ("ORANJE", "gevaarlijk", "危险，做好准备"),
+<     ("ROOD", "blijf binnen", "非常危险，尽量待在室内"),
+<     ("LOKAAL", "jouw omgeving", "预警针对你所在的地区"),
+---
+>     ("GEEL", "let op", "天氣可能危險，要當心"),
+>     ("ORANJE", "gevaarlijk", "危險，做好準備"),
+>     ("ROOD", "blijf binnen", "非常危險，儘量待在室內"),
+>     ("LOKAAL", "jouw omgeving", "預警針對你所在的地區"),
+231,232c231,232
+< p.text(MX, ey + 28, "OEFENINGEN · 第 2 版练习", 28, "sans", True, OLIVE)
+< p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, ey + 28, "OEFENINGEN · 第 2 版練習", 28, "sans", True, OLIVE)
+> p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+235,236c235,236
+< e.bridge("读第 2 版文章，选出正确答案。")
+< e.ex("A2", "单选", "C", "气候周不做：更多开车",
+---
+> e.expl("讀第 2 版文章，選出正確答案。")
+> e.ex("A2", "單選", "C", "氣候週不做：更多開車",
+238c238
+< e.ex("A2", "单选", "B", "科弗登发放 200 棵树木灌木",
+---
+> e.ex("A2", "單選", "B", "科弗登發放 200 棵樹木灌木",
+240c240
+< e.ex("A2", "单选", "C", "红色预警：非常危险，待在室内",
+---
+> e.ex("A2", "單選", "C", "紅色預警：非常危險，待在室內",
+242c242
+< e.ex("A2", "单选", "B", "预警针对本地，不针对整个省",
+---
+> e.ex("A2", "單選", "B", "預警針對本地，不針對整個省",
+244c244
+< e.ex("A2", "单选", "B", "节约能源：暖气调低一度",
+---
+> e.ex("A2", "單選", "B", "節約能源：暖氣調低一度",
+247,248c247,248
+< e.bridge("用第 2 版的词填空。")
+< e.ex("A2", "完成句子", "7", "气候周 11 月 2–8 日共 7 天",
+---
+> e.expl("用第 2 版的詞填空。")
+> e.ex("A2", "完成句子", "7", "氣候週 11 月 2–8 日共 7 天",
+250c250
+< e.ex("A2", "完成句子", "wortelen", "wortelen = 生根（复数主语）",
+---
+> e.ex("A2", "完成句子", "wortelen", "wortelen = 生根（複數主語）",
+252c252
+< e.ex("A2", "完成句子", "besparen", "besparen = 节约",
+---
+> e.ex("A2", "完成句子", "besparen", "besparen = 節約",
+254c254
+< e.ex("A2", "完成句子", "fiets", "fiets = 自行车",
+---
+> e.ex("A2", "完成句子", "fiets", "fiets = 腳踏車",
+256c256
+< e.ex("A2", "完成句子", "Zweeloo", "发放地点在兹韦洛",
+---
+> e.ex("A2", "完成句子", "Zweeloo", "發放地點在茲韋洛",
+259,260c259,260
+< e.bridge("用颜色代码和日期填空。")
+< e.ex("A2", "完成句子", "geel", "黄色代码：当心",
+---
+> e.expl("用顏色程式碼和日期填空。")
+> e.ex("A2", "完成句子", "geel", "黃色程式碼：當心",
+262c262
+< e.ex("A2", "完成句子", "oranje", "橙色代码：危险",
+---
+> e.ex("A2", "完成句子", "oranje", "橙色程式碼：危險",
+264c264
+< e.ex("A2", "完成句子", "13:00", "发放从 13:00 开始",
+---
+> e.ex("A2", "完成句子", "13:00", "發放從 13:00 開始",
+266c266
+< e.ex("A2", "完成句子", "8", "气候周 11 月 8 日周日结束",
+---
+> e.ex("A2", "完成句子", "8", "氣候週 11 月 8 日週日結束",
+269c269
+< e.match_set("A2", "词汇配对",
+---
+> e.match_set("A2", "詞彙配對",
+276,277c276,277
+<             ["Klimaatweek=气候周 b", "besparen=节约 d", "waarschuwing=预警 a", "lokaal=本地的 c"],
+<             instr="把词和释义配对")
+---
+>             ["Klimaatweek=氣候週 b", "besparen=節約 d", "waarschuwing=預警 a", "lokaal=本地的 c"],
+>             instr="把詞和釋義配對")

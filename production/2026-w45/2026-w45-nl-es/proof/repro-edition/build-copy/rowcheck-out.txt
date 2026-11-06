@@ -1,0 +1,15 @@
+p1-voorpagina.svg y=1396.0 gap=3.9 'Pag. 2' || 'Klimaatweek, stap voor stap'
+p1-voorpagina.svg y=1436.0 gap=3.9 'Pag. 3' || 'Musea bij nacht en boeken'
+p1-voorpagina.svg y=1436.0 gap=0.4 'Musea bij nacht en boeken' || 'A2→B1'
+p1-voorpagina.svg y=1476.0 gap=3.9 'Pag. 4' || 'Voetbal: Europa, ronde 12'
+p1-voorpagina.svg y=1516.0 gap=3.9 'Pag. 5' || 'Robinson, ADE, DDW voorbij'
+p1-voorpagina.svg y=1556.0 gap=3.9 'Pag. 6' || 'De codes van het KNMI'
+p1-voorpagina.svg y=1596.0 gap=3.9 'Pag. 7' || 'Woorden van de week'
+p1-voorpagina.svg y=1636.0 gap=3.9 'Pag. 8' || 'Oefeningen en antwoorden'
+same-baseline advance-gap<4px flags: 8
+P6 bars (y, w): [('304', '180'), ('362', '100'), ('420', '80'), ('478', '40')]
+P6 col3 label baselines: [(294.0, 'Ik blijf thuis'), (352.0, 'Ik kijk eerst naar de tekst'), (410.0, 'Ik ga toch naar buiten'), (468.0, 'Ik weet het niet')]
+  label 'Ik blijf thuis' ink_bottom~300 bar_top=304 clearance=4 OK
+  label 'Ik kijk eerst naar de tekst' ink_bottom~358 bar_top=362 clearance=4 OK
+  label 'Ik ga toch naar buiten' ink_bottom~416 bar_top=420 clearance=4 OK
+  label 'Ik weet het niet' ink_bottom~474 bar_top=478 clearance=4 OK

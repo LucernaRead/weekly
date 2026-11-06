@@ -1,0 +1,34 @@
+phrase 2x 文化の日は、11月3日（火よう日）です。
+phrase 2x ゆっくり、ゆるく整える日本の11月です。
+phrase 2x 『ゆる』は、無理をしない、ゆっくり、という意味で
+phrase 2x 鍋の材料が1か月早く並び始めました。
+phrase 2x 伝統工芸と紅葉と光を、いっしょに楽しむことができ
+phrase 2x ソフトバンクが2連勝でスタートしました。
+phrase 2x ルールを守って、楽しいハロウィンにしましょう。
+phrase 2x 紅葉を見に行く人は、北から南へ、見頃を追いかける
+gloss edition: {'content12.py': [4, 4, 5], 'content34.py': [4, 4, 4, 3], 'content56.py': [4, 3, 4]}
+gloss core:    {'content12.py': [4, 4, 5], 'content34.py': [4, 4, 4, 3], 'content56.py': [4, 3, 4]}
+P7 max text y: 2624.0
+P8 keys max y: 2624.0
+images p1-hyoushi: ed=1 core=1 identical=True
+images p2-kurashi: ed=0 core=0 identical=True
+images p3-bunka: ed=1 core=1 identical=True
+images p4-supotsu: ed=1 core=1 identical=True
+images p5-wakamono: ed=1 core=1 identical=True
+images p6-fukayomi: ed=0 core=0 identical=True
+images p7-kotoba: ed=0 core=0 identical=True
+images p8-tesuto: ed=0 core=0 identical=True
+banned-term count 0
+chinese word-level hits: ['池袋', '漆器', '金箔']
+transform NOTE keys: 130; surviving in P8 keys region: ['38+27=65']
+P8 line 37: '37. 8 — Выставка — до 8 ноября'
+model present: True
+P8 line 137 y=1161.1399999999996: '137.'
+P8 line 137 y=2059.828000000002: '137. День культуры — 3 ноября. — См. страницу 3'
+P8 line 138 y=203: '138.'
+P8 line 138 y=2089.056000000002: '138. За брошенный мусор — штраф 2 000 иен. — См. страницу 5'
+P8 line 139 y=268.81: '139.'
+P8 line 139 y=2118.284000000002: '139. 読書週間は10月27日から始まります。 — См. страницу 7'
+P8 line 140 y=334.62: '140.'
+P8 line 140 y=2147.512000000002: '140. 神戸の紅葉のライトアップを見に行きたいです。 — См. страницу'
+FAILURES: ["chinese residue: ['池袋', '漆器', '金箔']"]

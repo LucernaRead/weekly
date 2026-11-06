@@ -1,0 +1,363 @@
+== 1. kinsoku ==
+kinsoku hits: 0 []
+== 2. same-baseline ink collisions ==
+same-baseline collisions: 0
+== 3. right-edge advance scan (font-family-aware, anchor-aware) ==
+right-edge violations: 0 []
+== 4. P6 chart-label ink coverage (mask ink, baseline-anchored, paint order) ==
+chart labels checked: 8 (expect 8); worst later-rect ink coverage: 0.0 None (gate <0.30)
+== 5. gloss counts (split on ·) ==
+content12.py core gloss items: [4, 4, 5] edition: [4, 4, 5] MATCH
+content34.py core gloss items: [4, 4, 4, 3] edition: [4, 4, 4, 3] MATCH
+content56.py core gloss items: [4, 3, 4] edition: [4, 3, 4] MATCH
+== 6. golden phrases 2x ==
+  2 x :: 文化の日は、11月3日（火よう日）です。
+  2 x :: ゆっくり、ゆるく整える日本の11月です。
+  2 x :: 『ゆる』は、無理をしない、ゆっくり、という意味です。
+  2 x :: 鍋の材料が1か月早く並び始めました。
+  2 x :: 伝統工芸と紅葉と光を、いっしょに楽しむことができます。
+  2 x :: ソフトバンクが2連勝でスタートしました。
+  2 x :: ルールを守って、楽しいハロウィンにしましょう。
+  2 x :: 紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。
+== 7. banned term (written as escapes so this script itself stays clean) ==
+  svg: 0
+  build-code: 0
+== 8b. P8 note completeness (no untranslated note survives) ==
+untranslated-note leaks: NONE (150/150 notes differ from core or are language-neutral)
+== 8. code string set-diff (Chinese residue, word-level) ==
+edition-only CJK strings: 98
+   ED-ONLY: 1.5倍 = 50 % de plus que l'an dernier
+   ED-ONLY: Avec 「昨日」, employez le passé.
+   ED-ONLY: Comptez les lieux avec 「か所」.
+   ED-ONLY: Employez 「で」 pour le lieu de l'action.
+   ED-ONLY: Le slogan est 「静かだけど、冒険中。」
+   ED-ONLY: employez 「で」 pour le lieu
+   ED-ONLY: lieu + で + あります
+   ED-ONLY: 「こと」 nominalise le verbe.
+   ED-ONLY: 「ゆる」 = ne pas se forcer
+   ED-ONLY: 「紅葉の本」 est populaire
+   ED-ONLY: 〜倍 fois · 〜% pour cent · 〜万食 dizaines de milliers de portions.
+   ED-ONLY: あなたは？ · À vous la parole
+   ED-ONLY: ことば · Langue
+   ED-ONLY: この号の内容 · Dans ce numéro
+   ED-ONLY: どういたしまして = je vous en prie
+   ED-ONLY: まちがい診療所 · Erreurs fréquentes
+   ED-ONLY: ゆる = détendu b
+   ED-ONLY: ゆる = détendu, sans se forcer
+   ED-ONLY: ゆる = détendu, sans se forcer.
+   ED-ONLY: ゆる veut dire ne pas se forcer, prendre son temps.
+   ED-ONLY: ゆる整え食の4つの言葉 · Quatre mots pour une cuisine douce
+   ED-ONLY: オーケストラ = Suginami d
+   ED-ONLY: クイズ · Quiz éclair
+   ED-ONLY: グラフを読もう · Lire le graphique
+   ED-ONLY: サクサクdeコパン a atteint 13 millions de portions
+   ED-ONLY: サクサクdeコパン a dépassé 13 millions de portions
+   ED-ONLY: テストと答え · Test et réponses
+   ED-ONLY: トップニュース · À la une
+   ED-ONLY: フェンスの中 = à l'intérieur de la clôture
+   ED-ONLY: ライトアップ = château de Kanazawa a
+   ED-ONLY: ライトアップ = illuminer la nuit
+   ED-ONLY: レベル A2 · ゆる整え食と暖かい11月 · Cuisine douce et un novembre doux
+   ED-ONLY: レベル A2→B1 · 文化の日と金沢 · La Journée de la culture et Kanazawa
+   ED-ONLY: レベル B1 · ハロウィンと秋まつり · Halloween et fêtes d'automne
+   ED-ONLY: レベル B1 · 日本シリーズ横浜の2試合 · Les Japan Series : deux matchs à Yokohama
+   ED-ONLY: レベル B2 · 暖かい11月と秋の旅 · Un novembre doux et les voyages d'automne
+   ED-ONLY: 予報 = prévisions météo c
+   ED-ONLY: 予報 prévisions · 平年 une année moyenne · 季節風 vent saisonnier · 話題 sujet · 値上がり hausses de prix.
+   ED-ONLY: 予算 = budget c
+   ED-ONLY: 予算 budget · 満足 satisfaction · 観測 observation · 追いかける poursuivre.
+   ED-ONLY: 今すぐ練習 · À vous de jouer
+   ED-ONLY: 今週のことば · Le mot de la semaine
+   ED-ONLY: 今週のフレーズ · Les phrases de la semaine (extraits mot pour mot de ce numéro)
+   ED-ONLY: 今週のフレーム · Modèle de phrase
+   ED-ONLY: 借りられます = pouvoir emprunter (forme potentielle)
+   ED-ONLY: 季節のことば · Les mots de saison
+   ED-ONLY: 守って + 〜しましょう = respectez les règles, et…
+   ED-ONLY: 工芸 = artisanat
+   ED-ONLY: 工芸展 = musée c
+   ED-ONLY: 市場 = marché
+   ED-ONLY: 市場 marché · 工芸 artisanat · 光 lumière · 楽しむ apprécier.
+   ED-ONLY: 延長 = le match qui se prolonge
+   ED-ONLY: 延長 manches supplémentaires · 逆転 retournement · 同点 égalité · 優勝率 taux de titre.
+   ED-ONLY: 数字で見る今週 · En chiffres
+   ED-ONLY: 整える = mettre en ordre
+   ED-ONLY: 文化の日 = 3 novembre b
+   ED-ONLY: 日本シリーズの日程 · Calendrier
+   ED-ONLY: 来週 · La semaine prochaine (VOL.3)
+   ED-ONLY: 横浜の2試合の記録 · Les deux matchs de Yokohama, en chiffres
+   ED-ONLY: 毎週、日本語で · Chaque semaine · 日本人が読んでいる日本語を読む
+   ED-ONLY: 短いニュース · En bref
+   ED-ONLY: 祝日 jour férié · 見頃 le meilleur moment · 暦 calendrier · お届けします vous apporter.
+   ED-ONLY: 祭り fête · 週末 week-end · 話題 sujet.
+   ED-ONLY: 立冬 = le début de l'hiver
+   ED-ONLY: 立冬, c'est le 7 novembre
+   ED-ONLY: 立冬, c'est le 7 novembre (samedi)
+   ED-ONLY: 答え · Réponses — classées par page, cherchez le numéro
+   ED-ONLY: 紅葉狩り = sortir voir les feuilles
+   ED-ONLY: 総括 bilan · 締め切り date limite · 確認する vérifier.
+   ED-ONLY: 練習 · Exercices · page 2
+   ED-ONLY: 練習 · Exercices · page 3
+   ED-ONLY: 練習 · Exercices · page 4
+   ED-ONLY: 練習 · Exercices · page 5
+   ED-ONLY: 練習 · Exercices · page 6
+   ED-ONLY: 練習用データ · Données d'exercice
+   ED-ONLY: 罰金 amende · 像 statue · 仮装 déguisement · 守る respecter.
+   ED-ONLY: 若者・エンタメ · Jeunesse
+   ED-ONLY: 落葉 = feuilles tombées
+   ED-ONLY: 落葉 = feuilles tombées a
+   ED-ONLY: 蒸し器 = panier vapeur a
+   ED-ONLY: 蒸し器 = un panier vapeur
+   ED-ONLY: 蒸す cuire à la vapeur · 並ぶ apparaître en rayon · 食卓 la table du dîner · 超える dépasser.
+   ED-ONLY: 見せてください = veuillez montrer
+   ED-ONLY: 見たい = vouloir voir
+   ED-ONLY: 見頃 = le meilleur moment
+   ED-ONLY: 見頃 = le meilleur moment b
+   ED-ONLY: 見頃 = quand les feuilles sont les plus belles
+   ED-ONLY: 見頃 le meilleur moment · 紅葉狩り sorties pour voir les feuilles · 落葉 feuilles tombées
+   ED-ONLY: 言語フォーカス · 三つのレベル、三つのテーマ · Trois niveaux, trois thèmes
+   ED-ONLY: 読書週間 Semaine de la lecture · 紹介 présentation · 読み聞かせ lecture à voix haute.
+   ED-ONLY: 読者の手紙 · Le courrier des lecteurs
+   ED-ONLY: 金箔 = feuille d'or
+   ED-ONLY: 鍋 = plat en pot unique d
+   ED-ONLY: 鍋 = un plat cuisiné dans un seul pot
+   ED-ONLY: 陶器 = poterie
+   ED-ONLY: 陶器 poterie · 漆器 laque · 染物 textiles teints · 金箔 feuille d'or.
+   ED-ONLY: 飲むことができません = ne pas pouvoir boire
+   ED-ONLY: 麻辣湯 = soupe épicée d
+core-only CJK strings (must all be mapped Chinese/furniture): 236
+   CO-ONLY: 1.5倍＝比去年多50%
+   CO-ONLY: 11月から1月まで気温は平年より高い
+   CO-ONLY: 11月は平年より暖かい予報です
+   CO-ONLY: 1回の旅の予算は下がった
+   CO-ONLY: 2024年はDeNAが優勝しました
+   CO-ONLY: 2024年夺冠的是DeNA
+   CO-ONLY: 2连胜开局
+   CO-ONLY: 2连胜开局的夺冠率73%
+   CO-ONLY: 2连胜开局的夺冠率是73%
+   CO-ONLY: 2连胜开局的是软银
+   CO-ONLY: 73%≈4人中的3人
+   CO-ONLY: Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY
+   CO-ONLY: — 第{pg}面 —
+   CO-ONLY: ※この手紙は編集部の例です。締め切りまでに、本当の読者の手紙と第8版の作文の優秀作は届きませんでした。VOL.3に載せます。
+   CO-ONLY: 「ゆる」＝无理をしない
+   CO-ONLY: 「紅葉の本」受欢迎
+   CO-ONLY: 〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。
+   CO-ONLY: あなたは？ · 说说你自己
+   CO-ONLY: ことば · 语言
+   CO-ONLY: この号の内容 · 本期目录
+   CO-ONLY: どういたしまして＝不客气
+   CO-ONLY: まちがい診療所 · 易错诊所
+   CO-ONLY: ゆる整え食の4つの言葉 · 关于轻松食养的四个词
+   CO-ONLY: ゆる＝ 轻松、不勉强。
+   CO-ONLY: ゆる＝轻松 b
+   CO-ONLY: ゆる＝轻松、不勉强
+   CO-ONLY: オーケストラ＝杉並 d
+   CO-ONLY: クイズ · 闪电问答
+   CO-ONLY: グラフは練習用データです
+   CO-ONLY: グラフを読もう · 读图表
+   CO-ONLY: コスプレフェスは池袋です
+   CO-ONLY: ゴミの罰金は今年6月からです
+   CO-ONLY: サクサクdeコパンが1,300万食
+   CO-ONLY: サクサクdeコパンが1,300万食を超えた
+   CO-ONLY: ソフトバンクが2連勝しました
+   CO-ONLY: テストと答え · 练习与答案
+   CO-ONLY: トップニュース · 头条
+   CO-ONLY: ハロウィンは10月31日（土）
+   CO-ONLY: フェンスの中＝围栏里面
+   CO-ONLY: ライトアップ＝夜里用灯光照亮
+   CO-ONLY: ライトアップ＝金沢城 a
+   CO-ONLY: レベル A2 · ゆる整え食と暖かい11月 · 轻松食养与暖和的11月
+   CO-ONLY: レベル A2→B1 · 文化の日と金沢 · 文化日与金泽
+   CO-ONLY: レベル B1 · ハロウィンと秋まつり · 万圣节与秋日祭典
+   CO-ONLY: レベル B1 · 日本シリーズ横浜の2試合 · 日本大赛横滨两场
+   CO-ONLY: レベル B2 · 暖かい11月と秋の旅 · 暖和的11月与秋日旅行
+   CO-ONLY: 一锅菜
+   CO-ONLY: 万圣节在10月31日
+   CO-ONLY: 万圣节在10月31日（周六）
+   CO-ONLY: 主语＋时间
+   CO-ONLY: 主语＋时间＋地点＋动词
+   CO-ONLY: 九州の旅の検索は去年のほぼ2倍
+   CO-ONLY: 九州の旅の検索は増えました
+   CO-ONLY: 九州旅行搜索约为去年的2倍
+   CO-ONLY: 乱扔垃圾罚款2,000日元
+   CO-ONLY: 乱扔垃圾，要罚2,000日元。
+   CO-ONLY: 予報 预报 · 平年 往年平均 · 季節風 季风 · 話題 话题 · 値上がり 涨价。
+   CO-ONLY: 予報＝天気の予想 c
+   CO-ONLY: 予算 预算 · 満足 满足 · 観測 观测 · 追いかける 追赶。
+   CO-ONLY: 予算＝预算 c
+   CO-ONLY: 今すぐ練習 · 即学即练
+   CO-ONLY: 今週のことば · 本周单词
+   CO-ONLY: 今週のフレーズ · 本周金句（逐字摘自本期文章）
+   CO-ONLY: 今週のフレーム · 本周句式
+   CO-ONLY: 传统工艺展到11月8日
+   CO-ONLY: 传统工艺展在石川县立美术馆
+   CO-ONLY: 你呢？寒冷的日子想吃什么锅？写两句日语寄来。
+   CO-ONLY: 你呢？文化日想去参加什么文化活动？写两句日语寄来。
+   CO-ONLY: 你呢？秋日祭典上想做什么？写两句日语寄来。
+   CO-ONLY: 借りられます＝能借（可能形）
+   CO-ONLY: 写作
+   CO-ONLY: 写作题（无唯一答案）；范文（{NCHARS} 字）见下。
+   CO-ONLY: 判断
+   CO-ONLY: 判断对错
+   CO-ONLY: 动作发生的场所用「で」。
+   CO-ONLY: 动词名词化时要加「こと」。
+   CO-ONLY: 化妆活动在池袋
+   CO-ONLY: 单选
+   CO-ONLY: 去看红叶的人可以自北向南追赶最佳观赏期。
+   CO-ONLY: 口号是「静かだけど、冒険中。」
+   CO-ONLY: 句式拆解：轻松地调理身心。
+   CO-ONLY: 可以同时欣赏传统工艺、红叶与灯光。
+   CO-ONLY: 周二是文化日
+   CO-ONLY: 周六和朋友去神户
+   CO-ONLY: 和家人一起
+   CO-ONLY: 四项合计100%
+   CO-ONLY: 图中最受欢迎的是近处的满足感
+   CO-ONLY: 图书馆活动有图书介绍
+   CO-ONLY: 在金泽看传统工艺展和灯光秀
+   CO-ONLY: 地点用「か所」来数。
+   CO-ONLY: 地点＋で＋あります
+   CO-ONLY: 场所用「で」
+   CO-ONLY: 填空
+   CO-ONLY: 夜里路上不能喝酒
+   CO-ONLY: 夺冠率73%
+   CO-ONLY: 季節のことば · 季节词语
+   CO-ONLY: 守って、〜しましょう
+   CO-ONLY: 完形单选
+   CO-ONLY: 完成句子
+   CO-ONLY: 对照第3版
+   CO-ONLY: 对照第5版
+   CO-ONLY: 对照第6版（神户的灯光秀）
+   CO-ONLY: 对照第7版
+   CO-ONLY: 工艺展到11月8日
+   CO-ONLY: 工艺展到11月8日（周日）
+   CO-ONLY: 工芸展＝美術館 c
+   CO-ONLY: 工芸＝工艺
+   CO-ONLY: 市場 市场 · 工芸 工艺 · 光 灯光 · 楽しむ 享受。
+   CO-ONLY: 市場＝集市
+   CO-ONLY: 延長 延长赛 · 逆転 逆转 · 同点 平分 · 優勝率 夺冠率。
+   CO-ONLY: 延長＝比赛延长
+   CO-ONLY: 我想去神户看红叶灯光秀。→ ___
+   CO-ONLY: 所谓ゆる，就是不勉强、慢慢来的意思。
+   CO-ONLY: 把活动和地点·时间配对
+   CO-ONLY: 把词和释义配对
+   CO-ONLY: 数字で見る今週 · 数字看本周
+   CO-ONLY: 整える＝调理、调养
+   CO-ONLY: 文化の日＝11月3日 b
+   CO-ONLY: 文化日全国都有文化活动
+   CO-ONLY: 文化日在11月3日（周二）
+   CO-ONLY: 文化日是11月3日。
+   CO-ONLY: 文化日是11月3日星期二。
+   CO-ONLY: 日本シリーズの日程 · 大赛日程
+   CO-ONLY: 日本大赛第1战在10月24日（周六）
+   CO-ONLY: 有「昨日」时要用过去式。
+   CO-ONLY: 服と食事の話題はnoteのまとめによるもの
+   CO-ONLY: 杉并的活动是家庭管弦乐队
+   CO-ONLY: 来源与日期见各篇文章，非精确统计
+   CO-ONLY: 来週 · 下期预告 (VOL.3)
+   CO-ONLY: 横浜の2試合の記録 · 横滨两场比赛的记录
+   CO-ONLY: 横滨中区民祭在11月8日（周日）
+   CO-ONLY: 横滨祭典在11月8日
+   CO-ONLY: 毎週、日本語で · 每周一期 · 日本人が読んでいる日本語を読む
+   CO-ONLY: 每题附一句中文简析 · 带 ✓ 的为范文题
+   CO-ONLY: 气象厅预报在10月20日
+   CO-ONLY: 气象厅预报气温高于往年
+   CO-ONLY: 気象庁の予報は10月20日
+   CO-ONLY: 活动从10月30日到11月1日
+   CO-ONLY: 涩谷禁酒时间是18时到5时
+   CO-ONLY: 温泉27%
+   CO-ONLY: 火锅食材提前一个月上架了。
+   CO-ONLY: 灯光秀在神户开始
+   CO-ONLY: 灯光秀在金泽城和兼六园
+   CO-ONLY: 発表は10月21日
+   CO-ONLY: 相川监督说「4场胜负之战」
+   CO-ONLY: 短いニュース · 快讯
+   CO-ONLY: 祝日 节假日 · 見頃 最佳观赏期 · 暦 历法 · お届けします 为您送上。
+   CO-ONLY: 神户灯光秀从7日开始
+   CO-ONLY: 神户灯光秀从7日（周六）开始
+   CO-ONLY: 神户灯光秀到12月28日
+   CO-ONLY: 祭り 节日 · 週末 周末 · 話題 话题。
+   CO-ONLY: 禁酒从18时开始
+   CO-ONLY: 禁酒到早上5时
+   CO-ONLY: 立冬在11月7日
+   CO-ONLY: 立冬在11月7日（周六）
+   CO-ONLY: 立冬＝冬天的开始
+   CO-ONLY: 第 {n} 版 / 共 {total} 版
+   CO-ONLY: 第1战打到延长11局
+   CO-ONLY: 第1战观众33,388人
+   CO-ONLY: 第1战软银3-1胜DeNA
+   CO-ONLY: 第1战软银得3分
+   CO-ONLY: 第1戦は土よう日です
+   CO-ONLY: 第1面
+   CO-ONLY: 第2战打到延长10局
+   CO-ONLY: 第2战观众33,432人
+   CO-ONLY: 第2战软银4-3获胜
+   CO-ONLY: 第2战软银得4分
+   CO-ONLY: 第2战逆转的是筒香的3分本垒打
+   CO-ONLY: 第2戦も延長戦でした
+   CO-ONLY: 第2面
+   CO-ONLY: 第3面
+   CO-ONLY: 第4面
+   CO-ONLY: 第5面
+   CO-ONLY: 第6面
+   CO-ONLY: 答え · 参考答案 — 按版面分页排列，找到题号即可
+   CO-ONLY: 答案见第 8 版 · 题目可跨级混排，按题号找答案
+   CO-ONLY: 紅葉狩り＝去看红叶
+   CO-ONLY: 総括 总结 · 締め切り 截稿 · 確認する 核实。
+   CO-ONLY: 練習 · 第 2 版练习
+   CO-ONLY: 練習 · 第 3 版练习
+   CO-ONLY: 練習 · 第 4 版练习
+   CO-ONLY: 練習 · 第 5 版练习
+   CO-ONLY: 練習 · 第 6 版练习
+   CO-ONLY: 練習用データ · 练习数据
+   CO-ONLY: 红叶21%与美食14%之差为7
+   CO-ONLY: 编辑部示例信，非真实来信。截至截稿，未收到真实来信与第8版最佳作文；VOL.3将刊登收到的来信与佳作。
+   CO-ONLY: 罰金 罚款 · 像 雕像 · 仮装 变装 · 守る 遵守。
+   CO-ONLY: 美香周二和家人去金泽
+   CO-ONLY: 翻译
+   CO-ONLY: 节日过后，红叶周末到来 · 详见第 3 版
+   CO-ONLY: 若者・エンタメ · 青年
+   CO-ONLY: 范文见本版 H 区（{NCHARS} 字）
+   CO-ONLY: 落葉＝落叶
+   CO-ONLY: 落葉＝落叶 a
+   CO-ONLY: 蒸し器＝蒸笼
+   CO-ONLY: 蒸し器＝蒸笼 a
+   CO-ONLY: 蒸す 蒸 · 並ぶ 摆上货架 · 食卓 餐桌 · 超える 超过。
+   CO-ONLY: 蒸笼
+   CO-ONLY: 見せてください＝请出示
+   CO-ONLY: 見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉 落叶
+   CO-ONLY: 見頃＝最佳观赏期
+   CO-ONLY: 見頃＝最佳观赏期 b
+   CO-ONLY: 見頃＝红叶最美的时候
+   CO-ONLY: 见たい＝想看
+   CO-ONLY: 言語フォーカス · 三つのレベル、三つのテーマ · 三个级别，三个主题
+   CO-ONLY: 読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗读。
+   CO-ONLY: 読者の手紙 · 读者园地
+   CO-ONLY: 词汇配对
+   CO-ONLY: 译注｜
+   CO-ONLY: 读书周从10月27日开始。→ ___
+   CO-ONLY: 读书周从10月27日（周二）开始
+   CO-ONLY: 读书周到11月9日
+   CO-ONLY: 读书周到11月9日（周一）
+   CO-ONLY: 读书周到11月9日（第7版）
+   CO-ONLY: 读书周想借2本书
+   CO-ONLY: 读头版，选出正确答案 · 答案见第 8 版
+   CO-ONLY: 调理、调养
+   CO-ONLY: 软银以两连胜开局。
+   CO-ONLY: 轻松、不勉强
+   CO-ONLY: 近场满足感38%
+   CO-ONLY: 这四个话题，都是本期报纸的主题。
+   CO-ONLY: 这是一个慢慢地、轻松调理的日本11月。
+   CO-ONLY: 造句
+   CO-ONLY: 遵守规则，过一个快乐的万圣节吧。
+   CO-ONLY: 金箔＝金箔
+   CO-ONLY: 鍋の材料が1か月早く並んだ
+   CO-ONLY: 鍋の食卓は去年の1.5倍
+   CO-ONLY: 鍋＝一锅菜
+   CO-ONLY: 鍋＝一锅菜 d
+   CO-ONLY: 陶器 陶瓷 · 漆器 漆器 · 染物 染色织物 · 金箔 金箔。
+   CO-ONLY: 陶器＝陶瓷
+   CO-ONLY: 雨が多いのは太平洋側
+   CO-ONLY: 飲むことができません＝不能喝
+   CO-ONLY: 鳴子峡の見頃は10月31日から11月8日の週末
+   CO-ONLY: 麻辣湯＝辛いスープ d
+   CO-ONLY: （开放题，范文如下）

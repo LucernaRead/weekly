@@ -1,0 +1,64 @@
+== FURNITURE P1 rects/lines (y near masthead) ==
+-- CORE
+   rect {'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}
+   rect {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}
+   rect {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   rect {'x': '65', 'y': '424', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}
+   line {'x1': '65', 'y1': '112', 'x2': '1885', 'y2': '112', 'stroke': '#b3a06a', 'stroke-width': '1.6'}
+   line {'x1': '65', 'y1': '392', 'x2': '1885', 'y2': '392', 'stroke': '#28251d', 'stroke-width': '3'}
+   line {'x1': '65', 'y1': '401', 'x2': '1885', 'y2': '401', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   footer tail: [(2449.45, '戸 · B. 金沢 · C. 鳴子峡'), (2624.0, 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY'), (2624.0, '第 1 版 / 共 8 版')]
+-- RU
+   rect {'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}
+   rect {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}
+   rect {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   rect {'x': '65', 'y': '424', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}
+   line {'x1': '65', 'y1': '112', 'x2': '1885', 'y2': '112', 'stroke': '#b3a06a', 'stroke-width': '1.6'}
+   line {'x1': '65', 'y1': '406', 'x2': '1885', 'y2': '406', 'stroke': '#28251d', 'stroke-width': '3'}
+   line {'x1': '65', 'y1': '413', 'x2': '1885', 'y2': '413', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   footer tail: [(2449.45, '戸 · B. 金沢 · C. 鳴子峡'), (2624.0, 'Lucerna · ЯПОНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ЯПОНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'), (2624.0, 'Страница 1 из 8')]
+-- W43
+   rect {'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}
+   rect {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}
+   rect {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   rect {'x': '65', 'y': '424', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}
+   line {'x1': '65', 'y1': '112', 'x2': '1885', 'y2': '112', 'stroke': '#b3a06a', 'stroke-width': '1.6'}
+   line {'x1': '65', 'y1': '406', 'x2': '1885', 'y2': '406', 'stroke': '#28251d', 'stroke-width': '3'}
+   line {'x1': '65', 'y1': '413', 'x2': '1885', 'y2': '413', 'stroke': '#28251d', 'stroke-width': '1.2'}
+   footer tail: [(2449.45, '· C. 3位'), (2624.0, 'Lucerna · ЯПОНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ЯПОНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'), (2624.0, 'Страница 1 из 8')]
+
+== P1 badge rect fill: rect containing badge text baseline 356 ==
+CORE [{'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}, {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}, {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}]
+RU [{'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}, {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}, {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}]
+W43 [{'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}, {'x': '28', 'y': '28', 'width': '1894', 'height': '2644', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '3.4'}, {'x': '40', 'y': '40', 'width': '1870', 'height': '2620', 'fill': 'none', 'stroke': '#28251d', 'stroke-width': '1.2'}]
+
+== PAGE TABS: core P7 'p.N' vs RU P7 '(Страница N)' ==
+CORE p.N: [] | Страница: []
+RU p.N: [] | Страница: ['День культуры — вторник, 3 ноября. (Страница 1)', 'Это медленный, размеренный японский ноябрь. (Страница 1)', '«ゆる» значит не напрягаться, не торопиться. (Страница 2)', 'Ингредиенты для набэ появились в магазинах на месяц раньше. (Страница 2)', 'подсветкой. (Страница 3)', '«СофтБанк» начал с двух побед подряд. (Страница 4)', 'Соблюдайте правила — и пусть Хэллоуин будет весёлым! (Страница 5)', 'Едущие смотреть листву следуют за её пиком с севера на юг. (Страница 6)', 'Страница 7 из 8']
+W43 p.N: [] | Страница: ['Это противостояние — впервые за два года. (Страница 1)', 'Выходные будут жаркими от спорта. (Страница 1)', 'Фронт клёнов движется с севера на юг. (Страница 2)', 'Осень — также сезон вкусной еды. (Страница 2)', 'Идя по улице, можно увидеть долгую историю Японии. (Страница 3)', 'Результаты — в газете на следующей неделе. (Страница 4)', 'Выходные, когда многие смеялись у телевизора. (Страница 5)', 'Люди с инвалидностью и без — в одном месте, на одном матче. (Страница 6)', 'Страница 7 из 8']
+
+== FOOTER page line all pages RU vs CORE vs W43 ==
+p1-hyoushi RU: ['Страница 1 из 8'] CORE: [] W43: ['Страница 1 из 8']
+p2-kurashi RU: ['Страница 2 из 8'] CORE: [] W43: ['Страница 2 из 8']
+p3-bunka RU: ['Страница 3 из 8'] CORE: [] W43: ['Страница 3 из 8']
+p4-supotsu RU: ['Страница 4 из 8'] CORE: [] W43: ['Страница 4 из 8']
+p5-wakamono RU: ['Страница 5 из 8'] CORE: [] W43: ['Страница 5 из 8']
+p6-fukayomi RU: ['Страница 6 из 8'] CORE: [] W43: ['Страница 6 из 8']
+p7-kotoba RU: ['Страница 7 из 8'] CORE: [] W43: ['Страница 7 из 8']
+p8-tesuto RU: ['Страница 8 из 8'] CORE: [] W43: ['Страница 8 из 8']
+
+== GLOSS prefix + P8 separators ==
+CORE gloss-prefix-ish: {}
+CORE P8 seps: ['— 第1面 —', '— 第2面 —', '— 第3面 —', '— 第4面 —', '— 第5面 —', '— 第6面 —', '— 第7面 —', '— 第8面 —']
+RU gloss-prefix-ish: {'Пояснение — 祝日 праздник ': 1, 'Пояснение — 蒸す готовить ': 1, 'Пояснение — 予報 прогноз ·': 1, 'Пояснение — 市場 рынок · 工': 1, 'Пояснение — 陶器 керамика ': 1, 'Пояснение — 延長 дополните': 1, 'Пояснение — 総括 итоги · 締': 1, 'Пояснение — 罰金 штраф · 像': 1, 'Пояснение — 祭り фестиваль': 1, 'Пояснение — 予算 бюджет · ': 1}
+RU P8 seps: ['— СТРАНИЦА 1 —', '— СТРАНИЦА 2 —', '— СТРАНИЦА 3 —', '— СТРАНИЦА 4 —', '— СТРАНИЦА 5 —', '— СТРАНИЦА 6 —', '— СТРАНИЦА 7 —', '— СТРАНИЦА 8 —']
+
+== '全部' vs 'ВСЕ' across W45 JA family ==
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ja-ru-proof/proof1.py", line 110, in <module>
+    s = raw(os.path.join(d, pg + ".svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ja-ru-proof/proof1.py", line 13, in raw
+    return open(p, encoding="utf-8").read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-de/p1-hyoushi.svg'

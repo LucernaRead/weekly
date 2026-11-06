@@ -1,0 +1,12 @@
+9c9
+< BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-core")
+---
+> BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-zh-tw")
+29c29
+< print_pdf = os.path.join(BASE, "De-Lucerna-VOL2.pdf")
+---
+> print_pdf = os.path.join(BASE, "De-Lucerna-VOL2-ZHTW.pdf")
+41c41
+< web_pdf = os.path.join(BASE, "De-Lucerna-VOL2-web.pdf")
+---
+> web_pdf = os.path.join(BASE, "De-Lucerna-VOL2-ZHTW-web.pdf")

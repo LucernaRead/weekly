@@ -1,0 +1,202 @@
+text_w probe: 132.3125
+
+== RIGHT-EDGE ADVANCE SCAN (limit 1885.5) ==
+  violations: 0
+
+== P1 TOP BAND (y=92) ink spacing ==
+  65–220 'VOL. 2 · 第2号'
+  675–1275 '毎週、日本語で · Elke week · 日本人が読んでいる日本語を読む'
+  1530–1885 '2026年11月2日（月）〜8日（日）'
+
+== KINSOKU LINE-START SCAN ==
+  NO_START set size: 16
+  kinsoku hits: 0
+
+== P6 CHART-LABEL COVERAGE (true ink vs later rects) ==
+  MAX chart-page later-rect ink coverage: 0.000 (gate <0.30)
+
+== FULL-PAGE FRAME SCAN (ink crossing a rect border) ==
+  frame-scan hits: 0
+
+== GLOSS COUNTS (split on separator) ==
+  core content12.py: 3 gloss calls
+  core content34.py: 4 gloss calls
+  core content56.py: 3 gloss calls
+  edition content12.py: 3 gloss calls
+  edition content34.py: 4 gloss calls
+  edition content56.py: 3 gloss calls
+  p1-hyoushi.svg: Uitleg-prefixed text runs: 1
+  p2-kurashi.svg: Uitleg-prefixed text runs: 2
+  p3-bunka.svg: Uitleg-prefixed text runs: 2
+  p4-supotsu.svg: Uitleg-prefixed text runs: 2
+  p5-wakamono.svg: Uitleg-prefixed text runs: 2
+  p6-fukayomi.svg: Uitleg-prefixed text runs: 1
+  p7-kotoba.svg: Uitleg-prefixed text runs: 1
+  p8-tesuto.svg: Uitleg-prefixed text runs: 0
+
+== P7 PHRASES ==
+  count=1 「文化の日は、11月3日（火よう日）です。」
+  count=1 「ゆっくり、ゆるく整える日本の11月です。」
+  count=1 「『ゆる』は、無理をしない、ゆっくり、という意味です。」
+  count=1 「鍋の材料が1か月早く並び始めました。」
+  count=1 「伝統工芸と紅葉と光を、いっしょに楽しむことができます。」
+  count=1 「ソフトバンクが2連勝でスタートしました。」
+  count=1 「ルールを守って、楽しいハロウィンにしましょう。」
+  count=1 「紅葉を見に行く人は、北から南へ、見頃を追いかけることができ
+  tag (Pagina 1): 2
+  tag (Pagina 2): 2
+  tag (Pagina 3): 1
+  tag (Pagina 4): 1
+  tag (Pagina 5): 1
+  tag (Pagina 6): 1
+
+== IMAGES + CREDITS ==
+  p1-hyoushi.svg: edition [] core [] equal=True
+  p2-kurashi.svg: edition [] core [] equal=True
+  p3-bunka.svg: edition [] core [] equal=True
+  p4-supotsu.svg: edition [] core [] equal=True
+  p5-wakamono.svg: edition [] core [] equal=True
+  p6-fukayomi.svg: edition [] core [] equal=True
+  p7-kotoba.svg: edition [] core [] equal=True
+  p8-tesuto.svg: edition [] core [] equal=True
+  p1-hyoushi.svg credits equal=True ed=['出典：各発表・予報の日付は記事の中にあります', '写真：Poliphilo — CC0（Wikimedia Commons）']
+  p2-kurashi.svg credits equal=True ed=[]
+  p3-bunka.svg credits equal=True ed=['版画：歌川広重（三代）— パブリックドメイン（Wikimedia']
+  p4-supotsu.svg credits equal=True ed=['写真：Syced — CC0（Wikimedia Commons）']
+  p5-wakamono.svg credits equal=True ed=['写真：Petr Kratochvil — パブリックドメイン（Wikimedia']
+  p6-fukayomi.svg credits equal=True ed=[]
+  p7-kotoba.svg credits equal=True ed=[]
+  p8-tesuto.svg credits equal=True ed=[]
+
+== P8 INTEGRITY ==
+  core lines 318, edition lines 334, identical distinct lines: 108
+    IDENTICAL: '113.'
+    IDENTICAL: '114.'
+    IDENTICAL: '115.'
+    IDENTICAL: '116.'
+    IDENTICAL: '117.'
+    IDENTICAL: '118.'
+    IDENTICAL: '119.'
+    IDENTICAL: '120.'
+    IDENTICAL: '121.'
+    IDENTICAL: '122.'
+    IDENTICAL: '123.'
+    IDENTICAL: '124.'
+    IDENTICAL: '125.'
+    IDENTICAL: '126.'
+    IDENTICAL: '127.'
+    IDENTICAL: '128.'
+    IDENTICAL: '129.'
+    IDENTICAL: '130.'
+    IDENTICAL: '131.'
+    IDENTICAL: '132.'
+    IDENTICAL: '133.'
+    IDENTICAL: '134.'
+    IDENTICAL: '135.'
+    IDENTICAL: '136.'
+    IDENTICAL: '137.'
+    IDENTICAL: '138.'
+    IDENTICAL: '139.'
+    IDENTICAL: '140.'
+    IDENTICAL: '141. 見頃'
+    IDENTICAL: '141–144.'
+    IDENTICAL: '142. 鍋'
+    IDENTICAL: '143. 落葉'
+    IDENTICAL: '144. 予算'
+    IDENTICAL: '145.'
+    IDENTICAL: '146.'
+    IDENTICAL: '147.'
+    IDENTICAL: '148.'
+    IDENTICAL: '149.'
+    IDENTICAL: '150.'
+    IDENTICAL: '2連勝で始めたチームの優勝率は？ A. 73% · B. 24% · C. 100%'
+    IDENTICAL: 'A · 週のクロニクル'
+    IDENTICAL: 'A2'
+    IDENTICAL: 'B · 一般問題'
+    IDENTICAL: 'B. 見て)'
+    IDENTICAL: 'B1'
+    IDENTICAL: 'B2'
+    IDENTICAL: 'C · 読んで答えましょう'
+    IDENTICAL: 'C. 野球の試合'
+    IDENTICAL: 'C. 鍋の料理'
+    IDENTICAL: 'D · 文を作りましょう'
+    IDENTICAL: 'E · 翻訳しましょう'
+    IDENTICAL: 'F · 今週のことば'
+    IDENTICAL: 'G · 図書館で'
+    IDENTICAL: 'H · 書いてみましょう'
+    IDENTICAL: 'Lucerna'
+    IDENTICAL: 'a. 木から落ちた葉'
+    IDENTICAL: 'b. 花や紅葉がいちばん美しい時'
+    IDENTICAL: 'c. 1回の旅のお金'
+    IDENTICAL: 'd. 一つの鍋で作る料理'
+    IDENTICAL: '— 2冊、___ か。 (A. 借りられます · B. 借りますた)'
+    IDENTICAL: '— ありがとうございました。— ___ 。(A. どういたしまして · B. さよ'
+    IDENTICAL: '— おすすめはありますか。— 『___ 』の本が人気です。(A. 紅葉 · B.'
+    IDENTICAL: '— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて ·'
+    IDENTICAL: '— 読書週間はいつまでですか。— 11月 ___ 日までです。(A. 9 · B. 3)'
+    IDENTICAL: '『私の11月の週末』について、150〜200字で書いてください。文化の'
+    IDENTICAL: 'いですが、楽しいことが多い季節です。'
+    IDENTICAL: 'うなら)'
+    IDENTICAL: 'く · C. 図書館へ行く'
+    IDENTICAL: 'す。土よう日には、友達と神戸へ紅葉を見に行くつもりです。読'
+    IDENTICAL: 'と金沢へ行くつもりです。伝統工芸展とライトアップを見たいで'
+    IDENTICAL: 'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ'
+    IDENTICAL: 'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も'
+    IDENTICAL: 'ゴミを捨てると、2,000円の罰金です。 → ___'
+    IDENTICAL: 'ソフトバンクは / 2連勝で / スタートしました → ___'
+    IDENTICAL: 'ハロウィンは、10月 ___ 日（土）でした。(A. 30 · B. 31)'
+    IDENTICAL: 'ミカは火よう日に何をしますか。 A. 神戸へ行く · B. 家族と金沢へ行'
+    IDENTICAL: 'ミカは高校生です。今週の火よう日は文化の日です。ミカは家族'
+    IDENTICAL: '九州の旅の検索は、去年と比べてどうなりましたか。 A. ほぼ2倍 · B.'
+    IDENTICAL: '伝統工芸展はいつまでですか。 A. 11月3日 · B. 11月8日 · C. 11月9日'
+    IDENTICAL: '例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家'
+    IDENTICAL: '半分 · C. 同じ'
+    IDENTICAL: '図書館で / 本を / 借ります → ___'
+    IDENTICAL: '土よう日にどこへ行きますか。 A. 神戸 · B. 金沢 · C. 杉並区'
+    IDENTICAL: '年より低い · C. 平年と同じ'
+    IDENTICAL: '文化の日は11月3日です。 → ___'
+    IDENTICAL: '文化の日は、11月3日（___）です。(A. 火よう日 · B. 土よう日)'
+    IDENTICAL: '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土'
+    IDENTICAL: '日、紅葉、読書の中から一つ選んでください。'
+    IDENTICAL: '日よう日)'
+    IDENTICAL: '日本シリーズの第1戦は、10月24日（___）でした。(A. 土よう日 · B.'
+    IDENTICAL: '書週間には、図書館で本を2冊借りたいと思っています。'
+    IDENTICAL: '杉並区のイベントは何ですか。 A. 家族オーケストラ · B. 伝統工芸展 ·'
+    IDENTICAL: '気象庁の予報では、気温はどうなりますか。 A. 平年より高い · B. 平'
+    IDENTICAL: '渋谷でゴミを捨てた時の罰金は？ A. 2,000円 · B. 200円 · C. 20,000円'
+    IDENTICAL: '神戸のライトアップは、___ 日から始まります。(A. 7 · B. 3)'
+    IDENTICAL: '私は / 火よう日に / 金沢へ行きます → ___'
+    IDENTICAL: '立冬は、11月 ___ 日（土）です。(A. 7 · B. 3)'
+    IDENTICAL: '第1戦の観客は何人でしたか。 A. 33,388人 · B. 33,432人 · C. 33,000人'
+    IDENTICAL: '第2戦は、ソフトバンクが ___ 対3で勝ちました。(A. 4 · B. 3)'
+    IDENTICAL: '紅葉の秋'
+    IDENTICAL: '紅葉は / 今週末が / 見頃です → ___'
+    IDENTICAL: '終わりますから、静かな場所で大きな冒険をしたいです。11月は短'
+    IDENTICAL: '読書週間に借りたい本は？ A. 3冊 · B. 2冊 · C. 9冊'
+    IDENTICAL: '読書週間のスローガンは？ A. 静かだけど、冒険中。 · B. 本の秋 · C.'
+    IDENTICAL: '読書週間は、11月 ___ 日までです。(A. 9 · B. 8)'
+    IDENTICAL: '野球)'
+    IDENTICAL: '金沢で何を見ますか。 A. 野球の試合 · B. 伝統工芸展とライトアップ ·'
+    IDENTICAL: '鍋の食卓は、去年の ___ 倍になりました。(A. 1.5 · B. 2)'
+  ED '137.'
+  ED '138.'
+  ED '139.'
+  ED '140.'
+  ED '37. 8 — De tentoonstelling loopt tot 8 november'
+  CORE '137. 文化日是11月3日。 — 对照第3版'
+  CORE '138. 乱扔垃圾，要罚2,000日元。 — 对照第5版'
+  CORE '139. 読書週間は10月27日から始まります。 — 对照第7版'
+  CORE '140. 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神'
+  ED instr: 'Vertaal naar het Nederlands'
+  ED instr: 'Vertaal naar het Nederlands'
+  ED instr: 'Vertaal naar het Japans'
+  ED instr: 'Vertaal naar het Japans'
+
+== WORD-LEVEL CJK RESIDUE (edition runs absent from core text) ==
+
+== FURNITURE COUNTS ==
+  badge P1: 2 TEKSTEN IN HET JAPANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS y=356.0 size=19.0
+  footers: 8, page lines: 8, P8 separators: 8, gloss-prefix runs: 10
+
+== BANNED-TERM SCAN ==
+  banned-term hits in SVG+build code: 0 (ABSTRACT/KIT checked separately)

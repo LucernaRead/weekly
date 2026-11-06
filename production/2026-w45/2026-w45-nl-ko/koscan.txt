@@ -1,0 +1,31 @@
+UNRESOLVED p1-voorpagina.svg y=330.0 head='12라운드' tail='네덜란드어' :: '간 · 박물관의 밤 · 12라운드' / '네덜란드어 텍스트 · 한국어 해설'
+UNRESOLVED p1-voorpagina.svg y=478.0 head='주간' tail='온' :: '기후 주간' / '온 나라가 함께하는 기후 주간 ·'
+SPLIT p1-voorpagina.svg y=1480.475->1507.475 head='쿠'(1) tail='포르던이'(4) :: ...'ag uitdeelt(토요일에 쿠' / '포르던이 나눠 주는 나무와 관목)'
+SPLIT p1-voorpagina.svg y=1586.475->1613.475 head='박'(1) tail='물관,'(2) :: ...'ht(박물관의 밤에 문을 여는 박' / '물관, 70곳 이상)'
+SPLIT p2-leven.svg y=1339.4->1369.125 head='뿌리내'(3) tail='리다'(2) :: ...' 기후 · wortelen 뿌리내' / '리다 · besparen 절약하다'
+SPLIT p2-leven.svg y=1357.6799999999998->1386.08 head='문'(1) tail='장'(1) :: ...'약, 자전거 타기. 네덜란드어 문' / '장 두 개를 써서 편집부에 보내세'
+SPLIT p2-leven.svg y=1707.24->1731.94 head='실'(1) tail='내에'(2) :: ...'매우 위험해요, 되도록 실' / '내에 머무르세요'
+SPLIT p2-leven.svg y=1707.24->1731.94 head='지역'(2) tail='을'(1) :: ...'경보는 여러분이 사는 지역' / '을 대상으로 해요'
+SPLIT p3-cultuur.svg y=2505.725->2535.45 head='복수형으'(4) tail='로'(1) :: ...' 채우세요. 어떤 단어는 복수형으' / '로 바꿔야 해요.'
+SPLIT p3-cultuur.svg y=2301.5->2331.225 head='주의'(2) tail='하세요.'(3) :: ...'동사 hebben/zijn에 주의' / '하세요.'
+SPLIT p4-sport.svg y=929.5->959.225 head='비기'(2) tail='다'(1) :: ...' · gelijkspelen 비기' / '다 · de speelronde '
+SPLIT p4-sport.svg y=959.225->988.95 head='빅'(1) tail='매치'(2) :: ...' 라운드 · de topper 빅' / '매치 · de stand 순위표.'
+SPLIT p4-sport.svg y=2418.725->2448.45 head='주의하세'(4) tail='요.'(1) :: ...' 채우세요. 동사 형태에 주의하세' / '요.'
+SPLIT p5-jongeren.svg y=998.6799999999998->1027.2399999999998 head='점수'(2) tail='는'(1) :: ...'eeld(미션에 주목하세요: 점수' / '는 거기서 갈려요)'
+SPLIT p5-jongeren.svg y=902.1499999999999->930.5499999999998 head='활동'(2) tail='하는'(2) :: ...', 아니면 직접 밖에 나가서 활동' / '하는 쪽이 더 좋아요? 네덜란드어'
+UNRESOLVED p6-verdieping.svg y=635.0200000000001 head='뿐' tail='실제' :: ': 가상의 숫자라서 연습용일 뿐,' / '실제 설문 조사가 아니에요. 질문'
+SPLIT p6-verdieping.svg y=659.44->683.86 head='여'(1) tail='러분은'(3) :: ...'에요. 질문: 주황색 경보 때 여' / '러분은 어떻게 할 거예요? (젊은'
+SPLIT p7-taal.svg y=692.98->722.705 head='치우'(2) tail='다:'(1) :: ...'e mee; opruimen 치우' / '다: wij hebben opge'
+SPLIT p7-taal.svg y=722.705->752.4300000000001 head='생각에'(3) tail='는'(1) :: ...'ijkt me dat… 제 생각에' / '는 ~인 것 같아요.'
+SPLIT p7-taal.svg y=627.04->653.56 head='대문'(2) tail='자로'(2) :: ...'k는 고유명사라서 첫 글자를 대문' / '자로 써요.'
+SPLIT p7-taal.svg y=1047.12->1073.6399999999999 head='와'(1) tail='요:'(1) :: ...'서는 본문 동사가 2번 자리에 와' / '요: blijf ik thuis.'
+SPLIT p7-taal.svg y=1328.59->1356.99 head='네덜'(2) tail='란드가'(3) :: ...'참여하다: 기후 주간에는 온 네덜' / '란드가 참여해요.'
+SPLIT p7-taal.svg y=1927.47->1955.8700000000001 head='여러분'(3) tail='의'(1) :: ...', 실제 편지가 아니에요. 여러분' / '의 실제 편지와 8면 최고 작문을'
+SPLIT p8-toets.svg y=2101.2400000000016->2116.9000000000015 head='헤이렌베'(4) tail='인-페예노르트예요'(8) :: ...':30이고, 11:15는 헤이렌베' / '인-페예노르트예요'
+SPLIT p8-toets.svg y=1996.6000000000017->2012.2600000000018 head='와'(1) tail='요'(1) :: ...' — 명령문: 동사가 맨 앞에 와' / '요'
+CANDIDATES=36 TRUE_SPLITS=22 S3=5
+ORPHAN final lines (<=1 syllable): 2
+  ORPHAN ('p4-sport.svg', 2448.45, '요.')
+  ORPHAN ('p8-toets.svg', 2012.2600000000018, '요')
+LINE-START orphan punct: 1
+  LEAD ('p7-taal.svg', 752.4300000000001, ': zij zette vast.')

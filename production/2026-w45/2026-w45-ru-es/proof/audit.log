@@ -1,0 +1,116 @@
+== 2a Cyrillic token multiset per page (core vs edition) ==
+p1-pervaya: core=400 ed=400 equal=True core-only={} ed-only={}
+p2-zhizn: core=443 ed=443 equal=True core-only={} ed-only={}
+p3-kultura: core=338 ed=338 equal=True core-only={} ed-only={}
+p4-sport: core=306 ed=306 equal=True core-only={} ed-only={}
+p5-molodezh: core=316 ed=316 equal=True core-only={} ed-only={}
+p6-razbor: core=354 ed=354 equal=True core-only={} ed-only={}
+p7-yazyk: core=397 ed=397 equal=True core-only={} ed-only={}
+p8-test: core=641 ed=641 equal=True core-only={} ed-only={}
+CYRILLIC ALL EQUAL: True
+
+== 2b CJK accounting ==
+p1-pervaya: core CJK chars=117 edition CJK chars=0
+p2-zhizn: core CJK chars=189 edition CJK chars=0
+p3-kultura: core CJK chars=124 edition CJK chars=0
+p4-sport: core CJK chars=119 edition CJK chars=0
+p5-molodezh: core CJK chars=105 edition CJK chars=0
+p6-razbor: core CJK chars=136 edition CJK chars=0
+p7-yazyk: core CJK chars=245 edition CJK chars=0
+p8-test: core CJK chars=806 edition CJK chars=0
+EDITION TOTAL CJK: 0
+
+== 3 P8 independent dash-parse (join wrapped continuations) ==
+core answers=150 edition answers=150 missing=[] extra=[]
+dash-parse keydiff (keys differing where both have dash form): [137, 138]
+  83 CORE: 'B — 一周有 3 个休息日（周三、周六、周日）'
+  83 ED  : 'B — La semana tiene 3 días festivos (miércoles, sábado y domingo)'
+     printed key identical: True
+  137 CORE: '11 月 4 日星期三放假。 — 对照第 3 版'
+  137 ED  : 'El miércoles 4 de noviembre es festivo. — Compáralo con la página 3'
+  138 CORE: '促销码就是折扣码。 — 对照第 5 版'
+  138 ED  : 'Un código promocional es un código de descuento. — Compáralo con la página 5'
+  139 CORE: 'В субботу «Краснодар» играет с ЦСКА. — 注意：играть + с + 工具格'
+  139 ED  : 'В субботу «Краснодар» играет с ЦСКА. — Fíjate en: играть + с + instrumental'
+     139/140 key byte-identical: True
+  140 CORE: 'Поздравляю с Днём народного единства! — поздравляю + с + 工具格'
+  140 ED  : 'Поздравляю с Днём народного единства! — поздравляю + с + instrumental'
+     139/140 key byte-identical: True
+  148 CORE: 'A — его = 促销码（阳性）'
+  148 ED  : 'A — его = el código promocional (masculino)'
+     printed key identical: True
+  150 CORE: '✓ 范文见本版 H 区（84 词）'
+  150 ED  : '✓ El texto modelo está en la sección H de esta página (84 palabras)'
+P8 CORE max answer-text y = 2532.59 (rule at 2580)
+P8 ED max answer-text y = 2534.97 (rule at 2580)
+
+== 3b P8 model text (section H) word count, edition ==
+-- CORE p8 texts y>2400 --
+    '36. вернуться — вернуться = 回来' y= 2418.637000000002 fs= 13.0
+    '37. выспаться — выспаться = 睡个够' y= 2446.827000000002 fs= 13.0
+    '38. ноября — 4 + 属格：ноября' y= 2475.017000000002 fs= 13.0
+    '39. b — 集市 b' y= 2503.207000000002 fs= 13.0
+    '40. d — 音乐会 d' y= 2531.397000000002 fs= 13.0
+    '77. c — 清单 c' y= 2416.498000000002 fs= 13.0
+    '78. b — 价格 b' y= 2444.688000000002 fs= 13.0
+    '79. Промокод — это код со скидкой. — 定义句：это' y= 2472.878000000002 fs= 13.0
+    '80. Сначала составьте список покупок. — 命令式 + 宾语' y= 2501.068000000002 fs= 13.0
+    '81. Сравните цену в разных магазинах. — 命令式 + 地点' y= 2529.258000000002 fs= 13.0
+    '116. A — 焦点战在周六' y= 2419.827000000002 fs= 13.0
+    '117. A — 德比比分 2:0' y= 2448.017000000002 fs= 13.0
+    '118. A — 第 15 轮 11 月 20 日' y= 2476.207000000002 fs= 13.0
+    '119. B — 11 月 5 日返校' y= 2504.397000000002 fs= 13.0
+    '120. A — 促销码是折扣码' y= 2532.5870000000023 fs= 13.0
+    'Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY' y= 2624 fs= 20
+    '第 8 版 / 共 8 版' y= 2624 fs= 20
+-- ED p8 texts y>2400 --
+    '35. гуляют — гулять → гуляют' y= 2405.137000000002 fs= 13.0
+    '36. вернуться — вернуться = volver' y= 2433.327000000002 fs= 13.0
+    '37. выспаться — выспаться = dormir hasta tarde' y= 2461.517000000002 fs= 13.0
+    '38. ноября — 4 + genitivo: ноября' y= 2489.707000000002 fs= 13.0
+    '39. b — Feria b' y= 2517.897000000002 fs= 13.0
+    '75. d — Descuento d' y= 2417.6880000000024 fs= 13.0
+    '76. a — Código promocional a' y= 2445.8780000000024 fs= 13.0
+    '77. c — Lista c' y= 2474.0680000000025 fs= 13.0
+    '78. b — Precio b' y= 2502.2580000000025 fs= 13.0
+    '79. Промокод — это код со скидкой. — Frase de definición: это' y= 2530.4480000000026 fs= 13.0
+    '— СТРАНИЦА 8 —' y= 2420.368000000002 fs= 13.3
+    '113. A — El 4 de noviembre es festivo' y= 2450.397000000002 fs= 13.0
+    '114. B — El 3 de noviembre es un día de trabajo más corto' y= 2478.5870000000023 fs= 13.0
+    '115. A — Las ofertas terminan el 12 de noviembre' y= 2506.7770000000023 fs= 13.0
+    '116. A — El partido destacado es el sábado' y= 2534.9670000000024 fs= 13.0
+    'palabras)' y= 2403.4800000000023 fs= 13.0
+    'Lucerna · SEMANARIO RUSO VOL.2 · TEXTO EN RUSO · EXPLICACIONES EN ESPAÑOL' y= 2624 fs= 20
+    'Página 8 de 8' y= 2624 fs= 20
+
+== 5a gloss counts (split on U+00B7 itself, build code) ==
+CORE: calls=9 items=26 per-file={'content12.py': [3, 3, 3], 'content34.py': [3, 3, 3], 'content56.py': [3, 2, 3]}
+ED: calls=9 items=26 per-file={'content12.py': [3, 3, 3], 'content34.py': [3, 3, 3], 'content56.py': [3, 2, 3]}
+
+== 5b image payloads byte-identical (per page) ==
+p1-pervaya: core images=1 edition images=1 payload-identical=True
+p2-zhizn: core images=0 edition images=0 payload-identical=True
+p3-kultura: core images=0 edition images=0 payload-identical=True
+p4-sport: core images=1 edition images=1 payload-identical=True
+p5-molodezh: core images=1 edition images=1 payload-identical=True
+p6-razbor: core images=0 edition images=0 payload-identical=True
+p7-yazyk: core images=0 edition images=0 payload-identical=True
+p8-test: core images=0 edition images=0 payload-identical=True
+
+== 5c P7 golden sentences: 8 P7 quotes, count across whole issue ==
+golden sentences found on ED P7: 8
+   '«Среда, 4 ноября, — выходной посреди рабочей недели»'
+   '«Как жить неделю с праздником посреди недели»'
+   '«Во вторник, 3 ноября, рабочий день короче на час»'
+   '«В среду города устраивают ярмарки и концерты»'
+   '«В воскресенье, 8 ноября, — три матча»'
+   '«Сначала — список: что вам правда нужно»'
+   '«Многие берут отпуск в четверг и в пятницу»'
+   '«Пять дней — почти маленькие каникулы»'
+CORE occurrence counts (whitespace-normalised whole-issue): [1, 1, 1, 1, 1, 1, 1, 1] all==2: False
+   raw counts: [1, 1, 1, 1, 1, 1, 1, 1]
+ED occurrence counts (whitespace-normalised whole-issue): [1, 1, 1, 1, 1, 1, 1, 1] all==2: False
+   raw counts: [1, 1, 1, 1, 1, 1, 1, 1]
+
+== 6/7 badge + P7 geometry (raw element dump, see separate badge script) ==
+deferred to badge.py for PIL ink measurement

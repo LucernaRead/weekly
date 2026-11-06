@@ -1,0 +1,4442 @@
+{
+ "scope": {
+  "changed": [
+   [
+    "Lucerna-VOL2-EN-web.pdf",
+    "394b93996688",
+    "5a4893e50047"
+   ],
+   [
+    "Lucerna-VOL2-EN.pdf",
+    "a213dcf6357b",
+    "abb86daf0ff1"
+   ],
+   [
+    "p8-tesuto.png",
+    "8b28f8e7d8d6",
+    "641e290f07c7"
+   ],
+   [
+    "p8-tesuto.svg",
+    "65b63e637613",
+    "a7433832d190"
+   ]
+  ],
+  "unchanged": [
+   "p1-hyoushi.png",
+   "p1-hyoushi.svg",
+   "p2-kurashi.png",
+   "p2-kurashi.svg",
+   "p3-bunka.png",
+   "p3-bunka.svg",
+   "p4-supotsu.png",
+   "p4-supotsu.svg",
+   "p5-wakamono.png",
+   "p5-wakamono.svg",
+   "p6-fukayomi.png",
+   "p6-fukayomi.svg",
+   "p7-kotoba.png",
+   "p7-kotoba.svg"
+  ],
+  "missing_in_prefix": []
+ },
+ "buildtree": {
+  "transform.py": {
+   "pre": "005c6a0b25d8",
+   "cur": "c858f930076c",
+   "changed": true
+  },
+  "run.py": {
+   "pre": "ca45aabf00da",
+   "cur": "ca45aabf00da",
+   "changed": false
+  },
+  "render.py": {
+   "pre": "79c998e7186a",
+   "cur": "79c998e7186a",
+   "changed": false
+  },
+  "content12.py": {
+   "pre": "56343cf901e0",
+   "cur": "56343cf901e0",
+   "changed": false
+  },
+  "content34.py": {
+   "pre": "0570cb3ce9f1",
+   "cur": "935c4fe4a70c",
+   "changed": true
+  },
+  "content56.py": {
+   "pre": "0075df462068",
+   "cur": "0075df462068",
+   "changed": false
+  },
+  "content7.py": {
+   "pre": "1ea58815d24b",
+   "cur": "1ea58815d24b",
+   "changed": false
+  },
+  "content8.py": {
+   "pre": "17824d15936d",
+   "cur": "17824d15936d",
+   "changed": false
+  },
+  "bslib4.py": {
+   "pre": "0f9b85aec575",
+   "cur": "0f9b85aec575",
+   "changed": false
+  },
+  "svglib.py": {
+   "pre": "b55102b5c97c",
+   "cur": "b55102b5c97c",
+   "changed": false
+  }
+ },
+ "svglib_md5": "d73e23b365676c3618d7e060b835eb4d",
+ "forbidden_svg-ed": 0,
+ "forbidden_kit": 0,
+ "forbidden_abstract": 0,
+ "kinsoku": {
+  "core_p1_std": [
+   0,
+   []
+  ],
+  "core_p1_wide": [
+   0,
+   []
+  ],
+  "ed_p1_std": [
+   0,
+   []
+  ],
+  "ed_p1_wide": [
+   0,
+   []
+  ],
+  "core_p2_std": [
+   0,
+   []
+  ],
+  "core_p2_wide": [
+   0,
+   []
+  ],
+  "ed_p2_std": [
+   0,
+   []
+  ],
+  "ed_p2_wide": [
+   0,
+   []
+  ],
+  "core_p3_std": [
+   0,
+   []
+  ],
+  "core_p3_wide": [
+   0,
+   []
+  ],
+  "ed_p3_std": [
+   0,
+   []
+  ],
+  "ed_p3_wide": [
+   0,
+   []
+  ],
+  "core_p4_std": [
+   0,
+   []
+  ],
+  "core_p4_wide": [
+   0,
+   []
+  ],
+  "ed_p4_std": [
+   0,
+   []
+  ],
+  "ed_p4_wide": [
+   0,
+   []
+  ],
+  "core_p5_std": [
+   0,
+   []
+  ],
+  "core_p5_wide": [
+   0,
+   []
+  ],
+  "ed_p5_std": [
+   0,
+   []
+  ],
+  "ed_p5_wide": [
+   0,
+   []
+  ],
+  "core_p6_std": [
+   0,
+   []
+  ],
+  "core_p6_wide": [
+   0,
+   []
+  ],
+  "ed_p6_std": [
+   0,
+   []
+  ],
+  "ed_p6_wide": [
+   0,
+   []
+  ],
+  "core_p7_std": [
+   0,
+   []
+  ],
+  "core_p7_wide": [
+   1,
+   [
+    "〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。"
+   ]
+  ],
+  "ed_p7_std": [
+   0,
+   []
+  ],
+  "ed_p7_wide": [
+   1,
+   [
+    "〜倍 times · 〜% percent · 〜万食"
+   ]
+  ],
+  "core_p8_std": [
+   0,
+   []
+  ],
+  "core_p8_wide": [
+   0,
+   []
+  ],
+  "ed_p8_std": [
+   0,
+   []
+  ],
+  "ed_p8_wide": [
+   0,
+   []
+  ]
+ },
+ "freeze_pages": {
+  "p1": {
+   "added_n": 20,
+   "removed_n": 18,
+   "cjk_core": 1406,
+   "cjk_ed": 1275,
+   "cjk_added": {}
+  },
+  "p2": {
+   "added_n": 23,
+   "removed_n": 20,
+   "cjk_core": 1312,
+   "cjk_ed": 1161,
+   "cjk_added": {}
+  },
+  "p3": {
+   "added_n": 17,
+   "removed_n": 15,
+   "cjk_core": 1172,
+   "cjk_ed": 1051,
+   "cjk_added": {}
+  },
+  "p4": {
+   "added_n": 13,
+   "removed_n": 13,
+   "cjk_core": 1263,
+   "cjk_ed": 1169,
+   "cjk_added": {}
+  },
+  "p5": {
+   "added_n": 16,
+   "removed_n": 14,
+   "cjk_core": 1247,
+   "cjk_ed": 1132,
+   "cjk_added": {}
+  },
+  "p6": {
+   "added_n": 11,
+   "removed_n": 11,
+   "cjk_core": 1186,
+   "cjk_ed": 1101,
+   "cjk_added": {}
+  },
+  "p7": {
+   "added_n": 37,
+   "removed_n": 35,
+   "cjk_core": 1676,
+   "cjk_ed": 1308,
+   "cjk_added": {}
+  },
+  "p8": {
+   "added_n": 176,
+   "removed_n": 171,
+   "cjk_core": 2721,
+   "cjk_ed": 1448,
+   "cjk_added": {}
+  }
+ },
+ "removed_with_kana": {
+  "p1": [
+   "この号の内容 · 本期目录",
+   "ゆる＝ 轻松、不勉强。",
+   "クイズ · 闪电问答",
+   "トップニュース · 头条",
+   "今すぐ練習 · 即学即练",
+   "今週のことば · 本周单词",
+   "历法 · お届けします 为您送上。",
+   "数字で見る今週 · 数字看本周",
+   "毎週、日本語で · 每周一期 · 日本人が読んでいる日本語を読む",
+   "短いニュース · 快讯"
+  ],
+  "p2": [
+   "· 超える 超过。",
+   "あなたは？ · 说说你自己",
+   "ゆる整え食の4つの言葉 · 关于轻松食养的四个词",
+   "レベル A2 · ゆる整え食と暖かい11月 · 轻松食养与暖和的11月",
+   "季節のことば · 季节词语",
+   "季风 · 話題 话题 · 値上がり 涨价。",
+   "译注｜蒸す 蒸 · 並ぶ 摆上货架 · 食卓 餐桌"
+  ],
+  "p3": [
+   "あなたは？ · 说说你自己",
+   "しむ 享受。",
+   "レベル A2→B1 · 文化の日と金沢 · 文化日与金泽"
+  ],
+  "p4": [
+   "る 核实。",
+   "レベル B1 · 日本シリーズ横浜の2試合 · 日本大赛横滨两场",
+   "日本シリーズの日程 · 大赛日程",
+   "横浜の2試合の記録 · 横滨两场比赛的记录",
+   "译注｜総括 总结 · 締め切り 截稿 · 確認す"
+  ],
+  "p5": [
+   "あなたは？ · 说说你自己",
+   "る 遵守。",
+   "レベル B1 · ハロウィンと秋まつり · 万圣节与秋日祭典",
+   "若者・エンタメ · 青年",
+   "译注｜祭り 节日 · 週末 周末 · 話題 话题。"
+  ],
+  "p6": [
+   "グラフを読もう · 读图表",
+   "レベル B2 · 暖かい11月と秋の旅 · 暖和的11月与秋日旅行",
+   "練習用データ · 练习数据",
+   "追いかける 追赶。"
+  ],
+  "p7": [
+   "※この手紙は編集部の例です。締め切りま",
+   "ことば · 语言",
+   "でに、本当の読者の手紙と第8版の作文の",
+   "ます。",
+   "まちがい診療所 · 易错诊所",
+   "今週のフレーズ · 本周金句（逐字摘自本期文章）",
+   "今週のフレーム · 本周句式",
+   "優秀作は届きませんでした。VOL.3に載せ",
+   "动作发生的场所用「で」。",
+   "动词名词化时要加「こと」。",
+   "地点用「か所」来数。",
+   "所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)",
+   "見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉",
+   "言語フォーカス · 三つのレベル、三つのテーマ · 三个级别，三个主题",
+   "読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗",
+   "読者の手紙 · 读者园地"
+  ],
+  "p8": [
+   "100. × — グラフは練習用データです",
+   "103. B — 口号是「静かだけど、冒険中。」",
+   "106. 紅葉狩り — 紅葉狩り＝去看红叶",
+   "107. C — ライトアップ＝夜里用灯光照亮",
+   "11. B — 「ゆる」＝无理をしない",
+   "111. 1.5 — 鍋の食卓は去年の1.5倍",
+   "112. 1,300 — サクサクdeコパンが1,300万食",
+   "119. A — 鍋の食卓は去年の1.5倍",
+   "12. B — 鍋の食卓は去年の1.5倍",
+   "128. A — 口号是「静かだけど、冒険中。」",
+   "13. A — 発表は10月21日",
+   "133. 私は火よう日に金沢へ行きます。 — 主语＋时间＋地点＋动词",
+   "134. 紅葉は今週末が見頃です。 — 見頃＝最佳观赏期",
+   "135. 図書館で本を借ります。 — 场所用「で」",
+   "136. ソフトバンクは2連勝でスタートしました。 — 2连胜开局",
+   "139. 読書週間は10月27日から始まります。 — 对照第7版",
+   "14. C — 11月から1月まで気温は平年より高い",
+   "140. 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神",
+   "145. A — 見せてください＝请出示",
+   "146. A — 借りられます＝能借（可能形）",
+   "148. A — 「紅葉の本」受欢迎",
+   "149. A — どういたしまして＝不客气",
+   "15. B — 服と食事の話題はnoteのまとめによるもの",
+   "16. ゆる — ゆる＝轻松、不勉强",
+   "17. 蒸し器 — 蒸し器＝蒸笼",
+   "18. 整える — 整える＝调理、调养",
+   "19. 1.5 — 鍋の食卓は去年の1.5倍",
+   "21. 21 — 発表は10月21日",
+   "22. 1 — 鍋の材料が1か月早く並んだ",
+   "23. 20 — 気象庁の予報は10月20日",
+   "24. 1,300 — サクサクdeコパンが1,300万食を超えた",
+   "25. b — ゆる＝轻松 b",
+   "26. a — 蒸し器＝蒸笼 a",
+   "27. d — 麻辣湯＝辛いスープ d",
+   "28. c — 予報＝天気の予想 c",
+   "39. 文化の日は3日です。 — 主语＋时间",
+   "40. 金沢で工芸展があります。 — 地点＋で＋あります",
+   "41. ライトアップを見たいです。 — 见たい＝想看",
+   "42. 家族で音楽を楽しみます。 — 和家人一起",
+   "43. b — 文化の日＝11月3日 b",
+   "45. d — オーケストラ＝杉並 d",
+   "46. a — ライトアップ＝金沢城 a",
+   "6. 文化の日 — 文化日全国都有文化活动",
+   "61. × — 第1戦は土よう日です",
+   "62. ○ — ソフトバンクが2連勝しました",
+   "63. × — 第2戦も延長戦でした",
+   "64. ○ — 2024年はDeNAが優勝しました",
+   "76. ○ — ゴミの罰金は今年6月からです",
+   "77. × — コスプレフェスは池袋です",
+   "78. ○ — ハロウィンは10月31日（土）",
+   "79. 飲む — 飲むことができません＝不能喝",
+   "80. 守って — 守って、〜しましょう",
+   "81. 中 — フェンスの中＝围栏里面",
+   "83. B — 11月から1月まで気温は平年より高い",
+   "84. B — 雨が多いのは太平洋側",
+   "85. B — 九州の旅の検索は去年のほぼ2倍",
+   "86. A — 1回の旅の予算は下がった",
+   "87. B — 鳴子峡の見頃は10月31日から11月8日の週末",
+   "88. 近場の満足 — 图中最受欢迎的是近处的满足感",
+   "98. × — 11月は平年より暖かい予報です",
+   "99. ○ — 九州の旅の検索は増えました",
+   "テストと答え · 练习与答案",
+   "答え · 参考答案 — 按版面分页排列，找到题号即可"
+  ]
+ },
+ "added_with_cjk": {
+  "p1": [
+   "Note — 祝日 holiday · 見頃 best viewing",
+   "season · 暦 calendar · お届けします to",
+   "この号の内容 · In this issue",
+   "ゆる = relaxed, not forcing it.",
+   "クイズ · Quick quiz",
+   "トップニュース · Top story",
+   "今すぐ練習 · Practice now",
+   "今週のことば · Word of the week",
+   "数字で見る今週 · Week in numbers",
+   "毎週、日本語で · Weekly · 日本人が読んでいる日本語を読む",
+   "短いニュース · News in brief"
+  ],
+  "p2": [
+   "Note — 予報 forecast · 平年 an average",
+   "Note — 蒸す to steam · 並ぶ to appear on",
+   "shelves · 食卓 the dinner table · 超える to",
+   "year · 季節風 seasonal wind · 話題 topic ·",
+   "あなたは？ · Your turn",
+   "ゆる整え食の4つの言葉 · Four words for gentle eating",
+   "レベル A2 · ゆる整え食と暖かい11月 · Gentle food and a warm November",
+   "値上がり price rises.",
+   "季節のことば · Words of the season",
+   "練習 · Page 2 exercises"
+  ],
+  "p3": [
+   "Note — 市場 market · 工芸 craft · 光 light",
+   "Note — 陶器 pottery · 漆器 lacquerware ·",
+   "· 楽しむ to enjoy.",
+   "あなたは？ · Your turn",
+   "レベル A2→B1 · 文化の日と金沢 · Culture Day and Kanazawa",
+   "染物 dyed textiles · 金箔 gold leaf.",
+   "練習 · Page 3 exercises"
+  ],
+  "p4": [
+   "Note — 延長 extra innings · 逆転",
+   "Note — 総括 roundup · 締め切り deadline",
+   "comeback · 同点 tie · 優勝率 title rate.",
+   "· 確認する to confirm.",
+   "レベル B1 · 日本シリーズ横浜の2試合 · The Japan Series: two games in Yokohama",
+   "日本シリーズの日程 · Series schedule",
+   "横浜の2試合の記録 · The two Yokohama games, on record",
+   "練習 · Page 4 exercises"
+  ],
+  "p5": [
+   "Note — 祭り festival · 週末 weekend · 話",
+   "Note — 罰金 fine · 像 statue · 仮装",
+   "dressing up · 守る to follow.",
+   "あなたは？ · Your turn",
+   "レベル B1 · ハロウィンと秋まつり · Halloween and autumn festivals",
+   "練習 · Page 5 exercises",
+   "若者・エンタメ · Youth",
+   "題 topic."
+  ],
+  "p6": [
+   "Note — 予算 budget · 満足 satisfaction ·",
+   "グラフを読もう · Reading the chart",
+   "レベル B2 · 暖かい11月と秋の旅 · A warm November and autumn travel",
+   "練習 · Page 6 exercises",
+   "練習用データ · Practice data",
+   "観測 observation · 追いかける to chase."
+  ],
+  "p7": [
+   "Add 「こと」 to turn a verb into a noun",
+   "Count places with 「か所」.",
+   "Use 「で」 for the place where an action",
+   "With 「昨日」, use the past tense.",
+   "leaf-viewing outings · 落葉 fallen leaves",
+   "〜倍 times · 〜% percent · 〜万食",
+   "ことば · Language",
+   "まちがい診療所 · Error clinic",
+   "ゆる means not forcing it, taking it slowly. (p.2)",
+   "今週のフレーズ · Phrases of the week (verbatim from this issue)",
+   "今週のフレーム · Frame of the week",
+   "来週 · Next issue (VOL.3)",
+   "見頃 best viewing season · 紅葉狩り",
+   "言語フォーカス · 三つのレベル、三つのテーマ · Three levels, three themes",
+   "読み聞かせ reading aloud.",
+   "読書週間 Reading Week · 紹介 introduction ·",
+   "読者の手紙 · Readers' corner"
+  ],
+  "p8": [
+   "103. B — The slogan is 「静かだけど、冒険中。」",
+   "105. B — 見頃 = when the leaves look their best",
+   "106. 紅葉狩り — 紅葉狩り = going out to see the leaves",
+   "107. C — ライトアップ = lighting up at night",
+   "108. 落葉 — 落葉 = fallen leaves",
+   "109. B — 1.5倍 = 50% more than last year",
+   "11. B — 「ゆる」 = not forcing it",
+   "112. 1,300 — サクサクdeコパン reached 13 million servings",
+   "118. A — 立冬 is November 7 (Saturday)",
+   "128. A — The slogan is 「静かだけど、冒険中。」",
+   "133. 私は火よう日に金沢へ行きます。 — subject + time + place + verb",
+   "134. 紅葉は今週末が見頃です。 — 見頃 = best viewing season",
+   "135. 図書館で本を借ります。 — use 「で」 for place",
+   "136. ソフトバンクは2連勝でスタートしました。 — starting with two",
+   "139. 読書週間は10月27日から始まります。 — See page 7",
+   "140. 神戸の紅葉のライトアップを見に行きたいです。 — See page 6",
+   "141. b — 見頃 = best viewing season b",
+   "142. d — 鍋 = one-pot dish d",
+   "143. a — 落葉 = fallen leaves a",
+   "144. c — 予算 = budget c",
+   "145. A — 見せてください = please show",
+   "146. A — 借りられます = can borrow (potential form)",
+   "148. A — 「紅葉の本」 is popular",
+   "149. A — どういたしまして = you're welcome",
+   "16. ゆる — ゆる = relaxed, not forcing it",
+   "17. 蒸し器 — 蒸し器 = a steamer basket",
+   "18. 整える — 整える = to put in order",
+   "20. 鍋 — 鍋 = a one-pot dish",
+   "24. 1,300 — サクサクdeコパン passed 13 million servings",
+   "25. b — ゆる = relaxed b",
+   "26. a — 蒸し器 = steamer basket a",
+   "27. d — 麻辣湯 = spicy soup dish d",
+   "28. c — 予報 = weather forecast c",
+   "3. 見頃 — 見頃 = best viewing season",
+   "34. 市場 — 市場 = market",
+   "35. 工芸 — 工芸 = craft",
+   "36. 陶器 — 陶器 = pottery",
+   "38. 金箔 — 金箔 = gold leaf",
+   "39. 文化の日は3日です。 — subject + time",
+   "4. 立冬 — 立冬 = the start of winter",
+   "40. 金沢で工芸展があります。 — place + で + あります",
+   "41. ライトアップを見たいです。 — 見たい = want to see",
+   "42. 家族で音楽を楽しみます。 — together with family",
+   "43. b — 文化の日 = November 3 b",
+   "44. c — 工芸展 = museum c",
+   "45. d — オーケストラ = Suginami d",
+   "46. a — ライトアップ = Kanazawa Castle a",
+   "57. B — 延長 = the game going long",
+   "6. 文化の日 — Culture Day brings cultural events nationwide",
+   "79. 飲む — 飲むことができません = cannot drink",
+   "80. 守って — 守って + 〜しましょう = follow the rules, and let's…",
+   "81. 中 — フェンスの中 = inside the fence",
+   "82. 10月30日 — The festival ran October 30 to November 1",
+   "88. 近場の満足 — The chart's top answer is nearby satisfaction",
+   "9. B — 立冬 is November 7 (Saturday)",
+   "94. 7 — 立冬 is November 7",
+   "テストと答え · Test and answers",
+   "答え · Answers — grouped by page; just find your number"
+  ]
+ },
+ "final_maru_missing": {
+  "p1": [
+   [
+    "历法 · お届けします 为您送上。",
+    1,
+    0
+   ],
+   [
+    "这四个话题，都是本期报纸的主题。",
+    1,
+    0
+   ],
+   [
+    "ゆる＝ 轻松、不勉强。",
+    1,
+    0
+   ]
+  ],
+  "p2": [
+   [
+    "· 超える 超过。",
+    1,
+    0
+   ],
+   [
+    "季风 · 話題 话题 · 値上がり 涨价。",
+    1,
+    0
+   ],
+   [
+    "寄来。",
+    1,
+    0
+   ]
+  ],
+  "p3": [
+   [
+    "しむ 享受。",
+    1,
+    0
+   ],
+   [
+    "物 · 金箔 金箔。",
+    1,
+    0
+   ],
+   [
+    "句日语寄来。",
+    1,
+    0
+   ]
+  ],
+  "p4": [
+   [
+    "· 優勝率 夺冠率。",
+    1,
+    0
+   ],
+   [
+    "る 核实。",
+    1,
+    0
+   ]
+  ],
+  "p5": [
+   [
+    "る 遵守。",
+    1,
+    0
+   ],
+   [
+    "译注｜祭り 节日 · 週末 周末 · 話題 话题。",
+    1,
+    0
+   ],
+   [
+    "来。",
+    1,
+    0
+   ]
+  ],
+  "p6": [
+   [
+    "追いかける 追赶。",
+    1,
+    0
+   ]
+  ],
+  "p7": [
+   [
+    "读。",
+    1,
+    0
+   ],
+   [
+    "〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。",
+    1,
+    0
+   ],
+   [
+    "有「昨日」时要用过去式。",
+    1,
+    0
+   ],
+   [
+    "动词名词化时要加「こと」。",
+    1,
+    0
+   ],
+   [
+    "地点用「か所」来数。",
+    1,
+    0
+   ],
+   [
+    "动作发生的场所用「で」。",
+    1,
+    0
+   ],
+   [
+    "句式拆解：轻松地调理身心。",
+    1,
+    0
+   ],
+   [
+    "ます。",
+    1,
+    0
+   ],
+   [
+    "登收到的来信与佳作。",
+    1,
+    0
+   ]
+  ],
+  "p8": [
+   [
+    "写作题（无唯一答案）；范文（167 字）见下。",
+    1,
+    0
+   ]
+  ]
+ },
+ "freeze_string_scope": {
+  "p1_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p1_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p1_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p1_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p2_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p2_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p2_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p2_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p3_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p3_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p3_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p3_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p4_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p4_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p4_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p4_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p5_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p5_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p5_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p5_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p6_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p6_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p6_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p6_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p7_added_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p7_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p7_removed_strings_vs_preproof": {
+   "only_new": [],
+   "only_pre": []
+  },
+  "p7_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p8_added_strings_vs_preproof": {
+   "only_new": [
+    "37. 8 — The exhibition runs to November 8"
+   ],
+   "only_pre": []
+  },
+  "p8_added_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  },
+  "p8_removed_strings_vs_preproof": {
+   "only_new": [
+    "37. 8 — 工艺展到11月8日"
+   ],
+   "only_pre": []
+  },
+  "p8_removed_strings_vs_fix5": {
+   "only_new": [],
+   "only_fix5": []
+  }
+ },
+ "corrosion_pairs": {
+  "p1": [
+   [
+    0.514,
+    "この号の内容 · 本期目录",
+    "この号の内容 · In this issue"
+   ],
+   [
+    0.645,
+    "トップニュース · 头条",
+    "トップニュース · Top story"
+   ],
+   [
+    0.848,
+    "毎週、日本語で · 每周一期 · 日本人が読んでいる日本語を読む",
+    "毎週、日本語で · Weekly · 日本人が読んでいる日本語を読む"
+   ],
+   [
+    0.545,
+    "短いニュース · 快讯",
+    "短いニュース · News in brief"
+   ]
+  ],
+  "p4": [
+   [
+    0.505,
+    "レベル B1 · 日本シリーズ横浜の2試合 · 日本大赛横滨两场",
+    "レベル B1 · 日本シリーズ横浜の2試合 · The Japan Series: two games in Yokohama"
+   ],
+   [
+    0.558,
+    "日本シリーズの日程 · 大赛日程",
+    "日本シリーズの日程 · Series schedule"
+   ]
+  ],
+  "p5": [
+   [
+    0.533,
+    "あなたは？ · 说说你自己",
+    "あなたは？ · Your turn"
+   ],
+   [
+    0.537,
+    "レベル B1 · ハロウィンと秋まつり · 万圣节与秋日祭典",
+    "レベル B1 · ハロウィンと秋まつり · Halloween and autumn festivals"
+   ],
+   [
+    0.741,
+    "若者・エンタメ · 青年",
+    "若者・エンタメ · Youth"
+   ]
+  ],
+  "p6": [
+   [
+    0.514,
+    "練習用データ · 练习数据",
+    "練習用データ · Practice data"
+   ]
+  ],
+  "p8": [
+   [
+    0.712,
+    "103. B — 口号是「静かだけど、冒険中。」",
+    "103. B — The slogan is 「静かだけど、冒険中。」"
+   ],
+   [
+    0.558,
+    "108. 落葉 — 落葉＝落叶",
+    "108. 落葉 — 落葉 = fallen leaves"
+   ],
+   [
+    0.533,
+    "109. B — 1.5倍＝比去年多50%",
+    "109. B — 1.5倍 = 50% more than last year"
+   ],
+   [
+    0.7,
+    "110. A — 73%≈4人中的3人",
+    "110. A — 73% ≈ 3 in 4"
+   ],
+   [
+    0.6,
+    "112. 1,300 — サクサクdeコパンが1,300万食",
+    "112. 1,300 — サクサクdeコパン reached 13 million servings"
+   ],
+   [
+    0.64,
+    "123. A — 第1战观众33,388人",
+    "123. A — Game 1 crowd: 33,388"
+   ],
+   [
+    0.712,
+    "128. A — 口号是「静かだけど、冒険中。」",
+    "128. A — The slogan is 「静かだけど、冒険中。」"
+   ],
+   [
+    0.535,
+    "133. 私は火よう日に金沢へ行きます。 — 主语＋时间＋地点＋动词",
+    "133. 私は火よう日に金沢へ行きます。 — subject + time + place + verb"
+   ],
+   [
+    0.611,
+    "134. 紅葉は今週末が見頃です。 — 見頃＝最佳观赏期",
+    "134. 紅葉は今週末が見頃です。 — 見頃 = best viewing season"
+   ],
+   [
+    0.721,
+    "135. 図書館で本を借ります。 — 场所用「で」",
+    "135. 図書館で本を借ります。 — use 「で」 for place"
+   ],
+   [
+    0.718,
+    "136. ソフトバンクは2連勝でスタートしました。 — 2连胜开局",
+    "136. ソフトバンクは2連勝でスタートしました。 — starting with two"
+   ],
+   [
+    0.812,
+    "139. 読書週間は10月27日から始まります。 — 对照第7版",
+    "139. 読書週間は10月27日から始まります。 — See page 7"
+   ],
+   [
+    0.805,
+    "140. 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神",
+    "140. 神戸の紅葉のライトアップを見に行きたいです。 — See page 6"
+   ],
+   [
+    0.558,
+    "142. d — 鍋＝一锅菜 d",
+    "142. d — 鍋 = one-pot dish d"
+   ],
+   [
+    0.578,
+    "143. a — 落葉＝落叶 a",
+    "143. a — 落葉 = fallen leaves a"
+   ],
+   [
+    0.684,
+    "144. c — 予算＝预算 c",
+    "144. c — 予算 = budget c"
+   ],
+   [
+    0.64,
+    "145. A — 見せてください＝请出示",
+    "145. A — 見せてください = please show"
+   ],
+   [
+    0.682,
+    "148. A — 「紅葉の本」受欢迎",
+    "148. A — 「紅葉の本」 is popular"
+   ],
+   [
+    0.618,
+    "149. A — どういたしまして＝不客气",
+    "149. A — どういたしまして = you're welcome"
+   ],
+   [
+    0.542,
+    "17. 蒸し器 — 蒸し器＝蒸笼",
+    "17. 蒸し器 — 蒸し器 = a steamer basket"
+   ],
+   [
+    0.52,
+    "18. 整える — 整える＝调理、调养",
+    "18. 整える — 整える = to put in order"
+   ],
+   [
+    0.568,
+    "24. 1,300 — サクサクdeコパンが1,300万食を超えた",
+    "24. 1,300 — サクサクdeコパン passed 13 million servings"
+   ],
+   [
+    0.649,
+    "25. b — ゆる＝轻松 b",
+    "25. b — ゆる = relaxed b"
+   ],
+   [
+    0.565,
+    "26. a — 蒸し器＝蒸笼 a",
+    "26. a — 蒸し器 = steamer basket a"
+   ],
+   [
+    0.52,
+    "27. d — 麻辣湯＝辛いスープ d",
+    "27. d — 麻辣湯 = spicy soup dish d"
+   ],
+   [
+    0.647,
+    "34. 市場 — 市場＝集市",
+    "34. 市場 — 市場 = market"
+   ],
+   [
+    0.667,
+    "35. 工芸 — 工芸＝工艺",
+    "35. 工芸 — 工芸 = craft"
+   ],
+   [
+    0.629,
+    "36. 陶器 — 陶器＝陶瓷",
+    "36. 陶器 — 陶器 = pottery"
+   ],
+   [
+    0.595,
+    "38. 金箔 — 金箔＝金箔",
+    "38. 金箔 — 金箔 = gold leaf"
+   ],
+   [
+    0.642,
+    "39. 文化の日は3日です。 — 主语＋时间",
+    "39. 文化の日は3日です。 — subject + time"
+   ],
+   [
+    0.762,
+    "40. 金沢で工芸展があります。 — 地点＋で＋あります",
+    "40. 金沢で工芸展があります。 — place + で + あります"
+   ],
+   [
+    0.698,
+    "41. ライトアップを見たいです。 — 见たい＝想看",
+    "41. ライトアップを見たいです。 — 見たい = want to see"
+   ],
+   [
+    0.603,
+    "42. 家族で音楽を楽しみます。 — 和家人一起",
+    "42. 家族で音楽を楽しみます。 — together with family"
+   ],
+   [
+    0.638,
+    "43. b — 文化の日＝11月3日 b",
+    "43. b — 文化の日 = November 3 b"
+   ],
+   [
+    0.667,
+    "44. c — 工芸展＝美術館 c",
+    "44. c — 工芸展 = museum c"
+   ],
+   [
+    0.696,
+    "45. d — オーケストラ＝杉並 d",
+    "45. d — オーケストラ = Suginami d"
+   ],
+   [
+    0.593,
+    "46. a — ライトアップ＝金沢城 a",
+    "46. a — ライトアップ = Kanazawa Castle a"
+   ],
+   [
+    0.632,
+    "56. 73 — 夺冠率73%",
+    "56. 73 — Title rate 73%"
+   ],
+   [
+    0.625,
+    "58. A — 第1战观众33,388人",
+    "58. A — Game 1 crowd: 33,388"
+   ],
+   [
+    0.625,
+    "59. B — 第2战观众33,432人",
+    "59. B — Game 2 crowd: 33,432"
+   ],
+   [
+    0.667,
+    "79. 飲む — 飲むことができません＝不能喝",
+    "79. 飲む — 飲むことができません = cannot drink"
+   ],
+   [
+    0.521,
+    "80. 守って — 守って、〜しましょう",
+    "80. 守って — 守って + 〜しましょう = follow the rules, and let's…"
+   ],
+   [
+    0.538,
+    "81. 中 — フェンスの中＝围栏里面",
+    "81. 中 — フェンスの中 = inside the fence"
+   ],
+   [
+    0.615,
+    "90. 27 — 温泉27%",
+    "90. 27 — Hot springs: 27%"
+   ],
+   [
+    0.895,
+    "92. 65 — 38+27=65",
+    "92. 65 — 38 + 27 = 65"
+   ],
+   [
+    0.549,
+    "93. 100 — 四项合计100%",
+    "93. 100 — All four add up to 100%"
+   ],
+   [
+    0.55,
+    "94. 7 — 立冬在11月7日",
+    "94. 7 — 立冬 is November 7"
+   ],
+   [
+    0.588,
+    "— 第1面 —",
+    "— Page 1 —"
+   ],
+   [
+    0.588,
+    "— 第2面 —",
+    "— Page 2 —"
+   ],
+   [
+    0.588,
+    "— 第3面 —",
+    "— Page 3 —"
+   ],
+   [
+    0.588,
+    "— 第4面 —",
+    "— Page 4 —"
+   ],
+   [
+    0.588,
+    "— 第5面 —",
+    "— Page 5 —"
+   ],
+   [
+    0.588,
+    "— 第6面 —",
+    "— Page 6 —"
+   ],
+   [
+    0.588,
+    "— 第7面 —",
+    "— Page 7 —"
+   ],
+   [
+    0.588,
+    "— 第8面 —",
+    "— Page 8 —"
+   ]
+  ]
+ },
+ "corrosion_jp_jp": {
+  "p1": [
+   [
+    0.514,
+    "この号の内容 · 本期目录",
+    "この号の内容 · In this issue"
+   ],
+   [
+    0.645,
+    "トップニュース · 头条",
+    "トップニュース · Top story"
+   ],
+   [
+    0.848,
+    "毎週、日本語で · 每周一期 · 日本人が読んでいる日本語を読む",
+    "毎週、日本語で · Weekly · 日本人が読んでいる日本語を読む"
+   ],
+   [
+    0.545,
+    "短いニュース · 快讯",
+    "短いニュース · News in brief"
+   ]
+  ],
+  "p4": [
+   [
+    0.505,
+    "レベル B1 · 日本シリーズ横浜の2試合 · 日本大赛横滨两场",
+    "レベル B1 · 日本シリーズ横浜の2試合 · The Japan Series: two games in Yokohama"
+   ],
+   [
+    0.558,
+    "日本シリーズの日程 · 大赛日程",
+    "日本シリーズの日程 · Series schedule"
+   ]
+  ],
+  "p5": [
+   [
+    0.533,
+    "あなたは？ · 说说你自己",
+    "あなたは？ · Your turn"
+   ],
+   [
+    0.537,
+    "レベル B1 · ハロウィンと秋まつり · 万圣节与秋日祭典",
+    "レベル B1 · ハロウィンと秋まつり · Halloween and autumn festivals"
+   ],
+   [
+    0.741,
+    "若者・エンタメ · 青年",
+    "若者・エンタメ · Youth"
+   ]
+  ],
+  "p6": [
+   [
+    0.514,
+    "練習用データ · 练习数据",
+    "練習用データ · Practice data"
+   ]
+  ],
+  "p8": [
+   [
+    0.712,
+    "103. B — 口号是「静かだけど、冒険中。」",
+    "103. B — The slogan is 「静かだけど、冒険中。」"
+   ],
+   [
+    0.6,
+    "112. 1,300 — サクサクdeコパンが1,300万食",
+    "112. 1,300 — サクサクdeコパン reached 13 million servings"
+   ],
+   [
+    0.712,
+    "128. A — 口号是「静かだけど、冒険中。」",
+    "128. A — The slogan is 「静かだけど、冒険中。」"
+   ],
+   [
+    0.535,
+    "133. 私は火よう日に金沢へ行きます。 — 主语＋时间＋地点＋动词",
+    "133. 私は火よう日に金沢へ行きます。 — subject + time + place + verb"
+   ],
+   [
+    0.611,
+    "134. 紅葉は今週末が見頃です。 — 見頃＝最佳观赏期",
+    "134. 紅葉は今週末が見頃です。 — 見頃 = best viewing season"
+   ],
+   [
+    0.721,
+    "135. 図書館で本を借ります。 — 场所用「で」",
+    "135. 図書館で本を借ります。 — use 「で」 for place"
+   ],
+   [
+    0.718,
+    "136. ソフトバンクは2連勝でスタートしました。 — 2连胜开局",
+    "136. ソフトバンクは2連勝でスタートしました。 — starting with two"
+   ],
+   [
+    0.812,
+    "139. 読書週間は10月27日から始まります。 — 对照第7版",
+    "139. 読書週間は10月27日から始まります。 — See page 7"
+   ],
+   [
+    0.805,
+    "140. 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神",
+    "140. 神戸の紅葉のライトアップを見に行きたいです。 — See page 6"
+   ],
+   [
+    0.64,
+    "145. A — 見せてください＝请出示",
+    "145. A — 見せてください = please show"
+   ],
+   [
+    0.682,
+    "148. A — 「紅葉の本」受欢迎",
+    "148. A — 「紅葉の本」 is popular"
+   ],
+   [
+    0.618,
+    "149. A — どういたしまして＝不客气",
+    "149. A — どういたしまして = you're welcome"
+   ],
+   [
+    0.542,
+    "17. 蒸し器 — 蒸し器＝蒸笼",
+    "17. 蒸し器 — 蒸し器 = a steamer basket"
+   ],
+   [
+    0.52,
+    "18. 整える — 整える＝调理、调养",
+    "18. 整える — 整える = to put in order"
+   ],
+   [
+    0.568,
+    "24. 1,300 — サクサクdeコパンが1,300万食を超えた",
+    "24. 1,300 — サクサクdeコパン passed 13 million servings"
+   ],
+   [
+    0.649,
+    "25. b — ゆる＝轻松 b",
+    "25. b — ゆる = relaxed b"
+   ],
+   [
+    0.565,
+    "26. a — 蒸し器＝蒸笼 a",
+    "26. a — 蒸し器 = steamer basket a"
+   ],
+   [
+    0.642,
+    "39. 文化の日は3日です。 — 主语＋时间",
+    "39. 文化の日は3日です。 — subject + time"
+   ],
+   [
+    0.762,
+    "40. 金沢で工芸展があります。 — 地点＋で＋あります",
+    "40. 金沢で工芸展があります。 — place + で + あります"
+   ],
+   [
+    0.698,
+    "41. ライトアップを見たいです。 — 见たい＝想看",
+    "41. ライトアップを見たいです。 — 見たい = want to see"
+   ],
+   [
+    0.603,
+    "42. 家族で音楽を楽しみます。 — 和家人一起",
+    "42. 家族で音楽を楽しみます。 — together with family"
+   ],
+   [
+    0.638,
+    "43. b — 文化の日＝11月3日 b",
+    "43. b — 文化の日 = November 3 b"
+   ],
+   [
+    0.696,
+    "45. d — オーケストラ＝杉並 d",
+    "45. d — オーケストラ = Suginami d"
+   ],
+   [
+    0.593,
+    "46. a — ライトアップ＝金沢城 a",
+    "46. a — ライトアップ = Kanazawa Castle a"
+   ],
+   [
+    0.667,
+    "79. 飲む — 飲むことができません＝不能喝",
+    "79. 飲む — 飲むことができません = cannot drink"
+   ],
+   [
+    0.521,
+    "80. 守って — 守って、〜しましょう",
+    "80. 守って — 守って + 〜しましょう = follow the rules, and let's…"
+   ],
+   [
+    0.538,
+    "81. 中 — フェンスの中＝围栏里面",
+    "81. 中 — フェンスの中 = inside the fence"
+   ]
+  ]
+ },
+ "p1_trend_widths": {
+  "These four topics shape this issue.": {
+   "x": 1473.0,
+   "y": 1180.5500000000002,
+   "size": "18.5",
+   "anchor": "start",
+   "width_px": 293.2
+  },
+  "Dates in articles; not exact statistics": {
+   "x": 1473.0,
+   "y": 1244.0,
+   "size": "19",
+   "anchor": "start",
+   "width_px": 312.4
+  }
+ },
+ "counts": {
+  "p1": {
+   "numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "levels": {
+    "A2": 10
+   },
+   "n": 10
+  },
+  "p2": {
+   "numbers": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "levels": {
+    "A2": 16,
+    "B1": 2
+   },
+   "n": 18
+  },
+  "p3": {
+   "numbers": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "levels": {
+    "A2": 7,
+    "B1": 11
+   },
+   "n": 18
+  },
+  "p4": {
+   "numbers": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+   ],
+   "levels": {
+    "B1": 18
+   },
+   "n": 18
+  },
+  "p5": {
+   "numbers": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "levels": {
+    "B1": 18
+   },
+   "n": 18
+  },
+  "p6": {
+   "numbers": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+   ],
+   "levels": {
+    "B2": 18
+   },
+   "n": 18
+  },
+  "p7": {
+   "numbers": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+   ],
+   "levels": {
+    "A2": 4,
+    "B1": 4,
+    "B2": 4
+   },
+   "n": 12
+  },
+  "p8": {
+   "numbers": [
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150
+   ],
+   "levels": {
+    "B1": 22,
+    "A2": 9,
+    "B2": 7
+   },
+   "n": 38
+  }
+ },
+ "counts_total": {
+  "n": 150,
+  "levels": {
+   "A2": 46,
+   "B1": 75,
+   "B2": 29
+  }
+ },
+ "p8_counts": {
+  "core": 150,
+  "ed": 150
+ },
+ "p8_identical_lines": [],
+ "p8_printed_diff": {
+  "1": {
+   "core": "1. 3 — 文化日在11月3日（周二）",
+   "ed": "1. 3 — Culture Day is November 3 (Tuesday)",
+   "core_key": "3",
+   "ed_key": "3",
+   "key_same": true
+  },
+  "2": {
+   "core": "2. 9 — 读书周到11月9日（周一）",
+   "ed": "2. 9 — Reading Week runs to November 9 (Monday)",
+   "core_key": "9",
+   "ed_key": "9",
+   "key_same": true
+  },
+  "3": {
+   "core": "3. 見頃 — 見頃＝最佳观赏期",
+   "ed": "3. 見頃 — 見頃 = best viewing season",
+   "core_key": "見頃",
+   "ed_key": "見頃",
+   "key_same": true
+  },
+  "4": {
+   "core": "4. 立冬 — 立冬＝冬天的开始",
+   "ed": "4. 立冬 — 立冬 = the start of winter",
+   "core_key": "立冬",
+   "ed_key": "立冬",
+   "key_same": true
+  },
+  "5": {
+   "core": "5. 7 — 神户灯光秀从7日（周六）开始",
+   "ed": "5. 7 — The Kobe illuminations start on the 7th (Saturday)",
+   "core_key": "7",
+   "ed_key": "7",
+   "key_same": true
+  },
+  "6": {
+   "core": "6. 文化の日 — 文化日全国都有文化活动",
+   "ed": "6. 文化の日 — Culture Day brings cultural events nationwide",
+   "core_key": "文化の日",
+   "ed_key": "文化の日",
+   "key_same": true
+  },
+  "7": {
+   "core": "7. B — 文化日在11月3日（周二）",
+   "ed": "7. B — Culture Day is November 3 (Tuesday)",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "8": {
+   "core": "8. C — 读书周到11月9日（周一）",
+   "ed": "8. C — Reading Week runs to November 9 (Monday)",
+   "core_key": "C",
+   "ed_key": "C",
+   "key_same": true
+  },
+  "9": {
+   "core": "9. B — 立冬在11月7日（周六）",
+   "ed": "9. B — 立冬 is November 7 (Saturday)",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "10": {
+   "core": "10. A — 灯光秀在神户开始",
+   "ed": "10. A — The illuminations start in Kobe",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "11": {
+   "core": "11. B — 「ゆる」＝无理をしない",
+   "ed": "11. B — 「ゆる」 = not forcing it",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "12": {
+   "core": "12. B — 鍋の食卓は去年の1.5倍",
+   "ed": "12. B — Nabe dinners are 1.5 times last year's",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "13": {
+   "core": "13. A — 発表は10月21日",
+   "ed": "13. A — The announcement was October 21",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "14": {
+   "core": "14. C — 11月から1月まで気温は平年より高い",
+   "ed": "14. C — Temperatures are above average from November to January",
+   "core_key": "C",
+   "ed_key": "C",
+   "key_same": true
+  },
+  "15": {
+   "core": "15. B — 服と食事の話題はnoteのまとめによるもの",
+   "ed": "15. B — The clothing and food topics come from the note roundup",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "16": {
+   "core": "16. ゆる — ゆる＝轻松、不勉强",
+   "ed": "16. ゆる — ゆる = relaxed, not forcing it",
+   "core_key": "ゆる",
+   "ed_key": "ゆる",
+   "key_same": true
+  },
+  "17": {
+   "core": "17. 蒸し器 — 蒸し器＝蒸笼",
+   "ed": "17. 蒸し器 — 蒸し器 = a steamer basket",
+   "core_key": "蒸し器",
+   "ed_key": "蒸し器",
+   "key_same": true
+  },
+  "18": {
+   "core": "18. 整える — 整える＝调理、调养",
+   "ed": "18. 整える — 整える = to put in order",
+   "core_key": "整える",
+   "ed_key": "整える",
+   "key_same": true
+  },
+  "19": {
+   "core": "19. 1.5 — 鍋の食卓は去年の1.5倍",
+   "ed": "19. 1.5 — Nabe dinners are 1.5 times last year's",
+   "core_key": "1.5",
+   "ed_key": "1.5",
+   "key_same": true
+  },
+  "20": {
+   "core": "20. 鍋 — 鍋＝一锅菜",
+   "ed": "20. 鍋 — 鍋 = a one-pot dish",
+   "core_key": "鍋",
+   "ed_key": "鍋",
+   "key_same": true
+  },
+  "21": {
+   "core": "21. 21 — 発表は10月21日",
+   "ed": "21. 21 — The announcement was October 21",
+   "core_key": "21",
+   "ed_key": "21",
+   "key_same": true
+  },
+  "22": {
+   "core": "22. 1 — 鍋の材料が1か月早く並んだ",
+   "ed": "22. 1 — Nabe ingredients appeared a month early",
+   "core_key": "1",
+   "ed_key": "1",
+   "key_same": true
+  },
+  "23": {
+   "core": "23. 20 — 気象庁の予報は10月20日",
+   "ed": "23. 20 — The JMA forecast was October 20",
+   "core_key": "20",
+   "ed_key": "20",
+   "key_same": true
+  },
+  "24": {
+   "core": "24. 1,300 — サクサクdeコパンが1,300万食を超えた",
+   "ed": "24. 1,300 — サクサクdeコパン passed 13 million servings",
+   "core_key": "1,300",
+   "ed_key": "1,300",
+   "key_same": true
+  },
+  "25": {
+   "core": "25. b — ゆる＝轻松 b",
+   "ed": "25. b — ゆる = relaxed b",
+   "core_key": "b",
+   "ed_key": "b",
+   "key_same": true
+  },
+  "26": {
+   "core": "26. a — 蒸し器＝蒸笼 a",
+   "ed": "26. a — 蒸し器 = steamer basket a",
+   "core_key": "a",
+   "ed_key": "a",
+   "key_same": true
+  },
+  "27": {
+   "core": "27. d — 麻辣湯＝辛いスープ d",
+   "ed": "27. d — 麻辣湯 = spicy soup dish d",
+   "core_key": "d",
+   "ed_key": "d",
+   "key_same": true
+  },
+  "28": {
+   "core": "28. c — 予報＝天気の予想 c",
+   "ed": "28. c — 予報 = weather forecast c",
+   "core_key": "c",
+   "ed_key": "c",
+   "key_same": true
+  },
+  "29": {
+   "core": "29. A — 文化日在11月3日（周二）",
+   "ed": "29. A — Culture Day is November 3 (Tuesday)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "30": {
+   "core": "30. B — 杉并的活动是家庭管弦乐队",
+   "ed": "30. B — The Suginami event is a family orchestra",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "31": {
+   "core": "31. C — 传统工艺展在石川县立美术馆",
+   "ed": "31. C — The craft exhibition is at the Ishikawa Prefectural Museum of Art",
+   "core_key": "C",
+   "ed_key": "C",
+   "key_same": true
+  },
+  "32": {
+   "core": "32. B — 工艺展到11月8日（周日）",
+   "ed": "32. B — The exhibition runs to November 8 (Sunday)",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "33": {
+   "core": "33. A — 灯光秀在金泽城和兼六园",
+   "ed": "33. A — The light-up is at Kanazawa Castle and Kenrokuen",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "34": {
+   "core": "34. 市場 — 市場＝集市",
+   "ed": "34. 市場 — 市場 = market",
+   "core_key": "市場",
+   "ed_key": "市場",
+   "key_same": true
+  },
+  "35": {
+   "core": "35. 工芸 — 工芸＝工艺",
+   "ed": "35. 工芸 — 工芸 = craft",
+   "core_key": "工芸",
+   "ed_key": "工芸",
+   "key_same": true
+  },
+  "36": {
+   "core": "36. 陶器 — 陶器＝陶瓷",
+   "ed": "36. 陶器 — 陶器 = pottery",
+   "core_key": "陶器",
+   "ed_key": "陶器",
+   "key_same": true
+  },
+  "37": {
+   "core": "37. 8 — 工艺展到11月8日",
+   "ed": "37. 8 — The exhibition runs to November 8",
+   "core_key": "8",
+   "ed_key": "8",
+   "key_same": true
+  },
+  "38": {
+   "core": "38. 金箔 — 金箔＝金箔",
+   "ed": "38. 金箔 — 金箔 = gold leaf",
+   "core_key": "金箔",
+   "ed_key": "金箔",
+   "key_same": true
+  },
+  "39": {
+   "core": "39. 文化の日は3日です。 — 主语＋时间",
+   "ed": "39. 文化の日は3日です。 — subject + time",
+   "core_key": "文化の日は3日です。",
+   "ed_key": "文化の日は3日です。",
+   "key_same": true
+  },
+  "40": {
+   "core": "40. 金沢で工芸展があります。 — 地点＋で＋あります",
+   "ed": "40. 金沢で工芸展があります。 — place + で + あります",
+   "core_key": "金沢で工芸展があります。",
+   "ed_key": "金沢で工芸展があります。",
+   "key_same": true
+  },
+  "41": {
+   "core": "41. ライトアップを見たいです。 — 见たい＝想看",
+   "ed": "41. ライトアップを見たいです。 — 見たい = want to see",
+   "core_key": "ライトアップを見たいです。",
+   "ed_key": "ライトアップを見たいです。",
+   "key_same": true
+  },
+  "42": {
+   "core": "42. 家族で音楽を楽しみます。 — 和家人一起",
+   "ed": "42. 家族で音楽を楽しみます。 — together with family",
+   "core_key": "家族で音楽を楽しみます。",
+   "ed_key": "家族で音楽を楽しみます。",
+   "key_same": true
+  },
+  "43": {
+   "core": "43. b — 文化の日＝11月3日 b",
+   "ed": "43. b — 文化の日 = November 3 b",
+   "core_key": "b",
+   "ed_key": "b",
+   "key_same": true
+  },
+  "44": {
+   "core": "44. c — 工芸展＝美術館 c",
+   "ed": "44. c — 工芸展 = museum c",
+   "core_key": "c",
+   "ed_key": "c",
+   "key_same": true
+  },
+  "45": {
+   "core": "45. d — オーケストラ＝杉並 d",
+   "ed": "45. d — オーケストラ = Suginami d",
+   "core_key": "d",
+   "ed_key": "d",
+   "key_same": true
+  },
+  "46": {
+   "core": "46. a — ライトアップ＝金沢城 a",
+   "ed": "46. a — ライトアップ = Kanazawa Castle a",
+   "core_key": "a",
+   "ed_key": "a",
+   "key_same": true
+  },
+  "47": {
+   "core": "47. B — 第1战软银3-1胜DeNA",
+   "ed": "47. B — Game 1: SoftBank beat DeNA 3–1",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "48": {
+   "core": "48. B — 第2战逆转的是筒香的3分本垒打",
+   "ed": "48. B — Tsutsugo's 3-run homer turned Game 2 around",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "49": {
+   "core": "49. A — 2连胜开局的是软银",
+   "ed": "49. A — SoftBank started with two straight wins",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "50": {
+   "core": "50. B — 2连胜开局的夺冠率是73%",
+   "ed": "50. B — Teams starting 2–0 win the title 73% of the time",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "51": {
+   "core": "51. A — 2024年夺冠的是DeNA",
+   "ed": "51. A — DeNA won the title in 2024",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "52": {
+   "core": "52. 3 — 第1战软银得3分",
+   "ed": "52. 3 — SoftBank scored 3 in Game 1",
+   "core_key": "3",
+   "ed_key": "3",
+   "key_same": true
+  },
+  "53": {
+   "core": "53. 4 — 第2战软银得4分",
+   "ed": "53. 4 — SoftBank scored 4 in Game 2",
+   "core_key": "4",
+   "ed_key": "4",
+   "key_same": true
+  },
+  "54": {
+   "core": "54. 11 — 第1战打到延长11局",
+   "ed": "54. 11 — Game 1 went to 11 innings",
+   "core_key": "11",
+   "ed_key": "11",
+   "key_same": true
+  },
+  "55": {
+   "core": "55. 10 — 第2战打到延长10局",
+   "ed": "55. 10 — Game 2 went to 10 innings",
+   "core_key": "10",
+   "ed_key": "10",
+   "key_same": true
+  },
+  "56": {
+   "core": "56. 73 — 夺冠率73%",
+   "ed": "56. 73 — Title rate 73%",
+   "core_key": "73",
+   "ed_key": "73",
+   "key_same": true
+  },
+  "57": {
+   "core": "57. B — 延長＝比赛延长",
+   "ed": "57. B — 延長 = the game going long",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "58": {
+   "core": "58. A — 第1战观众33,388人",
+   "ed": "58. A — Game 1 crowd: 33,388",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "59": {
+   "core": "59. B — 第2战观众33,432人",
+   "ed": "59. B — Game 2 crowd: 33,432",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "60": {
+   "core": "60. A — 相川监督说「4场胜负之战」",
+   "ed": "60. A — Manager Aikawa spoke of a four-win fight",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "61": {
+   "core": "61. × — 第1戦は土よう日です",
+   "ed": "61. × — Game 1 was on Saturday",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "62": {
+   "core": "62. ○ — ソフトバンクが2連勝しました",
+   "ed": "62. ○ — SoftBank won two straight",
+   "core_key": "○",
+   "ed_key": "○",
+   "key_same": true
+  },
+  "63": {
+   "core": "63. × — 第2戦も延長戦でした",
+   "ed": "63. × — Game 2 also went to extra innings",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "64": {
+   "core": "64. ○ — 2024年はDeNAが優勝しました",
+   "ed": "64. ○ — DeNA won in 2024",
+   "core_key": "○",
+   "ed_key": "○",
+   "key_same": true
+  },
+  "65": {
+   "core": "65. A — 万圣节在10月31日（周六）",
+   "ed": "65. A — Halloween was October 31 (Saturday)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "66": {
+   "core": "66. B — 涩谷禁酒时间是18时到5时",
+   "ed": "66. B — Shibuya's street-drinking ban runs 18:00 to 05:00",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "67": {
+   "core": "67. B — 乱扔垃圾罚款2,000日元",
+   "ed": "67. B — Littering costs a 2,000-yen fine",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "68": {
+   "core": "68. B — 化妆活动在池袋",
+   "ed": "68. B — The cosplay festival is in Ikebukuro",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "69": {
+   "core": "69. C — 横滨中区民祭在11月8日（周日）",
+   "ed": "69. C — The Naka Ward festival is November 8 (Sunday)",
+   "core_key": "C",
+   "ed_key": "C",
+   "key_same": true
+  },
+  "70": {
+   "core": "70. 31 — 万圣节在10月31日",
+   "ed": "70. 31 — Halloween was October 31",
+   "core_key": "31",
+   "ed_key": "31",
+   "key_same": true
+  },
+  "71": {
+   "core": "71. 18 — 禁酒从18时开始",
+   "ed": "71. 18 — The ban starts at 18:00",
+   "core_key": "18",
+   "ed_key": "18",
+   "key_same": true
+  },
+  "72": {
+   "core": "72. 5 — 禁酒到早上5时",
+   "ed": "72. 5 — The ban runs to 05:00",
+   "core_key": "5",
+   "ed_key": "5",
+   "key_same": true
+  },
+  "73": {
+   "core": "73. 2,000 — 乱扔垃圾罚款2,000日元",
+   "ed": "73. 2,000 — Littering costs a 2,000-yen fine",
+   "core_key": "2,000",
+   "ed_key": "2,000",
+   "key_same": true
+  },
+  "74": {
+   "core": "74. 8 — 横滨祭典在11月8日",
+   "ed": "74. 8 — The Yokohama festival is November 8",
+   "core_key": "8",
+   "ed_key": "8",
+   "key_same": true
+  },
+  "75": {
+   "core": "75. × — 夜里路上不能喝酒",
+   "ed": "75. × — No drinking on the street at night",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "76": {
+   "core": "76. ○ — ゴミの罰金は今年6月からです",
+   "ed": "76. ○ — The litter fine dates from June this year",
+   "core_key": "○",
+   "ed_key": "○",
+   "key_same": true
+  },
+  "77": {
+   "core": "77. × — コスプレフェスは池袋です",
+   "ed": "77. × — The cosplay festival is in Ikebukuro",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "78": {
+   "core": "78. ○ — ハロウィンは10月31日（土）",
+   "ed": "78. ○ — Halloween was October 31 (Saturday)",
+   "core_key": "○",
+   "ed_key": "○",
+   "key_same": true
+  },
+  "79": {
+   "core": "79. 飲む — 飲むことができません＝不能喝",
+   "ed": "79. 飲む — 飲むことができません = cannot drink",
+   "core_key": "飲む",
+   "ed_key": "飲む",
+   "key_same": true
+  },
+  "80": {
+   "core": "80. 守って — 守って、〜しましょう",
+   "ed": "80. 守って — 守って + 〜しましょう = follow the rules, and let's…",
+   "core_key": "守って",
+   "ed_key": "守って",
+   "key_same": true
+  },
+  "81": {
+   "core": "81. 中 — フェンスの中＝围栏里面",
+   "ed": "81. 中 — フェンスの中 = inside the fence",
+   "core_key": "中",
+   "ed_key": "中",
+   "key_same": true
+  },
+  "82": {
+   "core": "82. 10月30日 — 活动从10月30日到11月1日",
+   "ed": "82. 10月30日 — The festival ran October 30 to November 1",
+   "core_key": "10月30日",
+   "ed_key": "10月30日",
+   "key_same": true
+  },
+  "83": {
+   "core": "83. B — 11月から1月まで気温は平年より高い",
+   "ed": "83. B — Temperatures are above average from November to January",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "84": {
+   "core": "84. B — 雨が多いのは太平洋側",
+   "ed": "84. B — The Pacific side gets more rain",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "85": {
+   "core": "85. B — 九州の旅の検索は去年のほぼ2倍",
+   "ed": "85. B — Kyushu travel searches nearly doubled year on year",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "86": {
+   "core": "86. A — 1回の旅の予算は下がった",
+   "ed": "86. A — The budget per trip fell",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "87": {
+   "core": "87. B — 鳴子峡の見頃は10月31日から11月8日の週末",
+   "ed": "87. B — Naruko Gorge peaks over the October 31 – November 8 weekend",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "88": {
+   "core": "88. 近場の満足 — 图中最受欢迎的是近处的满足感",
+   "ed": "88. 近場の満足 — The chart's top answer is nearby satisfaction",
+   "core_key": "近場の満足",
+   "ed_key": "近場の満足",
+   "key_same": true
+  },
+  "89": {
+   "core": "89. 38 — 近场满足感38%",
+   "ed": "89. 38 — Nearby satisfaction: 38%",
+   "core_key": "38",
+   "ed_key": "38",
+   "key_same": true
+  },
+  "90": {
+   "core": "90. 27 — 温泉27%",
+   "ed": "90. 27 — Hot springs: 27%",
+   "core_key": "27",
+   "ed_key": "27",
+   "key_same": true
+  },
+  "91": {
+   "core": "91. 7 — 红叶21%与美食14%之差为7",
+   "ed": "91. 7 — Leaves 21% minus food 14% is 7",
+   "core_key": "7",
+   "ed_key": "7",
+   "key_same": true
+  },
+  "92": {
+   "core": "92. 65 — 38+27=65",
+   "ed": "92. 65 — 38 + 27 = 65",
+   "core_key": "65",
+   "ed_key": "65",
+   "key_same": true
+  },
+  "93": {
+   "core": "93. 100 — 四项合计100%",
+   "ed": "93. 100 — All four add up to 100%",
+   "core_key": "100",
+   "ed_key": "100",
+   "key_same": true
+  },
+  "94": {
+   "core": "94. 7 — 立冬在11月7日",
+   "ed": "94. 7 — 立冬 is November 7",
+   "core_key": "7",
+   "ed_key": "7",
+   "key_same": true
+  },
+  "95": {
+   "core": "95. 28 — 神户灯光秀到12月28日",
+   "ed": "95. 28 — The Kobe light-up runs to December 28",
+   "core_key": "28",
+   "ed_key": "28",
+   "key_same": true
+  },
+  "96": {
+   "core": "96. 2 — 九州旅行搜索约为去年的2倍",
+   "ed": "96. 2 — Kyushu travel searches are nearly twice last year's",
+   "core_key": "2",
+   "ed_key": "2",
+   "key_same": true
+  },
+  "97": {
+   "core": "97. 20 — 气象厅预报在10月20日",
+   "ed": "97. 20 — The JMA forecast was October 20",
+   "core_key": "20",
+   "ed_key": "20",
+   "key_same": true
+  },
+  "98": {
+   "core": "98. × — 11月は平年より暖かい予報です",
+   "ed": "98. × — November is forecast warmer than average",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "99": {
+   "core": "99. ○ — 九州の旅の検索は増えました",
+   "ed": "99. ○ — Kyushu travel searches rose",
+   "core_key": "○",
+   "ed_key": "○",
+   "key_same": true
+  },
+  "100": {
+   "core": "100. × — グラフは練習用データです",
+   "ed": "100. × — The chart is practice data",
+   "core_key": "×",
+   "ed_key": "×",
+   "key_same": true
+  },
+  "101": {
+   "core": "101. 27 — 读书周从10月27日（周二）开始",
+   "ed": "101. 27 — Reading Week started October 27 (Tuesday)",
+   "core_key": "27",
+   "ed_key": "27",
+   "key_same": true
+  },
+  "102": {
+   "core": "102. 9 — 读书周到11月9日",
+   "ed": "102. 9 — Reading Week runs to November 9",
+   "core_key": "9",
+   "ed_key": "9",
+   "key_same": true
+  },
+  "103": {
+   "core": "103. B — 口号是「静かだけど、冒険中。」",
+   "ed": "103. B — The slogan is 「静かだけど、冒険中。」",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "104": {
+   "core": "104. A — 图书馆活动有图书介绍",
+   "ed": "104. A — The library event is book introductions",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "105": {
+   "core": "105. B — 見頃＝红叶最美的时候",
+   "ed": "105. B — 見頃 = when the leaves look their best",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "106": {
+   "core": "106. 紅葉狩り — 紅葉狩り＝去看红叶",
+   "ed": "106. 紅葉狩り — 紅葉狩り = going out to see the leaves",
+   "core_key": "紅葉狩り",
+   "ed_key": "紅葉狩り",
+   "key_same": true
+  },
+  "107": {
+   "core": "107. C — ライトアップ＝夜里用灯光照亮",
+   "ed": "107. C — ライトアップ = lighting up at night",
+   "core_key": "C",
+   "ed_key": "C",
+   "key_same": true
+  },
+  "108": {
+   "core": "108. 落葉 — 落葉＝落叶",
+   "ed": "108. 落葉 — 落葉 = fallen leaves",
+   "core_key": "落葉",
+   "ed_key": "落葉",
+   "key_same": true
+  },
+  "109": {
+   "core": "109. B — 1.5倍＝比去年多50%",
+   "ed": "109. B — 1.5倍 = 50% more than last year",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "110": {
+   "core": "110. A — 73%≈4人中的3人",
+   "ed": "110. A — 73% ≈ 3 in 4",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "111": {
+   "core": "111. 1.5 — 鍋の食卓は去年の1.5倍",
+   "ed": "111. 1.5 — Nabe dinners are 1.5 times last year's",
+   "core_key": "1.5",
+   "ed_key": "1.5",
+   "key_same": true
+  },
+  "112": {
+   "core": "112. 1,300 — サクサクdeコパンが1,300万食",
+   "ed": "112. 1,300 — サクサクdeコパン reached 13 million servings",
+   "core_key": "1,300",
+   "ed_key": "1,300",
+   "key_same": true
+  },
+  "113": {
+   "core": "113. A — 文化日在11月3日（周二）",
+   "ed": "113. A — Culture Day is November 3 (Tuesday)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "114": {
+   "core": "114. A — 读书周到11月9日",
+   "ed": "114. A — Reading Week runs to November 9",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "115": {
+   "core": "115. A — 日本大赛第1战在10月24日（周六）",
+   "ed": "115. A — Japan Series Game 1 was October 24 (Saturday)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "116": {
+   "core": "116. A — 第2战软银4-3获胜",
+   "ed": "116. A — Game 2: SoftBank won 4–3",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "117": {
+   "core": "117. B — 万圣节在10月31日（周六）",
+   "ed": "117. B — Halloween was October 31 (Saturday)",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "118": {
+   "core": "118. A — 立冬在11月7日（周六）",
+   "ed": "118. A — 立冬 is November 7 (Saturday)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "119": {
+   "core": "119. A — 鍋の食卓は去年の1.5倍",
+   "ed": "119. A — Nabe dinners are 1.5 times last year's",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "120": {
+   "core": "120. A — 神户灯光秀从7日开始",
+   "ed": "120. A — The Kobe light-up starts on the 7th",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "121": {
+   "core": "121. A — 杉并的活动是家庭管弦乐队",
+   "ed": "121. A — The Suginami event is a family orchestra",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "122": {
+   "core": "122. B — 传统工艺展到11月8日",
+   "ed": "122. B — The exhibition runs to November 8",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "123": {
+   "core": "123. A — 第1战观众33,388人",
+   "ed": "123. A — Game 1 crowd: 33,388",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "124": {
+   "core": "124. A — 2连胜开局的夺冠率73%",
+   "ed": "124. A — Title rate for 2–0 starts: 73%",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "125": {
+   "core": "125. A — 乱扔垃圾罚款2,000日元",
+   "ed": "125. A — Littering costs a 2,000-yen fine",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "126": {
+   "core": "126. A — 气象厅预报气温高于往年",
+   "ed": "126. A — The JMA forecast: warmer than average",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "127": {
+   "core": "127. A — 九州旅行搜索约为去年的2倍",
+   "ed": "127. A — Kyushu travel searches are nearly twice last year's",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "128": {
+   "core": "128. A — 口号是「静かだけど、冒険中。」",
+   "ed": "128. A — The slogan is 「静かだけど、冒険中。」",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "129": {
+   "core": "129. B — 美香周二和家人去金泽",
+   "ed": "129. B — On Tuesday Mika goes to Kanazawa with her family",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "130": {
+   "core": "130. B — 在金泽看传统工艺展和灯光秀",
+   "ed": "130. B — In Kanazawa she sees the craft exhibition and the light-up",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "131": {
+   "core": "131. A — 周六和朋友去神户",
+   "ed": "131. A — On Saturday she goes to Kobe with friends",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "132": {
+   "core": "132. B — 读书周想借2本书",
+   "ed": "132. B — She wants to borrow 2 books for Reading Week",
+   "core_key": "B",
+   "ed_key": "B",
+   "key_same": true
+  },
+  "133": {
+   "core": "133. 私は火よう日に金沢へ行きます。 — 主语＋时间＋地点＋动词",
+   "ed": "133. 私は火よう日に金沢へ行きます。 — subject + time + place + verb",
+   "core_key": "私は火よう日に金沢へ行きます。",
+   "ed_key": "私は火よう日に金沢へ行きます。",
+   "key_same": true
+  },
+  "134": {
+   "core": "134. 紅葉は今週末が見頃です。 — 見頃＝最佳观赏期",
+   "ed": "134. 紅葉は今週末が見頃です。 — 見頃 = best viewing season",
+   "core_key": "紅葉は今週末が見頃です。",
+   "ed_key": "紅葉は今週末が見頃です。",
+   "key_same": true
+  },
+  "135": {
+   "core": "135. 図書館で本を借ります。 — 场所用「で」",
+   "ed": "135. 図書館で本を借ります。 — use 「で」 for place",
+   "core_key": "図書館で本を借ります。",
+   "ed_key": "図書館で本を借ります。",
+   "key_same": true
+  },
+  "136": {
+   "core": "136. ソフトバンクは2連勝でスタートしました。 — 2连胜开局",
+   "ed": "136. ソフトバンクは2連勝でスタートしました。 — starting with two straight wins",
+   "core_key": "ソフトバンクは2連勝でスタートしました。",
+   "ed_key": "ソフトバンクは2連勝でスタートしました。",
+   "key_same": true
+  },
+  "137": {
+   "core": "137. 文化日是11月3日。 — 对照第3版",
+   "ed": "137. Culture Day is November 3. — See page 3",
+   "core_key": "文化日是11月3日。",
+   "ed_key": "Culture Day is November 3.",
+   "key_same": false
+  },
+  "138": {
+   "core": "138. 乱扔垃圾，要罚2,000日元。 — 对照第5版",
+   "ed": "138. If you drop litter, the fine is 2,000 yen. — See page 5",
+   "core_key": "乱扔垃圾，要罚2,000日元。",
+   "ed_key": "If you drop litter, the fine is 2,000 yen.",
+   "key_same": false
+  },
+  "139": {
+   "core": "139. 読書週間は10月27日から始まります。 — 对照第7版",
+   "ed": "139. 読書週間は10月27日から始まります。 — See page 7",
+   "core_key": "読書週間は10月27日から始まります。",
+   "ed_key": "読書週間は10月27日から始まります。",
+   "key_same": true
+  },
+  "140": {
+   "core": "140. 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）",
+   "ed": "140. 神戸の紅葉のライトアップを見に行きたいです。 — See page 6 (Kobe illuminations)",
+   "core_key": "神戸の紅葉のライトアップを見に行きたいです。",
+   "ed_key": "神戸の紅葉のライトアップを見に行きたいです。",
+   "key_same": true
+  },
+  "141": {
+   "core": "141. b — 見頃＝最佳观赏期 b",
+   "ed": "141. b — 見頃 = best viewing season b",
+   "core_key": "b",
+   "ed_key": "b",
+   "key_same": true
+  },
+  "142": {
+   "core": "142. d — 鍋＝一锅菜 d",
+   "ed": "142. d — 鍋 = one-pot dish d",
+   "core_key": "d",
+   "ed_key": "d",
+   "key_same": true
+  },
+  "143": {
+   "core": "143. a — 落葉＝落叶 a",
+   "ed": "143. a — 落葉 = fallen leaves a",
+   "core_key": "a",
+   "ed_key": "a",
+   "key_same": true
+  },
+  "144": {
+   "core": "144. c — 予算＝预算 c",
+   "ed": "144. c — 予算 = budget c",
+   "core_key": "c",
+   "ed_key": "c",
+   "key_same": true
+  },
+  "145": {
+   "core": "145. A — 見せてください＝请出示",
+   "ed": "145. A — 見せてください = please show",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "146": {
+   "core": "146. A — 借りられます＝能借（可能形）",
+   "ed": "146. A — 借りられます = can borrow (potential form)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "147": {
+   "core": "147. A — 读书周到11月9日（第7版）",
+   "ed": "147. A — Reading Week runs to November 9 (page 7)",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "148": {
+   "core": "148. A — 「紅葉の本」受欢迎",
+   "ed": "148. A — 「紅葉の本」 is popular",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "149": {
+   "core": "149. A — どういたしまして＝不客气",
+   "ed": "149. A — どういたしまして = you're welcome",
+   "core_key": "A",
+   "ed_key": "A",
+   "key_same": true
+  },
+  "150": {
+   "core": "150. ✓ 范文见本版 H 区（167 字）",
+   "ed": "150. ✓ Model text in section H on this page (167 characters)",
+   "core_key": "✓ 范文见本版 H 区（167 字）",
+   "ed_key": "✓ Model text in section H on this page (167 characters)",
+   "key_same": false
+  }
+ },
+ "p8_ed_note_cjk": {
+  "3": {
+   "line": "3. 見頃 — 見頃 = best viewing season",
+   "note": "見頃 = best viewing season",
+   "cjk_runs": [
+    "見頃"
+   ]
+  },
+  "4": {
+   "line": "4. 立冬 — 立冬 = the start of winter",
+   "note": "立冬 = the start of winter",
+   "cjk_runs": [
+    "立冬"
+   ]
+  },
+  "9": {
+   "line": "9. B — 立冬 is November 7 (Saturday)",
+   "note": "立冬 is November 7 (Saturday)",
+   "cjk_runs": [
+    "立冬"
+   ]
+  },
+  "11": {
+   "line": "11. B — 「ゆる」 = not forcing it",
+   "note": "「ゆる」 = not forcing it",
+   "cjk_runs": [
+    "「ゆる」"
+   ]
+  },
+  "16": {
+   "line": "16. ゆる — ゆる = relaxed, not forcing it",
+   "note": "ゆる = relaxed, not forcing it",
+   "cjk_runs": [
+    "ゆる"
+   ]
+  },
+  "17": {
+   "line": "17. 蒸し器 — 蒸し器 = a steamer basket",
+   "note": "蒸し器 = a steamer basket",
+   "cjk_runs": [
+    "蒸し器"
+   ]
+  },
+  "18": {
+   "line": "18. 整える — 整える = to put in order",
+   "note": "整える = to put in order",
+   "cjk_runs": [
+    "整える"
+   ]
+  },
+  "20": {
+   "line": "20. 鍋 — 鍋 = a one-pot dish",
+   "note": "鍋 = a one-pot dish",
+   "cjk_runs": [
+    "鍋"
+   ]
+  },
+  "24": {
+   "line": "24. 1,300 — サクサクdeコパン passed 13 million servings",
+   "note": "サクサクdeコパン passed 13 million servings",
+   "cjk_runs": [
+    "サクサク",
+    "コパン"
+   ]
+  },
+  "25": {
+   "line": "25. b — ゆる = relaxed b",
+   "note": "ゆる = relaxed b",
+   "cjk_runs": [
+    "ゆる"
+   ]
+  },
+  "26": {
+   "line": "26. a — 蒸し器 = steamer basket a",
+   "note": "蒸し器 = steamer basket a",
+   "cjk_runs": [
+    "蒸し器"
+   ]
+  },
+  "27": {
+   "line": "27. d — 麻辣湯 = spicy soup dish d",
+   "note": "麻辣湯 = spicy soup dish d",
+   "cjk_runs": [
+    "麻辣湯"
+   ]
+  },
+  "28": {
+   "line": "28. c — 予報 = weather forecast c",
+   "note": "予報 = weather forecast c",
+   "cjk_runs": [
+    "予報"
+   ]
+  },
+  "34": {
+   "line": "34. 市場 — 市場 = market",
+   "note": "市場 = market",
+   "cjk_runs": [
+    "市場"
+   ]
+  },
+  "35": {
+   "line": "35. 工芸 — 工芸 = craft",
+   "note": "工芸 = craft",
+   "cjk_runs": [
+    "工芸"
+   ]
+  },
+  "36": {
+   "line": "36. 陶器 — 陶器 = pottery",
+   "note": "陶器 = pottery",
+   "cjk_runs": [
+    "陶器"
+   ]
+  },
+  "38": {
+   "line": "38. 金箔 — 金箔 = gold leaf",
+   "note": "金箔 = gold leaf",
+   "cjk_runs": [
+    "金箔"
+   ]
+  },
+  "40": {
+   "line": "40. 金沢で工芸展があります。 — place + で + あります",
+   "note": "place + で + あります",
+   "cjk_runs": [
+    "で",
+    "あります"
+   ]
+  },
+  "41": {
+   "line": "41. ライトアップを見たいです。 — 見たい = want to see",
+   "note": "見たい = want to see",
+   "cjk_runs": [
+    "見たい"
+   ]
+  },
+  "43": {
+   "line": "43. b — 文化の日 = November 3 b",
+   "note": "文化の日 = November 3 b",
+   "cjk_runs": [
+    "文化の日"
+   ]
+  },
+  "44": {
+   "line": "44. c — 工芸展 = museum c",
+   "note": "工芸展 = museum c",
+   "cjk_runs": [
+    "工芸展"
+   ]
+  },
+  "45": {
+   "line": "45. d — オーケストラ = Suginami d",
+   "note": "オーケストラ = Suginami d",
+   "cjk_runs": [
+    "オーケストラ"
+   ]
+  },
+  "46": {
+   "line": "46. a — ライトアップ = Kanazawa Castle a",
+   "note": "ライトアップ = Kanazawa Castle a",
+   "cjk_runs": [
+    "ライトアップ"
+   ]
+  },
+  "57": {
+   "line": "57. B — 延長 = the game going long",
+   "note": "延長 = the game going long",
+   "cjk_runs": [
+    "延長"
+   ]
+  },
+  "79": {
+   "line": "79. 飲む — 飲むことができません = cannot drink",
+   "note": "飲むことができません = cannot drink",
+   "cjk_runs": [
+    "飲むことができません"
+   ]
+  },
+  "80": {
+   "line": "80. 守って — 守って + 〜しましょう = follow the rules, and let's…",
+   "note": "守って + 〜しましょう = follow the rules, and let's…",
+   "cjk_runs": [
+    "守って",
+    "〜しましょう"
+   ]
+  },
+  "81": {
+   "line": "81. 中 — フェンスの中 = inside the fence",
+   "note": "フェンスの中 = inside the fence",
+   "cjk_runs": [
+    "フェンスの中"
+   ]
+  },
+  "94": {
+   "line": "94. 7 — 立冬 is November 7",
+   "note": "立冬 is November 7",
+   "cjk_runs": [
+    "立冬"
+   ]
+  },
+  "103": {
+   "line": "103. B — The slogan is 「静かだけど、冒険中。」",
+   "note": "The slogan is 「静かだけど、冒険中。」",
+   "cjk_runs": [
+    "「静かだけど、冒険中。」"
+   ]
+  },
+  "105": {
+   "line": "105. B — 見頃 = when the leaves look their best",
+   "note": "見頃 = when the leaves look their best",
+   "cjk_runs": [
+    "見頃"
+   ]
+  },
+  "106": {
+   "line": "106. 紅葉狩り — 紅葉狩り = going out to see the leaves",
+   "note": "紅葉狩り = going out to see the leaves",
+   "cjk_runs": [
+    "紅葉狩り"
+   ]
+  },
+  "107": {
+   "line": "107. C — ライトアップ = lighting up at night",
+   "note": "ライトアップ = lighting up at night",
+   "cjk_runs": [
+    "ライトアップ"
+   ]
+  },
+  "108": {
+   "line": "108. 落葉 — 落葉 = fallen leaves",
+   "note": "落葉 = fallen leaves",
+   "cjk_runs": [
+    "落葉"
+   ]
+  },
+  "109": {
+   "line": "109. B — 1.5倍 = 50% more than last year",
+   "note": "1.5倍 = 50% more than last year",
+   "cjk_runs": [
+    "倍"
+   ]
+  },
+  "112": {
+   "line": "112. 1,300 — サクサクdeコパン reached 13 million servings",
+   "note": "サクサクdeコパン reached 13 million servings",
+   "cjk_runs": [
+    "サクサク",
+    "コパン"
+   ]
+  },
+  "118": {
+   "line": "118. A — 立冬 is November 7 (Saturday)",
+   "note": "立冬 is November 7 (Saturday)",
+   "cjk_runs": [
+    "立冬"
+   ]
+  },
+  "128": {
+   "line": "128. A — The slogan is 「静かだけど、冒険中。」",
+   "note": "The slogan is 「静かだけど、冒険中。」",
+   "cjk_runs": [
+    "「静かだけど、冒険中。」"
+   ]
+  },
+  "134": {
+   "line": "134. 紅葉は今週末が見頃です。 — 見頃 = best viewing season",
+   "note": "見頃 = best viewing season",
+   "cjk_runs": [
+    "見頃"
+   ]
+  },
+  "135": {
+   "line": "135. 図書館で本を借ります。 — use 「で」 for place",
+   "note": "use 「で」 for place",
+   "cjk_runs": [
+    "「で」"
+   ]
+  },
+  "141": {
+   "line": "141. b — 見頃 = best viewing season b",
+   "note": "見頃 = best viewing season b",
+   "cjk_runs": [
+    "見頃"
+   ]
+  },
+  "142": {
+   "line": "142. d — 鍋 = one-pot dish d",
+   "note": "鍋 = one-pot dish d",
+   "cjk_runs": [
+    "鍋"
+   ]
+  },
+  "143": {
+   "line": "143. a — 落葉 = fallen leaves a",
+   "note": "落葉 = fallen leaves a",
+   "cjk_runs": [
+    "落葉"
+   ]
+  },
+  "144": {
+   "line": "144. c — 予算 = budget c",
+   "note": "予算 = budget c",
+   "cjk_runs": [
+    "予算"
+   ]
+  },
+  "145": {
+   "line": "145. A — 見せてください = please show",
+   "note": "見せてください = please show",
+   "cjk_runs": [
+    "見せてください"
+   ]
+  },
+  "146": {
+   "line": "146. A — 借りられます = can borrow (potential form)",
+   "note": "借りられます = can borrow (potential form)",
+   "cjk_runs": [
+    "借りられます"
+   ]
+  },
+  "148": {
+   "line": "148. A — 「紅葉の本」 is popular",
+   "note": "「紅葉の本」 is popular",
+   "cjk_runs": [
+    "「紅葉の本」"
+   ]
+  },
+  "149": {
+   "line": "149. A — どういたしまして = you're welcome",
+   "note": "どういたしまして = you're welcome",
+   "cjk_runs": [
+    "どういたしまして"
+   ]
+  }
+ },
+ "p8_ed_notes_with_kana": {
+  "11": "11. B — 「ゆる」 = not forcing it",
+  "16": "16. ゆる — ゆる = relaxed, not forcing it",
+  "17": "17. 蒸し器 — 蒸し器 = a steamer basket",
+  "18": "18. 整える — 整える = to put in order",
+  "24": "24. 1,300 — サクサクdeコパン passed 13 million servings",
+  "25": "25. b — ゆる = relaxed b",
+  "26": "26. a — 蒸し器 = steamer basket a",
+  "40": "40. 金沢で工芸展があります。 — place + で + あります",
+  "41": "41. ライトアップを見たいです。 — 見たい = want to see",
+  "43": "43. b — 文化の日 = November 3 b",
+  "45": "45. d — オーケストラ = Suginami d",
+  "46": "46. a — ライトアップ = Kanazawa Castle a",
+  "79": "79. 飲む — 飲むことができません = cannot drink",
+  "80": "80. 守って — 守って + 〜しましょう = follow the rules, and let's…",
+  "81": "81. 中 — フェンスの中 = inside the fence",
+  "103": "103. B — The slogan is 「静かだけど、冒険中。」",
+  "106": "106. 紅葉狩り — 紅葉狩り = going out to see the leaves",
+  "107": "107. C — ライトアップ = lighting up at night",
+  "112": "112. 1,300 — サクサクdeコパン reached 13 million servings",
+  "128": "128. A — The slogan is 「静かだけど、冒険中。」",
+  "135": "135. 図書館で本を借ります。 — use 「で」 for place",
+  "145": "145. A — 見せてください = please show",
+  "146": "146. A — 借りられます = can borrow (potential form)",
+  "148": "148. A — 「紅葉の本」 is popular",
+  "149": "149. A — どういたしまして = you're welcome"
+ },
+ "p7_phrases": [
+  {
+   "quote": "文化の日は、11月3日（火よう日）です。",
+   "quote_same_as_core": true,
+   "ed_trans": "Culture Day is Tuesday, November 3. (p.1)",
+   "core_trans": "文化日是11月3日星期二。 (第1面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "ゆっくり、ゆるく整える日本の11月です。",
+   "quote_same_as_core": true,
+   "ed_trans": "It is a slow, gently ordered Japanese November. (p.1)",
+   "core_trans": "这是一个慢慢地、轻松调理的日本11月。 (第1面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "『ゆる』は、無理をしない、ゆっくり、という意味です。",
+   "quote_same_as_core": true,
+   "ed_trans": "ゆる means not forcing it, taking it slowly. (p.2)",
+   "core_trans": "所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "鍋の材料が1か月早く並び始めました。",
+   "quote_same_as_core": true,
+   "ed_trans": "Nabe ingredients appeared in shops a month early. (p.2)",
+   "core_trans": "火锅食材提前一个月上架了。 (第2面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "伝統工芸と紅葉と光を、いっしょに楽しむことができます。",
+   "quote_same_as_core": true,
+   "ed_trans": "You can enjoy traditional crafts, autumn leaves, and lights together. (p.3)",
+   "core_trans": "可以同时欣赏传统工艺、红叶与灯光。 (第3面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "ソフトバンクが2連勝でスタートしました。",
+   "quote_same_as_core": true,
+   "ed_trans": "SoftBank started with two straight wins. (p.4)",
+   "core_trans": "软银以两连胜开局。 (第4面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "ルールを守って、楽しいハロウィンにしましょう。",
+   "quote_same_as_core": true,
+   "ed_trans": "Follow the rules and have a happy Halloween. (p.5)",
+   "core_trans": "遵守规则，过一个快乐的万圣节吧。 (第5面)",
+   "ed_count": 2,
+   "co_count": 2
+  },
+  {
+   "quote": "紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。",
+   "quote_same_as_core": true,
+   "ed_trans": "Leaf-viewers can chase the best season from north to south. (p.6)",
+   "core_trans": "去看红叶的人可以自北向南追赶最佳观赏期。 (第6面)",
+   "ed_count": 2,
+   "co_count": 2
+  }
+ ],
+ "p7_tags_ed": [
+  "p.1",
+  "p.1",
+  "p.2",
+  "p.2",
+  "p.3",
+  "p.4",
+  "p.5",
+  "p.6"
+ ],
+ "p7_tags_co": [
+  "第1面",
+  "第1面",
+  "第2面",
+  "第2面",
+  "第3面",
+  "第4面",
+  "第5面",
+  "第6面"
+ ],
+ "p7_def_missing": [
+  "动词名词化时要加「こと」。",
+  "地点用「か所」来数。",
+  "动作发生的场所用「で」。",
+  "ます。"
+ ],
+ "p7_dot_lines": {
+  "ed": [
+   [
+    65.0,
+    594.9399999999999,
+    "読書週間 Reading Week · 紹介 introduction ·"
+   ],
+   [
+    65.0,
+    930.065,
+    "今年のスローガンは？ A. 本の秋 · B. 静かだけ"
+   ],
+   [
+    65.0,
+    959.7900000000001,
+    "ど、冒険中。 · C. 紅葉の秋"
+   ],
+   [
+    65.0,
+    1052.015,
+    "図書館のイベントは何ですか。 A. 本の紹介 ·"
+   ],
+   [
+    65.0,
+    1081.74,
+    "B. 野球の試合 · C. 鍋の料理"
+   ],
+   [
+    527.0,
+    562.26,
+    "見頃 best viewing season · 紅葉狩り"
+   ],
+   [
+    527.0,
+    591.985,
+    "leaf-viewing outings · 落葉 fallen leaves"
+   ],
+   [
+    527.0,
+    683.21,
+    "『見頃』の意味は？ A. 葉が落ちる時 · B. 紅葉"
+   ],
+   [
+    527.0,
+    712.9350000000001,
+    "がいちばん美しい時 · C. 夜の光"
+   ],
+   [
+    527.0,
+    897.3850000000001,
+    "『ライトアップ』とは？ A. 葉が落ちること ·"
+   ],
+   [
+    527.0,
+    927.1100000000001,
+    "B. 朝の光 · C. 夜に光で照らすこと"
+   ],
+   [
+    989.0,
+    594.94,
+    "〜倍 times · 〜% percent · 〜万食"
+   ],
+   [
+    989.0,
+    715.8900000000001,
+    "『1.5倍』の意味は？ A. 去年と同じ · B. 去年よ"
+   ],
+   [
+    989.0,
+    745.6150000000001,
+    "り50%多い · C. 去年の半分"
+   ],
+   [
+    989.0,
+    867.5650000000002,
+    "3人ぐらい · B. 1人ぐらい · C. 4人全部"
+   ]
+  ],
+  "co": [
+   [
+    65.0,
+    594.9399999999999,
+    "読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗"
+   ],
+   [
+    65.0,
+    930.065,
+    "今年のスローガンは？ A. 本の秋 · B. 静かだけ"
+   ],
+   [
+    65.0,
+    959.7900000000001,
+    "ど、冒険中。 · C. 紅葉の秋"
+   ],
+   [
+    65.0,
+    1052.015,
+    "図書館のイベントは何ですか。 A. 本の紹介 ·"
+   ],
+   [
+    65.0,
+    1081.74,
+    "B. 野球の試合 · C. 鍋の料理"
+   ],
+   [
+    527.0,
+    562.26,
+    "見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉"
+   ],
+   [
+    527.0,
+    683.21,
+    "『見頃』の意味は？ A. 葉が落ちる時 · B. 紅葉"
+   ],
+   [
+    527.0,
+    712.9350000000001,
+    "がいちばん美しい時 · C. 夜の光"
+   ],
+   [
+    527.0,
+    897.3850000000001,
+    "『ライトアップ』とは？ A. 葉が落ちること ·"
+   ],
+   [
+    527.0,
+    927.1100000000001,
+    "B. 朝の光 · C. 夜に光で照らすこと"
+   ],
+   [
+    989.0,
+    594.94,
+    "〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。"
+   ],
+   [
+    989.0,
+    686.1650000000001,
+    "『1.5倍』の意味は？ A. 去年と同じ · B. 去年よ"
+   ],
+   [
+    989.0,
+    715.8900000000001,
+    "り50%多い · C. 去年の半分"
+   ],
+   [
+    989.0,
+    837.8400000000001,
+    "3人ぐらい · B. 1人ぐらい · C. 4人全部"
+   ]
+  ]
+ },
+ "p7_vocab_headwords": {
+  "ed": [
+   "読書週間 Reading Week",
+   "今年のスローガンは？ A. 本の秋",
+   "ど、冒険中。",
+   "図書館のイベントは何ですか。 A. 本の紹介",
+   "B. 野球の試合",
+   "見頃 best viewing season",
+   "leaf-viewing outings",
+   "『見頃』の意味は？ A. 葉が落ちる時",
+   "がいちばん美しい時",
+   "『ライトアップ』とは？ A. 葉が落ちること",
+   "B. 朝の光",
+   "〜倍 times",
+   "『1.5倍』の意味は？ A. 去年と同じ",
+   "り50%多い",
+   "3人ぐらい"
+  ],
+  "co": [
+   "読書週間 读书周",
+   "今年のスローガンは？ A. 本の秋",
+   "ど、冒険中。",
+   "図書館のイベントは何ですか。 A. 本の紹介",
+   "B. 野球の試合",
+   "見頃 最佳观赏期",
+   "『見頃』の意味は？ A. 葉が落ちる時",
+   "がいちばん美しい時",
+   "『ライトアップ』とは？ A. 葉が落ちること",
+   "B. 朝の光",
+   "〜倍 倍",
+   "『1.5倍』の意味は？ A. 去年と同じ",
+   "り50%多い",
+   "3人ぐらい"
+  ]
+ },
+ "gloss": {
+  "p1": {
+   "core_items": [
+    [
+     "祝日 节假日",
+     "見頃 最佳观赏期",
+     "暦 历法",
+     "お届けします 为您送上。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "祝日 holiday",
+     "見頃 best viewing season",
+     "暦 calendar",
+     "お届けします to bring to you."
+    ]
+   ],
+   "headwords_core": [
+    "祝日",
+    "見頃",
+    "暦",
+    "お届けします"
+   ],
+   "headwords_ed": [
+    "祝日",
+    "見頃",
+    "暦",
+    "お届けします"
+   ],
+   "headwords_same": true,
+   "n_items": [
+    4,
+    4
+   ]
+  },
+  "p2": {
+   "core_items": [
+    [
+     "蒸す 蒸",
+     "並ぶ 摆上货架",
+     "食卓 餐桌",
+     "超える 超过。"
+    ],
+    [
+     "予報 预报",
+     "平年 往年平均",
+     "季節風 季风",
+     "話題 话题",
+     "値上がり 涨价。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "蒸す to steam",
+     "並ぶ to appear on shelves",
+     "食卓 the dinner table",
+     "超える to pass."
+    ],
+    [
+     "予報 forecast",
+     "平年 an average year",
+     "季節風 seasonal wind",
+     "話題 topic",
+     "値上がり price rises."
+    ]
+   ],
+   "headwords_core": [
+    "蒸す",
+    "並ぶ",
+    "食卓",
+    "超える",
+    "予報",
+    "平年",
+    "季節風",
+    "話題",
+    "値上がり"
+   ],
+   "headwords_ed": [
+    "蒸す",
+    "並ぶ",
+    "食卓",
+    "超える",
+    "予報",
+    "平年",
+    "季節風",
+    "話題",
+    "値上がり"
+   ],
+   "headwords_same": true,
+   "n_items": [
+    9,
+    9
+   ]
+  },
+  "p3": {
+   "core_items": [
+    [
+     "市場 市场",
+     "工芸 工艺",
+     "光 灯光",
+     "楽 しむ 享受。"
+    ],
+    [
+     "陶器 陶瓷",
+     "漆器 漆器",
+     "染物 染色织 物",
+     "金箔 金箔。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "市場 market",
+     "工芸 craft",
+     "光 light",
+     "楽しむ to enjoy."
+    ],
+    [
+     "陶器 pottery",
+     "漆器 lacquerware",
+     "染物 dyed textiles",
+     "金箔 gold leaf."
+    ]
+   ],
+   "headwords_core": [
+    "市場",
+    "工芸",
+    "光",
+    "楽",
+    "陶器",
+    "漆器",
+    "染物",
+    "金箔"
+   ],
+   "headwords_ed": [
+    "市場",
+    "工芸",
+    "光",
+    "楽しむ",
+    "陶器",
+    "漆器",
+    "染物",
+    "金箔"
+   ],
+   "headwords_same": false,
+   "n_items": [
+    8,
+    8
+   ]
+  },
+  "p4": {
+   "core_items": [
+    [
+     "延長 延长赛",
+     "逆転 逆转",
+     "同点 平分",
+     "優勝率 夺冠率。"
+    ],
+    [
+     "総括 总结",
+     "締め切り 截稿",
+     "確認す る 核实。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "延長 extra innings",
+     "逆転 comeback",
+     "同点 tie",
+     "優勝率 title rate."
+    ],
+    [
+     "総括 roundup",
+     "締め切り deadline",
+     "確認する to confirm."
+    ]
+   ],
+   "headwords_core": [
+    "延長",
+    "逆転",
+    "同点",
+    "優勝率",
+    "総括",
+    "締め切り",
+    "確認す"
+   ],
+   "headwords_ed": [
+    "延長",
+    "逆転",
+    "同点",
+    "優勝率",
+    "総括",
+    "締め切り",
+    "確認する"
+   ],
+   "headwords_same": false,
+   "n_items": [
+    7,
+    7
+   ]
+  },
+  "p5": {
+   "core_items": [
+    [
+     "罰金 罚款",
+     "像 雕像",
+     "仮装 变装",
+     "守 る 遵守。"
+    ],
+    [
+     "祭り 节日",
+     "週末 周末",
+     "話題 话题。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "罰金 fine",
+     "像 statue",
+     "仮装 dressing up",
+     "守る to follow."
+    ],
+    [
+     "祭り festival",
+     "週末 weekend",
+     "話 題 topic."
+    ]
+   ],
+   "headwords_core": [
+    "罰金",
+    "像",
+    "仮装",
+    "守",
+    "祭り",
+    "週末",
+    "話題"
+   ],
+   "headwords_ed": [
+    "罰金",
+    "像",
+    "仮装",
+    "守る",
+    "祭り",
+    "週末",
+    "話"
+   ],
+   "headwords_same": false,
+   "n_items": [
+    7,
+    7
+   ]
+  },
+  "p6": {
+   "core_items": [
+    [
+     "予算 预算",
+     "満足 满足",
+     "観測 观测",
+     "追いかける 追赶。"
+    ]
+   ],
+   "ed_items": [
+    [
+     "予算 budget",
+     "満足 satisfaction",
+     "観測 observation",
+     "追いかける to chase."
+    ]
+   ],
+   "headwords_core": [
+    "予算",
+    "満足",
+    "観測",
+    "追いかける"
+   ],
+   "headwords_ed": [
+    "予算",
+    "満足",
+    "観測",
+    "追いかける"
+   ],
+   "headwords_same": true,
+   "n_items": [
+    4,
+    4
+   ]
+  }
+ },
+ "readers_ed_texts": [
+  "「こんにちは。私は中学生です。読書週",
+  "間には、図書館で本を2冊読みたいで",
+  "す。文化の日には、家族と金沢へ行きたい",
+  "Editor's sample, not a real letter. No real",
+  "letters or best Page 8 compositions had",
+  "arrived by the deadline; both will appear",
+  "in VOL.3. Send us your letter in Japanese",
+  "— selected letters will be printed in VOL.3!",
+  "今週のフレーズ · Phrases of the week (verbatim from this issue)",
+  "「文化の日は、11月3日（火よう日）です。」",
+  "Culture Day is Tuesday, November 3. (p.1)",
+  "「ゆっくり、ゆるく整える日本の11月です。」",
+  "It is a slow, gently ordered Japanese November. (p.1)",
+  "「『ゆる』は、無理をしない、ゆっくり、という意味です。」",
+  "ゆる means not forcing it, taking it slowly. (p.2)",
+  "「鍋の材料が1か月早く並び始めました。」",
+  "Nabe ingredients appeared in shops a month early. (p.2)",
+  "「伝統工芸と紅葉と光を、いっしょに楽しむことができます。」",
+  "You can enjoy traditional crafts, autumn leaves, and lights together. (p.3)",
+  "「ソフトバンクが2連勝でスタートしました。」",
+  "SoftBank started with two straight wins. (p.4)",
+  "「ルールを守って、楽しいハロウィンにしましょう。」",
+  "Follow the rules and have a happy Halloween. (p.5)",
+  "「紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。」",
+  "Leaf-viewers can chase the best season from north to south. (p.6)",
+  "来週 · Next issue (VOL.3)",
+  "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+  "Page 7 of 8"
+ ],
+ "readers_co_texts": [
+  "「こんにちは。私は中学生です。読書週",
+  "間には、図書館で本を2冊読みたいで",
+  "す。文化の日には、家族と金沢へ行きたい",
+  "※この手紙は編集部の例です。締め切りま",
+  "優秀作は届きませんでした。VOL.3に載せ",
+  "ます。",
+  "编辑部示例信，非真实来信。截至截稿，未",
+  "收到真实来信与第8版最佳作文；VOL.3将刊",
+  "登收到的来信与佳作。",
+  "今週のフレーズ · 本周金句（逐字摘自本期文章）",
+  "「文化の日は、11月3日（火よう日）です。」",
+  "文化日是11月3日星期二。 (第1面)",
+  "「ゆっくり、ゆるく整える日本の11月です。」",
+  "这是一个慢慢地、轻松调理的日本11月。 (第1面)",
+  "「『ゆる』は、無理をしない、ゆっくり、という意味です。」",
+  "所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)",
+  "「鍋の材料が1か月早く並び始めました。」",
+  "火锅食材提前一个月上架了。 (第2面)",
+  "「伝統工芸と紅葉と光を、いっしょに楽しむことができます。」",
+  "可以同时欣赏传统工艺、红叶与灯光。 (第3面)",
+  "「ソフトバンクが2連勝でスタートしました。」",
+  "软银以两连胜开局。 (第4面)",
+  "「ルールを守って、楽しいハロウィンにしましょう。」",
+  "遵守规则，过一个快乐的万圣节吧。 (第5面)",
+  "「紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。」",
+  "去看红叶的人可以自北向南追赶最佳观赏期。 (第6面)",
+  "来週 · 下期预告 (VOL.3)",
+  "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY",
+  "第 7 版 / 共 8 版"
+ ],
+ "disclosure_frag_编辑部示": {
+  "core_p7": true,
+  "ed_p7": false
+ },
+ "disclosure_frag_非真实来": {
+  "core_p7": true,
+  "ed_p7": false
+ },
+ "disclosure_frag_※この手": {
+  "core_p7": true,
+  "ed_p7": false
+ },
+ "disclosure_frag_優秀作は": {
+  "core_p7": true,
+  "ed_p7": false
+ },
+ "ed_disclosure_texts": [
+  "Editor's sample, not a real letter. No real",
+  "in VOL.3. Send us your letter in Japanese"
+ ],
+ "essay": {
+  "core": {
+   "segments": [
+    "例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家",
+    "族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土",
+    "よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ",
+    "を見ます。日よう日は、図書館で借りた本を読みます。読書週間も",
+    "終わりますから、静かな場所で大きな冒険をしたいです。11月は短",
+    "いですが、楽しいことが多い季節です。"
+   ],
+   "joined": "私の11月の週末は、文化と紅葉の週末です。火よう日は、家族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップを見ます。日よう日は、図書館で借りた本を読みます。読書週間も終わりますから、静かな場所で大きな冒険をしたいです。11月は短いですが、楽しいことが多い季節です。",
+   "len_all": 167,
+   "len_no_space": 167,
+   "len_cjk_kana": 163,
+   "len_cjk_kana_digits": 167
+  },
+  "ed": {
+   "segments": [
+    "例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家",
+    "族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土",
+    "よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ",
+    "を見ます。日よう日は、図書館で借りた本を読みます。読書週間も",
+    "終わりますから、静かな場所で大きな冒険をしたいです。11月は短",
+    "いですが、楽しいことが多い季節です。"
+   ],
+   "joined": "私の11月の週末は、文化と紅葉の週末です。火よう日は、家族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップを見ます。日よう日は、図書館で借りた本を読みます。読書週間も終わりますから、静かな場所で大きな冒険をしたいです。11月は短いですが、楽しいことが多い季節です。",
+   "len_all": 167,
+   "len_no_space": 167,
+   "len_cjk_kana": 163,
+   "len_cjk_kana_digits": 167
+  }
+ },
+ "abstract": {
+  "raw": "Lucerna Japanese Weekly VOL.2 for English-speaking readers: Culture Day on November 3, autumn leaves at Naruko Gorge and the Kobe illuminations, gentle yuru eating, Reading Week, and the Japan Series in Yokohama — learn Japanese by reading real news, A2 to B2, 150 exercises with full answers.\n",
+  "newlines": 1,
+  "has_ascii_quote": false,
+  "len": 294,
+  "single_line_body": true
+ },
+ "images": {
+  "core": {
+   "p1": [
+    "92f3f41c7cec"
+   ],
+   "p2": [],
+   "p3": [
+    "76f4abb34efc"
+   ],
+   "p4": [
+    "ab8d113ff083"
+   ],
+   "p5": [
+    "f954d75303c8"
+   ],
+   "p6": [],
+   "p7": [],
+   "p8": []
+  },
+  "ed": {
+   "p1": [
+    "92f3f41c7cec"
+   ],
+   "p2": [],
+   "p3": [
+    "76f4abb34efc"
+   ],
+   "p4": [
+    "ab8d113ff083"
+   ],
+   "p5": [
+    "f954d75303c8"
+   ],
+   "p6": [],
+   "p7": [],
+   "p8": []
+  }
+ },
+ "credits": {
+  "core": {
+   "p1": [
+    "出典：各発表・予報の日付は記事の中にあります",
+    "写真：Poliphilo — CC0（Wikimedia Commons）"
+   ],
+   "p2": [],
+   "p3": [
+    "明治時代の行列の版画（歌川広重（三代）、1876",
+    "版画：歌川広重（三代）— パブリックドメイン（Wikimedia",
+    "Commons）"
+   ],
+   "p4": [
+    "写真：Syced — CC0（Wikimedia Commons）"
+   ],
+   "p5": [
+    "写真：Petr Kratochvil — パブリックドメイン（Wikimedia",
+    "Commons）"
+   ],
+   "p6": [],
+   "p7": [],
+   "p8": []
+  },
+  "ed": {
+   "p1": [
+    "出典：各発表・予報の日付は記事の中にあります",
+    "写真：Poliphilo — CC0（Wikimedia Commons）"
+   ],
+   "p2": [],
+   "p3": [
+    "明治時代の行列の版画（歌川広重（三代）、1876",
+    "版画：歌川広重（三代）— パブリックドメイン（Wikimedia",
+    "Commons）"
+   ],
+   "p4": [
+    "写真：Syced — CC0（Wikimedia Commons）"
+   ],
+   "p5": [
+    "写真：Petr Kratochvil — パブリックドメイン（Wikimedia",
+    "Commons）"
+   ],
+   "p6": [],
+   "p7": [],
+   "p8": []
+  }
+ },
+ "mast": {
+  "w43": {
+   "wordmark_y": 248.0,
+   "badge": [
+    975.0,
+    356.0,
+    "19",
+    "TEXT IN JAPANESE · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS"
+   ],
+   "texts_300_400": [
+    [
+     316.0,
+     "40",
+     "日本語版 · VOL.1 · 日本シリーズ · 紅葉 · 読書の秋"
+    ],
+    [
+     356.0,
+     "19",
+     "TEXT IN JAPANESE · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS"
+    ],
+    [
+     390.0,
+     "19",
+     "日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で"
+    ]
+   ],
+   "lines": [
+    "<line x1=\"65\" y1=\"112\" x2=\"1885\" y2=\"112\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>",
+    "<line x1=\"65\" y1=\"406\" x2=\"1885\" y2=\"406\" stroke=\"#28251d\" stroke-width=\"3\"/>",
+    "<line x1=\"65\" y1=\"413\" x2=\"1885\" y2=\"413\" stroke=\"#28251d\" stroke-width=\"1.2\"/>",
+    "<line x1=\"527\" y1=\"1379.475\" x2=\"961\" y2=\"1379.475\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"1451\" y1=\"1674\" x2=\"1885\" y2=\"1674\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"1844\" x2=\"1885\" y2=\"1844\" stroke=\"#d8cfb4\" stroke-width=\"1.2\"/>",
+    "<line x1=\"989\" y1=\"1912\" x2=\"1423\" y2=\"1912\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2312\" x2=\"1885\" y2=\"2312\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2580\" x2=\"1885\" y2=\"2580\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>"
+   ],
+   "band_rects": [
+    "<rect x=\"65\" y=\"424\" width=\"1820\" height=\"118\" rx=\"0\" fill=\"#2c2822\"/>"
+   ]
+  },
+  "core": {
+   "wordmark_y": 262.0,
+   "texts_300_400": [
+    [
+     330.0,
+     "40",
+     "日本語版 · VOL.2 · 文化の日 · 紅葉 · 読書週間"
+    ],
+    [
+     372.0,
+     "19",
+     "日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で"
+    ]
+   ],
+   "lines": [
+    "<line x1=\"65\" y1=\"112\" x2=\"1885\" y2=\"112\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>",
+    "<line x1=\"65\" y1=\"392\" x2=\"1885\" y2=\"392\" stroke=\"#28251d\" stroke-width=\"3\"/>",
+    "<line x1=\"65\" y1=\"401\" x2=\"1885\" y2=\"401\" stroke=\"#28251d\" stroke-width=\"1.2\"/>",
+    "<line x1=\"527\" y1=\"1295.75\" x2=\"961\" y2=\"1295.75\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"1451\" y1=\"1674\" x2=\"1885\" y2=\"1674\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"1844\" x2=\"1885\" y2=\"1844\" stroke=\"#d8cfb4\" stroke-width=\"1.2\"/>",
+    "<line x1=\"989\" y1=\"1912\" x2=\"1423\" y2=\"1912\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2312\" x2=\"1885\" y2=\"2312\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2580\" x2=\"1885\" y2=\"2580\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>"
+   ],
+   "band_rects": [
+    "<rect x=\"65\" y=\"424\" width=\"1820\" height=\"118\" rx=\"0\" fill=\"#2c2822\"/>"
+   ]
+  },
+  "ed": {
+   "wordmark_y": 248.0,
+   "badge": [
+    975.0,
+    356.0,
+    "19",
+    "TEXT IN JAPANESE · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS"
+   ],
+   "texts_300_400": [
+    [
+     316.0,
+     "40",
+     "日本語版 · VOL.2 · 文化の日 · 紅葉 · 読書週間"
+    ],
+    [
+     356.0,
+     "19",
+     "TEXT IN JAPANESE · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS"
+    ],
+    [
+     390.0,
+     "19",
+     "日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で"
+    ]
+   ],
+   "lines": [
+    "<line x1=\"65\" y1=\"112\" x2=\"1885\" y2=\"112\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>",
+    "<line x1=\"65\" y1=\"406\" x2=\"1885\" y2=\"406\" stroke=\"#28251d\" stroke-width=\"3\"/>",
+    "<line x1=\"65\" y1=\"413\" x2=\"1885\" y2=\"413\" stroke=\"#28251d\" stroke-width=\"1.2\"/>",
+    "<line x1=\"527\" y1=\"1325.475\" x2=\"961\" y2=\"1325.475\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"1451\" y1=\"1674\" x2=\"1885\" y2=\"1674\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"1844\" x2=\"1885\" y2=\"1844\" stroke=\"#d8cfb4\" stroke-width=\"1.2\"/>",
+    "<line x1=\"989\" y1=\"1912\" x2=\"1423\" y2=\"1912\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2312\" x2=\"1885\" y2=\"2312\" stroke=\"#b3a06a\" stroke-width=\"2\"/>",
+    "<line x1=\"65\" y1=\"2580\" x2=\"1885\" y2=\"2580\" stroke=\"#b3a06a\" stroke-width=\"1.6\"/>"
+   ],
+   "band_rects": [
+    "<rect x=\"65\" y=\"424\" width=\"1820\" height=\"118\" rx=\"0\" fill=\"#2c2822\"/>"
+   ]
+  }
+ },
+ "footers": {
+  "w43": {
+   "p1": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 1 of 8"
+   ],
+   "p2": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 2 of 8"
+   ],
+   "p3": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 3 of 8"
+   ],
+   "p4": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 4 of 8"
+   ],
+   "p5": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 5 of 8"
+   ],
+   "p6": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 6 of 8"
+   ],
+   "p7": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 7 of 8"
+   ],
+   "p8": [
+    "Lucerna · JAPANESE WEEKLY VOL.1 · Japanese text · English explanations",
+    "Page 8 of 8"
+   ]
+  },
+  "core": {
+   "p1": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p2": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p3": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p4": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p5": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p6": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p7": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "p8": [
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ]
+  },
+  "ed": {
+   "p1": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 1 of 8"
+   ],
+   "p2": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 2 of 8"
+   ],
+   "p3": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 3 of 8"
+   ],
+   "p4": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 4 of 8"
+   ],
+   "p5": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 5 of 8"
+   ],
+   "p6": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 6 of 8"
+   ],
+   "p7": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 7 of 8"
+   ],
+   "p8": [
+    "Lucerna · JAPANESE WEEKLY VOL.2 · Japanese text · English explanations",
+    "Page 8 of 8"
+   ]
+  }
+ },
+ "p8_furn": {
+  "w43": [
+   "テストと答え · Test and answers",
+   "答え · Answers — grouped by page; just find your number",
+   "A short English note with every answer · ✓ = the model-text item",
+   "— Page 1 —",
+   "— Page 2 —",
+   "— Page 3 —",
+   "— Page 4 —",
+   "— Page 5 —",
+   "— Page 6 —",
+   "— Page 7 —",
+   "— Page 8 —"
+  ],
+  "core": [
+   "— 第1面 —",
+   "— 第2面 —",
+   "— 第3面 —",
+   "— 第4面 —",
+   "— 第5面 —",
+   "— 第6面 —",
+   "— 第7面 —",
+   "— 第8面 —"
+  ],
+  "ed": [
+   "テストと答え · Test and answers",
+   "答え · Answers — grouped by page; just find your number",
+   "A short English note with every answer · ✓ = the model-text item",
+   "— Page 1 —",
+   "— Page 2 —",
+   "— Page 3 —",
+   "— Page 4 —",
+   "— Page 5 —",
+   "— Page 6 —",
+   "— Page 7 —",
+   "— Page 8 —"
+  ]
+ },
+ "instr": {
+  "w43": [
+   "Build a sentence",
+   "Fill in",
+   "Match words to meanings",
+   "Translate",
+   "True or false?",
+   "Writing"
+  ],
+  "core": [
+   "写作",
+   "填空",
+   "翻译",
+   "造句"
+  ],
+  "ed": [
+   "Build a sentence",
+   "Fill in",
+   "Match events to places and dates",
+   "Match words to meanings",
+   "Translate",
+   "True or false?",
+   "Writing"
+  ]
+ },
+ "bands": {
+  "w43": {
+   "p1": [],
+   "p2": [
+    "レベル A2 · 紅葉と秋の味覚 · Foliage and autumn flavors"
+   ],
+   "p3": [
+    "レベル A2→B1 · 時代祭と週末 · Jidai Matsuri and the weekend"
+   ],
+   "p4": [
+    "レベル B1 · 日本シリーズ詳報 · The Japan Series in depth"
+   ],
+   "p5": [
+    "レベル B1 · コントとハロウィン · Comedy and Halloween"
+   ],
+   "p6": [
+    "レベル B2 · アジアパラ競技大会 · The Asian Para Games in depth"
+   ],
+   "p7": [],
+   "p8": []
+  },
+  "core": {
+   "p1": [],
+   "p2": [
+    "レベル A2 · ゆる整え食と暖かい11月 · 轻松食养与暖和的11月"
+   ],
+   "p3": [
+    "レベル A2→B1 · 文化の日と金沢 · 文化日与金泽"
+   ],
+   "p4": [
+    "レベル B1 · 日本シリーズ横浜の2試合 · 日本大赛横滨两场"
+   ],
+   "p5": [
+    "レベル B1 · ハロウィンと秋まつり · 万圣节与秋日祭典"
+   ],
+   "p6": [
+    "レベル B2 · 暖かい11月と秋の旅 · 暖和的11月与秋日旅行"
+   ],
+   "p7": [],
+   "p8": []
+  },
+  "ed": {
+   "p1": [],
+   "p2": [
+    "レベル A2 · ゆる整え食と暖かい11月 · Gentle food and a warm November"
+   ],
+   "p3": [
+    "レベル A2→B1 · 文化の日と金沢 · Culture Day and Kanazawa"
+   ],
+   "p4": [
+    "レベル B1 · 日本シリーズ横浜の2試合 · The Japan Series: two games in Yokohama"
+   ],
+   "p5": [
+    "レベル B1 · ハロウィンと秋まつり · Halloween and autumn festivals"
+   ],
+   "p6": [
+    "レベル B2 · 暖かい11月と秋の旅 · A warm November and autumn travel"
+   ],
+   "p7": [],
+   "p8": []
+  }
+ },
+ "note_prefix": {
+  "ed": 10,
+  "w43": 10
+ },
+ "p7_bottom_rects_ed": [
+  [
+   2406.12,
+   118.0,
+   2524.12
+  ]
+ ],
+ "p7_max_text_y_ed": 2490.12,
+ "p7_bottom_rects_core": [
+  [
+   2394.08,
+   118.0,
+   2512.08
+  ]
+ ],
+ "p7_max_text_y_core": 2624.0,
+ "advance_violations": {
+  "p1": [],
+  "p2": [],
+  "p3": [],
+  "p4": [],
+  "p5": [],
+  "p6": [],
+  "p7": [],
+  "p8": []
+ },
+ "same_baseline_ink_collisions": {
+  "p1": [],
+  "p2": [],
+  "p3": [],
+  "p4": [],
+  "p5": [],
+  "p6": [],
+  "p7": [],
+  "p8": []
+ },
+ "p6_chart_coverage": {
+  "bars": [
+   [
+    315.0,
+    1604.0,
+    1455.0,
+    1638.0
+   ],
+   [
+    315.0,
+    1660.0,
+    1125.0,
+    1694.0
+   ],
+   [
+    315.0,
+    1716.0,
+    945.0,
+    1750.0
+   ],
+   [
+    315.0,
+    1772.0,
+    735.0,
+    1806.0
+   ]
+  ],
+  "labels": [
+   [
+    "38%",
+    1471.0,
+    1630.0,
+    [
+     1471.0,
+     1613.0,
+     1518.0,
+     1630.0
+    ],
+    0.0
+   ],
+   [
+    "27%",
+    1141.0,
+    1686.0,
+    [
+     1141.0,
+     1669.0,
+     1188.0,
+     1686.0
+    ],
+    0.0
+   ],
+   [
+    "21%",
+    961.0,
+    1742.0,
+    [
+     961.0,
+     1725.0,
+     1008.0,
+     1742.0
+    ],
+    0.0
+   ],
+   [
+    "14%",
+    751.0,
+    1798.0,
+    [
+     751.0,
+     1781.0,
+     798.0,
+     1798.0
+    ],
+    0.0
+   ]
+  ]
+ },
+ "simplified_scan": {
+  "p1": {
+   "yi_ed_count": 0,
+   "yi_core_count": 0,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p2": {
+   "yi_ed_count": 0,
+   "yi_core_count": 0,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p3": {
+   "yi_ed_count": 0,
+   "yi_core_count": 1,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p4": {
+   "yi_ed_count": 0,
+   "yi_core_count": 0,
+   "simp_only_edition_only": [],
+   "simp_only_ed": [
+    "点"
+   ]
+  },
+  "p5": {
+   "yi_ed_count": 0,
+   "yi_core_count": 0,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p6": {
+   "yi_ed_count": 0,
+   "yi_core_count": 0,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p7": {
+   "yi_ed_count": 0,
+   "yi_core_count": 1,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  },
+  "p8": {
+   "yi_ed_count": 0,
+   "yi_core_count": 6,
+   "simp_only_edition_only": [],
+   "simp_only_ed": []
+  }
+ },
+ "p8_ed_note_weekday_jp": {},
+ "p8_ed_key_weekday_jp": {
+  "133": "133. 私は火よう日に金沢へ行きます。 — subject + time + place + verb"
+ },
+ "letter_joined": {
+  "core": "「こんにちは。私は中学生です。読書週間には、図書館で本を2冊読みたいです。文化の日には、家族と金沢へ行きたいです。」— 読者の手紙の例",
+  "ed": "「こんにちは。私は中学生です。読書週間には、図書館で本を2冊読みたいです。文化の日には、家族と金沢へ行きたいです。」— 読者の手紙の例"
+ },
+ "frame_joined": {
+  "core": "『ゆるく整える』 — ゆるく（無理をしないで）＋整える（体と心をよくする）。忙しい人でも、ゆっくり体を整える、という意味です。",
+  "ed": "『ゆるく整える』 — ゆるく（無理をしないで）＋整える（体と心をよくする）。忙しい人でも、ゆっくり体を整える、という意味です。"
+ },
+ "p7_vocab_boxes": {
+  "core": {
+   "box_lines": [
+    [
+     65.0,
+     594.94,
+     "読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗"
+    ],
+    [
+     527.0,
+     562.26,
+     "見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉"
+    ],
+    [
+     527.0,
+     683.21,
+     "『見頃』の意味は？ A. 葉が落ちる時 · B. 紅葉"
+    ],
+    [
+     989.0,
+     594.94,
+     "〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。"
+    ],
+    [
+     989.0,
+     686.17,
+     "『1.5倍』の意味は？ A. 去年と同じ · B. 去年よ"
+    ]
+   ],
+   "continuations": []
+  },
+  "ed": {
+   "box_lines": [
+    [
+     65.0,
+     594.94,
+     "読書週間 Reading Week · 紹介 introduction ·"
+    ],
+    [
+     527.0,
+     562.26,
+     "見頃 best viewing season · 紅葉狩り"
+    ],
+    [
+     527.0,
+     591.99,
+     "leaf-viewing outings · 落葉 fallen leaves"
+    ],
+    [
+     527.0,
+     683.21,
+     "『見頃』の意味は？ A. 葉が落ちる時 · B. 紅葉"
+    ],
+    [
+     989.0,
+     594.94,
+     "〜倍 times · 〜% percent · 〜万食"
+    ]
+   ],
+   "continuations": [
+    "ten-thousand servings."
+   ]
+  }
+ },
+ "mast_rules_y": {
+  "w43": [
+   112.0,
+   406.0,
+   413.0,
+   1379.475,
+   1674.0,
+   1844.0,
+   1912.0,
+   2312.0,
+   2580.0
+  ],
+  "core": [
+   112.0,
+   392.0,
+   401.0,
+   1295.75,
+   1674.0,
+   1844.0,
+   1912.0,
+   2312.0,
+   2580.0
+  ],
+  "ed": [
+   112.0,
+   406.0,
+   413.0,
+   1325.475,
+   1674.0,
+   1844.0,
+   1912.0,
+   2312.0,
+   2580.0
+  ]
+ },
+ "p7_band": {
+  "w43": [
+   "言語フォーカス · 三つのレベル、三つのテーマ · Three levels, three themes"
+  ],
+  "core": [
+   "言語フォーカス · 三つのレベル、三つのテーマ · 三个级别，三个主题"
+  ],
+  "ed": [
+   "言語フォーカス · 三つのレベル、三つのテーマ · Three levels, three themes"
+  ]
+ },
+ "match_events_loc": [
+  [
+   "p3",
+   "Match events to places and dates"
+  ]
+ ],
+ "match_events_core_counterparts": []
+}

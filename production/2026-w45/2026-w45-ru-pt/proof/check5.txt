@@ -1,0 +1,22 @@
+===== ED gloss() calls =====
+  content12.py: n_items=3 :: '"перед праздником antes do feriado · уйдёте você sai do trabalho · выспаться dormir até tarde."'
+  content12.py: n_items=3 :: '"выплат pagamentos · раньше antes · почта os correios."'
+  content12.py: n_items=3 :: '"сбылись se confirmaram (de uma previsão) · дерби o dérbi · в прошлом номере no número anterior."'
+  content34.py: n_items=3 :: '"напоминает о faz lembrar · прежде всего antes de tudo · ярмарке uma feira."'
+  content34.py: n_items=3 :: '"площадях praças · погулять passear · светит солнце o sol brilha."'
+  content34.py: n_items=3 :: '"закрывается termina (uma rodada) · перерыва a pausa · шанс uma chance."'
+  content56.py: n_items=3 :: '"приложения aplicativos · вводят digitam · хватает agarra."'
+  content56.py: n_items=2 :: '"лишних desnecessárias · составили fizeram."'
+  content56.py: n_items=3 :: '"сбивают ритм tiram o ritmo · подряд seguidos · из дома de casa (trabalhando)."'
+  TOTAL items=26
+===== CORE gloss() calls =====
+  content12.py: n_items=3 :: '"перед праздником 节前 · уйдёте 下班离开 · выспаться 睡个够。"'
+  content12.py: n_items=3 :: '"выплат 款项、到账 · раньше 提前 · почта 邮局。"'
+  content12.py: n_items=3 :: '"сбылись 兑现（指预报）· дерби 德比 · в прошлом номере 在上一期。"'
+  content34.py: n_items=3 :: '"напоминает о 让人想起 · прежде всего 首先 · ярмарке 集市。"'
+  content34.py: n_items=3 :: '"площадях 广场 · погулять 散步 · светит солнце 出太阳。"'
+  content34.py: n_items=3 :: '"закрывается 结束（指一轮）· перерыва 间歇 · шанс 机会。"'
+  content56.py: n_items=3 :: '"приложения 应用 · вводят 输入 · хватает 抓取。"'
+  content56.py: n_items=2 :: '"лишних 多余 · составили 列出。"'
+  content56.py: n_items=3 :: '"сбивают ритм 打乱节奏 · подряд 连续 · из дома 在家（工作）。"'
+  TOTAL items=26

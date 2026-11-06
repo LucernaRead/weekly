@@ -1,0 +1,72 @@
+--- #7 ---
+ core method=paren toolkey='B — 气候周共 7 天'
+ core seg='B — 气候周共 7 天（11 月 2–8 日）'
+ ed   method=paren toolkey='B — La Semana del Clima dura 7 días'
+ ed   seg='B — La Semana del Clima dura 7 días (2–8 de noviembre)'
+ dash-token core='B' ed='B' identical=True
+--- #17 ---
+ core method=paren toolkey='wortelen — wortelen = 生根'
+ core seg='wortelen — wortelen = 生根（复数主语）'
+ ed   method=paren toolkey='wortelen — wortelen = echar raíces'
+ ed   seg='wortelen — wortelen = echar raíces (sujeto plural)'
+ dash-token core='wortelen' ed='wortelen' identical=True
+--- #70 ---
+ core method=paren toolkey='eiland — eiland = 岛'
+ core seg='eiland — eiland = 岛（het）'
+ ed   method=paren toolkey='eiland — eiland = la isla'
+ ed   seg='eiland — eiland = la isla (het)'
+ dash-token core='eiland' ed='eiland' identical=True
+--- #71 ---
+ core method=paren toolkey='proef — proef = 比赛项目、考验'
+ core seg='proef — proef = 比赛项目、考验（de）'
+ ed   method=paren toolkey='proef — proef = la prueba'
+ ed   seg='proef — proef = la prueba (de)'
+ dash-token core='proef' ed='proef' identical=True
+--- #76 ---
+ core method=paren toolkey='gaat winnen — gaat winnen = 会赢'
+ core seg='gaat winnen — gaat winnen = 会赢（只是猜测）'
+ ed   method=paren toolkey='gaat winnen — gaat winnen = va a ganar'
+ ed   seg='gaat winnen — gaat winnen = va a ganar (solo una suposición)'
+ dash-token core='gaat winnen' ed='gaat winnen' identical=True
+--- #96 ---
+ core method=paren toolkey='advies — advies = 建议'
+ core seg='advies — advies = 建议（het）'
+ ed   method=paren toolkey='advies — advies = el consejo'
+ ed   seg='advies — advies = el consejo (het)'
+ dash-token core='advies' ed='advies' identical=True
+--- #137 ---
+ core method=dash toolkey='气候周持续七天。'
+ core seg='气候周持续七天。 — 对照第 1 版头条'
+ ed   method=dash toolkey='La Semana del Clima dura siete días.'
+ ed   seg='La Semana del Clima dura siete días. — Compara el titular de la página 1'
+ dash-token core='气候周持续七天。' ed='La Semana del Clima dura siete días.' identical=False
+--- #138 ---
+ core method=dash toolkey='橙色预警意味着：做好准备。'
+ core seg='橙色预警意味着：做好准备。 — 第 2 版原句 · bereid je voor 做好准备'
+ ed   method=dash toolkey='El código naranja significa: prepárate.'
+ ed   seg='El código naranja significa: prepárate. — Frase de la página 2 · bereid je voor = prepárate'
+ dash-token core='橙色预警意味着：做好准备。' ed='El código naranja significa: prepárate.' identical=False
+--- #148 ---
+ core method=paren toolkey='B — zachte = 柔软的'
+ core seg='B — zachte = 柔软的（土壤）'
+ ed   method=paren toolkey='B — zachte = blanda'
+ ed   seg='B — zachte = blanda (la tierra)'
+ dash-token core='B' ed='B' identical=True
+--- #139 ---
+ core method=dash toolkey='Museumnacht duurt van 19:00 uur tot 02:00 uur.'
+ core seg='Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意时间表达 van...tot...'
+ ed   method=dash toolkey='Museumnacht duurt van 19:00 uur tot 02:00 uur.'
+ ed   seg='Museumnacht duurt van 19:00 uur tot 02:00 uur. — Atención a la expresión de tiempo van...tot...'
+ dash-token core='Museumnacht duurt van 19:00 uur tot 02:00 uur.' ed='Museumnacht duurt van 19:00 uur tot 02:00 uur.' identical=True
+--- #140 ---
+ core method=dash toolkey='Ik doe mee aan de Klimaatweek.'
+ core seg='Ik doe mee aan de Klimaatweek. — meedoen 是可分动词'
+ ed   method=dash toolkey='Ik doe mee aan de Klimaatweek.'
+ ed   seg='Ik doe mee aan de Klimaatweek. — meedoen es un verbo separable'
+ dash-token core='Ik doe mee aan de Klimaatweek.' ed='Ik doe mee aan de Klimaatweek.' identical=True
+--- #150 ---
+ core method=check toolkey='✓'
+ core seg='✓ 范文见本版 H 区（87 词）'
+ ed   method=check toolkey='✓'
+ ed   seg='✓ El modelo está en la sección H de esta página (87 palabras)'
+ dash-token core='✓ 范文见本版 H 区（87 词）' ed='✓ El modelo está en la sección H de esta página (87 palabras)' identical=False

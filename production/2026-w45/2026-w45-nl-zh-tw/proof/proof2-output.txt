@@ -1,0 +1,377 @@
+=== R1 registry diff ===
+len 150 150
+KEY diffs: [(137, '气候周持续七天。', '氣候週持續七天。'), (138, '橙色预警意味着：做好准备。', '橙色預警意味著：做好準備。'), (150, '（开放题，范文如下）', '（開放題，範文如下）')]
+TYPE diffs count: 77 mapping: Counter({('单选', '單選'): 44, ('完形单选', '完形單選'): 13, ('词汇配对', '詞彙配對'): 8, ('判断对错', '判斷對錯'): 7, ('翻译', '翻譯'): 4, ('写作', '寫作'): 1})
+NOTE diffs count: 119 unchanged notes: 31
+notes ending ）core: [7, 17, 70, 71, 76, 96, 148, 150]
+notes ending ）ed: [7, 17, 70, 71, 76, 96, 148, 150]
+item 139/140 registry: {"n": 139, "page": 8, "level": "B1", "type": "翻译", "key": "Museumnacht duurt van 19:00 uur tot 02:00 uur.", "note": "注意时间表达 van...tot..."} {"n": 139, "page": 8, "level": "B1", "type": "翻譯", "key": "Museumnacht duurt van 19:00 uur tot 02:00 uur.", "note": "注意時間表達 van...tot..."}
+item 139/140 registry: {"n": 140, "page": 8, "level": "B2", "type": "翻译", "key": "Ik doe mee aan de Klimaatweek.", "note": "meedoen 是可分动词"} {"n": 140, "page": 8, "level": "B2", "type": "翻譯", "key": "Ik doe mee aan de Klimaatweek.", "note": "meedoen 是可分動詞"}
+item 139/140: note core has 简体? ed has 繁体? (stem = question stem field?) keys: dict_keys(['n', 'page', 'level', 'type', 'key', 'note']) dict_keys(['n', 'page', 'level', 'type', 'key', 'note'])
+  P8-ex core: '博物馆之夜从晚上 19 点到凌晨 2 点。→ ___'
+  P8-ex core: '我参加气候周。→ ___'
+  P8-ex core: '3. 7 — 博物馆之夜在 11 月 7 日周六'
+  P8-ex core: '9. C — 博物馆之夜在阿姆斯特丹'
+  P8-ex core: '29. B — 博物馆之夜在 11 月 7 日周六'
+  P8-ex core: '115. B — 博物馆之夜在 11 月 7 日'
+  P8-ex core: '136. Ik doe mee aan de Klimaatweek. — 可分动词 mee 在句末'
+  P8-ex core: '139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意时间表'
+  P8-ex core: '140. Ik doe mee aan de Klimaatweek. — meedoen 是可分动词'
+  P8-ex ed: '博物館之夜從晚上 19 點到凌晨 2 點。→ ___'
+  P8-ex ed: '我參加氣候週。→ ___'
+  P8-ex ed: '3. 7 — 博物館之夜在 11 月 7 日週六'
+  P8-ex ed: '9. C — 博物館之夜在阿姆斯特丹'
+  P8-ex ed: '29. B — 博物館之夜在 11 月 7 日週六'
+  P8-ex ed: '115. B — 博物館之夜在 11 月 7 日'
+  P8-ex ed: '136. Ik doe mee aan de Klimaatweek. — 可分動詞 mee 在句末'
+  P8-ex ed: '139. Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意時間表'
+  P8-ex ed: '140. Ik doe mee aan de Klimaatweek. — meedoen 是可分動詞'
+
+=== R2 gloss blocks (join lines from 譯注｜/译注｜ to section end) ===
+p2-leven: core lines=['het klimaat 气候 · wortelen 生根', '· besparen 节约 · de verwarming 暖气', '· de waarschuwing 预警 · lokaal 当地的', '、本地的。'] items=6 :: ['het klimaat 气候', 'wortelen 生根', 'besparen 节约', 'de verwarming 暖气', 'de waarschuwing 预警', 'lokaal 当地的、本地的。']
+p2-leven: ed   lines=['het klimaat 氣候 · wortelen 生根', '· besparen 節約 · de verwarming 暖氣', '· de waarschuwing 預警 · lokaal 當地的', '、本地的。'] items=6 :: ['het klimaat 氣候', 'wortelen 生根', 'besparen 節約', 'de verwarming 暖氣', 'de waarschuwing 預警', 'lokaal 當地的、本地的。']
+   core heads=['het', 'wortelen', 'besparen', 'de', 'de', 'lokaal']
+   ed   heads=['het', 'wortelen', 'besparen', 'de', 'de', 'lokaal']
+p3-cultuur: core lines=['het museum 博物馆 · de', 'rondleiding 导览 · het tijdslot 时间段 ·', 'tweedehands 二手的 · de beurs 展会、集', '市。'] items=5 :: ['het museum 博物馆', 'derondleiding 导览', 'het tijdslot 时间段', 'tweedehands 二手的', 'de beurs 展会、集市。']
+p3-cultuur: ed   lines=['het museum 博物館 · de', 'rondleiding 導覽 · het tijdslot 時間段 ·', 'tweedehands 二手的 · de beurs 展會、市', '集。'] items=5 :: ['het museum 博物館', 'derondleiding 導覽', 'het tijdslot 時間段', 'tweedehands 二手的', 'de beurs 展會、市集。']
+   core heads=['het', 'derondleiding', 'het', 'tweedehands', 'de']
+   ed   heads=['het', 'derondleiding', 'het', 'tweedehands', 'de']
+p4-sport: core lines=['de balans 成绩单、总结 ·', 'gelijkspelen 打平 · de speelronde 轮次 ·', 'de topper 焦点战 · de stand 积分榜。'] items=5 :: ['de balans 成绩单、总结', 'gelijkspelen 打平', 'de speelronde 轮次', 'de topper 焦点战', 'de stand 积分榜。']
+p4-sport: ed   lines=['de balans 成績單、總結 ·', 'gelijkspelen 打平 · de speelronde 輪次 ·', 'de topper 焦點戰 · de stand 積分榜。'] items=5 :: ['de balans 成績單、總結', 'gelijkspelen 打平', 'de speelronde 輪次', 'de topper 焦點戰', 'de stand 積分榜。']
+   core heads=['de', 'gelijkspelen', 'de', 'de', 'de']
+   ed   heads=['de', 'gelijkspelen', 'de', 'de', 'de']
+p5-jongeren: core lines=['het eiland 岛 · de proef 比赛项目', '、考验 · stemmen 投票 · de aflevering', '（一）集 · voorbij 过去了、结束了。'] items=5 :: ['het eiland 岛', 'de proef 比赛项目、考验', 'stemmen 投票', 'de aflevering（一）集', 'voorbij 过去了、结束了。']
+p5-jongeren: ed   lines=['het eiland 島 · de proef 比賽項目', '、考驗 · stemmen 投票 · de aflevering', '（一）集 · voorbij 過去了、結束了。'] items=5 :: ['het eiland 島', 'de proef 比賽項目、考驗', 'stemmen 投票', 'de aflevering（一）集', 'voorbij 過去了、結束了。']
+   core heads=['het', 'de', 'stemmen', 'de', 'voorbij']
+   ed   heads=['het', 'de', 'stemmen', 'de', 'voorbij']
+p6-verdieping: core lines=['de meteoroloog 气象学家 ·', 'waarschuwingsmoeheid 预警疲劳 ·', 'vastzetten 固定好 · het advies 建议、忠', '告 · de voorstander 支持者。'] items=5 :: ['de meteoroloog 气象学家', 'waarschuwingsmoeheid 预警疲劳', 'vastzetten 固定好', 'het advies 建议、忠告', 'de voorstander 支持者。']
+p6-verdieping: ed   lines=['de meteoroloog 氣象學家 ·', 'waarschuwingsmoeheid 預警疲勞 ·', 'vastzetten 固定好 · het advies 建議、忠', '告 · de voorstander 支持者。'] items=5 :: ['de meteoroloog 氣象學家', 'waarschuwingsmoeheid 預警疲勞', 'vastzetten 固定好', 'het advies 建議、忠告', 'de voorstander 支持者。']
+   core heads=['de', 'waarschuwingsmoeheid', 'vastzetten', 'het', 'de']
+   ed   heads=['de', 'waarschuwingsmoeheid', 'vastzetten', 'het', 'de']
+
+=== R3 P7 quotes: labels + 2x + labelled-page presence ===
+core labels (金句 only): [1, 1, 2, 3, 4, 5, 6, 6]
+ed labels (金句 only): [1, 1, 2, 3, 4, 5, 6, 6]
+count: 8 8
+Dutch sentences identical: [True, True, True, True, True, True, True, True]
+  lab=1 on_labelled_page=1 article_total=1 P7=1 :: Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Neder
+  lab=1 on_labelled_page=1 article_total=1 P7=1 :: De herfst is de beste tijd om te planten
+  lab=2 on_labelled_page=1 article_total=1 P7=1 :: Geel betekent: let op, het weer kan gevaarlijk zijn
+  lab=3 on_labelled_page=1 article_total=1 P7=1 :: Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's n
+  lab=4 on_labelled_page=1 article_total=1 P7=1 :: Ajax won donderdag 22 oktober met 2–0 van Atalanta
+  lab=5 on_labelled_page=1 article_total=1 P7=1 :: Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur
+  lab=6 on_labelled_page=1 article_total=1 P7=1 :: Een code is geen verbod, maar een advies
+  lab=6 on_labelled_page=1 article_total=1 P7=1 :: Het weer is van ons allemaal, maar het raakt ons allemaal anders
+
+=== R4 P7 phrases from articles (A2/B1/B2 phrase blocks) ===
+  P7[0]: 'TAAL · 語言'
+  P7[1]: 'De Lucerna'
+  P7[2]: '聚焦語言 · Drie niveaus, drie gereedschappen · 三個級別，三件工具'
+  P7[3]: 'A2 · KLIMAATWOORDEN'
+  P7[4]: 'De woorden van deze week horen bij de'
+  P7[5]: 'Klimaatweek: het klimaat, de boom'
+  P7[6]: 'planten, besparen en de waarschuwing.'
+  P7[7]: 'Het klimaat is het weer en de natuur over'
+  P7[8]: 'een lange tijd — niet het weer van'
+  P7[9]: 'vandaag.'
+  P7[10]: 'En de codes: geel is let op, oranje is'
+  P7[11]: 'gevaarlijk, rood is blijf binnen. Onthoud'
+  P7[12]: 'ook: een waarschuwing geldt voor jouw'
+  P7[13]: 'eigen omgeving.'
+  P7[14]: 'het klimaat 氣候（長期）；een boom planten'
+  P7[15]: '種樹；besparen 節約；de waarschuwing 預警'
+  P7[16]: '。'
+  P7[17]: 'A2'
+  P7[18]: '101.'
+  P7[19]: '填空'
+  P7[20]: 'In de Klimaatweek ___ (planten) wij een'
+  P7[21]: 'boom.'
+  P7[22]: 'A2'
+  P7[23]: '102.'
+  P7[24]: '填空'
+  P7[25]: 'Met de fiets ___ (besparen) je energie.'
+  P7[26]: 'A2'
+  P7[27]: '103.'
+  P7[28]: '«Het klimaat» is... A. het weer van vandaag'
+  P7[29]: '· B. het weer en de natuur over een lange'
+  P7[30]: 'tijd · C. een museum'
+  P7[31]: 'A2'
+  P7[32]: '104.'
+  P7[33]: '填空'
+  P7[34]: 'Code rood betekent: ___ binnen.'
+  P7[35]: 'B1 · SCHEIDBARE WERKWOORDEN'
+  P7[36]: 'Deze week doen we iets met scheidbare'
+  P7[37]: 'werkwoorden: meedoen (deed mee,'
+  P7[38]: 'meegedaan), opruimen (ruimde op,'
+  P7[39]: 'opgeruimd) en vastzetten (zette vast,'
+  P7[40]: 'vastgezet). Het eerste deel gaat in de zin'
+  P7[41]: 'naar het einde.'
+  P7[42]: 'Voorbeeld: «Ik doe mee aan de'
+  P7[43]: 'Klimaatweek.» «Wij hebben de tuin'
+  P7[44]: 'opgeruimd.» «Zij zette de losse spullen'
+  P7[45]: 'vast.» Let op de volgorde: het deel staat'
+  P7[46]: 'achteraan.'
+  P7[47]: 'meedoen 參加：ik doe mee；opruimen 收拾'
+  P7[48]: '：wij hebben opgeruimd；vastzetten 固定：'
+  P7[49]: 'zij zette vast。'
+  P7[50]: 'B1'
+  P7[51]: '105.'
+  P7[52]: '填空'
+  P7[53]: 'Ik ___ (meedoen) aan de Klimaatweek.'
+  P7[54]: 'B1'
+  P7[55]: '106.'
+  P7[56]: '填空'
+  P7[57]: 'Wij hebben de tuin ___ (opruimen).'
+  P7[58]: 'B1'
+  P7[59]: '107.'
+
+=== R5 frame straddle scan (any rect vertical/horizontal border strictly inside ink) ===
+p1-voorpagina: straddle flags=0
+p2-leven: straddle flags=0
+p3-cultuur: straddle flags=0
+p4-sport: straddle flags=0
+p5-jongeren: straddle flags=0
+p6-verdieping: straddle flags=0
+p7-taal: straddle flags=0
+p8-toets: straddle flags=0
+
+=== R6 rowcheck (same-baseline ink collisions) ===
+rowcheck total: 0
+
+=== R7 P6 chart coverage: correct baseline-anchored + true-ink ===
+baseline-anchored: worst=0.00% desc=
+true-ink: worst=0.00% desc=
+
+=== R8 fixup counts + 周/只/數據 ===
+  ed 週: 55 | core 週: 0
+  ed 周: 1 | core 周: 56
+  ed 只: 1 | core 只: 1
+  ed 數據: 3 | core 數據: 0
+  ed 資料: 0 | core 資料: 0
+  ed 代碼: 5 | core 代碼: 0
+  ed 程式碼: 0 | core 程式碼: 0
+  ed 比賽項目: 3 | core 比賽項目: 0
+  ed 比賽專案: 0 | core 比賽專案: 0
+  ed 專案: 0 | core 專案: 0
+  ed 報導: 1 | core 報導: 0
+  ed 報道: 0 | core 報道: 0
+  ed 市集: 1 | core 市集: 0
+  ed 集市: 0 | core 集市: 1
+  ed 把詞組成: 1 | core 把詞組成: 0
+  ed 把片語成: 0 | core 把片語成: 0
+  ed 腳踏車: 1 | core 腳踏車: 0
+  ed 搜尋: 0 | core 搜尋: 0
+  ed 搜索: 0 | core 搜索: 0
+周 contexts in ed:
+   p1-voorpagina: '「氣候」：我們周圍長期的天氣與自然。氣候週講'
+只 contexts in ed:
+   p8-toets: '76. gaat winnen — gaat winnen = 會贏（只是猜測）'
+
+=== R9 mainland vocab scan (expanded) ===
+  (no line above = zero hits for that list)
+
+=== R10 s2twp baseline diff: edition vs fresh s2twp(core strings) ===
+strings differing from pure s2twp: 62
+  p1-voorpagina core='荷 兰 语 周 报 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12'
+     s2twp='荷 蘭 語 周 報 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12'
+     ed   ='荷 語 週 報 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12'
+  p1-voorpagina core='DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS'
+     s2twp='DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS'
+     ed   ='荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+  p1-voorpagina core='气候周'
+     s2twp='氣候周'
+     ed   ='氣候週'
+  p1-voorpagina core='本周全国气候周 · 详见第 2 版'
+     s2twp='本週全國氣候周 · 詳見第 2 版'
+     ed   ='本週全國氣候週 · 詳見第 2 版'
+  p1-voorpagina core='讲解｜de Klimaatweek 气候周 · de boom'
+     s2twp='講解｜de Klimaatweek 氣候周 · de boom'
+     ed   ='講解｜de Klimaatweek 氣候週 · de boom'
+  p1-voorpagina core='周的天数）'
+     s2twp='周的天數）'
+     ed   ='週的天數）'
+  p1-voorpagina core='“气候”：我们周围长期的天气与自然。气候周讲'
+     s2twp='“氣候”：我們周圍長期的天氣與自然。氣候周講'
+     ed   ='「氣候」：我們周圍長期的天氣與自然。氣候週講'
+  p1-voorpagina core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p2-leven core='NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步讲气候周'
+     s2twp='NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步講氣候周'
+     ed   ='NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步講氣候週'
+  p2-leven core='译注｜het klimaat 气候 · wortelen 生根'
+     s2twp='譯註｜het klimaat 氣候 · wortelen 生根'
+     ed   ='譯注｜het klimaat 氣候 · wortelen 生根'
+  p2-leven core='气候周你做什么？种树、节约能源还是骑车'
+     s2twp='氣候周你做什麼？種樹、節約能源還是騎車'
+     ed   ='氣候週你做什麼？種樹、節約能源還是騎車'
+  p2-leven core='用颜色代码和日期填空。'
+     s2twp='用顏色程式碼和日期填空。'
+     ed   ='用顏色代碼和日期填空。'
+  p2-leven core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p3-cultuur core='译注｜het museum 博物馆 · de'
+     s2twp='譯註｜het museum 博物館 · de'
+     ed   ='譯注｜het museum 博物館 · de'
+  p3-cultuur core='tweedehands 二手的 · de beurs 展会、集'
+     s2twp='tweedehands 二手的 · de beurs 展會、集'
+     ed   ='tweedehands 二手的 · de beurs 展會、市'
+  p3-cultuur core='市。'
+     s2twp='市。'
+     ed   ='集。'
+  p3-cultuur core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p4-sport core='NIVEAU B1 · Europese week en speelronde 12 · 欧战周与第 12 轮'
+     s2twp='NIVEAU B1 · Europese week en speelronde 12 · 歐戰周與第 12 輪'
+     ed   ='NIVEAU B1 · Europese week en speelronde 12 · 歐戰週與第 12 輪'
+  p4-sport core='译注｜de balans 成绩单、总结 ·'
+     s2twp='譯註｜de balans 成績單、總結 ·'
+     ed   ='譯注｜de balans 成績單、總結 ·'
+  p4-sport core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p5-jongeren core='NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒岛节目开播、音乐节与设计周落幕'
+     s2twp='NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒島節目開播、音樂節與設計周落幕'
+     ed   ='NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒島節目開播、音樂節與設計週落幕'
+  p5-jongeren core='punten verdeeld（注意比赛项目：分数'
+     s2twp='punten verdeeld（注意比賽專案：分數'
+     ed   ='punten verdeeld（注意比賽項目：分數'
+  p5-jongeren core='verder ging（下周这里继续报道进展）'
+     s2twp='verder ging（下週這裡繼續報道進展）'
+     ed   ='verder ging（下週這裡繼續報導進展）'
+  p5-jongeren core='译注｜het eiland 岛 · de proef 比赛项目'
+     s2twp='譯註｜het eiland 島 · de proef 比賽專案'
+     ed   ='譯注｜het eiland 島 · de proef 比賽項目'
+  p5-jongeren core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p6-verdieping core='译注｜de meteoroloog 气象学家 ·'
+     s2twp='譯註｜de meteoroloog 氣象學家 ·'
+     ed   ='譯注｜de meteoroloog 氣象學家 ·'
+  p6-verdieping core='DE GRAFIEK · 图表（练习数据）'
+     s2twp='DE GRAFIEK · 圖表（練習資料）'
+     ed   ='DE GRAFIEK · 圖表（練習數據）'
+  p6-verdieping core='练习数据：虚构数字，仅供练习，非真实调查。'
+     s2twp='練習資料：虛構數字，僅供練習，非真實調查。'
+     ed   ='練習數據：虛構數字，僅供練習，非真實調查。'
+  p6-verdieping core='看第 6 版图表（练习数据）回答。'
+     s2twp='看第 6 版圖表（練習資料）回答。'
+     ed   ='看第 6 版圖表（練習數據）回答。'
+  p6-verdieping core='把词组成正确的句子。'
+     s2twp='把片語成正確的句子。'
+     ed   ='把詞組成正確的句子。'
+  p6-verdieping core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p7-taal core='meedoen = 参加、参与：气候周全荷兰都参'
+     s2twp='meedoen = 參加、參與：氣候周全荷蘭都參'
+     ed   ='meedoen = 參加、參與：氣候週全荷蘭都參'
+  p7-taal core='从 11 月 2 日周一到 8 日周日，荷兰是气候周。 (Pagina 1)'
+     s2twp='從 11 月 2 日週一到 8 日週日，荷蘭是氣候周。 (Pagina 1)'
+     ed   ='從 11 月 2 日週一到 8 日週日，荷蘭是氣候週。 (Pagina 1)'
+  p7-taal core='预警代码不是禁令，而是一条建议。 (Pagina 6)'
+     s2twp='預警程式碼不是禁令，而是一條建議。 (Pagina 6)'
+     ed   ='預警代碼不是禁令，而是一條建議。 (Pagina 6)'
+  p7-taal core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+  p8-toets core='我参加气候周。→ ___'
+     s2twp='我參加氣候周。→ ___'
+     ed   ='我參加氣候週。→ ___'
+  p8-toets core='ANTWOORDEN · 参考答案 — 按版面分页排列，找到题号即可'
+     s2twp='ANTWOORDEN · 參考答案 — 按版面分頁排列，找到題號即可'
+     ed   ='ANTWOORDEN · 全部答案與簡析（第 1–8 版）'
+  p8-toets core='— PAGINA 1 —'
+     s2twp='— PAGINA 1 —'
+     ed   ='— 第 1 版 —'
+  p8-toets core='1. 8 — 气候周 11 月 2–8 日'
+     s2twp='1. 8 — 氣候周 11 月 2–8 日'
+     ed   ='1. 8 — 氣候週 11 月 2–8 日'
+  p8-toets core='7. B — 气候周共 7 天（11 月 2–8 日）'
+     s2twp='7. B — 氣候周共 7 天（11 月 2–8 日）'
+     ed   ='7. B — 氣候週共 7 天（11 月 2–8 日）'
+  p8-toets core='— PAGINA 2 —'
+     s2twp='— PAGINA 2 —'
+     ed   ='— 第 2 版 —'
+  p8-toets core='11. C — 气候周不做：更多开车'
+     s2twp='11. C — 氣候周不做：更多開車'
+     ed   ='11. C — 氣候週不做：更多開車'
+  p8-toets core='16. 7 — 气候周 11 月 2–8 日共 7 天'
+     s2twp='16. 7 — 氣候周 11 月 2–8 日共 7 天'
+     ed   ='16. 7 — 氣候週 11 月 2–8 日共 7 天'
+  p8-toets core='21. geel — 黄色代码：当心'
+     s2twp='21. geel — 黃色程式碼：當心'
+     ed   ='21. geel — 黃色代碼：當心'
+  p8-toets core='22. oranje — 橙色代码：危险'
+     s2twp='22. oranje — 橙色程式碼：危險'
+     ed   ='22. oranje — 橙色代碼：危險'
+  p8-toets core='24. 8 — 气候周 11 月 8 日周日结束'
+     s2twp='24. 8 — 氣候周 11 月 8 日週日結束'
+     ed   ='24. 8 — 氣候週 11 月 8 日週日結束'
+  p8-toets core='25. b — Klimaatweek=气候周 b'
+     s2twp='25. b — Klimaatweek=氣候周 b'
+     ed   ='25. b — Klimaatweek=氣候週 b'
+  p8-toets core='— PAGINA 3 —'
+     s2twp='— PAGINA 3 —'
+     ed   ='— 第 3 版 —'
+  p8-toets core='38. beurs — beurs = 展会、集市'
+     s2twp='38. beurs — beurs = 展會、集市'
+     ed   ='38. beurs — beurs = 展會、市集'
+  p8-toets core='— PAGINA 4 —'
+     s2twp='— PAGINA 4 —'
+     ed   ='— 第 4 版 —'
+  p8-toets core='— PAGINA 5 —'
+     s2twp='— PAGINA 5 —'
+     ed   ='— 第 5 版 —'
+  p8-toets core='68. B — 设计周约 2.500 位设计师'
+     s2twp='68. B — 設計周約 2.500 位設計師'
+     ed   ='68. B — 設計週約 2.500 位設計師'
+  p8-toets core='71. proef — proef = 比赛项目、考验（de）'
+     s2twp='71. proef — proef = 比賽專案、考驗（de）'
+     ed   ='71. proef — proef = 比賽項目、考驗（de）'
+  p8-toets core='— PAGINA 6 —'
+     s2twp='— PAGINA 6 —'
+     ed   ='— 第 6 版 —'
+  p8-toets core='92. B — KNMI 说：看代码旁边的文字'
+     s2twp='92. B — KNMI 說：看程式碼旁邊的文字'
+     ed   ='92. B — KNMI 說：看代碼旁邊的文字'
+  p8-toets core='— PAGINA 7 —'
+     s2twp='— PAGINA 7 —'
+     ed   ='— 第 7 版 —'
+  p8-toets core='— PAGINA 8 —'
+     s2twp='— PAGINA 8 —'
+     ed   ='— 第 8 版 —'
+  p8-toets core='113. B — 气候周到 11 月 8 日'
+     s2twp='113. B — 氣候周到 11 月 8 日'
+     ed   ='113. B — 氣候週到 11 月 8 日'
+  p8-toets core='121. A — 气候周 11 月 2 日周一开始'
+     s2twp='121. A — 氣候周 11 月 2 日週一開始'
+     ed   ='121. A — 氣候週 11 月 2 日週一開始'
+  p8-toets core='132. B — 气候周他每天骑车上学'
+     s2twp='132. B — 氣候周他每天騎車上學'
+     ed   ='132. B — 氣候週他每天騎車上學'
+  p8-toets core='137. 气候周持续七天。 — 对照第 1 版头条'
+     s2twp='137. 氣候周持續七天。 — 對照第 1 版頭條'
+     ed   ='137. 氣候週持續七天。 — 對照第 1 版頭條'
+  p8-toets core='De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY'
+     s2twp='De Lucerna · 荷蘭語週報 VOL.2 · LUCERNA DUTCH WEEKLY'
+     ed   ='De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文'
+
+=== R11 abstract / 桥接 / quotes / baseline sha ===
+ABSTRACT lines: 1 ascii-double-quote: False repr: 'De Lucerna 荷語週報 VOL.2：荷蘭全國氣候週、阿姆斯特丹博物館之夜、Crossing Border 海牙藝術節、荷甲第 12 輪、荒島遠征與 KNMI 氣象預警代碼，荷蘭語正文搭配繁體中文講解，A2–B2 共 150 題，適合想學荷蘭語、讀荷蘭語新聞的讀者。\n'
+ABSTRACT has 氣候週: True has 學荷蘭語/讀荷蘭語新聞: True
+ed-svg: 桥接=0 bridge=0 ASCIIquote=0
+core-svg: 桥接=0 bridge=0 ASCIIquote=0
+baseline-run1 sha check stdout: svg/p1-voorpagina.svg: OK | svg/p2-leven.svg: OK | svg/p3-cultuur.svg: OK | svg/p4-sport.svg: OK | svg/p5-jongeren.svg: OK | svg/p6-verdieping.svg: OK | svg/p7-taal.svg: OK | svg/p8-toets.svg: OK | cards/p1-voorpagina.png: OK | cards/p2-leven.png: OK | cards/p3-cultuur.png: OK | cards/p4-sport.png: OK | cards/p5-jongeren.png: OK | cards/p6-verdieping.png: OK | cards/p7-taal.png: OK | cards/p8-toets.png: OK | De-Lucerna-VOL2-ZHTW-web.pdf: OK | De-Lucerna-VOL2-ZHTW.pdf: OK
+baseline-run1 sha check stderr:  exit: 0
+card sizes:
+  p1-voorpagina: (1950, 2700) RGB
+  p2-leven: (1950, 2700) RGB
+  p3-cultuur: (1950, 2700) RGB
+  p4-sport: (1950, 2700) RGB
+  p5-jongeren: (1950, 2700) RGB
+  p6-verdieping: (1950, 2700) RGB
+  p7-taal: (1950, 2700) RGB
+  p8-toets: (1950, 2700) RGB

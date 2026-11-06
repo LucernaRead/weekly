@@ -1,0 +1,17 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-it/svg: 7 flags {'BOXTITLE': 4, 'COVER': 1, 'EDGE': 2}
+  [EDGE] p1-voorpagina.svg 'Tutte le date e gli orari sono negli articoli alle pagine 2–' — ink box (1473.0, 1100.75, 1972.25, 1120.75) outside page 1950.0x2700.0
+  [COVER] p1-voorpagina.svg 'nostro clima.' — 100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]
+  [BOXTITLE] p1-voorpagina.svg 'Agenda van de week · GLI EVENTI DELLA SETTIMANA' — ink crosses its box borders: right ink 1946.0 > border 1885.0
+  [BOXTITLE] p1-voorpagina.svg 'Tutte le date e gli orari sono negli articoli alle pagine 2–' — ink crosses its box borders: right ink 1972.2 > border 1885.0
+  [EDGE] p6-verdieping.svg 'DE GRAFIEK · GRAFICO (DATI DI ESERCITAZIONE)' — ink box (1473.0, 222.0, 2051.75, 247.0) outside page 1950.0x2700.0
+  [BOXTITLE] p6-verdieping.svg 'DE GRAFIEK · GRAFICO (DATI DI ESERCITAZIONE)' — ink crosses its box borders: right ink 2051.8 > border 1885.0
+  [BOXTITLE] p6-verdieping.svg 'VOOR OF TEGEN? · A FAVORE O CONTRO?' — ink crosses its box borders: right ink 1905.2 > border 1885.0
+core: 0 flags; NEW vs core: 7
+  NEW [EDGE] p1-voorpagina.svg 'Tutte le date e gli orari sono negli articoli alle pagine 2–' — ink box (1473.0, 1100.75, 1972.25, 1120.75) outside page 1950.0x2700.0
+  NEW [COVER] p1-voorpagina.svg 'nostro clima.' — 100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]
+  NEW [BOXTITLE] p1-voorpagina.svg 'Agenda van de week · GLI EVENTI DELLA SETTIMANA' — ink crosses its box borders: right ink 1946.0 > border 1885.0
+  NEW [BOXTITLE] p1-voorpagina.svg 'Tutte le date e gli orari sono negli articoli alle pagine 2–' — ink crosses its box borders: right ink 1972.2 > border 1885.0
+  NEW [EDGE] p6-verdieping.svg 'DE GRAFIEK · GRAFICO (DATI DI ESERCITAZIONE)' — ink box (1473.0, 222.0, 2051.75, 247.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p6-verdieping.svg 'DE GRAFIEK · GRAFICO (DATI DI ESERCITAZIONE)' — ink crosses its box borders: right ink 2051.8 > border 1885.0
+  NEW [BOXTITLE] p6-verdieping.svg 'VOOR OF TEGEN? · A FAVORE O CONTRO?' — ink crosses its box borders: right ink 1905.2 > border 1885.0

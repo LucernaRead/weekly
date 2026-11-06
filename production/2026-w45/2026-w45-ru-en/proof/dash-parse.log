@@ -1,0 +1,41 @@
+parse: lines lines
+dash-parse keydiff: [137, 138]
+--- 83 CORE seg: 'B — 一周有 3 个休息日（周三、周六、周日）'
+    CORE dashkey: 'B' method=paren p8key='B — 一周有 3 个休息日'
+--- 83 ED   seg: 'B — 3 days off in the week (Wednesday, Saturday, Sunday)'
+    ED   dashkey: 'B' method=paren p8key='B — 3 days off in the week'
+    dashkeys equal: True
+--- 137 CORE seg: '11 月 4 日星期三放假。 — 对照第 3 版'
+    CORE dashkey: '11 月 4 日星期三放假。' method=dash p8key='11 月 4 日星期三放假。'
+--- 137 ED   seg: 'Wednesday, 4 November is a day off. — Compare page 3'
+    ED   dashkey: 'Wednesday, 4 November is a day off.' method=dash p8key='Wednesday, 4 November is a day off.'
+    dashkeys equal: False
+--- 138 CORE seg: '促销码就是折扣码。 — 对照第 5 版'
+    CORE dashkey: '促销码就是折扣码。' method=dash p8key='促销码就是折扣码。'
+--- 138 ED   seg: 'A promo code is a discount code. — Compare page 5'
+    ED   dashkey: 'A promo code is a discount code.' method=dash p8key='A promo code is a discount code.'
+    dashkeys equal: False
+--- 139 CORE seg: 'В субботу «Краснодар» играет с ЦСКА. — 注意：играть + с +工具格'
+    CORE dashkey: 'В субботу «Краснодар» играет с ЦСКА.' method=dash p8key='В субботу «Краснодар» играет с ЦСКА.'
+--- 139 ED   seg: 'В субботу «Краснодар» играет с ЦСКА. — Note: играть + с + instrumental'
+    ED   dashkey: 'В субботу «Краснодар» играет с ЦСКА.' method=dash p8key='В субботу «Краснодар» играет с ЦСКА.'
+    dashkeys equal: True
+--- 140 CORE seg: 'Поздравляю с Днём народного единства! — поздравляю + с + 工具格'
+    CORE dashkey: 'Поздравляю с Днём народного единства!' method=dash p8key='Поздравляю с Днём народного единства!'
+--- 140 ED   seg: 'Поздравляю с Днём народного единства! — поздравляю + с + instrumental'
+    ED   dashkey: 'Поздравляю с Днём народного единства!' method=dash p8key='Поздравляю с Днём народного единства!'
+    dashkeys equal: True
+--- 148 CORE seg: 'A — его = 促销码（阳性）'
+    CORE dashkey: 'A' method=paren p8key='A — его = 促销码'
+--- 148 ED   seg: 'A — его = the promo code (masculine)'
+    ED   dashkey: 'A' method=paren p8key='A — его = the promo code'
+    dashkeys equal: True
+--- 150 CORE seg: '✓ 范文见本版 H 区（84 词）'
+    CORE dashkey: '✓' method=check p8key='✓'
+--- 150 ED   seg: '✓ Model text in section H of this page (84 words)'
+    ED   dashkey: '✓' method=check p8key='✓'
+    dashkeys equal: True
+core total texts 332
+ed model-note idx 150 '(84 words) below.'
+ed model-note idx 333 '150. ✓ Model text in section H of this page (84 words)'
+ed total texts 336

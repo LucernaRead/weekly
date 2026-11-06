@@ -1,0 +1,15 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-ru/svg: 6 flags {'BOXTITLE': 2, 'EDGE': 1, 'TEXTX': 3}
+  [TEXTX] p1-voorpagina.svg 'ELKE WEEK IN HET NEDERLANDS · КАЖДУЮ НЕДЕЛЮ · ГОЛЛАНДСКИЙ, К' — ink overlaps 'WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026' by 90.0x17.5px
+  [TEXTX] p1-voorpagina.svg 'Van maandag 2 tot en met zondag 8 november doet heel Nederla' — ink overlaps 'Климатическая неделя по всей стране · см' by 100.9x22.2px
+  [BOXTITLE] p1-voorpagina.svg 'Расписание недели — в статьях на страницах 2–4' — ink crosses its box borders: right ink 1928.8 > border 1885.0
+  [EDGE] p6-verdieping.svg 'DE GRAFIEK · ГРАФИК (ТРЕНИРОВОЧНЫЕ ДАННЫЕ)' — ink box (1473.0, 222.0, 2106.75, 247.25) outside page 1950.0x2700.0
+  [BOXTITLE] p6-verdieping.svg 'DE GRAFIEK · ГРАФИК (ТРЕНИРОВОЧНЫЕ ДАННЫЕ)' — ink crosses its box borders: right ink 2106.8 > border 1885.0
+  [TEXTX] p7-taal.svg '(Страница 1)' — ink overlaps '«De herfst is de beste tijd om te plante' by 120.8x8.0px
+core: 0 flags; NEW vs core: 6
+  NEW [TEXTX] p1-voorpagina.svg 'ELKE WEEK IN HET NEDERLANDS · КАЖДУЮ НЕДЕЛЮ · ГОЛЛАНДСКИЙ, К' — ink overlaps 'WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026' by 90.0x17.5px
+  NEW [TEXTX] p1-voorpagina.svg 'Van maandag 2 tot en met zondag 8 november doet heel Nederla' — ink overlaps 'Климатическая неделя по всей стране · см' by 100.9x22.2px
+  NEW [BOXTITLE] p1-voorpagina.svg 'Расписание недели — в статьях на страницах 2–4' — ink crosses its box borders: right ink 1928.8 > border 1885.0
+  NEW [EDGE] p6-verdieping.svg 'DE GRAFIEK · ГРАФИК (ТРЕНИРОВОЧНЫЕ ДАННЫЕ)' — ink box (1473.0, 222.0, 2106.75, 247.25) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p6-verdieping.svg 'DE GRAFIEK · ГРАФИК (ТРЕНИРОВОЧНЫЕ ДАННЫЕ)' — ink crosses its box borders: right ink 2106.8 > border 1885.0
+  NEW [TEXTX] p7-taal.svg '(Страница 1)' — ink overlaps '«De herfst is de beste tijd om te plante' by 120.8x8.0px

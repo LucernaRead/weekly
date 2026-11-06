@@ -1,0 +1,9 @@
+(a) slug 2026-w45-ru-it not in repo — OK
+(b) rendered md from sibling 2026-w45-ru-en.md; web PDF measured: 3173183 B sha256 b393544320f532ec…
+(c) lint --write OK
+(d) metadata commit f10b3898
+  push verified on attempt 1: origin main == f10b3898
+(e) PDF copied; lint --require-pdf green: OK:148 版,index.json 最新
+(f) PDF commit b06b332d
+  push verified on attempt 1: origin main == b06b332d
+(g) verified: ls-remote origin main == local HEAD (b06b332d); editions in repo: 148
