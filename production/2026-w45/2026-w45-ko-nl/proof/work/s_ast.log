@@ -1,0 +1,18 @@
+== AST gloss core-orig ==
+   content12.py: calls=9 items=24 unparsed=[]
+   content34.py: calls=13 items=26 unparsed=[]
+      line 227 .glossline items=1 value='문장을 과거형으로 바꾸세요. (바꾼 문장은 모두 이 신문에 나온 일이에요.)'
+   content56.py: calls=15 items=28 unparsed=[]
+   content7.py: calls=3 items=6 unparsed=[]
+   content8.py: calls=1 items=1 unparsed=[]
+      line 107 .glossline items=1 value='쓰기 문제예요 (정답은 하나가 아니에요). 아래에 \x00자의 예가 있어요.'
+   TOTAL core-orig = 85
+== AST gloss edition ==
+   content12.py: calls=9 items=24 unparsed=[]
+   content34.py: calls=13 items=26 unparsed=[]
+      line 227 .glossline items=1 value='Zet de zinnen in de verleden tijd. (Het staat allemaal in dit nummer.)'
+   content56.py: calls=15 items=28 unparsed=[]
+   content7.py: calls=3 items=6 unparsed=[]
+   content8.py: calls=1 items=1 unparsed=[]
+      line 107 .glossline items=1 value='Schrijfopgave (niet één juist antwoord). Hieronder een voorbeeld van \x00 tekens.'
+   TOTAL edition = 85

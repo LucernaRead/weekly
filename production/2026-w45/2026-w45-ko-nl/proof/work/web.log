@@ -1,0 +1,11 @@
+web PDF: pages=8 bytes=3547923
+print PDF: pages=8 bytes=32552178
+cards order: ['p1-pyoji.png', 'p2-saenghwal.png', 'p3-munhwa.png', 'p4-seupocheu.png', 'p5-cheongnyeon.png', 'p6-gipi.png', 'p7-mal.png', 'p8-siheom.png']
+  web p1: raster=(1400, 1938) mean|diff|=[2.42, 1.57, 3.91] max_mean=3.91
+  web p2: raster=(1400, 1938) mean|diff|=[2.3, 1.51, 3.85] max_mean=3.85
+  web p3: raster=(1400, 1938) mean|diff|=[2.33, 1.48, 3.84] max_mean=3.84
+  web p4: raster=(1400, 1938) mean|diff|=[1.99, 1.28, 3.44] max_mean=3.44
+  web p5: raster=(1400, 1938) mean|diff|=[2.19, 1.37, 3.68] max_mean=3.68
+  web p6: raster=(1400, 1938) mean|diff|=[2.01, 1.29, 3.43] max_mean=3.43
+  web p7: raster=(1400, 1938) mean|diff|=[1.78, 1.18, 3.21] max_mean=3.21
+  web p8: raster=(1400, 1938) mean|diff|=[2.54, 1.6, 4.1] max_mean=4.10

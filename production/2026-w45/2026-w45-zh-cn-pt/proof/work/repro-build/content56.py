@@ -1,0 +1,240 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P5 · 青年 (B1) =================
+CURPAGE[0] = 5
+p = BSPage4()
+p.band("青年 · Juventude", "Lucerna", "Nível B1 · AI电影 · 立冬新片 · Filmes de IA e um filme de inverno")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-feature")
+f.title("AI拍的电影,有人看吗?", 37)
+f.byline("Redação Lucerna · Nível de leitura B1")
+f.para("10月23日,一部特别的电影上映了:《三星堆:未来往事》。特别在哪里?这部电影没有真人演员,所有角色都是电脑做出来的数字形象,画面和部分声音由AI生成。")
+f.para("这是国内第一部拿到公映许可证的AI院线电影,片长100分钟,由博纳影业出品。电影讲的是三星堆的故事:古老的青铜器,加上未来的想象。")
+f.para("可是,票房不太好。截至10月26日中午,猫眼专业版显示,上映4天,票房约119.2万元。10月24日和25日,平均每场只有2个人看。大家在争:AI能不能拍电影?技术很新,故事够不够好?")
+f.para("也有人说,先别急着下结论。AI电影刚起步,画面、人物、台词都还在进步。重要的是:观众走进电影院,是为了看一个好故事,不是只看技术。")
+f.gloss("shùzì xíngxiàng 数字形象 — um personagem digital · gōngyìng 公映 — um lançamento público no cinema · piàofáng 票房 — a bilheteria.")
+f.head("立冬那天,看一部新电影", 25)
+f.para("11月7日星期六立冬,还有一部新电影上映:《我们仅有一次的人生》。宋佳演身患绝症的女火化师黄燕,文淇演失去母亲的少女姚雪。")
+f.para("故事从一场意外开始:黄燕弄错了两份骨灰,坦白以后,两家人都不愿换回,只有姚雪相信她。两个人结伴上路,去换回骨灰,在冬天里彼此取暖、彼此救赎。")
+f.para("这部电影原名《余烬》,入围过北京国际电影节天坛奖主竞赛单元,还拿了最佳摄影奖,片长114分钟。片方说:别以后,就现在。立冬那天,和重要的人,看冬天的第一部电影。")
+f.gloss("huǒhuà 火化 — cremação · jiùshú 救赎 — redenção, salvar um ao outro · yǐhòu 以后 — depois, um outro dia.")
+f.box("这一周的高频词 · Palavras-chave", [
+    ("AI电影 — um filme feito com IA: sem atores reais, só personagens digitais.", "serif", False, INK, 20, 1.35),
+    ("看电影之前,先看简介,再决定要不要买票。", "serif", False, INK, 20, 1.35),
+])
+f.end_report()
+
+# col 3: popcorn + film dates + 你呢
+ix = COLX[3]
+image(p, "popcorn.jpg", ix, 200, CW, 220)
+cy3 = caption(p, ix, 420, CW, "电影院的爆米花(资料图)。看电影的时候,很多人喜欢买一桶爆米花。",
+              "Foto: Based5290 — Public domain (Wikimedia Commons)")
+facts = ["10月23日 — 《三星堆:未来往事》上映",
+         "10月26日中午 — 票房约119.2万元(猫眼)",
+         "11月7日 — 《我们仅有一次的人生》上映",
+         "11月7日 — 立冬,冬天第一天"]
+sy3 = cy3 + 24
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "电影小日历 · Datas dos filmes", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ey3 = sy3 + sh + 26
+etvous = "你呢?你会去看AI拍的电影吗?立冬那天,你想和谁去看电影?写两句中文寄来。"
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("E você? Você assistiria a um filme feito por IA? Com quem você assistiria a um filme no 立冬? Escreva duas frases em chinês.", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+yy3 = ey3 + 16
+p.text(ix + 22, yy3 + 26, "说说你自己 · E você?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(ix + 22, yy3 + 20, "E você? Você assistiria a um filme feito por IA? Com quem você assistiria a um filme no 立冬? Escreva duas frases em chinês.", 20, "sans", False, GREY, CW - 44, 1.42)
+print("P5 col3 ends", ey3 + eh)
+
+# ---- P5 exercises ----
+ey = 1620
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "练习 · Exercícios", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respostas na página 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
+e.head("A · 读一读选一选 · Leia e escolha", 25)
+e.glossline("Leia a página 5 e escolha a melhor resposta.")
+e.ex("B1", "Escolha múltipla", "A", "O filme de IA não tem atores reais.",
+     "AI电影特别在哪里? A. 没有真人演员 · B. 全部在国外拍 · C. 只有10分钟", size=19, gap=6)
+e.ex("B1", "Escolha múltipla", "B", "O filme de IA dura 100 minutos.",
+     "《三星堆》片长多少? A. 114分钟 · B. 100分钟 · C. 90分钟", size=19, gap=6)
+e.ex("B1", "Escolha múltipla", "A", "Ao meio-dia de 26 de outubro, o Maoyan mostrava cerca de 1,192 milhão de yuan.",
+     "截至10月26日中午票房约多少? A. 119.2万元 · B. 1192万元 · C. 11.92万元", size=19, gap=6)
+e.ex("B1", "Escolha múltipla", "B", "O novo filme estreia em 7 de novembro, Início do Inverno.",
+     "《我们仅有一次的人生》哪天上映? A. 10月23日 · B. 11月7日 · C. 11月15日", size=19, gap=6)
+e.ex("B1", "Escolha múltipla", "B", "Huang Yan é funcionária de crematório.",
+     "黄燕是什么职业? A. 记者 · B. 火化师 · C. 老师", size=19, gap=6)
+e.head("B · 词语填空 · Complete", 25)
+e.glossline("Complete cada espaço com a palavra certa.")
+e.ex("B1", "Complete a frase", "数字", "shùzì — os personagens do filme são imagens digitais.",
+     "AI电影的角色是___形象。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "票房", "piàofáng — a bilheteria, cerca de 1,192 milhão de yuan.",
+     "上映4天,___约119.2万元。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "火化", "huǒhuà — Huang Yan trabalha num crematório.",
+     "黄燕是一名女___师。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "救赎", "jiùshú — as duas mulheres salvam uma à outra.",
+     "两个人在冬天里彼此取暖、彼此___。", instr="Complete", size=19, gap=6)
+e.ex("A2", "Complete a frase", "立冬", "lìdōng — o novo filme estreia no Início do Inverno.",
+     "新电影在___那天上映。", instr="Complete", size=19, gap=6)
+e.head("C · 时间与数字 · Horários e números", 25)
+e.glossline("Responda com datas e números da página 5.")
+e.ex("B1", "Complete a frase", "23", "O filme de IA estreou em 23 de outubro.",
+     "AI电影在10月___日上映。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "100", "O filme de IA dura 100 minutos.",
+     "AI电影片长___分钟。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "2", "Em 24–25 de outubro, cada sessão teve em média 2 espectadores.",
+     "10月24日和25日,平均每场___个人。", instr="Complete", size=19, gap=6)
+e.ex("B1", "Complete a frase", "114", "O novo filme dura 114 minutos.",
+     "新片片长___分钟。", instr="Complete", size=19, gap=6)
+e.head("D · 词语配对 · Associação", 25)
+e.match_set("B1", "Associação",
+            ["数字形象", "票房", "火化师", "救赎"],
+            ["电影卖票的钱",
+             "电脑做出来的角色",
+             "彼此帮助,重新活好",
+             "火化遗体的工作人员"],
+            ["b", "a", "d", "c"],
+            ["数字形象 = um personagem digital, b", "票房 = a bilheteria, a", "火化师 = uma funcionária de crematório, d", "救赎 = salvar um ao outro, c"],
+            instr="Associe as palavras")
+e.end_report()
+p.foot(5)
+p.save(f"{OUT}/p5-qingnian.svg")
+print("P5 saved, exercises so far:", len(REG))
+
+# ================= P6 · 深读 (B2) =================
+CURPAGE[0] = 6
+p = BSPage4()
+p.band("深读 · Leitura profunda", "Lucerna", "Nível B2 · 双11深读 · Por que as regras ficaram mais simples")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1180, tag="P6-feature")
+f.title("双11的规则,为什么变简单了?", 37)
+f.byline("Redação Lucerna · Nível de leitura B2")
+f.para("今年的双11,有三个变化:现货多了,规则简单了,AI进来了。这三个变化,都和一个词有关:不用等。")
+f.para("先说现货。以前,双11要先付定金、等很多天,才能付尾款。今年,京东10月12日就开始卖现货,淘宝和天猫10月20日也开始卖现货。现货就是已经在仓库里的货,买了就能发走,不用等生产、不用等预售结束。")
+f.para("再说规则。以前,买东西要算满减、凑单、领券,算错了就亏了。今年,更多是官方立减和商品直降:价格直接写在商品页上,结算页的价格就是实付价。规则简单了,算错的机会也少了。")
+f.para("还有AI。买之前,可以问一问AI助手:这件东西贵不贵?评价怎么样?有没有更便宜的?豆包今年加了「买前问豆包」的入口,千问等AI应用也接进了购物。AI不会帮你付钱,但可以帮你先看一看。")
+f.para("还有新平台。微信小店第一次参加双11,活动从10月12日到11月15日,一共35天。第18个双11,平台多了,玩法也多了。")
+f.para("可是,规则简单了,不等于东西一定最便宜。广告里说的「最低价」,要看清楚:是哪一天的价格?包不包运费?能不能退换货?结算页的价格,才是真正要付的钱。")
+f.gloss("jiésuàn 结算 — checkout, o acerto da conta · yùnfèi 运费 — custo de entrega · guǎnggào 广告 — uma propaganda.")
+f.para("结论:双11变简单了,是因为现货多了、直降多了、AI帮忙了。但是,买东西以前,还是要做三件事:看结算页,看运费,看退换货规则。先看数据,再看广告。")
+f.gloss("shuōfǎ 说法 — uma afirmação, o que alguém diz · shùjù 数据 — dados, números medidos · tuìhuànhuò 退换货 — devoluções e trocas.")
+f.para("练习篮子:篮子A是毛衣240元加围巾80元,直降50元,实付270元。篮子B是耳机199元,直降20元,实付179元。篮子C是书120元加本子40元,没有直降,实付160元。这些数字是练习数字,不是真实售价。")
+f.end_report()
+
+# ---- practice-data chart (cols 0-2), bars exactly proportional from zero ----
+ly = 1210
+p.text(MX, ly + 26, "三个练习篮子:直降以后实付多少钱 · Cestas de prática", 26, "sans", True, OLIVE)
+p.hline(MX, COLX[2] + CW, ly + 40, GOLD, 2)
+rows = [("A: 毛衣+围巾", 270), ("B: 耳机", 179), ("C: 书+本子", 160)]
+SCALE = 3.0
+by0 = ly + 66
+for i, (name, val) in enumerate(rows):
+    yy = by0 + i * 58
+    p.text(MX, yy + 34, name, 24, "sans", True, INK)
+    bw_ = val * SCALE
+    p.rect(MX + 260, yy + 6, bw_, 34, fill=OLIVE if i == 0 else GOLD)
+    p.text(MX + 260 + bw_ + 16, yy + 34, f"{val} 元", 24, "serif", True, INK)
+p.para(MX, by0 + 3 * 58 + 16, "As barras partem de 0 (3 px = 1 yuan). Apenas dados de prática — não são preços reais de loja. As contas das cestas estão no artigo acima.", 20.5, "serif", False, GREY, 1388, 1.4)
+
+# col 3: key points + three questions + 你呢
+ix = COLX[3]
+facts = ["现货多了 — 买了就能发走",
+         "直降多了 — 结算页就是实付价",
+         "AI进来了 — 买前先问一问",
+         "结算页的价格才是真价格"]
+sy3 = 200
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "深读要点 · Pontos-chave", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ay3 = sy3 + sh + 26
+qs = ["1. 这是说法,还是数据?",
+      "2. 数据是谁量的?哪一天?",
+      "3. 结算页的价格是多少?"]
+qh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 14 for t in qs) + 30
+p.rect(ix, ay3, CW, qh, fill="#f1ead6", stroke=LINE, sw=1.4)
+yy3 = ay3 + 16
+p.text(ix + 22, yy3 + 26, "读新闻三问 · Três perguntas", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in qs:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 8
+ey3 = ay3 + qh + 26
+etvous = "你呢?买东西以前,你会先看什么?写两句中文寄来。"
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("E você? O que você verifica antes de comprar? Escreva duas frases em chinês.", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(ix, ey3, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = ey3 + 16
+p.text(ix + 22, yy3 + 26, "说说你自己 · E você?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(ix + 22, yy3 + 20, "E você? O que você verifica antes de comprar? Escreva duas frases em chinês.", 20, "sans", False, GREY, CW - 44, 1.42)
+print("P6 col3 ends", ey3 + eh)
+
+# ---- P6 exercises ----
+ey = 1560
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "练习 · Exercícios", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respostas na página 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
+e.head("A · 读一读选一选 · Leia e escolha", 25)
+e.glossline("Leia a página 6 e escolha a melhor resposta.")
+e.ex("B2", "Escolha múltipla", "A", "Este ano, as vendas imediatas são bem maiores.",
+     "今年双11第一个变化是什么? A. 现货多了 · B. 只有11月11日卖 · C. 必须先付定金", size=19, gap=6)
+e.ex("B2", "Escolha múltipla", "A", "Com o 直降, o preço do checkout é o que você paga.",
+     "直降是什么意思? A. 结算页就是实付价 · B. 必须凑单 · C. 先付定金", size=19, gap=6)
+e.ex("B2", "Escolha múltipla", "B", "A IA ajuda você a verificar preços e avaliações primeiro.",
+     "AI能帮你做什么? A. 帮你付钱 · B. 先看一看价格和评价 · C. 直接送货", size=19, gap=6)
+e.ex("B2", "Escolha múltipla", "B", "O evento da loja do WeChat dura 35 dias.",
+     "微信小店活动多少天? A. 13天 · B. 35天 · C. 18天", size=19, gap=6)
+e.ex("B2", "Escolha múltipla", "B", "A página de checkout mostra o que você realmente paga.",
+     "真正要付的钱看哪里? A. 广告 · B. 结算页 · C. 朋友圈", size=19, gap=6)
+e.head("B · 词语填空 · Complete", 25)
+e.glossline("Complete cada espaço com a palavra certa.")
+e.ex("B2", "Complete a frase", "现货", "xiànhuò — mercadoria em estoque, pronta para envio.",
+     "买了就能发走的货,叫___。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "直降", "zhíjiàng — o preço em si cai.",
+     "价格直接变低,这叫___。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "结算", "jiésuàn — a página de checkout mostra o preço real.",
+     "真正要付的钱,看___页。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "运费", "yùnfèi — custo de entrega, verifique se está incluído.",
+     "买东西要问:包不包___? ", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "广告", "guǎnggào — o 'preço mais baixo' de uma propaganda precisa ser verificado.",
+     "___里说的最低价,要看清楚。", instr="Complete", size=19, gap=6)
+e.head("C · 练习篮子算一算 · Contas das cestas", 25)
+e.glossline("Calcule a partir das cestas de prática.")
+e.ex("B2", "Complete a frase", "270", "240 + 80 = 320, menos 50 = 270 yuan.",
+     "篮子A实付___元。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "179", "199 − 20 = 179 yuan.",
+     "篮子B实付___元。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "160", "120 + 40 = 160 yuan, sem corte direto.",
+     "篮子C实付___元。", instr="Complete", size=19, gap=6)
+e.ex("B2", "Complete a frase", "50", "A cesta A tem corte de 50 yuan.",
+     "篮子A直降___元。", instr="Complete", size=19, gap=6)
+e.head("D · 词语配对 · Associação", 25)
+e.match_set("B2", "Associação",
+            ["说法", "数据", "结算页", "运费"],
+            ["送货要花的钱",
+             "真正要付的钱写在这里",
+             "别人说的话,不一定是真的",
+             "量出来的数字"],
+            ["c", "d", "b", "a"],
+            ["说法 = uma afirmação, c", "数据 = números medidos, d", "结算页 = a página de checkout, b", "运费 = custo de entrega, a"],
+            instr="Associe as palavras")
+e.end_report()
+p.foot(6)
+p.save(f"{OUT}/p6-shendu.svg")
+print("P6 saved, exercises so far:", len(REG))

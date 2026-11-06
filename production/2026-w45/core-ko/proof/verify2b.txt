@@ -1,0 +1,47 @@
+caption/artist 'lumoplank': pages=['p1-pyoji.svg']
+caption/artist 'wizdata': pages=['p2-saenghwal.svg']
+caption/artist 'Udonhan1992': pages=['p3-munhwa.svg']
+caption/artist 'Cézanne': pages=['p3-munhwa.svg']
+caption/artist 'Bain': pages=['p4-seupocheu.svg']
+caption/artist 'Gary Todd': pages=['p5-cheongnyeon.svg']
+caption/artist 'CC0': pages=['p1-pyoji.svg', 'p2-saenghwal.svg', 'p3-munhwa.svg', 'p5-cheongnyeon.svg']
+caption/artist 'Public domain': pages=['p3-munhwa.svg', 'p4-seupocheu.svg']
+banned '桥接': total=0
+banned 'bridge': total=0
+banned '우크라이나': total=0
+banned '전쟁': total=0
+banned '乌克兰': total=0
+banned 'CC BY-SA': total=0
+banned 'BY-SA': total=0
+
+P1 masthead Lucerna: True
+P1 date 2026년 11월 2일(월) ~ 8일(일): True
+Halloween press-time 10월 26일 현재: True
+Halloween 3,271 / Itaewon 1,620: True
+CSAT 551,864 / 1,312: True
+scores 5-1/6-3/13-1: True
+415.5mm: True
+27,000 won: True
+foliage FS 내장산 11월 4일 / KNPS 11월 11일: True
+Seoraksan actual Oct 16: True
+P6 table D-17~D-12 vs D-데이: True
+P6 source 교육부 발표 (10월 20일): True
+Nov19-only measures wording: True
+readers disclosure Korean 예: True
+readers disclosure Chinese 示例: True
+VOL.3 carry: True
+P8 writing 150–200자 instruction: True
+
+P7 readers-corner lines:
+  y=1502.09 x=1473: '编辑部示例信，非真实来信。'
+  y=1561.49 x=1473: '알려요: 이 편지는 편집부가 쓴 예예요. 마감'
+  y=1619.7099999999998 x=1473: '도착하지 않았어요. 그래서 예가 실렸고,'
+  y=1648.8199999999997 x=1473: '지난 호의 약속은 VOL.3으로 이어져요.'
+  y=1736.3299999999997 x=1473: '信与第 8 版优秀作文，因此仍刊示例，上期'
+  y=1764.7299999999998 x=1473: '承诺顺延至 VOL.3。'
+  y=2438.94 x=93: '다음 주 · 下期预告 (VOL.3)'
+
+images per SVG:
+  p6-gipi.svg: []
+  p7-mal.svg: []
+  p8-siheom.svg: []

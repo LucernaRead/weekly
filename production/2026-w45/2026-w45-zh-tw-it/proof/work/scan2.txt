@@ -1,0 +1,61 @@
+=== 1) same-baseline ink collisions ===
+same-baseline collisions: 0
+
+=== 2) chart-page graze (P4, P6): text ink vs later opaque rect ===
+p4-sport.svg grazes: 0
+p6-deep.svg grazes: 0
+
+=== 3) P7 teaser clearance + letters box ===
+teaser node y= 2483.36 ink-bottom=2488.61 '下期預告 · La prossima settimana (VOL.3)'
+teaser node y= 2523.36 ink-bottom=2526.11 '下週三雙11，你買了什麼？下週一旅展最後一天直擊，高雄鋼雕藝術節展到11月22日，還有你們的來信和第8版最佳作文。下週見！'
+teaser node y= 2624 ink-bottom=2624.25 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITAL'
+teaser node y= 2624 ink-bottom=2629.00 'Pagina 7 di 8'
+footer rule y=2580; clearance = 2580 - max teaser ink bottom
+--- P7 bordered rects (stroke set) ---
+rect x= 28 y= 28 w= 1894 h= 2644
+rect x= 40 y= 40 w= 1870 h= 2620
+rect x= 1451 y= 200 w= 434 h= 648.36
+rect x= 1451 y= 860.36 w= 434 h= 312.5
+rect x= 1451 y= 1184.8600000000001 w= 434 h= 574.5
+--- P7 texts y 1200-1780 (letters box region) ---
+ y= 1227.185 ink-bottom=1227.18 'A2'
+ y= 1228.185 ink-bottom=1228.43 '104.'
+ y= 1257.685 ink-bottom=1259.68 '台北旅展在哪裡？'
+ y= 1301.9099999999999 ink-bottom=1303.66 'A. 南港展覽館一館'
+ y= 1346.7099999999998 ink-bottom=1348.96 'B. 台北大巨蛋'
+ y= 1391.5099999999998 ink-bottom=1393.26 'C. 高雄駁二'
+ y= 1453.3099999999997 ink-bottom=1458.06 'Esercitati: «旅展幾點開門？» («A che ora'
+ y= 1485.9899999999998 ink-bottom=1491.49 'apre la fiera?») — il venerdì apre a'
+ y= 1518.6699999999996 ink-bottom=1524.42 'mezzogiorno, gli altri giorni alle 10:00.'
+ y= 1203.87 ink-bottom=1205.62 'A. 薑母鴨'
+ y= 1248.6699999999998 ink-bottom=1250.42 'B. 冰品'
+ y= 1293.4699999999998 ink-bottom=1295.97 'C. 生魚片'
+ y= 1355.2699999999998 ink-bottom=1360.77 'Trucco di memoria: impara prima 封王 e'
+ y= 1387.9499999999998 ink-bottom=1393.45 'poi il modo in cui è stato vinto （完封）,'
+ y= 1420.6299999999997 ink-bottom=1426.38 'poi la stagione in cui è successo （立冬）.'
+ y= 1242.3649999999998 ink-bottom=1244.11 'A. 穿裝扮上街遊行'
+ y= 1287.1649999999997 ink-bottom=1288.91 'B. 在街上跑步'
+ y= 1331.9649999999997 ink-bottom=1333.71 'C. 逛夜市'
+ y= 1394.2649999999996 ink-bottom=1394.26 'B2'
+ y= 1395.2649999999996 ink-bottom=1395.51 '112.'
+ y= 1395.2649999999996 ink-bottom=1399.76 'Completa'
+ y= 1424.7649999999996 ink-bottom=1427.51 '秋冬去溫泉洗澡、放鬆，叫___。'
+ y= 1485.9899999999996 ink-bottom=1486.24 'Non ti servono molti modi di dire locali'
+ y= 1518.6699999999996 ink-bottom=1524.42 '— imparane quattro e ogni uscita'
+ y= 1551.3499999999995 ink-bottom=1556.85 'sembrerà più vicina.'
+ y= 1226.8600000000001 ink-bottom=1232.61 "讀者園地 · L'angolo dei lettori"
+ y= 1273.8600000000001 ink-bottom=1276.61 '「編輯好：上週我去天母討糖，拿到一顆'
+ y= 1304.39 ink-bottom=1307.14 '很大的糖果！這週我想去旅展看吉祥物大'
+ y= 1334.92 ink-bottom=1336.67 '遊行，還想集滿6大綠道的章。——台北'
+ y= 1365.45 ink-bottom=1368.20 '小讀者（編輯範例）」'
+ y= 1426.98 ink-bottom=1429.73 '延期披露：VOL.1曾預告本期起刊登真實'
+ y= 1457.51 ink-bottom=1460.26 '讀者來信和第8版最佳作文；截至截稿，'
+ y= 1488.04 ink-bottom=1490.79 '本報未收到可刊登的真實來信與投稿，因'
+ y= 1518.57 ink-bottom=1521.57 '此本期仍刊登編輯範例，並繼續公開徵'
+ y= 1549.1 ink-bottom=1550.85 '集。你的來信，下一期見。'
+ y= 1609.6299999999999 ink-bottom=1614.13 'Lettera di esempio della redazione, non'
+ y= 1638.03 ink-bottom=1638.28 'vera. Avviso di rinvio: il VOL.1 aveva'
+ y= 1666.43 ink-bottom=1671.43 'promesso lettere vere e i migliori testi di'
+ y= 1694.8300000000002 ink-bottom=1699.83 'pagina 8 da questo numero; alla chiusura'
+ y= 1723.2300000000002 ink-bottom=1727.73 'non ne era arrivato nessuno pubblicabile,'
+ y= 1751.6300000000003 ink-bottom=1756.13 "quindi resta l'esempio. Scrivici!"

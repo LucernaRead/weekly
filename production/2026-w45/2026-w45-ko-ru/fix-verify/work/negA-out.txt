@@ -1,0 +1,17 @@
+skip (already applied): 'p.text(MX + 30, 522, "김장철이 열리고, 수능까지 12일이 남아'
+skip (already applied): 'p.text(975, 372, "한국어를 배우는 사람을 위한 주간 신문 — 진짜'
+skip (already applied): 'p.text(RIGHT - 30, 522, "立冬在 11 月 7 日周六 · 泡菜'
+skip (already applied): 'p.text(975, 330, "한국어판 · VOL.2 · 입동 · 단풍 · 김'
+skip (already applied): 'p.text(MX + 30, 478, "11월 7일은 입동이에요 — 겨울의 시작'
+skip (already applied): 'p.text(RIGHT - 30, 478, "立冬", 24, "sans", Tr'
+skip (already applied): 'p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX,'
+skip (already applied): '("「수능까지 17일 남았어요. 오늘이 D-17예요」", "离高考还剩 17 天，'
+skip (already applied): '("「KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요」", "KIA 虎三连胜'
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negA/transform.py", line 497, in <module>
+    main()
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negA/transform.py", line 488, in main
+    _apply(REPL, superseded=FIX2FIX3)
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negA/transform.py", line 481, in _apply
+    raise AssertionError(f"REPL source absent (already applied?): {src!r}")
+AssertionError: REPL source absent (already applied?): '입동 立冬、冬季开始 · 절정 最盛期、高峰 · 김장 腌过冬泡菜 · 상륙하다 登陆 · 온대저기압 温带气旋。'

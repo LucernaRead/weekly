@@ -1,0 +1,47 @@
+--- dark band texts y 424-542, ED vs W43 p1 ---
+ ED: [(478.0, '11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝'), (522.0, '김장철이 열리고, 수능까지 12일이 남아요. 이번 주의 달력은 오른쪽을 보세요.'), (478.0, '立冬'), (522.0, '立冬は11月7日土曜日 · キムジャンの始まり')]
+ W43: [(478.0, '태풍 참피가 오고 있어요 — 주말 날씨를 꼭 확인하세요!'), (522.0, '가을야구 준플레이오프도 이번 주에 끝나요. 이긴 팀은 일요일에 삼성을 만나요.'), (478.0, '台風北上'), (522.0, '週末は最新予報を必ず確認 · 備えは2ページ')]
+--- image payloads ---
+p1: ED images=1 CORE images=1
+  img0: b64sha ED=535fff46b7cef223 CORE=535fff46b7cef223 match=True | jpegsha ED=6f7f33ed8f40f3c0 CORE=6f7f33ed8f40f3c0 jmatch=True bytes=722393/722393
+p2: ED images=1 CORE images=1
+  img0: b64sha ED=e66d2b455ec68fd1 CORE=e66d2b455ec68fd1 match=True | jpegsha ED=96a6a19b612a4b28 CORE=96a6a19b612a4b28 jmatch=True bytes=532598/532598
+p3: ED images=2 CORE images=2
+  img0: b64sha ED=e266b6ee1a870864 CORE=e266b6ee1a870864 match=True | jpegsha ED=158ea3a0e81f041d CORE=158ea3a0e81f041d jmatch=True bytes=477930/477930
+  img1: b64sha ED=5bea45d1f81e0716 CORE=5bea45d1f81e0716 match=True | jpegsha ED=214cc390ac7cbcb0 CORE=214cc390ac7cbcb0 jmatch=True bytes=654163/654163
+p4: ED images=1 CORE images=1
+  img0: b64sha ED=1a7e7d6d5ffcede7 CORE=1a7e7d6d5ffcede7 match=True | jpegsha ED=18ad8ae06fac2860 CORE=18ad8ae06fac2860 jmatch=True bytes=145898/145898
+p5: ED images=1 CORE images=1
+  img0: b64sha ED=6a1bab177d540192 CORE=6a1bab177d540192 match=True | jpegsha ED=35e7dc69d4178491 CORE=35e7dc69d4178491 jmatch=True bytes=460131/460131
+p6: ED images=0 CORE images=0
+p7: ED images=0 CORE images=0
+p8: ED images=0 CORE images=0
+--- credit lines ED ---
+  p1 y=2245.65: '사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진'
+  p2 y=507.29999999999995: '사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진'
+  p3 y=436.65: '사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진'
+  p3 y=1132.1000000000001: '그림: Paul Cézanne — Public domain (Wikimedia'
+  p4 y=491.65: '사진: Bain News Service — Public domain (Wikimedia'
+  p5 y=507.29999999999995: '사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진'
+--- ABSTRACT checks ---
+  lines=1 ascii-dquote=0 len=140
+  text: 'Lucerna韓国語週刊VOL.2：立冬11月7日、紅葉の最終週末、キムジャンの始まり、修能カウントダウンD-17からD-12、KIAタイガースの3連勝、韓国史能力検定試験の申込みを韓国語で読む日本語解説付きの週刊。A2からB2、全150問。検索フレーズ：韓国語 立冬 読み方。\n'
+  立冬: pages [1, 7, 8]
+  11月7日: pages [1, 2, 7, 8]
+  紅葉: pages [3, 8]
+  最終: pages []
+  週末: pages [3, 7]
+  キムジャン: pages [1, 2, 7, 8]
+  始まり: pages [1, 8]
+  D-17: pages [1, 2, 6, 7, 8]
+  D-12: pages [1, 2, 6, 7, 8]
+  KIAタイガース: pages [7]
+  三連勝: pages [7, 8]
+  韓史試験: pages [2, 8]
+  申込み: pages [2, 8]
+  A2: pages [1, 2, 3, 7, 8]
+  B2: pages [1, 6, 7, 8]
+  150: pages [8]
+  タイガース: in-issue? True
+  3連勝: in-issue? False
+  韓国史能力検定試験: in-issue? False

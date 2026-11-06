@@ -1,0 +1,290 @@
+=== 1. Hangul char-level delta (core -> edition) ===
+  p1: core 1341 edition 1312 delta -29 expected -29 OK
+  p2: core 1402 edition 1398 delta -4 expected -4 OK
+  p3: core 1388 edition 1384 delta -4 expected -4 OK
+  p4: core 1133 edition 1129 delta -4 expected -4 OK
+  p5: core 1289 edition 1285 delta -4 expected -4 OK
+  p6: core 1194 edition 1190 delta -4 expected -4 OK
+  p7: core 1068 edition 1064 delta -4 expected -4 OK
+  p8: core 1266 edition 1246 delta -20 expected -20 OK
+=== 2. Freeze diff string adjudication ===
+  freeze-diff top keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+=== 2b. Added-string Hangul runs must all occur in core text ===
+  added strings with Hangul runs absent from core: 0
+=== 2c. Removed strings containing Hangul (must be furniture only) ===
+  p1 REMOVED-HANGUL :: 最盛期、高峰 · 김장 腌过冬泡菜 · 상륙하다
+  p1 REMOVED-HANGUL :: 登陆 · 온대저기압 温带气旋。
+  p1 REMOVED-HANGUL :: 译注｜입동 立冬、冬季开始 · 절정
+  p1 REMOVED-HANGUL :: 매주 한국어로 · 每周一期 · 한국 사람이 읽는 한국어를 읽어요
+  p1 REMOVED-HANGUL :: 숫자로 보는 이번 주 · 数字看本周
+  p1 REMOVED-HANGUL :: 이번 주의 말 · 本周词语
+  p1 REMOVED-HANGUL :: 이번 호의 내용 · 本期目录
+  p1 REMOVED-HANGUL :: 입동 ＝ 立冬、冬季开始的节气。
+  p1 REMOVED-HANGUL :: 제 1 면 / 총 8 면
+  p1 REMOVED-HANGUL :: 지금 바로 연습 · 即学即练
+  p1 REMOVED-HANGUL :: 짧은 소식 · 快讯
+  p1 REMOVED-HANGUL :: 퀴즈 · 闪电问答
+  p1 REMOVED-HANGUL :: 톱 뉴스 · 头条
+  p1 REMOVED-HANGUL :: 한국어를 배우는 사람을 위한 주간 신문 — 진짜 한국을, 한국어로
+  p2 REMOVED-HANGUL :: 供暖 · 식탁 餐桌。
+  p2 REMOVED-HANGUL :: 译注｜묵직하다 沉甸甸的 · 앞치마 围裙 ·
+  p2 REMOVED-HANGUL :: 译注｜물려주다 传给 · 낡다 旧 · 두렵다
+  p2 REMOVED-HANGUL :: 译注｜산불 山火 · 벌금 罚款 · 불씨 火星。
+  p2 REMOVED-HANGUL :: 译注｜아삭하다 脆脆的 · 김 蒸汽 · 깊어지다
+  p2 REMOVED-HANGUL :: 译注｜절이다 用盐腌 · 버무리다 拌 · 난방
+  p2 REMOVED-HANGUL :: 겨울 준비 목록 · 过冬清单
+  p2 REMOVED-HANGUL :: 날짜 세는 말 · 数日子的说法
+  p2 REMOVED-HANGUL :: 당신은? · 说说你自己
+  p2 REMOVED-HANGUL :: 레벨 A2 · 김장과 겨울 준비, 한능검 · 泡菜季与过冬准备、韩史考试报名
+  p2 REMOVED-HANGUL :: 목록 清单。
+  p2 REMOVED-HANGUL :: 수능까지 남은 날로 날짜를 세는 네 가지 말 · 用高考倒计时数日子的四个说法
+  p2 REMOVED-HANGUL :: 연습 · 第 2 版练习
+  p2 REMOVED-HANGUL :: 제 2 면 / 총 8 면
+  p2 REMOVED-HANGUL :: 한능검 접수 · 韩史考试报名
+  p3 REMOVED-HANGUL :: 译注｜겹쳐 입다 叠穿 · 미끄러지다 打滑 · 돌
+  p3 REMOVED-HANGUL :: 译注｜기관 机构 · 기준 标准 · 관측 观测 ·
+  p3 REMOVED-HANGUL :: 译注｜이용하다 利用 · 막히다 堵塞 · 예의
+  p3 REMOVED-HANGUL :: 译注｜현장 现场 · 유명하다 有名 · 맛보다
+  p3 REMOVED-HANGUL :: 구간별 按路段。
+  p3 REMOVED-HANGUL :: 단풍 구경 준비물 · 红叶观赏准备
+  p3 REMOVED-HANGUL :: 당신은? · 说说你自己
+  p3 REMOVED-HANGUL :: 레벨 A2→B1 · 단풍 마지막 주말 · 红叶最后一周
+  p3 REMOVED-HANGUL :: 연습 · 第 3 版练习
+  p3 REMOVED-HANGUL :: 제 3 면 / 총 8 면
+  p4 REMOVED-HANGUL :: 译注｜연승 连胜 · 만루홈런 满垒本垒打 ·
+  p4 REMOVED-HANGUL :: 译注｜예상 预测。
+  p4 REMOVED-HANGUL :: 译注｜흔들다 挥动 · 하나가 되다 融为一体。
+  p4 REMOVED-HANGUL :: 레벨 B1 · 가을야구 소식 · 秋季棒球消息
+  p4 REMOVED-HANGUL :: 미뤄지다 推迟 · 마감하다 截稿。
+  p4 REMOVED-HANGUL :: 연습 · 第 4 版练习
+  p4 REMOVED-HANGUL :: 제 4 면 / 총 8 면
+  p4 REMOVED-HANGUL :: 한국시리즈까지의 길 · 通往韩国大赛之路
+  p5 REMOVED-HANGUL :: 译注｜비다 祈愿 · 피하다 避开 · 미끄럽다
+  p5 REMOVED-HANGUL :: 译注｜정리 整理、复习 · 끈끈하다 粘粘的 ·
+  p5 REMOVED-HANGUL :: 译注｜중점 重点 · 배치하다 部署 · 통제하다
+  p5 REMOVED-HANGUL :: 译注｜챙기다 准备好 · 졸리다 犯困 · 평소
+  p5 REMOVED-HANGUL :: 당신은? · 说说你自己
+  p5 REMOVED-HANGUL :: 레벨 B1 · 수능 카운트다운과 할로윈 · 高考倒计时与万圣节
+  p5 REMOVED-HANGUL :: 연습 · 第 5 版练习
+  p5 REMOVED-HANGUL :: 이번 주 청년 숫자 · 本周青年数字
+  p5 REMOVED-HANGUL :: 제 5 면 / 총 8 면
+  p5 REMOVED-HANGUL :: 합격 合格。
+  p6 REMOVED-HANGUL :: 译注｜겁이 나다 害怕 · 중요하다 重要。
+  p6 REMOVED-HANGUL :: 译注｜예정 预定 · 확정 确定 · 믿다 相信。
+  p6 REMOVED-HANGUL :: 译注｜짙어지다 变浓 · 규모 规模 · 섞다
+  p6 REMOVED-HANGUL :: 깊이 읽기 · 深读
+  p6 REMOVED-HANGUL :: 레벨 B2 · 수능 카운트다운을 읽는 법 · 高考倒计时读法
+  p6 REMOVED-HANGUL :: 연습 · 第 6 版练习
+  p6 REMOVED-HANGUL :: 이번 주와 시험 날, 한눈에 보기 · 本周与考试日一表看清
+  p6 REMOVED-HANGUL :: 제 6 면 / 총 8 면
+  p7 REMOVED-HANGUL :: 11 月 7 日是立冬。 (1면)
+  p7 REMOVED-HANGUL :: KIA 虎三连胜战胜 LG 双子。 (4면)
+  p7 REMOVED-HANGUL :: 「담그다」的过去式是「담갔어요」。
+  p7 REMOVED-HANGUL :: 〜까지예요?」
+  p7 REMOVED-HANGUL :: 低处的路红得更晚。 (3면)
+  p7 REMOVED-HANGUL :: 先看日期。 (6면)
+  p7 REMOVED-HANGUL :: 全国都在为考生加油。 (5면)
+  p7 REMOVED-HANGUL :: 去某地用「에」，不用「를」。
+  p7 REMOVED-HANGUL :: 句式拆解：「从〜到〜」。提问：「〜부터
+  p7 REMOVED-HANGUL :: 只能说是接近峰值的周末。 (1면)
+  p7 REMOVED-HANGUL :: 泡菜季就是腌过冬泡菜。 (1면)
+  p7 REMOVED-HANGUL :: 离高考还剩 17 天，今天是 D-17。 (2면)
+  p7 REMOVED-HANGUL :: 남다 剩下 · 바로 正是、恰恰。
+  p7 REMOVED-HANGUL :: 다음 주 · 下期预告 (VOL.3)
+  p7 REMOVED-HANGUL :: 독자의 편지 · 读者园地
+  p7 REMOVED-HANGUL :: 말 공부 · 语言
+  p7 REMOVED-HANGUL :: 본격적 正式、全面 · 나다 度过。
+  p7 REMOVED-HANGUL :: 실수 병원 · 易错诊所
+  p7 REMOVED-HANGUL :: 언어 포커스 · 세 가지 레벨, 세 가지 주제 · 三个级别，三个主题
+  p7 REMOVED-HANGUL :: 이번 주의 문장 · 本周金句（逐字摘自本期文章）
+  p7 REMOVED-HANGUL :: 이번 주의 틀 · 本周句式
+  p7 REMOVED-HANGUL :: 제 7 면 / 총 8 면
+  p7 REMOVED-HANGUL :: 짐작하다 推测 · 나누다 区分。
+  p8 REMOVED-HANGUL :: 100. 맞다 — 本周是倒计时氛围
+  p8 REMOVED-HANGUL :: 101. 입동 — 立冬＝冬季开始的节气
+  p8 REMOVED-HANGUL :: 103. 월동 — 过冬准备＝为冬天做准备
+  p8 REMOVED-HANGUL :: 109. 기준 — 日期不同因标准不同（3版）
+  p8 REMOVED-HANGUL :: 111. 관측 — 实际观测10月16日
+  p8 REMOVED-HANGUL :: 133. 저는 토요일에 내장산에 가요. — 语序：主语+时间+场所+动词
+  p8 REMOVED-HANGUL :: 134. 우리는 김장을 도와요. — 主语+宾语+动词的语序
+  p8 REMOVED-HANGUL :: 135. 지민이는 단풍을 보러 가요. — 보러 가요 = 去看
+  p8 REMOVED-HANGUL :: 136. 수험생은 도서관에서 공부해요. — 动作场所用「에서」
+  p8 REMOVED-HANGUL :: 139. 특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版
+  p8 REMOVED-HANGUL :: 140. 저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版
+  p8 REMOVED-HANGUL :: 141. a — 입동=冬季开始的节气 a
+  p8 REMOVED-HANGUL :: 142. b — 절정=最佳时期 b
+  p8 REMOVED-HANGUL :: 143. c — 김장=腌过冬泡菜 c
+  p8 REMOVED-HANGUL :: 144. d — 온대저기압=台风10月26日变化 d
+  p8 REMOVED-HANGUL :: 16. 배추 — 白菜用盐腌
+  p8 REMOVED-HANGUL :: 17. 양념 — 加入萝卜和调料拌匀
+  p8 REMOVED-HANGUL :: 18. 월동 — 过冬准备＝为冬天做准备
+  p8 REMOVED-HANGUL :: 19. 조심 — 进山要小心火
+  p8 REMOVED-HANGUL :: 2. 김치 — 泡菜季＝腌过冬泡菜
+  p8 REMOVED-HANGUL :: 20. 접수 — 11月3日起开始报名
+  p8 REMOVED-HANGUL :: 22. 30만 — 最高罚款30万韩元
+  p8 REMOVED-HANGUL :: 25. a — 김장=腌过冬泡菜 a
+  p8 REMOVED-HANGUL :: 26. c — 월동 준비=准备过冬 c
+  p8 REMOVED-HANGUL :: 27. d — 산불조심=进山小心火 d
+  p8 REMOVED-HANGUL :: 28. b — 한능검=韩国史考试简称 b
+  p8 REMOVED-HANGUL :: 34. 절정 — 红叶最美的时候叫절정
+  p8 REMOVED-HANGUL :: 35. 기준 — 日期不同因为标准不同
+  p8 REMOVED-HANGUL :: 36. 관측 — 实际观测比预报早
+  p8 REMOVED-HANGUL :: 37. 현장 — 现场庆典11月4日起
+  p8 REMOVED-HANGUL :: 38. 사과 — 青松以苹果闻名
+  p8 REMOVED-HANGUL :: 43. b — 내장산=两个预报之间 b
+  p8 REMOVED-HANGUL :: 44. a — 월출산=11月9日前夕 a
+  p8 REMOVED-HANGUL :: 45. d — 북한산=11月4日之后、低路更晚 d
+  p8 REMOVED-HANGUL :: 46. c — 설악산=实际观测10月16日 c
+  p8 REMOVED-HANGUL :: 5. 상륙 — 台风没有在韩国本土登陆
+  p8 REMOVED-HANGUL :: 52. 3연승 — 三连胜晋级
+  p8 REMOVED-HANGUL :: 53. 잠실 — 第3场在蚕室举行
+  p8 REMOVED-HANGUL :: 54. 미뤄졌어요 — 首场比赛因雨推迟
+  p8 REMOVED-HANGUL :: 55. 온대저기압 — 10月26日变为温带气旋
+  p8 REMOVED-HANGUL :: 56. 기다리고 — kt在韩国大赛等候
+  p8 REMOVED-HANGUL :: 57. KIA가 LG를 이겼어요. — 이기다的过去式이겼어요
+  p8 REMOVED-HANGUL :: 58. 3차전이 잠실에서 열렸어요. — 열리다的过去式열렸어요
+  p8 REMOVED-HANGUL :: 59. 1차전이 비 때문에 미뤄졌어요. — 미뤄지다的过去式미뤄졌어요
+  p8 REMOVED-HANGUL :: 60. 참피가 온대저기압으로 바뀌었어요. — 바뀌다的过去式바뀌었어요
+  p8 REMOVED-HANGUL :: 61. b — 준플레이오프=KIA三连胜 b
+  p8 REMOVED-HANGUL :: 62. d — 플레이오프=KIA对三星 d
+  p8 REMOVED-HANGUL :: 63. a — 한국시리즈=kt在等候 a
+  p8 REMOVED-HANGUL :: 64. c — 온대저기압=台风10月26日变化 c
+  p8 REMOVED-HANGUL :: 70. 응원 — 全国为考生加油
+  p8 REMOVED-HANGUL :: 71. 카운트다운 — 倒计时仍在继续
+  p8 REMOVED-HANGUL :: 72. 선물 — 怀着祈愿合格的心意赠送糯米糕、饴糖
+  p8 REMOVED-HANGUL :: 73. 인력 — 首尔安全人员3,271人
+  p8 REMOVED-HANGUL :: 74. 통제 — 梨泰院路10月31日管制
+  p8 REMOVED-HANGUL :: 79. 수험생은 열심히 공부해요. — 语序：主语+副词+动词
+  p8 REMOVED-HANGUL :: 80. 우리는 수험생을 응원해요. — 主语+宾语+动词的语序
+  p8 REMOVED-HANGUL :: 81. 비행기는 듣기 시간에 뜨지 않아요. — 听力时段飞机不起降
+  p8 REMOVED-HANGUL :: 82. 서울시는 14곳을 관리해요. — 首尔管理14个地点
+  p8 REMOVED-HANGUL :: 93. 분위기 — 倒计时氛围在本周
+  p8 REMOVED-HANGUL :: 94. 조치 — 特别措施只适用于考试日
+  p8 REMOVED-HANGUL :: 95. 카운트다운 — 从D-17到D-12的一周
+  p8 REMOVED-HANGUL :: 96. 규모 — 大数字显示全国规模
+  p8 REMOVED-HANGUL :: 97. 틀리다 — 特别措施只适用于11月19日
+  p8 REMOVED-HANGUL :: 98. 맞다 — 11月7日是D-12
+  p8 REMOVED-HANGUL :: 99. 틀리다 — 听力时段飞机受管制
+  p8 REMOVED-HANGUL :: — 제1면 —
+  p8 REMOVED-HANGUL :: — 제2면 —
+  p8 REMOVED-HANGUL :: — 제3면 —
+  p8 REMOVED-HANGUL :: — 제4면 —
+  p8 REMOVED-HANGUL :: — 제5면 —
+  p8 REMOVED-HANGUL :: — 제6면 —
+  p8 REMOVED-HANGUL :: — 제7면 —
+  p8 REMOVED-HANGUL :: — 제8면 —
+  p8 REMOVED-HANGUL :: 답 · 参考答案 — 按版面分页排列，找到题号即可
+  p8 REMOVED-HANGUL :: 시험과 답 · 测验与答案
+  p8 REMOVED-HANGUL :: 제 8 면 / 총 8 면
+=== 3. Gloss counts: call-string vs render-page ===
+  CORE call-string: {'content12.py': (6, 21), 'content34.py': (7, 20), 'content56.py': (7, 20)} total items 61
+  JA call-string: {'content12.py': (6, 21), 'content34.py': (7, 20), 'content56.py': (7, 20)} total items 61
+  render-page prefix counts (core 译注｜ vs JA 解説 — ):
+    p1: core 1 ja 2 MISMATCH
+    p2: core 5 ja 5 OK
+    p3: core 4 ja 4 OK
+    p4: core 3 ja 3 OK
+    p5: core 4 ja 4 OK
+    p6: core 3 ja 3 OK
+    p7: core 0 ja 0 OK
+    p8: core 0 ja 0 OK
+  P7 glosslines (A2/B1/B2, items split on ·):
+    CORE: ['본격적 正式、全面 · 나다 度过。', '남다 剩下 · 바로 正是、恰恰。', '짐작하다 推测 · 나누다 区分。'] -> items [2, 2, 2]
+    JA: ['본격적 本格的 · 나다 過ごす。', '남다 残る · 바로 ちょうど。', '짐작하다 推測する · 나누다 区別する。'] -> items [2, 2, 2]
+=== 4. P7 phrases: verbatim on tagged page + whole-issue frequencies ===
+  CORE:
+    tag 1면 onpage=True freq=5 :: 11월 7일은 입동이에요
+    tag 1면 onpage=True freq=2 :: 절정에 가까운 주말이라고만 말할 수 있어요
+    tag 1면 onpage=True freq=4 :: 김장은 겨울 내내 먹는 김치를 담그는 일이에요
+    tag 2면 onpage=True freq=2 :: 수능까지 17일 남았어요. 오늘이 D-17예요
+    tag 3면 onpage=True freq=2 :: 낮은 길은 더 늦게 물들어요
+    tag 4면 onpage=True freq=2 :: KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요
+    tag 5면 onpage=True freq=2 :: 온 나라가 수험생을 응원해요
+    tag 6면 onpage=True freq=2 :: 날짜를 먼저 보세요
+  JA:
+    tag 1면 onpage=True freq=5 :: 11월 7일은 입동이에요
+    tag 1면 onpage=True freq=2 :: 절정에 가까운 주말이라고만 말할 수 있어요
+    tag 1면 onpage=True freq=4 :: 김장은 겨울 내내 먹는 김치를 담그는 일이에요
+    tag 2면 onpage=True freq=2 :: 수능까지 17일 남았어요. 오늘이 D-17예요
+    tag 3면 onpage=True freq=2 :: 낮은 길은 더 늦게 물들어요
+    tag 4면 onpage=True freq=2 :: KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요
+    tag 5면 onpage=True freq=2 :: 온 나라가 수험생을 응원해요
+    tag 6면 onpage=True freq=2 :: 날짜를 먼저 보세요
+=== 5. P8 flow-end three calibers + P7 letter/teaser geometry ===
+  log: P7 col3 ends 1863.46
+  log: P7 teaser ends 2517.46
+  log:   flow[P8-keys] ended col 3/3 y=2351 (bottom 2540)
+  last P8 key node: y=2335.0520000000024 size=13.3 :: 150. ✓ 範文は本ページのH区（157字）
+  ink bottom caliber: baseline 2335.0520000000024 + bbox ymax 18 = 2353.05 (limit 2540)
+  P7 col3 rects (y,h,bottom): [('200', '750.96', 950.96), ('962.96', '282.0', 1244.96), ('1256.96', '606.5', 1863.46)]
+  P7 phrases gold rules: []
+  last letter line: y=1848.05 :: ページの最優秀作文を送ってください！ ink bottom=1874.05 box bottom=1863.46 rule=?
+=== 6. Images: payload hashes + credits + placement ===
+  p1: core [('535fff46b7ce', '6f7f33ed8f40')] ja [('535fff46b7ce', '6f7f33ed8f40')] OK
+    p1 credit :: 사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진
+  p2: core [('e66d2b455ec6', '96a6a19b612a')] ja [('e66d2b455ec6', '96a6a19b612a')] OK
+    p2 credit :: 사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진
+  p3: core [('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] ja [('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] OK
+    p3 credit :: 사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진
+    p3 credit :: 그림: Paul Cézanne — Public domain (Wikimedia
+  p4: core [('1a7e7d6d5ffc', '18ad8ae06fac')] ja [('1a7e7d6d5ffc', '18ad8ae06fac')] OK
+    p4 credit :: 사진: Bain News Service — Public domain (Wikimedia
+  p5: core [('6a1bab177d54', '35e7dc69d417')] ja [('6a1bab177d54', '35e7dc69d417')] OK
+    p5 credit :: 사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진
+  p6: core [] ja [] OK
+  p7: core [] ja [] OK
+  p8: core [] ja [] OK
+=== 3b. Gloss-box prefix, counted by node start (badge excluded) ===
+    p1: core 1 ja 1 OK
+    p2: core 5 ja 5 OK
+    p3: core 4 ja 4 OK
+    p4: core 3 ja 3 OK
+    p5: core 4 ja 4 OK
+    p6: core 3 ja 3 OK
+    p7: core 0 ja 0 OK
+    p8: core 0 ja 0 OK
+=== 5b. Ink bottoms via canonical occlusion_audit.ink_box ===
+  P8 last key ink box: (1451.0, 2323.3, 1682.5, 2336.3) bottom=2336.30 (limit 2540)
+  P7 last letter ink box: (1473.0, 1831.05, 1831.0, 1850.05) bottom=1850.05 box bottom=1863.46 rule=1893.46 gap_to_rule=43.41
+  P7 teaser rect bottom=2517.46 (limit 2540) margin=22.54
+=== 7. Right-edge ADVANCE scan (all pages, edition) ===
+  p1: advance past band-right 1898: 0 []
+  p2: advance past band-right 1898: 0 []
+  p3: advance past band-right 1898: 0 []
+  p4: advance past band-right 1898: 0 []
+  p5: advance past band-right 1898: 0 []
+  p6: advance past band-right 1898: 0 []
+  p7: advance past band-right 1898: 0 []
+  p8: advance past band-right 1898: 0 []
+=== 8. Same-baseline ink spacing scan (edition) ===
+  p1: same-baseline overlaps=0 tight(<6)=0 []
+  p2: same-baseline overlaps=0 tight(<6)=0 []
+  p3: same-baseline overlaps=0 tight(<6)=0 []
+  p4: same-baseline overlaps=0 tight(<6)=0 []
+  p5: same-baseline overlaps=0 tight(<6)=0 []
+  p6: same-baseline overlaps=0 tight(<6)=0 []
+  p7: same-baseline overlaps=0 tight(<6)=0 []
+  p8: same-baseline overlaps=0 tight(<6)=0 []
+=== 9. P6 chart-label ink vs later-rect coverage (max) ===
+  P6 max ink-vs-later-rect coverage: 0.000 None (gate <0.30)
+=== 10. Rendered-line window scan 10-45px + JA line-start scan ===
+  p1: window pairs=82 window flags=0 [] | JA line-start flags=0 []
+  p2: window pairs=86 window flags=0 [] | JA line-start flags=0 []
+  p3: window pairs=88 window flags=0 [] | JA line-start flags=0 []
+  p4: window pairs=78 window flags=0 [] | JA line-start flags=0 []
+  p5: window pairs=84 window flags=0 [] | JA line-start flags=0 []
+  p6: window pairs=74 window flags=0 [] | JA line-start flags=0 []
+  p7: window pairs=54 window flags=0 [] | JA line-start flags=0 []
+  p8: window pairs=257 window flags=0 [] | JA line-start flags=0 []
+=== 11. KO wrap-spy orphan scan (10-45 window definition: rendered pairs above; ===
+    wrap-call junction scan below: line-start NO_START / line-end NO_END /
+    mid-word splits with >=3-syllable tails, parenthesised fragments included) ===
+  wrap calls: 943
+  line-start NO_START: 0 []
+  line-end NO_END: 0 []
+  mid-word splits >=3-syllable tails: 0 []
+  mid-word splits 1-2-syllable tails (info): 0
+=== 12. REPL-source absence + Han token inventory (word-level) ===
+  REPL sources still present in edition SVGs (excluding KEEP words): 0
+  distinct Han-only tokens in edition: 295
+  inventory written to han-tokens.txt

@@ -1,0 +1,220 @@
+== TRANSFORM folded edits ==
+NEW present: True | Vendas imediatas da JD.com: 12 de outubro.
+NEW present: True | Pré-vendas do Taobao e do Tmall: 15 de outubro.
+NEW present: True | Vendas imediatas do Taobao e do Tmall: 20 de outubro.
+NEW present: True | A final: 15 de novembro, 03:00, hora de Pequim.
+NEW present: True | 24–25 de outubro: média de 2 espectadores por sessão.
+NEW present: True | 「最低价」 é propaganda, não dado medido.
+NEW present: True | Dados e checkout primeiro; a manchete por último.
+NEW present: True | Mercadorias imediatas: sem espera de sinal.
+NEW present: True | Dia dos Jornalistas: 8 de novembro, não 7.
+NEW present: True | shùzì — personagens digitais no filme de IA.
+NEW present: True | Mercadorias imediatas: despacham na hora.
+NEW present: True | Regra da página 6: dados primeiro.
+NEW present: True | O tempo fica mais frio dia a dia depois do 立冬.
+NEW present: True | Com o 直降 o preço do checkout é o que você paga.
+NEW present: True | No 立冬 ela fez bolinhos com a mãe.
+NEW present: True | tǎotài 淘汰 — eliminar, tirar do torneio · nèizhàn 内战 — um jog
+NEW present: True | Datas e horas
+NEW present: True | Foto: Based5290 — Domínio público (Wikimedia Commons)
+NEW present: True | Cálculos
+OLD absent: True | As vendas imediatas da JD.com começaram em 12 de outubro.
+OLD absent: True | Horários e números
+OLD absent: True | Contas das cestas
+OLD absent: True | Depois do 立冬,
+OLD absent: True | Com o 直降,
+OLD absent: True | No 立冬, ela fez
+OLD absent: False | to knock out, to eliminate
+OLD absent: False | Public domain (Wikimedia Commons)
+transform sha: 2e9e5d482636ab3b8f9ee8613aee1fdd74c270ed8153b0f5850bb43acea8982e
+content8 core L119-121: ['        txt = f"{e_[\'n\']}. {e_[\'key\']} — {e_[\'note\']}"', '        if e_["type"] == "写作":', '            txt = f"{e_[\'n\']}. ✓ {e_[\'note\']}"']
+content8 pt L119-121: ['        txt = f"{e_[\'n\']}. {e_[\'key\']} — {e_[\'note\']}"', '        if e_["type"] == "Escrita":', '            txt = f"{e_[\'n\']}. ✓ {e_[\'note\']}"']
+== GLOSS == calls core/pt: 10 10
+per-call core: [4, 4, 4, 3, 3, 3, 3, 3, 3, 3] total 33
+per-call pt: [4, 4, 4, 3, 3, 3, 3, 3, 3, 3] total 33
+headwords equal item-by-item: True
+rendered Nota count in edition SVGs: 10
+rendered 'Notes' count: 0
+== P7 GOLDEN ==
+PT quote rows: 12
+  ('「他高兴的跳起来」', '→ 「他高兴地跳起来。」', '地 (de) marca como uma ação é feita.')
+  ('「他跑的很快」', '→ 「他跑得很快。」', '得 (de) liga verbo + grau: 跑得快.')
+  ('「我买了三只毛衣个」', '→ 「我买了三件毛衣。」', 'Ordem: número + classificador + substantivo. O 个 final é um a mais; suéteres usam 件.')
+  ('「立冬在星期六十一月七日」', '→ 「立冬在11月7日,星期六。」', 'Maior → menor: dia da semana por último.')
+  ('「不用等11月11日」', 'Não é preciso esperar até 11 de novembro.', 'Página 1')
+  ('「下单就能发货」', 'Fez o pedido e já despacha.', 'Página 2')
+  ('「先看结算页,再付款」', 'Veja a página de checkout e só depois pague.', 'Página 2')
+  ('「水开始结冰」', 'A água começa a congelar.', 'Página 3')
+  ('「三场都输了」', 'As três séries perdidas.', 'Página 4')
+  ('「小局一场没赢」', 'Nenhum jogo ganho.', 'Página 4')
+  ('「故事够不够好」', 'Mas a história é boa o bastante?', 'Página 5')
+  ('「别以后,就现在」', 'Não depois — agora.', 'Página 5')
+ source-contiguous: False | rendered-in-P7-SVG: True | 他高兴的跳起来 地 (de) marca como uma ação é feita.
+ source-contiguous: False | rendered-in-P7-SVG: True | 他跑的很快 得 (de) liga verbo + grau: 跑得快.
+ source-contiguous: False | rendered-in-P7-SVG: True | 我买了三只毛衣个 Ordem: número + classificador + substantivo. O 个 final é um a mais; suéteres usam 件.
+ source-contiguous: False | rendered-in-P7-SVG: True | 立冬在星期六十一月七日 Maior → menor: dia da semana por último.
+ source-contiguous: True | rendered-in-P7-SVG: True | 不用等11月11日 Página 1
+ source-contiguous: True | rendered-in-P7-SVG: True | 下单就能发货 Página 2
+ source-contiguous: True | rendered-in-P7-SVG: True | 先看结算页,再付款 Página 2
+ source-contiguous: True | rendered-in-P7-SVG: True | 水开始结冰 Página 3
+ source-contiguous: True | rendered-in-P7-SVG: True | 三场都输了 Página 4
+ source-contiguous: True | rendered-in-P7-SVG: True | 小局一场没赢 Página 4
+ source-contiguous: True | rendered-in-P7-SVG: True | 故事够不够好 Página 5
+ source-contiguous: True | rendered-in-P7-SVG: True | 别以后,就现在 Página 5
+ P7 SVG contains all 8 PT translations: False
+ each phrase count in P7 SVG (joined text, comma-normalised):
+   他高兴的跳起来 joined-count: 2
+   他跑的很快 joined-count: 2
+   我买了三只毛衣个 joined-count: 2
+   立冬在星期六十一月七日 joined-count: 2
+   不用等11月11日 joined-count: 2
+   下单就能发货 joined-count: 2
+   先看结算页,再付款 joined-count: 1
+   水开始结冰 joined-count: 2
+   三场都输了 joined-count: 2
+   小局一场没赢 joined-count: 2
+   故事够不够好 joined-count: 2
+   别以后,就现在 joined-count: 1
+== IMAGES ==
+core CREDITS.md:
+ # Image credits — Lucerna Weekly W45 Simplified Chinese core (VOL.2)
+
+All images are used under a public-domain / CC0 licence, verified via the
+Wikimedia Commons API (`extmetadata`: `Artist` and `LicenseShortName`) on
+2026-10-27. The "Artist" column below is the Commons API Artist field,
+copied directly. Every image listed here is embedded in the issue; no other
+image is embedded (verified: each SVG's embedded payload MD5 matches the
+asset file below, and the count per page is 1 / 1 / 2 / 1 / 1 / 0 / 0 / 0).
+
+| Page | Asset file | Commons file | Subject as captioned | Artist (Commons API) | Licence |
+|---|---|---|---|---|---|
+| 1 | locker.jpg | Parcel lockers (W43 reuse) | Parcel locker, labelled 资料图 (file photo) | Map hobby | CC0 |
+| 2 | valley.jpg | Autumn valley (W43 reuse) | Autumn valley, red leaves in season | Paul Gilmore | CC0 |
+| 3 | frost.jpg | Frosted leaves (W43 reuse) | Frosted red leaves | Gerda Arendt | CC0 |
+| 3 | dumplings.jpg | Dumplings 3.jpg | Dumplings, labelled 资料图 (file photo) | Syced | CC0 |
+| 4 | lanparty.jpg | LAN party, France 2003 (W43 reuse) | LAN-party file photo, France, 2003 | Syced | CC0 |
+| 5 | popcorn.jpg | Regal Cinemas popcorn bucket.jpg | Cinema popcorn bucket, labelled 资料图 (file photo) | Based5290 | Public domain |
+
+Notes:
+- File photos are captioned as 资料图 (file photo) and are never presented
+  as this week's event. The P4 LAN-party caption states its real date
+  (2003) and place (France).
+- Rejected candidates (cinema-auditorium and shopping-bag search hits) were
+  mostly CC BY-SA 4.0 / CC BY, which the SOP does not allow, so they were
+  not used.
+- The two new downloads (dumplings.jpg, 838,923 bytes; popcorn.jpg,
+  775,812 bytes) were fetched 2026-10-27 at 1400 px via the Commons
+  `Special:FilePath` route.
+
+ asset locker.jpg: core==pt True md5 420c6150a831e5d0ab86351aeee88e5c
+ asset valley.jpg: core==pt True md5 550e463b4ad93fea2d1afd12dc14e789
+ asset frost.jpg: core==pt True md5 d0b015bc9da89c18313d931c4f602d88
+ asset dumplings.jpg: core==pt True md5 e8d752779a4a1a96fcf5e044cfd2e648
+ asset lanparty.jpg: core==pt True md5 6b8e90374bf6ba4cbe652951019953a3
+ asset popcorn.jpg: core==pt True md5 a903e35f1eb2dbf4483bb35b27da0d15
+ p1-touiban: core payloads ['420c6150a831e5d0ab86351aeee88e5c'] edition payloads ['420c6150a831e5d0ab86351aeee88e5c'] equal True
+ p2-shenghuo: core payloads ['550e463b4ad93fea2d1afd12dc14e789'] edition payloads ['550e463b4ad93fea2d1afd12dc14e789'] equal True
+ p3-wenhua: core payloads ['d0b015bc9da89c18313d931c4f602d88', 'e8d752779a4a1a96fcf5e044cfd2e648'] edition payloads ['d0b015bc9da89c18313d931c4f602d88', 'e8d752779a4a1a96fcf5e044cfd2e648'] equal True
+ p4-tiyu: core payloads ['6b8e90374bf6ba4cbe652951019953a3'] edition payloads ['6b8e90374bf6ba4cbe652951019953a3'] equal True
+ p5-qingnian: core payloads ['a903e35f1eb2dbf4483bb35b27da0d15'] edition payloads ['a903e35f1eb2dbf4483bb35b27da0d15'] equal True
+ p1-touiban credits: ['Foto: Map hobby — CC0 (Wikimedia Commons)']
+ p2-shenghuo credits: ['Foto: Paul Gilmore — CC0 (Wikimedia Commons)']
+ p3-wenhua credits: ['Foto: Gerda Arendt — CC0 (Wikimedia Commons)', 'Foto: Syced — CC0 (Wikimedia Commons)']
+ p4-tiyu credits: ['Foto: Syced — CC0 (Wikimedia Commons)']
+ p5-qingnian credits: ['Foto: Based5290 — Domínio público (Wikimedia Commons)']
+ 'Public domain' occurrences in edition SVGs: 0
+ 'Domínio público' occurrences: 1
+== READERS CORNER ==
+ P7 x=1473 text nodes (count, y range): 35 242 1692.7900000000006
+    242 '易错诊所 · Clínica de erros'
+    291 '「他高兴的跳起来」'
+    341.24 '→ 「他高兴地跳起来。」'
+    389.12 '地 (de) marca como uma ação é feita.'
+    446.64 '「他跑的很快」'
+    496.88 '→ 「他跑得很快。」'
+    544.76 '得 (de) liga verbo + grau: 跑得快.'
+    602.28 '「我买了三只毛衣个」'
+    652.52 '→ 「我买了三件毛衣。」'
+    700.4 'Ordem: número + classificador +'
+    726.92 'substantivo. O 个 final é um a mais;'
+    753.4399999999999 'suéteres usam 件.'
+    810.9599999999999 '「立冬在星期六十一月七日」'
+    861.1999999999999 '→ 「立冬在11月7日，星期六。」'
+    909.0799999999999 'Maior → menor: dia da semana por último.'
+    1003.6 '本周句式 · Estrutura da semana'
+    1050.6 '「先看评价，再下单。」(Primeiro veja'
+    1081.1299999999999 'as avaliações, depois faça o pedido.)'
+    1111.6599999999999 'A estrutura 先…再… dá a ordem das'
+    1142.1899999999998 'ações. Mais: 「先看天气，再出门。」'
+    1202.7199999999998 '先 … 再 … — primeiro X, depois Y.'
+    1268.6 '读者园地 · Cantinho dos leitores'
+    1315.6 '「你好！我住在上海。立冬那天，我吃了'
+    1346.1299999999999 '饺子，也给妈妈打了电话。双11，我买了'
+    1376.6599999999999 '一件毛衣，现货第二天就到了。」'
+    1437.1899999999998 'Exemplo da redação — não é uma carta'
+    1465.59 'de verdade. O VOL.1 prometeu cartas'
+    1493.99 'verdadeiras dos leitores e o melhor texto'
+    1522.39 'do VOL.1 neste VOL.2; até agora nenhuma'
+    1550.7900000000002 'carta chegou e não há texto publicável,'
+    1579.1900000000003 'por isso este cantinho ainda traz um'
+    1607.5900000000004 'exemplo da redação. Adiado, não'
+    1635.9900000000005 'cancelado. Escreva-nos! Envie a sua carta'
+    1664.3900000000006 'em chinês — duas frases já bastam — e'
+    1692.7900000000006 'ela pode sair no próximo número.'
+ invitation verbatim in joined P7 text: False
+ 'Exemplo da redação' present: True
+ 'não é uma carta de verdade' present: False
+ P7 rect lists equal: False
+   rect diff core: <rect x="65" y="599.21" width="60" height="30" rx="6" fill="#3e4c2a"/>  ed: <rect x="65" y="661.615" width="60" height="30" rx="6" fill="#3e4c2a"/>
+   rect diff core: <rect x="65" y="691.4350000000001" width="60" height="30" rx="6" fill="#3e4c2a"/>  ed: <rect x="65" y="753.84" width="60" height="30" rx="6" fill="#3e4c2a"/>
+   rect diff core: <rect x="65" y="813.3850000000001" width="60" height="30" rx="6" fill="#3e4c2a"/>  ed: <rect x="65" y="875.7900000000001" width="60" height="30" rx="6" fill="#3e4c2a"/>
+   rect diff core: <rect x="65" y="905.6100000000001" width="60" height="30" rx="6" fill="#3e4c2a"/>  ed: <rect x="65" y="968.0150000000001" width="60" height="30" rx="6" fill="#3e4c2a"/>
+   rect diff core: <rect x="989" y="631.8900000000001" width="60" height="30" rx="6" fill="#a4553a"/>  ed: <rect x="989" y="1000.6950000000002" width="60" height="30" rx="6" fill="#a4553a"/>
+   rect diff core: <rect x="989" y="753.8400000000001" width="60" height="30" rx="6" fill="#a4553a"/>  ed: <rect x="989" y="664.57" width="60" height="30" rx="6" fill="#a4553a"/>
+   rect diff core: <rect x="989" y="846.0650000000002" width="60" height="30" rx="6" fill="#a4553a"/>  ed: <rect x="989" y="786.5200000000001" width="60" height="30" rx="6" fill="#a4553a"/>
+   rect diff core: <rect x="989" y="968.0150000000002" width="60" height="30" rx="6" fill="#a4553a"/>  ed: <rect x="989" y="878.7450000000001" width="60" height="30" rx="6" fill="#a4553a"/>
+   rect counts: 20 20
+== FURNITURE BADGE ==
+ core badge: ('975', '434', '19.5', '700', 'Noto Sans CJK SC', '简体中文正文 · 英语讲解 — Simplified Chinese text · Explanations in English · the edition for English-speaking readers')
+ W43 badge: ('975', '434', '19.5', '700', 'Noto Sans CJK SC', 'TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA')
+ edition badge: ('975', '434', '19.5', '700', 'Noto Sans CJK SC', 'TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA')
+ edition badge == W43 badge string: True
+ core y330: [('975', '330', '40', '700', 'Noto Serif CJK SC', '简体中文版 · VOL.2 · 双11 · 立冬 · S16')]
+ core y372: [('975', '372', '19', None, 'Noto Sans CJK SC', '给学中文的人的周报 — Read the real China, in Chinese')]
+ core y92: [('65', '92', '23', '700', 'Noto Sans CJK SC', 'VOL. 2 · 第 2 号'), ('975', '92', '21', None, 'Noto Sans CJK SC', '每周读中文 · Read real Chinese, every week'), ('1885', '92', '23', None, 'Noto Sans CJK SC', '2026年11月2日（周一）— 8日（周日）')]
+ core footer strings P1: ['Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations']
+ W43 y330: [('975', '330', '40', '700', 'Noto Serif CJK SC', 'SEMANÁRIO CHINÊS SIMPLIFICADO · VOL.1 · 双11 · 大闸蟹 · 霜降')]
+ W43 y372: [('975', '372', '19', None, 'Noto Sans CJK SC', '给学中文的人的周报 — Leia a China de verdade, em chinês')]
+ W43 y92: [('65', '92', '23', '700', 'Noto Sans CJK SC', 'VOL. 1 · 第 1 号'), ('975', '92', '21', None, 'Noto Sans CJK SC', '每周读中文 · Leia chinês de verdade, toda semana'), ('1885', '92', '23', None, 'Noto Sans CJK SC', '2026年10月19日（周一）— 25日（周日）')]
+ W43 footer strings P1: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.1 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Redação Lucerna · Nível de leitura A2']
+ edition y330: [('975', '330', '40', '700', 'Noto Serif CJK SC', 'SEMANÁRIO CHINÊS SIMPLIFICADO · VOL.2 · 双11 · 立冬 · S16')]
+ edition y372: [('975', '372', '19', None, 'Noto Sans CJK SC', '给学中文的人的周报 — Leia a China de verdade, em chinês')]
+ edition y92: [('65', '92', '23', '700', 'Noto Sans CJK SC', 'VOL. 2 · 第 2 号'), ('975', '92', '21', None, 'Noto Sans CJK SC', '每周读中文 · Leia chinês de verdade, toda semana'), ('1885', '92', '23', None, 'Noto Sans CJK SC', '2026年11月2日（周一）— 8日（周日）')]
+ edition footer strings P1: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Redação Lucerna · Nível de leitura A2']
+ p1-touiban y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 1 de 8']
+ p2-shenghuo y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 2 de 8']
+ p3-wenhua y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 3 de 8']
+ p4-tiyu y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 4 de 8']
+ p5-qingnian y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 5 de 8']
+ p6-shendu y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 6 de 8']
+ p7-ciyu y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 7 de 8']
+ p8-ceyan y2624: ['Lucerna · SEMANÁRIO CHINÊS SIMPLIFICADO VOL.2 · TEXTOS EM CHINÊS SIMPLIFICADO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 8 de 8']
+ edition P8 separators: ['— Página 1 —', '— Página 2 —', '— Página 3 —', '— Página 4 —', '— Página 5 —', '— Página 6 —', '— Página 7 —', '— Página 8 —']
+ edition P8 keys head present: True
+ edition P8 right line present: True
+ W43 P8 separators: ['— Página 1 —', '— Página 2 —', '— Página 3 —', '— Página 4 —', '— Página 5 —', '— Página 6 —', '— Página 7 —', '— Página 8 —']
+== NON-BLOCKING RE-CHECKS ==
+ literal 'Complete a frase': edition 0 W43 0
+ literal 'Escolha múltipla': edition 0 W43 0
+ literal 'Escolha no contexto': edition 0 W43 0
+ literal 'Associação': edition 5 W43 5
+ literal 'Escrita': edition 2 W43 2
+ p2-shenghuo core chip-like nodes: 15 ['11.', '12.', '13.', '14.', '15.', '16.', '17.', '18.', '19.', '20.', '21.', '22.', '23.', '24.', '25–28.']
+ p3-wenhua core chip-like nodes: 15 ['29.', '30.', '31.', '32.', '33.', '34.', '35.', '36.', '37.', '38.', '39.', '40.', '41.', '42.', '43–46.']
+ p4-tiyu core chip-like nodes: 15 ['47.', '48.', '49.', '50.', '51.', '52.', '53.', '54.', '55.', '56.', '57.', '58.', '59.', '60.', '61–64.']
+ p5-qingnian core chip-like nodes: 15 ['65.', '66.', '67.', '68.', '69.', '70.', '71.', '72.', '73.', '74.', '75.', '76.', '77.', '78.', '79–82.']
+ p6-shendu core chip-like nodes: 15 ['83.', '84.', '85.', '86.', '87.', '88.', '89.', '90.', '91.', '92.', '93.', '94.', '95.', '96.', '97–100.']
+ P6 x=527 rects core: ['<rect x="527" y="723.0" width="434" height="145.675" rx="0" fill="#f1ead6" stroke="#d8cfb4" stroke-width="1.4"/>', '<rect x="527" y="1616" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1700.55" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1785.1" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1979.8749999999998" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2064.4249999999997" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2148.975" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2233.525" width="60" height="30" rx="6" fill="#a4553a"/>']
+ P6 x=325 bars core: ['<rect x="325" y="1282" width="810.0" height="34" rx="0" fill="#3e4c2a"/>', '<rect x="325" y="1340" width="537.0" height="34" rx="0" fill="#b3a06a"/>', '<rect x="325" y="1398" width="480.0" height="34" rx="0" fill="#b3a06a"/>']
+ P6 x=527 rects ed: ['<rect x="527" y="723.0" width="434" height="175.39999999999998" rx="0" fill="#f1ead6" stroke="#d8cfb4" stroke-width="1.4"/>', '<rect x="527" y="1616" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1700.55" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1785.1" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="1979.8749999999998" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2064.4249999999997" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2148.975" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2233.525" width="60" height="30" rx="6" fill="#a4553a"/>']
+ P6 x=325 bars ed: ['<rect x="325" y="1282" width="810.0" height="34" rx="0" fill="#3e4c2a"/>', '<rect x="325" y="1340" width="537.0" height="34" rx="0" fill="#b3a06a"/>', '<rect x="325" y="1398" width="480.0" height="34" rx="0" fill="#b3a06a"/>']

@@ -1,0 +1,114 @@
+--- bslib4.py ---
+--- content12.py ---
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-pt/svg")
+55c55
+< f.ex("A2", "Complete a frase", "10", "As vendas imediatas da JD.com começaram em 12 de outubro.",
+---
+> f.ex("A2", "Complete a frase", "10", "Vendas imediatas da JD.com: 12 de outubro.",
+57c57
+< f.ex("A2", "Complete a frase", "预售", "As pré-vendas do Taobao e do Tmall começaram em 15 de outubro.",
+---
+> f.ex("A2", "Complete a frase", "预售", "Pré-vendas do Taobao e do Tmall: 15 de outubro.",
+153c153
+< qf.ex("A2", "Escolha múltipla", "C", "As vendas imediatas da JD.com começaram em 12 de outubro.",
+---
+> qf.ex("A2", "Escolha múltipla", "C", "Vendas imediatas da JD.com: 12 de outubro.",
+248c248
+< e.ex("A2", "Escolha múltipla", "A", "As vendas imediatas da JD.com começaram em 12 de outubro.",
+---
+> e.ex("A2", "Escolha múltipla", "A", "Vendas imediatas da JD.com: 12 de outubro.",
+250c250
+< e.ex("A2", "Escolha múltipla", "B", "As vendas imediatas do Taobao e do Tmall começaram em 20 de outubro.",
+---
+> e.ex("A2", "Escolha múltipla", "B", "Vendas imediatas do Taobao e do Tmall: 20 de outubro.",
+254c254
+< e.ex("A2", "Escolha múltipla", "A", "Depois do 立冬, o tempo fica mais frio dia a dia.",
+---
+> e.ex("A2", "Escolha múltipla", "A", "O tempo fica mais frio dia a dia depois do 立冬.",
+--- content34.py ---
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-pt/svg")
+128c128
+< f.gloss("tǎotài 淘汰 — to knock out, to eliminate · nèizhàn 内战 — a match between two teams from the same region · zhǐbù 止步 — to stop here, to go no further.")
+---
+> f.gloss("tǎotài 淘汰 — eliminar, tirar do torneio · nèizhàn 内战 — um jogo entre dois times da mesma região · zhǐbù 止步 — parar aqui, não ir adiante.")
+192c192
+< e.ex("B1", "Escolha múltipla", "B", "A final começa às 03:00, hora de Pequim, em 15 de novembro.",
+---
+> e.ex("B1", "Escolha múltipla", "B", "A final: 15 de novembro, 03:00, hora de Pequim.",
+--- content56.py ---
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-pt/svg")
+37c37
+<               "Foto: Based5290 — Public domain (Wikimedia Commons)")
+---
+>               "Foto: Based5290 — Domínio público (Wikimedia Commons)")
+91c91
+< e.head("C · 时间与数字 · Horários e números", 25)
+---
+> e.head("C · 时间与数字 · Datas e horas", 25)
+97c97
+< e.ex("B1", "Complete a frase", "2", "Em 24–25 de outubro, cada sessão teve em média 2 espectadores.",
+---
+> e.ex("B1", "Complete a frase", "2", "24–25 de outubro: média de 2 espectadores por sessão.",
+197c197
+< e.ex("B2", "Escolha múltipla", "A", "Com o 直降, o preço do checkout é o que você paga.",
+---
+> e.ex("B2", "Escolha múltipla", "A", "Com o 直降 o preço do checkout é o que você paga.",
+217c217
+< e.head("C · 练习篮子算一算 · Contas das cestas", 25)
+---
+> e.head("C · 练习篮子算一算 · Cálculos", 25)
+--- content7.py ---
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-pt/svg")
+51c51
+< c.ex("B2", "Escolha múltipla", "C", "「最低价」 é uma afirmação de propaganda, não um dado medido.",
+---
+> c.ex("B2", "Escolha múltipla", "C", "「最低价」 é propaganda, não dado medido.",
+55c55
+< c.ex("B2", "Escolha múltipla", "B", "Primeiro os dados e a página de checkout; a manchete por último.",
+---
+> c.ex("B2", "Escolha múltipla", "B", "Dados e checkout primeiro; a manchete por último.",
+--- content8.py ---
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-pt-proof/work/repro-out")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-pt/svg")
+20c20
+< f.ex("A2", "Escolha no contexto", "B", "As mercadorias imediatas despacham sem espera de sinal.",
+---
+> f.ex("A2", "Escolha no contexto", "B", "Mercadorias imediatas: sem espera de sinal.",
+30c30
+< f.ex("B1", "Escolha no contexto", "B", "O Dia dos Jornalistas é em 8 de novembro, não em 7 de novembro.",
+---
+> f.ex("B1", "Escolha no contexto", "B", "Dia dos Jornalistas: 8 de novembro, não 7.",
+51c51
+< f.ex("B1", "Escolha múltipla", "B", "A final começa às 03:00, hora de Pequim, em 15 de novembro.",
+---
+> f.ex("B1", "Escolha múltipla", "B", "A final: 15 de novembro, 03:00, hora de Pequim.",
+62c62
+< f.ex("B1", "Complete a frase", "数字", "shùzì — os personagens do filme de IA são imagens digitais.",
+---
+> f.ex("B1", "Complete a frase", "数字", "shùzì — personagens digitais no filme de IA.",
+78c78
+< f.ex("A2", "Escolha múltipla", "A", "No 立冬, ela fez bolinhos com a mãe.",
+---
+> f.ex("A2", "Escolha múltipla", "A", "No 立冬 ela fez bolinhos com a mãe.",
+89c89
+< f.ex("B1", "Escolha no contexto", "A", "As mercadorias imediatas despacham na hora, sem espera de pré-venda.",
+---
+> f.ex("B1", "Escolha no contexto", "A", "Mercadorias imediatas: despacham na hora.",
+93c93
+< f.ex("B2", "Escolha no contexto", "A", "A regra da página 6: dados primeiro, propaganda por último.",
+---
+> f.ex("B2", "Escolha no contexto", "A", "Regra da página 6: dados primeiro.",

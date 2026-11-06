@@ -1,0 +1,138 @@
+== 1. same-baseline ink collisions (gap<2 flagged; gap<0 = overlap) ==
+  same-baseline flags: 0
+== 2. P6 chart-label coverage vs later rects (any ink overlap reported) ==
+  bars (x=325,w>100): [(810.0, 1282.0), (537.0, 1340.0), (480.0, 1398.0)] expect widths 810/537/480 at y 1282/1340/1398
+  texts with ANY later-rect ink overlap: 0
+== 3. P8 top rule / flow ends; P7 teaser tail ==
+  ED P8: max test-flow baseline y=1232.7 (rule y=1264, builder claim flow ends 1262); max keys baseline y=2531.98; keys nodes=165
+  ED P8 rule line y1=1264 y2=1264 x1=65 x2=1885
+  ED P7: max content baseline y=2491.1; last 3 content nodes:
+    y=2309.8 x=989 'No después: ahora. (Página 5)'
+    y=2451.1 x=93 '下期预告 · La semana que viene (VOL.3)'
+    y=2491.1 x=93 '双11当天11月11日星期三，包裹到了吗？S16淘汰赛打完了，谁进了决赛？总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见！'
+  CORE P8: max test-flow baseline y=1232.7 (rule y=1264, builder claim flow ends 1262); max keys baseline y=2531.98; keys nodes=165
+  CORE P8 rule line y1=1264 y2=1264 x1=65 x2=1885
+  CORE P7: max content baseline y=2520.1; last 3 content nodes:
+    y=2338.8 x=989 'Not later — now. (p. 5)'
+    y=2480.1 x=93 '下期预告 · Next week (VOL.3)'
+    y=2520.1 x=93 '双11当天11月11日星期三，包裹到了吗？S16淘汰赛打完了，谁进了决赛？总决赛北京时间11月15日凌晨3点。还有你们的来信和第8版最佳作文。下周见！'
+== 4. gloss counts (split on '·' itself) ==
+  content12.py: core [4, 4, 4] edition [4, 4, 4] equal=True
+  content34.py: core [3, 3, 3] edition [3, 3, 3] equal=True
+  content56.py: core [3, 3, 3, 3] edition [3, 3, 3, 3] equal=True
+  totals core=33 edition=33
+  rendered ED: {'p1-touiban': [4], 'p2-shenghuo': [4, 4], 'p3-wenhua': [3, 3], 'p4-tiyu': [3], 'p5-qingnian': [3, 3], 'p6-shendu': [3, 3]}
+  rendered CORE: {'p1-touiban': [4], 'p2-shenghuo': [4, 4], 'p3-wenhua': [3, 3], 'p4-tiyu': [3], 'p5-qingnian': [3, 3], 'p6-shendu': [3, 3]}
+  rendered equal per page: True
+== 5. P7 golden sentences ==
+  「不用等11月11日」 claimed p.1: total raw occurrences=2 per-page={'p1-touiban': 1, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(1810.1, '「不用等11月11日」')]
+  「下单就能发货」 claimed p.2: total raw occurrences=1 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(1960.1, '「下单就能发货」')]
+  「先看结算页，再付款」 claimed p.2: total raw occurrences=2 per-page={'p1-touiban': 0, 'p2-shenghuo': 1, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(2110.1, '「先看结算页，再付款」')]
+  「水开始结冰」 claimed p.3: total raw occurrences=1 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(2260.1, '「水开始结冰」')]
+  「三场都输了」 claimed p.4: total raw occurrences=1 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(1810.1, '「三场都输了」')]
+  「小局一场没赢」 claimed p.4: total raw occurrences=2 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 1, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(1960.1, '「小局一场没赢」')]
+  「故事够不够好」 claimed p.5: total raw occurrences=2 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 1, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(2110.1, '「故事够不够好」')]
+  「别以后，就现在」 claimed p.5: total raw occurrences=1 per-page={'p1-touiban': 0, 'p2-shenghuo': 0, 'p3-wenhua': 0, 'p4-tiyu': 0, 'p5-qingnian': 0, 'p6-shendu': 0, 'p7-ciyu': 1, 'p8-ceyan': 0} P7 nodes=[(2260.1, '「别以后，就现在」')]
+== 6. images ==
+  ED p1-touiban: image elements=1 data payloads=0 md5[:12]=[]
+  ED p2-shenghuo: image elements=1 data payloads=0 md5[:12]=[]
+  ED p3-wenhua: image elements=2 data payloads=0 md5[:12]=[]
+  ED p4-tiyu: image elements=1 data payloads=0 md5[:12]=[]
+  ED p5-qingnian: image elements=1 data payloads=0 md5[:12]=[]
+  ED p6-shendu: image elements=0 data payloads=0 md5[:12]=[]
+  ED p7-ciyu: image elements=0 data payloads=0 md5[:12]=[]
+  ED p8-ceyan: image elements=0 data payloads=0 md5[:12]=[]
+  ED TOTAL images=6
+  CORE p1-touiban: image elements=1 data payloads=0 md5[:12]=[]
+  CORE p2-shenghuo: image elements=1 data payloads=0 md5[:12]=[]
+  CORE p3-wenhua: image elements=2 data payloads=0 md5[:12]=[]
+  CORE p4-tiyu: image elements=1 data payloads=0 md5[:12]=[]
+  CORE p5-qingnian: image elements=1 data payloads=0 md5[:12]=[]
+  CORE p6-shendu: image elements=0 data payloads=0 md5[:12]=[]
+  CORE p7-ciyu: image elements=0 data payloads=0 md5[:12]=[]
+  CORE p8-ceyan: image elements=0 data payloads=0 md5[:12]=[]
+  CORE TOTAL images=6
+  p1-touiban payloads identical ED==CORE: True
+  p2-shenghuo payloads identical ED==CORE: True
+  p3-wenhua payloads identical ED==CORE: True
+  p4-tiyu payloads identical ED==CORE: True
+  p5-qingnian payloads identical ED==CORE: True
+  p6-shendu payloads identical ED==CORE: True
+  p7-ciyu payloads identical ED==CORE: True
+  p8-ceyan payloads identical ED==CORE: True
+  ED credit nodes:
+    p1-touiban: 'Foto: Map hobby — CC0 (Wikimedia Commons)'
+    p2-shenghuo: 'Foto: Paul Gilmore — CC0 (Wikimedia Commons)'
+    p3-wenhua: 'Foto: Gerda Arendt — CC0 (Wikimedia Commons)'
+    p3-wenhua: 'Foto: Syced — CC0 (Wikimedia Commons)'
+    p4-tiyu: 'Foto: Syced — CC0 (Wikimedia Commons)'
+    p5-qingnian: 'Foto: Based5290 — Dominio público (Wikimedia Commons)'
+  CORE credit nodes:
+    p1-touiban: 'Photo: Map hobby — CC0 (Wikimedia Commons)'
+    p2-shenghuo: 'Photo: Paul Gilmore — CC0 (Wikimedia Commons)'
+    p3-wenhua: 'Photo: Gerda Arendt — CC0 (Wikimedia Commons)'
+    p3-wenhua: 'Photo: Syced — CC0 (Wikimedia Commons)'
+    p4-tiyu: 'Photo: Syced — CC0 (Wikimedia Commons)'
+    p5-qingnian: 'Photo: Based5290 — Public domain (Wikimedia Commons)'
+  ED build CREDITS.md sha256=a03a3d26e5e8b624 len=1779
+  CORE build CREDITS.md sha256=a03a3d26e5e8b624 len=1779
+  asset files vs embedded (ED build assets):
+    dumplings.jpg bytes=838923 md5=e8d752779a4a
+    frost.jpg bytes=737803 md5=d0b015bc9da8
+    lanparty.jpg bytes=585682 md5=6b8e90374bf6
+    locker.jpg bytes=567559 md5=420c6150a831
+    popcorn.jpg bytes=775812 md5=a903e35f1eb2
+    valley.jpg bytes=858236 md5=550e463b4ad9
+== 7. readers corner P7 ==
+  ED P7 contains invitation '¡Envíanos tu carta en chino!': True
+  ED P7 contains 'Ejemplo de la redacción, no una carta real': True
+  ED P7 contains 'Aplazado, no cancelado': True
+    y=1268.6 '读者园地 · Rincón de lectores'
+    y=1437.2 'Ejemplo de la redacción, no una carta'
+    y=1607.6 'Aplazado, no cancelado. ¡Envíanos tu'
+  CORE P7 contains invitation '¡Envíanos tu carta en chino!': False
+  CORE P7 contains 'Ejemplo de la redacción, no una carta real': False
+  CORE P7 contains 'Aplazado, no cancelado': False
+    y=1268.6 "读者园地 · Readers' corner"
+  P7 node multiset: ED 157 CORE 154; Chinese-letter nodes shared: 54 (of 154)
+== 8. furniture three-way ==
+  ED p1-touiban footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 1 de 8']
+  ED p8-ceyan footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 8 de 8']
+  ED P1 nodes y 300-440:
+    y=330 x=975 fs=40.0 anchor=middle 'SEMANARIO CHINO SIMPLIFICADO · VOL.2 · 双11 · 立冬 · S16'
+    y=372 x=975 fs=19.0 anchor=middle '给学中文的人的周报 — Lee la China real, en chino'
+    y=434 x=975 fs=19.5 anchor=middle 'TEXTOS EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'
+  ED gloss prefixes seen: ['Nota — b', 'Nota — c', 'Nota — h', 'Nota — j', 'Nota — s', 'Nota — t', 'Nota — x']
+  CORE p1-touiban footer=['Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations'] pageline=['第 1 版 / 共 8 版']
+  CORE p8-ceyan footer=['Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations'] pageline=['第 8 版 / 共 8 版']
+  CORE P1 nodes y 300-440:
+    y=330 x=975 fs=40.0 anchor=middle '简体中文版 · VOL.2 · 双11 · 立冬 · S16'
+    y=372 x=975 fs=19.0 anchor=middle '给学中文的人的周报 — Read the real China, in Chinese'
+    y=434 x=975 fs=19.5 anchor=middle '简体中文正文 · 英语讲解 — Simplified Chinese text · Explanations in English · the edition for English-speaking readers'
+  CORE gloss prefixes seen: ['Notes｜bǔ', 'Notes｜cā', 'Notes｜hu', 'Notes｜hò', 'Notes｜ji', 'Notes｜sh', 'Notes｜tǎ', 'Notes｜xi']
+  W43 p1-touiban footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.1 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 1 de 8']
+  W43 p8-ceyan footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.1 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 8 de 8']
+  W43 P1 nodes y 300-440:
+    y=330 x=975 fs=40.0 anchor=middle 'SEMANARIO CHINO SIMPLIFICADO · VOL.1 · 双11 · 大闸蟹 · 霜降'
+    y=372 x=975 fs=19.0 anchor=middle '给学中文的人的周报 — Lee la China real, en chino'
+    y=434 x=975 fs=19.5 anchor=middle 'TEXTOS EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'
+  W43 gloss prefixes seen: ['Nota — h', 'Nota — j', 'Nota — k', 'Nota — n', 'Nota — q', 'Nota — t', 'Nota — y', 'Nota — z']
+== builder-claim spot checks ==
+  ED glossline needle 'el sábado por la tarde, 7 de noviembre': [('p7-ciyu', 563.44, 'Así, «el sábado por la tarde, 7 de noviembre»')]
+  ED Chinese result nodes: ['se convierte en 11月7日星期六晚上.']
+  CORE glossline needle 'Saturday evening, Nov 7': [('p7-ciyu', 563.44, 'So English «Saturday evening, Nov 7»')]
+  CORE Chinese result nodes: ['becomes 11月7日星期六晚上.']
+  ED content8 lines mentioning 150 (first 5):
+  CORE content8 lines mentioning 150 (first 5):
+  ED P8 printed key-150 nodes: ['150.', '150. ✓ Pregunta abierta — el modelo está en la sección F de esta']
+  ED P8 contains apparatus-as-key '(pregunta abierta': False
+  ED P8 lìdōng notes: ['34. 立冬 — lìdōng — Comienzo del Invierno, 7 de noviembre.', '68. B — La nueva película se estrena en lìdōng, 7 de noviembre.', '74. 立冬 — lìdōng — estreno de la nueva película.', '103. 立冬 — lìdōng — Comienzo del Invierno, 7 de noviembre.']
+  ED p1-touiban English-residue words (len>=3, allowlist applied): ['Breves', 'CHINO', 'China', 'Comienzo', 'Completa', 'EDICI', 'ESPA', 'EXPLICACIONES', 'Ejemplo', 'Esta', 'HISPANOHABLANTES', 'Invierno', 'LECTORES', 'Lee', 'Los', 'Map', 'Nivel', 'Nota', 'PARA', 'Palabra', 'Pek', 'Practica', 'Quiz', 'Redacci', 'SEMANARIO', 'SIMPLIFICADO', 'Semana', 'TEXTO', 'TEXTOS', 'Titular', 'Todas', 'ahora', 'bado', 'bajada', 'cada', 'caja', 'chino', 'cierre', 'cifras', 'com', 'compras', 'conocen', 'cuartos', 'del', 'dependen', 'descuento', 'directa', 'dividen', 'elige', 'empez', 'empieza', 'enviar', 'equipos', 'esta', 'fase', 'gina', 'ginas', 'hobby', 'hora', 'horas', 'instant', 'invierno', 'juegan', 'las', 'lectura', 'lista', 'los', 'ltimo', 'mercanc', 'mpago', 'ndice', 'neo', 'nhu', 'nov', 'noviembre', 'oct', 'para', 'pasa', 'periodo', 'precio', 'primer', 'primera', 'punta', 'que', 'real', 'rel', 'rmino', 'rminos', 'semana', 'semifinal', 'solar', 'solares', 'son', 'stock', 'suiza', 'termina', 'todos', 'una', 'venta', 'ventas', 'ver', 'verdad', 'viene']
+  ED p2-shenghuo English-residue words (len>=3, allowlist applied): ['Antes', 'CHINO', 'Completa', 'Compras', 'Cuatro', 'ESPA', 'EXPLICACIONES', 'Ejemplo', 'Ejercicios', 'Escribe', 'Este', 'Fechas', 'Gilmore', 'Lee', 'Nivel', 'Nota', 'Palabras', 'Paul', 'Recuerda', 'Redacci', 'Relaciona', 'Respuestas', 'SEMANARIO', 'SIMPLIFICADO', 'Sab', 'TEXTO', 'Usa', 'Vida', 'abajo', 'adecuada', 'ahora', 'ahorra', 'almac', 'antes', 'app', 'arroz', 'baja', 'bajada', 'bien', 'cada', 'caja', 'cambios', 'chinas', 'chino', 'cifras', 'clave', 'com', 'comer', 'compradores', 'comprar', 'compras', 'con', 'conoc', 'ctica', 'ctico', 'cuentas', 'del', 'descuento', 'devoluciones', 'dicen', 'directa', 'dos', 'ejemplo', 'elige', 'empanadillas', 'enviar', 'era', 'esta', 'este', 'frase', 'frases', 'gasta', 'gina', 'glutinoso', 'hueco', 'huecos', 'instant', 'invierno', 'las', 'lectura', 'lista', 'los', 'mejor', 'menes', 'mercanc', 'meros', 'mismo', 'muchos', 'neo', 'ngji', 'ngk', 'nhu', 'pagas', 'palabra', 'palabras', 'para', 'parciales', 'pasteles', 'patr', 'precio', 'precios', 'primeros', 'que', 'quieres', 'reales', 'regla', 'rese', 'respuesta', 'sin', 'stock', 'talla', 'tienda', 'toda', 'una', 'usa', 'ver', 'vieja', 'yuanes']
+  ED p3-wenhua English-residue words (len>=3, allowlist applied): ['Arendt', 'CHINO', 'Comienzo', 'Completa', 'Cultura', 'ESPA', 'EXPLICACIONES', 'Ejercicios', 'Escribe', 'Fechas', 'Gerda', 'Hace', 'Invierno', 'Lee', 'Nivel', 'Nota', 'Redacci', 'Relaciona', 'Responde', 'Respuestas', 'SEMANARIO', 'SIMPLIFICADO', 'Syced', 'TEXTO', 'abrigo', 'adecuada', 'cada', 'caliente', 'chino', 'cifras', 'cinco', 'comer', 'comida', 'con', 'cosa', 'del', 'desde', 'donde', 'dos', 'elige', 'entrevistar', 'fechas', 'festivas', 'frases', 'gina', 'hueco', 'huecos', 'informar', 'las', 'lectura', 'lugar', 'mejor', 'meros', 'microestaci', 'oli', 'otra', 'palabra', 'palabras', 'paso', 'que', 'resfriarse', 'respuesta', 'ropa', 'una', 'vives']
+  ED p4-tiyu English-residue words (len>=3, allowlist applied): ['CHINO', 'Calendario', 'Clasificaci', 'Completa', 'Deporte', 'ESPA', 'EXPLICACIONES', 'Ejercicios', 'Fechas', 'Fuente', 'Lee', 'Mundial', 'Nivel', 'Nota', 'Para', 'Pek', 'Redacci', 'Relaciona', 'Respuestas', 'SEMANARIO', 'SIMPLIFICADO', 'Sports', 'Syced', 'TEXTO', 'adecuada', 'adelante', 'aficionados', 'aqu', 'cada', 'calendario', 'clasificados', 'con', 'dar', 'dejar', 'deportivas', 'dos', 'elige', 'eliminados', 'eliminar', 'eliminatorias', 'entre', 'equipos', 'est', 'fase', 'fuera', 'gina', 'gritan', 'hora', 'horas', 'hueco', 'huecos', 'izh', 'las', 'lectura', 'los', 'mejor', 'misma', 'ngxi', 'nicas', 'noche', 'octubre', 'palabra', 'palabras', 'partido', 'partidos', 'pasar', 'por', 'que', 'quedarse', 'regi', 'remontada', 'respuesta', 'seguir', 'suiza', 'una', 'vamos', 'vela', 'ver', 'vuelta']
+  ED p5-qingnian English-residue words (len>=3, allowlist applied): ['Based', 'CHINO', 'Cine', 'Completa', 'Con', 'Dominio', 'ESPA', 'EXPLICACIONES', 'Ejercicios', 'Escribe', 'Fechas', 'Juventud', 'Lee', 'Nivel', 'Nota', 'Palabras', 'Redacci', 'Relaciona', 'Responde', 'Respuestas', 'SEMANARIO', 'SIMPLIFICADO', 'TEXTO', 'Ver', 'actores', 'adecuada', 'blico', 'cada', 'chino', 'cifras', 'cine', 'cines', 'clave', 'con', 'cremaci', 'cula', 'digital', 'digitales', 'dos', 'elige', 'estreno', 'fechas', 'frases', 'gina', 'hecha', 'hueco', 'huecos', 'invierno', 'las', 'lectura', 'mejor', 'mutuamente', 'ngxi', 'ngy', 'otro', 'palabra', 'palabras', 'pel', 'personaje', 'personajes', 'qui', 'reales', 'redenci', 'respuesta', 'salvarse', 'sin', 'solo', 'taquilla', 'tarde', 'una', 'ver']
+  ED p6-shendu English-residue words (len>=3, allowlist applied): ['CHINO', 'Calcula', 'Cestas', 'Completa', 'Cuentas', 'ESPA', 'EXPLICACIONES', 'Ejercicios', 'Escribe', 'Las', 'Lectura', 'Lee', 'Nivel', 'Nota', 'Por', 'Puntos', 'Redacci', 'Relaciona', 'Respuestas', 'SEMANARIO', 'SIMPLIFICADO', 'Solo', 'TEXTO', 'Tres', 'adecuada', 'afirmaci', 'alguien', 'antes', 'anuncio', 'arriba', 'art', 'barras', 'cada', 'caja', 'cambios', 'cestas', 'chino', 'cifras', 'clave', 'comprar', 'compruebas', 'con', 'coste', 'ctica', 'cuenta', 'cuentas', 'culo', 'datos', 'devoluciones', 'dice', 'dos', 'elige', 'env', 'est', 'fondo', 'frases', 'gina', 'hueco', 'huecos', 'las', 'lectura', 'medidas', 'mejor', 'ngg', 'nhu', 'pagar', 'palabra', 'palabras', 'parten', 'precios', 'preguntas', 'que', 'reales', 'reglas', 'respuesta', 'shu', 'simplificaron', 'tienda', 'una', 'yuan']
+  ED p7-ciyu English-residue words (len>=3, allowlist applied): ['Ante', 'Aplazado', 'CHINO', 'Comienzo', 'Completa', 'Compras', 'Cuando', 'Dos', 'ESPA', 'EXPLICACIONES', 'Ejemplo', 'Ejemplos', 'Enfoque', 'Env', 'Escribe', 'Frases', 'Invierno', 'Las', 'Leer', 'Los', 'Marco', 'Orden', 'Palabras', 'Pero', 'Primero', 'Pru', 'Revisa', 'Rinc', 'SEMANARIO', 'SIMPLIFICADO', 'Sabes', 'TEXTO', 'Tiempo', 'Tres', 'Una', 'abrigo', 'acci', 'acciones', 'afirmaci', 'afirmaciones', 'agua', 'ahora', 'alba', 'anos', 'antes', 'anuncio', 'anuncios', 'aqu', 'art', 'bado', 'bajada', 'balo', 'bastante', 'bien', 'buena', 'bufanda', 'cada', 'caja', 'calendario', 'cancelado', 'carta', 'cartas', 'cestas', 'chino', 'cifra', 'clasificador', 'clasificadores', 'comer', 'compras', 'compres', 'convierte', 'corto', 'ctica', 'cuesta', 'cula', 'culos', 'dato', 'datos', 'del', 'descuento', 'despu', 'directa', 'distinguirlas', 'dos', 'ejemplo', 'empieza', 'env', 'errores', 'escrita', 'esperar', 'est', 'esta', 'este', 'fecha', 'fechas', 'final', 'frase', 'frases', 'fuera', 'ganado', 'gina', 'grado', 'hay', 'helarse', 'historia', 'hora', 'horas', 'importando', 'incluye', 'invierno', 'juego', 'justo', 'las', 'lectores', 'ling', 'llegado', 'lleva', 'los', 'luego', 'madrugada', 'mar', 'marca', 'marco', 'mayor', 'medianoche', 'mejor', 'menor', 'mero', 'mes', 'mira', 'modo', 'muestra', 'nada', 'nde', 'ngch', 'ngw', 'nhu', 'nica', 'ning', 'ninguna', 'niveles', 'noticias', 'nov', 'noviembre', 'nto', 'orden', 'oscurezca', 'paga', 'pagas', 'palabras', 'para', 'parte', 'pel', 'peque', 'perdidas', 'pide', 'pides', 'por', 'practicar', 'precio', 'pregunta', 'primero', 'prometi', 'publicable', 'publicando', 'publicaremos', 'que', 'qui', 'rato', 'real', 'reales', 'realmente', 'redacci', 'rese', 'rinc', 'ropa', 'semana', 'separa', 'series', 'sigue', 'siguen', 'sobra', 'sobre', 'solo', 'son', 'stico', 'stock', 'sustantivo', 'tarde', 'temas', 'ter', 'texto', 'textuales', 'tipos', 'tres', 'una', 'unidad', 'verbo', 'viene']
+  ED p8-ceyan English-residue words (len>=3, allowlist applied): ['Allen', 'CHINO', 'Claves', 'Comienzo', 'Completa', 'Compr', 'Con', 'Despu', 'ESPA', 'EXPLICACIONES', 'Escritura', 'Este', 'Hong', 'Huang', 'Invierno', 'Las', 'Lee', 'Llam', 'Los', 'Orden', 'Pek', 'Periodista', 'Pregunta', 'Primera', 'Primero', 'Respuesta', 'SEMANARIO', 'SIMPLIFICADO', 'Sigue', 'TEXTO', 'Test', 'Texas', 'Todas', 'Tres', 'Ventas', 'Verdadero', 'Xiao', 'Yan', 'abierta', 'abuela', 'acoge', 'actores', 'aficionados', 'afirmaci', 'afirmaciones', 'agua', 'algunas', 'algunos', 'ana', 'ante', 'antes', 'anticipo', 'anuncio', 'arroz', 'ayuda', 'bado', 'baja', 'bajada', 'bajan', 'bajo', 'bien', 'bolas', 'bufanda', 'cada', 'cae', 'caen', 'caja', 'caracteres', 'casa', 'cesta', 'cifras', 'clasificador', 'clasifican', 'claves', 'com', 'comen', 'comer', 'compras', 'comprobar', 'comprobarlo', 'comprueba', 'con', 'contra', 'conversaci', 'correcta', 'coste', 'crematorio', 'cuartos', 'cuesta', 'cula', 'dato', 'datos', 'del', 'descuenta', 'descuento', 'desde', 'digital', 'digitales', 'directa', 'directamente', 'domingo', 'dos', 'duelo', 'dura', 'duran', 'ejemplo', 'eliminatorias', 'empanadillas', 'empez', 'empieza', 'empiezan', 'enfr', 'entre', 'entrevista', 'env', 'enviar', 'equipo', 'equipos', 'escribe', 'escritura', 'escuelas', 'espa', 'espectadores', 'esperar', 'est', 'esta', 'estren', 'estrena', 'estreno', 'evento', 'fais', 'falso', 'familias', 'fase', 'final', 'gan', 'genes', 'gente', 'gina', 'glutinoso', 'gran', 'gritan', 'hasta', 'hay', 'helarse', 'historia', 'hizo', 'hora', 'horas', 'incluido', 'invierno', 'izh', 'juega', 'las', 'lista', 'llamada', 'lleva', 'los', 'luego', 'lugares', 'madre', 'mayor', 'mayores', 'media', 'medianoche', 'medidas', 'medido', 'mediod', 'menes', 'menor', 'menos', 'mercanc', 'microestaci', 'millones', 'minutos', 'misma', 'mismo', 'modelo', 'momento', 'mostraba', 'mucho', 'muchos', 'muestra', 'mujeres', 'mutuamente', 'nea', 'ngch', 'ngg', 'ngyu', 'nhu', 'nica', 'ninguna', 'norte', 'nota', 'notas', 'noticias', 'nov', 'noviembre', 'nueva', 'octubre', 'paga', 'pagas', 'para', 'parciales', 'partido', 'pel', 'perdi', 'periodista', 'personaje', 'personajes', 'pierde', 'por', 'precio', 'precios', 'preventa', 'preventas', 'primer', 'primeras', 'primero', 'principios', 'productos', 'publicidad', 'que', 'real', 'reales', 'realmente', 'rebaja', 'regi', 'remont', 'rese', 'responde', 'respuesta', 'rmino', 'rminos', 'ropa', 'salvan', 'salvarse', 'secci', 'semana', 'serie', 'series', 'sesi', 'shu', 'significa', 'sin', 'solar', 'solares', 'son', 'stock', 'suiza', 'sur', 'sus', 'taquilla', 'tarde', 'tarea', 'ter', 'termina', 'test', 'tiempo', 'tienda', 'tiene', 'tierra', 'titular', 'todas', 'total', 'trabaja', 'trabajador', 'trabajadora', 'tras', 'tres', 'una', 'unos', 'venci', 'ventas', 'victorias', 'vieja', 'vive', 'yuanes']
+  ED all-caps PÁGINA scan done (no lines above = none)

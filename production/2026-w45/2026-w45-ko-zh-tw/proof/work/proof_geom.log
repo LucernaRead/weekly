@@ -1,0 +1,192 @@
+{
+ "advance": {
+  "p1-pyoji": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "2026년 11월 2일(월) ~ 8일(일)",
+   "over_1885": 0
+  },
+  "p2-saenghwal": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "수능까지 남은 날로 날짜를 세는 네 가지 말 · 用高考倒數計時數日子的四個說法",
+   "over_1885": 0
+  },
+  "p3-munhwa": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "答案見第 8 版 · 題目可跨級混排，按題號找答案",
+   "over_1885": 0
+  },
+  "p4-seupocheu": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "答案見第 8 版 · 題目可跨級混排，按題號找答案",
+   "over_1885": 0
+  },
+  "p5-cheongnyeon": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "答案見第 8 版 · 題目可跨級混排，按題號找答案",
+   "over_1885": 0
+  },
+  "p6-gipi": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "答案見第 8 版 · 題目可跨級混排，按題號找答案",
+   "over_1885": 0
+  },
+  "p7-mal": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "第 7 版 / 共 8 版",
+   "over_1885": 0
+  },
+  "p8-siheom": {
+   "worst_advance_end": 1885.0,
+   "worst_text": "每題附一句中文簡析 · 帶 ✓ 的為範本題",
+   "over_1885": 0
+  }
+ },
+ "same_baseline_pairs_gap_lt_2": {
+  "p1-pyoji": [],
+  "p2-saenghwal": [],
+  "p3-munhwa": [],
+  "p4-seupocheu": [],
+  "p5-cheongnyeon": [],
+  "p6-gipi": [],
+  "p7-mal": [],
+  "p8-siheom": []
+ },
+ "footer_intrusion": {
+  "p1-pyoji": [],
+  "p2-saenghwal": [],
+  "p3-munhwa": [],
+  "p4-seupocheu": [],
+  "p5-cheongnyeon": [],
+  "p6-gipi": [],
+  "p7-mal": [],
+  "p8-siheom": []
+ },
+ "p6_coverage": {
+  "LS": {
+   "worst_pct": 0.0,
+   "worst_text": null,
+   "n_labels": 167
+  },
+  "DEF": {
+   "worst_pct": 54.55,
+   "worst_text": "날짜 세기",
+   "n_labels": 167
+  }
+ },
+ "p7_readers_rects": [
+  {
+   "x": 1451.0,
+   "y": 1230.44,
+   "w": 434.0,
+   "h": 577.5,
+   "fill": "#fdfaf0",
+   "stroke": "#d8cfb4"
+  }
+ ],
+ "p7_readers": {
+  "LS": {
+   "box_bottom": 1807.94,
+   "last_ink": 1795.13,
+   "last_text": "版作文寄給我們！",
+   "air": 12.81
+  },
+  "DEF": {
+   "box_bottom": 1807.94,
+   "last_ink": 1819.13,
+   "last_text": "版作文寄給我們！",
+   "air": -11.19
+  }
+ },
+ "p7_lines": [
+  {
+   "x1": 65.0,
+   "y1": 1837.94,
+   "x2": 1885.0,
+   "y2": 1837.94,
+   "sw": 2.0
+  }
+ ],
+ "p7_inside_last_baseline": 1793.1299999999999,
+ "p7_rect_bottoms": [
+  2461.94,
+  2660.0,
+  2672.0,
+  2700.0
+ ],
+ "p7_teaser_texts": [
+  [
+   2387.94,
+   "다음 주 · 下期預告 (VOL.3)"
+  ],
+  [
+   2427.94,
+   "다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험이 가까워져요. 플레이오프와 한국시리즈 소식도 전해요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!"
+  ]
+ ],
+ "p8_keys_x_clusters": [
+  65.0,
+  527.0,
+  989.0,
+  1451.0
+ ],
+ "p8": {
+  "max_baseline": 2514.92,
+  "max_baseline_text": [
+   "38. 사과 — 青松以蘋果聞名",
+   "115. A — 韓史考試在11月28日週六"
+  ],
+  "last_col_x": 1451.0,
+  "last_col_last_baseline": 2335.05,
+  "last_col_last_text": [
+   "150. ✓ 範本見本版 H 區（157 字）"
+  ],
+  "max_ink_LS": 2517.92,
+  "max_ink_LS_text": "38. 사과 — 青松以蘋果聞名",
+  "last_col_ink_LS": 2337.05,
+  "last_col_ink_LS_text": "150. ✓ 範本見本版 H 區（157 字）",
+  "max_ink_LS4": 2516.67,
+  "max_ink_LS4_text": "38. 사과 — 青松以蘋果聞名",
+  "last_col_ink_LS4": 2336.3,
+  "last_col_ink_LS4_text": "150. ✓ 範本見本版 H 區（157 字）",
+  "max_ink_DEF": 2532.92,
+  "max_ink_DEF_text": "38. 사과 — 青松以蘋果聞名",
+  "last_col_ink_DEF": 2352.05,
+  "last_col_ink_DEF_text": "150. ✓ 範本見本版 H 區（157 字）"
+ },
+ "captions": {
+  "p3-munhwa": [
+   [
+    1451.0,
+    436.65,
+    15.5,
+    "사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료"
+   ],
+   [
+    1451.0,
+    456.8,
+    15.5,
+    "사진"
+   ],
+   [
+    1451.0,
+    1152.25,
+    15.5,
+    "그림: Paul Cézanne — Public domain (Wikimedia"
+   ]
+  ],
+  "p2-saenghwal": [
+   [
+    1451.0,
+    479.65,
+    19.0,
+    "사진이 아니에요."
+   ],
+   [
+    1451.0,
+    507.3,
+    15.5,
+    "사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진"
+   ]
+  ]
+ }
+}

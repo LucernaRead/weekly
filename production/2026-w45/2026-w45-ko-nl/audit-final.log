@@ -1,0 +1,78 @@
+=== 1. ADVANCE right-edge scan (limit 1910) ===
+worst advance right: 1885.0 flags: 0
+=== 2. Frame-line scan (text ink vs rect borders / lines; footer rule y=2580 exempt) ===
+frame flags: 0
+=== 3. Same-baseline ink overlap (0.6px tolerance) ===
+same-baseline flags: 0
+=== 4. P6 chart-label coverage (true ink vs later rects, gate <30%) ===
+labels with coverage>0: 0 worst: 0.0
+=== 5. Rendered-line window scan (dy 10-45, same x) ===
+line-start NO_START flags: 4
+  FLAG ('p5-cheongnyeon.svg', 65.0, 716.0, 754.0, "'수험생을 응원해요. 시험장 앞에서는'", '"\'힘내세요!\', \'떨지 마세요!\', "')
+  FLAG ('p7-mal.svg', 65.0, 336.9, 369.5, "' 겨울 내내 먹는 김치를 담그는 일을'", '"\'김장\'이라고 해요."')
+  FLAG ('p7-mal.svg', 527.0, 271.5, 304.2, "'한국에서는 중요한 날까지 남은 날짜를'", '"\'D-17\'처럼 써요. 오늘이 11월"')
+  FLAG ('p7-mal.svg', 1473.0, 1086.5, 1117.0, "'말할 때 쓰는 틀이에요. 물어볼 때는'", '"\'〜부터 〜까지예요?\'라고 해요."')
+=== 6. P8 three calibers ===
+flow cursor=2516.0 max baseline=2530.48 ink bottom=2533.98 (limit 2540)
+=== 7. P7 letters-box geometry ===
+  last letters text baseline=1849.93 ink bottom=1854.68 text='je brief en je beste tekst van blz. 8 op!'
+  all letters baselines: [1380.5, 1411.0, 1441.6, 1502.1, 1530.5, 1589.9, 1619.0, 1648.1, 1677.2, 1736.3, 1764.7, 1793.1, 1821.5, 1849.9]
+  phrases rule line y=1895.94
+  teaser rect y=2401.94 bottom=2519.94
+=== 8. Gloss calibers ===
+  call-string core content12.py: 24
+  call-string core content34.py: 25
+  call-string core content56.py: 28
+  call-string core content7.py: 6
+  call-string core content8.py: 0
+  call-string core TOTAL: 83
+  call-string edition content12.py: 24
+  call-string edition content34.py: 25
+  call-string edition content56.py: 28
+  call-string edition content7.py: 6
+  call-string edition content8.py: 0
+  call-string edition TOTAL: 83
+  rendered caliber (sans 20.5 grey texts, units split on '·'):
+  p1-pyoji.svg: core units=1 items=5 | edition units=1 items=5
+  p2-saenghwal.svg: core units=8 items=19 | edition units=8 items=19
+  p3-munhwa.svg: core units=7 items=16 | edition units=7 items=16
+  p4-seupocheu.svg: core units=6 items=10 | edition units=6 items=10
+  p5-cheongnyeon.svg: core units=8 items=16 | edition units=8 items=16
+  p6-gipi.svg: core units=7 items=12 | edition units=7 items=12
+  p7-mal.svg: core units=3 items=6 | edition units=3 items=6
+  p8-siheom.svg: core units=1 items=1 | edition units=1 items=1
+=== 9. Phrase frequencies (space-stripped, whole issue) ===
+  11월 7일은 입동이에요... tag 1면: core=5 edition=5
+  절정에 가까운 주말이라고만 말할 수 있어... tag 1면: core=2 edition=2
+  김장은 겨울 내내 먹는 김치를 담그는 일... tag 1면: core=4 edition=4
+  수능까지 17일 남았어요. 오늘이 D-1... tag 2면: core=2 edition=2
+  낮은 길은 더 늦게 물들어요... tag 3면: core=2 edition=2
+  KIA 타이거즈가 LG 트윈스를 3연승으... tag 4면: core=2 edition=2
+  온 나라가 수험생을 응원해요... tag 5면: core=2 edition=2
+  날짜를 먼저 보세요... tag 6면: core=2 edition=2
+=== 10. Image payloads + credits ===
+  p1-pyoji.svg: core=[('535fff46b7ce', '6f7f33ed8f40')] edition=[('535fff46b7ce', '6f7f33ed8f40')] equal=True
+  p2-saenghwal.svg: core=[('e66d2b455ec6', '96a6a19b612a')] edition=[('e66d2b455ec6', '96a6a19b612a')] equal=True
+  p3-munhwa.svg: core=[('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] edition=[('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] equal=True
+  p4-seupocheu.svg: core=[('1a7e7d6d5ffc', '18ad8ae06fac')] edition=[('1a7e7d6d5ffc', '18ad8ae06fac')] equal=True
+  p5-cheongnyeon.svg: core=[('6a1bab177d54', '35e7dc69d417')] edition=[('6a1bab177d54', '35e7dc69d417')] equal=True
+  p6-gipi.svg: core=[] edition=[] equal=True
+  p7-mal.svg: core=[] edition=[] equal=True
+  p8-siheom.svg: core=[] edition=[] equal=True
+  p1-pyoji.svg ['사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진']
+  p2-saenghwal.svg ['사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진']
+  p3-munhwa.svg ['사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진', '그림: Paul Cézanne — Public domain (Wikimedia']
+  p4-seupocheu.svg ['사진: Bain News Service — Public domain (Wikimedia']
+  p5-cheongnyeon.svg ['사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진']
+=== 11. Web PDF vs cards ===
+  web PDF pages: 8 size: 3547923
+  print PDF pages: 8 size: 32552178
+  web p1: (1400, 1938) mean|diff| per channel = [2.42, 1.57, 3.91]
+  web p2: (1400, 1938) mean|diff| per channel = [2.3, 1.51, 3.85]
+  web p3: (1400, 1938) mean|diff| per channel = [2.33, 1.48, 3.84]
+  web p4: (1400, 1938) mean|diff| per channel = [1.99, 1.28, 3.44]
+  web p5: (1400, 1938) mean|diff| per channel = [2.19, 1.37, 3.68]
+  web p6: (1400, 1938) mean|diff| per channel = [2.01, 1.29, 3.43]
+  web p7: (1400, 1938) mean|diff| per channel = [1.78, 1.18, 3.21]
+  web p8: (1400, 1938) mean|diff| per channel = [2.54, 1.6, 4.1]
+AUDIT DONE

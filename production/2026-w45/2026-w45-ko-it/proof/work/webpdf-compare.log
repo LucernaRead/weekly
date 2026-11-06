@@ -1,0 +1,10 @@
+Method: pdftoppm -png -r 72 web PDF (1400x1938 pts -> 1400x1938 px) vs card PNGs resized to 1400x1938 (LANCZOS); PIL ImageChops difference, L-channel stats; blank-area = card pixels within 15 of paper (247,241,226) at 350x485; 8x8 block means on 700x969 diff.
+p1-pyoji: meanAbs 6.82, >30frac 6.90%, blankMean 1.37, blank>30 0.06%, blockMin 0.39, blockMax 17.15
+p2-saenghwal: meanAbs 6.50, >30frac 6.90%, blankMean 1.33, blank>30 0.05%, blockMin 2.04, blockMax 14.78
+p3-munhwa: meanAbs 6.22, >30frac 6.60%, blankMean 1.13, blank>30 0.03%, blockMin 0.00, blockMax 12.90
+p4-seupocheu: meanAbs 5.41, >30frac 5.79%, blankMean 0.99, blank>30 0.05%, blockMin 0.00, blockMax 12.44
+p5-cheongnyeon: meanAbs 5.81, >30frac 6.20%, blankMean 0.98, blank>30 0.02%, blockMin 0.00, blockMax 13.19
+p6-gipi: meanAbs 5.40, >30frac 5.79%, blankMean 1.05, blank>30 0.02%, blockMin 0.00, blockMax 12.03
+p7-mal: meanAbs 5.40, >30frac 5.46%, blankMean 1.04, blank>30 0.05%, blockMin 0.00, blockMax 16.59
+p8-siheom: meanAbs 6.42, >30frac 7.15%, blankMean 1.43, blank>30 0.01%, blockMin 0.00, blockMax 16.69
+Verdict: uniform JPEG-q85 + resampling noise, no outlier page, no noise page.

@@ -1,0 +1,24 @@
+== 1. ADVANCE right-edge scan (inner frame 1910, page 1950) ==
+  advance edge flags: 0
+== 2. Frame-line scan (ink vs rect borders + lines) ==
+  frame-line flags: 0
+== 3. Same-baseline scan (ink overlap, tolerance 0.6px) ==
+  same-baseline flags: 0
+== 4. P6 table-label coverage (later rects, true ink) ==
+  P6 label y=1303.0 cov=0.0% '구분'
+  P6 label y=1303.0 cov=0.0% '이번 주 (11월 2~8일)'
+  P6 label y=1303.0 cov=0.0% '시험 날 (11월 19일)'
+  P6 label y=1355.0 cov=0.0% '날짜 세기'
+  P6 label y=1355.0 cov=0.0% 'D-17 ~ D-12'
+  P6 label y=1355.0 cov=0.0% 'D-데이'
+  P6 label y=1407.0 cov=0.0% '분위기'
+  P6 label y=1407.0 cov=0.0% '카운트다운'
+  P6 label y=1407.0 cov=0.0% '시험 당일'
+  P6 label y=1459.0 cov=0.0% '특별 조치'
+  P6 label y=1459.0 cov=0.0% '없어요 (평상시)'
+  P6 label y=1459.0 cov=0.0% '있어요 (10시 출근 등)'
+  P6 worst label coverage: 0.0% (gate <30%)
+== 5. Korean orphan scan (wrap-spy) ==
+  line-start NO_START flags (Korean lines): 0
+  mid-word splits tail>=3 syllables: 0
+  mid-word splits tail 1-2 syllables (info): 0

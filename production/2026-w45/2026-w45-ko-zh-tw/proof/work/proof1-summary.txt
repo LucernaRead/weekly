@@ -1,0 +1,31 @@
+FREEZE added CJK total=949 per-page={'p1-pyoji': 75, 'p2-saenghwal': 74, 'p3-munhwa': 63, 'p4-seupocheu': 51, 'p5-cheongnyeon': 57, 'p6-gipi': 41, 'p7-mal': 88, 'p8-siheom': 500}
+FREEZE CJK totals core->ed: {'p1-pyoji': (1462, 1492), 'p2-saenghwal': (1612, 1623), 'p3-munhwa': (1524, 1534), 'p4-seupocheu': (1232, 1242), 'p5-cheongnyeon': (1433, 1444), 'p6-gipi': (1276, 1287), 'p7-mal': (1365, 1391), 'p8-siheom': (2496, 2507)}
+SKELETON equal: {'p1-pyoji': True, 'p2-saenghwal': True, 'p3-munhwa': True, 'p4-seupocheu': True, 'p5-cheongnyeon': True, 'p6-gipi': True, 'p7-mal': True, 'p8-siheom': True}
+HANGUL only_core: {'p1-pyoji': {'제': 1, '면': 2, '총': 1}, 'p2-saenghwal': {'제': 1, '면': 2, '총': 1}, 'p3-munhwa': {'제': 1, '면': 2, '총': 1}, 'p4-seupocheu': {'제': 1, '면': 2, '총': 1}, 'p5-cheongnyeon': {'제': 1, '면': 2, '총': 1}, 'p6-gipi': {'제': 1, '면': 2, '총': 1}, 'p7-mal': {'면': 2, '제': 1, '총': 1}, 'p8-siheom': {'제': 9, '면': 10, '총': 1}}
+HANGUL only_ed: {'p1-pyoji': {}, 'p2-saenghwal': {}, 'p3-munhwa': {}, 'p4-seupocheu': {}, 'p5-cheongnyeon': {}, 'p6-gipi': {}, 'p7-mal': {}, 'p8-siheom': {}}
+P8: {"core_noted": 150, "ed_noted": 150, "numbers_ok": true, "keydiff": [138], "full_line_diff": [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 66, 67, 68, 70, 71, 72, 73, 76, 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 99, 100, 101, 102, 103, 104, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 122, 123, 124, 125, 126, 127, 129, 130, 131, 132, 133, 134, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]}
+P8 #109 core='기준 — 日期不同因标准不同（3版）' ed='기준 — 日期不同因標準不同（3版）'
+P8 #137 core='11月7日是立冬。 — 对照第 1 版' ed='11月7日是立冬。 — 對照第 1 版'
+P8 #138 core='离高考还剩 12 天。 — 对照第 5 版' ed='離高考還剩 12 天。 — 對照第 5 版'
+P8 #139 core='특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版' ed='특별 조치는 11월 19일에만 적용돼요. — 對照第 6 版'
+P8 #140 core='저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版' ed='저는 토요일에 내장산에 단풍을 보러 가요. — 對照第 3 版'
+P8 #150 core='✓ 范文见本版 H 区（157 字）' ed='✓ 範本見本版 H 區（157 字）'
+P8 notes_with_hangul: {"25": "김장=醃過冬泡菜 a", "26": "월동 준비=準備過冬 c", "27": "산불조심=進山小心火 d", "28": "한능검=韓國史考試簡稱 b", "34": "紅葉最美的時候叫절정", "43": "내장산=兩個預報之間 b", "44": "월출산=11月9日前夕 a", "45": "북한산=11月4日之後、低路更晚 d", "46": "설악산=實際觀測10月16日 c", "57": "이기다的過去式이겼어요", "58": "열리다的過去式열렸어요", "59": "미뤄지다的過去式미뤄졌어요", "60": "바뀌다的過去式바뀌었어요", "61": "준플레이오프=KIA三連勝 b", "62": "플레이오프=KIA對三星 d", "63": "한국시리즈=kt在等候 a", "64": "온대저기압=颱風10月26日變化 c", "135": "보러 가요 = 去看", "136": "動作場所用「에서」", "141": "입동=冬季開始的節氣 a", "142": "절정=最佳時期 b", "143": "김장=醃過冬泡菜 c", "144": "온대저기압=颱風10月26日變化 d"}
+GLOSS boxes core/ed segs: {'p1-pyoji': (5, 5), 'p2-saenghwal': (16, 16), 'p3-munhwa': (13, 13), 'p4-seupocheu': (7, 7), 'p5-cheongnyeon': (12, 12), 'p6-gipi': (8, 8), 'p7-mal': (0, 0), 'p8-siheom': (0, 0)}
+GLOSS heads_equal: {'p1-pyoji': True, 'p2-saenghwal': True, 'p3-munhwa': True, 'p4-seupocheu': True, 'p5-cheongnyeon': True, 'p6-gipi': True, 'p7-mal': True, 'p8-siheom': True}
+GLOSS firstline segs core/ed: {'p1-pyoji': (2, 2), 'p2-saenghwal': (15, 15), 'p3-munhwa': (13, 13), 'p4-seupocheu': (6, 6), 'p5-cheongnyeon': (12, 11), 'p6-gipi': (8, 8), 'p7-mal': (0, 0), 'p8-siheom': (0, 0)}
+GLOSS callstring core={'content12.py': 24, 'content34.py': 26, 'content56.py': 28, 'content7.py': 6, 'content8.py': 0} ed={'content12.py': 24, 'content34.py': 26, 'content56.py': 28, 'content7.py': 6, 'content8.py': 0} totals 84/84
+GOLDEN tag=1 core_ins=5 ed_ins=5 core_sens=5 ed_sens=5 tagged=3 :: 11월 7일은 입동이에요
+GOLDEN tag=1 core_ins=2 ed_ins=2 core_sens=1 ed_sens=1 tagged=1 :: 절정에 가까운 주말이라고만 말할 수 있어요
+GOLDEN tag=1 core_ins=4 ed_ins=4 core_sens=1 ed_sens=1 tagged=1 :: 김장은 겨울 내내 먹는 김치를 담그는 일이에요
+GOLDEN tag=2 core_ins=2 ed_ins=2 core_sens=2 ed_sens=2 tagged=1 :: 수능까지 17일 남았어요. 오늘이 D-17예요
+GOLDEN tag=3 core_ins=2 ed_ins=2 core_sens=2 ed_sens=2 tagged=1 :: 낮은 길은 더 늦게 물들어요
+GOLDEN tag=4 core_ins=2 ed_ins=2 core_sens=1 ed_sens=1 tagged=1 :: KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요
+GOLDEN tag=5 core_ins=2 ed_ins=2 core_sens=1 ed_sens=1 tagged=1 :: 온 나라가 수험생을 응원해요
+GOLDEN tag=6 core_ins=2 ed_ins=2 core_sens=1 ed_sens=1 tagged=1 :: 날짜를 먼저 보세요
+READERS: {"editor_example": true, "no_real_letters": true, "no_best_p8": true, "deferred_vol3": true, "solicitation": true, "solicitation_without_bang": true}
+IMAGES: {'p1-pyoji': (1, 1, True), 'p2-saenghwal': (1, 1, True), 'p3-munhwa': (2, 2, True), 'p4-seupocheu': (1, 1, True), 'p5-cheongnyeon': (1, 1, True), 'p6-gipi': (0, 0, True), 'p7-mal': (0, 0, True), 'p8-siheom': (0, 0, True)}
+QUOTES: {"p1-pyoji": {"open": 1, "close": 1, "ascii_dquote": 0}, "p2-saenghwal": {"open": 1, "close": 1, "ascii_dquote": 0}, "p3-munhwa": {"open": 0, "close": 0, "ascii_dquote": 0}, "p4-seupocheu": {"open": 0, "close": 0, "ascii_dquote": 0}, "p5-cheongnyeon": {"open": 0, "close": 0, "ascii_dquote": 0}, "p6-gipi": {"open": 0, "close": 0, "ascii_dquote": 0}, "p7-mal": {"open": 20, "close": 20, "ascii_dquote": 0}, "p8-siheom": {"open": 2, "close": 2, "ascii_dquote": 0}}
+HAN counts ed/w43/core: {'edition': 439, 'w43': 454, 'core': 439} edition_only_vs_w43 n=146
+MODEL core chars=2920 ed chars=2923 equal_block=False
+DIGIT only_core={} only_ed={'8': 2, '1': 1}

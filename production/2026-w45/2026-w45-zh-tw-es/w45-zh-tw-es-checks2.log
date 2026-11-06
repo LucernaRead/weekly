@@ -1,0 +1,55 @@
+== 1. gloss counts (split on ·) ==
+  P1 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P2 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P3 core [1, 1, 1] (sum 3)  edition [1, 1, 1] (sum 3)  OK
+  P4 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P5 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P6 core [1] (sum 1)  edition [1] (sum 1)  OK
+  TOTAL core 12 edition 12
+== 2. same-baseline ink-collision scan ==
+  same-baseline flags: 0
+== 3. chart-label element check (P4/P6: text ink vs later rects) ==
+  p4-sport: 0 text-vs-later-rect overlaps
+  p6-deep: 0 text-vs-later-rect overlaps
+== 4. residual Latin runs in edition SVGs ==
+  p1-front (1 Latin-bearing nodes):
+    Página 6 de 8
+  p2-life (1 Latin-bearing nodes):
+    Página 6 de 8
+  p3-culture (1 Latin-bearing nodes):
+    Página 6 de 8
+  p4-sport (1 Latin-bearing nodes):
+    Página 6 de 8
+  p5-youth (1 Latin-bearing nodes):
+    Página 6 de 8
+  p6-deep (1 Latin-bearing nodes):
+    Página 6 de 8
+  p7-lang (1 Latin-bearing nodes):
+    Página 6 de 8
+  p8-test (1 Latin-bearing nodes):
+    Página 6 de 8
+== 5. Traditional-independence cross-check ==
+  union chars: 1024, edition chars: 766, outside union: 0
+  s2t: opencc not installed, skipped
+== 6. P7 phrases ==
+  p. 1 count=1 FAIL 「用手機轉帳、掃碼付款、網上買保險，都是金融科技」-> Pagar con el móvil, escanear para pagar, comprar un seguro en línea: eso es la tecnología financiera.
+  p. 1 count=1 FAIL 「123個國家及城市、1,600個攤位」-> 123 países y ciudades, 1.600 casetas.
+  p. 2 count=1 FAIL 「需要才買，不要為了折扣買一堆用不到的東西」-> Compra lo que necesites; no compres un montón de cosas que no usarás solo por un descuento.
+  p. 3 count=1 FAIL 「在高雄，鋼鐵也能變成舞台」-> En Kaohsiung, hasta el acero puede convertirse en escenario.
+  p. 3 count=1 FAIL 「福隆的夏天，在10月26日畫下句點」-> El verano de Fulong llegó a su fin el 26 de octubre.
+  p. 4 count=1 FAIL 「6比0完封兄弟，龍隊拋下紅色彩帶」-> Un 6-0 sin carreras en contra ante los Brothers, y los Dragons lanzaron las cintas rojas.
+  p. 5 count=1 FAIL 「250家店家一起討糖」-> 250 tiendas repartiendo dulces juntas.
+  p. 6 count=1 FAIL 「旅展首日中午12點才開門」-> El primer día de la feria las puertas abren solo al mediodía.
+== 7. image payloads ==
+  p1-front: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Wilfredor — CC0 (Wikimedia Commons)']
+  p2-life: core 1 edition 1 identical=True
+    credits identical=True ['Photo: CorraleH — CC0 (Wikimedia Commons)']
+  p3-culture: core 0 edition 0 identical=True
+  p4-sport: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Bain News Service — Public domain (Wikimedia']
+  p5-youth: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Benjamin Balazs — CC0 (Wikimedia Commons)']
+  p6-deep: core 0 edition 0 identical=True
+  p7-lang: core 0 edition 0 identical=True
+  p8-test: core 0 edition 0 identical=True

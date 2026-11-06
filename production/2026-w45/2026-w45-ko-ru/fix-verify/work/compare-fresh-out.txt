@@ -1,0 +1,28 @@
+== bslib4.py: fresh=27c258f2d96b delivered=27c258f2d96b raw-identical=True len fresh=11130 delivered=11130
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+== content12.py: fresh=aa76a3cecc7c delivered=58700eb83442 raw-identical=False len fresh=24730 delivered=24728
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+   OUT line [fresh]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg")
+   OUT line [delivered]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ru/svg")
+== content34.py: fresh=b9fd0ef4c24d delivered=e20a79416240 raw-identical=False len fresh=22324 delivered=22322
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+   OUT line [fresh]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg")
+   OUT line [delivered]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ru/svg")
+== content56.py: fresh=22a2062c9151 delivered=400b3c5306b0 raw-identical=False len fresh=21763 delivered=21761
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+   OUT line [fresh]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg")
+   OUT line [delivered]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ru/svg")
+== content7.py: fresh=185a3ce54b62 delivered=d45c5af6c3f5 raw-identical=False len fresh=11669 delivered=11667
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+   OUT line [fresh]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg")
+   OUT line [delivered]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ru/svg")
+== content8.py: fresh=678e4be76ca5 delivered=7177bf2831c5 raw-identical=False len fresh=12250 delivered=12248
+   OUT-normalized identical=True
+   OUT-restored strict identical=True
+   OUT line [fresh]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg")
+   OUT line [delivered]: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ru/svg")

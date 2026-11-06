@@ -1,0 +1,110 @@
+== rendered gloss boxes (items per box) ==
+p1-pyoji.svg: core [5] sum=5 | ed [5] sum=5 equal=True
+p2-saenghwal.svg: core [4, 3, 3, 3, 3] sum=16 | ed [4, 3, 3, 3, 3] sum=16 equal=True
+p3-munhwa.svg: core [4, 3, 3, 3] sum=13 | ed [4, 3, 3, 3] sum=13 equal=True
+p4-seupocheu.svg: core [4, 2, 1] sum=7 | ed [4, 2, 1] sum=7 equal=True
+p5-cheongnyeon.svg: core [3, 3, 3, 3] sum=12 | ed [3, 3, 3, 3] sum=12 equal=True
+p6-gipi.svg: core [3, 2, 3] sum=8 | ed [3, 2, 3] sum=8 equal=True
+p7-mal.svg: core [] sum=0 | ed [] sum=0 equal=[]
+p8-siheom.svg: core [] sum=0 | ed [] sum=0 equal=[]
+TOTAL gloss items core=61 ed=61
+== headword check: Korean headword before '=' in each gloss item, core vs ed ==
+  HEADWORD DIFF p1-pyoji.svg box0 item0: core='입동 立冬、冬季开始' ed='입동'
+  HEADWORD DIFF p1-pyoji.svg box0 item1: core='절정最盛期、高峰' ed='절정'
+  HEADWORD DIFF p1-pyoji.svg box0 item2: core='김장 腌过冬泡菜' ed='김장'
+  HEADWORD DIFF p1-pyoji.svg box0 item3: core='상륙하다登陆' ed='상륙하다'
+  HEADWORD DIFF p1-pyoji.svg box0 item4: core='온대저기압 温带气旋。' ed='온대저기압'
+  HEADWORD DIFF p2-saenghwal.svg box0 item0: core='절이다 用盐腌' ed='절이다'
+  HEADWORD DIFF p2-saenghwal.svg box0 item1: core='버무리다 拌' ed='버무리다'
+  HEADWORD DIFF p2-saenghwal.svg box0 item2: core='난방供暖' ed='난방'
+  HEADWORD DIFF p2-saenghwal.svg box0 item3: core='식탁 餐桌。' ed='식탁'
+  HEADWORD DIFF p2-saenghwal.svg box1 item0: core='산불 山火' ed='산불'
+  HEADWORD DIFF p2-saenghwal.svg box1 item1: core='벌금 罚款' ed='벌금'
+  HEADWORD DIFF p2-saenghwal.svg box1 item2: core='불씨 火星。' ed='불씨'
+  HEADWORD DIFF p2-saenghwal.svg box2 item0: core='아삭하다 脆脆的' ed='아삭하다'
+  HEADWORD DIFF p2-saenghwal.svg box2 item1: core='김 蒸汽' ed='김'
+  HEADWORD DIFF p2-saenghwal.svg box2 item2: core='깊어지다变深。' ed='깊어지다'
+  HEADWORD DIFF p2-saenghwal.svg box3 item0: core='물려주다 传给' ed='물려주다'
+  HEADWORD DIFF p2-saenghwal.svg box3 item1: core='낡다 旧' ed='낡다'
+  HEADWORD DIFF p2-saenghwal.svg box3 item2: core='두렵다害怕。' ed='두렵다'
+  HEADWORD DIFF p2-saenghwal.svg box4 item0: core='묵직하다 沉甸甸的' ed='묵직하다'
+  HEADWORD DIFF p2-saenghwal.svg box4 item1: core='앞치마 围裙' ed='앞치마'
+  HEADWORD DIFF p2-saenghwal.svg box4 item2: core='목록 清单。' ed='목록'
+  HEADWORD DIFF p3-munhwa.svg box0 item0: core='기관 机构' ed='기관'
+  HEADWORD DIFF p3-munhwa.svg box0 item1: core='기준 标准' ed='기준'
+  HEADWORD DIFF p3-munhwa.svg box0 item2: core='관측 观测' ed='관측'
+  HEADWORD DIFF p3-munhwa.svg box0 item3: core='구간별 按路段。' ed='구간별'
+  HEADWORD DIFF p3-munhwa.svg box1 item0: core='현장 现场' ed='현장'
+  HEADWORD DIFF p3-munhwa.svg box1 item1: core='유명하다 有名' ed='유명하다'
+  HEADWORD DIFF p3-munhwa.svg box1 item2: core='맛보다品尝。' ed='맛보다'
+  HEADWORD DIFF p3-munhwa.svg box2 item0: core='이용하다 利用' ed='이용하다'
+  HEADWORD DIFF p3-munhwa.svg box2 item1: core='막히다 堵塞' ed='막히다'
+  HEADWORD DIFF p3-munhwa.svg box2 item2: core='예의礼仪。' ed='예의'
+  HEADWORD DIFF p3-munhwa.svg box3 item0: core='겹쳐 입다 叠穿' ed='겹쳐 입다'
+  HEADWORD DIFF p3-munhwa.svg box3 item1: core='미끄러지다 打滑' ed='미끄러지다'
+  HEADWORD DIFF p3-munhwa.svg box3 item2: core='돌石头。' ed='돌'
+  HEADWORD DIFF p4-seupocheu.svg box0 item0: core='연승 连胜' ed='연승'
+  HEADWORD DIFF p4-seupocheu.svg box0 item1: core='만루홈런 满垒本垒打' ed='만루홈런'
+  HEADWORD DIFF p4-seupocheu.svg box0 item2: core='미뤄지다 推迟' ed='미뤄지다'
+  HEADWORD DIFF p4-seupocheu.svg box0 item3: core='마감하다 截稿。' ed='마감하다'
+  HEADWORD DIFF p4-seupocheu.svg box1 item0: core='흔들다 挥动' ed='흔들다'
+  HEADWORD DIFF p4-seupocheu.svg box1 item1: core='하나가 되다 融为一体。' ed='하나가되다'
+  HEADWORD DIFF p4-seupocheu.svg box2 item0: core='예상 预测。' ed='예상'
+  HEADWORD DIFF p5-cheongnyeon.svg box0 item0: core='정리 整理、复习' ed='정리'
+  HEADWORD DIFF p5-cheongnyeon.svg box0 item1: core='끈끈하다 粘粘的' ed='끈끈하다'
+  HEADWORD DIFF p5-cheongnyeon.svg box0 item2: core='합격 合格。' ed='합격'
+  HEADWORD DIFF p5-cheongnyeon.svg box1 item0: core='중점 重点' ed='중점'
+  HEADWORD DIFF p5-cheongnyeon.svg box1 item1: core='배치하다 部署' ed='배치하다'
+  HEADWORD DIFF p5-cheongnyeon.svg box1 item2: core='통제하다管制。' ed='통제하다'
+  HEADWORD DIFF p5-cheongnyeon.svg box2 item0: core='챙기다 准备好' ed='챙기다'
+  HEADWORD DIFF p5-cheongnyeon.svg box2 item1: core='졸리다 犯困' ed='졸리다'
+  HEADWORD DIFF p5-cheongnyeon.svg box2 item2: core='평소平时。' ed='평소'
+  HEADWORD DIFF p5-cheongnyeon.svg box3 item0: core='비다 祈愿' ed='비다'
+  HEADWORD DIFF p5-cheongnyeon.svg box3 item1: core='피하다 避开' ed='피하다'
+  HEADWORD DIFF p5-cheongnyeon.svg box3 item2: core='미끄럽다滑。' ed='미끄럽다'
+  HEADWORD DIFF p6-gipi.svg box0 item0: core='짙어지다 变浓' ed='짙어지다'
+  HEADWORD DIFF p6-gipi.svg box0 item1: core='규모 规模' ed='규모'
+  HEADWORD DIFF p6-gipi.svg box0 item2: core='섞다混淆。' ed='섞다'
+  HEADWORD DIFF p6-gipi.svg box1 item0: core='겁이 나다 害怕' ed='겁이 나다'
+  HEADWORD DIFF p6-gipi.svg box1 item1: core='중요하다 重要。' ed='중요하다'
+  HEADWORD DIFF p6-gipi.svg box2 item0: core='예정 预定' ed='예정'
+  HEADWORD DIFF p6-gipi.svg box2 item1: core='확정 确定' ed='확정'
+  HEADWORD DIFF p6-gipi.svg box2 item2: core='믿다 相信。' ed='믿다'
+headword diffs: 61
+== call-string CORE (gloss segs, glossline segs) ==
+  content12.py: gloss=21 glossline=3 sum=24
+  content34.py: gloss=20 glossline=6 sum=26
+  content56.py: gloss=20 glossline=8 sum=28
+  content7.py: gloss=0 glossline=6 sum=6
+  content8.py: gloss=0 glossline=0 sum=0
+  TOTAL gloss=61 gloss+glossline=84 nonconst_calls=1
+  glossline calls: content12=3 content34=6 content56=8 content7=3 content8=0
+== call-string ED (gloss segs, glossline segs) ==
+  content12.py: gloss=21 glossline=3 sum=24
+  content34.py: gloss=20 glossline=6 sum=26
+  content56.py: gloss=20 glossline=8 sum=28
+  content7.py: gloss=0 glossline=6 sum=6
+  content8.py: gloss=0 glossline=0 sum=0
+  TOTAL gloss=61 gloss+glossline=84 nonconst_calls=1
+  glossline calls: content12=3 content34=6 content56=8 content7=3 content8=0
+== ED glossline rendered presence (per content file, page found) ==
+  content12.py :: 'Читайте тексты на стр. 2 и выбирайте правильный ответ.' -> pages=['p2-saenghwal.svg']
+  content12.py :: 'Вставьте в пропуск подходящее слово.' -> pages=['p2-saenghwal.svg']
+  content12.py :: 'Отвечайте цифрами и датами со стр. 1 и 2.' -> pages=['p2-saenghwal.svg']
+  content34.py :: 'Читайте тексты на стр. 3 и выбирайте правильный ответ.' -> pages=['p3-munhwa.svg']
+  content34.py :: 'Вставьте в пропуск подходящее слово.' -> pages=['p3-munhwa.svg', 'p4-seupocheu.svg']
+  content34.py :: 'Отвечайте цифрами и датами со стр. 3.' -> pages=['p3-munhwa.svg']
+  content34.py :: 'Читайте тексты на стр. 4 и выбирайте правильный ответ.' -> pages=['p4-seupocheu.svg']
+  content34.py :: 'Вставьте в пропуск подходящее слово.' -> pages=['p3-munhwa.svg', 'p4-seupocheu.svg']
+  content34.py :: 'Перепишите предложения в прошедшем времени. (Все изменённые предложения — события из этого' -> pages=['p4-seupocheu.svg']
+  content56.py :: 'Читайте тексты на стр. 5 и выбирайте правильный ответ.' -> pages=['p5-cheongnyeon.svg']
+  content56.py :: 'Вставьте в пропуск подходящее слово.' -> pages=['p5-cheongnyeon.svg', 'p6-gipi.svg']
+  content56.py :: 'Отвечайте цифрами со стр. 5.' -> pages=['p5-cheongnyeon.svg']
+  content56.py :: 'Поставьте слова в правильном порядке и составьте предложение.' -> pages=['p5-cheongnyeon.svg']
+  content56.py :: 'Смотрите таблицу и текст на стр. 6 и отвечайте.' -> pages=['p6-gipi.svg']
+  content56.py :: 'Читайте тексты на стр. 6 и выбирайте правильный ответ.' -> pages=['p6-gipi.svg']
+  content56.py :: 'Вставьте в пропуск подходящее слово.' -> pages=['p5-cheongnyeon.svg', 'p6-gipi.svg']
+  content56.py :: 'Если верно — O, если неверно — X.' -> pages=['p6-gipi.svg']
+  content7.py :: '본격적 = настоящий, полномасштабный · 나다 = пережить, провести.' -> pages=['p7-mal.svg']
+  content7.py :: '남다 = оставаться · 바로 = именно, как раз.' -> pages=['p7-mal.svg']
+  content7.py :: '짐작하다 = предполагать · 나누다 = различать.' -> pages=['p7-mal.svg']

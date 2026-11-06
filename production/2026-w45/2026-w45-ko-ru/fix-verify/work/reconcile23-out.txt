@@ -1,0 +1,32 @@
+Per-mapping: src-occurrences in OLD-transform output (=pre-fix long forms) | dst-occurrences in DELIVERED
+FX1 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX2 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX3 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX4 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX5 src-in-old={'content34.py': 1, 'content8.py': 1} dst-in-delivered={'content34.py': 1, 'content8.py': 1}
+FX6 src-in-old={'content34.py': 1, 'content8.py': 1} dst-in-delivered={'content34.py': 1, 'content8.py': 1}
+FX7 src-in-old={'content34.py': 1} dst-in-delivered={'content34.py': 1}
+FX8 src-in-old={'content12.py': 1} dst-in-delivered={'content12.py': 1}
+FX9 src-in-old={'content8.py': 1} dst-in-delivered={'content8.py': 1}
+FX10 src-in-old={'content7.py': 1} dst-in-delivered={'content7.py': 1}
+FX11 src-in-old={'content7.py': 1} dst-in-delivered={'content7.py': 1}
+FX12 src-in-old={'content7.py': 1} dst-in-delivered={'content7.py': 1}
+FX13 src-in-old={'content12.py': 1} dst-in-delivered={'content12.py': 1}
+FX14 src-in-old={'content56.py': 2} dst-in-delivered={'content56.py': 2}
+FX15 src-in-old={'content56.py': 1, 'content8.py': 1} dst-in-delivered={'content56.py': 1, 'content8.py': 1}
+FX16 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX17 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX18 src-in-old={'content56.py': 1} dst-in-delivered={'content56.py': 1}
+FX19 src-in-old={'content8.py': 1} dst-in-delivered={'content8.py': 1}
+TOTAL src-in-old per file: {'bslib4.py': 0, 'content12.py': 2, 'content34.py': 3, 'content56.py': 10, 'content7.py': 3, 'content8.py': 5} sum= 23
+TOTAL dst-in-delivered per file: {'bslib4.py': 0, 'content12.py': 2, 'content34.py': 3, 'content56.py': 10, 'content7.py': 3, 'content8.py': 5} sum= 23
+Fresh: src occurrences (must all be 0):
+Fresh src check done (no lines above = all zero).
+Fresh dst counts per file:
+{'bslib4.py': 0, 'content12.py': 2, 'content34.py': 3, 'content56.py': 10, 'content7.py': 3, 'content8.py': 5} sum= 23
+old-vs-delivered OUT-norm bslib4.py: -lines=0 +lines=0
+old-vs-delivered OUT-norm content12.py: -lines=3 +lines=3
+old-vs-delivered OUT-norm content34.py: -lines=4 +lines=4
+old-vs-delivered OUT-norm content56.py: -lines=11 +lines=11
+old-vs-delivered OUT-norm content7.py: -lines=4 +lines=4
+old-vs-delivered OUT-norm content8.py: -lines=6 +lines=6

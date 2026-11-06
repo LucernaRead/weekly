@@ -1,0 +1,14 @@
+== 1. same-baseline ink collisions ==
+  same-baseline flags: 0
+== 2. P6 chart-label check ==
+  bars: [(810.0, 1282.0), (537.0, 1340.0), (480.0, 1398.0)] (expect widths 810/537/480)
+  row label 'A: 毛衣+围巾' ink ends x=206 (bar starts 325)
+  value label '270 元' at x=1151.0
+  row label 'B: 耳机' ink ends x=143 (bar starts 325)
+  value label '179 元' at x=878.0
+  row label 'C: 书+本子' ink ends x=180 (bar starts 325)
+  value label '160 元' at x=821.0
+== 3. gloss item counts (split gloss() string on the char) ==
+  core : {'content12.py': [4, 4, 4], 'content34.py': [3, 3, 3], 'content56.py': [3, 3, 3, 3]} total 33
+  ed   : {'content12.py': [4, 4, 4], 'content34.py': [3, 3, 3], 'content56.py': [3, 3, 3, 3]} total 33
+  gloss counts EQUAL item by item

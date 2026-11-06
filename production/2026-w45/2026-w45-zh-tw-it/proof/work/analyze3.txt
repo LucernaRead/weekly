@@ -1,0 +1,113 @@
+=== P8 paren discipline (edition P8) ===
+P8 nodes with full-width parens: 10
+   264.8 '香港金融科技週週一（11月2日）開幕。（A. 對 · B. 錯）'
+   330.61 '立冬在11月6日。（A. 對 · B. 錯）'
+   396.42 '味全龍4勝2敗拿下台灣大賽。（A. 對 · B. 錯）'
+   462.23 '台灣大賽第六戰比數是6比3。（A. 對 · B. 錯）'
+   528.04 '福隆沙雕藝術季10月26日結束。（A. 對 · B. 錯）'
+   593.8499999999999 '旅展首日上午10點開門。（A. 對 · B. 錯）'
+   1062.7199999999996 '阿哲住在台北。週五（11月6日）中午12點，他去南港展覽館看旅'
+   568.06 '— 旅展哪天開？ — 週五___開幕。（A. 中午12點 · B. 晚上7點）'
+   633.8699999999999 '— 立冬是什麼意思？ — 冬天___的日子。（A. 結束 · B. 開始）'
+   897.1099999999997 '— 雙11怎麼買才聰明？ — 先___，再結帳。（A. 比價 · B. 亂買）'
+Han inside half-width parens (P8): 0
+P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —', 'Pagina 8 di 8']
+P8 writing key line: ['150.', '150. ✓ (Domanda aperta — il modello è sopra, in F (138 caratteri))']
+full-width ＋ in edition P8: 0
+full-width ＋ in edition all pages: {'p1-front.svg': 1, 'p2-life.svg': 0, 'p3-culture.svg': 0, 'p4-sport.svg': 0, 'p5-youth.svg': 0, 'p6-deep.svg': 3, 'p7-lang.svg': 0, 'p8-test.svg': 0}
+shùzì notes:
+   p8-test.svg 1875.3839999999993 "138. 人工智慧 (L'IA nella finanza: réngōng zhìnéng.)"
+W43 P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —']
+W43 P8 paren sample: ['1. B (Jangmi è un tifone di categoria severa.)']
+W43 P8 full-width parens: 15
+
+=== P1 badge three-way ===
+core {'x': '975', 'y': '378', 'size': '21', 'fill': '#3e4c2a', 'anchor': 'middle', 'weight': '700', 'text': '繁體中文正文 · 英語講解 — Traditional Chinese text · Explanations in English · the edition for English-speaking readers'}
+w43 {'x': '975', 'y': '378', 'size': '21', 'fill': '#a4553a', 'anchor': 'middle', 'weight': '700', 'text': "TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"}
+ed {'x': '975', 'y': '378', 'size': '21', 'fill': '#a4553a', 'anchor': 'middle', 'weight': '700', 'text': "TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"}
+
+=== Footers (edition, all pages) ===
+p1-front.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p1-front.svg 2624 20 'Pagina 1 di 8'
+p2-life.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p2-life.svg 2624 20 'Pagina 2 di 8'
+p3-culture.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p3-culture.svg 2624 20 'Pagina 3 di 8'
+p4-sport.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p4-sport.svg 2624 20 'Pagina 4 di 8'
+p5-youth.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p5-youth.svg 2624 20 'Pagina 5 di 8'
+p6-deep.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p6-deep.svg 2624 20 'Pagina 6 di 8'
+p7-lang.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p7-lang.svg 2624 20 'Pagina 7 di 8'
+p8-test.svg 2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.2 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+p8-test.svg 2624 20 'Pagina 8 di 8'
+=== W43 footers (P1) ===
+2624 20 'Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.1 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO'
+2624 20 'Pagina 1 di 8'
+
+=== Box titles / gloss prefix ===
+'本週句式 · Struttura settimanale' -> [('p7-lang.svg', '902.36')]
+'本週一詞 · Parola settimanale' -> [('p1-front.svg', '1690')]
+gloss prefix Nota count: 12
+gloss prefix Notes count (must be 0): 0
+P8 heads: ['測驗與答案 · Test e risposte', '答案 · Risposte — in ordine di pagina, con una breve nota in italiano per ogni esercizio', 'Tutte le note in italiano · ✓ = il modello di scrittura']
+
+=== Readers corner ===
+-- core
+   1365.45 '小讀者（編輯範例）」'
+   1426.98 '延期披露：VOL.1曾預告本期起刊登真實'
+   1518.57 '此本期仍刊登編輯範例，並繼續公開徵'
+   1638.03 'one. Deferral notice: VOL.1 promised real'
+-- ed
+   1226.8600000000001 "讀者園地 · L'angolo dei lettori"
+   1365.45 '小讀者（編輯範例）」'
+   1426.98 '延期披露：VOL.1曾預告本期起刊登真實'
+   1518.57 '此本期仍刊登編輯範例，並繼續公開徵'
+   1638.03 'vera. Avviso di rinvio: il VOL.1 aveva'
+   1751.6300000000003 "quindi resta l'esempio. Scrivici!"
+core disclosure lines (Traditional, y-sorted):
+   1426.98 '延期披露：VOL.1曾預告本期起刊登真實'
+   1488.04 '本報未收到可刊登的真實來信與投稿，因'
+   1518.57 '此本期仍刊登編輯範例，並繼續公開徵'
+   1549.1 '集。你的來信，下一期見。'
+ed disclosure lines (Traditional, y-sorted):
+   1426.98 '延期披露：VOL.1曾預告本期起刊登真實'
+   1488.04 '本報未收到可刊登的真實來信與投稿，因'
+   1518.57 '此本期仍刊登編輯範例，並繼續公開徵'
+   1549.1 '集。你的來信，下一期見。'
+
+=== Golden sentences (edition counts, all pages concatenated) ===
+'用手機轉帳、掃碼付款、網上買保險，都是金融科技' pages: ['p1-front.svg', 'p7-lang.svg']
+'123個國家及城市、1,600個攤位' pages: ['p7-lang.svg']
+'需要才買，不要為了折扣買一堆用不到的東西' pages: ['p7-lang.svg']
+'在高雄，鋼鐵也能變成舞台' pages: ['p3-culture.svg', 'p7-lang.svg']
+'福隆的夏天，在10月26日畫下句點' pages: ['p3-culture.svg', 'p7-lang.svg']
+'6比0完封兄弟，龍隊拋下紅色彩帶' pages: ['p7-lang.svg']
+'250家店家一起討糖' pages: ['p5-youth.svg', 'p7-lang.svg']
+'旅展首日中午12點才開門' pages: ['p6-deep.svg', 'p7-lang.svg']
+P7 golden nodes + tags:
+   1890.3600000000001 '「用手機轉帳、掃碼付款、網上買保險，都是金融科技」'
+   2028.3600000000001 '「123個國家及城市、1,600個攤位」'
+   2166.36 '「需要才買，不要為了折扣買一堆用不到的東西」'
+   2304.36 '「在高雄，鋼鐵也能變成舞台」'
+   1890.3600000000001 '「福隆的夏天，在10月26日畫下句點」'
+   2028.3600000000001 '「6比0完封兄弟，龍隊拋下紅色彩帶」'
+   2166.36 '「250家店家一起討糖」'
+   2304.36 '「旅展首日中午12點才開門」'
+
+=== Images ===
+p1-front.svg ed: [('434', '300', 'ac4dfe2ad3a43cd3')] core: [('434', '300', 'ac4dfe2ad3a43cd3')]
+p2-life.svg ed: [('434', '300', 'a40e7a2b265beba6')] core: [('434', '300', 'a40e7a2b265beba6')]
+p3-culture.svg ed: [] core: []
+p4-sport.svg ed: [('434', '300', '18ad8ae06fac2860')] core: [('434', '300', '18ad8ae06fac2860')]
+p5-youth.svg ed: [('434', '300', 'bcbada13a5ae19d6')] core: [('434', '300', 'bcbada13a5ae19d6')]
+p6-deep.svg ed: [] core: []
+p7-lang.svg ed: [] core: []
+p8-test.svg ed: [] core: []
+=== Credits ===
+p1-front.svg 'Photo: Wilfredor — CC0 (Wikimedia Commons)'
+p2-life.svg 'Photo: CorraleH — CC0 (Wikimedia Commons)'
+p4-sport.svg 'Photo: Bain News Service — Public domain (Wikimedia'
+p5-youth.svg 'Photo: Benjamin Balazs — CC0 (Wikimedia Commons)'

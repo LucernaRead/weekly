@@ -1,0 +1,151 @@
+===== content12.py =====
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr/svg")
+23c23
+< p.text(975, 434, "TEXTES EN CHINOIS SIMPLIFIÉ · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES", 19.5, "sans", True, OLIVE, anchor="middle")
+---
+> p.text(975, 434, "TEXTES EN CHINOIS SIMPLIFIÉ · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES", 19.5, "sans", True, BRICK, anchor="middle")
+252c252
+< e.ex("A2", "单选", "A", "直降 veut dire que le prix lui-même baisse.",
+---
+> e.ex("A2", "单选", "A", "zhíjiàng veut dire que le prix lui-même baisse.",
+254c254
+< e.ex("A2", "单选", "A", "Après 立冬 le temps devient plus froid de jour en jour.",
+---
+> e.ex("A2", "单选", "A", "Après lìdōng le temps devient plus froid de jour en jour.",
+266c266
+< e.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour 立冬.",
+---
+> e.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour lìdōng.",
+288c288
+<             ["xiànhuò 现货 = en stock, b", "zhíjiàng 直降 = le prix baisse, d", "lìjiǎn 立减 = déduit à la caisse, c", "bǔdōng 补冬 = bien manger avant l'hiver, a"],
+---
+>             ["xiànhuò = en stock, b", "zhíjiàng = le prix baisse, d", "lìjiǎn = déduit à la caisse, c", "bǔdōng = bien manger avant l'hiver, a"],
+===== content34.py =====
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr/svg")
+67c67
+< e.ex("A2", "单选", "A", "立冬 est le 19e des 24 termes solaires.",
+---
+> e.ex("A2", "单选", "A", "lìdōng est le 19e des 24 termes solaires.",
+73c73
+< e.ex("A2", "单选", "B", "Les familles du Nord mangent des raviolis pour 立冬.",
+---
+> e.ex("A2", "单选", "B", "Les familles du Nord mangent des raviolis pour lìdōng.",
+83c83
+< e.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour 立冬.",
+---
+> e.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour lìdōng.",
+91c91
+< e.ex("A2", "完成句子", "19", "立冬 est le 19e terme solaire.",
+---
+> e.ex("A2", "完成句子", "19", "lìdōng est le 19e terme solaire.",
+107c107
+<             ["水始冰 = l'eau commence à geler, b", "地始冻 = la terre commence à geler, c", "雉入大水为蜃 = la vieille histoire du faisan, d", "bǔdōng 补冬 = bien manger avant l'hiver, a"],
+---
+>             ["shuǐ shǐ bīng = l'eau commence à geler, b", "dì shǐ dòng = la terre commence à geler, c", "zhì rù dà shuǐ wéi shèn = la vieille histoire du faisan, d", "bǔdōng = bien manger avant l'hiver, a"],
+224c224
+<             ["瑞士轮 = la phase suisse, d", "内战 = un match intra-région, c", "淘汰赛 = le perdant rentre chez lui, b", "总决赛 = la finale, a"],
+---
+>             ["ruìshìlún = la phase suisse, d", "nèizhàn = un match intra-région, c", "táotàisài = le perdant rentre chez lui, b", "zǒngjuésài = la finale, a"],
+===== content56.py =====
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr/svg")
+109c109
+<             ["数字形象 = un personnage numérique, b", "票房 = les recettes au box-office, a", "火化师 = un employé de crématorium, d", "救赎 = se sauver l'une l'autre, c"],
+---
+>             ["shùzì xíngxiàng = un personnage numérique, b", "piàofáng = les recettes au box-office, a", "huǒhuàshī = un employé de crématorium, d", "jiùshú = se sauver l'une l'autre, c"],
+197c197
+< e.ex("B2", "单选", "A", "Avec 直降 le prix à la caisse est celui que vous payez.",
+---
+> e.ex("B2", "单选", "A", "Avec zhíjiàng le prix à la caisse est celui que vous payez.",
+235c235
+<             ["说法 = une affirmation, c", "数据 = des nombres mesurés, d", "结算页 = la page de caisse, b", "运费 = les frais de livraison, a"],
+---
+>             ["shuōfǎ = une affirmation, c", "shùjù = des nombres mesurés, d", "jiésuàn yè = la page de caisse, b", "yùnfèi = les frais de livraison, a"],
+===== content7.py =====
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr/svg")
+19c19
+< a.ex("A2", "完成句子", "件", "毛衣 prend le classificateur 件 jiàn.",
+---
+> a.ex("A2", "完成句子", "件", "máoyī prend le classificateur jiàn.",
+21c21
+< a.ex("A2", "单选", "A", "直降 veut dire que le prix lui-même baisse.",
+---
+> a.ex("A2", "单选", "A", "zhíjiàng veut dire que le prix lui-même baisse.",
+25c25
+< a.ex("A2", "单选", "A", "Les vêtements prennent 件, pas 个 ni 条.",
+---
+> a.ex("A2", "单选", "A", "Les vêtements prennent jiàn, pas gè ni tiáo.",
+35c35
+< b.ex("B1", "单选", "B", "凌晨 língchén — les petites heures après minuit.",
+---
+> b.ex("B1", "单选", "B", "língchén — les petites heures après minuit.",
+37c37
+< b.ex("B1", "完成句子", "早上", "06 h 00 correspond à 早上 et non au soir.",
+---
+> b.ex("B1", "完成句子", "早上", "06 h 00 correspond à zǎoshang et non au soir.",
+41c41
+< b.ex("B1", "完成句子", "周六", "Le 7 novembre est un samedi — 周六.",
+---
+> b.ex("B1", "完成句子", "周六", "Le 7 novembre est un samedi — zhōuliù.",
+51c51
+< c.ex("B2", "单选", "C", "「最低价」 : affirmation publicitaire, pas donnée mesurée.",
+---
+> c.ex("B2", "单选", "C", "« zuìdījià » : affirmation publicitaire, pas donnée mesurée.",
+===== content8.py =====
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr/svg")
+18c18
+< f.ex("A2", "完形单选", "B", "立冬 est le 19e terme solaire, pas le 18e.",
+---
+> f.ex("A2", "完形单选", "B", "lìdōng est le 19e terme solaire, pas le 18e.",
+60c60
+< f.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour 立冬.",
+---
+> f.ex("A2", "完成句子", "饺子", "jiǎozǐ — les familles du Nord en mangent pour lìdōng.",
+78c78
+< f.ex("A2", "单选", "A", "Pour 立冬 elle a fait des raviolis avec sa mère.",
+---
+> f.ex("A2", "单选", "A", "Pour lìdōng elle a fait des raviolis avec sa mère.",
+91c91
+< f.ex("B1", "完形单选", "A", "Les familles du Nord mangent des raviolis pour 立冬.",
+---
+> f.ex("B1", "完形单选", "A", "Les familles du Nord mangent des raviolis pour lìdōng.",
+119c119
+<         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
+---
+>         txt = f"{e_['n']}. {e_['key']} ({e_['note']})"
+121c121
+<             txt = f"{e_['n']}. ✓ {e_['note']}"
+---
+>             txt = f"{e_['n']}. ✓ ({e_['note']})"
+===== bslib4.py =====
+===== svglib.py =====
+===== render.py =====
+9c9
+< BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/zh-cn-fr-proof/work/repro-out")
+---
+> BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-cn-fr")
+===== run.py =====
+===== fixup1.py =====
+3a4,5
+> NOTE 2026-10-28: SUPERSEDED by the folded transform.py (Gate 10 path is transform alone).
+> Kept for build history only; do not re-run on post-fix sources (entries already applied).
+56,57c58,59
+<     ("content56.py", "L'opération de la boutique WeChat dure 35 jours au total.",
+<      "Boutique WeChat : 35 jours au total."),
+---
+>     ("content12.py", "L'opération de la boutique WeChat dure 35 jours au total.",
+>      "Boutique WeChat : 35 jours au total."),  # REPAIRED 2026-10-28: was content56.py (stale — string never existed there; proof B3)

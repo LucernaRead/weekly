@@ -1,0 +1,172 @@
+== GATE6 images (href= data) ==
+core
+  p1-touiban.svg 1 ['420c6150a831e5d0ab86351aeee88e5c']
+  p2-shenghuo.svg 1 ['550e463b4ad93fea2d1afd12dc14e789']
+  p3-wenhua.svg 2 ['d0b015bc9da89c18313d931c4f602d88', 'e8d752779a4a1a96fcf5e044cfd2e648']
+  p4-tiyu.svg 1 ['6b8e90374bf6ba4cbe652951019953a3']
+  p5-qingnian.svg 1 ['a903e35f1eb2dbf4483bb35b27da0d15']
+  p6-shendu.svg 0 []
+  p7-ciyu.svg 0 []
+  p8-ceyan.svg 0 []
+  asset MD5s (edition build assets = core build assets, same files):
+edition
+  p1-touiban.svg 1 ['420c6150a831e5d0ab86351aeee88e5c']
+  p2-shenghuo.svg 1 ['550e463b4ad93fea2d1afd12dc14e789']
+  p3-wenhua.svg 2 ['d0b015bc9da89c18313d931c4f602d88', 'e8d752779a4a1a96fcf5e044cfd2e648']
+  p4-tiyu.svg 1 ['6b8e90374bf6ba4cbe652951019953a3']
+  p5-qingnian.svg 1 ['a903e35f1eb2dbf4483bb35b27da0d15']
+  p6-shendu.svg 0 []
+  p7-ciyu.svg 0 []
+  p8-ceyan.svg 0 []
+  asset MD5s (edition build assets = core build assets, same files):
+   locker.jpg 420c6150a831e5d0ab86351aeee88e5c
+   valley.jpg 550e463b4ad93fea2d1afd12dc14e789
+   frost.jpg d0b015bc9da89c18313d931c4f602d88
+   dumplings.jpg e8d752779a4a1a96fcf5e044cfd2e648
+   lanparty.jpg 6b8e90374bf6ba4cbe652951019953a3
+   popcorn.jpg a903e35f1eb2dbf4483bb35b27da0d15
+
+== GATE7 P7 col x=1473, y 1300-1700 ==
+core 13
+   y=1315.6 「你好！我住在上海。立冬那天，我吃了
+   y=1346.1299999999999 饺子，也给妈妈打了电话。双11，我买了
+   y=1376.6599999999999 一件毛衣，现货第二天就到了。」
+   y=1437.1899999999998 编辑部示例信，不是真实来信。编辑部说
+   y=1465.59 明：VOL.1曾预告本期(VOL.2)刊登真实读者来
+   y=1493.99 信和VOL.1第8版最佳作文；至今没有收到真
+   y=1522.39 实来信，也没有可刊登的投稿，所以本期仍
+   y=1550.7900000000002 刊登编辑部示例，并继续征集。延期不是取
+   y=1579.1900000000003 消。Editor's note: VOL.1 promised real
+   y=1607.5900000000004 letters and the best VOL.1 writing in
+   y=1635.9900000000005 VOL.2. None have arrived, so this corner
+   y=1664.3900000000006 still prints an editor's example. Deferred,
+   y=1692.7900000000006 not cancelled.
+   invitation verbatim present: (core EN, n/a)
+   joined tail: L.1曾预告本期(VOL.2)刊登真实读者来 信和VOL.1第8版最佳作文；至今没有收到真 实来信，也没有可刊登的投稿，所以本期仍 刊登编辑部示例，并继续征集。延期不是取 消。Editor's note: VOL.1 promised real letters and the best VOL.1 writing in VOL.2. None have arrived, so this corner still prints an editor's example. Deferred, not cancelled.
+edition 13
+   y=1315.6 「你好！我住在上海。立冬那天，我吃了
+   y=1346.1299999999999 饺子，也给妈妈打了电话。双11，我买了
+   y=1376.6599999999999 一件毛衣，现货第二天就到了。」
+   y=1437.1899999999998 编辑部示例信，不是真实来信。编辑部说
+   y=1465.59 明：VOL.1曾预告本期(VOL.2)刊登真实读者来
+   y=1493.99 信和VOL.1第8版最佳作文；至今没有收到真
+   y=1522.39 实来信，也没有可刊登的投稿，所以本期仍
+   y=1550.7900000000002 刊登编辑部示例，并继续征集。延期不是取
+   y=1579.1900000000003 消。Redactie: VOL.1 beloofde echte
+   y=1607.5900000000004 brieven in VOL.2. Die zijn er nog niet, dus
+   y=1635.9900000000005 een voorbeeldbrief. Uitgesteld, niet
+   y=1664.3900000000006 afgesteld — stuur ons je eigen brief in het
+   y=1692.7900000000006 Chinees!
+   invitation verbatim present: True
+   joined tail: 辑部说 明：VOL.1曾预告本期(VOL.2)刊登真实读者来 信和VOL.1第8版最佳作文；至今没有收到真 实来信，也没有可刊登的投稿，所以本期仍 刊登编辑部示例，并继续征集。延期不是取 消。Redactie: VOL.1 beloofde echte brieven in VOL.2. Die zijn er nog niet, dus een voorbeeldbrief. Uitgesteld, niet afgesteld — stuur ons je eigen brief in het Chinees!
+
+== GATE7 core vs edition P7 col1473 y-identical? ==
+core nodes 35 edition nodes 35 y lists equal: True
+y diffs: []
+
+== P7 geometry ==
+core rect <rect x="65" y="2436.1" width="1820" height="118" rx="0" fill="#2c2822"/> end 2554.1
+core col3 max text y: 1692.7900000000006  (+descent note)
+edition rect <rect x="65" y="2436.1" width="1820" height="118" rx="0" fill="#2c2822"/> end 2554.1
+edition col3 max text y: 1692.7900000000006  (+descent note)
+
+== GATE8 badge / strapline / top strip, P1 ==
+--- core
+   x=65.0 y=92.0 size=23.0 wt=700 fill=#3e4c2a :: VOL. 2 · 第 2 号
+   x=975.0 y=92.0 size=21.0 wt=None fill=#57523f :: 每周读中文 · Read real Chinese, every week
+   x=1885.0 y=92.0 size=23.0 wt=None fill=#57523f :: 2026年11月2日（周一）— 8日（周日）
+   x=975.0 y=372.0 size=19.0 wt=None fill=#57523f :: 给学中文的人的周报 — Read the real China, in Chinese
+   x=975.0 y=434.0 size=19.5 wt=700 fill=#3e4c2a :: 简体中文正文 · 英语讲解 — Simplified Chinese text · Explanations in English · the edition for English-speaking readers
+   x=65.0 y=2624.0 size=20.0 wt=None fill=#57523f :: Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations
+   y=574 nodes: []
+--- W43
+   x=65.0 y=92.0 size=23.0 wt=700 fill=#3e4c2a :: VOL. 1 · 第 1 号
+   x=975.0 y=92.0 size=21.0 wt=None fill=#57523f :: 每周读中文 · Lees echt Chinees, elke week
+   x=1885.0 y=92.0 size=23.0 wt=None fill=#57523f :: 2026年10月19日（周一）— 25日（周日）
+   x=975.0 y=372.0 size=19.0 wt=None fill=#57523f :: 给学中文的人的周报 — Lees het echte China, in het Chinees
+   x=975.0 y=434.0 size=19.5 wt=700 fill=#a4553a :: TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+   y=574 nodes: []
+--- edition
+   x=65.0 y=92.0 size=23.0 wt=700 fill=#3e4c2a :: VOL. 2 · 第 2 号
+   x=975.0 y=92.0 size=21.0 wt=None fill=#57523f :: 每周读中文 · Lees echt Chinees, elke week
+   x=1885.0 y=92.0 size=23.0 wt=None fill=#57523f :: 2026年11月2日（周一）— 8日（周日）
+   x=975.0 y=372.0 size=19.0 wt=None fill=#57523f :: 给学中文的人的周报 — Lees het echte China, in het Chinees
+   x=975.0 y=434.0 size=19.5 wt=700 fill=#a4553a :: TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+   y=574 nodes: []
+
+== GATE8 footer / page line / gloss prefix / P8 separators ==
+core P1 footer: ['Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations', '第 1 版 / 共 8 版']
+core P1 page line: ['第 1 版 / 共 8 版']
+core P8 separators: ['— Page 1 —', '— Page 2 —', '— Page 3 —', '— Page 4 —', '— Page 5 —', '— Page 6 —', '— Page 7 —', '— Page 8 —', "149. A — Page 6's rule: data first, advertisement last."]
+core gloss-prefix boxes: 0 Notes: 10
+core footer all pages: {'第 7 版 / 共 8 版', '第 3 版 / 共 8 版', '第 1 版 / 共 8 版', '第 6 版 / 共 8 版', '第 4 版 / 共 8 版', '第 2 版 / 共 8 版', '第 5 版 / 共 8 版', '第 8 版 / 共 8 版', 'Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations'}
+W43 P1 footer: ['Lucerna · CHINEES WEEKBLAD VOL.1 · TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+W43 P1 page line: ['Pagina 1 van 8']
+W43 P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —', 'Pagina 8 van 8']
+W43 gloss-prefix boxes: 11 Notes: 0
+W43 footer all pages: {'Pagina 4 van 8', 'Pagina 2 van 8', 'Lucerna · CHINEES WEEKBLAD VOL.1 · TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8', 'Pagina 3 van 8', 'Pagina 1 van 8', 'Pagina 6 van 8', 'Pagina 5 van 8', 'Pagina 7 van 8'}
+edition P1 footer: ['Lucerna · CHINEES WEEKBLAD VOL.2 · TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+edition P1 page line: ['Pagina 1 van 8']
+edition P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —', 'Pagina 8 van 8']
+edition gloss-prefix boxes: 10 Notes: 0
+edition footer all pages: {'Pagina 4 van 8', 'Pagina 2 van 8', 'Pagina 8 van 8', 'Lucerna · CHINEES WEEKBLAD VOL.2 · TEKSTEN IN HET CHINEES (VEREENVOUDIGD) · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8', 'Pagina 1 van 8', 'Pagina 6 van 8', 'Pagina 5 van 8', 'Pagina 7 van 8'}
+
+== P6 chart ==
+core P6 rects (x,y,w,h):
+    ('28', '28', '1894', '2644')
+    ('40', '40', '1870', '2620')
+    ('52', '52', '1846', '98')
+    ('527', '723.0', '434', '145.675')
+    ('989', '200', '434', '175.39999999999998')
+    ('325', '1282', '810.0', '34')
+    ('325', '1340', '537.0', '34')
+    ('325', '1398', '480.0', '34')
+    ('1451', '200', '434', '348.0')
+    ('1451', '574.0', '434', '225.5')
+    ('1451', '825.5', '434', '213.0')
+    ('65', '1726.225', '60', '30')
+    ('65', '1838.3249999999998', '60', '30')
+    ('65', '1950.4249999999997', '60', '30')
+    ('65', '2062.5249999999996', '60', '30')
+    ('65', '2147.075', '60', '30')
+    ('65', '2369.4', '60', '30')
+    ('65', '2453.9500000000003', '60', '30')
+    ('527', '1616', '60', '30')
+    ('527', '1700.55', '60', '30')
+    ('527', '1785.1', '60', '30')
+    ('527', '1979.8749999999998', '60', '30')
+    ('527', '2064.4249999999997', '60', '30')
+    ('527', '2148.975', '60', '30')
+    ('527', '2233.525', '60', '30')
+    ('989', '1616', '60', '30')
+core P6 head: ['练习篮子：篮子A是毛衣240元加围巾', '三个练习篮子：直降以后实付多少钱 · Practice baskets', 'C · 练习篮子算一算 · Basket maths']
+core P6 glossline: []
+edition P6 rects (x,y,w,h):
+    ('28', '28', '1894', '2644')
+    ('40', '40', '1870', '2620')
+    ('52', '52', '1846', '98')
+    ('527', '723.0', '434', '175.39999999999998')
+    ('989', '200', '434', '175.39999999999998')
+    ('325', '1282', '810.0', '34')
+    ('325', '1340', '537.0', '34')
+    ('325', '1398', '480.0', '34')
+    ('1451', '200', '434', '348.0')
+    ('1451', '574.0', '434', '225.5')
+    ('1451', '825.5', '434', '213.0')
+    ('65', '1726.225', '60', '30')
+    ('65', '1838.3249999999998', '60', '30')
+    ('65', '1950.4249999999997', '60', '30')
+    ('65', '2062.5249999999996', '60', '30')
+    ('65', '2147.075', '60', '30')
+    ('65', '2369.4', '60', '30')
+    ('65', '2453.9500000000003', '60', '30')
+    ('527', '1616', '60', '30')
+    ('527', '1700.55', '60', '30')
+    ('527', '1785.1', '60', '30')
+    ('527', '1979.8749999999998', '60', '30')
+    ('527', '2064.4249999999997', '60', '30')
+    ('527', '2148.975', '60', '30')
+    ('527', '2233.525', '60', '30')
+    ('989', '1616', '60', '30')
+edition P6 head: ['练习篮子：篮子A是毛衣240元加围巾', '三个练习篮子：直降以后实付多少钱 · Oefenmandjes', 'C · 练习篮子算一算 · Reken mee']
+edition P6 glossline: ['三个练习篮子：直降以后实付多少钱 · Oefenmandjes', 'De balken zijn vanaf 0 getekend (3 px = 1 yuan). Alleen oefendata — geen echte winkelprijzen. De mandjesberekening staat in het artikel', 'Reken met de oefenmandjes.']

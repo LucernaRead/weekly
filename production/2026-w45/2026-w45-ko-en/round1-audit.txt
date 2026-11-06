@@ -1,0 +1,94 @@
+source words: 1566, word pairs: 3758
+##### ED ../../files/weekly-report-w45-ko-en/svg
+p1-pyoji.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=7
+    (92.0, "RIGHT-EDGE ends=2178.6 '2026년 11월 2일(월) ~ 8일(일)'")
+    (487.0, "RIGHT-EDGE ends=2067.1 'START OF WINTER'")
+    (531.0, "RIGHT-EDGE ends=2402.0 'Ipdong falls on Saturday, Nov 7 · Kimjan'")
+    (1415.0, "RIGHT-EDGE ends=1926.0 'A2→B1'")
+    (1563.0, "RIGHT-EDGE ends=1926.0 'A2→B2'")
+    (2348.0, "RIGHT-EDGE ends=2395.0 'Read page 1, pick the right answer · Ans'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 1 of 8'")
+p2-saenghwal.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=5
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2648.3 '레벨 A2 · 김장과 겨울 준비, 한능검 · Kimjang and win'")
+    (1594.0, "RIGHT-EDGE ends=2686.3 '수능까지 남은 날로 날짜를 세는 네 가지 말 · Four ways to '")
+    (1844.0, "RIGHT-EDGE ends=2476.5 'Answers on page 8 · Items may mix levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 2 of 8'")
+p3-munhwa.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2428.1 '레벨 A2→B1 · 단풍 마지막 주말 · Last weekend of a'")
+    (1648.0, "RIGHT-EDGE ends=2476.5 'Answers on page 8 · Items may mix levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 3 of 8'")
+p4-seupocheu.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2282.9 '레벨 B1 · 가을야구 소식 · Autumn baseball news'")
+    (1588.0, "RIGHT-EDGE ends=2476.5 'Answers on page 8 · Items may mix levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 4 of 8'")
+p5-cheongnyeon.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2462.4 '레벨 B1 · 수능 카운트다운과 할로윈 · CSAT countdown a'")
+    (1648.0, "RIGHT-EDGE ends=2476.5 'Answers on page 8 · Items may mix levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 5 of 8'")
+p6-gipi.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2475.6 '레벨 B2 · 수능 카운트다운을 읽는 법 · How to read the'")
+    (1588.0, "RIGHT-EDGE ends=2476.5 'Answers on page 8 · Items may mix levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 6 of 8'")
+p7-mal.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=3
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2429.4 '언어 포커스 · 세 가지 레벨, 세 가지 주제 · Three levels'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 7 of 8'")
+   P7 teaser title: [(2499.5, '다음 주 · Next week (VOL.3)'), (2539.5, '다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험')]
+p8-siheom.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2151.8 '제8면 · 이번 주의 큰 시험 + 모든 답'")
+    (1302.0, "RIGHT-EDGE ends=2502.3 'Each item has a short English note · ✓ m'")
+    (2624.0, "RIGHT-EDGE ends=1984.3 'Page 8 of 8'")
+   P8 keys flow last baseline: 2624.0
+##### CORE ../../files/weekly-report-w45-ko-core/svg
+p1-pyoji.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=8
+    (92.0, "RIGHT-EDGE ends=2178.6 '2026년 11월 2일(월) ~ 8일(일)'")
+    (478.0, "RIGHT-EDGE ends=1903.0 '立冬'")
+    (522.0, "RIGHT-EDGE ends=2182.0 '立冬在 11 月 7 日周六 · 泡菜季开始'")
+    (1415.0, "RIGHT-EDGE ends=1926.0 'A2→B1'")
+    (1563.0, "RIGHT-EDGE ends=1926.0 'A2→B2'")
+    (1600.0, "RIGHT-EDGE ends=1899.0 '全部'")
+    (2348.0, "RIGHT-EDGE ends=2225.2 '读头版，选出正确答案 · 答案见第 8 版'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 1 면 / 총 8 면'")
+p2-saenghwal.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=5
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2451.6 '레벨 A2 · 김장과 겨울 준비, 한능검 · 泡菜季与过冬准备、韩史考试报名'")
+    (1594.0, "RIGHT-EDGE ends=2537.2 '수능까지 남은 날로 날짜를 세는 네 가지 말 · 用高考倒计时数日子的四个说'")
+    (1844.0, "RIGHT-EDGE ends=2305.2 '答案见第 8 版 · 题目可跨级混排，按题号找答案'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 2 면 / 총 8 면'")
+p3-munhwa.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2260.7 '레벨 A2→B1 · 단풍 마지막 주말 · 红叶最后一周'")
+    (1648.0, "RIGHT-EDGE ends=2305.2 '答案见第 8 版 · 题目可跨级混排，按题号找答案'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 3 면 / 총 8 면'")
+p4-seupocheu.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2196.8 '레벨 B1 · 가을야구 소식 · 秋季棒球消息'")
+    (1588.0, "RIGHT-EDGE ends=2305.2 '答案见第 8 版 · 题目可跨级混排，按题号找答案'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 4 면 / 총 8 면'")
+p5-cheongnyeon.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2346.5 '레벨 B1 · 수능 카운트다운과 할로윈 · 高考倒计时与万圣节'")
+    (1648.0, "RIGHT-EDGE ends=2305.2 '答案见第 8 版 · 题目可跨级混排，按题号找答案'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 5 면 / 총 8 면'")
+p6-gipi.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2313.8 '레벨 B2 · 수능 카운트다운을 읽는 법 · 高考倒计时读法'")
+    (1588.0, "RIGHT-EDGE ends=2305.2 '答案见第 8 版 · 题目可跨级混排，按题号找答案'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 6 면 / 총 8 면'")
+p7-mal.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=3
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2379.7 '언어 포커스 · 세 가지 레벨, 세 가지 주제 · 三个级别，三个主题'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 7 면 / 총 8 면'")
+   P7 teaser title: [(2438.9, '다음 주 · 下期预告 (VOL.3)'), (2478.9, '다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험')]
+p8-siheom.svg: line-start=0 splits>=3=0 row-overlap=0 right-edge=4
+    (116.0, "RIGHT-EDGE ends=2023.2 'Lucerna'")
+    (142.0, "RIGHT-EDGE ends=2151.8 '제8면 · 이번 주의 큰 시험 + 모든 답'")
+    (1302.0, "RIGHT-EDGE ends=2219.2 '每题附一句中文简析 · 带 ✓ 的为范文题'")
+    (2624.0, "RIGHT-EDGE ends=2015.6 '제 8 면 / 총 8 면'")
+   P8 keys flow last baseline: 2624.0

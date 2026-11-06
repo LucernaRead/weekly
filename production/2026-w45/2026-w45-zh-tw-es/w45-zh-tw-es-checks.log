@@ -1,0 +1,766 @@
+== 1. gloss counts (split on ·) ==
+  P1 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P2 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P3 core [1, 1, 1] (sum 3)  edition [1, 1, 1] (sum 3)  OK
+  P4 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P5 core [1, 1] (sum 2)  edition [1, 1] (sum 2)  OK
+  P6 core [1] (sum 1)  edition [1] (sum 1)  OK
+  TOTAL core 12 edition 12
+== 2. same-baseline ink-collision scan ==
+  same-baseline flags: 0
+== 3. chart-label element check (P4/P6: text ink vs later rects) ==
+  p4-sport: 0 text-vs-later-rect overlaps
+  p6-deep: 0 text-vs-later-rect overlaps
+== 4. residual Latin runs in edition SVGs ==
+  p1-front (39 Latin-bearing nodes):
+    A. 約5,000人
+    A. 週一
+    A. 週五
+    A. 香港會議展覽中心
+    A2
+    B. 台北南港展覽館
+    B. 約15,000人
+    B. 週一（11月2日）
+    B. 週五（11月6日）中午12點
+    C. 週六
+    C. 週日
+    C. 逾45,000人
+    C. 高雄駁二
+    Completa
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Nangang y dura hasta el lunes (9 de noviembre): 123 países y ciudades, 1.600 casetas, un desfile diario de mascotas a la
+    Nota — La Feria Internacional de Viajes de Taipéi (ITF) abre el viernes (6 de noviembre) al mediodía en el Centro de Exp
+    Nota — La Semana FinTech de Hong Kong x StartmeupHK 2026 abre el lunes (2 de noviembre) y dura hasta el viernes (6 de no
+    Photo: Wilfredor — CC0 (Wikimedia Commons)
+    Página 1 de 8
+    Reportaje de la redacción · Fuente: comunicado de prensa de los organizadores (23 de octubre) y preguntas frecuentes del
+    TEXTOS EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES
+    como pagar con el móvil o escanear un
+    con más de 100 eventos comunitarios durante la semana. Se esperan más de 45.000 personas de más de 120 economías, más de
+    conferencia principal y la exposición se celebran en el Centro de Convenciones y Exposiciones de Hong Kong los días 2 y 
+    código para pagar.
+    para gestionar servicios financieros,
+    ponentes y más de 800 expositores y empresas emergentes.
+    viajes.
+    「金融科技」 — fintech: usar la tecnología
+    快速測驗 · Cuestionario rápido
+    本週一詞 · Palabra de la semana
+    本週大事 · Esta semana
+    標題填空 · Palabras de titulares
+    的主題是 Fintech Nexus: Bridging the World, Building the Future，三大方向是金融＋、人工智慧＋、全球擴張。
+    繁體中文版 · VOL.2 · 2026年11月2日（一）至11月8日（日） · 台灣 / 香港
+    週五（11月6日）中午12點，2026 ITF 台灣國際旅展在台北南港展覽館一館開幕，展到下週一（11月9日）。123個國家及城
+    香港金融科技週 x StartmeupHK 2026，週一（11月2日）在香港開幕，一連五天到週五（11月6日）。主會議和展覽在香港
+  p2-life (64 Latin-bearing nodes):
+    4.000 NT$, justo su presupuesto; así que
+    A. 3,000元
+    A. 4個
+    A. 56條
+    A. 含稅嗎？運費多少？能不能退貨？
+    A. 沒有，正好4,000元
+    A. 西南風
+    A. 週一
+    A. 週六（11月7日）
+    A2
+    B. 16條
+    B. 4,000元
+    B. 6個
+    B. 東北季風
+    B. 超過1,000元
+    B. 週二
+    B. 週五（11月6日）
+    B. 顏色好看嗎？包裝大嗎？
+    C. 5,000元
+    C. 6條
+    C. 9個
+    C. 店員親切嗎？
+    C. 超過4,000元
+    C. 週三（11月11日）
+    C. 週日（11月8日）
+    C. 颱風
+    Cifras del ejemplo: 2.400 NT$ + 1.600 NT$ =
+    Completa
+    Invierno: el día en que empieza el
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Montaña al Mar, del Centenario, Indígena
+    Mucha gente lo celebra con una comida
+    Nota — El monzón del noreste enfría el
+    Nota — El otoño y el invierno son para las
+    Photo: CorraleH — CC0 (Wikimedia Commons)
+    Página 2 de 8
+    Tamsui-Kavalan, Raknus Selu, de la
+    Une palabra y definición
+    Vías Verdes cubre los senderos
+    a. 冬天開始的節氣
+    aguas termales y el senderismo. La
+    b. 吃熱的補身體
+    c. 去溫泉洗澡、放鬆
+    caliente y nutritiva en olla.
+    d. 在指定地點蓋章收集
+    enciclopedia de senderos de la feria
+    invierno en los 24 términos solares.
+    norte de Taiwán, y el sábado (7 de
+    noviembre) es Lidong, el Inicio del
+    puede comprar las dos cosas.
+    reúne 56 rutas, y el reto de sellos de las 6
+    y del Ferrocarril Azucarero.
+    ¿Qué hay en tu carrito del Doble 11?
+    ¿Qué olla caliente comerías en Lidong?
+    事實框 · Datos de la semana
+    你呢？ · ¿Y tú?
+    填一填 · Completa
+    封王優惠 · Ofertas de campeón
+    生活 · Vida cotidiana
+    第 2 版 · 天氣、泡湯、旅展與雙11 · Tiempo, aguas termales, la feria de viajes y el 11.11
+    算一算 · Calcula
+    練習例子 · Ejemplo práctico
+    讀懂了嗎？ · ¿Entendido?
+  p3-culture (73 Latin-bearing nodes):
+    A. 10座
+    A. 10月19日
+    A. 11月2日
+    A. 120天
+    A. 22天
+    A. 冬天開始
+    A. 冰品
+    A. 駁二蓬萊區B3倉庫
+    A2
+    B. 10月26日
+    B. 11月7日
+    B. 140天
+    B. 20座
+    B. 31天
+    B. 冬天結束
+    B. 台北大巨蛋
+    B. 薑母鴨
+    B1
+    C. 11月1日
+    C. 11月22日
+    C. 151天
+    C. 40天
+    C. 40座
+    C. 南港展覽館
+    C. 春天開始
+    C. 生魚片
+    Completa
+    Escultura en Acero de Kaohsiung (23 de
+    Escultura en Arena de Fulong cerró el 26
+    Fulong en torno a personajes de Jurassic
+    Fulong? ¿Qué personaje de cine te
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Nota — El Festival Internacional de
+    Nota — Lidong es el primer término solar
+    Página 3 de 8
+    TIDES」，聊製造、設計，聊藝術怎麼
+    Une palabra y definición
+    World, Shrek, Kung Fu Panda y Regreso al
+    a. 冬天第一個節氣
+    almacenes, fábricas, el puerto y las calles
+    b. 冬天前吃熱的養身體
+    c. 用鋼鐵做的藝術
+    calienta antes de los meses fríos.
+    construidas con la arena dorada de
+    cordero y pollo con sésamo: comida que
+    d. 用沙子堆出來的雕塑
+    de octubre tras su 19.ª temporada (29 de
+    del invierno: empieza el invierno. La
+    diseño y arte en la vida cotidiana.
+    en un escenario — SUPER STAGE — con
+    esculturas de más de 15 artistas,
+    futuro.
+    gente lo celebra con platos calientes en
+    gustaría más ver en arena?
+    mayo-26 de octubre): más de 40
+    octubre-22 de noviembre) convierte
+    olla como pato con jengibre, olla de
+    un foro internacional sobre fabricación,
+    · 地點：駁二蓬萊區B3倉庫、哈瑪星鐵
+    · 論壇：剛質潮汐 SOLID TIDES
+    ¿Has visto las esculturas de arena de
+    二蓬萊區B3倉庫、哈瑪星鐵道園區、鹽
+    你呢？ · ¿Y tú?
+    填一填 · Completa
+    文化 · Cultura
+    日，主題是 SUPER STAGE，地點在駁
+    第 3 版 · 立冬、鋼雕與沙雕落幕 · Lidong, arte en acero y el final del festival de arena
+    算一算 · Calcula
+    節氣小表 · Términos solares
+    者，辦國際論壇「剛質潮汐 SOLID
+    讀懂了嗎？ · ¿Entendido?
+    鋼雕行程 · Planifica tu visita
+  p4-sport (65 Latin-bearing nodes):
+    (26 de octubre, Domo de Taipéi) y
+    A. 1度
+    A. 3局下
+    A. 3比0
+    A. 4勝0敗
+    A. 6分
+    A. 8局、0分
+    A. 第6座
+    A. 蔣少宏
+    B. 2度
+    B. 4勝1敗
+    B. 5分
+    B. 6比0
+    B. 7局、1分
+    B. 8局下
+    B. 梅賽鍶
+    B. 第4座
+    B1
+    C. 3度
+    C. 4勝2敗
+    C. 6比3
+    C. 8分
+    C. 9局、2分
+    C. 9局下
+    C. 張政禹
+    C. 第3座
+    Commons)
+    Completa
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Nota — Cuatro palabras: 完封 (partido sin
+    Nota — Los Wei Chuan Dragons vencieron
+    Nota: los Dragons no batearon en la parte baja de la 9.ª entrada; ganando 6-0 tras la parte alta de la 9.ª, el partido h
+    Photo: Bain News Service — Public domain (Wikimedia
+    Página 4 de 8
+    Reportaje de la redacción · Fuente: noticias
+    Une nombre y dato
+    a los CTBC Brothers 6-0 en el 6.º partido
+    a. 對手得0分
+    abridor C.C. Mercedes lanzó 8 entradas
+    b. 拿下總冠軍
+    béisbol
+    c. 一棒打出場外
+    carreras en contra), 封王 (conquistar el
+    d. 打者把球打到場內形成上壘
+    de la serie.
+    deportivas de TSNA, 26 de octubre
+    ganaron la Serie de Taiwán 2026 por 4-2:
+    historia y el 6.º título de los Dragons. El
+    la primera final Dragons-Brothers de la
+    sin permitir carreras y fue nombrado MVP
+    título), 全壘打 (jonrón), MVP (jugador más
+    valioso).
+    vez un partido de béisbol en directo?
+    ¿De qué equipo eres? ¿Has visto alguna
+    你呢？ · ¿Y tú?
+    填一填 · Completa
+    棒球詞卡 · Palabras de
+    看圖答題 · Lee el gráfico
+    第 4 版 · 台灣大賽封王 · La Serie de Taiwán ya tiene campeón
+    第六戰得分走勢 · Carreras del 6.º partido por entrada — barras proporcionales a las carreras
+    系列賽小檔 · Ficha de la serie
+    讀懂了嗎？ · ¿Entendido?
+    賽表現最好的人，英文叫 MVP。
+    體育 · Deporte
+  p5-youth (71 Latin-bearing nodes):
+    5.000 NT$, justo su presupuesto.
+    A. 25家
+    A. 4,000元
+    A. 450個
+    A. 下午1點
+    A. 下午2點
+    A. 天母運動公園，下午1點到晚上8點
+    A. 機上餐點
+    A. 週六晚上
+    B. 150家
+    B. 4,500個
+    B. 5,000元
+    B. 上午10點
+    B. 中午12點
+    B. 大葉高島屋，早上9點到下午5點
+    B. 託運行李
+    B. 週日（10月25日）晚上7點
+    B1
+    C. 250家
+    C. 45,000個
+    C. 7,400元
+    C. 新光三越，晚上7點到9點
+    C. 晚上7點
+    C. 登機證
+    C. 週一晚上
+    Cifras del ejemplo: 6.200 NT$ − 1.200 NT$ =
+    Completa
+    Halloween? ¿Qué personaje te gustaría
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Mitsukoshi Tianmu por la calle
+    Nota — El Halloween de Tianmu (25-26 de
+    Nota — Plan para la feria de viajes: mira
+    Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+    Página 5 de 8
+    Trick or Treat，就能拿到糖果。
+    Une evento y dato
+    Zhongcheng hasta Dayeh Takashimaya, y
+    a. 萬聖節向店家要糖果
+    b. 穿上裝扮上街遊行
+    c. 裝糖果的萬聖節桶子
+    comedia de Corea, desfile diario de
+    d. 拍照標記地點、分享到社群
+    de 13:00 a 20:00 en el parque deportivo
+    de Tianmu, con 250 tiendas repartiendo
+    dulces y 4.500 cubos de calabaza de tres
+    el evento principal del 26 de octubre duró
+    el tifón): el desfile nocturno del 25 de
+    espectáculo JUMP de taekwondo y
+    excluyen el equipaje facturado, así que
+    grandes almacenes.
+    mascotas a las 14:00) y después compara
+    más ser?
+    octubre marchó desde Shin Kong
+    octubre, aplazado del 24 de octubre por
+    precios: las tarifas económicas a menudo
+    primero los espectáculos (danza del
+    sombrero de flores de Yamagata,
+    suma ese coste antes de decidir.
+    · 韓國跆拳道與喜劇武術《JUMP》
+    ¿Te has disfrazado alguna vez en
+    你呢？ · ¿Y tú?
+    填一填 · Completa
+    天母時間表 · Horario de Tianmu
+    拳道與喜劇武術表演《JUMP》；每日
+    旅展表演 · Espectáculos
+    第 5 版 · 天母萬聖節回顧、旅展攻略 · Repaso de Halloween en Tianmu y plan para la feria de viajes
+    算一算 · Calcula
+    練習例子 · Ejemplo práctico
+    讀懂了嗎？ · ¿Entendido?
+    青年 · Juventud
+  p6-deep (68 Latin-bearing nodes):
+    (ayudar a las empresas emergentes a
+    (finanzas más tecnología), IA+
+    (inteligencia artificial dentro de bancos,
+    A. 100位
+    A. 10場
+    A. 11月2、3日
+    A. 11月6日（6小時）
+    A. 24小時
+    A. 6小時
+    A. 中午12點
+    A. 在香港開分店
+    A. 看數據、抓風險、回客戶問題
+    A. 金融業加薪
+    B. 1,000位
+    B. 11月5、6日
+    B. 11月7日
+    B. 28小時
+    B. 50場
+    B. 8小時
+    B. 上午10點
+    B. 印鈔票
+    B. 請更多員工
+    B. 金融加上科技
+    B2
+    C. 10,000位
+    C. 100場
+    C. 10小時
+    C. 11月7、8日
+    C. 11月9日
+    C. 30小時
+    C. 下午2點
+    C. 把產品賣到世界各地
+    C. 蓋銀行大樓
+    C. 金融業加班
+    Completa
+    Ejemplo de notas de prensa (20 de
+    Fuente: horarios publicados de la feria (6 nov.: 12:00-18:00; 7-9 nov.: 10:00-18:00). Total: 30 horas.
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Nota — Tres signos más: Finanzas+
+    Página 6 de 8
+    Reportaje de la redacción · Fuente: comunicado
+    con Cathay Pacific desde 13.433 NT$ con
+    de 800 expositores y empresas
+    de prensa de los organizadores (23 de octubre) y
+    economías, más de 1.000 ponentes, más
+    emergentes, más de 30 delegaciones,
+    es un tema de toda la ciudad.
+    impuestos incluidos, reserva hasta el 13 de
+    inversiones y seguros) y expansión global
+    los precios varían según la fecha.
+    muestra que la tecnología financiera ya
+    más de 100 eventos comunitarios —
+    más de 45.000 personas, más de 120
+    noviembre. Compara siempre sumando las
+    octubre): vuelo de ida y vuelta Taipéi-Tokio
+    preguntas frecuentes del evento
+    resultado de la reserva en directo, ya que
+    tasas de equipaje, y comprueba el
+    vender en todo el mundo). La escala —
+    填一填 · Completa
+    數字一覽 · Las cifras
+    旅展每日開放時數 · Horas de apertura de la ITF por día — barras proporcionales a las horas
+    比價提醒 · Compara con cuidado
+    深讀 · Lectura a fondo
+    深讀測驗 · Preguntas a fondo
+    看圖答題 · Lee el gráfico
+    第 6 版 · 金融科技週深讀 + 讀圖表 · FinTech a fondo y lectura de gráficos
+  p7-lang (114 Latin-bearing nodes):
+    (caseta), 集章 (coleccionar sellos) y
+    (exposición de viajes). Una 攤位 es un
+    (p. 2)
+    (pedir dulces en Halloween), 踩街 (desfile
+    123 países y ciudades, 1.600 casetas. (p. 1)
+    250 tiendas repartiendo dulces juntas. (p. 5)
+    A. 下午2點
+    A. 南港展覽館一館
+    A. 對手得0分
+    A. 拍照分享，說自己來過
+    A. 穿裝扮上街遊行
+    A. 薑母鴨
+    A2
+    A2 · 展會的話 · Palabras de feria
+    Agrupa las palabras: ganar （封王/完封）,
+    Apréndelas una vez y toda la feria de
+    B. 上班簽到
+    B. 中午12點
+    B. 冰品
+    B. 台北大巨蛋
+    B. 在街上跑步
+    B. 大勝10分
+    B1
+    B1 · 球賽與節氣 · Juegos y estación
+    B2
+    B2 · 港台說法 · Habla local
+    C. 打滿9局
+    C. 晚上7點
+    C. 生魚片
+    C. 買門票
+    C. 逛夜市
+    C. 高雄駁二
+    Carta de ejemplo de la redacción, no una
+    Completa
+    Compra lo que necesites; no compres un montón de cosas que no usarás solo por un descuento.
+    Comprueba la ciudad: la Semana FinTech
+    Crea la tuya: 先比價，再結帳.
+    Cuatro palabras de feria: 旅展， 攤位， 集章，
+    Cuatro palabras locales de este número:
+    El deporte y las estaciones comparten los
+    El primer día de la feria las puertas abren solo al mediodía. (p. 6)
+    El verano de Fulong llegó a su fin el 26 de octubre. (p. 3)
+    En Kaohsiung, hasta el acero puede convertirse en escenario. (p. 3)
+    Estructura: 先…再… — primero X y
+    Las ferias de esta semana te dan cuatro
+    Lidong inicia el invierno; el Solsticio es el
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    No necesitas muchos dichos locales:
+    Pagar con el móvil, escanear para pagar, comprar un seguro en línea: eso es la tecnología
+    Practica: 「旅展幾點開門？」 («¿A qué
+    Página 7 de 8
+    Taipéi tiene 1.600. 集章 significa
+    Taiwán y Hong Kong tienen cada uno su
+    Truco de memoria: aprende primero 封王
+    Un 6-0 sin carreras en contra ante los Brothers, y los Dragons lanzaron las cintas rojas. (p. 4)
+    abre en Hong Kong, no en Taipéi.
+    acciones: primero X y después Y.
+    aguas termales).
+    alimentos calientes y nutritivos antes de
+    aprende cuatro y cada salida se sentirá
+    callejero disfrazado) y 泡湯 (bañarse en
+    carreras. 立冬 es el término solar que
+    carta real. Aviso: el VOL.1 prometió cartas
+    coleccionar sellos en puntos
+    desde este número; al cierre no había
+    después Y. Crea tu propia frase con ella.
+    dicen en las tiendas en Halloween; 踩街
+    día más corto. Términos distintos.
+    es el propio desfile disfrazado; 泡湯 es el
+    establecidos: colecciona los seis sellos de
+    estructura 先…再… ordena dos
+    financiera. (p. 1)
+    hora abre la feria?») — el viernes abre al
+    inicia el invierno; 進補 es comer
+    invierno （立冬/進補）.
+    las Vías Verdes y ganarás un premio.
+    los meses fríos.
+    manera de decir las cosas. Esta semana:
+    mantiene y la invitación sigue abierta.
+    mediodía y los demás días a las 10:00.
+    más cercana.
+    ninguna publicable, así que el ejemplo se
+    ocurrió （立冬）.
+    palabras y se quedan: ganar
+    palabras útiles: 旅展 (feria de viajes), 攤位
+    placer otoñal de un baño termal.
+    puesto dentro de la feria; la feria de
+    reales y la mejor redacción de la página 8
+    significa publicar una foto para decir
+    significa que el rival anotó cero.
+    titulares de esta semana. Agrupa las
+    trabajo, pero en una feria o un festival
+    viajes cobrará sentido.
+    y después la manera en que se ganó
+    «estuve aquí». 討糖 es lo que los niños
+    「先去集章，再去看表演。」 — la
+    下期預告 · La próxima semana (VOL.3)
+    吉祥物大遊行 (desfile de mascotas).
+    完勝 significa ganar por mucho; 完封
+    完封 significa dejar al rival sin anotar, 0
+    封王 significa conquistar el campeonato;
+    延期披露：VOL.1曾預告本期起刊登真實
+    打卡 (registrarse con una foto), 討糖
+    打卡 empezó como fichar al entrar al
+    旅展 es la forma corta de 旅行展覽會
+    易錯診所 · Clínica de errores
+    本週句式 · Estructura de la semana
+    本週金句 · Frases de la semana — palabra por palabra de los artículos de este número
+    語言 · Enfoque lingüístico
+    語言聚焦 · 三個級別，三個主題 · Tres niveles, tres temas
+    讀者園地 · Rincón del lector
+    （完封） y después la estación en que
+    （封王、完封） e invierno （立冬、進補）.
+  p8-test (225 Latin-bearing nodes):
+    (138 caracteres))
+    1. B (La Semana FinTech abre el lunes 2 de noviembre.)
+    10. 11月9日 (La feria de viajes dura hasta el lunes 9 de noviembre.)
+    100. 45,000 (Se esperan más de 45.000 personas.)
+    101. 攤位 (Un puesto dentro de la feria es una 攤位.)
+    102. A (El desfile de mascotas se celebra a diario a las 14:00.)
+    103. 集章 (Coleccionar sellos en puntos establecidos es 集章.)
+    104. A (La feria de viajes está en el Centro de Exposiciones de Nangang.)
+    105. 封王 (Conquistar el título es 封王.)
+    106. A (完封 significa que el rival anota cero.)
+    107. 立冬 (Lidong inicia el invierno.)
+    108. A (El pato con jengibre es un plato de Lidong.)
+    109. A (En un festival, 打卡 significa publicar una foto para decir que
+    11. A (Lidong, el Inicio del Invierno, es el sábado 7 de noviembre.)
+    110. 討糖 (Pedir dulces en Halloween es 討糖.)
+    111. A (踩街 es un desfile callejero disfrazado.)
+    112. 泡湯 (Bañarse en aguas termales es 泡湯.)
+    113. A (La Semana FinTech abre el lunes 2 de noviembre.)
+    114. B (Lidong es el 7 de noviembre, no el 6.)
+    115. A (Los Dragons ganaron la serie por 4-2.)
+    116. B (El 6.º partido terminó 6-0, no 6-3.)
+    117. A (El festival de arena cerró el 26 de octubre.)
+    118. B (La feria de viajes abre al mediodía el 6 de noviembre, no a las
+    119. B (La conferencia principal es los días 2 y 3 de noviembre.)
+    12. B (El monzón del noreste enfría el norte de Taiwán.)
+    120. C (La feria de viajes dura hasta el lunes 9 de noviembre.)
+    121. A (El festival del acero dura hasta el 22 de noviembre.)
+    122. B (El desfile nocturno marchó el 25 de octubre a las 19:00.)
+    123. C (El Doble 11 es el miércoles 11 de noviembre.)
+    124. A (Mercedes permitió 1 carrera en 14 entradas.)
+    125. B (El desfile de mascotas se celebra a diario a las 14:00.)
+    126. A (La enciclopedia de senderos reúne 56 rutas.)
+    127. C (Horas totales de apertura: 6 + 8 + 8 + 8 = 30.)
+    128. B (El reto de sellos cubre 6 Vías Verdes.)
+    129. 金融科技 (Fintech: la tecnología que gestiona los servicios
+    13. A (La enciclopedia de senderos reúne 56 rutas.)
+    130. 立冬 (Lidong inicia el invierno.)
+    131. 完封 (Un partido sin carreras en contra: el rival anota cero.)
+    132. 封王 (Conquistar el título es 封王.)
+    133. 討糖 (Pedir dulces en Halloween es 討糖.)
+    134. 集章 (Coleccionar sellos es 集章.)
+    135. 南港 (La feria de viajes está en el Centro de Exposiciones de
+    136. 駁二 (Pier-2 acoge el festival del acero.)
+    137. 全球擴張 (Expansión global: vender productos en todo el mundo.)
+    138. 人工智慧 (La IA dentro de las finanzas es 人工智慧＋.)
+    139. B (Va a la feria de viajes el viernes al mediodía.)
+    14. B (El reto de sellos tiene 6 Vías Verdes.)
+    140. B (El desfile es a las 14:00.)
+    141. A (Un juego de 4 cupones cuesta 4.100 (precio de lista 8.200).)
+    142. A (Come pato con jengibre en Lidong el sábado.)
+    143. A (Orden: feria, después olla de Lidong y después el juego de
+    144. A (La feria de viajes abre el viernes al mediodía.)
+    145. B (Lidong es el primer término solar del invierno.)
+    146. A (Un partido sin carreras en contra significa que el rival anota cero.)
+    147. B (Los Dragons ganaron la serie por 4-2.)
+    148. A (El desfile de mascotas es a las 14:00 a diario.)
+    149. A (Compara precios primero y paga después: 先比價，再結帳.)
+    15. C (El Doble 11 cae el miércoles 11 de noviembre.)
+    150. ✓ (Pregunta abierta — el modelo está impreso arriba, en la sección F
+    16. A (Antes de pagar, comprueba los impuestos, el envío y las
+    17. 進補 (Una comida caliente en olla celebra Lidong: 進補.)
+    18. 外套 (Recuerda la chaqueta: las mañanas y las noches refrescan.)
+    19. 泡湯 (El otoño y el invierno son buenos para las aguas termales.)
+    2. A (La conferencia principal se celebra en el Centro de Convenciones y
+    20. 集章 (Colecciona sellos en las 6 Vías Verdes.)
+    21. 預算 (Fija un presupuesto antes de comprar en el Doble 11.)
+    22. 淡蘭古道 (El sendero Tamsui-Kavalan es una de las 6 Vías Verdes.)
+    23. B (2.400 + 1.600 = 4.000, justo el presupuesto.)
+    24. A (El presupuesto es 4.000 y el total es 4.000: nada por encima.)
+    25. a (立冬 — el término solar del Inicio del Invierno.)
+    26. b (進補 — comer alimentos calientes y nutritivos para el invierno.)
+    27. c (泡湯 — bañarse en aguas termales.)
+    28. d (集章 — coleccionar sellos en puntos establecidos.)
+    29. A (Lidong significa que empieza el invierno.)
+    3. C (Se esperan más de 45.000 personas.)
+    30. B (El pato con jengibre es un plato típico de Lidong.)
+    31. C (El festival del acero dura del 23 de octubre al 22 de noviembre.)
+    32. A (Entre las sedes está el almacén B3 de Penglai, en Pier-2.)
+    33. B (El festival de arena cerró el 26 de octubre.)
+    34. C (El festival de arena hizo más de 40 esculturas.)
+    35. 節氣 (Lidong es un término solar (節氣).)
+    36. 麻油雞 (El pollo con sésamo es un plato de Lidong.)
+    37. 鋼鐵 (El acero es el material y la memoria de Kaohsiung.)
+    38. 哈瑪星 (El parque ferroviario de Hamasen es una sede.)
+    39. 金色 (La arena de Fulong es dorada.)
+    4. B (La feria de viajes abre el viernes 6 de noviembre al mediodía.)
+    40. 侏羅紀世界 (Jurassic World es uno de los personajes de cine.)
+    41. C (29-31 de mayo (3) + 30 de junio + 31 de julio + 31 de agosto + 30 de
+    42. B (23-31 de octubre (9) + 22 de noviembre = 31 días.)
+    43. a (立冬 — el primer término solar del invierno.)
+    44. b (進補 — comida nutritiva antes del invierno.)
+    45. c (鋼雕 — escultura hecha de acero.)
+    46. d (沙雕 — escultura construida con arena.)
+    47. B (Los Dragons ganaron el 6.º partido por 6-0.)
+    48. C (La serie terminó 4-2 para los Dragons.)
+    49. A (Mercedes lanzó 8 entradas sin permitir carreras.)
+    5. 120 (Los participantes vienen de más de 120 economías.)
+    50. B (Mercedes fue nombrado MVP de la serie.)
+    51. A (El 6.º título de los Dragons en la historia del equipo.)
+    52. C (Tres partidos sin carreras en contra en una serie son un hecho
+    53. 大巨蛋 (El 6.º partido se jugó en el Domo de Taipéi.)
+    54. 完封 (Un partido sin carreras en contra: el rival anota cero.)
+    55. 封王 (Conquistar el título es 封王.)
+    56. 全壘打 (Una bola que sale del campo es un jonrón.)
+    57. 14 (Mercedes permitió 1 carrera en 14 entradas.)
+    58. 5 (Los Dragons anotaron 5 carreras en la 8.ª entrada.)
+    59. B (La 8.ª entrada: 5 carreras, la barra más grande.)
+    6. 800 (Participan más de 800 expositores y empresas emergentes.)
+    60. A (1 + 5 = 6 carreras en total.)
+    61. a (完封 — partido sin carreras en contra: el rival anota cero.)
+    62. b (封王 — conquistar el campeonato.)
+    63. c (全壘打 — un jonrón.)
+    64. d (安打 — un hit.)
+    65. B (El desfile nocturno marchó el domingo 25 de octubre a las 19:00.)
+    66. A (El evento principal duró de 13:00 a 20:00 en el parque deportivo de
+    67. C (250 tiendas repartieron dulces.)
+    68. B (Se repartieron 4.500 cubos de calabaza.)
+    69. A (El desfile de mascotas se celebra a diario a las 14:00.)
+    6大綠道集章挑戰有幾個集章點？ A. 4個 · B. 6個 · C. 9個
+    7. 123 (La feria de viajes reúne a 123 países y ciudades.)
+    70. B (Las tarifas económicas a menudo excluyen el equipaje facturado.)
+    71. 忠誠路 (El desfile marchó por la calle Zhongcheng.)
+    72. 塔麻歌子 (La colaboración del 30.º aniversario de Tamagotchi.)
+    73. 花笠舞 (La danza del sombrero de flores de Yamagata actúa en el
+    74. 預算 (Fija un presupuesto antes del Doble 11.)
+    75. 行李費 (Suma las tasas de equipaje antes de comparar tarifas.)
+    76. 購物車 (Haz primero la lista de tu carrito y después borra lo que no
+    77. B (6.200 − 1.200 = 5.000, justo el presupuesto.)
+    78. A (El desfile empieza a las 19:00; el evento principal, al día siguiente a
+    79. a (討糖 — pedir dulces en Halloween.)
+    8. 1,600 (La feria de viajes tiene 1.600 casetas.)
+    80. b (踩街 — desfilar por las calles disfrazado.)
+    81. c (南瓜桶 — un cubo de calabaza para dulces.)
+    82. d (打卡 — registrarse con una foto en redes sociales.)
+    83. A (El 6 de noviembre es el día más corto: 6 horas.)
+    84. B (El 8 de noviembre dura de 10:00 a 18:00: 8 horas.)
+    85. C (6 + 8 + 8 + 8 = 30 horas en total.)
+    86. A (El 6 de noviembre abre al mediodía, no a las 10:00.)
+    87. B (Finanzas+ significa finanzas más tecnología.)
+    88. A (La IA ayuda a leer datos, detectar riesgos y responder a los
+    89. C (La expansión global significa vender productos en todo el mundo.)
+    9. 立冬 (El sábado 7 de noviembre es el término solar del Inicio del
+    90. B (Participan más de 1.000 ponentes.)
+    91. A (La conferencia principal dura los días 2 y 3 de noviembre.)
+    92. C (Los eventos comunitarios son más de 100 durante la semana.)
+    93. 支付 (Los pagos son uno de los temas de la conferencia principal.)
+    94. 數位資產 (Los activos digitales son un tema de la conferencia
+    95. 保險科技 (La tecnología de seguros es un tema de la conferencia
+    96. 牽線 (La semana conecta a las empresas emergentes con el mundo.)
+    97. 30 (Horas totales de apertura: 30.)
+    98. 12 (El 6 de noviembre abre al mediodía (12:00).)
+    99. 1,600 (La feria de viajes tiene 1.600 casetas.)
+    A · 判斷對錯 · Verdadero o falso
+    A2
+    B · 本週大測驗 · El gran cuestionario
+    B. 先吃自助餐，再看旅展 · C. 先吃薑母鴨，再看旅展，再買券
+    B1
+    B2
+    C · 完成句子 · Completa las frases
+    Completa
+    D · 讀一讀，答一答 · Lee y responde
+    E · 情景說話 · Diálogo en contexto
+    Exposiciones de Hong Kong.)
+    F · 寫一寫 · A escribir
+    Invierno.)
+    Lucerna
+    Lucerna · SEMANARIO CHINO TRADICIONAL VOL.2 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    Nangang.)
+    Página 8 de 8
+    Redacción
+    Redacción — no hay una única respuesta
+    Respuesta modelo: 旅展從11月6日到11月9日。我想週六去南港展
+    Tianmu.)
+    Todas las notas en español · ✓ = el modelo de redacción
+    caracteres.
+    clientes.)
+    correcta. A continuación va un modelo de 138
+    cupones para un bufé.)
+    devoluciones.)
+    escenario.)
+    estuviste allí.)
+    financieros.)
+    inédito.)
+    las 13:00.)
+    necesites.)
+    principal.)
+    septiembre + 26 de octubre = 151 días.)
+    — Página 1 —
+    — Página 2 —
+    — Página 3 —
+    — Página 4 —
+    — Página 5 —
+    — Página 6 —
+    — Página 7 —
+    — Página 8 —
+    — 什麼叫完封？ — 對手得___分。(A. 0 · B. 6)
+    — 台灣大賽誰封王？ — 味全龍，___勝2敗。(A. 3 · B. 4)
+    — 吉祥物大遊行每天幾點？ — 下午___點。(A. 2 · B. 7)
+    — 旅展哪天開？ — 週五___開幕。（A. 中午12點 · B. 晚上7點）
+    — 立冬是什麼意思？ — 冬天___的日子。（A. 結束 · B. 開始）
+    — 雙11怎麼買才聰明？ — 先___，再結帳。（A. 比價 · B. 亂買）
+    一組探索廚房自助餐券4張一共多少錢？ A. 4,100元 · B. 8,200元 · C.
+    台北旅展展到哪天？ A. 11月7日 · B. 11月8日 · C. 11月9日
+    台灣大賽第六戰比數是6比3。（A. 對 · B. 錯）
+    吉祥物大遊行在週五幾點？ A. 12:00 · B. 14:00 · C. 19:00
+    味全龍4勝2敗拿下台灣大賽。（A. 對 · B. 錯）
+    天母百鬼夜行踩街在哪天晚上？ A. 10月24日 · B. 10月25日 · C.
+    旅展4天總開放時數是幾小時？ A. 24 · B. 28 · C. 30
+    旅展吉祥物大遊行每天幾點？ A. 12:00 · B. 14:00 · C. 19:00
+    旅展首日上午10點開門。（A. 對 · B. 錯）
+    梅賽鍶台灣大賽2場先發，共失幾分？ A. 1分 · B. 3分 · C. 6分
+    步道大百科收錄幾條路線？ A. 56條 · B. 36條 · C. 16條
+    測驗與答案 · Examen y respuestas
+    福隆沙雕藝術季10月26日結束。（A. 對 · B. 錯）
+    立冬在11月6日。（A. 對 · B. 錯）
+    第 8 版 · 本週大測驗 + 全部答案 · El examen de la semana y todas las respuestas
+    答案 · Respuestas — en orden de páginas, con una nota breve en español para cada ejercicio
+    這三天他的順序是？ A. 先看旅展，再吃薑母鴨，再買餐券去吃自助餐 ·
+    金融科技週主會議是哪兩天？ A. 11月1、2日 · B. 11月2、3日 · C.
+    鋼雕藝術節在高雄___蓬萊區B3倉庫等地舉行。
+    阿哲週五中午去哪裡？ A. 大巨蛋 · B. 南港展覽館 · C. 駁二
+    阿哲週六和家人吃什麼？ A. 薑母鴨 · B. 冰品 · C. 生魚片
+    雙11是星期幾？ A. 週一 · B. 週二 · C. 週三
+    香港金融科技週週一（11月2日）開幕。（A. 對 · B. 錯）
+    高雄鋼雕藝術節展到哪天？ A. 11月22日 · B. 11月8日 · C. 11月2日
+== 5. Traditional-independence cross-check ==
+  union chars: 1024, edition chars: 766, outside union: 0
+  s2t: opencc not installed, skipped
+== 6. P7 phrases ==
+  p. 1 count=2 OK 「用手機轉帳、掃碼付款、網上買保險，都是金融科技」-> Pagar con el móvil, escanear para pagar, comprar un seguro en línea: eso es la tecnología financiera.
+  p. 1 count=2 OK 「123個國家及城市、1,600個攤位」-> 123 países y ciudades, 1.600 casetas.
+  p. 2 count=2 OK 「需要才買，不要為了折扣買一堆用不到的東西」-> Compra lo que necesites; no compres un montón de cosas que no usarás solo por un descuento.
+  p. 3 count=2 OK 「在高雄，鋼鐵也能變成舞台」-> En Kaohsiung, hasta el acero puede convertirse en escenario.
+  p. 3 count=2 OK 「福隆的夏天，在10月26日畫下句點」-> El verano de Fulong llegó a su fin el 26 de octubre.
+  p. 4 count=2 OK 「6比0完封兄弟，龍隊拋下紅色彩帶」-> Un 6-0 sin carreras en contra ante los Brothers, y los Dragons lanzaron las cintas rojas.
+  p. 5 count=2 OK 「250家店家一起討糖」-> 250 tiendas repartiendo dulces juntas.
+  p. 6 count=2 OK 「旅展首日中午12點才開門」-> El primer día de la feria las puertas abren solo al mediodía.
+== 7. image payloads ==
+  p1-front: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Wilfredor — CC0 (Wikimedia Commons)']
+  p2-life: core 1 edition 1 identical=True
+    credits identical=True ['Photo: CorraleH — CC0 (Wikimedia Commons)']
+  p3-culture: core 0 edition 0 identical=True
+  p4-sport: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Bain News Service — Public domain (Wikimedia']
+  p5-youth: core 1 edition 1 identical=True
+    credits identical=True ['Photo: Benjamin Balazs — CC0 (Wikimedia Commons)']
+  p6-deep: core 0 edition 0 identical=True
+  p7-lang: core 0 edition 0 identical=True
+  p8-test: core 0 edition 0 identical=True

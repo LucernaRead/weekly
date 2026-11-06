@@ -1,0 +1,13 @@
+pre nodes: 330 post nodes: 330
+DIFF node 310
+ pre : 1451 2059.7000000000016 "135. 数字 (shùzì — the AI film's characters are digital images.)"
+ post: 1451 2059.7000000000016 '135. 数字 (shùzì — i personaggi del film AI sono immagini digitali.)'
+ x/y identical: True True
+total differing nodes: 1
+134 pre ('2030.4720000000016', '134. 饺子 (jiǎozǐ — le famiglie del nord li mangiano a lìdōng.)') post ('2030.4720000000016', '134. 饺子 (jiǎozǐ — le famiglie del nord li mangiano a lìdōng.)')
+135 pre ('2059.7000000000016', "135. 数字 (shùzì — the AI film's characters are digital images.)") post ('2059.7000000000016', '135. 数字 (shùzì — i personaggi del film AI sono immagini digitali.)')
+136 pre ('2088.9280000000017', '136. 票房 (piàofáng — incassi al botteghino.)') post ('2088.9280000000017', '136. 票房 (piàofáng — incassi al botteghino.)')
+last key lines post: 111 ('2530.476000000003', '111. B (Prima i dati e la pagina di pagamento; il titolo per ultimo.)') 150-first ('2513.5480000000025', '150. ✓ (Domanda aperta — il modello è nella sezione F di questa')
+post 2528 node: 2528.9760000000024 'pagina, 172 caratteri)'
+post >=2528: 2530.476000000003 '111. B (Prima i dati e la pagina di pagamento; il titolo per ultimo.)'
+post >=2528: 2528.9760000000024 'pagina, 172 caratteri)'

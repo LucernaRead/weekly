@@ -1,0 +1,109 @@
+== 1. ADVANCE right-edge scan (inner frame x=1910) ==
+  worst advance end: 1885.0 (frame 1910); flags: 0
+== 2. Rect-border frame scan (ink vs stroked rect borders) ==
+  border-crossing flags: 0
+== 3. Same-baseline ink overlap scan (0.6px tolerance) ==
+  same-baseline overlap flags: 0
+== 4. P6 table-label coverage (later rects, getmetrics-anchored ink) ==
+  label y=1303.0 cov=0.0% '구분'
+  label y=1303.0 cov=0.0% '이번 주 (11월 2~8일)'
+  label y=1303.0 cov=0.0% '시험 날 (11월 19일)'
+  label y=1355.0 cov=0.0% '날짜 세기'
+  label y=1355.0 cov=0.0% 'D-17 ~ D-12'
+  label y=1355.0 cov=0.0% 'D-데이'
+  label y=1407.0 cov=0.0% '분위기'
+  label y=1407.0 cov=0.0% '카운트다운'
+  label y=1407.0 cov=0.0% '시험 당일'
+  label y=1459.0 cov=0.0% '특별 조치'
+  label y=1459.0 cov=0.0% '없어요 (평상시)'
+  label y=1459.0 cov=0.0% '있어요 (10시 출근 등)'
+  P6 labels: 12, worst coverage 0.0% (gate <30%)
+== 5. Rendered-line window scan (dy in 10..45) ==
+  window line-start flags: 0
+== 6. P8 keys flow end + P7 teaser end ==
+  P8 keys lines: 165; max baseline 2528.85, ink bottom 2532.60 (gate <2540)
+  last keys lines: [(2516.5480000000025, 2520.0480000000025, '37. 현장 — La fête sur place com'), (2516.548000000003, 2520.048000000003, "113. A — L'Ipdong tombe le sam"), (2528.8480000000027, 2532.5980000000027, "76. 1,312 — Centres d'examen d")]
+  P7 dark rects (teaser band): [('52', '52', '1846', '98'), ('65', '2401.94', '1820', '118')] -> teaser end [150.0, 2519.94]
+== 7. Gloss counts (split rendered gloss()/glossline() strings on ·) ==
+  (see gloss_compare.py output for core-vs-edition counts)
+== 8. Phrase occurrence counts (whole issue, spaceless) ==
+  edition: phrase counts [5, 2, 4, 2, 2, 2, 2, 2] (expected core 5/2/4/2/2/2/2/2)
+    phrase 1면: whole-issue 5, tagged-page 3
+    phrase 1면: whole-issue 2, tagged-page 1
+    phrase 1면: whole-issue 4, tagged-page 1
+    phrase 2면: whole-issue 2, tagged-page 1
+    phrase 3면: whole-issue 2, tagged-page 1
+    phrase 4면: whole-issue 2, tagged-page 1
+    phrase 5면: whole-issue 2, tagged-page 1
+    phrase 6면: whole-issue 2, tagged-page 1
+  core: phrase counts [5, 2, 4, 2, 2, 2, 2, 2] (expected core 5/2/4/2/2/2/2/2)
+    phrase 1면: whole-issue 5, tagged-page 3
+    phrase 1면: whole-issue 2, tagged-page 1
+    phrase 1면: whole-issue 4, tagged-page 1
+    phrase 2면: whole-issue 2, tagged-page 1
+    phrase 3면: whole-issue 2, tagged-page 1
+    phrase 4면: whole-issue 2, tagged-page 1
+    phrase 5면: whole-issue 2, tagged-page 1
+    phrase 6면: whole-issue 2, tagged-page 1
+== 9. Image payloads ==
+  edition p1-pyoji.svg: 1 images [('535fff46b7ce', '6f7f33ed8f40')]
+  edition p2-saenghwal.svg: 1 images [('e66d2b455ec6', '96a6a19b612a')]
+  edition p3-munhwa.svg: 2 images [('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')]
+  edition p4-seupocheu.svg: 1 images [('1a7e7d6d5ffc', '18ad8ae06fac')]
+  edition p5-cheongnyeon.svg: 1 images [('6a1bab177d54', '35e7dc69d417')]
+  edition p6-gipi.svg: 0 images []
+  edition p7-mal.svg: 0 images []
+  edition p8-siheom.svg: 0 images []
+  edition per-page counts: [1, 1, 2, 1, 1, 0, 0, 0]
+  core p1-pyoji.svg: 1 images [('535fff46b7ce', '6f7f33ed8f40')]
+  core p2-saenghwal.svg: 1 images [('e66d2b455ec6', '96a6a19b612a')]
+  core p3-munhwa.svg: 2 images [('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')]
+  core p4-seupocheu.svg: 1 images [('1a7e7d6d5ffc', '18ad8ae06fac')]
+  core p5-cheongnyeon.svg: 1 images [('6a1bab177d54', '35e7dc69d417')]
+  core p6-gipi.svg: 0 images []
+  core p7-mal.svg: 0 images []
+  core p8-siheom.svg: 0 images []
+  core per-page counts: [1, 1, 2, 1, 1, 0, 0, 0]
+== 10. Wrap-log orphan scan ==
+  unique wrap records: 535
+  post-kinsoku line-start NO_START flags: 0
+  mid-word splits tail>=3 syllables: 0
+  lone final-line fragments (<=3 chars, adjudicate): 5
+   LONE ('KIA가 3연승으로 올라갔어요 — 가을야구 소식', '소식')
+   LONE ('3차전은 어디에서 열렸어요? A. 광주 · B. 잠실 · C. 대구', '대구')
+   LONE ('특별 조치는 11월 2일부터 적용돼요. A. 맞다 · B. 틀리다', '틀리다')
+   LONE ('시험 날 비행기는 평소대로 다녀요. A. 맞다 · B. 틀리다', '틀리다')
+   LONE ('이번 주는 카운트다운 분위기예요. A. 맞다 · B. 틀리다', '틀리다')
+== 11. Below-box spill candidates (baseline within 45px under a stroked rect bottom, x inside rect) ==
+  spill candidates: 31
+   SPILL? ('p1-pyoji.svg', 1626.0, 1660.0, '이번 주의 말 · Le mot de la semaine')
+   SPILL? ('p1-pyoji.svg', 2194.0, 2218.0, '가을 산골짜기의 단풍. (홋카이도 핫코다산 자료 사진) 한국의 단풍 이야기는 3면에 있어요')
+   SPILL? ('p1-pyoji.svg', 2304.0, 2348.0, 'Lisez la une, choisissez la bonne réponse · Répons')
+   SPILL? ('p2-saenghwal.svg', 1172.7, 1209.7, '산불조심기간이 시작됐어요')
+   SPILL? ('p2-saenghwal.svg', 909.0, 946.0, '겨울 밥상')
+   SPILL? ('p2-saenghwal.svg', 890.0, 927.0, '시장에서 김장 준비')
+   SPILL? ('p2-saenghwal.svg', 430.0, 454.0, '쌈 채소와 쌈장. 겨울 식탁의 한국 음식이에요. 김장')
+   SPILL? ('p2-saenghwal.svg', 1768.0, 1794.0, '문장으로 외워요: 「수능까지 17일 남았어요. 오늘이 D-17예요.」')
+   SPILL? ('p3-munhwa.svg', 728.0, 765.0, '청송사과축제 — 현장 행사가 시작돼요')
+   SPILL? ('p3-munhwa.svg', 1318.9, 1355.9, '단풍 구경, 이렇게 가세요')
+   SPILL? ('p3-munhwa.svg', 464.9, 501.9, '가을 산책의 옷차림')
+   SPILL? ('p3-munhwa.svg', 385.0, 409.0, '북한산우이역 승강장. 북한산으로 가는 길이에요.')
+   SPILL? ('p3-munhwa.svg', 1054.8, 1078.8, '사과는 가을의 과일이에요. 화가 세잔이')
+   SPILL? ('p4-seupocheu.svg', 345.7, 382.7, '야구장의 응원')
+   SPILL? ('p4-seupocheu.svg', 711.6, 748.6, '결과 없는 경기')
+   SPILL? ('p4-seupocheu.svg', 1386.0, 1420.0, '위 그림은 가을야구의 순서예요. 지금은 세 번째 칸, 플레이오프예요.')
+   SPILL? ('p4-seupocheu.svg', 440.0, 464.0, '20세기 초 미국의 야구팀. 야구의 가을은 길어요.')
+   SPILL? ('p5-cheongnyeon.svg', 1446.9, 1483.9, '할로윈 — 미리 알려진 안전 계획')
+   SPILL? ('p5-cheongnyeon.svg', 703.0, 740.0, '합격 기원 음식')
+   SPILL? ('p5-cheongnyeon.svg', 430.0, 454.0, '도서관에서 공부하는 학생들. 수험생에게 가을은')
+   SPILL? ('p6-gipi.svg', 592.0, 629.0, '뉴스의 날짜 찾기')
+   SPILL? ('p6-gipi.svg', 1320.0, 1355.0, '날짜 세기')
+   SPILL? ('p6-gipi.svg', 1320.0, 1355.0, 'D-17 ~ D-12')
+   SPILL? ('p6-gipi.svg', 1320.0, 1355.0, 'D-데이')
+   SPILL? ('p6-gipi.svg', 1372.0, 1407.0, '분위기')
+   SPILL? ('p6-gipi.svg', 1372.0, 1407.0, '카운트다운')
+   SPILL? ('p6-gipi.svg', 1372.0, 1407.0, '시험 당일')
+   SPILL? ('p6-gipi.svg', 1424.0, 1459.0, '특별 조치')
+   SPILL? ('p6-gipi.svg', 1424.0, 1459.0, '없어요 (평상시)')
+   SPILL? ('p6-gipi.svg', 1424.0, 1459.0, '있어요 (10시 출근 등)')
+   SPILL? ('p6-gipi.svg', 1476.0, 1506.0, '표의 자료: 교육부 발표 (10월 20일) — 조치는 11월 19일에만 적용돼요. 이번 주')

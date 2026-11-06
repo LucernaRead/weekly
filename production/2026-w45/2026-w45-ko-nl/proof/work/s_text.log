@@ -1,0 +1,147 @@
+== A. CJK/Han per page (ed vs core) ==
+  p1-pyoji.svg: CJK 1450->1337 Han 109->0 added={} removed_n=113 removed={'제': 1, '每': 1, '周': 5, '一': 1, '期': 5, '立': 4, '冬': 7, '在': 1, '月': 1, '日': 2, '六': 1, '泡': 2}
+  p2-saenghwal.svg: CJK 1591->1358 Han 189->0 added={} removed_n=233 removed={'生': 1, '活': 1, '과': 1, '泡': 1, '菜': 1, '季': 1, '与': 1, '过': 3, '冬': 3, '准': 1, '备': 1, '韩': 4}
+  p3-munhwa.svg: CJK 1512->1346 Han 124->0 added={} removed_n=166 removed={'文': 1, '化': 1, '말': 1, '红': 3, '叶': 3, '最': 1, '后': 1, '一': 1, '周': 2, '의': 2, '에': 1, '읽': 1}
+  p4-seupocheu.svg: CJK 1225->1074 Han 92->0 added={} removed_n=151 removed={'体': 2, '育': 1, '을': 4, '秋': 1, '季': 1, '棒': 1, '球': 1, '消': 1, '息': 1, '으': 2, '로': 1, '요': 4}
+  p5-cheongnyeon.svg: CJK 1420->1234 Han 131->0 added={} removed_n=186 removed={'青': 2, '年': 2, '로': 2, '高': 1, '考': 2, '倒': 1, '计': 1, '时': 2, '与': 1, '万': 1, '圣': 1, '节': 1}
+  p6-gipi.svg: CJK 1269->1136 Han 75->0 added={} removed_n=133 removed={'이': 1, '읽': 1, '深': 1, '读': 2, '을': 4, '는': 2, '高': 1, '考': 2, '倒': 1, '计': 1, '时': 1, '法': 1}
+  p7-mal.svg: CJK 1285->1064 Han 217->0 added={} removed_n=221 removed={'语': 2, '言': 1, '제': 1, '三': 3, '个': 3, '级': 1, '别': 1, '主': 1, '题': 1, '면': 2, '正': 2, '式': 4}
+  p8-siheom.svg: CJK 2465->1222 Han 1199->0 added={'절': 1} removed_n=1244 removed={'답': 1, '测': 7, '验': 1, '与': 2, '答': 2, '案': 2, '제': 10, '면': 10, '의': 1, '은': 1, '에': 2, '요': 3}
+== B. P8 reconstructed items: ed=150 core=150 ed_nums_1..150=True
+   seps ed=['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —'] core=['— 제1면 —', '— 제2면 —', '— 제3면 —', '— 제4면 —', '— 제5면 —', '— 제6면 —', '— 제7면 —', '— 제8면 —']
+   #104 ED : 104. A — 절기 = de 24 seizoenen van het jaar
+   #104 CORE: 104. A — 节气＝一年24个时节
+   #109 ED : 109. 기준 — Andere criteria, andere data (blz. 3)
+   #109 CORE: 109. 기준 — 日期不同因标准不同（3版）
+   #115 ED : 115. A — Examen Koreaanse geschiedenis: zaterdag 28 november
+   #115 CORE: 115. A — 韩史考试在11月28日周六
+   #136 ED : 136. 수험생은 도서관에서 공부해요. — Plaats van de handeling: «에서»
+   #136 CORE: 136. 수험생은 도서관에서 공부해요. — 动作场所用「에서」
+   #137 ED : 137. 7 november is Ipdong. — Zie blz. 1
+   #137 CORE: 137. 11月7日是立冬。 — 对照第 1 版
+   #138 ED : 138. Nog 12 dagen tot het examen. — Zie blz. 5
+   #138 CORE: 138. 离高考还剩 12 天。 — 对照第 5 版
+   #139 ED : 139. 특별 조치는 11월 19일에만 적용돼요. — Zie blz. 6
+   #139 CORE: 139. 특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版
+   #140 ED : 140. 저는 토요일에 내장산에 단풍을 보러 가요. — Zie blz. 3
+   #140 CORE: 140. 저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版
+   #150 ED : 150. ✓ Het voorbeeld staat in deel H van deze pagina (157 tekens)
+   #150 CORE: 150. ✓ 范文见本版 H 区（157 字）
+   P8 note-segment Han total (excl #150 apparatus): 0 issues=[]
+   P8 notes containing Hangul citations: {25: '김장=winterkimchi a', 26: '월동 준비=wintervoorbereiding c', 27: '산불조심=pas op met vuur in de bergen d', 28: '한능검=korte naam van het examen Koreaanse geschiedenisb', 34: 'De mooiste herfstkleur heet 절정', 43: '내장산=tussen twee voorspellingen b', 44: '월출산=avond vóór 9 november a', 45: '북한산=na 4 november, lagere paden later d', 46: '설악산=waargenomen op 16 oktober c', 57: 'De verleden tijd van 이기다 is 이겼어요', 58: 'De verleden tijd van 열리다 is열렸어요', 59: 'De verleden tijd van 미뤄지다 is미뤄졌어요', 60: 'De verleden tijd van 바뀌다 is바뀌었어요', 61: '준플레이오프=KIA met drie zeges b', 62: '플레이오프=KIA tegen Samsung d', 63: '한국시리즈=kt wacht a', 64: '온대저기압=verandering van de tyfoon op 26 oktober c', 104: '절기 = de 24 seizoenen van het jaar', 135: '보러 가요 = gaan kijken', 136: 'Plaats van de handeling: «에서»', 141: '입동=begin van de winter a', 142: '절정=hoogtepunt, de mooiste tijd b', 143: '김장=winterkimchi c', 144: '온대저기압=verandering van de tyfoon op 26 oktober d'}
+== C. furniture core: masthead=('Lucerna', 975.0, 262.0, 168.0) subtitle_y=372.0 badge=None lines=[112.0, 392.0, 401.0] bands=[(424.0, 118.0, '#2c2822')] bandtexts=[('11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝', 478.0), ('김장철이 열리고, 수능까지 12일이 남아요. 이번 주의 달력은 오른쪽을 보세요.', 522.0), ('立冬', 478.0), ('立冬在 11 月 7 日周六 · 泡菜季开始', 522.0)] footer=['Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY', '제 1 면 / 총 8 면']
+== C. furniture w43: masthead=('Lucerna', 975.0, 262.0, 168.0) subtitle_y=366.0 badge=('Lucerna · KOREAANS WEEKBLAD VOL.1 · TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS', 2624.0, 20.0, '#57523f', None) lines=[112.0, 412.0, 421.0] bands=[(433.0, 118.0, '#2c2822')] bandtexts=[('태풍 참피가 오고 있어요 — 주말 날씨를 꼭 확인하세요!', 487.0), ('가을야구 준플레이오프도 이번 주에 끝나요. 이긴 팀은 일요일에 삼성을 만나요.', 531.0), ('DE TYFOON TREKT NOORDWAARTS', 487.0), ('Controleer dit weekend het nieuwste weerbericht · Voorbereiding op blz. 2', 531.0)] footer=['Lucerna · KOREAANS WEEKBLAD VOL.1 · TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+== C. furniture ed: masthead=('Lucerna', 975.0, 262.0, 168.0) subtitle_y=366.0 badge=('Lucerna · KOREAANS WEEKBLAD VOL.2 · TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS', 2624.0, 20.0, '#57523f', None) lines=[112.0, 412.0, 421.0] bands=[(433.0, 118.0, '#2c2822')] bandtexts=[('11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝', 487.0), ('김장철이 열리고, 수능까지 12일이 남아요. 이번 주의 달력은 오른쪽을 보세요.', 531.0), ('IPDONG', 487.0), ('Ipdong op zaterdag 7 november · Begin van het kimjangseizoen', 531.0)] footer=['Lucerna · KOREAANS WEEKBLAD VOL.2 · TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+   gloss_prefix: ed_n=20 w43_n=9 ed_sample=[('p1-pyoji.svg', 'Uitleg — 입동 = Ipdong · 절정 = piek ·'), ('p2-saenghwal.svg', 'Uitleg — 절이다 = inzouten · 버무리다 =')] w43_sample=[('p1-pyoji.svg', 'Uitleg — 북상하다 = naar het noorden'), ('p2-saenghwal.svg', 'Uitleg — 단단히 = stevig, goed vast ·')] equal_texts=False
+   ex_header: ed_n=5 w43_n=5 ed_sample=[('p2-saenghwal.svg', '연습 · Oefeningen blz. 2'), ('p3-munhwa.svg', '연습 · Oefeningen blz. 3')] w43_sample=[('p2-saenghwal.svg', '연습 · Oefeningen blz. 2'), ('p3-munhwa.svg', '연습 · Oefeningen blz. 3')] equal_texts=True
+   ex_right: ed_n=5 w43_n=5 ed_sample=[('p2-saenghwal.svg', 'Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer'), ('p3-munhwa.svg', 'Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer')] w43_sample=[('p2-saenghwal.svg', 'Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer'), ('p3-munhwa.svg', 'Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer')] equal_texts=True
+   p1_quiz_right: ed_n=1 w43_n=1 ed_sample=[('p1-pyoji.svg', 'Lees de voorpagina en kies het juiste antwoord · Antwoorden op blz. 8')] w43_sample=[('p1-pyoji.svg', 'Lees de voorpagina en kies het juiste antwoord · Antwoorden op blz. 8')] equal_texts=True
+   p8_header: ed_n=1 w43_n=1 ed_sample=[('p8-siheom.svg', '답 · Antwoorden — per pagina, zoek het nummer op')] w43_sample=[('p8-siheom.svg', '답 · Antwoorden — per pagina, zoek het nummer op')] equal_texts=True
+   p8_header_right: ed_n=1 w43_n=1 ed_sample=[('p8-siheom.svg', 'Bij elk antwoord een korte notitie in het Nederlands · ✓ = opgave met voorbeeld')] w43_sample=[('p8-siheom.svg', 'Bij elk antwoord een korte notitie in het Nederlands · ✓ = opgave met voorbeeld')] equal_texts=True
+== D. rendered gloss (units/items) ==
+   p1-pyoji.svg: ed 1u/5i core 1u/5i
+   p2-saenghwal.svg: ed 8u/19i core 8u/19i
+   p3-munhwa.svg: ed 7u/16i core 7u/16i
+   p4-seupocheu.svg: ed 6u/10i core 6u/10i
+   p5-cheongnyeon.svg: ed 8u/16i core 8u/16i
+   p6-gipi.svg: ed 7u/12i core 7u/12i
+   p7-mal.svg: ed 3u/6i core 3u/6i
+   p8-siheom.svg: ed 1u/1i core 1u/1i
+   TOTAL ed=85 core=85
+   P8 ed detail: [{'x': 989.0, 'lines': 2, 'items': 1, 'joined': 'Schrijfopgave (niet één juist antwoord).Hieronder een voorbeeld van 157 tekens.'}]
+   P7 ed detail: [{'x': 65.0, 'lines': 1, 'items': 2, 'joined': '본격적 = echt, volledig · 나다 = voorbijgaan.'}, {'x': 527.0, 'lines': 1, 'items': 2, 'joined': '남다 = overblijven · 바로 = precies.'}, {'x': 989.0, 'lines': 2, 'items': 2, 'joined': '짐작하다 = vermoeden · 나누다 =onderscheiden.'}]
+== E. golden sentences ==
+   11월 7일은 입동이에요... tag=p1-pyoji.svg core=5 ed=5 on_tag_ed=True on_tag_co=True
+   절정에 가까운 주말이라고만 말할 수 있어요... tag=p1-pyoji.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+   김장은 겨울 내내 먹는 김치를 담그는 일이에... tag=p1-pyoji.svg core=4 ed=4 on_tag_ed=True on_tag_co=True
+   수능까지 17일 남았어요. 오늘이 D-17예... tag=p2-saenghwal.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+   낮은 길은 더 늦게 물들어요... tag=p3-munhwa.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+   KIA 타이거즈가 LG 트윈스를 3연승으로 ... tag=p4-seupocheu.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+   온 나라가 수험생을 응원해요... tag=p5-cheongnyeon.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+   날짜를 먼저 보세요... tag=p6-gipi.svg core=2 ed=2 on_tag_ed=True on_tag_co=True
+== E2. P7 phrases: verbatim in tagged article + Dutch line tag ==
+   11월 7일은 입동이에요... in_tagged_article_ed=True P7_lines_with_(1면)=['7 november is Ipdong. (1면)', 'Je kunt alleen zeggen: een weekend dicht bij het hoogtepunt. (1면)', 'Kimjang is winterkimchi maken. (1면)']
+   절정에 가까운 주말이라고만 말할 수 있어요... in_tagged_article_ed=True P7_lines_with_(1면)=['7 november is Ipdong. (1면)', 'Je kunt alleen zeggen: een weekend dicht bij het hoogtepunt. (1면)', 'Kimjang is winterkimchi maken. (1면)']
+   김장은 겨울 내내 먹는 김치를 담그는 일이에... in_tagged_article_ed=True P7_lines_with_(1면)=['7 november is Ipdong. (1면)', 'Je kunt alleen zeggen: een weekend dicht bij het hoogtepunt. (1면)', 'Kimjang is winterkimchi maken. (1면)']
+   수능까지 17일 남았어요. 오늘이 D-17예... in_tagged_article_ed=True P7_lines_with_(2면)=['Nog 17 dagen tot het examen. Vandaag is het D-17. (2면)']
+   낮은 길은 더 늦게 물들어요... in_tagged_article_ed=True P7_lines_with_(3면)=['설악산 실제 관측은 10월 16일이었어요. (3면)', 'Lagere paden kleuren later rood. (3면)']
+   KIA 타이거즈가 LG 트윈스를 3연승으로 ... in_tagged_article_ed=True P7_lines_with_(4면)=['KIA versloeg LG Twins met drie zeges op rij. (4면)']
+   온 나라가 수험생을 응원해요... in_tagged_article_ed=True P7_lines_with_(5면)=['Het hele land moedigt de kandidaten aan. (5면)']
+   날짜를 먼저 보세요... in_tagged_article_ed=True P7_lines_with_(6면)=['Kijk eerst naar de datum. (6면)']
+== F. essay: ed_found_at=2142 core_found_at=1972
+   MODELO equal=True len_nospace ed=157 core=157 opens=나의 겨울 준비는 김장부터 시작해요. 토요일
+   MODELO ed == P8 printed essay region? ed_svg_contains_opening=True core_svg_contains=True
+== G. letters col (x=1473) ==
+   ed lines=18 core lines=15
+   ED (1205.96, 1207.96, '〜까지예요?»')
+   ED (1272.44, 1274.69, '독자의 편지 · Lezersbrieven')
+   ED (1319.44, 1322.19, '「안녕하세요. 저는 대학생이에요.')
+   ED (1349.97, 1352.47, '토요일에는 내장산에 단풍을 보러 가요.')
+   ED (1380.5, 1383.0, '일요일에는 집에서 김장을 도와요. 겨울이')
+   ED (1411.03, 1413.78, '와도 따뜻하게 지내고 싶어요.」 — 독자')
+   ED (1441.56, 1444.06, '편지의 예')
+   ED (1502.09, 1507.09, 'Voorbeeldbrief van de redactie, geen')
+   ED (1530.49, 1530.74, 'echte brief.')
+   ED (1589.89, 1592.39, '알려요: 이 편지는 편집부가 쓴 예예요. 마감')
+   ED (1619.0, 1621.75, '때까지 진짜 독자 편지와 8면 쓰기 우수작이')
+   ED (1648.11, 1651.86, '도착하지 않았어요. 그래서 예가 실렸고,')
+   ED (1677.22, 1679.97, '지난 호의 약속은 VOL.3으로 이어져요.')
+   ED (1736.33, 1741.33, 'Tot de deadline kwamen er geen echte')
+   ED (1764.73, 1769.73, 'brieven en geen beste teksten van blz. 8')
+   ED (1793.13, 1797.88, 'binnen: het voorbeeld blijft staan en de')
+   ED (1821.53, 1821.78, 'belofte schuift door naar VOL.3. Stuur ons')
+   ED (1849.93, 1854.68, 'je brief en je beste tekst van blz. 8 op!')
+   Korean-script letters lines equal (as multisets, order-insensitive)=False
+   Korean lines ed: ['〜까지예요?»', '독자의 편지 · Lezersbrieven', '「안녕하세요. 저는 대학생이에요.', '토요일에는 내장산에 단풍을 보러 가요.', '일요일에는 집에서 김장을 도와요. 겨울이', '와도 따뜻하게 지내고 싶어요.」 — 독자', '편지의 예', '알려요: 이 편지는 편집부가 쓴 예예요. 마감', '때까지 진짜 독자 편지와 8면 쓰기 우수작이', '도착하지 않았어요. 그래서 예가 실렸고,', '지난 호의 약속은 VOL.3으로 이어져요.']
+   Korean lines core: ['〜까지예요?」', '독자의 편지 · 读者园地', '「안녕하세요. 저는 대학생이에요.', '토요일에는 내장산에 단풍을 보러 가요.', '일요일에는 집에서 김장을 도와요. 겨울이', '와도 따뜻하게 지내고 싶어요.」 — 독자', '편지의 예', '알려요: 이 편지는 편집부가 쓴 예예요. 마감', '때까지 진짜 독자 편지와 8면 쓰기 우수작이', '도착하지 않았어요. 그래서 예가 실렸고,', '지난 호의 약속은 VOL.3으로 이어져요.']
+   short_note: ed_hits=['Voorbeeldbrief van de redactie, geen']
+   disclosure: ed_hits=[]
+== H. images ==
+   p1-pyoji.svg: ed=[('535fff46b7ce', '6f7f33ed8f40')] core=[('535fff46b7ce', '6f7f33ed8f40')] equal=True
+   p2-saenghwal.svg: ed=[('e66d2b455ec6', '96a6a19b612a')] core=[('e66d2b455ec6', '96a6a19b612a')] equal=True
+   p3-munhwa.svg: ed=[('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] core=[('e266b6ee1a87', '158ea3a0e81f'), ('5bea45d1f81e', '214cc390ac7c')] equal=True
+   p4-seupocheu.svg: ed=[('1a7e7d6d5ffc', '18ad8ae06fac')] core=[('1a7e7d6d5ffc', '18ad8ae06fac')] equal=True
+   p5-cheongnyeon.svg: ed=[('6a1bab177d54', '35e7dc69d417')] core=[('6a1bab177d54', '35e7dc69d417')] equal=True
+   p6-gipi.svg: ed=[] core=[] equal=True
+   p7-mal.svg: ed=[] core=[] equal=True
+   p8-siheom.svg: ed=[] core=[] equal=True
+   credits p1-pyoji.svg: ['사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진']
+   credits p2-saenghwal.svg: ['사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진']
+   credits p3-munhwa.svg: ['사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진', '그림: Paul Cézanne — Public domain (Wikimedia']
+   credits p4-seupocheu.svg: ['사진: Bain News Service — Public domain (Wikimedia']
+   credits p5-cheongnyeon.svg: ['사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진']
+   P2 kimjang/ssam texts: ['레벨 A2 · 김장과 겨울 준비, 한능검 · Kimjang, wintervoorbereiding en het examen Koreaanse geschiedenis']
+== I. line-start single-quote inventory: ed=7 core=7
+   ED ('p5-cheongnyeon.svg', 65.0, 753.98, "'힘내세요!', '떨지 마세요!', '잘할 수")
+   ED ('p6-gipi.svg', 989.0, 828.95, "'예정'과 '확정'도 나눠야 해요. 예정은")
+   ED ('p7-mal.svg', 65.0, 369.54, "'김장'이라고 해요.")
+   ED ('p7-mal.svg', 65.0, 778.39, "'김장'은 무슨 뜻이에요? A. 겨울 김치를 담그는")
+   ED ('p7-mal.svg', 65.0, 992.57, "'절기'는 무슨 뜻이에요? A. 일 년의 24개 시점 ·")
+   ED ('p7-mal.svg', 527.0, 304.18, "'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월")
+   ED ('p7-mal.svg', 1473.0, 1117.03, "'〜부터 〜까지예요?'라고 해요.")
+   CORE ('p5-cheongnyeon.svg', 65.0, 753.98, "'힘내세요!', '떨지 마세요!', '잘할 수")
+   CORE ('p6-gipi.svg', 989.0, 799.23, "'예정'과 '확정'도 나눠야 해요. 예정은")
+   CORE ('p7-mal.svg', 65.0, 369.54, "'김장'이라고 해요.")
+   CORE ('p7-mal.svg', 65.0, 778.39, "'김장'은 무슨 뜻이에요? A. 겨울 김치를 담그는")
+   CORE ('p7-mal.svg', 65.0, 992.57, "'절기'는 무슨 뜻이에요? A. 일 년의 24개 시점 ·")
+   CORE ('p7-mal.svg', 527.0, 304.18, "'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월")
+   CORE ('p7-mal.svg', 1473.0, 1117.03, "'〜부터 〜까지예요?'라고 해요.")
+   sets equal=False ed-only={('p6-gipi.svg', 989.0, 828.95, "'예정'과 '확정'도 나눠야 해요. 예정은")} core-only={('p6-gipi.svg', 989.0, 799.23, "'예정'과 '확정'도 나눠야 해요. 예정은")}
+== J. format 551.864: ['75: 75. 551,864 — Dit jaar: 551.864 kandidaten', '91: 91. A — Dit jaar: 551.864 kandidaten', '121: 121. A — Dit jaar: 551.864 kandidaten']
+== J. format 415,5: ['118: 118. A — Hallasan, Samgakbong: 415,5 mm regen']
+== J. format 300.000: ['13: 13. A — Vuur meenemen de berg in: boete tot 300.000 won', '22: 22. 30만 — Maximale boete 300.000 won']
+== J. format 1.312: ['76: 76. 1,312 — 1.312 examenlocaties in het hele land', '92: 92. B — 1.312 examenlocaties in het hele land', '122: 122. B — 1.312 examenlocaties in het hele land']
+== J. format 27.000: ['23: 23. 27,000 — Tarief gevorderd niveau: 27.000 won']
+   spot #14 ED: 14. A — Examen Koreaanse geschiedenis: zaterdag 28 november
+   spot #14 CORE key/note (registry-independent, printed): 14. A — 韩史考试在11月28日周六
+   spot #22 ED: 22. 30만 — Maximale boete 300.000 won
+   spot #22 CORE key/note (registry-independent, printed): 22. 30만 — 最高罚款30万韩元
+   spot #55 ED: 55. 온대저기압 — Op 26 oktober werd het een extratropischecycloon
+   spot #55 CORE key/note (registry-independent, printed): 55. 온대저기압 — 10月26日变为温带气旋
+   spot #90 ED: 90. A — Luisterdeel 13:10–13:35
+   spot #90 CORE key/note (registry-independent, printed): 90. A — 听力时段13:10～13:35
+   spot #118 ED: 118. A — Hallasan, Samgakbong: 415,5 mm regen
+   spot #118 CORE key/note (registry-independent, printed): 118. A — 汉拿山三角峰降雨415.5毫米
+   spot #131 ED: 131. B — Volgende week: voorbereiding op het examen Koreaansegeschiedenis
+   spot #131 CORE key/note (registry-independent, printed): 131. B — 下周准备韩史考试
+WROTE analysis.json

@@ -1,0 +1,81 @@
+DEL P8 text nodes: 330
+  DEL 134 (2030.4720000000016, '134. 饺子 (jiǎozǐ — le famiglie del nord li mangiano a lìdōng.)')
+  DEL 135 (2059.7000000000016, '135. 数字 (shùzì — i personaggi del film AI sono immagini digitali.)')
+  DEL 136 (2088.9280000000017, '136. 票房 (piàofáng — incassi al botteghino.)')
+  DEL 150 (2513.5480000000025, '150. ✓ (Domanda aperta — il modello è nella sezione F di questa')
+  DEL last 5 by y: [(110, (2501.248000000003, '110. 数据 (shùjù — numeri misurati, non affermazioni.)')), (150, (2513.5480000000025, '150. ✓ (Domanda aperta — il modello è nella sezione F di questa')), (73, (2516.6760000000027, '73. 救赎 (jiùshú — le due donne si salvano a vicenda.)')), (36, (2518.1760000000027, '36. 饺子 (jiǎozǐ — le famiglie del nord li mangiano a lìdōng.)')), (111, (2530.476000000003, '111. B (Prima i dati e la pagina di pagamento; il titolo per ultimo.)'))]
+  DEL footer rules y=2580: 1
+  DEL key135 full: (2059.7000000000016, '135. 数字 (shùzì — i personaggi del film AI sono immagini digitali.)')
+  DEL P8 header texts: ['答案 · Soluzioni — per pagina, con una nota per ogni risposta', 'Tutte le note in italiano · ✓ = il compito di scrittura']
+CORE P8 text nodes: 323
+  CORE 134 (1912.0600000000013, '134. 饺子 — jiǎozǐ — northern families eat these at 立冬.')
+  CORE 135 (1941.2880000000014, "135. 数字 — shùzì — the AI film's characters are digital images.")
+  CORE 136 (1970.5160000000014, '136. 票房 — piàofáng — box-office takings.')
+  CORE 150 (2379.7080000000024, '150. ✓ Open task - the model answer is printed in section F above')
+  CORE last 5 by y: [(75, (2499.6200000000026, '75. 23 — The AI film opened on Oct 23.')), (113, (2501.1200000000026, '113. A — Start of Winter is on Nov 7.')), (37, (2516.5480000000025, '37. 汤圆 — tāngyuán — sticky rice balls eaten in some southern')), (76, (2528.8480000000027, '76. 100 — The AI film runs 100 minutes.')), (114, (2530.3480000000027, '114. B — 立冬 is the 19th solar term, not the 18th.'))]
+  CORE footer rules y=2580: 1
+P5 contains i personaggi del film sono immagini digitali : False
+P5 contains shùzì : True
+ P5 shùzì node: 1207.34 'Nota — shùzì xíngxiàng 数字形象 — un'
+ P8 shùzì node: 2413.5640000000026 '70. 数字 (shùzì — i personaggi del film sono immagini digitali.)'
+ P8 shùzì node: 1502.8680000000004 '79. b (shùzì xíngxiàng = un personaggio digitale, b)'
+ P8 shùzì node: 2059.7000000000016 '135. 数字 (shùzì — i personaggi del film AI sono immagini digitali.)'
+P1 old135 absent: True; 'the AI film' absent: True
+P2 old135 absent: True; 'the AI film' absent: True
+P3 old135 absent: True; 'the AI film' absent: True
+P4 old135 absent: True; 'the AI film' absent: True
+P5 old135 absent: True; 'the AI film' absent: True
+P6 old135 absent: True; 'the AI film' absent: True
+P7 old135 absent: True; 'the AI film' absent: True
+P8 old135 absent: True; 'the AI film' absent: True
+P1 distinctive-EN tokens present: []
+P2 distinctive-EN tokens present: []
+P3 distinctive-EN tokens present: []
+P4 distinctive-EN tokens present: []
+P5 distinctive-EN tokens present: ['film']
+    film : Livello B1 · AI电影 · 立冬新片 · Film AI e un film d'inverno
+P6 distinctive-EN tokens present: []
+P7 distinctive-EN tokens present: ['film']
+    film : (un film).
+P8 distinctive-EN tokens present: ['film']
+    film : 65. A (Il film AI non ha attori in carne e ossa.)
+P8 identical notes vs core: [] []
+P8 notes count del/core: 150 150
+CORE P1 badge-ish: []
+  CORE y≈434 texts: [(975.0, 434.0, '19.5', '简体中文正文 · 英语讲解 — Simplified Chinese text · Explanations in English · the edition for English-speaking readers')]
+  CORE Lucerna [(975.0, 262.0, '168')]
+W43 P1 badge-ish: [(975.0, 330.0, '40', 'SETTIMANALE CINESE SEMPLIFICATO · VOL.1 · 双11 · 大闸蟹 · 霜降'), (975.0, 434.0, '19.5', "TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), (65.0, 2624.0, '20', 'Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.1 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO')]
+  W43 y≈434 texts: [(975.0, 434.0, '19.5', "TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI")]
+  W43 Lucerna [(975.0, 262.0, '168')]
+DEL P1 badge-ish: [(975.0, 330.0, '40', 'SETTIMANALE CINESE SEMPLIFICATO · VOL.2 · 双11 · 立冬 · S16'), (975.0, 434.0, '19.5', "TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), (65.0, 2624.0, '20', 'Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO')]
+  DEL y≈434 texts: [(975.0, 434.0, '19.5', "TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI")]
+  DEL Lucerna [(975.0, 262.0, '168')]
+P7 disclosure invitation verbatim: False
+ P7 frag Una lettera di esempio della redazione True
+ P7 frag non è una lettera vera True
+ P7 frag non è arrivato nulla True
+P1 footer=['SETTIMANALE CINESE SEMPLIFICATO · VOL.2 · 双11 · 立冬 · S16', 'Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 1 di 8'] seps=0
+P2 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 2 di 8'] seps=0
+P3 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 3 di 8'] seps=0
+P4 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 4 di 8'] seps=0
+P5 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 5 di 8'] seps=0
+P6 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 6 di 8'] seps=0
+P7 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 7 di 8'] seps=0
+P8 footer=['Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'] pageline=['Pagina 8 di 8'] seps=8
+P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+ GOLD 不用等11月11日 pages [1, 7] total count 2
+ GOLD 下单就能发货 pages [7] total count 1
+ GOLD 先看结算页，再付款 pages [2, 7] total count 2
+ GOLD 水开始结冰 pages [7] total count 1
+ GOLD 三场都输了 pages [7] total count 1
+ GOLD 小局一场没赢 pages [4, 7] total count 2
+ GOLD 故事够不够好 pages [5, 7] total count 2
+ GOLD 别以后，就现在 pages [7] total count 1
+  P7 golden node: 1838.12 '「不用等11月11日」'
+  P7 golden node: 1988.12 '「下单就能发货」'
+  P7 golden node: 2138.12 '「先看结算页，再付款」'
+  P7 golden node: 2288.12 '「水开始结冰」'
+  P7 golden node: 1838.12 '「三场都输了」'
+  P7 golden node: 1988.12 '「小局一场没赢」'
+  P7 golden node: 2138.12 '「故事够不够好」'
+  P7 golden node: 2288.12 '「别以后，就现在」'

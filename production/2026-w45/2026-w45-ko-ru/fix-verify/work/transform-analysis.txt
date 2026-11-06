@@ -1,0 +1,49 @@
+current transform sha: cc72648708f7192a0aab53dc1a013e3f8afcaff5dcc003c060575e8e033b84b8
+old transform sha: 2895b6616ed4691864d06041edd9d185dd05767d030b6d519d7ef8aaf75475cd
+REPL current: 257 old: 257
+REPL keys equal: True
+REPL value diffs: 0
+FIX2FIX3 current: 19
+old has FIX2FIX3? False
+fix2 entries: 12 fix3 entries: 7
+combined distinct keys: 19 overlap f2/f3 keys: 0
+FIX2FIX3 == combined keys: True
+FIX2FIX3 vs fix2+fix3 value diffs: 0
+  FX1 badchar=False src='cyq = fy + 66 + (i % 4) * 132' dst='cyq = fy + 66 + (i % 4) * 102'
+  FX2 badchar=False src='py = fy + 66 + 4 * 132 + 18' dst='py = fy + 66 + 4 * 102 + 18'
+  FX3 badchar=False src='В день экзамена учреждения начинают работу в 10 ча' dst='В день экзамена учреждения работают с 10 часов'
+  FX4 badchar=False src='Во время аудирования в день экзамена самолёты огра' dst='Самолёты ограничены во время аудирования'
+  FX5 badchar=False src='Во время аудирования самолёты не взлетают и не сад' dst='Во время аудирования самолёты не летают'
+  FX6 badchar=False src='К моменту сдачи в печать настоящих писем читателей' dst='Настоящих писем и лучшего сочинения со стр. 8 к сд'
+  FX7 badchar=False src='На следующей неделе готовится к экзамену по истори' dst='На следующей неделе — экзамен по истории Кореи'
+  FX8 badchar=False src='Пик по прогнозу лесной службы по Вольчхульсану — 9' dst='Пик по лесной службе, Вольчхульсан — 9 ноября'
+  FX9 badchar=False src='Пик по прогнозу лесной службы по Нэчжансану — 4 но' dst='Пик по лесной службе, Нэчжансан — 4 ноября'
+  FX10 badchar=False src='Пик по прогнозу парковой корпорации по Нэчжансану ' dst='Пик по парковой корпорации, Нэчжансан — 11 ноября'
+  FX11 badchar=False src='Прогноз парковой корпорации по Нэчжансану — 11-е ч' dst='Прогноз парковой корпорации, Нэчжансан — 11-е'
+  FX12 badchar=False src='С 13 часов 6 ноября — запись по всей стране на ост' dst='С 13 часов 6 ноября — запись на оставшиеся места'
+  FX13 badchar=False src='С пожеланием успешной сдачи дарят тток из клейкого' dst='С пожеланием сдачи дарят тток и ёт'
+  FX14 badchar=False src='Сотрудников безопасности в Сеуле на Хэллоуин — 3 2' dst='Безопасность в Сеуле на Хэллоуин — 3 271 человек'
+  FX15 badchar=False src='비다 = молиться, желать · 피하다 = избегать · 미끄럽다 = ск' dst='비다 = молиться · 피하다 = избегать · 미끄럽다 = скользкий.'
+  FX16 badchar=False src='입동 = ипдон, начало зимы · 절정 = пик, апогей · 김장 = ' dst='입동 = ипдон · 절정 = пик · 김장 = кимчжан · 상륙하다 = выйт'
+  FX17 badchar=False src='정리 = приводить в порядок, повторять · 끈끈하다 = липки' dst='정리 = повторение · 끈끈하다 = липкий · 합격 = сдача.'
+  FX18 badchar=False src='중점 = приоритетный · 배치하다 = размещать · 통제하다 = пере' dst='중점 = главный · 배치하다 = разместить · 통제하다 = перекрыв'
+  FX19 badchar=False src='챙기다 = приготовить заранее · 졸리다 = хотеть спать · 평' dst='챙기다 = приготовить · 졸리다 = сонливость · 평소 = обычно'
+  KIT src-present: True dst-present: True | 정리 = приводить в порядок, повт
+  KIT src-present: True dst-present: True | 중점 = приоритетный · 배치하다 = раз
+  KIT src-present: True dst-present: True | 챙기다 = приготовить заранее · 졸리
+  KIT src-present: True dst-present: True | 비다 = молиться, желать · 피하다 = 
+  KIT src-present: True dst-present: True | Пик по прогнозу лесной службы 
+  KIT src-present: True dst-present: True | Пик по прогнозу парковой корпо
+  KIT src-present: True dst-present: True | Прогноз парковой корпорации по
+  KIT src-present: True dst-present: True | С 13 часов 6 ноября — запись п
+  KIT src-present: True dst-present: True | Пик по прогнозу лесной службы 
+  KIT src-present: True dst-present: True | К моменту сдачи в печать насто
+  KIT src-present: True dst-present: True | cyq = fy + 66 + (i % 4) * 132
+  KIT src-present: True dst-present: True | py = fy + 66 + 4 * 132 + 18
+  KIT src-present: True dst-present: True | 입동 = ипдон, начало зимы · 절정 =
+  KIT src-present: True dst-present: True | Во время аудирования самолёты 
+  KIT src-present: True dst-present: True | Сотрудников безопасности в Сеу
+  KIT src-present: True dst-present: True | С пожеланием успешной сдачи да
+  KIT src-present: True dst-present: True | В день экзамена учреждения нач
+  KIT src-present: True dst-present: True | Во время аудирования в день эк
+  KIT src-present: True dst-present: True | На следующей неделе готовится 

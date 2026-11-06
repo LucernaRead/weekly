@@ -1,0 +1,27 @@
+p1: hangul added 71 removed 100 net -29
+  added pure-Han (no kana, no hangul): []
+  removed pure-Hangul-only strings: ['제 1 면 / 총 8 면', '한국어를 배우는 사람을 위한 주간 신문 — 진짜 한국을, 한국어로']
+p2: hangul added 94 removed 98 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['제 2 면 / 총 8 면']
+p3: hangul added 58 removed 62 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['제 3 면 / 총 8 면']
+p4: hangul added 43 removed 47 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['제 4 면 / 총 8 면']
+p5: hangul added 60 removed 64 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['제 5 면 / 총 8 면']
+p6: hangul added 53 removed 57 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['제 6 면 / 총 8 면']
+p7: hangul added 80 removed 84 net -4
+  added pure-Han (no kana, no hangul): ['空所補充']
+  removed pure-Hangul-only strings: ['〜까지예요?」', '제 7 면 / 총 8 면']
+p8: hangul added 352 removed 372 net -20
+  added pure-Han (no kana, no hangul): ['106. B — D-1＝明日', '作文', '翻訳']
+  removed pure-Hangul-only strings: ['— 제7면 —', '— 제3면 —', '— 제1면 —', '— 제4면 —', '제 8 면 / 총 8 면', '— 제6면 —', '— 제5면 —', '— 제2면 —', '— 제8면 —']
+builder pages: {'1': (19, 19), '2': (29, 27), '3': (19, 19), '4': (15, 13), '5': (19, 19), '6': (14, 12), '7': (34, 31), '8': (169, 169)}
+mine keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+{"core_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-core/svg", "edition_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ko-ja/svg", "pages": {"1": {"added_strings": [{"text": "1 ページ（全 8 ページ）", "count": 1}, {"text": "Lucerna · 韓国語週刊 VOL.2 · 本文は韓国語 · 解説は日本語", "count": 1}, {"text": "この五つの日付が、今号の骨組みです。", "count": 1}, {"text": "トップ記事を読んで正しい答えを選ぼう · 答えは8ページ", "count": 1}, {"text": "上陸する · 온대저기압 温帯低気圧。", "count": 1}, {"text": "全レベル", "count": 1}, {"text": "最盛期 · 김장 冬越しキムチ作り · 상륙하다", "count": 1}, {"text": "立冬は11月7日土曜日 · キムジャンの始まり", "count": 1}, {"text": "解説 — 입동 立冬、冬の始まり · 절정", "count": 1}, {"text": "韓国語テキスト · 日本語の解説 — 日本語読者のための版", "count": 1}, {"text": "매주 한국어로 · 毎週一号 · 한국 사람이 읽는 한국어를 읽어요", "count": 1}, {"text": "숫자로 보는 이번 주 · 今週を数字で見る", "count": 1}, {"text": "이번 주의 말 · 今週のことば", "count": 1}, {"text": "이번 호의 내용 · 今号の目次", "count": 1}, {"text": "입동 ＝ 立冬、冬の始まりの節気。", "count": 1}, {"text": "지금 바로 연습 · すぐ練習", "count": 1}, {"text": "짧은 소식 · 短いニュース", "count": 1}, {"text": "퀴즈 · クイズ", "count": 1}, {"text": "톱 뉴스 · トップニュース", "count": 1}], "removed_strings": [{"text": "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY", "count": 1}, {"text": "全部", "count": 1}, {"text": "最盛期、高峰 · 김장 腌过冬泡菜 · 상륙하다", "count": 1}, {"text": "登陆 · 온대저기압 温带气旋。", "count": 1}, {"text": "立冬在 11 月 7 日周六 · 泡菜季开始", "count": 1}, {"text": "译注｜입동 立冬、冬季开始 · 절정", "count": 1}, {"text": "读头版，选出正确答案 · 答案见第 8 版", "count": 1}, {"text": "这五个日

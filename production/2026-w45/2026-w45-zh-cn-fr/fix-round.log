@@ -1,0 +1,82 @@
+# FIX ROUND LOG — W45 ZH-CN×FR (2026-10-28, fix agent; NOT a finalisation claim)
+
+## Pre-flight (coordinator ruling: intent = NO CONCURRENT WRITER)
+- (a) No live worker writing to FR delivery/build dirs: ps greps for zh-cn-fr returned nothing;
+  only live workers were zh-cn-ja render.py and zh-cn-it repro (different editions).
+- (b) Mtime snapshots of delivery + build dirs 07:53 -> 07:59 UTC: ZERO changes (delivery diff clean;
+  build diff only my own glob omissions). Pre-fix hashes below recorded 07:55 UTC, before any re-render.
+- (c) Proof session completed: REPORT.md 07:52 UTC, builder KIT 07:27 UTC, render5.log 07:23 UTC.
+- Interpreter: tools/venv/bin/python — Python 3.12.3, Pillow 13.0.0, cairosvg 2.9.1, pypdf 6.21.2.
+
+## Pre-fix SHA-256 (delivered files, before re-render)
+39160a7fe74a6e7161d721f3070b9990dc692b27b5c83d5422ec34202cbb0f70  svg/p1-touiban.svg
+d8f6bbdd949cf3bd11c87e5f362442a34ca7197f814d3ce9cf51ec5528774bc7  svg/p2-shenghuo.svg
+2cef9fead7a999c9645ffaa25fc376cfb7e4ddf40419babe7e807a42f7324b0e  svg/p3-wenhua.svg
+cebc50b646a0b80d8e154ddb71e61ca654dba81f980305c6b667bb1fd8f1b4f4  svg/p4-tiyu.svg
+3823652c59f3f5c8cbfff79891cfc14cc82928d1e55a80a3094738d7c8ef687b  svg/p5-qingnian.svg
+948434f24173d1ec09c6a87bc648763d2232085c8b3a5ec1a1ff677c5e26e471  svg/p6-shendu.svg
+c54b6010e41de962b8b09375cdbe453a02a2ea623078969d729d78a56350f765  svg/p7-ciyu.svg
+e2b48684d4cd6addab8a58f13cf8b76df9bcff2ec9de9f77bf58107bd46ae33b  svg/p8-ceyan.svg
+630edcf8cd63cb4978d62368731eb369e6810a651e4d83faaa7d9f4b14715d90  cards/p1-touiban.png
+23cb3fb1068052121ddd768dac8f723623e62b6da83f44bbc06030e21921842e  cards/p2-shenghuo.png
+258cce081b0f1c510367773291e7356e8246c98a07ce0ceaca0bf6a0a3deb12e  cards/p3-wenhua.png
+fd9b80d414896ad6f3be8729eaa79ebfe00968bebface1fbdaf91f70ebf3627a  cards/p4-tiyu.png
+92c8cd6ca4378b82c2a0bf4cd2d649be4e6206337378c7a8963ef9f7938c7dc3  cards/p5-qingnian.png
+c46165da482f4437a3b1d708e3676a12af9b5830bad24871d2e2f8f4527764af  cards/p6-shendu.png
+da078cc228c780028cc0a5d9095e55251396e2e5e6964b35bbd2f8a4e951e242  cards/p7-ciyu.png
+f37ee12c2e277c5ffa46b1ab6ff1c1931d9133ed10870d5b3189cbcf35b857c7  cards/p8-ceyan.png
+d5f8fe4fe8983fdd4b0105061b918a56ecc5709be960e90728bb2c589f9e3331  Lucerna-VOL2-FR.pdf
+dc3f70448d3d894d0342bcddb263d4681621c2ec89d13ac4d00789c5c390535f  Lucerna-VOL2-FR-web.pdf
+
+## Blocking items (from proof REPORT.md)
+- B1: P1 badge OLIVE #3e4c2a -> BRICK #a4553a, badge line only.
+- B2: P8 keys dash -> paren; CJK-citing notes -> pinyin-only (see KIT fix record).
+- B3: fold fixup1+fixup2+fixup3+corner cut into transform.py; repair stale fixup1 entry.
+
+## Post-fix SHA-256 (after re-render)
+9dd64f211deb1a205031579d4397b2da2c943d5575630a4a2e19c308f895c966  svg/p1-touiban.svg
+d8f6bbdd949cf3bd11c87e5f362442a34ca7197f814d3ce9cf51ec5528774bc7  svg/p2-shenghuo.svg
+2cef9fead7a999c9645ffaa25fc376cfb7e4ddf40419babe7e807a42f7324b0e  svg/p3-wenhua.svg
+cebc50b646a0b80d8e154ddb71e61ca654dba81f980305c6b667bb1fd8f1b4f4  svg/p4-tiyu.svg
+3823652c59f3f5c8cbfff79891cfc14cc82928d1e55a80a3094738d7c8ef687b  svg/p5-qingnian.svg
+948434f24173d1ec09c6a87bc648763d2232085c8b3a5ec1a1ff677c5e26e471  svg/p6-shendu.svg
+c54b6010e41de962b8b09375cdbe453a02a2ea623078969d729d78a56350f765  svg/p7-ciyu.svg
+d72dac39aba8a6ea5a8bf0e0c6d029f06e7d0c866b2a55d9735036a24fcac54b  svg/p8-ceyan.svg
+31c28e461c38a17a507976a8d229eb69c0700dfc679f44d95e5969b254b70140  cards/p1-touiban.png
+23cb3fb1068052121ddd768dac8f723623e62b6da83f44bbc06030e21921842e  cards/p2-shenghuo.png
+258cce081b0f1c510367773291e7356e8246c98a07ce0ceaca0bf6a0a3deb12e  cards/p3-wenhua.png
+fd9b80d414896ad6f3be8729eaa79ebfe00968bebface1fbdaf91f70ebf3627a  cards/p4-tiyu.png
+92c8cd6ca4378b82c2a0bf4cd2d649be4e6206337378c7a8963ef9f7938c7dc3  cards/p5-qingnian.png
+c46165da482f4437a3b1d708e3676a12af9b5830bad24871d2e2f8f4527764af  cards/p6-shendu.png
+da078cc228c780028cc0a5d9095e55251396e2e5e6964b35bbd2f8a4e951e242  cards/p7-ciyu.png
+550db5618db2a5cc8c92ec2445d32154f53c7574c8073ebc5204cc16fff611bb  cards/p8-ceyan.png
+2f1dbc24cf5265564a0adee556c542cf0ca4cea24270daf6b1d0e9f7ed2c1969  Lucerna-VOL2-FR.pdf
+107dbffeb82e97e9d4fe9f2fe78e51f871481f6e067ea5d188b2456eac29778d  Lucerna-VOL2-FR-web.pdf
+
+## Post-fix per-page byte table (pre -> post)
+SVG: p1 CHANGED, p2-p7 byte-identical, p8 CHANGED; Cards: p1 CHANGED, p2-p7 identical, p8 CHANGED.
+P1 node diff vs pre-fix: exactly one attribute (fill #3e4c2a -> #a4553a); P8 node count unchanged (317).
+Print PDF 46662483 -> 46662604 bytes; web PDF 3259655 -> 3265050 bytes (web also carries new Pillow timestamps).
+
+## Gate re-runs (post-fix, tools/venv/bin/python)
+- Gate 10 re-run: fresh pristine core copy + new transform.py alone + run.py -> 8/8 byte-identical to post-fix SVGs; zero HEAD TOO WIDE / FLOW OVERFLOW in repro run (scratch g10/).
+- Pre-fix solo baseline for reference: old transform alone reproduced only 2/8 (p3, p4) — matching the proof's differing-page list (p1, p2, p5, p6, p7, p8 differ).
+- freeze.py diff --strict-cjk: TOTAL added CJK 0, exit 0 (per-page 0).
+- p8.py compare: CLEAN, 150 = 150, missing = [], extra = 0, keydiff = [] (node-verified: paren starts 150/150, half-width parens 150, full-width 0).
+- occlusion_audit.py --selftest OK; edition 0 flags, core 0 flags, NEW vs core 0.
+- Gloss 33 = 33; registry TOTAL 150 (A2 56 / B1 69 / B2 25), pages 10/18/18/18/18/18/12/38, writing 172; run log zero warnings.
+- P1 badge node: x=975 y=434 19.5pt bold fill=#a4553a, text unchanged. P8 keys end 2514.92, 65.08 px clear of 2580 (unchanged from pre-fix).
+- Core SVGs re-hashed unchanged vs core-pre.sha (8/8 OK). ABSTRACT.txt untouched (mtime 07:23:22, sha 6ed58755...).
+- Repaired fixup1.py exits 0 on solo sources (fixup1 OK).
+
+## B2 CJK-note pinyin conversions (34 distinct notes, 39 keys)
+早上->zǎoshang; 立冬->lìdōng; 直降->zhíjiàng; 周六->zhōuliù; 件->jiàn, 个->gè, 条->tiáo;
+内战->nèizhàn; 凌晨->língchén; 地始冻->dì shǐ dòng; 总决赛->zǒngjuésài; 救赎->jiùshú;
+数字形象->shùzì xíngxiàng; 数据->shùjù; 毛衣->máoyī; 水始冰->shuǐ shǐ bīng; 淘汰赛->táotàisài;
+火化师->huǒhuàshī; 瑞士轮->ruìshìlún; 票房->piàofáng; 结算页->jiésuàn yè; 说法->shuōfǎ;
+运费->yùnfèi; 雉入大水为蜃->zhì rù dà shuǐ wéi shèn; 「最低价」->« zuìdījià »; 现货/立减/补冬 dropped where pinyin already present (xiànhuò/lìjiǎn/bǔdōng).
+Characters remain in the exercise stems; notes keep their meaning.
+
+## NOT done (per task)
+No weekly-git touch, no insert.py, no Discord, no main-chat card/PDF delivery, no cron, no shared-scratch cleanup, no subagents spawned.
+NOT FINALIZED: a full independent reproof must follow this fix round.

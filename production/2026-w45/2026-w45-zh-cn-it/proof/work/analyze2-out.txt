@@ -1,0 +1,62 @@
+== P5 nodes with personaggi/immagini/digitali ==
+142.0 "Livello B1 · AI电影 · 立冬新片 · Film AI e un film d'inverno"
+1237.0649999999998 'personaggio digitale · gōngyìng 公映 —'
+908.4 "AI电影 — un film fatto con l'AI: nessun"
+935.4 'attore in carne e ossa, solo personaggi'
+962.4 'digitali.'
+583.4499999999999 '电影小日历 · Date dei film'
+1126.0099999999998 "E tu? Guarderesti un film fatto dall'AI? Con"
+1154.4099999999999 'chi guarderesti un film a 立冬？ Scrivi due'
+== P5 concat contains ex70 full? ==
+concat ex70: False
+spaced ex70: False
+concat around first shùzì: "面、人物、台词都还在进步。重要的是：观众走进电影院，是为了看一个好故事，不是只看技术。Nota — shùzì xíngxiàng 数字形象 — unpersonaggio digitale · gōngyìng 公映 —un'uscita pubblica al cinema · piàofáng票房 — gli incassi al botteghino.立冬那天，看一部新电影11月7日星期六立冬，还有一部新电影上映：《我们仅有一次的人生》。宋佳演身患绝症的女火化师黄燕，文淇演失去母亲的少女"
+P7 concat invitation: False
+  around: "1:non è arrivato nulla, quindi l'invito restaaperto. Rimandato, non cancellato —mandateci le vostre lettere in cinese, lepubblicheremo!本周金句 · Frasi della settimana (testuali, dagli articoli di questo "
+  disclosure: "Una lettera di esempio della redazione —non è una lettera vera. Il VOL.1 avevapromesso per questo numero le letterevere dei lettori e il miglior tema del VOL.1:non è arrivato nulla, quindi l'invito restaaperto. Rimandato, non cancellato —mandateci le vostre lettere in cinese, lepubblicheremo!本周金句 · Frasi della settimana (testuali, dagli articoli di questo numero)「不用等11月11日」Non serve aspettare l'11 novembre. (Pagina 1)「下单就能发货」Lo ordini e parte subito. (Pagina 2)「先看结算页，再付款」Controlla la pagina di pagamento, poi paga. (Pagina 2)「水开始结冰」L'acqua comincia a gelare. (Pagina 3)「三场都输了」Perse tutte e tre l"
+P7 spaced invitation: True
+  around: "non è arrivato nulla, quindi l'invito resta aperto. Rimandato, non cancellato — mandateci le vostre lettere in cinese, le pubblicheremo! 本周金句 · Frasi della settimana (testuali, dagli articoli di quest"
+  disclosure: "Una lettera di esempio della redazione — non è una lettera vera. Il VOL.1 aveva promesso per questo numero le lettere vere dei lettori e il miglior tema del VOL.1: non è arrivato nulla, quindi l'invito resta aperto. Rimandato, non cancellato — mandateci le vostre lettere in cinese, le pubblicheremo! 本周金句 · Frasi della settimana (testuali, dagli articoli di questo numero) 「不用等11月11日」 Non serve aspettare l'11 novembre. (Pagina 1) 「下单就能发货」 Lo ordini e parte subito. (Pagina 2) 「先看结算页，再付款」 Controlla la pagina di pagamento, poi paga. (Pagina 2) 「水开始结冰」 L'acqua comincia a gelare. (Pagina 3) 「三场都输了」 P"
+== golden concat ==
+  不用等11月11日 {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  下单就能发货 {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  先看结算页，再付款 {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  水开始结冰 {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  三场都输了 {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  小局一场没赢 {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  故事够不够好 {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 1, 8: 0} total 2
+  别以后，就现在 {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 1, 8: 0} total 2
+== golden spaced ==
+  不用等11月11日 {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  下单就能发货 {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 1
+  先看结算页，再付款 {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  水开始结冰 {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 1
+  三场都输了 {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 1
+  小局一场没赢 {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 1, 8: 0} total 2
+  故事够不够好 {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 1, 8: 0} total 2
+  别以后，就现在 {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 1, 8: 0} total 1
+== P8 #94 nodes del/core ==
+  DEL 1987.4440000000016 '94. 179 (199 − 20 = 179 yuan.)'
+  CORE 1884.3320000000012 '94. 179 — 199 − 20 = 179 yuan.'
+== P8 nodes y>=2500 DEL (key-flow end) ==
+  2518.1760000000027 '36. 饺子 (jiǎozǐ — le famiglie del nord li mangiano a lìdōng.)'
+  2516.6760000000027 '73. 救赎 (jiùshú — le due donne si salvano a vicenda.)'
+  2501.248000000003 '110. 数据 (shùjù — numeri misurati, non affermazioni.)'
+  2530.476000000003 '111. B (Prima i dati e la pagina di pagamento; il titolo per ultimo.)'
+  2513.5480000000025 '150. ✓ (Domanda aperta — il modello è nella sezione F di questa'
+  2528.9760000000024 'pagina, 172 caratteri)'
+  2624.0 'Lucerna · SETTIMANALE CINESE SEMPLIFICATO VOL.2 · TESTI IN CINESE SEMPLIFICATO · SPIEGAZIONI IN ITALIANO'
+  2624.0 'Pagina 8 di 8'
+== P8 nodes y>=2500 CORE ==
+  2516.5480000000025 '37. 汤圆 — tāngyuán — sticky rice balls eaten in some southern'
+  2531.9760000000024 'places.'
+  2499.6200000000026 '75. 23 — The AI film opened on Oct 23.'
+  2528.8480000000027 '76. 100 — The AI film runs 100 minutes.'
+  2501.1200000000026 '113. A — Start of Winter is on Nov 7.'
+  2530.3480000000027 '114. B — 立冬 is the 19th solar term, not the 18th.'
+  2624.0 'Lucerna · 简体中文周报 VOL.2 · 简体中文正文 · 英语讲解 · Simplified Chinese text · English explanations'
+  2624.0 '第 8 版 / 共 8 版'
+P7 rects with bottom>2500: [(0.0, 2700.0, '#f7f1e2'), (28.0, 2672.0, 'none'), (40.0, 2660.0, 'none'), (2435.12, 2553.12, '#2c2822')]
+P6 chart rect: 325 1282 810.0 34
+P6 chart rect: 325 1340 537.0 34
+P6 chart rect: 325 1398 480.0 34

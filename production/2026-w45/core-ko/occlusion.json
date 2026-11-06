@@ -1,0 +1,32 @@
+{
+ "svgdir": "../files/weekly-report-w45-ko-core/svg",
+ "flags": [
+  {
+   "page": "p1-pyoji.svg",
+   "class": "BOXTITLE",
+   "text": "산림청·국립공원공단 단풍 예보 · 11月1日起山火注意期",
+   "box": [
+    1473.0,
+    1227.8,
+    1924.2,
+    1246.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1924.2 > border 1885.0",
+   "by": "rect@96"
+  },
+  {
+   "page": "p2-saenghwal.svg",
+   "class": "BOXTITLE",
+   "text": "한능검 접수 — 이번 주의 2시간 · 韩史考试报名：本周的两小时",
+   "box": [
+    545.0,
+    426.2,
+    1163.8,
+    448.7
+   ],
+   "detail": "ink crosses its box borders: right ink 1163.8 > border 961.0",
+   "by": "rect@41"
+  }
+ ],
+ "flag_count": 2
+}

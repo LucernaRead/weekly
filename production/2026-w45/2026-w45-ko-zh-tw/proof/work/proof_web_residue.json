@@ -1,0 +1,3545 @@
+{
+ "pdf_print": {
+  "pages": 8,
+  "sizes": [
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ],
+   [
+    1462.5,
+    2025.0
+   ]
+  ],
+  "bytes": 33167237
+ },
+ "pdf_web": {
+  "pages": 8,
+  "sizes": [
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ],
+   [
+    1400.0,
+    1938.0
+   ]
+  ],
+  "bytes": 3376265
+ },
+ "web_vs_cards": {
+  "p1-pyoji": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.5562,
+   "pct_gt30_maxchannel": 2.4067
+  },
+  "p2-saenghwal": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.4634,
+   "pct_gt30_maxchannel": 2.4832
+  },
+  "p3-munhwa": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.4732,
+   "pct_gt30_maxchannel": 2.5334
+  },
+  "p4-seupocheu": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.1773,
+   "pct_gt30_maxchannel": 2.18
+  },
+  "p5-cheongnyeon": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.3219,
+   "pct_gt30_maxchannel": 2.3651
+  },
+  "p6-gipi": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.1639,
+   "pct_gt30_maxchannel": 2.1655
+  },
+  "p7-mal": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 1.9257,
+   "pct_gt30_maxchannel": 1.9848
+  },
+  "p8-siheom": {
+   "web_size": [
+    1400,
+    1938
+   ],
+   "mean_abs_diff": 2.2586,
+   "pct_gt30_maxchannel": 2.025
+  }
+ },
+ "han_sets": {
+  "edition": 439,
+  "w43": 454,
+  "core": 439,
+  "zhtw_core": 767
+ },
+ "edition_only_vs_w43": [
+  "事",
+  "仍",
+  "件",
+  "低",
+  "供",
+  "們",
+  "值",
+  "做",
+  "傳",
+  "儀",
+  "優",
+  "元",
+  "入",
+  "冬",
+  "利",
+  "制",
+  "副",
+  "助",
+  "勻",
+  "口",
+  "只",
+  "史",
+  "品",
+  "員",
+  "哪",
+  "嚐",
+  "圍",
+  "團",
+  "土",
+  "堵",
+  "塞",
+  "壘",
+  "夕",
+  "安",
+  "官",
+  "定",
+  "室",
+  "害",
+  "幫",
+  "平",
+  "度",
+  "延",
+  "得",
+  "心",
+  "忙",
+  "怕",
+  "意",
+  "懷",
+  "截",
+  "戰",
+  "承",
+  "拌",
+  "拏",
+  "推",
+  "措",
+  "揮",
+  "敏",
+  "施",
+  "旋",
+  "晉",
+  "暖",
+  "未",
+  "架",
+  "桌",
+  "梨",
+  "業",
+  "構",
+  "模",
+  "款",
+  "歡",
+  "此",
+  "毫",
+  "氛",
+  "汽",
+  "沉",
+  "泡",
+  "泰",
+  "淆",
+  "溫",
+  "滑",
+  "漢",
+  "濃",
+  "火",
+  "特",
+  "犯",
+  "理",
+  "甸",
+  "疊",
+  "白",
+  "相",
+  "睏",
+  "石",
+  "祈",
+  "禮",
+  "秀",
+  "稱",
+  "稿",
+  "穿",
+  "立",
+  "管",
+  "粘",
+  "糕",
+  "糖",
+  "糯",
+  "繼",
+  "續",
+  "罰",
+  "署",
+  "聖",
+  "聞",
+  "脆",
+  "至",
+  "舊",
+  "菜",
+  "蒸",
+  "蔔",
+  "藏",
+  "蘿",
+  "虎",
+  "融",
+  "蠶",
+  "裙",
+  "複",
+  "規",
+  "調",
+  "諾",
+  "賞",
+  "贈",
+  "送",
+  "連",
+  "適",
+  "遲",
+  "避",
+  "鄭",
+  "醃",
+  "院",
+  "際",
+  "雙",
+  "順",
+  "額",
+  "顯",
+  "飴",
+  "餐",
+  "餘",
+  "骨",
+  "鹽"
+ ],
+ "opencc_s2t_changed_pairs": {
+  "峰->峯": 10
+ },
+ "opencc_s2t_changed_edition_chars": {
+  "峰": "峯"
+ },
+ "edition_only_attested_zhtw_core": [
+  "事",
+  "仍",
+  "件",
+  "低",
+  "們",
+  "值",
+  "做",
+  "優",
+  "元",
+  "入",
+  "冬",
+  "利",
+  "助",
+  "口",
+  "只",
+  "史",
+  "品",
+  "員",
+  "哪",
+  "團",
+  "壘",
+  "安",
+  "官",
+  "定",
+  "害",
+  "幫",
+  "平",
+  "度",
+  "延",
+  "得",
+  "心",
+  "忙",
+  "怕",
+  "意",
+  "截",
+  "戰",
+  "推",
+  "暖",
+  "未",
+  "業",
+  "模",
+  "款",
+  "歡",
+  "此",
+  "泡",
+  "泰",
+  "溫",
+  "理",
+  "白",
+  "禮",
+  "稿",
+  "穿",
+  "立",
+  "糖",
+  "繼",
+  "續",
+  "署",
+  "聖",
+  "至",
+  "舊",
+  "融",
+  "規",
+  "送",
+  "連",
+  "適",
+  "際",
+  "雙",
+  "順",
+  "餐",
+  "鹽"
+ ],
+ "edition_only_unattested": [
+  "供",
+  "傳",
+  "儀",
+  "制",
+  "副",
+  "勻",
+  "嚐",
+  "圍",
+  "土",
+  "堵",
+  "塞",
+  "夕",
+  "室",
+  "懷",
+  "承",
+  "拌",
+  "拏",
+  "措",
+  "揮",
+  "敏",
+  "施",
+  "旋",
+  "晉",
+  "架",
+  "桌",
+  "梨",
+  "構",
+  "毫",
+  "氛",
+  "汽",
+  "沉",
+  "淆",
+  "滑",
+  "漢",
+  "濃",
+  "火",
+  "特",
+  "犯",
+  "甸",
+  "疊",
+  "相",
+  "睏",
+  "石",
+  "祈",
+  "秀",
+  "稱",
+  "管",
+  "粘",
+  "糕",
+  "糯",
+  "罰",
+  "聞",
+  "脆",
+  "菜",
+  "蒸",
+  "蔔",
+  "藏",
+  "蘿",
+  "虎",
+  "蠶",
+  "裙",
+  "複",
+  "調",
+  "諾",
+  "賞",
+  "贈",
+  "遲",
+  "避",
+  "鄭",
+  "醃",
+  "院",
+  "額",
+  "顯",
+  "飴",
+  "餘",
+  "骨"
+ ],
+ "builder170": {
+  "n": 235,
+  "chars": [
+   "万",
+   "与",
+   "专",
+   "业",
+   "两",
+   "个",
+   "临",
+   "为",
+   "举",
+   "么",
+   "义",
+   "习",
+   "于",
+   "从",
+   "仪",
+   "众",
+   "优",
+   "会",
+   "传",
+   "体",
+   "余",
+   "关",
+   "内",
+   "写",
+   "决",
+   "准",
+   "几",
+   "击",
+   "划",
+   "列",
+   "别",
+   "剧",
+   "办",
+   "务",
+   "动",
+   "势",
+   "匀",
+   "包",
+   "区",
+   "半",
+   "单",
+   "卜",
+   "厅",
+   "压",
+   "参",
+   "双",
+   "发",
+   "变",
+   "叠",
+   "叶",
+   "号",
+   "后",
+   "听",
+   "员",
+   "周",
+   "响",
+   "团",
+   "园",
+   "困",
+   "围",
+   "国",
+   "图",
+   "圣",
+   "场",
+   "垒",
+   "处",
+   "备",
+   "复",
+   "头",
+   "学",
+   "实",
+   "宾",
+   "对",
+   "将",
+   "尔",
+   "尝",
+   "届",
+   "岛",
+   "岳",
+   "带",
+   "帮",
+   "庆",
+   "应",
+   "开",
+   "异",
+   "张",
+   "强",
+   "归",
+   "当",
+   "录",
+   "径",
+   "怀",
+   "情",
+   "愿",
+   "战",
+   "户",
+   "报",
+   "拿",
+   "挝",
+   "挥",
+   "换",
+   "摇",
+   "数",
+   "断",
+   "旧",
+   "时",
+   "显",
+   "晋",
+   "机",
+   "条",
+   "来",
+   "构",
+   "标",
+   "树",
+   "检",
+   "欢",
+   "气",
+   "汇",
+   "汉",
+   "没",
+   "测",
+   "济",
+   "浓",
+   "温",
+   "满",
+   "点",
+   "热",
+   "爱",
+   "独",
+   "狮",
+   "现",
+   "电",
+   "盐",
+   "着",
+   "确",
+   "礼",
+   "离",
+   "种",
+   "称",
+   "简",
+   "索",
+   "紧",
+   "红",
+   "约",
+   "级",
+   "纸",
+   "线",
+   "练",
+   "细",
+   "结",
+   "给",
+   "统",
+   "继",
+   "续",
+   "编",
+   "罚",
+   "老",
+   "胜",
+   "腌",
+   "节",
+   "芦",
+   "苇",
+   "苹",
+   "范",
+   "获",
+   "萝",
+   "蚕",
+   "见",
+   "观",
+   "规",
+   "计",
+   "认",
+   "讯",
+   "许",
+   "诉",
+   "诊",
+   "词",
+   "译",
+   "试",
+   "详",
+   "语",
+   "说",
+   "请",
+   "诺",
+   "读",
+   "调",
+   "败",
+   "费",
+   "资",
+   "赏",
+   "赛",
+   "赠",
+   "赶",
+   "趋",
+   "转",
+   "较",
+   "辑",
+   "过",
+   "还",
+   "这",
+   "进",
+   "连",
+   "迟",
+   "适",
+   "选",
+   "递",
+   "郑",
+   "释",
+   "里",
+   "铁",
+   "银",
+   "错",
+   "门",
+   "闪",
+   "问",
+   "间",
+   "闻",
+   "队",
+   "阳",
+   "阵",
+   "际",
+   "陆",
+   "韩",
+   "页",
+   "顺",
+   "预",
+   "领",
+   "频",
+   "题",
+   "额",
+   "风",
+   "飞",
+   "饴",
+   "验",
+   "鱼"
+  ],
+  "w43_map_entries": 219
+ },
+ "builder170_hits": {
+  "p1-pyoji": [],
+  "p2-saenghwal": [],
+  "p3-munhwa": [],
+  "p4-seupocheu": [],
+  "p5-cheongnyeon": [],
+  "p6-gipi": [],
+  "p7-mal": [],
+  "p8-siheom": []
+ },
+ "builder170_nonfrozen_hits": [],
+ "mainland_hits": {
+  "p1-pyoji": [],
+  "p2-saenghwal": [],
+  "p3-munhwa": [],
+  "p4-seupocheu": [],
+  "p5-cheongnyeon": [],
+  "p6-gipi": [],
+  "p7-mal": [],
+  "p8-siheom": []
+ },
+ "p8_note_builder170_hits": [],
+ "superset_U": {
+  "n": 382,
+  "chars": {
+   "万": {
+    "present_in_edition": false,
+    "s2t": "萬",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "与": {
+    "present_in_edition": false,
+    "s2t": "與",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "专": {
+    "present_in_edition": false,
+    "s2t": "專",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "业": {
+    "present_in_edition": false,
+    "s2t": "業",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "两": {
+    "present_in_edition": false,
+    "s2t": "兩",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "个": {
+    "present_in_edition": false,
+    "s2t": "個",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "临": {
+    "present_in_edition": false,
+    "s2t": "臨",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "为": {
+    "present_in_edition": false,
+    "s2t": "爲",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "举": {
+    "present_in_edition": false,
+    "s2t": "舉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "么": {
+    "present_in_edition": false,
+    "s2t": "麼",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "义": {
+    "present_in_edition": false,
+    "s2t": "義",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "习": {
+    "present_in_edition": false,
+    "s2t": "習",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "事": {
+    "present_in_edition": true,
+    "s2t": "事",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "于": {
+    "present_in_edition": false,
+    "s2t": "於",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "仍": {
+    "present_in_edition": true,
+    "s2t": "仍",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "从": {
+    "present_in_edition": false,
+    "s2t": "從",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "仪": {
+    "present_in_edition": false,
+    "s2t": "儀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "件": {
+    "present_in_edition": true,
+    "s2t": "件",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "众": {
+    "present_in_edition": false,
+    "s2t": "衆",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "优": {
+    "present_in_edition": false,
+    "s2t": "優",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "会": {
+    "present_in_edition": false,
+    "s2t": "會",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "传": {
+    "present_in_edition": false,
+    "s2t": "傳",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "低": {
+    "present_in_edition": true,
+    "s2t": "低",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "体": {
+    "present_in_edition": false,
+    "s2t": "體",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "余": {
+    "present_in_edition": false,
+    "s2t": "餘",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "供": {
+    "present_in_edition": true,
+    "s2t": "供",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "們": {
+    "present_in_edition": true,
+    "s2t": "們",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "值": {
+    "present_in_edition": true,
+    "s2t": "值",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "做": {
+    "present_in_edition": true,
+    "s2t": "做",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "傳": {
+    "present_in_edition": true,
+    "s2t": "傳",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "儀": {
+    "present_in_edition": true,
+    "s2t": "儀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "優": {
+    "present_in_edition": true,
+    "s2t": "優",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "元": {
+    "present_in_edition": true,
+    "s2t": "元",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "入": {
+    "present_in_edition": true,
+    "s2t": "入",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "关": {
+    "present_in_edition": false,
+    "s2t": "關",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "内": {
+    "present_in_edition": false,
+    "s2t": "內",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "写": {
+    "present_in_edition": false,
+    "s2t": "寫",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "冬": {
+    "present_in_edition": true,
+    "s2t": "冬",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "决": {
+    "present_in_edition": false,
+    "s2t": "決",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "准": {
+    "present_in_edition": false,
+    "s2t": "準",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "几": {
+    "present_in_edition": false,
+    "s2t": "幾",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "击": {
+    "present_in_edition": false,
+    "s2t": "擊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "划": {
+    "present_in_edition": false,
+    "s2t": "劃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "列": {
+    "present_in_edition": false,
+    "s2t": "列",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "利": {
+    "present_in_edition": true,
+    "s2t": "利",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "别": {
+    "present_in_edition": false,
+    "s2t": "別",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "制": {
+    "present_in_edition": true,
+    "s2t": "制",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "剧": {
+    "present_in_edition": false,
+    "s2t": "劇",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "副": {
+    "present_in_edition": true,
+    "s2t": "副",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "办": {
+    "present_in_edition": false,
+    "s2t": "辦",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "务": {
+    "present_in_edition": false,
+    "s2t": "務",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "动": {
+    "present_in_edition": false,
+    "s2t": "動",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "助": {
+    "present_in_edition": true,
+    "s2t": "助",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "势": {
+    "present_in_edition": false,
+    "s2t": "勢",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "勻": {
+    "present_in_edition": true,
+    "s2t": "勻",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "匀": {
+    "present_in_edition": false,
+    "s2t": "勻",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "包": {
+    "present_in_edition": false,
+    "s2t": "包",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "区": {
+    "present_in_edition": false,
+    "s2t": "區",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "半": {
+    "present_in_edition": false,
+    "s2t": "半",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "单": {
+    "present_in_edition": false,
+    "s2t": "單",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "卜": {
+    "present_in_edition": false,
+    "s2t": "卜",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "厅": {
+    "present_in_edition": false,
+    "s2t": "廳",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "压": {
+    "present_in_edition": false,
+    "s2t": "壓",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "参": {
+    "present_in_edition": false,
+    "s2t": "參",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "双": {
+    "present_in_edition": false,
+    "s2t": "雙",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "发": {
+    "present_in_edition": false,
+    "s2t": "發",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "变": {
+    "present_in_edition": false,
+    "s2t": "變",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "叠": {
+    "present_in_edition": false,
+    "s2t": "疊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "口": {
+    "present_in_edition": true,
+    "s2t": "口",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "只": {
+    "present_in_edition": true,
+    "s2t": "只",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "史": {
+    "present_in_edition": true,
+    "s2t": "史",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "叶": {
+    "present_in_edition": false,
+    "s2t": "葉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "号": {
+    "present_in_edition": false,
+    "s2t": "號",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "后": {
+    "present_in_edition": false,
+    "s2t": "後",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "听": {
+    "present_in_edition": false,
+    "s2t": "聽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "员": {
+    "present_in_edition": false,
+    "s2t": "員",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "周": {
+    "present_in_edition": false,
+    "s2t": "周",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "品": {
+    "present_in_edition": true,
+    "s2t": "品",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "响": {
+    "present_in_edition": false,
+    "s2t": "響",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "員": {
+    "present_in_edition": true,
+    "s2t": "員",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "哪": {
+    "present_in_edition": true,
+    "s2t": "哪",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "嚐": {
+    "present_in_edition": true,
+    "s2t": "嚐",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "团": {
+    "present_in_edition": false,
+    "s2t": "團",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "园": {
+    "present_in_edition": false,
+    "s2t": "園",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "困": {
+    "present_in_edition": false,
+    "s2t": "困",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "围": {
+    "present_in_edition": false,
+    "s2t": "圍",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "国": {
+    "present_in_edition": false,
+    "s2t": "國",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "图": {
+    "present_in_edition": false,
+    "s2t": "圖",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "圍": {
+    "present_in_edition": true,
+    "s2t": "圍",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "團": {
+    "present_in_edition": true,
+    "s2t": "團",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "土": {
+    "present_in_edition": true,
+    "s2t": "土",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "圣": {
+    "present_in_edition": false,
+    "s2t": "聖",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "场": {
+    "present_in_edition": false,
+    "s2t": "場",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "垒": {
+    "present_in_edition": false,
+    "s2t": "壘",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "堵": {
+    "present_in_edition": true,
+    "s2t": "堵",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "塞": {
+    "present_in_edition": true,
+    "s2t": "塞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "壘": {
+    "present_in_edition": true,
+    "s2t": "壘",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "处": {
+    "present_in_edition": false,
+    "s2t": "處",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "备": {
+    "present_in_edition": false,
+    "s2t": "備",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "复": {
+    "present_in_edition": false,
+    "s2t": "復",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "夕": {
+    "present_in_edition": true,
+    "s2t": "夕",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "头": {
+    "present_in_edition": false,
+    "s2t": "頭",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "学": {
+    "present_in_edition": false,
+    "s2t": "學",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "安": {
+    "present_in_edition": true,
+    "s2t": "安",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "官": {
+    "present_in_edition": true,
+    "s2t": "官",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "定": {
+    "present_in_edition": true,
+    "s2t": "定",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "实": {
+    "present_in_edition": false,
+    "s2t": "實",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "室": {
+    "present_in_edition": true,
+    "s2t": "室",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "害": {
+    "present_in_edition": true,
+    "s2t": "害",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "宾": {
+    "present_in_edition": false,
+    "s2t": "賓",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "对": {
+    "present_in_edition": false,
+    "s2t": "對",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "将": {
+    "present_in_edition": false,
+    "s2t": "將",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "尔": {
+    "present_in_edition": false,
+    "s2t": "爾",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "尝": {
+    "present_in_edition": false,
+    "s2t": "嘗",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "届": {
+    "present_in_edition": false,
+    "s2t": "屆",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "岛": {
+    "present_in_edition": false,
+    "s2t": "島",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "岳": {
+    "present_in_edition": false,
+    "s2t": "嶽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "峰": {
+    "present_in_edition": true,
+    "s2t": "峯",
+    "in_w43": true,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "带": {
+    "present_in_edition": false,
+    "s2t": "帶",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "帮": {
+    "present_in_edition": false,
+    "s2t": "幫",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "幫": {
+    "present_in_edition": true,
+    "s2t": "幫",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "平": {
+    "present_in_edition": true,
+    "s2t": "平",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "庆": {
+    "present_in_edition": false,
+    "s2t": "慶",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "应": {
+    "present_in_edition": false,
+    "s2t": "應",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "度": {
+    "present_in_edition": true,
+    "s2t": "度",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "延": {
+    "present_in_edition": true,
+    "s2t": "延",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "开": {
+    "present_in_edition": false,
+    "s2t": "開",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "异": {
+    "present_in_edition": false,
+    "s2t": "異",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "张": {
+    "present_in_edition": false,
+    "s2t": "張",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "强": {
+    "present_in_edition": false,
+    "s2t": "強",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "归": {
+    "present_in_edition": false,
+    "s2t": "歸",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "当": {
+    "present_in_edition": false,
+    "s2t": "當",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "录": {
+    "present_in_edition": false,
+    "s2t": "錄",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "径": {
+    "present_in_edition": false,
+    "s2t": "徑",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "得": {
+    "present_in_edition": true,
+    "s2t": "得",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "心": {
+    "present_in_edition": true,
+    "s2t": "心",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "忙": {
+    "present_in_edition": true,
+    "s2t": "忙",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "怀": {
+    "present_in_edition": false,
+    "s2t": "懷",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "怕": {
+    "present_in_edition": true,
+    "s2t": "怕",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "情": {
+    "present_in_edition": false,
+    "s2t": "情",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "意": {
+    "present_in_edition": true,
+    "s2t": "意",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "愿": {
+    "present_in_edition": false,
+    "s2t": "願",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "懷": {
+    "present_in_edition": true,
+    "s2t": "懷",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "战": {
+    "present_in_edition": false,
+    "s2t": "戰",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "截": {
+    "present_in_edition": true,
+    "s2t": "截",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "戰": {
+    "present_in_edition": true,
+    "s2t": "戰",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "户": {
+    "present_in_edition": false,
+    "s2t": "戶",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "承": {
+    "present_in_edition": true,
+    "s2t": "承",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "报": {
+    "present_in_edition": false,
+    "s2t": "報",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "拌": {
+    "present_in_edition": true,
+    "s2t": "拌",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "拏": {
+    "present_in_edition": true,
+    "s2t": "拏",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "拿": {
+    "present_in_edition": false,
+    "s2t": "拿",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "挝": {
+    "present_in_edition": false,
+    "s2t": "撾",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "挥": {
+    "present_in_edition": false,
+    "s2t": "揮",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "换": {
+    "present_in_edition": false,
+    "s2t": "換",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "推": {
+    "present_in_edition": true,
+    "s2t": "推",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "措": {
+    "present_in_edition": true,
+    "s2t": "措",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "揮": {
+    "present_in_edition": true,
+    "s2t": "揮",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "摇": {
+    "present_in_edition": false,
+    "s2t": "搖",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "敏": {
+    "present_in_edition": true,
+    "s2t": "敏",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "数": {
+    "present_in_edition": false,
+    "s2t": "數",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "断": {
+    "present_in_edition": false,
+    "s2t": "斷",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "施": {
+    "present_in_edition": true,
+    "s2t": "施",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "旋": {
+    "present_in_edition": true,
+    "s2t": "旋",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "旧": {
+    "present_in_edition": false,
+    "s2t": "舊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "时": {
+    "present_in_edition": false,
+    "s2t": "時",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "显": {
+    "present_in_edition": false,
+    "s2t": "顯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "晉": {
+    "present_in_edition": true,
+    "s2t": "晉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "晋": {
+    "present_in_edition": false,
+    "s2t": "晉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "暖": {
+    "present_in_edition": true,
+    "s2t": "暖",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "未": {
+    "present_in_edition": true,
+    "s2t": "未",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "机": {
+    "present_in_edition": false,
+    "s2t": "機",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "条": {
+    "present_in_edition": false,
+    "s2t": "條",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "来": {
+    "present_in_edition": false,
+    "s2t": "來",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "构": {
+    "present_in_edition": false,
+    "s2t": "構",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "架": {
+    "present_in_edition": true,
+    "s2t": "架",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "标": {
+    "present_in_edition": false,
+    "s2t": "標",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "树": {
+    "present_in_edition": false,
+    "s2t": "樹",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "桌": {
+    "present_in_edition": true,
+    "s2t": "桌",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "梨": {
+    "present_in_edition": true,
+    "s2t": "梨",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "检": {
+    "present_in_edition": false,
+    "s2t": "檢",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "業": {
+    "present_in_edition": true,
+    "s2t": "業",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "構": {
+    "present_in_edition": true,
+    "s2t": "構",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "模": {
+    "present_in_edition": true,
+    "s2t": "模",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "欢": {
+    "present_in_edition": false,
+    "s2t": "歡",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "款": {
+    "present_in_edition": true,
+    "s2t": "款",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "歡": {
+    "present_in_edition": true,
+    "s2t": "歡",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "此": {
+    "present_in_edition": true,
+    "s2t": "此",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "毫": {
+    "present_in_edition": true,
+    "s2t": "毫",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "气": {
+    "present_in_edition": false,
+    "s2t": "氣",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "氛": {
+    "present_in_edition": true,
+    "s2t": "氛",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "汇": {
+    "present_in_edition": false,
+    "s2t": "匯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "汉": {
+    "present_in_edition": false,
+    "s2t": "漢",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "汽": {
+    "present_in_edition": true,
+    "s2t": "汽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "沉": {
+    "present_in_edition": true,
+    "s2t": "沉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "没": {
+    "present_in_edition": false,
+    "s2t": "沒",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "泡": {
+    "present_in_edition": true,
+    "s2t": "泡",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "泰": {
+    "present_in_edition": true,
+    "s2t": "泰",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "测": {
+    "present_in_edition": false,
+    "s2t": "測",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "济": {
+    "present_in_edition": false,
+    "s2t": "濟",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "浓": {
+    "present_in_edition": false,
+    "s2t": "濃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "淆": {
+    "present_in_edition": true,
+    "s2t": "淆",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "温": {
+    "present_in_edition": false,
+    "s2t": "溫",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "溫": {
+    "present_in_edition": true,
+    "s2t": "溫",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "滑": {
+    "present_in_edition": true,
+    "s2t": "滑",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "满": {
+    "present_in_edition": false,
+    "s2t": "滿",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "漢": {
+    "present_in_edition": true,
+    "s2t": "漢",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "濃": {
+    "present_in_edition": true,
+    "s2t": "濃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "火": {
+    "present_in_edition": true,
+    "s2t": "火",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "点": {
+    "present_in_edition": false,
+    "s2t": "點",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "热": {
+    "present_in_edition": false,
+    "s2t": "熱",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "爱": {
+    "present_in_edition": false,
+    "s2t": "愛",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "特": {
+    "present_in_edition": true,
+    "s2t": "特",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "犯": {
+    "present_in_edition": true,
+    "s2t": "犯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "独": {
+    "present_in_edition": false,
+    "s2t": "獨",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "狮": {
+    "present_in_edition": false,
+    "s2t": "獅",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "现": {
+    "present_in_edition": false,
+    "s2t": "現",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "理": {
+    "present_in_edition": true,
+    "s2t": "理",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "电": {
+    "present_in_edition": false,
+    "s2t": "電",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "甸": {
+    "present_in_edition": true,
+    "s2t": "甸",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "疊": {
+    "present_in_edition": true,
+    "s2t": "疊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "白": {
+    "present_in_edition": true,
+    "s2t": "白",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "盐": {
+    "present_in_edition": false,
+    "s2t": "鹽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "相": {
+    "present_in_edition": true,
+    "s2t": "相",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "着": {
+    "present_in_edition": false,
+    "s2t": "着",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "睏": {
+    "present_in_edition": true,
+    "s2t": "睏",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "石": {
+    "present_in_edition": true,
+    "s2t": "石",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "确": {
+    "present_in_edition": false,
+    "s2t": "確",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "礼": {
+    "present_in_edition": false,
+    "s2t": "禮",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "祈": {
+    "present_in_edition": true,
+    "s2t": "祈",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "禮": {
+    "present_in_edition": true,
+    "s2t": "禮",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "离": {
+    "present_in_edition": false,
+    "s2t": "離",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "秀": {
+    "present_in_edition": true,
+    "s2t": "秀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "种": {
+    "present_in_edition": false,
+    "s2t": "種",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "称": {
+    "present_in_edition": false,
+    "s2t": "稱",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "稱": {
+    "present_in_edition": true,
+    "s2t": "稱",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "稿": {
+    "present_in_edition": true,
+    "s2t": "稿",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "穿": {
+    "present_in_edition": true,
+    "s2t": "穿",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "立": {
+    "present_in_edition": true,
+    "s2t": "立",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "简": {
+    "present_in_edition": false,
+    "s2t": "簡",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "管": {
+    "present_in_edition": true,
+    "s2t": "管",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "粘": {
+    "present_in_edition": true,
+    "s2t": "粘",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "糕": {
+    "present_in_edition": true,
+    "s2t": "糕",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "糖": {
+    "present_in_edition": true,
+    "s2t": "糖",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "糯": {
+    "present_in_edition": true,
+    "s2t": "糯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "索": {
+    "present_in_edition": false,
+    "s2t": "索",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "紧": {
+    "present_in_edition": false,
+    "s2t": "緊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "繼": {
+    "present_in_edition": true,
+    "s2t": "繼",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "續": {
+    "present_in_edition": true,
+    "s2t": "續",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "红": {
+    "present_in_edition": false,
+    "s2t": "紅",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "约": {
+    "present_in_edition": false,
+    "s2t": "約",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "级": {
+    "present_in_edition": false,
+    "s2t": "級",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "纸": {
+    "present_in_edition": false,
+    "s2t": "紙",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "线": {
+    "present_in_edition": false,
+    "s2t": "線",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "练": {
+    "present_in_edition": false,
+    "s2t": "練",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "细": {
+    "present_in_edition": false,
+    "s2t": "細",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "结": {
+    "present_in_edition": false,
+    "s2t": "結",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "给": {
+    "present_in_edition": false,
+    "s2t": "給",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "统": {
+    "present_in_edition": false,
+    "s2t": "統",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "继": {
+    "present_in_edition": false,
+    "s2t": "繼",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "续": {
+    "present_in_edition": false,
+    "s2t": "續",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "编": {
+    "present_in_edition": false,
+    "s2t": "編",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "罚": {
+    "present_in_edition": false,
+    "s2t": "罰",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "罰": {
+    "present_in_edition": true,
+    "s2t": "罰",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "署": {
+    "present_in_edition": true,
+    "s2t": "署",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "老": {
+    "present_in_edition": false,
+    "s2t": "老",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": true
+   },
+   "聖": {
+    "present_in_edition": true,
+    "s2t": "聖",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "聞": {
+    "present_in_edition": true,
+    "s2t": "聞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "胜": {
+    "present_in_edition": false,
+    "s2t": "勝",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "脆": {
+    "present_in_edition": true,
+    "s2t": "脆",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "腌": {
+    "present_in_edition": false,
+    "s2t": "醃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "至": {
+    "present_in_edition": true,
+    "s2t": "至",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "舊": {
+    "present_in_edition": true,
+    "s2t": "舊",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "节": {
+    "present_in_edition": false,
+    "s2t": "節",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "芦": {
+    "present_in_edition": false,
+    "s2t": "蘆",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "苇": {
+    "present_in_edition": false,
+    "s2t": "葦",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "苹": {
+    "present_in_edition": false,
+    "s2t": "蘋",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "范": {
+    "present_in_edition": false,
+    "s2t": "範",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "获": {
+    "present_in_edition": false,
+    "s2t": "獲",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "菜": {
+    "present_in_edition": true,
+    "s2t": "菜",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "萝": {
+    "present_in_edition": false,
+    "s2t": "蘿",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "蒸": {
+    "present_in_edition": true,
+    "s2t": "蒸",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "蔔": {
+    "present_in_edition": true,
+    "s2t": "蔔",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "藏": {
+    "present_in_edition": true,
+    "s2t": "藏",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "蘿": {
+    "present_in_edition": true,
+    "s2t": "蘿",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "虎": {
+    "present_in_edition": true,
+    "s2t": "虎",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "蚕": {
+    "present_in_edition": false,
+    "s2t": "蠶",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "融": {
+    "present_in_edition": true,
+    "s2t": "融",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "蠶": {
+    "present_in_edition": true,
+    "s2t": "蠶",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "裙": {
+    "present_in_edition": true,
+    "s2t": "裙",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "複": {
+    "present_in_edition": true,
+    "s2t": "複",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "規": {
+    "present_in_edition": true,
+    "s2t": "規",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "见": {
+    "present_in_edition": false,
+    "s2t": "見",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "观": {
+    "present_in_edition": false,
+    "s2t": "觀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "规": {
+    "present_in_edition": false,
+    "s2t": "規",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "調": {
+    "present_in_edition": true,
+    "s2t": "調",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "諾": {
+    "present_in_edition": true,
+    "s2t": "諾",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "计": {
+    "present_in_edition": false,
+    "s2t": "計",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "认": {
+    "present_in_edition": false,
+    "s2t": "認",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "讯": {
+    "present_in_edition": false,
+    "s2t": "訊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "许": {
+    "present_in_edition": false,
+    "s2t": "許",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "诉": {
+    "present_in_edition": false,
+    "s2t": "訴",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "诊": {
+    "present_in_edition": false,
+    "s2t": "診",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "词": {
+    "present_in_edition": false,
+    "s2t": "詞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "译": {
+    "present_in_edition": false,
+    "s2t": "譯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "试": {
+    "present_in_edition": false,
+    "s2t": "試",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "详": {
+    "present_in_edition": false,
+    "s2t": "詳",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "语": {
+    "present_in_edition": false,
+    "s2t": "語",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "说": {
+    "present_in_edition": false,
+    "s2t": "說",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "请": {
+    "present_in_edition": false,
+    "s2t": "請",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "诺": {
+    "present_in_edition": false,
+    "s2t": "諾",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "读": {
+    "present_in_edition": false,
+    "s2t": "讀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "调": {
+    "present_in_edition": false,
+    "s2t": "調",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "賞": {
+    "present_in_edition": true,
+    "s2t": "賞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "贈": {
+    "present_in_edition": true,
+    "s2t": "贈",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "败": {
+    "present_in_edition": false,
+    "s2t": "敗",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "费": {
+    "present_in_edition": false,
+    "s2t": "費",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "资": {
+    "present_in_edition": false,
+    "s2t": "資",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "赏": {
+    "present_in_edition": false,
+    "s2t": "賞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "赛": {
+    "present_in_edition": false,
+    "s2t": "賽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "赠": {
+    "present_in_edition": false,
+    "s2t": "贈",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "赶": {
+    "present_in_edition": false,
+    "s2t": "趕",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "趋": {
+    "present_in_edition": false,
+    "s2t": "趨",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "转": {
+    "present_in_edition": false,
+    "s2t": "轉",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "较": {
+    "present_in_edition": false,
+    "s2t": "較",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "辑": {
+    "present_in_edition": false,
+    "s2t": "輯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "过": {
+    "present_in_edition": false,
+    "s2t": "過",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "还": {
+    "present_in_edition": false,
+    "s2t": "還",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "这": {
+    "present_in_edition": false,
+    "s2t": "這",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "进": {
+    "present_in_edition": false,
+    "s2t": "進",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "连": {
+    "present_in_edition": false,
+    "s2t": "連",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "迟": {
+    "present_in_edition": false,
+    "s2t": "遲",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "送": {
+    "present_in_edition": true,
+    "s2t": "送",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "适": {
+    "present_in_edition": false,
+    "s2t": "適",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "选": {
+    "present_in_edition": false,
+    "s2t": "選",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "递": {
+    "present_in_edition": false,
+    "s2t": "遞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "連": {
+    "present_in_edition": true,
+    "s2t": "連",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "適": {
+    "present_in_edition": true,
+    "s2t": "適",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "遲": {
+    "present_in_edition": true,
+    "s2t": "遲",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "避": {
+    "present_in_edition": true,
+    "s2t": "避",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "郑": {
+    "present_in_edition": false,
+    "s2t": "鄭",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "鄭": {
+    "present_in_edition": true,
+    "s2t": "鄭",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "醃": {
+    "present_in_edition": true,
+    "s2t": "醃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "释": {
+    "present_in_edition": false,
+    "s2t": "釋",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "里": {
+    "present_in_edition": false,
+    "s2t": "裏",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "铁": {
+    "present_in_edition": false,
+    "s2t": "鐵",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "银": {
+    "present_in_edition": false,
+    "s2t": "銀",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "错": {
+    "present_in_edition": false,
+    "s2t": "錯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "门": {
+    "present_in_edition": false,
+    "s2t": "門",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "闪": {
+    "present_in_edition": false,
+    "s2t": "閃",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "问": {
+    "present_in_edition": false,
+    "s2t": "問",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "间": {
+    "present_in_edition": false,
+    "s2t": "間",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "闻": {
+    "present_in_edition": false,
+    "s2t": "聞",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "队": {
+    "present_in_edition": false,
+    "s2t": "隊",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "阳": {
+    "present_in_edition": false,
+    "s2t": "陽",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "阵": {
+    "present_in_edition": false,
+    "s2t": "陣",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "际": {
+    "present_in_edition": false,
+    "s2t": "際",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "陆": {
+    "present_in_edition": false,
+    "s2t": "陸",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "院": {
+    "present_in_edition": true,
+    "s2t": "院",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "際": {
+    "present_in_edition": true,
+    "s2t": "際",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "雙": {
+    "present_in_edition": true,
+    "s2t": "雙",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "韩": {
+    "present_in_edition": false,
+    "s2t": "韓",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "順": {
+    "present_in_edition": true,
+    "s2t": "順",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "額": {
+    "present_in_edition": true,
+    "s2t": "額",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "顯": {
+    "present_in_edition": true,
+    "s2t": "顯",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "页": {
+    "present_in_edition": false,
+    "s2t": "頁",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "顺": {
+    "present_in_edition": false,
+    "s2t": "順",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "预": {
+    "present_in_edition": false,
+    "s2t": "預",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "领": {
+    "present_in_edition": false,
+    "s2t": "領",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "频": {
+    "present_in_edition": false,
+    "s2t": "頻",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "题": {
+    "present_in_edition": false,
+    "s2t": "題",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "额": {
+    "present_in_edition": false,
+    "s2t": "額",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "风": {
+    "present_in_edition": false,
+    "s2t": "風",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "飞": {
+    "present_in_edition": false,
+    "s2t": "飛",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "飴": {
+    "present_in_edition": true,
+    "s2t": "飴",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "餐": {
+    "present_in_edition": true,
+    "s2t": "餐",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   },
+   "餘": {
+    "present_in_edition": true,
+    "s2t": "餘",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "饴": {
+    "present_in_edition": false,
+    "s2t": "飴",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "验": {
+    "present_in_edition": false,
+    "s2t": "驗",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "骨": {
+    "present_in_edition": true,
+    "s2t": "骨",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": false
+   },
+   "鱼": {
+    "present_in_edition": false,
+    "s2t": "魚",
+    "in_w43": false,
+    "in_zhtw_core": false,
+    "in_builder170": true
+   },
+   "鹽": {
+    "present_in_edition": true,
+    "s2t": "鹽",
+    "in_w43": false,
+    "in_zhtw_core": true,
+    "in_builder170": false
+   }
+  }
+ },
+ "superset_present_in_edition": [
+  "事",
+  "仍",
+  "件",
+  "低",
+  "供",
+  "們",
+  "值",
+  "做",
+  "傳",
+  "儀",
+  "優",
+  "元",
+  "入",
+  "冬",
+  "利",
+  "制",
+  "副",
+  "助",
+  "勻",
+  "口",
+  "只",
+  "史",
+  "品",
+  "員",
+  "哪",
+  "嚐",
+  "圍",
+  "團",
+  "土",
+  "堵",
+  "塞",
+  "壘",
+  "夕",
+  "安",
+  "官",
+  "定",
+  "室",
+  "害",
+  "峰",
+  "幫",
+  "平",
+  "度",
+  "延",
+  "得",
+  "心",
+  "忙",
+  "怕",
+  "意",
+  "懷",
+  "截",
+  "戰",
+  "承",
+  "拌",
+  "拏",
+  "推",
+  "措",
+  "揮",
+  "敏",
+  "施",
+  "旋",
+  "晉",
+  "暖",
+  "未",
+  "架",
+  "桌",
+  "梨",
+  "業",
+  "構",
+  "模",
+  "款",
+  "歡",
+  "此",
+  "毫",
+  "氛",
+  "汽",
+  "沉",
+  "泡",
+  "泰",
+  "淆",
+  "溫",
+  "滑",
+  "漢",
+  "濃",
+  "火",
+  "特",
+  "犯",
+  "理",
+  "甸",
+  "疊",
+  "白",
+  "相",
+  "睏",
+  "石",
+  "祈",
+  "禮",
+  "秀",
+  "稱",
+  "稿",
+  "穿",
+  "立",
+  "管",
+  "粘",
+  "糕",
+  "糖",
+  "糯",
+  "繼",
+  "續",
+  "罰",
+  "署",
+  "聖",
+  "聞",
+  "脆",
+  "至",
+  "舊",
+  "菜",
+  "蒸",
+  "蔔",
+  "藏",
+  "蘿",
+  "虎",
+  "融",
+  "蠶",
+  "裙",
+  "複",
+  "規",
+  "調",
+  "諾",
+  "賞",
+  "贈",
+  "送",
+  "連",
+  "適",
+  "遲",
+  "避",
+  "鄭",
+  "醃",
+  "院",
+  "際",
+  "雙",
+  "順",
+  "額",
+  "顯",
+  "飴",
+  "餐",
+  "餘",
+  "骨",
+  "鹽"
+ ]
+}
