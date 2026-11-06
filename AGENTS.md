@@ -7,6 +7,28 @@
   one full independent proofreading round with zero findings, and a geometry-overlap audit with zero flags.
   Do not add an edition that has not passed.
 
+## Production sources and tools
+
+- `SOP.md` is the canonical production SOP for this weekly paper. It
+  changes often; each weekly cycle pulls the latest version before
+  starting. Do not work from memory or from a summary of it.
+- `tools/` holds the shared production toolkit (freeze / p8 / occlusion
+  audit / insert / webpdf / cover_check / tables + README). Run it from
+  the repo clone with the persistent venv `tools/venv/bin/python`
+  (never `/tmp`). `tools/venv/` and `tools/scratch/` are gitignored and
+  never committed. Every builder/proofreader MUST use these tools
+  instead of hand-rolled equivalents; if a check is missing, extend
+  the tool here.
+- `production/` holds the per-edition sources: `production/<week>/<slug>/`
+  (edition KIT + build code + ABSTRACT.txt + .text.md; rendered PDFs/
+  SVGs/PNGs are NOT kept here — they are reproducible from the sources
+  and the final web PDFs are already under `issues/`), `production/<week>/core-<target>/`
+  (core build code), `production/production-matrix.md` (the 12×11 grid),
+  `production/covers/<week>/` (teasers.json + cover build scripts), and
+  `production/notes/` (audit records the SOP appendices cite).
+- This repo holds content, the SOP, the toolkit and the production
+  sources. It holds no site code.
+
 ## Add an edition
 
 1. Create the directory `issues/<week, lowercase>/<week, lowercase>-<target>-<native>/`.

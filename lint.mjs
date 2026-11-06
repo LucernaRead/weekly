@@ -89,7 +89,7 @@ const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko', 'zh-c
 const ROOT_ALLOW = new Set([
   'issues', 'lint.mjs', 'index.json', 'README.md', 'AGENTS.md', 'CLAUDE.md', 'SOP.md',
   '.git', '.husky', 'package.json', 'package-lock.json', 'node_modules',
-  '.github', '.gitignore', 'covers',
+  '.github', '.gitignore', 'covers', 'tools', 'production',
 ]);
 const REQUIRED_FM = [
   'title', 'excerpt', 'abstract', 'publishedAt', 'week', 'weekStart', 'weekEnd', 'vol',
