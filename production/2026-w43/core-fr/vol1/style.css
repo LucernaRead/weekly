@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'LucernaBlack';
+  src: url('file:///home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-vol1-build/fonts/UnifrakturMaguntia.ttf') format('truetype');
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1350px; }
+body {
+  background: #f7f1e2;
+  color: #28251d;
+  font-family: "Noto Serif CJK SC", "Noto Serif", serif;
+  overflow: hidden;
+}
+.page {
+  width: 1080px; height: 1350px;
+  padding: 54px 62px 48px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(255,255,255,.55), rgba(255,255,255,0) 55%),
+    #f7f1e2;
+}
+.frame {
+  position: relative; height: 100%;
+  border: 3px solid #28251d; outline: 1.5px solid #28251d; outline-offset: 7px;
+  padding: 40px 46px 34px;
+}
+.meta-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: "Noto Sans CJK SC", sans-serif;
+  font-size: 21px; letter-spacing: .18em; color: #57523f;
+  border-bottom: 1px solid #b3a06a; padding-bottom: 14px;
+}
+.masthead {
+  font-family: 'LucernaBlack', serif;
+  text-align: center; color: #221f18;
+}
+.rule-double { border-top: 3.5px solid #28251d; border-bottom: 1px solid #28251d; height: 7px; margin: 18px 0 0; }
+.head-row {
+  display: flex; justify-content: space-between; align-items: flex-end;
+  border-bottom: 3px solid #28251d; padding-bottom: 16px; margin-bottom: 8px;
+}
+.head-row .brand { font-family: 'LucernaBlack', serif; font-size: 54px; color: #221f18; line-height: 1; }
+.head-row .sec {
+  font-family: "Noto Sans CJK SC", sans-serif; font-size: 22px; letter-spacing: .22em; color: #57523f;
+}
+.day { padding: 38px 2px 34px; border-bottom: 1px solid #cfc39f; }
+.day:last-child { border-bottom: none; }
+.day-label {
+  display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 14px;
+  font-family: "Noto Sans CJK SC", sans-serif;
+}
+.day-label .no { font-size: 23px; font-weight: 700; letter-spacing: .14em; color: #3e4c2a; }
+.day-label .book { font-size: 22px; letter-spacing: .1em; color: #57523f; }
+.quote {
+  font-family: "Noto Serif", "Noto Serif CJK SC", serif;
+  font-size: 47px; line-height: 1.38; color: #211e16; font-weight: 600;
+}
+.quote .hl { text-decoration: underline; text-decoration-color: #3e4c2a; text-decoration-thickness: 3px; text-underline-offset: 8px; }
+.attrib { margin-top: 10px; font-size: 25px; color: #57523f; text-align: right; }
+.grammar {
+  margin-top: 16px; background: #fdfaf0; border: 1.5px solid #d8cfb4; border-left: 7px solid #3e4c2a;
+  padding: 15px 20px 16px; font-size: 28px; line-height: 1.68; color: #33301f;
+}
+.grammar b { color: #3e4c2a; }
+.trans { margin-top: 13px; font-size: 29px; line-height: 1.8; color: #28251d; }
+.trans .k {
+  font-family: "Noto Sans CJK SC", sans-serif; font-size: 21px; font-weight: 700; letter-spacing: .2em;
+  color: #f7f1e2; background: #3e4c2a; padding: 3px 10px 4px; border-radius: 3px; margin-right: 12px;
+  vertical-align: 3px;
+}
+.foot {
+  position: absolute; left: 46px; right: 46px; bottom: 26px;
+  border-top: 1px solid #b3a06a; padding-top: 16px;
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: "Noto Sans CJK SC", sans-serif; font-size: 21px; letter-spacing: .16em; color: #57523f;
+}
+.bubble-q {
+  background: #2c2822; color: #f3edda; border-radius: 10px;
+  padding: 16px 24px; font-size: 29px; line-height: 1.7;
+  margin: 14px 0 0 90px;
+}
+.bubble-a {
+  background: #fdfaf0; border: 1.5px solid #cfc39f; border-radius: 10px;
+  padding: 16px 24px; font-size: 29px; line-height: 1.7; color: #33301f;
+  margin: 12px 90px 0 0;
+}
+.bubble-a b { color: #3e4c2a; }
+.who {
+  font-family: "Noto Sans CJK SC", sans-serif; font-size: 20px; letter-spacing: .2em; color: #8a8268;
+  margin: 16px 0 -4px;
+}
+.who.r { text-align: right; }
+.quiz {
+  margin-top: 26px; border: 2px solid #3e4c2a; background: #fdfaf0; padding: 22px 26px;
+}
+.quiz .qt { font-family: "Noto Sans CJK SC", sans-serif; font-size: 21px; font-weight: 700; letter-spacing: .24em; color: #3e4c2a; margin-bottom: 10px; }
+.quiz .qq { font-family: "Noto Serif", serif; font-size: 33px; font-weight: 600; }
+.quiz .opts { font-family: "Noto Serif", serif; font-size: 27px; color: #57523f; margin-top: 6px; }
+.quiz .ans { font-size: 28px; line-height: 1.7; margin-top: 14px; color: #28251d; }
+.quiz .ans b { color: #3e4c2a; }

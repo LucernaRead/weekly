@@ -1,0 +1,226 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zh-cn-de/svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P3 · 文化 (A2→B1) =================
+CURPAGE[0] = 3
+p = BSPage4()
+p.band("文化 · Kultur", "Lucerna", "Niveau A2→B1 · 重阳刚过 · 霜降要来 · Ein Fest vorbei, ein Termin naht")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-feature")
+f.title("重阳刚过,霜降要来", 37)
+f.byline("Lucerna-Redaktion · Leseniveau A2→B1")
+f.para("上周日,10月18日,是重阳节。重阳节在农历九月初九。「九」是阳数,两个九在一起,所以叫「重阳」。")
+f.para("重阳节要登高。人们爬上山,看秋天的风景。还要赏菊花、佩茱萸、吃重阳糕。")
+f.para("王维写过一首有名的诗:「遥知兄弟登高处,遍插茱萸少一人。」这首诗写的就是重阳节想念家人的心情。")
+f.para("重阳糕是重阳节的点心。吃糕有「步步高」的好意头,因为「糕」和「高」同音。山上还有菊花:人们一边爬山,一边赏菊,菊花茶也是重阳的味道。")
+f.para("现在,重阳节也是敬老节。这一天,年轻人陪老人爬山、吃饭,给老人送祝福。")
+f.gloss("nónglì 农历 — der traditionelle Mondkalender · dēnggāo 登高 — eine Höhe besteigen · zhūyú 茱萸 — eine Duftpflanze, getragen für Glück und Gesundheit.")
+f.head("霜降:秋天的最后一个节气", 25)
+f.para("本周五,10月23日,是霜降。霜降是秋天的第六个节气,也是最后一个。霜降有三候:一候豺乃祭兽,二候草木黄落,三候蛰虫咸俯。")
+f.para("简单说:动物开始准备过冬,树叶变黄、落下,小虫子躲进洞里。天气真的冷了。")
+f.para("霜降吃柿子。老话说:「霜降吃柿子,嘴唇不会裂。」还有一句话:「补冬不如补霜降。」这个周末,去山上看红叶,回家吃一个柿子,秋天就圆满了。")
+f.para("霜降前后,柿子最甜,山上的枫叶也红了、银杏也黄了。公园里都是拍照的人——这就是深秋的样子。")
+f.gloss("hòu 候 — eine Fünftages-Mikrosaison · huángluò 黄落 — Blätter werden gelb und fallen · zhéchóng 蛰虫 — überwinternde Insekten, versteckt für den Winter.")
+f.end_report()
+
+# col 3: chrysanthemum + facts + frost + 你呢
+ix = COLX[3]
+image(p, "chrysanthemum.jpg", ix, 200, CW, 185)
+cy3 = caption(p, ix, 385, CW, "重阳赏菊。菊花是秋天的花,也是长寿的花。",
+              "Foto: PushpaKhan — CC0 (Wikimedia Commons)")
+facts = ["上周日 10月18日 — 重阳节(农历九月初九)",
+         "本周五 10月23日 — 霜降,秋天最后一个节气",
+         "11月7日 — 立冬,冬天开始"]
+sy3 = cy3 + 24
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "节日小日历 · Festtermine", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ay3 = sy3 + sh + 26
+image(p, "frost.jpg", ix, ay3, CW, 200)
+cy4 = caption(p, ix, ay3 + 200, CW, "带霜的红叶。霜降到了,早上能看见白白的霜。",
+              "Foto: Gerda Arendt — CC0 (Wikimedia Commons)")
+ey3 = cy4 + 18
+etvous = "你呢?重阳节,你想陪谁去爬山?霜降的时候,你想吃什么?写两句中文寄来。"
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Und Sie? Mit wem würden Sie einen Berg besteigen? Was würden Sie zu 霜降 essen? Schreiben Sie zwei Sätze auf Chinesisch.", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+yy3 = ey3 + 16
+p.text(ix + 22, yy3 + 26, "说说你自己 · Und Sie?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(ix + 22, yy3 + 20, "Und Sie? Mit wem würden Sie einen Berg besteigen? Was würden Sie zu 霜降 essen? Schreiben Sie zwei Sätze auf Chinesisch.", 20, "sans", False, GREY, CW - 44, 1.42)
+print("P3 col3 ends", ey3 + eh)
+
+# ---- P3 exercises ----
+ey = 1620
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "练习 · Übungen", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
+e.head("A · 读一读选一选 · Lesen & wählen", 25)
+e.glossline("Lesen Sie Seite 3 und wählen Sie die beste Antwort.")
+e.ex("A2", "单选", "A", "重阳 fällt auf den 9. Tag des 9. Mondmonats.",
+     "重阳节在农历几月几日? A. 九月初九 · B. 八月十五 · C. 正月初一", size=19, gap=6)
+e.ex("A2", "单选", "B", "Eine Höhe zu besteigen ist die klassische 重阳-Tätigkeit.",
+     "重阳节人们做什么? A. 游泳 · B. 登高 · C. 放鞭炮", size=19, gap=6)
+e.ex("B1", "单选", "C", "Wer in Wang Weis Gedicht fehlt, ist der Dichter selbst.",
+     "王维的诗里,登高的人少了谁? A. 一位朋友 · B. 一位兄弟 · C. 作者自己", size=19, gap=6)
+e.ex("A2", "单选", "B", "霜降 ist der letzte Solarterminus des Herbstes.",
+     "霜降是秋天的哪个节气? A. 第一个 · B. 最后一个 · C. 第三个", size=19, gap=6)
+e.ex("B1", "单选", "B", "Zweite Mikrosaison: Blätter werden gelb und fallen.",
+     "霜降二候,树叶怎么样? A. 变绿 · B. 变黄落下 · C. 开花", size=19, gap=6)
+e.head("B · 词语填空 · Wörter einsetzen", 25)
+e.glossline("Setzen Sie in jede Lücke das richtige Wort.")
+e.ex("A2", "完成句子", "重阳", "Das Fest am 九月初九 ist 重阳.",
+     "九月初九是___节。", instr="Ausfüllen", size=19, gap=6)
+e.ex("A2", "完成句子", "登高", "dēnggāo — eine Höhe besteigen zu 重阳.",
+     "重阳节要爬山,这叫___。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "茱萸", "zhūyú — die Duftpflanze, die man trägt.",
+     "人们把___佩在身上,保佑平安。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "黄落", "草木黄落 — Blätter werden gelb, fallen (2. Mikrosaison).",
+     "霜降二候是草木___。", instr="Ausfüllen", size=19, gap=6)
+e.ex("A2", "完成句子", "柿子", "Zu 霜降 Kaki zu essen ist der Brauch.",
+     "霜降吃___,嘴唇不会裂。", instr="Ausfüllen", size=19, gap=6)
+e.head("C · 数字与日期 · Zahlen & Daten", 25)
+e.glossline("Antworten Sie mit Daten und Zahlen von Seite 3.")
+e.ex("A2", "完成句子", "18", "重阳 war dieses Jahr am 18. Okt. (Sonntag).",
+     "今年重阳节在10月___日。", instr="Ausfüllen", size=19, gap=6)
+e.ex("A2", "完成句子", "23", "霜降 fällt auf Freitag, den 23. Okt.",
+     "霜降在10月___日。", instr="Ausfüllen", size=19, gap=6)
+e.ex("A2", "完成句子", "7", "立冬 ist dieses Jahr am 7. Nov.",
+     "立冬在11月___日。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "一", "遍插茱萸少一人 — eine Person fehlt.",
+     "王维的诗里说「遍插茱萸少___人」。", instr="Ausfüllen", size=19, gap=6)
+e.head("D · 词语配对 · Zuordnen", 25)
+e.match_set("A2", "词汇配对",
+            ["登高", "茱萸", "重阳糕", "霜"],
+            ["早上草地上的白色小冰晶",
+             "重阳节吃的一种糕",
+             "爬上高处看风景",
+             "佩在身上的香草"],
+            ["c", "d", "b", "a"],
+            ["dēnggāo 登高 = hoch steigen, c", "zhūyú 茱萸 = die getragene Pflanze, d", "重阳糕 = der Festkuchen, b", "shuāng 霜 = Raureif, a"],
+            instr="Zuordnen")
+e.end_report()
+p.foot(3)
+p.save(f"{OUT}/p3-wenhua.svg")
+print("P3 saved, exercises so far:", len(REG))
+
+# ================= P4 · 体育 (B1) =================
+CURPAGE[0] = 4
+p = BSPage4()
+p.band("体育 · Sport", "Lucerna", "Niveau B1 · 体操世锦赛 · NBA 新赛季 · Turn-WM & NBA-Saisonstart")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1180, tag="P4-feature")
+f.title("体操男团摘铜,NBA 新赛季开打", 37)
+f.byline("Lucerna-Redaktion · Leseniveau B1")
+f.para("北京时间10月21日凌晨,2026年体操世锦赛在荷兰鹿特丹举行男子团体决赛。日本队拿到251.928分,得到冠军。")
+f.para("中国队有邹敬园、兰星宇、杨皓楠、田昊和李鸿颜,拿到249.193分,得到铜牌。两个分数只差2.735分。")
+f.para("比赛前三名的队,都拿到了2028年洛杉矶奥运会的团体参赛资格。女子团体决赛在北京时间10月22日凌晨1点30分举行。")
+f.para("体操有很多项目:自由操、鞍马、吊环、跳马、双杠、单杠。中国队里,邹敬园的双杠很有名。")
+f.gloss("tuántǐ 团体 — der Teamwettkampf · juésài 决赛 — das Finale · zīgé 资格 — ein Qualifikationsplatz · diàohuán 吊环 — die Ringe.")
+f.para("篮球也有大消息。NBA新赛季在北美时间10月20日开始;换成北京时间,是10月21日上午。")
+f.para("揭幕日有三场比赛:凯尔特人对活塞、76人对尼克斯、雷霆对马刺。尼克斯是上个赛季的冠军,是卫冕冠军。")
+f.para("最大的看点是詹姆斯。他穿上76人的球衣,开始他的第24个赛季。马刺队也在揭幕日出场,年轻球员文班亚马会和队友一起上场。")
+f.gloss("jiēmù 揭幕 — die Saison eröffnen · wèimiǎn 卫冕 — einen Titel verteidigen · kàndiǎn 看点 — das, was sich anzusehen lohnt.")
+f.end_report()
+
+# ---- score chart (cols 0-2), bars exactly proportional from zero ----
+ly = 1210
+p.text(MX, ly + 26, "男团决赛:只差 2.735 分 · Das Männer-Teamfinale", 26, "sans", True, OLIVE)
+p.hline(MX, COLX[2] + CW, ly + 40, GOLD, 2)
+rows = [("日本队", 251.928), ("中国队", 249.193)]
+SCALE = 2.2
+by0 = ly + 66
+for i, (name, val) in enumerate(rows):
+    yy = by0 + i * 64
+    p.text(MX, yy + 34, name, 24, "sans", True, INK)
+    bw_ = val * SCALE
+    p.rect(MX + 120, yy + 6, bw_, 34, fill=OLIVE if i == 0 else GOLD)
+    p.text(MX + 120 + bw_ + 16, yy + 34, f"{val:.3f} 分", 24, "serif", True, INK)
+p.para(MX, by0 + 2 * 64 + 22, "Die Balken beginnen bei 0 und sind exakt proportional zu den Punkten: 251.928 − 249.193 = 2.735. Quelle: 京报网 (The Beijing News), 21.10.2026.", 20.5, "serif", False, GREY, 1388, 1.4)
+
+# col 3: basketball + facts + 1896 gymnastics
+ix = COLX[3]
+image(p, "basketball.jpg", ix, 200, CW, 240)
+cy3 = caption(p, ix, 440, CW, "篮球进筐!NBA 新赛季,北京时间 10 月 21 日上午开打。",
+              "Foto: noahsilliman — CC0 (Wikimedia Commons)")
+facts = ["10月21日凌晨 — 体操男团决赛(已结束)",
+         "10月22日 01:30 — 体操女团决赛",
+         "10月21日上午 — NBA 新赛季第一天"]
+sy3 = cy3 + 24
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "体育小日历 · Sporttermine", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ay3 = sy3 + sh + 26
+image(p, "gymnastics1896.jpg", ix, ay3, CW, 200)
+caption(p, ix, ay3 + 200, CW, "一百多年前的体操比赛:1896 年的雅典。今天的项目名字,很多还是那时的。",
+        "Foto: Autor unbekannt, 1896 — Public domain (Wikimedia Commons)")
+print("P4 col3 ends", ay3 + 300)
+
+# ---- P4 exercises ----
+ey = 1560
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "练习 · Übungen", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
+e.head("A · 读一读选一选 · Lesen & wählen", 25)
+e.glossline("Lesen Sie Seite 4 und wählen Sie die beste Antwort.")
+e.ex("B1", "单选", "A", "Die WM fand in Rotterdam, Niederlande, statt.",
+     "体操世锦赛在哪个城市? A. 鹿特丹 · B. 北京 · C. 洛杉矶", size=19, gap=6)
+e.ex("B1", "单选", "B", "Japan gewann den Männer-Teamtitel.",
+     "男团冠军是哪个队? A. 中国队 · B. 日本队 · C. 美国队", size=19, gap=6)
+e.ex("B1", "单选", "B", "China erzielte 249.193 Punkte.",
+     "中国队拿到多少分? A. 251.928 · B. 249.193 · C. 240.193", size=19, gap=6)
+e.ex("B1", "单选", "B", "Die Top 3 gewannen olympische Teamplätze für LA 2028.",
+     "前三名的队拿到了什么? A. 奖金 · B. 奥运团体资格 · C. 新球衣", size=19, gap=6)
+e.ex("B1", "单选", "C", "Am Eröffnungstag spielten die 76ers gegen die Knicks.",
+     "NBA 揭幕日,76 人对哪个队? A. 凯尔特人 · B. 马刺 · C. 尼克斯", size=19, gap=6)
+e.head("B · 词语填空 · Wörter einsetzen", 25)
+e.glossline("Setzen Sie in jede Lücke das richtige Wort.")
+e.ex("B1", "完成句子", "团体", "tuántǐ — das Männer-Teamfinale.",
+     "男子___决赛在鹿特丹举行。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "铜", "China holte die Bronzemedaille, 铜牌.",
+     "中国队得到___牌。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "体操", "Ringe und Barren gehören zum Turnen.",
+     "吊环、双杠、单杠都是___项目。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "卫冕", "wèimiǎn — die Knicks sind die Titelverteidiger.",
+     "尼克斯是上个赛季的冠军,是___冠军。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "24", "Es ist LeBrons 24. Saison.",
+     "詹姆斯开始他的第___个赛季。", instr="Ausfüllen", size=19, gap=6)
+e.head("C · 读图与换算 · Diagramm lesen", 25)
+e.glossline("Lesen Sie das Diagramm und die Zeiten auf Seite 4.")
+e.ex("B2", "完成句子", "2.735", "251.928 − 249.193 = 2.735 Punkte.",
+     "两个分数差___分。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "1", "Das Frauenfinale beginnt 01:30 Uhr Pekinger Zeit.",
+     "女团决赛在北京时间10月22日凌晨___点30分。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "21", "Der 20. Okt. in Nordamerika ist der 21. Okt. in Peking.",
+     "NBA 在北美时间10月20日开赛,北京时间是10月___日。", instr="Ausfüllen", size=19, gap=6)
+e.ex("B1", "完成句子", "一", "Der Meister steht auf Platz 1.",
+     "拿到冠军的队排第___。", instr="Ausfüllen", size=19, gap=6)
+e.head("D · 词语配对 · Zuordnen", 25)
+e.match_set("B1", "词汇配对",
+            ["吊环", "双杠", "单杠", "自由操"],
+            ["在地上做动作,不用器械",
+             "两根一样高的杠",
+             "一根高高的杠",
+             "两个吊在空中的环"],
+            ["d", "b", "c", "a"],
+            ["diàohuán 吊环 = zwei hängende Ringe, d", "双杠 = zwei gleich hohe Barren, b", "单杠 = ein hohes Reck, c", "自由操 = Bodenturnen, a"],
+            instr="Zuordnen")
+e.end_report()
+p.foot(4)
+p.save(f"{OUT}/p4-tiyu.svg")
+print("P4 saved, exercises so far:", len(REG))
