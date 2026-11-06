@@ -1,0 +1,185 @@
+PASS B4 core: no lone » on P7 (found 0)
+PASS B4 core: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 core: no lone 。 on P7 (found 0)
+PASS B6 core: no lone 。 on P2 (found 0)
+PASS B4 de: no lone » on P7 (found 0)
+PASS B4 de: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 de: no lone 。 on P7 (found 0)
+PASS B6 de: no lone 。 on P2 (found 0)
+PASS B4 es: no lone » on P7 (found 0)
+PASS B4 es: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 es: no lone 。 on P7 (found 0)
+PASS B6 es: no lone 。 on P2 (found 0)
+PASS B4 fr: no lone » on P7 (found 0)
+PASS B4 fr: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 fr: no lone 。 on P7 (found 0)
+PASS B6 fr: no lone 。 on P2 (found 0)
+PASS B4 it: no lone » on P7 (found 0)
+PASS B4 it: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 it: no lone 。 on P7 (found 0)
+PASS B6 it: no lone 。 on P2 (found 0)
+PASS B4 ja: no lone » on P7 (found 0)
+PASS B4 ja: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 ja: no lone 。 on P7 (found 0)
+PASS B6 ja: no lone 。 on P2 (found 0)
+PASS B4 ko: no lone » on P7 (found 0)
+PASS B4 ko: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 ko: no lone 。 on P7 (found 0)
+PASS B6 ko: no lone 。 on P2 (found 0)
+PASS B4 nl: no lone » on P7 (found 0)
+PASS B4 nl: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 nl: no lone 。 on P7 (found 0)
+PASS B6 nl: no lone 。 on P2 (found 0)
+PASS B4 pt: no lone » on P7 (found 0)
+PASS B4 pt: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 pt: no lone 。 on P7 (found 0)
+PASS B6 pt: no lone 。 on P2 (found 0)
+PASS B4 ru: no lone » on P7 (found 0)
+PASS B4 ru: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 ru: no lone 。 on P7 (found 0)
+PASS B6 ru: no lone 。 on P2 (found 0)
+PASS B4 zh-tw: no lone » on P7 (found 0)
+PASS B4 zh-tw: B1 toolbox line carries 1843.» : ['« Dickens wrote the story in 1843. » —', '1843.»']
+PASS B5 zh-tw: no lone 。 on P7 (found 0)
+PASS B6 zh-tw: no lone 。 on P2 (found 0)
+PASS B1 es: P6 title == 'HOW LONG ? · ¿Cuánto dura?' (got ['HOW LONG ? · ¿Cuánto dura?'])
+PASS B1 pt: P6 title == 'HOW LONG ? · Quanto dura?' (got ['HOW LONG ? · Quanto dura?'])
+PASS B1 ru: P6 title == 'HOW LONG ? · Каков срок?' (got ['HOW LONG ? · Каков срок?'])
+PASS B1-untouched de: ['HOW LONG ? · Wie lange im Amt?']
+PASS B1-untouched fr: ['HOW LONG ? · Quelle durée ?']
+PASS B1-untouched it: ['HOW LONG ? · Quanto dura?']
+PASS B1-untouched ja: ['HOW LONG ? · 任期はどれくらい？']
+PASS B1-untouched ko: ['HOW LONG ? · 임기는 얼마나?']
+PASS B1-untouched nl: ['HOW LONG ? · Hoe lang?']
+PASS B1-untouched zh-tw: ['HOW LONG ? · 任期多長？']
+PASS B1-untouched core: ['HOW LONG ? · 任期多长？']
+PASS M1 de: ['FINAL TEST · Abschlusstest · Answers at the bottom of this page · Die Antworten stehen am Ende dieser Seite']
+PASS M1 fr: ['FINAL TEST · Test final · Answers at the bottom of this page · Les réponses sont en bas de cette page']
+PASS M2 core: no 'Note | Note |'
+PASS M2 core: no doubled 해설
+PASS M2 core: no doubled 譯注
+PASS M2 core: no doubled 译注
+PASS M2 core: no doubled Anmerkung
+PASS M2 de: no 'Note | Note |'
+PASS M2 de: no doubled 해설
+PASS M2 de: no doubled 譯注
+PASS M2 de: no doubled 译注
+PASS M2 de: no doubled Anmerkung
+PASS M2 es: no 'Note | Note |'
+PASS M2 es: no doubled 해설
+PASS M2 es: no doubled 譯注
+PASS M2 es: no doubled 译注
+PASS M2 es: no doubled Anmerkung
+PASS M2 fr: no 'Note | Note |'
+PASS M2 fr: no doubled 해설
+PASS M2 fr: no doubled 譯注
+PASS M2 fr: no doubled 译注
+PASS M2 fr: no doubled Anmerkung
+PASS M2 it: no 'Note | Note |'
+PASS M2 it: no doubled 해설
+PASS M2 it: no doubled 譯注
+PASS M2 it: no doubled 译注
+PASS M2 it: no doubled Anmerkung
+PASS M2 ja: no 'Note | Note |'
+PASS M2 ja: no doubled 해설
+PASS M2 ja: no doubled 譯注
+PASS M2 ja: no doubled 译注
+PASS M2 ja: no doubled Anmerkung
+PASS M2 ko: no 'Note | Note |'
+PASS M2 ko: no doubled 해설
+PASS M2 ko: no doubled 譯注
+PASS M2 ko: no doubled 译注
+PASS M2 ko: no doubled Anmerkung
+PASS M2 nl: no 'Note | Note |'
+PASS M2 nl: no doubled 해설
+PASS M2 nl: no doubled 譯注
+PASS M2 nl: no doubled 译注
+PASS M2 nl: no doubled Anmerkung
+PASS M2 pt: no 'Note | Note |'
+PASS M2 pt: no doubled 해설
+PASS M2 pt: no doubled 譯注
+PASS M2 pt: no doubled 译注
+PASS M2 pt: no doubled Anmerkung
+PASS M2 ru: no 'Note | Note |'
+PASS M2 ru: no doubled 해설
+PASS M2 ru: no doubled 譯注
+PASS M2 ru: no doubled 译注
+PASS M2 ru: no doubled Anmerkung
+PASS M2 zh-tw: no 'Note | Note |'
+PASS M2 zh-tw: no doubled 해설
+PASS M2 zh-tw: no doubled 譯注
+PASS M2 zh-tw: no doubled 译注
+PASS M2 zh-tw: no doubled Anmerkung
+PASS M2 zh-tw: 5 gloss boxes with 譯注｜講解｜ (found 5)
+PASS M2 fr: 5 single-prefix gloss boxes (found 5)
+PASS M2 ko: 5 single-prefix gloss boxes (found 5)
+PASS M2 de: 5 distinct-pair boxes untouched
+PASS M3 de: no 'ein Rennen entscheiden' left: ['Anmerkung | Erklärung | to call a race =', 'das Ergebnis verkünden · to certify =', 'offiziell bestätigen) · 95. call (call a race = das Ergebnis verkünden)']
+PASS M3 de: 2x 'das Ergebnis verkünden': ['Anmerkung | Erklärung | to call a race =', 'das Ergebnis verkünden · to certify =', 'offiziell bestätigen) · 95. call (call a race = das Ergebnis verkünden)']
+PASS M4 nl: P3 title == "SCROOGE'S NIGHT · Scrooge-nacht" (got ["SCROOGE'S NIGHT · Scrooge-nacht"])
+PASS M4 pt: P3 title == "SCROOGE'S NIGHT · A noite" (got ["SCROOGE'S NIGHT · A noite"])
+NOTE M4-scope es: title still ['LA NOCHE DE SCROOGE'] (untouched per verdict scope)
+NOTE M4-scope fr: title still ['LA NUIT DE SCROOGE'] (untouched per verdict scope)
+PASS B2 ko ABSTRACT: 뮌헨 present, 댦 absent
+PASS B2 ko ABSTRACT: single line, no ASCII dquote
+PASS B3 ko: 솔퍼드 unsplit on one P8 line: ['는 솔퍼드에서 생방송돼요) · 69. C · 70. challenge · 71. raise']
+PASS B3 ko: 묵념해요 unsplit on one P8 line: ['114. C (silence 묵념, 고요) · 115. B (eleven 열한) · 116. A (퍼', '묵념해요) · 131. A (반에서 케이크 26개를 구웠어요) · 132. B (퍼', '11시, 영국은 2분간 묵념해요. (at 11 a.m.；two minutes of', '(silence = 묵념 b) · 142. c (armistice = 휴전 협정 c) · 143. a']
+PASS B3 ko: no P8 line ends with 솔
+PASS B3 ko: no P8 line ends with 묵
+PASS B6 zh-tw bridge: ['用 will + 動詞原形來改寫（承諾與將要發生的事', 'the film on Friday. (will 後用動詞原形)', '黃色小熊) · 117. C (will + 動詞原形 know) · 118. B (be going', 'will + 動詞原形) · 127. A (be going to + 原形 watch) · 128. C']
+PASS PDF core: web 2017005B <= 7MB
+PASS PDF core: web pdftotext 45003B > 0
+PASS PDF core: web text 45003B == print text 45003B
+PASS PDF core: 8 pages (['Pages:           8'])
+  inventory core: web=2017005 print=27918597 webtext=45003
+PASS PDF de: web 1555468B <= 7MB
+PASS PDF de: web pdftotext 48519B > 0
+PASS PDF de: web text 48519B == print text 48519B
+PASS PDF de: 8 pages (['Pages:           8'])
+  inventory de: web=1555468 print=15190847 webtext=48519
+PASS PDF es: web 1552515B <= 7MB
+PASS PDF es: web pdftotext 46197B > 0
+PASS PDF es: web text 46197B == print text 46197B
+PASS PDF es: 8 pages (['Pages:           8'])
+  inventory es: web=1552515 print=15187759 webtext=46197
+PASS PDF fr: web 1557915B <= 7MB
+PASS PDF fr: web pdftotext 49189B > 0
+PASS PDF fr: web text 49189B == print text 49189B
+PASS PDF fr: 8 pages (['Pages:           8'])
+  inventory fr: web=1557915 print=15263470 webtext=49189
+PASS PDF it: web 1547039B <= 7MB
+PASS PDF it: web pdftotext 45896B > 0
+PASS PDF it: web text 45896B == print text 45896B
+PASS PDF it: 8 pages (['Pages:           8'])
+  inventory it: web=1547039 print=15184587 webtext=45896
+PASS PDF ja: web 2082457B <= 7MB
+PASS PDF ja: web pdftotext 47288B > 0
+PASS PDF ja: web text 47288B == print text 47288B
+PASS PDF ja: 8 pages (['Pages:           8'])
+  inventory ja: web=2082457 print=27094823 webtext=47288
+PASS PDF ko: web 1785396B <= 7MB
+PASS PDF ko: web pdftotext 47050B > 0
+PASS PDF ko: web text 47050B == print text 47050B
+PASS PDF ko: 8 pages (['Pages:           8'])
+  inventory ko: web=1785396 print=18551635 webtext=47050
+PASS PDF nl: web 1553717B <= 7MB
+PASS PDF nl: web pdftotext 48518B > 0
+PASS PDF nl: web text 48518B == print text 48518B
+PASS PDF nl: 8 pages (['Pages:           8'])
+  inventory nl: web=1553717 print=15189192 webtext=48518
+PASS PDF pt: web 1557531B <= 7MB
+PASS PDF pt: web pdftotext 46077B > 0
+PASS PDF pt: web text 46077B == print text 46077B
+PASS PDF pt: 8 pages (['Pages:           8'])
+  inventory pt: web=1557531 print=15189961 webtext=46077
+PASS PDF ru: web 1579434B <= 7MB
+PASS PDF ru: web pdftotext 50959B > 0
+PASS PDF ru: web text 50959B == print text 50959B
+PASS PDF ru: 8 pages (['Pages:           8'])
+  inventory ru: web=1579434 print=15073336 webtext=50959
+PASS PDF zh-tw: web 2204469B <= 7MB
+PASS PDF zh-tw: web pdftotext 44908B > 0
+PASS PDF zh-tw: web text 44908B == print text 44908B
+PASS PDF zh-tw: 8 pages (['Pages:           8'])
+  inventory zh-tw: web=2204469 print=24611678 webtext=44908
+FAILURES: 0

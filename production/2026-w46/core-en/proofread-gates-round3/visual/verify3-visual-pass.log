@@ -1,0 +1,17 @@
+Visual pass log — Round 3 proofread, W46 EN family (es/fr/zh-tw).
+Proofreader viewed the shipped cards only; no edition file was re-rendered or edited.
+Full frames viewed (15): zh-tw P1,P2,P3,P4,P5,P6,P7,P8; es P1,P3,P8; fr P1,P3,P8.
+Crops viewed (3, in visual/): verify3-b6-zh-tw-p2-bridge.png (bridge + ex.16),
+verify3-m4-es-p3-title.png, verify3-m4-fr-p3-title.png.
+Findings: no overflow, overlap, missing glyphs/tofu, or missing image credits on any
+frame viewed. Changed areas confirmed visually: zh-tw P2 bridge one line ending in
+a full stop with exercise 16 directly below and no second line; es/fr P3 box titles
+inside their boxes with clearance. FR P1 subtitle line fits inside the frame at 42pt.
+es/fr P2,P4,P5,P6,P7 and zh-tw unchanged pages are byte-identical to the Round 2
+state (hash-verified, see verdict §5); their Round 2 visual PASS stands.
+Observations cleared, NOT defects: (1) zh-tw P4 matching block line "d. a small set of
+players who play each / other" ends flush at the column edge — occlusion audit
+BOXTITLE silent, pre-existing since Round 1, byte-identical to the Round 2 PASS state.
+(2) P6 practice-ballot checkbox squares (U+2610) and P7 error-clinic cross marks render
+as small boxed marks in all editions including the core — the frozen core design,
+present since Round 1, not missing-glyph tofu.

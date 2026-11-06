@@ -1,0 +1,49 @@
+ko text elements: 1546
+CANDIDATES (same-x, 10-45 window, Hangul break): 28
+  p1-front y=330.0->372.0 head='영화'(2) tail='영어'(2) nospace=True :: '영어 주간지 · VOL.3 · 기념 · 축구 · 영화' / '영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+  p1-front y=478.0->522.0 head='묵념'(2) tail='참전'(2) nospace=True :: '11월 11일 오전 11시 · 2분간의 묵념' / '참전 용사의 날 · 전몰자 추모일 · 자세한 내용은 2면에'
+  p1-front y=846.0999999999999->875.8249999999999 head='참전'(2) tail='용사'(2) nospace=True :: '해설 — an armistice 휴전 협정 · a veteran 참전' / '용사 · to fall silent 조용해지다.'
+  p2-life y=1496.87->1525.27 head='영'(1) tail='어로'(2) nospace=True :: '11월 11일, 여러분의 나라는 무엇을 하나요? 영' / '어로 두 문장을 써서 편집부에 보내세요.'
+  p2-life y=2037.5->2067.225 head='일'(1) tail='어날'(2) nospace=True :: 'will + 동사원형으로 바꿔 쓰세요(약속과 앞으로 일' / '어날 일).'
+  p3-culture y=620.985->650.71 head='않'(1) tail='은'(1) nospace=True :: 'heist 강도 사건 · yet to come 아직 오지 않' / '은 것.'
+  p5-jeunesse y=794.2->823.9250000000001 head='걸'(1) tail='음이'(2) nospace=True :: '매 마일이 도움이 돼요｜Every mile helps = 매 걸' / '음이 소중해요.'
+  p6-politique y=860.225->889.95 head='결'(1) tail='선'(1) nospace=True :: 'to certify 공식 확인하다(인증) · a runoff 결' / '선 투표 · patience 인내심.'
+  p6-politique y=1127.88->1157.605 head='선'(1) tail='거의'(2) nospace=True :: '한 장의 지도｜쉰 개 주, 쉰 가지 규칙 — 그래서 선' / '거의 밤에 보는 건 지도가 되지, 숫자가 아니에요.'
+  p7-langue y=812.2->841.9250000000001 head='하'(1) tail='나'(1) nospace=True :: '도구 상자 — 이번 호 휴대 문장 세 개, 단계마다 하' / '나; 명문장은 전부 이번 호 기사에서 왔어요. 원문을'
+  p7-langue y=841.9250000000001->871.6500000000001 head='원문을'(3) tail='다시'(2) nospace=True :: '나; 명문장은 전부 이번 호 기사에서 왔어요. 원문을' / '다시 읽는 게 가장 효과적이에요.'
+  p7-langue y=2076.0->2104.0 head='편집부에'(4) tail='진짜'(2) nospace=True :: '.3에 진짜 독자 편지를 싣겠다고 약속했지만, 원고 마감 때까지 편집부에' / '진짜 편지와 VOL.2 쓰기 투고가 도착하지 않았어요. 그래서 이번 호는'
+  p7-langue y=2104.0->2132.0 head='편지'(2) tail='를'(1) nospace=True :: '가 도착하지 않았어요. 그래서 이번 호는 사실을 있는 그대로 밝히고 편지' / '를 지어내지 않아요. 여러분의 편지와 쓰기 글을 보내 주세요. VOL.4'
+  p7-langue y=2420.0->2448.0 head='그리고'(3) tail='여러분의'(4) nospace=True :: '1월 21일 애시스 첫 경기, 11월 20일 《헝거 게임》 신작, 그리고' / '여러분의 진짜 편지가 실려요.'
+  p8-exercices y=1690.0->1718.0 head='금요일에'(4) tail='무엇을'(3) nospace=True :: '1월 11일 수요일. 11시에 조용히 섰는지, 무엇을 달았는지, 금요일에' / '무엇을 봤는지 쓰고, 일요일 뮌헨 경기에 대해 한 문장을 더 쓰세요.'
+  p8-exercices y=1937.41->1957.56 head='붉'(1) tail='은'(1) nospace=True :: ' · 7. B · 8. C (휴전 1918년) · 9. A (사람들은 붉' / '은 양귀비꽃을 달아요) · 10. B'
+  p8-exercices y=1961.91->1982.0600000000002 head='갈라쇼'(3) tail='는'(1) nospace=True :: '· 66. C · 67. B (매일 2마일) · 68. A (모금 갈라쇼' / '는 솔퍼드에서 생방송돼요) · 69. C · 70. challenge ·'
+  p8-exercices y=2249.82->2269.9700000000003 head='결'(1) tail='과는'(2) nospace=True :: ' 상원보다 4일 늦게 정해졌어요) · 88. B · 89. A (공식 결' / '과는 각 주 인증에서 나와요) · 90. C (우편 투표 개표에는 시간이'
+  p8-exercices y=2269.9700000000003->2290.1200000000003 head='시간이'(3) tail='걸려요'(3) nospace=True :: '과는 각 주 인증에서 나와요) · 90. C (우편 투표 개표에는 시간이' / '걸려요) · 91. B · 92. A (선두가 바뀌는 건 정상이에요) ·'
+  p8-exercices y=2457.1300000000006->2477.28 head='인칭'(2) tail='단수'(2) nospace=True :: "re · 108. He doesn't remember them. (3인칭" / "단수 부정에는 doesn't + 동사원형) · 109. Yesterday"
+  p8-exercices y=1982.0600000000002->2002.21 head='퍼'(1) tail='지'(1) nospace=True :: '묵념, 고요) · 115. B (eleven 열한) · 116. A (퍼' / '지 노란 곰) · 117. C (will + 동사원형 know) · 11'
+  p8-exercices y=2042.51->2062.66 head='일에'(2) tail='는'(1) nospace=True :: '21. A (we → wear 원형) · 122. B (이미 일어난 일에' / '는 wrote를 써요) · 123. B (than → 비교급 bigger'
+  p8-exercices y=2143.26->2163.41 head='동안'(2) tail='묵념해요'(4) nospace=True :: 'er from Manchester) · 130. B (전교생이 2분 동안' / '묵념해요) · 131. A (반에서 케이크 26개를 구웠어요) · 132'
+  p8-exercices y=2163.41->2183.56 head='퍼'(1) tail='지는'(2) nospace=True :: '· 131. A (반에서 케이크 26개를 구웠어요) · 132. B (퍼' / '지는 언제나처럼 노란색이에요) · 133. On Friday, they '
+  p8-exercices y=2244.01->2264.16 head='이끌어'(3) tail='요'(1) nospace=True :: ")) · 136. Whether (whether는 '~인지' 절을 이끌어" / '요) · 137. 인내는 제도의 일부예요, 실패가 아니에요. (part '
+  p8-exercices y=2264.16->2284.31 head='일'(1) tail='부분'(2) nospace=True :: '37. 인내는 제도의 일부예요, 실패가 아니에요. (part of = 일' / '부분; not a failure = 실패가 아님) · 138. 11월 1'
+  p8-exercices y=2344.76->2364.91 head='부르는'(3) tail='건'(1) nospace=True :: 'day；in Munich) · 140. 모든 나라가 같은 이름으로 부르는' / '건 아니에요. (not every 모든 ~이 아닌; call 부르다) ·'
+  p8-exercices y=2485.81->2505.96 head='항목대로'(4) tail='채점해요'(4) nospace=True :: '— 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에 (기준 항목대로' / '채점해요)'
+no-space-break candidates: 28 max tail syllables: 4
+S3 candidates (nospace + tail>=3): [{'page': 'p7-langue', 'y1': 2420.0, 'y2': 2448.0, 'head': '그리고', 'tail': '여러분의', 'tail_n': 4, 'nospace': True, 'l1': '1월 21일 애시스 첫 경기, 11월 20일 《헝거 게임》 신작, 그리고', 'l2': '여러분의 진짜 편지가 실려요.'}, {'page': 'p8-exercices', 'y1': 1690.0, 'y2': 1718.0, 'head': '금요일에', 'tail': '무엇을', 'tail_n': 3, 'nospace': True, 'l1': '1월 11일 수요일. 11시에 조용히 섰는지, 무엇을 달았는지, 금요일에', 'l2': '무엇을 봤는지 쓰고, 일요일 뮌헨 경기에 대해 한 문장을 더 쓰세요.'}, {'page': 'p8-exercices', 'y1': 2269.9700000000003, 'y2': 2290.1200000000003, 'head': '시간이', 'tail': '걸려요', 'tail_n': 3, 'nospace': True, 'l1': '과는 각 주 인증에서 나와요) · 90. C (우편 투표 개표에는 시간이', 'l2': '걸려요) · 91. B · 92. A (선두가 바뀌는 건 정상이에요) ·'}, {'page': 'p8-exercices', 'y1': 2143.26, 'y2': 2163.41, 'head': '동안', 'tail': '묵념해요', 'tail_n': 4, 'nospace': True, 'l1': 'er from Manchester) · 130. B (전교생이 2분 동안', 'l2': '묵념해요) · 131. A (반에서 케이크 26개를 구웠어요) · 132'}, {'page': 'p8-exercices', 'y1': 2485.81, 'y2': 2505.96, 'head': '항목대로', 'tail': '채점해요', 'tail_n': 4, 'nospace': True, 'l1': '— 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에 (기준 항목대로', 'l2': '채점해요)'}]
+
+===== B3 WORD INTEGRITY =====
+'솔퍼드' present intact: True count: 1
+'묵념해요' present intact: True count: 3
+'갈라쇼는 솔퍼드에서 생방송돼요' present intact: False count: 0
+'전교생이 2분 동안 묵념해요' present intact: True count: 1
+  [p2-life x=560.0 y=1738.0] '2분간 묵념해요.'
+  [p8-exercices x=527.0 y=1982.0600000000002] '는 솔퍼드에서 생방송돼요) · 69. C · 70. challenge · 71. raise'
+  [p8-exercices x=989.0 y=2163.41] '묵념해요) · 131. A (반에서 케이크 26개를 구웠어요) · 132. B (퍼'
+  [p8-exercices x=989.0 y=2304.46] '11시, 영국은 2분간 묵념해요. (at 11 a.m.；two minutes of'
+
+===== ORPHAN FINAL LINES (grouped blocks, final line <=1 Hangul syllable) =====
+orphan final lines: 0
+
+===== LINE-START ORPHAN PUNCT (ko) =====
+  [p8-exercices x=1451.0 y=1335.905] '! See you on (149)___ ! — Have a good day.'
+DONE verify2-koscan

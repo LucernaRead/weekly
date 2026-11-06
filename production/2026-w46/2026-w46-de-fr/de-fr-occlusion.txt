@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-fr/svg: 5 flags {'BOXTITLE': 4, 'EDGE': 1}
+  [BOXTITLE] p1-front.svg 'IN DIESER AUSGABE · Au sommaire' — ink crosses its box borders: right ink 1896.8 > border 1885.0
+  [BOXTITLE] p3-kultur.svg 'DER TIPP · Le conseil de la rédaction' — ink crosses its box borders: right ink 1914.0 > border 1885.0
+  [EDGE] p7-sprache.svg 'DER WERKZEUGKASTEN · La boîte à outils' — ink box (1473.0, 350.5, 1955.75, 372.25) outside page 1950.0x2700.0
+  [BOXTITLE] p7-sprache.svg 'DER WERKZEUGKASTEN · La boîte à outils' — ink crosses its box borders: right ink 1955.8 > border 1885.0
+  [BOXTITLE] p7-sprache.svg 'LESERBRIEFE · Courrier des lecteurs' — ink crosses its box borders: right ink 1894.2 > border 1885.0

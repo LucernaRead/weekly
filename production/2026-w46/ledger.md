@@ -1,0 +1,9 @@
+# W46 ledger (coordinator)
+- Issue week: 2026-11-09..2026-11-15; slug week 2026-w46; VOL: fr=4, others=3.
+- Repo baseline (parent-verified): HEAD 438584b, 260 editions (130 W43 + 130 W45) + 12 W45 covers. No W45 gap.
+- 2026-11-02: 12 family builders spawned (en/de/es/fr/it/pt/nl/ru/ja/ko/zh-cn/zh-tw) + 1 W45-promises extractor. Builders build locally only; NO inserts until proofread phase. Insert serialised by coordinator.
+- insert.py gap (pre-checked): insert.py handles ABSTRACT.txt but does NOT generate <slug>.text.md. Builders instructed to write .text.md from source manuscript per AGENTS.md rule 9; coordinator/inserter must verify presence before each push. Tool extension (insert.py .text.md support) deferred — manual step noted here.
+- Covers: deferred until cores built (need P1 headlines verbatim).
+- insert.py gaps found 2026-11-02 (read full file): (1) does NOT copy <slug>.text.md into repo — coordinator must extend insert.py (copy from edition dir, git-add with metadata commit, abort if missing) and validate via --render-only before first real insert; (2) first-in-week insert needs --vol/--exercises/--seed-excerpt (excerpt shared across target's natives) — derive seed excerpt from core P1 opening at insert time, record per target.
+- 2026-11-02 ~14:22Z: FR builder done. 11 slugs built (150 ex. each), gates self-reported clean; verified on disk: 12 dirs (core + 11 incl. duplicate weekly-report-w46-fr-zh-cn identical to core — W45 precedent: core dir IS the zh-cn edition, no separate dir; inserter must use -core dir for slug 2026-w46-fr-zh-cn and ignore the duplicate). Caveats: Paris Masters results deferred (no results at press time); budget-vote self-correction; 18 Nov vote single-source "est prévu"; reader-letters mailbox NOT verifiable by builder (no mailbox access) — disclosure pattern only, same limitation as W45.
+- FR independent proofreader spawned (report-only, full round, tools re-run). Other 11 builders still running.

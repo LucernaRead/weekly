@@ -1,0 +1,80 @@
+== P7 golden sentences ON P7 ONLY (core) ==
+1 ON-P7 On Wednesday, November 11, at eleven o'clock in th
+2 ON-P7 At 11 a.m. on November 11, 1918, the guns of the F
+3 ON-P7 For two minutes, nobody speaks.
+4 ON-P7 Christmas is still six weeks away.
+5 ON-P7 One Sunday is not enough — good thing the week has
+6 ON-P7 The total will still be there in the morning — and
+7 ON-P7 Patience is part of the system, not a failure of i
+8 ON-P7 There were no results to print — and this paper in
+
+== P1 SEARCHES bars (rect widths in searches box x>=1470) ==
+core [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+de [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+es [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+fr [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+it [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+ja [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+ko [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+nl [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+pt [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+ru [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+zh-tw [(764, 250, '#3e4c2a'), (856, 218, '#b3a06a'), (948, 186, '#b3a06a'), (1040, 140, '#b3a06a'), (1132, 108, '#b3a06a')]
+
+== IMAGE CREDITS present in SVG texts ==
+core {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+de {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+es {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+fr {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+it {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+ja {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+ko {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+nl {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+pt {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+ru {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+zh-tw {'Claude Monet': True, 'Horace Nicholls': True, 'John Leech': True, 'Frank R. Snyder': True, 'Kenneth C. Zirkel': True}
+
+== SCRIPT SCANS (char counts in all SVG texts) ==
+core {'Han': 1627}
+de {}
+es {}
+fr {}
+it {}
+ja {'Han': 1160, 'Hiragana': 928, 'Katakana': 402}
+ko {'Hangul': 2381}
+nl {}
+pt {}
+ru {'Cyrillic': 5442}
+zh-tw {'Han': 1729}
+
+== SC-ONLY chars in zh-tw texts (curated set) ==
+zh-tw SC-only hits: {'作': 6}
+  p5-jeunesse 'FIVE SENTENCES · 五句話作業' chars: ['作']
+  p7-langue '編輯說明｜VOL.2 曾承諾 VOL.3 刊登真實來信，但截至發稿編輯部未收到真實來信與 VOL.2 寫作' chars: ['作']
+  p7-langue '投稿，故本期如實說明、不虛構來信；請把你的來信與寫作寄來，VOL.4 起刊登收到的真實來信' chars: ['作']
+  p8-exercices 'H · WRITING · 寫作 [B1]' chars: ['作']
+  p8-exercices '賽是 11 月 15 日週日) · 150. 開放題 — 要點見寫作框，範文在' chars: ['作']
+  p8-exercices '第 8 版寫作框內 (按要點給分)' chars: ['作']
+== Han chars in ko texts (expect 0) ==
+
+== KINSOKU scan: line-start closers / line-end openers (ja, zh-tw, core) ==
+-- ja
+  START-CLOSER p8-exercices '! See you on (149)___ ! — Have a good day.'
+  END-OPENER p8-exercices '11. eleven · 12. November · 13. two · 14. poppy · 15. 1918 ('
+  END-OPENER p8-exercices '+ 動詞の原形) · 134. The guns fell silent in 1918. (fall → fell（'
+  END-OPENER p8-exercices 'フラー) · 148. anthem (anthem = 国歌・賛歌) · 149. Sunday ('
+-- zh-tw
+  START-CLOSER p2-life '。'
+  START-CLOSER p7-langue '。'
+  START-CLOSER p8-exercices '! See you on (149)___ ! — Have a good day.'
+  END-OPENER p8-exercices 'they watch the ceremony ? · 20. B · 21. C · 22. A · 23. B ('
+  START-CLOSER p8-exercices '；two minutes of silence) · 139. 這週日，NFL 在慕尼黑比賽'
+  START-CLOSER p8-exercices '。 (on Sunday；in Munich) · 140. 並非每個國家都叫它同一'
+-- core
+  START-CLOSER p7-langue '。'
+  END-OPENER p8-exercices '36. split · 37. ghost（ghost = 鬼魂） · 38. b · 39. c（'
+  START-CLOSER p8-exercices '） · 104. has（have → has） · 105. will · 106. of（of ……'
+  START-CLOSER p8-exercices '） · 118. B（be going to → is going） · 119. A（still 仍然）'
+  START-CLOSER p8-exercices '） · 135. bigger（big → bigger（比较级）） · 136. Whether'
+  START-CLOSER p8-exercices '） · 138. 11 月 11 日周三上午 11 点，英国默哀两分钟。（at'
+  START-CLOSER p8-exercices '）） · 147. scarf（scarf = 围巾） · 148. anthem（anthem ='

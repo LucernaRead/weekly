@@ -1,0 +1,10 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-en/svg: 8 flags {'BOXTITLE': 7, 'COVER': 1}
+  [BOXTITLE] p1-front.svg "This week's big questions · Die Fragen der Woche" — ink crosses its box borders: right ink 1916.5 > border 1885.0
+  [BOXTITLE] p2-leben.svg 'DER 11. NOVEMBER · 11 November' — ink crosses its box borders: right ink 1894.0 > border 1885.0
+  [BOXTITLE] p2-leben.svg 'MARTIN IN KÜRZE · St Martin in brief' — ink crosses its box borders: right ink 1915.0 > border 1885.0
+  [BOXTITLE] p3-kultur.svg 'MARTINSWÖRTER · St Martin words' — ink crosses its box borders: right ink 1904.2 > border 1885.0
+  [COVER] p4-sport.svg 'German sentences!' — 46% of ink covered by later rect box [65.0, 1156.0, 1885.0, 1200.0]
+  [BOXTITLE] p5-jugend.svg 'SCHULWOCHE · Back-to-school week' — ink crosses its box borders: right ink 1919.5 > border 1885.0
+  [BOXTITLE] p5-jugend.svg 'MARTINSWÖRTER · St Martin words' — ink crosses its box borders: right ink 1904.2 > border 1885.0
+  [BOXTITLE] p6-vertiefung.svg "DIE ZAHLEN · This week's numbers" — ink crosses its box borders: right ink 1895.8 > border 1885.0

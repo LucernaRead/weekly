@@ -1,0 +1,41 @@
+elements: 284
+keys lines: 100
+overflowing keys lines: 0
+max ink width per col: {0: 433.0, 1: 433.8, 2: 433.2, 3: 433.5}
+keys baseline range: 1902.5 2550.6800000000003
+  x=65.0 y=2160.32 adv=426.4 inkR=491.5 :: '（圣马丁节 11 月 11 日） · 15. Mittwoch（11 月 11 日是星期三）'
+  x=65.0 y=2179.1700000000005 adv=374.6 inkR=439.5 :: '· 16. Der Karneval hat in Köln begonnen.（beginnen →'
+  x=65.0 y=2198.0200000000004 adv=335.8 inkR=401.0 :: 'begonnen） · 17. Die Kinder haben Martinslieder'
+  x=65.0 y=2216.8700000000003 adv=425.4 inkR=490.5 :: 'gesungen.（singen→ gesungen） · 18. Wir haben eine Laterne'
+  x=65.0 y=2235.7200000000003 adv=386.4 inkR=451.2 :: 'gebastelt.（basteln→ gebastelt） · 19. Martin hat seinen'
+  x=65.0 y=2470.6300000000006 adv=418.3 inkR=483.2 :: '11 月 3–8 日结果未知） · 33. Richtig（狂欢季 11 点 11 分开幕）'
+  x=65.0 y=2489.480000000001 adv=412.9 inkR=477.8 :: '· 34. Mantel（斗篷分给乞丐） · 35. Laterne（纸灯笼） · 36.'
+  x=65.0 y=2508.330000000001 adv=360.0 inkR=425.0 :: 'Gans（圣马丁鹅） · 37. Kostüm（狂欢节服装） · 38.'
+  x=65.0 y=2527.1800000000007 adv=429.6 inkR=494.5 :: 'Martinsfeuer（游行在篝火处结束） · 39. B（马丁后来成为图尔主'
+  x=65.0 y=2546.0300000000007 adv=426.1 inkR=491.0 :: '教） · 40. B（灯笼游行常在前后晚上举行） · 41. A（圣马丁鹅配'
+  x=527.0 y=2175.11 adv=390.2 inkR=917.2 :: '→ mehr（荷兰 8 分多于德国 5 分）） · 57. später（spät →'
+  x=527.0 y=2193.96 adv=421.3 inkR=948.2 :: 'später（15:30 晚于 11:11）） · 58. leiser（leise → leiser（空场'
+  x=527.0 y=2212.81 adv=418.2 inkR=945.2 :: '比主场安静）） · 59. früher（früh → früher（11 月 5 日早于 11'
+  x=527.0 y=2231.6600000000003 adv=420.8 inkR=947.8 :: '月 13 日）） · 60. A（塞尔维亚–德国周五 20:45） · 61. B（NFL'
+  x=527.0 y=2485.42 adv=418.2 inkR=945.2 :: '78. Sie geht in die Bibliothek, weil sie ein Buch lesen will.（will'
+  x=527.0 y=2504.2700000000004 adv=336.8 inkR=863.8 :: '置尾） · 79. Köln feiert, weil die Karnevalssession'
+  x=527.0 y=2523.1200000000003 adv=422.2 inkR=949.2 :: 'beginnt.（beginnt置尾） · 80. Richtig（11 月 9 日巴伐利亚也复'
+  x=527.0 y=2541.9700000000003 adv=421.7 inkR=948.8 :: '课）· 81. Falsch（灯笼游行在晚上） · 82. Richtig（孩子们唱圣'
+  x=989.0 y=2475.28 adv=432.6 inkR=1421.5 :: '113. A（beginnt（第三人称单数）） · 114. B（bastelt（第三人称'
+  x=989.0 y=2494.13 adv=433.2 inkR=1422.2 :: '单数）） · 115. A（geht（第三人称单数）） · 116. B（singt（第'
+  x=989.0 y=2512.98 adv=415.1 inkR=1404.0 :: '三人称单数）） · 117. A（schaut（第三人称单数）） · 118. B'
+  x=989.0 y=2531.8300000000004 adv=431.7 inkR=1420.8 :: '（sieht（第三人称单数）） · 119. B（erzählt（第三人称单数））'
+  x=989.0 y=2550.6800000000003 adv=430.8 inkR=1419.8 :: '· 120. A（beginnt（第三人称单数）） · 121. A（狂欢季 11 点 11'
+  x=1451.0 y=2166.4 adv=433.4 inkR=1884.5 :: 'das NFL-Spiel.（看比赛 = das Spiel schauen） · 141. b（Mantel='
+  x=1451.0 y=2185.25 adv=423.0 inkR=1874.0 :: '斗篷 b） · 142. a（Laterne=灯笼 a） · 143. d（Geisterspiel=空'
+  x=1451.0 y=2204.1 adv=432.6 inkR=1883.5 :: '场比赛 d） · 144. c（Versöhnung=和解 c） · 145. B（singst（第'
+  x=1451.0 y=2222.95 adv=412.2 inkR=1863.5 :: '二人称单数）） · 146. A（macht（第二人称复数）） · 147. A'
+kinsoku start=0 end=0 lone=0
+token '76. Die Kinder freuen sich, weil St. Martin kommt.': PRESENT count=1
+token 'begonnen）': PRESENT count=1
+token 'beginnt.（beginnt置尾）': PRESENT count=1
+token 'das NFL-Spiel.': PRESENT count=1
+token '· 16.': PRESENT count=1
+token '· 24.': PRESENT count=1
+token '· 129.': PRESENT count=1
+token 'sNFL': ABSENT count=0

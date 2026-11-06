@@ -1,0 +1,86 @@
+# W46 FR VOL.4 — gate log (builder self-check, 2026-11-02)
+# Format per edition: p8 compare / occlusion_audit / freeze diff adjudication / frozen keys / finish artefacts.
+# All editions: 150 exercises (P1 10, P2 15, P3 18, P4 18, P5 17, P6 18, P7 12, P8 42), levels A2 52 / B1 75 / B2 23.
+
+## core (zh-cn, files/weekly-report-w46-fr-core/)
+- render: 0 FLOW OVERFLOW / HEAD TOO WIDE. Flow ends: P1-headline 1526/1812, P1-budget 2242/2290, P6-deep 1209/1300, P6-ex 2548/2540 (8px over, ink above footer 2580; adjudicated per W45 core P6 2557 precedent), P8-battery 1502 (strip 1486, ink above line).
+- occlusion_audit: 0 flags (1 BOXTITLE fixed first: P1 EN BREF box height 416->424).
+- p8 extract --total 150: noted set 121/150; explicit PRINT_NOTES in content8.py; rebuild P8 SVG byte-identical (sha256 2ba5faebeef5a5f4e07fd0061a5082e1d4f142058048c7f37500d579f26502af).
+- freeze baseline: 8/8 SVGs byte-identical on re-render.
+- golden sentences 8/8 verbatim (script); P8 keys 1-150 complete; 8 page separators; dates/weekdays verified; "19 novembre" only on P7.
+- print PDF: 8pp, 23643152 B, sha256 5f5d1b0ac8610c10a15bb497f581434b1a3e6eccf82097932a24882ab8d943c4.
+- web PDF (webpdf.py): 8pp, 2057412 B, sha256 e87008c920095fd19636203eaabfdbbf716fe0db3748ecc3b6c0a78c69410d01; pdftotext 46196 B, token-identical to print.
+- cards: 8 PNG 1950x2700. ABSTRACT.txt 355 B. .text.md 45520 B (source export).
+
+## en (files/weekly-report-w46-fr-en/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 remainder keys-block wrap fragments (adjudicated by CLEAN p8 compare). frozen keys: PASS.
+- fixes: P8 heads shortened; 5 translation stems <=41 chars (battery 1610->1502); 10 box/head strings shortened; 3 frozen keys restored (chart_sub, outils_intro, head_zoom).
+- print PDF: 8pp, 9842800 B, sha256 b9c048a402666923fb7fcc77d6c551f3500e443dab1dd8f51864454cb49d750c.
+- web PDF: 8pp, 1347413 B, sha256 d4fb8497ed3a216ac760125af8d96cc59d4923d0a5cb7fc5255798e343211b38; pdftotext 45942 B both, equal.
+- cards 8. ABSTRACT.txt 417 B. .text.md 45264 B.
+
+## de (files/weekly-report-w46-fr-de/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags (final flag fixed: "une minute de silence — Schweigeminute" -> "Stille"). freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 9 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: p8_sep {n}->{pg} (crash fix); stems shortened; agenda_note, sommaire_title, word-list glosses, head_outils, head_niv_b2 shortened.
+- print PDF: 8pp, 9847785 B, sha256 83e92c515e861fdf8bff0a27e7bf254f512c84535400aef2c7fe049999c03f31.
+- web PDF: 8pp, 1354622 B, sha256 04e75a257955a454edab4cf7cffc64d888c164f8c2322d6a85eed5ec36095568; pdftotext 46654 B both, equal.
+- cards 8. ABSTRACT.txt 520 B. .text.md 45826 B.
+
+## es (files/weekly-report-w46-fr-es/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 7 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes (3 rounds): head_lire/head_clinic/p8_cloze/stem_e3; head_outils/head_phrases/phrases_sub (P7 head/sub TEXTX overlap); mots_fetes head, "silencio", "memorial"; agenda_note, sommaire_title.
+- print PDF: 8pp, 9804535 B, sha256 9c8c9caeaf058a75739f6dd7dcb9d99c993251cf7926f3035c1d4d36f699e136.
+- web PDF: 8pp, 1348863 B, sha256 47d1a1ca0918077dcc09c0d6a330d325e2ab4bc334966b00d770acad42899e7e; pdftotext 46544 B both, equal.
+- cards 8. ABSTRACT.txt 500 B. .text.md 45783 B.
+
+## it (files/weekly-report-w46-fr-it/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 8 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes (2 rounds): agenda_sub/note, "silenzio", "un monument — un monumento", stem_e1 (P8 battery COVER).
+- print PDF: 8pp, 9801623 B, sha256 e48fcca8a344c29d9d026d352cdf46c8aac2ccea3862df3168c5830c7d2e94b6.
+- web PDF: 8pp, 1341503 B, sha256 abb3512fdb1dae62fd6f5279d7e46888ce5c91e10aca989ef37433cb22354630; pdftotext 46265 B both, equal.
+- cards 8. ABSTRACT.txt 471 B. .text.md 45506 B.
+
+## pt (files/weekly-report-w46-fr-pt/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 8 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: agenda_note shortened (1 BOXTITLE flag).
+- FINISH COMPLETE (verified 2026-11-02 14:20; finish_edition.sh first run stalled ~38 min in the cairosvg stage under multi-build fontconfig-lock contention — killed and rebuilt manually with a unique temp file, same tools/steps, all verifications passed): print PDF 8pp, 9806110 B, sha256 52bb0982f4d220b9e78c5a7d6732399f0e5b9aeec27359f36d20e8eaeb9b45cf. Web PDF 8pp, 1350410 B, sha256 cd3f2a20157c29bc65469513789ea01b090e10622739cde6d078eb5451ae8b66; pdftotext 46383 B both, equal. Cards 8. ABSTRACT.txt 485 B. .text.md 45573 B. KIT written.
+
+## nl (files/weekly-report-w46-fr-nl/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 9 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: agenda_note, head_cine (French-only), head_outils (French-only).
+- print PDF: 8pp, 9805029 B, sha256 d68a93027dde1b0999c31502429de8ba361b34d225d4ee64da766f65264ebb41.
+- web PDF: 8pp, 1346342 B, sha256 a39b2ceb87edefbe9580caad839d74747a3e005787bbf58704e65237b06c4448; pdftotext 46309 B both, equal.
+- cards 8. ABSTRACT.txt 461 B. .text.md 45554 B.
+
+## ru (files/weekly-report-w46-fr-ru/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags. freeze diff: P1-P7 removed-noCJK 0, added-CJK 0; P8 8 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: sommaire_title (French-only), head_lire (French-only).
+- print PDF: 8pp, 9808169 B, sha256 7f3089bb32641436dc4420382d6e42f5a5b4698445600cdc74e262875a8529be.
+- web PDF: 8pp, 1393305 B, sha256 eb12bfa80d6e295f0169f64af39351508efbf28228cd037ab538e5bce58c06da; pdftotext 51385 B both, equal.
+- cards 8. ABSTRACT.txt 703 B. .text.md 50058 B.
+
+## ja (files/weekly-report-w46-fr-ja/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags (first build). freeze diff: P1-P7 removed-noCJK 0; added CJK 2277 (Japanese explanation layer, inherent); P8 7 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: none.
+- print PDF: 8pp, 23705323 B, sha256 82d2d43c517208e96c6466ce3466bb092d4910c6db82d1ab04def7df454b31b6.
+- web PDF: 8pp, 2107166 B, sha256 60dbbbf3040b2fbedef97f05d3fa7f73e5726e4fe757c8c7db4d295e63f4a4ca; pdftotext 47156 B both, equal.
+- cards 8. ABSTRACT.txt 512 B. .text.md 46174 B.
+
+## ko (files/weekly-report-w46-fr-ko/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags (first build). freeze diff: P1-P7 removed-noCJK 0; added CJK 2456 (Korean explanation layer, inherent); P8 7 wrap fragments (adjudicated). frozen keys: PASS.
+- fixes: pre-build typo fix "초대制"->"초대제" (mixed-script char). Page-line form "제 {n} 면 / 총 {total} 면", sep "— 제 {pg} 면 —" (W45 grounded).
+- print PDF: 8pp, 15503148 B, sha256 ff7b1f18b1bfb770a5780b792978be7bef87ca9c9b6dc1491e0a8f3fc1e8ed31.
+- web PDF: 8pp, 1714262 B, sha256 8e7f12acbe088d02e1aa51e337c68124380571171a8177b0d0d3db07fbc60140; pdftotext 46521 B both, equal.
+- cards 8. ABSTRACT.txt 486 B. .text.md 45690 B.
+
+## zh-tw (files/weekly-report-w46-fr-zh-tw/)
+- p8 compare: CLEAN, keydiff [150]. occlusion: 0 flags (first build). freeze diff: P1-P7 removed-noCJK 0; added CJK 1012 net (Traditional forms vs Simplified core); P8 8 wrap fragments (adjudicated). frozen keys: PASS (after fixing full-width ＋ -> ASCII + in n_neg1/n_e4). Simplified-char scan: clean.
+- print PDF: 8pp, 23654095 B, sha256 6521504020657e6507ebd70f62e46ad6b2a248b3f99b9786e5cdb83590345fc6.
+- web PDF: 8pp, 2396182 B, sha256 8a1d60ca0ffc8a3e612f3ae3a8f6d82ada6fc59049eb568e38e1f1d0ad25aae3; pdftotext 45003 B both, equal.
+- cards 8. ABSTRACT.txt 367 B. .text.md 44338 B.
+
+## zh-cn fan-out (files/weekly-report-w46-fr-zh-cn/)
+- freeze diff vs core: IDENTICAL (removed 0, added 0, all 8 pages). p8 compare: CLEAN, keydiff [] (even #150 identical). occlusion: 0 flags. frozen keys: N/A (core expl.py reused verbatim).
+- FINISH PENDING at log time (finish_edition.sh running; print-tmp.pdf 23643152 B == core print size, confirming identity; web PDF/.text.md to be verified on completion — see KIT when written).
+- ABSTRACT.txt copied verbatim from core (355 B).
+- FINISH COMPLETE (verified 2026-11-02 14:03): print PDF 8pp, 23643152 B, sha256 5f5d1b0ac8610c10a15bb497f581434b1a3e6eccf82097932a24882ab8d943c4 (IDENTICAL to core print hash). Web PDF 8pp, 2057412 B, sha256 49f5bd0cff38415731d1e22418a8733e16aa59e28ec02d299d5fce084b6f698c; pdftotext 46196 B both, text-identical to core (cmp passed). Cards 8. .text.md 45517 B (body identical to core; 3-byte header difference). KIT written.

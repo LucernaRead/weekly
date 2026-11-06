@@ -1,0 +1,56 @@
+===== FIX R-B6: zh-tw P2 bridge =====
+{'i': 160, 'x': '527', 'y': '2037.5', 'size': '20.5', 'weight': None, 'anchor': 'start', 'fam': 'Noto Sans CJK TC', 'text': '用 will + 動詞原形改寫，承諾與將要發生的事。'}
+lone-punct elements on P2 (text stripped in punctuation-only set):
+elements at y 2067.225 (old line-2 baseline): []
+ex16 elements y~2098: [('95', '2098.225', 'A2'), ('137', '2099.225', '11.'), ('207', '2099.225', '填空'), ('557', '2098.225', 'A2'), ('599', '2099.225', '16.'), ('669', '2099.225', '改寫'), ('1019', '2098.225', 'A2'), ('1061', '2099.225', '20.')]
+
+===== FIX R-M4: es/fr P3 titles =====
+es title elements at 1469/873: [{'i': 160, 'x': '1469', 'y': '873', 'size': '23', 'weight': '700', 'anchor': 'start', 'fam': 'Noto Sans CJK SC', 'text': "SCROOGE'S NIGHT · La noche"}]
+es expected present as single element: True
+es old title present: False
+es box: [(1451.0, 836.0, 434.0, 243.15)] SLOT= 416.0
+es measured advance=345.9px ink=346.0px slot=416.0 fits=True spare=70.1
+fr title elements at 1469/873: [{'i': 159, 'x': '1469', 'y': '873', 'size': '23', 'weight': '700', 'anchor': 'start', 'fam': 'Noto Sans CJK SC', 'text': "SCROOGE'S NIGHT · La nuit"}]
+fr expected present as single element: True
+fr old title present: False
+fr box: [(1451.0, 836.0, 434.0, 243.15)] SLOT= 416.0
+fr measured advance=322.7px ink=323.0px slot=416.0 fits=True spare=93.3
+P3 title pattern, all 11 (x=1469 y=873):
+  core ["SCROOGE'S NIGHT · 史高治之夜"]
+  de ["SCROOGE'S NIGHT · Scrooge-Nacht"]
+  es ["SCROOGE'S NIGHT · La noche"]
+  fr ["SCROOGE'S NIGHT · La nuit"]
+  it ["SCROOGE'S NIGHT · La notte"]
+  ja ["SCROOGE'S NIGHT · スクルージの夜"]
+  ko ["SCROOGE'S NIGHT · 스크루지의 밤"]
+  nl ["SCROOGE'S NIGHT · Scrooge-nacht"]
+  pt ["SCROOGE'S NIGHT · A noite"]
+  ru ["SCROOGE'S NIGHT · Ночь Скруджа"]
+  zh-tw ["SCROOGE'S NIGHT · 史高治之夜"]
+
+===== LONE-PUNCT SCAN: all 8 pages x 3 editions =====
+
+===== BRIDGE WRAP SIMULATION (zh-tw build svglib, sans 20.5pt, width 434) =====
+old R2 text 2 line(s)
+   w=427.9 '用 will + 動詞原形來改寫（承諾與將要發生的事'
+   w=41.0 '）。'
+new R3 text 1 line(s)
+   w=427.9 '用 will + 動詞原形改寫，承諾與將要發生的事。'
+core bridge (simplified control) 1 line(s)
+   w=407.4 '用 will + 动词改写（承诺与将要发生的事）。'
+
+===== R2->R3 MULTISET DIFF (vs Round 2 texts dir, my own loader) =====
+es extracted 1574 elements -> verify3-texts-es.txt
+== es: only-Round2 1, only-Round3 1
+  R2-only 1 ('p3-culture', 'LA NOCHE DE SCROOGE')
+  R3-only 1 ('p3-culture', "SCROOGE'S NIGHT · La noche")
+fr extracted 1605 elements -> verify3-texts-fr.txt
+== fr: only-Round2 1, only-Round3 1
+  R2-only 1 ('p3-culture', 'LA NUIT DE SCROOGE')
+  R3-only 1 ('p3-culture', "SCROOGE'S NIGHT · La nuit")
+zh-tw extracted 1536 elements -> verify3-texts-zh-tw.txt
+== zh-tw: only-Round2 2, only-Round3 1
+  R2-only 1 ('p2-life', '用 will + 動詞原形來改寫（承諾與將要發生的事')
+  R2-only 1 ('p2-life', '）。')
+  R3-only 1 ('p2-life', '用 will + 動詞原形改寫，承諾與將要發生的事。')
+DONE verify3-checks

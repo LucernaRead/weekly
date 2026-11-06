@@ -1,0 +1,58 @@
+{
+ "svgdir": "../files/weekly-report-w46-en-pt/svg",
+ "flags": [
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "para a redação.",
+   "box": [
+    1473.0,
+    1537.4,
+    1616.0,
+    1558.9
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@129"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "TEXTX",
+   "text": "The film ___ on Friday, November",
+   "box": [
+    527.0,
+    1865.4,
+    923.0,
+    1891.6
+   ],
+   "detail": "ink overlaps 'COMING SOON · Em breve nos cinemas' by 5.5x19.0px",
+   "by": "text@46"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "COMING SOON · Em breve nos cinemas",
+   "box": [
+    83.0,
+    1872.1,
+    532.5,
+    1891.1
+   ],
+   "detail": "ink crosses its box borders: right ink 532.5 > border 499.0",
+   "by": "rect@45"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "SCROOGE'S NIGHT · A noite de Scrooge",
+   "box": [
+    1469.0,
+    854.2,
+    1922.5,
+    878.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1922.5 > border 1885.0",
+   "by": "rect@187"
+  }
+ ],
+ "flag_count": 4
+}

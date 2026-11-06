@@ -1,0 +1,197 @@
+PASS D-CORE-1 new caption [core]
+PASS D-CORE-1 old caption absent [core]
+PASS D-CORE-1 P1 caption fact [core]
+PASS D-CORE-1 P4 article fact [core]
+PASS D-CORE-1 new caption [en]
+PASS D-CORE-1 old caption absent [en]
+PASS D-CORE-1 P1 caption fact [en]
+PASS D-CORE-1 P4 article fact [en]
+PASS D-CORE-1 new caption [es]
+PASS D-CORE-1 old caption absent [es]
+PASS D-CORE-1 P1 caption fact [es]
+PASS D-CORE-1 P4 article fact [es]
+PASS D-CORE-1 new caption [fr]
+PASS D-CORE-1 old caption absent [fr]
+PASS D-CORE-1 P1 caption fact [fr]
+PASS D-CORE-1 P4 article fact [fr]
+PASS D-CORE-1 new caption [it]
+PASS D-CORE-1 old caption absent [it]
+PASS D-CORE-1 P1 caption fact [it]
+PASS D-CORE-1 P4 article fact [it]
+PASS D-CORE-1 new caption [ja]
+PASS D-CORE-1 old caption absent [ja]
+PASS D-CORE-1 P1 caption fact [ja]
+PASS D-CORE-1 P4 article fact [ja]
+PASS D-CORE-1 new caption [ko]
+PASS D-CORE-1 old caption absent [ko]
+PASS D-CORE-1 P1 caption fact [ko]
+PASS D-CORE-1 P4 article fact [ko]
+PASS D-CORE-1 new caption [nl]
+PASS D-CORE-1 old caption absent [nl]
+PASS D-CORE-1 P1 caption fact [nl]
+PASS D-CORE-1 P4 article fact [nl]
+PASS D-CORE-1 new caption [pt]
+PASS D-CORE-1 old caption absent [pt]
+PASS D-CORE-1 P1 caption fact [pt]
+PASS D-CORE-1 P4 article fact [pt]
+PASS D-CORE-1 new caption [ru]
+PASS D-CORE-1 old caption absent [ru]
+PASS D-CORE-1 P1 caption fact [ru]
+PASS D-CORE-1 P4 article fact [ru]
+PASS D-CORE-1 new caption [zh-cn]
+PASS D-CORE-1 old caption absent [zh-cn]
+PASS D-CORE-1 P1 caption fact [zh-cn]
+PASS D-CORE-1 P4 article fact [zh-cn]
+PASS D-CORE-1 new caption [zh-tw]
+PASS D-CORE-1 old caption absent [zh-tw]
+PASS D-CORE-1 P1 caption fact [zh-tw]
+PASS D-CORE-1 P4 article fact [zh-tw]
+PASS LONE-PUNCT none [core]
+FAIL KINSOKU 0 [core] :: p7-sprache.svg END '……'; p7-sprache.svg END 'Ich finde, dass ... = 我觉得……'; p8-uebungen.svg START '.Die Kinder freuen sich, weil '
+PASS LONE-PUNCT none [en]
+PASS KINSOKU 0 [en]
+PASS LONE-PUNCT none [es]
+PASS KINSOKU 0 [es]
+PASS LONE-PUNCT none [fr]
+PASS KINSOKU 0 [fr]
+PASS LONE-PUNCT none [it]
+PASS KINSOKU 0 [it]
+PASS LONE-PUNCT none [ja]
+FAIL KINSOKU 0 [ja] :: p1-front.svg END 'arnevalssession in Köln（カーニバル・'; p6-vertiefung.svg END 'サッカー'
+PASS LONE-PUNCT none [ko]
+PASS KINSOKU 0 [ko]
+PASS LONE-PUNCT none [nl]
+PASS KINSOKU 0 [nl]
+PASS LONE-PUNCT none [pt]
+FAIL KINSOKU 0 [pt] :: p8-uebungen.svg START '...) · 111. Ich finde, dass da'
+PASS LONE-PUNCT none [ru]
+PASS KINSOKU 0 [ru]
+PASS LONE-PUNCT none [zh-cn]
+FAIL KINSOKU 0 [zh-cn] :: p7-sprache.svg END '……'; p7-sprache.svg END 'Ich finde, dass ... = 我觉得……'; p8-uebungen.svg START '.Die Kinder freuen sich, weil '
+PASS LONE-PUNCT none [zh-tw]
+FAIL KINSOKU 0 [zh-tw] :: p7-sprache.svg END '……'; p7-sprache.svg END 'Ich finde, dass ... = 我覺得……'
+PASS D-TOOLBOX [en]
+PASS D-TOOLBOX [es]
+PASS D-TOOLBOX [fr]
+PASS D-TOOLBOX [it]
+PASS D-TOOLBOX [pt]
+PASS D-TOOLBOX [ru]
+PASS D-TOOLBOX control untouched [nl]
+PASS D-TOOLBOX control untouched [ja]
+PASS D-TOOLBOX control untouched [ko]
+PASS D-TOOLBOX core gloss untouched
+PASS D-IT-1
+PASS D-NL-1
+PASS D-RU-1
+PASS M-1 toolbox gloss [es]
+PASS M-1 toolbox gloss [fr]
+PASS M-1 toolbox gloss [it]
+PASS M-1 toolbox gloss [nl]
+PASS M-1 toolbox gloss [pt]
+PASS M-1 toolbox gloss [ru]
+PASS M-1 toolbox gloss [ja]
+PASS M-1 toolbox gloss [ko]
+PASS M-1 RU P1 gloss
+PASS M-2 [es]
+PASS M-2 [fr]
+PASS M-2 [it]
+PASS M-2 [pt]
+PASS M-2 [ru]
+PASS M-2 [nl]
+PASS M-2 es bare absent
+PASS M-3 Q2 restored [es]
+PASS M-3 old fragment absent [es]
+PASS M-3 Q2 restored [fr]
+PASS M-3 old fragment absent [fr]
+PASS M-3 Q2 restored [it]
+PASS M-3 old fragment absent [it]
+PASS M-3 Q2 restored [nl]
+PASS M-3 old fragment absent [nl]
+PASS M-3 Q2 restored [pt]
+PASS M-3 old fragment absent [pt]
+PASS M-3 Q2 restored [ru]
+PASS M-3 old fragment absent [ru]
+FAIL M-4 JA plain
+PASS M-4 KO polite
+PASS T-1
+PASS D-PT-1 absent 'Escreve '
+PASS D-PT-1 absent 'Fizeste'
+PASS D-PT-1 absent 'Lê '
+PASS D-PT-1 absent 'Escolhe'
+PASS D-PT-1 absent 'Reescreve'
+FAIL D-PT-1 absent 'Completa com'
+PASS D-PT-1 absent 'Olha para'
+PASS D-PT-1 absent 'Junta as'
+PASS D-PT-1 absent 'Usa o gráfico'
+PASS D-PT-1 absent '(traduz para'
+PASS D-PT-1 absent 'corrige-os'
+PASS D-PT-1 absent 'A tua canção'
+PASS D-PT-1 absent 'fazes'
+PASS D-PT-1 absent 'vês'
+PASS D-PT-1 absent 'acrescenta'
+PASS D-PT-1 absent 'Diz o que'
+PASS D-PT-1 absent 'tua canção'
+PASS D-PT-1 absent 'Escreve duas'
+PASS D-PT-1 absent 'Fizeste uma'
+PASS D-PT-1 present 'Escreva duas frases'
+PASS D-PT-1 present 'Leia o artigo'
+PASS D-PT-1 present 'Escolha a resposta certa'
+PASS D-PT-1 present 'Reescreva'
+PASS D-PT-1 present 'Complete com'
+PASS D-PT-1 present 'Olhe para'
+PASS D-PT-1 present '(traduza para português)'
+PASS D-PT-1 present '(traduza para alemão)'
+PASS D-PT-1 present 'corrija-os'
+PASS D-PT-1 present 'Escreva em alemão'
+PASS D-PT-1 present 'Fez uma lanterna'
+PASS D-PT-1 disclosure retained
+PASS D-ABSTRACT format [core]
+PASS D-ABSTRACT practice [core]
+PASS D-ABSTRACT format [en]
+PASS D-ABSTRACT practice [en]
+PASS D-ABSTRACT format [es]
+PASS D-ABSTRACT practice [es]
+PASS D-ABSTRACT format [fr]
+PASS D-ABSTRACT practice [fr]
+PASS D-ABSTRACT format [it]
+PASS D-ABSTRACT practice [it]
+PASS D-ABSTRACT format [ja]
+PASS D-ABSTRACT practice [ja]
+PASS D-ABSTRACT format [ko]
+PASS D-ABSTRACT practice [ko]
+PASS D-ABSTRACT format [nl]
+PASS D-ABSTRACT practice [nl]
+PASS D-ABSTRACT format [pt]
+PASS D-ABSTRACT practice [pt]
+PASS D-ABSTRACT format [ru]
+PASS D-ABSTRACT practice [ru]
+PASS D-ABSTRACT format [zh-cn]
+PASS D-ABSTRACT practice [zh-cn]
+PASS D-ABSTRACT format [zh-tw]
+PASS D-ABSTRACT practice [zh-tw]
+PASS GOLDEN 2x [core]
+PASS GOLDEN 2x [en]
+PASS GOLDEN 2x [es]
+PASS GOLDEN 2x [fr]
+PASS GOLDEN 2x [it]
+PASS GOLDEN 2x [ja]
+PASS GOLDEN 2x [ko]
+PASS GOLDEN 2x [nl]
+PASS GOLDEN 2x [pt]
+PASS GOLDEN 2x [ru]
+PASS GOLDEN 2x [zh-cn]
+PASS GOLDEN 2x [zh-tw]
+PASS P6 bars [core]
+PASS P6 bars [en]
+PASS P6 bars [es]
+PASS P6 bars [fr]
+PASS P6 bars [it]
+PASS P6 bars [ja]
+PASS P6 bars [ko]
+PASS P6 bars [nl]
+PASS P6 bars [pt]
+PASS P6 bars [ru]
+PASS P6 bars [zh-cn]
+PASS P6 bars [zh-tw]
+
+TOTAL: 195 checks, 7 failures

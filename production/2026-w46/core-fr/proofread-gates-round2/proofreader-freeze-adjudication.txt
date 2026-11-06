@@ -1,0 +1,130 @@
+===== fr-de =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 113 removed-noCJK 3 (punct-only 0, other 3)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+   OTHER: 'Paris Photo jeudi. · 17. Tu vas raconter ton mercredi férié.'
+ cjk_added_total={}
+===== fr-en =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 113 removed-noCJK 3 (punct-only 0, other 3)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+   OTHER: 'Paris Photo jeudi. · 17. Tu vas raconter ton mercredi férié.'
+ cjk_added_total={}
+===== fr-es =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 111 removed-noCJK 1 (punct-only 0, other 1)
+   OTHER: '24. c · 25. d'
+ cjk_added_total={}
+===== fr-it =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 112 removed-noCJK 2 (punct-only 0, other 2)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+ cjk_added_total={}
+===== fr-ja =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 30 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 111 removed-noCJK 1 (punct-only 0, other 1)
+   OTHER: '24. c · 25. d'
+ cjk_added_total={'通': 1, '算': 1, '号': 3, '毎': 1, '週': 23, 'フ': 29, 'ラ': 32, 'ン': 64, 'ス': 42, 'が': 17, '読': 14, 'ん': 8, 'で': 39, 'い': 32, 'る': 40, '語': 43, 'を': 45, 'む': 4, '刊': 8, '上': 13, 'の': 78, 'バ': 1, 'ト': 24, '受': 1, 'け': 5, '日': 18, 'デ': 11, 'ィ': 8, 'エ': 8, 'ッ': 24, 'プ': 15, '見': 17, '本': 19, '、': 7, 'ペ': 35, 'ー': 79, 'ジ': 39, '照': 2, 'テ': 9, 'キ': 5, '解': 11, '説': 15, 'た': 14, 'め': 3, '追': 5, '悼': 5, 'と': 21, '討': 6, '論': 6, '思': 2, 'す': 15, 'ニ': 13, 'シ': 13, 'つ': 11, '付': 6, 'あ': 13, 'な': 18, '番': 8, '！': 5, '間': 11, 'ご': 3, 'に': 20, '〜': 7, '採': 4, '決': 12, 'は': 87, '来': 1, '次': 2, '誰': 1, 'か': 14, '後': 1, '継': 1, 'ぐ': 2, 'こ': 6, 'そ': 5, '仕': 1, '続': 5, '要': 1, '点': 2, 'ク': 8, 'イ': 12, 'ズ': 5, '面': 1, 'し': 14, 'え': 18, '選': 6, 'ぼ': 7, 'う': 30, '（': 7, '全': 4, '）': 7, '常': 1, '真': 15, 'っ': 3, '割': 1, 'れ': 5, '祝': 3, '輪': 5, '沈': 2, '黙': 4, 'ヤ': 3, 'グ': 15, 'ル': 29, 'マ': 12, 'ギ': 4, '内': 3, '覧': 3, '会': 5, 'ャ': 5, 'ョ': 6, '。': 11, 'コ': 5, '消': 1, '？': 2, 'ろ': 2, '書': 12, 'き': 11, '送': 1, '言': 3, '方': 1, '曜': 24, 'セ': 3, '開': 13, '火': 1, 'く': 11, '水': 5, '休': 4, '戦': 7, '記': 6, '木': 5, '遠': 2, '征': 1, '＋': 3, 'ホ': 5, 'ム': 2, 'リ': 14, 'ノ': 5, '練': 4, '習': 4, 'レ': 17, 'ベ': 3, '合': 2, 'り': 7, '探': 1, '完': 2, 'さ': 6, 'せ': 4, 'よ': 10, '欄': 5, '補': 8, '充': 4, '不': 2, '定': 7, '詞': 10, '換': 9, '接': 3, '未': 1, '事': 2, 'チ': 7, 'ボ': 8, 'タ': 7, '進': 2, '無': 4, '料': 2, '違': 1, 'お': 4, '・': 6, 'ミ': 6, 'ド': 8, '典': 4, '出': 1, 'パ': 3, 'ガ': 1, 'ツ': 4, 'ア': 3, '炎': 2, 'ら': 9, '回': 3, 'ヌ': 3, 'ヴ': 3, 'ォ': 3, '範': 1, '囲': 1, '外': 2, 'ポ': 7, 'ブ': 2, '軍': 2, '団': 2, '棄': 2, '権': 2, '前': 3, '優': 1, '勝': 10, '者': 3, '制': 2, '確': 1, '断': 3, '監': 1, '督': 1, 'サ': 1, 'カ': 9, '単': 9, '意': 3, '味': 3, '結': 11, '較': 3, '級': 5, '文': 10, '成': 2, 'ビ': 2, 'じ': 2, 'み': 1, 'ば': 2, 'ゴ': 1, '締': 2, '切': 2, '時': 7, '明': 3, '参': 1, '試': 2, '対': 8, '相': 1, 'づ': 1, 'わ': 5, 'も': 3, 'ど': 1, '賛': 1, '若': 1, '写': 10, '映': 3, '画': 2, '強': 2, '盗': 1, '延': 3, '期': 2, '話': 2, '市': 4, '枚': 3, '葉': 2, '家': 1, '作': 1, '観': 1, '客': 1, '新': 1, '公': 2, '『': 2, 'メ': 2, 'ロ': 4, '』': 2, '院': 3, '予': 7, '歳': 4, '員': 3, '両': 2, '復': 1, '同': 1, '数': 3, 'ダ': 6, '月': 9, 'ま': 9, 'だ': 9, 'へ': 3, '変': 2, '実': 4, '行': 1, '発': 1, '表': 4, '別': 1, '今': 3, '礎': 1, '道': 1, 'ケ': 3, 'べ': 1, 'て': 6, '再': 2, '効': 1, '動': 2, '形': 2, '帰': 1, '過': 6, '致': 1, '現': 1, '挙': 1, '徴': 2, '格': 1, '純': 1, '調': 1, '名': 1, '誤': 1, '訂': 4, '正': 1, '手': 2, '紙': 2, 'オ': 1, 'モ': 3, '注': 1, '編': 2, '集': 2, '安': 1, 'ね': 1, '価': 2, '値': 1, '際': 2, '講': 2, '評': 3, '届': 1, '約': 1, '束': 1, '果': 1, '皆': 1, '問': 1, '題': 1, '総': 1, '下': 1, '択': 1, '肢': 1, '：': 3, '訳': 1, '組': 2, '兄': 1, '速': 1, '走': 1, '暇': 1, '中': 2, '夜': 2, '詰': 1, '私': 2, '術': 1, '館': 1, '歩': 1, 'ず': 2, '描': 1, '短': 1, '永': 1, '＝': 2, '展': 1, '様': 1, '供': 2, '埠': 1, '頭': 1, '煙': 1, '橋': 1, '場': 1, 'ナ': 1, 'ひ': 1, 'ざ': 1, '屋': 1, '代': 1, 'ウ': 1, 'ェ': 1, '般': 1, '券': 1, 'ユ': 1, '招': 1, '待': 1, '女': 1, '初': 1, '報': 1, '審': 3, '議': 4, '長': 1, '複': 3, '雑': 1, '魚': 1, '食': 1, '脈': 1, '催': 1, '去': 1, '彼': 1, '凱': 1, '門': 1, '半': 1, '称': 1, '校': 1, '戻': 1, '買': 1, '焼': 1, 'ピ': 1, '由': 1, '枠': 2}
+===== fr-ko =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 111 removed-noCJK 1 (punct-only 0, other 1)
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+ cjk_added_total={'제': 26, '호': 4, '매': 3, '주': 27, '발': 2, '행': 4, '프': 41, '랑': 30, '스': 48, '가': 22, '읽': 11, '는': 47, '어': 50, '간': 12, '지': 18, '상': 29, '원': 23, '의': 28, '한': 27, '이': 32, '바': 12, '통': 1, '을': 22, '받': 1, '다': 61, '월': 24, '일': 76, '디': 10, '에': 32, '박': 15, '람': 14, '회': 24, '면': 36, '참': 6, '조': 5, '텍': 11, '트': 18, '국': 13, '해': 21, '설': 21, '독': 3, '자': 12, '를': 22, '위': 5, '판': 1, '추': 7, '모': 11, '와': 7, '토': 11, '론': 8, '기': 43, '억': 2, '하': 29, '청': 6, '세': 35, '날': 9, '짜': 6, '당': 8, '신': 10, '차': 5, '례': 4, '요': 58, '별': 2, '로': 26, '보': 20, '본': 2, '표': 7, '결': 24, '은': 43, '음': 7, '목': 6, '누': 4, '군': 3, '뒤': 1, '잇': 2, '것': 7, '그': 9, '계': 4, '속': 7, '약': 2, '퀵': 1, '퀴': 3, '즈': 3, '고': 27, '정': 29, '답': 14, '르': 14, '총': 8, '생': 2, '활': 1, '반': 5, '으': 9, '갈': 1, '린': 2, '공': 6, '휴': 7, '화': 19, '환': 5, '침': 4, '묵': 4, '수': 18, '레': 10, '리': 15, '뷰': 2, '명': 6, '문': 28, '쉼': 1, '꺼': 1, '년': 8, '야': 2, '두': 3, '장': 17, '써': 1, '서': 16, '내': 4, '말': 6, '과': 22, '개': 15, '전': 10, '념': 2, '사': 36, '진': 18, '홈': 2, '노': 5, '연': 11, '습': 6, '준': 2, '섞': 1, '있': 5, '번': 7, '찾': 2, '완': 4, '성': 6, '숫': 1, '빈': 5, '칸': 5, '채': 10, '우': 9, '부': 19, '쳐': 2, '쓰': 10, '근': 1, '접': 3, '미': 14, '래': 4, '꿔': 7, '짝': 5, '짓': 6, '병': 1, '단': 15, '구': 7, '멍': 1, '릴': 6, '무': 5, '료': 2, '유': 3, '인': 10, '거': 8, '니': 14, '드': 4, '망': 1, '비': 6, '식': 9, '항': 2, '투': 5, '용': 2, '불': 2, '꽃': 3, '터': 6, '졸': 3, '범': 3, '밖': 1, '입': 6, '포': 6, '츠': 1, '테': 3, '블': 2, '루': 2, '권': 3, '도': 8, '승': 7, '경': 2, '쟁': 1, '확': 1, '감': 3, '축': 2, '뜻': 2, '교': 5, '급': 5, '빅': 1, '치': 13, '친': 1, '숙': 1, '힘': 1, '멋': 1, '플': 1, '골': 1, '겼': 1, '마': 6, '시': 13, '점': 4, '대': 10, '타': 1, '틀': 2, '출': 3, '나': 8, '찬': 1, '젊': 1, '영': 5, '갤': 1, '러': 2, '넘': 1, '겨': 1, '작': 7, '품': 2, '강': 2, '막': 4, '천': 2, '낫': 2, '줄': 2, '외': 1, '집': 4, '관': 2, '객': 1, '봉': 2, '『': 2, '카': 2, '멜': 2, '롯': 2, '』': 2, '예': 9, '산': 4, '법': 15, '안': 9, '양': 1, '왕': 4, '복': 5, '동': 4, '달': 7, '력': 6, '없': 3, '아': 10, '직': 6, '뀔': 2, '실': 5, '분': 6, '언': 1, '초': 2, '중': 4, '머': 1, '씩': 2, '왔': 1, '효': 1, '적': 2, '열': 3, '형': 4, '태': 1, '재': 2, '귀': 2, '현': 1, '됨': 1, '징': 2, '격': 1, '순': 1, '각': 2, '오': 3, '류': 1, '편': 4, '샤': 1, '술': 1, '콜': 2, '따': 1, '라': 2, '할': 1, '만': 1, '평': 3, '알': 1, '림': 1, '착': 1, '않': 1, '았': 1, '킨': 1, '여': 2, '종': 1, '합': 1, '페': 1, '선': 2, '택': 1, '역': 1, '램': 2, '빨': 1, '늘': 1, '밤': 1, '짐': 1, '쌀': 1, '른': 1, '물': 2, '책': 1, '묘': 1, '짧': 2, '튀': 2, '키': 2, '베': 1, '너': 1, '릎': 1, '빠': 1, '더': 4, '크': 1, '밀': 1, '팔': 1, '뎁': 1, '첫': 1, '티': 1, '켓': 1, '심': 3, '까': 1, '길': 1, '잡': 1, '똑': 1, '같': 1, '파': 1, '맥': 1, '락': 1, '녀': 1, '쓴': 1, '건': 1, '칭': 1, '맛': 1, '학': 2, '굽': 1, '피': 1, '좋': 1}
+===== fr-nl =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 113 removed-noCJK 3 (punct-only 0, other 3)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+   OTHER: 'Paris Photo jeudi. · 17. Tu vas raconter ton mercredi férié.'
+ cjk_added_total={}
+===== fr-pt =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 112 removed-noCJK 2 (punct-only 0, other 2)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+ cjk_added_total={}
+===== fr-ru =====
+ p1: removed 21 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 37 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 32 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 28 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 112 removed-noCJK 2 (punct-only 0, other 2)
+   OTHER: '24. c · 25. d'
+   OTHER: 'Paris Photo jeudi. · 17. Tu vas raconter ton mercredi férié.'
+ cjk_added_total={}
+===== fr-zh-cn =====
+ p1: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 0 removed-noCJK 0 (punct-only 0, other 0)
+ cjk_added_total={}
+===== fr-zh-tw =====
+ p1: removed 20 removed-noCJK 0 (punct-only 0, other 0)
+ p2: removed 25 removed-noCJK 0 (punct-only 0, other 0)
+ p3: removed 27 removed-noCJK 0 (punct-only 0, other 0)
+ p4: removed 31 removed-noCJK 0 (punct-only 0, other 0)
+ p5: removed 26 removed-noCJK 0 (punct-only 0, other 0)
+ p6: removed 24 removed-noCJK 0 (punct-only 0, other 0)
+ p7: removed 29 removed-noCJK 0 (punct-only 0, other 0)
+ p8: removed 102 removed-noCJK 2 (punct-only 0, other 2)
+   OTHER: '24. c · 25. d'
+   OTHER: "36. On n'oublie pas les morts pour la France. · 37. La foire"
+ cjk_added_total={'總': 1, '週': 30, '一': 3, '讀': 12, '國': 10, '人': 1, '的': 1, '語': 27, '報': 10, '參': 16, '議': 23, '漁': 11, '獲': 11, '節': 12, '見': 3, '繁': 10, '體': 11, '講': 9, '給': 1, '追': 5, '思': 7, '與': 10, '譯': 7, '辯': 7, '論': 7, '記': 2, '得': 2, '鯡': 6, '魚': 8, '個': 4, '輪': 4, '到': 3, '你': 3, '了': 3, '！': 6, '逐': 1, '看': 3, '表': 3, '決': 12, '：': 5, '錄': 1, '替': 1, '某': 1, '，': 4, '繼': 1, '續': 4, '他': 1, '工': 1, '作': 2, '簡': 3, '訊': 1, '快': 1, '問': 1, '頭': 4, '選': 7, '確': 6, '日': 1, '常': 1, '兩': 9, '車': 3, '預': 8, '圖': 2, '說': 10, '註': 3, '號': 3, '滅': 1, '呢': 1, '？': 1, '用': 1, '寫': 14, '話': 3, '來': 7, '起': 3, '開': 11, '戰': 5, '紀': 2, '＋': 13, '攝': 9, '場': 6, '杜': 4, '林': 4, '練': 7, '習': 7, '在': 3, '能': 3, '級': 6, '題': 2, '補': 4, '數': 5, '不': 1, '定': 5, '式': 3, '將': 5, '時': 10, '對': 13, '靜': 2, '鈕': 1, '孔': 1, '遊': 2, '費': 2, '自': 2, '斷': 1, '正': 2, '誤': 2, '測': 2, '微': 3, '逝': 1, '儀': 4, '貝': 3, '導': 2, '覽': 4, '無': 5, '聖': 1, '屆': 3, '期': 18, '薄': 3, '酒': 2, '萊': 3, '是': 1, '網': 3, '藍': 2, '軍': 4, '賽': 16, '衛': 1, '積': 1, '爭': 1, '奪': 1, '認': 1, '隊': 1, '帥': 1, '單': 12, '字': 6, '意': 2, '較': 3, '重': 2, '戲': 1, '進': 2, '贏': 1, '師': 4, '結': 9, '付': 1, '印': 1, '盤': 1, '銜': 1, '名': 1, '還': 3, '掃': 1, '興': 1, '方': 5, '電': 4, '片': 1, '沖': 2, '畫': 1, '閱': 2, '裝': 1, '藝': 1, '術': 1, '搶': 1, '類': 1, '型': 1, '延': 3, '出': 1, '張': 5, '勝': 2, '過': 5, '言': 3, '萬': 2, '這': 2, '次': 1, '門': 2, '博': 1, '會': 3, '觀': 2, '眾': 3, '新': 1, '星': 16, '至': 1, '事': 6, '院': 1, '員': 4, '行': 9, '曆': 6, '尚': 1, '；': 3, '月': 2, '公': 4, '布': 4, '變': 3, '動': 4, '實': 4, '現': 3, '爐': 1, '前': 1, '區': 1, '礎': 1, '中': 4, '階': 1, '口': 1, '袋': 1, '都': 1, '文': 6, '點': 9, '詞': 7, '化': 1, '反': 1, '默': 1, '持': 1, '間': 1, '舉': 2, '徵': 2, '經': 1, '強': 1, '調': 1, '錯': 5, '並': 1, '信': 1, '評': 6, '編': 3, '輯': 3, '敘': 1, '穩': 1, '健': 1, '連': 1, '模': 1, '仿': 1, '兌': 1, '諾': 1, '們': 3, '綜': 1, '合': 1, '量': 1, '版': 1, '完': 1, '項': 1, '份': 1, '收': 1, '拾': 1, '李': 1, '未': 3, '描': 1, '座': 1, '館': 1, '範': 2, '附': 1, '短': 1, '明': 1, '第': 2, '長': 2, '耳': 2, '其': 2, '爾': 5, '＝': 12, '展': 2, '獻': 2, '上': 2, '碼': 1, '煙': 1, '從': 1, '橋': 1, '發': 1, '入': 1, '納': 1, '傷': 2, '內': 3, '休': 2, '組': 2, '每': 1, '際': 1, '蘭': 1, '夜': 1, '歐': 1, '元': 1, '《': 1, '》': 1, '宮': 1, '憑': 1, '請': 1, '天': 1, '分': 1, '審': 2, '複': 3, '雜': 1, '樣': 1, '慶': 1, '虛': 2, '擬': 2, '嚐': 2, '凱': 1, '成': 1, '條': 1, '稱': 1, '學': 1, '依': 1, '買': 1, '食': 1, '譜': 1}

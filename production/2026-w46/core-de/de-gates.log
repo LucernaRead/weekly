@@ -1,0 +1,180 @@
+W46 GERMAN FAMILY (de, VOL.3) — CONSOLIDATED GATE LOG
+Press time: 2 Nov 2026. Issue week: Mon 9 Nov – Sun 15 Nov 2026.
+Gates per edition: builder self-check (verify.py) -> occlusion_audit.py 0 flags
+-> p8.py compare -> freeze.py diff --strict-cjk -> web/print pdftotext equality, web PDF < 7 MB.
+
+===== CORE =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · 范文（84 Wörter）
+occlusion [de-occlusion-core-final.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-core/svg: 0 flags
+pdf: Die-Lucerna-VOL3-web.pdf 1670902 bytes
+pdf: Die-Lucerna-VOL3.pdf 16578199 bytes
+
+===== EN =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Model text (84 words)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-en-occlusion2.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-en/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-EN-web.pdf 1064521 bytes
+pdf: Die-Lucerna-VOL3-EN.pdf 4042810 bytes
+
+===== FR =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Texte modèle (84 mots)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-fr-occlusion2.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-fr/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-FR-web.pdf 1069996 bytes
+pdf: Die-Lucerna-VOL3-FR.pdf 4102998 bytes
+
+===== ES =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Texto modelo (84 palabras)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-es-occlusion.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-es/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-ES-web.pdf 1071506 bytes
+pdf: Die-Lucerna-VOL3-ES.pdf 4046442 bytes
+
+===== IT =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Testo modello (84 parole)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-it-occlusion.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-it/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-IT-web.pdf 1063521 bytes
+pdf: Die-Lucerna-VOL3-IT.pdf 4041417 bytes
+
+===== PT =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Texto-modelo (84 palavras)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-pt-occlusion2.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-pt/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-PT-web.pdf 1075455 bytes
+pdf: Die-Lucerna-VOL3-PT.pdf 4048882 bytes
+
+===== NL =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Voorbeeldtekst (84 woorden)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-nl-occlusion2.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-nl/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-NL-web.pdf 1066758 bytes
+pdf: Die-Lucerna-VOL3-NL.pdf 4101695 bytes
+
+===== RU =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · Образец (84 слова)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-ru-occlusion3.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-ru/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-RU-web.pdf 1105087 bytes
+pdf: Die-Lucerna-VOL3-RU.pdf 40640945 bytes
+
+===== JA =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · 模範文（84 Wörter）
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-ja-occlusion2.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-ja/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: STRICT-CJK FAIL: edition adds CJK characters the core does not have
+freeze: TOTAL added CJK characters: 3276
+pdf: Die-Lucerna-VOL3-JA-web.pdf 1744916 bytes
+pdf: Die-Lucerna-VOL3-JA.pdf 18319846 bytes
+
+===== KO =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · 모범 답안 (84단어)
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-ko-occlusion3.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-ko/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: STRICT-CJK FAIL: edition adds CJK characters the core does not have
+freeze: TOTAL added CJK characters: 3196
+pdf: Die-Lucerna-VOL3-KO-web.pdf 1401261 bytes
+pdf: Die-Lucerna-VOL3-KO.pdf 9078460 bytes
+
+===== ZH-TW =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · 範本（84 Wörter）
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-zh-tw-occlusion.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-zh-tw/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze: STRICT-CJK FAIL: edition adds CJK characters the core does not have
+freeze: TOTAL added CJK characters: 1043
+pdf: Die-Lucerna-VOL3-ZH-TW-web.pdf 2038435 bytes
+pdf: Die-Lucerna-VOL3-ZH-TW.pdf 16633773 bytes
+
+===== ZH-CN =====
+verify: TOTAL: 150
+verify: verbatim OK: True
+verify: SVGs byte-identical after verify run: True
+verify: P1 badge: True masthead: True week header: True
+verify: P1 top band: no same-baseline overlap
+verify: MUSTER label: MUSTER · 范文（84 Wörter）
+verify: P8 separators: 8 half-width paren keys present: True
+occlusion [de-zh-cn-occlusion.txt]: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-zh-cn/svg: 0 flags
+p8: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+freeze: TOTAL added CJK characters: 0
+pdf: Die-Lucerna-VOL3-ZH-CN-web.pdf 1670903 bytes
+pdf: Die-Lucerna-VOL3-ZH-CN.pdf 16578199 bytes
+
+CORE web/print pdftotext normalised equality: True, 47,647 bytes each.
+Fan-out web/print equalities measured per edition in-session (see KITs §3).
+
+ADJUDICATIONS: JA freeze exit 1 (3,276 added CJK, all Japanese script, string-set diff);
+KO freeze exit 1 (3,197 added CJK, all Hangul/kanji, string-set diff);
+ZH-TW freeze exit 1 (1,043 added CJK, all Traditional Chinese, per-character check).
+All other editions: freeze exit 0, added CJK 0. ZH-CN freeze +0/-0 strings (identical to core).
+DUPLICATION: core dir and zh-cn dir are byte-identical SVGs; insert ONE for slug 2026-w46-de-zh-cn.

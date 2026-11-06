@@ -1,0 +1,77 @@
+# Visual pass log — Round 2 completion (verify2)
+
+Proofreader: Round 2 completion agent. All views are the SHIPPED cards
+(`files/weekly-report-w46-en-*/cards/*.png`, 1950x2700), viewed via
+975px reductions saved under `visual/` plus full-resolution element crops
+saved under `visual/`. No edition file was re-rendered or edited.
+
+## Coverage
+
+Full-frame (975x1350) views — 45 files, all viewed:
+- P1 x11 (core, de, es, fr, it, ja, ko, nl, pt, ru, zh-tw)
+- P8 x11 (all editions)
+- P7 x11 (all editions)
+- P6 x4 (es, pt, ru, de)
+- P2 x3 (zh-tw, fr, ko)
+- P3 x5 (nl, pt, es, fr, ko)
+- P4 x1 (ko)
+
+Element crops (full resolution), all viewed — 30 files:
+- verify2-b4-*-p7.png x11 (P7 toolbox, B4)
+- verify2-b5-{core,zh-tw}-p7.png x2 (P7 editor's note, B5)
+- verify2-b6-{zh-tw,core}-p2.png x2 (P2 bridge, B6)
+- verify2-b1-{es,pt,ru}-p6.png x3 (P6 titles, B1)
+- verify2-b3-ko-p8.png (P8 keys 68/130, B3)
+- verify2-m1-{de,fr}-p8.png x2 (P8 FINAL TEST header, M1)
+- verify2-m2-{fr,ko,zh-tw}-p2.png x3 (P2 gloss prefixes, M2)
+- verify2-koregr-ko-p3.png, verify2-koregr-ko-p4.png (ko gloss regression)
+- verify2-m3-de-p6.png, verify2-m3-de-p8.png (M3, both occurrences)
+- verify2-m4-{nl,pt,es,fr}-p3.png x4 (P3 titles, M4 + es/fr observation)
+
+## Findings
+
+- P1 x11: no overflow, overlap, tofu, or missing credits. Mastheads fit
+  in frame in all 11 (FR 42pt with small clearance, IT 46pt flush but
+  unclipped — both confirmed by pixel measurement, see verdict §7).
+  Monet image + credit present in all 11. Search bars decrease 1-5.
+  Pairing badge + footer labels present in all 11.
+- P8 x11: no overflow past footer, no overlap, no tofu. Answers blocks
+  contained in all 11 (incl. de/fr/nl EXTRA_ONLY 150-key blocks).
+  M1 native tails visible in de/fr header bands.
+- P7 x11: toolbox B1 line reads `B1 — « Dickens wrote the story in` /
+  `1843.»` in all 11 — no lone `»`. Editor's notes (core, zh-tw) read
+  clean 2-line notes with the period attached. Golden phrases present.
+  No overflow/overlap/tofu.
+- P6 es/pt/ru: HOW LONG titles fit inside their boxes, question forms.
+  Voting-booth photo + Kenneth C. Zirkel credit present. Chart is text
+  rows (no bar rects — consistent with gate finding).
+- P6 de: `das Ergebnis verkünden` present in the gloss box; HOW LONG
+  title `Wie lange im Amt?` fits.
+- P2 fr/ko: gloss boxes single-prefix, substantial final lines, no
+  orphans. Ko P2 bridge breaks 일어나다 as 일 | 어날 (2-syllable tail,
+  below the S3 bar, pre-existing since Round 1 — observation O-R2-2,
+  NOT a defect; see verdict §9).
+- P2 zh-tw: RESIDUAL DEFECT R-B6 CONFIRMED VISUALLY. The B · WILL
+  bridge renders as line 1 `用 will + 動詞原形來改寫（承諾與將要發生的事`
+  and line 2 containing ONLY `）。` at the left margin. Core P2 bridge
+  is a single clean line. (Crop: verify2-b6-zh-tw-p2.png.)
+- P3 nl/pt: titles `SCROOGE'S NIGHT · Scrooge-nacht` / `· A noite`,
+  fit inside boxes. Leech illustration + credit present.
+- P3 es/fr: RESIDUAL DEFECT R-M4 CONFIRMED VISUALLY. Titles read
+  `LA NOCHE DE SCROOGE` / `LA NUIT DE SCROOGE` with NO English head,
+  unlike the other 9 editions. (Crops: verify2-m4-es-p3.png,
+  verify2-m4-fr-p3.png.)
+- P3/P4 ko: gloss boxes end `은 것.` (P3) / `스타선수.` (P4) — no
+  orphan lines; regression fix confirmed as rendered. P3 title keeps
+  the English head. Snyder photo + credit on P4.
+- No other visual defect was found on any viewed page. In particular:
+  no missing glyphs/tofu in ja/ko/ru/CJK pages, no text overflowing
+  any box, no overlapped elements, all 5 image credits present
+  (textually verified in all 11 editions; visually confirmed on the
+  P1/P2/P3/P4/P6 pages viewed).
+
+## Files
+
+78 files in `visual/` (45 full-frame + 30 crops + 3 masthead-scan
+working images are NOT here; the masthead scans live in the gate dir
+root as verify2-masthead*.log). All `verify2-` prefixed.

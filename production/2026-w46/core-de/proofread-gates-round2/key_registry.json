@@ -1,0 +1,1502 @@
+[
+ {
+  "key": "Länderspielpause",
+  "note": "国家队比赛周",
+  "stem": "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.",
+  "file": "content12.py",
+  "line": 49,
+  "kind": "ex",
+  "level": "A2",
+  "n": 1
+ },
+ {
+  "key": "Belgrad",
+  "note": "塞尔维亚首都",
+  "stem": "Am Freitag spielt Deutschland in ___ gegen Serbien.",
+  "file": "content12.py",
+  "line": 51,
+  "kind": "ex",
+  "level": "A2",
+  "n": 2
+ },
+ {
+  "key": "Karnevals",
+  "note": "狂欢季 11 点 11 分开幕",
+  "stem": "Um 11.11 Uhr beginnt in Köln die neue Session des ___.",
+  "file": "content12.py",
+  "line": 53,
+  "kind": "ex",
+  "level": "A2",
+  "n": 3
+ },
+ {
+  "key": "München",
+  "note": "NFL 在慕尼黑",
+  "stem": "Am Sonntag spielen die Lions und die Patriots in ___.",
+  "file": "content12.py",
+  "line": 55,
+  "kind": "ex",
+  "level": "A2",
+  "n": 4
+ },
+ {
+  "key": "fünf",
+  "note": "四轮 5 分",
+  "stem": "Deutschland hat nach vier Spielen ___ Punkte.",
+  "file": "content12.py",
+  "line": 57,
+  "kind": "ex",
+  "level": "B1",
+  "n": 5
+ },
+ {
+  "key": "Volkstrauertag",
+  "note": "周日是纪念日",
+  "stem": "Am Sonntag ist auch ___: ein stiller Gedenktag.",
+  "file": "content12.py",
+  "line": 59,
+  "kind": "ex",
+  "level": "B1",
+  "n": 6
+ },
+ {
+  "key": "B",
+  "note": "周五客战塞尔维亚",
+  "stem": "Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München",
+  "file": "content12.py",
+  "line": 147,
+  "kind": "ex",
+  "level": "A2",
+  "n": 7
+ },
+ {
+  "key": "C",
+  "note": "NFL 下午 3 点半开球",
+  "stem": "Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr",
+  "file": "content12.py",
+  "line": 149,
+  "kind": "ex",
+  "level": "A2",
+  "n": 8
+ },
+ {
+  "key": "A",
+  "note": "狂欢季 11 点 11 分开幕",
+  "stem": "Die Karnevalssession beginnt in Köln um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr",
+  "file": "content12.py",
+  "line": 151,
+  "kind": "ex",
+  "level": "A2",
+  "n": 9
+ },
+ {
+  "key": "A",
+  "note": "纪念日在周日",
+  "stem": "Der Volkstrauertag ist am... A. Sonntag, 15. November · B. Mittwoch, 11. November · C. Montag, 9. November",
+  "file": "content12.py",
+  "line": 153,
+  "kind": "ex",
+  "level": "A2",
+  "n": 10
+ },
+ {
+  "key": "11.11",
+  "note": "狂欢季 11 点 11 分开幕",
+  "stem": "Die Karnevalssession beginnt um ___ Uhr.",
+  "file": "content12.py",
+  "line": 251,
+  "kind": "ex",
+  "level": "A2",
+  "n": 11
+ },
+ {
+  "key": "10.30",
+  "note": "WDR 10 点半直播",
+  "stem": "Der WDR überträgt ab ___ Uhr live.",
+  "file": "content12.py",
+  "line": 253,
+  "kind": "ex",
+  "level": "A2",
+  "n": 12
+ },
+ {
+  "key": "15.30",
+  "note": "NFL 下午 3 点半开球",
+  "stem": "Das NFL-Spiel in München beginnt um ___ Uhr.",
+  "file": "content12.py",
+  "line": 255,
+  "kind": "ex",
+  "level": "A2",
+  "n": 13
+ },
+ {
+  "key": "11. November",
+  "note": "圣马丁节 11 月 11 日",
+  "stem": "St. Martin ist am ___.",
+  "file": "content12.py",
+  "line": 257,
+  "kind": "ex",
+  "level": "A2",
+  "n": 14
+ },
+ {
+  "key": "Mittwoch",
+  "note": "11 月 11 日是星期三",
+  "stem": "Der 11. November 2026 ist ein ___.",
+  "file": "content12.py",
+  "line": 259,
+  "kind": "ex",
+  "level": "A2",
+  "n": 15
+ },
+ {
+  "key": "Der Karneval hat in Köln begonnen.",
+  "note": "beginnen → begonnen",
+  "stem": "Der Karneval (beginnen) in Köln. → ___",
+  "file": "content12.py",
+  "line": 263,
+  "kind": "ex",
+  "level": "A2",
+  "n": 16
+ },
+ {
+  "key": "Die Kinder haben Martinslieder gesungen.",
+  "note": "singen → gesungen",
+  "stem": "Die Kinder (singen) Martinslieder. → ___",
+  "file": "content12.py",
+  "line": 265,
+  "kind": "ex",
+  "level": "A2",
+  "n": 17
+ },
+ {
+  "key": "Wir haben eine Laterne gebastelt.",
+  "note": "basteln → gebastelt",
+  "stem": "Wir (basteln) eine Laterne. → ___",
+  "file": "content12.py",
+  "line": 267,
+  "kind": "ex",
+  "level": "A2",
+  "n": 18
+ },
+ {
+  "key": "Martin hat seinen Mantel geteilt.",
+  "note": "teilen → geteilt",
+  "stem": "Martin (teilen) seinen Mantel. → ___",
+  "file": "content12.py",
+  "line": 269,
+  "kind": "ex",
+  "level": "B1",
+  "n": 19
+ },
+ {
+  "key": "Viele Familien haben Martinsgans gegessen.",
+  "note": "essen → gegessen",
+  "stem": "Viele Familien (essen) Martinsgans. → ___",
+  "file": "content12.py",
+  "line": 271,
+  "kind": "ex",
+  "level": "B1",
+  "n": 20
+ },
+ {
+  "key": "B",
+  "note": "WDR 10 点半直播",
+  "stem": "Wann überträgt der WDR? A. um 11.11 Uhr · B. ab 10.30 Uhr · C. um 15.30 Uhr",
+  "file": "content12.py",
+  "line": 275,
+  "kind": "ex",
+  "level": "A2",
+  "n": 21
+ },
+ {
+  "key": "B",
+  "note": "Weckmann 是面人面包",
+  "stem": "Was ist ein Weckmann? A. ein Lied · B. Gebäck aus Hefeteig · C. eine Laterne",
+  "file": "content12.py",
+  "line": 277,
+  "kind": "ex",
+  "level": "A2",
+  "n": 22
+ },
+ {
+  "key": "A",
+  "note": "11 月 11 日不是法定假日",
+  "stem": "Ist der 11. November ein Feiertag? A. Nein, Schule und Arbeit laufen normal. · B. Ja, alles ist geschlossen. · C. Nur in Köln.",
+  "file": "content12.py",
+  "line": 279,
+  "kind": "ex",
+  "level": "A2",
+  "n": 23
+ },
+ {
+  "key": "B",
+  "note": "圣马丁鹅配红甘蓝和丸子",
+  "stem": "Was isst man mit der Martinsgans? A. Pommes · B. Rotkohl und Klöße · C. Eis",
+  "file": "content12.py",
+  "line": 281,
+  "kind": "ex",
+  "level": "A2",
+  "n": 24
+ },
+ {
+  "key": "c",
+  "note": "Jeck=狂欢者 c",
+  "stem": "MATCH left=der Jeck | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der Mann aus Hefeteig, den die Kinder bekommen', 'der Mensch, der in Köln Karneval feiert', 'der Gänsebraten am Martinstag']",
+  "file": "content12.py",
+  "line": 284,
+  "kind": "match_set",
+  "level": "A2",
+  "n": 25
+ },
+ {
+  "key": "a",
+  "note": "Laterne=灯笼 a",
+  "stem": "MATCH left=die Laterne | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der Mann aus Hefeteig, den die Kinder bekommen', 'der Mensch, der in Köln Karneval feiert', 'der Gänsebraten am Martinstag']",
+  "file": "content12.py",
+  "line": 284,
+  "kind": "match_set",
+  "level": "A2",
+  "n": 26
+ },
+ {
+  "key": "b",
+  "note": "Weckmann=面人面包 b",
+  "stem": "MATCH left=der Weckmann | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der Mann aus Hefeteig, den die Kinder bekommen', 'der Mensch, der in Köln Karneval feiert', 'der Gänsebraten am Martinstag']",
+  "file": "content12.py",
+  "line": 284,
+  "kind": "match_set",
+  "level": "A2",
+  "n": 27
+ },
+ {
+  "key": "d",
+  "note": "Martinsgans=圣马丁鹅 d",
+  "stem": "MATCH left=die Martinsgans | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der Mann aus Hefeteig, den die Kinder bekommen', 'der Mensch, der in Köln Karneval feiert', 'der Gänsebraten am Martinstag']",
+  "file": "content12.py",
+  "line": 284,
+  "kind": "match_set",
+  "level": "A2",
+  "n": 28
+ },
+ {
+  "key": "Richtig",
+  "note": "传说马丁是罗马士兵",
+  "stem": "Martin war der Legende nach ein römischer Soldat. Richtig oder falsch?",
+  "file": "content34.py",
+  "line": 79,
+  "kind": "ex",
+  "level": "A2",
+  "n": 29
+ },
+ {
+  "key": "Falsch",
+  "note": "传说鹅叫声暴露了他",
+  "stem": "Die Gänse haben Martin versteckt. Richtig oder falsch?",
+  "file": "content34.py",
+  "line": 81,
+  "kind": "ex",
+  "level": "A2",
+  "n": 30
+ },
+ {
+  "key": "Richtig",
+  "note": "纪念日 11 月 11 日",
+  "stem": "Der Gedenktag des heiligen Martin ist am 11. November. Richtig oder falsch?",
+  "file": "content34.py",
+  "line": 83,
+  "kind": "ex",
+  "level": "A2",
+  "n": 31
+ },
+ {
+  "key": "Falsch",
+  "note": "截稿时 11 月 3–8 日结果未知",
+  "stem": "Die Ergebnisse vom 3. bis 8. November standen bei Redaktionsschluss fest. Richtig oder falsch?",
+  "file": "content34.py",
+  "line": 85,
+  "kind": "ex",
+  "level": "B1",
+  "n": 32
+ },
+ {
+  "key": "Richtig",
+  "note": "狂欢季 11 点 11 分开幕",
+  "stem": "Die Karnevalssession beginnt um 11.11 Uhr. Richtig oder falsch?",
+  "file": "content34.py",
+  "line": 87,
+  "kind": "ex",
+  "level": "A2",
+  "n": 33
+ },
+ {
+  "key": "Mantel",
+  "note": "斗篷分给乞丐",
+  "stem": "Martin teilte seinen ___ mit einem Bettler.",
+  "file": "content34.py",
+  "line": 92,
+  "kind": "ex",
+  "level": "A2",
+  "n": 34
+ },
+ {
+  "key": "Laterne",
+  "note": "纸灯笼",
+  "stem": "Die Kinder basteln eine bunte ___ aus Papier.",
+  "file": "content34.py",
+  "line": 94,
+  "kind": "ex",
+  "level": "A2",
+  "n": 35
+ },
+ {
+  "key": "Gans",
+  "note": "圣马丁鹅",
+  "stem": "Am Martinstag gibt es die Martins___: Gänsebraten.",
+  "file": "content34.py",
+  "line": 96,
+  "kind": "ex",
+  "level": "A2",
+  "n": 36
+ },
+ {
+  "key": "Kostüm",
+  "note": "狂欢节服装",
+  "stem": "In Köln tragen die Jecken ein buntes ___.",
+  "file": "content34.py",
+  "line": 98,
+  "kind": "ex",
+  "level": "A2",
+  "n": 37
+ },
+ {
+  "key": "Martinsfeuer",
+  "note": "游行在篝火处结束",
+  "stem": "Am ___ endet der Laternenumzug.",
+  "file": "content34.py",
+  "line": 100,
+  "kind": "ex",
+  "level": "A2",
+  "n": 38
+ },
+ {
+  "key": "B",
+  "note": "马丁后来成为图尔主教",
+  "stem": "Was wurde Martin später? A. ein König · B. Bischof von Tours · C. ein Bäcker",
+  "file": "content34.py",
+  "line": 104,
+  "kind": "ex",
+  "level": "A2",
+  "n": 39
+ },
+ {
+  "key": "B",
+  "note": "灯笼游行常在前后晚上举行",
+  "stem": "Wann finden Laternenumzüge statt? A. nur am 25. Dezember · B. oft auch vor oder nach dem 11. November · C. nur im Sommer",
+  "file": "content34.py",
+  "line": 106,
+  "kind": "ex",
+  "level": "A2",
+  "n": 40
+ },
+ {
+  "key": "A",
+  "note": "圣马丁鹅配红甘蓝和丸子",
+  "stem": "Was isst man am Martinstag? A. Gänsebraten mit Rotkohl und Klößen · B. Eis · C. Pommes",
+  "file": "content34.py",
+  "line": 108,
+  "kind": "ex",
+  "level": "A2",
+  "n": 41
+ },
+ {
+  "key": "A",
+  "note": "VOL.4 报道 11 月 3–8 日结果",
+  "stem": "Wo berichtet die Redaktion über die Spiele vom 3. bis 8. November? A. in VOL.4 · B. in dieser Ausgabe mit Ergebnissen · C. gar nicht",
+  "file": "content34.py",
+  "line": 110,
+  "kind": "ex",
+  "level": "B1",
+  "n": 42
+ },
+ {
+  "key": "Martin teilte seinen Mantel mit einem Bettler.",
+  "note": "主谓宾顺序",
+  "stem": "Martin / teilte / seinen Mantel / mit einem Bettler → ___",
+  "file": "content34.py",
+  "line": 114,
+  "kind": "ex",
+  "level": "A2",
+  "n": 43
+ },
+ {
+  "key": "Die Kinder basteln bunte Laternen aus Papier.",
+  "note": "主谓宾顺序",
+  "stem": "die Kinder / basteln / bunte Laternen / aus Papier → ___",
+  "file": "content34.py",
+  "line": 116,
+  "kind": "ex",
+  "level": "B1",
+  "n": 44
+ },
+ {
+  "key": "Am 11. November beginnt die Karnevalssession in Köln.",
+  "note": "时间状语开头，动词第二位",
+  "stem": "am 11. November / beginnt / die Karnevalssession / in Köln → ___",
+  "file": "content34.py",
+  "line": 118,
+  "kind": "ex",
+  "level": "A2",
+  "n": 45
+ },
+ {
+  "key": "Am Martinsfeuer endet der Laternenumzug.",
+  "note": "地点开头，动词第二位",
+  "stem": "am Martinsfeuer / endet / der Laternenumzug → ___",
+  "file": "content34.py",
+  "line": 120,
+  "kind": "ex",
+  "level": "B1",
+  "n": 46
+ },
+ {
+  "key": "B",
+  "note": "德国 5 分，荷兰希腊各 8 分",
+  "stem": "Wie viele Punkte hat Deutschland nach vier Spielen? A. acht · B. fünf · C. zwei",
+  "file": "content34.py",
+  "line": 191,
+  "kind": "ex",
+  "level": "B1",
+  "n": 47
+ },
+ {
+  "key": "B",
+  "note": "主教练 11 月 5 日公布名单",
+  "stem": "Wann nennt Klopp seinen Kader? A. am 13. November · B. am 5. November · C. am 9. November",
+  "file": "content34.py",
+  "line": 193,
+  "kind": "ex",
+  "level": "B1",
+  "n": 48
+ },
+ {
+  "key": "C",
+  "note": "贝尔格莱德空场",
+  "stem": "Warum ist das Spiel in Belgrad ein Geisterspiel? A. Es ist Nacht. · B. Es gibt keine Karten. · C. Das Stadion bleibt wegen einer UEFA-Strafe leer.",
+  "file": "content34.py",
+  "line": 195,
+  "kind": "ex",
+  "level": "B1",
+  "n": 49
+ },
+ {
+  "key": "A",
+  "note": "首回合德国 2:0 胜塞尔维亚",
+  "stem": "Wie endete das Hinspiel gegen Serbien? A. 2:0 für Deutschland · B. 1:1 · C. 0:2",
+  "file": "content34.py",
+  "line": 197,
+  "kind": "ex",
+  "level": "B1",
+  "n": 50
+ },
+ {
+  "key": "B",
+  "note": "NFL 慕尼黑赛售罄",
+  "stem": "Das NFL-Spiel in München ist... A. abgesagt · B. ausverkauft · C. gratis",
+  "file": "content34.py",
+  "line": 199,
+  "kind": "ex",
+  "level": "B1",
+  "n": 51
+ },
+ {
+  "key": "b",
+  "note": "Geisterspiel=空场比赛 b",
+  "stem": "MATCH left=das Geisterspiel | rights=['das erste Spiel gegen denselben Gegner in einer Runde', 'ein Spiel ohne Zuschauer im Stadion', 'die Firma, die die Trikots und Schuhe liefert', 'alle Karten sind weg, es gibt keine mehr']",
+  "file": "content34.py",
+  "line": 202,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 52
+ },
+ {
+  "key": "a",
+  "note": "Hinspiel=首回合 a",
+  "stem": "MATCH left=das Hinspiel | rights=['das erste Spiel gegen denselben Gegner in einer Runde', 'ein Spiel ohne Zuschauer im Stadion', 'die Firma, die die Trikots und Schuhe liefert', 'alle Karten sind weg, es gibt keine mehr']",
+  "file": "content34.py",
+  "line": 202,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 53
+ },
+ {
+  "key": "c",
+  "note": "Ausrüster=装备赞助商 c",
+  "stem": "MATCH left=der Ausrüster | rights=['das erste Spiel gegen denselben Gegner in einer Runde', 'ein Spiel ohne Zuschauer im Stadion', 'die Firma, die die Trikots und Schuhe liefert', 'alle Karten sind weg, es gibt keine mehr']",
+  "file": "content34.py",
+  "line": 202,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 54
+ },
+ {
+  "key": "d",
+  "note": "ausverkauft=售罄 d",
+  "stem": "MATCH left=ausverkauft | rights=['das erste Spiel gegen denselben Gegner in einer Runde', 'ein Spiel ohne Zuschauer im Stadion', 'die Firma, die die Trikots und Schuhe liefert', 'alle Karten sind weg, es gibt keine mehr']",
+  "file": "content34.py",
+  "line": 202,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 55
+ },
+ {
+  "key": "mehr",
+  "note": "viel → mehr（荷兰 8 分多于德国 5 分）",
+  "stem": "Die Niederlande haben ___ (viel) Punkte als Deutschland.",
+  "file": "content34.py",
+  "line": 213,
+  "kind": "ex",
+  "level": "B1",
+  "n": 56
+ },
+ {
+  "key": "später",
+  "note": "spät → später（15:30 晚于 11:11）",
+  "stem": "Das NFL-Spiel beginnt ___ (spät) als die Karnevalseröffnung.",
+  "file": "content34.py",
+  "line": 215,
+  "kind": "ex",
+  "level": "B1",
+  "n": 57
+ },
+ {
+  "key": "leiser",
+  "note": "leise → leiser（空场比主场安静）",
+  "stem": "In Belgrad spielt Deutschland ohne Zuschauer — das ist ___ (leise) als ein Heimspiel in Berlin.",
+  "file": "content34.py",
+  "line": 217,
+  "kind": "ex",
+  "level": "B1",
+  "n": 58
+ },
+ {
+  "key": "früher",
+  "note": "früh → früher（11 月 5 日早于 11 月 13 日）",
+  "stem": "Klopp nennt den Kader ___ (früh) als das Spiel in Belgrad.",
+  "file": "content34.py",
+  "line": 219,
+  "kind": "ex",
+  "level": "B1",
+  "n": 59
+ },
+ {
+  "key": "A",
+  "note": "塞尔维亚–德国周五 20:45",
+  "stem": "Serbien–Deutschland beginnt um... A. 20.45 Uhr · B. 18.45 Uhr · C. 15.30 Uhr",
+  "file": "content34.py",
+  "line": 223,
+  "kind": "ex",
+  "level": "B1",
+  "n": 60
+ },
+ {
+  "key": "B",
+  "note": "NFL 周日 15:30",
+  "stem": "Das NFL-Spiel in München beginnt um... A. 20.45 Uhr · B. 15.30 Uhr · C. 11.11 Uhr",
+  "file": "content34.py",
+  "line": 225,
+  "kind": "ex",
+  "level": "B1",
+  "n": 61
+ },
+ {
+  "key": "C",
+  "note": "德国–荷兰周一 20:45",
+  "stem": "Deutschland–Niederlande ist am Montag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.45 Uhr",
+  "file": "content34.py",
+  "line": 227,
+  "kind": "ex",
+  "level": "B1",
+  "n": 62
+ },
+ {
+  "key": "A",
+  "note": "拜仁–科隆周五 20:30",
+  "stem": "Bayern–Köln beginnt am Freitag um... A. 20.30 Uhr · B. 15.30 Uhr · C. 18.30 Uhr",
+  "file": "content34.py",
+  "line": 229,
+  "kind": "ex",
+  "level": "B1",
+  "n": 63
+ },
+ {
+  "key": "B",
+  "note": "沙尔克–斯图加特周六 17:30",
+  "stem": "Schalke–Stuttgart ist das Topspiel am Samstag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.30 Uhr",
+  "file": "content34.py",
+  "line": 231,
+  "kind": "ex",
+  "level": "B1",
+  "n": 64
+ },
+ {
+  "key": "A",
+  "note": "11 月 9 日全德复课",
+  "stem": "Wann sind alle wieder in der Schule? A. am 9. November · B. am 11. November · C. am 15. November",
+  "file": "content56.py",
+  "line": 86,
+  "kind": "ex",
+  "level": "B1",
+  "n": 65
+ },
+ {
+  "key": "B",
+  "note": "孩子们做纸灯笼",
+  "stem": "Was basteln die Kinder? A. ein Kostüm · B. Laternen aus Papier · C. einen Kürbis",
+  "file": "content56.py",
+  "line": 88,
+  "kind": "ex",
+  "level": "B1",
+  "n": 66
+ },
+ {
+  "key": "B",
+  "note": "上午狂欢，下午圣马丁",
+  "stem": "Was ist am 11. November richtig? A. Nur Karneval. · B. Karneval am Vormittag, St. Martin am Abend. · C. Nur St. Martin.",
+  "file": "content56.py",
+  "line": 90,
+  "kind": "ex",
+  "level": "B1",
+  "n": 67
+ },
+ {
+  "key": "B",
+  "note": "NFL 周日在电视上",
+  "stem": "Was läuft am Sonntag im Fernsehen? A. die Bundesliga · B. die NFL · C. ein Film",
+  "file": "content56.py",
+  "line": 92,
+  "kind": "ex",
+  "level": "B1",
+  "n": 68
+ },
+ {
+  "key": "A",
+  "note": "周五看国家队比赛",
+  "stem": "Was schauen viele Jugendliche am Freitag? A. die Nationalmannschaft in Belgrad · B. die NFL · C. den Karneval",
+  "file": "content56.py",
+  "line": 94,
+  "kind": "ex",
+  "level": "A2",
+  "n": 69
+ },
+ {
+  "key": "Laterne",
+  "note": "纸灯笼",
+  "stem": "Die Kinder tragen eine bunte ___ durch die Straßen.",
+  "file": "content56.py",
+  "line": 99,
+  "kind": "ex",
+  "level": "B1",
+  "n": 70
+ },
+ {
+  "key": "basteln",
+  "note": "做灯笼",
+  "stem": "In der Schule ___ die Kinder Laternen.",
+  "file": "content56.py",
+  "line": 101,
+  "kind": "ex",
+  "level": "B1",
+  "n": 71
+ },
+ {
+  "key": "Lied",
+  "note": "唱圣马丁歌曲",
+  "stem": "Die Kinder singen ein Martins___.",
+  "file": "content56.py",
+  "line": 103,
+  "kind": "ex",
+  "level": "B1",
+  "n": 72
+ },
+ {
+  "key": "Kostüm",
+  "note": "狂欢节服装",
+  "stem": "In Köln tragen die Kinder ein buntes ___.",
+  "file": "content56.py",
+  "line": 105,
+  "kind": "ex",
+  "level": "B1",
+  "n": 73
+ },
+ {
+  "key": "Umzug",
+  "note": "灯笼游行",
+  "stem": "Am Abend zieht der ___ durch die Straßen.",
+  "file": "content56.py",
+  "line": 107,
+  "kind": "ex",
+  "level": "A2",
+  "n": 74
+ },
+ {
+  "key": "Stern",
+  "note": "灯笼上的星星",
+  "stem": "Auf der Laterne ist ein ___.",
+  "file": "content56.py",
+  "line": 109,
+  "kind": "ex",
+  "level": "A2",
+  "n": 75
+ },
+ {
+  "key": "Die Kinder freuen sich, weil St. Martin kommt.",
+  "note": "weil 句动词置尾",
+  "stem": "Die Kinder freuen sich. St. Martin kommt. (weil) → ___",
+  "file": "content56.py",
+  "line": 113,
+  "kind": "ex",
+  "level": "B1",
+  "n": 76
+ },
+ {
+  "key": "Er bleibt zu Hause, weil es dunkel ist.",
+  "note": "ist 置尾",
+  "stem": "Er bleibt zu Hause. Es ist dunkel. (weil) → ___",
+  "file": "content56.py",
+  "line": 115,
+  "kind": "ex",
+  "level": "B1",
+  "n": 77
+ },
+ {
+  "key": "Sie geht in die Bibliothek, weil sie ein Buch lesen will.",
+  "note": "will 置尾",
+  "stem": "Sie geht in die Bibliothek. Sie will ein Buch lesen. (weil) → ___",
+  "file": "content56.py",
+  "line": 117,
+  "kind": "ex",
+  "level": "B1",
+  "n": 78
+ },
+ {
+  "key": "Köln feiert, weil die Karnevalssession beginnt.",
+  "note": "beginnt 置尾",
+  "stem": "Köln feiert. Die Karnevalssession beginnt. (weil) → ___",
+  "file": "content56.py",
+  "line": 119,
+  "kind": "ex",
+  "level": "B1",
+  "n": 79
+ },
+ {
+  "key": "Richtig",
+  "note": "11 月 9 日巴伐利亚也复课",
+  "stem": "Auch in Bayern sind die Herbstferien am 9. November vorbei. Richtig oder falsch?",
+  "file": "content56.py",
+  "line": 123,
+  "kind": "ex",
+  "level": "A2",
+  "n": 80
+ },
+ {
+  "key": "Falsch",
+  "note": "灯笼游行在晚上",
+  "stem": "Der Laternenumzug findet am Vormittag statt. Richtig oder falsch?",
+  "file": "content56.py",
+  "line": 125,
+  "kind": "ex",
+  "level": "B1",
+  "n": 81
+ },
+ {
+  "key": "Richtig",
+  "note": "孩子们唱圣马丁歌曲",
+  "stem": "Die Kinder singen Martinslieder. Richtig oder falsch?",
+  "file": "content56.py",
+  "line": 127,
+  "kind": "ex",
+  "level": "A2",
+  "n": 82
+ },
+ {
+  "key": "A",
+  "note": "46% 足球最受关注",
+  "stem": "Was interessiert die Leser am meisten (Übungsdaten)? A. Nations League und NFL · B. St. Martin · C. Volkstrauertag",
+  "file": "content56.py",
+  "line": 222,
+  "kind": "ex",
+  "level": "B1",
+  "n": 83
+ },
+ {
+  "key": "B",
+  "note": "节日 34% 第二",
+  "stem": "Was ist die zweitgrößte Gruppe? A. Volkstrauertag · B. St. Martin und Karneval · C. Nations League",
+  "file": "content56.py",
+  "line": 224,
+  "kind": "ex",
+  "level": "B1",
+  "n": 84
+ },
+ {
+  "key": "B",
+  "note": "46+34=80",
+  "stem": "Fußball und Feste zusammen sind... A. 66 % · B. 80 % · C. 100 %",
+  "file": "content56.py",
+  "line": 226,
+  "kind": "ex",
+  "level": "B1",
+  "n": 85
+ },
+ {
+  "key": "B",
+  "note": "纪念 20% 最小",
+  "stem": "Welche Gruppe ist kleiner? A. Feste · B. Gedenken · C. beide gleich",
+  "file": "content56.py",
+  "line": 228,
+  "kind": "ex",
+  "level": "B2",
+  "n": 86
+ },
+ {
+  "key": "A",
+  "note": "纪念 20%",
+  "stem": "Wie viele Prozent interessieren sich für den Volkstrauertag? A. 20 % · B. 34 % · C. 46 %",
+  "file": "content56.py",
+  "line": 230,
+  "kind": "ex",
+  "level": "B1",
+  "n": 87
+ },
+ {
+  "key": "B",
+  "note": "46+34+20=100",
+  "stem": "Die drei Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %",
+  "file": "content56.py",
+  "line": 232,
+  "kind": "ex",
+  "level": "B2",
+  "n": 88
+ },
+ {
+  "key": "B",
+  "note": "11 月 15 日纪念日",
+  "stem": "Wann ist Volkstrauertag? A. am 11. November · B. am 15. November · C. am 22. November",
+  "file": "content56.py",
+  "line": 236,
+  "kind": "ex",
+  "level": "B2",
+  "n": 89
+ },
+ {
+  "key": "A",
+  "note": "ZDF 13 点半直播纪念仪式",
+  "stem": "Wer überträgt die Gedenkstunde ab 13.30 Uhr? A. das ZDF · B. RTL · C. die ARD",
+  "file": "content56.py",
+  "line": 238,
+  "kind": "ex",
+  "level": "B2",
+  "n": 90
+ },
+ {
+  "key": "B",
+  "note": "家庭电力税 2.05 欧分",
+  "stem": "Wie hoch ist die Stromsteuer für Haushalte? A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent",
+  "file": "content56.py",
+  "line": 240,
+  "kind": "ex",
+  "level": "B2",
+  "n": 91
+ },
+ {
+  "key": "B",
+  "note": "2027 年预算 11 月 27 日表决",
+  "stem": "Wann soll der Bundeshaushalt 2027 verabschiedet werden? A. am 15. November · B. am 27. November · C. am 18. November",
+  "file": "content56.py",
+  "line": 242,
+  "kind": "ex",
+  "level": "B1",
+  "n": 92
+ },
+ {
+  "key": "wird",
+  "note": "被动：wird + Partizip II",
+  "stem": "Die Gedenkstunde ___ (werden) live übertragen.",
+  "file": "content56.py",
+  "line": 246,
+  "kind": "ex",
+  "level": "B2",
+  "n": 93
+ },
+ {
+  "key": "ob",
+  "note": "ob 引导间接疑问句",
+  "stem": "Niemand weiß, ___ die Einigung gelingt.",
+  "file": "content56.py",
+  "line": 248,
+  "kind": "ex",
+  "level": "B2",
+  "n": 94
+ },
+ {
+  "key": "geht",
+  "note": "gehen → geht",
+  "stem": "Die Debatte ___ (gehen) weiter.",
+  "file": "content56.py",
+  "line": 250,
+  "kind": "ex",
+  "level": "B1",
+  "n": 95
+ },
+ {
+  "key": "spricht",
+  "note": "sprechen → spricht",
+  "stem": "Steinmeier ___ (sprechen) das Totengedenken.",
+  "file": "content56.py",
+  "line": 252,
+  "kind": "ex",
+  "level": "B2",
+  "n": 96
+ },
+ {
+  "key": "Kranzniederlegung",
+  "note": "献花圈仪式",
+  "stem": "In vielen Städten gibt es eine ___.",
+  "file": "content56.py",
+  "line": 257,
+  "kind": "ex",
+  "level": "B1",
+  "n": 97
+ },
+ {
+  "key": "Versöhnung",
+  "note": "为和平与和解",
+  "stem": "Gedenken heißt: für Frieden und ___ einstehen.",
+  "file": "content56.py",
+  "line": 259,
+  "kind": "ex",
+  "level": "B2",
+  "n": 98
+ },
+ {
+  "key": "Verbundenheit",
+  "note": "德奥联系",
+  "stem": "Die Gedenkstunde steht im Zeichen der deutsch-österreichischen ___.",
+  "file": "content56.py",
+  "line": 261,
+  "kind": "ex",
+  "level": "B2",
+  "n": 99
+ },
+ {
+  "key": "gedenken",
+  "note": "纪念受害者",
+  "stem": "Die Menschen ___ der Opfer von Gewalt und Krieg.",
+  "file": "content56.py",
+  "line": 263,
+  "kind": "ex",
+  "level": "B1",
+  "n": 100
+ },
+ {
+  "key": "wird",
+  "note": "被动：wird + Partizip II",
+  "stem": "Am Freitag ___ in Belgrad gespielt.",
+  "file": "content7.py",
+  "line": 23,
+  "kind": "ex",
+  "level": "A2",
+  "n": 101
+ },
+ {
+  "key": "werden",
+  "note": "复数：werden",
+  "stem": "Am 11. November ___ zwei Feste gefeiert.",
+  "file": "content7.py",
+  "line": 25,
+  "kind": "ex",
+  "level": "A2",
+  "n": 102
+ },
+ {
+  "key": "wird",
+  "note": "werden + 原形表将来",
+  "stem": "Die Karnevalssession ___ um 11.11 Uhr beginnen.",
+  "file": "content7.py",
+  "line": 27,
+  "kind": "ex",
+  "level": "A2",
+  "n": 103
+ },
+ {
+  "key": "A",
+  "note": "被动语态",
+  "stem": "„Es wird gespielt“ ist... A. Passiv · B. Perfekt · C. Imperativ",
+  "file": "content7.py",
+  "line": 29,
+  "kind": "ex",
+  "level": "A2",
+  "n": 104
+ },
+ {
+  "key": "länger",
+  "note": "lang → länger（夜晚比白天长）",
+  "stem": "Im November ist die Nacht ___ (lang) als der Tag.",
+  "file": "content7.py",
+  "line": 37,
+  "kind": "ex",
+  "level": "B1",
+  "n": 105
+ },
+ {
+  "key": "weil",
+  "note": "weil 引导原因",
+  "stem": "Es wird früher dunkel, ___ die Tage kürzer werden.",
+  "file": "content7.py",
+  "line": 39,
+  "kind": "ex",
+  "level": "B1",
+  "n": 106
+ },
+ {
+  "key": "Viele bleiben zu Hause, weil es dunkel ist.",
+  "note": "weil 句动词置尾",
+  "stem": "Viele bleiben zu Hause. Es ist dunkel. (weil) → ___",
+  "file": "content7.py",
+  "line": 41,
+  "kind": "ex",
+  "level": "B1",
+  "n": 107
+ },
+ {
+  "key": "A",
+  "note": "länger als = 比……更长",
+  "stem": "„Länger als sonst“ heißt... A. 比平时更长 · B. 和平时一样 · C. 比平时更短",
+  "file": "content7.py",
+  "line": 43,
+  "kind": "ex",
+  "level": "B1",
+  "n": 108
+ },
+ {
+  "key": "ob",
+  "note": "ob 引导间接疑问",
+  "stem": "Ich weiß nicht, ___ die Stromsteuer sinkt.",
+  "file": "content7.py",
+  "line": 51,
+  "kind": "ex",
+  "level": "B2",
+  "n": 109
+ },
+ {
+  "key": "fraglich",
+  "note": "Es ist fraglich, ob ... = 是否还难说",
+  "stem": "Es ist ___ , ob sich Union und SPD einigen.",
+  "file": "content7.py",
+  "line": 53,
+  "kind": "ex",
+  "level": "B2",
+  "n": 110
+ },
+ {
+  "key": "Ich finde, dass das Gedenken Stille braucht.",
+  "note": "dass 句动词置尾",
+  "stem": "Ich finde: Das Gedenken braucht Stille. (dass) → ___",
+  "file": "content7.py",
+  "line": 55,
+  "kind": "ex",
+  "level": "B2",
+  "n": 111
+ },
+ {
+  "key": "B",
+  "note": "礼貌表达观点",
+  "stem": "„Das Gedenken braucht Stille“ höflich sagen: A. „Stille, sofort!“ · B. „Meiner Meinung nach braucht das Gedenken Stille.“ · C. „Die Politik macht alles falsch.“",
+  "file": "content7.py",
+  "line": 57,
+  "kind": "ex",
+  "level": "B2",
+  "n": 112
+ },
+ {
+  "key": "A",
+  "note": "beginnt（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 113
+ },
+ {
+  "key": "B",
+  "note": "bastelt（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 114
+ },
+ {
+  "key": "A",
+  "note": "geht（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 115
+ },
+ {
+  "key": "B",
+  "note": "singt（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 116
+ },
+ {
+  "key": "A",
+  "note": "schaut（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 117
+ },
+ {
+  "key": "B",
+  "note": "sieht（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "B1",
+  "n": 118
+ },
+ {
+  "key": "B",
+  "note": "erzählt（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "A2",
+  "n": 119
+ },
+ {
+  "key": "A",
+  "note": "beginnt（第三人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 26,
+  "kind": "comprehension:cloze_defs",
+  "level": "B1",
+  "n": 120
+ },
+ {
+  "key": "A",
+  "note": "狂欢季 11 点 11 分开幕",
+  "stem": "Die Karnevalssession beginnt um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr",
+  "file": "content8.py",
+  "line": 44,
+  "kind": "ex",
+  "level": "B1",
+  "n": 121
+ },
+ {
+  "key": "B",
+  "note": "周五客战塞尔维亚",
+  "stem": "Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München",
+  "file": "content8.py",
+  "line": 46,
+  "kind": "ex",
+  "level": "A2",
+  "n": 122
+ },
+ {
+  "key": "C",
+  "note": "NFL 周日 15:30",
+  "stem": "Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr",
+  "file": "content8.py",
+  "line": 48,
+  "kind": "ex",
+  "level": "A2",
+  "n": 123
+ },
+ {
+  "key": "A",
+  "note": "纪念日 11 月 15 日",
+  "stem": "Der Volkstrauertag ist am... A. 15. November · B. 11. November · C. 22. November",
+  "file": "content8.py",
+  "line": 50,
+  "kind": "ex",
+  "level": "B1",
+  "n": 124
+ },
+ {
+  "key": "B",
+  "note": "家庭电力税 2.05 欧分",
+  "stem": "Die Stromsteuer für Haushalte beträgt... A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent",
+  "file": "content8.py",
+  "line": 52,
+  "kind": "ex",
+  "level": "B1",
+  "n": 125
+ },
+ {
+  "key": "B",
+  "note": "主教练 11 月 5 日公布名单",
+  "stem": "Klopp nennt seinen Kader am... A. 13. November · B. 5. November · C. 9. November",
+  "file": "content8.py",
+  "line": 54,
+  "kind": "ex",
+  "level": "A2",
+  "n": 126
+ },
+ {
+  "key": "A",
+  "note": "ZDF 13 点半直播纪念仪式",
+  "stem": "Die Gedenkstunde überträgt ab 13.30 Uhr... A. das ZDF · B. RTL · C. die ARD",
+  "file": "content8.py",
+  "line": 56,
+  "kind": "ex",
+  "level": "B1",
+  "n": 127
+ },
+ {
+  "key": "C",
+  "note": "亡灵主日 11 月 22 日",
+  "stem": "Der Totensonntag ist am... A. 15. November · B. 18. November · C. 22. November",
+  "file": "content8.py",
+  "line": 58,
+  "kind": "ex",
+  "level": "A2",
+  "n": 128
+ },
+ {
+  "key": "A",
+  "note": "halb acht = 7:30",
+  "stem": "Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun",
+  "file": "content8.py",
+  "line": 64,
+  "kind": "ex",
+  "level": "B1",
+  "n": 129
+ },
+ {
+  "key": "B",
+  "note": "周三做灯笼",
+  "stem": "Was bastelt die Familie am Mittwoch? A. ein Kostüm · B. eine Laterne · C. einen Kürbis",
+  "file": "content8.py",
+  "line": 66,
+  "kind": "ex",
+  "level": "A2",
+  "n": 130
+ },
+ {
+  "key": "A",
+  "note": "周五看德国队",
+  "stem": "Was schaut die Familie am Freitag? A. Deutschland in Belgrad · B. die NFL · C. den Karneval",
+  "file": "content8.py",
+  "line": 68,
+  "kind": "ex",
+  "level": "A2",
+  "n": 131
+ },
+ {
+  "key": "B",
+  "note": "NFL 周日 15:30",
+  "stem": "Wann schaut die Familie das NFL-Spiel? A. Samstag 18.30 Uhr · B. Sonntag 15.30 Uhr · C. Freitag 20.45 Uhr",
+  "file": "content8.py",
+  "line": 70,
+  "kind": "ex",
+  "level": "B1",
+  "n": 132
+ },
+ {
+  "key": "Die Karnevalssession beginnt am Mittwoch.",
+  "note": "时间状语，动词第二位",
+  "stem": "die Karnevalssession / beginnt / am Mittwoch → ___",
+  "file": "content8.py",
+  "line": 75,
+  "kind": "ex",
+  "level": "A2",
+  "n": 133
+ },
+ {
+  "key": "Wir basteln eine Laterne aus Papier.",
+  "note": "主谓宾顺序",
+  "stem": "wir / basteln / eine Laterne / aus Papier → ___",
+  "file": "content8.py",
+  "line": 77,
+  "kind": "ex",
+  "level": "A2",
+  "n": 134
+ },
+ {
+  "key": "Die Kinder gehen am Montag wieder in die Schule.",
+  "note": "时间状语开头，动词第二位",
+  "stem": "die Kinder / gehen / am Montag / wieder in die Schule → ___",
+  "file": "content8.py",
+  "line": 79,
+  "kind": "ex",
+  "level": "B1",
+  "n": 135
+ },
+ {
+  "key": "Am Sonntag ist Volkstrauertag in ganz Deutschland.",
+  "note": "地点时间开头，动词第二位",
+  "stem": "am Sonntag / ist / Volkstrauertag / in ganz Deutschland → ___",
+  "file": "content8.py",
+  "line": 81,
+  "kind": "ex",
+  "level": "B1",
+  "n": 136
+ },
+ {
+  "key": "狂欢节 11 点 11 分在科隆开幕。",
+  "note": "beginnen = 开始",
+  "stem": "Der Karneval beginnt um 11.11 Uhr in Köln.（译成中文）",
+  "file": "content8.py",
+  "line": 86,
+  "kind": "ex",
+  "level": "A2",
+  "n": 137
+ },
+ {
+  "key": "我周三做一个灯笼。",
+  "note": "basteln = 制作",
+  "stem": "Ich bastle am Mittwoch eine Laterne.（译成中文）",
+  "file": "content8.py",
+  "line": 88,
+  "kind": "ex",
+  "level": "A2",
+  "n": 138
+ },
+ {
+  "key": "学校 11 月 9 日又开学了。",
+  "note": "wieder begonnen = 又开始",
+  "stem": "Die Schule hat am 9. November wieder begonnen.（译成中文）",
+  "file": "content8.py",
+  "line": 90,
+  "kind": "ex",
+  "level": "B1",
+  "n": 139
+ },
+ {
+  "key": "Am Sonntag schaue ich das NFL-Spiel.",
+  "note": "看比赛 = das Spiel schauen",
+  "stem": "我周日看 NFL 比赛。（译成德语）",
+  "file": "content8.py",
+  "line": 92,
+  "kind": "ex",
+  "level": "B1",
+  "n": 140
+ },
+ {
+  "key": "b",
+  "note": "Mantel=斗篷 b",
+  "stem": "MATCH left=der Mantel | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der warme Umhang, den Martin mit dem Bettler teilte', 'die Aussöhnung nach einem Streit — Frieden zwischen Menschen', 'ein Spiel ohne Zuschauer im Stadion']",
+  "file": "content8.py",
+  "line": 97,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 141
+ },
+ {
+  "key": "a",
+  "note": "Laterne=灯笼 a",
+  "stem": "MATCH left=die Laterne | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der warme Umhang, den Martin mit dem Bettler teilte', 'die Aussöhnung nach einem Streit — Frieden zwischen Menschen', 'ein Spiel ohne Zuschauer im Stadion']",
+  "file": "content8.py",
+  "line": 97,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 142
+ },
+ {
+  "key": "d",
+  "note": "Geisterspiel=空场比赛 d",
+  "stem": "MATCH left=das Geisterspiel | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der warme Umhang, den Martin mit dem Bettler teilte', 'die Aussöhnung nach einem Streit — Frieden zwischen Menschen', 'ein Spiel ohne Zuschauer im Stadion']",
+  "file": "content8.py",
+  "line": 97,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 143
+ },
+ {
+  "key": "c",
+  "note": "Versöhnung=和解 c",
+  "stem": "MATCH left=die Versöhnung | rights=['das Licht aus Papier, das die Kinder am Abend tragen', 'der warme Umhang, den Martin mit dem Bettler teilte', 'die Aussöhnung nach einem Streit — Frieden zwischen Menschen', 'ein Spiel ohne Zuschauer im Stadion']",
+  "file": "content8.py",
+  "line": 97,
+  "kind": "match_set",
+  "level": "B1",
+  "n": 144
+ },
+ {
+  "key": "B",
+  "note": "singst（第二人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 115,
+  "kind": "comprehension:ddefs",
+  "level": "A2",
+  "n": 145
+ },
+ {
+  "key": "A",
+  "note": "macht（第二人称复数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 115,
+  "kind": "comprehension:ddefs",
+  "level": "A2",
+  "n": 146
+ },
+ {
+  "key": "A",
+  "note": "essen（第一人称复数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 115,
+  "kind": "comprehension:ddefs",
+  "level": "A2",
+  "n": 147
+ },
+ {
+  "key": "B",
+  "note": "machst（第二人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 115,
+  "kind": "comprehension:ddefs",
+  "level": "B1",
+  "n": 148
+ },
+ {
+  "key": "A",
+  "note": "schaue（第一人称单数）",
+  "stem": "CLOZE/DIALOGUE option set",
+  "file": "content8.py",
+  "line": 115,
+  "kind": "comprehension:ddefs",
+  "level": "B1",
+  "n": 149
+ },
+ {
+  "key": "开放题 — 要点见写作框，范文在第 8 版写作框内",
+  "note": "按要点给分",
+  "stem": null,
+  "file": "content8.py",
+  "line": 132,
+  "kind": "reg_ex",
+  "level": "B1",
+  "n": 150
+ }
+]

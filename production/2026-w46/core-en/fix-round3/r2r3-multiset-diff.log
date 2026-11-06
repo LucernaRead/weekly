@@ -1,0 +1,16 @@
+es 1574
+fr 1605
+zh-tw 1536
+== es: only-Round2 1, only-Round3 1
+  R2-only 1 ('p3-culture', 'LA NOCHE DE SCROOGE')
+  R3-only 1 ('p3-culture', "SCROOGE'S NIGHT · La noche")
+== fr: only-Round2 1, only-Round3 1
+  R2-only 1 ('p3-culture', 'LA NUIT DE SCROOGE')
+  R3-only 1 ('p3-culture', "SCROOGE'S NIGHT · La nuit")
+== zh-tw: only-Round2 2, only-Round3 1
+  R2-only 1 ('p2-life', '用 will + 動詞原形來改寫（承諾與將要發生的事')
+  R2-only 1 ('p2-life', '）。')
+  R3-only 1 ('p2-life', '用 will + 動詞原形改寫，承諾與將要發生的事。')
+es text.md Answers: n=150 unique=150 range=1..150 complete=True header6=['# The Lucerna — English Weekly VOL.3 (2026-W46, 9–15 November 2026)', '', 'Target: English. Reader language: Spanish (es). Levels A2–B2. 150 exercises.', '', 'Source manuscript export: headings, paragraphs and exercises in original order, exported from the build source files (content12.py, content34.py, content56.py, content7.py, content8.py). Answers appended from the exercise registry.', '']
+fr text.md Answers: n=150 unique=150 range=1..150 complete=True header6=['# The Lucerna — English Weekly VOL.3 (2026-W46, 9–15 November 2026)', '', 'Target: English. Reader language: French (fr). Levels A2–B2. 150 exercises.', '', 'Source manuscript export: headings, paragraphs and exercises in original order, exported from the build source files (content12.py, content34.py, content56.py, content7.py, content8.py). Answers appended from the exercise registry.', '']
+zh-tw text.md Answers: n=150 unique=150 range=1..150 complete=True header6=['# The Lucerna — English Weekly VOL.3 (2026-W46, 9–15 November 2026)', '', 'Target: English. Reader language: Traditional Chinese (zh-tw). Levels A2–B2. 150 exercises.', '', 'Source manuscript export: headings, paragraphs and exercises in original order, exported from the build source files (content12.py, content34.py, content56.py, content7.py, content8.py). Answers appended from the exercise registry.', '']

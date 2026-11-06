@@ -1,0 +1,65 @@
+=== A. p8.py extract comparison (verify2-p8keys-*.json) ===
+core printed keys: 150; registry-vs-printed mismatches: 1
+  registry/printed: ('150', '开放题 — 要点见写作框，范文在第 8 版写作框内', '开放题')
+verify2-p8keys-de.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='Geduld ist Teil des Systems, nicht ein Versagen des Systems.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='Am Mittwoch, dem 11. November, hält Großbritannien um 11 Uhr zwei Minuten Stille.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='An diesem Sonntag spielt die NFL in München.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Nicht jedes Land nennt ihn gleich.'
+   150: core='开放题' ed='Offene Aufgabe'
+verify2-p8keys-es.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='La paciencia es parte del sistema, no un fallo del sistema.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='El miércoles 11 de noviembre, a las 11 h, el Reino Unido guarda dos minutos de silencio.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='Este domingo, la NFL juega en Múnich.'
+   140: core='并非每个国家都叫它同一个名字。' ed='No todos los países lo llaman igual.'
+   150: core='开放题' ed='Pregunta abierta: véanse los puntos en el recuadro de redacción; el modelo está en el recuadro de esta página'
+verify2-p8keys-fr.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='La patience fait partie du système, et non un échec de celui-ci.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='Le mercredi 11 novembre, à 11 h, la Grande-Bretagne observe deux minutes de silence.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='Ce dimanche, la NFL joue à Munich.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Chaque pays ne l’appelle pas de la même façon.'
+   150: core='开放题' ed='Tâche ouverte'
+verify2-p8keys-it.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='La pazienza fa parte del sistema, non è un fallimento del sistema.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='Mercoledì 11 novembre, alle ore 11, il Regno Unito osserva due minuti di silenzio.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='Questa domenica la NFL gioca a Monaco.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Non tutti i paesi lo chiamano allo stesso modo.'
+   150: core='开放题' ed='Compito aperto'
+verify2-p8keys-ja.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='忍耐は制度の一部であり、制度の失敗ではない。'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='11月11日水曜日の午前11時、イギリスは2分間の黙とうをささげる。'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='今週の日曜日、NFLはミュンヘンで試合をする。'
+   140: core='并非每个国家都叫它同一个名字。' ed='すべての国が同じ名前で呼んでいるわけではない。'
+   150: core='开放题' ed='自由記述'
+verify2-p8keys-ko.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='인내는 제도의 일부예요, 실패가 아니에요.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='11월 11일 수요일 오전11시, 영국은 2분간 묵념해요.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='이번 일요일, NFL이 뮌헨에서 경기를 해요.'
+   140: core='并非每个国家都叫它同一个名字。' ed='모든 나라가 같은 이름으로 부르는건 아니에요.'
+   150: core='开放题' ed='열린 문제— 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에'
+verify2-p8keys-nl.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='Geduld is een deel van het systeem, geen falen van het systeem.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='Op woensdag 11 november, om 11 uur, houdt het Verenigd Koninkrijk twee minuten stilte.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='Deze zondag speelt de NFL in München.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Niet elk land noemt het hetzelfde.'
+   150: core='开放题' ed='Open vraag'
+verify2-p8keys-pt.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='A paciência faz parte do sistema, não é uma falha do sistema.'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='Na quarta-feira, 11 de novembro, às 11h, o Reino Unido observa dois minutos de silêncio.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='Este domingo, a NFL joga em Munique.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Nem todos os países lhe chamam o mesmo nome.'
+   150: core='开放题' ed='Questão aberta: veja os pontos no quadro de redação; o modelo está no quadro desta página'
+verify2-p8keys-ru.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='Терпение'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='В среду, 11 ноября, в 11:00 Великобритания соблюдает две минуты молчания.'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='В это воскресенье НФЛ играет в Мюнхене.'
+   140: core='并非每个国家都叫它同一个名字。' ed='Не каждая страна называет это одинаково.'
+   150: core='开放题' ed='Открытый вопрос: критерии'
+verify2-p8keys-zh-tw.json: n=150 diffs-vs-core=5 ['137', '138', '139', '140', '150']
+   137: core='耐心是制度的一部分，而不是制度的失败。' ed='耐心是制度的一部分，而不是制度的失敗。'
+   138: core='11 月 11 日周三上午 11 点，英国默哀两分钟。' ed='11 月 11 日週三上午 11 點，英國默哀兩分鐘。'
+   139: core='这周日，NFL 在慕尼黑比赛。' ed='這週日，NFL 在慕尼黑比賽。'
+   140: core='并非每个国家都叫它同一个名字。' ed='並非每個國家都叫它同一個名字。'
+   150: core='开放题' ed='開放題'
+=== B. independent raw-SVG letter parse ===
+letter keys per edition: 79; editions: 11; total letter checks: 869; mismatches: 0

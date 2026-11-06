@@ -1,0 +1,71 @@
+{
+ "svgdir": "../files/weekly-report-w46-en-ru/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "павших.",
+   "box": [
+    1451.0,
+    1835.2,
+    1526.8,
+    1845.9
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@151"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "COVER",
+   "text": "ELEVEN ELEVEN · Одиннадцать часов одиннадцать минут",
+   "box": [
+    1007.0,
+    219.8,
+    1694.0,
+    242.2
+   ],
+   "detail": "35% of ink covered by later image box [1451.0, 200.0, 1885.0, 640.0]",
+   "by": "image@101"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "по-английски в редакцию.",
+   "box": [
+    1473.0,
+    1537.4,
+    1732.2,
+    1558.2
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@129"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "BOXTITLE",
+   "text": "ELEVEN ELEVEN · Одиннадцать часов одиннадцать минут",
+   "box": [
+    1007.0,
+    219.8,
+    1694.0,
+    242.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1694.0 > border 1423.0",
+   "by": "rect@69"
+  },
+  {
+   "page": "p4-sport.svg",
+   "class": "BOXTITLE",
+   "text": "SUNDAY, NOVEMBER 15 · Воскресенье",
+   "box": [
+    1469.0,
+    881.8,
+    1916.2,
+    904.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1916.2 > border 1885.0",
+   "by": "rect@198"
+  }
+ ],
+ "flag_count": 5
+}

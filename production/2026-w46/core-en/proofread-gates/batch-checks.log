@@ -1,0 +1,98 @@
+== REGISTRY ==
+<class 'list'> 150
+count 150 nums min/max 1 150 unique 150 missing [] dup []
+levels {'A2': 60, 'B1': 69, 'B2': 21}
+per-page {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+entries without key/answer field: 0 []
+sample entry: {"n": 1, "page": 1, "level": "A2", "type": "完成句子", "key": "armistice", "note": "armistice = 停战协定"}
+
+== P7 GOLDEN SENTENCES (core KIT list) ==
+1 VERBATIM On Wednesday, November 11, at eleven o'clock in the morning,
+2 VERBATIM At 11 a.m. on November 11, 1918, the guns of the First World
+3 VERBATIM For two minutes, nobody speaks.
+4 VERBATIM Christmas is still six weeks away.
+5 VERBATIM One Sunday is not enough — good thing the week has seven day
+6 VERBATIM The total will still be there in the morning — and so will t
+7 VERBATIM Patience is part of the system, not a failure of it.
+8 VERBATIM There were no results to print — and this paper invents none
+
+== PDF / ABSTRACT ==
+core web bytes 2017005 pdftotext-bytes 45011 pages? UserProperties:  no
+core print bytes 27918600 pdftotext-bytes 45011 pages? UserProperties:  no
+core ABSTRACT lines 1 chars 192 has-ASCII-dquote False single-line True
+de web bytes 1555388 pdftotext-bytes 48472 pages? UserProperties:  no
+de print bytes 15190760 pdftotext-bytes 48472 pages? UserProperties:  no
+de ABSTRACT lines 1 chars 544 has-ASCII-dquote False single-line True
+es web bytes 1552430 pdftotext-bytes 46193 pages? UserProperties:  no
+es print bytes 15187675 pdftotext-bytes 46193 pages? UserProperties:  no
+es ABSTRACT lines 1 chars 502 has-ASCII-dquote False single-line True
+fr web bytes 1557926 pdftotext-bytes 49182 pages? UserProperties:  no
+fr print bytes 15263483 pdftotext-bytes 49182 pages? UserProperties:  no
+fr ABSTRACT lines 1 chars 491 has-ASCII-dquote False single-line True
+it web bytes 1547036 pdftotext-bytes 45897 pages? UserProperties:  no
+it print bytes 15184585 pdftotext-bytes 45897 pages? UserProperties:  no
+it ABSTRACT lines 1 chars 464 has-ASCII-dquote False single-line True
+ja web bytes 2082455 pdftotext-bytes 47289 pages? UserProperties:  no
+ja print bytes 27094821 pdftotext-bytes 47289 pages? UserProperties:  no
+ja ABSTRACT lines 1 chars 202 has-ASCII-dquote False single-line True
+ko web bytes 1785374 pdftotext-bytes 47098 pages? UserProperties:  no
+ko print bytes 18551621 pdftotext-bytes 47098 pages? UserProperties:  no
+ko ABSTRACT lines 1 chars 237 has-ASCII-dquote False single-line True
+nl web bytes 1553358 pdftotext-bytes 48507 pages? UserProperties:  no
+nl print bytes 15188830 pdftotext-bytes 48507 pages? UserProperties:  no
+nl ABSTRACT lines 1 chars 459 has-ASCII-dquote False single-line True
+pt web bytes 1557321 pdftotext-bytes 46067 pages? UserProperties:  no
+pt print bytes 15189755 pdftotext-bytes 46067 pages? UserProperties:  no
+pt ABSTRACT lines 1 chars 476 has-ASCII-dquote False single-line True
+ru web bytes 1579520 pdftotext-bytes 50969 pages? UserProperties:  no
+ru print bytes 15073420 pdftotext-bytes 50969 pages? UserProperties:  no
+ru ABSTRACT lines 1 chars 454 has-ASCII-dquote False single-line True
+zh-tw web bytes 2204235 pdftotext-bytes 44913 pages? UserProperties:  no
+zh-tw print bytes 24611428 pdftotext-bytes 44913 pages? UserProperties:  no
+zh-tw ABSTRACT lines 1 chars 181 has-ASCII-dquote False single-line True
+
+== BADGE / FOOTER (KIT furniture strings) ==
+de badge-in-P1: True | badge-anywhere: True
+de footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · ENGLISH WEEKLY VOL.3 · Englischer Text · Deutsche Erklärungen
+es badge-in-P1: True | badge-anywhere: True
+es footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · SEMANARIO INGLÉS VOL.3 · TEXTO EN INGLÉS · EXPLICACIONES EN ESPAÑOL
+fr badge-in-P1: False | badge-anywhere: False
+fr footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · HEBDOMADAIRE ANGLAIS VOL.3 · TEXTE EN ANGLAIS · EXPLICATIONS EN FRANÇAIS
+it badge-in-P1: True | badge-anywhere: True
+it footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · SETTIMANALE INGLESE VOL.3 · TESTI IN INGLESE · SPIEGAZIONI IN ITALIANO
+ja badge-in-P1: True | badge-anywhere: True
+ja footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · 英語週刊 VOL.3 · 本文は英語 · 解説は日本語
+ko badge-in-P1: True | badge-anywhere: True
+ko footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · 영어 주간지 VOL.3 · 텍스트는 영어 · 해설은 한국어
+nl badge-in-P1: True | badge-anywhere: True
+nl footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · ENGELS WEEKBLAD VOL.3 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS
+pt badge-in-P1: True | badge-anywhere: True
+pt footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · SEMANÁRIO INGLÊS VOL.3 · TEXTOS EM INGLÊS · EXPLICAÇÕES EM PORTUGUÊS
+ru badge-in-P1: True | badge-anywhere: True
+ru footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА АНГЛИЙСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ
+zh-tw badge-in-P1: True | badge-anywhere: True
+zh-tw footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · 英語週報 VOL.3 · 正文英語 · 講解繁體中文
+core footer-present: 8 (expect 8 pages)
+   FOOT: The Lucerna · 英语周报 VOL.3 · LUCERNA ENGLISH WEEKLY
+
+== MASTHEAD LINES (P1) ==
+core '英 语 周 报 · VOL.3 · 纪 念 · 足 球 · 电 影'
+de 'ENGLISCHES WOCHENBLATT · VOL.3 · GEDENKEN · FUSSBALL · FILME'
+es 'SEMANARIO EN INGLÉS · VOL.3 · CONMEMORACIÓN · FÚTBOL · CINE'
+fr 'HEBDOMADAIRE EN ANGLAIS · VOL.3 · COMMÉMORATION · FOOTBALL · CINÉMA'
+it 'SETTIMANALE IN INGLESE · VOL.3 · COMMEMORAZIONE · FOOTBALL · FILM'
+ja '英 語 週 刊 · VOL.3 · 記 念 · フットボール · 映 画'
+ko '영어 주간지 · VOL.3 · 기념 · 축구 · 영화'
+pt 'SEMANÁRIO EM INGLÊS · VOL.3 · COMEMORAÇÃO · FUTEBOL · CINEMA'
+ru 'АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.3 · ПАМЯТЬ · ФУТБОЛ · КИНО'
+zh-tw '英 語 週 報 · VOL.3 · 紀 念 · 足 球 · 電 影'

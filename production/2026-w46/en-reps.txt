@@ -1,0 +1,531 @@
+render.py	OLD	weekly-report-w46-nl-core
+render.py	NEW	weekly-report-w46-nl-en
+render.py	OLD	De-Lucerna-VOL3.pdf
+render.py	NEW	De-Lucerna-VOL3-EN.pdf
+render.py	OLD	Render the NL weekly VOL.3
+render.py	NEW	Render the NL x EN weekly VOL.3
+run.py	OLD	Run the IT weekly
+run.py	NEW	Run the NL x EN weekly
+bslib4.py	OLD	De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY
+bslib4.py	NEW	De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY
+bslib4.py	OLD	f"第 {n} 版 / 共 {total} 版"
+bslib4.py	NEW	f"Page {n} of {total}"
+bslib4.py	OLD	译注｜
+bslib4.py	NEW	Note | 
+content8.py	OLD	if e_["type"] == "writing":
+content8.py	NEW	if e_["type"] == "writing":
+content8.py	OLD	af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+content8.py	NEW	af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+content8.py	OLD	af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+content8.py	NEW	af.para(f"— PAGINA {pg} —", 13.5, "sans", True, OLIVE, lh=1.17, gap=1.5, split=False)
+content8.py	OLD	af.para(txt, 13.5, lh=1.16, gap=0.5, split=False)
+content8.py	NEW	af.para(txt, 13.0, lh=1.14, gap=0.3, split=False)
+svglib.py	OLD	for 重阳
+svglib.py	NEW	for Double Ninth
+content12.py	OLD	ELKE WEEK IN HET NEDERLANDS · 每周一期 · 读荷兰人正在读的荷兰语
+content12.py	NEW	ELKE WEEK IN HET NEDERLANDS · EVERY WEEK · REAL DUTCH
+content12.py	OLD	荷 兰 语 周 报 · VOL.3 · SINTERKLAAS · SINT-MAARTEN · ORANJE
+content12.py	NEW	WEEKBLAD IN HET NEDERLANDS · VOL.3 · SINTERKLAAS · SINT-MAARTEN · ORANJE
+content12.py	OLD	p.text(975, 372, "DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS", 19, "sans", False, GREY, anchor="middle")
+content12.py	NEW	p.text(975, 372, "TEXT IN DUTCH · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS", 20, "sans", True, OLIVE, anchor="middle")
+content12.py	OLD	"圣诞老人来了"
+content12.py	NEW	"SINTERKLAAS IS COMING"
+content12.py	OLD	"本周：圣诞老人来到荷兰 · 详见第 3 版"
+content12.py	NEW	"This week: Sinterklaas comes to the Netherlands · see page 3"
+content12.py	OLD	f.bridge("讲解｜de intocht 入城式 · de stoomboot 蒸汽船 · aanmeren 靠岸 · de lampion 灯笼。")
+content12.py	NEW	f.bridge("Note | de intocht = arrival · de stoomboot = steamboat · de lampion = lantern.")
+content12.py	OLD	"DE WEEK IN CIJFERS · 数字看本周"
+content12.py	NEW	"DE WEEK IN CIJFERS · IN NUMBERS"
+content12.py	OLD	（11 月 9 日：圣诞老人新闻开播）
+content12.py	NEW	 (9 Nov: Sinterklaas news)
+content12.py	OLD	（11 月 14 日：全国入城式在赫拉弗）
+content12.py	NEW	 (14 Nov: national arrival, Grave)
+content12.py	OLD	（11 月 15 日：阿姆斯特丹入城式，第 88 届）
+content12.py	NEW	 (15 Nov: 88th)
+content12.py	OLD	（20:45：荷兰队周五对阵希腊）
+content12.py	NEW	 (Fri 20:45)
+content12.py	OLD	"NU JIJ · 即学即练"
+content12.py	NEW	"NU JIJ · YOUR TURN"
+content12.py	OLD	"圣诞老人新闻 11 月 9 日开播"
+content12.py	NEW	"The Sinterklaas news starts on 9 November"
+content12.py	OLD	"全国入城式在赫拉弗"
+content12.py	NEW	"The national arrival is in Grave"
+content12.py	OLD	"阿姆斯特丹入城式在 11 月 15 日周日"
+content12.py	NEW	"The Amsterdam arrival is on Sunday 15 November"
+content12.py	OLD	"圣马丁节在 11 月 11 日周三"
+content12.py	NEW	"St Martin's Day is on Wednesday 11 November"
+content12.py	OLD	"荷兰–希腊 20:45 开球"
+content12.py	NEW	"Netherlands–Greece kicks off at 20:45"
+content12.py	OLD	"veel kinderen → zetten（复数）"
+content12.py	NEW	"Plural subject, so zetten"
+content12.py	OLD	"· 本周日程"
+content12.py	NEW	"· THIS WEEK"
+content12.py	OLD	"Agenda van de week · 本周大事"
+content12.py	NEW	"Agenda van de week · THIS WEEK'S EVENTS"
+content12.py	OLD	"本周日程见第 2–4 版文章"
+content12.py	NEW	"See pages 2–4 for all dates and times."
+content12.py	OLD	"IN DEZE EDITIE · 本期目录"
+content12.py	NEW	"IN DEZE EDITIE · IN THIS ISSUE"
+content12.py	OLD	"“入城式”：圣诞老人乘船、随后骑马隆重进入一座城市。"
+content12.py	NEW	"«The intocht»: Sinterklaas arrives in a town by boat, then on horseback, in a festive parade."
+content12.py	OLD	"IN HET KORT · 快讯"
+content12.py	NEW	"IN HET KORT · IN BRIEF"
+content12.py	OLD	"BLIKSEMQUIZ · 闪电问答"
+content12.py	NEW	"BLIKSEMQUIZ · LIGHTNING QUIZ"
+content12.py	OLD	"读头版，选出正确答案 · 答案见第 8 版"
+content12.py	NEW	"Read page 1, choose the right answer · answers on page 8"
+content12.py	OLD	"圣诞老人新闻 11 月 9 日周一开播"
+content12.py	NEW	"The Sinterklaas news starts on Monday 9 November"
+content12.py	OLD	"阿姆斯特丹入城式是第 88 届"
+content12.py	NEW	"The Amsterdam arrival is the 88th edition"
+content12.py	OLD	p.band("LEVEN · 生活", "De Lucerna", "NIVEAU A2 · Sint-Maarten: lichtjes en liedjes · 圣马丁节：灯笼与歌声")
+content12.py	NEW	p.band("LEVEN · LIFE", "De Lucerna", "NIVEAU A2 · Sint-Maarten: lichtjes en liedjes · St Martin's Day: lanterns and songs")
+content12.py	OLD	"ZO ONTHOUD JE HET · 口诀"
+content12.py	NEW	"ZO ONTHOUD JE HET · REMEMBER"
+content12.py	OLD	f.gloss("de lampion 灯笼 · delen 分享 · de mantel 斗篷、外套 · de bedelaar 乞丐 · het erfgoed 文化遗产 · het ledlampje LED 小灯。")
+content12.py	NEW	f.gloss("de lampion = lantern · delen = to share · de mantel = cloak, coat · de bedelaar = beggar · het erfgoed = heritage · het ledlampje = little LED light.")
+content12.py	OLD	"11 月 11 日你会提灯笼挨家唱歌，还是更爱看圣诞老人新闻？写两句荷兰语寄给编辑部。"
+content12.py	NEW	"On 11 November, will you go singing door to door with a lantern, or would you rather watch the Sinterklaas news? Write two sentences in Dutch and send them to the editors."
+content12.py	OLD	"EN JIJ? · 说说你自己"
+content12.py	NEW	"EN JIJ? · AND YOU?"
+content12.py	OLD	"SINT-MAARTEN IN VIER WOORDEN · 四个关键词"
+content12.py	NEW	"SINT-MAARTEN IN VIER WOORDEN · FOUR KEY WORDS"
+content12.py	OLD	"Wat hoort bij het feest? · 哪些词属于这个节日"
+content12.py	NEW	"Wat hoort bij het feest? · Which words belong to the festival?"
+content12.py	OLD	"纸灯笼，里面放 LED 灯"
+content12.py	NEW	"a paper lantern, with an LED light inside"
+content12.py	OLD	"分享：把斗篷分一半给乞丐"
+content12.py	NEW	"sharing: giving half a cloak to a beggar"
+content12.py	OLD	"圣马丁的城市，列入遗产名录"
+content12.py	NEW	"St Martin's city, on the heritage list"
+content12.py	OLD	"挨家挨户唱圣马丁歌"
+content12.py	NEW	"singing St Martin's songs door to door"
+content12.py	OLD	"OEFENINGEN · 第 2 版练习"
+content12.py	NEW	"OEFENINGEN · EXERCISES ON PAGE 2"
+content12.py	OLD	"答案见第 8 版 · 题目可跨级混排，按题号找答案"
+content12.py	NEW	"Answers on page 8 · levels are mixed; find your number"
+content12.py	OLD	e.bridge("读第 2 版文章，选出正确答案。")
+content12.py	NEW	e.bridge("Read the article on page 2 and choose the right answer.")
+content12.py	OLD	"孩子们提着灯笼挨家唱歌"
+content12.py	NEW	"Children go door to door with lanterns"
+content12.py	OLD	"马丁把斗篷分一半给乞丐"
+content12.py	NEW	"Martinus gave half his cloak to a beggar"
+content12.py	OLD	"乌得勒支是圣马丁的城市"
+content12.py	NEW	"Utrecht is St Martin's city"
+content12.py	OLD	"灯笼里用 LED 灯，不用蜡烛"
+content12.py	NEW	"A lantern takes an LED light, not a candle"
+content12.py	OLD	e.bridge("用第 2 版的词填空。")
+content12.py	NEW	e.bridge("Fill in with words from page 2.")
+content12.py	OLD	"圣马丁节在 11 月 11 日"
+content12.py	NEW	"St Martin's Day is on 11 November"
+content12.py	OLD	"lampion = 灯笼（de）"
+content12.py	NEW	"lampion = lantern (de)"
+content12.py	OLD	"delen = 分享"
+content12.py	NEW	"delen = to share"
+content12.py	OLD	"mantel = 斗篷（de）"
+content12.py	NEW	"mantel = cloak (de)"
+content12.py	OLD	"圣马丁的城市是乌得勒支"
+content12.py	NEW	"St Martin's city is Utrecht"
+content12.py	OLD	e.bridge("用歌词和安全提示填空。")
+content12.py	NEW	e.bridge("Fill in with the song words and the safety tip.")
+content12.py	OLD	"歌词：我的小灯可以亮了"
+content12.py	NEW	"Song words: my little light may shine"
+content12.py	OLD	"天黑时灯笼格外亮"
+content12.py	NEW	"Lanterns shine brightest when it is dark"
+content12.py	OLD	"LED 灯安全"
+content12.py	NEW	"An LED light is safe"
+content12.py	OLD	"收礼夜在 12 月 5 日"
+content12.py	NEW	"Pakjesavond is on 5 December"
+content12.py	OLD	["lampion=灯笼 b", "delen=分享 a", "mantel=斗篷 d", "erfgoed=文化遗产 c"]
+content12.py	NEW	["lampion = lantern b", "delen = to share a", "mantel = cloak d", "erfgoed = heritage c"]
+content12.py	OLD	instr="把词和释义配对"
+content12.py	NEW	instr="Match word to meaning"
+content12.py	OLD	"HET NIEUWS · 头条"
+content12.py	NEW	"HET NIEUWS · TOP STORY"
+content34.py	OLD	p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Sinterklaasjournaal en Het diner · 圣诞老人新闻与《晚餐》")
+content34.py	NEW	p.band("CULTUUR · CULTURE", "De Lucerna", "NIVEAU A2 → B1 · Sinterklaasjournaal en Het diner · The Sinterklaas news and Het diner")
+content34.py	OLD	f.gloss("het journaal 新闻节目 · de flessenpost 瓶中信 · de burgemeester 市长 · de stoet 游行队伍 · de leeskring 读书会。")
+content34.py	NEW	f.gloss("het journaal = news programme · de flessenpost = message in a bottle · de burgemeester = mayor · de stoet = procession · de leeskring = reading club.")
+content34.py	OLD	"OEFENINGEN · 第 3 版练习"
+content34.py	NEW	"OEFENINGEN · EXERCISES ON PAGE 3"
+content34.py	OLD	"答案见第 8 版 · 题目可跨级混排，按题号找答案"
+content34.py	NEW	"Answers on page 8 · levels are mixed; find your number"
+content34.py	OLD	e.bridge("读第 3 版文章，选出正确答案。")
+content34.py	NEW	e.bridge("Read the article on page 3 and choose the right answer.")
+content34.py	OLD	"圣诞老人新闻每天 18:00 播出"
+content34.py	NEW	"The Sinterklaas news is on every day at 18:00"
+content34.py	OLD	"全国入城式在赫拉弗"
+content34.py	NEW	"The national arrival is in Grave"
+content34.py	OLD	"阿姆斯特丹的船 10:15 从 Omval 出发"
+content34.py	NEW	"The Amsterdam boat leaves De Omval at 10:15"
+content34.py	OLD	"《晚餐》作者是赫尔曼·科赫"
+content34.py	NEW	"Het diner was written by Herman Koch"
+content34.py	OLD	"《晚餐》在图书馆免费领取"
+content34.py	NEW	"Het diner is free to pick up at the library"
+content34.py	OLD	e.bridge("用方框里的词填空。")
+content34.py	NEW	e.bridge("Fill in with the words from the box.")
+content34.py	OLD	"journaal = 新闻节目"
+content34.py	NEW	"journaal = news programme"
+content34.py	OLD	"burgemeester = 市长"
+content34.py	NEW	"burgemeester = mayor"
+content34.py	OLD	"stoet = 游行队伍"
+content34.py	NEW	"stoet = procession"
+content34.py	OLD	"flessenpost = 瓶中信"
+content34.py	NEW	"flessenpost = message in a bottle"
+content34.py	OLD	"leeskring = 读书会"
+content34.py	NEW	"leeskring = reading club"
+content34.py	OLD	e.bridge("用现在完成时补全，注意助动词 hebben/zijn。")
+content34.py	NEW	e.bridge("Complete with the present perfect. Watch the auxiliaries hebben/zijn.")
+content34.py	OLD	"beginnen 用 zijn：is begonnen"
+content34.py	NEW	"beginnen takes zijn: is begonnen"
+content34.py	OLD	"vinden 的 perfectum：heeft gevonden"
+content34.py	NEW	"vinden perfectum: heeft gevonden"
+content34.py	OLD	"aankomen 用 zijn：is aangekomen"
+content34.py	NEW	"aankomen takes zijn: is aangekomen"
+content34.py	OLD	"lezen 的 perfectum：hebben gelezen"
+content34.py	NEW	"lezen perfectum: hebben gelezen"
+content34.py	OLD	e.bridge("算一算：用第 3 版的数字回答。")
+content34.py	NEW	e.bridge("Work it out: answer with the numbers from page 3.")
+content34.py	OLD	"11 月 9 日到 14 日相隔 5 天"
+content34.py	NEW	"From 9 to 14 November is 5 days"
+content34.py	OLD	"11 月 9 日到 15 日相隔 6 天"
+content34.py	NEW	"From 9 to 15 November is 6 days"
+content34.py	OLD	"赫拉弗活动 12:00–16:00 共 4 小时"
+content34.py	NEW	"The Grave programme, 12:00–16:00, lasts 4 hours"
+content34.py	OLD	"《晚餐》2009 年出版，到 2026 年 17 年"
+content34.py	NEW	"Het diner is from 2009: 17 years ago in 2026"
+content34.py	OLD	p.band("SPORT · 体育", "De Lucerna", "NIVEAU B1 · Oranje en de Nations League · 橙衣军团与国家联赛")
+content34.py	NEW	p.band("SPORT", "De Lucerna", "NIVEAU B1 · Oranje en de Nations League · Oranje and the Nations League")
+content34.py	OLD	f.gloss("de groepsfase 小组赛阶段 · de kwartfinale 四分之一决赛 · ongeslagen 未尝败绩 · de interland 国家队比赛 · de stand 积分榜。")
+content34.py	NEW	f.gloss("de groepsfase = group stage · de kwartfinale = quarter-final · ongeslagen = unbeaten · de interland = international match · de stand = the table.")
+content34.py	OLD	"OEFENINGEN · 第 4 版练习"
+content34.py	NEW	"OEFENINGEN · EXERCISES ON PAGE 4"
+content34.py	OLD	e.bridge("读第 4 版文章，选出正确答案。")
+content34.py	NEW	e.bridge("Read the article on page 4 and choose the right answer.")
+content34.py	OLD	"荷兰–希腊周五 20:45 在阿姆斯特丹"
+content34.py	NEW	"Netherlands–Greece, Friday 20:45, in Amsterdam"
+content34.py	OLD	"荷兰与希腊同积 8 分"
+content34.py	NEW	"The Netherlands and Greece both have 8 points"
+content34.py	OLD	"荷兰在小组中进球更多（7 对 5）"
+content34.py	NEW	"The Netherlands scored more goals in the group (7 to 5)"
+content34.py	OLD	"德国–荷兰周一在柏林"
+content34.py	NEW	"Germany–Netherlands, Monday, in Berlin"
+content34.py	OLD	"荷甲第 13 轮在 11 月 21–22 日"
+content34.py	NEW	"Eredivisie matchday 13 is on 21–22 November"
+content34.py	OLD	e.bridge("用方框里的词填空。注意动词形式。")
+content34.py	NEW	e.bridge("Fill in with the words from the box. Watch the verb forms.")
+content34.py	OLD	"groepsfase = 小组赛阶段"
+content34.py	NEW	"groepsfase = group stage"
+content34.py	OLD	"kwartfinale 复数：kwartfinales"
+content34.py	NEW	"kwartfinale plural: kwartfinales"
+content34.py	OLD	"ongeslagen = 未尝败绩"
+content34.py	NEW	"ongeslagen = unbeaten"
+content34.py	OLD	"stand = 积分榜"
+content34.py	NEW	"stand = the table"
+content34.py	OLD	"interland = 国家队比赛"
+content34.py	NEW	"interland = international match"
+content34.py	OLD	e.bridge("用过去时或完成时补全。")
+content34.py	NEW	e.bridge("Complete with the past tense or the perfect tense.")
+content34.py	OLD	"spelen 过去时：speelde"
+content34.py	NEW	"spelen past tense: speelde"
+content34.py	OLD	"winnen 过去时：won"
+content34.py	NEW	"winnen past tense: won"
+content34.py	OLD	"maken 过去时：maakte"
+content34.py	NEW	"maken past tense: maakte"
+content34.py	OLD	"komen 的 perfectum 用 zijn"
+content34.py	NEW	"komen perfectum takes zijn"
+content34.py	OLD	"对：荷兰–希腊周五 20:45"
+content34.py	NEW	"True: Netherlands–Greece, Friday 20:45"
+content34.py	OLD	"错：塞尔维亚 0 分垫底"
+content34.py	NEW	"False: Serbia are bottom with 0 points"
+content34.py	OLD	"错：荷甲第 13 轮在 21–22 日"
+content34.py	NEW	"False: Eredivisie matchday 13 is on 21–22 November"
+content34.py	OLD	"对：PSV 7–0 赢威廉二世"
+content34.py	NEW	"True: PSV beat Willem II 7–0"
+content56.py	OLD	p.band("JONGEREN · 青年", "De Lucerna", "NIVEAU B1 · Robinson, de schoen en het verlanglijstje · 荒岛节目、鞋子与愿望单")
+content56.py	NEW	p.band("JONGEREN · YOUNG PEOPLE", "De Lucerna", "NIVEAU B1 · Robinson, de schoen en het verlanglijstje · Robinson, the shoe and the wish list")
+content56.py	OLD	（周日晚 20:00 在 RTL 4 收看）
+content56.py	NEW	 (watch on RTL 4, Sunday 20:00)
+content56.py	OLD	（注意比赛项目：分数在那里决出）
+content56.py	NEW	 (watch the trials: points are won there)
+content56.py	OLD	（和朋友猜谁能留到最后）
+content56.py	NEW	 (guess with friends who stays longest)
+content56.py	OLD	（然后放好鞋子：里面放一张愿望单）
+content56.py	NEW	 (then put out your shoe, wish list inside)
+content56.py	OLD	f.gloss("het verlanglijstje 愿望单 · de verslaggever 记者、报道员 · de proef 比赛项目、考验 · stemmen 投票 · de aflevering （一）集。")
+content56.py	NEW	f.gloss("het verlanglijstje = wish list · de verslaggever = reporter · de proef = trial, challenge · stemmen = to vote · de aflevering = episode.")
+content56.py	OLD	"周日你看《荒岛远征》，还是更爱放鞋子加愿望单？写两句荷兰语寄来。"
+content56.py	NEW	"On Sunday, do you watch Expeditie Robinson, or would you rather put out your shoe with a wish list? Write two sentences in Dutch and send them in."
+content56.py	OLD	"EN JIJ? · 说说你自己"
+content56.py	NEW	"EN JIJ? · AND YOU?"
+content56.py	OLD	"OEFENINGEN · 第 5 版练习"
+content56.py	NEW	"OEFENINGEN · EXERCISES ON PAGE 5"
+content56.py	OLD	"答案见第 8 版 · 题目可跨级混排，按题号找答案"
+content56.py	NEW	"Answers on page 8 · levels are mixed; find your number"
+content56.py	OLD	e.bridge("读第 5 版文章，选出正确答案。")
+content56.py	NEW	e.bridge("Read the article on page 5 and choose the right answer.")
+content56.py	OLD	"Robinson 每周日 20:00 在 RTL 4 播出"
+content56.py	NEW	"Robinson is on every Sunday at 20:00 on RTL 4"
+content56.py	OLD	"19 位参赛者"
+content56.py	NEW	"19 contestants"
+content56.py	OLD	"节目在马来西亚的荒岛上拍摄"
+content56.py	NEW	"The show is filmed on a desert island in Malaysia"
+content56.py	OLD	"参赛者在岛上待 34 天"
+content56.py	NEW	"The contestants spend 34 days on the island"
+content56.py	OLD	"鞋子里放愿望单"
+content56.py	NEW	"A wish list goes in the shoe"
+content56.py	OLD	e.bridge("用方框里的词填空。")
+content56.py	NEW	e.bridge("Fill in with the words from the box.")
+content56.py	OLD	"verlanglijstje = 愿望单（het）"
+content56.py	NEW	"verlanglijstje = wish list (het)"
+content56.py	OLD	"verslaggever = 记者（de）"
+content56.py	NEW	"verslaggever = reporter (de)"
+content56.py	OLD	"proef = 比赛项目、考验（de）"
+content56.py	NEW	"proef = trial, challenge (de)"
+content56.py	OLD	"stemmen = 投票"
+content56.py	NEW	"stemmen = to vote"
+content56.py	OLD	"aflevering = （一）集"
+content56.py	NEW	"aflevering = episode"
+content56.py	OLD	"kandidaat 复数：kandidaten"
+content56.py	NEW	"kandidaat plural: kandidaten"
+content56.py	OLD	e.bridge("用 gaan + 不定式说将来。")
+content56.py	NEW	e.bridge("Use gaan + infinitive to talk about the future.")
+content56.py	OLD	"gaat winnen = 会赢（只是猜测）"
+content56.py	NEW	"gaat winnen = will win (just a guess)"
+content56.py	OLD	"wij → gaan + 不定式 kijken"
+content56.py	NEW	"wij → gaan + infinitive kijken"
+content56.py	OLD	"hij → gaat zetten"
+content56.py	NEW	"hij → gaat zetten"
+content56.py	OLD	"zij (复数) → gaan schrijven"
+content56.py	NEW	"zij (plural) → gaan schrijven"
+content56.py	OLD	"对：节目 11 月 1 日开始"
+content56.py	NEW	"True: the show started on 1 November"
+content56.py	OLD	"错：节目在马来西亚拍摄"
+content56.py	NEW	"False: the show is filmed in Malaysia"
+content56.py	OLD	"错：鞋子里放胡萝卜是给马的"
+content56.py	NEW	"False: the carrot in the shoe is for the horse"
+content56.py	OLD	p.band("VERDIEPING · 深读", "De Lucerna", "NIVEAU B2 · Sint-Maarten of Halloween? · 圣马丁节还是万圣节？")
+content56.py	NEW	p.band("VERDIEPING · IN DEPTH", "De Lucerna", "NIVEAU B2 · Sint-Maarten of Halloween? · St Martin's Day or Halloween?")
+content56.py	OLD	f.gloss("de traditie 传统 · griezelen 扮鬼吓人 · de belangstelling 兴趣 · de achteruitgang 衰退 · de deskundige 专家。")
+content56.py	NEW	f.gloss("de traditie = tradition · griezelen = to scare, to spook · de belangstelling = interest · de achteruitgang = decline · de deskundige = expert.")
+content56.py	OLD	"练习数据：虚构数字，仅供练习，非真实调查。问题：11 月 11 日前后你会做什么？（100 名年轻人）"
+content56.py	NEW	"Practice data: invented numbers for practice only, not a real survey. Question: what do you do around 11 November? (100 young people)"
+content56.py	OLD	"DE GRAFIEK · 图表（练习数据）"
+content56.py	NEW	"DE GRAFIEK · PRACTICE DATA"
+content56.py	OLD	"VOOR OF TEGEN? · 正方还是反方"
+content56.py	NEW	"VOOR OF TEGEN? · FOR OR AGAINST?"
+content56.py	OLD	"OEFENINGEN · 第 6 版练习"
+content56.py	NEW	"OEFENINGEN · EXERCISES ON PAGE 6"
+content56.py	OLD	e.bridge("看第 6 版图表（练习数据）回答。")
+content56.py	NEW	e.bridge("Answer from the chart on page 6 (practice data).")
+content56.py	OLD	"40 名年轻人提灯笼"
+content56.py	NEW	"40 young people walk with a lantern"
+content56.py	OLD	"25 人过万圣节"
+content56.py	NEW	"25 celebrate Halloween"
+content56.py	OLD	"40 + 20 = 60"
+content56.py	NEW	"40 + 20 = 60"
+content56.py	OLD	"15 人待在家里"
+content56.py	NEW	"15 stay at home"
+content56.py	OLD	"图表共 100 人：40+25+20+15"
+content56.py	NEW	"The chart counts 100 people: 40+25+20+15"
+content56.py	OLD	e.bridge("读第 6 版文章，选出正确答案。")
+content56.py	NEW	e.bridge("Read the article on page 6 and choose the right answer.")
+content56.py	OLD	"2025 年 26% 的荷兰人过万圣节"
+content56.py	NEW	"In 2025, 26% of Dutch people celebrated Halloween"
+content56.py	OLD	"两项调查定义不同，不能直接比较"
+content56.py	NEW	"The two surveys use different definitions, so they cannot be compared directly"
+content56.py	OLD	"圣马丁节的关注度增加了（Stengs，2025）"
+content56.py	NEW	"Interest in St Martin's Day increased (Stengs, 2025)"
+content56.py	OLD	"万圣节重扮鬼，圣马丁节重分享"
+content56.py	NEW	"Halloween is about spooking; St Martin's Day is about sharing"
+content56.py	OLD	"传统靠人们继续庆祝而活着"
+content56.py	NEW	"A tradition lives on when people keep celebrating it"
+content56.py	OLD	e.bridge("把词组成正确的句子。")
+content56.py	NEW	e.bridge("Put the words in the right order to make sentences.")
+content56.py	OLD	"traditie = 传统（de）"
+content56.py	NEW	"traditie = tradition (de)"
+content56.py	OLD	"griezelen = 扮鬼吓人"
+content56.py	NEW	"griezelen = to scare, to spook"
+content56.py	OLD	"belangstelling = 关注（de）"
+content56.py	NEW	"belangstelling = interest (de)"
+content56.py	OLD	"achteruitgang = 衰退（de）"
+content56.py	NEW	"achteruitgang = decline (de)"
+content56.py	OLD	"主语 + 动词 + 表语 + 地点"
+content56.py	NEW	"Subject + verb + complement + place"
+content56.py	OLD	"主语 + 动词 + 方式 + 地点"
+content56.py	NEW	"Subject + verb + manner + place"
+content56.py	OLD	"als 从句在句末"
+content56.py	NEW	"The als-clause comes last"
+content56.py	OLD	"kiezen + hoeft niet + 解释"
+content56.py	NEW	"kiezen + hoeft niet + explanation"
+content7.py	OLD	p.band("TAAL · 语言", "De Lucerna", "聚焦语言 · Drie niveaus, drie gereedschappen · 三个级别，三件工具")
+content7.py	NEW	p.band("TAAL · LANGUAGE", "De Lucerna", "Language focus · Drie niveaus, drie gereedschappen · Three levels, three tools")
+content7.py	OLD	a.bridge("de stoomboot 蒸汽船；de intocht 入城式；de schoen zetten 放鞋子；de lampion 灯笼。")
+content7.py	NEW	a.bridge("de stoomboot = steamboat; de intocht = the festive arrival; de schoen zetten = to put out your shoe; de lampion = lantern.")
+content7.py	OLD	"de stoomboot = 蒸汽船"
+content7.py	NEW	"de stoomboot = steamboat"
+content7.py	OLD	"入城式是圣诞老人的隆重 arrival"
+content7.py	NEW	"The intocht is Sinterklaas's festive arrival"
+content7.py	OLD	"lampion = 灯笼"
+content7.py	NEW	"lampion = lantern"
+content7.py	OLD	b.bridge("schoentje 小鞋；lichtje 小灯；cadeautje 小礼物。-je 表“小”、表亲昵。")
+content7.py	NEW	b.bridge("schoentje = little shoe; lichtje = little light; cadeautje = little present. -je means small and affectionate.")
+content7.py	OLD	"schoen + -tje：schoentje"
+content7.py	NEW	"schoen + -tje: schoentje"
+content7.py	OLD	"licht + -je：lichtje"
+content7.py	NEW	"licht + -je: lichtje"
+content7.py	OLD	"cadeau + -tje：cadeautje"
+content7.py	NEW	"cadeau + -tje: cadeautje"
+content7.py	OLD	"-je 表小、亲昵，不一定真的很小"
+content7.py	NEW	"-je means small and affectionate, not always really small"
+content7.py	OLD	c.bridge("Als… 如果……；als het donker wordt 天黑时；als Sinterklaas komt 圣诞老人来时。")
+content7.py	NEW	c.bridge("Als… = If… / When…; als het donker wordt = when it gets dark; als Sinterklaas komt = when Sinterklaas comes.")
+content7.py	OLD	"Als… = 如果……"
+content7.py	NEW	"Als… = If… / When…"
+content7.py	OLD	"als 从句是条件，不是疑问"
+content7.py	NEW	"An als-clause is a condition, not a question"
+content7.py	OLD	"动词在主句首位：gaat de lampion aan"
+content7.py	NEW	"The verb comes first in the main clause: gaat de lampion aan"
+content7.py	OLD	"Als Oranje wint… 如果橙衣军团赢了"
+content7.py	NEW	"Als Oranje wint… = If Oranje win…"
+content7.py	OLD	"PAS OP! · 易错诊所"
+content7.py	NEW	"PAS OP! · ERROR CLINIC"
+content7.py	OLD	"Sinterklaas 是专名，不加冠词。"
+content7.py	NEW	"Sinterklaas is a name, so it takes no article."
+content7.py	OLD	"放鞋子要说 mijn schoen（我的鞋）。"
+content7.py	NEW	"mijn schoen = my shoe."
+content7.py	OLD	"固定说法是 langs de deuren（复数）。"
+content7.py	NEW	"Fixed phrase: langs de deuren."
+content7.py	OLD	"als 从句后，主句动词在首位：ben ik blij。"
+content7.py	NEW	"Verb first after the als-clause: ben ik blij."
+content7.py	OLD	"HET WOORD · 本周生词"
+content7.py	NEW	"HET WOORD · WORD OF THE WEEK"
+content7.py	OLD	"schoen zetten = 放鞋子：把鞋放在门口，里面放胡萝卜和图画，等圣诞老人来。"
+content7.py	NEW	"schoen zetten = to put out your shoe, with a carrot and a drawing inside."
+content7.py	OLD	dt_zh = "截稿时未收到真实来信或第 8 版最佳作文，刊登示例信，承诺顺延 VOL.4。"
+content7.py	NEW	dt_en = "No real letters or best page-8 texts at press time — example; promise to VOL.4."
+content7.py	OLD	len(wrap(dt_zh, "sans", False, 20, CW - 44))
+content7.py	NEW	len(wrap(dt_en, "sans", False, 20, CW - 44))
+content7.py	OLD	p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+content7.py	NEW	p.para(bx + 22, yy3 + 20, dt_en, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+content7.py	OLD	"编辑部示例信，非真实来信。欢迎寄来你的来信和作文，VOL.4 刊登！"
+content7.py	NEW	"Editors' example — send yours for VOL.4!"
+content7.py	OLD	"ZINNEN VAN DE WEEK · 本周金句（逐字摘自本期文章）"
+content7.py	NEW	"ZINNEN VAN DE WEEK · PHRASES OF THE WEEK (VERBATIM FROM THIS ISSUE)"
+content7.py	OLD	"11 月 9 日周一，圣诞老人新闻在电视上开播。"
+content7.py	NEW	"On Monday 9 November, the Sinterklaas news starts on television."
+content7.py	OLD	"一天后，11 月 15 日周日，阿姆斯特丹举行入城式：第 88 届。"
+content7.py	NEW	"One day later, Sunday 15 November: the Amsterdam arrival, 88th edition."
+content7.py	OLD	"圣马丁节是分享的节日：分享光明、食物与关怀。"
+content7.py	NEW	"St Martin's Day is the festival of sharing: sharing light, food and attention."
+content7.py	OLD	"11 月 14 日周六，圣诞老人正式抵达赫拉弗。"
+content7.py	NEW	"On Saturday 14 November, Sinterklaas officially arrives in Grave."
+content7.py	OLD	"11 月 13 日周五，橙衣军团主场对阵希腊。"
+content7.py	NEW	"On Friday 13 November, Oranje play Greece at home."
+content7.py	OLD	"每周日 20 点，《荒岛远征》在 RTL 4 播出。"
+content7.py	NEW	"Every Sunday at 20:00, Expeditie Robinson is on RTL 4."
+content7.py	OLD	"圣马丁节是荷兰古老的传统。"
+content7.py	NEW	"St Martin's Day is an old tradition in the Netherlands."
+content7.py	OLD	"传统因人们不断庆祝而活着。"
+content7.py	NEW	"A tradition lives on when people keep celebrating it."
+content7.py	OLD	"VOLGENDE WEEK · 下期预告 (VOL.4)"
+content7.py	NEW	"VOLGENDE WEEK · NEXT WEEK (VOL.4)"
+content8.py	OLD	p.band("TOETS EN ANTWOORDEN · 练习与答案", "De Lucerna", "第 8 版 · De grote toets van de week + alle antwoorden")
+content8.py	NEW	p.band("TOETS EN ANTWOORDEN · TEST AND ANSWERS", "De Lucerna", "Page 8 · De grote toets van de week + alle antwoorden")
+content8.py	OLD	"圣诞老人新闻每天 18:00 播出。"
+content8.py	NEW	"The Sinterklaas news is on every day at 18:00."
+content8.py	OLD	"全国入城式在赫拉弗"
+content8.py	NEW	"The national arrival is in Grave"
+content8.py	OLD	"圣诞老人新闻 11 月 9 日开播"
+content8.py	NEW	"The Sinterklaas news starts on 9 November"
+content8.py	OLD	"阿姆斯特丹入城式是第 88 届"
+content8.py	NEW	"The Amsterdam arrival is the 88th edition"
+content8.py	OLD	"荷兰–希腊 20:45 开球"
+content8.py	NEW	"Netherlands–Greece kicks off at 20:45"
+content8.py	OLD	"圣马丁节在 11 月 11 日"
+content8.py	NEW	"St Martin's Day is on 11 November"
+content8.py	OLD	"Robinson 在 RTL 4 播出"
+content8.py	NEW	"Robinson is on RTL 4"
+content8.py	OLD	"圣马丁节是分享的节日。"
+content8.py	NEW	"St Martin's Day is the festival of sharing."
+content8.py	OLD	"荷兰与希腊同积 8 分"
+content8.py	NEW	"The Netherlands and Greece both have 8 points"
+content8.py	OLD	"德国–荷兰周一在柏林"
+content8.py	NEW	"Germany–Netherlands, Monday, in Berlin"
+content8.py	OLD	"圣马丁节是分享的节日"
+content8.py	NEW	"St Martin's Day is the festival of sharing"
+content8.py	OLD	"传统靠人们继续庆祝而活着"
+content8.py	NEW	"A tradition lives on when people keep celebrating it"
+content8.py	OLD	"主语 + 动词 + 时间"
+content8.py	NEW	"Subject + verb + time"
+content8.py	OLD	"主语 + 动词 + 宾语 + 地点"
+content8.py	NEW	"Subject + verb + object + place"
+content8.py	OLD	"主语 + 动词 + 时间 + 对手"
+content8.py	NEW	"Subject + verb + time + opponent"
+content8.py	OLD	"主语 + 动词 + 方式 + 地点"
+content8.py	NEW	"Subject + verb + manner + place"
+content8.py	OLD	"注意序数词 88e"
+content8.py	NEW	"Watch the ordinal 88e"
+content8.py	OLD	"schoen zetten 是固定搭配"
+content8.py	NEW	"schoen zetten is a fixed expression"
+content8.py	OLD	["journaal=新闻节目 b", "intocht=入城式 d", "lampion=灯笼 a", "delen=分享 c"]
+content8.py	NEW	["journaal = news programme b", "intocht = the festive arrival d", "lampion = lantern a", "delen = to share c"]
+content8.py	OLD	"schoen = 鞋"
+content8.py	NEW	"schoen = shoe"
+content8.py	OLD	"wortel = 胡萝卜（给马）"
+content8.py	NEW	"wortel = carrot (for the horse)"
+content8.py	OLD	"verlanglijstje = 愿望单"
+content8.py	NEW	"verlanglijstje = wish list"
+content8.py	OLD	"cadeautje = 小礼物"
+content8.py	NEW	"cadeautje = little present"
+content8.py	OLD	"18:00 = 圣诞老人新闻时间"
+content8.py	NEW	"18:00 = the Sinterklaas news time"
+content8.py	OLD	"Sanne 住在乌得勒支"
+content8.py	NEW	"Sanne lives in Utrecht"
+content8.py	OLD	"她周三参加圣马丁游行"
+content8.py	NEW	"On Wednesday she joins the St Martin's parade"
+content8.py	OLD	"她在鞋里放胡萝卜和愿望单"
+content8.py	NEW	"She puts a carrot and a wish list in her shoe"
+content8.py	OLD	"她每天 18:00 看圣诞老人新闻"
+content8.py	NEW	"She watches the Sinterklaas news every day at 18:00"
+content8.py	OLD	"《晚餐》2009 年出版"
+content8.py	NEW	"Het diner was published in 2009"
+content8.py	OLD	"圣诞老人在海事博物馆接受城市钥匙"
+content8.py	NEW	"Sinterklaas receives the key to the city at the Maritime Museum"
+content8.py	OLD	"收礼夜在 12 月 5 日周六"
+content8.py	NEW	"Pakjesavond is on Saturday 5 December"
+content8.py	OLD	"赫拉弗在马斯河畔"
+content8.py	NEW	"Grave lies on the river Maas"
+content8.py	OLD	"对照第 3 版文章"
+content8.py	NEW	"Compare with the page 3 article"
+content8.py	OLD	"第 2 版原句 · delen 分享"
+content8.py	NEW	"Original sentence from page 2 · delen = to share"
+content8.py	OLD	"Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___", instr="Translate"
+content8.py	NEW	"Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___", instr="Translate into English"
+content8.py	OLD	"Sint-Maarten is het feest van het delen. → ___", instr="Translate"
+content8.py	NEW	"Sint-Maarten is het feest van het delen. → ___", instr="Translate into English"
+content8.py	OLD	"阿姆斯特丹的入城式是第 88 届。→ ___", instr="Translate"
+content8.py	NEW	"The arrival in Amsterdam is the 88th edition. → ___", instr="Translate into Dutch"
+content8.py	OLD	"我放好鞋子，里面放一张愿望单。→ ___", instr="Translate"
+content8.py	NEW	"I put out my shoe, with a wish list inside. → ___", instr="Translate into Dutch"
+content8.py	OLD	"（开放题，范文如下）"
+content8.py	NEW	"(open task, model text below)"
+content8.py	OLD	writing题（无唯一答案）；范文（{NWORDS} 词）见下。
+content8.py	NEW	Writing task (no single answer); model text ({NWORDS} words) below.
+content8.py	OLD	范文见本版 H 区（{NWORDS} 词）
+content8.py	NEW	See the model text in section H ({NWORDS} words)
+content8.py	OLD	"ANTWOORDEN · 参考答案 — 按版面分页排列，找到题号即可"
+content8.py	NEW	"ANTWOORDEN · ANSWER KEY — grouped by page: find your number"
+content8.py	OLD	"每题附一句中文简析 · 带 ✓ 的为范文题"
+content8.py	NEW	"Every answer has a short note in English · ✓ marks the writing task"
+content8.py	OLD	"schoen zetten = 放鞋子"
+content8.py	NEW	"schoen zetten = to put out your shoe"
+content12.py	OLD	"荷兰–希腊周五 20:45 开球"
+content12.py	NEW	"Netherlands–Greece kicks off at 20:45 on Friday"
+content7.py	OLD	"schoen zetten = 放鞋子"
+content7.py	NEW	"schoen zetten = to put out your shoe"
+content8.py	OLD	"圣诞老人新闻每天 18:00 播出"
+content8.py	NEW	"The Sinterklaas news is on every day at 18:00"
+content8.py	OLD	instr="把词和释义配对"
+content8.py	NEW	instr="Match word to meaning"
+TOTAL 265

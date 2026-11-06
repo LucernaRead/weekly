@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+files/weekly-report-w46-it-en/svg: 3 flags {'BOXTITLE': 1, 'LINEX': 1, 'TEXTX': 1}
+  [LINEX] p1-prima.svg 'the first cold.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [TEXTX] p2-vita.svg 'LA FRASE PER RICORDARE · Saying to remember' — ink overlaps 'LO SAPEVI?' by 90.0x19.0px
+  [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · Saying to remember' — ink crosses its box borders: right ink 1563.0 > border 1423.0

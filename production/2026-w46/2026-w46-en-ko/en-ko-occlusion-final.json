@@ -1,0 +1,32 @@
+{
+ "svgdir": "../files/weekly-report-w46-en-ko/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": ".",
+   "box": [
+    1451.0,
+    1843.2,
+    1456.2,
+    1845.9
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@151"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "이번 주 영어권 인기 검색어 · Google Trends 스냅샷",
+   "box": [
+    1473.0,
+    670.0,
+    1898.2,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1898.2 > border 1885.0",
+   "by": "rect@105"
+  }
+ ],
+ "flag_count": 2
+}

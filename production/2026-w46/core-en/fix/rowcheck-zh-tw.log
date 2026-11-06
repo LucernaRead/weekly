@@ -1,0 +1,19 @@
+== 1. same-baseline collisions ==
+  p1-front.svg: CLEAN
+  p2-life.svg: CLEAN
+  p3-culture.svg: CLEAN
+  p4-sport.svg: CLEAN
+  p5-jeunesse.svg: CLEAN
+  p6-politique.svg: CLEAN
+  p7-langue.svg: CLEAN
+  p8-exercices.svg: CLEAN
+== 2. P6 chart-label coverage ==
+  worst chart-label bbox coverage: 0.0% ('—')
+  verdict: below 30% threshold
+== 3. gloss counts (gloss strings carry the edition prefix; counts compared)
+== 3. gloss counts (split rendered gloss strings on ·) ==
+  content12.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
