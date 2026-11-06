@@ -1,0 +1,47 @@
+=== DE stem elements ===
+p1-portada.svg 10 [1, 2, 3, 4, 5] ... [6, 7, 8, 9, 10]
+p2-vida.svg 14 [11, 12, 13, 14, 15] ... [20, 21, 22, 23, 24]
+p3-cultura.svg 18 [29, 30, 31, 32, 33] ... [42, 43, 44, 45, 46]
+p4-deporte.svg 14 [47, 48, 49, 50, 51] ... [60, 61, 62, 63, 64]
+p5-juventud.svg 18 [65, 66, 67, 68, 69] ... [78, 79, 80, 81, 82]
+p6-afondo.svg 18 [83, 84, 85, 86, 87] ... [96, 97, 98, 99, 100]
+p7-lengua.svg 12 [101, 102, 103, 104, 105] ... [108, 109, 110, 111, 112]
+p8-ejercicios.svg 34 [113, 114, 115, 116, 117] ... [146, 147, 148, 149, 150]
+standalone total: 138
+=== CORE stem elements ===
+p1-portada.svg 10 [1, 2, 3, 4, 5] ... [6, 7, 8, 9, 10]
+p2-vida.svg 14 [11, 12, 13, 14, 15] ... [20, 21, 22, 23, 24]
+p3-cultura.svg 18 [29, 30, 31, 32, 33] ... [42, 43, 44, 45, 46]
+p4-deporte.svg 14 [47, 48, 49, 50, 51] ... [60, 61, 62, 63, 64]
+p5-juventud.svg 18 [65, 66, 67, 68, 69] ... [78, 79, 80, 81, 82]
+p6-afondo.svg 18 [83, 84, 85, 86, 87] ... [96, 97, 98, 99, 100]
+p7-lengua.svg 12 [101, 102, 103, 104, 105] ... [108, 109, 110, 111, 112]
+p8-ejercicios.svg 34 [113, 114, 115, 116, 117] ... [146, 147, 148, 149, 150]
+standalone total: 138
+
+=== DE level pairing (stem baseline -> chip) ===
+{} unpaired stems: [('p1-portada.svg', 1724.5, '1.', [('599', '1.')]), ('p1-portada.svg', 795.8, '2.', [('1061', '2.')]), ('p1-portada.svg', 918.8, '3.', [('1061', '3.')]), ('p1-portada.svg', 1041.7, '4.', [('1061', '4.')]), ('p1-portada.svg', 1164.6, '5.', [('1061', '5.')]), ('p1-portada.svg', 1287.6, '6.', [('1061', '6.')]), ('p1-portada.svg', 2389.0, '7.', [('137', '7.'), ('599', '8.'), ('1061', '9.'), ('1523', '10.')]), ('p1-portada.svg', 2389.0, '8.', [('137', '7.'), ('599', '8.'), ('1061', '9.'), ('1523', '10.')]), ('p1-portada.svg', 2389.0, '9.', [('137', '7.'), ('599', '8.'), ('1061', '9.'), ('1523', '10.')]), ('p1-portada.svg', 2389.0, '10.', [('137', '7.'), ('599', '8.'), ('1061', '9.'), ('1523', '10.')]), ('p2-vida.svg', 2066.9, '11.', [('137', '11.'), ('207', 'Ausfüllen'), ('1061', '21.')]), ('p2-vida.svg', 2066.9, '21.', [('137', '11.'), ('207', 'Ausfüllen'), ('1061', '21.')]), ('p2-vida.svg', 2184.9, '12.', [('137', '12.'), ('207', 'Ausfüllen'), ('1061', '22.')]), ('p2-vida.svg', 2184.9, '22.', [('137', '12.'), ('207', 'Ausfüllen'), ('1061', '22.')]), ('p2-vida.svg', 2302.9, '13.', [('137', '13.'), ('207', 'Ausfüllen')]), ('p2-vida.svg', 2331.9, '23.', [('65', 'Las elecciones generales son el ___ de'), ('1061', '23.')]), ('p2-vida.svg', 2420.9, '14.', [('137', '14.'), ('207', 'Ausfüllen')]), ('p2-vida.svg', 2478.9, '24.', [('65', 'noviembre.'), ('1061', '24.')]), ('p2-vida.svg', 1927.0, '15.', [('599', '15.'), ('669', 'Ausfüllen')]), ('p2-vida.svg', 2126.2, '16.', [('599', '16.'), ('669', 'Ausfüllen')])] count unpaired: 138
+
+=== P7 quotes ===
+Q1 in P7: True pages containing: 2 | El miércoles 11 hay huelga general y el viernes 13, a las 00
+Q2 in P7: True pages containing: 2 | El miércoles 11 de noviembre hay huelga general en toda Espa
+Q3 in P7: True pages containing: 2 | Cuenta la leyenda que Martín, soldado romano, partió su capa
+Q4 in P7: True pages containing: 2 | España, vigente campeona del mundo y de Europa, juega en el 
+Q5 in P7: True pages containing: 2 | No hace falta ir al colegio electoral para votar: el voto po
+Q6 in P7: True pages containing: 2 | La vivienda preocupa al 86,9 % de los españoles.
+Q7 in P7: True pages containing: 2 | Una encuesta es una foto con margen de error, tomada en un d
+Q8 in P7: True pages containing: 2 | El domingo 15, la selección cierra la fase de grupos de la L
+
+=== P7 translation lines (Página tags) ===
+y=2061.245 fs=19.5 :: Wahlkampf. (Página 1)
+y=2189.245 fs=19.5 :: Ausstand, von den Gewerkschaften ausgerufen. (Página 2)
+y=2317.245 fs=19.5 :: Teile, um einen Bettler zu bedecken, der vor Kälte starb. (Página 3)
+y=2445.245 fs=19.5 :: Tschechien. (Página 4)
+y=2005.25 fs=19.5 :: Zum Wählen muss man nicht ins Wahllokal gehen: Die Briefwahl kommt nach Hause. (Página 5)
+y=2133.25 fs=19.5 :: 86,9 % der Spanier sorgen sich um die Wohnung. (Página 6)
+y=2261.25 fs=19.5 :: Eine Umfrage ist ein Foto mit Fehlermarge, an einem bestimmten Tag aufgenommen. (Página 6)
+y=2445.245 fs=19.5 :: England im Metropolitano um 20:45 Uhr ab. (Página 1)
+
+=== P7 Q6 pair ===
+x=989 y=2083.58 fs=21.5 :: «La vivienda preocupa al 86,9 % de los españoles.»
+x=989 y=2133.25 fs=19.5 :: 86,9 % der Spanier sorgen sich um die Wohnung. (Página 6)

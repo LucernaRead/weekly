@@ -1,0 +1,86 @@
+=== CORE 2026-w46-pt-core (zh-cn) 2026-11-02 ===
+gates_core.py: 16/16 PASS (run5)
+occlusion_audit.py: 0 flags (run5, selftest OK)
+p8.py extract: 150/150
+freeze.py baseline: 8/8 byte-identical
+webpdf: A-Lucerna-VOL3-web.pdf 1362424 bytes, pdftotext 42910 bytes
+print PDF: A-Lucerna-VOL3.pdf 14770144 bytes
+=== 2026-w46-pt-en 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-web.pdf 893279 bytes, pdftotext 44326 bytes
+print PDF: A-Lucerna-VOL3.pdf 3489960 bytes
+=== 2026-w46-pt-fr 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-FR-web.pdf 888283 bytes, pdftotext 45441 bytes
+print PDF: A-Lucerna-VOL3-FR.pdf 3489219 bytes
+=== 2026-w46-pt-de 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-DE-web.pdf 901973 bytes, pdftotext 45323 bytes
+print PDF: A-Lucerna-VOL3-DE.pdf 3532552 bytes
+=== 2026-w46-pt-es 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: Lucerna-VOL3-ES-web.pdf 889139 bytes, pdftotext 45228 bytes
+print PDF: Lucerna-VOL3-ES.pdf 3489441 bytes
+=== 2026-w46-pt-it 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-IT-web.pdf 884629 bytes, pdftotext 44952 bytes
+print PDF: A-Lucerna-VOL3-IT.pdf 3465431 bytes
+=== 2026-w46-pt-nl 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-web.pdf 897875 bytes, pdftotext 45005 bytes
+print PDF: A-Lucerna-VOL3.pdf 3527944 bytes
+=== 2026-w46-pt-ru 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only, added CJK 0
+webpdf: A-Lucerna-VOL3-web.pdf 924653 bytes, pdftotext 53270 bytes
+print PDF: A-Lucerna-VOL3.pdf 3291569 bytes
+=== 2026-w46-pt-ja 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only (320 removed/335 added strings, 0 PT-body changes; CJK added legitimate Japanese)
+kinsoku line-start check: 0 violations
+webpdf: A-Lucerna-VOL3-JA-web.pdf 1497357 bytes, pdftotext 45872 bytes
+print PDF: A-Lucerna-VOL3-JA.pdf 15687617 bytes
+=== 2026-w46-pt-ko 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: explanation-only (0 PT-body changes; CJK added legitimate Hangul)
+KO orphan scan (10-45, incl. parenthesised + line-start): 0 defects under >=3-syllable-tail criterion
+webpdf: Lucerna-VOL3-KO-web.pdf 1173009 bytes, pdftotext 45676 bytes
+print PDF: Lucerna-VOL3-KO.pdf 7072555 bytes
+=== 2026-w46-pt-zh-tw 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff 137,138 translation re-aim)
+freeze.py diff vs core: pure conversion 276/276, 0 PT-body changes
+webpdf: A-Lucerna-VOL3-web.pdf 1614344 bytes, pdftotext 43019 bytes
+print PDF: A-Lucerna-VOL3.pdf 14818306 bytes
+=== 2026-w46-pt-zh-cn 2026-11-02 ===
+gates.py: 17/17 PASS
+occlusion_audit.py: 0 flags
+p8.py compare vs core: CLEAN 150/150 (keydiff none - furniture-only)
+freeze.py diff vs core: +1/-1 strings (badge+footer only)
+webpdf: A-Lucerna-VOL3-web.pdf 1367192 bytes, pdftotext 43025 bytes
+print PDF: A-Lucerna-VOL3.pdf 14775653 bytes

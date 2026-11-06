@@ -1,0 +1,17 @@
+[PASS] P1 VOL.3 + week dates :: top strip
+[PASS] P1 subtitle topics :: subtitle line
+[PASS] P1 pairing badge :: badge line 372
+[PASS] footer+page line 8/8 :: VOL.3 footer + page line on all pages
+[PASS] no VOL.2 edition label residue :: disclosure may cite VOL.2 as the promising issue
+[PASS] no invented second-leg results :: P4 press-time note present
+[PASS] P1 masthead lines fit 1820 :: {330: 1797.5, 372: 476.8}
+[PASS] same-baseline ink collisions = 0 :: 0 collisions
+[PASS] page-frame ink crossings = 0 :: 0 crossings | min margins L/R/T/B = [23.0, 1.0, 30.0, 32.0]
+[PASS] P6 chart-label coverage <30% :: [('portões abertos', 0.0), ('60 min', 0.0), ('espera', 0.0), ('30 min', 0.0), ('prova', 0.0), ('300 min', 0.0)]
+[PASS] gloss items enumerated :: {2: 6, 3: 6, 4: 6, 5: 6, 6: 4} total 28
+[PASS] gloss headwords survive in render :: 0 missing
+[PASS] P7 quotes 2x + page tag + reader lang on P7 :: 8 quotes; [('Dois domingos, um feriado: o B', 2, True, True), ('A prova e o feriado chegam no ', 2, True, True), ('o feriado não muda o relógio', 2, True, True), ('A monarquia acabou', 2, True, True), ('quem vai à final da Copa do Br', 2, True, True), ('quem dorme bem lembra melhor', 2, True, True), ('primeiro as fáceis, depois as ', 2, True, True), ('Confira o cartão, durma bem, c', 2, True, True)]
+[PASS] readers corner disclosure :: {'PT example verbatim': True, 'PT disclosure verbatim': True, 'KO disclosure verbatim': True, 'reader example label': True, 'VOL.4 carry': True}
+[PASS] P1 image embedded + credit :: estudo.jpg reused, CC0
+[PASS] P7 quotes clear of preview box :: max quote-region baseline 2311.17
+FAILURES: none

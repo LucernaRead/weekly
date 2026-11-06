@@ -1,0 +1,80 @@
+=== W46 ES CORE (2026-w46-es-core, VOL.3) ===
+build: run.py 2026-11-02, 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; 150 ex (A2 50 B1 72 B2 28; 10/18/18/18/18/18/12/38); 36063 chars
+p8 extract: 150/150
+occlusion_audit: 0 flags (es-core-occlusion2.json, selftest passed); same-baseline scan 7 reports, all P1 contents 4.0px gaps, no overlap (as W45 core)
+chart graze: numeric check clean (labels clear bars >=91.8px, values inside box)
+render: print PDF 19275447 B; web PDF 1102230 B (<7MB); pdftotext web 44826 B == print 44826 B (identical)
+cards: 8 x 1950x2700; visual check P1+P6 clean
+model text: 84 words (recounted from final MODELO string 2026-11-02)
+W45 core SVGs re-hashed unchanged (a1b30102/10e78c2e/5986ba9e/1894836e/cd15c68b/fcfccf82/b1774024/d1c46fa4 prefixes)
+=== W46 ES x EN (2026-w46-es-en, VOL.3) ===
+build: 150 ex (A2 50 B1 72 B2 28; 10/18/18/18/18/18/12/38); 0 FLOW OVERFLOW / 0 HEAD TOO WIDE
+freeze diff: added CJK 0 all pages; edition CJK 0
+p8 compare: CLEAN 150/150 keydiff=[137,138] (re-aimed translation items, adjudicated)
+occlusion: 0 flags (es-en-occlusion3.json); rowcheck 7 = core pattern; chart graze 0
+P7 col3 ends 1789.58 = core; visual P1+P7 clean
+print PDF 4602059 B; web PDF 520994 B (<7MB); pdftotext identical 46063 B
+=== W46 ES CORE, post-fix rebuilds (2026-11-02) ===
+P2-text fix ("罢工前两天" -> "罢工后两天"): re-gated, occlusion 0 flags (es-core-occlusion3.json), web PDF 1102232 B, pdftotext 44826 B == print.
+Letters-box fix (content7.py lh pad +20 -> +42): box bottom 1834, last disclosure baseline 1824, preview bottom 2572; occlusion 0 flags (es-core-occlusion4.json); print PDF 19275454 B; web PDF 1102236 B; pdftotext 44826 B == print. .text.md regenerated 44909 B. Core KIT §6.8 records the fix.
+=== W46 ES x EN, post-fix rebuild (2026-11-02) ===
+Rebuilt from fixed core build; gates re-run clean (freeze added CJK 0, p8 CLEAN keydiff=[137,138], occlusion 0 flags); geometry verified by SVG coords (letters box bottom 1834 / disclosure 1824 / preview 2572, identical to fixed core). Print PDF 4602057 B; web PDF 520992 B. EN KIT rebuild note appended. (Pre-fix pdftotext figure 46063 B in the record above is superseded; text unchanged by the rebuild.)
+=== W46 ES x DE (2026-w46-es-de, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after P6 18.5pt/gap2 + P8 13.2pt/1.12 + P7 trims)
+freeze diff: added CJK 0 all pages; edition CJK 0
+p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-de-occlusion2.json); rowcheck 7 = core pattern; chart graze 0
+letters box bottom 1834 / disclosure last line 1824 (fixed-core rebuild)
+print PDF 4641027 B; web PDF 527654 B (<7MB); pdftotext 47074 B == print
+=== W46 ES x FR (2026-w46-es-fr, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after P6/P8 size reductions + CIFRAS tsize=20 + P7 trims)
+freeze diff: added CJK 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-fr-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+print PDF 4577684 B; web PDF 516363 B (<7MB); pdftotext 47517 B == print; visual P1/P6/P7 clean
+=== W46 ES x IT (2026-w46-es-it, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (first full build; P6/P8 sizes pre-applied)
+freeze diff: added CJK 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-it-occlusion.json); rowcheck 7 = core pattern; chart graze 0
+web PDF 0.51 MB (<7MB); pdftotext 46852 B == print; visual P1/P7 clean
+=== W46 ES x PT (2026-w46-es-pt, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after P8 13.2pt/1.12 + plan-title shortening + top-strip shortening)
+freeze diff: added CJK 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-pt-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+top strip measured: 2-segment form ends x=1261.2, date starts 1408.9 (F1b fix, P1 visually clean)
+print PDF 4638608 B; web PDF 520642 B (<7MB); pdftotext 46836 B == print
+=== W46 ES x NL (2026-w46-es-nl, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after CIFRAS/LA PALABRA title fixes + disclosure trim + top-strip shortening)
+freeze diff: added CJK 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-nl-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+top strip measured: ends x=1319.7, date starts 1408.9 (P1 visually clean)
+print PDF 4582330 B; web PDF 521375 B (<7MB); pdftotext 46760 B == print
+=== W46 ES x RU (2026-w46-es-ru, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after word/palabra/disclosure trims + name-line 40pt + top-strip shortening)
+freeze diff: added CJK 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-ru-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+header verified by pixel measurement: strip ends x=1291, date starts x=1406; name-line ink x=157-1792
+print PDF 4602049 B; web PDF 557986 B (<7MB); pdftotext 54733 B == print
+=== W46 ES x JA (2026-w46-es-ja, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE (after P6 18.5pt/gap2)
+freeze diff: added CJK all Japanese (kana/kanji), no Simplified-only chars; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-ja-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+print PDF 17666248 B (JP font embedding); web PDF 1215153 B (<7MB); pdftotext 48185 B == print; visual P1/P7 clean (JP face + kinsoku)
+=== W46 ES x KO (2026-w46-es-ko, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE
+freeze diff: added CJK all Hangul, Hanzi 0; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-ko-occlusion.json final run); rowcheck 7 = core pattern; chart graze 0
+orphan scan (es_ko_orphan.py, dual groupings agree): 0 reports after 12 rewordings + 1 restructure
+print PDF 9348939 B; web PDF 853808 B (<7MB); pdftotext 48417 B == print; visual P1/P7 clean
+=== W46 ES x ZH-TW (2026-w46-es-zh-tw, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE
+freeze diff: removed CJK = Simplified-only, added CJK = Traditional-only, 0 Simplified-only chars in added set; p8 compare: CLEAN 150/150 keydiff=[137,138]
+occlusion: 0 flags (es-zh-tw-occlusion.json); rowcheck 7 = core pattern; chart graze 0
+print PDF 17654406 B (TC font embedding); web PDF 1378198 B (<7MB); pdftotext 44914 B == print; visual P1/P7 clean (TC face, no missing glyphs)
+=== W46 ES x ZH-CN (2026-w46-es-zh-cn, VOL.3) ===
+build: 150 ex; 0 FLOW OVERFLOW / 0 HEAD TOO WIDE
+freeze diff: delta is exactly badge + footer + 8 separators; added CJK 0
+p8 compare: CLEAN 150/150 keydiff=[] (byte-identical answers)
+occlusion: 0 flags (es-zh-cn-occlusion.json); rowcheck 7 = core pattern; chart graze 0
+print PDF 17612019 B (SC font embedding); web PDF 1083484 B (<7MB); pdftotext 44933 B == print; visual P1 clean
+=== ALL 12 EDITIONS GATED (core + 11 fan-outs), 2026-11-02 ===
+Independent proofread (SOP §8.4) still outstanding for all editions — NOT finalised.

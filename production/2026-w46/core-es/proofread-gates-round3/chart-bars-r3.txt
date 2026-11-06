@@ -1,0 +1,4 @@
+P6 chart bars measured from DE svg/p6-afondo.svg rects (x=495 chart 1, x=1419 chart 2), scale 3.2 px per point:
+chart1: 305.28 (=95.4x3.2), 292.48 (=91.4x3.2), 244.16 (=76.3x3.2), 241.92 (=75.6x3.2), 225.92 (=70.6x3.2)
+chart2: 278.08 (=86.9x3.2), 252.8 (=79.0x3.2), 43.2 (=13.5x3.2)
+All exact. svg/p6-afondo.svg byte-identical to pre-fix render (hash isolation), so Round 2 bar verification stands unchanged.

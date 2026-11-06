@@ -1,0 +1,565 @@
+core items: 150 de items: 150
+missing in DE: [] extra in DE: []
+--- 1 ---
+  CORE: 13 — 竞选 11 月 13 日周五开始
+  DE:   13 — Der Wahlkampf beginnt am Freitag, 13. November
+--- 2 ---
+  CORE: 11 — 大罢工在 11 月 11 日周三
+  DE:   11 — Der Generalstreik ist am Mittwoch, 11. November
+--- 3 ---
+  CORE: 29 — 大选在 11 月 29 日周日
+  DE:   29 — Die Wahl ist am Sonntag, 29. November
+--- 4 ---
+  CORE: 19 — 邮寄投票须在 19 日前申请
+  DE:   19 — Die Briefwahl muss vor dem 19. beantragt werden
+--- 5 ---
+  CORE: 20:45 — 西班牙–英格兰周日 20:45 开球
+  DE:   20:45 — Spanien–England beginnt am Sonntag um 20:45 Uhr
+--- 6 ---
+  CORE: 15 — 竞选持续 15 天
+  DE:   15 — Der Wahlkampf dauert 15 Tage
+--- 7 ---
+  CORE: C — 大选在 11 月 29 日
+  DE:   C — Die Wahl ist am 29. November
+--- 8 ---
+  CORE: B — 大罢工持续 24 小时
+  DE:   B — Der Streik dauert 24 Stunden
+--- 9 ---
+  CORE: A — 竞选 11 月 13 日开始
+  DE:   A — Der Wahlkampf beginnt am 13. November
+--- 10 ---
+  CORE: B — 西班牙–英格兰周日 20:45 — PÁGINA 2 —
+  DE:   B — Spanien–England am Sonntag um 20:45 Uhr — PÁGINA 2 —
+--- 11 ---
+  CORE: 11 — 11 月 11 日周三
+  DE:   11 — Mittwoch, 11. November
+--- 12 ---
+  CORE: 15 — 11 月 15 日周日
+  DE:   15 — Sonntag, 15. November
+--- 13 ---
+  CORE: 29 — 大选在 11 月 29 日
+  DE:   29 — Die Wahl ist am 29. November
+--- 14 ---
+  CORE: uno — 每月 1 号说 el uno
+  DE:   uno — Der 1. heißt el uno
+--- 15 ---
+  CORE: noviembre — 月份小写
+  DE:   noviembre — Monate klein
+--- 21 ---
+  CORE: B — 大罢工在 11 月 11 日周三
+  DE:   B — Der Generalstreik ist am Mittwoch, 11. November
+--- 22 ---
+  CORE: A — 罢工口号是工资、住房、物价
+  DE:   A — Der Streik-Slogan: Löhne, Wohnungen, Preise
+--- 23 ---
+  CORE: C — 罢工后两天竞选开始
+  DE:   C — Der Wahlkampf beginnt zwei Tage nach dem Streik
+--- 24 ---
+  CORE: B — 罢工日有最低服务保障
+  DE:   B — Am Streiktag gibt es Mindestdienste
+--- 25 ---
+  CORE: c — huelga=罢工 c
+  DE:   c — huelga=Generalstreik c
+--- 26 ---
+  CORE: b — sindicato=工会 b
+  DE:   b — sindicato=Gewerkschaft b
+--- 27 ---
+  CORE: a — salario=工资 a
+  DE:   a — salario=Lohn a
+--- 28 ---
+  CORE: d — alquiler=租金 d — PÁGINA 3 —
+  DE:   d — alquiler=Miete d — PÁGINA 3 —
+--- 29 ---
+  CORE: Verdadero — 圣马丁节在 11 月 11 日周三
+  DE:   Verdadero — Martinstag ist am Mittwoch, 11. November
+--- 30 ---
+  CORE: Verdadero — 马丁把斗篷分给乞丐
+  DE:   Verdadero — Martin teilte seinen Umhang mit dem Bettler
+--- 31 ---
+  CORE: Falso — Humanitarios 节在阿斯图里亚斯，不在加利西亚
+  DE:   Falso — Das Humanitarios-Fest ist in Asturien, nicht in Galicien
+--- 32 ---
+  CORE: Falso — 小阳春是秋中暖和的几天，不是夏天
+  DE:   Falso — Der veranillo sind ein paar warme Tage im Herbst, kein Sommer
+--- 33 ---
+  CORE: Verdadero — 圣马丁餐有 fabada、casadiellas 和 panchón
+  DE:   Verdadero — Zum Martinsessen gehören fabada, casadiellas und panchón
+--- 34 ---
+  CORE: capa — 马丁分开自己的斗篷 capa
+  DE:   capa — Martin teilte seinen eigenen Umhang (capa)
+--- 35 ---
+  CORE: mendigo — mendigo = 乞丐
+  DE:   mendigo — mendigo = Bettler
+--- 36 ---
+  CORE: castañas — castañas asadas 烤栗子
+  DE:   castañas — castañas asadas = geröstete Kastanien
+--- 37 ---
+  CORE: gaita — gaita = 风笛
+  DE:   gaita — gaita = Dudelsack
+--- 38 ---
+  CORE: veranillo — veranillo de San Martín 小阳春
+  DE:   veranillo — veranillo de San Martín = Altweibersommer
+--- 39 ---
+  CORE: B — Humanitarios 节在 Moreda de Aller
+  DE:   B — Das Humanitarios-Fest ist in Moreda de Aller
+--- 40 ---
+  CORE: A — puya del ramu 是拍卖祝福过的面包
+  DE:   A — Die puya del ramu ist die Versteigerung des gesegneten Brotes
+--- 41 ---
+  CORE: C — 小阳春是秋中几天暖和天气
+  DE:   C — Der veranillo sind ein paar Tage mildes Wetter im Herbst
+--- 42 ---
+  CORE: B — 圣马丁节之后大选在 11 月 29 日
+  DE:   B — Nach Martinstag ist die Wahl am 29. November
+--- 43 ---
+  CORE: Martín parte su capa en dos. — 动词第二位
+  DE:   Martín parte su capa en dos. — Das Verb steht an zweiter Stelle
+--- 44 ---
+  CORE: En noviembre comemos castañas asadas. — 时间在前，动词第二
+  DE:   En noviembre comemos castañas asadas. — Zeit zuerst, Verb an zweiter Stelle
+--- 45 ---
+  CORE: En Moreda celebran San Martín. — 地点在前，动词第二
+  DE:   En Moreda celebran San Martín. — Ort zuerst, Verb an zweiter Stelle
+--- 46 ---
+  CORE: Todos preguntan si hay veranillo. — 间接疑问用 si — PÁGINA 4 —
+  DE:   Todos preguntan si hay veranillo. — Indirekte Fragen mit si — PÁGINA 4 —
+--- 47 ---
+  CORE: A — 西班牙在 A3 组
+  DE:   A — Spanien spielt in Gruppe A3
+--- 48 ---
+  CORE: B — 周四对捷克，周日对英格兰
+  DE:   B — Donnerstag gegen Tschechien, Sonntag gegen England
+--- 49 ---
+  CORE: C — 两场比赛都是 20:45
+  DE:   C — Beide Spiele beginnen um 20:45 Uhr
+--- 50 ---
+  CORE: A — 周日比赛在 Metropolitano
+  DE:   A — Das Sonntagsspiel ist im Metropolitano
+--- 51 ---
+  CORE: B — U21 周五对日本
+  DE:   B — Die U21 spielt am Freitag gegen Japan
+--- 52 ---
+  CORE: b — fase de grupos=小组赛 b
+  DE:   b — fase de grupos=Gruppenphase b
+--- 53 ---
+  CORE: c — seleccionador=主教练 c
+  DE:   c — seleccionador=Nationaltrainer c
+--- 54 ---
+  CORE: d — lista=名单 d
+  DE:   d — lista=Kaderliste d
+--- 55 ---
+  CORE: a — amistoso=友谊赛 a
+  DE:   a — amistoso=Freundschaftsspiel a
+--- 56 ---
+  CORE: más importante — más + importante（小组第一更重要）
+  DE:   más importante — más + importante (Gruppensieg ist wichtiger)
+--- 57 ---
+  CORE: muchísimos — muchísimos aficionados 球迷很多
+  DE:   muchísimos — muchísimos aficionados = sehr viele Fans
+--- 58 ---
+  CORE: peor — malo 的比较级是 peor
+  DE:   peor — Der Komparativ von malo ist peor
+--- 59 ---
+  CORE: mejor — bueno 的比较级是 mejor
+  DE:   mejor — Der Komparativ von bueno ist mejor
+--- 63 ---
+  CORE: Los convocados fueron a Las Rozas. — ir 的过去时是 fueron
+  DE:   Los convocados fueron a Las Rozas. — Die Vergangenheit von ir ist fueron
+--- 65 ---
+  CORE: B — 邮寄投票须在 19 日前申请
+  DE:   B — Die Briefwahl muss vor dem 19. beantragt werden
+--- 66 ---
+  CORE: A — 材料从 11 月 9 日起寄出
+  DE:   A — Die Unterlagen werden ab 9. November verschickt
+--- 67 ---
+  CORE: C — 投票站 9:00–20:00 开放
+  DE:   C — Die Wahllokale sind von 9:00 bis 20:00 Uhr geöffnet
+--- 68 ---
+  CORE: B — Infamia 有 6 集
+  DE:   B — Infamia hat 6 Folgen
+--- 69 ---
+  CORE: A — 静默日没有宣传活动
+  DE:   A — Am Tag der Besinnung gibt es keine Wahlwerbung
+--- 70 ---
+  CORE: correo — correo = 邮局/邮寄
+  DE:   correo — correo = Post / postalisch
+--- 71 ---
+  CORE: papeleta — papeleta = 选票
+  DE:   papeleta — papeleta = Stimmzettel
+--- 72 ---
+  CORE: envío — enviar 变位 → envío
+  DE:   envío — enviar konjugiert → envío
+--- 73 ---
+  CORE: identidad — documento de identidad 身份证件
+  DE:   identidad — documento de identidad = Ausweis
+--- 74 ---
+  CORE: censo — censo = 选民名册
+  DE:   censo — censo = Wählerverzeichnis
+--- 75 ---
+  CORE: reflexión — jornada de reflexión 静默日
+  DE:   reflexión — jornada de reflexión = Tag der Besinnung
+--- 76 ---
+  CORE: Voy a pedir el voto por correo. — voy a + 原形
+  DE:   Voy a pedir el voto por correo. — voy a + Infinitiv
+--- 77 ---
+  CORE: Va a estrenarse «Infamia». — va a + 原形
+  DE:   Va a estrenarse «Infamia». — va a + Infinitiv
+--- 78 ---
+  CORE: Vas a ver el España–Inglaterra. — vas a + 原形
+  DE:   Vas a ver el España–Inglaterra. — vas a + Infinitiv
+--- 79 ---
+  CORE: Van a votar el domingo 29. — van a + 原形
+  DE:   Van a votar el domingo 29. — van a + Infinitiv
+--- 80 ---
+  CORE: Verdadero — 邮寄投票可在 Correos 申请
+  DE:   Verdadero — Die Briefwahl kann bei Correos beantragt werden
+--- 81 ---
+  CORE: Falso — 静默日是周六 28 日，不是周日
+  DE:   Falso — Der Tag der Besinnung ist Samstag, 28., nicht Sonntag
+--- 82 ---
+  CORE: Verdadero — Infamia 改编自 Ledicia Costas 的小说 — PÁGINA 6 —
+  DE:   Verdadero — Infamia verfilmt einen Roman von Ledicia Costas — PÁGINA 6 —
+--- 83 ---
+  CORE: A — 减税支持率最高（95,4%）
+  DE:   A — Die Steuersenkung hat die meiste Zustimmung (95,4 %)
+--- 84 ---
+  CORE: B — 更多公屋支持率 91,4%
+  DE:   B — Mehr Sozialwohnungen: 91,4 % Zustimmung
+--- 85 ---
+  CORE: C — 担心住房者 86,9%
+  DE:   C — Sorgen um die Wohnung: 86,9 %
+--- 86 ---
+  CORE: A — 调查 6.019 人次，误差 ±1,3
+  DE:   A — Umfrage mit 6.019 Befragten, Fehler ±1,3
+--- 88 ---
+  CORE: C — 本报只刊登 CIS 住房晴雨表这一组数据并注明来源日期
+  DE:   C — Diese Zeitung druckt nur die CIS-Wohnungsreihe, mit Quelle und Datum
+--- 89 ---
+  CORE: B — 10 月 2 日议会否决两项住房法令
+  DE:   B — Am 2. Oktober lehnte der Kongress zwei Wohnungsdekrete ab
+--- 90 ---
+  CORE: A — 10 月 5 日解散议会并召集大选
+  DE:   A — Am 5. Oktober löste Sánchez die Cortes auf und rief Wahlen aus
+--- 91 ---
+  CORE: C — 民调是带误差的具体某天的照片
+  DE:   C — Eine Umfrage ist ein Foto mit Fehler, an einem bestimmten Tag aufgenommen
+--- 92 ---
+  CORE: B — 竞选 11 月 13 日开始
+  DE:   B — Der Wahlkampf beginnt am 13. November
+--- 93 ---
+  CORE: tenga — es posible que + 虚拟式 tenga
+  DE:   tenga — es posible que + Subjunktiv: tenga
+--- 94 ---
+  CORE: sea — es importante que + 虚拟式 sea
+  DE:   sea — es importante que + Subjunktiv: sea
+--- 95 ---
+  CORE: para que — para que + 虚拟式（目的）
+  DE:   para que — para que + Subjunktiv (Zweck)
+--- 96 ---
+  CORE: Aunque — Aunque 后接陈述式（已知事实）
+  DE:   Aunque — Aunque + Indikativ (bekannte Tatsache)
+--- 97 ---
+  CORE: sondeo — sondeo = 民调
+  DE:   sondeo — sondeo = Umfrage
+--- 98 ---
+  CORE: muestra — muestra = 样本（6.019 人）
+  DE:   muestra — muestra = Stichprobe (6.019 Personen)
+--- 99 ---
+  CORE: indecisos — indecisos = 未决定者
+  DE:   indecisos — indecisos = Unentschlossene
+--- 100 ---
+  CORE: margen de error — margen de error = 误差范围 — PÁGINA 7 —
+  DE:   margen de error — margen de error = Fehlermarge — PÁGINA 7 —
+--- 101 ---
+  CORE: 11 — el miércoles 11 de noviembre 大罢工
+  DE:   11 — el miércoles 11 de noviembre: Generalstreik
+--- 103 ---
+  CORE: domingo — 15 日是周日
+  DE:   domingo — der 15. ist ein Sonntag
+--- 104 ---
+  CORE: B — 月份小写：noviembre
+  DE:   B — Monate klein: noviembre
+--- 105 ---
+  CORE: más cara — más + cara（房价更高）
+  DE:   más cara — más + cara (höhere Wohnungspreise)
+--- 106 ---
+  CORE: tan alta — tan + alta + como（同样高）
+  DE:   tan alta — tan + alta + como (genauso hoch)
+--- 107 ---
+  CORE: mejor — bueno 的比较级是 mejor（不用 más）
+  DE:   mejor — Der Komparativ von bueno ist mejor (ohne más)
+--- 108 ---
+  CORE: B — más mejor 是错误说法
+  DE:   B — más mejor ist falsch
+--- 109 ---
+  CORE: baje — es necesario que + 虚拟式 baje
+  DE:   baje — es necesario que + Subjunktiv: baje
+--- 110 ---
+  CORE: sea — para que + 虚拟式 sea
+  DE:   sea — para que + Subjunktiv: sea
+--- 111 ---
+  CORE: es — creo que + 陈述式 es
+  DE:   es — creo que + Indikativ: es
+--- 112 ---
+  CORE: B — ojalá + 虚拟式：baje — PÁGINA 8 —
+  DE:   B — ojalá + Subjunktiv: baje — PÁGINA 8 —
+--- 113 ---
+  CORE: B — visita a Chequia = 客场对捷克
+  DE:   B — visita a Chequia = auswärts in Tschechien
+--- 114 ---
+  CORE: B — recibir a Inglaterra = 主场迎战英格兰
+  DE:   B — recibir a Inglaterra = zu Hause gegen England
+--- 115 ---
+  CORE: A — la lista = 征召名单
+  DE:   A — la lista = Kaderliste
+--- 116 ---
+  CORE: B — la huelga dura 24 horas = 罢工持续 24 小时
+  DE:   B — la huelga dura 24 horas = der Streik dauert 24 Stunden
+--- 117 ---
+  CORE: A — empieza la campaña = 竞选开始
+  DE:   A — empieza la campaña = der Wahlkampf beginnt
+--- 118 ---
+  CORE: B — el sobre = 信封
+  DE:   B — el sobre = Briefumschlag
+--- 119 ---
+  CORE: A — 周日上演西班牙–英格兰
+  DE:   A — Spanien–England am Sonntag
+--- 120 ---
+  CORE: A — veranillo = 小阳春
+  DE:   A — veranillo = Altweibersommer
+--- 121 ---
+  CORE: B — 大罢工在 11 月 11 日周三
+  DE:   B — Der Generalstreik ist am Mittwoch, 11. November
+--- 122 ---
+  CORE: A — 圣马丁节 11 月 11 日
+  DE:   A — Martinstag, 11. November
+--- 123 ---
+  CORE: C — 西班牙–英格兰与罢工都在本周
+  DE:   C — Spanien–England und der Streik sind beide diese Woche
+--- 124 ---
+  CORE: B — magosto 吃烤栗子
+  DE:   B — Beim magosto isst man geröstete Kastanien
+--- 125 ---
+  CORE: A — 罢工口号：工资、住房、物价
+  DE:   A — Streik-Slogan: Löhne, Wohnungen, Preise
+--- 126 ---
+  CORE: C — 大选在 11 月 29 日
+  DE:   C — Die Wahl ist am 29. November
+--- 127 ---
+  CORE: B — CIS 住房晴雨表：担心住房者 86,9%
+  DE:   B — CIS-Wohnungsbarometer: 86,9 % sorgen sich um die Wohnung
+--- 128 ---
+  CORE: A — 竞选 11 月 13 日开始
+  DE:   A — Der Wahlkampf beginnt am 13. November
+--- 129 ---
+  CORE: B — Pablo 周日去大都会球场
+  DE:   B — Pablo geht am Sonntag ins Metropolitano
+--- 130 ---
+  CORE: A — Ana 周三上班
+  DE:   A — Ana arbeitet am Mittwoch
+--- 131 ---
+  CORE: A — 两人都读纲领再投票
+  DE:   A — Beide lesen vor der Wahl die Programme
+--- 132 ---
+  CORE: B — 标题概括两地对比
+  DE:   B — Der Titel fasst den Zwei-Orte-Vergleich zusammen
+--- 133 ---
+  CORE: El miércoles hay huelga general. — 主语 + 动词 + 地点
+  DE:   El miércoles hay huelga general. — Subjekt + Verb + Ort
+--- 134 ---
+  CORE: El domingo vemos el España–Inglaterra. — 时间在前
+  DE:   El domingo vemos el España–Inglaterra. — Zeit zuerst
+--- 135 ---
+  CORE: La campaña empieza a las cero horas. — a las cero horas = 在 零点
+  DE:   La campaña empieza a las cero horas. — a las cero horas = um Mitternacht
+--- 136 ---
+  CORE: ¿A qué hora empieza el partido? — 疑问词在句首
+  DE:   ¿A qué hora empieza el partido? — Das Fragewort steht am Satzanfang
+--- 137 ---
+  CORE: 周三全西班牙大罢工。 — 对照原文
+  DE:   Am Mittwoch gibt es in ganz Spanien einen Generalstreik. — Mit dem Original vergleichen.
+--- 138 ---
+  CORE: 周日我们看西班牙–英格兰。 — 对照原文
+  DE:   Am Sonntag sehen wir Spanien–England. — Mit dem Original vergleichen.
+--- 139 ---
+  CORE: El voto por correo llega a casa. — llegar a casa = 送到家里
+  DE:   El voto por correo llega a casa. — llegar a casa = nach Hause kommen
+--- 140 ---
+  CORE: Cada gráfico tiene que llevar su fuente. — tener que = 必须
+  DE:   Cada gráfico tiene que llevar su fuente. — tener que = müssen
+--- 141 ---
+  CORE: c — sondeo=民调 c
+  DE:   c — sondeo=Umfrage c
+--- 142 ---
+  CORE: d — muestra=样本 d
+  DE:   d — muestra=Stichprobe d
+--- 143 ---
+  CORE: b — margen de error=误差范围 b
+  DE:   b — margen de error=Fehlermarge b
+--- 144 ---
+  CORE: a — junta electoral=选举委员会 a
+  DE:   a — junta electoral=Wahlausschuss a
+--- 145 ---
+  CORE: A — alquiler = 租金
+  DE:   A — alquiler = Miete
+--- 146 ---
+  CORE: A — tres habitaciones = 三居室
+  DE:   A — tres habitaciones = drei Zimmer
+--- 147 ---
+  CORE: A — ¿cuánto cuesta? 多少钱
+  DE:   A — ¿cuánto cuesta? = wie viel kostet es?
+--- 148 ---
+  CORE: A — firmar = 签（合同）
+  DE:   A — firmar = unterschreiben (einen Vertrag)
+--- 149 ---
+  CORE: A — mudanza = 搬家
+  DE:   A — mudanza = Umzug
+--- 150 ---
+  CORE: ✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版
+  DE:   ✓ Mustertext in Abschnitt H auf dieser Seite (84 Wörter) La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH Seite 8 von 8
+differing items: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 63, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+
+=== key parts differing ===
+1 CORE key: '13' | DE key: '13'
+2 CORE key: '11' | DE key: '11'
+3 CORE key: '29' | DE key: '29'
+4 CORE key: '19' | DE key: '19'
+5 CORE key: '20:45' | DE key: '20:45'
+6 CORE key: '15' | DE key: '15'
+7 CORE key: 'C' | DE key: 'C'
+8 CORE key: 'B' | DE key: 'B'
+9 CORE key: 'A' | DE key: 'A'
+10 CORE key: 'B' | DE key: 'B'
+11 CORE key: '11' | DE key: '11'
+12 CORE key: '15' | DE key: '15'
+13 CORE key: '29' | DE key: '29'
+14 CORE key: 'uno' | DE key: 'uno'
+15 CORE key: 'noviembre' | DE key: 'noviembre'
+21 CORE key: 'B' | DE key: 'B'
+22 CORE key: 'A' | DE key: 'A'
+23 CORE key: 'C' | DE key: 'C'
+24 CORE key: 'B' | DE key: 'B'
+25 CORE key: 'c' | DE key: 'c'
+26 CORE key: 'b' | DE key: 'b'
+27 CORE key: 'a' | DE key: 'a'
+28 CORE key: 'd' | DE key: 'd'
+29 CORE key: 'Verdadero' | DE key: 'Verdadero'
+30 CORE key: 'Verdadero' | DE key: 'Verdadero'
+31 CORE key: 'Falso' | DE key: 'Falso'
+32 CORE key: 'Falso' | DE key: 'Falso'
+33 CORE key: 'Verdadero' | DE key: 'Verdadero'
+34 CORE key: 'capa' | DE key: 'capa'
+35 CORE key: 'mendigo' | DE key: 'mendigo'
+36 CORE key: 'castañas' | DE key: 'castañas'
+37 CORE key: 'gaita' | DE key: 'gaita'
+38 CORE key: 'veranillo' | DE key: 'veranillo'
+39 CORE key: 'B' | DE key: 'B'
+40 CORE key: 'A' | DE key: 'A'
+41 CORE key: 'C' | DE key: 'C'
+42 CORE key: 'B' | DE key: 'B'
+43 CORE key: 'Martín parte su capa en dos.' | DE key: 'Martín parte su capa en dos.'
+44 CORE key: 'En noviembre comemos castañas asadas.' | DE key: 'En noviembre comemos castañas asadas.'
+45 CORE key: 'En Moreda celebran San Martín.' | DE key: 'En Moreda celebran San Martín.'
+46 CORE key: 'Todos preguntan si hay veranillo.' | DE key: 'Todos preguntan si hay veranillo.'
+47 CORE key: 'A' | DE key: 'A'
+48 CORE key: 'B' | DE key: 'B'
+49 CORE key: 'C' | DE key: 'C'
+50 CORE key: 'A' | DE key: 'A'
+51 CORE key: 'B' | DE key: 'B'
+52 CORE key: 'b' | DE key: 'b'
+53 CORE key: 'c' | DE key: 'c'
+54 CORE key: 'd' | DE key: 'd'
+55 CORE key: 'a' | DE key: 'a'
+56 CORE key: 'más importante' | DE key: 'más importante'
+57 CORE key: 'muchísimos' | DE key: 'muchísimos'
+58 CORE key: 'peor' | DE key: 'peor'
+59 CORE key: 'mejor' | DE key: 'mejor'
+63 CORE key: 'Los convocados fueron a Las Rozas.' | DE key: 'Los convocados fueron a Las Rozas.'
+65 CORE key: 'B' | DE key: 'B'
+66 CORE key: 'A' | DE key: 'A'
+67 CORE key: 'C' | DE key: 'C'
+68 CORE key: 'B' | DE key: 'B'
+69 CORE key: 'A' | DE key: 'A'
+70 CORE key: 'correo' | DE key: 'correo'
+71 CORE key: 'papeleta' | DE key: 'papeleta'
+72 CORE key: 'envío' | DE key: 'envío'
+73 CORE key: 'identidad' | DE key: 'identidad'
+74 CORE key: 'censo' | DE key: 'censo'
+75 CORE key: 'reflexión' | DE key: 'reflexión'
+76 CORE key: 'Voy a pedir el voto por correo.' | DE key: 'Voy a pedir el voto por correo.'
+77 CORE key: 'Va a estrenarse «Infamia».' | DE key: 'Va a estrenarse «Infamia».'
+78 CORE key: 'Vas a ver el España–Inglaterra.' | DE key: 'Vas a ver el España–Inglaterra.'
+79 CORE key: 'Van a votar el domingo 29.' | DE key: 'Van a votar el domingo 29.'
+80 CORE key: 'Verdadero' | DE key: 'Verdadero'
+81 CORE key: 'Falso' | DE key: 'Falso'
+82 CORE key: 'Verdadero' | DE key: 'Verdadero'
+83 CORE key: 'A' | DE key: 'A'
+84 CORE key: 'B' | DE key: 'B'
+85 CORE key: 'C' | DE key: 'C'
+86 CORE key: 'A' | DE key: 'A'
+88 CORE key: 'C' | DE key: 'C'
+89 CORE key: 'B' | DE key: 'B'
+90 CORE key: 'A' | DE key: 'A'
+91 CORE key: 'C' | DE key: 'C'
+92 CORE key: 'B' | DE key: 'B'
+93 CORE key: 'tenga' | DE key: 'tenga'
+94 CORE key: 'sea' | DE key: 'sea'
+95 CORE key: 'para que' | DE key: 'para que'
+96 CORE key: 'Aunque' | DE key: 'Aunque'
+97 CORE key: 'sondeo' | DE key: 'sondeo'
+98 CORE key: 'muestra' | DE key: 'muestra'
+99 CORE key: 'indecisos' | DE key: 'indecisos'
+100 CORE key: 'margen de error' | DE key: 'margen de error'
+101 CORE key: '11' | DE key: '11'
+103 CORE key: 'domingo' | DE key: 'domingo'
+104 CORE key: 'B' | DE key: 'B'
+105 CORE key: 'más cara' | DE key: 'más cara'
+106 CORE key: 'tan alta' | DE key: 'tan alta'
+107 CORE key: 'mejor' | DE key: 'mejor'
+108 CORE key: 'B' | DE key: 'B'
+109 CORE key: 'baje' | DE key: 'baje'
+110 CORE key: 'sea' | DE key: 'sea'
+111 CORE key: 'es' | DE key: 'es'
+112 CORE key: 'B' | DE key: 'B'
+113 CORE key: 'B' | DE key: 'B'
+114 CORE key: 'B' | DE key: 'B'
+115 CORE key: 'A' | DE key: 'A'
+116 CORE key: 'B' | DE key: 'B'
+117 CORE key: 'A' | DE key: 'A'
+118 CORE key: 'B' | DE key: 'B'
+119 CORE key: 'A' | DE key: 'A'
+120 CORE key: 'A' | DE key: 'A'
+121 CORE key: 'B' | DE key: 'B'
+122 CORE key: 'A' | DE key: 'A'
+123 CORE key: 'C' | DE key: 'C'
+124 CORE key: 'B' | DE key: 'B'
+125 CORE key: 'A' | DE key: 'A'
+126 CORE key: 'C' | DE key: 'C'
+127 CORE key: 'B' | DE key: 'B'
+128 CORE key: 'A' | DE key: 'A'
+129 CORE key: 'B' | DE key: 'B'
+130 CORE key: 'A' | DE key: 'A'
+131 CORE key: 'A' | DE key: 'A'
+132 CORE key: 'B' | DE key: 'B'
+133 CORE key: 'El miércoles hay huelga general.' | DE key: 'El miércoles hay huelga general.'
+134 CORE key: 'El domingo vemos el España–Inglaterra.' | DE key: 'El domingo vemos el España–Inglaterra.'
+135 CORE key: 'La campaña empieza a las cero horas.' | DE key: 'La campaña empieza a las cero horas.'
+136 CORE key: '¿A qué hora empieza el partido?' | DE key: '¿A qué hora empieza el partido?'
+137 CORE key: '周三全西班牙大罢工。' | DE key: 'Am Mittwoch gibt es in ganz Spanien einen Generalstreik.'
+138 CORE key: '周日我们看西班牙–英格兰。' | DE key: 'Am Sonntag sehen wir Spanien–England.'
+139 CORE key: 'El voto por correo llega a casa.' | DE key: 'El voto por correo llega a casa.'
+140 CORE key: 'Cada gráfico tiene que llevar su fuente.' | DE key: 'Cada gráfico tiene que llevar su fuente.'
+141 CORE key: 'c' | DE key: 'c'
+142 CORE key: 'd' | DE key: 'd'
+143 CORE key: 'b' | DE key: 'b'
+144 CORE key: 'a' | DE key: 'a'
+145 CORE key: 'A' | DE key: 'A'
+146 CORE key: 'A' | DE key: 'A'
+147 CORE key: 'A' | DE key: 'A'
+148 CORE key: 'A' | DE key: 'A'
+149 CORE key: 'A' | DE key: 'A'
+150 CORE key: '✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版' | DE key: '✓ Mustertext in Abschnitt H auf dieser Seite (84 Wörter) La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH Seite 8 von 8'
+
+model words (DE SVG): 84
+Vivo en Madrid, y el miércoles 11 sigo la huelga en las noticias: salarios, vivienda y precios, los tres temas de la semana. El viernes 13 empieza la campaña, y el domingo 15 veo el España–Inglaterra con mi familia. El jueves 12 veo el Chequia–España en Praga por televisión, a las 20:45. Mis amigos de Barcelona no tienen huelga en su empresa: el miércoles trabajan. Yo, en cambio, leo los programas con calma y preparo mi voto por correo. El 29 votamos. ¡Qué semana!
+model words (CORE SVG): 84 | identical: True

@@ -1,0 +1,300 @@
+== freeze-pt-de.json keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+{'cjk_added_total': [],
+ 'core_svg': '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-core/svg',
+ 'edition_svg': '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-de/svg',
+ 'pages': [('1',
+            {'added_strings': [{'count': 1,
+                                'text': '(Prüfung am 15., 13:30 bis 18:30 '
+                                        'Uhr)'},
+                               {'count': 1,
+                                'text': '(Sonntag: Einlass ab 12 Uhr)'},
+                               {'count': 1,
+                                'text': '13h — os portões fecham (13 Uhr: '
+                                        'Tore'},
+                               {'count': 1,
+                                'text': '13h30–18h30 — a prova do dia 15'},
+                               {'count': 1,
+                                'text': '15. Nov.: zweiter Prüfungstag · '
+                                        'Feiertag der Ausrufung der Republik'},
+                               {'count': 1,
+                                'text': '90 — as questões do dia 15: 45 + 45 '
+                                        '(90'},
+                               {'count': 1,
+                                'text': 'A Lucerna · PORTUGIESISCHE '
+                                        'WOCHENZEITUNG VOL.3 · TEXT AUF '
+                                        'PORTUGIESISCH · ERKLÄRUNGEN AUF '
+                                        'DEUTSCH'},
+                               {'count': 1, 'text': 'A NOTÍCIA · TITELTHEMA'},
+                               {'count': 1,
+                                'text': 'A SEMANA EM NÚMEROS · IN ZAHLEN'},
+                               {'count': 1, 'text': 'AGORA VOCÊ · JETZT DU'},
+                               {'count': 1,
+                                'text': 'EM POUCAS PALAVRAS · IN KÜRZE'},
+                               {'count': 1, 'text': 'ENEM, TAG 2'},
+                               {'count': 1, 'text': 'Fragen: 45 + 45)'},
+                               {'count': 1,
+                                'text': 'Lies die Titelseite und wähle · '
+                                        'Antworten auf Seite 8'},
+                               {'count': 1, 'text': 'Mathematik.'},
+                               {'count': 1, 'text': 'NESTA EDIÇÃO · INHALT'},
+                               {'count': 1,
+                                'text': 'Naturwissenschaften · a matemática ='},
+                               {'count': 1,
+                                'text': 'PORTUGIESISCHE WOCHENZEITUNG · VOL.3 '
+                                        '· ENEM, DIA 2 · PROCLAMAÇÃO DA '
+                                        'REPÚBLICA · O FUTEBOL DECIDE'},
+                               {'count': 1,
+                                'text': 'PORTUGIESISCHER TEXT · DEUTSCHE '
+                                        'ERKLÄRUNGEN — DIE AUSGABE FÜR '
+                                        'DEUTSCHSPRACHIGE LESER'},
+                               {'count': 1,
+                                'text': 'QUIZ RELÂMPAGO · BLITZQUIZ'},
+                               {'count': 1, 'text': 'Seite 1 von 8'},
+                               {'count': 1,
+                                'text': 'Stichwörter | a proclamação = '
+                                        'Ausrufung · o'},
+                               {'count': 1,
+                                'text': 'TODA SEMANA EM PORTUGUÊS · DAS '
+                                        'PORTUGIESISCH, DAS BRASILIEN LIEST, '
+                                        'JEDE WOCHE'},
+                               {'count': 1,
+                                'text': 'Wer nach 13 Uhr kommt, bleibt '
+                                        'draußen.'},
+                               {'count': 1,
+                                'text': 'feriado = Feiertag · a natureza ='},
+                               {'count': 1,
+                                'text': 'proclamação = Ausrufung (der '
+                                        'Republik).'},
+                               {'count': 1,
+                                'text': 'schließen, zu spät ist zu spät)'}],
+             'cjk_added': {},
+             'cjk_core_total': 150,
+             'cjk_edition_total': 0,
+             'removed_strings': [{'count': 1,
+                                  'text': '11 月 15 日第二场考试 · 共和国宣言日假期'},
+                                 {'count': 1, 'text': '13:30 至 18:30）'},
+                                 {'count': 1,
+                                  'text': '13h — os portões fecham（13 点关门，过'},
+                                 {'count': 1,
+                                  'text': '13h30–18h30 — a prova do dia 15（考试'},
+                                 {'count': 1,
+                                  'text': '90 — as questões do dia 15: 45 + '
+                                          '45（90 道'},
+                                 {'count': 1,
+                                  'text': 'A Lucerna · 葡萄牙语周报 VOL.3 · LUCERNA '
+                                          'PORTUGUESE WEEKLY'},
+                                 {'count': 1, 'text': 'A NOTÍCIA · 头条'},
+                                 {'count': 1,
+                                  'text': 'A SEMANA EM NÚMEROS · 数字'},
+                                 {'count': 1, 'text': 'AGORA VOCÊ · 即学即练'},
+                                 {'count': 1,
+                                  'text': 'EM POUCAS PALAVRAS · 快讯'},
+                                 {'count': 1, 'text': 'NESTA EDIÇÃO · 本期目录'},
+                                 {'count': 1,
+                                  'text': 'O JORNAL SEMANAL PARA APRENDER — O '
+                                          'BRASIL DE VERDADE, EM PORTUGUÊS, DO '
+                                          'BRASIL'},
+                                 {'count': 1, 'text': 'QUIZ RELÂMPAGO · 闪电问答'},
+                                 {'count': 1,
+                                  'text': 'TODA SEMANA EM PORTUGUÊS · 每周一期 · '
+                                          '读巴西人正在读的葡萄牙语'},
+                                 {'count': 1,
+                                  'text': 'proclamação = 宣布（共和国宣言）。'},
+                                 {'count': 1,
+                                  'text': '假日 · a natureza 自然科学 · a '
+                                          'matemática'},
+                                 {'count': 1, 'text': '数学。'},
+                                 {'count': 1, 'text': '时不入）'},
+                                 {'count': 1, 'text': '第 1 版 / 共 8 版'},
+                                 {'count': 1,
+                                  'text': '葡 萄 牙 语 周 报 · VOL.3 · ENEM, DIA 2 · '
+                                          'PROCLAMAÇÃO DA REPÚBLICA · O '
+                                          'FUTEBOL DECIDE'},
+                                 {'count': 1,
+                                  'text': '讲解｜a proclamação 宣布、宣告 · o feriado'},
+                                 {'count': 1, 'text': '读头版，选出正确答案 · 答案见第 8 版'},
+                                 {'count': 1, 'text': '迟到不得入内：13 点后关门'},
+                                 {'count': 1, 'text': '题：45 + 45）'},
+                                 {'count': 1, 'text': '高考第二天'},
+                                 {'count': 1, 'text': '（周日 12 点开门）'}]}),
+           ('2',
+            {'added_strings': [{'count': 1,
+                                'text': 'A Lucerna · PORTUGIESISCHE '
+                                        'WOCHENZEITUNG VOL.3 · TEXT AUF '
+                                        'PORTUGIESISCH · ERKLÄRUNGEN AUF '
+                                        'DEUTSCH'},
+                               {'count': 1,
+                                'text': 'Antworten auf Seite 8 · Niveaus '
+                                        'gemischt — Antworten nach Nummer '
+                                        'suchen'},
+                               {'count': 1,
+                                'text': 'Die Tore schließen um 13 Uhr'},
+                               {'count': 1, 'text': 'E VOCÊ? · UND DU?'},
+                               {'count': 1,
+                                'text': 'EXERCÍCIOS · ÜBUNGEN SEITE 2'},
+                               {'count': 1,
+                                'text': 'Einlass sonntags ab 12 Uhr'},
+                               {'count': 1, 'text': 'Ende um 18:30 Uhr'},
+                               {'count': 1,
+                                'text': 'Ergänze die Präsensform des Verbs.'},
+                               {'count': 1,
+                                'text': 'Ergänze mit den Zahlen von Seite 1 '
+                                        'und 2.'},
+                               {'count': 9, 'text': 'Ergänzen'},
+                               {'count': 1,
+                                'text': 'Gibt es in deinem Land für einen '
+                                        'Feiertag,'},
+                               {'count': 1,
+                                'text': 'HINWEIS · a proclamação = Ausrufung'},
+                               {'count': 1,
+                                'text': 'Lies Seite 2 und wähle die richtige '
+                                        'Antwort.'},
+                               {'count': 1,
+                                'text': 'Mathematik · conferir = prüfen · a'},
+                               {'count': 1,
+                                'text': 'NIVEAU A2 · Prüfung und Feiertag am '
+                                        'selben Sonntag'},
+                               {'count': 1,
+                                'text': 'Naturwissenschaften · a matemática ='},
+                               {'count': 1,
+                                'text': 'OS HORÁRIOS DO DOMINGO 15 · ZEITPLAN '
+                                        'FÜR SONNTAG, DEN 15.'},
+                               {'count': 1,
+                                'text': 'PARA NÃO ERRAR · DIE MERKREGEL'},
+                               {'count': 1, 'text': 'Paare zuordnen'},
+                               {'count': 1, 'text': 'Prüfungsbeginn 13:30 Uhr'},
+                               {'count': 1, 'text': 'Seite 2 von 8'},
+                               {'count': 1,
+                                'text': 'Um país, vários relógios · Ein Land, '
+                                        'mehrere Zeitzonen'},
+                               {'count': 1, 'text': 'VIDA · LEBEN'},
+                               {'count': 1,
+                                'text': 'der auf einen Sonntag fällt, am '
+                                        'Montag'},
+                               {'count': 1, 'text': 'ein.'},
+                               {'count': 1, 'text': 'escala = der Dienstplan.'},
+                               {'count': 1,
+                                'text': 'frei? Schreib zwei Sätze und schick '
+                                        'sie'},
+                               {'count': 1,
+                                'text': '· o feriado = Feiertag · a natureza '
+                                        '='}],
+             'cjk_added': {},
+             'cjk_core_total': 172,
+             'cjk_edition_total': 0,
+             'removed_strings': [{'count': 1, 'text': '13 点关门'},
+                                 {'count': 1, 'text': '13:30 开考'},
+                                 {'count': 1, 'text': '18:30 结束'},
+                                 {'count': 1,
+                                  'text': 'A Lucerna · 葡萄牙语周报 VOL.3 · LUCERNA '
+                                          'PORTUGUESE WEEKLY'},
+                                 {'count': 1, 'text': 'E VOCÊ? · 说说你自己'},
+                                 {'count': 1, 'text': 'EXERCÍCIOS · 第 2 版练习'},
+                                 {'count': 1,
+                                  'text': 'NÍVEL A2 · Prova e feriado no mesmo '
+                                          'domingo'},
+                                 {'count': 1,
+                                  'text': 'OS HORÁRIOS DO DOMINGO 15 · 周日时间表'},
+                                 {'count': 1, 'text': 'PARA NÃO ERRAR · 口诀'},
+                                 {'count': 1,
+                                  'text': 'Um país, vários relógios · '
+                                          '一个国家，几个时区'},
+                                 {'count': 1, 'text': 'VIDA · 生活'},
+                                 {'count': 1, 'text': '吗？写两句寄来。'},
+                                 {'count': 1, 'text': '周日 12 点开门'},
+                                 {'count': 1, 'text': '在你的国家，落在周日的假日会在周一补休'},
+                                 {'count': 9, 'text': '填空'},
+                                 {'count': 1, 'text': '把词和释义配对'},
+                                 {'count': 1,
+                                  'text': '数学 · conferir 核对 · a escala 排班。'},
+                                 {'count': 1,
+                                  'text': '日 · a natureza 自然科学 · a matemática'},
+                                 {'count': 1, 'text': '用第 1、2 版的数字填空。'},
+                                 {'count': 1, 'text': '第 2 版 / 共 8 版'},
+                                 {'count': 1,
+                                  'text': '答案见第 8 版 · 题目可跨级混排，按题号找答案'},
+                                 {'count': 1, 'text': '补全动词的现在时形式。'},
+                                 {'count': 1,
+                                  'text': '译注｜a proclamação 宣布 · o feriado 假'},
+                                 {'count': 1, 'text': '读第 2 版文章，选出正确答案。'}]}),
+           ('3',
+            {'added_strings': [{'count': 1,
+                                'text': 'A Lucerna · PORTUGIESISCHE '
+                                        'WOCHENZEITUNG VOL.3 · TEXT AUF '
+                                        'PORTUGIESISCH · ERKLÄRUNGEN AUF '
+                                        'DEUTSCH'},
+                               {'count': 1,
+                                'text': 'A2 → B1 · Proclamação da República: '
+                                        '137 Jahre'},
+                               {'count': 1,
+                                'text': 'Antworten auf Seite 8 · Niveaus '
+                                        'gemischt — Antworten nach Nummer '
+                                        'suchen'},
+                               {'count': 1,
+                                'text': 'Bring die Wörter in die richtige '
+                                        'Reihenfolge.'},
+                               {'count': 1, 'text': 'CULTURA · KULTUR'},
+                               {'count': 1, 'text': 'E VOCÊ? · UND DU?'},
+                               {'count': 1,
+                                'text': 'EXERCÍCIOS · ÜBUNGEN SEITE 3'},
+                               {'count': 1,
+                                'text': 'Ergänze im Perfekt (pretérito '
+                                        'perfeito).'},
+                               {'count': 1,
+                                'text': 'Ergänze mit den Wörtern aus dem '
+                                        'Kasten.'},
+                               {'count': 10, 'text': 'Ergänzen'},
+                               {'count': 1,
+                                'text': 'Gibt es in deinem Land einen '
+                                        'Feiertag,'},
+                               {'count': 1,
+                                'text': 'HINWEIS · a monarquia = Monarchie · '
+                                        'a'},
+                               {'count': 1,
+                                'text': 'Lies Seite 3 und wähle die richtige '
+                                        'Antwort.'},
+                               {'count': 1,
+                                'text': 'Marschall · o exílio = Exil · o '
+                                        'governo ='},
+                               {'count': 1,
+                                'text': 'Regierung · a lei = Gesetz.'},
+                               {'count': 3, 'text': 'Satz bilden'},
+                               {'count': 1, 'text': 'Seite 3 von 8'},
+                               {'count': 1,
+                                'text': 'der an die Gründung der Republik'},
+                               {'count': 1,
+                                'text': 'erinnert? Schreib zwei Sätze und '
+                                        'schick'},
+                               {'count': 1,
+                                'text': 'república = Republik · o marechal ='},
+                               {'count': 1, 'text': 'sie ein.'}],
+             'cjk_added': {},
+             'cjk_core_total': 157,
+             'cjk_edition_total': 0,
+             'removed_strings': [{'count': 1,
+                                  'text': 'A Lucerna · 葡萄牙语周报 VOL.3 · LUCERNA '
+                                          'PORTUGUESE WEEKLY'},
+                                 {'count': 1,
+                                  'text': 'A2 → B1 · Proclamação da República: '
+                                          '137 anos · 共和国宣言 137 周年'},
+                                 {'count': 1, 'text': 'CULTURA · 文化'},
+                                 {'count': 1, 'text': 'E VOCÊ? · 说说你自己'},
+                                 {'count': 1, 'text': 'EXERCÍCIOS · 第 3 版练习'},
+                                 {'count': 1,
+                                  'text': '· o governo 政府 · a lei 法律。'},
+                                 {'count': 1,
+                                  'text': '共和国 · o marechal 元帅 · o exílio 流亡'},
+                                 {'count': 1, 'text': '写两句寄来。'},
+                                 {'count': 1, 'text': '在你的国家，有纪念共和国建立的假日吗？'},
+                                 {'count': 10, 'text': '填空'},
+                                 {'count': 1, 'text': '把词组成正确的句子。'},
+                                 {'count': 1, 'text': '用方框里的词填空。'},
+                                 {'count': 1,
+                                  'text': '用过去时（pretérito perfeito）补全。'},
+                                 {'count': 1, 'text': '第 3 版 / 共 8 版'},
+                                 {'count': 1,
+                                  'text': '答案见第 8 版 · 题目可跨级混排，按题号找答案'},
+                                 {'count': 1,
+                                  'text': '译注｜a monarquia 君主制 · a república'},
+                                 {'count': 1, 'text': '读第 3 版文章，选出正确答案。'},
+                                 {'count': 3, 'text': '造句'}]})]}

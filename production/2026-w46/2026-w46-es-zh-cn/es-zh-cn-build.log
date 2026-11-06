@@ -1,0 +1,104 @@
+=== build zh-cn ===
+   1  'p.text(975, 372, "EL PERIÓDICO SEMANAL PARA APRENDER — LA VI' -> 'p.text(975, 372, "西班牙语正文 · 简体中文讲解 — 给简体中文读者的版本", 19.5, "sans'
+   1  'af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16' -> 'af.para(f"— 第 {pg} 版 —", 14, "sans", True, OLIVE, lh=1.16, g'
+   1  'La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY' -> 'La Lucerna · 西班牙语周报 VOL.3 · 正文西班牙语 · 讲解简体中文'
+   6  'weekly-report-w46-es-core' -> 'weekly-report-w46-es-zh-cn'
+   1  'La-Lucerna-VOL3-web.pdf' -> 'La-Lucerna-VOL3-ZH-CN-web.pdf'
+   1  'La-Lucerna-VOL3.pdf' -> 'La-Lucerna-VOL3-ZH-CN.pdf'
+bslib4.py CJK distinct: 18 中体共周报文正注版牙班第简西解讲译语
+content12.py CJK distinct: 193 、。一丁三上不两中么义习二五人什价份会低住体你保做停克全六兰写决准出前务动劳单即历口句可号同后周和四国圣在塞填备大天头始子字学完家寄对小工己开式录形待心快成房找
+content34.py CJK distinct: 182 、。一丁三不与丐两中主义之乞习二五亚位体你克兰写几出分判利前加动包化单卖去友句召可号吃名后吗周和哪四国图圣在地场型填夏多大天子完家寄对小己布开式形征很成或找把拉
+content56.py CJK distinct: 217 。《》一三上不两么习事五亲人什从令件份会传位住体你信克公六兰具册写决减出刊划判前动单原去变句只召可号名后否周四围图在型填多大天始子完定实宣家寄对封将小局屋工差己
+content7.py CJK distinct: 204 、。一丁三下不与丐世两个乞于五亚人件价任份会传住体作佳例信停克全兰兵具写军冠冻分别到剑加动劳半单去句召号合同名后告周和国在地场填士大天始子字完官定实家寄对小就工
+content8.py CJK distinct: 181 、。一丁三上下与两个中为主举义习人们价会住作信克全兰再写分列到前动区单即原去参口句召可号吃合同名员周和唯围图圣在地场多大如始委子完客室家寄对封小少居工差带开形征
+svglib.py CJK distinct: 2 重阳
+render.py CJK distinct: 0 
+$ /usr/bin/python3 run.py
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1358 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=358 (bottom 1540)
+P2 col3 ends 994.5
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=859 (bottom 1560)
+P3 col3 ends 1476.75
+  flow[P3-ex] ended col 2/3 y=2465 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=913 (bottom 1080)
+P4 col3 ends 876.0
+  flow[P4-ex] ended col 2/3 y=2309 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1008 (bottom 1560)
+P5 col3 ends 1275.75
+  flow[P5-ex] ended col 2/3 y=2259 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=840 (bottom 1540)
+P6 col3 ends 1407.0 timeline box height 920.0000000000001
+  flow[P6-ex] ended col 3/3 y=2571 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1151 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1121 (bottom 1560)
+P7 col3 ends 1833.58
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=1069 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2382 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 47, '词汇配对': 12, '判断对错': 8, '造句': 7, '句型转换': 10, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE
+[exit 0]
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python render.py
+rendered p1-portada
+rendered p2-vida
+rendered p3-cultura
+rendered p4-deporte
+rendered p5-juventud
+rendered p6-afondo
+rendered p7-lengua
+rendered p8-ejercicios
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/La-Lucerna-VOL3-ZH-CN.pdf 17612019
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/La-Lucerna-VOL3-ZH-CN-web.pdf: 1083484 bytes, 44933 text bytes
+
+web PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/La-Lucerna-VOL3-ZH-CN-web.pdf 1083484
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg
+538 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 175692 bytes
+  font LucernaNotoSansCJKSC-Bold: 179648 bytes
+  font LucernaNotoSerifCJKSC-Regular: 248912 bytes
+  font LucernaNotoSerifCJKSC-Bold: 251936 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31312 bytes
+
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-zh-cn-diff.json
+p1: +2 strings / -2 strings; CJK core 180 -> edition 214; added CJK chars: 34 {'读': 1, '西': 2, '班': 2, '牙': 2, '正': 2, '的': 1, '语': 2, '文': 5, '简': 3, '体': 3}
+p2: +1 strings / -1 strings; CJK core 295 -> edition 307; added CJK chars: 12 {'西': 1, '班': 1, '牙': 1, '正': 1, '语': 1, '文': 2, '讲': 1, '解': 1, '简': 1, '体': 1}
+p3: +1 strings / -1 strings; CJK core 155 -> edition 167; added CJK chars: 12 {'文': 2, '正': 1, '西': 1, '班': 1, '牙': 1, '语': 1, '讲': 1, '解': 1, '简': 1, '体': 1}
+p4: +1 strings / -1 strings; CJK core 176 -> edition 188; added CJK chars: 12 {'体': 1, '西': 1, '班': 1, '牙': 1, '语': 1, '文': 2, '正': 1, '讲': 1, '解': 1, '简': 1}
+p5: +1 strings / -1 strings; CJK core 238 -> edition 250; added CJK chars: 12 {'西': 1, '班': 1, '牙': 1, '文': 2, '正': 1, '语': 1, '讲': 1, '解': 1, '简': 1, '体': 1}
+p6: +1 strings / -1 strings; CJK core 80 -> edition 92; added CJK chars: 12 {'正': 1, '西': 1, '班': 1, '牙': 1, '语': 1, '文': 2, '讲': 1, '解': 1, '简': 1, '体': 1}
+p7: +1 strings / -1 strings; CJK core 412 -> edition 424; added CJK chars: 12 {'语': 1, '体': 1, '文': 2, '西': 1, '班': 1, '牙': 1, '正': 1, '讲': 1, '解': 1, '简': 1}
+p8: +9 strings / -9 strings; CJK core 964 -> edition 992; added CJK chars: 28 {'第': 8, '版': 8, '文': 2, '中': 1, '简': 1, '西': 1, '班': 1, '牙': 1, '解': 1, '体': 1}
+TOTAL added CJK characters: 134
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py compare --core-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg --edition-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg/p8-ejercicios.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-zh-cn-p8-compare.json
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg/p8-ejercicios.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/occlusion_audit.py /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-zh-cn-occlusion.json
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-zh-cn/svg: 0 flags 
+[exit 0]

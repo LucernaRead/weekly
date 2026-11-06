@@ -1,0 +1,2735 @@
+{
+ "core_svg": "../files/weekly-report-w46-it-core/svg",
+ "edition_svg": "../files/weekly-report-w46-it-de/svg",
+ "pages": {
+  "1": {
+   "added_strings": [
+    {
+     "text": "(Martinstag, Mi 11. November)",
+     "count": 1
+    },
+    {
+     "text": "11 — November, Martinstag, Mittwoch",
+     "count": 1
+    },
+    {
+     "text": "20.45 — Anstoß der zwei",
+     "count": 1
+    },
+    {
+     "text": "29. — Ausgabe der Festa del Torrone in",
+     "count": 1
+    },
+    {
+     "text": "32. — Ausgabe von Eurochocolate in",
+     "count": 1
+    },
+    {
+     "text": "ADESSO TU · SIE SIND DRAN",
+     "count": 1
+    },
+    {
+     "text": "Azzurri-Nächte, Donnerstag und",
+     "count": 1
+    },
+    {
+     "text": "Cremona (29. Torrone-Fest in Cremona)",
+     "count": 1
+    },
+    {
+     "text": "Der Wochenplan · Cosa succede",
+     "count": 1
+    },
+    {
+     "text": "Die Martinswoche · Siehe Seite 2",
+     "count": 1
+    },
+    {
+     "text": "Diese Woche ist Martinswoche",
+     "count": 1
+    },
+    {
+     "text": "Eurochocolate in Perugia)",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · l'estate di San Martino:",
+     "count": 1
+    },
+    {
+     "text": "IN BREVE · KURZ GEMELDET",
+     "count": 1
+    },
+    {
+     "text": "IN QUESTO NUMERO · INHALT",
+     "count": 1
+    },
+    {
+     "text": "ITALIENISCH · VOL.3 · SAN MARTINO · IL VINO NUOVO · L'ITALIA",
+     "count": 1
+    },
+    {
+     "text": "ITALIENISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER",
+     "count": 1
+    },
+    {
+     "text": "LA NOTIZIA · DIE TITELSTORY",
+     "count": 1
+    },
+    {
+     "text": "LA SETTIMANA IN CIFRE",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lesen Sie die Titelseite und wählen Sie die richtige Antwort · Lösungen auf Seite 8",
+     "count": 1
+    },
+    {
+     "text": "Martinsommer · il mosto Most/Neuer Wein",
+     "count": 1
+    },
+    {
+     "text": "OGNI SETTIMANA IN ITALIANO · ITALIENISCH, WIE ITALIEN ES LIEST",
+     "count": 1
+    },
+    {
+     "text": "Perugia, ab 13. November (32.",
+     "count": 1
+    },
+    {
+     "text": "QUIZ LAMPO · BLITZQUIZ",
+     "count": 1
+    },
+    {
+     "text": "Seite 1 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sonntag (Anstoß der zwei Länderspiele)",
+     "count": 1
+    },
+    {
+     "text": "Termine nach Kalender; Uhrzeiten können sich ändern.",
+     "count": 1
+    },
+    {
+     "text": "· la cantina Weinkeller · assaggiare kosten.",
+     "count": 1
+    },
+    {
+     "text": "„Martinsommer“: drei milde Tage.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "11 — novembre, il giorno di San",
+     "count": 1
+    },
+    {
+     "text": "20.45 — l'ora delle due notti azzurre,",
+     "count": 1
+    },
+    {
+     "text": "29ª — l'edizione della Festa del Torrone",
+     "count": 1
+    },
+    {
+     "text": "32ª — l'edizione di Eurochocolate a",
+     "count": 1
+    },
+    {
+     "text": "ADESSO TU · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "IN BREVE · 快讯",
+     "count": 1
+    },
+    {
+     "text": "IN QUESTO NUMERO · 本期目录",
+     "count": 1
+    },
+    {
+     "text": "LA NOTIZIA · 头条",
+     "count": 1
+    },
+    {
+     "text": "LA SETTIMANA IN CIFRE · 数字看本周",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "Martino, mercoledì（圣马丁节，11 月 11",
+     "count": 1
+    },
+    {
+     "text": "OGNI SETTIMANA IN ITALIANO · 每周一期 · 读意大利人正在读的意大利语",
+     "count": 1
+    },
+    {
+     "text": "Perugia, dal 13 novembre（佩鲁贾巧克力",
+     "count": 1
+    },
+    {
+     "text": "QUIZ LAMPO · 闪电问答",
+     "count": 1
+    },
+    {
+     "text": "a Cremona（克雷莫纳牛轧糖节第 29 届）",
+     "count": 1
+    },
+    {
+     "text": "assaggiare 品尝。",
+     "count": 1
+    },
+    {
+     "text": "giovedì e domenica（两场国家队比赛的",
+     "count": 1
+    },
+    {
+     "text": "il mosto 葡萄汁/新酒 · la cantina 酒窖 ·",
+     "count": 1
+    },
+    {
+     "text": "“圣马丁的夏天”：初寒之后三天温和天气。",
+     "count": 1
+    },
+    {
+     "text": "圣马丁之周 · 详见第 2 版",
+     "count": 1
+    },
+    {
+     "text": "开球时间）",
+     "count": 1
+    },
+    {
+     "text": "意 大 利 语 周 报 · VOL.3 · SAN MARTINO · IL VINO NUOVO · L'ITALIA",
+     "count": 1
+    },
+    {
+     "text": "日周三）",
+     "count": 1
+    },
+    {
+     "text": "日程以各活动日历为准，时间可能有变。",
+     "count": 1
+    },
+    {
+     "text": "本周日程 · Cosa succede, giorno per giorno",
+     "count": 1
+    },
+    {
+     "text": "本周是圣马丁周",
+     "count": 1
+    },
+    {
+     "text": "第 1 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "节第 32 届）",
+     "count": 1
+    },
+    {
+     "text": "讲解｜l'estate di San Martino 圣马丁的夏天 ·",
+     "count": 1
+    },
+    {
+     "text": "读头版，选出正确答案 · 答案见第 8 版",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 192,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "2": {
+   "added_strings": [
+    {
+     "text": "Bei Redaktionsschluss war der Haushalt noch",
+     "count": 1
+    },
+    {
+     "text": "E TU? · Jetzt du",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · ÜBUNGEN ZU SEITE 2",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie die Sätze auf Italienisch.",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie die Verben im Präsens.",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · il mosto Most/Neuer Wein ·",
+     "count": 1
+    },
+    {
+     "text": "Hast du neuen Wein oder Maronen",
+     "count": 1
+    },
+    {
+     "text": "Italienisch an die Redaktion.",
+     "count": 1
+    },
+    {
+     "text": "Kastanie · l'oca Gans · il mantello",
+     "count": 1
+    },
+    {
+     "text": "L'11 NOVEMBRE · Martinstag",
+     "count": 1
+    },
+    {
+     "text": "LA FRASE PER RICORDARE",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO A2 · San Martino e il vino nuovo · Martinstag und neuer Wein",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lesen Sie den Artikel auf Seite 2 und wählen",
+     "count": 1
+    },
+    {
+     "text": "Lösungen Seite 8 · Stufen gemischt — nach Nummer suchen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 10
+    },
+    {
+     "text": "Mantel · traslocare umziehen.",
+     "count": 1
+    },
+    {
+     "text": "Seite 2 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sie die richtige Antwort.",
+     "count": 1
+    },
+    {
+     "text": "VITA · LEBEN",
+     "count": 1
+    },
+    {
+     "text": "Wörter zuordnen",
+     "count": 1
+    },
+    {
+     "text": "kein Gesetz — siehe Seite 6.",
+     "count": 1
+    },
+    {
+     "text": "la cantina Weinkeller · la castagna",
+     "count": 1
+    },
+    {
+     "text": "probiert? Schreib zwei Sätze auf",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "E TU? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · 第 2 版练习",
+     "count": 1
+    },
+    {
+     "text": "L'11 NOVEMBRE · 圣马丁节",
+     "count": 1
+    },
+    {
+     "text": "LA FRASE PER RICORDARE · 口诀",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO A2 · San Martino e il vino nuovo · 圣马丁与新酒",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "VITA · 生活",
+     "count": 1
+    },
+    {
+     "text": "mantello 斗篷 · traslocare 搬家。",
+     "count": 1
+    },
+    {
+     "text": "你尝过新酒或烤栗子吗？写两句意大利语寄",
+     "count": 1
+    },
+    {
+     "text": "发稿时预算法案尚未成为法律，详见第 6 版。",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 10
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "用意大利语补全句子。",
+     "count": 1
+    },
+    {
+     "text": "第 2 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "给编辑部。",
+     "count": 1
+    },
+    {
+     "text": "补全动词的现在时形式。",
+     "count": 1
+    },
+    {
+     "text": "译注｜il mosto 葡萄汁/新酒 · la cantina",
+     "count": 1
+    },
+    {
+     "text": "读第 2 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "酒窖 · la castagna 栗子 · l'oca 鹅 · il",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 174,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "3": {
+   "added_strings": [
+    {
+     "text": "A2 → B1 · Torrone, cioccolato e tartufo · Torrone, Schokolade und Trüffel",
+     "count": 1
+    },
+    {
+     "text": "Achtung: Hilfsverb avere oder essere.",
+     "count": 1
+    },
+    {
+     "text": "Bilden Sie aus den Wörtern richtige Sätze.",
+     "count": 1
+    },
+    {
+     "text": "CULTURA · KULTUR",
+     "count": 1
+    },
+    {
+     "text": "E TU? · Jetzt du",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · ÜBUNGEN ZU SEITE 3",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie die Wörter aus dem Kasten.",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie mit dem passato prossimo.",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · il torrone Nougat · il",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lesen Sie den Artikel auf Seite 3 und wählen",
+     "count": 1
+    },
+    {
+     "text": "Lieber Torrone oder Schokolade? Schreib",
+     "count": 1
+    },
+    {
+     "text": "Lösungen Seite 8 · Stufen gemischt — nach Nummer suchen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 10
+    },
+    {
+     "text": "Nachstellung.",
+     "count": 1
+    },
+    {
+     "text": "Seite 3 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sie die richtige Antwort.",
+     "count": 1
+    },
+    {
+     "text": "Sätze bilden",
+     "count": 3
+    },
+    {
+     "text": "Werkstatt · la degustazione Verkostung",
+     "count": 1
+    },
+    {
+     "text": "cioccolato Schokolade · il laboratorio",
+     "count": 1
+    },
+    {
+     "text": "zwei Sätze und schick sie.",
+     "count": 1
+    },
+    {
+     "text": "· la rievocazione historische",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "A2 → B1 · Torrone, cioccolato e tartufo · 牛轧糖、巧克力与松露",
+     "count": 1
+    },
+    {
+     "text": "CULTURA · 文化",
+     "count": 1
+    },
+    {
+     "text": "E TU? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · 第 3 版练习",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "degustazione 品尝会 · la rievocazione 历",
+     "count": 1
+    },
+    {
+     "text": "你更喜欢牛轧糖还是巧克力？写两句寄来。",
+     "count": 1
+    },
+    {
+     "text": "克力 · il laboratorio 实验室/工坊 · la",
+     "count": 1
+    },
+    {
+     "text": "助动词 avere / essere。",
+     "count": 1
+    },
+    {
+     "text": "史重演。",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 10
+    },
+    {
+     "text": "把词组成正确的句子。",
+     "count": 1
+    },
+    {
+     "text": "用 passato prossimo（近过去时）补全，注意",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空。",
+     "count": 1
+    },
+    {
+     "text": "第 3 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜il torrone 牛轧糖 · il cioccolato 巧",
+     "count": 1
+    },
+    {
+     "text": "读第 3 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "造句",
+     "count": 3
+    }
+   ],
+   "cjk_core_total": 165,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "4": {
+   "added_strings": [
+    {
+     "text": "Donnerstagabend? Schreib zwei Sätze auf",
+     "count": 1
+    },
+    {
+     "text": "E TU? · Jetzt du",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · ÜBUNGEN ZU SEITE 4",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie mit dem Komparativ des Wortes",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie mit dem passato prossimo.",
+     "count": 1
+    },
+    {
+     "text": "Gruppe · decisivo entscheidend · la",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · la sosta Ligapause · il girone",
+     "count": 1
+    },
+    {
+     "text": "Italienisch.",
+     "count": 1
+    },
+    {
+     "text": "LA SETTIMANA DELLO SPORT · Die Sportwoche",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B1 · Le notti azzurre e il tennis · Azzurri-Nächte und Tennis",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lesen Sie den Artikel auf Seite 4 und wählen",
+     "count": 1
+    },
+    {
+     "text": "Lösungen Seite 8 · Stufen gemischt — nach Nummer suchen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 9
+    },
+    {
+     "text": "SPORT · SPORT",
+     "count": 1
+    },
+    {
+     "text": "Seite 4 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sie die richtige Antwort.",
+     "count": 1
+    },
+    {
+     "text": "Welches Spiel siehst du",
+     "count": 1
+    },
+    {
+     "text": "Wörter zuordnen",
+     "count": 1
+    },
+    {
+     "text": "in Klammern (siehe Spielplan).",
+     "count": 1
+    },
+    {
+     "text": "presentazione Vorschau.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "E TU? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · 第 4 版练习",
+     "count": 1
+    },
+    {
+     "text": "LA SETTIMANA DELLO SPORT · 体育周",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B1 · Le notti azzurre e il tennis · 国家队之夜与网球",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "SPORT · 体育",
+     "count": 1
+    },
+    {
+     "text": "decisivo 决定性的 · la presentazione 赛前",
+     "count": 1
+    },
+    {
+     "text": "介绍。",
+     "count": 1
+    },
+    {
+     "text": "周四晚上你看哪场比赛？写两句意大利语寄",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 9
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "来。",
+     "count": 1
+    },
+    {
+     "text": "用 passato prossimo 补全。",
+     "count": 1
+    },
+    {
+     "text": "用括号里词的比较级填空（数据看赛程表）。",
+     "count": 1
+    },
+    {
+     "text": "第 4 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜la sosta 休赛期 · il girone 小组 ·",
+     "count": 1
+    },
+    {
+     "text": "读第 4 版文章，选出正确答案。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 151,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "5": {
+   "added_strings": [
+    {
+     "text": "(Italien–Frankreich im TV)",
+     "count": 1
+    },
+    {
+     "text": "(So: Belgien–Italien, dann Heimfahrt)",
+     "count": 1
+    },
+    {
+     "text": "2. Giovedì: Italia–Francia in TV",
+     "count": 1
+    },
+    {
+     "text": "3. Venerdì: apre Eurochocolate (Fr:",
+     "count": 1
+    },
+    {
+     "text": "4. Sabato: cinema a Milano (Sa: Kino",
+     "count": 1
+    },
+    {
+     "text": "5. Domenica: Belgio–Italia e rientro",
+     "count": 1
+    },
+    {
+     "text": "Achtung: Einige Wörter stehen im Plural.",
+     "count": 1
+    },
+    {
+     "text": "Cuneo (Mi: Autorenfestival beginnt in",
+     "count": 1
+    },
+    {
+     "text": "Cuneo)",
+     "count": 1
+    },
+    {
+     "text": "E TU? · Jetzt du",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · ÜBUNGEN ZU SEITE 5",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie die Wörter aus dem Kasten.",
+     "count": 1
+    },
+    {
+     "text": "Ergänzen Sie mit dem Futuro (futuro",
+     "count": 1
+    },
+    {
+     "text": "Eurochocolate beginnt)",
+     "count": 1
+    },
+    {
+     "text": "Experiment/Erkundung · l'ospite Gast.",
+     "count": 1
+    },
+    {
+     "text": "GIOVANI · JUNGE LEUTE",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · il finestrino kleines Fenster ·",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B1 · Leggere, guardare, giocare · Lesen, schauen, spielen",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lesen Sie den Artikel auf Seite 5 und wählen",
+     "count": 1
+    },
+    {
+     "text": "Lieber Buch, Film oder Spiel? Schreib",
+     "count": 1
+    },
+    {
+     "text": "Lösungen Seite 8 · Stufen gemischt — nach Nummer suchen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 10
+    },
+    {
+     "text": "Richtig oder falsch",
+     "count": 3
+    },
+    {
+     "text": "Seite 5 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sie die richtige Antwort.",
+     "count": 1
+    },
+    {
+     "text": "in Mailand)",
+     "count": 1
+    },
+    {
+     "text": "l'autore Autor · indipendente",
+     "count": 1
+    },
+    {
+     "text": "semplice).",
+     "count": 1
+    },
+    {
+     "text": "unabhängig · la sperimentazione",
+     "count": 1
+    },
+    {
+     "text": "zwei Sätze und schick sie.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "2. Giovedì: Italia–Francia in TV（电视",
+     "count": 1
+    },
+    {
+     "text": "3. Venerdì: apre Eurochocolate（巧克",
+     "count": 1
+    },
+    {
+     "text": "4. Sabato: cinema a Milano（周六：米",
+     "count": 1
+    },
+    {
+     "text": "5. Domenica: Belgio–Italia e rientro（",
+     "count": 1
+    },
+    {
+     "text": "Cuneo（周三：库内奥作家进城开幕）",
+     "count": 1
+    },
+    {
+     "text": "E TU? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · 第 5 版练习",
+     "count": 1
+    },
+    {
+     "text": "GIOVANI · 青年",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B1 · Leggere, guardare, giocare · 阅读、观看、游戏",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "indipendente 独立的 · la",
+     "count": 1
+    },
+    {
+     "text": "sperimentazione 实验/探索 · l'ospite 客",
+     "count": 1
+    },
+    {
+     "text": "人/嘉宾。",
+     "count": 1
+    },
+    {
+     "text": "你更喜欢书、电影还是比赛？写两句寄来。",
+     "count": 1
+    },
+    {
+     "text": "兰看电影）",
+     "count": 1
+    },
+    {
+     "text": "判断",
+     "count": 3
+    },
+    {
+     "text": "力节开幕）",
+     "count": 1
+    },
+    {
+     "text": "周日：比利时对意大利与返程）",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 10
+    },
+    {
+     "text": "用将来时（futuro semplice）补全。",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空。注意：有的词要变成复数。",
+     "count": 1
+    },
+    {
+     "text": "看意大利对法国）",
+     "count": 1
+    },
+    {
+     "text": "第 5 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜il finestrino 小窗 · l'autore 作者 ·",
+     "count": 1
+    },
+    {
+     "text": "读第 5 版文章，选出正确答案。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 213,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "6": {
+   "added_strings": [
+    {
+     "text": "APPROFONDIMENTO · VERTIEFUNG",
+     "count": 1
+    },
+    {
+     "text": "Bei Redaktionsschluss hatte das Parlament",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · ÜBUNGEN ZU SEITE 6",
+     "count": 1
+    },
+    {
+     "text": "Finanzierung · lo scaglione Steuerstufe",
+     "count": 1
+    },
+    {
+     "text": "HINWEIS · la manovra Haushaltsgesetz",
+     "count": 1
+    },
+    {
+     "text": "LE MINIME DI ESEMPIO · BEISPIEL-TIEFSTWERTE (DATI INVENTATI PER L'ESERCIZIO)",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B2 · La manovra spiegata · Der Haushalt erklärt",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Lösungen Seite 8 · Stufen gemischt — nach Nummer suchen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 8
+    },
+    {
+     "text": "Maßnahmen, kein Abstimmungsergebnis.",
+     "count": 1
+    },
+    {
+     "text": "Mit Wörtern aus dem Kasten ergänzen:",
+     "count": 1
+    },
+    {
+     "text": "Sehen Sie sich das Übungsdiagramm oben an",
+     "count": 1
+    },
+    {
+     "text": "Seite 6 von 8",
+     "count": 1
+    },
+    {
+     "text": "manovra · deficit · copertura · scaglione",
+     "count": 1
+    },
+    {
+     "text": "noch nicht abgestimmt: Diese Ausgabe nennt",
+     "count": 1
+    },
+    {
+     "text": "nur Daten, DPB-Zahlen und berichtete",
+     "count": 1
+    },
+    {
+     "text": "und wählen Sie die richtige Antwort.",
+     "count": 1
+    },
+    {
+     "text": "· il deficit Defizit · la copertura",
+     "count": 1
+    },
+    {
+     "text": "· l'iter Gesetzgebungsverfahren.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "APPROFONDIMENTO · 深读",
+     "count": 1
+    },
+    {
+     "text": "ESERCIZI · 第 6 版练习",
+     "count": 1
+    },
+    {
+     "text": "LE MINIME DI ESEMPIO · 练习用示例最低温 (DATI INVENTATI PER L'ESERCIZIO)",
+     "count": 1
+    },
+    {
+     "text": "LIVELLO B2 · La manovra spiegata · 预算法案详解",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "copertura · scaglione",
+     "count": 1
+    },
+    {
+     "text": "发稿时议会尚未表决：本期只写日期、DPB 数",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 8
+    },
+    {
+     "text": "字 · la copertura 资金来源 · lo scaglione",
+     "count": 1
+    },
+    {
+     "text": "字与报道中的措施，不写表决结果。",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空：manovra · deficit ·",
+     "count": 1
+    },
+    {
+     "text": "看上面的练习图表，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "税级 · l'iter 审议程序。",
+     "count": 1
+    },
+    {
+     "text": "第 6 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜la manovra 预算法案 · il deficit 赤",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 144,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "7": {
+   "added_strings": [
+    {
+     "text": "An Martinstag wird Most zu Wein.",
+     "count": 1
+    },
+    {
+     "text": "Auch der historische Arlecchino-Zug kommt. (Pagina 3)",
+     "count": 1
+    },
+    {
+     "text": "Die Sonne schien wieder. (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "Die zwei Spiele dieser Woche sind entscheidend. (Pagina 4)",
+     "count": 1
+    },
+    {
+     "text": "Drei Sonnentage nach der ersten Kälte. (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "ERRORI TIPICI · TYPISCHE FEHLER",
+     "count": 1
+    },
+    {
+     "text": "Ein Beispiel der Redaktion, kein echter",
+     "count": 1
+    },
+    {
+     "text": "Ein Buch in der Hand, ein Film vor Augen. (Pagina 5)",
+     "count": 1
+    },
+    {
+     "text": "FRASI DELLA SETTIMANA · SÄTZE DER WOCHE (wörtlich aus dieser Ausgabe)",
+     "count": 1
+    },
+    {
+     "text": "Kino, das Stellung bezieht. (Pagina 2)",
+     "count": 1
+    },
+    {
+     "text": "LA PAROLA · DAS WORT",
+     "count": 1
+    },
+    {
+     "text": "LA PROSSIMA SETTIMANA · Nächste Woche (VOL.4)",
+     "count": 1
+    },
+    {
+     "text": "LINGUA · SPRACHE",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Leserbrief. Bis Redaktionsschluss kamen",
+     "count": 1
+    },
+    {
+     "text": "Lücken",
+     "count": 9
+    },
+    {
+     "text": "Nach è probabile che / è possibile che /",
+     "count": 1
+    },
+    {
+     "text": "Pläne im Futur: andremo, assaggeremo,",
+     "count": 1
+    },
+    {
+     "text": "Regierungsbeschluss heißt noch nicht Gesetz. (Pagina 6)",
+     "count": 1
+    },
+    {
+     "text": "Seite 7 von 8",
+     "count": 1
+    },
+    {
+     "text": "Sprache im Fokus · Tre livelli, tre strumenti · Drei Stufen, drei Werkzeuge",
+     "count": 1
+    },
+    {
+     "text": "Texte für Seite 8; das Versprechen gilt für",
+     "count": 1
+    },
+    {
+     "text": "VOL.4 — bitte an die Redaktion schreiben.",
+     "count": 1
+    },
+    {
+     "text": "Vergangenheit mit dem passato prossimo:",
+     "count": 1
+    },
+    {
+     "text": "Zwei Azzurri-Nächte, 20.45 Uhr. (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "andare mit essere als Hilfsverb",
+     "count": 1
+    },
+    {
+     "text": "arrivare/andare u. a. mit essere, Partizip",
+     "count": 1
+    },
+    {
+     "text": "avere bleibt das Partizip unverändert.",
+     "count": 1
+    },
+    {
+     "text": "bisogna che steht der Konjunktiv; nach so",
+     "count": 1
+    },
+    {
+     "text": "che / scrivono che steht der Indikativ.",
+     "count": 1
+    },
+    {
+     "text": "guarderemo.",
+     "count": 1
+    },
+    {
+     "text": "keine echten Briefe und keine besten",
+     "count": 1
+    },
+    {
+     "text": "mosto = Most/Neuer Wein. Siehe Seite 2:",
+     "count": 1
+    },
+    {
+     "text": "mosto ist Singular, Verb im Singular",
+     "count": 1
+    },
+    {
+     "text": "nach fa bleibt freddo unverändert",
+     "count": 1
+    },
+    {
+     "text": "passt sich in Genus und Numerus an; mit",
+     "count": 1
+    },
+    {
+     "text": "è probabile che + Konjunktiv",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "ERRORI TIPICI · 常见错误",
+     "count": 1
+    },
+    {
+     "text": "FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）",
+     "count": 1
+    },
+    {
+     "text": "LA PAROLA · 本周生词",
+     "count": 1
+    },
+    {
+     "text": "LA PROSSIMA SETTIMANA · 下期预告 (VOL.4)",
+     "count": 1
+    },
+    {
+     "text": "LINGUA · 语言",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "VOL.4，请寄信给编辑部。",
+     "count": 1
+    },
+    {
+     "text": "andare 用 essere 作助动词",
+     "count": 1
+    },
+    {
+     "text": "che 后用虚拟式；so che、scrivono che 后用陈",
+     "count": 1
+    },
+    {
+     "text": "essere，分词配合性数；avere 的分词不变。",
+     "count": 1
+    },
+    {
+     "text": "fa 后面的 freddo 永远不变",
+     "count": 1
+    },
+    {
+     "text": "guarderemo。",
+     "count": 1
+    },
+    {
+     "text": "mosto = 葡萄汁/新酒。本周见第 2 版：圣马",
+     "count": 1
+    },
+    {
+     "text": "mosto 是单数，动词用单数",
+     "count": 1
+    },
+    {
+     "text": "è probabile che / è possibile che / bisogna",
+     "count": 1
+    },
+    {
+     "text": "è probabile che 后用虚拟式",
+     "count": 1
+    },
+    {
+     "text": "丁节葡萄汁变新酒。",
+     "count": 1
+    },
+    {
+     "text": "两个蓝色之夜，20 点 45 分。 (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "初寒之后三天晴。 (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "到真实来信与第 8 版最佳作文，承诺顺延",
+     "count": 1
+    },
+    {
+     "text": "历史列车阿莱基诺也来了。 (Pagina 3)",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 9
+    },
+    {
+     "text": "太阳重新照耀。 (Pagina 1)",
+     "count": 1
+    },
+    {
+     "text": "手里一本书，眼里一部电影。 (Pagina 5)",
+     "count": 1
+    },
+    {
+     "text": "政府批准不等于已经是法律。 (Pagina 6)",
+     "count": 1
+    },
+    {
+     "text": "本周两场比赛至关重要。 (Pagina 4)",
+     "count": 1
+    },
+    {
+     "text": "用将来时说计划：andremo、assaggeremo、",
+     "count": 1
+    },
+    {
+     "text": "第 7 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "聚焦语言 · Tre livelli, tre strumenti · 三个级别，三件工具",
+     "count": 1
+    },
+    {
+     "text": "讲过去用近过去时：arrivare/andare 等用",
+     "count": 1
+    },
+    {
+     "text": "这是编辑部示例，非真实来信。截稿时未收",
+     "count": 1
+    },
+    {
+     "text": "述式。",
+     "count": 1
+    },
+    {
+     "text": "选择立场的电影。 (Pagina 2)",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 294,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "8": {
+   "added_strings": [
+    {
+     "text": "1. San Martino — Martinstag ist am 11. November",
+     "count": 1
+    },
+    {
+     "text": "10. B — Schokoladenfest eröffnet in Perugia",
+     "count": 1
+    },
+    {
+     "text": "100. scaglione — scaglione = Steuerstufe",
+     "count": 1
+    },
+    {
+     "text": "101. andremo — andare, Futur, noi: andremo",
+     "count": 1
+    },
+    {
+     "text": "102. assaggeremo — assaggiare, Futur, noi: assaggeremo",
+     "count": 1
+    },
+    {
+     "text": "103. guarderemo — guardare, Futur, noi: guarderemo",
+     "count": 1
+    },
+    {
+     "text": "104. B — durerà ist Futur von durare",
+     "count": 1
+    },
+    {
+     "text": "105. è arrivato — arrivare mit essere: è arrivato",
+     "count": 1
+    },
+    {
+     "text": "106. abbiamo assaggiato — assaggiare mit avere",
+     "count": 1
+    },
+    {
+     "text": "107. sono andati — andare mit essere, Plural: sono andati",
+     "count": 1
+    },
+    {
+     "text": "108. B — aprire mit avere + unverändertes Partizip",
+     "count": 1
+    },
+    {
+     "text": "109. piova — è probabile che + Konjunktiv: piova",
+     "count": 1
+    },
+    {
+     "text": "11. mosto — mosto = Most/Neuer Wein",
+     "count": 1
+    },
+    {
+     "text": "110. nevichi — è possibile che + Konjunktiv: nevichi",
+     "count": 1
+    },
+    {
+     "text": "111. sia — bisogna che + Konjunktiv: sia",
+     "count": 1
+    },
+    {
+     "text": "112. B — so che + Indikativ: torna",
+     "count": 1
+    },
+    {
+     "text": "113. B — Martinstag = San Martino",
+     "count": 1
+    },
+    {
+     "text": "114. A — Most wird zu neuem Wein",
+     "count": 1
+    },
+    {
+     "text": "115. A — Italien–Frankreich in San Siro",
+     "count": 1
+    },
+    {
+     "text": "116. A — Schokoladenfest eröffnet am Freitag",
+     "count": 1
+    },
+    {
+     "text": "117. B — Das Torrone-Fest ist in Cremona",
+     "count": 1
+    },
+    {
+     "text": "118. B — Festival dei Popoli: 86 Filme",
+     "count": 1
+    },
+    {
+     "text": "119. A — Belgien–Italien am Sonntagabend",
+     "count": 1
+    },
+    {
+     "text": "12. cantina — cantina = Weinkeller",
+     "count": 1
+    },
+    {
+     "text": "120. B — Scrittorincittà ist in Cuneo",
+     "count": 1
+    },
+    {
+     "text": "121. B — Der Martinsommer dauert drei Tage und ein bisschen",
+     "count": 1
+    },
+    {
+     "text": "122. B — Den Mantel teilte Martin mit dem Bettler",
+     "count": 1
+    },
+    {
+     "text": "123. A — Schokoladenfest: 32. Ausgabe",
+     "count": 1
+    },
+    {
+     "text": "124. B — Gruppenerster Frankreich, 10 Punkte",
+     "count": 1
+    },
+    {
+     "text": "125. C — Das Trüffelfest in Alba geht bis zum 6. Dezember",
+     "count": 1
+    },
+    {
+     "text": "126. A — Der DPB wurde am 15. Oktober geschickt",
+     "count": 1
+    },
+    {
+     "text": "127. B — Ein Regierungsvorschlag ist noch kein Gesetz",
+     "count": 1
+    },
+    {
+     "text": "128. B — Festival dei Popoli endete am 8. November",
+     "count": 1
+    },
+    {
+     "text": "129. B — Giulia geht mittwochs zu Scrittorincittà",
+     "count": 1
+    },
+    {
+     "text": "13. castagne — castagne = Kastanien (Plural)",
+     "count": 1
+    },
+    {
+     "text": "130. A — Paolo fährt am Samstag zum Torrone-Fest",
+     "count": 1
+    },
+    {
+     "text": "131. B — Giulia hört den Autor",
+     "count": 1
+    },
+    {
+     "text": "132. A — Der Titel fasst zwei Städte und zwei Feste zusammen",
+     "count": 1
+    },
+    {
+     "text": "133. Mercoledì è San Martino. — Zeitangabe zuerst",
+     "count": 1
+    },
+    {
+     "text": "134. Eurochocolate è a Perugia dal 13 novembre. — Subjekt + essere +",
+     "count": 1
+    },
+    {
+     "text": "135. A che ora gioca l'Italia? — Frageformel am Anfang",
+     "count": 1
+    },
+    {
+     "text": "136. Il vino nuovo si assaggia in cantina. — Subjekt + Verb + Ort",
+     "count": 1
+    },
+    {
+     "text": "137. An Martinstag wird Most zu Wein. — Mit dem Original vergleichen",
+     "count": 1
+    },
+    {
+     "text": "138. Donnerstagabend: Italien–Frankreich. — si gioca = wird gespielt",
+     "count": 1
+    },
+    {
+     "text": "139. Sonntagabend: Belgien–Italien. — si gioca = wird gespielt",
+     "count": 1
+    },
+    {
+     "text": "14. mantello — mantello = Mantel",
+     "count": 1
+    },
+    {
+     "text": "140. Ogni cifra deve essere chiara. — dovere = müssen",
+     "count": 1
+    },
+    {
+     "text": "141. d — manovra=Haushaltsgesetz d",
+     "count": 1
+    },
+    {
+     "text": "142. c — deficit=Defizit c",
+     "count": 1
+    },
+    {
+     "text": "143. b — copertura=Finanzierung b",
+     "count": 1
+    },
+    {
+     "text": "144. a — scaglione=Steuerstufe a",
+     "count": 1
+    },
+    {
+     "text": "145. B — torrone = Nougat",
+     "count": 1
+    },
+    {
+     "text": "146. A — mandorle = Mandeln",
+     "count": 1
+    },
+    {
+     "text": "147. B — quanto costa? = was kostet es?",
+     "count": 1
+    },
+    {
+     "text": "148. A — pagare con carta = mit Karte zahlen",
+     "count": 1
+    },
+    {
+     "text": "149. B — Das Torrone-Fest geht bis zum 22. November",
+     "count": 1
+    },
+    {
+     "text": "15. oca — oca = Gans",
+     "count": 1
+    },
+    {
+     "text": "150. ✓ Mustertext in Abschnitt H auf dieser Seite (98 Wörter)",
+     "count": 1
+    },
+    {
+     "text": "2. mosto — mosto = Most/Neuer Wein",
+     "count": 1
+    },
+    {
+     "text": "20. dura — durare: l'estate → dura (sie)",
+     "count": 1
+    },
+    {
+     "text": "21. B — Die Martinslegende: der geteilte Mantel",
+     "count": 1
+    },
+    {
+     "text": "22. A — „fare San Martino“ hieß früher umziehen",
+     "count": 1
+    },
+    {
+     "text": "23. C — Weinkeller offen bis 15. November",
+     "count": 1
+    },
+    {
+     "text": "24. B — Festival dei Popoli: 86 Filme",
+     "count": 1
+    },
+    {
+     "text": "25. c — mosto=Most/Neuer Wein c",
+     "count": 1
+    },
+    {
+     "text": "26. a — cantina=Weinkeller a",
+     "count": 1
+    },
+    {
+     "text": "27. d — mantello=Mantel d",
+     "count": 1
+    },
+    {
+     "text": "28. b — traslocare=umziehen b",
+     "count": 1
+    },
+    {
+     "text": "29. B — Torrone-Fest, zweites Wochenende: 14.–15. November",
+     "count": 1
+    },
+    {
+     "text": "3. cantine — cantine = Weinkeller (Plural)",
+     "count": 1
+    },
+    {
+     "text": "30. C — Schokoladenfest bis 22. November",
+     "count": 1
+    },
+    {
+     "text": "31. B — Schokoladenfest: 32. Ausgabe",
+     "count": 1
+    },
+    {
+     "text": "32. A — Eurochocolate-Thema: „Fate dolci“",
+     "count": 1
+    },
+    {
+     "text": "33. B — Das Trüffelfest in Alba geht bis zum 6. Dezember",
+     "count": 1
+    },
+    {
+     "text": "34. torrone — torrone = Nougat",
+     "count": 1
+    },
+    {
+     "text": "35. cioccolato — cioccolato = Schokolade",
+     "count": 1
+    },
+    {
+     "text": "36. laboratorio — laboratorio = Werkstatt (hier)",
+     "count": 1
+    },
+    {
+     "text": "37. degustazione — degustazione = Verkostung",
+     "count": 1
+    },
+    {
+     "text": "38. mandorle — mandorle = Mandeln (Plural)",
+     "count": 1
+    },
+    {
+     "text": "39. tartufo — tartufo = Trüffel",
+     "count": 1
+    },
+    {
+     "text": "4. Francia — Donnerstag: Italien–Frankreich",
+     "count": 1
+    },
+    {
+     "text": "40. è arrivato — arrivare mit essere: è arrivato",
+     "count": 1
+    },
+    {
+     "text": "41. abbiamo assaggiato — assaggiare mit avere: abbiamo assaggiato",
+     "count": 1
+    },
+    {
+     "text": "42. sono andati — andare mit essere, Plural: sono andati",
+     "count": 1
+    },
+    {
+     "text": "43. ha aperto — aprire mit avere: ha aperto",
+     "count": 1
+    },
+    {
+     "text": "44. Eurochocolate è a Perugia dal 13 novembre. — Subjekt + essere +",
+     "count": 1
+    },
+    {
+     "text": "45. A Cremona il torrone è il re. — Ort zuerst, Subjekt danach",
+     "count": 1
+    },
+    {
+     "text": "46. La fiera dura fino al 6 dicembre. — dura fino a = dauert bis",
+     "count": 1
+    },
+    {
+     "text": "47. B — Italien–Frankreich am Donnerstag, 12. November",
+     "count": 1
+    },
+    {
+     "text": "48. B — Sonntag: Italien in Brüssel gegen Belgien",
+     "count": 1
+    },
+    {
+     "text": "49. A — Frankreich führt die Gruppe mit 10 Punkten",
+     "count": 1
+    },
+    {
+     "text": "5. Perugia — Schokoladenfest in Perugia",
+     "count": 1
+    },
+    {
+     "text": "50. C — Länderspiele nur als Vorschau, ohne Ergebnis",
+     "count": 1
+    },
+    {
+     "text": "51. B — ATP-Finale in Turin",
+     "count": 1
+    },
+    {
+     "text": "52. d — sosta=Ligapause d",
+     "count": 1
+    },
+    {
+     "text": "53. c — girone=Gruppe c",
+     "count": 1
+    },
+    {
+     "text": "54. b — decisivo=entscheidend b",
+     "count": 1
+    },
+    {
+     "text": "55. a — presentazione=Vorschau a",
+     "count": 1
+    },
+    {
+     "text": "56. più tardi — Das Sonntagsspiel ist später als das Donnerstagsspiel:",
+     "count": 1
+    },
+    {
+     "text": "57. più presto — Das Donnerstagsspiel ist früher als das Sonntagsspiel:",
+     "count": 1
+    },
+    {
+     "text": "58. più bella — più + bella: Donnerstagabend am schönsten (subjektiv)",
+     "count": 1
+    },
+    {
+     "text": "59. meglio — Der Komparativ von bene ist unregelmäßig: meglio",
+     "count": 1
+    },
+    {
+     "text": "6. Torrone — Das Fest in Cremona heißt Festa del Torrone",
+     "count": 1
+    },
+    {
+     "text": "60. ha vinto — vincere: ha vinto",
+     "count": 1
+    },
+    {
+     "text": "61. ha pareggiato — pareggiare: ha pareggiato",
+     "count": 1
+    },
+    {
+     "text": "62. sono arrivati — arrivare mit essere, Plural: sono arrivati",
+     "count": 1
+    },
+    {
+     "text": "63. abbiamo guardato — guardare mit avere: abbiamo guardato",
+     "count": 1
+    },
+    {
+     "text": "64. ha preso — Das Partizip von prendere ist preso: ha preso",
+     "count": 1
+    },
+    {
+     "text": "65. B — Scrittorincittà ist in Cuneo",
+     "count": 1
+    },
+    {
+     "text": "66. B — Scrittorincittà: über 100 Autoren",
+     "count": 1
+    },
+    {
+     "text": "67. C — Thema: Finestrini",
+     "count": 1
+    },
+    {
+     "text": "68. A — Filmmaker-Festival in Mailand",
+     "count": 1
+    },
+    {
+     "text": "69. A — Offside: Fußball und Kultur",
+     "count": 1
+    },
+    {
+     "text": "7. A — Martinstag ist Mittwoch, 11. November",
+     "count": 1
+    },
+    {
+     "text": "70. autori — autori = Autoren (Plural)",
+     "count": 1
+    },
+    {
+     "text": "71. indipendente — indipendente = unabhängig",
+     "count": 1
+    },
+    {
+     "text": "72. finestrino — finestrino = kleines Fenster",
+     "count": 1
+    },
+    {
+     "text": "73. ospiti — ospiti = Gäste (Plural)",
+     "count": 1
+    },
+    {
+     "text": "74. castagne — castagne arrosto = geröstete Kastanien (Plural)",
+     "count": 1
+    },
+    {
+     "text": "75. sperimentazione — sperimentazione = Experiment/Erkundung",
+     "count": 1
+    },
+    {
+     "text": "76. andremo — andare, Futur, noi: andremo",
+     "count": 1
+    },
+    {
+     "text": "77. ci sarà — esserci, Futur: ci sarà (es wird geben)",
+     "count": 1
+    },
+    {
+     "text": "78. guarderemo — guardare, Futur, noi: guarderemo",
+     "count": 1
+    },
+    {
+     "text": "79. durerà — durare, Futur: durerà",
+     "count": 1
+    },
+    {
+     "text": "8. B — Die Martinslegende: der geteilte Mantel",
+     "count": 1
+    },
+    {
+     "text": "80. Vero — Scrittorincittà: über 100 Autoren",
+     "count": 1
+    },
+    {
+     "text": "81. Vero — Filmmaker-Festival in Mailand",
+     "count": 1
+    },
+    {
+     "text": "82. Falso — Falsch: Scrittorincittà endet nicht erst am 22. November",
+     "count": 1
+    },
+    {
+     "text": "83. B — Kältester Ort der Beispieldaten: Turin, 6°",
+     "count": 1
+    },
+    {
+     "text": "84. A — Wärmster Ort der Beispieldaten: Neapel, 14°",
+     "count": 1
+    },
+    {
+     "text": "87. B — Die Diagrammdaten sind zum Üben, keine echten Vorhersagen",
+     "count": 1
+    },
+    {
+     "text": "88. A — Ein Regierungsvorschlag ist noch kein Gesetz",
+     "count": 1
+    },
+    {
+     "text": "89. B — Das Gesetz ist das Haushaltsgesetz",
+     "count": 1
+    },
+    {
+     "text": "9. C — Italien–Frankreich in San Siro",
+     "count": 1
+    },
+    {
+     "text": "90. A — Das Parlament muss bis Jahresende abstimmen",
+     "count": 1
+    },
+    {
+     "text": "91. A — Der DPB wurde am 15. Oktober nach Brüssel geschickt",
+     "count": 1
+    },
+    {
+     "text": "92. B — Wachstumsprognose 2027: +0,8 %",
+     "count": 1
+    },
+    {
+     "text": "93. piova — è probabile che + Konjunktiv: piova",
+     "count": 1
+    },
+    {
+     "text": "94. nevichi — è possibile che + Konjunktiv: nevichi",
+     "count": 1
+    },
+    {
+     "text": "95. controllino — bisogna che + Konjunktiv: controllino",
+     "count": 1
+    },
+    {
+     "text": "96. sia — è importante che + Konjunktiv: sia",
+     "count": 1
+    },
+    {
+     "text": "97. manovra — manovra = Haushaltsgesetz",
+     "count": 1
+    },
+    {
+     "text": "98. deficit — deficit = Defizit",
+     "count": 1
+    },
+    {
+     "text": "99. copertura — copertura = Finanzierung",
+     "count": 1
+    },
+    {
+     "text": "Jede Zahl muss klar sein. → ___",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.3 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH",
+     "count": 1
+    },
+    {
+     "text": "Mustertext (98 Wörter) unten.",
+     "count": 1
+    },
+    {
+     "text": "Ort + Datum",
+     "count": 2
+    },
+    {
+     "text": "RISPOSTE · LÖSUNGEN — nach Seiten geordnet, suchen Sie die Nummer",
+     "count": 1
+    },
+    {
+     "text": "Schreibaufgabe (keine eindeutige Lösung);",
+     "count": 1
+    },
+    {
+     "text": "Schreiben",
+     "count": 1
+    },
+    {
+     "text": "Seite 8 von 8",
+     "count": 1
+    },
+    {
+     "text": "Seite 8 · La grande prova della settimana + tutte le risposte",
+     "count": 1
+    },
+    {
+     "text": "Sätze bilden",
+     "count": 4
+    },
+    {
+     "text": "VALUTAZIONE E RISPOSTE · TEST UND LÖSUNGEN",
+     "count": 1
+    },
+    {
+     "text": "Wörter zuordnen",
+     "count": 1
+    },
+    {
+     "text": "Zu jeder Aufgabe ein kurzer Hinweis · ✓ = Schreibaufgabe",
+     "count": 1
+    },
+    {
+     "text": "più presto",
+     "count": 1
+    },
+    {
+     "text": "più tardi",
+     "count": 1
+    },
+    {
+     "text": "Übersetzen",
+     "count": 4
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "1. San Martino — 圣马丁节在 11 月 11 日",
+     "count": 1
+    },
+    {
+     "text": "10. B — 巧克力节在佩鲁贾开幕",
+     "count": 1
+    },
+    {
+     "text": "100. scaglione — scaglione = 税级",
+     "count": 1
+    },
+    {
+     "text": "101. andremo — andare 将来时 noi：andremo",
+     "count": 1
+    },
+    {
+     "text": "102. assaggeremo — assaggiare 将来时 noi：assaggeremo",
+     "count": 1
+    },
+    {
+     "text": "103. guarderemo — guardare 将来时 noi：guarderemo",
+     "count": 1
+    },
+    {
+     "text": "104. B — durerà 是 durare 的将来时",
+     "count": 1
+    },
+    {
+     "text": "105. è arrivato — arrivare 用 essere：è arrivato",
+     "count": 1
+    },
+    {
+     "text": "106. abbiamo assaggiato — assaggiare 用 avere",
+     "count": 1
+    },
+    {
+     "text": "107. sono andati — andare 用 essere，复数 sono andati",
+     "count": 1
+    },
+    {
+     "text": "108. B — aprire 用 avere + 不变分词",
+     "count": 1
+    },
+    {
+     "text": "109. piova — è probabile che + 虚拟式 piova",
+     "count": 1
+    },
+    {
+     "text": "11. mosto — mosto = 葡萄汁/新酒",
+     "count": 1
+    },
+    {
+     "text": "110. nevichi — è possibile che + 虚拟式 nevichi",
+     "count": 1
+    },
+    {
+     "text": "111. sia — bisogna che + 虚拟式 sia",
+     "count": 1
+    },
+    {
+     "text": "112. B — so che + 陈述式 torna",
+     "count": 1
+    },
+    {
+     "text": "113. B — 圣马丁 = San Martino",
+     "count": 1
+    },
+    {
+     "text": "114. A — 葡萄汁变新酒",
+     "count": 1
+    },
+    {
+     "text": "115. A — 意大利对法国在圣西罗",
+     "count": 1
+    },
+    {
+     "text": "116. A — 巧克力节在周五开幕",
+     "count": 1
+    },
+    {
+     "text": "117. B — 牛轧糖节在克雷莫纳",
+     "count": 1
+    },
+    {
+     "text": "118. B — 民俗电影节 86 部影片",
+     "count": 1
+    },
+    {
+     "text": "119. A — 比利时对意大利在周日晚上",
+     "count": 1
+    },
+    {
+     "text": "12. cantina — cantina = 酒窖",
+     "count": 1
+    },
+    {
+     "text": "120. B — 作家进城在库内奥",
+     "count": 1
+    },
+    {
+     "text": "121. B — 圣马丁的夏天持续三天多一点",
+     "count": 1
+    },
+    {
+     "text": "122. B — 斗篷是 Martino 分给乞丐的",
+     "count": 1
+    },
+    {
+     "text": "123. A — 巧克力节是第 32 届",
+     "count": 1
+    },
+    {
+     "text": "124. B — 小组第一法国 10 分",
+     "count": 1
+    },
+    {
+     "text": "125. C — 阿尔巴松露节到 12 月 6 日",
+     "count": 1
+    },
+    {
+     "text": "126. A — DPB 于 10 月 15 日送出",
+     "count": 1
+    },
+    {
+     "text": "127. B — 政府提议不等于法律",
+     "count": 1
+    },
+    {
+     "text": "128. B — 民俗电影节 11 月 8 日闭幕",
+     "count": 1
+    },
+    {
+     "text": "129. B — Giulia 周三去作家进城",
+     "count": 1
+    },
+    {
+     "text": "13. castagne — castagne = 栗子（复数）",
+     "count": 1
+    },
+    {
+     "text": "130. A — Paolo 周六去牛轧糖节",
+     "count": 1
+    },
+    {
+     "text": "131. B — 作家是 Giulia 听的",
+     "count": 1
+    },
+    {
+     "text": "132. A — 标题概括两个城市、两个节日",
+     "count": 1
+    },
+    {
+     "text": "133. Mercoledì è San Martino. — 时间词在前",
+     "count": 1
+    },
+    {
+     "text": "134. Eurochocolate è a Perugia dal 13 novembre. — 主语 + essere + 地",
+     "count": 1
+    },
+    {
+     "text": "135. A che ora gioca l'Italia? — 疑问词组在句首",
+     "count": 1
+    },
+    {
+     "text": "136. Il vino nuovo si assaggia in cantina. — 主语 + 动词 + 地点",
+     "count": 1
+    },
+    {
+     "text": "137. 圣马丁节葡萄汁变成酒。 — 对照原文",
+     "count": 1
+    },
+    {
+     "text": "138. 周四晚上意大利对法国。 — si gioca = 进行比赛",
+     "count": 1
+    },
+    {
+     "text": "139. 周日晚上，比利时对意大利。 — si gioca = 进行比赛",
+     "count": 1
+    },
+    {
+     "text": "14. mantello — mantello = 斗篷",
+     "count": 1
+    },
+    {
+     "text": "140. Ogni cifra deve essere chiara. — dovere = 必须",
+     "count": 1
+    },
+    {
+     "text": "141. d — manovra=预算法案 d",
+     "count": 1
+    },
+    {
+     "text": "142. c — deficit=赤字 c",
+     "count": 1
+    },
+    {
+     "text": "143. b — copertura=资金来源 b",
+     "count": 1
+    },
+    {
+     "text": "144. a — scaglione=税级 a",
+     "count": 1
+    },
+    {
+     "text": "145. B — torrone = 牛轧糖",
+     "count": 1
+    },
+    {
+     "text": "146. A — mandorle 杏仁",
+     "count": 1
+    },
+    {
+     "text": "147. B — quanto costa? 多少钱",
+     "count": 1
+    },
+    {
+     "text": "148. A — pagare con carta 刷卡",
+     "count": 1
+    },
+    {
+     "text": "149. B — 牛轧糖节持续到 11 月 22 日",
+     "count": 1
+    },
+    {
+     "text": "15. oca — oca = 鹅",
+     "count": 1
+    },
+    {
+     "text": "150. ✓ 范文见本版 H 区（98 词）",
+     "count": 1
+    },
+    {
+     "text": "2. mosto — mosto = 葡萄汁/新酒",
+     "count": 1
+    },
+    {
+     "text": "20. dura — durare：l'estate → dura（它）",
+     "count": 1
+    },
+    {
+     "text": "21. B — 圣马丁传说讲分斗篷",
+     "count": 1
+    },
+    {
+     "text": "22. A — “fare San Martino”旧义是搬家",
+     "count": 1
+    },
+    {
+     "text": "23. C — 酒窖开放到 11 月 15 日",
+     "count": 1
+    },
+    {
+     "text": "24. B — 民俗电影节 86 部影片",
+     "count": 1
+    },
+    {
+     "text": "25. c — mosto=葡萄汁/新酒 c",
+     "count": 1
+    },
+    {
+     "text": "26. a — cantina=酒窖 a",
+     "count": 1
+    },
+    {
+     "text": "27. d — mantello=斗篷 d",
+     "count": 1
+    },
+    {
+     "text": "28. b — traslocare=搬家 b",
+     "count": 1
+    },
+    {
+     "text": "29. B — 牛轧糖节第二周末在 11 月 14–15 日",
+     "count": 1
+    },
+    {
+     "text": "3. cantine — cantine = 酒窖（复数）",
+     "count": 1
+    },
+    {
+     "text": "30. C — 巧克力节到 11 月 22 日",
+     "count": 1
+    },
+    {
+     "text": "31. B — 巧克力节是第 32 届",
+     "count": 1
+    },
+    {
+     "text": "32. A — 本届巧克力节主题是“Fate dolci”",
+     "count": 1
+    },
+    {
+     "text": "33. B — 阿尔巴松露节到 12 月 6 日",
+     "count": 1
+    },
+    {
+     "text": "34. torrone — torrone = 牛轧糖",
+     "count": 1
+    },
+    {
+     "text": "35. cioccolato — cioccolato = 巧克力",
+     "count": 1
+    },
+    {
+     "text": "36. laboratorio — laboratorio = 工坊（此处）",
+     "count": 1
+    },
+    {
+     "text": "37. degustazione — degustazione = 品尝会",
+     "count": 1
+    },
+    {
+     "text": "38. mandorle — mandorle = 杏仁（复数）",
+     "count": 1
+    },
+    {
+     "text": "39. tartufo — tartufo = 松露",
+     "count": 1
+    },
+    {
+     "text": "4. Francia — 周四意大利对法国",
+     "count": 1
+    },
+    {
+     "text": "40. è arrivato — arrivare 用 essere：è arrivato",
+     "count": 1
+    },
+    {
+     "text": "41. abbiamo assaggiato — assaggiare 用 avere：abbiamo assaggiato",
+     "count": 1
+    },
+    {
+     "text": "42. sono andati — andare 用 essere，复数 sono andati",
+     "count": 1
+    },
+    {
+     "text": "43. ha aperto — aprire 用 avere：ha aperto",
+     "count": 1
+    },
+    {
+     "text": "44. Eurochocolate è a Perugia dal 13 novembre. — 主语 + essere + 地",
+     "count": 1
+    },
+    {
+     "text": "45. A Cremona il torrone è il re. — 地点在前，主语在后",
+     "count": 1
+    },
+    {
+     "text": "46. La fiera dura fino al 6 dicembre. — dura fino a = 持续到",
+     "count": 1
+    },
+    {
+     "text": "47. B — 意大利对法国在 11 月 12 日周四",
+     "count": 1
+    },
+    {
+     "text": "48. B — 周日意大利在布鲁塞尔对战比利时",
+     "count": 1
+    },
+    {
+     "text": "49. A — 小组第一是法国 10 分",
+     "count": 1
+    },
+    {
+     "text": "5. Perugia — 巧克力节在佩鲁贾",
+     "count": 1
+    },
+    {
+     "text": "50. C — 国家队比赛只作前瞻、无结果",
+     "count": 1
+    },
+    {
+     "text": "51. B — ATP 总决赛在都灵",
+     "count": 1
+    },
+    {
+     "text": "52. d — sosta=休赛期 d",
+     "count": 1
+    },
+    {
+     "text": "53. c — girone=小组 c",
+     "count": 1
+    },
+    {
+     "text": "54. b — decisivo=决定性的 b",
+     "count": 1
+    },
+    {
+     "text": "55. a — presentazione=赛前介绍 a",
+     "count": 1
+    },
+    {
+     "text": "56. più tardi — 周日的比赛晚于周四的：più tardi",
+     "count": 1
+    },
+    {
+     "text": "57. più presto — 周四的比赛早于周日的：più presto",
+     "count": 1
+    },
+    {
+     "text": "58. più bella — più + bella 周四晚最美（主观评价）",
+     "count": 1
+    },
+    {
+     "text": "59. meglio — bene 的比较级是不规则的 meglio",
+     "count": 1
+    },
+    {
+     "text": "6. Torrone — 克雷莫纳的节日叫 Festa del Torrone",
+     "count": 1
+    },
+    {
+     "text": "60. ha vinto — vincere：ha vinto",
+     "count": 1
+    },
+    {
+     "text": "61. ha pareggiato — pareggiare：ha pareggiato",
+     "count": 1
+    },
+    {
+     "text": "62. sono arrivati — arrivare 用 essere，复数 sono arrivati",
+     "count": 1
+    },
+    {
+     "text": "63. abbiamo guardato — guardare 用 avere：abbiamo guardato",
+     "count": 1
+    },
+    {
+     "text": "64. ha preso — prendere 的分词是 preso：ha preso",
+     "count": 1
+    },
+    {
+     "text": "65. B — 作家进城在库内奥",
+     "count": 1
+    },
+    {
+     "text": "66. B — 作家进城有 100 多位作者",
+     "count": 1
+    },
+    {
+     "text": "67. C — 本届主题是 Finestrini",
+     "count": 1
+    },
+    {
+     "text": "68. A — 电影制作人电影节在米兰",
+     "count": 1
+    },
+    {
+     "text": "69. A — Offside 讲足球与文化",
+     "count": 1
+    },
+    {
+     "text": "7. A — 圣马丁节在 11 月 11 日周三",
+     "count": 1
+    },
+    {
+     "text": "70. autori — autori = 作者（复数）",
+     "count": 1
+    },
+    {
+     "text": "71. indipendente — indipendente = 独立的",
+     "count": 1
+    },
+    {
+     "text": "72. finestrino — finestrino = 小窗",
+     "count": 1
+    },
+    {
+     "text": "73. ospiti — ospiti = 嘉宾（复数）",
+     "count": 1
+    },
+    {
+     "text": "74. castagne — castagne arrosto 烤栗子（复数）",
+     "count": 1
+    },
+    {
+     "text": "75. sperimentazione — sperimentazione = 实验/探索",
+     "count": 1
+    },
+    {
+     "text": "76. andremo — andare 将来时 noi：andremo",
+     "count": 1
+    },
+    {
+     "text": "77. ci sarà — esserci 将来时：ci sarà（将有）",
+     "count": 1
+    },
+    {
+     "text": "78. guarderemo — guardare 将来时 noi：guarderemo",
+     "count": 1
+    },
+    {
+     "text": "79. durerà — durare 将来时：durerà",
+     "count": 1
+    },
+    {
+     "text": "8. B — 圣马丁传说讲分斗篷",
+     "count": 1
+    },
+    {
+     "text": "80. Vero — 作家进城有 100 多位作者",
+     "count": 1
+    },
+    {
+     "text": "81. Vero — 电影制作人电影节在米兰",
+     "count": 1
+    },
+    {
+     "text": "82. Falso — 作家进城到 11 月 22 日才结束是错的",
+     "count": 1
+    },
+    {
+     "text": "83. B — 示例数据中最冷的是都灵 6°",
+     "count": 1
+    },
+    {
+     "text": "84. A — 示例数据中最暖的是那不勒斯 14°",
+     "count": 1
+    },
+    {
+     "text": "87. B — 图表数据是练习用的、不是真实预报",
+     "count": 1
+    },
+    {
+     "text": "88. A — 政府提议不等于法律",
+     "count": 1
+    },
+    {
+     "text": "89. B — 法案是预算法",
+     "count": 1
+    },
+    {
+     "text": "9. C — 意大利对法国在圣西罗",
+     "count": 1
+    },
+    {
+     "text": "90. A — 法案须在年底前由议会表决",
+     "count": 1
+    },
+    {
+     "text": "91. A — DPB 于 10 月 15 日送布鲁塞尔",
+     "count": 1
+    },
+    {
+     "text": "92. B — 2027 增长预测 +0,8%",
+     "count": 1
+    },
+    {
+     "text": "93. piova — è probabile che + 虚拟式 piova",
+     "count": 1
+    },
+    {
+     "text": "94. nevichi — è possibile che + 虚拟式 nevichi",
+     "count": 1
+    },
+    {
+     "text": "95. controllino — bisogna che + 虚拟式 controllino",
+     "count": 1
+    },
+    {
+     "text": "96. sia — è importante che + 虚拟式 sia",
+     "count": 1
+    },
+    {
+     "text": "97. manovra — manovra = 预算法案",
+     "count": 1
+    },
+    {
+     "text": "98. deficit — deficit = 赤字",
+     "count": 1
+    },
+    {
+     "text": "99. copertura — copertura = 资金来源",
+     "count": 1
+    },
+    {
+     "text": "La Lucerna · 意大利语周报 VOL.3 · LUCERNA ITALIAN WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "RISPOSTE · 参考答案 — 按版面分页排列，找到题号即可",
+     "count": 1
+    },
+    {
+     "text": "VALUTAZIONE E RISPOSTE · 练习与答案",
+     "count": 1
+    },
+    {
+     "text": "写作",
+     "count": 1
+    },
+    {
+     "text": "写作题（无唯一答案）；范文（98 词）见下。",
+     "count": 1
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "每个数字都必须清楚。→ ___",
+     "count": 1
+    },
+    {
+     "text": "每题附一句中文简析 · 带 ✓ 的为范文题",
+     "count": 1
+    },
+    {
+     "text": "点 + 日期",
+     "count": 2
+    },
+    {
+     "text": "第 8 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "第 8 版 · La grande prova della settimana + tutte le risposte",
+     "count": 1
+    },
+    {
+     "text": "翻译",
+     "count": 4
+    },
+    {
+     "text": "造句",
+     "count": 4
+    }
+   ],
+   "cjk_core_total": 1004,
+   "cjk_edition_total": 4,
+   "cjk_added": {}
+  }
+ },
+ "cjk_added_total": {}
+}

@@ -1,0 +1,394 @@
+#1 [A2] 完成句子 file=content12.py KEY='proclamação' NOTE='proclamação = 宣布（共和国宣言）'
+  BODY: A ___ da República é no dia 15.
+#2 [A2] 完成句子 file=content12.py KEY='feriado' NOTE='feriado = 假日'
+  BODY: O dia 15 é ___ nacional.
+#3 [A2] 完成句子 file=content12.py KEY='portões' NOTE='portões = 大门（考场大门）'
+  BODY: No domingo 15, os ___ abrem às 12h.
+#4 [A2] 完成句子 file=content12.py KEY='18h30' NOTE='18h30 结束'
+  BODY: A prova vai até as ___.
+#5 [A2] 完成句子 file=content12.py KEY='90' NOTE='90 道题'
+  BODY: O dia 15 tem ___ questões.
+#6 [B1] 完成句子 file=content12.py KEY='fazem' NOTE='fazer 现在时 eles 形式：fazem'
+  BODY: Os estudantes ___ (fazer) a prova no domingo.
+#7 [A2] 单选 file=content12.py KEY='C' NOTE='共和国宣言日在 11 月 15 日'
+  BODY: A Proclamação da República é... A. no dia 8 · B. no dia 20 · C. no dia 15
+#8 [A2] 单选 file=content12.py KEY='B' NOTE='13 点关门'
+  BODY: Os portões do Enem fecham às... A. 12h · B. 13h · C. 13h30
+#9 [A2] 单选 file=content12.py KEY='C' NOTE='第 2 天考自然科学与数学'
+  BODY: No dia 15, a prova tem... A. redação · B. Linguagens e Humanas · C. Natureza e Matemática
+#10 [A2] 单选 file=content12.py KEY='A' NOTE='18:30 结束'
+  BODY: No dia 15, a prova termina às... A. 18h30 · B. 19h · C. 12h
+#11 [A2] 单选 file=content12.py KEY='B' NOTE='第 2 天考自然科学与数学'
+  BODY: No dia 15, a prova tem... A. redação · B. Natureza e Matemática · C. só Linguagens
+#12 [A2] 单选 file=content12.py KEY='B' NOTE='假日落在周日，周一不补休'
+  BODY: O feriado de 15 de novembro... A. dá folga na segunda · B. cai num domingo, sem folga extra · C. muda o relógio
+#13 [A2] 单选 file=content12.py KEY='B' NOTE='确认卡显示考试地点'
+  BODY: O Cartão de Confirmação mostra... A. a nota do aluno · B. o local da prova · C. o resultado final
+#14 [A2] 单选 file=content12.py KEY='B' NOTE='18:30 结束'
+  BODY: No dia 15, a prova termina às... A. 19h · B. 18h30 · C. 13h
+#15 [A2] 单选 file=content12.py KEY='A' NOTE='巴西没有夏令时，钟表不动'
+  BODY: Nesta semana, o relógio no Brasil... A. não muda · B. volta uma hora · C. avança uma hora
+#16 [A2] 完成句子 file=content12.py KEY='confere' NOTE='conferir：ele → confere'
+  BODY: O candidato ___ (conferir) o cartão.
+  INSTR: 填空
+#17 [A2] 完成句子 file=content12.py KEY='abre' NOTE='abrir：ele → abre'
+  BODY: O portão ___ (abrir) às 12h.
+  INSTR: 填空
+#18 [A2] 完成句子 file=content12.py KEY='levamos' NOTE='levar：nós → levamos'
+  BODY: Nós ___ (levar) documento com foto.
+  INSTR: 填空
+#19 [A2] 完成句子 file=content12.py KEY='começa' NOTE='começar：ela → começa'
+  BODY: A prova ___ (começar) às 13h30.
+  INSTR: 填空
+#20 [A2] 完成句子 file=content12.py KEY='termina' NOTE='terminar：ela → termina'
+  BODY: A prova ___ (terminar) às 18h30.
+  INSTR: 填空
+#21 [A2] 完成句子 file=content12.py KEY='1' NOTE='12 点到 13 点 = 1 小时'
+  BODY: Os portões ficam abertos ___ hora.
+  INSTR: 填空
+#22 [A2] 完成句子 file=content12.py KEY='5' NOTE='13:30 至 18:30 = 5 小时'
+  BODY: A prova dura ___ horas.
+  INSTR: 填空
+#23 [B1] 完成句子 file=content12.py KEY='300' NOTE='5×60 = 300 分钟'
+  BODY: De 13h30 a 18h30 são ___ minutos.
+  INSTR: 填空
+#24 [A2] 完成句子 file=content12.py KEY='90' NOTE='45 + 45 = 90'
+  BODY: O dia 15 tem ___ questões.
+  INSTR: 填空
+#25 [A2] 词汇配对 file=content12.py KEY='b' NOTE='proclamação=宣布一个变化 b'
+  BODY: a proclamação
+  OPTS: ['a ciência dos números e das formas', 'o ato de anunciar uma mudança', 'um dia de descanso marcado por lei', 'a ciência da vida, da física e da química']
+  INSTR: 把词和释义配对
+#26 [A2] 词汇配对 file=content12.py KEY='c' NOTE='feriado=法律规定的休息日 c'
+  BODY: o feriado
+  OPTS: ['a ciência dos números e das formas', 'o ato de anunciar uma mudança', 'um dia de descanso marcado por lei', 'a ciência da vida, da física e da química']
+  INSTR: 把词和释义配对
+#27 [A2] 词汇配对 file=content12.py KEY='d' NOTE='natureza=生命、物理与化学的科学 d'
+  BODY: a natureza
+  OPTS: ['a ciência dos números e das formas', 'o ato de anunciar uma mudança', 'um dia de descanso marcado por lei', 'a ciência da vida, da física e da química']
+  INSTR: 把词和释义配对
+#28 [A2] 词汇配对 file=content12.py KEY='a' NOTE='matemática=数字与图形的科学 a'
+  BODY: a matemática
+  OPTS: ['a ciência dos números e das formas', 'o ato de anunciar uma mudança', 'um dia de descanso marcado por lei', 'a ciência da vida, da física e da química']
+  INSTR: 把词和释义配对
+#29 [A2] 单选 file=content34.py KEY='B' NOTE='共和国宣言在 1889 年 11 月 15 日'
+  BODY: A Proclamação da República foi... A. em 1949 · B. em 15 de novembro de 1889 · C. em 1822
+#30 [A2] 单选 file=content34.py KEY='B' NOTE='德奥多罗成为巴西第一任总统'
+  BODY: Deodoro da Fonseca... A. foi o último imperador · B. se tornou o primeiro presidente · C. escreveu a Lei nº 662
+#31 [A2] 单选 file=content34.py KEY='B' NOTE='全国性假日，任何城市都不能改为工作日'
+  BODY: A Proclamação é um feriado... A. só do Rio · B. nacional, para todo o país · C. só das escolas
+#32 [A2] 单选 file=content34.py KEY='C' NOTE='2026 年假日落在周日'
+  BODY: Em 2026, o feriado cai... A. na segunda · B. na sexta · C. num domingo
+#33 [B1] 单选 file=content34.py KEY='A' NOTE='共和国里总统由选举产生、任期有限'
+  BODY: Na República, o presidente... A. é eleito e o poder tem prazo · B. governa para sempre · C. é escolhido pelo imperador
+#34 [A2] 完成句子 file=content34.py KEY='monarquia' NOTE='monarquia = 君主制'
+  BODY: Em 1889, acabou a ___.
+  INSTR: 填空
+#35 [A2] 完成句子 file=content34.py KEY='república' NOTE='república = 共和国'
+  BODY: O Brasil virou uma ___.
+  INSTR: 填空
+#36 [A2] 完成句子 file=content34.py KEY='marechal' NOTE='marechal = 元帅'
+  BODY: Deodoro era ___.
+  INSTR: 填空
+#37 [A2] 完成句子 file=content34.py KEY='exílio' NOTE='exílio = 流亡'
+  BODY: Dom Pedro II partiu para o ___.
+  INSTR: 填空
+#38 [A2] 完成句子 file=content34.py KEY='governo' NOTE='governo = 政府'
+  BODY: Deodoro assumiu o ___ provisório.
+  INSTR: 填空
+#39 [B1] 完成句子 file=content34.py KEY='lei' NOTE='lei = 法律'
+  BODY: A data está na lista da ___ nº 662.
+  INSTR: 填空
+#40 [B1] 完成句子 file=content34.py KEY='tomaram' NOTE='tomar 过去时 elas 形式：tomaram'
+  BODY: As tropas ___ (tomar) o governo.
+  INSTR: 填空
+#41 [B1] 完成句子 file=content34.py KEY='acabou' NOTE='acabar 过去时 ela 形式：acabou'
+  BODY: A monarquia ___ (acabar) em 1889.
+  INSTR: 填空
+#42 [B1] 完成句子 file=content34.py KEY='foi' NOTE='ser 过去时 ele 形式：foi'
+  BODY: Dom Pedro II ___ (ser) deposto.
+  INSTR: 填空
+#43 [B1] 完成句子 file=content34.py KEY='assumiu' NOTE='assumir 过去时 ele 形式：assumiu'
+  BODY: Deodoro ___ (assumir) o governo.
+  INSTR: 填空
+#44 [B1] 造句 file=content34.py KEY='A Proclamação da República é um feriado nacional.' NOTE='主语 + é + 表语'
+  BODY: a proclamação / é / um feriado nacional → ___
+  INSTR: 造句
+#45 [A2] 造句 file=content34.py KEY='Deodoro foi o primeiro presidente do Brasil.' NOTE='主语 + 动词 + 表语'
+  BODY: deodoro / foi / o primeiro presidente / do brasil → ___
+  INSTR: 造句
+#46 [B1] 造句 file=content34.py KEY='O Brasil virou uma república em 1889.' NOTE='主语 + 动词 + 宾语 + 时间'
+  BODY: o brasil / virou / uma república / em 1889 → ___
+  INSTR: 造句
+#47 [B1] 单选 file=content34.py KEY='A' NOTE='首回合格雷米奥 2 比 0 战胜米内罗竞技'
+  BODY: Na ida, Grêmio × Atlético-MG foi... A. 2 a 0 para o Grêmio · B. 1 a 0 para o Atlético · C. 0 a 0
+#48 [B1] 单选 file=content34.py KEY='B' NOTE='帕尔梅拉斯 1 比 0 战胜瓦斯科，毛里西奥进球'
+  BODY: Na ida, Palmeiras × Vasco foi... A. 0 a 0 · B. 1 a 0 para o Palmeiras · C. 2 a 0 para o Vasco
+#49 [B1] 单选 file=content34.py KEY='A' NOTE='次回合米内罗竞技 × 格雷米奥在周六 7 日 18 点'
+  BODY: A volta de Atlético-MG × Grêmio é... A. no sábado 7, às 18h · B. no domingo 8 · C. no dia 1º
+#50 [B1] 单选 file=content34.py KEY='B' NOTE='决赛 12 月 6 日单场，在马内·加林查'
+  BODY: A final da Copa do Brasil é... A. em dois jogos · B. em jogo único, no dia 6 de dezembro · C. no dia 15
+#51 [B1] 单选 file=content34.py KEY='A' NOTE='第 35 轮本周只有一场：米拉索尔 × 米内罗竞技'
+  BODY: Na rodada 35, nesta semana... A. só há um jogo: Mirassol × Atlético-MG · B. há dez jogos · C. não há jogos
+#52 [B1] 词汇配对 file=content34.py KEY='b' NOTE='gol=射入球网的得分 b'
+  BODY: o gol
+  OPTS: ['o segundo jogo de um confronto', 'o ponto marcado na rede', 'a cobrança da marca dos onze metros', 'o primeiro jogo de um confronto']
+  INSTR: 把词和释义配对
+#53 [B1] 词汇配对 file=content34.py KEY='d' NOTE='ida=对决的第一场 d'
+  BODY: a ida
+  OPTS: ['o segundo jogo de um confronto', 'o ponto marcado na rede', 'a cobrança da marca dos onze metros', 'o primeiro jogo de um confronto']
+  INSTR: 把词和释义配对
+#54 [B1] 词汇配对 file=content34.py KEY='a' NOTE='volta=对决的第二场 a'
+  BODY: a volta
+  OPTS: ['o segundo jogo de um confronto', 'o ponto marcado na rede', 'a cobrança da marca dos onze metros', 'o primeiro jogo de um confronto']
+  INSTR: 把词和释义配对
+#55 [B1] 词汇配对 file=content34.py KEY='c' NOTE='pênalti=十一米点的罚球 c'
+  BODY: o pênalti
+  OPTS: ['o segundo jogo de um confronto', 'o ponto marcado na rede', 'a cobrança da marca dos onze metros', 'o primeiro jogo de um confronto']
+  INSTR: 把词和释义配对
+#56 [B1] 完成句子 file=content34.py KEY='mais' NOTE='2 > 0：mais'
+  BODY: Dois gols são ___ do que zero gols. (mais / menos)
+  INSTR: 填空
+#57 [B1] 完成句子 file=content34.py KEY='mais' NOTE='3 > 2：mais'
+  BODY: Três gols são ___ do que dois gols. (mais / menos)
+  INSTR: 填空
+#58 [B1] 完成句子 file=content34.py KEY='mais' NOTE='17 < 18：mais cedo'
+  BODY: 17h é ___ cedo do que 18h. (mais / menos)
+  INSTR: 填空
+#59 [B1] 完成句子 file=content34.py KEY='menos' NOTE='5 小时 < 5.5 小时：menos'
+  BODY: Cinco horas são ___ do que cinco horas e meia. (mais / menos)
+  INSTR: 填空
+#60 [B1] 完成句子 file=content34.py KEY='venceu' NOTE='vencer 过去时 ele 形式：venceu'
+  BODY: O Grêmio ___ (vencer) por 2 a 0.
+  INSTR: 填空
+#61 [B1] 完成句子 file=content34.py KEY='marcaram' NOTE='marcar 过去时 eles 形式：marcaram'
+  BODY: Carlos Vinícius e Noriega ___ (marcar) os gols.
+  INSTR: 填空
+#62 [B1] 完成句子 file=content34.py KEY='marcou' NOTE='marcar 过去时 ele 形式：marcou'
+  BODY: Maurício ___ (marcar) o gol do Palmeiras.
+  INSTR: 填空
+#63 [B1] 完成句子 file=content34.py KEY='convocou' NOTE='convocar 过去时 ele 形式：convocou'
+  BODY: Ancelotti ___ (convocar) 26 jogadores.
+  INSTR: 填空
+#64 [B1] 完成句子 file=content34.py KEY='foram' NOTE='ser 过去时复数：foram'
+  BODY: Os jogos de ida ___ (ser) no domingo 1º.
+  INSTR: 填空
+#65 [B1] 单选 file=content56.py KEY='B' NOTE='最后一周在 11 月 15 日周日结束'
+  BODY: A última semana termina... A. na segunda 9 · B. no domingo 15 · C. no dia 20
+#66 [B1] 单选 file=content56.py KEY='B' NOTE='每天复习一点'
+  BODY: O plano da última semana inclui... A. maratona na véspera · B. revisar um pouco por dia · C. chegar às 13h30
+#67 [B1] 单选 file=content56.py KEY='A' NOTE='提前一天备好证件和黑笔'
+  BODY: No dia anterior, o candidato separa... A. documento e caneta preta · B. só o celular · C. a roupa da festa
+#68 [B1] 单选 file=content56.py KEY='B' NOTE='黑五在 11 月 27 日'
+  BODY: A Black Friday é... A. no dia 11 · B. no dia 27 · C. no dia 15
+#69 [B1] 单选 file=content56.py KEY='B' NOTE='11 月 14 日周六巴西 × 日本 7:15'
+  BODY: No sábado, 14, a Seleção joga... A. às 18h30 · B. às 7h15, contra o Japão · C. no domingo 15
+#70 [B1] 完成句子 file=content56.py KEY='última semana' NOTE='última semana = 最后一周'
+  BODY: A semana é a ___ antes da prova.
+  INSTR: 填空
+#71 [B1] 完成句子 file=content56.py KEY='inscritos' NOTE='inscrito 配合复数：inscritos'
+  BODY: Mais de 5 milhões de estudantes estão ___ no Enem.
+  INSTR: 填空
+#72 [B1] 完成句子 file=content56.py KEY='véspera' NOTE='véspera = 前夕'
+  BODY: Na ___ da prova, durma bem.
+  INSTR: 填空
+#73 [B1] 完成句子 file=content56.py KEY='maratona' NOTE='maratona = 突击马拉松'
+  BODY: Nada de ___ na véspera.
+  INSTR: 填空
+#74 [B1] 完成句子 file=content56.py KEY='local' NOTE='local = 地点'
+  BODY: Confira o ___ da sua prova no cartão.
+  INSTR: 填空
+#75 [B1] 完成句子 file=content56.py KEY='Separe' NOTE='separar 祈使式：separe'
+  BODY: ___ o documento no dia anterior.
+  INSTR: 填空
+#76 [B1] 完成句子 file=content56.py KEY='farão' NOTE='fazer 将来时 eles 不规则形式：farão'
+  BODY: Os estudantes ___ (fazer) a prova no domingo.
+  INSTR: 填空
+#77 [B1] 完成句子 file=content56.py KEY='mostrará' NOTE='mostrar 将来时：mostrará'
+  BODY: O cartão ___ (mostrar) o local da prova.
+  INSTR: 填空
+#78 [B2] 完成句子 file=content56.py KEY='sairão' NOTE='sair 将来时复数：sairão'
+  BODY: Os finalistas ___ (sair) dos jogos de volta.
+  INSTR: 填空
+#79 [B2] 完成句子 file=content56.py KEY='chegará' NOTE='chegar 将来时：chegará'
+  BODY: Quem ___ (chegar) cedo não perde a prova.
+  INSTR: 填空
+#80 [B1] 判断对错 file=content56.py KEY='Verdadeiro' NOTE='确认卡显示考试地点'
+  BODY: O Cartão de Confirmação mostra o local da prova. Verdadeiro ou falso?
+  INSTR: 判断
+#81 [B1] 判断对错 file=content56.py KEY='Falso' NOTE='错：考前突击不是好计划，每天复习一点才好'
+  BODY: A maratona na véspera é o melhor plano. Verdadeiro ou falso?
+  INSTR: 判断
+#82 [B2] 判断对错 file=content56.py KEY='Verdadeiro' NOTE='对：13:30 至 18:30'
+  BODY: No domingo 15, a prova vai de 13h30 a 18h30. Verdadeiro ou falso?
+  INSTR: 判断
+#83 [B2] 单选 file=content56.py KEY='B' NOTE='大门开放 60 分钟'
+  BODY: No relógio do domingo, os portões ficam abertos... A. 30 minutos · B. 60 minutos · C. 300 minutos
+#84 [B2] 单选 file=content56.py KEY='A' NOTE='关门到开考之间等 30 分钟'
+  BODY: A espera entre o fechamento e a prova é de... A. 30 minutos · B. 60 minutos · C. 300 minutos
+#85 [B2] 单选 file=content56.py KEY='B' NOTE='考试 300 分钟'
+  BODY: A prova dura... A. 60 minutos · B. 300 minutos · C. 390 minutos
+#86 [B2] 单选 file=content56.py KEY='B' NOTE='60 + 30 + 300 = 390'
+  BODY: 60 + 30 + 300 = ... A. 360 · B. 390 · C. 420
+#87 [B2] 单选 file=content56.py KEY='B' NOTE='中午到 18:30 = 6 个半小时'
+  BODY: Do meio-dia às 18h30 são... A. 5h · B. 6h30 · C. 7h
+#88 [B2] 单选 file=content56.py KEY='A' NOTE='图表数字是 Inep 官方时间'
+  BODY: Os números do gráfico são... A. horários oficiais do Inep · B. uma pesquisa eleitoral · C. buscas no Google
+#89 [B2] 单选 file=content56.py KEY='B' NOTE='高考分 8 日和 15 日两个周日'
+  BODY: O Enem tem... A. um só domingo · B. dois domingos: 8 e 15 · C. três domingos
+#90 [B2] 单选 file=content56.py KEY='B' NOTE='第 2 天考自然科学与数学'
+  BODY: No dia 15, a prova tem... A. redação · B. Natureza e Matemática · C. só Matemática
+#91 [B2] 单选 file=content56.py KEY='B' NOTE='13 点后到场不得入内'
+  BODY: Quem chega depois das 13h... A. entra atrasado · B. não entra · C. faz a prova no dia 8
+#92 [B2] 单选 file=content56.py KEY='B' NOTE='确认卡显示考试地点'
+  BODY: O Cartão de Confirmação mostra... A. a nota · B. o local da prova · C. o gabarito
+#93 [B2] 完成句子 file=content56.py KEY='começará' NOTE='将来时：começará'
+  BODY: No domingo, ___ (começar) a prova às 13h30.
+  INSTR: 填空
+#94 [B2] 完成句子 file=content56.py KEY='chegar' NOTE='quem + 虚拟式将来：chegar'
+  BODY: Quem ___ (chegar) depois das 13h não entra.
+  INSTR: 填空
+#95 [B2] 完成句子 file=content56.py KEY='fecham' NOTE='现在时：fecham'
+  BODY: Os portões ___ (fechar) às 13h.
+  INSTR: 填空
+#96 [B2] 完成句子 file=content56.py KEY='pede' NOTE='现在时：pede'
+  BODY: O Inep ___ (pedir) que cada um confira o local.
+  INSTR: 填空
+#97 [B2] 完成句子 file=content56.py KEY='portões' NOTE='portões = 大门'
+  BODY: Os ___ abrem às 12h.
+  INSTR: 填空
+#98 [B2] 完成句子 file=content56.py KEY='segunda chamada' NOTE='segunda chamada = 补考、第二次入场'
+  BODY: Não há ___ no Enem.
+  INSTR: 填空
+#99 [B2] 完成句子 file=content56.py KEY='local' NOTE='local = 地点'
+  BODY: Confira o ___ da sua prova.
+  INSTR: 填空
+#100 [B2] 完成句子 file=content56.py KEY='Confira' NOTE='祈使式：confira'
+  BODY: ___ o cartão antes do domingo.
+  INSTR: 填空
+#101 [A2] 完成句子 file=content7.py KEY='confiro' NOTE='conferir：eu → confiro（不规则）'
+  BODY: Eu ___ (conferir) o cartão.
+  INSTR: 填空
+#102 [A2] 完成句子 file=content7.py KEY='confere' NOTE='conferir：você → confere'
+  BODY: Você ___ (conferir) o local antes de sair.
+  INSTR: 填空
+#103 [A2] 完成句子 file=content7.py KEY='termina' NOTE='terminar：ela → termina'
+  BODY: Que horas ___ (terminar) a prova do dia 15?
+  INSTR: 填空
+#104 [A2] 单选 file=content7.py KEY='B' NOTE='onde 问地点'
+  BODY: «___ fica o meu local?» A. Que horas · B. Onde · C. Quando
+#105 [B1] 完成句子 file=content7.py KEY='venceu' NOTE='vencer 过去时：venceu'
+  BODY: O Grêmio ___ (vencer) por 2 a 0.
+  INSTR: 填空
+#106 [B1] 完成句子 file=content7.py KEY='marcou' NOTE='marcar 过去时：marcou'
+  BODY: Maurício ___ (marcar) o gol do Palmeiras.
+  INSTR: 填空
+#107 [B1] 完成句子 file=content7.py KEY='chegou' NOTE='chegar 过去时：chegou'
+  BODY: O candidato ___ (chegar) cedo.
+  INSTR: 填空
+#108 [B1] 单选 file=content7.py KEY='B' NOTE='venceram 是 vencer 的过去时复数'
+  BODY: «Os times ___ a ida com vantagem.» A. vence · B. venceram · C. vencemos
+#109 [B2] 完成句子 file=content7.py KEY='tiver' NOTE='quem + 虚拟式将来：tiver'
+  BODY: Quem ___ (ter) o cartão confere o local antes do domingo.
+  INSTR: 填空
+#110 [B2] 完成句子 file=content7.py KEY='chegar' NOTE='quando + 虚拟式将来：chegar'
+  BODY: Quando você ___ (chegar) ao local, apresente o documento.
+  INSTR: 填空
+#111 [B2] 完成句子 file=content7.py KEY='for' NOTE='se + ser 的虚拟式将来：for'
+  BODY: Se o seu local ___ (ser) novo, saia mais cedo de casa.
+  INSTR: 填空
+#112 [B2] 单选 file=content7.py KEY='B' NOTE='quando + 未来 → 虚拟式将来 for'
+  BODY: «Quando ___ domingo, o país faz a prova.» A. é · B. for · C. seja
+#113 [B1] 完形单选 file=content8.py KEY='A' NOTE='第 2 天在 11 月 15 日'
+  BODY: No domingo 15, o Brasil faz ___ do Enem. (A. o segundo dia · B. o primeiro dia)
+#114 [B1] 完形单选 file=content8.py KEY='B' NOTE='13 点关门'
+  BODY: Os portões fecham às ___ . (A. 12h · B. 13h)
+#115 [B1] 完形单选 file=content8.py KEY='A' NOTE='18:30 结束'
+  BODY: A prova termina às ___ . (A. 18h30 · B. 19h)
+#116 [B1] 完形单选 file=content8.py KEY='A' NOTE='共和国宣言日在 11 月 15 日'
+  BODY: A Proclamação da República é no dia ___ de novembro. (A. 15 · B. 20)
+#117 [B1] 完形单选 file=content8.py KEY='B' NOTE='瓦斯科 × 帕尔梅拉斯次回合在 8 日'
+  BODY: A volta de Vasco × Palmeiras é no domingo ___ . (A. 1º · B. 8)
+#118 [B1] 完形单选 file=content8.py KEY='B' NOTE='第二天共 90 道题'
+  BODY: O dia 15 tem ___ questões. (A. 45 · B. 90)
+#119 [B1] 完形单选 file=content8.py KEY='A' NOTE='考试时长 5 小时'
+  BODY: No dia 15, a prova dura ___ . (A. cinco horas · B. sete horas)
+#120 [B1] 完形单选 file=content8.py KEY='B' NOTE='第 1 天在 11 月 8 日'
+  BODY: O primeiro dia do Enem foi no dia ___ . (A. 15 · B. 8)
+#121 [A2] 单选 file=content8.py KEY='B' NOTE='假日落在周日，周一不补休'
+  BODY: O feriado de 15 de novembro... A. dá folga na segunda · B. cai num domingo · C. muda o relógio
+#122 [A2] 单选 file=content8.py KEY='B' NOTE='确认卡是高考的文件'
+  BODY: O Cartão de Confirmação é um documento... A. da Copa do Brasil · B. do Enem · C. do Halloween
+#123 [B1] 单选 file=content8.py KEY='B' NOTE='米内罗竞技 × 格雷米奥次回合在 MRV 竞技场'
+  BODY: Atlético-MG × Grêmio, a volta, é... A. em São Januário · B. na Arena MRV · C. no Maracanã
+#124 [B1] 单选 file=content8.py KEY='B' NOTE='第 35 轮本周只有一场，在 14 日'
+  BODY: A rodada 35 do Brasileirão, nesta semana... A. tem dez jogos · B. só tem Mirassol × Atlético-MG · C. já terminou
+#125 [B1] 单选 file=content8.py KEY='B' NOTE='共和国宣言在 1889 年'
+  BODY: A Proclamação da República foi em... A. 1822 · B. 1889 · C. 1949
+#126 [A2] 单选 file=content8.py KEY='B' NOTE='11.11 是促销日'
+  BODY: O 11.11 é... A. um feriado nacional · B. o dia das promoções · C. o dia do Enem
+#127 [B2] 单选 file=content8.py KEY='A' NOTE='300 是考试的分钟数'
+  BODY: O número 300 mede... A. os minutos da prova · B. os dias do feriado · C. os inscritos
+#128 [B1] 单选 file=content8.py KEY='A' NOTE='德奥多罗是第一任总统'
+  BODY: Deodoro da Fonseca foi... A. o primeiro presidente · B. o último imperador · C. um jogador
+#129 [A2] 单选 file=content8.py KEY='B' NOTE='玛丽娜住在圣保罗'
+  BODY: Onde mora Marina? A. no Rio · B. em São Paulo · C. em Belo Horizonte
+#130 [A2] 单选 file=content8.py KEY='B' NOTE='她每天复习一点自然科学'
+  BODY: O que Marina revisa na semana? A. só Matemática · B. Natureza, um pouco por dia · C. nada
+#131 [A2] 单选 file=content8.py KEY='B' NOTE='前一晚她备好证件和黑笔、早睡'
+  BODY: Na véspera, Marina... A. faz maratona a noite inteira · B. separa o documento e dorme cedo · C. compra a caneta azul
+#132 [A2] 单选 file=content8.py KEY='B' NOTE='她 11:30 到达考场'
+  BODY: Marina chega ao local... A. às 13h30 · B. às 11h30 · C. às 18h30
+#133 [A2] 造句 file=content8.py KEY='Domingo é dia de prova.' NOTE='时间词在前'
+  BODY: domingo / é / dia de prova → ___
+  INSTR: 造句
+#134 [B1] 造句 file=content8.py KEY='A candidata confere o cartão no aplicativo.' NOTE='主语 + 动词 + 宾语 + 地点'
+  BODY: a candidata / confere / o cartão / no aplicativo → ___
+  INSTR: 造句
+#135 [B1] 造句 file=content8.py KEY='Que horas termina a prova?' NOTE='疑问词组在句首'
+  BODY: que horas / termina / a prova / ? → ___
+  INSTR: 造句
+#136 [B1] 造句 file=content8.py KEY='O Brasil comemora a Proclamação da República.' NOTE='主语 + 动词 + 宾语'
+  BODY: o Brasil / comemora / a proclamação / da república → ___
+  INSTR: 造句
+#137 [A2] 翻译 file=content8.py KEY='11 月 15 日周日是高考的第二天。' NOTE='对照第 6 版标题'
+  BODY: Domingo, 15 de novembro, é o segundo dia do Enem. → ___
+  INSTR: 翻译
+#138 [B1] 翻译 file=content8.py KEY='周日前核对确认卡。' NOTE='Confira = 请核对'
+  BODY: Confira o cartão antes do domingo. → ___
+  INSTR: 翻译
+#139 [B1] 翻译 file=content8.py KEY='O feriado cai num domingo.' NOTE='feriado = 假日'
+  BODY: “假日落在周日。” → ___
+  INSTR: 翻译
+#140 [B2] 翻译 file=content8.py KEY='Quando você chegar, apresente o documento com foto.' NOTE='虚拟式将来 chegar + 祈使 apresente'
+  BODY: 你到达时，请出示带照片的证件。 → ___
+  INSTR: 翻译
+#141 [B2] 词汇配对 file=content8.py KEY='b' NOTE='proclamação=宣布一个变化 b'
+  BODY: a proclamação
+  OPTS: ['a forma do Estado depois de 1889', 'o ato de anunciar uma mudança', 'uma nova entrada depois do fechamento — que não existe no Enem', 'a porta de entrada do local de prova']
+  INSTR: 把词和释义配对
+#142 [B2] 词汇配对 file=content8.py KEY='d' NOTE='portão=考场入口 d'
+  BODY: o portão
+  OPTS: ['a forma do Estado depois de 1889', 'o ato de anunciar uma mudança', 'uma nova entrada depois do fechamento — que não existe no Enem', 'a porta de entrada do local de prova']
+  INSTR: 把词和释义配对
+#143 [B2] 词汇配对 file=content8.py KEY='a' NOTE='república=1889 年后的国家形式 a'
+  BODY: a república
+  OPTS: ['a forma do Estado depois de 1889', 'o ato de anunciar uma mudança', 'uma nova entrada depois do fechamento — que não existe no Enem', 'a porta de entrada do local de prova']
+  INSTR: 把词和释义配对
+#144 [B2] 词汇配对 file=content8.py KEY='c' NOTE='segunda chamada=关门后的再入场（高考没有） c'
+  BODY: a segunda chamada
+  OPTS: ['a forma do Estado depois de 1889', 'o ato de anunciar uma mudança', 'uma nova entrada depois do fechamento — que não existe no Enem', 'a porta de entrada do local de prova']
+  INSTR: 把词和释义配对
+#145 [B1] 完形单选 file=content8.py KEY='B' NOTE='documento com foto 带照片的证件'
+  BODY: — Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento)
+#146 [B1] 完形单选 file=content8.py KEY='A' NOTE='seção = 考场分区（房间）'
+  BODY: — A sua ___ é a 042. (A. seção · B. zona)
+#147 [B1] 完形单选 file=content8.py KEY='B' NOTE='大门 13 点关闭'
+  BODY: — Os portões fecham às ___ . (A. 12h · B. 13h)
+#148 [B1] 完形单选 file=content8.py KEY='A' NOTE='考试 18:30 结束'
+  BODY: — A prova termina às ___ . (A. 18h30 · B. 19h)
+#149 [B1] 完形单选 file=content8.py KEY='B' NOTE='obrigado = 谢谢'
+  BODY: — Boa prova! — Muito ___! (A. tarde · B. obrigado)
+#150 [B1] 写作 file=content8.py KEY='（开放题，范文如下）' NOTE="范文见本版 H 区（{Name(id='NWORDS', ctx=Load())} 词）"
+  BODY: «O seu domingo 15 de novembro» Escreva 80–100 palavras: onde você faz a prova (ou descansa), o que confere antes de sair, e o seu plano para o dia.
+  INSTR: 写作

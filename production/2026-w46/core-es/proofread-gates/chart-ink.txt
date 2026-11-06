@@ -1,0 +1,240 @@
+-- core --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- de --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- en --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- fr --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- it --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- ja --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- ko --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- nl --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- pt --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- ru --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- zh-cn --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
+-- zh-tw --
+  y=1686.0 x=87.0 ink_right=403.2 bar_left=495.0 gap=91.8 :: 1ª vivienda: menos impuestos
+  y=1717.0 x=87.0 ink_right=313.0 bar_left=495.0 gap=182.0 :: Más vivienda pública
+  y=1748.0 x=87.0 ink_right=394.5 bar_left=495.0 gap=100.5 :: Empresa pública de vivienda
+  y=1779.0 x=87.0 ink_right=335.0 bar_left=495.0 gap=160.0 :: Limitar pisos turísticos
+  y=1810.0 x=87.0 ink_right=368.5 bar_left=495.0 gap=126.5 :: Congelar alquileres 2 años
+  y=1686.0 x=1011.0 ink_right=1314.0 bar_left=1419.0 gap=105.0 :: Preocupados por la vivienda
+  y=1717.0 x=1011.0 ink_right=1259.8 bar_left=1419.0 gap=159.2 :: Derecho constitucional
+  y=1748.0 x=1011.0 ink_right=1190.2 bar_left=1419.0 gap=228.8 :: Bien de mercado
+  VALUE y=1686.0 ink_left=753.1 ink_right=818.3 :: 95,4 %
+  VALUE y=1717.0 ink_left=742.1 ink_right=805.6 :: 91,4 %
+  VALUE y=1748.0 ink_left=692.2 ink_right=757.2 :: 76,3 %
+  VALUE y=1779.0 ink_left=689.9 ink_right=754.9 :: 75,6 %
+  VALUE y=1810.0 ink_left=673.9 ink_right=738.9 :: 70,6 %
+  VALUE y=1686.0 ink_left=708.0 ink_right=1011.0 :: Preocupados por la vivienda
+  VALUE y=1686.0 ink_left=1649.8 ink_right=1715.1 :: 86,9 %
+  VALUE y=1717.0 ink_left=762.1 ink_right=1010.9 :: Derecho constitucional
+  VALUE y=1717.0 ink_left=1624.7 ink_right=1689.7 :: 79,0 %
+  VALUE y=1748.0 ink_left=831.8 ink_right=1011.1 :: Bien de mercado
+  VALUE y=1748.0 ink_left=1416.8 ink_right=1480.3 :: 13,5 %
