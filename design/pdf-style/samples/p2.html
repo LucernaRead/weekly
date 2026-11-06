@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>The Lucerna VOL.3 · 第 2 版 · 样张</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/newsreader/400.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/newsreader/600.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/newsreader/400-italic.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc/400.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc/700.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/unifrakturmaguntia/400.css" />
+<link rel="stylesheet" href="base.css" />
+<style>
+  /* ── 栏目页专用:栏目条、图片位、短语卡、练习四栏 ── */
+  .sbar { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding: 22px 34px; background: var(--cloth); color: var(--on-cloth); }
+  .sbar h1 { margin: 0; font-family: var(--serif); font-weight: 600; font-size: 50px; line-height: 1; display: flex; gap: .45em; align-items: baseline; }
+  .sbar h1 .zh { font-family: var(--cjk-serif); font-weight: 700; font-size: 40px; }
+  .sbar .r { text-align: right; }
+  .sbar .r b { display: block; font-family: 'UnifrakturMaguntia', var(--serif); font-weight: 400; font-size: 46px; line-height: 1; }
+  .sbar .r span { display: flex; gap: 1.2em; justify-content: flex-end; margin-top: 8px; font-family: var(--sans); font-size: 16px; letter-spacing: .06em; color: var(--gosling); }
+
+  .grid { margin-top: 40px; }
+  .story h3 { font-size: 54px; margin-top: 0; }
+  .cols { font-size: 25.5px; line-height: 1.55; }
+  .col3 p.t, .rail p.t { margin: 0 0 .8em; font-size: 23px; line-height: 1.5; color: var(--body); }
+  .col3 h4 { margin: 0 0 10px; font-family: var(--serif); font-weight: 600; font-size: 30px; line-height: 1.15; color: var(--ink); }
+  .ph { aspect-ratio: 4 / 3; max-width: 100%; display: grid; place-items: center; background: color-mix(in srgb, var(--cloth) 9%, var(--paper)); font-family: var(--sans); font-size: 16px; color: var(--muted); text-align: center; padding: 20px; }
+  .cap { margin: 10px 0 0; font-family: var(--sans); font-size: 15px; line-height: 1.55; color: var(--muted); }
+  .facts { list-style: none; margin: 12px 0 0; padding: 0; }
+  .facts li { font-size: 22px; line-height: 1.45; color: var(--body); }
+  .facts li + li { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .zhnote { margin: 12px 0 0; font-family: var(--sans); font-size: 16px; line-height: 1.6; color: var(--muted); }
+
+  .say { margin-top: 36px; padding-top: 26px; border-top: 1.5px solid var(--olive); }
+  .say header, .exs header { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+  .say .hint, .exs .hint { font-family: var(--sans); font-size: 16px; color: var(--muted); display: flex; gap: 1.4em; }
+  .say .row { margin-top: 18px; display: grid; grid-template-columns: repeat(3, 1fr) 1.6fr; gap: 20px; align-items: start; }
+  .card { padding: 26px 18px; background: color-mix(in srgb, var(--cloth) 6%, var(--paper)); text-align: center; }
+  .card b { display: block; font-family: var(--serif); font-weight: 600; font-size: 26px; color: var(--ink); }
+  .card span { display: block; margin-top: 6px; font-family: var(--sans); font-size: 16px; color: var(--muted); }
+  .words { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 18px; font-size: 22px; padding-left: 8px; }
+  .words dt { font-family: var(--serif); font-weight: 600; color: var(--ink); }
+  .words dd { margin: 0; color: var(--body); }
+  .words dd span { font-family: var(--sans); font-size: 15px; color: var(--muted); margin-left: .5em; }
+  .say .line { margin: 14px 0 0; font-size: 20px; color: var(--body); }
+
+  .exs { margin-top: 34px; padding-top: 26px; border-top: 1.5px solid var(--olive); }
+  .exs .cols4 { margin-top: 18px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 40px; }
+  .exs .cols4 > div + div { border-left: 1px solid var(--line); padding-left: 40px; }
+  .exs h5 { margin: 0; font-family: var(--sans); font-size: 18px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); display: flex; gap: .7em; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+  .exs h5 i { font-style: normal; color: var(--olive); }
+  .exs .ins { margin: 8px 0 12px; font-family: var(--sans); font-size: 15px; color: var(--muted); }
+  .ex li { font-size: 23.5px; margin-bottom: 20px; }
+  .ex .kind { font-family: var(--sans); font-size: 14px; font-weight: 500; color: var(--muted); margin-left: 4px; }
+  .opts { display: block; color: var(--muted); }
+  .opts span { display: inline-block; white-space: nowrap; margin-right: 1.1em; }
+  .match { list-style: none; margin: 8px 0 0; padding: 0; font-size: 23px; line-height: 1.7; color: var(--body); }
+  .match.defs { margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="sbar">
+    <h1>Life <span class="zh">生活</span></h1>
+    <div class="r"><b>The Lucerna</b><span><span>LEVEL A2</span><span>Silence, poppies &amp; your week</span><span>默哀、罂粟与你的一周</span></span></div>
+  </div>
+
+  <div class="grid">
+    <section class="story">
+      <h3>Wednesday, November 11: Two Minutes That Stop a Country</h3>
+      <p class="byline"><span>By The Lucerna newsroom</span><span>Reading level A2</span></p>
+      <div class="cols">
+        <p>On Wednesday, November 11, at 11 a.m., Britain stops. Buses stop. Shops go quiet. In schools, children stand still. For two minutes, nobody speaks. The silence remembers the soldiers who died in the First World War — and in every war since.</p>
+        <p>Why eleven eleven? The First World War ended at 11 a.m. on November 11, 1918. The armistice was signed that morning, and the guns stopped. In 1920, Britain built the Cenotaph in Whitehall, London — a stone monument with no body inside it, for all the dead. Every year since, people have gathered there.</p>
+        <p>In Canada, Australia and New Zealand, the day is the same: Remembrance Day, the same poppy, the same silence at 11 a.m. In the United States, November 11 is Veterans Day — a day for all veterans, living and dead. The names are different. The silence is the same.</p>
+        <p>The poppy is small, red and paper. Volunteers sell it on streets and in shops, and the money helps veterans and their families. Many people wear it on the left, near the heart — and they wear it all through November, until the day itself is past.</p>
+        <p>And what about the weekend just gone? On Sunday, November 8, it was Remembrance Sunday in Britain — the main ceremony, three days before Armistice Day itself. And in India and in Indian homes around the world, Sunday, November 8, was Diwali, the festival of lights: a five-day festival of lamps, sweets and family, with the main night on Sunday. Two festivals of light and memory, one weekend — both just passed, not coming.</p>
+        <p>This week looks forward too. On Wednesday, November 11, shoppers mark Singles' Day — 11.11, the biggest online shopping day in China, now copied around the world. On Friday, November 13, Britain's Children in Need appeal takes over television. Page 5 has the story of Pudsey the bear.</p>
+      </div>
+    </section>
+
+    <section class="col3">
+      <div class="box">
+        <p class="label">Eleven Eleven <span class="zh">十一点十一分</span></p>
+        <p class="t" style="margin-top:12px">11 a.m. on the 11th day of the 11th month: the eleventh hour. Two minutes of silence — 120 seconds. Tradition says the first minute is for the dead, the second for the living who came home.</p>
+      </div>
+      <p class="label top">What Is On This Week?</p>
+      <h4 style="margin-top:10px">One ghost story, one bank story</h4>
+      <p class="t">On Friday, November 13, two films open: <i>Ebenezer</i>, a dark new Scrooge from Dickens, and <i>How to Rob a Bank</i>, a heist comedy. Both for a Friday night out.</p>
+      <p class="t">On television, the Children in Need appeal show is live on Friday night, and the ATP Finals begin in Turin on Sunday. Page 3 has the film guide, page 4 the sport.</p>
+      <p class="t">How do you say the time of the silence? “At eleven o'clock — eleven eleven.” is the sentence of the week. The phrase box below shows three ways to say it.</p>
+      <p class="gloss"><b>讲解</b><span>a silence 默哀、寂静</span><span>an armistice 停战协定</span><span>a poppy 罂粟花</span><span>a veteran 退伍军人</span></p>
+    </section>
+
+    <section class="rail">
+      <div class="ph">图片位<br />原版为 1920 年 Cenotaph 揭幕照片</div>
+      <p class="cap">The Cenotaph in Whitehall, London, at its unveiling on November 11, 1920. More than a century later, the same stone is still the centre of Britain's Remembrance Sunday. Horace Nicholls, public domain, via Wikimedia Commons.</p>
+      <p class="label top">Did You Know?</p>
+      <ul class="facts">
+        <li>The Cenotaph was unveiled on November 11, 1920 — two years after the armistice.</li>
+        <li>The two-minute silence is held at 11 a.m. on November 11 in Britain, Canada, Australia and New Zealand.</li>
+        <li>Diwali's main night was Sunday, November 8: lamps, sweets and family, on the darkest night of the lunar month.</li>
+      </ul>
+      <div class="box" style="margin-top:28px">
+        <p class="label">And You? <span class="zh">说说你自己</span></p>
+        <p class="t" style="margin-top:10px">Do you wear a poppy in November? What does your country do on November 11? Write two sentences in English for VOL.4.</p>
+        <p class="zhnote">11月11日，你的国家做什么？写两句英语寄给编辑部。</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="say">
+    <header><p class="label">Say It: Eleven Eleven <span class="zh">这样说时间</span></p><span class="hint"><span>The silence, in three sentences</span><span>三句话说默哀</span></span></header>
+    <div class="row">
+      <div class="card"><b>At eleven o'clock.</b><span>上午11点。</span></div>
+      <div class="card"><b>Two minutes of silence.</b><span>两分钟默哀。</span></div>
+      <div class="card"><b>We will remember them.</b><span>我们会铭记他们。</span></div>
+      <dl class="words">
+        <dt>remember</dt><dd>to keep in your mind<span>铭记</span></dd>
+        <dt>silent</dt><dd>saying nothing<span>安静的</span></dd>
+        <dt>to honour</dt><dd>to show respect<span>致敬</span></dd>
+        <dt>a ceremony</dt><dd>a formal event<span>仪式</span></dd>
+      </dl>
+    </div>
+    <p class="line">This week: on Wednesday, November 11, at 11 a.m., the silence begins. Two minutes — for the dead, and for all who served.</p>
+  </div>
+
+  <div class="exs">
+    <header><p class="label">Exercises <span class="zh">第2版练习</span></p><span class="hint"><span>答案见第8版</span><span>题目可跨级混排，按题号找答案</span></span></header>
+    <div class="cols4">
+      <div>
+        <h5><i>A</i>The date</h5>
+        <p class="ins">根据日期与时间，用英语补全句子。</p>
+        <ol class="ex">
+          <li><span class="n"><span class="lv">A2</span>11.<span class="kind">填空</span></span>The silence begins at <span class="blank"></span> o'clock.</li>
+          <li><span class="n"><span class="lv">A2</span>12.<span class="kind">填空</span></span>Remembrance Day is on 11 <span class="blank"></span>.</li>
+          <li><span class="n"><span class="lv">A2</span>13.<span class="kind">填空</span></span>The silence lasts <span class="blank"></span> minutes.</li>
+          <li><span class="n"><span class="lv">A2</span>14.<span class="kind">填空</span></span>People wear a red <span class="blank"></span> in November.</li>
+          <li><span class="n"><span class="lv">A2</span>15.<span class="kind">填空</span></span>The armistice began in <span class="blank"></span>.</li>
+        </ol>
+      </div>
+      <div>
+        <h5><i>B</i>Will</h5>
+        <p class="ins">用 will + 动词改写（承诺与将要发生的事）。</p>
+        <ol class="ex">
+          <li><span class="n"><span class="lv">A2</span>16.<span class="kind">改写</span></span>They (remember) them. → <span class="blank"></span></li>
+          <li><span class="n"><span class="lv">A2</span>17.<span class="kind">改写</span></span>She (wear) a poppy. → <span class="blank"></span></li>
+          <li><span class="n"><span class="lv">A2</span>18.<span class="kind">改写</span></span>We (stand) still. → <span class="blank"></span></li>
+          <li><span class="n"><span class="lv b1">B1</span>19.<span class="kind">改写</span></span>They (watch) the ceremony? → <span class="blank"></span></li>
+        </ol>
+      </div>
+      <div>
+        <h5><i>C</i>Comprehension</h5>
+        <p class="ins">读第2版文章，选出正确答案。</p>
+        <ol class="ex">
+          <li><span class="n"><span class="lv">A2</span>20.</span>The silence begins at…<span class="opts"><span>A. 10 a.m.</span><span>B. 11 a.m.</span><span>C. noon</span></span></li>
+          <li><span class="n"><span class="lv">A2</span>21.</span>The Cenotaph was unveiled in…<span class="opts"><span>A. 1918</span><span>B. 1919</span><span>C. 1920</span></span></li>
+          <li><span class="n"><span class="lv">A2</span>22.</span>Diwali's main night was…<span class="opts"><span>A. Sun, Nov 8</span><span>B. Wed, Nov 11</span><span>C. Fri, Nov 13</span></span></li>
+          <li><span class="n"><span class="lv">A2</span>23.</span>In the US, November 11 is…<span class="opts"><span>A. Remembrance Day</span><span>B. Veterans Day</span><span>C. Singles' Day</span></span></li>
+        </ol>
+      </div>
+      <div>
+        <h5><i>D</i>The words</h5>
+        <p class="ins">把词和释义配对。</p>
+        <ol class="ex"><li><span class="n"><span class="lv">A2</span>24–27.<span class="kind">配对</span></span></li></ol>
+        <ul class="match"><li>24. a poppy</li><li>25. an armistice</li><li>26. a veteran</li><li>27. a ceremony</li></ul>
+        <ul class="match defs"><li>a. a red flower worn in November</li><li>b. an agreement to stop fighting</li><li>c. a person who served in the forces</li><li>d. a formal public event</li></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot"><span><span>The Lucerna</span><span>英语周报 VOL.3</span><span>LUCERNA ENGLISH WEEKLY</span></span><span>第2版／共8版</span></div>
+</div>
+</body>
+</html>

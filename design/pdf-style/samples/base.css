@@ -1,0 +1,105 @@
+/* ── 版式规范(和网站一套)── 版面 1462.5 × 2025 pt = 1950 × 2700 CSS px ── */
+  :root {
+    --paper: #fbfaf6;      /* 近白新闻纸(网站封面同色) */
+    --ink: #302c28;        /* 墨(网站 --ink-1) */
+    --body: #3a3631;       /* 正文 */
+    --muted: #6f675d;      /* 说明、讲解 */
+    --line: #d8d2c4;       /* 栏间细线 */
+    --cloth: #37402f;      /* 书衣绿:栏目条、导读条 */
+    --olive: #46581f;      /* 橄榄绿:栏目小字、首字、分隔线 */
+    --gosling: #f0d87c;    /* 鹅黄:书衣绿上的强调 */
+    --on-cloth: #f4efe1;   /* 书衣绿上的字 */
+    --a2: #6b7d3a; --b1: #46581f; --b2: #37402f;   /* 等级徽章:越难越深 */
+    --serif: 'Newsreader', 'Noto Serif SC', Georgia, serif;
+    --cjk-serif: 'Noto Serif SC', 'Newsreader', serif;
+    --sans: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+  }
+  @page { size: 1462.5pt 2025pt; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: #d9d5cb; }
+  .page {
+    width: 1950px; height: 2700px; margin: 0 auto; padding: 72px 88px 64px;
+    background: var(--paper); color: var(--body); font-family: var(--serif);
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  /* 标签:小号大写无衬线,两段之间用空隙,不用「·」 */
+  .label { font-family: var(--sans); font-size: 17px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--olive); display: flex; flex-wrap: wrap; gap: .2em .9em; align-items: baseline; margin: 0; }
+  .label .zh { font-weight: 500; letter-spacing: .08em; white-space: nowrap; }
+
+  /* ── 刊头 ── */
+  .folio { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 17px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .folio span:nth-child(2) { display: flex; gap: 1.6em; }
+  .mast { text-align: center; margin-top: 18px; }
+  .mast h1 { margin: 0; font-family: 'UnifrakturMaguntia', var(--serif); font-weight: 400; font-size: 196px; line-height: 1; color: var(--ink); }
+  .mast .sub { margin: 14px 0 0; font-family: var(--cjk-serif); font-weight: 700; font-size: 36px; letter-spacing: .32em; text-indent: .32em; color: var(--olive); }
+  .mast .tag { margin: 12px 0 0; font-family: var(--sans); font-size: 16px; letter-spacing: .18em; color: var(--muted); }
+  .rule { position: relative; margin: 34px 0 0; height: 2px; background: var(--olive); }
+  .rule img { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 64px; padding: 0 22px; background: var(--paper); box-sizing: content-box; }
+
+  /* ── 导读条(书衣绿) ── */
+  .lead { margin-top: 40px; padding: 26px 34px; background: var(--cloth); color: var(--on-cloth); display: flex; justify-content: space-between; align-items: center; gap: 40px; }
+  .lead h2 { margin: 0; font-family: var(--serif); font-weight: 600; font-size: 46px; line-height: 1.1; letter-spacing: -.005em; }
+  .lead p { margin: 8px 0 0; font-size: 25px; color: color-mix(in srgb, var(--on-cloth) 78%, transparent); }
+  .lead .side { text-align: right; font-family: var(--sans); color: var(--gosling); flex: none; }
+  .lead .side b { display: block; font-size: 27px; font-weight: 700; letter-spacing: .04em; }
+  .lead .side span { display: flex; gap: 1.2em; justify-content: flex-end; margin-top: 8px; font-size: 18px; color: color-mix(in srgb, var(--gosling) 80%, transparent); }
+
+  /* ── 正文网格 ── */
+  .grid { margin-top: 40px; display: grid; grid-template-columns: 2.15fr 1fr 1fr; gap: 0 44px; flex: none; }
+  .grid > section + section { border-left: 1px solid var(--line); padding-left: 44px; }
+  .story h3 { margin: 12px 0 14px; font-family: var(--serif); font-weight: 600; font-size: 60px; line-height: 1.06; letter-spacing: -.012em; color: var(--ink); }
+  .byline { font-family: var(--sans); font-size: 17px; color: var(--muted); display: flex; gap: 1.4em; margin: 0 0 20px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+  .cols { column-count: 2; column-gap: 40px; column-rule: 1px solid var(--line); font-size: 24px; line-height: 1.5; text-align: left; hyphens: manual; color: var(--body); }
+  .cols p { margin: 0 0 .8em; }
+  .cols p:first-child::first-letter { float: left; font-weight: 600; font-size: 4.1em; line-height: .8; margin: 6px 12px 0 0; color: var(--olive); }
+  .gloss { margin: 18px 0 0; font-family: var(--sans); font-size: 18px; line-height: 1.7; color: var(--muted); display: flex; flex-wrap: wrap; gap: .3em 1.4em; }
+  .gloss b { color: var(--olive); font-weight: 700; }
+
+  .box { padding: 22px 24px; background: color-mix(in srgb, var(--cloth) 6%, var(--paper)); }
+  .box + .label, .box + .box, .label + .list, * + .label.top { margin-top: 30px; }
+  .nums { list-style: none; margin: 14px 0 0; padding: 0; font-size: 22px; line-height: 1.45; color: var(--body); }
+  .nums li + li { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .nums b { display: block; font-family: var(--sans); font-size: 16px; font-weight: 700; letter-spacing: .06em; color: var(--olive); }
+  .ex { list-style: none; margin: 16px 0 0; padding: 0; }
+  .ex li { font-size: 22px; line-height: 1.42; margin: 0 0 18px; color: var(--body); }
+  .ex .n { display: flex; align-items: center; gap: 10px; font-family: var(--sans); font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
+  .lv { display: inline-block; padding: 2px 8px 1px; border-radius: 2px; font-family: var(--sans); font-size: 14px; font-weight: 700; letter-spacing: .04em; color: #fff; background: var(--a2); }
+  .lv.b1 { background: var(--b1); } .lv.b2 { background: var(--b2); }
+  .blank { display: inline-block; width: 3.2em; border-bottom: 1.5px solid var(--ink); transform: translateY(-.2em); }
+
+  .bars { list-style: none; margin: 16px 0 0; padding: 0; }
+  .bars li { font-size: 21px; color: var(--ink); margin-bottom: 14px; }
+  .bars i { display: block; height: 10px; margin-top: 6px; background: var(--olive); border-radius: 1px; }
+  .note { margin: 12px 0 0; font-family: var(--sans); font-size: 15px; line-height: 1.6; color: var(--muted); }
+  .toc { list-style: none; margin: 14px 0 0; padding: 0; font-size: 20px; }
+  .toc li { display: grid; grid-template-columns: 2.6em 1fr auto; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); color: var(--body); }
+  .toc .p { font-family: var(--sans); font-weight: 700; font-size: 17px; color: var(--olive); }
+  .toc .l { font-family: var(--sans); font-size: 15px; color: var(--muted); }
+  .word { margin: 14px 0 0; font-size: 23px; line-height: 1.45; color: var(--ink); }
+  .word em { font-style: italic; font-weight: 600; }
+
+  /* ── 下半版 ── */
+  .lower { margin-top: 36px; padding-top: 30px; border-top: 1.5px solid var(--olive); display: grid; grid-template-columns: 2.15fr 1fr 1fr; gap: 0 44px; }
+  .lower > section + section { border-left: 1px solid var(--line); padding-left: 44px; }
+  .lower figure { margin: 0; }
+  .lower img.photo { width: 100%; aspect-ratio: 16 / 6.6; object-fit: cover; display: block; }
+  .lower figcaption { margin-top: 10px; font-family: var(--sans); font-size: 15px; line-height: 1.55; color: var(--muted); }
+  .lower h4 { margin: 10px 0 12px; font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.15; color: var(--ink); }
+  .lower p.t { margin: 0 0 .7em; font-size: 22px; line-height: 1.5; color: var(--body); }
+  .brief { margin: 14px 0 0; }
+  .brief div + div { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .brief b { display: block; font-family: var(--sans); font-size: 15px; font-weight: 700; letter-spacing: .1em; color: var(--olive); }
+  .brief p { margin: 4px 0 0; font-size: 20px; line-height: 1.45; color: var(--body); }
+
+  .quiz { margin-top: 32px; margin-bottom: 22px; padding-top: 24px; border-top: 1.5px solid var(--olive); }
+  .quiz header { display: flex; justify-content: space-between; align-items: baseline; }
+  .quiz .hint { font-family: var(--sans); font-size: 16px; color: var(--muted); display: flex; gap: 1.4em; }
+  .quiz ol { list-style: none; margin: 18px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0 44px; }
+  .quiz li { font-size: 21px; line-height: 1.45; color: var(--body); }
+  .quiz li + li { border-left: 1px solid var(--line); padding-left: 44px; }
+  .quiz .opts { display: block; margin-top: 4px; color: var(--muted); }
+  .quiz .opts span { display: block; }
+
+  .foot { margin-top: auto; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-family: var(--sans); font-size: 15px; letter-spacing: .08em; color: var(--muted); }
+  .foot span:first-child { display: flex; gap: 1.6em; }
