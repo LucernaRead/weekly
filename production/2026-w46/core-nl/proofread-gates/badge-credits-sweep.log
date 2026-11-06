@@ -1,0 +1,257 @@
+===== BADGE (P1) =====
+de: x=975 y=568 size=20 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   'NIEDERLÄNDISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER'
+en: x=975 y=372 size=20 weight=700 fill=#3e4c2a anchor=middle family=Noto Sans CJK SC
+   'TEXT IN DUTCH · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS'
+es: x=975 y=568 size=20 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   'TEXTOS EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'
+fr: x=975 y=568 size=20 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   "TEXTES EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES"
+it: x=975 y=568 size=20 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   "TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"
+ja: x=975 y=372 size=19.5 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK JP
+   'オランダ語テキスト · 日本語の解説 — 日本語読者のための版'
+ja: x=527 y=1281.3 size=20.5 weight=None fill=#57523f anchor=start family=Noto Sans CJK JP
+   '解説 — de intocht 到着 · de stoomboot 蒸気船'
+ko: x=975 y=372 size=19.5 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   '네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+ko: x=527 y=1281.3 size=20.5 weight=None fill=#57523f anchor=start family=Noto Sans CJK SC
+   '해설 — de intocht 도착 · de stoomboot 증기선'
+pt: x=975 y=372 size=19.5 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   'TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA'
+ru: x=975 y=372 size=19.5 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK SC
+   'ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+zh-tw: x=975 y=372 size=19.5 weight=700 fill=#a4553a anchor=middle family=Noto Sans CJK TC
+   '荷語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+===== FOOTERS (all pages, first footer-like element per page) =====
+-- core --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · 荷兰语周报 VOL.3 · LUCERNA DUTCH WEEKLY'
+-- de --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · NIEDERLÄNDISCHE WOCHENZEITUNG VOL.3 · TEXT AUF NIEDERLÄNDISCH · ERKLÄRUNGEN AUF DEUTSCH'
+-- en --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · VOL.3 · Dutch text · English explanations · LUCERNA DUTCH WEEKLY'
+-- es --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANARIO NEERLANDÉS VOL.3 · TEXTO EN NEERLANDÉS · EXPLICACIONES EN ESPAÑOL'
+-- fr --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · HEBDOMADAIRE NÉERLANDAIS VOL.3 · TEXTE EN NÉERLANDAIS · EXPLICATIONS EN FRANÇAIS'
+-- it --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · SETTIMANALE OLANDESE VOL.3 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO'
+-- ja --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · オランダ語週刊 VOL.3 · 本文はオランダ語 · 解説は日本語'
+-- ko --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · 네덜란드어 주간지 VOL.3 · 텍스트는 네덜란드어 · 해설은 한국어'
+-- pt --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · SEMANÁRIO NEERLANDÊS VOL.3 · TEXTOS EM NEERLANDÊS · EXPLICAÇÕES EM PORTUGUÊS'
+-- ru --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · ГОЛЛАНДСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ГОЛЛАНДСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+-- zh-tw --
+  p1-voorpagina.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p2-leven.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p3-cultuur.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p4-sport.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p5-jongeren.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p6-verdieping.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p7-taal.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+  p8-toets.svg y=2624.0 fill=#57523f 'De Lucerna · 荷語週報 VOL.3 · 正文荷語 · 講解繁體中文'
+===== IMAGE COUNTS per page =====
+core [1, 1, 1, 1, 0, 0, 0, 0]
+de [1, 1, 1, 1, 0, 0, 0, 0]
+en [1, 1, 1, 1, 0, 0, 0, 0]
+es [1, 1, 1, 1, 0, 0, 0, 0]
+fr [1, 1, 1, 1, 0, 0, 0, 0]
+it [1, 1, 1, 1, 0, 0, 0, 0]
+ja [1, 1, 1, 1, 0, 0, 0, 0]
+ko [1, 1, 1, 1, 0, 0, 0, 0]
+pt [1, 1, 1, 1, 0, 0, 0, 0]
+ru [1, 1, 1, 1, 0, 0, 0, 0]
+zh-tw [1, 1, 1, 1, 0, 0, 0, 0]
+===== PHOTO CREDIT texts =====
+-- core --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- de --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- en --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- es --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- fr --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- it --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- ja --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- ko --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- pt --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- ru --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+-- zh-tw --
+  p1-voorpagina.svg: 'Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0'
+  p2-leven.svg: 'Foto: Nationaal Archief — CC0'
+  p3-cultuur.svg: 'Foto: W. Punt / Anefo, Nationaal Archief — CC0'
+  p4-sport.svg: 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+===== READER-FACING SWEEP tokens in SVG text =====
+core hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', '刊登示例信，承诺顺延 VOL.4。')
+    ('p7-taal.svg', 'VOL.4', '来信和作文，VOL.4 刊登！')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · 下期预告 (VOL.4)')
+de hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'Beispiel; Versprechen für VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'und Texte für VOL.4!')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · NÄCHSTE WOCHE (VOL.4)')
+en hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'press time — example; promise to VOL.4.')
+    ('p7-taal.svg', 'VOL.4', "Editors' example — send yours for VOL.4!")
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · NEXT WEEK (VOL.4)')
+es hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'ejemplo; promesa para el VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'y textos para el VOL.4!')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · LA SEMANA QUE VIENE (VOL.4)')
+fr hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', '— exemple ; promesse au VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'vôtres pour le VOL.4 !')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · LA SEMAINE PROCHAINE (VOL.4)')
+it hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'esempio; promessa al VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'e testi per il VOL.4!')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · LA PROSSIMA SETTIMANA (VOL.4)')
+ja hits: 4
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'はなく、例文を掲載。約束はVOL.4へ。')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · 来週（VOL.4）')
+ko hits: 4
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', '속은 VOL.4로 이어져요.')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · 다음 호 예고 (VOL.4)')
+pt hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'exemplo; promessa para o VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'para o VOL.4!')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · PRÓXIMA SEMANA (VOL.4)')
+ru hits: 4
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'пример; обещание — в VOL.4.')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · СЛЕДУЮЩАЯ НЕДЕЛЯ (VOL.4)')
+zh-tw hits: 5
+    ('p2-leven.svg', 'VOL.4', 'in VOL.4 (pagina 7, «Brieven van')
+    ('p7-taal.svg', 'VOL.4', 'VOL.4.')
+    ('p7-taal.svg', 'VOL.4', '刊登示例信，承諾順延 VOL.4。')
+    ('p7-taal.svg', 'VOL.4', '真實來信和第 8 版最佳作文，VOL.4 刊登！')
+    ('p7-taal.svg', 'VOL.4', 'VOLGENDE WEEK · 下期預告 (VOL.4)')

@@ -1,0 +1,45 @@
+distinct s2t-differing chars: 21 会内写参号国学寝届峡当数来横浅温点画祷里静
+total instances: 126
+CHAR 会 (s2t 會) instances=2 elements=2
+CHAR 内 (s2t 內) instances=2 elements=2
+CHAR 写 (s2t 寫) instances=21 elements=21
+CHAR 参 (s2t 參) instances=19 elements=18
+CHAR 号 (s2t 號) instances=7 elements=7
+CHAR 国 (s2t 國) instances=2 elements=2
+CHAR 学 (s2t 學) instances=4 elements=4
+CHAR 寝 (s2t 寢) instances=1 elements=1
+CHAR 届 (s2t 屆) instances=2 elements=2
+CHAR 峡 (s2t 峽) instances=4 elements=4
+CHAR 当 (s2t 當) instances=1 elements=1
+CHAR 数 (s2t 數) instances=25 elements=25
+CHAR 来 (s2t 來) instances=3 elements=3
+CHAR 横 (s2t 橫) instances=8 elements=8
+CHAR 浅 (s2t 淺) instances=4 elements=4
+CHAR 温 (s2t 溫) instances=2 elements=2
+CHAR 点 (s2t 點) instances=4 elements=4
+CHAR 画 (s2t 畫) instances=2 elements=2
+CHAR 祷 (s2t 禱) instances=4 elements=4
+CHAR 里 (s2t 裏) instances=2 elements=2
+CHAR 静 (s2t 靜) instances=7 elements=7
+TC '得到東西的場所用「で」。' occurrences: 1
+    ('p7-kotoba.svg', 784.0, '得到東西的場所用「で」。')
+TC '看的場所用「で」。' occurrences: 1
+    ('p7-kotoba.svg', 967.6, '看的場所用「で」。')
+TC '場所用「で」' occurrences: 3
+    ('p7-kotoba.svg', 784.0, '得到東西的場所用「で」。')
+    ('p7-kotoba.svg', 967.6, '看的場所用「で」。')
+    ('p8-tesuto.svg', 1912.1, '135. 神社で千歳飴をもらいます。 — 場所用「で」')
+TC '在酉の市買熊手' occurrences: 1
+    ('p8-tesuto.svg', 1429.0, '42. 熊手を買います。 — 在酉の市買熊手')
+TC '2026年沒有三の酉' occurrences: 1
+    ('p8-tesuto.svg', 2368.8, '33. C — 2026年沒有三の酉')
+TC '新小結是美ノ海' occurrences: 1
+    ('p8-tesuto.svg', 1956.6, '59. B — 新小結是美ノ海')
+TC '「千歳飴」受歡迎' occurrences: 1
+    ('p8-tesuto.svg', 2307.5, '148. A — 「千歳飴」受歡迎')
+TC '口號是「静かだけど、冒険中。」' occurrences: 2
+    ('p8-tesuto.svg', 2133.5, '103. B — 口號是「静かだけど、冒険中。」')
+    ('p8-tesuto.svg', 1692.0, '128. A — 口號是「静かだけど、冒険中。」')
+residue strings present: []
+residue chars present: []
+wrote sc-scan-round2.json

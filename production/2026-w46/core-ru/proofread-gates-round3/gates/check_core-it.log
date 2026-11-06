@@ -1,0 +1,14 @@
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Эта неделя в России — обычная
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] В среду, 11 ноября, — день распродажи 11.11: пик скидок
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Это профессиональный праздник: выходного в этот день нет, по
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие: в Москве солнце садится око
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После этого тура — пауза: следующий, 15-й тур, будет только 
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Посылку надо отследить, получить и проверить
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году, и именно они задают ритм
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 10476
+orphan line-starts: []
+same-baseline collisions: [] total 0

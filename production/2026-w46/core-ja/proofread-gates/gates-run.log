@@ -1,0 +1,226 @@
+=== zh-cn freeze ===
+p1: +0 strings / -0 strings; CJK core 1373 -> edition 1373; added CJK chars: 0 
+p2: +0 strings / -0 strings; CJK core 1266 -> edition 1266; added CJK chars: 0 
+p3: +0 strings / -0 strings; CJK core 1163 -> edition 1163; added CJK chars: 0 
+p4: +0 strings / -0 strings; CJK core 1347 -> edition 1347; added CJK chars: 0 
+p5: +0 strings / -0 strings; CJK core 1057 -> edition 1057; added CJK chars: 0 
+p6: +0 strings / -0 strings; CJK core 1095 -> edition 1095; added CJK chars: 0 
+p7: +0 strings / -0 strings; CJK core 1664 -> edition 1664; added CJK chars: 0 
+p8: +0 strings / -0 strings; CJK core 2966 -> edition 2966; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== zh-cn p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 exit=0
+=== zh-cn occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg: 0 flags 
+occlusion exit=0
+=== de freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +20 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +27 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +192 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== de p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-de/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== de occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-de/svg: 0 flags 
+occlusion exit=0
+=== en freeze ===
+p1: +19 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +19 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +27 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +22 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +41 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +188 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== en p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-en/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== en occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-en/svg: 0 flags 
+occlusion exit=0
+=== es freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +24 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +21 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +26 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +22 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +199 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== es p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-es/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== es occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-es/svg: 0 flags 
+occlusion exit=0
+=== fr freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +20 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +26 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +22 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +191 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== fr p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-fr/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== fr occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-fr/svg: 0 flags 
+occlusion exit=0
+=== it freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +30 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +20 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +26 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +196 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== it p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-it/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== it occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-it/svg: 0 flags 
+occlusion exit=0
+=== ko freeze ===
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +19 strings / -18 strings; CJK core 1373 -> edition 1416; added CJK chars: 159 {'매': 1, '주': 4, '일': 5, '본': 3, '어': 7, '텍': 2, '스': 4, '트': 2, '한': 5, '국': 3}
+p2: +28 strings / -28 strings; CJK core 1266 -> edition 1350; added CJK chars: 235 {'포': 2, '키': 2, '데': 1, '이': 2, '와': 3, '지': 2, '토': 1, '세': 13, '아': 1, '메': 1}
+p3: +22 strings / -22 strings; CJK core 1163 -> edition 1235; added CJK chars: 190 {'시': 2, '치': 3, '고': 3, '상': 2, '과': 1, '도': 1, '리': 1, '노': 1, '이': 2, '해': 3}
+p4: +19 strings / -19 strings; CJK core 1347 -> edition 1384; added CJK chars: 134 {'일': 3, '본': 3, '시': 3, '리': 2, '즈': 2, '연': 3, '승': 1, '해': 3, '설': 3, '접': 1}
+p5: +25 strings / -24 strings; CJK core 1057 -> edition 1129; added CJK chars: 180 {'청': 1, '년': 1, '월': 1, '일': 4, '의': 2, '나': 2, '눔': 1, '해': 3, '설': 3, '건': 2}
+p6: +22 strings / -22 strings; CJK core 1095 -> edition 1160; added CJK chars: 152 {'단': 1, '풍': 1, '철': 1, '은': 3, '남': 1, '쪽': 1, '으': 2, '로': 1, '해': 2, '설': 2}
+p7: +37 strings / -39 strings; CJK core 1664 -> edition 1706; added CJK chars: 393 {'언': 2, '어': 5, '세': 18, '수': 3, '준': 1, '주': 7, '제': 4, '독': 3, '서': 4, '간': 3}
+p8: +180 strings / -177 strings; CJK core 2966 -> edition 3460; added CJK chars: 2021 {'테': 1, '스': 8, '트': 9, '와': 4, '답': 4, '문': 19, '장': 18, '을': 40, '만': 7, '드': 4}
+TOTAL added CJK characters: 3464
+freeze exit=1
+=== ko p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-ko/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== ko occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-ko/svg: 0 flags 
+occlusion exit=0
+=== nl freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +21 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +26 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +197 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== nl p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-nl/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== nl occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-nl/svg: 0 flags 
+occlusion exit=0
+=== pt freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +29 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +23 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +21 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +27 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +41 strings / -39 strings; CJK core 1664 -> edition 1313; added CJK chars: 0 
+p8: +199 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== pt p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-pt/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== pt occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-pt/svg: 0 flags 
+occlusion exit=0
+=== ru freeze ===
+p1: +20 strings / -18 strings; CJK core 1373 -> edition 1257; added CJK chars: 0 
+p2: +31 strings / -28 strings; CJK core 1266 -> edition 1115; added CJK chars: 0 
+p3: +25 strings / -22 strings; CJK core 1163 -> edition 1045; added CJK chars: 0 
+p4: +21 strings / -19 strings; CJK core 1347 -> edition 1250; added CJK chars: 0 
+p5: +28 strings / -24 strings; CJK core 1057 -> edition 949; added CJK chars: 0 
+p6: +23 strings / -22 strings; CJK core 1095 -> edition 1008; added CJK chars: 0 
+p7: +42 strings / -39 strings; CJK core 1664 -> edition 1312; added CJK chars: 0 
+p8: +194 strings / -177 strings; CJK core 2966 -> edition 1439; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== ru p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-ru/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+p8 exit=0
+=== ru occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-ru/svg: 0 flags 
+occlusion exit=0
+=== zh-tw freeze ===
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +17 strings / -16 strings; CJK core 1373 -> edition 1403; added CJK chars: 73 {'週': 5, '日': 2, '本': 1, '語': 3, '版': 1, '紅': 2, '葉': 1, '正': 2, '文': 5, '繁': 3}
+p2: +16 strings / -16 strings; CJK core 1266 -> edition 1276; added CJK chars: 51 {'日': 1, '與': 2, '歲': 1, '細': 1, '見': 1, '譯': 2, '長': 2, '鹹': 1, '願': 1, '說': 2}
+p3: +12 strings / -12 strings; CJK core 1163 -> edition 1173; added CJK chars: 38 {'文': 2, '與': 1, '日': 1, '長': 1, '願': 1, '譯': 2, '繁': 1, '興': 1, '週': 1, '見': 1}
+p4: +14 strings / -14 strings; CJK core 1347 -> edition 1357; added CJK chars: 43 {'體': 2, '日': 1, '連': 2, '勝': 2, '賽': 3, '正': 1, '譯': 2, '勢': 1, '敵': 1, '見': 2}
+p5: +12 strings / -12 strings; CJK core 1057 -> edition 1067; added CJK chars: 41 {'日': 1, '譯': 2, '遞': 2, '給': 2, '連': 1, '發': 1, '見': 1, '憶': 1, '長': 1, '說': 2}
+p6: +11 strings / -11 strings; CJK core 1095 -> edition 1105; added CJK chars: 41 {'紅': 1, '葉': 1, '見': 1, '觀': 1, '賞': 1, '動': 1, '日': 1, '中': 1, '報': 1, '準': 2}
+p7: +23 strings / -27 strings; CJK core 1664 -> edition 1619; added CJK chars: 85 {'語': 3, '個': 2, '級': 1, '別': 1, '題': 1, '書': 2, '週': 3, '日': 1, '中': 1, '習': 1}
+p8: +148 strings / -148 strings; CJK core 2966 -> edition 2976; added CJK chars: 467 {'練': 1, '習': 2, '與': 3, '週': 26, '書': 9, '間': 3, '日': 1, '勝': 7, '中': 1, '見': 14}
+TOTAL added CJK characters: 839
+freeze exit=1
+=== zh-tw p8 ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-zh-tw/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[138]
+p8 exit=0
+=== zh-tw occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-zh-tw/svg: 0 flags 
+occlusion exit=0
+=== core p8 extract ===
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ja-core/svg/p8-tesuto.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+extract exit=0

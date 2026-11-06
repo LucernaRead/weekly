@@ -1,0 +1,31 @@
+Whole-tree grep for OLD svglib md5 d73e23b365676c3618d7e060b835eb4d
+Command: timeout 600 grep -r -I -n --exclude-dir=venv "<md5>" .  (from goal dir; 26G, 71145 files)
+Completed in ~423s, before the 600s timeout. .err holds only grep's
+"input file is also the output" warning for the log file itself (inside the
+scanned tree); the log file itself holds no self-hit.
+Result: 173 hit lines in 145 distinct files. ZERO hits in any live W46
+build source: no hits in hidden_files/weekly-report-w46-ja*-build/,
+hidden_files/w46/maps/, hidden_files/w46/gen_ja_zhtw.py, tools/*.py
+(canonical toolkit), or any edition SVG/.text.md/ABSTRACT.txt/WEEKLY-KIT.md
+other than the historical record quotes below.
+Classification of all 145 files:
+- 52 WEEKLY-KIT.md record files (11 W46 + 41 older issues incl. VOL.1/W43/W45/covers):
+  each quotes the old md5 inside a dated fix-history/provenance record of the
+  form "md5 OLD -> NEW" (W46: Round 1 wrap-level fix record). Records, not sources.
+- 68 files under hidden_files/w45/* (proof REPORTs, LEDGER, analysis.json,
+  scratch build copies) + 22 files under hidden_files/weekly-report-w45-*-build/
+  (incl. transform.py guard copies and one svglib.py comment): W45-cycle
+  historical snapshots/records. The W45 es-ja svglib.py itself md5s to
+  4b1017209b1e65e8fb0f240823684432 (old md5 appears only in a comment).
+- 1 hidden_files/ja-p7-overprint-correction.md: record.
+- 1 hidden_files/w46/ja-fix/FIX-REPORT.md:46: record quoting "OLD -> NEW".
+- 2 tools/scratch/rerun-ja-ru/{gen_transform.py,transform.py}: 2026-10-28
+  VOL.2/W45-era rerun scratch ("reads the PRISTINE W45 JA core build");
+  not referenced by any W46 build dir; the live W46 RU guard is the NEW md5.
+Live-source verification (independent of the tree grep):
+- Core svglib.py md5 = 74177544422fe677639d769cd80499fb (NO_END block lines 78-82).
+- CANON_SVGLIB_MD5 = new value in all 10 guard files (9 fan-out transform.py + gen_ja_zhtw.py),
+  each with an md5 assert; 0 old-md5 occurrences in those files or core svglib.py.
+- Targeted grep over all 11 W46 build dirs + tools + all 11 edition dirs:
+  only the KIT record quotes and the 2 tools/scratch files above.
+  (log: md5-grep-live-sources.log)

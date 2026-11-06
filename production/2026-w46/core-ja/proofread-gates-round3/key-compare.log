@@ -1,0 +1,33 @@
+core keys parsed: 150 missing: []
+core 42: 酉の市で熊手を買います。
+de: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Shichi-Go-San ist der 15. November.'), 138: ('波奇日从1999年开始。', 'Der Pocky-Tag begann 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Mustertext in Abschnitt H auf dieser Seite (154 Zeichen) Seite 8 von 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Shichi-Go-San ist der 15. November.' 138='Der Pocky-Tag begann 1999.'
+en: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Shichi-Go-San is November 15.'), 138: ('波奇日从1999年开始。', 'Pocky Day started in 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Model text in section H on this page (154 characters) Page 8 of 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Shichi-Go-San is November 15.' 138='Pocky Day started in 1999.'
+es: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Shichi-Go-San es el 15 de noviembre.'), 138: ('波奇日从1999年开始。', 'El día de Pocky empezó en 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Texto modelo en la sección H de esta página (154 caracteres) Página 8 de 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Shichi-Go-San es el 15 de noviembre.' 138='El día de Pocky empezó en 1999.'
+fr: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', "Shichi-Go-San, c'est le 15 novembre."), 138: ('波奇日从1999年开始。', 'Le jour des Pocky a commencé en 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Texte modèle dans la section H de cette page (154 caractères) Page 8 sur 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137="Shichi-Go-San, c'est le 15 novembre." 138='Le jour des Pocky a commencé en 1999.'
+it: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Shichi-Go-San è il 15 novembre.'), 138: ('波奇日从1999年开始。', 'Il giorno dei Pocky è iniziato nel 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Testo modello nella sezione H di questa pagina (154 caratteri) Pagina 8 di 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Shichi-Go-San è il 15 novembre.' 138='Il giorno dei Pocky è iniziato nel 1999.'
+ko: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', '시치고상은 11월 15일이다.'), 138: ('波奇日从1999年开始。', '포키데이는 1999년에 시작됐다.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ 이 면 H 부분의 모범 글(154자) 제 8 면 / 총 8 면')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='시치고상은 11월 15일이다.' 138='포키데이는 1999년에 시작됐다.'
+nl: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Shichi-Go-San is 15 november.'), 138: ('波奇日从1999年开始。', 'Pocky-dag begon in 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Modeltekst in deel H op deze pagina (154 tekens) Pagina 8 van 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Shichi-Go-San is 15 november.' 138='Pocky-dag begon in 1999.'
+pt: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'O Shichi-Go-San é 15 de novembro.'), 138: ('波奇日从1999年开始。', 'O dia do Pocky começou em 1999.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Texto modelo na secção H desta página (154 caracteres) Página 8 de 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='O Shichi-Go-San é 15 de novembro.' 138='O dia do Pocky começou em 1999.'
+ru: parsed=150 diffs-vs-core={137: ('七五三是11月15日。', 'Сити-Го-Сан'), 138: ('波奇日从1999年开始。', 'День Pocky начался в 1999 году.'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ Образцовый текст в разделе H на этой странице (154 знаков) Страница 8 из 8')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='Сити-Го-Сан' 138='День Pocky начался в 1999 году.'
+zh-tw: parsed=150 diffs-vs-core={138: ('波奇日从1999年开始。', '波奇日從1999年開始。'), 150: ('✓ 范文见本版 H 区（154 字）', '✓ 範文見本版 H 區（154 字）')}
+  25-28=['d', 'c', 'a', 'b'] 43-46=['b', 'd', 'c', 'a'] 141-144=['b', 'd', 'a', 'c']
+  91/92/93=['8', '60', '100'] 137='七五三是11月15日。' 138='波奇日從1999年開始。'
+core matching: ['d', 'c', 'a', 'b'] ['b', 'd', 'c', 'a'] ['b', 'd', 'a', 'c']

@@ -1,0 +1,11 @@
+Round 3 change isolation (sha256, independent re-hash by Round 3 proofreader)
+files compared: 232 (pre-fix manifest = Round 2 state, captured by fix worker before any edit)
+changed vs pre-fix: 6
+CHANGED: files/weekly-report-w46-ru-it/2026-w46-ru-it.text.md
+CHANGED: files/weekly-report-w46-ru-it/Lucerna-VOL3-IT-web.pdf
+CHANGED: files/weekly-report-w46-ru-it/Lucerna-VOL3-IT.pdf
+CHANGED: files/weekly-report-w46-ru-it/WEEKLY-KIT.md
+CHANGED: files/weekly-report-w46-ru-it/cards/p8-test.png
+CHANGED: files/weekly-report-w46-ru-it/svg/p8-test.svg
+changed vs post-fix manifest: 0
+all other 226 files byte-identical to pre-fix (other 10 editions + frozen core + other it files)

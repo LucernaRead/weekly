@@ -1,0 +1,26 @@
+# Final inventory — W46 JA family, Round 3 fix (D-KEY-42), 2026-11-03
+# Source: hidden_files/w46/ja-fix-round3/pdf-checks.log; stat of edition files.
+# .text.md bytes / web PDF bytes / pdftotext bytes (web == print, byte-identical extraction).
+# All web PDFs <= 7 MB; all 8 pages. Print PDF bytes included for reference.
+# 8 SVGs + 8 cards per edition. Print filenames: Lucerna-VOL3.pdf (core),
+# Lucerna-VOL3-{DE,EN,ES,FR,IT,KO,NL,PT,RU}.pdf, Lucerna-VOL3-ZHTW.pdf;
+# web PDFs carry -web before .pdf; text.md files are <slug>.text.md
+# (core slug 2026-w46-ja-zh-cn).
+
+| edition | text.md (B) | web PDF (B) | pdftotext (B) | print PDF (B) | keys-flow end-y | p8 keydiff |
+|---|---|---|---|---|---|---|
+| zh-cn (core) | 44,225 | 2,496,765 | 44,850 | 24,795,357 | 2514.9 | [] |
+| de | 46,360 | 2,366,010 | 47,006 | 29,500,005 | 2535.0 | [137, 138] |
+| en | 45,553 | 2,318,038 | 46,160 | 27,837,881 | 2532.0 | [137, 138] |
+| es | 47,128 | 2,346,165 | 47,786 | 28,725,845 | 2536.2 | [137, 138] |
+| fr | 47,041 | 2,344,133 | 47,681 | 28,745,818 | 2535.0 | [137, 138] |
+| it | 46,902 | 2,337,476 | 47,561 | 28,720,420 | 2535.0 | [137, 138] |
+| ko | 47,942 | 2,395,657 | 48,533 | 26,585,657 | 2520.4 | [137, 138] |
+| nl | 46,163 | 2,340,934 | 46,815 | 28,723,682 | 2537.4 | [137, 138] |
+| pt | 46,951 | 2,348,982 | 47,582 | 28,727,059 | 2533.5 | [137, 138] |
+| ru | 53,638 | 2,254,305 | 54,276 | 24,646,231 | 2524.0 | [137, 138] |
+| zh-tw | 44,204 | 2,872,569 | 44,829 | 27,062,375 | 2514.9 | [138] |
+
+pdftotext deltas vs Round 2: +12 bytes in 10 editions (the 4 added CJK
+characters 酉の市で, 12 UTF-8 bytes); +16 in de (same +12 plus the
+wrap line-break in the extracted text layer).

@@ -1,0 +1,7 @@
+PDF web-vs-print pdftotext byte-identity (re-run by proofreader, pdftotext on *-web.pdf vs print PDF):
+core web==print True (44838 B); de True (46990); en True (46148); es True (47774); fr True (47669); it True (47549); ko True (48521); nl True (46803); pt True (47570); ru True (54264); zh-tw True (44817). All web PDFs <=7MB.
+Weekday claims in core SVGs (explicit month+day+weekday, 7 claims): 2026-10-24 Sat, 10-25 Sun, 10-27 Tue, 10-28 Wed, 11-09 Mon, 11-11 Wed, 11-15 Sun — all correct, 0 mismatches.
+Masthead pixel bands (card PNGs, border columns excluded, SVG y): all fan-outs show wordmark 240-264, subtitle 282-319, badge 338-359, strapline 374-390, rules 405-406, dark band 424+; gaps >=14 units between badge and strapline. Core: subtitle 296-333, strapline 356-372, dark band 424+. No collisions.
+Top-strip pixel gaps: left->centre >=423 units, centre->right >=224 units, all editions.
+P8 model text: non-space character count 154 (raw 155 incl. 1 space after 例：). P8 keys-flow max y excl. footer: core 2514.9, de 2535.0, en 2532.0, es 2536.2, fr 2535.0, it 2535.0, ko 2520.4, nl 2537.4, pt 2533.5, ru 2524.0, zh-tw 2514.9 (footer baseline 2624).
+Kinsoku line-end sites (all 11 editions, frozen text): P1 y=2419.0 '七五三の中心の日はいつですか。 A. 9日（'; P3 y=2163.2 '二の酉はいつですか。 A. 19日（木） · B. 7日（'. Line-start hits 0, orphan issues 0 (kinsoku-orphan.json).

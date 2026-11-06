@@ -1,0 +1,5 @@
+diff -r '--exclude=__pycache__' '--exclude=transform.py' '--exclude=transform-run.log' '--exclude=build-log.txt' '--exclude=transform-log.txt' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/rederive/pt/content34.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/build-before/pt-build/content34.py
+88c88
+< e.bridge("Calcula: responde com números da página 3.")
+---
+> e.bridge("Calcula: responde com os números da página 3.")

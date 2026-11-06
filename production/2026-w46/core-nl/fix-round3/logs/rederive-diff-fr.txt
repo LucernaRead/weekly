@@ -1,0 +1,6 @@
+Only in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix-round3/scratch/rederive/fr: assets
+diff -r '--exclude=__pycache__' '--exclude=transform.py' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix-round3/scratch/rederive/fr/content8.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix-round3/before/build-before/weekly-report-w46-nl-fr-build/content8.py
+69c69
+< f.ex("A2", "翻译", "Le journal de Sinterklaas passe chaque jour à 18 h 00.", "Comparez avec l'article page 3",
+---
+> f.ex("A2", "翻译", "Le journal de Sinterklaas passe chaque jour à 18 h 00.", "Compare avec l'article page 3",

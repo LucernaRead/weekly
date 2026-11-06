@@ -1,0 +1,11 @@
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-pt/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/freeze-pt.json --strict-cjk
+exit=0
+p1: +27 strings / -26 strings; CJK core 196 -> edition 0; added CJK chars: 0 
+p2: +44 strings / -34 strings; CJK core 220 -> edition 0; added CJK chars: 0 
+p3: +30 strings / -27 strings; CJK core 141 -> edition 0; added CJK chars: 0 
+p4: +29 strings / -26 strings; CJK core 136 -> edition 0; added CJK chars: 0 
+p5: +39 strings / -35 strings; CJK core 217 -> edition 0; added CJK chars: 0 
+p6: +36 strings / -31 strings; CJK core 184 -> edition 0; added CJK chars: 0 
+p7: +44 strings / -41 strings; CJK core 379 -> edition 0; added CJK chars: 0 
+p8: +194 strings / -183 strings; CJK core 1144 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0

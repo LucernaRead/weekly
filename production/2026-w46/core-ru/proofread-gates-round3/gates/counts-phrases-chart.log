@@ -1,0 +1,30 @@
+TOTAL: 150 per-page: [10, 18, 18, 18, 18, 18, 12, 38] levels: {'A2': 51, 'B1': 75, 'B2': 24}
+model line found: True
+model whitespace tokens: 88
+model tokens excl standalone dashes: 86
+phrase x2 : Эта неделя в России — обычная
+phrase x2 : В среду, 11 ноября, — день распродажи 11.11: пик скидок
+phrase x2 : Это профессиональный праздник: выходного в этот день не
+phrase x2 : В ноябре вечера тёмные и долгие: в Москве солнце садитс
+phrase x2 : После этого тура — пауза: следующий, 15-й тур, будет то
+phrase x2 : Посылку надо отследить, получить и проверить
+phrase x2 : Такие недели — самые частые в году, и именно они задают
+phrase x2 : В ноябре 20 рабочих дней и 10 выходных
+P7 ref node: Questa settimana in Russia è del tutto normale. (Страница 1)
+P7 ref node: Mercoledì 11 novembre è il grande giorno degli sconti: il picco degli sconti. (Страница 1)
+P7 ref node: (Страница 2)
+P7 ref node: Sere di novembre buie e lunghe: a Mosca il sole tramonta verso le 16:30. (Страница 3)
+P7 ref node: Dopo questo turno, una pausa: il prossimo, il 15º turno, sarà solo il 20 novembre. (Страница 4)
+P7 ref node: Un pacco va tracciato, ritirato e controllato. (Страница 5)
+P7 ref node: (Страница 6)
+P7 ref node: Novembre ha 20 giorni lavorativi e 10 giorni liberi. (Страница 6)
+chart bars x=685: [(600.0, '1612', '30', '#3e4c2a'), (343.0, '1658', '30', '#3e4c2a'), (286.0, '1704', '30', '#3e4c2a'), (200.0, '1750', '30', '#3e4c2a')] sum widths check 600+343+286+200= 1429
+label 42% count in P6: 1
+label 24% count in P6: 1
+label 20% count in P6: 1
+label 14% count in P6: 1
+chart labels sum: 42+24+20+14 = 100
+P6 label node: ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · DATI DI ESERCIZIO
+P6 label node: Questo è un sondaggio di esercizio della redazione — non statistiche vere.
+P6 label node: Risposte a pagina 8 · I livelli possono essere mescolati; cerca per numero di esercizio
+P6 label node: grafico di esercizio.
