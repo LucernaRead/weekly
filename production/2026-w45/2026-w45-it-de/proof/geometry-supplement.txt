@@ -1,0 +1,65 @@
+=== ADVANCE scan [40,1910] band ===
+  p1-prima: 0 flags []
+  p2-vita: 0 flags []
+  p3-cultura: 0 flags []
+  p4-sport: 0 flags []
+  p5-giovani: 0 flags []
+  p6-approfondimento: 0 flags []
+  p7-lingua: 0 flags []
+  p8-valutazione: 0 flags []
+  TOTAL advance flags: 0
+=== Same-baseline scan ===
+  p1-prima: same-baseline overlaps=0 []
+   P1 top band: [(65.0, 392.3, 'VOL. 2 · SECONDA EDIZIONE'), (643.7, 1306.3, 'OGNI SETTIMANA IN ITALIANO · ITALIENISCH, WIE ITALIEN ES LIEST'), (1450.6, 1885.0, "SETTIMANA DAL 2 ALL'8 NOVEMBRE 2026")] gaps=[251.4, 144.2]
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 1 von 8')] gap=664.0
+  p2-vita: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 2 von 8')] gap=664.0
+  p3-cultura: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 3 von 8')] gap=664.0
+  p4-sport: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 4 von 8')] gap=664.0
+  p5-giovani: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 5 von 8')] gap=664.0
+  p6-approfondimento: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 6 von 8')] gap=664.0
+  p7-lingua: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 7 von 8')] gap=664.0
+  p8-valutazione: same-baseline overlaps=0 []
+   footer: [(65.0, 1103.9, 'La Lucerna · ITALIENISCHE WO'), (1767.9, 1885.0, 'Seite 8 von 8')] gap=664.0
+=== P6 chart-label coverage ===
+  P6 max coverage overall: 0.0% on 'È una probabilità o una certezza?'
+    0.0% 'È una probabilità o una certezza?' ink=[1473.0, 995.1, 1828.0, 1022.1]
+    0.0% 'È probabile che domani ___ (piovere) sul' ink=[989.0, 2278.4, 1347.0, 2300.4]
+    0.0% 'È possibile che in montagna ___ (nevicar' ink=[989.0, 2382.6, 1395.0, 2404.6]
+    0.0% 'È importante che la previsione ___ (esse' ink=[1451.0, 2019.0, 1826.0, 2041.0]
+    0.0% '· B. 3° · C. 4°' ink=[65.0, 2397.4, 168.0, 2411.4]
+    0.0% '«no».' ink=[65.0, 1311.0, 130.0, 1325.0]
+    0.0% 'weekend.' ink=[988.0, 2409.7, 1073.0, 2425.7]
+    0.0% 'versante adriatico.' ink=[988.0, 2306.5, 1152.0, 2321.5]
+    city label 'settimana a Roma. Il Documento': 0.0%
+    city label 'Torino · C. Napoli': 0.0%
+    city label 'Torino': 0.0%
+    city label 'Roma · C. Bologna': 0.0%
+    city label 'Roma': 0.0%
+    city label 'Panettone a Milano,': 0.0%
+    city label 'Napoli': 0.0%
+    city label 'Milano: la cultura non': 0.0%
+    city label 'Milano (4°) e Bologna (5°) insieme fanno... A. 9° ·': 0.0%
+    city label 'Milano': 0.0%
+    city label 'La differenza tra Napoli (12°) e Roma (9°) è... A. 2°': 0.0%
+    city label 'La città più fredda del grafico è... A. Milano · B.': 0.0%
+    city label 'La città più calda del grafico è... A. Napoli · B.': 0.0%
+    city label 'Bologna': 0.0%
+=== Flow-end corroboration ===
+  P8 keys last node: (1451.0, 2513.3000000000015, '13', '150. ✓ Mustertext in Abschnitt H auf dieser Seite (81 Wörter)') (log end 2529)
+  P7 col3 last node: (1473.0, 1667.95, '20', 'die besten erscheinen in VOL.3!') (log end 1673.0; FRASI rule 1686)
+  P6 last nodes: [(1451.0, 2540.5499999999993, '18', "L'ECMWF è un ___ di previsione europeo."), (65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 6 von 8')] (log P6-ex end 2569)
+  P1 x>=989,y<1830 last: [(1451.0, 1728.0, '21.5', '« il primo freddo » : il primo freddo serio'), (1451.0, 1758.1, '21.5', 'dopo un autunno mite. Questa settimana'), (1451.0, 1788.1999999999998, '21.5', 'ha un programma: cultura, dolci, calcio.')] (log P1-headline end 1497)
+  p1-prima footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 1 von 8')]
+  p2-vita footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 2 von 8')]
+  p3-cultura footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 3 von 8')]
+  p4-sport footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 4 von 8')]
+  p5-giovani footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 5 von 8')]
+  p6-approfondimento footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 6 von 8')]
+  p7-lingua footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 7 von 8')]
+  p8-valutazione footer nodes: [(65.0, 2624.0, '20', 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'), (1885.0, 2624.0, '20', 'Seite 8 von 8')]

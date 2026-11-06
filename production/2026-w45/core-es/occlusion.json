@@ -1,0 +1,149 @@
+{
+ "svgdir": "../files/weekly-report-w45-es-core/svg",
+ "flags": [
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "“竞选预热期”：正式竞选开始前的几周，各党确",
+   "box": [
+    1451.0,
+    1830.0,
+    1869.0,
+    1848.5
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@146"
+  },
+  {
+   "page": "p1-portada.svg",
+   "class": "COVER",
+   "text": "最后一周。",
+   "box": [
+    1451.0,
+    1881.6,
+    1546.0,
+    1899.3
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2290.7]",
+   "by": "rect@173"
+  },
+  {
+   "page": "p1-portada.svg",
+   "class": "TEXTX",
+   "text": "最后一周。",
+   "box": [
+    1451.0,
+    1881.6,
+    1546.0,
+    1899.3
+   ],
+   "detail": "ink overlaps 'BREVES · 快讯' by 73.0x5.8px",
+   "by": "text@174"
+  },
+  {
+   "page": "p2-vida.svg",
+   "class": "BOXTITLE",
+   "text": "EL CALENDARIO DE LA SEMANA · 本周日历",
+   "box": [
+    545.0,
+    480.2,
+    1018.5,
+    502.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1018.5 > border 961.0",
+   "by": "rect@43"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "13 NOV. — Empieza la campaña electoral.",
+   "box": [
+    1473.0,
+    913.9,
+    1853.5,
+    934.4
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 894.6, 1885.7, 1157.0]",
+   "by": "rect@77"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "29 NOV. — Elecciones generales: España",
+   "box": [
+    1473.0,
+    968.5,
+    1841.5,
+    989.0
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 894.6, 1885.7, 1157.0]",
+   "by": "rect@77"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "vota.",
+   "box": [
+    1472.8,
+    996.9,
+    1518.0,
+    1009.9
+   ],
+   "detail": "100% of ink covered by later rect box [1450.3, 894.6, 1885.7, 1157.0]",
+   "by": "rect@77"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "13 NOV. — Empieza la campaña electoral.",
+   "box": [
+    1473.0,
+    913.9,
+    1853.5,
+    934.4
+   ],
+   "detail": "ink overlaps 'LEER UNA ENCUESTA' by 246.5x15.0px",
+   "by": "text@78"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Para leer cualquier encuesta,",
+   "box": [
+    1473.0,
+    966.9,
+    1778.2,
+    989.9
+   ],
+   "detail": "ink overlaps '29 NOV. — Elecciones generales: España' by 305.2x20.5px",
+   "by": "text@75"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "vota.",
+   "box": [
+    1472.8,
+    996.9,
+    1518.0,
+    1009.9
+   ],
+   "detail": "ink overlaps 'pregunta tres cosas: ¿quién la' by 45.0x12.8px",
+   "by": "text@80"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "BOXTITLE",
+   "text": "los decretos.",
+   "box": [
+    1473.0,
+    859.2,
+    1589.0,
+    875.0
+   ],
+   "detail": "ink crosses its box borders: bottom ink 875.0 > border 869.4",
+   "by": "rect@56"
+  }
+ ],
+ "flag_count": 11
+}

@@ -1,0 +1,27 @@
+P7 rects with top~2404: [((65.0, 2404.0, 1885.0, 2522.0), '#2c2822')]
+P7 top-5 ink-bottoms below band:
+  baseline=2263.17 ink-bottom=2268.2 'D’abord les faciles, ensuite les difficiles. (Página 6)'
+  baseline=2341.5 ink-bottom=2347.2 '«Confira o cartão, durma bem, chegue cedo»'
+  baseline=2341.5 ink-bottom=2347.5 '«lembrar é um jeito de continuar perto»'
+  baseline=2391.17 ink-bottom=2396.2 'Se souvenir, c’est rester proche. (Página 3)'
+  baseline=2391.17 ink-bottom=2396.2 'Vérifier la carte, bien dormir, arriver tôt. (Página 2)'
+P7 max ink bottom above 2404: 2396.17 clearance to 2404: 7.829999999999927
+P7 texts baseline 2250..2404:
+  baseline=2263.17 ink-bottom=2268.2 'Finados est le jour du souvenir. (Página 2)'
+  baseline=2263.17 ink-bottom=2268.2 'D’abord les faciles, ensuite les difficiles. (Página 6)'
+  baseline=2341.5 ink-bottom=2347.2 '«Confira o cartão, durma bem, chegue cedo»'
+  baseline=2341.5 ink-bottom=2347.5 '«lembrar é um jeito de continuar perto»'
+  baseline=2391.17 ink-bottom=2396.2 'Se souvenir, c’est rester proche. (Página 3)'
+  baseline=2391.17 ink-bottom=2396.2 'Vérifier la carte, bien dormir, arriver tôt. (Página 2)'
+ED P2 match line: [(2355.0, [1485.0, 2336.0, 1897.2, 2361.2], 'd. o objeto que dá luz e se acende em')]
+ED P2 max ink-right all texts: 1897.2 inner frame 1910 margin: 12.8
+CORE P2 match line: [(2304.0, [1485.0, 2285.0, 1897.2, 2310.2], 'd. o objeto que dá luz e se acende em')]
+CORE P2 max ink-right all texts: 1897.2 inner frame 1910 margin: 12.8
+p1-capa ADVANCE right>1910: []
+p2-vida ADVANCE right>1910: []
+p3-cultura ADVANCE right>1910: []
+p4-esporte ADVANCE right>1910: []
+p5-jovens ADVANCE right>1910: []
+p6-aprofundamento ADVANCE right>1910: []
+p7-lingua ADVANCE right>1910: []
+p8-avaliacao ADVANCE right>1910: []

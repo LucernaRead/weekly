@@ -1,0 +1,8 @@
+===== CORE =====
+  label node x=1011.0 y=1717.0 size=21.0 bold=True anchor=start text='Inmigración'
+  ink bbox/4: left=0.00 right=133.25 adv=133.35
+  tag: <text x="1011" y="1717" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start">
+  rects (chart area, y<1900):
+Traceback (most recent call last):
+  File "<stdin>", line 24, in <module>
+TypeError: float() argument must be a string or a real number, not 'NoneType'

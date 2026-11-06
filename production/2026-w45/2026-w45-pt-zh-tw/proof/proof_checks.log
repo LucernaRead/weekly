@@ -1,0 +1,280 @@
+=== A. forbidden term 桥接/橋接 ===
+  edition SVGs: 桥接=0 橋接=0
+  core SVGs: 桥接=0 橋接=0
+  bslib4.py: forbidden-term lines=0 bridge-lines=0
+  content12.py: forbidden-term lines=0 bridge-lines=0
+  content34.py: forbidden-term lines=0 bridge-lines=0
+  content56.py: forbidden-term lines=0 bridge-lines=0
+  content7.py: forbidden-term lines=0 bridge-lines=0
+  content8.py: forbidden-term lines=0 bridge-lines=0
+  render.py: forbidden-term lines=0 bridge-lines=0
+  transform.py: forbidden-term lines=0 bridge-lines=7
+    L17 [bridge] explanation method is renamed bridge -> expl after the W43 pattern;
+    L67 [bridge] t = sub(t, 'def bridge(self, s', 'def expl(self, s', 1, 'bslib4.py')
+    L70 [bridge] # ---------- 1b. bridge -> expl call sites (W43 rename) ----------
+    L75 [bridge] t = sub(t, '.bridge(', '.expl(', expect, fn)
+    L164 [bridge] # ---- bridges / instructions ----
+    L428 [bridge] assert '.bridge(' not in t, f'{fn}: bridge call survived'
+  svglib.py: forbidden-term lines=0 bridge-lines=0
+  gates.py: forbidden-term lines=0 bridge-lines=0
+  run.py: forbidden-term lines=0 bridge-lines=0
+=== B. svglib illus_climb ===
+  L119: def illus_climb(p, x, y, s=1.0):
+  'illus_climb' in edition SVG text nodes: False
+  'illus_climb' in edition SVG raw (incl attrs/comments): False
+  'climb' in edition SVG text nodes: False
+=== C. non-CJK added/removed strings (freeze diff, own filter) ===
+  p1 added_strings non-CJK (0): []
+  p1 removed_strings non-CJK (1): ['O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL']
+  p2 added_strings non-CJK (0): []
+  p2 removed_strings non-CJK (0): []
+  p3 added_strings non-CJK (0): []
+  p3 removed_strings non-CJK (0): []
+  p4 added_strings non-CJK (0): []
+  p4 removed_strings non-CJK (0): []
+  p5 added_strings non-CJK (0): []
+  p5 removed_strings non-CJK (0): []
+  p6 added_strings non-CJK (0): []
+  p6 removed_strings non-CJK (0): []
+  p7 added_strings non-CJK (0): []
+  p7 removed_strings non-CJK (0): []
+  p8 added_strings non-CJK (0): []
+  p8 removed_strings non-CJK (8): ['— PÁGINA 1 —', '— PÁGINA 2 —', '— PÁGINA 3 —', '— PÁGINA 4 —', '— PÁGINA 5 —', '— PÁGINA 6 —', '— PÁGINA 7 —', '— PÁGINA 8 —']
+=== D. TC independence: charset union ===
+  edition CJK chars: 412; ref union: 1142; unseen: 24
+  unseen: 亡亮努匆容寂彌懷撒燃牢盧碑禱腦菊藍藏近遲靈頁額魂
+  missing ref dirs: []
+  builder claimed unseen (24): 亡亮努匆容寂彌懷撒燃牢盧碑禱腦菊藍藏近遲靈頁額魂
+  match builder set exactly: True
+    亡 U+4EA1 :: ['p1-capa:11 月 2 日亡靈節連休 · 11 月 8 日高考第一天', 'p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的日子', 'p7-lingua:亡靈節是懷念的日子。 (Página 2)']
+    亮 U+4EAE :: ['p8-avaliacao:27. d — vela=點亮紀念的物品 d']
+    努 U+52AA :: ['p8-avaliacao:48. B — 瓦斯科 × 帕爾梅拉斯次回合在週日 8 日 17 點，聖雅努阿里奧']
+    匆 U+5306 :: ['p6-aprofundamento:對 · a correria 匆忙。']
+    容 U+5BB9 :: ['p7-lingua:先做容易的，再做難的。 (Página 6)']
+    寂 U+5BC2 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂', 'p8-avaliacao:38. silêncio — silêncio = 寂靜']
+    彌 U+5F4C :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:31. B — 教堂和墓園整天都有彌撒', 'p8-avaliacao:37. missa — missa = 彌撒']
+    懷 U+61F7 :: ['p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的日子', 'p3-cultura:靜 · a lembrança 懷念。', 'p3-cultura:在你的文化裡，人們怎樣懷念逝者？寫兩句']
+    撒 U+6492 :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:31. B — 教堂和墓園整天都有彌撒', 'p8-avaliacao:37. missa — missa = 彌撒']
+    燃 U+71C3 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂']
+    牢 U+7262 :: ['p7-lingua:睡得好，記得牢。 (Página 5)']
+    盧 U+76E7 :: ['p8-avaliacao:129. B — 盧卡斯住在貝洛奧里藏特']
+    碑 U+7891 :: ['p3-cultura:譯注｜o túmulo 墓碑 · a flor 花 ·', 'p8-avaliacao:26. b — cemitério=墓碑所在的地方 b', 'p8-avaliacao:34. túmulo — túmulo = 墓碑']
+    禱 U+79B1 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂']
+    腦 U+8166 :: ['p5-jovens:備好 · a cabeça 頭腦、狀態。']
+    菊 U+83CA :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:30. B — 家人們帶花去墓園，主要是菊花', 'p8-avaliacao:36. crisântemo — crisântemo = 菊花']
+    藍 U+85CD :: ['p7-lingua:高考用黑筆，藍筆不行。']
+    藏 U+85CF :: ['p8-avaliacao:129. B — 盧卡斯住在貝洛奧里藏特']
+    近 U+8FD1 :: ['p7-lingua:懷念是繼續親近的方式。 (Página 3)', 'p8-avaliacao:33. A — 懷念是繼續親近的方式']
+    遲 U+9072 :: ['p1-capa:遲到不得入內：13 點後關門']
+    靈 U+9748 :: ['p1-capa:11 月 2 日亡靈節連休 · 11 月 8 日高考第一天', 'p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的日子', 'p7-lingua:亡靈節是懷念的日子。 (Página 2)']
+    頁 U+9801 :: ['p8-avaliacao:RESPOSTAS · 參考答案 — 按版面分頁排列，找到題號即可']
+    額 U+984D :: ['p8-avaliacao:56. mais — 次回合決定決賽名額：mais']
+    魂 U+9B42 :: ['p8-avaliacao:128. A — 亡靈節又稱諸聖靈魂日']
+=== E. independent SC-codepoint scan (own list, not builder's) ===
+  SC hits in edition SVGs: []
+  SC hits in bslib4.py: []
+  SC hits in content12.py: []
+  SC hits in content34.py: []
+  SC hits in content56.py: []
+  SC hits in content7.py: []
+  SC hits in content8.py: []
+  SC hits in render.py: []
+  SC hits in transform.py: ['万', '与', '为', '义', '亚', '亲', '关', '写', '别', '动', '卢', '历', '国', '图', '头', '奥', '学', '对', '尔', '带', '开', '报', '拟', '电', '着', '级', '练', '续', '胜', '见', '认', '译', '语', '说', '诺', '读', '贝', '赛', '达', '进', '释', '钟', '长', '门', '闭', '问', '马']
+  SC hits in svglib.py: []
+=== F. mainland word scans + TC correct forms ===
+  (no HIT line above = 0 for that word)
+  TC form 代碼: count=0
+  TC form 比賽項目: count=0
+  TC form 報導: count=0
+  TC form 市集: count=0
+  TC form 把詞組成正確的句子: count=1
+=== G. 只 / 僅 contexts ===
+=== H. quotes + 松 ===
+  ASCII double-quote in SVG text: 0
+  CJK straight quotes “”: 0
+  corner brackets 「」: 2 / 2
+  松 p5-jovens: 夕 · a maratona 突擊馬拉松 · separar 準  inside馬拉松=True
+  松 p8-avaliacao: 73. maratona — maratona = 突擊馬拉松  inside馬拉松=True
+=== I. exercise counts, chips method, edition vs core ===
+  edition:
+  p1-capa: 10 {'A2': 9, 'B1': 1}
+  p2-vida: 18 {'A2': 17, 'B1': 1}
+  p3-cultura: 18 {'A2': 10, 'B1': 8}
+  p4-esporte: 18 {'B1': 18}
+  p5-jovens: 18 {'B1': 15, 'B2': 3}
+  p6-aprofundamento: 18 {'B2': 18}
+  p7-lingua: 12 {'A2': 4, 'B1': 4, 'B2': 4}
+  p8-avaliacao: 38 {'B1': 23, 'A2': 9, 'B2': 6}
+  TOTAL 150 {'A2': 49, 'B1': 70, 'B2': 31}
+  core:
+  p1-capa: 10 {'A2': 9, 'B1': 1}
+  p2-vida: 18 {'A2': 17, 'B1': 1}
+  p3-cultura: 18 {'A2': 10, 'B1': 8}
+  p4-esporte: 18 {'B1': 18}
+  p5-jovens: 18 {'B1': 15, 'B2': 3}
+  p6-aprofundamento: 18 {'B2': 18}
+  p7-lingua: 12 {'A2': 4, 'B1': 4, 'B2': 4}
+  p8-avaliacao: 38 {'B1': 23, 'A2': 9, 'B2': 6}
+  TOTAL 150 {'A2': 49, 'B1': 70, 'B2': 31}
+  edition==core: True
+=== J. gloss counts (ast read-only, split on U+00B7) + rendered headwords ===
+  content12.py core=[6] edition=[6]
+  content34.py core=[6, 5] edition=[6, 5]
+  content56.py core=[5, 4] edition=[5, 4]
+  totals core=26 edition=26
+  rendered-headword misses: []
+=== K. P7 quotes 2x + tags, edition vs core ===
+  edition: 2, 2, 2, 2, 2, 2, 2, 2
+  edition P7 tags: {'1': 2, '2': 2, '3': 1, '4': 1, '5': 1, '6': 1}
+  core: 2, 2, 2, 2, 2, 2, 2, 2
+  core P7 tags: {'1': 2, '2': 2, '3': 1, '4': 1, '5': 1, '6': 1}
+=== L. readers garden: verbatim extracts ===
+  --- core P7 lines containing Nota/redação/cartas/來信/編輯部/說明/順延/VOL.3/預告 ---
+    y=1581.89 size=21.5: Nota da redação: as cartas reais e os
+    y=1704.01 size=21.5: promessa passa para o VOL.3.
+    y=2448.0 size=24.0: A PRÓXIMA SEMANA · 下期预告 (VOL.3)
+    y=2488.0 size=21.0: Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática. E o feriado da Proclamação da República. Mais: as suas cart
+  --- edition P7 lines containing Nota/redação/cartas/來信/編輯部/說明/順延/VOL.3/預告 ---
+    y=1515.09 size=20.0: 編輯部示例，非真實來信。真實來信請寄編
+    y=1581.89 size=21.5: Nota da redação: as cartas reais e os
+    y=1704.01 size=21.5: promessa passa para o VOL.3.
+    y=1744.54 size=19.5: 編輯部說明：上期承諾的真實來信與最佳作文
+    y=1772.23 size=19.5: 截稿時未收到，本期仍刊示例，順延至 VOL.3
+    y=1837.6100000000001 size=19.5: 請把你的來信寄給編輯部，VOL.3 就刊登你的
+    y=1865.3000000000002 size=19.5: 來信！
+    y=2448.0 size=24.0: A PRÓXIMA SEMANA · 下期預告 (VOL.3)
+    y=2488.0 size=21.0: Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática. E o feriado da Proclamação da República. Mais: as suas cart
+  --- PT disclosure: core vs edition identical multiset? ---
+  core: ['Nota da redação: as cartas reais e os']
+  edition: ['Nota da redação: as cartas reais e os']
+=== M. P7 lone 。 line + preview-box geometry ===
+  lone 。 at x=1473.0 y=1799.92 size=19.5 fam=Noto Sans CJK TC
+  wide rect y=2404.0 h=118.0 x=65.0 w=1820.0 fill=#2c2822 (bottom 2522.0)
+  P7 low text y=2359.17: 懷念是繼續親近的方式。 (Página 3)
+  P7 low text y=2359.17: 核對確認卡、睡好、早到。 (Página 2)
+  P7 low text y=2448.0: A PRÓXIMA SEMANA · 下期預告 (VOL.3)
+  P7 low text y=2488.0: Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática.
+  P7 low text y=2516.56: Até segunda!
+  P7 low text y=2624.0: A Lucerna · 葡萄牙語週報 VOL.2 · 正文葡萄牙語 · 講解繁體中文
+  P7 low text y=2624.0: 第 7 版 / 共 8 版
+=== N. P8 raw lines for keydiff items + 101 + 139/140/150 ===
+  #2 core: ['2. portões — portões = 大门（考场大门）']
+  #2 ed:   ['2. portões — portões = 大門（考場大門）']
+  #2 identical: False
+  #4 core: ['4. 13h30 — 13h30 开考（巴西利亚时间）']
+  #4 ed:   ['4. 13h30 — 13h30 開考（巴西利亞時間）']
+  #4 identical: False
+  #101 core: ['101. confiro — conferir：eu → confiro（不规则）']
+  #101 ed:   ['101. confiro — conferir：eu → confiro（不規則）']
+  #101 identical: False
+  #137 core: ['137. 11 月 8 日周日是高考的第一天。 — 对照第 6 版标题']
+  #137 ed:   ['137. 11 月 8 日週日是高考的第一天。 — 對照第 6 版標題']
+  #137 identical: False
+  #138 core: ['138. 周日前核对确认卡。 — Confira = 请核对']
+  #138 ed:   ['138. 週日前核對確認卡。 — Confira = 請核對']
+  #138 identical: False
+  #139 core: ['139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão =']
+  #139 ed:   ['139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão =']
+  #139 identical: True
+  #140 core: ['140. Quando você chegar, apresente o documento com foto. — 虚']
+  #140 ed:   ['140. Quando você chegar, apresente o documento com foto. — 虛']
+  #140 identical: False
+  #146 core: ['146. A — seção = 考场分区（房间）']
+  #146 ed:   ['146. A — seção = 考場分區（房間）']
+  #146 identical: False
+  #150 core: ['150. ✓ 范文见本版 H 区（93 词）']
+  #150 ed:   ['150. ✓ 範本見本版 H 區（93 詞）']
+  #150 identical: False
+=== O. P8 notes language: SC chars in edition P8 text ===
+  SC hits in edition P8: []
+  P8 header ed: AVALIAÇÃO E RESPOSTAS · 練習與答案
+  P8 header ed: RESPOSTAS · 參考答案 — 按版面分頁排列，找到題號即可
+  P8 header core: AVALIAÇÃO E RESPOSTAS · 练习与答案
+  P8 header core: RESPOSTAS · 参考答案 — 按版面分页排列，找到题号即可
+  P8 header W43: AVALIAÇÃO E RESPOSTAS · 練習與答案
+  P8 header W43: RESPOSTAS · 全部答案與簡析（第 1–8 版）
+=== P. furniture vs W43 (measured) ===
+  --- W43 ---
+  P1 y=372 line: [(372.0, 19.5, '葡萄牙語正文 · 繁體中文講解 — 給繁體中文讀者的版本')]
+  P1 top strip: [(92.0, 21.0, 'TODA SEMANA EM PORTUGUÊS · 每週一期 · 讀巴西人正在讀的葡萄牙語')]
+  P1 y=330 subtitle: [(330.0, 40.0, '葡 萄 牙 語 週 報 · VOL.1 · O SEGUNDO TURNO · O DEBATE FINAL · O ENEM VEM AÍ')]
+  footer P1: [(2624.0, 20.0, 'A Lucerna · 葡萄牙語週報 VOL.1 · 正文葡萄牙語 · 講解繁體中文')]
+  footer P2: [(2624.0, 20.0, 'A Lucerna · 葡萄牙語週報 VOL.1 · 正文葡萄牙語 · 講解繁體中文')]
+  page line P1: [(2624.0, 20.0, '第 1 版 / 共 8 版')]
+  gloss prefix P2 (first): [(1319.7, 20.5, '譯注｜o título de eleitor 選民證 · a zona')]
+  P8 separators sample: [(1342.0, 14.0, '— 第 1 版 —'), (1670.8, 14.0, '— 第 2 版 —'), (1980.0, 13.5, '137. 週日，巴西重返投票站。 — 對照第 1 版標題')]
+  講解｜ P1: [(1262.6, 20.5, '講解｜segundo turno 第二輪 · seção')]
+  --- W45ed ---
+  P1 y=372 line: [(372.0, 19.5, '葡萄牙語正文 · 繁體中文講解 — 給繁體中文讀者的版本')]
+  P1 top strip: [(92.0, 21.0, 'TODA SEMANA EM PORTUGUÊS · 每週一期 · 讀巴西人正在讀的葡萄牙語')]
+  P1 y=330 subtitle: [(330.0, 40.0, '葡 萄 牙 語 週 報 · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE')]
+  footer P1: [(2624.0, 20.0, 'A Lucerna · 葡萄牙語週報 VOL.2 · 正文葡萄牙語 · 講解繁體中文')]
+  footer P2: [(2624.0, 20.0, 'A Lucerna · 葡萄牙語週報 VOL.2 · 正文葡萄牙語 · 講解繁體中文')]
+  page line P1: [(2624.0, 20.0, '第 1 版 / 共 8 版')]
+  gloss prefix P2 (first): [(1172.2, 20.5, '譯注｜o feriadão 連休長週末 · o')]
+  P8 separators sample: [(1342.0, 14.0, '— 第 1 版 —'), (1670.8, 14.0, '— 第 2 版 —')]
+  講解｜ P1: [(1335.5, 20.5, '講解｜feriadão 連休長週末 · o portão 大門 ·')]
+=== Q. images: payload hash + credits ===
+  p1-capa core n=1 ed n=1 payloads identical: True
+  p2-vida core n=0 ed n=0 payloads identical: True
+  p3-cultura core n=0 ed n=0 payloads identical: True
+  p4-esporte core n=0 ed n=0 payloads identical: True
+  p5-jovens core n=0 ed n=0 payloads identical: True
+  p6-aprofundamento core n=0 ed n=0 payloads identical: True
+  p7-lingua core n=0 ed n=0 payloads identical: True
+  p8-avaliacao core n=0 ed n=0 payloads identical: True
+  --- credits core ---
+    p1-capa: Foto: Gary Todd / Wikimedia Commons — CC0
+  --- credits edition ---
+    p1-capa: Foto: Gary Todd / Wikimedia Commons — CC0
+=== R. ABSTRACT ===
+  raw repr: 'A Lucerna 葡萄牙語週報 VOL.2：從 11 月 2 日亡靈節連休到 11 月 8 日巴西高考 Enem 第一天，附巴西盃準決賽次回合米內羅競技對格雷米奧、瓦斯科對帕爾梅拉斯；給繁體中文讀者的葡萄牙語學習週報，A2–B2 共 150 題，學葡萄牙語就從讀巴西新聞開始。\n'
+  lines (strip): 1 chars: 139 ASCII-dquote: 0
+  keyword 亡靈節: True
+  keyword Enem: True
+  keyword 巴西盃: True
+  keyword 米內羅競技: True
+  keyword 格雷米奧: True
+  keyword 瓦斯科: True
+  keyword 帕爾梅拉斯: True
+  keyword 葡萄牙語: True
+  keyword A2: True
+  keyword B2: True
+  keyword 150: True
+  keyword 學葡萄牙語: True
+=== S. essay model (content8 source, read-only) ===
+  core long-string words=93 head='Domingo, 8 de novembro, acordo cedo e abro o Cartão de Confirmação no celular. Confiro o m'
+  core long-string words=62 head='Lucas mora em Belo Horizonte. No domingo 8, ele faz o Enem pela primeira vez. Na segunda, '
+  edition long-string words=93 head='Domingo, 8 de novembro, acordo cedo e abro o Cartão de Confirmação no celular. Confiro o m'
+  edition long-string words=62 head='Lucas mora em Belo Horizonte. No domingo 8, ele faz o Enem pela primeira vez. Na segunda, '
+=== T. delivery hashes vs final.sha256 + run1 scope ===
+  files/weekly-report-w45-pt-zh-tw/svg/p1-capa.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p2-vida.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p3-cultura.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p4-esporte.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p5-jovens.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p6-aprofundamento.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p7-lingua.svg: OK
+  files/weekly-report-w45-pt-zh-tw/svg/p8-avaliacao.svg: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p1-capa.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p2-vida.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p3-cultura.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p4-esporte.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p5-jovens.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p6-aprofundamento.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p7-lingua.png: OK
+  files/weekly-report-w45-pt-zh-tw/cards/p8-avaliacao.png: OK
+  files/weekly-report-w45-pt-zh-tw/A-Lucerna-VOL2-web.pdf: OK
+  files/weekly-report-w45-pt-zh-tw/A-Lucerna-VOL2.pdf: OK
+  all final.sha256 match current delivery: True
+  run1->final differing files: ['files/weekly-report-w45-pt-zh-tw/svg/p7-lingua.svg', 'files/weekly-report-w45-pt-zh-tw/cards/p7-lingua.png', 'files/weekly-report-w45-pt-zh-tw/A-Lucerna-VOL2-web.pdf', 'files/weekly-report-w45-pt-zh-tw/A-Lucerna-VOL2.pdf']
+  run1-only / final-only keys: [] / []
+=== U. core hashes at proof time ===
+  p1-capa: 0dc8089df727dfe4
+  p2-vida: 56db3aa80e1318db
+  p3-cultura: 82f6fc3a94fbc11e
+  p4-esporte: c5647cf6e9c080ec
+  p5-jovens: 92e86020ce81f3c8
+  p6-aprofundamento: e6097473ded2f016
+  p7-lingua: a72cb75a519319f4
+  p8-avaliacao: 82630480322959ad

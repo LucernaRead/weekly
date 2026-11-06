@@ -1,0 +1,33 @@
+[PASS] badge P1 :: badge present on P1
+[PASS] footer+page line 8/8 :: VOL.2 KO footer + 제 N 면 / 총 8 면 on all pages
+[PASS] Chinese (Han) residue per page = 0 :: {'p1-capa': 0, 'p2-vida': 0, 'p3-cultura': 0, 'p4-esporte': 0, 'p5-jovens': 0, 'p6-aprofundamento': 0, 'p7-lingua': 0, 'p8-avaliacao': 0}
+[PASS] same-baseline ink collisions = 0 :: 0 collisions
+[PASS] page-frame ink crossings = 0 :: 0 crossings | min margins L/R/T/B = [23.0, 13.0, 30.0, 32.0]
+[PASS] P6 chart-label coverage <30% :: [('prova', 0.0), ('portões abertos', 0.0), ('60 min', 0.0), ('espera', 0.0), ('30 min', 0.0), ('prova', 0.0), ('330 min', 0.0)]
+[PASS] gloss count core 1:1 :: core {2: 6, 3: 6, 4: 5, 5: 5, 6: 4} edition {2: 6, 3: 6, 4: 5, 5: 5, 6: 4} total 26
+[PASS] gloss items survive in render :: 0 missing
+[PASS] P7 quotes 2x + page tag + KO on P7 :: 8 quotes; [('Do feriadão à prova: a semana ', 2, True, True), ('Muita gente viaja, visita a fa', 2, True, True), ('Finados é o dia da memória', 2, True, True), ('lembrar é um jeito de continua', 2, True, True), ('cada ponto vale uma posição, c', 2, True, True), ('quem dorme bem lembra melhor', 2, True, True), ('primeiro as fáceis, depois as ', 2, True, True), ('Confira o cartão, durma bem, c', 2, True, True)]
+[PASS] readers corner 3 facts + invitation :: {'PT example verbatim': True, 'PT disclosure verbatim': True, 'KO disclosure equivalent': True, 'KO example label': True, 'KO invitation imperative': True, 'KO publication promise': True, 'no bridge term': True}
+[PASS] P1 image embedded + credit :: image hash core fd231e77993f09e0 edition fd231e77993f09e0 (must match)
+[PASS] ADVANCE right-edge crossings = 0 :: 0 crossings
+[PASS] expansion p1-capa unpaired=0 :: unpaired []
+[PASS] expansion p2-vida unpaired=0 :: unpaired []
+[PASS] expansion p3-cultura unpaired=0 :: unpaired []
+[PASS] expansion p4-esporte unpaired=0 :: unpaired []
+[PASS] expansion p5-jovens unpaired=0 :: unpaired []
+[PASS] expansion p6-aprofundamento unpaired=0 :: unpaired []
+[PASS] expansion p7-lingua unpaired=0 :: unpaired []
+[PASS] expansion p8-avaliacao unpaired=0 :: unpaired []
+[PASS] SVG expansion levels 49/70/31 :: {'A2': 49, 'B1': 70, 'B2': 31}
+[PASS] SVG expansion union 1..150 :: n=150
+[PASS] P8 grouped counts 10/18/18/18/18/18/12/38 :: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+[PASS] P8 grouped union 1..150 :: n=150
+[PASS] model words from render = 93 :: 93 words
+[PASS] P7 word-box PT definition verbatim :: wt present
+[PASS] P7 word-box KO gloss :: gloss present
+[PASS] bridge term 桥接 = 0 (all pages) :: absent
+[PASS] KO S3 tail>=3 splits = 0 (window 10-45) :: 0 hits
+[PASS] KO line-start orphan punctuation = 0 :: 0 hits
+[PASS] KO orphan tails (1-2 syllable continuations) = 0 :: 0 hits
+KO minor splits (tail 1-2, info only): 13 [('p3-cultura', 822.6, '여러분 문화에서는 돌아가신 분들을 어떻게 기', '려요? 두 문장을 써서 보내 주세요.', 2), ('p4-esporte', 843.1, '브라질 컵에서는 어느 팀을 응원해요? 두 문장', '을 써서 보내 주세요.', 1), ('p5-jovens', 456.7, 'maratona (매일 조금씩 복습해요, 벼락치', '기는 없어요)', 2), ('p5-jovens', 539.8, 'rma bem na véspera da prova (시', '험 전날 밤에 푹 주무세요)', 1), ('p5-jovens', 734.6, 'ngo 8: chegue antes das 12h (일', '요일 8일: 12시 전에 도착하세요)', 2), ('p5-jovens', 889.9, '· a maratona 벼락치기 · separar 챙기', '다 · a cabeça 머리, 컨디션.', 1), ('p7-lingua', 594.9, 'horas (몇 시) + 동사; onde fica는 장', '소를 물어요; conferir의 eu 형태는 불규칙해요:', 2), ('p7-lingua', 842.5, '시험 전날 밤 벼락치기는 소용없어요, 푹 자야 기', '억이 나요.', 2), ('p7-lingua', 1774.0, '편집부 알림: VOL.1에서 약속한 실제 편지와 최', '고의 작문은 마감 때까지 오지 않았어요. 이번 호', 2), ('p7-lingua', 1801.7, '고의 작문은 마감 때까지 오지 않았어요. 이번 호', '에는 예시를 싣고, 약속은 VOL.3으로 이어져요.', 2)]
+FAILURES: none

@@ -1,0 +1,26 @@
+=== BUILD LOG PT x NL W45 ===
+run1 baseline (pre-transform, edition dir empty):
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/cards/:
+total 0
+drwxrws--- 1 root nogroup  0 Oct 27 22:20 .
+drwxrws--- 1 root nogroup 16 Oct 27 22:20 ..
+
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/svg/:
+total 0
+drwxrws--- 1 root nogroup  0 Oct 27 22:20 .
+drwxrws--- 1 root nogroup 16 Oct 27 22:20 ..
+(no PDFs yet)
+sha256sum: '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/svg/*': No such file or directory
+sha256sum: '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/cards/*': No such file or directory
+interpreters:
+Python 3.12.3
+PIL 13.0.0 cairosvg 2.9.1
+Python 3.12.3
+system PIL 10.2.0
+bslib4.py: CJK 0 OK, bridge 0 OK
+content12.py: CJK 0 OK, bridge 0 OK
+content34.py: CJK 0 OK, bridge 0 OK
+content56.py: CJK 0 OK, bridge 0 OK
+content7.py: CJK 0 OK, bridge 0 OK
+content8.py: CJK 0 OK, bridge 0 OK
+TRANSFORM COMPLETE

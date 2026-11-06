@@ -1,0 +1,75 @@
+ABSTRACT bytes=371 lines=1 ends-newline=True
+  text: "La Lucerna settimanale spagnolo VOL.2: conto alla rovescia per le elezioni del 29 novembre, la casa decide la campagna, il ponte di lunedì 2 novembre in nove comunità e domenica 8 novembre la NFL al Bernabéu e l'Atlético–Barça alle 21:00; testi in spagnolo, spiegazioni in italiano, livelli A2–B2, 150 esercizi, per imparare lo spagnolo con le notizie spagnole.\n"
+  ASCII double-quote present: False
+  CJK present: False
+  keyword '29 novembre': True
+  keyword 'casa': True
+  keyword 'campagna': True
+  keyword 'ponte': True
+  keyword '2 novembre': True
+  keyword 'nove comunità': True
+  keyword '8 novembre': True
+  keyword 'NFL': True
+  keyword 'Bernabéu': True
+  keyword 'Atlético–Barça': True
+  keyword '21:00': True
+  keyword 'A2–B2': True
+  keyword '150 esercizi': True
+  keyword 'imparare lo spagnolo': True
+
+===== P7 CORE reader-corner nodes =====
+  y=1388.58 size=21.5 '«¡Hola! Soy Ana, estudio español en'
+  y=1541.2299999999998 size=21.5 'periódico!» — Ana （ejemplo, escrito'
+  y=1571.7599999999998 size=21.5 'por la redacción）'
+  y=1632.2899999999997 size=20 'Nota de la redacción: al cierre no había'
+  y=1660.6899999999998 size=20 'cartas reales ni los mejores textos de la'
+  y=1717.49 size=20 'promesa pasa al VOL.3.'
+  y=1832.6900000000003 size=20 '部示例信，承诺顺延至 VOL.3。欢迎来信！'
+  y=2484.08 size=24 'LA PRÓXIMA SEMANA · 下期预告 (VOL.3)'
+  y=2524.08 size=21 'El viernes 13: empieza la campaña electoral. El domingo 29: España vota. Además: tus cartas y los mejores textos de la página 8. ¡Hasta el lunes!'
+
+===== P7 ED reader-corner nodes =====
+  y=1361.58 size=21.5 '«¡Hola! Soy Ana, estudio español en'
+  y=1514.2299999999998 size=21.5 'periódico!» — Ana (ejemplo, escrito'
+  y=1544.7599999999998 size=21.5 'por la redacción)'
+  y=1605.2899999999997 size=20 'Nota de la redacción: al cierre no había'
+  y=1633.6899999999998 size=20 'cartas reales ni los mejores textos de la'
+  y=1690.49 size=20 'promesa pasa al VOL.3.'
+  y=1748.89 size=20 'Nota della redazione: senza lettere vere'
+  y=1834.0900000000004 size=20 'promessa passa al VOL.3. Scriveteci!'
+  y=2486.08 size=24 'LA PRÓXIMA SEMANA · LA PROSSIMA SETTIMANA (VOL.3)'
+  y=2526.08 size=21 'El viernes 13: empieza la campaña electoral. El domingo 29: España vota. Además: tus cartas y los mejores textos de la página 8. ¡Hasta el lunes!'
+
+=== KIT §2 strings present in W45 SVGs (normalized join) ===
+  True: 'SETTIMANALE SPAGNOLO · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL'
+  True: 'CADA SEMANA EN ESPAÑOL · OGNI SETTIMANA · LO SPAGNOLO DEGLI SPAGNOLI'
+  True: 'MANCANO 27 GIORNI AL 29-N · LA CASA DECIDE LA CAMPAGNA'
+  True: 'Il tema di copertina · vedi le pagine 2 e 6'
+  True: 'LA SEMANA EN CIFRAS · IN CIFRE'
+  True: 'EL CALENDARIO · IL CALENDARIO'
+  True: 'EN ESTA EDICIÓN · IL NUMERO'
+  True: 'BREVES · IN BREVE'
+  True: 'QUIZ RELÁMPAGO · QUIZ LAMPO'
+  True: 'LA NOTICIA · LA NOTIZIA'
+  True: 'AHORA TÚ · TOCCA A TE'
+  True: '¿Y TÚ? · TOCCA A TE'
+  True: 'ERRORES TÍPICOS · ERRORI TIPICI'
+  True: 'LA PALABRA · LA PAROLA'
+  True: 'FRASES DE LA SEMANA · LE FRASI DELLA SETTIMANA (testuali, da questo numero)'
+  True: 'LA PRÓXIMA SEMANA · LA PROSSIMA SETTIMANA (VOL.3)'
+  True: 'EJERCICIOS · ESERCIZI · PAGINA'
+  True: 'EL PLAN DEL PUENTE · IL PIANO'
+  True: 'RESPUESTAS · LE RISPOSTE — ordinate per pagina: cerca il numero'
+  True: 'Una nota in italiano per ogni risposta · ✓ = testo modello'
+  True: 'Focus lingua · Tres niveles, tres herramientas · Tre livelli, tre strumenti'
+  True: 'Pagina 8 · La gran prueba de la semana + todas las respuestas'
+
+=== CJK char count per edition SVG (direct) ===
+  p1-portada.svg: 0
+  p2-vida.svg: 0
+  p3-cultura.svg: 0
+  p4-deporte.svg: 0
+  p5-juventud.svg: 0
+  p6-afondo.svg: 0
+  p7-lengua.svg: 0
+  p8-ejercicios.svg: 0

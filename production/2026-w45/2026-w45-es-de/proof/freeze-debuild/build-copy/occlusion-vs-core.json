@@ -1,0 +1,88 @@
+{
+ "svgdir": "../files/weekly-report-w45-es-de/svg",
+ "flags": [
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "Wahlkampf.",
+   "box": [
+    1451.0,
+    1826.6,
+    1555.8,
+    1846.1
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "Uhr. (Página 1)",
+   "box": [
+    989.0,
+    2557.3,
+    1121.0,
+    2579.3
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@185"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "TEXTX",
+   "text": "LA PRÓXIMA SEMANA · NÄCHSTE AUSGABE (VOL.3)",
+   "box": [
+    93.0,
+    2602.3,
+    696.2,
+    2631.6
+   ],
+   "detail": "ink overlaps 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL' by 603.2x18.5px",
+   "by": "text@186"
+  }
+ ],
+ "flag_count": 3,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "Wahlkampf.",
+   "box": [
+    1451.0,
+    1826.6,
+    1555.8,
+    1846.1
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "Uhr. (Página 1)",
+   "box": [
+    989.0,
+    2557.3,
+    1121.0,
+    2579.3
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@185"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "TEXTX",
+   "text": "LA PRÓXIMA SEMANA · NÄCHSTE AUSGABE (VOL.3)",
+   "box": [
+    93.0,
+    2602.3,
+    696.2,
+    2631.6
+   ],
+   "detail": "ink overlaps 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL' by 603.2x18.5px",
+   "by": "text@186"
+  }
+ ],
+ "new_flag_count": 3
+}

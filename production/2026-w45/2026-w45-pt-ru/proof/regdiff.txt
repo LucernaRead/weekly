@@ -1,0 +1,21 @@
+len 150 150
+page diffs []
+level diffs []
+core types Counter({'完成句子': 61, '单选': 49, '完形单选': 13, '词汇配对': 12, '造句': 7, '翻译': 4, '判断对错': 3, '写作': 1})
+ru types Counter({'Вставьте слово': 61, 'Выбор ответа': 49, 'Выбор в пропуске': 13, 'Сопоставление': 12, 'Составьте предложение': 7, 'Перевод': 4, 'Верно или нет': 3, 'Письмо': 1})
+KEY diffs: [137, 138, 150] count 3
+NOTE diffs count: 149 unchanged notes: [86]
+KEY #137 page=8 type core='翻译' ru='Перевод'
+  core key='11 月 8 日周日是高考的第一天。' note='对照第 6 版标题'
+  ru   key='Воскресенье, 8 ноября, — первый день Enem.' note='См. заголовок страницы 6'
+KEY #138 page=8 type core='翻译' ru='Перевод'
+  core key='周日前核对确认卡。' note='Confira = 请核对'
+  ru   key='Проверьте карточку подтверждения до воскресенья.' note='Confira = проверьте'
+KEY #150 page=8 type core='写作' ru='Письмо'
+  core key='（开放题，范文如下）' note='范文见本版 H 区（93 词）'
+  ru   key='(открытое задание — образец ниже)' note='Образец — в разделе H этой страницы (93 слова)'
+#86: {'n': 86, 'page': 6, 'level': 'B2', 'type': '单选', 'key': 'B', 'note': '60 + 30 + 330 = 420'} {'n': 86, 'page': 6, 'level': 'B2', 'type': 'Выбор ответа', 'key': 'B', 'note': '60 + 30 + 330 = 420'}
+#150: {'n': 150, 'page': 8, 'level': 'B1', 'type': '写作', 'key': '（开放题，范文如下）', 'note': '范文见本版 H 区（93 词）'} {'n': 150, 'page': 8, 'level': 'B1', 'type': 'Письмо', 'key': '(открытое задание — образец ниже)', 'note': 'Образец — в разделе H этой страницы (93 слова)'}
+#137: {'n': 137, 'page': 8, 'level': 'A2', 'type': '翻译', 'key': '11 月 8 日周日是高考的第一天。', 'note': '对照第 6 版标题'} {'n': 137, 'page': 8, 'level': 'A2', 'type': 'Перевод', 'key': 'Воскресенье, 8 ноября, — первый день Enem.', 'note': 'См. заголовок страницы 6'}
+#138: {'n': 138, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': '周日前核对确认卡。', 'note': 'Confira = 请核对'} {'n': 138, 'page': 8, 'level': 'B1', 'type': 'Перевод', 'key': 'Проверьте карточку подтверждения до воскресенья.', 'note': 'Confira = проверьте'}
+#139/#140: {'n': 139, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': 'O feriadão é de 31 de outubro a 2 de novembro.', 'note': 'feriadão = 连休'} {'n': 139, 'page': 8, 'level': 'B1', 'type': 'Перевод', 'key': 'O feriadão é de 31 de outubro a 2 de novembro.', 'note': 'feriadão = длинные выходные'} | {'n': 140, 'page': 8, 'level': 'B2', 'type': '翻译', 'key': 'Quando você chegar, apresente o documento com foto.', 'note': '虚拟式将来 chegar + 祈使 apresente'} {'n': 140, 'page': 8, 'level': 'B2', 'type': 'Перевод', 'key': 'Quando você chegar, apresente o documento com foto.', 'note': 'будущее сослагательное chegar + повелительное apresente'}

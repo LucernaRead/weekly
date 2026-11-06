@@ -1,0 +1,30 @@
+== rowcheck edition
+('p1-portada.svg', 1516.0, 4.0, 'Pág. 5', 'La NFL en Madrid')
+('p1-portada.svg', 1396.0, 4.0, 'Pág. 2', 'El puente del lunes 2')
+('p1-portada.svg', 1436.0, 4.0, 'Pág. 3', 'Tres noches de otoño')
+('p1-portada.svg', 1476.0, 4.0, 'Pág. 4', 'Europa y el domingo')
+('p1-portada.svg', 1556.0, 4.0, 'Pág. 6', 'La vivienda decide')
+('p1-portada.svg', 1596.0, 4.0, 'Pág. 7', 'Fechas y promesas')
+('p1-portada.svg', 1636.0, 4.0, 'Pág. 8', 'Ejercicios y respuestas')
+row-bad: 7
+== rowcheck core
+('p1-portada.svg', 1516.0, 4.0, 'Pág. 5', 'La NFL en Madrid')
+('p1-portada.svg', 1396.0, 4.0, 'Pág. 2', 'El puente del lunes 2')
+('p1-portada.svg', 1436.0, 4.0, 'Pág. 3', 'Tres noches de otoño')
+('p1-portada.svg', 1476.0, 4.0, 'Pág. 4', 'Europa y el domingo')
+('p1-portada.svg', 1556.0, 4.0, 'Pág. 6', 'La vivienda decide')
+('p1-portada.svg', 1596.0, 4.0, 'Pág. 7', 'Fechas y promesas')
+('p1-portada.svg', 1636.0, 4.0, 'Pág. 8', 'Ejercicios y respuestas')
+row-bad-core: 7
+== chartcheck edition P6
+chart-overlaps-ed: 0
+== chartcheck core P6
+chart-overlaps-core: 0
+== Inmigracion edition: [(1011.0, 1717.0, 1011.0, 1144.2, [(1139.0, 1699.0), (1139.0, 1730.0)])]
+== Inmigracion core: [(1011.0, 1717.0, 1011.0, 1144.2, [(1139.0, 1699.0), (1139.0, 1730.0)])]
+== gloss edition: {'p1-portada.svg': [2], 'p2-vida.svg': [], 'p3-cultura.svg': [], 'p4-deporte.svg': [], 'p5-juventud.svg': [], 'p6-afondo.svg': [], 'p7-lengua.svg': [], 'p8-ejercicios.svg': []}
+== gloss core: {'p1-portada.svg': [], 'p2-vida.svg': [2], 'p3-cultura.svg': [2], 'p4-deporte.svg': [2], 'p5-juventud.svg': [1], 'p6-afondo.svg': [], 'p7-lengua.svg': [], 'p8-ejercicios.svg': []}
+== orphan edition: []
+== orphan core: []
+== images equal: True {'p1-portada.svg': [], 'p2-vida.svg': [], 'p3-cultura.svg': [('54adf4face332c22', ('1451', '200', '434', '430'))], 'p4-deporte.svg': [], 'p5-juventud.svg': [('91bd483d6bcefff0', ('1451', '200', '434', '290'))], 'p6-afondo.svg': [], 'p7-lengua.svg': [], 'p8-ejercicios.svg': []}
+== furniture: {'p1-portada.svg': {'footer': 1, 'pageline': 1}, 'p2-vida.svg': {'footer': 1, 'pageline': 1}, 'p3-cultura.svg': {'footer': 1, 'pageline': 1}, 'p4-deporte.svg': {'footer': 1, 'pageline': 1}, 'p5-juventud.svg': {'footer': 1, 'pageline': 1}, 'p6-afondo.svg': {'footer': 1, 'pageline': 1}, 'p7-lengua.svg': {'footer': 1, 'pageline': 1}, 'p8-ejercicios.svg': {'footer': 1, 'pageline': 1}, 'badge': 1, 'p8head': 1, 'p8sep': 8}

@@ -1,0 +1,812 @@
+{
+ "svgdir": "../files/weekly-report-w45-es-ru/svg",
+ "flags": [
+  {
+   "page": "p2-vida.svg",
+   "class": "BOXTITLE",
+   "text": "EL CALENDARIO · Календарь недели",
+   "box": [
+    545.0,
+    482.8,
+    978.5,
+    505.0
+   ],
+   "detail": "ink crosses its box borders: right ink 978.5 > border 961.0",
+   "by": "rect@43"
+  },
+  {
+   "page": "p5-juventud.svg",
+   "class": "BOXTITLE",
+   "text": "EL PLAN DEL PUENTE · План на пуэнте",
+   "box": [
+    545.0,
+    407.0,
+    998.2,
+    429.2
+   ],
+   "detail": "ink crosses its box borders: right ink 998.2 > border 961.0",
+   "by": "rect@42"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "100% of ink covered by later rect box [1451.0, 2580.0, 1511.0, 2610.0]",
+   "by": "rect@220"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "100% of ink covered by later rect box [1451.0, 2580.0, 1511.0, 2610.0]",
+   "by": "rect@225"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "COVER",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "100% of ink covered by later rect box [1451.0, 2580.0, 1511.0, 2610.0]",
+   "by": "rect@225"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "98.",
+   "box": [
+    1523.0,
+    2585.0,
+    1559.0,
+    2603.2
+   ],
+   "detail": "ink overlaps '99.' by 36.0x18.2px",
+   "by": "text@222"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "98.",
+   "box": [
+    1523.0,
+    2585.0,
+    1559.0,
+    2603.2
+   ],
+   "detail": "ink overlaps '100.' by 36.0x18.2px",
+   "by": "text@227"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "99.",
+   "box": [
+    1523.0,
+    2585.0,
+    1559.0,
+    2603.2
+   ],
+   "detail": "ink overlaps '100.' by 36.0x18.2px",
+   "by": "text@227"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "ink overlaps 'B2' by 24.2x14.0px",
+   "by": "text@221"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "ink overlaps 'B2' by 24.2x14.0px",
+   "by": "text@226"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1468.9,
+    2588.0,
+    1493.2,
+    2602.0
+   ],
+   "detail": "ink overlaps 'B2' by 24.2x14.0px",
+   "by": "text@226"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Вставьте",
+   "box": [
+    1593.0,
+    2588.8,
+    1676.8,
+    2603.2
+   ],
+   "detail": "ink overlaps 'Вставьте' by 83.8x14.5px",
+   "by": "text@223"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Вставьте",
+   "box": [
+    1593.0,
+    2588.8,
+    1676.8,
+    2603.2
+   ],
+   "detail": "ink overlaps 'Вставьте' by 83.8x14.5px",
+   "by": "text@228"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Вставьте",
+   "box": [
+    1593.0,
+    2588.8,
+    1676.8,
+    2603.2
+   ],
+   "detail": "ink overlaps 'Вставьте' by 83.8x14.5px",
+   "by": "text@228"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Страница 6 из 8",
+   "box": [
+    1731.8,
+    2609.0,
+    1885.1,
+    2628.5
+   ],
+   "detail": "ink overlaps 'El CIS entrevistó a una ___ de 5.025 per' by 138.9x13.2px",
+   "by": "text@219"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Страница 6 из 8",
+   "box": [
+    1731.8,
+    2609.0,
+    1885.1,
+    2628.5
+   ],
+   "detail": "ink overlaps 'Los ___ todavía no saben a quién votar.' by 79.4x13.2px",
+   "by": "text@224"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "El CIS entrevistó a una ___ de 5.025 personas.",
+   "box": [
+    1451.0,
+    2615.2,
+    1870.8,
+    2636.0
+   ],
+   "detail": "ink overlaps 'Los ___ todavía no saben a quién votar.' by 360.2x20.8px",
+   "by": "text@224"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "El CIS entrevistó a una ___ de 5.025 personas.",
+   "box": [
+    1451.0,
+    2615.2,
+    1870.8,
+    2636.0
+   ],
+   "detail": "ink overlaps 'Toda encuesta tiene un ___.' by 256.5x16.8px",
+   "by": "text@229"
+  },
+  {
+   "page": "p6-afondo.svg",
+   "class": "TEXTX",
+   "text": "Los ___ todavía no saben a quién votar.",
+   "box": [
+    1451.0,
+    2615.2,
+    1811.2,
+    2636.0
+   ],
+   "detail": "ink overlaps 'Toda encuesta tiene un ___.' by 256.5x16.8px",
+   "by": "text@229"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "«El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota l",
+   "box": [
+    65.0,
+    2559.4,
+    893.5,
+    2582.9
+   ],
+   "detail": "ink bottom 2582.9 below footer rule 2580 (baseline 2577.16)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "«El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota l",
+   "box": [
+    65.0,
+    2559.4,
+    893.5,
+    2582.9
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@191"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "«El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y ",
+   "box": [
+    989.0,
+    2559.4,
+    1826.8,
+    2583.2
+   ],
+   "detail": "ink bottom 2583.2 below footer rule 2580 (baseline 2577.16)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "«El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y ",
+   "box": [
+    989.0,
+    2559.4,
+    1826.8,
+    2583.2
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@191"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "EDGE",
+   "text": "LA PRÓXIMA SEMANA · Следующий выпуск (VOL.3)",
+   "box": [
+    93.0,
+    2710.9,
+    712.2,
+    2740.7
+   ],
+   "detail": "ink box (93.0, 2710.91, 712.25, 2740.66) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "EDGE",
+   "text": "El viernes 13: empieza la campaña electoral. El domingo 29: ",
+   "box": [
+    93.0,
+    2757.7,
+    1555.5,
+    2780.9
+   ],
+   "detail": "ink box (93.0, 2757.66, 1555.5, 2780.91) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "TEXTX",
+   "text": "La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНС",
+   "box": [
+    65.0,
+    2605.0,
+    1107.5,
+    2628.2
+   ],
+   "detail": "ink overlaps '«Реал» выиграл на «Камп Ноу» 2–1: первое' by 801.8x15.9px",
+   "by": "text@174"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '142. d — muestra = выборка (d)' by 207.0x15.0px",
+   "by": "text@393"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '144. a — junta electoral = избирательная' by 363.2x15.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '147. A — ¿cuánto cuesta? = сколько стоит' by 280.0x14.5px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '148. A — firmar = подписать (договор)' by 257.5x14.8px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '143. b — margen de error = погрешность (' by 293.8x14.5px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.5px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 278.0x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ образец — в разделе H этой страницы (84 слова)",
+   "box": [
+    1451.0,
+    2553.5,
+    1827.2,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '144. a — junta electoral = избирательная' by 207.0x15.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '147. A — ¿cuánto cuesta? = сколько стоит' by 207.0x14.5px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '148. A — firmar = подписать (договор)' by 207.0x14.8px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '143. b — margen de error = погрешность (' by 207.0x14.5px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.5px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 207.0x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "142. d — muestra = выборка (d)",
+   "box": [
+    1451.0,
+    2554.0,
+    1658.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '147. A — ¿cuánto cuesta? = сколько стоит' by 280.0x14.5px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '148. A — firmar = подписать (договор)' by 257.5x14.8px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '143. b — margen de error = погрешность (' by 293.8x14.5px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.5px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 278.0x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "144. a — junta electoral = избирательная комиссия (a)",
+   "box": [
+    1451.0,
+    2554.0,
+    1814.2,
+    2569.2
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "147. A — ¿cuánto cuesta? = сколько стоит?",
+   "box": [
+    1451.0,
+    2554.2,
+    1731.0,
+    2568.8
+   ],
+   "detail": "ink overlaps '148. A — firmar = подписать (договор)' by 257.5x14.5px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "147. A — ¿cuánto cuesta? = сколько стоит?",
+   "box": [
+    1451.0,
+    2554.2,
+    1731.0,
+    2568.8
+   ],
+   "detail": "ink overlaps '143. b — margen de error = погрешность (' by 280.0x14.2px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "147. A — ¿cuánto cuesta? = сколько стоит?",
+   "box": [
+    1451.0,
+    2554.2,
+    1731.0,
+    2568.8
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.2px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "147. A — ¿cuánto cuesta? = сколько стоит?",
+   "box": [
+    1451.0,
+    2554.2,
+    1731.0,
+    2568.8
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 278.0x14.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "147. A — ¿cuánto cuesta? = сколько стоит?",
+   "box": [
+    1451.0,
+    2554.2,
+    1731.0,
+    2568.8
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.2px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "148. A — firmar = подписать (договор)",
+   "box": [
+    1451.0,
+    2554.2,
+    1708.5,
+    2569.0
+   ],
+   "detail": "ink overlaps '143. b — margen de error = погрешность (' by 257.5x14.5px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "148. A — firmar = подписать (договор)",
+   "box": [
+    1451.0,
+    2554.2,
+    1708.5,
+    2569.0
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.5px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "148. A — firmar = подписать (договор)",
+   "box": [
+    1451.0,
+    2554.2,
+    1708.5,
+    2569.0
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 257.5x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "148. A — firmar = подписать (договор)",
+   "box": [
+    1451.0,
+    2554.2,
+    1708.5,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "143. b — margen de error = погрешность (b)",
+   "box": [
+    1451.0,
+    2554.5,
+    1744.8,
+    2569.0
+   ],
+   "detail": "ink overlaps '145. A — alquiler = аренда' by 173.8x14.5px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "143. b — margen de error = погрешность (b)",
+   "box": [
+    1451.0,
+    2554.5,
+    1744.8,
+    2569.0
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 278.0x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "143. b — margen de error = погрешность (b)",
+   "box": [
+    1451.0,
+    2554.5,
+    1744.8,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "145. A — alquiler = аренда",
+   "box": [
+    1451.0,
+    2554.5,
+    1624.8,
+    2569.0
+   ],
+   "detail": "ink overlaps '146. A — tres habitaciones = три комнаты' by 173.8x14.5px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "145. A — alquiler = аренда",
+   "box": [
+    1451.0,
+    2554.5,
+    1624.8,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 173.8x14.5px",
+   "by": "text@400"
+  },
+  {
+   "page": "p8-ejercicios.svg",
+   "class": "TEXTX",
+   "text": "146. A — tres habitaciones = три комнаты",
+   "box": [
+    1451.0,
+    2554.5,
+    1729.0,
+    2569.0
+   ],
+   "detail": "ink overlaps '149. A — mudanza = переезд' by 189.0x14.5px",
+   "by": "text@400"
+  }
+ ],
+ "flag_count": 62
+}

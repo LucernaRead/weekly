@@ -1,0 +1,140 @@
+core segments: 150 nums 1 150 missing: []
+ed segments: 150 nums 1 150 missing: []
+DASH-PARSE KEY DIFFS: [137, 138, 150]
+--- #34 ---
+  CORE seg: 'flores — 给逝者带花 flores'
+  CORE key: 'flores'
+  ED   seg: 'flores — levar flores aos falecidos (flores)'
+  ED   key: 'flores'
+--- #57 ---
+  CORE seg: 'muchísimos — muchísimos partidos 比赛很多'
+  CORE key: 'muchísimos'
+  ED   seg: 'muchísimos — muchísimos partidos (muitíssimos jogos)'
+  ED   key: 'muchísimos'
+--- #83 ---
+  CORE seg: 'A — CIS 里 PSOE 第一（34%）'
+  CORE key: 'A'
+  ED   seg: 'A — no CIS, o PSOE vai em primeiro (34%)'
+  ED   key: 'A'
+--- #85 ---
+  CORE seg: 'C — 住房是首要问题（55,7%）'
+  CORE key: 'C'
+  ED   seg: 'C — a habitação é o principal problema (55,7%)'
+  ED   key: 'C'
+--- #93 ---
+  CORE seg: 'tenga — es posible que + 虚拟式 tenga'
+  CORE key: 'tenga'
+  ED   seg: 'tenga — es posible que + subjuntivo (tenga)'
+  ED   key: 'tenga'
+--- #94 ---
+  CORE seg: 'sea — es importante que + 虚拟式 sea'
+  CORE key: 'sea'
+  ED   seg: 'sea — es importante que + subjuntivo (sea)'
+  ED   key: 'sea'
+--- #95 ---
+  CORE seg: 'para que — para que + 虚拟式（目的）'
+  CORE key: 'para que'
+  ED   seg: 'para que — para que + subjuntivo (finalidade)'
+  ED   key: 'para que'
+--- #96 ---
+  CORE seg: 'Aunque — Aunque 后接陈述式（已知事实）'
+  CORE key: 'Aunque'
+  ED   seg: 'Aunque — Aunque + indicativo (facto conhecido)'
+  ED   key: 'Aunque'
+--- #98 ---
+  CORE seg: 'muestra — muestra = 样本（5.025 人）'
+  CORE key: 'muestra'
+  ED   seg: 'muestra — muestra = a amostra (5.025 pessoas)'
+  ED   key: 'muestra'
+--- #101 ---
+  CORE seg: '2 — el lunes 2 de noviembre 连休'
+  CORE key: '2'
+  ED   seg: '2 — el lunes 2 de noviembre (dia de ponte)'
+  ED   key: '2'
+--- #107 ---
+  CORE seg: 'mejor — bueno 的比较级是 mejor（不用 más）'
+  CORE key: 'mejor'
+  ED   seg: 'mejor — o comparativo de bueno é melhor (sem más)'
+  ED   key: 'mejor'
+--- #109 ---
+  CORE seg: 'baje — es necesario que + 虚拟式 baje'
+  CORE key: 'baje'
+  ED   seg: 'baje — es necesario que + subjuntivo (baje)'
+  ED   key: 'baje'
+--- #110 ---
+  CORE seg: 'sea — para que + 虚拟式 sea'
+  CORE key: 'sea'
+  ED   seg: 'sea — para que + subjuntivo (sea)'
+  ED   key: 'sea'
+--- #111 ---
+  CORE seg: 'es — creo que + 陈述式 es'
+  CORE key: 'es'
+  ED   seg: 'es — creo que + indicativo (es)'
+  ED   key: 'es'
+--- #117 ---
+  CORE seg: 'A — acoger = 承办（伯纳乌承办 NFL）'
+  CORE key: 'A'
+  ED   seg: 'A — acoger = receber (o Bernabéu recebe a NFL)'
+  ED   key: 'A'
+--- #137 ---
+  CORE seg: '周一在九个自治区是假日。 — 对照原文'
+  CORE key: '周一在九个自治区是假日。'
+  ED   seg: 'Na segunda-feira é feriado em nove comunidades. — Confira no original'
+  ED   key: 'Na segunda-feira é feriado em nove comunidades.'
+--- #138 ---
+  CORE seg: '周日我们看 NFL 和马竞–巴萨。 — 对照原文'
+  CORE key: '周日我们看 NFL 和马竞–巴萨。'
+  ED   seg: 'No domingo vemos a NFL e o Atlético–Barça. — Confira no original'
+  ED   key: 'No domingo vemos a NFL e o Atlético–Barça.'
+--- #148 ---
+  CORE seg: 'A — firmar = 签（合同）'
+  CORE key: 'A'
+  ED   seg: 'A — firmar = assinar (o contrato)'
+  ED   key: 'A'
+--- #139 ---
+  CORE seg: 'El Bernabéu acoge un partido de la NFL. — acoger = 承办'
+  CORE key: 'El Bernabéu acoge un partido de la NFL.'
+  ED   seg: 'El Bernabéu acoge un partido de la NFL. — acoger = receber'
+  ED   key: 'El Bernabéu acoge un partido de la NFL.'
+--- #140 ---
+  CORE seg: 'Cada gráfico tiene que llevar su fuente. — tener que = 必须'
+  CORE key: 'Cada gráfico tiene que llevar su fuente.'
+  ED   seg: 'Cada gráfico tiene que llevar su fuente. — tener que = ter de'
+  ED   key: 'Cada gráfico tiene que llevar su fuente.'
+--- #150 ---
+  CORE seg: '✓ 范文见本版 H 区（84 词）'
+  CORE key: '✓ 范文见本版 H 区（84 词）'
+  ED   seg: '✓ Texto-modelo na seção H desta página (84 palavras)'
+  ED   key: '✓ Texto-modelo na seção H desta página (84 palavras)'
+--- #1 ---
+  CORE seg: 'programas — las listas ya están presentadas; ahora se escriben los programas'
+  CORE key: 'programas'
+  ED   seg: 'programas — as listas já foram apresentadas; agora escrevem-se os programas'
+  ED   key: 'programas'
+
+TAIL elements (last 25):
+   '130. A — na Catalunha, a segunda é dia de trabalho'
+   '131. A — Ana: só a NFL; Pablo: Atlético–Barça à noite'
+   '132. B — o título resume o contraste entre os dois lugares'
+   '133. El lunes es festivo en Madrid. — sujeito + verbo + lugar'
+   '134. El domingo vemos la NFL en el Bernabéu. — tempo em 1.º'
+   '135. El Atlético–Barça empieza a las nueve. — a las nueve = às 9h'
+   '136. ¿A qué hora empieza el partido? — interrogativa no início'
+   '137. Na segunda-feira é feriado em nove comunidades. — Confira'
+   'no original'
+   '138. No domingo vemos a NFL e o Atlético–Barça. — Confira no'
+   'original'
+   '139. El Bernabéu acoge un partido de la NFL. — acoger = receber'
+   '140. Cada gráfico tiene que llevar su fuente. — tener que = ter de'
+   '141. c — sondeo=sondagem c'
+   '142. d — muestra=amostra d'
+   '143. b — margen de error=margem de erro b'
+   '144. a — junta electoral=comissão eleitoral a'
+   '145. A — alquiler = o aluguer'
+   '146. A — tres habitaciones = três quartos'
+   '147. A — ¿cuánto cuesta? = quanto custa?'
+   '148. A — firmar = assinar (o contrato)'
+   '149. A — mudanza = a mudança'
+   '150. ✓ Texto-modelo na seção H desta página (84 palavras)'
+   'La Lucerna · SEMANÁRIO ESPANHOL VOL.2 · TEXTOS EM ESPANHOL · EXPLICAÇÕES EM PORTUGUÊS'
+   'Página 8 de 8'

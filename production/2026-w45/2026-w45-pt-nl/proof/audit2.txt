@@ -1,0 +1,375 @@
+== P8: p8.py extract, 18 keydiff items + 139/140/150 ==
+  core: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-core/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150] 
+  edition: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150] 
+  extract keys: ['p8', 'total', 'how', 'noted_set', 'keys'] ['p8', 'total', 'how', 'noted_set', 'keys']
+  core sample: {"p8": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-core/svg/p8-avaliacao.svg", "total": 150, "how": "lines", "noted_set": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 14
+  ed sample: {"p8": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-nl/svg/p8-avaliacao.svg", "total": 150, "how": "lines", "noted_set": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148,
+== P8 printed lines (raw SVG text-node reconstruction) ==
+  lines parsed core=150 edition=150 missing_ed=[] extra_ed=[]
+  #2 CORE token='portões'
+      ED   token='portões'  token_equal=True
+      CORE full='portões — portões = 大门（考场大门） '
+      ED   full='portões — portões = de poorten (van de examenlocatie) '
+  #4 CORE token='13h30'
+      ED   token='13h30'  token_equal=True
+      CORE full='13h30 — 13h30 开考（巴西利亚时间） '
+      ED   full='13h30 — 13h30: het examen begint (tijd van Brasília) '
+  #25 CORE token='c'
+      ED   token='c'  token_equal=True
+      CORE full='c — feriadão=连着周末的假期 c '
+      ED   full='c — feriadão = een feestdag vast aan het weekend (c) '
+  #26 CORE token='b'
+      ED   token='b'  token_equal=True
+      CORE full='b — cemitério=墓碑所在的地方 b '
+      ED   full='b — cemitério = waar de graven zijn (b) '
+  #27 CORE token='d'
+      ED   token='d'  token_equal=True
+      CORE full='d — vela=点亮纪念的物品 d '
+      ED   full='d — vela = wat je aansteekt ter nagedachtenis (d) '
+  #28 CORE token='a'
+      ED   token='a'  token_equal=True
+      CORE full='a — crisântemo=亡灵节带去的花 a — PÁGINA 3 — '
+      ED   full='a — crisântemo = de bloem die je op Finados meeneemt (a) — Pagina 3 — '
+  #52 CORE token='b'
+      ED   token='b'  token_equal=True
+      CORE full='b — finalista=进决赛的球队 b '
+      ED   full='b — finalista = het team dat de finale bereikt (b) '
+  #53 CORE token='c'
+      ED   token='c'  token_equal=True
+      CORE full='c — ida=对决的第一场 c '
+      ED   full='c — ida = de eerste wedstrijd van een tweeluik (c) '
+  #54 CORE token='a'
+      ED   token='a'  token_equal=True
+      CORE full='a — volta=对决的第二场 a '
+      ED   full='a — volta = de tweede wedstrijd van een tweeluik (a) '
+  #55 CORE token='d'
+      ED   token='d'  token_equal=True
+      CORE full='d — rodada=一轮比赛 d '
+      ED   full='d — rodada = een speelronde (d) '
+  #101 CORE token='confiro'
+      ED   token='confiro'  token_equal=True
+      CORE full='confiro — conferir：eu → confiro（不规则） '
+      ED   full='confiro — conferir: eu → confiro (onregelmatig) '
+  #137 CORE token='11 月 8 日周日是高考的第一天。'
+      ED   token='Zondag 8 november is de eerste dag van het Enem.'  token_equal=False
+      CORE full='11 月 8 日周日是高考的第一天。 — 对照第 6 版标题 '
+      ED   full='Zondag 8 november is de eerste dag van het Enem. — zie de kop van pagina 6 '
+  #138 CORE token='周日前核对确认卡。'
+      ED   token='Controleer je kaart vóór zondag.'  token_equal=False
+      CORE full='周日前核对确认卡。 — Confira = 请核对 '
+      ED   full='Controleer je kaart vóór zondag. — Confira = controleer '
+  #141 CORE token='b'
+      ED   token='b'  token_equal=True
+      CORE full='b — feriadão=连着周末的假期 b '
+      ED   full='b — feriadão = een feestdag vast aan het weekend (b) '
+  #142 CORE token='d'
+      ED   token='d'  token_equal=True
+      CORE full='d — portão=考场入口 d '
+      ED   full='d — portão = de ingang van de examenlocatie (d) '
+  #143 CORE token='a'
+      ED   token='a'  token_equal=True
+      CORE full='a — reta final=考前最后一周 a '
+      ED   full='a — reta final = de laatste week vóór het examen (a) '
+  #144 CORE token='c'
+      ED   token='c'  token_equal=True
+      CORE full='c — segunda chamada=关门后的再入场（高考没有） c '
+      ED   full='c — segunda chamada = opnieuw binnenkomen na sluiting (bij het Enem onmogelijk) (c) '
+  #146 CORE token='A'
+      ED   token='A'  token_equal=True
+      CORE full='A — seção = 考场分区（房间） '
+      ED   full='A — seção = de examenzaal (de sectie) '
+  #139 CORE token='O feriadão é de 31 de outubro a 2 de novembro.'
+      ED   token='O feriadão é de 31 de outubro a 2 de novembro.'  token_equal=True
+      CORE full='O feriadão é de 31 de outubro a 2 de novembro. — feriadão = 连休 '
+      ED   full='O feriadão é de 31 de outubro a 2 de novembro. — feriadão = het lange weekend '
+  #140 CORE token='Quando você chegar, apresente o documento com foto.'
+      ED   token='Quando você chegar, apresente o documento com foto.'  token_equal=True
+      CORE full='Quando você chegar, apresente o documento com foto. — 虚 拟式将来 chegar + 祈使 apresente '
+      ED   full='Quando você chegar, apresente o documento com foto. — aanvoegende wijs toekomst chegar + gebiedende wijs apresente '
+  #150 CORE token='✓ 范文见本版 H 区（93 词） A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY 第 8 版 / 共 8 版'
+      ED   token='✓ voorbeeldtekst in deel H (93 woorden) A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS Pagina 8 van 8'  token_equal=False
+      CORE full='✓ 范文见本版 H 区（93 词） A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY 第 8 版 / 共 8 版'
+      ED   full='✓ voorbeeldtekst in deel H (93 woorden) A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS Pagina 8 van 8'
+== P8 notes language: CJK on P8 == 0
+   P8 font sizes (edition, top counts):
+   [('13', 168), ('14.5', 51), ('24', 39), ('19', 36), ('19.5', 11), ('15', 10), ('22', 8), ('23', 8)]
+   P8 font sizes (core, top counts):
+   [('13.5', 154), ('14.5', 50), ('24', 39), ('19', 36), ('19.5', 11), ('15', 10), ('22', 8), ('23', 8)]
+== gloss() source count (split on · itself, README #21) ==
+  content12.py: core items=6 edition items=6
+      ED item head 'o feriadão' alive_in_render=True :: o feriadão = het lange feestweekend
+      ED item head 'o cemitério' alive_in_render=True :: o cemitério = de begraafplaats
+      ED item head 'a vela' alive_in_render=True :: a vela = de kaars
+      ED item head 'o crisântemo' alive_in_render=True :: o crisântemo = de chrysant
+      ED item head 'a missa' alive_in_render=True :: a missa = de mis
+      ED item head 'conferir' alive_in_render=True :: conferir = nakijken.
+  content34.py: core items=11 edition items=11
+      ED item head 'o túmulo' alive_in_render=True :: o túmulo = het graf
+      ED item head 'a flor' alive_in_render=True :: a flor = de bloem
+      ED item head 'acender' alive_in_render=True :: acender = aansteken
+      ED item head 'rezar' alive_in_render=True :: rezar = bidden
+      ED item head 'o silêncio' alive_in_render=True :: o silêncio = de stilte
+      ED item head 'a lembrança' alive_in_render=True :: a lembrança = de herinnering.
+      ED item head 'a ida' alive_in_render=True :: a ida = de heenwedstrijd
+      ED item head 'a volta' alive_in_render=True :: a volta = de return
+      ED item head 'o finalista' alive_in_render=True :: o finalista = de finalist
+      ED item head 'a decisão' alive_in_render=True :: a decisão = de beslissing
+      ED item head 'a rodada' alive_in_render=True :: a rodada = de speelronde.
+  content56.py: core items=9 edition items=9
+      ED item head 'a reta final' alive_in_render=True :: a reta final = de eindsprint
+      ED item head 'a véspera' alive_in_render=True :: a véspera = de vooravond
+      ED item head 'a maratona' alive_in_render=True :: a maratona = de lastminutemarathon
+      ED item head 'separar' alive_in_render=True :: separar = klaarmaken
+      ED item head 'a cabeça' alive_in_render=True :: a cabeça = je hoofd, je gemoedstoestand.
+      ED item head 'os portões' alive_in_render=True :: os portões = de poorten
+      ED item head 'a segunda chamada' alive_in_render=True :: a segunda chamada = een tweede kans, een tweede binnenkomst
+      ED item head 'conferir' alive_in_render=True :: conferir = nakijken
+      ED item head 'a correria' alive_in_render=True :: a correria = de haast.
+  core gloss heads:
+      o feriadão 连休长周末
+      o cemitério 墓园
+      a vela 蜡烛
+      o crisântemo 菊花
+      a missa 弥撒
+      conferir 核对。
+      o túmulo 墓碑
+      a flor 花
+      acender 点燃
+      rezar 祈祷
+      o silêncio 寂静
+      a lembrança 怀念。
+      a ida 首回合
+      a volta 次回合
+      o finalista 决赛球队
+      a decisão 决战
+      a rodada 轮次。
+      a reta final 最后冲刺
+      a véspera 前夕
+      a maratona 突击马拉松
+      separar 准备好
+      a cabeça 头脑、状态。
+      os portões 大门
+      a segunda chamada 补考、第二次入场
+      conferir 核对
+      a correria 匆忙。
+== frozen PT survival: core sentences (no CJK, len>=25) ==
+  core PT sentences len>=25: checked; missing=0
+== freeze-diff removed strings with Latin content ==
+  p1 removed (Latin remnant): '12h — os portões abrem no domingo 8（'
+  p1 removed (Latin remnant): '13h — os portões fecham（13 点关门，过'
+  p1 removed (Latin remnant): '13h30–19h — a prova do dia 8（考试'
+  p1 removed (Latin remnant): '5h30 — a duração da prova do dia 8（考'
+  p1 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p1 removed (Latin remnant): 'A SEMANA EM NÚMEROS · 数字'
+  p1 removed (Latin remnant): 'EM POUCAS PALAVRAS · 快讯'
+  p1 removed (Latin remnant): 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+  p1 removed (Latin remnant): 'QUIZ RELÂMPAGO · 闪电问答'
+  p1 removed (Latin remnant): 'TODA SEMANA EM PORTUGUÊS · 每周一期 · 读巴西人正在读的葡萄牙语'
+  p1 removed (Latin remnant): 'a redação 作文 · revisar 复习。'
+  p1 removed (Latin remnant): '葡 萄 牙 语 周 报 · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE'
+  p1 removed (Latin remnant): '讲解｜feriadão 连休长周末 · o portão 大门 ·'
+  p2 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p2 removed (Latin remnant): 'EXERCÍCIOS · 第 2 版练习'
+  p2 removed (Latin remnant): 'NÍVEL A2 · Finados e revisão: o feriadão do Brasil'
+  p2 removed (Latin remnant): 'OS HORÁRIOS DO DOMINGO 8 · 周日时间表'
+  p2 removed (Latin remnant): 'PARA NÃO ERRAR · 口诀'
+  p2 removed (Latin remnant): 'Um país, vários relógios · 一个国家，几个时区'
+  p2 removed (Latin remnant): 'cemitério 墓园 · a vela 蜡烛 · o'
+  p2 removed (Latin remnant): 'crisântemo 菊花 · a missa 弥撒 ·'
+  p2 removed (Latin remnant): '译注｜o feriadão 连休长周末 · o'
+  p3 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p3 removed (Latin remnant): 'A2 → B1 · Finados: o dia da memória · 亡灵节：怀念的日子'
+  p3 removed (Latin remnant): 'EXERCÍCIOS · 第 3 版练习'
+  p3 removed (Latin remnant): 'acender 点燃 · rezar 祈祷 · o silêncio 寂'
+  p3 removed (Latin remnant): '用过去时（pretérito perfeito）补全。'
+  p3 removed (Latin remnant): '译注｜o túmulo 墓碑 · a flor 花 ·'
+  p4 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p4 removed (Latin remnant): 'A SEMANA DO FUTEBOL · 足球周历'
+  p4 removed (Latin remnant): 'EXERCÍCIOS · 第 4 版练习'
+  p4 removed (Latin remnant): 'NÍVEL B1 · O futebol da semana · 足球之周'
+  p4 removed (Latin remnant): 'finalista 决赛球队 · a decisão 决战 · a'
+  p4 removed (Latin remnant): '把句子补全成过去时（pretérito perfeito）。'
+  p4 removed (Latin remnant): '译注｜a ida 首回合 · a volta 次回合 · o'
+  p5 removed (Latin remnant): '3. Durma bem na véspera da prova（考'
+  p5 removed (Latin remnant): '5. Domingo 8: chegue antes das 12h（'
+  p5 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p5 removed (Latin remnant): 'EXERCÍCIOS · 第 5 版练习'
+  p5 removed (Latin remnant): 'NÍVEL B1 · A reta final dos jovens · 冲刺周：年轻人的最后一周'
+  p5 removed (Latin remnant): '夕 · a maratona 突击马拉松 · separar 准'
+  p5 removed (Latin remnant): '用将来时（futuro do presente）补全。'
+  p5 removed (Latin remnant): '译注｜a reta final 最后冲刺 · a véspera 前'
+  p6 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p6 removed (Latin remnant): 'APROFUNDAMENTO · 深读'
+  p6 removed (Latin remnant): 'EXERCÍCIOS · 第 6 版练习'
+  p6 removed (Latin remnant): 'NÍVEL B2 · O Enem explicado · 高考详解'
+  p6 removed (Latin remnant): 'O DOMINGO 8 EM NÚMEROS · 11 月 8 日的数字 (horários oficiais do Inep)'
+  p6 removed (Latin remnant): 'chamada · local · conferir'
+  p6 removed (Latin remnant): 'chamada 补考、第二次入场 · conferir 核'
+  p6 removed (Latin remnant): '用方框里的词填空：portões · segunda'
+  p6 removed (Latin remnant): '译注｜os portões 大门 · a segunda'
+  p7 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p7 removed (Latin remnant): 'A PRÓXIMA SEMANA · 下期预告 (VOL.3)'
+  p7 removed (Latin remnant): 'FRASES DA SEMANA · 本周金句（逐字摘自本期文章）'
+  p7 removed (Latin remnant): 'quando、se、quem 后用虚拟式将来：tiver、'
+  p7 removed (Latin remnant): 'revisar 规则（revisei）；chegar/dormir 的过'
+  p7 removed (Latin remnant): '提问句：que horas（几点）+ 动词；onde fica'
+  p7 removed (Latin remnant): '聚焦语言 · Três níveis, três ferramentas · 三个级别，三件工具'
+  p7 removed (Latin remnant): '讲一周的事用过去时（pretérito perfeito）；'
+  p7 removed (Latin remnant): '问地点；conferir 的 eu 形式不规则：confiro'
+  p8 removed (Latin remnant): '1. feriadão — feriadão = 连休长周末'
+  p8 removed (Latin remnant): '100. Confira — 祈使式：confira'
+  p8 removed (Latin remnant): '101. confiro — conferir：eu → confiro（不规则）'
+  p8 removed (Latin remnant): '102. confere — conferir：você → confere'
+  p8 removed (Latin remnant): '103. começa — começar：ela → começa'
+  p8 removed (Latin remnant): '105. revisei — revisar 过去时：revisei'
+  p8 removed (Latin remnant): '106. chegou — chegar 过去时：chegou'
+  p8 removed (Latin remnant): '107. dormiu — dormir 过去时：dormiu'
+  p8 removed (Latin remnant): '108. B — chegaram 是 chegar 的过去时复数'
+  p8 removed (Latin remnant): '109. tiver — quem + 虚拟式将来：tiver'
+  p8 removed (Latin remnant): '11. B — 连休从 10 月 31 日到 11 月 2 日'
+  p8 removed (Latin remnant): '110. chegar — quando + 虚拟式将来：chegar'
+  p8 removed (Latin remnant): '111. for — se + ser 的虚拟式将来：for'
+  p8 removed (Latin remnant): '112. B — quando + 未来 → 虚拟式将来 for'
+  p8 removed (Latin remnant): '113. A — 第 1 天在 11 月 8 日'
+  p8 removed (Latin remnant): '116. A — 亡灵节在 11 月 2 日'
+  p8 removed (Latin remnant): '120. B — 第 2 天在 11 月 15 日'
+  p8 removed (Latin remnant): '121. B — 连休从 10 月 31 日到 11 月 2 日'
+  p8 removed (Latin remnant): '123. B — 米内罗竞技 × 格雷米奥次回合在 MRV 竞技场'
+  p8 removed (Latin remnant): '126. B — 万圣节在 10 月 31 日周六'
+  p8 removed (Latin remnant): '133. Domingo é dia de prova. — 时间词在前'
+  p8 removed (Latin remnant): '134. O candidato confere o cartão no aplicativo. — 主语 + 动词 + 宾'
+  p8 removed (Latin remnant): '135. Que horas começa a prova? — 疑问词组在句首'
+  p8 removed (Latin remnant): '136. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语'
+  p8 removed (Latin remnant): '137. 11 月 8 日周日是高考的第一天。 — 对照第 6 版标题'
+  p8 removed (Latin remnant): '138. 周日前核对确认卡。 — Confira = 请核对'
+  p8 removed (Latin remnant): '139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão ='
+  p8 removed (Latin remnant): '140. Quando você chegar, apresente o documento com foto. — 虚'
+  p8 removed (Latin remnant): '141. b — feriadão=连着周末的假期 b'
+  p8 removed (Latin remnant): '142. d — portão=考场入口 d'
+  p8 removed (Latin remnant): '143. a — reta final=考前最后一周 a'
+  p8 removed (Latin remnant): '144. c — segunda chamada=关门后的再入场（高考没有） c'
+  p8 removed (Latin remnant): '145. B — documento com foto 带照片的证件'
+  p8 removed (Latin remnant): '146. A — seção = 考场分区（房间）'
+  p8 removed (Latin remnant): '148. A — 考试 13:30 开始'
+  p8 removed (Latin remnant): '149. B — obrigado = 谢谢'
+  p8 removed (Latin remnant): '16. confere — conferir：ele → confere'
+  p8 removed (Latin remnant): '17. abre — abrir：ele → abre'
+  p8 removed (Latin remnant): '18. levamos — levar：nós → levamos'
+  p8 removed (Latin remnant): '19. começa — começar：ela → começa'
+  p8 removed (Latin remnant): '2. portões — portões = 大门（考场大门）'
+  p8 removed (Latin remnant): '20. é — ser 现在时 ela 形式：é'
+  p8 removed (Latin remnant): '21. 1 — 12 点到 13 点 = 1 小时'
+  p8 removed (Latin remnant): '22. 5 — 13:30 至 19:00 = 5 个半小时'
+  p8 removed (Latin remnant): '23. 330 — 5×60 + 30 = 330 分钟'
+  p8 removed (Latin remnant): '24. 3 — 31 日、1 日、2 日 = 3 天'
+  p8 removed (Latin remnant): '25. c — feriadão=连着周末的假期 c'
+  p8 removed (Latin remnant): '26. b — cemitério=墓碑所在的地方 b'
+  p8 removed (Latin remnant): '27. d — vela=点亮纪念的物品 d'
+  p8 removed (Latin remnant): '28. a — crisântemo=亡灵节带去的花 a'
+  p8 removed (Latin remnant): '3. redação — redação = 作文'
+  p8 removed (Latin remnant): '32. C — 万圣节在 10 月 31 日周六'
+  p8 removed (Latin remnant): '34. túmulo — túmulo = 墓碑'
+  p8 removed (Latin remnant): '35. vela — vela = 蜡烛'
+  p8 removed (Latin remnant): '36. crisântemo — crisântemo = 菊花'
+  p8 removed (Latin remnant): '37. missa — missa = 弥撒'
+  p8 removed (Latin remnant): '38. silêncio — silêncio = 寂静'
+  p8 removed (Latin remnant): '39. lembrança — lembrança = 怀念'
+  p8 removed (Latin remnant): '4. 13h30 — 13h30 开考（巴西利亚时间）'
+  p8 removed (Latin remnant): '40. visitaram — visitar 过去时 elas 形式：visitaram'
+  p8 removed (Latin remnant): '41. levaram — levar 过去时 elas 形式：levaram'
+  p8 removed (Latin remnant): '42. foi — ser 过去时 ele 形式：foi'
+  p8 removed (Latin remnant): '43. viveu — viver 过去时 ele 形式：viveu'
+  p8 removed (Latin remnant): '44. Finados é um dia de silêncio. — 主语 + é + 表语'
+  p8 removed (Latin remnant): '45. As famílias levam flores ao cemitério. — 主语 + 动词 + 宾语 + 地'
+  p8 removed (Latin remnant): '46. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语'
+  p8 removed (Latin remnant): '47. A — 次回合米内罗竞技 × 格雷米奥在周六 7 日 18 点'
+  p8 removed (Latin remnant): '48. B — 瓦斯科 × 帕尔梅拉斯次回合在周日 8 日 17 点，圣雅努阿里奥'
+  p8 removed (Latin remnant): '52. b — finalista=进决赛的球队 b'
+  p8 removed (Latin remnant): '54. a — volta=对决的第二场 a'
+  p8 removed (Latin remnant): '55. d — rodada=一轮比赛 d'
+  p8 removed (Latin remnant): '56. mais — 次回合决定决赛名额：mais'
+  p8 removed (Latin remnant): '57. mais — 18 > 16：mais'
+  p8 removed (Latin remnant): '58. mais — 17 < 18：mais cedo'
+  p8 removed (Latin remnant): '59. mais — 第 34 轮周一到周五都有比赛：mais'
+  p8 removed (Latin remnant): '6. revisam — revisar 现在时 eles 形式：revisam'
+  p8 removed (Latin remnant): '60. foram — ser 过去时复数：foram'
+  p8 removed (Latin remnant): '61. recebeu — receber 过去时 ele 形式：recebeu'
+  p8 removed (Latin remnant): '62. recebeu — receber 过去时 ele 形式：recebeu'
+  p8 removed (Latin remnant): '63. começou — começar 过去时 ela 形式：começou'
+  p8 removed (Latin remnant): '64. chegaram — chegar 过去时 eles 形式：chegaram'
+  p8 removed (Latin remnant): '7. B — 连休从 10 月 31 日到 11 月 2 日'
+  p8 removed (Latin remnant): '70. reta final — reta final = 最后冲刺阶段'
+  p8 removed (Latin remnant): '71. inscritos — inscrito 配合复数：inscritos'
+  p8 removed (Latin remnant): '72. véspera — véspera = 前夕'
+  p8 removed (Latin remnant): '73. maratona — maratona = 突击马拉松'
+  p8 removed (Latin remnant): '74. local — local = 地点'
+  p8 removed (Latin remnant): '75. Separe — separar 祈使式：separe'
+  p8 removed (Latin remnant): '76. farão — fazer 将来时 eles 不规则形式：farão'
+  p8 removed (Latin remnant): '77. mostrará — mostrar 将来时：mostrará'
+  p8 removed (Latin remnant): '78. sairão — sair 将来时复数：sairão'
+  p8 removed (Latin remnant): '79. chegará — chegar 将来时：chegará'
+  p8 removed (Latin remnant): '80. Verdadeiro — 确认卡显示考试地点'
+  p8 removed (Latin remnant): '82. Verdadeiro — 对：13:30 至 19:00'
+  p8 removed (Latin remnant): '87. C — 中午到 19 点 = 7 小时'
+  p8 removed (Latin remnant): '93. começará — 将来时：começará'
+  p8 removed (Latin remnant): '94. chegar — quem + 虚拟式将来：chegar'
+  p8 removed (Latin remnant): '95. fecham — 现在时：fecham'
+  p8 removed (Latin remnant): '96. pede — 现在时：pede'
+  p8 removed (Latin remnant): '97. portões — portões = 大门'
+  p8 removed (Latin remnant): '98. segunda chamada — segunda chamada = 补考、第二次入场'
+  p8 removed (Latin remnant): '99. local — local = 地点'
+  p8 removed (Latin remnant): 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  p8 removed (Latin remnant): 'AVALIAÇÃO E RESPOSTAS · 练习与答案'
+  p8 removed (Latin remnant): '“连休是 10 月 31 日到 11 月 2 日。” → ___'
+  p8 removed (Latin remnant): '拟式将来 chegar + 祈使 apresente'
+  p8 removed (Latin remnant): '第 8 版 · A grande prova da semana + todas as respostas'
+  (removed strings fully CJK/explanation are expected; only Latin remnants listed)
+== band subs append pattern ==
+  p2-vida PT half 'Finados e revisão: o feriadão do Brasil' in ED: True
+      node: 'NÍVEL A2 · Finados e revisão: o feriadão do Brasil · Finados en revisie: het lange weekend in Brazilië'
+  p7-lingua PT half 'Três níveis, três ferramentas' in ED: True
+      node: 'Focus op taal · Três níveis, três ferramentas · drie niveaus, drie hulpmiddelen'
+  p1-capa top-band long nodes: ['TODA SEMANA EM PORTUGUÊS · ELKE WEEK · HET PORTUGEES DAT BRAZILIË LEEST', 'PORTUGEES WEEKBLAD · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE', 'TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS']
+  p2-vida top-band long nodes: ['NÍVEL A2 · Finados e revisão: o feriadão do Brasil · Finados en revisie: het lange weekend in Brazilië']
+  p3-cultura top-band long nodes: ['A2 → B1 · Finados: o dia da memória · Finados: de dag van de herinnering']
+  p5-jovens top-band long nodes: ['NÍVEL B1 · A reta final dos jovens · de eindsprint van de jongeren']
+  p7-lingua top-band long nodes: ['Focus op taal · Três níveis, três ferramentas · drie niveaus, drie hulpmiddelen']
+  p8-avaliacao top-band long nodes: ['A volta de Vasco × Palmeiras é no domingo ___ . (A. 1º · B. 8)', 'No dia 8, a prova dura ___ . (A. cinco horas e meia · B. sete']
+  W43 P2 band sub nodes:
+      'NÍVEL A2 · Como votar, passo a passo · stap voor stap stemmen'
+== image blob hash conventions ==
+  edition: decoded sha256=cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c b64text sha256=fd231e77993f09e01dc7ef7202720b1b2a822c077a500d8176905c0830ea56be b64text md5=7e6fa99b846ad620c84eb989452c52d4
+  core: decoded sha256=cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c b64text sha256=fd231e77993f09e01dc7ef7202720b1b2a822c077a500d8176905c0830ea56be b64text md5=7e6fa99b846ad620c84eb989452c52d4
+== ABSTRACT ==
+  lines=1 ascii_double_quotes=0 chars=418
+  text: A Lucerna Portugees Weekblad VOL.2: Enem-examenweek met het Finados-weekend van 31 oktober tot 2 november, dag 1 van het Enem op zondag 8 november (opstel, talen en menswetenschappen, poorten 12h–13h, examen 13h30–19h) en de returns van de halve finales van de Copa do Brasil; Portugese teksten met uitleg in het Nederlands, niveaus A2–B2, 150 oefeningen, voor wie Portugees wil leren door Braziliaans nieuws te lezen.
+  contains 'Enem': True
+  contains 'Finados': True
+  contains '8 november': True
+  contains 'Portugees': True
+  contains 'Nederlands': True
+  contains 'A2': True
+  contains 'B2': True
+  contains '150': True
+== PDFs (pypdf) ==
+  A-Lucerna-VOL2.pdf: pages=8 mediabox0=RectangleObject([0, 0, 1462.5, 2025]) images=1 textchars=36066 has_badge=True
+  A-Lucerna-VOL2-web.pdf: pages=8 mediabox0=RectangleObject([0, 0, 1400, 1938]) images=8 textchars=0 has_badge=False
+== exercise numbering in rendered SVGs ==
+  p1-capa level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p2-vida level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p3-cultura level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p4-esporte level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p5-jovens level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p6-aprofundamento level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p7-lingua level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  p8-avaliacao level-badge occurrences A2/B1/B2 = {'A2': 0, 'B1': 0, 'B2': 0}
+  type label 'Voltooi de zin': total occurrences=0
+  type label 'Meerkeuze': total occurrences=0
+  type label 'Woorden koppelen': total occurrences=0
+  type label 'Bouw de zin': total occurrences=7
+  type label 'Waar of onwaar': total occurrences=3
+  type label 'Gatentekst': total occurrences=0
+  type label 'Vertaal': total occurrences=4
+  type label 'Schrijven': total occurrences=1

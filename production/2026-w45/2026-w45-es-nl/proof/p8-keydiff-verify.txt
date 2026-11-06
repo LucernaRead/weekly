@@ -1,0 +1,82 @@
+17 toolkey core= 'preguntan' ed= 'preguntan — todos → preguntan'
+18 toolkey core= 'anochece' ed= 'anochece — anochecer → anochece'
+19 toolkey core= 'descansamos' ed= 'descansamos — nosotros → descansamos'
+20 toolkey core= 'dura' ed= 'dura — el fin de semana → dura'
+60 toolkey core= 'El Madrid ganó 2–1 en el Camp Nou.' ed= 'El Madrid ganó 2–1 en el Camp Nou. — ganar → ganó'
+61 toolkey core= 'Mbappé marcó dos goles.' ed= 'Mbappé marcó dos goles. — marcar → marcó'
+62 toolkey core= 'El Barça perdió su primer partido.' ed= 'El Barça perdió su primer partido. — perder → perdió'
+63 toolkey core= 'Mourinho recortó la distancia.' ed= 'Mourinho recortó la distancia. — recortar → recortó'
+64 toolkey core= 'Los aficionados fueron al estadio.' ed= 'Los aficionados fueron al estadio. — ir in de verleden tijd is fueron'
+72 toolkey core= 'acoge' ed= 'acoge — acoger → acoge'
+83 toolkey core= 'A — CIS 里 PSOE 第一' ed= 'A — in de CIS-barometer staat de PSOE eerste'
+85 toolkey core= 'C — 住房是首要问题' ed= 'C — huisvesting is het grootste probleem'
+95 toolkey core= 'para que — para que + 虚拟式' ed= 'para que — para que + aanvoegende wijs'
+96 toolkey core= 'Aunque — Aunque 后接陈述式' ed= 'Aunque — Aunque + indicatief hier'
+98 toolkey core= 'muestra — muestra = 样本' ed= 'muestra — muestra = een steekproef'
+107 toolkey core= 'mejor — bueno 的比较级是 mejor' ed= 'mejor — de vergrotende trap van bueno is mejor'
+117 toolkey core= 'A — acoger = 承办' ed= 'A — acoger = organiseren'
+137 toolkey core= '周一在九个自治区是假日。' ed= "Maandag is een feestdag in negen autonome regio's."
+138 toolkey core= '周日我们看 NFL 和马竞–巴萨。' ed= 'Op zondag kijken we naar de NFL en Atlético–Barça.'
+148 toolkey core= 'A — firmar = 签' ed= 'A — firmar = tekenen'
+--- seg fields ---
+core json keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+17 CORE seg= None
+17 ED seg= None
+
+18 CORE seg= None
+18 ED seg= None
+
+19 CORE seg= None
+19 ED seg= None
+
+20 CORE seg= None
+20 ED seg= None
+
+60 CORE seg= None
+60 ED seg= None
+
+61 CORE seg= None
+61 ED seg= None
+
+62 CORE seg= None
+62 ED seg= None
+
+63 CORE seg= None
+63 ED seg= None
+
+64 CORE seg= None
+64 ED seg= None
+
+72 CORE seg= None
+72 ED seg= None
+
+83 CORE seg= None
+83 ED seg= None
+
+85 CORE seg= None
+85 ED seg= None
+
+95 CORE seg= None
+95 ED seg= None
+
+96 CORE seg= None
+96 ED seg= None
+
+98 CORE seg= None
+98 ED seg= None
+
+107 CORE seg= None
+107 ED seg= None
+
+117 CORE seg= None
+117 ED seg= None
+
+137 CORE seg= None
+137 ED seg= None
+
+138 CORE seg= None
+138 ED seg= None
+
+148 CORE seg= None
+148 ED seg= None
+

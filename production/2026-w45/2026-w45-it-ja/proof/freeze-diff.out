@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +27 strings / -27 strings; CJK core 193 -> edition 260; added CJK chars: 208 {'毎': 1, '週': 8, '号': 1, 'イ': 8, 'タ': 6, 'リ': 8, 'ア': 8, 'が': 3, '読': 4, 'ん': 2}
+p2: +33 strings / -30 strings; CJK core 179 -> edition 266; added CJK chars: 220 {'と': 2, '死': 2, '者': 2, 'の': 5, '日': 1, '発': 1, '行': 1, '時': 1, '点': 1, 'で': 6}
+p3: +34 strings / -34 strings; CJK core 169 -> edition 259; added CJK chars: 219 {'文': 5, 'ス': 1, 'イ': 3, 'ー': 10, 'ツ': 1, 'と': 2, '美': 1, '術': 1, '館': 1, '解': 2}
+p4: +27 strings / -25 strings; CJK core 145 -> edition 226; added CJK chars: 193 {'ス': 1, 'ポ': 1, 'ー': 8, 'ツ': 1, 'セ': 1, 'リ': 4, 'エ': 1, 'と': 2, '州': 1, '戦': 1}
+p5: +41 strings / -36 strings; CJK core 215 -> edition 308; added CJK chars: 249 {'ル': 3, 'ッ': 2, 'カ': 2, 'の': 9, '後': 2, 'で': 6, '（': 1, '火': 1, '曜': 6, 'ミ': 2}
+p6: +28 strings / -26 strings; CJK core 149 -> edition 219; added CJK chars: 172 {'掘': 1, 'り': 1, '気': 2, '予': 4, '報': 3, 'の': 10, '読': 1, 'み': 2, '発': 1, '行': 1}
+p7: +43 strings / -41 strings; CJK core 319 -> edition 431; added CJK chars: 339 {'言': 1, '語': 5, 'フ': 1, 'ォ': 1, 'ー': 7, 'カ': 2, 'ス': 1, 'つ': 2, 'の': 19, 'レ': 1}
+p8: +169 strings / -166 strings; CJK core 1034 -> edition 1446; added CJK chars: 1170 {'習': 2, 'と': 8, 'え': 2, 'ペ': 13, 'ー': 53, 'ジ': 13, '文': 3, 'を': 6, '作': 3, 'る': 11}
+TOTAL added CJK characters: 2770

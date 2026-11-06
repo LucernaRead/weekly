@@ -1,0 +1,28 @@
+#83 ED : 'A — nel CIS il PSOE è primo (34%)'
+     note tail paren-group: '(34%)'
+#83 CORE: 'A — CIS 里 PSOE 第一（34%）'
+#85 ED : 'C — la casa è il primo problema (55,7%)'
+     note tail paren-group: '(55,7%)'
+#85 CORE: 'C — 住房是首要问题（55,7%）'
+#95 ED : 'para que — para que + congiuntivo (scopo)'
+     note tail paren-group: '(scopo)'
+#95 CORE: 'para que — para que + 虚拟式（目的）'
+#96 ED : 'Aunque — Aunque + indicativo (fatto noto)'
+     note tail paren-group: '(fatto noto)'
+#96 CORE: 'Aunque — Aunque 后接陈述式（已知事实）'
+#98 ED : 'muestra — muestra = campione (5.025 persone)'
+     note tail paren-group: '(5.025 persone)'
+#98 CORE: 'muestra — muestra = 样本（5.025 人）'
+#107 ED : 'mejor — il comparativo di bueno è mejor (senza más)'
+     note tail paren-group: '(senza más)'
+#107 CORE: 'mejor — bueno 的比较级是 mejor（不用 más）'
+#117 ED : 'A — acoger = ospitare (il Bernabéu ospita la NFL)'
+     note tail paren-group: '(il Bernabéu ospita la NFL)'
+#117 CORE: 'A — acoger = 承办（伯纳乌承办 NFL）'
+#148 ED : 'A — firmar = firmare (il contratto)'
+     note tail paren-group: '(il contratto)'
+#148 CORE: 'A — firmar = 签（合同）'
+
+150 clean:
+  ED : ✓ Il modello è nella sezione H di questa pagina (84 parole)
+  CORE: ✓ 范文见本版 H 区（84 词）

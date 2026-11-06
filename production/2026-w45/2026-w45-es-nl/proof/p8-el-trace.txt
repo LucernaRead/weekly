@@ -1,0 +1,26 @@
+items core 150 ed 150 non-int keys core ['_how']
+#102 el core=2 ed=1
+  core: uno — el 1 = el uno
+  ed  : uno — de 1e = el uno
+dashkey #17: SAME=True core='preguntan' ed='preguntan'
+dashkey #18: SAME=True core='anochece' ed='anochece'
+dashkey #19: SAME=True core='descansamos' ed='descansamos'
+dashkey #20: SAME=True core='dura' ed='dura'
+dashkey #60: SAME=True core='El Madrid ganó 2–1 en el Camp Nou.' ed='El Madrid ganó 2–1 en el Camp Nou.'
+dashkey #61: SAME=True core='Mbappé marcó dos goles.' ed='Mbappé marcó dos goles.'
+dashkey #62: SAME=True core='El Barça perdió su primer partido.' ed='El Barça perdió su primer partido.'
+dashkey #63: SAME=True core='Mourinho recortó la distancia.' ed='Mourinho recortó la distancia.'
+dashkey #64: SAME=True core='Los aficionados fueron al estadio.' ed='Los aficionados fueron al estadio.'
+dashkey #72: SAME=True core='acoge' ed='acoge'
+dashkey #83: SAME=True core='A' ed='A'
+dashkey #85: SAME=True core='C' ed='C'
+dashkey #95: SAME=True core='para que' ed='para que'
+dashkey #96: SAME=True core='Aunque' ed='Aunque'
+dashkey #98: SAME=True core='muestra' ed='muestra'
+dashkey #107: SAME=True core='mejor' ed='mejor'
+dashkey #117: SAME=True core='A' ed='A'
+dashkey #137: SAME=False core='周一在九个自治区是假日。' ed="Maandag is een feestdag in negen autonome regio's."
+dashkey #138: SAME=False core='周日我们看 NFL 和马竞–巴萨。' ed='Op zondag kijken we naar de NFL en Atlético–Barça.'
+dashkey #139: SAME=True core='El Bernabéu acoge un partido de la NFL.' ed='El Bernabéu acoge un partido de la NFL.'
+dashkey #140: SAME=True core='Cada gráfico tiene que llevar su fuente.' ed='Cada gráfico tiene que llevar su fuente.'
+dashkey #148: SAME=True core='A' ed='A'

@@ -1,0 +1,249 @@
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/bslib4.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/bslib4.py
+  NEW-nocjk:         self.text(MX, 2624, "La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO", 20, "sans", False, GREY)
+  NEW-nocjk:         self.text(RIGHT, 2624, f"Pagina {n} di {total}", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk:         return self.box("", [("Nota — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/content12.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/content12.py
+  OLD-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core/svg")
+  NEW-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it/svg")
+  NEW-nocjk: p.text(975, 92, "CADA SEMANA EN ESPAÑOL · OGNI SETTIMANA · LO SPAGNOLO DEGLI SPAGNOLI", 21, "sans", False, GREY, anchor="middle")
+  NEW-nocjk: p.text(975, 330, "SETTIMANALE SPAGNOLO · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL", 46, "serif", True, INK, anchor="middle")
+  NEW-nocjk: p.text(975, 574, "TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI", 22, "sans", True, BRICK, anchor="middle")
+  NEW-nocjk: p.text(RIGHT - 30, 478, "MANCANO 27 GIORNI AL 29-N · LA CASA DECIDE LA CAMPAGNA", 24, "sans", True, "#b3a06a", anchor="end")
+  NEW-nocjk: p.text(RIGHT - 30, 522, "Il tema di copertina · vedi le pagine 2 e 6", 21, "sans", False, "#b3a06a", anchor="end")
+  NEW-nocjk: p.text(MX, hy + 26, "LA NOTICIA · LA NOTIZIA", 22, "sans", True, BRICK)
+  NEW-nocjk: f.bridge("la cuenta atrás il conto alla rovescia · disolver las Cortes sciogliere il Parlamento · el decreto il decreto · la candidatura la candidatura.")
+  NEW-nocjk: f.box("LA SEMANA EN CIFRAS · IN CIFRE", [
+  NEW-nocjk:     ("27 — días faltan el lunes 2 para las elecciones del domingo 29(ancora 27 giorni alle elezioni di domenica 29)", "serif", False, INK, 20.5, 1.35),
+  NEW-nocjk:     ("9 — comunidades donde el lunes 2 de noviembre es fiesta(il 2 novembre è festa in 9 comunità)", "serif", False, INK, 20.5, 1.35),
+  NEW-nocjk:     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre(dati CIS di ottobre)", "serif", False, INK, 20.5, 1.35),
+  NEW-nocjk: f.head("AHORA TÚ · TOCCA A TE", 25)
+  NEW-nocjk: p.text(gx + 22, gy + 106, "Cinque chiavi · Para entender la semana", 19, "sans", False, GREY)
+  NEW-nocjk: p.text(gx + 22, byy + 102, "Cinque chiavi, zero numeri inventati.", 19, "sans", False, GREY)
+  NEW-nocjk: p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN · IL NUMERO", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.para(gx, y2 + 28, "«La precampagna»: prima della campagna.", 19, "sans", False, GREY, gw, 1.35)
+  NEW-nocjk: p.text(bx + 22, 1914, "BREVES · IN BREVE", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.text(MX, qy + 36, "QUIZ RELÁMPAGO · QUIZ LAMPO", 26, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, qy + 36, "Leggi la prima pagina e scegli la risposta giusta · risposte a pagina 8", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: p.band("VIDA · VITA QUOTIDIANA", "La Lucerna", "NIVEL A2 · El puente del lunes 2 · Il ponte di lunedì 2")
+  NEW-nocjk: f.box("EL CALENDARIO · IL CALENDARIO", [
+  NEW-nocjk:     ("Lunes 2 — puente en nueve comunidades; las candidaturas proclamadas llegan al BOE el martes 3(lunedì: ponte in nove comunità; martedì il BOE pubblica le liste ufficiali)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Martes 3 — Champions: Barça–Aston Villa, Atlético–Bayern, Villarreal–PSG(martedì: tre partite di Champions di squadre spagnole)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Miércoles 4 — Champions: AEK–Real Madrid, 18:45(mercoledì: il Real in trasferta contro l'AEK Atene)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Jueves 5 — Europa League: Real Sociedad–Lyon, 18:45(giovedì: la Real Sociedad in Europa League contro il Lione)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Viernes 6 — Liga, jornada 12: Sevilla–Alavés, 21:00(venerdì: inizia la 12ª giornata di Liga)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Sábado 7 — Valencia–Real Madrid, 21:00, en Mestalla(sabato: Valencia–Real Madrid)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("Domingo 8 — NFL en el Bernabéu, 15:30; Atlético–Barça, 21:00(domenica: NFL a Madrid + Atlético–Barça)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk: f.gloss("festivo in festa · el puente il ponte · la comunidad la comunità autonoma · anochecer il calare della sera · el horario de invierno l'ora solare.")
+  NEW-nocjk: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Il 2 novembre da te è festa? E con il ponte cosa fai: viaggi, riposi o guardi calcio? Scrivi due frasi in spagnolo e mandale alla redazione.", "sans", False, 20, CW - 44)) * 29 + 20
+  NEW-nocjk: p.text(ix + 22, yy3 + 26, "¿Y TÚ? · TOCCA A TE", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.para(ix + 22, yy3 + 20, "Il 2 novembre da te è festa? E con il ponte cosa fai: viaggi, riposi o guardi calcio? Scrivi due frasi in spagnolo e mandale alla redazione.", 20, "sans", False, GREY, CW - 44, 1.42)
+  NEW-nocjk: p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA · DIRE LE DATE", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, dy + 28, "lunes 2 – domingo 8 de noviembre · da lunedì 2 a domenica 8 novembre", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 2", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: e.bridge("Completa con la forma giusta della data.")
+  NEW-nocjk:      "El puente es el lunes ___ de noviembre.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El Atlético–Barça se juega el domingo ___ de noviembre.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Las elecciones generales son el ___ de noviembre.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El Día de Todos los Santos es el ___ de noviembre.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El lunes 2 de ___ es festivo en nueve comunidades.", instr="Completa", size=20, gap=8)
+  NEW-nocjk: e.bridge("Completa con il presente del verbo.")
+  NEW-nocjk:      "El lunes 2 ___ festivo en Madrid.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Todos ___ lo mismo: «¿El lunes es fiesta?»", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "En noviembre ___ pronto.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Con el puente, ___ tres días.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El fin de semana ___ tres días en Madrid.", instr="Completa", size=20, gap=8)
+  NEW-nocjk: e.bridge("Leggi l'articolo di pagina 2 e scegli la risposta giusta.")
+  NEW-nocjk:             ["puente=ponte di tre giorni b", "festivo=di festa a", "anochecer=il far buio c", "comunidad=comunità autonoma d"],
+  NEW-nocjk:             instr="Abbina le parole")
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/content34.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/content34.py
+  OLD-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core/svg")
+  NEW-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it/svg")
+  NEW-nocjk: p.band("CULTURA · CULTURA", "La Lucerna", "A2 → B1 · La semana pasada: tres noches de otoño · Tre notti d'autunno, la settimana scorsa")
+  NEW-nocjk: f.gloss("sobrio sobrio, composto · el homenaje l'omaggio · el disfraz il costume · el boniato la patata dolce · el cementerio il cimitero.")
+  NEW-nocjk: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Quale notte preferisci: quella del 29, del 31 o del 1º? E il 31 cosa hai mangiato? Scrivi due frasi e mandale.", "sans", False, 20, CW - 44)) * 29 + 20
+  NEW-nocjk: p.text(ix + 22, yy3 + 26, "¿Y TÚ? · TOCCA A TE", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.para(ix + 22, yy3 + 20, "Quale notte preferisci: quella del 29, del 31 o del 1º? E il 31 cosa hai mangiato? Scrivi due frasi e mandale.", 20, "sans", False, GREY, CW - 44, 1.42)
+  NEW-nocjk: p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 3", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: e.bridge("Leggi l'articolo di pagina 3 e di' se è vero o falso.")
+  NEW-nocjk:      "Los actos de memoria de la DANA fueron el jueves 29 de octubre. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "En la Castanyada se comen castañas asadas y panellets. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "El Samaín es el nombre gallego de Halloween. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "El Día de Todos los Santos es el 31 de octubre. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "El domingo 1, las familias llevaron flores a los cementerios. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk: e.bridge("Completa con le parole del riquadro.")
+  NEW-nocjk:      "Las familias llevan ___ a los cementerios.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El 1 de noviembre las familias van al ___.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "En la Castanyada comemos ___ asadas.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El 31 de octubre los niños llevan ___.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El 29 de octubre fueron actos de ___.", instr="Completa", size=20, gap=8)
+  NEW-nocjk: e.bridge("Scegli la risposta giusta.")
+  NEW-nocjk: e.bridge("Metti le parole in ordine e forma la frase giusta.")
+  NEW-nocjk:      "las familias / llevan / flores / al cementerio → ___", instr="Costruisci", size=20, gap=8)
+  NEW-nocjk:      "el sábado / comemos / castañas asadas → ___", instr="Costruisci", size=20, gap=8)
+  NEW-nocjk:      "en Galicia / celebran / el Samaín → ___", instr="Costruisci", size=20, gap=8)
+  NEW-nocjk:      "«¿El lunes es fiesta?» (todos preguntan) → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk: p.band("DEPORTE · SPORT", "La Lucerna", "NIVEL B1 · Europa primero, el domingo a las 21:00 · Prima l'Europa, domenica alle 21:00")
+  NEW-nocjk: f.gloss("la jornada la giornata · recortar la distancia ridurre il distacco · recibir giocare in casa contro · visitar giocare in trasferta contro · el Metropolitano lo stadio dell'Atlético.")
+  NEW-nocjk: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Domenica alle 21:00 quale partita guardi? E in casa dell'Atlético chi vince? Scrivi due frasi in spagnolo e mandale.", "sans", False, 20, CW - 44)) * 29 + 20
+  NEW-nocjk: p.text(bx + 22, yy3 + 26, "¿Y TÚ? · TOCCA A TE", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.para(bx + 22, yy3 + 20, "Domenica alle 21:00 quale partita guardi? E in casa dell'Atlético chi vince? Scrivi due frasi in spagnolo e mandale.", 20, "sans", False, GREY, CW - 44, 1.42)
+  NEW-nocjk: p.text(MX, ty, "LA SEMANA EUROPEA Y LA JORNADA 12 · LA SETTIMANA EUROPEA E LA 12ª GIORNATA", 26, "sans", True, OLIVE)
+  NEW-nocjk: p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 4", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: e.bridge("Leggi l'articolo di pagina 4 e scegli la risposta giusta.")
+  NEW-nocjk:             ["jornada=giornata b", "recibir=giocare in casa contro a", "visitar=giocare in trasferta contro d", "recortar=ridurre il distacco c"],
+  NEW-nocjk:             instr="Abbina le parole")
+  NEW-nocjk: e.bridge("Completa con il comparativo o la forma in -ísimo della parola tra parentesi.")
+  NEW-nocjk:      "El Atlético–Barça es ___ que un partido normal de Liga. (importante)", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El domingo hay ___ partidos: ¡toda la jornada 12! (muchos)", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El Barça sufrió su ___ (malo) noche de Liga en el Camp Nou.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Mbappé firmó su ___ (bueno) noche del año en Barcelona.", instr="Completa", size=20, gap=8)
+  NEW-nocjk: e.bridge("Metti le frasi al passato (pretérito indefinido).")
+  NEW-nocjk:      "El Madrid gana 2–1 en el Camp Nou. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Mbappé marca dos goles. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "El Barça pierde su primer partido. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Mourinho recorta la distancia. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Los aficionados van al estadio. → ___", instr="Riscrivi", size=20, gap=8)
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/content56.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/content56.py
+  OLD-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core/svg")
+  NEW-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it/svg")
+  NEW-nocjk: p.band("JUVENTUD · GIOVENTÙ", "La Lucerna", "NIVEL B1 · La NFL en Madrid · La NFL arriva a Madrid")
+  NEW-nocjk: f.box("EL PLAN DEL PUENTE · IL PIANO", [
+  NEW-nocjk:     ("1. El lunes 2: descanso y familia — o viaje, si tu comunidad hace puente(lunedì: riposo e famiglia — o viaggio, se la tua comunità fa ponte)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("2. El sábado 7: Valencia–Real Madrid, 21:00, en Mestalla(sabato sera: Valencia–Real Madrid)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("3. El domingo 8, 15:30: la NFL en el Bernabéu(domenica pomeriggio: la NFL al Bernabéu)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("4. El domingo 8, 21:00: Atlético–Barça en el Metropolitano(domenica sera: Atlético–Barça al Metropolitano)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk:     ("5. Y el lunes 9: vuelta a clase y al trabajo; la campaña empieza el viernes 13(ritorno a scuola e al lavoro; la campagna inizia venerdì 13)", "serif", False, INK, 21, 1.36),
+  NEW-nocjk: f.gloss("el emparrillado il campo da football americano (a forma di griglia) · el himno l'inno · el touchdown il touchdown, la meta · la calabaza la zucca.")
+  NEW-nocjk: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Hai mai visto una partita di football americano? Preferisci il calcio o il football americano? Scrivi due frasi e mandale.", "sans", False, 20, CW - 44)) * 29 + 20
+  NEW-nocjk: p.text(ix + 22, yy3 + 26, "¿Y TÚ? · TOCCA A TE", 24, "sans", True, OLIVE)
+  NEW-nocjk: p.para(ix + 22, yy3 + 20, "Hai mai visto una partita di football americano? Preferisci il calcio o il football americano? Scrivi due frasi e mandale.", 20, "sans", False, GREY, CW - 44, 1.42)
+  NEW-nocjk: p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 5", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+  NEW-nocjk: e.bridge("Leggi l'articolo di pagina 5 e scegli la risposta giusta.")
+  NEW-nocjk: e.bridge("Completa con le parole del riquadro. Attenzione: alcune vanno coniugate.")
+  NEW-nocjk:      "El partido se juega en el ___ Bernabéu.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Antes del partido suenan dos ___: el de España y el de EE. UU.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El Bernabéu ___ (infinito: acoger) un partido de la NFL.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "En el fútbol americano se marca con ___.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "El 31 de octubre las calles se llenan de ___ y disfraces.", instr="Completa", size=20, gap=8)
+  NEW-nocjk:      "Para Halloween compro un ___.", instr="Completa", size=20, gap=8)
+  NEW-nocjk: e.bridge("Riscrivi con ir a + infinito, per dire che cosa succederà.")
+  NEW-nocjk:      "Vemos la NFL el domingo. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Toca el himno de España. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Compras un disfraz el sábado. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "Llenan las calles de calabazas. → ___", instr="Riscrivi", size=20, gap=8)
+  NEW-nocjk:      "El partido del domingo es el segundo de la NFL en el Bernabéu. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "El himno de EE. UU. lo toca Pablo Sáinz-Villegas. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk:      "Halloween llenó las calles el sábado 31. ¿Verdadero o falso?", instr="Vero o falso", size=20, gap=8)
+  NEW-nocjk: p.band("A FONDO · APPROFONDIMENTO", "La Lucerna", "NIVEL B2 · La vivienda decide la campaña · La casa decide la campagna")
+  NEW-nocjk: p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 6", 28, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+  OLD-nocjk:      "En el barómetro del CIS, primero va... A. el PSOE · B. el PP · C. Vox", size=19, gap=3)
+  OLD-nocjk:      "En el barómetro del CIS, el PP tiene... A. 34 % · B. 22,2 % · C. 17,1 %", size=19, gap=3)
+  OLD-nocjk:      "El principal problema, según el CIS, es... A. la economía · B. la inmigración · C. la vivienda", size=19, gap=3)
+  OLD-nocjk:      "El trabajo de campo del CIS fue... A. del 1 al 6 de octubre · B. del 21 al 26 de octubre · C. el 14 de octubre", size=19, gap=3)
+  NEW-nocjk: e.bridge("Guarda i grafici e scegli.")
+  NEW-nocjk:      "En el barómetro del CIS, primero va... A. el PSOE · B. el PP · C. Vox", size=19, gap=1)
+  NEW-nocjk:      "En el barómetro del CIS, el PP tiene... A. 34 % · B. 22,2 % · C. 17,1 %", size=19, gap=1)
+  NEW-nocjk:      "El principal problema, según el CIS, es... A. la economía · B. la inmigración · C. la vivienda", size=19, gap=1)
+  NEW-nocjk:      "El trabajo de campo del CIS fue... A. del 1 al 6 de octubre · B. del 21 al 26 de octubre · C. el 14 de octubre", size=19, gap=1)
+  OLD-nocjk:      "PSOE + PP + Vox en el CIS suman... A. 50 % · B. 73,3 % · C. 100 %", size=19, gap=3)
+  OLD-nocjk:      "La Lucerna publica aquí... A. una media mezclada · B. todos los sondeos · C. solo la serie del CIS, con fuente y fecha", size=19, gap=3)
+  NEW-nocjk:      "PSOE + PP + Vox en el CIS suman... A. 50 % · B. 73,3 % · C. 100 %", size=19, gap=1)
+  NEW-nocjk:      "La Lucerna publica aquí... A. una media mezclada · B. todos los sondeos · C. solo la serie del CIS, con fuente y fecha", size=19, gap=1)
+  OLD-nocjk:      "El 2 de octubre, el Congreso... A. aprobó dos decretos · B. rechazó dos decretos de vivienda · C. disolvió las Cortes", size=19, gap=3)
+  OLD-nocjk:      "El 5 de octubre, Sánchez... A. disolvió las Cortes y convocó elecciones · B. publicó las listas · C. empezó la campaña", size=19, gap=3)
+  OLD-nocjk:      "Según el texto, una encuesta es... A. un resultado final · B. una promesa · C. una foto con margen de error", size=19, gap=3)
+  OLD-nocjk:      "La campaña electoral empieza el... A. 3 de noviembre · B. 13 de noviembre · C. 29 de noviembre", size=19, gap=3)
+  NEW-nocjk:      "El 2 de octubre, el Congreso... A. aprobó dos decretos · B. rechazó dos decretos de vivienda · C. disolvió las Cortes", size=19, gap=1)
+  NEW-nocjk:      "El 5 de octubre, Sánchez... A. disolvió las Cortes y convocó elecciones · B. publicó las listas · C. empezó la campaña", size=19, gap=1)
+  NEW-nocjk:      "Según el texto, una encuesta es... A. un resultado final · B. una promesa · C. una foto con margen de error", size=19, gap=1)
+  NEW-nocjk:      "La campaña electoral empieza el... A. 3 de noviembre · B. 13 de noviembre · C. 29 de noviembre", size=19, gap=1)
+  NEW-nocjk:      "Es posible que el CIS ___ (tener) otro método.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "Es importante que cada gráfico ___ (ser) claro.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "Publicamos la fuente ___ todos puedan comprobarla.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "___ las encuestas difieren, ninguna miente.", instr="Completa", size=19, gap=1)
+  NEW-nocjk: e.bridge("Completa con le parole del riquadro: sondeo · muestra · indecisos · margen de error")
+  NEW-nocjk:      "Un ___ pregunta a una muestra de ciudadanos.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "El CIS entrevistó a una ___ de 5.025 personas.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "Los ___ todavía no saben a quién votar.", instr="Completa", size=19, gap=1)
+  NEW-nocjk:      "Toda encuesta tiene un ___.", instr="Completa", size=19, gap=1)
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/content7.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/content7.py
+  OLD-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core/svg")
+  NEW-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it/svg")
+  NEW-nocjk: p.band("LENGUA · LA LINGUA", "La Lucerna", "Focus lingua · Tres niveles, tres herramientas · Tre livelli, tre strumenti")
+  NEW-nocjk: a.bridge("Il formato della data: el lunes 2 de noviembre; giorni e mesi in minuscolo; il giorno 1 si dice el uno.")
+  NEW-nocjk:      "El puente es el lunes ___ de noviembre.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "Todos los Santos es el ___ de noviembre.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "Las elecciones son el ___ 29 de noviembre.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk: b.bridge("Il comparativo: más…que, tan…como; bueno→mejor, malo→peor; mai dire más mejor.")
+  NEW-nocjk:      "La vivienda es ___ que hace un año. (cara)", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "La preocupación es ___ como en septiembre. (alta)", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "Un programa claro es ___ (bueno) que un titular.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk: c.bridge("es necesario que, para que e ojalá + congiuntivo; creo que + indicativo.")
+  NEW-nocjk:      "Es necesario que el precio ___ (bajar).", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "Publicamos la fuente para que todo ___ (ser) claro.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:      "Creo que la vivienda ___ (ser) el tema del 29-N.", instr="Completa", size=20.5, gap=10)
+  NEW-nocjk:     ("«El lunes 2 son fiesta.»", "→ «El lunes 2 es festivo.» El lunes es singular: es, no son.", "lunes è singolare: il verbo è es."),
+  NEW-nocjk:     ("«La vivienda es más mejor.»", "→ «La vivienda es mejor.» Mejor ya es comparativo: sin más.", "mejor è già un comparativo: niente más."),
+  NEW-nocjk:     ("«La gente votan el 29.»", "→ «La gente vota el 29.» Gente es singular, como un solo grupo.", "gente è singolare: verbo al singolare."),
+  NEW-nocjk:     ("«Creo que la vivienda sea el tema.»", "→ «Creo que la vivienda es el tema.» Creo que afirma: indicativo.", "creo que afferma: indicativo, es."),
+  NEW-nocjk: # altezza del riquadro = simulazione esatta del ciclo di disegno (correzione W43: simulazione voce per voce, non altezza media di riga)
+  NEW-nocjk: p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS · ERRORI TIPICI", 23, "sans", True, OLIVE)
+  NEW-nocjk: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("precampaña = precampagna: prima della campagna ufficiale.", "sans", False, 20, CW - 44)) * 29 + 22
+  NEW-nocjk: p.text(bx + 22, yy3 + 26, "LA PALABRA · LA PAROLA", 23, "sans", True, OLIVE)
+  NEW-nocjk: p.para(bx + 22, yy3 + 20, "precampaña = precampagna: prima della campagna ufficiale.", 20, "sans", False, GREY, CW - 44, 1.42)
+  OLD-nocjk: lt = "«¡Hola! Soy Ana, estudio español en Shanghái. El lunes 2 no tengo puente, pero el domingo veo el Atlético–Barça con mis amigos — ¡y antes, la NFL! ¡Gracias por el periódico!» — Ana （ejemplo, escrito por la redacción）"
+  NEW-nocjk: lt = "«¡Hola! Soy Ana, estudio español en Shanghái. El lunes 2 no tengo puente, pero el domingo veo el Atlético–Barça con mis amigos — ¡y antes, la NFL! ¡Gracias por el periódico!» — Ana (ejemplo, escrito por la redacción)"
+  NEW-nocjk: ldcn = "Nota della redazione: senza lettere vere né migliori testi di pagina 8, pubblichiamo questo esempio; la promessa passa al VOL.3. Scriveteci!"
+  NEW-nocjk: p.text(MX, fy + 24, "FRASES DE LA SEMANA · LE FRASI DELLA SETTIMANA (testuali, da questo numero)", 27, "sans", True, OLIVE)
+  NEW-nocjk:     ("«Las listas ya están presentadas: ahora los partidos escriben sus programas.»", "Le liste sono presentate: ora i partiti scrivono i programmi.", "Página 1"),
+  NEW-nocjk:     ("«El lunes 2 de noviembre es festivo en nueve comunidades — y día de trabajo en las demás.»", "Lunedì 2 novembre è festa in nove comunità e giorno di lavoro nelle altre.", "Página 2"),
+  NEW-nocjk:     ("«Tres fiestas, una misma noche de otoño.»", "Tre feste, una stessa notte d'autunno.", "Página 3"),
+  NEW-nocjk:     ("«El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del Barça.»", "Il Real vince 2–1 al Camp Nou: è la prima sconfitta in Liga del Barça.", "Página 4"),
+  NEW-nocjk:     ("«El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a Madrid.»", "Il Bernabéu cambia l'erba con la griglia: il football americano arriva a Madrid.", "Página 5"),
+  NEW-nocjk:     ("«La vivienda es el principal problema para el 55,7 % de los españoles.»", "La casa è il primo problema per il 55,7% degli spagnoli.", "Página 6"),
+  NEW-nocjk:     ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Un sondaggio è una foto con margine di errore, scattata in un giorno preciso.", "Página 6"),
+  NEW-nocjk:     ("«El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético–Barça a las 21:00.»", "Domenica 8, Madrid ha due appuntamenti: la NFL alle 15:30 e l'Atlético–Barça alle 21:00.", "Página 1"),
+  NEW-nocjk: p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA · LA PROSSIMA SETTIMANA (VOL.3)", 24, "sans", True, "#e8dfc8")
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/content8.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/content8.py
+  OLD-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core/svg")
+  NEW-nocjk: OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it/svg")
+  NEW-nocjk: p.band("EJERCICIOS Y RESPUESTAS · ESERCIZI E RISPOSTE", "La Lucerna", "Pagina 8 · La gran prueba de la semana + todas las respuestas")
+  NEW-nocjk:      "el lunes / es festivo / en Madrid → ___", instr="Costruisci", size=15.5, gap=1)
+  NEW-nocjk:      "el domingo / vemos / la NFL / en el Bernabéu → ___", instr="Costruisci", size=15.5, gap=1)
+  NEW-nocjk:      "el Atlético–Barça / empieza / a las nueve → ___", instr="Costruisci", size=15.5, gap=1)
+  NEW-nocjk:      "¿ / a qué hora / empieza / el partido / ? → ___", instr="Costruisci", size=15.5, gap=1)
+  NEW-nocjk:      "El lunes es festivo en nueve comunidades. → ___", instr="Traduci", size=15.5, gap=1)
+  NEW-nocjk:      "El domingo vemos la NFL y el Atlético–Barça. → ___", instr="Traduci", size=15.5, gap=1)
+  NEW-nocjk:      "Il Bernabéu ospita una partita di NFL. → ___", instr="Traduci", size=15.5, gap=1)
+  NEW-nocjk:      "Ogni grafico deve indicare la sua fonte. → ___", instr="Traduci", size=15.5, gap=1)
+  NEW-nocjk:             ["sondeo=sondaggio c", "muestra=campione d", "margen de error=margine di errore b", "junta electoral=commissione elettorale a"],
+  NEW-nocjk:             instr="Abbina le parole")
+  NEW-nocjk: f.bridge("Esercizio di scrittura (senza un'unica risposta); il testo modello (84 parole) è qui sotto.")
+  NEW-nocjk:      "«¿El lunes 2 es festivo en tu comunidad?» Escribe 80–100 palabras: dónde vives, tu plan del puente y tu domingo 8.", instr="Scrivi", size=15.5, gap=1)
+  NEW-nocjk: p.text(MX, 1302, "RESPUESTAS · LE RISPOSTE — ordinate per pagina: cerca il numero", 25, "sans", True, OLIVE)
+  NEW-nocjk: p.text(RIGHT, 1302, "Una nota in italiano per ogni risposta · ✓ = testo modello", 19.5, "sans", False, GREY, anchor="end")
+  OLD-nocjk:     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+  NEW-nocjk:     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.12, gap=2, split=False)
+  OLD-nocjk:         af.para(txt, 13.5, lh=1.16, gap=0.5, split=False)
+  NEW-nocjk:         af.para(txt, 13.2, lh=1.12, gap=0.5, split=False)
+
+diff -r '--exclude=__pycache__' '--exclude=assets' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-build/render.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-es-it-build/render.py
+  OLD-nocjk: """Render the ES core edition: svg/ -> cards/ PNG (1950x2700) -> print PDF -> web PDF.
+  NEW-nocjk: """Render the ES x IT edition: svg/ -> cards/ PNG (1950x2700) -> print PDF -> web PDF.
+  OLD-nocjk: BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core")
+  NEW-nocjk: BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-it")
+  OLD-nocjk: print_path = os.path.join(BASE, "La-Lucerna-VOL2.pdf")
+  NEW-nocjk: print_path = os.path.join(BASE, "La-Lucerna-VOL2-IT.pdf")
+  OLD-nocjk: web_path = os.path.join(BASE, "La-Lucerna-VOL2-web.pdf")
+  NEW-nocjk: web_path = os.path.join(BASE, "La-Lucerna-VOL2-IT-web.pdf")

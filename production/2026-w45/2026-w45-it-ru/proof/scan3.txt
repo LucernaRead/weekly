@@ -1,0 +1,132 @@
+
+### 8e badge ink width + clearance (PIL, edition P1)
+badge: 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ' ink=(392.953125, 578.75, 1557.046875, 604.5, 1164.09375) width=1164.09 ink_top=578.8 ink_bottom=604.5
+   neighbor y=522 ink_top=529.8 ink_bottom=554.5 "La settimana in cui l'Italia si copre: freddo, piogge e la p"
+   neighbor y=522 ink_top=531.0 ink_bottom=551.5 'Неделя первого холода · см. страницу 2'
+   neighbor y=606 ink_top=615.2 ink_bottom=632.0 'LA NOTIZIA · ГЛАВНАЯ НОВОСТЬ'
+   neighbor y=672 ink_top=686.2 ink_bottom=734.2 "Arriva il primo freddo: l'Italia si copre e si mette a tavol"
+   neighbor y=620 ink_top=631.2 ink_bottom=652.0 'LA SETTIMANA'
+   neighbor y=656 ink_top=667.2 ink_bottom=688.0 'GIORNO PER GIORNO'
+   neighbor y=686 ink_top=693.5 ink_bottom=713.0 'План недели · Giorno per giorno'
+ED P1 rect x=65.0 y=424.0 w=1820.0 h=118.0 fill=#2c2822
+CORE P1 rect x=65.0 y=424.0 w=1820.0 h=118.0 fill=#2c2822
+CORE P1 nodes y 540-640:
+   y=606 x=65 fs=22 'LA NOTIZIA · 头条'
+   y=620 x=1473 fs=27 'LA SETTIMANA'
+W43 whole-issue ITALIA VERA search:
+  W43 p1-prima: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p2-vita: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p3-cultura: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p4-sport: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p5-giovani: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p6-approfondimento: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p7-lingua: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+  W43 p8-valutazione: ITALIA VERA=0 GIORNALE SETTIMANALE=0
+Siblings badge slots:
+  it-de: y=574 x=975 fs=22 w=700 'ITALIENISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER'
+  it-en: y=92 x=975 fs=21 w=None 'OGNI SETTIMANA IN ITALIANO · THE ITALIAN ITALIANS ARE READING'
+  it-en: y=372 x=975 fs=19 w=None "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+
+### 5d P7 col3 ink bottom vs FRASI rule line
+ED P7 hline x1=65.0 x2=1885.0 y=1686.0 stroke=#b3a06a w=2
+   col3 y=1173.87 ink_bottom=1197.9 '«So che il freddo...» A. arrivi · B. arriva · C.'
+   col3 y=1189.56 ink_bottom=1219.8 'piace. Questa settimana vive a'
+   col3 y=1203.5949999999998 ink_bottom=1227.6 'arrivare'
+   col3 y=1220.09 ink_bottom=1250.6 'pagina 3, alla finale del Panettone.'
+   col3 y=1280.62 ink_bottom=1308.9 'assaggio = дегустация (стр. 3).'
+   col3 y=1354.5 ink_bottom=1381.5 'LETTERE DEI LETTORI'
+   col3 y=1401.5 ink_bottom=1430.2 '«Ciao! Sono Li, studio italiano a'
+   col3 y=1432.03 ink_bottom=1462.3 'Pechino. Lunedì metto il cappotto e'
+   col3 y=1462.56 ink_bottom=1493.1 'la sciarpa, sabato assaggio il'
+   col3 y=1493.09 ink_bottom=1523.3 'panettone — almeno in foto!» — Li'
+   col3 y=1523.62 ink_bottom=1553.9 '(esempio della redazione)'
+   col3 y=1584.1499999999999 ink_bottom=1611.9 'Пример редакции, а не настоящие'
+   col3 y=1612.55 ink_bottom=1640.5 'письма; лучшего текста со страницы 8'
+   col3 y=1640.95 ink_bottom=1669.0 'нет. Напишите нам — лучшие в VOL.3!'
+col3 max ink bottom (x>=989, y<1724) = 1669.0; stream col3 end claimed 1646.0
+all-col max ink bottom above FRASI header = 1669.0
+
+### 5e P8 keys ink bottom (stream claimed 2484, bottom 2552)
+   keys y=2476.120000000001 baseline ink_bottom=2494.6 ink_top=2480.4 '111. sia — bisogna che + сослагательное наклонение: sia'
+   keys y=2479.760000000001 baseline ink_bottom=2498.3 ink_top=2485.3 '35. torrone — torrone = нуга'
+   keys y=2504.440000000001 baseline ink_bottom=2522.9 ink_top=2508.7 '74. castagne — castagne arrosto = жареные каштаны (мн. ч.)'
+   keys y=2504.440000000001 baseline ink_bottom=2519.7 ink_top=2508.7 '112. B — so che + изъявительное наклонение: arriva'
+   keys y=2508.0800000000013 baseline ink_bottom=2526.6 ink_top=2512.8 '36. assaggio — assaggio = дегустация'
+   keys y=2532.760000000001 baseline ink_bottom=2551.3 ink_top=2537.0 '75. cosplay — cosplay = косплей-костюм'
+   keys y=2533.760000000001 baseline ink_bottom=2553.0 ink_top=2539.5 '— СТРАНИЦА 8 —'
+   keys y=2536.4000000000015 baseline ink_bottom=2554.9 ink_top=2540.7 '37. bancarella — bancarella = прилавок'
+P8 keys: max baseline=2536.4000000000015 max ink bottom=2554.9 (stream cursor 2484; footer rule 2580)
+
+### 5f R1-flag rechecks in final SVGs
+P1 parola note: y=1846.2999999999997 ink_bottom=1872.8 '«il primo freddo»: холод после мягкой осени.'
+P1 hline y=1864.0 x1=65 x2=1885
+P7 parola gloss: y=1280.62 ink_bottom=1308.9 ink_top=1287.4 'assaggio = дегустация (стр. 3).'
+P7 rect x=1451.0 y=1312.5 w=434.0 h=333.5 bottom=1646.0
+
+### 5g right-edge ADVANCE scan (band [40,1910], masthead exempt by font)
+p1-prima: ADVANCE right-edge flags=0 []
+p2-vita: ADVANCE right-edge flags=0 []
+p3-cultura: ADVANCE right-edge flags=0 []
+p4-sport: ADVANCE right-edge flags=0 []
+p5-giovani: ADVANCE right-edge flags=0 []
+p6-approfondimento: ADVANCE right-edge flags=0 []
+p7-lingua: ADVANCE right-edge flags=0 []
+p8-valutazione: ADVANCE right-edge flags=0 []
+
+### 5h frame rects + footer rule + same-baseline furniture overlaps
+p1-prima: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p1-prima: same-baseline overlaps=0
+p2-vita: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p2-vita: same-baseline overlaps=0
+p3-cultura: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p3-cultura: same-baseline overlaps=0
+p4-sport: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p4-sport: same-baseline overlaps=0
+p5-giovani: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p5-giovani: same-baseline overlaps=0
+p6-approfondimento: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p6-approfondimento: same-baseline overlaps=0
+p7-lingua: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p7-lingua: same-baseline overlaps=0
+p8-valutazione: big rects=[(0.0, 0.0, 1950.0, 2700.0), (28.0, 28.0, 1894.0, 2644.0), (40.0, 40.0, 1870.0, 2620.0)] footer-rule-2580-lines=1
+   p8-valutazione: same-baseline overlaps=0
+
+### 5i P6 chart label coverage (later rects vs label ink, threshold <30%)
+   label 'settimana a Roma. Il Documento' ink=(527.0,572.8)-(927.4,593.5) maxcov=0.0%
+   label 'Milano: la cultura non' ink=(1615.0,590.0)-(1843.7,607.3) maxcov=0.0%
+   label 'Panettone a Milano,' ink=(1615.0,715.2)-(1819.8,736.0) maxcov=0.0%
+   label 'Torino' ink=(87.0,1693.2)-(154.9,1709.5) maxcov=0.0%
+   label '3°' ink=(292.9,1694.5)-(311.3,1710.0) maxcov=25.8%
+   label 'Milano' ink=(87.0,1730.8)-(158.8,1747.5) maxcov=0.0%
+   label '4°' ink=(330.8,1732.5)-(349.2,1748.2) maxcov=27.0%
+   label 'Bologna' ink=(87.0,1768.8)-(170.4,1790.5) maxcov=3.0%
+   label '5°' ink=(376.4,1770.5)-(394.9,1786.0) maxcov=25.8%
+   label 'Roma' ink=(87.0,1808.5)-(146.0,1823.5) maxcov=0.0%
+   label '9°' ink=(488.0,1808.5)-(506.5,1824.0) maxcov=25.8%
+   label 'Napoli' ink=(87.0,1844.8)-(153.9,1866.5) maxcov=0.0%
+   label '12°' ink=(597.9,1846.5)-(626.0,1861.8) maxcov=0.0%
+   label 'La città più fredda del grafico è... A. Milano · B.' ink=(65.0,2181.7)-(477.0,2201.4) maxcov=0.0%
+   label 'Torino · C. Napoli' ink=(65.0,2208.0)-(219.1,2227.5) maxcov=0.0%
+   label 'La città più calda del grafico è... A. Napoli · B.' ink=(65.0,2285.9)-(462.3,2305.6) maxcov=0.0%
+   label 'Roma · C. Bologna' ink=(65.0,2312.2)-(225.5,2331.7) maxcov=0.0%
+   label 'La differenza tra Napoli (12°) e Roma (9°) è... A. 2°' ink=(65.0,2390.3)-(494.5,2409.8) maxcov=0.0%
+   label '· B. 3° · C. 4°' ink=(65.0,2417.7)-(167.7,2431.7) maxcov=0.0%
+   label 'Milano (4°) e Bologna (5°) insieme fanno... A. 9° ·' ink=(65.0,2494.5)-(487.1,2514.0) maxcov=0.0%
+P6 worst coverage = 27.0%
+
+### 12c chip level sequences (core vs edition, doc order)
+core chips=147 ed chips=147 sequences identical=True
+CORE: chip-paired numbers: count=150 unique=150 missing=[] dup=[]
+  chip-level node counts: {'A2': 45, 'B1': 69, 'A2→B1': 1, 'B2': 31, 'A2→B2': 1}
+  per-page chip nodes: {'p1-prima': 16, 'p2-vita': 15, 'p3-cultura': 18, 'p4-sport': 15, 'p5-giovani': 18, 'p6-approfondimento': 18, 'p7-lingua': 12, 'p8-valutazione': 35}
+ED: chip-paired numbers: count=150 unique=150 missing=[] dup=[]
+  chip-level node counts: {'A2': 45, 'B1': 69, 'A2→B1': 1, 'B2': 31, 'A2→B2': 1}
+  per-page chip nodes: {'p1-prima': 16, 'p2-vita': 15, 'p3-cultura': 18, 'p4-sport': 15, 'p5-giovani': 18, 'p6-approfondimento': 18, 'p7-lingua': 12, 'p8-valutazione': 35}
+
+### bytes: Cyrillic spot checks (codepoint-level)
+ED-P6-gloss: needle 'вероятность' present=True count=1
+   context codepoints: ['0x61', '0x72', '0x74', '0x22', '0x3e', '0x432', '0x435', '0x440', '0x43e', '0x44f']
+ED-P1-gloss: needle 'Пояснение' present=True count=1
+   context codepoints: ['0x61', '0x72', '0x74', '0x22', '0x3e', '0x41f', '0x43e', '0x44f', '0x441', '0x43d']
+ED-P6-gloss-src: needle 'вероятность' present=True count=3
+   context codepoints: ['0x74', '0xe0', '0x20', '0x3d', '0x20', '0x432', '0x435', '0x440', '0x43e', '0x44f']

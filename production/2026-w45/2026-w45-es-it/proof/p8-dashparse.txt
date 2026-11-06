@@ -1,0 +1,27 @@
+core answers parsed: 150 numbers 1..150 missing=[]
+ed   answers parsed: 150 numbers 1..150 missing=[]
+--- KEY DIFF #137 ---
+  CORE printed: '周一在九个自治区是假日。 — 对照原文'
+  CORE key     : '周一在九个自治区是假日。'
+  ED   printed: "Il lunedì è festivo in nove comunità. — confronta con l'originale"
+  ED   key     : 'Il lunedì è festivo in nove comunità.'
+  ED note tail : "confronta con l'originale"  ends-paren-group=False
+--- KEY DIFF #138 ---
+  CORE printed: '周日我们看 NFL 和马竞–巴萨。 — 对照原文'
+  CORE key     : '周日我们看 NFL 和马竞–巴萨。'
+  ED   printed: "La domenica vediamo la NFL e l'Atlético–Barça. — confronta con l'originale"
+  ED   key     : "La domenica vediamo la NFL e l'Atlético–Barça."
+  ED note tail : "confronta con l'originale"  ends-paren-group=False
+--- KEY DIFF #150 ---
+  CORE printed: '✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版'
+  CORE key     : '✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版'
+  ED   printed: '✓ Il modello è nella sezione H di questa pagina (84 parole) La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO Pagina 8 di 8'
+  ED   key     : '✓ Il modello è nella sezione H di questa pagina (84 parole) La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO Pagina 8 di 8'
+  ED note tail : ''  ends-paren-group=False
+TOTAL key diffs by independent dash-parse: [137, 138, 150]
+#139 CORE key='El Bernabéu acoge un partido de la NFL.'  ED key='El Bernabéu acoge un partido de la NFL.'  identical=True
+   ED printed: 'El Bernabéu acoge un partido de la NFL. — acoger = ospitare'
+#140 CORE key='Cada gráfico tiene que llevar su fuente.'  ED key='Cada gráfico tiene que llevar su fuente.'  identical=True
+   ED printed: 'Cada gráfico tiene que llevar su fuente. — tener que = dovere'
+#150 CORE key='✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版'  ED key='✓ Il modello è nella sezione H di questa pagina (84 parole) La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO Pagina 8 di 8'  identical=False
+   ED printed: '✓ Il modello è nella sezione H di questa pagina (84 parole) La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO Pagina 8 di 8'

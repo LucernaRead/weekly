@@ -1,0 +1,38 @@
+=== ADVANCE right-edge scan (edge=1885, frame=1910), core vs edition ===
+  --- core ---
+    p2-vida y=2304.0 adv=[1485.0,1897.2] 'd. o objeto que dá luz e se acende em'
+    p8-avaliacao y=1875.3800000000015 adv=[1451.0,1894.2] '134. O candidato confere o cartão no aplicativo. — 主语 +'
+    p8-avaliacao y=2039.340000000002 adv=[1451.0,1890.5] '139. O feriadão é de 31 de outubro a 2 de novembro. — f'
+    p8-avaliacao y=2084.6600000000017 adv=[1451.0,1888.8] '140. Quando você chegar, apresente o documento com foto'
+  --- edition ---
+    p2-vida y=2304.0 adv=[1485.0,1897.2] 'd. o objeto que dá luz e se acende em'
+    p8-avaliacao y=1875.3800000000015 adv=[1451.0,1894.2] '134. O candidato confere o cartão no aplicativo. — 主語 +'
+    p8-avaliacao y=2039.340000000002 adv=[1451.0,1890.5] '139. O feriadão é de 31 de outubro a 2 de novembro. — f'
+    p8-avaliacao y=2084.6600000000017 adv=[1451.0,1888.8] '140. Quando você chegar, apresente o documento com foto'
+=== max right INK per page (edition) + any ink beyond frame 1910 ===
+  p1-capa: max right ink=1885.1 over-frame=[]
+  p2-vida: max right ink=1897.0 over-frame=[]
+  p3-cultura: max right ink=1885.1 over-frame=[]
+  p4-esporte: max right ink=1885.1 over-frame=[]
+  p5-jovens: max right ink=1885.1 over-frame=[]
+  p6-aprofundamento: max right ink=1885.1 over-frame=[]
+  p7-lingua: max right ink=1885.1 over-frame=[]
+  p8-avaliacao: max right ink=1895.0 over-frame=[]
+=== same-baseline ink collision scan (edition) ===
+  same-baseline flags: 0
+=== P6 chart-label coverage, baseline-anchored ink vs later rects (edition + core) ===
+  core: max coverage: 0%
+  edition: max coverage: 0%
+=== P7 quotes vs preview box (top 2404) + garden box ===
+  quote-row y=2309.5 ink-bottom=2315.5 clearance-to-2404=88.5 :: «lembrar é um jeito de continuar perto»
+  quote-row y=2359.17 ink-bottom=2364.2 clearance-to-2404=39.8 :: 懷念是繼續親近的方式。 (Página 3)
+  quote-row y=2309.5 ink-bottom=2315.5 clearance-to-2404=88.5 :: «Confira o cartão, durma bem, chegue cedo»
+  quote-row y=2359.17 ink-bottom=2364.2 clearance-to-2404=39.8 :: 核對確認卡、睡好、早到。 (Página 2)
+  garden-area rect x=1451.0 y=1304.5 w=434.0 h=586.0 fill=#fdfaf0 bottom=1890.5
+  P7 rects with x=65 w=1820 (preview band):
+    y=2404.0 h=118.0 bottom=2522.0 fill=#2c2822
+  lone 。 ink box:
+    x=1473.0 y=1799.92 ink=(1473.0, 1787.9, 1493.0, 1799.9)
+  invitation rows ink boxes:
+    y=1837.6100000000001 ink=(1473.0, 1819.6, 1871.0, 1839.6) :: 請把你的來信寄給編輯部，VOL.3 就刊登你的
+    y=1865.3000000000002 ink=(1473.0, 1847.3, 1533.0, 1867.3) :: 來信！

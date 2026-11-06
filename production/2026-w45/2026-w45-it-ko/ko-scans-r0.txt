@@ -1,0 +1,42 @@
+=== 1. Han chars per page (gate 0) ===
+  p1-prima.svg: Han=0
+  p2-vita.svg: Han=0
+  p3-cultura.svg: Han=0
+  p4-sport.svg: Han=0
+  p5-giovani.svg: Han=0
+  p6-approfondimento.svg: Han=0
+  p7-lingua.svg: Han=0
+  p8-valutazione.svg: Han=0
+  TOTAL Han: 0
+=== 2. Korean orphan scan (window 10-45) ===
+  mid-word split candidates: 23
+  [ok(<3)] p1-prima.svg y 1402.6499999999999->1430.3249999999998 tail_syll=1 frag 내|릴 :: 'cadere la prima neve leggera (초설이 내' // '릴 수 있는 고도예요)'
+  [ok(<3)] p1-prima.svg y 1511.1749999999997->1538.8499999999997 tail_syll=1 frag 문|화 :: "Milano, dal 3 all'8 novembre (밀라노 문" // '화 포럼 50개 이상 행사예요)'
+  [ok(<3)] p1-prima.svg y 1728.2249999999995->1755.8999999999994 tail_syll=1 frag 11라운드예|요 :: 'settimana (이번 주말 세리에 A 11라운드예' // '요)'
+  [ok(<3)] p2-vita.svg y 1099.3->1129.0249999999999 tail_syll=1 frag 6면|을 :: '인쇄할 때 표결 결과는 아직 확인되지 않았어요. 6면' // '을 보세요.'
+  [ok(<3)] p2-vita.svg y 963.1799999999998->991.5799999999998 tail_syll=1 frag 장|갑 :: '첫 추위가 오면 무엇을 입어요: 외투, 목도리, 장' // '갑? 이탈리아어로 두 문장을 써서 편집부로 보'
+  [ok(<3)] p2-vita.svg y 991.5799999999998->1019.9799999999998 tail_syll=1 frag 보|내 :: '갑? 이탈리아어로 두 문장을 써서 편집부로 보' // '내 주세요.'
+  [ok(<3)] p3-cultura.svg y 674.95->704.6750000000001 tail_syll=1 frag 현장/복|원 :: 'bancarella 노점 · il cantiere 공사 현장/복' // '원 현장예요.'
+  [ok(<3)] p4-sport.svg y 268.225->297.95000000000005 tail_syll=2 frag 관|중석 :: 'presentazione 경기 전 소개 · gli spalti 관' // '중석 · la sera 저녁예요.'
+  [ok(<3)] p4-sport.svg y 842.06->870.4599999999999 tail_syll=1 frag 이탈리아어|로 :: '일요일 저녁에는 어떤 경기를 봐요? 이탈리아어' // '로 두 문장을 써서 보내 주세요.'
+  [ok(<3)] p4-sport.svg y 2225.5->2255.225 tail_syll=1 frag 일정|은 :: '괄호 안 단어의 비교급으로 빈칸을 채우세요 (일정' // '은 표를 보세요).'
+  [ok(<3)] p5-giovani.svg y 805.7999999999997->834.3599999999997 tail_syll=1 frag 금요|일 :: '3. Venerdì: si prepara il weekend (금요' // '일 주말 준비)'
+  [ok(<3)] p5-giovani.svg y 1252.84->1281.24 tail_syll=1 frag 음|식 :: '루카 이후에는 어디로 가요: 문화 포럼, 영화, 음' // '식 축제? 두 문장을 써서 보내 주세요.'
+  [ok(<3)] p5-giovani.svg y 2447.725->2477.45 tail_syll=1 frag 복수형으|로 :: '상자 안의 단어로 빈칸을 채우세요. 주의: 복수형으' // '로 바꿔야 하는 단어도 있어요.'
+  [GATE>=3] p6-approfondimento.svg y 1126.5->1156.225 tail_syll=3 frag 않|았어요 :: '인쇄할 때 10월 28일 표결 결과는 아직 확인되지 않' // '았어요: 예상 날짜, 쟁점, DPB 숫자만 쓰고 결과는'
+  [ok(<3)] p6-approfondimento.svg y 1263.175->1292.8999999999999 tail_syll=1 frag 평균|값 :: '해설 — la probabilità 확률 · la media 평균' // '값 · il modello 모형/예보 모형 · il'
+  [ok(<3)] p6-approfondimento.svg y 1322.6249999999998->1352.3499999999997 tail_syll=2 frag 업데이트|예요 :: 'bollettino 공보/예보 · aggiornare 업데이트' // '예요.'
+  [ok(<3)] p7-lingua.svg y 594.9399999999999->624.665 tail_syll=2 frag 추워|요'는 :: "날씨는 무인칭 동사 (3인칭 단수)를 써요. '나는 추워" // "요'는 ho freddo, '밖이 추워요'는 fa freddo예요."
+  [ok(<3)] p7-lingua.svg y 627.62->657.345 tail_syll=1 frag 같|은 :: '과거 이야기는 근과거를 써요: arrivare, andare 같' // '은 동사는 essere를 쓰고 분사는 성과 수에 맞춰요.'
+  [ok(<3)] p7-lingua.svg y 657.345->687.07 tail_syll=1 frag 뒤에|는 :: '뒤에는 접속법을 써요. so che, scrivono che 뒤에' // '는 직설법을 써요.'
+  [ok(<3)] p7-lingua.svg y 995.4399999999999->1021.9599999999999 tail_syll=2 frag 여성형|으로 :: 'gente는 단수예요. 동사와 형용사는 단수 여성형' // '으로 써요.'
+  [ok(<3)] p7-lingua.svg y 1310.12->1338.52 tail_syll=1 frag 만나|요 :: 'assaggio = 맛보기예요. 이번 주 3면에서 만나' // '요: 파네토네 결승에서 관객이 무료로 맛볼 수'
+  [ok(<3)] p7-lingua.svg y 1754.8500000000001->1783.2500000000002 tail_syll=2 frag 작|문을 :: '보내 주세요! VOL.3에 실제 편지와 8면 우수 작' // '문을 실어요!'
+  [ok(<3)] p8-valutazione.svg y 546.8750000000001->576.6000000000001 tail_syll=1 frag 아니에|요 :: '쓰기 문제예요 (정답이 하나만 있는 문제는 아니에' // '요). 모범 답안 (81단어)은 아래에 있어요.'
+  line-start orphan punctuation: 0
+=== 3. Right-edge ADVANCE scan (band [40,1910]) ===
+  EDGE flags: 0
+=== 4. Same-baseline collisions (P1 y=92, footers y=2624) ===
+  BASE flags: 0
+=== 5. P6 chart-label coverage (baseline-anchored ink, gate <30%) ===
+  MAX chart-label coverage: 0.0% (gate <30%)

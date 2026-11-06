@@ -1,0 +1,160 @@
+=== #2 ===
+ core method=paren key='portões — portões = 大门'
+ core seg='portões — portões = 大门（考场大门）'
+ ru   method=paren key='portões — portões = ворота'
+ ru   seg='portões — portões = ворота (ворота экзаменационного центра)'
+ REG core key='portões' note='portões = 大门（考场大门）'
+ REG ru   key='portões' note='portões = ворота (ворота экзаменационного центра)'
+ seg-contains-regkey core=True ru=True
+=== #4 ===
+ core method=paren key='13h30 — 13h30 开考'
+ core seg='13h30 — 13h30 开考（巴西利亚时间）'
+ ru   method=paren key='13h30 — 13h30: экзамен начинается'
+ ru   seg='13h30 — 13h30: экзамен начинается (время Бразилиа)'
+ REG core key='13h30' note='13h30 开考（巴西利亚时间）'
+ REG ru   key='13h30' note='13h30: экзамен начинается (время Бразилиа)'
+ seg-contains-regkey core=True ru=True
+=== #25 ===
+ core method=dash key='c'
+ core seg='c — feriadão=连着周末的假期 c'
+ ru   method=paren key='c — feriadão = праздник, слившийся с выходными'
+ ru   seg='c — feriadão = праздник, слившийся с выходными (c)'
+ REG core key='c' note='feriadão=连着周末的假期 c'
+ REG ru   key='c' note='feriadão = праздник, слившийся с выходными (c)'
+ seg-contains-regkey core=True ru=True
+=== #26 ===
+ core method=dash key='b'
+ core seg='b — cemitério=墓碑所在的地方 b'
+ ru   method=paren key='b — cemitério = место, где стоят надгробия'
+ ru   seg='b — cemitério = место, где стоят надгробия (b)'
+ REG core key='b' note='cemitério=墓碑所在的地方 b'
+ REG ru   key='b' note='cemitério = место, где стоят надгробия (b)'
+ seg-contains-regkey core=True ru=True
+=== #27 ===
+ core method=dash key='d'
+ core seg='d — vela=点亮纪念的物品 d'
+ ru   method=paren key='d — vela = то, что зажигают в память'
+ ru   seg='d — vela = то, что зажигают в память (d)'
+ REG core key='d' note='vela=点亮纪念的物品 d'
+ REG ru   key='d' note='vela = то, что зажигают в память (d)'
+ seg-contains-regkey core=True ru=True
+=== #28 ===
+ core method=dash key='a'
+ core seg='a — crisântemo=亡灵节带去的花 a'
+ ru   method=paren key='a — crisântemo = цветок, который несут на Финадос'
+ ru   seg='a — crisântemo = цветок, который несут на Финадос (a)'
+ REG core key='a' note='crisântemo=亡灵节带去的花 a'
+ REG ru   key='a' note='crisântemo = цветок, который несут на Финадос (a)'
+ seg-contains-regkey core=True ru=True
+=== #52 ===
+ core method=dash key='b'
+ core seg='b — finalista=进决赛的球队 b'
+ ru   method=paren key='b — finalista = команда, вышедшая в финал'
+ ru   seg='b — finalista = команда, вышедшая в финал (b)'
+ REG core key='b' note='finalista=进决赛的球队 b'
+ REG ru   key='b' note='finalista = команда, вышедшая в финал (b)'
+ seg-contains-regkey core=True ru=True
+=== #53 ===
+ core method=dash key='c'
+ core seg='c — ida=对决的第一场 c'
+ ru   method=paren key='c — ida = первый матч противостояния'
+ ru   seg='c — ida = первый матч противостояния (c)'
+ REG core key='c' note='ida=对决的第一场 c'
+ REG ru   key='c' note='ida = первый матч противостояния (c)'
+ seg-contains-regkey core=True ru=True
+=== #54 ===
+ core method=dash key='a'
+ core seg='a — volta=对决的第二场 a'
+ ru   method=paren key='a — volta = второй матч противостояния'
+ ru   seg='a — volta = второй матч противостояния (a)'
+ REG core key='a' note='volta=对决的第二场 a'
+ REG ru   key='a' note='volta = второй матч противостояния (a)'
+ seg-contains-regkey core=True ru=True
+=== #55 ===
+ core method=dash key='d'
+ core seg='d — rodada=一轮比赛 d'
+ ru   method=paren key='d — rodada = тур матчей'
+ ru   seg='d — rodada = тур матчей (d)'
+ REG core key='d' note='rodada=一轮比赛 d'
+ REG ru   key='d' note='rodada = тур матчей (d)'
+ seg-contains-regkey core=True ru=True
+=== #101 ===
+ core method=paren key='confiro — conferir：eu → confiro'
+ core seg='confiro — conferir：eu → confiro（不规则）'
+ ru   method=paren key='confiro — conferir: eu → confiro'
+ ru   seg='confiro — conferir: eu → confiro (неправильная форма)'
+ REG core key='confiro' note='conferir：eu → confiro（不规则）'
+ REG ru   key='confiro' note='conferir: eu → confiro (неправильная форма)'
+ seg-contains-regkey core=True ru=True
+=== #137 ===
+ core method=dash key='11 月 8 日周日是高考的第一天。'
+ core seg='11 月 8 日周日是高考的第一天。 — 对照第 6 版标题'
+ ru   method=dash key='Воскресенье, 8 ноября,'
+ ru   seg='Воскресенье, 8 ноября, — первый день Enem. — См. заголовок страницы 6'
+ REG core key='11 月 8 日周日是高考的第一天。' note='对照第 6 版标题'
+ REG ru   key='Воскресенье, 8 ноября, — первый день Enem.' note='См. заголовок страницы 6'
+ seg-contains-regkey core=True ru=True
+=== #138 ===
+ core method=dash key='周日前核对确认卡。'
+ core seg='周日前核对确认卡。 — Confira = 请核对'
+ ru   method=dash key='Проверьте карточку подтверждения до воскресенья.'
+ ru   seg='Проверьте карточку подтверждения до воскресенья. — Confira = проверьте'
+ REG core key='周日前核对确认卡。' note='Confira = 请核对'
+ REG ru   key='Проверьте карточку подтверждения до воскресенья.' note='Confira = проверьте'
+ seg-contains-regkey core=True ru=True
+=== #141 ===
+ core method=dash key='b'
+ core seg='b — feriadão=连着周末的假期 b'
+ ru   method=paren key='b — feriadão = праздник, слившийся с выходными'
+ ru   seg='b — feriadão = праздник, слившийся с выходными (b)'
+ REG core key='b' note='feriadão=连着周末的假期 b'
+ REG ru   key='b' note='feriadão = праздник, слившийся с выходными (b)'
+ seg-contains-regkey core=True ru=True
+=== #142 ===
+ core method=dash key='d'
+ core seg='d — portão=考场入口 d'
+ ru   method=paren key='d — portão = вход на место экзамена'
+ ru   seg='d — portão = вход на место экзамена (d)'
+ REG core key='d' note='portão=考场入口 d'
+ REG ru   key='d' note='portão = вход на место экзамена (d)'
+ seg-contains-regkey core=True ru=True
+=== #143 ===
+ core method=dash key='a'
+ core seg='a — reta final=考前最后一周 a'
+ ru   method=paren key='a — reta final = последняя неделя перед экзаменом'
+ ru   seg='a — reta final = последняя неделя перед экзаменом (a)'
+ REG core key='a' note='reta final=考前最后一周 a'
+ REG ru   key='a' note='reta final = последняя неделя перед экзаменом (a)'
+ seg-contains-regkey core=True ru=True
+=== #144 ===
+ core method=dash key='c'
+ core seg='c — segunda chamada=关门后的再入场（高考没有） c'
+ ru   method=paren key='c — segunda chamada = повторный вход после закрытия (в Enem его нет)'
+ ru   seg='c — segunda chamada = повторный вход после закрытия (в Enem его нет) (c)'
+ REG core key='c' note='segunda chamada=关门后的再入场（高考没有） c'
+ REG ru   key='c' note='segunda chamada = повторный вход после закрытия (в Enem его нет) (c)'
+ seg-contains-regkey core=True ru=True
+=== #146 ===
+ core method=paren key='A — seção = 考场分区'
+ core seg='A — seção = 考场分区（房间）'
+ ru   method=paren key='A — seção = экзаменационный сектор'
+ ru   seg='A — seção = экзаменационный сектор (аудитория)'
+ REG core key='A' note='seção = 考场分区（房间）'
+ REG ru   key='A' note='seção = экзаменационный сектор (аудитория)'
+ seg-contains-regkey core=True ru=True
+=== #150 ===
+ core method=check key='✓'
+ core seg='✓ 范文见本版 H 区（93 词）'
+ ru   method=check key='✓'
+ ru   seg='✓ Образец — в разделе H этой страницы (93 слова)'
+ REG core key='（开放题，范文如下）' note='范文见本版 H 区（93 词）'
+ REG ru   key='(открытое задание — образец ниже)' note='Образец — в разделе H этой страницы (93 слова)'
+ seg-contains-regkey core=False ru=False
+=== #86 ===
+ core method=dash key='B'
+ core seg='B — 60 + 30 + 330 = 420'
+ ru   method=dash key='B'
+ ru   seg='B — 60 + 30 + 330 = 420'
+ REG core key='B' note='60 + 30 + 330 = 420'
+ REG ru   key='B' note='60 + 30 + 330 = 420'
+ seg-contains-regkey core=True ru=True

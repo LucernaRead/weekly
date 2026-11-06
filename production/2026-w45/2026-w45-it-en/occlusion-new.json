@@ -1,0 +1,62 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-en/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "mild autumn.",
+   "box": [
+    1451.0,
+    1856.7,
+    1570.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "This week's diary · Cosa succede, giorno per giorno",
+   "box": [
+    1473.0,
+    670.8,
+    1934.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1934.8 > border 1885.0",
+   "by": "rect@102"
+  }
+ ],
+ "flag_count": 2,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "mild autumn.",
+   "box": [
+    1451.0,
+    1856.7,
+    1570.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "This week's diary · Cosa succede, giorno per giorno",
+   "box": [
+    1473.0,
+    670.8,
+    1934.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1934.8 > border 1885.0",
+   "by": "rect@102"
+  }
+ ],
+ "new_flag_count": 2
+}

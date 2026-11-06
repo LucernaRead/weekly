@@ -1,0 +1,146 @@
+--- CORE P7 FRASI region (nodes with y in 1686..2580, x col3 1473+)
+   (65.0,1724.0) 'FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）'
+   (65.0,1787.0) '«arriva il primo freddo vero della stagione»'
+   (65.0,1836.67) '第一场真正的寒冷到来了。 (Pagina 1)'
+   (65.0,1945.0) '«Non è una certezza, è una probabilità»'
+   (65.0,1994.67) '这不是确定性，而是概率。 (Pagina 1)'
+   (65.0,2103.0) '«il 2 novembre è la Commemorazione dei defunti»'
+   (65.0,2152.67) '11 月 2 日是追思日。 (Pagina 2)'
+   (65.0,2261.0) '«Fa freddo, copriti bene!»'
+   (65.0,2310.67) '天冷，穿暖和点！ (Pagina 2)'
+   (989.0,1787.0) '«il pubblico può assaggiare gratis»'
+   (989.0,1836.67) '观众可以免费品尝。 (Pagina 3)'
+   (989.0,1945.0) '«il calcio non si ferma per il primo freddo»'
+   (989.0,1994.67) '足球不会因为第一场寒冷而停下。 (Pagina 4)'
+   (989.0,2103.0) '«la cultura continua»'
+   (989.0,2152.67) '文化继续。 (Pagina 5)'
+   (989.0,2261.0) '«Una probabilità alta non è una certezza»'
+   (989.0,2310.67) '高概率不等于确定性。 (Pagina 6)'
+   (93.0,2448.0) 'LA PROSSIMA SETTIMANA · 下期预告 (VOL.3)'
+   (93.0,2488.0) 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   (93.0,2516.56) 'pagina 8. A lunedì!'
+   (65.0,2624.0) 'La Lucerna · 意大利语周报 VOL.2 · LUCERNA ITALIAN WEEKLY'
+   (1885.0,2624.0) '第 7 版 / 共 8 版'
+--- CORE Italian quote nodes on P7 + count in all 8 pages
+   '«Io ho freddo» vuol dire... A. fuori fa' count=1
+   '«So che il freddo...» A. arrivi · B. arriva · C.' count=1
+   '«Fa freddi.»' count=1
+   '«Ho nevicato ieri.»' count=1
+   '«Pioverà di sicuro.»' count=1
+   '«La gente sono infreddoliti.»' count=1
+   "« l'assaggio » è la prova di un cibo:" count=1
+   '«Ciao! Sono Li, studio italiano a' count=1
+   '«arriva il primo freddo vero della stagione»' count=1
+   '«Non è una certezza, è una probabilità»' count=1
+   '«il 2 novembre è la Commemorazione dei defunti»' count=1
+   '«Fa freddo, copriti bene!»' count=2
+   '«il pubblico può assaggiare gratis»' count=1
+   '«il calcio non si ferma per il primo freddo»' count=1
+   '«la cultura continua»' count=1
+   '«Una probabilità alta non è una certezza»' count=1
+--- CORE (Pagina sequence in P7 node order): ['(Pagina 1)', '(Pagina 1)', '(Pagina 2)', '(Pagina 2)', '(Pagina 3)', '(Pagina 4)', '(Pagina 5)', '(Pagina 6)']
+--- ED P7 FRASI region (nodes with y in 1686..2580, x col3 1473+)
+   (65.0,1724.0) 'FRASI DELLA SETTIMANA · SÄTZE DER WOCHE (wörtlich aus dieser Ausgabe)'
+   (65.0,1787.0) '«arriva il primo freddo vero della stagione»'
+   (65.0,1836.67) 'Die erste wirkliche Kälte der Saison ist da. (Pagina 1)'
+   (65.0,1945.0) '«Non è una certezza, è una probabilità»'
+   (65.0,1994.67) 'Das ist keine Gewissheit, sondern eine Wahrscheinlichkeit. (Pagina 1)'
+   (65.0,2103.0) '«il 2 novembre è la Commemorazione dei defunti»'
+   (65.0,2152.67) 'Der 2. November ist Allerseelen. (Pagina 2)'
+   (65.0,2261.0) '«Fa freddo, copriti bene!»'
+   (65.0,2310.67) 'Es ist kalt, zieh dich warm an! (Pagina 2)'
+   (989.0,1787.0) '«il pubblico può assaggiare gratis»'
+   (989.0,1836.67) 'Das Publikum darf gratis kosten. (Pagina 3)'
+   (989.0,1945.0) '«il calcio non si ferma per il primo freddo»'
+   (989.0,1994.67) 'Der Fußball stoppt nicht wegen der ersten Kälte. (Pagina 4)'
+   (989.0,2103.0) '«la cultura continua»'
+   (989.0,2152.67) 'Die Kultur geht weiter. (Pagina 5)'
+   (989.0,2261.0) '«Una probabilità alta non è una certezza»'
+   (989.0,2310.67) 'Eine hohe Wahrscheinlichkeit ist keine Gewissheit. (Pagina 6)'
+   (93.0,2448.0) 'LA PROSSIMA SETTIMANA · NÄCHSTE WOCHE (VOL.3)'
+   (93.0,2488.0) 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   (93.0,2516.56) 'pagina 8. A lunedì!'
+   (65.0,2624.0) 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'
+   (1885.0,2624.0) 'Seite 7 von 8'
+--- ED Italian quote nodes on P7 + count in all 8 pages
+   '«Io ho freddo» vuol dire... A. fuori fa' count=1
+   '«So che il freddo...» A. arrivi · B. arriva · C.' count=1
+   '«Fa freddi.»' count=1
+   '«Ho nevicato ieri.»' count=1
+   '«Pioverà di sicuro.»' count=1
+   '«La gente sono infreddoliti.»' count=1
+   "« l'assaggio » è la prova di un cibo:" count=1
+   '«Ciao! Sono Li, studio italiano a' count=1
+   '«arriva il primo freddo vero della stagione»' count=1
+   '«Non è una certezza, è una probabilità»' count=1
+   '«il 2 novembre è la Commemorazione dei defunti»' count=1
+   '«Fa freddo, copriti bene!»' count=2
+   '«il pubblico può assaggiare gratis»' count=1
+   '«il calcio non si ferma per il primo freddo»' count=1
+   '«la cultura continua»' count=1
+   '«Una probabilità alta non è una certezza»' count=1
+--- ED (Pagina sequence in P7 node order): ['(Pagina 1)', '(Pagina 1)', '(Pagina 2)', '(Pagina 2)', '(Pagina 3)', '(Pagina 4)', '(Pagina 5)', '(Pagina 6)']
+--- CORE P7 LETTERE region
+   (1473.0,1381.5) 'LETTERE DEI LETTORI'
+   (1473.0,1428.5) '«Ciao! Sono Li, studio italiano a'
+   (1473.0,1459.03) 'Pechino. Lunedì metto il cappotto e'
+   (1473.0,1489.56) 'la sciarpa, sabato assaggio il'
+   (1473.0,1520.09) 'panettone — almeno in foto!» — Li'
+   (1473.0,1550.62) '(esempio della redazione)'
+   (1473.0,1611.1499999999999) '这是编辑部示例信，非真实来信。来信请寄'
+   (1473.0,1639.55) '编辑部，VOL.3 刊登真实来信与第 8 版最佳'
+   (1473.0,1667.95) '作文！'
+   (65.0,1724.0) 'FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）'
+   (65.0,1787.0) '«arriva il primo freddo vero della stagione»'
+   (65.0,1836.67) '第一场真正的寒冷到来了。 (Pagina 1)'
+   (65.0,1945.0) '«Non è una certezza, è una probabilità»'
+   (65.0,1994.67) '这不是确定性，而是概率。 (Pagina 1)'
+   (65.0,2103.0) '«il 2 novembre è la Commemorazione dei defunti»'
+   (65.0,2152.67) '11 月 2 日是追思日。 (Pagina 2)'
+   (65.0,2261.0) '«Fa freddo, copriti bene!»'
+   (65.0,2310.67) '天冷，穿暖和点！ (Pagina 2)'
+   (989.0,1787.0) '«il pubblico può assaggiare gratis»'
+   (989.0,1836.67) '观众可以免费品尝。 (Pagina 3)'
+   (989.0,1945.0) '«il calcio non si ferma per il primo freddo»'
+   (989.0,1994.67) '足球不会因为第一场寒冷而停下。 (Pagina 4)'
+   (989.0,2103.0) '«la cultura continua»'
+   (989.0,2152.67) '文化继续。 (Pagina 5)'
+   (989.0,2261.0) '«Una probabilità alta non è una certezza»'
+   (989.0,2310.67) '高概率不等于确定性。 (Pagina 6)'
+   (93.0,2448.0) 'LA PROSSIMA SETTIMANA · 下期预告 (VOL.3)'
+   (93.0,2488.0) 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   (93.0,2516.56) 'pagina 8. A lunedì!'
+   (65.0,2624.0) 'La Lucerna · 意大利语周报 VOL.2 · LUCERNA ITALIAN WEEKLY'
+   (1885.0,2624.0) '第 7 版 / 共 8 版'
+--- ED P7 LETTERE region
+   (1473.0,1381.5) 'LETTERE DEI LETTORI'
+   (1473.0,1428.5) '«Ciao! Sono Li, studio italiano a'
+   (1473.0,1459.03) 'Pechino. Lunedì metto il cappotto e'
+   (1473.0,1489.56) 'la sciarpa, sabato assaggio il'
+   (1473.0,1520.09) 'panettone — almeno in foto!» — Li'
+   (1473.0,1550.62) '(esempio della redazione)'
+   (1473.0,1611.1499999999999) 'Redaktionsbeispiel, keine Leserpost, kein'
+   (1473.0,1639.55) 'bester Seite-8-Text. Schreiben Sie uns —'
+   (1473.0,1667.95) 'die besten erscheinen in VOL.3!'
+   (65.0,1724.0) 'FRASI DELLA SETTIMANA · SÄTZE DER WOCHE (wörtlich aus dieser Ausgabe)'
+   (65.0,1787.0) '«arriva il primo freddo vero della stagione»'
+   (65.0,1836.67) 'Die erste wirkliche Kälte der Saison ist da. (Pagina 1)'
+   (65.0,1945.0) '«Non è una certezza, è una probabilità»'
+   (65.0,1994.67) 'Das ist keine Gewissheit, sondern eine Wahrscheinlichkeit. (Pagina 1)'
+   (65.0,2103.0) '«il 2 novembre è la Commemorazione dei defunti»'
+   (65.0,2152.67) 'Der 2. November ist Allerseelen. (Pagina 2)'
+   (65.0,2261.0) '«Fa freddo, copriti bene!»'
+   (65.0,2310.67) 'Es ist kalt, zieh dich warm an! (Pagina 2)'
+   (989.0,1787.0) '«il pubblico può assaggiare gratis»'
+   (989.0,1836.67) 'Das Publikum darf gratis kosten. (Pagina 3)'
+   (989.0,1945.0) '«il calcio non si ferma per il primo freddo»'
+   (989.0,1994.67) 'Der Fußball stoppt nicht wegen der ersten Kälte. (Pagina 4)'
+   (989.0,2103.0) '«la cultura continua»'
+   (989.0,2152.67) 'Die Kultur geht weiter. (Pagina 5)'
+   (989.0,2261.0) '«Una probabilità alta non è una certezza»'
+   (989.0,2310.67) 'Eine hohe Wahrscheinlichkeit ist keine Gewissheit. (Pagina 6)'
+   (93.0,2448.0) 'LA PROSSIMA SETTIMANA · NÄCHSTE WOCHE (VOL.3)'
+   (93.0,2488.0) 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   (93.0,2516.56) 'pagina 8. A lunedì!'
+   (65.0,2624.0) 'La Lucerna · ITALIENISCHE WOCHENZEITUNG VOL.2 · TEXT AUF ITALIENISCH · ERKLÄRUNGEN AUF DEUTSCH'
+   (1885.0,2624.0) 'Seite 7 von 8'

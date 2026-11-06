@@ -1,0 +1,24 @@
+== 1. RIGHT-EDGE (ADVANCE) frame band [40,1910], outer frame 28 ==
+  RIGHTEDGE flags: 0
+== 2. SAME-BASELINE furniture bands (P1 top y=92, footers y=2624, P1 band y=478/522) ==
+  ROW flags: 0
+== 3. P1 top-band gaps ==
+  [65.0,392.3] 'VOL. 2 · SECONDA EDIZIONE'
+  [590.9,1359.1] 'OGNI SETTIMANA IN ITALIANO · CADA SEMANA · EL ITALIANO QUE L'
+  [1450.6,1885.0] "SETTIMANA DAL 2 ALL'8 NOVEMBRE 2026"
+  gap 198.6
+  gap 91.5
+== 4. P7 FRASI rule vs col3 ink bottom ==
+  rect x=1451.0 y=1345.5 w=434.0 h=333.5 fill=#fdfaf0
+  line y=1686.0 x 65.0..1885.0
+  max ink bottom (baseline<1724): 1680.0 :: (1673.95, 'mejores salen en VOL.3.', 20.0)
+  FRASI heading y=1724; rule line to compare above
+== 5. P8 answer bottom ==
+  max answer-region ink bottom: 2630.0 :: (2624.0, 'La Lucerna · SEMANARIO ITALIANO VOL.2 · TEXTO EN ITALIANO · EXPLICACIO', 20.0)
+  footer baseline 2624; footer zone starts 2580
+== 6. P6 chart labels vs later olive bars (baseline-anchored ink, ls) ==
+  max chart-label coverage: 0.0% (threshold <30%) worst=None
+== 7. Frame-pressure spot checks: text ink vs outer frame ==
+  P1 parola note: [('1451', '1846.2999999999997', '«il primo freddo»: el primer frío serio.')]
+  P2 box title: [('545', '1204.75', 'FRASE PER RICORDARE · LA CLAVE')]
+  P7 parola last lines: [('1473', '1309.02', 'final del Panettone se prueba gratis.')]

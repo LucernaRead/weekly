@@ -1,0 +1,81 @@
+== per-page CJK char counts (independent recount) ==
+p1-prima: core=178 edition=242 added_distinct=92 added_total=202 removed_total=138
+   added sample: {'毎': 1, '週': 8, '号': 1, 'イ': 8, 'タ': 6, 'リ': 8, 'ア': 8, 'が': 3, '読': 4, 'ん': 2, 'で': 3, 'い': 2}
+p2-vita: core=167 edition=251 added_distinct=93 added_total=213 removed_total=129
+   added sample: {'と': 2, '死': 2, '者': 2, 'の': 5, '日': 1, '発': 1, '行': 1, '時': 1, '点': 1, 'で': 6, '投': 1, '票': 1}
+p3-cultura: core=156 edition=244 added_distinct=89 added_total=213 removed_total=125
+   added sample: {'文': 5, 'ス': 1, 'イ': 3, 'ー': 10, 'ツ': 1, 'と': 2, '美': 1, '術': 1, '館': 1, '解': 2, '説': 2, 'パ': 2}
+p4-sport: core=134 edition=213 added_distinct=83 added_total=187 removed_total=108
+   added sample: {'ス': 1, 'ポ': 1, 'ー': 8, 'ツ': 1, 'セ': 1, 'リ': 4, 'エ': 1, 'と': 2, '州': 1, '戦': 1, '解': 2, '説': 2}
+p5-giovani: core=186 edition=275 added_distinct=111 added_total=241 removed_total=152
+   added sample: {'ル': 3, 'ッ': 2, 'カ': 2, 'の': 9, '後': 2, 'で': 6, '火': 1, '曜': 6, 'ミ': 2, 'ラ': 4, 'ノ': 2, '文': 1}
+p6-approfondimento: core=139 edition=208 added_distinct=75 added_total=166 removed_total=97
+   added sample: {'掘': 1, 'り': 1, '気': 2, '予': 4, '報': 3, 'の': 10, '読': 1, 'み': 2, '発': 1, '行': 1, '時': 1, '点': 1}
+p7-lingua: core=281 edition=387 added_distinct=122 added_total=321 removed_total=215
+   added sample: {'言': 1, '語': 5, 'フ': 1, 'ォ': 1, 'ー': 7, 'カ': 2, 'ス': 1, 'つ': 2, 'の': 19, 'レ': 1, 'ベ': 1, 'ル': 1}
+p8-valutazione: core=966 edition=1355 added_distinct=216 added_total=1140 removed_total=751
+   added sample: {'習': 2, 'と': 8, 'え': 2, 'ペ': 13, 'ー': 53, 'ジ': 13, '文': 3, 'を': 6, '作': 3, 'る': 11, '日': 5, '本': 7}
+
+== Latin word multiset diff (CJK stripped, Latin tokens) ==
+p1-prima: core-only tokens {'IN': 1, 'ITALIANO': 1, 'IL': 1, 'GIORNALE': 1, 'SETTIMANALE': 1, 'PER': 1, 'IMPARARE': 1, "L'ITALIA": 1, 'VERA': 1, "DALL'ITALIA": 1, 'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {'A': 1, 'freddo': 1, 'il': 1, 'primo': 1}
+p2-vita: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {}
+p3-cultura: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {}
+p4-sport: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {'A': 1}
+p5-giovani: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {'A': 1}
+p6-approfondimento: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {}
+p7-lingua: core-only tokens {'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {'VOL': 1}
+p8-valutazione: core-only tokens {'PAGINA': 8, 'LUCERNA': 1, 'ITALIAN': 1, 'WEEKLY': 1} | edition-only tokens {'A': 4}
+
+== bridge term + escape residue + U+FFFD ==
+p1-prima.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p2-vita.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p3-cultura.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p4-sport.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p5-giovani.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p6-approfondimento.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p7-lingua.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p8-valutazione.svg core 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p1-prima.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p2-vita.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p3-cultura.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p4-sport.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p5-giovani.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p6-approfondimento.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p7-lingua.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+p8-valutazione.svg edition 桥接: 0 backslash: 0 l\\'Europa: 0 U+FFFD: 0 double-backslash: 0
+WEEKLY-KIT.md 桥接: 0 backslash: 3
+ABSTRACT.txt 桥接: 0 backslash: 0
+
+== line-start orphans (independent scan, builder NO_START set + ASCII) ==
+p1-prima: stripped-orphans=0 raw-orphans=0 []
+p2-vita: stripped-orphans=0 raw-orphans=0 []
+p3-cultura: stripped-orphans=0 raw-orphans=0 []
+p4-sport: stripped-orphans=0 raw-orphans=0 []
+p5-giovani: stripped-orphans=0 raw-orphans=0 []
+p6-approfondimento: stripped-orphans=0 raw-orphans=0 []
+p7-lingua: stripped-orphans=0 raw-orphans=0 []
+p8-valutazione: stripped-orphans=0 raw-orphans=0 []
+TOTAL orphans: 0
+
+== simplified-only character scan (chars never used in Japanese) ==
+p1-prima: {'来': 1}
+p2-vita: {'来': 1}
+p3-cultura: {}
+p4-sport: {}
+p5-giovani: {'来': 1}
+p6-approfondimento: {}
+p7-lingua: {}
+p8-valutazione: {'来': 5}
+Strict simplified-form set (对/说/话/语/义/习/让/仅/发/录/汉 only):
+p1-prima: {}
+p2-vita: {}
+p3-cultura: {}
+p4-sport: {}
+p5-giovani: {}
+p6-approfondimento: {}
+p7-lingua: {}
+p8-valutazione: {}
+
+== word-level CJK containment vs transform.py ==
+runs not verbatim in transform.py: 0 []
+edition CJK chars absent from transform.py strings: []

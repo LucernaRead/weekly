@@ -1,0 +1,182 @@
+edition p1-prima.svg: textnodes=177 cjk_chars=0
+edition p2-vita.svg: textnodes=179 cjk_chars=0
+edition p3-cultura.svg: textnodes=170 cjk_chars=0
+edition p4-sport.svg: textnodes=170 cjk_chars=0
+edition p5-giovani.svg: textnodes=175 cjk_chars=0
+edition p6-approfondimento.svg: textnodes=198 cjk_chars=0
+edition p7-lingua.svg: textnodes=151 cjk_chars=0
+edition p8-valutazione.svg: textnodes=338 cjk_chars=0
+edition TOTAL cjk=0 qiaojie_nodes=0
+--- P7 nodes containing assaggio/def ---
+{'text': "« l'assaggio » è la prova di un cibo:", 'x': '1473', 'y': '1128.5', 'fs': '21.5', 'fam': 'Noto Serif CJK SC'}
+{'text': 'assaggio = dégustation. Voir page 3, finale', 'x': '1473', 'y': '1280.62', 'fs': '20', 'fam': 'Noto Sans CJK SC'}
+{'text': 'la sciarpa, sabato assaggio il', 'x': '1473', 'y': '1489.56', 'fs': '21.5', 'fam': 'Noto Serif CJK SC'}
+--- P7 LETTERE nodes ---
+{'text': 'LETTERE DEI LETTORI', 'x': '1473', 'y': '1381.5', 'fs': '23', 'fam': 'Noto Sans CJK SC'}
+{'text': '«Ciao! Sono Li, studio italiano a', 'x': '1473', 'y': '1428.5', 'fs': '21.5', 'fam': 'Noto Serif CJK SC'}
+{'text': 'Pechino. Lunedì metto il cappotto e', 'x': '1473', 'y': '1459.03', 'fs': '21.5', 'fam': 'Noto Serif CJK SC'}
+{'text': '(esempio della redazione)', 'x': '1473', 'y': '1550.62', 'fs': '21.5', 'fam': 'Noto Serif CJK SC'}
+{'text': 'Exemple de rédaction, pas une vraie lettre', 'x': '1473', 'y': '1611.1499999999999', 'fs': '20', 'fam': 'Noto Sans CJK SC'}
+{'text': 'page 8, promis au VOL.3. Écrivez-nous !', 'x': '1473', 'y': '1667.95', 'fs': '20', 'fam': 'Noto Sans CJK SC'}
+{'text': 'LA PROSSIMA SETTIMANA · LA SEMAINE PROCHAINE (VOL.3)', 'x': '93', 'y': '2448', 'fs': '24', 'fam': 'Noto Sans CJK SC'}
+--- P7 FRASI section: nodes after FRASI ---
+P7 y=116 x=78 fs=36 :: 'LINGUA · LANGUE'
+P7 y=116 x=1872 fs=36 :: 'La Lucerna'
+P7 y=142 x=1872 fs=19 :: 'Gros plan sur la langue · Tre livelli, tre strumenti · Trois niveaux, trois outils'
+P7 y=224 x=65 fs=24 :: 'A2 · IL TEMPO CHE FA'
+P7 y=271.5 x=65 fs=21.5 :: 'Per il tempo usiamo verbi impersonali,'
+P7 y=304.18 x=65 fs=21.5 :: 'sempre alla terza persona singolare: fa'
+P7 y=336.86 x=65 fs=21.5 :: "freddo, fa caldo, piove, nevica, c'è vento."
+P7 y=369.54 x=65 fs=21.5 :: 'Non si dice «sono freddo»: si dice «ho'
+P7 y=402.22 x=65 fs=21.5 :: 'freddo» (io) e «fa freddo» (fuori).'
+P7 y=466.4 x=65 fs=21.5 :: 'E per vestirsi: metto il cappotto, metti la'
+P7 y=499.08 x=65 fs=21.5 :: 'sciarpa, mette i guanti. Il verbo è'
+P7 y=531.76 x=65 fs=21.5 :: 'mettere, regolare.'
+P7 y=594.9399999999999 x=65 fs=20.5 :: 'La météo emploie des verbes impersonnels'
+P7 y=624.665 x=65 fs=20.5 :: '(3e personne du singulier) : « j’ai froid » se'
+P7 y=654.39 x=65 fs=20.5 :: 'dit ho freddo, « il fait froid dehors » se dit fa'
+P7 y=684.1149999999999 x=65 fs=20.5 :: 'freddo.'
+P7 y=744.8399999999999 x=95 fs=19 :: 'A2'
+P7 y=745.8399999999999 x=137 fs=24 :: '101.'
+P7 y=745.8399999999999 x=207 fs=19.5 :: 'Compléter'
+P7 y=775.3399999999999 x=65 fs=20.5 :: 'Oggi ___ (piovere) sul versante adriatico.'
+P7 y=837.0649999999999 x=95 fs=19 :: 'A2'
+P7 y=838.0649999999999 x=137 fs=24 :: '102.'
+P7 y=838.0649999999999 x=207 fs=19.5 :: 'Compléter'
+P7 y=867.5649999999999 x=65 fs=20.5 :: 'Fuori ___ freddo: metti il cappotto!'
+P7 y=929.29 x=95 fs=19 :: 'A2'
+P7 y=930.29 x=137 fs=24 :: '103.'
+P7 y=930.29 x=207 fs=19.5 :: 'Compléter'
+P7 y=959.79 x=65 fs=20.5 :: 'In montagna ___ (nevicare) intorno ai'
+P7 y=989.515 x=65 fs=20.5 :: '1.500 metri.'
+P7 y=1051.24 x=95 fs=19 :: 'A2'
+P7 y=1052.24 x=137 fs=24 :: '104.'
+P7 y=1081.74 x=65 fs=20.5 :: '«Io ho freddo» vuol dire... A. fuori fa'
+P7 y=1111.465 x=65 fs=20.5 :: 'freddo · B. io sento freddo · C. nevica'
+P7 y=224 x=527 fs=24 :: 'B1 · IL PASSATO PROSSIMO'
+P7 y=271.5 x=527 fs=21.5 :: 'Per raccontare il freddo usiamo il'
+P7 y=304.18 x=527 fs=21.5 :: 'passato prossimo: ausiliare + participio.'
+P7 y=336.86 x=527 fs=21.5 :: 'Con essere — per verbi come arrivare e'
+P7 y=369.54 x=527 fs=21.5 :: 'andare — il participio cambia con la'
+P7 y=402.22 x=527 fs=21.5 :: 'persona: è arrivato (il freddo), sono'
+P7 y=434.9 x=527 fs=21.5 :: 'andati (i pasticceri).'
+P7 y=499.08000000000004 x=527 fs=21.5 :: 'Con avere: abbiamo assaggiato, ha'
+P7 y=531.76 x=527 fs=21.5 :: 'aperto. Il participio con avere non'
+P7 y=564.44 x=527 fs=21.5 :: 'cambia.'
+P7 y=627.62 x=527 fs=20.5 :: 'Pour le passé, employez le passato prossimo :'
+P7 y=657.345 x=527 fs=20.5 :: 'arrivare/andare prennent essere et le'
+P7 y=687.07 x=527 fs=20.5 :: 'participe s’accorde ; avec avere, il ne'
+P7 y=716.795 x=527 fs=20.5 :: 'change jamais.'
+P7 y=777.52 x=557 fs=19 :: 'B1'
+P7 y=778.52 x=599 fs=24 :: '105.'
+P7 y=778.52 x=669 fs=19.5 :: 'Compléter'
+P7 y=808.02 x=527 fs=20.5 :: 'Il primo freddo ___ (arrivare) lunedì.'
+P7 y=869.745 x=557 fs=19 :: 'B1'
+P7 y=870.745 x=599 fs=24 :: '106.'
+P7 y=870.745 x=669 fs=19.5 :: 'Compléter'
+P7 y=900.245 x=527 fs=20.5 :: 'Noi ___ (assaggiare) il torrone a Cremona.'
+P7 y=961.97 x=557 fs=19 :: 'B1'
+P7 y=962.97 x=599 fs=24 :: '107.'
+P7 y=962.97 x=669 fs=19.5 :: 'Compléter'
+P7 y=992.47 x=527 fs=20.5 :: 'I pasticceri ___ (andare) a Milano.'
+P7 y=1054.1950000000002 x=557 fs=19 :: 'B1'
+P7 y=1055.1950000000002 x=599 fs=24 :: '108.'
+P7 y=1084.6950000000002 x=527 fs=20.5 :: 'Cremona ___ la Festa del Torrone. A. è'
+P7 y=1114.42 x=527 fs=20.5 :: 'aperta · B. ha aperto · C. sono aperti'
+P7 y=224 x=989 fs=24 :: 'B2 · IL CONGIUNTIVO'
+P7 y=271.5 x=989 fs=21.5 :: 'Con «è probabile che», «è possibile che»'
+P7 y=304.18 x=989 fs=21.5 :: 'e «bisogna che» usiamo il congiuntivo:'
+P7 y=336.86 x=989 fs=21.5 :: 'piova (piovere), nevichi (nevicare), sia'
+P7 y=369.54 x=989 fs=21.5 :: '(essere). È la grammatica della'
+P7 y=402.22 x=989 fs=21.5 :: 'probabilità, la stessa di pagina 6.'
+P7 y=466.4 x=989 fs=21.5 :: 'Ma dopo «so che» e «i giornali scrivono'
+P7 y=499.08 x=989 fs=21.5 :: "che» resta l'indicativo: il freddo arriva, la"
+P7 y=531.76 x=989 fs=21.5 :: 'finale è a Milano. Opinioni sì, fatti con'
+P7 y=564.4399999999999 x=989 fs=21.5 :: "l'indicativo."
+P7 y=627.62 x=989 fs=20.5 :: 'Après è probabile che / è possibile che /'
+P7 y=657.345 x=989 fs=20.5 :: 'bisogna che, employez le subjonctif ; après'
+P7 y=687.07 x=989 fs=20.5 :: 'so che / scrivono che, l’indicatif.'
+P7 y=747.795 x=1019 fs=19 :: 'B2'
+P7 y=748.795 x=1061 fs=24 :: '109.'
+P7 y=748.795 x=1131 fs=19.5 :: 'Compléter'
+P7 y=778.295 x=989 fs=20.5 :: 'È probabile che domani ___ (piovere) sul'
+P7 y=808.02 x=989 fs=20.5 :: 'versante adriatico.'
+P7 y=869.745 x=1019 fs=19 :: 'B2'
+P7 y=870.745 x=1061 fs=24 :: '110.'
+P7 y=870.745 x=1131 fs=19.5 :: 'Compléter'
+P7 y=900.245 x=989 fs=20.5 :: 'È possibile che in montagna ___ (nevicare)'
+P7 y=929.97 x=989 fs=20.5 :: 'nel weekend.'
+P7 y=991.695 x=1019 fs=19 :: 'B2'
+P7 y=992.695 x=1061 fs=24 :: '111.'
+P7 y=992.695 x=1131 fs=19.5 :: 'Compléter'
+P7 y=1022.1950000000002 x=989 fs=20.5 :: 'Bisogna che la previsione ___ (essere)'
+P7 y=1051.92 x=989 fs=20.5 :: 'chiara per tutti.'
+P7 y=1113.645 x=1019 fs=19 :: 'B2'
+P7 y=1114.645 x=1061 fs=24 :: '112.'
+P7 y=1144.145 x=989 fs=20.5 :: '«So che il freddo...» A. arrivi · B. arriva · C.'
+P7 y=1173.87 x=989 fs=20.5 :: 'arrivare'
+P7 y=242 x=1473 fs=23 :: 'ERRORI TIPICI · ERREURS TYPES'
+P7 y=291 x=1473 fs=21.5 :: '«Fa freddi.»'
+P7 y=341.24 x=1473 fs=20.5 :: '→ «Fa freddo.» Dopo fa, freddo non'
+P7 y=369.12 x=1473 fs=20.5 :: 'cambia mai: è invariabile.'
+P7 y=417.0 x=1473 fs=19.5 :: 'Après fa, freddo ne change jamais.'
+P7 y=474.52 x=1473 fs=21.5 :: '«Ho nevicato ieri.»'
+P7 y=524.76 x=1473 fs=20.5 :: '→ «Ha nevicato ieri.» Nevicare è'
+P7 y=552.64 x=1473 fs=20.5 :: 'impersonale: solo la terza persona'
+P7 y=580.52 x=1473 fs=20.5 :: 'singolare.'
+P7 y=628.4 x=1473 fs=19.5 :: 'Nevicare : 3e personne seulement.'
+P7 y=685.92 x=1473 fs=21.5 :: '«Pioverà di sicuro.»'
+P7 y=736.16 x=1473 fs=20.5 :: '→ «Potrebbe piovere.» Le previsioni'
+P7 y=764.04 x=1473 fs=20.5 :: 'danno probabilità, non certezze.'
+P7 y=811.92 x=1473 fs=19.5 :: 'Probabilités, pas certitudes.'
+P7 y=869.4399999999999 x=1473 fs=21.5 :: '«La gente sono infreddoliti.»'
+P7 y=919.68 x=1473 fs=20.5 :: '→ «La gente è infreddolita.» Gente è'
+P7 y=947.56 x=1473 fs=20.5 :: 'singolare, come un solo gruppo.'
+P7 y=995.4399999999999 x=1473 fs=19.5 :: 'Gente est singulier féminin.'
+P7 y=1081.5 x=1473 fs=23 :: 'LA PAROLA · MOT DE LA SEMAINE'
+P7 y=1128.5 x=1473 fs=21.5 :: "« l'assaggio » è la prova di un cibo:"
+P7 y=1159.03 x=1473 fs=21.5 :: 'un piccolo pezzo per decidere se'
+P7 y=1189.56 x=1473 fs=21.5 :: 'piace. Questa settimana vive a'
+P7 y=1220.09 x=1473 fs=21.5 :: 'pagina 3, alla finale del Panettone.'
+P7 y=1280.62 x=1473 fs=20 :: 'assaggio = dégustation. Voir page 3, finale'
+P7 y=1309.02 x=1473 fs=20 :: 'du Panettone.'
+P7 y=1381.5 x=1473 fs=23 :: 'LETTERE DEI LETTORI'
+P7 y=1428.5 x=1473 fs=21.5 :: '«Ciao! Sono Li, studio italiano a'
+P7 y=1459.03 x=1473 fs=21.5 :: 'Pechino. Lunedì metto il cappotto e'
+P7 y=1489.56 x=1473 fs=21.5 :: 'la sciarpa, sabato assaggio il'
+P7 y=1520.09 x=1473 fs=21.5 :: 'panettone — almeno in foto!» — Li'
+P7 y=1550.62 x=1473 fs=21.5 :: '(esempio della redazione)'
+P7 y=1611.1499999999999 x=1473 fs=20 :: 'Exemple de rédaction, pas une vraie lettre'
+P7 y=1639.55 x=1473 fs=20 :: ': pas encore de lettres ni de meilleur texte'
+P7 y=1667.95 x=1473 fs=20 :: 'page 8, promis au VOL.3. Écrivez-nous !'
+P7 y=1724 x=65 fs=27 :: 'FRASI DELLA SETTIMANA · PHRASES DE LA SEMAINE (verbatim de ce numéro)'
+P7 y=1787 x=65 fs=21.5 :: '«arriva il primo freddo vero della stagione»'
+P7 y=1836.67 x=65 fs=19.5 :: 'Le premier vrai froid de la saison est arrivé. (Pagina 1)'
+P7 y=1945 x=65 fs=21.5 :: '«Non è una certezza, è una probabilità»'
+P7 y=1994.67 x=65 fs=19.5 :: 'Ce n’est pas une certitude, c’est une probabilité. (Pagina 1)'
+P7 y=2103 x=65 fs=21.5 :: '«il 2 novembre è la Commemorazione dei defunti»'
+P7 y=2152.67 x=65 fs=19.5 :: 'Le 2 novembre est la commémoration des défunts. (Pagina 2)'
+P7 y=2261 x=65 fs=21.5 :: '«Fa freddo, copriti bene!»'
+P7 y=2310.67 x=65 fs=19.5 :: 'Il fait froid, couvrez-vous bien ! (Pagina 2)'
+P7 y=1787 x=989 fs=21.5 :: '«il pubblico può assaggiare gratis»'
+P7 y=1836.67 x=989 fs=19.5 :: 'Le public peut déguster gratuitement. (Pagina 3)'
+P7 y=1945 x=989 fs=21.5 :: '«il calcio non si ferma per il primo freddo»'
+P7 y=1994.67 x=989 fs=19.5 :: 'Le football ne s’arrête pas pour le premier froid. (Pagina 4)'
+P7 y=2103 x=989 fs=21.5 :: '«la cultura continua»'
+P7 y=2152.67 x=989 fs=19.5 :: 'La culture continue. (Pagina 5)'
+P7 y=2261 x=989 fs=21.5 :: '«Una probabilità alta non è una certezza»'
+P7 y=2310.67 x=989 fs=19.5 :: 'Une forte probabilité n’est pas une certitude. (Pagina 6)'
+P7 y=2448 x=93 fs=24 :: 'LA PROSSIMA SETTIMANA · LA SEMAINE PROCHAINE (VOL.3)'
+P7 y=2488 x=93 fs=21 :: 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+P7 y=2516.56 x=93 fs=21 :: 'pagina 8. A lunedì!'
+P7 y=2624 x=65 fs=20 :: 'La Lucerna · HEBDOMADAIRE ITALIEN VOL.2 · TEXTE EN ITALIEN · EXPLICATIONS EN FRANÇAIS'
+P7 y=2624 x=1885 fs=20 :: 'Page 7 sur 8'
+core p1-prima.svg: textnodes=175 cjk_chars=178
+core p2-vita.svg: textnodes=173 cjk_chars=167
+core p3-cultura.svg: textnodes=168 cjk_chars=156
+core p4-sport.svg: textnodes=165 cjk_chars=134
+core p5-giovani.svg: textnodes=167 cjk_chars=186
+core p6-approfondimento.svg: textnodes=193 cjk_chars=139
+core p7-lingua.svg: textnodes=147 cjk_chars=281
+core p8-valutazione.svg: textnodes=335 cjk_chars=966
+core TOTAL cjk=2207 qiaojie_nodes=0

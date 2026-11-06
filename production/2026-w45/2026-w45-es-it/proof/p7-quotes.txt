@@ -1,0 +1,37 @@
+quote tuples found: 8
+  1. tag=Página 1 ES='«Las listas ya están presentadas: ahora los partidos escriben sus programas.»'
+     IT='Le liste sono presentate: ora i partiti scrivono i programmi.'
+  2. tag=Página 2 ES='«El lunes 2 de noviembre es festivo en nueve comunidades — y día de trabajo en las demás.»'
+     IT='Lunedì 2 novembre è festa in nove comunità e giorno di lavoro nelle altre.'
+  3. tag=Página 3 ES='«Tres fiestas, una misma noche de otoño.»'
+     IT="Tre feste, una stessa notte d'autunno."
+  4. tag=Página 4 ES='«El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del Barça.»'
+     IT='Il Real vince 2–1 al Camp Nou: è la prima sconfitta in Liga del Barça.'
+  5. tag=Página 5 ES='«El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a Madrid.»'
+     IT="Il Bernabéu cambia l'erba con la griglia: il football americano arriva a Madrid."
+  6. tag=Página 6 ES='«La vivienda es el principal problema para el 55,7 % de los españoles.»'
+     IT='La casa è il primo problema per il 55,7% degli spagnoli.'
+  7. tag=Página 6 ES='«Una encuesta es una foto con margen de error, tomada en un día concreto.»'
+     IT='Un sondaggio è una foto con margine di errore, scattata in un giorno preciso.'
+  8. tag=Página 1 ES='«El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético–Barça a las 21:00.»'
+     IT="Domenica 8, Madrid ha due appuntamenti: la NFL alle 15:30 e l'Atlético–Barça alle 21:00."
+
+=== occurrence counts across all 8 edition SVGs (normalized) ===
+  1. with-guillemets=1 bare=2 pages-containing=['p1-portada.svg', 'p7-lengua.svg'] tag=Página 1
+  2. with-guillemets=1 bare=2 pages-containing=['p2-vida.svg', 'p7-lengua.svg'] tag=Página 2
+  3. with-guillemets=1 bare=2 pages-containing=['p3-cultura.svg', 'p7-lengua.svg'] tag=Página 3
+  4. with-guillemets=1 bare=2 pages-containing=['p4-deporte.svg', 'p7-lengua.svg'] tag=Página 4
+  5. with-guillemets=1 bare=2 pages-containing=['p5-juventud.svg', 'p7-lengua.svg'] tag=Página 5
+  6. with-guillemets=1 bare=2 pages-containing=['p6-afondo.svg', 'p7-lengua.svg'] tag=Página 6
+  7. with-guillemets=1 bare=2 pages-containing=['p6-afondo.svg', 'p7-lengua.svg'] tag=Página 6
+  8. with-guillemets=1 bare=2 pages-containing=['p1-portada.svg', 'p7-lengua.svg'] tag=Página 1
+
+=== same count in CORE SVGs (should also be 2 each, frozen) ===
+  1. core with-guillemets=1 bare=2
+  2. core with-guillemets=1 bare=2
+  3. core with-guillemets=1 bare=2
+  4. core with-guillemets=1 bare=2
+  5. core with-guillemets=1 bare=2
+  6. core with-guillemets=1 bare=2
+  7. core with-guillemets=1 bare=2
+  8. core with-guillemets=1 bare=2

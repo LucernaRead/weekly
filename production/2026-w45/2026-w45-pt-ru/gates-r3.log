@@ -1,0 +1,14 @@
+ROWCHECK p1-capa.svg y=1396.0 gap=4.0: 'Pág. 2' <> 'O feriadão e a revisão'
+ROWCHECK p1-capa.svg y=1436.0 gap=4.0: 'Pág. 3' <> 'Finados, o dia da memória'
+ROWCHECK p1-capa.svg y=1436.0 gap=2.0: 'Finados, o dia da memória' <> 'A2→B1'
+ROWCHECK p1-capa.svg y=1476.0 gap=4.0: 'Pág. 4' <> 'O futebol decide'
+ROWCHECK p1-capa.svg y=1516.0 gap=4.0: 'Pág. 5' <> 'A reta final dos jovens'
+ROWCHECK p1-capa.svg y=1556.0 gap=4.0: 'Pág. 6' <> 'O Enem explicado'
+ROWCHECK p1-capa.svg y=1596.0 gap=4.0: 'Pág. 7' <> 'Frases da semana'
+ROWCHECK p1-capa.svg y=1636.0 gap=4.0: 'Pág. 8' <> 'Exercícios e respostas'
+rowcheck done, flags: 8
+rightedge done, flags: 0
+chart coverage flags (>=30%): 0
+edition SVG CJK chars: 0
+banned-term occurrences in edition SVGs: 0
+FAILURES: [('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1396.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1436.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1436.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1476.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1516.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1556.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1596.0), ('rowcheck', '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-ru/svg/p1-capa.svg', 1636.0)]

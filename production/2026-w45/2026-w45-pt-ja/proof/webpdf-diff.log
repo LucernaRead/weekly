@@ -1,0 +1,14 @@
+sizes: 3392107 3392107
+diff byte count: 6
+diff ranges: [[3391420, 3391420], [3391422, 3391423], [3391449, 3391449], [3391451, 3391452]]
+  range 3391420-3391420: delivered=b'b)\n/CreationDate (D:20261027224822Z)\n/ModDate (D:20261027224'
+           rerender=b'b)\n/CreationDate (D:20261027225848Z)\n/ModDate (D:20261027225'
+  range 3391422-3391423: delivered=b'\n/CreationDate (D:20261027224822Z)\n/ModDate (D:20261027224822'
+           rerender=b'\n/CreationDate (D:20261027225848Z)\n/ModDate (D:20261027225848'
+  range 3391449-3391449: delivered=b'24822Z)\n/ModDate (D:20261027224822Z)\n>>endobj\nxref\n0 28\n0000'
+           rerender=b'25848Z)\n/ModDate (D:20261027225848Z)\n>>endobj\nxref\n0 28\n0000'
+  range 3391451-3391452: delivered=b'822Z)\n/ModDate (D:20261027224822Z)\n>>endobj\nxref\n0 28\n0000000'
+           rerender=b'848Z)\n/ModDate (D:20261027225848Z)\n>>endobj\nxref\n0 28\n0000000'
+b'CreationDate' delivered: [] rerender: []
+b'ModDate' delivered: [] rerender: []
+print pdf identical: True 34d4f53d820456eca1f5ff29ce653f4a671cd4720a60a14e8dab0495c1ad62fb

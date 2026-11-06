@@ -1,0 +1,60 @@
+=== W43 P8 right text / P7 FOCO ===
+
+=== F1: P1 top strip vs date line, same row y=92 ===
+  y=92 :: 'VOL. 2 · SEGUNDA EDICIÓN' attrs= x="65" y="92" font-family="Noto Sans CJK SC" font-size="23" font-weight="700" fill="#3e4c2a" text-anchor="start" span=(64.75, 381.0)
+  y=92 :: 'SEMANAL EN ESPAÑOL · UM NÚMERO POR SEMANA · O ESPANHOL QUE A ESPANHA LÊ' attrs= x="975" y="92" font-family="Noto Sans CJK SC" font-size="21" fill="#57523f" text-anchor="middle" span=(543.720703125, 1406.220703125)
+  y=92 :: 'SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026' attrs= x="1885" y="92" font-family="Noto Sans CJK SC" font-size="23" fill="#57523f" text-anchor="end" span=(1420.6953125, 1884.9453125)
+
+=== F2: box title ink widths (slot 416 per KIT) ===
+  p1-portada 'LA SEMANA EN CIFRAS · Em números': shipped fs=20.0 ink_width=370.2 adv=370.3 | at core fs=23 ink_width=425.8 adv=425.9 | slot 416 -> shipped fits: True
+  p2-vida 'EL CALENDARIO · O calendário da semana': shipped fs=19.0 ink_width=399.5 adv=399.6 | at core fs=20 ink_width=420.5 adv=420.6 | slot 416 -> shipped fits: True
+  p5-juventud 'EL PLAN DEL PUENTE · O plano da ponte': shipped fs=20.0 ink_width=405.5 adv=405.6 | at core fs=23 ink_width=466.5 adv=466.5 | slot 416 -> shipped fits: True
+  p7-lengua 'ERRORES TÍPICOS · Erros comuns': shipped fs=20.0 ink_width=339.8 adv=339.8 | at core fs=20 ink_width=339.8 adv=339.8 | slot 416 -> shipped fits: True
+  p7-lengua 'LA PALABRA · A palavra da semana': shipped fs=22.0 ink_width=384.5 adv=384.5 | at core fs=22 ink_width=384.5 adv=384.5 | slot 416 -> shipped fits: True
+
+=== F3: paren spacing counts ===
+  p1-portada:
+    y=1589.8 :: '(página 6).'  paren-without-preceding-space: []
+    y=1776.8 :: 'nueve comunidades (página 2).'  paren-without-preceding-space: []
+    y=1129.3 :: 'Nota — la cuenta atrás (contagem'  paren-without-preceding-space: []
+    y=1159.0249999999999 :: 'decrescente) · disolver las Cortes (dissolver'  paren-without-preceding-space: []
+    y=1188.75 :: 'o parlamento) · el decreto (o decreto) · la'  paren-without-preceding-space: []
+    y=1218.475 :: 'candidatura (a candidatura).'  paren-without-preceding-space: []
+    y=1353.375 :: 'elecciones del domingo 29 (faltam 27'  paren-without-preceding-space: []
+    y=1461.8999999999999 :: 'noviembre es fiesta (feriado na'  paren-without-preceding-space: []
+    y=1598.0999999999997 :: 'octubre (dados do CIS de outubro)'  paren-without-preceding-space: []
+    y=2243.65 :: 'los datos del CIS y el calendario completo hacia el 29 de noviembre. (Ilustración de la redacción,'  paren-without-preceding-space: []
+    y=2160.7999999999997 :: '(Página 4)'  paren-without-preceding-space: []
+    y=2273.1999999999994 :: 'Atlético–Barça por la noche. (Páginas 4'  paren-without-preceding-space: []
+  p2-vida:
+    y=616.6799999999998 :: '(ponte em nove comunidades;'  paren-without-preceding-space: []
+    y=756.9199999999996 :: '(terça: três jogos da Champions)'  paren-without-preceding-space: []
+    y=840.0399999999995 :: 'Madrid, 18:45 (quarta: o Real Madrid'  paren-without-preceding-space: []
+    y=951.7199999999993 :: 'Sociedad–Lyon, 18:45 (quinta: Real'  paren-without-preceding-space: []
+    y=1063.3999999999992 :: 'Sevilla–Alavés, 21:00 (sexta: abre a'  paren-without-preceding-space: []
+    y=1175.079999999999 :: '21:00, en Mestalla (sábado:'  paren-without-preceding-space: []
+    y=1286.7599999999989 :: '15:30; Atlético–Barça, 21:00 (domingo:'  paren-without-preceding-space: []
+    y=411.34000000000003 :: 'Nota — festivo (de festa) · el puente (a'  paren-without-preceding-space: []
+    y=441.06500000000005 :: 'ponte) · la comunidad (a comunidade'  paren-without-preceding-space: []
+    y=470.7900000000001 :: 'autónoma) · anochecer (anoitecer) · el'  paren-without-preceding-space: []
+    y=500.5150000000001 :: 'horario de invierno (o horário de'  paren-without-preceding-space: []
+  p5-juventud:
+    y=513.12 :: '(segunda: descanso e família; viagem,'  paren-without-preceding-space: []
+    y=624.8 :: '21:00, en Mestalla (sábado à noite:'  paren-without-preceding-space: []
+    y=736.4799999999998 :: 'Bernabéu (domingo à tarde: a NFL em'  paren-without-preceding-space: []
+    y=848.1599999999996 :: 'en el Metropolitano (domingo à noite:'  paren-without-preceding-space: []
+    y=988.3999999999994 :: '13 (volta às aulas e ao trabalho; a'  paren-without-preceding-space: []
+    y=1114.02 :: 'Nota — el emparrillado (o campo com'  paren-without-preceding-space: []
+    y=1143.745 :: 'forma de grelha) · el himno (o hino) · el'  paren-without-preceding-space: []
+    y=1173.4699999999998 :: 'touchdown (o touchdown) · la calabaza'  paren-without-preceding-space: []
+    y=1203.1949999999997 :: '(a abóbora).'  paren-without-preceding-space: []
+    y=927.0199999999998 :: 'Sáinz-Villegas (España) y Taylor'  paren-without-preceding-space: []
+    y=957.5499999999997 :: 'Momsen (EE. UU.).'  paren-without-preceding-space: []
+    y=2154.95 :: 'El Bernabéu ___ (infinitivo: acoger) un'  paren-without-preceding-space: []
+
+=== F4: P1 word note ===
+  y=1816.1999999999998 fs=19.0 ink_width=419.8 adv=419.8 (KIT 419.9 < 434) :: '«Pré-campanha»: semanas antes da campanha.' attrs= x="1451" y="1816.1999999999998" font-family="Noto Sans CJK SC" font-size="19" fill="#57523f" text-anchor="start"
+  rule y=1844 clearance: note y=1816.1999999999998 (baseline) vs rule 1844
+
+=== P1 word-note rule element ===
+  line:  x1="65" y1="1844" x2="1885" y2="1844" stroke="#d8cfb4" stroke-width="1.2"

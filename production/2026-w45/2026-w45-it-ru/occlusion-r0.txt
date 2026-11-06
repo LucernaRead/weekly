@@ -1,0 +1,101 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-it-ru/svg: 49 flags {'BOXTITLE': 5, 'COVER': 1, 'EDGE': 1, 'LINEX': 5, 'TEXTX': 37}
+  [COVER] p1-prima.svg 'A2' — 100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]
+  [LINEX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [LINEX] p1-prima.svg 'Fiorentina–Juventus si giocano ___ 8' — later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink
+  [LINEX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [EDGE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink box (1473.0, 1223.7000000000005, 1990.25, 1240.9500000000005) outside page 1950.0x2700.0
+  [LINEX] p1-prima.svg 'после мягкой осени.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [TEXTX] p1-prima.svg '6.' — ink overlaps '5.' by 22.0x18.0px
+  [TEXTX] p1-prima.svg 'A2' — ink overlaps 'B1' by 23.8x14.0px
+  [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px
+  [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px
+  [TEXTX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px
+  [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'della media.' by 120.0x6.5px
+  [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px
+  [TEXTX] p1-prima.svg 'della media.' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px
+  [TEXTX] p1-prima.svg 'novembre.' — ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px
+  [BOXTITLE] p1-prima.svg 'LA SETTIMANA IN CIFRE · В ЦИФРАХ' — ink crosses its box borders: right ink 1424.2 > border 1423.0
+  [BOXTITLE] p1-prima.svg 'План недели · Cosa succede, giorno per giorno' — ink crosses its box borders: right ink 1902.8 > border 1885.0
+  [BOXTITLE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink crosses its box borders: right ink 1990.2 > border 1885.0
+  [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · ПАМЯТКА' — ink crosses its box borders: right ink 983.8 > border 961.0
+  [LINEX] p7-lingua.svg 'Пример редакции, а не настоящие' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+  [BOXTITLE] p7-lingua.svg 'assaggio = дегустация. См. страницу 3.' — ink crosses its box borders: bottom ink 1344.6 > border 1343.5
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '149. B — Фестиваль Torrone идёт до 22 но' by 303.8x14.5px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '144. c — modello = прогностическая модел' by 245.0x13.0px
+  [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '148. A — pagare con carta = платить карт' by 245.0x12.8px
+  [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 245.0x12.0px
+  [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '145. B — torrone = нуга' by 147.8x11.8px
+  [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '148. A — pagare con carta = платить карт' by 191.2x12.8px
+  [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 191.2x12.0px
+  [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '145. B — torrone = нуга' by 147.8x11.8px
+  [TEXTX] p8-valutazione.svg '148. A — pagare con carta = платить картой' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  [TEXTX] p8-valutazione.svg '148. A — pagare con carta = платить картой' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  [TEXTX] p8-valutazione.svg '147. B — quanto costa? = сколько стоит?' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+core: 0 flags; NEW vs core: 49
+  NEW [COVER] p1-prima.svg 'A2' — 100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]
+  NEW [LINEX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [LINEX] p1-prima.svg 'Fiorentina–Juventus si giocano ___ 8' — later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink
+  NEW [LINEX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [EDGE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink box (1473.0, 1223.7000000000005, 1990.25, 1240.9500000000005) outside page 1950.0x2700.0
+  NEW [LINEX] p1-prima.svg 'после мягкой осени.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [TEXTX] p1-prima.svg '6.' — ink overlaps '5.' by 22.0x18.0px
+  NEW [TEXTX] p1-prima.svg 'A2' — ink overlaps 'B1' by 23.8x14.0px
+  NEW [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px
+  NEW [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px
+  NEW [TEXTX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px
+  NEW [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'della media.' by 120.0x6.5px
+  NEW [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px
+  NEW [TEXTX] p1-prima.svg 'della media.' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px
+  NEW [TEXTX] p1-prima.svg 'novembre.' — ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px
+  NEW [BOXTITLE] p1-prima.svg 'LA SETTIMANA IN CIFRE · В ЦИФРАХ' — ink crosses its box borders: right ink 1424.2 > border 1423.0
+  NEW [BOXTITLE] p1-prima.svg 'План недели · Cosa succede, giorno per giorno' — ink crosses its box borders: right ink 1902.8 > border 1885.0
+  NEW [BOXTITLE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink crosses its box borders: right ink 1990.2 > border 1885.0
+  NEW [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · ПАМЯТКА' — ink crosses its box borders: right ink 983.8 > border 961.0
+  NEW [LINEX] p7-lingua.svg 'Пример редакции, а не настоящие' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+  NEW [BOXTITLE] p7-lingua.svg 'assaggio = дегустация. См. страницу 3.' — ink crosses its box borders: bottom ink 1344.6 > border 1343.5
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '149. B — Фестиваль Torrone идёт до 22 но' by 303.8x14.5px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ Образец — в разделе H этой страницы (81 слов)' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  NEW [TEXTX] p8-valutazione.svg '149. B — Фестиваль Torrone идёт до 22 ноября' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  NEW [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '144. c — modello = прогностическая модел' by 245.0x13.0px
+  NEW [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  NEW [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '148. A — pagare con carta = платить карт' by 245.0x12.8px
+  NEW [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 245.0x12.0px
+  NEW [TEXTX] p8-valutazione.svg '143. b — bollettino = сводка погоды, b' — ink overlaps '145. B — torrone = нуга' by 147.8x11.8px
+  NEW [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px
+  NEW [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px
+  NEW [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  NEW [TEXTX] p8-valutazione.svg '144. c — modello = прогностическая модель, c' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  NEW [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '148. A — pagare con carta = платить карт' by 191.2x12.8px
+  NEW [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 191.2x12.0px
+  NEW [TEXTX] p8-valutazione.svg '146. A — mandorle = миндаль' — ink overlaps '145. B — torrone = нуга' by 147.8x11.8px
+  NEW [TEXTX] p8-valutazione.svg '148. A — pagare con carta = платить картой' — ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px
+  NEW [TEXTX] p8-valutazione.svg '148. A — pagare con carta = платить картой' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px
+  NEW [TEXTX] p8-valutazione.svg '147. B — quanto costa? = сколько стоит?' — ink overlaps '145. B — torrone = нуга' by 147.8x13.0px

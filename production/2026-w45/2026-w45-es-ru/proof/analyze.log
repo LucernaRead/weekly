@@ -1,0 +1,234 @@
+p1-portada REMOVED: {'EN': 1, 'ESPAÑOL': 1, 'LA': 1, 'EL': 1, 'PERIÓDICO': 1, 'SEMANAL': 1, 'PARA': 1, 'APRENDER': 1, 'VIDA': 1, 'REAL': 1, 'DESDE': 1, 'ESPAÑA': 1, '11': 1, 'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p1-portada ADDED: {'9': 1}
+p2-vida REMOVED: {'11': 3, 'AEK': 1, 'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p2-vida ADDED: {'BOE': 1, '9': 1}
+p3-cultura REMOVED: {'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p3-cultura ADDED: {}
+p4-deporte REMOVED: {'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p4-deporte ADDED: {'21': 1, '00': 1}
+p5-juventud REMOVED: {'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p5-juventud ADDED: {'infinitivo': 1}
+p6-afondo REMOVED: {'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p6-afondo ADDED: {}
+p7-lengua REMOVED: {'precampaña': 1, 'Página': 8, '11': 2, '55.7': 1, 'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p7-lengua ADDED: {'55,7': 1}
+p8-ejercicios REMOVED: {'NFL': 1, 'Castanyada': 3, 'PÁGINA': 8, '11': 12, '10': 6, 'Samaín': 2, 'LUCERNA': 1, 'SPANISH': 1, 'WEEKLY': 1}
+p8-ejercicios ADDED: {}
+CORE P1 Página-bearing texts: ['(Página 4)', 'Atlético–Barça por la noche. (Páginas 4']
+ED P1 Página-bearing texts: ['(Página 4)', 'Atlético–Barça por la noche. (Páginas 4']
+ED raw count '(Página 4)': 1 CORE: 1
+ED raw count 'Страница 4': 0
+P8 counts: 150 150 numbers continuous: True True
+P8 dash-key diffs: {
+ "137": [
+  "周一在九个自治区是假日。",
+  "Понедельник"
+ ],
+ "138": [
+  "周日我们看 NFL 和马竞–巴萨。",
+  "В воскресенье мы смотрим NFL и «Атлетико»"
+ ]
+}
+P8 full-body diffs count: 139 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+  #139 CORE key='El Bernabéu acoge un partido de la NFL.' ED key='El Bernabéu acoge un partido de la NFL.' ED full='El Bernabéu acoge un partido de la NFL. — acoger = принимать'
+  #140 CORE key='Cada gráfico tiene que llevar su fuente.' ED key='Cada gráfico tiene que llevar su fuente.' ED full='Cada gráfico tiene que llevar su fuente. — tener que = должен'
+  #150 CORE key='✓' ED key='✓' ED full='✓ образец — в разделе H этой страницы (84 слова)'
+  #137 CORE key='周一在九个自治区是假日。' ED key='Понедельник' ED full='Понедельник — выходной в девяти сообществах. — см. оригинал'
+  #138 CORE key='周日我们看 NFL 和马竞–巴萨。' ED key='В воскресенье мы смотрим NFL и «Атлетико»' ED full='В воскресенье мы смотрим NFL и «Атлетико» — «Барса». — см. оригинал'
+--- gloss CORE ---
+p1-portada CJK+· texts: 15 items: 36
+    'CADA SEMANA EN ESPAÑOL · 每周一期 · 读西班牙人正在读的西班牙语'
+    '西 班 牙 语 周 报 · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL'
+    '距大选还有 27 天 · 住房决定选战'
+    '本期头条 · 详见第 2、6 版'
+    'LA NOTICIA · 头条'
+    '讲解｜la cuenta atrás 倒计时 · disolver las'
+    'Cortes 解散议会 · el decreto 法令 · la'
+    'LA SEMANA EN CIFRAS · 数字看本周'
+    'AHORA TÚ · 即学即练'
+    '本周五大看点 · Para entender la semana'
+    'EN ESTA EDICIÓN · 本期目录'
+    'BREVES · 快讯'
+    'QUIZ RELÁMPAGO · 闪电问答'
+    '读头版，选出正确答案 · 答案见第 8 版'
+    'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+p2-vida CJK+· texts: 11 items: 26
+    'VIDA · 生活'
+    'NIVEL A2 · El puente del lunes 2 · 11 月 2 日的连休'
+    'EL CALENDARIO · 本周日历'
+    '译注｜festivo 放假的 · el puente 连休 ·'
+    'la comunidad 自治区 · anochecer 天黑 ·'
+    '¿Y TÚ? · 说说你自己'
+    'LOS DÍAS DE LA SEMANA · 这样说日期'
+    'lunes 2 – domingo 8 de noviembre · 11 月 2 日周一至 8 日周日'
+    'EJERCICIOS · 第 2 版练习'
+    '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+    'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+p3-cultura CJK+· texts: 9 items: 21
+    'CULTURA · 文化'
+    'A2 → B1 · La semana pasada: tres noches de otoño · 上周的三个秋夜'
+    '译注｜sobrio 克制的 · el homenaje 纪念'
+    '表彰 · el disfraz 服装（化装） · el'
+    'boniato 红薯 · el cementerio 墓地。'
+    '¿Y TÚ? · 说说你自己'
+    'EJERCICIOS · 第 3 版练习'
+    '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+    'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+p4-deporte CJK+· texts: 10 items: 23
+    'DEPORTE · 体育'
+    'NIVEL B1 · Europa primero, el domingo a las 21:00 · 欧战在先，周日晚九点'
+    '译注｜la jornada 轮次 · recortar la'
+    'distancia 缩小分差 · recibir 主场迎战 ·'
+    'visitar 客场挑战 · el Metropolitano 马竞'
+    '¿Y TÚ? · 说说你自己'
+    'LA SEMANA EUROPEA Y LA JORNADA 12 · 欧战周与联赛第 12 轮'
+    'EJERCICIOS · 第 4 版练习'
+    '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+    'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+p5-juventud CJK+· texts: 9 items: 21
+    'JUVENTUD · 青年'
+    'NIVEL B1 · La NFL en Madrid · NFL 来到马德里'
+    'EL PLAN DEL PUENTE · 连休计划'
+    '场地） · el himno 国歌 · el touchdown'
+    '达阵得分 · la calabaza 南瓜。'
+    '¿Y TÚ? · 说说你自己'
+    'EJERCICIOS · 第 5 版练习'
+    '答案见第 8 版 · 题目可跨级混排，按题号找答案'
+    'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+--- gloss ED ---
+p1-portada prefix texts: 1 items by · split: [1] total items: 1
+    'Пояснение — la cuenta atrás = обратный'
+p2-vida prefix texts: 1 items by · split: [2] total items: 2
+    'Пояснение — festivo = выходной · el'
+p3-cultura prefix texts: 1 items by · split: [2] total items: 2
+    'Пояснение — sobrio = сдержанный · el'
+p4-deporte prefix texts: 1 items by · split: [2] total items: 2
+    'Пояснение — la jornada = тур · recortar'
+p5-juventud prefix texts: 1 items by · split: [1] total items: 1
+    'Пояснение — el emparrillado = поле для'
+p1-portada images core==ed: True [] []
+p2-vida images core==ed: True [] []
+p3-cultura images core==ed: True [] []
+p4-deporte images core==ed: True [] []
+p5-juventud images core==ed: True [] []
+p6-afondo images core==ed: True [] []
+p7-lengua images core==ed: True [] []
+p8-ejercicios images core==ed: True [] []
+CORE P7 labels: {1: 2, 2: 1, 3: 1, 4: 1, 5: 1, 6: 2}
+ED P7 labels: {1: 2, 2: 1, 3: 1, 4: 1, 5: 1, 6: 2}
+P7-candidate x2 long Spanish texts: 0
+  SPLIT-LABEL SUSPECT p1-portada 'Страница 1 из 8'
+  SPLIT-LABEL SUSPECT p2-vida 'Страница 2 из 8'
+  SPLIT-LABEL SUSPECT p3-cultura 'Страница 3 из 8'
+  SPLIT-LABEL SUSPECT p4-deporte 'Страница 4 из 8'
+  SPLIT-LABEL SUSPECT p5-juventud 'Страница 5 из 8'
+  SPLIT-LABEL SUSPECT p6-afondo 'Страница 6 из 8'
+  SPLIT-LABEL SUSPECT p7-lengua 'Страница 7 из 8'
+  SPLIT-LABEL SUSPECT p8-ejercicios 'Страница 8 · La gran prueba de la semana + todas las respuestas'
+  SPLIT-LABEL SUSPECT p8-ejercicios 'Страница 8 из 8'
+  P7 football gloss: '«Бернабеу» меняет газон на решётку: американский футбол в Мадриде. (Страница 5)' attrs: {'x': '989', 'y': '2018.94', 'font-family': 'Noto Sans CJK SC', 'font-size': '19.5', 'fill': '#57523f', 'text-anchor': 'start'}
+--- levels CORE ---
+  p1-portada {'A2': 9, 'B1': 4, 'B2': 1} sum 14
+  p2-vida {'A2': 14, 'B1': 2} sum 16
+  p3-cultura {'A2': 11, 'B1': 7} sum 18
+  p4-deporte {'B1': 15} sum 15
+  p5-juventud {'B1': 19} sum 19
+  p6-afondo {'B2': 18} sum 18
+  p7-lengua {'A2': 4, 'B1': 4, 'B2': 4} sum 12
+  p8-ejercicios {'B1': 21, 'A2': 11, 'B2': 3} sum 35
+  TOTAL {'A2': 49, 'B1': 72, 'B2': 26} 147
+--- levels ED ---
+  p1-portada {'A2': 9, 'B1': 4, 'B2': 1} sum 14
+  p2-vida {'A2': 14, 'B1': 2} sum 16
+  p3-cultura {'A2': 11, 'B1': 7} sum 18
+  p4-deporte {'B1': 15} sum 15
+  p5-juventud {'B1': 19} sum 19
+  p6-afondo {'B2': 18} sum 18
+  p7-lengua {'A2': 4, 'B1': 4, 'B2': 4} sum 12
+  p8-ejercicios {'B1': 21, 'A2': 11, 'B2': 3} sum 35
+  TOTAL {'A2': 49, 'B1': 72, 'B2': 26} 147
+--- P7 reader section (ED) ---
+   '«¡Hola! Soy Ana, estudio español en'
+   'periódico!» — Ana （ejemplo, escrito'
+   'promesa pasa al VOL.3.'
+   'Примечание редакции: писем и лучших'
+   'пример, обещание — на VOL.3.'
+   'LA PRÓXIMA SEMANA · Следующий выпуск (VOL.3)'
+--- P7 reader section (CORE, for contrast) ---
+   '«¡Hola! Soy Ana, estudio español en'
+   'periódico!» — Ana （ejemplo, escrito'
+   'promesa pasa al VOL.3.'
+   '者来信与第 8 版最佳作文，故本期登载编辑'
+   '部示例信，承诺顺延至 VOL.3。欢迎来信！'
+   'LA PRÓXIMA SEMANA · 下期预告 (VOL.3)'
+--- invitation hunt ED (all pages) ---
+p1-portada CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p2-vida CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p3-cultura CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p4-deporte CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p5-juventud CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p6-afondo CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+p7-lengua CJK chars: Counter({'（': 1, '）': 1})
+   forbidden term count: 0
+   orphan-start texts: []
+p8-ejercicios CJK chars: Counter()
+   forbidden term count: 0
+   orphan-start texts: []
+--- build-tree non-rendered CJK check ---
+content7.py CJK chars: Counter({'高': 2, '模': 2, '拟': 2, '（': 2, '）': 2, '盒': 1, '绘': 1, '制': 1, '循': 1, '环': 1, '精': 1, '确': 1, '回': 1, '补': 1, '修': 1, '法': 1, '：': 1, '逐': 1, '项': 1, '，': 1, '不': 1, '用': 1, '平': 1, '均': 1, '行': 1})
+   line 70: # 盒高 = 绘制循环精确模拟（W43 回补修法：逐项模拟，不用平均行高）
+   line 95: lt = "«¡Hola! Soy Ana, estudio español en Shanghái. El lunes 2 no tengo puente, pero el domingo veo el Atlético–Barça co
+svglib.py CJK chars: Counter({'重': 1, '阳': 1})
+   line 120: """Mountains, sun, two stick climbers, chrysanthemums — for 重阳."""
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45-es-ru-transform.py forbidden-term count: 0
+--- furniture ED vs W43 ---
+badge P1: ED=[('975', '372', '19.5', '700', 'ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'), ('65', '2624', '20', None, 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ')]
+   W43=[('975', '372', '19.5', '700', 'ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'), ('65', '2624', '20', None, 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ')]
+footer: ED=[('975', '330', '46', '700', 'ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL'), ('65', '2624', '20', None, 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ')]
+   W43=[('975', '330', '46', '700', 'ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1'), ('65', '2624', '20', None, 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ')]
+top band: ED=[('975', '92', '21', None, 'CADA SEMANA EN ESPAÑOL · КАЖДУЮ НЕДЕЛЮ · ИСПАНСКИЙ ГЛАЗАМИ ИСПАНИИ')]
+   W43=[('975', '92', '21', None, 'CADA SEMANA EN ESPAÑOL · КАЖДУЮ НЕДЕЛЮ · ИСПАНСКИЙ ГЛАЗАМИ ИСПАНИИ')]
+masthead line: ED=[('975', '330', '46', '700', 'ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL')]
+   W43=[('975', '330', '46', '700', 'ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1')]
+gloss prefix P2: ED=[('1007', '567.22', '20.5', None, 'Пояснение — festivo = выходной · el')]
+   W43=[('1007', '414.88', '20.5', None, 'Пояснение — el horario de verano =')]
+P8 sep: ED=[('65', '1342', '14', '700', '— СТРАНИЦА 1 —'), ('65', '1673.3040000000017', '14', '700', '— СТРАНИЦА 2 —'), ('65', '2217.696000000003', '14', '700', '— СТРАНИЦА 3 —'), ('527', '1643.7920000000017', '14', '700', '— СТРАНИЦА 4 —'), ('527', '2232.5360000000037', '14', '700', '— СТРАНИЦА 5 —'), ('989', '1569.8720000000012', '14', '700', '— СТРАНИЦА 6 —'), ('989', '2143.8320000000035', '14', '700', '— СТРАНИЦА 7 —'), ('989', '2517.3200000000024', '14', '700', '— СТРАНИЦА 8 —')]
+   W43=[('65', '1342', '14', '700', '— СТРАНИЦА 1 —'), ('65', '1670.8400000000008', '14', '700', '— СТРАНИЦА 2 —'), ('65', '2236.960000000001', '14', '700', '— СТРАНИЦА 3 —'), ('527', '1579.2800000000007', '14', '700', '— СТРАНИЦА 4 —'), ('527', '2145.4000000000015', '14', '700', '— СТРАНИЦА 5 —'), ('989', '1490.3000000000004', '14', '700', '— СТРАНИЦА 6 —'), ('989', '2056.420000000002', '14', '700', '— СТРАНИЦА 7 —'), ('989', '2444.58', '14', '700', '— СТРАНИЦА 8 —')]
+section VIDA: ED=[('78', '116', '36', '700', 'VIDA · Жизнь')]
+   W43=[('78', '116', '36', '700', 'VIDA · Жизнь')]
+section CULTURA: ED=[('78', '116', '36', '700', 'CULTURA · Культура')]
+   W43=[('78', '116', '36', '700', 'CULTURA · Культура')]
+section DEPORTE: ED=[('78', '116', '36', '700', 'DEPORTE · Спорт')]
+   W43=[('78', '116', '36', '700', 'DEPORTE · Спорт')]
+section JUVENTUD: ED=[('78', '116', '36', '700', 'JUVENTUD · Молодёжь')]
+   W43=[('78', '116', '36', '700', 'JUVENTUD · Молодёжь')]
+section A FONDO: ED=[('78', '116', '36', '700', 'A FONDO · Разбор')]
+   W43=[('78', '116', '36', '700', 'A FONDO · Разбор')]
+section LENGUA: ED=[('78', '116', '36', '700', 'LENGUA · Язык')]
+   W43=[('78', '116', '36', '700', 'LENGUA · Язык')]
+section EJERCICIOS: ED=[('78', '116', '36', '700', 'EJERCICIOS Y RESPUESTAS · Упражнения и ответы')]
+   W43=[('78', '116', '36', '700', 'EJERCICIOS Y RESPUESTAS · Упражнения и ответы')]
+p1-portada ED footer-ish: ['ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL', 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 1 из 8'] | W43: ['ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1', 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 1 из 8']
+p2-vida ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 2 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 2 из 8']
+p3-cultura ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 3 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 3 из 8']
+p4-deporte ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 4 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 4 из 8']
+p5-juventud ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 5 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 5 из 8']
+p6-afondo ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 6 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 6 из 8']
+p7-lengua ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 7 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 7 из 8']
+p8-ejercicios ED footer-ish: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 8 из 8'] | W43: ['La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ', 'Страница 8 из 8']
+ED badge attrs: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK SC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'} 'ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+ED badge attrs: {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'} 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+W43 badge attrs: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK SC', 'font-size': '19.5', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'} 'ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+W43 badge attrs: {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'} 'La Lucerna · ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИСПАНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'

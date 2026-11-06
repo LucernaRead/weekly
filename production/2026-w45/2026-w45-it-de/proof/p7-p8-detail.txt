@@ -1,0 +1,64 @@
+--- P7 wordbox CORE: nodes containing 'assaggio'
+   "« l'assaggio » è la prova di un cibo:"
+   'assaggio = 品尝。本周见第 3 版：潘妮托尼'
+   'la sciarpa, sabato assaggio il'
+--- P7 wordbox ED: nodes containing 'assaggio'
+   "« l'assaggio » è la prova di un cibo:"
+   'assaggio = Kostprobe. Seite 3: gratis'
+   'la sciarpa, sabato assaggio il'
+P7 definition verbatim in CORE: True
+P7 definition verbatim in ED: True
+--- key 6
+   CORE: '6. previsioni — previsioni = 预报（复数）'
+   ED  : '6. previsioni — previsioni = Vorhersagen (Plural)'
+--- key 13
+   CORE: '13. guanti — guanti = 手套（复数）'
+   ED  : '13. guanti — guanti = Handschuhe (Plural)'
+--- key 14
+   CORE: '14. crisantemi — crisantemi = 菊花（复数）'
+   ED  : '14. crisantemi — crisantemi = Chrysanthemen (Plural)'
+--- key 15
+   CORE: '15. termosifoni — termosifoni = 暖气片（复数）'
+   ED  : '15. termosifoni — termosifoni = Heizkörper (Plural)'
+--- key 16
+   CORE: '16. fa — fare freddo：fa freddo（天气）'
+   ED  : '16. fa — fare freddo: fa freddo (Wetter)'
+--- key 20
+   CORE: '20. resta — restare：la scuola → resta（lei）'
+   ED  : '20. resta — restare: la scuola → resta (lei)'
+--- key 38
+   CORE: '38. mandorle — mandorle = 杏仁（复数）'
+   ED  : '38. mandorle — mandorle = Mandeln (Plural)'
+--- key 58
+   CORE: '58. più bella — più + bella 周日晚最美（主观评价）'
+   ED  : '58. più bella — più + bella: Sonntagabend am schönsten (subjektiv)'
+--- key 71
+   CORE: '71. gratuiti — gratuiti = 免费的（阳性复数）'
+   ED  : '71. gratuiti — gratuiti = kostenlos (maskulin, Plural)'
+--- key 74
+   CORE: '74. castagne — castagne arrosto 烤栗子（复数）'
+   ED  : '74. castagne — castagne arrosto = geröstete Kastanien (Plural)'
+--- key 77
+   CORE: '77. ci sarà — esserci 将来时：ci sarà（将有）'
+   ED  : '77. ci sarà — esserci, Futur: ci sarà (es wird geben)'
+--- key 102
+   CORE: '102. fa — fa freddo = 天气冷'
+   ED  : '102. fa — fa freddo = es ist kalt (Wetter)'
+--- key 137
+   CORE: '137. // 137. 周一第一场寒冷来了。 — 对照原文'
+   ED  : '137. // 137. Am Montag kommt die erste Kälte. — Vgl. den Originaltext'
+--- key 138
+   CORE: '138. // 138. 观众可以免费品尝。 — assaggiare gratis = 免费品尝'
+   ED  : '138. // 138. Das Publikum darf gratis kosten. — assaggiare gratis = gratis'
+--- key 139
+   CORE: '139. // 139. 周日晚上，佛罗伦萨对尤文图斯。 — si gioca = 进行比赛'
+   ED  : '139. // 139. Am Sonntagabend spielt Fiorentina gegen Juventus. — si gioca ='
+--- key 140
+   CORE: '140. // 140. Ogni previsione deve essere chiara. — dovere = 必须'
+   ED  : '140. // 140. Ogni previsione deve essere chiara. — dovere = müssen'
+CORE P8: full-width （ count=14 ） count=14 | half-width ( count=13 ) count=13 | full-width colon ： count=23 | ascii colon : count=8
+ED P8: full-width （ count=0 ） count=0 | half-width ( count=28 ) count=28 | full-width colon ： count=0 | ascii colon : count=50
+CORE P8: CJK chars=966
+ED P8: CJK chars=0
+ED p8-valutazione.svg: PAGINA=['— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —'] SEITE=[]
+CORE p8-valutazione.svg: PAGINA=['— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —'] SEITE=[]

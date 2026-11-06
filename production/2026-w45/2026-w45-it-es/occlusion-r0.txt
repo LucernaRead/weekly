@@ -1,0 +1,37 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-it-es/svg: 17 flags {'BOXTITLE': 2, 'COVER': 1, 'LINEX': 4, 'TEXTX': 10}
+  [COVER] p1-prima.svg 'A2' — 100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]
+  [LINEX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [LINEX] p1-prima.svg 'Fiorentina–Juventus si giocano ___ 8' — later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink
+  [LINEX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [LINEX] p1-prima.svg 'otoño suave.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  [TEXTX] p1-prima.svg '6.' — ink overlaps '5.' by 22.0x18.0px
+  [TEXTX] p1-prima.svg 'A2' — ink overlaps 'B1' by 23.8x14.0px
+  [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px
+  [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px
+  [TEXTX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px
+  [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'della media.' by 120.0x6.5px
+  [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px
+  [TEXTX] p1-prima.svg 'della media.' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px
+  [TEXTX] p1-prima.svg 'novembre.' — ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px
+  [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · LA CLAVE' — ink crosses its box borders: right ink 975.0 > border 961.0
+  [BOXTITLE] p7-lingua.svg 'final del Panettone se prueba gratis.' — ink crosses its box borders: bottom ink 1314.0 > border 1313.5
+  [TEXTX] p8-valutazione.svg '150. ✓ El modelo está en la sección H (81 palabras)' — ink overlaps '149. B — La fiesta dura hasta el 22 de n' by 302.0x11.0px
+core: 0 flags; NEW vs core: 17
+  NEW [COVER] p1-prima.svg 'A2' — 100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]
+  NEW [LINEX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [LINEX] p1-prima.svg 'Fiorentina–Juventus si giocano ___ 8' — later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink
+  NEW [LINEX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [LINEX] p1-prima.svg 'otoño suave.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+  NEW [TEXTX] p1-prima.svg '6.' — ink overlaps '5.' by 22.0x18.0px
+  NEW [TEXTX] p1-prima.svg 'A2' — ink overlaps 'B1' by 23.8x14.0px
+  NEW [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px
+  NEW [TEXTX] p1-prima.svg 'Le ___ parlano di un novembre più freddo' — ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px
+  NEW [TEXTX] p1-prima.svg 'Genoa–Milan, Inter–Como e' — ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px
+  NEW [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'della media.' by 120.0x6.5px
+  NEW [TEXTX] p1-prima.svg 'IL FREDDO È ARRIVATO' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px
+  NEW [TEXTX] p1-prima.svg 'della media.' — ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px
+  NEW [TEXTX] p1-prima.svg 'novembre.' — ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px
+  NEW [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · LA CLAVE' — ink crosses its box borders: right ink 975.0 > border 961.0
+  NEW [BOXTITLE] p7-lingua.svg 'final del Panettone se prueba gratis.' — ink crosses its box borders: bottom ink 1314.0 > border 1313.5
+  NEW [TEXTX] p8-valutazione.svg '150. ✓ El modelo está en la sección H (81 palabras)' — ink overlaps '149. B — La fiesta dura hasta el 22 de n' by 302.0x11.0px

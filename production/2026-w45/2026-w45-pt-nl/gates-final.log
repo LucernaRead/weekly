@@ -1,0 +1,82 @@
+== 1. CJK per page (rendered text nodes) ==
+  p1-capa: edition CJK 0 (core 156 )
+  p2-vida: edition CJK 0 (core 177 )
+  p3-cultura: edition CJK 0 (core 153 )
+  p4-esporte: edition CJK 0 (core 148 )
+  p5-jovens: edition CJK 0 (core 223 )
+  p6-aprofundamento: edition CJK 0 (core 118 )
+  p7-lingua: edition CJK 0 (core 357 )
+  p8-avaliacao: edition CJK 0 (core 1123 )
+== 2. English/other-family apparatus residual scan (all 8 pages) ==
+  hits: NONE (0)
+== 3. Footer / badge / page lines ==
+  p1-capa: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 1 van 8']
+  p2-vida: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 2 van 8']
+  p3-cultura: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 3 van 8']
+  p4-esporte: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 4 van 8']
+  p5-jovens: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 5 van 8']
+  p6-aprofundamento: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 6 van 8']
+  p7-lingua: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 7 van 8']
+  p8-avaliacao: footer_ok=True left=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] right=['Pagina 8 van 8']
+  P1 badge: [('TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS', 19.0, True, 'Noto Sans CJK SC')]
+  P1 subtitle: [('PORTUGEES WEEKBLAD · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE', 34.0)]
+== 4. Gloss counts (build-source gloss() strings, split on U+00B7 itself) ==
+  p2-vida: core 6 edition 6 missing_in_render=[]
+  p3-cultura: core 6 edition 6 missing_in_render=[]
+  p4-esporte: core 5 edition 5 missing_in_render=[]
+  p5-jovens: core 5 edition 5 missing_in_render=[]
+  p6-aprofundamento: core 4 edition 4 missing_in_render=[]
+  TOTAL gloss items core 26 edition 26
+== 5. P7 quotes: 2x each, tagged page, PT verbatim ==
+  'Do feriadão à prova: a semana do Enem' total=2 tag=Página 1 on_tagged_page=True
+  'Muita gente viaja, visita a família e vai ao cemitér' total=2 tag=Página 1 on_tagged_page=True
+  'Finados é o dia da memória' total=2 tag=Página 2 on_tagged_page=True
+  'lembrar é um jeito de continuar perto' total=2 tag=Página 3 on_tagged_page=True
+  'cada ponto vale uma posição, cada gol vale uma histó' total=2 tag=Página 4 on_tagged_page=True
+  'quem dorme bem lembra melhor' total=2 tag=Página 5 on_tagged_page=True
+  'primeiro as fáceis, depois as difíceis' total=2 tag=Página 6 on_tagged_page=True
+  'Confira o cartão, durma bem, chegue cedo' total=2 tag=Página 2 on_tagged_page=True
+== 6. P7 word box + readers corner ==
+  wt PT verbatim in edition: True | in core: True
+  disc_pt verbatim in edition: True
+  example letter lt identical: True
+  NL corner fragment 'Voorbeeld van de redactie — geen echte brief': True
+  NL corner fragment 'Stuur je brief op': True
+  NL corner fragment 'de beste verschijnen op pagina 7 in VOL.3': True
+  NL corner fragment 'Opmerking van de redactie': True
+  NL corner fragment 'waren nog niet binnen': True
+  NL corner fragment 'het voorbeeld blijft, de belofte gaat naar VO': True
+== 7. P8 key-token comparison (dash style: token before first ' — ') ==
+  numbers compared: core 38 edition 38; token diffs: [137, 138]
+    137: core='11 月 8 日周日是高考的第一天。' edition='Zondag 8 november is de eerste dag van het Enem.'
+    138: core='周日前核对确认卡。' edition='Controleer je kaart vóór zondag.'
+== 8. Same-baseline ink overlap scan (PIL, all pages) ==
+  same-baseline overlap flags: 0
+== 9. Frame / right-edge scan (ADVANCE method; frames outer 28..1922, inner 40..1910) ==
+  p1-capa: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p2-vida: max_adv_right=1897.2 min_adv_left=65.0 defects=NONE
+  p3-cultura: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p4-esporte: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p5-jovens: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p6-aprofundamento: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p7-lingua: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+  p8-avaliacao: max_adv_right=1885.0 min_adv_left=65.0 defects=NONE
+== 10. P6 chart-label coverage, baseline-anchored ink vs later rects ==
+  label 'prova': ink=(65.0, 307.3, 173.0, 337.3) coverage=0.0%
+  label 'portões abertos': ink=(87.0, 1673.0, 247.0, 1695.0) coverage=0.0%
+  label '60 min': ink=(373.1, 1674.0, 439.1, 1690.0) coverage=0.0%
+  label 'espera': ink=(87.0, 1723.0, 155.0, 1739.0) coverage=0.0%
+  label '30 min': ink=(235.4, 1718.0, 301.4, 1734.0) coverage=0.0%
+  label 'prova': ink=(87.0, 1767.0, 146.0, 1783.0) coverage=0.0%
+  label '330 min': ink=(676.2, 1762.0, 753.2, 1778.0) coverage=0.0%
+== 11. Image blob + credit ==
+  image blobs edition==core: True ['fd231e77993f09e01dc7ef7202720b1b2a822c077a500d8176905c0830ea56be']
+  credit line present: True
+  CREDITS.md: # Image credits — A Lucerna VOL.2 (PT core, W45)
+
+- `estudo.jpg` (P1, students studying in a library) — CC0, Gary Todd / Wikimedia Commons.
+  Reused from the W43 PT core build with the same credit line printed on P1:
+  “Foto: Gary Todd / Wikimedia Commons — CC0”.
+
+All other visuals on P1–P8 are original charts/tables built from verified facts
+(Enem day-8 times, fixture schedule, week calendar). No other photo is used.

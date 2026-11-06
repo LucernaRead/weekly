@@ -1,0 +1,16 @@
+===== CORE =====
+  label x=1011.0 y=1717.0 size=21.0 bold=True text='Inmigración' ink_end=1144.25
+  rect after/near: <rect x="1139" y="1668" width="417.75" height="22" rx="0" fill="#a4553a"/>
+  rect after/near: <rect x="1139" y="1699" width="156.75" height="22" rx="0" fill="#a4553a"/>
+  rect after/near: <rect x="1139" y="1730" width="152.25" height="22" rx="0" fill="#a4553a"/>
+  BAR x=1139: <rect x="1139" y="1668" width="417.75" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15067 vs label pos 15265)
+  BAR x=1139: <rect x="1139" y="1699" width="156.75" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15407 vs label pos 15265)
+  BAR x=1139: <rect x="1139" y="1730" width="152.25" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15744 vs label pos 15265)
+===== ED =====
+  label x=1011.0 y=1717.0 size=21.0 bold=True text='Inmigración' ink_end=1144.25
+  rect after/near: <rect x="1139" y="1668" width="417.75" height="22" rx="0" fill="#a4553a"/>
+  rect after/near: <rect x="1139" y="1699" width="156.75" height="22" rx="0" fill="#a4553a"/>
+  rect after/near: <rect x="1139" y="1730" width="152.25" height="22" rx="0" fill="#a4553a"/>
+  BAR x=1139: <rect x="1139" y="1668" width="417.75" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15100 vs label pos 15298)
+  BAR x=1139: <rect x="1139" y="1699" width="156.75" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15440 vs label pos 15298)
+  BAR x=1139: <rect x="1139" y="1730" width="152.25" height="22" rx="0" fill="#a4553a"/>  (paint order pos 15777 vs label pos 15298)

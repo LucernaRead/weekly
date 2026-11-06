@@ -1,0 +1,317 @@
+=== 1. 桥接 scan: 8 SVG + 5 content ===
+  p1-prima.svg: 桥接=0 桥=0
+  p2-vita.svg: 桥接=0 桥=0
+  p3-cultura.svg: 桥接=0 桥=0
+  p4-sport.svg: 桥接=0 桥=0
+  p5-giovani.svg: 桥接=0 桥=0
+  p6-approfondimento.svg: 桥接=0 桥=0
+  p7-lingua.svg: 桥接=0 桥=0
+  p8-valutazione.svg: 桥接=0 桥=0
+  content12.py: 桥接=0 桥=0
+  content34.py: 桥接=0 桥=0
+  content56.py: 桥接=0 桥=0
+  content7.py: 桥接=0 桥=0
+  content8.py: 桥接=0 桥=0
+=== 2. stripped non-CJK multiset diff per page (Italian freeze) ===
+-- p1-prima: core-only 2 edition-only 3
+   CORE-only: '“”：。'
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : ' ·  — '
+   ED-only  : '「」：。'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p2-vita: core-only 1 edition-only 1
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p3-cultura: core-only 1 edition-only 1
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p4-sport: core-only 1 edition-only 1
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p5-giovani: core-only 1 edition-only 1
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p6-approfondimento: core-only 1 edition-only 1
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p7-lingua: core-only 5 edition-only 5
+   CORE-only: '（）；“”'
+   CORE-only: ' ho freddo，“” fa freddo。'
+   CORE-only: '，。'
+   CORE-only: '，VOL.3  8 '
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : '（）；「」'
+   ED-only  : ' ho freddo，「」 fa freddo。'
+   ED-only  : '，；'
+   ED-only  : ' 8 。，VOL.3 '
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+-- p8-valutazione: core-only 11 edition-only 11
+   CORE-only: 'RISPOSTE ·  — ，'
+   CORE-only: '— PAGINA 1 —'
+   CORE-only: '— PAGINA 2 —'
+   CORE-only: '— PAGINA 3 —'
+   CORE-only: '— PAGINA 4 —'
+   CORE-only: '— PAGINA 5 —'
+   CORE-only: '— PAGINA 6 —'
+   CORE-only: '— PAGINA 7 —'
+   CORE-only: '104. B — “” ho freddo'
+   CORE-only: '— PAGINA 8 —'
+   CORE-only: 'La Lucerna ·  VOL.2 · LUCERNA ITALIAN WEEKLY'
+   ED-only  : 'RISPOSTE · （ 1–8 ）'
+   ED-only  : '—  1  —'
+   ED-only  : '—  2  —'
+   ED-only  : '—  3  —'
+   ED-only  : '—  4  —'
+   ED-only  : '—  5  —'
+   ED-only  : '—  6  —'
+   ED-only  : '—  7  —'
+   ED-only  : '104. B — 「」 ho freddo'
+   ED-only  : '—  8  —'
+   ED-only  : 'La Lucerna ·  VOL.2 ·  · '
+=== 3. CJK accounting: freeze口径 vs 纯汉字口径 ===
+  p1-prima: freeze新增=104 纯汉字新增=102 差额=2
+    非汉字freeze新增: {'「': 1, '」': 1}
+  p2-vita: freeze新增=65 纯汉字新增=65 差额=0
+  p3-cultura: freeze新增=60 纯汉字新增=60 差额=0
+  p4-sport: freeze新增=59 纯汉字新增=59 差额=0
+  p5-giovani: freeze新增=78 纯汉字新增=78 差额=0
+  p6-approfondimento: freeze新增=61 纯汉字新增=61 差额=0
+  p7-lingua: freeze新增=120 纯汉字新增=115 差额=5
+    非汉字freeze新增: {'；': 1, '「': 2, '」': 2}
+  p8-valutazione: freeze新增=424 纯汉字新增=420 差额=4
+    非汉字freeze新增: {'（': 1, '）': 1, '「': 1, '」': 1}
+  TOTAL freeze新增=971 纯汉字新增=960 差额=11
+=== 4. quotes per page core->edition ===
+  p1-prima: ldquo=1->0 rdquo=1->0 lcorner=0->1 rcorner=0->1 laquo=1->1 raquo=1->1
+  p2-vita: laquo=8->8 raquo=8->8
+  p3-cultura: 
+  p4-sport: 
+  p5-giovani: laquo=5->5 raquo=5->5
+  p6-approfondimento: laquo=5->5 raquo=5->5
+  p7-lingua: ldquo=2->0 rdquo=2->0 lcorner=0->2 rcorner=0->2 laquo=28->28 raquo=28->28
+  p8-valutazione: ldquo=1->0 rdquo=1->0 lcorner=0->1 rcorner=0->1 laquo=4->4 raquo=4->4
+=== 5. union charset: W43 ITxZHTW ∪ W43 ZHTWxIT ===
+  union size: 941
+  edition distinct CJK: 431; NOT in union: 50 -> ['仁', '側', '傳', '冷', '博', '右', '喜', '嚐', '均', '壇', '寒', '尤', '層', '左', '巧', '巾', '師', '拔', '施', '杏', '楚', '模', '櫃', '歡', '民', '永', '潘', '爭', '牛', '甜', '禦', '科', '稿', '糕', '納', '統', '繼', '莫', '衣', '託', '論', '議', '軋', '返', '追', '雪', '雷', '靈', '館', '麵']
+    仁: p8-valutazione:38. mandorle — mandorle = 杏仁（複數） || p8-valutazione:146. A — mandorle 杏仁
+    側: p1-prima:versante adriatico 亞得里亞海一側 · la
+    傳: p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫 || p8-valutazione:131. B — 傳統潘妮託尼是 Giulia 品嚐的
+    冷: p1-prima:本週迎來第一場寒冷 || p1-prima:講解｜il primo freddo 第一場寒冷 · il || p1-prima:「第一場寒冷」：溫和秋天後的第一波寒冷。
+    博: p3-cultura:A2 → B1 · Panettone, torrone e musei aperti · 甜點與博物館
+    右: p8-valutazione:8. B — 初雪在 1300–1500 米左右 || p8-valutazione:121. B — 初雪在 1300–1500 米左右
+    喜: p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫
+    嚐: p1-prima:previsione 預報 · assaggi 品嚐。 || p3-cultura:torrone 牛軋糖 · l'assaggio 品嚐 · la || p5-giovani:Cremona（週六：米蘭或克雷莫納品嚐）
+    均: p6-approfondimento:譯注｜la probabilità 機率 · la media 平均 || p8-valutazione:98. media — media = 平均值 || p8-valutazione:142. a — media=平均值 a
+    壇: p1-prima:論壇 50 多場活動） || p5-giovani:Milano（週二：米蘭文化論壇開幕） || p5-giovani:盧卡之後你去哪：文化論壇、電影還是美食
+    寒: p1-prima:本週迎來第一場寒冷 || p1-prima:初寒之週 · 詳見第 2 版 || p1-prima:講解｜il primo freddo 第一場寒冷 · il
+    尤: p8-valutazione:48. B — 週日晚上佛羅倫薩對尤文圖斯 || p8-valutazione:119. A — 佛羅倫薩對尤文圖斯在週日晚上 || p8-valutazione:139. 週日晚上，佛羅倫薩對尤文圖斯。 — si gioca = 進行比賽
+    層: p2-vita:· i guanti 手套 · a strati 分層穿衣 · il || p8-valutazione:23. C — 分層穿衣：a strati
+    左: p8-valutazione:8. B — 初雪在 1300–1500 米左右 || p8-valutazione:121. B — 初雪在 1300–1500 米左右
+    巧: p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫
+    巾: p2-vita:譯注｜il cappotto 大衣 · la sciarpa 圍巾 || p2-vita:初寒來了你穿什麼：大衣、圍巾還是手套？ || p8-valutazione:12. sciarpa — sciarpa = 圍巾
+    師: p8-valutazione:31. B — 潘妮託尼決賽有 19 國糕點師 || p8-valutazione:123. A — 潘妮託尼決賽有 19 國糕點師
+    拔: p1-prima:雪的海拔）
+    施: p3-cultura:bancarella 攤位 · il cantiere 施工現場/修
+    杏: p8-valutazione:38. mandorle — mandorle = 杏仁（複數） || p8-valutazione:146. A — mandorle 杏仁
+    楚: p8-valutazione:每個預報都必須清楚。→ ___
+    模: p6-approfondimento:值 · il modello 模型/預報模式 · il || p8-valutazione:89. B — 預報基於 ECMWF 等模型 || p8-valutazione:100. modello — modello = 預報模型
+    櫃: p8-valutazione:70. armadio — armadio = 衣櫃
+    歡: p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫
+    民: p8-valutazione:67. C — 民俗電影節在佛羅倫薩 || p8-valutazione:81. Vero — 民俗電影節在佛羅倫薩 || p8-valutazione:120. B — 民俗電影節在佛羅倫薩
+    永: p7-lingua:fa 後面的 freddo 永遠不變。
+    潘: p1-prima:Panettone a Milano（參加米蘭潘妮託尼 || p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫 || p7-lingua:assaggio = 品嚐。本週見第 3 版：潘妮託尼
+    爭: p6-approfondimento:預期日期、爭議點和 DPB 數字，不寫結果。
+    牛: p3-cultura:torrone 牛軋糖 · l'assaggio 品嚐 · la || p8-valutazione:30. C — 克雷莫納牛軋糖節到 11 月 22 日 || p8-valutazione:35. torrone — torrone = 牛軋糖
+    甜: p3-cultura:A2 → B1 · Panettone, torrone e musei aperti · 甜點與博物館
+    禦: p8-valutazione:25. c — cappotto=禦寒大衣 c
+    科: p8-valutazione:51. B — 國米對科莫在聖西羅
+    稿: p2-vita:發稿時表決結果尚未確認，詳見第 6 版。 || p6-approfondimento:發稿時 10 月 28 日表決結果尚未確認：本期只寫
+    糕: p8-valutazione:31. B — 潘妮託尼決賽有 19 國糕點師 || p8-valutazione:123. A — 潘妮託尼決賽有 19 國糕點師
+    納: p5-giovani:Cremona（週六：米蘭或克雷莫納品嚐） || p8-valutazione:4. Torrone — 克雷莫納的節日叫 Festa del Torrone || p8-valutazione:30. C — 克雷莫納牛軋糖節到 11 月 22 日
+    統: p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫 || p8-valutazione:131. B — 傳統潘妮託尼是 Giulia 品嚐的
+    繼: p7-lingua:文化繼續。 (Pagina 5)
+    莫: p5-giovani:Cremona（週六：米蘭或克雷莫納品嚐） || p8-valutazione:4. Torrone — 克雷莫納的節日叫 Festa del Torrone || p8-valutazione:30. C — 克雷莫納牛軋糖節到 11 月 22 日
+    衣: p2-vita:譯注｜il cappotto 大衣 · la sciarpa 圍巾 || p2-vita:· i guanti 手套 · a strati 分層穿衣 · il || p2-vita:初寒來了你穿什麼：大衣、圍巾還是手套？
+    託: p1-prima:Panettone a Milano（參加米蘭潘妮託尼 || p3-cultura:你更喜歡傳統潘妮託尼還是巧克力味的？寫 || p7-lingua:assaggio = 品嚐。本週見第 3 版：潘妮託尼
+    論: p1-prima:論壇 50 多場活動） || p5-giovani:Milano（週二：米蘭文化論壇開幕） || p5-giovani:盧卡之後你去哪：文化論壇、電影還是美食
+    議: p6-approfondimento:預期日期、爭議點和 DPB 數字，不寫結果。
+    軋: p3-cultura:torrone 牛軋糖 · l'assaggio 品嚐 · la || p8-valutazione:30. C — 克雷莫納牛軋糖節到 11 月 22 日 || p8-valutazione:35. torrone — torrone = 牛軋糖
+    返: p5-giovani:意甲與返程）
+    追: p2-vita:LIVELLO A2 · Il primo freddo e il 2 novembre · 初寒與追思日 || p2-vita:IL 2 NOVEMBRE · 追思日 || p7-lingua:11 月 2 日是追思日。 (Pagina 2)
+    雪: p1-prima:雪的海拔） || p8-valutazione:2. neve — la prima neve leggera = 初雪 || p8-valutazione:8. B — 初雪在 1300–1500 米左右
+    雷: p5-giovani:Cremona（週六：米蘭或克雷莫納品嚐） || p8-valutazione:4. Torrone — 克雷莫納的節日叫 Festa del Torrone || p8-valutazione:30. C — 克雷莫納牛軋糖節到 11 月 22 日
+    靈: p8-valutazione:83. B — 示例數據中最冷的是都靈 3°
+    館: p3-cultura:A2 → B1 · Panettone, torrone e musei aperti · 甜點與博物館
+    麵: p3-cultura:譯注｜il panettone 米蘭聖誕麵包 · il || p8-valutazione:34. panettone — panettone = 米蘭聖誕麵包
+=== 6. s2twp-variant scan (OpenCC) ===
+  variant chars: {'里': '裡', '栗': '慄'}
+    里->裡: p1-prima:versante adriatico 亞得里亞海一側 · la
+    栗->慄: p8-valutazione:74. castagne — castagne arrosto 烤栗子（複數）
+  只 count in edition: 0
+  只 occurrences: 3 ; contexts:
+    p6-approfondimento: 發稿時 10 月 28 日表決結果尚未確認：本期只寫
+    p7-lingua: nevicare 只用第三人稱單數。
+    p8-valutazione: 50. C — 歐戰比賽只作前瞻、無結果
+=== 7. mainland-vocab scan ===
+  代码=0 代碼=0
+  比赛项目=0 比賽項目=0
+  报道=0 報導=0
+  集市=0 市集=0
+  片语=0 片語=0
+  片語=0 詞組=2
+  把词组成=0 把詞組成=1
+  把詞組成=1 把詞組成=1
+  软件=0 軟體=0
+  视频=0 影片=0
+  打印机=0 印表機=0
+  网络=0 網路=0
+  信息=0 資訊=0
+  数据=0 數據=4
+  周报=0 週報=8
+  意大利语=0 義大利語=21
+  意大利=0 義大利=22
+  概率=0 機率=8
+  搜索=0 搜尋=0
+  TW-form 週報=8
+  TW-form 義大利語=21
+  TW-form 義大利=22
+  TW-form 數據=4
+  TW-form 詞組=2
+  TW-form 機率=8
+=== 8. svglib diffs ===
+  W45 core svglib -> W45 edition svglib: 43 diff lines
+    --- 
+    +++ 
+    @@ -5,11 +5,11 @@
+     
+     FONTS_DIR = "/usr/share/fonts/opentype/noto"
+     
+    -def _sc_index(path):
+    +def _tc_index(path):
+         for i in range(12):
+             try:
+                 f = ImageFont.truetype(path, 40, index=i)
+    -            if f.getname()[0].endswith("SC"):
+    +            if f.getname()[0].endswith("TC"):
+                     return i
+             except Exception:
+                 break
+    @@ -19,7 +19,7 @@
+     _SERIF_B = os.path.join(FONTS_DIR, "NotoSerifCJK-Bold.ttc")
+     _SANS = os.path.join(FONTS_DIR, "NotoSansCJK-Regular.ttc")
+     _SANS_B = os.path.join(FONTS_DIR, "NotoSansCJK-Bold.ttc")
+    -_IDX = {p: _sc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
+    +_IDX = {p: _tc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
+     _cache = {}
+     
+     def _font(kind, bold, size):
+    @@ -81,7 +81,7 @@
+             self.parts.append(s)
+     
+         def text(self, x, y, s, size=28, kind="serif", bold=False, fill=INK, anchor="start", spacing=None, family=None):
+    -        fam = family or ("Noto Serif CJK SC" if kind == "serif" else "Noto Sans CJK SC")
+    +        fam = family or ("Noto Serif CJK TC" if kind == "serif" else "Noto Sans CJK TC")
+             sp = f' letter-spacing="{spacing}"' if spacing else ""
+             wt = ' font-weight="700"' if bold else ""
+             self.add(f'<text x="{x}" y="{y}" font-family="{fam}" font-size="{size}"{wt} fill="{fill}" text-anchor="{anchor}"{sp}>{esc(s)}</text>')
+    @@ -117,7 +117,7 @@
+         p.add(f'<g fill="none">{inner}</g>')
+     
+     def illus_climb(p, x, y, s=1.0):
+    -    """Mountains, sun, two stick climbers, chrysanthemums — for 重阳."""
+    +    """Mountains, sun, two stick climbers, chrysanthemums — for Double Ninth."""
+         st = f'stroke="{INK}" stroke-width="{3.2*s}" stroke-linecap="round" stroke-linejoin="round"'
+         _g(p, f'''
+         <circle cx="{x+150*s}" cy="{y+26*s}" r="{17*s}" fill="{GOLD}" {st}/>
+  W43 edition svglib -> W45 edition svglib: 20 diff lines
+    --- 
+    +++ 
+    @@ -117,7 +117,7 @@
+         p.add(f'<g fill="none">{inner}</g>')
+     
+     def illus_climb(p, x, y, s=1.0):
+    -    """Mountains, sun, two stick climbers, chrysanthemums — for 重阳."""
+    +    """Mountains, sun, two stick climbers, chrysanthemums — for Double Ninth."""
+         st = f'stroke="{INK}" stroke-width="{3.2*s}" stroke-linecap="round" stroke-linejoin="round"'
+         _g(p, f'''
+         <circle cx="{x+150*s}" cy="{y+26*s}" r="{17*s}" fill="{GOLD}" {st}/>
+    @@ -141,7 +141,7 @@
+           <line x1="{cx-r}" y1="{cy}" x2="{cx+r}" y2="{cy}"/>
+           <line x1="{cx-r*0.5}" y1="{cy-r*0.87}" x2="{cx+r*0.5}" y2="{cy+r*0.87}"/>
+           <line x1="{cx+r*0.5}" y1="{cy-r*0.87}" x2="{cx-r*0.5}" y2="{cy+r*0.87}"/>
+    -      <path d="M{cx-r} {cy} l{10*s} {-7*s} M{cx-r} {cy} l{10*s} {7*s} M{cx+r} {cy} l{-10*s} {-7*s} M{cx+r} {cy} l{-10*s} {7*s}"/>
+    +      <path d="M{cx-r} {cy} L{cx-r+10*s} {cy-7*s} M{cx-r} {cy} L{cx-r+10*s} {cy+7*s} M{cx+r} {cy} L{cx+r-10*s} {cy-7*s} M{cx+r} {cy} L{cx+r-10*s} {cy+7*s}"/>
+           <circle cx="{cx}" cy="{cy}" r="{5*s}"/>
+         </g>''')
+     
+=== 9. P7 word-box definition + gloss source (static parse, no import) ===
+  core wt: « l'assaggio » è la prova di un cibo: un piccolo pezzo per decidere se piace. Questa settimana vive a pagina 3, alla finale del Panettone.
+  core lt: «Ciao! Sono Li, studio italiano a Pechino. Lunedì metto il cappotto e la sciarpa, sabato assaggio il panettone — almeno in foto!» — Li (esempio della redazione)
+  edition wt: « l'assaggio » è la prova di un cibo: un piccolo pezzo per decidere se piace. Questa settimana vive a pagina 3, alla finale del Panettone.
+  edition lt: «Ciao! Sono Li, studio italiano a Pechino. Lunedì metto il cappotto e la sciarpa, sabato assaggio il panettone — almeno in foto!» — Li (esempio della redazione)
+  content12.py: core gloss calls=1 edition=1
+    call0: core items=6 edition items=6 equal=False
+      CORE: il cappotto 大衣 · la sciarpa 围巾 · i guanti 手套 · a strati 分层穿衣 · il termosifone 暖气片 · il crisantemo 菊花
+      ED  : il cappotto 大衣 · la sciarpa 圍巾 · i guanti 手套 · a strati 分層穿衣 · il termosifone 暖氣片 · il crisantemo 菊花
+  content34.py: core gloss calls=2 edition=2
+    call0: core items=5 edition items=5 equal=False
+      CORE: il panettone 米兰圣诞面包 · il torrone 牛轧糖 · l'assaggio 品尝 · la bancarella 摊位 · il cantiere 施工现场/修复工地。
+      ED  : il panettone 米蘭聖誕麵包 · il torrone 牛軋糖 · l'assaggio 品嚐 · la bancarella 攤位 · il cantiere 施工現場/修復工地。
+    call1: core items=4 edition items=4 equal=False
+      CORE: la giornata 轮次 · la presentazione 赛前介绍 · gli spalti 看台 · la sera 晚上。
+      ED  : la giornata 輪次 · la presentazione 賽前介紹 · gli spalti 看臺 · la sera 晚上。
+  content56.py: core gloss calls=2 edition=2
+    call0: core items=4 edition items=4 equal=False
+      CORE: il cosplay 角色扮演服装 · gratuito 免费的 · il documentario 纪录片 · lo schermo 银幕。
+      ED  : il cosplay 角色扮演服裝 · gratuito 免費的 · il documentario 紀錄片 · lo schermo 銀幕。
+    call1: core items=5 edition items=5 equal=False
+      CORE: la probabilità 概率 · la media 平均值 · il modello 模型/预报模式 · il bollettino 公报/预报 · aggiornare 更新。
+      ED  : la probabilità 機率 · la media 平均值 · il modello 模型/預報模式 · il bollettino 公報/預報 · aggiornare 更新。
+=== 10. P7 gold sentences + (Pagina N) ===
+  core (Pagina N) in P7: Counter({'(Pagina 1)': 2, '(Pagina 2)': 2, '(Pagina 3)': 1, '(Pagina 4)': 1, '(Pagina 5)': 1, '(Pagina 6)': 1})
+  core P7 text count: 3714 chars
+  edition (Pagina N) in P7: Counter({'(Pagina 1)': 2, '(Pagina 2)': 2, '(Pagina 3)': 1, '(Pagina 4)': 1, '(Pagina 5)': 1, '(Pagina 6)': 1})
+  edition P7 text count: 3712 chars
+=== 11. P8 keys full compare (p8.py extract, then first-segment check) ===
+  core: extract via p8 module attrs: ['CJK', 'HEADER_RE', 'T', 'TEXT_RE', 'answers_elements', 'argparse', 'compare', 'detect_note', 'extract', 'html', 'is_header', 'join2', 'json', 'last_paren_group', 'load_texts', 'main', 'norm', 'os', 'p8_path', 're', 'split_joined', 'split_lines', 'sys']
+=== 12. furniture vs W43 ===
+  edition badge: [('p1-prima', '義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本')]
+  edition footer count: 8
+  W43 footer: [('p1-prima', 'La Lucerna · 義大利語週報 VOL.1 · 正文義大利語 · 講解繁體中文'), ('p2-vita', 'La Lucerna · 義大利語週報 VOL.1 · 正文義大利語 · 講解繁體中文')]
+  edition page lines: [('p1-prima', '第 1 版 / 共 8 版'), ('p2-vita', '第 2 版 / 共 8 版'), ('p3-cultura', '第 3 版 / 共 8 版'), ('p4-sport', '第 4 版 / 共 8 版'), ('p5-giovani', '第 5 版 / 共 8 版'), ('p6-approfondimento', '第 6 版 / 共 8 版'), ('p7-lingua', '第 7 版 / 共 8 版'), ('p8-valutazione', '第 8 版 / 共 8 版')]
+  edition gloss prefix 譯注｜: 5 講解｜: [('p1-prima', '講解｜il primo freddo 第一場寒冷 · il')]
+  edition P8 head: [('p8-valutazione', 'VALUTAZIONE E RISPOSTE · 練習與答案'), ('p8-valutazione', 'RISPOSTE · 全部答案與簡析（第 1–8 版）')]
+  edition P8 separators: [('p8-valutazione', '— 第 1 版 —'), ('p8-valutazione', '— 第 2 版 —'), ('p8-valutazione', '— 第 3 版 —'), ('p8-valutazione', '— 第 4 版 —'), ('p8-valutazione', '— 第 5 版 —'), ('p8-valutazione', '— 第 6 版 —'), ('p8-valutazione', '— 第 7 版 —'), ('p8-valutazione', '— 第 8 版 —')]
+  edition P8 band: [('p8-valutazione', 'VALUTAZIONE E RISPOSTE · 練習與答案')]
+  W43 badge element: xt-anchor="middle">IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA</text><line x1="65" y1="392" x2="1885" y2="392" stroke="#28251d" stroke-width="3"/><line x1="65" y1="401" x2="1885" y2="401" stroke="#28251d" stroke-width="1.2"/> || 義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本
+  W45 badge element: ><text x="1855" y="478" font-family="Noto Sans CJK TC" font-size="24" font-weight="700" fill="#b3a06a" text-anchor="end">本週迎來第一場寒冷</text><text x="1855" y="522" font-family="Noto Sans CJK TC" font-size="21" fill="#b3a06a" text-anchor="end">初寒之週 · 詳見第 2 版</text> || 義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本
+=== 13. images: raster payload hash core vs edition ===
+  core: {'p3-cultura': ['9ea4244b4d216b67'], 'p5-giovani': ['d6bc00b109d273c4']}
+  edition: {'p3-cultura': ['9ea4244b4d216b67'], 'p5-giovani': ['d6bc00b109d273c4']}
+  equal: True
+  credit p1-prima: Disegno della redazione
+  credit p3-cultura: Foto: Wikimedia Commons — dominio pubblico
+  credit p5-giovani: Foto: Wikimedia Commons — CC0
+=== 14. P7 disclosure joined + in-box geometry ===
+  disclosure fragments: ['這是編輯部示例信，非真實來信；本期無最', '佳第 8 版作文。請寄來信，VOL.3 刊登真實']
+  joined: 這是編輯部示例信，非真實來信；本期無最佳第 8 版作文。請寄來信，VOL.3 刊登真實
+  disclosure text at x=1473 y=Noto Sans CJK TC: 這是編輯部示例信，非真實來信；本期無最
+  disclosure text at x=1473 y=Noto Sans CJK TC: 佳第 8 版作文。請寄來信，VOL.3 刊登真實
+  P7 letter tag present: True
+=== 15. ABSTRACT checks ===
+  lines: 1 (trailing newline only expected: True)
+  ascii dquote: 0 ; text: La Lucerna 義大利語週報 VOL.2：跟著第一場寒冷讀義大利語——米蘭潘妮託尼決賽、克雷莫納牛軋糖節、意甲第 11 輪與天氣預報怎麼讀，A2–B2 共 150 題，適合想學義大利語的繁體中文讀者以閱讀學義大利文。
+  has 義大利語: True ; 150題: True ; A2–B2: True ; La Lucerna: True
+=== 16. level tags + exercise numbers from SVG ===
+  core: [A2]=0 [B1]=0 [B2]=0
+  core: A2→ etc variants: Counter({'A2 → B1': 2, 'A2→B1': 1})
+  edition: [A2]=0 [B1]=0 [B2]=0
+  edition: A2→ etc variants: Counter({'A2 → B1': 2, 'A2→B1': 1})
+=== 17. transform-log / build residue checks ===
+  transform-log last lines: ["svglib.py: 1x '_IDX = {p: _sc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}' -> '_IDX = {p: _tc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}'", 'svglib.py: 1x \'("Noto Serif CJK SC" if kind == "serif" else "Noto Sans CJK SC")\' -> \'("Noto Serif CJK TC" if kind == "serif" else "Noto Sans CJK TC")\'', "svglib.py: 1x 'for 重阳.' -> 'for Double Ninth.'"]
+  transform.py: 重阳=1 Double Ninth=1
+  svglib.py: 重阳=0 Double Ninth=1
+  (no residue lines above = clean)
+=== 18. PDF page counts ===
+  La-Lucerna-VOL2-ZHTW.pdf: 8 pages
+  La-Lucerna-VOL2-ZHTW-web.pdf: 8 pages
