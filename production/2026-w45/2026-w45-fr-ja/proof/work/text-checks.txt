@@ -1,0 +1,23 @@
+ED p2-vie.svg '注意': 1 -> ['に注意）。']
+ED p2-vie.svg '注：': 1 -> ['lundi 2 novembre · 注：1日は le premier、それ以外は基数詞']
+ED p2-vie.svg '注': 2 -> ['lundi 2 novembre · 注：1日は le premier、それ以外は基数詞', 'に注意）。']
+CO p2-vie.svg '注意': 2 -> ['lundi 2 novembre · 注意：1 日说 le premier，其余用基数词', '用法语补全日期（注意星期与数字）。']
+CO p2-vie.svg '注：': 0 -> []
+ED p3-culture.svg '注意': 0 -> []
+ED p3-culture.svg '注：': 1 -> ['注：ディエップのホタテ祭りは11月14〜15']
+ED p3-culture.svg '注': 1 -> ['注：ディエップのホタテ祭りは11月14〜15']
+CO p3-culture.svg '注意': 1 -> ['注意：迪耶普扇贝集市在 11 月 14–15 日，不']
+CO p3-culture.svg '注：': 0 -> []
+ED P8 135. ['135.', 'le texte lundi. (il est prévu que + 接続法) · 135. 日程表を読む']
+ED P8 150. ['150. 自由記述 — ポイントは作文欄に、範文はこのページの作']
+CO P8 135. ['135.', '· 135. 读一份日程，本身就是在了解法国。（lire un']
+CO P8 150. ['· 150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要']
+p1-une.svg 40e count 0 41e count 0 54e 0
+p2-vie.svg 40e count 0 41e count 0 54e 0
+p3-culture.svg 40e count 0 41e count 0 54e 0
+p4-sport.svg 40e count 1 41e count 1 54e 0
+  41e lines: ['41e édition en 2026 (40e']
+p5-jeunesse.svg 40e count 0 41e count 0 54e 0
+p6-politique.svg 40e count 0 41e count 0 54e 0
+p7-langue.svg 40e count 0 41e count 0 54e 0
+p8-exercices.svg 40e count 0 41e count 0 54e 0

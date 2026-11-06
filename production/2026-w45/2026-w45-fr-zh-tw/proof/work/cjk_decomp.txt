@@ -1,0 +1,210 @@
+--- P1: strings +22 -22 | CJK 202->202 (delta 0) | addedCJKinst 89 distinct 41
+--- P2: strings +23 -23 | CJK 244->244 (delta 0) | addedCJKinst 83 distinct 50
+--- P3: strings +26 -27 | CJK 179->176 (delta -3) | addedCJKinst 61 distinct 39
+--- P4: strings +26 -26 | CJK 197->199 (delta 2) | addedCJKinst 71 distinct 46
+--- P5: strings +22 -22 | CJK 177->177 (delta 0) | addedCJKinst 70 distinct 41
+--- P6: strings +23 -23 | CJK 198->198 (delta 0) | addedCJKinst 69 distinct 45
+--- P7: strings +32 -33 | CJK 390->408 (delta 18) | addedCJKinst 150 distinct 83
+--- P8: strings +101 -107 | CJK 1030->840 (delta -190) | addedCJKinst 315 distinct 127
+P1 removedCJK inst=89 distinct=41 | addedCJK inst=89 | check delta=0
+P2 removedCJK inst=83 distinct=50 | addedCJK inst=83 | check delta=0
+P3 removedCJK inst=64 distinct=42 | addedCJK inst=61 | check delta=-3
+P4 removedCJK inst=69 distinct=44 | addedCJK inst=71 | check delta=2
+P5 removedCJK inst=70 distinct=41 | addedCJK inst=70 | check delta=0
+P6 removedCJK inst=69 distinct=45 | addedCJK inst=69 | check delta=0
+P7 removedCJK inst=132 distinct=71 | addedCJK inst=150 | check delta=18
+  P7 removed top: [('点', 13), ('语', 11), ('周', 6), ('词', 6), ('错', 6), ('动', 4), ('编', 4), ('辑', 4), ('读', 3), ('评', 3), ('讲', 2), ('战', 2)]
+  P7 added top: [('點', 13), ('語', 11), ('週', 6), ('詞', 6), ('錯', 6), ('動', 4), ('來', 4), ('編', 4), ('輯', 4), ('讀', 3), ('見', 3), ('評', 3)]
+P8 removedCJK inst=505 distinct=124 | addedCJK inst=315 | check delta=-190
+  P8 removed full-width parens: 97 97  added half-width parens are ASCII (not CJK)
+  P8 removed top: [('（', 97), ('）', 97), ('周', 26), ('赛', 18), ('决', 15), ('节', 10), ('场', 8), ('复', 8), ('写', 7), ('语', 7), ('与', 6), ('词', 6)]
+  P8 added top: [('週', 26), ('賽', 18), ('決', 15), ('節', 10), ('場', 8), ('寫', 7), ('語', 7), ('與', 6), ('詞', 6), ('貝', 6), ('議', 6), ('們', 5)]
+
+=== CJK-stripped multiset diff (French + Latin + punctuation skeleton) ===
+P1: stripped +0 -0
+P2: stripped +0 -0
+P3: stripped +1 -2
+    ADDED  x1 'ne...jamais / ne...plus / ne...pas'
+    REMOVED x1 ''
+    REMOVED x1 ' ne...jamais / ne...plus / ne...pas'
+P4: stripped +0 -0
+P5: stripped +0 -0
+P6: stripped +0 -0
+P7: stripped +2 -3
+    ADDED  x1 ' 8 VOL.4 '
+    ADDED  x1 ' VOL.4 '
+    REMOVED x2 ''
+    REMOVED x1 'VOL.4 '
+P8: stripped +83 -89
+    ADDED  x1 '1. finales ( 8 ) · 2. nocturne · 3. coquilles ('
+    ADDED  x1 ') · 4. reprend ( 2 ) · 5.'
+    ADDED  x1 'samedi soir · 6. saveurs · 7. C ( 8 ) · 8. A ('
+    ADDED  x1 ') · 9. B · 10. A ( 7 )'
+    ADDED  x1 '11. lundi () · 12. 1er · 13. samedi ('
+    ADDED  x1 ') · 14. dimanche () · 15. Les élèves'
+    ADDED  x1 'vont reprendre les cours lundi. · 16. Nous allons lire vingt'
+    ADDED  x1 'pages ce soir. · 17. Tu vas préparer ton cartable ce soir. (tu'
+    ADDED  x1 '→ vas) · 18. Vous allez raconter vos vacances lundi. · 19. C'
+    ADDED  x1 '() · 20. B · 21. A (11 )'
+    ADDED  x1 '· 22. a · 23. b · 24. c · 25. d'
+    ADDED  x1 '26. Vrai · 27. Vrai () · 28. Faux ('
+    ADDED  x1 ') · 29. Faux · 30. Vrai · 31. déguisement ('
+    ADDED  x1 ') · 32. tombe () · 33. citrouille'
+    ADDED  x1 '() · 34. souvenir () ·'
+    ADDED  x1 "35. On n'offre jamais de chrysanthèmes pour un"
+    ADDED  x1 'anniversaire. · 36. Les feuilles ne sont plus vertes en'
+    ADDED  x1 "novembre. · 37. Le 2 novembre n'est pas la Toussaint. ·"
+    ADDED  x1 '38. nocturne · 39. badge · 40. Plailly · 41. B · 42.'
+    ADDED  x1 'couleurs () · 43. 19 heures'
+    ADDED  x1 '44. B ( 8 ) · 45. A · 46. C · 47. B · 48. A · 49.'
+    ADDED  x1 'a · 50. b · 51. c · 52. d · 53. plus vite () ·'
+    ADDED  x1 '54. plus grand · 55. moins longue () · 56.'
+    ADDED  x1 'quarts () · 57. demi-finales ('
+    ADDED  x1 ') · 58. finale () · 59. tableau ('
+    ADDED  x1 ') · 60. fauteuil () · 61. choc'
+    ADDED  x1 '62. B · 63. A (15 ) · 64. C · 65. B · 66. A · 67.'
+    ADDED  x1 'lieux (10 ) · 68. paroles () · 69.'
+    ADDED  x1 'affiche () · 70. ambiance ('
+    ADDED  x1 ') · 71. danse () · 72. découvre ('
+    ADDED  x1 ') · 73. a · 74. b (scène= b) · 75. c · 76. d'
+    ADDED  x1 '· 77. ce soir () · 78. deux places ()'
+    ADDED  x1 '79. B ( 3 ) · 80. A ( 4 ) · 81.'
+    ADDED  x1 'C ( 5 ) · 82. A ( 6 '
+    ADDED  x1 ') · 83. B (10  23  115–1 ) · 84. C'
+    ADDED  x1 '( 11  9 ) · 85. a · 86. b · 87. c (vote='
+    ADDED  x1 ' c) · 88. d · 89. plus long · 90. moins simple ('
+    ADDED  x1 ') · 91. aussi important · 92. examine ('
+    ADDED  x1 ') · 93. ont rejeté () · 94. part ('
+    ADDED  x1 ') · 95. peut () · 96. connus ('
+    ADDED  x1 ')'
+    ADDED  x1 'excitante (plus + ) · 101. promenons · 102. peut ·'
+    ADDED  x1 "103. joue · 104. rencontrent · 105. On n'offre jamais de"
+    ADDED  x1 'chrysanthèmes pour un anniversaire. (jamais + de'
+    ADDED  x1 ' des  de) · 106. Les jeunes créateurs y rencontrent leur'
+    ADDED  x1 'public, en vrai. (créateurs  → rencontrent'
+    ADDED  x1 " rencontre) · 107. Il est prévu que l'Assemblée examine la"
+    ADDED  x1 'Culture mardi. (il examine s) · 108. La finale'
+    ADDED  x1 'a lieu dimanche 8 novembre. ( 8  7 )'
+    ADDED  x1 '109. C (11  8  2026 ) · 110. A ()'
+    ADDED  x1 '· 111. B () · 112. B (un'
+    ADDED  x1 'régal→ goûté) · 113. C (se promener ) · 114. A (avoir'
+    ADDED  x1 '+  goûté) · 115. C (les finales  →'
+    ADDED  x1 'ont lieu) · 116. A (elle écrit ) · 117. B (7 nov. = samedi'
+    ADDED  x1 ') · 118. A (nous → allons) · 119. B'
+    ADDED  x1 "(s'intéresser auxà+les) · 120. B (si + imparfait"
+    ADDED  x1 "→ conditionnel présentj'  je "
+    ADDED  x1 ') · 121. A ( ce programme  →'
+    ADDED  x1 'semble) · 122. B ( aura lieu) · 123. A ('
+    ADDED  x1 ') · 124. C ( 11  7–8 ) · 125. C ('
+    ADDED  x1 '19  1 ) · 126. A ( Léo ) · 127. B ('
+    ADDED  x1 ') · 128. A () ·'
+    ADDED  x1 '129. A () · 130. Les élèves'
+    ADDED  x1 'vont reprendre les cours lundi. (aller + futur proche)'
+    ADDED  x1 '· 131. Si tu venais samedi, tu verrais la nocturne. (si + '
+    ADDED  x1 ' venais) · 132. Elle a goûté les coquilles à'
+    ADDED  x1 'Port-en-Bessin. (passé composé : a + ) · 133. Selon'
+    ADDED  x1 'moi, les finales sont excitantes. (selon moi = ) ·'
+    ADDED  x1 '134. Il est prévu que le Sénat examine le texte lundi. (il est'
+    ADDED  x1 'prévu que + ) · 135. '
+    ADDED  x1 ' (lire un programme = ) · 136. Il court plus vite que'
+    ADDED  x1 'son frère. ( plus vite + court) · 137. Les élèves sont en'
+    ADDED  x1 'vacances depuis le 17 octobre. (être en vacances + depuis)'
+    ADDED  x1 '· 138. Ce soir, nous allons préparer nos cartables. (futur'
+    ADDED  x1 'proche + préparer) · 139. On ne connaît pas encore les'
+    ADDED  x1 'finalistes. (ne...pas encore = ) · 140. a (tournoi= a)'
+    ADDED  x1 '· 141. b (nocturne= b) · 142. c (budget= c) · 143.'
+    ADDED  x1 'd (coquille= d) · 144. e (festival= e) · 145.'
+    ADDED  x1 'samedi (11  7 ) · 146. coquilles (des coquilles'
+    ADDED  x1 'Saint-Jacques) () · 147. goûter (goûter '
+    ADDED  x1 ') · 148. recette (à la portaise ) · 149.'
+    ADDED  x1 'week-end (Bon week-end ! ) · 150.  — '
+    ADDED  x1 ' 8  ()'
+    REMOVED x1 ''
+    REMOVED x1 '1. finales 8  · 2. nocturne · 3. coquilles'
+    REMOVED x1 ' · 4. reprend 2  ·'
+    REMOVED x1 '5. samedi soir · 6. saveurs · 7. C 8  · 8. A'
+    REMOVED x1 ' · 9. B · 10. A 7 '
+    REMOVED x1 '11. lundi · 12. 1er · 13. samedi'
+    REMOVED x1 ' · 14. dimanche · 15. Les'
+    REMOVED x1 'élèves vont reprendre les cours lundi. · 16. Nous allons lire'
+    REMOVED x1 'vingt pages ce soir. · 17. Tu vas préparer ton cartable ce'
+    REMOVED x1 'soir.tu → vas · 18. Vous allez raconter vos vacances'
+    REMOVED x1 'lundi. · 19. C · 20. B · 21. A11'
+    REMOVED x1 ' · 22. a · 23. b · 24. c · 25. d'
+    REMOVED x1 '26. Vrai · 27. Vrai · 28. Faux'
+    REMOVED x1 ' · 29. Faux · 30. Vrai · 31.'
+    REMOVED x1 'déguisement · 32. tombe'
+    REMOVED x1 ' · 33. citrouille · 34.'
+    REMOVED x1 "souvenir · 35. On n'offre jamais de"
+    REMOVED x1 'chrysanthèmes pour un anniversaire. · 36. Les feuilles ne'
+    REMOVED x1 "sont plus vertes en novembre. · 37. Le 2 novembre n'est"
+    REMOVED x1 'pas la Toussaint. · 38. nocturne · 39. badge · 40. Plailly'
+    REMOVED x1 '· 41. B · 42. couleurs · 43. 19'
+    REMOVED x1 'heures'
+    REMOVED x1 '44. B 8  · 45. A · 46. C · 47. B · 48. A ·'
+    REMOVED x1 '49. a · 50. b · 51. c · 52. d · 53. plus vite'
+    REMOVED x1 ' · 54. plus grand · 55. moins longue'
+    REMOVED x1 ' · 56. quarts · 57. demi-finales'
+    REMOVED x1 ' · 58. finale · 59.'
+    REMOVED x1 'tableau · 60. fauteuil'
+    REMOVED x1 ' · 61. choc'
+    REMOVED x1 '62. B · 63. A15  · 64. C · 65. B · 66. A · 67.'
+    REMOVED x1 'lieux10  · 68. paroles'
+    REMOVED x1 '· 69. affiche · 70. ambiance'
+    REMOVED x1 ' · 71. danse · 72.'
+    REMOVED x1 'découvre · 73. a · 74. bscène='
+    REMOVED x1 'b · 75. c · 76. d · 77. ce soir · 78.'
+    REMOVED x1 'deux places'
+    REMOVED x1 '79. B 3  · 80. A 4 '
+    REMOVED x1 '· 81. C 5  · 82. A 6 '
+    REMOVED x1 ' · 83. B10  23  115–1'
+    REMOVED x1 ' · 84. C 11  9  · 85. a · 86. b'
+    REMOVED x1 '· 87. cvote= c · 88. d · 89. plus long · 90. moins'
+    REMOVED x1 'simple · 91. aussi important · 92.'
+    REMOVED x1 'examine · 93. ont rejeté'
+    REMOVED x1 ' · 94. part · 95. peut'
+    REMOVED x1 ' · 96. connus'
+    REMOVED x1 'excitanteplus +  · 101. promenons · 102. peut'
+    REMOVED x1 "· 103. joue · 104. rencontrent · 105. On n'offre jamais de"
+    REMOVED x1 'chrysanthèmes pour un anniversaire.jamais + de'
+    REMOVED x1 ' des  de · 106. Les jeunes créateurs y rencontrent'
+    REMOVED x1 'leur public, en vrai.créateurs  →'
+    REMOVED x1 'rencontrent rencontre · 107. Il est prévu que'
+    REMOVED x1 "l'Assemblée examine la Culture mardi.il examine"
+    REMOVED x1 ' s · 108. La finale a lieu dimanche 8 novembre.'
+    REMOVED x1 ' 8  7 '
+    REMOVED x1 '109. C11  8  2026  · 110. A'
+    REMOVED x1 ' · 111. B · 112. B'
+    REMOVED x1 'un régal→ goûté · 113. Cse promener  ·'
+    REMOVED x1 '114. Aavoir +  goûté · 115. Cles'
+    REMOVED x1 'finales  → ont lieu · 116. Aelle écrit  ·'
+    REMOVED x1 '117. B7 nov. = samedi · 118. Anous →'
+    REMOVED x1 "allons · 119. Bs'intéresser auxà+les · 120. Bsi"
+    REMOVED x1 '+ imparfait→ conditionnel présent'
+    REMOVED x1 "j'  je  · 121. A ce"
+    REMOVED x1 'programme  → semble · 122. B aura lieu'
+    REMOVED x1 ' · 123. A · 124. C'
+    REMOVED x1 ' 11  7–8  · 125. C 19  1  · 126. A'
+    REMOVED x1 ' Léo  · 127. B'
+    REMOVED x1 '· 128. A · 129. A'
+    REMOVED x1 ' · 130. Les élèves vont reprendre'
+    REMOVED x1 'les cours lundi.aller + futur proche · 131. Si tu'
+    REMOVED x1 'venais samedi, tu verrais la nocturne.si +  venais'
+    REMOVED x1 ' · 132. Elle a goûté les coquilles à Port-en-Bessin.passé'
+    REMOVED x1 'composé : a +  · 133. Selon moi, les finales sont'
+    REMOVED x1 'excitantes.selon moi =  · 134. Il est prévu que'
+    REMOVED x1 'le Sénat examine le texte lundi.il est prévu que + '
+    REMOVED x1 '· 135. lire un'
+    REMOVED x1 'programme =  · 136. Il court plus vite que son'
+    REMOVED x1 'frère. plus vite + court · 137. Les élèves sont en'
+    REMOVED x1 'vacances depuis le 17 octobre.être en vacances + depuis'
+    REMOVED x1 '· 138. Ce soir, nous allons préparer nos cartables.futur'
+    REMOVED x1 'proche + préparer · 139. On ne connaît pas encore les'
+    REMOVED x1 'finalistes.ne...pas encore =  · 140. atournoi='
+    REMOVED x1 'a · 141. bnocturne= b · 142. cbudget= c'
+    REMOVED x1 ' · 143. dcoquille= d · 144. efestival= e'
+    REMOVED x1 ' · 145. samedi11  7  · 146. coquilles'
+    REMOVED x1 '(des coquilles Saint-Jacques) · 147.'
+    REMOVED x1 'goûtergoûter  · 148. recetteà la portaise'
+    REMOVED x1 ' · 149. week-endBon week-end ! '
+    REMOVED x1 '· 150.  —  8 '

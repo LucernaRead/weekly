@@ -1,0 +1,37 @@
+===== EDITION : /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ru/svg
+  EDGE p8-exercices.svg ink_right=1891.2 y=940.0 :: "b. une soirée qui dure jusqu'à la nuit"
+  EDGE p8-exercices.svg ink_right=1891.2 y=1016.0 :: 'd. le coquillage fêté à Port-en-Bessin'
+  EDGE p8-exercices.svg ink_right=1899.5 y=1054.0 :: 'e. plusieurs concerts en une semaine'
+  same-baseline collisions: 0
+===== CORE : /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-core/svg
+  EDGE p8-exercices.svg ink_right=1891.2 y=940.0 :: "b. une soirée qui dure jusqu'à la nuit"
+  EDGE p8-exercices.svg ink_right=1891.2 y=1016.0 :: 'd. le coquillage fêté à Port-en-Bessin'
+  EDGE p8-exercices.svg ink_right=1899.5 y=1054.0 :: 'e. plusieurs concerts en une semaine'
+  same-baseline collisions: 0
+P6 coverage /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ru/svg/p6-politique.svg: 0/178 = 0.00%  hits=[]
+P6 coverage /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-core/svg/p6-politique.svg: 0/172 = 0.00%  hits=[]
+P8 EDITION: max baseline=2624.0 max ink bottom=2651.8
+    ink_bottom=2651.8 y=2624.0 :: 'Страница 8 из 8'
+    ink_bottom=2651.5 y=2624.0 :: 'Le Lucerna · ФРАНЦУЗСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ФРАН'
+    ink_bottom=2554.9 y=2533.3800000000006 :: 'расписания) · 91. aussi important · 92. examine'
+    ink_bottom=2553.4 y=2531.9200000000005 :: '124. C (фестиваль 7–8 ноября) · 125. C (ночная'
+    ink_bottom=2535.0 y=2513.2300000000005 :: '88. d · 89. plus long · 90. moins simple (бюджет сложнее'
+P8 CORE: max baseline=2624.0 max ink bottom=2650.8
+    ink_bottom=2650.8 y=2624.0 :: '第 8 版 / 共 8 版'
+    ink_bottom=2649.2 y=2624.0 :: 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'
+    ink_bottom=2559.2 y=2537.7300000000005 :: 'excitante（plus + 形容词） · 101. promenons · 102. peut'
+    ink_bottom=2558.7 y=2539.1900000000005 :: '44. B（决赛在周日 8 日） · 45. A · 46. C · 47. B · 48. A ·'
+    ink_bottom=2545.9 y=2526.11 :: '· 135. 读一份日程，本身就是在了解法国。（lire un'
+P7 EDITION: rects with bottom in [2200,2300]:
+    rect x=989.0 y=1878.0 w=896.0 h=380.0 bottom=2258.0
+P7 EDITION: disclosure lines (Примечание редакции: настоящих):
+P7 EDITION: preview lines (LA SEMAINE PROCHAINE / СЛЕДУЮЩАЯ НЕДЕЛЯ / 11 ноября etc):
+P7 EDITION: max ink bottom overall=2651.8, max baseline=2624.0
+P7 CORE: rects with bottom in [2200,2300]:
+    rect x=989.0 y=1878.0 w=896.0 h=380.0 bottom=2258.0
+P7 CORE: disclosure lines (Примечание редакции: настоящих):
+P7 CORE: preview lines (LA SEMAINE PROCHAINE / СЛЕДУЮЩАЯ НЕДЕЛЯ / 11 ноября etc):
+P7 CORE: max ink bottom overall=2650.8, max baseline=2624.0
+P8 ED horizontal line ys near footer: [2580.0]
+P6 ED horizontal line ys near footer: [2580.0]
+P1 ED horizontal line ys near footer: [2580.0]

@@ -1,0 +1,11 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-de-en/svg: 4 flags {'BOXTITLE': 3, 'EDGE': 1}
+  [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Holiday changeover' — ink crosses its box borders: right ink 1943.2 > border 1885.0
+  [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Holiday changeover' — ink crosses its box borders: right ink 1943.2 > border 1885.0
+  [EDGE] p6-vertiefung.svg 'ÜBUNGSDATEN · Practice data — Diese Zahlen sind ein Übungsbe' — ink box (65.0, 1638.25, 1989.75, 1661.0) outside page 1950.0x2700.0
+  [BOXTITLE] p6-vertiefung.svg "DIE ZAHLEN · This week's numbers" — ink crosses its box borders: right ink 1895.8 > border 1885.0
+core: 0 flags; NEW vs core: 4
+  NEW [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Holiday changeover' — ink crosses its box borders: right ink 1943.2 > border 1885.0
+  NEW [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Holiday changeover' — ink crosses its box borders: right ink 1943.2 > border 1885.0
+  NEW [EDGE] p6-vertiefung.svg 'ÜBUNGSDATEN · Practice data — Diese Zahlen sind ein Übungsbe' — ink box (65.0, 1638.25, 1989.75, 1661.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p6-vertiefung.svg "DIE ZAHLEN · This week's numbers" — ink crosses its box borders: right ink 1895.8 > border 1885.0

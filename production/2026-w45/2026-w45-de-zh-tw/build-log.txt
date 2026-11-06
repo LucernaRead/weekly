@@ -1,0 +1,31 @@
+W45 DE x ZH-TW build log (builder: subagent, no derived subagents)
+Build dir: hidden_files/weekly-report-w45-de-zh-tw-build/
+Edition dir: files/weekly-report-w45-de-zh-tw/
+Core: files/weekly-report-w45-de-core/ (W45 DE core, VOL.2, 150 ex.)
+Core hashes before (sha256, full): see core-hashes-before.txt
+Core hashes after final render: identical 8/8 (re-checked at delivery).
+
+Round 0 (baseline): freeze.py baseline on core build copy = 8/8 byte-identical.
+Round 1 (first full render): single-process run.py, 150 ex., no FLOW OVERFLOW /
+  HEAD TOO WIDE warnings. SVG hashes: see scratch/svg-hashes-round1.txt.
+  Re-render determinism: second run byte-identical (svg-hashes-rerun.txt).
+Round 2 (readers-note line-start fix 1): 、 -> 亦 at the wrap boundary.
+  Only p7 changed (hash diff confirms). P7 col-3 ends 1479.0 unchanged.
+Round 3 (readers-note line-start fix 2): removed the comma before 亦無 so no
+  closer starts a line. Only p7 changed. Final p7 hash:
+  002d8c199a2a837138f3990edfa8117553c666af98ecaa208fd8c652f1ebffca.
+  Pre-round-3 SVG hashes recorded in scratch/svg-hashes-before-round3.txt
+  (round-2 values); final SVG hashes in the KIT §10.
+Final gates (on the round-3 render): freeze diff adjudicated (KIT §2);
+  p8.py CLEAN 150=150 keydiff [137,138,139,150]; occlusion edition 0 /
+  core 0 / NEW 0; same-baseline ink 0/0; chart labels clear 30px x3;
+  gloss 25=25; P7 quotes 2x each + tags identical; readers corner 3 facts +
+  imperative invitation verified byte-identical; residue cross-check 0;
+  mainland vocab 0; forbidden term 0; ASCII quotes 0/0 per page.
+Cards + PDFs rendered from the round-3 SVGs with tools/venv/bin/python
+  (Python 3.12.3, PIL 13.0.0) via scratch/render.py.
+  Print PDF 17,084,924 B sha256 51767deae5d0e06a4427d5a1826b75b22223ad1837a333cac31723398b4bc882
+  Web PDF 3,993,406 B sha256 4ecb14c5d37db2c1fc02b02f464b0ae041adf2d29652ed28ec0d63de6239079e
+Incident: scratch registry-dump repoint created bogus files/home/... dir
+  (8 core-dump SVGs only); verified and removed before delivery. Core and
+  W43 directories untouched (hashes prove it).

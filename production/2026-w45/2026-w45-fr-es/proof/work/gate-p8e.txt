@@ -1,0 +1,35 @@
+EDITION French E1 sentence in P8 joined text: True
+EDITION E1 stem full: [(989.0, 1332.0, 'Traduce al español: « Lire un programme,')]
+CORE French E1 sentence in P8 joined text: True
+CORE E1 stem full: [(989.0, 1372.0, "Traduisez : « Lire un programme, c'est déjà"), (1451.0, 246.0, 'Traduisez : 他跑得比他哥哥更快。'), (1451.0, 338.0, 'Traduisez : 学生们自 10 月 17 日起就在放假。'), (1451.0, 430.0, 'Traduisez : 今晚，我们要准备书包。'), (1451.0, 522.0, 'Traduisez : 人们尚不知道决赛选手是谁。')]
+
+=== EDITION P8 battery nodes (y 194-1500) containing 135-139 numbers or Spanish stems ===
+ y=1303.0 x=1061.0 '135.'
+ y=1332.0 x=989.0 'Traduce al español: « Lire un programme,'
+ y=217.0 x=1523.0 '136.'
+ y=246.0 x=1451.0 'Traduce al francés: Corre más rápido que su'
+ y=333.0 x=1523.0 '137.'
+ y=362.0 x=1451.0 'Traduce al francés: Los alumnos están de'
+ y=449.0 x=1523.0 '138.'
+ y=478.0 x=1451.0 'Traduce al francés: Esta noche vamos a'
+ y=507.0 x=1451.0 'preparar nuestras mochilas.'
+ y=565.0 x=1523.0 '139.'
+ y=594.0 x=1451.0 'Traduce al francés: Todavía no se sabe'
+ y=623.0 x=1451.0 'quiénes son los finalistas.'
+
+=== EDITION P8 full joined text: E-stem sentences ===
+'Corre más rápido que su hermano.' -> True
+'Los alumnos están de vacaciones desde el 17 de octubre.' -> True
+'Esta noche vamos a preparar nuestras mochilas.' -> True
+'Todavía no se sabe quiénes son los finalistas.' -> True
+"Traduce al español: « Lire un programme, c'est déjà comprendre la France. »" -> True
+
+=== CORE P8 battery equivalents (French stems for 136-139) ===
+'Il court plus vite que son frère.' core P8 battery has as stem? (joined contains) True
+'Les élèves sont en vacances depuis le 17 octobre.' core P8 battery has as stem? (joined contains) True
+'Ce soir, nous allons préparer nos cartables.' core P8 battery has as stem? (joined contains) True
+'On ne connaît pas encore les finalistes.' core P8 battery has as stem? (joined contains) True
+ CORE y=217.0 '136.'
+ CORE y=309.0 '137.'
+ CORE y=401.0 '138.'
+ CORE y=493.0 '139.'

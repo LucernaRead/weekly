@@ -1,0 +1,57 @@
+== Right-edge ADVANCE scan (inner frame right = 1910; also left < 40) ==
+p1-front: violations=0 max_adv_right=1888.5 min_adv_left=65.0
+p2-life: violations=0 max_adv_right=1885.0 min_adv_left=65.0
+p3-culture: violations=0 max_adv_right=1885.0 min_adv_left=65.0
+p4-sport: violations=0 max_adv_right=1888.6 min_adv_left=65.0
+p5-jeunesse: violations=0 max_adv_right=1885.0 min_adv_left=65.0
+p6-politique: violations=0 max_adv_right=1885.0 min_adv_left=65.0
+p7-langue: violations=0 max_adv_right=1885.0 min_adv_left=65.0
+p8-exercices: violations=0 max_adv_right=1903.8 min_adv_left=65.0
+
+== Frame ink scan (outer frame 28..1922 x 28..2672) ==
+p1-front: outside=0
+p2-life: outside=0
+p3-culture: outside=0
+p4-sport: outside=0
+p5-jeunesse: outside=0
+p6-politique: outside=0
+p7-langue: outside=0
+p8-exercices: outside=0
+
+== Same-baseline ink collision scan (same y, overlapping ink x) ==
+p1-front: collisions=0
+p2-life: collisions=0
+p3-culture: collisions=0
+p4-sport: collisions=0
+p5-jeunesse: collisions=0
+p6-politique: collisions=0
+p7-langue: collisions=0
+p8-exercices: collisions=0
+
+== P1 dark band pairs (ADVANCE gaps) ==
+  y=478.0 L='AMERICA VOTES ON TUESDAY — AND THE CLOCK' adv_end=1243.9 R adv_start=1308.7 ADV_GAP=64.8 ink_gap=65.0
+  y=522.0 L='Election Day is Tuesday, November 3. On ' adv_end=1309.5 R adv_start=1390.7 ADV_GAP=81.2 ink_gap=106.6
+  topband y=92 'VOL. 2' span=(65.0, 136.2)
+  topband y=92 'WEEKLY IN ENGLISH · Jede Woche neu · Englisch' span=(624.5, 1325.5)
+  topband y=92 'WEEK OF NOVEMBER 2 TO 8, 2026' span=(1526.8, 1885.0)
+
+== Shortened box titles: advance width + in-box check ==
+p1-front 'THE WEEK IN NUMBERS · Zahlen': advance=375.9 (limit 412) ink=(1007.0, 791.3, 1383.0, 810.0) containing_bordered_rects=3
+p1-front 'Diese Woche gesucht · Google Trends USA': advance=382.0 (limit 412) ink=(1473.0, 670.8, 1855.0, 690.8) containing_bordered_rects=3
+p3-culture 'AT HOME THIS WEEK · Zu Hause': advance=368.1 (limit None) ink=(82.8, 1759.6, 451.2, 1777.1) containing_bordered_rects=3
+p4-sport 'SUNDAY, NOVEMBER 8 · Spiele': advance=353.0 (limit None) ink=(1469.0, 854.2, 1822.0, 878.0) containing_bordered_rects=3
+p5-jeunesse 'TOO CLOSE TO CALL · Zu knapp': advance=365.1 (limit None) ink=(83.0, 2072.6, 448.0, 2096.1) containing_bordered_rects=3
+p5-jeunesse 'FIVE SENTENCES · Fünf Sätze': advance=341.3 (limit None) ink=(1469.0, 218.5, 1810.2, 237.2) containing_bordered_rects=3
+p6-politique 'A PRACTICE BALLOT · Stimmzettel': advance=395.6 (limit None) ink=(544.8, 218.2, 940.5, 237.2) containing_bordered_rects=3
+p6-politique 'READ THE CHART · Diagramm': advance=375.7 (limit 434) ink=(527.0, 984.1, 902.8, 1010.6) containing_bordered_rects=2
+
+== P6 chart coverage (baseline-anchored ink, later opaque rects) ==
+p1-front: max_coverage=0.0% worst=None
+p2-life: max_coverage=0.0% worst=None
+p3-culture: max_coverage=0.0% worst=None
+p4-sport: max_coverage=0.0% worst=None
+p5-jeunesse: max_coverage=0.0% worst=None
+p6-politique: max_coverage=0.0% worst=None
+p7-langue: max_coverage=0.0% worst=None
+p8-exercices: max_coverage=0.0% worst=None
+DONE

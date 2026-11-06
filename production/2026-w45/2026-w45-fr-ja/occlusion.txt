@@ -1,0 +1,15 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+files/weekly-report-w45-fr-ja/svg: 6 flags {'BOXTITLE': 3, 'LINEX': 2, 'TEXTX': 1}
+  [BOXTITLE] p1-une.svg '週末の決勝の結果は土曜夜と日曜に判明します。' — ink crosses its box borders: right ink 1889.0 > border 1885.0
+  [LINEX] p2-vie.svg 'みましたか。フランス語で2文書いて編集部' — later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink
+  [TEXTX] p2-vie.svg 'へ送ってください。' — ink overlaps 'lundi 2 novembre · 注意：1日は le premier、それ以' by 178.5x11.8px
+  [BOXTITLE] p2-vie.svg 'lundi 2 novembre · 注意：1日は le premier、それ以外は基数詞' — ink crosses its box borders: left ink 1311.0 < border 1451.0; bottom ink 1602.5 > border 1596.6
+  [BOXTITLE] p5-jeunesse.svg 'PARIS CREATOR WEEK · クリエイター週間' — ink crosses its box borders: right ink 1927.0 > border 1885.0
+  [LINEX] p8-exercices.svg '(149)___ ! — Merci !' — later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink
+core: 0 flags; NEW vs core: 6
+  NEW [BOXTITLE] p1-une.svg '週末の決勝の結果は土曜夜と日曜に判明します。' — ink crosses its box borders: right ink 1889.0 > border 1885.0
+  NEW [LINEX] p2-vie.svg 'みましたか。フランス語で2文書いて編集部' — later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink
+  NEW [TEXTX] p2-vie.svg 'へ送ってください。' — ink overlaps 'lundi 2 novembre · 注意：1日は le premier、それ以' by 178.5x11.8px
+  NEW [BOXTITLE] p2-vie.svg 'lundi 2 novembre · 注意：1日は le premier、それ以外は基数詞' — ink crosses its box borders: left ink 1311.0 < border 1451.0; bottom ink 1602.5 > border 1596.6
+  NEW [BOXTITLE] p5-jeunesse.svg 'PARIS CREATOR WEEK · クリエイター週間' — ink crosses its box borders: right ink 1927.0 > border 1885.0
+  NEW [LINEX] p8-exercices.svg '(149)___ ! — Merci !' — later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink

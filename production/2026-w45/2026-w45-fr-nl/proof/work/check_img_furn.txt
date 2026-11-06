@@ -1,0 +1,142 @@
+===== ED images =====
+ p1-une.svg x=65 y=1874 w=896 h=320 b64sha=ff20bc2bd2654cdc decsha=f3705af28f175ce4 decbytes=334674 b64len=446232
+ p2-vie.svg x=1451 y=200 w=434 h=480 b64sha=6918cb8bbe4b4bec decsha=5b772facb5db886c decbytes=646242 b64len=861656
+ p3-culture.svg x=1451 y=200 w=434 h=540 b64sha=bfaadf5b6b912416 decsha=be071fdae81a71b4 decbytes=142340 b64len=189788
+===== ED credit-ish lines =====
+ p1-une.svg y=2271.3 x=65 fs=15.5 'Eugène Atget (1857-1927), photographie, domaine public'
+ p2-vie.svg y=757.3 x=1451 fs=15.5 'Utagawa Hiroshige (1797-1858), estampe, domaine public ·'
+ p2-vie.svg y=777.4499999999999 x=1451 fs=15.5 'LACMA'
+ p3-culture.svg y=842.9499999999999 x=1451 fs=15.5 'Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,'
+ p6-politique.svg y=1762 x=87 fs=18.5 'Source : ordre du jour du 20 octobre (nosparlementaires.fr).'
+===== CORE images =====
+ p1-une.svg x=65 y=1874 w=896 h=320 b64sha=ff20bc2bd2654cdc decsha=f3705af28f175ce4 decbytes=334674 b64len=446232
+ p2-vie.svg x=1451 y=200 w=434 h=480 b64sha=6918cb8bbe4b4bec decsha=5b772facb5db886c decbytes=646242 b64len=861656
+ p3-culture.svg x=1451 y=200 w=434 h=540 b64sha=bfaadf5b6b912416 decsha=be071fdae81a71b4 decbytes=142340 b64len=189788
+===== CORE credit-ish lines =====
+ p1-une.svg y=2271.3 x=65 fs=15.5 'Eugène Atget (1857-1927), photographie, domaine public'
+ p2-vie.svg y=757.3 x=1451 fs=15.5 'Utagawa Hiroshige (1797-1858), estampe, domaine public ·'
+ p2-vie.svg y=777.4499999999999 x=1451 fs=15.5 'LACMA'
+ p3-culture.svg y=842.9499999999999 x=1451 fs=15.5 'Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,'
+ p6-politique.svg y=1762 x=87 fs=18.5 'Source : ordre du jour du 20 octobre (nosparlementaires.fr).'
+===== ED P7 reader box + preview ink =====
+ reader-box: n=10 max_ink_bottom=2238.30 box_bottom=2258 margin=19.70
+   last y=2142.0 inkbot=2142.25 "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment d"
+   last y=2170.0 inkbot=2175.25 "presse (le numéro W44 n'a pas paru). Le VOL.4 reprendra la promesse."
+   last y=2206.0 inkbot=2211.00 'Opmerking van de redactie: geen echte brieven en geen beste VOL.2-pagi'
+   last y=2233.3 inkbot=2238.30 '(geen W44-nummer); beide volgen in VOL.4.'
+   first y=1918.0 'LE COURRIER DES LECTEURS · LEZERSRUBRIEK'
+   first y=1956.0 "« Mon week-end de novembre : samedi, j'ai regardé un match à la télévi"
+   first y=1985.82 "dimanche, j'ai cuisiné une soupe et j'ai lu vingt pages. » — Exemple d"
+ preview-strip: n=6 max_ink_bottom=2499.00 box_bottom=2540 margin=41.00
+   last y=2384.45 inkbot=2390.20 "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 n"
+   last y=2414.8999999999996 inkbot=2420.40 'la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos '
+   last y=2466.0 inkbot=2471.00 'Volgende week: de Senaat bespreekt de begroting voor sociale zekerheid'
+   last y=2494.0 inkbot=2499.00 'Wapenstilstand, de haring- en sint-jakobsschelpenbeurs in Dieppe; en j'
+   first y=2316.0 'LA SEMAINE PROCHAINE · VOL.4 VOLGENDE WEEK'
+   first y=2354.0 'Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. '
+   first y=2384.45 "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 n"
+===== ED column heads / P8 heads =====
+ p1-une.svg:
+   y=92.0 'VOL. 3 · NR. 3'
+   y=330.0 'WEEKBLAD IN HET FRANS · VOL.3 · FINALEWEEKEND'
+   y=478.0 'MAANDAG · TERUG NAAR SCHOOL IN HEEL FRANKRIJK'
+   y=801.4 'À VOUS ! · JOUW BEURT'
+   y=1320.0 'DANS CE NUMÉRO · INHOUD'
+   y=1591.525 'LES DATES · FINALEWEEKEND'
+   y=1914.0 'EN BREF · IN HET KORT'
+   y=2348.0 'QUIZ ÉCLAIR · BLITZQUIZ'
+ p2-vie.svg:
+   y=116.0 'VIE QUOTIDIENNE · DAGELIJKS LEVEN'
+   y=1215.1 'ET VOUS ? · JOUW BEURT'
+   y=1598.0 'DIRE LA DATE · ZO ZEG JE DE DATUM'
+   y=1918.0 'EXERCICES · OEFENINGEN PAGINA 2'
+   y=1971.0 'A · QUELLE DATE ?'
+   y=1971.0 'B · LE FUTUR PROCHE'
+   y=1971.0 'C · COMPRÉHENSION'
+   y=2467.6250000000005 'D · LES MOTS'
+ p3-culture.svg:
+   y=116.0 'CULTURE · FEESTEN'
+   y=529.2 'octobre · B. le 8 novembre · C. le 1er'
+   y=945.2499999999999 'LES MOTS DES FÊTES · WOORDEN'
+   y=1423.25 'ZOOM · LE PARC EN CHIFFRES'
+   y=1925.25 'DATES À RETENIR · DE MAAND'
+   y=2071.245 'À VOUS ! · JOUW BEURT'
+ p4-sport.svg:
+   y=116.0 'SPORT · SPORT'
+   y=290.8 'samedi 7 · B. dimanche 8 · C.'
+   y=462.20000000000005 'dur · B. sur terre battue · C. sur'
+   y=633.6 'Novak Djokovic · B. Carlos Alcaraz ·'
+   y=736.0 'LES MOTS DU TENNIS · WOORDEN'
+   y=804.9999999999999 'A. Paris SG – Troyes · B. Lens –'
+   y=839.7999999999998 'Marseille · C. Rennes – Lille'
+   y=976.3999999999997 'finale fauteuil · B. les qualifications ·'
+   y=1178.0 'À SUIVRE · WORDT VERVOLGD'
+   y=1410.0 'MICRO-DRILLS · TRAINING'
+   y=2200.3999999999996 'LE DÉBAT · HET DEBAT'
+   y=2477.97 'À VOUS ! · JOUW BEURT'
+ p5-jeunesse.svg:
+   y=116.0 'JEUNESSE &amp; MUSIQUE · JEUGD'
+   y=256.0 "C'est la... A. 15e édition · B. 10e"
+   y=290.8 'édition · C. 5e édition'
+   y=427.40000000000003 'lundi · B. à Nanterre · C. à Bastille,'
+   y=598.8 'mardi · B. vendredi et samedi · C.'
+   y=736.0 'MOTS DE LA MUSIQUE · WOORDEN'
+   y=804.9999999999998 '· B. un seul groupe · C. un orchestre'
+   y=1628.0 'LE DÉBAT · HET DEBAT'
+   y=2299.245 'À VOUS ! · JOUW BEURT'
+   y=2475.27 'soir · B. sept jours · C. un mois'
+ p6-politique.svg:
+   y=116.0 'POLITIQUE &amp; CHIFFRES · POLITIEK &amp; CIJFERS'
+   y=274.5 'À mon avis, ... · Selon les chiffres, ... ·'
+   y=1370.0 'LE CALENDRIER PRÉVU · GEPLANDE KALENDER (NOG GEEN RESULTATEN)'
+   y=1663.15 'LE DÉBAT · HET DEBAT'
+   y=1855.0 'LIRE LE CALENDRIER · KALENDER'
+   y=1876.9499999999996 'MICRO-DRILLS · TRAINING'
+   y=2144.5000000000005 'LES MOTS · WOORDEN'
+ p7-langue.svg:
+   y=116.0 'LANGUE EN MAIN · TAAL IN DE PRAKTIJK'
+   y=227.0 'BOÎTE À OUTILS · OP ZAK'
+   y=227.0 'NIVEAU A2 · BASISNIVEAU'
+   y=227.0 'NIVEAU B1 · GEMIDDELD'
+   y=227.0 'NIVEAU B2 · UITDAGING'
+   y=1186.0 'LES PHRASES DE LA SEMAINE · ZINNEN VAN DE WEEK'
+   y=1903.0 'CLINIQUE DES ERREURS · PAS OP!'
+   y=1918.0 'LE COURRIER DES LECTEURS · LEZERSRUBRIEK'
+   y=2316.0 'LA SEMAINE PROCHAINE · VOL.4 VOLGENDE WEEK'
+ p8-exercices.svg:
+   y=116.0 'EXERCICES &amp; RÉPONSES · OEFENINGEN &amp; ANTWOORDEN'
+   y=218.0 'A · TEXTE À TROUS · GATENTEKST'
+   y=639.0 'D · PHRASES · ZINNEN'
+   y=644.0 'F · LES MOTS · WOORDEN'
+   y=852.0 'C · LECTURE · LEZEN'
+   y=1106.825 'B · CHOIX MULTIPLE · MEERKEUZE'
+   y=1188.0 'G · DIALOGUE · DIALOOG'
+   y=1294.0 'E · TRADUCTION · VERTALEN'
+   y=1526.0 'H · ÉCRITURE · SCHRIJVEN'
+   y=1538.0 'MODÈLE · VOORBEELDTEKST'
+   y=1838.0 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)'
+===== ED P8 separators + keys head =====
+ seps: ['ÉVALUATION · ANTWOORDEN ONDERAAN DEZE PAGINA', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)', '— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —']
+ keys head: ['EXERCICES &amp; RÉPONSES · OEFENINGEN &amp; ANTWOORDEN', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+===== W43 P8 separators + keys head =====
+ seps: ['TOETS · DE ANTWOORDEN ONDERAAN DEZE PAGINA', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)', '— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —']
+ keys head: ['EXERCICES &amp; RÉPONSES · OEFENINGEN &amp; ANTWOORDEN', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+===== exercise numbers per page (ED vs CORE) =====
+ ED:
+   p1-une.svg: count=10 range=1..10 nums=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   p2-vie.svg: count=11 range=11..21 nums=[11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+   p3-culture.svg: count=18 range=26..43 nums=[26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+   p4-sport.svg: count=14 range=44..61 nums=[44, 45, 46, 47, 48, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+   p5-jeunesse.svg: count=13 range=62..78 nums=[62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78]
+   p6-politique.svg: count=14 range=79..96 nums=[79, 80, 81, 82, 83, 84, 89, 90, 91, 92, 93, 94, 95, 96]
+   p7-langue.svg: count=12 range=97..108 nums=[97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]
+   p8-exercices.svg: count=23 range=117..139 nums=[117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]
+ CORE:
+   p1-une.svg: count=10 range=1..10 nums=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   p2-vie.svg: count=11 range=11..21 nums=[11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+   p3-culture.svg: count=18 range=26..43 nums=[26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+   p4-sport.svg: count=14 range=44..61 nums=[44, 45, 46, 47, 48, 53, 54, 55, 56, 57, 58, 59, 60, 61]
+   p5-jeunesse.svg: count=13 range=62..78 nums=[62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78]
+   p6-politique.svg: count=14 range=79..96 nums=[79, 80, 81, 82, 83, 84, 89, 90, 91, 92, 93, 94, 95, 96]
+   p7-langue.svg: count=12 range=97..108 nums=[97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]
+   p8-exercices.svg: count=23 range=117..139 nums=[117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]

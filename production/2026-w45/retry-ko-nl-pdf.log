@@ -1,0 +1,30 @@
+attempt 1: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 2: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 3: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 4: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 5: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 6: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 7: pushing 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 (remote=46400d690b044896aac198fad47d7395828653d7)
+To github.com:LucernaRead/weekly.git
+   46400d6..5535135  55351353ce4ea01533fa1c9d7e4ccc31f3be6738 -> main
+VERIFIED ls-remote == 55351353ce4ea01533fa1c9d7e4ccc31f3be6738 on check 8
+final remote=55351353ce4ea01533fa1c9d7e4ccc31f3be6738 local=55351353ce4ea01533fa1c9d7e4ccc31f3be6738
+SUCCESS ko-nl PDF landed

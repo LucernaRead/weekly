@@ -1,0 +1,27 @@
+web pdf pages: 8 metadata: {'/Title': 'Le-Lucerna-VOL3-KO-web', '/CreationDate': 'D:20261028062148Z', '/ModDate': 'D:20261028062148Z'}
+page 1: 1 images [('image.jpg', 648877)]
+page 2: 1 images [('image.jpg', 635491)]
+page 3: 1 images [('image.jpg', 587612)]
+page 4: 1 images [('image.jpg', 636990)]
+page 5: 1 images [('image.jpg', 526859)]
+page 6: 1 images [('image.jpg', 559722)]
+page 7: 1 images [('image.jpg', 629463)]
+page 8: 1 images [('image.jpg', 828941)]
+rebuild q75: 8/8 streams identical
+    (1, 648877, 648877, 'MATCH', 'b30977f6cc20', 'b30977f6cc20')
+    (2, 635491, 635491, 'MATCH', 'f083b318e5a5', 'f083b318e5a5')
+    (3, 587612, 587612, 'MATCH', 'b5ec37a0c642', 'b5ec37a0c642')
+    (4, 636990, 636990, 'MATCH', '3c8fa5f7648e', '3c8fa5f7648e')
+    (5, 526859, 526859, 'MATCH', '9e06fc9abacc', '9e06fc9abacc')
+    (6, 559722, 559722, 'MATCH', 'b386a9ca9f3b', 'b386a9ca9f3b')
+    (7, 629463, 629463, 'MATCH', '6bf1946b4371', '6bf1946b4371')
+    (8, 828941, 828941, 'MATCH', '98544f3ac252', '98544f3ac252')
+rebuild q72: 0/8 streams identical
+    (1, 617603, 648877, 'DIFF', '0d8c122753e2', 'b30977f6cc20')
+    (2, 605608, 635491, 'DIFF', 'cfea21b05bdc', 'f083b318e5a5')
+    (3, 560355, 587612, 'DIFF', 'd6da91c1f253', 'b5ec37a0c642')
+    (4, 606752, 636990, 'DIFF', '74f6c5b72767', '3c8fa5f7648e')
+    (5, 503502, 526859, 'DIFF', '6fdec6c540f2', '9e06fc9abacc')
+    (6, 534363, 559722, 'DIFF', 'c99cd0995a3f', 'b386a9ca9f3b')
+    (7, 602100, 629463, 'DIFF', 'a72508e18cbe', '6bf1946b4371')
+    (8, 788963, 828941, 'DIFF', 'e0a804bd52c5', '98544f3ac252')

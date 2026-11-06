@@ -1,0 +1,26 @@
+G  p1-front.svg y=1425.0249999999999 :: '· a race 선거전 · to call a race 선거전 결과를'
+G  p1-front.svg y=2449.45 :: '· B. Sunday, November 8 · C. Tuesday'
+S3 p1-front.svg x=545.0 y=1701.1749999999997->1728.8499999999997 :: 'n Madrid + F1 in São' | 'Paulo(일요일 두 큰 경기)' split=|일요일 tail=3
+S3 p1-front.svg x=1473.0 y=1232.0->1266.0 :: 'nges during the day.' | '상대적 인기 표시예요, 정확한 수치 아니에요.' split=|상대적 tail=3
+S2 p2-life.svg y=1660.0 x=1330.0 :: '= two times(두 번)'
+G  p2-life.svg y=2290.925 :: '· B. Florida · C. Arizona and Hawaii'
+G  p4-sport.svg y=598.95 :: '· a fan 팬.'
+G  p4-sport.svg y=1530.7000000000005 :: '· B. Arlington, Texas · C. Madrid'
+G  p6-politique.svg y=1701.7599999999998 :: '· C. 29%'
+G  p6-politique.svg y=1959.3600000000001 :: '· B. Habit (12%) · C. No lines'
+S2 p8-exercices.svg y=369.45000000000005 x=1451.0 :: '번역: On Sunday, the NFL plays in Madrid.'
+S2 p8-exercices.svg y=2043.97 x=65.0 :: '13. quarter to · 14. twice (두 번 = twice) · 15. extra · 16.'
+G  p8-exercices.svg y=2271.4300000000003 :: '· 32. A · 33. C (일요일 재결합 프로그램으로 마무리) · 34.'
+G  p8-exercices.svg y=2311.73 :: '· 40. d · 41. c (open=개봉하다 c) · 42. We are going to'
+S2 p8-exercices.svg y=2539.19 x=65.0 :: '55. faster · 56. b · 57. d · 58. a (fan=팬 a) · 59. c · 60.'
+S1 p8-exercices.svg y=2062.66 :: ') · 68. A (아이들은 왜 이렇게 오래 걸리는지 물어요) · 69. C (결'
+G  p8-exercices.svg y=2123.1099999999997 :: '· 76. b · 77. a · 78. The map is changing colour now. ·'
+G  p8-exercices.svg y=2431.17 :: '· 98. differs · 99. private'
+G  p8-exercices.svg y=1875.5 :: '· 146. line (line = 줄 서기(미국식 영어)) · 147. ballot (ballot ='
+S3 p8-exercices.svg x=65.0 y=1655.5249999999999->1690.0 :: " Readers' Corner »)." | '영어로 80–100단어 쓰기: 나의 11월 3일 화요일' split=|영어로 tail=3
+S3 p8-exercices.svg x=65.0 y=1690.0->1718.0 :: '먹었는지, 지도가 무엇을 보여줬는지,' | '그리고 일요일 밤에 되돌린 시계에 대해 한 문장을 쓰세' split=|그리고 tail=3
+S3 p8-exercices.svg x=527.0 y=2022.36->2042.51 :: '뀌어요) · 65. A · 66. C' | '(선거의 밤에는 흔히 피자를 먹어요) · 67. B (' split=|선거의 tail=3
+S3 p8-exercices.svg x=527.0 y=2310.2700000000004->2330.42 :: ' 17%포인트 많아요) · 87. C' | '(도표는 연습용 자료예요, 실제 조사가 아니에요) · ' split=|도표는 tail=3
+S3 p8-exercices.svg x=989.0 y=2183.56->2203.71 :: 'er = ~인지) · 126. A (' | '미래형 will + 동사원형) · 127. A (be ' split=|미래형 tail=3
+S3 p8-exercices.svg x=1451.0 y=1875.5->1895.65 :: '47. ballot (ballot =' | '투표용지) · 148. sticker (sticker ' split=|투표용지 tail=4
+counts: {'S1': 1, 'S2': 4, 'S3': 8, 'S4': 0}

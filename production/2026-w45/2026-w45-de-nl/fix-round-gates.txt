@@ -1,0 +1,120 @@
+===== GATE 1a freeze baseline (core) =====
+baseline: 8/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-front.svg core 6cbd48022b5f863d produced 6cbd48022b5f863d
+  OK  p2-leben.svg core 9362256dca74f877 produced 9362256dca74f877
+  OK  p3-kultur.svg core 3e8a8d16136a46a3 produced 3e8a8d16136a46a3
+  OK  p4-sport.svg core b787f592599cc4d1 produced b787f592599cc4d1
+  OK  p5-jugend.svg core 4dcbeb97c566f4df produced 4dcbeb97c566f4df
+  OK  p6-vertiefung.svg core 01b75ad49a54c803 produced 01b75ad49a54c803
+  OK  p7-sprache.svg core fbaf8cdd8a90f299 produced fbaf8cdd8a90f299
+  OK  p8-uebungen.svg core 299524bd2ad25ec4 produced 299524bd2ad25ec4
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+exit=0
+
+===== GATE 1b freeze diff (core vs NL post-fix) =====
+p1: +24 strings / -23 strings; CJK core 168 -> edition 0; added CJK chars: 0 
+p2: +37 strings / -32 strings; CJK core 186 -> edition 0; added CJK chars: 0 
+p3: +40 strings / -40 strings; CJK core 187 -> edition 0; added CJK chars: 0 
+p4: +26 strings / -22 strings; CJK core 155 -> edition 0; added CJK chars: 0 
+p5: +42 strings / -39 strings; CJK core 193 -> edition 0; added CJK chars: 0 
+p6: +37 strings / -33 strings; CJK core 228 -> edition 0; added CJK chars: 0 
+p7: +60 strings / -53 strings; CJK core 394 -> edition 0; added CJK chars: 0 
+p8: +156 strings / -141 strings; CJK core 1429 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0
+exit=0
+===== GATE 1c P7 pure-Latin deletions (from fix-round-freezediff.json) =====
+/pages/1/added_strings list len 24
+/pages/1/removed_strings list len 23
+/pages/2/added_strings list len 29
+/pages/2/removed_strings list len 24
+/pages/3/added_strings list len 29
+/pages/3/removed_strings list len 29
+/pages/4/added_strings list len 23
+/pages/4/removed_strings list len 19
+/pages/5/added_strings list len 32
+/pages/5/removed_strings list len 29
+/pages/6/added_strings list len 30
+/pages/6/removed_strings list len 26
+/pages/7/added_strings list len 51
+/pages/7/removed_strings list len 44
+/pages/8/added_strings list len 150
+/pages/8/removed_strings list len 134
+{"core_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-core/svg", "edition_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg", "pages": {"1": {"added_strings": [{"text": "(6 Duitse teams in Europa)", "count": 1}, {"text": "9)", "count": 1}, {"text": "BLITZQUIZ · Bliksemquiz", "count": 1}, {"text": "Brandstofkorting. Zie pagina 2.", "count": 1}, {"text": "Bundesliga (9 wedstrijden op speeldag", "count": 1}, {"text": "DIE TOPMELDUNG · Hoofdverhaal", "count": 1}, {"text": "DIE WOCHE IN ZAHLEN · Cijfers", "count": 1}, {"text": "DUITS WEEKBLAD · VOL.2 · VOETBALWEEK · BRANDSTOFKORTING · ZORG", "count": 1}, {"text": "De vragen van de week", "count": 1}, {"text": "Die Lucerna · DUITS WEEKBLAD VOL.2 · TEKSTEN IN HET DUITS · UITLEG IN HET NEDERLANDS", "count": 1}, {"text": "IN DIESER AUSGABE · Inhoud", "count": 1}, {"text": "JETZT ÜBEN · Oefen nu", "count": 1}, {"text": "KURZ & GUT · Kort nieuws", "count": 1}, {"text": "Lees pagina 1 en kies het juiste antwoord · Antwoorden op pagina 8", "count": 1}, {"text": "Pagina 1 van 8", "count": 1}, {"text": "TEKSTEN IN HET DUITS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS", "count": 1}, {"text": "Tankrabatt (14,04 cent minder per liter)", "count": 1}, {"text": "Uitleg — die Englische Woche = Engelse week", "count": 1}, {"text": "Vijf veelbesproken vragen.", "count": 1}, {"text": "Voetbalweek", "count": 1}, {"text": "WÖCHENTLICH AUF DEUTSCH · ELKE WEEK · HET DUITS DAT DE DUITSERS LEZEN", "count": 1}, {"text": "Zie pagina 4", "count": 1}, {"text": "ontvangen.", "count": 1}, {"text": "· der Spieltag = speeldag · empfangen =", "count": 1}], "removed_strings": [{"text": "BLITZQUIZ · 闪电问答", "count": 1}, {"text": "Bundesliga 德甲。", "count": 1}, {"text": "Bundesliga（德甲第 9 轮共 9 场比赛）", "count": 1}, {"text": "DIE TOPMELDUNG · 头条", "count": 1}, {"text": "DIE WOCHE IN ZAHLEN · 数字看本周", "count": 1}, {"text": "DIE WOCHENZEIT
+
+===== GATE 2 p8 compare =====
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-core/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+exit=0
+
+===== GATE 3 occlusion (selftest + edition + core) =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+/bin/bash: line 1: ./venv/bin/python: No such file or directory
+NL gloss calls: 1
+   5 items: ['der Tankrabatt = brandstofkorting', 'die Zapfsäule = benzinepomp', 'die Energiesteuer = energiebelasting', 'die Mehrwertsteuer = btw', 'der Angehörige = familielid.']
+NL TOTAL: 5
+CORE gloss calls: 1
+   5 items: ['der Tankrabatt 油价减税', 'die Zapfsäule 加油机', 'die Energiesteuer 能源税', 'die Mehrwertsteuer 增值税', 'der Angehörige 亲属。']
+CORE TOTAL: 5
+CORE [2, 2, 2, 2, 2, 2, 2, 2]
+NL post-fix [2, 2, 2, 2, 2, 2, 2, 2]
+word-box rect present: True bottom=1504.5
+gold hline y=1508 present: True
+invite baseline 1331.11 present: True
+P1 removed=23 pure-Latin=1
+   - 'DIE WOCHENZEITUNG FÜR LERNENDE — DAS ECHTE LEBEN, AUF DEUTSCH, AUS DEUTSCHLAND'
+P2 removed=24 pure-Latin=0
+P3 removed=29 pure-Latin=1
+   - '。'
+P4 removed=19 pure-Latin=1
+   - '。'
+P5 removed=29 pure-Latin=0
+P6 removed=26 pure-Latin=1
+   - '。'
+P7 removed=44 pure-Latin=3
+   - 'Ein Beispiel der Redaktion!'
+   - '«der Tankrabatt»（Seite 2）: die'
+   - '……'
+P8 removed=134 pure-Latin=6
+   - 'beschließen → beschlossen） · 17. Die Preise sind am Morgen'
+   - 'bleiben + geschlossen）'
+   - 'tanken → getankt） · 19. Die Tankstellen haben den Rabatt'
+   - '）'
+   - '） · 16. Der Bundestag hat den Tankrabatt beschlossen.（'
+   - '） · 46. An Allerheiligen bleiben die Geschäfte geschlossen.（'
+===== GATE 4 gloss FULL (all content files, split on middle dot) =====
+NL calls=5 total= 25 first heads: ['der Tankrabatt', 'der Ferienwechsel', 'die Englische Woche', 'der Pausenhof', 'der Angehörige']
+CORE calls=5 total= 25 first heads: ['der', 'der', 'die', 'der', 'der']
+Gloss pages: P2 (content12), P3+P4 (content34), P5+P6 (content56) = 25, 1:1 core
+
+===== GATE 1c note on P7 removed fragment =====
+P7 added contains ASCII-paren line: ['«der Tankrabatt» (Seite 2): die']
+P7 removed 'gesenkte Steuer...' present as removed? False
+=> German sentence line 2 is byte-identical to core (not removed); line 1 differs ONLY fullwidth vs ASCII parentheses, same as EN edition precedent.
+
+===== GATE 6 P6 chart-label ink gaps (re-measure post-fix) =====
+familiezorg present: True
+thuiszorg present: True
+zorghuis present: True
+Die-Lucerna-VOL2-NL.pdf bytes= 4138969 pages= 8 page0= RectangleObject([0, 0, 1462.5, 2025])
+Die-Lucerna-VOL2-NL-web.pdf bytes= 4140002 pages= 8 page0= RectangleObject([0, 0, 1400, 1938])
+7a667deaa87616730ff720d3265e7f45d7375d8d0fe771cd41ac237820ec01ac  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL-web.pdf
+bbd0f30b0ae2a944f635704a734a5530e474dff6d004824966642df05e695555  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL.pdf
+
+===== VISUAL CHECK (8 cards, post-fix) =====
+P1 badge/subtitle/headline/numbers/Fragen/photo/quiz clean; P2 UND SIE?/RECHNEN/gloss/exercises clean;
+P3 TIPP/gold-line gap clean; P4 schedule/UND SIE?/exercises clean; P5 week-plan/UND SIE?/exercises clean;
+P6 chart labels familiezorg/thuiszorg/zorghuis all clear of bars, disclaimer single line, exercises clean;
+P7 reader box 6 sections/word box (restored German lines)/gold grid/clinic/preview clean, no overflow;
+P8 test area/writing box+model text/all answer keys clean.
+P1-P6,P8 cards are byte-identical to pre-fix (proof-passed) versions; only P7 card changed and was re-viewed.
+
+===== DISCIPLINE =====
+No Discord post, no chat card/PDF dump, no cron created, weekly-git untouched, core + W43 untouched (core hashes re-verified vs proof report).
+
+NOTE: the earlier 'GATE 4 gloss' entry in this file counted only content12.py (1 call, 5 items).
+It is superseded by 'GATE 4 gloss FULL (all content files)': 5 calls x 5 items = 25 = 25 vs core (P2-P6).

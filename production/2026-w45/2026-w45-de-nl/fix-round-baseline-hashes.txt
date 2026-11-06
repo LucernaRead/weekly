@@ -1,0 +1,52 @@
+=== FIX ROUND PRE-FIX BASELINE (2026-10-27, before P7 NOCH EIN WORT fix) ===
+Pre-fix P7 box (measured from delivered SVG):
+text y= 1394.5 'NOCH EIN WORT · Nog één woord'
+text y= 1432.5 '«der Tankrabatt» (pagina 2): de'
+text y= 1461.61 'verlaagde belasting op benzine en'
+text y= 1490.7199999999998 'diesel. Brandstofkorting.'
+
+--- sha256 pre-fix ---
+42ba63f4cfc22e537eeb5c56cef9595dbe1617efd85848a12ac466544ae32236  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p1-front.svg
+da08a0381c854acab2b79a13b0b39f27cc0ec4e9c643a056b1256dc730dd79d6  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p2-leben.svg
+9da2e711cf4263d7994decfa4a7dfff6fdb4f847a3c9a690d4177dfc9730e000  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p3-kultur.svg
+452c69e940fcbd593335469b758d58c4a7e1ec5e752823880f9715ce52128d2f  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p4-sport.svg
+b034ba9989b2a8908036eb31432ad97eddc88d592b8945dfbd482ab7d725a730  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p5-jugend.svg
+18d2c3c35a289be774c791a021b46106633834173724c5cc8c407a757e11afe9  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p6-vertiefung.svg
+5700fb81b000b7a1c9628b14e8ffa99b2c061d092b8b8baa4b9d5244b0d77b05  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p7-sprache.svg
+ee928685f0beb2cddceb3c5794b748c813844b0d2957e6fe0f365098a98f5e52  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p8-uebungen.svg
+f64a5a81d8caf713f8364ac53523179faaf38464c6ae7c66e4870dbb10623f5d  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p1-front.png
+f4dadf7ce1d964b15ee226cddc22063541965df7b35e5dfaddc549c5b320443c  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p2-leben.png
+d1bc0009b6a1f8b52a5ea36f2ca0592f454c791524f2b99980a102b1d2b38917  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p3-kultur.png
+2ae1cc084a13c39da8cb110f887de48f0858960a3d130abe51b7c34b377c5dd5  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p4-sport.png
+32fdb4e9bc4c4ba5571ba211dd0c8d6299fa470715cfc405c90940c6866e1872  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p5-jugend.png
+4a44ea3cd645d7ed2e900ca864ca3354311b4c110da0a84dcd9c82cea9a5bba9  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p6-vertiefung.png
+afc348d347558b577f6301513dc16f2e6d5b99f663eca793f13e3eabd877ac3a  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p7-sprache.png
+a246a8243b3bfa6325fe8d5d3cf8a73660dfb62d4af4730ea1e02fc0062e1683  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p8-uebungen.png
+f5c3d7603cb61d93556ac6f1c44788a5094b2c788196af7d9e5e8167712e7bfa  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL-web.pdf
+2f806c5df6e44c7d2e2effd5a61d47156a97bf654931ed2476860318720e5610  /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL.pdf
+
+--- sizes pre-fix ---
+-rw-rw---- 1 root nogroup 4140214 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL-web.pdf
+-rw-rw---- 1 root nogroup 4138982 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/Die-Lucerna-VOL2-NL.pdf
+-rw-rw---- 1 root nogroup 1269722 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p1-front.png
+-rw-rw---- 1 root nogroup  838314 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p2-leben.png
+-rw-rw---- 1 root nogroup  820747 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p3-kultur.png
+-rw-rw---- 1 root nogroup 1162997 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p4-sport.png
+-rw-rw---- 1 root nogroup  764004 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p5-jugend.png
+-rw-rw---- 1 root nogroup  806438 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p6-vertiefung.png
+-rw-rw---- 1 root nogroup  707146 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p7-sprache.png
+-rw-rw---- 1 root nogroup 1242600 Oct 27 20:46 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/cards/p8-uebungen.png
+-rw-rw---- 1 root nogroup  332598 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p1-front.svg
+-rw-rw---- 1 root nogroup   30947 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p2-leben.svg
+-rw-rw---- 1 root nogroup   30880 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p3-kultur.svg
+-rw-rw---- 1 root nogroup  305389 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p4-sport.svg
+-rw-rw---- 1 root nogroup   30270 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p5-jugend.svg
+-rw-rw---- 1 root nogroup   34011 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p6-vertiefung.svg
+-rw-rw---- 1 root nogroup   30696 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p7-sprache.svg
+-rw-rw---- 1 root nogroup   54396 Oct 27 20:47 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg/p8-uebungen.svg
+
+--- toolchain pre-fix ---
+Python 3.12.3
+venv PIL 13.0.0 cairosvg 2.9.1 pypdf 6.21.2
+Python 3.12.3
+system PIL 10.2.0

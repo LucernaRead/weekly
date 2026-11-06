@@ -1,0 +1,62 @@
+weekly-report-w45-fr-core essay lines: 7 Latin-word tokens: 88
+  tokens: ['Samedi', 'novembre', "j'ai", 'regardé', 'les', 'demi', 'finales', 'du', 'Masters', 'à', 'la', 'télévision', 'quelle', 'ambiance', 'Le', 'soir', 'nous', 'avons', 'fêté', 'la', 'dernière', 'nocturne', 'avec', 'des', 'amis', 'déguisés', 'en', 'fantômes', 'Dimanche', 'nous', 'avons', 'goûté', 'des', 'coquilles', 'Saint', 'Jacques', 'à', 'la', 'portaise', 'achetées', 'au', 'marché', 'de', 'Port', 'en', 'Bessin', 'Le', 'matin', 'nous', 'avons', 'marché', 'au', 'bord', 'de', 'la', 'mer', 'et', 'nous', 'avons', 'acheté', 'des', 'fleurs', 'pour', 'ma', 'grand', 'mère', 'Le', 'soir', 'nous', 'avons', 'écouté', 'de', 'la', 'musique', 'et', "j'ai", 'lu', 'vingt', 'pages', 'de', 'mon', 'roman', 'français', "C'était", 'un', 'week', 'end', 'parfait']
+  incl numbers: 90
+weekly-report-w45-fr-ko essay lines: 7 Latin-word tokens: 88
+  tokens: ['Samedi', 'novembre', "j'ai", 'regardé', 'les', 'demi', 'finales', 'du', 'Masters', 'à', 'la', 'télévision', 'quelle', 'ambiance', 'Le', 'soir', 'nous', 'avons', 'fêté', 'la', 'dernière', 'nocturne', 'avec', 'des', 'amis', 'déguisés', 'en', 'fantômes', 'Dimanche', 'nous', 'avons', 'goûté', 'des', 'coquilles', 'Saint', 'Jacques', 'à', 'la', 'portaise', 'achetées', 'au', 'marché', 'de', 'Port', 'en', 'Bessin', 'Le', 'matin', 'nous', 'avons', 'marché', 'au', 'bord', 'de', 'la', 'mer', 'et', 'nous', 'avons', 'acheté', 'des', 'fleurs', 'pour', 'ma', 'grand', 'mère', 'Le', 'soir', 'nous', 'avons', 'écouté', 'de', 'la', 'musique', 'et', "j'ai", 'lu', 'vingt', 'pages', 'de', 'mon', 'roman', 'français', "C'était", 'un', 'week', 'end', 'parfait']
+  incl numbers: 90
+Hangul nodes total: 333
+nodes with double space: []
+occurrences of 읽 (read verb, legit contexts):
+  p1-une y=92.0 'HEBDOMADAIRE EN FRANÇAIS · 매주 발행 · 프랑스가 읽는 프랑스어'
+  p1-une y=2348.0 '1면을 읽고 정답을 고르세요 · 정답은 8면'
+  p2-vie y=1534.2099999999998 '읽었나요? 프랑스어 두 문장으로 보내 주세요.'
+  p2-vie y=2017.5 '2면 글을 읽고 정답을 고르세요.'
+  p4-sport y=2494.745 '4면 글을 읽고 정답을 고르세요.'
+  p5-jeunesse y=2316.02 '5면 글을 읽고 정답을 고르세요.'
+  p6-politique y=1855.0 'LIRE LE CALENDRIER · 일정 읽기'
+  p6-politique y=1901.5 '위 일정표를 읽고 정답을 고르세요.'
+  p7-langue y=940.05 '읽으면 가장 효과적이에요.'
+  p8-exercices y=852.0 'C · LECTURE · 읽기'
+  p8-exercices y=1875.5 'lundi. (il est prévu que + 가정법) · 135. 일정을 읽는 것 자체가'
+  p8-exercices y=1895.65 '이미 프랑스를 이해하는 거예요. (lire un programme = 일정 읽기)'
+pattern 읽부터 (typo pattern): 0
+pattern 17읽: 0
+suspicious: Latin+CJK mixed without space, digits glued:
+  p8-exercices y=1956.1 '서는 des가 de로 바뀌어요) · 106. Les jeunes créateurs y'
+  p8-exercices y=1996.4 '복수 → rencontrent, rencontre가 아니에요) · 107. Il est prévu'
+nodes ending with lone particle splits (prev-line context handled by orphan scan); count nodes containing '다.' etc: fine
+--- P2 Hangul nodes ---
+  y=116.0 'VIE QUOTIDIENNE · 생활'
+  y=142.0 'NIVEAU A2 · La rentrée · 개학'
+  y=1065.5 '해설 — la rentrée 개학, 복교 · reprendre 다'
+  y=1095.225 '시 시작하다, 복교하다 · un cartable 책가방'
+  y=1124.9499999999998 '· un décalage 어긋남, 시차 · en revanche'
+  y=1154.6749999999997 '반대로 · un rituel 습관, 의식.'
+  y=468.32 'une valise 여행 가방 · une ambiance 분위기 ·'
+  y=498.045 'le bilan 결산, 정리.'
+  y=1215.1 'ET VOUS ? · 여러분은?'
+  y=1505.8099999999997 '월요일 아침 어디에 있었고, 방학 때 무슨 책을'
+  y=1534.2099999999998 '읽었나요? 프랑스어 두 문장으로 보내 주세요.'
+  y=1598.0 'DIRE LA DATE · 날짜 말하기'
+  y=1598.0 'lundi 2 novembre · 주의: 1일은 le premier, 나머지는 기수를 써요'
+  y=1660.0 '11월 2일 월요일 · la rentrée'
+  y=1700.0 "11월 3일 화요일 · votes à l'Assemblée"
+  y=1740.0 '11월 4일 수요일 · sorties cinéma'
+  y=1780.0 '11월 7일 토요일 · nocturne et demis'
+  y=1820.0 '11월 8일 일요일 · les finales'
+  y=1918.0 'EXERCICES · 2면 연습'
+  y=1918.0 '정답은 8면 · 문제는 수준이 섞여 있어요, 번호로 정답을 찾으세요'
+  y=2017.5 '프랑스어로 날짜를 완성하세요(요일과 숫자 주의).'
+  y=2079.225 '빈칸 채우기'
+  y=2178.575 '빈칸 채우기'
+  y=2277.9249999999997 '빈칸 채우기'
+  y=2410.6249999999995 '빈칸 채우기'
+  y=2017.5 'aller + 동사 원형으로 바꿔 쓰세요(최근 미래).'
+  y=2079.225 '바꿔 쓰기'
+  y=2206.0750000000003 '바꿔 쓰기'
+  y=2301.7500000000005 '바꿔 쓰기'
+  y=2397.4250000000006 '바꿔 쓰기'
+  y=2017.5 '2면 글을 읽고 정답을 고르세요.'
+  y=1969.0 '단어와 뜻 짝짓기'
+  y=2624.0 'Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어'
+  y=2624.0 '제 2 면 / 총 8 면'

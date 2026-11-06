@@ -1,0 +1,35 @@
+=== P1 badge / top band / footer ===
+--- W43 ---
+  x=65.0 y=92.0 size=23.0 bold=True fam=Noto Sans CJK SC :: 'VOL. 1 · FIRST ISSUE'
+  x=975.0 y=92.0 size=21.0 bold=False fam=Noto Sans CJK SC :: 'WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어'
+  x=975.0 y=262.0 size=168.0 bold=False fam=UnifrakturMaguntia :: 'The Lucerna'
+  x=975.0 y=330.0 size=46.0 bold=True fam=Noto Serif CJK SC :: '영어 주간지 · VOL.1 · 경기장 · 투표 · 호박'
+  x=975.0 y=372.0 size=19.5 bold=True fam=Noto Sans CJK SC :: '영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+  x=65.0 y=805.5999999999999 size=20.0 bold=False fam=Noto Sans CJK SC :: 'By The Lucerna newsroom · Reading level : A2'
+  x=527.0 y=1189.6 size=25.0 bold=False fam=Noto Serif CJK SC :: 'Lucerna in English. Every week, we'
+  x=65.0 y=2624.0 size=20.0 bold=False fam=Noto Sans CJK SC :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+--- CORE ---
+  x=65.0 y=92.0 size=23.0 bold=True fam=Noto Sans CJK SC :: 'VOL. 2'
+  x=975.0 y=92.0 size=21.0 bold=False fam=Noto Sans CJK SC :: 'WEEKLY IN ENGLISH · 每周一期 · 读美国人正在读的英语'
+  x=975.0 y=262.0 size=168.0 bold=False fam=UnifrakturMaguntia :: 'The Lucerna'
+  x=975.0 y=330.0 size=46.0 bold=True fam=Noto Serif CJK SC :: '英 语 周 报 · VOL.2 · 选 票 · 足 球 · 电 影'
+  x=65.0 y=752.8 size=20.0 bold=False fam=Noto Sans CJK SC :: 'By The Lucerna newsroom · Reading level : A2'
+  x=527.0 y=1174.8 size=25.0 bold=False fam=Noto Serif CJK SC :: 'Lucerna in English. Last issue'
+  x=65.0 y=2624.0 size=20.0 bold=False fam=Noto Sans CJK SC :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+--- ED ---
+  x=65.0 y=92.0 size=23.0 bold=True fam=Noto Sans CJK SC :: 'VOL. 2'
+  x=975.0 y=92.0 size=21.0 bold=False fam=Noto Sans CJK SC :: 'WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어'
+  x=975.0 y=262.0 size=168.0 bold=False fam=UnifrakturMaguntia :: 'The Lucerna'
+  x=975.0 y=330.0 size=46.0 bold=True fam=Noto Serif CJK SC :: '영어 주간지 · VOL.2 · 투표 · 축구 · 영화'
+  x=975.0 y=372.0 size=19.5 bold=True fam=Noto Sans CJK SC :: '영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+  x=65.0 y=752.8 size=20.0 bold=False fam=Noto Sans CJK SC :: 'By The Lucerna newsroom · Reading level : A2'
+  x=527.0 y=1174.8 size=25.0 bold=False fam=Noto Serif CJK SC :: 'Lucerna in English. Last issue'
+  x=65.0 y=2624.0 size=20.0 bold=False fam=Noto Sans CJK SC :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+
+=== P1 badge element details (search '한국어 독자를 위한 판' in each P1) ===
+  W43: '<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="46" font-weight="700" fill="#28251d" text-anchor="middle">영어 주간지 · VOL.1 · 경기장 · 투표 · 호박</text><text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  W43 text-line: '<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="46" font-weight="700" fill="#28251d" text-anchor="middle">영어 주간지 · VOL.1 · 경기장 · 투표 · 호박</text><text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  W43 text-line: '<text x="1451" y="2449.45" font-family="Noto Serif CJK SC" font-size="21" fill="#28251d" text-anchor="start">· B. Tuesday · C. Sunday</text><line x1="65" y1="2580" x2="1885" y2="2580" stroke="#b3a06a" stroke-width="1.6"/><text x="65" y="2624" font-family="Noto Sans CJK SC" font-size="20" fill="#57523f" text-anchor="start">The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어</text>'
+  ED: '<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="46" font-weight="700" fill="#28251d" text-anchor="middle">영어 주간지 · VOL.2 · 투표 · 축구 · 영화</text><text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  ED text-line: '<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="46" font-weight="700" fill="#28251d" text-anchor="middle">영어 주간지 · VOL.2 · 투표 · 축구 · 영화</text><text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  ED text-line: '<text x="1451" y="2449.45" font-family="Noto Serif CJK SC" font-size="21" fill="#28251d" text-anchor="start">· B. Sunday, November 8 · C. Tuesday</text><line x1="65" y1="2580" x2="1885" y2="2580" stroke="#b3a06a" stroke-width="1.6"/><text x="65" y="2624" font-family="Noto Sans CJK SC" font-size="20" fill="#57523f" text-anchor="start">The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어</text>'

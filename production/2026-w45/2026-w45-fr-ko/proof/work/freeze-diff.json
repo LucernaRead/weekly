@@ -1,0 +1,4147 @@
+{
+ "core_svg": "../files/weekly-report-w45-fr-core/svg",
+ "edition_svg": "../files/weekly-report-w45-fr-ko/svg",
+ "pages": {
+  "1": {
+   "added_strings": [
+    {
+     "text": "1면을 읽고 정답을 고르세요 · 정답은 8면",
+     "count": 1
+    },
+    {
+     "text": "DANS CE NUMÉRO · 이번 호 차례",
+     "count": 1
+    },
+    {
+     "text": "EN BREF · 단신",
+     "count": 1
+    },
+    {
+     "text": "HEBDOMADAIRE EN FRANÇAIS · 매주 발행 · 프랑스가 읽는 프랑스어",
+     "count": 1
+    },
+    {
+     "text": "LES DATES · 결승 주말 일정",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "QUIZ ÉCLAIR · 번개 퀴즈",
+     "count": 1
+    },
+    {
+     "text": "SPORT · CULTURE · GASTRONOMIE · LA UNE · 결승 주말",
+     "count": 1
+    },
+    {
+     "text": "VOL. 3 · 제3호",
+     "count": 1
+    },
+    {
+     "text": "coquille Saint-Jacques 가리비.",
+     "count": 1
+    },
+    {
+     "text": "finale 결승 · une demi-finale 준결승 · un",
+     "count": 1
+    },
+    {
+     "text": "quart de finale 8강전 · une nocturne 야간",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 해보기",
+     "count": 1
+    },
+    {
+     "text": "결판이 나다, 상연되다. 이번 주말에 모든 게 결정돼요.",
+     "count": 1
+    },
+    {
+     "text": "마스터스 개막 · 음악제 개막 · 2면 참조",
+     "count": 1
+    },
+    {
+     "text": "월요일 개학 · 프랑스 전역 동시 복교",
+     "count": 1
+    },
+    {
+     "text": "이번 주 일정 · 11월 2–8일",
+     "count": 1
+    },
+    {
+     "text": "제 1 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "주말 결승 결과는 토요일 밤과 일요일에 나와요.",
+     "count": 1
+    },
+    {
+     "text": "프랑스어 주간지 · VOL.3 · 결승 주말",
+     "count": 1
+    },
+    {
+     "text": "프랑스어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판",
+     "count": 1
+    },
+    {
+     "text": "해설 — se jouer 결판이 나다, 상연되다 · une",
+     "count": 1
+    },
+    {
+     "text": "행사 · un frisson 전율, 짜릿함 · la",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "DANS CE NUMÉRO · 本期目录",
+     "count": 1
+    },
+    {
+     "text": "EN BREF · 快讯",
+     "count": 1
+    },
+    {
+     "text": "HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语",
+     "count": 1
+    },
+    {
+     "text": "LES DATES · 决赛周末日程",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "QUIZ ÉCLAIR · 闪电问答",
+     "count": 1
+    },
+    {
+     "text": "SPORT · CULTURE · GASTRONOMIE · LA UNE · 决赛周末",
+     "count": 1
+    },
+    {
+     "text": "VOL. 3 · 总第 3 期",
+     "count": 1
+    },
+    {
+     "text": "finale 决赛 · une demi-finale 半决赛 ·",
+     "count": 1
+    },
+    {
+     "text": "nocturne 夜场活动 · un frisson 战栗、刺",
+     "count": 1
+    },
+    {
+     "text": "un quart de finale 四分之一决赛 · une",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "决出胜负；上演。本周末一切都将见分晓。",
+     "count": 1
+    },
+    {
+     "text": "周一开学 · 全法同步复课",
+     "count": 1
+    },
+    {
+     "text": "周末决赛结果周六晚、周日揭晓。",
+     "count": 1
+    },
+    {
+     "text": "大师赛开赛 · 音乐节开幕 · 详见第 2 版",
+     "count": 1
+    },
+    {
+     "text": "本周日程 · 11 月 2 日至 8 日",
+     "count": 1
+    },
+    {
+     "text": "法 语 周 报 · VOL.3 · 决 赛 周 末",
+     "count": 1
+    },
+    {
+     "text": "法语正文 · 简体中文讲解 — 给简体中文读者的版本",
+     "count": 1
+    },
+    {
+     "text": "激感 · la coquille Saint-Jacques 扇贝。",
+     "count": 1
+    },
+    {
+     "text": "第 1 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "译注｜se jouer 决出胜负、上演 · une",
+     "count": 1
+    },
+    {
+     "text": "读头版，选出正确答案 · 答案见第 8 版",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 202,
+   "cjk_edition_total": 217,
+   "cjk_added": {
+    "제": 3,
+    "호": 2,
+    "매": 1,
+    "주": 9,
+    "발": 1,
+    "행": 2,
+    "프": 7,
+    "랑": 7,
+    "스": 11,
+    "가": 2,
+    "읽": 2,
+    "는": 3,
+    "어": 8,
+    "간": 3,
+    "지": 2,
+    "결": 10,
+    "승": 6,
+    "말": 5,
+    "월": 2,
+    "요": 6,
+    "일": 7,
+    "개": 4,
+    "학": 1,
+    "전": 3,
+    "역": 1,
+    "동": 1,
+    "시": 1,
+    "복": 1,
+    "교": 1,
+    "마": 1,
+    "터": 1,
+    "막": 2,
+    "음": 1,
+    "악": 1,
+    "면": 5,
+    "참": 1,
+    "조": 1,
+    "텍": 2,
+    "트": 2,
+    "한": 4,
+    "국": 3,
+    "해": 4,
+    "설": 3,
+    "독": 1,
+    "자": 1,
+    "를": 1,
+    "위": 1,
+    "판": 3,
+    "이": 5,
+    "나": 3,
+    "다": 4,
+    "상": 2,
+    "연": 2,
+    "되": 2,
+    "준": 1,
+    "강": 1,
+    "야": 1,
+    "사": 1,
+    "율": 1,
+    "짜": 1,
+    "릿": 1,
+    "함": 1,
+    "리": 1,
+    "비": 1,
+    "정": 5,
+    "보": 1,
+    "기": 1,
+    "번": 4,
+    "과": 2,
+    "토": 1,
+    "밤": 1,
+    "에": 2,
+    "와": 1,
+    "차": 1,
+    "례": 1,
+    "모": 1,
+    "든": 1,
+    "게": 1,
+    "돼": 1,
+    "단": 1,
+    "신": 1,
+    "퀴": 1,
+    "즈": 1,
+    "을": 2,
+    "고": 2,
+    "답": 2,
+    "르": 1,
+    "세": 1,
+    "은": 2,
+    "총": 1
+   }
+  },
+  "2": {
+   "added_strings": [
+    {
+     "text": "11월 2일 월요일 · la rentrée",
+     "count": 1
+    },
+    {
+     "text": "11월 3일 화요일 · votes à l'Assemblée",
+     "count": 1
+    },
+    {
+     "text": "11월 4일 수요일 · sorties cinéma",
+     "count": 1
+    },
+    {
+     "text": "11월 7일 토요일 · nocturne et demis",
+     "count": 1
+    },
+    {
+     "text": "11월 8일 일요일 · les finales",
+     "count": 1
+    },
+    {
+     "text": "2면 글을 읽고 정답을 고르세요.",
+     "count": 1
+    },
+    {
+     "text": "DIRE LA DATE · 날짜 말하기",
+     "count": 1
+    },
+    {
+     "text": "ET VOUS ? · 여러분은?",
+     "count": 1
+    },
+    {
+     "text": "EXERCICES · 2면 연습",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 · La rentrée · 개학",
+     "count": 1
+    },
+    {
+     "text": "VIE QUOTIDIENNE · 생활",
+     "count": 1
+    },
+    {
+     "text": "aller + 동사 원형으로 바꿔 쓰세요(최근 미래).",
+     "count": 1
+    },
+    {
+     "text": "le bilan 결산, 정리.",
+     "count": 1
+    },
+    {
+     "text": "lundi 2 novembre · 주의: 1일은 le premier, 나머지는 기수를 써요",
+     "count": 1
+    },
+    {
+     "text": "une valise 여행 가방 · une ambiance 분위기 ·",
+     "count": 1
+    },
+    {
+     "text": "· un décalage 어긋남, 시차 · en revanche",
+     "count": 1
+    },
+    {
+     "text": "단어와 뜻 짝짓기",
+     "count": 1
+    },
+    {
+     "text": "바꿔 쓰기",
+     "count": 4
+    },
+    {
+     "text": "반대로 · un rituel 습관, 의식.",
+     "count": 1
+    },
+    {
+     "text": "빈칸 채우기",
+     "count": 4
+    },
+    {
+     "text": "시 시작하다, 복교하다 · un cartable 책가방",
+     "count": 1
+    },
+    {
+     "text": "월요일 아침 어디에 있었고, 방학 때 무슨 책을",
+     "count": 1
+    },
+    {
+     "text": "읽었나요? 프랑스어 두 문장으로 보내 주세요.",
+     "count": 1
+    },
+    {
+     "text": "정답은 8면 · 문제는 수준이 섞여 있어요, 번호로 정답을 찾으세요",
+     "count": 1
+    },
+    {
+     "text": "제 2 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로 날짜를 완성하세요(요일과 숫자 주의).",
+     "count": 1
+    },
+    {
+     "text": "해설 — la rentrée 개학, 복교 · reprendre 다",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "11 月 2 日星期一 · la rentrée",
+     "count": 1
+    },
+    {
+     "text": "11 月 3 日星期二 · votes à l'Assemblée",
+     "count": 1
+    },
+    {
+     "text": "11 月 4 日星期三 · sorties cinéma",
+     "count": 1
+    },
+    {
+     "text": "11 月 7 日星期六 · nocturne et demis",
+     "count": 1
+    },
+    {
+     "text": "11 月 8 日星期日 · les finales",
+     "count": 1
+    },
+    {
+     "text": "DIRE LA DATE · 这样说日期",
+     "count": 1
+    },
+    {
+     "text": "ET VOUS ? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "EXERCICES · 第 2 版练习",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 · La rentrée · 开学复课",
+     "count": 1
+    },
+    {
+     "text": "VIE QUOTIDIENNE · 生活",
+     "count": 1
+    },
+    {
+     "text": "décalage 错开、时差 · en revanche 相反",
+     "count": 1
+    },
+    {
+     "text": "lundi 2 novembre · 注意：1 日说 le premier，其余用基数词",
+     "count": 1
+    },
+    {
+     "text": "· le bilan 总结、盘点。",
+     "count": 1
+    },
+    {
+     "text": "、反之 · un rituel 习惯、仪式。",
+     "count": 1
+    },
+    {
+     "text": "了哪本书？写两句法语寄给编辑部。",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 4
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "改写",
+     "count": 4
+    },
+    {
+     "text": "用 aller + 动词原形改写（最近将来时）。",
+     "count": 1
+    },
+    {
+     "text": "用法语补全日期（注意星期与数字）。",
+     "count": 1
+    },
+    {
+     "text": "第 2 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜la rentrée 开学、复课 · reprendre",
+     "count": 1
+    },
+    {
+     "text": "译注｜une valise 行李箱 · une ambiance 气氛",
+     "count": 1
+    },
+    {
+     "text": "说说你的开学：周一早上你在哪里？假期读",
+     "count": 1
+    },
+    {
+     "text": "读第 2 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "重新开始、复课 · un cartable 书包 · un",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 244,
+   "cjk_edition_total": 272,
+   "cjk_added": {
+    "생": 1,
+    "활": 1,
+    "개": 2,
+    "학": 3,
+    "해": 2,
+    "설": 2,
+    "복": 2,
+    "교": 2,
+    "다": 3,
+    "시": 3,
+    "작": 1,
+    "하": 4,
+    "책": 2,
+    "가": 2,
+    "방": 3,
+    "어": 9,
+    "긋": 1,
+    "남": 1,
+    "차": 1,
+    "반": 1,
+    "대": 1,
+    "로": 5,
+    "습": 2,
+    "관": 1,
+    "의": 3,
+    "식": 1,
+    "여": 3,
+    "행": 1,
+    "분": 2,
+    "위": 1,
+    "기": 12,
+    "결": 1,
+    "산": 1,
+    "정": 4,
+    "리": 1,
+    "러": 1,
+    "은": 4,
+    "월": 7,
+    "요": 15,
+    "일": 14,
+    "아": 1,
+    "침": 1,
+    "디": 1,
+    "에": 1,
+    "있": 2,
+    "었": 2,
+    "고": 3,
+    "때": 1,
+    "무": 1,
+    "슨": 1,
+    "을": 4,
+    "읽": 2,
+    "나": 2,
+    "프": 4,
+    "랑": 4,
+    "스": 5,
+    "두": 1,
+    "문": 2,
+    "장": 1,
+    "으": 3,
+    "보": 1,
+    "내": 1,
+    "주": 4,
+    "세": 5,
+    "날": 2,
+    "짜": 2,
+    "말": 1,
+    "머": 1,
+    "지": 2,
+    "는": 3,
+    "수": 3,
+    "를": 2,
+    "써": 1,
+    "화": 1,
+    "토": 1,
+    "면": 5,
+    "연": 1,
+    "답": 3,
+    "제": 2,
+    "준": 1,
+    "이": 1,
+    "섞": 1,
+    "번": 1,
+    "호": 1,
+    "찾": 1,
+    "완": 1,
+    "성": 1,
+    "과": 1,
+    "숫": 1,
+    "자": 1,
+    "빈": 4,
+    "칸": 4,
+    "채": 4,
+    "우": 4,
+    "동": 1,
+    "사": 1,
+    "원": 1,
+    "형": 1,
+    "바": 5,
+    "꿔": 5,
+    "쓰": 5,
+    "최": 1,
+    "근": 1,
+    "미": 1,
+    "래": 1,
+    "글": 1,
+    "르": 1,
+    "단": 1,
+    "와": 1,
+    "뜻": 1,
+    "짝": 1,
+    "짓": 1,
+    "간": 1,
+    "텍": 1,
+    "트": 1,
+    "한": 1,
+    "국": 1,
+    "총": 1
+   }
+  },
+  "3": {
+   "added_strings": [
+    {
+     "text": "/장난 · une ambiance 분위기 · le",
+     "count": 1
+    },
+    {
+     "text": "10월 3일부터 11월 8일까지 야간 행사 12회, 마",
+     "count": 1
+    },
+    {
+     "text": "19시까지 열어요.",
+     "count": 1
+    },
+    {
+     "text": "CULTURE · 축제",
+     "count": 1
+    },
+    {
+     "text": "DATES À RETENIR · 기억할 날짜",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS DES FÊTES · 축제 단어",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 → B1 · Halloween, Toussaint · 핼러윈과 만성절",
+     "count": 1
+    },
+    {
+     "text": "déguisement / tombe / citrouille / souvenir로",
+     "count": 1
+    },
+    {
+     "text": "ne...pas 사용).",
+     "count": 1
+    },
+    {
+     "text": "se souvenir — 추모하다, 떠올리다",
+     "count": 1
+    },
+    {
+     "text": "souvenir 추억, 기념 · confondre 혼동하다",
+     "count": 1
+    },
+    {
+     "text": "un bonbon — 사탕",
+     "count": 1
+    },
+    {
+     "text": "un cimetière — 묘지",
+     "count": 1
+    },
+    {
+     "text": "un déguisement — 변장 복장",
+     "count": 1
+    },
+    {
+     "text": "un fantôme — 유령",
+     "count": 1
+    },
+    {
+     "text": "un jour férié — 공휴일",
+     "count": 1
+    },
+    {
+     "text": "un saint — 성인",
+     "count": 1
+    },
+    {
+     "text": "un sort — 마법, 저주",
+     "count": 1
+    },
+    {
+     "text": "une citrouille — 호박",
+     "count": 1
+    },
+    {
+     "text": "une tombe — 무덤",
+     "count": 1
+    },
+    {
+     "text": "· discret 조용한, 차분한.",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 해보기",
+     "count": 1
+    },
+    {
+     "text": "맞는지 틀린지 판단하세요(Vrai / Faux).",
+     "count": 1
+    },
+    {
+     "text": "문장을 바꿔 쓰세요(ne...jamais / ne...plus /",
+     "count": 1
+    },
+    {
+     "text": "바꿔 쓰기",
+     "count": 3
+    },
+    {
+     "text": "빈칸을 채우세요.",
+     "count": 1
+    },
+    {
+     "text": "제 3 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "주가 아니에요.",
+     "count": 1
+    },
+    {
+     "text": "주의: 디에프 가리비 시장은 11월 14–15일, 이번",
+     "count": 1
+    },
+    {
+     "text": "지막 야간 행사는 11월 7일, 낮에는 10시부터",
+     "count": 1
+    },
+    {
+     "text": "해보기 · 공원 핼러윈 작은 문제.",
+     "count": 1
+    },
+    {
+     "text": "해설 — se déguiser 변장하다 · un sort 마법",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "10 月 3 日至 11 月 8 日，12 场夜场；最后夜",
+     "count": 1
+    },
+    {
+     "text": "CULTURE · 文化",
+     "count": 1
+    },
+    {
+     "text": "DATES À RETENIR · 本周日历",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS DES FÊTES · 节日词表",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 → B1 · Halloween, Toussaint · 万圣与诸圣",
+     "count": 1
+    },
+    {
+     "text": "discret 低调的、安静的。",
+     "count": 1
+    },
+    {
+     "text": "se souvenir — 纪念、想起",
+     "count": 1
+    },
+    {
+     "text": "souvenir 回忆、纪念 · confondre 混淆 ·",
+     "count": 1
+    },
+    {
+     "text": "un bonbon — 糖果",
+     "count": 1
+    },
+    {
+     "text": "un cimetière — 墓园",
+     "count": 1
+    },
+    {
+     "text": "un déguisement — 变装服装",
+     "count": 1
+    },
+    {
+     "text": "un fantôme — 幽灵",
+     "count": 1
+    },
+    {
+     "text": "un jour férié — 公共假日",
+     "count": 1
+    },
+    {
+     "text": "un saint — 圣人",
+     "count": 1
+    },
+    {
+     "text": "un sort — 魔法、诅咒",
+     "count": 1
+    },
+    {
+     "text": "une citrouille — 南瓜",
+     "count": 1
+    },
+    {
+     "text": "une tombe — 坟墓",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "判断对错（Vrai / Faux）。",
+     "count": 1
+    },
+    {
+     "text": "即学即练 · 公园万圣节小题。",
+     "count": 1
+    },
+    {
+     "text": "在本周。",
+     "count": 1
+    },
+    {
+     "text": "场 11 月 7 日；白天 10 点至 19 点开放。",
+     "count": 1
+    },
+    {
+     "text": "填空。",
+     "count": 1
+    },
+    {
+     "text": "改写",
+     "count": 3
+    },
+    {
+     "text": "改写句子（用 ne...jamais / ne...plus / ne...pas",
+     "count": 1
+    },
+    {
+     "text": "注意：迪耶普扇贝集市在 11 月 14–15 日，不",
+     "count": 1
+    },
+    {
+     "text": "用 déguisement / tombe / citrouille / souvenir",
+     "count": 1
+    },
+    {
+     "text": "第 3 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "译注｜se déguiser 变装、装扮 · un sort",
+     "count": 1
+    },
+    {
+     "text": "魔法、恶作剧 · une ambiance 气氛 · le",
+     "count": 1
+    },
+    {
+     "text": "）。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 179,
+   "cjk_edition_total": 213,
+   "cjk_added": {
+    "축": 2,
+    "제": 4,
+    "핼": 2,
+    "러": 2,
+    "윈": 2,
+    "과": 1,
+    "만": 1,
+    "성": 2,
+    "절": 1,
+    "해": 4,
+    "설": 2,
+    "변": 2,
+    "장": 6,
+    "하": 4,
+    "다": 4,
+    "마": 3,
+    "법": 2,
+    "난": 1,
+    "분": 2,
+    "위": 1,
+    "기": 8,
+    "추": 2,
+    "억": 2,
+    "념": 1,
+    "혼": 1,
+    "동": 1,
+    "조": 1,
+    "용": 2,
+    "한": 3,
+    "차": 1,
+    "보": 2,
+    "맞": 1,
+    "는": 4,
+    "지": 7,
+    "틀": 1,
+    "린": 1,
+    "판": 1,
+    "단": 2,
+    "세": 3,
+    "요": 5,
+    "로": 1,
+    "빈": 1,
+    "칸": 1,
+    "을": 2,
+    "채": 1,
+    "우": 1,
+    "문": 2,
+    "바": 4,
+    "꿔": 4,
+    "쓰": 4,
+    "사": 4,
+    "공": 2,
+    "원": 1,
+    "작": 1,
+    "은": 3,
+    "어": 5,
+    "인": 1,
+    "묘": 1,
+    "무": 1,
+    "덤": 1,
+    "휴": 1,
+    "일": 5,
+    "모": 1,
+    "떠": 1,
+    "올": 1,
+    "리": 2,
+    "복": 1,
+    "호": 1,
+    "박": 1,
+    "탕": 1,
+    "유": 1,
+    "령": 1,
+    "저": 1,
+    "주": 4,
+    "월": 4,
+    "부": 2,
+    "터": 2,
+    "까": 2,
+    "야": 2,
+    "간": 3,
+    "행": 2,
+    "회": 1,
+    "막": 1,
+    "낮": 1,
+    "에": 3,
+    "시": 3,
+    "열": 1,
+    "할": 1,
+    "날": 1,
+    "짜": 1,
+    "의": 1,
+    "디": 1,
+    "프": 3,
+    "가": 2,
+    "비": 1,
+    "이": 1,
+    "번": 1,
+    "아": 1,
+    "니": 1,
+    "랑": 2,
+    "스": 3,
+    "텍": 1,
+    "트": 1,
+    "국": 1,
+    "면": 2,
+    "총": 1
+   }
+  },
+  "4": {
+   "added_strings": [
+    {
+     "text": "4면 글을 읽고 정답을 고르세요.",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 토론",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS DU TENNIS · 테니스 단어",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "MICRO-DRILLS · 미니 연습",
+     "count": 1
+    },
+    {
+     "text": "SPORT · 스포츠",
+     "count": 1
+    },
+    {
+     "text": "du titre 디펜딩 챔피언 · basculer 역전되다,",
+     "count": 1
+    },
+    {
+     "text": "familier 익숙한.",
+     "count": 1
+    },
+    {
+     "text": "fauteuil / choc으로 빈칸을 채우세요.",
+     "count": 1
+    },
+    {
+     "text": "finale / quarts / demi-finales / tableau /",
+     "count": 1
+    },
+    {
+     "text": "gagné ! » — 이겼어요!",
+     "count": 1
+    },
+    {
+     "text": "la finale — 결승",
+     "count": 1
+    },
+    {
+     "text": "le tennis — 테니스",
+     "count": 1
+    },
+    {
+     "text": "tableau principal 본선 대진표 · le tenant",
+     "count": 1
+    },
+    {
+     "text": "un adversaire — 상대",
+     "count": 1
+    },
+    {
+     "text": "un choc 빅매치 · recevoir 맞다, 맞이하다 ·",
+     "count": 1
+    },
+    {
+     "text": "un match — 경기",
+     "count": 1
+    },
+    {
+     "text": "un point — 1점",
+     "count": 1
+    },
+    {
+     "text": "un set — 한 세트",
+     "count": 1
+    },
+    {
+     "text": "un titre — 우승 타이틀",
+     "count": 1
+    },
+    {
+     "text": "une balle — 공",
+     "count": 1
+    },
+    {
+     "text": "« Allez ! » — 힘내! · « Quelle action ! »",
+     "count": 1
+    },
+    {
+     "text": "« Balle de match ! » — 매치 포인트!",
+     "count": 1
+    },
+    {
+     "text": "« Il marque ! » — 득점했어요! · « C'est",
+     "count": 1
+    },
+    {
+     "text": "« Quel point ! » — 멋진 포인트!(테니스) ·",
+     "count": 1
+    },
+    {
+     "text": "À SUIVRE · 계속 지켜보기",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 해보기",
+     "count": 1
+    },
+    {
+     "text": "— 멋진 플레이!",
+     "count": 1
+    },
+    {
+     "text": "결승 진출자를 미리 모르는 게 더 짜릿할까요,",
+     "count": 1
+    },
+    {
+     "text": "기울다 · les tribunes 관중석.",
+     "count": 1
+    },
+    {
+     "text": "더 실망스러울까요? 찬성 두 문장, 반대 두 문장",
+     "count": 1
+    },
+    {
+     "text": "비교급으로 문장을 완성하세요(plus / moins).",
+     "count": 1
+    },
+    {
+     "text": "을 쓰세요.",
+     "count": 1
+    },
+    {
+     "text": "제 4 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "짝짓기",
+     "count": 1
+    },
+    {
+     "text": "테니스 단어와 뜻을 짝지으세요.",
+     "count": 1
+    },
+    {
+     "text": "하드코트에서 · en salle 실내에서 · un",
+     "count": 1
+    },
+    {
+     "text": "해설 — un tournoi 대회, 토너먼트 · sur dur",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "Balle de match ! » — 赛点！",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 讨论",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS DU TENNIS · 网球词表",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "MICRO-DRILLS · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "SPORT · 体育",
+     "count": 1
+    },
+    {
+     "text": "fauteuil / choc 填空。",
+     "count": 1
+    },
+    {
+     "text": "gagné ! » — 赢了！",
+     "count": 1
+    },
+    {
+     "text": "la finale — 决赛",
+     "count": 1
+    },
+    {
+     "text": "le tennis — 网球",
+     "count": 1
+    },
+    {
+     "text": "principal 正赛签表 · le tenant du titre 卫",
+     "count": 1
+    },
+    {
+     "text": "tribunes 看台。",
+     "count": 1
+    },
+    {
+     "text": "un adversaire — 对手",
+     "count": 1
+    },
+    {
+     "text": "un match — 比赛",
+     "count": 1
+    },
+    {
+     "text": "un point — 一分",
+     "count": 1
+    },
+    {
+     "text": "un set — 一盘",
+     "count": 1
+    },
+    {
+     "text": "un titre — 冠军头衔",
+     "count": 1
+    },
+    {
+     "text": "une balle — 球",
+     "count": 1
+    },
+    {
+     "text": "« Allez ! » — 加油！ · « Quelle action ! »",
+     "count": 1
+    },
+    {
+     "text": "« Il marque ! » — 他得分了！ · « C'est",
+     "count": 1
+    },
+    {
+     "text": "« Quel point ! » — 好球！（网球） · «",
+     "count": 1
+    },
+    {
+     "text": "À SUIVRE · 拭目以待",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "— 好球！",
+     "count": 1
+    },
+    {
+     "text": "事先不知道决赛选手，是更刺激还是更扫兴",
+     "count": 1
+    },
+    {
+     "text": "冕冠军 · basculer 逆转、倾斜 · les",
+     "count": 1
+    },
+    {
+     "text": "待 · familier 熟悉的。",
+     "count": 1
+    },
+    {
+     "text": "把网球词和释义配对。",
+     "count": 1
+    },
+    {
+     "text": "用 finale / quarts / demi-finales / tableau /",
+     "count": 1
+    },
+    {
+     "text": "用比较级完成句子（plus / moins）。",
+     "count": 1
+    },
+    {
+     "text": "硬地球场 · en salle 室内 · un tableau",
+     "count": 1
+    },
+    {
+     "text": "第 4 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "译注｜un choc 强强对决 · recevoir 迎战、接",
+     "count": 1
+    },
+    {
+     "text": "译注｜un tournoi 锦标赛、赛事 · sur dur",
+     "count": 1
+    },
+    {
+     "text": "读第 4 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "配对",
+     "count": 1
+    },
+    {
+     "text": "？写两句支持、两句反对。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 197,
+   "cjk_edition_total": 237,
+   "cjk_added": {
+    "스": 9,
+    "포": 3,
+    "츠": 1,
+    "해": 3,
+    "설": 2,
+    "대": 4,
+    "회": 1,
+    "토": 2,
+    "너": 1,
+    "먼": 1,
+    "트": 6,
+    "하": 3,
+    "드": 1,
+    "코": 1,
+    "에": 2,
+    "서": 2,
+    "실": 2,
+    "내": 2,
+    "본": 1,
+    "선": 1,
+    "진": 4,
+    "표": 1,
+    "디": 1,
+    "펜": 1,
+    "딩": 1,
+    "챔": 1,
+    "피": 1,
+    "언": 1,
+    "역": 1,
+    "전": 1,
+    "되": 1,
+    "다": 4,
+    "기": 5,
+    "울": 2,
+    "관": 1,
+    "중": 1,
+    "석": 1,
+    "보": 2,
+    "면": 3,
+    "글": 1,
+    "을": 6,
+    "읽": 1,
+    "고": 2,
+    "정": 1,
+    "답": 1,
+    "르": 2,
+    "세": 6,
+    "요": 9,
+    "테": 4,
+    "니": 5,
+    "단": 2,
+    "어": 7,
+    "와": 1,
+    "뜻": 1,
+    "짝": 2,
+    "지": 3,
+    "으": 3,
+    "짓": 1,
+    "비": 1,
+    "교": 1,
+    "급": 1,
+    "로": 2,
+    "문": 3,
+    "장": 3,
+    "완": 1,
+    "성": 2,
+    "빅": 1,
+    "매": 2,
+    "치": 2,
+    "맞": 2,
+    "이": 4,
+    "익": 1,
+    "숙": 1,
+    "한": 3,
+    "힘": 1,
+    "멋": 2,
+    "플": 1,
+    "레": 1,
+    "득": 1,
+    "점": 2,
+    "했": 1,
+    "겼": 1,
+    "인": 2,
+    "공": 1,
+    "경": 1,
+    "결": 2,
+    "승": 3,
+    "상": 1,
+    "우": 2,
+    "타": 1,
+    "틀": 1,
+    "계": 1,
+    "속": 1,
+    "켜": 1,
+    "미": 2,
+    "연": 1,
+    "습": 1,
+    "빈": 1,
+    "칸": 1,
+    "채": 1,
+    "론": 1,
+    "출": 1,
+    "자": 1,
+    "를": 1,
+    "리": 1,
+    "모": 1,
+    "는": 2,
+    "게": 1,
+    "더": 2,
+    "짜": 1,
+    "릿": 1,
+    "할": 1,
+    "까": 2,
+    "망": 1,
+    "러": 1,
+    "찬": 1,
+    "두": 2,
+    "반": 1,
+    "쓰": 1,
+    "프": 2,
+    "랑": 2,
+    "주": 1,
+    "간": 1,
+    "텍": 1,
+    "은": 1,
+    "국": 1,
+    "제": 1,
+    "총": 1
+   }
+  },
+  "5": {
+   "added_strings": [
+    {
+     "text": "11월 4–5일 라빌레트: 크리에이터 위크, 온라인",
+     "count": 1
+    },
+    {
+     "text": "5면 글을 읽고 정답을 고르세요.",
+     "count": 1
+    },
+    {
+     "text": "JEUNESSE & MUSIQUE · 청년",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 토론",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "MOTS DE LA MUSIQUE · 음악 단어",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B1 · Pitchfork Paris · 음악제",
+     "count": 1
+    },
+    {
+     "text": "PARIS CREATOR WEEK",
+     "count": 1
+    },
+    {
+     "text": "danser — 춤추다",
+     "count": 1
+    },
+    {
+     "text": "découvre로 빈칸을 채우세요.",
+     "count": 1
+    },
+    {
+     "text": "le public — 관객",
+     "count": 1
+    },
+    {
+     "text": "lieux / paroles / affiche / ambiance / danse /",
+     "count": 1
+    },
+    {
+     "text": "un chanteur — 가수",
+     "count": 1
+    },
+    {
+     "text": "un concert — 콘서트",
+     "count": 1
+    },
+    {
+     "text": "un festival — 음악제",
+     "count": 1
+    },
+    {
+     "text": "une chanson — 노래",
+     "count": 1
+    },
+    {
+     "text": "une salle — 공연장",
+     "count": 1
+    },
+    {
+     "text": "· les paroles 가사 · donner le ton 분위기",
+     "count": 1
+    },
+    {
+     "text": "· pile 정확히, 딱.",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 해보기",
+     "count": 1
+    },
+    {
+     "text": "écouter — 듣다",
+     "count": 1
+    },
+    {
+     "text": "다 나을까요? 프랑스어를 배우려고 어떤 음악을",
+     "count": 1
+    },
+    {
+     "text": "대화를 완성하세요(음악제 입구).",
+     "count": 1
+    },
+    {
+     "text": "들어요?",
+     "count": 1
+    },
+    {
+     "text": "를 정하다 · se promener 거닐다, 돌아다니다",
+     "count": 1
+    },
+    {
+     "text": "열 곳에서 열리는 음악제가 하나의 큰 공연장보",
+     "count": 1
+    },
+    {
+     "text": "음악 단어와 뜻을 짝지으세요.",
+     "count": 1
+    },
+    {
+     "text": "제 5 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "짝짓기",
+     "count": 1
+    },
+    {
+     "text": "크리에이터와 관객이 직접 만나요.",
+     "count": 1
+    },
+    {
+     "text": "해설 — un lieu 공연장 · une affiche 포스터",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "/ découvre 填空。",
+     "count": 1
+    },
+    {
+     "text": "11 月 4–5 日拉维莱特：创作者周，线上创作",
+     "count": 1
+    },
+    {
+     "text": "JEUNESSE & MUSIQUE · 青年",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 讨论",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "MOTS DE LA MUSIQUE · 音乐词表",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B1 · Pitchfork Paris · 音乐节",
+     "count": 1
+    },
+    {
+     "text": "PARIS CREATOR WEEK · 创作者周",
+     "count": 1
+    },
+    {
+     "text": "danser — 跳舞",
+     "count": 1
+    },
+    {
+     "text": "le public — 观众",
+     "count": 1
+    },
+    {
+     "text": "un chanteur — 歌手",
+     "count": 1
+    },
+    {
+     "text": "un concert — 音乐会",
+     "count": 1
+    },
+    {
+     "text": "un festival — 音乐节",
+     "count": 1
+    },
+    {
+     "text": "une chanson — 歌曲",
+     "count": 1
+    },
+    {
+     "text": "une salle — 演出厅",
+     "count": 1
+    },
+    {
+     "text": "À VOUS ! · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "écouter — 聆听",
+     "count": 1
+    },
+    {
+     "text": "你听什么音乐学法语？",
+     "count": 1
+    },
+    {
+     "text": "十个场地的音乐节，比单一大场馆更好吗？",
+     "count": 1
+    },
+    {
+     "text": "好、恰好。",
+     "count": 1
+    },
+    {
+     "text": "把音乐词和释义配对。",
+     "count": 1
+    },
+    {
+     "text": "报 · les paroles 歌词 · donner le ton 定",
+     "count": 1
+    },
+    {
+     "text": "用 lieux / paroles / affiche / ambiance / danse",
+     "count": 1
+    },
+    {
+     "text": "第 5 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "者与观众线下见面。",
+     "count": 1
+    },
+    {
+     "text": "补全对话（音乐节门口）。",
+     "count": 1
+    },
+    {
+     "text": "译注｜un lieu 场所、场地 · une affiche 海",
+     "count": 1
+    },
+    {
+     "text": "读第 5 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "调子 · se promener 漫步、穿梭 · pile 正",
+     "count": 1
+    },
+    {
+     "text": "配对",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 177,
+   "cjk_edition_total": 207,
+   "cjk_added": {
+    "청": 1,
+    "년": 1,
+    "음": 7,
+    "악": 7,
+    "제": 5,
+    "해": 3,
+    "설": 2,
+    "공": 3,
+    "연": 3,
+    "장": 3,
+    "포": 1,
+    "스": 5,
+    "터": 3,
+    "가": 3,
+    "사": 1,
+    "분": 1,
+    "위": 2,
+    "기": 3,
+    "를": 3,
+    "정": 3,
+    "하": 3,
+    "다": 7,
+    "거": 1,
+    "닐": 1,
+    "돌": 1,
+    "아": 1,
+    "니": 1,
+    "확": 1,
+    "히": 1,
+    "딱": 1,
+    "보": 2,
+    "면": 3,
+    "글": 1,
+    "을": 6,
+    "읽": 1,
+    "고": 3,
+    "답": 1,
+    "르": 1,
+    "세": 4,
+    "요": 7,
+    "로": 1,
+    "빈": 1,
+    "칸": 1,
+    "채": 1,
+    "우": 2,
+    "단": 2,
+    "어": 8,
+    "와": 2,
+    "뜻": 1,
+    "짝": 2,
+    "지": 2,
+    "으": 1,
+    "짓": 1,
+    "대": 1,
+    "화": 1,
+    "완": 1,
+    "성": 1,
+    "입": 1,
+    "구": 1,
+    "콘": 1,
+    "서": 2,
+    "트": 3,
+    "노": 1,
+    "래": 1,
+    "수": 1,
+    "춤": 1,
+    "추": 1,
+    "듣": 1,
+    "관": 2,
+    "객": 2,
+    "월": 1,
+    "일": 1,
+    "라": 2,
+    "빌": 1,
+    "레": 1,
+    "크": 3,
+    "리": 3,
+    "에": 3,
+    "이": 3,
+    "온": 1,
+    "인": 1,
+    "직": 1,
+    "접": 1,
+    "만": 1,
+    "나": 3,
+    "토": 1,
+    "론": 1,
+    "열": 2,
+    "곳": 1,
+    "는": 2,
+    "의": 1,
+    "큰": 1,
+    "까": 1,
+    "프": 3,
+    "랑": 3,
+    "배": 1,
+    "려": 1,
+    "떤": 1,
+    "들": 1,
+    "주": 1,
+    "간": 1,
+    "텍": 1,
+    "은": 1,
+    "한": 1,
+    "국": 1,
+    "총": 1
+   }
+  },
+  "6": {
+   "added_strings": [
+    {
+     "text": "LE CALENDRIER PRÉVU · 예정된 투표 일정(결과 미정)",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 토론",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS · 단어",
+     "count": 1
+    },
+    {
+     "text": "LIRE LE CALENDRIER · 일정 읽기",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "MICRO-DRILLS · 미니 연습",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B2 · Budget 2027 · 예산 주간",
+     "count": 1
+    },
+    {
+     "text": "POLITIQUE & CHIFFRES · 시사",
+     "count": 1
+    },
+    {
+     "text": "amendement 수정안.",
+     "count": 1
+    },
+    {
+     "text": "examine / ont rejeté / part / peut / connus로",
+     "count": 1
+    },
+    {
+     "text": "prévu 예정된, 계획된 · réaliser 이루다, 완성하다",
+     "count": 1
+    },
+    {
+     "text": "prévu(계획)와 décidé(확정)를 구분하세요.",
+     "count": 1
+    },
+    {
+     "text": "« Le texte part au Sénat. » — 법안, 상원",
+     "count": 1
+    },
+    {
+     "text": "· distinguer 구분하다.",
+     "count": 1
+    },
+    {
+     "text": "— 결과는 아직 알려지지 않았어요.",
+     "count": 1
+    },
+    {
+     "text": "— 일정은 아직 바뀔 수 있어요.",
+     "count": 1
+    },
+    {
+     "text": "결과가 나오기 전에 일정을 먼저 발표해야 할까요?",
+     "count": 1
+    },
+    {
+     "text": "비교급으로 문장을 완성하세요.",
+     "count": 1
+    },
+    {
+     "text": "빈칸을 채우세요.",
+     "count": 1
+    },
+    {
+     "text": "위 일정표를 읽고 정답을 고르세요.",
+     "count": 1
+    },
+    {
+     "text": "으로 넘어가요.",
+     "count": 1
+    },
+    {
+     "text": "이 면의 일정은 계획일 뿐, 결과는 아직 없어요. 다음 호에서 다룹니다.",
+     "count": 1
+    },
+    {
+     "text": "제 6 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "짝짓기",
+     "count": 1
+    },
+    {
+     "text": "하다 · à l'unanimité 만장일치로 · un",
+     "count": 1
+    },
+    {
+     "text": "항목 · un député 국회의원 · rejeter 부결",
+     "count": 1
+    },
+    {
+     "text": "해설 — un budget 예산 · une mission 예산",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "LE CALENDRIER PRÉVU · 计划中的投票日程（结果未出）",
+     "count": 1
+    },
+    {
+     "text": "LE DÉBAT · 讨论",
+     "count": 1
+    },
+    {
+     "text": "LES MOTS · 词汇",
+     "count": 1
+    },
+    {
+     "text": "LIRE LE CALENDRIER · 读日程",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "MICRO-DRILLS · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B2 · Budget 2027 · 预算周",
+     "count": 1
+    },
+    {
+     "text": "POLITIQUE & CHIFFRES · 时事",
+     "count": 1
+    },
+    {
+     "text": "prévu（计划）与 décidé（已定）。",
+     "count": 1
+    },
+    {
+     "text": "rejeter 否决 · à l'unanimité 一致通过/否",
+     "count": 1
+    },
+    {
+     "text": "« Le texte part au Sénat. » — 法案送交",
+     "count": 1
+    },
+    {
+     "text": "— 日程仍可能变动。",
+     "count": 1
+    },
+    {
+     "text": "— 结果尚未揭晓。",
+     "count": 1
+    },
+    {
+     "text": "决 · un amendement 修正案。",
+     "count": 1
+    },
+    {
+     "text": "参议院。",
+     "count": 1
+    },
+    {
+     "text": "填空。",
+     "count": 1
+    },
+    {
+     "text": "完成 · distinguer 区分。",
+     "count": 1
+    },
+    {
+     "text": "本页日程为计划安排，结果尚未产生，下期跟进。",
+     "count": 1
+    },
+    {
+     "text": "用 examine / ont rejeté / part / peut / connus",
+     "count": 1
+    },
+    {
+     "text": "用比较级完成句子。",
+     "count": 1
+    },
+    {
+     "text": "第 6 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "算）分项 · un député 国民议会议员 ·",
+     "count": 1
+    },
+    {
+     "text": "讨论｜结果未出时，该不该先公布日程？区分",
+     "count": 1
+    },
+    {
+     "text": "译注｜prévu 预定的、计划的 · réaliser 实现、",
+     "count": 1
+    },
+    {
+     "text": "译注｜un budget 预算 · une mission （预",
+     "count": 1
+    },
+    {
+     "text": "读上图日程，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "配对",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 198,
+   "cjk_edition_total": 225,
+   "cjk_added": {
+    "시": 1,
+    "사": 1,
+    "예": 5,
+    "산": 3,
+    "주": 2,
+    "간": 2,
+    "해": 3,
+    "설": 2,
+    "항": 1,
+    "목": 1,
+    "국": 2,
+    "회": 1,
+    "의": 2,
+    "원": 2,
+    "부": 1,
+    "결": 5,
+    "하": 5,
+    "다": 7,
+    "만": 1,
+    "장": 2,
+    "일": 8,
+    "치": 1,
+    "로": 4,
+    "수": 2,
+    "정": 12,
+    "안": 2,
+    "된": 3,
+    "투": 1,
+    "표": 3,
+    "과": 4,
+    "미": 2,
+    "이": 2,
+    "면": 3,
+    "은": 3,
+    "계": 3,
+    "획": 3,
+    "뿐": 1,
+    "는": 3,
+    "아": 3,
+    "직": 3,
+    "없": 1,
+    "어": 8,
+    "요": 9,
+    "음": 1,
+    "호": 1,
+    "에": 2,
+    "서": 1,
+    "룹": 1,
+    "니": 2,
+    "읽": 2,
+    "기": 3,
+    "위": 1,
+    "를": 2,
+    "고": 2,
+    "답": 1,
+    "을": 4,
+    "르": 1,
+    "세": 4,
+    "단": 1,
+    "짝": 1,
+    "짓": 1,
+    "법": 1,
+    "상": 1,
+    "으": 2,
+    "넘": 1,
+    "가": 2,
+    "바": 1,
+    "뀔": 1,
+    "있": 1,
+    "알": 1,
+    "려": 1,
+    "지": 3,
+    "않": 1,
+    "았": 1,
+    "루": 1,
+    "완": 2,
+    "성": 2,
+    "구": 2,
+    "분": 2,
+    "비": 1,
+    "교": 1,
+    "급": 1,
+    "문": 1,
+    "연": 1,
+    "습": 1,
+    "빈": 1,
+    "칸": 1,
+    "채": 1,
+    "우": 1,
+    "토": 1,
+    "론": 1,
+    "나": 1,
+    "오": 1,
+    "전": 1,
+    "먼": 1,
+    "저": 1,
+    "발": 1,
+    "야": 1,
+    "할": 1,
+    "까": 1,
+    "와": 1,
+    "확": 1,
+    "프": 2,
+    "랑": 2,
+    "스": 3,
+    "텍": 1,
+    "트": 1,
+    "한": 1,
+    "제": 1,
+    "총": 1
+   }
+  },
+  "7": {
+   "added_strings": [
+    {
+     "text": "(pause 뒤).",
+     "count": 1
+    },
+    {
+     "text": "A2 → B2 · Les phrases de la semaine · 이번 주 문장",
+     "count": 1
+    },
+    {
+     "text": "BOÎTE À OUTILS · 도구 상자",
+     "count": 1
+    },
+    {
+     "text": "CLINIQUE DES ERREURS · 오류",
+     "count": 1
+    },
+    {
+     "text": "LA SEMAINE PROCHAINE · VOL.4 다음 주",
+     "count": 1
+    },
+    {
+     "text": "LANGUE EN MAIN · 정독",
+     "count": 1
+    },
+    {
+     "text": "LE COURRIER DES LECTEURS · 독자 마당",
+     "count": 1
+    },
+    {
+     "text": "LES PHRASES DE LA SEMAINE · 이번 주 문장(모두 본문에서)",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 · 기초",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B1 · 중급",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B2 · 고급",
+     "count": 1
+    },
+    {
+     "text": "과거분사.",
+     "count": 1
+    },
+    {
+     "text": "니다.",
+     "count": 1
+    },
+    {
+     "text": "다. VOL.4에서 실제 편지와 작문을 다룹니다.",
+     "count": 1
+    },
+    {
+     "text": "다음 주: 상원 사회보장 예산 심의, 11월 11일 정전 기념일, 디에프 가리비 시장. 여러분의 편지도요!",
+     "count": 1
+    },
+    {
+     "text": "도 된다.",
+     "count": 1
+    },
+    {
+     "text": "를 가리킨다.",
+     "count": 1
+    },
+    {
+     "text": "매 문장 문법 포인트 + 미니 문제 · 정답은 8면",
+     "count": 1
+    },
+    {
+     "text": "매 문장에 오류가 하나씩 있어요. 찾아서 고치세요.",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — comparatif: plus + 형용사, ou 대조.",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — ne...pas encore: 아직 ~않다.",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — passé composé 대동사: se + être +",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — pouvoir + 동사 원형: ~할 수 있다, ~해",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — rencontrer: 관객과 만나다, y는 장소",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — reprendre: 복교, 다시 시작하기",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — se jouer: 결판이 나다, 상연되다(대동",
+     "count": 1
+    },
+    {
+     "text": "문법 포인트 — se promener: 대동사, 거닐다, 돌아다",
+     "count": 1
+    },
+    {
+     "text": "사).",
+     "count": 1
+    },
+    {
+     "text": "샤오모의 한마디 — passé composé가 안정적이고 세미콜론이 좋아요. VOL.4에 여러분의 편지와 최고",
+     "count": 1
+    },
+    {
+     "text": "오류 고치기",
+     "count": 4
+    },
+    {
+     "text": "의 P8 작문을 보내 주세요!",
+     "count": 1
+    },
+    {
+     "text": "이번 호 주머니 문장 세 개, 수준별로 하나씩. 이번",
+     "count": 1
+    },
+    {
+     "text": "읽으면 가장 효과적이에요.",
+     "count": 1
+    },
+    {
+     "text": "제 7 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "주 문장은 모두 이번 호 글에서 왔어요. 원문을 다시",
+     "count": 1
+    },
+    {
+     "text": "편집부 알림: 인쇄 때까지 VOL.2 편지가 오지 않았고(W44 미발행), 최고의 P8 작문도 없어 예시를 싣습니",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "A2 → B2 · Les phrases de la semaine · 本周金句",
+     "count": 1
+    },
+    {
+     "text": "BOÎTE À OUTILS · 工具箱",
+     "count": 1
+    },
+    {
+     "text": "CLINIQUE DES ERREURS · 易错诊所",
+     "count": 1
+    },
+    {
+     "text": "LA SEMAINE PROCHAINE · VOL.4 下周预告",
+     "count": 1
+    },
+    {
+     "text": "LANGUE EN MAIN · 精讲",
+     "count": 1
+    },
+    {
+     "text": "LE COURRIER DES LECTEURS · 读者园地",
+     "count": 1
+    },
+    {
+     "text": "LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU A2 · 基础",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B1 · 进阶",
+     "count": 1
+    },
+    {
+     "text": "NIVEAU B2 · 挑战",
+     "count": 1
+    },
+    {
+     "text": "下周：参议院审议社保预算、11 月 11 日停战纪念日、迪耶普扇贝集市；还有你们的来信！",
+     "count": 1
+    },
+    {
+     "text": "出自本期文章，回读原文最有效。",
+     "count": 1
+    },
+    {
+     "text": "分词。",
+     "count": 1
+    },
+    {
+     "text": "地将点评真实投稿。",
+     "count": 1
+    },
+    {
+     "text": "小墨点评｜编辑部示例：周末叙事用 passé composé 很稳，分号连接两天值得学。下期读者园",
+     "count": 1
+    },
+    {
+     "text": "工具箱｜本期三句随身句，按级各一；金句全部",
+     "count": 1
+    },
+    {
+     "text": "改错",
+     "count": 4
+    },
+    {
+     "text": "每句一个语法点 + 一道小题 · 答案见第 8 版",
+     "count": 1
+    },
+    {
+     "text": "每句有一处错误：找出来并改正。",
+     "count": 1
+    },
+    {
+     "text": "注明确的编辑部示例；VOL.4 将兑现点评真实投稿的承诺。",
+     "count": 1
+    },
+    {
+     "text": "第 7 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "编辑部说明：截至付印，编辑部尚未收到 VOL.2 第 8 版的投稿作文（W44 未出刊），故本期刊登标",
+     "count": 1
+    },
+    {
+     "text": "语法点｜comparatif：plus + 形容词，ou 对举。",
+     "count": 1
+    },
+    {
+     "text": "语法点｜ne...pas encore：尚未、还不。",
+     "count": 1
+    },
+    {
+     "text": "语法点｜passé composé 代动词：se + être + 过去",
+     "count": 1
+    },
+    {
+     "text": "语法点｜pouvoir + 动词原形：可能、可以。",
+     "count": 1
+    },
+    {
+     "text": "语法点｜rencontrer：与观众见面；y 代指地点。",
+     "count": 1
+    },
+    {
+     "text": "语法点｜reprendre：复课、重新开始（pause 后",
+     "count": 1
+    },
+    {
+     "text": "语法点｜se jouer：决出胜负、上演（代动词）。",
+     "count": 1
+    },
+    {
+     "text": "语法点｜se promener：代动词，漫步、穿梭。",
+     "count": 1
+    },
+    {
+     "text": "）。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 390,
+   "cjk_edition_total": 408,
+   "cjk_added": {
+    "정": 4,
+    "독": 2,
+    "이": 9,
+    "번": 5,
+    "주": 8,
+    "문": 21,
+    "장": 10,
+    "기": 7,
+    "초": 1,
+    "중": 1,
+    "급": 2,
+    "고": 10,
+    "도": 4,
+    "구": 1,
+    "상": 3,
+    "자": 2,
+    "호": 2,
+    "머": 1,
+    "니": 5,
+    "세": 4,
+    "개": 1,
+    "수": 2,
+    "준": 1,
+    "별": 1,
+    "로": 1,
+    "하": 3,
+    "나": 4,
+    "씩": 2,
+    "은": 3,
+    "모": 3,
+    "두": 2,
+    "글": 1,
+    "에": 7,
+    "서": 4,
+    "왔": 1,
+    "어": 6,
+    "요": 7,
+    "원": 3,
+    "을": 3,
+    "다": 17,
+    "시": 5,
+    "읽": 1,
+    "으": 1,
+    "면": 4,
+    "가": 6,
+    "효": 1,
+    "과": 3,
+    "적": 2,
+    "본": 1,
+    "매": 2,
+    "법": 9,
+    "포": 9,
+    "인": 10,
+    "트": 10,
+    "미": 3,
+    "제": 3,
+    "답": 1,
+    "복": 1,
+    "교": 1,
+    "작": 4,
+    "뒤": 1,
+    "아": 4,
+    "직": 1,
+    "않": 2,
+    "대": 4,
+    "동": 4,
+    "사": 7,
+    "거": 2,
+    "분": 3,
+    "형": 2,
+    "용": 1,
+    "조": 1,
+    "닐": 1,
+    "돌": 1,
+    "할": 1,
+    "있": 2,
+    "해": 2,
+    "된": 1,
+    "결": 1,
+    "판": 1,
+    "연": 1,
+    "되": 1,
+    "관": 1,
+    "객": 1,
+    "만": 1,
+    "는": 2,
+    "소": 1,
+    "를": 2,
+    "리": 2,
+    "킨": 1,
+    "오": 8,
+    "류": 6,
+    "찾": 1,
+    "치": 5,
+    "마": 2,
+    "당": 1,
+    "샤": 1,
+    "의": 6,
+    "한": 2,
+    "디": 2,
+    "안": 1,
+    "콜": 1,
+    "론": 1,
+    "좋": 1,
+    "여": 2,
+    "러": 2,
+    "편": 5,
+    "지": 7,
+    "와": 2,
+    "최": 2,
+    "보": 2,
+    "내": 1,
+    "집": 1,
+    "부": 1,
+    "알": 1,
+    "림": 1,
+    "쇄": 1,
+    "때": 1,
+    "까": 1,
+    "았": 1,
+    "발": 1,
+    "행": 1,
+    "없": 1,
+    "예": 2,
+    "싣": 1,
+    "습": 1,
+    "실": 1,
+    "룹": 1,
+    "음": 2,
+    "회": 1,
+    "산": 1,
+    "심": 1,
+    "월": 1,
+    "일": 2,
+    "전": 1,
+    "념": 1,
+    "프": 3,
+    "비": 1,
+    "랑": 2,
+    "스": 3,
+    "간": 1,
+    "텍": 1,
+    "설": 1,
+    "국": 1,
+    "총": 1
+   }
+  },
+  "8": {
+   "added_strings": [
+    {
+     "text": "(vote=투표 c) · 88. d · 89. plus long · 90. moins simple (예",
+     "count": 1
+    },
+    {
+     "text": "1. finales (8일 일요일에 결승이 열려요) · 2. nocturne · 3.",
+     "count": 1
+    },
+    {
+     "text": "103. joue · 104. rencontrent · 105. On n'offre jamais de",
+     "count": 1
+    },
+    {
+     "text": "109. C (2026년 11월 8일은 일요일) · 110. A (낭테르에 결승 보러",
+     "count": 1
+    },
+    {
+     "text": "11. lundi (복교는 월요일) · 12. 1er · 13. samedi (마지막 야간",
+     "count": 1
+    },
+    {
+     "text": "139. On ne connaît pas encore les finalistes. (ne...pas encore",
+     "count": 1
+    },
+    {
+     "text": "26. Vrai · 27. Vrai (만성절에는 묘지에 국화가 가득해요) · 28.",
+     "count": 1
+    },
+    {
+     "text": "44. B (결승은 8일 일요일) · 45. A · 46. C · 47. B · 48. A ·",
+     "count": 1
+    },
+    {
+     "text": "49. a · 50. b · 51. c · 52. d · 53. plus vite (실내에서는 공이",
+     "count": 1
+    },
+    {
+     "text": "62. B · 63. A (15회째 음악제) · 64. C · 65. B · 66. A · 67.",
+     "count": 1
+    },
+    {
+     "text": "73. a · 74. b (scène=무대 b) · 75. c · 76. d · 77. ce soir (오",
+     "count": 1
+    },
+    {
+     "text": "79. B (화요일 3일: 문화와 미디어) · 80. A (수요일 4일: 농업) ·",
+     "count": 1
+    },
+    {
+     "text": "8 novembre. (사실: 결승은 8일, 7일이 아니에요)",
+     "count": 1
+    },
+    {
+     "text": "81. C (목요일 5일: 국토 조정과 연구) · 82. A (금요일 6일: 공공 재",
+     "count": 1
+    },
+    {
+     "text": "= 아직 ~않다) · 140. a (tournoi=대회 a) · 141. b (nocturne=야",
+     "count": 1
+    },
+    {
+     "text": "A · TEXTE À TROUS · 빈칸 채우기",
+     "count": 1
+    },
+    {
+     "text": "B · CHOIX MULTIPLE · 객관식",
+     "count": 1
+    },
+    {
+     "text": "C · LECTURE · 읽기",
+     "count": 1
+    },
+    {
+     "text": "D · PHRASES · 문장 완성",
+     "count": 1
+    },
+    {
+     "text": "E · TRADUCTION · 번역",
+     "count": 1
+    },
+    {
+     "text": "EXERCICES & RÉPONSES · 연습과 정답",
+     "count": 1
+    },
+    {
+     "text": "F · LES MOTS · 단어 짝짓기",
+     "count": 1
+    },
+    {
+     "text": "Faux (국화는 선물로 주면 안 돼요) · 29. Faux · 30. Vrai · 31.",
+     "count": 1
+    },
+    {
+     "text": "G · DIALOGUE · 대화 완성",
+     "count": 1
+    },
+    {
+     "text": "H · ÉCRITURE · 쓰기",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 프랑스어 주간지 VOL.3 · 텍스트는 프랑스어 · 해설은 한국어",
+     "count": 1
+    },
+    {
+     "text": "MODÈLE · 모범 답안",
+     "count": 1
+    },
+    {
+     "text": "RÉPONSES · 모든 정답과 해설(1–8면)",
+     "count": 1
+    },
+    {
+     "text": "allons préparer nos cartables. (futur proche + préparer) ·",
+     "count": 1
+    },
+    {
+     "text": "ambiance (매일 밤 분위기가 달라요) · 71. danse (음악제에서는",
+     "count": 1
+    },
+    {
+     "text": "badge · 40. Plailly · 41. B · 42. couleurs (공포 등급은 색깔",
+     "count": 1
+    },
+    {
+     "text": "chrysanthèmes pour un anniversaire. (jamais + de: 부정문에",
+     "count": 1
+    },
+    {
+     "text": "coquilles (포르엉베생에서 가리비를 팔아요) · 4. reprend (2일 월",
+     "count": 1
+    },
+    {
+     "text": "court) · 137. Les élèves sont en vacances depuis le 17",
+     "count": 1
+    },
+    {
+     "text": "d) · 144. e (festival=음악제 e) · 145. samedi (11월 7일은 토요",
+     "count": 1
+    },
+    {
+     "text": "demi-finales (준결승은 토요일) · 58. finale (단식 결승은 일요일)",
+     "count": 1
+    },
+    {
+     "text": "déguisement (핼러윈에는 변장 복장을 입어요) · 32. tombe (꽃",
+     "count": 1
+    },
+    {
+     "text": "examine (국민의회가 예산을 심의해요) · 93. ont rejeté (의원들",
+     "count": 1
+    },
+    {
+     "text": "examine, s를 붙이지 않아요) · 108. La finale a lieu dimanche",
+     "count": 1
+    },
+    {
+     "text": "excitante (plus + 형용사) · 101. promenons · 102. peut ·",
+     "count": 1
+    },
+    {
+     "text": "feuilles ne sont plus vertes en novembre. · 37. Le 2",
+     "count": 1
+    },
+    {
+     "text": "finales 주어 복수 → ont lieu) · 116. A (elle écrit 그녀가 써요)",
+     "count": 1
+    },
+    {
+     "text": "imparfait → conditionnel; j'은 je의 생략형) · 121. A (주어 ce",
+     "count": 1
+    },
+    {
+     "text": "jamais de chrysanthèmes pour un anniversaire. · 36. Les",
+     "count": 1
+    },
+    {
+     "text": "les coquilles à Port-en-Bessin. (passé composé: a + 과거분사)",
+     "count": 1
+    },
+    {
+     "text": "lieux (공연장 10곳) · 68. paroles (가사도 프랑스어 학습 자료예",
+     "count": 1
+    },
+    {
+     "text": "lundi. (aller + 원형(futur proche)) · 131. Si tu venais samedi,",
+     "count": 1
+    },
+    {
+     "text": "lundi. (il est prévu que + 가정법) · 135. 일정을 읽는 것 자체가",
+     "count": 1
+    },
+    {
+     "text": "novembre n'est pas la Toussaint. · 38. nocturne · 39.",
+     "count": 1
+    },
+    {
+     "text": "octobre. (être en vacances + depuis) · 138. Ce soir, nous",
+     "count": 1
+    },
+    {
+     "text": "programme 3인칭 단수 → semble) · 122. B (미래형 aura lieu(",
+     "count": 1
+    },
+    {
+     "text": "que l'Assemblée examine la Culture mardi. (가정법: il",
+     "count": 1
+    },
+    {
+     "text": "recette (à la portaise는 조리법의 일종) · 149. week-end (Bon",
+     "count": 1
+    },
+    {
+     "text": "rencontrent leur public, en vrai. (주어-동사 일치: créateurs는",
+     "count": 1
+    },
+    {
+     "text": "soir. (tu → vas) · 18. Vous allez raconter vos vacances lundi.",
+     "count": 1
+    },
+    {
+     "text": "tu verrais la nocturne. (si + 반과거 venais) · 132. Elle a goûté",
+     "count": 1
+    },
+    {
+     "text": "week-end! 즐거운 주말 보내세요) · 150. 열린 문제 — 기준은 쓰",
+     "count": 1
+    },
+    {
+     "text": "· 117. B (7 nov. = samedi(마지막 야간 행사)) · 118. A (nous",
+     "count": 1
+    },
+    {
+     "text": "· 126. A (작은 배지는 꼬마 Léo의 괴물 퇴치용) · 127. B (일요일",
+     "count": 1
+    },
+    {
+     "text": "· 133. Selon moi, les finales sont excitantes. (selon moi = 제",
+     "count": 1
+    },
+    {
+     "text": "· 136. Il court plus vite que son frère. (비교급 plus vite +",
+     "count": 1
+    },
+    {
+     "text": "· 19. C (세 지역이 같은 월요일 아침에 복교) · 20. B · 21. A (11",
+     "count": 1
+    },
+    {
+     "text": "· 34. souvenir (만성절은 추모의 날이에요) · 35. On n'offre",
+     "count": 1
+    },
+    {
+     "text": "· 59. tableau (본선 대진표는 월요일부터 시작) · 60. fauteuil (",
+     "count": 1
+    },
+    {
+     "text": "· 95. peut (일정은 아직 바뀔 수 있어요) · 96. connus (결과는",
+     "count": 1
+    },
+    {
+     "text": "— 제 1 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 2 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 3 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 4 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 5 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 6 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 7 면 —",
+     "count": 1
+    },
+    {
+     "text": "— 제 8 면 —",
+     "count": 1
+    },
+    {
+     "text": "→ allons) · 119. B (s'intéresser aux（à+les）) · 120. B (si +",
+     "count": 1
+    },
+    {
+     "text": "가기) · 111. B (결승 진출자는 토요일 밤에야 알려짐) · 112. B (",
+     "count": 1
+    },
+    {
+     "text": "가리비 사기) · 147. goûter (goûter 맛보다(원형)) · 148.",
+     "count": 1
+    },
+    {
+     "text": "간 행사 b) · 142. c (budget=예산 c) · 143. d (coquille=가리비",
+     "count": 1
+    },
+    {
+     "text": "건 월요일에 학교가 있기 때문) · 129. A (월요일은 등교일(복교 후",
+     "count": 1
+    },
+    {
+     "text": "결) · 84. C (상원은 11월 9일부터 심의) · 85. a · 86. b · 87. c",
+     "count": 1
+    },
+    {
+     "text": "결승은 일요일)) · 123. A (세 지역 같은 날 복교) · 124. C (가리비",
+     "count": 1
+    },
+    {
+     "text": "기 칸에, 모범 답안은 8면 쓰기 칸 안에 (기준에 따라 채점)",
+     "count": 1
+    },
+    {
+     "text": "늘 밤 공연하는 밴드) · 78. deux places (표 두 장 사기)",
+     "count": 1
+    },
+    {
+     "text": "다) · 114. A (avoir + 과거분사 goûté(일치 없음)) · 115. C (les",
+     "count": 1
+    },
+    {
+     "text": "더 빨라요) · 54. plus grand · 55. moins longue (실내 시즌은",
+     "count": 1
+    },
+    {
+     "text": "로 구분해요) · 43. 19 heures",
+     "count": 1
+    },
+    {
+     "text": "맛보는 맥락（un régal）→ goûté) · 113. C (se promener 거닐",
+     "count": 1
+    },
+    {
+     "text": "복수 → rencontrent, rencontre가 아니에요) · 107. Il est prévu",
+     "count": 1
+    },
+    {
+     "text": "사람들이 춤을 춰요) · 72. découvre (모르는 밴드를 발견해요) ·",
+     "count": 1
+    },
+    {
+     "text": "산은 일정표보다 복잡해요) · 91. aussi important · 92.",
+     "count": 1
+    },
+    {
+     "text": "생각에는) · 134. Il est prévu que le Sénat examine le texte",
+     "count": 1
+    },
+    {
+     "text": "서는 des가 de로 바뀌어요) · 106. Les jeunes créateurs y",
+     "count": 1
+    },
+    {
+     "text": "선택지:",
+     "count": 1
+    },
+    {
+     "text": "아직 알려지지 않았어요)",
+     "count": 1
+    },
+    {
+     "text": "에는 결승을 보고 가리비를 먹어요) · 128. A (일요일 밤 일찍 자는",
+     "count": 1
+    },
+    {
+     "text": "여름 시즌보다 짧아요) · 56. quarts (8강전은 금요일) · 57.",
+     "count": 1
+    },
+    {
+     "text": "요) · 69. affiche (포스터에 공연 정보가 적혀 있어요) · 70.",
+     "count": 1
+    },
+    {
+     "text": "요일 전역 복교) · 5. samedi soir · 6. saveurs · 7. C (결승은 8",
+     "count": 1
+    },
+    {
+     "text": "월 밤에는 해가 일찍 져요) · 22. a · 23. b · 24. c · 25. d",
+     "count": 1
+    },
+    {
+     "text": "을 묘비에 놓아요) · 33. citrouille (호박은 핼러윈의 상징이에요)",
+     "count": 1
+    },
+    {
+     "text": "이 수입 부분을 부결했어요) · 94. part (법안이 상원으로 넘어가요)",
+     "count": 1
+    },
+    {
+     "text": "이미 프랑스를 이해하는 거예요. (lire un programme = 일정 읽기)",
+     "count": 1
+    },
+    {
+     "text": "일 일요일) · 8. A (가리비 축제는 포르엉베생) · 9. B · 10. A (마",
+     "count": 1
+    },
+    {
+     "text": "일) · 146. coquilles (des coquilles Saint-Jacques) (시장에서",
+     "count": 1
+    },
+    {
+     "text": "정과 경제) · 83. B (10월 23일 사회보장 예산 수입이 115–1로 부",
+     "count": 1
+    },
+    {
+     "text": "정상적인 월요일)) · 130. Les élèves vont reprendre les cours",
+     "count": 1
+    },
+    {
+     "text": "제 8 면 / 총 8 면",
+     "count": 1
+    },
+    {
+     "text": "종합 평가 ÉVALUATION · 정답은 이 면 아래에",
+     "count": 1
+    },
+    {
+     "text": "지막 야간 행사는 7일 토요일)",
+     "count": 1
+    },
+    {
+     "text": "짝짓기",
+     "count": 1
+    },
+    {
+     "text": "축제는 11월 7–8일) · 125. C (야간 행사는 19시부터 새벽 1시까지)",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로 80–100단어를 쓰세요: 저의 11월 7–8일 주말. 경기 하나, 축제 하나, 요리 하나를 분명히 쓰세요.",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로: 그는 형보다 더 빨리 달려요.",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로: 아직 결승 진출자를 몰라요.",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로: 오늘 밤 책가방을 챙길 거예요.",
+     "count": 1
+    },
+    {
+     "text": "프랑스어로: 학생들은 10월 17일부터 방학이에요.",
+     "count": 1
+    },
+    {
+     "text": "한국어로: « Lire un programme, c'est déjà",
+     "count": 1
+    },
+    {
+     "text": "행사는 토요일) · 14. dimanche (결승은 일요일) · 15. Les",
+     "count": 1
+    },
+    {
+     "text": "휠체어 대회는 금요일부터 일요일까지) · 61. choc",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "(des coquilles Saint-Jacques)（在市场买扇贝） · 147.",
+     "count": 1
+    },
+    {
+     "text": "+ imparfait（未完成过去时）→ conditionnel présent（条件式",
+     "count": 1
+    },
+    {
+     "text": "1. finales（周日 8 日举行决赛） · 2. nocturne · 3. coquilles",
+     "count": 1
+    },
+    {
+     "text": "109. C（11 月 8 日 2026 是星期日） · 110. A（去南泰尔看决",
+     "count": 1
+    },
+    {
+     "text": "11. lundi（复课在星期一） · 12. 1er · 13. samedi（最后夜",
+     "count": 1
+    },
+    {
+     "text": "114. A（avoir + 过去分词 goûté（不配合）） · 115. C（les",
+     "count": 1
+    },
+    {
+     "text": "117. B（7 nov. = samedi（最后夜场）） · 118. A（nous →",
+     "count": 1
+    },
+    {
+     "text": "26. Vrai · 27. Vrai（诸圣节墓园摆满菊花） · 28. Faux（菊花",
+     "count": 1
+    },
+    {
+     "text": "44. B（决赛在周日 8 日） · 45. A · 46. C · 47. B · 48. A ·",
+     "count": 1
+    },
+    {
+     "text": "49. a · 50. b · 51. c · 52. d · 53. plus vite（室内球速更快",
+     "count": 1
+    },
+    {
+     "text": "5. samedi soir · 6. saveurs · 7. C（决赛在周日 8 日） · 8. A",
+     "count": 1
+    },
+    {
+     "text": "62. B · 63. A（15 届音乐节） · 64. C · 65. B · 66. A · 67.",
+     "count": 1
+    },
+    {
+     "text": "79. B（周二 3 日：文化与媒体） · 80. A（周三 4 日：农业）",
+     "count": 1
+    },
+    {
+     "text": "A · TEXTE À TROUS · 完形填空",
+     "count": 1
+    },
+    {
+     "text": "B · CHOIX MULTIPLE · 单选",
+     "count": 1
+    },
+    {
+     "text": "C · LECTURE · 阅读理解",
+     "count": 1
+    },
+    {
+     "text": "D · PHRASES · 完成句子与转换",
+     "count": 1
+    },
+    {
+     "text": "E · TRADUCTION · 翻译",
+     "count": 1
+    },
+    {
+     "text": "EXERCICES & RÉPONSES · 练习与答案",
+     "count": 1
+    },
+    {
+     "text": "F · LES MOTS · 词汇配对",
+     "count": 1
+    },
+    {
+     "text": "G · DIALOGUE · 对话补全",
+     "count": 1
+    },
+    {
+     "text": "H · ÉCRITURE · 写作",
+     "count": 1
+    },
+    {
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文",
+     "count": 1
+    },
+    {
+     "text": "MODÈLE · 范文",
+     "count": 1
+    },
+    {
+     "text": "RÉPONSES · 全部答案与简析（第 1–8 版）",
+     "count": 1
+    },
+    {
+     "text": "Traduisez : « Lire un programme, c'est déjà",
+     "count": 1
+    },
+    {
+     "text": "Traduisez : 人们尚不知道决赛选手是谁。",
+     "count": 1
+    },
+    {
+     "text": "Traduisez : 今晚，我们要准备书包。",
+     "count": 1
+    },
+    {
+     "text": "Traduisez : 他跑得比他哥哥更快。",
+     "count": 1
+    },
+    {
+     "text": "Traduisez : 学生们自 10 月 17 日起就在放假。",
+     "count": 1
+    },
+    {
+     "text": "allons） · 119. B（s'intéresser aux（à+les）） · 120. B（si",
+     "count": 1
+    },
+    {
+     "text": "a） · 141. b（nocturne=夜场 b） · 142. c（budget=预算 c",
+     "count": 1
+    },
+    {
+     "text": "b） · 75. c · 76. d · 77. ce soir（今晚演出的乐队） · 78.",
+     "count": 1
+    },
+    {
+     "text": "chrysanthèmes pour un anniversaire. · 36. Les feuilles ne",
+     "count": 1
+    },
+    {
+     "text": "chrysanthèmes pour un anniversaire.（jamais + de：否定句",
+     "count": 1
+    },
+    {
+     "text": "composé : a + 过去分词） · 133. Selon moi, les finales sont",
+     "count": 1
+    },
+    {
+     "text": "deux places（买两张票）",
+     "count": 1
+    },
+    {
+     "text": "découvre（发现不认识的乐队） · 73. a · 74. b（scène=舞台",
+     "count": 1
+    },
+    {
+     "text": "déguisement（万圣节穿变装服装） · 32. tombe（花放在墓",
+     "count": 1
+    },
+    {
+     "text": "examine（国民议会审议预算） · 93. ont rejeté（议员们否决",
+     "count": 1
+    },
+    {
+     "text": "excitantes.（selon moi = 在我看来） · 134. Il est prévu que",
+     "count": 1
+    },
+    {
+     "text": "excitante（plus + 形容词） · 101. promenons · 102. peut",
+     "count": 1
+    },
+    {
+     "text": "finales 主语复数 → ont lieu） · 116. A（elle écrit 她写） ·",
+     "count": 1
+    },
+    {
+     "text": "finalistes.（ne...pas encore = 尚未） · 140. a（tournoi=赛事",
+     "count": 1
+    },
+    {
+     "text": "frère.（比较级 plus vite + court） · 137. Les élèves sont en",
+     "count": 1
+    },
+    {
+     "text": "goûter（goûter 品尝（原形）） · 148. recette（à la portaise",
+     "count": 1
+    },
+    {
+     "text": "heures",
+     "count": 1
+    },
+    {
+     "text": "l'Assemblée examine la Culture mardi.（虚拟式：il examine",
+     "count": 1
+    },
+    {
+     "text": "le Sénat examine le texte lundi.（il est prévu que + 虚拟式）",
+     "count": 1
+    },
+    {
+     "text": "les cours lundi.（aller + 原形（futur proche）） · 131. Si tu",
+     "count": 1
+    },
+    {
+     "text": "leur public, en vrai.（主谓一致：créateurs 复数 →",
+     "count": 1
+    },
+    {
+     "text": "lieux（10 个场地） · 68. paroles（歌词也是法语学习材料）",
+     "count": 1
+    },
+    {
+     "text": "lundi. · 19. C（三区同一周一早上复课） · 20. B · 21. A（11",
+     "count": 1
+    },
+    {
+     "text": "pas la Toussaint. · 38. nocturne · 39. badge · 40. Plailly",
+     "count": 1
+    },
+    {
+     "text": "proche + préparer） · 139. On ne connaît pas encore les",
+     "count": 1
+    },
+    {
+     "text": "programme = 读日程） · 136. Il court plus vite que son",
+     "count": 1
+    },
+    {
+     "text": "programme 三单 → semble） · 122. B（将来时 aura lieu（",
+     "count": 1
+    },
+    {
+     "text": "rencontrent，不是 rencontre） · 107. Il est prévu que",
+     "count": 1
+    },
+    {
+     "text": "simple（预算比时间表复杂） · 91. aussi important · 92.",
+     "count": 1
+    },
+    {
+     "text": "soir.（tu → vas） · 18. Vous allez raconter vos vacances",
+     "count": 1
+    },
+    {
+     "text": "sont plus vertes en novembre. · 37. Le 2 novembre n'est",
+     "count": 1
+    },
+    {
+     "text": "souvenir（诸圣节是纪念之日） · 35. On n'offre jamais de",
+     "count": 1
+    },
+    {
+     "text": "tableau（正赛签表从周一开始） · 60. fauteuil（轮椅赛事周",
+     "count": 1
+    },
+    {
+     "text": "vacances depuis le 17 octobre.（être en vacances + depuis）",
+     "count": 1
+    },
+    {
+     "text": "venais samedi, tu verrais la nocturne.（si + 半过去时 venais",
+     "count": 1
+    },
+    {
+     "text": "· 103. joue · 104. rencontrent · 105. On n'offre jamais de",
+     "count": 1
+    },
+    {
+     "text": "· 128. A（周日晚上早睡因为周一上学） · 129. A（周一是上",
+     "count": 1
+    },
+    {
+     "text": "· 135. 读一份日程，本身就是在了解法国。（lire un",
+     "count": 1
+    },
+    {
+     "text": "· 138. Ce soir, nous allons préparer nos cartables.（futur",
+     "count": 1
+    },
+    {
+     "text": "· 150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要",
+     "count": 1
+    },
+    {
+     "text": "· 41. B · 42. couleurs（恐惧等级用颜色区分） · 43. 19",
+     "count": 1
+    },
+    {
+     "text": "· 69. affiche（海报上写着演出信息） · 70. ambiance（每晚",
+     "count": 1
+    },
+    {
+     "text": "· 81. C（周四 5 日：国土协调与科研） · 82. A（周五 6 日：",
+     "count": 1
+    },
+    {
+     "text": "· 87. c（vote=投票 c） · 88. d · 89. plus long · 90. moins",
+     "count": 1
+    },
+    {
+     "text": "— 第 1 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 2 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 3 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 4 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 5 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 6 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 7 版 —",
+     "count": 1
+    },
+    {
+     "text": "— 第 8 版 —",
+     "count": 1
+    },
+    {
+     "text": "中 des 变 de） · 106. Les jeunes créateurs y rencontrent",
+     "count": 1
+    },
+    {
+     "text": "五至周日） · 61. choc",
+     "count": 1
+    },
+    {
+     "text": "仍可能变动） · 96. connus（结果尚未揭晓）",
+     "count": 1
+    },
+    {
+     "text": "公共财政与经济） · 83. B（10 月 23 日社保预算收入被 115–1",
+     "count": 1
+    },
+    {
+     "text": "决赛在周日）） · 123. A（三区同日复课） · 124. C（扇贝节",
+     "count": 1
+    },
+    {
+     "text": "半决赛在周六） · 58. finale（单打决赛在周日） · 59.",
+     "count": 1
+    },
+    {
+     "text": "否决） · 84. C（参议院从 11 月 9 日起审议） · 85. a · 86. b",
+     "count": 1
+    },
+    {
+     "text": "在 11 月 7–8 日） · 125. C（夜场 19 点至凌晨 1 点） · 126. A",
+     "count": 1
+    },
+    {
+     "text": "场在星期六） · 14. dimanche（决赛在星期日） · 15. Les",
+     "count": 1
+    },
+    {
+     "text": "学日（复课后正常周一）） · 130. Les élèves vont reprendre",
+     "count": 1
+    },
+    {
+     "text": "实：决赛在 8 日，不是 7 日）",
+     "count": 1
+    },
+    {
+     "text": "收入部分） · 94. part（法案送交参议院） · 95. peut（日程",
+     "count": 1
+    },
+    {
+     "text": "是一种做法） · 149. week-end（Bon week-end ! 周末愉快）",
+     "count": 1
+    },
+    {
+     "text": "月晚上天黑得早） · 22. a · 23. b · 24. c · 25. d",
+     "count": 1
+    },
+    {
+     "text": "气氛各不相同） · 71. danse（音乐节上人们跳舞） · 72.",
+     "count": 1
+    },
+    {
+     "text": "点给分）",
+     "count": 1
+    },
+    {
+     "text": "现在时）；j' 是 je 在元音前的省音） · 121. A（主语 ce",
+     "count": 1
+    },
+    {
+     "text": "用法语写 80–100 词：我的 11 月 7–8 日周末。写清一场比赛、一个节日、一道菜。",
+     "count": 1
+    },
+    {
+     "text": "碑上） · 33. citrouille（南瓜是万圣节的象征） · 34.",
+     "count": 1
+    },
+    {
+     "text": "第 8 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "绝不能当礼物送人） · 29. Faux · 30. Vrai · 31.",
+     "count": 1
+    },
+    {
+     "text": "综合评估 ÉVALUATION · 答案在本版下方",
+     "count": 1
+    },
+    {
+     "text": "赛） · 111. B（决赛选手周六晚才揭晓） · 112. B（品尝语境",
+     "count": 1
+    },
+    {
+     "text": "选项：",
+     "count": 1
+    },
+    {
+     "text": "配对",
+     "count": 1
+    },
+    {
+     "text": "（un régal）→ goûté） · 113. C（se promener 漫步） ·",
+     "count": 1
+    },
+    {
+     "text": "（小徽章给小 Léo 驱怪） · 127. B（周日先看决赛再吃扇贝）",
+     "count": 1
+    },
+    {
+     "text": "（扇贝节在滨海波尔） · 9. B · 10. A（最后夜场周六 7 日）",
+     "count": 1
+    },
+    {
+     "text": "（波尔诺曼底卖扇贝） · 4. reprend（周一 2 日全法复课） ·",
+     "count": 1
+    },
+    {
+     "text": "） · 132. Elle a goûté les coquilles à Port-en-Bessin.（passé",
+     "count": 1
+    },
+    {
+     "text": "） · 143. d（coquille=扇贝 d） · 144. e（festival=音乐节 e",
+     "count": 1
+    },
+    {
+     "text": "） · 145. samedi（11 月 7 日是星期六） · 146. coquilles",
+     "count": 1
+    },
+    {
+     "text": "） · 54. plus grand · 55. moins longue（室内赛季比室外短",
+     "count": 1
+    },
+    {
+     "text": "） · 56. quarts（四分之一决赛在周五） · 57. demi-finales（",
+     "count": 1
+    },
+    {
+     "text": "，不加 s） · 108. La finale a lieu dimanche 8 novembre.（事",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 1030,
+   "cjk_edition_total": 1070,
+   "cjk_added": {
+    "연": 5,
+    "습": 2,
+    "과": 8,
+    "정": 14,
+    "답": 5,
+    "종": 2,
+    "합": 1,
+    "평": 1,
+    "가": 24,
+    "은": 27,
+    "이": 15,
+    "면": 14,
+    "아": 12,
+    "래": 2,
+    "에": 27,
+    "빈": 1,
+    "칸": 3,
+    "채": 2,
+    "우": 1,
+    "기": 16,
+    "선": 3,
+    "택": 1,
+    "지": 14,
+    "객": 1,
+    "관": 1,
+    "식": 2,
+    "읽": 3,
+    "문": 5,
+    "장": 7,
+    "완": 2,
+    "성": 4,
+    "번": 1,
+    "역": 4,
+    "한": 2,
+    "국": 6,
+    "어": 25,
+    "로": 11,
+    "프": 9,
+    "랑": 9,
+    "스": 11,
+    "그": 2,
+    "는": 30,
+    "형": 6,
+    "보": 10,
+    "다": 6,
+    "더": 2,
+    "빨": 2,
+    "리": 9,
+    "달": 2,
+    "려": 4,
+    "요": 66,
+    "학": 4,
+    "생": 5,
+    "들": 3,
+    "월": 15,
+    "일": 67,
+    "부": 9,
+    "터": 6,
+    "방": 2,
+    "오": 2,
+    "늘": 2,
+    "밤": 6,
+    "책": 1,
+    "을": 8,
+    "챙": 1,
+    "길": 1,
+    "거": 7,
+    "예": 7,
+    "직": 4,
+    "결": 15,
+    "승": 12,
+    "진": 3,
+    "출": 2,
+    "자": 5,
+    "를": 8,
+    "몰": 1,
+    "라": 4,
+    "단": 4,
+    "짝": 2,
+    "짓": 2,
+    "대": 5,
+    "화": 5,
+    "쓰": 5,
+    "세": 5,
+    "저": 1,
+    "의": 10,
+    "주": 7,
+    "말": 2,
+    "경": 2,
+    "하": 5,
+    "나": 3,
+    "축": 3,
+    "제": 18,
+    "분": 6,
+    "명": 1,
+    "히": 1,
+    "모": 5,
+    "범": 2,
+    "안": 5,
+    "든": 1,
+    "해": 9,
+    "설": 2,
+    "열": 2,
+    "포": 4,
+    "르": 4,
+    "엉": 2,
+    "베": 2,
+    "서": 5,
+    "비": 8,
+    "팔": 1,
+    "전": 2,
+    "복": 9,
+    "교": 8,
+    "마": 4,
+    "막": 3,
+    "야": 6,
+    "간": 6,
+    "행": 5,
+    "사": 15,
+    "토": 6,
+    "같": 2,
+    "침": 1,
+    "찍": 2,
+    "져": 1,
+    "만": 2,
+    "절": 2,
+    "묘": 2,
+    "득": 1,
+    "물": 2,
+    "돼": 1,
+    "핼": 2,
+    "러": 3,
+    "윈": 2,
+    "변": 1,
+    "입": 3,
+    "꽃": 1,
+    "놓": 1,
+    "호": 1,
+    "박": 1,
+    "상": 4,
+    "징": 1,
+    "추": 1,
+    "날": 2,
+    "공": 7,
+    "등": 2,
+    "급": 2,
+    "색": 1,
+    "깔": 1,
+    "구": 2,
+    "실": 3,
+    "내": 3,
+    "시": 6,
+    "즌": 2,
+    "여": 1,
+    "름": 1,
+    "짧": 1,
+    "강": 1,
+    "금": 3,
+    "준": 3,
+    "본": 1,
+    "표": 4,
+    "작": 2,
+    "휠": 1,
+    "체": 2,
+    "회": 5,
+    "까": 2,
+    "째": 1,
+    "음": 4,
+    "악": 3,
+    "곳": 1,
+    "도": 1,
+    "료": 1,
+    "적": 2,
+    "혀": 1,
+    "있": 3,
+    "매": 1,
+    "위": 1,
+    "람": 1,
+    "춤": 1,
+    "춰": 1,
+    "밴": 2,
+    "드": 2,
+    "발": 1,
+    "견": 1,
+    "무": 1,
+    "두": 1,
+    "와": 1,
+    "미": 3,
+    "디": 1,
+    "수": 7,
+    "농": 1,
+    "업": 1,
+    "목": 1,
+    "조": 2,
+    "재": 1,
+    "산": 4,
+    "원": 5,
+    "심": 2,
+    "투": 1,
+    "잡": 1,
+    "민": 1,
+    "했": 1,
+    "법": 4,
+    "으": 1,
+    "넘": 1,
+    "바": 2,
+    "뀔": 1,
+    "알": 2,
+    "않": 3,
+    "았": 1,
+    "용": 2,
+    "뀌": 1,
+    "동": 1,
+    "치": 3,
+    "니": 2,
+    "붙": 1,
+    "년": 1,
+    "낭": 1,
+    "테": 1,
+    "짐": 1,
+    "맛": 2,
+    "맥": 1,
+    "락": 1,
+    "닐": 1,
+    "없": 1,
+    "녀": 1,
+    "써": 1,
+    "략": 1,
+    "인": 2,
+    "칭": 1,
+    "새": 1,
+    "벽": 1,
+    "배": 1,
+    "꼬": 1,
+    "괴": 1,
+    "퇴": 1,
+    "고": 1,
+    "먹": 1,
+    "건": 1,
+    "때": 1,
+    "후": 1,
+    "반": 1,
+    "각": 1,
+    "것": 1,
+    "즐": 1,
+    "운": 1,
+    "린": 1,
+    "따": 1,
+    "점": 1,
+    "텍": 1,
+    "트": 1,
+    "총": 1
+   }
+  }
+ },
+ "cjk_added_total": {
+  "제": 37,
+  "호": 8,
+  "매": 6,
+  "주": 36,
+  "발": 4,
+  "행": 11,
+  "프": 33,
+  "랑": 31,
+  "스": 50,
+  "가": 41,
+  "읽": 12,
+  "는": 49,
+  "어": 76,
+  "간": 18,
+  "지": 40,
+  "결": 34,
+  "승": 21,
+  "말": 8,
+  "월": 30,
+  "요": 124,
+  "일": 104,
+  "개": 7,
+  "학": 8,
+  "전": 8,
+  "역": 6,
+  "동": 8,
+  "시": 19,
+  "복": 14,
+  "교": 14,
+  "마": 10,
+  "터": 12,
+  "막": 6,
+  "음": 15,
+  "악": 11,
+  "면": 39,
+  "참": 1,
+  "조": 5,
+  "텍": 9,
+  "트": 25,
+  "한": 17,
+  "국": 16,
+  "해": 30,
+  "설": 16,
+  "독": 3,
+  "자": 10,
+  "를": 19,
+  "위": 7,
+  "판": 5,
+  "이": 40,
+  "나": 16,
+  "다": 52,
+  "상": 11,
+  "연": 14,
+  "되": 4,
+  "준": 6,
+  "강": 2,
+  "야": 10,
+  "사": 30,
+  "율": 1,
+  "짜": 5,
+  "릿": 2,
+  "함": 1,
+  "리": 19,
+  "비": 13,
+  "정": 43,
+  "보": 20,
+  "기": 55,
+  "번": 12,
+  "과": 19,
+  "토": 12,
+  "밤": 7,
+  "에": 47,
+  "와": 9,
+  "차": 3,
+  "례": 1,
+  "모": 11,
+  "든": 2,
+  "게": 2,
+  "돼": 2,
+  "단": 13,
+  "신": 1,
+  "퀴": 1,
+  "즈": 1,
+  "을": 35,
+  "고": 23,
+  "답": 14,
+  "르": 10,
+  "세": 32,
+  "은": 44,
+  "총": 8,
+  "생": 6,
+  "활": 1,
+  "작": 8,
+  "하": 27,
+  "책": 3,
+  "방": 5,
+  "긋": 1,
+  "남": 1,
+  "반": 3,
+  "대": 15,
+  "로": 25,
+  "습": 7,
+  "관": 6,
+  "의": 23,
+  "식": 3,
+  "여": 6,
+  "분": 16,
+  "산": 9,
+  "러": 9,
+  "아": 22,
+  "침": 2,
+  "디": 6,
+  "있": 8,
+  "었": 2,
+  "때": 3,
+  "무": 3,
+  "슨": 1,
+  "두": 6,
+  "문": 34,
+  "장": 32,
+  "으": 11,
+  "내": 7,
+  "날": 5,
+  "머": 2,
+  "수": 15,
+  "써": 2,
+  "화": 7,
+  "섞": 1,
+  "찾": 2,
+  "완": 7,
+  "성": 12,
+  "숫": 1,
+  "빈": 9,
+  "칸": 11,
+  "채": 10,
+  "우": 11,
+  "원": 12,
+  "형": 9,
+  "바": 12,
+  "꿔": 9,
+  "쓰": 15,
+  "최": 3,
+  "근": 1,
+  "미": 11,
+  "래": 4,
+  "글": 4,
+  "뜻": 3,
+  "짝": 8,
+  "짓": 6,
+  "축": 5,
+  "핼": 4,
+  "윈": 4,
+  "만": 6,
+  "절": 3,
+  "변": 3,
+  "법": 16,
+  "난": 1,
+  "추": 4,
+  "억": 2,
+  "념": 2,
+  "혼": 1,
+  "용": 5,
+  "맞": 3,
+  "틀": 2,
+  "린": 2,
+  "공": 13,
+  "인": 16,
+  "묘": 3,
+  "덤": 1,
+  "휴": 1,
+  "떠": 1,
+  "올": 1,
+  "박": 2,
+  "탕": 1,
+  "유": 1,
+  "령": 1,
+  "저": 3,
+  "부": 13,
+  "까": 9,
+  "회": 9,
+  "낮": 1,
+  "열": 5,
+  "할": 4,
+  "니": 16,
+  "포": 17,
+  "츠": 1,
+  "너": 1,
+  "먼": 2,
+  "드": 3,
+  "코": 1,
+  "서": 14,
+  "실": 6,
+  "본": 3,
+  "선": 4,
+  "진": 7,
+  "표": 8,
+  "펜": 1,
+  "딩": 1,
+  "챔": 1,
+  "피": 1,
+  "언": 1,
+  "울": 2,
+  "중": 2,
+  "석": 1,
+  "테": 5,
+  "급": 6,
+  "빅": 1,
+  "치": 11,
+  "익": 1,
+  "숙": 1,
+  "힘": 1,
+  "멋": 2,
+  "플": 1,
+  "레": 2,
+  "득": 2,
+  "점": 3,
+  "했": 2,
+  "겼": 1,
+  "경": 3,
+  "타": 1,
+  "계": 4,
+  "속": 1,
+  "켜": 1,
+  "론": 4,
+  "출": 3,
+  "더": 4,
+  "망": 1,
+  "찬": 1,
+  "청": 1,
+  "년": 2,
+  "거": 10,
+  "닐": 3,
+  "돌": 2,
+  "확": 2,
+  "히": 2,
+  "딱": 1,
+  "입": 4,
+  "구": 6,
+  "콘": 1,
+  "노": 1,
+  "춤": 2,
+  "듣": 1,
+  "객": 4,
+  "라": 6,
+  "빌": 1,
+  "크": 3,
+  "온": 1,
+  "직": 9,
+  "접": 1,
+  "곳": 2,
+  "큰": 1,
+  "배": 2,
+  "려": 6,
+  "떤": 1,
+  "들": 4,
+  "예": 14,
+  "항": 1,
+  "목": 2,
+  "안": 8,
+  "된": 4,
+  "투": 2,
+  "획": 3,
+  "뿐": 1,
+  "없": 3,
+  "룹": 2,
+  "넘": 2,
+  "뀔": 2,
+  "알": 4,
+  "않": 6,
+  "았": 3,
+  "루": 1,
+  "오": 11,
+  "초": 1,
+  "도": 5,
+  "별": 1,
+  "씩": 2,
+  "왔": 1,
+  "효": 1,
+  "적": 4,
+  "뒤": 1,
+  "소": 1,
+  "킨": 1,
+  "류": 6,
+  "당": 1,
+  "샤": 1,
+  "콜": 1,
+  "좋": 1,
+  "편": 5,
+  "집": 1,
+  "림": 1,
+  "쇄": 1,
+  "싣": 1,
+  "심": 3,
+  "종": 2,
+  "합": 1,
+  "평": 1,
+  "택": 1,
+  "그": 2,
+  "빨": 2,
+  "달": 2,
+  "늘": 2,
+  "챙": 1,
+  "길": 1,
+  "몰": 1,
+  "명": 1,
+  "범": 2,
+  "엉": 2,
+  "베": 2,
+  "팔": 1,
+  "같": 2,
+  "찍": 2,
+  "져": 1,
+  "물": 2,
+  "꽃": 1,
+  "놓": 1,
+  "징": 1,
+  "등": 2,
+  "색": 1,
+  "깔": 1,
+  "즌": 2,
+  "름": 1,
+  "짧": 1,
+  "금": 3,
+  "휠": 1,
+  "체": 2,
+  "째": 1,
+  "료": 1,
+  "혀": 1,
+  "람": 1,
+  "춰": 1,
+  "밴": 2,
+  "견": 1,
+  "농": 1,
+  "업": 1,
+  "재": 1,
+  "잡": 1,
+  "민": 1,
+  "뀌": 1,
+  "붙": 1,
+  "낭": 1,
+  "짐": 1,
+  "맛": 2,
+  "맥": 1,
+  "락": 1,
+  "녀": 1,
+  "략": 1,
+  "칭": 1,
+  "새": 1,
+  "벽": 1,
+  "꼬": 1,
+  "괴": 1,
+  "퇴": 1,
+  "먹": 1,
+  "건": 1,
+  "후": 1,
+  "각": 1,
+  "것": 1,
+  "즐": 1,
+  "운": 1,
+  "따": 1
+ }
+}

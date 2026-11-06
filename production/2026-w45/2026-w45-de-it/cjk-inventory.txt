@@ -1,0 +1,361 @@
+content12.py:15: p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH · 每周一期 · 读德国人正在读的德语", 21, "sans", False, GREY, anchor="middle")
+content12.py:19: p.text(975, 330, "德 语 周 报 · VOL.2 · 足 球 周 · 油 价 · 护 理", 46, "serif", True, INK, anchor="middle")
+content12.py:27: p.text(RIGHT - 30, 478, "本周足球周 · 欧冠欧联德甲连轴转", 24, "sans", True, "#b3a06a", anchor="end")
+content12.py:28: p.text(RIGHT - 30, 522, "详见第 4 版 · Seite 4", 21, "sans", False, "#b3a06a", anchor="end")
+content12.py:32: p.text(MX, hy + 26, "DIE TOPMELDUNG · 头条", 22, "sans", True, BRICK)
+content12.py:42: f.bridge("讲解｜die Englische Woche 一周双赛 · der Spieltag 比赛日 · empfangen 主场迎战 · die Bundesliga 德甲。")
+content12.py:43: f.box("DIE WOCHE IN ZAHLEN · 数字看本周", [
+content12.py:44:     ("9 — Spiele hat der 9. Spieltag der Bundesliga（德甲第 9 轮共 9 场比赛）", "serif", False, INK, 20.5, 1.35),
+content12.py:45:     ("6 — deutsche Teams spielen in Europa（6 支德国球队出战欧战）", "serif", False, INK, 20.5, 1.35),
+content12.py:46:     ("14,04 — Cent pro Liter beträgt der Tankrabatt（每升油减税 14.04 欧分）", "serif", False, INK, 20.5, 1.35),
+content12.py:48: f.head("JETZT ÜBEN · 即学即练", 25)
+content12.py:49: f.ex("A2", "完成句子", "Englische", "一周双赛",
+content12.py:51: f.ex("A2", "完成句子", "Dortmund", "多特主场迎战贝蒂斯",
+content12.py:53: f.ex("A2", "完成句子", "Donnerstag", "欧联在周四",
+content12.py:55: f.ex("A2", "完成句子", "Hamburg", "周五汉堡–门兴开轮",
+content12.py:57: f.ex("B1", "完成句子", "neun", "第 9 轮共 9 场",
+content12.py:59: f.ex("B1", "完成句子", "Tankrabatt", "减税到 12 月 31 日",
+content12.py:69: p.text(gx + 22, gy + 106, "本周大问题 · Die Fragen der Woche", 19, "sans", False, GREY)
+content12.py:84: p.text(gx + 22, byy + 76, "德国本周最热议的五个问题。", 19, "sans", False, GREY)
+content12.py:89: p.text(gx + 22, sy + 40, "IN DIESER AUSGABE · 本期目录", 24, "sans", True, OLIVE)
+content12.py:111: p.para(gx, my + 152, "油价减税（加油折扣）。详见第 2 版。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:130: p.text(bx + 22, 1914, "KURZ & GUT · 快讯", 24, "sans", True, OLIVE)
+content12.py:144: p.text(MX, qy + 36, "BLITZQUIZ · 闪电问答", 26, "sans", True, OLIVE)
+content12.py:145: p.text(RIGHT, qy + 36, "读头版，选出正确答案 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+content12.py:147: qf.ex("A2", "单选", "B", "拜仁周二客战马竞",
+content12.py:149: qf.ex("A2", "单选", "C", "霍芬海姆欧联客战水晶宫",
+content12.py:151: qf.ex("A2", "单选", "A", "减税到 12 月 31 日",
+content12.py:153: qf.ex("A2", "单选", "A", "周五汉堡–门兴开轮",
+content12.py:163: p.band("LEBEN · 生活", "Die Lucerna", "LEVEL A2 · Tankrabatt, Stromsteuer & Pflege · 油价、电力税与护理")
+content12.py:173: f.gloss("der Tankrabatt 油价减税 · die Zapfsäule 加油机 · die Energiesteuer 能源税 · die Mehrwertsteuer 增值税 · der Angehörige 亲属。")
+content12.py:186: p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE · 加油机旁", 24, "sans", True, OLIVE)
+content12.py:205: eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("你开车吗？你那里的油价是多少？写两句德语寄来。", "sans", False, 20, CW - 44)) - 1)
+content12.py:208: p.text(ix + 22, yy3 + 26, "UND SIE? · 说说你自己", 24, "sans", True, OLIVE)
+content12.py:211: p.para(ix + 22, yy3 + 20, "你开车吗？你那里的油价是多少？写两句德语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
+content12.py:220: p.text(ix + 22, yy3 + 26, "ZEW IN KÜRZE · ZEW 指数简讯", 24, "sans", True, OLIVE)
+content12.py:229: p.text(MX, dy + 28, "RECHNEN WIR MAL · 算一算", 28, "sans", True, OLIVE)
+content12.py:230: p.text(RIGHT, dy + 28, "Die Zahlen der Woche · 本周数字", 20, "sans", False, GREY, anchor="end")
+content12.py:242: p.para(1090, ly - 108 + 22 + 4 * 29.1 + 10, "注意：减的是税，定价的是油站。出发前比比价。", 20, "sans", False, GREY, RIGHT - 1090, 1.42)
+content12.py:247: p.text(MX, ey + 28, "ÜBUNGEN · 第 2 版练习", 28, "sans", True, OLIVE)
+content12.py:248: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content12.py:251: e.bridge("看第 2 版文章，用数字填空。")
+content12.py:252: e.ex("A2", "完成句子", "14,04", "每升减税 14.04 欧分",
+content12.py:253:      "Die Steuer sinkt um ___ Cent pro Liter.", instr="填空", size=20, gap=8)
+content12.py:254: e.ex("A2", "完成句子", "8,35", "50 升省约 8.35 欧元",
+content12.py:255:      "Wer 50 Liter tankt, spart rund ___ Euro.", instr="填空", size=20, gap=8)
+content12.py:256: e.ex("A2", "完成句子", "31. Dezember", "减税到 2026 年底",
+content12.py:257:      "Der Tankrabatt läuft bis zum ___ 2026.", instr="填空", size=20, gap=8)
+content12.py:258: e.ex("A2", "完成句子", "2,5 Milliarden", "国家少收约 25 亿欧元",
+content12.py:259:      "Der Staat verzichtet auf rund ___ Euro.", instr="填空", size=20, gap=8)
+content12.py:260: e.ex("A2", "完成句子", "Zapfsäule", "加油机旁的实际降幅",
+content12.py:261:      "Mit Mehrwertsteuer sind es an der ___ rund 16,7 Cent weniger.", instr="填空", size=20, gap=8)
+content12.py:263: e.bridge("改成 Perfekt 现在完成时。")
+content12.py:264: e.ex("A2", "句型转换", "Der Bundestag hat den Tankrabatt beschlossen.", "beschließen → beschlossen",
+content12.py:265:      "Der Bundestag (beschließen) den Tankrabatt. → ___", instr="改写", size=20, gap=8)
+content12.py:266: e.ex("A2", "句型转换", "Die Preise sind am Morgen gefallen.", "fallen 用 sein",
+content12.py:267:      "Die Preise (fallen) am Morgen. → ___", instr="改写", size=20, gap=8)
+content12.py:268: e.ex("A2", "句型转换", "Wir haben 50 Liter getankt.", "tanken → getankt",
+content12.py:269:      "Wir (tanken) 50 Liter. → ___", instr="改写", size=20, gap=8)
+content12.py:270: e.ex("B1", "句型转换", "Die Tankstellen haben den Rabatt nicht voll weitergegeben.", "weitergeben 可分动词",
+content12.py:271:      "Die Tankstellen (weitergeben) den Rabatt nicht voll. → ___", instr="改写", size=20, gap=8)
+content12.py:272: e.ex("B1", "句型转换", "Die Erwartungen sind im Oktober gefallen.", "ZEW 预期下降",
+content12.py:273:      "Die Erwartungen (fallen) im Oktober. → ___", instr="改写", size=20, gap=8)
+content12.py:275: e.bridge("读第 2 版文章，选出正确答案。")
+content12.py:276: e.ex("A2", "单选", "B", "减的是能源税",
+content12.py:278: e.ex("A2", "单选", "B", "油站定价",
+content12.py:280: e.ex("A2", "单选", "A", "联盟党与社民党",
+content12.py:282: e.ex("A2", "单选", "B", "家属居家护理",
+content12.py:285: e.match_set("A2", "词汇配对",
+content12.py:292:             ["Tankrabatt=油价减税 b", "Zapfsäule=加油机 d", "Mehrwertsteuer=增值税 a", "Angehörige=亲属 c"],
+content12.py:293:             instr="把词和释义配对")
+content34.py:12: p.band("KULTUR · 文化", "Die Lucerna", "A2 → B1 · Ferienwechsel & Herbst · 假期交接与秋天")
+content34.py:23: f.gloss("der Ferienwechsel 假期交接 · die Schülerin 女学生 · der Ausflug 短途出游 · der Advent 将临期 · die Lesung 朗读会。")
+content34.py:35: p.text(ix + 22, yy3 + 26, "FERIENWECHSEL · 假期交接", 24, "sans", True, OLIVE)
+content34.py:40: words = ["der Nebel — 雾", "das Laub — 落叶", "der Kürbis — 南瓜",
+content34.py:41:          "die Kerze — 蜡烛", "der Spaziergang — 散步", "die Lesung — 朗读会"]
+content34.py:46: p.text(ix + 22, yy3 + 26, "HERBSTWÖRTER · 秋天词汇", 24, "sans", True, OLIVE)
+content34.py:53: eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("秋天你比夏天读得多吗？你的床头现在放着哪本书？写两句德语寄来。", "sans", False, 20, CW - 44)) - 1)
+content34.py:56: p.text(ix + 22, yy3 + 26, "UND SIE? · 说说你自己", 24, "sans", True, OLIVE)
+content34.py:59: p.para(ix + 22, yy3 + 20, "秋天你比夏天读得多吗？你的床头现在放着哪本书？写两句德语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:66: p.text(ix + 22, yy3 + 26, "DER TIPP · 编辑部建议", 24, "sans", True, OLIVE)
+content34.py:74: p.text(MX, ey + 28, "ÜBUNGEN · 第 3 版练习", 28, "sans", True, OLIVE)
+content34.py:75: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content34.py:78: e.bridge("读第 3 版文章，判断对错。")
+content34.py:79: e.ex("A2", "判断对错", "Richtig", "BW 周一起复课",
+content34.py:80:      "In Baden-Württemberg sind die Herbstferien vorbei. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content34.py:81: e.ex("A2", "判断对错", "Falsch", "巴伐利亚本周仍在放假",
+content34.py:82:      "Bayern hat in dieser Woche keine Ferien mehr. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content34.py:83: e.ex("A2", "判断对错", "Richtig", "诸圣节 11 月 1 日",
+content34.py:84:      "Allerheiligen ist am 1. November. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content34.py:85: e.ex("B1", "判断对错", "Falsch", "10 月 31 日也是宗教改革日（九个州）",
+content34.py:86:      "Am 31. Oktober war nur Halloween, kein Feiertag. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content34.py:87: e.ex("A2", "判断对错", "Falsch", "诸圣节商店关门",
+content34.py:88:      "Die Geschäfte sind an Allerheiligen geöffnet. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content34.py:90: e.bridge("用方框里的词填空。")
+content34.py:92: e.ex("A2", "完成句子", "Ferienwechsel", "假期交接",
+content34.py:93:      "In dieser Woche ist ___: Die einen kommen, die anderen gehen.", instr="填空", size=20, gap=8)
+content34.py:94: e.ex("A2", "完成句子", "Ausflug", "去山区短途出游",
+content34.py:95:      "Viele Familien machen einen ___ in die Berge.", instr="填空", size=20, gap=8)
+content34.py:96: e.ex("A2", "完成句子", "Lesung", "图书馆的朗读会",
+content34.py:97:      "In der Bibliothek gibt es eine ___ zum Herbst.", instr="填空", size=20, gap=8)
+content34.py:98: e.ex("A2", "完成句子", "Advent", "将临期在 11 月筹划",
+content34.py:99:      "Im November plant man schon den ___.", instr="填空", size=20, gap=8)
+content34.py:100: e.ex("A2", "完成句子", "Nebel", "湖面上的雾",
+content34.py:101:      "Am Morgen liegt ___ über dem See.", instr="填空", size=20, gap=8)
+content34.py:103: e.bridge("选出正确答案。")
+content34.py:104: e.ex("A2", "单选", "B", "BW 假期已结束",
+content34.py:106: e.ex("A2", "单选", "B", "安静的节日",
+content34.py:108: e.ex("A2", "单选", "A", "诸圣节扫墓",
+content34.py:110: e.ex("B1", "单选", "A", "白天短所以夜晚长",
+content34.py:113: e.bridge("把词组成正确的句子。")
+content34.py:114: e.ex("A2", "造句", "In Baden-Württemberg ist die Schule wieder losgegangen.", "时间地点开头，动词第二位",
+content34.py:115:      "in Baden-Württemberg / ist / die Schule / wieder losgegangen → ___", instr="造句", size=20, gap=8)
+content34.py:116: e.ex("B1", "造句", "Bayern hat in dieser Woche noch Ferien.", "数量时间状语，动词第二位",
+content34.py:117:      "Bayern / hat / in dieser Woche / noch Ferien → ___", instr="造句", size=20, gap=8)
+content34.py:118: e.ex("A2", "造句", "Viele Familien machen einen Ausflug in die Berge.", "主谓宾顺序",
+content34.py:119:      "viele Familien / machen / einen Ausflug / in die Berge → ___", instr="造句", size=20, gap=8)
+content34.py:120: e.ex("B1", "造句", "An Allerheiligen bleiben die Geschäfte geschlossen.", "bleiben + geschlossen",
+content34.py:121:      "an Allerheiligen / bleiben / die Geschäfte / geschlossen → ___", instr="造句", size=20, gap=8)
+content34.py:130: p.band("SPORT · 体育", "Die Lucerna", "LEVEL B1 · Europapokal & Bundesliga · 欧战与德甲")
+content34.py:141: f.gloss("die Englische Woche 一周双赛 · auswärts 客场 · empfangen 主场迎战 · der Favorit 夺冠热门 · eröffnen 揭开序幕。")
+content34.py:151: eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("本周你支持谁？周六焦点战谁赢？写两句德语寄给编辑部。", "sans", False, 20, CW - 44)) - 1)
+content34.py:154: p.text(bx + 22, yy3 + 26, "UND SIE? · 说说你自己", 24, "sans", True, OLIVE)
+content34.py:157: p.para(bx + 22, yy3 + 20, "本周你支持谁？周六焦点战谁赢？写两句德语寄给编辑部。", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:162: p.text(MX, ty, "DER 9. SPIELTAG · 第 9 轮赛程", 26, "sans", True, OLIVE)
+content34.py:186: p.text(MX, ey + 28, "ÜBUNGEN · 第 4 版练习", 28, "sans", True, OLIVE)
+content34.py:187: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content34.py:190: e.bridge("读第 4 版文章，选出正确答案。")
+content34.py:191: e.ex("B1", "单选", "B", "拜仁周二客战马竞",
+content34.py:193: e.ex("B1", "单选", "B", "斯图加特 18:45 开球",
+content34.py:195: e.ex("B1", "单选", "C", "多特主场迎战贝蒂斯",
+content34.py:197: e.ex("B1", "单选", "A", "霍芬海姆欧联客战水晶宫",
+content34.py:199: e.ex("B1", "单选", "B", "周六焦点战斯图加特–不来梅",
+content34.py:202: e.match_set("B1", "词汇配对",
+content34.py:209:             ["Englische Woche=一周双赛 a", "auswärts=客场 b", "Favorit=热门 c", "eröffnen=揭开序幕 d"],
+content34.py:210:             instr="把词和释义配对")
+content34.py:212: e.bridge("用比较级完成句子（括号里是原级）。")
+content34.py:213: e.ex("B1", "完成句子", "schwerer", "schwer → schwerer",
+content34.py:214:      "Für Leipzig wird der Abend gegen City ___ (schwer) als normal.", instr="填空", size=20, gap=8)
+content34.py:215: e.ex("B1", "完成句子", "später", "spät → später（19:30 最晚）",
+content34.py:216:      "Das Sonntagsspiel Hoffenheim–Schalke beginnt ___ (spät) als die anderen.", instr="填空", size=20, gap=8)
+content34.py:217: e.ex("B1", "完成句子", "mehr", "viel → mehr（球迷想要更多）",
+content34.py:218:      "Die Fans wollen ___ (viel) Tore sehen.", instr="填空", size=20, gap=8)
+content34.py:219: e.ex("B1", "完成句子", "früher", "früh → früher（18:45 早于 21:00）",
+content34.py:220:      "Stuttgart spielt schon um 18.45 Uhr — ___ (früh) als das Bayern-Spiel.", instr="填空", size=20, gap=8)
+content34.py:222: e.bridge("看上面的赛程表，选出正确答案。")
+content34.py:223: e.ex("B1", "单选", "A", "汉堡–门兴周五 20:30",
+content34.py:225: e.ex("B1", "单选", "B", "斯图加特–不来梅周六 18:30",
+content34.py:227: e.ex("B1", "单选", "C", "霍芬海姆–沙尔克周日 19:30",
+content34.py:229: e.ex("B1", "单选", "A", "弗赖堡–柏林联周日 17:30",
+content34.py:231: e.ex("B1", "单选", "B", "欧联周四霍芬海姆 18:45",
+content56.py:12: p.band("JUGEND · 青年", "Die Lucerna", "LEVEL B1 · Zurück in die Schule · 重返校园")
+content56.py:22: f.gloss("der Pausenhof 课间操场 · die Klassenarbeit 课堂测验 · das Referat 课堂报告 · ausschlafen 睡懒觉 · die Probe 排练。")
+content56.py:34: p.text(ix + 22, yy3 + 26, "FERIENWECHSEL · 假期交接", 24, "sans", True, OLIVE)
+content56.py:39: words = ["der Pausenhof — 课间操场", "die Klassenarbeit — 课堂测验", "das Referat — 课堂报告",
+content56.py:40:          "der Rucksack — 书包", "ausschlafen — 睡懒觉", "die Probe — 排练"]
+content56.py:45: p.text(ix + 22, yy3 + 26, "SCHULWÖRTER · 校园词汇", 24, "sans", True, OLIVE)
+content56.py:52: eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("你的学校假期后哪天开学？第一节是什么课？写两句德语寄来。", "sans", False, 20, CW - 44)) - 1)
+content56.py:55: p.text(ix + 22, yy3 + 26, "UND SIE? · 说说你自己", 24, "sans", True, OLIVE)
+content56.py:58: p.para(ix + 22, yy3 + 20, "你的学校假期后哪天开学？第一节是什么课？写两句德语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
+content56.py:64: p.text(sx + 24, 1162, "DER WOCHENPLAN DER REDAKTION · 编辑部一周计划", 24, "sans", True, OLIVE)
+content56.py:81: p.text(MX, ey + 28, "ÜBUNGEN · 第 5 版练习", 28, "sans", True, OLIVE)
+content56.py:82: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content56.py:85: e.bridge("读第 5 版文章，选出正确答案。")
+content56.py:86: e.ex("B1", "单选", "A", "BW 11 月 2 日开学",
+content56.py:88: e.ex("B1", "单选", "B", "巴伐利亚假期未结束",
+content56.py:90: e.ex("B1", "单选", "B", "开学周有课堂测验",
+content56.py:92: e.ex("B1", "单选", "B", "Referat = 课堂报告",
+content56.py:94: e.ex("A2", "单选", "A", "巴伐利亚学生周五可去球场",
+content56.py:97: e.bridge("用方框里的词填空。")
+content56.py:99: e.ex("B1", "完成句子", "Pausenhof", "课间操场上玩",
+content56.py:100:      "In der Pause spielen die Kinder auf dem ___.", instr="填空", size=20, gap=8)
+content56.py:101: e.ex("B1", "完成句子", "Klassenarbeit", "数学课堂测验",
+content56.py:102:      "Am Freitag schreiben wir eine ___ in Mathe.", instr="填空", size=20, gap=8)
+content56.py:103: e.ex("B1", "完成句子", "Referat", "报告要读三本书",
+content56.py:104:      "Für das ___ muss ich drei Bücher lesen.", instr="填空", size=20, gap=8)
+content56.py:105: e.ex("B1", "完成句子", "ausschlafen", "假期可以睡懒觉",
+content56.py:106:      "In den Ferien kann man lange ___.", instr="填空", size=20, gap=8)
+content56.py:107: e.ex("A2", "完成句子", "Probe", "圣诞演出的第一次排练",
+content56.py:108:      "Für die Weihnachtsfeier gibt es schon die erste ___.", instr="填空", size=20, gap=8)
+content56.py:109: e.ex("A2", "完成句子", "Rucksack", "书包里有本子铅笔",
+content56.py:110:      "Mein ___ ist gepackt: Hefte, Stifte, Pausenbrot.", instr="填空", size=20, gap=8)
+content56.py:112: e.bridge("用 weil 连接两个句子（动词放句末）。")
+content56.py:113: e.ex("B1", "句型转换", "Die Kinder freuen sich, weil die Schule wieder beginnt.", "weil 句动词置尾",
+content56.py:114:      "Die Kinder freuen sich. Die Schule beginnt wieder. (weil) → ___", instr="改写", size=20, gap=8)
+content56.py:115: e.ex("B1", "句型转换", "Er liest ein Buch, weil es draußen kalt ist.", "ist 置尾",
+content56.py:116:      "Er liest ein Buch. Es ist draußen kalt. (weil) → ___", instr="改写", size=20, gap=8)
+content56.py:117: e.ex("B1", "句型转换", "Sie geht in die Bibliothek, weil sie ein Referat schreiben muss.", "muss 置尾",
+content56.py:118:      "Sie geht in die Bibliothek. Sie muss ein Referat schreiben. (weil) → ___", instr="改写", size=20, gap=8)
+content56.py:119: e.ex("B1", "句型转换", "Bayern hat noch Ferien, weil die Ferien dort später liegen.", "liegen 置尾",
+content56.py:120:      "Bayern hat noch Ferien. Die Ferien liegen dort später. (weil) → ___", instr="改写", size=20, gap=8)
+content56.py:122: e.bridge("判断对错。")
+content56.py:123: e.ex("A2", "判断对错", "Richtig", "BW 11 月 2 日复课",
+content56.py:124:      "In Baden-Württemberg hat die Schule am 2. November wieder begonnen. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content56.py:125: e.ex("B1", "判断对错", "Falsch", "全德假期并未都结束",
+content56.py:126:      "In ganz Deutschland sind die Herbstferien vorbei. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content56.py:127: e.ex("A2", "判断对错", "Richtig", "开学周有测验与报告",
+content56.py:128:      "Die erste Schulwoche bringt Klassenarbeiten und Referate. Richtig oder falsch?", instr="判断", size=20, gap=8)
+content56.py:137: p.band("VERTIEFUNG · 深读", "Die Lucerna", "LEVEL B2 · Pflege & Stromsteuer · 护理与电力税")
+content56.py:148: f.gloss("der Angehörige 亲属 · die Pflegeversicherung 护理保险 · der Pflegedienst 护理服务机构 · die Stagnation 停滞 · der Aufschwung 复苏。")
+content56.py:162: p.text(ix + 22, yy3 + 26, "DIE ZAHLEN · 本周数字", 24, "sans", True, OLIVE)
+content56.py:170: hh = 140 + 29.82 * len(wrap(deb, "serif", False, 21, CW - 44)) + 27.69 * (len(wrap("护理：在家护理需要更多帮助——对此政界仍在争论。电力税：降多少尚未确定。两者都花钱，都关系到几乎每个家庭。", "sans", False, 19.5, CW - 44)) - 1)
+content56.py:176: p.para(ix + 22, yy3 + 20, "护理：在家护理需要更多帮助——对此政界仍在争论。电力税：降多少尚未确定。两者都花钱，都关系到几乎每个家庭。", 19.5, "sans", False, GREY, CW - 44, 1.42)
+content56.py:182: p.text(sx + 24, 1162, "PRO & CONTRA · 正方与反方 — die Argumente der Debatte", 24, "sans", True, OLIVE)
+content56.py:201: p.text(MX, cy + 28, "WER PFLEGT ZU HAUSE? · 谁在家护理？", 26, "sans", True, OLIVE)
+content56.py:202: bars = [("pflegen Angehörige zu Hause", 68, "家属护理"),
+content56.py:203:         ("nutzen einen Pflegedienst", 20, "专业上门"),
+content56.py:204:         ("leben im Pflegeheim", 12, "住养老院")]
+content56.py:212: p.text(MX, byy + 22, "ÜBUNGSDATEN · 练习数据 — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage.（本图数字为编辑部练习示例，非真实调查。）", 19.5, "sans", False, GREY)
+content56.py:217: p.text(MX, ey + 28, "ÜBUNGEN · 第 6 版练习", 28, "sans", True, OLIVE)
+content56.py:218: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content56.py:221: e.bridge("看上面的练习图表，选出正确答案。")
+content56.py:222: e.ex("B1", "单选", "A", "68% 家属护理",
+content56.py:224: e.ex("B1", "单选", "B", "专业上门 20% 第二",
+content56.py:226: e.ex("B1", "单选", "B", "68+20=88",
+content56.py:228: e.ex("B2", "单选", "B", "养老院 12% 最小",
+content56.py:230: e.ex("B1", "单选", "A", "养老院 12%",
+content56.py:232: e.ex("B2", "单选", "B", "68+20+12=100",
+content56.py:235: e.bridge("读第 6 版深读文章，选出正确答案。")
+content56.py:236: e.ex("B2", "单选", "B", "10 月 26 日节目讨论居家护理",
+content56.py:238: e.ex("B2", "单选", "A", "据 ARD《Hart aber fair》10 月 26 日节目，600 多万人需要护理",
+content56.py:240: e.ex("B2", "单选", "B", "家属居家护理",
+content56.py:242: e.ex("B1", "单选", "B", "据 ARD《Hart aber fair》10 月 26 日节目，约 1000 万人护理亲属",
+content56.py:245: e.bridge("用括号里的形式填空。")
+content56.py:246: e.ex("B2", "完成句子", "wird", "被动：wird + Partizip II",
+content56.py:247:      "Die Frage ___ (werden) am Montag diskutiert.", instr="填空", size=20, gap=7)
+content56.py:248: e.ex("B2", "完成句子", "ob", "ob 引导间接疑问句",
+content56.py:249:      "Die Politik weiß nicht, ___ das Geld reicht.", instr="填空", size=20, gap=7)
+content56.py:250: e.ex("B1", "完成句子", "steigt", "steigen → steigt",
+content56.py:251:      "Die Zahl der Pflegebedürftigen ___ (steigen) weiter.", instr="填空", size=20, gap=7)
+content56.py:252: e.ex("B2", "完成句子", "sagte", "sagen 过去时 sagte",
+content56.py:253:      "Wambach ___ (sagen): Der Aufschwung trägt sich nicht selbst.", instr="填空", size=20, gap=7)
+content56.py:255: e.bridge("用方框里的词填空。")
+content56.py:257: e.ex("B1", "完成句子", "Pflegeversicherung", "护理保险出更多钱",
+content56.py:258:      "Die ___ soll mehr Geld für die Pflege zahlen.", instr="填空", size=20, gap=7)
+content56.py:259: e.ex("B2", "完成句子", "Angehörige", "亲属居家护理",
+content56.py:260:      "Viele ___ pflegen ihre Verwandten zu Hause.", instr="填空", size=20, gap=7)
+content56.py:261: e.ex("B2", "完成句子", "Stagnation", "走出停滞",
+content56.py:262:      "Die Wirtschaft kommt langsam aus der ___ heraus.", instr="填空", size=20, gap=7)
+content56.py:263: e.ex("B1", "完成句子", "Aufschwung", "复苏尚未自我维持",
+content56.py:264:      "Der ___ trägt sich noch nicht selbst.", instr="填空", size=20, gap=7)
+content7.py:12: p.band("SPRACHE · 语言", "Die Lucerna", "A2 → B2 · Sätze der Woche & Fehlerklinik · 本周金句与纠错诊所")
+content7.py:15: p.para(MX, 262, "本版专攻语言：三节小课、本期金句（全部摘自本期文章原文）、纠错诊所和读者来信。", 20, "sans", False, GREY, RIGHT - MX, 1.4)
+content7.py:22: fa.box("BEISPIELE · 例句", [("„Am Freitag wird gespielt.“ · „Der Tankrabatt gilt bis Dezember.“", "serif", False, INK, 21, 1.4)])
+content7.py:23: fa.ex("A2", "完成句子", "wird", "被动：wird + Partizip II",
+content7.py:24:       "Am Freitag ___ gespielt: Hamburg gegen Gladbach.", instr="填空", size=20, gap=8)
+content7.py:25: fa.ex("A2", "完成句子", "werden", "复数：werden",
+content7.py:26:       "Am Sonntag ___ drei Spiele gespielt.", instr="填空", size=20, gap=8)
+content7.py:27: fa.ex("A2", "完成句子", "wird", "werden + 原形表将来",
+content7.py:28:       "Der Tankrabatt ___ bis Dezember gelten.", instr="填空", size=20, gap=8)
+content7.py:29: fa.ex("A2", "单选", "A", "被动语态",
+content7.py:36: fb.box("BEISPIELE · 例句", [("„Das Spiel ist später als sonst.“ · „Ich lese, weil das Buch spannend ist.“", "serif", False, INK, 21, 1.4)])
+content7.py:37: fb.ex("B1", "完成句子", "später", "spät → später（19:30 最晚）",
+content7.py:38:       "Das Spiel Hoffenheim–Schalke ist ___ (spät) als die anderen Sonntagsspiele.", instr="填空", size=20, gap=8)
+content7.py:39: fb.ex("B1", "完成句子", "weil", "weil 引导原因",
+content7.py:40:       "Es wird früher dunkel, ___ die Tage kürzer werden.", instr="填空", size=20, gap=8)
+content7.py:41: fb.ex("B1", "句型转换", "Viele bleiben zu Hause, weil es kalt ist.", "weil 句动词置尾",
+content7.py:42:       "Viele bleiben zu Hause. Es ist kalt. (weil) → ___", instr="改写", size=20, gap=8)
+content7.py:43: fb.ex("B1", "单选", "A", "länger als = 比……更长",
+content7.py:44:       "„Länger als sonst“ heißt... A. 比平时更长 · B. 和平时一样 · C. 比平时更短", size=20, gap=8)
+content7.py:50: fc.box("BEISPIELE · 例句", [("„Meiner Meinung nach braucht die Pflege mehr Geld.“ · „Niemand weiß, ob die Steuer sinkt.“", "serif", False, INK, 21, 1.4)])
+content7.py:51: fc.ex("B2", "完成句子", "ob", "ob 引导间接疑问",
+content7.py:52:       "Ich weiß nicht, ___ die Stromsteuer sinkt.", instr="填空", size=20, gap=8)
+content7.py:53: fc.ex("B2", "完成句子", "fraglich", "Es ist fraglich, ob ... = 是否还难说",
+content7.py:54:       "Es ist ___ , ob sich Union und SPD einigen.", instr="填空", size=20, gap=8)
+content7.py:55: fc.ex("B2", "句型转换", "Ich finde, dass die Pflege mehr Hilfe braucht.", "dass 句动词置尾",
+content7.py:56:       "Ich finde: Die Pflege braucht mehr Hilfe. (dass) → ___", instr="改写", size=20, gap=8)
+content7.py:57: fc.ex("B2", "单选", "B", "礼貌表达观点",
+content7.py:63: tb = ["14,04 Cent = 每升 14.04 欧分",
+content7.py:64:       "rund 8,35 Euro = 大约省 8.35 欧元",
+content7.py:65:       "Es wird gespielt. = 比赛将进行（被动）",
+content7.py:66:       "Meiner Meinung nach ... = 在我看来……",
+content7.py:67:       "Ich finde, dass ... = 我觉得……",
+content7.py:68:       "Es ist fraglich, ob ... = 是否……还难说"]
+content7.py:72: p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN · 工具箱", 23, "sans", True, OLIVE)
+content7.py:81: chinese = "编辑部示例，非真实来信：截稿时未收到真实来信或习作，见 VOL.3。请寄来您的习作，优秀者刊登于 VOL.3。"
+content7.py:93: p.text(ix + 22, yy3 + 26, "LESERBRIEFE · 读者来信", 23, "sans", True, OLIVE)
+content7.py:102: p.text(ix + 22, wy3 + 40, "NOCH EIN WORT · 再学一词", 22, "sans", True, OLIVE)
+content7.py:103: p.para(ix + 22, wy3 + 78, "«der Tankrabatt»（Seite 2）: die gesenkte Steuer auf Benzin und Diesel. 油价减税。", 20.5, "serif", False, INK, CW - 44, 1.42)
+content7.py:109: p.text(MX, py + 28, "SÄTZE DER WOCHE · 本周金句", 28, "sans", True, OLIVE)
+content7.py:110: p.text(RIGHT, py + 28, "原文摘录，逐字引自本期文章 · 括号内为出处", 20, "sans", False, GREY, anchor="end")
+content7.py:112:     ("Vier Nächte Fußball hintereinander, dann ein ganzes Wochenende Liga.", "连续四个足球之夜，然后是整周末联赛。", "Seite 4 · B1"),
+content7.py:113:     ("Die Energiesteuer auf Benzin und Diesel sinkt um 14,04 Cent pro Liter.", "汽油和柴油的能源税每升降低 14.04 欧分。", "Seite 2 · A2"),
+content7.py:114:     ("Wer 50 Liter tankt, spart rund 8,35 Euro.", "加 50 升油，大约省 8.35 欧元。", "Seite 2 · A2"),
+content7.py:115:     ("Die Schule hat nach den Herbstferien wieder begonnen.", "秋假过后，学校又开学了。", "Seite 5 · B1"),
+content7.py:116:     ("Die Tage sind kurz, die Abende lang.", "白天短，夜晚长。", "Seite 3 · A2"),
+content7.py:117:     ("Zwei schwere Auswärtsspiele für die deutschen Teams.", "德国球队的两场艰难客场之战。", "Seite 4 · B1"),
+content7.py:118:     ("Die deutsche Wirtschaft kommt langsam aus der Stagnation heraus, doch der Aufschwung trägt sich nicht selbst.", "德国经济正在缓慢走出停滞，但复苏还不能自我维持。", "Seite 6 · B2"),
+content7.py:119:     ("Es geht langsam aufwärts — aber von allein geht es nicht.", "缓慢向好——但不会自动变好。", "Seite 6 · B2"),
+content7.py:134: p.text(MX, ey + 28, "FEHLERKLINIK · 纠错诊所", 28, "sans", True, OLIVE)
+content7.py:135: p.text(RIGHT, ey + 28, "学习者最常犯的四个错 · 先自己改，再看答案", 20, "sans", False, GREY, anchor="end")
+content7.py:137:     ("Die Schule beginnt wieder in Baden-Württemberg am Montag.", "In Baden-Württemberg beginnt die Schule am Montag wieder.", "动词第二位：主语不在句首时，动词仍居第二。"),
+content7.py:138:     ("Halb acht ist 8.30 Uhr.", "Halb acht ist 7.30 Uhr.", "halb acht = 七点半（acht 之前）。"),
+content7.py:139:     ("Die Preise sind gefallen um 14 Cent.", "Die Preise sind um 14 Cent gefallen.", "Perfekt 中 Partizip II 放句末。"),
+content7.py:140:     ("Er fragt, ob kommt der Bus?", "Er fragt, ob der Bus kommt.", "ob 从句动词放句末。"),
+content7.py:153: p.text(MX + 26, ty + 46, "IN DER NÄCHSTEN AUSGABE · 下期预告 (VOL.3)", 24, "sans", True, "#f3edda")
+content8.py:11: p.band("ÜBUNGEN & ANTWORTEN · 练习与答案", "Die Lucerna", "SCHLUSSTEST · 综合评估 · Alle Antworten unten auf dieser Seite 答案在本版下方")
+content8.py:17:     ("A2", "B", "spielt（第三人称单数）"),
+content8.py:18:     ("A2", "A", "beginnt（第三人称单数）"),
+content8.py:19:     ("A2", "B", "kauft（第三人称单数）"),
+content8.py:20:     ("A2", "C", "schnitzt 雕刻南瓜"),
+content8.py:21:     ("A2", "B", "schläft（第三人称单数）"),
+content8.py:22:     ("B1", "B", "Tankrabatt 油价减税"),
+content8.py:23:     ("A2", "A", "geht（第三人称单数）"),
+content8.py:24:     ("B1", "B", "erzählt（第三人称单数）"),
+content8.py:26: cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
+content8.py:27: bf.head("A · LÜCKENTEXT · 完形填空", 24)
+content8.py:29: bf.bridge("选项：")
+content8.py:43: bf.head("B · WISSENSFRAGEN · 综合问答", 24)
+content8.py:44: bf.ex("B1", "单选", "A", "减税到 2026 年 12 月 31 日",
+content8.py:46: bf.ex("A2", "单选", "B", "拜仁周二客战马竞",
+content8.py:48: bf.ex("A2", "单选", "A", "霍芬海姆欧联客战水晶宫",
+content8.py:50: bf.ex("B1", "单选", "B", "BW 假期已结束",
+content8.py:52: bf.ex("B1", "单选", "B", "ZEW 预期 28.1",
+content8.py:54: bf.ex("A2", "单选", "A", "周五汉堡–门兴开轮",
+content8.py:56: bf.ex("B1", "单选", "B", "10 月 26 日节目讨论居家护理",
+content8.py:58: bf.ex("A2", "单选", "B", "诸圣节 11 月 1 日",
+content8.py:62: bf.head("C · LESEVERSTEHEN · 阅读理解", 24)
+content8.py:64: bf.ex("B1", "单选", "A", "halb acht = 7:30",
+content8.py:66: bf.ex("A2", "单选", "B", "周二看拜仁客战马竞",
+content8.py:68: bf.ex("A2", "单选", "A", "周六买南瓜",
+content8.py:70: bf.ex("B1", "单选", "B", "霍芬海姆–沙尔克周日 19:30",
+content8.py:74: bf.head("D · SÄTZE BAUEN · 造句", 24)
+content8.py:75: bf.ex("A2", "造句", "Die Bundesliga beginnt am Freitag.", "时间状语，动词第二位",
+content8.py:76:       "die Bundesliga / beginnt / am Freitag → ___", instr="造句", size=19.5, gap=8)
+content8.py:77: bf.ex("A2", "造句", "Wir schauen Bayern bei Atlético.", "主谓宾顺序",
+content8.py:78:       "wir / schauen / Bayern / bei Atlético → ___", instr="造句", size=19.5, gap=8)
+content8.py:79: bf.ex("B1", "造句", "Die Kinder gehen am Montag wieder in die Schule.", "时间状语开头，动词第二位",
+content8.py:80:       "die Kinder / gehen / am Montag / wieder in die Schule → ___", instr="造句", size=19.5, gap=8)
+content8.py:81: bf.ex("B1", "造句", "In Bayern dauern die Ferien noch an.", "地点开头，动词第二位",
+content8.py:82:       "in Bayern / dauern / die Ferien / noch an → ___", instr="造句", size=19.5, gap=8)
+content8.py:85: bf.head("E · ÜBERSETZEN · 翻译", 24)
+content8.py:86: bf.ex("A2", "翻译", "油价减税持续到十二月。", "laufen = 持续",
+content8.py:87:       "Der Tankrabatt läuft bis Dezember.（译成中文）", instr="翻译", size=19.5, gap=8)
+content8.py:88: bf.ex("A2", "翻译", "我周二看足球。", "schauen = 看",
+content8.py:89:       "Ich schaue am Dienstag Fußball.（译成中文）", instr="翻译", size=19.5, gap=8)
+content8.py:90: bf.ex("B1", "翻译", "学校又开学了。", "wieder begonnen = 又开始",
+content8.py:91:       "Die Schule hat wieder begonnen.（译成中文）", instr="翻译", size=19.5, gap=8)
+content8.py:92: bf.ex("B1", "翻译", "Am Sonntag schlafe ich eine Stunde länger.", "多睡一小时 = eine Stunde länger schlafen",
+content8.py:93:       "我周日多睡一小时。（译成德语）", instr="翻译", size=19.5, gap=8)
+content8.py:96: bf.head("F · WÖRTER PAAREN · 词汇配对", 24)
+content8.py:97: bf.match_set("B1", "词汇配对",
+content8.py:104:              ["Tankrabatt=油价减税 b", "Pflege=护理 d", "Advent=将临期 a", "Pausenhof=课间操场 c"],
+content8.py:105:              instr="把词和释义配对")
+content8.py:109:     ("A2", "B", "schaust（第二人称单数）"),
+content8.py:110:     ("A2", "A", "siehst（第二人称单数）"),
+content8.py:111:     ("A2", "A", "kochen（第一人称复数）"),
+content8.py:112:     ("B1", "B", "machst（第二人称单数）"),
+content8.py:113:     ("B1", "A", "gehe（第一人称单数）"),
+content8.py:115: dnums = [reg_ex(lv, "对话补全", k, nt) for lv, k, nt in ddefs]
+content8.py:116: bf.head("G · DIALOG · 对话补全", 24)
+content8.py:118: bf.bridge("选项：")
+content8.py:132: reg_ex("B1", "写作", "开放题 — 要点见写作框，范文在第 8 版写作框内", "按要点给分")
+content8.py:134: p.text(wx, wy + 26, "H · SCHREIBEN · 写作", 25, "sans", True, OLIVE)
+content8.py:136: p.para(wx, wy + 196, "用德语写 80–100 词：《我的足球周》。写清看哪几场比赛、和谁一起、看球时吃什么，并写一句关于油价减税或护理的话。", 20, "sans", False, GREY, ww, 1.4)
+content8.py:139: p.text(mx2 + 22, wy + 38, "MUSTER · 范文（84 Wörter）", 23, "sans", True, OLIVE)
+content8.py:145: p.text(MX, ky + 26, "ANTWORTEN · 全部答案与简析（第 1–8 版）", 26, "sans", True, OLIVE)
+content8.py:149:     kf.para(f"— 第 {pg} 版 —", 17, "sans", True, OLIVE, 1.28, 3)
+bslib4.py:70:         self.text(MX, 2624, "Die Lucerna · 德语周报 VOL.2 · LUCERNA GERMAN WEEKLY", 20, "sans", False, GREY)
+bslib4.py:71:         self.text(RIGHT, 2624, f"第 {n} 版 / 共 {total} 版", 20, "sans", False, GREY, anchor="end")
+bslib4.py:197:         return self.box("", [("译注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+svglib.py:120:     """Mountains, sun, two stick climbers, chrysanthemums — for 重阳."""

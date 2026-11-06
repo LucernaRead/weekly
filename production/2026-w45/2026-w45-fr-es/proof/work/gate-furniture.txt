@@ -1,0 +1,89 @@
+===== W43 =====
+-- P1 badge candidates (y=574 or TEXTOS/法语正文) --
+  {'x': 975.0, 'y': 574.0, 'size': '22', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#a4553a', 'anchor': 'middle', 'text': 'TEXTOS EN FRANCÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'}
+-- P1 top bar y=92 --
+  {'x': 65.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#3e4c2a', 'anchor': 'start', 'text': 'VOL. 2 · N.º 2'}
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · CADA SEMANA · EL FRANCÉS QUE LEEN LOS FRANCESES'}
+  {'x': 1885.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'SEMAINE DU 19 AU 25 OCTOBRE 2026'}
+-- P1 masthead/subtitle --
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · CADA SEMANA · EL FRANCÉS QUE LEEN LOS FRANCESES'}
+  {'x': 975.0, 'y': 262.0, 'size': '178', 'fam': 'UnifrakturMaguntia', 'weight': None, 'fill': '#28251d', 'anchor': 'middle', 'text': 'Le Lucerna'}
+  {'x': 975.0, 'y': 330.0, 'size': '46', 'fam': 'Noto Serif CJK SC', 'weight': '700', 'fill': '#28251d', 'anchor': 'middle', 'text': 'SEMANARIO EN FRANCÉS · VOL.2 · OTOÑO Y FIESTAS'}
+  {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+-- footers all pages --
+  p1-une.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p1-une.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 1 de 8'}
+  p2-vie.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p2-vie.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 2 de 8'}
+  p3-culture.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p3-culture.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 3 de 8'}
+  p4-sport.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p4-sport.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 4 de 8'}
+  p5-jeunesse.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p5-jeunesse.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 5 de 8'}
+  p6-politique.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p6-politique.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 6 de 8'}
+  p7-langue.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p7-langue.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 7 de 8'}
+  p8-exercices.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.2 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p8-exercices.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 8 de 8'}
+-- P7 word-box heads / P8 heads sample --
+===== CORE =====
+-- P1 badge candidates (y=574 or TEXTOS/法语正文) --
+  {'x': 975.0, 'y': 574.0, 'size': '22', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#a4553a', 'anchor': 'middle', 'text': '法语正文 · 简体中文讲解 — 给简体中文读者的版本'}
+-- P1 top bar y=92 --
+  {'x': 65.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#3e4c2a', 'anchor': 'start', 'text': 'VOL. 3 · 总第 3 期'}
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语'}
+  {'x': 1885.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'}
+-- P1 masthead/subtitle --
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语'}
+  {'x': 975.0, 'y': 262.0, 'size': '178', 'fam': 'UnifrakturMaguntia', 'weight': None, 'fill': '#28251d', 'anchor': 'middle', 'text': 'Le Lucerna'}
+  {'x': 975.0, 'y': 330.0, 'size': '46', 'fam': 'Noto Serif CJK SC', 'weight': '700', 'fill': '#28251d', 'anchor': 'middle', 'text': '法 语 周 报 · VOL.3 · 决 赛 周 末'}
+-- footers all pages --
+  p1-une.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p1-une.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 1 版 / 共 8 版'}
+  p2-vie.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p2-vie.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 2 版 / 共 8 版'}
+  p3-culture.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p3-culture.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 3 版 / 共 8 版'}
+  p4-sport.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p4-sport.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 4 版 / 共 8 版'}
+  p5-jeunesse.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p5-jeunesse.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 5 版 / 共 8 版'}
+  p6-politique.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p6-politique.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 6 版 / 共 8 版'}
+  p7-langue.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p7-langue.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 7 版 / 共 8 版'}
+  p8-exercices.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文'}
+  p8-exercices.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': '第 8 版 / 共 8 版'}
+-- P7 word-box heads / P8 heads sample --
+===== EDITION =====
+-- P1 badge candidates (y=574 or TEXTOS/法语正文) --
+  {'x': 975.0, 'y': 574.0, 'size': '22', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#a4553a', 'anchor': 'middle', 'text': 'TEXTOS EN FRANCÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'}
+-- P1 top bar y=92 --
+  {'x': 65.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': '700', 'fill': '#3e4c2a', 'anchor': 'start', 'text': 'VOL. 3 · N.º 3'}
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · CADA SEMANA · EL FRANCÉS QUE LEEN LOS FRANCESES'}
+  {'x': 1885.0, 'y': 92.0, 'size': '23', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'}
+-- P1 masthead/subtitle --
+  {'x': 975.0, 'y': 92.0, 'size': '21', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'middle', 'text': 'HEBDOMADAIRE EN FRANÇAIS · CADA SEMANA · EL FRANCÉS QUE LEEN LOS FRANCESES'}
+  {'x': 975.0, 'y': 262.0, 'size': '178', 'fam': 'UnifrakturMaguntia', 'weight': None, 'fill': '#28251d', 'anchor': 'middle', 'text': 'Le Lucerna'}
+  {'x': 975.0, 'y': 330.0, 'size': '46', 'fam': 'Noto Serif CJK SC', 'weight': '700', 'fill': '#28251d', 'anchor': 'middle', 'text': 'SEMANARIO EN FRANCÉS · VOL.3 · FIN DE SEMANA DE FINALES'}
+  {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+-- footers all pages --
+  p1-une.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p1-une.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 1 de 8'}
+  p2-vie.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p2-vie.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 2 de 8'}
+  p3-culture.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p3-culture.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 3 de 8'}
+  p4-sport.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p4-sport.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 4 de 8'}
+  p5-jeunesse.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p5-jeunesse.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 5 de 8'}
+  p6-politique.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p6-politique.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 6 de 8'}
+  p7-langue.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p7-langue.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 7 de 8'}
+  p8-exercices.svg {'x': 65.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'start', 'text': 'Le Lucerna · SEMANARIO FRANCÉS VOL.3 · TEXTO EN FRANCÉS · EXPLICACIONES EN ESPAÑOL'}
+  p8-exercices.svg {'x': 1885.0, 'y': 2624.0, 'size': '20', 'fam': 'Noto Sans CJK SC', 'weight': None, 'fill': '#57523f', 'anchor': 'end', 'text': 'Página 8 de 8'}
+-- P7 word-box heads / P8 heads sample --

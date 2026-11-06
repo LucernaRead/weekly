@@ -1,0 +1,56 @@
+TAG-CHECK 'On ne connaît pas encore les finalistes' on p1-une weekly-report-w45-fr-core: exact=0 lower=1
+   y=1406.4 x=65.0 'ne connaît pas encore les finalistes'
+   y=1388.2999999999997 x=989.0 'On connaîtra les finalistes ___ , après les'
+TAG-CHECK 'On ne connaît pas encore les finalistes' on p1-une weekly-report-w45-fr-ko: exact=0 lower=1
+   y=1406.4 x=65.0 'ne connaît pas encore les finalistes'
+   y=1388.2999999999997 x=989.0 'On connaîtra les finalistes ___ , après les'
+TAG-CHECK 'Le festival se promène dans Paris' on p5-jeunesse weekly-report-w45-fr-core: exact=0 lower=1
+   y=989.1199999999999 x=65.0 'festival se promène dans Paris :'
+   y=2155.0699999999997 x=83.0 '调子 · se promener 漫步、穿梭 · pile 正'
+TAG-CHECK 'Le festival se promène dans Paris' on p5-jeunesse weekly-report-w45-fr-ko: exact=0 lower=1
+   y=989.1199999999999 x=65.0 'festival se promène dans Paris :'
+   y=2155.0699999999997 x=83.0 '를 정하다 · se promener 거닐다, 돌아다니다'
+--- weekly-report-w45-fr-ko P8 interess ---
+  y=1426.825 x=65.0 "Elle s'intéresse ___ festivals. A. à les · B. aux"
+  y=2264.1600000000003 x=989.0 "→ allons) · 119. B (s'intéresser aux（à+les）) · 120. B (si +"
+--- weekly-report-w45-fr-ko P8 texts y 1300-1500 (battery tail, x sorted) ---
+  y=1304.68 x=1451.0 'voulez les (147)___ à la portaise ? — Oui,'
+  y=1305.825 x=65.0 'Lundi, nous ___ reprendre les cours. A.'
+  y=1309.2 x=527.0 'à 20 h · C. 19 h à 1 h'
+  y=1334.825 x=65.0 'allons · B. allez · C. vont'
+  y=1336.6 x=1451.0 'donnez-moi votre (148)___. — Voilà. Bon'
+  y=1342.0 x=1019.0 'B2'
+  y=1343.0 x=1061.0 '135.'
+  y=1368.52 x=1451.0 '(149)___ ! — Merci !'
+  y=1371.2 x=557.0 'A2'
+  y=1372.0 x=989.0 "한국어로: « Lire un programme, c'est déjà"
+  y=1372.2 x=599.0 '126.'
+  y=1396.825 x=95.0 'B1'
+  y=1397.825 x=137.0 '119.'
+  y=1401.0 x=989.0 'comprendre la France. »'
+  y=1401.2 x=527.0 "Le badge repousse-monstres, c'est pour... A."
+  y=1426.825 x=65.0 "Elle s'intéresse ___ festivals. A. à les · B. aux"
+  y=1430.2 x=527.0 'le petit Léo · B. le père · C. la mère'
+  y=1455.825 x=65.0 '· C. des'
+--- weekly-report-w45-fr-core P8 interess ---
+  y=1426.825 x=65.0 "Elle s'intéresse ___ festivals. A. à les · B. aux"
+  y=2223.86 x=989.0 "allons） · 119. B（s'intéresser aux（à+les）） · 120. B（si"
+--- weekly-report-w45-fr-core P8 texts y 1300-1500 (battery tail, x sorted) ---
+  y=1304.68 x=1451.0 'voulez les (147)___ à la portaise ? — Oui,'
+  y=1305.825 x=65.0 'Lundi, nous ___ reprendre les cours. A.'
+  y=1309.2 x=527.0 'à 20 h · C. 19 h à 1 h'
+  y=1334.825 x=65.0 'allons · B. allez · C. vont'
+  y=1336.6 x=1451.0 'donnez-moi votre (148)___. — Voilà. Bon'
+  y=1342.0 x=1019.0 'B2'
+  y=1343.0 x=1061.0 '135.'
+  y=1368.52 x=1451.0 '(149)___ ! — Merci !'
+  y=1371.2 x=557.0 'A2'
+  y=1372.0 x=989.0 "Traduisez : « Lire un programme, c'est déjà"
+  y=1372.2 x=599.0 '126.'
+  y=1396.825 x=95.0 'B1'
+  y=1397.825 x=137.0 '119.'
+  y=1401.0 x=989.0 'comprendre la France. »'
+  y=1401.2 x=527.0 "Le badge repousse-monstres, c'est pour... A."
+  y=1426.825 x=65.0 "Elle s'intéresse ___ festivals. A. à les · B. aux"
+  y=1430.2 x=527.0 'le petit Léo · B. le père · C. la mère'
+  y=1455.825 x=65.0 '· C. des'

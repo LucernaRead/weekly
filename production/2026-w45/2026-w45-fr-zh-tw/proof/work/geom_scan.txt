@@ -1,0 +1,103 @@
+== A. FULL same-baseline ink scan (every y, every page) ==
+  p1-une y=92.0: 3 segs gaps=[387.5, 196.2]
+  p1-une y=2624.0: 2 segs gaps=[1157.1]
+  p1-une: baselines=136 OVERLAPS=0 []
+  p2-vie y=92.0: 0 segs gaps=[]
+  p2-vie y=2624.0: 2 segs gaps=[1157.1]
+  p2-vie: baselines=152 OVERLAPS=0 []
+  p3-culture y=92.0: 0 segs gaps=[]
+  p3-culture y=2624.0: 2 segs gaps=[1157.1]
+  p3-culture: baselines=165 OVERLAPS=0 []
+  p4-sport y=92.0: 0 segs gaps=[]
+  p4-sport y=2624.0: 2 segs gaps=[1157.1]
+  p4-sport: baselines=194 OVERLAPS=0 []
+  p5-jeunesse y=92.0: 0 segs gaps=[]
+  p5-jeunesse y=2624.0: 2 segs gaps=[1157.1]
+  p5-jeunesse: baselines=157 OVERLAPS=0 []
+  p6-politique y=92.0: 0 segs gaps=[]
+  p6-politique y=2624.0: 2 segs gaps=[1157.1]
+  p6-politique: baselines=164 OVERLAPS=0 []
+  p7-langue y=92.0: 0 segs gaps=[]
+  p7-langue y=2624.0: 2 segs gaps=[1157.1]
+  p7-langue: baselines=125 OVERLAPS=0 []
+  p8-exercices y=92.0: 0 segs gaps=[]
+  p8-exercices y=2624.0: 2 segs gaps=[1157.1]
+  p8-exercices: baselines=232 OVERLAPS=0 []
+== B. right-edge scan (>1885 adv or ink) edition vs core ==
+  p1-une ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 1 版 / 共 8 版')
+  p1-une CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 1 版 / 共 8 版')
+  p2-vie ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 2 版 / 共 8 版')
+  p2-vie CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 2 版 / 共 8 版')
+  p3-culture ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 3 版 / 共 8 版')
+  p3-culture CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 3 版 / 共 8 版')
+  p4-sport ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 4 版 / 共 8 版')
+  p4-sport CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 4 版 / 共 8 版')
+  p5-jeunesse ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 5 版 / 共 8 版')
+  p5-jeunesse CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 5 版 / 共 8 版')
+  p6-politique ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 6 版 / 共 8 版')
+  p6-politique CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 6 版 / 共 8 版')
+  p7-langue ED ink>1885: 1
+    ED (2624.0, 1885.074, '第 7 版 / 共 8 版')
+  p7-langue CO ink>1885: 1
+    CO (2624.0, 1885.074, '第 7 版 / 共 8 版')
+  p8-exercices ED ink>1885: 4
+    ED (940.0, 1891.25, "b. une soirée qui dure jusqu'à la nuit")
+    ED (1016.0, 1891.25, 'd. le coquillage fêté à Port-en-Bessin')
+    ED (1054.0, 1899.5, 'e. plusieurs concerts en une semaine')
+    ED (2624.0, 1885.074, '第 8 版 / 共 8 版')
+  p8-exercices CO ink>1885: 4
+    CO (940.0, 1891.25, "b. une soirée qui dure jusqu'à la nuit")
+    CO (1016.0, 1891.25, 'd. le coquillage fêté à Port-en-Bessin')
+    CO (1054.0, 1899.5, 'e. plusieurs concerts en une semaine')
+    CO (2624.0, 1885.074, '第 8 版 / 共 8 版')
+== C. orphan scan (single-char>=19, closer-led, opener-ended) ==
+  p1-une ED: 0 flags
+  p1-une CO: 0 flags
+  p2-vie ED: 1 flags
+    ED ('closer-led', 1154.6749999999997, '、反之 · un rituel 習慣、儀式。')
+  p2-vie CO: 1 flags
+    CO ('closer-led', 1154.6749999999997, '、反之 · un rituel 习惯、仪式。')
+  p3-culture ED: 0 flags
+  p3-culture CO: 1 flags
+    CO ('closer-led', 1054.3749999999995, '）。')
+  p4-sport ED: 0 flags
+  p4-sport CO: 1 flags
+    CO ('closer-led', 2384.3999999999996, '？写两句支持、两句反对。')
+  p5-jeunesse ED: 0 flags
+  p5-jeunesse CO: 0 flags
+  p6-politique ED: 0 flags
+  p6-politique CO: 0 flags
+  p7-langue ED: 0 flags
+  p7-langue CO: 1 flags
+    CO ('closer-led', 1347.375, '）。')
+  p8-exercices ED: 4 flags
+    ED ('opener-ended', 1917.26, 'inales (週日 8 日舉行決賽) · 2. nocturne · 3. coquilles (')
+    ED ('opener-ended', 2203.71, 'semble) · 122. B (將來時 aura lieu（決賽在週日）) · 123. A (')
+    ED ('closer-led', 2445.5099999999998, '。 (lire un programme = 讀日程) · 136. Il court plus v')
+    ED ('opener-ended', 1956.1, 'Saint-Jacques) (在市場買扇貝) · 147. goûter (goûter 品嚐（')
+  p8-exercices CO: 8 flags
+    CO ('closer-led', 1895.65, '） · 54. plus grand · 55. moins longue（室内赛季比室外短')
+    CO ('closer-led', 1915.8, '） · 56. quarts（四分之一决赛在周五） · 57. demi-finales（')
+    CO ('opener-ended', 1915.8, '） · 56. quarts（四分之一决赛在周五） · 57. demi-finales（')
+    CO ('closer-led', 1996.4, '，不加 s） · 108. La finale a lieu dimanche 8 novembre')
+    CO ('opener-ended', 2284.31, 'programme 三单 → semble） · 122. B（将来时 aura lieu（')
+    CO ('closer-led', 2445.51, '） · 132. Elle a goûté les coquilles à Port-en-Bess')
+    CO ('closer-led', 2016.55, '） · 143. d（coquille=扇贝 d） · 144. e（festival=音乐节 e')
+    CO ('closer-led', 2036.7, '） · 145. samedi（11 月 7 日是星期六） · 146. coquilles')
+== D. P6 later-rect coverage (all P6 texts) ==
+  worst=0.0000 None gate<0.30: PASS; nonzero coverages: 0 []
+== E. P8 keys-region line gaps 10-45 window ==
+  n=86 min=1.46 max=85.08 all-in-10-45=False
+  gap histogram: [(1.46, 19), (5.81, 10), (18.69, 9), (12.88, 8), (11.62, 5), (1.5, 4), (29.82, 3), (20.15, 3), (4.39, 3), (7.27, 3)]

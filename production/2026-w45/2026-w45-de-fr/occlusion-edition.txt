@@ -1,0 +1,25 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-de-fr/svg: 11 flags {'BOXTITLE': 5, 'COVER': 1, 'EDGE': 4, 'LINEX': 1}
+  [EDGE] p1-front.svg "Les cinq questions qui agitent l'Allemagne cette semaine." — ink box (1473.0, 1250.75, 1976.25, 1270.75) outside page 1950.0x2700.0
+  [BOXTITLE] p1-front.svg "Les cinq questions qui agitent l'Allemagne cette semaine." — ink crosses its box borders: right ink 1976.2 > border 1885.0
+  [EDGE] p3-kultur.svg 'FERIENWECHSEL · Changement de vacances' — ink box (1473.0, 222.75, 2006.5, 248.0) outside page 1950.0x2700.0
+  [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Changement de vacances' — ink crosses its box borders: right ink 2006.5 > border 1885.0
+  [BOXTITLE] p3-kultur.svg "HERBSTWÖRTER · Mots d'automne" — ink crosses its box borders: right ink 1896.8 > border 1885.0
+  [EDGE] p5-jugend.svg 'FERIENWECHSEL · Changement de vacances' — ink box (1473.0, 222.75, 2006.5, 248.0) outside page 1950.0x2700.0
+  [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Changement de vacances' — ink crosses its box borders: right ink 2006.5 > border 1885.0
+  [COVER] p6-vertiefung.svg 'maison de retraite' — 35% of ink covered by later rect box [535.0, 1586.0, 739.0, 1616.0]
+  [EDGE] p6-vertiefung.svg "ÜBUNGSDATEN · Données d'exercice — Diese Zahlen sind ein Übu" — ink box (65.0, 1638.25, 2091.25, 1661.0) outside page 1950.0x2700.0
+  [BOXTITLE] p6-vertiefung.svg 'DIE ZAHLEN · Chiffres de la semaine' — ink crosses its box borders: right ink 1907.0 > border 1885.0
+  [LINEX] p7-sprache.svg 'Seite 6 · B2' — later line box [64.0, 1967.0, 1886.0, 1969.0] crosses ink
+core: 0 flags; NEW vs core: 11
+  NEW [EDGE] p1-front.svg "Les cinq questions qui agitent l'Allemagne cette semaine." — ink box (1473.0, 1250.75, 1976.25, 1270.75) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p1-front.svg "Les cinq questions qui agitent l'Allemagne cette semaine." — ink crosses its box borders: right ink 1976.2 > border 1885.0
+  NEW [EDGE] p3-kultur.svg 'FERIENWECHSEL · Changement de vacances' — ink box (1473.0, 222.75, 2006.5, 248.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Changement de vacances' — ink crosses its box borders: right ink 2006.5 > border 1885.0
+  NEW [BOXTITLE] p3-kultur.svg "HERBSTWÖRTER · Mots d'automne" — ink crosses its box borders: right ink 1896.8 > border 1885.0
+  NEW [EDGE] p5-jugend.svg 'FERIENWECHSEL · Changement de vacances' — ink box (1473.0, 222.75, 2006.5, 248.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Changement de vacances' — ink crosses its box borders: right ink 2006.5 > border 1885.0
+  NEW [COVER] p6-vertiefung.svg 'maison de retraite' — 35% of ink covered by later rect box [535.0, 1586.0, 739.0, 1616.0]
+  NEW [EDGE] p6-vertiefung.svg "ÜBUNGSDATEN · Données d'exercice — Diese Zahlen sind ein Übu" — ink box (65.0, 1638.25, 2091.25, 1661.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p6-vertiefung.svg 'DIE ZAHLEN · Chiffres de la semaine' — ink crosses its box borders: right ink 1907.0 > border 1885.0
+  NEW [LINEX] p7-sprache.svg 'Seite 6 · B2' — later line box [64.0, 1967.0, 1886.0, 1969.0] crosses ink

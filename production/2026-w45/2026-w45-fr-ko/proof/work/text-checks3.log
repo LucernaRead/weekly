@@ -1,0 +1,65 @@
+GOLD 'Le lundi 2 novembre, on reprend les cours' tag=page 2 weekly-report-w45-fr-core total=5 per={'p2-vie': 1, 'p7-langue': 4} srcpage-hit=1
+GOLD 'Le lundi 2 novembre, on reprend les cours' tag=page 2 weekly-report-w45-fr-ko total=5 per={'p2-vie': 1, 'p7-langue': 4} srcpage-hit=1
+GOLD 'Les jeunes créateurs y rencontrent leur publi' tag=page 5 weekly-report-w45-fr-core total=3 per={'p5-jeunesse': 1, 'p7-langue': 1, 'p8-exercices': 1} srcpage-hit=1
+GOLD 'Les jeunes créateurs y rencontrent leur publi' tag=page 5 weekly-report-w45-fr-ko total=3 per={'p5-jeunesse': 1, 'p7-langue': 1, 'p8-exercices': 1} srcpage-hit=1
+GOLD 'Ce calendrier peut encore bouger' tag=page 6 weekly-report-w45-fr-core total=3 per={'p6-politique': 1, 'p7-langue': 2} srcpage-hit=1
+GOLD 'Ce calendrier peut encore bouger' tag=page 6 weekly-report-w45-fr-ko total=3 per={'p6-politique': 1, 'p7-langue': 2} srcpage-hit=1
+GOLD "Une finale qu'on ne connaît pas d'avance : pl" tag=page 4 weekly-report-w45-fr-core total=5 per={'p4-sport': 1, 'p7-langue': 4} srcpage-hit=1
+GOLD "Une finale qu'on ne connaît pas d'avance : pl" tag=page 4 weekly-report-w45-fr-ko total=5 per={'p4-sport': 1, 'p7-langue': 4} srcpage-hit=1
+GOLD 'On ne connaît pas encore les finalistes' tag=page 1 weekly-report-w45-fr-core total=3 per={'p7-langue': 2, 'p8-exercices': 1} srcpage-hit=0
+GOLD 'On ne connaît pas encore les finalistes' tag=page 1 weekly-report-w45-fr-ko total=3 per={'p7-langue': 2, 'p8-exercices': 1} srcpage-hit=0
+GOLD 'Ce week-end, tout se joue' tag=page 1 weekly-report-w45-fr-core total=2 per={'p1-une': 1, 'p7-langue': 1} srcpage-hit=1
+GOLD 'Ce week-end, tout se joue' tag=page 1 weekly-report-w45-fr-ko total=2 per={'p1-une': 1, 'p7-langue': 1} srcpage-hit=1
+GOLD 'Le festival se promène dans Paris' tag=page 5 weekly-report-w45-fr-core total=1 per={'p7-langue': 1} srcpage-hit=0
+GOLD 'Le festival se promène dans Paris' tag=page 5 weekly-report-w45-fr-ko total=1 per={'p7-langue': 1} srcpage-hit=0
+GOLD 'Les cimetières se sont remplis de chrysanthèm' tag=page 3 weekly-report-w45-fr-core total=2 per={'p3-culture': 1, 'p7-langue': 1} srcpage-hit=1
+GOLD 'Les cimetières se sont remplis de chrysanthèm' tag=page 3 weekly-report-w45-fr-ko total=2 per={'p3-culture': 1, 'p7-langue': 1} srcpage-hit=1
+COQ weekly-report-w45-fr-core {'p1-une': (1, 3), 'p2-vie': (0, 0), 'p3-culture': (0, 0), 'p4-sport': (0, 0), 'p5-jeunesse': (0, 0), 'p6-politique': (0, 0), 'p7-langue': (0, 1), 'p8-exercices': (9, 11)}
+COQ weekly-report-w45-fr-ko {'p1-une': (1, 3), 'p2-vie': (0, 0), 'p3-culture': (0, 0), 'p4-sport': (0, 0), 'p5-jeunesse': (0, 0), 'p6-politique': (0, 0), 'p7-langue': (0, 1), 'p8-exercices': (9, 11)}
+BATTERY lines core=153 ed=153
+  BAT-DIFF -116.0 78.0 EXERCICES & RÉPONSES · 练习与答案
+  BAT-DIFF +116.0 78.0 EXERCICES & RÉPONSES · 연습과 정답
+  BAT-DIFF -142.0 1872.0 综合评估 ÉVALUATION · 答案在本版下方
+  BAT-DIFF +142.0 1872.0 종합 평가 ÉVALUATION · 정답은 이 면 아래에
+  BAT-DIFF -218.0 65.0 A · TEXTE À TROUS · 完形填空
+  BAT-DIFF +218.0 65.0 A · TEXTE À TROUS · 빈칸 채우기
+  BAT-DIFF -246.0 1451.0 Traduisez : 他跑得比他哥哥更快。
+  BAT-DIFF +246.0 1451.0 프랑스어로: 그는 형보다 더 빨리 달려요.
+  BAT-DIFF -338.0 1451.0 Traduisez : 学生们自 10 月 17 日起就在放假。
+  BAT-DIFF +338.0 1451.0 프랑스어로: 학생들은 10월 17일부터 방학이에요.
+  BAT-DIFF -430.0 1451.0 Traduisez : 今晚，我们要准备书包。
+  BAT-DIFF +430.0 1451.0 프랑스어로: 오늘 밤 책가방을 챙길 거예요.
+  BAT-DIFF -522.0 1451.0 Traduisez : 人们尚不知道决赛选手是谁。
+  BAT-DIFF +522.0 1451.0 프랑스어로: 아직 결승 진출자를 몰라요.
+  BAT-DIFF -586.0 1451.0 F · LES MOTS · 词汇配对
+  BAT-DIFF +586.0 1451.0 F · LES MOTS · 단어 짝짓기
+  BAT-DIFF -614.7 65.0 选项：
+  BAT-DIFF +614.7 65.0 선택지:
+  BAT-DIFF -635.0 1647.0 配对
+  BAT-DIFF +635.0 1647.0 짝짓기
+  BAT-DIFF -639.0 989.0 D · PHRASES · 完成句子与转换
+  BAT-DIFF +639.0 989.0 D · PHRASES · 문장 완성
+  BAT-DIFF -852.0 527.0 C · LECTURE · 阅读理解
+  BAT-DIFF +852.0 527.0 C · LECTURE · 읽기
+  BAT-DIFF -1106.8 65.0 B · CHOIX MULTIPLE · 单选
+  BAT-DIFF +1106.8 65.0 B · CHOIX MULTIPLE · 객관식
+  BAT-DIFF -1130.0 1451.0 G · DIALOGUE · 对话补全
+  BAT-DIFF +1130.0 1451.0 G · DIALOGUE · 대화 완성
+  BAT-DIFF -1294.0 989.0 E · TRADUCTION · 翻译
+  BAT-DIFF +1294.0 989.0 E · TRADUCTION · 번역
+  BAT-DIFF -1372.0 989.0 Traduisez : « Lire un programme, c'est déjà
+  BAT-DIFF +1372.0 989.0 한국어로: « Lire un programme, c'est déjà
+--- ED battery x=527 y 200-420 ---
+  y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=275.0 'irai · B. irais · C. vais'
+  y=367.0 'À mon avis, ce programme ___ très riche. A.'
+  y=396.0 'semble · B. sembler · C. semblant'
+--- CO battery x=527 y 200-420 ---
+  y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=275.0 'irai · B. irais · C. vais'
+  y=367.0 'À mon avis, ce programme ___ très riche. A.'
+  y=396.0 'semble · B. sembler · C. semblant'
+--- ED battery lines with 119 stem search (s'intéresser / 119.) ---
+  y=1397.8 x=137.0 '119.'
+--- CO battery lines with 119 stem ---
+  y=1397.8 x=137.0 '119.'

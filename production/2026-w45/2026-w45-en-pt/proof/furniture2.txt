@@ -1,0 +1,52 @@
+p1-front 'THE WEEK IN NUMBERS · Números' advance-span=545.0..946.3 containing_bordered=[(28.0, 1922.0), (40.0, 1910.0), (527.0, 961.0), (65.0, 961.0)]
+p5-jeunesse 'TOO CLOSE TO CALL · Disputado' advance-span=83.0..458.9 containing_bordered=[(28.0, 1922.0), (40.0, 1910.0), (65.0, 499.0)]
+p6-politique 'A PRACTICE BALLOT · Cédula' advance-span=545.0..881.1 containing_bordered=[(28.0, 1922.0), (40.0, 1910.0), (527.0, 961.0), (527.0, 961.0)]
+P1 searches footnote advance-right: 1818.1 (frame inner right 1885)
+ P1 y478: 'AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !' span (95.0, 1243.9)
+ P1 y478: 'Terça de eleições · Relógios atrasados' span (1398.1, 1855.0)
+--- weekly-report-w45-en-core P1 numbers area texts ---
+   y=1025.8 'the ballot, along with about a third'
+   y=1326.8 'you mark your ballot, and your'
+   y=987.8 'Formula 1 races in São Paulo,'
+   y=1395.3 '讲解｜a midterm 中期选举 · a ballot 选票 ·'
+   y=1592.6499999999999 'seats in the House, all on the ballot（众'
+   y=1728.8499999999997 'Paulo（周日两场大赛）'
+   y=1444.0 'Madrid, São Paulo & Miami'
+   y=2218.0 'A voting booth in the Old State House, Hartford, Connecticut : one voter, one ballot, one private'
+   y=1981.7 'and games : the ballots on Tuesday, the'
+   y=2021.2 '435 House seats on the ballot. (p. 6)'
+   y=2419.0 'How many House seats are on the ballot ?'
+--- weekly-report-w45-en-pt P1 numbers area texts ---
+   y=1025.8 'the ballot, along with about a third'
+   y=1326.8 'you mark your ballot, and your'
+   y=987.8 'Formula 1 races in São Paulo,'
+   y=1425.0249999999999 'ballot, cédula · a race, uma disputa · to call'
+   y=1620.3249999999998 'ballot (todos em disputa)'
+   y=1728.8499999999997 'in São Paulo (dois eventos no domingo)'
+   y=1444.0 'Madrid, São Paulo & Miami'
+   y=2218.0 'A voting booth in the Old State House, Hartford, Connecticut : one voter, one ballot, one private'
+   y=1981.7 'and games : the ballots on Tuesday, the'
+   y=2021.2 '435 House seats on the ballot. (p. 6)'
+   y=2419.0 'How many House seats are on the ballot ?'
+weekly-report-w45-en-core p6-politique '☐' count=4
+weekly-report-w45-en-core p7-langue '✗' count=4
+weekly-report-w45-en-pt p6-politique '☐' count=4
+weekly-report-w45-en-pt p7-langue '✗' count=4
+--- captions weekly-report-w45-en-core ---
+  p1-front: 'Kenneth C. Zirkel — CC0, via Wikimedia Commons'
+  p2-life: '« A Halloween Wish » : a Halloween postcard'
+  p2-life: 'Public domain, via Wikimedia Commons'
+  p3-culture: 'illustration by Édouard Manet for « The Cats »'
+  p3-culture: 'Édouard Manet — CC0, via Wikimedia Commons'
+  p4-sport: 'Frank R. Snyder — public domain, via Wikimedia Commons'
+  p6-politique: 'The United States Capitol, Washington : the'
+  p6-politique: 'Public domain, via Wikimedia Commons'
+--- captions weekly-report-w45-en-pt ---
+  p1-front: 'Kenneth C. Zirkel — CC0, via Wikimedia Commons'
+  p2-life: '« A Halloween Wish » : a Halloween postcard'
+  p2-life: 'Public domain, via Wikimedia Commons'
+  p3-culture: 'illustration by Édouard Manet for « The Cats »'
+  p3-culture: 'Édouard Manet — CC0, via Wikimedia Commons'
+  p4-sport: 'Frank R. Snyder — public domain, via Wikimedia Commons'
+  p6-politique: 'The United States Capitol, Washington : the'
+  p6-politique: 'Public domain, via Wikimedia Commons'

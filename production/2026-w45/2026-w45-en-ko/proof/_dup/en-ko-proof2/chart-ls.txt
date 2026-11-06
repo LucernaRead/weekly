@@ -1,0 +1,21 @@
+fonts keys: ['_note', 'blackletter', 'face_index', 'page', 'sans_bold', 'sans_regular', 'serif_bold', 'serif_regular'] face_index: {'HK': 4, 'JP': 0, 'KR': 1, 'SC': 2, 'TC': 3}
+serif_bold: /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc index: 2
+getmetrics 4x: (102, 26) -> /4: 25.5 6.5
+===== ED tokens=208 rects=26 =====
+  'No lines : 38%' ls-ink box=(527.0,1170.2,683.0,1189.4) area=3003.0
+  max coverage: 0.00% (gate <30%)
+  'Work on Tuesday : 29%' ls-ink box=(527.0,1222.8,785.2,1247.0) area=6262.6
+  max coverage: 0.00% (gate <30%)
+  'Travel plans : 21%' ls-ink box=(527.0,1275.4,729.0,1299.4) area=4848.0
+  max coverage: 0.00% (gate <30%)
+  'Habit : 12%' ls-ink box=(527.0,1328.0,655.0,1347.2) area=2464.0
+  max coverage: 0.00% (gate <30%)
+===== CORE tokens=208 rects=26 =====
+  'No lines : 38%' ls-ink box=(527.0,1170.2,683.0,1189.4) area=3003.0
+  max coverage: 0.00% (gate <30%)
+  'Work on Tuesday : 29%' ls-ink box=(527.0,1222.8,785.2,1247.0) area=6262.6
+  max coverage: 0.00% (gate <30%)
+  'Travel plans : 21%' ls-ink box=(527.0,1275.4,729.0,1299.4) area=4848.0
+  max coverage: 0.00% (gate <30%)
+  'Habit : 12%' ls-ink box=(527.0,1328.0,655.0,1347.2) area=2464.0
+  max coverage: 0.00% (gate <30%)

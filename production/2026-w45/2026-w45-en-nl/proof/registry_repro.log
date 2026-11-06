@@ -1,0 +1,203 @@
+edition REG total: 150 hashes: {'p1-front.svg': '60c88d83d45ee239c5c1fd79f49dc3d1237bd5440fd14ffeb44dcf525da953bd', 'p2-life.svg': '4b42d1c125f9dfb6db8537fc6eb7a6aafafa9651a64e5edc515babd7a7dddbb5', 'p3-culture.svg': 'e212136372c7f43c192ae016bd4cc7044d36c78367212040b70359c600dc3e60', 'p4-sport.svg': '58fec0a8c544317f6afd1aafa43431c53b0265dbc3a6f38fdd45828611939912', 'p5-jeunesse.svg': 'fd02f64fb38b25657d2ac64d362bfdfb2029fcbe9d60c628cbfe96527df4b71b', 'p6-politique.svg': 'f14b50fa9d8a4f0e62286ed29b8c50e3fda199285286f397e9518ef9991d9d93', 'p7-langue.svg': '56b3a6139492a627425004431f6c2f72ffdadc1a954ec59f68911bc9d2dfc5f8', 'p8-exercices.svg': 'eabc5c5df1be51983b4ca0602b5b1c89303ab1b5b16efe225a4336e73f0b06a1'}
+core REG total: 150 hashes: {'p1-front.svg': 'c7e7d019de01e662faa35f9f1874829ae3fc0300e5d680f43404e6eab01b4c50', 'p2-life.svg': '07f5df7e8e7ea0768244e6c4ab4b7c1be04682e3309e34bd3c1229726590a293', 'p3-culture.svg': 'd9f7cc374fe1229ccada556a2e1d330e84fac3f4aeaa443400f3ba131dfce580', 'p4-sport.svg': '3b8be5175094bcb71de860321ef00187101b5282d0d5ca76a88aca478b1f0006', 'p5-jeunesse.svg': '73486e2f216e1f3bc9f2ddabccdd74e8fb15560250ff1ec8729c339c3c5f6f3e', 'p6-politique.svg': '3e2187b37acb2883c0aaef95f8e1bca21ec36e4327d4b5e69b8638e791152a79', 'p7-langue.svg': '5a2684096010839c3b7c86be1b5fe45b730588c5546b3827b21b7e7080105083', 'p8-exercices.svg': '4de34a135cc831bfbbf5ec285be29d4758424dc16f37f0f9ab184d8fe18c8a9b'}
+EDITION: {"total": 150, "nums_continuous": true, "per_page": {"1": 10, "2": 17, "3": 18, "4": 18, "5": 18, "6": 18, "7": 12, "8": 39}, "levels": {"A2": 60, "B1": 69, "B2": 21}, "types": {"Dialoog aanvullen": 5, "Fouten verbeteren": 4, "Gatentekst": 8, "Grafiek lezen": 6, "Leestekst": 4, "Meedoen": 8, "Meerkeuze": 41, "Schrijven": 1, "Vertalen": 4, "Woorden combineren": 20, "Zinnen aanvullen": 33, "Zinnen omvormen": 16}}
+CORE: {"total": 150, "nums_continuous": true, "per_page": {"1": 10, "2": 17, "3": 18, "4": 18, "5": 18, "6": 18, "7": 12, "8": 39}, "levels": {"A2": 60, "B1": 69, "B2": 21}, "types": {"写作": 1, "单选": 41, "句型转换": 16, "图表读数": 6, "完形填空": 8, "完成句子": 33, "对话补全": 5, "改错": 4, "翻译": 4, "词汇配对": 20, "跟练": 8, "阅读理解": 4}}
+registry mismatches (ed vs core): 150
+  1 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  2 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  3 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  4 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  5 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  6 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  7 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  8 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  9 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  10 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  11 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  12 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  13 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  14 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  15 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  16 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  17 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  18 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  19 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  20 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  21 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  22 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  23 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  24 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  25 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  26 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  27 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  28 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  29 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  30 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  31 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  32 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  33 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  34 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  35 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  36 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  37 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  38 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  39 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  40 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  41 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  42 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  43 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  44 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  45 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  46 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  47 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  48 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  49 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  50 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  51 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  52 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  53 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  54 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  55 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  56 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  57 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  58 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  59 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  60 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  61 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  62 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  63 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  64 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  65 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  66 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  67 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  68 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  69 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  70 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  71 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  72 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  73 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  74 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  75 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  76 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  77 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  78 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  79 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  80 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  81 ['type'] core: {'type': '句型转换'} ed: {'type': 'Zinnen omvormen'}
+  82 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  83 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  84 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  85 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  86 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  87 ['type'] core: {'type': '图表读数'} ed: {'type': 'Grafiek lezen'}
+  88 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  89 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  90 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  91 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  92 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  93 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  94 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  95 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  96 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  97 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  98 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  99 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  100 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  101 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  102 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  103 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  104 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  105 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  106 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  107 ['type'] core: {'type': '跟练'} ed: {'type': 'Meedoen'}
+  108 ['type'] core: {'type': '改错'} ed: {'type': 'Fouten verbeteren'}
+  109 ['type'] core: {'type': '改错'} ed: {'type': 'Fouten verbeteren'}
+  110 ['type'] core: {'type': '改错'} ed: {'type': 'Fouten verbeteren'}
+  111 ['type'] core: {'type': '改错'} ed: {'type': 'Fouten verbeteren'}
+  112 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  113 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  114 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  115 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  116 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  117 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  118 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  119 ['type'] core: {'type': '完形填空'} ed: {'type': 'Gatentekst'}
+  120 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  121 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  122 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  123 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  124 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  125 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  126 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  127 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  128 ['type'] core: {'type': '单选'} ed: {'type': 'Meerkeuze'}
+  129 ['type'] core: {'type': '阅读理解'} ed: {'type': 'Leestekst'}
+  130 ['type'] core: {'type': '阅读理解'} ed: {'type': 'Leestekst'}
+  131 ['type'] core: {'type': '阅读理解'} ed: {'type': 'Leestekst'}
+  132 ['type'] core: {'type': '阅读理解'} ed: {'type': 'Leestekst'}
+  133 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  134 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  135 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  136 ['type'] core: {'type': '完成句子'} ed: {'type': 'Zinnen aanvullen'}
+  137 ['type', 'key'] core: {'type': '翻译', 'key': '耐心是制度的一部分，而不是制度的失败。'} ed: {'type': 'Vertalen', 'key': 'Geduld is een deel van het systeem, geen falen van het systeem.'}
+  138 ['type', 'key'] core: {'type': '翻译', 'key': '11 月 3 日周二是美国的选举日。'} ed: {'type': 'Vertalen', 'key': 'Dinsdag 3 november is verkiezingsdag in de Verenigde Staten.'}
+  139 ['type', 'key'] core: {'type': '翻译', 'key': '这周日，NFL 在马德里比赛。'} ed: {'type': 'Vertalen', 'key': 'Deze zondag speelt de NFL in Madrid.'}
+  140 ['type', 'key'] core: {'type': '翻译', 'key': '并非每处都拨回时钟。'} ed: {'type': 'Vertalen', 'key': 'Niet elke plaats zet de klok terug.'}
+  141 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  142 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  143 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  144 ['type'] core: {'type': '词汇配对'} ed: {'type': 'Woorden combineren'}
+  145 ['type'] core: {'type': '对话补全'} ed: {'type': 'Dialoog aanvullen'}
+  146 ['type'] core: {'type': '对话补全'} ed: {'type': 'Dialoog aanvullen'}
+  147 ['type'] core: {'type': '对话补全'} ed: {'type': 'Dialoog aanvullen'}
+  148 ['type'] core: {'type': '对话补全'} ed: {'type': 'Dialoog aanvullen'}
+  149 ['type'] core: {'type': '对话补全'} ed: {'type': 'Dialoog aanvullen'}
+  150 ['type', 'key'] core: {'type': '写作', 'key': '开放题 — 要点见写作框，范文在第 8 版写作框内'} ed: {'type': 'Schrijven', 'key': 'Open vraag — punten in het schrijfblok; voorbeeldtekst in het kader op pagina 8'}
+edition REG notes with CJK: []
+edition REG notes empty: 0 core empty: 0
+edition REG types set: ['Dialoog aanvullen', 'Fouten verbeteren', 'Gatentekst', 'Grafiek lezen', 'Leestekst', 'Meedoen', 'Meerkeuze', 'Schrijven', 'Vertalen', 'Woorden combineren', 'Zinnen aanvullen', 'Zinnen omvormen']
+core REG types set: ['写作', '单选', '句型转换', '图表读数', '完形填空', '完成句子', '对话补全', '改错', '翻译', '词汇配对', '跟练', '阅读理解']
+delivered: {'p1-front.svg': '60c88d83d45ee239c5c1fd79f49dc3d1237bd5440fd14ffeb44dcf525da953bd', 'p2-life.svg': '4b42d1c125f9dfb6db8537fc6eb7a6aafafa9651a64e5edc515babd7a7dddbb5', 'p3-culture.svg': 'e212136372c7f43c192ae016bd4cc7044d36c78367212040b70359c600dc3e60', 'p4-sport.svg': '58fec0a8c544317f6afd1aafa43431c53b0265dbc3a6f38fdd45828611939912', 'p5-jeunesse.svg': 'fd02f64fb38b25657d2ac64d362bfdfb2029fcbe9d60c628cbfe96527df4b71b', 'p6-politique.svg': 'f14b50fa9d8a4f0e62286ed29b8c50e3fda199285286f397e9518ef9991d9d93', 'p7-langue.svg': '56b3a6139492a627425004431f6c2f72ffdadc1a954ec59f68911bc9d2dfc5f8', 'p8-exercices.svg': 'eabc5c5df1be51983b4ca0602b5b1c89303ab1b5b16efe225a4336e73f0b06a1'}
+run.py-rerun == delivered: True
+  p1-front.svg rerun==delivered: True
+  p2-life.svg rerun==delivered: True
+  p3-culture.svg rerun==delivered: True
+  p4-sport.svg rerun==delivered: True
+  p5-jeunesse.svg rerun==delivered: True
+  p6-politique.svg rerun==delivered: True
+  p7-langue.svg rerun==delivered: True
+  p8-exercices.svg rerun==delivered: True
+
+== TRANSFORM-ONLY ==
+transform stdout: transform done: 287 replacements
+
+transform stderr: 
+transform rc: 0
+  content diff content12.py: identical=True len 19454 vs 19454
+  content diff content34.py: identical=True len 13785 vs 13785
+  content diff content56.py: identical=True len 13878 vs 13878
+  content diff content7.py: identical=True len 8487 vs 8487
+  content diff content8.py: identical=True len 10173 vs 10173
+  content diff bslib4.py: identical=True len 10291 vs 10291
+transform-run hashes: {'p1-front.svg': '60c88d83d45ee239c5c1fd79f49dc3d1237bd5440fd14ffeb44dcf525da953bd', 'p2-life.svg': '4b42d1c125f9dfb6db8537fc6eb7a6aafafa9651a64e5edc515babd7a7dddbb5', 'p3-culture.svg': 'e212136372c7f43c192ae016bd4cc7044d36c78367212040b70359c600dc3e60', 'p4-sport.svg': '58fec0a8c544317f6afd1aafa43431c53b0265dbc3a6f38fdd45828611939912', 'p5-jeunesse.svg': 'fd02f64fb38b25657d2ac64d362bfdfb2029fcbe9d60c628cbfe96527df4b71b', 'p6-politique.svg': 'f14b50fa9d8a4f0e62286ed29b8c50e3fda199285286f397e9518ef9991d9d93', 'p7-langue.svg': '56b3a6139492a627425004431f6c2f72ffdadc1a954ec59f68911bc9d2dfc5f8', 'p8-exercices.svg': 'eabc5c5df1be51983b4ca0602b5b1c89303ab1b5b16efe225a4336e73f0b06a1'}
+transform-run == delivered: True
+  p1-front.svg transform==delivered: True
+  p2-life.svg transform==delivered: True
+  p3-culture.svg transform==delivered: True
+  p4-sport.svg transform==delivered: True
+  p5-jeunesse.svg transform==delivered: True
+  p6-politique.svg transform==delivered: True
+  p7-langue.svg transform==delivered: True
+  p8-exercices.svg transform==delivered: True
+transform-run log tail:  saved, exercises so far: 99
+  flow[P7-A2] ended col 0/0 y=954 (bottom 1150)
+  flow[P7-B1] ended col 0/0 y=1129 (bottom 1150)
+  flow[P7-B2] ended col 0/0 y=988 (bottom 1150)
+  flow[P7-tools] ended col 0/0 y=940 (bottom 1150)
+  flow[P7-phrases] ended col 3/3 y=1512 (bottom 1830)
+  flow[P7-clinic] ended col 1/1 y=2140 (bottom 2268)
+P7 saved, exercises so far: 111
+  flow[P8-battery] ended col 3/3 y=1390 (bottom 1485)
+  flow[P8-keys] ended col 3/3 y=2240 (bottom 2530)
+P8 saved, TOTAL exercises: 150
+

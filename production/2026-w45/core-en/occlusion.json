@@ -1,0 +1,71 @@
+{
+ "svgdir": "../files/weekly-report-w45-en-core/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "in cinemas. (page 3)",
+   "box": [
+    1473.0,
+    2311.1,
+    1667.2,
+    2332.8
+   ],
+   "detail": "later line box [64.0, 2311.0, 1886.0, 2313.0] crosses ink",
+   "by": "line@178"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "years before the next one.",
+   "box": [
+    1450.8,
+    1800.8,
+    1720.5,
+    1824.3
+   ],
+   "detail": "ink overlaps '（任期）中期。midterm election 中期选举。' by 269.5x18.2px",
+   "by": "text@147"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1006.9,
+    208.0,
+    1031.2,
+    222.0
+   ],
+   "detail": "ink overlaps 'A PRACTICE BALLOT · 模拟选票（教学示例）' by 24.2x5.0px",
+   "by": "text@60"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "A PRACTICE BALLOT · 模拟选票（教学示例）",
+   "box": [
+    544.8,
+    217.0,
+    1032.2,
+    239.5
+   ],
+   "detail": "ink overlaps 'House members serve... A. two years · B.' by 43.2x3.5px",
+   "by": "text@132"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "BOXTITLE",
+   "text": "A PRACTICE BALLOT · 模拟选票（教学示例）",
+   "box": [
+    544.8,
+    217.0,
+    1032.2,
+    239.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1032.2 > border 961.0",
+   "by": "rect@59"
+  }
+ ],
+ "flag_count": 5
+}

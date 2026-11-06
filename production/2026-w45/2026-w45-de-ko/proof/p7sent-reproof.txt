@@ -1,0 +1,54 @@
+--- KO P7 SÄTZE table ---
+  col x=65.0:
+    y=1597.0 '„Vier Nächte Fußball hintereinander,'
+    y=1625.29 'dann ein ganzes Wochenende Liga.“'
+    y=1661.3 '연속 네 밤의 축구, 그리고 주말 내내 리그예요.'
+    y=1691.3 'Seite 4 · B1'
+  col x=527.0:
+    y=1597.0 '„Die Energiesteuer auf Benzin und Diesel'
+    y=1625.29 'sinkt um 14,04 Cent pro Liter.“'
+    y=1661.3 '휘발유와 디젤의 에너지세가 리터당 14.04센트 내려가'
+    y=1686.95 '요.'
+    y=1716.8999999999999 'Seite 2 · A2'
+  col x=989.0:
+    y=1597.0 '„Wer 50 Liter tankt, spart rund 8,35'
+    y=1625.29 'Euro.“'
+    y=1661.3 '50리터를 넣으면 약 8.35유로를 아껴요.'
+    y=1691.3 'Seite 2 · A2'
+  col x=1451.0:
+    y=1597.0 '„Die Schule hat nach den Herbstferien'
+    y=1625.29 'wieder begonnen.“'
+    y=1661.3 '가을 방학 뒤에 학교가 다시 개학했어요.'
+    y=1691.3 'Seite 5 · B1'
+--- CORE P7 SÄTZE table ---
+  col x=65.0:
+    y=1597.0 '„Vier Nächte Fußball hintereinander,'
+    y=1625.29 'dann ein ganzes Wochenende Liga.“'
+    y=1661.3 '连续四个足球之夜，然后是整周末联赛。'
+    y=1691.3 'Seite 4 · B1'
+  col x=527.0:
+    y=1597.0 '„Die Energiesteuer auf Benzin und Diesel'
+    y=1625.29 'sinkt um 14,04 Cent pro Liter.“'
+    y=1661.3 '汽油和柴油的能源税每升降低 14.04 欧分。'
+    y=1691.3 'Seite 2 · A2'
+  col x=989.0:
+    y=1597.0 '„Wer 50 Liter tankt, spart rund 8,35'
+    y=1625.29 'Euro.“'
+    y=1661.3 '加 50 升油，大约省 8.35 欧元。'
+    y=1691.3 'Seite 2 · A2'
+  col x=1451.0:
+    y=1597.0 '„Die Schule hat nach den Herbstferien'
+    y=1625.29 'wieder begonnen.“'
+    y=1661.3 '秋假过后，学校又开学了。'
+    y=1691.3 'Seite 5 · B1'
+--- occurrence counts (normalized whitespace) ---
+  KO:
+    2 x Vier Nächte Fußball hintereinander, dann ein ganzes Wochenen...
+    2 x Die Energiesteuer auf Benzin und Diesel sinkt um 14,04 Cent ...
+    2 x Wer 50 Liter tankt, spart rund 8,35 Euro....
+    2 x Die Schule hat nach den Herbstferien wieder begonnen....
+  CORE:
+    2 x Vier Nächte Fußball hintereinander, dann ein ganzes Wochenen...
+    2 x Die Energiesteuer auf Benzin und Diesel sinkt um 14,04 Cent ...
+    2 x Wer 50 Liter tankt, spart rund 8,35 Euro....
+    2 x Die Schule hat nach den Herbstferien wieder begonnen....

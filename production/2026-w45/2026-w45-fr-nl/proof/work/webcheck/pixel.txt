@@ -1,0 +1,9 @@
+p1-une: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.351 fullres_L_mean=5.908 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p2-vie: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.150 fullres_L_mean=5.623 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p3-culture: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.069 fullres_L_mean=5.249 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p4-sport: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.129 fullres_L_mean=5.771 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p5-jeunesse: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=0.968 fullres_L_mean=4.630 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p6-politique: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.040 fullres_L_mean=4.907 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p7-langue: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.258 fullres_L_mean=6.037 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+p8-exercices: render=(1950, 2700) card=(1950, 2700) downsample_L_mean=1.456 fullres_L_mean=8.957 paper_render=(248, 241, 225) paper_card=(247, 241, 226)
+PRINT p1: render=(3047, 4219) downsample_L_mean=1.558

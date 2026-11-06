@@ -1,0 +1,614 @@
+===== PAGE 1 =====
+added 27 removed 26
+-- REMOVED (with CJK stripped check) --
+  REMOVED: '11 月 3 日周二选举日 · 详见第 6 版' | nonCJK-tokens=['11', '3', '6'] | tokens-NOT-in-added=['11']
+  REMOVED: 'IN BRIEF · 快讯' | nonCJK-tokens=['IN', 'BRIEF'] | tokens-NOT-in-added=[]
+  REMOVED: 'IN THIS ISSUE · 本期目录' | nonCJK-tokens=['IN', 'THIS', 'ISSUE'] | tokens-NOT-in-added=[]
+  REMOVED: 'LIGHTNING QUIZ · 闪电问答' | nonCJK-tokens=['LIGHTNING', 'QUIZ'] | tokens-NOT-in-added=[]
+  REMOVED: 'Nov 3 — Election Day（选举日） · 435 —' | nonCJK-tokens=['Nov', '3', 'Election', 'Day', '435'] | tokens-NOT-in-added=[]
+  REMOVED: 'Nov 6 — two films open（两部电影上映）' | nonCJK-tokens=['Nov', '6', 'two', 'films', 'open'] | tokens-NOT-in-added=[]
+  REMOVED: 'Paulo（周日两场大赛）' | nonCJK-tokens=['Paulo'] | tokens-NOT-in-added=[]
+  REMOVED: 'THE BIG STORY · 头条' | nonCJK-tokens=['THE', 'BIG', 'STORY'] | tokens-NOT-in-added=[]
+  REMOVED: "THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM AMERICA" | nonCJK-tokens=['THE', 'LEARNERS', 'WEEKLY', 'REAL', 'LIFE', 'IN', 'ENGLISH', 'FROM', 'AMERICA'] | tokens-NOT-in-added=['LEARNERS', 'REAL', 'LIFE', 'FROM', 'AMERICA']
+  REMOVED: 'THE WEEK IN NUMBERS · 数字看本周' | nonCJK-tokens=['THE', 'WEEK', 'IN', 'NUMBERS'] | tokens-NOT-in-added=[]
+  REMOVED: 'TRY IT NOW · 即学即练' | nonCJK-tokens=['TRY', 'IT', 'NOW'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=[]
+  REMOVED: 'WEEKLY IN ENGLISH · 每周一期 · 读美国人正在读的英语' | nonCJK-tokens=['WEEKLY', 'IN', 'ENGLISH'] | tokens-NOT-in-added=[]
+  REMOVED: 'a race 一场竞选 · to call a race 宣布某场竞选' | nonCJK-tokens=['a', 'race', 'to', 'call', 'a', 'race'] | tokens-NOT-in-added=[]
+  REMOVED: 'seats in the House, all on the ballot（众' | nonCJK-tokens=['seats', 'in', 'the', 'House', 'all', 'on', 'the', 'ballot'] | tokens-NOT-in-added=[]
+  REMOVED: '· Nov 8 — NFL in Madrid + F1 in São' | nonCJK-tokens=['Nov', '8', 'NFL', 'in', 'Madrid', 'F1', 'in', 'S', 'o'] | tokens-NOT-in-added=[]
+  REMOVED: '周二选举日 · 周日已拨回时钟' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '本周美国热搜 · Google Trends 美国区快照' | nonCJK-tokens=['Google', 'Trends'] | tokens-NOT-in-added=[]
+  REMOVED: '的结果。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '相对热度示意，非精确搜索量。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '第 1 版 / 共 8 版' | nonCJK-tokens=['1', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '英 语 周 报 · VOL.2 · 选 票 · 足 球 · 电 影' | nonCJK-tokens=['VOL', '2'] | tokens-NOT-in-added=[]
+  REMOVED: '议院全部席位改选）' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '讲解｜a midterm 中期选举 · a ballot 选票 ·' | nonCJK-tokens=['a', 'midterm', 'a', 'ballot'] | tokens-NOT-in-added=[]
+  REMOVED: '读头版，选出正确答案 · 答案见第 8 版' | nonCJK-tokens=['8'] | tokens-NOT-in-added=[]
+  REMOVED: '（任期）中期。midterm election 中期选举。' | nonCJK-tokens=['midterm', 'election'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: '435 — seats in the House, all on the'
+  ADDED: 'DINSDAG VERKIEZINGSDAG · KLOK TERUG'
+  ADDED: 'Deze week gezocht · Google Trends VS'
+  ADDED: 'Dinsdag 3 november verkiezingsdag · Zie pagina 6'
+  ADDED: 'ENGELS WEEKBLAD · VOL.2 · STEMMEN · VOETBAL · FILMS'
+  ADDED: 'IN BRIEF · Kort nieuws'
+  ADDED: 'IN THIS ISSUE · Inhoud'
+  ADDED: 'LIGHTNING QUIZ · Bliksemquiz'
+  ADDED: 'Lees pagina 1, kies het juiste antwoord · Antwoorden op pagina 8'
+  ADDED: 'Midden van een termijn: tussentijdse verkiezing.'
+  ADDED: 'Nov 3 — Election Day (verkiezingsdag) ·'
+  ADDED: 'Nov 6 — two films open (twee films) ·'
+  ADDED: 'Nov 8 — NFL in Madrid + F1 in São'
+  ADDED: 'Pagina 1 van 8'
+  ADDED: 'Paulo (twee topwedstrijden op zondag)'
+  ADDED: 'Relatieve populariteit, geen exacte zoekcijfers.'
+  ADDED: 'TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'
+  ADDED: 'THE BIG STORY · Hoofdverhaal'
+  ADDED: 'THE WEEK IN NUMBERS · Cijfers'
+  ADDED: 'TRY IT NOW · Oefen nu'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Uitleg — midterm = tussentijdse verkiezing ·'
+  ADDED: 'WEEKLY IN ENGLISH · ELKE WEEK EEN NUMMER · HET ENGELS DAT AMERIKA LEEST'
+  ADDED: 'ballot (alle zetels in het Huis'
+  ADDED: 'ballot = stembiljet · race = verkiezingsstrijd'
+  ADDED: 'verkiesbaar)'
+  ADDED: '· to call a race = uitslag bekendmaken.'
+
+===== PAGE 2 =====
+added 28 removed 26
+-- REMOVED (with CJK stripped check) --
+  REMOVED: '= one hour more（多出一小时）' | nonCJK-tokens=['one', 'hour', 'more'] | tokens-NOT-in-added=[]
+  REMOVED: '= one more time（再一次）' | nonCJK-tokens=['one', 'more', 'time'] | tokens-NOT-in-added=[]
+  REMOVED: '= to go back one hour（拨回）' | nonCJK-tokens=['to', 'go', 'back', 'one', 'hour'] | tokens-NOT-in-added=[]
+  REMOVED: '= two times（两次）' | nonCJK-tokens=['two', 'times'] | tokens-NOT-in-added=[]
+  REMOVED: 'AND YOU ? · 说说你自己' | nonCJK-tokens=['AND', 'YOU'] | tokens-NOT-in-added=[]
+  REMOVED: 'DO THE MATHS · 算一算' | nonCJK-tokens=['DO', 'THE', 'MATHS'] | tokens-NOT-in-added=[]
+  REMOVED: 'EXERCISES · 第 2 版练习' | nonCJK-tokens=['EXERCISES', '2'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL A2 · Clocks, candy & your week · 时钟、糖果与你的一周' | nonCJK-tokens=['LEVEL', 'A2', 'Clocks', 'candy', 'your', 'week'] | tokens-NOT-in-added=[]
+  REMOVED: 'LIFE · 生活' | nonCJK-tokens=['LIFE'] | tokens-NOT-in-added=[]
+  REMOVED: 'TELLING THE TIME · 这样报时间' | nonCJK-tokens=['TELLING', 'THE', 'TIME'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'The repeated hour · 本周的三个时间' | nonCJK-tokens=['The', 'repeated', 'hour'] | tokens-NOT-in-added=[]
+  REMOVED: 'costume 服装、装扮 · trick or treat 不给' | nonCJK-tokens=['costume', 'trick', 'or', 'treat'] | tokens-NOT-in-added=[]
+  REMOVED: '事）。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '周日你多睡了一小时吗？写两句英语寄给编' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '填空' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '把词和释义配对' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '改写' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '根据时间，用英语补全句子。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用 be going to + 动词改写（计划与将要发生的' | nonCJK-tokens=['be', 'going', 'to'] | tokens-NOT-in-added=[]
+  REMOVED: '第 2 版 / 共 8 版' | nonCJK-tokens=['2', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '答案见第 8 版 · 题目可跨级混排，按题号找答案' | nonCJK-tokens=['8'] | tokens-NOT-in-added=[]
+  REMOVED: '糖就捣蛋。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '译注｜讲解｜to fall back （时钟）拨回 · a' | nonCJK-tokens=['to', 'fall', 'back', 'a'] | tokens-NOT-in-added=[]
+  REMOVED: '读第 2 版文章，选出正确答案。' | nonCJK-tokens=['2'] | tokens-NOT-in-added=[]
+  REMOVED: '辑部。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: '(plannen en wat er gaat gebeuren).'
+  ADDED: '= one hour more (een uur extra)'
+  ADDED: '= one more time (nog een keer)'
+  ADDED: '= to go back one hour (de klok terugzetten)'
+  ADDED: '= two times (twee keer)'
+  ADDED: 'AND YOU ? · Vertel over jezelf'
+  ADDED: 'Antwoorden op pagina 8 · Opgaven kunnen niveaus mixen, zoek op nummer'
+  ADDED: 'Combineer'
+  ADDED: 'DO THE MATHS · Reken mee'
+  ADDED: 'EXERCISES · Oefeningen pagina 2'
+  ADDED: 'Heb jij zondag een uur langer geslapen?'
+  ADDED: 'Herschrijf'
+  ADDED: 'Herschrijf met be going to + werkwoord'
+  ADDED: 'LEVEL A2 · Clocks, candy & your week · Klokken, snoep en jouw week'
+  ADDED: 'LIFE · Leven'
+  ADDED: 'Lees het artikel op pagina 2 en kies het juiste'
+  ADDED: 'Pagina 2 van 8'
+  ADDED: 'Schrijf twee Engelse zinnen voor de'
+  ADDED: 'TELLING THE TIME · Zo zeg je de tijd'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'The repeated hour · De drie tijden van deze week'
+  ADDED: 'Uitleg — to fall back = de klok terugzetten'
+  ADDED: 'Vul de zinnen aan volgens de klok.'
+  ADDED: 'Vul in'
+  ADDED: 'antwoord.'
+  ADDED: 'redactie.'
+  ADDED: 'trick or treat = snoep of je leven.'
+  ADDED: '· a costume = kostuum, verkleding ·'
+
+===== PAGE 3 =====
+added 19 removed 17
+-- REMOVED (with CJK stripped check) --
+  REMOVED: 'A2 → B1 · Friday at the movies · 周五看电影' | nonCJK-tokens=['A2', 'B1', 'Friday', 'at', 'the', 'movies'] | tokens-NOT-in-added=[]
+  REMOVED: 'AT HOME THIS WEEK · 在家看什么' | nonCJK-tokens=['AT', 'HOME', 'THIS', 'WEEK'] | tokens-NOT-in-added=[]
+  REMOVED: 'CULTURE · 文化' | nonCJK-tokens=['CULTURE'] | tokens-NOT-in-added=[]
+  REMOVED: "THE CAT'S HAT · 猫的帽子" | nonCJK-tokens=['THE', 'CAT', 'S', 'HAT'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'monster 怪物 · a catchphrase 口头禅、金' | nonCJK-tokens=['monster', 'a', 'catchphrase'] | tokens-NOT-in-added=[]
+  REMOVED: '五句影评｜who、where、发生了什么、转折、' | nonCJK-tokens=['whowhere'] | tokens-NOT-in-added=['whowhere']
+  REMOVED: '句 · a series 剧集。' | nonCJK-tokens=['a', 'series'] | tokens-NOT-in-added=[]
+  REMOVED: '填空' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '把词和释义配对' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '改写' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用 be going to 改写。' | nonCJK-tokens=['be', 'going', 'to'] | tokens-NOT-in-added=[]
+  REMOVED: '用所给词补全句子。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '第 3 版 / 共 8 版' | nonCJK-tokens=['3', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '结局——五句就够。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '译注｜讲解｜to open （电影）上映 · a' | nonCJK-tokens=['to', 'open', 'a'] | tokens-NOT-in-added=[]
+  REMOVED: '读第 3 版文章，选出正确答案。' | nonCJK-tokens=['3'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: '= slogan, gevleugelde zin · a series ='
+  ADDED: 'A2 → B1 · Friday at the movies · Vrijdag naar de film'
+  ADDED: 'AT HOME THIS WEEK · Thuis kijken'
+  ADDED: 'CULTURE · Cultuur'
+  ADDED: 'Combineer'
+  ADDED: 'Herschrijf'
+  ADDED: 'Herschrijf met be going to.'
+  ADDED: 'Lees het artikel op pagina 3 en kies het juiste'
+  ADDED: 'Pagina 3 van 8'
+  ADDED: "THE CAT'S HAT · De hoed van de kat"
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Uitleg — to open = (film) in première gaan'
+  ADDED: 'Vijf zinnen | who, where, wat er gebeurde, de'
+  ADDED: 'Vul de zinnen aan met de gegeven woorden.'
+  ADDED: 'Vul in'
+  ADDED: 'antwoord.'
+  ADDED: 'serie.'
+  ADDED: 'wending, het einde — vijf zinnen zijn genoeg.'
+  ADDED: '· a monster = monster · a catchphrase'
+
+===== PAGE 4 =====
+added 19 removed 16
+-- REMOVED (with CJK stripped check) --
+  REMOVED: 'SPORT · 体育' | nonCJK-tokens=['SPORT'] | tokens-NOT-in-added=[]
+  REMOVED: 'SUNDAY, NOVEMBER 8 · 周日赛程' | nonCJK-tokens=['SUNDAY', 'NOVEMBER', '8'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'WHY MADRID ? · 为什么去马德里？' | nonCJK-tokens=['WHY', 'MADRID'] | tokens-NOT-in-added=[]
+  REMOVED: 'a title 冠军头衔 · to defend （卫冕）保卫' | nonCJK-tokens=['a', 'title', 'to', 'defend'] | tokens-NOT-in-added=[]
+  REMOVED: '填空' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '头衔 · a fan 球迷。' | nonCJK-tokens=['a', 'fan'] | tokens-NOT-in-added=[]
+  REMOVED: '把词和释义配对' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '改写' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用一般过去时改写（比赛已结束的说法）。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用所给词补全句子。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '直播英语。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '看球英语｜比分、谁得分、谁领先——短句就是' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '第 4 版 / 共 8 版' | nonCJK-tokens=['4', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '译注｜讲解｜a fixture 一场比赛（赛程） ·' | nonCJK-tokens=['a', 'fixture'] | tokens-NOT-in-added=[]
+  REMOVED: '读第 4 版文章，选出正确答案。' | nonCJK-tokens=['4'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: 'Combineer'
+  ADDED: 'Herschrijf'
+  ADDED: 'Herschrijf in de verleden tijd (voor afgelopen'
+  ADDED: 'Lees het artikel op pagina 4 en kies het juiste'
+  ADDED: 'Pagina 4 van 8'
+  ADDED: 'SPORT · Sport'
+  ADDED: 'SUNDAY, NOVEMBER 8 · Zondag'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Uitleg — a fixture = wedstrijd (in het'
+  ADDED: 'Voetbalengels | Stand, wie scoorde, wie leidt'
+  ADDED: 'Vul de zinnen aan met de gegeven woorden.'
+  ADDED: 'Vul in'
+  ADDED: 'WHY MADRID ? · Waarom Madrid?'
+  ADDED: 'antwoord.'
+  ADDED: 'fan.'
+  ADDED: 'speelschema) · a title = kampioenstitel'
+  ADDED: 'wedstrijden).'
+  ADDED: '· to defend = (titel) verdedigen · a fan ='
+  ADDED: '— korte zinnen zijn live Engels.'
+
+===== PAGE 5 =====
+added 21 removed 17
+-- REMOVED (with CJK stripped check) --
+  REMOVED: 'FIVE SENTENCES · 五句话作业' | nonCJK-tokens=['FIVE', 'SENTENCES'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL B1 · Election night at home · 选举之夜' | nonCJK-tokens=['LEVEL', 'B1', 'Election', 'night', 'at', 'home'] | tokens-NOT-in-added=[]
+  REMOVED: 'TOO CLOSE TO CALL · 难分胜负' | nonCJK-tokens=['TOO', 'CLOSE', 'TO', 'CALL'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'YOUTH · 青年' | nonCJK-tokens=['YOUTH'] | tokens-NOT-in-added=[]
+  REMOVED: 'close to call 难分胜负、无法判定 · a' | nonCJK-tokens=['close', 'to', 'call', 'a'] | tokens-NOT-in-added=[]
+  REMOVED: 'second screen 第二块屏幕（手机）。' | nonCJK-tokens=['second', 'screen'] | tokens-NOT-in-added=[]
+  REMOVED: '填空' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '把词和释义配对' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '投票结束｜The polls have closed = 该州投票已' | nonCJK-tokens=['The', 'polls', 'have', 'closed'] | tokens-NOT-in-added=[]
+  REMOVED: '改写' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用所给词补全句子。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用现在进行时改写（正在发生的事）。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '第 5 版 / 共 8 版' | nonCJK-tokens=['5', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '结束，计票开始。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '译注｜讲解｜a map （选举）地图 · too' | nonCJK-tokens=['a', 'map', 'too'] | tokens-NOT-in-added=[]
+  REMOVED: '读第 5 版文章，选出正确答案。' | nonCJK-tokens=['5'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: '(telefoon).'
+  ADDED: 'Combineer'
+  ADDED: 'FIVE SENTENCES · Vijf zinnen'
+  ADDED: 'Herschrijf'
+  ADDED: 'Herschrijf met de continuous-vorm (wat er nu'
+  ADDED: 'LEVEL B1 · Election night at home · Verkiezingsnacht'
+  ADDED: 'Lees het artikel op pagina 5 en kies het juiste'
+  ADDED: 'Pagina 5 van 8'
+  ADDED: 'Stemmen gesloten | The polls have closed ='
+  ADDED: 'TOO CLOSE TO CALL · Onbeslist'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Uitleg — a map = (verkiezings)kaart · too'
+  ADDED: 'Vul de zinnen aan met de gegeven woorden.'
+  ADDED: 'Vul in'
+  ADDED: 'YOUTH · Jeugd'
+  ADDED: 'antwoord.'
+  ADDED: 'begint.'
+  ADDED: 'close to call = nog niet te beslissen · a'
+  ADDED: 'gebeurt).'
+  ADDED: 'in die staat is het stemmen voorbij, het tellen'
+  ADDED: 'second screen = tweede scherm'
+
+===== PAGE 6 =====
+added 20 removed 16
+-- REMOVED (with CJK stripped check) --
+  REMOVED: 'A PRACTICE BALLOT · 模拟选票' | nonCJK-tokens=['A', 'PRACTICE', 'BALLOT'] | tokens-NOT-in-added=[]
+  REMOVED: 'DEEP READ · 时事深读' | nonCJK-tokens=['DEEP', 'READ'] | tokens-NOT-in-added=[]
+  REMOVED: 'HOW LONG ? · 任期多长？' | nonCJK-tokens=['HOW', 'LONG'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL B2 · How America votes · 美国怎么投票' | nonCJK-tokens=['LEVEL', 'B2', 'How', 'America', 'votes'] | tokens-NOT-in-added=[]
+  REMOVED: 'READ THE CHART · 读图表' | nonCJK-tokens=['READ', 'THE', 'CHART'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: '· a governor 州长 · to shape laws 影响' | nonCJK-tokens=['a', 'governor', 'to', 'shape', 'laws'] | tokens-NOT-in-added=[]
+  REMOVED: '一张地图｜五十个州、五十套规则——所以选举' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '填空' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '夜看的是地图，不是一个数字。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '用所给词补全句子。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '立法 · patience 耐心。' | nonCJK-tokens=['patience'] | tokens-NOT-in-added=[]
+  REMOVED: '第 6 版 / 共 8 版' | nonCJK-tokens=['6', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '译注｜讲解｜to register 登记（选民登记）' | nonCJK-tokens=['to', 'register'] | tokens-NOT-in-added=[]
+  REMOVED: '读上面的教学图表，选出正确答案。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '读第 6 版文章，选出正确答案。' | nonCJK-tokens=['6'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: 'A PRACTICE BALLOT · Stembiljet'
+  ADDED: 'DEEP READ · Verdieping'
+  ADDED: 'Eén kaart | Vijftig staten, vijftig regels —'
+  ADDED: 'HOW LONG ? · Hoe lang?'
+  ADDED: 'LEVEL B2 · How America votes · Hoe Amerika stemt'
+  ADDED: 'Lees de oefengrafiek hierboven en kies het'
+  ADDED: 'Lees het artikel op pagina 6 en kies het juiste'
+  ADDED: 'Pagina 6 van 8'
+  ADDED: 'READ THE CHART · Grafiek'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Uitleg — to register = je registreren (als'
+  ADDED: 'Vul de zinnen aan met de gegeven woorden.'
+  ADDED: 'Vul in'
+  ADDED: 'antwoord.'
+  ADDED: 'daarom kijk je op verkiezingsnacht naar een'
+  ADDED: 'juiste antwoord.'
+  ADDED: 'kaart, niet naar één getal.'
+  ADDED: 'kiezer) · a governor = gouverneur · to'
+  ADDED: 'patience = geduld.'
+  ADDED: 'shape laws = wetten vormgeven ·'
+
+===== PAGE 7 =====
+added 42 removed 32
+-- REMOVED (with CJK stripped check) --
+  REMOVED: '6).' | nonCJK-tokens=['6'] | tokens-NOT-in-added=[]
+  REMOVED: 'A2 → B2 · Phrases of the week · 本周金句' | nonCJK-tokens=['A2', 'B2', 'Phrases', 'of', 'the', 'week'] | tokens-NOT-in-added=[]
+  REMOVED: 'LANGUAGE IN HAND · 精讲' | nonCJK-tokens=['LANGUAGE', 'IN', 'HAND'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL A2 · 基础' | nonCJK-tokens=['LEVEL', 'A2'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL B1 · 进阶' | nonCJK-tokens=['LEVEL', 'B1'] | tokens-NOT-in-added=[]
+  REMOVED: 'LEVEL B2 · 挑战' | nonCJK-tokens=['LEVEL', 'B2'] | tokens-NOT-in-added=[]
+  REMOVED: 'NEXT WEEK · VOL.3 下周预告' | nonCJK-tokens=['NEXT', 'WEEK', 'VOL', '3'] | tokens-NOT-in-added=[]
+  REMOVED: 'PHRASES OF THE WEEK · 本周金句（全部出自本期文章）' | nonCJK-tokens=['PHRASES', 'OF', 'THE', 'WEEK'] | tokens-NOT-in-added=[]
+  REMOVED: "READERS' CORNER · 读者园地" | nonCJK-tokens=['READERS', 'CORNER'] | tokens-NOT-in-added=[]
+  REMOVED: 'THE ERROR CLINIC · 易错诊所' | nonCJK-tokens=['THE', 'ERROR', 'CLINIC'] | tokens-NOT-in-added=[]
+  REMOVED: 'THE EXAMPLE · 例句' | nonCJK-tokens=['THE', 'EXAMPLE'] | tokens-NOT-in-added=[]
+  REMOVED: 'THE TOOLBOX · 工具箱' | nonCJK-tokens=['THE', 'TOOLBOX'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'failure of it. » — part of = 一部分 (page' | nonCJK-tokens=['failure', 'of', 'it', 'part', 'of', 'page'] | tokens-NOT-in-added=[]
+  REMOVED: '。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '下周三退伍军人节，周日 NFL 慕尼黑赛；还有中期选举结果报道。' | nonCJK-tokens=['NFL'] | tokens-NOT-in-added=[]
+  REMOVED: '出自本期文章，回读原文最有效。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '工具箱｜本期三句随身句，按级各一；金句全部' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信' | nonCJK-tokens=['VOL', '3'] | tokens-NOT-in-added=[]
+  REMOVED: '改错' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '每句一个语法点 + 一道小题 · 答案见第 8 版' | nonCJK-tokens=['8'] | tokens-NOT-in-added=[]
+  REMOVED: '每句有一处错误：找出来并改正。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '第 7 版 / 共 8 版' | nonCJK-tokens=['7', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作' | nonCJK-tokens=['VOL', '1', 'VOL', '2', 'VOL', '1'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜happen 的过去式是 happened，规则变化' | nonCJK-tokens=['happen', 'happened'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜has = 有；the week 单数用 has。' | nonCJK-tokens=['has', 'the', 'week', 'has'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜is = 是；日期作主语补足语。' | nonCJK-tokens=['is'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜not every + 单数动词：并非每处都变。' | nonCJK-tokens=['not', 'every'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜part of = ……的一部分；not 表否定对照' | nonCJK-tokens=['part', 'of', 'not'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜that is = 那就是；破折号后总结。' | nonCJK-tokens=['that', 'is'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜will still = 仍然会；still 放在 will 之后。' | nonCJK-tokens=['will', 'still', 'still', 'will'] | tokens-NOT-in-added=[]
+  REMOVED: '语法点｜would + 动词原形，表选择意愿。' | nonCJK-tokens=['would'] | tokens-NOT-in-added=[]
+-- ADDED --
+  ADDED: '(page 6).'
+  ADDED: 'A2 → B2 · Phrases of the week · Zinnen van de week'
+  ADDED: 'Elke zin bevat één fout: vind hem en verbeter'
+  ADDED: 'Elke zin: één grammaticapunt + één opgave · Antwoorden op pagina 8'
+  ADDED: 'Fouten verbeteren'
+  ADDED: 'Gereedschap | Drie zinnen om mee te nemen,'
+  ADDED: 'Grammatica | has = heeft; the week in het'
+  ADDED: 'Grammatica | is = is; de datum als onderwerp.'
+  ADDED: 'Grammatica | not every + werkwoord in het'
+  ADDED: 'Grammatica | part of = een deel van; not als'
+  ADDED: 'Grammatica | that is = dat is; na het streepje de'
+  ADDED: 'Grammatica | verleden tijd van happen is'
+  ADDED: 'Grammatica | will still = zal nog steeds; still staat'
+  ADDED: 'Grammatica | would + infinitief, voor een keuze.'
+  ADDED: 'LANGUAGE IN HAND · Taal in handen'
+  ADDED: 'LEVEL A2 · Basis'
+  ADDED: 'LEVEL B1 · Verder'
+  ADDED: 'LEVEL B2 · Uitdaging'
+  ADDED: 'NEXT WEEK · VOL.3 Volgende week'
+  ADDED: 'PHRASES OF THE WEEK · Zinnen van de week (allemaal uit dit nummer)'
+  ADDED: 'Pagina 7 van 8'
+  ADDED: "READERS' CORNER · Lezershoek"
+  ADDED: 'Stuur je brief in — in VOL.3 publiceren we de brieven die we ontvangen!'
+  ADDED: 'THE ERROR CLINIC · Fouten'
+  ADDED: 'THE EXAMPLE · Voorbeeld'
+  ADDED: 'THE TOOLBOX · Gereedschap'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'Toelichting | VOL.1 beloofde echte brieven in VOL.2, maar er kwamen geen echte brieven en'
+  ADDED: 'Woensdag Veteranendag, zondag de NFL in München; plus verslag van de'
+  ADDED: 'de zin.'
+  ADDED: 'enkelvoud krijgt has.'
+  ADDED: 'enkelvoud: niet elke plaats verandert.'
+  ADDED: 'failure of it. » — part of = een deel'
+  ADDED: 'geen VOL.1-schrijfwerk binnen. We verzinnen niets: het voorbeeld blijft, eerlijk gemarkeerd.'
+  ADDED: 'happened, regelmatig.'
+  ADDED: 'komen uit de artikelen van dit nummer —'
+  ADDED: 'lees het artikel erbij en ze blijven hangen.'
+  ADDED: 'midtermresultaten.'
+  ADDED: 'na will.'
+  ADDED: 'samenvatting.'
+  ADDED: 'tegenstelling.'
+  ADDED: 'één per niveau; alle zinnen van de week'
+
+===== PAGE 8 =====
+added 143 removed 105
+-- REMOVED (with CJK stripped check) --
+  REMOVED: '1. ballot · 2. midterm · 3. November 3 · 4. early · 5.' | nonCJK-tokens=['1', 'ballot', '2', 'midterm', '3', 'November', '3', '4', 'early', '5'] | tokens-NOT-in-added=[]
+  REMOVED: '100. is（is 是） · 101. happened · 102. would（would + 原' | nonCJK-tokens=['100', 'isis', '101', 'happened', '102', 'wouldwould'] | tokens-NOT-in-added=['isis', 'wouldwould']
+  REMOVED: '11. one（1:00 = 一点整） · 12. half past（1:30 = 一点半） ·' | nonCJK-tokens=['11', 'one1', '00', '12', 'half', 'past1', '30'] | tokens-NOT-in-added=['one1', 'past1']
+  REMOVED: '112. B（11 月 3 日是周二） · 113. A（pizza 披萨） · 114. C' | nonCJK-tokens=['112', 'B11', '3', '113', 'Apizza', '114', 'C'] | tokens-NOT-in-added=['B11', 'Apizza']
+  REMOVED: '124. A（despite + 名词：尽管下雨） · 125. A（whether = 是' | nonCJK-tokens=['124', 'Adespite', '125', 'Awhether'] | tokens-NOT-in-added=['Adespite', 'Awhether']
+  REMOVED: '129. B（原文：a teacher from Ohio） · 130. B（周二他全天' | nonCJK-tokens=['129', 'Ba', 'teacher', 'from', 'Ohio', '130', 'B'] | tokens-NOT-in-added=[]
+  REMOVED: '13. quarter to · 14. twice（两次 = twice） · 15. extra · 16.' | nonCJK-tokens=['13', 'quarter', 'to', '14', 'twice', 'twice', '15', 'extra', '16'] | tokens-NOT-in-added=[]
+  REMOVED: '1:30 = half past one） · 121. A（we → get 原形） · 122. B（' | nonCJK-tokens=['1', '30', 'half', 'past', 'one', '121', 'Awe', 'get', '122', 'B'] | tokens-NOT-in-added=['Awe']
+  REMOVED: '28. B · 29. A（猫出自苏斯博士的书） · 30. C（比尔·黑德为' | nonCJK-tokens=['28', 'B', '29', 'A', '30', 'C'] | tokens-NOT-in-added=[]
+  REMOVED: '37. split · 38. b · 39. a · 40. d · 41. c（open=上映 c） ·' | nonCJK-tokens=['37', 'split', '38', 'b', '39', 'a', '40', 'd', '41', 'copen', 'c'] | tokens-NOT-in-added=['copen']
+  REMOVED: '42. We are going to watch the cat film on Friday. · 43. She is' | nonCJK-tokens=['42', 'We', 'are', 'going', 'to', 'watch', 'the', 'cat', 'film', 'on', 'Friday', '43', 'She', 'is'] | tokens-NOT-in-added=[]
+  REMOVED: '46. A · 47. C（马德里赛场是伯纳乌） · 48. B（海豚对雄狮在' | nonCJK-tokens=['46', 'A', '47', 'C', '48', 'B'] | tokens-NOT-in-added=[]
+  REMOVED: '64. B（地图随结果逐州变色） · 65. A · 66. C（选举夜常吃披' | nonCJK-tokens=['64', 'B', '65', 'A', '66', 'C'] | tokens-NOT-in-added=[]
+  REMOVED: '75. d · 76. b · 77. a · 78. The map is changing colour now.' | nonCJK-tokens=['75', 'd', '76', 'b', '77', 'a', '78', 'The', 'map', 'is', 'changing', 'colour', 'now'] | tokens-NOT-in-added=[]
+  REMOVED: '8 版写作框内（按要点给分）' | nonCJK-tokens=['8'] | tokens-NOT-in-added=[]
+  REMOVED: '82. B（38% 选“不用排队”） · 83. C（工作原因 29%） ·' | nonCJK-tokens=['82', 'B38', '83', 'C', '29'] | tokens-NOT-in-added=['B38']
+  REMOVED: '84. A（四项合计 100%） · 85. B（习惯最少 12%） · 86. A（' | nonCJK-tokens=['84', 'A', '100', '85', 'B', '12', '86', 'A'] | tokens-NOT-in-added=[]
+  REMOVED: 'A · CLOZE · 完形填空' | nonCJK-tokens=['A', 'CLOZE'] | tokens-NOT-in-added=[]
+  REMOVED: 'ANSWERS · 全部答案与简析（第 1–8 版）' | nonCJK-tokens=['ANSWERS', '1', '8'] | tokens-NOT-in-added=[]
+  REMOVED: 'Americans are going to vote on Tuesday. · 17. She is going' | nonCJK-tokens=['Americans', 'are', 'going', 'to', 'vote', 'on', 'Tuesday', '17', 'She', 'is', 'going'] | tokens-NOT-in-added=[]
+  REMOVED: 'B · MULTIPLE CHOICE · 单选' | nonCJK-tokens=['B', 'MULTIPLE', 'CHOICE'] | tokens-NOT-in-added=[]
+  REMOVED: 'C · READING · 阅读理解' | nonCJK-tokens=['C', 'READING'] | tokens-NOT-in-added=[]
+  REMOVED: 'D · SENTENCES · 完成句子与转换' | nonCJK-tokens=['D', 'SENTENCES'] | tokens-NOT-in-added=[]
+  REMOVED: 'E · TRANSLATION · 翻译' | nonCJK-tokens=['E', 'TRANSLATION'] | tokens-NOT-in-added=[]
+  REMOVED: 'EXERCISES & ANSWERS · 练习与答案' | nonCJK-tokens=['EXERCISES', 'ANSWERS'] | tokens-NOT-in-added=[]
+  REMOVED: 'F · WORDS · 词汇配对' | nonCJK-tokens=['F', 'WORDS'] | tokens-NOT-in-added=[]
+  REMOVED: 'FINAL TEST · 综合评估 · Answers at the bottom of this page 答案在本版下方' | nonCJK-tokens=['FINAL', 'TEST', 'Answers', 'at', 'the', 'bottom', 'of', 'this', 'page'] | tokens-NOT-in-added=[]
+  REMOVED: 'G · DIALOGUE · 对话补全' | nonCJK-tokens=['G', 'DIALOGUE'] | tokens-NOT-in-added=[]
+  REMOVED: 'H · WRITING · 写作 [B1]' | nonCJK-tokens=['H', 'WRITING', 'B1'] | tokens-NOT-in-added=[]
+  REMOVED: 'MODEL · 范文' | nonCJK-tokens=['MODEL'] | tokens-NOT-in-added=[]
+  REMOVED: 'Madrid on Sunday. · 61. She watched the race in São Paulo.' | nonCJK-tokens=['Madrid', 'on', 'Sunday', '61', 'She', 'watched', 'the', 'race', 'in', 'S', 'o', 'Paulo'] | tokens-NOT-in-added=[]
+  REMOVED: 'Madrid） · 140. 并非每处都拨回时钟。（not every 并非每处' | nonCJK-tokens=['Madrid', '140', 'not', 'every'] | tokens-NOT-in-added=[]
+  REMOVED: 'She is going to watch the film on Friday.（going to 后用动词' | nonCJK-tokens=['She', 'is', 'going', 'to', 'watch', 'the', 'film', 'on', 'Friday', 'going', 'to'] | tokens-NOT-in-added=[]
+  REMOVED: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY' | nonCJK-tokens=['The', 'Lucerna', 'VOL', '2', 'LUCERNA', 'ENGLISH', 'WEEKLY'] | tokens-NOT-in-added=['ENGLISH', 'WEEKLY']
+  REMOVED: 'Translate : « Not every place changes. »' | nonCJK-tokens=['Translate', 'Not', 'every', 'place', 'changes'] | tokens-NOT-in-added=['Translate']
+  REMOVED: 'Translate : « Patience is part of the system,' | nonCJK-tokens=['Translate', 'Patience', 'is', 'part', 'of', 'the', 'system'] | tokens-NOT-in-added=['Translate']
+  REMOVED: 'back on Sunday.（fall → fell（不规则变化）） · 135. taller' | nonCJK-tokens=['back', 'on', 'Sunday', 'fall', 'fell', '135', 'taller'] | tokens-NOT-in-added=[]
+  REMOVED: 'back.（fall 的过去式是 fell） · 110. This game is bigger than' | nonCJK-tokens=['back', 'fall', 'fell', '110', 'This', 'game', 'is', 'bigger', 'than'] | tokens-NOT-in-added=[]
+  REMOVED: 'be going to → is going） · 119. A（still 仍然） · 120. B（' | nonCJK-tokens=['be', 'going', 'to', 'is', 'going', '119', 'Astill', '120', 'B'] | tokens-NOT-in-added=['Astill']
+  REMOVED: 'called · 6. takes · 7. B · 8. C · 9. A · 10. B' | nonCJK-tokens=['called', '6', 'takes', '7', 'B', '8', 'C', '9', 'A', '10', 'B'] | tokens-NOT-in-added=[]
+  REMOVED: 'chose one game to watch fully.' | nonCJK-tokens=['chose', 'one', 'game', 'to', 'watch', 'fully'] | tokens-NOT-in-added=[]
+  REMOVED: 'd · 58. a（fan=球迷 a） · 59. c · 60. The Bengals played in' | nonCJK-tokens=['d', '58', 'afan', 'a', '59', 'c', '60', 'The', 'Bengals', 'played', 'in'] | tokens-NOT-in-added=['afan']
+  REMOVED: 'defends · 53. begin · 54. bigger · 55. faster · 56. b · 57.' | nonCJK-tokens=['defends', '53', 'begin', '54', 'bigger', '55', 'faster', '56', 'b', '57'] | tokens-NOT-in-added=[]
+  REMOVED: 'differs · 99. private' | nonCJK-tokens=['differs', '99', 'private'] | tokens-NOT-in-added=[]
+  REMOVED: 'going to send their reviews to the newsroom.' | nonCJK-tokens=['going', 'to', 'send', 'their', 'reviews', 'to', 'the', 'newsroom'] | tokens-NOT-in-added=[]
+  REMOVED: 'going to tell the story in five sentences. · 44. Are you going' | nonCJK-tokens=['going', 'to', 'tell', 'the', 'story', 'in', 'five', 'sentences', '44', 'Are', 'you', 'going'] | tokens-NOT-in-added=[]
+  REMOVED: "has（have → has） · 108. He doesn't like voting early.（三" | nonCJK-tokens=['hashave', 'has', '108', 'He', 'doesn', 't', 'like', 'voting', 'early'] | tokens-NOT-in-added=['hashave']
+  REMOVED: 'hour more. · 19. Are they going to fall back on Sunday ?（' | nonCJK-tokens=['hour', 'more', '19', 'Are', 'they', 'going', 'to', 'fall', 'back', 'on', 'Sunday'] | tokens-NOT-in-added=[]
+  REMOVED: "last week's.（bigger 已含比较级，不要再加 more） · 111." | nonCJK-tokens=['last', 'week', 's', 'bigger', 'more', '111'] | tokens-NOT-in-added=[]
+  REMOVED: 'line（line = 排队（美式英语）） · 147. ballot（ballot = 选票' | nonCJK-tokens=['lineline', '147', 'ballotballot'] | tokens-NOT-in-added=['lineline', 'ballotballot']
+  REMOVED: 'result.' | nonCJK-tokens=['result'] | tokens-NOT-in-added=[]
+  REMOVED: 'shape · 95. register · 96. patience · 97. optional · 98.' | nonCJK-tokens=['shape', '95', 'register', '96', 'patience', '97', 'optional', '98'] | tokens-NOT-in-added=[]
+  REMOVED: 'sticker 贴纸） · 117. C（will + 动词原形 know） · 118. B（' | nonCJK-tokens=['sticker', '117', 'Cwill', 'know', '118', 'B'] | tokens-NOT-in-added=['Cwill']
+  REMOVED: 'the cat film.（are going to + 原形） · 134. The clocks fell' | nonCJK-tokens=['the', 'cat', 'film', 'are', 'going', 'to', '134', 'The', 'clocks', 'fell'] | tokens-NOT-in-added=[]
+  REMOVED: 'to + 原形 vote） · 128. C（too close to call = 难分胜负） ·' | nonCJK-tokens=['to', 'vote', '128', 'Ctoo', 'close', 'to', 'call'] | tokens-NOT-in-added=['Ctoo']
+  REMOVED: 'to choose the monster ?（疑问句：be 提前） · 45. They are' | nonCJK-tokens=['to', 'choose', 'the', 'monster', 'be', '45', 'They', 'are'] | tokens-NOT-in-added=[]
+  REMOVED: 'to watch the film on Friday. · 18. We are going to sleep one' | nonCJK-tokens=['to', 'watch', 'the', 'film', 'on', 'Friday', '18', 'We', 'are', 'going', 'to', 'sleep', 'one'] | tokens-NOT-in-added=[]
+  REMOVED: 'turnout = 投票率 a） · 145. ID（投票时出示证件 ID） · 146.' | nonCJK-tokens=['turnout', 'a', '145', 'ID', 'ID', '146'] | tokens-NOT-in-added=[]
+  REMOVED: "watching the results at home. · 81. She is waiting for Ohio's" | nonCJK-tokens=['watching', 'the', 'results', 'at', 'home', '81', 'She', 'is', 'waiting', 'for', 'Ohio', 's'] | tokens-NOT-in-added=[]
+  REMOVED: '· 25. a · 26. d · 27. c' | nonCJK-tokens=['25', 'a', '26', 'd', '27', 'c'] | tokens-NOT-in-added=[]
+  REMOVED: '· 62. They followed the scores on their phones. · 63. He' | nonCJK-tokens=['62', 'They', 'followed', 'the', 'scores', 'on', 'their', 'phones', '63', 'He'] | tokens-NOT-in-added=[]
+  REMOVED: '· 79. Friends are sending messages tonight. · 80. We are' | nonCJK-tokens=['79', 'Friends', 'are', 'sending', 'messages', 'tonight', '80', 'We', 'are'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 1 版 —' | nonCJK-tokens=['1'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 2 版 —' | nonCJK-tokens=['2'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 3 版 —' | nonCJK-tokens=['3'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 4 版 —' | nonCJK-tokens=['4'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 5 版 —' | nonCJK-tokens=['5'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 6 版 —' | nonCJK-tokens=['6'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 7 版 —' | nonCJK-tokens=['7'] | tokens-NOT-in-added=[]
+  REMOVED: '— 第 8 版 —' | nonCJK-tokens=['8'] | tokens-NOT-in-added=[]
+  REMOVED: '“是否”从句） · 137. 耐心是制度的一部分，而不是制度的失' | nonCJK-tokens=['137'] | tokens-NOT-in-added=[]
+  REMOVED: '一句周日夜里拨回的时钟。' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '不用排队比旅行多 17 个百分点） · 87. C（图表是教学数据非' | nonCJK-tokens=['17', '87', 'C'] | tokens-NOT-in-added=[]
+  REMOVED: "单否定用 doesn't + 原形） · 109. Yesterday the clocks fell" | nonCJK-tokens=['doesn', 't', '109', 'Yesterday', 'the', 'clocks', 'fell'] | tokens-NOT-in-added=[]
+  REMOVED: '原形）' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '否） · 126. A（将来时 will + 动词原形） · 127. A（be going' | nonCJK-tokens=['126', 'A', 'will', '127', 'Abe', 'going'] | tokens-NOT-in-added=['Abe']
+  REMOVED: '周日重聚节目收尾） · 34. opens · 35. taller · 36. louder ·' | nonCJK-tokens=['34', 'opens', '35', 'taller', '36', 'louder'] | tokens-NOT-in-added=[]
+  REMOVED: '如既往难分胜负） · 133. On Friday, they are going to watch' | nonCJK-tokens=['133', 'On', 'Friday', 'they', 'are', 'going', 'to', 'watch'] | tokens-NOT-in-added=[]
+  REMOVED: '已发生的事用 fell） · 123. B（than → 比较级 bigger） ·' | nonCJK-tokens=['fell', '123', 'Bthan', 'bigger'] | tokens-NOT-in-added=['Bthan']
+  REMOVED: '形） · 103. is · 104. will · 105. is · 106. changes · 107.' | nonCJK-tokens=['103', 'is', '104', 'will', '105', 'is', '106', 'changes', '107'] | tokens-NOT-in-added=[]
+  REMOVED: '教书） · 131. A（贴纸上写着 I VOTED） · 132. B（俄亥俄一' | nonCJK-tokens=['131', 'A', 'I', 'VOTED', '132', 'B'] | tokens-NOT-in-added=[]
+  REMOVED: '日周二是美国的选举日。（Election Day 选举日；on Tuesday' | nonCJK-tokens=['Election', 'Day', 'on', 'Tuesday'] | tokens-NOT-in-added=[]
+  REMOVED: '是 11 月 3 日周二） · 150. 开放题 — 要点见写作框，范文在第' | nonCJK-tokens=['11', '3', '150'] | tokens-NOT-in-added=[]
+  REMOVED: '期两年） · 90. C · 91. B（邮寄选票计票需时间） · 92. A（' | nonCJK-tokens=['90', 'C', '91', 'B', '92', 'A'] | tokens-NOT-in-added=[]
+  REMOVED: '本期不印民调与预测） · 93. C（耐心是制度的一部分） · 94.' | nonCJK-tokens=['93', 'C', '94'] | tokens-NOT-in-added=[]
+  REMOVED: '然） · 72. map · 73. phone · 74. c（map=选举地图 c） ·' | nonCJK-tokens=['72', 'map', '73', 'phone', '74', 'cmap', 'c'] | tokens-NOT-in-added=['cmap']
+  REMOVED: '猫配音） · 31. B（哥斯拉导演是山崎贵） · 32. A · 33. C（' | nonCJK-tokens=['31', 'B', '32', 'A', '33', 'C'] | tokens-NOT-in-added=[]
+  REMOVED: '用英语写 80–100 词：我的 11 月 3 日周二。写清你是否看了结果、吃了什么、地图显示了什么，再写' | nonCJK-tokens=['80', '100', '11', '3'] | tokens-NOT-in-added=[]
+  REMOVED: '疑问句：be 提前） · 20. B · 21. C · 22. A · 23. B · 24. b' | nonCJK-tokens=['be', '20', 'B', '21', 'C', '22', 'A', '23', 'B', '24', 'b'] | tokens-NOT-in-added=[]
+  REMOVED: '真实民调） · 88. B（各州自行组织选举） · 89. A（众议员任' | nonCJK-tokens=['88', 'B', '89', 'A'] | tokens-NOT-in-added=[]
+  REMOVED: '第 8 版 / 共 8 版' | nonCJK-tokens=['8', '8'] | tokens-NOT-in-added=[]
+  REMOVED: '翻译：On Sunday, the NFL plays in Madrid.' | nonCJK-tokens=['On', 'Sunday', 'the', 'NFL', 'plays', 'in', 'Madrid'] | tokens-NOT-in-added=[]
+  REMOVED: '翻译：Tuesday, November 3, is Election' | nonCJK-tokens=['Tuesday', 'November', '3', 'is', 'Election'] | tokens-NOT-in-added=[]
+  REMOVED: '萨） · 67. B（第二屏是手机） · 68. A（孩子问为什么这么久' | nonCJK-tokens=['67', 'B', '68', 'A'] | tokens-NOT-in-added=[]
+  REMOVED: '败。（part of 一部分；not a failure 不是失败） · 138. 11 月 3' | nonCJK-tokens=['part', 'of', 'not', 'a', 'failure', '138', '11', '3'] | tokens-NOT-in-added=[]
+  REMOVED: '迈阿密） · 49. A · 50. C · 51. B（拳击赛在阿灵顿） · 52.' | nonCJK-tokens=['49', 'A', '50', 'C', '51', 'B', '52'] | tokens-NOT-in-added=[]
+  REMOVED: '选项：' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '配对' | nonCJK-tokens=[] | tokens-NOT-in-added=[]
+  REMOVED: '（governor = 州长 c） · 143. d（ballot = 选票 d） · 144. a（' | nonCJK-tokens=['governor', 'c', '143', 'dballot', 'd', '144', 'a'] | tokens-NOT-in-added=['dballot']
+  REMOVED: '（map 地图逐州变色） · 115. B（close 接近的） · 116. A（' | nonCJK-tokens=['map', '115', 'Bclose', '116', 'A'] | tokens-NOT-in-added=['Bclose']
+  REMOVED: '（tall → taller（比较级）） · 136. Whether（whether 引导' | nonCJK-tokens=['tall', 'taller', '136', 'Whetherwhether'] | tokens-NOT-in-added=['Whetherwhether']
+  REMOVED: '） · 139. 这周日，NFL 在马德里比赛。（on Sunday；in' | nonCJK-tokens=['139', 'NFL', 'on', 'Sundayin'] | tokens-NOT-in-added=['Sundayin']
+  REMOVED: '） · 148. sticker（sticker = 贴纸） · 149. Tuesday（选举日' | nonCJK-tokens=['148', 'stickersticker', '149', 'Tuesday'] | tokens-NOT-in-added=['stickersticker']
+  REMOVED: '） · 69. C（结果早上还在） · 70. close · 71. still（still = 仍' | nonCJK-tokens=['69', 'C', '70', 'close', '71', 'stillstill'] | tokens-NOT-in-added=['stillstill']
+  REMOVED: '；change 变化） · 141. b（midterm = 中期选举 b） · 142. c' | nonCJK-tokens=['change', '141', 'bmidterm', 'b', '142', 'c'] | tokens-NOT-in-added=['bmidterm']
+-- ADDED --
+  ADDED: '(1:30 = half past one) · 121. A (we → get (infinitief)) · 122. B (Voor'
+  ADDED: '(De kat komt uit een boek van Dr. Seuss) · 30. C (Bill Hader is de'
+  ADDED: '(De nacht van 1 november duurt 25 uur) · 24. b (costume ='
+  ADDED: '(De vier samen: 100%) · 85. B (Gewoonte het minst: 12%) · 86. A'
+  ADDED: '(Election Day = verkiezingsdag; on Tuesday) · 139. Deze zondag'
+  ADDED: '(Geen rijen 17 punten meer dan reizen) · 87. C (De grafiek is'
+  ADDED: '(Verkiezingsdag is dinsdag 3 november) · 150. Open vraag — punten'
+  ADDED: '(Verkiezingsdag: dinsdag 3 november) · 8. C (Alle 435 zetels in het'
+  ADDED: '(ballot = stembiljet) · 148. sticker (sticker = sticker) · 149. Tuesday'
+  ADDED: '(big → bigger) · 55. faster (fast → faster) · 56. b (fixture = wedstrijd'
+  ADDED: '(catchphrase = slogan a) · 40. d (series = serie d) · 41. c (open = in'
+  ADDED: '(change → is changing) · 79. Friends are sending messages tonight.'
+  ADDED: '(governor = gouverneur c) · 143. d (ballot = stembiljet d) · 144. a'
+  ADDED: '(map = kaart die per staat kleurt) · 115. B (close = spannend,'
+  ADDED: '(patience = geduld) · 97. optional (optional = optioneel) · 98.'
+  ADDED: '(private = privé)'
+  ADDED: '(race = verkiezingsstrijd d) · 76. b (result = uitslag b) · 77. a (call ='
+  ADDED: '(send → are sending) · 80. We are watching the results at home.'
+  ADDED: '(too close to call = we weten het nog niet) · 66. C (Op'
+  ADDED: '(turnout = opkomst a) · 145. ID (Toon je identiteitsbewijs bij het'
+  ADDED: '(verkiezing)) · 3. November 3 (Verkiezingsdag: dinsdag 3 november)'
+  ADDED: "(watch → are watching) · 81. She is waiting for Ohio's result. (wait →"
+  ADDED: '(we → are going to) · 43. She is going to tell the story in five'
+  ADDED: '(whether = of) · 126. A (Toekomst: will + infinitief) · 127. A (be'
+  ADDED: '1. ballot (ballot = stembiljet) · 2. midterm (midterm = tussentijds'
+  ADDED: '100. is (is = zijn) · 101. happened (happen → happened) · 102.'
+  ADDED: '11. one (1:00 = één uur precies) · 12. half past (1:30 = half twee) ·'
+  ADDED: '112. B (3 november is een dinsdag) · 113. A (pizza = pizza) · 114. C'
+  ADDED: '118. B (be going to → is going) · 119. A (still = nog steeds) · 120. B'
+  ADDED: '13. quarter to (7:45 = kwart voor acht) · 14. twice (twee keer = twice)'
+  ADDED: "2 uur 's nachts terug naar 1 uur) · 21. C (Arizona en Hawaï zetten de"
+  ADDED: '28. B (De kattenfilm gaat op vrijdag 6 november in première) · 29. A'
+  ADDED: '46. A (In Madrid: Bengals tegen Falcons) · 47. C (Het stadion in'
+  ADDED: '49. A (De Grand Prix van São Paulo is in Brazilië) · 50. C (De WTA'
+  ADDED: '53. begin (Zoals in het artikel op pagina 4, meervoud) · 54. bigger'
+  ADDED: '64. B (De kaart kleurt mee met de resultaten, staat per staat) · 65. A'
+  ADDED: "69. C (De resultaten zijn er 's ochtends nog) · 70. close (close ="
+  ADDED: '82. B (38% koos « geen rijen ») · 83. C (Werk als reden: 29%) · 84. A'
+  ADDED: '90. C (Senatoren dienen zes jaar, telkens ongeveer een derde'
+  ADDED: '= de klok terugzetten d) · 27. c (trick or treat = snoep of je leven c)'
+  ADDED: '= uitslag bekend) · 6. takes (take time = tijd kosten) · 7. B'
+  ADDED: 'A (despite + zelfstandig naamwoord: ondanks de regen) · 125. A'
+  ADDED: 'A · CLOZE · Gatentekst'
+  ADDED: 'ANSWERS · Alle antwoorden met toelichting (pagina 1–8)'
+  ADDED: 'Arlington) · 52. defends (defend + s in de 3e persoon enkelvoud) ·'
+  ADDED: 'B · MULTIPLE CHOICE · Meerkeuze'
+  ADDED: 'C · READING · Leestekst'
+  ADDED: 'Combineer'
+  ADDED: 'D · SENTENCES · Zinnen vormen'
+  ADDED: 'Dinsdag 3 november is verkiezingsdag in de Verenigde Staten.'
+  ADDED: 'E · TRANSLATION · Vertalen'
+  ADDED: 'EXERCISES & ANSWERS · Oefeningen en antwoorden'
+  ADDED: 'F · WORDS · Woorden combineren'
+  ADDED: 'FINAL TEST · Eindtoets · Answers at the bottom of this page · Antwoorden onderaan deze pagina'
+  ADDED: 'Finals beginnen in Indian Wells) · 51. B (De bokswedstrijd is in'
+  ADDED: 'G · DIALOGUE · Dialoog aanvullen'
+  ADDED: 'H · WRITING · Schrijven [B1]'
+  ADDED: 'Huis verkiesbaar) · 9. A (Amerika zette op 1 november de klok terug)'
+  ADDED: 'MODEL · Voorbeeldtekst'
+  ADDED: 'Madrid is het Bernabéu) · 48. B (Dolphins tegen Lions in Miami) ·'
+  ADDED: 'Madrid.'
+  ADDED: 'Niet elke plaats zet de klok terug. (not every = niet elke; change ='
+  ADDED: 'Opties:'
+  ADDED: 'Pagina 8 van 8'
+  ADDED: 'Schrijf in het Engels (80–100 woorden): « Mijn dinsdag, 3 november ». Vertel of je de resultaten'
+  ADDED: 'São Paulo. (watch → watched) · 62. They followed the scores on'
+  ADDED: 'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS'
+  ADDED: 'The clocks fell back on Sunday. (fall → fell (onregelmatig)) · 135.'
+  ADDED: 'VOTED) · 132. B (Ohio is als altijd nog niet beslist) · 133. On Friday,'
+  ADDED: 'Vertaal: On Sunday, the NFL plays in'
+  ADDED: 'Vertaal: Tuesday, November 3, is Election'
+  ADDED: 'Vertaal: « Not every place changes. »'
+  ADDED: 'Vertaal: « Patience is part of the system,'
+  ADDED: 'Yamazaki) · 32. A (« Black Doves » seizoen 2 begint op 5 november)'
+  ADDED: 'back on Sunday ? (Vraagzin: be vooraan) · 20. B (Op 1 november om'
+  ADDED: 'beslissen) · 129. B (In de tekst: a teacher from Ohio) · 130. B (Op'
+  ADDED: 'de telefoon) · 68. A (Kinderen vragen waarom het zo lang duurt) ·'
+  ADDED: 'dichtbij) · 116. A (sticker = sticker) · 117. C (will + infinitief know) ·'
+  ADDED: 'dichtbij, spannend) · 71. still (still = nog steeds) · 72. map (Zoals in'
+  ADDED: 'differs (differ → differs in de 3e persoon enkelvoud) · 99. private'
+  ADDED: 'dinsdag geeft hij de hele dag les) · 131. A (Op de sticker staat I'
+  ADDED: 'een deel van het systeem) · 94. shape (shape = beïnvloeden,'
+  ADDED: 'een of-zin in) · 137. Geduld is een deel van het systeem, geen falen'
+  ADDED: "every → changes) · 107. has (have → has) · 108. He doesn't like"
+  ADDED: 'fan a) · 59. c (defend = titel verdedigen c) · 60. The Bengals played'
+  ADDED: 'film on Friday. (Na going to volgt de infinitief)'
+  ADDED: 'fully. (choose → chose)'
+  ADDED: 'going to + infinitief vote) · 128. C (too close to call = nog niet te'
+  ADDED: 'hebt gevolgd, wat je hebt gegeten, wat de kaart liet zien — en één zin over de klokken die op'
+  ADDED: 'het artikel op pagina 5, enkelvoud) · 73. phone (Zoals in het artikel'
+  ADDED: 'iets gebeurds: fell) · 123. B (than → vergrotende trap bigger) · 124.'
+  ADDED: 'in Madrid on Sunday. (play → played) · 61. She watched the race in'
+  ADDED: 'in het schrijfblok; voorbeeldtekst in het kader op pagina 8 (Beoordeel'
+  ADDED: 'in het speelschema b) · 57. d (title = kampioenstitel d) · 58. a (fan ='
+  ADDED: 'infinitief) · 109. Yesterday the clocks fell back. (Verleden tijd van fall'
+  ADDED: "is fell) · 110. This game is bigger than last week's. (bigger bevat al de"
+  ADDED: 'is waiting)'
+  ADDED: 'klok niet terug) · 22. A (Halloween op zaterdag 31 oktober) · 23. B'
+  ADDED: 'monster ? (Vraagzin: be vooraan) · 45. They are going to send their'
+  ADDED: 'nummer drukt geen peilingen of voorspellingen) · 93. C (Geduld is'
+  ADDED: 'oefenmateriaal, geen echte peiling) · 88. B (De staten organiseren'
+  ADDED: 'on Tuesday. (Americans meervoud → are going to) · 17. She is going'
+  ADDED: 'op pagina 5, enkelvoud) · 74. c (map = verkiezingskaart c) · 75. d'
+  ADDED: 'op punten)'
+  ADDED: 'opens (open = in première gaan (3e persoon enkelvoud + s)) · 35.'
+  ADDED: 'première gaan c) · 42. We are going to watch the cat film on Friday.'
+  ADDED: 'reviews to the newsroom. (they → are going to)'
+  ADDED: 'sentences. (she → is going to) · 44. Are you going to choose the'
+  ADDED: 'sleep one hour more. (we → are going to) · 19. Are they going to fall'
+  ADDED: 'speelt de NFL in Madrid. (on Sunday = op zondag; in Madrid) · 140.'
+  ADDED: 'stem van de kat) · 31. B (De regisseur van Godzilla is Takashi'
+  ADDED: 'stemmen) · 146. line (line = rij (Amerikaans Engels)) · 147. ballot'
+  ADDED: 'still = nog steeds) · 105. is (is part of = een deel) · 106. changes (not'
+  ADDED: 'taller (tall → taller (vergrotende trap)) · 136. Whether (whether leidt'
+  ADDED: 'taller (tall → taller (vergrotende trap)) · 36. louder (loud → louder)'
+  ADDED: 'their phones. (follow → followed) · 63. He chose one game to watch'
+  ADDED: 'they are going to watch the cat film. (are going to + infinitief) · 134.'
+  ADDED: 'to watch the film on Friday. (she → is going to) · 18. We are going to'
+  ADDED: 'van het systeem. (part of = een deel; not a failure = geen falen) · 138.'
+  ADDED: 'veranderen) · 141. b (midterm = tussentijdse verkiezing b) · 142. c'
+  ADDED: 'vergrotende trap, geen more erbij) · 111. She is going to watch the'
+  ADDED: 'verkiesbaar) · 91. B (Poststemmen tellen kost tijd) · 92. A (Dit'
+  ADDED: 'verkiezingsnacht eet men vaak pizza) · 67. B (Het tweede scherm is'
+  ADDED: 'verkleding b) · 25. a (extra hour = een uur extra a) · 26. d (fall back'
+  ADDED: 'vormgeven) · 95. register (register = je registreren) · 96. patience'
+  ADDED: "voting early. (Ontkenning in de 3e persoon enkelvoud: doesn't +"
+  ADDED: 'winnaar bekendmaken a) · 78. The map is changing colour now.'
+  ADDED: 'would (would + infinitief) · 103. is (that is = dat is) · 104. will (will'
+  ADDED: 'zelf de verkiezingen) · 89. A (Leden van het Huis dienen twee jaar) ·'
+  ADDED: 'zondagnacht zijn teruggezet.'
+  ADDED: '· 10. B (NFL-wedstrijd in Madrid op zondag 8 november)'
+  ADDED: '· 15. extra (een extra uur = extra) · 16. Americans are going to vote'
+  ADDED: '· 33. C (De week sluit af met het reünieprogramma op zondag) · 34.'
+  ADDED: '· 37. split (split = verdeeld) · 38. b (monster = monster b) · 39. a'
+  ADDED: '· 4. early (early voting = vervroegd stemmen) · 5. called (race called'
+  ADDED: '— Pagina 1 —'
+  ADDED: '— Pagina 2 —'
+  ADDED: '— Pagina 3 —'
+  ADDED: '— Pagina 4 —'
+  ADDED: '— Pagina 5 —'
+  ADDED: '— Pagina 6 —'
+  ADDED: '— Pagina 7 —'
+  ADDED: '— Pagina 8 —'
+

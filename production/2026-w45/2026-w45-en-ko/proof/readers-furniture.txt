@@ -1,0 +1,32 @@
+=== READERS CORNER P7 x>=1013 y 1900-2200 ===
+--- CORE ---
+  x=1013.0 y=1918.0 :: "READERS' CORNER · 读者园地"
+  x=1013.0 y=1956.0 :: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  x=1013.0 y=1986.53 :: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  x=1013.0 y=2017.06 :: 'went to press, so the example stays, honestly labeled)'
+  x=1013.0 y=2076.0 :: '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作'
+  x=1013.0 y=2104.0 :: '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+  x=1013.0 y=2132.0 :: '。'
+  joined disclosure lines: 编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作 投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信 。
+--- ED ---
+  x=1013.0 y=1918.0 :: "READERS' CORNER · 독자 코너"
+  x=1013.0 y=1956.0 :: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  x=1013.0 y=1986.53 :: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  x=1013.0 y=2017.06 :: 'went to press, so the example stays, honestly labeled)'
+  x=1013.0 y=2076.0 :: '편집부 알림｜VOL.1에서는 VOL.2에 실제 편지를 싣겠다고 약속했지만, 발행 때까지 실제 편지도'
+  x=1013.0 y=2104.0 :: 'VOL.1 쓰기 투고도 도착하지 않았어요. 편지를 지어내지 않고 예시를 싣습니다. 여러분의 편지와 쓰기를'
+  x=1013.0 y=2132.0 :: '보내 주세요. VOL.3부터 실제 편지를 싣겠습니다.'
+  joined disclosure lines: 편집부 알림｜VOL.1에서는 VOL.2에 실제 편지를 싣겠다고 약속했지만, 발행 때까지 실제 편지도 VOL.1 쓰기 투고도 도착하지 않았어요. 편지를 지어내지 않고 예시를 싣습니다. 여러분의 편지와 쓰기를 보내 주세요. VOL.3부터 실제 편지를 싣겠습니다.
+
+=== BEST P8 COMPOSITION coverage ===
+  CORE-BUILD: 'ara(rx + 24, by7 + 206, "编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信。", 20, "sans", False, GREY, rw '
+  ED-BUILD: 'a(rx + 24, by7 + 206, "편집부 알림｜VOL.1에서는 VOL.2에 실제 편지를 싣겠다고 약속했지만, 발행 때까지 실제 편지도 VOL.1 쓰기 투고도 도착하지 않았어요. 편지를 지어내지 않고 예시를 싣습니다. 여러분의 편지와 쓰기를 보내 주세요. VOL.3부터 실'
+
+=== P8 H writing prompt + MODEL (core vs ed, joined) ===
+--- CORE ---
+  x=65.0 y=1562.0 :: 'Write a short text (80 to 100 words) : « My Tuesday, November 3 ». Tell us : did you'
+  x=1011.0 y=1538.0 :: 'MODEL · 范文'
+--- ED ---
+  x=65.0 y=1562.0 :: 'Write a short text (80 to 100 words) : « My Tuesday, November 3 ». Tell us : did you'
+  x=1011.0 y=1538.0 :: 'MODEL · 모범 답안'
+  x=1451.0 y=1935.95 :: '에, 모범 답안은 8면 쓰기 칸 안에 (기준 항목대로 채점해요)'

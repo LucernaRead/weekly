@@ -1,0 +1,19 @@
+--- KO answer groups by source page ---
+  source p1: answers 1..10 count=8 -> exercises on page = 10 (cumulative 10)
+  source p2: answers 11..31 count=19 -> exercises on page = 21 (cumulative 31)
+  source p3: answers 29..44 count=14 -> exercises on page = 13 (cumulative 44)
+  source p4: answers 47..64 count=16 -> exercises on page = 20 (cumulative 64)
+  source p5: answers 65..82 count=17 -> exercises on page = 18 (cumulative 82)
+  source p7: answers 101..112 count=10 -> exercises on page = 30 (cumulative 112)
+  source p8: answers 113..135 count=23 -> exercises on page = 23 (cumulative 135)
+  total distinct answers grouped: 106, missing: [4, 7, 35, 37, 45, 46, 50, 61, 71, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 103, 105, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- CORE answer groups by source page ---
+  source p1: answers 1..10 count=10 -> exercises on page = 10 (cumulative 10)
+  source p2: answers 11..31 count=19 -> exercises on page = 21 (cumulative 31)
+  source p3: answers 29..42 count=14 -> exercises on page = 11 (cumulative 42)
+  source p4: answers 47..64 count=16 -> exercises on page = 22 (cumulative 64)
+  source p5: answers 65..80 count=14 -> exercises on page = 16 (cumulative 80)
+  source p6: answers 83..99 count=16 -> exercises on page = 19 (cumulative 99)
+  source p7: answers 101..112 count=11 -> exercises on page = 13 (cumulative 112)
+  source p8: answers 113..119 count=7 -> exercises on page = 7 (cumulative 119)
+  total distinct answers grouped: 106, missing: [43, 44, 45, 46, 49, 58, 67, 76, 81, 82, 95, 100, 106, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]

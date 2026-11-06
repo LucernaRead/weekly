@@ -1,0 +1,103 @@
+=== ED P1 DINSDAG line + same-y neighbours ===
+{'x': '1855', 'y': '478', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'end', 'text': 'DINSDAG VERKIEZINGSDAG · KLOK TERUG'}
+ same y:
+   {'x': '95', 'y': '478', 'size': '38', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !'}
+   {'x': '1855', 'y': '478', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'end', 'text': 'DINSDAG VERKIEZINGSDAG · KLOK TERUG'}
+=== CORE P1 same region: lines containing TUESDAY/ELECTION/CLOCK ===
+{'x': '95', 'y': '478', 'size': '38', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !'}
+{'x': '95', 'y': '522', 'size': '23.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Election Day is Tuesday, November 3. On Sunday, November 1, America turned its clocks back one hour.'}
+{'x': '65', 'y': '672', 'size': '44', 'fam': 'Noto Serif CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'America Votes : Election Day Comes on Tuesday, November 3'}
+{'x': '65', 'y': '797.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, November 3, is Election'}
+{'x': '65', 'y': '1402.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, the voting places open'}
+{'x': '65', 'y': '1551.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'What happens on Tuesday night ?'}
+{'x': '65', 'y': '1817.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'on Tuesday night ; others take days.'}
+{'x': '989', 'y': '1122.1999999999998', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Election Day is Tuesday, ___.'}
+{'x': '989', 'y': '1338.3749999999995', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Some races are ___ on Tuesday night ;'}
+{'x': '65', 'y': '2243.65', 'size': '19', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'moment. On Tuesday, millions of Americans will do the same.'}
+{'x': '989', 'y': '1981.7', 'size': '22.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'and games : the ballots on Tuesday, the'}
+{'x': '1473', 'y': '1966', 'size': '20', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'ELECTION'}
+{'x': '1473', 'y': '1994', 'size': '20', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, November 3 : Election Day. All'}
+{'x': '1473', 'y': '2078.4', 'size': '20', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'CLOCKS'}
+{'x': '65', 'y': '2449.45', 'size': '21', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, November 3 · C. November 8'}
+{'x': '1451', 'y': '2449.45', 'size': '21', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': '· B. Sunday, November 8 · C. Tuesday'}
+=== ED P1 all texts with y of dark band? dump P1 first 60 ===
+{'x': '65', 'y': '92', 'size': '23', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'VOL. 2'}
+{'x': '975', 'y': '92', 'size': '21', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'middle', 'text': 'WEEKLY IN ENGLISH · ELKE WEEK EEN NUMMER · HET ENGELS DAT AMERIKA LEEST'}
+{'x': '1885', 'y': '92', 'size': '23', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'end', 'text': 'WEEK OF NOVEMBER 2 TO 8, 2026'}
+{'x': '975', 'y': '262', 'size': '168', 'fam': 'UnifrakturMaguntia', 'bold': None, 'anchor': 'middle', 'text': 'The Lucerna'}
+{'x': '975', 'y': '330', 'size': '46', 'fam': 'Noto Serif CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'ENGELS WEEKBLAD · VOL.2 · STEMMEN · VOETBAL · FILMS'}
+{'x': '975', 'y': '372', 'size': '19.5', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'}
+{'x': '95', 'y': '478', 'size': '38', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !'}
+{'x': '95', 'y': '522', 'size': '23.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Election Day is Tuesday, November 3. On Sunday, November 1, America turned its clocks back one hour.'}
+{'x': '1855', 'y': '478', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'end', 'text': 'DINSDAG VERKIEZINGSDAG · KLOK TERUG'}
+{'x': '1855', 'y': '522', 'size': '21', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'end', 'text': 'Dinsdag 3 november verkiezingsdag · Zie pagina 6'}
+{'x': '65', 'y': '606', 'size': '22', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'THE BIG STORY · Hoofdverhaal'}
+{'x': '65', 'y': '672', 'size': '44', 'fam': 'Noto Serif CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'America Votes : Election Day Comes on Tuesday, November 3'}
+{'x': '65', 'y': '752.8', 'size': '20', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'start', 'text': 'By The Lucerna newsroom · Reading level : A2'}
+{'x': '65', 'y': '797.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, November 3, is Election'}
+{'x': '65', 'y': '835.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Day in the United States. It is a'}
+{'x': '65', 'y': '873.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'midterm election — an election in'}
+{'x': '65', 'y': '911.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': "the middle of a president's"}
+{'x': '65', 'y': '949.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'four-year term. All 435 seats in the'}
+{'x': '65', 'y': '987.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'House of Representatives are on'}
+{'x': '65', 'y': '1025.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'the ballot, along with about a third'}
+{'x': '65', 'y': '1063.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'of the Senate and governorships in'}
+{'x': '65', 'y': '1101.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'many states.'}
+{'x': '65', 'y': '1174.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'In many states, voting has already'}
+{'x': '65', 'y': '1212.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'started. Early voting lets people'}
+{'x': '65', 'y': '1250.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'vote before Election Day : you go to'}
+{'x': '65', 'y': '1288.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'a voting place, you show your ID,'}
+{'x': '65', 'y': '1326.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'you mark your ballot, and your'}
+{'x': '65', 'y': '1364.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'vote counts on election night. On'}
+{'x': '65', 'y': '1402.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Tuesday, the voting places open'}
+{'x': '65', 'y': '1440.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'early in the morning and close in'}
+{'x': '65', 'y': '1478.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'the evening.'}
+{'x': '65', 'y': '1551.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'What happens on Tuesday night ?'}
+{'x': '65', 'y': '1589.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Television channels show maps'}
+{'x': '65', 'y': '1627.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'that slowly change colour, state by'}
+{'x': '65', 'y': '1665.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'state. But nobody should expect'}
+{'x': '65', 'y': '1703.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'every result at midnight : each state'}
+{'x': '65', 'y': '1741.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'runs its own election, and counting'}
+{'x': '65', 'y': '1779.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'takes time. Some races are called'}
+{'x': '65', 'y': '1817.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'on Tuesday night ; others take days.'}
+{'x': '527', 'y': '797.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'And that is only half of the week.'}
+{'x': '527', 'y': '835.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'On Friday, November 6, two big'}
+{'x': '527', 'y': '873.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'films open in cinemas. On Sunday,'}
+{'x': '527', 'y': '911.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'November 8, American football'}
+{'x': '527', 'y': '949.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'goes to Madrid, Spain, and'}
+{'x': '527', 'y': '987.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Formula 1 races in São Paulo,'}
+{'x': '527', 'y': '1025.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Brazil. Our sport dossier is on page'}
+{'x': '527', 'y': '1063.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': '4.'}
+{'x': '527', 'y': '1136.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'This is the second issue of The'}
+{'x': '527', 'y': '1174.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Lucerna in English. Last issue'}
+{'x': '527', 'y': '1212.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': "promised real readers' letters —"}
+{'x': '527', 'y': '1250.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': "and this week, our Readers' Corner"}
+{'x': '527', 'y': '1288.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'on page 7 tells you honestly where'}
+{'x': '527', 'y': '1326.8', 'size': '25', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'those letters stand. Welcome back !'}
+{'x': '527', 'y': '1395.3', 'size': '20.5', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Uitleg — midterm = tussentijdse verkiezing ·'}
+{'x': '527', 'y': '1425.0249999999999', 'size': '20.5', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'start', 'text': 'ballot = stembiljet · race = verkiezingsstrijd'}
+{'x': '527', 'y': '1454.75', 'size': '20.5', 'fam': 'Noto Sans CJK SC', 'bold': None, 'anchor': 'start', 'text': '· to call a race = uitslag bekendmaken.'}
+{'x': '545', 'y': '1530.475', 'size': '23', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'THE WEEK IN NUMBERS · Cijfers'}
+{'x': '545', 'y': '1564.975', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Nov 3 — Election Day (verkiezingsdag) ·'}
+{'x': '545', 'y': '1592.6499999999999', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': '435 — seats in the House, all on the'}
+{'x': '545', 'y': '1620.3249999999998', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'ballot (alle zetels in het Huis'}
+{'x': '545', 'y': '1647.9999999999998', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'verkiesbaar)'}
+{'x': '545', 'y': '1701.1749999999997', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Nov 6 — two films open (twee films) ·'}
+{'x': '545', 'y': '1728.8499999999997', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Nov 8 — NFL in Madrid + F1 in São'}
+{'x': '545', 'y': '1756.5249999999996', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Paulo (twee topwedstrijden op zondag)'}
+{'x': '989', 'y': '797.8', 'size': '25', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': 'TRY IT NOW · Oefen nu'}
+{'x': '1019', 'y': '845.8', 'size': '19', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'A2'}
+{'x': '1061', 'y': '846.8', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': '1.'}
+{'x': '989', 'y': '876.3', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'You mark your choice on a ___ and put it in'}
+{'x': '989', 'y': '906.025', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'the box.'}
+{'x': '1019', 'y': '968.75', 'size': '19', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'A2'}
+{'x': '1061', 'y': '969.75', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': '2.'}
+{'x': '989', 'y': '999.25', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'An election in the middle of a term is a ___'}
+{'x': '989', 'y': '1028.975', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'election.'}
+{'x': '1019', 'y': '1091.6999999999998', 'size': '19', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'A2'}
+{'x': '1061', 'y': '1092.6999999999998', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': '3.'}
+{'x': '989', 'y': '1122.1999999999998', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Election Day is Tuesday, ___.'}
+{'x': '1019', 'y': '1184.9249999999997', 'size': '19', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'middle', 'text': 'A2'}
+{'x': '1061', 'y': '1185.9249999999997', 'size': '24', 'fam': 'Noto Sans CJK SC', 'bold': '700', 'anchor': 'start', 'text': '4.'}
+{'x': '989', 'y': '1215.4249999999997', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'Voting before Election Day is called ___'}
+{'x': '989', 'y': '1245.1499999999996', 'size': '20.5', 'fam': 'Noto Serif CJK SC', 'bold': None, 'anchor': 'start', 'text': 'voting.'}

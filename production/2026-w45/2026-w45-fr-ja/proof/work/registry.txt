@@ -1,0 +1,25 @@
+=== ED
+p1-une.svg levels {'A2': 8, 'B1': 5, 'B2': 1} level-total 14 num-starts (1, 10, 10)
+p2-vie.svg levels {'A2': 11, 'B1': 1} level-total 12 num-starts (11, 25, 15)
+p3-culture.svg levels {'A2': 8, 'B1': 10} level-total 18 num-starts (26, 43, 18)
+p4-sport.svg levels {'B1': 14, 'A2': 1} level-total 15 num-starts (44, 61, 18)
+p5-jeunesse.svg levels {'B1': 13, 'A2': 1} level-total 14 num-starts (62, 78, 17)
+p6-politique.svg levels {'B2': 10, 'B1': 5} level-total 15 num-starts (79, 96, 18)
+p7-langue.svg levels {'A2': 6, 'B1': 4, 'B2': 2} level-total 12 num-starts (97, 108, 12)
+p8-exercices.svg levels {'A2': 7, 'B1': 10, 'B2': 7} level-total 24 num-starts (1, 150, 56)
+p4-sport.svg PHRASE ['LES PHRASES DU COMMENTATEUR']
+p6-politique.svg PHRASE ['LES PHRASES DES JOURNAUX']
+p7-langue.svg PHRASE ['LA PHRASE EXEMPLE', 'LA PHRASE EXEMPLE', 'LA PHRASE EXEMPLE', 'LES PHRASES DE LA SEMAINE · 今週のフレーズ（すべて今号の記事から）']
+=== CO
+p1-une.svg levels {'A2': 8, 'B1': 5, 'B2': 1} level-total 14 num-starts (1, 10, 10)
+p2-vie.svg levels {'A2': 11, 'B1': 1} level-total 12 num-starts (11, 25, 15)
+p3-culture.svg levels {'A2': 8, 'B1': 10} level-total 18 num-starts (26, 43, 18)
+p4-sport.svg levels {'B1': 14, 'A2': 1} level-total 15 num-starts (44, 61, 18)
+p5-jeunesse.svg levels {'B1': 13, 'A2': 1} level-total 14 num-starts (62, 78, 17)
+p6-politique.svg levels {'B2': 10, 'B1': 5} level-total 15 num-starts (79, 96, 18)
+p7-langue.svg levels {'A2': 6, 'B1': 4, 'B2': 2} level-total 12 num-starts (97, 108, 12)
+p8-exercices.svg levels {'A2': 7, 'B1': 10, 'B2': 7} level-total 24 num-starts (1, 144, 48)
+p4-sport.svg PHRASE ['LES PHRASES DU COMMENTATEUR']
+p6-politique.svg PHRASE ['LES PHRASES DES JOURNAUX']
+p7-langue.svg 金句 ['A2 → B2 · Les phrases de la semaine · 本周金句', '工具箱｜本期三句随身句，按级各一；金句全部', 'LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）']
+p7-langue.svg PHRASE ['LA PHRASE EXEMPLE', 'LA PHRASE EXEMPLE', 'LA PHRASE EXEMPLE', 'LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）']

@@ -1,0 +1,50 @@
+gloss() calls core=5 edition=5
+  content12.py: core '讲解｜to fall back （时钟）拨回 · a costume 服装、装扮 · trick or treat 不给糖就捣蛋。'
+       ed  'to fall back (시계) 되돌리다 · a costume 의상 · trick or treat 과자 안 주면 장난칠 거야.'
+       core parts=3 ed parts=3
+  content34.py: core '讲解｜to open （电影）上映 · a monster 怪物 · a catchphrase 口头禅、金句 · a series 剧集。'
+       ed  'to open (영화) 개봉하다 · a monster 괴물 · a catchphrase 유행어, 명대사 · a series 시리즈.'
+       core parts=4 ed parts=4
+  content34.py: core '讲解｜a fixture 一场比赛（赛程） · a title 冠军头衔 · to defend （卫冕）保卫头衔 · a fan 球迷。'
+       ed  'a fixture 경기(일정 속 한 경기) · a title 우승 타이틀 · to defend 타이틀 지키기 · a fan 팬.'
+       core parts=4 ed parts=4
+  content56.py: core '讲解｜a map （选举）地图 · too close to call 难分胜负、无法判定 · a second screen 第二块屏幕（手机）。'
+       ed  'a map (선거) 지도 · too close to call 승부를 알 수 없음, 판단 불가 · a second screen 두 번째 화면(휴대전화).'
+       core parts=3 ed parts=3
+  content56.py: core '讲解｜to register 登记（选民登记） · a governor 州长 · to shape laws 影响立法 · patience 耐心。'
+       ed  'to register 등록하다(유권자 등록) · a governor 주지사 · to shape laws 법률에 영향을 주다 · patience 인내심.'
+       core parts=4 ed parts=4
+
+per-file part counts core vs ed:
+ core per file: {'content12.py': 3, 'content34.py': 8, 'content56.py': 7}
+ ed per file: {'content12.py': 3, 'content34.py': 8, 'content56.py': 7}
+
+Double prefix check:
+  RENDERED DOUBLE CORE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p2-life.svg: '译注｜讲解｜to fall back （时钟）拨回 · a'
+  RENDERED DOUBLE CORE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p3-culture.svg: '译注｜讲解｜to open （电影）上映 · a'
+  RENDERED DOUBLE CORE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p4-sport.svg: '译注｜讲解｜a fixture 一场比赛（赛程） ·'
+  RENDERED DOUBLE CORE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p5-jeunesse.svg: '译注｜讲解｜a map （选举）地图 · too'
+  RENDERED DOUBLE CORE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p6-politique.svg: '译注｜讲解｜to register 登记（选民登记）'
+  CORE rendered double scan done
+  ED rendered double scan done
+
+Core source double-prefix occurrences (all files):
+
+Edition source double-prefix occurrences:
+  (none above = 0)
+CORE bslib gloss def: def gloss(self, s, gap=12):
+        return self.box("", [("译注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+
+    def ex(self, level, typ, key, note, body, opts=None, instr=None, size=24, gap=11):
+        n = reg_ex(level, typ, key, note)
+        hh = 36
+        bh = self._ph(body, size, "serif", False, self.w, 1.45)
+
+ED bslib gloss def: def gloss(self, s, gap=12):
+        return self.box("", [("해설 — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+
+    def ex(self, level, typ, key, note, body, opts=None, instr=None, size=24, gap=11):
+        n = reg_ex(level, typ, key, note)
+        hh = 36
+        bh = self._ph(body, size, "serif", False, self.w, 1.45)
+

@@ -1,0 +1,4 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-en-fr/svg: 2 flags {'BOXTITLE': 1, 'TEXTX': 1}
+  [TEXTX] p1-front.svg 'The Lucerna' — ink overlaps 'HEBDOMADAIRE EN ANGLAIS · VOL.1 · SPORT ' by 834.2x6.2px
+  [BOXTITLE] p2-life.svg 'du mois ? Deux phrases en anglais !' — ink crosses its box borders: bottom ink 1535.2 > border 1534.6

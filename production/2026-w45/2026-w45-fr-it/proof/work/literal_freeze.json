@@ -1,0 +1,93 @@
+{
+ "content_only": {
+  "files": [
+   "content12.py",
+   "content34.py",
+   "content56.py",
+   "content7.py",
+   "content8.py"
+  ],
+  "core_total": 1329,
+  "nohan_unique": 541,
+  "missing": [
+   {
+    "value": "~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-core/svg",
+    "core_file": "content12.py",
+    "core_line": 7
+   },
+   {
+    "value": "s'intéresser aux（à+les）",
+    "core_file": "content8.py",
+    "core_line": 48
+   },
+   {
+    "value": "Traduisez : « Lire un programme, c'est déjà comprendre la France. »",
+    "core_file": "content8.py",
+    "core_line": 92
+   },
+   {
+    "value": "（",
+    "core_file": "content8.py",
+    "core_line": 154
+   },
+   {
+    "value": "）",
+    "core_file": "content8.py",
+    "core_line": 154
+   },
+   {
+    "value": "type",
+    "core_file": "content8.py",
+    "core_line": 153
+   }
+  ],
+  "ed_han_count": 0,
+  "ed_han_sample": []
+ },
+ "content_plus_bslib": {
+  "files": [
+   "content12.py",
+   "content34.py",
+   "content56.py",
+   "content7.py",
+   "content8.py",
+   "bslib4.py"
+  ],
+  "core_total": 1444,
+  "nohan_unique": 588,
+  "missing": [
+   {
+    "value": "~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-core/svg",
+    "core_file": "content12.py",
+    "core_line": 7
+   },
+   {
+    "value": "s'intéresser aux（à+les）",
+    "core_file": "content8.py",
+    "core_line": 48
+   },
+   {
+    "value": "Traduisez : « Lire un programme, c'est déjà comprendre la France. »",
+    "core_file": "content8.py",
+    "core_line": 92
+   },
+   {
+    "value": "（",
+    "core_file": "content8.py",
+    "core_line": 154
+   },
+   {
+    "value": "）",
+    "core_file": "content8.py",
+    "core_line": 154
+   },
+   {
+    "value": "\" preserveAspectRatio=\"xMidYMid slice\" href=\"",
+    "core_file": "bslib4.py",
+    "core_line": 35
+   }
+  ],
+  "ed_han_count": 0,
+  "ed_han_sample": []
+ }
+}

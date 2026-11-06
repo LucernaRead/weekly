@@ -1,0 +1,72 @@
+== ED P1 masthead ==
+  y=92.0 x=65.0 size=23.0 :: 'VOL. 3 · NR. 3'
+  y=92.0 x=975.0 size=21.0 :: 'HEBDOMADAIRE EN FRANÇAIS · ELKE WEEK · HET FRANS DAT DE FRANSEN LEZEN'
+  y=92.0 x=1885.0 size=23.0 :: 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'
+  y=262.0 x=975.0 size=178.0 :: 'Le Lucerna'
+  y=330.0 x=975.0 size=46.0 :: 'WEEKBLAD IN HET FRANS · VOL.3 · FINALEWEEKEND'
+  y=372.0 x=975.0 size=19.0 :: 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'
+  y=478.0 x=95.0 size=41.0 :: 'LUNDI 2 NOVEMBRE : LA FRANCE REPREND !'
+  y=522.0 x=95.0 size=24.0 :: 'Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.'
+  y=478.0 x=1855.0 size=24.0 :: 'MAANDAG · TERUG NAAR SCHOOL IN HEEL FRANKRIJK'
+  y=522.0 x=1855.0 size=21.0 :: 'Masters begint · Pitchfork opent · zie pagina 2'
+  y=574.0 x=975.0 size=22.0 :: 'TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'
+  P1 rects: [(28.0, 28.0, 1894.0, 2644.0, 'none'), (40.0, 40.0, 1870.0, 2620.0, 'none'), (65.0, 424.0, 1820.0, 118.0, '#2c2822')]
+  P1 rect total=19
+== CORE P1 masthead ==
+  y=92.0 x=65.0 size=23.0 :: 'VOL. 3 · 总第 3 期'
+  y=92.0 x=975.0 size=21.0 :: 'HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语'
+  y=92.0 x=1885.0 size=23.0 :: 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'
+  y=262.0 x=975.0 size=178.0 :: 'Le Lucerna'
+  y=330.0 x=975.0 size=46.0 :: '法 语 周 报 · VOL.3 · 决 赛 周 末'
+  y=372.0 x=975.0 size=19.0 :: 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'
+  y=478.0 x=95.0 size=41.0 :: 'LUNDI 2 NOVEMBRE : LA FRANCE REPREND !'
+  y=522.0 x=95.0 size=24.0 :: 'Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.'
+  y=478.0 x=1855.0 size=24.0 :: '周一开学 · 全法同步复课'
+  y=522.0 x=1855.0 size=21.0 :: '大师赛开赛 · 音乐节开幕 · 详见第 2 版'
+  y=574.0 x=975.0 size=22.0 :: '法语正文 · 简体中文讲解 — 给简体中文读者的版本'
+  P1 rects: [(28.0, 28.0, 1894.0, 2644.0, 'none'), (40.0, 40.0, 1870.0, 2620.0, 'none'), (65.0, 424.0, 1820.0, 118.0, '#2c2822')]
+  P1 rect total=19
+== W43 P1 masthead ==
+  y=92.0 x=65.0 size=23.0 :: 'VOL. 2 · NR. 2'
+  y=92.0 x=975.0 size=21.0 :: 'HEBDOMADAIRE EN FRANÇAIS · ELKE WEEK · HET FRANS DAT DE FRANSEN LEZEN'
+  y=92.0 x=1885.0 size=23.0 :: 'SEMAINE DU 19 AU 25 OCTOBRE 2026'
+  y=262.0 x=975.0 size=178.0 :: 'Le Lucerna'
+  y=330.0 x=975.0 size=46.0 :: 'WEEKBLAD IN HET FRANS · VOL.2 · HERFST EN FEESTEN'
+  y=372.0 x=975.0 size=19.0 :: 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'
+  y=478.0 x=95.0 size=41.0 :: "DIMANCHE, ON RECULE D'UNE HEURE !"
+  y=522.0 x=95.0 size=24.0 :: "Changement d'heure : dans la nuit de samedi à dimanche, à 3 h, il sera 2 h. On gagne une heure de sommeil !"
+  y=478.0 x=1855.0 size=24.0 :: 'DEZE ZONDAG · WINTERTIJD'
+  y=522.0 x=1855.0 size=21.0 :: 'Klokken een uur terug · zie pagina 2'
+  y=574.0 x=975.0 size=22.0 :: 'TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'
+  P1 rects: [(28.0, 28.0, 1894.0, 2644.0, 'none'), (40.0, 40.0, 1870.0, 2620.0, 'none'), (65.0, 424.0, 1820.0, 118.0, '#2c2822')]
+  P1 rect total=24
+== rect multisets ED vs CORE (all pages) ==
+ p1-une: ED total=19 CORE total=19 ED-only=[] CORE-only=[]
+ p2-vie: ED total=19 CORE total=19 ED-only=[((527.0, 1027.0, 434.0, 234.85, '#f1ead6'), 1), ((65.0, 2085.95, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2185.2999999999997, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2284.6499999999996, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2417.3499999999995, 60.0, 30.0, '#3e4c2a'), 1)] CORE-only=[((527.0, 1027.0, 434.0, 175.39999999999998, '#f1ead6'), 1), ((65.0, 2056.225, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2155.575, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2254.9249999999997, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2387.6249999999995, 60.0, 30.0, '#3e4c2a'), 1)]
+ p3-culture: ED total=26 CORE total=26 ED-only=[((65.0, 1829.12, 434.0, 205.125, '#f1ead6'), 1), ((65.0, 2156.47, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2293.07, 60.0, 30.0, '#3e4c2a'), 1), ((527.0, 200.0, 60.0, 30.0, '#3e4c2a'), 1), ((527.0, 336.6, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 438.40000000000003, 60.0, 30.0, '#8a6d3b'), 1)] CORE-only=[((65.0, 1829.12, 434.0, 175.39999999999998, '#f1ead6'), 1), ((65.0, 2126.745, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2263.3450000000003, 60.0, 30.0, '#3e4c2a'), 1), ((65.0, 2399.9450000000006, 60.0, 30.0, '#3e4c2a'), 1), ((527.0, 200.0, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 301.8, 60.0, 30.0, '#8a6d3b'), 1)]
+ p4-sport: ED total=24 CORE total=24 ED-only=[((65.0, 2206.12, 434.0, 234.85, '#f1ead6'), 1), ((527.0, 1145.9499999999998, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1624.1749999999997, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1760.7749999999996, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1897.3749999999995, 60.0, 30.0, '#8a6d3b'), 1), ((989.0, 829.595, 434.0, 357.21, '#fdfaf0'), 1)] CORE-only=[((65.0, 2206.12, 434.0, 205.125, '#f1ead6'), 1), ((527.0, 1116.2249999999997, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1594.4499999999996, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1731.0499999999995, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1867.6499999999994, 60.0, 30.0, '#8a6d3b'), 1), ((989.0, 799.8699999999999, 434.0, 326.68, '#fdfaf0'), 1)]
+ p5-jeunesse: ED total=22 CORE total=22 ED-only=[((65.0, 2057.12, 434.0, 205.125, '#f1ead6'), 1), ((65.0, 2384.47, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1813.4999999999993, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 2258.724999999999, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 2395.3249999999994, 60.0, 30.0, '#8a6d3b'), 1)] CORE-only=[((65.0, 2057.12, 434.0, 175.39999999999998, '#f1ead6'), 1), ((65.0, 2354.745, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1783.7749999999992, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 2228.999999999999, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 2365.5999999999995, 60.0, 30.0, '#8a6d3b'), 1)]
+ p6-politique: ED total=22 CORE total=22 ED-only=[((527.0, 802.0, 434.0, 205.125, '#f1ead6'), 1), ((65.0, 1969.95, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2098.75, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2227.55, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2388.2500000000005, 60.0, 30.0, '#a4553a'), 1)] CORE-only=[((527.0, 802.0, 434.0, 175.39999999999998, '#f1ead6'), 1), ((65.0, 1940.225, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2069.025, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2197.8250000000003, 60.0, 30.0, '#a4553a'), 1), ((65.0, 2358.5250000000005, 60.0, 30.0, '#a4553a'), 1)]
+ p7-langue: ED total=20 CORE total=20 ED-only=[((527.0, 1321.325, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1677.8500000000004, 60.0, 30.0, '#8a6d3b'), 1), ((989.0, 1293.05, 60.0, 30.0, '#3e4c2a'), 1), ((989.0, 1590.5, 60.0, 30.0, '#a4553a'), 1), ((1451.0, 1212.0, 60.0, 30.0, '#3e4c2a'), 1), ((1451.0, 1477.55, 60.0, 30.0, '#3e4c2a'), 1)] CORE-only=[((527.0, 1293.05, 60.0, 30.0, '#8a6d3b'), 1), ((527.0, 1593.0250000000003, 60.0, 30.0, '#8a6d3b'), 1), ((989.0, 1212.0, 60.0, 30.0, '#3e4c2a'), 1), ((989.0, 1481.1750000000002, 60.0, 30.0, '#a4553a'), 1), ((989.0, 1719.5500000000004, 60.0, 30.0, '#3e4c2a'), 1), ((1451.0, 1352.375, 60.0, 30.0, '#3e4c2a'), 1)]
+ p8-exercices: ED total=28 CORE total=28 ED-only=[((1451.0, 407.0, 60.0, 30.0, '#8a6d3b'), 1), ((1451.0, 528.0, 60.0, 30.0, '#a4553a'), 1), ((1451.0, 670.0, 60.0, 30.0, '#8a6d3b'), 1)] CORE-only=[((1451.0, 378.0, 60.0, 30.0, '#8a6d3b'), 1), ((1451.0, 470.0, 60.0, 30.0, '#a4553a'), 1), ((1451.0, 612.0, 60.0, 30.0, '#8a6d3b'), 1)]
+== column heads (size>=26, all pages, ED) ==
+ p1-une: ['LUNDI 2 NOVEMBRE : LA FRANCE REPREND !', 'Paris, Plailly, Port-en-Bessin : le week-end où tout se joue', 'CETTE SEMAINE', 'JOUR PAR JOUR', 'QUIZ ÉCLAIR · BLITZQUIZ']
+ p2-vie: ['VIE QUOTIDIENNE · DAGELIJKS LEVEN', 'Le Lucerna', 'La rentrée : lundi,', 'toute la France', 'reprend', 'DIRE LA DATE · ZO ZEG JE DE DATUM', 'EXERCICES · OEFENINGEN PAGINA 2']
+ p3-culture: ['CULTURE · FEESTEN', 'Le Lucerna', 'Halloween, puis la', 'Toussaint : deux fêtes,', 'deux ambiances']
+ p4-sport: ['SPORT · SPORT', 'Le Lucerna', 'Le Masters de Paris : la', 'dernière finale de la', 'saison']
+ p5-jeunesse: ['JEUNESSE & MUSIQUE · JEUGD', 'Le Lucerna', 'Pitchfork Paris : une', 'semaine, dix lieux,', 'cent artistes']
+ p6-politique: ['POLITIQUE & CHIFFRES · POLITIEK & CIJFERS', 'Le Lucerna', "À l'Assemblée, cette", 'semaine : le budget', '2027']
+ p7-langue: ['LANGUE EN MAIN · TAAL IN DE PRAKTIJK', 'Le Lucerna', 'NIVEAU A2 · BASISNIVEAU', 'NIVEAU B1 · GEMIDDELD', 'NIVEAU B2 · UITDAGING', 'BOÎTE À OUTILS · OP ZAK', 'LES PHRASES DE LA SEMAINE · ZINNEN VAN DE WEEK']
+ p8-exercices: ['EXERCICES & RÉPONSES · OEFENINGEN & ANTWOORDEN', 'Le Lucerna', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+== W43 column heads (size>=26) ==
+ p1-une: ["DIMANCHE, ON RECULE D'UNE HEURE !", 'Présidentielle 2027 : les Français regardent déjà les', 'sondages', 'LES RECHERCHES', 'DE LA SEMAINE', 'QUIZ ÉCLAIR · BLITZQUIZ']
+ p2-vie: ['VIE QUOTIDIENNE · HET DAGELIJKS LEVEN', 'Le Lucerna', "Changement d'heure :", 'dimanche, la France', "recule d'une heure", "DIRE L'HEURE · DE TIJD ZEGGEN", 'EXERCICES · OEFENINGEN VAN PAGINA 2']
+ p3-culture: ['CULTURE · CULTUUR', 'Le Lucerna', 'La Toussaint : le jour', 'des fleurs et des', 'souvenirs']
+ p4-sport: ['SPORT · DE SPORT', 'Le Lucerna', 'Wemby : le géant', 'français qui fait rêver', 'la NBA']
+ p5-jeunesse: ['JEUNESSE & ÉCRANS · JONGEREN & SCHERMEN', 'Le Lucerna', 'GTA VI : le jeu que tout', 'le monde attend', "« Lire en français, c'est chic.", '»']
+ p6-politique: ['POLITIQUE & CHIFFRES · ACTUALITEIT', 'Le Lucerna', 'Présidentielle 2027 :', "comprendre l'élection", 'et ses chiffres', '5 000 +']
+ p7-langue: ['LANGUE EN MAIN · TAAL IN DE HAND', 'Le Lucerna', 'NIVEAU A2 · BASISNIVEAU', 'NIVEAU B1 · GEMIDDELD', 'NIVEAU B2 · UITDAGING', 'BOÎTE À OUTILS · OP ZAK', 'LES PHRASES DE LA SEMAINE · DE ZINNEN VAN DE WEEK']
+ p8-exercices: ['EXERCICES & RÉPONSES · OEFENINGEN & ANTWOORDEN', 'Le Lucerna', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+== P8 section heads ED vs W43 ==
+ ED: ['A · TEXTE À TROUS · GATENTEKST', 'B · CHOIX MULTIPLE · MEERKEUZE', 'H · ÉCRITURE · SCHRIJVEN']
+ W43: ['A · TEXTE À TROUS · VUL IN', 'B · CHOIX MULTIPLE · MEERKEUZE', 'H · ÉCRITURE · SCHRIJVEN']

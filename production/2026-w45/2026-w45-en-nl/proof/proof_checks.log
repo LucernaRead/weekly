@@ -1,0 +1,372 @@
+== GLOSS rendered (box-anchored join, split on ·) ==
+  CORE P2: gloss boxes=2 items=3 :: ['to fall back （时钟）拨回', 'a costume 服装、装扮', 'trick or treat 不给 糖就捣蛋。 « A Halloween Wish » : a Halloween postcard from 1912. More than a century ago, Americans already sent Halloween greetings — the costumes change, the night stays. Public domain, via Wikimedia Commons']
+  CORE P3: gloss boxes=1 items=4 :: ['to open （电影）上映', 'a monster 怪物', 'a catchphrase 口头禅、金 句', "a series 剧集。 c. a film's first day in cinemas d. a story told in many episodes"]
+  CORE P4: gloss boxes=1 items=5 :: ['a fixture 一场比赛（赛程）', 'a title 冠军头衔', 'to defend （卫冕）保卫 头衔', 'a fan 球迷。 already hold d. the honour of being champion D', 'PAST SIMPLE']
+  CORE P5: gloss boxes=1 items=3 :: ['a map （选举）地图', 'too close to call 难分胜负、无法判定', 'a second screen 第二块屏幕（手机）。 B1 78. 改写 The map (change) colour now. → ___ B1 79. 改写 sentences you hear. « Too close to call » will be one of them. ELECTION-NIGHT PHRASES']
+  CORE P6: gloss boxes=1 items=7 :: ['to register 登记（选民登记）', 'a governor 州长', 'to shape laws 影响 立法', 'patience 耐心。 B2 93. Waiting for results is... A. a failure', 'B. unusual', 'C. part of the system C', 'SENTENCES years. Governor : usually 4 years. FIFTY ELECTIONS']
+  CORE TOTAL=22 dist={2: 3, 3: 4, 4: 5, 5: 3, 6: 7}
+  ED P2: gloss boxes=2 items=3 :: ['to fall back = de klok terugzetten', 'a costume = kostuum, verkleding', 'trick or treat = snoep of je leven. « A Halloween Wish » : a Halloween postcard from 1912. More than a century ago, Americans already sent Halloween greetings — the costumes change, the night stays. Public domain, via Wikimedia Commons']
+  ED P3: gloss boxes=1 items=5 :: ['to open = (film) in première gaan', 'a monster = monster', 'a catchphrase = slogan, gevleugelde zin', "a series = serie. c. a film's first day in cinemas d. a story told in many episodes D", 'GOING TO']
+  ED P4: gloss boxes=1 items=5 :: ['a fixture = wedstrijd (in het speelschema)', 'a title = kampioenstitel', 'to defend = (titel) verdedigen', 'a fan = fan. already hold d. the honour of being champion D', 'PAST SIMPLE']
+  ED P5: gloss boxes=1 items=3 :: ['a map = (verkiezings)kaart', 'too close to call = nog niet te beslissen', 'a second screen = tweede scherm (telefoon). 76. a result 77. to call a. to announce the winner of an election sentences you hear. « Too close to call » will be one of them. ELECTION-NIGHT PHRASES']
+  ED P6: gloss boxes=1 items=7 :: ['to register = je registreren (als kiezer)', 'a governor = gouverneur', 'to shape laws = wetten vormgeven', 'patience = geduld. This issue prints... A. no polls or predictions', 'B. one poll', 'C. three predictions B2 93. Waiting for results is... A. a failure', 'B. years. Governor : usually 4 years. FIFTY ELECTIONS One country, fifty systems : that is why']
+  ED TOTAL=23 dist={2: 3, 3: 5, 4: 5, 5: 3, 6: 7}
+== GLOSS source strings (content files, split on ·) ==
+  CORE content12.py: 3 :: ['to fall back （时钟）拨回', 'a costume 服装、装扮', 'trick or treat 不给糖就捣蛋。']
+  CORE content34.py: 4 :: ['to open （电影）上映', 'a monster 怪物', 'a catchphrase 口头禅、金句', 'a series 剧集。']
+  CORE content34.py: 4 :: ['a fixture 一场比赛（赛程）', 'a title 冠军头衔', 'to defend （卫冕）保卫头衔', 'a fan 球迷。']
+  CORE content56.py: 3 :: ['a map （选举）地图', 'too close to call 难分胜负、无法判定', 'a second screen 第二块屏幕（手机）。']
+  CORE content56.py: 4 :: ['to register 登记（选民登记）', 'a governor 州长', 'to shape laws 影响立法', 'patience 耐心。']
+  CORE source TOTAL=18
+  ED content12.py: 3 :: ['to fall back = de klok terugzetten', 'a costume = kostuum, verkleding', 'trick or treat = snoep of je leven.']
+  ED content34.py: 4 :: ['to open = (film) in première gaan', 'a monster = monster', 'a catchphrase = slogan, gevleugelde zin', 'a series = serie.']
+  ED content34.py: 4 :: ['a fixture = wedstrijd (in het speelschema)', 'a title = kampioenstitel', 'to defend = (titel) verdedigen', 'a fan = fan.']
+  ED content56.py: 3 :: ['a map = (verkiezings)kaart', 'too close to call = nog niet te beslissen', 'a second screen = tweede scherm (telefoon).']
+  ED content56.py: 4 :: ['to register = je registreren (als kiezer)', 'a governor = gouverneur', 'to shape laws = wetten vormgeven', 'patience = geduld.']
+  ED source TOTAL=18
+
+== P7 ==
+  P7 headings ED:
+    y=116 'LANGUAGE IN HAND · Taal in handen'
+    y=227 'LEVEL A2 · Basis'
+    y=227 'LEVEL B1 · Verder'
+    y=227 'LEVEL B2 · Uitdaging'
+    y=227 'THE TOOLBOX · Gereedschap'
+    y=1236 'PHRASES OF THE WEEK · Zinnen van de week (allemaal uit dit nummer)'
+    y=1903 'THE ERROR CLINIC · Fouten'
+    y=1918 "READERS' CORNER · Lezershoek"
+    y=2248 'NEXT WEEK · VOL.3 Volgende week'
+  P7 headings CORE:
+    y=116 'LANGUAGE IN HAND · 精讲'
+    y=227 'LEVEL A2 · 基础'
+    y=227 'LEVEL B1 · 进阶'
+    y=227 'LEVEL B2 · 挑战'
+    y=227 'THE TOOLBOX · 工具箱'
+    y=1236 'PHRASES OF THE WEEK · 本周金句（全部出自本期文章）'
+    y=1903 'THE ERROR CLINIC · 易错诊所'
+    y=1918 "READERS' CORNER · 读者园地"
+    y=2248 'NEXT WEEK · VOL.3 下周预告'
+  GOLD whole-issue core=3 ed=3 :: 'Tuesday, November 3, is Election Day in the United States.'
+  GOLD whole-issue core=2 ed=2 :: 'The hour from 1 to 2 happened twice.'
+  GOLD whole-issue core=2 ed=2 :: 'Which film would you choose ?'
+  GOLD whole-issue core=2 ed=2 :: 'Two games, two continents, one league'
+  GOLD whole-issue core=2 ed=2 :: 'The results will still be there in the morning.'
+  GOLD whole-issue core=4 ed=4 :: 'Patience is part of the system, not a failure of it.'
+  GOLD whole-issue core=3 ed=3 :: 'Not every place changes.'
+  GOLD whole-issue core=2 ed=2 :: 'One Sunday is not enough'
+  ED P7 phrases-region texts:
+    header y=1236
+    y=1282.5 '« Tuesday, November 3, is Election Day in'
+    y=1309.97 'the United States. » (page 1)'
+    y=1359.44 'Grammatica | is = is; de datum als onderwerp.'
+    y=1412.99 'A2'
+    y=1413.99 '100.'
+    y=1443.49 'Election Day ___ on Tuesday, November 3.'
+    y=1473.215 '(be)'
+    y=1534.4399999999998 '« The hour from 1 to 2 happened twice. »'
+    y=1561.9099999999999 '(page 2)'
+    y=1611.3799999999999 'Grammatica | verleden tijd van happen is'
+    y=1638.9299999999998 'happened, regelmatig.'
+    y=1692.4799999999998 'A2'
+    y=1693.4799999999998 '101.'
+    y=1722.9799999999998 'The hour ___ twice on Sunday. (happen)'
+    y=1784.2049999999997 '« Which film would you choose ? » (page'
+    y=1811.6749999999997 '3)'
+    y=1281.0 'Grammatica | would + infinitief, voor een keuze.'
+    y=1334.55 'B1'
+    y=1335.55 '102.'
+    y=1365.05 'Which film ___ you choose ? (would)'
+    y=1426.2749999999999 '« Two games, two continents, one league'
+    y=1453.745 '— that is the modern NFL. » (page 4)'
+    y=1503.215 'Grammatica | that is = dat is; na het streepje de'
+    y=1530.7649999999999 'samenvatting.'
+    y=1584.3149999999998 'B1'
+    y=1585.3149999999998 '103.'
+    y=1614.8149999999998 'That ___ the modern NFL. (be)'
+    y=1676.0399999999997 '« The results will still be there in the'
+    y=1703.5099999999998 'morning. » (page 5)'
+    y=1752.9799999999998 'Grammatica | will still = zal nog steeds; still staat'
+    y=1780.5299999999997 'na will.'
+    y=1284 'B2'
+    y=1285 '104.'
+    y=1314.5 'The results ___ still be there. (will)'
+    y=1375.725 '« Patience is part of the system, not a'
+    y=1403.195 'failure of it. » (page 6)'
+    y=1452.665 'Grammatica | part of = een deel van; not als'
+    y=1480.215 'tegenstelling.'
+    y=1533.7649999999999 'B2'
+    y=1534.7649999999999 '105.'
+    y=1564.2649999999999 'Patience ___ part of the system. (be)'
+    y=1625.4899999999998 '« Not every place changes. » (page 2)'
+    y=1674.9599999999998 'Grammatica | not every + werkwoord in het'
+    y=1702.5099999999998 'enkelvoud: niet elke plaats verandert.'
+    y=1756.0599999999997 'A2'
+    y=1757.0599999999997 '106.'
+    y=1786.5599999999997 'Not every place ___ . (change)'
+    y=1282.5 '« One Sunday is not enough — good thing'
+    y=1309.97 'the week has seven days. » (page 4)'
+    y=1359.44 'Grammatica | has = heeft; the week in het'
+    y=1386.99 'enkelvoud krijgt has.'
+    y=1440.54 'B1'
+    y=1441.54 '107.'
+    y=1471.04 'The week ___ seven days. (have)'
+  CORE P7 phrases-region texts:
+    y=1282.5 '« Tuesday, November 3, is Election Day in'
+    y=1309.97 'the United States. » (page 1)'
+    y=1359.44 '语法点｜is = 是；日期作主语补足语。'
+    y=1412.99 'A2'
+    y=1413.99 '100.'
+    y=1443.49 'Election Day ___ on Tuesday, November 3.'
+    y=1473.215 '(be)'
+    y=1534.4399999999998 '« The hour from 1 to 2 happened twice. »'
+    y=1561.9099999999999 '(page 2)'
+    y=1611.3799999999999 '语法点｜happen 的过去式是 happened，规则变化'
+    y=1638.9299999999998 '。'
+    y=1692.4799999999998 'A2'
+    y=1693.4799999999998 '101.'
+    y=1722.9799999999998 'The hour ___ twice on Sunday. (happen)'
+    y=1784.2049999999997 '« Which film would you choose ? » (page'
+    y=1811.6749999999997 '3)'
+    y=1281.0 '语法点｜would + 动词原形，表选择意愿。'
+    y=1334.55 'B1'
+    y=1335.55 '102.'
+    y=1365.05 'Which film ___ you choose ? (would)'
+    y=1426.2749999999999 '« Two games, two continents, one league'
+    y=1453.745 '— that is the modern NFL. » (page 4)'
+    y=1503.215 '语法点｜that is = 那就是；破折号后总结。'
+    y=1556.7649999999999 'B1'
+    y=1557.7649999999999 '103.'
+    y=1587.2649999999999 'That ___ the modern NFL. (be)'
+    y=1648.4899999999998 '« The results will still be there in the'
+    y=1675.9599999999998 'morning. » (page 5)'
+    y=1725.4299999999998 '语法点｜will still = 仍然会；still 放在 will 之后。'
+    y=1284 'B2'
+    y=1285 '104.'
+    y=1314.5 'The results ___ still be there. (will)'
+    y=1375.725 '« Patience is part of the system, not a'
+    y=1403.195 'failure of it. » (page 6)'
+    y=1452.665 '语法点｜part of = ……的一部分；not 表否定对照'
+    y=1480.215 '。'
+    y=1533.7649999999999 'B2'
+    y=1534.7649999999999 '105.'
+    y=1564.2649999999999 'Patience ___ part of the system. (be)'
+    y=1625.4899999999998 '« Not every place changes. » (page 2)'
+    y=1674.9599999999998 '语法点｜not every + 单数动词：并非每处都变。'
+    y=1728.5099999999998 'A2'
+    y=1729.5099999999998 '106.'
+    y=1759.0099999999998 'Not every place ___ . (change)'
+    y=1820.2349999999997 '« One Sunday is not enough — good thing'
+    y=1282.5 'the week has seven days. » (page 4)'
+    y=1331.97 '语法点｜has = 有；the week 单数用 has。'
+    y=1385.52 'B1'
+    y=1386.52 '107.'
+    y=1416.02 'The week ___ seven days. (have)'
+  ED P7 'page' tag texts:
+    y=462.3 'week (page 2).'
+    y=893.56 'page 1.'
+    y=818.4000000000001 'page 4. The November 3 election and'
+    y=1068.23 'November 1. » — fall → fell (page 2).'
+    y=462.3 'page again and find three.'
+    y=927.76 '(page 6).'
+    y=1309.97 'the United States. » (page 1)'
+    y=1561.9099999999999 '(page 2)'
+    y=1784.2049999999997 '« Which film would you choose ? » (page'
+    y=1453.745 '— that is the modern NFL. » (page 4)'
+    y=1703.5099999999998 'morning. » (page 5)'
+    y=1403.195 'failure of it. » (page 6)'
+    y=1625.4899999999998 '« Not every place changes. » (page 2)'
+    y=1309.97 'the week has seven days. » (page 4)'
+  CORE P7 'page' tag texts:
+    y=462.3 'week (page 2).'
+    y=893.56 'page 1.'
+    y=818.4000000000001 'page 4. The November 3 election and'
+    y=1068.23 'November 1. » — fall → fell (page 2).'
+    y=462.3 'page again and find three.'
+    y=897.23 'failure of it. » — part of = 一部分 (page'
+    y=1309.97 'the United States. » (page 1)'
+    y=1561.9099999999999 '(page 2)'
+    y=1784.2049999999997 '« Which film would you choose ? » (page'
+    y=1453.745 '— that is the modern NFL. » (page 4)'
+    y=1675.9599999999998 'morning. » (page 5)'
+    y=1403.195 'failure of it. » (page 6)'
+    y=1625.4899999999998 '« Not every place changes. » (page 2)'
+    y=1282.5 'the week has seven days. » (page 4)'
+
+== READERS CORNER (P7) ==
+  CORE header: ["READERS' CORNER · 读者园地"]
+    y=1949.5 '每句有一处错误：找出来并改正。'
+    y=2010.225 'A2'
+    y=2011.225 '108.'
+    y=2011.225 '改错'
+    y=2042.725 "✗ « He don't like voting early. »"
+    y=2108.35 'A2'
+    y=2109.35 '109.'
+    y=2109.35 '改错'
+    y=2140.85 '✗ « Yesterday the clocks falled back. »'
+    y=1932.5 '✗ « This game is more bigger than last'
+    y=1965.125 "week's. »"
+    y=2030.75 'B1'
+    y=2031.75 '111.'
+    y=2031.75 '改错'
+    y=2063.25 '✗ « She is going to watches the film on'
+    y=2095.875 'Friday. »'
+    y=1956 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+    y=1986.53 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+    y=2017.06 'went to press, so the example stays, honestly labeled)'
+    y=2076 '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作'
+    y=2104.0 '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+    y=2132.0 '。'
+  ED header: ["READERS' CORNER · Lezershoek"]
+    y=1949.5 'Elke zin bevat één fout: vind hem en verbeter'
+    y=1979.225 'de zin.'
+    y=2039.95 'A2'
+    y=2040.95 '108.'
+    y=2040.95 'Fouten verbeteren'
+    y=2072.45 "✗ « He don't like voting early. »"
+    y=2138.075 'A2'
+    y=2139.075 '109.'
+    y=2139.075 'Fouten verbeteren'
+    y=2170.575 '✗ « Yesterday the clocks falled back. »'
+    y=1932.5 '✗ « This game is more bigger than last'
+    y=1965.125 "week's. »"
+    y=2030.75 'B1'
+    y=2031.75 '111.'
+    y=2031.75 'Fouten verbeteren'
+    y=2063.25 '✗ « She is going to watches the film on'
+    y=2095.875 'Friday. »'
+    y=1956 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+    y=1986.53 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+    y=2017.06 'went to press, so the example stays, honestly labeled)'
+    y=2076 'Toelichting | VOL.1 beloofde echte brieven in VOL.2, maar er kwamen geen echte brieven en'
+    y=2104.0 'geen VOL.1-schrijfwerk binnen. We verzinnen niets: het voorbeeld blijft, eerlijk gemarkeerd.'
+    y=2132.0 'Stuur je brief in — in VOL.3 publiceren we de brieven die we ontvangen!'
+
+== FURNITURE W43 vs W45-NL (verbatim) ==
+  'TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS': W43=True ED=True
+  'WEEKLY IN ENGLISH · ELKE WEEK EEN NUMMER · HET ENGELS DAT AMERIKA LEEST': W43=True ED=True
+  'The Lucerna · ENGELS WEEKBLAD VOL.2 · TEKSTEN IN HET ENGELS · UITLEG IN HET NEDERLANDS': W43=False ED=True
+  'Uitleg — ': W43=True ED=True
+  '— Pagina 1 —': W43=True ED=True
+  '— Pagina 8 —': W43=True ED=True
+  ED footers per page:
+    P1: ['Pagina 1 van 8']
+    P2: ['Pagina 2 van 8']
+    P3: ['Pagina 3 van 8']
+    P4: ['Pagina 4 van 8']
+    P5: ['Pagina 5 van 8']
+    P6: ['Pagina 6 van 8']
+    P7: ['Pagina 7 van 8']
+    P8: ['Pagina 8 van 8']
+  ED band suffixes:
+    P2: 'LIFE · Leven'
+    P3: 'CULTURE · Cultuur'
+    P4: 'SPORT · Sport'
+    P5: 'YOUTH · Jeugd'
+    P6: 'DEEP READ · Verdieping'
+    P7: 'LANGUAGE IN HAND · Taal in handen'
+    P8: 'EXERCISES & ANSWERS · Oefeningen en antwoorden'
+  ED P7 section Dutch suffixes:
+    'A2 → B2 · Phrases of the week · Zinnen van de week'
+    'LEVEL A2 · Basis'
+    'LEVEL B1 · Verder'
+    'LEVEL B2 · Uitdaging'
+    'THE TOOLBOX · Gereedschap'
+    'PHRASES OF THE WEEK · Zinnen van de week (allemaal uit dit nummer)'
+    'THE ERROR CLINIC · Fouten'
+    "READERS' CORNER · Lezershoek"
+    'NEXT WEEK · VOL.3 Volgende week'
+  ED exercise type names present:
+    Zinnen aanvullen: False
+    Meerkeuze: True
+    Zinnen omvormen: False
+    Woorden combineren: True
+    Grafiek lezen: False
+    Gatentekst: True
+    Leestekst: True
+    Vertalen: True
+    Dialoog aanvullen: True
+    Fouten verbeteren: True
+    Meedoen: False
+    Schrijven: True
+  W43 type names (for comparison, W43 file):
+    Zinnen aanvullen: False
+    Meerkeuze: True
+    Zinnen omvormen: False
+    Woorden combineren: True
+    Grafiek lezen: False
+    Gatentekst: True
+    Leestekst: True
+    Vertalen: True
+    Dialoog aanvullen: False
+    Fouten verbeteren: False
+    Meedoen: False
+    Schrijven: True
+  ED P8 font sizes for keys flow (para sizes in svg): check 13.5 present, 15.5 absent in P8 keys area
+    P8 font-size 13.5 count=111 15.5 count=0
+    W43 P8 font-size 13.5 count=0 15.5 count=85
+  ED P8 battery gaps: content8 gap values (from build file, informational)
+    gap=8 occurrences in content8: 10 ; gap=11 occurrences: 0
+
+== IMAGES ==
+  CORE P1 images=1
+      <image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4QCwRXhpZgAATU0AKgAAAAgABAEOAAIAAABGAAAAPgE7AAIAAAASAAAAhAITAAMAAAABAAEAAIKYAAIAAAASAAAAlgAAAABFeGFtcG
+  CORE P2 images=1
+      <image x="1451" y="200" width="434" height="440" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fE
+  CORE P3 images=1
+      <image x="1451" y="200" width="434" height="470" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx0aHxgaGxr/2wBDAQQFB
+  CORE P4 images=1
+      <image x="1451" y="200" width="434" height="470" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx0aHxgaGxr/wAALCAOqB
+  CORE P5 images=0
+  CORE P6 images=1
+      <image x="1451" y="200" width="434" height="300" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fE
+  CORE P7 images=0
+  CORE P8 images=0
+  ED P1 images=1
+      <image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4QCwRXhpZgAATU0AKgAAAAgABAEOAAIAAABGAAAAPgE7AAIAAAASAAAAhAITAAMAAAABAAEAAIKYAAIAAAASAAAAlgAAAABFeGFtcG
+  ED P2 images=1
+      <image x="1451" y="200" width="434" height="440" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fE
+  ED P3 images=1
+      <image x="1451" y="200" width="434" height="470" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx0aHxgaGxr/2wBDAQQFB
+  ED P4 images=1
+      <image x="1451" y="200" width="434" height="470" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx0aHxgaGxr/wAALCAOqB
+  ED P5 images=0
+  ED P6 images=1
+      <image x="1451" y="200" width="434" height="300" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fE
+  ED P7 images=0
+  ED P8 images=0
+  CORE credit-ish texts: ['Kenneth C. Zirkel — CC0, via Wikimedia Commons', 'from 1912. More than a century ago,', 'Public domain, via Wikimedia Commons', 'illustration by Édouard Manet for « The Cats »', 'Édouard Manet — CC0, via Wikimedia Commons', 'American football in 1910 : Miami against', 'Frank R. Snyder — public domain, via Wikimedia Commons', 'Public domain, via Wikimedia Commons']
+  ED credit-ish texts: ['Kenneth C. Zirkel — CC0, via Wikimedia Commons', 'from 1912. More than a century ago,', 'Public domain, via Wikimedia Commons', 'illustration by Édouard Manet for « The Cats »', 'Édouard Manet — CC0, via Wikimedia Commons', 'American football in 1910 : Miami against', 'Frank R. Snyder — public domain, via Wikimedia Commons', 'Public domain, via Wikimedia Commons']
+  build assets CREDITS.md:
+  build assets meta.json:
+
+== MODEL ESSAY (P8 writing box) ==
+  CORE MODEL header: ['MODEL · 范文']
+    y=1538 'MODEL · 范文'
+    y=1574 'On Tuesday, November 3, our family watched the election results at home. We ate'
+    y=1603.82 'pizza, because nobody wanted to cook on such a night. On television, the map'
+    y=1633.6399999999999 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I'
+    y=1663.4599999999998 'did not understand every state, but I understood the pizza and the excitement. On'
+    y=1693.2799999999997 'Sunday night, the clocks had fallen back, so I slept one hour more. It was a long'
+    y=1723.0999999999997 'night, and a very American one.'
+    y=1838 'ANSWERS · 全部答案与简析（第 1–8 版）'
+    y=1877.0 '— 第 1 版 —'
+    y=1917.26 '1. ballot · 2. midterm · 3. November 3 · 4. early · 5.'
+    y=1937.41 'called · 6. takes · 7. B · 8. C · 9. A · 10. B'
+    y=1983.56 '— 第 2 版 —'
+    y=2023.82 '11. one（1:00 = 一点整） · 12. half past（1:30 = 一点半） ·'
+    y=2043.97 '13. quarter to · 14. twice（两次 = twice） · 15. extra · 16.'
+  ED MODEL header: ['MODEL · Voorbeeldtekst']
+    y=1538 'MODEL · Voorbeeldtekst'
+    y=1574 'On Tuesday, November 3, our family watched the election results at home. We ate'
+    y=1603.82 'pizza, because nobody wanted to cook on such a night. On television, the map'
+    y=1633.6399999999999 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I'
+    y=1663.4599999999998 'did not understand every state, but I understood the pizza and the excitement. On'
+    y=1693.2799999999997 'Sunday night, the clocks had fallen back, so I slept one hour more. It was a long'
+    y=1723.0999999999997 'night, and a very American one.'
+    y=1838 'ANSWERS · Alle antwoorden met toelichting (pagina 1–8)'
+    y=1876.0 '— Pagina 1 —'
+    y=1912.66 '1. ballot (ballot = stembiljet) · 2. midterm (midterm = tussentijds'
+    y=1929.67 '(verkiezing)) · 3. November 3 (Verkiezingsdag: dinsdag 3 november)'
+    y=1946.68 '· 4. early (early voting = vervroegd stemmen) · 5. called (race called'
+    y=1963.69 '= uitslag bekend) · 6. takes (take time = tijd kosten) · 7. B'
+    y=1980.7 '(Verkiezingsdag: dinsdag 3 november) · 8. C (Alle 435 zetels in het'

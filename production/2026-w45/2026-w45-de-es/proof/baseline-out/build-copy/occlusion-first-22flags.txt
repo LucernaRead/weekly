@@ -1,0 +1,47 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-de-es/svg: 22 flags {'BOXTITLE': 12, 'COVER': 3, 'EDGE': 5, 'LINEX': 1, 'TEXTX': 1}
+  [EDGE] p1-front.svg 'Las grandes preguntas de la semana · Die Fragen der Woche' — ink box (1473.0, 670.75, 2012.0, 690.75) outside page 1950.0x2700.0
+  [EDGE] p1-front.svg 'Las cinco preguntas de las que habla Alemania esta semana.' — ink box (1473.0, 1250.75, 2004.0, 1270.75) outside page 1950.0x2700.0
+  [TEXTX] p1-front.svg 'DIE WOCHE IN ZAHLEN · La semana en cifras' — ink overlaps 'Der ___ läuft bis zum 31. Dezember.' by 65.8x10.2px
+  [BOXTITLE] p1-front.svg 'DIE WOCHE IN ZAHLEN · La semana en cifras' — ink crosses its box borders: right ink 1054.8 > border 961.0
+  [BOXTITLE] p1-front.svg 'Las grandes preguntas de la semana · Die Fragen der Woche' — ink crosses its box borders: right ink 2012.0 > border 1885.0
+  [BOXTITLE] p1-front.svg 'Las cinco preguntas de las que habla Alemania esta semana.' — ink crosses its box borders: right ink 2004.0 > border 1885.0
+  [BOXTITLE] p1-front.svg 'IN DIESER AUSGABE · En este número' — ink crosses its box borders: right ink 1924.8 > border 1885.0
+  [BOXTITLE] p2-leben.svg 'AN DER ZAPFSÄULE · En el surtidor' — ink crosses its box borders: right ink 1895.0 > border 1885.0
+  [EDGE] p3-kultur.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink box (1473.0, 222.5, 1969.25, 242.25) outside page 1950.0x2700.0
+  [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink crosses its box borders: right ink 1969.2 > border 1885.0
+  [BOXTITLE] p3-kultur.svg 'HERBSTWÖRTER · Palabras de otoño' — ink crosses its box borders: right ink 1916.8 > border 1885.0
+  [BOXTITLE] p3-kultur.svg 'DER TIPP · Consejo de la redacción' — ink crosses its box borders: right ink 1894.5 > border 1885.0
+  [EDGE] p5-jugend.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink box (1473.0, 222.5, 1969.25, 242.25) outside page 1950.0x2700.0
+  [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink crosses its box borders: right ink 1969.2 > border 1885.0
+  [BOXTITLE] p5-jugend.svg 'SCHULWÖRTER · Palabras del colegio' — ink crosses its box borders: right ink 1924.2 > border 1885.0
+  [COVER] p6-vertiefung.svg 'familiares que cuidan' — 45% of ink covered by later rect box [535.0, 1482.0, 1691.0, 1512.0]
+  [COVER] p6-vertiefung.svg 'servicio profesional' — 40% of ink covered by later rect box [535.0, 1534.0, 875.0, 1564.0]
+  [COVER] p6-vertiefung.svg 'en una residencia' — 33% of ink covered by later rect box [535.0, 1586.0, 739.0, 1616.0]
+  [EDGE] p6-vertiefung.svg 'ÜBUNGSDATEN · Datos de práctica — Diese Zahlen sind ein Übun' — ink box (65.0, 1638.25, 2180.0, 1661.0) outside page 1950.0x2700.0
+  [BOXTITLE] p6-vertiefung.svg 'DIE ZAHLEN · Las cifras de la semana' — ink crosses its box borders: right ink 1918.2 > border 1885.0
+  [LINEX] p7-sprache.svg 'Seite 6 · B2' — later line box [64.0, 1967.0, 1886.0, 1969.0] crosses ink
+  [BOXTITLE] p7-sprache.svg 'LESERBRIEFE · Cartas de los lectores' — ink crosses its box borders: right ink 1899.0 > border 1885.0
+core: 0 flags; NEW vs core: 22
+  NEW [EDGE] p1-front.svg 'Las grandes preguntas de la semana · Die Fragen der Woche' — ink box (1473.0, 670.75, 2012.0, 690.75) outside page 1950.0x2700.0
+  NEW [EDGE] p1-front.svg 'Las cinco preguntas de las que habla Alemania esta semana.' — ink box (1473.0, 1250.75, 2004.0, 1270.75) outside page 1950.0x2700.0
+  NEW [TEXTX] p1-front.svg 'DIE WOCHE IN ZAHLEN · La semana en cifras' — ink overlaps 'Der ___ läuft bis zum 31. Dezember.' by 65.8x10.2px
+  NEW [BOXTITLE] p1-front.svg 'DIE WOCHE IN ZAHLEN · La semana en cifras' — ink crosses its box borders: right ink 1054.8 > border 961.0
+  NEW [BOXTITLE] p1-front.svg 'Las grandes preguntas de la semana · Die Fragen der Woche' — ink crosses its box borders: right ink 2012.0 > border 1885.0
+  NEW [BOXTITLE] p1-front.svg 'Las cinco preguntas de las que habla Alemania esta semana.' — ink crosses its box borders: right ink 2004.0 > border 1885.0
+  NEW [BOXTITLE] p1-front.svg 'IN DIESER AUSGABE · En este número' — ink crosses its box borders: right ink 1924.8 > border 1885.0
+  NEW [BOXTITLE] p2-leben.svg 'AN DER ZAPFSÄULE · En el surtidor' — ink crosses its box borders: right ink 1895.0 > border 1885.0
+  NEW [EDGE] p3-kultur.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink box (1473.0, 222.5, 1969.25, 242.25) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink crosses its box borders: right ink 1969.2 > border 1885.0
+  NEW [BOXTITLE] p3-kultur.svg 'HERBSTWÖRTER · Palabras de otoño' — ink crosses its box borders: right ink 1916.8 > border 1885.0
+  NEW [BOXTITLE] p3-kultur.svg 'DER TIPP · Consejo de la redacción' — ink crosses its box borders: right ink 1894.5 > border 1885.0
+  NEW [EDGE] p5-jugend.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink box (1473.0, 222.5, 1969.25, 242.25) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Cambio de vacaciones' — ink crosses its box borders: right ink 1969.2 > border 1885.0
+  NEW [BOXTITLE] p5-jugend.svg 'SCHULWÖRTER · Palabras del colegio' — ink crosses its box borders: right ink 1924.2 > border 1885.0
+  NEW [COVER] p6-vertiefung.svg 'familiares que cuidan' — 45% of ink covered by later rect box [535.0, 1482.0, 1691.0, 1512.0]
+  NEW [COVER] p6-vertiefung.svg 'servicio profesional' — 40% of ink covered by later rect box [535.0, 1534.0, 875.0, 1564.0]
+  NEW [COVER] p6-vertiefung.svg 'en una residencia' — 33% of ink covered by later rect box [535.0, 1586.0, 739.0, 1616.0]
+  NEW [EDGE] p6-vertiefung.svg 'ÜBUNGSDATEN · Datos de práctica — Diese Zahlen sind ein Übun' — ink box (65.0, 1638.25, 2180.0, 1661.0) outside page 1950.0x2700.0
+  NEW [BOXTITLE] p6-vertiefung.svg 'DIE ZAHLEN · Las cifras de la semana' — ink crosses its box borders: right ink 1918.2 > border 1885.0
+  NEW [LINEX] p7-sprache.svg 'Seite 6 · B2' — later line box [64.0, 1967.0, 1886.0, 1969.0] crosses ink
+  NEW [BOXTITLE] p7-sprache.svg 'LESERBRIEFE · Cartas de los lectores' — ink crosses its box borders: right ink 1899.0 > border 1885.0

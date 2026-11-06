@@ -1,0 +1,38 @@
+--- weekly-report-w45-en-core MODEL essay ---
+ occurrences of title: 1
+"My Tuesday, November 3 ». Tell us : did you watch the results, what did you eat, what did the map show — and one sentence about the clocks that fell back on Sunday night. The best texts will appear in VOL.3 (page 7, « Readers' Corner »). 用英语写 80–100 词：我的 11 月 3 日周二。写清你是否看了结果、吃了什么、地图显示了什么，再写 一句周日夜里拨回的时钟。 MODEL · 范文 On Tuesday, November 3, our family watched the election results at home. We ate pizza, because nobody wanted to cook on such a night. On television, the map changed colour, state by state, and my father said : « Ohio is too close to call ! » I did not understand every state, but I understood the pizza and the excitement. On Sunday night, the clocks had fallen back, so I slept one hour more. It was a long night, and a very American one. ANSWERS · 全部答案与简析（第 1–8 版） — 第 1 版 — 1. ballot · 2. midterm · 3. November 3 · 4. early · 5. called · 6. takes · 7. B · 8. C · 9. A · 10. B — 第 2"
+ body words (title+body until ANSWERS): 144
+--- weekly-report-w45-en-pt MODEL essay ---
+ occurrences of title: 1
+"My Tuesday, November 3 ». Tell us : did you watch the results, what did you eat, what did the map show — and one sentence about the clocks that fell back on Sunday night. The best texts will appear in VOL.3 (page 7, « Readers' Corner »). Escreva em inglês de 80 a 100 palavras: sua terça-feira, 3 de novembro. Diga se viu os resultados, o que comeu, o que o mapa mostrou, e uma frase sobre os relógios atrasados na noite de domingo. MODEL · Modelo On Tuesday, November 3, our family watched the election results at home. We ate pizza, because nobody wanted to cook on such a night. On television, the map changed colour, state by state, and my father said : « Ohio is too close to call ! » I did not understand every state, but I understood the pizza and the excitement. On Sunday night, the clocks had fallen back, so I slept one hour more. It was a long night, and a very American one. ANSWERS · Re"
+ body words (title+body until ANSWERS): 173
+ESSAY IDENTICAL core vs PT: False
+essay word count core: 144 PT: 173
+essay full: "My Tuesday, November 3 ». Tell us : did you watch the results, what did you eat, what did the map show — and one sentence about the clocks that fell back on Sunday night. The best texts will appear in VOL.3 (page 7, « Readers' Corner »). 用英语写 80–100 词：我的 11 月 3 日周二。写清你是否看了结果、吃了什么、地图显示了什么，再写 一句周日夜里拨回的时钟。 MODEL · 范文 On Tuesday, November 3, our family watched the election results at home. We ate pizza, because nobody wanted to cook on such a night. On television, the map changed colour, state by state, and my father said : « Ohio is too close to call ! » I did not understand every state, but I understood the pizza and the excitement. On Sunday night, the clocks had fallen back, so I slept one hour more. It was a long night, and a very American one. "
+words excluding 4-word title: 140
+ def-sentence '« The clocks fell back. »' core=1 PT=1
+ def-sentence 'For a plan' core=1 PT=1
+ def-sentence 'Short adjective + -er + than' core=1 PT=1
+ def-sentence 'Regular verbs add -ed' core=1 PT=1
+ def-sentence 'Headlines speak of yesterday' core=1 PT=1
+ def-sentence '« Nobody knows whether the race is' core=1 PT=1
+--- ABSTRACT ---
+'The Lucerna em inglês para leitores de língua portuguesa: eleições de meio de mandato nos EUA em 3 de novembro, relógios atrasados em 1º de novembro, Halloween, estreias de 6 de novembro com The Cat in the Hat e Godzilla Minus Zero, NFL em Madri e F1 em São Paulo em 8 de novembro, e como a América vota; aprenda inglês lendo notícias dos EUA com explicações em português, níveis A2 a B2 e 150 exercícios.\n'
+lines: 1 has ASCII quote: False
+  kw '3 de novembro': YES
+  kw '1º de novembro': YES
+  kw 'Halloween': YES
+  kw '6 de novembro': YES
+  kw 'The Cat in the Hat': YES
+  kw 'Godzilla Minus Zero': YES
+  kw 'Madri': YES
+  kw 'São Paulo': YES
+  kw '8 de novembro': YES
+  kw 'como a América vota': YES
+  kw 'aprenda inglês lendo notícias dos EUA': YES
+  kw 'A2': YES
+  kw 'B2': YES
+  kw '150 exercícios': YES
+Traceback (most recent call last):
+  File "<stdin>", line 43, in <module>
+ModuleNotFoundError: No module named 'pypdf'

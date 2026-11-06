@@ -1,0 +1,59 @@
+== Right-edge ADVANCE scan (inner frame right = 1910) ==
+p1-front: over1910=0 max_adv_right=1885.0
+p2-life: over1910=0 max_adv_right=1885.0
+p3-culture: over1910=0 max_adv_right=1885.0
+p4-sport: over1910=0 max_adv_right=1888.6
+p5-jeunesse: over1910=0 max_adv_right=1885.0
+p6-politique: over1910=0 max_adv_right=1885.0
+p7-langue: over1910=0 max_adv_right=1885.0
+p8-exercices: over1910=0 max_adv_right=1903.8
+
+== Frame ink scan (outer frame 28..1922 x 28..2672) ==
+p1-front: outside=0
+p2-life: outside=0
+p3-culture: outside=0
+p4-sport: outside=0
+p5-jeunesse: outside=0
+p6-politique: outside=0
+p7-langue: outside=0
+p8-exercices: outside=0
+
+== Same-baseline ink collision scan (same y, overlap >0.5px) ==
+p1-front: collisions=0
+p2-life: collisions=0
+p3-culture: collisions=0
+p4-sport: collisions=0
+p5-jeunesse: collisions=0
+p6-politique: collisions=0
+p7-langue: collisions=0
+p8-exercices: collisions=0
+
+== P1 dark-band pair y=478 ==
+  L adv=(95.0, 1243.9375) ink=(94.75, 449.0, 1243.75, 478.5)
+  R adv=(1349.21875, 1855.0) ink=(1349.31, 460.0, 1855.06, 478.25)
+  ADV_GAP=105.28 INK_GAP=105.56 (negative=overlap/touch)
+
+== R2->R3 final-state checks ==
+  P1 'Deze week gezocht · Google Trends VS' ink=(1473.0, 670.8, 1822.0, 690.8) adv=(1473.0, 1822.0)
+  P1 'Midden van een termijn: tussentijdse verkiezing.' ink=(1451.0, 1804.8, 1876.0, 1824.8) adv=(1451.0, 1875.9)
+  P8 'Levels : 145–148 [A2] · 149 [B1]' y=1362.015 ink=(1451.0, 1346.3, 1739.5, 1365.5)
+
+== Shortened box titles (NL) ==
+p1-front 'THE WEEK IN NUMBERS · Cijfers': advance=370.5 ink=(545.0, 1511.7, 915.5, 1535.7) containing_bordered=3
+p4-sport 'SUNDAY, NOVEMBER 8 · Zondag': advance=367.8 ink=(1469.0, 854.5, 1836.8, 878.8) containing_bordered=3
+p5-jeunesse 'TOO CLOSE TO CALL · Onbeslist': advance=366.5 ink=(83.0, 2072.4, 449.5, 2091.4) containing_bordered=3
+p5-jeunesse 'FIVE SENTENCES · Vijf zinnen': advance=341.5 ink=(1469.0, 218.2, 1810.5, 242.2) containing_bordered=3
+p6-politique 'A PRACTICE BALLOT · Stembiljet': advance=374.9 ink=(544.8, 218.2, 920.0, 242.2) containing_bordered=3
+p6-politique 'READ THE CHART · Grafiek': advance=336.8 ink=(527.0, 983.9, 863.8, 1004.6) containing_bordered=2
+p8-exercices 'D · SENTENCES · Zinnen vormen': advance=407.1 ink=(989.0, 678.3, 1396.0, 698.1) containing_bordered=2
+
+== P6 chart coverage (baseline-anchored ink vs later opaque rects) ==
+p1-front: max_coverage=0.0% worst=None
+p2-life: max_coverage=0.0% worst=None
+p3-culture: max_coverage=0.0% worst=None
+p4-sport: max_coverage=0.0% worst=None
+p5-jeunesse: max_coverage=0.0% worst=None
+p6-politique: max_coverage=0.0% worst=None
+p7-langue: max_coverage=0.0% worst=None
+p8-exercices: max_coverage=0.0% worst=None
+DONE

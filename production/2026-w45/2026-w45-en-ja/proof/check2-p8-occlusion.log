@@ -1,0 +1,25 @@
+=== p8 extract CORE ===
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p8-exercices.svg: noted set = 78 of 150 (parse: joined)
+  set: [11, 12, 14, 19, 29, 30, 31, 33, 41, 44, 47, 48, 51, 58, 64, 66, 67, 68, 69, 71, 74, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 100, 102, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+exit=0
+=== p8 extract EDITION ===
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-ja/svg/p8-exercices.svg: noted set = 78 of 150 (parse: joined)
+  set: [11, 12, 14, 19, 29, 30, 31, 33, 41, 44, 47, 48, 51, 58, 64, 66, 67, 68, 69, 71, 74, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 100, 102, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+exit=0
+=== p8 compare explicit dual-path ===
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg/p8-exercices.svg: 78 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-ja/svg/p8-exercices.svg: 78 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+exit=0
+=== occlusion selftest ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+exit=0
+=== occlusion edition+core ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-ja/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== occlusion core alone ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-core/svg: 0 flags 
+exit=0

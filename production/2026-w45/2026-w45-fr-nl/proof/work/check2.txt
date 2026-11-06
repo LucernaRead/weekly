@@ -1,0 +1,189 @@
+===== A. P4 commentator box (serif 21.5, x~1007) =====
+  y=902.095 ink=(1007.00,1395.00) w=388.00 :: '« Allez ! » — Kom! · « Quelle action ! »'
+  y=932.625 ink=(1007.00,1178.25) w=171.25 :: '— Wat een actie!'
+  y=989.655 ink=(1007.00,1379.50) w=372.50 :: "« Il marque ! » — Hij scoort! · « C'est"
+  y=1020.185 ink=(1007.00,1247.00) w=240.00 :: 'gagné ! » — Gewonnen!'
+  y=1077.215 ink=(1007.00,1339.50) w=332.50 :: '« Quel point ! » — Wat een punt!'
+  y=1107.745 ink=(1007.00,1331.75) w=324.75 :: '(tennis) · « Balle de match ! » —'
+  y=1138.2749999999999 ink=(1007.00,1135.00) w=128.00 :: 'Matchpoint!'
+  first-line starts with '!': False
+  CORE box lines:
+  y=872.3699999999999 :: '« Allez ! » — 加油！ · « Quelle action ! »'
+  y=902.8999999999999 :: '— 好球！'
+  y=959.9299999999998 :: "« Il marque ! » — 他得分了！ · « C'est"
+  y=990.4599999999998 :: 'gagné ! » — 赢了！'
+  y=1047.4899999999998 :: '« Quel point ! » — 好球！（网球） · «'
+  y=1078.0199999999998 :: 'Balle de match ! » — 赛点！'
+  ED cheer node bytes: b'\xc2\xab Allez ! \xc2\xbb \xe2\x80\x94 Kom! \xc2\xb7 \xc2\xab Quelle action ! \xc2\xbb'
+  CORE cheer node bytes: b'\xc2\xab Allez ! \xc2\xbb \xe2\x80\x94 \xe5\x8a\xa0\xe6\xb2\xb9\xef\xbc\x81 \xc2\xb7 \xc2\xab Quelle action ! \xc2\xbb'
+===== B. frozen strings (concatenated page text) =====
+  P4 41e string: ED=FOUND CORE=FOUND :: 41e édition en 2026 (40e anniversaire)
+  P8 Q120 stem: ED=FOUND CORE=FOUND :: Si j'étais libre dimanche, j'___ à Nanterre.
+  P8 Q120 opts: ED=FOUND CORE=FOUND :: A. irai · B. irais · C. vais
+  P8 Q120 note: ED=FOUND CORE=MISSING :: si + imparfait → conditionnel; j' = je geëlideerd
+  P8 Q119 stem: ED=FOUND CORE=FOUND :: Elle s'intéresse ___ festivals.
+  P8 Q121 stem: ED=FOUND CORE=FOUND :: À mon avis, ce programme ___ très riche.
+  P7 #4 verbatim: ED=FOUND CORE=FOUND :: plus excitante ou plus frustrante ?
+  P7 #8 verbatim: ED=FOUND CORE=FOUND :: Les jeunes créateurs y rencontrent leur public, en vrai.
+  P6 sync: ED=FOUND CORE=FOUND :: Ce calendrier peut encore bouger.
+  P4 40e count: ED '40e' count=1 '41e' count=1 | CORE '40e'=1 '41e'=1 | whole-ED '40e'=1
+  P7 French definition heads in ED:
+    REPRENDRE: ED=True CORE=True
+    FUTUR PROCHE: ED=True CORE=True
+    PASSÉ COMPOSÉ: ED=True CORE=True
+    COMPARATIF: ED=True CORE=True
+    SUBJONCTIF: ED=True CORE=True
+    ATTENTE: ED=True CORE=True
+===== C. freeze-diff added/removed classification =====
+  p1: +0 -0 removed-without-CJK=0
+  p2: +0 -0 removed-without-CJK=0
+  p3: +0 -0 removed-without-CJK=0
+  p4: +0 -0 removed-without-CJK=0
+  p5: +0 -0 removed-without-CJK=0
+  p6: +0 -0 removed-without-CJK=0
+  p7: +0 -0 removed-without-CJK=0
+  p8: +0 -0 removed-without-CJK=0
+===== D. right-edge scan (ink>1885 or adv>1885) =====
+  ED p2-vie y=1598.0 adv=1885.00 ink_right=1885.04 :: 'lundi 2 novembre · let op: de 1e is le premier, andere dagen gebruiken'
+  ED p2-vie y=1918.0 adv=1885.00 ink_right=1885.15 :: 'Antwoorden op pagina 8 · oefeningen zijn gemengd per niveau; zoek antw'
+  ED p8-exercices y=998.0 adv=1891.25 ink_right=1891.25 :: "b. une soirée qui dure jusqu'à la nuit"
+  ED p8-exercices y=1074.0 adv=1891.30 ink_right=1891.25 :: 'd. le coquillage fêté à Port-en-Bessin'
+  ED p8-exercices y=1112.0 adv=1899.58 ink_right=1899.50 :: 'e. plusieurs concerts en une semaine'
+  CORE p1-une y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 1 版 / 共 8 版'
+  CORE p2-vie y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 2 版 / 共 8 版'
+  CORE p3-culture y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 3 版 / 共 8 版'
+  CORE p4-sport y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 4 版 / 共 8 版'
+  CORE p5-jeunesse y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 5 版 / 共 8 版'
+  CORE p6-politique y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 6 版 / 共 8 版'
+  CORE p7-langue y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 7 版 / 共 8 版'
+  CORE p8-exercices y=940.0 adv=1891.25 ink_right=1891.25 :: "b. une soirée qui dure jusqu'à la nuit"
+  CORE p8-exercices y=1016.0 adv=1891.30 ink_right=1891.25 :: 'd. le coquillage fêté à Port-en-Bessin'
+  CORE p8-exercices y=1054.0 adv=1899.58 ink_right=1899.50 :: 'e. plusieurs concerts en une semaine'
+  CORE p8-exercices y=2624.0 adv=1885.00 ink_right=1885.07 :: '第 8 版 / 共 8 版'
+===== E. same-baseline spacing P1 y=92 + footers y=2624 =====
+  ED p1-une y=92.0: 3 segs gaps=[337.4, 112.0]
+  ED p1-une y=2624.0: 2 segs gaps=[782.2]
+  ED p2-vie y=92.0: 0 segs gaps=[]
+  ED p2-vie y=2624.0: 2 segs gaps=[782.2]
+  ED p3-culture y=92.0: 0 segs gaps=[]
+  ED p3-culture y=2624.0: 2 segs gaps=[782.2]
+  ED p4-sport y=92.0: 0 segs gaps=[]
+  ED p4-sport y=2624.0: 2 segs gaps=[782.2]
+  ED p5-jeunesse y=92.0: 0 segs gaps=[]
+  ED p5-jeunesse y=2624.0: 2 segs gaps=[782.2]
+  ED p6-politique y=92.0: 0 segs gaps=[]
+  ED p6-politique y=2624.0: 2 segs gaps=[782.2]
+  ED p7-langue y=92.0: 0 segs gaps=[]
+  ED p7-langue y=2624.0: 2 segs gaps=[782.2]
+  ED p8-exercices y=92.0: 0 segs gaps=[]
+  ED p8-exercices y=2624.0: 2 segs gaps=[782.2]
+  CORE p1-une y=92.0: 3 segs gaps=[387.5, 196.2]
+  CORE p1-une y=2624.0: 2 segs gaps=[1157.1]
+  CORE p2-vie y=92.0: 0 segs gaps=[]
+  CORE p2-vie y=2624.0: 2 segs gaps=[1157.1]
+  CORE p3-culture y=92.0: 0 segs gaps=[]
+  CORE p3-culture y=2624.0: 2 segs gaps=[1157.1]
+  CORE p4-sport y=92.0: 0 segs gaps=[]
+  CORE p4-sport y=2624.0: 2 segs gaps=[1157.1]
+  CORE p5-jeunesse y=92.0: 0 segs gaps=[]
+  CORE p5-jeunesse y=2624.0: 2 segs gaps=[1157.1]
+  CORE p6-politique y=92.0: 0 segs gaps=[]
+  CORE p6-politique y=2624.0: 2 segs gaps=[1157.1]
+  CORE p7-langue y=92.0: 0 segs gaps=[]
+  CORE p7-langue y=2624.0: 2 segs gaps=[1157.1]
+  CORE p8-exercices y=92.0: 0 segs gaps=[]
+  CORE p8-exercices y=2624.0: 2 segs gaps=[1157.1]
+===== F. orphan scan window 10-45 (line-start punct + short-final) =====
+  ED flags: 8
+   ED  ('p1-une', 1604.0, 'SHORT-FINAL', 'p.8')
+   ED  ('p2-vie', 2140.9, 'SHORT-FINAL', '___')
+   ED  ('p2-vie', 2459.100000000001, 'SHORT-FINAL', '___')
+   ED  ('p3-culture', 789.65, 'LINESTART', ": on le pose sur les tombes, on ne l'offre jamais")
+   ED  ('p3-culture', 2405.3499999999995, 'SHORT-FINAL', '7).')
+   ED  ('p4-sport', 837.1199999999999, 'LINESTART', ': quarts de finale vendredi 6')
+   ED  ('p5-jeunesse', 430.64999999999986, 'LINESTART', ': clôture du festival.')
+   ED  ('p7-langue', 428.1, 'LINESTART', ": attention à l'accord avec le sujet :")
+  CORE flags: 13
+   CO  ('p1-une', 1604.0, 'SHORT-FINAL', 'p.8')
+   CO  ('p2-vie', 2140.9, 'SHORT-FINAL', '___')
+   CO  ('p2-vie', 2459.100000000001, 'SHORT-FINAL', '___')
+   CO  ('p3-culture', 488.62500000000006, 'SHORT-FINAL', '填空。')
+   CO  ('p3-culture', 1054.3749999999995, 'SHORT-FINAL', '）。')
+   CO  ('p3-culture', 789.65, 'LINESTART', ": on le pose sur les tombes, on ne l'offre jamais")
+   CO  ('p3-culture', 2405.3499999999995, 'SHORT-FINAL', '7).')
+   CO  ('p4-sport', 837.1199999999999, 'LINESTART', ': quarts de finale vendredi 6')
+   CO  ('p5-jeunesse', 430.64999999999986, 'LINESTART', ': clôture du festival.')
+   CO  ('p6-politique', 1953.1749999999995, 'SHORT-FINAL', '填空。')
+   CO  ('p7-langue', 1347.375, 'SHORT-FINAL', '）。')
+   CO  ('p7-langue', 1259.775, 'SHORT-FINAL', '分词。')
+   CO  ('p7-langue', 428.1, 'LINESTART', ": attention à l'accord avec le sujet :")
+  ED flags NOT in CORE (page/y/text): []
+  ED line-start-punct flags: [('p3-culture', 789.65, 'LINESTART', ": on le pose sur les tombes, on ne l'offre jamais"), ('p4-sport', 837.1199999999999, 'LINESTART', ': quarts de finale vendredi 6'), ('p5-jeunesse', 430.64999999999986, 'LINESTART', ': clôture du festival.'), ('p7-langue', 428.1, 'LINESTART', ": attention à l'accord avec le sujet :")]
+  safety-net: ALL ED text elements starting with punct:
+===== G. P8 calibers (max baseline / ink bottom) =====
+  ED battery: n=152 max_baseline=1455.83 max_ink_bottom=1456.08 gap_to_2580=1123.92
+      worst-ink node y=1455.825 x=65.0 :: '· C. des'
+  ED answers: n=116 max_baseline=2537.73 max_ink_bottom=2540.73 gap_to_2580=39.27
+      worst-ink node y=2537.73 x=527.0 :: 'november: Financiën en Economie) · 83. B (23 oktober:'
+  CORE battery: n=150 max_baseline=1455.83 max_ink_bottom=1456.08 gap_to_2580=1123.92
+      worst-ink node y=1455.825 x=65.0 :: '· C. des'
+  CORE answers: n=99 max_baseline=2539.19 max_ink_bottom=2541.23 gap_to_2580=38.77
+      worst-ink node y=2537.7300000000005 x=527.0 :: 'excitante（plus + 形容词） · 101. promenons · 102. peut'
+===== H. P7 reader box + preview margins, P1 gloss rightmost =====
+  P7 reader-region max ink bottom=2241.57 (box bottom 2258 -> margin 16.43)
+  P7 preview-region max ink bottom=2629.00 (bar bottom 2540 -> margin -89.00)
+  P1 gloss-prefix lines: 1
+    y=1375.9 ink_right=914.75 (box right 961) margin=46.25 :: 'Uitleg — se jouer beslist worden · une'
+===== I. P6 chart-label baseline-anchored coverage =====
+  ED: chart-region texts=60 max later-rect coverage=0.0% (gate <30%)
+  CORE: chart-region texts=59 max later-rect coverage=0.0% (gate <30%)
+===== J. reader corner + furniture =====
+  P7 FOUND: Exemple de la rédaction (ce texte n'est pas une lettre de lecteur)
+  P7 FOUND: Stuur je brief én je beste pagina-8-tekst in voor VOL.4!
+  P7 FOUND: geen echte brieven en geen beste VOL.2-pagina-8-tekst binnen
+  P7 FOUND: beide volgen in VOL.4
+  P7 FOUND: Note de la rédaction : aucun texte du VOL.2
+  P7 preview line contains 'en jullie brieven!': True
+  footer p1-une: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+  footer p2-vie: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+  footer p3-culture: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+  footer p4-sport: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+  footer p5-jeunesse: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+  footer p6-politique: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+  footer p7-langue: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+  footer p8-exercices: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+  P1 badge: [(975.0, 574.0, 22.0, True, 'middle', 'TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS')]
+  W43 P1 badge: [(975.0, 574.0, 22.0, True, 'middle', 'TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS')]
+  badge byte-equal ED==W43: True
+  P8 separators: ['— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —']
+  P8 keys head: ['EXERCICES & RÉPONSES · OEFENINGEN & ANTWOORDEN', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+  W43 keys head: ['EXERCICES & RÉPONSES · OEFENINGEN & ANTWOORDEN', 'RÉPONSES · ALLE ANTWOORDEN MET NOTEN (PAGINA 1–8)']
+  W43 separators: ['— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —']
+===== K. images double-hash + placement + credit =====
+  ED p1-une place=(65,1874,896x320) b64sha16=ff20bc2bd2654cdc decsha16=f3705af28f175ce4 decbytes=334674
+  ED p2-vie place=(1451,200,434x480) b64sha16=6918cb8bbe4b4bec decsha16=5b772facb5db886c decbytes=646242
+  ED p3-culture place=(1451,200,434x540) b64sha16=bfaadf5b6b912416 decsha16=be071fdae81a71b4 decbytes=142340
+  CORE p1-une place=(65,1874,896x320) b64sha16=ff20bc2bd2654cdc decsha16=f3705af28f175ce4 decbytes=334674
+  CORE p2-vie place=(1451,200,434x480) b64sha16=6918cb8bbe4b4bec decsha16=5b772facb5db886c decbytes=646242
+  CORE p3-culture place=(1451,200,434x540) b64sha16=bfaadf5b6b912416 decsha16=be071fdae81a71b4 decbytes=142340
+  credit p1-une: FOUND y=[2271.3] :: Eugène Atget (1857-1927), photographie, domaine public
+  credit p2-vie: MISSING :: Utagawa Hiroshige (1797-1858), estampe, domaine public · LAC
+  credit p3-culture: MISSING :: Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,
+===== L. ABSTRACT + forbidden term =====
+  ABSTRACT bytes=427 lines=1 ascii-quote=False text='Le Lucerna Frans weekblad VOL.3 voor Nederlandstalige lezers: finaleweekend van 2 tot 8 november met de Rolex Paris Masters in Nanterre, Peur sur le Parc in Plailly, het schelpenfeest Le Goût du Large in Port-en-Bessin, Pitchfork Paris en de begrotingsweek in de Assemblée; leer Frans door te lezen met 150 oefeningen op niveau A2 tot B2, inclusief Franse grammatica, woordenschat en antwoorden met uitleg in het Nederlands.'
+  term '桥接' in ED SVG pages: []
+  term in ABSTRACT: False
+  term in KIT: False
+  (build-code scan done; silence above = 0 hits)
+  ABSTRACT keywords in-edition counts:
+    Rolex Paris Masters: ED=2 in-ABSTRACT=True
+    Nanterre: ED=10 in-ABSTRACT=True
+    Peur sur le Parc: ED=5 in-ABSTRACT=True
+    Plailly: ED=11 in-ABSTRACT=True
+    Le Goût du Large: ED=3 in-ABSTRACT=True
+    Port-en-Bessin: ED=14 in-ABSTRACT=True
+    Pitchfork: ED=11 in-ABSTRACT=True
+    Assemblée: ED=11 in-ABSTRACT=True
+    phrase 'leer Frans door te lezen': in-ABSTRACT=True
+    phrase 'Franse grammatica': in-ABSTRACT=True
+    phrase 'woordenschat': in-ABSTRACT=True

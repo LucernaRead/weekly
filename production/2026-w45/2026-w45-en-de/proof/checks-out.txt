@@ -1,0 +1,138 @@
+== A. CJK / fullwidth parens / 桥接 (edition SVGs) ==
+p1-front: CJK=0 FWparens=0 桥接=0 texts=169
+p2-life: CJK=0 FWparens=0 桥接=0 texts=192
+p3-culture: CJK=0 FWparens=0 桥接=0 texts=174
+p4-sport: CJK=0 FWparens=0 桥接=0 texts=176
+p5-jeunesse: CJK=0 FWparens=0 桥接=0 texts=174
+p6-politique: CJK=0 FWparens=0 桥接=0 texts=185
+p7-langue: CJK=0 FWparens=0 桥接=0 texts=169
+p8-exercices: CJK=0 FWparens=0 桥接=0 texts=293
+KIT: CJK=1 FWparens=0 桥接=0 bytes=18655 ascii_dquote=0
+ABSTRACT: CJK=0 FWparens=0 桥接=0 bytes=423 ascii_dquote=0
+
+== B. Removed-string classification (freeze diff JSON) ==
+unclassified/fragment-candidates: 14
+  P8: '1. ballot · 2. midterm · 3. November 3 · 4. early · 5.'
+  P8: '42. We are going to watch the cat film on Friday. · 43. She is'
+  P8: '75. d · 76. b · 77. a · 78. The map is changing colour now.'
+  P8: 'Americans are going to vote on Tuesday. · 17. She is going'
+  P8: 'Madrid on Sunday. · 61. She watched the race in São Paulo.'
+  P8: 'called · 6. takes · 7. B · 8. C · 9. A · 10. B'
+  P8: 'defends · 53. begin · 54. bigger · 55. faster · 56. b · 57.'
+  P8: 'going to tell the story in five sentences. · 44. Are you going'
+  P8: 'shape · 95. register · 96. patience · 97. optional · 98.'
+  P8: 'to watch the film on Friday. · 18. We are going to sleep one'
+  P8: "watching the results at home. · 81. She is waiting for Ohio's"
+  P8: '· 25. a · 26. d · 27. c'
+  P8: '· 62. They followed the scores on their phones. · 63. He'
+  P8: '· 79. Friends are sending messages tonight. · 80. We are'
+
+== C. P8 extracts ==
+core extract keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+edition extract keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+
+== D. Gloss (rendered SVG reassembly) ==
+p2-life edition gloss boxes=1 items=[3] core boxes=0 items=[]
+   ED: to fall back = (Uhren) zurückstellen · a costume = Kostüm, Verkleidung · trick or treat = Süßes oder Saures.
+   items: ['to fall back = (Uhren) zurückstellen', 'a costume = Kostüm, Verkleidung', 'trick or treat = Süßes oder Saures.']
+p3-culture edition gloss boxes=1 items=[4] core boxes=0 items=[]
+   ED: to open = (Film) anlaufen, starten · a monster = Monster · a catchphrase = Spruch · a series = Serie.
+   items: ['to open = (Film) anlaufen, starten', 'a monster = Monster', 'a catchphrase = Spruch', 'a series = Serie.']
+p4-sport edition gloss boxes=1 items=[4] core boxes=0 items=[]
+   ED: a fixture = Spiel (im Spielplan) · a title = Titel · to defend = (Titel) verteidigen · a fan = Fan.
+   items: ['a fixture = Spiel (im Spielplan)', 'a title = Titel', 'to defend = (Titel) verteidigen', 'a fan = Fan.']
+p5-jeunesse edition gloss boxes=1 items=[3] core boxes=0 items=[]
+   ED: a map = (Wahl)karte · too close to call = zu knapp, um es zu entscheiden · a second screen = zweiter Bildschirm (Handy).
+   items: ['a map = (Wahl)karte', 'too close to call = zu knapp, um es zu entscheiden', 'a second screen = zweiter Bildschirm (Handy).']
+p6-politique edition gloss boxes=1 items=[4] core boxes=0 items=[]
+   ED: to register = sich (als Wähler) registrieren · a governor = Gouverneur · to shape laws = Gesetze prägen · patience = Geduld.
+   items: ['to register = sich (als Wähler) registrieren', 'a governor = Gouverneur', 'to shape laws = Gesetze prägen', 'patience = Geduld.']
+
+== E. P7 golden sentences / definitions / structure ==
+gold 'Tuesday, November 3, is Election Day in ': edition_count=1 core_count=1
+gold 'The hour from 1 to 2 happened twice.': edition_count=1 core_count=1
+gold 'Which film would you choose?': edition_count=0 core_count=0
+gold 'Two games, two continents, one league — ': edition_count=1 core_count=1
+gold 'The results will still be there in the m': edition_count=1 core_count=1
+gold 'Patience is part of the system, not a fa': edition_count=2 core_count=2
+gold 'Not every place changes.': edition_count=1 core_count=1
+gold 'One Sunday is not enough — good thing th': edition_count=1 core_count=1
+  whole-edition text-node hits 'Tuesday, November 3, is Electi': edition=0 core=0
+  whole-edition text-node hits 'The hour from 1 to 2 happened ': edition=1 core=1
+  whole-edition text-node hits 'Which film would you choose?': edition=0 core=0
+  whole-edition text-node hits 'Two games, two continents, one': edition=0 core=0
+  whole-edition text-node hits 'The results will still be ther': edition=0 core=0
+  whole-edition text-node hits 'Patience is part of the system': edition=0 core=0
+  whole-edition text-node hits 'Not every place changes.': edition=3 core=3
+  whole-edition text-node hits 'One Sunday is not enough — goo': edition=0 core=0
+P7 head PHRASES OF THE WEEK: ed=['PHRASES OF THE WEEK · Sätze der Woche (alle aus dieser Ausgabe)'] co=['PHRASES OF THE WEEK · 本周金句（全部出自本期文章）']
+P7 head ERROR CLINIC: ed=['THE ERROR CLINIC · Fehlerklinik'] co=['THE ERROR CLINIC · 易错诊所']
+P7 head READERS' CORNER: ed=["READERS' CORNER · Leserecke"] co=["READERS' CORNER · 读者园地"]
+P7 head NEXT WEEK: ed=['NEXT WEEK · VOL.3 · Vorschau'] co=['NEXT WEEK · VOL.3 下周预告']
+
+== F. Readers corner ==
+--- edition ---
+  'On Sunday, I slept one hour more': count=1
+  'M. L.': count=1
+  'Chicago': count=1
+  'Anmerkung der Redaktion': count=1
+--- core ---
+  'On Sunday, I slept one hour more': count=1
+  'M. L.': count=1
+  'Chicago': count=1
+  'Anmerkung der Redaktion': count=0
+disclosure lines=4 x=1013.0 size=20.0
+  DISC: Anmerkung der Redaktion | Bis Redaktionsschluss sind keine echten Leserbriefe
+  DISC: eingetroffen, und es gibt keinen besten VOL.1-Schreibtext zu besprechen. Das Beispiel oben
+  DISC: bleibt daher ehrlich gekennzeichnet stehen; echte Briefe erscheinen ab VOL.3. Schicke uns
+  DISC: deinen Brief und deinen Text — wir drucken sie in VOL.3!
+  reassembled: Anmerkung der Redaktion | Bis Redaktionsschluss sind keine echten Leserbriefe eingetroffen, und es gibt keinen besten VOL.1-Schreibtext zu besprechen. Das Beispiel oben bleibt daher ehrlich gekennzeichnet stehen; echte Briefe erscheinen ab VOL.3. Schicke uns deinen Brief und deinen Text — wir drucken sie in VOL.3!
+
+== G. Furniture / W43 comparison ==
+'ENGLISCHER TEXT · DEUTSCHE ERKLÄRUNGEN': ed-P1=['ENGLISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER'] w43-P1=['ENGLISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER']
+'The Lucerna · ENGLISH WEEKLY VOL.2': ed-P1=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43-P1=[]
+'Anmerkung | ': ed-P1=[] w43-P1=[]
+'— Seite ': ed-P1=[] w43-P1=[]
+p1-front footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 1 von 8'] w43=['Seite 1 von 8']
+p2-life footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 2 von 8'] w43=['Seite 2 von 8']
+p3-culture footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 3 von 8'] w43=['Seite 3 von 8']
+p4-sport footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 4 von 8'] w43=['Seite 4 von 8']
+p5-jeunesse footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 5 von 8'] w43=['Seite 5 von 8']
+p6-politique footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 6 von 8'] w43=['Seite 6 von 8']
+p7-langue footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 7 von 8'] w43=['Seite 7 von 8']
+p8-exercices footer ed=['The Lucerna · ENGLISH WEEKLY VOL.2 · Englischer Text · Deutsche Erklärungen'] w43=['The Lucerna · ENGLISH WEEKLY VOL.1 · Englischer Text · Deutsche Erklärungen'] pageline ed=['Seite 8 von 8'] w43=['Seite 8 (Bewertung nach Stichpunkten)', 'Seite 8 von 8']
+P8 separators ed: ['— Seite 1 —', '— Seite 2 —', '— Seite 3 —', '— Seite 4 —', '— Seite 5 —', '— Seite 6 —', '— Seite 7 —', '— Seite 8 —']
+P8 separators w43: ['— Seite 1 —', '— Seite 2 —', '— Seite 3 —', '— Seite 4 —', '— Seite 5 —', '— Seite 6 —', '— Seite 7 —', '— Seite 8 —']
+P8 D head ed: ['D · SENTENCES · Sätze formen']
+P8 D head w43: ['D · SENTENCES · Sätze formen']
+P8 writing-key form ed: ['Offene Aufgabe — Stichpunkte im Schreibkasten; Mustertext im', 'Kasten auf Seite 8 (Bewertung nach Stichpunkten)']
+P8 writing-key form w43: ['Aufgabe — Stichpunkte im Schreibkasten; Mustertext im Kasten auf', 'Seite 8 (Bewertung nach Stichpunkten)']
+
+== H. Model text word count ==
+  MODEL head at line 161: 'MODEL · Mustertext'; following: ['On Tuesday, November 3, our family watched the election results at home. We ate', 'pizza, because nobody wanted to cook on such a night. On television, the map', 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I', 'did not understand every state, but I understood the pizza and the excitement. On', 'Sunday night, the clocks had fallen back, so I slept one hour more. It was a long']
+  MODEL head at line 159: 'MODEL · 范文'; following: ['On Tuesday, November 3, our family watched the election results at home. We ate', 'pizza, because nobody wanted to cook on such a night. On television, the map', 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I', 'did not understand every state, but I understood the pizza and the excitement. On', 'Sunday night, the clocks had fallen back, so I slept one hour more. It was a long']
+ed model title line 154: {'x': 65.0, 'y': 1562.0, 'size': 21.5, 'fam': 'Noto Serif CJK SC', 'bold': False, 'anchor': 'start', 'text': 'Write a short text (80 to 100 words) : « My Tuesday, November 3 ». Tell us : did you'}
+   ed +1: 'watch the results, what did you eat, what did the map show — and one sentence' size=21.5
+   ed +2: 'about the clocks that fell back on Sunday night. The best texts will appear in VOL.3' size=21.5
+   ed +3: "(page 7, « Readers' Corner »)." size=21.5
+   ed +4: 'Schreibe auf Englisch (80–100 Wörter): « Mein Dienstag, der 3. November ». Beschreibe, ob du die' size=20.0
+   ed +5: 'Ergebnisse verfolgt hast, was du gegessen hast, was die Karte gezeigt hat — und einen Satz über' size=20.0
+   ed +6: 'die Uhren, die in der Sonntagnacht zurückgestellt wurden.' size=20.0
+   ed +7: 'MODEL · Mustertext' size=23.0
+   ed +8: 'On Tuesday, November 3, our family watched the election results at home. We ate' size=21.0
+   ed +9: 'pizza, because nobody wanted to cook on such a night. On television, the map' size=21.0
+   ed +10: 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I' size=21.0
+   ed +11: 'did not understand every state, but I understood the pizza and the excitement. On' size=21.0
+co model title line 153: {'x': 65.0, 'y': 1562.0, 'size': 21.5, 'fam': 'Noto Serif CJK SC', 'bold': False, 'anchor': 'start', 'text': 'Write a short text (80 to 100 words) : « My Tuesday, November 3 ». Tell us : did you'}
+   co +1: 'watch the results, what did you eat, what did the map show — and one sentence' size=21.5
+   co +2: 'about the clocks that fell back on Sunday night. The best texts will appear in VOL.3' size=21.5
+   co +3: "(page 7, « Readers' Corner »)." size=21.5
+   co +4: '用英语写 80–100 词：我的 11 月 3 日周二。写清你是否看了结果、吃了什么、地图显示了什么，再写' size=20.0
+   co +5: '一句周日夜里拨回的时钟。' size=20.0
+   co +6: 'MODEL · 范文' size=23.0
+   co +7: 'On Tuesday, November 3, our family watched the election results at home. We ate' size=21.0
+   co +8: 'pizza, because nobody wanted to cook on such a night. On television, the map' size=21.0
+   co +9: 'changed colour, state by state, and my father said : « Ohio is too close to call ! » I' size=21.0
+   co +10: 'did not understand every state, but I understood the pizza and the excitement. On' size=21.0
+   co +11: 'Sunday night, the clocks had fallen back, so I slept one hour more. It was a long' size=21.0
+DONE

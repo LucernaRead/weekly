@@ -1,0 +1,954 @@
+{
+ "ed": {
+  "p1-une.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2480.1499999999996,
+    "max_ink_bottom_node": [
+     1451.0,
+     2479.8999999999996,
+     21.0,
+     "vendredi 6"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p2-vie.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2497.6000000000004,
+    "max_ink_bottom_node": [
+     989.0,
+     2497.3500000000004,
+     25.0,
+     "D · LES MOTS"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p3-culture.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2515.0199999999995,
+    "max_ink_bottom_node": [
+     527.0,
+     2508.7699999999995,
+     24.0,
+     "___ du parc."
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p4-sport.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2529.72,
+    "max_ink_bottom_node": [
+     65.0,
+     2524.47,
+     20.5,
+     "Leiam o artigo da página 4 e escolham a"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p5-jeunesse.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2486.3749999999995,
+    "max_ink_bottom_node": [
+     527.0,
+     2486.1249999999995,
+     24.0,
+     "moi."
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p6-politique.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2510.8000000000006,
+    "max_ink_bottom_node": [
+     65.0,
+     2505.0500000000006,
+     22.0,
+     "l'Agriculture"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p7-langue.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2498.5,
+    "max_ink_bottom_node": [
+     1013.0,
+     2494.0,
+     20.0,
+     "Armistício, feira de Dieppe — e as vossas cartas, finalmente!"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p8-exercices.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2548.28,
+    "max_ink_bottom_node": [
+     65.0,
+     2544.03,
+     17.0,
+     "— Página 4 —"
+    ]
+   },
+   "adv_over_1885": [
+    [
+     1485.0,
+     1036.0,
+     1891.3,
+     "b. une soirée qui dure jusqu'à la nuit"
+    ],
+    [
+     1485.0,
+     1112.0,
+     1891.3,
+     "d. le coquillage fêté à Port-en-Bessin"
+    ],
+    [
+     1485.0,
+     1150.0,
+     1899.6,
+     "e. plusieurs concerts en une semaine"
+    ]
+   ],
+   "ink_over_inner1910": []
+  },
+  "p8_detail": {
+   "sep_pagina4": {
+    "node": [
+     65.0,
+     2544.03,
+     17.0,
+     "— Página 4 —"
+    ],
+    "ink": [
+     65.0,
+     2528.28,
+     174.5,
+     2548.28
+    ],
+    "ink_bottom": 2548.28
+   },
+   "sep_core4": null,
+   "answer_col527": {
+    "node": [
+     527.0,
+     2532.8200000000006,
+     14.5,
+     "calendário ainda pode mudar) · 96. connus (Os resultados"
+    ],
+    "ink": [
+     527.0,
+     2520.0700000000006,
+     925.0,
+     2536.0700000000006
+    ],
+    "ink_bottom": 2536.0700000000006
+   },
+   "answer_col989": {
+    "node": [
+     989.0,
+     2532.82,
+     14.5,
+     "reprendre les cours lundi. (aller + infinitivo (futur proche)) ·"
+    ],
+    "ink": [
+     989.0,
+     2520.82,
+     1393.5,
+     2536.07
+    ],
+    "ink_bottom": 2536.07
+   },
+   "battery_merci": {
+    "node": [
+     1451.0,
+     1446.4,
+     20.0,
+     "Merci !"
+    ],
+    "ink": [
+     1451.0,
+     1430.9,
+     1518.5,
+     1446.65
+    ],
+    "ink_bottom": 1446.65
+   },
+   "battery_core_last": null,
+   "tail1451": {
+    "node": [
+     1451.0,
+     2270.35,
+     14.5,
+     "pontos)"
+    ],
+    "ink": [
+     1451.0,
+     2258.35,
+     1503.25,
+     2273.6
+    ],
+    "ink_bottom": 2273.6
+   }
+  },
+  "p7_tail": [
+   {
+    "x": 1013.0,
+    "y": 2316.0,
+    "fs": 24.0,
+    "text": "LA SEMAINE PROCHAINE · PRÓXIMA SEMANA · VOL.4",
+    "ink_bottom": 2316.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2354.0,
+    "fs": 21.0,
+    "text": "Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. Mercredi 11",
+    "ink_bottom": 2359.5
+   },
+   {
+    "x": 1013.0,
+    "y": 2384.45,
+    "fs": 21.0,
+    "text": "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 novembre :",
+    "ink_bottom": 2390.2
+   },
+   {
+    "x": 1013.0,
+    "y": 2414.8999999999996,
+    "fs": 21.0,
+    "text": "la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, enfin !",
+    "ink_bottom": 2420.3999999999996
+   },
+   {
+    "x": 1013.0,
+    "y": 2466.0,
+    "fs": 20.0,
+    "text": "Na próxima semana: o Senado e o orçamento da Segurança Social, 11 de novembro, Dia do",
+    "ink_bottom": 2471.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2494.0,
+    "fs": 20.0,
+    "text": "Armistício, feira de Dieppe — e as vossas cartas, finalmente!",
+    "ink_bottom": 2498.5
+   }
+  ],
+  "p7_reader_zone": [
+   {
+    "x": 65.0,
+    "y": 2072.45,
+    "text": "✗ « On offre des chrysanthèmes pour",
+    "ink_bottom": 2078.7
+   },
+   {
+    "x": 65.0,
+    "y": 2105.075,
+    "text": "un anniversaire. »",
+    "ink_bottom": 2105.325
+   },
+   {
+    "x": 95.0,
+    "y": 2170.7,
+    "text": "A2",
+    "ink_bottom": 2170.7
+   },
+   {
+    "x": 137.0,
+    "y": 2171.7,
+    "text": "106.",
+    "ink_bottom": 2171.95
+   },
+   {
+    "x": 207.0,
+    "y": 2171.7,
+    "text": "Correção de erros",
+    "ink_bottom": 2176.7
+   },
+   {
+    "x": 65.0,
+    "y": 2203.2,
+    "text": "✗ « Les jeunes créateurs y rencontre",
+    "ink_bottom": 2209.45
+   },
+   {
+    "x": 65.0,
+    "y": 2235.825,
+    "text": "leur public, en vrai. »",
+    "ink_bottom": 2241.575
+   },
+   {
+    "x": 527.0,
+    "y": 2063.25,
+    "text": "✗ « La finale a lieu dimanche 7",
+    "ink_bottom": 2066.0
+   },
+   {
+    "x": 527.0,
+    "y": 2095.875,
+    "text": "novembre. »",
+    "ink_bottom": 2096.125
+   },
+   {
+    "x": 1013.0,
+    "y": 2066.0,
+    "text": "Xiao Mo comenta (texto-exemplo): o passé composé está seguro na narrativa do fim de",
+    "ink_bottom": 2071.0
+   },
+   {
+    "x": 1013.0,
+    "y": 2094.0,
+    "text": "semana; o ponto e vírgula liga os dois dias e vale a pena imitar. No próximo número, a",
+    "ink_bottom": 2099.0
+   },
+   {
+    "x": 1013.0,
+    "y": 2122.0,
+    "text": "secção comentará textos reais.",
+    "ink_bottom": 2127.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2142.0,
+    "text": "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment de mettre sous",
+    "ink_bottom": 2142.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2170.0,
+    "text": "presse (le numéro W44 n'a pas paru). Le VOL.4 reprendra la promesse.",
+    "ink_bottom": 2175.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2206.0,
+    "text": "Nota da redação: sem cartas nem redações do VOL.2 até ao fecho (o W44 não saiu) — exemplo",
+    "ink_bottom": 2211.0
+   },
+   {
+    "x": 1013.0,
+    "y": 2233.3,
+    "text": "identificado. Enviem-nos cartas e as melhores redações da página 8 para o VOL.4!",
+    "ink_bottom": 2238.3
+   }
+  ],
+  "p5-jeunesse.svg_tail": [
+   {
+    "x": 599.0,
+    "y": 2418.3249999999994,
+    "fs": 24.0,
+    "text": "78.",
+    "ink_bottom": 2418.5749999999994
+   },
+   {
+    "x": 65.0,
+    "y": 2440.47,
+    "fs": 24.0,
+    "text": "Le festival Pitchfork dure... A. un",
+    "ink_bottom": 2440.72
+   },
+   {
+    "x": 527.0,
+    "y": 2451.3249999999994,
+    "fs": 24.0,
+    "text": "— Tu as pris ___ ? — Oui, pour toi et",
+    "ink_bottom": 2457.5749999999994
+   },
+   {
+    "x": 65.0,
+    "y": 2475.27,
+    "fs": 24.0,
+    "text": "soir · B. sept jours · C. un mois",
+    "ink_bottom": 2481.77
+   },
+   {
+    "x": 527.0,
+    "y": 2486.1249999999995,
+    "fs": 24.0,
+    "text": "moi.",
+    "ink_bottom": 2486.3749999999995
+   }
+  ],
+  "p6-politique.svg_tail": [
+   {
+    "x": 989.0,
+    "y": 2459.2750000000005,
+    "fs": 21.5,
+    "text": "Les résultats ne sont pas encore ___.",
+    "ink_bottom": 2464.7750000000005
+   },
+   {
+    "x": 561.0,
+    "y": 2466.5000000000005,
+    "fs": 23.0,
+    "text": "c. la décision prise ensemble",
+    "ink_bottom": 2472.5000000000005
+   },
+   {
+    "x": 65.0,
+    "y": 2473.1500000000005,
+    "fs": 22.0,
+    "text": "Économie · B. la Culture · C.",
+    "ink_bottom": 2473.4000000000005
+   },
+   {
+    "x": 561.0,
+    "y": 2504.5000000000005,
+    "fs": 23.0,
+    "text": "d. proposer un changement",
+    "ink_bottom": 2510.5000000000005
+   },
+   {
+    "x": 65.0,
+    "y": 2505.0500000000006,
+    "fs": 22.0,
+    "text": "l'Agriculture",
+    "ink_bottom": 2510.8000000000006
+   }
+  ],
+  "p1-une.svg_tail": [
+   {
+    "x": 65.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "vendredi 6 · B. samedi 7 · C. dimanche 8",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 527.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "Port-en-Bessin · B. Dieppe · C. Courseulles",
+    "ink_bottom": 2454.95
+   },
+   {
+    "x": 989.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "lundi 2 au matin · C. mardi 3",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 1451.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "c'est... A. samedi 7 · B. dimanche 8 · C.",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 1451.0,
+    "y": 2479.8999999999996,
+    "fs": 21.0,
+    "text": "vendredi 6",
+    "ink_bottom": 2480.1499999999996
+   }
+  ],
+  "p2-vie.svg_tail": [
+   {
+    "x": 207.0,
+    "y": 2440.3499999999995,
+    "fs": 19.5,
+    "text": "Preencher",
+    "ink_bottom": 2440.5999999999995
+   },
+   {
+    "x": 527.0,
+    "y": 2457.6500000000005,
+    "fs": 21.5,
+    "text": "Lundi, vous (raconter) vos vacances. →",
+    "ink_bottom": 2462.4000000000005
+   },
+   {
+    "x": 65.0,
+    "y": 2472.3499999999995,
+    "fs": 23.0,
+    "text": "Les finales ont lieu ___ 8 novembre.",
+    "ink_bottom": 2474.0999999999995
+   },
+   {
+    "x": 527.0,
+    "y": 2488.8250000000007,
+    "fs": 21.5,
+    "text": "___",
+    "ink_bottom": 2490.3250000000007
+   },
+   {
+    "x": 989.0,
+    "y": 2497.3500000000004,
+    "fs": 25.0,
+    "text": "D · LES MOTS",
+    "ink_bottom": 2497.6000000000004
+   }
+  ]
+ },
+ "core": {
+  "p1-une.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2480.1499999999996,
+    "max_ink_bottom_node": [
+     1451.0,
+     2479.8999999999996,
+     21.0,
+     "vendredi 6"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p2-vie.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2467.8750000000005,
+    "max_ink_bottom_node": [
+     989.0,
+     2467.6250000000005,
+     25.0,
+     "D · LES MOTS"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p3-culture.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2490.995000000001,
+    "max_ink_bottom_node": [
+     65.0,
+     2490.745000000001,
+     24.0,
+     "anniversaire."
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p4-sport.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2511.419999999999,
+    "max_ink_bottom_node": [
+     527.0,
+     2505.169999999999,
+     23.5,
+     "gratuite : les commentateurs répètent"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p5-jeunesse.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2456.6499999999996,
+    "max_ink_bottom_node": [
+     527.0,
+     2456.3999999999996,
+     24.0,
+     "moi."
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p6-politique.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2510.5000000000005,
+    "max_ink_bottom_node": [
+     561.0,
+     2504.5000000000005,
+     23.0,
+     "d. proposer un changement"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p7-langue.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2469.5,
+    "max_ink_bottom_node": [
+     1013.0,
+     2466.0,
+     20.0,
+     "下周：参议院审议社保预算、11 月 11 日停战纪念日、迪耶普扇贝集市；还有你们的来信！"
+    ]
+   },
+   "adv_over_1885": [],
+   "ink_over_inner1910": []
+  },
+  "p8-exercices.svg": {
+   "named": {
+    "max_ink_bottom_excl_footer": 2541.2300000000005,
+    "max_ink_bottom_node": [
+     527.0,
+     2537.7300000000005,
+     15.5,
+     "excitante（plus + 形容词） · 101. promenons · 102. peut"
+    ]
+   },
+   "adv_over_1885": [
+    [
+     1485.0,
+     940.0,
+     1891.3,
+     "b. une soirée qui dure jusqu'à la nuit"
+    ],
+    [
+     1485.0,
+     1016.0,
+     1891.3,
+     "d. le coquillage fêté à Port-en-Bessin"
+    ],
+    [
+     1485.0,
+     1054.0,
+     1899.6,
+     "e. plusieurs concerts en une semaine"
+    ]
+   ],
+   "ink_over_inner1910": []
+  },
+  "p8_detail": {
+   "sep_pagina4": null,
+   "sep_core4": {
+    "node": [
+     65.0,
+     2498.9300000000003,
+     17.0,
+     "— 第 4 版 —"
+    ],
+    "ink": [
+     65.0,
+     2484.1800000000003,
+     155.25,
+     2500.6800000000003
+    ],
+    "ink_bottom": 2500.6800000000003
+   },
+   "answer_col527": null,
+   "answer_col989": null,
+   "battery_merci": null,
+   "battery_core_last": {
+    "node": [
+     65.0,
+     1455.825,
+     20.0,
+     "· C. des"
+    ],
+    "ink": [
+     65.0,
+     1439.575,
+     135.0,
+     1456.075
+    ],
+    "ink_bottom": 1456.075
+   },
+   "tail1451": {
+    "node": [
+     1451.0,
+     2137.45,
+     15.5,
+     "点给分）"
+    ],
+    "ink": [
+     1451.0,
+     2123.95,
+     1513.0,
+     2138.95
+    ],
+    "ink_bottom": 2138.95
+   }
+  },
+  "p7_tail": [
+   {
+    "x": 1013.0,
+    "y": 2233.3,
+    "fs": 19.5,
+    "text": "注明确的编辑部示例；VOL.4 将兑现点评真实投稿的承诺。",
+    "ink_bottom": 2236.55
+   },
+   {
+    "x": 1013.0,
+    "y": 2316.0,
+    "fs": 24.0,
+    "text": "LA SEMAINE PROCHAINE · VOL.4 下周预告",
+    "ink_bottom": 2318.5
+   },
+   {
+    "x": 1013.0,
+    "y": 2354.0,
+    "fs": 21.0,
+    "text": "Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. Mercredi 11",
+    "ink_bottom": 2359.5
+   },
+   {
+    "x": 1013.0,
+    "y": 2384.45,
+    "fs": 21.0,
+    "text": "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 novembre :",
+    "ink_bottom": 2390.2
+   },
+   {
+    "x": 1013.0,
+    "y": 2414.8999999999996,
+    "fs": 21.0,
+    "text": "la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, enfin !",
+    "ink_bottom": 2420.3999999999996
+   },
+   {
+    "x": 1013.0,
+    "y": 2466.0,
+    "fs": 20.0,
+    "text": "下周：参议院审议社保预算、11 月 11 日停战纪念日、迪耶普扇贝集市；还有你们的来信！",
+    "ink_bottom": 2469.5
+   }
+  ],
+  "p7_reader_zone": [
+   {
+    "x": 65.0,
+    "y": 2075.35,
+    "text": "un anniversaire. »",
+    "ink_bottom": 2075.6
+   },
+   {
+    "x": 95.0,
+    "y": 2140.975,
+    "text": "A2",
+    "ink_bottom": 2140.975
+   },
+   {
+    "x": 137.0,
+    "y": 2141.975,
+    "text": "106.",
+    "ink_bottom": 2142.225
+   },
+   {
+    "x": 207.0,
+    "y": 2141.975,
+    "text": "改错",
+    "ink_bottom": 2143.725
+   },
+   {
+    "x": 65.0,
+    "y": 2173.475,
+    "text": "✗ « Les jeunes créateurs y rencontre",
+    "ink_bottom": 2179.725
+   },
+   {
+    "x": 65.0,
+    "y": 2206.1,
+    "text": "leur public, en vrai. »",
+    "ink_bottom": 2211.85
+   },
+   {
+    "x": 527.0,
+    "y": 2063.25,
+    "text": "✗ « La finale a lieu dimanche 7",
+    "ink_bottom": 2066.0
+   },
+   {
+    "x": 527.0,
+    "y": 2095.875,
+    "text": "novembre. »",
+    "ink_bottom": 2096.125
+   },
+   {
+    "x": 1013.0,
+    "y": 2066.0,
+    "text": "小墨点评｜编辑部示例：周末叙事用 passé composé 很稳，分号连接两天值得学。下期读者园",
+    "ink_bottom": 2070.5
+   },
+   {
+    "x": 1013.0,
+    "y": 2094.0,
+    "text": "地将点评真实投稿。",
+    "ink_bottom": 2096.0
+   },
+   {
+    "x": 1013.0,
+    "y": 2142.0,
+    "text": "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment de mettre sous",
+    "ink_bottom": 2142.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2170.0,
+    "text": "presse (le numéro W44 n'a pas paru). Le VOL.4 reprendra la promesse.",
+    "ink_bottom": 2175.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2206.0,
+    "text": "编辑部说明：截至付印，编辑部尚未收到 VOL.2 第 8 版的投稿作文（W44 未出刊），故本期刊登标",
+    "ink_bottom": 2208.25
+   },
+   {
+    "x": 1013.0,
+    "y": 2233.3,
+    "text": "注明确的编辑部示例；VOL.4 将兑现点评真实投稿的承诺。",
+    "ink_bottom": 2236.55
+   }
+  ],
+  "p5-jeunesse.svg_tail": [
+   {
+    "x": 599.0,
+    "y": 2388.5999999999995,
+    "fs": 24.0,
+    "text": "78.",
+    "ink_bottom": 2388.8499999999995
+   },
+   {
+    "x": 65.0,
+    "y": 2410.745,
+    "fs": 24.0,
+    "text": "Le festival Pitchfork dure... A. un",
+    "ink_bottom": 2410.995
+   },
+   {
+    "x": 527.0,
+    "y": 2421.5999999999995,
+    "fs": 24.0,
+    "text": "— Tu as pris ___ ? — Oui, pour toi et",
+    "ink_bottom": 2427.8499999999995
+   },
+   {
+    "x": 65.0,
+    "y": 2445.545,
+    "fs": 24.0,
+    "text": "soir · B. sept jours · C. un mois",
+    "ink_bottom": 2452.045
+   },
+   {
+    "x": 527.0,
+    "y": 2456.3999999999996,
+    "fs": 24.0,
+    "text": "moi.",
+    "ink_bottom": 2456.6499999999996
+   }
+  ],
+  "p6-politique.svg_tail": [
+   {
+    "x": 65.0,
+    "y": 2444.4250000000006,
+    "fs": 22.0,
+    "text": "Économie · B. la Culture · C.",
+    "ink_bottom": 2444.6750000000006
+   },
+   {
+    "x": 989.0,
+    "y": 2459.2750000000005,
+    "fs": 21.5,
+    "text": "Les résultats ne sont pas encore ___.",
+    "ink_bottom": 2464.7750000000005
+   },
+   {
+    "x": 561.0,
+    "y": 2466.5000000000005,
+    "fs": 23.0,
+    "text": "c. la décision prise ensemble",
+    "ink_bottom": 2472.5000000000005
+   },
+   {
+    "x": 65.0,
+    "y": 2476.3250000000007,
+    "fs": 22.0,
+    "text": "l'Agriculture",
+    "ink_bottom": 2482.0750000000007
+   },
+   {
+    "x": 561.0,
+    "y": 2504.5000000000005,
+    "fs": 23.0,
+    "text": "d. proposer un changement",
+    "ink_bottom": 2510.5000000000005
+   }
+  ],
+  "p1-une.svg_tail": [
+   {
+    "x": 65.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "vendredi 6 · B. samedi 7 · C. dimanche 8",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 527.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "Port-en-Bessin · B. Dieppe · C. Courseulles",
+    "ink_bottom": 2454.95
+   },
+   {
+    "x": 989.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "lundi 2 au matin · C. mardi 3",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 1451.0,
+    "y": 2449.45,
+    "fs": 21.0,
+    "text": "c'est... A. samedi 7 · B. dimanche 8 · C.",
+    "ink_bottom": 2449.7
+   },
+   {
+    "x": 1451.0,
+    "y": 2479.8999999999996,
+    "fs": 21.0,
+    "text": "vendredi 6",
+    "ink_bottom": 2480.1499999999996
+   }
+  ],
+  "p2-vie.svg_tail": [
+   {
+    "x": 207.0,
+    "y": 2410.6249999999995,
+    "fs": 19.5,
+    "text": "填空",
+    "ink_bottom": 2412.3749999999995
+   },
+   {
+    "x": 527.0,
+    "y": 2427.9250000000006,
+    "fs": 21.5,
+    "text": "Lundi, vous (raconter) vos vacances. →",
+    "ink_bottom": 2432.6750000000006
+   },
+   {
+    "x": 65.0,
+    "y": 2442.6249999999995,
+    "fs": 23.0,
+    "text": "Les finales ont lieu ___ 8 novembre.",
+    "ink_bottom": 2444.3749999999995
+   },
+   {
+    "x": 527.0,
+    "y": 2459.100000000001,
+    "fs": 21.5,
+    "text": "___",
+    "ink_bottom": 2460.600000000001
+   },
+   {
+    "x": 989.0,
+    "y": 2467.6250000000005,
+    "fs": 25.0,
+    "text": "D · LES MOTS",
+    "ink_bottom": 2467.8750000000005
+   }
+  ]
+ },
+ "chart_coverage": {
+  "ed": [],
+  "core": []
+ }
+}

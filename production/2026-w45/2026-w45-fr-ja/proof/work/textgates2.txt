@@ -1,0 +1,50 @@
+#1 core_joint=5 ed_joint=5 phrase='Le lundi 2 novembre, on reprend les cours'
+#2 core_joint=3 ed_joint=3 phrase='On ne connaît pas encore les finalistes'
+#3 core_joint=2 ed_joint=2 phrase='Les cimetières se sont remplis de chrysanthèmes'
+#4 core_joint=5 ed_joint=5 phrase='plus excitante ou plus frustrante'
+#5 core_joint=1 ed_joint=1 phrase='Le festival se promène dans Paris'
+#6 core_joint=3 ed_joint=3 phrase='Ce calendrier peut encore bouger'
+#7 core_joint=2 ed_joint=2 phrase='Ce week-end, tout se joue'
+#8 core_joint=3 ed_joint=3 phrase='Les jeunes créateurs y rencontrent leur public, en vrai'
+#1 ED pages: ['p2-vie.svg', 'p7-langue.svg']
+#2 ED pages: ['p7-langue.svg', 'p8-exercices.svg']
+#3 ED pages: ['p3-culture.svg', 'p7-langue.svg']
+#4 ED pages: ['p4-sport.svg', 'p7-langue.svg']
+#5 ED pages: ['p7-langue.svg']
+#6 ED pages: ['p6-politique.svg', 'p7-langue.svg']
+#7 ED pages: ['p1-une.svg', 'p7-langue.svg']
+#8 ED pages: ['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg']
+=== IMAGES payload dual-caliber ===
+p1-une.svg ED b64sha ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d jpegsha f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f bytes 334674
+p1-une.svg CO b64sha ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d jpegsha f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f bytes 334674
+p2-vie.svg ED b64sha 6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae jpegsha 5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2 bytes 646242
+p2-vie.svg CO b64sha 6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae jpegsha 5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2 bytes 646242
+p3-culture.svg ED b64sha bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9 jpegsha be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94 bytes 142340
+p3-culture.svg CO b64sha bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9 jpegsha be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94 bytes 142340
+=== CREDITS full joined ===
+p1-une.svg ['Eugène Atget (1857-1927), photographie, domaine public']
+p2-vie.svg ['Utagawa Hiroshige (1797-1858), estampe, domaine public ·', 'LACMA']
+p3-culture.svg ['domaine public']
+=== P8 furniture ED vs W43 ===
+ED header-ish: ['EXERCICES & RÉPONSES · 練習と答え', '総合テスト ÉVALUATION · 答えはこのページの下にあります', 'A · TEXTE À TROUS · 穴埋め', 'B · CHOIX MULTIPLE · 選択問題', 'C · LECTURE · 読解', 'E · TRADUCTION · 翻訳', 'G · DIALOGUE · 会話の穴埋め', 'H · ÉCRITURE · 作文', 'MODÈLE · 範文', 'RÉPONSES · 全解答と解説（1–8ページ）', '150. 自由記述 — ポイントは作文欄に、範文はこのページの作']
+ED separators: ['150. 自由記述 — ポイントは作文欄に、範文はこのページの作', '8 ページ（全 8 ページ）', 'RÉPONSES · 全解答と解説（1–8ページ）', '— 1 ページ —', '— 2 ページ —', '— 3 ページ —', '— 4 ページ —', '— 5 ページ —', '— 6 ページ —', '— 7 ページ —', '— 8 ページ —', '総合テスト ÉVALUATION · 答えはこのページの下にあります']
+W43 header-ish: ['EXERCICES & RÉPONSES · 練習と答え', '総合テスト ÉVALUATION · 答えはこのページの下にあります', 'A · TEXTE À TROUS · 穴埋め', 'B · CHOIX MULTIPLE · 選択問題', 'C · LECTURE · 読解', 'E · TRADUCTION · 翻訳', 'G · DIALOGUE · 会話の穴埋め', 'H · ÉCRITURE · 作文', 'MODÈLE · 範文', 'RÉPONSES · 全解答と解説（1–8ページ）', '— ポイントは作文欄に、範文はこのページの作文欄の中にあ']
+W43 separators: ['8 ページ（全 8 ページ）', 'RÉPONSES · 全解答と解説（1–8ページ）', '— 1 ページ —', '— 2 ページ —', '— 3 ページ —', '— 4 ページ —', '— 5 ページ —', '— 6 ページ —', '— 7 ページ —', '— 8 ページ —', '— ポイントは作文欄に、範文はこのページの作文欄の中にあ', '総合テスト ÉVALUATION · 答えはこのページの下にあります']
+=== P1 subtitle/strapline/dark band ED vs W43 vs CO ===
+ED [(92.0, 'VOL. 3 · 通算第 3 号'), (92.0, 'HEBDOMADAIRE EN FRANÇAIS · 毎週一号 · フランス人が読んでいるフランス語を読む'), (92.0, 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'), (262.0, 'Le Lucerna'), (330.0, 'フ ラ ン ス 語 週 刊 · VOL.3 · 決 勝 週 末'), (372.0, 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'), (478.0, 'LUNDI 2 NOVEMBRE : LA FRANCE REPREND !'), (522.0, 'Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.'), (478.0, '月曜開校 · フランス全国で一斉に再開'), (522.0, 'マスターズ開幕 · 音楽祭開幕 · 詳しくは2ページ'), (574.0, 'フランス語テキスト · 日本語の解説 — 日本語読者のための版'), (606.0, 'SPORT · CULTURE · GASTRONOMIE · LA UNE · 決勝週末'), (672.0, 'Paris, Plailly, Port-en-Bessin : le week-end où tout se joue'), (620.0, 'CETTE SEMAINE')]
+W43 [(92.0, 'VOL. 2 · 通算第 2 号'), (92.0, 'HEBDOMADAIRE EN FRANÇAIS · 毎週一号 · フランス人が読んでいるフランス語を読む'), (92.0, 'SEMAINE DU 19 AU 25 OCTOBRE 2026'), (262.0, 'Le Lucerna'), (330.0, 'フ ラ ン ス 語 週 刊 · VOL.2 · 深 秋 と 祝 日'), (372.0, 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'), (478.0, "DIMANCHE, ON RECULE D'UNE HEURE !"), (522.0, "Changement d'heure : dans la nuit de samedi à dimanche, à 3 h, il sera 2 h. On gagne une heure de sommeil !"), (478.0, '今週の日曜 · フランスは冬時間に'), (522.0, '時計を1時間戻す · 詳しくは2ページ'), (574.0, 'フランス語テキスト · 日本語の解説 — 日本語読者のための版'), (606.0, 'POLITIQUE · LA UNE · フランスの内政'), (672.0, 'Présidentielle 2027 : les Français regardent déjà les'), (620.0, 'LES RECHERCHES')]
+CO [(92.0, 'VOL. 3 · 总第 3 期'), (92.0, 'HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语'), (92.0, 'SEMAINE DU 2 AU 8 NOVEMBRE 2026'), (262.0, 'Le Lucerna'), (330.0, '法 语 周 报 · VOL.3 · 决 赛 周 末'), (372.0, 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'), (478.0, 'LUNDI 2 NOVEMBRE : LA FRANCE REPREND !'), (522.0, 'Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.'), (478.0, '周一开学 · 全法同步复课'), (522.0, '大师赛开赛 · 音乐节开幕 · 详见第 2 版'), (574.0, '法语正文 · 简体中文讲解 — 给简体中文读者的版本'), (606.0, 'SPORT · CULTURE · GASTRONOMIE · LA UNE · 决赛周末'), (672.0, 'Paris, Plailly, Port-en-Bessin : le week-end où tout se joue'), (620.0, 'CETTE SEMAINE')]
+=== MODEL ESSAY (H 作文) ED vs CO: word count ===
+ED MODÈLE lines: ['MODÈLE · 範文', '150. 自由記述 — ポイントは作文欄に、範文はこのページの作']
+ED after-MODELE: ['MODÈLE · 範文', "Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle", 'ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en', 'fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise,', 'achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la', 'mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons', "écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un", 'week-end parfait.']
+CO MODÈLE lines: ['MODÈLE · 范文']
+CO after-MODELE: ['MODÈLE · 范文', "Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle", 'ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en', 'fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise,', 'achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la', 'mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons', "écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un", 'week-end parfait.']
+=== P8 keys 104,106,100,119,120,121 ===
+100 core 'plus excitante' | ed 'plus excitante'
+104 core 'rencontrent' | ed 'rencontrent'
+106 core 'Les jeunes créateurs y rencontrent leur public, en vrai.' | ed 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+119 core 'B' | ed 'B'
+120 core 'B' | ed 'B'
+121 core 'A' | ed 'A'
+=== se promener bridge codepoints ===
+'文法｜se promener：代名動詞、散歩する、ぶら'

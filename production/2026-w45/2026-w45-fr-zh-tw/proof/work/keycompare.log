@@ -1,0 +1,5 @@
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-core/svg/p8-exercices.svg: 150 keys
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-zh-tw/svg/p8-exercices.svg: 150 keys
+key-mismatches: 2 [135, 150]
+  135: core='读一份日程，本身就是在了解法国。' edition='讀一份日程，本身就是在了解法國。' (core_noted=True, edition_noted=True)
+  150: core='开放题' edition='開放題' (core_noted=True, edition_noted=True)

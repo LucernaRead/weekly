@@ -1,0 +1,296 @@
+{
+ "svgdir": "../files/weekly-report-w45-fr-it/svg",
+ "flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "DEUXIÈME SEMAINE D'HIVER",
+   "box": [
+    989.0,
+    1873.8,
+    1339.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'pour les ___.' by 133.8x20.1px",
+   "by": "text@102"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "LES DATES · WEEKEND DELLE FINALI",
+   "box": [
+    1007.0,
+    796.1,
+    1428.0,
+    813.6
+   ],
+   "detail": "ink crosses its box borders: right ink 1428.0 > border 1423.0",
+   "by": "rect@65"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "PROGRAMMA DELLA SETTIMANA · 2–8 NOVEMBRE",
+   "box": [
+    1473.0,
+    671.8,
+    1922.2,
+    686.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1922.2 > border 1885.0",
+   "by": "rect@103"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "vacanza? Scrivi due frasi in francese alla",
+   "box": [
+    1473.0,
+    1546.4,
+    1840.8,
+    1562.9
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@108"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "redazione.",
+   "box": [
+    1473.0,
+    1574.8,
+    1571.2,
+    1591.3
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · Attenzione: il 1° si ' by 98.2x9.5px",
+   "by": "text@110"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · Attenzione: il 1° si dice le premier, gli",
+   "box": [
+    1107.3,
+    1581.8,
+    1885.0,
+    1603.0
+   ],
+   "detail": "ink crosses its box borders: left ink 1107.3 < border 1451.0; bottom ink 1603.0 > border 1596.6",
+   "by": "rect@95"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "se souvenir — ricordare, commemorare",
+   "box": [
+    1473.0,
+    1117.8,
+    1885.8,
+    1139.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1885.8 > border 1885.0",
+   "by": "rect@177"
+  },
+  {
+   "page": "p7-langue.svg",
+   "class": "COVER",
+   "text": "migliori testi. Mandateci le vostre lettere e i vostri migli",
+   "box": [
+    1013.0,
+    2272.2,
+    1580.2,
+    2292.9
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 2270.0, 1885.0, 2540.0]",
+   "by": "rect@205"
+  },
+  {
+   "page": "p7-langue.svg",
+   "class": "BOXTITLE",
+   "text": "esempio della redazione, chiaramente indicato. Nel VOL.4 pub",
+   "box": [
+    1013.0,
+    2244.9,
+    1810.2,
+    2265.1
+   ],
+   "detail": "ink crosses its box borders: bottom ink 2265.1 > border 2258.0",
+   "by": "rect@192"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1467.3,
+    1648.8,
+    1489.0
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@192"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "punti)",
+   "box": [
+    1451.0,
+    2563.3,
+    1494.8,
+    2579.6
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@330"
+  }
+ ],
+ "flag_count": 11,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "DEUXIÈME SEMAINE D'HIVER",
+   "box": [
+    989.0,
+    1873.8,
+    1339.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'pour les ___.' by 133.8x20.1px",
+   "by": "text@102"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "LES DATES · WEEKEND DELLE FINALI",
+   "box": [
+    1007.0,
+    796.1,
+    1428.0,
+    813.6
+   ],
+   "detail": "ink crosses its box borders: right ink 1428.0 > border 1423.0",
+   "by": "rect@65"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "PROGRAMMA DELLA SETTIMANA · 2–8 NOVEMBRE",
+   "box": [
+    1473.0,
+    671.8,
+    1922.2,
+    686.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1922.2 > border 1885.0",
+   "by": "rect@103"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "vacanza? Scrivi due frasi in francese alla",
+   "box": [
+    1473.0,
+    1546.4,
+    1840.8,
+    1562.9
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@108"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "redazione.",
+   "box": [
+    1473.0,
+    1574.8,
+    1571.2,
+    1591.3
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · Attenzione: il 1° si ' by 98.2x9.5px",
+   "by": "text@110"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · Attenzione: il 1° si dice le premier, gli",
+   "box": [
+    1107.3,
+    1581.8,
+    1885.0,
+    1603.0
+   ],
+   "detail": "ink crosses its box borders: left ink 1107.3 < border 1451.0; bottom ink 1603.0 > border 1596.6",
+   "by": "rect@95"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "se souvenir — ricordare, commemorare",
+   "box": [
+    1473.0,
+    1117.8,
+    1885.8,
+    1139.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1885.8 > border 1885.0",
+   "by": "rect@177"
+  },
+  {
+   "page": "p7-langue.svg",
+   "class": "COVER",
+   "text": "migliori testi. Mandateci le vostre lettere e i vostri migli",
+   "box": [
+    1013.0,
+    2272.2,
+    1580.2,
+    2292.9
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 2270.0, 1885.0, 2540.0]",
+   "by": "rect@205"
+  },
+  {
+   "page": "p7-langue.svg",
+   "class": "BOXTITLE",
+   "text": "esempio della redazione, chiaramente indicato. Nel VOL.4 pub",
+   "box": [
+    1013.0,
+    2244.9,
+    1810.2,
+    2265.1
+   ],
+   "detail": "ink crosses its box borders: bottom ink 2265.1 > border 2258.0",
+   "by": "rect@192"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1467.3,
+    1648.8,
+    1489.0
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@192"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "punti)",
+   "box": [
+    1451.0,
+    2563.3,
+    1494.8,
+    2579.6
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@330"
+  }
+ ],
+ "new_flag_count": 11
+}

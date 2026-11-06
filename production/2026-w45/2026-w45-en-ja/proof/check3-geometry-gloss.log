@@ -1,0 +1,68 @@
+=== linestart EDITION ===
+p2-life.svg: ': costumes, pumpkins, and full'
+p5-jeunesse.svg: ': what do Americans read, watch'
+p5-jeunesse.svg: ': MLS fixtures on Saturday, November 7,'
+p8-exercices.svg: '? — Yes, welcome. May I see your'
+p8-exercices.svg: ', in the results ! — Ha ! Have a good day.'
+p8-exercices.svg: ') · 147. ballot (ballot = 投票用紙) · 148. sticker (sticker = ステ'
+linestart violations: 6
+exit=1
+=== linestart CORE ===
+p2-life.svg: ': costumes, pumpkins, and full'
+p5-jeunesse.svg: ': what do Americans read, watch'
+p5-jeunesse.svg: ': MLS fixtures on Saturday, November 7,'
+p7-langue.svg: '。'
+p7-langue.svg: '。'
+p7-langue.svg: '。'
+p8-exercices.svg: '? — Yes, welcome. May I see your'
+p8-exercices.svg: ', in the results ! — Ha ! Have a good day.'
+p8-exercices.svg: '） · 69. C（结果早上还在） · 70. close · 71. still（still = 仍'
+p8-exercices.svg: '） · 139. 这周日，NFL 在马德里比赛。（on Sunday；in'
+p8-exercices.svg: '；change 变化） · 141. b（midterm = 中期选举 b） · 142. c'
+p8-exercices.svg: '） · 148. sticker（sticker = 贴纸） · 149. Tuesday（选举日'
+linestart violations: 12
+exit=1
+=== rightedge EDITION ===
+p8-exercices.svg y=806.4000000000001 edge=1899.4 anchor=start: 'b. an election in the middle of a term'
+p8-exercices.svg y=882.4000000000001 edge=1903.8 anchor=start: 'd. the paper you mark your choice on'
+right-edge violations: 2
+exit=1
+=== rightedge CORE ===
+p8-exercices.svg y=806.4000000000001 edge=1899.4 anchor=start: 'b. an election in the middle of a term'
+p8-exercices.svg y=882.4000000000001 edge=1903.8 anchor=start: 'd. the paper you mark your choice on'
+right-edge violations: 2
+exit=1
+=== rowcheck EDITION ===
+collisions: 0
+exit=0
+=== rowcheck CORE ===
+collisions: 0
+exit=0
+=== chartcheck EDITION P6 ===
+'No lines : 38%' ink box (527.0, 1195.7, 683.0, 1214.9)
+'Work on Tuesday : 29%' ink box (527.0, 1248.3, 785.2, 1272.5)
+'Travel plans : 21%' ink box (527.0, 1300.9, 729.0, 1324.9)
+'Habit : 12%' ink box (527.0, 1353.5, 655.0, 1372.7)
+max chart-label coverage: 0.0% (gate <30%)
+exit=0
+=== gloss_count core-build vs edition-build ===
+CORE:
+  3 items: '讲解｜to fall back （时钟）拨回 · a costume 服装、装扮 · trick or treat 不给'
+  4 items: '讲解｜to open （电影）上映 · a monster 怪物 · a catchphrase 口头禅、金句 · a '
+  4 items: '讲解｜a fixture 一场比赛（赛程） · a title 冠军头衔 · to defend （卫冕）保卫头衔 · '
+  3 items: '讲解｜a map （选举）地图 · too close to call 难分胜负、无法判定 · a second scr'
+  4 items: '讲解｜to register 登记（选民登记） · a governor 州长 · to shape laws 影响立法'
+EDITION:
+  3 items: 'to fall back （時計を）戻す · a costume 仮装 · trick or treat お菓子をくれな'
+  4 items: 'to open （映画が）公開される · a monster 怪物 · a catchphrase 決めぜりふ · a '
+  4 items: 'a fixture 日程の中の1試合 · a title 優勝の称号 · to defend （王座を）守る · a f'
+  3 items: 'a map （選挙の）地図 · too close to call 接戦で判定できない · a second scree'
+  4 items: 'to register 登録する（有権者登録） · a governor 州知事 · to shape laws 法律に'
+gloss total: core=18 edition=18
+exit=0
+=== svglib md5 ===
+d73e23b365676c3618d7e060b835eb4d  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-en-ja-build/svglib.py
+d73e23b365676c3618d7e060b835eb4d  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-en-ja-build/svglib.py
+=== check-cjk edition build ===
+unmapped CJK constants: 0
+exit=0

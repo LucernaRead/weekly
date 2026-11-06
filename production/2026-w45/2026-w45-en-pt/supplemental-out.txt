@@ -1,0 +1,30 @@
+== rowcheck (same-baseline gaps < 6) ==
+p1-front.svg y=478.0 gap=-70.3: 'AMERICA VOTES ON TUESDAY — AND THE CLOCKS FEL' <> 'Terça-feira de eleições · Domingo com relógio'
+rowcheck collisions: 1
+== chartcheck P6 (baseline-anchored boxes, gate < 30%) ==
+chart label lines: 4, intro lines: 1
+  'No lines : 38%' baseline-box coverage=0.0%
+  'Work on Tuesday : 29%' baseline-box coverage=0.0%
+  'Travel plans : 21%' baseline-box coverage=0.0%
+  'Habit : 12%' baseline-box coverage=0.0%
+  'reasons. The chart is teaching data, not' baseline-box coverage=0.0%
+chartcheck worst baseline-box coverage: 0.0% (gate < 30%)
+== edgescan (flags: advance-right > 1910 inner frame; ink-right > 1910; ink vs frame bands) ==
+== margin-crossers (advance-right > 1885) are informational; edition set must be a subset of core's or adjudicated ==
+p1-front.svg ADVANCE-FRAME 1929.4: 'Interesse relativo aproximado, não números exatos.'
+p1-front.svg INK-FRAME 1929.5: 'Interesse relativo aproximado, não números exatos.'
+p1-front.svg MARGIN-CROSS advance-right 1929.4: 'Interesse relativo aproximado, não números exatos.'
+p1-front.svg FRAME-PRESS: 'Interesse relativo aproximado, não números exatos.'
+p1-front.svg FRAME-PRESS: 'Interesse relativo aproximado, não números exatos.'
+p1-front.svg max advance-right: 1929.4
+p2-life.svg max advance-right: 1885.0
+p3-culture.svg max advance-right: 1885.0
+p4-sport.svg max advance-right: 1885.0
+p5-jeunesse.svg max advance-right: 1885.0
+p6-politique.svg max advance-right: 1885.0
+p7-langue.svg max advance-right: 1885.0
+p8-exercices.svg MARGIN-CROSS advance-right 1899.4: 'b. an election in the middle of a term'
+p8-exercices.svg MARGIN-CROSS advance-right 1903.8: 'd. the paper you mark your choice on'
+p8-exercices.svg max advance-right: 1903.8
+edgescan flags: 4
+SUMMARY rowcheck=1 chartcheck_worst=0.0% edgescan=4

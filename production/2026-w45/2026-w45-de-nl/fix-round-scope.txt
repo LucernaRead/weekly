@@ -1,0 +1,22 @@
+P7 text-element count pre/post: 188 188
+--- 
++++ 
+@@ -113,9 +113,9 @@
+ beste pagina-8-tekst; belofte naar VOL.3.
+ Schrijf ons! Stuur je echte brieven in!
+ NOCH EIN WORT · Nog één woord
+-«der Tankrabatt» (pagina 2): de
+-verlaagde belasting op benzine en
+-diesel. Brandstofkorting.
++«der Tankrabatt» (Seite 2): die
++gesenkte Steuer auf Benzin und Diesel.
++Brandstofkorting.
+ SÄTZE DER WOCHE · Zinnen van de week
+ Woord voor woord uit dit nummer
+ „Vier Nächte Fußball hintereinander,
+
+Word-box rect pre == post: identical x=1451 y=1354.5 w=434 h=150 (bottom 1504.5)
+Gold line y=1508; box bottom 1504.5 is 3.5px above it; reader-box bottom 1338.5, gap to word-box top 1354.5 = 16px (unchanged)
+SVG hashes: P1-P6,P8 byte-identical to pre-fix; only P7 changed (5700fb81... -> 95dfd5fd...)
+Card hashes: P1-P6,P8 byte-identical to pre-fix; only P7 changed (afc348d3... -> 77e87032...)
+Both PDFs changed (expected: they embed P7)

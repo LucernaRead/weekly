@@ -1,0 +1,251 @@
+per-page Han/CJK/fw:
+  ed p1-une.svg han=0 cjk=0 fw=0 nodes=178
+  ed p2-vie.svg han=0 cjk=0 fw=0 nodes=183
+  ed p3-culture.svg han=0 cjk=0 fw=0 nodes=190
+  ed p4-sport.svg han=0 cjk=0 fw=0 nodes=203
+  ed p5-jeunesse.svg han=0 cjk=0 fw=0 nodes=164
+  ed p6-politique.svg han=0 cjk=0 fw=0 nodes=178
+  ed p7-langue.svg han=0 cjk=0 fw=0 nodes=180
+  ed p8-exercices.svg han=0 cjk=0 fw=0 nodes=289
+  core p1-une.svg han=192 cjk=192 fw=0 nodes=177
+  core p2-vie.svg han=219 cjk=219 fw=4 nodes=178
+  core p3-culture.svg han=156 cjk=156 fw=4 nodes=187
+  core p4-sport.svg han=171 cjk=171 fw=4 nodes=197
+  core p5-jeunesse.svg han=159 cjk=159 fw=2 nodes=160
+  core p6-politique.svg han=170 cjk=170 fw=8 nodes=172
+  core p7-langue.svg han=328 cjk=328 fw=8 nodes=169
+  core p8-exercices.svg han=788 cjk=788 fw=216 nodes=267
+checks: {
+ "ed": {
+  "q1": 5,
+  "q2": 3,
+  "q3": 1,
+  "q4": 5,
+  "q5": 1,
+  "q6": 3,
+  "q7": 1,
+  "q8": 3,
+  "40e_count": 1,
+  "41e": true,
+  "q120_stem": true,
+  "q120_opts": true,
+  "qiao_jie": 0
+ },
+ "core": {
+  "q1": 5,
+  "q2": 3,
+  "q3": 1,
+  "q4": 5,
+  "q5": 1,
+  "q6": 3,
+  "q7": 1,
+  "q8": 3,
+  "40e_count": 1,
+  "41e": true,
+  "q120_stem": true,
+  "q120_opts": true,
+  "qiao_jie": 0
+ }
+}
+p8 ed: {
+ "65": {
+  "max_y": 2624.0,
+  "max_y_answers": 2624.0,
+  "n": 67
+ },
+ "527": {
+  "max_y": 2532.8200000000006,
+  "max_y_answers": 2532.8200000000006,
+  "n": 57
+ },
+ "989": {
+  "max_y": 2532.82,
+  "max_y_answers": 2532.82,
+  "n": 54
+ },
+ "1451": {
+  "max_y": 2270.35,
+  "max_y_answers": 2270.35,
+  "n": 44
+ },
+ "all_max": 2624.0,
+ "sep_heads": [
+  [
+   1451.0,
+   1264.0,
+   "— Bonjour madame, c'est le marché du Goût"
+  ],
+  [
+   65.0,
+   1877.0,
+   "— Página 1 —"
+  ],
+  [
+   65.0,
+   2055.3599999999997,
+   "— Página 2 —"
+  ],
+  [
+   65.0,
+   2271.42,
+   "— Página 3 —"
+  ],
+  [
+   65.0,
+   2544.03,
+   "— Página 4 —"
+  ],
+  [
+   527.0,
+   2070.15,
+   "— Página 5 —"
+  ],
+  [
+   527.0,
+   2305.0600000000004,
+   "— Página 6 —"
+  ],
+  [
+   989.0,
+   1919.35,
+   "— Página 7 —"
+  ],
+  [
+   989.0,
+   2154.2599999999998,
+   "— Página 8 —"
+  ]
+ ],
+ "battery_max": 1593.175
+}
+p8 core: {
+ "65": {
+  "max_y": 2624.0,
+  "max_y_answers": 2624.0,
+  "n": 62
+ },
+ "527": {
+  "max_y": 2537.7300000000005,
+  "max_y_answers": 2537.7300000000005,
+  "n": 53
+ },
+ "989": {
+  "max_y": 2526.11,
+  "max_y_answers": 2526.11,
+  "n": 53
+ },
+ "1451": {
+  "max_y": 2137.45,
+  "max_y_answers": 2137.45,
+  "n": 32
+ },
+ "all_max": 2624.0,
+ "sep_heads": [
+  [
+   1451.0,
+   1177.0,
+   "— Bonjour madame, c'est le marché du"
+  ],
+  [
+   65.0,
+   1877.0,
+   "— 第 1 版 —"
+  ],
+  [
+   65.0,
+   2023.86,
+   "— 第 2 版 —"
+  ],
+  [
+   65.0,
+   2231.17,
+   "— 第 3 版 —"
+  ],
+  [
+   65.0,
+   2498.9300000000003,
+   "— 第 4 版 —"
+  ],
+  [
+   527.0,
+   2022.4,
+   "— 第 5 版 —"
+  ],
+  [
+   527.0,
+   2229.71,
+   "— 第 6 版 —"
+  ],
+  [
+   527.0,
+   2477.32,
+   "— 第 7 版 —"
+  ],
+  [
+   989.0,
+   2062.7,
+   "— 第 8 版 —"
+  ]
+ ],
+ "battery_max": 1593.175
+}
+images ed: {
+ "p1-une.svg": {
+  "x": "65",
+  "y": "1874",
+  "w": "896",
+  "h": "320",
+  "b64_sha": "ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d",
+  "jpeg_sha": "f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f",
+  "jpeg_bytes": 334674
+ },
+ "p2-vie.svg": {
+  "x": "1451",
+  "y": "200",
+  "w": "434",
+  "h": "480",
+  "b64_sha": "6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae",
+  "jpeg_sha": "5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2",
+  "jpeg_bytes": 646242
+ },
+ "p3-culture.svg": {
+  "x": "1451",
+  "y": "200",
+  "w": "434",
+  "h": "540",
+  "b64_sha": "bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9",
+  "jpeg_sha": "be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94",
+  "jpeg_bytes": 142340
+ }
+}
+images core: {
+ "p1-une.svg": {
+  "x": "65",
+  "y": "1874",
+  "w": "896",
+  "h": "320",
+  "b64_sha": "ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d",
+  "jpeg_sha": "f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f",
+  "jpeg_bytes": 334674
+ },
+ "p2-vie.svg": {
+  "x": "1451",
+  "y": "200",
+  "w": "434",
+  "h": "480",
+  "b64_sha": "6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae",
+  "jpeg_sha": "5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2",
+  "jpeg_bytes": 646242
+ },
+ "p3-culture.svg": {
+  "x": "1451",
+  "y": "200",
+  "w": "434",
+  "h": "540",
+  "b64_sha": "bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9",
+  "jpeg_sha": "be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94",
+  "jpeg_bytes": 142340
+ }
+}
+linestart ed: [('p3-culture.svg', 1451.0, 789.65, ": on le pose sur les tombes, on ne l'offre jamais"), ('p4-sport.svg', 65.0, 837.1199999999999, ': quarts de finale vendredi 6'), ('p5-jeunesse.svg', 1473.0, 430.64999999999986, ': clôture du festival.'), ('p7-langue.svg', 527.0, 428.1, ": attention à l'accord avec le sujet :")]
+linestart core: [('p3-culture.svg', 1451.0, 789.65, ": on le pose sur les tombes, on ne l'offre jamais"), ('p4-sport.svg', 65.0, 837.1199999999999, ': quarts de finale vendredi 6'), ('p5-jeunesse.svg', 1473.0, 430.64999999999986, ': clôture du festival.'), ('p7-langue.svg', 527.0, 428.1, ": attention à l'accord avec le sujet :")]

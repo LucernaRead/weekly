@@ -1,0 +1,124 @@
+== Core gloss recount (prefix 译注｜讲解｜) ==
+p2-life: core=[3] edition=[3]
+   core: ['to fall back （时钟）拨回 · a costume 服装、装扮 · trick or treat 不给 糖就捣蛋。']
+   ed:   ['to fall back = (Uhren) zurückstellen · a costume = Kostüm, Verkleidung · trick or treat = Süßes oder Saures.']
+   headwords core=['to fall back （时钟）拨回', 'a costume 服装、装扮', 'trick or treat 不给 糖就捣蛋。'] ed=['to fall back', 'a costume', 'trick or treat'] match=False
+p3-culture: core=[4] edition=[4]
+   core: ['to open （电影）上映 · a monster 怪物 · a catchphrase 口头禅、金 句 · a series 剧集。']
+   ed:   ['to open = (Film) anlaufen, starten · a monster = Monster · a catchphrase = Spruch · a series = Serie.']
+   headwords core=['to open （电影）上映', 'a monster 怪物', 'a catchphrase 口头禅、金 句', 'a series 剧集。'] ed=['to open', 'a monster', 'a catchphrase', 'a series'] match=False
+p4-sport: core=[4] edition=[4]
+   core: ['a fixture 一场比赛（赛程） · a title 冠军头衔 · to defend （卫冕）保卫 头衔 · a fan 球迷。']
+   ed:   ['a fixture = Spiel (im Spielplan) · a title = Titel · to defend = (Titel) verteidigen · a fan = Fan.']
+   headwords core=['a fixture 一场比赛（赛程）', 'a title 冠军头衔', 'to defend （卫冕）保卫 头衔', 'a fan 球迷。'] ed=['a fixture', 'a title', 'to defend', 'a fan'] match=False
+p5-jeunesse: core=[3] edition=[3]
+   core: ['a map （选举）地图 · too close to call 难分胜负、无法判定 · a second screen 第二块屏幕（手机）。']
+   ed:   ['a map = (Wahl)karte · too close to call = zu knapp, um es zu entscheiden · a second screen = zweiter Bildschirm (Handy).']
+   headwords core=['a map （选举）地图', 'too close to call 难分胜负、无法判定', 'a second screen 第二块屏幕（手机）。'] ed=['a map', 'too close to call', 'a second screen'] match=False
+p6-politique: core=[4] edition=[4]
+   core: ['to register 登记（选民登记） · a governor 州长 · to shape laws 影响 立法 · patience 耐心。']
+   ed:   ['to register = sich (als Wähler) registrieren · a governor = Gouverneur · to shape laws = Gesetze prägen · patience = Geduld.']
+   headwords core=['to register 登记（选民登记）', 'a governor 州长', 'to shape laws 影响 立法', 'patience 耐心。'] ed=['to register', 'a governor', 'to shape laws', 'patience'] match=False
+
+== P7 golden 2x (joined page text, paper ' ?' spacing) ==
+'Tuesday, November 3, is Election Day in the U': edition pages=['p1-front', 'p7-langue', 'p8-exercices'] core pages=['p1-front', 'p7-langue', 'p8-exercices']
+'The hour from 1 to 2 happened twice.': edition pages=['p2-life', 'p7-langue'] core pages=['p2-life', 'p7-langue']
+'Which film would you choose ?': edition pages=['p3-culture', 'p7-langue'] core pages=['p3-culture', 'p7-langue']
+'Two games, two continents, one league — that ': edition pages=['p4-sport', 'p7-langue'] core pages=['p4-sport', 'p7-langue']
+'The results will still be there in the mornin': edition pages=['p5-jeunesse', 'p7-langue'] core pages=['p5-jeunesse', 'p7-langue']
+'Patience is part of the system, not a failure': edition pages=['p6-politique', 'p7-langue', 'p8-exercices'] core pages=['p6-politique', 'p7-langue', 'p8-exercices']
+'Not every place changes.': edition pages=['p2-life', 'p7-langue', 'p8-exercices'] core pages=['p2-life', 'p7-langue', 'p8-exercices']
+'One Sunday is not enough — good thing the wee': edition pages=['p4-sport', 'p7-langue'] core pages=['p4-sport', 'p7-langue']
+P7 phrase numbers/levels (from registry):
+  100 page=7 level=A2 type=Anwendungsübung
+  101 page=7 level=A2 type=Anwendungsübung
+  102 page=7 level=B1 type=Anwendungsübung
+  103 page=7 level=B1 type=Anwendungsübung
+  104 page=7 level=B2 type=Anwendungsübung
+  105 page=7 level=B2 type=Anwendungsübung
+  106 page=7 level=A2 type=Anwendungsübung
+  107 page=7 level=B1 type=Anwendungsübung
+  108 page=7 level=A2 type=Fehlerkorrektur
+  109 page=7 level=A2 type=Fehlerkorrektur
+  110 page=7 level=B1 type=Fehlerkorrektur
+  111 page=7 level=B1 type=Fehlerkorrektur
+P7 structure heads edition:
+  y=116.0 'LANGUAGE IN HAND · Sprachwerkstatt'
+  y=116.0 'The Lucerna'
+  y=227.0 'LEVEL A2 · Grundlagen'
+  y=227.0 'LEVEL B1 · Aufbau'
+  y=227.0 'LEVEL B2 · Herausforderung'
+  y=227.0 'THE TOOLBOX · Werkzeugkiste'
+  y=1236.0 'PHRASES OF THE WEEK · Sätze der Woche (alle aus dieser Ausgabe)'
+  y=1903.0 'THE ERROR CLINIC · Fehlerklinik'
+P7 structure heads core:
+  y=116.0 'LANGUAGE IN HAND · 精讲'
+  y=116.0 'The Lucerna'
+  y=227.0 'LEVEL A2 · 基础'
+  y=227.0 'LEVEL B1 · 进阶'
+  y=227.0 'LEVEL B2 · 挑战'
+  y=227.0 'THE TOOLBOX · 工具箱'
+  y=1236.0 'PHRASES OF THE WEEK · 本周金句（全部出自本期文章）'
+  y=1903.0 'THE ERROR CLINIC · 易错诊所'
+
+== P7 definitions: core top-column English sentences present in edition P7 ==
+core P7 pure-English long lines missing from edition P7 joined text: 0
+
+== Readers corner: letter verbatim core vs edition ==
+core corner lines:
+  CO: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  CO: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  CO: 'went to press, so the example stays, honestly labeled)'
+  CO: '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作'
+  CO: '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+  CO: '。'
+edition corner lines:
+  ED: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  ED: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  ED: 'went to press, so the example stays, honestly labeled)'
+  ED: 'Anmerkung der Redaktion | Bis Redaktionsschluss sind keine echten Leserbriefe'
+  ED: 'eingetroffen, und es gibt keinen besten VOL.1-Schreibtext zu besprechen. Das Beispiel oben'
+  ED: 'bleibt daher ehrlich gekennzeichnet stehen; echte Briefe erscheinen ab VOL.3. Schicke uns'
+  ED: 'deinen Brief und deinen Text — wir drucken sie in VOL.3!'
+core corner joined contains 'best'? False | 'VOL.1'? True
+edition letter English lines == core letter English lines? False
+disclosure lines y: [2076.0, 2104.0, 2132.0, 2160.0, 2420.0, 2448.0]
+  containing bordered rect: x=28.0 y=28.0 w=1894.0 h=2644.0 bottom=2672.0 last-baseline=2448.0 slack=224.0
+  containing bordered rect: x=40.0 y=40.0 w=1870.0 h=2620.0 bottom=2660.0 last-baseline=2448.0 slack=212.0
+
+== P8 battery E bodies 137-140 (edition) ==
+  line 117: 'Übersetze: Dienstag, der 3. November, ist' (next: 'Wahltag in den Vereinigten Staaten.' )
+  line 121: 'Übersetze: An diesem Sonntag spielt die' (next: 'NFL in Madrid.' )
+
+== Extra-72 note verification (segments) ==
+extra=72 bad=0 (edition-noted but core-bare expected)
+edition P8 segments with CJK: []
+
+== Removed P1-P7 (c) items list ==
+   [P1][c-rewrap(whole-seq-in-edition)] '· Nov 8 — NFL in Madrid + F1 in São'
+
+== P8 fragments: each fragment's words belong to consecutive registry keys ==
+  frag '1. ballot · 2. midterm · 3. November 3 ·': nums=['1', '2', '3', '4'] registry keys=['ballot', 'midterm', 'November 3', 'early']
+  frag '75. d · 76. b · 77. a · 78. The map is c': nums=['75', '76', '77', '78'] registry keys=['d', 'b', 'a', 'The map is changing colour now.']
+
+== Images + credits ==
+p1-front: edition images=1 core images=1 payloads equal=True ['03552ac66deb195d']
+p2-life: edition images=1 core images=1 payloads equal=True ['10cfe22838a0dae4']
+p3-culture: edition images=1 core images=1 payloads equal=True ['b9eab392d07c08ff']
+p4-sport: edition images=1 core images=1 payloads equal=True ['440433181d0ca7ad']
+p5-jeunesse: edition images=0 core images=0 payloads equal=True []
+p6-politique: edition images=1 core images=1 payloads equal=True ['fe6812b72c29ce88']
+p7-langue: edition images=0 core images=0 payloads equal=True []
+p8-exercices: edition images=0 core images=0 payloads equal=True []
+p1-front credits ed=['Kenneth C. Zirkel — CC0, via Wikimedia Commons'] co=['Kenneth C. Zirkel — CC0, via Wikimedia Commons'] equal=True
+p2-life credits ed=['Public domain, via Wikimedia Commons'] co=['Public domain, via Wikimedia Commons'] equal=True
+p3-culture credits ed=['Édouard Manet — CC0, via Wikimedia Commons'] co=['Édouard Manet — CC0, via Wikimedia Commons'] equal=True
+p4-sport credits ed=['Frank R. Snyder — public domain, via Wikimedia Commons'] co=['Frank R. Snyder — public domain, via Wikimedia Commons'] equal=True
+p6-politique credits ed=['Public domain, via Wikimedia Commons'] co=['Public domain, via Wikimedia Commons'] equal=True
+
+== PDFs ==
+ed-print: pages=8 size=17295556 sha=0605300932508500a7fbd13c4e506fd1b88c9ea4b86620c1e568224bdecb2d82
+ed-web: pages=8 size=4027862 sha=c0edc0c215f16aef316bc65ac2e245ddc9eece7ac614d2b4e0c5b9ddfb63f4c5
+ABSTRACT lines: 1 content: 'The Lucerna, englisches Wochenblatt VOL.2 für deutschsprachige Leser: Midterm-Wahlen mit Wahltag am 3. November, Zeitumstellung am 1. November, Halloween, die Filme The Cat in the Hat und Godzilla Minus Zero, NFL in Madrid am 8. November, dazu das US-Wahlsystem einfach erklärt — 150 Übungen von A2 bis B2 mit Vokabeln, Grammatik und Lesetexten. Suche: Englisch lernen mit Nachrichten aus den USA, Wahlen und Vokabeln\n'
+Masthead P1: ['The Lucerna'] badge: ['ENGLISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER']
+DONE

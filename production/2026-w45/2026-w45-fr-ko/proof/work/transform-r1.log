@@ -1,0 +1,28 @@
+bslib4.py: rename 'def bridge(self' -> 'def expl(self' (1x)
+content12.py: rename '.bridge(' -> '.expl(' (4x)
+content34.py: rename '.bridge(' -> '.expl(' (9x)
+content56.py: rename '.bridge(' -> '.expl(' (9x)
+content7.py: rename '.bridge(' -> '.expl(' (3x)
+content8.py: rename '.bridge(' -> '.expl(' (1x)
+bslib4.py: 3 replacements applied
+content12.py: 57 replacements applied
+content34.py: 81 replacements applied
+content56.py: 68 replacements applied
+content7.py: 30 replacements applied
+content8.py: 59 replacements applied
+content12.py: Han gate clean (only registry type names remain)
+content34.py: Han gate clean (only registry type names remain)
+content56.py: Han gate clean (only registry type names remain)
+content7.py: Han gate clean (only registry type names remain)
+content8.py: Han gate clean (only registry type names remain)
+bslib4.py: Han gate clean (only registry type names remain)
+TRANSFORM OK
+skip section 2 for content56.py (ROUND=1)
+skip section 2 for content12.py (ROUND=1)
+skip section 2 for content34.py (ROUND=1)
+skip section 2 for content7.py (ROUND=1)
+skip section 2 for content8.py (ROUND=1)
+skip section 3 for content8.py (ROUND=1)
+skip section 3 for content12.py (ROUND=1)
+skip section 4 for content8.py (ROUND=1)
+FINAL HAN GATE OK

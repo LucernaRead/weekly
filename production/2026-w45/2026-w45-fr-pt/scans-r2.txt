@@ -1,0 +1,25 @@
+== 1. right-edge (limit 1885) ==
+  OVER: p1-une.svg y=1240.0 x1=2249.5 'Os resultados do fim de semana final serão conhecidos no sáb'
+  OVER: p1-une.svg y=1320.0 x1=1908.9 'DANS CE NUMÉRO · NESTE NÚMERO'
+  OVER: p3-culture.svg y=1925.25 x1=1951.8 'DATES À RETENIR · DATAS DESTA SEMANA'
+  OVER: p5-jeunesse.svg y=1162.0 x1=2038.6 'PARIS CREATOR WEEK · SEMANA DOS CRIADORES'
+  OVER: p8-exercices.svg y=1036.0 x1=1891.2 "b. une soirée qui dure jusqu'à la nuit"
+  OVER: p8-exercices.svg y=1112.0 x1=1891.3 'd. le coquillage fêté à Port-en-Bessin'
+  OVER: p8-exercices.svg y=1150.0 x1=1899.5 'e. plusieurs concerts en une semaine'
+  max x1 over all pages: 2249.5
+== 2. frame-line scan (frames at x=28/40, right 1922/1910, y=28/40, bottom 2672/2660) ==
+  HIT: p1-une.svg ['right-frame'] 'Os resultados do fim de semana final serão conhecidos no sáb'
+  HIT: p1-une.svg ['right-frame'] 'DANS CE NUMÉRO · NESTE NÚMERO'
+  HIT: p3-culture.svg ['right-frame'] 'DATES À RETENIR · DATAS DESTA SEMANA'
+  HIT: p5-jeunesse.svg ['right-frame'] 'PARIS CREATOR WEEK · SEMANA DOS CRIADORES'
+  frame scan done (no output above = no hits)
+== 3. same-baseline rowcheck (bands y=92, 574, 2624 + band rows) ==
+  rowcheck done
+== 4. P6 chart-label baseline-anchored coverage (getmetrics) ==
+  max chart-label coverage: 0.0% ()  gate <30%
+== 5. line-start kinsoku ==
+  START p3-culture.svg y=789.65: ": on le pose sur les tombes, on ne l'offre jamais"
+  START p4-sport.svg y=837.1199999999999: ': quarts de finale vendredi 6'
+  START p5-jeunesse.svg y=430.64999999999986: ': clôture du festival.'
+  START p7-langue.svg y=428.1: ": attention à l'accord avec le sujet :"
+  kinsoku scan done

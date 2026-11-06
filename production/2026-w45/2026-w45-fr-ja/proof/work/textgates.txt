@@ -1,0 +1,147 @@
+=== SMALL KANA line-start (explicit) ===
+(end small kana: none above = 0)
+=== BADGE 3-way ===
+ED badge x,y,size,weight,fill: 975.0 574.0 22 700 #a4553a 'フランス語テキスト · 日本語の解説 — 日本語読者のための版'
+CO badge x,y,size,weight,fill: 975.0 574.0 22 700 #a4553a '法语正文 · 简体中文讲解 — 给简体中文读者的版本'
+W43 badge x,y,size,weight,fill: 975.0 574.0 22 700 #a4553a 'フランス語テキスト · 日本語の解説 — 日本語読者のための版'
+=== FOOTER / PAGE LINE every page ===
+p1-une.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '1 ページ（全 8 ページ）']
+p1-une.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '1 ページ（全 8 ページ）']
+p2-vie.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '2 ページ（全 8 ページ）']
+p2-vie.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '2 ページ（全 8 ページ）']
+p3-culture.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '3 ページ（全 8 ページ）']
+p3-culture.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '3 ページ（全 8 ページ）']
+p4-sport.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '4 ページ（全 8 ページ）']
+p4-sport.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '4 ページ（全 8 ページ）']
+p5-jeunesse.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '5 ページ（全 8 ページ）']
+p5-jeunesse.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '5 ページ（全 8 ページ）']
+p6-politique.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '6 ページ（全 8 ページ）']
+p6-politique.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '6 ページ（全 8 ページ）']
+p7-langue.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '7 ページ（全 8 ページ）']
+p7-langue.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '7 ページ（全 8 ページ）']
+p8-exercices.svg ED ['Le Lucerna · フランス語週刊 VOL.3 · 本文はフランス語 · 解説は日本語', '8 ページ（全 8 ページ）']
+p8-exercices.svg W43 ['Le Lucerna · フランス語週刊 VOL.2 · 本文はフランス語 · 解説は日本語', '8 ページ（全 8 ページ）']
+=== GLOSS: split on middle dot per README #21, from rendered gloss lines ===
+ED p1-une.svg gloss-start lines: ['解説 — se jouer 決まる、行われる · une']
+ED p2-vie.svg gloss-start lines: ['解説 — la rentrée 新学期の始まり、再開 ·', '解説 — une valise スーツケース · une']
+ED p3-culture.svg gloss-start lines: ['解説 — se déguiser 仮装する、変装する ·']
+ED p4-sport.svg gloss-start lines: ['解説 — un tournoi 大会、トーナメント ·', '解説 — un choc 強豪同士の対決 · recevoir 迎']
+ED p5-jeunesse.svg gloss-start lines: ['解説 — un lieu 場所、会場 · une affiche ポ']
+ED p6-politique.svg gloss-start lines: ['解説 — un budget 予算 · une mission （予', '解説 — prévu 予定された、計画された ·']
+CO p1-une.svg gloss-start lines: ['译注｜se jouer 决出胜负、上演 · une']
+CO p2-vie.svg gloss-start lines: ['译注｜la rentrée 开学、复课 · reprendre', '译注｜une valise 行李箱 · une ambiance 气氛']
+CO p3-culture.svg gloss-start lines: ['译注｜se déguiser 变装、装扮 · un sort']
+CO p4-sport.svg gloss-start lines: ['译注｜un tournoi 锦标赛、赛事 · sur dur', '译注｜un choc 强强对决 · recevoir 迎战、接']
+CO p5-jeunesse.svg gloss-start lines: ['译注｜un lieu 场所、场地 · une affiche 海']
+CO p6-politique.svg gloss-start lines: ['译注｜un budget 预算 · une mission （预', '译注｜prévu 预定的、计划的 · réaliser 实现、']
+=== GLOSS from build source (gloss() call strings) ===
+ED-repro content12.py gloss calls: [7, 6] total items: 13
+ED-repro content34.py gloss calls: [6, 7] total items: 13
+ED-repro content56.py gloss calls: [6, 6] total items: 12
+CO content12.py gloss calls: [7, 6] total items: 13
+CO content34.py gloss calls: [6, 7] total items: 13
+CO content56.py gloss calls: [6, 6] total items: 12
+=== P7 items: #1-#8 phrases + grammar bridges ===
+ED P7 1186.0 'LES PHRASES DE LA SEMAINE · 今週のフレーズ（すべて今号の記事から）'
+ED P7 1319.1 '文法｜reprendre：再開すること（pause の'
+ED P7 1616.55 '文法｜ne...pas encore：まだ〜していない。'
+ED P7 1231.5 '文法｜passé composé の代名動詞：se + être + 過'
+ED P7 1559.7500000000002 '文法｜comparatif：plus + 形容詞、ou の対比。'
+ED P7 1797.0250000000003 '文法｜se promener：代名動詞、散歩する、ぶら'
+ED P7 1447.9 '文法｜pouvoir + 不定詞：〜できる、〜かもしれ'
+ED P7 1714.5500000000002 '文法｜se jouer：決まる、行われる（代名動'
+ED P7 1416.0 '文法｜rencontrer：観客と会う；y＝場所。'
+CO P7 1186.0 'LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）'
+CO P7 1319.1 '语法点｜reprendre：复课、重新开始（pause 后'
+CO P7 1616.55 '语法点｜ne...pas encore：尚未、还不。'
+CO P7 1231.5 '语法点｜passé composé 代动词：se + être + 过去'
+CO P7 1559.7500000000002 '语法点｜comparatif：plus + 形容词，ou 对举。'
+CO P7 1797.0250000000003 '语法点｜se promener：代动词，漫步、穿梭。'
+CO P7 1447.9 '语法点｜pouvoir + 动词原形：可能、可以。'
+CO P7 1686.2750000000003 '语法点｜se jouer：决出胜负、上演（代动词）。'
+CO P7 1319.1 '语法点｜rencontrer：与观众见面；y 代指地点。'
+=== P7 phrases section full text flow ===
+ED P7 flow 1186.0 'LES PHRASES DE LA SEMAINE · 今週のフレーズ（すべて今号の記事から）'
+ED P7 flow 1186.0 '各フレーズに文法ポイント + 小問題 · 答えは8ページ'
+ED P7 flow 1234.0 '« Le lundi 2 novembre, on reprend les'
+ED P7 flow 1264.8 'cours. » (page 2)'
+ED P7 flow 1319.1 '文法｜reprendre：再開すること（pause の'
+ED P7 flow 1347.375 '後）。'
+ED P7 flow 1402.6499999999999 'A2'
+ED P7 flow 1403.6499999999999 '97.'
+ED P7 flow 1434.6499999999999 'Après les vacances, on ___ (reprendre)'
+ED P7 flow 1466.55 'les cours.'
+ED P7 flow 1531.45 '« On ne connaît pas encore les'
+ED P7 flow 1562.25 'finalistes. » (page 1)'
+ED P7 flow 1616.55 '文法｜ne...pas encore：まだ〜していない。'
+ED P7 flow 1671.825 'B1'
+ED P7 flow 1672.825 '98.'
+ED P7 flow 1703.825 'Il ne fait pas ___ nuit : il est 15 heures.'
+ED P7 flow 1768.7250000000001 '« Les cimetières se sont remplis de'
+ED P7 flow 1799.525 'chrysanthèmes. » (page 3)'
+ED P7 flow 1231.5 '文法｜passé composé の代名動詞：se + être + 過'
+ED P7 flow 1259.775 '去分詞。'
+ED P7 flow 1315.05 'B1'
+ED P7 flow 1316.05 '99.'
+ED P7 flow 1347.05 'Les enfants se sont ___ (déguiser)'
+ED P7 flow 1378.95 'samedi.'
+ED P7 flow 1443.8500000000001 "« Une finale qu'on ne connaît pas"
+ED P7 flow 1474.65 "d'avance : plus excitante ou plus"
+ED P7 flow 1505.45 'frustrante ? » (page 4)'
+ED P7 flow 1559.7500000000002 '文法｜comparatif：plus + 形容詞、ou の対比。'
+ED P7 flow 1615.0250000000003 'B1'
+ED P7 flow 1616.0250000000003 '100.'
+ED P7 flow 1647.0250000000003 'La finale est ___ (excitante) !'
+ED P7 flow 1711.9250000000004 '« Le festival se promène dans Paris. »'
+ED P7 flow 1742.7250000000004 '(page 5)'
+ED P7 flow 1797.0250000000003 '文法｜se promener：代名動詞、散歩する、ぶら'
+ED P7 flow 1825.3000000000004 'つく。'
+ED P7 flow 1234.0 'A2'
+ED P7 flow 1235.0 '101.'
+ED P7 flow 1266.0 'Le dimanche, nous nous ___ (promener)'
+ED P7 flow 1297.9 'au parc.'
+ED P7 flow 1362.8000000000002 '« Ce calendrier peut encore bouger. »'
+ED P7 flow 1393.6000000000001 '(page 6)'
+ED P7 flow 1447.9 '文法｜pouvoir + 不定詞：〜できる、〜かもしれ'
+ED P7 flow 1476.1750000000002 'ない。'
+ED P7 flow 1531.45 'B2'
+ED P7 flow 1532.45 '102.'
+ED P7 flow 1563.45 'Le programme ___ (pouvoir) changer'
+ED P7 flow 1595.3500000000001 'demain.'
+ED P7 flow 1660.2500000000002 '« Ce week-end, tout se joue. » (page 1)'
+ED P7 flow 1714.5500000000002 '文法｜se jouer：決まる、行われる（代名動'
+ED P7 flow 1742.8250000000003 '詞）。'
+ED P7 flow 1234.0 'A2'
+ED P7 flow 1235.0 '103.'
+ED P7 flow 1266.0 'La finale se ___ (jouer) dimanche.'
+ED P7 flow 1330.9 '« Les jeunes créateurs y rencontrent'
+ED P7 flow 1361.7 'leur public, en vrai. » (page 5)'
+ED P7 flow 1416.0 '文法｜rencontrer：観客と会う；y＝場所。'
+ED P7 flow 1471.275 'A2'
+ED P7 flow 1472.275 '104.'
+ED P7 flow 1503.275 'Ils ___ (rencontrer) leur public.'
+=== P6 sync sentence ===
+ED 984.46 'peut encore bouger, et les résultats'
+ED 658.8799999999999 '« Ce calendrier peut encore bouger. »'
+ED 2363.6000000000004 'Le calendrier ___ encore bouger.'
+ED peut-lines: ['peut encore bouger, et les résultats', '« Ce calendrier peut encore bouger. »', 'examine / ont rejeté / part / peut / connus で']
+CO 984.46 'peut encore bouger, et les résultats'
+CO 658.8799999999999 '« Ce calendrier peut encore bouger. »'
+CO 2363.6000000000004 'Le calendrier ___ encore bouger.'
+CO peut-lines: ['peut encore bouger, et les résultats', '« Ce calendrier peut encore bouger. »', '用 examine / ont rejeté / part / peut / connus']
+=== IMAGES ===
+p1-une.svg ED n_images 1 ['<image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx']
+p1-une.svg CO n_images 1 ['<image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw0QEA8NDw4RExgUERIXEg4PFRwVFxkZGxsbEBQdHx']
+p2-vie.svg ED n_images 1 ['<image x="1451" y="200" width="434" height="480" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4gIwSUNDX1BST0ZJTEUAAQEAAAIgQURCRQIQAABtbnRyUkdCIFhZWiAH0AAHABMAFAApABFhY3NwQVBQT']
+p2-vie.svg CO n_images 1 ['<image x="1451" y="200" width="434" height="480" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4gIwSUNDX1BST0ZJTEUAAQEAAAIgQURCRQIQAABtbnRyUkdCIFhZWiAH0AAHABMAFAApABFhY3NwQVBQT']
+p3-culture.svg ED n_images 1 ['<image x="1451" y="200" width="434" height="540" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYwBjAAD/4QAWRXhpZgAATU0AKgAAAAgAAAAAAAD/2wBDAAUDBAQEAwUEBAQFBQUGB']
+p3-culture.svg CO n_images 1 ['<image x="1451" y="200" width="434" height="540" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYwBjAAD/4QAWRXhpZgAATU0AKgAAAAgAAAAAAAD/2wBDAAUDBAQEAwUEBAQFBQUGB']
+=== CREDITS ===
+p1-une.svg ED 2271.3 'Eugène Atget (1857-1927), photographie, domaine public'
+p1-une.svg CO 2271.3 'Eugène Atget (1857-1927), photographie, domaine public'
+p2-vie.svg ED 757.3 'Utagawa Hiroshige (1797-1858), estampe, domaine public ·'
+p2-vie.svg CO 757.3 'Utagawa Hiroshige (1797-1858), estampe, domaine public ·'
+p3-culture.svg ED 842.9499999999999 'Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,'
+p3-culture.svg ED 863.0999999999999 'domaine public'
+p3-culture.svg CO 842.9499999999999 'Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,'
+p3-culture.svg CO 863.0999999999999 'domaine public'

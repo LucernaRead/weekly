@@ -1,0 +1,156 @@
+=== CORE
+  quote p1: p7-tagged=YES full-count=3 p7-count=1
+  quote p2: p7-tagged=YES full-count=2 p7-count=1
+  quote p3: p7-tagged=YES full-count=2 p7-count=1
+  quote p4: p7-tagged=YES full-count=2 p7-count=1
+  quote p5: p7-tagged=YES full-count=2 p7-count=1
+  quote p6: p7-tagged=YES full-count=4 p7-count=2
+  quote p2: p7-tagged=YES full-count=3 p7-count=1
+  quote p4: p7-tagged=YES full-count=2 p7-count=1
+  P7 (page N) tags present: ['(page 1)', '(page 2)', '(page 3)', '(page 4)', '(page 5)', '(page 6)']
+=== EDITION
+  quote p1: p7-tagged=YES full-count=3 p7-count=1
+  quote p2: p7-tagged=YES full-count=2 p7-count=1
+  quote p3: p7-tagged=YES full-count=2 p7-count=1
+  quote p4: p7-tagged=YES full-count=2 p7-count=1
+  quote p5: p7-tagged=YES full-count=2 p7-count=1
+  quote p6: p7-tagged=YES full-count=4 p7-count=2
+  quote p2: p7-tagged=YES full-count=3 p7-count=1
+  quote p4: p7-tagged=YES full-count=2 p7-count=1
+  P7 (page N) tags present: ['(page 1)', '(page 2)', '(page 3)', '(page 4)', '(page 5)', '(page 6)']
+=== English-only P7 (CJK stripped) identical: False
+--- 
++++ 
+@@ -429,5 +429,6 @@
+ ｜
+-，
+-；
+-，
++3
++、
++。
++。
+ 。
+@@ -440,3 +441,5 @@
+ ）
+-+
++1
++＋
++1
+ ·
+@@ -457,4 +460,6 @@
+ 1)
+-｜is
++—
++is
+ =
++〜
+ ；
+@@ -483,4 +488,5 @@
+ 2)
+-｜happen
+-happened，
++—
++happen
++happened、
+ 。
+@@ -505,5 +511,6 @@
+ 3)
+-｜would
++—
++would
+ +
+-，
++、
+ 。
+@@ -534,5 +541,7 @@
+ 4)
+-｜that
++—
++that
+ is
+ =
++〜
+ ；
+@@ -560,6 +569,9 @@
+ 5)
+-｜will
++—
++will
+ still
+ =
+-；still
++〜
++；
++still
+ will
+@@ -590,6 +602,7 @@
+ 6)
+-｜part
++—
++part
+ of
+ =
+-……
++〜
+ ；not
+@@ -613,3 +626,4 @@
+ 2)
+-｜not
++—
++not
+ every
+@@ -643,7 +657,10 @@
+ 4)
+-｜has
++—
++has
+ =
++〜
+ ；the
+ week
+-has。
++has
++。
+ B1
+@@ -660,3 +677,4 @@
+ ·
+-：
++1
++。
+ 。
+@@ -759,8 +777,9 @@
+ VOL.2
+-，
+-VOL.1
+-，
+ 、
+-；
+-，VOL.3
++、VOL.1
++。
++、
++VOL.3
++。
++。VOL.3
+ 。
+@@ -795,5 +814,5 @@
+ changes.
+-，
++、
+ NFL
+-；
++、
+ 。
+@@ -804,7 +823,6 @@
+ ·
+-LUCERNA
+-ENGLISH
+-WEEKLY
++·
+ 7
+-/
++（
+ 8
++）
+--- core-only tail sample: LANGUAGE IN HAND · The Lucerna A2 → B2 · Phrases of the week · LEVEL A2 · FALLING BACK « The clocks fell back. » Fall back = to go back one hour. The past is fell back, not « falled back ». The repeat

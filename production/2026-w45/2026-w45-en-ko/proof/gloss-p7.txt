@@ -1,0 +1,85 @@
+== rendered prefix counts ED ==
+  '해설 — 해설': 0  '해설 — ' nodes: 6
+  '译注｜讲解｜': 0  '讲解｜': 0  '译注｜': 0
+  '해설 — ' total occurrences in joined: 7
+== rendered prefix counts CORE ==
+  '해설 — 해설': 0  '해설 — ' nodes: 0
+  '译注｜讲解｜': 5  '讲解｜': 6  '译注｜': 5
+  '해설 — ' total occurrences in joined: 0
+== gloss() source CORE ==
+  content12.py parts=3 :: '讲解｜to fall back （时钟）拨回 · a costume 服装、装扮 · trick or treat 不给糖就捣蛋。'
+     part: '讲解｜to fall back （时钟）拨回'
+     part: 'a costume 服装、装扮'
+     part: 'trick or treat 不给糖就捣蛋。'
+  content34.py parts=4 :: '讲解｜to open （电影）上映 · a monster 怪物 · a catchphrase 口头禅、金句 · a series 剧集。'
+     part: '讲解｜to open （电影）上映'
+     part: 'a monster 怪物'
+     part: 'a catchphrase 口头禅、金句'
+     part: 'a series 剧集。'
+  content34.py parts=4 :: '讲解｜a fixture 一场比赛（赛程） · a title 冠军头衔 · to defend （卫冕）保卫头衔 · a fan 球迷。'
+     part: '讲解｜a fixture 一场比赛（赛程）'
+     part: 'a title 冠军头衔'
+     part: 'to defend （卫冕）保卫头衔'
+     part: 'a fan 球迷。'
+  content56.py parts=3 :: '讲解｜a map （选举）地图 · too close to call 难分胜负、无法判定 · a second screen 第二块屏幕（手机）。'
+     part: '讲解｜a map （选举）地图'
+     part: 'too close to call 难分胜负、无法判定'
+     part: 'a second screen 第二块屏幕（手机）。'
+  content56.py parts=4 :: '讲解｜to register 登记（选民登记） · a governor 州长 · to shape laws 影响立法 · patience 耐心。'
+     part: '讲解｜to register 登记（选民登记）'
+     part: 'a governor 州长'
+     part: 'to shape laws 影响立法'
+     part: 'patience 耐心。'
+== gloss() source ED ==
+  content12.py parts=3 :: 'to fall back (시계) 되돌리다 · a costume 의상 · trick or treat 과자 안 주면 장난칠 거야.'
+     part: 'to fall back (시계) 되돌리다'
+     part: 'a costume 의상'
+     part: 'trick or treat 과자 안 주면 장난칠 거야.'
+  content34.py parts=4 :: 'to open (영화) 개봉하다 · a monster 괴물 · a catchphrase 유행어, 명대사 · a series 시리즈.'
+     part: 'to open (영화) 개봉하다'
+     part: 'a monster 괴물'
+     part: 'a catchphrase 유행어, 명대사'
+     part: 'a series 시리즈.'
+  content34.py parts=4 :: 'a fixture 경기(일정 속 한 경기) · a title 우승 타이틀 · to defend 타이틀 지키기 · a fan 팬.'
+     part: 'a fixture 경기(일정 속 한 경기)'
+     part: 'a title 우승 타이틀'
+     part: 'to defend 타이틀 지키기'
+     part: 'a fan 팬.'
+  content56.py parts=3 :: 'a map (선거) 지도 · too close to call 승부를 알 수 없음, 판단 불가 · a second screen 두 번째 화면(휴대전화).'
+     part: 'a map (선거) 지도'
+     part: 'too close to call 승부를 알 수 없음, 판단 불가'
+     part: 'a second screen 두 번째 화면(휴대전화).'
+  content56.py parts=4 :: 'to register 등록하다(유권자 등록) · a governor 주지사 · to shape laws 법률에 영향을 주다 · patience 인내심.'
+     part: 'to register 등록하다(유권자 등록)'
+     part: 'a governor 주지사'
+     part: 'to shape laws 법률에 영향을 주다'
+     part: 'patience 인내심.'
+== P7 golden rendered (y>=1236, phrases section) ==
+ CORE P7 '(page ' lines: 9
+   'week (page 2).'
+   'November 1. » — fall → fell (page 2).'
+   'the United States. » (page 1)'
+   '(page 2)'
+   '— that is the modern NFL. » (page 4)'
+   'morning. » (page 5)'
+   'failure of it. » (page 6)'
+   '« Not every place changes. » (page 2)'
+   'the week has seven days. » (page 4)'
+ CORE (page N) Counter: {'1': 1, '2': 4, '3': 1, '4': 2, '5': 1, '6': 2} total: 11
+ CORE P7 top English-only-after-strip lines: 70
+ ED P7 '(page ' lines: 9
+   'week (page 2).'
+   'November 1. » — fall → fell (page 2).'
+   'the United States. » (page 1)'
+   '(page 2)'
+   '— that is the modern NFL. » (page 4)'
+   'morning. » (page 5)'
+   'failure of it. » (page 6)'
+   '« Not every place changes. » (page 2)'
+   'the week has seven days. » (page 4)'
+ ED (page N) Counter: {'1': 1, '2': 4, '3': 1, '4': 2, '5': 1, '6': 2} total: 11
+ ED P7 top English-only-after-strip lines: 70
+  multiset equal to CORE: True
+== whole-book golden frequencies (normalized: join all texts, collapse ws, count non-overlapping) ==
+ CORE freqs=[3, 2, 2, 2, 2, 4, 3, 2] levels=['A2', 'A2', 'B1', 'B1', 'B2', 'B2', 'A2', 'B1'] pages=[1, 2, 3, 4, 5, 6, 2, 4]
+ ED freqs=[3, 2, 2, 2, 2, 4, 3, 2] levels=['A2', 'A2', 'B1', 'B1', 'B2', 'B2', 'A2', 'B1'] pages=[1, 2, 3, 4, 5, 6, 2, 4]
