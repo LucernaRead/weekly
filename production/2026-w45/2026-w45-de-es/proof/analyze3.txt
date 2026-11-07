@@ -1,0 +1,34 @@
+== gloss precise: gloss sentence = Nota..first period, split by · ==
+p2-leben.svg 5 ['Nota — der Tankrabatt = el descuento en la gasolina', 'die Zapfsäule = el surtidor', 'die Energiesteuer = el impuesto sobre la energía', 'die Mehrwertsteuer = el impuesto sobre el valor añadido', 'der Angehörige = el familiar.']
+  core gloss parts by · : 5 译注｜der Tankrabatt 油价减税 · die Zapfsäule 加油机 · die Energiesteuer 能 源税 · die Mehrwertsteuer 增值税 · der Angehörige 亲属。
+p3-kultur.svg 5 ['Nota — der Ferienwechsel = el cambio de vacaciones', 'die Schülerin = la alumna', 'der Ausflug = la excursión', 'der Advent = el Adviento', 'die Lesung = la lectura en público.']
+  core gloss parts by · : 5 译注｜der Ferienwechsel 假期交接 · die Schülerin 女学生 · der Ausflug 短途出游 · der Advent 将临期 · die Lesung 朗读会 。
+p4-sport.svg 5 ['Nota — die Englische Woche = la semana inglesa', 'auswärts = fuera de casa', 'empfangen = recibir en casa', 'der Favorit = el favorito', 'eröffnen = inaugurar.']
+  core gloss parts by · : 5 译注｜die Englische Woche 一周双赛 · auswärts 客场 · empfangen 主场迎战 · der Favorit 夺冠热门 · eröffnen 揭开序幕 。
+p5-jugend.svg 5 ['Nota — der Pausenhof = el patio del recreo', 'die Klassenarbeit = el examen de clase', 'das Referat = la exposición en clase', 'ausschlafen = dormir hasta tarde', 'die Probe = el ensayo.']
+  core gloss parts by · : 5 译注｜der Pausenhof 课间操场 · die Klassenarbeit 课堂测验 · das Referat 课 堂报告 · ausschlafen 睡懒觉 · die Probe 排练。
+p6-vertiefung.svg 5 ['Nota — der Angehörige = el familiar', 'die Pflegeversicherung = el seguro', 'der Pflegedienst = el servicio de cuidados', 'die Stagnation = el estancamiento', 'der Aufschwung = la recuperación.']
+  core gloss parts by · : 5 译注｜der Angehörige 亲属 · die Pflegeversicherung 护理保险 · der Pflegedienst 护理服务机构 · die Stagnation 停滞 · der Aufschwung 复苏 。
+
+== P6 chart exact labels ==
+familiares ['<text x="425" y="1504" font-family="Noto Sans CJK SC" font-size="20" fill="#57523f" text-anchor="start">familiares</text>']
+servicio ['<text x="425" y="1556" font-family="Noto Sans CJK SC" font-size="20" fill="#57523f" text-anchor="start">servicio</text>']
+residencia ['<text x="425" y="1608" font-family="Noto Sans CJK SC" font-size="20" fill="#57523f" text-anchor="start">residencia</text>']
+long absent: familiares que cuidan True
+long absent: servicio profesional True
+long absent: en una residencia True
+
+== P2 box4 / Rechnen line ==
+('65', 'Noto Sans CJK SC', 'RECHNEN WIR MAL · Hagamos cuentas')
+<line x1="65" y1="1554" x2="1885" y2="1554" stroke="#b3a06a" stroke-width="2"/>
+
+== P8 font/size/keys endpoint: grep content8 ==
+P8 font sizes: Counter({'12': 118, '19.5': 49, '20.5': 39, '24': 32, '19': 22, '18.5': 13, '23': 9, '17': 8, '21': 7, '20': 5, '21.5': 4, '36': 2, '25': 1, '26': 1})
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/de-es-proof/analyze3.py", line 44, in <module>
+    print("P8 max y text:", max(float(y) for y,_ in els), "last few:", els[-5:])
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/de-es-proof/analyze3.py", line 44, in <genexpr>
+    print("P8 max y text:", max(float(y) for y,_ in els), "last few:", els[-5:])
+                                ^^^^^^^^
+ValueError: could not convert string to float: 'Noto Sans CJK SC'

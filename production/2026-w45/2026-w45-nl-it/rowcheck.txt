@@ -1,0 +1,25 @@
+== 1. same-baseline collisions ==
+  p1-voorpagina.svg: CLEAN
+  p2-leven.svg: CLEAN
+  p3-cultuur.svg: CLEAN
+  p4-sport.svg: CLEAN
+  p5-jongeren.svg: CLEAN
+  p6-verdieping.svg: CLEAN
+  p7-taal.svg: CLEAN
+  p8-toets.svg: CLEAN
+== 2. P6 chart-label coverage ==
+  worst chart-label bbox coverage: 0.0% ('—')
+  verdict: below 30% threshold
+== 3. gloss counts (split rendered gloss strings on ·) ==
+  content12.py core 6 vs ed 6: OK
+  content34.py core 5 vs ed 5: OK
+  content34.py core 5 vs ed 5: OK
+  content56.py core 5 vs ed 5: OK
+  content56.py core 5 vs ed 5: OK
+  bridge content12.py: core '讲解｜de Klimaatweek 气候周 · de boom planten 种树 · bespa' ed 'Nota — de Klimaatweek = Settimana del clima · de b'
+  bridge content12.py: core '读第 2 版文章，选出正确答案。' ed "Leggi l'articolo a pagina 2 e scegli la risposta g"
+  bridge content12.py: core '用第 2 版的词填空。' ed 'Completa con le parole di pagina 2.'
+  bridge content12.py: core '用颜色代码和日期填空。' ed 'Completa con i codici colore e le date.'
+  bridge content7.py: core 'het klimaat 气候（长期）；een boom planten 种树；besparen 节约' ed 'het klimaat = il clima (a lungo termine); een boom'
+  bridge content7.py: core 'meedoen 参加：ik doe mee；opruimen 收拾：wij hebben opger' ed 'meedoen = partecipare: ik doe mee; opruimen = rior'
+  bridge content7.py: core 'Ik vind dat… 我认为；Volgens mij… 依我看；Het lijkt me dat' ed 'Ik vind dat… = Penso che…; Volgens mij… = Secondo '

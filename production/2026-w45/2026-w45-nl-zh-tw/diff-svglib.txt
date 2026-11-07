@@ -1,0 +1,16 @@
+8c8
+< def _sc_index(path):
+---
+> def _tc_index(path):
+12c12
+<             if f.getname()[0].endswith("SC"):
+---
+>             if f.getname()[0].endswith("TC"):
+22c22
+< _IDX = {p: _sc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
+---
+> _IDX = {p: _tc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
+84c84
+<         fam = family or ("Noto Serif CJK SC" if kind == "serif" else "Noto Sans CJK SC")
+---
+>         fam = family or ("Noto Serif CJK TC" if kind == "serif" else "Noto Sans CJK TC")

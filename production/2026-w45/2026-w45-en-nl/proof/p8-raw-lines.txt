@@ -1,0 +1,40 @@
+keys differing (full 150-key compare): [137, 138, 139, 140, 150]
+keys identical count: 145
+  137 CORE key='耐心是制度的一部分，而不是制度的失败。'
+  137 ED   key='Geduld is een deel van het systeem, geen falen van het systeem.'
+  138 CORE key='11 月 3日周二是美国的选举日。'
+  138 ED   key='Dinsdag 3 november is verkiezingsdag in de Verenigde Staten.'
+  139 CORE key='这周日，NFL 在马德里比赛。'
+  139 ED   key='Deze zondag speelt de NFL in Madrid.'
+  140 CORE key='并非每处都拨回时钟。'
+  140 ED   key='Niet elke plaats zet de klok terug.'
+  150 CORE key='开放题 — 要点见写作框，范文在第8 版写作框内'
+  150 ED   key='Open vraag — punten in het schrijfblok; voorbeeldtekst in het kader op pagina 8'
+noted core 78 ed 150 extra [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 34, 35, 36, 37, 38, 39, 40, 42, 43, 45, 46, 49, 50, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 65, 70, 72, 73, 75, 76, 77, 78, 79, 80, 81, 90, 94, 95, 96, 97, 98, 99, 101, 103, 104, 105, 106]
+missing (core noted not in ed): []
+--- CORE raw text elements mentioning 137-140/150 keys ---
+'137.'
+'138.'
+'139.'
+'140.'
+'本期不印民调与预测） · 93. C（耐心是制度的一部分） · 94.'
+'“是否”从句） · 137. 耐心是制度的一部分，而不是制度的失'
+'败。（part of 一部分；not a failure 不是失败） · 138. 11 月 3'
+'） · 139. 这周日，NFL 在马德里比赛。（on Sunday；in'
+'Madrid） · 140. 并非每处都拨回时钟。（not every 并非每处'
+'是 11 月 3 日周二） · 150. 开放题 — 要点见写作框，范文在第'
+--- CORE P8 CJK count in raw texts: 0 (use regex below)
+CJK chars total: 595
+--- ED raw text elements mentioning 137-140/150 keys ---
+'137.'
+'138.'
+'139.'
+'140.'
+'nummer drukt geen peilingen of voorspellingen) · 93. C (Geduld is'
+'een of-zin in) · 137. Geduld is een deel van het systeem, geen falen'
+'van het systeem. (part of = een deel; not a failure = geen falen) · 138.'
+'(Election Day = verkiezingsdag; on Tuesday) · 139. Deze zondag'
+'speelt de NFL in Madrid. (on Sunday = op zondag; in Madrid) · 140.'
+'(Verkiezingsdag is dinsdag 3 november) · 150. Open vraag — punten'
+--- ED P8 CJK count in raw texts: 0 (use regex below)
+CJK chars total: 0

@@ -1,0 +1,2975 @@
+{
+ "core_svg": "../files/weekly-report-w45-pt-core/svg",
+ "edition_svg": "../files/weekly-report-w45-pt-ru/svg",
+ "pages": {
+  "1": {
+   "added_strings": [
+    {
+     "text": "(воскресенье 8-го: ворота",
+     "count": 1
+    },
+    {
+     "text": "(экзамен дня 8 длится пять с",
+     "count": 1
+    },
+    {
+     "text": "12h — os portões abrem no domingo 8",
+     "count": 1
+    },
+    {
+     "text": "13h — os portões fecham (в 13h ворота",
+     "count": 1
+    },
+    {
+     "text": "13h30–19h — a prova do dia 8 (экзамен",
+     "count": 1
+    },
+    {
+     "text": "2 ноября — выходные на Финадос · 8 ноября — первый день Enem",
+     "count": 1
+    },
+    {
+     "text": "5h30 — a duração da prova do dia 8",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "A NOTÍCIA · Главная новость",
+     "count": 1
+    },
+    {
+     "text": "A SEMANA EM NÚMEROS · Цифры",
+     "count": 1
+    },
+    {
+     "text": "AGORA VOCÊ · Теперь вы",
+     "count": 1
+    },
+    {
+     "text": "EM POUCAS PALAVRAS · Коротко",
+     "count": 1
+    },
+    {
+     "text": "NESTA EDIÇÃO · В этом выпуске",
+     "count": 1
+    },
+    {
+     "text": "QUIZ RELÂMPAGO · Блиц-опрос",
+     "count": 1
+    },
+    {
+     "text": "TODA SEMANA EM PORTUGUÊS · КАЖДУЮ НЕДЕЛЮ · ПОРТУГАЛЬСКИЙ БРАЗИЛИИ",
+     "count": 1
+    },
+    {
+     "text": "«Длинные выходные»: праздник и уик-энд.",
+     "count": 1
+    },
+    {
+     "text": "НЕДЕЛЯ ENEM",
+     "count": 1
+    },
+    {
+     "text": "Опоздавших не пускают после 13h",
+     "count": 1
+    },
+    {
+     "text": "ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — feriadão = длинные",
+     "count": 1
+    },
+    {
+     "text": "Прочитайте первую полосу и выберите ответ · Ответы — страница 8",
+     "count": 1
+    },
+    {
+     "text": "Страница 1 из 8",
+     "count": 1
+    },
+    {
+     "text": "ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ",
+     "count": 1
+    },
+    {
+     "text": "ворота · a redação = сочинение · revisar =",
+     "count": 1
+    },
+    {
+     "text": "дня 8: с 13:30 до 19:00)",
+     "count": 1
+    },
+    {
+     "text": "закрываются, опоздавших не",
+     "count": 1
+    },
+    {
+     "text": "открываются в 12h)",
+     "count": 1
+    },
+    {
+     "text": "повторять.",
+     "count": 1
+    },
+    {
+     "text": "половиной часов)",
+     "count": 1
+    },
+    {
+     "text": "праздничные выходные · o portão =",
+     "count": 1
+    },
+    {
+     "text": "пускают)",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "11 月 2 日亡灵节连休 · 11 月 8 日高考第一天",
+     "count": 1
+    },
+    {
+     "text": "12h — os portões abrem no domingo 8（",
+     "count": 1
+    },
+    {
+     "text": "13:30 至 19:00）",
+     "count": 1
+    },
+    {
+     "text": "13h — os portões fecham（13 点关门，过",
+     "count": 1
+    },
+    {
+     "text": "13h30–19h — a prova do dia 8（考试",
+     "count": 1
+    },
+    {
+     "text": "5h30 — a duração da prova do dia 8（考",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "A NOTÍCIA · 头条",
+     "count": 1
+    },
+    {
+     "text": "A SEMANA EM NÚMEROS · 数字",
+     "count": 1
+    },
+    {
+     "text": "AGORA VOCÊ · 即学即练",
+     "count": 1
+    },
+    {
+     "text": "EM POUCAS PALAVRAS · 快讯",
+     "count": 1
+    },
+    {
+     "text": "NESTA EDIÇÃO · 本期目录",
+     "count": 1
+    },
+    {
+     "text": "O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL",
+     "count": 1
+    },
+    {
+     "text": "QUIZ RELÂMPAGO · 闪电问答",
+     "count": 1
+    },
+    {
+     "text": "TODA SEMANA EM PORTUGUÊS · 每周一期 · 读巴西人正在读的葡萄牙语",
+     "count": 1
+    },
+    {
+     "text": "a redação 作文 · revisar 复习。",
+     "count": 1
+    },
+    {
+     "text": "“连休”：假期连着周末，一共三天。",
+     "count": 1
+    },
+    {
+     "text": "全国高考周",
+     "count": 1
+    },
+    {
+     "text": "周日 12 点开门）",
+     "count": 1
+    },
+    {
+     "text": "时不入）",
+     "count": 1
+    },
+    {
+     "text": "第 1 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "葡 萄 牙 语 周 报 · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE",
+     "count": 1
+    },
+    {
+     "text": "讲解｜feriadão 连休长周末 · o portão 大门 ·",
+     "count": 1
+    },
+    {
+     "text": "试时长 5 小时半）",
+     "count": 1
+    },
+    {
+     "text": "读头版，选出正确答案 · 答案见第 8 版",
+     "count": 1
+    },
+    {
+     "text": "迟到不得入内：13 点后关门",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 156,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "2": {
+   "added_strings": [
+    {
+     "text": "1 и 2.",
+     "count": 1
+    },
+    {
+     "text": "19:00",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · А вы?",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · Упражнения страницы 2",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL A2 · Finados e revisão: o feriadão do Brasil · Финадос и повторение: длинные выходные Бразилии",
+     "count": 1
+    },
+    {
+     "text": "OS HORÁRIOS DO DOMINGO 8 · Расписание воскресенья 8-го",
+     "count": 1
+    },
+    {
+     "text": "PARA NÃO ERRAR · Памятка",
+     "count": 1
+    },
+    {
+     "text": "Um país, vários relógios · Одна страна, несколько часовых поясов",
+     "count": 1
+    },
+    {
+     "text": "VIDA · Жизнь",
+     "count": 1
+    },
+    {
+     "text": "crisântemo = хризантема · a missa =",
+     "count": 1
+    },
+    {
+     "text": "В вашей стране есть день памяти",
+     "count": 1
+    },
+    {
+     "text": "Ворота закрываются в 13h",
+     "count": 1
+    },
+    {
+     "text": "Ворота открываются в 12h",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 9
+    },
+    {
+     "text": "Вставьте глаголы в настоящем времени.",
+     "count": 1
+    },
+    {
+     "text": "Заполните пропуски цифрами со страниц",
+     "count": 1
+    },
+    {
+     "text": "Ответы на странице 8 · Уровни перемешаны — ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — o feriadão = длинные",
+     "count": 1
+    },
+    {
+     "text": "Прочитайте статью на странице 2 и",
+     "count": 1
+    },
+    {
+     "text": "Соедините пары",
+     "count": 1
+    },
+    {
+     "text": "Страница 2 из 8",
+     "count": 1
+    },
+    {
+     "text": "Экзамен заканчивается в",
+     "count": 1
+    },
+    {
+     "text": "Экзамен начинается в 13:30",
+     "count": 1
+    },
+    {
+     "text": "выберите правильный ответ.",
+     "count": 1
+    },
+    {
+     "text": "день? Напишите две фразы",
+     "count": 1
+    },
+    {
+     "text": "кладбище · a vela = свеча · o",
+     "count": 1
+    },
+    {
+     "text": "месса · conferir = проверять.",
+     "count": 1
+    },
+    {
+     "text": "по-португальски и пришлите в",
+     "count": 1
+    },
+    {
+     "text": "праздничные выходные · o cemitério =",
+     "count": 1
+    },
+    {
+     "text": "редакцию: лучшие появятся на",
+     "count": 1
+    },
+    {
+     "text": "странице 7.",
+     "count": 1
+    },
+    {
+     "text": "умерших? Что делают семьи в этот",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "13 点关门",
+     "count": 1
+    },
+    {
+     "text": "13:30 开考",
+     "count": 1
+    },
+    {
+     "text": "19:00 结束",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · 第 2 版练习",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL A2 · Finados e revisão: o feriadão do Brasil",
+     "count": 1
+    },
+    {
+     "text": "OS HORÁRIOS DO DOMINGO 8 · 周日时间表",
+     "count": 1
+    },
+    {
+     "text": "PARA NÃO ERRAR · 口诀",
+     "count": 1
+    },
+    {
+     "text": "Um país, vários relógios · 一个国家，几个时区",
+     "count": 1
+    },
+    {
+     "text": "VIDA · 生活",
+     "count": 1
+    },
+    {
+     "text": "cemitério 墓园 · a vela 蜡烛 · o",
+     "count": 1
+    },
+    {
+     "text": "conferir 核对。",
+     "count": 1
+    },
+    {
+     "text": "crisântemo 菊花 · a missa 弥撒 ·",
+     "count": 1
+    },
+    {
+     "text": "人们做什么？写两句寄来。",
+     "count": 1
+    },
+    {
+     "text": "周日 12 点开门",
+     "count": 1
+    },
+    {
+     "text": "在你的国家，有纪念逝者的日子吗？那天家",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 9
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "用第 1、2 版的数字填空。",
+     "count": 1
+    },
+    {
+     "text": "第 2 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "补全动词的现在时形式。",
+     "count": 1
+    },
+    {
+     "text": "译注｜o feriadão 连休长周末 · o",
+     "count": 1
+    },
+    {
+     "text": "读第 2 版文章，选出正确答案。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 177,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "3": {
+   "added_strings": [
+    {
+     "text": "(pretérito perfeito).",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "A2 → B1 · Finados: o dia da memória · День памяти",
+     "count": 1
+    },
+    {
+     "text": "CULTURA · Культура",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · А вы?",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · Упражнения страницы 3",
+     "count": 1
+    },
+    {
+     "text": "flor = цветок · acender = зажигать ·",
+     "count": 1
+    },
+    {
+     "text": "rezar = молиться · o silêncio = тишина",
+     "count": 1
+    },
+    {
+     "text": "· a lembrança = воспоминание.",
+     "count": 1
+    },
+    {
+     "text": "В вашей культуре как поминают",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 10
+    },
+    {
+     "text": "Дополните в прошедшем времени",
+     "count": 1
+    },
+    {
+     "text": "Заполните пропуски словами из рамки.",
+     "count": 1
+    },
+    {
+     "text": "Ответы на странице 8 · Уровни перемешаны — ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — o túmulo = надгробие · a",
+     "count": 1
+    },
+    {
+     "text": "Прочитайте статью на странице 3 и",
+     "count": 1
+    },
+    {
+     "text": "Составьте",
+     "count": 3
+    },
+    {
+     "text": "Составьте из слов правильные",
+     "count": 1
+    },
+    {
+     "text": "Страница 3 из 8",
+     "count": 1
+    },
+    {
+     "text": "выберите правильный ответ.",
+     "count": 1
+    },
+    {
+     "text": "по-португальски и пришлите нам.",
+     "count": 1
+    },
+    {
+     "text": "предложения.",
+     "count": 1
+    },
+    {
+     "text": "умерших? Напишите две фразы",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "A2 → B1 · Finados: o dia da memória · 亡灵节：怀念的日子",
+     "count": 1
+    },
+    {
+     "text": "CULTURA · 文化",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · 第 3 版练习",
+     "count": 1
+    },
+    {
+     "text": "acender 点燃 · rezar 祈祷 · o silêncio 寂",
+     "count": 1
+    },
+    {
+     "text": "在你的文化里，人们怎样怀念逝者？写两句",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 10
+    },
+    {
+     "text": "寄来。",
+     "count": 1
+    },
+    {
+     "text": "把词组成正确的句子。",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空。",
+     "count": 1
+    },
+    {
+     "text": "用过去时（pretérito perfeito）补全。",
+     "count": 1
+    },
+    {
+     "text": "第 3 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜o túmulo 墓碑 · a flor 花 ·",
+     "count": 1
+    },
+    {
+     "text": "读第 3 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "造句",
+     "count": 3
+    },
+    {
+     "text": "静 · a lembrança 怀念。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 153,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "4": {
+   "added_strings": [
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "A SEMANA DO FUTEBOL · Футбольная неделя",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · А вы?",
+     "count": 1
+    },
+    {
+     "text": "ESPORTE · Спорт",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · Упражнения страницы 4",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B1 · O futebol da semana · Неделя футбола",
+     "count": 1
+    },
+    {
+     "text": "volta = ответный матч · o finalista =",
+     "count": 1
+    },
+    {
+     "text": "Бразилии? Напишите две фразы",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 9
+    },
+    {
+     "text": "Вставьте правильную сравнительную",
+     "count": 1
+    },
+    {
+     "text": "Дополните предложения в прошедшем",
+     "count": 1
+    },
+    {
+     "text": "За какую команду вы болеете в Кубке",
+     "count": 1
+    },
+    {
+     "text": "Ответы на странице 8 · Уровни перемешаны — ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — a ida = первый матч · a",
+     "count": 1
+    },
+    {
+     "text": "Прочитайте статью на странице 4 и",
+     "count": 1
+    },
+    {
+     "text": "Соедините пары",
+     "count": 1
+    },
+    {
+     "text": "Страница 4 из 8",
+     "count": 1
+    },
+    {
+     "text": "времени (pretérito perfeito).",
+     "count": 1
+    },
+    {
+     "text": "выберите правильный ответ.",
+     "count": 1
+    },
+    {
+     "text": "матч · a rodada = тур.",
+     "count": 1
+    },
+    {
+     "text": "по-португальски и пришлите нам.",
+     "count": 1
+    },
+    {
+     "text": "финалист · a decisão = решающий",
+     "count": 1
+    },
+    {
+     "text": "форму из скобок.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "A SEMANA DO FUTEBOL · 足球周历",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "ESPORTE · 体育",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · 第 4 版练习",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B1 · O futebol da semana · 足球之周",
+     "count": 1
+    },
+    {
+     "text": "finalista 决赛球队 · a decisão 决战 · a",
+     "count": 1
+    },
+    {
+     "text": "rodada 轮次。",
+     "count": 1
+    },
+    {
+     "text": "你在巴西杯支持哪支球队？写两句寄来。",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 9
+    },
+    {
+     "text": "把句子补全成过去时（pretérito perfeito）。",
+     "count": 1
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "用括号里正确的比较形式填空。",
+     "count": 1
+    },
+    {
+     "text": "第 4 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜a ida 首回合 · a volta 次回合 · o",
+     "count": 1
+    },
+    {
+     "text": "读第 4 版文章，选出正确答案。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 148,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "5": {
+   "added_strings": [
+    {
+     "text": "(хорошо выспитесь накануне",
+     "count": 1
+    },
+    {
+     "text": "3. Durma bem na véspera da prova",
+     "count": 1
+    },
+    {
+     "text": "5. Domingo 8: chegue antes das 12h (в",
+     "count": 1
+    },
+    {
+     "text": "= приготовить · a cabeça = голова,",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · А вы?",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · Упражнения страницы 5",
+     "count": 1
+    },
+    {
+     "text": "Enem (проверьте карточку",
+     "count": 1
+    },
+    {
+     "text": "JOVENS · Молодёжь",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B1 · A reta final dos jovens · Последний рывок молодёжи",
+     "count": 1
+    },
+    {
+     "text": "dia anterior (заранее приготовьте",
+     "count": 1
+    },
+    {
+     "text": "maratona (повторяйте понемногу",
+     "count": 1
+    },
+    {
+     "text": "maratona = ночная зубрёжка · separar",
+     "count": 1
+    },
+    {
+     "text": "presente).",
+     "count": 1
+    },
+    {
+     "text": "Верно или нет?",
+     "count": 3
+    },
+    {
+     "text": "Внимание: одно слово нужно поставить во",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 10
+    },
+    {
+     "text": "Дополните в будущем времени (futuro do",
+     "count": 1
+    },
+    {
+     "text": "Заполните пропуски словами из рамки.",
+     "count": 1
+    },
+    {
+     "text": "Накануне важного экзамена ваш план",
+     "count": 1
+    },
+    {
+     "text": "Ответы на странице 8 · Уровни перемешаны — ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — a reta final = последний",
+     "count": 1
+    },
+    {
+     "text": "Прочитайте статью на странице 5 и",
+     "count": 1
+    },
+    {
+     "text": "Страница 5 из 8",
+     "count": 1
+    },
+    {
+     "text": "воскресенье 8-го: приходите до 12h)",
+     "count": 1
+    },
+    {
+     "text": "выберите правильный ответ.",
+     "count": 1
+    },
+    {
+     "text": "две фразы по-португальски и",
+     "count": 1
+    },
+    {
+     "text": "документ и чёрную ручку)",
+     "count": 1
+    },
+    {
+     "text": "каждый день, без зубрёжки)",
+     "count": 1
+    },
+    {
+     "text": "множественное число.",
+     "count": 1
+    },
+    {
+     "text": "подтверждения Enem)",
+     "count": 1
+    },
+    {
+     "text": "пришлите нам.",
+     "count": 1
+    },
+    {
+     "text": "рывок · a véspera = канун · a",
+     "count": 1
+    },
+    {
+     "text": "состояние.",
+     "count": 1
+    },
+    {
+     "text": "экзамена)",
+     "count": 1
+    },
+    {
+     "text": "— повторять или отдыхать? Напишите",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "3. Durma bem na véspera da prova（考",
+     "count": 1
+    },
+    {
+     "text": "5. Domingo 8: chegue antes das 12h（",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "E VOCÊ? · 说说你自己",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · 第 5 版练习",
+     "count": 1
+    },
+    {
+     "text": "Enem（核对高考确认卡）",
+     "count": 1
+    },
+    {
+     "text": "JOVENS · 青年",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B1 · A reta final dos jovens · 冲刺周：年轻人的最后一周",
+     "count": 1
+    },
+    {
+     "text": "dia anterior（提前一天备好证件和黑笔）",
+     "count": 1
+    },
+    {
+     "text": "maratona（每天复习一点，不搞突击）",
+     "count": 1
+    },
+    {
+     "text": "判断",
+     "count": 3
+    },
+    {
+     "text": "前一晚睡好）",
+     "count": 1
+    },
+    {
+     "text": "周日 8 日：12 点前到达）",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 10
+    },
+    {
+     "text": "备好 · a cabeça 头脑、状态。",
+     "count": 1
+    },
+    {
+     "text": "夕 · a maratona 突击马拉松 · separar 准",
+     "count": 1
+    },
+    {
+     "text": "用将来时（futuro do presente）补全。",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空。注意：有的词要变成复数。",
+     "count": 1
+    },
+    {
+     "text": "第 5 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜a reta final 最后冲刺 · a véspera 前",
+     "count": 1
+    },
+    {
+     "text": "读第 5 版文章，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "重要考试前一晚，你的计划是复习还是休息",
+     "count": 1
+    },
+    {
+     "text": "？写两句寄来。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 223,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "6": {
+   "added_strings": [
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "APROFUNDAMENTO · Разбор",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · Упражнения страницы 6",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B2 · O Enem explicado · Enem: объяснение",
+     "count": 1
+    },
+    {
+     "text": "O DOMINGO 8 EM NÚMEROS · Цифры воскресенья 8-го (официальное время Inep)",
+     "count": 1
+    },
+    {
+     "text": "conferir",
+     "count": 1
+    },
+    {
+     "text": "portões · segunda chamada · local ·",
+     "count": 1
+    },
+    {
+     "text": "segunda chamada = пересдача,",
+     "count": 1
+    },
+    {
+     "text": "· a correria = спешка.",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 8
+    },
+    {
+     "text": "Вставьте правильную форму глагола по",
+     "count": 1
+    },
+    {
+     "text": "Заполните пропуски словами из рамки:",
+     "count": 1
+    },
+    {
+     "text": "Ответы на странице 8 · Уровни перемешаны — ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "Посмотрите на две диаграммы выше и",
+     "count": 1
+    },
+    {
+     "text": "Пояснение — os portões = ворота · a",
+     "count": 1
+    },
+    {
+     "text": "Страница 6 из 8",
+     "count": 1
+    },
+    {
+     "text": "выберите правильный ответ.",
+     "count": 1
+    },
+    {
+     "text": "повторный вход · conferir = проверять",
+     "count": 1
+    },
+    {
+     "text": "смыслу предложения.",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "APROFUNDAMENTO · 深读",
+     "count": 1
+    },
+    {
+     "text": "EXERCÍCIOS · 第 6 版练习",
+     "count": 1
+    },
+    {
+     "text": "NÍVEL B2 · O Enem explicado · 高考详解",
+     "count": 1
+    },
+    {
+     "text": "O DOMINGO 8 EM NÚMEROS · 11 月 8 日的数字 (horários oficiais do Inep)",
+     "count": 1
+    },
+    {
+     "text": "chamada · local · conferir",
+     "count": 1
+    },
+    {
+     "text": "chamada 补考、第二次入场 · conferir 核",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 8
+    },
+    {
+     "text": "对 · a correria 匆忙。",
+     "count": 1
+    },
+    {
+     "text": "根据句子意思，补全正确的动词形式。",
+     "count": 1
+    },
+    {
+     "text": "用方框里的词填空：portões · segunda",
+     "count": 1
+    },
+    {
+     "text": "看上面两张图，选出正确答案。",
+     "count": 1
+    },
+    {
+     "text": "第 6 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "答案见第 8 版 · 题目可跨级混排，按题号找答案",
+     "count": 1
+    },
+    {
+     "text": "译注｜os portões 大门 · a segunda",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 118,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "7": {
+   "added_strings": [
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "A PALAVRA · Слово недели",
+     "count": 1
+    },
+    {
+     "text": "A PRÓXIMA SEMANA · На следующей неделе (VOL.3)",
+     "count": 1
+    },
+    {
+     "text": "ERROS COMUNS · Частые ошибки",
+     "count": 1
+    },
+    {
+     "text": "FRASES DA SEMANA · Фразы недели (дословно из статей номера)",
+     "count": 1
+    },
+    {
+     "text": "LÍNGUA · Язык",
+     "count": 1
+    },
+    {
+     "text": "Três níveis, três ferramentas · Три уровня, три инструмента",
+     "count": 1
+    },
+    {
+     "text": "chegar (гипотезы о воскресенье).",
+     "count": 1
+    },
+    {
+     "text": "dormir в прошлом времени — с ударением.",
+     "count": 1
+    },
+    {
+     "text": "feriadão = длинные выходные, три дня.",
+     "count": 1
+    },
+    {
+     "text": "onde fica спрашивает о месте; conferir",
+     "count": 1
+    },
+    {
+     "text": "revisar правильный (revisei); chegar и",
+     "count": 1
+    },
+    {
+     "text": "Без ночной зубрёжки — выспитесь.",
+     "count": 1
+    },
+    {
+     "text": "В 13h ворота закрыты — поздно.",
+     "count": 1
+    },
+    {
+     "text": "Вопросы: que horas (который час) + глагол;",
+     "count": 1
+    },
+    {
+     "text": "Вставьте",
+     "count": 9
+    },
+    {
+     "text": "Каждое очко — место в таблице, каждый гол — история. (Страница 4)",
+     "count": 1
+    },
+    {
+     "text": "Многие путешествуют, навещают семью и несут цветы на кладбище. (Страница 1)",
+     "count": 1
+    },
+    {
+     "text": "Неделю рассказываем в pretérito perfeito;",
+     "count": 1
+    },
+    {
+     "text": "От длинных выходных — к экзамену: неделя Enem. (Страница 1)",
+     "count": 1
+    },
+    {
+     "text": "Помнить — значит оставаться рядом. (Страница 3)",
+     "count": 1
+    },
+    {
+     "text": "После quando, se и quem будущее требует",
+     "count": 1
+    },
+    {
+     "text": "Пример редакции — не письмо.",
+     "count": 1
+    },
+    {
+     "text": "Примечание: настоящих писем и лучших",
+     "count": 1
+    },
+    {
+     "text": "Присылайте письма: лучшие в VOL.3!",
+     "count": 1
+    },
+    {
+     "text": "Проверьте карточку, выспитесь, приходите рано. (Страница 2)",
+     "count": 1
+    },
+    {
+     "text": "С 31 октября по 2 ноября — три дня.",
+     "count": 1
+    },
+    {
+     "text": "Сначала лёгкие, потом трудные. (Страница 6)",
+     "count": 1
+    },
+    {
+     "text": "Страница 7 из 8",
+     "count": 1
+    },
+    {
+     "text": "Только чёрная ручка, синяя — нет.",
+     "count": 1
+    },
+    {
+     "text": "Финадос — день памяти. (Страница 2)",
+     "count": 1
+    },
+    {
+     "text": "Хорошо выспишься — лучше запомнишь. (Страница 5)",
+     "count": 1
+    },
+    {
+     "text": "неправилен в форме eu: confiro.",
+     "count": 1
+    },
+    {
+     "text": "обещание — в VOL.3.",
+     "count": 1
+    },
+    {
+     "text": "сослагательного наклонения: tiver, for,",
+     "count": 1
+    },
+    {
+     "text": "текстов из VOL.1 нет. Пример остаётся,",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "13 点关门，13:30 到就晚了。",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "A PALAVRA · 本周生词",
+     "count": 1
+    },
+    {
+     "text": "A PRÓXIMA SEMANA · 下期预告 (VOL.3)",
+     "count": 1
+    },
+    {
+     "text": "ERROS COMUNS · 常见错误",
+     "count": 1
+    },
+    {
+     "text": "FRASES DA SEMANA · 本周金句（逐字摘自本期文章）",
+     "count": 1
+    },
+    {
+     "text": "LÍNGUA · 语言",
+     "count": 1
+    },
+    {
+     "text": "feriadão = 连休长周末，共三天。",
+     "count": 1
+    },
+    {
+     "text": "for、chegar（周日假设）。",
+     "count": 1
+    },
+    {
+     "text": "quando、se、quem 后用虚拟式将来：tiver、",
+     "count": 1
+    },
+    {
+     "text": "revisar 规则（revisei）；chegar/dormir 的过",
+     "count": 1
+    },
+    {
+     "text": "亡灵节是怀念的日子。 (Página 2)",
+     "count": 1
+    },
+    {
+     "text": "从连休到考试：高考周。 (Página 1)",
+     "count": 1
+    },
+    {
+     "text": "先做容易的，再做难的。 (Página 6)",
+     "count": 1
+    },
+    {
+     "text": "去时注意重音。",
+     "count": 1
+    },
+    {
+     "text": "填空",
+     "count": 9
+    },
+    {
+     "text": "怀念是继续亲近的方式。 (Página 3)",
+     "count": 1
+    },
+    {
+     "text": "截稿时未收到，本期仍刊示例，顺延至下期。",
+     "count": 1
+    },
+    {
+     "text": "提问句：que horas（几点）+ 动词；onde fica",
+     "count": 1
+    },
+    {
+     "text": "核对确认卡、睡好、早到。 (Página 2)",
+     "count": 1
+    },
+    {
+     "text": "每一分值一个名次，每一球值一个故事。 (Página 4)",
+     "count": 1
+    },
+    {
+     "text": "睡得好，记得牢。 (Página 5)",
+     "count": 1
+    },
+    {
+     "text": "第 7 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "编辑部示例，非真实来信。真实来信请寄编",
+     "count": 1
+    },
+    {
+     "text": "编辑部说明：上期承诺的真实来信与最佳作文",
+     "count": 1
+    },
+    {
+     "text": "考前一夜突击没用，睡好才记得住。",
+     "count": 1
+    },
+    {
+     "text": "聚焦语言 · Três níveis, três ferramentas · 三个级别，三件工具",
+     "count": 1
+    },
+    {
+     "text": "讲一周的事用过去时（pretérito perfeito）；",
+     "count": 1
+    },
+    {
+     "text": "许多人旅行、探亲、去墓园献花。 (Página 1)",
+     "count": 1
+    },
+    {
+     "text": "辑部，下期见！",
+     "count": 1
+    },
+    {
+     "text": "连休是 10 月 31 日到 11 月 2 日，共三天。",
+     "count": 1
+    },
+    {
+     "text": "问地点；conferir 的 eu 形式不规则：confiro",
+     "count": 1
+    },
+    {
+     "text": "高考用黑笔，蓝笔不行。",
+     "count": 1
+    }
+   ],
+   "cjk_core_total": 357,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  },
+  "8": {
+   "added_strings": [
+    {
+     "text": "1. feriadão — feriadão = длинные праздничные выходные",
+     "count": 1
+    },
+    {
+     "text": "10. B — Ответные матчи — 7-го и 8-го",
+     "count": 1
+    },
+    {
+     "text": "100. Confira — повелительное наклонение: confira",
+     "count": 1
+    },
+    {
+     "text": "101. confiro — conferir: eu → confiro (неправильная форма)",
+     "count": 1
+    },
+    {
+     "text": "102. confere — conferir: você → confere",
+     "count": 1
+    },
+    {
+     "text": "103. começa — começar: ela → começa",
+     "count": 1
+    },
+    {
+     "text": "104. B — onde спрашивает о месте",
+     "count": 1
+    },
+    {
+     "text": "105. revisei — revisar, прошлое время: revisei",
+     "count": 1
+    },
+    {
+     "text": "106. chegou — chegar, прошлое время: chegou",
+     "count": 1
+    },
+    {
+     "text": "107. dormiu — dormir, прошлое время: dormiu",
+     "count": 1
+    },
+    {
+     "text": "108. B — chegaram — прошлое время, множественное число, от",
+     "count": 1
+    },
+    {
+     "text": "109. tiver — quem + будущее сослагательное: tiver",
+     "count": 1
+    },
+    {
+     "text": "11. B — Длинные выходные — с 31 октября по 2 ноября",
+     "count": 1
+    },
+    {
+     "text": "110. chegar — quando + будущее сослагательное: chegar",
+     "count": 1
+    },
+    {
+     "text": "111. for — se + будущее сослагательное от ser: for",
+     "count": 1
+    },
+    {
+     "text": "112. B — quando + будущее → будущее сослагательное for",
+     "count": 1
+    },
+    {
+     "text": "113. A — День 1 — 8 ноября",
+     "count": 1
+    },
+    {
+     "text": "114. B — Ворота закрываются в 13h",
+     "count": 1
+    },
+    {
+     "text": "115. A — Экзамен начинается в 13:30",
+     "count": 1
+    },
+    {
+     "text": "116. A — Финадос — 2 ноября",
+     "count": 1
+    },
+    {
+     "text": "117. B — Ответный матч «Васко» × «Палмейрас» — 8-го",
+     "count": 1
+    },
+    {
+     "text": "118. B — Длинные выходные — всего 3 дня",
+     "count": 1
+    },
+    {
+     "text": "119. A — Экзамен длится пять с половиной часов",
+     "count": 1
+    },
+    {
+     "text": "12. B — На Финадос семьи идут на кладбище с цветами",
+     "count": 1
+    },
+    {
+     "text": "120. B — День 2 — 15 ноября",
+     "count": 1
+    },
+    {
+     "text": "121. B — Длинные выходные — с 31 октября по 2 ноября",
+     "count": 1
+    },
+    {
+     "text": "122. B — Карточка подтверждения — документ Enem",
+     "count": 1
+    },
+    {
+     "text": "123. B — Ответный матч «Атлетико Минейро» × «Гремио» — на",
+     "count": 1
+    },
+    {
+     "text": "124. B — В 34-м туре матчи идут с понедельника по пятницу",
+     "count": 1
+    },
+    {
+     "text": "125. B — На Финадос семьи несут цветы",
+     "count": 1
+    },
+    {
+     "text": "126. B — Хэллоуин был в субботу, 31 октября",
+     "count": 1
+    },
+    {
+     "text": "127. A — 330 — это минуты экзамена",
+     "count": 1
+    },
+    {
+     "text": "128. A — Финадос называют также Днём усопших верных",
+     "count": 1
+    },
+    {
+     "text": "129. B — Лукас живёт в Белу-Оризонти",
+     "count": 1
+    },
+    {
+     "text": "13. B — Карточка подтверждения показывает место экзамена",
+     "count": 1
+    },
+    {
+     "text": "130. B — В выходные он отдыхает и повторяет понемногу",
+     "count": 1
+    },
+    {
+     "text": "131. B — Накануне он готовит документ и чёрную ручку и рано",
+     "count": 1
+    },
+    {
+     "text": "132. B — Он приходит на место экзамена в 11h",
+     "count": 1
+    },
+    {
+     "text": "133. Domingo é dia de prova. — Слово времени — первым",
+     "count": 1
+    },
+    {
+     "text": "134. O candidato confere o cartão no aplicativo. — Подлежащее +",
+     "count": 1
+    },
+    {
+     "text": "135. Que horas começa a prova? — Вопросительное",
+     "count": 1
+    },
+    {
+     "text": "136. O Brasil lembra os seus mortos. — Подлежащее + глагол +",
+     "count": 1
+    },
+    {
+     "text": "137. Воскресенье, 8 ноября, — первый день Enem. — См.",
+     "count": 1
+    },
+    {
+     "text": "138. Проверьте карточку подтверждения до воскресенья. —",
+     "count": 1
+    },
+    {
+     "text": "14. B — Ворота закрываются в 13h",
+     "count": 1
+    },
+    {
+     "text": "140. Quando você chegar, apresente o documento com foto. —",
+     "count": 1
+    },
+    {
+     "text": "141. b — feriadão = праздник, слившийся с выходными (b)",
+     "count": 1
+    },
+    {
+     "text": "142. d — portão = вход на место экзамена (d)",
+     "count": 1
+    },
+    {
+     "text": "143. a — reta final = последняя неделя перед экзаменом (a)",
+     "count": 1
+    },
+    {
+     "text": "144. c — segunda chamada = повторный вход после закрытия (в",
+     "count": 1
+    },
+    {
+     "text": "145. B — documento com foto = документ с фотографией",
+     "count": 1
+    },
+    {
+     "text": "146. A — seção = экзаменационный сектор (аудитория)",
+     "count": 1
+    },
+    {
+     "text": "147. B — Ворота закрываются в 13h",
+     "count": 1
+    },
+    {
+     "text": "148. A — Экзамен начинается в 13:30",
+     "count": 1
+    },
+    {
+     "text": "149. B — obrigado = спасибо",
+     "count": 1
+    },
+    {
+     "text": "15. A — В Бразилии нет летнего времени: часы не переводят",
+     "count": 1
+    },
+    {
+     "text": "150. ✓ Образец — в разделе H этой страницы (93 слова)",
+     "count": 1
+    },
+    {
+     "text": "16. confere — conferir: ele → confere",
+     "count": 1
+    },
+    {
+     "text": "17. abre — abrir: ele → abre",
+     "count": 1
+    },
+    {
+     "text": "18. levamos — levar: nós → levamos",
+     "count": 1
+    },
+    {
+     "text": "19. começa — começar: ela → começa",
+     "count": 1
+    },
+    {
+     "text": "2. portões — portões = ворота (ворота экзаменационного центра)",
+     "count": 1
+    },
+    {
+     "text": "20. é — ser, настоящее время, форма ela: é",
+     "count": 1
+    },
+    {
+     "text": "21. 1 — С 12h до 13h = 1 час",
+     "count": 1
+    },
+    {
+     "text": "22. 5 — С 13:30 до 19:00 = пять с половиной часов",
+     "count": 1
+    },
+    {
+     "text": "23. 330 — 5×60 + 30 = 330 минут",
+     "count": 1
+    },
+    {
+     "text": "24. 3 — 31-е, 1-е, 2-е = 3 дня",
+     "count": 1
+    },
+    {
+     "text": "25. c — feriadão = праздник, слившийся с выходными (c)",
+     "count": 1
+    },
+    {
+     "text": "26. b — cemitério = место, где стоят надгробия (b)",
+     "count": 1
+    },
+    {
+     "text": "27. d — vela = то, что зажигают в память (d)",
+     "count": 1
+    },
+    {
+     "text": "28. a — crisântemo = цветок, который несут на Финадос (a)",
+     "count": 1
+    },
+    {
+     "text": "29. B — Финадос — день воспоминаний и тишины",
+     "count": 1
+    },
+    {
+     "text": "3. redação — redação = сочинение",
+     "count": 1
+    },
+    {
+     "text": "30. B — Семьи несут цветы на кладбище, прежде всего",
+     "count": 1
+    },
+    {
+     "text": "31. B — В церквях и на кладбищах мессы идут весь день",
+     "count": 1
+    },
+    {
+     "text": "32. C — Хэллоуин был в субботу, 31 октября",
+     "count": 1
+    },
+    {
+     "text": "33. A — Воспоминание — способ оставаться рядом",
+     "count": 1
+    },
+    {
+     "text": "34. túmulo — túmulo = надгробие",
+     "count": 1
+    },
+    {
+     "text": "35. vela — vela = свеча",
+     "count": 1
+    },
+    {
+     "text": "36. crisântemo — crisântemo = хризантема",
+     "count": 1
+    },
+    {
+     "text": "37. missa — missa = месса",
+     "count": 1
+    },
+    {
+     "text": "38. silêncio — silêncio = тишина",
+     "count": 1
+    },
+    {
+     "text": "39. lembrança — lembrança = воспоминание",
+     "count": 1
+    },
+    {
+     "text": "4. 13h30 — 13h30: экзамен начинается (время Бразилиа)",
+     "count": 1
+    },
+    {
+     "text": "40. visitaram — visitar, прошлое время, форма elas: visitaram",
+     "count": 1
+    },
+    {
+     "text": "41. levaram — levar, прошлое время, форма elas: levaram",
+     "count": 1
+    },
+    {
+     "text": "42. foi — ser, прошлое время, форма ele: foi",
+     "count": 1
+    },
+    {
+     "text": "43. viveu — viver, прошлое время, форма ele: viveu",
+     "count": 1
+    },
+    {
+     "text": "44. Finados é um dia de silêncio. — Подлежащее + é + сказуемое",
+     "count": 1
+    },
+    {
+     "text": "45. As famílias levam flores ao cemitério. — Подлежащее + глагол +",
+     "count": 1
+    },
+    {
+     "text": "46. O Brasil lembra os seus mortos. — Подлежащее + глагол +",
+     "count": 1
+    },
+    {
+     "text": "47. A — Ответный матч «Атлетико Минейро» × «Гремио» — в",
+     "count": 1
+    },
+    {
+     "text": "48. B — Ответный матч «Васко» × «Палмейрас» — в воскресенье",
+     "count": 1
+    },
+    {
+     "text": "49. A — Первые матчи были в воскресенье, 1 ноября",
+     "count": 1
+    },
+    {
+     "text": "5. 19h — 19h: экзамен заканчивается",
+     "count": 1
+    },
+    {
+     "text": "50. B — В 34-м туре матчи идут с понедельника по пятницу",
+     "count": 1
+    },
+    {
+     "text": "51. A — Победитель по сумме двух матчей выходит в финал",
+     "count": 1
+    },
+    {
+     "text": "52. b — finalista = команда, вышедшая в финал (b)",
+     "count": 1
+    },
+    {
+     "text": "53. c — ida = первый матч противостояния (c)",
+     "count": 1
+    },
+    {
+     "text": "54. a — volta = второй матч противостояния (a)",
+     "count": 1
+    },
+    {
+     "text": "55. d — rodada = тур матчей (d)",
+     "count": 1
+    },
+    {
+     "text": "56. mais — Ответный матч решает финалистов: mais",
+     "count": 1
+    },
+    {
+     "text": "57. mais — 18 > 16: mais",
+     "count": 1
+    },
+    {
+     "text": "58. mais — 17 < 18: mais cedo",
+     "count": 1
+    },
+    {
+     "text": "59. mais — 34-й тур идёт с понедельника по пятницу: mais",
+     "count": 1
+    },
+    {
+     "text": "6. revisam — revisar, настоящее время, форма eles: revisam",
+     "count": 1
+    },
+    {
+     "text": "60. foram — ser, прошлое время, множественное число: foram",
+     "count": 1
+    },
+    {
+     "text": "61. recebeu — receber, прошлое время, форма ele: recebeu",
+     "count": 1
+    },
+    {
+     "text": "62. recebeu — receber, прошлое время, форма ele: recebeu",
+     "count": 1
+    },
+    {
+     "text": "63. começou — começar, прошлое время, форма ela: começou",
+     "count": 1
+    },
+    {
+     "text": "64. chegaram — chegar, прошлое время, форма eles: chegaram",
+     "count": 1
+    },
+    {
+     "text": "65. B — Последний рывок заканчивается в воскресенье, 8 ноября",
+     "count": 1
+    },
+    {
+     "text": "66. B — Повторяйте понемногу каждый день",
+     "count": 1
+    },
+    {
+     "text": "67. A — Заранее приготовьте документ и чёрную ручку",
+     "count": 1
+    },
+    {
+     "text": "68. B — День 2: естественные науки и математика",
+     "count": 1
+    },
+    {
+     "text": "69. B — Во вторник 3-го собрания штатов возвращаются с",
+     "count": 1
+    },
+    {
+     "text": "7. B — Длинные выходные — с 31 октября по 2 ноября",
+     "count": 1
+    },
+    {
+     "text": "70. reta final — reta final = последний рывок",
+     "count": 1
+    },
+    {
+     "text": "71. inscritos — inscrito во множественном числе: inscritos",
+     "count": 1
+    },
+    {
+     "text": "72. véspera — véspera = канун",
+     "count": 1
+    },
+    {
+     "text": "73. maratona — maratona = ночная зубрёжка",
+     "count": 1
+    },
+    {
+     "text": "74. local — local = место",
+     "count": 1
+    },
+    {
+     "text": "75. Separe — separar, повелительное наклонение: separe",
+     "count": 1
+    },
+    {
+     "text": "76. farão — fazer, будущее время, неправильная форма eles: farão",
+     "count": 1
+    },
+    {
+     "text": "77. mostrará — mostrar, будущее время: mostrará",
+     "count": 1
+    },
+    {
+     "text": "78. sairão — sair, будущее время, множественное число: sairão",
+     "count": 1
+    },
+    {
+     "text": "79. chegará — chegar, будущее время: chegará",
+     "count": 1
+    },
+    {
+     "text": "8-го в 17h, на «Сан-Жануарио»",
+     "count": 1
+    },
+    {
+     "text": "8. B — Ворота закрываются в 13h",
+     "count": 1
+    },
+    {
+     "text": "80. Verdadeiro — Карточка подтверждения показывает место",
+     "count": 1
+    },
+    {
+     "text": "81. Falso — Неверно: зубрёжка накануне — плохой план, лучше",
+     "count": 1
+    },
+    {
+     "text": "82. Verdadeiro — Верно: с 13:30 до 19:00",
+     "count": 1
+    },
+    {
+     "text": "83. B — Ворота открыты 60 минут",
+     "count": 1
+    },
+    {
+     "text": "84. A — Между закрытием и началом экзамена — 30 минут",
+     "count": 1
+    },
+    {
+     "text": "85. B — Экзамен длится 330 минут",
+     "count": 1
+    },
+    {
+     "text": "87. C — С полудня до 19h = 7 часов",
+     "count": 1
+    },
+    {
+     "text": "88. A — Цифры диаграммы — официальное время Inep",
+     "count": 1
+    },
+    {
+     "text": "89. B — Enem проходит в два воскресенья: 8-го и 15-го",
+     "count": 1
+    },
+    {
+     "text": "9. C — День 1: сочинение, языки и гуманитарные науки",
+     "count": 1
+    },
+    {
+     "text": "90. B — День 1: сочинение, языки и гуманитарные науки",
+     "count": 1
+    },
+    {
+     "text": "91. B — Пришедших после 13h не пускают",
+     "count": 1
+    },
+    {
+     "text": "92. B — Карточка подтверждения показывает место экзамена",
+     "count": 1
+    },
+    {
+     "text": "93. começará — будущее время: começará",
+     "count": 1
+    },
+    {
+     "text": "94. chegar — quem + будущее сослагательное: chegar",
+     "count": 1
+    },
+    {
+     "text": "95. fecham — настоящее время: fecham",
+     "count": 1
+    },
+    {
+     "text": "96. pede — настоящее время: pede",
+     "count": 1
+    },
+    {
+     "text": "97. portões — portões = ворота",
+     "count": 1
+    },
+    {
+     "text": "98. segunda chamada — segunda chamada = пересдача,",
+     "count": 1
+    },
+    {
+     "text": "99. local — local = место",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · ПОРТУГАЛЬСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ПОРТУГАЛЬСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ",
+     "count": 1
+    },
+    {
+     "text": "AVALIAÇÃO E RESPOSTAS · Тест и ответы",
+     "count": 1
+    },
+    {
+     "text": "Confira = проверьте",
+     "count": 1
+    },
+    {
+     "text": "Enem его нет) (c)",
+     "count": 1
+    },
+    {
+     "text": "RESPOSTAS · Ответы — по страницам: ищите по номеру задания",
+     "count": 1
+    },
+    {
+     "text": "___",
+     "count": 1
+    },
+    {
+     "text": "chegar",
+     "count": 1
+    },
+    {
+     "text": "«Арене MRV»",
+     "count": 1
+    },
+    {
+     "text": "«Длинные выходные — с 31 октября по 2 ноября». → ___",
+     "count": 1
+    },
+    {
+     "text": "Задание без единственного правильного",
+     "count": 1
+    },
+    {
+     "text": "К каждому ответу — короткое пояснение · ✓ — задание с образцом текста",
+     "count": 1
+    },
+    {
+     "text": "Когда вы придёте, покажите документ с фотографией. →",
+     "count": 1
+    },
+    {
+     "text": "Напишите",
+     "count": 1
+    },
+    {
+     "text": "Переведите",
+     "count": 4
+    },
+    {
+     "text": "СТРАНИЦА 8 · Большой тест недели + все ответы",
+     "count": 1
+    },
+    {
+     "text": "Соедините пары",
+     "count": 1
+    },
+    {
+     "text": "Составьте",
+     "count": 4
+    },
+    {
+     "text": "Страница 8 из 8",
+     "count": 1
+    },
+    {
+     "text": "будущее сослагательное chegar + повелительное apresente",
+     "count": 1
+    },
+    {
+     "text": "глагол + дополнение + место",
+     "count": 1
+    },
+    {
+     "text": "длинные выходные",
+     "count": 1
+    },
+    {
+     "text": "дополнение",
+     "count": 2
+    },
+    {
+     "text": "дополнение + место",
+     "count": 1
+    },
+    {
+     "text": "заголовок страницы 6",
+     "count": 1
+    },
+    {
+     "text": "каждый день",
+     "count": 1
+    },
+    {
+     "text": "каникул",
+     "count": 1
+    },
+    {
+     "text": "ложится",
+     "count": 1
+    },
+    {
+     "text": "ожидания",
+     "count": 1
+    },
+    {
+     "text": "ответа; образец текста (93 слова) — ниже.",
+     "count": 1
+    },
+    {
+     "text": "повторный вход",
+     "count": 1
+    },
+    {
+     "text": "повторять понемногу каждый день",
+     "count": 1
+    },
+    {
+     "text": "словосочетание — первым",
+     "count": 1
+    },
+    {
+     "text": "субботу 7-го в 18h",
+     "count": 1
+    },
+    {
+     "text": "хризантемы",
+     "count": 1
+    },
+    {
+     "text": "экзамена",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 1 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 2 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 3 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 4 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 5 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 6 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 7 —",
+     "count": 1
+    },
+    {
+     "text": "— СТРАНИЦА 8 —",
+     "count": 1
+    }
+   ],
+   "removed_strings": [
+    {
+     "text": "1. feriadão — feriadão = 连休长周末",
+     "count": 1
+    },
+    {
+     "text": "10. B — 次回合在 7 日和 8 日",
+     "count": 1
+    },
+    {
+     "text": "100. Confira — 祈使式：confira",
+     "count": 1
+    },
+    {
+     "text": "101. confiro — conferir：eu → confiro（不规则）",
+     "count": 1
+    },
+    {
+     "text": "102. confere — conferir：você → confere",
+     "count": 1
+    },
+    {
+     "text": "103. começa — começar：ela → começa",
+     "count": 1
+    },
+    {
+     "text": "104. B — onde 问地点",
+     "count": 1
+    },
+    {
+     "text": "105. revisei — revisar 过去时：revisei",
+     "count": 1
+    },
+    {
+     "text": "106. chegou — chegar 过去时：chegou",
+     "count": 1
+    },
+    {
+     "text": "107. dormiu — dormir 过去时：dormiu",
+     "count": 1
+    },
+    {
+     "text": "108. B — chegaram 是 chegar 的过去时复数",
+     "count": 1
+    },
+    {
+     "text": "109. tiver — quem + 虚拟式将来：tiver",
+     "count": 1
+    },
+    {
+     "text": "11. B — 连休从 10 月 31 日到 11 月 2 日",
+     "count": 1
+    },
+    {
+     "text": "110. chegar — quando + 虚拟式将来：chegar",
+     "count": 1
+    },
+    {
+     "text": "111. for — se + ser 的虚拟式将来：for",
+     "count": 1
+    },
+    {
+     "text": "112. B — quando + 未来 → 虚拟式将来 for",
+     "count": 1
+    },
+    {
+     "text": "113. A — 第 1 天在 11 月 8 日",
+     "count": 1
+    },
+    {
+     "text": "114. B — 13 点关门",
+     "count": 1
+    },
+    {
+     "text": "115. A — 13:30 开考",
+     "count": 1
+    },
+    {
+     "text": "116. A — 亡灵节在 11 月 2 日",
+     "count": 1
+    },
+    {
+     "text": "117. B — 瓦斯科 × 帕尔梅拉斯次回合在 8 日",
+     "count": 1
+    },
+    {
+     "text": "118. B — 连休共 3 天",
+     "count": 1
+    },
+    {
+     "text": "119. A — 考试时长 5 个半小时",
+     "count": 1
+    },
+    {
+     "text": "12. B — 亡灵节家人们去墓园献花",
+     "count": 1
+    },
+    {
+     "text": "120. B — 第 2 天在 11 月 15 日",
+     "count": 1
+    },
+    {
+     "text": "121. B — 连休从 10 月 31 日到 11 月 2 日",
+     "count": 1
+    },
+    {
+     "text": "122. B — 确认卡是高考的文件",
+     "count": 1
+    },
+    {
+     "text": "123. B — 米内罗竞技 × 格雷米奥次回合在 MRV 竞技场",
+     "count": 1
+    },
+    {
+     "text": "124. B — 第 34 轮周一到周五都有比赛",
+     "count": 1
+    },
+    {
+     "text": "125. B — 亡灵节家人们带花",
+     "count": 1
+    },
+    {
+     "text": "126. B — 万圣节在 10 月 31 日周六",
+     "count": 1
+    },
+    {
+     "text": "127. A — 330 是考试的分钟数",
+     "count": 1
+    },
+    {
+     "text": "128. A — 亡灵节又称诸圣灵魂日",
+     "count": 1
+    },
+    {
+     "text": "129. B — 卢卡斯住在贝洛奥里藏特",
+     "count": 1
+    },
+    {
+     "text": "13. B — 确认卡显示考试地点",
+     "count": 1
+    },
+    {
+     "text": "130. B — 连休里他休息并每天复习一点",
+     "count": 1
+    },
+    {
+     "text": "131. B — 前一晚他备好证件和黑笔、早睡",
+     "count": 1
+    },
+    {
+     "text": "132. B — 他 11 点到达考场",
+     "count": 1
+    },
+    {
+     "text": "133. Domingo é dia de prova. — 时间词在前",
+     "count": 1
+    },
+    {
+     "text": "134. O candidato confere o cartão no aplicativo. — 主语 + 动词 + 宾",
+     "count": 1
+    },
+    {
+     "text": "135. Que horas começa a prova? — 疑问词组在句首",
+     "count": 1
+    },
+    {
+     "text": "136. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语",
+     "count": 1
+    },
+    {
+     "text": "137. 11 月 8 日周日是高考的第一天。 — 对照第 6 版标题",
+     "count": 1
+    },
+    {
+     "text": "138. 周日前核对确认卡。 — Confira = 请核对",
+     "count": 1
+    },
+    {
+     "text": "14. B — 13 点关门",
+     "count": 1
+    },
+    {
+     "text": "140. Quando você chegar, apresente o documento com foto. — 虚",
+     "count": 1
+    },
+    {
+     "text": "141. b — feriadão=连着周末的假期 b",
+     "count": 1
+    },
+    {
+     "text": "142. d — portão=考场入口 d",
+     "count": 1
+    },
+    {
+     "text": "143. a — reta final=考前最后一周 a",
+     "count": 1
+    },
+    {
+     "text": "144. c — segunda chamada=关门后的再入场（高考没有） c",
+     "count": 1
+    },
+    {
+     "text": "145. B — documento com foto 带照片的证件",
+     "count": 1
+    },
+    {
+     "text": "146. A — seção = 考场分区（房间）",
+     "count": 1
+    },
+    {
+     "text": "147. B — 大门 13 点关闭",
+     "count": 1
+    },
+    {
+     "text": "148. A — 考试 13:30 开始",
+     "count": 1
+    },
+    {
+     "text": "149. B — obrigado = 谢谢",
+     "count": 1
+    },
+    {
+     "text": "15. A — 巴西没有夏令时，钟表不动",
+     "count": 1
+    },
+    {
+     "text": "150. ✓ 范文见本版 H 区（93 词）",
+     "count": 1
+    },
+    {
+     "text": "16. confere — conferir：ele → confere",
+     "count": 1
+    },
+    {
+     "text": "17. abre — abrir：ele → abre",
+     "count": 1
+    },
+    {
+     "text": "18. levamos — levar：nós → levamos",
+     "count": 1
+    },
+    {
+     "text": "19. começa — começar：ela → começa",
+     "count": 1
+    },
+    {
+     "text": "2. portões — portões = 大门（考场大门）",
+     "count": 1
+    },
+    {
+     "text": "20. é — ser 现在时 ela 形式：é",
+     "count": 1
+    },
+    {
+     "text": "21. 1 — 12 点到 13 点 = 1 小时",
+     "count": 1
+    },
+    {
+     "text": "22. 5 — 13:30 至 19:00 = 5 个半小时",
+     "count": 1
+    },
+    {
+     "text": "23. 330 — 5×60 + 30 = 330 分钟",
+     "count": 1
+    },
+    {
+     "text": "24. 3 — 31 日、1 日、2 日 = 3 天",
+     "count": 1
+    },
+    {
+     "text": "25. c — feriadão=连着周末的假期 c",
+     "count": 1
+    },
+    {
+     "text": "26. b — cemitério=墓碑所在的地方 b",
+     "count": 1
+    },
+    {
+     "text": "27. d — vela=点亮纪念的物品 d",
+     "count": 1
+    },
+    {
+     "text": "28. a — crisântemo=亡灵节带去的花 a",
+     "count": 1
+    },
+    {
+     "text": "29. B — 亡灵节是怀念与安静的日子",
+     "count": 1
+    },
+    {
+     "text": "3. redação — redação = 作文",
+     "count": 1
+    },
+    {
+     "text": "30. B — 家人们带花去墓园，主要是菊花",
+     "count": 1
+    },
+    {
+     "text": "31. B — 教堂和墓园整天都有弥撒",
+     "count": 1
+    },
+    {
+     "text": "32. C — 万圣节在 10 月 31 日周六",
+     "count": 1
+    },
+    {
+     "text": "33. A — 怀念是继续亲近的方式",
+     "count": 1
+    },
+    {
+     "text": "34. túmulo — túmulo = 墓碑",
+     "count": 1
+    },
+    {
+     "text": "35. vela — vela = 蜡烛",
+     "count": 1
+    },
+    {
+     "text": "36. crisântemo — crisântemo = 菊花",
+     "count": 1
+    },
+    {
+     "text": "37. missa — missa = 弥撒",
+     "count": 1
+    },
+    {
+     "text": "38. silêncio — silêncio = 寂静",
+     "count": 1
+    },
+    {
+     "text": "39. lembrança — lembrança = 怀念",
+     "count": 1
+    },
+    {
+     "text": "4. 13h30 — 13h30 开考（巴西利亚时间）",
+     "count": 1
+    },
+    {
+     "text": "40. visitaram — visitar 过去时 elas 形式：visitaram",
+     "count": 1
+    },
+    {
+     "text": "41. levaram — levar 过去时 elas 形式：levaram",
+     "count": 1
+    },
+    {
+     "text": "42. foi — ser 过去时 ele 形式：foi",
+     "count": 1
+    },
+    {
+     "text": "43. viveu — viver 过去时 ele 形式：viveu",
+     "count": 1
+    },
+    {
+     "text": "44. Finados é um dia de silêncio. — 主语 + é + 表语",
+     "count": 1
+    },
+    {
+     "text": "45. As famílias levam flores ao cemitério. — 主语 + 动词 + 宾语 + 地",
+     "count": 1
+    },
+    {
+     "text": "46. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语",
+     "count": 1
+    },
+    {
+     "text": "47. A — 次回合米内罗竞技 × 格雷米奥在周六 7 日 18 点",
+     "count": 1
+    },
+    {
+     "text": "48. B — 瓦斯科 × 帕尔梅拉斯次回合在周日 8 日 17 点，圣雅努阿里奥",
+     "count": 1
+    },
+    {
+     "text": "49. A — 首回合在 11 月 1 日周日",
+     "count": 1
+    },
+    {
+     "text": "5. 19h — 19h 结束",
+     "count": 1
+    },
+    {
+     "text": "50. B — 第 34 轮周一到周五每天都有比赛",
+     "count": 1
+    },
+    {
+     "text": "51. A — 两回合总比分胜者进决赛",
+     "count": 1
+    },
+    {
+     "text": "52. b — finalista=进决赛的球队 b",
+     "count": 1
+    },
+    {
+     "text": "53. c — ida=对决的第一场 c",
+     "count": 1
+    },
+    {
+     "text": "54. a — volta=对决的第二场 a",
+     "count": 1
+    },
+    {
+     "text": "55. d — rodada=一轮比赛 d",
+     "count": 1
+    },
+    {
+     "text": "56. mais — 次回合决定决赛名额：mais",
+     "count": 1
+    },
+    {
+     "text": "57. mais — 18 > 16：mais",
+     "count": 1
+    },
+    {
+     "text": "58. mais — 17 < 18：mais cedo",
+     "count": 1
+    },
+    {
+     "text": "59. mais — 第 34 轮周一到周五都有比赛：mais",
+     "count": 1
+    },
+    {
+     "text": "6. revisam — revisar 现在时 eles 形式：revisam",
+     "count": 1
+    },
+    {
+     "text": "60. foram — ser 过去时复数：foram",
+     "count": 1
+    },
+    {
+     "text": "61. recebeu — receber 过去时 ele 形式：recebeu",
+     "count": 1
+    },
+    {
+     "text": "62. recebeu — receber 过去时 ele 形式：recebeu",
+     "count": 1
+    },
+    {
+     "text": "63. começou — começar 过去时 ela 形式：começou",
+     "count": 1
+    },
+    {
+     "text": "64. chegaram — chegar 过去时 eles 形式：chegaram",
+     "count": 1
+    },
+    {
+     "text": "65. B — 冲刺周在 11 月 8 日周日结束",
+     "count": 1
+    },
+    {
+     "text": "66. B — 每天复习一点",
+     "count": 1
+    },
+    {
+     "text": "67. A — 提前一天备好证件和黑笔",
+     "count": 1
+    },
+    {
+     "text": "68. B — 第 2 天考自然科学与数学",
+     "count": 1
+    },
+    {
+     "text": "69. B — 11 月 3 日周二各州议会结束休会",
+     "count": 1
+    },
+    {
+     "text": "7. B — 连休从 10 月 31 日到 11 月 2 日",
+     "count": 1
+    },
+    {
+     "text": "70. reta final — reta final = 最后冲刺阶段",
+     "count": 1
+    },
+    {
+     "text": "71. inscritos — inscrito 配合复数：inscritos",
+     "count": 1
+    },
+    {
+     "text": "72. véspera — véspera = 前夕",
+     "count": 1
+    },
+    {
+     "text": "73. maratona — maratona = 突击马拉松",
+     "count": 1
+    },
+    {
+     "text": "74. local — local = 地点",
+     "count": 1
+    },
+    {
+     "text": "75. Separe — separar 祈使式：separe",
+     "count": 1
+    },
+    {
+     "text": "76. farão — fazer 将来时 eles 不规则形式：farão",
+     "count": 1
+    },
+    {
+     "text": "77. mostrará — mostrar 将来时：mostrará",
+     "count": 1
+    },
+    {
+     "text": "78. sairão — sair 将来时复数：sairão",
+     "count": 1
+    },
+    {
+     "text": "79. chegará — chegar 将来时：chegará",
+     "count": 1
+    },
+    {
+     "text": "8. B — 13 点关门",
+     "count": 1
+    },
+    {
+     "text": "80. Verdadeiro — 确认卡显示考试地点",
+     "count": 1
+    },
+    {
+     "text": "81. Falso — 错：考前突击不是好计划，每天复习一点才好",
+     "count": 1
+    },
+    {
+     "text": "82. Verdadeiro — 对：13:30 至 19:00",
+     "count": 1
+    },
+    {
+     "text": "83. B — 大门开放 60 分钟",
+     "count": 1
+    },
+    {
+     "text": "84. A — 关门到开考之间等 30 分钟",
+     "count": 1
+    },
+    {
+     "text": "85. B — 考试 330 分钟",
+     "count": 1
+    },
+    {
+     "text": "87. C — 中午到 19 点 = 7 小时",
+     "count": 1
+    },
+    {
+     "text": "88. A — 图表数字是 Inep 官方时间",
+     "count": 1
+    },
+    {
+     "text": "89. B — 高考分 8 日和 15 日两个周日",
+     "count": 1
+    },
+    {
+     "text": "9. C — 第 1 天考作文、语言与人文",
+     "count": 1
+    },
+    {
+     "text": "90. B — 第 1 天考作文、语言与人文",
+     "count": 1
+    },
+    {
+     "text": "91. B — 13 点后到场不得入内",
+     "count": 1
+    },
+    {
+     "text": "92. B — 确认卡显示考试地点",
+     "count": 1
+    },
+    {
+     "text": "93. começará — 将来时：começará",
+     "count": 1
+    },
+    {
+     "text": "94. chegar — quem + 虚拟式将来：chegar",
+     "count": 1
+    },
+    {
+     "text": "95. fecham — 现在时：fecham",
+     "count": 1
+    },
+    {
+     "text": "96. pede — 现在时：pede",
+     "count": 1
+    },
+    {
+     "text": "97. portões — portões = 大门",
+     "count": 1
+    },
+    {
+     "text": "98. segunda chamada — segunda chamada = 补考、第二次入场",
+     "count": 1
+    },
+    {
+     "text": "99. local — local = 地点",
+     "count": 1
+    },
+    {
+     "text": "A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY",
+     "count": 1
+    },
+    {
+     "text": "AVALIAÇÃO E RESPOSTAS · 练习与答案",
+     "count": 1
+    },
+    {
+     "text": "RESPOSTAS · 参考答案 — 按版面分页排列，找到题号即可",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 1 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 2 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 3 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 4 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 5 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 6 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 7 —",
+     "count": 1
+    },
+    {
+     "text": "— PÁGINA 8 —",
+     "count": 1
+    },
+    {
+     "text": "“连休是 10 月 31 日到 11 月 2 日。” → ___",
+     "count": 1
+    },
+    {
+     "text": "你到达时，请出示带照片的证件。 → ___",
+     "count": 1
+    },
+    {
+     "text": "写作",
+     "count": 1
+    },
+    {
+     "text": "写作题（无唯一答案）；范文（93 词）见下。",
+     "count": 1
+    },
+    {
+     "text": "把词和释义配对",
+     "count": 1
+    },
+    {
+     "text": "拟式将来 chegar + 祈使 apresente",
+     "count": 1
+    },
+    {
+     "text": "每题附一句中文简析 · 带 ✓ 的为范文题",
+     "count": 1
+    },
+    {
+     "text": "点",
+     "count": 1
+    },
+    {
+     "text": "第 8 版 / 共 8 版",
+     "count": 1
+    },
+    {
+     "text": "第 8 版 · A grande prova da semana + todas as respostas",
+     "count": 1
+    },
+    {
+     "text": "翻译",
+     "count": 4
+    },
+    {
+     "text": "语 + 地点",
+     "count": 1
+    },
+    {
+     "text": "连休",
+     "count": 1
+    },
+    {
+     "text": "造句",
+     "count": 4
+    }
+   ],
+   "cjk_core_total": 1123,
+   "cjk_edition_total": 0,
+   "cjk_added": {}
+  }
+ },
+ "cjk_added_total": {}
+}

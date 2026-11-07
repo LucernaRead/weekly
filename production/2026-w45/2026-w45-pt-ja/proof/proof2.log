@@ -1,0 +1,23 @@
+core regex= 5878 ws+latindigit= 5822 ws+latin= 5130
+ed regex= 5878 ws+latindigit= 5757 ws+latin= 5097
+== core
+  P1: 'TODA SEMANA EM PORTUGUÊS · 每周一期 · 读巴西人正在读的葡萄牙语'
+  P1: 'A Lucerna'
+  P1: 'Da redação da A Lucerna · Nível de leitura: A2'
+  P1: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+  P2foot: 'A Lucerna'
+  P2foot: 'Da redação da A Lucerna · Nível de leitura: A2'
+  P2foot: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+== ed
+  P1: 'TODA SEMANA EM PORTUGUÊS · 毎週一号 · ブラジル人が読んでいるポルトガル語を読む'
+  P1: 'A Lucerna'
+  P1: 'ポルトガル語テキスト · 日本語の解説 — 日本語読者のための版'
+  P1: 'Da redação da A Lucerna · Nível de leitura: A2'
+  P1: 'A Lucerna · ポルトガル語週刊 VOL.2 · 本文はポルトガル語 · 解説は日本語'
+  P2foot: 'A Lucerna'
+  P2foot: 'Da redação da A Lucerna · Nível de leitura: A2'
+  P2foot: 'A Lucerna · ポルトガル語週刊 VOL.2 · 本文はポルトガル語 · 解説は日本語'
+EXT-START total (non-small-kana bad starts): 0
+LEVEL A2: 55 nodes; sample: ['Da redação da A Lucerna · Nível de leitura: A2', 'A2', 'A2', 'A2', 'A2', 'A2', 'A2', 'A2→B1']
+LEVEL B1: 77 nodes; sample: ['B1', 'A2→B1', 'B1', 'B1', 'B1', 'A2 → B1 · Finados: o dia da memória · 死者の日：偲ぶ日', 'B1', 'B1']
+LEVEL B2: 33 nodes; sample: ['B2', 'A2→B2', 'B2', 'B2', 'B2', 'NÍVEL B2 · O Enem explicado · Enemを解説', 'Da redação da A Lucerna · Nível de leitura: B2', 'B2']

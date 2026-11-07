@@ -1,0 +1,23 @@
+===== EDITION =====
+collisions: 0
+right-edge advance flags (>1885.5 or <64.5): 5
+  EDGE p4-sport.svg: 'Frank R. Snyder — public domain, via Wikimedia Commons' adv [1451.0,1888.6] baseline y=798.5999999999999
+  EDGE p8-exercices.svg: 'b. an election in the middle of a term' adv [1485.0,1899.4] baseline y=806.4000000000001
+  EDGE p8-exercices.svg: 'd. the paper you mark your choice on' adv [1485.0,1903.8] baseline y=882.4000000000001
+  EDGE p8-exercices.svg: '— Good morning ! Is this the voting place' adv [1451.0,1890.3] baseline y=1000.9000000000001
+  EDGE p8-exercices.svg: 'Everybody has one on their jacket. — The' adv [1451.0,1891.3] baseline y=1295.02
+frame-press flags (>1913.5 or <36.5): 0
+===== CORE =====
+collisions: 0
+right-edge advance flags (>1885.5 or <64.5): 5
+  EDGE p4-sport.svg: 'Frank R. Snyder — public domain, via Wikimedia Commons' adv [1451.0,1888.6] baseline y=798.5999999999999
+  EDGE p8-exercices.svg: 'b. an election in the middle of a term' adv [1485.0,1899.4] baseline y=806.4000000000001
+  EDGE p8-exercices.svg: 'd. the paper you mark your choice on' adv [1485.0,1903.8] baseline y=882.4000000000001
+  EDGE p8-exercices.svg: '— Good morning ! Is this the voting place' adv [1451.0,1890.3] baseline y=1000.9000000000001
+  EDGE p8-exercices.svg: 'Everybody has one on their jacket. — The' adv [1451.0,1891.3] baseline y=1295.02
+frame-press flags (>1913.5 or <36.5): 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/en-zh-tw-proof/geom-my.py", line 121, in <module>
+    print(f"P6 {label} worst label ink coverage by later rects: {worst*100:.1f}%  label={worst_t[0][:60]!r} ink={[round(v,1) for v in worst_t[1]]} (gate <30%)")
+                                                                                         ~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable

@@ -1,0 +1,39 @@
+=== footers edition vs W43 (VOL-normalized) ===
+P1 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 1 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 1 de 8']
+P2 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 2 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 2 de 8']
+P3 MATCH=False ED=['com o caso correto.', 'Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 3 de 8'] W43=['Complete com a forma correta do verbo ou', 'Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 3 de 8']
+P4 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 4 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 4 de 8']
+P5 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 5 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 5 de 8']
+P6 MATCH=False ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 6 de 8'] W43=['бабушкам. → ___ (или)', 'Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 6 de 8']
+P7 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 7 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 7 de 8']
+P8 MATCH=True ED=['Lucerna · SEMANÁRIO RUSSO VOL.2 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 8 de 8'] W43=['Lucerna · SEMANÁRIO RUSSO VOL.1 · TEXTOS EM RUSSO · EXPLICAÇÕES EM PORTUGUÊS', 'Página 8 de 8']
+=== top strip: first lines y<150 ===
+ED ['VOL. 2 · ВТОРОЙ ВЫПУСК', 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · TODA SEMANA · O RUSSO QUE A RÚSSIA LÊ', 'НЕДЕЛЯ СО 2 ПО 8 НОЯБРЯ 2026 ГОДА']
+W43 ['VOL. 1 · ПЕРВЫЙ ВЫПУСК', 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · TODA SEMANA · O RUSSO QUE A RÚSSIA LÊ', 'НЕДЕЛЯ С 19 ПО 25 ОКТЯБРЯ 2026 ГОДА']
+CORE ['VOL. 2 · ВТОРОЙ ВЫПУСК', 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · 俄语正文 · 中文讲解', 'НЕДЕЛЯ СО 2 ПО 8 НОЯБРЯ 2026 ГОДА']
+=== gloss prefix count 'Nota —' in edition ===
+P1 Nota-count=0
+P2 Nota-count=3
+P3 Nota-count=2
+P4 Nota-count=1
+P5 Nota-count=2
+P6 Nota-count=1
+P7 Nota-count=0
+P8 Nota-count=0
+=== section suffix spot: lines containing '· Em ' or '· ' PT suffixes ===
+P1 y=606.0 :: ГЛАВНАЯ ТЕМА · Tema principal
+P1 y=915.025 :: НЕДЕЛЯ В ЦИФРАХ · Em números
+P1 y=1322.025 :: СЕЙЧАС ВЫ · Agora é com você
+P1 y=656.0 :: СМИ · Na mídia
+P1 y=1336.0 :: В ЭТОМ НОМЕРЕ · Sumário
+P1 y=1660.0 :: СЛОВО НЕДЕЛИ · A palavra
+P1 y=1914.0 :: КОРОТКО · Em resumo
+P2 y=1594.0 :: СЛОВА НЕДЕЛИ · Palavras da semana
+P6 y=675.0 :: ЗА И ПРОТИВ · Prós e contras
+P6 y=1552.0 :: КАК ПРОВЕДУТ СРЕДУ 4 НОЯБРЯ? · УЧЕБНЫЕ ДАННЫЕ · Dados de prática
+P7 y=242.0 :: ОШИБКИ · Clínica de erros
+P7 y=1062.08 :: СЛОВО · A palavra
+P7 y=1794.0 :: ФРАЗЫ НЕДЕЛИ · Frases da semana (transcritas deste número)
+P7 y=2448.0 :: СЛЕДУЮЩАЯ НЕДЕЛЯ · Na próxima semana (VOL.3)
+P8 y=116.0 :: ТЕСТ И ОТВЕТЫ · Teste e respostas
+=== page bands ===

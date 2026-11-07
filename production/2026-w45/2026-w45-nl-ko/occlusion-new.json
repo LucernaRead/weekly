@@ -1,0 +1,62 @@
+{
+ "svgdir": "../files/weekly-report-w45-nl-ko/svg",
+ "flags": [
+  {
+   "page": "p1-voorpagina.svg",
+   "class": "BOXTITLE",
+   "text": "DE WEEK IN CIJFERS · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    996.2,
+    1342.7
+   ],
+   "detail": "ink crosses its box borders: right ink 996.2 > border 961.0",
+   "by": "rect@57"
+  },
+  {
+   "page": "p6-verdieping.svg",
+   "class": "BOXTITLE",
+   "text": "VOOR OF TEGEN? · 찬성할까요, 반대할까요",
+   "box": [
+    1472.8,
+    741.0,
+    1886.2,
+    763.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1886.2 > border 1885.0",
+   "by": "rect@89"
+  }
+ ],
+ "flag_count": 2,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-voorpagina.svg",
+   "class": "BOXTITLE",
+   "text": "DE WEEK IN CIJFERS · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    996.2,
+    1342.7
+   ],
+   "detail": "ink crosses its box borders: right ink 996.2 > border 961.0",
+   "by": "rect@57"
+  },
+  {
+   "page": "p6-verdieping.svg",
+   "class": "BOXTITLE",
+   "text": "VOOR OF TEGEN? · 찬성할까요, 반대할까요",
+   "box": [
+    1472.8,
+    741.0,
+    1886.2,
+    763.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1886.2 > border 1885.0",
+   "by": "rect@89"
+  }
+ ],
+ "new_flag_count": 2
+}

@@ -1,0 +1,40 @@
+rendered ED p2 headword 'il cappotto': True
+rendered ED p2 headword 'la sciarpa': True
+rendered ED p2 headword 'i guanti': True
+rendered ED p2 headword 'a strati': True
+rendered ED p2 headword 'il termosifone': True
+rendered ED p2 headword 'il crisantemo': True
+rendered ED p3 headword 'il panettone': True
+rendered ED p3 headword 'il torrone': True
+rendered ED p3 headword "l'assaggio": True
+rendered ED p3 headword 'la bancarella': True
+rendered ED p3 headword 'il cantiere': True
+rendered ED p4 headword 'la giornata': True
+rendered ED p4 headword 'la presentazione': True
+rendered ED p4 headword 'gli spalti': True
+rendered ED p4 headword 'la sera': True
+rendered ED p5 headword 'il cosplay': True
+rendered ED p5 headword 'gratuito': True
+rendered ED p5 headword 'il documentario': True
+rendered ED p5 headword 'lo schermo': True
+rendered ED p6 headword 'la probabilità': True
+rendered ED p6 headword 'la media': True
+rendered ED p6 headword 'il modello': True
+rendered ED p6 headword 'il bollettino': True
+rendered ED p6 headword 'aggiornare': True
+--- CORE P1 HINWEIS/bridge nodes
+   '讲解｜il primo freddo 第一场寒冷 · il'
+--- ED P1 HINWEIS/bridge nodes
+   'HINWEIS · il primo freddo = erste Kälte ·'
+--- CORE P7 (Pagina tags): ['第一场真正的寒冷到来了。 (Pagina 1)', '这不是确定性，而是概率。 (Pagina 1)', '11 月 2 日是追思日。 (Pagina 2)', '天冷，穿暖和点！ (Pagina 2)', '观众可以免费品尝。 (Pagina 3)', '足球不会因为第一场寒冷而停下。 (Pagina 4)', '文化继续。 (Pagina 5)', '高概率不等于确定性。 (Pagina 6)']
+Traceback (most recent call last):
+  File "<stdin>", line 27, in <module>
+  File "<stdin>", line 27, in <genexpr>
+  File "<stdin>", line 5, in joined
+  File "<stdin>", line 4, in texts
+  File "/usr/lib/python3.12/xml/etree/ElementTree.py", line 1204, in parse
+    tree.parse(source, parser)
+  File "/usr/lib/python3.12/xml/etree/ElementTree.py", line 558, in parse
+    source = open(source, "rb")
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'files/weekly-report-w45-it-core/svg/pp1-prima.svg'

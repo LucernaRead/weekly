@@ -1,0 +1,28 @@
+== ed gloss call sites: 5
+  content12.py: 1 calls
+    items=6 :: 'o feriadão 連休 · o cemitério 墓地 · a vela ろうそく · o crisântemo 菊 · a missa ミサ · conferir 確かめる。'
+  content34.py: 2 calls
+    items=6 :: 'o túmulo 墓石 · a flor 花 · acender 火をともす · rezar 祈る · o silêncio 静けさ · a lembrança 偲ぶこと。'
+    items=5 :: 'a ida 第1戦 · a volta 第2戦 · o finalista 決勝進出チーム · a decisão 決戦 · a rodada 節。'
+  content56.py: 2 calls
+    items=5 :: 'a reta final ラストスパート · a véspera 前夜 · a maratona 詰め込み勉強 · separar 用意する · a cabeça 頭、心の状態。'
+    items=4 :: 'os portões 門 · a segunda chamada 追試、2回目の入場 · conferir 確かめる · a correria あわただしさ。'
+== core gloss call sites: 5
+  content12.py: 1 calls
+    items=6 :: 'o feriadão 连休长周末 · o cemitério 墓园 · a vela 蜡烛 · o crisântemo 菊花 · a missa 弥撒 · conferir 核对。'
+  content34.py: 2 calls
+    items=6 :: 'o túmulo 墓碑 · a flor 花 · acender 点燃 · rezar 祈祷 · o silêncio 寂静 · a lembrança 怀念。'
+    items=5 :: 'a ida 首回合 · a volta 次回合 · o finalista 决赛球队 · a decisão 决战 · a rodada 轮次。'
+  content56.py: 2 calls
+    items=5 :: 'a reta final 最后冲刺 · a véspera 前夕 · a maratona 突击马拉松 · separar 准备好 · a cabeça 头脑、状态。'
+    items=4 :: 'os portões 大门 · a segunda chamada 补考、第二次入场 · conferir 核对 · a correria 匆忙。'
+ED gloss total/per-file: (26, {'content12.py': 6, 'content34.py': 11, 'content56.py': 9})
+CO gloss total/per-file: (26, {'content12.py': 6, 'content34.py': 11, 'content56.py': 9})
+== ed SVG gloss-prefix nodes:
+  p1-capa: 3 items :: '解説 — feriadão 連休 · o portão 門 · a'
+  p2-vida: 2 items :: '解説 — o feriadão 連休 · o cemitério 墓地'
+  p3-cultura: 3 items :: '解説 — o túmulo 墓石 · a flor 花 · acender'
+  p4-esporte: 3 items :: '解説 — a ida 第1戦 · a volta 第2戦 · o'
+  p5-jovens: 2 items :: '解説 — a reta final ラストスパート · a'
+  p6-aprofundamento: 2 items :: '解説 — os portões 門 · a segunda'
+== core SVG gloss-prefix nodes:

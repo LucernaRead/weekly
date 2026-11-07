@@ -1,0 +1,712 @@
+{
+ "svgdir": "../files/weekly-report-w45-en-ru/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "B1",
+   "box": [
+    1006.9,
+    1836.0,
+    1031.2,
+    1850.0
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "The Lucerna",
+   "box": [
+    557.9,
+    141.8,
+    1392.1,
+    291.2
+   ],
+   "detail": "ink overlaps 'АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · ВЫБОРЫ' by 834.2x6.0px",
+   "by": "text@8"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !",
+   "box": [
+    94.8,
+    449.0,
+    1243.8,
+    478.5
+   ],
+   "detail": "ink overlaps 'Вторник — день выборов · В воскресенье ч' by 179.8x20.5px",
+   "by": "text@15"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "Counting ___ time in every state.",
+   "box": [
+    989.0,
+    1864.8,
+    1316.0,
+    1886.0
+   ],
+   "detail": "ink overlaps 'FALL, THE SEASON OF VOTES' by 327.0x5.8px",
+   "by": "text@155"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "THE WEEK IN NUMBERS · Неделя в цифрах",
+   "box": [
+    1007.0,
+    791.3,
+    1508.5,
+    814.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1508.5 > border 1423.0",
+   "by": "rect@63"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "Что ищут в США · Снимок Google Trends США",
+   "box": [
+    1473.0,
+    670.8,
+    1897.0,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1897.0 > border 1885.0",
+   "by": "rect@103"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "A2",
+   "box": [
+    1469.1,
+    2570.0,
+    1492.8,
+    2584.0
+   ],
+   "detail": "ink bottom 2584.0 below footer rule 2580 (baseline 2584.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "A2",
+   "box": [
+    1469.1,
+    2570.0,
+    1492.8,
+    2584.0
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "24–27.",
+   "box": [
+    1523.0,
+    2567.0,
+    1600.5,
+    2585.2
+   ],
+   "detail": "ink bottom 2585.2 below footer rule 2580 (baseline 2585.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "24–27.",
+   "box": [
+    1523.0,
+    2567.0,
+    1600.5,
+    2585.2
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "Подбери пары",
+   "box": [
+    1647.0,
+    2569.0,
+    1785.8,
+    2589.5
+   ],
+   "detail": "ink bottom 2589.5 below footer rule 2580 (baseline 2585.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "Подбери пары",
+   "box": [
+    1647.0,
+    2569.0,
+    1785.8,
+    2589.5
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "27. trick or treat",
+   "box": [
+    1451.0,
+    2717.5,
+    1639.0,
+    2737.2
+   ],
+   "detail": "ink box (1451.0, 2717.5, 1639.0, 2737.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "a. one hour more than usual",
+   "box": [
+    1485.0,
+    2763.5,
+    1802.8,
+    2782.2
+   ],
+   "detail": "ink box (1485.0, 2763.5, 1802.75, 2782.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "b. clothes for a costume role",
+   "box": [
+    1485.0,
+    2801.2,
+    1801.8,
+    2820.2
+   ],
+   "detail": "ink box (1485.0, 2801.25, 1801.75, 2820.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "c. the children's Halloween call",
+   "box": [
+    1485.0,
+    2839.2,
+    1834.0,
+    2858.2
+   ],
+   "detail": "ink box (1485.0, 2839.25, 1834.0, 2858.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "d. to move clocks back one hour",
+   "box": [
+    1485.0,
+    2877.2,
+    1845.2,
+    2896.2
+   ],
+   "detail": "ink box (1485.0, 2877.25, 1845.25, 2896.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "LINEX",
+   "text": "AT HOME THIS WEEK · Что смотреть дома",
+   "box": [
+    82.8,
+    1759.6,
+    569.5,
+    1781.8
+   ],
+   "detail": "later line box [526.0, 1759.7, 962.0, 1761.7] crosses ink",
+   "by": "line@113"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "AT HOME THIS WEEK · Что смотреть дома",
+   "box": [
+    82.8,
+    1759.6,
+    569.5,
+    1781.8
+   ],
+   "detail": "ink crosses its box borders: right ink 569.5 > border 499.0",
+   "by": "rect@42"
+  },
+  {
+   "page": "p4-sport.svg",
+   "class": "BOXTITLE",
+   "text": "SUNDAY, NOVEMBER 8 · Воскресенье",
+   "box": [
+    1469.0,
+    855.8,
+    1902.8,
+    878.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1902.8 > border 1885.0",
+   "by": "rect@184"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "TOO CLOSE TO CALL · Равная борьба",
+   "box": [
+    83.0,
+    2071.9,
+    517.0,
+    2096.1
+   ],
+   "detail": "ink crosses its box borders: right ink 517.0 > border 499.0",
+   "by": "rect@49"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "FIVE SENTENCES · Пять предложений",
+   "box": [
+    1469.0,
+    217.8,
+    1919.2,
+    242.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1919.2 > border 1885.0",
+   "by": "rect@173"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1006.9,
+    208.0,
+    1031.2,
+    222.0
+   ],
+   "detail": "ink overlaps 'A PRACTICE BALLOT · Пробный бюллетень' by 24.2x4.2px",
+   "by": "text@60"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "A PRACTICE BALLOT · Пробный бюллетень",
+   "box": [
+    544.8,
+    217.8,
+    1048.2,
+    242.0
+   ],
+   "detail": "ink overlaps 'American elections are run by... A. one' by 59.2x6.0px",
+   "by": "text@131"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "BOXTITLE",
+   "text": "A PRACTICE BALLOT · Пробный бюллетень",
+   "box": [
+    544.8,
+    217.8,
+    1048.2,
+    242.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1048.2 > border 961.0",
+   "by": "rect@59"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Levels : 145–148 [A2] · 149 [B1]",
+   "box": [
+    1451.0,
+    1469.2,
+    1739.5,
+    1488.5
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@186"
+  }
+ ],
+ "flag_count": 27,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "B1",
+   "box": [
+    1006.9,
+    1836.0,
+    1031.2,
+    1850.0
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "The Lucerna",
+   "box": [
+    557.9,
+    141.8,
+    1392.1,
+    291.2
+   ],
+   "detail": "ink overlaps 'АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · ВЫБОРЫ' by 834.2x6.0px",
+   "by": "text@8"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !",
+   "box": [
+    94.8,
+    449.0,
+    1243.8,
+    478.5
+   ],
+   "detail": "ink overlaps 'Вторник — день выборов · В воскресенье ч' by 179.8x20.5px",
+   "by": "text@15"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "Counting ___ time in every state.",
+   "box": [
+    989.0,
+    1864.8,
+    1316.0,
+    1886.0
+   ],
+   "detail": "ink overlaps 'FALL, THE SEASON OF VOTES' by 327.0x5.8px",
+   "by": "text@155"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "THE WEEK IN NUMBERS · Неделя в цифрах",
+   "box": [
+    1007.0,
+    791.3,
+    1508.5,
+    814.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1508.5 > border 1423.0",
+   "by": "rect@63"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "Что ищут в США · Снимок Google Trends США",
+   "box": [
+    1473.0,
+    670.8,
+    1897.0,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1897.0 > border 1885.0",
+   "by": "rect@103"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "A2",
+   "box": [
+    1469.1,
+    2570.0,
+    1492.8,
+    2584.0
+   ],
+   "detail": "ink bottom 2584.0 below footer rule 2580 (baseline 2584.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "A2",
+   "box": [
+    1469.1,
+    2570.0,
+    1492.8,
+    2584.0
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "24–27.",
+   "box": [
+    1523.0,
+    2567.0,
+    1600.5,
+    2585.2
+   ],
+   "detail": "ink bottom 2585.2 below footer rule 2580 (baseline 2585.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "24–27.",
+   "box": [
+    1523.0,
+    2567.0,
+    1600.5,
+    2585.2
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "FOOTER",
+   "text": "Подбери пары",
+   "box": [
+    1647.0,
+    2569.0,
+    1785.8,
+    2589.5
+   ],
+   "detail": "ink bottom 2589.5 below footer rule 2580 (baseline 2585.0)",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "LINEX",
+   "text": "Подбери пары",
+   "box": [
+    1647.0,
+    2569.0,
+    1785.8,
+    2589.5
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@268"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "27. trick or treat",
+   "box": [
+    1451.0,
+    2717.5,
+    1639.0,
+    2737.2
+   ],
+   "detail": "ink box (1451.0, 2717.5, 1639.0, 2737.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "a. one hour more than usual",
+   "box": [
+    1485.0,
+    2763.5,
+    1802.8,
+    2782.2
+   ],
+   "detail": "ink box (1485.0, 2763.5, 1802.75, 2782.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "b. clothes for a costume role",
+   "box": [
+    1485.0,
+    2801.2,
+    1801.8,
+    2820.2
+   ],
+   "detail": "ink box (1485.0, 2801.25, 1801.75, 2820.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "c. the children's Halloween call",
+   "box": [
+    1485.0,
+    2839.2,
+    1834.0,
+    2858.2
+   ],
+   "detail": "ink box (1485.0, 2839.25, 1834.0, 2858.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "EDGE",
+   "text": "d. to move clocks back one hour",
+   "box": [
+    1485.0,
+    2877.2,
+    1845.2,
+    2896.2
+   ],
+   "detail": "ink box (1485.0, 2877.25, 1845.25, 2896.25) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "LINEX",
+   "text": "AT HOME THIS WEEK · Что смотреть дома",
+   "box": [
+    82.8,
+    1759.6,
+    569.5,
+    1781.8
+   ],
+   "detail": "later line box [526.0, 1759.7, 962.0, 1761.7] crosses ink",
+   "by": "line@113"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "AT HOME THIS WEEK · Что смотреть дома",
+   "box": [
+    82.8,
+    1759.6,
+    569.5,
+    1781.8
+   ],
+   "detail": "ink crosses its box borders: right ink 569.5 > border 499.0",
+   "by": "rect@42"
+  },
+  {
+   "page": "p4-sport.svg",
+   "class": "BOXTITLE",
+   "text": "SUNDAY, NOVEMBER 8 · Воскресенье",
+   "box": [
+    1469.0,
+    855.8,
+    1902.8,
+    878.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1902.8 > border 1885.0",
+   "by": "rect@184"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "TOO CLOSE TO CALL · Равная борьба",
+   "box": [
+    83.0,
+    2071.9,
+    517.0,
+    2096.1
+   ],
+   "detail": "ink crosses its box borders: right ink 517.0 > border 499.0",
+   "by": "rect@49"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "FIVE SENTENCES · Пять предложений",
+   "box": [
+    1469.0,
+    217.8,
+    1919.2,
+    242.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1919.2 > border 1885.0",
+   "by": "rect@173"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "B2",
+   "box": [
+    1006.9,
+    208.0,
+    1031.2,
+    222.0
+   ],
+   "detail": "ink overlaps 'A PRACTICE BALLOT · Пробный бюллетень' by 24.2x4.2px",
+   "by": "text@60"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "TEXTX",
+   "text": "A PRACTICE BALLOT · Пробный бюллетень",
+   "box": [
+    544.8,
+    217.8,
+    1048.2,
+    242.0
+   ],
+   "detail": "ink overlaps 'American elections are run by... A. one' by 59.2x6.0px",
+   "by": "text@131"
+  },
+  {
+   "page": "p6-politique.svg",
+   "class": "BOXTITLE",
+   "text": "A PRACTICE BALLOT · Пробный бюллетень",
+   "box": [
+    544.8,
+    217.8,
+    1048.2,
+    242.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1048.2 > border 961.0",
+   "by": "rect@59"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Levels : 145–148 [A2] · 149 [B1]",
+   "box": [
+    1451.0,
+    1469.2,
+    1739.5,
+    1488.5
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@186"
+  }
+ ],
+ "new_flag_count": 27
+}

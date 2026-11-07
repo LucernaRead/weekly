@@ -1,0 +1,29 @@
+gloss calls core: 10 ed: 10
+core per-call: [4, 4, 4, 3, 3, 3, 3, 3, 3, 3] total: 33
+ed   per-call: [4, 4, 4, 3, 3, 3, 3, 3, 3, 3] total: 33
+gloss headwords identical item-by-item: OK
+gloss prefix 'Nota — ' occurrences in edition SVGs: 10
+gloss prefix 'Notes' occurrences in edition SVGs: 0
+P6 rect count core: 26 ed: 26 identical sets: False
+  core-only rect: ('527', '723.0', '434', '145.675')
+  ed-only rect: ('527', '723.0', '434', '175.39999999999998')
+  width 810 in core P6: 0  in ed P6: 0
+  width 537 in core P6: 0  in ed P6: 0
+  width 480 in core P6: 0  in ed P6: 0
+asset md5 map: {'420c6150a831e5d0ab86351aeee88e5c': 'locker.jpg', '550e463b4ad93fea2d1afd12dc14e789': 'valley.jpg', 'd0b015bc9da89c18313d931c4f602d88': 'frost.jpg', '6b8e90374bf6ba4cbe652951019953a3': 'lanparty.jpg', 'e8d752779a4a1a96fcf5e044cfd2e648': 'dumplings.jpg', 'a903e35f1eb2dbf4483bb35b27da0d15': 'popcorn.jpg'}
+p1-touiban.svg core: [('420c6150', 'locker.jpg')] | ed: [('420c6150', 'locker.jpg')] | identical: True
+p2-shenghuo.svg core: [('550e463b', 'valley.jpg')] | ed: [('550e463b', 'valley.jpg')] | identical: True
+p3-wenhua.svg core: [('d0b015bc', 'frost.jpg'), ('e8d75277', 'dumplings.jpg')] | ed: [('d0b015bc', 'frost.jpg'), ('e8d75277', 'dumplings.jpg')] | identical: True
+p4-tiyu.svg core: [('6b8e9037', 'lanparty.jpg')] | ed: [('6b8e9037', 'lanparty.jpg')] | identical: True
+p5-qingnian.svg core: [('a903e35f', 'popcorn.jpg')] | ed: [('a903e35f', 'popcorn.jpg')] | identical: True
+p6-shendu.svg core: [] | ed: [] | identical: True
+p7-ciyu.svg core: [] | ed: [] | identical: True
+p8-ceyan.svg core: [] | ed: [] | identical: True
+ALL IMAGE PAYLOADS IDENTICAL TO CORE: True
+p1-touiban.svg credit: Foto: Map hobby — CC0 (Wikimedia Commons)
+p2-shenghuo.svg credit: Foto: Paul Gilmore — CC0 (Wikimedia Commons)
+p3-wenhua.svg credit: Foto: Gerda Arendt — CC0 (Wikimedia Commons)
+p3-wenhua.svg credit: Foto: Syced — CC0 (Wikimedia Commons)
+p4-tiyu.svg credit: Foto: Syced — CC0 (Wikimedia Commons)
+p5-qingnian.svg credit: Foto: Based5290 — Domínio público (Wikimedia Commons)
+leftover 'Public domain' in ed SVGs: 0

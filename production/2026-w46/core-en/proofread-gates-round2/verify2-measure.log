@@ -1,0 +1,83 @@
+===== 1. SLOT FROM SVG GEOMETRY =====
+P6 core: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · 任期多长？'
+P6 de: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Wie lange im Amt?'
+P6 es: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · ¿Cuánto dura?'
+P6 fr: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Quelle durée ?'
+P6 it: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Quanto dura?'
+P6 ja: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK JP | SLOT=416.0 | title='HOW LONG ? · 任期はどれくらい？'
+P6 ko: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · 임기는 얼마나?'
+P6 nl: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Hoe lang?'
+P6 pt: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Quanto dura?'
+P6 ru: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='HOW LONG ? · Каков срок?'
+P6 zh-tw: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK TC | SLOT=416.0 | title='HOW LONG ? · 任期多長？'
+P3 core: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · 史高治之夜"
+P3 de: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · Scrooge-Nacht"
+P3 es: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='LA NOCHE DE SCROOGE'
+P3 fr: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title='LA NUIT DE SCROOGE'
+P3 it: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · La notte"
+P3 ja: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK JP | SLOT=416.0 | title="SCROOGE'S NIGHT · スクルージの夜"
+P3 ko: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · 스크루지의 밤"
+P3 nl: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · Scrooge-nacht"
+P3 pt: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · A noite"
+P3 ru: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK SC | SLOT=416.0 | title="SCROOGE'S NIGHT · Ночь Скруджа"
+P3 zh-tw: box x=1451.0 w=434.0 right=1885.0 | title x=1469.0 font=Noto Sans CJK TC | SLOT=416.0 | title="SCROOGE'S NIGHT · 史高治之夜"
+
+===== 2. TITLE WIDTHS (svglib sans bold 23pt) =====
+  335.7px advance ink   336.0px fits spare 80.3  B1 shipped es: 'HOW LONG ? · ¿Cuánto dura?'
+  328.7px advance ink   329.0px fits spare 87.3  B1 shipped pt: 'HOW LONG ? · Quanto dura?'
+  318.8px advance ink   319.0px fits spare 97.2  B1 shipped ru: 'HOW LONG ? · Каков срок?'
+  468.9px advance ink   469.0px OVERFLOW +52.9  B1 full es: 'HOW LONG ? · ¿Cuánto dura el mandato?'
+  455.6px advance ink   456.0px OVERFLOW +39.6  B1 full pt: 'HOW LONG ? · Quanto dura o mandato?'
+  473.0px advance ink   473.0px OVERFLOW +57.0  B1 full ru: 'HOW LONG ? · Каков срок полномочий?'
+  461.2px advance ink   461.0px OVERFLOW +45.2  B1 full ru no-?: 'HOW LONG ? · Каков срок полномочий'
+  429.6px advance ink   430.0px OVERFLOW +13.6  B1 alt es cargo: 'HOW LONG ? · ¿Cuánto dura el cargo?'
+  457.8px advance ink   458.0px OVERFLOW +41.8  B1 alt es mandato-short: 'HOW LONG ? · ¿Cuánto dura el mandato'
+  473.0px advance ink   473.0px OVERFLOW +57.0  B1 alt ru srok-only-q: 'HOW LONG ? · Каков срок полномочий?'
+  409.8px advance ink   410.0px fits spare 6.2  M4 shipped nl: "SCROOGE'S NIGHT · Scrooge-nacht"
+  323.2px advance ink   323.0px fits spare 92.8  M4 shipped pt: "SCROOGE'S NIGHT · A noite"
+  487.5px advance ink   488.0px OVERFLOW +71.5  M4 full nl: "SCROOGE'S NIGHT · De nacht van Scrooge"
+  455.0px advance ink   455.0px OVERFLOW +39.0  M4 no-article nl: "SCROOGE'S NIGHT · Nacht van Scrooge"
+  453.5px advance ink   453.0px OVERFLOW +37.5  M4 full pt: "SCROOGE'S NIGHT · A noite de Scrooge"
+  436.0px advance ink   436.0px OVERFLOW +20.0  M4 no-article pt: "SCROOGE'S NIGHT · Noite de Scrooge"
+  526.2px advance ink   526.0px OVERFLOW +110.2  M4 full-caps nl: "SCROOGE'S NIGHT · DE NACHT VAN SCROOGE"
+  487.7px advance ink   488.0px OVERFLOW +71.7  M4 full-caps pt: "SCROOGE'S NIGHT · A NOITE DE SCROOGE"
+  266.9px advance ink   267.0px fits spare 149.1  ES/FR shipped es: 'LA NOCHE DE SCROOGE'
+  241.7px advance ink   242.0px fits spare 174.3  ES/FR shipped fr: 'LA NUIT DE SCROOGE'
+  345.9px advance ink   346.0px fits spare 70.1  ES/FR short-mixed es: "SCROOGE'S NIGHT · La noche"
+  322.7px advance ink   323.0px fits spare 93.3  ES/FR short-mixed fr: "SCROOGE'S NIGHT · La nuit"
+  476.2px advance ink   476.0px OVERFLOW +60.2  ES/FR full-mixed es: "SCROOGE'S NIGHT · La noche de Scrooge"
+  452.9px advance ink   453.0px OVERFLOW +36.9  ES/FR full-mixed fr: "SCROOGE'S NIGHT · La nuit de Scrooge"
+  446.6px advance ink   447.0px OVERFLOW +30.6  ES/FR no-article es: "SCROOGE'S NIGHT · Noche de Scrooge"
+  423.3px advance ink   423.0px OVERFLOW +7.3  ES/FR no-article fr: "SCROOGE'S NIGHT · Nuit de Scrooge"
+  316.3px advance ink   316.0px fits spare 99.7  ES/FR bare es: "SCROOGE'S NIGHT · Noche"
+  293.0px advance ink   293.0px fits spare 123.0  ES/FR bare fr: "SCROOGE'S NIGHT · Nuit"
+  511.4px advance ink   511.0px OVERFLOW +95.4  ES/FR full-caps es: "SCROOGE'S NIGHT · LA NOCHE DE SCROOGE"
+  486.2px advance ink   486.0px OVERFLOW +70.2  ES/FR full-caps fr: "SCROOGE'S NIGHT · LA NUIT DE SCROOGE"
+
+===== 3. GREEDY WRAP SIMULATION (sans 20.5pt, width 434) =====
+core bridge: 1 line(s) expect=(1, ['用 will + 动词改写（承诺与将要发生的事）。']) MATCH
+   L1 w=407.4 '用 will + 动词改写（承诺与将要发生的事）。'
+zh-tw current bridge: 2 line(s) expect=(2, ['用 will + 動詞原形來改寫（承諾與將要發生的事', '）。']) MATCH
+   L1 w=427.9 '用 will + 動詞原形來改寫（承諾與將要發生的事'
+   L2 w=41.0 '）。'
+B4 fixed toolbox (serif 22.5): ['B1 — « Dickens wrote the story in 1843.', '»'] [424.1, 12.2]
+B4 old toolbox (serif 22.5): ['B1 — « Dickens wrote the story in 1843. ', '»'] [429.8, 12.2]
+
+--- zh-tw bridge candidates (must end with content-bearing final line) ---
+drop 來 (pre-fix wording): 2 line(s)
+   L1 w=427.9 '用 will + 動詞原形改寫（承諾與將要發生的事）'
+   L2 w=20.5 '。'
+drop 原形, keep 來: 1 line(s)
+   L1 w=427.9 '用 will + 動詞來改寫（承諾與將要發生的事）。'
+shorten tail: 承諾與未來: 1 line(s)
+   L1 w=386.9 '用 will + 動詞原形來改寫（承諾與未來）。'
+reword: 表達承諾: 2 line(s)
+   L1 w=427.9 '用 will + 動詞原形改寫，表達承諾與將要發生的'
+   L2 w=41.0 '事。'
+drop 。 (no final stop): 2 line(s)
+   L1 w=427.9 '用 will + 動詞原形來改寫（承諾與將要發生的事'
+   L2 w=20.5 '）'
+drop parens: 2 line(s)
+   L1 w=427.9 '用 will + 動詞原形來改寫，承諾與將要發生的事'
+   L2 w=20.5 '。'
+DONE verify2-measure

@@ -1,0 +1,153 @@
+=== GATE 2: Traditional independence ===
+edition distinct CJK: 766 union distinct: 1024
+OUTSIDE union: []
+simplified-spot hits: {}
+
+=== GATE 3: pure-CJK node multiset core vs edition ===
+p1-front.svg pure-node added: 0 removed: 1
+   REMOVED: '第 1 版 / 共 8 版' 1
+p2-life.svg pure-node added: 0 removed: 1
+   REMOVED: '第 2 版 / 共 8 版' 1
+p3-culture.svg pure-node added: 0 removed: 1
+   REMOVED: '第 3 版 / 共 8 版' 1
+p4-sport.svg pure-node added: 0 removed: 1
+   REMOVED: '第 4 版 / 共 8 版' 1
+p5-youth.svg pure-node added: 0 removed: 1
+   REMOVED: '第 5 版 / 共 8 版' 1
+p6-deep.svg pure-node added: 0 removed: 1
+   REMOVED: '第 6 版 / 共 8 版' 1
+p7-lang.svg pure-node added: 2 removed: 4
+   REMOVED: '吉祥物大遊行.' 1
+   REMOVED: '（立冬、進補）.' 1
+   REMOVED: '討糖， 踩街， 泡湯.' 1
+   REMOVED: '第 7 版 / 共 8 版' 1
+   ADDED: '集章， 吉祥物大遊行.' 1
+   ADDED: '打卡， 討糖， 踩街， 泡湯.' 1
+p8-test.svg pure-node added: 4 removed: 5
+   REMOVED: '館，先看吉祥物大遊行，再去集章。立冬那天，我想和家人吃薑母' 1
+   REMOVED: '鴨，幫身體進補。旅展有1,600個攤位，我想慢慢逛，不要趕時間。' 1
+   REMOVED: '我想買一組探索廚房自助餐券，4張一共4,100元，帶家人去吃自助' 1
+   REMOVED: '餐。雙11之前，我先列好購物清單，不亂買。' 1
+   REMOVED: '第 8 版 / 共 8 版' 1
+   ADDED: '覽館，先看吉祥物大遊行，再去集章。立冬那天，我想和家人吃薑' 1
+   ADDED: '母鴨，幫身體進補。旅展有1,600個攤位，我想慢慢逛，不要趕時' 1
+   ADDED: '間。我想買一組探索廚房自助餐券，4張一共4,100元，帶家人去吃' 1
+   ADDED: '自助餐。雙11之前，我先列好購物清單，不亂買。' 1
+
+=== GATE 3b: CJK-run multiset diff (removed runs only; added must be 0) ===
+p1-front.svg run-added: 0 run-removed: 9
+   REMOVED RUN: '繁體中文正文' 2
+   REMOVED RUN: '英語講解' 2
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '共' 1
+p2-life.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '共' 1
+p3-culture.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '共' 1
+p4-sport.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '共' 1
+p5-youth.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '共' 1
+p6-deep.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '共' 1
+p7-lang.svg run-added: 0 run-removed: 7
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '繁體中文週報' 1
+   REMOVED RUN: '繁體中文正文' 1
+   REMOVED RUN: '英語講解' 1
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '共' 1
+p8-test.svg run-added: 8 run-removed: 47
+   REMOVED RUN: '封王' 4
+   REMOVED RUN: '進補' 3
+   REMOVED RUN: '集章' 3
+   REMOVED RUN: '討糖' 3
+   REMOVED RUN: '版' 2
+   REMOVED RUN: '立冬' 2
+   REMOVED RUN: '泡湯' 2
+   REMOVED RUN: '完封' 2
+   REMOVED RUN: '踩街' 2
+   REMOVED RUN: '打卡' 2
+   REMOVED RUN: '第' 1
+   REMOVED RUN: '鴨' 1
+   REMOVED RUN: '再結帳' 1
+   REMOVED RUN: '我想週六去南港展覽' 1
+   REMOVED RUN: '館' 1
+   REMOVED RUN: '我想和家人吃薑母' 1
+   REMOVED RUN: '不要趕時間' 1
+   REMOVED RUN: '帶家人去吃自助' 1
+   REMOVED RUN: '餐' 1
+   REMOVED RUN: '節氣' 1
+   REMOVED RUN: '鋼雕' 1
+   REMOVED RUN: '沙雕' 1
+   REMOVED RUN: '全壘打' 1
+   REMOVED RUN: '安打' 1
+   REMOVED RUN: '南瓜桶' 1
+
+=== Round-3 rewording: 封王 context ===
+core p1-front.svg 410 '金融科技週 · 台北旅展 · 味全龍封王——本週台港最熱的三件事'
+core p1-front.svg 1508.5 '· 上週回顧：10/26 味全龍封王；福隆'
+core p2-life.svg 1384 '封王優惠 · Champion deals'
+core p2-life.svg 1438 '· 味全龍封王後，合作品牌推出慶祝優'
+core p4-sport.svg 142 '第 4 版 · 台灣大賽封王 · The Taiwan Series is decided'
+core p4-sport.svg 242 '味全龍封王！6比0完封兄弟'
+core p4-sport.svg 772.78 '完封：對手得0分，叫完封。封王：拿'
+core p4-sport.svg 810.78 '下總冠軍，叫封王。全壘打：一棒打出'
+core p4-sport.svg 246.5 'Notes｜Four words: 完封 (shutout), 封王'
+core p4-sport.svg 2228.2249999999995 '62. 封王'
+core p4-sport.svg 891.1000000000001 '· 系列賽：龍隊 4勝2敗封王'
+core p7-lang.svg 336.86 'stick: winning （封王、完封） and winter'
+core p7-lang.svg 432.72 'Group the words: winning （封王/完封）,'
+core p7-lang.svg 522.6700000000001 '封王 means clinching the championship;'
+core p7-lang.svg 1355.2699999999998 'Memory trick: learn 封王 first, then the'
+core p8-test.svg 765.4899999999998 '— 台灣大賽誰封王？ — 味全龍，___勝2敗。(A. 3 · B. 4)'
+core p8-test.svg 1777.1759999999995 '55. 封王 — Winning the title is 封王.'
+core p8-test.svg 1974.1279999999992 '62. b — 封王 — clinching the championship.'
+core p8-test.svg 2044.1999999999991 '105. 封王 — Winning the title is 封王.'
+core p8-test.svg 1622.1599999999996 '132. 封王 — Winning the title is 封王.'
+ed p1-front.svg 410 '金融科技週 · 台北旅展 · 味全龍封王——本週台港最熱的三件事'
+ed p1-front.svg 1508.5 '· 上週回顧：10/26 味全龍封王；福隆'
+ed p2-life.svg 1384 '封王優惠 · Offerte dei campioni'
+ed p2-life.svg 1438 '· 味全龍封王後，合作品牌推出慶祝優'
+ed p4-sport.svg 142 '第 4 版 · 台灣大賽封王 · La Serie di Taiwan è decisa'
+ed p4-sport.svg 242 '味全龍封王！6比0完封兄弟'
+ed p4-sport.svg 852.26 '完封：對手得0分，叫完封。封王：拿'
+ed p4-sport.svg 890.26 '下總冠軍，叫封王。全壘打：一棒打出'
+ed p4-sport.svg 276.225 '封王 (vincere il titolo), 全壘打'
+ed p4-sport.svg 2228.2249999999995 '62. 封王'
+ed p4-sport.svg 891.1000000000001 '· 系列賽：龍隊 4勝2敗封王'
+ed p7-lang.svg 336.86 'restano in mente: vincere （封王、完封）'
+ed p7-lang.svg 432.72 'Raggruppa le parole: vincere （封王/完封）,'
+ed p7-lang.svg 522.6700000000001 '封王 significa vincere il campionato; 完封'
+ed p7-lang.svg 1355.2699999999998 'Trucco di memoria: impara prima 封王 e'
+ed p8-test.svg 765.4899999999998 '— 台灣大賽誰封王？ — 味全龍，___勝2敗。(A. 3 · B. 4)'
+ed p8-test.svg 1777.1759999999995 '55. 封王 (Vincere il titolo è fēng wáng.)'
+ed p8-test.svg 2114.807999999999 '105. 封王 (Vincere il titolo è fēng wáng.)'
+ed p8-test.svg 1706.5679999999995 '132. 封王 (Vincere il titolo è fēng wáng.)'

@@ -1,0 +1,62 @@
+{
+ "svgdir": "../files/weekly-report-w45-es-ja/svg",
+ "flags": [
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "El viernes 13: empieza la campaña electoral. El domingo 29: ",
+   "box": [
+    93.0,
+    2564.6,
+    1555.5,
+    2587.8
+   ],
+   "detail": "ink bottom 2587.8 below footer rule 2580 (baseline 2582.08)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "El viernes 13: empieza la campaña electoral. El domingo 29: ",
+   "box": [
+    93.0,
+    2564.6,
+    1555.5,
+    2587.8
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@179"
+  }
+ ],
+ "flag_count": 2,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "El viernes 13: empieza la campaña electoral. El domingo 29: ",
+   "box": [
+    93.0,
+    2564.6,
+    1555.5,
+    2587.8
+   ],
+   "detail": "ink bottom 2587.8 below footer rule 2580 (baseline 2582.08)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "El viernes 13: empieza la campaña electoral. El domingo 29: ",
+   "box": [
+    93.0,
+    2564.6,
+    1555.5,
+    2587.8
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@179"
+  }
+ ],
+ "new_flag_count": 2
+}

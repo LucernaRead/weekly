@@ -1,0 +1,41 @@
+core 150/150 last-occurrence parse OK
+de vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Offene Aufgabe — Punkte siehe Schreibbox; Mustertext in der Schreibbox auf Seite 8 (Nach Punkten bewertet)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+en vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Open question — see the writing box for the points; model text in the page 8 writing box (Marked on the points)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+es vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Pregunta abierta — puntos en el recuadro; modelo en el recuadro de la página 8 (Se califica por puntos)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+it vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Domanda aperta — punti nel riquadro; modello nel riquadro a pagina 8 (Valutazione per punti)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+ja vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', '自由作文 — 採点ポイントは枠内。モデルは8ページの枠内 (ポイント制で採点)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+ko vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', '자유 작문 — 채점 포인트는 상자 안. 모범 답안은 8면 상자 안 (포인트 채점)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+nl vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Open vraag — punten in het kader; model in het kader op pagina 8 (Beoordeling per punt)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+pt vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Pergunta aberta — pontos no quadro; modelo no quadro da página 8 (Avaliação por pontos)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+ru vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', 'Открытый вопрос — баллы в рамке; образец в рамке на с. 8 (Оценка по баллам)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+zh-cn vs core head-diffs (last occurrence): NONE except none -- all 150 identical incl 135-139 keys
+zh-tw vs core head-diffs (last occurrence): [(150, '开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）', '開放題——評分點在方框內；範文在第8版方框內 (按點評分)')]
+   135-139 keys: ["Lire un programme, c'est déjà comprendre la France.", 'Il court plus vite que son frère.', 'Les élèves sont en vacances depuis le 9 novembre.', 'Ce soir, nous allons préparer nos affaires.', 'On ne connaît pas encore les résultats.']
+
+core SVG match-rights continuous-order: OK all 5 blocks
+de SVG match-rights continuous-order: OK all 5 blocks
+en SVG match-rights continuous-order: OK all 5 blocks
+es SVG match-rights continuous-order: OK all 5 blocks
+it SVG match-rights continuous-order: OK all 5 blocks
+ja SVG match-rights continuous-order: OK all 5 blocks
+ko SVG match-rights continuous-order: OK all 5 blocks
+nl SVG match-rights continuous-order: OK all 5 blocks
+pt SVG match-rights continuous-order: OK all 5 blocks
+ru SVG match-rights continuous-order: OK all 5 blocks
+zh-cn SVG match-rights continuous-order: OK all 5 blocks
+zh-tw SVG match-rights continuous-order: OK all 5 blocks
+core p2 letter-prefixed nodes: ['a. un bouquet de fleurs déposé en', "b. le feu qui brûle sans s'éteindre", "c. le lieu où l'on regarde des œuvres", "d. la première soirée d'une exposition"]
+core p8 letter-prefixed nodes: ['a. un élu du Sénat', 'b. un bouquet déposé en hommage', 'c. une photographie imprimée', 'd. une grande fête populaire', 'e. la petite fleur bleue du 11']
+ja p2 letter-prefixed nodes: ['a. un bouquet de fleurs déposé en', "b. le feu qui brûle sans s'éteindre", "c. le lieu où l'on regarde des œuvres", "d. la première soirée d'une exposition"]
+ja p8 letter-prefixed nodes: ['a. un élu du Sénat', 'b. un bouquet déposé en hommage', 'c. une photographie imprimée', 'd. une grande fête populaire', 'e. la petite fleur bleue du 11']
+ru p2 letter-prefixed nodes: ['a. un bouquet de fleurs déposé en', "b. le feu qui brûle sans s'éteindre", "c. le lieu où l'on regarde des œuvres", "d. la première soirée d'une exposition"]
+ru p8 letter-prefixed nodes: ['a. un élu du Sénat', 'b. un bouquet déposé en hommage', 'c. une photographie imprimée', 'd. une grande fête populaire', 'e. la petite fleur bleue du 11']

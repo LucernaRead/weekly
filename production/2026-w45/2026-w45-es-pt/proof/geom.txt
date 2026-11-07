@@ -1,0 +1,33 @@
+=== P5 exercise flow: max y of exercise texts (excluding footer y>=2580 band) ===
+  CORE max body y=2563.725 :: 'JUVENTUD · 青年'
+    tail: [(2402.0, 'C · IR A + INFINITIVO'), (2448.5, '用 ir a + 原形动词改写句子，表示“将要”。'), (2509.22, 'B1'), (2510.22, '76.'), (2510.22, '改写'), (2539.22, 'Vemos la NFL el domingo. → ___')]
+  ED max body y=2539.95 :: 'JUVENTUD · JUVENTUDE'
+    tail: [(2421.95, 'Sáinz-Villegas. ¿Verdadero o falso?'), (2480.95, 'B1'), (2481.95, '82.'), (2481.95, 'Verdadeiro ou falso'), (2510.95, 'Halloween llenó las calles el sábado 31.'), (2539.95, '¿Verdadero o falso?')]
+
+=== P7 col3 tail + preview rect ===
+  CORE rects y 2435-2445: [(65.0, 2440.08, 1820.0, 118.0)]
+  CORE rects y 2550-2565 (preview bottom): []
+    disclosure start [123] y=1632.2899999999997 :: 'Nota de la redacción: al cierre no había'
+      [123] y=1632.2899999999997 :: 'Nota de la redacción: al cierre no había'
+      [124] y=1660.6899999999998 :: 'cartas reales ni los mejores textos de la'
+      [125] y=1689.09 :: 'página 8; publicamos este ejemplo y la'
+      [126] y=1717.49 :: 'promesa pasa al VOL.3.'
+      [127] y=1775.89 :: '编辑部说明：截至本期截稿，未收到真实读'
+      [128] y=1804.2900000000002 :: '者来信与第 8 版最佳作文，故本期登载编辑'
+    max y<2400: 2375.75
+  ED rects y 2435-2445: [(65.0, 2440.08, 1820.0, 118.0)]
+  ED rects y 2550-2565 (preview bottom): []
+    disclosure start [123] y=1632.2899999999997 :: 'Nota de la redacción: al cierre no había'
+      [123] y=1632.2899999999997 :: 'Nota de la redacción: al cierre no había'
+      [124] y=1660.6899999999998 :: 'cartas reales ni los mejores textos de la'
+      [125] y=1689.09 :: 'página 8; publicamos este ejemplo y la'
+      [126] y=1717.49 :: 'promesa pasa al VOL.3.'
+      [127] y=1775.89 :: 'Nota da redação: ao fecho, sem cartas'
+      [128] y=1804.2900000000002 :: 'reais nem textos da pág. 8; sai este'
+    max y<2400: 2375.75
+
+=== P8 #137/#138 line counts (answer-section elements) ===
+  CORE #137: lines=1 y=[1994.0200000000018] :: ['137. 周一在九个自治区是假日。 — 对照原文']
+  CORE #138: lines=1 y=[2023.6800000000019] :: ['138. 周日我们看 NFL 和马竞–巴萨。 — 对照原文']
+  ED #137: lines=2 y=[1994.0200000000018, 2009.6800000000019] :: ['137. Na segunda-feira é feriado em nove comunidades. — Confira', 'no original']
+  ED #138: lines=2 y=[2039.340000000002, 2055.000000000002] :: ['138. No domingo vemos a NFL e o Atlético–Barça. — Confira no', 'original']

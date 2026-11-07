@@ -1,0 +1,22 @@
+--- rects y<1950: core 2 ed 2
+  core-only: 0 ed-only: 0
+--- texts y<1950: core 100 ed 100
+  core-only: 2 ed-only: 2
+  CORE-ONLY: (78.0, 116.0, 'Noto Sans CJK SC', 36.0, 'A FONDO · 深读')
+  CORE-ONLY: (1872.0, 142.0, 'Noto Sans CJK SC', 19.0, 'NIVEL B2 · La vivienda decide la campaña · 住房决定选战')
+  ED-ONLY: (78.0, 116.0, 'Noto Sans CJK SC', 36.0, 'A FONDO · Achtergrond')
+  ED-ONLY: (1872.0, 142.0, 'Noto Sans CJK SC', 19.0, 'NIVEL B2 · La vivienda decide la campaña · Huisvesting beslist de campagne')
+--- core chart-area rects ---
+  (28.0, 28.0, 1894.0, 2644.0, 'none')
+  (40.0, 40.0, 1870.0, 2620.0, 'none')
+--- ed chart-area rects ---
+  (28.0, 28.0, 1894.0, 2644.0, 'none')
+  (40.0, 40.0, 1870.0, 2620.0, 'none')
+core (65.0, 854.68, 'Noto Serif CJK SC', 25.0, 'delante de la inmigración (20,9 %)')
+core (1011.0, 1717.0, 'Noto Serif CJK SC', 21.0, 'Inmigración')
+core (1011.0, 1880.75, 'Noto Sans CJK SC', 17.5, 'puntos en un mes. Segundo: la inmigración. Tercero: la economía.')
+core (65.0, 2402.975000000001, 'Noto Serif CJK SC', 19.0, 'economía · B. la inmigración · C. la vivienda')
+ed (65.0, 854.68, 'Noto Serif CJK SC', 25.0, 'delante de la inmigración (20,9 %)')
+ed (1011.0, 1717.0, 'Noto Serif CJK SC', 21.0, 'Inmigración')
+ed (1011.0, 1880.75, 'Noto Sans CJK SC', 17.5, 'puntos en un mes. Segundo: la inmigración. Tercero: la economía.')
+ed (65.0, 2425.574999999999, 'Noto Serif CJK SC', 18.5, 'economía · B. la inmigración · C. la vivienda')

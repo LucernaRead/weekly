@@ -1,0 +1,180 @@
+--- #17 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: preguntan — todos → preguntan
+  ED   seg: preguntan — todos → preguntan (pluriel)
+  CORE dashkey: 'preguntan' | ED dashkey: 'preguntan'
+  toolkeys core='preguntan' ed='preguntan — todos → preguntan'
+--- #18 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: anochece — anochecer → anochece
+  ED   seg: anochece — anochecer → anochece (3e personne)
+  CORE dashkey: 'anochece' | ED dashkey: 'anochece'
+  toolkeys core='anochece' ed='anochece — anochecer → anochece'
+--- #20 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: dura — el fin de semana → dura
+  ED   seg: dura — el fin de semana → dura (singulier)
+  CORE dashkey: 'dura' | ED dashkey: 'dura'
+  toolkeys core='dura' ed='dura — el fin de semana → dura'
+--- #25 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: b — puente=三天连休 b
+  ED   seg: b — puente = le pont de trois jours (b)
+  CORE dashkey: 'b' | ED dashkey: 'b'
+  toolkeys core='b' ed='b — puente = le pont de trois jours'
+--- #26 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: a — festivo=放假的 a
+  ED   seg: a — festivo = en congé (a)
+  CORE dashkey: 'a' | ED dashkey: 'a'
+  toolkeys core='a' ed='a — festivo = en congé'
+--- #27 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: c — anochecer=天黑 c
+  ED   seg: c — anochecer = la tombée de la nuit (c)
+  CORE dashkey: 'c' | ED dashkey: 'c'
+  toolkeys core='c' ed='c — anochecer = la tombée de la nuit'
+--- #28 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: d — comunidad=自治区 d
+  ED   seg: d — comunidad = la communauté autonome (d)
+  CORE dashkey: 'd' | ED dashkey: 'd'
+  toolkeys core='d' ed='d — comunidad = la communauté autonome'
+--- #52 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: b — jornada=轮次 b
+  ED   seg: b — jornada = la journée (b)
+  CORE dashkey: 'b' | ED dashkey: 'b'
+  toolkeys core='b' ed='b — jornada = la journée'
+--- #53 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: a — recibir=主场迎战 a
+  ED   seg: a — recibir = recevoir à domicile (a)
+  CORE dashkey: 'a' | ED dashkey: 'a'
+  toolkeys core='a' ed='a — recibir = recevoir à domicile'
+--- #54 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: d — visitar=客场挑战 d
+  ED   seg: d — visitar = jouer à l'extérieur (d)
+  CORE dashkey: 'd' | ED dashkey: 'd'
+  toolkeys core='d' ed="d — visitar = jouer à l'extérieur"
+--- #55 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: c — recortar=缩小分差 c
+  ED   seg: c — recortar = réduire l'écart (c)
+  CORE dashkey: 'c' | ED dashkey: 'c'
+  toolkeys core='c' ed="c — recortar = réduire l'écart"
+--- #60 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: El Madrid ganó 2–1 en el Camp Nou. — ganar → ganó
+  ED   seg: El Madrid ganó 2–1 en el Camp Nou. — ganar → ganó (passé)
+  CORE dashkey: 'El Madrid ganó 2–1 en el Camp Nou.' | ED dashkey: 'El Madrid ganó 2–1 en el Camp Nou.'
+  toolkeys core='El Madrid ganó 2–1 en el Camp Nou.' ed='El Madrid ganó 2–1 en el Camp Nou. — ganar → ganó'
+--- #61 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: Mbappé marcó dos goles. — marcar → marcó
+  ED   seg: Mbappé marcó dos goles. — marcar → marcó (passé)
+  CORE dashkey: 'Mbappé marcó dos goles.' | ED dashkey: 'Mbappé marcó dos goles.'
+  toolkeys core='Mbappé marcó dos goles.' ed='Mbappé marcó dos goles. — marcar → marcó'
+--- #62 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: El Barça perdió su primer partido. — perder → perdió
+  ED   seg: El Barça perdió su primer partido. — perder → perdió (passé)
+  CORE dashkey: 'El Barça perdió su primer partido.' | ED dashkey: 'El Barça perdió su primer partido.'
+  toolkeys core='El Barça perdió su primer partido.' ed='El Barça perdió su primer partido. — perder → perdió'
+--- #63 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: Mourinho recortó la distancia. — recortar → recortó
+  ED   seg: Mourinho recortó la distancia. — recortar → recortó (passé)
+  CORE dashkey: 'Mourinho recortó la distancia.' | ED dashkey: 'Mourinho recortó la distancia.'
+  toolkeys core='Mourinho recortó la distancia.' ed='Mourinho recortó la distancia. — recortar → recortó'
+--- #83 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: A — CIS 里 PSOE 第一（34%）
+  ED   seg: A — au CIS, le PSOE est premier (34 %)
+  CORE dashkey: 'A' | ED dashkey: 'A'
+  toolkeys core='A — CIS 里 PSOE 第一' ed='A — au CIS, le PSOE est premier'
+--- #85 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: C — 住房是首要问题（55,7%）
+  ED   seg: C — le logement est le premier problème (55,7 %)
+  CORE dashkey: 'C' | ED dashkey: 'C'
+  toolkeys core='C — 住房是首要问题' ed='C — le logement est le premier problème'
+--- #93 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: tenga — es posible que + 虚拟式 tenga
+  ED   seg: tenga — es posible que + subjonctif (tenga)
+  CORE dashkey: 'tenga' | ED dashkey: 'tenga'
+  toolkeys core='tenga' ed='tenga — es posible que + subjonctif'
+--- #94 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: sea — es importante que + 虚拟式 sea
+  ED   seg: sea — es importante que + subjonctif (sea)
+  CORE dashkey: 'sea' | ED dashkey: 'sea'
+  toolkeys core='sea' ed='sea — es importante que + subjonctif'
+--- #95 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: para que — para que + 虚拟式（目的）
+  ED   seg: para que — para que + subjonctif (but)
+  CORE dashkey: 'para que' | ED dashkey: 'para que'
+  toolkeys core='para que — para que + 虚拟式' ed='para que — para que + subjonctif'
+--- #96 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: Aunque — Aunque 后接陈述式（已知事实）
+  ED   seg: Aunque — Aunque + indicatif (fait connu)
+  CORE dashkey: 'Aunque' | ED dashkey: 'Aunque'
+  toolkeys core='Aunque — Aunque 后接陈述式' ed='Aunque — Aunque + indicatif'
+--- #98 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: muestra — muestra = 样本（5.025 人）
+  ED   seg: muestra — muestra = l'échantillon (5 025 personnes)
+  CORE dashkey: 'muestra' | ED dashkey: 'muestra'
+  toolkeys core='muestra — muestra = 样本' ed="muestra — muestra = l'échantillon"
+--- #107 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: mejor — bueno 的比较级是 mejor（不用 más）
+  ED   seg: mejor — le comparatif de bueno est mejor (sans más)
+  CORE dashkey: 'mejor' | ED dashkey: 'mejor'
+  toolkeys core='mejor — bueno 的比较级是 mejor' ed='mejor — le comparatif de bueno est mejor'
+--- #109 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: baje — es necesario que + 虚拟式 baje
+  ED   seg: baje — es necesario que + subjonctif (baje)
+  CORE dashkey: 'baje' | ED dashkey: 'baje'
+  toolkeys core='baje' ed='baje — es necesario que + subjonctif'
+--- #110 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: sea — para que + 虚拟式 sea
+  ED   seg: sea — para que + subjonctif (sea)
+  CORE dashkey: 'sea' | ED dashkey: 'sea'
+  toolkeys core='sea' ed='sea — para que + subjonctif'
+--- #111 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: es — creo que + 陈述式 es
+  ED   seg: es — creo que + indicatif (es)
+  CORE dashkey: 'es' | ED dashkey: 'es'
+  toolkeys core='es' ed='es — creo que + indicatif'
+--- #117 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: A — acoger = 承办（伯纳乌承办 NFL）
+  ED   seg: A — acoger = accueillir (le Bernabéu accueille la NFL)
+  CORE dashkey: 'A' | ED dashkey: 'A'
+  toolkeys core='A — acoger = 承办' ed='A — acoger = accueillir'
+--- #137 dash_equal=False ed_method=dash tailparen=False
+  CORE seg: 周一在九个自治区是假日。 — 对照原文
+  ED   seg: Le lundi est férié dans neuf communautés. — d'après le texte
+  CORE dashkey: '周一在九个自治区是假日。' | ED dashkey: 'Le lundi est férié dans neuf communautés.'
+  toolkeys core='周一在九个自治区是假日。' ed='Le lundi est férié dans neuf communautés.'
+--- #138 dash_equal=False ed_method=dash tailparen=False
+  CORE seg: 周日我们看 NFL 和马竞–巴萨。 — 对照原文
+  ED   seg: Le dimanche, nous regardons la NFL et l'Atlético–Barça. — d'après le texte
+  CORE dashkey: '周日我们看 NFL 和马竞–巴萨。' | ED dashkey: "Le dimanche, nous regardons la NFL et l'Atlético–Barça."
+  toolkeys core='周日我们看 NFL 和马竞–巴萨。' ed="Le dimanche, nous regardons la NFL et l'Atlético–Barça."
+--- #141 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: c — sondeo=民调 c
+  ED   seg: c — sondeo = le sondage (c)
+  CORE dashkey: 'c' | ED dashkey: 'c'
+  toolkeys core='c' ed='c — sondeo = le sondage'
+--- #142 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: d — muestra=样本 d
+  ED   seg: d — muestra = l'échantillon (d)
+  CORE dashkey: 'd' | ED dashkey: 'd'
+  toolkeys core='d' ed="d — muestra = l'échantillon"
+--- #143 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: b — margen de error=误差范围 b
+  ED   seg: b — margen de error = la marge d'erreur (b)
+  CORE dashkey: 'b' | ED dashkey: 'b'
+  toolkeys core='b' ed="b — margen de error = la marge d'erreur"
+--- #144 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: a — junta electoral=选举委员会 a
+  ED   seg: a — junta electoral = la commission électorale (a)
+  CORE dashkey: 'a' | ED dashkey: 'a'
+  toolkeys core='a' ed='a — junta electoral = la commission électorale'
+--- #148 dash_equal=True ed_method=paren tailparen=True
+  CORE seg: A — firmar = 签（合同）
+  ED   seg: A — firmar = signer (le contrat)
+  CORE dashkey: 'A' | ED dashkey: 'A'
+  toolkeys core='A — firmar = 签' ed='A — firmar = signer'
+ALL-150 dashkey diffs: [137, 138]
+#139 CORE seg: El Bernabéu acoge un partido de la NFL. — acoger = 承办
+#139 ED   seg: El Bernabéu acoge un partido de la NFL. — acoger = accueillir
+#139 dashkeys core='El Bernabéu acoge un partido de la NFL.' ed='El Bernabéu acoge un partido de la NFL.' methods core=dash ed=dash
+#140 CORE seg: Cada gráfico tiene que llevar su fuente. — tener que = 必须
+#140 ED   seg: Cada gráfico tiene que llevar su fuente. — tener que = devoir
+#140 dashkeys core='Cada gráfico tiene que llevar su fuente.' ed='Cada gráfico tiene que llevar su fuente.' methods core=dash ed=dash
+#150 CORE seg: ✓ 范文见本版 H 区（84 词）
+#150 ED   seg: ✓ Texte modèle dans la section H de cette page (84 mots)
+#150 dashkeys core='✓' ed='✓' methods core=check ed=check

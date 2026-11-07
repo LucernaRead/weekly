@@ -1,0 +1,29 @@
+### 1. right-edge ADVANCE scan (flag: advance-right > 1886)
+  max p8-exercices.svg: advance-right 1903.8 'd. the paper you mark your choice on'
+  max p8-exercices.svg: advance-right 1899.4 'b. an election in the middle of a term'
+  max p8-exercices.svg: advance-right 1891.3 'Everybody has one on their jacket. — The'
+  max p8-exercices.svg: advance-right 1890.3 '— Good morning ! Is this the voting place'
+  max p4-sport.svg: advance-right 1888.6 'Frank R. Snyder — public domain, via Wikimedia Commons'
+  max p8-exercices.svg: advance-right 1885.0 '第 8 版 / 共 8 版'
+  flags: 5
+### 2. frame-line pressure scan (later rect border x earlier text ink)
+  pressure flags: 0
+### 3. P6 chart-label coverage (anchor 'ls' ink vs later rects, gate <30%)
+  labels found: 4
+  'No lines : 38%' ink (527.0, 1170.4, 683.0, 1189.4) max coverage 0.0% PASS
+  'Work on Tuesday : 29%' ink (527.0, 1222.0, 785.0, 1247.0) max coverage 0.0% PASS
+  'Travel plans : 21%' ink (527.0, 1275.6, 729.0, 1299.6) max coverage 0.0% PASS
+  'Habit : 12%' ink (527.0, 1328.2, 655.0, 1347.2) max coverage 0.0% PASS
+### 4. same-baseline furniture spacing (gap < 0 = overlap)
+  p1-front.svg y=92: gaps [564.0, 277.0] ok
+  p1-front.svg y=478: gaps [288.0] ok
+  p1-front.svg y=522: gaps [213.0] ok
+  p1-front.svg y=2624: gaps [1118.0] ok
+  p2-life.svg y=2624: gaps [1118.0] ok
+  p3-culture.svg y=2624: gaps [1118.0] ok
+  p4-sport.svg y=2624: gaps [1118.0] ok
+  p5-jeunesse.svg y=2624: gaps [1118.0] ok
+  p6-politique.svg y=2624: gaps [1118.0] ok
+  p7-langue.svg y=2624: gaps [1118.0] ok
+  p8-exercices.svg y=522: gaps [51.0, 134.0] ok
+  p8-exercices.svg y=2624: gaps [1118.0] ok

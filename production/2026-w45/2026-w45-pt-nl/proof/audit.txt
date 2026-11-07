@@ -1,0 +1,149 @@
+== 1a CJK per page (rendered text nodes) ==
+  p1-capa: edition 0 core 156
+  p2-vida: edition 0 core 177
+  p3-cultura: edition 0 core 153
+  p4-esporte: edition 0 core 148
+  p5-jovens: edition 0 core 223
+  p6-aprofundamento: edition 0 core 118
+  p7-lingua: edition 0 core 357
+  p8-avaliacao: edition 0 core 1123
+  edition total CJK: 0
+== 1b forbidden terms in rendered text ==
+  '桥接': pages []
+  'Bridge': pages []
+  'bridge': pages []
+  'NOCH EIN WORT': pages []
+  'meedoen': pages []
+  'HINWEIS': pages []
+  'Seite': pages []
+  'EXPLICATIONS': pages []
+  'EXPLICACIONES': pages []
+  'SPIEGAZIONI': pages []
+  'Nota — ': pages []
+== 1c freeze-diff removed/added strings (from canonical diff json) ==
+  diff keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+{"core_svg": "../files/weekly-report-w45-pt-core/svg", "edition_svg": "../files/weekly-report-w45-pt-nl/svg", "pages": {"1": {"added_strings": [{"text": "(zondag: de poorten openen om 12h)", "count": 1}, {"text": "12h — os portões abrem no domingo 8", "count": 1}, {"text": "13h — os portões fecham (13h: de", "count": 1}, {"text": "13h30–19h — a prova do dia 8 (het", "count": 1}, {"text": "2 nov Finados-weekend · 8 nov dag 1 van het Enem", "count": 1}, {"text": "5h30 — a duração da prova do dia 8 (het", "count": 1}, {"text": "A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UIT
+== 2 P7 word box ==
+  definition verbatim in edition P7: True
+  definition verbatim in core P7: True
+  gloss on p1-capa: feriadão = het lange feestweekend 
+  gloss on p2-vida: feriadão = het lange feestweekend 
+  gloss on p7-lingua: feriadão = het lange feestweekend, drie dagen. CARTAS DOS LEITORES «Vou fazer o Enem no domingo 8. Já conferi o cartão. Boa prova!» — EXEMPLO DA REDAÇÃO Voorbeeld van de redactie — geen echte brief. Stuur je brief op: de beste verschijnen op pagina 7 in VOL.3! Nota da redação: as cartas reais e os melhores textos prometidos no VOL.1 não chegaram até o fechamento — fica o exemplo, e a promessa passa para o VOL.3. Opmerking van de redactie: de echte brieven en beste teksten uit VOL.1 waren nog niet binnen — het voorbeeld blijft, de belofte gaat naar VOL.3. FRASES DA SEMANA 
+  core gloss on p7-lingua: feriadão = 连休长周末，共三天。 CARTAS DOS LEITORES «Vou fazer o Enem no domingo 8. Já conferi o cartão. Boa prova!» — EXEMPLO DA REDAÇÃO 编辑部示例，非真实来信。真实来信请寄编 辑部，下期见！ Nota da redação: as cartas reais e os melhores textos prometidos no VOL.1 não chegaram até o fechamento — fica o exemplo, e a promessa passa para o VOL.3. 编辑部说明：上期承诺的真实来信与最佳作文 截稿时未收到，本期仍刊示例，顺延至下期。 FRASES DA SEMANA 
+  gloss on p8-avaliacao: feriadão = het lange feestweekend 2. portões — portões = de poorten (van de examenlocatie) 3. redação — redação = het opstel 4. 13h30 — 13h30: het examen begint (tijd van Brasília) 5. 19h — 19h: het examen eindigt 6. revisam — revisar, tegenwoordige tijd (eles): revisam 7. B — Het lange weekend loopt van 31 oktober tot 2 november 8. B — De poorten sluiten om 13h 9. C — Dag 1: opstel, talen en menswetenschappen 10. B — De returns zijn op 7 en 8 november — Pagina 2 — 11. B — Het lange weekend loopt van 31 oktober tot 2 november 12. B — Op Finados bezoeken families begraafplaatsen en brengen ze bloemen 13. B — De bevestigingskaart toont de examenlocatie 14. B — De poorten sluiten om 13h 15. A — Brazilië heeft geen zomertijd: de klokken verzetten niet 16. confere — conferir: ele → confere 17. abre — abrir: ele → abre 18. levamos — levar: nós → levamos 19. começa — começar: ela → começa 20. é — ser, tegenwoordige tijd (ela): é 21. 1 — 12h tot 13h = 1 uur 22. 5 — 13:30 tot 19:00 = vijf en een half uur 23. 330 — 5×60 + 30 = 330 minuten 24. 3 — 31e, 1e, 2e = 3 dagen 25. c — feriadão = een feestdag vast aan het weekend (c) 26. b — cemitério = waar de graven zijn (b) 27. d — vela = wat je aansteekt ter nagedachtenis (d) 28. a — crisântemo = de bloem die je op Finados meeneemt (a) — Pagina 3 — 29. B — Finados is een dag van herinnering en stilte 30. B — Families nemen bloemen mee naar begraafplaatsen, vooral chrysanten 31. B — In kerken en op begraafplaatsen zijn er de hele dag missen 32. C — Halloween was op zaterdag 31 oktober 33. A — Herinneren is een manier om dichtbij te blijven 34. túmulo — túmulo = het graf 35. vela — vela = de kaars 36. crisântemo — crisântemo = de chrysant 37. missa — missa = de mis 38. silêncio — silêncio = de stilte 39. lembrança — lembrança = de herinnering 40. visitaram — visitar, verleden tijd (elas): visitaram 41. levaram — levar, verleden tijd (elas): levaram 42. foi — ser, verleden tijd (ele): foi 43. viveu — viver, verleden tijd (ele): viveu 44. Finados é um dia de silêncio. — Onderwerp + é + gezegde 45. As famílias levam flores ao cemitério. — Onderwerp + werkwoord + voorwerp + plaats 46. O Brasil lembra os seus mortos. — Onderwerp + werkwoord + voorwerp — Pagina 4 — 47. A — De return Atlético-MG × Grêmio is op zaterdag 7 november om 18h 48. B — De return Vasco × Palmeiras is op zondag 8 november om 17h, in São Januário 49. A — De heenwedstrijden waren op zondag 1 november 50. B — Speelronde 34 heeft van maandag tot vrijdag wedstrijden 51. A — Wie over twee wedstrijden wint, bereikt de finale 52. b — finalista = het team dat de finale bereikt (b) 53. c — ida = de eerste wedstrijd van een tweeluik (c) 54. a — volta = de tweede wedstrijd van een tweeluik (a) 55. d — rodada = een speelronde (d) 56. mais — De return beslist wie de finale haalt: mais 57. mais — 18 > 16: mais 58. mais — 17 < 18: mais cedo 59. mais — Speelronde 34 loopt van maandag tot vrijdag: mais 60. foram — ser, verleden tijd (meervoud): foram 61. recebeu — receber, verleden tijd (ele): recebeu 62. recebeu — receber, verleden tijd (ele): recebeu 63. começou — começar, verleden tijd (ela): começou 64. chegaram — chegar, verleden tijd (eles): chegaram — Pagina 5 — 65. B — De eindsprint eindigt op zondag 8 november 66. B — Herhaal elke dag een beetje 67. A — Leg document en zwarte pen een dag eerder klaar 68. B — Dag 2: natuurwetenschappen en wiskunde 69. B — Op dinsdag 3 november keren de deelstaatparlementen terug van reces 70. reta final — reta final = de eindsprint 71. inscritos — inscrito in het meervoud: inscritos 72. véspera — véspera = de vooravond 73. maratona — maratona = de lastminutemarathon 74. local — local = de locatie 75. Separe — separar, gebiedende wijs: separe 76. farão — fazer, toekomende tijd (eles, onregelmatig): farão 77. mostrará — mostrar, toekomende tijd: mostrará 78. sairão — sair, toekomende tijd (meervoud): sairão 79. chegará — chegar, toekomende tijd: chegará 80. Verdadeiro — De bevestigingskaart toont de examenlocatie 81. Falso — Fout: lastminute stampen is geen goed plan — elke dag een beetje herhalen wel 82. Verdadeiro — Juist: 13:30 tot 19:00 — Pagina 6 — 83. B — De poorten blijven 60 minuten open 84. A — Het wachten tussen sluiten en examen is 30 minuten 85. B — Het examen duurt 330 minuten 86. B — 60 + 30 + 330 = 420 87. C — Van de middag tot 19h = 7 uur 88. A — De cijfers in de grafiek zijn officiële tijden van het Inep 89. B — Het Enem valt op twee zondagen: 8 en 15 november 90. B — Dag 1: opstel, talen en menswetenschappen 91. B — Wie na 13h aankomt, komt er niet in 92. B — De bevestigingskaart toont de examenlocatie 93. começará — toekomende tijd: começará 94. chegar — quem + aanvoegende wijs toekomst: chegar 95. fecham — tegenwoordige tijd: fecham 96. pede — tegenwoordige tijd: pede 97. portões — portões = de poorten 98. segunda chamada — segunda chamada = een tweede kans, een tweede binnenkomst 99. local — local = de locatie 100. Confira — gebiedende wijs: confira — Pagina 7 — 101. confiro — conferir: eu → confiro (onregelmatig) 102. confere — conferir: você → confere 103. começa — começar: ela → começa 104. B — onde vraagt naar een plaats 105. revisei — revisar, verleden tijd: revisei 106. chegou — chegar, verleden tijd: chegou 107. dormiu — dormir, verleden tijd: dormiu 108. B — chegaram is de verleden tijd (meervoud) van chegar 109. tiver — quem + aanvoegende wijs toekomst: tiver 110. chegar — quando + aanvoegende wijs toekomst: chegar 111. for — se + aanvoegende wijs toekomst van ser: for 112. B — quando + toekomst → aanvoegende wijs toekomst for — Pagina 8 — 113. A — Dag 1 is op 8 november 114. B — De poorten sluiten om 13h 115. A — Het examen begint om 13:30 116. A — Finados is op 2 november 117. B — De return Vasco × Palmeiras is op 8 november 118. B — Het lange weekend duurt 3 dagen 119. A — Het examen van dag 8 duurt vijf en een half uur 120. B — Dag 2 is op 15 november 121. B — Het lange weekend loopt van 31 oktober tot 2 november 122. B — De bevestigingskaart is een document van het Enem 123. B — De return Atlético-MG × Grêmio is in de Arena MRV 124. B — Speelronde 34 heeft van maandag tot vrijdag wedstrijden 125. B — Op Finados brengen families bloemen mee 126. B — Halloween was op zaterdag 31 oktober 127. A — 330 is de duur van het examen in minuten 128. A — Finados heet ook de Dag van de Gelovige Zielen 129. B — Lucas woont in Belo Horizonte 130. B — In het lange weekend rust hij uit en herhaalt hij elke dag een beetje 131. B — De avond ervoor legt hij document en zwarte pen klaar en gaat hij vroeg slapen 132. B — Hij komt om 11h aan op de examenlocatie 133. Domingo é dia de prova. — Het tijdwoord staat vooraan 134. O candidato confere o cartão no aplicativo. — Onderwerp + werkwoord + voorwerp + plaats 135. Que horas começa a prova? — De vraagwoordgroep staat vooraan 136. O Brasil lembra os seus mortos. — Onderwerp + werkwoord + voorwerp 137. Zondag 8 november is de eerste dag van het Enem. — zie de kop van pagina 6 138. Controleer je kaart vóór zondag. — Confira = controleer 139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão = het lange weekend 140. Quando você chegar, apresente o documento com foto. — aanvoegende wijs toekomst chegar + gebiedende wijs apresente 141. b — feriadão = een feestdag vast aan het weekend (b) 142. d — portão = de ingang van de examenlocatie (d) 143. a — reta final = de laatste week vóór het examen (a) 144. c — segunda chamada = opnieuw binnenkomen na sluiting (bij het Enem onmogelijk) (c) 145. B — documento com foto = document met foto 146. A — seção = de examenzaal (de sectie) 147. B — De poorten sluiten om 13h 148. A — Het examen begint om 13:30 149. B — obrigado = dank je 150. ✓ voorbeeldtekst in deel H (93 woorden) A Lucerna 
+  core gloss on p8-avaliacao: feriadão = 连休长周末 2. portões — portões = 大门（考场大门） 3. redação — redação = 作文 4. 13h30 — 13h30 开考（巴西利亚时间） 5. 19h — 19h 结束 6. revisam — revisar 现在时 eles 形式：revisam 7. B — 连休从 10 月 31 日到 11 月 2 日 8. B — 13 点关门 9. C — 第 1 天考作文、语言与人文 10. B — 次回合在 7 日和 8 日 — PÁGINA 2 — 11. B — 连休从 10 月 31 日到 11 月 2 日 12. B — 亡灵节家人们去墓园献花 13. B — 确认卡显示考试地点 14. B — 13 点关门 15. A — 巴西没有夏令时，钟表不动 16. confere — conferir：ele → confere 17. abre — abrir：ele → abre 18. levamos — levar：nós → levamos 19. começa — começar：ela → começa 20. é — ser 现在时 ela 形式：é 21. 1 — 12 点到 13 点 = 1 小时 22. 5 — 13:30 至 19:00 = 5 个半小时 23. 330 — 5×60 + 30 = 330 分钟 24. 3 — 31 日、1 日、2 日 = 3 天 25. c — feriadão=连着周末的假期 c 26. b — cemitério=墓碑所在的地方 b 27. d — vela=点亮纪念的物品 d 28. a — crisântemo=亡灵节带去的花 a — PÁGINA 3 — 29. B — 亡灵节是怀念与安静的日子 30. B — 家人们带花去墓园，主要是菊花 31. B — 教堂和墓园整天都有弥撒 32. C — 万圣节在 10 月 31 日周六 33. A — 怀念是继续亲近的方式 34. túmulo — túmulo = 墓碑 35. vela — vela = 蜡烛 36. crisântemo — crisântemo = 菊花 37. missa — missa = 弥撒 38. silêncio — silêncio = 寂静 39. lembrança — lembrança = 怀念 40. visitaram — visitar 过去时 elas 形式：visitaram 41. levaram — levar 过去时 elas 形式：levaram 42. foi — ser 过去时 ele 形式：foi 43. viveu — viver 过去时 ele 形式：viveu 44. Finados é um dia de silêncio. — 主语 + é + 表语 45. As famílias levam flores ao cemitério. — 主语 + 动词 + 宾语 + 地 点 46. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语 — PÁGINA 4 — 47. A — 次回合米内罗竞技 × 格雷米奥在周六 7 日 18 点 48. B — 瓦斯科 × 帕尔梅拉斯次回合在周日 8 日 17 点，圣雅努阿里奥 49. A — 首回合在 11 月 1 日周日 50. B — 第 34 轮周一到周五每天都有比赛 51. A — 两回合总比分胜者进决赛 52. b — finalista=进决赛的球队 b 53. c — ida=对决的第一场 c 54. a — volta=对决的第二场 a 55. d — rodada=一轮比赛 d 56. mais — 次回合决定决赛名额：mais 57. mais — 18 > 16：mais 58. mais — 17 < 18：mais cedo 59. mais — 第 34 轮周一到周五都有比赛：mais 60. foram — ser 过去时复数：foram 61. recebeu — receber 过去时 ele 形式：recebeu 62. recebeu — receber 过去时 ele 形式：recebeu 63. começou — começar 过去时 ela 形式：começou 64. chegaram — chegar 过去时 eles 形式：chegaram — PÁGINA 5 — 65. B — 冲刺周在 11 月 8 日周日结束 66. B — 每天复习一点 67. A — 提前一天备好证件和黑笔 68. B — 第 2 天考自然科学与数学 69. B — 11 月 3 日周二各州议会结束休会 70. reta final — reta final = 最后冲刺阶段 71. inscritos — inscrito 配合复数：inscritos 72. véspera — véspera = 前夕 73. maratona — maratona = 突击马拉松 74. local — local = 地点 75. Separe — separar 祈使式：separe 76. farão — fazer 将来时 eles 不规则形式：farão 77. mostrará — mostrar 将来时：mostrará 78. sairão — sair 将来时复数：sairão 79. chegará — chegar 将来时：chegará 80. Verdadeiro — 确认卡显示考试地点 81. Falso — 错：考前突击不是好计划，每天复习一点才好 82. Verdadeiro — 对：13:30 至 19:00 — PÁGINA 6 — 83. B — 大门开放 60 分钟 84. A — 关门到开考之间等 30 分钟 85. B — 考试 330 分钟 86. B — 60 + 30 + 330 = 420 87. C — 中午到 19 点 = 7 小时 88. A — 图表数字是 Inep 官方时间 89. B — 高考分 8 日和 15 日两个周日 90. B — 第 1 天考作文、语言与人文 91. B — 13 点后到场不得入内 92. B — 确认卡显示考试地点 93. começará — 将来时：começará 94. chegar — quem + 虚拟式将来：chegar 95. fecham — 现在时：fecham 96. pede — 现在时：pede 97. portões — portões = 大门 98. segunda chamada — segunda chamada = 补考、第二次入场 99. local — local = 地点 100. Confira — 祈使式：confira — PÁGINA 7 — 101. confiro — conferir：eu → confiro（不规则） 102. confere — conferir：você → confere 103. começa — começar：ela → começa 104. B — onde 问地点 105. revisei — revisar 过去时：revisei 106. chegou — chegar 过去时：chegou 107. dormiu — dormir 过去时：dormiu 108. B — chegaram 是 chegar 的过去时复数 109. tiver — quem + 虚拟式将来：tiver 110. chegar — quando + 虚拟式将来：chegar 111. for — se + ser 的虚拟式将来：for 112. B — quando + 未来 → 虚拟式将来 for — PÁGINA 8 — 113. A — 第 1 天在 11 月 8 日 114. B — 13 点关门 115. A — 13:30 开考 116. A — 亡灵节在 11 月 2 日 117. B — 瓦斯科 × 帕尔梅拉斯次回合在 8 日 118. B — 连休共 3 天 119. A — 考试时长 5 个半小时 120. B — 第 2 天在 11 月 15 日 121. B — 连休从 10 月 31 日到 11 月 2 日 122. B — 确认卡是高考的文件 123. B — 米内罗竞技 × 格雷米奥次回合在 MRV 竞技场 124. B — 第 34 轮周一到周五都有比赛 125. B — 亡灵节家人们带花 126. B — 万圣节在 10 月 31 日周六 127. A — 330 是考试的分钟数 128. A — 亡灵节又称诸圣灵魂日 129. B — 卢卡斯住在贝洛奥里藏特 130. B — 连休里他休息并每天复习一点 131. B — 前一晚他备好证件和黑笔、早睡 132. B — 他 11 点到达考场 133. Domingo é dia de prova. — 时间词在前 134. O candidato confere o cartão no aplicativo. — 主语 + 动词 + 宾 语 + 地点 135. Que horas começa a prova? — 疑问词组在句首 136. O Brasil lembra os seus mortos. — 主语 + 动词 + 宾语 137. 11 月 8 日周日是高考的第一天。 — 对照第 6 版标题 138. 周日前核对确认卡。 — Confira = 请核对 139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão = 连休 140. Quando você chegar, apresente o documento com foto. — 虚 拟式将来 chegar + 祈使 apresente 141. b — feriadão=连着周末的假期 b 142. d — portão=考场入口 d 143. a — reta final=考前最后一周 a 144. c — segunda chamada=关门后的再入场（高考没有） c 145. B — documento com foto 带照片的证件 146. A — seção = 考场分区（房间） 147. B — 大门 13 点关闭 148. A — 考试 13:30 开始 149. B — obrigado = 谢谢 150. ✓ 范文见本版 H 区（93 词） A Lucerna 
+  DE/NL-family word-box markers in edition: []
+== 5 gloss boxes (rendered 'Uitleg — ' boxes, split on ·) ==
+  p2-vida: boxes=4 items=4
+      - o feriadão = het lange
+      - Lees het artikel op pagina 2 en kies
+      - Vul de tegenwoordige tijd van het
+      - Vul de getallen van pagina 1 en 2 in.
+  p3-cultura: boxes=5 items=6
+      - o túmulo = het graf
+      - a flor = de
+      - Lees het artikel op pagina 3 en kies
+      - Vul de woorden uit het kader in.
+      - Vul de verleden tijd (pretérito
+      - Zet de woorden in de juiste
+  p4-esporte: boxes=4 items=5
+      - a ida = de heenwedstrijd
+      - a
+      - Lees het artikel op pagina 4 en kies
+      - Vul de juiste vergrotende trap tussen
+      - Maak de zinnen af in de verleden tijd
+  p5-jovens: boxes=4 items=5
+      - a reta final = de eindsprint
+      - a
+      - Lees het artikel op pagina 5 en kies
+      - Vul de woorden uit het kader in. Let
+      - Vul de toekomende tijd (futuro do
+  p6-aprofundamento: boxes=4 items=5
+      - os portões = de poorten
+      - a
+      - Kijk naar de twee grafieken
+      - Vul de juiste werkwoordsvorm bij
+      - Vul de woorden uit het kader in:
+  TOTAL gloss items: 25
+  gloss prefix 'Uitleg — ' present on all 5 pages: True
+  any gloss box starting with other prefix: []
+== 5 P7 quotes 2x + tagged page ==
+  'Do feriadão à prova: a semana do Enem' tag=Página 1 total=2 per-page={'p1-capa': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p1-capa: 1x ; on P7: 1x ; tag on P7: True
+  'Muita gente viaja, visita a família e vai ao cemit' tag=Página 1 total=2 per-page={'p1-capa': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p1-capa: 1x ; on P7: 1x ; tag on P7: True
+  'Finados é o dia da memória' tag=Página 2 total=2 per-page={'p2-vida': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p2-vida: 1x ; on P7: 1x ; tag on P7: True
+  'lembrar é um jeito de continuar perto' tag=Página 3 total=2 per-page={'p3-cultura': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p3-cultura: 1x ; on P7: 1x ; tag on P7: True
+  'cada ponto vale uma posição, cada gol vale uma his' tag=Página 4 total=2 per-page={'p4-esporte': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p4-esporte: 1x ; on P7: 1x ; tag on P7: True
+  'quem dorme bem lembra melhor' tag=Página 5 total=2 per-page={'p5-jovens': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p5-jovens: 1x ; on P7: 1x ; tag on P7: True
+  'primeiro as fáceis, depois as difíceis' tag=Página 6 total=2 per-page={'p6-aprofundamento': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p6-aprofundamento: 1x ; on P7: 1x ; tag on P7: True
+  'Confira o cartão, durma bem, chegue cedo' tag=Página 2 total=2 per-page={'p2-vida': 1, 'p7-lingua': 1} on_tagged_page=
+      on source page p2-vida: 1x ; on P7: 1x ; tag on P7: True
+== 6 readers corner ==
+  disc PT verbatim: True
+  example verbatim: True
+  invitation verbatim: True
+  NL frag 'Opmerking van de redactie': True
+  NL frag 'de echte brieven en beste teksten uit VOL.1 waren nog niet binnen': True
+  NL frag 'het voorbeeld blijft, de belofte gaat naar VOL.3': True
+  NL frag 'Voorbeeld van de redactie — geen echte brief': True
+  preview line (PT, frozen) 'as suas cartas e os melhores textos da página 8': True
+  invitation context: LO DA REDAÇÃO Voorbeeld van de redactie — geen echte brief. Stuur je brief op: de beste verschijnen op pagina 7 in VOL.3! Nota da redação: as cartas reais e os melhores textos prom
+  NL disclosure context: Opmerking van de redactie: de echte brieven en beste teksten uit VOL.1 waren nog niet binnen — het voorbeeld blijft, de belofte gaat naar VOL.3. FRASES DA SEMANA · ZINNEN VAN DE WEEK (letterlijk uit deze editie) «Do feri
+== 7 furniture edition vs W43 ==
+  ED badge: [('372', '19', '#a4553a', 'TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'), ('2624', '20', '#57523f', 'A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS')]
+  W43 badge: [('372', '19', '#a4553a', 'TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'), ('2624', '20', '#57523f', 'A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS')]
+  ED subtitle: [('330', '34', 'PORTUGEES WEEKBLAD · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE')]
+  W43 subtitle: [('330', '34', 'PORTUGEES WEEKBLAD · VOL.1 · O SEGUNDO TURNO · O DEBATE FINAL · O ENEM VEM AÍ')]
+  ED topstrip: ['TODA SEMANA EM PORTUGUÊS · ELKE WEEK · HET PORTUGEES DAT BRAZILIË LEEST']
+  W43 topstrip: ['TODA SEMANA EM PORTUGUÊS · ELKE WEEK · HET PORTUGEES DAT BRAZILIË LEEST']
+  ED band right: ['DE WEEK VAN HET ENEM', '2 nov Finados-weekend · 8 nov dag 1 van het Enem']
+  p1-capa footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 1 van 8']
+      W43 footer L=['PORTUGEES WEEKBLAD · VOL.1 · O SEGUNDO TURNO · O DEBATE FINAL · O ENEM VEM AÍ', 'A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p2-vida footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 2 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p3-cultura footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 3 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p4-esporte footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 4 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p5-jovens footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 5 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p6-aprofundamento footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 6 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p7-lingua footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 7 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  p8-avaliacao footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.2 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS'] R=['Pagina 8 van 8']
+      W43 footer L=['A Lucerna · PORTUGEES WEEKBLAD VOL.1 · TEKSTEN IN HET PORTUGEES · UITLEG IN HET NEDERLANDS']
+  ED P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+  W43 P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+  ED band titles P1-8 (red band heads):
+    p1-capa: ['A NOTÍCIA · HOOFDNIEUWS']
+    p2-vida: []
+    p3-cultura: []
+    p4-esporte: []
+    p5-jovens: []
+    p6-aprofundamento: []
+    p7-lingua: []
+    p8-avaliacao: []
+== 8 images ==
+  p1-capa: edition images=1 core images=1
+      x=65 y=1874 896x320 bytes=256737 sha256=cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c md5=04b18fa952a61c9998ef5bf3325341f2
+      CORE x=65 y=1874 bytes=256737 sha256=cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c md5=04b18fa952a61c9998ef5bf3325341f2
+  p2-vida: edition images=0 core images=0
+  p3-cultura: edition images=0 core images=0
+  p4-esporte: edition images=0 core images=0
+  p5-jovens: edition images=0 core images=0
+  p6-aprofundamento: edition images=0 core images=0
+  p7-lingua: edition images=0 core images=0
+  p8-avaliacao: edition images=0 core images=0
+  credit on P1: True
+  credit on P1 core: True
+== 9 English apparatus scan (all pages) ==
+  (only hits printed; silence = 0)
+  'Note' occurrences: []
+  ASCII double-quote count in ABSTRACT check done separately

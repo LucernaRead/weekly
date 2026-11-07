@@ -1,0 +1,26 @@
+<stdin>:14: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<stdin>:20: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+p1-une: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.586  max = 24
+  quarter-res mean abs diff = 3.166  max = 78
+p2-vie: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.456  max = 21
+  quarter-res mean abs diff = 2.952  max = 69
+p3-culture: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.376  max = 26
+  quarter-res mean abs diff = 2.713  max = 75
+p4-sport: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.407  max = 19
+  quarter-res mean abs diff = 2.895  max = 68
+p5-jeunesse: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.264  max = 19
+  quarter-res mean abs diff = 2.458  max = 70
+p6-politique: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.333  max = 20
+  quarter-res mean abs diff = 2.664  max = 72
+p7-langue: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.522  max = 26
+  quarter-res mean abs diff = 3.124  max = 76
+p8-exercices: card (1950, 2700) render (1950, 2700)
+  downsampled mean abs diff = 1.623  max = 17
+  quarter-res mean abs diff = 3.640  max = 69

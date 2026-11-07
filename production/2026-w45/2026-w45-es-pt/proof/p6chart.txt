@@ -1,0 +1,38 @@
+core chart-region elements: 31 edition: 31
+in core not edition: []
+in edition not core: []
+
+--- core chart texts ---
+  'BARÓMETRO CIS (OCTUBRE) · estimación de voto, %' :: x="87" y="1634" font-family="Noto Sans CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  'PSOE' :: x="87" y="1686" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '34,0 %' :: x="641.0" y="1686" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'PP' :: x="87" y="1717" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '22,2 %' :: x="499.4" y="1717" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'Vox' :: x="87" y="1748" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '17,1 %' :: x="438.20000000000005" y="1748" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'Sumar' :: x="87" y="1779" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '6,1 %' :: x="306.2" y="1779" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'Podemos' :: x="87" y="1810" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '3,1 %' :: x="270.2" y="1810" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'CIS, instituto público · trabajo de campo del 1 al 6 de octubre de 2026 · 5.025 entrevistas · margen' :: x="87" y="1858" font-family="Noto Sans CJK SC" font-size="17.5" fill="#57523f" text-anchor="start"
+  '±1,4 puntos · publicado el 14 de octubre. Los demás sondeos dibujan otro mapa: aquí solo se publica' :: x="87" y="1880.75" font-family="Noto Sans CJK SC" font-size="17.5" fill="#57523f" text-anchor="start"
+  'esta serie, con su fuente y su fecha.' :: x="87" y="1903.5" font-family="Noto Sans CJK SC" font-size="17.5" fill="#57523f" text-anchor="start"
+  'EL PROBLEMA Nº 1: LA VIVIENDA' :: x="1011" y="1634" font-family="Noto Sans CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  'Vivienda' :: x="1011" y="1686" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '55,7 %' :: x="1574.75" y="1686" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'Inmigración' :: x="1011" y="1717" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '20,9 %' :: x="1313.75" y="1717" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  'Economía' :: x="1011" y="1748" font-family="Noto Serif CJK SC" font-size="21" font-weight="700" fill="#28251d" text-anchor="start"
+  '20,3 %' :: x="1309.25" y="1748" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start"
+  '«El principal problema de España», según el mismo barómetro CIS de octubre: la vivienda sube veinte' :: x="1011" y="1858" font-family="Noto Sans CJK SC" font-size="17.5" fill="#57523f" text-anchor="start"
+  'puntos en un mes. Segundo: la inmigración. Tercero: la economía.' :: x="1011" y="1880.75" font-family="Noto Sans CJK SC" font-size="17.5" fill="#57523f" text-anchor="start"
+
+--- core chart rects ---
+  x="215" y="1668" width="408.0" height="22" rx="0" fill="#3e4c2a"
+  x="215" y="1699" width="266.4" height="22" rx="0" fill="#3e4c2a"
+  x="215" y="1730" width="205.20000000000002" height="22" rx="0" fill="#3e4c2a"
+  x="215" y="1761" width="73.19999999999999" height="22" rx="0" fill="#3e4c2a"
+  x="215" y="1792" width="37.2" height="22" rx="0" fill="#3e4c2a"
+  x="1139" y="1668" width="417.75" height="22" rx="0" fill="#a4553a"
+  x="1139" y="1699" width="156.75" height="22" rx="0" fill="#a4553a"
+  x="1139" y="1730" width="152.25" height="22" rx="0" fill="#a4553a"

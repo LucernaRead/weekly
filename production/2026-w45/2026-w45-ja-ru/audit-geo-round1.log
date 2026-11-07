@@ -1,0 +1,60 @@
+== 1. kinsoku ==
+kinsoku hits: 0 []
+== 2. same-baseline ink collisions ==
+same-baseline collisions: 0
+== 3. right-edge advance scan (font-family-aware, anchor-aware) ==
+right-edge violations: 0 []
+== 4. P6 chart-label ink coverage (mask ink, baseline-anchored, paint order) ==
+chart labels checked: 8 (expect 8); worst later-rect ink coverage: 0.0 None (gate <0.30)
+== 5. gloss counts (split on ·) ==
+content12.py core gloss items: [4, 4, 5] edition: [4, 4, 5] MATCH
+content34.py core gloss items: [4, 4, 4, 3] edition: [4, 4, 4, 3] MATCH
+content56.py core gloss items: [4, 3, 4] edition: [4, 3, 4] MATCH
+== 6. golden phrases 2x ==
+  2 x :: 文化の日は、11月3日（火よう日）です。
+  2 x :: ゆっくり、ゆるく整える日本の11月です。
+  2 x :: 『ゆる』は、無理をしない、ゆっくり、という意味です。
+  2 x :: 鍋の材料が1か月早く並び始めました。
+  2 x :: 伝統工芸と紅葉と光を、いっしょに楽しむことができます。
+  2 x :: ソフトバンクが2連勝でスタートしました。
+  2 x :: ルールを守って、楽しいハロウィンにしましょう。
+  2 x :: 紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。
+== 7. banned term (written as escapes so this script itself stays clean) ==
+  svg: 0
+  build-code: 1
+== 8b. P8 note completeness (no untranslated note survives) ==
+untranslated-note leaks: NONE (150/150 notes differ from core or are language-neutral)
+== 8. code string set-diff (Chinese residue, word-level) ==
+edition-only CJK strings: 98
+   ED-ONLY: 1.5倍 = на 50 % больше, чем в прошлом году
+   ED-ONLY: «ゆる» значит не напрягаться, не торопиться.
+   ED-ONLY: Девиз: 「静かだけど、冒険中。」
+   ED-ONLY: Для места действия используйте 「で」.
+   ED-ONLY: Места считайте с помощью 「か所」.
+   ED-ONLY: С 「昨日」 используйте прошедшее время.
+   ED-ONLY: для места используйте 「で」
+   ED-ONLY: место + で + あります
+   ED-ONLY: 「こと」 превращает глагол в существительное.
+   ED-ONLY: 「ゆる」 = не напрягаться
+   ED-ONLY: 「紅葉の本」 популярна
+   ED-ONLY: 〜倍 раз · 〜% процентов · 〜万食 десятков тысяч порций.
+   ED-ONLY: あなたは？ · А вы?
+   ED-ONLY: ことば · Язык
+   ED-ONLY: この号の内容 · В этом номере
+   ED-ONLY: どういたしまして = не за что
+   ED-ONLY: まちがい診療所 · Частые ошибки
+   ED-ONLY: ゆる = спокойно b
+   ED-ONLY: ゆる = спокойно, без напряжения
+   ED-ONLY: ゆる = спокойно, без напряжения.
+   ED-ONLY: ゆる整え食の4つの言葉 · Четыре слова о мягкой еде
+   ED-ONLY: オーケストラ = Сугинами d
+   ED-ONLY: クイズ · Блиц-викторина
+   ED-ONLY: グラフを読もう · Читаем график
+   ED-ONLY: サクサクdeコパン — 13 миллионов порций
+   ED-ONLY: サクサクdeコパン — больше 13 миллионов порций
+   ED-ONLY: テストと答え · Тест и ответы
+   ED-ONLY: トップニュース · Главные новости
+   ED-ONLY: フェンスの中 = внутри ограды
+   ED-ONLY: ライトアップ = замок Канадзава a
+   ED-ONLY: ライトアップ = подсвечивать ночью
+   ED-ONLY: レベル A2 · ゆる整え食と暖かい11月 · Мягкая еда и тёплый ноябрь

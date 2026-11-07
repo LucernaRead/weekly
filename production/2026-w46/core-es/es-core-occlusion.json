@@ -1,0 +1,97 @@
+{
+ "svgdir": "../files/weekly-report-w46-es-core/svg",
+ "flags": [
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "“大罢工”：全体劳动者同一天停工 24 小时。",
+   "box": [
+    1451.0,
+    1829.8,
+    1841.5,
+    1848.0
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@142"
+  },
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "(Página 3)",
+   "box": [
+    1473.0,
+    2311.1,
+    1569.8,
+    2332.8
+   ],
+   "detail": "later line box [64.0, 2311.0, 1886.0, 2313.0] crosses ink",
+   "by": "line@181"
+  },
+  {
+   "page": "p1-portada.svg",
+   "class": "BOXTITLE",
+   "text": "La urna y el sobre: votar por correo o en persona, el 29 de ",
+   "box": [
+    65.0,
+    2202.5,
+    895.0,
+    2223.2
+   ],
+   "detail": "ink crosses its box borders: left ink 65.0 < border 297.0; right ink 895.0 > border 627.0; bottom ink 2223.2 > border 2212.0",
+   "by": "rect@144"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "La primera semana de campaña, la jornada 13 de Liga y la vue",
+   "box": [
+    93.0,
+    2567.6,
+    1652.0,
+    2590.8
+   ],
+   "detail": "ink bottom 2590.8 below footer rule 2580 (baseline 2585.08)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "La primera semana de campaña, la jornada 13 de Liga y la vue",
+   "box": [
+    93.0,
+    2567.6,
+    1652.0,
+    2590.8
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@182"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "BOXTITLE",
+   "text": "La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY",
+   "box": [
+    65.0,
+    2607.0,
+    656.2,
+    2626.0
+   ],
+   "detail": "ink crosses its box borders: bottom ink 2626.0 > border 2619.1",
+   "by": "rect@179"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "BOXTITLE",
+   "text": "第 7 版 / 共 8 版",
+   "box": [
+    1748.1,
+    2607.0,
+    1885.1,
+    2627.5
+   ],
+   "detail": "ink crosses its box borders: bottom ink 2627.5 > border 2619.1",
+   "by": "rect@179"
+  }
+ ],
+ "flag_count": 7
+}

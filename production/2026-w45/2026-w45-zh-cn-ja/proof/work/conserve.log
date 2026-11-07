@@ -1,0 +1,33 @@
+Furniture strings excluded: 10
+p1-touiban.svg: unique core runs (furn-removed) 127, MISSING 0 []
+   without furniture removal: unique 131, missing 4 ['简体中文正文', '英语讲解', '简体中文周报', '共']
+p2-shenghuo.svg: unique core runs (furn-removed) 156, MISSING 0 []
+   without furniture removal: unique 160, missing 3 ['简体中文周报', '简体中文正文', '英语讲解']
+p3-wenhua.svg: unique core runs (furn-removed) 126, MISSING 0 []
+   without furniture removal: unique 130, missing 4 ['简体中文周报', '简体中文正文', '英语讲解', '共']
+p4-tiyu.svg: unique core runs (furn-removed) 137, MISSING 0 []
+   without furniture removal: unique 142, missing 4 ['简体中文周报', '简体中文正文', '英语讲解', '共']
+p5-qingnian.svg: unique core runs (furn-removed) 135, MISSING 0 []
+   without furniture removal: unique 140, missing 4 ['简体中文周报', '简体中文正文', '英语讲解', '共']
+p6-shendu.svg: unique core runs (furn-removed) 161, MISSING 0 []
+   without furniture removal: unique 165, missing 3 ['简体中文周报', '简体中文正文', '英语讲解']
+p7-ciyu.svg: unique core runs (furn-removed) 133, MISSING 0 []
+   without furniture removal: unique 138, missing 4 ['简体中文周报', '简体中文正文', '英语讲解', '共']
+p8-ceyan.svg: unique core runs (furn-removed) 185, MISSING 0 []
+   without furniture removal: unique 189, missing 4 ['简体中文周报', '简体中文正文', '英语讲解', '共']
+TOTAL missing (furn-removed): 0
+
+my kana-less added: 45; builder list: 44
+in mine but not builder's: [('p8-ceyan.svg', '94. 179 — 199 − 20 = 179元。')]
+in builder's but not mine: []
+
+core model block head: 'Model answer: 这个周末是立冬。星期六早上，我和妈妈一起包饺' nlines: 7
+ed model block head: 'のモデル解答が続きます。' nlines: 12
+core model chars: 172 ed model chars: 248 IDENTICAL: False
+ first diff at 0 '这个周末是立冬。星期六早上，我和妈妈一起' VS 'のモデル解答が続きます。B1150.作文'
+ core tail: '，早上6点开始，很好看。双11还没结束，我又买了一条围巾，直降以后便宜了不少。这个冬天，我要早点睡觉，多穿衣服，不着凉。' 
+ ed tail: '，早上6点开始，很好看。双11还没结束，我又买了一条围巾，直降以后便宜了不少。这个冬天，我要早点睡觉，多穿衣服，不着凉。'
+
+P1 sentence intact across lines: True
+P7 clinic conserves 一件毛衣/一条围巾/一部电影: True
+P7 件 present: True | P8 件 present: True

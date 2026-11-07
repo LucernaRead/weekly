@@ -1,0 +1,90 @@
+== GATE5 golden (punct-stripped contiguous counts, all pages + P7) ==
+不用等11月11日 total 2 per-page [1, 0, 0, 0, 0, 0, 1, 0] P7 1
+下单就能发货 total 2 per-page [0, 1, 0, 0, 0, 0, 1, 0] P7 1
+先看结算页，再付款 total 2 per-page [0, 1, 0, 0, 0, 0, 1, 0] P7 1
+水开始结冰 total 2 per-page [0, 0, 1, 0, 0, 0, 1, 0] P7 1
+三场都输了 total 2 per-page [0, 0, 0, 1, 0, 0, 1, 0] P7 1
+小局一场没赢 total 2 per-page [0, 0, 0, 1, 0, 0, 1, 0] P7 1
+故事够不够好 total 2 per-page [0, 0, 0, 0, 1, 0, 1, 0] P7 1
+别以后，就现在 total 2 per-page [0, 0, 0, 0, 1, 0, 1, 0] P7 1
+
+== GATE6 images ==
+core [('p1-touiban.svg', 0), ('p2-shenghuo.svg', 0), ('p3-wenhua.svg', 0), ('p4-tiyu.svg', 0), ('p5-qingnian.svg', 0), ('p6-shendu.svg', 0), ('p7-ciyu.svg', 0), ('p8-ceyan.svg', 0)]
+   ('p1-touiban.svg', 0, [])
+   ('p2-shenghuo.svg', 0, [])
+   ('p3-wenhua.svg', 0, [])
+   ('p4-tiyu.svg', 0, [])
+   ('p5-qingnian.svg', 0, [])
+   ('p6-shendu.svg', 0, [])
+   ('p7-ciyu.svg', 0, [])
+   ('p8-ceyan.svg', 0, [])
+edition [('p1-touiban.svg', 0), ('p2-shenghuo.svg', 0), ('p3-wenhua.svg', 0), ('p4-tiyu.svg', 0), ('p5-qingnian.svg', 0), ('p6-shendu.svg', 0), ('p7-ciyu.svg', 0), ('p8-ceyan.svg', 0)]
+   ('p1-touiban.svg', 0, [])
+   ('p2-shenghuo.svg', 0, [])
+   ('p3-wenhua.svg', 0, [])
+   ('p4-tiyu.svg', 0, [])
+   ('p5-qingnian.svg', 0, [])
+   ('p6-shendu.svg', 0, [])
+   ('p7-ciyu.svg', 0, [])
+   ('p8-ceyan.svg', 0, [])
+== credits in edition SVGs ==
+p1-touiban.svg 'Foto: Map hobby — CC0 (Wikimedia Commons)'
+p2-shenghuo.svg 'Foto: Paul Gilmore — CC0 (Wikimedia Commons)'
+p3-wenhua.svg 'Foto: Gerda Arendt — CC0 (Wikimedia Commons)'
+p3-wenhua.svg 'Foto: Syced — CC0 (Wikimedia Commons)'
+p4-tiyu.svg 'Foto: Syced — CC0 (Wikimedia Commons)'
+p5-qingnian.svg 'Foto: Based5290 — Publiek domein (Wikimedia Commons)'
+== CREDITS.md core vs edition build ==
+hidden_files/weekly-report-w45-zhcn-build a03a3d26e5e8b6241fc86dbcd8be54fb01cd96355e10b17219baab79ac57d5df
+# Image credits — Lucerna Weekly W45 Simplified Chinese core (VOL.2)
+
+All images are used under a public-domain / CC0 licence, verified via the
+Wikimedia Commons API (`extmetadata`: `Artist` and `LicenseShortName`) on
+2026-10-27. The "Artist" column below is the Commons API Artist field,
+copied directly. Every image listed here is embedded in the issue; no other
+image is embedded (verified: each SVG's embedded payload MD5 matches the
+asset file below, and the count per page is 1 / 1 / 2 / 1 / 1 / 0 / 0 / 0).
+
+| Page | Asset file | Commons file | Subject as captioned | Artist (Commons API) | Licence |
+|---|---|---|---|---|---|
+| 1 | locker.jpg | Parcel lockers (W43 reuse) | Parcel locker, labelled 资料图 (file photo) | Map hobby | CC0 |
+| 2 | valley.jpg | Autumn valley (W43 reuse) | Autumn valley, red leaves in season | Paul Gilmore | CC0 |
+| 3 | frost.jpg | Frosted leaves (W43 reuse) | Frosted red leaves | Gerda Arendt | CC0 |
+| 3 | dumplings.jpg | Dumplings 3.jpg | Dumplings, labelled 资料图 (file photo) | Syced | CC0 |
+| 4 | lanparty.jpg | LAN party, France 2003 (W43 reuse) | LAN-party file photo, France, 2003 | Syced | CC0 |
+| 5 | popcorn.jpg | Regal Cinemas popcorn bucket.jpg | Cinema popcorn bucket, labelled 资料图 (file photo) | Based5290 | Public domain |
+
+Notes:
+- File photos are captioned as 资料图 (file photo) and are never presented
+  as this week's event. The P4 LAN-party caption states its real date
+  (2003) and place (France).
+- Rejected candidates (cinema-auditorium and sh
+hidden_files/weekly-report-w45-zh-cn-nl-build a03a3d26e5e8b6241fc86dbcd8be54fb01cd96355e10b17219baab79ac57d5df
+# Image credits — Lucerna Weekly W45 Simplified Chinese core (VOL.2)
+
+All images are used under a public-domain / CC0 licence, verified via the
+Wikimedia Commons API (`extmetadata`: `Artist` and `LicenseShortName`) on
+2026-10-27. The "Artist" column below is the Commons API Artist field,
+copied directly. Every image listed here is embedded in the issue; no other
+image is embedded (verified: each SVG's embedded payload MD5 matches the
+asset file below, and the count per page is 1 / 1 / 2 / 1 / 1 / 0 / 0 / 0).
+
+| Page | Asset file | Commons file | Subject as captioned | Artist (Commons API) | Licence |
+|---|---|---|---|---|---|
+| 1 | locker.jpg | Parcel lockers (W43 reuse) | Parcel locker, labelled 资料图 (file photo) | Map hobby | CC0 |
+| 2 | valley.jpg | Autumn valley (W43 reuse) | Autumn valley, red leaves in season | Paul Gilmore | CC0 |
+| 3 | frost.jpg | Frosted leaves (W43 reuse) | Frosted red leaves | Gerda Arendt | CC0 |
+| 3 | dumplings.jpg | Dumplings 3.jpg | Dumplings, labelled 资料图 (file photo) | Syced | CC0 |
+| 4 | lanparty.jpg | LAN party, France 2003 (W43 reuse) | LAN-party file photo, France, 2003 | Syced | CC0 |
+| 5 | popcorn.jpg | Regal Cinemas popcorn bucket.jpg | Cinema popcorn bucket, labelled 资料图 (file photo) | Based5290 | Public domain |
+
+Notes:
+- File photos are captioned as 资料图 (file photo) and are never presented
+  as this week's event. The P4 LAN-party caption states its real date
+  (2003) and place (France).
+- Rejected candidates (cinema-auditorium and sh
+
+== GATE7 P7 readers corner nodes x~1473 ==
+Traceback (most recent call last):
+  File "<stdin>", line 54, in <module>
+ValueError: could not convert string to float: 'Noto Sans CJK SC'

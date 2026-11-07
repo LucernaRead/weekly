@@ -1,0 +1,69 @@
+FROZEN '41e édition en 2026 (40e anniversaire)'
+   weekly-report-w45-fr-core 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+   weekly-report-w45-fr-ko 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+FROZEN 'plus excitante ou plus frustrante ?'
+   weekly-report-w45-fr-core 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+   weekly-report-w45-fr-ko 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+FROZEN 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+   weekly-report-w45-fr-core 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+   weekly-report-w45-fr-ko 0 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 0}
+FROZEN 'Ce calendrier peut encore bouger.'
+   weekly-report-w45-fr-core 3 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 1, 'p7-langue': 2, 'p8-exercices': 0}
+   weekly-report-w45-fr-ko 3 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 1, 'p7-langue': 2, 'p8-exercices': 0}
+FROZEN "Si j'étais libre dimanche, j'___ à Nanterre."
+   weekly-report-w45-fr-core 1 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 1}
+   weekly-report-w45-fr-ko 1 {'p1-une': 0, 'p2-vie': 0, 'p3-culture': 0, 'p4-sport': 0, 'p5-jeunesse': 0, 'p6-politique': 0, 'p7-langue': 0, 'p8-exercices': 1}
+COQUILLES occurrences weekly-report-w45-fr-core 15
+    p1-une 3
+    p7-langue 1
+    p8-exercices 11
+COQUILLES occurrences weekly-report-w45-fr-ko 15
+    p1-une 3
+    p7-langue 1
+    p8-exercices 11
+TRADUISEZ total weekly-report-w45-fr-core 5
+    p8-exercices 5
+TRADUISEZ total weekly-report-w45-fr-ko 0
+--- ED P8 battery 135-139/150 prompts ---
+  y=246.0 x=1451.0 '프랑스어로: 그는 형보다 더 빨리 달려요.'
+  y=338.0 x=1451.0 '프랑스어로: 학생들은 10월 17일부터 방학이에요.'
+  y=430.0 x=1451.0 '프랑스어로: 오늘 밤 책가방을 챙길 거예요.'
+  y=522.0 x=1451.0 '프랑스어로: 아직 결승 진출자를 몰라요.'
+  y=1372.0 x=989.0 "한국어로: « Lire un programme, c'est déjà"
+--- CO P8 battery 135-139/150 prompts ---
+  y=1294.0 x=989.0 'E · TRADUCTION · 翻译'
+--- ED P8 keys 119-121,135-139,150 ---
+  y=217.0 '120.'
+  y=217.0 '136.'
+  y=309.0 '137.'
+  y=338.0 '121.'
+  y=401.0 '138.'
+  y=493.0 '139.'
+  y=1343.0 '135.'
+  y=1397.825 '119.'
+  y=1996.4 '139. On ne connaît pas encore les finalistes. (ne...pas encore'
+--- CO P8 keys 119-121,135-139,150 ---
+  y=217.0 '120.'
+  y=217.0 '136.'
+  y=309.0 '137.'
+  y=338.0 '121.'
+  y=401.0 '138.'
+  y=493.0 '139.'
+  y=1343.0 '135.'
+  y=1397.825 '119.'
+--- ED P8 battery Q120 context ---
+  y=720.1650000000001 x=65.0 '110. A. Nanterre · B. Plailly · C. Dieppe'
+  y=246.0 x=527.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=488.0 x=527.0 'Dimanche, la finale ___ à Nanterre. A. a lieu'
+--- CO P8 battery Q120 context ---
+  y=720.1650000000001 x=65.0 '110. A. Nanterre · B. Plailly · C. Dieppe'
+  y=246.0 x=527.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=488.0 x=527.0 'Dimanche, la finale ___ à Nanterre. A. a lieu'
+FR-TOKENS p1 core=654 ed=654 diffs={}
+FR-TOKENS p2 core=640 ed=640 diffs={}
+FR-TOKENS p3 core=607 ed=607 diffs={}
+FR-TOKENS p4 core=717 ed=717 diffs={}
+FR-TOKENS p5 core=551 ed=551 diffs={}
+FR-TOKENS p6 core=563 ed=563 diffs={}
+FR-TOKENS p7 core=628 ed=631 diffs={'VOL': (6, 7), 'P': (0, 2)}
+FR-TOKENS p8 core=1068 ed=1062 diffs={'Traduisez': (5, 0), 'présent': (1, 0)}

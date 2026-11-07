@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-es/svg: 2 flags {'COVER': 1, 'TEXTX': 1}
+  [COVER] p1-voorpagina.svg 'de nuestro clima.' — 100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]
+  [TEXTX] p7-taal.svg '«Ajax won donderdag 22 oktober met 2–0 van Atalanta»' — ink overlaps 'texto de la página 8: los publicaremos e' by 93.8x19.6px
+core: 0 flags; NEW vs core: 2
+  NEW [COVER] p1-voorpagina.svg 'de nuestro clima.' — 100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]
+  NEW [TEXTX] p7-taal.svg '«Ajax won donderdag 22 oktober met 2–0 van Atalanta»' — ink overlaps 'texto de la página 8: los publicaremos e' by 93.8x19.6px

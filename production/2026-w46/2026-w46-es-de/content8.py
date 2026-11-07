@@ -1,0 +1,132 @@
+# -*- coding: utf-8 -*-
+# W46 ES core (VOL.3) — P8: 38 exercises + registry-generated answers. Dash style, as W45.
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P8 · EJERCICIOS Y RESPUESTAS =================
+CURPAGE[0] = 8
+p = BSPage4()
+p.band("EJERCICIOS Y RESPUESTAS · ÜBUNGEN UND ANTWORTEN", "La Lucerna", "Seite 8 · La gran prueba de la semana + todas las respuestas")
+
+f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
+f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.ex("B1", "完形单选", "B", "visita a Chequia = auswärts in Tschechien",
+     "El jueves, la Roja ___ a Chequia en Praga. (A. recibe · B. visita)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "B", "recibir a Inglaterra = zu Hause gegen England",
+     "El domingo, España ___ a Inglaterra en Madrid. (A. visita · B. recibe)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "la lista = Kaderliste",
+     "De la Fuente dio ___ el viernes 6. (A. la lista · B. la huelga)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "B", "la huelga dura 24 horas = der Streik dauert 24 Stunden",
+     "La huelga del miércoles ___ 24 horas. (A. empieza · B. dura)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "empieza la campaña = der Wahlkampf beginnt",
+     "El viernes 13 ___ la campaña electoral. (A. empieza · B. termina)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "B", "el sobre = Briefumschlag",
+     "El voto por correo llega en un ___. (A. puente · B. sobre)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "Spanien–England am Sonntag",
+     "El domingo se juega el ___ en el Metropolitano. (A. España–Inglaterra · B. derbi madrileño)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "veranillo = Altweibersommer",
+     "En noviembre llega el ___ de San Martín. (A. veranillo · B. puente)", size=15.5, gap=1)
+f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.ex("A2", "单选", "B", "Der Generalstreik ist am Mittwoch, 11. November",
+     "La huelga general es el... A. lunes 9 · B. miércoles 11 · C. viernes 13", size=15.5, gap=1)
+f.ex("A2", "单选", "A", "Martinstag, 11. November",
+     "San Martín es el... A. 11 de noviembre · B. 12 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
+f.ex("A2", "单选", "C", "Spanien–England und der Streik sind beide diese Woche",
+     "Esta semana hay... A. solo fútbol · B. solo huelga · C. la huelga y el España–Inglaterra", size=15.5, gap=1)
+f.ex("B1", "单选", "B", "Beim magosto isst man geröstete Kastanien",
+     "¿Qué se come en el magosto? A. flan · B. castañas asadas · C. chocolate", size=15.5, gap=1)
+f.ex("B1", "单选", "A", "Streik-Slogan: Löhne, Wohnungen, Preise",
+     "El lema de la huelga es... A. «Salarios, vivienda y precios» · B. «Fútbol y fiesta» · C. «Cine y series»", size=15.5, gap=1)
+f.ex("B1", "单选", "C", "Die Wahl ist am 29. November",
+     "Las elecciones generales son el... A. 29.10 · B. 13.11 · C. 29.11", size=15.5, gap=1)
+f.ex("B2", "单选", "B", "CIS-Wohnungsbarometer: 86,9 % sorgen sich um die Wohnung",
+     "Según el CIS de vivienda, está preocupado el... A. 13,5 % · B. 86,9 % · C. 79 %", size=15.5, gap=1)
+f.ex("B1", "单选", "A", "Der Wahlkampf beginnt am 13. November",
+     "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
+f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.para("Pablo vive en Madrid: el miércoles 11 sigue la huelga en las noticias y el domingo ve el España–Inglaterra en el Metropolitano. Ana vive en Barcelona: el miércoles 11 trabaja, y el domingo ve el partido por televisión. Los dos leen los programas antes de votar el 29.", 16.5, lh=1.3, split=False)
+f.ex("A2", "单选", "B", "Pablo geht am Sonntag ins Metropolitano",
+     "¿Quién ve el partido en el Metropolitano? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
+f.ex("A2", "单选", "A", "Ana arbeitet am Mittwoch",
+     "El miércoles 11, Ana... A. trabaja · B. va a la huelga · C. duerme", size=15.5, gap=1)
+f.ex("A2", "单选", "A", "Beide lesen vor der Wahl die Programme",
+     "Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga", size=15.5, gap=1)
+f.ex("A2", "单选", "B", "Der Titel fasst den Zwei-Orte-Vergleich zusammen",
+     "El mejor título es... A. «Una tormenta» · B. «Dos miércoles» · C. «El Clásico»", size=15.5, gap=1)
+f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.ex("A2", "造句", "El miércoles hay huelga general.", "Subjekt + Verb + Ort",
+     "el miércoles / hay / huelga general → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("A2", "造句", "El domingo vemos el España–Inglaterra.", "Zeit zuerst",
+     "el domingo / vemos / el España–Inglaterra → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("B1", "造句", "La campaña empieza a las cero horas.", "a las cero horas = um Mitternacht",
+     "la campaña / empieza / a las cero horas → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("B1", "造句", "¿A qué hora empieza el partido?", "Das Fragewort steht am Satzanfang",
+     "¿ / a qué hora / empieza / el partido / ? → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.head("E · TRADUCE", 22, OLIVE, 5)
+f.ex("A2", "翻译", "Am Mittwoch gibt es in ganz Spanien einen Generalstreik.", "Mit dem Original vergleichen.",
+     "El miércoles hay huelga general en toda España. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("A2", "翻译", "Am Sonntag sehen wir Spanien–England.", "Mit dem Original vergleichen.",
+     "El domingo vemos el España–Inglaterra. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("B1", "翻译", "El voto por correo llega a casa.", "llegar a casa = nach Hause kommen",
+     "Die Briefwahl kommt nach Hause. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("B2", "翻译", "Cada gráfico tiene que llevar su fuente.", "tener que = müssen",
+     "Jede Grafik muss ihre Quelle angeben. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.match_set("B2", "词汇配对",
+            ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
+            ["quien organiza las elecciones",
+             "el error posible de un sondeo",
+             "una encuesta de opinión",
+             "las personas entrevistadas"],
+            ["c", "d", "b", "a"],
+            ["sondeo=Umfrage c", "muestra=Stichprobe d", "margen de error=Fehlermarge b", "junta electoral=Wahlausschuss a"],
+            instr="Zuordnen")
+f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.ex("B1", "完形单选", "A", "alquiler = Miete",
+     "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "tres habitaciones = drei Zimmer",
+     "— ¿Cuántas habitaciones? — ___. (A. Tres · B. Tres puentes)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "¿cuánto cuesta? = wie viel kostet es?",
+     "— ¿Cuánto ___ al mes? (A. cuesta · B. duerme)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "firmar = unterschreiben (einen Vertrag)",
+     "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
+f.ex("B1", "完形单选", "A", "mudanza = Umzug",
+     "— La ___ es el miércoles 11, día de huelga. (A. mudanza · B. campaña)", size=15.5, gap=1)
+f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.bridge("Schreibaufgabe (ohne Musterlösung); der Mustertext (84 Wörter) steht unten.")
+f.ex("B1", "写作", "Offene Aufgabe — Mustertext unten auf dieser Seite", "Mustertext in Abschnitt H auf dieser Seite (84 Wörter)",
+     "«¿Qué harías tú por la vivienda?» Escribe 80–100 palabras: tu plan del miércoles 11, tu domingo 15 y tu voto del 29.", instr="Schreiben", size=15.5, gap=1)
+MODELO = ("Vivo en Madrid, y el miércoles 11 sigo la huelga en las noticias: salarios, vivienda y precios, los tres temas de la semana. "
+          "El viernes 13 empieza la campaña, y el domingo 15 veo el España–Inglaterra con mi familia. "
+          "El jueves 12 veo el Chequia–España en Praga por televisión, a las 20:45. "
+          "Mis amigos de Barcelona no tienen huelga en su empresa: el miércoles trabajan. Yo, en cambio, leo los programas con calma y preparo mi voto por correo. "
+          "El 29 votamos. ¡Qué semana!")
+f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
+f.end_report()
+
+# ================= RESPUESTAS =================
+p.hline(MX, RIGHT, 1264, GOLD, 2)
+p.text(MX, 1302, "RESPUESTAS · ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Zu jeder Aufgabe ein deutscher Kurzhinweis · ✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+by_page = {}
+for e_ in REG:
+    by_page.setdefault(e_["page"], []).append(e_)
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+for pg in sorted(by_page):
+    af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.12, gap=2, split=False)
+    for e_ in by_page[pg]:
+        txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
+        if e_["type"] == "写作":
+            txt = f"{e_['n']}. ✓ {e_['note']}"
+        af.para(txt, 13.2, lh=1.12, gap=0.5, split=False)
+af.end_report()
+p.foot(8)
+p.save(f"{OUT}/p8-ejercicios.svg")
+print("P8 saved, TOTAL exercises:", len(REG))
+from collections import Counter
+print("by level", dict(Counter(e["level"] for e in REG)))
+print("by page", dict(sorted(Counter(e["page"] for e in REG).items())))

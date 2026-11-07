@@ -1,0 +1,110 @@
+{
+ "svgdir": "../files/weekly-report-w45-de-ru/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "DIE WOCHE IN ZAHLEN · Цифры недели",
+   "box": [
+    545.0,
+    1488.8,
+    1011.2,
+    1512.3
+   ],
+   "detail": "ink overlaps 'Der ___ läuft bis zum 31. Dezember.' by 22.2x14.9px",
+   "by": "text@97"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "DIE WOCHE IN ZAHLEN · Цифры недели",
+   "box": [
+    545.0,
+    1488.8,
+    1011.2,
+    1512.3
+   ],
+   "detail": "ink crosses its box borders: right ink 1011.2 > border 961.0",
+   "by": "rect@59"
+  },
+  {
+   "page": "p2-leben.svg",
+   "class": "LINEX",
+   "text": "Prognose: Die Wirtschaft wächst",
+   "box": [
+    1473.0,
+    1541.1,
+    1814.0,
+    1564.4
+   ],
+   "detail": "later line box [64.0, 1553.0, 1886.0, 1555.0] crosses ink",
+   "by": "line@103"
+  },
+  {
+   "page": "p2-leben.svg",
+   "class": "TEXTX",
+   "text": "langsam, aber nicht von allein.",
+   "box": [
+    1473.0,
+    1571.6,
+    1797.2,
+    1594.9
+   ],
+   "detail": "ink overlaps 'Die Zahlen der Woche · Цифры недели' by 290.0x17.1px",
+   "by": "text@105"
+  },
+  {
+   "page": "p3-kultur.svg",
+   "class": "BOXTITLE",
+   "text": "FERIENWECHSEL · Смена каникул",
+   "box": [
+    1473.0,
+    224.0,
+    1893.5,
+    247.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1893.5 > border 1885.0",
+   "by": "rect@71"
+  },
+  {
+   "page": "p3-kultur.svg",
+   "class": "BOXTITLE",
+   "text": "HERBSTWÖRTER · Осенние слова",
+   "box": [
+    1473.0,
+    664.3,
+    1887.5,
+    687.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1887.5 > border 1885.0",
+   "by": "rect@82"
+  },
+  {
+   "page": "p5-jugend.svg",
+   "class": "BOXTITLE",
+   "text": "FERIENWECHSEL · Смена каникул",
+   "box": [
+    1473.0,
+    224.0,
+    1893.5,
+    247.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1893.5 > border 1885.0",
+   "by": "rect@58"
+  },
+  {
+   "page": "p5-jugend.svg",
+   "class": "BOXTITLE",
+   "text": "SCHULWÖRTER · Школьные слова",
+   "box": [
+    1473.0,
+    633.7,
+    1898.2,
+    656.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1898.2 > border 1885.0",
+   "by": "rect@68"
+  }
+ ],
+ "flag_count": 8
+}

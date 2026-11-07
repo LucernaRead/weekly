@@ -1,0 +1,100 @@
+node counts: edition=1450 core=1431
+== CJK union ==
+edition=772 core=773 w43=790 union=1030
+outside union: []
+edition-core: []
+core-edition: ['解']
+  core-only '解': ['p1-front.svg:繁體中文正文 · 英語講解 — Traditional Chinese text · Explanations in English · the edition', 'p1-front.svg:Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English expl', 'p2-life.svg:Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English expl', 'p3-culture.svg:Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English expl', 'p4-sport.svg:Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English expl', 'p5-youth.svg:Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English expl']
+== Simplified-only spot list (target text nodes, all pages) ==
+hits: 0
+== Gloss/match counts ==
+edition: Uitleg/Notes-prefix nodes total=12 per-page={'p1-front.svg': 2, 'p2-life.svg': 2, 'p3-culture.svg': 3, 'p4-sport.svg': 2, 'p5-youth.svg': 2, 'p6-deep.svg': 1, 'p7-lang.svg': 0, 'p8-test.svg': 0}
+  'Notes' residual occurrences: 0
+  glossline-prefix 'Uitleg — ' count: 12
+core: Uitleg/Notes-prefix nodes total=0 per-page={'p1-front.svg': 0, 'p2-life.svg': 0, 'p3-culture.svg': 0, 'p4-sport.svg': 0, 'p5-youth.svg': 0, 'p6-deep.svg': 0, 'p7-lang.svg': 0, 'p8-test.svg': 0}
+  'Notes' residual occurrences: 12
+  glossline-prefix 'Uitleg — ' count: 0
+edition glossline count via sources check done separately; render 'Uitleg — ' total above
+== Residual Latin sweep ==
+  '算一算 · Work it out' = 0
+  '算一算 · Reken uit' = 3
+  'Baseball words' = 0
+  'Honkbaltaal' = 1
+  'Deep-read quiz' = 0
+  'Diep-leesquiz' = 1
+  Reken uit node: p2-life.svg 算一算 · Reken uit
+  Reken uit node: p3-culture.svg 算一算 · Reken uit
+  title node: p4-sport.svg 棒球詞卡 · Honkbaltaal
+  Reken uit node: p5-youth.svg 算一算 · Reken uit
+  title node: p6-deep.svg 深讀測驗 · Diep-leesquiz
+  English-phrase hits (should be []): []
+== P7 golden sentences (bare count, edition + core) ==
+  '用手機轉帳': edition=3 core=3
+  '123個國家及城市、1,600個攤位': edition=2 core=2
+  '需要才買': edition=2 core=2
+  '在高雄，鋼鐵也能變成舞台': edition=2 core=2
+  '福隆的夏天，在10月26日畫下句點': edition=2 core=2
+  '6比0完封兄弟，龍隊拋下紅色彩帶': edition=2 core=2
+  '250家店家一起討糖': edition=2 core=2
+  '旅展首日中午12點才開門': edition=2 core=2
+  (p. N) tags on P7:
+    Betaal met je telefoon, scan om te betalen, koop online een verzekering — dat is fintech. (p. 1)
+    123 landen en steden, 1.600 stands. (p. 1)
+    Koop wat je nodig hebt; koop geen stapel dingen die je niet gebruikt alleen voor de korting. (p. 2)
+    In Kaohsiung kan zelfs staal een podium worden. (p. 3)
+    De zomer van Fulong kwam op 26 oktober ten einde. (p. 3)
+    Een 6-0 shutout van de Brothers, en de Dragons gooiden de rode linten. (p. 4)
+    250 winkels die samen snoep uitdelen. (p. 5)
+    Op de eerste dag van de beurs gaan de deuren pas om 12.00 uur open. (p. 6)
+== Readers corner ==
+  ED Voorbeeldbrief — geen echte. Uitstel:
+  ED blijft, uitnodiging open. Stuur je brief in!
+  CORE An editor's example letter — not a real
+  CORE one. Deferral notice: VOL.1 promised real
+  frozen Traditional disclosure identical core vs edition:
+    core=['延期披露：VOL.1曾預告本期起刊登真實']
+    edition=['延期披露：VOL.1曾預告本期起刊登真實']
+    identical=True
+== Furniture: badge/footer/P8 header/separators ==
+  edition badge-candidate y=378.0 size=21.0 bold=True fill=#a4553a text=TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+  core badge-candidate y=378.0 size=21.0 bold=True fill=#3e4c2a text=繁體中文正文 · 英語講解 — Traditional Chinese text · Explanations in English · the edition for English-speaking readers
+  w43 badge-candidate y=378.0 size=21.0 bold=True fill=#a4553a text=TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+  edition footer strings: ['Lucerna · CHINEES WEEKBLAD VOL.2 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8', 'Pagina 2 van 8', 'Pagina 3 van 8']
+  w43 footer strings: ['Lucerna · CHINEES WEEKBLAD VOL.1 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8', 'Pagina 2 van 8', 'Pagina 3 van 8']
+  P8 header needle 'Antwoordsleutel — in paginavolgorde': edition=True w43=True
+  P8 header needle 'Alle noten in het Nederlands': edition=True w43=True
+  edition P8 separators count 'Pagina': 9
+  edition separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+  edition P8 dash keys sample: ['138.', '100. 45,000 — Er worden meer dan 45.000 mensen verwacht.', '138. 人工智慧 — AI in de financiële wereld is 人工智慧＋.']
+  P8 key 138: 138.
+  P8 key 138: 138. 人工智慧 — AI in de financiële wereld is 人工智慧＋.
+  W43 P8 has AI item: False
+== Images: payload hashes per page ==
+  p1-front.svg: edition=[('1451', '640', '434', '300', 'af71609d2dd50bca')] core=[('1451', '640', '434', '300', 'af71609d2dd50bca')] match=True
+    credit ED: Photo: Wilfredor — CC0 (Wikimedia Commons)
+    credit CORE: Photo: Wilfredor — CC0 (Wikimedia Commons)
+  p2-life.svg: edition=[('1451', '208', '434', '300', 'c43d2e269e7d1061')] core=[('1451', '208', '434', '300', 'c43d2e269e7d1061')] match=True
+    credit ED: Photo: CorraleH — CC0 (Wikimedia Commons)
+    credit CORE: Photo: CorraleH — CC0 (Wikimedia Commons)
+  p3-culture.svg: edition=[] core=[] match=True
+  p4-sport.svg: edition=[('1451', '208', '434', '300', '1a7e7d6d5ffcede7')] core=[('1451', '208', '434', '300', '1a7e7d6d5ffcede7')] match=True
+    credit ED: Photo: Bain News Service — Public domain (Wikimedia
+    credit CORE: Photo: Bain News Service — Public domain (Wikimedia
+  p5-youth.svg: edition=[('1451', '208', '434', '300', '7fe6f82082ed5dd9')] core=[('1451', '208', '434', '300', '7fe6f82082ed5dd9')] match=True
+    credit ED: Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+    credit CORE: Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+  p6-deep.svg: edition=[] core=[] match=True
+  p7-lang.svg: edition=[] core=[] match=True
+  p8-test.svg: edition=[] core=[] match=True
+== P4/P6 chart bars (rect widths) ==
+  p4-sport.svg edition rect widths multiset sample: [(60.0, 15), (120.0, 1), (434.0, 5), (600.0, 1), (1846.0, 1), (1870.0, 1), (1894.0, 1)]
+  p4-sport.svg core rect widths: [(60.0, 15), (120.0, 1), (434.0, 5), (600.0, 1), (1846.0, 1), (1870.0, 1), (1894.0, 1)]
+  p6-deep.svg edition rect widths multiset sample: [(60.0, 18), (434.0, 3), (600.0, 1), (800.0, 3), (1846.0, 1), (1870.0, 1), (1894.0, 1)]
+  p6-deep.svg core rect widths: [(60.0, 18), (434.0, 3), (600.0, 1), (800.0, 3), (1846.0, 1), (1870.0, 1), (1894.0, 1)]
+== W43 build dash precedent ==
+  W43 content8: af.para(f"— Pagina {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+  W43 content8 size line: af.para(f"— Pagina {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+  W43 content8 size line: af.para(txt, 13.3, lh=1.16, gap=0.5, split=False)
+  edition content8: af.para(f"— Pagina {pg} —", 12.8, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
+  edition content8 size line: af.para(f"— Pagina {pg} —", 12.8, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
+  edition content8 size line: af.para(txt, 12.8, "sans", False, INK, lh=1.12, gap=1, split=False)

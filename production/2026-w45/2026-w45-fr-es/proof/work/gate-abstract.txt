@@ -1,0 +1,19 @@
+raw bytes: 531 decoded chars incl trailing newline: 525 stripped chars: 524 lines (splitlines): 1 ascii double-quote count: 0
+abstract: 'Le Lucerna VOL.3, semana del 2 al 8 de noviembre de 2026: semanario en francés para lectores hispanohablantes — fin de semana de finales con el Rolex Paris Masters en Nanterre, Peur sur le Parc en Plailly y Le Goût du Large en Port-en-Bessin, vuelta al cole el 2 de noviembre, Halloween y Toussaint, Pitchfork Paris y el presupuesto 2027 en la Asamblea Nacional, con 150 ejercicios de A2 a B2, vocabulario, gramática y texto modelo. Aprender francés leyendo noticias reales: finales, horario de invierno y fiestas francesas.'
+Rolex Paris Masters: pages=['p1-une.svg', 'p4-sport.svg'] detail={'p1-une.svg': ['Rolex', 'Paris Masters'], 'p4-sport.svg': ['Rolex', 'Paris Masters']}
+Nanterre (Masters): pages=['p1-une.svg', 'p4-sport.svg', 'p5-jeunesse.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Nanterre'], 'p4-sport.svg': ['Nanterre'], 'p5-jeunesse.svg': ['Nanterre'], 'p8-exercices.svg': ['Nanterre']}
+Peur sur le Parc: pages=['p1-une.svg', 'p3-culture.svg'] detail={'p1-une.svg': ['Peur sur le Parc'], 'p3-culture.svg': ['Peur sur le Parc']}
+Plailly: pages=['p1-une.svg', 'p3-culture.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Plailly'], 'p3-culture.svg': ['Plailly'], 'p8-exercices.svg': ['Plailly']}
+Le Goût du Large: pages=['p1-une.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Goût du Large'], 'p8-exercices.svg': ['Goût du Large']}
+Port-en-Bessin: pages=['p1-une.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Port-en-Bessin'], 'p8-exercices.svg': ['Port-en-Bessin']}
+vuelta al cole el 2 de noviembre / 2 Nov school: pages=['p1-une.svg', 'p2-vie.svg', 'p3-culture.svg', 'p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Lundi 2'], 'p2-vie.svg': ['2 de noviembre', 'vuelta al cole', 'Lundi 2', 'lundi 2 novembre'], 'p3-culture.svg': ['lundi 2 novembre'], 'p5-jeunesse.svg': ['Lundi 2', 'lundi 2 novembre'], 'p7-langue.svg': ['lundi 2 novembre'], 'p8-exercices.svg': ['vuelta al cole']}
+Halloween: pages=['p1-une.svg', 'p2-vie.svg', 'p3-culture.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Halloween'], 'p2-vie.svg': ['Halloween'], 'p3-culture.svg': ['Halloween'], 'p8-exercices.svg': ['Halloween']}
+Toussaint: pages=['p1-une.svg', 'p2-vie.svg', 'p3-culture.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['Toussaint'], 'p2-vie.svg': ['Toussaint'], 'p3-culture.svg': ['Toussaint'], 'p8-exercices.svg': ['Toussaint']}
+Pitchfork Paris: pages=['p1-une.svg', 'p5-jeunesse.svg'] detail={'p1-une.svg': ['Pitchfork'], 'p5-jeunesse.svg': ['Pitchfork']}
+presupuesto 2027 / Asamblea Nacional: pages=['p1-une.svg', 'p2-vie.svg', 'p6-politique.svg', 'p7-langue.svg', 'p8-exercices.svg'] detail={'p1-une.svg': ['budget 2027', 'Assemblée'], 'p2-vie.svg': ['Assemblée'], 'p6-politique.svg': ['budget 2027', 'Assemblée'], 'p7-langue.svg': ['Assemblée'], 'p8-exercices.svg': ['Asamblea Nacional', 'Assemblée']}
+150 ejercicios A2-B2: pages=['p8-exercices.svg'] detail={'p8-exercices.svg': ['150']}
+horario de invierno: pages=[] detail={}
+fiestas francesas: pages=[] detail={}
+learner phrase: Aprender francés leyendo noticias reales: pages=[] detail={}
+
+ABSTRACT keyword tokens vs issue: Rolex in corpus: True | Masters: True

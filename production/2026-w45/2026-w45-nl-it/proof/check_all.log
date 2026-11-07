@@ -1,0 +1,156 @@
+{
+ "badge_ed": [
+  [
+   "TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI",
+   20.0,
+   true,
+   "#a4553a",
+   "middle",
+   975.0,
+   568.0,
+   840.89
+  ]
+ ],
+ "badge_w43": [
+  [
+   "TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI",
+   20.0,
+   true,
+   "#a4553a",
+   "middle",
+   975.0,
+   568.0,
+   840.89
+  ]
+ ],
+ "badge_strings_equal": true,
+ "subtitle_ed": [
+  [
+   "SETTIMANALE OLANDESE · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12",
+   36.0,
+   true,
+   1619.95
+  ]
+ ],
+ "subtitle_w43": [
+  [
+   "SETTIMANALE OLANDESE · VOL.1 · DE KLOK GAAT TERUG · HERFSTVAKANTIE · ADE WORDT 30",
+   36.0,
+   true,
+   1764.78
+  ]
+ ],
+ "strapline_equal": true,
+ "topstrip_ed": [
+  [
+   "VOL. 2",
+   "start"
+  ],
+  [
+   "ELKE WEEK IN HET NEDERLANDS · OGNI SETTIMANA IN OLANDESE",
+   "middle"
+  ],
+  [
+   "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026",
+   "end"
+  ]
+ ],
+ "footer_vol2_all": true,
+ "page_lines": {
+  "p1-voorpagina.svg": [
+   "Pagina 1 di 8"
+  ],
+  "p2-leven.svg": [
+   "Pagina 2 di 8"
+  ],
+  "p3-cultuur.svg": [
+   "Pagina 3 di 8"
+  ],
+  "p4-sport.svg": [
+   "Pagina 4 di 8"
+  ],
+  "p5-jongeren.svg": [
+   "Pagina 5 di 8"
+  ],
+  "p6-verdieping.svg": [
+   "Pagina 6 di 8"
+  ],
+  "p7-taal.svg": [
+   "Pagina 7 di 8"
+  ],
+  "p8-toets.svg": [
+   "Pagina 8 di 8"
+  ]
+ },
+ "p7_definition_verbatim": true,
+ "p7_wordbox_gloss_joined": "meedoen = partecipare: tutta l'Olanda partecipa.",
+ "readers_checks": {
+  "nl_disclosure": true,
+  "it_disclosure": true,
+  "invitation": true,
+  "example_label": true,
+  "imperative_Mandaci": true,
+  "promise_pub": true
+ },
+ "p6_chart_worst_baseline": {
+  "pct": 0.0,
+  "text": "—",
+  "method": ""
+ },
+ "p6_chart_worst_anchor_ls": {
+  "pct": 0.0,
+  "text": "—"
+ },
+ "total_cjk_ed": 0,
+ "total_bridge_ed": 0,
+ "abstract": {
+  "text": "De Lucerna, settimanale olandese VOL.2 per lettori italiani: la Settimana del clima 2–8 novembre, la Notte dei musei di Amsterdam il 7 novembre, il festival Crossing Border e la 12ª giornata di Eredivisie con Twente–Ajax; testi in olandese con spiegazioni in italiano, livelli A2–B2, 150 esercizi per imparare l'olandese leggendo le notizie olandesi.\n",
+  "lines": [
+   "De Lucerna, settimanale olandese VOL.2 per lettori italiani: la Settimana del clima 2–8 novembre, la Notte dei musei di Amsterdam il 7 novembre, il festival Crossing Border e la 12ª giornata di Eredivisie con Twente–Ajax; testi in olandese con spiegazioni in italiano, livelli A2–B2, 150 esercizi per imparare l'olandese leggendo le notizie olandesi."
+  ],
+  "has_ascii_dquote": false
+ },
+ "cards": {
+  "p1-voorpagina.png": [
+   1950,
+   2700
+  ],
+  "p2-leven.png": [
+   1950,
+   2700
+  ],
+  "p3-cultuur.png": [
+   1950,
+   2700
+  ],
+  "p4-sport.png": [
+   1950,
+   2700
+  ],
+  "p5-jongeren.png": [
+   1950,
+   2700
+  ],
+  "p6-verdieping.png": [
+   1950,
+   2700
+  ],
+  "p7-taal.png": [
+   1950,
+   2700
+  ],
+  "p8-toets.png": [
+   1950,
+   2700
+  ]
+ }
+}
+GLOSS_ED {'p2-leven.svg': [6], 'p3-cultuur.svg': [5], 'p4-sport.svg': [5], 'p5-jongeren.svg': [5], 'p6-verdieping.svg': [5]}
+GLOSS_CORE {'p2-leven.svg': [], 'p3-cultuur.svg': [], 'p4-sport.svg': [], 'p5-jongeren.svg': [], 'p6-verdieping.svg': []}
+GOLDEN [{'sentence': 'Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland', 'tag': '1', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p1-voorpagina.svg'}, {'sentence': 'De herfst is de beste tijd om te planten', 'tag': '1', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p1-voorpagina.svg'}, {'sentence': 'Geel betekent: let op, het weer kan gevaarlijk zijn', 'tag': '2', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p2-leven.svg'}, {'sentence': "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts", 'tag': '3', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p3-cultuur.svg'}, {'sentence': 'Ajax won donderdag 22 oktober met 2–0 van Atalanta', 'tag': '4', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p4-sport.svg'}, {'sentence': 'Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur', 'tag': '5', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p5-jongeren.svg'}, {'sentence': 'Een code is geen verbod, maar een advies', 'tag': '6', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p6-verdieping.svg'}, {'sentence': 'Het weer is van ons allemaal, maar het raakt ons allemaal anders', 'tag': '6', 'total_count': 2, 'on_tagged_page': True, 'tagged_file': 'p6-verdieping.svg'}]
+GOLDEN_ED [{'sentence': 'Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland', 'tag': '1', 'y': 2038.0, 'x': 65.0}, {'sentence': 'De herfst is de beste tijd om te planten', 'tag': '1', 'y': 2128.0, 'x': 65.0}, {'sentence': 'Geel betekent: let op, het weer kan gevaarlijk zijn', 'tag': '2', 'y': 2218.0, 'x': 65.0}, {'sentence': "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts", 'tag': '3', 'y': 2308.0, 'x': 65.0}, {'sentence': 'Ajax won donderdag 22 oktober met 2–0 van Atalanta', 'tag': '4', 'y': 2038.0, 'x': 989.0}, {'sentence': 'Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur', 'tag': '5', 'y': 2128.0, 'x': 989.0}, {'sentence': 'Een code is geen verbod, maar een advies', 'tag': '6', 'y': 2218.0, 'x': 989.0}, {'sentence': 'Het weer is van ons allemaal, maar het raakt ons allemaal anders', 'tag': '6', 'y': 2308.0, 'x': 989.0}]
+GOLDEN_CORE [{'sentence': 'Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland', 'tag': '1', 'y': 2038.0, 'x': 65.0}, {'sentence': 'De herfst is de beste tijd om te planten', 'tag': '1', 'y': 2128.0, 'x': 65.0}, {'sentence': 'Geel betekent: let op, het weer kan gevaarlijk zijn', 'tag': '2', 'y': 2218.0, 'x': 65.0}, {'sentence': "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts", 'tag': '3', 'y': 2308.0, 'x': 65.0}, {'sentence': 'Ajax won donderdag 22 oktober met 2–0 van Atalanta', 'tag': '4', 'y': 2038.0, 'x': 989.0}, {'sentence': 'Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur', 'tag': '5', 'y': 2128.0, 'x': 989.0}, {'sentence': 'Een code is geen verbod, maar een advies', 'tag': '6', 'y': 2218.0, 'x': 989.0}, {'sentence': 'Het weer is van ons allemaal, maar het raakt ons allemaal anders', 'tag': '6', 'y': 2308.0, 'x': 989.0}]
+SAME_BASELINE {'p1-voorpagina.svg': 0, 'p2-leven.svg': 0, 'p3-cultuur.svg': 0, 'p4-sport.svg': 0, 'p5-jongeren.svg': 0, 'p6-verdieping.svg': 0, 'p7-taal.svg': 0, 'p8-toets.svg': 0}
+IMAGES {'p1-voorpagina.svg': 1, 'p2-leven.svg': 1, 'p3-cultuur.svg': 1, 'p4-sport.svg': 1, 'p5-jongeren.svg': 0, 'p6-verdieping.svg': 0, 'p7-taal.svg': 0, 'p8-toets.svg': 0}
+CREDITS {'p1-voorpagina.svg': ['Foto: Vovogov90 — CC0'], 'p2-leven.svg': ['Foto: Nationaal Archief — CC0'], 'p3-cultuur.svg': ['Foto: W. Punt / Anefo, Nationaal Archief — CC0'], 'p4-sport.svg': ['Foto: Spaarnestad Photo / Wikimedia Commons — publiek'], 'p5-jongeren.svg': [], 'p6-verdieping.svg': [], 'p7-taal.svg': [], 'p8-toets.svg': []}
+FOOTERS {'p1-voorpagina.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 1 di 8'], 'p2-leven.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 2 di 8'], 'p3-cultuur.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 3 di 8'], 'p4-sport.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 4 di 8'], 'p5-jongeren.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 5 di 8'], 'p6-verdieping.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 6 di 8'], 'p7-taal.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 7 di 8'], 'p8-toets.svg': ['De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO', 'Pagina 8 di 8']}

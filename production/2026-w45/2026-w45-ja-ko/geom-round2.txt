@@ -1,0 +1,14 @@
+=== ADVANCE right-edge scan (limit 1885.5) ===
+  ed: violations=0
+  core: violations=0
+=== frame-line scan (line y inside a text ink band + x overlap) ===
+  ed: flags=1
+    ('p2-kurashi.svg', 1804.0, '文で覚えましょう：『ゆる整え食で、体を整えましょう。』', 1800.0)
+  core: flags=1
+    ('p2-kurashi.svg', 1804.0, '文で覚えましょう：『ゆる整え食で、体を整えましょう。』', 1800.0)
+=== P6 chart-label ink coverage vs bars (gate <30%) ===
+  ed: max label ink coverage = 0.000
+  core: max label ink coverage = 0.000
+=== kinsoku (rendered lines starting with canonical NO_START) ===
+  ed: hits=0
+  core: hits=0

@@ -1,0 +1,50 @@
+REMOVED p1 [BRASIL]: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+REMOVED p1 [SEMANAL]: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+REMOVED p1 [VERDADE]: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+REMOVED p1 [APRENDER]: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+REMOVED p1 [JORNAL]: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL'
+REMOVED p1 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+REMOVED p2 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+REMOVED p3 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+REMOVED p4 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+REMOVED p5 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+ADDED p5: 'Enem（Enemの確認カードを確かめる）'
+REMOVED p6 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+ADDED p6: 'NÍVEL B2 · O Enem explicado · Enemを解説'
+REMOVED p7 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+REMOVED p8 [PÁGINA]: '— PÁGINA 1 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 2 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 3 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 4 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 5 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 6 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 7 —'
+REMOVED p8 [PÁGINA]: '— PÁGINA 8 —'
+REMOVED p8 [LUCERNA]: 'A Lucerna · 葡萄牙语周报 VOL.2 · LUCERNA PORTUGUESE WEEKLY'
+ADDED p8: '123. B — アトレチコMG × グレミオ第2戦はMRVアリーナ'
+ADDED p8: '47. A — 第2戦アトレチコMG × グレミオは土曜日7日18時'
+---- removed strings with NO CJK and NO latin-furniture markers (potential PT loss) ----
+  p1 NOCJK-REMOVED: 'O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL' x1
+  p5 NOCJK-REMOVED: 'reta final · inscrito · véspera · maratona' x1
+  p5 NOCJK-REMOVED: '· local · separar' x1
+  p6 NOCJK-REMOVED: 'chamada · local · conferir' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 1 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 2 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 3 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 4 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 5 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 6 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 7 —' x1
+  p8 NOCJK-REMOVED: '— PÁGINA 8 —' x1
+---- standalone level badges ----
+  standalone A2: total=47 per-page={'p1-capa': 10, 'p2-vida': 14, 'p3-cultura': 10, 'p4-esporte': 0, 'p5-jovens': 0, 'p6-aprofundamento': 0, 'p7-lingua': 4, 'p8-avaliacao': 9}
+  standalone B1: total=70 per-page={'p1-capa': 3, 'p2-vida': 1, 'p3-cultura': 9, 'p4-esporte': 15, 'p5-jovens': 15, 'p6-aprofundamento': 0, 'p7-lingua': 4, 'p8-avaliacao': 23}
+  standalone B2: total=29 per-page={'p1-capa': 1, 'p2-vida': 0, 'p3-cultura': 0, 'p4-esporte': 0, 'p5-jovens': 3, 'p6-aprofundamento': 18, 'p7-lingua': 4, 'p8-avaliacao': 3}
+---- level badge nodes in CORE for comparison ----
+  core standalone A2: total=47 per-page={'p1-capa': 10, 'p2-vida': 14, 'p3-cultura': 10, 'p4-esporte': 0, 'p5-jovens': 0, 'p6-aprofundamento': 0, 'p7-lingua': 4, 'p8-avaliacao': 9}
+  core standalone B1: total=70 per-page={'p1-capa': 3, 'p2-vida': 1, 'p3-cultura': 9, 'p4-esporte': 15, 'p5-jovens': 15, 'p6-aprofundamento': 0, 'p7-lingua': 4, 'p8-avaliacao': 23}
+  core standalone B2: total=29 per-page={'p1-capa': 1, 'p2-vida': 0, 'p3-cultura': 0, 'p4-esporte': 0, 'p5-jovens': 3, 'p6-aprofundamento': 18, 'p7-lingua': 4, 'p8-avaliacao': 3}
+---- essay (model text) word count ----
+Traceback (most recent call last):
+  File "<stdin>", line 41, in <module>
+AttributeError: 'tuple' object has no attribute 'strip'

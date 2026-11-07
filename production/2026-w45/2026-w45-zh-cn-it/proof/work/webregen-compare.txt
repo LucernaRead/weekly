@@ -1,0 +1,23 @@
+p1-touiban.png IDENTICAL
+p2-shenghuo.png IDENTICAL
+p3-wenhua.png IDENTICAL
+p4-tiyu.png IDENTICAL
+p5-qingnian.png IDENTICAL
+p6-shendu.png IDENTICAL
+p7-ciyu.png IDENTICAL
+p8-ceyan.png IDENTICAL
+cards 8/8 byte-identical
+Lucerna-VOL2.pdf delivered 46262363 regen 46262363 byte-identical: True sha-del: 612959385fedcfd660f0892efe6964007b2aa8a14a5dffafa137b743f05a4efa sha-regen: 612959385fedcfd660f0892efe6964007b2aa8a14a5dffafa137b743f05a4efa
+Lucerna-VOL2-web.pdf delivered 3262810 regen 3262810 byte-identical: False sha-del: 742c01caaa149105addc903dd08739b3c143a6314c973471a0c934c4bed4b621 sha-regen: 460f482207f93215ef503ff9c5727f77823fa9bc547d405a6655ea1bdcbbc7b6
+  differing byte count: 8
+  range 3262123-3262126: regen=b'L\x002\x00-\x00w\x00e\x00b)\n/CreationDate (D:20261028082535Z)\n/ModDate (D:20261028082535Z)\n>>endob'
+              delivered=b'L\x002\x00-\x00w\x00e\x00b)\n/CreationDate (D:20261028080842Z)\n/ModDate (D:20261028080842Z)\n>>endob'
+  range 3262152-3262155: regen=b':20261028082535Z)\n/ModDate (D:20261028082535Z)\n>>endobj\nxref\n0 28\n0000000000 65536 '
+              delivered=b':20261028080842Z)\n/ModDate (D:20261028080842Z)\n>>endobj\nxref\n0 28\n0000000000 65536 '
+Traceback (most recent call last):
+  File "<stdin>", line 22, in <module>
+ModuleNotFoundError: No module named 'pypdf'
+Lucerna-VOL2.pdf delivered 8 pages
+Lucerna-VOL2.pdf regen 8 pages
+Lucerna-VOL2-web.pdf delivered 8 pages
+Lucerna-VOL2-web.pdf regen 8 pages

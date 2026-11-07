@@ -1,0 +1,135 @@
+== freeze removed-without-CJK, all pages ==
+ p1: removed=23 pure-noCJK=0
+ p2: removed=28 pure-noCJK=0
+ p3: removed=32 pure-noCJK=0
+ p4: removed=37 pure-noCJK=0
+ p5: removed=30 pure-noCJK=0
+ p6: removed=27 pure-noCJK=0
+ p7: removed=32 pure-noCJK=0
+ p8: removed=119 pure-noCJK=8
+    "Traduisez : « Lire un programme, c'est déjà"
+    'chrysanthèmes pour un anniversaire. · 36. Les feuilles ne'
+    'heures'
+    'pas la Toussaint. · 38. nocturne · 39. badge · 40. Plailly'
+    "sont plus vertes en novembre. · 37. Le 2 novembre n'est"
+    'vingt pages ce soir. · 17. Tu vas préparer ton cartable ce'
+    "· 103. joue · 104. rencontrent · 105. On n'offre jamais de"
+    'élèves vont reprendre les cours lundi. · 16. Nous allons lire'
+== freeze added-without-Dutch? (added strings containing CJK should be 0) ==
+ p1: added=24 added-with-CJK=0 []
+ p2: added=31 added-with-CJK=0 []
+ p3: added=36 added-with-CJK=0 []
+ p4: added=42 added-with-CJK=0 []
+ p5: added=34 added-with-CJK=0 []
+ p6: added=31 added-with-CJK=0 []
+ p7: added=43 added-with-CJK=0 []
+ p8: added=139 added-with-CJK=0 []
+== P2/P3 credit-region nodes ==
+  p2-vie y=761.1199999999999 x=65.0 :: 'Les vacances ont commencé'
+  p2-vie y=799.1199999999999 x=65.0 :: 'samedi 17 octobre, après les cours.'
+  p2-vie y=716.0 x=527.0 :: 'minutes de lecture chaque soir,'
+  p2-vie y=754.0 x=527.0 :: 'avant de dormir.'
+  p2-vie y=704.0 x=1451.0 :: "L'automne à Mama, près d'Edo : les feuilles"
+  p2-vie y=729.65 x=1451.0 :: 'rouges annoncent les soirées de lecture.'
+  p2-vie y=757.3 x=1451.0 :: 'Utagawa Hiroshige (1797-1858), estampe, domaine public ·'
+  p2-vie y=777.4499999999999 x=1451.0 :: 'LACMA'
+  p3-culture y=837.1199999999999 x=65.0 :: "novembre, l'ambiance a changé :"
+  p3-culture y=875.1199999999999 x=65.0 :: "c'était la Toussaint, le jour des"
+  p3-culture y=822.55 x=557.0 :: 'A2'
+  p3-culture y=823.55 x=599.0 :: '32.'
+  p3-culture y=856.55 x=527.0 :: 'On pose les fleurs sur la ___.'
+  p3-culture y=815.3 x=1451.0 :: 'en cadeau.'
+  p3-culture y=842.9499999999999 x=1451.0 :: 'Planche botanique, Flora de Filipinas (Blanco), XIXe siècle,'
+  p3-culture y=863.0999999999999 x=1451.0 :: 'domaine public'
+== W43 vs ED P8 separators bytes ==
+  ED: [b'\xc3\x89VALUATION \xc2\xb7 ANTWOORDEN ONDERAAN DEZE PAGINA', b'R\xc3\x89PONSES \xc2\xb7 ALLE ANTWOORDEN MET NOTEN (PAGINA 1\xe2\x80\x938)', b'\xe2\x80\x94 PAGINA 1 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 2 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 3 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 4 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 5 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 6 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 7 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 8 \xe2\x80\x94']
+  W43: [b'TOETS \xc2\xb7 DE ANTWOORDEN ONDERAAN DEZE PAGINA', b'R\xc3\x89PONSES \xc2\xb7 ALLE ANTWOORDEN MET NOTEN (PAGINA 1\xe2\x80\x938)', b'\xe2\x80\x94 PAGINA 1 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 2 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 3 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 4 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 5 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 6 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 7 \xe2\x80\x94', b'\xe2\x80\x94 PAGINA 8 \xe2\x80\x94']
+== P7 rects y>1500 + texts y 1900-2580 (excl footer 2624) ==
+  rect x=28.0 y=28.0 w=1894.0 h=2644.0 bottom=2672.0
+  rect x=40.0 y=40.0 w=1870.0 h=2620.0 bottom=2660.0
+  rect x=65.0 y=1649.825 w=60.0 h=30.0 bottom=1679.825
+  rect x=527.0 y=1677.8500000000004 w=60.0 h=30.0 bottom=1707.8500000000004
+  rect x=989.0 y=1590.5 w=60.0 h=30.0 bottom=1620.5
+  rect x=65.0 y=2017.95 w=60.0 h=30.0 bottom=2047.95
+  rect x=65.0 y=2148.7 w=60.0 h=30.0 bottom=2178.7
+  rect x=527.0 y=1878.0 w=60.0 h=30.0 bottom=1908.0
+  rect x=527.0 y=2008.75 w=60.0 h=30.0 bottom=2038.75
+  rect x=989.0 y=1878.0 w=896.0 h=380.0 bottom=2258.0
+  rect x=989.0 y=2270.0 w=896.0 h=270.0 bottom=2540.0
+  text y=1903.0 x=65.0 :: 'CLINIQUE DES ERREURS · PAS OP!'
+  text y=1949.5 x=65.0 :: 'Elke zin bevat één fout: vind hem en verbeter'
+  text y=1979.225 x=65.0 :: 'hem.'
+  text y=2039.95 x=95.0 :: 'A2'
+  text y=2040.95 x=137.0 :: '105.'
+  text y=2040.95 x=207.0 :: 'Corrigeer'
+  text y=2072.45 x=65.0 :: '✗ « On offre des chrysanthèmes pour'
+  text y=2105.075 x=65.0 :: 'un anniversaire. »'
+  text y=2170.7 x=95.0 :: 'A2'
+  text y=2171.7 x=137.0 :: '106.'
+  text y=2171.7 x=207.0 :: 'Corrigeer'
+  text y=2203.2 x=65.0 :: '✗ « Les jeunes créateurs y rencontre'
+  text y=2235.825 x=65.0 :: 'leur public, en vrai. »'
+  text y=1900.0 x=557.0 :: 'B2'
+  text y=1901.0 x=599.0 :: '107.'
+  text y=1901.0 x=669.0 :: 'Corrigeer'
+  text y=1932.5 x=527.0 :: "✗ « Il est prévu que l'Assemblée"
+  text y=1965.125 x=527.0 :: 'examines la Culture. »'
+  text y=2030.75 x=557.0 :: 'B1'
+  text y=2031.75 x=599.0 :: '108.'
+  text y=2031.75 x=669.0 :: 'Corrigeer'
+  text y=2063.25 x=527.0 :: '✗ « La finale a lieu dimanche 7'
+  text y=2095.875 x=527.0 :: 'novembre. »'
+  text y=1918.0 x=1013.0 :: 'LE COURRIER DES LECTEURS · LEZERSRUBRIEK'
+  text y=1956.0 x=1013.0 :: "« Mon week-end de novembre : samedi, j'ai regardé un match à la télévi"
+  text y=1985.82 x=1013.0 :: "dimanche, j'ai cuisiné une soupe et j'ai lu vingt pages. » — Exemple d"
+  text y=2015.6399999999999 x=1013.0 :: "(ce texte n'est pas une lettre de lecteur)."
+  text y=2066.0 x=1013.0 :: 'Redactiecommentaar · Stabiele passé composé, puntkomma verbindt twee d'
+  text y=2094.0 x=1013.0 :: 'je brief én je beste pagina-8-tekst in voor VOL.4!'
+  text y=2142.0 x=1013.0 :: "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment d"
+  text y=2170.0 x=1013.0 :: "presse (le numéro W44 n'a pas paru). Le VOL.4 reprendra la promesse."
+  text y=2206.0 x=1013.0 :: 'Opmerking van de redactie: geen echte brieven en geen beste VOL.2-pagi'
+  text y=2233.3 x=1013.0 :: '(geen W44-nummer); beide volgen in VOL.4.'
+  text y=2316.0 x=1013.0 :: 'LA SEMAINE PROCHAINE · VOL.4 VOLGENDE WEEK'
+  text y=2354.0 x=1013.0 :: 'Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. '
+  text y=2384.45 x=1013.0 :: "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 n"
+  text y=2414.8999999999996 x=1013.0 :: 'la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos '
+  text y=2466.0 x=1013.0 :: 'Volgende week: de Senaat bespreekt de begroting voor sociale zekerheid'
+  text y=2494.0 x=1013.0 :: 'Wapenstilstand, de haring- en sint-jakobsschelpenbeurs in Dieppe; en j'
+== P1 texts x=527 (gloss box region) ==
+  y=801.4 size=25.0 :: 'gratuit contre les monstres.'
+  y=874.4 size=25.0 :: 'À Port-en-Bessin, en Normandie,'
+  y=912.4 size=25.0 :: 'on fête la coquille Saint-Jacques : «'
+  y=950.4 size=25.0 :: 'Le Goût du Large », samedi 7 et'
+  y=988.4 size=25.0 :: 'dimanche 8 novembre, 22e édition.'
+  y=1026.4 size=25.0 :: 'On y vend des coquilles et on goûte'
+  y=1064.4 size=25.0 :: 'des recettes au bord de la mer.'
+  y=1137.4 size=25.0 :: 'Trois villes, trois finales, un seul'
+  y=1175.4 size=25.0 :: 'week-end : Paris pour le tennis,'
+  y=1213.4 size=25.0 :: 'Plailly pour les frissons,'
+  y=1251.4 size=25.0 :: 'Port-en-Bessin pour les saveurs.'
+  y=1289.4 size=25.0 :: 'Suite en pages 3 et 4.'
+  y=2419.0 size=21.0 :: 'Le Goût du Large a lieu à... A.'
+  y=2449.45 size=21.0 :: 'Port-en-Bessin · B. Dieppe · C. Courseulles'
+== P6 rects + texts in chart box ==
+  rect x=28.0 y=28.0 w=1894.0 h=2644.0
+  rect x=40.0 y=40.0 w=1870.0 h=2620.0
+  rect x=52.0 y=52.0 w=1846.0 h=98.0
+  rect x=527.0 y=802.0 w=434.0 h=205.125
+  rect x=65.0 y=1330.0 w=896.0 h=470.0
+  rect x=65.0 y=1969.95 w=60.0 h=30.0
+  rect x=65.0 y=2098.75 w=60.0 h=30.0
+  rect x=65.0 y=2227.55 w=60.0 h=30.0
+  rect x=65.0 y=2388.2500000000005 w=60.0 h=30.0
+  rect x=527.0 y=1830.0 w=60.0 h=30.0
+  rect x=527.0 y=1990.7000000000003 w=60.0 h=30.0
+  rect x=527.0 y=2170.5000000000005 w=60.0 h=30.0
+  rect x=989.0 y=498.82 w=434.0 h=326.68
+  rect x=989.0 y=1440.225 w=60.0 h=30.0
+  rect x=989.0 y=1567.0749999999998 w=60.0 h=30.0
+  rect x=989.0 y=1693.9249999999997 w=60.0 h=30.0
+  rect x=989.0 y=1991.8999999999996 w=60.0 h=30.0
+  rect x=989.0 y=2087.575 w=60.0 h=30.0
+  rect x=989.0 y=2214.425 w=60.0 h=30.0
+  rect x=989.0 y=2310.1000000000004 w=60.0 h=30.0
+  rect x=989.0 y=2405.7750000000005 w=60.0 h=30.0
+  rect x=1451.0 y=1330.0 w=434.0 h=296.15

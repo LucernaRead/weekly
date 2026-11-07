@@ -1,0 +1,34 @@
+#83 keys identical: True
+   CORE key: 'A'
+   ED   key: 'A'
+#85 keys identical: True
+   CORE key: 'C'
+   ED   key: 'C'
+#95 keys identical: True
+   CORE key: 'para que'
+   ED   key: 'para que'
+#96 keys identical: True
+   CORE key: 'Aunque'
+   ED   key: 'Aunque'
+#98 keys identical: True
+   CORE key: 'muestra'
+   ED   key: 'muestra'
+#107 keys identical: True
+   CORE key: 'mejor'
+   ED   key: 'mejor'
+#117 keys identical: True
+   CORE key: 'A'
+   ED   key: 'A'
+#148 keys identical: True
+   CORE key: 'A'
+   ED   key: 'A'
+
+=== #150 clean (footer nodes are separate <text> elements, not part of answer line) ===
+CORE y=631.0750000000002 node='150.'
+CORE y=2379.6000000000004 node='150. ✓ 范文见本版 H 区（84 词）'
+CORE footer y=2624 node='La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+CORE footer y=2624 node='第 8 版 / 共 8 版'
+ED y=690.5250000000001 node='150.'
+ED y=2469.028000000003 node='150. ✓ Il modello è nella sezione H di questa pagina (84 parole)'
+ED footer y=2624 node='La Lucerna · SETTIMANALE SPAGNOLO VOL.2 · TESTI IN SPAGNOLO · SPIEGAZIONI IN ITA'
+ED footer y=2624 node='Pagina 8 di 8'

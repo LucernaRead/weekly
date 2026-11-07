@@ -1,0 +1,8 @@
+{
+ "core_svg": "files/weekly-report-w45-en-core/svg",
+ "edition_svg": "files/weekly-report-w45-en-it/svg",
+ "cjk_added_total": {}
+}
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+AttributeError: 'str' object has no attribute 'get'

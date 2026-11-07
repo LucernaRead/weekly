@@ -1,0 +1,96 @@
+=== P2 x=1473 texts (y, size, text) ===
+y=242 fs=24 :: ¿SABÍAS QUE…?
+y=289 fs=21.5 :: La huelga del miércoles 11 dura 24
+y=319.53 fs=21.5 :: horas y llega a todo el país.
+y=383.05999999999995 fs=21.5 :: La convocan CCOO, UGT, CGT, CNT y
+y=413.5899999999999 fs=21.5 :: los sindicatos de inquilinas.
+y=477.1199999999999 fs=21.5 :: El lema es «Salarios, vivienda y
+y=507.64999999999986 fs=21.5 :: precios»: tres palabras, tres
+y=538.1799999999998 fs=21.5 :: problemas.
+y=611.5 fs=24 :: ¿Y TÚ? · UND DU?
+y=658.5 fs=21.5 :: ¿Y tú? ¿Qué harías el miércoles 11:
+y=689.03 fs=21.5 :: vas a la huelga, trabajas o te quedas
+y=719.56 fs=21.5 :: en casa? ¿Qué te preocupa más: el
+y=750.0899999999999 fs=21.5 :: salario, la vivienda o los precios?
+y=780.6199999999999 fs=21.5 :: Escribe dos frases en español y
+y=811.1499999999999 fs=21.5 :: envíalas a la redacción: las mejores
+y=841.6799999999998 fs=21.5 :: salen en la página 7, «Cartas de los
+y=872.2099999999998 fs=21.5 :: lectores».
+y=932.7399999999998 fs=20 :: Was machst du am Mittwoch, 11.
+y=961.1399999999998 fs=20 :: November: streiken, arbeiten oder zu
+y=989.5399999999997 fs=20 :: Hause bleiben? Was beunruhigt dich am
+y=1017.9399999999997 fs=20 :: meisten: Löhne, Wohnungen oder Preise?
+y=1046.3399999999997 fs=20 :: Schreib zwei Sätze auf Spanisch an die
+y=1074.7399999999998 fs=20 :: Redaktion.
+
+=== P2 all texts containing beunruhigt/sorgt/Schreib ===
+x=1473 y=932.7399999999998 fs=20 :: Was machst du am Mittwoch, 11.
+x=1473 y=989.5399999999997 fs=20 :: Hause bleiben? Was beunruhigt dich am
+x=1473 y=1046.3399999999997 fs=20 :: Schreib zwei Sätze auf Spanisch an die
+
+=== P2 rects near col3 (box geometry) ===
+
+=== P7 Q6 area: texts x=989 y 2050-2200 ===
+y=2005.25 fs=19.5 :: Zum Wählen muss man nicht ins Wahllokal gehen: Die Briefwahl kommt nach Hause. (Página 5)
+y=2083.58 fs=21.5 :: «La vivienda preocupa al 86,9 % de los españoles.»
+y=2133.25 fs=19.5 :: 86,9 % der Spanier sorgen sich um die Wohnung. (Página 6)
+
+=== P7 defective check ===
+Die Wohnung sorgt count: 0
+sorgen sich um die Wohnung lines: ['86,9 % der Spanier sorgen sich um die Wohnung. (Página 6)']
+
+=== Badge/footer ===
+p1-portada.svg badge: [('975', '574', '22', '700', '#a4553a', 'middle', 'SPANISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER')] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 1 von 8')]
+p2-vida.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 2 von 8')]
+p3-cultura.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 3 von 8')]
+p4-deporte.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 4 von 8')]
+p5-juventud.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 5 von 8')]
+p6-afondo.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 6 von 8')]
+p7-lengua.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 7 von 8')]
+p8-ejercicios.svg badge: [] footer: [('65', '2624', '20', None, '#57523f', 'start', 'La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH')] pageline: [('1885', '2624', '20', None, '#57523f', 'end', 'Seite 8 von 8')]
+
+=== P1 masthead/tagline ===
+x=975 y=262 fs=168 w=None fill=#28251d anchor=middle :: La Lucerna
+x=975 y=372 fs=19 w=None fill=#57523f anchor=middle :: EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA
+x=975 y=574 fs=22 w=700 fill=#a4553a anchor=middle :: SPANISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER
+x=65 y=752.8 fs=20 w=None fill=#57523f anchor=start :: De la redacción de La Lucerna · Nivel de lectura: A2
+x=65 y=2296.9500000000003 fs=15.5 w=None fill=#8a8168 anchor=start :: Ilustración: La Lucerna
+x=65 y=2624 fs=20 w=None fill=#57523f anchor=start :: La Lucerna · SPANISCHE WOCHENZEITUNG VOL.3 · TEXT AUF SPANISCH · ERKLÄRUNGEN AUF DEUTSCH
+
+=== P6 chart rects ===
+rect x=495.0 y=1668.0 w=305.28000000000003 h=22.0 fill=#3e4c2a
+rect x=495.0 y=1699.0 w=292.48 h=22.0 fill=#3e4c2a
+rect x=495.0 y=1730.0 w=244.16 h=22.0 fill=#3e4c2a
+rect x=495.0 y=1761.0 w=241.92 h=22.0 fill=#3e4c2a
+rect x=495.0 y=1792.0 w=225.92 h=22.0 fill=#3e4c2a
+rect x=1419.0 y=1668.0 w=278.08000000000004 h=22.0 fill=#a4553a
+rect x=1419.0 y=1699.0 w=252.8 h=22.0 fill=#a4553a
+rect x=1419.0 y=1730.0 w=43.2 h=22.0 fill=#a4553a
+rect x=65.0 y=2135.95 w=60.0 h=30.0 fill=#a4553a
+rect x=65.0 y=2268.9249999999993 w=60.0 h=30.0 fill=#a4553a
+rect x=65.0 y=2375.074999999999 w=60.0 h=30.0 fill=#a4553a
+rect x=65.0 y=2481.2249999999985 w=60.0 h=30.0 fill=#a4553a
+rect x=527.0 y=1996.0 w=60.0 h=30.0 fill=#a4553a
+rect x=527.0 y=2102.1499999999996 w=60.0 h=30.0 fill=#a4553a
+rect x=527.0 y=2286.124999999999 w=60.0 h=30.0 fill=#a4553a
+rect x=527.0 y=2419.0999999999985 w=60.0 h=30.0 fill=#a4553a
+rect x=989.0 y=1996.0 w=60.0 h=30.0 fill=#a4553a
+rect x=989.0 y=2128.9749999999995 w=60.0 h=30.0 fill=#a4553a
+rect x=989.0 y=2312.949999999999 w=60.0 h=30.0 fill=#a4553a
+rect x=989.0 y=2392.2749999999987 w=60.0 h=30.0 fill=#a4553a
+rect x=989.0 y=2471.5999999999985 w=60.0 h=30.0 fill=#a4553a
+rect x=1451.0 y=1996.0 w=60.0 h=30.0 fill=#a4553a
+rect x=1451.0 y=2245.0 w=60.0 h=30.0 fill=#a4553a
+rect x=1451.0 y=2324.325 w=60.0 h=30.0 fill=#a4553a
+rect x=1451.0 y=2403.6499999999996 w=60.0 h=30.0 fill=#a4553a
+rect x=1451.0 y=2482.9749999999995 w=60.0 h=30.0 fill=#a4553a
+
+=== text counts per page ===
+p1-portada.svg 166
+p2-vida.svg 202
+p3-cultura.svg 169
+p4-deporte.svg 171
+p5-juventud.svg 175
+p6-afondo.svg 191
+p7-lengua.svg 163
+p8-ejercicios.svg 352

@@ -1,0 +1,114 @@
+{
+ "svgdir": "../files/weekly-report-w45-en-nl/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "EDGE",
+   "text": "Deze week gezocht in Amerika · Google Trends-momentopname VS",
+   "box": [
+    1473.0,
+    670.8,
+    2076.8,
+    690.8
+   ],
+   "detail": "ink box (1473.0, 670.75, 2076.75, 690.75) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "tussentijdse verkiezing.",
+   "box": [
+    1451.0,
+    1830.4,
+    1658.5,
+    1850.4
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "Deze week gezocht in Amerika · Google Trends-momentopname VS",
+   "box": [
+    1473.0,
+    670.8,
+    2076.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 2076.8 > border 1885.0",
+   "by": "rect@102"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Levels : 145–148 [A2] · 149 [B1]",
+   "box": [
+    1451.0,
+    1469.2,
+    1739.5,
+    1488.5
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@186"
+  }
+ ],
+ "flag_count": 4,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "EDGE",
+   "text": "Deze week gezocht in Amerika · Google Trends-momentopname VS",
+   "box": [
+    1473.0,
+    670.8,
+    2076.8,
+    690.8
+   ],
+   "detail": "ink box (1473.0, 670.75, 2076.75, 690.75) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "tussentijdse verkiezing.",
+   "box": [
+    1451.0,
+    1830.4,
+    1658.5,
+    1850.4
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "BOXTITLE",
+   "text": "Deze week gezocht in Amerika · Google Trends-momentopname VS",
+   "box": [
+    1473.0,
+    670.8,
+    2076.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 2076.8 > border 1885.0",
+   "by": "rect@102"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Levels : 145–148 [A2] · 149 [B1]",
+   "box": [
+    1451.0,
+    1469.2,
+    1739.5,
+    1488.5
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@186"
+  }
+ ],
+ "new_flag_count": 4
+}

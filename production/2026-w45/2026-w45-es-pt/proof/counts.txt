@@ -1,0 +1,31 @@
+=== EXERCISE COUNTS per page (level-chip + number pairs) ===
+  p1-portada: paired=10 levels={'A2': 8, 'B1': 2} numbers=1..10 unpaired_numbers=[]
+  p2-vida: paired=14 levels={'A2': 12, 'B1': 2} numbers=11..24 unpaired_numbers=[]
+  p3-cultura: paired=18 levels={'A2': 11, 'B1': 7} numbers=29..46 unpaired_numbers=[]
+  p4-deporte: paired=14 levels={'B1': 14} numbers=47..64 unpaired_numbers=[]
+  p5-juventud: paired=18 levels={'B1': 18} numbers=65..82 unpaired_numbers=[2025]
+  p6-afondo: paired=18 levels={'B2': 18} numbers=83..100 unpaired_numbers=[]
+  p7-lengua: paired=12 levels={'A2': 4, 'B1': 4, 'B2': 4} numbers=101..112 unpaired_numbers=[]
+  p8-ejercicios: paired=34 levels={'B1': 21, 'A2': 11, 'B2': 2} numbers=113..150 unpaired_numbers=[]
+  TOTAL paired: 138 levels: {'A2': 46, 'B1': 68, 'B2': 24}
+
+=== P8 answer groups by separator (pagination cross-check) ===
+  answers for source page 1: n=10 range 1..10
+  answers for source page 2: n=18 range 11..28
+  answers for source page 3: n=18 range 29..46
+  answers for source page 4: n=18 range 47..64
+  answers for source page 5: n=18 range 65..82
+  answers for source page 6: n=18 range 83..100
+  answers for source page 7: n=12 range 101..112
+  answers for source page 8: n=38 range 113..150
+  sum: 150
+
+=== P7 QUOTES: occurrences in full ED issue (joined page text, whitespace-normalised) ===
+  total=2 per-page={'p1-portada': 1, 'p7-lengua': 1} :: Las listas ya están presentadas: ahora los partidos escriben sus progr
+  total=2 per-page={'p2-vida': 1, 'p7-lengua': 1} :: El lunes 2 de noviembre es festivo en nueve comunidades — y día de tra
+  total=2 per-page={'p3-cultura': 1, 'p7-lengua': 1} :: Tres fiestas, una misma noche de otoño.
+  total=2 per-page={'p4-deporte': 1, 'p7-lengua': 1} :: El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del 
+  total=2 per-page={'p5-juventud': 1, 'p7-lengua': 1} :: El Bernabéu cambia el césped por el emparrillado: el fútbol americano 
+  total=2 per-page={'p6-afondo': 1, 'p7-lengua': 1} :: La vivienda es el principal problema para el 55,7 % de los españoles.
+  total=2 per-page={'p6-afondo': 1, 'p7-lengua': 1} :: Una encuesta es una foto con margen de error, tomada en un día concret
+  total=2 per-page={'p1-portada': 1, 'p7-lengua': 1} :: El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético

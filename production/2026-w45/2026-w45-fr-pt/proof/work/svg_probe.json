@@ -1,0 +1,1176 @@
+{
+ "checks": {
+  "ed": {
+   "q1": 5,
+   "q2": 3,
+   "q3": 1,
+   "q4": 5,
+   "q5": 1,
+   "q6": 3,
+   "q7": 1,
+   "q8": 3,
+   "40e_count": 1,
+   "41e": true,
+   "q120_stem": true,
+   "q120_opts": true,
+   "qiao_jie": 0
+  },
+  "core": {
+   "q1": 5,
+   "q2": 3,
+   "q3": 1,
+   "q4": 5,
+   "q5": 1,
+   "q6": 3,
+   "q7": 1,
+   "q8": 3,
+   "40e_count": 1,
+   "41e": true,
+   "q120_stem": true,
+   "q120_opts": true,
+   "qiao_jie": 0
+  }
+ },
+ "p7_quotes": {
+  "ed": [
+   {
+    "k": "q1",
+    "hits": [
+     [
+      65.0,
+      325.5,
+      "« Le lundi 2 novembre, on reprend les"
+     ],
+     [
+      83.0,
+      832.5,
+      "« Le lundi 2 novembre, on reprend les"
+     ],
+     [
+      65.0,
+      1234.0,
+      "« Le lundi 2 novembre, on reprend les"
+     ]
+    ]
+   },
+   {
+    "k": "q2",
+    "hits": []
+   },
+   {
+    "k": "q3",
+    "hits": [
+     [
+      527.0,
+      359.7,
+      "» « Les cimetières se sont remplis de"
+     ],
+     [
+      65.0,
+      1797.0,
+      "« Les cimetières se sont remplis de"
+     ]
+    ]
+   },
+   {
+    "k": "q4",
+    "hits": [
+     [
+      527.0,
+      613.2,
+      "Une finale qu'on ne connaît pas"
+     ],
+     [
+      545.0,
+      900.9,
+      "« Une finale qu'on ne connaît pas"
+     ],
+     [
+      527.0,
+      1443.8500000000001,
+      "« Une finale qu'on ne connaît pas"
+     ]
+    ]
+   },
+   {
+    "k": "q5",
+    "hits": [
+     [
+      527.0,
+      1740.2000000000003,
+      "« Le festival se promène dans Paris. »"
+     ]
+    ]
+   },
+   {
+    "k": "q6",
+    "hits": [
+     [
+      1007.0,
+      866.7,
+      "« Ce calendrier peut encore bouger. »"
+     ],
+     [
+      989.0,
+      1415.5750000000003,
+      "« Ce calendrier peut encore bouger. »"
+     ]
+    ]
+   },
+   {
+    "k": "q7",
+    "hits": [
+     [
+      989.0,
+      1713.0250000000003,
+      "« Ce week-end, tout se joue. » (page 1)"
+     ]
+    ]
+   },
+   {
+    "k": "q8",
+    "hits": [
+     [
+      1451.0,
+      1330.9,
+      "« Les jeunes créateurs y rencontrent"
+     ],
+     [
+      65.0,
+      2203.2,
+      "✗ « Les jeunes créateurs y rencontre"
+     ]
+    ]
+   }
+  ],
+  "core": [
+   {
+    "k": "q1",
+    "hits": [
+     [
+      65.0,
+      325.5,
+      "« Le lundi 2 novembre, on reprend les"
+     ],
+     [
+      83.0,
+      832.5,
+      "« Le lundi 2 novembre, on reprend les"
+     ],
+     [
+      65.0,
+      1234.0,
+      "« Le lundi 2 novembre, on reprend les"
+     ]
+    ]
+   },
+   {
+    "k": "q2",
+    "hits": []
+   },
+   {
+    "k": "q3",
+    "hits": [
+     [
+      527.0,
+      359.7,
+      "» « Les cimetières se sont remplis de"
+     ],
+     [
+      65.0,
+      1768.7250000000001,
+      "« Les cimetières se sont remplis de"
+     ]
+    ]
+   },
+   {
+    "k": "q4",
+    "hits": [
+     [
+      527.0,
+      613.2,
+      "Une finale qu'on ne connaît pas"
+     ],
+     [
+      545.0,
+      900.9,
+      "« Une finale qu'on ne connaît pas"
+     ],
+     [
+      527.0,
+      1443.8500000000001,
+      "« Une finale qu'on ne connaît pas"
+     ]
+    ]
+   },
+   {
+    "k": "q5",
+    "hits": [
+     [
+      527.0,
+      1711.9250000000004,
+      "« Le festival se promène dans Paris. »"
+     ]
+    ]
+   },
+   {
+    "k": "q6",
+    "hits": [
+     [
+      1007.0,
+      866.7,
+      "« Ce calendrier peut encore bouger. »"
+     ],
+     [
+      989.0,
+      1362.8000000000002,
+      "« Ce calendrier peut encore bouger. »"
+     ]
+    ]
+   },
+   {
+    "k": "q7",
+    "hits": [
+     [
+      989.0,
+      1631.9750000000004,
+      "« Ce week-end, tout se joue. » (page 1)"
+     ]
+    ]
+   },
+   {
+    "k": "q8",
+    "hits": [
+     [
+      1451.0,
+      1234.0,
+      "« Les jeunes créateurs y rencontrent"
+     ],
+     [
+      65.0,
+      2173.475,
+      "✗ « Les jeunes créateurs y rencontre"
+     ]
+    ]
+   }
+  ]
+ },
+ "p8": {
+  "ed": {
+   "65": {
+    "max_y": 2624.0,
+    "max_y_answers": 2624.0,
+    "n": 67
+   },
+   "527": {
+    "max_y": 2532.8200000000006,
+    "max_y_answers": 2532.8200000000006,
+    "n": 57
+   },
+   "989": {
+    "max_y": 2532.82,
+    "max_y_answers": 2532.82,
+    "n": 54
+   },
+   "1451": {
+    "max_y": 2270.35,
+    "max_y_answers": 2270.35,
+    "n": 44
+   },
+   "all_max": 2624.0,
+   "sep_heads": [
+    [
+     1451.0,
+     1264.0,
+     "— Bonjour madame, c'est le marché du Goût"
+    ],
+    [
+     65.0,
+     1877.0,
+     "— Página 1 —"
+    ],
+    [
+     65.0,
+     2055.3599999999997,
+     "— Página 2 —"
+    ],
+    [
+     65.0,
+     2271.42,
+     "— Página 3 —"
+    ],
+    [
+     65.0,
+     2544.03,
+     "— Página 4 —"
+    ],
+    [
+     527.0,
+     2070.15,
+     "— Página 5 —"
+    ],
+    [
+     527.0,
+     2305.0600000000004,
+     "— Página 6 —"
+    ],
+    [
+     989.0,
+     1919.35,
+     "— Página 7 —"
+    ],
+    [
+     989.0,
+     2154.2599999999998,
+     "— Página 8 —"
+    ]
+   ],
+   "battery_max": 1593.175
+  },
+  "core": {
+   "65": {
+    "max_y": 2624.0,
+    "max_y_answers": 2624.0,
+    "n": 62
+   },
+   "527": {
+    "max_y": 2537.7300000000005,
+    "max_y_answers": 2537.7300000000005,
+    "n": 53
+   },
+   "989": {
+    "max_y": 2526.11,
+    "max_y_answers": 2526.11,
+    "n": 53
+   },
+   "1451": {
+    "max_y": 2137.45,
+    "max_y_answers": 2137.45,
+    "n": 32
+   },
+   "all_max": 2624.0,
+   "sep_heads": [
+    [
+     1451.0,
+     1177.0,
+     "— Bonjour madame, c'est le marché du"
+    ],
+    [
+     65.0,
+     1877.0,
+     "— 第 1 版 —"
+    ],
+    [
+     65.0,
+     2023.86,
+     "— 第 2 版 —"
+    ],
+    [
+     65.0,
+     2231.17,
+     "— 第 3 版 —"
+    ],
+    [
+     65.0,
+     2498.9300000000003,
+     "— 第 4 版 —"
+    ],
+    [
+     527.0,
+     2022.4,
+     "— 第 5 版 —"
+    ],
+    [
+     527.0,
+     2229.71,
+     "— 第 6 版 —"
+    ],
+    [
+     527.0,
+     2477.32,
+     "— 第 7 版 —"
+    ],
+    [
+     989.0,
+     2062.7,
+     "— 第 8 版 —"
+    ]
+   ],
+   "battery_max": 1593.175
+  }
+ },
+ "bottoms": {
+  "ed": {
+   "p7": {
+    "max_y_excl_footer": 2494.0,
+    "tail": [
+     [
+      1013.0,
+      2233.3,
+      "identificado. Enviem-nos cartas e as melhores redações da página 8 para o VOL.4!"
+     ],
+     [
+      65.0,
+      2235.825,
+      "leur public, en vrai. »"
+     ],
+     [
+      1013.0,
+      2316.0,
+      "LA SEMAINE PROCHAINE · PRÓXIMA SEMANA · VOL.4"
+     ],
+     [
+      1013.0,
+      2354.0,
+      "Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. Mercredi 11"
+     ],
+     [
+      1013.0,
+      2384.45,
+      "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 novembre :"
+     ],
+     [
+      1013.0,
+      2414.8999999999996,
+      "la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, enfin !"
+     ],
+     [
+      1013.0,
+      2466.0,
+      "Na próxima semana: o Senado e o orçamento da Segurança Social, 11 de novembro, Dia do"
+     ],
+     [
+      1013.0,
+      2494.0,
+      "Armistício, feira de Dieppe — e as vossas cartas, finalmente!"
+     ]
+    ]
+   },
+   "p8": {
+    "max_y_excl_footer": 2544.03,
+    "tail": [
+     [
+      989.0,
+      2495.12,
+      "na segunda há escola) · 129. A (A segunda é dia de escola"
+     ],
+     [
+      527.0,
+      2495.120000000001,
+      "orçamento) · 93. ont rejeté (Os deputados rejeitaram as"
+     ],
+     [
+      65.0,
+      2499.1800000000003,
+      "usa cores) · 43. 19 heures"
+     ],
+     [
+      989.0,
+      2513.97,
+      "(segunda normal após as férias)) · 130. Les élèves vont"
+     ],
+     [
+      527.0,
+      2513.9700000000007,
+      "receitas) · 94. part (O texto segue para o Senado) · 95. peut (O"
+     ],
+     [
+      989.0,
+      2532.82,
+      "reprendre les cours lundi. (aller + infinitivo (futur proche)) ·"
+     ],
+     [
+      527.0,
+      2532.8200000000006,
+      "calendário ainda pode mudar) · 96. connus (Os resultados"
+     ],
+     [
+      65.0,
+      2544.03,
+      "— Página 4 —"
+     ]
+    ]
+   },
+   "p5": {
+    "max_y_excl_footer": 2486.1249999999995,
+    "tail": [
+     [
+      95.0,
+      2406.47,
+      "B1"
+     ],
+     [
+      137.0,
+      2407.47,
+      "62."
+     ],
+     [
+      557.0,
+      2417.3249999999994,
+      "B1"
+     ],
+     [
+      599.0,
+      2418.3249999999994,
+      "78."
+     ],
+     [
+      65.0,
+      2440.47,
+      "Le festival Pitchfork dure... A. un"
+     ],
+     [
+      527.0,
+      2451.3249999999994,
+      "— Tu as pris ___ ? — Oui, pour toi et"
+     ],
+     [
+      65.0,
+      2475.27,
+      "soir · B. sept jours · C. un mois"
+     ],
+     [
+      527.0,
+      2486.1249999999995,
+      "moi."
+     ]
+    ]
+   },
+   "p6": {
+    "max_y_excl_footer": 2505.0500000000006,
+    "tail": [
+     [
+      561.0,
+      2428.5000000000005,
+      "b. dire non à un texte"
+     ],
+     [
+      1061.0,
+      2428.7750000000005,
+      "96."
+     ],
+     [
+      65.0,
+      2441.2500000000005,
+      "Vendredi 6, c'est... A. Finances et"
+     ],
+     [
+      989.0,
+      2459.2750000000005,
+      "Les résultats ne sont pas encore ___."
+     ],
+     [
+      561.0,
+      2466.5000000000005,
+      "c. la décision prise ensemble"
+     ],
+     [
+      65.0,
+      2473.1500000000005,
+      "Économie · B. la Culture · C."
+     ],
+     [
+      561.0,
+      2504.5000000000005,
+      "d. proposer un changement"
+     ],
+     [
+      65.0,
+      2505.0500000000006,
+      "l'Agriculture"
+     ]
+    ]
+   },
+   "p1": {
+    "max_y_excl_footer": 2479.8999999999996,
+    "tail": [
+     [
+      527.0,
+      2419.0,
+      "Le Goût du Large a lieu à... A."
+     ],
+     [
+      989.0,
+      2419.0,
+      "La rentrée a lieu... A. dimanche 1er · B."
+     ],
+     [
+      1451.0,
+      2419.0,
+      "La dernière nocturne de Peur sur le Parc,"
+     ],
+     [
+      65.0,
+      2449.45,
+      "vendredi 6 · B. samedi 7 · C. dimanche 8"
+     ],
+     [
+      527.0,
+      2449.45,
+      "Port-en-Bessin · B. Dieppe · C. Courseulles"
+     ],
+     [
+      989.0,
+      2449.45,
+      "lundi 2 au matin · C. mardi 3"
+     ],
+     [
+      1451.0,
+      2449.45,
+      "c'est... A. samedi 7 · B. dimanche 8 · C."
+     ],
+     [
+      1451.0,
+      2479.8999999999996,
+      "vendredi 6"
+     ]
+    ]
+   }
+  },
+  "core": {
+   "p7": {
+    "max_y_excl_footer": 2466.0,
+    "tail": [
+     [
+      1013.0,
+      2206.0,
+      "编辑部说明：截至付印，编辑部尚未收到 VOL.2 第 8 版的投稿作文（W44 未出刊），故本期刊登标"
+     ],
+     [
+      65.0,
+      2206.1,
+      "leur public, en vrai. »"
+     ],
+     [
+      1013.0,
+      2233.3,
+      "注明确的编辑部示例；VOL.4 将兑现点评真实投稿的承诺。"
+     ],
+     [
+      1013.0,
+      2316.0,
+      "LA SEMAINE PROCHAINE · VOL.4 下周预告"
+     ],
+     [
+      1013.0,
+      2354.0,
+      "Lundi 9 novembre : le Sénat examine le budget de la Sécurité sociale. Mercredi 11"
+     ],
+     [
+      1013.0,
+      2384.45,
+      "novembre : l'Armistice, un jour de mémoire. Samedi 14 et dimanche 15 novembre :"
+     ],
+     [
+      1013.0,
+      2414.8999999999996,
+      "la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, enfin !"
+     ],
+     [
+      1013.0,
+      2466.0,
+      "下周：参议院审议社保预算、11 月 11 日停战纪念日、迪耶普扇贝集市；还有你们的来信！"
+     ]
+    ]
+   },
+   "p8": {
+    "max_y_excl_footer": 2539.1900000000005,
+    "tail": [
+     [
+      527.0,
+      2477.32,
+      "— 第 7 版 —"
+     ],
+     [
+      989.0,
+      2485.81,
+      "excitantes.（selon moi = 在我看来） · 134. Il est prévu que"
+     ],
+     [
+      65.0,
+      2498.9300000000003,
+      "— 第 4 版 —"
+     ],
+     [
+      989.0,
+      2505.96,
+      "le Sénat examine le texte lundi.（il est prévu que + 虚拟式）"
+     ],
+     [
+      527.0,
+      2517.5800000000004,
+      "97. reprend · 98. encore · 99. déguisés · 100. plus"
+     ],
+     [
+      989.0,
+      2526.11,
+      "· 135. 读一份日程，本身就是在了解法国。（lire un"
+     ],
+     [
+      527.0,
+      2537.7300000000005,
+      "excitante（plus + 形容词） · 101. promenons · 102. peut"
+     ],
+     [
+      65.0,
+      2539.1900000000005,
+      "44. B（决赛在周日 8 日） · 45. A · 46. C · 47. B · 48. A ·"
+     ]
+    ]
+   },
+   "p5": {
+    "max_y_excl_footer": 2456.3999999999996,
+    "tail": [
+     [
+      95.0,
+      2376.745,
+      "B1"
+     ],
+     [
+      137.0,
+      2377.745,
+      "62."
+     ],
+     [
+      557.0,
+      2387.5999999999995,
+      "B1"
+     ],
+     [
+      599.0,
+      2388.5999999999995,
+      "78."
+     ],
+     [
+      65.0,
+      2410.745,
+      "Le festival Pitchfork dure... A. un"
+     ],
+     [
+      527.0,
+      2421.5999999999995,
+      "— Tu as pris ___ ? — Oui, pour toi et"
+     ],
+     [
+      65.0,
+      2445.545,
+      "soir · B. sept jours · C. un mois"
+     ],
+     [
+      527.0,
+      2456.3999999999996,
+      "moi."
+     ]
+    ]
+   },
+   "p6": {
+    "max_y_excl_footer": 2504.5000000000005,
+    "tail": [
+     [
+      1019.0,
+      2427.7750000000005,
+      "B1"
+     ],
+     [
+      561.0,
+      2428.5000000000005,
+      "b. dire non à un texte"
+     ],
+     [
+      1061.0,
+      2428.7750000000005,
+      "96."
+     ],
+     [
+      65.0,
+      2444.4250000000006,
+      "Économie · B. la Culture · C."
+     ],
+     [
+      989.0,
+      2459.2750000000005,
+      "Les résultats ne sont pas encore ___."
+     ],
+     [
+      561.0,
+      2466.5000000000005,
+      "c. la décision prise ensemble"
+     ],
+     [
+      65.0,
+      2476.3250000000007,
+      "l'Agriculture"
+     ],
+     [
+      561.0,
+      2504.5000000000005,
+      "d. proposer un changement"
+     ]
+    ]
+   },
+   "p1": {
+    "max_y_excl_footer": 2479.8999999999996,
+    "tail": [
+     [
+      527.0,
+      2419.0,
+      "Le Goût du Large a lieu à... A."
+     ],
+     [
+      989.0,
+      2419.0,
+      "La rentrée a lieu... A. dimanche 1er · B."
+     ],
+     [
+      1451.0,
+      2419.0,
+      "La dernière nocturne de Peur sur le Parc,"
+     ],
+     [
+      65.0,
+      2449.45,
+      "vendredi 6 · B. samedi 7 · C. dimanche 8"
+     ],
+     [
+      527.0,
+      2449.45,
+      "Port-en-Bessin · B. Dieppe · C. Courseulles"
+     ],
+     [
+      989.0,
+      2449.45,
+      "lundi 2 au matin · C. mardi 3"
+     ],
+     [
+      1451.0,
+      2449.45,
+      "c'est... A. samedi 7 · B. dimanche 8 · C."
+     ],
+     [
+      1451.0,
+      2479.8999999999996,
+      "vendredi 6"
+     ]
+    ]
+   }
+  }
+ },
+ "linestart_colon": {
+  "ed": [
+   [
+    "p3-culture.svg",
+    1451.0,
+    789.65,
+    ": on le pose sur les tombes, on ne l'offre jamais"
+   ],
+   [
+    "p4-sport.svg",
+    65.0,
+    837.1199999999999,
+    ": quarts de finale vendredi 6"
+   ],
+   [
+    "p5-jeunesse.svg",
+    1473.0,
+    430.64999999999986,
+    ": clôture du festival."
+   ],
+   [
+    "p7-langue.svg",
+    527.0,
+    428.1,
+    ": attention à l'accord avec le sujet :"
+   ]
+  ],
+  "core": [
+   [
+    "p3-culture.svg",
+    1451.0,
+    789.65,
+    ": on le pose sur les tombes, on ne l'offre jamais"
+   ],
+   [
+    "p4-sport.svg",
+    65.0,
+    837.1199999999999,
+    ": quarts de finale vendredi 6"
+   ],
+   [
+    "p5-jeunesse.svg",
+    1473.0,
+    430.64999999999986,
+    ": clôture du festival."
+   ],
+   [
+    "p7-langue.svg",
+    527.0,
+    428.1,
+    ": attention à l'accord avec le sujet :"
+   ]
+  ]
+ },
+ "images": {
+  "ed": {
+   "p1-une.svg": {
+    "x": "65",
+    "y": "1874",
+    "w": "896",
+    "h": "320",
+    "b64_sha": "ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d",
+    "jpeg_sha": "f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f",
+    "jpeg_bytes": 334674
+   },
+   "p2-vie.svg": {
+    "x": "1451",
+    "y": "200",
+    "w": "434",
+    "h": "480",
+    "b64_sha": "6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae",
+    "jpeg_sha": "5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2",
+    "jpeg_bytes": 646242
+   },
+   "p3-culture.svg": {
+    "x": "1451",
+    "y": "200",
+    "w": "434",
+    "h": "540",
+    "b64_sha": "bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9",
+    "jpeg_sha": "be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94",
+    "jpeg_bytes": 142340
+   }
+  },
+  "core": {
+   "p1-une.svg": {
+    "x": "65",
+    "y": "1874",
+    "w": "896",
+    "h": "320",
+    "b64_sha": "ff20bc2bd2654cdc075f7e09bcb5a96622650c7cb5921fe07384703067fa8e5d",
+    "jpeg_sha": "f3705af28f175ce48d8abad95944accb7aacc45d6a8a50c47b24af5c5144595f",
+    "jpeg_bytes": 334674
+   },
+   "p2-vie.svg": {
+    "x": "1451",
+    "y": "200",
+    "w": "434",
+    "h": "480",
+    "b64_sha": "6918cb8bbe4b4bec2d6dd9bafb1636901ed2a46f9df8e49566749e404d1664ae",
+    "jpeg_sha": "5b772facb5db886c18fa96c05b9c8fb1a459eaaff931a4a8c121896edf970ee2",
+    "jpeg_bytes": 646242
+   },
+   "p3-culture.svg": {
+    "x": "1451",
+    "y": "200",
+    "w": "434",
+    "h": "540",
+    "b64_sha": "bfaadf5b6b912416f770c1bf579c3467e47c662efd130b5656292bb86171eca9",
+    "jpeg_sha": "be071fdae81a71b48d76383bd33147371968f44e37eef4312102d52dea6d0c94",
+    "jpeg_bytes": 142340
+   }
+  }
+ },
+ "furniture": {
+  "ed": {
+   "badge_pt": [
+    [
+     975.0,
+     574.0,
+     22.0,
+     "TEXTOS EM FRANCÊS · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA"
+    ],
+    [
+     65.0,
+     2624.0,
+     20.0,
+     "Le Lucerna · SEMANÁRIO FRANCÊS VOL.3 · TEXTOS EM FRANCÊS · EXPLICAÇÕES EM PORTUGUÊS"
+    ]
+   ],
+   "badge_core": [],
+   "footer_p1": [
+    {
+     "x": 65.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "start",
+     "text": "Le Lucerna · SEMANÁRIO FRANCÊS VOL.3 · TEXTOS EM FRANCÊS · EXPLICAÇÕES EM PORTUGUÊS"
+    },
+    {
+     "x": 1885.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "end",
+     "text": "Página 1 de 8"
+    }
+   ],
+   "footer_p8": [
+    {
+     "x": 65.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "start",
+     "text": "Le Lucerna · SEMANÁRIO FRANCÊS VOL.3 · TEXTOS EM FRANCÊS · EXPLICAÇÕES EM PORTUGUÊS"
+    },
+    {
+     "x": 1885.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "end",
+     "text": "Página 8 de 8"
+    }
+   ]
+  },
+  "core": {
+   "badge_pt": [],
+   "badge_core": [
+    [
+     975.0,
+     574.0,
+     22.0,
+     "法语正文 · 简体中文讲解 — 给简体中文读者的版本"
+    ]
+   ],
+   "footer_p1": [
+    {
+     "x": 65.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "start",
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文"
+    },
+    {
+     "x": 1885.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "end",
+     "text": "第 1 版 / 共 8 版"
+    }
+   ],
+   "footer_p8": [
+    {
+     "x": 65.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "start",
+     "text": "Le Lucerna · 法语周报 VOL.3 · 正文法语 · 讲解简体中文"
+    },
+    {
+     "x": 1885.0,
+     "y": 2624.0,
+     "fs": 20.0,
+     "fw": "",
+     "anchor": "end",
+     "text": "第 8 版 / 共 8 版"
+    }
+   ]
+  }
+ },
+ "per_page_counts": {
+  "ed": {
+   "p1-une.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 178
+   },
+   "p2-vie.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 183
+   },
+   "p3-culture.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 190
+   },
+   "p4-sport.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 203
+   },
+   "p5-jeunesse.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 164
+   },
+   "p6-politique.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 178
+   },
+   "p7-langue.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 180
+   },
+   "p8-exercices.svg": {
+    "han": 0,
+    "cjk": 0,
+    "fw": 0,
+    "nodes": 289
+   }
+  },
+  "core": {
+   "p1-une.svg": {
+    "han": 192,
+    "cjk": 192,
+    "fw": 0,
+    "nodes": 177
+   },
+   "p2-vie.svg": {
+    "han": 219,
+    "cjk": 219,
+    "fw": 4,
+    "nodes": 178
+   },
+   "p3-culture.svg": {
+    "han": 156,
+    "cjk": 156,
+    "fw": 4,
+    "nodes": 187
+   },
+   "p4-sport.svg": {
+    "han": 171,
+    "cjk": 171,
+    "fw": 4,
+    "nodes": 197
+   },
+   "p5-jeunesse.svg": {
+    "han": 159,
+    "cjk": 159,
+    "fw": 2,
+    "nodes": 160
+   },
+   "p6-politique.svg": {
+    "han": 170,
+    "cjk": 170,
+    "fw": 8,
+    "nodes": 172
+   },
+   "p7-langue.svg": {
+    "han": 328,
+    "cjk": 328,
+    "fw": 8,
+    "nodes": 169
+   },
+   "p8-exercices.svg": {
+    "han": 788,
+    "cjk": 788,
+    "fw": 216,
+    "nodes": 267
+   }
+  }
+ }
+}

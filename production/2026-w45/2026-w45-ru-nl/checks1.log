@@ -1,0 +1,65 @@
+== 1. Cyrillic token multiset diff (core vs edition) ==
+  p1-pervaya.svg: core_tokens=400 ed_tokens=390 diff={'ПО': (3, 2), 'ЯЗЫК': (1, 0), 'РУССКИ': (2, 1), 'ЕЖЕНЕДЕЛЬНАЯ': (1, 0), 'РУССКИЙ': (1, 0), 'ГАЗЕТА': (2, 1), 'НАСТОЯЩАЯ': (1, 0), 'ИЗУЧАЮЩИХ': (1, 0), 'РОССИЯ': (1, 0), 'ДЛЯ': (1, 0)}
+  p2-zhizn.svg: core_tokens=443 ed_tokens=443 diff={}
+  p3-kultura.svg: core_tokens=338 ed_tokens=338 diff={}
+  p4-sport.svg: core_tokens=306 ed_tokens=306 diff={}
+  p5-molodezh.svg: core_tokens=316 ed_tokens=316 diff={}
+  p6-razbor.svg: core_tokens=354 ed_tokens=354 diff={}
+  p7-yazyk.svg: core_tokens=397 ed_tokens=397 diff={}
+  p8-test.svg: core_tokens=641 ed_tokens=633 diff={'СТРАНИЦА': (8, 0)}
+== 2. Golden sentences (Russian quotes from content7, bare counts) ==
+  Страница 1: ed=2 core=2 :: Среда, 4 ноября, — выходной посреди рабочей недели
+  Страница 1: ed=2 core=2 :: Как жить неделю с праздником посреди недели
+  Страница 2: ed=2 core=2 :: Во вторник, 3 ноября, рабочий день короче на час
+  Страница 3: ed=2 core=2 :: В среду города устраивают ярмарки и концерты
+  Страница 4: ed=2 core=2 :: В воскресенье, 8 ноября, — три матча
+  Страница 5: ed=2 core=2 :: Сначала — список: что вам правда нужно
+  Страница 6: ed=2 core=2 :: Многие берут отпуск в четверг и в пятницу
+  Страница 6: ed=2 core=2 :: Пять дней — почти маленькие каникулы
+  all 8 NL translations present; page-tag sequence: ['Страница 1', 'Страница 1', 'Страница 2', 'Страница 3', 'Страница 4', 'Страница 5', 'Страница 6', 'Страница 6']
+== 3. Gloss count by '·' split (source gloss() strings) ==
+  core gloss items=26 edition gloss items=26
+  edition gloss items missing headword in render: []
+== 4. Image payloads (per page, sha256 of image href data) ==
+  p1-pervaya.svg: core=['299e7e477ee35be9'] ed=['299e7e477ee35be9'] equal=True
+  p2-zhizn.svg: core=[] ed=[] equal=True
+  p3-kultura.svg: core=[] ed=[] equal=True
+  p4-sport.svg: core=['db6982729417df21'] ed=['db6982729417df21'] equal=True
+  p5-molodezh.svg: core=['75b89f36224f4ee3'] ed=['75b89f36224f4ee3'] equal=True
+  p6-razbor.svg: core=[] ed=[] equal=True
+  p7-yazyk.svg: core=[] ed=[] equal=True
+  p8-test.svg: core=[] ed=[] equal=True
+== 5. Dutch orphan scan (rendered text lines starting with closer punct) ==
+  orphan-start flags: 0 []
+== 6. Same-baseline ink scan (PIL widths, gap < 5 units, same y) ==
+  same-baseline flags (<5): 0
+== 7. P6 chart element check (text ink vs later-drawn rects) ==
+  P6 text-vs-later-rect overlaps: 0 []
+== 8. P7 letters box geometry + disclosure ==
+  disclosure NL present: True | example sig present: False
+  phrases rule y=1756 expected; col3 bottom (build log) 1727.58
+  P7 rects in rightmost column (x=1451): [(1451.0, 200.0, 434.0, 808.08), (1451.0, 1020.08, 434.0, 222.5), (1451.0, 1254.58, 434.0, 473.0)]
+== 9. Furniture ==
+  P1: {'x': '975', 'y': '92', 'font-family': 'Noto Sans CJK SC', 'font-size': '21', 'fill': '#57523f', 'text-anchor': 'middle'} 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · ELKE WEEK · HET RUSSISCH DAT DE RUSSEN LEZEN'
+  P1: {'x': '975', 'y': '372', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'font-weight': '700', 'fill': '#a4553a', 'text-anchor': 'middle'} 'TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'
+  P1: {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'} 'Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS'
+  p1-pervaya.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+  p2-zhizn.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+  p3-kultura.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+  p4-sport.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+  p5-molodezh.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+  p6-razbor.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+  p7-yazyk.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+  p8-test.svg footer/page: ['Lucerna · RUSSISCH WEEKBLAD VOL.2 · TEKSTEN IN HET RUSSISCH · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+  P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+== 10. Rendered CJK count (edition SVGs) ==
+  p1-pervaya.svg: CJK chars=0
+  p2-zhizn.svg: CJK chars=0
+  p3-kultura.svg: CJK chars=0
+  p4-sport.svg: CJK chars=0
+  p5-molodezh.svg: CJK chars=0
+  p6-razbor.svg: CJK chars=0
+  p7-yazyk.svg: CJK chars=0
+  p8-test.svg: CJK chars=0
+NOTE: svglib.py docstring Chinese is source-only, never rendered into SVGs.
+CHECKS DONE

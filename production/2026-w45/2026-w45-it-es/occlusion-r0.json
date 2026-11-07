@@ -1,0 +1,452 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-es/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "COVER",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]",
+   "by": "rect@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Fiorentina–Juventus si giocano ___ 8",
+   "box": [
+    989.0,
+    1893.5,
+    1344.8,
+    1914.2
+   ],
+   "detail": "later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink",
+   "by": "line@161"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "otoño suave.",
+   "box": [
+    1451.0,
+    1856.7,
+    1564.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "ink overlaps '5.' by 22.0x18.0px",
+   "by": "text@93"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "ink overlaps 'B1' by 23.8x14.0px",
+   "by": "text@98"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px",
+   "by": "text@94"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px",
+   "by": "text@160"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px",
+   "by": "text@160"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'della media.' by 120.0x6.5px",
+   "by": "text@101"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "della media.",
+   "box": [
+    989.0,
+    1892.8,
+    1109.0,
+    1909.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "novembre.",
+   "box": [
+    989.0,
+    1921.8,
+    1093.8,
+    1938.2
+   ],
+   "detail": "ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px",
+   "by": "text@162"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · LA CLAVE",
+   "box": [
+    545.0,
+    1187.5,
+    975.0,
+    1205.0
+   ],
+   "detail": "ink crosses its box borders: right ink 975.0 > border 961.0",
+   "by": "rect@62"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "final del Panettone se prueba gratis.",
+   "box": [
+    1473.0,
+    1292.8,
+    1806.0,
+    1314.0
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1314.0 > border 1313.5",
+   "by": "rect@131"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ El modelo está en la sección H (81 palabras)",
+   "box": [
+    1451.0,
+    2553.5,
+    1768.5,
+    2568.5
+   ],
+   "detail": "ink overlaps '149. B — La fiesta dura hasta el 22 de n' by 302.0x11.0px",
+   "by": "text@389"
+  }
+ ],
+ "flag_count": 17,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "COVER",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]",
+   "by": "rect@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Fiorentina–Juventus si giocano ___ 8",
+   "box": [
+    989.0,
+    1893.5,
+    1344.8,
+    1914.2
+   ],
+   "detail": "later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink",
+   "by": "line@161"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "otoño suave.",
+   "box": [
+    1451.0,
+    1856.7,
+    1564.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@150"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "ink overlaps '5.' by 22.0x18.0px",
+   "by": "text@93"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "ink overlaps 'B1' by 23.8x14.0px",
+   "by": "text@98"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px",
+   "by": "text@94"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px",
+   "by": "text@160"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px",
+   "by": "text@160"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'della media.' by 120.0x6.5px",
+   "by": "text@101"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "della media.",
+   "box": [
+    989.0,
+    1892.8,
+    1109.0,
+    1909.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "novembre.",
+   "box": [
+    989.0,
+    1921.8,
+    1093.8,
+    1938.2
+   ],
+   "detail": "ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px",
+   "by": "text@162"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · LA CLAVE",
+   "box": [
+    545.0,
+    1187.5,
+    975.0,
+    1205.0
+   ],
+   "detail": "ink crosses its box borders: right ink 975.0 > border 961.0",
+   "by": "rect@62"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "final del Panettone se prueba gratis.",
+   "box": [
+    1473.0,
+    1292.8,
+    1806.0,
+    1314.0
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1314.0 > border 1313.5",
+   "by": "rect@131"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ El modelo está en la sección H (81 palabras)",
+   "box": [
+    1451.0,
+    2553.5,
+    1768.5,
+    2568.5
+   ],
+   "detail": "ink overlaps '149. B — La fiesta dura hasta el 22 de n' by 302.0x11.0px",
+   "by": "text@389"
+  }
+ ],
+ "new_flag_count": 17
+}

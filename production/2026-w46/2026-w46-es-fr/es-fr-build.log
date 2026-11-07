@@ -1,0 +1,356 @@
+=== build fr ===
+   1  'p.text(975, 372, "EL PERIÓDICO SEMANAL PARA APRENDER — LA VI' -> 'p.text(975, 372, "TEXTES EN ESPAGNOL · EXPLICATIONS EN FRANÇ'
+   1  '讲解｜la huelga general 大罢工 · la campaña electoral 竞选活动 · el vo' -> 'Notes — la huelga general = la grève générale · la campaña e'
+   1  'la fase de grupos 小组赛 · el seleccionador 国家队主教练 · la lista 征' -> 'la fase de grupos = la phase de groupes · el seleccionador ='
+   1  'la huelga 罢工 · el sindicato 工会 · el salario 工资 · el alquiler' -> 'la huelga = la grève · el sindicato = le syndicat · el salar'
+   1  '24 — horas dura la huelga general del miércoles 11 de noviem' -> '24 — horas dura la huelga general del miércoles 11 de noviem'
+   1  'af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16' -> 'af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.12'
+   1  'el sobre 信封 · la papeleta 选票 · el censo 选民名册 · la jornada de' -> "el sobre = l'enveloppe · la papeleta = le bulletin de vote ·"
+   1  '20 — días faltan el lunes 9 para las elecciones del domingo ' -> '20 — días faltan el lunes 9 para las elecciones del domingo '
+   1  'la capa 斗篷 · el mendigo 乞丐 · el veranillo 小阳春 · la gaita 风笛 ' -> 'la capa = le manteau · el mendigo = le mendiant · el veranil'
+   1  '91,4 — % que pide más vivienda pública, según el CIS de octu' -> '91,4 — % que pide más vivienda pública, según el CIS de octu'
+   1  'p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS · 常见错误", 23, "san' -> 'p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS · ERREURS TYPES",'
+   1  'NIVEL B1 · Praga el jueves, Inglaterra el domingo · 周四布拉格，周日' -> 'NIVEL B1 · Praga el jueves, Inglaterra el domingo · Prague j'
+   1  '编辑部说明：截至本期截稿，未收到真实读者来信与第 8 版最佳作文，故本期登载编辑部示例信，承诺顺延至 VOL.4。欢迎来' -> 'Note de la rédaction : sans lettre réelle ni meilleur texte '
+   1  'NIVEL A2 · El miércoles 11, huelga general · 11 月 11 日周三大罢工' -> 'NIVEL A2 · El miércoles 11, huelga general · Grève générale,'
+   2  '11 月 11 日周三你做什么：罢工、上班还是待在家里？你最担心什么：工资、住房还是物价？写两句西班牙语寄给编辑部。' -> 'Que feras-tu mercredi 11 novembre : grève, travail ou rester'
+   1  '第 8 版 · La gran prueba de la semana + todas las respuestas' -> 'Page 8 · La gran prueba de la semana + todas las respuestas'
+   1  '比较级 más…que、tan…como；bueno→mejor、malo→peor；绝不说 más mejor。' -> 'Comparatifs : más … que, tan … como ; bueno → mejor, malo → '
+   1  'A2 → B1 · San Martín, castañas y vino nuevo · 圣马丁节、栗子与新酒' -> 'A2 → B1 · San Martín, castañas y vino nuevo · Saint-Martin, '
+   1  '用方框里的词填空：sondeo · muestra · indecisos · margen de error' -> "Complète avec les mots de l'encadré : sondeo · muestra · ind"
+   1  '西 班 牙 语 周 报 · VOL.3 · LA HUELGA · LA CAMPAÑA · LA ROJA' -> 'HEBDOMADAIRE ESPAGNOL · VOL.3 · LA HUELGA · LA CAMPAÑA · LA '
+   1  'lunes 9 – domingo 15 de noviembre · 11 月 9 日周一至 15 日周日' -> 'lunes 9 – domingo 15 de noviembre · du lundi 9 au dimanche 1'
+   1  '日期格式：el miércoles 11 de noviembre；星期、月份小写；1 号说 el uno。' -> 'Dates : el miércoles 11 de noviembre ; jours et mois en minu'
+   1  'es necesario que、para que、ojalá 后用虚拟式；creo que 后用陈述式。' -> 'es necesario que, para que, ojalá avec le subjonctif ; creo '
+   1  '"La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY"' -> '"La Lucerna · HEBDOMADAIRE ESPAGNOL VOL.3 · TEXTE EN ESPAGNO'
+   2  'huelga general = 大罢工：全体劳动者同一天停工。本期就是罢工周；竞选 13 日周五开始。' -> 'huelga general = grève générale : tous arrêtent le travail l'
+   1  '语言聚焦 · Tres niveles, tres herramientas · 三个级别，三件工具' -> 'Focus langue · Tres niveles, tres herramientas · Trois nivea'
+   1  'af.para(txt, 13.5, lh=1.16, gap=0.5, split=False)' -> 'af.para(txt, 13.2, lh=1.12, gap=0.5, split=False)'
+   1  'NIVEL B2 · La vivienda decide la campaña · 住房决定选战' -> 'NIVEL B2 · La vivienda decide la campaña · Le logement décid'
+   1  'CADA SEMANA EN ESPAÑOL · 每周一期 · 读西班牙人正在读的西班牙语' -> "CADA SEMANA EN ESPAÑOL · CHAQUE SEMAINE · L'ESPAGNOL DES ESP"
+   2  '周日 20:45 你看哪一场？A3 小组谁第一：西班牙还是英格兰？写两句西班牙语寄来。' -> 'Quel match regarderas-tu dimanche à 20:45 ? Qui finira premi'
+   1  'LA LIGA DE NACIONES · GRUPO A3 · 欧国联 A3 组赛程' -> 'LA LIGA DE NACIONES · GRUPO A3 · Ligue des nations, groupe A'
+   2  '你会邮寄投票还是亲自去投票？这周你看什么：《Infamia》还是足球？写两句寄来。' -> 'Voteras-tu par correspondance ou en personne ? Que regardera'
+   1  '11 月 15 日周日，国家队在大都会球场 20:45 对英格兰，收官小组赛。' -> 'Dimanche 15 novembre, la sélection termine la phase de group'
+   1  'f.box("LA SEMANA EN CIFRAS · 数字看本周", [' -> 'f.box("LA SEMANA EN CIFRAS · EN CHIFFRES", tsize=20, paras=['
+   1  'f.box("EL PLAN DE LA SEMANA · 本周计划", [' -> 'f.box("EL PLAN DE LA SEMANA · LE PLAN", tsize=20, paras=['
+   1  'FRASES DE LA SEMANA · 本周金句（逐字摘自本期文章）' -> 'FRASES DE LA SEMANA · PHRASES DE LA SEMAINE (MOT POUR MOT, T'
+   1  'la huelga dura 24 horas = 罢工持续 24 小时' -> 'la huelga dura 24 horas = la grève dure 24 heures'
+   1  '（ejemplo, escrito por la redacción）' -> '(ejemplo, escrito por la redacción)'
+   1  '现任世界冠军和欧洲冠军西班牙，与克罗地亚、英格兰和捷克同在 A3 组。' -> "L'Espagne, championne du monde et d'Europe en titre, joue da"
+   1  '圣马丁餐有 fabada、casadiellas 和 panchón' -> 'Le repas de la Saint-Martin comprend fabada, casadiellas et '
+   1  'NIVEL B1 · Votar desde casa · 在家投票' -> 'NIVEL B1 · Votar desde casa · Voter depuis chez soi'
+   1  'RESPUESTAS · 参考答案 — 按版面分页排列，找到题号即可' -> 'RESPUESTAS · CORRIGÉS — classés par page, cherchez le numéro'
+   1  '11 月 11 日周三全西班牙大罢工：工会召集的 24 小时停工。' -> 'Mercredi 11 novembre, il y a une grève générale dans toute l'
+   1  '本周五大看点 · Para entender la semana' -> 'Cinq clés · Para entender la semana'
+   1  'el miércoles 11 de noviembre 大罢工' -> 'el miércoles 11 de noviembre : grève générale'
+   1  'LA PRÓXIMA SEMANA · 下期预告 (VOL.4)' -> 'LA PRÓXIMA SEMANA · LA SEMAINE PROCHAINE (VOL.4)'
+   1  'Humanitarios 节在 Moreda de Aller' -> 'La fête des Humanitarios a lieu à Moreda de Aller'
+   1  '把句子改成过去时（pretérito indefinido）。' -> 'Mets les phrases au passé (pretérito indefinido).'
+   1  'EJERCICIOS Y RESPUESTAS · 练习与答案' -> 'EJERCICIOS Y RESPUESTAS · EXERCICES ET RÉPONSES'
+   1  'Infamia 改编自 Ledicia Costas 的小说' -> 'Infamia adapte un roman de Ledicia Costas'
+   1  'recibir a Inglaterra = 主场迎战英格兰' -> "recibir a Inglaterra = recevoir l'Angleterre à domicile"
+   1  'LOS DÍAS DE LA SEMANA · 这样说日期' -> 'LOS DÍAS DE LA SEMANA · DIRE LA DATE'
+   1  'Humanitarios 节在阿斯图里亚斯，不在加利西亚' -> 'La fête des Humanitarios a lieu dans les Asturies, pas en Ga'
+   1  'veranillo de San Martín 小阳春' -> 'veranillo de San Martín = été de la Saint-Martin'
+   1  'muchísimos aficionados 球迷很多' -> 'muchísimos aficionados = énormément de supporters'
+   1  'documento de identidad 身份证件' -> "documento de identidad = pièce d'identité"
+   1  '本报只刊登 CIS 住房晴雨表这一组数据并注明来源日期' -> 'Ce journal ne publie que la série logement du CIS, avec sour'
+   1  'es importante que + 虚拟式 sea' -> 'es importante que + subjonctif : sea'
+   1  'es necesario que + 虚拟式 baje' -> 'es necesario que + subjonctif : baje'
+   1  '传说罗马士兵马丁用剑把斗篷分成两半，盖住快冻死的乞丐。' -> 'La légende raconte que Martin, soldat romain, a coupé son ma'
+   2  '你吃过烤栗子吗？你的国家有“小阳春”吗？写两句寄来。' -> 'As-tu déjà mangé des châtaignes grillées ? Ton pays a-t-il u'
+   1  'es posible que + 虚拟式 tenga' -> 'es posible que + subjonctif : tenga'
+   1  '周三 11 日有大罢工，周五 13 日零点竞选开始。' -> 'Mercredi 11, il y a une grève générale, et vendredi 13 à 00:'
+   6  'weekly-report-w46-es-core' -> 'weekly-report-w46-es-fr'
+   5  '答案见第 8 版 · 题目可跨级混排，按题号找答案' -> 'Réponses page 8 · Exercices mélangés par niveau, cherchez pa'
+   1  'más + importante（小组第一更重要）' -> "más + importante (finir premier du groupe, c'est plus import"
+   1  '用 ir a + 原形动词改写句子，表示“将要”。' -> 'Réécris les phrases avec ir a + infinitif (futur proche).'
+   1  'bueno 的比较级是 mejor（不用 más）' -> 'le comparatif de bueno est mejor (sans más)'
+   1  'empieza la campaña = 竞选开始' -> 'empieza la campaña = la campagne commence'
+   1  '周五 13 日竞选开始 · 周三 11 日大罢工' -> 'LA CAMPAGNE COMMENCE VENDREDI 13 · GRÈVE MERCREDI 11'
+   1  'jornada de reflexión 静默日' -> 'jornada de reflexión = journée de réflexion'
+   1  'visita a Chequia = 客场对捷克' -> 'visita a Chequia = en déplacement en Tchéquie'
+   1  'La-Lucerna-VOL3-web.pdf' -> 'La-Lucerna-VOL3-FR-web.pdf'
+   1  '“大罢工”：全体劳动者同一天停工 24 小时。' -> '« Grève générale » : arrêt de travail de 24 heures.'
+   1  'puya del ramu 是拍卖祝福过的面包' -> 'La puya del ramu est la vente aux enchères du pain béni'
+   1  '用括号里词的比较级或 -ísimo 形式填空。' -> 'Complète avec le comparatif ou la forme en -ísimo du mot ent'
+   1  'tres habitaciones = 三居室' -> 'tres habitaciones = trois pièces'
+   1  'junta electoral=选举委员会 a' -> 'junta electoral=commission électorale a'
+   1  'EN ESTA EDICIÓN · 本期目录' -> 'EN ESTA EDICIÓN · SOMMAIRE'
+   1  'margen de error = 误差范围' -> "margen de error = marge d'erreur"
+   1  'tan + alta + como（同样高）' -> 'tan + alta + como (aussi haute)'
+   1  '写作题（无唯一答案）；范文（84 词）见下。' -> "Exercice d'écriture (pas de réponse unique) ; texte modèle ("
+   1  'a las cero horas = 在零点' -> 'a las cero horas = à minuit'
+   1  'margen de error=误差范围 b' -> "margen de error=marge d'erreur b"
+   1  '第 {n} 版 / 共 {total} 版' -> 'Page {n} sur {total}'
+   1  'QUIZ RELÁMPAGO · 闪电问答' -> 'QUIZ RELÁMPAGO · QUIZ ÉCLAIR'
+   1  '读头版，选出正确答案 · 答案见第 8 版' -> 'Lis la une et choisis · Réponses page 8'
+   1  '（周五：竞选开始；《Infamia》上线）' -> ' (vendredi : début de la campagne ; Infamia sort)'
+   1  'muestra = 样本（6.019 人）' -> 'muestra = échantillon (6 019 personnes)'
+   1  'mejor 本身就是比较级，不加 más。' -> 'mejor est déjà un comparatif : pas de más.'
+   1  'creo que 表肯定，用陈述式 es。' -> 'creo que affirme : indicatif es.'
+   1  '一次民调就是一张带误差的照片，拍于某一天。' -> "Un sondage est une photo avec marge d'erreur, prise un jour "
+   1  'CIS 住房晴雨表：担心住房者 86,9%' -> 'Baromètre logement du CIS : 86,9 % inquiets pour le logement'
+   1  '每题附一句中文简析 · 带 ✓ 的为范文题' -> 'Une courte explication en français pour chaque exercice · ✓ '
+   1  'EL CALENDARIO · 本周日历' -> 'EL CALENDARIO · LE CALENDRIER'
+   1  '（周一国家队集结；邮寄选票材料开始寄出）' -> ' (rassemblement de la sélection ; les documents du vote par '
+   1  'EJERCICIOS · 第 2 版练习' -> 'EJERCICIOS · EXERCICES'
+   1  'EJERCICIOS · 第 3 版练习' -> 'EJERCICIOS · EXERCICES'
+   1  'EJERCICIOS · 第 4 版练习' -> 'EJERCICIOS · EXERCICES'
+   1  'fase de grupos=小组赛 b' -> 'fase de grupos=phase de groupes b'
+   1  'EJERCICIOS · 第 5 版练习' -> 'EJERCICIOS · EXERCICES'
+   1  'EJERCICIOS · 第 6 版练习' -> 'EJERCICIOS · EXERCICES'
+   1  'gente 是单数集合名词，动词用单数。' -> 'gente est un nom collectif singulier : verbe au singulier.'
+   1  'llegar a casa = 送到家里' -> 'llegar a casa = arriver à la maison'
+   1  'La-Lucerna-VOL3.pdf' -> 'La-Lucerna-VOL3-FR.pdf'
+   1  'castañas asadas 烤栗子' -> 'castañas asadas = châtaignes grillées'
+   1  '圣马丁节之后大选在 11 月 29 日' -> "Après la Saint-Martin, l'élection a lieu le 29 novembre"
+   1  '周日比赛在 Metropolitano' -> 'Le match de dimanche a lieu au Metropolitano'
+   1  'seleccionador=主教练 c' -> 'seleccionador=sélectionneur c'
+   1  '用方框里的词填空。注意：有的词要变位。' -> "Complète avec les mots de l'encadré. Attention : certains mo"
+   1  '调查 6.019 人次，误差 ±1,3' -> 'Enquête auprès de 6 019 personnes, marge ±1,3'
+   1  'domingo 是单数，动词用 es。' -> 'domingo est singulier : verbe es.'
+   1  '¿cuánto cuesta? 多少钱' -> '¿cuánto cuesta? = combien ça coûte ?'
+   1  '五大看点，不编数字：全在本期里讲清。' -> 'Cinq clés, sans chiffres inventés.'
+   1  '西班牙–英格兰周日 20:45 开球' -> "Espagne–Angleterre, coup d'envoi dimanche à 20:45"
+   1  '10 月 2 日议会否决两项住房法令' -> 'Le 2 octobre, le Congrès a rejeté deux décrets sur le logeme'
+   1  'para que + 虚拟式（目的）' -> 'para que + subjonctif (but)'
+   1  'Aunque 后接陈述式（已知事实）' -> 'Aunque + indicatif (fait connu)'
+   1  'para que + 虚拟式 sea' -> 'para que + subjonctif : sea'
+   1  '投票不必去投票站：邮寄选票送到家里。' -> "Pas besoin d'aller au bureau de vote pour voter : le vote pa"
+   1  '住房让 86.9% 的西班牙人担心。' -> 'Le logement inquiète 86,9 % des Espagnols.'
+   1  '圣马丁节在 11 月 11 日周三' -> 'La Saint-Martin a lieu mercredi 11 novembre'
+   1  'bueno 的比较级是 mejor' -> 'Le comparatif de bueno est mejor'
+   1  '投票站 9:00–20:00 开放' -> 'Les bureaux de vote sont ouverts de 9:00 à 20:00'
+   1  'enviar 变位 → envío' -> 'enviar conjugué → envío'
+   1  '邮寄投票可在 Correos 申请' -> 'Le vote par correspondance se demande à Correos'
+   1  '10 月 5 日解散议会并召集大选' -> "Le 5 octobre, Sánchez a dissous les Cortes et convoqué l'éle"
+   1  'creo que + 陈述式 es' -> 'creo que + indicatif : es'
+   1  'LA PALABRA · 本周生词' -> 'LA PALABRA · MOT DE LA SEMAINE'
+   1  '每个图表都必须标明来源。→ ___' -> 'Chaque graphique doit indiquer sa source. → ___'
+   1  '本期头条 · 详见第 2、6 版' -> 'À LA UNE · VOIR PAGES 2 ET 6'
+   1  '读第 2 版文章，选出正确答案。' -> "Lis l'article de la page 2 et choisis la bonne réponse."
+   1  '竞选 11 月 13 日周五开始' -> 'La campagne commence vendredi 13 novembre'
+   3  '大罢工在 11 月 11 日周三' -> 'La grève générale a lieu mercredi 11 novembre'
+   1  '小阳春是秋中暖和的几天，不是夏天' -> "Le veranillo, ce sont quelques jours doux en automne, pas l'"
+   1  '读第 4 版文章，选出正确答案。' -> "Lis l'article de la page 4 et choisis la bonne réponse."
+   1  '读第 5 版文章，选出正确答案。' -> "Lis l'article de la page 5 et choisis la bonne réponse."
+   1  '静默日是周六 28 日，不是周日' -> "La journée de réflexion, c'est samedi 28, pas dimanche"
+   1  'indecisos = 未决定者' -> 'indecisos = indécis'
+   1  'más + cara（房价更高）' -> 'más + cara (logement plus cher)'
+   1  'ojalá + 虚拟式：baje' -> 'ojalá + subjonctif : baje'
+   1  'LA NOTICIA · 头条' -> 'LA NOTICIA · À LA UNE'
+   1  'AHORA TÚ · 即学即练' -> 'AHORA TÚ · À TOI DE JOUER'
+   1  '（周日欧国联：西班牙对英格兰）' -> ' (Ligue des nations : Espagne–Angleterre)'
+   1  '大选在 11 月 29 日周日' -> "L'élection a lieu dimanche 29 novembre"
+   1  '西班牙–英格兰周日 20:45' -> 'Espagne–Angleterre dimanche à 20:45'
+   1  'malo 的比较级是 peor' -> 'Le comparatif de malo est peor'
+   1  'ir 的过去时是 fueron' -> 'Le passé de ir est fueron'
+   1  '（周一：邮寄选票材料开始寄出）' -> ' (lundi : les documents du vote par correspondance arrivent)'
+   1  '材料从 11 月 9 日起寄出' -> 'Les documents sont envoyés à partir du 9 novembre'
+   1  'más mejor 是错误说法' -> 'más mejor est incorrect'
+   1  '范文见本版 H 区（84 词）' -> 'Texte modèle dans la section H de cette page (84 mots)'
+   1  'la lista = 征召名单' -> 'la lista = liste des convoqués'
+   1  'veranillo = 小阳春' -> 'veranillo = été de la Saint-Martin'
+   3  'instr="把词和释义配对"' -> 'instr="Associer"'
+  18  'size=19, gap=3' -> 'size=18.5, gap=2'
+   1  '（周四欧国联：捷克对西班牙）' -> ' (Ligue des nations : Tchéquie–Espagne)'
+   4  '¿Y TÚ? · 说说你自己' -> '¿Y TÚ? · ET TOI ?'
+   2  '邮寄投票须在 19 日前申请' -> 'Le vote par correspondance doit être demandé avant le 19'
+   3  '竞选 11 月 13 日开始' -> 'La campagne commence le 13 novembre'
+   1  '每月 1 号说 el uno' -> 'Le 1er se dit el uno'
+   1  'sindicato=工会 b' -> 'sindicato=syndicat b'
+   1  '读第 3 版文章，判断对错。' -> "Lis l'article de la page 3 : vrai ou faux ?"
+   1  '马丁分开自己的斗篷 capa' -> 'Martin a coupé son propre manteau (capa)'
+   1  'amistoso=友谊赛 a' -> 'amistoso=match amical a'
+   1  'correo = 邮局/邮寄' -> 'correo = la poste / postal'
+   1  '看上面两张图，选出正确答案。' -> 'Regarde les deux graphiques ci-dessus et choisis la bonne ré'
+   1  '减税支持率最高（95,4%）' -> "La baisse d'impôts a le plus de soutien (95,4 %)"
+   1  '民调是带误差的具体某天的照片' -> "Un sondage est une photo avec marge d'erreur, prise un jour "
+   1  '月份小写：noviembre' -> 'mois en minuscules : noviembre'
+   1  '圣马丁节 11 月 11 日' -> 'Saint-Martin, 11 novembre'
+   1  '西班牙–英格兰与罢工都在本周' -> 'Espagne–Angleterre et la grève, tous les deux cette semaine'
+   1  'Pablo 周日去大都会球场' -> 'Pablo va au Metropolitano dimanche'
+   1  '邮寄选票送到家里。→ ___' -> 'Le vote par correspondance arrive à la maison. → ___'
+   1  'tener que = 必须' -> 'tener que = devoir'
+   1  'firmar = 签（合同）' -> 'firmar = signer (un contrat)'
+   1  '（周六联邦杯决赛在塞斯陶）' -> ' (finale de la Coupe de la Fédération à Sestao)'
+   1  '用正确的日期形式补全句子。' -> 'Complète les phrases avec la bonne forme de la date.'
+   3  '大选在 11 月 29 日' -> "L'élection a lieu le 29 novembre"
+   1  '罢工口号是工资、住房、物价' -> 'Le slogan de la grève : salaires, logement, prix'
+   1  'alquiler=租金 d' -> 'alquiler=loyer d'
+   1  'JUVENTUD · 青年' -> 'JUVENTUD · JEUNESSE'
+   1  '（周三：24 小时大罢工）' -> ' (mercredi : grève générale de 24 heures)'
+   1  'Infamia 有 6 集' -> 'Infamia compte 6 épisodes'
+   1  'papeleta = 选票' -> 'papeleta = bulletin de vote'
+   1  '更多公屋支持率 91,4%' -> 'Plus de logements publics : 91,4 % de soutien'
+   1  'el sobre = 信封' -> 'el sobre = enveloppe'
+   1  '罢工口号：工资、住房、物价' -> 'Slogan de la grève : salaires, logement, prix'
+   1  '周日我们看西班牙–英格兰。' -> 'Dimanche, nous regardons Espagne–Angleterre.'
+   1  'alquiler = 租金' -> 'alquiler = loyer'
+   1  '（周二罢工前最后准备日）' -> ' (derniers préparatifs avant la grève)'
+   1  '（周三大罢工；圣马丁节）' -> ' (grève générale ; Saint-Martin)'
+   1  '（周五零点竞选正式开始）' -> ' (la campagne commence à minuit)'
+   1  'salario=工资 a' -> 'salario=salaire a'
+   1  'CULTURA · 文化' -> 'CULTURA · CULTURE'
+   1  'mendigo = 乞丐' -> 'mendigo = mendiant'
+   1  '小阳春是秋中几天暖和天气' -> 'Le veranillo, ce sont quelques jours de temps doux en automn'
+   1  'DEPORTE · 体育' -> 'DEPORTE · SPORT'
+   1  '周四对捷克，周日对英格兰' -> "Jeudi contre la Tchéquie, dimanche contre l'Angleterre"
+   1  '两场比赛都是 20:45' -> 'Les deux matches sont à 20:45'
+   1  '（周四晚：捷克对西班牙）' -> ' (jeudi soir : Tchéquie–Espagne)'
+   1  '（周日：西班牙对英格兰）' -> ' (dimanche : Espagne–Angleterre)'
+   1  'censo = 选民名册' -> 'censo = registre électoral'
+   1  'A FONDO · 深读' -> 'A FONDO · EN PROFONDEUR'
+   1  'magosto 吃烤栗子' -> 'Au magosto, on mange des châtaignes grillées'
+   1  '主语 + 动词 + 地点' -> 'Sujet + verbe + lieu'
+   1  'mudanza = 搬家' -> 'mudanza = déménagement'
+   1  'muestra=样本 d' -> 'muestra=échantillon d'
+   1  'BREVES · 快讯' -> 'BREVES · EN BREF'
+   1  '补全动词的现在时形式。' -> 'Complète les verbes au présent.'
+   1  '大罢工持续 24 小时' -> 'La grève dure 24 heures'
+   1  '11 月 11 日周三' -> 'mercredi 11 novembre'
+   1  '11 月 15 日周日' -> 'dimanche 15 novembre'
+   1  'huelga=罢工 c' -> 'huelga=grève c'
+   1  '担心住房者 86,9%' -> 'Inquiets pour le logement : 86,9 %'
+   1  'sondeo = 民调' -> 'sondeo = sondage'
+   1  'LENGUA · 语言' -> 'LENGUA · LANGUE'
+   1  '周日上演西班牙–英格兰' -> 'Espagne–Angleterre dimanche'
+   1  'sondeo=民调 c' -> 'sondeo=sondage c'
+   1  '罢工日有最低服务保障' -> 'Le jour de grève, il y a des services minimums'
+   1  'gaita = 风笛' -> 'gaita = cornemuse'
+   1  '把词组成正确的句子。' -> 'Remets les mots en ordre pour faire une phrase correcte.'
+   1  'lista=名单 d' -> 'lista=liste des convoqués d'
+   1  'voy a + 原形' -> 'voy a + infinitif'
+   1  'vas a + 原形' -> 'vas a + infinitif'
+   1  'van a + 原形' -> 'van a + infinitif'
+   1  '（开放题，范文如下）' -> 'Question ouverte — texte modèle ci-dessous sur cette page'
+   1  '周三全西班牙大罢工。' -> "Mercredi, grève générale dans toute l'Espagne."
+  42  'instr="填空"' -> 'instr="Compléter"'
+   8  'instr="判断"' -> 'instr="Vrai ou faux"'
+   7  'instr="造句"' -> 'instr="Former une phrase"'
+  10  'instr="改写"' -> 'instr="Reformuler"'
+   4  'instr="翻译"' -> 'instr="Traduire"'
+   1  'instr="写作"' -> 'instr="Écrire"'
+   1  'VIDA · 生活' -> 'VIDA · VIE QUOTIDIENNE'
+   1  '竞选持续 15 天' -> 'La campagne dure 15 jours'
+   1  '罢工后两天竞选开始' -> 'La campagne commence deux jours après la grève'
+   1  '马丁把斗篷分给乞丐' -> 'Martin a partagé son manteau avec le mendiant'
+   1  '时间在前，动词第二' -> "Le temps d'abord, le verbe ensuite"
+   1  '地点在前，动词第二' -> "Le lieu d'abord, le verbe ensuite"
+   1  '用方框里的词填空。' -> "Complète avec les mots de l'encadré."
+   1  '西班牙在 A3 组' -> "L'Espagne joue dans le groupe A3"
+   1  'U21 周五对日本' -> 'Les moins de 21 ans jouent contre le Japon vendredi'
+   1  '静默日没有宣传活动' -> 'Le jour de réflexion, pas de propagande'
+   1  'va a + 原形' -> 'va a + infinitif'
+   1  '两人都读纲领再投票' -> 'Tous les deux lisent les programmes avant de voter'
+   1  '间接疑问用 si' -> 'Les questions indirectes avec si'
+   1  'Ana 周三上班' -> 'Ana travaille mercredi'
+   1  '标题概括两地对比' -> 'Le titre résume le contraste entre deux lieux'
+   1  '选出正确答案。' -> 'Choisis la bonne réponse.'
+   1  '15 日是周日' -> 'le 15 est un dimanche'
+   1  '疑问词在句首' -> 'Le mot interrogatif en tête'
+   1  '动词第二位' -> 'Le verbe en deuxième position'
+   1  '月份小写' -> 'Mois en minuscules'
+   1  '时间在前' -> "Le temps d'abord"
+   2  '对照原文' -> "Compare avec l'original."
+   1  '译注｜' -> 'Note — '
+   1  '原形' -> 'infinitif'
+bslib4.py CJK distinct: 0 
+content12.py CJK distinct: 10 单句子完对成汇词选配
+content34.py CJK distinct: 17 判单句型子完对成换断汇词转选造配错
+content56.py CJK distinct: 13 判单句型子完对成换断转选错
+content7.py CJK distinct: 6 单句子完成选
+content8.py CJK distinct: 14 作写单句完对形汇翻词译选造配
+svglib.py CJK distinct: 2 重阳
+render.py CJK distinct: 0 
+$ /usr/bin/python3 run.py
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1358 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=455 (bottom 1540)
+P2 col3 ends 1052.5
+  flow[P2-ex] ended col 3/3 y=2341 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=918 (bottom 1560)
+P3 col3 ends 1534.75
+  flow[P3-ex] ended col 2/3 y=2495 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=943 (bottom 1080)
+P4 col3 ends 934.0
+  flow[P4-ex] ended col 2/3 y=2457 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1120 (bottom 1560)
+P5 col3 ends 1333.75
+  flow[P5-ex] ended col 2/3 y=2348 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=840 (bottom 1540)
+P6 col3 ends 1407.0 timeline box height 920.0000000000001
+  flow[P6-ex] ended col 3/3 y=2533 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1151 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1121 (bottom 1560)
+P7 col3 ends 1831.1
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=1099 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2442 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 47, '词汇配对': 12, '判断对错': 8, '造句': 7, '句型转换': 10, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE
+[exit 0]
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python render.py
+rendered p1-portada
+rendered p2-vida
+rendered p3-cultura
+rendered p4-deporte
+rendered p5-juventud
+rendered p6-afondo
+rendered p7-lengua
+rendered p8-ejercicios
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/La-Lucerna-VOL3-FR.pdf 4577684
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/La-Lucerna-VOL3-FR-web.pdf: 516363 bytes, 47517 text bytes
+
+web PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/La-Lucerna-VOL3-FR-web.pdf 516363
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg
+112 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 19196 bytes
+  font LucernaNotoSansCJKSC-Bold: 19516 bytes
+  font LucernaNotoSerifCJKSC-Regular: 24400 bytes
+  font LucernaNotoSerifCJKSC-Bold: 25028 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31512 bytes
+
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-fr-diff.json
+p1: +28 strings / -26 strings; CJK core 180 -> edition 0; added CJK chars: 0 
+p2: +51 strings / -43 strings; CJK core 295 -> edition 0; added CJK chars: 0 
+p3: +35 strings / -30 strings; CJK core 155 -> edition 0; added CJK chars: 0 
+p4: +33 strings / -27 strings; CJK core 176 -> edition 0; added CJK chars: 0 
+p5: +48 strings / -38 strings; CJK core 238 -> edition 0; added CJK chars: 0 
+p6: +32 strings / -33 strings; CJK core 80 -> edition 0; added CJK chars: 0 
+p7: +50 strings / -44 strings; CJK core 412 -> edition 0; added CJK chars: 0 
+p8: +178 strings / -159 strings; CJK core 964 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py compare --core-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg --edition-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg/p8-ejercicios.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-fr-p8-compare.json
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg/p8-ejercicios.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/occlusion_audit.py /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-fr-occlusion.json
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg: 0 flags 
+[exit 0]

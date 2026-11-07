@@ -1,0 +1,35 @@
+skip (already applied): 'p.text(MX + 30, 522, "김장철이 열리고, 수능까지 12일이 남아'
+skip (already applied): 'p.text(975, 372, "한국어를 배우는 사람을 위한 주간 신문 — 진짜'
+skip (already applied): 'p.text(RIGHT - 30, 522, "立冬在 11 月 7 日周六 · 泡菜'
+skip (already applied): 'p.text(975, 330, "한국어판 · VOL.2 · 입동 · 단풍 · 김'
+skip (already applied): 'p.text(MX + 30, 478, "11월 7일은 입동이에요 — 겨울의 시작'
+skip (already applied): 'p.text(RIGHT - 30, 478, "立冬", 24, "sans", Tr'
+skip (already applied): 'p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX,'
+skip (already applied): '("「수능까지 17일 남았어요. 오늘이 D-17예요」", "离高考还剩 17 天，'
+skip (already applied): '("「KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요」", "KIA 虎三连胜'
+skip (superseded by fix): '입동 立冬、冬季开始 · 절정 最盛期、高峰 · 김장 腌过冬泡菜 · 상륙하다 登陆 '
+skip (already applied): '("「김장은 겨울 내내 먹는 김치를 담그는 일이에요」", "泡菜季就是腌过冬泡菜。'
+skip (superseded by fix): '郑重说明：截至截稿时，未收到真实读者来信与第 8 版优秀作文，因此仍刊示例，上期承诺顺延'
+skip (already applied): '("「절정에 가까운 주말이라고만 말할 수 있어요」", "只能说是接近峰值的周末。"'
+skip (already applied): 'Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY'
+skip (already applied): 'lcn2, "sans", False, 20, CW - 44)) * 29 + 26'
+skip (already applied): 'p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)'
+skip (already applied): '문장을 과거형으로 바꾸세요. (바꾼 문장은 모두 이 신문에 나온 일이에요.)'
+skip (already applied): '("「11월 7일은 입동이에요」", "11 月 7 日是立冬。", "1면"),'
+skip (already applied): '("「온 나라가 수험생을 응원해요」", "全国都在为考生加油。", "5면"),'
+skip (already applied): 'f.ex("A2", "翻译", "离高考还剩 12 天。", "对照第 5 版",'
+skip (already applied): '수능까지 남은 날로 날짜를 세는 네 가지 말 · 用高考倒计时数日子的四个说法'
+skip (already applied): '("「낮은 길은 더 늦게 물들어요」", "低处的路红得更晚。", "3면"),'
+skip (already applied): '레벨 A2 · 김장과 겨울 준비, 한능검 · 泡菜季与过冬准备、韩史考试报名'
+skip (already applied): 'f.ex("A2", "翻译", "11月7日是立冬。", "对照第 1 版",'
+skip (already applied): '연승 连胜 · 만루홈런 满垒本垒打 · 미뤄지다 推迟 · 마감하다 截稿。'
+skip (already applied): '언어 포커스 · 세 가지 레벨, 세 가지 주제 · 三个级别，三个主题'
+skip (already applied): '매주 한국어로 · 每周一期 · 한국 사람이 읽는 한국어를 읽어요'
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negC/transform.py", line 497, in <module>
+    main()
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negC/transform.py", line 488, in main
+    _apply(REPL, superseded=FIX2FIX3)
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/ko-ru-fix-verify/work/negC/transform.py", line 481, in _apply
+    raise AssertionError(f"REPL source absent (already applied?): {src!r}")
+AssertionError: REPL source absent (already applied?): '"特别措施只适用于11月19日。→ ___", instr="翻译"'

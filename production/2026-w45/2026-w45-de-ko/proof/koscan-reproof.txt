@@ -1,0 +1,123 @@
+##### EDITION #####
+== p1-front.svg: splits=3 S3=0 LSP=0 LSDOT=0 LPAREN=6
+   SPLIT y=1372.1 경|기 cont=1
+   SPLIT y=1569.4499999999998 9경|기 cont=1
+   SPLIT y=1804.0 있어|요 cont=1
+   LPAREN x=(65, 25.0) y=1341.6 '(21.00 Uhr) empfängt Dortmund'
+   LPAREN x=(65, 25.0) y=1604.6 '(20.30 Uhr) beginnt die Bundesliga:'
+   LPAREN x=(527, 25.0) y=850.5999999999999 '(15.30 Uhr), Freiburg–Union Berlin'
+   LPAREN x=(527, 25.0) y=888.5999999999999 '(17.30 Uhr), Hoffenheim–Schalke'
+   LPAREN x=(527, 25.0) y=926.5999999999999 '(19.30 Uhr). Das Topspiel am'
+   LPAREN x=(545, 20.5) y=1677.9749999999997 '(6개 독일 팀이 유럽 대항전에 나서요)'
+== p2-leben.svg: splits=1 S3=0 LSP=0 LSDOT=0 LPAREN=2
+   SPLIT y=1323.225 에너|지세 cont=2
+   LPAREN x=(1473, 21.5) y=413.5899999999999 '(mit Mehrwertsteuer).'
+   LPAREN x=(1473, 21.5) y=891.3599999999999 '(ARD „Hart aber fair“, 26. Oktober).'
+== p3-kultur.svg: splits=1 S3=0 LSP=0 LSDOT=1 LPAREN=0
+   SPLIT y=1368.6 무|슨 cont=1
+   LSDOT x=(545, 20.5) y=1463.9499999999998 '· der Advent 대림절 · die Lesung 낭독회.'
+== p4-sport.svg: splits=3 S3=0 LSP=0 LSDOT=0 LPAREN=2
+   SPLIT y=688.5 연|속 cont=1
+   SPLIT y=718.225 홈|에서 cont=2
+   SPLIT y=1085.2499999999998 승|자는 cont=2
+   LPAREN x=(527, 20.0) y=2456.225 '(schwer) als normal.'
+   LPAREN x=(989, 20.0) y=1984.0 '(früh) als das Bayern-Spiel.'
+== p5-jugend.svg: splits=1 S3=0 LSP=0 LSDOT=0 LPAREN=0
+   SPLIT y=1335.94 문|장을 cont=2
+== p6-vertiefung.svg: splits=4 S3=0 LSP=1 LSDOT=5 LPAREN=0
+   SPLIT y=1186.5699999999997 필요|해요 cont=2
+   SPLIT y=1214.2599999999998 전|기세 cont=2
+   SPLIT y=1241.9499999999998 않았어|요 cont=1
+   SPLIT y=1269.6399999999999 영|향을 cont=2
+   LSP x=(527, 20.0) y=1945.0 '% · B. 100 % · C. 110 %'
+   LSDOT x=(89, 20.5) y=1252.0 '· Angehörige kennen den Menschen am besten — Hilfe zu Hause'
+   LSDOT x=(89, 20.5) y=1337.4 '· Ein Heimplatz kostet viel mehr als Hilfe zu Hause.'
+   LSDOT x=(744, 20.5) y=1252.0 '· Professionelle Pflege ist sicherer — Angehörige sind oft'
+   LSDOT x=(744, 20.5) y=1337.4 '· Der Staat hat nicht genug Geld für alles.'
+   LSDOT x=(527, 20.0) y=2197.225 '· B. die Pflege zu Hause · C. die Stromsteuer'
+== p7-sprache.svg: splits=5 S3=0 LSP=0 LSDOT=1 LPAREN=1
+   SPLIT y=1209.8 길|다 cont=1
+   SPLIT y=1217.7299999999998 실|제 cont=1
+   SPLIT y=1245.4199999999998 보|내 cont=1
+   SPLIT y=1661.3 내려가|요 cont=1
+   SPLIT y=1865.3 않|아요 cont=2
+   LSDOT x=(65, 20.0) y=1218.8 '· C. Imperativ'
+   LPAREN x=(989, 20.0) y=1054.2 '(dass) → ___'
+== p8-uebungen.svg: splits=26 S3=0 LSP=0 LSDOT=2 LPAREN=11
+   SPLIT y=1716.0 보|며 cont=1
+   SPLIT y=2024.66 내려가|요 cont=1
+   SPLIT y=2397.8800000000006 이|번 cont=1
+   SPLIT y=2430.640000000001 모|든 cont=1
+   SPLIT y=2479.7800000000007 이|번 cont=1
+   SPLIT y=1917.38 주어·동사·목적|어 cont=1
+   SPLIT y=2030.28 슈투트가르|트는 cont=2
+   SPLIT y=2063.04 빅|매치 cont=2
+   SPLIT y=2079.42 경|기 cont=1
+   SPLIT y=2144.94 일|러요 cont=2
+   SPLIT y=2177.7 호펜하임–샬케전|은 cont=1
+   SPLIT y=2290.6000000000004 아|직 cont=1
+   SPLIT y=2323.3600000000006 경기장|에 cont=1
+   SPLIT y=2356.1200000000003 읽어|야 cont=1
+   SPLIT y=2388.8800000000006 있어|요 cont=1
+   SPLIT y=2405.26 절|은 cont=1
+   SPLIT y=1917.38 12%예|요 cont=1
+   SPLIT y=1933.76 다뤘|어요 cont=2
+   SPLIT y=2048.42 벗어|나고 cont=2
+   SPLIT y=2177.7000000000003 이유|가 cont=1
+   SPLIT y=2194.08 동사|가 cont=1
+   SPLIT y=2421.6400000000003 이|번 cont=1
+   SPLIT y=1917.38 동사|는 cont=1
+   SPLIT y=1933.76 계속|되다 cont=2
+   SPLIT y=2032.04 kochen(1인|칭 cont=1
+   SPLIT y=2064.8 채점|해요 cont=2
+   LSDOT x=(65, 13.0) y=2528.9200000000005 '· 43. In Baden-Württemberg ist die Schule wieder losgegangen. (시간·'
+   LSDOT x=(989, 13.0) y=2454.4 '· 126. A (금요일 함부르크–묀헨글라트바흐전으로 개막해요) · 127. B (10월'
+   LPAREN x=(65, 20.5) y=482.62 '(115)___ Lena einen Kürbis und (116)___'
+   LPAREN x=(1451, 20.5) y=1081.78 '(147)___ Kürbissuppe. — Lecker! Und was'
+   LPAREN x=(1451, 20.5) y=1112.94 '(148)___ du am Montag? — Ich (149)___'
+   LPAREN x=(65, 13.0) y=2301.36 '(Tankrabatt=유가 할인 b) · 26. d (Zapfsäule=주유기 d) · 27. a'
+   LPAREN x=(65, 13.0) y=2317.7400000000002 '(Mehrwertsteuer=부가가치세 a) · 28. c (Angehörige=가족 c)'
+   LPAREN x=(527, 13.0) y=1950.14 '(bleiben + geschlossen)'
+   LPAREN x=(527, 13.0) y=2112.18 '(eröffnen=막을 열기 d) · 56. schwerer (schwer → schwerer) · 57. später'
+   LPAREN x=(527, 13.0) y=2128.56 '(spät → später(19:30이 가장 늦어요)) · 58. mehr (viel → mehr(팬들은 더'
+   LPAREN x=(527, 13.0) y=2323.3600000000006 '(Referat = 수업 발표) · 69. A (바이에른 방학 중인 학생은 금요일에 이미 경기장'
+   LPAREN x=(989, 13.0) y=2356.1200000000003 '(kauft(3인칭 단수)) · 116. C (schnitzt는 호박을 조각해요) · 117. B'
+   LPAREN x=(989, 13.0) y=2372.5000000000005 '(schläft(3인칭 단수)) · 118. B (Tankrabatt 유가 할인) · 119. A (geht(3인칭'
+EDITION TOTAL splits=44 S3=0
+##### CORE #####
+== p1-front.svg: splits=0 S3=0 LSP=0 LSDOT=0 LPAREN=5
+   LPAREN x=(65, 25.0) y=1341.6 '(21.00 Uhr) empfängt Dortmund'
+   LPAREN x=(65, 25.0) y=1604.6 '(20.30 Uhr) beginnt die Bundesliga:'
+   LPAREN x=(527, 25.0) y=850.5999999999999 '(15.30 Uhr), Freiburg–Union Berlin'
+   LPAREN x=(527, 25.0) y=888.5999999999999 '(17.30 Uhr), Hoffenheim–Schalke'
+   LPAREN x=(527, 25.0) y=926.5999999999999 '(19.30 Uhr). Das Topspiel am'
+== p2-leben.svg: splits=0 S3=0 LSP=0 LSDOT=0 LPAREN=2
+   LPAREN x=(1473, 21.5) y=413.5899999999999 '(mit Mehrwertsteuer).'
+   LPAREN x=(1473, 21.5) y=891.3599999999999 '(ARD „Hart aber fair“, 26. Oktober).'
+== p3-kultur.svg: splits=0 S3=0 LSP=0 LSDOT=1 LPAREN=0
+   LSDOT x=(545, 20.5) y=1463.9499999999998 '· der Advent 将临期 · die Lesung 朗读会'
+== p4-sport.svg: splits=0 S3=0 LSP=0 LSDOT=0 LPAREN=2
+   LPAREN x=(527, 20.0) y=2456.225 '(schwer) als normal.'
+   LPAREN x=(989, 20.0) y=1984.0 '(früh) als das Bayern-Spiel.'
+== p5-jugend.svg: splits=0 S3=0 LSP=0 LSDOT=0 LPAREN=0
+== p6-vertiefung.svg: splits=0 S3=0 LSP=1 LSDOT=5 LPAREN=0
+   LSP x=(527, 20.0) y=1945.0 '% · B. 100 % · C. 110 %'
+   LSDOT x=(89, 20.5) y=1252.0 '· Angehörige kennen den Menschen am besten — Hilfe zu Hause'
+   LSDOT x=(89, 20.5) y=1337.4 '· Ein Heimplatz kostet viel mehr als Hilfe zu Hause.'
+   LSDOT x=(744, 20.5) y=1252.0 '· Professionelle Pflege ist sicherer — Angehörige sind oft'
+   LSDOT x=(744, 20.5) y=1337.4 '· Der Staat hat nicht genug Geld für alles.'
+   LSDOT x=(527, 20.0) y=2197.225 '· B. die Pflege zu Hause · C. die Stromsteuer'
+== p7-sprache.svg: splits=0 S3=0 LSP=0 LSDOT=1 LPAREN=1
+   LSDOT x=(65, 20.0) y=1218.8 '· C. Imperativ'
+   LPAREN x=(989, 20.0) y=1054.2 '(dass) → ___'
+== p8-uebungen.svg: splits=0 S3=0 LSP=0 LSDOT=6 LPAREN=3
+   LSDOT x=(65, 14.5) y=1963.11 '· 3. Donnerstag（欧联在周四） · 4. Hamburg（周五汉堡–门兴'
+   LSDOT x=(65, 14.5) y=2329.9700000000003 '· 26. d（Zapfsäule=加油机 d） · 27. a（Mehrwertsteuer=增值'
+   LSDOT x=(65, 14.5) y=2508.330000000001 '· 36. Lesung（图书馆的朗读会） · 37. Advent（将临期在 11 月'
+   LSDOT x=(527, 14.5) y=2410.0200000000004 '· 71. Klassenarbeit（数学课堂测验） · 72. Referat（报告要读三'
+   LSDOT x=(989, 14.5) y=2043.16 '· 88. B（68+20+12=100） · 89. B（10 月 26 日节目讨论居家护理'
+   LSDOT x=(1451, 14.5) y=2241.8 '· 146. A（siehst（第二人称单数）） · 147. A（kochen（第一人'
+   LPAREN x=(65, 20.5) y=482.62 '(115)___ Lena einen Kürbis und (116)___'
+   LPAREN x=(1451, 20.5) y=1081.78 '(147)___ Kürbissuppe. — Lecker! Und was'
+   LPAREN x=(1451, 20.5) y=1112.94 '(148)___ du am Montag? — Ich (149)___'
+CORE TOTAL splits=0 S3=0

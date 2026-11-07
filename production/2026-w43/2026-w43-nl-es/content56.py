@@ -1,0 +1,226 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-nl-es/svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P5 · JONGEREN (B1) =================
+CURPAGE[0] = 5
+p = BSPage4()
+p.band("JONGEREN · JUVENTUD", "De Lucerna", "NIVEAU B1 · ADE wordt 30, De Hanslers en Robinson · Festival, telerrealidad y programa de aventura en una isla")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-main")
+f.title("Dertig jaar dansen: ADE neemt Amsterdam over", 37)
+f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.para("Amsterdam danst weer. Het Amsterdam Dance Event (ADE) is van woensdag 21 tot en met zondag 25 oktober in Amsterdam. Het festival wordt dertig jaar. Er komen meer dan 3.000 artiesten naar meer dan 200 locaties in de stad.")
+f.para("De eerste namen kwamen al in juni: meer dan 250 artiesten, met onder anderen Armin van Buuren, Amelie Lens, Adam Beyer en Skepta. Na de tweede ronde zijn er meer dan 1.500 namen zeker. De krant NRC schreef op 19 oktober over dertig jaar ADE: feesten en netwerken horen bij elkaar op dit festival.")
+f.para("Overdag is ADE meer dan dansen: er is ook een conferentie, waar dj's, makers en bedrijven praten over muziek en werk. Feesten én netwerken — precies zoals NRC het beschreef.")
+f.para("Thuis op de bank is er ook spanning. De realityserie De Hanslers op SBS6 zorgt voor gesprekken in heel het land: de ruzie tussen Monique en Mike was dinsdag de meest gezochte zoekopdracht van Nederland, met meer dan 10.000 zoekopdrachten.")
+f.para("En na ADE begint een ander avontuur: Expeditie Robinson. De 19 kandidaten zijn bekend — onder hen Maxime Meiland, Boaz Kok van de band Goldband en oud-shorttracker Sjinkie Knegt. Het programma begint op zondag 1 november om 20:00 uur op RTL 4.")
+f.para("Het eilandprogramma is zwaar: de kandidaten slapen buiten, maken zelf vuur en zoeken hun eigen eten. Wie een proef verliest, kan naar huis worden gestemd; wie het langst blijft, wint. De kandidaten komen uit Nederland en Vlaanderen.")
+f.box("ZO PLAN JE ADE · CONSEJOS", [
+    ("1. Kies twee of drie locaties per avond (elige dos o tres locales por noche)", "serif", False, INK, 21, 1.36),
+    ("2. Reis met de trein of de fiets (ve en tren o en bicicleta)", "serif", False, INK, 21, 1.36),
+    ("3. Drink water tussen het dansen door (bebe agua entre baile y baile)", "serif", False, INK, 21, 1.36),
+    ("4. Spreek een plek af als je je vrienden kwijtraakt (acuerda un punto de encuentro por si pierdes a tus amigos)", "serif", False, INK, 21, 1.36),
+])
+f.gloss("de artiest: el artista · de locatie: el recinto · de ruzie: la discusión · de kandidaat: el concursante · het avontuur: la aventura.")
+f.end_report()
+
+# col 3: image + facts + en jij (sequential, measured)
+ix = COLX[3]
+image(p, "gracht.jpg", ix, 200, CW, 272)
+cy3 = caption(p, ix, 472, CW, "Een boot in een Amsterdamse gracht. Tijdens ADE is de hele stad een podium: meer dan 200 locaties.",
+              "Foto: W. Punt / Anefo, Nationaal Archief — CC0")
+facts = ["Meer dan 3.000 artiesten op ADE, op meer dan 200 locaties.",
+         "«de hanslers ruzie»: meer dan 10.000 zoekopdrachten op dinsdag.",
+         "Expeditie Robinson: 19 kandidaten; start zondag 1 november, 20:00 uur."]
+sy3 = cy3 + 24
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "JONGEREN IN CIJFERS", 24, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ey3 = sy3 + sh + 26
+etvous = "En jij? Dans je graag, of kijk je liever naar een serie thuis? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie."
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Te gusta bailar o prefieres ver una serie en casa? Escribe dos frases en neerlandés y envíalas.", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+yy3 = ey3 + 16
+p.text(ix + 22, yy3 + 26, "EN JIJ? · ¿Y TÚ?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(ix + 22, yy3 + 20, "¿Te gusta bailar o prefieres ver una serie en casa? Escribe dos frases en neerlandés y envíalas.", 20, "sans", False, GREY, CW - 44, 1.42)
+print("P5 col3 ends", ey3 + eh)
+
+# ---- P5 exercises ----
+ey = 1620
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "OEFENINGEN · EJERCICIOS", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8 · ejercicios de niveles mezclados, busca por número", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
+e.head("A · BEGRIJPEN", 25)
+e.expl("Lee los artículos de la página 5 y elige la respuesta correcta.")
+e.ex("B1", "单选", "B", "El ADE es del 21 al 25 de octubre",
+     "ADE duurt van... A. 17 tot en met 25 oktober · B. 21 tot en met 25 oktober · C. 1 tot en met 5 november", size=20, gap=8)
+e.ex("B1", "单选", "C", "Más de 3.000 artistas en total (250 es solo la primera lista)",
+     "Er komen meer dan ___ artiesten naar ADE. A. 250 · B. 1.500 · C. 3.000", size=20, gap=8)
+e.ex("B1", "单选", "B", "La mayor búsqueda del martes: la discusión de los Hanslers",
+     "De meest gezochte zoekopdracht van dinsdag was... A. «ade» · B. «de hanslers ruzie» · C. «uitslagen»", size=20, gap=8)
+e.ex("B1", "单选", "B", "Robinson empieza el domingo 1 de noviembre",
+     "Expeditie Robinson begint op... A. zondag 25 oktober · B. zondag 1 november · C. woensdag 21 oktober", size=20, gap=8)
+e.ex("B1", "单选", "C", "Sjinkie Knegt es un ex patinador de short-track",
+     "Sjinkie Knegt was vroeger... A. een dj · B. een ontwerper · C. een shorttracker", size=20, gap=8)
+e.head("B · WOORDEN UIT DE TEKST", 25)
+e.expl("Completa con las palabras del recuadro.")
+e.para("artiesten · locaties · ruzie · kandidaten · avontuur · netwerken", 20, "sans", True, OLIVE, 1.35, 6)
+e.ex("B1", "完成句子", "artiesten", "artiesten = los artistas (plural)",
+     "Meer dan 3.000 ___ komen naar Amsterdam.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "locaties", "locaties = los locales (plural)",
+     "Het festival heeft meer dan 200 ___ in de stad.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "ruzie", "ruzie = la discusión",
+     "De ___ tussen Monique en Mike is groot nieuws.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "kandidaten", "kandidaten = los concursantes (plural)",
+     "Expeditie Robinson heeft 19 ___.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "avontuur", "avontuur = la aventura (het)",
+     "Robinson is een ___ op een eiland.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "netwerken", "netwerken = hacer contactos",
+     "Op ADE horen feesten en ___ bij elkaar.", instr="Completar", size=20, gap=8)
+e.head("C · DE TOEKOMST MET GAAN", 25)
+e.expl("Expresa el futuro con gaan + infinitivo.")
+e.ex("B1", "完成句子", "gaat beginnen", "gaat beginnen = va a empezar",
+     "Expeditie Robinson ___ (beginnen) op 1 november.", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "gaan dansen", "wij → gaan + el infinitivo dansen",
+     "Wij ___ (dansen) op ADE in Amsterdam.", instr="Completar", size=20, gap=8)
+e.ex("B2", "完成句子", "gaat winnen", "gaat winnen = va a ganar (solo una suposición)",
+     "Wie ___ (winnen) Expeditie Robinson, denk je?", instr="Completar", size=20, gap=8)
+e.ex("B1", "完成句子", "gaat kijken", "hij → gaat kijken",
+     "Hij ___ (kijken) vanavond naar de serie.", instr="Completar", size=20, gap=8)
+e.head("D · WAAR OF NIET WAAR?", 25)
+e.ex("B1", "判断对错", "Waar", "Verdadero: el ADE cumple 30 años",
+     "ADE wordt dit jaar dertig jaar. Waar of niet waar?", instr="Verdadero o falso", size=20, gap=8)
+e.ex("B1", "判断对错", "Niet waar", "Falso: empieza el 1 de noviembre",
+     "Expeditie Robinson begint op 25 oktober. Waar of niet waar?", instr="Verdadero o falso", size=20, gap=8)
+e.ex("B2", "判断对错", "Waar", "Verdadero: más de 10.000 búsquedas (foto del martes)",
+     "De zoekopdracht «de hanslers ruzie» had meer dan 10.000 zoekopdrachten. Waar of niet waar?", instr="Verdadero o falso", size=20, gap=8)
+e.end_report()
+p.foot(5)
+p.save(f"{OUT}/p5-jongeren.svg")
+print("P5 saved, exercises so far:", len(REG))
+
+# ================= P6 · VERDIEPING (B2) =================
+CURPAGE[0] = 6
+p = BSPage4()
+p.band("VERDIEPING · EN PROFUNDIDAD", "De Lucerna", "NIVEAU B2 · Waarom googelt Nederland de klok? · ¿Por qué los neerlandeses buscan el reloj en Google?")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P6-main")
+f.title("Waarom googelt Nederland de klok?", 37)
+f.byline("Van de redactie van De Lucerna · Leesniveau: B2")
+f.para("Twee keer per jaar stelt heel Nederland dezelfde vraag: gaat de klok vooruit of achteruit? Een onderzoek van Wristler, gepubliceerd op dinsdag 20 oktober, telt de zoekopdrachten van oktober vorig jaar. Het resultaat is verrassend: ongeveer 750.000 keer zochten Nederlanders naar de klokverandering.")
+f.para("De twee grootste zoektermen waren «wintertijd» (301.000 keer) en «klok verzetten» (246.000 keer). Samen zijn dat 547.000 zoekopdrachten. De rest — ongeveer 203.000 — waren andere vragen en woorden over de klok.")
+f.para("Het mooiste cijfer gaat over de richting. 60.500 mensen vroegen: «wanneer gaat de klok achteruit?» — het goede antwoord. Maar 6.600 mensen vroegen het omgekeerde: «wanneer gaat de klok vooruit?» Ruim negen keer zoveel mensen vragen het goed als fout.")
+f.para("Nederland staat niet alleen. Van de 16 landen in het onderzoek zoekt alleen Italië per inwoner nog meer naar de klok. Nederlanders zijn dus kampioen twijfelen — op één land na.")
+f.para("Waarom is het zo moeilijk? De regel lijkt simpel, maar het gevoel is anders. Het ezelsbruggetje helpt: in het voorjaar vooruit, in het najaar achteruit. En toch googelt iedereen het elk jaar opnieuw. Misschien is dat de echte traditie: niet de klok, maar de vraag.")
+f.head("AFSCHAFFEN OF NIET?", 25)
+f.para("Elk jaar komt ook de discussie terug: moeten we de klok nog wel verzetten? Sommigen willen één vaste tijd voor het hele jaar; anderen houden van het lange licht op zomeravonden. Een besluit is er niet — de klok gaat voorlopig twee keer per jaar heen en weer.")
+f.para("En dus komt de vraag elk jaar twee keer terug: in oktober voor de wintertijd en in het voorjaar voor de zomertijd. En twee keer per jaar zoekt Nederland weer massaal naar hetzelfde antwoord.")
+f.gloss("de zoekopdracht: la búsqueda · tellen: contar · het omgekeerde: lo contrario · per inwoner: por habitante · twijfelen: dudar, no estar seguro.")
+f.end_report()
+
+# col 3: chart with exactly proportional bars + pro/contra box (sequential, measured)
+ix = COLX[3]
+rows = [
+    ("«wintertijd»", "301.000", 250),
+    ("«klok verzetten»", "246.000", 204),
+    ("«...klok achteruit?»", "60.500", 50),
+    ("«...klok vooruit?»", "6.600", 5),
+]
+cap = "Zoekopdrachten in oktober vorig jaar. Bron: onderzoek van Wristler, gepubliceerd op 20 oktober 2026."
+capcn = "Fuente: estudio de Wristler, publicado el 20 de octubre de 2026; datos = búsquedas de octubre del año pasado"
+ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+p.rect(ix, 200, CW, ch, fill=BOX, stroke=LINE, sw=1.4)
+yy3 = 216
+p.text(ix + 22, yy3 + 26, "DE CIJFERS · LAS CIFRAS", 24, "sans", True, OLIVE)
+yy3 += 58
+for lab, val, bw in rows:
+    p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)
+    p.text(ix + CW - 22, yy3 + 20, val, 19.5, "sans", True, BRICK, anchor="end")
+    p.rect(ix + 22, yy3 + 30, bw, 18, fill=OLIVE)
+    yy3 += 58
+yy3 += 14
+yy3 = p.para(ix + 22, yy3 + 19, cap, 19, "serif", False, GREY, CW - 44, 1.36)
+yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+print("P6 chart ends", 200 + ch, "content to", yy3)
+by6 = 200 + ch + 26
+bt = [
+    ("Stoppen met verzetten: één vaste tijd voor het hele jaar is rustiger voor lichaam en planning.", "serif", False, INK, 21, 1.4),
+    ("Doorgaan: zo houden we de lange, lichte avonden in de zomer.", "serif", False, INK, 21, 1.4),
+    ("De krant kiest niet: wij tellen alleen de zoekopdrachten. En jij?", "serif", False, INK, 21, 1.4),
+]
+bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
+p.rect(ix, by6, CW, bh, fill="#f1ead6", stroke=LINE, sw=1.4)
+yy3 = by6 + 16
+p.text(ix + 22, yy3 + 26, "AFSCHAFFEN OF NIET? · ¿ABOLIR?", 21, "sans", True, OLIVE)
+yy3 += 52
+for t, k, b, fl, s, lh in bt:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8
+print("P6 col3 ends", by6 + bh)
+
+# ---- P6 exercises ----
+ey = 1620
+p.hline(MX, RIGHT, ey - 12, GOLD, 2)
+p.text(MX, ey + 28, "OEFENINGEN · EJERCICIOS", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8 · ejercicios de niveles mezclados, busca por número", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
+e.head("A · LEES DE GRAFIEK", 25)
+e.expl("Mira el gráfico de la página 6 (datos de Wristler) y responde.")
+e.ex("B2", "完成句子", "301.000", "«wintertijd»: 301.000 búsquedas (el máximo)",
+     "De meest gezochte term was «wintertijd»: ___ keer.", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "547.000", "301.000 + 246.000 = 547.000",
+     "«wintertijd» en «klok verzetten» samen: ___ zoekopdrachten.", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "203.000", "750.000 − 547.000 ≈ 203.000 (aprox.)",
+     "Van de ±750.000 zoekopdrachten waren er ongeveer ___ voor andere vragen.", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "6.600", "Solo 6.600 personas preguntaron en el sentido contrario",
+     "Slechts ___ mensen vroegen «vooruit» in plaats van «achteruit».", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "9", "60.500 ÷ 6.600 ≈ más de 9 veces",
+     "«Achteruit» is ruim ___ keer zo vaak gezocht als «vooruit».", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "单选", "B", "El estudio cuenta las búsquedas de octubre del año pasado",
+     "Het onderzoek telt zoekopdrachten uit... A. oktober 2026 · B. oktober vorig jaar · C. de zomer van 2026", size=21.5, gap=9)
+e.head("B · BEGRIJPEN", 25)
+e.expl("Lee el artículo de la página 6 y elige la respuesta correcta.")
+e.ex("B2", "单选", "B", "Solo Italia busca más por habitante",
+     "Alleen welk land zoekt per inwoner méér naar de klok? A. Duitsland · B. Italië · C. Frankrijk", size=21.5, gap=9)
+e.ex("B2", "单选", "B", "El estudio abarca 16 países",
+     "Hoeveel landen deden mee aan het onderzoek? A. 10 · B. 16 · C. 27", size=21.5, gap=9)
+e.ex("B2", "单选", "A", "El sentido es difícil de recordar: se busca cada año",
+     "Waarom googelen mensen de klok elk jaar weer? A. De richting is moeilijk te onthouden · B. De klok verandert nooit · C. Er is geen ezelsbruggetje", size=21.5, gap=9)
+e.ex("B2", "单选", "B", "Una parte quiere una hora fija todo el año",
+     "Wat wil een deel van de mensen? A. Twee keer per jaar verzetten, voor altijd · B. Eén vaste tijd voor het hele jaar · C. Nooit meer klokken", size=21.5, gap=9)
+e.ex("B1", "单选", "B", "El truco: en otoño, hacia atrás",
+     "Het ezelsbruggetje zegt: in het najaar gaat de klok... A. vooruit · B. achteruit · C. niet", size=21.5, gap=9)
+e.head("C · WOORDEN", 25)
+e.expl("Completa con las palabras del recuadro.")
+e.para("zoekopdracht · per inwoner · het omgekeerde · tellen", 20, "sans", True, OLIVE, 1.35, 6)
+e.ex("B2", "完成句子", "zoekopdracht", "zoekopdracht = la búsqueda",
+     "«wintertijd» was de grootste ___ van oktober.", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "per inwoner", "per inwoner = por habitante",
+     "Italië zoekt ___ nog meer dan Nederland.", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "het omgekeerde", "het omgekeerde = lo contrario",
+     "«Vooruit» is ___ van «achteruit».", instr="Completar", size=21.5, gap=9)
+e.ex("B2", "完成句子", "telt", "tellen: het onderzoek → telt",
+     "Het onderzoek ___ (tellen) alle zoekopdrachten.", instr="Completar", size=21.5, gap=9)
+e.head("D · MAAK DE ZINNEN", 25)
+e.expl("Ordena las palabras y forma la frase correcta.")
+e.ex("B2", "造句", "Nederlanders zoeken elk jaar naar de klok.", "El verbo zoeken va en segunda posición",
+     "nederlanders / zoeken / elk jaar / naar de klok → ___", instr="Formar la frase", size=21.5, gap=9)
+e.ex("B2", "造句", "Alleen Italië zoekt per inwoner meer.", "alleen + el nombre del país delante",
+     "alleen Italië / zoekt / per inwoner / meer → ___", instr="Formar la frase", size=21.5, gap=9)
+e.ex("B2", "造句", "De discussie komt elk jaar terug.", "terug es una partícula separable: va al final de la frase",
+     "de discussie / komt / elk jaar / terug → ___", instr="Formar la frase", size=21.5, gap=9)
+e.end_report()
+p.foot(6)
+p.save(f"{OUT}/p6-verdieping.svg")
+print("P6 saved, exercises so far:", len(REG))

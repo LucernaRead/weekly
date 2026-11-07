@@ -1,0 +1,53 @@
+{
+ "ok": 8,
+ "rows": [
+  {
+   "file": "p1-une.svg",
+   "match": true,
+   "core_sha256": "f02e628efa06424c",
+   "produced_sha256": "f02e628efa06424c"
+  },
+  {
+   "file": "p2-vie.svg",
+   "match": true,
+   "core_sha256": "b192c1927b701fa0",
+   "produced_sha256": "b192c1927b701fa0"
+  },
+  {
+   "file": "p3-culture.svg",
+   "match": true,
+   "core_sha256": "5f332e9f0106fa5d",
+   "produced_sha256": "5f332e9f0106fa5d"
+  },
+  {
+   "file": "p4-sport.svg",
+   "match": true,
+   "core_sha256": "240f379d3a756fe0",
+   "produced_sha256": "240f379d3a756fe0"
+  },
+  {
+   "file": "p5-jeunesse.svg",
+   "match": true,
+   "core_sha256": "a4d64e3ef35a7459",
+   "produced_sha256": "a4d64e3ef35a7459"
+  },
+  {
+   "file": "p6-politique.svg",
+   "match": true,
+   "core_sha256": "47e4346dba1f7cbc",
+   "produced_sha256": "47e4346dba1f7cbc"
+  },
+  {
+   "file": "p7-langue.svg",
+   "match": true,
+   "core_sha256": "e997123f96cffdcd",
+   "produced_sha256": "e997123f96cffdcd"
+  },
+  {
+   "file": "p8-exercices.svg",
+   "match": true,
+   "core_sha256": "822dbe3d54d4ef06",
+   "produced_sha256": "822dbe3d54d4ef06"
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+PASS D-CORE-1 en new caption
+PASS D-CORE-1 en old absent
+PASS D-CORE-1 es new caption
+PASS D-CORE-1 es old absent
+PASS D-CORE-1 fr new caption
+PASS D-CORE-1 fr old absent
+PASS D-CORE-1 it new caption
+PASS D-CORE-1 it old absent
+PASS D-CORE-1 ja new caption
+PASS D-CORE-1 ja old absent
+PASS D-CORE-1 ko new caption
+PASS D-CORE-1 ko old absent
+PASS D-CORE-1 nl new caption
+PASS D-CORE-1 nl old absent
+PASS D-CORE-1 pt new caption
+PASS D-CORE-1 pt old absent
+PASS D-CORE-1 ru new caption
+PASS D-CORE-1 ru old absent
+PASS D-CORE-1 zh-cn new caption
+PASS D-CORE-1 zh-cn old absent
+PASS D-CORE-1 zh-tw new caption
+PASS D-CORE-1 zh-tw old absent
+PASS D-CORE-1 core new caption
+PASS D-CORE-1 core old absent
+PASS D-TOOLBOX en present-passive | Es wird gespielt. = It is played
+PASS D-TOOLBOX en future absent
+PASS D-TOOLBOX es present-passive | Es wird gespielt. = Se juega
+PASS D-TOOLBOX es future absent
+PASS D-TOOLBOX fr present-passive | Es wird gespielt. = Il est joué
+PASS D-TOOLBOX fr future absent
+PASS D-TOOLBOX it present-passive | Es wird gespielt. = Si gioca
+PASS D-TOOLBOX it future absent
+PASS D-TOOLBOX pt present-passive | Es wird gespielt. = Joga-se
+PASS D-TOOLBOX pt future absent
+PASS D-TOOLBOX ru present-passive | Es wird gespielt. = Играется
+PASS D-TOOLBOX ru future absent
+PASS D-TOOLBOX control nl
+PASS D-TOOLBOX control ja
+PASS D-TOOLBOX control ko
+PASS 103/104 en
+PASS 103/104 es
+PASS 103/104 fr
+PASS 103/104 it
+PASS 103/104 ja
+PASS 103/104 ko
+PASS 103/104 nl
+PASS 103/104 pt
+PASS 103/104 ru
+PASS 103/104 zh-cn
+PASS 103/104 zh-tw
+PASS D-IT-1 it lo starnazzare
+PASS D-IT-1 it bare verb absent
+PASS D-NL-1 nl Verbundenheit
+PASS D-NL-1 nl Versöhnung
+PASS D-NL-1 nl Kranzniederlegung
+PASS D-NL-1 nl stille Tag
+PASS D-RU-1 ru full definition
+PASS D-KO-1 ko p5-jugend.svg no lone punct | []
+PASS D-KO-1 ko p8-uebungen.svg no lone punct | []
+PASS D-CORE-3 core no lone 。 | []
+PASS D-CORE-3 zh-cn no lone 。 | []
+PASS D-CORE-3 zh-tw no lone 。 | []
+PASS M-1 es | DER WERKZEUGKASTEN · Útiles
+PASS M-1 fr | DER WERKZEUGKASTEN · Outils
+PASS M-1 it | DER WERKZEUGKASTEN · Attrezzi
+PASS M-1 nl | DER WERKZEUGKASTEN · Werktuig
+PASS M-1 pt | DER WERKZEUGKASTEN · Caixa
+PASS M-1 ru | DER WERKZEUGKASTEN · Ящик
+PASS M-1 ja | DER WERKZEUGKASTEN · 道具箱
+PASS M-1 ko | DER WERKZEUGKASTEN · 도구 상자
+PASS M-1 en | DER WERKZEUGKASTEN · Toolbox
+PASS M-1 ru P1 gloss
+PASS M-1 zh-cn core gloss retained
+PASS M-2 es P6 gloss | ofrenda floral
+PASS M-2 fr P6 gloss | dépôt de gerbe
+PASS M-2 it P6 gloss | deposizione di corone
+PASS M-2 pt P6 gloss | deposição de coroas
+PASS M-2 ru P6 gloss | возложение венков
+PASS M-2 nl P6 gloss | kranslegging
+PASS M-3 es | ¿Hiciste un farolillo? ¿Qué canciones ca
+PASS M-3 es | ¿Fútbol o fútbol americano? ¿Quién gana 
+PASS M-3 fr | Tu as fait une lanterne ? Quelles chanso
+PASS M-3 fr | Foot ou foot US ? Qui gagne à Belgrade ?
+PASS M-3 it | Hai fatto una lanterna? Quali canzoni ca
+PASS M-3 it | Calcio o football americano? Chi vince a
+PASS M-3 nl | Heb je een lantaarn gemaakt? Welke liedj
+PASS M-3 nl | Voetbal of American football? Wie wint e
+PASS M-3 pt | Fez uma lanterna? Que canções cantam
+PASS M-3 pt | Futebol ou futebol americano? Quem ganha
+PASS M-3 ru | Вы делали фонарик? Какие песни поют
+PASS M-3 ru | Футбол или американский футбол? Кто побе
+PASS M-4 ja plain 138
+PASS M-4 ja no 作ります anywhere
+PASS M-4 ko polite 137
+PASS M-4 ko 137 plain absent
+PASS T-1 zh-tw separator
+PASS D-PT-1 tu-form absent: 'Completa com'
+PASS D-PT-1 tu-form absent: 'Lê '
+PASS D-PT-1 tu-form absent: 'Escreve'
+PASS D-PT-1 tu-form absent: 'Escolhe'
+PASS D-PT-1 tu-form absent: 'Olha'
+PASS D-PT-1 tu-form absent: 'Usa '
+PASS D-PT-1 tu-form absent: 'Junta'
+PASS D-PT-1 tu-form absent: 'traduz para português'
+PASS D-PT-1 tu-form absent: 'corrige-os'
+PASS D-PT-1 tu-form absent: 'Fizeste'
+PASS D-PT-1 tu-form absent: 'Escreve duas'
+PASS D-PT-1 tu-form absent: 'A tua canção'
+PASS D-PT-1 tu-form absent: 'Fizeste uma'
+PASS D-PT-1 você-form present: 'Complete com as palavras do quadro'
+PASS D-PT-1 você-form present: 'Enviem-nos as vossas para VOL.4'
+PASS D-PT-1 você-form present: 'Leia'
+PASS D-PT-1 você-form present: 'Escreva'
+PASS D-PT-1 você-form present: 'Escolha'
+PASS D-PT-1 você-form present: 'Traduza para o português'
+PASS D-PT-1 Complete count==5 in text.md | checked separately
+PASS P6 max-y en | max text y=2624.0
+PASS P6 max-y es | max text y=2624.0
+PASS P6 max-y fr | max text y=2624.0
+PASS P6 max-y it | max text y=2624.0
+PASS P6 max-y ja | max text y=2624.0
+PASS P6 max-y ko | max text y=2624.0
+PASS P6 max-y nl | max text y=2624.0
+PASS P6 max-y pt | max text y=2624.0
+PASS P6 max-y ru | max text y=2624.0
+PASS P6 max-y zh-cn | max text y=2624.0
+PASS P6 max-y zh-tw | max text y=2624.0
+PASS P6 max-y core | max text y=2624.0
+PASS SPACING P4 es gloss visible | [(1473.0, 1133.82, 'alemán!')]
+PASS SPACING P4 pt gloss visible | [(1473.0, 1133.82, 'em alemão!')]
+PASS SPACING P4 ru gloss visible | [(1473.0, 1133.82, 'предложения!')]
+TOTAL 131 PASS 131 FAIL 0

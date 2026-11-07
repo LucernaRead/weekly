@@ -1,0 +1,29 @@
+p1-pyoji.svg {'A2': 10} items: 10
+p2-saenghwal.svg {'A2': 16, 'B1': 2} items: 18
+p3-munhwa.svg {'A2': 12, 'B1': 6} items: 18
+p4-seupocheu.svg {'B1': 18} items: 18
+p5-cheongnyeon.svg {'B1': 18} items: 18
+p6-gipi.svg {'B2': 18} items: 18
+p7-mal.svg {'A2': 4, 'B1': 4, 'B2': 4} items: 12
+p8-siheom.svg {'B1': 24, 'A2': 9, 'B2': 5} items: 38
+TOTAL {'A2': 51, 'B1': 72, 'B2': 27} sum 150
+p1-pyoji.svg 1-10 n=10 missing=[]
+p2-saenghwal.svg 11-28 n=18 missing=[]
+p3-munhwa.svg 29-46 n=18 missing=[]
+p4-seupocheu.svg 47-64 n=18 missing=[]
+p5-cheongnyeon.svg 65-82 n=18 missing=[]
+p6-gipi.svg 83-100 n=18 missing=[]
+p7-mal.svg 101-112 n=12 missing=[]
+p8-siheom.svg 113-150 n=38 missing=[]
+P8 key 70 = 응원
+P8 key 72 = 선물
+P8 key 97 = 틀리다
+P8 key 98 = 맞다
+P8 key 99 = 틀리다
+P8 key 100 = 맞다
+P8 key 109 = 기준 — 日期不同因标准不同
+P8 key 141 = a
+P8 key 142 = b
+P8 key 143 = c
+P8 key 144 = d
+P8 key 150 = ✓

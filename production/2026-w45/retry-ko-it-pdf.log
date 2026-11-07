@@ -1,0 +1,34 @@
+attempt 1: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 2: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 3: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 4: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 5: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 6: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 7: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 8: pushing e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 (remote=1efa62787b67da94f05684043da068671cf050c3)
+To github.com:LucernaRead/weekly.git
+   1efa627..e90cf5f  e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 -> main
+VERIFIED ls-remote == e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 on check 9
+final remote=e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3 local=e90cf5fb25f156e53d296ea0450c8bacbfc1eeb3
+SUCCESS ko-it PDF landed

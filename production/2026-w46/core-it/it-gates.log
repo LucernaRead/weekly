@@ -1,0 +1,76 @@
+================ en ================
+--- occlusion ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+files/weekly-report-w46-it-en/svg: 0 flags 
+--- p8 compare ---
+core    files/weekly-report-w46-it-core/svg/p8-valutazione.svg: 150 noted
+edition files/weekly-report-w46-it-en/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+--- freeze diff ---
+p1: +32 strings / -30 strings; CJK core 192 -> edition 0; added CJK chars: 0 
+p2: +33 strings / -29 strings; CJK core 174 -> edition 0; added CJK chars: 0 
+p3: +32 strings / -30 strings; CJK core 165 -> edition 0; added CJK chars: 0 
+p4: +29 strings / -26 strings; CJK core 151 -> edition 0; added CJK chars: 0 
+p5: +41 strings / -37 strings; CJK core 213 -> edition 0; added CJK chars: 0 
+p6: +26 strings / -23 strings; CJK core 144 -> edition 0; added CJK chars: 0 
+p7: +43 strings / -41 strings; CJK core 294 -> edition 0; added CJK chars: 0 
+p8: +167 strings / -164 strings; CJK core 1004 -> edition 4; added CJK chars: 0 
+TOTAL added CJK characters: 0
+--- Han chars in edition SVGs (raw grep count) ---
+grep: character code point value in \x{} or \o{} is too large
+--- web PDF ---
+WROTE files/weekly-report-w46-it-en/La-Lucerna-VOL3-EN-web.pdf: 668343 bytes, 45292 text bytes
+-rw-rw---- 1 root nogroup  668343 Nov  2 14:24 files/weekly-report-w46-it-en/La-Lucerna-VOL3-EN-web.pdf
+-rw-rw---- 1 root nogroup 7092114 Nov  2 13:56 files/weekly-report-w46-it-en/La-Lucerna-VOL3-EN.pdf
+pdftotext bytes: {'files/weekly-report-w46-it-en/La-Lucerna-VOL3-EN-web.pdf': 45292, 'files/weekly-report-w46-it-en/La-Lucerna-VOL3-EN.pdf': 45292}
+WEB==PRINT: True
+================ de ================
+--- occlusion ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+files/weekly-report-w46-it-de/svg: 3 flags {'BOXTITLE': 2, 'EDGE': 1}
+  [EDGE] p1-prima.svg 'Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei' — ink box (1473.0, 1250.9000000000005, 2134.5, 1268.4000000000005) outside page 1950.0x2700.0
+  [BOXTITLE] p1-prima.svg 'Der Wochenplan · Cosa succede, giorno per giorno' — ink crosses its box borders: right ink 1929.5 > border 1885.0
+  [BOXTITLE] p1-prima.svg 'Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei' — ink crosses its box borders: right ink 2134.5 > border 1885.0
+--- p8 compare ---
+core    files/weekly-report-w46-it-core/svg/p8-valutazione.svg: 150 noted
+edition files/weekly-report-w46-it-de/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+--- freeze diff ---
+p1: +30 strings / -30 strings; CJK core 192 -> edition 0; added CJK chars: 0 
+p2: +32 strings / -28 strings; CJK core 174 -> edition 19; added CJK chars: 0 
+p3: +32 strings / -29 strings; CJK core 165 -> edition 19; added CJK chars: 0 
+p4: +28 strings / -25 strings; CJK core 151 -> edition 20; added CJK chars: 0 
+p5: +41 strings / -36 strings; CJK core 213 -> edition 19; added CJK chars: 0 
+p6: +26 strings / -22 strings; CJK core 144 -> edition 19; added CJK chars: 0 
+p7: +45 strings / -41 strings; CJK core 294 -> edition 0; added CJK chars: 0 
+p8: +167 strings / -164 strings; CJK core 1004 -> edition 4; added CJK chars: 0 
+TOTAL added CJK characters: 0
+--- Han chars in edition SVGs (raw grep count) ---
+grep: character code point value in \x{} or \o{} is too large
+--- web PDF ---
+WROTE files/weekly-report-w46-it-de/La-Lucerna-VOL3-DE-web.pdf: 703911 bytes, 45621 text bytes
+-rw-rw---- 1 root nogroup   703911 Nov  2 14:26 files/weekly-report-w46-it-de/La-Lucerna-VOL3-DE-web.pdf
+-rw-rw---- 1 root nogroup 11432494 Nov  2 13:58 files/weekly-report-w46-it-de/La-Lucerna-VOL3-DE.pdf
+pdftotext bytes: {'files/weekly-report-w46-it-de/La-Lucerna-VOL3-DE-web.pdf': 45621, 'files/weekly-report-w46-it-de/La-Lucerna-VOL3-DE.pdf': 45621}
+WEB==PRINT: True
+================ fr ================
+--- occlusion ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+files/weekly-report-w46-it-fr/svg: 0 flags 
+--- p8 compare ---
+core    files/weekly-report-w46-it-core/svg/p8-valutazione.svg: 150 noted
+edition files/weekly-report-w46-it-fr/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+--- freeze diff ---
+p1: +28 strings / -30 strings; CJK core 192 -> edition 0; added CJK chars: 0 
+p2: +33 strings / -29 strings; CJK core 174 -> edition 0; added CJK chars: 0 
+p3: +32 strings / -30 strings; CJK core 165 -> edition 0; added CJK chars: 0 
+p4: +29 strings / -26 strings; CJK core 151 -> edition 0; added CJK chars: 0 
+p5: +42 strings / -37 strings; CJK core 213 -> edition 0; added CJK chars: 0 
+p6: +27 strings / -23 strings; CJK core 144 -> edition 0; added CJK chars: 0 
+p7: +45 strings / -41 strings; CJK core 294 -> edition 0; added CJK chars: 0 
+p8: +168 strings / -164 strings; CJK core 1004 -> edition 4; added CJK chars: 0 
+TOTAL added CJK characters: 0
+--- Han chars in edition SVGs (raw grep count) ---
+grep: character code point value in \x{} or \o{} is too large
+--- web PDF ---

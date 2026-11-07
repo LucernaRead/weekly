@@ -1,0 +1,45 @@
+== Gate 3: P7 word box ==
+core definition verbatim present: True
+   core 'assaggio = 品尝。本周见第 3 版：潘妮托尼'
+edition definition verbatim present: True
+   edition 'assaggio = 試食。第3ページ：パネットー'
+P7 edition lines containing assaggio/試食:
+   "« l'assaggio » è la prova di un cibo:"
+   'assaggio = 試食。第3ページ：パネットー'
+   'ネ決勝で観客は無料で試食できます。'
+   'la sciarpa, sabato assaggio il'
+   '観客は無料で試食できる。 (Pagina 3)'
+
+== Gate 3: P7 golden sentences 2x each, (Pagina N) tags ==
+core (Pagina tags): []
+edition (Pagina tags): []
+core gold count: 0
+edition gold count: 0
+
+== Gate 6: gloss counts ==
+-- core gloss-box nodes --
+   p2-vita '译注｜il cappotto 大衣 · la sciarpa 围巾'
+   p3-cultura '译注｜il panettone 米兰圣诞面包 · il'
+   p4-sport '译注｜la giornata 轮次 · la presentazione'
+   p5-giovani '译注｜il cosplay 角色扮演服装 · gratuito'
+   p6-approfondimento '译注｜la probabilità 概率 · la media 平均'
+-- edition gloss-box nodes --
+   p1-prima '解説 — il primo freddo 初寒 · il versante'
+   p2-vita '解説 — il cappotto コート · la sciarpa マフ'
+   p3-cultura '解説 — il panettone パネットーネ · il'
+   p4-sport '解説 — la giornata 節 · la presentazione'
+   p5-giovani '解説 — il cosplay コスプレ衣装 · gratuito'
+   p6-approfondimento '解説 — la probabilità 確率 · la media 平均'
+
+== Gate 6: expl prefix counts ==
+core 解説/译注-start nodes: 5 解説 — occurrences: 0 double-prefix: 0 文法ポイント — : 0
+edition 解説/译注-start nodes: 6 解説 — occurrences: 7 double-prefix: 0 文法ポイント — : 3
+   grammar: p7-lingua '文法ポイント — 天気は非人称動詞（三人称単'
+   grammar: p7-lingua '文法ポイント — 過去は近過去：'
+   grammar: p7-lingua '文法ポイント — è probabile che / è possibile'
+
+== Gate 6: P1 expl items ==
+core P1 expl joined: ''
+core P1 expl items by · split: [''] count: 0
+edition P1 expl joined: '解説 — il primo freddo 初寒 · il versanteadriatico アドリア海側 · la previsione 予報 ·assaggi 試食。'
+edition P1 expl items by · split: [' il primo freddo 初寒 ', ' il versanteadriatico アドリア海側 ', ' la previsione 予報 ', 'assaggi 試食。'] count: 4

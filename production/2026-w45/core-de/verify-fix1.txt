@@ -1,0 +1,71 @@
+  flow[P1-headline] ended col 2/2 y=1555 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2552 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1442 (bottom 1540)
+P2 col3 box1 ends 527.1800000000001
+P2 col3 box2 ends 910.8900000000001
+P2 col3 box3 ends 1228.0100000000002
+P2 col3 box4 ends 1550.6600000000003
+  flow[P2-ex] ended col 3/3 y=2389 (bottom 2580)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 1/2 y=1553 (bottom 1560)
+P3 col3 facts ends 618.77
+P3 col3 vocab ends 1070.95
+P3 col3 undsie ends 1418.6
+P3 col3 ends 1583.6599999999999
+  flow[P3-ex] ended col 2/3 y=2552 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=837 (bottom 1080)
+P4 col3 ends 1135.25
+  flow[P4-ex] ended col 3/3 y=1961 (bottom 2580)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=612 (bottom 1080)
+P5 col3 facts ends 588.24
+P5 col3 vocab ends 1040.42
+P5 col3 ends 1357.54
+  flow[P5-ex] ended col 2/3 y=2314 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=1054 (bottom 1080)
+P6 col3 numbers ends 864.65
+P6 col3 ends 1264.95
+  flow[P6-ex] ended col 3/3 y=2431 (bottom 2580)
+P6 saved, exercises so far: 100
+  flow[P7-A2] ended col 0/0 y=1256 (bottom 1480)
+  flow[P7-B1] ended col 0/0 y=1276 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1267 (bottom 1480)
+P7 col3 ends 1492.5
+P7 saved, exercises so far: 112
+  flow[P8-battery] ended col 3/3 y=1500 (bottom 1505)
+  flow[P8-keys] ended col 3/3 y=2326 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by level: {'A2': 66, 'B1': 70, 'B2': 14}
+by type: {'写作': 1, '判断对错': 8, '单选': 52, '句型转换': 11, '完形填空': 8, '完成句子': 41, '对话补全': 5, '翻译': 4, '词汇配对': 12, '造句': 8}
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+text volume (chars, no separators): 38544
+P7 verbatim check (expect exactly 2 each):
+  2x :: Vier Nächte Fußball hintereinander, dann ein ganzes Wochenen
+  2x :: Die Energiesteuer auf Benzin und Diesel sinkt um 14,04 Cent 
+  2x :: Wer 50 Liter tankt, spart rund 8,35 Euro.
+  2x :: Die Schule hat nach den Herbstferien wieder begonnen.
+  2x :: Die Tage sind kurz, die Abende lang.
+  2x :: Zwei schwere Auswärtsspiele für die deutschen Teams.
+  2x :: Die deutsche Wirtschaft kommt langsam aus der Stagnation her
+  2x :: Es geht langsam aufwärts — aber von allein geht es nicht.
+verbatim OK: True
+forbidden '桥接' on pages: []
+forbidden 'Le Lucerna' on pages: []
+forbidden 'The Lucerna' on pages: []
+P1 top-band (y=92) intervals:
+  VOL. 2 · ZWEITE AUSGABE          65..367
+  WÖCHENTLICH AUF DEUTSCH · 每周一期   651..1299
+  WOCHE VOM 2. BIS 8. NOVEMBER 2   1476..1885
+P1 top band: no same-baseline overlap
+P6 olive bars (chart): [('535', '1482', '1156', '30'), ('535', '1534', '340', '30'), ('535', '1586', '204', '30')]
+  bar x=535..1691
+  bar x=535..875
+  bar x=535..739
+chart labels end before x=535 by construction (labels at MX..425, bars from 535)

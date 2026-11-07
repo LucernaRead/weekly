@@ -1,0 +1,41 @@
+=== 1. CJK / fullwidth / English-function-word per page (edition) ===
+p1-capa.svg: CJK=0 FW=0 EN=0
+p2-vida.svg: CJK=0 FW=0 EN=0
+p3-cultura.svg: CJK=0 FW=0 EN=0
+p4-esporte.svg: CJK=0 FW=0 EN=0
+p5-jovens.svg: CJK=0 FW=0 EN=0
+p6-aprofundamento.svg: CJK=0 FW=0 EN=0
+p7-lingua.svg: CJK=0 FW=0 EN=0
+p8-avaliacao.svg: CJK=0 FW=0 EN=0
+=== core CJK per page ===
+p1-capa.svg CJK= 140
+p2-vida.svg CJK= 164
+p3-cultura.svg CJK= 139
+p4-esporte.svg CJK= 137
+p5-jovens.svg CJK= 195
+p6-aprofundamento.svg CJK= 109
+p7-lingua.svg CJK= 299
+p8-avaliacao.svg CJK= 1048
+=== 2. gloss() source counts: edition build vs core build ===
+--- ED-build
+  content12.py ncalls= 1 items-per-call= [6]
+     6 | o feriadão = langes Feiertagswochenende · o cemitério = Friedhof · a vela = Kerze · o crisântemo = Chrysantheme · a missa = Messe · conferir = prüfen, nachsehen
+  content34.py ncalls= 2 items-per-call= [6, 5]
+     6 | o túmulo = Grab · a flor = Blume · acender = anzünden · rezar = beten · o silêncio = Stille · a lembrança = Erinnerung.
+     5 | a ida = Hinspiel · a volta = Rückspiel · o finalista = Finalist · a decisão = Entscheidung · a rodada = Spieltag, Runde.
+  content56.py ncalls= 2 items-per-call= [5, 4]
+     5 | a reta final = Endspurt · a véspera = Vorabend · a maratona = Marathon, hier: pauken ohne Pause · separar = bereitlegen · a cabeça = Kopf, Verfassung.
+     4 | os portões = Eingangstore · a segunda chamada = Nachprüfung, zweiter Einlass — beim Enem gibt es keinen · conferir = prüfen, nachsehen · a correria = Hetze, Eil
+  content7.py ncalls= 0 items-per-call= []
+  content8.py ncalls= 0 items-per-call= []
+--- CORE-build
+  content12.py ncalls= 1 items-per-call= [6]
+     6 | o feriadão 连休长周末 · o cemitério 墓园 · a vela 蜡烛 · o crisântemo 菊花 · a missa 弥撒 · conferir 核对。
+  content34.py ncalls= 2 items-per-call= [6, 5]
+     6 | o túmulo 墓碑 · a flor 花 · acender 点燃 · rezar 祈祷 · o silêncio 寂静 · a lembrança 怀念。
+     5 | a ida 首回合 · a volta 次回合 · o finalista 决赛球队 · a decisão 决战 · a rodada 轮次。
+  content56.py ncalls= 2 items-per-call= [5, 4]
+     5 | a reta final 最后冲刺 · a véspera 前夕 · a maratona 突击马拉松 · separar 准备好 · a cabeça 头脑、状态。
+     4 | os portões 大门 · a segunda chamada 补考、第二次入场 · conferir 核对 · a correria 匆忙。
+  content7.py ncalls= 0 items-per-call= []
+  content8.py ncalls= 0 items-per-call= []

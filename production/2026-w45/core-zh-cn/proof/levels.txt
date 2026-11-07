@@ -1,0 +1,10 @@
+p1-touiban.svg {'A2': 10} count 10 range (1, 10)
+p2-shenghuo.svg {'A2': 15, 'B1': 3} count 18 range (11, 28)
+p3-wenhua.svg {'A2': 15, 'B1': 3} count 18 range (29, 46)
+p4-tiyu.svg {'B1': 18} count 18 range (47, 64)
+p5-qingnian.svg {'B1': 17, 'A2': 1} count 18 range (65, 82)
+p6-shendu.svg {'B2': 18} count 18 range (83, 100)
+p7-ciyu.svg {'A2': 4, 'B1': 4, 'B2': 4} count 12 range (101, 112)
+p8-ceyan.svg {'A2': 11, 'B1': 24, 'B2': 3} count 38 range (113, 150)
+TOTAL {'A2': 56, 'B1': 69, 'B2': 25} 150
+chip numbers (excl ranges): 130 unique: 130 missing in 1-150: [25, 26, 27, 28, 43, 44, 45, 46, 79, 80, 81, 82, 97, 98, 99, 100]

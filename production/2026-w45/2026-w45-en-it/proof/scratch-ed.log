@@ -1,0 +1,29 @@
+### 1. right-edge ADVANCE scan (flag: advance-right > 1886)
+  max p8-exercices.svg: advance-right 1903.8 'd. the paper you mark your choice on'
+  max p8-exercices.svg: advance-right 1899.4 'b. an election in the middle of a term'
+  max p8-exercices.svg: advance-right 1896.8 'testo modello nel riquadro a pagina 8 (Valutazione per punti'
+  max p8-exercices.svg: advance-right 1892.3 'elettorale) · 148. sticker (sticker = adesivo) · 149. Tuesda'
+  max p8-exercices.svg: advance-right 1891.3 'Everybody has one on their jacket. — The'
+  max p8-exercices.svg: advance-right 1890.5 '= on Sunday; a Madrid = in Madrid) · 140. Non tutti i luoghi'
+  flags: 9
+### 2. frame-line pressure scan (later rect border x earlier text ink)
+  pressure flags: 0
+### 3. P6 chart-label coverage (anchor 'ls' ink vs later rects, gate <30%)
+  labels found: 4
+  'No lines : 38%' ink (527.0, 1200.2, 683.0, 1219.2) max coverage 0.0% PASS
+  'Work on Tuesday : 29%' ink (527.0, 1251.8, 785.0, 1276.8) max coverage 0.0% PASS
+  'Travel plans : 21%' ink (527.0, 1305.4, 729.0, 1329.4) max coverage 0.0% PASS
+  'Habit : 12%' ink (527.0, 1358.0, 655.0, 1377.0) max coverage 0.0% PASS
+### 4. same-baseline furniture spacing (gap < 0 = overlap)
+  p1-front.svg y=92: gaps [401.0, 113.0] ok
+  p1-front.svg y=478: gaps [49.0] ok
+  p1-front.svg y=522: gaps [153.0] ok
+  p1-front.svg y=2624: gaps [827.0] ok
+  p2-life.svg y=2624: gaps [827.0] ok
+  p3-culture.svg y=2624: gaps [827.0] ok
+  p4-sport.svg y=2624: gaps [827.0] ok
+  p5-jeunesse.svg y=2624: gaps [827.0] ok
+  p6-politique.svg y=2624: gaps [827.0] ok
+  p7-langue.svg y=2624: gaps [827.0] ok
+  p8-exercices.svg y=478: gaps [30.0, 18.0] ok
+  p8-exercices.svg y=2624: gaps [827.0] ok

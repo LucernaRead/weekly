@@ -1,0 +1,21 @@
+<stdin>:10: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+p1-une: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.483 paper=(219.2, 213.8, 198.9)
+p2-vie: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.355 paper=(226.8, 221.3, 205.7)
+p3-culture: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.293 paper=(229.9, 224.4, 208.9)
+p4-sport: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.318 paper=(229.5, 223.9, 208.1)
+p5-jeunesse: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.195 paper=(232.3, 226.8, 211.5)
+p6-politique: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.255 paper=(231.7, 226.0, 210.6)
+p7-langue: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.419 paper=(221.9, 216.7, 201.4)
+p8-exercices: render (1950, 2700) vs card (1950, 2700) downsample mean_abs_diff=1.607 paper=(226.6, 221.1, 205.4)
+--- web streams (new vs old delivery streams in recipe-check/oldstreams):
+pg-0: size=676446 IDENTICAL
+pg-1: size=656710 IDENTICAL
+pg-2: size=607244 IDENTICAL
+pg-3: size=654202 CHANGED (expected p4 only)
+pg-4: size=545717 IDENTICAL
+pg-5: size=584891 IDENTICAL
+pg-6: size=669621 IDENTICAL
+pg-7: size=892500 IDENTICAL
+print p1 render (3047, 4219) downsample mean_abs_diff vs card=1.440
+Le-Lucerna-VOL3-NL.pdf pages: 8 p1 box: [0, 0, 1462.5, 2025] meta: {'/Producer': 'pypdf'}
+Le-Lucerna-VOL3-NL-web.pdf pages: 8 p1 box: [0, 0, 936, 1296] meta: {'/Title': 'Le-Lucerna-VOL3-NL-web', '/CreationDate': 'D:20261028061751Z', '/ModDate': 'D:20261028061751Z'}

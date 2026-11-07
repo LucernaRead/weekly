@@ -1,0 +1,18 @@
+== 1. ADVANCE right-edge scan (limit 1910, left>=40) ==
+   worst advance right=1885.0 flags=0 []
+== 2. frame-line scan (text ink vs later rect borders/lines; footer rule 2580 exempt) ==
+   frame flags=0 []
+== 3. same-baseline ink overlap (0.6px tolerance) ==
+   same-baseline flags=0 []
+== 4. P6 chart-label coverage (ink box vs later opaque rects) ==
+   labels coverage>0: 0 worst: 0.0 []
+== 5. P8 three calibers (cursor from MY repro log, limit 2540) ==
+   flow cursor=2516.0 max baseline=2530.48 ink bottom=2533.98 (limit 2540)
+== 6. P7 geometry (edition, own extraction) ==
+   letters rect x=1451.0 y=1230.44 w=434.0 h=635.5 bottom=1865.94
+   last letters baseline=1849.93 ink bottom=1854.68 text='je brief en je beste tekst van blz. 8 op!'
+   box bottom - ink bottom = 11.26
+   phrases rule line y=1895.94 gap vs ink bottom=41.26
+   teaser rect y=2401.94 bottom=2519.94
+== 7. P7 preview/core-overflow (report only, core not reopened) ==
+   core: box y=1230.44 h=508.5 bottom=1738.94 last ink=1766.73 overflow=27.79

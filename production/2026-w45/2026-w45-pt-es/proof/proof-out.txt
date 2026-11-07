@@ -1,0 +1,206 @@
+== A. CJK residue + bridge term per edition page ==
+p1-capa: CJK=0 bridge=False
+p2-vida: CJK=0 bridge=False
+p3-cultura: CJK=0 bridge=False
+p4-esporte: CJK=0 bridge=False
+p5-jovens: CJK=0 bridge=False
+p6-aprofundamento: CJK=0 bridge=False
+p7-lingua: CJK=0 bridge=False
+p8-avaliacao: CJK=0 bridge=False
+
+== B. Furniture presence per page (edition) ==
+p1-capa: footer=True pageline=True
+p2-vida: footer=True pageline=True
+p3-cultura: footer=True pageline=True
+p4-esporte: footer=True pageline=True
+p5-jovens: footer=True pageline=True
+p6-aprofundamento: footer=True pageline=True
+p7-lingua: footer=True pageline=True
+p8-avaliacao: footer=True pageline=True
+
+== C. Expansion: chips -> numbers per page ==
+p1-capa: n=10 levels A2=9 B1=1 B2=0 range=1-10
+p2-vida: n=14 levels A2=13 B1=1 B2=0 range=11-24
+p3-cultura: n=18 levels A2=10 B1=8 B2=0 range=29-46
+p4-esporte: n=14 levels A2=0 B1=14 B2=0 range=47-64
+p5-jovens: n=18 levels A2=0 B1=15 B2=3 range=65-82
+p6-aprofundamento: n=18 levels A2=0 B1=0 B2=18 range=83-100
+p7-lingua: n=12 levels A2=4 B1=4 B2=4 range=101-112
+p8-avaliacao: n=34 levels A2=9 B1=23 B2=2 range=113-150
+TOTAL n=138 union1..150=False levels A2=45 B1=66 B2=27
+
+== D. P8 answer-start counts by exercise page-range (from expansion ranges) ==
+page 1 (1-10): 10
+page 2 (11-28): 18
+page 3 (29-46): 18
+page 4 (47-64): 18
+page 5 (65-82): 18
+page 6 (83-100): 18
+page 7 (101-112): 12
+page 8 (113-150): 38
+P8 answer starts total=150 union=True
+
+== E. P8 keydiff items: printed full lines (joined wrap continuations by column x) ==
+-- CORE
+  2: key='portões' full='2. portões — portões = 大门（考场大门）'
+  4: key='13h30' full='4. 13h30 — 13h30 开考（巴西利亚时间）'
+  101: key='confiro' full='101. confiro — conferir：eu → confiro（不规则）'
+  137: key='11 月 8 日周日是高考的第一天。' full='137. 11 月 8 日周日是高考的第一天。 — 对照第 6 版标题'
+  138: key='周日前核对确认卡。' full='138. 周日前核对确认卡。 — Confira = 请核对'
+  146: key='A' full='146. A — seção = 考场分区（房间）'
+  139: key='O feriadão é de 31 de outubro a 2 de novembro.' full='139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão = 连休'
+  140: key='Quando você chegar, apresente o documento com foto.' full='140. Quando você chegar, apresente o documento com foto. — 虚 拟式将来 chegar + 祈使 apresente'
+-- ED
+  2: key='portões' full='2. portões — portões = las puertas (las del lugar del examen)'
+  4: key='13h30' full='4. 13h30 — 13h30: el examen empieza (hora de Brasilia)'
+  101: key='confiro' full='101. confiro — conferir: eu → confiro (irregular)'
+  137: key='El domingo 8 de noviembre es el primer día del Enem.' full='137. El domingo 8 de noviembre es el primer día del Enem. — Véase el titular de la página 6'
+  138: key='Comprueba tu tarjeta antes del domingo.' full='138. Comprueba tu tarjeta antes del domingo. — Confira = comprueba'
+  146: key='A' full='146. A — sección = la zona del examen (la sala)'
+  139: key='O feriadão é de 31 de outubro a 2 de novembro.' full='139. O feriadão é de 31 de outubro a 2 de novembro. — feriadão = el puente festivo'
+  140: key='Quando você chegar, apresente o documento com foto.' full='140. Quando você chegar, apresente o documento com foto. — futuro de subjuntivo chegar + imperativo apresente'
+
+== F. P8 last baseline / footer rule ==
+max non-footer baseline=2547.6799999999976 (flow bottom 2552, footer rule 2580)
+footer rule lines at y=2580: [('2580', '65', '1885')]
+
+== G. P1 edition-line + badge widths (Serif/Sans Bold, SC face) ==
+edition line 38pt serif-bold = 1782.4 px; 40pt = 1876.4 px; limit 1820
+badge 19pt sans-bold = 1052.9 px
+P1 edition line present=True; badge present=True
+  edition line node: size=38.0 bold=True y=330.0
+  badge node: size=19.0 bold=True y=372.0 fill? (see svg)
+
+== H. Same-baseline ink collisions (decoded ink, all pages) ==
+p1-capa: same-baseline flags=0 []
+p2-vida: same-baseline flags=0 []
+p3-cultura: same-baseline flags=0 []
+p4-esporte: same-baseline flags=0 []
+p5-jovens: same-baseline flags=0 []
+p6-aprofundamento: same-baseline flags=0 []
+p7-lingua: same-baseline flags=0 []
+p8-avaliacao: same-baseline flags=0 []
+
+== I. Right-edge ADVANCE + ink margins per page ==
+p1-capa: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1885.0 T=69.8 B=2629.0
+p2-vida: max advance-right=1897.3 (>1910: 0; >1922: 0) ink L=64.8 R=1897.2 T=89.2 B=2629.0
+p3-cultura: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=63.0 R=1884.9 T=88.8 B=2629.0
+p4-esporte: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1884.9 T=88.8 B=2629.0
+p5-jovens: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1884.9 T=79.5 B=2629.0
+p6-aprofundamento: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1884.9 T=88.8 B=2629.0
+p7-lingua: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1884.9 T=79.5 B=2629.0
+p8-avaliacao: max advance-right=1885.0 (>1910: 0; >1922: 0) ink L=64.8 R=1885.0 T=79.5 B=2629.0
+
+== J. P6 chart-label baseline-anchored ink vs later rects ==
+label 'prova' y=327.28 ink=(65.0, 306.8, 172.8, 336.8) later-rect overlaps=[]
+label 'portões abertos' y=1690.0 ink=(87.0, 1673.5, 247.2, 1695.2) later-rect overlaps=[]
+label '60 min' y=1690.0 ink=(373.1, 1674.2, 441.1, 1690.2) later-rect overlaps=[]
+label 'espera' y=1734.0 ink=(87.0, 1723.0, 154.5, 1739.2) later-rect overlaps=[]
+label '30 min' y=1734.0 ink=(235.4, 1718.2, 303.4, 1734.2) later-rect overlaps=[]
+label 'prova' y=1778.0 ink=(87.0, 1767.0, 145.2, 1783.2) later-rect overlaps=[]
+label '330 min' y=1778.0 ink=(676.2, 1762.2, 755.8, 1778.2) later-rect overlaps=[]
+
+== K. P7 word-box geometry ==
+rect x=1451.0 y=1098.5 w=434.0 h=194.0 bottom=1292.5
+rect x=1451.0 y=1314.5 w=434.0 h=576.0 bottom=1890.5
+gloss node: [(1278.56, (1473.0, 1262.3, 1729.8, 1283.1))]
+preview-band rects near y=2404: [(65.0, 2404.0, 1820.0, 118.0)]
+last quote-translation baselines: [2333.5, 2383.2]
+
+== L. Gloss source split-on-· counts (edition build vs core build) ==
+edition: {'content12.py': [6], 'content34.py': [6, 5], 'content56.py': [5, 4]} total 26
+core:    {'content12.py': [6], 'content34.py': [6, 5], 'content56.py': [5, 4]} total 26
+-- render survival per item --
+p2-vida item 'o feriadão = el puente festivo' survives=True
+p2-vida item 'o cemitério = el cementerio' survives=True
+p2-vida item 'a vela = la vela' survives=True
+p2-vida item 'o crisântemo = el crisantemo' survives=True
+p2-vida item 'a missa = la misa' survives=True
+p2-vida item 'conferir = comprobar' survives=True
+p3-cultura item 'o túmulo = la tumba' survives=True
+p3-cultura item 'a flor = la flor' survives=True
+p3-cultura item 'acender = encender' survives=True
+p3-cultura item 'rezar = rezar' survives=True
+p3-cultura item 'o silêncio = el silencio' survives=True
+p3-cultura item 'a lembrança = el recuerdo' survives=True
+p4-esporte item 'a ida = el partido de ida' survives=True
+p4-esporte item 'a volta = el partido de vuelta' survives=True
+p4-esporte item 'o finalista = el finalista' survives=True
+p4-esporte item 'a decisão = la decisión' survives=True
+p4-esporte item 'a rodada = la jornada' survives=True
+p5-jovens item 'a reta final = la recta final' survives=True
+p5-jovens item 'a véspera = la víspera' survives=True
+p5-jovens item 'a maratona = el atracón' survives=True
+p5-jovens item 'separar = preparar' survives=True
+p5-jovens item 'a cabeça = la cabeza, el ánimo' survives=True
+p6-aprofundamento item 'os portões = las puertas' survives=True
+p6-aprofundamento item 'a segunda chamada = una segunda convocatoria, una segunda en' survives=True
+p6-aprofundamento item 'conferir = comprobar' survives=True
+p6-aprofundamento item 'a correria = las prisas' survives=True
+
+== M. P7 quotes: occurrence counts across all edition pages + source page ==
+quote-box PT quotes found: 8
+quote 'Do feriadão à prova: a semana do Enem' total_occ=2 pages=['p1-capa', 'p7-lingua']
+quote 'Muita gente viaja, visita a família e vai ao cemitério ' total_occ=2 pages=['p1-capa', 'p7-lingua']
+quote 'Finados é o dia da memória' total_occ=2 pages=['p2-vida', 'p7-lingua']
+quote 'lembrar é um jeito de continuar perto' total_occ=2 pages=['p3-cultura', 'p7-lingua']
+quote 'cada ponto vale uma posição, cada gol vale uma história' total_occ=2 pages=['p4-esporte', 'p7-lingua']
+quote 'quem dorme bem lembra melhor' total_occ=2 pages=['p5-jovens', 'p7-lingua']
+quote 'primeiro as fáceis, depois as difíceis' total_occ=2 pages=['p6-aprofundamento', 'p7-lingua']
+quote 'Confira o cartão, durma bem, chegue cedo' total_occ=2 pages=['p2-vida', 'p7-lingua']
+-- quote translation tags on P7 --
+  Del puente festivo al examen: la semana del Enem. (Página 1)
+  Mucha gente viaja, visita a su familia y va al cementerio a llevar flores. (Página 1)
+  Finados es el día de la memoria. (Página 2)
+  Recordar es una forma de seguir cerca. (Página 3)
+  Cada punto vale una posición, cada gol vale una historia. (Página 4)
+  Quien duerme bien recuerda mejor. (Página 5)
+  Primero las fáciles, después las difíciles. (Página 6)
+  Comprueba tu tarjeta, duerme bien, llega temprano. (Página 2)
+
+== N. Word-box definition verbatim ==
+definition joined present: True
+gloss present: True
+definition in core P7: True
+
+== O. Readers corner verbatim (edition vs core) ==
+-- CORE: «Vou fazer o Enem no domingo 8. Já | conferi o cartão. Boa prova!» — | EXEMPLO DA REDAÇÃO | 编辑部示例，非真实来信。真实来信请寄编 | 辑部，下期见！ | Nota da redação: as cartas reais e os | melhores textos prometidos no | VOL.1 não chegaram até o | fechamento — fica o exemplo, e a | promessa passa para o VOL.3. | 编辑部说明：上期承诺的真实来信与最佳作文 | 截稿时未收到，本期仍刊示例，顺延至下期。
+-- ED: CARTAS DOS LEITORES | «Vou fazer o Enem no domingo 8. Já | conferi o cartão. Boa prova!» — | EXEMPLO DA REDAÇÃO | Ejemplo de la redacción, no una carta | real. ¡Envíanos tu carta! Las mejores se | publicarán en el VOL.3. | Nota da redação: as cartas reais e os | melhores textos prometidos no | VOL.1 não chegaram até o | fechamento — fica o exemplo, e a | promessa passa para o VOL.3. | Nota de la redacción: las cartas reales y los | mejores textos prometidos en el VOL.1 no | habían llegado al cierre — queda el | ejemplo y la promesa pasa al VOL.3.
+
+== P. Model text words from render (P8 section H) ==
+start nodes: [(832.1749999999998, 1451.0, 'Texto modelo: Domingo, 8 de novembro, acordo cedo e')]
+model full (first 400 chars): 'Texto modelo: Domingo, 8 de novembro, acordo cedo e abro o Cartão de Confirmação no celular. Confiro o meu local: a escola fica a vinte minutos de casa. Tomo café com a minha família, pego o documento com foto e a caneta preta e saio às onze. Chego antes do meio-dia, entro com calma e guardo o celular desligado. A prova começa às 13h30: primeiro a redação, depois Linguagens e Humanas. Escrevo com '
+words excl label=93 incl label tokens=95
+continuation lines: 9
+
+== Q. Image payload P1 (edition vs core) ==
+edition: ('cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c', 342316)
+core:    ('cc351a4d314b7429de34141c252df17c8852e19d30b1bef65e0ea33a5a83771c', 342316)
+ED credit-ish strings: ['Foto: Gary Todd / Wikimedia Commons — CC0']
+CORE credit-ish strings: ['Foto: Gary Todd / Wikimedia Commons — CC0']
+
+== R. Furniture vs W43 PTxES (verbatim strings) ==
+p1-capa 'TODA SEMANA EM PORTUGUÊS · CADA SEMANA ·': ED=['TODA SEMANA EM PORTUGUÊS · CADA SEMANA · EL PORTUGUÉS QUE LEE BRASIL'] W43=['TODA SEMANA EM PORTUGUÊS · CADA SEMANA · EL PORTUGUÉS QUE LEE BRASIL']
+p1-capa 'TEXTOS EN PORTUGUÉS · EXPLICACIONES EN E': ED=['TEXTOS EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES'] W43=['TEXTOS EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES']
+p2-vida 'Nota — ': ED=['Nota — o feriadão = el puente festivo · o'] W43=['Nota — o título de eleitor = el título de']
+p7-lingua 'BREVE': ED=[] W43=[]
+p7-lingua 'QUIZ RÁPIDO': ED=[] W43=[]
+p7-lingua 'CUÉNTANOS': ED=[] W43=[]
+p1-capa footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 1 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 1 de 8']
+p2-vida footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 2 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 2 de 8']
+p3-cultura footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 3 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 3 de 8']
+p4-esporte footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 4 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 4 de 8']
+p5-jovens footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 5 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 5 de 8']
+p6-aprofundamento footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 6 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 6 de 8']
+p7-lingua footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 7 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 7 de 8']
+p8-avaliacao footer ED=['A Lucerna · SEMANARIO PORTUGUÉS VOL.2 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 8 de 8'] W43=['A Lucerna · SEMANARIO PORTUGUÉS VOL.1 · TEXTO EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL', 'Página 8 de 8']
+-- W43 P1 edition line + badge nodes --
+  W43 y=330.0 size=36.0 bold=True SEMANARIO EN PORTUGUÉS · VOL.1 · O SEGUNDO TURNO · O DEBATE FINAL · O ENEM VEM AÍ
+  W43 y=372.0 size=19.0 bold=True TEXTOS EN PORTUGUÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES
+-- ED P8 style vs W43 P8 style samples --
+  ED item2: ['2. portões — portões = las puertas (las del lugar del examen)']
+  W43 item2: ['2. urnas (voltar às urnas = volver a las urnas, ir a votar)']
+  PTxEN item2: ['2. portões — portões = the gates (the exam venue gates)']
+-- pairing-note format samples (P2 gloss box first line) --
+  ED: ['Nota — o feriadão = el puente festivo · o']
+  W43: ['Nota — o título de eleitor = el título de']

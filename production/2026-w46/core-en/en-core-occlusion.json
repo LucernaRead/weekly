@@ -1,0 +1,97 @@
+{
+ "svgdir": "../files/weekly-report-w46-en-core/svg",
+ "flags": [
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "、加拿大、澳大利亚）。",
+   "box": [
+    1451.0,
+    1829.2,
+    1660.0,
+    1847.7
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@153"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "LINEX",
+   "text": "at the Allianz Arena, Munich, 3:30 p.m.",
+   "box": [
+    1473.0,
+    2311.3,
+    1854.0,
+    2332.8
+   ],
+   "detail": "later line box [64.0, 2311.0, 1886.0, 2313.0] crosses ink",
+   "by": "line@185"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "纪念。Remembrance Day 阵亡将士纪念日（英国",
+   "box": [
+    1451.0,
+    1803.5,
+    1869.0,
+    1824.5
+   ],
+   "detail": "ink overlaps 'war.' by 44.5x11.8px",
+   "by": "text@150"
+  },
+  {
+   "page": "p1-front.svg",
+   "class": "TEXTX",
+   "text": "读头版，选出正确答案 · 答案见第 8 版",
+   "box": [
+    1536.0,
+    2331.0,
+    1885.0,
+    2350.5
+   ],
+   "detail": "ink overlaps 'local time. (p. 4)' by 94.3x12.2px",
+   "by": "text@184"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "BOXTITLE",
+   "text": "TWO MINUTES, ELEVEN ELEVEN · 两分钟，十一点十一分",
+   "box": [
+    1007.0,
+    217.2,
+    1625.5,
+    242.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1625.5 > border 1423.0",
+   "by": "rect@69"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "BOXTITLE",
+   "text": "Two minutes of silence.",
+   "box": [
+    422.2,
+    1677.0,
+    697.9,
+    1696.2
+   ],
+   "detail": "ink crosses its box borders: left ink 422.2 < border 442.0; right ink 697.9 > border 678.0",
+   "by": "rect@134"
+  },
+  {
+   "page": "p2-life.svg",
+   "class": "BOXTITLE",
+   "text": "We will remember them.",
+   "box": [
+    734.7,
+    1677.0,
+    1025.4,
+    1696.2
+   ],
+   "detail": "ink crosses its box borders: left ink 734.7 < border 762.0; right ink 1025.4 > border 998.0",
+   "by": "rect@137"
+  }
+ ],
+ "flag_count": 7
+}

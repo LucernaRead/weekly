@@ -1,0 +1,94 @@
+=== GATE 6a: source gloss() counts (split on '·') ===
+core: {'content12.py': [4, 4, 4], 'content34.py': [3, 3, 3], 'content56.py': [3, 3, 3, 3]}
+es  : {'content12.py': [4, 4, 4], 'content34.py': [3, 3, 3], 'content56.py': [3, 3, 3, 3]}
+total core: 33 total es: 33
+=== GATE 6b: rendered gloss boxes ===
+core {'p1-touiban.svg': [1], 'p2-shenghuo.svg': [2, 1], 'p3-wenhua.svg': [1, 1], 'p4-tiyu.svg': [1], 'p5-qingnian.svg': [1, 2], 'p6-shendu.svg': [1, 1]}
+edition {'p1-touiban.svg': [1], 'p2-shenghuo.svg': [2, 1], 'p3-wenhua.svg': [1, 1], 'p4-tiyu.svg': [1], 'p5-qingnian.svg': [1, 2], 'p6-shendu.svg': [1, 1]}
+=== GATE 7: P7 golden sentences (concatenated per-page text) ===
+-- edition
+  不用等11月11日: article 1x, P7 1x
+  下单就能发货: article 1x, P7 1x
+  先看结算页，再付款: article 1x, P7 1x
+  水开始结冰: article 1x, P7 1x
+  三场都输了: article 1x, P7 1x
+  小局一场没赢: article 1x, P7 1x
+  故事够不够好: article 1x, P7 1x
+  别以后，就现在: article 1x, P7 1x
+  P7 has (Página 1)..(Página 5) tags: [True, True, True, True, True]
+-- core
+  不用等11月11日: article 1x, P7 1x
+  下单就能发货: article 1x, P7 1x
+  先看结算页，再付款: article 1x, P7 1x
+  水开始结冰: article 1x, P7 1x
+  三场都输了: article 1x, P7 1x
+  小局一场没赢: article 1x, P7 1x
+  故事够不够好: article 1x, P7 1x
+  别以后，就现在: article 1x, P7 1x
+  P7 has (Página 1)..(Página 5) tags: [False, False, False, False, False]
+=== GATE 8: images ===
+-- core
+  p1-touiban.svg: 1 images [('65', '1874', '896', '320', '420c6150a831e5d0')]
+  p2-shenghuo.svg: 1 images [('1451', '200', '434', '230', '550e463b4ad93fea')]
+  p3-wenhua.svg: 2 images [('1451', '200', '434', '185', 'd0b015bc9da89c18'), ('1451', '816.9499999999999', '434', '200', 'e8d752779a4a1a96')]
+  p4-tiyu.svg: 1 images [('1451', '200', '434', '220', '6b8e90374bf6ba4c')]
+  p5-qingnian.svg: 1 images [('1451', '200', '434', '220', 'a903e35f1eb2dbf4')]
+  p6-shendu.svg: 0 images []
+  p7-ciyu.svg: 0 images []
+  p8-ceyan.svg: 0 images []
+-- edition
+  p1-touiban.svg: 1 images [('65', '1874', '896', '320', '420c6150a831e5d0')]
+  p2-shenghuo.svg: 1 images [('1451', '200', '434', '230', '550e463b4ad93fea')]
+  p3-wenhua.svg: 2 images [('1451', '200', '434', '185', 'd0b015bc9da89c18'), ('1451', '816.9499999999999', '434', '200', 'e8d752779a4a1a96')]
+  p4-tiyu.svg: 1 images [('1451', '200', '434', '220', '6b8e90374bf6ba4c')]
+  p5-qingnian.svg: 1 images [('1451', '200', '434', '220', 'a903e35f1eb2dbf4')]
+  p6-shendu.svg: 0 images []
+  p7-ciyu.svg: 0 images []
+  p8-ceyan.svg: 0 images []
+-- asset files md5:
+   dumplings.jpg e8d752779a4a1a96
+   frost.jpg d0b015bc9da89c18
+   lanparty.jpg 6b8e90374bf6ba4c
+   locker.jpg 420c6150a831e5d0
+   popcorn.jpg a903e35f1eb2dbf4
+   valley.jpg 550e463b4ad93fea
+-- credits lines edition:
+   p1-touiban.svg: Foto: Map hobby — CC0 (Wikimedia Commons)
+   p2-shenghuo.svg: Foto: Paul Gilmore — CC0 (Wikimedia Commons)
+   p3-wenhua.svg: Foto: Gerda Arendt — CC0 (Wikimedia Commons)
+   p3-wenhua.svg: Foto: Syced — CC0 (Wikimedia Commons)
+   p4-tiyu.svg: Foto: Syced — CC0 (Wikimedia Commons)
+   p5-qingnian.svg: Foto: Based5290 — Dominio público (Wikimedia Commons)
+-- CREDITS.md sha:
+   weekly-report-w45-zhcn-build a03a3d26e5e8b624 1805
+   weekly-report-w45-zh-cn-es-build a03a3d26e5e8b624 1805
+=== GATE 9: readers corner (P7) ===
+  disclosure ES (Ejemplo de la redacción, no una carta real): False
+  no genuine letters (no ha llegado ninguna carta real): False
+  deferred promise (Aplazado, no cancelado): True
+  invitation verbatim: False
+  letter intact (你好！我住在上海): True
+=== GATE 10 furniture: P1 badge ===
+  core EN: [(975.0, 434.0, 19.5, '简体中文正文 · 英语讲解 — Simplified Chinese text · Explanations in English · the edition for English-speaking readers')]
+  W43 ES: [(975.0, 434.0, 19.5, 'TEXTOS EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES')]
+  this edition: [(975.0, 434.0, 19.5, 'TEXTOS EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES')]
+=== P8 separators ===
+  core: ['— Page 1 —', '— Page 2 —', '— Page 3 —', '— Page 4 —', '— Page 5 —', '— Page 6 —', '— Page 7 —', '— Page 8 —']  allcaps PÁGINA count: 0
+  W43: ['— Página 1 —', '— Página 2 —', '— Página 3 —', '— Página 4 —', '— Página 5 —', '— Página 6 —', '— Página 7 —', '— Página 8 —']  allcaps PÁGINA count: 0
+  edition: ['— Página 1 —', '— Página 2 —', '— Página 3 —', '— Página 4 —', '— Página 5 —', '— Página 6 —', '— Página 7 —', '— Página 8 —']  allcaps PÁGINA count: 0
+=== footers / page lines / P8 header / strap / strapline / top strip ===
+  p1-touiban.svg: footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 1 de 8']
+  p2-shenghuo.svg: footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 2 de 8']
+  p8-ceyan.svg: footer=['Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL'] pageline=['Página 8 de 8']
+  P1 strap: ['SEMANARIO CHINO SIMPLIFICADO · VOL.2 · 双11 · 立冬 · S16', 'Lucerna · SEMANARIO CHINO SIMPLIFICADO VOL.2 · TEXTO EN CHINO SIMPLIFICADO · EXPLICACIONES EN ESPAÑOL']
+  P1 strapline: ['给学中文的人的周报 — Lee la China real, en chino']
+  P1 top strip: ['每周读中文 · Lee chino de verdad, cada semana']
+  masthead The/Le counts: 0 0
+  P8 header: ['答案 · Claves — por página, con una nota para cada respuesta', 'Todas las notas en español · ✓ = la tarea de escritura']
+  P8 dash sample: ['1. 10 — JD.com empezó las ventas en stock el 12 de octubre.', '2. 预售 — Las preventas de Taobao y Tmall: 15 de octubre.', '3. 13 — Las ventas en stock duran hasta el 13 de noviembre.']
+  P8 writing sample: ['Todas las notas en español · ✓ = la tarea de escritura', '150. ✓ Pregunta abierta — el modelo está en la sección F de esta']
+=== GATE 11 glosslines ===
+  P1 glossline 'primer término solar del invierno' on P1: False
+  old 凌晨 wording 'las horas pequeñas después de medianoche' anywhere: []
+  new 凌晨 wording 'las primeras horas tras medianoche' anywhere: ['p8-ceyan.svg']
+  P1 glossline full: ['Invierno: el primer término solar del']

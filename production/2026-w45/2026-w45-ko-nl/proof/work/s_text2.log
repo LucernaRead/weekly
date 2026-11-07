@@ -1,0 +1,281 @@
+== 1. badge (fill #a4553a, size 20) ==
+   core: [('톱 뉴스 · 头条', 606.0, 22.0, '#a4553a', '700', 65.0, 'start'), ('2면', 1378.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('3면', 1415.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('4면', 1452.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('5면', 1489.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('6면', 1526.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('7면', 1563.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('8면', 1600.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('참피', 1966.0, 20.0, '#a4553a', '700', 1473.0, 'start'), ('야구', 2078.4, 20.0, '#a4553a', '700', 1473.0, 'start'), ('수능', 2190.8, 20.0, '#a4553a', '700', 1473.0, 'start')]
+   w43: [('TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS', 394.0, 20.0, '#a4553a', '700', 975.0, 'middle'), ('톱 뉴스 · Hoofdnieuws', 606.0, 22.0, '#a4553a', '700', 65.0, 'start'), ('2면', 1378.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('3면', 1415.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('4면', 1452.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('5면', 1489.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('6면', 1526.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('7면', 1563.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('8면', 1600.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('억새', 1966.0, 20.0, '#a4553a', '700', 1473.0, 'start'), ('단풍', 2078.4, 20.0, '#a4553a', '700', 1473.0, 'start'), ('수능', 2190.8, 20.0, '#a4553a', '700', 1473.0, 'start')]
+   ed: [('TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS', 394.0, 20.0, '#a4553a', '700', 975.0, 'middle'), ('톱 뉴스 · Hoofdnieuws', 606.0, 22.0, '#a4553a', '700', 65.0, 'start'), ('2면', 1378.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('3면', 1415.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('4면', 1452.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('5면', 1489.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('6면', 1526.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('7면', 1563.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('8면', 1600.0, 21.0, '#a4553a', '700', 1473.0, 'start'), ('참피', 1966.0, 20.0, '#a4553a', '700', 1473.0, 'start'), ('야구', 2078.4, 20.0, '#a4553a', '700', 1473.0, 'start'), ('수능', 2190.8, 20.0, '#a4553a', '700', 1473.0, 'start')]
+== 2. section headers ed vs w43 ==
+   생활 · Dagelijks leven: ed=['p2-saenghwal.svg'] w43=['p2-saenghwal.svg']
+   문화 · Cultuur: ed=['p3-munhwa.svg'] w43=['p3-munhwa.svg']
+   스포츠 · Sport: ed=['p4-seupocheu.svg'] w43=['p4-seupocheu.svg']
+   청년 · Jongeren: ed=['p5-cheongnyeon.svg'] w43=['p5-cheongnyeon.svg']
+   깊이 읽기 · Dieper lezen: ed=['p6-gipi.svg'] w43=['p6-gipi.svg']
+   말 공부 · Taal: ed=['p7-mal.svg'] w43=['p7-mal.svg']
+   시험과 답 · Toets en antwoorden: ed=['p8-siheom.svg'] w43=['p8-siheom.svg']
+== 2b. instruction labels ==
+   Vul in: ed_texts=42 w43_texts=43
+   Koppel: ed_texts=4 w43_texts=4
+   Herschrijf: ed_texts=4 w43_texts=4
+   Bouw: ed_texts=8 w43_texts=8
+   Vertaal: ed_texts=4 w43_texts=4
+   W of O: ed_texts=0 w43_texts=4
+   Schrijf: ed_texts=1 w43_texts=1
+== 3. P7 Korean-only lines diff core vs ed (pure Korean texts) ==
+   P7 Hangul-containing lines: ed=97 core=98
+   in core only: ['말 공부 · 语言', '언어 포커스 · 세 가지 레벨, 세 가지 주제 · 三个级别，三个主题', '본격적 正式、全面 · 나다 度过。', '남다 剩下 · 바로 正是、恰恰。', '짐작하다 推测 · 나누다 区分。', '실수 병원 · 易错诊所', '去某地用「에」，不用「를」。', '「담그다」的过去式是「담갔어요」。', '이번 주의 틀 · 本周句式', '句式拆解：「从〜到〜」。提问：「〜부터', '〜까지예요?」', '독자의 편지 · 读者园地', '이번 주의 문장 · 本周金句（逐字摘自本期文章）', '11 月 7 日是立冬。 (1면)', '只能说是接近峰值的周末。 (1면)', '泡菜季就是腌过冬泡菜。 (1면)', '离高考还剩 17 天，今天是 D-17。 (2면)', '低处的路红得更晚。 (3면)', 'KIA 虎三连胜战胜 LG 双子。 (4면)', '全国都在为考生加油。 (5면)', '先看日期。 (6면)', '다음 주 · 下期预告 (VOL.3)', '제 7 면 / 총 8 면']
+   in ed only: ['말 공부 · Taal', "언어 포커스 · 세 가지 레벨, 세 가지 주제 · Drie niveaus, drie thema's", '본격적 = echt, volledig · 나다 = voorbijgaan.', '남다 = overblijven · 바로 = precies.', '짐작하다 = vermoeden · 나누다 =', '실수 병원 · Foutenkliniek', 'Ga naar een plaats met «에», niet met «를».', 'De verleden tijd van «담그다» is «담갔어요».', '이번 주의 틀 · De zin van de week', 'Structuur: «van 〜 tot 〜». Vraag: «〜부터', '〜까지예요?»', '독자의 편지 · Lezersbrieven', '이번 주의 문장 · Zinnen van de week (letterlijk uit dit nummer)', '7 november is Ipdong. (1면)', 'Je kunt alleen zeggen: een weekend dicht bij het hoogtepunt. (1면)', 'Kimjang is winterkimchi maken. (1면)', 'Nog 17 dagen tot het examen. Vandaag is het D-17. (2면)', 'Lagere paden kleuren later rood. (3면)', 'KIA versloeg LG Twins met drie zeges op rij. (4면)', 'Het hele land moedigt de kandidaten aan. (5면)', 'Kijk eerst naar de datum. (6면)', '다음 주 · Volgende week (VOL.3)']
+== 4. P7 #104 numbering: texts near y 960-1010, x 65 ==
+   ED y=992.5650000000002 "'절기'는 무슨 뜻이에요? A. 일 년의 24개 시점 ·"
+   ED y=1022.2900000000002 'B. 김치 이름 · C. 산 이름'
+   CORE y=992.5650000000002 "'절기'는 무슨 뜻이에요? A. 일 년의 24개 시점 ·"
+   CORE y=1022.2900000000002 'B. 김치 이름 · C. 산 이름'
+   P7 exercise number texts (ed): ['101.', '102.', '103.', '104.', '105.', '106.', '107.', '108.', '109.', '110.', '111.', '112.']
+   P7 A2 stem raw bytes check:
+   ed: '김장'은 무슨 뜻이에요? A. 겨울 김치를 담그는
+   core: '김장'은 무슨 뜻이에요? A. 겨울 김치를 담그는
+== 5. P2 all texts (find ssam honest caption) ==
+   y=116.0 x=78.0 '생활 · Dagelijks leven'
+   y=116.0 x=1872.0 'Lucerna'
+   y=142.0 x=1872.0 '레벨 A2 · 김장과 겨울 준비, 한능검 · Kimjang, wintervoorbereiding en het examen Koreaanse geschiedenis'
+   y=237.0 x=65.0 '김장철이 왔어요 — 겨울을'
+   y=282.14 x=65.0 '준비하는 집'
+   y=355.28 x=65.0 'Lucerna 편집부 · 읽기 레벨: A2'
+   y=414.97999999999996 x=65.0 '김장은 겨울 내내 먹는 김치를 담그는'
+   y=452.97999999999996 x=65.0 '일이에요. 배추를 소금에 절이고, 무와'
+   y=490.97999999999996 x=65.0 '양념을 넣어 버무려요. 가족이 함께'
+   y=528.98 x=65.0 '담그면 하루가 금방 가요. 이웃과 나눠'
+   y=566.98 x=65.0 '먹는 집도 있어요.'
+   y=639.98 x=65.0 '요즘은 김치를 사서 먹는 집도 많아요.'
+   y=677.98 x=65.0 '그래도 김장철이면 시장은 더 바빠져요.'
+   y=715.98 x=65.0 '배추와 양념을 사는 사람이 늘어나요.'
+   y=753.98 x=65.0 '겨울 김치는 집집마다 맛이 달라요.'
+   y=826.98 x=65.0 '김장 말고도 겨울 준비가 많아요.'
+   y=864.98 x=65.0 '두꺼운 이불을 꺼내고, 난방이 잘'
+   y=902.98 x=65.0 '되는지 봐요. 옷장에서는 겨울옷을'
+   y=940.98 x=65.0 '앞으로 꺼내요. 따뜻한 국과 찌개가'
+   y=978.98 x=65.0 '식탁에 자주 올라와요.'
+   y=1065.48 x=83.0 'Uitleg — 절이다 = inzouten · 버무리다 ='
+   y=1095.205 x=83.0 'mengen · 난방 = verwarming · 식탁 ='
+   y=1124.9299999999998 x=83.0 'tafel.'
+   y=1209.655 x=65.0 '산불조심기간이 시작됐어요'
+   y=1260.655 x=65.0 '11월 1일부터 12월 15일까지는 가을철'
+   y=1298.655 x=65.0 '산불조심기간이에요. 단풍 구경을 가는'
+   y=1336.655 x=65.0 '사람이 많아서, 산에서는 불을 더'
+   y=1374.655 x=65.0 '조심해야 해요. 산에 라이터나 불을'
+   y=1412.655 x=65.0 '가져가면 벌금을 낼 수 있어요. 벌금은'
+   y=1450.655 x=65.0 '최대 30만 원이에요.'
+   y=1523.655 x=65.0 '산에 갈 때는 정해진 길로'
+   y=225.0 x=527.0 '다니세요. 담배를 피우지 마세요.'
+   y=263.0 x=527.0 '불을 피우지 마세요. 작은 불씨가 큰'
+   y=301.0 x=527.0 '산불이 될 수 있어요.'
+   y=387.5 x=545.0 'Uitleg — 산불 = bosbrand · 벌금 = boete ·'
+   y=417.225 x=545.0 '불씨 = vonk.'
+   y=513.95 x=545.0 '한능검 접수 · Inschrijving'
+   y=547.95 x=545.0 '시험: 한국사능력검정시험 81회, 11월 28일'
+   y=574.95 x=545.0 '토요일, 심화만 봐요'
+   y=626.95 x=545.0 '11월 3일(화) 10시 — 인천·경기 접수 시작'
+   y=678.95 x=545.0 '11월 6일(금) 10시~12시 — 서울·강원·제주'
+   y=705.95 x=545.0 '접수, 단 2시간만 따로 받아요'
+   y=757.95 x=545.0 '11월 6일(금) 13시부터 — 남은 자리로 전국'
+   y=784.95 x=545.0 '접수가 열려요 (11월 10일 17시까지)'
+   y=836.95 x=545.0 '응시료: 심화 27,000원 · 접수 취소 전액'
+   y=863.95 x=545.0 '환불은 11월 17일 17시까지'
+   y=945.95 x=527.0 '겨울 밥상'
+   y=996.95 x=527.0 '김장김치는 겨울 밥상의 주인공이에요.'
+   y=1034.95 x=527.0 '갓 담근 김치는 아삭하고, 시간이 지나면'
+   y=1072.95 x=527.0 '맛이 깊어져요. 김장김치와 밥만 있어도'
+   y=1110.95 x=527.0 '한 끼가 돼요.'
+   y=1183.95 x=527.0 '추운 날에는 따뜻한 국이 생각나요.'
+   y=1221.95 x=527.0 '미역국, 된장국, 김치찌개 — 김이 나는'
+   y=1259.95 x=527.0 '국을 먹으면 몸이 따뜻해져요. 국을 끓일'
+   y=1297.95 x=527.0 '때는 재료를 천천히 넣어요.'
+   y=1384.45 x=545.0 'Uitleg — 아삭하다 = knapperig · 김 = stoom'
+   y=1414.175 x=545.0 '· 깊어지다 = dieper worden.'
+   y=225.0 x=989.0 '겨울 옷장 정리'
+   y=276.0 x=989.0 '옷장 정리는 버리는 일이 아니에요. 작은'
+   y=314.0 x=989.0 '옷은 동생에게 물려주고, 낡은 옷은'
+   y=352.0 x=989.0 '깨끗이 빨아서 정리해요. 정리가 끝나면'
+   y=390.0 x=989.0 '겨울이 와도 두렵지 않아요.'
+   y=476.5 x=1007.0 'Uitleg — 물려주다 = doorgeven · 낡다 ='
+   y=506.225 x=1007.0 'oud · 두렵다 = bang zijn.'
+   y=602.95 x=1007.0 '겨울 준비 목록 · Lijst'
+   y=636.95 x=1007.0 '두꺼운 이불 꺼내기'
+   y=688.95 x=1007.0 '난방이 잘 되는지 보기'
+   y=740.95 x=1007.0 '겨울옷 앞으로 꺼내기'
+   y=792.95 x=1007.0 '김장하기'
+   y=844.95 x=1007.0 '따뜻한 차 준비하기'
+   y=926.95 x=989.0 '시장에서 김장 준비'
+   y=977.95 x=989.0 '김장철이면 시장은 더 바빠져요. 배추를'
+   y=1015.95 x=989.0 '고를 때는 잎이 단단한 것을 골라요.'
+   y=1053.95 x=989.0 '무는 묵직한 것이 좋아요. 장을 볼 때는'
+   y=1091.95 x=989.0 '목록을 적어 가면 편해요.'
+   y=1164.95 x=989.0 '김장을 담글 때는 손이 차가워져요.'
+   y=1202.95 x=989.0 '따뜻한 물을 준비하고, 앞치마를 입어요.'
+   y=1240.95 x=989.0 '가족이 함께하면 김장이 빨리 끝나요.'
+   y=1327.45 x=1007.0 'Uitleg — 묵직하다 = zwaar · 앞치마 = schort'
+   y=1357.175 x=1007.0 '· 목록 = lijst.'
+   y=454.0 x=1451.0 '쌈 채소와 쌈장. 겨울 식탁의 한국 음식이에요. 김장'
+   y=479.65 x=1451.0 '사진이 아니에요.'
+   y=507.29999999999995 x=1451.0 '사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진'
+   y=593.4499999999999 x=1473.0 '알고 있나요'
+   y=640.4499999999999 x=1473.0 '김장은 겨울 내내 먹는 김치를'
+   y=670.9799999999999 x=1473.0 '담그는 일이에요.'
+   y=734.5099999999999 x=1473.0 '산불조심기간은 11월 1일부터 12월'
+   y=765.0399999999998 x=1473.0 '15일까지예요.'
+   y=828.5699999999998 x=1473.0 '한능검 서울 접수는 11월 6일 10시부터'
+   y=859.0999999999998 x=1473.0 '12시까지예요.'
+   y=995.4499999999999 x=1473.0 '당신은? · En jij?'
+   y=1042.4499999999998 x=1473.0 '당신은? 겨울을 준비할 때 가장 먼저 하는'
+   y=1072.9799999999998 x=1473.0 '일은 무엇이에요? 한국어로 두 문장 써서'
+   y=1103.5099999999998 x=1473.0 '보내 주세요.'
+   y=1164.0399999999997 x=1473.0 'En jij? Wat doe je als eerste voor de'
+   y=1192.4399999999998 x=1473.0 'winter? Schrijf twee zinnen in het'
+   y=1220.84 x=1473.0 'Koreaans en stuur ze op.'
+   y=1594.0 x=65.0 '날짜 세는 말 · Dagen tellen'
+   y=1594.0 x=1885.0 '수능까지 남은 날로 날짜를 세는 네 가지 말 · Vier manieren om te tellen met de aftelling'
+   y=1672.0 x=87.0 'D-17'
+   y=1706.0 x=87.0 '11월 2일, 수능까지 17일이 남았어요'
+   y=1752.06 x=87.0 '2 november, nog 17 dagen'
+   y=1672.0 x=549.0 'D-12'
+   y=1706.0 x=549.0 '11월 7일, 수능까지 12일이 남았어요'
+   y=1752.06 x=549.0 '7 november, nog 12 dagen'
+   y=1672.0 x=1011.0 'D-1'
+   y=1706.0 x=1011.0 '11월 18일, 내일이에요'
+   y=1752.06 x=1011.0 '18 november, dat is morgen'
+   y=1672.0 x=1473.0 'D-데이'
+   y=1706.0 x=1473.0 '11월 19일, 오늘이 바로 그날이에요'
+   y=1752.06 x=1473.0 '19 november, dat is vandaag'
+   y=1794.0 x=65.0 '문장으로 외워요: 「수능까지 17일 남았어요. 오늘이 D-17예요.」'
+   y=1844.0 x=65.0 '연습 · Oefeningen blz. 2'
+   y=1844.0 x=1885.0 'Antwoorden op blz. 8 · Niveaus kunnen gemengd staan — zoek op nummer'
+   y=1897.0 x=65.0 'A · 이해'
+   y=1943.5 x=65.0 'Lees de teksten op blz. 2 en kies het juiste'
+   y=1973.225 x=65.0 'antwoord.'
+   y=2033.95 x=95.0 'A2'
+   y=2034.95 x=137.0 '11.'
+   y=2062.95 x=65.0 '김장은 무엇을 담그는 일이에요? A. 김치 · B. 된장 ·'
+   y=2090.5 x=65.0 'C. 간장'
+   y=2146.05 x=95.0 'A2'
+   y=2147.05 x=137.0 '12.'
+   y=2175.05 x=65.0 '산불조심기간은 언제부터예요? A. 11월 1일 · B. 12월'
+   y=2202.6000000000004 x=65.0 '15일 · C. 11월 7일'
+   y=2258.1500000000005 x=95.0 'A2'
+   y=2259.1500000000005 x=137.0 '13.'
+   y=2287.1500000000005 x=65.0 '산에 불을 가져가면 어떻게 돼요? A. 벌금 최대 30만'
+   y=2314.7000000000007 x=65.0 '원 · B. 상을 받아요 · C. 아무 일도 없어요'
+   y=2370.250000000001 x=95.0 'A2'
+   y=2371.250000000001 x=137.0 '14.'
+   y=2399.250000000001 x=65.0 '한능검 시험은 며칠에 있어요? A. 11월 28일 · B.'
+   y=2426.800000000001 x=65.0 '11월 6일 · C. 11월 19일'
+   y=1894.0 x=557.0 'A2'
+   y=1895.0 x=599.0 '15.'
+   y=1923.0 x=527.0 '한능검 서울 접수는 언제예요? A. 11월'
+   y=1950.55 x=527.0 '6일 10시부터 12시까지 · B. 11월 3일'
+   y=1978.1 x=527.0 '하루 종일 · C. 11월 10일 오후'
+   y=2036.6499999999999 x=527.0 'B · 말 넣기'
+   y=2083.1499999999996 x=527.0 'Vul het juiste woord in.'
+   y=2143.8749999999995 x=557.0 'A2'
+   y=2144.8749999999995 x=599.0 '16.'
+   y=2144.8749999999995 x=669.0 'Vul in'
+   y=2172.8749999999995 x=527.0 '___를 소금에 절여요.'
+   y=2228.4249999999997 x=557.0 'A2'
+   y=2229.4249999999997 x=599.0 '17.'
+   y=2229.4249999999997 x=669.0 'Vul in'
+   y=2257.4249999999997 x=527.0 '무와 ___을 넣어 버무려요.'
+   y=2312.975 x=557.0 'A2'
+   y=2313.975 x=599.0 '18.'
+   y=2313.975 x=669.0 'Vul in'
+   y=2341.975 x=527.0 '두꺼운 이불을 꺼내는 것은 ___ 준비예요.'
+   y=2397.525 x=557.0 'A2'
+   y=2398.525 x=599.0 '19.'
+   y=2398.525 x=669.0 'Vul in'
+   y=2426.525 x=527.0 '산에 갈 때는 불을 ___하세요.'
+   y=2482.0750000000003 x=557.0 'B1'
+   y=2483.0750000000003 x=599.0 '20.'
+   y=2483.0750000000003 x=669.0 'Vul in'
+   y=2511.0750000000003 x=527.0 '한능검 ___가 11월 3일부터 시작돼요.'
+   y=1897.0 x=989.0 'C · 숫자와 날짜'
+   y=1943.5 x=989.0 'Antwoord met de getallen en datums van blz.'
+   y=1973.225 x=989.0 '1 en 2.'
+   y=2033.95 x=1019.0 'A2'
+   y=2034.95 x=1061.0 '21.'
+   y=2034.95 x=1131.0 'Vul in'
+   y=2062.95 x=989.0 '산불조심기간은 12월 ___일까지예요.'
+   y=2118.5 x=1019.0 'A2'
+   y=2119.5 x=1061.0 '22.'
+   y=2119.5 x=1131.0 'Vul in'
+   y=2147.5 x=989.0 '산에 불을 가져가면 벌금은 최대 ___원이에요.'
+   y=2203.05 x=1019.0 'A2'
+   y=2204.05 x=1061.0 '23.'
+   y=2204.05 x=1131.0 'Vul in'
+   y=2232.05 x=989.0 '한능검 심화 응시료는 ___원이에요.'
+   y=2287.6000000000004 x=1019.0 'B1'
+   y=2288.6000000000004 x=1061.0 '24.'
+   y=2288.6000000000004 x=1131.0 'Vul in'
+   y=2316.6000000000004 x=989.0 '11월 6일 ___시부터 남은 자리로 전국'
+   y=2344.1500000000005 x=989.0 '접수가 열려요.'
+   y=2402.7000000000007 x=989.0 'D · 짝 맞추기'
+   y=1894.0 x=1481.0 'A2'
+   y=1895.0 x=1523.0 '25–28.'
+   y=1895.0 x=1647.0 'Koppel'
+   y=1936.0 x=1451.0 '25. 김장'
+   y=1973.0 x=1451.0 '26. 월동 준비'
+   y=2010.0 x=1451.0 '27. 산불조심'
+   y=2047.0 x=1451.0 '28. 한능검'
+   y=2092.0 x=1485.0 'a. 겨울 김치를 담그는 일'
+   y=2130.0 x=1485.0 'b. 한국사 시험의 줄임말'
+   y=2168.0 x=1485.0 'c. 두꺼운 이불과 난방을 준비하는 일'
+   y=2206.0 x=1485.0 'd. 산에서 불을 조심하는 기간'
+   y=2624.0 x=65.0 'Lucerna · KOREAANS WEEKBLAD VOL.2 · TEKSTEN IN HET KOREAANS · UITLEG IN HET NEDERLANDS'
+   y=2624.0 x=1885.0 'Pagina 2 van 8'
+== 5b. CREDITS.md ==
+# Image credits — Lucerna 한국어판 VOL.1
+
+All images verified via the Wikimedia Commons API (extmetadata LicenseShortName)
+on 2026-10-21, downloaded at ≤1920 px. Only Public Domain / CC0 images are used.
+
+| File | Page | Subject | Author / source | License | Commons page |
+|---|---|---|---|---|---|
+| typhoon.jpg | P1 | The eye of Super Typhoon Maysak photographed from the ISS (2015) — captioned in the paper as a NASA file photo of a super typhoon's eye, NOT as a photo of Typhoon Champi | NASA | Public domain | https://commons.wikimedia.org/wiki/File:ISS-43_Super_Typhoon_Maysak_-_Eye.jpg |
+| study.jpg | P2 | Students studying in a university library (Sias International University, 2017) — captioned as a file photo of students studying | Gary Todd | CC0 | https://commons.wikimedia.org/wiki/File:Sias_Library_-_Students_Studying_2017.jpg |
+| susuki.jpg | P3 | Matsumura Keibun, "Quail Feeding Amidst Susuki and Kikyo" (silk painting panel) — susuki (silver grass) in classical art | Keibun | Public domain | https://commons.wikimedia.org/wiki/File:Quail_Feeding_Amidst_Susuki_and_Kikyo_by_Matsumura_Keibun_-_BMA.jpg |
+| apples.jpg | P3 | Paul Cézanne, "Still Life with Apples" (Google Art Project) — autumn's fruit in art, beside the Cheongsong apple-festival story | Paul Cézanne | Public domain | https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_Still_Life_with_Apples_-_Google_Art_Project.jpg |
+| baseball.jpg | P4 | Washington baseball team, early 20th century (Bain News Service glass negative) — captioned as a file photo of an old baseball team | Bain News Service | Public domain | https://commons.wikimedia.org/wiki/File:Washington_team,_Washington_AL_(baseball)_LCCN2014680242.jpg |
+| cinema.jpg | P5 | Empty movie-theater seats (2016) — beside the Chiikawa box-office story | Elijah Flores | CC0 | https://commons.wikimedia.org/wiki/File:Movie_theater_seats_(Unsplash).jpg |
+| concert.jpg | P5 | Concert audience rushing toward the stage at a US Army Concert Tour stop, Fort Knox — captioned as a file photo of a concert crowd, NOT an NMIXX photo | US Army / Rob McIlvaine | Public domain | https://commons.wikimedia.org/wiki/File:CrowdAtFortKnoxConcert.jpg |
+| autumn.jpg | P6 | Jogakura Valley in the Hakkoda Mountains during autumn foliage season — captioned as a file photo of an autumn mountain valley, NOT as Seoraksan | lumoplank | CC0 | https://commons.wikimedia.org/wiki/File:Hakkoda_Mountains,_Part_III-_Jogakura_Valley_-_Hakkoda6891.jpg |
+
+== 5c. full credit lines joined (P3/P4, consecutive same-x lines) ==
+   p3-munhwa.svg y=436.65 x=1451.0 '사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진'
+   p3-munhwa.svg y=1132.1000000000001 x=1451.0 '그림: Paul Cézanne — Public domain (Wikimedia'
+   p3-munhwa.svg y=1152.2500000000002 x=1451.0 'Commons)'
+   p4-seupocheu.svg y=491.65 x=1451.0 '사진: Bain News Service — Public domain (Wikimedia'
+   p4-seupocheu.svg y=511.79999999999995 x=1451.0 'Commons)'
+== 6. P8 #55/#131 raw rendered lines ==
+   #55 ed x=527.0:
+      y=1868.9040000000011 '55. 온대저기압 — Op 26 oktober werd het een extratropische'
+      y=1884.3320000000012 'cycloon'
+      y=1913.5600000000013 '56. 기다리고 — kt wacht in de Korean Series'
+   #131 ed x=1451.0:
+      y=1898.1320000000012 '131. B — Volgende week: voorbereiding op het examen Koreaanse'
+      y=1913.5600000000013 'geschiedenis'
+      y=1942.7880000000014 '132. C — Jimin houdt van Koreaanse geschiedenis'
+== 6b. registry notes #55/#131 (edition source via build content? use reg-scratch if present) ==
+   REG ed #55: key='온대저기압' note='Op 26 oktober werd het een extratropische cycloon'
+   REG ed #104: key='A' note='절기 = de 24 seizoenen van het jaar'
+   REG ed #131: key='B' note='Volgende week: voorbereiding op het examen Koreaanse geschiedenis'
+   REG ed #137: key='7 november is Ipdong.' note='Zie blz. 1'
+   REG ed #138: key='Nog 12 dagen tot het examen.' note='Zie blz. 5'
+   REG ed #139: key='특별 조치는 11월 19일에만 적용돼요.' note='Zie blz. 6'
+   REG ed #140: key='저는 토요일에 내장산에 단풍을 보러 가요.' note='Zie blz. 3'
+   REG ed #150: key='(open vraag — het voorbeeld staat hieronder)' note='Het voorbeeld staat in deel H van deze pagina (157 tekens)'
+== 7. orphan first/last char scan (all rendered lines, ed + core) ==
+   ed: start-with-unambiguous-closer=[('p2-saenghwal.svg', 545.0, 1414.17, '· 깊어지다 = dieper worden.'), ('p2-saenghwal.svg', 1007.0, 1357.17, '· 목록 = lijst.'), ('p3-munhwa.svg', 545.0, 680.23, '· 관측 = waarneming · 구간별 = per traject.'), ('p3-munhwa.svg', 65.0, 2013.95, '· B. 11월 11일 · C. 11월 9일'), ('p3-munhwa.svg', 65.0, 2364.95, '· C. 11월에 나와요'), ('p4-seupocheu.svg', 1007.0, 297.95, '· 마감하다 = deadline van de redactie.'), ('p5-cheongnyeon.svg', 65.0, 2013.95, '· C. 11월 28일'), ('p6-gipi.svg', 1007.0, 1059.17, '· 믿다 = geloven.'), ('p6-gipi.svg', 65.0, 2158.22, '· C. D-데이')]
+   ed: end-with-opener=[]
+   core: start-with-unambiguous-closer=[('p3-munhwa.svg', 65.0, 1984.22, '· B. 11월 11일 · C. 11월 9일'), ('p3-munhwa.svg', 65.0, 2335.22, '· C. 11월에 나와요'), ('p5-cheongnyeon.svg', 65.0, 1984.22, '· C. 11월 28일'), ('p6-gipi.svg', 65.0, 2158.22, '· C. D-데이')]
+   core: end-with-opener=[]
+== 8. P7 letters box geometry ed vs core ==
+   ed: letters rects=[(1451.0, 1230.44, 434.0, 635.5)] last_baseline=1849.93 last_ink_bottom=1854.68 last_text=je brief en je beste tekst van blz. 8 op!
+   ed: rule lines 1850-1950=[1895.94]
+   ed: teaser rect (y,bottom)=[(2401.94, 2519.94)]
+   core: letters rects=[(1451.0, 1230.44, 434.0, 508.5)] last_baseline=1764.7299999999998 last_ink_bottom=1766.7299999999998 last_text=承诺顺延至 VOL.3。
+   core: rule lines 1850-1950=[]
+   core: teaser rect (y,bottom)=[]

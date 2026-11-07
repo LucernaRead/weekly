@@ -1,0 +1,166 @@
+{
+ "svgdir": "files/weekly-report-w45-fr-ja/svg",
+ "flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "週末の決勝の結果は土曜夜と日曜に判明します。",
+   "box": [
+    1473.0,
+    1223.8,
+    1889.0,
+    1241.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1889.0 > border 1885.0",
+   "by": "rect@102"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "みましたか。フランス語で2文書いて編集部",
+   "box": [
+    1473.0,
+    1545.6,
+    1862.8,
+    1564.6
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@108"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "へ送ってください。",
+   "box": [
+    1473.0,
+    1574.0,
+    1651.5,
+    1592.8
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · 注意：1日は le premier、それ以' by 178.5x11.8px",
+   "by": "text@110"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · 注意：1日は le premier、それ以外は基数詞",
+   "box": [
+    1311.0,
+    1581.0,
+    1885.0,
+    1602.5
+   ],
+   "detail": "ink crosses its box borders: left ink 1311.0 < border 1451.0; bottom ink 1602.5 > border 1596.6",
+   "by": "rect@95"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "PARIS CREATOR WEEK · クリエイター週間",
+   "box": [
+    1473.0,
+    1142.5,
+    1927.0,
+    1164.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1927.0 > border 1885.0",
+   "by": "rect@163"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1467.3,
+    1648.8,
+    1489.0
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@192"
+  }
+ ],
+ "flag_count": 6,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "週末の決勝の結果は土曜夜と日曜に判明します。",
+   "box": [
+    1473.0,
+    1223.8,
+    1889.0,
+    1241.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1889.0 > border 1885.0",
+   "by": "rect@102"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "みましたか。フランス語で2文書いて編集部",
+   "box": [
+    1473.0,
+    1545.6,
+    1862.8,
+    1564.6
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@108"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "へ送ってください。",
+   "box": [
+    1473.0,
+    1574.0,
+    1651.5,
+    1592.8
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · 注意：1日は le premier、それ以' by 178.5x11.8px",
+   "by": "text@110"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · 注意：1日は le premier、それ以外は基数詞",
+   "box": [
+    1311.0,
+    1581.0,
+    1885.0,
+    1602.5
+   ],
+   "detail": "ink crosses its box borders: left ink 1311.0 < border 1451.0; bottom ink 1602.5 > border 1596.6",
+   "by": "rect@95"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "PARIS CREATOR WEEK · クリエイター週間",
+   "box": [
+    1473.0,
+    1142.5,
+    1927.0,
+    1164.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1927.0 > border 1885.0",
+   "by": "rect@163"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1467.3,
+    1648.8,
+    1489.0
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@192"
+  }
+ ],
+ "new_flag_count": 6
+}

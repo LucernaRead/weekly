@@ -1,0 +1,17 @@
+=== (a) same-baseline collisions ===
+  COLLIDE p1-voorpagina.svg y=1436.0: 'Musea bij nacht en boeken' vs 'A2→B1' overlap_x=1.0
+  same-baseline collisions: 1
+=== (b) P6 chart labels vs bars ===
+  chart bars found: 4
+  label 'Ik blijf thuis': coverage 0.0%
+  label '45': coverage 0.0%
+  label 'Ik kijk eerst naar de tekst': coverage 0.0%
+  label '25': coverage 0.0%
+  label 'Ik ga toch naar buiten': coverage 0.0%
+  label '20': coverage 0.0%
+  label 'Ik weet het niet': coverage 0.0%
+  label '10': coverage 0.0%
+=== (c) P1 word gloss vs rule y=1853 ===
+  gloss line y=1846.2999999999997 ink=(1829.3..1851.3) :: «Le climat» : le temps et la nature à long terme.
+  gloss line y=1871.9499999999998 ink=(1855.9..1875.9) :: La Semaine du climat, c'est notre climat.
+  (rule at 1853 must fall between the two gloss lines, touching neither)

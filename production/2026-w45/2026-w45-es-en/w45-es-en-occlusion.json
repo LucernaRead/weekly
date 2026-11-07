@@ -1,0 +1,97 @@
+{
+ "svgdir": "../files/weekly-report-w45-es-en/svg",
+ "flags": [
+  {
+   "page": "p1-portada.svg",
+   "class": "EDGE",
+   "text": "Five keys, no invented numbers — all explained in this issue",
+   "box": [
+    1473.0,
+    1276.8,
+    2002.0,
+    1296.5
+   ],
+   "detail": "ink box (1473.0, 1276.75, 2002.0, 1296.5) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-portada.svg",
+   "class": "LINEX",
+   "text": "campaign begins.",
+   "box": [
+    1451.0,
+    1826.6,
+    1606.5,
+    1846.6
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@143"
+  },
+  {
+   "page": "p5-juventud.svg",
+   "class": "BOXTITLE",
+   "text": "EL PLAN DEL PUENTE · The long-weekend plan",
+   "box": [
+    545.0,
+    405.5,
+    1082.8,
+    429.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1082.8 > border 961.0",
+   "by": "rect@42"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "FOOTER",
+   "text": "LA PRÓXIMA SEMANA · Next week (VOL.3)",
+   "box": [
+    93.0,
+    2570.9,
+    591.0,
+    2600.1
+   ],
+   "detail": "ink bottom 2600.1 below footer rule 2580 (baseline 2595.12)",
+   "by": null
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "LINEX",
+   "text": "LA PRÓXIMA SEMANA · Next week (VOL.3)",
+   "box": [
+    93.0,
+    2570.9,
+    591.0,
+    2600.1
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@181"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "TEXTX",
+   "text": "La Lucerna · Spanish Weekly VOL.2 · Text in Spanish · Explan",
+   "box": [
+    65.0,
+    2607.8,
+    811.5,
+    2629.0
+   ],
+   "detail": "ink overlaps 'El viernes 13: empieza la campaña electo' by 718.5x11.4px",
+   "by": "text@180"
+  },
+  {
+   "page": "p7-lengua.svg",
+   "class": "BOXTITLE",
+   "text": "ERRORES TÍPICOS · Common mistakes",
+   "box": [
+    1473.0,
+    218.8,
+    1919.2,
+    242.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1919.2 > border 1885.0",
+   "by": "rect@108"
+  }
+ ],
+ "flag_count": 7
+}

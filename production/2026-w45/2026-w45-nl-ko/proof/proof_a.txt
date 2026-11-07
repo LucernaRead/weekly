@@ -1,0 +1,70 @@
+=== A1: claimed Dutch phrases in edition ===
+p5-jongeren.svg 'Kijk zondag om 20:00 uur op RTL 4' -> True
+p7-taal.svg 'een boom' -> True
+p7-taal.svg 'blijf ik thuis' -> True
+p7-taal.svg 'zij zette vast' -> True
+p7-taal.svg '«meedoen» betekent: deelnemen, erbij zijn. In de Klimaatweek doet heel Nederland mee.' -> False
+P7 word-box sentence in CORE too: False
+
+=== A2: Latin-word loss audit: Latin tokens in core page text absent from edition page text ===
+p1-voorpagina.svg missing Latin tokens: {'MUSEUMNACHT': 1, 'SPEELRONDE': 1, 'WEKELIJKSE': 1, 'KRANT': 1, 'OM': 1, 'TE': 1, 'LEREN': 1, 'ECHTE': 1, 'NEDERLAND': 1, 'NEDERLANDSDEZE': 1, 'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p2-leven.svg missing Latin tokens: {'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p3-cultuur.svg missing Latin tokens: {'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p4-sport.svg missing Latin tokens: {'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p5-jongeren.svg missing Latin tokens: {'GAAN': 1, 'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p6-verdieping.svg missing Latin tokens: {'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p7-taal.svg missing Latin tokens: {'ikthuis': 1, 'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+p8-toets.svg missing Latin tokens: {'PAGINA': 8, 'DDW': 1, 'LUCERNA': 1, 'DUTCH': 1, 'WEEKLY': 1}
+
+=== A3: Latin tokens in EDITION absent from CORE (new Dutch words) ===
+p1-voorpagina.svg new Latin tokens: {}
+p2-leven.svg new Latin tokens: {}
+p3-cultuur.svg new Latin tokens: {}
+p4-sport.svg new Latin tokens: {}
+p5-jongeren.svg new Latin tokens: {'GAANgaan': 1}
+p6-verdieping.svg new Latin tokens: {}
+p7-taal.svg new Latin tokens: {'dewaarschuwing': 1, 'Volgensmij': 1}
+p8-toets.svg new Latin tokens: {}
+
+=== A4: P1 badge elements ===
+CORE y= 372 x= 975 size= 19 weight=  family= Noto Sans CJK SC anchor= middle fill= #57523f text= 'DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS'
+ED y= 372 x= 975 size= 19.5 weight= 700 family= Noto Sans CJK SC anchor= middle fill= #a4553a text= '네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+W43 y= 372 x= 975 size= 19.5 weight= 700 family= Noto Sans CJK SC anchor= middle fill= #a4553a text= '네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+
+=== A5: gloss prefix lines ===
+-- CORE
+  p2-leven.svg y= 1339.4 text= '译注｜het klimaat 气候 · wortelen 生根'
+  p3-cultuur.svg y= 1040.5 text= '译注｜het museum 博物馆 · de'
+  p4-sport.svg y= 929.5 text= '译注｜de balans 成绩单、总结 ·'
+  p5-jongeren.svg y= 1290.54 text= '译注｜het eiland 岛 · de proef 比赛项目'
+  p6-verdieping.svg y= 1306.5 text= '译注｜de meteoroloog 气象学家 ·'
+-- ED
+  p1-voorpagina.svg y= 1205.3 text= '해설 — de Klimaatweek 기후 주간 · de boom'
+  p2-leven.svg y= 1339.4 text= '해설 — het klimaat 기후(날씨) · wortelen'
+  p3-cultuur.svg y= 1040.5 text= '해설 — het museum 박물관 · de'
+  p4-sport.svg y= 929.5 text= '해설 — de balans 결산 · gelijkspelen 비기'
+  p5-jongeren.svg y= 1347.66 text= '해설 — het eiland 섬 · de proef 미션 ·'
+  p6-verdieping.svg y= 1306.5 text= '해설 — de meteoroloog 기상학자 ·'
+
+=== A6: footer VOL.2 ===
+p1-voorpagina.svg ['네덜란드어 주간지 · VOL.2 · 기후 주간 · 박물관의 밤 · 12라운드', 'De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p2-leven.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p3-cultuur.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p4-sport.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p5-jongeren.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p6-verdieping.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p7-taal.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+p8-toets.svg ['De Lucerna · 네덜란드어 주간지 VOL.2 · 텍스트는 네덜란드어 · 해설은 한국어']
+
+=== A7: 桥接 count edition ===
+total 桥接 = 0
+
+=== A8: residual scripts in edition ===
+p1-voorpagina.svg hanzi= 0 cyrillic= 0 kana= 0
+p2-leven.svg hanzi= 0 cyrillic= 0 kana= 0
+p3-cultuur.svg hanzi= 0 cyrillic= 0 kana= 0
+p4-sport.svg hanzi= 0 cyrillic= 0 kana= 0
+p5-jongeren.svg hanzi= 0 cyrillic= 0 kana= 0
+p6-verdieping.svg hanzi= 0 cyrillic= 0 kana= 0
+p7-taal.svg hanzi= 0 cyrillic= 0 kana= 0
+p8-toets.svg hanzi= 0 cyrillic= 0 kana= 0

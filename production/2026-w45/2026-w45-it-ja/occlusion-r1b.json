@@ -1,0 +1,32 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-ja/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "LA SETTIMANA IN CIFRE · 数字で見る今週",
+   "box": [
+    545.0,
+    1320.5,
+    995.5,
+    1343.0
+   ],
+   "detail": "ink overlaps 'novembre.' by 6.5x15.4px",
+   "by": "text@94"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "LA SETTIMANA IN CIFRE · 数字で見る今週",
+   "box": [
+    545.0,
+    1320.5,
+    995.5,
+    1343.0
+   ],
+   "detail": "ink crosses its box borders: right ink 995.5 > border 961.0",
+   "by": "rect@56"
+  }
+ ],
+ "flag_count": 2
+}

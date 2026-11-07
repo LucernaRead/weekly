@@ -1,0 +1,136 @@
+== TOKEN lost p1-portada: {'aprender': 1, 'desde': 1, 'el': 1, 'españa': 1, 'español': 1, 'la': 1, 'lucerna': 1, 'para': 1, 'periódico': 1, 'real': 1, 'semanal': 1, 'spanish': 1, 'vida': 1, 'weekly': 1}
+== TOKEN lost p2-vida: {'lucerna': 1, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p3-cultura: {'lucerna': 1, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p4-deporte: {'lucerna': 1, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p5-juventud: {'lucerna': 1, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p6-afondo: {'lucerna': 1, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p7-lengua: {'lucerna': 1, 'página': 8, 'spanish': 1, 'weekly': 1}
+== TOKEN lost p8-ejercicios: {'ahora': 1, 'el': 1, 'escriben': 1, 'están': 1, 'las': 1, 'listas': 1, 'los': 1, 'presentadas': 1, 'programas': 1, 'página': 8, 'se': 1, 'spanish': 1, 'weekly': 1, 'ya': 1}
+== P8 #17 core-key='preguntan' ed-key='preguntan' EQUAL=True
+== P8 #18 core-key='anochece' ed-key='anochece' EQUAL=True
+== P8 #19 core-key='descansamos' ed-key='descansamos' EQUAL=True
+== P8 #20 core-key='dura' ed-key='dura' EQUAL=True
+== P8 #60 core-key='El Madrid ganó 2–1 en el Camp Nou.' ed-key='El Madrid ganó 2–1 en el Camp Nou.' EQUAL=True
+== P8 #61 core-key='Mbappé marcó dos goles.' ed-key='Mbappé marcó dos goles.' EQUAL=True
+== P8 #62 core-key='El Barça perdió su primer partido.' ed-key='El Barça perdió su primer partido.' EQUAL=True
+== P8 #63 core-key='Mourinho recortó la distancia.' ed-key='Mourinho recortó la distancia.' EQUAL=True
+== P8 #64 core-key='Los aficionados fueron al estadio.' ed-key='Los aficionados fueron al estadio.' EQUAL=True
+== P8 #72 core-key='acoge' ed-key='acoge' EQUAL=True
+== P8 #83 core-key='A' ed-key='A' EQUAL=True
+== P8 #85 core-key='C' ed-key='C' EQUAL=True
+== P8 #95 core-key='para que' ed-key='para que' EQUAL=True
+== P8 #96 core-key='Aunque' ed-key='Aunque' EQUAL=True
+== P8 #98 core-key='muestra' ed-key='muestra' EQUAL=True
+== P8 #107 core-key='mejor' ed-key='mejor' EQUAL=True
+== P8 #117 core-key='A' ed-key='A' EQUAL=True
+== P8 #137 core-key='周一在九个自治区是假日。' ed-key="Maandag is een feestdag in negen autonome regio's." EQUAL=False
+== P8 #138 core-key='周日我们看 NFL 和马竞–巴萨。' ed-key='Op zondag kijken we naar de NFL en Atlético–Barça.' EQUAL=False
+== P8 #148 core-key='A' ed-key='A' EQUAL=True
+== P8 #150 core-key='✓ 范文见本版 H 区（84 词）' ed-key='✓ voorbeeldtekst in deel H (84 woorden)' EQUAL=False
+== P8 #150 core full: ✓ 范文见本版 H 区（84 词）
+== P8 #150 ed full: ✓ voorbeeldtekst in deel H (84 woorden)
+== P8 #72 core full: acoge — acoger 变位 → acoge
+== P8 #72 ed full: acoge — acoger → acoge (het organiseert)
+== P8 #148 core full: A — firmar = 签（合同）
+== P8 #148 ed full: A — firmar = tekenen (het contract)
+== GLOSS-CODE CORE:
+   content12.py: 5 items heads=['festivo', 'el', 'la', 'anochecer', 'el'] raw='festivo 放假的 · el puente 连休 · la comunidad 自治区 · anochecer 天黑 · el horario de invierno 冬令时。'
+   content12.py:inline: 0 items heads=[] raw=''
+   content34.py: 5 items heads=['sobrio', 'el', 'el', 'el', 'el'] raw='sobrio 克制的 · el homenaje 纪念表彰 · el disfraz 服装（化装） · el boniato 红薯 · el cementerio 墓地。'
+   content34.py: 5 items heads=['la', 'recortar', 'recibir', 'visitar', 'el'] raw='la jornada 轮次 · recortar la distancia 缩小分差 · recibir 主场迎战 · visitar 客场挑战 · el Metropolitano 马竞主场。'
+   content34.py:inline: 0 items heads=[] raw=''
+   content34.py:inline: 0 items heads=[] raw=''
+   content56.py: 4 items heads=['el', 'el', 'el', 'la'] raw='el emparrillado 美式足球场（烤架形场地） · el himno 国歌 · el touchdown 达阵得分 · la calabaza 南瓜。'
+   content56.py:inline: 0 items heads=[] raw=''
+   TOTAL CORE: 19
+== GLOSS-CODE ED:
+   content12.py: 5 items heads=['festivo', 'el', 'la', 'anochecer', 'el'] raw='festivo — een feestdag (bijv. nw.) · el puente — een lang weekend · la comunidad — een autonome regio · anochecer — het donker worden · el horario de '
+   content12.py:inline: 0 items heads=[] raw=''
+   content34.py: 5 items heads=['sobrio', 'el', 'el', 'el', 'el'] raw='sobrio — ingetogen · el homenaje — een herdenking · el disfraz — een kostuum · el boniato — een zoete aardappel · el cementerio — een begraafplaats.'
+   content34.py: 5 items heads=['la', 'recortar', 'recibir', 'visitar', 'el'] raw='la jornada — een speelronde · recortar la distancia — de achterstand verkleinen · recibir — thuis spelen · visitar — op bezoek spelen · el Metropolita'
+   content34.py:inline: 0 items heads=[] raw=''
+   content34.py:inline: 0 items heads=[] raw=''
+   content56.py: 4 items heads=['el', 'el', 'el', 'la'] raw='el emparrillado — het gridiron (het American footballveld) · el himno — een volkslied · el touchdown — een touchdown · la calabaza — een pompoen.'
+   content56.py:inline: 0 items heads=[] raw=''
+   TOTAL ED: 19
+== IMAGE CORE p3-cultura: ['<image x="1451" y="200" width="434" height="430" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4']
+   payload sha256: 39eaac936006604ab544173c6e8b6f59cab966d847c4249bcad984c19d9f4655
+== IMAGE CORE p5-juventud: ['<image x="1451" y="200" width="434" height="290" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4']
+   payload sha256: 70542c15d5106c4a1a93fda258924c156660a59affa38c969c38db33deeaa57d
+== IMAGE ED p3-cultura: ['<image x="1451" y="200" width="434" height="430" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4']
+   payload sha256: 39eaac936006604ab544173c6e8b6f59cab966d847c4249bcad984c19d9f4655
+== IMAGE ED p5-juventud: ['<image x="1451" y="200" width="434" height="290" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4']
+   payload sha256: 70542c15d5106c4a1a93fda258924c156660a59affa38c969c38db33deeaa57d
+== QUOTE ed-count=1 core-count=1 :: «Las listas ya están presentadas: ahora los partidos escriben sus programas.»
+== QUOTE ed-count=1 core-count=1 :: «El lunes 2 de noviembre es festivo en nueve comunidades — y día de trabajo en las demás.»
+== QUOTE ed-count=1 core-count=1 :: «Tres fiestas, una misma noche de otoño.»
+== QUOTE ed-count=1 core-count=1 :: «El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del Barça.»
+== QUOTE ed-count=1 core-count=1 :: «El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a Madrid.»
+== QUOTE ed-count=1 core-count=1 :: «La vivienda es el principal problema para el 55,7 % de los españoles.»
+== QUOTE ed-count=1 core-count=1 :: «Una encuesta es una foto con margen de error, tomada en un día concreto.»
+== QUOTE ed-count=1 core-count=1 :: «El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético–Barça a las 21:00.
+== QUOTE source pages (core): ['p7-lengua'] :: «Las listas ya están presentadas: ahora los partidos escribe
+== QUOTE source pages (core): ['p7-lengua'] :: «El lunes 2 de noviembre es festivo en nueve comunidades — y
+== QUOTE source pages (core): ['p7-lengua'] :: «Tres fiestas, una misma noche de otoño.»
+== QUOTE source pages (core): ['p7-lengua'] :: «El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota l
+== QUOTE source pages (core): ['p7-lengua'] :: «El Bernabéu cambia el césped por el emparrillado: el fútbol
+== QUOTE source pages (core): ['p7-lengua'] :: «La vivienda es el principal problema para el 55,7 % de los 
+== QUOTE source pages (core): ['p7-lengua'] :: «Una encuesta es una foto con margen de error, tomada en un 
+== QUOTE source pages (core): ['p7-lengua'] :: «El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y 
+== ED (Pagina N): Counter({'1': 2, '6': 2, '2': 1, '3': 1, '4': 1, '5': 1})
+== CORE (Página N): Counter({'4': 2, '1': 2, '6': 2, '2': 1, '3': 1, '5': 1})
+== ED (Página occurrences): [(3859, 'artes: Barça–Aston Villa, Atlético–Bayern y Villarreal–PSG. (Página 4) EL DOMING'), (3950, ' el Bernabéu por la tarde y el Atlético–Barça por la noche. (Páginas 4 y 5) QUIZ')]
+== CORE (Pagina occurrences): []
+== P6 chart-area rects identical: True 16 16
+== Inmigración el: {'x': 1011.0, 'y': 1717.0, 'size': 21.0, 'bold': True, 'fam': 'Noto Serif CJK SC', 'anchor': 'start', 'fill': '#28251d', 't': 'Inmigración'}
+== Inmigración ink box: (1011.0, 1699.0, 1144.25, 1722.5)
+   bar near label: (215.0, 1668.0, 408.0, 22.0, '#3e4c2a')
+   bar near label: (215.0, 1699.0, 266.4, 22.0, '#3e4c2a')
+   bar near label: (215.0, 1730.0, 205.20000000000002, 22.0, '#3e4c2a')
+   bar near label: (215.0, 1761.0, 73.19999999999999, 22.0, '#3e4c2a')
+   bar near label: (215.0, 1792.0, 37.2, 22.0, '#3e4c2a')
+   bar near label: (1139.0, 1668.0, 417.75, 22.0, '#a4553a')
+   bar near label: (1139.0, 1699.0, 156.75, 22.0, '#a4553a')
+   bar near label: (1139.0, 1730.0, 152.25, 22.0, '#a4553a')
+== CORE Inmigración ink box: (1011.0, 1699.0, 1144.25, 1722.5)
+== FURN badge: W43=[(975.0, 372.0, 19.5, True, '#a4553a', 'TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS')] || ED=[(975.0, 372.0, 19.5, True, '#a4553a', 'TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS')] || SAME=True
+== FURN subtitle330: W43=[(975.0, 46.0, 'SPAANS WEEKBLAD · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1')] || ED=[(975.0, 46.0, 'SPAANS WEEKBLAD · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL')] || SAME=False
+== FURN top92: W43=[(65.0, 23.0, 'VOL. 1 · PRIMERA EDICIÓN'), (975.0, 21.0, 'CADA SEMANA EN ESPAÑOL · ELKE WEEK · HET SPAANS DAT DE SPANJAARDEN LEZEN'), (1885.0, 23.0, 'SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026')] || ED=[(65.0, 23.0, 'VOL. 2 · SEGUNDA EDICIÓN'), (975.0, 21.0, 'CADA SEMANA EN ESPAÑOL · ELKE WEEK · HET SPAANS DAT DE SPANJAARDEN LEZEN'), (1885.0, 23.0, 'SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026')] || SAME=False
+== FURN gloss_prefixes: W43=Counter({'Uitleg': 5}) || ED=Counter({'Uitleg': 5}) || SAME=True
+== FURN p8_header: W43=['EJERCICIOS Y RESPUESTAS · Oefeningen en antwoorden', 'RESPUESTAS · Antwoorden — per pagina gerangschikt; zoek op nummer'] || ED=['EJERCICIOS Y RESPUESTAS · Oefeningen en antwoorden', 'RESPUESTAS · Antwoorden — per pagina gerangschikt; zoek op nummer'] || SAME=True
+== FURN p8_sub: W43=['RESPUESTAS · Antwoorden — per pagina gerangschikt; zoek op nummer'] || ED=['RESPUESTAS · Antwoorden — per pagina gerangschikt; zoek op nummer'] || SAME=True
+== FURN p8_sep: W43=['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —'] || ED=['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —'] || SAME=True
+== FURN ex_heads: W43=['EJERCICIOS Y RESPUESTAS · Oefeningen en antwoorden', 'EJERCICIOS · Oefeningen van pagina 2', 'EJERCICIOS · Oefeningen van pagina 3', 'EJERCICIOS · Oefeningen van pagina 4', 'EJERCICIOS · Oefeningen van pagina 5', 'EJERCICIOS · Oefeningen van pagina 6'] || ED=['EJERCICIOS Y RESPUESTAS · Oefeningen en antwoorden', 'EJERCICIOS · Oefeningen van pagina 2', 'EJERCICIOS · Oefeningen van pagina 3', 'EJERCICIOS · Oefeningen van pagina 4', 'EJERCICIOS · Oefeningen van pagina 5', 'EJERCICIOS · Oefeningen van pagina 6'] || SAME=True
+== FURN ans_ptr: W43=['Antwoorden op pagina 8 · Niveaus door elkaar — zoek op nummer', 'Lees de voorpagina en kies het juiste antwoord · Antwoorden op pagina 8'] || ED=['Antwoorden op pagina 8 · Niveaus door elkaar — zoek op nummer', 'Lees de voorpagina en kies · Antwoorden op pagina 8'] || SAME=False
+== LETTER core pre-note: ['«¡Hola! Soy Ana, estudio español en', 'Shanghái. El lunes 2 no tengo', 'puente, pero el domingo veo el', 'Atlético–Barça con mis amigos — ¡y', 'antes, la NFL! ¡Gracias por el', 'periódico!» — Ana （ejemplo, escrito', 'por la redacción）']
+== LETTER ed pre-note: ['«¡Hola! Soy Ana, estudio español en', 'Shanghái. El lunes 2 no tengo', 'puente, pero el domingo veo el', 'Atlético–Barça con mis amigos — ¡y', 'antes, la NFL! ¡Gracias por el', 'periódico!» — Ana （ejemplo, escrito', 'por la redacción）', 'Nota de la redacción: al cierre no había', 'cartas reales ni los mejores textos de la', 'página 8; publicamos este ejemplo y la', 'promesa pasa al VOL.3.']
+== LETTER core note lines: ['periódico!» — Ana （ejemplo, escrito', 'Nota de la redacción: al cierre no había', 'página 8; publicamos este ejemplo y la']
+== LETTER ed note lines: ['Nota de la redacción: al cierre no había']
+== FULLWIDTH-PAREN CORE: 'periódico!» — Ana （ejemplo, escrito'
+== FULLWIDTH-PAREN CORE: 'FRASES DE LA SEMANA · 本周金句（逐字摘自本期文章）'
+== FULLWIDTH-PAREN ED: 'periódico!» — Ana （ejemplo, escrito'
+== P8 tail CORE: ['128. A — 竞选 11 月 13 日开始', '129. B — 马德里在放假名单里', '130. A — 加泰罗尼亚周一是工作日', '131. A — Ana 只看 NFL；晚上看马竞–巴萨的是 Pablo', '132. B — 标题概括两地对比', '133. El lunes es festivo en Madrid. — 主语 + 动词 + 地点', '134. El domingo vemos la NFL en el Bernabéu. — 时间在前', '135. El Atlético–Barça empieza a las nueve. — a las nueve = 在九点', '136. ¿A qué hora empieza el partido? — 疑问词在句首', '137. 周一在九个自治区是假日。 — 对照原文', '138. 周日我们看 NFL 和马竞–巴萨。 — 对照原文', '139. El Bernabéu acoge un partido de la NFL. — acoger = 承办', '140. Cada gráfico tiene que llevar su fuente. — tener que = 必须', '141. c — sondeo=民调 c', '142. d — muestra=样本 d', '143. b — margen de error=误差范围 b', '144. a — junta electoral=选举委员会 a', '145. A — alquiler = 租金', '146. A — tres habitaciones = 三居室', '147. A — ¿cuánto cuesta? 多少钱', '148. A — firmar = 签（合同）', '149. A — mudanza = 搬家', '150. ✓ 范文见本版 H 区（84 词）', 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY', '第 8 版 / 共 8 版']
+== P8 tail ED: ['plaats', '134. El domingo vemos la NFL en el Bernabéu. — tijd eerst', '135. El Atlético–Barça empieza a las nueve. — a las nueve = om', 'negen uur', '136. ¿A qué hora empieza el partido? — het vraagwoord staat', 'vooraan', "137. Maandag is een feestdag in negen autonome regio's. — zie het", 'origineel', '138. Op zondag kijken we naar de NFL en Atlético–Barça. — zie het', 'origineel', '139. El Bernabéu acoge un partido de la NFL. — acoger =', 'organiseren', '140. Cada gráfico tiene que llevar su fuente. — tener que = moeten', '141. c — sondeo = een opiniepeiling — c', '142. d — muestra = de geïnterviewden — d', '143. b — margen de error = foutmarge — b', '144. a — junta electoral = het stembureau — a', '145. A — alquiler = huur', '146. A — tres habitaciones = drie slaapkamers', '147. A — ¿cuánto cuesta? = hoeveel kost het?', '148. A — firmar = tekenen (het contract)', '149. A — mudanza = verhuizen', '150. ✓ voorbeeldtekst in deel H (84 woorden)', 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDER', 'Pagina 8 van 8']
+== BUILD svglib.py byte-identical core-vs-ed: True 45d5327cc801 45d5327cc801
+== BUILD bslib4.py diff lines: 14
+70,71c70,71
+<         self.text(MX, 2624, "La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY", 20, "sans", False, GREY)
+<         self.text(RIGHT, 2624, f"第 {n} 版 / 共 {total} 版", 20, "sans", False, GREY, anchor="end")
+---
+>         self.text(MX, 2624, "La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS", 20, "sans", False, GREY)
+>         self.text(RIGHT, 2624, f"Pagina {n} van {total}", 20, "sans", False, GREY, anchor="end")
+154c154
+<     def bridge(self, s, size=20.5, gap=9, fill=GREY):
+---
+>     def expl(self, s, size=20.5, gap=9, fill=GREY):
+197c197
+<         return self.box("", [("译注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+---
+>         return self.box("", [("Uitleg — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+
+== BUILD-CODE 'bridge' count CORE: 21
+== BUILD-CODE 'bridge' count ED: 0
+== BUILD-CODE '（' count CORE: 37
+== BUILD-CODE '（' count ED: 2
+== BUILD-CODE 'Uitleg' count CORE: 0
+== BUILD-CODE 'Uitleg' count ED: 2

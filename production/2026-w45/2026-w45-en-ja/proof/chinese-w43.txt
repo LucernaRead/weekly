@@ -1,0 +1,26 @@
+strict simplified-only char hits: NONE (0)
+true-Chinese-word hits: NONE (0)
+forbidden 桥接 count: 0 | 讲解: 0 | 译注: 0
+ABSTRACT checks:
+'The Lucerna英語週刊VOL.2は、11月3日の中間選挙の投票日、11月1日の時計を戻す日、ハロウィーン、映画The Cat in the HatとGodzilla Minus Zero、NFLマドリード戦を英語の記事で読み、日本語の解説で学ぶ、A2からB2まで150問の英語学習者向け週刊紙です。\n'
+lines: 1 has ASCII quote: False
+  The Lucerna True
+  英語 True
+  A2 True
+  B2 True
+  150問 True
+=== W43 furniture comparison ===
+'英語テキスト · 日本語の解説 — 日本語読者のための版' W43: 1 W45JA: 1
+'解説 — ' W43: 7 W45JA: 7
+'文法ポイント — ' W43: 8 W45JA: 8
+'— 1 ページ —' W43: 1 W45JA: 1
+'1 ページ（全 8 ページ）' W43: 1 W45JA: 1
+'ANSWERS · 全解答と解説（1–8ページ）' W43: 1 W45JA: 1
+W43 footer sample: ['The Lucerna · 英語週刊 VOL.1 · 本文は英語 · 解説は日本語', 'The Lucerna · 英語週刊 VOL.1 · 本文は英語 · 解説は日本語', 'The Lucerna · 英語週刊 VOL.1 · 本文は英語 · 解説は日本語']
+W45 footer sample: ['The Lucerna · 英語週刊 VOL.2 · 本文は英語 · 解説は日本語', 'The Lucerna · 英語週刊 VOL.2 · 本文は英語 · 解説は日本語', 'The Lucerna · 英語週刊 VOL.2 · 本文は英語 · 解説は日本語']
+W43 P8 separators: ['— 1 ページ —', '— 2 ページ —', '— 3 ページ —', '— 4 ページ —']
+W45 P8 separators: ['— 1 ページ —', '— 2 ページ —', '— 3 ページ —', '— 4 ページ —']
+W43 badge: ['英語テキスト · 日本語の解説 — 日本語読者のための版']
+W45 badge: ['英語テキスト · 日本語の解説 — 日本語読者のための版']
+W43 P8 paren style sample: [') · 145. line (line = 列（米語）) · 146. ballot (ballot = 投票用紙']
+W45 P8 paren style sample: ['435 House seats on the ballot. (p. 6)', '間選挙 b) · 142. c (governor = 州知事 c) · 143. d (ballot = 投票']

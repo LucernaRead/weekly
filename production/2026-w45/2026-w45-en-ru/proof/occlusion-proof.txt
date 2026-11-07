@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-en-ru/svg: 1 flags {'TEXTX': 1}
+  [TEXTX] p1-front.svg 'The Lucerna' — ink overlaps 'АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · ВЫБОРЫ' by 834.2x6.0px
+core: 0 flags; NEW vs core: 1
+  NEW [TEXTX] p1-front.svg 'The Lucerna' — ink overlaps 'АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · ВЫБОРЫ' by 834.2x6.0px

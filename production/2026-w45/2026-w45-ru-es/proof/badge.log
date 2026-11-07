@@ -1,0 +1,73 @@
+== 6 badge ink (canonical ink_box) ==
+ED-W45: text x=975.0 baseline y=574.0 fs=22.0 fill=#a4553a fw=700 anchor=middle
+   ink box l=402.46 t=551.75 r=1547.46 b=574.25 width=1145.00
+W43: text x=975.0 baseline y=372.0 fs=20.0 fill=#a4553a fw=700 anchor=middle
+   ink box l=454.50 t=351.75 r=1495.50 b=372.25 width=1041.00
+-- ED P1 vertical neighbours --
+dark band rect bottom 542.0 -> badge ink top 551.75 = gap 9.75
+headline 'ГЛАВНАЯ ТЕМА · El tema principal' baseline 606.0 ink top 588.00 bottom 610.75; badge ink bottom 574.25 -> headline ink top gap 13.75
+side box rect x=1451 y=580 top 580 -> badge ink bottom 574.25 = gap 5.75 (x-overlap region 1451-1547.5, vertical clearance only)
+-- ED P1 y=372 strapline retained? --
+    'ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ' fs= 19.0 fill= #57523f
+-- CORE P1 y=372 --
+    'ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ' fs= 19.0 fill= #57523f
+-- W43 P1 y=372 (badge slot, no strapline) --
+    'TEXTOS EN RUSO · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES' fs= 20.0 fill= #a4553a
+
+== 7 P7 readers-corner geometry ED vs CORE ==
+-- CORE rects/lines with bottom in 1700-1760 --
+   rect x=1451.0 y=1254.58 w=434.0 h=473.0 bottom=1727.58 fill=#fdfaf0 stroke=#d8cfb4
+   line (65.0,1756.0)-(1885.0,1756.0) stroke=#b3a06a
+-- CORE texts y 1300-1760 in letters-box columns (x<1451, y>1300) --
+   y=1343.58 x=1473.0 fs=21.5 '«Здравствуйте! Я учу русский язык'
+   y=1374.11 x=1473.0 fs=21.5 'и читаю Lucerna. В среду, 4'
+   y=1404.6399999999999 x=1473.0 fs=21.5 'ноября, я тоже отдохну: пойду на'
+   y=1435.1699999999998 x=1473.0 fs=21.5 'ярмарку с семьёй!» — М. (пример'
+   y=1465.6999999999998 x=1473.0 fs=21.5 'от редакции)'
+   y=1527.2299999999998 x=1473.0 fs=21.5 'Настоящих писем и лучших'
+   y=1557.7599999999998 x=1473.0 fs=21.5 'сочинений к сроку сдачи не'
+   y=1588.2899999999997 x=1473.0 fs=21.5 'поступило: здесь снова пример от'
+   y=1618.8199999999997 x=1473.0 fs=21.5 'редакции. Обещание переносится'
+   y=1649.3499999999997 x=1473.0 fs=21.5 'на VOL.3.'
+   y=1709.8799999999997 x=1473.0 fs=20.0 '截至交稿时未收到真实来信与最佳作文，仍'
+   y=1738.2799999999997 x=1473.0 fs=20.0 '为编辑部示例；承诺顺延至 VOL.3。'
+-- ED rects/lines with bottom in 1700-1760 --
+   rect x=1451.0 y=1254.58 w=434.0 h=473.0 bottom=1727.58 fill=#fdfaf0 stroke=#d8cfb4
+   line (65.0,1756.0)-(1885.0,1756.0) stroke=#b3a06a
+-- ED texts y 1300-1760 in letters-box columns (x<1451, y>1300) --
+   y=1343.58 x=1473.0 fs=21.5 '«Здравствуйте! Я учу русский язык'
+   y=1374.11 x=1473.0 fs=21.5 'и читаю Lucerna. В среду, 4'
+   y=1404.6399999999999 x=1473.0 fs=21.5 'ноября, я тоже отдохну: пойду на'
+   y=1435.1699999999998 x=1473.0 fs=21.5 'ярмарку с семьёй!» — М. (пример'
+   y=1465.6999999999998 x=1473.0 fs=21.5 'от редакции)'
+   y=1527.2299999999998 x=1473.0 fs=21.5 'Настоящих писем и лучших'
+   y=1557.7599999999998 x=1473.0 fs=21.5 'сочинений к сроку сдачи не'
+   y=1588.2899999999997 x=1473.0 fs=21.5 'поступило: здесь снова пример от'
+   y=1618.8199999999997 x=1473.0 fs=21.5 'редакции. Обещание переносится'
+   y=1649.3499999999997 x=1473.0 fs=21.5 'на VOL.3.'
+   y=1709.8799999999997 x=1473.0 fs=20.0 'Sin cartas ni textos al cierre: ejemplo de la'
+   y=1738.2799999999997 x=1473.0 fs=20.0 'redacción. La promesa pasa a VOL.3.'
+
+== 4 P6 chart element check ED vs CORE ==
+-- CORE --
+   bar rect x=685 y=1612 w=600.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1658 w=494.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1704 w=388.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1750 w=282.0 h=30 fill=#3e4c2a
+   text y=1634.0 x=1299.0 fs=21.5 '34%'
+   text y=1680.0 x=1193.0 fs=21.5 '28%'
+   text y=1726.0 x=1087.0 fs=21.5 '22%'
+   text y=1772.0 x=981.0 fs=21.5 '16%'
+-- ED --
+   bar rect x=685 y=1612 w=600.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1658 w=494.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1704 w=388.0 h=30 fill=#3e4c2a
+   bar rect x=685 y=1750 w=282.0 h=30 fill=#3e4c2a
+   text y=1634.0 x=1299.0 fs=21.5 '34%'
+   text y=1680.0 x=1193.0 fs=21.5 '28%'
+   text y=1726.0 x=1087.0 fs=21.5 '22%'
+   text y=1772.0 x=981.0 fs=21.5 '16%'
+
+== 4 same-baseline ink scan (ED + CORE, all pages) ==
+CORE same-baseline ink flags total: 0
+ED same-baseline ink flags total: 0

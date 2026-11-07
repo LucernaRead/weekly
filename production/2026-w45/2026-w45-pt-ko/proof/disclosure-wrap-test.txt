@@ -1,0 +1,7 @@
+Wrap simulation (builder svglib.wrap, sans 19.5, width 390 = CW 434 - 44), run by proofreader:
+- current: 3 lines, split 최|고의 (tail 2) — retained version
+- 편집부에서 알림: : 4 lines, line 4 = lone '.' (line-start orphan punctuation — worse)
+- 편지들과: 4 lines, line 4 = lone '.' (worse)
+- drop 의 (최고 작문): 3 lines, still split 최|고 (tail 1, no gain + wording change)
+- proofreader candidates (이번 호는 / 마감 전에): 3 lines but line 3 starts with stranded particle 는 (new defect class) and/or meaning shift
+Conclusion: no tested wording gives a clean 3-line no-split render at this column width/font; a clean fix would need a layout change (column width/font), not wording. 최|고의 is tail-2, not S3, and instantly readable. Retaining is justified, non-blocking.

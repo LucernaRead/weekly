@@ -1,0 +1,33 @@
+== pt-en P5 numbered nodes ==
+'1. Confira o Cartão de Confirmação do'
+'2. Revise um pouco por dia: Natureza e'
+'3. Durma bem na véspera da prova'
+'4. Separe documento e caneta preta no'
+'5. Domingo 15: chegue antes das 12h'
+== pt-de P1 numbered nodes ==
+'15. Nov.: zweiter Prüfungstag · Feiertag der Ausrufung der Republik'
+== pt-es P2 numbered nodes ==
+'25. a proclamação'
+'26. o feriado'
+'27. a natureza'
+'28. a matemática'
+== pt-en P1 numbered nodes ==
+== P8 body stems 141-144 presence ==
+de ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = eine Veränderung ankündigen (b)', '142. d — portão = der Eingang zum Prüfungsort (d)', '143. a — república = die Staatsform nach 1889 (a)', '144. c — segunda chamada = Wiedereinlass nach Schließung (gibt es']
+en ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = announcing a change (b)', '142. d — portão = the exam venue entrance (d)', '143. a — república = the form of the State after 1889 (a)', '144. c — segunda chamada = re-entry after closing (there is none in']
+es ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = anunciar un cambio (b)', '142. d — portão = la entrada del centro de examen (d)', '143. a — república = la forma de Estado después de 1889 (a)', '144. c — segunda chamada = reentrada tras el cierre (no existe en el']
+fr ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = annoncer un changement (b)', '142. d — portão = l’entrée du centre d’examen (d)', '143. a — república = la forme d’État après 1889 (a)', '144. c — segunda chamada = réadmission après fermeture (n’existe']
+it ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = annunciare un cambiamento (b)', '142. d — portão = l’ingresso del centro d’esame (d)', '143. a — república = la forma di Stato dopo il 1889 (a)', '144. c — segunda chamada = rientro dopo la chiusura (non esiste']
+ja ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = 変化を宣言すること (b)', '142. d — portão = 試験会場の入口 (d)', '143. a — república = 1889 年以後の国家形態 (a)', '144. c — segunda chamada = 閉門後の再入場（Enem にはない）(c)']
+ko ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = 변화를 선포하는 것 (b)', '142. d — portão = 시험장 입구 (d)', '143. a — república = 1889년 이후의 국가 형태 (a)', '144. c — segunda chamada = 폐문 후 재입장(Enem에는 없어요) (c)']
+nl ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = een verandering aankondigen (b)', '142. d — portão = de ingang van het examencentrum (d)', '143. a — república = de staatsvorm na 1889 (a)', '144. c — segunda chamada = opnieuw binnen na sluiting (bestaat']
+ru ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação = объявить изменение (b)', '142. d — portão = вход в экзаменационный центр (d)', '143. a — república = форма государства после 1889 года (a)', '144. c — segunda chamada = повторный вход после закрытия (в']
+zh-cn ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação=宣布一个变化 b', '142. d — portão=考场入口 d', '143. a — república=1889 年后的国家形式 a', '144. c — segunda chamada=关门后的再入场（高考没有） c']
+zh-tw ['141. a proclamação', '142. o portão', '143. a república', '144. a segunda chamada', '141. b — proclamação=宣佈一個變化 b', '142. d — portão=考場入口 d', '143. a — república=1889 年後的國家形式 a', '144. c — segunda chamada=關門後的再入場（高考沒有） c']
+== LEVEL SPLIT from core build register ==
+register entries: 138 Counter({'B1': 66, 'A2': 45, 'B2': 27})
+content12.py 24 Counter({'A2': 22, 'B1': 2})
+content34.py 32 Counter({'B1': 22, 'A2': 10})
+content56.py 36 Counter({'B2': 21, 'B1': 15})
+content7.py 12 Counter({'A2': 4, 'B1': 4, 'B2': 4})
+content8.py 34 Counter({'B1': 23, 'A2': 9, 'B2': 2})

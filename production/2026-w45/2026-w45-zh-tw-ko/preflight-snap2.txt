@@ -1,0 +1,11 @@
+snap2 2026-10-28T09:17:22+00:00
+delivery:
+build:
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-zh-tw-ko-build/es_olds.txt
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-zh-tw-ko-build/es_pairs.json
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-zh-tw-ko-build/extract_olds.py
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-zh-tw-ko-build/preflight-snap1.txt
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-report-w45-zh-tw-ko-build/preflight-snap2.txt
+procs:
+root        6412  0.0  0.0   4344  3408 ?        S    09:17   0:00 /bin/bash --norc --noprofile -c umask 0007; cd ~/workspace/goals/lucernaread-social-media-operations/tools ./venv/bin/python ../hidden_files/weekly-report-w45-zh-tw-ja-build/run.py 2>&1 | tail -30
+root        6413 41.4  1.0 685716 87664 ?        R    09:17   0:05 ./venv/bin/python ../hidden_files/weekly-report-w45-zh-tw-ja-build/run.py

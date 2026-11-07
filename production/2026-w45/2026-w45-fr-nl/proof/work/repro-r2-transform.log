@@ -1,0 +1,23 @@
+skip section 1 for content12.py (ROUND=2)
+skip section 1 for content34.py (ROUND=2)
+skip section 1 for content56.py (ROUND=2)
+skip section 1 for content7.py (ROUND=2)
+skip section 1 for content8.py (ROUND=2)
+skip section 1 for bslib4.py (ROUND=2)
+skip section 1 for content12.py (ROUND=2)
+skip section 1 for content34.py (ROUND=2)
+skip section 1 for content56.py (ROUND=2)
+skip section 1 for content7.py (ROUND=2)
+skip section 1 for content8.py (ROUND=2)
+content12.py: CJK gate clean (only registry type names remain)
+content34.py: CJK gate clean (only registry type names remain)
+content56.py: CJK gate clean (only registry type names remain)
+content7.py: CJK gate clean (only registry type names remain)
+content8.py: CJK gate clean (only registry type names remain)
+bslib4.py: CJK gate clean (only registry type names remain)
+TRANSFORM OK
+content12.py: 7 replacements applied
+content34.py: 6 replacements applied
+content56.py: 8 replacements applied
+content7.py: 4 replacements applied
+content8.py: 14 replacements applied

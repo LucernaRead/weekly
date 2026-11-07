@@ -1,0 +1,90 @@
+=== 1. same-baseline ink collisions (all pages) ===
+same-baseline collisions: 0
+=== 2. ADVANCE right-edge scan (limit 1885.5) ===
+  p8-tesuto: '終わりますから、静かな場所で大きな冒険をしたいです。11月は短' adv_right=1885.7 ink_right=1885.8
+advance violations: 1
+=== 3. frame-line scan: later-drawn rect borders/lines vs text ink ===
+frame-line hits: 0
+=== 4. P6 chart labels vs later bars (coverage <30%) ===
+P6 max chart-label coverage: 0.000 worst=None
+=== 5. kinsoku line starts ===
+NO_START size: 16
+  p1-hyoushi ed: 0 []
+  p1-hyoushi core: 0 []
+  p2-kurashi ed: 0 []
+  p2-kurashi core: 0 []
+  p3-bunka ed: 0 []
+  p3-bunka core: 0 []
+  p4-supotsu ed: 0 []
+  p4-supotsu core: 0 []
+  p5-wakamono ed: 0 []
+  p5-wakamono core: 0 []
+  p6-fukayomi ed: 0 []
+  p6-fukayomi core: 0 []
+  p7-kotoba ed: 0 []
+  p7-kotoba core: 0 []
+  p8-tesuto ed: 0 []
+  p8-tesuto core: 0 []
+=== 6. P8 keys flow end / P7 teaser ===
+P8 last keys baseline: 2514.920000000003 count: 158
+=== 7. gloss counts (split on U+00B7) ===
+  p1-hyoushi: edition gloss items=2 core=3
+  p2-kurashi: edition gloss items=4 core=6
+  p3-bunka: edition gloss items=6 core=7
+  p4-supotsu: edition gloss items=4 core=6
+  p5-wakamono: edition gloss items=5 core=7
+  p6-fukayomi: edition gloss items=2 core=4
+  P7 bridge items ed: 9
+  P7 bridge items core: 9
+=== 8. phrases 2x (blank-stripped) ===
+  2x :: 文化の日は、11月3日（火よう日）です。
+  2x :: ゆっくり、ゆるく整える日本の11月です。
+  2x :: 『ゆる』は、無理をしない、ゆっくり、という意味です。
+  2x :: 鍋の材料が1か月早く並び始めました。
+  2x :: 伝統工芸と紅葉と光を、いっしょに楽しむことができます。
+  2x :: ソフトバンクが2連勝でスタートしました。
+  2x :: ルールを守って、楽しいハロウィンにしましょう。
+  2x :: 紅葉を見に行く人は、北から南へ、見頃を追いかけることができま
+=== 9. image payloads core vs edition ===
+  p1-hyoushi ed: 1 images ['92f3f41c7cec']
+  p1-hyoushi payload match: True
+  p2-kurashi ed: 0 images []
+  p2-kurashi payload match: True
+  p3-bunka ed: 1 images ['76f4abb34efc']
+  p3-bunka payload match: True
+  p4-supotsu ed: 1 images ['ab8d113ff083']
+  p4-supotsu payload match: True
+  p5-wakamono ed: 1 images ['f954d75303c8']
+  p5-wakamono payload match: True
+  p6-fukayomi ed: 0 images []
+  p6-fukayomi payload match: True
+  p7-kotoba ed: 0 images []
+  p7-kotoba payload match: True
+  p8-tesuto ed: 0 images []
+  p8-tesuto payload match: True
+=== 10. P8 note completeness: byte-identical keys-region lines ===
+byte-identical P8 keys lines: 0
+edition keys lines: 158 core: 159
+numbers edition: 158
+=== 11. keydiff detail (extracted keys) ===
+  #1 core={'has_note': True, 'key': '3 — 文化日在11月3日', 'seg': '3 — 文化日在11月3日（周二）', 'method': 'paren'} ed={'has_note': True, 'key': '3 — O Dia da Cultura é 3 de novembro', 'seg': '3 — O Dia da Cultura é 3 de novembro (terça-feira)', 'method': 'paren'}
+  #2 core={'has_note': True, 'key': '9 — 读书周到11月9日', 'seg': '9 — 读书周到11月9日（周一）', 'method': 'paren'} ed={'has_note': True, 'key': '9 — A Semana da Leitura vai até 9 de novembro', 'seg': '9 — A Semana da Leitura vai até 9 de novembro (segunda-feira)', 'method': 'paren'}
+  #5 core={'has_note': True, 'key': '7', 'seg': '7 — 神户灯光秀从7日（周六）开始', 'method': 'dash'} ed={'has_note': True, 'key': '7 — As luzes de Kobe começam no dia 7', 'seg': '7 — As luzes de Kobe começam no dia 7 (sábado)', 'method': 'paren'}
+  #7 core={'has_note': True, 'key': 'B — 文化日在11月3日', 'seg': 'B — 文化日在11月3日（周二）', 'method': 'paren'} ed={'has_note': True, 'key': 'B — O Dia da Cultura é 3 de novembro', 'seg': 'B — O Dia da Cultura é 3 de novembro (terça-feira)', 'method': 'paren'}
+  #8 core={'has_note': True, 'key': 'C — 读书周到11月9日', 'seg': 'C — 读书周到11月9日（周一）', 'method': 'paren'} ed={'has_note': True, 'key': 'C — A Semana da Leitura vai até 9 de novembro', 'seg': 'C — A Semana da Leitura vai até 9 de novembro (segunda-feira)', 'method': 'paren'}
+  #9 core={'has_note': True, 'key': 'B — 立冬在11月7日', 'seg': 'B — 立冬在11月7日（周六）', 'method': 'paren'} ed={'has_note': True, 'key': 'B — 立冬 é 7 de novembro', 'seg': 'B — 立冬 é 7 de novembro (sábado)', 'method': 'paren'}
+  #29 core={'has_note': True, 'key': 'A — 文化日在11月3日', 'seg': 'A — 文化日在11月3日（周二）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — O Dia da Cultura é 3 de novembro', 'seg': 'A — O Dia da Cultura é 3 de novembro (terça-feira)', 'method': 'paren'}
+  #32 core={'has_note': True, 'key': 'B — 工艺展到11月8日', 'seg': 'B — 工艺展到11月8日（周日）', 'method': 'paren'} ed={'has_note': True, 'key': 'B — A exposição vai até 8 de novembro', 'seg': 'B — A exposição vai até 8 de novembro (domingo)', 'method': 'paren'}
+  #65 core={'has_note': True, 'key': 'A — 万圣节在10月31日', 'seg': 'A — 万圣节在10月31日（周六）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — O Halloween foi em 31 de outubro', 'seg': 'A — O Halloween foi em 31 de outubro (sábado)', 'method': 'paren'}
+  #69 core={'has_note': True, 'key': 'C — 横滨中区民祭在11月8日', 'seg': 'C — 横滨中区民祭在11月8日（周日）', 'method': 'paren'} ed={'has_note': True, 'key': 'C — Festival de Naka, em Yokohama: 8 de novembro', 'seg': 'C — Festival de Naka, em Yokohama: 8 de novembro (domingo)', 'method': 'paren'}
+  #78 core={'has_note': True, 'key': '○ — ハロウィンは10月31日', 'seg': '○ — ハロウィンは10月31日（土）', 'method': 'paren'} ed={'has_note': True, 'key': '○ — O Halloween foi em 31 de outubro', 'seg': '○ — O Halloween foi em 31 de outubro (sábado)', 'method': 'paren'}
+  #101 core={'has_note': True, 'key': '27', 'seg': '27 — 读书周从10月27日（周二）开始', 'method': 'dash'} ed={'has_note': True, 'key': '27 — Semana da Leitura começou em 27 de outubro', 'seg': '27 — Semana da Leitura começou em 27 de outubro (terça)', 'method': 'paren'}
+  #113 core={'has_note': True, 'key': 'A — 文化日在11月3日', 'seg': 'A — 文化日在11月3日（周二）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — O Dia da Cultura é 3 de novembro', 'seg': 'A — O Dia da Cultura é 3 de novembro (terça-feira)', 'method': 'paren'}
+  #115 core={'has_note': True, 'key': 'A — 日本大赛第1战在10月24日', 'seg': 'A — 日本大赛第1战在10月24日（周六）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — O jogo 1 das Japan Series foi em 24 de outubro', 'seg': 'A — O jogo 1 das Japan Series foi em 24 de outubro (sábado)', 'method': 'paren'}
+  #117 core={'has_note': True, 'key': 'B — 万圣节在10月31日', 'seg': 'B — 万圣节在10月31日（周六）', 'method': 'paren'} ed={'has_note': True, 'key': 'B — O Halloween foi em 31 de outubro', 'seg': 'B — O Halloween foi em 31 de outubro (sábado)', 'method': 'paren'}
+  #118 core={'has_note': True, 'key': 'A — 立冬在11月7日', 'seg': 'A — 立冬在11月7日（周六）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — 立冬 é 7 de novembro', 'seg': 'A — 立冬 é 7 de novembro (sábado)', 'method': 'paren'}
+  #137 core={'has_note': True, 'key': '文化日是11月3日。', 'seg': '文化日是11月3日。 — 对照第3版', 'method': 'dash'} ed={'has_note': True, 'key': 'O Dia da Cultura é 3 de novembro.', 'seg': 'O Dia da Cultura é 3 de novembro. — Veja a página 3', 'method': 'dash'}
+  #138 core={'has_note': True, 'key': '乱扔垃圾，要罚2,000日元。', 'seg': '乱扔垃圾，要罚2,000日元。 — 对照第5版', 'method': 'dash'} ed={'has_note': True, 'key': 'Se jogar lixo na rua, a multa é de 2.000 ienes.', 'seg': 'Se jogar lixo na rua, a multa é de 2.000 ienes. — Veja a página 5', 'method': 'dash'}
+  #140 core={'has_note': True, 'key': '神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版', 'seg': '神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）', 'method': 'paren'} ed={'has_note': True, 'key': '神戸の紅葉のライトアップを見に行きたいです。', 'seg': '神戸の紅葉のライトアップを見に行きたいです。 — Veja a página 6', 'method': 'dash'}
+  #146 core={'has_note': True, 'key': 'A — 借りられます＝能借', 'seg': 'A — 借りられます＝能借（可能形）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — 借りられます = pode pegar emprestado', 'seg': 'A — 借りられます = pode pegar emprestado (forma potencial)', 'method': 'paren'}
+  #147 core={'has_note': True, 'key': 'A — 读书周到11月9日', 'seg': 'A — 读书周到11月9日（第7版）', 'method': 'paren'} ed={'has_note': True, 'key': 'A — A Semana da Leitura vai até 9 de novembro', 'seg': 'A — A Semana da Leitura vai até 9 de novembro (página 7)', 'method': 'paren'}

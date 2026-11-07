@@ -1,0 +1,28 @@
+=== EDITION strict flags: 8
+  ED ('p1-une', 1604.0, 'SHORT-FINAL', "'p.8'")
+  ED ('p2-vie', 2140.9, 'SHORT-FINAL', "'___'")
+  ED ('p2-vie', 2459.100000000001, 'SHORT-FINAL', "'___'")
+  ED ('p3-culture', 789.65, 'LINE-START-PUNCT@2/3', ": on le pose sur les tombes, on ne l'offre jamais")
+  ED ('p3-culture', 2405.3499999999995, 'SHORT-FINAL', "'7).'")
+  ED ('p4-sport', 837.1199999999999, 'LINE-START-PUNCT@2/11', ': quarts de finale vendredi 6')
+  ED ('p5-jeunesse', 430.64999999999986, 'LINE-START-PUNCT@6/6', ': clôture du festival.')
+  ED ('p7-langue', 428.1, 'LINE-START-PUNCT@4/5', ": attention à l'accord avec le sujet :")
+=== CORE strict flags: 13
+  CO ('p1-une', 1604.0, 'SHORT-FINAL', "'p.8'")
+  CO ('p2-vie', 2140.9, 'SHORT-FINAL', "'___'")
+  CO ('p2-vie', 2459.100000000001, 'SHORT-FINAL', "'___'")
+  CO ('p3-culture', 488.62500000000006, 'SHORT-FINAL', "'填空。'")
+  CO ('p3-culture', 1054.3749999999995, 'SHORT-FINAL', "'）。'")
+  CO ('p3-culture', 789.65, 'LINE-START-PUNCT@2/3', ": on le pose sur les tombes, on ne l'offre jamais")
+  CO ('p3-culture', 2405.3499999999995, 'SHORT-FINAL', "'7).'")
+  CO ('p4-sport', 837.1199999999999, 'LINE-START-PUNCT@2/11', ': quarts de finale vendredi 6')
+  CO ('p5-jeunesse', 430.64999999999986, 'LINE-START-PUNCT@6/6', ': clôture du festival.')
+  CO ('p6-politique', 1953.1749999999995, 'SHORT-FINAL', "'填空。'")
+  CO ('p7-langue', 1347.375, 'SHORT-FINAL', "'）。'")
+  CO ('p7-langue', 428.1, 'LINE-START-PUNCT@4/5', ": attention à l'accord avec le sujet :")
+  CO ('p7-langue', 1259.775, 'SHORT-FINAL', "'分词。'")
+=== EDITION flags NOT in core (by page/y/text): 0
+  P4BOX y=902.095 '« Allez ! » — Kom! · « Quelle action ! »'
+  P4BOX y=932.625 '— Wat een actie!'
+  P4BOX y=989.655 "« Il marque ! » — Hij scoort! · « C'est"
+  P4BOX y=1020.185 'gagné ! » — Gewonnen!'

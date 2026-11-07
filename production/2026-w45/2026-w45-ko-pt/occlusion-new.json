@@ -1,0 +1,36 @@
+{
+ "svgdir": "../files/weekly-report-w45-ko-pt/svg",
+ "flags": [
+  {
+   "page": "p7-mal.svg",
+   "class": "LINEX",
+   "text": "texto da pág. 8!",
+   "box": [
+    1473.0,
+    1747.0,
+    1614.8,
+    1769.7
+   ],
+   "detail": "later line box [64.0, 1767.9, 1886.0, 1769.9] crosses ink",
+   "by": "line@137"
+  }
+ ],
+ "flag_count": 1,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p7-mal.svg",
+   "class": "LINEX",
+   "text": "texto da pág. 8!",
+   "box": [
+    1473.0,
+    1747.0,
+    1614.8,
+    1769.7
+   ],
+   "detail": "later line box [64.0, 1767.9, 1886.0, 1769.9] crosses ink",
+   "by": "line@137"
+  }
+ ],
+ "new_flag_count": 1
+}

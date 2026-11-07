@@ -1,0 +1,50 @@
+===== W43 LA NOTICIA neighbourhood =====
+  [10]  x="65" y="606" font-family="Noto Sans CJK SC" font-size="22" font-weight="700" fill="#a4553a" text-anchor="start"
+      'LA NOTICIA · A manchete'
+      [8] 'UMA HORA A MAIS DE SONO · E O CLÁSICO'
+      [9] 'TRÊS ENCONTROS NUMA SÓ NOITE · PÁGINAS 2 E 4'
+      [10] 'LA NOTICIA · A manchete'
+      [11] 'Este domingo: dormimos una hora más… ¡y se juega el'
+      [12] 'Clásico!'
+      [13] 'De la redacción de La Lucerna · Nivel de lectura: A2'
+  -- all 'notícia/manchete' in P1 --
+    'LA NOTICIA · A manchete'
+===== W45CORE LA NOTICIA neighbourhood =====
+  [10]  x="65" y="606" font-family="Noto Sans CJK SC" font-size="22" font-weight="700" fill="#a4553a" text-anchor="start"
+      'LA NOTICIA · 头条'
+      [8] '距大选还有 27 天 · 住房决定选战'
+      [9] '本期头条 · 详见第 2、6 版'
+      [10] 'LA NOTICIA · 头条'
+      [11] 'La cuenta atrás del 29-N: la vivienda decide la campaña'
+      [12] 'De la redacción de La Lucerna · Nivel de lectura: A2'
+      [13] 'España entra en la semana decisiva'
+  -- all 'notícia/manchete' in P1 --
+===== W45ED LA NOTICIA neighbourhood =====
+  [10]  x="65" y="606" font-family="Noto Sans CJK SC" font-size="22" font-weight="700" fill="#a4553a" text-anchor="start"
+      'LA NOTICIA · A notícia'
+      [8] 'Faltam 27 dias para o 29-N · A habitação decide a campanha'
+      [9] 'A manchete desta edição · Ver páginas 2 e 6'
+      [10] 'LA NOTICIA · A notícia'
+      [11] 'La cuenta atrás del 29-N: la vivienda decide la campaña'
+      [12] 'De la redacción de La Lucerna · Nivel de lectura: A2'
+      [13] 'España entra en la semana decisiva'
+  -- all 'notícia/manchete' in P1 --
+    'A manchete desta edição · Ver páginas 2 e 6'
+    'LA NOTICIA · A notícia'
+
+===== W43 KIT furniture claims =====
+
+===== W43 band NIVEL lines =====
+  p2-vida: 'NIVEL A2 · El cambio de hora y el tiempo · A MUDANÇA DE HORA E O TEMPO'
+  p4-deporte: 'NIVEL B1 · La semana del Clásico · A SEMANA DO CLÁSICO'
+  p5-juventud: 'NIVEL B1 · Disfraces, camisetas y pantallas · FANTASIAS, CAMISAS E TELAS'
+  p6-afondo: 'NIVEL B2 · Rumbo al 29N · RUMO AO 29N'
+
+===== W45ED band NIVEL lines =====
+  p2-vida: 'NIVEL A2 · El puente del lunes 2 · A PONTE DE SEGUNDA, 2 DE NOVEMBRO'
+  p4-deporte: 'NIVEL B1 · Europa primero, el domingo a las 21:00 · A EUROPA PRIMEIRO, DOMINGO ÀS 21:00'
+  p5-juventud: 'NIVEL B1 · La NFL en Madrid · A NFL EM MADRID'
+  p6-afondo: 'NIVEL B2 · La vivienda decide la campaña · A HABITAÇÃO DECIDE A CAMPANHA'
+
+===== tables.json PT furniture (LA NOTICIA / FRASES) =====
+{"_about": "Hard-coded reference data for the Lucerna Weekly production pipeline. Extracted verbatim from shipped editions (files/weekly-report-*/WEEKLY-KIT.md + shipped SVG badge/footer strings) and cross-checked against the weekly repo frontmatter (~/workspace/weekly-git/issues/2026-w43/). Do NOT invent strings here: change this file only from a shipped artifact, and note the source.", "_sources": {"frontmatter": "~/workspace/weekly-git/lint.mjs REQUIRED_FM + README.md + AGENTS.md.", "furniture": "Shipped SVG P1 badge + P2 footer strings (authoritative render) and the establishing KITs: FRxIT (IT column), ENxPT (PT column), FRxDE (DE column), ENxFR/DE xFR (FR column), FRxES/ENxES (ES column), ENxNL/FRxNL builds (NL column, provisional).", "threads": "Repo frontmatter discordThread per target (72 editions, one unique value per target, verified 2026-10-21) — matches the task brief exactly."}, "columns": {"_note": "One entry per reader-native (explanation) language. badge_template/footer_template use placeholders {MASTHEAD} {VOL} {T_BADGE} {T_FADJ} {T_FNOUN} {N}. Per-target name forms live in target_names: T_BADGE = the exact target-name segment inside the badge (for DE it includes the word TEXT, e.g. 'FRANZÖSISCHER TEXT'; for zh in DE it is 'CHINESISCHER TEXT (VEREINFACHT)'), T_FADJ = adjective before WOCHENZEITUNG/HEBDOMADAIRE/etc., T_FNOUN = noun after TEXT AUF / TEXTE EN / TESTI IN / TEXTOS EM / TEKSTEN IN. Forms marked derived=true have no shipped example yet and were for

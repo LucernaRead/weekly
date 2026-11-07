@@ -1,0 +1,123 @@
+{
+ "svgdir": "../files/weekly-report-w45-fr-core/svg",
+ "flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "Ce matin, les élèves de toutes les zones reprennent les cour",
+   "box": [
+    95.0,
+    502.2,
+    1489.8,
+    528.2
+   ],
+   "detail": "ink overlaps '大师赛开赛 · 音乐节开幕 · 详见第 2 版' by 10.6x20.0px",
+   "by": "text@16"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "Halloween, Toussaint, Peur sur le Parc",
+   "box": [
+    1523.0,
+    1387.8,
+    1898.5,
+    1407.5
+   ],
+   "detail": "ink overlaps 'A2→B1' by 63.2x13.2px",
+   "by": "text@130"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "Pitchfork : une semaine de musique",
+   "box": [
+    1523.0,
+    1467.8,
+    1873.5,
+    1489.2
+   ],
+   "detail": "ink overlaps 'B1' by 23.0x13.2px",
+   "by": "text@136"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "LES DATES DU WEEK-END · 决赛周末日程",
+   "box": [
+    545.0,
+    1571.5,
+    999.8,
+    1594.0
+   ],
+   "detail": "ink crosses its box borders: right ink 999.8 > border 961.0",
+   "by": "rect@64"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "demis · nocturne · Goût du Large",
+   "box": [
+    1569.0,
+    1045.8,
+    1888.8,
+    1067.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1888.8 > border 1885.0",
+   "by": "rect@102"
+  },
+  {
+   "page": "p1-une.svg",
+   "class": "BOXTITLE",
+   "text": "Halloween, Toussaint, Peur sur le Parc",
+   "box": [
+    1523.0,
+    1387.8,
+    1898.5,
+    1407.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1898.5 > border 1885.0",
+   "by": "rect@123"
+  },
+  {
+   "page": "p3-culture.svg",
+   "class": "BOXTITLE",
+   "text": "ZOOM · PEUR SUR LE PARC EN CHIFFRES",
+   "box": [
+    1473.0,
+    1406.0,
+    1940.2,
+    1423.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1940.2 > border 1885.0",
+   "by": "rect@187"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "TEXTX",
+   "text": "apprendre le français ?",
+   "box": [
+    1473.0,
+    1801.1,
+    1712.0,
+    1824.1
+   ],
+   "detail": "ink overlaps '十个场地的音乐节，比单一大场馆更好吗？' by 239.0x3.1px",
+   "by": "text@180"
+  },
+  {
+   "page": "p5-jeunesse.svg",
+   "class": "BOXTITLE",
+   "text": "LES MOTS DE LA MUSIQUE · 音乐词表",
+   "box": [
+    1473.0,
+    716.0,
+    1891.8,
+    740.5
+   ],
+   "detail": "ink crosses its box borders: right ink 1891.8 > border 1885.0",
+   "by": "rect@152"
+  }
+ ],
+ "flag_count": 9
+}

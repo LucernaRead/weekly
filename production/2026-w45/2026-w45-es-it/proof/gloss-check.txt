@@ -1,0 +1,47 @@
+--- p2: core 5 ed 5 ---
+  headword 'festivo' prefix-of-ed-entry: True  ed-entry='festivo in festa'
+  headword 'el puente' prefix-of-ed-entry: True  ed-entry='el puente il ponte'
+  headword 'la comunidad' prefix-of-ed-entry: True  ed-entry='la comunidad la comunità autonoma'
+  headword 'anochecer' prefix-of-ed-entry: True  ed-entry='anochecer il calare della sera'
+  headword 'el horario de invierno 。' prefix-of-ed-entry: False  ed-entry="el horario de invierno l'ora solare."
+--- p3: core 5 ed 5 ---
+  headword 'sobrio' prefix-of-ed-entry: True  ed-entry='sobrio sobrio, composto'
+  headword 'el homenaje' prefix-of-ed-entry: True  ed-entry="el homenaje l'omaggio"
+  headword 'el disfraz' prefix-of-ed-entry: True  ed-entry='el disfraz il costume'
+  headword 'el boniato' prefix-of-ed-entry: True  ed-entry='el boniato la patata dolce'
+  headword 'el cementerio 。' prefix-of-ed-entry: False  ed-entry='el cementerio il cimitero.'
+--- p4: core 5 ed 5 ---
+  headword 'la jornada' prefix-of-ed-entry: True  ed-entry='la jornada la giornata'
+  headword 'recortar la distancia' prefix-of-ed-entry: True  ed-entry='recortar la distancia ridurre il distacco'
+  headword 'recibir' prefix-of-ed-entry: True  ed-entry='recibir giocare in casa contro'
+  headword 'visitar' prefix-of-ed-entry: True  ed-entry='visitar giocare in trasferta contro'
+  headword 'el Metropolitano 。' prefix-of-ed-entry: False  ed-entry="el Metropolitano lo stadio dell'Atlético."
+--- p5: core 4 ed 4 ---
+  headword 'el emparrillado' prefix-of-ed-entry: True  ed-entry='el emparrillado il campo da football americano (a forma di griglia)'
+  headword 'el himno' prefix-of-ed-entry: True  ed-entry="el himno l'inno"
+  headword 'el touchdown' prefix-of-ed-entry: True  ed-entry='el touchdown il touchdown, la meta'
+  headword 'la calabaza 。' prefix-of-ed-entry: False  ed-entry='la calabaza la zucca.'
+TOTAL core=19 ed=19
+--- p2 headword occurrences in edition SVG full text ---
+  'festivo': 8
+  'el puente': 4
+  'la comunidad': 2
+  'anochecer': 2
+  'el horario de invierno 。': 0
+--- p3 headword occurrences in edition SVG full text ---
+  'sobrio': 3
+  'el homenaje': 1
+  'el disfraz': 1
+  'el boniato': 1
+  'el cementerio 。': 0
+--- p4 headword occurrences in edition SVG full text ---
+  'la jornada': 6
+  'recortar la distancia': 1
+  'recibir': 2
+  'visitar': 2
+  'el Metropolitano 。': 0
+--- p5 headword occurrences in edition SVG full text ---
+  'el emparrillado': 2
+  'el himno': 3
+  'el touchdown': 1
+  'la calabaza 。': 0

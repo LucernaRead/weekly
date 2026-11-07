@@ -1,0 +1,6 @@
+GLOSS KO repro-build: per-box=[7, 6, 6, 7, 6, 6] total=38
+GLOSS CORE baseline-copy: per-box=[7, 6, 6, 7, 6, 6] total=38
+--- weekly-report-w45-fr-core P8 essay region x>=1000 y1560-1900 ---
+Traceback (most recent call last):
+  File "<stdin>", line 21, in <module>
+ValueError: too many values to unpack (expected 3)

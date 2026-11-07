@@ -1,0 +1,91 @@
+=== CORE P7 lines y>=1900 (clinic bottom + readers corner + preview):
+  y= 1900.00 x=  557.0 'B1'
+  y= 1901.00 x=  599.0 '110.'
+  y= 1901.00 x=  669.0 '改错'
+  y= 1903.00 x=   65.0 'THE ERROR CLINIC · 易错诊所'
+  y= 1918.00 x= 1013.0 "READERS' CORNER · 读者园地"
+  y= 1932.50 x=  527.0 '✗ « This game is more bigger than last'
+  y= 1949.50 x=   65.0 '每句有一处错误：找出来并改正。'
+  y= 1956.00 x= 1013.0 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  y= 1965.12 x=  527.0 "week's. »"
+  y= 1986.53 x= 1013.0 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  y= 2010.22 x=   95.0 'A2'
+  y= 2011.22 x=  137.0 '108.'
+  y= 2011.22 x=  207.0 '改错'
+  y= 2017.06 x= 1013.0 'went to press, so the example stays, honestly labeled)'
+  y= 2030.75 x=  557.0 'B1'
+  y= 2031.75 x=  599.0 '111.'
+  y= 2031.75 x=  669.0 '改错'
+  y= 2042.72 x=   65.0 "✗ « He don't like voting early. »"
+  y= 2063.25 x=  527.0 '✗ « She is going to watches the film on'
+  y= 2076.00 x= 1013.0 '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作'
+  y= 2095.88 x=  527.0 'Friday. »'
+  y= 2104.00 x= 1013.0 '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+  y= 2108.35 x=   95.0 'A2'
+  y= 2109.35 x=  137.0 '109.'
+  y= 2109.35 x=  207.0 '改错'
+  y= 2132.00 x= 1013.0 '。'
+  y= 2140.85 x=   65.0 '✗ « Yesterday the clocks falled back. »'
+  y= 2248.00 x= 1013.0 'NEXT WEEK · VOL.3 下周预告'
+  y= 2286.00 x= 1013.0 'Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in'
+  y= 2317.18 x= 1013.0 'Munich. And the midterm results, reported — who won, and what changes.'
+  y= 2420.00 x= 1013.0 '下周三退伍军人节，周日 NFL 慕尼黑赛；还有中期选举结果报道。'
+  y= 2624.00 x=   65.0 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+  y= 2624.00 x= 1885.0 '第 7 版 / 共 8 版'
+=== CORE clinic wrong sentences:
+   393.9 'not « falled back ». The repeated hour'
+   1932.5 '✗ « This game is more bigger than last'
+   2042.725 "✗ « He don't like voting early. »"
+   2063.25 '✗ « She is going to watches the film on'
+   2140.85 '✗ « Yesterday the clocks falled back. »'
+=== CORE rects near readers corner (y 2200-2700) — boxes:
+  rect x=65.0 y=2086.35 w=60.0 h=30.0 bottom=2116.35
+  rect x=527.0 y=2008.75 w=60.0 h=30.0 bottom=2038.75
+  rect x=989.0 y=2202.0 w=896.0 h=338.0 bottom=2540.0
+=== ED P7 lines y>=1900 (clinic bottom + readers corner + preview):
+  y= 1900.00 x=  557.0 'B1'
+  y= 1901.00 x=  599.0 '110.'
+  y= 1901.00 x=  669.0 '誤り直し'
+  y= 1903.00 x=   65.0 'THE ERROR CLINIC · 誤りクリニック'
+  y= 1918.00 x= 1013.0 "READERS' CORNER · 読者のコーナー"
+  y= 1932.50 x=  527.0 '✗ « This game is more bigger than last'
+  y= 1949.50 x=   65.0 '各文に誤りが1つずつあります。見つけて直し'
+  y= 1956.00 x= 1013.0 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+  y= 1965.12 x=  527.0 "week's. »"
+  y= 1979.22 x=   65.0 'なさい。'
+  y= 1986.53 x= 1013.0 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+  y= 2017.06 x= 1013.0 'went to press, so the example stays, honestly labeled)'
+  y= 2030.75 x=  557.0 'B1'
+  y= 2031.75 x=  599.0 '111.'
+  y= 2031.75 x=  669.0 '誤り直し'
+  y= 2039.95 x=   95.0 'A2'
+  y= 2040.95 x=  137.0 '108.'
+  y= 2040.95 x=  207.0 '誤り直し'
+  y= 2063.25 x=  527.0 '✗ « She is going to watches the film on'
+  y= 2072.45 x=   65.0 "✗ « He don't like voting early. »"
+  y= 2076.00 x= 1013.0 '編集部より｜VOL.1ではVOL.2に本物の読者の手紙を載せると約束しましたが、締め切りまでに'
+  y= 2095.88 x=  527.0 'Friday. »'
+  y= 2104.00 x= 1013.0 '本物の手紙も、VOL.1の作文投稿の最優秀作も届きませんでした。そこで本号は見本を見本と'
+  y= 2132.00 x= 1013.0 '明示して載せ、約束はVOL.3へ先送りします。あなたの手紙と作文を送ってください。VOL.3に'
+  y= 2138.07 x=   95.0 'A2'
+  y= 2139.07 x=  137.0 '109.'
+  y= 2139.07 x=  207.0 '誤り直し'
+  y= 2160.00 x= 1013.0 '届いた本物の手紙を載せます。'
+  y= 2170.57 x=   65.0 '✗ « Yesterday the clocks falled back. »'
+  y= 2248.00 x= 1013.0 'NEXT WEEK · VOL.3 次号予告'
+  y= 2286.00 x= 1013.0 'Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in'
+  y= 2317.18 x= 1013.0 'Munich. And the midterm results, reported — who won, and what changes.'
+  y= 2420.00 x= 1013.0 '来週水曜は退役軍人の日、日曜はNFLミュンヘン戦、そして中間選挙の結果報道。'
+  y= 2624.00 x=   65.0 'The Lucerna · 英語週刊 VOL.2 · 本文は英語 · 解説は日本語'
+  y= 2624.00 x= 1885.0 '7 ページ（全 8 ページ）'
+=== ED clinic wrong sentences:
+   393.9 'not « falled back ». The repeated hour'
+   1932.5 '✗ « This game is more bigger than last'
+   2063.25 '✗ « She is going to watches the film on'
+   2072.45 "✗ « He don't like voting early. »"
+   2170.575 '✗ « Yesterday the clocks falled back. »'
+=== ED rects near readers corner (y 2200-2700) — boxes:
+  rect x=65.0 y=2017.95 w=60.0 h=30.0 bottom=2047.95
+  rect x=65.0 y=2116.075 w=60.0 h=30.0 bottom=2146.075
+  rect x=527.0 y=2008.75 w=60.0 h=30.0 bottom=2038.75
+  rect x=989.0 y=2202.0 w=896.0 h=338.0 bottom=2540.0

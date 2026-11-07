@@ -1,0 +1,674 @@
+== 1. same-baseline ink collisions (overlap = gap<0) ==
+  same-baseline collisions: 0
+== 2. chart-label element check (text ink vs later-drawn rects, P4/P6) ==
+  chart-label overlaps: 0
+== 3. gloss counts in render ==
+  p1-front.svg: Uitleg — x2, Notes x0
+  p2-life.svg: Uitleg — x2, Notes x0
+  p3-culture.svg: Uitleg — x3, Notes x0
+  p4-sport.svg: Uitleg — x2, Notes x0
+  p5-youth.svg: Uitleg — x2, Notes x0
+  p6-deep.svg: Uitleg — x1, Notes x0
+  p7-lang.svg: Uitleg — x0, Notes x0
+  p8-test.svg: Uitleg — x0, Notes x0
+  TOTAL Uitleg — = 12 (core Notes boxes: 12), Notes residual = 0
+== 4. P7 golden sentences ==
+  「用手機轉帳、掃碼付款、網上買保險，都是... count=1 tag=(p. 1) present=True
+  「123個國家及城市、1,600個攤位」... count=1 tag=(p. 1) present=True
+  「需要才買，不要為了折扣買一堆用不到的東... count=1 tag=(p. 2) present=True
+  「在高雄，鋼鐵也能變成舞台」... count=1 tag=(p. 3) present=True
+  「福隆的夏天，在10月26日畫下句點」... count=1 tag=(p. 3) present=True
+  「6比0完封兄弟，龍隊拋下紅色彩帶」... count=1 tag=(p. 4) present=True
+  「250家店家一起討糖」... count=1 tag=(p. 5) present=True
+  「旅展首日中午12點才開門」... count=1 tag=(p. 6) present=True
+== 5. image payloads per page, core vs edition ==
+  p1-front.svg: core 1 edition 1 identical=True
+  p2-life.svg: core 1 edition 1 identical=True
+  p3-culture.svg: core 0 edition 0 identical=True
+  p4-sport.svg: core 1 edition 1 identical=True
+  p5-youth.svg: core 1 edition 1 identical=True
+  p6-deep.svg: core 0 edition 0 identical=True
+  p7-lang.svg: core 0 edition 0 identical=True
+  p8-test.svg: core 0 edition 0 identical=True
+== 6. Traditional-independence union check ==
+  edition CJK chars: 772, core: 773, W43: 790, union: 1030
+  edition chars outside union: 0 
+  edition chars not in core: 0 
+== 7. residual Latin inventory (distinct Latin-script text nodes) ==
+  distinct Latin-bearing text nodes: 636
+  x1 (138 tekens)
+  x1 (25-26 okt, uitgesteld van 24 okt door de
+  x1 (9 nov): 123 landen en steden, 1.600 stands, een dagelijkse mascotteparade om 14.00 uur en reispresentaties.
+  x1 (financiën plus technologie), AI+
+  x1 (inchecken met een foto), 討糖
+  x1 (kunstmatige intelligentie in banken,
+  x1 (reisttentoonstelling). Een 攤位 is één
+  x1 (stand), 集章 (stempels verzamelen) en
+  x1 (trick-or-treaten), 踩街 (straatparade in
+  x1 0 houden. 立冬 is de zonneterm waarmee
+  x1 1. B — De FinTech Week opent op maandag 2 nov.
+  x1 1.000+ sprekers, 800+ exposanten en
+  x1 10. 11月9日 — De reisbeurs loopt tot maandag 9 nov.
+  x1 100. 45,000 — Er worden meer dan 45.000 mensen verwacht.
+  x1 101. 攤位 — Een stand op de beurs is een 攤位.
+  x1 102. A — De mascotteparade is dagelijks om 14.00 uur.
+  x1 103. 集章 — Stempels verzamelen op vaste punten is 集章.
+  x1 104. A — De reisbeurs is in het Nangang Exhibition Center.
+  x1 105. 封王 — De titel winnen is 封王.
+  x1 106. A — 完封 betekent dat de andere ploeg nul scoort.
+  x1 107. 立冬 — Lidong luidt de winter in.
+  x1 108. A — Gember-eend is een Lidong-gerecht.
+  x1 109. A — Op een festival betekent 打卡 een foto plaatsen om te zeggen
+  x1 11. A — Lidong, de Start van de Winter, is zaterdag 7 nov.
+  x1 110. 討糖 — Trick-or-treaten is 討糖.
+  x1 111. A — 踩街 is een gekostumeerde straatparade.
+  x1 112. 泡湯 — Baden in een warmwaterbron is 泡湯.
+  x1 113. A — De FinTech Week opent op maandag 2 nov.
+  x1 114. B — Lidong is op 7 nov, niet op 6 nov.
+  x1 115. A — De Dragons wonnen de Series met 4-2.
+  x1 116. B — Wedstrijd 6 eindigde in 6-0, niet 6-3.
+  x1 117. A — Het zandfestival sloot op 26 okt.
+  x1 118. B — De reisbeurs opent op 6 nov om 12.00 uur, niet om 10.00 uur.
+  x1 119. B — De hoofdconferentie is op 2-3 nov.
+  x1 12. B — De noordoostmoesson koelt Noord-Taiwan af.
+  x1 12.00 uur, andere dagen om 10.00 uur.
+  x1 120. C — De reisbeurs loopt tot maandag 9 nov.
+  x1 121. A — Het staalfestival loopt tot 22 nov.
+  x1 122. B — De nachtoptocht trok op 25 okt om 19.00 uur.
+  x1 123 landen en steden, 1.600 stands. (p. 1)
+  x1 123. C — Double 11 is woensdag 11 nov.
+  x1 124. A — Mercedes stond 1 punt toe in 14 innings.
+  x1 125. B — De mascotteparade is dagelijks om 14.00 uur.
+  x1 126. A — De wandelencyclopedie verzamelt 56 routes.
+  x1 127. C — Totale openingsuren: 6 + 8 + 8 + 8 = 30.
+  x1 128. B — De stempeluitdaging bestrijkt 6 Greenways.
+  x1 129. 金融科技 — Fintech: technologie die financiële diensten draait.
+  x1 13 nov. Vergelijk altijd met bagagekosten
+  x1 13. A — De wandelencyclopedie verzamelt 56 routes.
+  x1 130. 立冬 — Lidong luidt de winter in.
+  x1 131. 完封 — Een shutout: de andere ploeg scoort nul.
+  x1 132. 封王 — De titel winnen is 封王.
+  x1 133. 討糖 — Trick-or-treaten is 討糖.
+  x1 134. 集章 — Stempels verzamelen is 集章.
+  x1 135. 南港 — De reisbeurs is in het Nangang Exhibition Center.
+  x1 136. 駁二 — Pier-2 is gastheer van het staalfestival.
+  x1 137. 全球擴張 — Wereldwijde expansie: producten wereldwijd verkopen.
+  x1 138. 人工智慧 — AI in de financiële wereld is 人工智慧＋.
+  x1 139. B — Hij gaat vrijdag om 12.00 uur naar de reisbeurs.
+  x1 14. B — De stempeluitdaging heeft 6 Greenways.
+  x1 140. B — De optocht is om 14.00 uur.
+  x1 141. A — Een set van 4 coupons kost 4.100 (adviesprijs 8.200).
+  x1 142. A — Hij eet zaterdag gember-eend voor Lidong.
+  x1 143. A — Volgorde: beurs, dan Lidong-pot, dan de couponset voor een
+  x1 144. A — De reisbeurs opent vrijdag om 12.00 uur.
+  x1 145. B — Lidong is de eerste zonneterm van de winter.
+  x1 146. A — Een shutout betekent dat de andere ploeg nul scoort.
+  x1 147. B — De Dragons wonnen de Series met 4-2.
+  x1 148. A — De mascotteparade is dagelijks om 14.00 uur.
+  x1 149. A — Vergelijk eerst de prijzen en betaal dan: 先比價，再結帳.
+  x1 15. C — Double 11 valt op woensdag 11 nov.
+  x1 150. ✓ Open opdracht — het modelantwoord staat hierboven in deel F
+  x1 16. A — Controleer vóór het betalen belasting, levering en retour.
+  x1 17. 進補 — Een hete hotpotmaaltijd hoort bij Lidong: 進補.
+  x1 18. 外套 — Denk aan je jas: 's ochtends en 's avonds is het fris.
+  x1 19. 泡湯 — Herfst en winter zijn goed voor warmwaterbronnen.
+  x1 2. A — De hoofdconferentie is in het Hong Kong Convention and
+  x1 20. 集章 — Verzamel stempels op de 6 Greenways.
+  x1 21. 預算 — Stel een budget vast vóór het Double 11-winkelen.
+  x1 22. 淡蘭古道 — De Tamsui-Kavalan Trail is een van de 6 Greenways.
+  x1 23. B — 2.400 + 1.600 = 4.000, precies het budget.
+  x1 24. A — Het budget is 4.000 en het totaal is 4.000: niets erover.
+  x1 25. a — 立冬 — de zonneterm Start van de Winter.
+  x1 250 winkels die samen snoep uitdelen. (p. 5)
+  x1 26. b — 進補 — voedzaam heet eten voor de winter.
+  x1 27. c — 泡湯 — baden in een warmwaterbron.
+  x1 28. d — 集章 — stempels verzamelen op vaste punten.
+  x1 29. A — Lidong betekent dat de winter begint.
+  x1 3. C — Er worden meer dan 45.000 mensen verwacht.
+  x1 30. B — Gember-eend is een typisch Lidong-gerecht.
+  x1 31. C — Het staalfestival loopt van 23 okt tot 22 nov.
+  x1 32. A — De locaties omvatten het Penglai B3-pakhuis van Pier-2.
+  x1 33. B — Het zandfestival sloot op 26 okt.
+  x1 34. C — Het zandfestival maakte 40+ sculpturen.
+  x1 35. 節氣 — Lidong is een zonneterm （節氣）.
+  x1 36. 麻油雞 — Sesamkip is een Lidong-gerecht.
+  x1 37. 鋼鐵 — Staal is het materiaal en het geheugen van Kaohsiung.
+  x1 38. 哈瑪星 — Het Hamasen-spoorwegpark is een locatie.
+  x1 39. 金色 — Het zand van Fulong is goudkleurig.
+  x1 4. B — De reisbeurs opent vrijdag 6 nov om 12.00 uur.
+  x1 40. 侏羅紀世界 — Jurassic World is een van de filmfiguren.
+  x1 41. C — 29-31 mei (3) + 30 juni + 31 juli + 31 aug + 30 sept + 26 okt = 151
+  x1 42. B — 23-31 okt (9) + 22 nov = 31 dagen.
+  x1 43. a — 立冬 — de eerste zonneterm van de winter.
+  x1 44. b — 進補 — voedzaam eten vóór de winter.
+  x1 45. c — 鋼雕 — sculptuur gemaakt van staal.
+  x1 45.000+ mensen uit 120+ economieën, 1.000+ sprekers en 800+ exposanten en start-ups.
+  x1 45.000+ mensen, 120+ economieën,
+  x1 46. d — 沙雕 — sculptuur gebouwd uit zand.
+  x1 47. B — De Dragons wonnen wedstrijd 6 met 6-0.
+  x1 48. C — De Series eindigde in 4-2 voor de Dragons.
+  x1 49. A — Mercedes gooide 8 shutout-innings.
+  x1 5. 120 — De deelnemers komen uit 120+ economieën.
+  x1 50. B — Mercedes werd uitgeroepen tot MVP van de Series.
+  x1 51. A — De 6e titel in de clubgeschiedenis van de Dragons.
+  x1 52. C — Drie shutouts in één Series is een primeur.
+  x1 53. 大巨蛋 — Wedstrijd 6 werd gespeeld in de Taipei Dome.
+  x1 54. 完封 — Een shutout: de andere ploeg scoort nul.
+  x1 55. 封王 — De titel winnen is 封王.
+  x1 56. 全壘打 — Een bal die het park uit wordt geslagen is een homerun.
+  x1 57. 14 — Mercedes stond 1 punt toe in 14 innings.
+  x1 58. 5 — De Dragons scoorden 5 punten in de 8e inning.
+  x1 59. B — De 8e inning: 5 punten, de grootste balk.
+  x1 6. 800 — Meer dan 800 exposanten en start-ups doen mee.
+  x1 60. A — 1 + 5 = 6 punten in totaal.
+  x1 61. a — 完封 — een shutout: de andere ploeg scoort nul.
+  x1 62. b — 封王 — het kampioenschap pakken.
+  x1 63. c — 全壘打 — een homerun.
+  x1 64. d — 安打 — een honkslag.
+  x1 65. B — De nachtoptocht trok op zondag 25 okt om 19.00 uur.
+  x1 66. A — Het hoofdevenement liep van 13.00 tot 20.00 uur in Tianmu
+  x1 67. C — 250 winkels deelden snoep uit.
+  x1 68. B — Er werden 4.500 pompoenemmers uitgedeeld.
+  x1 69. A — De mascotteparade is dagelijks om 14.00 uur.
+  x1 6大綠道集章挑戰有幾個集章點？ A. 4個 · B. 6個 · C. 9個
+  x1 7. 123 — De reisbeurs brengt 123 landen en steden samen.
+  x1 70. B — Budgettarieven zijn vaak exclusief ruimbagage.
+  x1 71. 忠誠路 — De optocht trok langs Zhongcheng Road.
+  x1 72. 塔麻歌子 — De Tamagotchi-samenwerking voor het 30-jarig jubileum.
+  x1 73. 花笠舞 — De Yamagata-bloemenhoedendans treedt op het podium
+  x1 74. 預算 — Stel een budget vast vóór Double 11.
+  x1 75. 行李費 — Tel bagagekosten erbij vóór je tarieven vergelijkt.
+  x1 76. 購物車 — Maak eerst je winkelwagenlijst en verwijder dan wat je niet
+  x1 77. B — 6.200 − 1.200 = 5.000, precies het budget.
+  x1 78. A — De optocht begint om 19.00 uur; het hoofdevenement de
+  x1 79. a — 討糖 — trick-or-treaten.
+  x1 8. 1,600 — De reisbeurs heeft 1.600 stands.
+  x1 80. b — 踩街 — in kostuum door de straten paraderen.
+  x1 81. c — 南瓜桶 — een pompoenemmer voor snoep.
+  x1 82. d — 打卡 — inchecken met een foto op sociale media.
+  x1 83. A — 6 nov is de kortste dag: 6 uur.
+  x1 84. B — 8 nov loopt van 10.00 tot 18.00 uur: 8 uur.
+  x1 85. C — 6 + 8 + 8 + 8 = 30 uur in totaal.
+  x1 86. A — 6 nov opent om 12.00 uur, niet om 10.00 uur.
+  x1 87. B — Finance+ betekent financiën plus technologie.
+  x1 88. A — AI helpt gegevens te lezen, risico's te signaleren en klanten te
+  x1 89. C — Wereldwijde expansie betekent producten wereldwijd verkopen.
+  x1 9. 立冬 — Zaterdag 7 nov is de zonneterm Start van de Winter.
+  x1 90. B — Meer dan 1.000 sprekers doen mee.
+  x1 91. A — De hoofdconferentie loopt op 2-3 nov.
+  x1 92. C — Er zijn 100+ buurtevenementen door de week.
+  x1 93. 支付 — Betalingen is een van de onderwerpen van de
+  x1 94. 數位資產 — Digitale activa is een onderwerp van de hoofdconferentie.
+  x1 95. 保險科技 — Insurtech is een onderwerp van de hoofdconferentie.
+  x1 96. 牽線 — De week verbindt start-ups met de wereld.
+  x1 97. 30 — Totale openingsuren: 30.
+  x1 98. 12 — 6 nov opent om 12.00 uur.
+  x1 99. 1,600 — De reisbeurs heeft 1.600 stands.
+  x1 A · 判斷對錯 · Waar of onwaar
+  x1 A. 100位
+  x1 A. 10場
+  x1 A. 10座
+  x1 A. 10月19日
+  x1 A. 11月2、3日
+  x1 A. 11月2日
+  x1 A. 11月6日（6小時）
+  x1 A. 120天
+  x1 A. 1度
+  x1 A. 22天
+  x1 A. 24小時
+  x1 A. 25家
+  x1 A. 3,000元
+  x1 A. 3局下
+  x1 A. 3比0
+  x1 A. 4,000元
+  x1 A. 450個
+  x1 A. 4個
+  x1 A. 4勝0敗
+  x1 A. 56條
+  x1 A. 6分
+  x1 A. 6小時
+  x1 A. 8局、0分
+  x1 A. 下午1點
+  x2 A. 下午2點
+  x1 A. 中午12點
+  x1 A. 冬天開始
+  x1 A. 冰品
+  x1 A. 南港展覽館一館
+  x1 A. 含稅嗎？運費多少？能不能退貨？
+  x1 A. 在香港開分店
+  x1 A. 天母運動公園，下午1點到晚上8點
+  x1 A. 對手得0分
+  x1 A. 拍照分享，說自己來過
+  x1 A. 機上餐點
+  x1 A. 沒有，正好4,000元
+  x1 A. 看數據、抓風險、回客戶問題
+  x1 A. 穿裝扮上街遊行
+  x1 A. 第6座
+  x1 A. 約5,000人
+  x1 A. 蔣少宏
+  x1 A. 薑母鴨
+  x1 A. 西南風
+  x2 A. 週一
+  x1 A. 週五
+  x1 A. 週六晚上
+  x1 A. 週六（11月7日）
+  x1 A. 金融業加薪
+  x1 A. 香港會議展覽中心
+  x1 A. 駁二蓬萊區B3倉庫
+  x41 A2
+  x1 A2 · 展會的話 · Beurswoorden
+  x1 Alle noten in het Nederlands · ✓ = het modelantwoord
+  x1 B · 本週大測驗 · De grote quiz
+  x1 B. 1,000位
+  x1 B. 10月26日
+  x1 B. 11月5、6日
+  x2 B. 11月7日
+  x1 B. 140天
+  x1 B. 150家
+  x1 B. 16條
+  x1 B. 20座
+  x1 B. 28小時
+  x1 B. 2度
+  x1 B. 31天
+  x1 B. 4,000元
+  x1 B. 4,500個
+  x1 B. 4勝1敗
+  x1 B. 5,000元
+  x1 B. 50場
+  x1 B. 5分
+  x1 B. 6個
+  x1 B. 6比0
+  x1 B. 7局、1分
+  x1 B. 8小時
+  x1 B. 8局下
+  x2 B. 上午10點
+  x1 B. 上班簽到
+  x2 B. 中午12點
+  x1 B. 先吃自助餐，再看旅展 · C. 先吃薑母鴨，再看旅展，再買券
+  x1 B. 冬天結束
+  x1 B. 冰品
+  x1 B. 印鈔票
+  x1 B. 台北南港展覽館
+  x2 B. 台北大巨蛋
+  x1 B. 在街上跑步
+  x1 B. 大勝10分
+  x1 B. 大葉高島屋，早上9點到下午5點
+  x1 B. 東北季風
+  x1 B. 梅賽鍶
+  x1 B. 第4座
+  x1 B. 約15,000人
+  x1 B. 薑母鴨
+  x1 B. 託運行李
+  x1 B. 請更多員工
+  x1 B. 超過1,000元
+  x1 B. 週一（11月2日）
+  x1 B. 週二
+  x1 B. 週五（11月6日）
+  x1 B. 週五（11月6日）中午12點
+  x1 B. 週日（10月25日）晚上7點
+  x1 B. 金融加上科技
+  x1 B. 顏色好看嗎？包裝大嗎？
+  x65 B1
+  x1 B1 · 球賽與節氣 · Sport &amp; seizoenen
+  x32 B2
+  x1 B2 · 港台說法 · Lokaal taalgebruik
+  x1 Betaal met je telefoon, scan om te betalen, koop online een verzekering — dat is fintech. (p. 1)
+  x1 Bron: gepubliceerde beursuren (6 nov: 12.00-18.00 uur; 7-9 nov: 10.00-18.00 uur). Totaal: 30 uur.
+  x1 C · 完成句子 · Vul in
+  x1 C. 10,000位
+  x1 C. 100場
+  x1 C. 10小時
+  x1 C. 11月1日
+  x1 C. 11月22日
+  x1 C. 11月7、8日
+  x1 C. 11月9日
+  x1 C. 151天
+  x1 C. 250家
+  x1 C. 30小時
+  x1 C. 3度
+  x1 C. 40天
+  x1 C. 40座
+  x1 C. 45,000個
+  x1 C. 4勝2敗
+  x1 C. 5,000元
+  x1 C. 6條
+  x1 C. 6比3
+  x1 C. 7,400元
+  x1 C. 8分
+  x1 C. 9個
+  x1 C. 9局、2分
+  x1 C. 9局下
+  x1 C. 下午2點
+  x1 C. 南港展覽館
+  x1 C. 店員親切嗎？
+  x1 C. 張政禹
+  x1 C. 打滿9局
+  x1 C. 把產品賣到世界各地
+  x1 C. 新光三越，晚上7點到9點
+  x1 C. 春天開始
+  x3 C. 晚上7點
+  x2 C. 生魚片
+  x1 C. 登機證
+  x1 C. 第3座
+  x1 C. 蓋銀行大樓
+  x1 C. 買門票
+  x1 C. 超過4,000元
+  x1 C. 逛夜市
+  x1 C. 週一晚上
+  x1 C. 週三（11月11日）
+  x1 C. 週六
+  x1 C. 週日
+  x1 C. 週日（11月8日）
+  x1 C. 逾45,000人
+  x1 C. 金融業加班
+  x1 C. 颱風
+  x2 C. 高雄駁二
+  x1 Cathay Pacific Taipei-Tokio retour vanaf
+  x1 Commons)
+  x1 Controleer de stad: de FinTech Week opent
+  x1 D · 讀一讀，答一答 · Lees en antwoord
+  x1 De beurzen van deze week geven je vier
+  x1 De zomer van Fulong kwam op 26 oktober ten einde. (p. 3)
+  x1 E · 情景說話 · Zeg het in context
+  x1 Een 6-0 shutout van de Brothers, en de Dragons gooiden de rode linten. (p. 4)
+  x1 Exhibition Centre.
+  x1 F · 寫一寫 · Schrijven
+  x1 Frame: 先…再… — eerst X, dan Y.
+  x1 Future.
+  x1 Geheugentruc: leer 封王 eerst, dan hoe
+  x1 Greenway-stempels en win een prijs.
+  x1 Greenways-stempeluitdaging bestrijkt de
+  x1 Groepeer de woorden: winnen （封王/完封）,
+  x1 Heb je de zandsculpturen van Fulong
+  x1 Heb je ooit een Halloweenkostuum
+  x1 Hieronder volgt een model van 138 tekens.
+  x1 In Kaohsiung kan zelfs staal een podium worden. (p. 3)
+  x1 Indigenous- en Sugar-Rail-trails.
+  x1 Koop wat je nodig hebt; koop geen stapel dingen die je niet gebruikt alleen voor de korting. (p. 2)
+  x4 Koppel
+  x1 Korea's JUMP-taekwondo-comedyshow,
+  x1 Lidong luidt de winter in; de zonnewende
+  x1 Lidong, de Start van de Winter: de dag
+  x8 Lucerna
+  x8 Lucerna · CHINEES WEEKBLAD VOL.2 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS
+  x1 MVP (meest waardevolle speler).
+  x1 Mercedes gooide 8 shutout-innings en
+  x1 Modelantwoord: 旅展從11月6日到11月9日。我想週六去南港展覽
+  x1 Mountain-to-Sea-, Centenary-,
+  x1 NT$13.433 inclusief belasting, boeken vóór
+  x1 NT$4.000, precies haar budget — dus ze kan
+  x1 NT$5.000, precies zijn budget.
+  x1 Noord-Taiwan af, en zaterdag (7 nov) is
+  x1 Oefen: 「旅展幾點開門？」 ('Hoe laat
+  x1 Oefencijfers: NT$2.400 + NT$1.600 =
+  x1 Oefencijfers: NT$6.200 − NT$1.200 =
+  x1 Op de eerste dag van de beurs gaan de deuren pas om 12.00 uur open. (p. 6)
+  x1 Opmerking: de Dragons sloegen niet in de tweede helft van de 9e inning — met 6-0 voor na de eerste helft van de 9e innin
+  x1 Pagina 1 van 8
+  x1 Pagina 2 van 8
+  x1 Pagina 3 van 8
+  x1 Pagina 4 van 8
+  x1 Pagina 5 van 8
+  x1 Pagina 6 van 8
+  x1 Pagina 7 van 8
+  x1 Pagina 8 van 8
+  x1 Photo: Bain News Service — Public domain (Wikimedia
+  x1 Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+  x1 Photo: CorraleH — CC0 (Wikimedia Commons)
+  x1 Photo: Wilfredor — CC0 (Wikimedia Commons)
+  x1 Redactieverslag · Bron: TSNA-sportnieuws, 26
+  x1 Redactieverslag · Bron: persbericht van de
+  x1 Redactieverslag · Bron: persbericht van de organisatoren (23 okt) en FAQ van het evenement
+  x1 Schrijven
+  x1 Schrijven — er is geen enkel juist antwoord.
+  x1 Shrek, Kung Fu Panda en Back to the
+  x1 Sport en seizoenen delen de koppen van
+  x1 Sports Park.
+  x1 Staalsculptuurfestival van Kaohsiung (23
+  x1 TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+  x1 TIDES」，聊製造、設計，聊藝術怎麼
+  x1 Taiwan en Hongkong hebben elk hun
+  x1 Takashimaya, en het hoofdevenement
+  x1 Tamsui-Kavalan-, Raknus Selu-,
+  x1 Tianmu Sports Park, met 250 winkels die
+  x1 Trick or Treat，就能拿到糖果。
+  x1 Uitleg — De Taipei International Travel Fair (ITF) opent vrijdag (6 nov) om 12.00 uur in het Nangang Exhibition Center e
+  x1 Uitleg — De Wei Chuan Dragons
+  x1 Uitleg — De noordoostmoesson koelt
+  x1 Uitleg — Drie plustekens: Finance+
+  x1 Uitleg — Herfst en winter zijn voor
+  x1 Uitleg — Het Halloween van Tianmu
+  x2 Uitleg — Het Internationale
+  x1 Uitleg — Hong Kong FinTech Week x StartmeupHK 2026 opent maandag (2 nov) en loopt tot vrijdag (6 nov). De hoofdconferent
+  x1 Uitleg — Lidong is de eerste zonneterm
+  x1 Uitleg — Reisbeursplan: kijk eerst naar de
+  x1 Uitleg — Vier woorden: 完封 (shutout),
+  x1 VOL.1 beloofde echte brieven en
+  x1 Vier beurswoorden: 旅展， 攤位， 集章，
+  x1 Vier lokale uitdrukkingen volstaan — elk
+  x1 Vier lokale woorden uit dit nummer: 打卡，
+  x1 Voorbeeld uit persberichten (20 okt):
+  x1 Voorbeeldbrief — geen echte. Uitstel:
+  x54 Vul in
+  x1 Welke hotpot eet jij voor Lidong? Wat zit
+  x1 Welke ploeg steun jij? Heb je ooit een
+  x1 Zandsculptuurfestival van Fulong sloot
+  x1 Zhongcheng Road naar Dayeh
+  x1 a. 冬天第一個節氣
+  x1 a. 冬天開始的節氣
+  x1 a. 對手得0分
+  x1 a. 萬聖節向店家要糖果
+  x1 b. 冬天前吃熱的養身體
+  x1 b. 吃熱的補身體
+  x1 b. 拿下總冠軍
+  x1 b. 穿上裝扮上街遊行
+  x1 beantwoorden.
+  x1 beide kopen.
+  x1 beleggingen en verzekeringen) en
+  x1 blijft, uitnodiging open. Stuur je brief in!
+  x1 blijven hangen: winnen （封王、完封）
+  x1 boekingsresultaat, want prijzen verschillen
+  x1 budgettarieven zijn vaak exclusief
+  x1 buffet.
+  x1 buurtevenementen — laat zien dat
+  x1 c. 一棒打出場外
+  x1 c. 去溫泉洗澡、放鬆
+  x1 c. 用鋼鐵做的藝術
+  x1 c. 裝糖果的萬聖節桶子
+  x1 d. 在指定地點蓋章收集
+  x1 d. 打者把球打到場內形成上壘
+  x1 d. 拍照標記地點、分享到社群
+  x1 d. 用沙子堆出來的雕塑
+  x1 dagen.
+  x1 dan).
+  x1 dat de andere ploeg nul scoorde.
+  x1 dat je er was.
+  x1 de 6e titel van de Dragons. Starter C.C.
+  x1 de allereerste Dragons-Brothers-finale en
+  x1 de dagelijkse mascotteparade om 14.00
+  x1 de titel werd gewonnen （完封）, dan het
+  x1 de winter begint; 進補 is voedzaam heet
+  x1 deze week. Groepeer de woorden en ze
+  x1 draaien, zoals betalen met je telefoon of
+  x1 eerst X, dan Y. Maak er zelf een:
+  x1 eigen zegswijze. Deze week: 打卡
+  x1 en kunst in het dagelijks leven.
+  x1 en winter （立冬、進補）.
+  x1 er in je Double 11-winkelwagen?
+  x1 erbij — en controleer het live
+  x1 eten vóór de koude maanden.
+  x1 evenement
+  x1 fabrieken, de haven en straten een
+  x1 fintech nu een onderwerp voor de hele
+  x1 frame 先…再… geeft de volgorde aan:
+  x1 gebouwd uit het gouden zand van Fulong
+  x1 gebruiken om financiële diensten te
+  x1 gedragen? Welk personage zou je het
+  x1 gember-eend, lamshotpot en sesamkip —
+  x1 gezien? Welk filmfiguur zou je het liefst in
+  x1 herfst.
+  x1 het een foto plaatsen: 'Ik was hier'. 討糖 is
+  x1 honkbalwedstrijd live gezien?
+  x1 hoofdconferentie.
+  x1 in Hongkong, niet in Taipei.
+  x1 internationaal forum over maken, design
+  x1 is de kortste dag. Verschillende termen.
+  x1 je beslist.
+  x1 kostuum) en 泡湯 (warmwaterbad).
+  x1 liefst willen zijn?
+  x1 maanden.
+  x1 maar er kwam niets binnen — voorbeeld
+  x1 maar op een beurs of festival betekent
+  x1 met een hete, voedzame hotpot.
+  x1 nodig hebt.
+  x1 nuttige woorden: 旅展 (reisbeurs), 攤位
+  x1 okt
+  x1 okt): 40+ sculpturen van 15+ kunstenaars,
+  x1 okt-22 nov) maakt van pakhuizen,
+  x1 op 26 okt na zijn 19e seizoen (29 mei-26
+  x1 op.
+  x1 opent de beurs?') — vrijdag opent om
+  x1 optocht; 泡湯 is een warmwaterbad in de
+  x1 organisatoren (23 okt) en FAQ van het
+  x1 pagina-8-schrijfwerk vanaf dit nummer,
+  x1 pakken; 完封 betekent de andere ploeg op
+  x1 per datum.
+  x1 podium — SUPER STAGE — met een
+  x1 pompoenemmers van drie warenhuizen.
+  x1 rond filmfiguren uit Jurassic World,
+  x1 ruimbagage, dus tel die kosten erbij vóór
+  x1 scannen om te betalen.
+  x1 seizoen （立冬）.
+  x1 shows (Yamagata-bloemenhoedendans,
+  x1 snoep uitdeelden en 4.500
+  x1 stad is.
+  x1 stand op de beurs; Taipei heeft er 1.600.
+  x1 start-ups, 30+ delegaties, 100+
+  x1 tentoonstelling zijn op 2-3 nov in het Hong Kong Convention and Exhibition Centre, met 100+ buurtevenementen door de wee
+  x1 tyfoon): de nachtoptocht van 25 okt trok
+  x1 uitje voelt dan dichterbij.
+  x1 uur) en vergelijk dan de prijzen —
+  x1 van 26 okt liep van 13.00 tot 20.00 uur in
+  x1 van Shin Kong Mitsukoshi Tianmu langs
+  x1 van de winter: de winter begint. Mensen
+  x1 vaste punten — verzamel alle zes
+  x1 versloegen de CTBC Brothers met 6-0 in
+  x1 verwarmend eten vóór de koude
+  x1 verzamelt 56 routes, en de 6
+  x1 vieren dat met hotpotgerechten zoals
+  x1 volgende dag om 13.00 uur.
+  x1 waarop de winter begint in de 24
+  x1 wandelencyclopedie van de reisbeurs
+  x1 warmwaterbronnen en wandelen. De
+  x1 wat kinderen met Halloween bij winkels
+  x1 wedstrijd 6 (26 okt, Taipei Dome) en
+  x1 werd uitgeroepen tot MVP van de Series.
+  x1 wereldwijd te verkopen). De schaal —
+  x1 wereldwijde expansie (start-ups helpen
+  x1 winter （立冬/進補）.
+  x1 wonnen de Taiwan Series 2026 met 4-2 —
+  x1 zand willen zien?
+  x1 zeggen; 踩街 is de gekostumeerde
+  x1 zonnetermen. Veel mensen vieren dat
+  x1 · 地點：駁二蓬萊區B3倉庫、哈瑪星鐵
+  x1 · 論壇：剛質潮汐 SOLID TIDES
+  x1 · 韓國跆拳道與喜劇武術《JUMP》
+  x1 één keer en alles wordt duidelijk.
+  x1 — Pagina 1 —
+  x1 — Pagina 2 —
+  x1 — Pagina 3 —
+  x1 — Pagina 4 —
+  x1 — Pagina 5 —
+  x1 — Pagina 6 —
+  x1 — Pagina 7 —
+  x1 — Pagina 8 —
+  x1 — 什麼叫完封？ — 對手得___分。(A. 0 · B. 6)
+  x1 — 台灣大賽誰封王？ — 味全龍，___勝2敗。(A. 3 · B. 4)
+  x1 — 吉祥物大遊行每天幾點？ — 下午___點。(A. 2 · B. 7)
+  x1 — 旅展哪天開？ — 週五___開幕。（A. 中午12點 · B. 晚上7點）
+  x1 — 立冬是什麼意思？ — 冬天___的日子。（A. 結束 · B. 開始）
+  x1 — 雙11怎麼買才聰明？ — 先___，再結帳。（A. 比價 · B. 亂買）
+  x1 「先去集章，再去看表演。」 — het
+  x1 「金融科技」 — fintech: technologie
+  x1 一組探索廚房自助餐券4張一共多少錢？ A. 4,100元 · B. 8,200元 · C.
+  x1 下期預告 · Volgende week (VOL.3)
+  x1 事實框 · Feiten van de week
+  x1 二蓬萊區B3倉庫、哈瑪星鐵道園區、鹽
+  x4 你呢？ · Nu jij
+  x1 先比價，再結帳 (vergelijk eerst, betaal
+  x1 台北旅展展到哪天？ A. 11月7日 · B. 11月8日 · C. 11月9日
+  x1 台灣大賽第六戰比數是6比3。（A. 對 · B. 錯）
+  x1 吉祥物大遊行 (mascotteparade). Leer ze
+  x1 吉祥物大遊行在週五幾點？ A. 12:00 · B. 14:00 · C. 19:00
+  x1 味全龍4勝2敗拿下台灣大賽。（A. 對 · B. 錯）
+  x5 填一填 · Vul in
+  x1 天母時間表 · Tianmu-schema
+  x1 天母百鬼夜行踩街在哪天晚上？ A. 10月24日 · B. 10月25日 · C.
+  x1 完勝 betekent ruim winnen; 完封 betekent
+  x1 封王 (de titel pakken), 全壘打 (homerun),
+  x1 封王 betekent het kampioenschap
+  x1 封王優惠 · Kampioensacties
+  x1 延期披露：VOL.1曾預告本期起刊登真實
+  x1 快速測驗 · Snelle quiz
+  x1 打卡 begon als inklokken op het werk,
+  x1 拳道與喜劇武術表演《JUMP》；每日
+  x1 數字一覽 · In cijfers
+  x1 文化 · Cultuur
+  x1 旅展 is een afkorting van 旅行展覽會
+  x1 旅展4天總開放時數是幾小時？ A. 24 · B. 28 · C. 30
+  x1 旅展吉祥物大遊行每天幾點？ A. 12:00 · B. 14:00 · C. 19:00
+  x1 旅展每日開放時數 · ITF-openingsuren per dag — balken in verhouding tot de uren
+  x1 旅展表演 · Podiumshows
+  x1 旅展首日上午10點開門。（A. 對 · B. 錯）
+  x1 日，主題是 SUPER STAGE，地點在駁
+  x1 易錯診所 · Foutenkliniek
+  x1 本週一詞 · Woord van de week
+  x1 本週句式 · Zinspatroon
+  x1 本週大事 · Deze week
+  x1 本週金句 · Zinnen van de week — woord voor woord uit de artikelen van dit nummer
+  x1 梅賽鍶台灣大賽2場先發，共失幾分？ A. 1分 · B. 3分 · C. 6分
+  x1 棒球詞卡 · Honkbaltaal
+  x1 標題填空 · Kopwoorden
+  x1 步道大百科收錄幾條路線？ A. 56條 · B. 36條 · C. 16條
+  x1 比價提醒 · Vergelijk zorgvuldig
+  x1 深讀 · Diepgaand lezen
+  x1 深讀測驗 · Diep-leesquiz
+  x1 測驗與答案 · Toets &amp; antwoorden
+  x1 生活 · Dagelijks leven
+  x1 的主題是 Fintech Nexus: Bridging the World, Building the Future，三大方向是金融＋、人工智慧＋、全球擴張。
+  x2 看圖答題 · Lees de grafiek
+  x1 福隆沙雕藝術季10月26日結束。（A. 對 · B. 錯）
+  x1 立冬在11月6日。（A. 對 · B. 錯）
+  x1 第 2 版 · 天氣、泡湯、旅展與雙11 · Weer, warmwaterbronnen, de reisbeurs en 11.11
+  x1 第 3 版 · 立冬、鋼雕與沙雕落幕 · Lidong, staalkunst en de zandfestivalfinale
+  x1 第 4 版 · 台灣大賽封王 · De Taiwan Series is beslist
+  x1 第 5 版 · 天母萬聖節回顧、旅展攻略 · Halloween-terugblik en het reisbeursplan
+  x1 第 6 版 · 金融科技週深讀 + 讀圖表 · FinTech in de diepte, en een grafiek lezen
+  x1 第 8 版 · 本週大測驗 + 全部答案 · De grote toets van deze week en alle antwoordsleutels
+  x1 第六戰得分走勢 · Wedstrijd 6: punten per inning — balken in verhouding tot de punten
+  x1 答案 · Antwoordsleutel — in paginavolgorde, met een korte Nederlandse noot bij elk item
+  x3 算一算 · Reken uit
+  x1 節氣小表 · Zonnetermen
+  x1 系列賽小檔 · Seriedossier
+  x2 練習例子 · Oefenvoorbeeld
+  x1 繁體中文版 · VOL.2 · 2026年11月2日（一）至11月8日（日） · 台灣 / 香港
+  x1 者，辦國際論壇「剛質潮汐 SOLID
+  x1 語言 · Taalfocus
+  x1 語言聚焦 · 三個級別，三個主題 · Drie niveaus, drie onderwerpen
+  x4 讀懂了嗎？ · Begrepen?
+  x1 讀者園地 · Lezershoek
+  x1 賽表現最好的人，英文叫 MVP。
+  x1 這三天他的順序是？ A. 先看旅展，再吃薑母鴨，再買餐券去吃自助餐 ·
+  x1 週五（11月6日）中午12點，2026 ITF 台灣國際旅展在台北南港展覽館一館開幕，展到下週一（11月9日）。123個國家及城
+  x1 金融科技週主會議是哪兩天？ A. 11月1、2日 · B. 11月2、3日 · C.
+  x1 鋼雕藝術節在高雄___蓬萊區B3倉庫等地舉行。
+  x1 鋼雕行程 · Plan je bezoek
+  x1 阿哲週五中午去哪裡？ A. 大巨蛋 · B. 南港展覽館 · C. 駁二
+  x1 阿哲週六和家人吃什麼？ A. 薑母鴨 · B. 冰品 · C. 生魚片
+  x1 集章 betekent stempels verzamelen op
+  x1 雙11是星期幾？ A. 週一 · B. 週二 · C. 週三
+  x1 青年 · Jongeren
+  x1 香港金融科技週 x StartmeupHK 2026，週一（11月2日）在香港開幕，一連五天到週五（11月6日）。主會議和展覽在香港
+  x1 香港金融科技週週一（11月2日）開幕。（A. 對 · B. 錯）
+  x1 體育 · Sport
+  x1 高雄鋼雕藝術節展到哪天？ A. 11月22日 · B. 11月8日 · C. 11月2日

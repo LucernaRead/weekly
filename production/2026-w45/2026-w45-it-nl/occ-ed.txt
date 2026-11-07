@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-it-nl/svg: 5 flags {'BOXTITLE': 4, 'EDGE': 1}
+  [EDGE] p1-prima.svg 'Data volgens de kalenders van de evenementen; tijden kunnen ' — ink box (1473.0, 1223.9500000000005, 2048.5, 1241.2000000000005) outside page 1950.0x2700.0
+  [BOXTITLE] p1-prima.svg 'LA SETTIMANA IN CIFRE · IN CIJFERS' — ink crosses its box borders: right ink 967.0 > border 961.0
+  [BOXTITLE] p1-prima.svg 'Data volgens de kalenders van de evenementen; tijden kunnen ' — ink crosses its box borders: right ink 2048.5 > border 1885.0
+  [BOXTITLE] p2-vita.svg 'LA FRASE PER RICORDARE · EZELSBRUG' — ink crosses its box borders: right ink 1005.5 > border 961.0
+  [BOXTITLE] p7-lingua.svg 'assaggio = proeven (gratis, p. 3).' — ink crosses its box borders: bottom ink 1285.6 > border 1284.5

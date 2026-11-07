@@ -1,0 +1,52 @@
+2026-w46-it-de forward-miss: 0 reverse-miss: 0
+2026-w46-it-en forward-miss: 0 reverse-miss: 0
+2026-w46-it-es forward-miss: 0 reverse-miss: 0
+2026-w46-it-fr forward-miss: 0 reverse-miss: 8
+  REV 'Page 1 sur 8'
+  REV 'Page 2 sur 8'
+  REV 'Page 3 sur 8'
+  REV 'Page 4 sur 8'
+  REV 'Page 5 sur 8'
+  REV 'Page 6 sur 8'
+  REV 'Page 7 sur 8'
+  REV 'Page 8 sur 8'
+2026-w46-it-ja forward-miss: 1 reverse-miss: 8
+  FWD ex-key '（自由作文、模範文は以下）'
+  REV '1 ページ（全 8 ページ）'
+  REV '2 ページ（全 8 ページ）'
+  REV '3 ページ（全 8 ページ）'
+  REV '4 ページ（全 8 ページ）'
+  REV '5 ページ（全 8 ページ）'
+  REV '6 ページ（全 8 ページ）'
+  REV '7 ページ（全 8 ページ）'
+  REV '8 ページ（全 8 ページ）'
+2026-w46-it-ko forward-miss: 0 reverse-miss: 0
+2026-w46-it-nl forward-miss: 0 reverse-miss: 8
+  REV 'Pagina 1 van 8'
+  REV 'Pagina 2 van 8'
+  REV 'Pagina 3 van 8'
+  REV 'Pagina 4 van 8'
+  REV 'Pagina 5 van 8'
+  REV 'Pagina 6 van 8'
+  REV 'Pagina 7 van 8'
+  REV 'Pagina 8 van 8'
+2026-w46-it-pt forward-miss: 0 reverse-miss: 14
+  REV '25. c (mosto=mosto/vinho novo c)'
+  REV '26. a (cantina=adega a)'
+  REV '27. d (mantello=manto d)'
+  REV '28. b (traslocare=mudar de casa b)'
+  REV '40. è arrivato (arrivare leva essere: è arrivato)'
+  REV '52. d (sosta=pausa d)'
+  REV '53. c (girone=grupo c)'
+  REV '54. b (decisivo=decisivo b)'
+  REV '55. a (presentazione=antevisão a)'
+  REV '105. è arrivato (arrivare leva essere: è arrivato)'
+  REV '141. d (manovra=lei do orçamento d)'
+  REV '142. c (deficit=défice c)'
+  REV '143. b (copertura=financiamento b)'
+  REV '144. a (scaglione=escalão a)'
+2026-w46-it-ru forward-miss: 0 reverse-miss: 0
+2026-w46-it-zh-tw forward-miss: 1 reverse-miss: 0
+  FWD ex-key '（開放題，範文如下）'
+2026-w46-it-zh-cn forward-miss: 1 reverse-miss: 0
+  FWD ex-key '（开放题，范文如下）'

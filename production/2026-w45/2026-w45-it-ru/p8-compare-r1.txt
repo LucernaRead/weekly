@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py", line 262, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py", line 249, in main
+    out, code = compare(core_p8, ed_p8, total)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py", line 177, in compare
+    ref, refhow = extract(core_p8, total)
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py", line 154, in extract
+    texts = load_texts(p8_path)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py", line 41, in load_texts
+    s = open(path, encoding="utf-8").read()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../files/weekly-report-w45-it-core/svg/p8-test.svg'

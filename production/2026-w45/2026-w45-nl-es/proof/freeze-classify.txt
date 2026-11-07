@@ -1,0 +1,14 @@
+P1: removed_total=28 added_total=29 distinct_rem=28 distinct_add=29 cjk_core=191 cjk_ed=0 added_cjk={}
+P2: removed_total=33 added_total=39 distinct_rem=25 distinct_add=31 cjk_core=212 cjk_ed=0 added_cjk={}
+P3: removed_total=27 added_total=32 distinct_rem=15 distinct_add=20 cjk_core=153 cjk_ed=0 added_cjk={}
+P4: removed_total=25 added_total=28 distinct_rem=14 distinct_add=17 cjk_core=126 cjk_ed=0 added_cjk={}
+P5: removed_total=33 added_total=38 distinct_rem=22 distinct_add=27 cjk_core=214 cjk_ed=0 added_cjk={}
+P6: removed_total=32 added_total=36 distinct_rem=21 distinct_add=25 cjk_core=192 cjk_ed=0 added_cjk={}
+P7: removed_total=49 added_total=51 distinct_rem=41 distinct_add=43 cjk_core=373 cjk_ed=0 added_cjk={}
+  NON-CJK REM P7 x1: 'Nederlands in Shanghai. In de'
+  NON-CJK REM P7 x1: 'mijn balkon!» — Li (voorbeeldbrief'
+  NON-CJK REM P7 x1: 'van de redactie)'
+  NON-CJK REM P7 x1: '«Hallo! Ik ben Li en ik leer'
+P8: removed_total=166 added_total=178 distinct_rem=160 distinct_add=172 cjk_core=1033 cjk_ed=0 added_cjk={}
+  NON-CJK REM P8 x1: '6. planten — veel mensen → planten'
+TOTAL removed=393 added=431 non-CJK removed distinct entries=5

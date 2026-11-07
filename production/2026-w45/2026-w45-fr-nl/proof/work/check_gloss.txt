@@ -1,0 +1,40 @@
+== CORE
+  content12.py [7, 6] sum 13
+   heads: [['se', 'jouer'], ['une', 'finale'], ['une', 'demi-finale'], ['un', 'quart'], ['une', 'nocturne'], ['un', 'frisson'], ['la', 'coquille']] 
+   heads: [['la', 'rentrée'], ['reprendre', '重新开始、复课'], ['un', 'cartable'], ['un', 'décalage'], ['en', 'revanche'], ['un', 'rituel']] 
+  content34.py [6, 7] sum 13
+   heads: [['se', 'déguiser'], ['un', 'sort'], ['une', 'ambiance'], ['le', 'souvenir'], ['confondre', '混淆'], ['discret', '低调的、安静的。']] 
+   heads: [['un', 'tournoi'], ['sur', 'dur'], ['en', 'salle'], ['un', 'tableau'], ['le', 'tenant'], ['basculer', '逆转、倾斜'], ['les', 'tribunes']] 
+  content56.py [6, 6] sum 12
+   heads: [['un', 'lieu'], ['une', 'affiche'], ['les', 'paroles'], ['donner', 'le'], ['se', 'promener'], ['pile', '正好、恰好。']] 
+   heads: [['un', 'budget'], ['une', 'mission'], ['un', 'député'], ['rejeter', '否决'], ['à', "l'unanimité"], ['un', 'amendement']] 
+  TOTAL 38
+== ED-BUILD
+  content12.py [7, 6] sum 13
+   heads: [['se', 'jouer'], ['une', 'finale'], ['une', 'demi-finale'], ['un', 'quart'], ['une', 'nocturne'], ['un', 'frisson'], ['la', 'coquille']] 
+   heads: [['la', 'rentrée'], ['reprendre', 'opnieuw'], ['un', 'cartable'], ['un', 'décalage'], ['en', 'revanche'], ['un', 'rituel']] 
+  content34.py [6, 7] sum 13
+   heads: [['se', 'déguiser'], ['un', 'sort'], ['une', 'ambiance'], ['le', 'souvenir'], ['confondre', 'verwarren'], ['discret', 'discreet,']] 
+   heads: [['un', 'tournoi'], ['sur', 'dur'], ['en', 'salle'], ['un', 'tableau'], ['le', 'tenant'], ['basculer', 'omslaan,'], ['les', 'tribunes']] 
+  content56.py [6, 6] sum 12
+   heads: [['un', 'lieu'], ['une', 'affiche'], ['les', 'paroles'], ['donner', 'le'], ['se', 'promener'], ['pile', 'precies,']] 
+   heads: [['un', 'budget'], ['une', 'mission'], ['un', 'député'], ['rejeter', 'verwerpen'], ['à', "l'unanimité"], ['un', 'amendement']] 
+  TOTAL 38
+GOLD #1 ED=5 CORE=5 src=p2-vie.svg srcED=True srcCO=True :: Le lundi 2 novembre, on reprend les cours.
+   P7-table ED contains: True
+GOLD #2 ED=3 CORE=3 src=p1-une.svg srcED=False srcCO=False :: On ne connaît pas encore les finalistes.
+   P7-table ED contains: True
+GOLD #3 ED=1 CORE=1 src=p3-culture.svg srcED=False srcCO=False :: Les cimetières se sont remplis de chrysanthèmes.
+   P7-table ED contains: True
+GOLD #4 ED=5 CORE=5 src=p4-sport.svg srcED=True srcCO=True :: Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ?
+   P7-table ED contains: True
+GOLD #5 ED=1 CORE=1 src=p5-jeunesse.svg srcED=False srcCO=False :: Le festival se promène dans Paris.
+   P7-table ED contains: True
+GOLD #6 ED=3 CORE=3 src=p6-politique.svg srcED=True srcCO=True :: Ce calendrier peut encore bouger.
+   P7-table ED contains: True
+GOLD #7 ED=1 CORE=1 src=p1-une.svg srcED=False srcCO=False :: Ce week-end, tout se joue.
+   P7-table ED contains: True
+GOLD #8 ED=3 CORE=3 src=p5-jeunesse.svg srcED=True srcCO=True :: Les jeunes créateurs y rencontrent leur public, en vrai.
+   P7-table ED contains: True
+ED essay frame NOT FOUND by that head
+CORE essay frame NOT FOUND by that head

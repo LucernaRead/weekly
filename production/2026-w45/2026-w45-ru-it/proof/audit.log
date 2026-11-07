@@ -1,0 +1,283 @@
+== CYRILLIC MULTISET ==
+p1-pervaya: core_tokens=400 ed_tokens=390 ndiff_keys=10
+   ГАЗЕТА: core 2 -> ed 1
+   ДЛЯ: core 1 -> ed 0
+   ЕЖЕНЕДЕЛЬНАЯ: core 1 -> ed 0
+   ИЗУЧАЮЩИХ: core 1 -> ed 0
+   НАСТОЯЩАЯ: core 1 -> ed 0
+   ПО: core 3 -> ed 2
+   РОССИЯ: core 1 -> ed 0
+   РУССКИ: core 2 -> ed 1
+   РУССКИЙ: core 1 -> ed 0
+   ЯЗЫК: core 1 -> ed 0
+p2-zhizn: core_tokens=443 ed_tokens=443 ndiff_keys=0
+p3-kultura: core_tokens=338 ed_tokens=338 ndiff_keys=0
+p4-sport: core_tokens=306 ed_tokens=306 ndiff_keys=0
+p5-molodezh: core_tokens=316 ed_tokens=316 ndiff_keys=0
+p6-razbor: core_tokens=354 ed_tokens=354 ndiff_keys=0
+p7-yazyk: core_tokens=397 ed_tokens=397 ndiff_keys=0
+p8-test: core_tokens=641 ed_tokens=641 ndiff_keys=0
+== CJK ==
+p1-pervaya: CJK_chars=0
+p2-zhizn: CJK_chars=0
+p3-kultura: CJK_chars=0
+p4-sport: CJK_chars=0
+p5-molodezh: CJK_chars=0
+p6-razbor: CJK_chars=0
+p7-yazyk: CJK_chars=0
+p8-test: CJK_chars=0
+== P8 DASH-PARSE ==
+core lines=150 ed lines=150 missing=[] extra=[]
+  KEYDIFF 137: core='11 月 4 日星期三放假。' ed='Mercoledì 4 novembre è festa.'
+  KEYDIFF 138: core='促销码就是折扣码。' ed='Il codice promozionale è un codice sconto.'
+  KEYDIFF 150: core='✓ 范文见本版 H 区（84 词）' ed='✓ Testo modello nella sezione H di questa pagina (84 parole)'
+dash-parse keydiff=[137, 138, 150] note_only_diffs=136
+  #83 core full: 'B — 一周有 3 个休息日（周三、周六、周日）'
+  #83 ed   full: 'B — 3 giorni liberi nella settimana (mercoledì, sabato, domenica)'
+  #83 core key-dash: 'B'  ed key-dash: 'B'
+  #137 core full: '11 月 4 日星期三放假。 — 对照第 3 版'
+  #137 ed   full: 'Mercoledì 4 novembre è festa. — Confronta pagina 3'
+  #137 core key-dash: '11 月 4 日星期三放假。'  ed key-dash: 'Mercoledì 4 novembre è festa.'
+  #138 core full: '促销码就是折扣码。 — 对照第 5 版'
+  #138 ed   full: 'Il codice promozionale è un codice sconto. — Confronta pagina'
+  #138 core key-dash: '促销码就是折扣码。'  ed key-dash: 'Il codice promozionale è un codice sconto.'
+  #148 core full: 'A — его = 促销码（阳性）'
+  #148 ed   full: 'A — его = il codice promozionale (maschile)'
+  #148 core key-dash: 'A'  ed key-dash: 'A'
+  #139 core: 'В субботу «Краснодар» играет с ЦСКА. — 注意：играть + с +'
+  #139 ed:   'В субботу «Краснодар» играет с ЦСКА. — Nota: играть + с +'
+  #140 core: 'Поздравляю с Днём народного единства! — поздравляю + с'
+  #140 ed:   'Поздравляю с Днём народного единства! — поздравляю + с'
+  #150 core: '✓ 范文见本版 H 区（84 词）'
+  #150 ed:   '✓ Testo modello nella sezione H di questa pagina (84 parole)'
+== P7 GOLDEN SENTENCES ==
+  core P7 text len 3430
+  ed P7 text len 4063
+  P7 Cyrillic lines differing core vs ed:
+    1->0: '11 月 3 日星期二，工作日短一小时。 (Страница 2)'
+    1->0: '11 月 4 日星期三，是工作周中间的休息日。 (Страница 1)'
+    1->0: '11 月 8 日星期日，有三场比赛。 (Страница 4)'
+    1->0: '5 以上用 процентов：25 процентов。'
+    0->1: 'Cinque giorni: quasi una piccola vacanza! (Страница 6)'
+    0->1: 'Come si vive una settimana con una festa in mezzo? (Страница 1)'
+    0->1: 'Da 5 in su, процентов: 25 процентов.'
+    0->1: 'Dativo dopo «к»: к бабушке.'
+    0->1: 'Domenica 8 novembre ci sono tre partite. (Страница 4)'
+    0->1: 'Genitivo dopo «с» (inizio): с 22 октября.'
+    0->1: "Martedì 3 novembre la giornata lavorativa dura un'ora in meno. (Страница 2)"
+    0->1: 'Mercoledì 4 novembre è un giorno libero in mezzo alla settimana lavorativa. (Страница 1)'
+    0->1: 'Mercoledì le città organizzano fiere e concerti. (Страница 3)'
+    0->1: 'Molti prendono ferie giovedì e venerdì. (Страница 6)'
+    0->1: 'Prima la lista: di che cosa hai davvero bisogno? (Страница 5)'
+    0->1: 'Strumentale dopo «с»: с Днём единства.'
+    0->1: 'lavorativi; сокращённый день giornata'
+    0->1: 'scrive; может быть forse.'
+    0->1: 'ОШИБКИ · Errori comuni'
+    0->1: 'СЛЕДУЮЩАЯ НЕДЕЛЯ · La prossima settimana (VOL.3)'
+    1->0: 'СЛЕДУЮЩАЯ НЕДЕЛЯ · 下期预告 (VOL.3)'
+    0->1: 'СЛОВО · La parola'
+    0->1: 'ФРАЗЫ НЕДЕЛИ · Frasi della settimana (da questo numero)'
+    1->0: 'ФРАЗЫ НЕДЕЛИ · 本周金句（逐字摘自本期文章）'
+    0->1: 'Фокус на язык · Три уровня, три темы · Tre livelli, tre temi'
+    1->0: 'Фокус на язык · Три уровня, три темы · 三个级别，三个主题'
+    0->1: 'ввести промокод inserire un codice'
+    1->0: 'ввести промокод 输入促销码。'
+    0->1: 'выходной giorno libero; будни giorni'
+    1->0: 'выходной 休息日；будни 工作日；'
+    1->0: 'к 后面用与格：к бабушке。'
+    0->1: 'по сообщениям secondo le notizie; пишет'
+    1->0: 'по сообщениям 据……报道；пишет 写道；'
+    0->1: 'промокод = codice promozionale.'
+    1->0: 'промокод = 促销码，结账时输入。'
+    1->0: 'с 后面用工具格：с Днём единства。'
+    1->0: 'с 表起点用属格：с 22 октября。'
+    0->1: 'скидка sconto; цена prezzo; список lista;'
+    1->0: 'скидка 折扣；цена 价格；список 清单；'
+    1->0: 'сокращённый день 缩短工作日。'
+    1->0: '五天——几乎就是一个小长假！ (Страница 6)'
+    1->0: '先列清单：你真正需要什么？ (Страница 5)'
+    1->0: '夹着一个假日的一周该怎么过？ (Страница 1)'
+    1->0: '星期三，各城市举办集市和音乐会。 (Страница 3)'
+    1->0: '许多人在星期四和星期五请假。 (Страница 6)'
+== IMAGE BLOBS ==
+p1-pervaya: core blobs=['d6ec5d824006dfff'] ed blobs=['d6ec5d824006dfff'] equal=True
+p2-zhizn: core blobs=[] ed blobs=[] equal=True
+p3-kultura: core blobs=[] ed blobs=[] equal=True
+p4-sport: core blobs=['e59efdb05aa679d8'] ed blobs=['e59efdb05aa679d8'] equal=True
+p5-molodezh: core blobs=['a60d34800d2b4a53'] ed blobs=['a60d34800d2b4a53'] equal=True
+p6-razbor: core blobs=[] ed blobs=[] equal=True
+p7-yazyk: core blobs=[] ed blobs=[] equal=True
+p8-test: core blobs=[] ed blobs=[] equal=True
+== P7 GEOMETRY ==
+  core x=1451 rects: [(200.0, 808.08, 1008.08), (1020.08, 222.5, 1242.58), (1254.58, 473.0, 1727.58)]
+    core text y=1709.8799999999997: '截至交稿时未收到真实来信与最佳作文，仍'
+    core text y=1738.2799999999997: '为编辑部示例；承诺顺延至 VOL.3。'
+  ed x=1451 rects: [(200.0, 808.08, 1008.08), (1020.08, 222.5, 1242.58), (1254.58, 473.0, 1727.58)]
+    ed text y=1709.8799999999997: 'Nessuna lettera vera né testo migliore:'
+    ed text y=1738.2799999999997: 'esempio redazionale, promessa VOL.3.'
+== P6 CHART ==
+  core chart text x=78 y=116: '116'
+  core chart text x=1872 y=116: '116'
+  core chart text x=1872 y=142: '142'
+  core chart text x=65 y=236: '236'
+  core chart text x=1473 y=242: '242'
+  core chart text x=1473 y=289: '289'
+  core chart text x=65 y=1326: '1326'
+  core chart text x=195.0 y=1392: '1392'
+  core chart text x=195.0 y=1424: '1424'
+  core chart text x=455.0 y=1392: '1392'
+  core chart text x=455.0 y=1424: '1424'
+  core chart text x=715.0 y=1392: '1392'
+  core chart text x=715.0 y=1424: '1424'
+  core chart text x=975.0 y=1392: '1392'
+  core chart text x=975.0 y=1424: '1424'
+  core chart text x=1235.0 y=1392: '1392'
+  core chart text x=1235.0 y=1424: '1424'
+  core chart text x=1495.0 y=1392: '1392'
+  core chart text x=1495.0 y=1424: '1424'
+  core chart text x=1755.0 y=1392: '1392'
+  core chart text x=1755.0 y=1424: '1424'
+  core chart text x=65 y=1468: '1468'
+  core chart text x=65 y=1552: '1552'
+  core chart text x=65 y=1582: '1582'
+  core chart text x=65 y=1634: '1634'
+  core chart text x=1299 y=1634: '1634'
+  core chart text x=65 y=1680: '1680'
+  core chart text x=1193 y=1680: '1680'
+  core chart text x=65 y=1726: '1726'
+  core chart text x=1087 y=1726: '1726'
+  core chart text x=65 y=1772: '1772'
+  core chart text x=981 y=1772: '1772'
+  core chart text x=65 y=1866: '1866'
+  core chart text x=1885 y=1866: '1866'
+  core chart text x=65 y=1919: '1919'
+  core chart text x=557 y=1916: '1916'
+  core chart text x=599 y=1917: '1917'
+  core chart text x=669 y=1917: '1917'
+  core chart text x=527 y=1946: '1946'
+  core chart text x=1019 y=1916: '1916'
+  core chart text x=1061 y=1917: '1917'
+  core chart text x=1131 y=1917: '1917'
+  core chart text x=989 y=1946: '1946'
+  core chart text x=1481 y=1916: '1916'
+  core chart text x=1523 y=1917: '1917'
+  core chart text x=1593 y=1917: '1917'
+  core chart text x=1451 y=1946: '1946'
+  core chart text x=65 y=2624: '2624'
+  core chart text x=1885 y=2624: '2624'
+  core bar rect x=685.0 y=1612.0 w=600.0 h=30.0 end=1285.0
+  core bar rect x=685.0 y=1658.0 w=494.0 h=30.0 end=1179.0
+  core bar rect x=685.0 y=1704.0 w=388.0 h=30.0 end=1073.0
+  core bar rect x=685.0 y=1750.0 w=282.0 h=30.0 end=967.0
+  core P6 texts with digits: ['34%', '28%', '22%', '16%', 'поедут ___ % людей.', 'концерт пойдут ___ % людей.']
+  ed chart text x=78 y=116: '116'
+  ed chart text x=1872 y=116: '116'
+  ed chart text x=1872 y=142: '142'
+  ed chart text x=65 y=236: '236'
+  ed chart text x=1473 y=242: '242'
+  ed chart text x=1473 y=289: '289'
+  ed chart text x=65 y=1326: '1326'
+  ed chart text x=195.0 y=1392: '1392'
+  ed chart text x=195.0 y=1424: '1424'
+  ed chart text x=455.0 y=1392: '1392'
+  ed chart text x=455.0 y=1424: '1424'
+  ed chart text x=715.0 y=1392: '1392'
+  ed chart text x=715.0 y=1424: '1424'
+  ed chart text x=975.0 y=1392: '1392'
+  ed chart text x=975.0 y=1424: '1424'
+  ed chart text x=1235.0 y=1392: '1392'
+  ed chart text x=1235.0 y=1424: '1424'
+  ed chart text x=1495.0 y=1392: '1392'
+  ed chart text x=1495.0 y=1424: '1424'
+  ed chart text x=1755.0 y=1392: '1392'
+  ed chart text x=1755.0 y=1424: '1424'
+  ed chart text x=65 y=1468: '1468'
+  ed chart text x=65 y=1552: '1552'
+  ed chart text x=65 y=1582: '1582'
+  ed chart text x=65 y=1634: '1634'
+  ed chart text x=1299 y=1634: '1634'
+  ed chart text x=65 y=1680: '1680'
+  ed chart text x=1193 y=1680: '1680'
+  ed chart text x=65 y=1726: '1726'
+  ed chart text x=1087 y=1726: '1726'
+  ed chart text x=65 y=1772: '1772'
+  ed chart text x=981 y=1772: '1772'
+  ed chart text x=65 y=1866: '1866'
+  ed chart text x=1885 y=1866: '1866'
+  ed chart text x=65 y=1919: '1919'
+  ed chart text x=557 y=1916: '1916'
+  ed chart text x=599 y=1917: '1917'
+  ed chart text x=669 y=1917: '1917'
+  ed chart text x=527 y=1946: '1946'
+  ed chart text x=1019 y=1916: '1916'
+  ed chart text x=1061 y=1917: '1917'
+  ed chart text x=1131 y=1917: '1917'
+  ed chart text x=989 y=1946: '1946'
+  ed chart text x=1481 y=1916: '1916'
+  ed chart text x=1523 y=1917: '1917'
+  ed chart text x=1593 y=1917: '1917'
+  ed chart text x=1451 y=1946: '1946'
+  ed chart text x=65 y=2624: '2624'
+  ed chart text x=1885 y=2624: '2624'
+  ed bar rect x=685.0 y=1612.0 w=600.0 h=30.0 end=1285.0
+  ed bar rect x=685.0 y=1658.0 w=494.0 h=30.0 end=1179.0
+  ed bar rect x=685.0 y=1704.0 w=388.0 h=30.0 end=1073.0
+  ed bar rect x=685.0 y=1750.0 w=282.0 h=30.0 end=967.0
+  ed P6 texts with digits: ['34%', '28%', '22%', '16%', 'поедут ___ % людей.', 'концерт пойдут ___ % людей.']
+== FURNITURE TRI-COMPARE (P1 badge, top strip, footers, gloss prefix, separators) ==
+  'TESTI IN RUSSO' W43: [('p1-pervaya', '975', '372', "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), ('p1-pervaya', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p2-zhizn', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p3-kultura', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')] (n=9)
+  'TESTI IN RUSSO' W45-ed: [('p1-pervaya', '975', '372', "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), ('p1-pervaya', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p2-zhizn', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p3-kultura', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')] (n=9)
+  'OGNI SETTIMANA' W43: [('p1-pervaya', '975', '92', 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · OGNI SETTIMANA · IL RUSSO CHE LEGGE LA RUSSIA')] (n=1)
+  'OGNI SETTIMANA' W45-ed: [('p1-pervaya', '975', '92', 'КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · OGNI SETTIMANA · IL RUSSO CHE LEGGE LA RUSSIA')] (n=1)
+  'SPIEGAZIONI IN ITALIANO' W43: [('p1-pervaya', '975', '372', "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), ('p1-pervaya', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p2-zhizn', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p3-kultura', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')] (n=9)
+  'SPIEGAZIONI IN ITALIANO' W45-ed: [('p1-pervaya', '975', '372', "TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"), ('p1-pervaya', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p2-zhizn', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'), ('p3-kultura', '65', '2624', 'Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO')] (n=9)
+  'Pagina ' W43: [('p1-pervaya', '1885', '2624', 'Pagina 1 di 8'), ('p2-zhizn', '1885', '2624', 'Pagina 2 di 8'), ('p3-kultura', '1885', '2624', 'Pagina 3 di 8'), ('p4-sport', '1885', '2624', 'Pagina 4 di 8')] (n=8)
+  'Pagina ' W45-ed: [('p1-pervaya', '1885', '2624', 'Pagina 1 di 8'), ('p2-zhizn', '1885', '2624', 'Pagina 2 di 8'), ('p3-kultura', '1885', '2624', 'Pagina 3 di 8'), ('p4-sport', '1885', '2624', 'Pagina 4 di 8')] (n=8)
+  'Nota — ' W43: [('p1-pervaya', '527', '1126.18', 'Nota — синоптики i meteorologi ·'), ('p2-zhizn', '83', '1293.48', 'Nota — снежный покров il manto'), ('p2-zhizn', '545', '726.5', 'Nota — резину le gomme (da летняя,'), ('p2-zhizn', '1007', '238.5', 'Nota — с Днём отца Buona Festa del')] (n=10)
+  'Nota — ' W45-ed: [('p2-zhizn', '83', '1179.48', 'Nota — перед праздником prima della'), ('p2-zhizn', '545', '612.5', 'Nota — выплат pagamenti · раньше'), ('p2-zhizn', '1007', '238.5', 'Nota — сбылись si sono avverate (le'), ('p3-kultura', '545', '238.5', 'Nota — напоминает о ricorda · прежде')] (n=9)
+  P1 badge-line W43: tag='<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="40" font-weight="700" fill="#28251d" text-anchor="middle">SETTIMANALE RUSSO · VOL.1 · ПЕРВЫЙ СНЕГ · КАНИКУЛЫ · ДЕРБИ</text><text' text="TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"
+  P1 badge-line W43: tag='<text x="1451" y="2479.8999999999996" font-family="Noto Serif CJK SC" font-size="21" fill="#28251d" text-anchor="start">«Динамо» · C. «Ахмат» — «Оренбург»</text><line x1="65" y1="2580" x2="1885" y2="2580" stroke="#b3a06a' text='Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'
+  P1 badge-line W45-ed: tag='<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="40" font-weight="700" fill="#28251d" text-anchor="middle">РУССКАЯ ГАЗЕТА · VOL.2 · ПРАЗДНИК · СКИДКИ · ФУТБОЛ</text><text' text="TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"
+  P1 badge-line W45-ed: tag='<text x="1451" y="2479.8999999999996" font-family="Noto Serif CJK SC" font-size="21" fill="#28251d" text-anchor="start">«Зенит» — «Ростов»</text><line x1="65" y1="2580" x2="1885" y2="2580" stroke="#b3a06a" stroke-width="' text='Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO'
+  P1 badge-line core: tag='<text x="975" y="330" font-family="Noto Serif CJK SC" font-size="40" font-weight="700" fill="#28251d" text-anchor="middle">РУССКАЯ ГАЗЕТА · VOL.2 · ПРАЗДНИК · СКИДКИ · ФУТБОЛ</text><text' text='ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ'
+  W43 p1-pervaya footer-ish: ['SETTIMANALE RUSSO · VOL.1 · ПЕРВЫЙ СНЕГ · КАНИКУЛЫ · ДЕРБИ', 'Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO', 'Pagina 1 di 8']
+  W43 p2-zhizn footer-ish: ['Lucerna · SETTIMANALE RUSSO VOL.1 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO', 'Pagina 2 di 8']
+  W45-ed p1-pervaya footer-ish: ['Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO', 'Pagina 1 di 8']
+  W45-ed p2-zhizn footer-ish: ['Lucerna · SETTIMANALE RUSSO VOL.2 · TESTI IN RUSSO · SPIEGAZIONI IN ITALIANO', 'Pagina 2 di 8']
+== BUILD LOG + REGISTRY ==
+  FLOW OVERFLOW: 0  HEAD TOO WIDE: 0
+  log tail: cises: 150
+by level {'A2': 51, 'B1': 75, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completare': 54, 'Scelta multipla': 42, 'Abbinamento': 20, 'Frasi': 12, 'Trasformazione': 4, 'Cloze': 13, 'Traduzione': 4, 'Composizione': 1}
+model words: 84
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 75, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completare': 54, 'Scelta multipla': 42, 'Abbinamento': 20, 'Frasi': 12, 'Trasformazione': 4, 'Cloze': 13, 'Traduzione': 4, 'Composizione': 1}
+ALL DONE
+
+  verify log tail: idth parens 0 quote-digit []
+  p3-kultura: full-width parens 0 quote-digit []
+  p4-sport: full-width parens 0 quote-digit []
+  p5-molodezh: full-width parens 0 quote-digit []
+  p6-razbor: full-width parens 0 quote-digit []
+  p7-yazyk: full-width parens 0 quote-digit []
+  p8-test: full-width parens 0 quote-digit []
+== 10. Same-baseline scan, P1 furniture bands (advance widths, gap < 5px) ==
+  svg: 0 flags (y<=600)
+  svg: 0 flags (y<=600)
+== 11. PDFs + cards ==
+  Lucerna-VOL2-IT.pdf: 13551274 bytes, 8 pages
+  Lucerna-VOL2-IT-web.pdf: 3173183 bytes, 8 pages
+  p1-pervaya.png: (1950, 2700)
+  p2-zhizn.png: (1950, 2700)
+  p3-kultura.png: (1950, 2700)
+  p4-sport.png: (1950, 2700)
+  p5-molodezh.png: (1950, 2700)
+  p6-razbor.png: (1950, 2700)
+  p7-yazyk.png: (1950, 2700)
+  p8-test.png: (1950, 2700)
+
+DONE

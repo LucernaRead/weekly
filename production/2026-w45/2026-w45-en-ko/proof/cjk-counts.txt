@@ -1,0 +1,21 @@
+p1-front.svg Hangul=208 Hanja=0 。=0 （=0 ）=0 ｜=0
+p2-life.svg Hangul=237 Hanja=0 。=0 （=0 ）=0 ｜=0
+p3-culture.svg Hangul=153 Hanja=0 。=0 （=0 ）=0 ｜=1
+p4-sport.svg Hangul=176 Hanja=0 。=0 （=0 ）=0 ｜=1
+p5-jeunesse.svg Hangul=169 Hanja=0 。=0 （=0 ）=0 ｜=1
+p6-politique.svg Hangul=185 Hanja=0 。=0 （=0 ）=0 ｜=1
+p7-langue.svg Hangul=452 Hanja=0 。=0 （=0 ）=0 ｜=1
+p8-exercices.svg Hangul=858 Hanja=0 。=0 （=0 ）=0 ｜=0
+TOTAL Hangul=2438 Hanja=0
+SVG bridge-total 0
+KIT bridge-total 0
+ABSTRACT bridge-total 0
+KIT 。 count: 5
+KIT line 128: | `freeze.py diff` (round 3) | added CJK 2452 chars, 100% Hangul, Han 0; full-width punct 0; `。` 0; forbidden bridge-term 0 |
+KIT line 168:   failure of it. »` frozen): core key `耐心是制度的一部分，而不是制度的失败。`
+KIT line 174:   the United States.`; key `11 月 3 日周二是美国的选举日。` →
+KIT line 179:   `这周日，NFL 在马德里比赛。` → `일요일에 NFL이 마드리드에서 경기를 해요.`
+KIT line 184:   key `并非每处都拨回时钟。` → `모든 곳이 시계를 되돌리는 건 아니에요.`
+KIT ｜ count: 2  （ count: 0  ） count: 0
+KIT ascii-quote in ABSTRACT check below
+ABSTRACT repr: '미국 중간선거일과 시계 되돌리기, 할로윈, 금요일 영화 개봉과 일요일 마드리드 NFL 경기를 한국어 해설과 함께 영어로 읽는 The Lucerna 영어 주간지 VOL.2, A2부터 B2까지 150문제로 영어 공부하기\n' bytes: 253 ascii-dquote: 0

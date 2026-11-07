@@ -1,0 +1,244 @@
+{
+ "svgdir": "../files/weekly-report-w45-fr-de/svg",
+ "flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "DEUXIÈME SEMAINE D'HIVER",
+   "box": [
+    989.0,
+    1873.8,
+    1339.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'pour les ___.' by 133.8x20.1px",
+   "by": "text@104"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "Buch haben Sie in den Ferien gelesen?",
+   "box": [
+    1473.0,
+    1546.4,
+    1827.5,
+    1567.6
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@112"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "Schreiben Sie zwei Sätze auf Französisch",
+   "box": [
+    1473.0,
+    1574.8,
+    1850.0,
+    1591.3
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · Achtung: Am 1. sagt m' by 377.0x9.5px",
+   "by": "text@114"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · Achtung: Am 1. sagt man le premier, sonst",
+   "box": [
+    1180.4,
+    1581.8,
+    1884.9,
+    1603.0
+   ],
+   "detail": "ink crosses its box borders: left ink 1180.4 < border 1451.0",
+   "by": "rect@98"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "donnez-moi votre (148)___. — Voilà. Bon",
+   "box": [
+    1451.0,
+    1464.1,
+    1862.2,
+    1486.1
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@194"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "COVER",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1517.3,
+    1648.8,
+    1539.0
+   ],
+   "detail": "100% of ink covered by later rect box [988.3, 1499.3, 1885.7, 1788.7]",
+   "by": "rect@202"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Schönes Wochenende!) · 150. Offene Aufgabe —",
+   "box": [
+    1451.0,
+    2563.3,
+    1804.2,
+    2579.8
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@335"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "FOOTER",
+   "text": "Stichpunkte im Schreibrahmen; Mustertext im",
+   "box": [
+    1451.0,
+    2583.8,
+    1780.8,
+    2599.8
+   ],
+   "detail": "ink bottom 2599.8 below footer rule 2580 (baseline 2596.25)",
+   "by": null
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "TEXTX",
+   "text": "MODÈLE-Kasten auf dieser Seite (Bewertung nach",
+   "box": [
+    1451.0,
+    2601.4,
+    1808.2,
+    2620.2
+   ],
+   "detail": "ink overlaps 'Seite 8 von 8' by 40.4x11.7px",
+   "by": "text@337"
+  }
+ ],
+ "flag_count": 9,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-une.svg",
+   "class": "TEXTX",
+   "text": "DEUXIÈME SEMAINE D'HIVER",
+   "box": [
+    989.0,
+    1873.8,
+    1339.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'pour les ___.' by 133.8x20.1px",
+   "by": "text@104"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "LINEX",
+   "text": "Buch haben Sie in den Ferien gelesen?",
+   "box": [
+    1473.0,
+    1546.4,
+    1827.5,
+    1567.6
+   ],
+   "detail": "later line box [64.0, 1557.0, 1886.0, 1559.0] crosses ink",
+   "by": "line@112"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "TEXTX",
+   "text": "Schreiben Sie zwei Sätze auf Französisch",
+   "box": [
+    1473.0,
+    1574.8,
+    1850.0,
+    1591.3
+   ],
+   "detail": "ink overlaps 'lundi 2 novembre · Achtung: Am 1. sagt m' by 377.0x9.5px",
+   "by": "text@114"
+  },
+  {
+   "page": "p2-vie.svg",
+   "class": "BOXTITLE",
+   "text": "lundi 2 novembre · Achtung: Am 1. sagt man le premier, sonst",
+   "box": [
+    1180.4,
+    1581.8,
+    1884.9,
+    1603.0
+   ],
+   "detail": "ink crosses its box borders: left ink 1180.4 < border 1451.0",
+   "by": "rect@98"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "donnez-moi votre (148)___. — Voilà. Bon",
+   "box": [
+    1451.0,
+    1464.1,
+    1862.2,
+    1486.1
+   ],
+   "detail": "later line box [64.0, 1485.0, 1886.0, 1487.0] crosses ink",
+   "by": "line@194"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "COVER",
+   "text": "(149)___ ! — Merci !",
+   "box": [
+    1451.0,
+    1517.3,
+    1648.8,
+    1539.0
+   ],
+   "detail": "100% of ink covered by later rect box [988.3, 1499.3, 1885.7, 1788.7]",
+   "by": "rect@202"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "LINEX",
+   "text": "Schönes Wochenende!) · 150. Offene Aufgabe —",
+   "box": [
+    1451.0,
+    2563.3,
+    1804.2,
+    2579.8
+   ],
+   "detail": "later line box [64.2, 2579.2, 1885.8, 2580.8] crosses ink",
+   "by": "line@335"
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "FOOTER",
+   "text": "Stichpunkte im Schreibrahmen; Mustertext im",
+   "box": [
+    1451.0,
+    2583.8,
+    1780.8,
+    2599.8
+   ],
+   "detail": "ink bottom 2599.8 below footer rule 2580 (baseline 2596.25)",
+   "by": null
+  },
+  {
+   "page": "p8-exercices.svg",
+   "class": "TEXTX",
+   "text": "MODÈLE-Kasten auf dieser Seite (Bewertung nach",
+   "box": [
+    1451.0,
+    2601.4,
+    1808.2,
+    2620.2
+   ],
+   "detail": "ink overlaps 'Seite 8 von 8' by 40.4x11.7px",
+   "by": "text@337"
+  }
+ ],
+ "new_flag_count": 9
+}

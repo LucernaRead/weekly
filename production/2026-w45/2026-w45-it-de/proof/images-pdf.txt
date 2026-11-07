@@ -1,0 +1,74 @@
+p1-prima: core=[]
+   ed  =[]  ==core: True
+   w43 =[('896', '320', '52937f76796300cf', 71808)]
+p2-vita: core=[]
+   ed  =[]  ==core: True
+   w43 =[]
+p3-cultura: core=[('434', '265', 'b074a3c2cfe1c8ad', 346864)]
+   ed  =[('434', '265', 'b074a3c2cfe1c8ad', 346864)]  ==core: True
+   w43 =[('434', '265', 'b074a3c2cfe1c8ad', 346864), ('434', '165', '2a109392b17bfc6c', 611236)]
+p4-sport: core=[]
+   ed  =[]  ==core: True
+   w43 =[]
+p5-giovani: core=[('434', '300', '39eaac936006604a', 627056)]
+   ed  =[('434', '300', '39eaac936006604a', 627056)]  ==core: True
+   w43 =[('434', '300', '61e96fe233cc86ec', 258124)]
+p6-approfondimento: core=[]
+   ed  =[]  ==core: True
+   w43 =[]
+p7-lingua: core=[]
+   ed  =[]  ==core: True
+   w43 =[]
+p8-valutazione: core=[]
+   ed  =[]  ==core: True
+   w43 =[]
+--- CORE credit-like nodes
+   p3-cultura.svg 'Foto: Wikimedia Commons — dominio pubblico'
+   p5-giovani.svg 'Foto: Wikimedia Commons — CC0'
+--- ED credit-like nodes
+   p3-cultura.svg 'Foto: Wikimedia Commons — dominio pubblico'
+   p5-giovani.svg 'Foto: Wikimedia Commons — CC0'
+--- ED print: files/weekly-report-w45-it-de/La-Lucerna-VOL2-DE.pdf size=7174780 pages=8
+   p1: mediabox=(0.0,0.0,1462.5,2025.0) textchars=4302 images=0 []
+      p1 text head: "VOL.2·SECONDAEDIZIONE OGNISETTIMANAINITALIANO·ITALIENISCH,WIEITALIENESLIEST SETTIMANADAL2ALL'8NOVEMBRE2026\nLa Lucerna\nITALIENISCH · VOL.2 · IL PRIMO FREDDO · IL PANETTONE · LA SERIE A\nILGIORNALESETTIMANALEPERIMPARARE—L'I"
+      footer/badge present: True | 'Seite 1 von 8' in txt: False
+   p2: mediabox=(0.0,0.0,1462.5,2025.0) textchars=4245 images=0 []
+   p3: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3727 images=1 [('x11.png', 1740912)]
+   p4: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3696 images=0 []
+   p5: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3584 images=1 [('x11.png', 2523465)]
+   p6: mediabox=(0.0,0.0,1462.5,2025.0) textchars=4306 images=0 []
+   p7: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3939 images=0 []
+   p8: mediabox=(0.0,0.0,1462.5,2025.0) textchars=11523 images=0 []
+--- ED web: files/weekly-report-w45-it-de/La-Lucerna-VOL2-DE-web.pdf size=3643700 pages=8
+   p1: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 497993)]
+      p1 text head: ''
+      footer/badge present: False | 'Seite 1 von 8' in txt: False
+   p2: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 458489)]
+   p3: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 416847)]
+   p4: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 408985)]
+   p5: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 422241)]
+   p6: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 463977)]
+   p7: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 398609)]
+   p8: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 525367)]
+--- CORE print: files/weekly-report-w45-it-core/La-Lucerna-VOL2.pdf size=21037777 pages=8
+   p1: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3882 images=0 []
+      p1 text head: "VOL.2·SECONDAEDIZIONE OGNISETTIMANAINITALIANO·每周一期·读意大利人正在读的意大利语 SETTIMANADAL2ALL'8NOVEMBRE2026\nLa Lucerna\n意 大 利 语 周 报 · VOL.2 · IL PRIMO FREDDO · IL PANETTONE · LA SERIE A\nILGIORNALESETTIMANALEPERIMPARARE—L'ITALIAVERA,I"
+      footer/badge present: True | 'Seite 1 von 8' in txt: False
+   p2: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3855 images=0 []
+   p3: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3224 images=1 [('x11.png', 1740912)]
+   p4: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3308 images=0 []
+   p5: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3083 images=1 [('x11.png', 2523465)]
+   p6: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3945 images=0 []
+   p7: mediabox=(0.0,0.0,1462.5,2025.0) textchars=3241 images=0 []
+   p8: mediabox=(0.0,0.0,1462.5,2025.0) textchars=8623 images=0 []
+--- CORE web: files/weekly-report-w45-it-core/La-Lucerna-VOL2-web.pdf size=3440887 pages=8
+   p1: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 478758)]
+      p1 text head: ''
+      footer/badge present: False | 'Seite 1 von 8' in txt: False
+   p2: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 439801)]
+   p3: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 404458)]
+   p4: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 391895)]
+   p5: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 398939)]
+   p6: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 440491)]
+   p7: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 373951)]
+   p8: mediabox=(0.0,0.0,1400.0,1938.0) textchars=0 images=1 [('image.jpg', 467297)]

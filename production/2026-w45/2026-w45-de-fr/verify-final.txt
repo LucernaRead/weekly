@@ -1,0 +1,33 @@
+edition CJK total: 0
+verbatim 2x tag Seite 4 · B1 present-on-P7: True :: Vier Nächte Fußball hintereinander, dann ein ganze
+verbatim 2x tag Seite 2 · A2 present-on-P7: True :: Die Energiesteuer auf Benzin und Diesel sinkt um 1
+verbatim 2x tag Seite 2 · A2 present-on-P7: True :: Wer 50 Liter tankt, spart rund 8,35 Euro.
+verbatim 2x tag Seite 5 · B1 present-on-P7: True :: Die Schule hat nach den Herbstferien wieder begonn
+verbatim 2x tag Seite 3 · A2 present-on-P7: True :: Die Tage sind kurz, die Abende lang.
+verbatim 2x tag Seite 4 · B1 present-on-P7: True :: Zwei schwere Auswärtsspiele für die deutschen Team
+verbatim 2x tag Seite 6 · B2 present-on-P7: True :: Die deutsche Wirtschaft kommt langsam aus der Stag
+verbatim 2x tag Seite 6 · B2 present-on-P7: True :: Es geht langsam aufwärts — aber von allein geht es
+content12.py gloss calls: 1 core items/call: [5] total: 5 | ed items/call: [5] total: 5
+content34.py gloss calls: 2 core items/call: [5, 5] total: 10 | ed items/call: [5, 5] total: 10
+content56.py gloss calls: 2 core items/call: [5, 5] total: 10 | ed items/call: [5, 5] total: 10
+gloss 1:1 OK
+p1-front.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 1 sur 8']
+p2-leben.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 2 sur 8']
+p3-kultur.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 3 sur 8']
+p4-sport.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 4 sur 8']
+p5-jugend.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 5 sur 8']
+p6-vertiefung.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 6 sur 8']
+p7-sprache.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 7 sur 8']
+p8-uebungen.svg footer: ['Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.2 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS'] pageline: ['Page 8 sur 8']
+P1 badge elements: [(' x="975" y="372" font-family="Noto Sans CJK SC" font-size="20" font-weight="700" fill="#a4553a" text-anchor="middle"', "TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES")]
+W43 badge elements: [(' x="975" y="372" font-family="Noto Sans CJK SC" font-size="20" font-weight="700" fill="#a4553a" text-anchor="middle"', "TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES")]
+chart label domicile width: 81.0 ends at: 506.0 (bar starts 535)
+chart label service width: 65.5 ends at: 490.5 (bar starts 535)
+chart label retraite width: 68.3 ends at: 493.3 (bar starts 535)
+P8 full-width paren count: 0 half-width ( count: 184 Page separators: 8
+P7 readers fragment: Un exemple de la rédaction -> True
+P7 readers fragment: Aucune vraie lettre -> True
+P7 readers fragment: meilleur texte de page 8 -> True
+P7 readers fragment: suite en VOL.3 -> True
+P7 readers fragment: Écrivez-nous vos vraies lettres -> True
+ALL FINAL CHECKS PASSED

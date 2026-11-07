@@ -1,0 +1,66 @@
+P8 keys lines: core 150, ed 150
+byte-identical P8 keys lines (suspicious if any): []
+numbers present in both, all 1..150: True
+--- core P8 notes containing Hangul (Korean citation inside note) ---
+  25. key='a' core-note='김장=腌过冬泡菜 a' -> ed-note='김장 = making kimchi for winter a'
+  26. key='c' core-note='월동 준비=准备过冬 c' -> ed-note='월동 준비 = getting ready for winter c'
+  27. key='d' core-note='산불조심=进山小心火 d' -> ed-note='산불조심 = being careful with fire in the mountains d'
+  28. key='b' core-note='한능검=韩国史考试简称 b' -> ed-note='한능검 = short for the Korean History exam b'
+  34. key='절정' core-note='红叶最美的时候叫절정' -> ed-note='The most beautiful autumn leaves are called 절정'
+  43. key='b' core-note='내장산=两个预报之间 b' -> ed-note='내장산 = between the two forecasts b'
+  44. key='a' core-note='월출산=11月9日前夕 a' -> ed-note='월출산 = just before Nov 9 a'
+  45. key='d' core-note='북한산=11月4日之后、低路更晚 d' -> ed-note='북한산 = just after Nov 4; low trails later d'
+  46. key='c' core-note='설악산=实际观测10月16日 c' -> ed-note='설악산 = actual observation Oct 16 c'
+  57. key='KIA가 LG를 이겼어요.' core-note='이기다的过去式이겼어요' -> ed-note='Past form of 이기다: 이겼어요'
+  58. key='3차전이 잠실에서 열렸어요.' core-note='열리다的过去式열렸어요' -> ed-note='Past form of 열리다: 열렸어요'
+  59. key='1차전이 비 때문에 미뤄졌어요.' core-note='미뤄지다的过去式미뤄졌어요' -> ed-note='Past form of 미뤄지다: 미뤄졌어요'
+  60. key='참피가 온대저기압으로 바뀌었어요.' core-note='바뀌다的过去式바뀌었어요' -> ed-note='Past form of 바뀌다:action바뀌었어요'
+  61. key='b' core-note='준플레이오프=KIA三连胜 b' -> ed-note='준플레이오프 = KIA won three straight b'
+  62. key='d' core-note='플레이오프=KIA对三星 d' -> ed-note='플레이오프 = KIA vs Samsung d'
+  63. key='a' core-note='한국시리즈=kt在等候 a' -> ed-note='한국시리즈 = kt waits a'
+  64. key='c' core-note='온대저기압=台风10月26日变化 c' -> ed-note='온대저기압 = what the typhoon became on Oct 26 c'
+  135. key='지민이는 단풍을 보러 가요.' core-note='보러 가요 = 去看' -> ed-note='보러 가요 = to go to see'
+  136. key='수험생은 도서관에서 공부해요.' core-note='动作场所用「에서」' -> ed-note='Use 「에서」 for the place of an'
+  141. key='a' core-note='입동=冬季开始的节气 a' -> ed-note='입동 = the solar term that starts winter a'
+  142. key='b' core-note='절정=最佳时期 b' -> ed-note='절정 = the best time b'
+  143. key='c' core-note='김장=腌过冬泡菜 c' -> ed-note='김장 = making kimchi for winter c'
+  144. key='d' core-note='온대저기압=台风10月26日变化 d' -> ed-note='온대저기압 = what the typhoon became on Oct 26 d'
+  150. NO DASH: '✓ 范文见本版 H 区（157 字）' -> '✓ Model text in section H of this page (157 characters)taffy'
+--- P7 phrase occurrence counts (whitespace-insensitive, whole issue) ---
+  core=5 ed=5  11월 7일은 입동이에요
+  core=2 ed=2  절정에 가까운 주말이라고만 말할 수 있어요
+  core=4 ed=4  김장은 겨울 내내 먹는 김치를 담그는 일이에요
+  core=2 ed=2  수능까지 17일 남았어요. 오늘이 D-17예요
+  core=2 ed=2  낮은 길은 더 늦게 물들어요
+  core=2 ed=2  KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요
+  core=2 ed=2  온 나라가 수험생을 응원해요
+  core=2 ed=2  날짜를 먼저 보세요
+--- gloss/glossline strings CORE ---
+  content12.py: 9 strings, 24 ·-items
+  content34.py: 13 strings, 26 ·-items
+  content56.py: 15 strings, 28 ·-items
+  content7.py: 3 strings, 6 ·-items
+  TOTAL ·-items CORE: 84
+--- gloss/glossline strings ED ---
+  content12.py: 9 strings, 24 ·-items
+  content34.py: 13 strings, 26 ·-items
+  content56.py: 15 strings, 28 ·-items
+  content7.py: 3 strings, 6 ·-items
+  TOTAL ·-items ED: 84
+--- image payloads per page (sha-prefix, core vs ed) ---
+  p1-pyoji: core=['535fff46b7ce'] ed=['535fff46b7ce'] identical=True
+  p2-saenghwal: core=['e66d2b455ec6'] ed=['e66d2b455ec6'] identical=True
+  p3-munhwa: core=['e266b6ee1a87', '5bea45d1f81e'] ed=['e266b6ee1a87', '5bea45d1f81e'] identical=True
+  p4-seupocheu: core=['1a7e7d6d5ffc'] ed=['1a7e7d6d5ffc'] identical=True
+  p5-cheongnyeon: core=['6a1bab177d54'] ed=['6a1bab177d54'] identical=True
+  p6-gipi: core=[] ed=[] identical=True
+  p7-mal: core=[] ed=[] identical=True
+  p8-siheom: core=[] ed=[] identical=True
+  Han in ED p1-pyoji text nodes: 0 []
+  Han in ED p2-saenghwal text nodes: 0 []
+  Han in ED p3-munhwa text nodes: 0 []
+  Han in ED p4-seupocheu text nodes: 0 []
+  Han in ED p5-cheongnyeon text nodes: 0 []
+  Han in ED p6-gipi text nodes: 0 []
+  Han in ED p7-mal text nodes: 0 []
+  Han in ED p8-siheom text nodes: 0 []

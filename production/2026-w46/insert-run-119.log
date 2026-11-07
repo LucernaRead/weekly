@@ -1,0 +1,1200 @@
+2026-11-03 17:34:01 UTC SKIP 2026-w46-en-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-03 17:34:01 UTC SKIP 2026-w46-en-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-03 17:34:01 UTC SKIP 2026-w46-en-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-03 17:34:01 UTC START 2026-w46-en-it dir=weekly-report-w46-en-it sibling
+ied (md+pdf+text.md+index)
+2026-11-03 17:34:01 UTC START 2026-w46-en-it dir=weekly-report-w46-en-it sibling
+2026-11-03 17:38:54 UTC START bundle en (one commit for the whole native set)
+2026-11-03 17:41:00 UTC   | (b) 2026-w46-en-ko: rendered from sibling 2026-w46-en-de.md; web PDF 1785457 B sha256 a4b459b2a504c6cc…
+2026-11-03 17:41:00 UTC   | (b) 2026-w46-en-zh-cn: rendered from sibling 2026-w46-en-de.md; web PDF 2017005 B sha256 5df26895655b84eb…
+2026-11-03 17:41:00 UTC   | (b) 2026-w46-en-zh-tw: rendered from sibling 2026-w46-en-de.md; web PDF 2204231 B sha256 9724dc52b7da6004…
+2026-11-03 17:41:00 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:41:00 UTC   | (d) lint --require-pdf green: OK:271 版,index.json 最新
+2026-11-03 17:41:00 UTC   | (e) bundle commit 756378d9 (7 editions)
+2026-11-03 17:41:00 UTC   |   push verified on attempt 1: origin main == 756378d9
+2026-11-03 17:41:00 UTC   | (f) verified: ls-remote origin main == local HEAD (756378d9); editions in repo: 271
+2026-11-03 17:41:02 UTC BATCH en: bundle done, index 264 -> 271 editions, local=756378d9 remote=756378d9 match=True
+2026-11-03 17:41:56 UTC START bundle de (one commit for the whole native set)
+2026-11-03 17:45:18 UTC   | (b) 2026-w46-de-ko: rendered from sibling (seed); web PDF 1402710 B sha256 806950eac474b076…
+2026-11-03 17:45:18 UTC   | (b) 2026-w46-de-zh-cn: rendered from sibling (seed); web PDF 1670980 B sha256 090d0b988e9da1da…
+2026-11-03 17:45:18 UTC   | (b) 2026-w46-de-zh-tw: rendered from sibling (seed); web PDF 2038468 B sha256 966bd5c564cc043d…
+2026-11-03 17:45:18 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:45:18 UTC   | (d) lint --require-pdf green: OK:282 版,index.json 最新
+2026-11-03 17:45:18 UTC   | (e) bundle commit a134d607 (11 editions)
+2026-11-03 17:45:18 UTC   |   push verified on attempt 1: origin main == a134d607
+2026-11-03 17:45:18 UTC   | (f) verified: ls-remote origin main == local HEAD (a134d607); editions in repo: 282
+2026-11-03 17:45:23 UTC BATCH de: bundle done, index 271 -> 282 editions, local=a134d607 remote=a134d607 match=True
+2026-11-03 17:46:08 UTC START bundle fr (one commit for the whole native set)
+2026-11-03 17:50:08 UTC   | (b) 2026-w46-fr-zh-cn: rendered from sibling (seed); web PDF 2057424 B sha256 e56328087e180a3c…
+2026-11-03 17:50:08 UTC   | (b) 2026-w46-fr-zh-tw: rendered from sibling (seed); web PDF 2400946 B sha256 8190272797d18378…
+2026-11-03 17:50:08 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:50:08 UTC   | (d) lint --require-pdf green: OK:293 版,index.json 最新
+2026-11-03 17:50:08 UTC   | (e) bundle commit 6dcf4af2 (11 editions)
+2026-11-03 17:50:08 UTC   |   push attempt 1 not verified (remote a134d607), retrying…
+2026-11-03 17:50:08 UTC   |   push verified on attempt 2: origin main == 6dcf4af2
+2026-11-03 17:50:08 UTC   | (f) verified: ls-remote origin main == local HEAD (6dcf4af2); editions in repo: 293
+2026-11-03 17:50:14 UTC BATCH fr: bundle done, index 282 -> 293 editions, local=6dcf4af2 remote=6dcf4af2 match=True
+2026-11-03 17:51:18 UTC START bundle es (one commit for the whole native set)
+2026-11-03 17:53:41 UTC   | (b) 2026-w46-es-ko: rendered from sibling (seed); web PDF 854202 B sha256 d106f9c2389ea148…
+2026-11-03 17:53:41 UTC   | (b) 2026-w46-es-zh-cn: rendered from sibling (seed); web PDF 1083484 B sha256 13cd2f41a967a357…
+2026-11-03 17:53:41 UTC   | (b) 2026-w46-es-zh-tw: rendered from sibling (seed); web PDF 1378198 B sha256 ddc36ec1c2fb2792…
+2026-11-03 17:53:41 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:53:41 UTC   | (d) lint --require-pdf green: OK:304 版,index.json 最新
+2026-11-03 17:53:41 UTC   | (e) bundle commit 78ebd6a7 (11 editions)
+2026-11-03 17:53:41 UTC   |   push verified on attempt 1: origin main == 78ebd6a7
+2026-11-03 17:53:41 UTC   | (f) verified: ls-remote origin main == local HEAD (78ebd6a7); editions in repo: 304
+2026-11-03 17:53:46 UTC BATCH es: bundle done, index 293 -> 304 editions, local=78ebd6a7 remote=78ebd6a7 match=True
+2026-11-03 17:55:02 UTC START bundle it (one commit for the whole native set)
+2026-11-03 17:58:12 UTC   | (b) 2026-w46-it-ko: rendered from sibling (seed); web PDF 966392 B sha256 2e84fb4e8e82875f…
+2026-11-03 17:58:12 UTC   | (b) 2026-w46-it-zh-cn: rendered from sibling (seed); web PDF 1204277 B sha256 e514fb306940a225…
+2026-11-03 17:58:12 UTC   | (b) 2026-w46-it-zh-tw: rendered from sibling (seed); web PDF 1463313 B sha256 98b5916a5afb151b…
+2026-11-03 17:58:12 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:58:12 UTC   | (d) lint --require-pdf green: OK:315 版,index.json 最新
+2026-11-03 17:58:12 UTC   | (e) bundle commit c6d02004 (11 editions)
+2026-11-03 17:58:12 UTC   |   push verified on attempt 1: origin main == c6d02004
+2026-11-03 17:58:12 UTC   | (f) verified: ls-remote origin main == local HEAD (c6d02004); editions in repo: 315
+2026-11-03 17:58:14 UTC BATCH it: bundle done, index 304 -> 315 editions, local=c6d02004 remote=c6d02004 match=True
+2026-11-03 17:58:49 UTC START bundle pt (one commit for the whole native set)
+2026-11-03 18:02:07 UTC   | (b) 2026-w46-pt-zh-tw: rendered from sibling (seed); web PDF 1614344 B sha256 61f6b61ea4e3f57d…
+2026-11-03 18:02:07 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 18:02:07 UTC   | (d) lint --require-pdf green: OK:326 版,index.json 最新
+2026-11-03 18:02:07 UTC   | (e) bundle commit 4ebee262 (11 editions)
+2026-11-03 18:02:07 UTC   |   push attempt 1 not verified (remote c6d02004), retrying…
+2026-11-03 18:02:07 UTC   |   push attempt 2 not verified (remote c6d02004), retrying…
+2026-11-03 18:02:07 UTC   |   push verified on attempt 3: origin main == 4ebee262
+2026-11-03 18:02:07 UTC   | (f) verified: ls-remote origin main == local HEAD (4ebee262); editions in repo: 326
+2026-11-03 18:02:09 UTC BATCH pt: bundle done, index 315 -> 326 editions, local=4ebee262 remote=4ebee262 match=True
+2026-11-03 18:03:14 UTC START bundle nl (one commit for the whole native set)
+2026-11-03 18:07:45 UTC   | (b) 2026-w46-nl-zh-tw: rendered from sibling (seed); web PDF 1615015 B sha256 72a6724ebb27af9f…
+2026-11-03 18:07:45 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 18:07:45 UTC   | (d) lint --require-pdf green: OK:337 版,index.json 最新
+2026-11-03 18:07:45 UTC   | (e) bundle commit 8f9a25a3 (11 editions)
+2026-11-03 18:07:45 UTC   |   push attempt 1 not verified (remote 4ebee262), retrying…
+2026-11-03 18:07:45 UTC   |   push attempt 2 not verified (remote 4ebee262), retrying…
+2026-11-03 18:07:45 UTC   |   push verified on attempt 3: origin main == 8f9a25a3
+2026-11-03 18:07:45 UTC   | (f) verified: ls-remote origin main == local HEAD (8f9a25a3); editions in repo: 337
+2026-11-03 18:07:47 UTC BATCH nl: bundle done, index 326 -> 337 editions, local=8f9a25a3 remote=8f9a25a3 match=True
+2026-11-03 18:18:22 UTC START bundle ru (one commit for the whole native set)
+2026-11-03 18:24:07 UTC   |   push attempt 6 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 7 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 8 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 9 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 10 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 11 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   |   push attempt 12 not verified (remote 8f9a25a3), retrying…
+2026-11-03 18:24:07 UTC   | STEP FAILED: push of 0aad6d537be353df38f3d9064cac617e7a08033d never landed after 12 attempts
+2026-11-03 18:24:09 UTC BUNDLE-STATE: unpushed bundle commit 0aad6d53 (push too big / tunnel) — resetting to remote 8f9a25a3 and falling back to one-by-one inserts
+2026-11-03 18:24:09 UTC START 2026-w46-ru-en dir=weekly-report-w46-ru-en SEED (fallback one-by-one)
+2026-11-03 18:28:33 UTC   |   push attempt 4 not verified (remote 3591b1d8), retrying…
+2026-11-03 18:28:33 UTC   |   push attempt 5 not verified (remote 3591b1d8), retrying…
+2026-11-03 18:28:33 UTC   |   push attempt 6 not verified (remote 3591b1d8), retrying…
+2026-11-03 18:28:33 UTC   |   push attempt 7 not verified (remote 3591b1d8), retrying…
+2026-11-03 18:28:33 UTC   |   push attempt 8 not verified (remote 3591b1d8), retrying…
+2026-11-03 18:28:33 UTC   | STEP FAILED: push of d8a7ebb675fb67bc944a9c6f2d30ed74ad5a682a never landed after 8 attempts
+2026-11-03 18:28:33 UTC FAIL 2026-w46-ru-en rc=1 — driver stopping
+2026-11-03 18:28:35 UTC BATCH ru: fallback done=0 failed=2026-w46-ru-en local=d8a7ebb6 remote=3591b1d8 match=False index_editions=338
+2026-11-03 19:36:04 UTC START bundle ru (one commit for the whole native set)
+2026-11-03 19:42:29 UTC   |   push attempt 6 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 7 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 8 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 9 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 10 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 11 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   |   push attempt 12 not verified (remote 3591b1d8), retrying…
+2026-11-03 19:42:29 UTC   | STEP FAILED: push of c2d4208d01784cc2ef2bfba6658a14be1f1c9d80 never landed after 12 attempts
+2026-11-03 19:42:31 UTC STOP: unexpected repo state after bundle failure (ahead=2, dirty='', local=c2d4208d, remote=3591b1d8) — manual recovery needed
+2026-11-03 22:35:20 UTC START bundle ru (one commit for the whole native set)
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-it: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-pt: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-nl: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-ja: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-ko: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-zh-cn: already in repo
+2026-11-03 22:35:20 UTC   |   skip 2026-w46-ru-zh-tw: already in repo
+2026-11-03 22:35:20 UTC   | bundle ru: all 11 editions already in repo — nothing to do
+2026-11-03 22:35:22 UTC BUNDLE-STATE: insert.py reported success but remote != local (local=c2d4208d remote=d8a7ebb6) — falling back only after state check
+2026-11-03 22:35:22 UTC BUNDLE-STATE: unpushed bundle commit c2d4208d (push too big / tunnel) — resetting to remote d8a7ebb6 and falling back to one-by-one inserts
+2026-11-03 22:35:22 UTC SKIP 2026-w46-ru-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-03 22:35:22 UTC START 2026-w46-ru-de dir=weekly-report-w46-ru-de sibling (fallback one-by-one)
+2026-11-03 22:41:06 UTC   | (d) metadata commit 4d927b57
+2026-11-03 22:41:06 UTC   |   push verified on attempt 1: origin main == 4d927b57
+2026-11-03 22:41:06 UTC   | (e) PDF copied; lint --require-pdf green: OK:339 版,index.json 最新
+2026-11-03 22:41:06 UTC   | (f) PDF commit 5d6c1738
+2026-11-03 22:41:06 UTC   |   push verified on attempt 1: origin main == 5d6c1738
+2026-11-03 22:41:06 UTC   | (g) verified: ls-remote origin main == local HEAD (5d6c1738); editions in repo: 339
+2026-11-03 22:41:06 UTC OK 2026-w46-ru-de (index now 339 editions)
+2026-11-03 22:41:06 UTC START 2026-w46-ru-fr dir=weekly-report-w46-ru-fr sibling (fallback one-by-one)
+2026-11-03 22:46:45 UTC   | (d) metadata commit 78781ef9
+2026-11-03 22:46:45 UTC   |   push verified on attempt 1: origin main == 78781ef9
+2026-11-03 22:46:45 UTC   | (e) PDF copied; lint --require-pdf green: OK:340 版,index.json 最新
+2026-11-03 22:46:45 UTC   | (f) PDF commit 98987eb5
+2026-11-03 22:46:45 UTC   |   push verified on attempt 1: origin main == 98987eb5
+2026-11-03 22:46:45 UTC   | (g) verified: ls-remote origin main == local HEAD (98987eb5); editions in repo: 340
+2026-11-03 22:46:45 UTC OK 2026-w46-ru-fr (index now 340 editions)
+2026-11-03 22:46:45 UTC START 2026-w46-ru-es dir=weekly-report-w46-ru-es sibling (fallback one-by-one)
+2026-11-03 22:53:18 UTC   | (e) PDF copied; lint --require-pdf green: OK:341 版,index.json 最新
+2026-11-03 22:53:18 UTC   | (f) PDF commit b1d241db
+2026-11-03 22:53:18 UTC   |   push attempt 1 not verified (remote 7d8c6757), retrying…
+2026-11-03 22:53:18 UTC   |   push attempt 2 not verified (remote 7d8c6757), retrying…
+2026-11-03 22:53:18 UTC   |   push verified on attempt 3: origin main == b1d241db
+2026-11-03 22:53:18 UTC   | (g) verified: ls-remote origin main == local HEAD (b1d241db); editions in repo: 341
+2026-11-03 22:53:19 UTC OK 2026-w46-ru-es (index now 341 editions)
+2026-11-03 22:53:19 UTC START 2026-w46-ru-it dir=weekly-report-w46-ru-it sibling (fallback one-by-one)
+2026-11-03 22:59:38 UTC   | (d) metadata commit 15608f31
+2026-11-03 22:59:38 UTC   |   push verified on attempt 1: origin main == 15608f31
+2026-11-03 22:59:38 UTC   | (e) PDF copied; lint --require-pdf green: OK:342 版,index.json 最新
+2026-11-03 22:59:38 UTC   | (f) PDF commit e72a384f
+2026-11-03 22:59:38 UTC   |   push verified on attempt 1: origin main == e72a384f
+2026-11-03 22:59:38 UTC   | (g) verified: ls-remote origin main == local HEAD (e72a384f); editions in repo: 342
+2026-11-03 22:59:38 UTC OK 2026-w46-ru-it (index now 342 editions)
+2026-11-03 22:59:38 UTC START 2026-w46-ru-pt dir=weekly-report-w46-ru-pt sibling (fallback one-by-one)
+2026-11-03 23:05:56 UTC   |   push verified on attempt 1: origin main == 0e35e46a
+2026-11-03 23:05:56 UTC   | (e) PDF copied; lint --require-pdf green: OK:343 版,index.json 最新
+2026-11-03 23:05:56 UTC   | (f) PDF commit 2ad1d807
+2026-11-03 23:05:56 UTC   |   push attempt 1 not verified (remote 0e35e46a), retrying…
+2026-11-03 23:05:56 UTC   |   push verified on attempt 2: origin main == 2ad1d807
+2026-11-03 23:05:56 UTC   | (g) verified: ls-remote origin main == local HEAD (2ad1d807); editions in repo: 343
+2026-11-03 23:05:56 UTC OK 2026-w46-ru-pt (index now 343 editions)
+2026-11-03 23:05:56 UTC START 2026-w46-ru-nl dir=weekly-report-w46-ru-nl sibling (fallback one-by-one)
+2026-11-03 23:11:47 UTC   | (d) metadata commit 405f5c4e
+2026-11-03 23:11:47 UTC   |   push verified on attempt 1: origin main == 405f5c4e
+2026-11-03 23:11:47 UTC   | (e) PDF copied; lint --require-pdf green: OK:344 版,index.json 最新
+2026-11-03 23:11:47 UTC   | (f) PDF commit d97a8ae5
+2026-11-03 23:11:47 UTC   |   push verified on attempt 1: origin main == d97a8ae5
+2026-11-03 23:11:47 UTC   | (g) verified: ls-remote origin main == local HEAD (d97a8ae5); editions in repo: 344
+2026-11-03 23:11:47 UTC OK 2026-w46-ru-nl (index now 344 editions)
+2026-11-03 23:11:47 UTC START 2026-w46-ru-ja dir=weekly-report-w46-ru-ja sibling (fallback one-by-one)
+2026-11-03 23:18:04 UTC   | (d) metadata commit 4e11518c
+2026-11-03 23:18:04 UTC   |   push verified on attempt 1: origin main == 4e11518c
+2026-11-03 23:18:04 UTC   | (e) PDF copied; lint --require-pdf green: OK:345 版,index.json 最新
+2026-11-03 23:18:04 UTC   | (f) PDF commit 8f47ee70
+2026-11-03 23:18:04 UTC   |   push verified on attempt 1: origin main == 8f47ee70
+2026-11-03 23:18:04 UTC   | (g) verified: ls-remote origin main == local HEAD (8f47ee70); editions in repo: 345
+2026-11-03 23:18:04 UTC OK 2026-w46-ru-ja (index now 345 editions)
+2026-11-03 23:18:04 UTC START 2026-w46-ru-ko dir=weekly-report-w46-ru-ko sibling (fallback one-by-one)
+2026-11-03 23:25:04 UTC   |   push attempt 1 not verified (remote 7227003d), retrying…
+2026-11-03 23:25:04 UTC   |   push attempt 2 not verified (remote 7227003d), retrying…
+2026-11-03 23:25:04 UTC   |   push attempt 3 not verified (remote 7227003d), retrying…
+2026-11-03 23:25:04 UTC   |   push attempt 4 not verified (remote 7227003d), retrying…
+2026-11-03 23:25:04 UTC   |   push verified on attempt 5: origin main == 0c6e5c33
+2026-11-03 23:25:04 UTC   | (g) verified: ls-remote origin main == local HEAD (0c6e5c33); editions in repo: 346
+2026-11-03 23:25:04 UTC OK 2026-w46-ru-ko (index now 346 editions)
+2026-11-03 23:25:04 UTC START 2026-w46-ru-zh-cn dir=weekly-report-w46-ru-core sibling (fallback one-by-one)
+2026-11-03 23:30:52 UTC   | (d) metadata commit 9a26ee39
+2026-11-03 23:30:52 UTC   |   push verified on attempt 1: origin main == 9a26ee39
+2026-11-03 23:30:52 UTC   | (e) PDF copied; lint --require-pdf green: OK:347 版,index.json 最新
+2026-11-03 23:30:52 UTC   | (f) PDF commit b734f5aa
+2026-11-03 23:30:52 UTC   |   push verified on attempt 1: origin main == b734f5aa
+2026-11-03 23:30:52 UTC   | (g) verified: ls-remote origin main == local HEAD (b734f5aa); editions in repo: 347
+2026-11-03 23:30:52 UTC OK 2026-w46-ru-zh-cn (index now 347 editions)
+2026-11-03 23:30:52 UTC START 2026-w46-ru-zh-tw dir=weekly-report-w46-ru-zh-tw sibling (fallback one-by-one)
+2026-11-04 00:34:57 UTC START bundle ru (one commit for the whole native set)
+2026-11-04 00:41:37 UTC   |   push attempt 6 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 7 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 8 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 9 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 10 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 11 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   |   push attempt 12 not verified (remote b734f5aa), retrying…
+2026-11-04 00:41:37 UTC   | STEP FAILED: push of 378068e90dd28426f5842f1c62e0e0139a570d6d never landed after 12 attempts
+2026-11-04 00:41:41 UTC BUNDLE-STATE: unpushed bundle commit 378068e9 (push too big / tunnel) — resetting to remote b734f5aa and falling back to one-by-one inserts
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-it: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-pt: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-nl: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-ja: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-ko: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC SKIP 2026-w46-ru-zh-cn: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 00:41:42 UTC START 2026-w46-ru-zh-tw dir=weekly-report-w46-ru-zh-tw sibling (fallback one-by-one)
+2026-11-04 00:44:46 UTC   | (d) metadata commit 4240b950
+2026-11-04 00:44:46 UTC   |   push verified on attempt 1: origin main == 4240b950
+2026-11-04 00:44:46 UTC   | (e) PDF copied; lint --require-pdf green: OK:348 版,index.json 最新
+2026-11-04 00:44:46 UTC   | (f) PDF commit 5785b697
+2026-11-04 00:44:46 UTC   |   push verified on attempt 1: origin main == 5785b697
+2026-11-04 00:44:46 UTC   | (g) verified: ls-remote origin main == local HEAD (5785b697); editions in repo: 348
+2026-11-04 00:44:46 UTC OK 2026-w46-ru-zh-tw (index now 348 editions)
+2026-11-04 00:44:50 UTC BATCH ru: fallback done=1 failed=None local=5785b697 remote=5785b697 match=True index_editions=348
+2026-11-04 00:45:01 UTC START bundle ja (one commit for the whole native set)
+2026-11-04 00:52:20 UTC   |   push attempt 6 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 7 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 8 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 9 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 10 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 11 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   |   push attempt 12 not verified (remote 5785b697), retrying…
+2026-11-04 00:52:20 UTC   | STEP FAILED: push of d8181023985c504deb0f3e30c0ad460d497cf16f never landed after 12 attempts
+2026-11-04 00:52:26 UTC BUNDLE-STATE: unpushed bundle commit d8181023 (push too big / tunnel) — resetting to remote 5785b697 and falling back to one-by-one inserts
+2026-11-04 00:52:27 UTC START 2026-w46-ja-en dir=weekly-report-w46-ja-en SEED (fallback one-by-one)
+2026-11-04 00:57:15 UTC   |   push attempt 1 not verified (remote d0ec6153), retrying…
+2026-11-04 00:57:15 UTC   |   push attempt 2 not verified (remote d0ec6153), retrying…
+2026-11-04 00:57:15 UTC   |   push attempt 3 not verified (remote d0ec6153), retrying…
+2026-11-04 00:57:15 UTC   |   push attempt 4 not verified (remote d0ec6153), retrying…
+2026-11-04 00:57:15 UTC   |   push verified on attempt 5: origin main == fe2f4814
+2026-11-04 00:57:15 UTC   | (g) verified: ls-remote origin main == local HEAD (fe2f4814); editions in repo: 349
+2026-11-04 00:57:15 UTC OK 2026-w46-ja-en (index now 349 editions)
+2026-11-04 00:57:15 UTC START 2026-w46-ja-de dir=weekly-report-w46-ja-de sibling (fallback one-by-one)
+2026-11-04 01:02:19 UTC   |   push attempt 2 not verified (remote 767365b8), retrying…
+2026-11-04 01:02:19 UTC   |   push attempt 3 not verified (remote 767365b8), retrying…
+2026-11-04 01:02:19 UTC   |   push attempt 4 not verified (remote 767365b8), retrying…
+2026-11-04 01:02:19 UTC   |   push attempt 5 not verified (remote 767365b8), retrying…
+2026-11-04 01:02:19 UTC   |   push verified on attempt 6: origin main == 6db4e8b3
+2026-11-04 01:02:19 UTC   | (g) verified: ls-remote origin main == local HEAD (6db4e8b3); editions in repo: 350
+2026-11-04 01:02:19 UTC OK 2026-w46-ja-de (index now 350 editions)
+2026-11-04 01:02:19 UTC START 2026-w46-ja-fr dir=weekly-report-w46-ja-fr sibling (fallback one-by-one)
+2026-11-04 01:07:45 UTC   |   push attempt 4 not verified (remote 725b9717), retrying…
+2026-11-04 01:07:45 UTC   |   push attempt 5 not verified (remote 725b9717), retrying…
+2026-11-04 01:07:45 UTC   |   push attempt 6 not verified (remote 725b9717), retrying…
+2026-11-04 01:07:45 UTC   |   push attempt 7 not verified (remote 725b9717), retrying…
+2026-11-04 01:07:45 UTC   |   push attempt 8 not verified (remote 725b9717), retrying…
+2026-11-04 01:07:45 UTC   | STEP FAILED: push of 2101a1002b556f8f5cb540713db7b0e9d31da084 never landed after 8 attempts
+2026-11-04 01:07:45 UTC FAIL 2026-w46-ja-fr rc=1 — driver stopping
+2026-11-04 01:07:50 UTC BATCH ja: fallback done=2 failed=2026-w46-ja-fr local=2101a100 remote=725b9717 match=False index_editions=351
+2026-11-04 01:09:15 UTC START bundle ja (one commit for the whole native set)
+2026-11-04 01:15:31 UTC   |   push attempt 6 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 7 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 8 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 9 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 10 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 11 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   |   push attempt 12 not verified (remote 2101a100), retrying…
+2026-11-04 01:15:31 UTC   | STEP FAILED: push of 0450d633cfc9624d3add2095ab1de3fc9a0de5d9 never landed after 12 attempts
+2026-11-04 01:15:33 UTC BUNDLE-STATE: unpushed bundle commit 0450d633 (push too big / tunnel) — resetting to remote 2101a100 and falling back to one-by-one inserts
+2026-11-04 01:15:33 UTC SKIP 2026-w46-ja-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 01:15:33 UTC SKIP 2026-w46-ja-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 01:15:33 UTC SKIP 2026-w46-ja-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 01:15:33 UTC START 2026-w46-ja-es dir=weekly-report-w46-ja-es sibling (fallback one-by-one)
+2026-11-04 01:20:49 UTC   |   push attempt 3 not verified (remote 8f66e35b), retrying…
+2026-11-04 01:20:49 UTC   |   push attempt 4 not verified (remote 8f66e35b), retrying…
+2026-11-04 01:20:49 UTC   |   push attempt 5 not verified (remote 8f66e35b), retrying…
+2026-11-04 01:20:49 UTC   |   push attempt 6 not verified (remote 8f66e35b), retrying…
+2026-11-04 01:20:49 UTC   |   push verified on attempt 7: origin main == 9d16abfd
+2026-11-04 01:20:49 UTC   | (g) verified: ls-remote origin main == local HEAD (9d16abfd); editions in repo: 352
+2026-11-04 01:20:49 UTC OK 2026-w46-ja-es (index now 352 editions)
+2026-11-04 01:20:49 UTC START 2026-w46-ja-it dir=weekly-report-w46-ja-it sibling (fallback one-by-one)
+2026-11-04 01:26:00 UTC   |   push attempt 4 not verified (remote bd4e13e7), retrying…
+2026-11-04 01:26:00 UTC   |   push attempt 5 not verified (remote bd4e13e7), retrying…
+2026-11-04 01:26:00 UTC   |   push attempt 6 not verified (remote bd4e13e7), retrying…
+2026-11-04 01:26:00 UTC   |   push attempt 7 not verified (remote bd4e13e7), retrying…
+2026-11-04 01:26:00 UTC   |   push attempt 8 not verified (remote bd4e13e7), retrying…
+2026-11-04 01:26:00 UTC   | STEP FAILED: push of 1506b7fab4ddf5f0efba1f7ee21904a8239acaef never landed after 8 attempts
+2026-11-04 01:26:00 UTC FAIL 2026-w46-ja-it rc=1 — driver stopping
+2026-11-04 01:26:03 UTC BATCH ja: fallback done=1 failed=2026-w46-ja-it local=1506b7fa remote=bd4e13e7 match=False index_editions=353
+2026-11-04 01:26:44 UTC START bundle ja (one commit for the whole native set)
+2026-11-04 01:29:44 UTC   | (b) 2026-w46-ja-zh-tw: rendered from sibling 2026-w46-ja-en.md; web PDF 2872569 B sha256 b9d3ed9df2073829…
+2026-11-04 01:29:44 UTC   | (c) all bundle files written; lint --write OK
+2026-11-04 01:29:44 UTC   | (d) lint --require-pdf green: OK:359 版,index.json 最新
+2026-11-04 01:29:44 UTC   | (e) bundle commit b9d8ed7c (6 editions)
+2026-11-04 01:29:44 UTC   |   push attempt 1 not verified (remote 1506b7fa), retrying…
+2026-11-04 01:29:44 UTC   |   push attempt 2 not verified (remote 1506b7fa), retrying…
+2026-11-04 01:29:44 UTC   |   push verified on attempt 3: origin main == b9d8ed7c
+2026-11-04 01:29:44 UTC   | (f) verified: ls-remote origin main == local HEAD (b9d8ed7c); editions in repo: 359
+2026-11-04 01:29:48 UTC BATCH ja: bundle done, index 353 -> 359 editions, local=b9d8ed7c remote=b9d8ed7c match=True
+2026-11-04 01:30:09 UTC START bundle ko (one commit for the whole native set)
+2026-11-04 02:34:48 UTC START bundle ko (one commit for the whole native set)
+2026-11-04 02:40:37 UTC   |   push attempt 6 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 7 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 8 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 9 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 10 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 11 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   |   push attempt 12 not verified (remote b9d8ed7c), retrying…
+2026-11-04 02:40:37 UTC   | STEP FAILED: push of 681972c71c44a4258417dbc06799a97750185136 never landed after 12 attempts
+2026-11-04 02:40:39 UTC BUNDLE-STATE: unpushed bundle commit 681972c7 (push too big / tunnel) — resetting to remote b9d8ed7c and falling back to one-by-one inserts
+2026-11-04 02:40:39 UTC START 2026-w46-ko-en dir=weekly-report-w46-ko-en SEED (fallback one-by-one)
+2026-11-04 02:45:14 UTC   |   push attempt 4 not verified (remote 075c6f32), retrying…
+2026-11-04 02:45:14 UTC   |   push attempt 5 not verified (remote 075c6f32), retrying…
+2026-11-04 02:45:14 UTC   |   push attempt 6 not verified (remote 075c6f32), retrying…
+2026-11-04 02:45:14 UTC   |   push attempt 7 not verified (remote 075c6f32), retrying…
+2026-11-04 02:45:14 UTC   |   push attempt 8 not verified (remote 075c6f32), retrying…
+2026-11-04 02:45:14 UTC   | STEP FAILED: push of 3fae0b001321e259c2dcaed8f6b4308584481860 never landed after 8 attempts
+2026-11-04 02:45:14 UTC FAIL 2026-w46-ko-en rc=1 — driver stopping
+2026-11-04 02:45:16 UTC BATCH ko: fallback done=0 failed=2026-w46-ko-en local=3fae0b00 remote=075c6f32 match=False index_editions=360
+2026-11-04 04:06:43 UTC RECOVERY-COORD push retry 1: git push origin 3fae0b0:main rc=128 "client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect / fatal: the remote end hung up unexpectedly" (~3s); ls-remote still 075c6f32
+2026-11-04 04:11:33 UTC RECOVERY-COORD push retry 2: same rc=128, same error (~3s); ls-remote still 075c6f32
+2026-11-04 04:16:08 UTC RECOVERY-COORD push retry 3: same rc=128, same error (~3s); ls-remote still 075c6f32
+2026-11-04 04:21:00 UTC RECOVERY-COORD push retry 4 (--verbose): same rc=128; disconnect before any Enumerating/Counting output — channel drops at push start, not mid-transfer; ls-remote still 075c6f32
+2026-11-04 04:25:16 UTC RECOVERY-COORD push retry 5: same rc=128, same error (~3s); ls-remote still 075c6f32
+2026-11-04 04:25:16 UTC RECOVERY-COORD HANDOFF: commit 3fae0b0 NOT reset, still pending (ko-en PDF + index flip only), tree clean, 1 ahead of remote 075c6f32; remote index 360 total / 100 W46 / 99 pdfInRepo; 299 files under issues/2026-w46; 0 W46 covers. Driver NOT run (ko-en push must land first). Next: retry push 3fae0b0:main, then driver for ko, zh-cn, zh-tw, covers serialized.
+2026-11-04 04:38:14 UTC RECOVERY-COORD(04:35Z spawn) push-retry loop start: local 3fae0b0, remote 075c6f32, up to 12 attempts, 270s intervals
+2026-11-04 04:38:15 UTC RECOVERY-COORD ssh -T diagnostic rc=0 out: Hi LucernaRead/weekly! You've successfully authenticated, but GitHub does not provide shell access. 
+2026-11-04 04:38:15 UTC RECOVERY-COORD push retry 1: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 04:38:19 UTC RECOVERY-COORD after retry 1: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 04:42:49 UTC RECOVERY-COORD push retry 2: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 04:42:53 UTC RECOVERY-COORD after retry 2: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 04:47:23 UTC RECOVERY-COORD push retry 3: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 04:47:27 UTC RECOVERY-COORD after retry 3: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 04:51:57 UTC RECOVERY-COORD push retry 4: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 04:52:00 UTC RECOVERY-COORD after retry 4: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 04:56:30 UTC RECOVERY-COORD push retry 5: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 04:56:34 UTC RECOVERY-COORD after retry 5: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 05:01:04 UTC RECOVERY-COORD push retry 6: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 05:01:07 UTC RECOVERY-COORD after retry 6: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 05:05:37 UTC RECOVERY-COORD push retry 7: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 05:05:42 UTC RECOVERY-COORD after retry 7: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 05:10:12 UTC RECOVERY-COORD push retry 8: git push origin 3fae0b0:main rc=128 sig="Broken pipe"
+2026-11-04 05:10:15 UTC RECOVERY-COORD after retry 8: ls-remote=075c6f32b50cdbe925a47205b4fe4978eba72c3b
+2026-11-04 05:14:45 UTC RECOVERY-COORD push retry 9: git push origin 3fae0b0:main rc=0 sig="To github.com:LucernaRead/weekly.git    075c6f3..3fae0b0  3fae0b0 -> main"
+2026-11-04 05:14:51 UTC RECOVERY-COORD after retry 9: ls-remote=3fae0b001321e259c2dcaed8f6b4308584481860
+2026-11-04 05:14:51 UTC RECOVERY-COORD LANDED: 3fae0b0 verified on remote after attempt 9
+2026-11-04 05:15:23 UTC START bundle ko (one commit for the whole native set)
+2026-11-04 05:22:12 UTC   |   push attempt 6 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 7 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 8 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 9 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 10 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 11 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   |   push attempt 12 not verified (remote 3fae0b00), retrying…
+2026-11-04 05:22:12 UTC   | STEP FAILED: push of 770d4609cada0abf7c56d1af610768f332890f74 never landed after 12 attempts
+2026-11-04 05:22:14 UTC BUNDLE-STATE: unpushed bundle commit 770d4609 (push too big / tunnel) — resetting to remote 3fae0b00 and falling back to one-by-one inserts
+2026-11-04 05:22:14 UTC SKIP 2026-w46-ko-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 05:22:14 UTC START 2026-w46-ko-de dir=weekly-report-w46-ko-de sibling (fallback one-by-one)
+2026-11-04 05:27:44 UTC   |   push attempt 4 not verified (remote 6f767399), retrying…
+2026-11-04 05:27:44 UTC   |   push attempt 5 not verified (remote 6f767399), retrying…
+2026-11-04 05:27:44 UTC   |   push attempt 6 not verified (remote 6f767399), retrying…
+2026-11-04 05:27:44 UTC   |   push attempt 7 not verified (remote 6f767399), retrying…
+2026-11-04 05:27:44 UTC   |   push attempt 8 not verified (remote 6f767399), retrying…
+2026-11-04 05:27:44 UTC   | STEP FAILED: push of 25cb472410ff00a2e03e31863809ad6779633299 never landed after 8 attempts
+2026-11-04 05:27:44 UTC FAIL 2026-w46-ko-de rc=1 — driver stopping
+2026-11-04 05:27:46 UTC BATCH ko: fallback done=0 failed=2026-w46-ko-de local=25cb4724 remote=6f767399 match=False index_editions=361
+2026-11-04 05:28:30 UTC RECOVERY-COORD(04:35Z spawn) push-retry loop start: local 25cb4724 (ko-de PDF), remote 6f76739, up to 12 attempts, 270s intervals
+2026-11-04 05:28:30 UTC RECOVERY-COORD push retry 1: git push origin 25cb4724:main rc=128 sig="Broken pipe"
+2026-11-04 05:28:33 UTC RECOVERY-COORD after retry 1: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:35:40 UTC RECOVERY-COORD(06:35Z spawn) push-retry loop start: local 25cb4724 (ko-de PDF), remote 6f76739, up to 12 attempts, 270s intervals
+2026-11-04 06:35:45 UTC RECOVERY-COORD push retry 1: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 06:35:50 UTC RECOVERY-COORD after retry 1: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:40:23 UTC RECOVERY-COORD push retry 2: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 06:40:25 UTC RECOVERY-COORD after retry 2: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:45:01 UTC RECOVERY-COORD push retry 3: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~6s)
+2026-11-04 06:45:06 UTC RECOVERY-COORD after retry 3: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:49:41 UTC RECOVERY-COORD push retry 4: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 06:49:46 UTC RECOVERY-COORD after retry 4: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:54:22 UTC RECOVERY-COORD push retry 5: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~6s)
+2026-11-04 06:54:26 UTC RECOVERY-COORD after retry 5: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 06:59:03 UTC RECOVERY-COORD push retry 6: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~7s)
+2026-11-04 06:59:09 UTC RECOVERY-COORD after retry 6: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:03:42 UTC RECOVERY-COORD push retry 7: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 07:03:44 UTC RECOVERY-COORD after retry 7: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:08:22 UTC RECOVERY-COORD push retry 8: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~8s)
+2026-11-04 07:08:28 UTC RECOVERY-COORD after retry 8: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:13:03 UTC RECOVERY-COORD push retry 9: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 07:13:07 UTC RECOVERY-COORD after retry 9: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:17:40 UTC RECOVERY-COORD push retry 10: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 07:17:42 UTC RECOVERY-COORD after retry 10: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:22:16 UTC RECOVERY-COORD push retry 11: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~4s)
+2026-11-04 07:22:18 UTC RECOVERY-COORD after retry 11: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:26:51 UTC RECOVERY-COORD push retry 12: git push origin 25cb4724:main rc=128 sig="client_loop: send disconnect: Broken pipe fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 07:26:53 UTC RECOVERY-COORD after retry 12: ls-remote=6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:26:53 UTC RECOVERY-COORD push-retry loop exhausted: 25cb4724 NOT landed after 12 attempts; ls-remote still 6f76739917cce1387511b78ba97a1f85fde9845e
+2026-11-04 07:27:23 UTC RECOVERY-COORD(06:35Z spawn) HANDOFF: commit 25cb4724 NOT reset/amended, still pending (ko-de PDF + index flip only), tree clean, 1 ahead of remote 6f76739; remote index 361 total / 101 W46 / 100 pdfInRepo (ko-de metadata-only); 302 files under issues/2026-w46; 0 W46 covers. Driver NOT run (transport dead after 12-attempt loop). Next: retry push 25cb4724:main first, then driver for ko, zh-cn, zh-tw, covers serialized.
+2026-11-04 07:33:35 UTC RECOVERY-COORD(07:33Z spawn) push-retry loop START: commit 25cb4724 (ko-de PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 07:33:44 UTC RECOVERY-COORD push retry 1: git push origin 25cb4724:main rc=0 sig="To github.com:LucernaRead/weekly.git 6f76739..25cb472 25cb4724 -> main" (~9s)
+2026-11-04 07:33:51 UTC RECOVERY-COORD after retry 1: ls-remote=25cb472410ff00a2e03e31863809ad6779633299
+2026-11-04 07:33:51 UTC RECOVERY-COORD push retry 1 LANDED: remote == 25cb4724
+2026-11-04 07:34:39 UTC START bundle ko (one commit for the whole native set)
+2026-11-04 07:39:09 UTC   | (b) 2026-w46-ko-ja: rendered from sibling 2026-w46-ko-en.md; web PDF 2661599 B sha256 dd901af2f866b4be…
+2026-11-04 07:39:09 UTC   | (b) 2026-w46-ko-zh-cn: rendered from sibling 2026-w46-ko-en.md; web PDF 2528382 B sha256 97a25f7a8ce9a37d…
+2026-11-04 07:39:09 UTC   | (b) 2026-w46-ko-zh-tw: rendered from sibling 2026-w46-ko-en.md; web PDF 2654630 B sha256 71128ecbcc632c55…
+2026-11-04 07:39:09 UTC   | (c) all bundle files written; lint --write OK
+2026-11-04 07:39:09 UTC   | (d) lint --require-pdf green: OK:370 版,index.json 最新
+2026-11-04 07:39:09 UTC   | (e) bundle commit ac3772ec (9 editions)
+2026-11-04 07:39:09 UTC   |   push verified on attempt 1: origin main == ac3772ec
+2026-11-04 07:39:09 UTC   | (f) verified: ls-remote origin main == local HEAD (ac3772ec); editions in repo: 370
+2026-11-04 07:39:11 UTC BATCH ko: bundle done, index 361 -> 370 editions, local=ac3772ec remote=ac3772ec match=True
+2026-11-04 07:39:17 UTC START bundle zh-cn (one commit for the whole native set)
+2026-11-04 07:48:38 UTC   |   push attempt 6 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 7 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 8 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 9 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 10 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 11 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   |   push attempt 12 not verified (remote ac3772ec), retrying…
+2026-11-04 07:48:38 UTC   | STEP FAILED: push of 49a174336ddacdcfb9ef75eb97de11d896ed2983 never landed after 12 attempts
+2026-11-04 07:48:43 UTC BUNDLE-STATE: unpushed bundle commit 49a17433 (push too big / tunnel) — resetting to remote ac3772ec and falling back to one-by-one inserts
+2026-11-04 07:48:43 UTC START 2026-w46-zh-cn-en dir=weekly-report-w46-zh-cn-core SEED (fallback one-by-one)
+2026-11-04 07:55:49 UTC   | (f) PDF commit e701a6c9
+2026-11-04 07:55:49 UTC   |   push attempt 1 not verified (remote 2eefa92f), retrying…
+2026-11-04 07:55:49 UTC   |   push attempt 2 not verified (remote 2eefa92f), retrying…
+2026-11-04 07:55:49 UTC   |   push attempt 3 not verified (remote 2eefa92f), retrying…
+2026-11-04 07:55:49 UTC   |   push verified on attempt 4: origin main == e701a6c9
+2026-11-04 07:55:49 UTC   | (g) verified: ls-remote origin main == local HEAD (e701a6c9); editions in repo: 371
+2026-11-04 07:55:49 UTC OK 2026-w46-zh-cn-en (index now 371 editions)
+2026-11-04 07:55:49 UTC START 2026-w46-zh-cn-de dir=weekly-report-w46-zh-cn-de sibling (fallback one-by-one)
+2026-11-04 08:03:26 UTC   |   push attempt 1 not verified (remote 39e790ba), retrying…
+2026-11-04 08:03:26 UTC   |   push attempt 2 not verified (remote 39e790ba), retrying…
+2026-11-04 08:03:26 UTC   |   push attempt 3 not verified (remote 39e790ba), retrying…
+2026-11-04 08:03:26 UTC   |   push attempt 4 not verified (remote 39e790ba), retrying…
+2026-11-04 08:03:26 UTC   |   push verified on attempt 5: origin main == 9f251cee
+2026-11-04 08:03:26 UTC   | (g) verified: ls-remote origin main == local HEAD (9f251cee); editions in repo: 372
+2026-11-04 08:03:26 UTC OK 2026-w46-zh-cn-de (index now 372 editions)
+2026-11-04 08:03:26 UTC START 2026-w46-zh-cn-fr dir=weekly-report-w46-zh-cn-fr sibling (fallback one-by-one)
+2026-11-04 08:11:12 UTC   |   push attempt 4 not verified (remote d7bff5ef), retrying…
+2026-11-04 08:11:12 UTC   |   push attempt 5 not verified (remote d7bff5ef), retrying…
+2026-11-04 08:11:12 UTC   |   push attempt 6 not verified (remote d7bff5ef), retrying…
+2026-11-04 08:11:12 UTC   |   push attempt 7 not verified (remote d7bff5ef), retrying…
+2026-11-04 08:11:12 UTC   |   push attempt 8 not verified (remote d7bff5ef), retrying…
+2026-11-04 08:11:12 UTC   | STEP FAILED: push of 894b8ef11c5f4817444e91db579bdacbd1b33273 never landed after 8 attempts
+2026-11-04 08:11:12 UTC FAIL 2026-w46-zh-cn-fr rc=1 — driver stopping
+2026-11-04 08:11:14 UTC BATCH zh-cn: fallback done=2 failed=2026-w46-zh-cn-fr local=894b8ef1 remote=d7bff5ef match=False index_editions=373
+2026-11-04 08:11:56 UTC RECOVERY-COORD(07:33Z spawn) push-retry loop START: commit 894b8ef1 (zh-cn-fr PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 08:11:59 UTC RECOVERY-COORD push retry 1: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 08:12:02 UTC RECOVERY-COORD after retry 1: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 08:16:37 UTC RECOVERY-COORD push retry 2: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~5s)
+2026-11-04 08:16:41 UTC RECOVERY-COORD after retry 2: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 08:21:14 UTC RECOVERY-COORD push retry 3: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 08:21:16 UTC RECOVERY-COORD after retry 3: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 08:25:51 UTC RECOVERY-COORD push retry 4: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~5s)
+2026-11-04 08:25:56 UTC RECOVERY-COORD after retry 4: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 08:29:46 UTC RECOVERY-COORD(07:33Z spawn) STOPPED by cron execution timeout: push-retry loop killed after retry 4 (all rc=128 broken pipe); commit 894b8ef1 NOT reset/amended, still pending (zh-cn-fr PDF + index flip), tree clean, 1 ahead of remote d7bff5ef; driver NOT re-run; next: retry push 894b8ef1:main first, then driver zh-cn remainder, then zh-tw, then covers.
+2026-11-04 09:06:55 UTC RECOVERY-COORD(09:04Z spawn) VERIFY: remote HEAD=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0 origin/main==ls-remote, local HEAD=894b8ef11c5f4817444e91db579bdacbd1b33273 1-ahead clean tree; remote index.json 373 editions, 113 W46, 112 pdfInRepo=True + 2026-w46-zh-cn-fr False; ls-tree issues/2026-w46 338 files (112 PDFs, 113 .text.md); covers/ 0 W46 files; pending commit ONLY zh-cn-fr PDF 2405830B + index flip. Starting push-retry loop first, no driver run until transport proves alive.
+2026-11-04 09:06:55 UTC RECOVERY-COORD(09:04Z spawn) push-retry loop START: commit 894b8ef1 (zh-cn-fr PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 09:06:59 UTC RECOVERY-COORD push retry 1: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~4s)
+2026-11-04 09:07:01 UTC RECOVERY-COORD after retry 1: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:11:34 UTC RECOVERY-COORD push retry 2: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 09:11:36 UTC RECOVERY-COORD after retry 2: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:16:11 UTC RECOVERY-COORD push retry 3: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 09:16:15 UTC RECOVERY-COORD after retry 3: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:20:50 UTC RECOVERY-COORD push retry 4: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 09:20:54 UTC RECOVERY-COORD after retry 4: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:25:29 UTC RECOVERY-COORD push retry 5: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~5s)
+2026-11-04 09:25:33 UTC RECOVERY-COORD after retry 5: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:30:05 UTC RECOVERY-COORD push retry 6: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 09:30:08 UTC RECOVERY-COORD after retry 6: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:34:44 UTC RECOVERY-COORD push retry 7: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~6s)
+2026-11-04 09:34:49 UTC RECOVERY-COORD after retry 7: ls-remote=d7bff5efd09b3a4afae69875fadd03b1d0ead0d0
+2026-11-04 09:39:20 UTC RECOVERY-COORD push retry 8: git push origin 894b8ef1:main rc=128 sig="git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists. " (~1s)
+2026-11-04 09:39:22 UTC RECOVERY-COORD after retry 8: ls-remote=
+2026-11-04 09:44:04 UTC RECOVERY-COORD push retry 9: git push origin 894b8ef1:main rc=128 sig="git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists. " (~12s)
+2026-11-04 09:44:07 UTC RECOVERY-COORD after retry 9: ls-remote=
+2026-11-04 09:48:55 UTC RECOVERY-COORD push retry 10: git push origin 894b8ef1:main rc=128 sig="git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists. " (~18s)
+2026-11-04 09:49:12 UTC RECOVERY-COORD after retry 10: ls-remote=
+2026-11-04 09:53:46 UTC RECOVERY-COORD push retry 11: git push origin 894b8ef1:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~4s)
+2026-11-04 09:54:03 UTC RECOVERY-COORD after retry 11: ls-remote=
+2026-11-04 09:58:49 UTC RECOVERY-COORD push retry 12: git push origin 894b8ef1:main rc=0 sig="To github.com:LucernaRead/weekly.git d7bff5e..894b8ef 894b8ef11c5f4817444e91db579bdacbd1b33273 -> main " (~16s)
+2026-11-04 09:59:07 UTC RECOVERY-COORD after retry 12: ls-remote=
+2026-11-04 09:59:07 UTC RECOVERY-COORD push-retry loop EXHAUSTED: 12 attempts, none landed; commit 894b8ef1 intact, driver NOT run
+2026-11-04 10:00:42 UTC CORRECTION: retry 12 push rc=0 sig d7bff5e..894b8ef -> main (~16s); loop ls-remote check returned EMPTY (tunnel flake, cf retries 8-10 Permission denied) so loop wrongly logged EXHAUSTED. Push stdout + later ls-remote=894b8ef1 + origin/main:index.json 113 W46 all pdfInRepo=True + zh-cn-fr PDF 2405830B in ls-tree prove 894b8ef1 LANDED. Re-verifying ls-remote independently now.
+2026-11-04 11:06:48 UTC RECOVERY-COORD(11:04Z spawn) VERIFY-START: SOP + insert_driver.py read; re-verifying remote truth before acting
+2026-11-04 11:06:48 UTC RECOVERY-COORD(11:04Z spawn) VERIFY: ls-remote HEAD=894b8ef11c5f4817444e91db579bdacbd1b33273 == local HEAD == origin/main; working tree CLEAN, 0 ahead; NO pending/stuck commit, no push to retry
+2026-11-04 11:06:48 UTC RECOVERY-COORD(11:04Z spawn) VERIFY: git fetch origin FAILED 'Permission denied (publickey)' RC=128 (intermittent flake, recorded honestly, NOT repo state); ls-remote succeeded repeatedly
+2026-11-04 11:06:48 UTC RECOVERY-COORD(11:04Z spawn) VERIFY: remote index.json (origin/main:index.json, HEAD==ls-remote): 373 editions, exactly 113 W46, all 113 pdfInRepo=True, 0 metadata-only; ls-tree issues/2026-w46: 339 files, 113 PDFs, 113 .text.md, 113 slugs; zh-cn 3 (en/de/fr), zh-tw 0; covers/ 72 files, 0 w46; index covers 12, all W45
+2026-11-04 11:06:48 UTC RECOVERY-COORD(11:04Z spawn) VERIFY: remaining 17 editions (zh-cn es/it/ja/ko/nl/pt/ru + zh-tw all 10 natives) + 12 covers. Starting insert_driver.py zh-cn.
+2026-11-04 11:06:56 UTC START bundle zh-cn (one commit for the whole native set)
+2026-11-04 11:09:03 UTC   |   push attempt 1 not verified (remote 894b8ef1), retrying…
+2026-11-04 11:09:03 UTC   | STEP FAILED: git ls-remote origin main
+2026-11-04 11:09:03 UTC   | 
+2026-11-04 11:09:03 UTC   | git@github.com: Permission denied (publickey).
+2026-11-04 11:09:03 UTC   | fatal: Could not read from remote repository.
+2026-11-04 11:09:03 UTC   | 
+2026-11-04 11:09:03 UTC   | Please make sure you have the correct access rights
+2026-11-04 11:09:03 UTC   | and the repository exists.
+2026-11-04 11:09:07 UTC BUNDLE-STATE: unpushed bundle commit 09832d48 (push too big / tunnel) — resetting to remote 894b8ef1 and falling back to one-by-one inserts
+2026-11-04 11:09:07 UTC SKIP 2026-w46-zh-cn-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 11:09:07 UTC SKIP 2026-w46-zh-cn-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 11:09:07 UTC SKIP 2026-w46-zh-cn-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 11:09:07 UTC START 2026-w46-zh-cn-es dir=weekly-report-w46-zh-cn-es sibling (fallback one-by-one)
+2026-11-04 11:10:07 UTC   | 
+2026-11-04 11:10:07 UTC   | git@github.com: Permission denied (publickey).
+2026-11-04 11:10:07 UTC   | fatal: Could not read from remote repository.
+2026-11-04 11:10:07 UTC   | 
+2026-11-04 11:10:07 UTC   | Please make sure you have the correct access rights
+2026-11-04 11:10:07 UTC   | and the repository exists.
+2026-11-04 11:10:07 UTC FAIL 2026-w46-zh-cn-es rc=1 — driver stopping
+2026-11-04 11:11:08 UTC RECOVERY-COORD(11:04Z spawn) DRIVER-OUTCOME zh-cn: bundle commit 09832d48 push attempt 1 hit ls-remote Permission denied flake; driver reset it to remote 894b8ef1 (discarded, not in history) and fell back one-by-one; skips en/de/fr verified complete
+2026-11-04 11:11:08 UTC RECOVERY-COORD(11:04Z spawn) DRIVER-OUTCOME zh-cn: fallback zh-cn-es metadata commit c9a5121 created; its push verify hit ls-remote Permission denied flake (STEP FAILED); driver then crashed IndexError on empty ls-remote output, no BATCH summary written
+2026-11-04 11:11:08 UTC RECOVERY-COORD(11:04Z spawn) STATE: local HEAD=c9a5121 (Add 2026-w46-zh-cn-es metadata), 1 ahead of remote 894b8ef1 (ls-remote just re-checked), tree CLEAN; zh-cn-es dest has md+.text.md only, PDF NOT yet copied (insert.py step e not reached). Do NOT re-run driver while this commit is pending (it would STOP on partial dest). Starting slow push-retry loop for c9a5121:main, up to 12 attempts at ~270s.
+2026-11-04 11:11:39 UTC RECOVERY-COORD(11:04Z spawn) push-retry loop START: commit c9a5121f (zh-cn-es metadata + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 11:11:47 UTC RECOVERY-COORD push retry 1: git push origin c9a5121f:main rc=128 sig="git@github.com: Permission denied (publickey). fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists." (~8s)
+2026-11-04 11:11:58 UTC RECOVERY-COORD after retry 1: ls-remote=
+2026-11-04 11:16:42 UTC RECOVERY-COORD push retry 2: git push origin c9a5121f:main rc=0 sig="To github.com:LucernaRead/weekly.git 894b8ef..c9a5121 c9a5121fd67c57b94176306df2945020503165ca -> main" (~14s)
+2026-11-04 11:16:44 UTC RECOVERY-COORD after retry 2: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:16:44 UTC RECOVERY-COORD push-retry loop END: landed=1 sha=c9a5121f
+2026-11-04 11:18:37 UTC RECOVERY-COORD(11:04Z spawn) MANUAL-PDF zh-cn-es: metadata c9a5121 landed retry 2 (push rc=0, ls-remote match 11:16:44 UTC; later ls-remote flaked Permission denied, recorded honestly); PDF copied (pins match md: 2497476 B, sha ca1061f1...), lint --write + --require-pdf OK:374 green, index diff 1 line; PDF commit created, starting slow push-retry loop
+2026-11-04 11:18:45 UTC RECOVERY-COORD(11:04Z spawn) push-retry loop START: commit 31fda753 (zh-cn-es PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 11:18:54 UTC RECOVERY-COORD push retry 1: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~9s)
+2026-11-04 11:18:57 UTC RECOVERY-COORD after retry 1: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:23:38 UTC RECOVERY-COORD push retry 2: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~11s)
+2026-11-04 11:23:40 UTC RECOVERY-COORD after retry 2: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:28:11 UTC RECOVERY-COORD push retry 3: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 11:28:12 UTC RECOVERY-COORD after retry 3: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:32:44 UTC RECOVERY-COORD push retry 4: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 11:32:45 UTC RECOVERY-COORD after retry 4: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:37:17 UTC RECOVERY-COORD push retry 5: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 11:37:18 UTC RECOVERY-COORD after retry 5: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:41:50 UTC RECOVERY-COORD push retry 6: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 11:41:52 UTC RECOVERY-COORD after retry 6: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:46:23 UTC RECOVERY-COORD push retry 7: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 11:46:24 UTC RECOVERY-COORD after retry 7: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:50:56 UTC RECOVERY-COORD push retry 8: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 11:50:58 UTC RECOVERY-COORD after retry 8: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 11:55:30 UTC RECOVERY-COORD push retry 9: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 11:55:31 UTC RECOVERY-COORD after retry 9: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:00:03 UTC RECOVERY-COORD push retry 10: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 12:00:05 UTC RECOVERY-COORD after retry 10: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:02:08 UTC RECOVERY-COORD(11:04Z spawn) STOPPED by cron execution timeout: push-retry loop for 31fda75 killed after retry 10 (all rc=128 broken pipe; attempts 11-12 never ran); commit 31fda75 intact, NOT reset/amended, tree clean, 1 ahead of remote c9a5121 (ls-remote verified 12:01:56 UTC); driver NOT re-run; next: retry push 31fda75:main first, then manual PDF steps per edition or driver for remainder, then zh-tw, then covers.
+2026-11-04 12:06:40 UTC PROGRESS-CHECK(07:01Z EST slot) single-PDF push retry 11 for 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s); ls-remote re-verified remote still c9a5121f. Retry budget for this check spent; commit 31fda75 NOT reset; no coordinator spawned (progress within the hour); next check owns coordinator decision if remote still c9a5121 ~1h after 11:16:42 UTC landing.
+2026-11-04 12:33 UTC PROGRESS-CHECK(07:31Z EST slot) single-PDF push retry for 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified remote still c9a5121f. Retry budget for this check spent; commit 31fda75 NOT reset.
+2026-11-04 12:34:18 UTC RECOVERY-COORD(12:33Z spawn) VERIFY: fetch RC=0, ls-remote HEAD=c9a5121fd67c57b94176306df2945020503165ca == origin/main, local HEAD=31fda753fdcee194af17de3b71ca3979396072ae 1-ahead clean tree; remote index.json 374 editions, 114 W46, 113 pdfInRepo=True + zh-cn-es metadata-only (pdfInRepo=False); ls-tree issues/2026-w46 341 files (113 PDFs, 114 .text.md, 114 slugs); covers/ 72 files, 0 W46; pending commit ONLY zh-cn-es PDF 2497476B + index flip, NOT reset/amended. Starting push-retry loop first, no driver run until transport proves alive.
+2026-11-04 12:34:18 UTC RECOVERY-COORD(12:33Z spawn) push-retry loop START: commit 31fda753 (zh-cn-es PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 12:34:34 UTC RECOVERY-COORD push retry 1: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 12:34:37 UTC RECOVERY-COORD after retry 1: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:39:13 UTC RECOVERY-COORD push retry 2: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 12:39:14 UTC RECOVERY-COORD after retry 2: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:43:52 UTC RECOVERY-COORD push retry 3: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 12:43:54 UTC RECOVERY-COORD after retry 3: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:48:30 UTC RECOVERY-COORD push retry 4: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 12:48:31 UTC RECOVERY-COORD after retry 4: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:53:08 UTC RECOVERY-COORD push retry 5: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 12:53:09 UTC RECOVERY-COORD after retry 5: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 12:57:45 UTC RECOVERY-COORD push retry 6: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 12:57:46 UTC RECOVERY-COORD after retry 6: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:02:26 UTC RECOVERY-COORD push retry 7: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 13:02:28 UTC RECOVERY-COORD after retry 7: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:07:08 UTC RECOVERY-COORD push retry 8: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 13:07:09 UTC RECOVERY-COORD after retry 8: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:11:50 UTC RECOVERY-COORD push retry 9: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 13:11:52 UTC RECOVERY-COORD after retry 9: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:16:26 UTC RECOVERY-COORD push retry 10: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 13:16:28 UTC RECOVERY-COORD after retry 10: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:21:02 UTC RECOVERY-COORD push retry 11: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 13:21:04 UTC RECOVERY-COORD after retry 11: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:25:38 UTC RECOVERY-COORD push retry 12: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 13:25:40 UTC RECOVERY-COORD after retry 12: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:25:52 UTC RECOVERY-COORD(12:33Z spawn) STOPPED: transport stayed dead — push-retry loop for 31fda753 exhausted 12/12 attempts (retries 1-12 in this spawn, all rc=128 broken pipe, 1-3s each, ~270s intervals; plus 2 prior progress-check retries), remote re-verified c9a5121f at 13:25:42 UTC; commit 31fda753 NOT reset/amended/discarded, still pending (zh-cn-es PDF 2497476B + index flip, pins verified), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 113/130 fully complete + zh-cn-es metadata-only (114 W46 in index, 374 total); REMAINS: zh-cn-es PDF + zh-cn 6 editions (it/ja/ko/nl/pt/ru) + zh-tw 10 editions + 12/12 covers; next: retry push 31fda753:main first, then driver zh-cn remainder, then zh-tw, then covers.
+2026-11-04 13:30 UTC PROGRESS-CHECK(08:01Z EST slot) single-PDF push retry for 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified remote still c9a5121f. Retry budget for this check spent; commit 31fda75 NOT reset.
+2026-11-04 13:29:04 UTC RECOVERY-COORD(13:28Z spawn) VERIFY: fetch RC=0, ls-remote HEAD=c9a5121fd67c57b94176306df2945020503165ca == origin/main, local HEAD=31fda753fdcee194af17de3b71ca3979396072ae 1-ahead clean tree; remote index.json 374 editions, 114 W46, 113 pdfInRepo=True + zh-cn-es metadata-only; ls-tree issues/2026-w46 341 files (113 PDFs, 114 .text.md, 114 slugs); covers/ 72 files, 0 W46; pending commit ONLY zh-cn-es PDF + index flip. Starting push-retry loop first, no driver run until transport proves alive.
+2026-11-04 13:29:04 UTC RECOVERY-COORD(13:28Z spawn) push-retry loop START: commit 31fda753 (zh-cn-es PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 13:29:11 UTC RECOVERY-COORD push retry 1: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 13:29:12 UTC RECOVERY-COORD after retry 1: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:33:52 UTC RECOVERY-COORD push retry 2: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 13:33:53 UTC RECOVERY-COORD after retry 2: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:38:31 UTC RECOVERY-COORD push retry 3: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~1s)
+2026-11-04 13:38:32 UTC RECOVERY-COORD after retry 3: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:43:12 UTC RECOVERY-COORD push retry 4: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~1s)
+2026-11-04 13:43:14 UTC RECOVERY-COORD after retry 4: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:47:46 UTC RECOVERY-COORD push retry 5: git push origin 31fda753:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 13:47:47 UTC RECOVERY-COORD after retry 5: ls-remote=c9a5121fd67c57b94176306df2945020503165ca
+2026-11-04 13:52:20 UTC RECOVERY-COORD push retry 6: git push origin 31fda753:main rc=0 sig="To github.com:LucernaRead/weekly.git c9a5121..31fda75 31fda753 -> main " (~3s)
+2026-11-04 13:52:21 UTC RECOVERY-COORD after retry 6: ls-remote=31fda753fdcee194af17de3b71ca3979396072ae
+2026-11-04 13:52:39 UTC RECOVERY-COORD(13:28Z spawn) LANDED: 31fda753 verified on remote after attempt 6 (rc=0, ls-remote match); zh-cn-es now fully complete. Remote index re-verified below; starting insert_driver.py zh-cn.
+2026-11-04 13:52:44 UTC START bundle zh-cn (one commit for the whole native set)
+2026-11-04 13:58:20 UTC   |   push attempt 6 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 7 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 8 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 9 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 10 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 11 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   |   push attempt 12 not verified (remote 31fda753), retrying…
+2026-11-04 13:58:20 UTC   | STEP FAILED: push of 580e74150b0c37ff08b71c8ed769d55b2a512650 never landed after 12 attempts
+2026-11-04 13:58:22 UTC BUNDLE-STATE: unpushed bundle commit 580e7415 (push too big / tunnel) — resetting to remote 31fda753 and falling back to one-by-one inserts
+2026-11-04 13:58:22 UTC SKIP 2026-w46-zh-cn-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 13:58:22 UTC SKIP 2026-w46-zh-cn-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 13:58:22 UTC SKIP 2026-w46-zh-cn-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 13:58:22 UTC SKIP 2026-w46-zh-cn-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 13:58:22 UTC START 2026-w46-zh-cn-it dir=weekly-report-w46-zh-cn-it sibling (fallback one-by-one)
+2026-11-04 14:02:56 UTC   |   push attempt 4 not verified (remote 6379e7be), retrying…
+2026-11-04 14:02:56 UTC   |   push attempt 5 not verified (remote 6379e7be), retrying…
+2026-11-04 14:02:56 UTC   |   push attempt 6 not verified (remote 6379e7be), retrying…
+2026-11-04 14:02:56 UTC   |   push attempt 7 not verified (remote 6379e7be), retrying…
+2026-11-04 14:02:56 UTC   |   push attempt 8 not verified (remote 6379e7be), retrying…
+2026-11-04 14:02:56 UTC   | STEP FAILED: push of fcf87e8ffa1bb06164d2c42f8cf28900f8825138 never landed after 8 attempts
+2026-11-04 14:02:56 UTC FAIL 2026-w46-zh-cn-it rc=1 — driver stopping
+2026-11-04 14:02:57 UTC BATCH zh-cn: fallback done=0 failed=2026-w46-zh-cn-it local=fcf87e8f remote=6379e7be match=False index_editions=375
+2026-11-04 14:03:13 UTC RECOVERY-COORD(13:28Z spawn) push-retry loop START: commit fcf87e8f (zh-cn-it PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 14:03:15 UTC RECOVERY-COORD push retry 1: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 14:03:16 UTC RECOVERY-COORD after retry 1: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:08:58 UTC RECOVERY-COORD push retry 2: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~3s)
+2026-11-04 14:08:59 UTC RECOVERY-COORD after retry 2: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:13:31 UTC RECOVERY-COORD push retry 3: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 14:13:32 UTC RECOVERY-COORD after retry 3: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:18:04 UTC RECOVERY-COORD push retry 4: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 14:18:06 UTC RECOVERY-COORD after retry 4: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:22:37 UTC RECOVERY-COORD push retry 5: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~1s)
+2026-11-04 14:22:39 UTC RECOVERY-COORD after retry 5: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:27:11 UTC RECOVERY-COORD push retry 6: git push origin fcf87e8f:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (~2s)
+2026-11-04 14:27:12 UTC RECOVERY-COORD after retry 6: ls-remote=6379e7be6627a3734c5a4ef25961f933fa8bc8d4
+2026-11-04 14:32:18 UTC PROGRESS-CHECK push retry 1: git push origin fcf87e8f:main rc=0 LANDED (6379e7be..fcf87e8f -> main, ~2s); ls-remote re-verified fcf87e8f
+2026-11-04 15:35:42 UTC START bundle zh-cn (one commit for the whole native set)
+2026-11-04 15:40:21 UTC   | (b) 2026-w46-zh-cn-ja: rendered from sibling 2026-w46-zh-cn-en.md; web PDF 2730428 B sha256 1d5c5522353b001d…
+2026-11-04 15:40:21 UTC   | (b) 2026-w46-zh-cn-ko: rendered from sibling 2026-w46-zh-cn-en.md; web PDF 2526513 B sha256 734a6cc183c9781b…
+2026-11-04 15:40:21 UTC   | (c) all bundle files written; lint --write OK
+2026-11-04 15:40:21 UTC   | (d) lint --require-pdf green: OK:380 版,index.json 最新
+2026-11-04 15:40:21 UTC   | (e) bundle commit 1fe523ad (5 editions)
+2026-11-04 15:40:21 UTC   |   push attempt 1 not verified (remote fcf87e8f), retrying…
+2026-11-04 15:40:21 UTC   |   push verified on attempt 2: origin main == 1fe523ad
+2026-11-04 15:40:21 UTC   | (f) verified: ls-remote origin main == local HEAD (1fe523ad); editions in repo: 380
+2026-11-04 15:40:23 UTC BATCH zh-cn: bundle done, index 375 -> 380 editions, local=1fe523ad remote=1fe523ad match=True
+2026-11-04 15:40:43 UTC START bundle zh-tw (one commit for the whole native set)
+2026-11-04 15:48:54 UTC   |   push attempt 6 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 7 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 8 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 9 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 10 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 11 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   |   push attempt 12 not verified (remote 1fe523ad), retrying…
+2026-11-04 15:48:54 UTC   | STEP FAILED: push of 0848c741e0995ebe6fbb21fa9c2938bd3d1f2dd8 never landed after 12 attempts
+2026-11-04 15:48:55 UTC BUNDLE-STATE: unpushed bundle commit 0848c741 (push too big / tunnel) — resetting to remote 1fe523ad and falling back to one-by-one inserts
+2026-11-04 15:48:56 UTC START 2026-w46-zh-tw-en dir=weekly-report-w46-zhtw-core SEED (fallback one-by-one)
+2026-11-04 15:53:18 UTC   |   push attempt 2 not verified (remote 15649532), retrying…
+2026-11-04 15:53:18 UTC   |   push attempt 3 not verified (remote 15649532), retrying…
+2026-11-04 15:53:18 UTC   |   push attempt 4 not verified (remote 15649532), retrying…
+2026-11-04 15:53:18 UTC   |   push attempt 5 not verified (remote 15649532), retrying…
+2026-11-04 15:53:18 UTC   |   push verified on attempt 6: origin main == ea6dd397
+2026-11-04 15:53:18 UTC   | (g) verified: ls-remote origin main == local HEAD (ea6dd397); editions in repo: 381
+2026-11-04 15:53:18 UTC OK 2026-w46-zh-tw-en (index now 381 editions)
+2026-11-04 15:53:18 UTC START 2026-w46-zh-tw-de dir=weekly-report-w46-zh-tw-de sibling (fallback one-by-one)
+2026-11-04 15:56:58 UTC   | (f) PDF commit b55e74ca
+2026-11-04 15:56:58 UTC   |   push attempt 1 not verified (remote ab3aed72), retrying…
+2026-11-04 15:56:58 UTC   |   push attempt 2 not verified (remote ab3aed72), retrying…
+2026-11-04 15:56:58 UTC   |   push attempt 3 not verified (remote ab3aed72), retrying…
+2026-11-04 15:56:58 UTC   |   push verified on attempt 4: origin main == b55e74ca
+2026-11-04 15:56:58 UTC   | (g) verified: ls-remote origin main == local HEAD (b55e74ca); editions in repo: 382
+2026-11-04 15:56:58 UTC OK 2026-w46-zh-tw-de (index now 382 editions)
+2026-11-04 15:56:58 UTC START 2026-w46-zh-tw-fr dir=weekly-report-w46-zh-tw-fr sibling (fallback one-by-one)
+2026-11-04 16:01:47 UTC   |   push attempt 4 not verified (remote fa1db5e9), retrying…
+2026-11-04 16:01:47 UTC   |   push attempt 5 not verified (remote fa1db5e9), retrying…
+2026-11-04 16:01:47 UTC   |   push attempt 6 not verified (remote fa1db5e9), retrying…
+2026-11-04 16:01:47 UTC   |   push attempt 7 not verified (remote fa1db5e9), retrying…
+2026-11-04 16:01:47 UTC   |   push attempt 8 not verified (remote fa1db5e9), retrying…
+2026-11-04 16:01:47 UTC   | STEP FAILED: push of 929fa62518eb9953c1237eaa7228e745bd23aeb9 never landed after 8 attempts
+2026-11-04 16:01:47 UTC FAIL 2026-w46-zh-tw-fr rc=1 — driver stopping
+2026-11-04 16:01:49 UTC BATCH zh-tw: fallback done=2 failed=2026-w46-zh-tw-fr local=929fa625 remote=fa1db5e9 match=False index_editions=383
+2026-11-04 16:02:51 UTC RECOVERY-COORD push-retry loop START: commit 929fa62518eb9953c1237eaa7228e745bd23aeb9 (zh-tw-fr PDF + index flip), up to 12 attempts at ~270s intervals
+2026-11-04 16:02:54 UTC RECOVERY-COORD push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (1s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:07:27 UTC RECOVERY-COORD push retry 2: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:12:01 UTC RECOVERY-COORD push retry 3: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:16:34 UTC RECOVERY-COORD push retry 4: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:21:08 UTC RECOVERY-COORD push retry 5: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (3s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:24:23 UTC RECOVERY-COORD push-retry loop RESUMED: prior session ended after attempt 5 with no landed/exhausted record; remote still fa1db5e9, local still 929fa625, tree clean; continuing attempts 6-12 at ~270s intervals, same commit only
+2026-11-04 16:24:27 UTC RECOVERY-COORD push retry 6: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:28:59 UTC RECOVERY-COORD push retry 7: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (1s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:32:13 UTC RECOVERY-COORD STOPPED BY CRON TIMEOUT: push-retry loop killed during sleep before attempt 8; commit 929fa625 still unpushed, no new commits stacked; next coordinator to resume slow retries of this same commit only.
+2026-11-04 16:36:11 UTC PROGRESS-CHECK push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d. Retry budget for this check spent; commit NOT reset.
+2026-11-04 16:38:00 UTC RECOVERY-COORD(16:37Z spawn) VERIFY: SOP + insert_driver.py read; log tail read (674 lines)
+2026-11-04 16:38:00 UTC RECOVERY-COORD(16:37Z spawn) VERIFY-START: fetch RC=0, ls-remote HEAD=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d == origin/main; local HEAD=929fa62518eb9953c1237eaa7228e745bd23aeb9 1-ahead, working tree CLEAN; pending commit ONLY zh-tw-fr PDF (2073427B) + index.json pdfInRepo flip, NOT reset/amended/discarded
+2026-11-04 16:38:00 UTC RECOVERY-COORD(16:37Z spawn) VERIFY: remote index.json (origin/main:index.json): 383 editions, 123 W46, 122 pdfInRepo=True + 1 metadata-only (2026-w46-zh-tw-fr); ls-tree issues/2026-w46: 368 files, 122 PDFs, 123 .text.md, 123 slugs; zh-tw slugs in index: en/de/fr only; covers/ 72 files, 0 w46; index covers 12, all W45
+2026-11-04 16:38:00 UTC RECOVERY-COORD(16:37Z spawn) VERIFY: local files/ 134 weekly-report-w46-* dirs, 12/12 local cover-w46-* dirs present. Remaining: zh-tw-fr PDF + 7 zh-tw editions (es/it/ja/ko/nl/pt/ru) + 12/12 covers.
+2026-11-04 16:38:00 UTC RECOVERY-COORD(16:37Z spawn) push-retry loop START: SAME COMMIT ONLY 929fa625:main, attempts 8-12 at ~270s intervals; no driver run until a push proves transport alive (rc=0 AND ls-remote match)
+2026-11-04 16:38:58 UTC RECOVERY-COORD push retry 8: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:44:13 UTC RECOVERY-COORD push retry 9: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="Traceback (most recent call last): File "/home/hatch/.ssh/proxyconnect.py", line 77, in <module> main() File "/home/hatch/.ssh/proxyconnect.py", line 35, in main chunk = s.recv(4096) ^^^^^^^^^^^^ TimeoutError: timed out Connection closed by UNKNOWN port 65535 fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists. " (20s); ls-remote=
+2026-11-04 16:46:30 UTC RECOVERY-COORD after retry 9 re-verify: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d (3x, tunnel recovered; retry-9 empty ls-remote was a proxy-timeout flake, NOT repo state); commit 929fa625 still unpushed, tree clean
+2026-11-04 16:49:04 UTC RECOVERY-COORD push retry 10: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:53:55 UTC RECOVERY-COORD push retry 11: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (1s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:58:36 UTC RECOVERY-COORD push retry 12: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (2s); ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 16:59:18 UTC RECOVERY-COORD(16:37Z spawn) STOPPED: transport stayed dead — push-retry loop attempts 8-12 all failed (8: rc=128 broken pipe 2s; 9: rc=128 proxyconnect TimeoutError 20s + empty ls-remote flake, re-verified fa1db5e9 3x; 10: rc=128 broken pipe 2s; 11: rc=128 broken pipe 1s; 12: rc=128 broken pipe 2s; ~270s intervals); remote re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d at close (fetch RC=0); commit 929fa625 NOT reset/amended/discarded, still pending (zh-tw-fr PDF 2073427B + index flip), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 122/130 fully complete + zh-tw-fr metadata-only (123 W46 in index, 383 total); REMAINS: zh-tw-fr PDF + zh-tw 7 editions (es/it/ja/ko/nl/pt/ru) + 12/12 covers; next: retry push 929fa625:main first, then driver zh-tw remainder, then covers.
+2026-11-04 17:04:04 UTC PROGRESS-CHECK push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128; ls-remote re-checked after. Retry budget for this check spent; commit NOT reset.
+2026-11-04 17:07:57 UTC RECOVERY-COORD(17:06Z spawn) VERIFY: fetch rc=0, ls-remote HEAD=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d (match expected), remote index 383 total / 123 W46 (122 pdfInRepo + 1 metadata-only 2026-w46-zh-tw-fr), ls-tree 368 files / 122 PDFs / 123 .text.md / 123 slugs, 0 W46 covers. Local HEAD=929fa62518eb9953c1237eaa7228e745bd23aeb9 1 ahead, tree clean, commit intact (zh-tw-fr PDF 2073427 B + index flip only). Starting push-retry loop for THIS SAME COMMIT ONLY, up to 12 attempts at ~270s.
+2026-11-04 17:08:29 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 1/12: commit 929fa625
+2026-11-04 17:08:31 UTC RECOVERY-COORD(17:06Z spawn) push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:08:33 UTC RECOVERY-COORD(17:06Z spawn) after retry 1: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:13:03 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 2/12: commit 929fa625
+2026-11-04 17:13:04 UTC RECOVERY-COORD(17:06Z spawn) push retry 2: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 17:13:06 UTC RECOVERY-COORD(17:06Z spawn) after retry 2: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:17:36 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 3/12: commit 929fa625
+2026-11-04 17:17:38 UTC RECOVERY-COORD(17:06Z spawn) push retry 3: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:17:40 UTC RECOVERY-COORD(17:06Z spawn) after retry 3: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:22:10 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 4/12: commit 929fa625
+2026-11-04 17:22:11 UTC RECOVERY-COORD(17:06Z spawn) push retry 4: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 17:22:13 UTC RECOVERY-COORD(17:06Z spawn) after retry 4: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:22:13 UTC RECOVERY-COORD(17:06Z spawn) push-retry chunk 1-4 done, not landed
+2026-11-04 17:22:16 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 5/12: commit 929fa625
+2026-11-04 17:22:18 UTC RECOVERY-COORD(17:06Z spawn) push retry 5: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:22:19 UTC RECOVERY-COORD(17:06Z spawn) after retry 5: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:26:49 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 6/12: commit 929fa625
+2026-11-04 17:26:50 UTC RECOVERY-COORD(17:06Z spawn) push retry 6: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 17:26:52 UTC RECOVERY-COORD(17:06Z spawn) after retry 6: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:31:22 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 7/12: commit 929fa625
+2026-11-04 17:31:24 UTC RECOVERY-COORD(17:06Z spawn) push retry 7: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:31:25 UTC RECOVERY-COORD(17:06Z spawn) after retry 7: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:35:55 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 8/12: commit 929fa625
+2026-11-04 17:35:57 UTC RECOVERY-COORD(17:06Z spawn) push retry 8: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:35:58 UTC RECOVERY-COORD(17:06Z spawn) after retry 8: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:35:58 UTC RECOVERY-COORD(17:06Z spawn) push-retry chunk 5-8 done, not landed
+2026-11-04 17:36:01 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 9/12: commit 929fa625
+2026-11-04 17:36:03 UTC RECOVERY-COORD(17:06Z spawn) push retry 9: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:36:04 UTC RECOVERY-COORD(17:06Z spawn) after retry 9: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:40:34 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 10/12: commit 929fa625
+2026-11-04 17:40:36 UTC RECOVERY-COORD(17:06Z spawn) push retry 10: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:40:37 UTC RECOVERY-COORD(17:06Z spawn) after retry 10: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:45:07 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 11/12: commit 929fa625
+2026-11-04 17:45:08 UTC RECOVERY-COORD(17:06Z spawn) push retry 11: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 17:45:10 UTC RECOVERY-COORD(17:06Z spawn) after retry 11: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:49:40 UTC RECOVERY-COORD(17:06Z spawn) push-retry loop START attempt 12/12: commit 929fa625
+2026-11-04 17:49:42 UTC RECOVERY-COORD(17:06Z spawn) push retry 12: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 17:49:43 UTC RECOVERY-COORD(17:06Z spawn) after retry 12: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 17:49:43 UTC RECOVERY-COORD(17:06Z spawn) push-retry chunk 9-12 done, not landed
+2026-11-04 17:50:06 UTC RECOVERY-COORD(17:06Z spawn) STOPPED: transport stayed dead — push-retry loop attempts 1-12 all failed rc=128 with identical signature "client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (1-2s each, ~270s intervals; no proxyconnect flake this run); ls-remote stable fa1db5e93741d2d7fa75b5b7f89f78d186b6501d after every attempt; remote re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d at close (fetch RC=0); commit 929fa625 NOT reset/amended/discarded, still pending (zh-tw-fr PDF 2073427B + index flip), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 122/130 fully complete + zh-tw-fr metadata-only (123 W46 in index, 383 total, 368 files / 122 PDFs / 123 .text.md / 123 slugs, 0 W46 covers); REMAINS: zh-tw-fr PDF + zh-tw 7 editions (es/it/ja/ko/nl/pt/ru) + 12/12 covers; next: resume retries of THIS SAME COMMIT 929fa625:main only, then driver zh-tw remainder, then covers.
+2026-11-04 17:53:18 UTC PROGRESS-CHECK(17:53Z) push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly " (2s)
+2026-11-04 17:56:16 UTC RECOVERY-COORD(17:55Z spawn) REVERIFY: fetch RC=0 (no 403/Permission-denied flake), ls-remote HEAD=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d == origin/main (no advance); remote index at fa1db5e9: 383 editions, 123 W46, 122 fully complete + 2026-w46-zh-tw-fr metadata-only (pdfInRepo=False); ls-tree issues/2026-w46: 368 files, 122 PDFs, 123 .text.md, 123 slugs; covers/ 72 files, 0 w46, index covers 12 all w45; local HEAD 929fa62518eb9953c1237eaa7228e745bd23aeb9 (1 ahead, tree clean) containing ONLY zh-tw-fr PDF 2073427B + index.json flip; prior run 12 attempts + parent-check 1 attempt all rc=128 same broken-pipe signature; starting fresh 12-attempt slow-retry loop of THIS commit only.
+2026-11-04 17:56:38 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 1/12: commit 929fa625
+2026-11-04 17:56:38 UTC RECOVERY-COORD(17:55Z spawn) push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 17:56:41 UTC RECOVERY-COORD(17:55Z spawn) after retry 1: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:01:11 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 2/12: commit 929fa625
+2026-11-04 18:01:11 UTC RECOVERY-COORD(17:55Z spawn) push retry 2: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 18:01:14 UTC RECOVERY-COORD(17:55Z spawn) after retry 2: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:05:44 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 3/12: commit 929fa625
+2026-11-04 18:05:44 UTC RECOVERY-COORD(17:55Z spawn) push retry 3: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~4s)
+2026-11-04 18:05:49 UTC RECOVERY-COORD(17:55Z spawn) after retry 3: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:10:19 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 4/12: commit 929fa625
+2026-11-04 18:10:19 UTC RECOVERY-COORD(17:55Z spawn) push retry 4: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:10:22 UTC RECOVERY-COORD(17:55Z spawn) after retry 4: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:17:22 UTC RECOVERY-COORD(17:55Z spawn) NOTE: background loop died after attempt 4 (no sleep/git process at 18:16:29Z check; attempts 1-4 all rc=128 same signature); relaunching attempts 5-12 as detached setsid/nohup loop, same commit, ~270s intervals.
+2026-11-04 18:17:22 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 5/12: commit 929fa625
+2026-11-04 18:17:22 UTC RECOVERY-COORD(17:55Z spawn) push retry 5: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:17:26 UTC RECOVERY-COORD(17:55Z spawn) after retry 5: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:21:56 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 6/12: commit 929fa625
+2026-11-04 18:21:56 UTC RECOVERY-COORD(17:55Z spawn) push retry 6: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 18:21:58 UTC RECOVERY-COORD(17:55Z spawn) after retry 6: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:26:28 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 7/12: commit 929fa625
+2026-11-04 18:26:28 UTC RECOVERY-COORD(17:55Z spawn) push retry 7: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 18:26:32 UTC RECOVERY-COORD(17:55Z spawn) after retry 7: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:31:02 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 8/12: commit 929fa625
+2026-11-04 18:31:02 UTC RECOVERY-COORD(17:55Z spawn) push retry 8: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:31:06 UTC RECOVERY-COORD(17:55Z spawn) after retry 8: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:35:36 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 9/12: commit 929fa625
+2026-11-04 18:35:36 UTC RECOVERY-COORD(17:55Z spawn) push retry 9: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 18:35:38 UTC RECOVERY-COORD(17:55Z spawn) after retry 9: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:40:08 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 10/12: commit 929fa625
+2026-11-04 18:40:08 UTC RECOVERY-COORD(17:55Z spawn) push retry 10: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:40:11 UTC RECOVERY-COORD(17:55Z spawn) after retry 10: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:44:41 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 11/12: commit 929fa625
+2026-11-04 18:44:41 UTC RECOVERY-COORD(17:55Z spawn) push retry 11: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:44:49 UTC RECOVERY-COORD(17:55Z spawn) after retry 11: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:49:19 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop START attempt 12/12: commit 929fa625
+2026-11-04 18:49:19 UTC RECOVERY-COORD(17:55Z spawn) push retry 12: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 18:49:22 UTC RECOVERY-COORD(17:55Z spawn) after retry 12: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 18:49:22 UTC RECOVERY-COORD(17:55Z spawn) push-retry loop 5-12 DONE
+2026-11-04 18:50:44 UTC RECOVERY-COORD(17:55Z spawn) STOPPED: transport stayed dead — push-retry loop attempts 1-12 all failed rc=128 with identical signature "client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (1-4s each, ~270s intervals, 17:56-18:49Z; first exec-session loop died after attempt 4, attempts 5-12 completed via detached setsid/nohup loop, no proxyconnect flake this run); ls-remote stable fa1db5e93741d2d7fa75b5b7f89f78d186b6501d after every attempt; remote re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d at close (fetch RC=0); commit 929fa625 NOT reset/amended/discarded, still pending (zh-tw-fr PDF 2073427B + index flip), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 122/130 fully complete + zh-tw-fr metadata-only (123 W46 in index, 383 total, 368 files / 122 PDFs / 123 .text.md / 123 slugs, 0 W46 covers, index covers 12 all w45); REMAINS: zh-tw-fr PDF + zh-tw 7 editions (es/it/ja/ko/nl/pt/ru) + 12/12 covers; next: resume retries of THIS SAME COMMIT 929fa625:main only, then driver zh-tw remainder, then covers.
+2026-11-04 18:54:07 UTC PROGRESS-CHECK(13:31 EST spawn) push retry 1/1 this check: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (~2s); ls-remote immediately re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d; retry budget spent, commit NOT reset.
+2026-11-04 18:58:00 UTC RECOVERY-COORD(18:56Z spawn) REVERIFY: fetch attempt 1 proxyconnect TimeoutError flake (Connection closed by UNKNOWN port 65535, rc=128) — recorded as flake, NOT repo state; fetch retry RC=0, ls-remote HEAD=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d == origin/main (no advance); remote index at fa1db5e9: 383 editions, 123 W46, 122 fully complete + 2026-w46-zh-tw-fr metadata-only (pdfInRepo=False, pdfBytes 2073427); ls-tree issues/2026-w46: 368 files, 122 PDFs, 123 .text.md, 123 slugs; covers/ 72 files, 0 w46, index covers 12 all w45; local HEAD 929fa62518eb9953c1237eaa7228e745bd23aeb9 (1 ahead, tree clean) containing ONLY zh-tw-fr PDF 2073427B + index.json flip; starting fresh 12-attempt slow-retry loop of THIS commit only, ~270s intervals, detached setsid/nohup.
+2026-11-04 18:58:58 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 1/12: commit 929fa625
+2026-11-04 18:58:58 UTC RECOVERY-COORD(18:56Z spawn) push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 18:59:01 UTC RECOVERY-COORD(18:56Z spawn) after retry 1: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:03:31 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 2/12: commit 929fa625
+2026-11-04 19:03:31 UTC RECOVERY-COORD(18:56Z spawn) push retry 2: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~4s)
+2026-11-04 19:03:37 UTC RECOVERY-COORD(18:56Z spawn) after retry 2: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:08:07 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 3/12: commit 929fa625
+2026-11-04 19:08:07 UTC RECOVERY-COORD(18:56Z spawn) push retry 3: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 19:08:11 UTC RECOVERY-COORD(18:56Z spawn) after retry 3: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:12:41 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 4/12: commit 929fa625
+2026-11-04 19:12:41 UTC RECOVERY-COORD(18:56Z spawn) push retry 4: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~12s)
+2026-11-04 19:12:54 UTC RECOVERY-COORD(18:56Z spawn) after retry 4: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:17:24 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 5/12: commit 929fa625
+2026-11-04 19:17:24 UTC RECOVERY-COORD(18:56Z spawn) push retry 5: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:17:27 UTC RECOVERY-COORD(18:56Z spawn) after retry 5: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:21:57 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 6/12: commit 929fa625
+2026-11-04 19:21:57 UTC RECOVERY-COORD(18:56Z spawn) push retry 6: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:22:00 UTC RECOVERY-COORD(18:56Z spawn) after retry 6: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:26:30 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 7/12: commit 929fa625
+2026-11-04 19:26:30 UTC RECOVERY-COORD(18:56Z spawn) push retry 7: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:26:33 UTC RECOVERY-COORD(18:56Z spawn) after retry 7: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:31:03 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 8/12: commit 929fa625
+2026-11-04 19:31:03 UTC RECOVERY-COORD(18:56Z spawn) push retry 8: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:31:06 UTC RECOVERY-COORD(18:56Z spawn) after retry 8: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:35:36 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 9/12: commit 929fa625
+2026-11-04 19:35:36 UTC RECOVERY-COORD(18:56Z spawn) push retry 9: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:35:39 UTC RECOVERY-COORD(18:56Z spawn) after retry 9: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:40:09 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 10/12: commit 929fa625
+2026-11-04 19:40:09 UTC RECOVERY-COORD(18:56Z spawn) push retry 10: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:40:12 UTC RECOVERY-COORD(18:56Z spawn) after retry 10: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:44:42 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 11/12: commit 929fa625
+2026-11-04 19:44:42 UTC RECOVERY-COORD(18:56Z spawn) push retry 11: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:44:54 UTC RECOVERY-COORD(18:56Z spawn) after retry 11: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:49:24 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop START attempt 12/12: commit 929fa625
+2026-11-04 19:49:24 UTC RECOVERY-COORD(18:56Z spawn) push retry 12: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 19:49:27 UTC RECOVERY-COORD(18:56Z spawn) after retry 12: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 19:49:27 UTC RECOVERY-COORD(18:56Z spawn) push-retry loop DONE (12 attempts or landed early)
+2026-11-04 19:50:44 UTC RECOVERY-COORD(18:56Z spawn) STOPPED: transport stayed dead — push-retry loop attempts 1-12 all failed rc=128 with identical signature "client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (1-12s each, ~270s intervals, 18:58-19:49Z, detached setsid/nohup loop completed all 12, no proxyconnect flake during loop; one proxyconnect TimeoutError flake on the opening fetch only, retry RC=0, recorded as flake not repo state); ls-remote stable fa1db5e93741d2d7fa75b5b7f89f78d186b6501d after every attempt; remote re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d at close (fetch RC=0); commit 929fa625 NOT reset/amended/discarded, still pending (zh-tw-fr PDF 2073427B + index flip), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 122/130 fully complete + zh-tw-fr metadata-only (123 W46 in index, 383 total, 368 files / 122 PDFs / 123 .text.md / 123 slugs, 0 W46 covers, index covers 12 all w45); REMAINS: zh-tw-fr PDF (this commit) + zh-tw 7 editions (es/it/ja/ko/nl/pt/ru) + 12/12 covers; next: resume retries of THIS SAME COMMIT 929fa625:main only, then driver zh-tw remainder, then covers.
+2026-11-04 19:55 UTC PROGRESS-CHECK push retry: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s); ls-remote re-verified fa1db5e93741d2d7fa75b5b7f89f78d186b6501d; retry budget for this check spent, commit NOT reset.
+2026-11-04 19:57:36 UTC RECOVERY-COORD(19:57Z spawn) VERIFY: fetch RC=0 ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d remote index 383 editions, 123 W46, 122 pdfInRepo=True + zh-tw-fr metadata-only; ls-tree 368 files, 122 PDFs, 123 .text.md, 123 slugs; covers 72 files, 0 W46; local HEAD 929fa62518eb9953c1237eaa7228e745bd23aeb9 1 ahead, clean tree; matches handoff state; starting push-retry loop 12x ~270s, commit 929fa625 only
+2026-11-04 19:57:42 UTC RECOVERY-COORD(19:57Z spawn) push-retry loop START attempt 1/12: commit 929fa625
+2026-11-04 19:57:48 UTC RECOVERY-COORD(19:57Z spawn) push retry 1: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly"
+2026-11-04 19:57:49 UTC RECOVERY-COORD(19:57Z spawn) after retry 1: ls-remote=fa1db5e93741d2d7fa75b5b7f89f78d186b6501d
+2026-11-04 20:02:19 UTC RECOVERY-COORD(19:57Z spawn) push-retry loop START attempt 2/12: commit 929fa625
+2026-11-04 20:02:40 UTC RECOVERY-COORD(19:57Z spawn) push retry 2: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=128 sig="Traceback (most recent call last):   File "/home/hatch/.ssh/proxyconnect.py", line 77, in <module>     main()   File "/home/hatch/.ssh/proxyconnect.py", line 35, in main     chunk = s.recv(4096)             ^^^^^^^^^^^^ "
+2026-11-04 20:03:20 UTC RECOVERY-COORD(19:57Z spawn) after retry 2: ls-remote=(ls-remote empty/flake)
+2026-11-04 20:07:45 UTC RECOVERY-COORD(19:57Z spawn) RESUMED: background loop process lost with its tracking session (~20:05Z, no DONE/STOPPED line, no attempt 3 logged); attempts 1-2 stand as logged; resuming per-attempt calls, attempts 3-12, commit 929fa625 only
+2026-11-04 20:08:53 UTC RECOVERY-COORD(19:57Z spawn) push-retry loop START attempt 3/12: commit 929fa625
+2026-11-04 20:09:00 UTC RECOVERY-COORD(19:57Z spawn) push retry 3: git push origin 929fa62518eb9953c1237eaa7228e745bd23aeb9:main rc=0 sig="Warning: Permanently added 'github.com' (ED25519) to the list of known hosts. To github.com:LucernaRead/weekly.git    fa1db5e..929fa62  929fa62518eb9953c1237eaa7228e745bd23aeb9 -> main"
+2026-11-04 20:09:04 UTC RECOVERY-COORD(19:57Z spawn) after retry 3: ls-remote=929fa62518eb9953c1237eaa7228e745bd23aeb9
+2026-11-04 20:09:04 UTC RECOVERY-COORD(19:57Z spawn) LANDED: commit 929fa625 now remote HEAD
+2026-11-04 20:11:55 UTC RECOVERY-COORD(19:57Z spawn) TRANSPORT-ALIVE: attempt 3/12 LANDED 20:09:00Z rc=0 ls-remote=929fa625; remote index 383 editions, 123/123 W46 complete, 123 PDFs; landed PDF text layer 47899 bytes; tree clean, 0 ahead; starting insert_driver.py zh-tw (bundle, then fallback one-by-one per driver; skips already-present de/en/fr)
+2026-11-04 20:11:55 UTC START bundle zh-tw (one commit for the whole native set)
+2026-11-04 20:18:27 UTC   |   push attempt 6 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 7 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 8 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 9 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 10 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 11 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   |   push attempt 12 not verified (remote 929fa625), retrying…
+2026-11-04 20:18:27 UTC   | STEP FAILED: push of 46a94d7a90f059f4d220076615ff2f2c21cabf66 never landed after 12 attempts
+2026-11-04 20:18:29 UTC BUNDLE-STATE: unpushed bundle commit 46a94d7a (push too big / tunnel) — resetting to remote 929fa625 and falling back to one-by-one inserts
+2026-11-04 20:18:29 UTC SKIP 2026-w46-zh-tw-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:18:29 UTC SKIP 2026-w46-zh-tw-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:18:29 UTC SKIP 2026-w46-zh-tw-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:18:29 UTC START 2026-w46-zh-tw-es dir=weekly-report-w46-zh-tw-es sibling (fallback one-by-one)
+2026-11-04 20:30:15 UTC RECOVERY-COORD(19:57Z spawn) DRIVER-DIED: 20:11Z insert_driver.py (PID 2513) gone by 20:28Z, no OK/BATCH line, but es fully landed (329d215+fb96584, local==remote); bundle 46a94d7 already failed 12 pushes, NOT re-attempted (multi-PDF bundle ban); resuming via resume_zh_tw_fallback.py = driver fallback_per_edition one-by-one, skips present, stops on first failure
+2026-11-04 20:30:15 UTC SKIP 2026-w46-zh-tw-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:30:15 UTC SKIP 2026-w46-zh-tw-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:30:15 UTC SKIP 2026-w46-zh-tw-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:30:15 UTC SKIP 2026-w46-zh-tw-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 20:30:15 UTC START 2026-w46-zh-tw-it dir=weekly-report-w46-zh-tw-it sibling (fallback one-by-one)
+2026-11-04 20:34:46 UTC   |   push attempt 4 not verified (remote 3cd42621), retrying…
+2026-11-04 20:34:46 UTC   |   push attempt 5 not verified (remote 3cd42621), retrying…
+2026-11-04 20:34:46 UTC   |   push attempt 6 not verified (remote 3cd42621), retrying…
+2026-11-04 20:34:46 UTC   |   push attempt 7 not verified (remote 3cd42621), retrying…
+2026-11-04 20:34:46 UTC   |   push attempt 8 not verified (remote 3cd42621), retrying…
+2026-11-04 20:34:46 UTC   | STEP FAILED: push of 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa never landed after 8 attempts
+2026-11-04 20:34:46 UTC FAIL 2026-w46-zh-tw-it rc=1 — driver stopping
+2026-11-04 20:34:48 UTC BATCH zh-tw: fallback-resume done=0 failed=2026-w46-zh-tw-it local=2724946b remote=3cd42621 match=False index_editions=385
+2026-11-04 20:36:31 UTC RECOVERY-COORD(19:57Z spawn) IT-STUCK: insert.py 8 rapid push attempts for it-PDF commit 2724946b (1,982,279 B, smaller than landed es/fr PDFs) all unverified, remote stayed 3cd42621 (it metadata landed); slow-retrying THIS commit only, up to 12 attempts ~270s apart, before any further driver run (no stacking; resume re-run would falsely SKIP it on local state)
+2026-11-04 20:38:35 UTC RECOVERY-COORD(19:57Z spawn) push-retry(it-PDF) loop START attempt 1/12: commit 2724946
+2026-11-04 20:38:37 UTC RECOVERY-COORD(19:57Z spawn) push retry(it-PDF) 1: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly"
+2026-11-04 20:38:38 UTC RECOVERY-COORD(19:57Z spawn) after retry(it-PDF) 1: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 20:43:15 UTC RECOVERY-COORD(19:57Z spawn) push-retry(it-PDF) loop START attempt 2/12: commit 2724946
+2026-11-04 20:43:17 UTC RECOVERY-COORD(19:57Z spawn) push retry(it-PDF) 2: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly"
+2026-11-04 20:43:18 UTC RECOVERY-COORD(19:57Z spawn) after retry(it-PDF) 2: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 20:47:52 UTC RECOVERY-COORD(19:57Z spawn) push-retry(it-PDF) loop START attempt 3/12: commit 2724946
+2026-11-04 20:47:54 UTC RECOVERY-COORD(19:57Z spawn) push retry(it-PDF) 3: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly"
+2026-11-04 20:47:55 UTC RECOVERY-COORD(19:57Z spawn) after retry(it-PDF) 3: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 20:52:32 UTC RECOVERY-COORD(19:57Z spawn) push-retry(it-PDF) loop START attempt 4/12: commit 2724946
+2026-11-04 20:52:34 UTC RECOVERY-COORD(19:57Z spawn) push retry(it-PDF) 4: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly"
+2026-11-04 20:52:35 UTC RECOVERY-COORD(19:57Z spawn) after retry(it-PDF) 4: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 20:53:30 UTC RECOVERY-COORD(19:57Z spawn) INTERRUPTED by cron timeout: it-PDF slow-retry loop incomplete (attempts 1-4/12 done, all rc=128 broken-pipe; attempts 5-12 NOT run); commit 2724946b still unpushed, remote HEAD 3cd42621, local 1 ahead, tree clean; NO further driver run started; next coordinator: slow-retry 2724946b first, do NOT re-run resume blind (it would SKIP it on local state)
+2026-11-04 20:56:37 UTC PROGRESS-CHECK push retry: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified above; retry budget for this check spent, commit NOT reset.
+2026-11-04 20:58:42 UTC RECOVERY-COORD(20:57Z spawn) REVERIFY: fetch RC=0 ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50 == origin/main; remote index 385 editions, 125 W46, 124 pdfInRepo=True + 2026-w46-zh-tw-it metadata-only; ls-tree 374 files, 124 PDFs, 125 .text.md, 125 slugs; covers/ 72 files, 0 w46, index covers 12 all w45; local HEAD 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa 1 ahead, clean tree, commit ONLY zh-tw-it PDF 1982279B + index.json flip; no flake; starting fresh 12-attempt slow-retry loop of THIS commit only, ~270s intervals, detached setsid/nohup.
+2026-11-04 20:58:42 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 1/12: commit 2724946
+2026-11-04 20:58:44 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 1: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 20:58:45 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 1: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:03:15 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 2/12: commit 2724946
+2026-11-04 21:03:18 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 2: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 21:03:19 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 2: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:07:49 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 3/12: commit 2724946
+2026-11-04 21:07:52 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 3: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 21:07:54 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 3: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:12:24 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 4/12: commit 2724946
+2026-11-04 21:12:25 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 4: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 21:12:26 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 4: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:16:56 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 5/12: commit 2724946
+2026-11-04 21:16:58 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 5: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:16:59 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 5: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:21:29 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 6/12: commit 2724946
+2026-11-04 21:21:31 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 6: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:21:32 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 6: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:26:02 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 7/12: commit 2724946
+2026-11-04 21:26:04 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 7: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:26:06 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 7: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:30:36 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 8/12: commit 2724946
+2026-11-04 21:30:37 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 8: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 21:30:39 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 8: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:35:09 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 9/12: commit 2724946
+2026-11-04 21:35:10 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 9: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 21:35:12 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 9: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:39:42 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 10/12: commit 2724946
+2026-11-04 21:39:45 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 10: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 21:39:46 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 10: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:44:16 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 11/12: commit 2724946
+2026-11-04 21:44:18 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 11: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:44:20 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 11: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:48:50 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop START attempt 12/12: commit 2724946
+2026-11-04 21:48:52 UTC RECOVERY-COORD(20:57Z spawn) push retry(it-PDF) 12: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:48:53 UTC RECOVERY-COORD(20:57Z spawn) after retry(it-PDF) 12: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 21:48:53 UTC RECOVERY-COORD(20:57Z spawn) push-retry(it-PDF) loop DONE (12 attempts or landed early)
+2026-11-04 21:51:40 UTC RECOVERY-COORD(20:57Z spawn) STOPPED: transport stayed dead — push-retry loop attempts 1-12 all failed rc=128 with identical signature "client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (1-3s each, ~270s intervals, 20:58-21:48Z, detached setsid/nohup loop completed all 12, no proxyconnect flake this run); ls-remote stable 3cd426215a4d9f2669079655273ee548b7b09e50 after every attempt; remote re-verified 3cd42621 at close (fetch RC=0); commit 2724946 NOT reset/amended/discarded, still pending (zh-tw-it PDF 1982279B + index flip), tree clean, 1 ahead of remote; driver NOT run, NO new commits stacked; LANDED (remote-verified): 124/130 fully complete + zh-tw-it metadata-only (125 W46 in index, 385 total, 374 files / 124 PDFs / 125 .text.md / 125 slugs, 0 W46 covers, index covers 12 all w45); REMAINS: zh-tw-it PDF (this commit) + zh-tw 5 editions (ja/ko/nl/pt/ru) + 12/12 covers; next: resume slow retries of THIS SAME COMMIT 2724946:main only, then driver fallback one-by-one for zh-tw ja/ko/nl/pt/ru skipping editions already fully present remotely, then covers; do NOT re-run resume_zh_tw_fallback.py blind (it would SKIP zh-tw-it on local state).
+2026-11-04 21:54:43 UTC PROGRESS-CHECK push retry: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified remote still 3cd426215a4d9f2669079655273ee548b7b09e50. Retry budget for this check spent; commit 2724946 NOT reset.
+2026-11-04 21:56:40 UTC RECOVERY-COORD(21:56Z spawn) RE-VERIFIED: fetch RC=0 ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50 local=2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa 1-ahead clean; remote index 385 total / 125 W46 / 124 pdfInRepo=true, only zh-tw-it pdfInRepo=False (pdfBytes=1982279 sha=ceb15c347595475ee9ee93104480a1502b15dbc4c2e414a4acfa6839375e8941); ls-tree issues/2026-w46 374 files / 124 PDFs / 125 .text.md / 125 slugs; covers/ 72 files 0 w46, index covers 12 all w45; commit 2724946 = zh-tw-it PDF 1982279B (sha matches index pin) + index.json flip only; starting fresh slow-retry loop 12 attempts ~270s intervals, push ONLY 2724946:main.
+2026-11-04 21:57:19 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 1/12: commit 2724946
+2026-11-04 21:57:21 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 1: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 21:57:22 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 1: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:01:52 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 2/12: commit 2724946
+2026-11-04 22:01:54 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 2: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:01:56 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 2: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:06:26 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 3/12: commit 2724946
+2026-11-04 22:06:28 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 3: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:06:30 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 3: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:11:00 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 4/12: commit 2724946
+2026-11-04 22:11:02 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 4: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:11:03 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 4: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:15:33 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 5/12: commit 2724946
+2026-11-04 22:15:36 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 5: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 22:15:39 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 5: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:20:09 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 6/12: commit 2724946
+2026-11-04 22:20:12 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 6: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~3s)
+2026-11-04 22:20:13 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 6: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:24:43 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 7/12: commit 2724946
+2026-11-04 22:24:45 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 7: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:24:46 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 7: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:29:16 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 8/12: commit 2724946
+2026-11-04 22:29:18 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 8: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:29:19 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 8: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:33:49 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 9/12: commit 2724946
+2026-11-04 22:33:51 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 9: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 22:33:52 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 9: ls-remote=3cd426215a4d9f2669079655273ee548b7b09e50
+2026-11-04 22:38:22 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop START attempt 10/12: commit 2724946
+2026-11-04 22:39:34 UTC RECOVERY-COORD(21:56Z spawn) push retry(it-PDF) 10: git push origin 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa:main rc=0 sig="To github.com:LucernaRead/weekly.git 3cd4262..2724946 2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa -> main" (~72s)
+2026-11-04 22:39:36 UTC RECOVERY-COORD(21:56Z spawn) after retry(it-PDF) 10: ls-remote=2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa
+2026-11-04 22:39:36 UTC RECOVERY-COORD(21:56Z spawn) LANDED on attempt 10: ls-remote=2724946bd9920c3e28bdbb774aa8e2e3d7eb11aa
+2026-11-04 22:39:36 UTC RECOVERY-COORD(21:56Z spawn) push-retry(it-PDF) loop DONE (12 attempts or landed early)
+2026-11-04 22:41:32 UTC START bundle zh-tw (one commit for the whole native set)
+2026-11-04 22:45:09 UTC   |     chunk = s.recv(4096)
+2026-11-04 22:45:09 UTC   |             ^^^^^^^^^^^^
+2026-11-04 22:45:09 UTC   | TimeoutError: timed out
+2026-11-04 22:45:09 UTC   | Connection closed by UNKNOWN port 65535
+2026-11-04 22:45:09 UTC   | fatal: Could not read from remote repository.
+2026-11-04 22:45:09 UTC   | 
+2026-11-04 22:45:09 UTC   | Please make sure you have the correct access rights
+2026-11-04 22:45:09 UTC   | and the repository exists.
+2026-11-04 22:46:39 UTC START bundle zh-tw (one commit for the whole native set)
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-es: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-it: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-pt: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-nl: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ru: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ja: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ko: already in repo
+2026-11-04 22:46:39 UTC   | bundle zh-tw: all 10 editions already in repo — nothing to do
+2026-11-04 22:46:41 UTC BUNDLE-STATE: insert.py reported success but remote != local (local=389c9442 remote=2724946b) — falling back only after state check
+2026-11-04 22:46:41 UTC BUNDLE-STATE: unpushed bundle commit 389c9442 (push too big / tunnel) — resetting to remote 2724946b and falling back to one-by-one inserts
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-it: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC START 2026-w46-zh-tw-pt dir=weekly-report-w46-zh-tw-pt sibling (fallback one-by-one)
+2026-11-04 22:49:44 UTC   | ConnectionRefusedError: [Errno 111] Connection refused
+2026-11-04 22:51:22 UTC RECOVERY-COORD(21:56Z spawn) DRIVER-DIED: driver run2 died ~22:49:44 (no FAIL/OK/BATCH/DRIVER_EXIT line; ConnectionRefusedError in pt dump; session lost) after bundle 389c9442 reset; pt metadata c186b7b LANDED remotely, pt PDF commit 140a20477e86d7ff060cc72cac677ddf28426256 pending (1 ahead, tree clean); remote re-verified 22:51:00Z fetch RC=0 ls-remote=c186b7b64c88286c314190a29762713feae759e2. Slow-retry ONLY 140a204:main next, up to 12 attempts ~270s intervals; driver re-run NOT used (last msg lacks bundle, would STOP); fallback nl/ru/ja/ko only after 140a204 lands.
+2026-11-04 22:51:38 UTC RECOVERY-COORD(21:56Z spawn) push-retry(pt-PDF) loop START attempt 1/12: commit 140a204
+2026-11-04 22:51:41 UTC RECOVERY-COORD(21:56Z spawn) push retry(pt-PDF) 1: git push origin 140a20477e86d7ff060cc72cac677ddf28426256:main rc=0 sig="To github.com:LucernaRead/weekly.git c186b7b..140a204 140a20477e86d7ff060cc72cac677ddf28426256 -> main" (~3s)
+2026-11-04 22:51:43 UTC RECOVERY-COORD(21:56Z spawn) after retry(pt-PDF) 1: ls-remote=140a20477e86d7ff060cc72cac677ddf28426256
+2026-11-04 22:51:43 UTC RECOVERY-COORD(21:56Z spawn) LANDED on attempt 1: ls-remote=140a20477e86d7ff060cc72cac677ddf28426256
+2026-11-04 22:51:43 UTC RECOVERY-COORD(21:56Z spawn) push-retry(pt-PDF) loop DONE (12 attempts or landed early)
+2026-11-04 22:58:13 UTC PROGRESS-CHECK push retry: git push origin bf0e3af59baa92f69a2508e8bc5c80bb968777e3:main rc=128 sig="client_loop: send disconnect: Broken pipe / send-pack: unexpected disconnect while reading sideband packet / fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified remote still 784b66248b48053243ba04d89dc83eb59a8855ff. Retry budget for this check spent; commit bf0e3af NOT reset.
+2026-11-04 22:59:17 UTC RECOVERY-COORD(22:59Z spawn) RE-VERIFIED: fetch ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff local=bf0e3af59baa92f69a2508e8bc5c80bb968777e3 1-ahead clean; remote index 387 total / 127 W46 / 126 pdfInRepo=true, only zh-tw-nl pdfInRepo=False (pdfBytes=1990345 sha=b2b5de57e11a3053d2c3d448c20b992f2b9bd37de46ffcf8e54e8fb3b0b8e066); ls-tree issues/2026-w46 380 files / 126 PDFs / 127 .text.md / 127 slugs; zh-tw-ru/ja/ko 0 files; covers/ 72 files 0 w46, index covers 12 all w45; commit bf0e3af = zh-tw-nl PDF 1990345B (sha matches index pin) + index.json flip only, NOT reset/amended/discarded; progress-check retry at 22:58Z failed rc=128 (not counted); starting fresh slow-retry loop 12 attempts ~270s intervals, push ONLY bf0e3af:main.
+2026-11-04 22:59:59 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 1/12: commit bf0e3af
+2026-11-04 23:00:01 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 1: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:00:02 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 1: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:04:32 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 2/12: commit bf0e3af
+2026-11-04 23:04:34 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 2: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:04:35 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 2: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:09:05 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 3/12: commit bf0e3af
+2026-11-04 23:09:07 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 3: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:09:09 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 3: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:13:39 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 4/12: commit bf0e3af
+2026-11-04 23:13:40 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 4: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 23:13:42 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 4: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:18:12 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 5/12: commit bf0e3af
+2026-11-04 23:18:14 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 5: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:18:15 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 5: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:22:45 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 6/12: commit bf0e3af
+2026-11-04 23:22:47 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 6: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:22:48 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 6: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:27:18 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 7/12: commit bf0e3af
+2026-11-04 23:27:20 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 7: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:27:22 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 7: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:31:52 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 8/12: commit bf0e3af
+2026-11-04 23:31:53 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 8: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 23:31:55 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 8: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:36:25 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 9/12: commit bf0e3af
+2026-11-04 23:36:26 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 9: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-04 23:36:27 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 9: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:40:57 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 10/12: commit bf0e3af
+2026-11-04 23:40:59 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 10: git push origin bf0e3af:main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-04 23:41:01 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 10: ls-remote=784b66248b48053243ba04d89dc83eb59a8855ff
+2026-11-04 23:45:31 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop START attempt 11/12: commit bf0e3af
+2026-11-04 23:45:35 UTC RECOVERY-COORD(22:59Z spawn) push retry(nl-PDF) 11: git push origin bf0e3af:main rc=0 sig="To github.com:LucernaRead/weekly.git 784b662..bf0e3af bf0e3af59baa92f69a2508e8bc5c80bb968777e3 -> main" (~4s)
+2026-11-04 23:45:36 UTC RECOVERY-COORD(22:59Z spawn) after retry(nl-PDF) 11: ls-remote=bf0e3af59baa92f69a2508e8bc5c80bb968777e3
+2026-11-04 23:45:36 UTC RECOVERY-COORD(22:59Z spawn) LANDED on attempt 11: ls-remote=bf0e3af59baa92f69a2508e8bc5c80bb968777e3
+2026-11-04 23:45:36 UTC RECOVERY-COORD(22:59Z spawn) push-retry(nl-PDF) loop DONE (12 attempts or landed early)
+2026-11-04 23:46:34 UTC RECOVERY-COORD(22:59Z spawn) TRANSPORT ALIVE: bf0e3af LANDED attempt 11/12 (23:45:35Z, ~4s, rc=0). RE-VERIFIED remote: fetch ls-remote=bf0e3af59baa92f69a2508e8bc5c80bb968777e3 local==origin/main clean; remote index 387 total / 127 W46 / 127 pdfInRepo=true (zh-tw-nl now True); ls-tree issues/2026-w46 381 files / 127 PDFs; zh-tw-ru/ja/ko ABSENT from remote index and ls-tree (0 files); covers 0 w46, index covers 12 all w45. Local source dirs zh-tw-ru/ja/ko present with ABSTRACT.txt + .text.md + *-web.pdf. Starting one-by-one fallback ONLY (resume_zh_tw_fallback.py, no bundle): skips en/de/fr/es/it/pt/nl are remote-valid (local==remote), inserts ru then ja then ko, metadata+PDF each verified before next.
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-it: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-pt: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC SKIP 2026-w46-zh-tw-nl: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 23:47:24 UTC START 2026-w46-zh-tw-ru dir=weekly-report-w46-zh-tw-ru sibling (fallback one-by-one)
+2026-11-04 23:50:40 UTC   | (e) PDF copied; lint --require-pdf green: OK:388 版,index.json 最新
+2026-11-04 23:50:40 UTC   | (f) PDF commit 13467496
+2026-11-04 23:50:40 UTC   |   push attempt 1 not verified (remote 473bd799), retrying…
+2026-11-04 23:50:40 UTC   |   push attempt 2 not verified (remote 473bd799), retrying…
+2026-11-04 23:50:40 UTC   |   push verified on attempt 3: origin main == 13467496
+2026-11-04 23:50:40 UTC   | (g) verified: ls-remote origin main == local HEAD (13467496); editions in repo: 388
+2026-11-04 23:50:40 UTC OK 2026-w46-zh-tw-ru (index now 388 editions)
+2026-11-04 23:50:40 UTC START 2026-w46-zh-tw-ja dir=weekly-report-w46-zh-tw-ja sibling (fallback one-by-one)
+2026-11-04 23:54:44 UTC   |   push attempt 1 not verified (remote 2b849b6e), retrying…
+2026-11-04 23:54:44 UTC   |   push attempt 2 not verified (remote 2b849b6e), retrying…
+2026-11-04 23:54:44 UTC   |   push attempt 3 not verified (remote 2b849b6e), retrying…
+2026-11-04 23:54:44 UTC   |   push attempt 4 not verified (remote 2b849b6e), retrying…
+2026-11-04 23:54:44 UTC   |   push verified on attempt 5: origin main == 518d6d77
+2026-11-04 23:54:44 UTC   | (g) verified: ls-remote origin main == local HEAD (518d6d77); editions in repo: 389
+2026-11-04 23:54:44 UTC OK 2026-w46-zh-tw-ja (index now 389 editions)
+2026-11-04 23:54:44 UTC START 2026-w46-zh-tw-ko dir=weekly-report-w46-zh-tw-ko sibling (fallback one-by-one)
+2026-11-04 23:57:52 UTC   | 
+2026-11-04 23:57:52 UTC   | Connection closed by UNKNOWN port 65535
+2026-11-04 23:57:52 UTC   | fatal: Could not read from remote repository.
+2026-11-04 23:57:52 UTC   | 
+2026-11-04 23:57:52 UTC   | Please make sure you have the correct access rights
+2026-11-04 23:57:52 UTC   | and the repository exists.
+2026-11-04 23:57:52 UTC FAIL 2026-w46-zh-tw-ko rc=1 — driver stopping
+2026-11-05 00:04:00 UTC PROGRESS-CHECK push retry(ko-PDF) 1: git push origin main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s); ls-remote re-verified remote still 86a81c8; commit d1fed7b NOT reset
+2026-11-05 00:03:44 UTC RECOVERY-COORD(00:05Z spawn) RE-VERIFIED: fetch rc=0 ls-remote=86a81c87cef489189419dd21a447b84c50e133ab local=d1fed7ba782b024e0af70c114b76af08b0538f2c 1-ahead clean; remote index 390 total / 130 W46 / 129 pdfInRepo=true, only zh-tw-ko pdfInRepo=False (pdfBytes=1891878 sha=7e1542719e8510d8b5f86ccebe89e245d933cce53015ecb725aceff05d0ffe38); ls-tree issues/2026-w46 389 files / 129 PDFs / 130 .text.md; covers/ 72 files 0 w46, index covers 12 all w45; local ko PDF bytes/SHA match remote pin, d1fed7b = PDF + index flip only, NOT reset/amended; starting slow-retry loop 12 attempts ~270s intervals, push ONLY d1fed7b (git push origin main).
+2026-11-05 00:03:51 UTC RECOVERY-COORD(00:05Z spawn) push-retry(ko-PDF) loop START attempt 1/12: commit d1fed7b
+2026-11-05 00:03:53 UTC RECOVERY-COORD(00:05Z spawn) push retry(ko-PDF) 1: git push origin main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-05 00:03:54 UTC RECOVERY-COORD(00:05Z spawn) after retry(ko-PDF) 1: ls-remote=86a81c87cef489189419dd21a447b84c50e133ab
+2026-11-05 00:08:24 UTC RECOVERY-COORD(00:05Z spawn) push-retry(ko-PDF) loop START attempt 2/12: commit d1fed7b
+2026-11-05 00:08:26 UTC RECOVERY-COORD(00:05Z spawn) push retry(ko-PDF) 2: git push origin main rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-05 00:08:28 UTC RECOVERY-COORD(00:05Z spawn) after retry(ko-PDF) 2: ls-remote=86a81c87cef489189419dd21a447b84c50e133ab
+2026-11-05 00:12:58 UTC RECOVERY-COORD(00:05Z spawn) push-retry(ko-PDF) loop START attempt 3/12: commit d1fed7b
+2026-11-05 00:13:02 UTC RECOVERY-COORD(00:05Z spawn) push retry(ko-PDF) 3: git push origin main rc=0 sig="To github.com:LucernaRead/weekly.git 86a81c8..d1fed7b main -> main" (~4s)
+2026-11-05 00:13:03 UTC RECOVERY-COORD(00:05Z spawn) after retry(ko-PDF) 3: ls-remote=d1fed7ba782b024e0af70c114b76af08b0538f2c
+2026-11-05 00:13:03 UTC RECOVERY-COORD(00:05Z spawn) LANDED on attempt 3: ls-remote=d1fed7ba782b024e0af70c114b76af08b0538f2c
+2026-11-05 00:13:03 UTC RECOVERY-COORD(00:05Z spawn) push-retry(ko-PDF) loop DONE (12 attempts or landed early)
+2026-11-05 00:15:02 UTC RECOVERY-COORD(00:05Z spawn) TRANSPORT ALIVE: ko PDF d1fed7b LANDED attempt 3/12 at 00:13:02Z rc=0 (~4s), ls-remote=d1fed7ba782b024e0af70c114b76af08b0538f2c; re-verified remote index 390 total / 130 W46 / 130 pdfInRepo=true, ls-tree 390 files / 130 PDFs, covers 12 all w45, local==remote clean. Step 3: insert_driver.py handles EDITIONS only (no cover path) — NOT run for covers (would risk spurious edition commits). Covers: all 12 print covers re-proofread PASS 2026-11-03, PDFs text-layered, md pins verified; NO W46 .html exists anywhere (W45 html is a 1.45MB hand-built block, no generator found) so print-only inserts will NOT enter index.json covers section — reporting this gap to parent. Inserting md+PDF one cover at a time per SOP appendix-five form, lint --write green, push+verify before next.
+2026-11-05 00:15:04 UTC RECOVERY-COORD(00:05Z spawn) COVER en: source verified pdf bytes=408836 sha=cf25206ddb2d5165690c95bfcf38de42460a331f8e6d531a2ffbec3fa1e3a462 textbytes=10904
+2026-11-05 00:15:04 UTC RECOVERY-COORD(00:05Z spawn) COVER en: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-en
+2026-11-05 00:15:43 UTC RECOVERY-COORD(00:05Z spawn) COVER en: lint --write: index.json 已写出:390 版
+2026-11-05 00:16:23 UTC RECOVERY-COORD(00:05Z spawn) COVER en: lint: OK:390 版,index.json 最新
+2026-11-05 00:16:23 UTC RECOVERY-COORD(00:05Z spawn) COVER en: status after lint: ?? covers/2026-w46/;
+2026-11-05 00:16:23 UTC RECOVERY-COORD(00:05Z spawn) COVER en: committed 542ff7e060eb50f8e0ee79b9b2245116ed7814ad (1 PDF + md, no index change)
+2026-11-05 00:16:26 UTC RECOVERY-COORD(00:05Z spawn) COVER en: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git d1fed7b..542ff7e main -> main" (~3s)
+2026-11-05 00:16:27 UTC RECOVERY-COORD(00:05Z spawn) COVER en: after push attempt 1: ls-remote=542ff7e060eb50f8e0ee79b9b2245116ed7814ad
+2026-11-05 00:16:27 UTC RECOVERY-COORD(00:05Z spawn) COVER en: verified: ls-remote=542ff7e060eb50f8e0ee79b9b2245116ed7814ad ls-tree cover files=2
+2026-11-05 00:16:27 UTC RECOVERY-COORD(00:05Z spawn) COVER en: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:16:27 UTC RECOVERY-COORD(00:05Z spawn) COVER en: COVER en DONE landed=542ff7e060eb50f8e0ee79b9b2245116ed7814ad
+2026-11-05 00:16:33 UTC RECOVERY-COORD(00:05Z spawn) COVER de: source verified pdf bytes=418165 sha=33064fd29c08921a419f0626534d4dcf10c6e55d9d3a33c850639d6789401996 textbytes=11468
+2026-11-05 00:16:33 UTC RECOVERY-COORD(00:05Z spawn) COVER de: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-de
+2026-11-05 00:17:12 UTC RECOVERY-COORD(00:05Z spawn) COVER de: lint --write: index.json 已写出:390 版
+2026-11-05 00:17:52 UTC RECOVERY-COORD(00:05Z spawn) COVER de: lint: OK:390 版,index.json 最新
+2026-11-05 00:17:52 UTC RECOVERY-COORD(00:05Z spawn) COVER de: status after lint: ?? covers/2026-w46/2026-w46-cover-de/;
+2026-11-05 00:17:52 UTC RECOVERY-COORD(00:05Z spawn) COVER de: committed e32117b9344d3eed26beaa54267a57ca97f38ce3 (1 PDF + md, no index change)
+2026-11-05 00:17:54 UTC RECOVERY-COORD(00:05Z spawn) COVER de: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git 542ff7e..e32117b main -> main" (~2s)
+2026-11-05 00:17:55 UTC RECOVERY-COORD(00:05Z spawn) COVER de: after push attempt 1: ls-remote=e32117b9344d3eed26beaa54267a57ca97f38ce3
+2026-11-05 00:17:55 UTC RECOVERY-COORD(00:05Z spawn) COVER de: verified: ls-remote=e32117b9344d3eed26beaa54267a57ca97f38ce3 ls-tree cover files=2
+2026-11-05 00:17:55 UTC RECOVERY-COORD(00:05Z spawn) COVER de: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:17:55 UTC RECOVERY-COORD(00:05Z spawn) COVER de: COVER de DONE landed=e32117b9344d3eed26beaa54267a57ca97f38ce3
+2026-11-05 00:17:57 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: source verified pdf bytes=429194 sha=e3106cafcf7a5529229c678d346b52da75098867621d8a1a77e4660d1ae51306 textbytes=11366
+2026-11-05 00:17:57 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-fr
+2026-11-05 00:18:36 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: lint --write: index.json 已写出:390 版
+2026-11-05 00:19:16 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: lint: OK:390 版,index.json 最新
+2026-11-05 00:19:16 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: status after lint: ?? covers/2026-w46/2026-w46-cover-fr/;
+2026-11-05 00:19:16 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: committed c0a68684102bfe0bd13ffc6ce73ba60f4bd8581a (1 PDF + md, no index change)
+2026-11-05 00:19:18 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: push attempt 1/6 rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-05 00:19:19 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: after push attempt 1: ls-remote=e32117b9344d3eed26beaa54267a57ca97f38ce3
+2026-11-05 00:21:39 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: push attempt 2/6 rc=128 sig="Traceback (most recent call last): File "/home/hatch/.ssh/proxyconnect.py", line 77, in <module> main() File "/home/hatch/.ssh/proxyconnect.py", line 35, in main chunk = s.recv(4096) ^^^^^^^^^^^^ TimeoutError: timed out Connection closed by UNKNOWN port 65535 fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists." (~20s)
+2026-11-05 00:21:59 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: after push attempt 2: ls-remote=
+2026-11-05 00:24:01 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: push attempt 3/6 rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-05 00:24:02 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: after push attempt 3: ls-remote=e32117b9344d3eed26beaa54267a57ca97f38ce3
+2026-11-05 00:26:05 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: push attempt 4/6 rc=0 sig="To github.com:LucernaRead/weekly.git e32117b..c0a6868 main -> main" (~3s)
+2026-11-05 00:26:07 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: after push attempt 4: ls-remote=c0a68684102bfe0bd13ffc6ce73ba60f4bd8581a
+2026-11-05 00:26:07 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: verified: ls-remote=c0a68684102bfe0bd13ffc6ce73ba60f4bd8581a ls-tree cover files=2
+2026-11-05 00:26:07 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:26:07 UTC RECOVERY-COORD(00:05Z spawn) COVER fr: COVER fr DONE landed=c0a68684102bfe0bd13ffc6ce73ba60f4bd8581a
+2026-11-05 00:26:13 UTC RECOVERY-COORD(00:05Z spawn) COVER es: source verified pdf bytes=426526 sha=f1f788b37a9c5d327d24f7f2d4114db50d7ee7a10294c7acfeeadd8555422589 textbytes=11329
+2026-11-05 00:26:13 UTC RECOVERY-COORD(00:05Z spawn) COVER es: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-es
+2026-11-05 00:26:53 UTC RECOVERY-COORD(00:05Z spawn) COVER es: lint --write: index.json 已写出:390 版
+2026-11-05 00:27:33 UTC RECOVERY-COORD(00:05Z spawn) COVER es: lint: OK:390 版,index.json 最新
+2026-11-05 00:27:33 UTC RECOVERY-COORD(00:05Z spawn) COVER es: status after lint: ?? covers/2026-w46/2026-w46-cover-es/;
+2026-11-05 00:27:33 UTC RECOVERY-COORD(00:05Z spawn) COVER es: committed 9d02653bc4d038bcb35f485c2f9ac6ca496e1b34 (1 PDF + md, no index change)
+2026-11-05 00:27:36 UTC RECOVERY-COORD(00:05Z spawn) COVER es: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git c0a6868..9d02653 main -> main" (~3s)
+2026-11-05 00:27:38 UTC RECOVERY-COORD(00:05Z spawn) COVER es: after push attempt 1: ls-remote=9d02653bc4d038bcb35f485c2f9ac6ca496e1b34
+2026-11-05 00:27:38 UTC RECOVERY-COORD(00:05Z spawn) COVER es: verified: ls-remote=9d02653bc4d038bcb35f485c2f9ac6ca496e1b34 ls-tree cover files=2
+2026-11-05 00:27:38 UTC RECOVERY-COORD(00:05Z spawn) COVER es: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:27:38 UTC RECOVERY-COORD(00:05Z spawn) COVER es: COVER es DONE landed=9d02653bc4d038bcb35f485c2f9ac6ca496e1b34
+2026-11-05 00:27:39 UTC RECOVERY-COORD(00:05Z spawn) COVER it: source verified pdf bytes=412960 sha=f17ef129efa5dc91f51aeaf2921e283d5d136483c08f7f611584e68ebfe70cf4 textbytes=11165
+2026-11-05 00:27:39 UTC RECOVERY-COORD(00:05Z spawn) COVER it: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-it
+2026-11-05 00:28:19 UTC RECOVERY-COORD(00:05Z spawn) COVER it: lint --write: index.json 已写出:390 版
+2026-11-05 00:28:59 UTC RECOVERY-COORD(00:05Z spawn) COVER it: lint: OK:390 版,index.json 最新
+2026-11-05 00:28:59 UTC RECOVERY-COORD(00:05Z spawn) COVER it: status after lint: ?? covers/2026-w46/2026-w46-cover-it/;
+2026-11-05 00:28:59 UTC RECOVERY-COORD(00:05Z spawn) COVER it: committed 9b02eb0923b7ed4021ddd1ec4d5c2a7667115702 (1 PDF + md, no index change)
+2026-11-05 00:29:19 UTC RECOVERY-COORD(00:05Z spawn) COVER it: push attempt 1/6 rc=128 sig="Traceback (most recent call last): File "/home/hatch/.ssh/proxyconnect.py", line 77, in <module> main() File "/home/hatch/.ssh/proxyconnect.py", line 35, in main chunk = s.recv(4096) ^^^^^^^^^^^^ TimeoutError: timed out Connection closed by UNKNOWN port 65535 fatal: Could not read from remote repository. Please make sure you have the correct access rights and the repository exists." (~20s)
+2026-11-05 00:29:39 UTC RECOVERY-COORD(00:05Z spawn) COVER it: after push attempt 1: ls-remote=
+2026-11-05 00:31:42 UTC RECOVERY-COORD(00:05Z spawn) COVER it: push attempt 2/6 rc=0 sig="To github.com:LucernaRead/weekly.git 9d02653..9b02eb0 main -> main" (~3s)
+2026-11-05 00:31:43 UTC RECOVERY-COORD(00:05Z spawn) COVER it: after push attempt 2: ls-remote=9b02eb0923b7ed4021ddd1ec4d5c2a7667115702
+2026-11-05 00:31:43 UTC RECOVERY-COORD(00:05Z spawn) COVER it: verified: ls-remote=9b02eb0923b7ed4021ddd1ec4d5c2a7667115702 ls-tree cover files=2
+2026-11-05 00:31:43 UTC RECOVERY-COORD(00:05Z spawn) COVER it: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:31:43 UTC RECOVERY-COORD(00:05Z spawn) COVER it: COVER it DONE landed=9b02eb0923b7ed4021ddd1ec4d5c2a7667115702
+2026-11-05 00:31:58 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: source verified pdf bytes=430161 sha=fd37616ec1374bca9402096e4585f9267349f0e91e279d52209a27429ff0b973 textbytes=11353
+2026-11-05 00:31:58 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-pt
+2026-11-05 00:32:37 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: lint --write: index.json 已写出:390 版
+2026-11-05 00:33:16 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: lint: OK:390 版,index.json 最新
+2026-11-05 00:33:17 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: status after lint: ?? covers/2026-w46/2026-w46-cover-pt/;
+2026-11-05 00:33:17 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: committed 2d4f490f0167a52dc523f53570adbbbe31079e5a (1 PDF + md, no index change)
+2026-11-05 00:33:18 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: push attempt 1/6 rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~1s)
+2026-11-05 00:33:20 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: after push attempt 1: ls-remote=9b02eb0923b7ed4021ddd1ec4d5c2a7667115702
+2026-11-05 00:35:23 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: push attempt 2/6 rc=0 sig="To github.com:LucernaRead/weekly.git 9b02eb0..2d4f490 main -> main" (~3s)
+2026-11-05 00:35:24 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: after push attempt 2: ls-remote=2d4f490f0167a52dc523f53570adbbbe31079e5a
+2026-11-05 00:35:24 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: verified: ls-remote=2d4f490f0167a52dc523f53570adbbbe31079e5a ls-tree cover files=2
+2026-11-05 00:35:24 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:35:24 UTC RECOVERY-COORD(00:05Z spawn) COVER pt: COVER pt DONE landed=2d4f490f0167a52dc523f53570adbbbe31079e5a
+2026-11-05 00:35:26 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: source verified pdf bytes=402123 sha=a1440b14252fa2dc1d5eb43bd06c2e273cd6f11b9b2e9739cc7e846880938158 textbytes=11038
+2026-11-05 00:35:26 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-nl
+2026-11-05 00:36:06 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: lint --write: index.json 已写出:390 版
+2026-11-05 00:36:45 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: lint: OK:390 版,index.json 最新
+2026-11-05 00:36:45 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: status after lint: ?? covers/2026-w46/2026-w46-cover-nl/;
+2026-11-05 00:36:45 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: committed 2ecb2bdda4146f58349c720c67838a4f3c817953 (1 PDF + md, no index change)
+2026-11-05 00:36:47 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: push attempt 1/6 rc=128 sig="client_loop: send disconnect: Broken pipe send-pack: unexpected disconnect while reading sideband packet fatal: the remote end hung up unexpectedly" (~2s)
+2026-11-05 00:36:48 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: after push attempt 1: ls-remote=2d4f490f0167a52dc523f53570adbbbe31079e5a
+2026-11-05 00:38:51 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: push attempt 2/6 rc=0 sig="To github.com:LucernaRead/weekly.git 2d4f490..2ecb2bd main -> main" (~3s)
+2026-11-05 00:38:52 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: after push attempt 2: ls-remote=2ecb2bdda4146f58349c720c67838a4f3c817953
+2026-11-05 00:38:52 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: verified: ls-remote=2ecb2bdda4146f58349c720c67838a4f3c817953 ls-tree cover files=2
+2026-11-05 00:38:52 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:38:52 UTC RECOVERY-COORD(00:05Z spawn) COVER nl: COVER nl DONE landed=2ecb2bdda4146f58349c720c67838a4f3c817953
+2026-11-05 00:38:57 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: source verified pdf bytes=400307 sha=403380ad7ba4c8d2b607db83c580c92f5b06173c4af0d6ae6cd464a3a4026804 textbytes=14069
+2026-11-05 00:38:57 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-ru
+2026-11-05 00:39:38 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: lint --write: index.json 已写出:390 版
+2026-11-05 00:40:18 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: lint: OK:390 版,index.json 最新
+2026-11-05 00:40:18 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: status after lint: ?? covers/2026-w46/2026-w46-cover-ru/;
+2026-11-05 00:40:18 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: committed 9fda6e51d2c74d6c98211a09ea366c6f7415c95e (1 PDF + md, no index change)
+2026-11-05 00:40:21 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git 2ecb2bd..9fda6e5 main -> main" (~3s)
+2026-11-05 00:40:22 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: after push attempt 1: ls-remote=9fda6e51d2c74d6c98211a09ea366c6f7415c95e
+2026-11-05 00:40:22 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: verified: ls-remote=9fda6e51d2c74d6c98211a09ea366c6f7415c95e ls-tree cover files=2
+2026-11-05 00:40:22 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:40:22 UTC RECOVERY-COORD(00:05Z spawn) COVER ru: COVER ru DONE landed=9fda6e51d2c74d6c98211a09ea366c6f7415c95e
+2026-11-05 00:40:23 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: source verified pdf bytes=628692 sha=327fe756dbcf74ea793ff4cd4f7a1f95f7d4c09fa76aefd3f392df65609ecd57 textbytes=11839
+2026-11-05 00:40:23 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-ja
+2026-11-05 00:41:03 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: lint --write: index.json 已写出:390 版
+2026-11-05 00:41:43 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: lint: OK:390 版,index.json 最新
+2026-11-05 00:41:43 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: status after lint: ?? covers/2026-w46/2026-w46-cover-ja/;
+2026-11-05 00:41:43 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: committed 1189d7aa26bec7d7a40cfdf60495fa86ccf78483 (1 PDF + md, no index change)
+2026-11-05 00:41:46 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git 9fda6e5..1189d7a main -> main" (~3s)
+2026-11-05 00:41:47 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: after push attempt 1: ls-remote=1189d7aa26bec7d7a40cfdf60495fa86ccf78483
+2026-11-05 00:41:47 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: verified: ls-remote=1189d7aa26bec7d7a40cfdf60495fa86ccf78483 ls-tree cover files=2
+2026-11-05 00:41:47 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:41:47 UTC RECOVERY-COORD(00:05Z spawn) COVER ja: COVER ja DONE landed=1189d7aa26bec7d7a40cfdf60495fa86ccf78483
+2026-11-05 00:41:52 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: source verified pdf bytes=509455 sha=e9cd49a96f32e571d650034f426bf7a2bcc329461da3f198e6f3f5e68c247e88 textbytes=11324
+2026-11-05 00:41:52 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-ko
+2026-11-05 00:42:31 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: lint --write: index.json 已写出:390 版
+2026-11-05 00:43:13 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: lint: OK:390 版,index.json 最新
+2026-11-05 00:43:13 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: status after lint: ?? covers/2026-w46/2026-w46-cover-ko/;
+2026-11-05 00:43:13 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: committed 48297ca0b1ea6b435c5de4d695a7af7b16cc53f8 (1 PDF + md, no index change)
+2026-11-05 00:43:16 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git 1189d7a..48297ca main -> main" (~3s)
+2026-11-05 00:43:17 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: after push attempt 1: ls-remote=48297ca0b1ea6b435c5de4d695a7af7b16cc53f8
+2026-11-05 00:43:17 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: verified: ls-remote=48297ca0b1ea6b435c5de4d695a7af7b16cc53f8 ls-tree cover files=2
+2026-11-05 00:43:17 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:43:17 UTC RECOVERY-COORD(00:05Z spawn) COVER ko: COVER ko DONE landed=48297ca0b1ea6b435c5de4d695a7af7b16cc53f8
+2026-11-05 00:43:18 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: source verified pdf bytes=567956 sha=bb32e638e314992b8c3c149bd4545f65466c4753b63e8e76e1cc53365fa2ae85 textbytes=10443
+2026-11-05 00:43:18 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-zh-cn
+2026-11-05 00:43:58 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: lint --write: index.json 已写出:390 版
+2026-11-05 00:44:38 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: lint: OK:390 版,index.json 最新
+2026-11-05 00:44:38 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: status after lint: ?? covers/2026-w46/2026-w46-cover-zh-cn/;
+2026-11-05 00:44:38 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: committed be989078809ff40111e2c9ea2864ad3de75c1aca (1 PDF + md, no index change)
+2026-11-05 00:44:41 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git 48297ca..be98907 main -> main" (~3s)
+2026-11-05 00:44:43 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: after push attempt 1: ls-remote=be989078809ff40111e2c9ea2864ad3de75c1aca
+2026-11-05 00:44:43 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: verified: ls-remote=be989078809ff40111e2c9ea2864ad3de75c1aca ls-tree cover files=2
+2026-11-05 00:44:43 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:44:43 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-cn: COVER zh-cn DONE landed=be989078809ff40111e2c9ea2864ad3de75c1aca
+2026-11-05 00:44:52 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: source verified pdf bytes=646004 sha=098ad6bd2f7e6780096f9fd64dcd309e2602e49e27c982326bc68a1e4e3cb5f9 textbytes=10445
+2026-11-05 00:44:52 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: copied md+pdf into /home/hatch/workspace/weekly-git/covers/2026-w46/2026-w46-cover-zh-tw
+2026-11-05 00:45:34 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: lint --write: index.json 已写出:390 版
+2026-11-05 00:46:15 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: lint: OK:390 版,index.json 最新
+2026-11-05 00:46:15 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: status after lint: ?? covers/2026-w46/2026-w46-cover-zh-tw/;
+2026-11-05 00:46:15 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: committed f544a42c23f3e9c7633a0d79e89ffc58c2bd2c1e (1 PDF + md, no index change)
+2026-11-05 00:46:18 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: push attempt 1/6 rc=0 sig="To github.com:LucernaRead/weekly.git be98907..f544a42 main -> main" (~3s)
+2026-11-05 00:46:20 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: after push attempt 1: ls-remote=f544a42c23f3e9c7633a0d79e89ffc58c2bd2c1e
+2026-11-05 00:46:20 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: verified: ls-remote=f544a42c23f3e9c7633a0d79e89ffc58c2bd2c1e ls-tree cover files=2
+2026-11-05 00:46:20 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: remote index: remote index editions total=390 w46=130 pdfInRepo=130 covers=12
+2026-11-05 00:46:20 UTC RECOVERY-COORD(00:05Z spawn) COVER zh-tw: COVER zh-tw DONE landed=f544a42c23f3e9c7633a0d79e89ffc58c2bd2c1e
+2026-11-05 00:47:17 UTC RECOVERY-COORD(00:05Z spawn) COMPLETE: ko PDF d1fed7b landed attempt 3/12 (00:13:02Z); 12/12 W46 print covers landed one-at-a-time (en 542ff7e, de e32117b, fr c0a6868, es 9d02653, it 9b02eb0, pt 2d4f490, nl 2ecb2bd, ru 9fda6e5, ja 1189d7a, ko 48297ca, zh-cn be98907, zh-tw f544a42). FINAL VERIFY remote HEAD f544a42c local==remote clean lint green; index 390 total / 130 W46 / 130 pdfInRepo=true; ls-tree issues/2026-w46 390 files (130 md+130 pdf+130 text.md, 130 slugs); covers/2026-w46 24 files (12x md+pdf). REMAINING GAP: index covers still 12 all W45 — NO W46 .html exists, print-only covers are not indexed as cover blocks; cover .html build + W46 story images (covers/2026-w46/images/*.webp, none exist) still pending as separate work. No Discord activity. d1fed7b untouched (never reset/amended). No edition re-inserted.

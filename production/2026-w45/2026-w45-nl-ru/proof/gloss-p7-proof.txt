@@ -1,0 +1,41 @@
+=== CORE gloss (marker 译注｜) ===
+  p2-leven.svg lines=4 count=6 items=['het klimaat 气候', 'wortelen 生根', 'besparen 节约', 'de verwarming 暖气', 'de waarschuwing 预警', 'lokaal 当地的、本地的']
+  p3-cultuur.svg lines=4 count=5 items=['het museum 博物馆', 'derondleiding 导览', 'het tijdslot 时间段', 'tweedehands 二手的', 'de beurs 展会、集市']
+  p4-sport.svg lines=3 count=5 items=['de balans 成绩单、总结', 'gelijkspelen 打平', 'de speelronde 轮次', 'de topper 焦点战', 'de stand 积分榜']
+  p5-jongeren.svg lines=3 count=5 items=['het eiland 岛', 'de proef 比赛项目、考验', 'stemmen 投票', 'de aflevering（一）集', 'voorbij 过去了、结束了']
+  p6-verdieping.svg lines=4 count=5 items=['de meteoroloog 气象学家', 'waarschuwingsmoeheid 预警疲劳', 'vastzetten 固定好', 'het advies 建议、忠告', 'de voorstander 支持者']
+  CORE total: 26
+=== EDITION gloss (marker Пояснение — ) ===
+  p2-leven.svg lines=5 count=6 items=['het klimaat — климат', 'wortelen — пускать корни', 'besparen— экономить', 'de verwarming —отопление', 'de waarschuwing —предупреждение', 'lokaal — местный']
+  p3-cultuur.svg lines=5 count=5 items=['het museum — музей', 'de rondleiding — экскурсия', 'hettijdslot — временной слот', 'tweedehands — подержанный', 'debeurs — ярмарка, выставка']
+  p4-sport.svg lines=5 count=5 items=['de balans — итог, баланс', 'gelijkspelen — играть вничью', 'despeelronde — тур', 'de topper —главный матч', 'de stand — турнирнаятаблица']
+  p5-jongeren.svg lines=5 count=5 items=['het eiland — остров', 'deproef — испытание', 'stemmen —голосовать', 'de aflevering — серия,выпуск', 'voorbij — прошло,закончилось']
+  p6-verdieping.svg lines=5 count=5 items=['de meteoroloog —метеоролог', 'waarschuwingsmoeheid— усталость от предупреждений', 'vastzetten — закреплять', 'het advies —совет', 'de voorstander — сторонник']
+  EDITION total: 26
+=== prefix counts ===
+  ED W45 total 'Пояснение — ' = 6 per page: {'p1-voorpagina.svg': 1, 'p2-leven.svg': 1, 'p3-cultuur.svg': 1, 'p4-sport.svg': 1, 'p5-jongeren.svg': 1, 'p6-verdieping.svg': 1, 'p7-taal.svg': 0, 'p8-toets.svg': 0}
+  W43 total 'Пояснение — ' = 9 per page: {'p1-voorpagina.svg': 1, 'p2-leven.svg': 1, 'p3-cultuur.svg': 1, 'p4-sport.svg': 1, 'p5-jongeren.svg': 1, 'p6-verdieping.svg': 1, 'p7-taal.svg': 3, 'p8-toets.svg': 0}
+=== CORE P7 bridges: do they carry a prefix? ===
+  core P7 bridge line: 'meedoen 参加：ik doe mee；opruimen 收拾'
+  core P7 bridge line: 'meedoen = 参加、参与：气候周全荷兰都参'
+=== EDITION P7 bridges (segments split on ';') ===
+  ed P7 sans20.5: 65 660.3000000000001 'het klimaat — климат (долгосрочный); een'
+  ed P7 sans20.5: 65 690.0250000000001 'boom planten — сажать дерево; besparen —'
+  ed P7 sans20.5: 65 719.7500000000001 'экономить; de waarschuwing —'
+  ed P7 sans20.5: 65 749.475 'предупреждение.'
+  ed P7 sans20.5: 527 692.98 'meedoen — участвовать: ik doe mee;'
+  ed P7 sans20.5: 527 722.705 'opruimen — убирать: wij hebben'
+  ed P7 sans20.5: 527 752.4300000000001 'opgeruimd; vastzetten — закреплять: zij'
+  ed P7 sans20.5: 527 782.155 'zette vast.'
+  ed P7 sans20.5: 989 692.98 'Ik vind dat… — я считаю, что…; Volgens'
+  ed P7 sans20.5: 989 722.705 'mij… — по-моему; Het lijkt me dat… — мне'
+  ed P7 sans20.5: 989 752.4300000000001 'кажется, что….'
+=== CORE P7 bridges same ===
+  core P7 sans20.5: 65 660.3000000000001 'het klimaat 气候（长期）；een boom planten'
+  core P7 sans20.5: 65 690.0250000000001 '种树；besparen 节约；de waarschuwing 预警'
+  core P7 sans20.5: 65 719.7500000000001 '。'
+  core P7 sans20.5: 527 692.98 'meedoen 参加：ik doe mee；opruimen 收拾'
+  core P7 sans20.5: 527 722.705 '：wij hebben opgeruimd；vastzetten 固定：'
+  core P7 sans20.5: 527 752.4300000000001 'zij zette vast。'
+  core P7 sans20.5: 989 692.98 'Ik vind dat… 我认为；Volgens mij… 依我看；'
+  core P7 sans20.5: 989 722.705 'Het lijkt me dat… 在我看来。'

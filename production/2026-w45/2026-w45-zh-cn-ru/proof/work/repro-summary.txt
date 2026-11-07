@@ -1,0 +1,32 @@
+--- transform run ---
+transform exit: 0
+0
+TRANSFORM OK
+REPOINT OK
+--- grep for real-dir references (must be empty) ---
+NO REAL-DIR REFERENCES
+--- driver run ---
+driver exit: 0
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- compare repro SVGs to delivered ---
+IDENTICAL p1-touiban
+IDENTICAL p2-shenghuo
+IDENTICAL p3-wenhua
+IDENTICAL p4-tiyu
+IDENTICAL p5-qingnian
+IDENTICAL p6-shendu
+IDENTICAL p7-ciyu
+IDENTICAL p8-ceyan
+--- repro build sources vs real RU build sources (OUT/BASE lines excluded) ---
+SRC-IDENTICAL content12.py
+SRC-IDENTICAL content34.py
+SRC-IDENTICAL content56.py
+SRC-IDENTICAL content7.py
+SRC-IDENTICAL content8.py
+SRC-IDENTICAL bslib4.py
+SRC-IDENTICAL svglib.py
+SRC-IDENTICAL run.py

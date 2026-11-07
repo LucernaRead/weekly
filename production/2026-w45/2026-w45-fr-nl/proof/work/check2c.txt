@@ -1,0 +1,39 @@
+== P8 8 removed-noCJK fragments: present in ED joined P8 text? ==
+  ED=MISSING CORE=FOUND :: "Traduisez : « Lire un programme, c'est déjà"
+  ED=FOUND CORE=FOUND :: 'chrysanthèmes pour un anniversaire. · 36. Les feuilles ne'
+  ED=FOUND CORE=FOUND :: 'heures'
+  ED=FOUND CORE=FOUND :: 'pas la Toussaint. · 38. nocturne · 39. badge · 40. Plailly'
+  ED=FOUND CORE=FOUND :: "sont plus vertes en novembre. · 37. Le 2 novembre n'est"
+  ED=FOUND CORE=FOUND :: 'vingt pages ce soir. · 17. Tu vas préparer ton cartable ce'
+  ED=FOUND CORE=FOUND :: "· 103. joue · 104. rencontrent · 105. On n'offre jamais de"
+  ED=FOUND CORE=FOUND :: 'élèves vont reprendre les cours lundi. · 16. Nous allons lir'
+== P8 heads core vs edition ==
+  CORE y=116.0 x=78.0 :: 'EXERCICES & RÉPONSES · 练习与答案'
+  CORE y=116.0 x=1872.0 :: 'Le Lucerna'
+  CORE y=142.0 x=1872.0 :: '综合评估 ÉVALUATION · 答案在本版下方'
+  CORE y=218.0 x=65.0 :: 'A · TEXTE À TROUS · 完形填空'
+  CORE y=265.0 x=65.0 :: 'Léa a seize ans. Le (109)___ 8 novembre,'
+  CORE y=296.92 x=65.0 :: "elle se lève tôt : c'est le jour des finales."
+  ED y=116.0 x=78.0 :: 'EXERCICES & RÉPONSES · OEFENINGEN & ANTWOORDEN'
+  ED y=116.0 x=1872.0 :: 'Le Lucerna'
+  ED y=142.0 x=1872.0 :: 'ÉVALUATION · ANTWOORDEN ONDERAAN DEZE PAGINA'
+  ED y=218.0 x=65.0 :: 'A · TEXTE À TROUS · GATENTEKST'
+  ED y=265.0 x=65.0 :: 'Léa a seize ans. Le (109)___ 8 novembre,'
+  ED y=296.92 x=65.0 :: "elle se lève tôt : c'est le jour des finales."
+== P7 reader box scoped (x>=989, 1878<=y<=2258) + preview bar scoped (x>=989, 2270<=y<=2540) ==
+  reader: n=10 max_ink_bottom=2238.30 box_bottom=2258 margin=19.70 worst y=2233.3 :: '(geen W44-nummer); beide volgen in VOL.4.'
+  preview: n=6 max_ink_bottom=2499.00 box_bottom=2540 margin=41.00 worst y=2494.0 :: 'Wapenstilstand, de haring- en sint-jakobsschelpenbeurs in Di'
+== P1 gloss box: find Uitleg line + box rect + all lines same x ==
+  gloss-prefix y=1375.9 x=545.0 size=20.5 :: 'Uitleg — se jouer beslist worden · une'
+  rect x=527.0 y=1337.4 w=434.0 h=205.125 bottom=1542.525
+  rect x=989.0 y=1334.7999999999997 w=60.0 h=30.0 bottom=1364.7999999999997
+  box lines (x=545.0, y 1375.9-+200): 5
+    y=1375.9 ink_right=914.75 :: 'Uitleg — se jouer beslist worden · une'
+    y=1405.625 ink_right=893.00 :: 'finale finale · une demi-finale halve'
+    y=1435.35 ink_right=935.00 :: 'finale · un quart de finale kwartfinale ·'
+    y=1465.0749999999998 ink_right=909.25 :: 'une nocturne nachtevent · un frisson'
+    y=1494.7999999999997 ink_right=939.00 :: 'rilling · la coquille Saint-Jacques schelp.'
+== P6 chart box texts (x 65..961, y 1330..1800) + later-rect coverage ==
+Traceback (most recent call last):
+  File "<stdin>", line 49, in <module>
+TypeError: float() argument must be a string or a real number, not 'PosixPath'

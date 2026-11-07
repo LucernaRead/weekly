@@ -1,0 +1,4 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-ko/svg: 2 flags {'BOXTITLE': 2}
+  [BOXTITLE] p1-voorpagina.svg 'DE WEEK IN CIJFERS · 숫자로 보는 이번 주' — ink crosses its box borders: right ink 996.2 > border 961.0
+  [BOXTITLE] p6-verdieping.svg 'VOOR OF TEGEN? · 찬성할까요, 반대할까요' — ink crosses its box borders: right ink 1886.2 > border 1885.0

@@ -1,0 +1,3840 @@
+{
+ "freeze": {
+  "p1-pyoji": {
+   "core_cjk_total": 1462,
+   "ed_cjk_total": 1492,
+   "net": 30,
+   "added_cjk": 75,
+   "removed_cjk": 45,
+   "strings_removed": 17,
+   "strings_added": 18,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 100,
+   "skeleton_ed_len": 100
+  },
+  "p2-saenghwal": {
+   "core_cjk_total": 1612,
+   "ed_cjk_total": 1623,
+   "net": 11,
+   "added_cjk": 74,
+   "removed_cjk": 63,
+   "strings_removed": 22,
+   "strings_added": 22,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 142,
+   "skeleton_ed_len": 142
+  },
+  "p3-munhwa": {
+   "core_cjk_total": 1524,
+   "ed_cjk_total": 1534,
+   "net": 10,
+   "added_cjk": 63,
+   "removed_cjk": 53,
+   "strings_removed": 18,
+   "strings_added": 19,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 130,
+   "skeleton_ed_len": 130
+  },
+  "p4-seupocheu": {
+   "core_cjk_total": 1232,
+   "ed_cjk_total": 1242,
+   "net": 10,
+   "added_cjk": 51,
+   "removed_cjk": 41,
+   "strings_removed": 15,
+   "strings_added": 16,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 55,
+   "skeleton_ed_len": 55
+  },
+  "p5-cheongnyeon": {
+   "core_cjk_total": 1433,
+   "ed_cjk_total": 1444,
+   "net": 11,
+   "added_cjk": 57,
+   "removed_cjk": 46,
+   "strings_removed": 16,
+   "strings_added": 16,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 91,
+   "skeleton_ed_len": 91
+  },
+  "p6-gipi": {
+   "core_cjk_total": 1276,
+   "ed_cjk_total": 1287,
+   "net": 11,
+   "added_cjk": 41,
+   "removed_cjk": 30,
+   "strings_removed": 10,
+   "strings_added": 10,
+   "hangul_only_core": {
+    "제": 1,
+    "면": 2,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 75,
+   "skeleton_ed_len": 75
+  },
+  "p7-mal": {
+   "core_cjk_total": 1365,
+   "ed_cjk_total": 1391,
+   "net": 26,
+   "added_cjk": 88,
+   "removed_cjk": 62,
+   "strings_removed": 25,
+   "strings_added": 26,
+   "hangul_only_core": {
+    "면": 2,
+    "제": 1,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 146,
+   "skeleton_ed_len": 146
+  },
+  "p8-siheom": {
+   "core_cjk_total": 2496,
+   "ed_cjk_total": 2507,
+   "net": 11,
+   "added_cjk": 500,
+   "removed_cjk": 489,
+   "strings_removed": 154,
+   "strings_added": 154,
+   "hangul_only_core": {
+    "제": 9,
+    "면": 10,
+    "총": 1
+   },
+   "hangul_only_ed": {},
+   "skeleton_equal": true,
+   "skeleton_core_len": 1367,
+   "skeleton_ed_len": 1367
+  }
+ },
+ "freeze_added_total": 949,
+ "p8": {
+  "core_noted": 150,
+  "ed_noted": 150,
+  "numbers_ok": true,
+  "keydiff": [
+   138
+  ],
+  "full_line_diff": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   64,
+   66,
+   67,
+   68,
+   70,
+   71,
+   72,
+   73,
+   76,
+   77,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   99,
+   100,
+   101,
+   102,
+   103,
+   104,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120,
+   122,
+   123,
+   124,
+   125,
+   126,
+   127,
+   129,
+   130,
+   131,
+   132,
+   133,
+   134,
+   136,
+   137,
+   138,
+   139,
+   140,
+   141,
+   142,
+   143,
+   144,
+   145,
+   146,
+   147,
+   148,
+   149,
+   150
+  ],
+  "adjudicate": {
+   "109": {
+    "core": "기준 — 日期不同因标准不同（3版）",
+    "ed": "기준 — 日期不同因標準不同（3版）",
+    "core_key": "기준",
+    "ed_key": "기준"
+   },
+   "137": {
+    "core": "11月7日是立冬。 — 对照第 1 版",
+    "ed": "11月7日是立冬。 — 對照第 1 版",
+    "core_key": "11月7日是立冬。",
+    "ed_key": "11月7日是立冬。"
+   },
+   "138": {
+    "core": "离高考还剩 12 天。 — 对照第 5 版",
+    "ed": "離高考還剩 12 天。 — 對照第 5 版",
+    "core_key": "离高考还剩 12 天。",
+    "ed_key": "離高考還剩 12 天。"
+   },
+   "139": {
+    "core": "특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版",
+    "ed": "특별 조치는 11월 19일에만 적용돼요. — 對照第 6 版",
+    "core_key": "특별 조치는 11월 19일에만 적용돼요.",
+    "ed_key": "특별 조치는 11월 19일에만 적용돼요."
+   },
+   "140": {
+    "core": "저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版",
+    "ed": "저는 토요일에 내장산에 단풍을 보러 가요. — 對照第 3 版",
+    "core_key": "저는 토요일에 내장산에 단풍을 보러 가요.",
+    "ed_key": "저는 토요일에 내장산에 단풍을 보러 가요."
+   },
+   "150": {
+    "core": "✓ 范文见本版 H 区（157 字）",
+    "ed": "✓ 範本見本版 H 區（157 字）",
+    "core_key": "APPARATUS",
+    "ed_key": "APPARATUS"
+   }
+  },
+  "notes_with_hangul": {
+   "25": "김장=醃過冬泡菜 a",
+   "26": "월동 준비=準備過冬 c",
+   "27": "산불조심=進山小心火 d",
+   "28": "한능검=韓國史考試簡稱 b",
+   "34": "紅葉最美的時候叫절정",
+   "43": "내장산=兩個預報之間 b",
+   "44": "월출산=11月9日前夕 a",
+   "45": "북한산=11月4日之後、低路更晚 d",
+   "46": "설악산=實際觀測10月16日 c",
+   "57": "이기다的過去式이겼어요",
+   "58": "열리다的過去式열렸어요",
+   "59": "미뤄지다的過去式미뤄졌어요",
+   "60": "바뀌다的過去式바뀌었어요",
+   "61": "준플레이오프=KIA三連勝 b",
+   "62": "플레이오프=KIA對三星 d",
+   "63": "한국시리즈=kt在等候 a",
+   "64": "온대저기압=颱風10月26日變化 c",
+   "135": "보러 가요 = 去看",
+   "136": "動作場所用「에서」",
+   "141": "입동=冬季開始的節氣 a",
+   "142": "절정=最佳時期 b",
+   "143": "김장=醃過冬泡菜 c",
+   "144": "온대저기압=颱風10月26日變化 d"
+  },
+  "notes_cross_script": {}
+ },
+ "gloss_boxes": {
+  "p1-pyoji": {
+   "core_boxes": 1,
+   "ed_boxes": 1,
+   "core_segs": 5,
+   "ed_segs": 5,
+   "heads_equal": true,
+   "core_firstline_segs": 2,
+   "ed_firstline_segs": 2,
+   "ed_boxes_detail": [
+    {
+     "segs": 5,
+     "lines": [
+      "譯注｜입동 立冬、冬季開始 · 절정",
+      "最盛期、高峰 · 김장 醃過冬泡菜 ·",
+      "상륙하다 登陸 · 온대저기압 溫帶氣旋。"
+     ],
+     "heads": "입동절정김장상륙하다온대저기압"
+    }
+   ]
+  },
+  "p2-saenghwal": {
+   "core_boxes": 5,
+   "ed_boxes": 5,
+   "core_segs": 16,
+   "ed_segs": 16,
+   "heads_equal": true,
+   "core_firstline_segs": 15,
+   "ed_firstline_segs": 15,
+   "ed_boxes_detail": [
+    {
+     "segs": 4,
+     "lines": [
+      "譯注｜절이다 用鹽醃 · 버무리다 拌 · 난방",
+      "供暖 · 식탁 餐桌。"
+     ],
+     "heads": "절이다버무리다난방식탁"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜산불 山火 · 벌금 罰款 · 불씨 火星。"
+     ],
+     "heads": "산불벌금불씨"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜아삭하다 脆脆的 · 김 蒸汽 ·",
+      "깊어지다 變深。"
+     ],
+     "heads": "아삭하다김깊어지다"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜물려주다 傳給 · 낡다 舊 · 두렵다",
+      "害怕。"
+     ],
+     "heads": "물려주다낡다두렵다"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜묵직하다 沉甸甸的 · 앞치마 圍裙 ·",
+      "목록 清單。"
+     ],
+     "heads": "묵직하다앞치마목록"
+    }
+   ]
+  },
+  "p3-munhwa": {
+   "core_boxes": 4,
+   "ed_boxes": 4,
+   "core_segs": 13,
+   "ed_segs": 13,
+   "heads_equal": true,
+   "core_firstline_segs": 13,
+   "ed_firstline_segs": 13,
+   "ed_boxes_detail": [
+    {
+     "segs": 4,
+     "lines": [
+      "譯注｜기관 機構 · 기준 標準 · 관측 觀測 ·",
+      "구간별 按路段。"
+     ],
+     "heads": "기관기준관측구간별"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜현장 現場 · 유명하다 有名 · 맛보다",
+      "品嚐。"
+     ],
+     "heads": "현장유명하다맛보다"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜이용하다 利用 · 막히다 堵塞 · 예의",
+      "禮儀。"
+     ],
+     "heads": "이용하다막히다예의"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜겹쳐 입다 疊穿 · 미끄러지다 打滑 ·",
+      "돌 石頭。"
+     ],
+     "heads": "겹쳐입다미끄러지다돌"
+    }
+   ]
+  },
+  "p4-seupocheu": {
+   "core_boxes": 3,
+   "ed_boxes": 3,
+   "core_segs": 7,
+   "ed_segs": 7,
+   "heads_equal": true,
+   "core_firstline_segs": 6,
+   "ed_firstline_segs": 6,
+   "ed_boxes_detail": [
+    {
+     "segs": 4,
+     "lines": [
+      "譯注｜연승 連勝 · 만루홈런 滿壘本壘打 ·",
+      "미뤄지다 推遲 · 마감하다 截稿。"
+     ],
+     "heads": "연승만루홈런미뤄지다마감하다"
+    },
+    {
+     "segs": 2,
+     "lines": [
+      "譯注｜흔들다 揮動 · 하나가 되다",
+      "融為一體。"
+     ],
+     "heads": "흔들다하나가되다"
+    },
+    {
+     "segs": 1,
+     "lines": [
+      "譯注｜예상 預測。"
+     ],
+     "heads": "예상"
+    }
+   ]
+  },
+  "p5-cheongnyeon": {
+   "core_boxes": 4,
+   "ed_boxes": 4,
+   "core_segs": 12,
+   "ed_segs": 12,
+   "heads_equal": true,
+   "core_firstline_segs": 12,
+   "ed_firstline_segs": 11,
+   "ed_boxes_detail": [
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜정리 整理、複習 · 끈끈하다 粘粘的",
+      "· 합격 合格。"
+     ],
+     "heads": "정리끈끈하다합격"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜중점 重點 · 배치하다 部署 ·",
+      "통제하다 管制。"
+     ],
+     "heads": "중점배치하다통제하다"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜챙기다 準備好 · 졸리다 犯睏 · 평소",
+      "平時。"
+     ],
+     "heads": "챙기다졸리다평소"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜비다 祈願 · 피하다 避開 · 미끄럽다",
+      "滑。"
+     ],
+     "heads": "비다피하다미끄럽다"
+    }
+   ]
+  },
+  "p6-gipi": {
+   "core_boxes": 3,
+   "ed_boxes": 3,
+   "core_segs": 8,
+   "ed_segs": 8,
+   "heads_equal": true,
+   "core_firstline_segs": 8,
+   "ed_firstline_segs": 8,
+   "ed_boxes_detail": [
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜짙어지다 變濃 · 규모 規模 · 섞다",
+      "混淆。"
+     ],
+     "heads": "짙어지다규모섞다"
+    },
+    {
+     "segs": 2,
+     "lines": [
+      "譯注｜겁이 나다 害怕 · 중요하다 重要。"
+     ],
+     "heads": "겁이나다중요하다"
+    },
+    {
+     "segs": 3,
+     "lines": [
+      "譯注｜예정 預定 · 확정 確定 · 믿다 相信。"
+     ],
+     "heads": "예정확정믿다"
+    }
+   ]
+  },
+  "p7-mal": {
+   "core_boxes": 0,
+   "ed_boxes": 0,
+   "core_segs": 0,
+   "ed_segs": 0,
+   "heads_equal": true,
+   "core_firstline_segs": 0,
+   "ed_firstline_segs": 0,
+   "ed_boxes_detail": []
+  },
+  "p8-siheom": {
+   "core_boxes": 0,
+   "ed_boxes": 0,
+   "core_segs": 0,
+   "ed_segs": 0,
+   "heads_equal": true,
+   "core_firstline_segs": 0,
+   "ed_firstline_segs": 0,
+   "ed_boxes_detail": []
+  },
+  "total_core_segs": 61,
+  "total_ed_segs": 61
+ },
+ "gloss_callstring": {
+  "core": {
+   "content12.py": 24,
+   "content34.py": 26,
+   "content56.py": 28,
+   "content7.py": 6,
+   "content8.py": 0
+  },
+  "edition": {
+   "content12.py": 24,
+   "content34.py": 26,
+   "content56.py": 28,
+   "content7.py": 6,
+   "content8.py": 0
+  },
+  "core_total": 84,
+  "edition_total": 84,
+  "core_calls_detail": {
+   "content12.py": {
+    "total": 24,
+    "calls": [
+     [
+      "gloss",
+      5,
+      "입동 立冬、冬季开始 · 절정 最盛期、高峰 · 김장 腌过冬泡菜 · 상륙하다"
+     ],
+     [
+      "gloss",
+      4,
+      "절이다 用盐腌 · 버무리다 拌 · 난방 供暖 · 식탁 餐桌。"
+     ],
+     [
+      "gloss",
+      3,
+      "산불 山火 · 벌금 罚款 · 불씨 火星。"
+     ],
+     [
+      "gloss",
+      3,
+      "아삭하다 脆脆的 · 김 蒸汽 · 깊어지다 变深。"
+     ],
+     [
+      "gloss",
+      3,
+      "물려주다 传给 · 낡다 旧 · 두렵다 害怕。"
+     ],
+     [
+      "gloss",
+      3,
+      "묵직하다 沉甸甸的 · 앞치마 围裙 · 목록 清单。"
+     ],
+     [
+      "glossline",
+      1,
+      "2면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "1면과 2면의 숫자와 날짜로 답하세요."
+     ]
+    ]
+   },
+   "content34.py": {
+    "total": 26,
+    "calls": [
+     [
+      "gloss",
+      4,
+      "기관 机构 · 기준 标准 · 관측 观测 · 구간별 按路段。"
+     ],
+     [
+      "gloss",
+      3,
+      "현장 现场 · 유명하다 有名 · 맛보다 品尝。"
+     ],
+     [
+      "gloss",
+      3,
+      "이용하다 利用 · 막히다 堵塞 · 예의 礼仪。"
+     ],
+     [
+      "gloss",
+      3,
+      "겹쳐 입다 叠穿 · 미끄러지다 打滑 · 돌 石头。"
+     ],
+     [
+      "glossline",
+      1,
+      "3면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "3면의 숫자와 날짜로 답하세요."
+     ],
+     [
+      "gloss",
+      4,
+      "연승 连胜 · 만루홈런 满垒本垒打 · 미뤄지다 推迟 · 마감하다 截稿。"
+     ],
+     [
+      "gloss",
+      2,
+      "흔들다 挥动 · 하나가 되다 融为一体。"
+     ],
+     [
+      "gloss",
+      1,
+      "예상 预测。"
+     ],
+     [
+      "glossline",
+      1,
+      "4면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "문장을 과거형으로 바꾸세요. (바꾼 문장은 모두 이 신문에 나온 일이에요"
+     ]
+    ]
+   },
+   "content56.py": {
+    "total": 28,
+    "calls": [
+     [
+      "gloss",
+      3,
+      "정리 整理、复习 · 끈끈하다 粘粘的 · 합격 合格。"
+     ],
+     [
+      "gloss",
+      3,
+      "중점 重点 · 배치하다 部署 · 통제하다 管制。"
+     ],
+     [
+      "gloss",
+      3,
+      "챙기다 准备好 · 졸리다 犯困 · 평소 平时。"
+     ],
+     [
+      "gloss",
+      3,
+      "비다 祈愿 · 피하다 避开 · 미끄럽다 滑。"
+     ],
+     [
+      "glossline",
+      1,
+      "5면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "5면의 숫자로 답하세요."
+     ],
+     [
+      "glossline",
+      1,
+      "말을 바른 순서로 놓아 문장을 만드세요."
+     ],
+     [
+      "gloss",
+      3,
+      "짙어지다 变浓 · 규모 规模 · 섞다 混淆。"
+     ],
+     [
+      "gloss",
+      2,
+      "겁이 나다 害怕 · 중요하다 重要。"
+     ],
+     [
+      "gloss",
+      3,
+      "예정 预定 · 확정 确定 · 믿다 相信。"
+     ],
+     [
+      "glossline",
+      1,
+      "6면의 표를 보고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "6면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "문장이 맞으면 맞다, 틀리면 틀리다를 고르세요."
+     ]
+    ]
+   },
+   "content7.py": {
+    "total": 6,
+    "calls": [
+     [
+      "glossline",
+      2,
+      "본격적 正式、全面 · 나다 度过。"
+     ],
+     [
+      "glossline",
+      2,
+      "남다 剩下 · 바로 正是、恰恰。"
+     ],
+     [
+      "glossline",
+      2,
+      "짐작하다 推测 · 나누다 区分。"
+     ]
+    ]
+   },
+   "content8.py": {
+    "total": 0,
+    "calls": []
+   }
+  },
+  "edition_calls_detail": {
+   "content12.py": {
+    "total": 24,
+    "calls": [
+     [
+      "gloss",
+      5,
+      "입동 立冬、冬季開始 · 절정 最盛期、高峰 · 김장 醃過冬泡菜 · 상륙하다"
+     ],
+     [
+      "gloss",
+      4,
+      "절이다 用鹽醃 · 버무리다 拌 · 난방 供暖 · 식탁 餐桌。"
+     ],
+     [
+      "gloss",
+      3,
+      "산불 山火 · 벌금 罰款 · 불씨 火星。"
+     ],
+     [
+      "gloss",
+      3,
+      "아삭하다 脆脆的 · 김 蒸汽 · 깊어지다 變深。"
+     ],
+     [
+      "gloss",
+      3,
+      "물려주다 傳給 · 낡다 舊 · 두렵다 害怕。"
+     ],
+     [
+      "gloss",
+      3,
+      "묵직하다 沉甸甸的 · 앞치마 圍裙 · 목록 清單。"
+     ],
+     [
+      "glossline",
+      1,
+      "2면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "1면과 2면의 숫자와 날짜로 답하세요."
+     ]
+    ]
+   },
+   "content34.py": {
+    "total": 26,
+    "calls": [
+     [
+      "gloss",
+      4,
+      "기관 機構 · 기준 標準 · 관측 觀測 · 구간별 按路段。"
+     ],
+     [
+      "gloss",
+      3,
+      "현장 現場 · 유명하다 有名 · 맛보다 品嚐。"
+     ],
+     [
+      "gloss",
+      3,
+      "이용하다 利用 · 막히다 堵塞 · 예의 禮儀。"
+     ],
+     [
+      "gloss",
+      3,
+      "겹쳐 입다 疊穿 · 미끄러지다 打滑 · 돌 石頭。"
+     ],
+     [
+      "glossline",
+      1,
+      "3면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "3면의 숫자와 날짜로 답하세요."
+     ],
+     [
+      "gloss",
+      4,
+      "연승 連勝 · 만루홈런 滿壘本壘打 · 미뤄지다 推遲 · 마감하다 截稿。"
+     ],
+     [
+      "gloss",
+      2,
+      "흔들다 揮動 · 하나가 되다 融為一體。"
+     ],
+     [
+      "gloss",
+      1,
+      "예상 預測。"
+     ],
+     [
+      "glossline",
+      1,
+      "4면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "문장을 과거형으로 바꾸세요. (바꾼 문장은 모두 이 신문에 나온 일이에요"
+     ]
+    ]
+   },
+   "content56.py": {
+    "total": 28,
+    "calls": [
+     [
+      "gloss",
+      3,
+      "정리 整理、複習 · 끈끈하다 粘粘的 · 합격 合格。"
+     ],
+     [
+      "gloss",
+      3,
+      "중점 重點 · 배치하다 部署 · 통제하다 管制。"
+     ],
+     [
+      "gloss",
+      3,
+      "챙기다 準備好 · 졸리다 犯睏 · 평소 平時。"
+     ],
+     [
+      "gloss",
+      3,
+      "비다 祈願 · 피하다 避開 · 미끄럽다 滑。"
+     ],
+     [
+      "glossline",
+      1,
+      "5면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "5면의 숫자로 답하세요."
+     ],
+     [
+      "glossline",
+      1,
+      "말을 바른 순서로 놓아 문장을 만드세요."
+     ],
+     [
+      "gloss",
+      3,
+      "짙어지다 變濃 · 규모 規模 · 섞다 混淆。"
+     ],
+     [
+      "gloss",
+      2,
+      "겁이 나다 害怕 · 중요하다 重要。"
+     ],
+     [
+      "gloss",
+      3,
+      "예정 預定 · 확정 確定 · 믿다 相信。"
+     ],
+     [
+      "glossline",
+      1,
+      "6면의 표를 보고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "6면의 글을 읽고 맞는 답을 고르세요."
+     ],
+     [
+      "glossline",
+      1,
+      "빈칸에 알맞은 말을 넣으세요."
+     ],
+     [
+      "glossline",
+      1,
+      "문장이 맞으면 맞다, 틀리면 틀리다를 고르세요."
+     ]
+    ]
+   },
+   "content7.py": {
+    "total": 6,
+    "calls": [
+     [
+      "glossline",
+      2,
+      "본격적 正式、全面 · 나다 度過。"
+     ],
+     [
+      "glossline",
+      2,
+      "남다 剩下 · 바로 正是、恰恰。"
+     ],
+     [
+      "glossline",
+      2,
+      "짐작하다 推測 · 나누다 區分。"
+     ]
+    ]
+   },
+   "content8.py": {
+    "total": 0,
+    "calls": []
+   }
+  }
+ },
+ "golden": [
+  {
+   "quote": "11월 7일은 입동이에요",
+   "tag": 1,
+   "core_insensitive": 5,
+   "ed_insensitive": 5,
+   "core_sensitive": 5,
+   "ed_sensitive": 5,
+   "tagged_page_count": 3
+  },
+  {
+   "quote": "절정에 가까운 주말이라고만 말할 수 있어요",
+   "tag": 1,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 1,
+   "ed_sensitive": 1,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "김장은 겨울 내내 먹는 김치를 담그는 일이에요",
+   "tag": 1,
+   "core_insensitive": 4,
+   "ed_insensitive": 4,
+   "core_sensitive": 1,
+   "ed_sensitive": 1,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "수능까지 17일 남았어요. 오늘이 D-17예요",
+   "tag": 2,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 2,
+   "ed_sensitive": 2,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "낮은 길은 더 늦게 물들어요",
+   "tag": 3,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 2,
+   "ed_sensitive": 2,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요",
+   "tag": 4,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 1,
+   "ed_sensitive": 1,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "온 나라가 수험생을 응원해요",
+   "tag": 5,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 1,
+   "ed_sensitive": 1,
+   "tagged_page_count": 1
+  },
+  {
+   "quote": "날짜를 먼저 보세요",
+   "tag": 6,
+   "core_insensitive": 2,
+   "ed_insensitive": 2,
+   "core_sensitive": 1,
+   "ed_sensitive": 1,
+   "tagged_page_count": 1
+  }
+ ],
+ "readers": {
+  "editor_example": true,
+  "no_real_letters": true,
+  "no_best_p8": true,
+  "deferred_vol3": true,
+  "solicitation": true,
+  "solicitation_without_bang": true
+ },
+ "p7_texts_ordered": [
+  "말 공부 · 語言",
+  "Lucerna",
+  "언어 포커스 · 세 가지 레벨, 세 가지 주제 · 三個級別，三個主題",
+  "A2 · 입동의 말",
+  "겨울이 시작되는 절기를 '입동'이라고 해요.",
+  "입동이 지나면 겨울 준비가 본격적으로",
+  "시작돼요. 겨울 내내 먹는 김치를 담그는 일을",
+  "'김장'이라고 해요.",
+  "겨울을 나기 위한 준비를 '월동 준비'라고 해요.",
+  "두꺼운 이불, 난방, 겨울옷이 월동 준비예요.",
+  "입동, 김장, 월동 준비 — 세 말이 이번 주의",
+  "겨울을 말해요.",
+  "본격적 正式、全面 · 나다 度過。",
+  "A2",
+  "101.",
+  "填空",
+  "11월 7일은 ___이에요.",
+  "A2",
+  "102.",
+  "'김장'은 무슨 뜻이에요? A. 겨울 김치를 담그는",
+  "일 · B. 사과 축제 · C. 야구 경기",
+  "A2",
+  "103.",
+  "填空",
+  "두꺼운 이불을 꺼내는 것은 ___ 준비예요.",
+  "A2",
+  "104.",
+  "'절기'는 무슨 뜻이에요? A. 일 년의 24개 시점 ·",
+  "B. 김치 이름 · C. 산 이름",
+  "B1 · 날짜 세는 말",
+  "한국에서는 중요한 날까지 남은 날짜를",
+  "'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월",
+  "19일이니까 오늘이 D-17예요. 토요일 11월",
+  "7일은 D-12예요.",
+  "내일이 바로 그날이면 D-1, 오늘이 바로",
+  "그날이면 D-데이예요. 달력에서 날짜를 셀 때",
+  "자주 쓰는 말이에요.",
+  "남다 剩下 · 바로 正是、恰恰。",
+  "B1",
+  "105.",
+  "填空",
+  "수능까지 12일이 남았어요. 오늘이 ___예요.",
+  "B1",
+  "106.",
+  "D-1은 무슨 뜻이에요? A. 어제 · B. 내일 · C. 오늘",
+  "B1",
+  "107.",
+  "填空",
+  "11월 2일은 D-___예요.",
+  "B1",
+  "108.",
+  "맞는 말은 어느 것이에요? A. D-데이는 바로",
+  "그날이에요 · B. D-12는 12일이 지났어요 · C.",
+  "D-1은 일주일 전이에요",
+  "B2 · 예보 읽는 법",
+  "예보를 읽을 때는 날짜와 함께 '기준'을 봐야",
+  "해요. 산림청은 잎의 50%, 공단은 산 전체의 약",
+  "80%를 절정의 기준으로 해요. 기준이 다르면",
+  "날짜도 달라져요.",
+  "그리고 '예상'과 '관측'도 나눠야 해요. 예상은",
+  "미리 짐작한 날짜, 관측은 실제로 본 날짜예요.",
+  "설악산 실제 관측은 10월 16일이었어요. (3면)",
+  "짐작하다 推測 · 나누다 區分。",
+  "B2",
+  "109.",
+  "填空",
+  "두 날짜가 다른 이유는 ___이 다르기",
+  "때문이에요.",
+  "B2",
+  "110.",
+  "산림청의 절정 기준은 뭐예요? A. 잎의 50% · B.",
+  "산 전체의 80% · C. 첫눈이 오는 날",
+  "B2",
+  "111.",
+  "填空",
+  "설악산 실제 ___은 10월 16일이었어요.",
+  "B2",
+  "112.",
+  "예보를 읽을 때 먼저 볼 것은 뭐예요? A. 날짜만 ·",
+  "B. 기준과 날짜 · C. 사진",
+  "실수 병원 · 易錯診所",
+  "「학교를 갔어요」",
+  "→ '가다' 앞에서는 '에'예요: '학교에 갔어요'.",
+  "去某地用「에」，不用「를」。",
+  "「김치를 담궜어요」",
+  "→ '담그다'의 과거형은 '담갔어요'예요.",
+  "「담그다」的過去式是「담갔어요」。",
+  "「수능까지12일 남았어요」",
+  "→ 숫자는 띄어 써요: '수능까지",
+  "12일 남았어요'.",
+  "數字與前面要留空格。",
+  "「서울에에서 만났어요」",
+  "→ 조사는 하나만 써요: '서울에서 만났어요'.",
+  "助詞只用一個。",
+  "이번 주의 틀 · 本週句式",
+  "「〜부터 〜까지」 — '11월 1일부터 12월",
+  "15일까지 산불조심기간이에요.' 기간을",
+  "말할 때 쓰는 틀이에요. 물어볼 때는",
+  "'〜부터 〜까지예요?'라고 해요.",
+  "句式拆解：「從〜到〜」。提問：「〜부터",
+  "〜까지예요?」",
+  "독자의 편지 · 讀者園地",
+  "「안녕하세요. 저는 대학생이에요.",
+  "토요일에는 내장산에 단풍을 보러 가요.",
+  "일요일에는 집에서 김장을 도와요. 겨울이",
+  "와도 따뜻하게 지내고 싶어요.」 — 독자",
+  "편지의 예",
+  "編輯部範例信，非真實來信。",
+  "알려요: 이 편지는 편집부가 쓴 예예요. 마감",
+  "때까지 진짜 독자 편지와 8면 쓰기 우수작이",
+  "도착하지 않았어요. 그래서 예가 실렸고,",
+  "지난 호의 약속은 VOL.3으로 이어져요.",
+  "鄭重說明：截至截稿時，未收到真實讀者來",
+  "信與第 8 版優秀作文，因此仍刊範例，上期",
+  "承諾順延至 VOL.3。請把你的來信和第 8",
+  "版作文寄給我們！",
+  "이번 주의 문장 · 本週金句（逐字摘自本期文章）",
+  "「11월 7일은 입동이에요」",
+  "11 月 7 日是立冬。 (1면)",
+  "「절정에 가까운 주말이라고만 말할 수 있어요」",
+  "只能說是接近峰值的週末。 (1면)",
+  "「김장은 겨울 내내 먹는 김치를 담그는 일이에요」",
+  "泡菜季就是醃過冬泡菜。 (1면)",
+  "「수능까지 17일 남았어요. 오늘이 D-17예요」",
+  "離高考還剩 17 天，今天是 D-17。 (2면)",
+  "「낮은 길은 더 늦게 물들어요」",
+  "低處的路紅得更晚。 (3면)",
+  "「KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요」",
+  "KIA 虎三連勝戰勝 LG 雙子。 (4면)",
+  "「온 나라가 수험생을 응원해요」",
+  "全國都在為考生加油。 (5면)",
+  "「날짜를 먼저 보세요」",
+  "先看日期。 (6면)",
+  "다음 주 · 下期預告 (VOL.3)",
+  "다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험이 가까워져요. 플레이오프와 한국시리즈 소식도 전해요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!",
+  "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文",
+  "第 7 版 / 共 8 版"
+ ],
+ "furniture_p1": {
+  "core": {
+   "badge": [],
+   "subtitle_y": [
+    372.0
+   ],
+   "footer": [
+    "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+   ],
+   "rule_lines": [
+    112.0,
+    392.0,
+    401.0,
+    856.8
+   ],
+   "band_rects": [
+    [
+     65.0,
+     424.0
+    ]
+   ]
+  },
+  "w43": {
+   "badge": [
+    [
+     "韓語正文 · 繁體中文講解 — 給繁體中文讀者的版本",
+     20.0,
+     "#a4553a",
+     true,
+     975.0,
+     394.0
+    ]
+   ],
+   "subtitle_y": [
+    366.0
+   ],
+   "footer": [
+    "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+   ],
+   "rule_lines": [
+    112.0,
+    412.0,
+    421.0,
+    1566.395
+   ],
+   "band_rects": [
+    [
+     65.0,
+     433.0
+    ]
+   ]
+  },
+  "edition": {
+   "badge": [
+    [
+     "韓語正文 · 繁體中文講解 — 給繁體中文讀者的版本",
+     20.0,
+     "#a4553a",
+     true,
+     975.0,
+     394.0
+    ]
+   ],
+   "subtitle_y": [
+    366.0
+   ],
+   "footer": [
+    "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+   ],
+   "rule_lines": [
+    112.0,
+    412.0,
+    421.0,
+    856.8
+   ],
+   "band_rects": [
+    [
+     65.0,
+     433.0
+    ]
+   ]
+  }
+ },
+ "furniture_pages": {
+  "p1-pyoji": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 1 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR",
+     "UnifrakturMaguntia"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 1 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC",
+     "UnifrakturMaguntia"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 1 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC",
+     "UnifrakturMaguntia"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p2-saenghwal": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 2 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 2 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 2 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p3-munhwa": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 3 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 3 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 3 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p4-seupocheu": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 4 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 4 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 4 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p5-cheongnyeon": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 5 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 5 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 5 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p6-gipi": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 6 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": true
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 6 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 6 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": true
+   }
+  },
+  "p7-mal": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 7 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": false
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 7 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": false
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 7 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": false
+   }
+  },
+  "p8-siheom": {
+   "core": {
+    "footer": [
+     "Lucerna · 韩语周报 VOL.2 · LUCERNA KOREAN WEEKLY"
+    ],
+    "pageline": [
+     "제 8 면 / 총 8 면"
+    ],
+    "fonts": [
+     "Noto Sans CJK KR",
+     "Noto Serif CJK KR"
+    ],
+    "gloss_prefix": false
+   },
+   "w43": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.1 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 8 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": false
+   },
+   "edition": {
+    "footer": [
+     "Lucerna · 韓語週報 VOL.2 · 正文韓語 · 講解繁體中文"
+    ],
+    "pageline": [
+     "第 8 版 / 共 8 版"
+    ],
+    "fonts": [
+     "Noto Sans CJK TC",
+     "Noto Serif CJK TC"
+    ],
+    "gloss_prefix": false
+   }
+  }
+ },
+ "p8_furniture": {
+  "core": {
+   "head_left": [
+    "답 · 参考答案 — 按版面分页排列，找到题号即可"
+   ],
+   "head_right": [
+    "每题附一句中文简析 · 带 ✓ 的为范文题"
+   ],
+   "seps": [
+    "— 제1면 —",
+    "— 제2면 —",
+    "— 제3면 —",
+    "— 제4면 —",
+    "— 제5면 —",
+    "— 제6면 —",
+    "— 제7면 —",
+    "— 제8면 —"
+   ]
+  },
+  "w43": {
+   "head_left": [
+    "답 · 全部答案與簡析（第 1–8 版）"
+   ],
+   "head_right": [
+    "每題附一句中文簡析 · 帶 ✓ 的為範本題"
+   ],
+   "seps": [
+    "— 第 1 版 —",
+    "— 第 2 版 —",
+    "— 第 3 版 —",
+    "— 第 4 版 —",
+    "— 第 5 版 —",
+    "— 第 6 版 —",
+    "— 第 7 版 —",
+    "— 第 8 版 —"
+   ]
+  },
+  "edition": {
+   "head_left": [
+    "답 · 全部答案與簡析（第 1–8 版）"
+   ],
+   "head_right": [
+    "每題附一句中文簡析 · 帶 ✓ 的為範本題"
+   ],
+   "seps": [
+    "— 第 1 版 —",
+    "— 第 2 版 —",
+    "— 第 3 版 —",
+    "— 第 4 版 —",
+    "— 第 5 版 —",
+    "— 第 6 版 —",
+    "— 第 7 版 —",
+    "— 第 8 版 —"
+   ]
+  }
+ },
+ "edition_size36_texts": {
+  "p1-pyoji": [
+   "11월 7일은 입동이에요 — 겨울의 시작, 단풍의 끝"
+  ],
+  "p2-saenghwal": [
+   "생활 · 生活",
+   "Lucerna"
+  ],
+  "p3-munhwa": [
+   "문화 · 文化",
+   "Lucerna"
+  ],
+  "p4-seupocheu": [
+   "스포츠 · 體育",
+   "Lucerna"
+  ],
+  "p5-cheongnyeon": [
+   "청년 · 青年",
+   "Lucerna"
+  ],
+  "p6-gipi": [
+   "깊이 읽기 · 深讀",
+   "Lucerna"
+  ],
+  "p7-mal": [
+   "말 공부 · 語言",
+   "Lucerna"
+  ],
+  "p8-siheom": [
+   "시험과 답 · 測驗與答案",
+   "Lucerna"
+  ]
+ },
+ "images": {
+  "p1-pyoji": {
+   "core_n": 1,
+   "ed_n": 1,
+   "equal": true,
+   "hashes_ed": [
+    {
+     "b64_sha": "535fff46b7cef2237589a156495a8ef9e805b4fa683289d55da6448aff4cec23",
+     "jpeg_sha": "6f7f33ed8f40f3c07c3f30a914a369c5986ea62d0fa33286d3d20d46e88f0388"
+    }
+   ],
+   "credits_core": [
+    "사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "credits_ed": [
+    "사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "ed_caption_texts": [
+    "자료: 국사편찬위원회 공지 (10월 19일)",
+    "가을 산골짜기의 단풍. (홋카이도 핫코다산 자료 사진) 한국의 단풍 이야기는 3면에 있어요.",
+    "사진: lumoplank — CC0 (Wikimedia Commons) · 자료 사진"
+   ]
+  },
+  "p2-saenghwal": {
+   "core_n": 1,
+   "ed_n": 1,
+   "equal": true,
+   "hashes_ed": [
+    {
+     "b64_sha": "e66d2b455ec68fd10e8f7a7fa28e9323d3b4ee52c57b92336b9f9177fcd3614b",
+     "jpeg_sha": "96a6a19b612a4b284956e9b99a4aa65c8ede7e18b7d040f8fb645165f14173bc"
+    }
+   ],
+   "credits_core": [
+    "사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "credits_ed": [
+    "사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "ed_caption_texts": [
+    "사진이 아니에요.",
+    "사진: wizdata — CC0 (Wikimedia Commons) · 자료 사진"
+   ]
+  },
+  "p3-munhwa": {
+   "core_n": 2,
+   "ed_n": 2,
+   "equal": true,
+   "hashes_ed": [
+    {
+     "b64_sha": "e266b6ee1a87086487c142a8eded5565bbe2b112c53632c8a638db6f9c573c2d",
+     "jpeg_sha": "158ea3a0e81f041d71bb9a29614b14d9a0cd84451c98fda3a2b0302cbb3e791b"
+    },
+    {
+     "b64_sha": "5bea45d1f81e0716ea1d0d08693d3fb6df61a69442db5e6334c7c28787b8a7d2",
+     "jpeg_sha": "214cc390ac7cbcb05b0ce3edbcc01ccb365ad8114ad9bb8dcb68fc03981ebf56"
+    }
+   ],
+   "credits_core": [
+    "사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료 사진",
+    "그림: Paul Cézanne — Public domain (Wikimedia"
+   ],
+   "credits_ed": [
+    "사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료",
+    "그림: Paul Cézanne — Public domain (Wikimedia"
+   ],
+   "ed_caption_texts": [
+    "사진: Udonhan1992 — CC0 (Wikimedia Commons) · 자료",
+    "사진"
+   ]
+  },
+  "p4-seupocheu": {
+   "core_n": 1,
+   "ed_n": 1,
+   "equal": true,
+   "hashes_ed": [
+    {
+     "b64_sha": "1a7e7d6d5ffcede7632a1905a69b8e4893d965000e5e371cbf467920b2c946e3",
+     "jpeg_sha": "18ad8ae06fac2860d2c03323efd7ad5736de8597e1540058e830ccd35bad1009"
+    }
+   ],
+   "credits_core": [
+    "사진: Bain News Service — Public domain (Wikimedia"
+   ],
+   "credits_ed": [
+    "사진: Bain News Service — Public domain (Wikimedia"
+   ],
+   "ed_caption_texts": [
+    "사진: Bain News Service — Public domain (Wikimedia"
+   ]
+  },
+  "p5-cheongnyeon": {
+   "core_n": 1,
+   "ed_n": 1,
+   "equal": true,
+   "hashes_ed": [
+    {
+     "b64_sha": "6a1bab177d540192c4ac194e8f0d5ec160331304649991c3d80e9fd743c229f3",
+     "jpeg_sha": "35e7dc69d41784917d91feaf830d8c5703fb650e0005ad531fbe68332687e6e5"
+    }
+   ],
+   "credits_core": [
+    "사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "credits_ed": [
+    "사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진"
+   ],
+   "ed_caption_texts": [
+    "사진: Gary Todd — CC0 (Wikimedia Commons) · 자료 사진"
+   ]
+  },
+  "p6-gipi": {
+   "core_n": 0,
+   "ed_n": 0,
+   "equal": true,
+   "hashes_ed": [],
+   "credits_core": [],
+   "credits_ed": [],
+   "ed_caption_texts": [
+    "표의 자료: 교육부 발표 (10월 20일) — 조치는 11월 19일에만 적용돼요. 이번 주에는 특별 조치가 없어요."
+   ]
+  },
+  "p7-mal": {
+   "core_n": 0,
+   "ed_n": 0,
+   "equal": true,
+   "hashes_ed": [],
+   "credits_core": [],
+   "credits_ed": [],
+   "ed_caption_texts": [
+    "B. 기준과 날짜 · C. 사진"
+   ]
+  },
+  "p8-siheom": {
+   "core_n": 0,
+   "ed_n": 0,
+   "equal": true,
+   "hashes_ed": [],
+   "credits_core": [],
+   "credits_ed": [],
+   "ed_caption_texts": []
+  }
+ },
+ "quotes_balance": {
+  "p1-pyoji": {
+   "open": 1,
+   "close": 1,
+   "ascii_dquote": 0
+  },
+  "p2-saenghwal": {
+   "open": 1,
+   "close": 1,
+   "ascii_dquote": 0
+  },
+  "p3-munhwa": {
+   "open": 0,
+   "close": 0,
+   "ascii_dquote": 0
+  },
+  "p4-seupocheu": {
+   "open": 0,
+   "close": 0,
+   "ascii_dquote": 0
+  },
+  "p5-cheongnyeon": {
+   "open": 0,
+   "close": 0,
+   "ascii_dquote": 0
+  },
+  "p6-gipi": {
+   "open": 0,
+   "close": 0,
+   "ascii_dquote": 0
+  },
+  "p7-mal": {
+   "open": 20,
+   "close": 20,
+   "ascii_dquote": 0
+  },
+  "p8-siheom": {
+   "open": 2,
+   "close": 2,
+   "ascii_dquote": 0
+  }
+ },
+ "han_sets": {
+  "edition": [
+   "一",
+   "三",
+   "上",
+   "下",
+   "不",
+   "中",
+   "主",
+   "之",
+   "事",
+   "五",
+   "人",
+   "什",
+   "今",
+   "仍",
+   "以",
+   "件",
+   "佈",
+   "低",
+   "作",
+   "你",
+   "佳",
+   "來",
+   "例",
+   "供",
+   "信",
+   "個",
+   "們",
+   "倒",
+   "候",
+   "值",
+   "做",
+   "備",
+   "傳",
+   "儀",
+   "優",
+   "元",
+   "先",
+   "入",
+   "內",
+   "全",
+   "兩",
+   "公",
+   "六",
+   "共",
+   "典",
+   "冬",
+   "出",
+   "分",
+   "刊",
+   "別",
+   "利",
+   "到",
+   "制",
+   "前",
+   "剩",
+   "副",
+   "力",
+   "加",
+   "助",
+   "動",
+   "勝",
+   "勻",
+   "化",
+   "區",
+   "即",
+   "去",
+   "受",
+   "口",
+   "句",
+   "只",
+   "叫",
+   "可",
+   "史",
+   "合",
+   "同",
+   "名",
+   "告",
+   "呢",
+   "和",
+   "品",
+   "員",
+   "哪",
+   "問",
+   "喜",
+   "單",
+   "嚐",
+   "四",
+   "因",
+   "國",
+   "圍",
+   "園",
+   "團",
+   "土",
+   "在",
+   "地",
+   "報",
+   "場",
+   "堵",
+   "塞",
+   "填",
+   "壘",
+   "夕",
+   "大",
+   "天",
+   "好",
+   "始",
+   "子",
+   "字",
+   "季",
+   "學",
+   "安",
+   "官",
+   "定",
+   "室",
+   "害",
+   "寄",
+   "實",
+   "寫",
+   "對",
+   "小",
+   "就",
+   "山",
+   "峰",
+   "嶽",
+   "己",
+   "帶",
+   "幫",
+   "平",
+   "年",
+   "序",
+   "度",
+   "座",
+   "廳",
+   "延",
+   "式",
+   "往",
+   "後",
+   "得",
+   "從",
+   "心",
+   "忙",
+   "快",
+   "怕",
+   "息",
+   "恰",
+   "想",
+   "意",
+   "慶",
+   "懷",
+   "我",
+   "截",
+   "戰",
+   "所",
+   "打",
+   "找",
+   "承",
+   "把",
+   "拆",
+   "拌",
+   "拏",
+   "按",
+   "排",
+   "接",
+   "推",
+   "措",
+   "提",
+   "揮",
+   "摘",
+   "收",
+   "改",
+   "敏",
+   "整",
+   "數",
+   "文",
+   "料",
+   "方",
+   "於",
+   "施",
+   "旋",
+   "日",
+   "早",
+   "明",
+   "易",
+   "星",
+   "是",
+   "時",
+   "晉",
+   "晚",
+   "智",
+   "暖",
+   "更",
+   "最",
+   "月",
+   "有",
+   "期",
+   "未",
+   "末",
+   "本",
+   "松",
+   "析",
+   "林",
+   "果",
+   "架",
+   "某",
+   "格",
+   "案",
+   "桌",
+   "條",
+   "梨",
+   "棒",
+   "業",
+   "構",
+   "標",
+   "模",
+   "機",
+   "款",
+   "歡",
+   "正",
+   "此",
+   "段",
+   "每",
+   "比",
+   "毫",
+   "氛",
+   "氣",
+   "汽",
+   "沉",
+   "沒",
+   "油",
+   "法",
+   "泡",
+   "注",
+   "泰",
+   "活",
+   "消",
+   "淆",
+   "深",
+   "混",
+   "清",
+   "測",
+   "準",
+   "溫",
+   "滑",
+   "滿",
+   "漢",
+   "濃",
+   "火",
+   "為",
+   "照",
+   "爾",
+   "版",
+   "特",
+   "犯",
+   "班",
+   "現",
+   "球",
+   "理",
+   "生",
+   "用",
+   "甸",
+   "留",
+   "當",
+   "疊",
+   "登",
+   "白",
+   "的",
+   "盛",
+   "目",
+   "相",
+   "看",
+   "真",
+   "睏",
+   "石",
+   "確",
+   "示",
+   "祈",
+   "禮",
+   "秀",
+   "秋",
+   "稱",
+   "稿",
+   "空",
+   "穿",
+   "窗",
+   "立",
+   "章",
+   "第",
+   "等",
+   "答",
+   "管",
+   "節",
+   "範",
+   "簡",
+   "米",
+   "粘",
+   "糕",
+   "糖",
+   "糯",
+   "紅",
+   "紙",
+   "級",
+   "給",
+   "編",
+   "練",
+   "繁",
+   "繼",
+   "續",
+   "罰",
+   "署",
+   "美",
+   "義",
+   "習",
+   "翻",
+   "考",
+   "者",
+   "聖",
+   "聞",
+   "聽",
+   "育",
+   "能",
+   "脆",
+   "自",
+   "至",
+   "與",
+   "舉",
+   "舊",
+   "菜",
+   "萬",
+   "葉",
+   "著",
+   "蒸",
+   "蔔",
+   "藏",
+   "蘋",
+   "蘿",
+   "虎",
+   "處",
+   "號",
+   "融",
+   "蠶",
+   "行",
+   "表",
+   "裙",
+   "複",
+   "要",
+   "見",
+   "規",
+   "觀",
+   "角",
+   "解",
+   "言",
+   "計",
+   "訊",
+   "診",
+   "詞",
+   "試",
+   "語",
+   "說",
+   "調",
+   "請",
+   "諾",
+   "講",
+   "譯",
+   "讀",
+   "變",
+   "費",
+   "賓",
+   "賞",
+   "賽",
+   "贈",
+   "起",
+   "跨",
+   "路",
+   "輯",
+   "近",
+   "送",
+   "逐",
+   "這",
+   "通",
+   "造",
+   "連",
+   "週",
+   "進",
+   "過",
+   "適",
+   "遲",
+   "選",
+   "避",
+   "還",
+   "部",
+   "都",
+   "鄭",
+   "配",
+   "醃",
+   "釋",
+   "重",
+   "金",
+   "錄",
+   "錯",
+   "閃",
+   "開",
+   "間",
+   "關",
+   "附",
+   "降",
+   "院",
+   "陸",
+   "隊",
+   "際",
+   "雙",
+   "離",
+   "雨",
+   "雪",
+   "電",
+   "青",
+   "非",
+   "面",
+   "韓",
+   "順",
+   "預",
+   "頭",
+   "題",
+   "額",
+   "願",
+   "顯",
+   "風",
+   "颱",
+   "飛",
+   "飴",
+   "餐",
+   "餘",
+   "首",
+   "驗",
+   "骨",
+   "體",
+   "高",
+   "鹽",
+   "麼",
+   "點"
+  ],
+  "w43": [
+   "一",
+   "三",
+   "上",
+   "下",
+   "不",
+   "中",
+   "主",
+   "之",
+   "也",
+   "了",
+   "五",
+   "人",
+   "什",
+   "今",
+   "代",
+   "以",
+   "份",
+   "伊",
+   "佈",
+   "位",
+   "作",
+   "你",
+   "佳",
+   "來",
+   "例",
+   "俊",
+   "信",
+   "個",
+   "倒",
+   "候",
+   "傍",
+   "備",
+   "先",
+   "免",
+   "內",
+   "全",
+   "兩",
+   "公",
+   "六",
+   "共",
+   "典",
+   "再",
+   "出",
+   "分",
+   "刊",
+   "判",
+   "別",
+   "到",
+   "前",
+   "剩",
+   "劇",
+   "力",
+   "加",
+   "動",
+   "務",
+   "勝",
+   "勢",
+   "化",
+   "北",
+   "區",
+   "升",
+   "午",
+   "南",
+   "卡",
+   "即",
+   "去",
+   "參",
+   "取",
+   "受",
+   "句",
+   "叫",
+   "可",
+   "台",
+   "司",
+   "吃",
+   "合",
+   "吉",
+   "同",
+   "名",
+   "向",
+   "告",
+   "呢",
+   "和",
+   "哇",
+   "問",
+   "喜",
+   "單",
+   "四",
+   "回",
+   "因",
+   "圈",
+   "國",
+   "園",
+   "圖",
+   "在",
+   "地",
+   "圾",
+   "垃",
+   "埋",
+   "域",
+   "報",
+   "場",
+   "填",
+   "壓",
+   "外",
+   "夜",
+   "大",
+   "天",
+   "好",
+   "始",
+   "子",
+   "字",
+   "季",
+   "學",
+   "家",
+   "寄",
+   "實",
+   "寫",
+   "寮",
+   "將",
+   "專",
+   "尋",
+   "對",
+   "小",
+   "就",
+   "屆",
+   "屋",
+   "山",
+   "峰",
+   "島",
+   "嶽",
+   "巔",
+   "州",
+   "己",
+   "布",
+   "帕",
+   "帶",
+   "常",
+   "年",
+   "幾",
+   "序",
+   "府",
+   "座",
+   "廳",
+   "式",
+   "張",
+   "強",
+   "影",
+   "往",
+   "後",
+   "徑",
+   "從",
+   "必",
+   "快",
+   "息",
+   "恰",
+   "想",
+   "愛",
+   "慰",
+   "慶",
+   "應",
+   "成",
+   "我",
+   "或",
+   "戶",
+   "所",
+   "手",
+   "打",
+   "找",
+   "把",
+   "抓",
+   "拆",
+   "持",
+   "按",
+   "排",
+   "接",
+   "掩",
+   "提",
+   "援",
+   "搖",
+   "搜",
+   "搬",
+   "摘",
+   "擊",
+   "支",
+   "收",
+   "改",
+   "政",
+   "敗",
+   "教",
+   "整",
+   "數",
+   "文",
+   "斗",
+   "料",
+   "新",
+   "斷",
+   "方",
+   "於",
+   "日",
+   "早",
+   "明",
+   "易",
+   "星",
+   "是",
+   "時",
+   "晃",
+   "晚",
+   "晨",
+   "智",
+   "曲",
+   "更",
+   "曾",
+   "最",
+   "會",
+   "月",
+   "有",
+   "期",
+   "末",
+   "本",
+   "松",
+   "析",
+   "林",
+   "果",
+   "某",
+   "染",
+   "查",
+   "格",
+   "案",
+   "條",
+   "棒",
+   "標",
+   "樹",
+   "機",
+   "檢",
+   "次",
+   "歌",
+   "正",
+   "步",
+   "歸",
+   "段",
+   "每",
+   "比",
+   "民",
+   "氣",
+   "水",
+   "沒",
+   "油",
+   "法",
+   "注",
+   "活",
+   "海",
+   "消",
+   "深",
+   "混",
+   "清",
+   "測",
+   "準",
+   "滿",
+   "濟",
+   "為",
+   "烈",
+   "然",
+   "照",
+   "熱",
+   "爾",
+   "版",
+   "牢",
+   "獅",
+   "獨",
+   "獲",
+   "班",
+   "現",
+   "球",
+   "生",
+   "用",
+   "留",
+   "畫",
+   "異",
+   "當",
+   "登",
+   "發",
+   "百",
+   "的",
+   "盆",
+   "盛",
+   "目",
+   "看",
+   "真",
+   "眾",
+   "確",
+   "示",
+   "秋",
+   "秒",
+   "移",
+   "種",
+   "空",
+   "窗",
+   "章",
+   "第",
+   "等",
+   "答",
+   "算",
+   "節",
+   "範",
+   "簡",
+   "米",
+   "約",
+   "紅",
+   "紙",
+   "級",
+   "累",
+   "細",
+   "結",
+   "給",
+   "統",
+   "緊",
+   "線",
+   "編",
+   "練",
+   "繁",
+   "美",
+   "義",
+   "習",
+   "翻",
+   "考",
+   "者",
+   "聽",
+   "育",
+   "能",
+   "臨",
+   "自",
+   "與",
+   "舉",
+   "色",
+   "芒",
+   "花",
+   "若",
+   "草",
+   "萬",
+   "落",
+   "葉",
+   "著",
+   "藉",
+   "蘋",
+   "處",
+   "號",
+   "行",
+   "表",
+   "被",
+   "裡",
+   "要",
+   "見",
+   "觀",
+   "角",
+   "解",
+   "言",
+   "計",
+   "訊",
+   "許",
+   "訴",
+   "診",
+   "詞",
+   "試",
+   "詳",
+   "認",
+   "語",
+   "說",
+   "請",
+   "講",
+   "譯",
+   "讀",
+   "變",
+   "象",
+   "費",
+   "貼",
+   "資",
+   "賓",
+   "賽",
+   "走",
+   "起",
+   "超",
+   "趕",
+   "趨",
+   "跨",
+   "路",
+   "較",
+   "輯",
+   "辦",
+   "迄",
+   "近",
+   "迷",
+   "逐",
+   "這",
+   "通",
+   "速",
+   "造",
+   "週",
+   "進",
+   "過",
+   "遞",
+   "選",
+   "還",
+   "部",
+   "都",
+   "配",
+   "釋",
+   "重",
+   "量",
+   "金",
+   "銀",
+   "錄",
+   "錯",
+   "鐵",
+   "門",
+   "閃",
+   "開",
+   "間",
+   "關",
+   "附",
+   "降",
+   "限",
+   "陣",
+   "陸",
+   "陽",
+   "隊",
+   "離",
+   "雨",
+   "雪",
+   "電",
+   "需",
+   "青",
+   "非",
+   "靠",
+   "面",
+   "韓",
+   "音",
+   "響",
+   "預",
+   "領",
+   "頭",
+   "頻",
+   "題",
+   "願",
+   "風",
+   "颱",
+   "飛",
+   "首",
+   "驗",
+   "體",
+   "高",
+   "魚",
+   "麼",
+   "點"
+  ],
+  "core": [
+   "一",
+   "万",
+   "三",
+   "上",
+   "下",
+   "不",
+   "与",
+   "业",
+   "两",
+   "个",
+   "中",
+   "为",
+   "主",
+   "举",
+   "么",
+   "义",
+   "之",
+   "习",
+   "事",
+   "于",
+   "五",
+   "人",
+   "什",
+   "今",
+   "仍",
+   "从",
+   "以",
+   "仪",
+   "件",
+   "优",
+   "传",
+   "低",
+   "体",
+   "余",
+   "作",
+   "你",
+   "佳",
+   "例",
+   "供",
+   "信",
+   "倒",
+   "候",
+   "值",
+   "做",
+   "元",
+   "先",
+   "入",
+   "全",
+   "公",
+   "六",
+   "关",
+   "典",
+   "内",
+   "写",
+   "冬",
+   "决",
+   "准",
+   "出",
+   "分",
+   "刊",
+   "列",
+   "利",
+   "别",
+   "到",
+   "制",
+   "前",
+   "剩",
+   "副",
+   "力",
+   "加",
+   "动",
+   "助",
+   "匀",
+   "化",
+   "区",
+   "半",
+   "单",
+   "卜",
+   "即",
+   "厅",
+   "去",
+   "参",
+   "双",
+   "受",
+   "变",
+   "叠",
+   "口",
+   "句",
+   "只",
+   "叫",
+   "可",
+   "台",
+   "史",
+   "叶",
+   "号",
+   "合",
+   "同",
+   "名",
+   "后",
+   "听",
+   "告",
+   "员",
+   "呢",
+   "周",
+   "和",
+   "品",
+   "哪",
+   "喜",
+   "四",
+   "因",
+   "团",
+   "园",
+   "困",
+   "围",
+   "国",
+   "土",
+   "圣",
+   "在",
+   "地",
+   "场",
+   "垒",
+   "堵",
+   "塞",
+   "填",
+   "处",
+   "备",
+   "复",
+   "夕",
+   "大",
+   "天",
+   "头",
+   "好",
+   "始",
+   "子",
+   "字",
+   "季",
+   "学",
+   "安",
+   "官",
+   "定",
+   "实",
+   "室",
+   "害",
+   "宾",
+   "寄",
+   "对",
+   "小",
+   "尔",
+   "尝",
+   "就",
+   "山",
+   "岳",
+   "峰",
+   "己",
+   "布",
+   "带",
+   "帮",
+   "平",
+   "年",
+   "庆",
+   "序",
+   "度",
+   "座",
+   "延",
+   "开",
+   "式",
+   "当",
+   "录",
+   "往",
+   "得",
+   "心",
+   "忙",
+   "快",
+   "怀",
+   "怕",
+   "息",
+   "恰",
+   "想",
+   "意",
+   "愿",
+   "我",
+   "战",
+   "截",
+   "所",
+   "打",
+   "找",
+   "承",
+   "把",
+   "报",
+   "拆",
+   "拌",
+   "拿",
+   "按",
+   "挥",
+   "排",
+   "接",
+   "推",
+   "措",
+   "提",
+   "摘",
+   "收",
+   "改",
+   "敏",
+   "数",
+   "整",
+   "文",
+   "料",
+   "方",
+   "施",
+   "旋",
+   "日",
+   "旧",
+   "早",
+   "时",
+   "明",
+   "易",
+   "星",
+   "是",
+   "显",
+   "晋",
+   "晚",
+   "智",
+   "暖",
+   "更",
+   "最",
+   "月",
+   "有",
+   "期",
+   "未",
+   "末",
+   "本",
+   "机",
+   "条",
+   "来",
+   "松",
+   "构",
+   "析",
+   "林",
+   "果",
+   "架",
+   "某",
+   "标",
+   "格",
+   "案",
+   "桌",
+   "梨",
+   "棒",
+   "模",
+   "欢",
+   "款",
+   "正",
+   "此",
+   "段",
+   "每",
+   "比",
+   "毫",
+   "气",
+   "氛",
+   "汉",
+   "汽",
+   "沉",
+   "没",
+   "油",
+   "法",
+   "泡",
+   "注",
+   "泰",
+   "活",
+   "测",
+   "浓",
+   "消",
+   "淆",
+   "深",
+   "混",
+   "清",
+   "温",
+   "滑",
+   "满",
+   "火",
+   "点",
+   "照",
+   "版",
+   "特",
+   "犯",
+   "现",
+   "班",
+   "球",
+   "理",
+   "生",
+   "用",
+   "电",
+   "甸",
+   "留",
+   "登",
+   "白",
+   "的",
+   "盐",
+   "盛",
+   "目",
+   "相",
+   "看",
+   "真",
+   "着",
+   "石",
+   "确",
+   "示",
+   "礼",
+   "祈",
+   "离",
+   "秀",
+   "秋",
+   "称",
+   "稿",
+   "空",
+   "穿",
+   "窗",
+   "立",
+   "章",
+   "第",
+   "等",
+   "答",
+   "简",
+   "管",
+   "米",
+   "粘",
+   "糕",
+   "糖",
+   "糯",
+   "红",
+   "级",
+   "纸",
+   "练",
+   "给",
+   "继",
+   "续",
+   "编",
+   "罚",
+   "署",
+   "美",
+   "翻",
+   "考",
+   "者",
+   "育",
+   "胜",
+   "能",
+   "脆",
+   "腌",
+   "自",
+   "至",
+   "节",
+   "苹",
+   "范",
+   "菜",
+   "萝",
+   "蒸",
+   "藏",
+   "虎",
+   "蚕",
+   "融",
+   "行",
+   "表",
+   "裙",
+   "要",
+   "见",
+   "观",
+   "规",
+   "角",
+   "解",
+   "言",
+   "计",
+   "讯",
+   "诊",
+   "词",
+   "译",
+   "试",
+   "语",
+   "说",
+   "诺",
+   "读",
+   "调",
+   "费",
+   "赏",
+   "赛",
+   "赠",
+   "起",
+   "跨",
+   "路",
+   "辑",
+   "过",
+   "近",
+   "还",
+   "这",
+   "进",
+   "连",
+   "迟",
+   "送",
+   "适",
+   "选",
+   "逐",
+   "通",
+   "造",
+   "避",
+   "郑",
+   "部",
+   "都",
+   "配",
+   "释",
+   "重",
+   "金",
+   "错",
+   "闪",
+   "问",
+   "间",
+   "闻",
+   "队",
+   "附",
+   "际",
+   "陆",
+   "降",
+   "院",
+   "雨",
+   "雪",
+   "青",
+   "非",
+   "面",
+   "韩",
+   "页",
+   "顺",
+   "预",
+   "题",
+   "额",
+   "风",
+   "飞",
+   "餐",
+   "饴",
+   "首",
+   "验",
+   "骨",
+   "高"
+  ]
+ },
+ "han_counts": {
+  "edition": 439,
+  "w43": 454,
+  "core": 439
+ },
+ "edition_only_vs_w43": [
+  "事",
+  "仍",
+  "件",
+  "低",
+  "供",
+  "們",
+  "值",
+  "做",
+  "傳",
+  "儀",
+  "優",
+  "元",
+  "入",
+  "冬",
+  "利",
+  "制",
+  "副",
+  "助",
+  "勻",
+  "口",
+  "只",
+  "史",
+  "品",
+  "員",
+  "哪",
+  "嚐",
+  "圍",
+  "團",
+  "土",
+  "堵",
+  "塞",
+  "壘",
+  "夕",
+  "安",
+  "官",
+  "定",
+  "室",
+  "害",
+  "幫",
+  "平",
+  "度",
+  "延",
+  "得",
+  "心",
+  "忙",
+  "怕",
+  "意",
+  "懷",
+  "截",
+  "戰",
+  "承",
+  "拌",
+  "拏",
+  "推",
+  "措",
+  "揮",
+  "敏",
+  "施",
+  "旋",
+  "晉",
+  "暖",
+  "未",
+  "架",
+  "桌",
+  "梨",
+  "業",
+  "構",
+  "模",
+  "款",
+  "歡",
+  "此",
+  "毫",
+  "氛",
+  "汽",
+  "沉",
+  "泡",
+  "泰",
+  "淆",
+  "溫",
+  "滑",
+  "漢",
+  "濃",
+  "火",
+  "特",
+  "犯",
+  "理",
+  "甸",
+  "疊",
+  "白",
+  "相",
+  "睏",
+  "石",
+  "祈",
+  "禮",
+  "秀",
+  "稱",
+  "稿",
+  "穿",
+  "立",
+  "管",
+  "粘",
+  "糕",
+  "糖",
+  "糯",
+  "繼",
+  "續",
+  "罰",
+  "署",
+  "聖",
+  "聞",
+  "脆",
+  "至",
+  "舊",
+  "菜",
+  "蒸",
+  "蔔",
+  "藏",
+  "蘿",
+  "虎",
+  "融",
+  "蠶",
+  "裙",
+  "複",
+  "規",
+  "調",
+  "諾",
+  "賞",
+  "贈",
+  "送",
+  "連",
+  "適",
+  "遲",
+  "避",
+  "鄭",
+  "醃",
+  "院",
+  "際",
+  "雙",
+  "順",
+  "額",
+  "顯",
+  "飴",
+  "餐",
+  "餘",
+  "骨",
+  "鹽"
+ ],
+ "model": {
+  "core": {
+   "apparatus_idx": null,
+   "tail": []
+  },
+  "edition": {
+   "apparatus_idx": null,
+   "tail": []
+  }
+ },
+ "model_block": {
+  "core": {
+   "block": [
+    "예: 나의 겨울 준비는 김장부터 시작해요. 토요일에는 가족과 함께",
+    "배추를 절이고 양념을 버무려요. 일요일에는 두꺼운 이불을 꺼내고",
+    "겨울옷을 정리해요. 단풍이 진 뒤에는 산보다 집이 좋아져요. 따뜻한",
+    "국을 끓여 가족과 함께 먹어요. 겨울이 와도 마음은 따뜻해요. 준비를",
+    "마치면 마음이 놓여요. 저녁에는 가족과 함께 따뜻한 차를 마셔요.",
+    "겨울 준비가 끝나면 마음이 든든해져요.",
+    "답 · 参考答案 — 按版面分页排列，找到题号即可",
+    "每题附一句中文简析 · 带 ✓ 的为范文题",
+    "— 제1면 —",
+    "1. 7 — 立冬在11月7日周六",
+    "2. 김치 — 泡菜季＝腌过冬泡菜",
+    "3. 19 — 高考在11月19日周四",
+    "4. 17 — 11月2日是D-17",
+    "5. 상륙 — 台风没有在韩国本土登陆",
+    "6. 10 — 首尔报名窗口11月6日10–12点",
+    "7. A — 立冬＝冬季开始的节气",
+    "8. A — 内藏山两个预报：11月4日与11月11日",
+    "9. A — 泡菜季＝腌过冬泡菜",
+    "10. A — 10月25日首场比赛因雨推迟",
+    "— 제2면 —",
+    "11. A — 泡菜季＝腌过冬泡菜",
+    "12. A — 山火注意期从11月1日开始",
+    "13. A — 带火进山最高罚30万韩元",
+    "14. A — 韩史考试在11月28日周六",
+    "15. A — 首尔报名10点至12点",
+    "16. 배추 — 白菜用盐腌",
+    "17. 양념 — 加入萝卜和调料拌匀",
+    "18. 월동 — 过冬准备＝为冬天做准备",
+    "19. 조심 — 进山要小心火",
+    "20. 접수 — 11月3日起开始报名",
+    "21. 15 — 山火注意期到12月15日",
+    "22. 30만 — 最高罚款30万韩元",
+    "23. 27,000 — 深化考试费27,000韩元",
+    "24. 13 — 11月6日13点起全国报名剩余名额",
+    "25. a — 김장=腌过冬泡菜 a",
+    "26. c — 월동 준비=准备过冬 c",
+    "27. d — 산불조심=进山小心火 d",
+    "28. b — 한능검=韩国史考试简称 b",
+    "— 제3면 —",
+    "29. A — 内藏山林业厅预报峰值11月4日",
+    "30. B — 内藏山公园公团预报峰值11月11日",
+    "31. A — 雪岳山实际观测峰值10月16日",
+    "32. B — 青松现场庆典11月4日至8日",
+    "33. A — 没有官方的路段数值",
+    "34. 절정 — 红叶最美的时候叫절정",
+    "35. 기준 — 日期不同因为标准不同",
+    "36. 관측 — 实际观测比预报早",
+    "37. 현장 — 现场庆典11月4日起",
+    "38. 사과 — 青松以苹果闻名",
+    "39. 4 — 内藏山林业厅预报4日",
+    "40. 11 — 内藏山公团预报11日",
+    "41. 9 — 月出山林业厅预报9日",
+    "42. 16 — 雪岳山实际观测16日",
+    "43. b — 내장산=两个预报之间 b",
+    "44. a — 월출산=11月9日前夕 a",
+    "45. d — 북한산=11月4日之后、低路更晚 d",
+    "46. c — 설악산=实际观测10月16日 c",
+    "— 제4면 —",
+    "47. A — 半决赛胜队是KIA",
+    "48. C — 第3场比分13比1",
+    "49. B — 第3场在蚕室举行",
+    "50. A — 季后赛首场因雨推迟",
+    "51. B — 公布的韩国大赛开始日11月2日",
+    "52. 3연승 — 三连胜晋级",
+    "53. 잠실 — 第3场在蚕室举行",
+    "54. 미뤄졌어요 — 首场比赛因雨推迟",
+    "55. 온대저기압 — 10月26日变为温带气旋",
+    "56. 기다리고 — kt在韩国大赛等候",
+    "57. KIA가 LG를 이겼어요. — 이기다的过去式이겼어요",
+    "58. 3차전이 잠실에서 열렸어요. — 열리다的过去式열렸어요",
+    "59. 1차전이 비 때문에 미뤄졌어요. — 미뤄지다的过去式미뤄졌어요",
+    "60. 참피가 온대저기압으로 바뀌었어요. — 바뀌다的过去式바뀌었어요",
+    "61. b — 준플레이오프=KIA三连胜 b",
+    "62. d — 플레이오프=KIA对三星 d",
+    "63. a — 한국시리즈=kt在等候 a",
+    "64. c — 온대저기압=台风10月26日变化 c",
+    "— 제5면 —",
+    "65. A — 11月7日是D-12",
+    "66. B — 高考在11月19日周四",
+    "67. A — 听力时段飞机不起降",
+    "68. B — 首尔万圣节安全人员3,271人",
+    "69. A — 梨泰院路10月31日管制",
+    "70. 응원 — 全国为考生加油",
+    "71. 카운트다운 — 倒计时仍在继续",
+    "72. 선물 — 怀着祈愿合格的心意赠送糯米糕、饴糖",
+    "73. 인력 — 首尔安全人员3,271人",
+    "74. 통제 — 梨泰院路10月31日管制",
+    "75. 551,864 — 今年考生551,864人",
+    "76. 1,312 — 考场全国1,312处",
+    "77. 10 — 考试日机关10点上班",
+    "78. 1,620 — 梨泰院部署1,620人",
+    "79. 수험생은 열심히 공부해요. — 语序：主语+副词+动词",
+    "80. 우리는 수험생을 응원해요. — 主语+宾语+动词的语序",
+    "81. 비행기는 듣기 시간에 뜨지 않아요. — 听力时段飞机不起降",
+    "82. 서울시는 14곳을 관리해요. — 首尔管理14个地点",
+    "— 제6면 —",
+    "83. B — 本周倒计时D-17至D-12",
+    "84. A — 考试日有特别措施",
+    "85. B — 本周没有特别措施",
+    "86. C — 考试日就是D-day",
+    "87. A — 本周氛围是倒计时",
+    "88. A — 氛围在现在、本周",
+    "89. B — 措施只适用于11月19日",
+    "90. A — 听力时段13:10～13:35",
+    "91. A — 今年考生551,864人",
+    "92. B — 考场全国1,312处",
+    "93. 분위기 — 倒计时氛围在本周",
+    "94. 조치 — 特别措施只适用于考试日",
+    "95. 카운트다운 — 从D-17到D-12的一周",
+    "96. 규모 — 大数字显示全国规模",
+    "97. 틀리다 — 特别措施只适用于11月19日",
+    "98. 맞다 — 11月7日是D-12",
+    "99. 틀리다 — 听力时段飞机受管制",
+    "100. 맞다 — 本周是倒计时氛围",
+    "— 제7면 —",
+    "101. 입동 — 立冬＝冬季开始的节气",
+    "102. A — 泡菜季＝腌过冬泡菜",
+    "103. 월동 — 过冬准备＝为冬天做准备",
+    "104. A — 节气＝一年24个时节",
+    "105. D-12 — 11月7日是D-12",
+    "106. B — D-1＝明天",
+    "107. 17 — 11月2日是D-17",
+    "108. A — D-day就是当天",
+    "109. 기준 — 日期不同因标准不同（3版）",
+    "110. A — 林业厅标准是叶子50%",
+    "111. 관측 — 实际观测10月16日",
+    "112. B — 预报要标准日期一起看",
+    "— 제8면 —",
+    "113. A — 立冬在11月7日周六",
+    "114. A — 高考在11月19日周四",
+    "115. A — 韩史考试在11月28日周六",
+    "116. A — 青松现场庆典11月4日起",
+    "117. A — KIA三连胜晋级",
+    "118. A — 汉拿山三角峰降雨415.5毫米",
+    "119. A — 首尔万圣节安全人员3,271人",
+    "120. A — 雪岳山实际观测峰值10月16日",
+    "121. A — 今年考生551,864人",
+    "122. B — 考场全国1,312处",
+    "123. A — 内藏山林业厅预报峰值11月4日",
+    "124. B — 内藏山公团预报峰值11月11日",
+    "125. B — 月出山林业厅预报峰值11月9日",
+    "126. A — 季后赛首场因雨推迟",
+    "127. A — 首尔报名窗口10点至12点",
+    "128. B — 山火注意期到12月15日",
+    "129. B — 智敏周六去内藏山",
+    "130. A — 周日帮忙腌泡菜",
+    "131. B — 下周准备韩史考试",
+    "132. C — 智敏喜欢韩国史",
+    "133. 저는 토요일에 내장산에 가요. — 语序：主语+时间+场所+动词",
+    "134. 우리는 김장을 도와요. — 主语+宾语+动词的语序",
+    "135. 지민이는 단풍을 보러 가요. — 보러 가요 = 去看",
+    "136. 수험생은 도서관에서 공부해요. — 动作场所用「에서」",
+    "137. 11月7日是立冬。 — 对照第 1 版",
+    "138. 离高考还剩 12 天。 — 对照第 5 版",
+    "139. 특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版",
+    "140. 저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版",
+    "141. a — 입동=冬季开始的节气 a",
+    "142. b — 절정=最佳时期 b",
+    "143. c — 김장=腌过冬泡菜 c",
+    "144. d — 온대저기압=台风10月26日变化 d",
+    "145. A — 周六去内藏山",
+    "146. A — 泡菜季＝腌过冬泡菜",
+    "147. A — 首尔报名10点开始",
+    "148. A — 日期不同因标准不同",
+    "149. A — 措施只适用于11月19日",
+    "150. ✓ 范文见本版 H 区（157 字）"
+   ],
+   "chars_no_space": 2920,
+   "joined": "예: 나의 겨울 준비는 김장부터 시작해요. 토요일에는 가족과 함께배추를 절이고 양념을 버무려요. 일요일에는 두꺼운 이불을 꺼내고겨울옷을 정리해요. 단풍이 진 뒤에는 산보다 집이 좋아져요. 따뜻한국을 끓여 가족과 함께 먹어요. 겨울이 와도 마음은 따뜻해요. 준비를마치면 마음이 놓여요. 저녁에는 가족과 함께 따뜻한 차를 마셔요.겨울 준비가 끝나면 마음이 든든해져요.답 · 参考答案 — 按版面分页排列，找到题号即可每题附一句中文简析 · 带 ✓ 的为范文题— 제1면 —1. 7 — 立冬在11月7日周六2. 김치 — 泡菜季＝腌过冬泡菜3. 19 — 高考在11月19日周四4. 17 — 11月2日是D-175. 상륙 — 台风没有在韩国本土登陆6. 10 — 首尔报名窗口11月6日10–12点7. A — 立冬＝冬季开始的节气8. A — 内藏山两个预报：11月4日与11月11日9. A — 泡菜季＝腌过冬泡菜10. A — 10月25日首场比赛因雨推迟— 제2면 —11. A — 泡菜季＝腌过冬泡菜12. A — 山火注意期从11月1日开始13. A — 带火进山最高罚30万韩元14. A — 韩史考试在11月28日周六15. A — 首尔报名10点至12点16. 배추 — 白菜用盐腌17. 양념 — 加入萝卜和调料拌匀18. 월동 — 过冬准备＝为冬天做准备19. 조심 — 进山要小心火20. 접수 — 11月3日起开始报名21. 15 — 山火注意期到12月15日22. 30만 — 最高罚款30万韩元23. 27,000 — 深化考试费27,000韩元24. 13 — 11月6日13点起全国报名剩余名额25. a — 김장=腌过冬泡菜 a26. c — 월동 준비=准备过冬 c27. d — 산불조심=进山小心火 d28. b — 한능검=韩国史考试简称 b— 제3면 —29. A — 内藏山林业厅预报峰值11月4日30. B — 内藏山公园公团预报峰值11月11日31. A — 雪岳山实际观测峰值10月16日32. B — 青松现场庆典11月4日至8日33. A — 没有官方的路段数值34. 절정 — 红叶最美的时候叫절정35. 기준 — 日期不同因为标准不同36. 관측 — 实际观测比预报早37. 현장 — 现场庆典11月4日起38. 사과 — 青松以苹果闻名39. 4 — 内藏山林业厅预报4日40. 11 — 内藏山公团预报11日41. 9 — 月出山林业厅预报9日42. 16 — 雪岳山实际观测16日43. b — 내장산=两个预报之间 b44. a — 월출산=11月9日前夕 a45. d — 북한산=11月4日之后、低路更晚 d46. c — 설악산=实际观测10月16日 c— 제4면 —47. A — 半决赛胜队是KIA48. C — 第3场比分13比149. B — 第3场在蚕室举行50. A — 季后赛首场因雨推迟51. B — 公布的韩国大赛开始日11月2日52. 3연승 — 三连胜晋级53. 잠실 — 第3场在蚕室举行54. 미뤄졌어요 — 首场比赛因雨推迟55. 온대저기압 — 10月26日变为温带气旋56. 기다리고 — kt在韩国大赛等候57. KIA가 LG를 이겼어요. — 이기다的过去式이겼어요58. 3차전이 잠실에서 열렸어요. — 열리다的过去式열렸어요59. 1차전이 비 때문에 미뤄졌어요. — 미뤄지다的过去式미뤄졌어요60. 참피가 온대저기압으로 바뀌었어요. — 바뀌다的过去式바뀌었어요61. b — 준플레이오프=KIA三连胜 b62. d — 플레이오프=KIA对三星 d63. a — 한국시리즈=kt在等候 a64. c — 온대저기압=台风10月26日变化 c— 제5면 —65. A — 11月7日是D-1266. B — 高考在11月19日周四67. A — 听力时段飞机不起降68. B — 首尔万圣节安全人员3,271人69. A — 梨泰院路10月31日管制70. 응원 — 全国为考生加油71. 카운트다운 — 倒计时仍在继续72. 선물 — 怀着祈愿合格的心意赠送糯米糕、饴糖73. 인력 — 首尔安全人员3,271人74. 통제 — 梨泰院路10月31日管制75. 551,864 — 今年考生551,864人76. 1,312 — 考场全国1,312处77. 10 — 考试日机关10点上班78. 1,620 — 梨泰院部署1,620人79. 수험생은 열심히 공부해요. — 语序：主语+副词+动词80. 우리는 수험생을 응원해요. — 主语+宾语+动词的语序81. 비행기는 듣기 시간에 뜨지 않아요. — 听力时段飞机不起降82. 서울시는 14곳을 관리해요. — 首尔管理14个地点— 제6면 —83. B — 本周倒计时D-17至D-1284. A — 考试日有特别措施85. B — 本周没有特别措施86. C — 考试日就是D-day87. A — 本周氛围是倒计时88. A — 氛围在现在、本周89. B — 措施只适用于11月19日90. A — 听力时段13:10～13:3591. A — 今年考生551,864人92. B — 考场全国1,312处93. 분위기 — 倒计时氛围在本周94. 조치 — 特别措施只适用于考试日95. 카운트다운 — 从D-17到D-12的一周96. 규모 — 大数字显示全国规模97. 틀리다 — 特别措施只适用于11月19日98. 맞다 — 11月7日是D-1299. 틀리다 — 听力时段飞机受管制100. 맞다 — 本周是倒计时氛围— 제7면 —101. 입동 — 立冬＝冬季开始的节气102. A — 泡菜季＝腌过冬泡菜103. 월동 — 过冬准备＝为冬天做准备104. A — 节气＝一年24个时节105. D-12 — 11月7日是D-12106. B — D-1＝明天107. 17 — 11月2日是D-17108. A — D-day就是当天109. 기준 — 日期不同因标准不同（3版）110. A — 林业厅标准是叶子50%111. 관측 — 实际观测10月16日112. B — 预报要标准日期一起看— 제8면 —113. A — 立冬在11月7日周六114. A — 高考在11月19日周四115. A — 韩史考试在11月28日周六116. A — 青松现场庆典11月4日起117. A — KIA三连胜晋级118. A — 汉拿山三角峰降雨415.5毫米119. A — 首尔万圣节安全人员3,271人120. A — 雪岳山实际观测峰值10月16日121. A — 今年考生551,864人122. B — 考场全国1,312处123. A — 内藏山林业厅预报峰值11月4日124. B — 内藏山公团预报峰值11月11日125. B — 月出山林业厅预报峰值11月9日126. A — 季后赛首场因雨推迟127. A — 首尔报名窗口10点至12点128. B — 山火注意期到12月15日129. B — 智敏周六去内藏山130. A — 周日帮忙腌泡菜131. B — 下周准备韩史考试132. C — 智敏喜欢韩国史133. 저는 토요일에 내장산에 가요. — 语序：主语+时间+场所+动词134. 우리는 김장을 도와요. — 主语+宾语+动词的语序135. 지민이는 단풍을 보러 가요. — 보러 가요 = 去看136. 수험생은 도서관에서 공부해요. — 动作场所用「에서」137. 11月7日是立冬。 — 对照第 1 版138. 离高考还剩 12 天。 — 对照第 5 版139. 특별 조치는 11월 19일에만 적용돼요. — 对照第 6 版140. 저는 토요일에 내장산에 단풍을 보러 가요. — 对照第 3 版141. a — 입동=冬季开始的节气 a142. b — 절정=最佳时期 b143. c — 김장=腌过冬泡菜 c144. d — 온대저기압=台风10月26日变化 d145. A — 周六去内藏山146. A — 泡菜季＝腌过冬泡菜147. A — 首尔报名10点开始148. A — 日期不同因标准不同149. A — 措施只适用于11月19日150. ✓ 范文见本版 H 区（157 字）"
+  },
+  "edition": {
+   "block": [
+    "예: 나의 겨울 준비는 김장부터 시작해요. 토요일에는 가족과 함께",
+    "배추를 절이고 양념을 버무려요. 일요일에는 두꺼운 이불을 꺼내고",
+    "겨울옷을 정리해요. 단풍이 진 뒤에는 산보다 집이 좋아져요. 따뜻한",
+    "국을 끓여 가족과 함께 먹어요. 겨울이 와도 마음은 따뜻해요. 준비를",
+    "마치면 마음이 놓여요. 저녁에는 가족과 함께 따뜻한 차를 마셔요.",
+    "겨울 준비가 끝나면 마음이 든든해져요.",
+    "답 · 全部答案與簡析（第 1–8 版）",
+    "每題附一句中文簡析 · 帶 ✓ 的為範本題",
+    "— 第 1 版 —",
+    "1. 7 — 立冬在11月7日週六",
+    "2. 김치 — 泡菜季＝醃過冬泡菜",
+    "3. 19 — 高考在11月19日週四",
+    "4. 17 — 11月2日是D-17",
+    "5. 상륙 — 颱風沒有在韓國本土登陸",
+    "6. 10 — 首爾報名窗口11月6日10–12點",
+    "7. A — 立冬＝冬季開始的節氣",
+    "8. A — 內藏山兩個預報：11月4日與11月11日",
+    "9. A — 泡菜季＝醃過冬泡菜",
+    "10. A — 10月25日首場比賽因雨推遲",
+    "— 第 2 版 —",
+    "11. A — 泡菜季＝醃過冬泡菜",
+    "12. A — 山火注意期從11月1日開始",
+    "13. A — 帶火進山最高罰30萬韓元",
+    "14. A — 韓史考試在11月28日週六",
+    "15. A — 首爾報名10點至12點",
+    "16. 배추 — 白菜用鹽醃",
+    "17. 양념 — 加入蘿蔔和調料拌勻",
+    "18. 월동 — 過冬準備＝為冬天做準備",
+    "19. 조심 — 進山要小心火",
+    "20. 접수 — 11月3日起開始報名",
+    "21. 15 — 山火注意期到12月15日",
+    "22. 30만 — 最高罰款30萬韓元",
+    "23. 27,000 — 深化考試費27,000韓元",
+    "24. 13 — 11月6日13點起全國報名剩餘名額",
+    "25. a — 김장=醃過冬泡菜 a",
+    "26. c — 월동 준비=準備過冬 c",
+    "27. d — 산불조심=進山小心火 d",
+    "28. b — 한능검=韓國史考試簡稱 b",
+    "— 第 3 版 —",
+    "29. A — 內藏山林業廳預報峰值11月4日",
+    "30. B — 內藏山公園公團預報峰值11月11日",
+    "31. A — 雪嶽山實際觀測峰值10月16日",
+    "32. B — 青松現場慶典11月4日至8日",
+    "33. A — 沒有官方的路段數值",
+    "34. 절정 — 紅葉最美的時候叫절정",
+    "35. 기준 — 日期不同因為標準不同",
+    "36. 관측 — 實際觀測比預報早",
+    "37. 현장 — 現場慶典11月4日起",
+    "38. 사과 — 青松以蘋果聞名",
+    "39. 4 — 內藏山林業廳預報4日",
+    "40. 11 — 內藏山公團預報11日",
+    "41. 9 — 月出山林業廳預報9日",
+    "42. 16 — 雪嶽山實際觀測16日",
+    "43. b — 내장산=兩個預報之間 b",
+    "44. a — 월출산=11月9日前夕 a",
+    "45. d — 북한산=11月4日之後、低路更晚 d",
+    "46. c — 설악산=實際觀測10月16日 c",
+    "— 第 4 版 —",
+    "47. A — 準季後賽勝隊是KIA",
+    "48. C — 第3場比分13比1",
+    "49. B — 第3場在蠶室舉行",
+    "50. A — 季後賽首場因雨推遲",
+    "51. B — 公佈的韓國大賽開始日11月2日",
+    "52. 3연승 — 三連勝晉級",
+    "53. 잠실 — 第3場在蠶室舉行",
+    "54. 미뤄졌어요 — 首場比賽因雨推遲",
+    "55. 온대저기압 — 10月26日變為溫帶氣旋",
+    "56. 기다리고 — kt在韓國大賽等候",
+    "57. KIA가 LG를 이겼어요. — 이기다的過去式이겼어요",
+    "58. 3차전이 잠실에서 열렸어요. — 열리다的過去式열렸어요",
+    "59. 1차전이 비 때문에 미뤄졌어요. — 미뤄지다的過去式미뤄졌어요",
+    "60. 참피가 온대저기압으로 바뀌었어요. — 바뀌다的過去式바뀌었어요",
+    "61. b — 준플레이오프=KIA三連勝 b",
+    "62. d — 플레이오프=KIA對三星 d",
+    "63. a — 한국시리즈=kt在等候 a",
+    "64. c — 온대저기압=颱風10月26日變化 c",
+    "— 第 5 版 —",
+    "65. A — 11月7日是D-12",
+    "66. B — 高考在11月19日週四",
+    "67. A — 聽力時段飛機不起降",
+    "68. B — 首爾萬聖節安全人員3,271人",
+    "69. A — 梨泰院路10月31日管制",
+    "70. 응원 — 全國為考生加油",
+    "71. 카운트다운 — 倒數計時仍在繼續",
+    "72. 선물 — 懷著祈願合格的心意贈送糯米糕、飴糖",
+    "73. 인력 — 首爾安全人員3,271人",
+    "74. 통제 — 梨泰院路10月31日管制",
+    "75. 551,864 — 今年考生551,864人",
+    "76. 1,312 — 考場全國1,312處",
+    "77. 10 — 考試日機關10點上班",
+    "78. 1,620 — 梨泰院部署1,620人",
+    "79. 수험생은 열심히 공부해요. — 語序：主語+副詞+動詞",
+    "80. 우리는 수험생을 응원해요. — 主語+賓語+動詞的語序",
+    "81. 비행기는 듣기 시간에 뜨지 않아요. — 聽力時段飛機不起降",
+    "82. 서울시는 14곳을 관리해요. — 首爾管理14個地點",
+    "— 第 6 版 —",
+    "83. B — 本週倒數計時D-17至D-12",
+    "84. A — 考試日有特別措施",
+    "85. B — 本週沒有特別措施",
+    "86. C — 考試日就是D-day",
+    "87. A — 本週氛圍是倒數計時",
+    "88. A — 氛圍在現在、本週",
+    "89. B — 措施只適用於11月19日",
+    "90. A — 聽力時段13:10～13:35",
+    "91. A — 今年考生551,864人",
+    "92. B — 考場全國1,312處",
+    "93. 분위기 — 倒數計時氛圍在本週",
+    "94. 조치 — 特別措施只適用於考試日",
+    "95. 카운트다운 — 從D-17到D-12的一週",
+    "96. 규모 — 大數字顯示全國規模",
+    "97. 틀리다 — 特別措施只適用於11月19日",
+    "98. 맞다 — 11月7日是D-12",
+    "99. 틀리다 — 聽力時段飛機受管制",
+    "100. 맞다 — 本週是倒數計時氛圍",
+    "— 第 7 版 —",
+    "101. 입동 — 立冬＝冬季開始的節氣",
+    "102. A — 泡菜季＝醃過冬泡菜",
+    "103. 월동 — 過冬準備＝為冬天做準備",
+    "104. A — 節氣＝一年24個時節",
+    "105. D-12 — 11月7日是D-12",
+    "106. B — D-1＝明天",
+    "107. 17 — 11月2日是D-17",
+    "108. A — D-day就是當天",
+    "109. 기준 — 日期不同因標準不同（3版）",
+    "110. A — 林業廳標準是葉子50%",
+    "111. 관측 — 實際觀測10月16日",
+    "112. B — 預報要標準日期一起看",
+    "— 第 8 版 —",
+    "113. A — 立冬在11月7日週六",
+    "114. A — 高考在11月19日週四",
+    "115. A — 韓史考試在11月28日週六",
+    "116. A — 青松現場慶典11月4日起",
+    "117. A — KIA三連勝晉級",
+    "118. A — 漢拏山三角峰降雨415.5毫米",
+    "119. A — 首爾萬聖節安全人員3,271人",
+    "120. A — 雪嶽山實際觀測峰值10月16日",
+    "121. A — 今年考生551,864人",
+    "122. B — 考場全國1,312處",
+    "123. A — 內藏山林業廳預報峰值11月4日",
+    "124. B — 內藏山公園公團預報峰值11月11日",
+    "125. B — 月出山林業廳預報峰值11月9日",
+    "126. A — 季後賽首場因雨推遲",
+    "127. A — 首爾報名窗口10點至12點",
+    "128. B — 山火注意期到12月15日",
+    "129. B — 智敏週六去內藏山",
+    "130. A — 週日幫忙醃泡菜",
+    "131. B — 下週準備韓史考試",
+    "132. C — 智敏喜歡韓國史",
+    "133. 저는 토요일에 내장산에 가요. — 語序：主語+時間+場所+動詞",
+    "134. 우리는 김장을 도와요. — 主語+賓語+動詞的語序",
+    "135. 지민이는 단풍을 보러 가요. — 보러 가요 = 去看",
+    "136. 수험생은 도서관에서 공부해요. — 動作場所用「에서」",
+    "137. 11月7日是立冬。 — 對照第 1 版",
+    "138. 離高考還剩 12 天。 — 對照第 5 版",
+    "139. 특별 조치는 11월 19일에만 적용돼요. — 對照第 6 版",
+    "140. 저는 토요일에 내장산에 단풍을 보러 가요. — 對照第 3 版",
+    "141. a — 입동=冬季開始的節氣 a",
+    "142. b — 절정=最佳時期 b",
+    "143. c — 김장=醃過冬泡菜 c",
+    "144. d — 온대저기압=颱風10月26日變化 d",
+    "145. A — 週六去內藏山",
+    "146. A — 泡菜季＝醃過冬泡菜",
+    "147. A — 首爾報名10點開始",
+    "148. A — 日期不同因標準不同",
+    "149. A — 措施只適用於11月19日",
+    "150. ✓ 範本見本版 H 區（157 字）"
+   ],
+   "chars_no_space": 2923,
+   "joined": "예: 나의 겨울 준비는 김장부터 시작해요. 토요일에는 가족과 함께배추를 절이고 양념을 버무려요. 일요일에는 두꺼운 이불을 꺼내고겨울옷을 정리해요. 단풍이 진 뒤에는 산보다 집이 좋아져요. 따뜻한국을 끓여 가족과 함께 먹어요. 겨울이 와도 마음은 따뜻해요. 준비를마치면 마음이 놓여요. 저녁에는 가족과 함께 따뜻한 차를 마셔요.겨울 준비가 끝나면 마음이 든든해져요.답 · 全部答案與簡析（第 1–8 版）每題附一句中文簡析 · 帶 ✓ 的為範本題— 第 1 版 —1. 7 — 立冬在11月7日週六2. 김치 — 泡菜季＝醃過冬泡菜3. 19 — 高考在11月19日週四4. 17 — 11月2日是D-175. 상륙 — 颱風沒有在韓國本土登陸6. 10 — 首爾報名窗口11月6日10–12點7. A — 立冬＝冬季開始的節氣8. A — 內藏山兩個預報：11月4日與11月11日9. A — 泡菜季＝醃過冬泡菜10. A — 10月25日首場比賽因雨推遲— 第 2 版 —11. A — 泡菜季＝醃過冬泡菜12. A — 山火注意期從11月1日開始13. A — 帶火進山最高罰30萬韓元14. A — 韓史考試在11月28日週六15. A — 首爾報名10點至12點16. 배추 — 白菜用鹽醃17. 양념 — 加入蘿蔔和調料拌勻18. 월동 — 過冬準備＝為冬天做準備19. 조심 — 進山要小心火20. 접수 — 11月3日起開始報名21. 15 — 山火注意期到12月15日22. 30만 — 最高罰款30萬韓元23. 27,000 — 深化考試費27,000韓元24. 13 — 11月6日13點起全國報名剩餘名額25. a — 김장=醃過冬泡菜 a26. c — 월동 준비=準備過冬 c27. d — 산불조심=進山小心火 d28. b — 한능검=韓國史考試簡稱 b— 第 3 版 —29. A — 內藏山林業廳預報峰值11月4日30. B — 內藏山公園公團預報峰值11月11日31. A — 雪嶽山實際觀測峰值10月16日32. B — 青松現場慶典11月4日至8日33. A — 沒有官方的路段數值34. 절정 — 紅葉最美的時候叫절정35. 기준 — 日期不同因為標準不同36. 관측 — 實際觀測比預報早37. 현장 — 現場慶典11月4日起38. 사과 — 青松以蘋果聞名39. 4 — 內藏山林業廳預報4日40. 11 — 內藏山公團預報11日41. 9 — 月出山林業廳預報9日42. 16 — 雪嶽山實際觀測16日43. b — 내장산=兩個預報之間 b44. a — 월출산=11月9日前夕 a45. d — 북한산=11月4日之後、低路更晚 d46. c — 설악산=實際觀測10月16日 c— 第 4 版 —47. A — 準季後賽勝隊是KIA48. C — 第3場比分13比149. B — 第3場在蠶室舉行50. A — 季後賽首場因雨推遲51. B — 公佈的韓國大賽開始日11月2日52. 3연승 — 三連勝晉級53. 잠실 — 第3場在蠶室舉行54. 미뤄졌어요 — 首場比賽因雨推遲55. 온대저기압 — 10月26日變為溫帶氣旋56. 기다리고 — kt在韓國大賽等候57. KIA가 LG를 이겼어요. — 이기다的過去式이겼어요58. 3차전이 잠실에서 열렸어요. — 열리다的過去式열렸어요59. 1차전이 비 때문에 미뤄졌어요. — 미뤄지다的過去式미뤄졌어요60. 참피가 온대저기압으로 바뀌었어요. — 바뀌다的過去式바뀌었어요61. b — 준플레이오프=KIA三連勝 b62. d — 플레이오프=KIA對三星 d63. a — 한국시리즈=kt在等候 a64. c — 온대저기압=颱風10月26日變化 c— 第 5 版 —65. A — 11月7日是D-1266. B — 高考在11月19日週四67. A — 聽力時段飛機不起降68. B — 首爾萬聖節安全人員3,271人69. A — 梨泰院路10月31日管制70. 응원 — 全國為考生加油71. 카운트다운 — 倒數計時仍在繼續72. 선물 — 懷著祈願合格的心意贈送糯米糕、飴糖73. 인력 — 首爾安全人員3,271人74. 통제 — 梨泰院路10月31日管制75. 551,864 — 今年考生551,864人76. 1,312 — 考場全國1,312處77. 10 — 考試日機關10點上班78. 1,620 — 梨泰院部署1,620人79. 수험생은 열심히 공부해요. — 語序：主語+副詞+動詞80. 우리는 수험생을 응원해요. — 主語+賓語+動詞的語序81. 비행기는 듣기 시간에 뜨지 않아요. — 聽力時段飛機不起降82. 서울시는 14곳을 관리해요. — 首爾管理14個地點— 第 6 版 —83. B — 本週倒數計時D-17至D-1284. A — 考試日有特別措施85. B — 本週沒有特別措施86. C — 考試日就是D-day87. A — 本週氛圍是倒數計時88. A — 氛圍在現在、本週89. B — 措施只適用於11月19日90. A — 聽力時段13:10～13:3591. A — 今年考生551,864人92. B — 考場全國1,312處93. 분위기 — 倒數計時氛圍在本週94. 조치 — 特別措施只適用於考試日95. 카운트다운 — 從D-17到D-12的一週96. 규모 — 大數字顯示全國規模97. 틀리다 — 特別措施只適用於11月19日98. 맞다 — 11月7日是D-1299. 틀리다 — 聽力時段飛機受管制100. 맞다 — 本週是倒數計時氛圍— 第 7 版 —101. 입동 — 立冬＝冬季開始的節氣102. A — 泡菜季＝醃過冬泡菜103. 월동 — 過冬準備＝為冬天做準備104. A — 節氣＝一年24個時節105. D-12 — 11月7日是D-12106. B — D-1＝明天107. 17 — 11月2日是D-17108. A — D-day就是當天109. 기준 — 日期不同因標準不同（3版）110. A — 林業廳標準是葉子50%111. 관측 — 實際觀測10月16日112. B — 預報要標準日期一起看— 第 8 版 —113. A — 立冬在11月7日週六114. A — 高考在11月19日週四115. A — 韓史考試在11月28日週六116. A — 青松現場慶典11月4日起117. A — KIA三連勝晉級118. A — 漢拏山三角峰降雨415.5毫米119. A — 首爾萬聖節安全人員3,271人120. A — 雪嶽山實際觀測峰值10月16日121. A — 今年考生551,864人122. B — 考場全國1,312處123. A — 內藏山林業廳預報峰值11月4日124. B — 內藏山公園公團預報峰值11月11日125. B — 月出山林業廳預報峰值11月9日126. A — 季後賽首場因雨推遲127. A — 首爾報名窗口10點至12點128. B — 山火注意期到12月15日129. B — 智敏週六去內藏山130. A — 週日幫忙醃泡菜131. B — 下週準備韓史考試132. C — 智敏喜歡韓國史133. 저는 토요일에 내장산에 가요. — 語序：主語+時間+場所+動詞134. 우리는 김장을 도와요. — 主語+賓語+動詞的語序135. 지민이는 단풍을 보러 가요. — 보러 가요 = 去看136. 수험생은 도서관에서 공부해요. — 動作場所用「에서」137. 11月7日是立冬。 — 對照第 1 版138. 離高考還剩 12 天。 — 對照第 5 版139. 특별 조치는 11월 19일에만 적용돼요. — 對照第 6 版140. 저는 토요일에 내장산에 단풍을 보러 가요. — 對照第 3 版141. a — 입동=冬季開始的節氣 a142. b — 절정=最佳時期 b143. c — 김장=醃過冬泡菜 c144. d — 온대저기압=颱風10月26日變化 d145. A — 週六去內藏山146. A — 泡菜季＝醃過冬泡菜147. A — 首爾報名10點開始148. A — 日期不同因標準不同149. A — 措施只適用於11月19日150. ✓ 範本見本版 H 區（157 字）"
+  }
+ },
+ "digit_multiset_diff": {
+  "only_core": {},
+  "only_ed": {
+   "8": 2,
+   "1": 1
+  }
+ }
+}

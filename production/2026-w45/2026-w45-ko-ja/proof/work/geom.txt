@@ -1,0 +1,47 @@
+=== ADVANCE right-edge scan (threshold 1898) ===
+p1: max_adv_right=1878.29 flags>1898: []
+p2: max_adv_right=1869.72 flags>1898: []
+p3: max_adv_right=1882.38 flags>1898: []
+p4: max_adv_right=1855.73 flags>1898: []
+p5: max_adv_right=1854.92 flags>1898: []
+p6: max_adv_right=1720.80 flags>1898: []
+p7: max_adv_right=1859.30 flags>1898: []
+p8: max_adv_right=1877.59 flags>1898: []
+=== same-baseline ink collision (overlap or gap<6px, same y rounded 0.01, x-ordered neighbours) ===
+p1: overlaps=0 tight(<6px)=0
+p2: overlaps=0 tight(<6px)=0
+p3: overlaps=0 tight(<6px)=0
+p4: overlaps=0 tight(<6px)=0
+p5: overlaps=0 tight(<6px)=0
+p6: overlaps=0 tight(<6px)=0
+p7: overlaps=0 tight(<6px)=0
+p8: overlaps=0 tight(<6px)=0
+=== P8 three calibers ===
+  150 node: x=1523.0 y=203.0 size=24.0 bold=True anchor=start text='150.' ink=(1523.0, 185.0, 1573.25, 203.25)
+  150 node: x=1451.0 y=2335.0520000000024 size=13.3 bold=False anchor=start text='150. ✓ 範文は本ページのH区（157字）' ink=(1451.0, 2323.3020000000024, 1682.5, 2336.3020000000024)
+  last 3 numbered nodes by y: [(2513.420000000003, '77. 10 — 試験当日は官公庁が10時から勤務'), (2514.920000000003, '115. A — 韓史試験は11月28日土曜日'), (2514.920000000003, '38. 사과 — 青松はリンゴで有名')]
+=== P7 boxes ===
+  rect x=28.0 y=28.0 w=1894.0 h=2644.0 bottom=2672.00
+  rect x=40.0 y=40.0 w=1870.0 h=2620.0 bottom=2660.00
+  rect x=1451.0 y=200.0 w=434.0 h=750.96 bottom=950.96
+  rect x=1451.0 y=962.96 w=434.0 h=282.0 bottom=1244.96
+  rect x=1451.0 y=1256.96 w=434.0 h=606.5 bottom=1863.46
+  rect x=65.0 y=2399.46 w=1820.0 h=118.0 bottom=2517.46
+  line y=1893.46 x1=65.0 x2=1885.0
+  line y=2580.0 x1=65.0 x2=1885.0
+  P7 col3 (x>1250) last 8 by y:
+    y=1645.52 ink_bottom=1648.27 :: '때까지 진짜 독자 편지와 8면 쓰기 우수작이'
+    y=1674.6299999999999 ink_bottom=1678.38 :: '도착하지 않았어요. 그래서 예가 실렸고,'
+    y=1703.7399999999998 ink_bottom=1706.49 :: '지난 호의 약속은 VOL.3으로 이어져요.'
+    y=1762.8499999999997 ink_bottom=1765.10 :: '締切までに本物の手紙も8ページの最優秀'
+    y=1791.2499999999998 ink_bottom=1793.25 :: '作文も届かず、例を載せました。約束は'
+    y=1819.6499999999999 ink_bottom=1821.90 :: 'VOL.3に引き継ぎます。あなたの手紙と8'
+    y=1848.05 ink_bottom=1850.05 :: 'ページの最優秀作文を送ってください！'
+    y=2624.0 ink_bottom=2626.25 :: '7 ページ（全 8 ページ）'
+  P7 all texts y>2400 (teaser tail):
+    y=2443.46 :: '다음 주 · 次号予告 (VOL.3)'
+    y=2483.46 :: '다음 주에는 김장이 한창이에요. 수능까지 일주일이 남았어요. 한능검 시험이 가까워져요. 플레이오프와 한국시리즈 소식도 전해요.'
+    y=2624.0 :: 'Lucerna · 韓国語週刊 VOL.2 · 本文は韓国語 · 解説は日本語'
+    y=2624.0 :: '7 ページ（全 8 ページ）'
+=== P6 label coverage (baseline-anchored ink vs later rects) ===
+  max text-ink coverage by later rect: 0.0000 worst=None (<0.30 gate)

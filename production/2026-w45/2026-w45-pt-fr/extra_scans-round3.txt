@@ -1,0 +1,23 @@
+=== 1. same-baseline rowcheck (true ink, decoded text) ===
+  p1-capa: 0 same-baseline collisions
+  p2-vida: 0 same-baseline collisions
+  p3-cultura: 0 same-baseline collisions
+  p4-esporte: 0 same-baseline collisions
+  p5-jovens: 0 same-baseline collisions
+  p6-aprofundamento: 0 same-baseline collisions
+  p7-lingua: 0 same-baseline collisions
+  p8-avaliacao: 0 same-baseline collisions
+  TOTAL rowcheck collisions: 0
+=== 2. P6 chart-label coverage (baseline-anchored method) ===
+  P6 texts with >0.5% later-rect coverage: 0
+  P6 MAX anchored coverage: 0.0% (gate <30%)
+=== 3. frame scan (ink vs frame strips; inner frame right=1910) ===
+  p1-capa: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p2-vida: max ink-right=1897.2 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p3-cultura: max ink-right=1885.1 min ink-left=63.0 max text-ink-bottom=2629.0 frame-strip hits=0
+  p4-esporte: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p5-jovens: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p6-aprofundamento: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p7-lingua: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  p8-avaliacao: max ink-right=1885.1 min ink-left=64.8 max text-ink-bottom=2629.0 frame-strip hits=0
+  P7 last quote-region ink bottom: 2396.2 (preview band top 2404, clearance 7.8px)

@@ -1,0 +1,20 @@
+PASS JA frost rel M/l got=[(451.0, 2022.0), (471.0, 2008.0), (451.0, 2022.0), (471.0, 2036.0), (571.0, 2022.0), (551.0, 2008.0), (571.0, 2022.0), (551.0, 2036.0)]
+PASS core frost abs M/L got=[(451.0, 2022.0), (471.0, 2008.0), (451.0, 2022.0), (471.0, 2036.0), (571.0, 2022.0), (551.0, 2008.0), (571.0, 2022.0), (551.0, 2036.0)]
+PASS implicit lineto after M got=[(10.0, 10.0), (20.0, 20.0), (30.0, 10.0)]
+PASS implicit lineto after rel m got=[(100.0, 100.0), (110.0, 100.0), (110.0, 110.0)]
+PASS H/V abs got=[(10.0, 20.0), (50.0, 20.0), (50.0, 60.0), (40.0, 60.0), (40.0, 50.0)]
+PASS H/V rel got=[(10.0, 20.0), (40.0, 20.0), (40.0, 60.0)]
+PASS C abs incl ctrl pts got=[(0.0, 0.0), (10.0, 0.0), (20.0, 10.0), (30.0, 10.0)]
+PASS C rel incl ctrl pts got=[(100.0, 100.0), (110.0, 100.0), (120.0, 110.0), (130.0, 110.0)]
+PASS S/Q rel got=[(0.0, 0.0), (10.0, 10.0), (20.0, 0.0), (25.0, 5.0), (30.0, 0.0)]
+PASS T rel got=[(0.0, 0.0), (10.0, 10.0), (20.0, 0.0)]
+PASS A endpoint got=[(0.0, 0.0), (40.0, 30.0)]
+PASS A rel endpoint got=[(100.0, 100.0), (140.0, 130.0)]
+PASS Z reset got=[(10.0, 10.0), (20.0, 20.0), (30.0, 30.0)]
+PASS comma/sign separators got=[(10.0, 20.0), (30.0, 6.0), (60.0, 46.0)]
+PASS sign-sep decimals got=[(10.5, 20.5), (11.0, 20.0)]
+PASS multiple subpaths M reset got=[(0.0, 0.0), (10.0, 0.0), (100.0, 100.0), (110.0, 100.0)]
+JA frost bbox: (451.0, 2008.0, 571.0, 2036.0) core frost bbox: (451.0, 2008.0, 571.0, 2036.0) EQUAL: True
+OLD buggy alternating-pair bbox of JA frost numbers would be (-20,-14,571,2022): check old logic:
+  old pairs bbox: (-20.0, -14.0, 571.0, 2022.0)
+FAILS: 0

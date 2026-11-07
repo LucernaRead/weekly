@@ -1,0 +1,20 @@
+keys lines: 100
+col-1: n=26 max_ink_width=433.00 max_ink_right=498.00 min_clearance=1.00 overflowing=0
+col-2: n=28 max_ink_width=433.75 max_ink_right=960.75 min_clearance=0.25 overflowing=0
+col-3: n=25 max_ink_width=433.25 max_ink_right=1422.25 min_clearance=0.75 overflowing=0
+col-4: n=21 max_ink_width=433.50 max_ink_right=1884.50 min_clearance=0.50 overflowing=0
+OVERALL overflowing lines: 0
+worst 5 by clearance:
+  col-2 y=2447.72 clearance=0.25 inkR=960.75 w=433.75 :: '76. Die Kinder freuen sich, weil St. Martin kommt.（weil 句动词置'
+  col-4 y=2109.85 clearance=0.5 inkR=1884.5 w=433.5 :: '11 点 11 分在科隆开幕。（beginnen = 开始） · 138. 我周三做一个'
+  col-4 y=2166.4 clearance=0.5 inkR=1884.5 w=433.5 :: 'das NFL-Spiel.（看比赛 = das Spiel schauen） · 141. b（Mantel='
+  col-2 y=2250.51 clearance=0.75 inkR=960.25 w=433.25 :: '周日 15:30） · 62. C（德国–荷兰周一 20:45） · 63. A（拜仁–科隆'
+  col-3 y=2494.13 clearance=0.75 inkR=1422.25 w=433.25 :: '单数）） · 115. A（geht（第三人称单数）） · 116. B（singt（第'
+defect sites:
+  col-1 y=2198.02 ink=65.0,2185.52,401.0,2201.52 :: 'begonnen） · 17. Die Kinder haben Martinslieder'
+  col-1 y=2216.87 ink=65.0,2204.37,490.5,2220.37 :: 'gesungen.（singen→ gesungen） · 18. Wir haben eine Laterne'
+  col-1 y=2527.18 ink=65.0,2514.68,494.5,2528.68 :: 'Martinsfeuer（游行在篝火处结束） · 39. B（马丁后来成为图尔主'
+  col-2 y=2193.96 ink=527.0,2181.46,948.25,2197.21 :: 'später（15:30 晚于 11:11）） · 58. leiser（leise → leiser（空场'
+  col-2 y=2523.12 ink=527.0,2510.62,949.25,2526.62 :: 'beginnt.（beginnt置尾） · 80. Richtig（11 月 9 日巴伐利亚也复'
+  col-2 y=2541.97 ink=527.0,2529.47,948.75,2545.47 :: '课）· 81. Falsch（灯笼游行在晚上） · 82. Richtig（孩子们唱圣'
+last keys baseline max y=2550.68 max ink bottom=2554.18

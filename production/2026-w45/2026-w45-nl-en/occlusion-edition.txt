@@ -1,0 +1,4 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-en/svg: 2 flags {'BOXTITLE': 1, 'COVER': 1}
+  [COVER] p1-voorpagina.svg 'climate.' — 100% of ink covered by later rect box [1450.3, 1873.3, 1885.7, 2304.7]
+  [BOXTITLE] p1-voorpagina.svg 'See the articles on pages 2–4 for all dates and times.' — ink crosses its box borders: right ink 1932.0 > border 1885.0

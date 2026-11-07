@@ -1,0 +1,81 @@
+
+p2-leven CORE (6): 'het klimaat 气候 · wortelen 生根 · besparen 节约 · de verwarming 暖气 · de waarschuwing 预警 · lokaal 当地的 、本地的。'
+  core 1: 'het klimaat 气候'
+  core 2: 'wortelen 生根'
+  core 3: 'besparen 节约'
+  core 4: 'de verwarming 暖气'
+  core 5: 'de waarschuwing 预警'
+  core 6: 'lokaal 当地的 、本地的。'
+p2-leven ED (6): 'het klimaat: el clima · wortelen: echar raíces · besparen: ahorrar · de verwarming: la calefacción · de waarschuwing: la advertencia · lokaal: local.'
+  ed 1: 'het klimaat: el clima'
+  ed 2: 'wortelen: echar raíces'
+  ed 3: 'besparen: ahorrar'
+  ed 4: 'de verwarming: la calefacción'
+  ed 5: 'de waarschuwing: la advertencia'
+  ed 6: 'lokaal: local.'
+
+p3-cultuur CORE (5): 'het museum 博物馆 · de rondleiding 导览 · het tijdslot 时间段 · tweedehands 二手的 · de beurs 展会、集 市。'
+  core 1: 'het museum 博物馆'
+  core 2: 'de rondleiding 导览'
+  core 3: 'het tijdslot 时间段'
+  core 4: 'tweedehands 二手的'
+  core 5: 'de beurs 展会、集 市。'
+p3-cultuur ED (5): 'het museum: el museo · de rondleiding: la visita guiada · het tijdslot: el turno, la franja horaria · tweedehands: de segunda mano · de beurs: la feria.'
+  ed 1: 'het museum: el museo'
+  ed 2: 'de rondleiding: la visita guiada'
+  ed 3: 'het tijdslot: el turno, la franja horaria'
+  ed 4: 'tweedehands: de segunda mano'
+  ed 5: 'de beurs: la feria.'
+
+p4-sport CORE (5): 'de balans 成绩单、总结 · gelijkspelen 打平 · de speelronde 轮次 · de topper 焦点战 · de stand 积分榜。'
+  core 1: 'de balans 成绩单、总结'
+  core 2: 'gelijkspelen 打平'
+  core 3: 'de speelronde 轮次'
+  core 4: 'de topper 焦点战'
+  core 5: 'de stand 积分榜。'
+p4-sport ED (5): 'de balans: el balance · gelijkspelen: empatar · de speelronde: la jornada · de topper: el partidazo · de stand: la clasificación.'
+  ed 1: 'de balans: el balance'
+  ed 2: 'gelijkspelen: empatar'
+  ed 3: 'de speelronde: la jornada'
+  ed 4: 'de topper: el partidazo'
+  ed 5: 'de stand: la clasificación.'
+
+p5-jongeren CORE (5): 'het eiland 岛 · de proef 比赛项目 、考验 · stemmen 投票 · de aflevering （一）集 · voorbij 过去了、结束了。'
+  core 1: 'het eiland 岛'
+  core 2: 'de proef 比赛项目 、考验'
+  core 3: 'stemmen 投票'
+  core 4: 'de aflevering （一）集'
+  core 5: 'voorbij 过去了、结束了。'
+p5-jongeren ED (5): 'het eiland: la isla · de proef: la prueba · stemmen: votar · de aflevering: el episodio · voorbij: pasado, terminado.'
+  ed 1: 'het eiland: la isla'
+  ed 2: 'de proef: la prueba'
+  ed 3: 'stemmen: votar'
+  ed 4: 'de aflevering: el episodio'
+  ed 5: 'voorbij: pasado, terminado.'
+
+p6-verdieping CORE (5): 'de meteoroloog 气象学家 · waarschuwingsmoeheid 预警疲劳 · vastzetten 固定好 · het advies 建议、忠 告 · de voorstander 支持者。'
+  core 1: 'de meteoroloog 气象学家'
+  core 2: 'waarschuwingsmoeheid 预警疲劳'
+  core 3: 'vastzetten 固定好'
+  core 4: 'het advies 建议、忠 告'
+  core 5: 'de voorstander 支持者。'
+p6-verdieping ED (5): 'de meteoroloog: el meteorólogo · waarschuwingsmoeheid: el cansancio ante las alertas · vastzetten: fijar, asegurar · het advies: el consejo · de voorstander: el partidario.'
+  ed 1: 'de meteoroloog: el meteorólogo'
+  ed 2: 'waarschuwingsmoeheid: el cansancio ante las alertas'
+  ed 3: 'vastzetten: fijar, asegurar'
+  ed 4: 'het advies: el consejo'
+  ed 5: 'de voorstander: el partidario.'
+
+
+=== GOLDEN ===
+Traceback (most recent call last):
+  File "<stdin>", line 33, in <module>
+  File "<stdin>", line 33, in <genexpr>
+  File "<stdin>", line 4, in texts
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'files/weekly-report-w45-nl-es/svg/files/weekly-report-w45-nl-es/svg/p1-voorpagina.svg'

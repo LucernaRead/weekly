@@ -1,0 +1,25 @@
+=== ORPHAN scan window [10,45), cols, consecutive baselines<=60, runs>=2 ===
+p2-vie.svg ED col 527 final-baseline 2170.6 width 36.8 '___'
+p2-vie.svg ED col 527 final-baseline 2488.8 width 36.8 '___'
+p2-vie.svg CO col 527 final-baseline 2140.9 width 36.8 '___'
+p2-vie.svg CO col 527 final-baseline 2459.1 width 36.8 '___'
+p3-culture.svg ED col 1451 final-baseline 2405.3 width 24.5 '7).'
+p3-culture.svg CO col 527 final-baseline 1054.4 width 41.0 '）。'
+p3-culture.svg CO col 1451 final-baseline 2405.3 width 24.5 '7).'
+p7-langue.svg CO col 65 final-baseline 1347.4 width 39.0 '）。'
+=== LINE-START scan ===
+svglib NO_START def found: False 
+p3-culture.svg ED 789.6 ": on le pose sur les tombes, on ne l'offre jamais"
+p4-sport.svg ED 837.1 ': quarts de finale vendredi 6'
+p5-jeunesse.svg ED 430.6 ': clôture du festival.'
+p7-langue.svg ED 428.1 ": attention à l'accord avec le sujet :"
+p8-exercices.svg ED 2364.9 '〜8日) · 125. C (ナイトイベントは19時から深夜1時まで) ·'
+=== SAME-BASELINE TEXTX (same y, ink overlap/gap<0) ===
+=== LATIN SPLIT detector ===
+vocab size 988
+=== P6 CHART coverage (later rect vs chart text ink) ===
+P6 ED texts with any later-rect overlap: 0 max coverage 0 None
+P6 CO texts with any later-rect overlap: 0 max coverage 0 None
+=== OVERFLOW in repro render logs ===
+repro-render.log OVERFLOW 0 HEAD TOO WIDE 0 TOTAL exercises line: True
+repro-render2.log OVERFLOW 0 HEAD TOO WIDE 0 TOTAL exercises line: True

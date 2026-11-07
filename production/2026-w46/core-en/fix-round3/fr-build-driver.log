@@ -1,0 +1,26 @@
+===== BUILD fr (2026-w46-en-fr) =====
+run.py rc=0
+no overflow warnings
+P8 saved, TOTAL exercises: 150
+render.py rc=0
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p1-front.png 1242480
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p2-life.png 1123616
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p3-culture.png 1239987
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p4-sport.png 1112497
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p5-jeunesse.png 815065
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p6-politique.png 1104783
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p7-langue.png 728018
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/cards/p8-exercices.png 1213930
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/The-Lucerna-VOL3.pdf 15263495
+webpdf rc=0
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/svg
+103 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 18740 bytes
+  font LucernaNotoSansCJKSC-Bold: 19100 bytes
+  font LucernaNotoSerifCJKSC-Regular: 24380 bytes
+  font LucernaNotoSerifCJKSC-Bold: 25136 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31096 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/The-Lucerna-VOL3-web.pdf: 1557939 bytes, 49197 text bytes
+textmd rc=0
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-fr/2026-w46-en-fr.text.md: 150 exercises, 44555 bytes
+===== DONE fr =====

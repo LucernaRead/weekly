@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +24 strings / -24 strings; CJK core 163 -> edition 193; added CJK chars: 104 {'週': 7, '讀': 4, '德': 2, '國': 6, '正': 2, '的': 1, '語': 5, '報': 2, '隊': 4, '聖': 2}
+p2: +22 strings / -22 strings; CJK core 208 -> edition 218; added CJK chars: 74 {'與': 1, '譯': 1, '歡': 3, '個': 1, '節': 3, '燈': 2, '籠': 2, '麪': 2, '聖': 3, '馬': 3}
+p3: +28 strings / -28 strings; CJK core 188 -> edition 198; added CJK chars: 79 {'文': 2, '聖': 4, '馬': 4, '歡': 2, '節': 2, '與': 1, '顧': 1, '譯': 1, '鵝': 3, '聲': 1}
+p4: +15 strings / -15 strings; CJK core 156 -> edition 166; added CJK chars: 62 {'體': 2, '國': 1, '隊': 1, '與': 2, '譯': 1, '場': 1, '賽': 3, '獲': 1, '勝': 1, '說': 2}
+p5: +28 strings / -28 strings; CJK core 184 -> edition 194; added CJK chars: 80 {'燈': 3, '籠': 3, '與': 1, '學': 2, '譯': 1, '製': 2, '課': 1, '間': 1, '場': 1, '喬': 1}
+p6: +21 strings / -21 strings; CJK core 217 -> edition 227; added CJK chars: 81 {'讀': 4, '紀': 5, '與': 1, '電': 2, '稅': 2, '譯': 1, '獻': 1, '靜': 2, '聯': 1, '繫': 1}
+p7: +36 strings / -36 strings; CJK core 401 -> edition 411; added CJK chars: 125 {'語': 5, '週': 4, '與': 2, '糾': 3, '錯': 4, '診': 3, '專': 1, '節': 1, '課': 1, '文': 2}
+p8: +116 strings / -121 strings; CJK core 1389 -> edition 1072; added CJK chars: 438 {'練': 3, '習': 1, '與': 3, '綜': 2, '評': 1, '本': 1, '選': 2, '項': 2, '問': 3, '閱': 1}
+TOTAL added CJK characters: 1043

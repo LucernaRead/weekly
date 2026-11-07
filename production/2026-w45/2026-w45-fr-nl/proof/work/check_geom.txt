@@ -1,0 +1,151 @@
+===== ED right-edge (ink_right>1885 or adv_end>1885) =====
+ p2-vie.svg adv=1885.00 ink_right=1885.04 y=1598.0 x=1885.0 'lundi 2 novembre · let op: de 1e is le premier, andere dagen gebruiken hoofdtelw'
+ p2-vie.svg adv=1885.00 ink_right=1885.15 y=1918.0 x=1885.0 'Antwoorden op pagina 8 · oefeningen zijn gemengd per niveau; zoek antwoorden op '
+ p8-exercices.svg adv=1891.25 ink_right=1891.25 y=998.0 x=1485.0 "b. une soirée qui dure jusqu'à la nuit"
+ p8-exercices.svg adv=1891.30 ink_right=1891.25 y=1074.0 x=1485.0 'd. le coquillage fêté à Port-en-Bessin'
+ p8-exercices.svg adv=1899.58 ink_right=1899.50 y=1112.0 x=1485.0 'e. plusieurs concerts en une semaine'
+===== ED same-baseline P1 y=92 + footers y=2624 =====
+ p1-une.svg y=92.0: 3 segs gaps=[337.4, 112.0]
+ p1-une.svg y=2624.0: 2 segs gaps=[782.2]
+ p2-vie.svg y=92.0: 0 segs gaps=[]
+ p2-vie.svg y=2624.0: 2 segs gaps=[782.2]
+ p3-culture.svg y=92.0: 0 segs gaps=[]
+ p3-culture.svg y=2624.0: 2 segs gaps=[782.2]
+ p4-sport.svg y=92.0: 0 segs gaps=[]
+ p4-sport.svg y=2624.0: 2 segs gaps=[782.2]
+ p5-jeunesse.svg y=92.0: 0 segs gaps=[]
+ p5-jeunesse.svg y=2624.0: 2 segs gaps=[782.2]
+ p6-politique.svg y=92.0: 0 segs gaps=[]
+ p6-politique.svg y=2624.0: 2 segs gaps=[782.2]
+ p7-langue.svg y=92.0: 0 segs gaps=[]
+ p7-langue.svg y=2624.0: 2 segs gaps=[782.2]
+ p8-exercices.svg y=92.0: 0 segs gaps=[]
+ p8-exercices.svg y=2624.0: 2 segs gaps=[782.2]
+===== ED orphan scan window 10-45 =====
+ p1-une.svg SHORT-FINAL y=1604.0: 'p.8' (block 7 lines)
+ p2-vie.svg SHORT-FINAL y=2140.9: '___' (block 2 lines)
+ p2-vie.svg SHORT-FINAL y=2459.100000000001: '___' (block 2 lines)
+ p3-culture.svg LINESTART y=789.65: ": on le pose sur les tombes, on ne l'offre jamais"
+ p3-culture.svg SHORT-FINAL y=2405.3499999999995: '7).' (block 4 lines)
+ p4-sport.svg LINESTART y=837.1199999999999: ': quarts de finale vendredi 6'
+ p4-sport.svg LINESTART y=932.625: '! » — Wat een actie!'
+ p5-jeunesse.svg LINESTART y=430.64999999999986: ': clôture du festival.'
+ p7-langue.svg LINESTART y=428.1: ": attention à l'accord avec le sujet :"
+===== ED P8 calibers =====
+  battery(194-1526): n=152 max_baseline=1455.83 max_ink_bottom=1456.08 gap_to_2580=1123.92
+    col x=65.0: n=29 maxbase=1455.83 maxink=1456.08
+    col x=95.0: n=3 maxbase=1396.83 maxink=1396.83
+    col x=137.0: n=3 maxbase=1397.83 maxink=1398.08
+    col x=527.0: n=26 maxbase=1430.20 maxink=1435.45
+    col x=557.0: n=7 maxbase=1371.20 maxink=1371.20
+    col x=599.0: n=7 maxbase=1372.20 maxink=1372.45
+    col x=989.0: n=22 maxbase=1401.00 maxink=1406.25
+    col x=1019.0: n=9 maxbase=1342.00 maxink=1342.00
+    col x=1061.0: n=9 maxbase=1343.00 maxink=1343.25
+    col x=1451.0: n=20 maxbase=1426.52 maxink=1431.02
+    col x=1481.0: n=5 maxbase=692.00 maxink=692.00
+    col x=1485.0: n=6 maxbase=1112.00 maxink=1118.00
+    col x=1523.0: n=5 maxbase=693.00 maxink=693.25
+    col x=1647.0: n=1 maxbase=693.00 maxink=693.25
+  answers(>=1838,excl footer): n=116 max_baseline=2537.73 max_ink_bottom=2540.73 gap_to_2580=39.27
+    col x=65.0: n=29 maxbase=2533.38 maxink=2536.88
+    col x=527.0: n=27 maxbase=2537.73 maxink=2540.73
+    col x=989.0: n=29 maxbase=2531.92 maxink=2535.67
+    col x=1451.0: n=31 maxbase=2480.00 maxink=2483.50
+===== ED P7 reader box + preview =====
+  rects: [(28.0, 28.0, 1922.0, 2672.0, 'none'), (40.0, 40.0, 1910.0, 2660.0, 'none'), (65.0, 1649.825, 125.0, 1679.825, '#8a6d3b'), (527.0, 1677.8500000000004, 587.0, 1707.8500000000004, '#8a6d3b'), (989.0, 1590.5, 1049.0, 1620.5, '#a4553a'), (65.0, 2017.95, 125.0, 2047.95, '#3e4c2a'), (65.0, 2148.7, 125.0, 2178.7, '#3e4c2a'), (527.0, 1878.0, 587.0, 1908.0, '#a4553a'), (527.0, 2008.75, 587.0, 2038.75, '#8a6d3b'), (989.0, 1878.0, 1885.0, 2258.0, '#fdfaf0'), (989.0, 2270.0, 1885.0, 2540.0, '#2c2822')]
+   rect (65.0, 2017.95, 125.0, 2047.95, '#3e4c2a')
+   rect (65.0, 2148.7, 125.0, 2178.7, '#3e4c2a')
+   rect (527.0, 1878.0, 587.0, 1908.0, '#a4553a')
+   rect (527.0, 2008.75, 587.0, 2038.75, '#8a6d3b')
+   rect (989.0, 1878.0, 1885.0, 2258.0, '#fdfaf0')
+   rect (989.0, 2270.0, 1885.0, 2540.0, '#2c2822')
+  preview head {'x': 1013.0, 'y': 2316.0, 'fam': 'Noto Sans CJK SC', 'size': 24.0, 'bold': True, 'anchor': 'start', 's': 'LA SEMAINE PROCHAINE · VOL.4 VOLGENDE WEEK'}
+  P7 max ink bottom excl footer: 2499.00 at baseline 2494.0
+===== ED P6 chart coverage =====
+  chart texts: 12
+  max coverage: 0.0%
+===== ED P1 gloss wrapped lines =====
+  y=1375.9 x=545.0 fs=20.5 'Uitleg — se jouer beslist worden · une'
+  y=1728.0 x=1451.0 fs=21.5 '« se jouer » : se décider. Ce week-end,'
+===== CORE right-edge (ink_right>1885 or adv_end>1885) =====
+ p1-une.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 1 版 / 共 8 版'
+ p2-vie.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 2 版 / 共 8 版'
+ p3-culture.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 3 版 / 共 8 版'
+ p4-sport.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 4 版 / 共 8 版'
+ p5-jeunesse.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 5 版 / 共 8 版'
+ p6-politique.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 6 版 / 共 8 版'
+ p7-langue.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 7 版 / 共 8 版'
+ p8-exercices.svg adv=1891.25 ink_right=1891.25 y=940.0 x=1485.0 "b. une soirée qui dure jusqu'à la nuit"
+ p8-exercices.svg adv=1891.30 ink_right=1891.25 y=1016.0 x=1485.0 'd. le coquillage fêté à Port-en-Bessin'
+ p8-exercices.svg adv=1899.58 ink_right=1899.50 y=1054.0 x=1485.0 'e. plusieurs concerts en une semaine'
+ p8-exercices.svg adv=1885.00 ink_right=1885.07 y=2624.0 x=1885.0 '第 8 版 / 共 8 版'
+===== CORE same-baseline P1 y=92 + footers y=2624 =====
+ p1-une.svg y=92.0: 3 segs gaps=[387.5, 196.2]
+ p1-une.svg y=2624.0: 2 segs gaps=[1157.1]
+ p2-vie.svg y=92.0: 0 segs gaps=[]
+ p2-vie.svg y=2624.0: 2 segs gaps=[1157.1]
+ p3-culture.svg y=92.0: 0 segs gaps=[]
+ p3-culture.svg y=2624.0: 2 segs gaps=[1157.1]
+ p4-sport.svg y=92.0: 0 segs gaps=[]
+ p4-sport.svg y=2624.0: 2 segs gaps=[1157.1]
+ p5-jeunesse.svg y=92.0: 0 segs gaps=[]
+ p5-jeunesse.svg y=2624.0: 2 segs gaps=[1157.1]
+ p6-politique.svg y=92.0: 0 segs gaps=[]
+ p6-politique.svg y=2624.0: 2 segs gaps=[1157.1]
+ p7-langue.svg y=92.0: 0 segs gaps=[]
+ p7-langue.svg y=2624.0: 2 segs gaps=[1157.1]
+ p8-exercices.svg y=92.0: 0 segs gaps=[]
+ p8-exercices.svg y=2624.0: 2 segs gaps=[1157.1]
+===== CORE orphan scan window 10-45 =====
+ p1-une.svg SHORT-FINAL y=1604.0: 'p.8' (block 7 lines)
+ p2-vie.svg SHORT-FINAL y=2140.9: '___' (block 2 lines)
+ p2-vie.svg SHORT-FINAL y=2459.100000000001: '___' (block 2 lines)
+ p3-culture.svg SHORT-FINAL y=488.62500000000006: '填空。' (block 2 lines)
+ p3-culture.svg SHORT-FINAL y=1054.3749999999995: '）。' (block 2 lines)
+ p3-culture.svg LINESTART y=789.65: ": on le pose sur les tombes, on ne l'offre jamais"
+ p3-culture.svg SHORT-FINAL y=2405.3499999999995: '7).' (block 4 lines)
+ p4-sport.svg LINESTART y=837.1199999999999: ': quarts de finale vendredi 6'
+ p5-jeunesse.svg LINESTART y=430.64999999999986: ': clôture du festival.'
+ p6-politique.svg SHORT-FINAL y=1953.1749999999995: '填空。' (block 2 lines)
+ p7-langue.svg SHORT-FINAL y=1347.375: '）。' (block 2 lines)
+ p7-langue.svg SHORT-FINAL y=1259.775: '分词。' (block 2 lines)
+ p7-langue.svg LINESTART y=428.1: ": attention à l'accord avec le sujet :"
+===== CORE P8 calibers =====
+  battery(194-1526): n=150 max_baseline=1455.83 max_ink_bottom=1456.08 gap_to_2580=1123.92
+    col x=65.0: n=29 maxbase=1455.83 maxink=1456.08
+    col x=95.0: n=3 maxbase=1396.83 maxink=1396.83
+    col x=137.0: n=3 maxbase=1397.83 maxink=1398.08
+    col x=527.0: n=26 maxbase=1430.20 maxink=1435.45
+    col x=557.0: n=7 maxbase=1371.20 maxink=1371.20
+    col x=599.0: n=7 maxbase=1372.20 maxink=1372.45
+    col x=989.0: n=22 maxbase=1401.00 maxink=1406.25
+    col x=1019.0: n=9 maxbase=1342.00 maxink=1342.00
+    col x=1061.0: n=9 maxbase=1343.00 maxink=1343.25
+    col x=1451.0: n=18 maxbase=1368.52 maxink=1373.02
+    col x=1481.0: n=5 maxbase=634.00 maxink=634.00
+    col x=1485.0: n=6 maxbase=1054.00 maxink=1060.00
+    col x=1523.0: n=5 maxbase=635.00 maxink=635.25
+    col x=1647.0: n=1 maxbase=635.00 maxink=636.75
+  answers(>=1838,excl footer): n=99 max_baseline=2539.19 max_ink_bottom=2541.23 gap_to_2580=38.77
+    col x=65.0: n=27 maxbase=2539.19 maxink=2540.69
+    col x=527.0: n=27 maxbase=2537.73 maxink=2541.23
+    col x=989.0: n=31 maxbase=2526.11 maxink=2527.86
+    col x=1451.0: n=14 maxbase=2137.45 maxink=2138.95
+===== CORE P7 reader box + preview =====
+  rects: [(28.0, 28.0, 1922.0, 2672.0, 'none'), (40.0, 40.0, 1910.0, 2660.0, 'none'), (65.0, 1649.825, 125.0, 1679.825, '#8a6d3b'), (527.0, 1593.0250000000003, 587.0, 1623.0250000000003, '#8a6d3b'), (989.0, 1719.5500000000004, 1049.0, 1749.5500000000004, '#3e4c2a'), (65.0, 1988.225, 125.0, 2018.225, '#3e4c2a'), (65.0, 2118.975, 125.0, 2148.975, '#3e4c2a'), (527.0, 1878.0, 587.0, 1908.0, '#a4553a'), (527.0, 2008.75, 587.0, 2038.75, '#8a6d3b'), (989.0, 1878.0, 1885.0, 2258.0, '#fdfaf0'), (989.0, 2270.0, 1885.0, 2540.0, '#2c2822')]
+   rect (989.0, 1719.5500000000004, 1049.0, 1749.5500000000004, '#3e4c2a')
+   rect (65.0, 1988.225, 125.0, 2018.225, '#3e4c2a')
+   rect (65.0, 2118.975, 125.0, 2148.975, '#3e4c2a')
+   rect (527.0, 1878.0, 587.0, 1908.0, '#a4553a')
+   rect (527.0, 2008.75, 587.0, 2038.75, '#8a6d3b')
+   rect (989.0, 1878.0, 1885.0, 2258.0, '#fdfaf0')
+   rect (989.0, 2270.0, 1885.0, 2540.0, '#2c2822')
+  preview head {'x': 1013.0, 'y': 2316.0, 'fam': 'Noto Sans CJK SC', 'size': 24.0, 'bold': True, 'anchor': 'start', 's': 'LA SEMAINE PROCHAINE · VOL.4 下周预告'}
+  P7 max ink bottom excl footer: 2469.50 at baseline 2466.0
+===== CORE P6 chart coverage =====
+  chart texts: 12
+  max coverage: 0.0%
+===== CORE P1 gloss wrapped lines =====
+  y=1375.9 x=545.0 fs=20.5 '译注｜se jouer 决出胜负、上演 · une'
+  y=1728.0 x=1451.0 fs=21.5 '« se jouer » : se décider. Ce week-end,'

@@ -1,0 +1,97 @@
+{
+ "svgdir": "../files/weekly-report-w45-pt-core/svg",
+ "flags": [
+  {
+   "page": "p1-capa.svg",
+   "class": "LINEX",
+   "text": "“连休”：假期连着周末，一共三天。",
+   "box": [
+    1451.0,
+    1830.0,
+    1774.0,
+    1848.5
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@142"
+  },
+  {
+   "page": "p1-capa.svg",
+   "class": "BOXTITLE",
+   "text": "A SEMANA EM NÚMEROS · 数字看本周",
+   "box": [
+    544.8,
+    1417.7,
+    968.5,
+    1443.5
+   ],
+   "detail": "ink crosses its box borders: right ink 968.5 > border 961.0",
+   "by": "rect@61"
+  },
+  {
+   "page": "p2-vida.svg",
+   "class": "TEXTX",
+   "text": "a prova começa",
+   "box": [
+    1117.0,
+    1646.5,
+    1280.2,
+    1663.5
+   ],
+   "detail": "ink overlaps '13h30' by 15.8x14.2px",
+   "by": "text@95"
+  },
+  {
+   "page": "p6-aprofundamento.svg",
+   "class": "TEXTX",
+   "text": "330 min",
+   "box": [
+    676.2,
+    1762.2,
+    755.8,
+    1778.2
+   ],
+   "detail": "ink overlaps 'Minutos do domingo 8: 60 + 30 + 330 = 42' by 79.5x12.8px",
+   "by": "text@84"
+  },
+  {
+   "page": "p6-aprofundamento.svg",
+   "class": "TEXTX",
+   "text": "Minutos do domingo 8: 60 + 30 + 330 = 420 minutos do meio-di",
+   "box": [
+    87.0,
+    1765.5,
+    894.0,
+    1789.0
+   ],
+   "detail": "ink overlaps 'prova' by 58.2x16.2px",
+   "by": "text@81"
+  },
+  {
+   "page": "p6-aprofundamento.svg",
+   "class": "TEXTX",
+   "text": "Fonte: Inep — as provas são nos dias 8 e 15.",
+   "box": [
+    1011.0,
+    1839.8,
+    1362.0,
+    1858.0
+   ],
+   "detail": "ink overlaps 'Dia 15 — a cobertura sai na próxima ediç' by 351.0x16.5px",
+   "by": "text@92"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "连休是 10 月 31 日到 11 月 2 日，共三天。",
+   "box": [
+    1473.0,
+    1038.5,
+    1837.2,
+    1057.5
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1057.5 > border 1056.5",
+   "by": "rect@108"
+  }
+ ],
+ "flag_count": 7
+}

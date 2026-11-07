@@ -1,0 +1,73 @@
+=== 1. removed strings with NO char in freeze CJK_RE (tool definition) ===
+  P1 REM x1: 'EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA'
+  P5 REM x1: 'la NFL.'
+  P6 REM x1: 'indecisos · margen de error'
+  P8 REM x1: '1. programas — las listas ya están presentadas; ahora se escriben'
+  P8 REM x1: 'los programas'
+
+=== 2. core long texts (>=40 chars) missing verbatim from edition ===
+  p1: core long texts=20 missing=4
+    MISSING: 'CADA SEMANA EN ESPAÑOL · 每周一期 · 读西班牙人正在读的西班牙语'
+    MISSING: '西 班 牙 语 周 报 · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL'
+    MISSING: 'EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p2: core long texts=16 missing=3
+    MISSING: 'NIVEL A2 · El puente del lunes 2 · 11 月 2 日的连休'
+    MISSING: 'lunes 2 – domingo 8 de noviembre · 11 月 2 日周一至 8 日周日'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p3: core long texts=20 missing=2
+    MISSING: 'A2 → B1 · La semana pasada: tres noches de otoño · 上周的三个秋夜'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p4: core long texts=23 missing=3
+    MISSING: 'NIVEL B1 · Europa primero, el domingo a las 21:00 · 欧战在先，周日晚九点'
+    MISSING: 'LA SEMANA EUROPEA Y LA JORNADA 12 · 欧战周与联赛第 12 轮'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p5: core long texts=18 missing=2
+    MISSING: 'El Bernabéu ___ (原形 acoger) un partido de'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p6: core long texts=31 missing=2
+    MISSING: 'NIVEL B2 · La vivienda decide la campaña · 住房决定选战'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p7: core long texts=22 missing=3
+    MISSING: '语言聚焦 · Tres niveles, tres herramientas · 三个级别，三件工具'
+    MISSING: '11 月 8 日周日，马德里有两场约会：15:30 的 NFL 和 21:00 的马竞对巴萨。 (Página 1)'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+  p8: core long texts=75 missing=23
+    MISSING: '第 8 版 · La gran prueba de la semana + todas las respuestas'
+    MISSING: '1. programas — las listas ya están presentadas; ahora se escriben'
+    MISSING: '30. Verdadero — Castanyada 吃烤栗子、红薯和 panellets'
+    MISSING: '43. Las familias llevan flores al cementerio. — 动词第二位'
+    MISSING: '44. El sábado comemos castañas asadas. — 时间在前，动词第二'
+    MISSING: '45. En Galicia celebran el Samaín. — 地点在前，动词第二'
+    MISSING: '46. Todos preguntan si el lunes es fiesta. — 间接疑问用 si'
+    MISSING: '56. más importante — más + importante（马竞–巴萨更重要）'
+    MISSING: '57. muchísimos — muchísimos partidos 比赛很多'
+    MISSING: '64. Los aficionados fueron al estadio. — ir 的过去时是 fueron'
+    MISSING: '76. Vamos a ver la NFL el domingo. — vamos a + 原形'
+    MISSING: '77. Va a tocar el himno de España. — va a + 原形'
+    MISSING: '78. Vas a comprar un disfraz el sábado. — vas a + 原形'
+    MISSING: '79. Van a llenar las calles de calabazas. — van a + 原形'
+    MISSING: '81. Falso — 美国国歌由 Momsen 演唱，不是 Sáinz-Villegas'
+    MISSING: '100. margen de error — margen de error = 误差范围'
+    MISSING: '133. El lunes es festivo en Madrid. — 主语 + 动词 + 地点'
+    MISSING: '134. El domingo vemos la NFL en el Bernabéu. — 时间在前'
+    MISSING: '135. El Atlético–Barça empieza a las nueve. — a las nueve = 在九点'
+    MISSING: '136. ¿A qué hora empieza el partido? — 疑问词在句首'
+    MISSING: '139. El Bernabéu acoge un partido de la NFL. — acoger = 承办'
+    MISSING: '140. Cada gráfico tiene que llevar su fuente. — tener que = 必须'
+    MISSING: 'La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY'
+
+=== 3. core texts containing NO CJK at all, missing verbatim (short too) ===
+  p1: missing-noCJK-texts=1
+    MISSING: 'EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA'
+  p2: missing-noCJK-texts=0
+  p3: missing-noCJK-texts=0
+  p4: missing-noCJK-texts=0
+  p5: missing-noCJK-texts=1
+    MISSING: 'la NFL.'
+  p6: missing-noCJK-texts=1
+    MISSING: 'indecisos · margen de error'
+  p7: missing-noCJK-texts=0
+  p8: missing-noCJK-texts=2
+    MISSING: '1. programas — las listas ya están presentadas; ahora se escriben'
+    MISSING: 'los programas'

@@ -1,0 +1,24 @@
+== 1. same-baseline collisions ==
+  p1-front.svg: CLEAN
+  p2-life.svg: CLEAN
+  p3-culture.svg: CLEAN
+  p4-sport.svg: CLEAN
+  p5-jeunesse.svg: CLEAN
+  p6-politique.svg: CLEAN
+  p7-langue.svg: CLEAN
+  p8-exercices.svg: CLEAN
+== 2. P6 chart-label coverage ==
+  worst chart-label bbox coverage: 0.0% ('—')
+  verdict: below 30% threshold
+== 3. gloss counts (gloss strings carry the edition prefix; counts compared)
+== 3. gloss counts (split rendered gloss strings on ·) ==
+  content12.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
+  bridge content12.py: core '讲解｜an armistice 停战协定 · a veteran 退伍军人 · to fall si' ed 'Completa las frases según la fecha y la hora.'
+  bridge content12.py: core '根据日期与时间，用英语补全句子。' ed 'Reescribe con will + verbo (promesas).'
+  bridge content12.py: core '用 will + 动词改写（承诺与将要发生的事）。' ed 'Lee el artículo de la página 2 y elige.'
+  bridge content7.py: core '工具箱｜本期三句随身句，按级各一；金句全部出自本期文章，回读原文最有效。' ed 'Tres frases de bolsillo, una por nivel; todas las '
+  bridge content7.py: core '每句有一处错误：找出来并改正。' ed 'Cada frase tiene un error: búscalo y corrígelo.'

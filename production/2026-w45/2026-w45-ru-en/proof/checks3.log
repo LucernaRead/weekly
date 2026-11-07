@@ -1,0 +1,36 @@
+p1-pervaya.svg images core 1 ed 1 elements-identical True
+p2-zhizn.svg images core 0 ed 0 elements-identical True
+p3-kultura.svg images core 0 ed 0 elements-identical True
+p4-sport.svg images core 1 ed 1 elements-identical True
+p5-molodezh.svg images core 1 ed 1 elements-identical True
+p6-razbor.svg images core 0 ed 0 elements-identical True
+p7-yazyk.svg images core 0 ed 0 elements-identical True
+p8-test.svg images core 0 ed 0 elements-identical True
+== footers core
+  p1-pervaya.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 1 版 / 共 8 版']
+  p2-zhizn.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 2 版 / 共 8 版']
+  p3-kultura.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 3 版 / 共 8 版']
+  p4-sport.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 4 版 / 共 8 版']
+  p5-molodezh.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 5 版 / 共 8 版']
+  p6-razbor.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 6 版 / 共 8 版']
+  p7-yazyk.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 7 版 / 共 8 版']
+  p8-test.svg ['Lucerna · 俄语周报 VOL.2 · LUCERNA RUSSIAN WEEKLY', '第 8 版 / 共 8 版']
+== footers ed
+  p1-pervaya.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 1 of 8']
+  p2-zhizn.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 2 of 8']
+  p3-kultura.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 3 of 8']
+  p4-sport.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 4 of 8']
+  p5-molodezh.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 5 of 8']
+  p6-razbor.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 6 of 8']
+  p7-yazyk.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 7 of 8']
+  p8-test.svg ['Lucerna · RUSSIAN WEEKLY VOL.2 · Russian text · English explanations', 'Page 8 of 8']
+core top-centre: ['КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · 俄语正文 · 中文讲解']
+ed top-centre: ['КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · ONE ISSUE A WEEK · THE RUSSIAN RUSSIANS READ']
+== gloss source core
+  content12.py calls 3 items-per-call [3, 3, 3] total 9
+  content34.py calls 3 items-per-call [3, 3, 3] total 9
+  content56.py calls 3 items-per-call [3, 2, 3] total 8
+== gloss source ed
+  content12.py calls 3 items-per-call [3, 3, 3] total 9
+  content34.py calls 3 items-per-call [3, 3, 3] total 9
+  content56.py calls 3 items-per-call [3, 2, 3] total 8

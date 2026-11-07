@@ -1,0 +1,71 @@
+{
+ "svgdir": "files/weekly-report-w45-zh-cn-fr/svg",
+ "flags": [
+  {
+   "page": "p1-touiban.svg",
+   "class": "BOXTITLE",
+   "text": "数字看本周 · Les chiffres de la semaine",
+   "box": [
+    545.0,
+    1082.6,
+    981.5,
+    1105.1
+   ],
+   "detail": "ink crosses its box borders: right ink 981.5 > border 961.0",
+   "by": "rect@48"
+  },
+  {
+   "page": "p1-touiban.svg",
+   "class": "BOXTITLE",
+   "text": "Les équipes du S16 dépendent de la phase suisse",
+   "box": [
+    1473.0,
+    1227.5,
+    1905.5,
+    1248.2
+   ],
+   "detail": "ink crosses its box borders: right ink 1905.5 > border 1885.0",
+   "by": "rect@90"
+  },
+  {
+   "page": "p2-shenghuo.svg",
+   "class": "TEXTX",
+   "text": "expédiées",
+   "box": [
+    87.0,
+    1760.3,
+    176.0,
+    1781.0
+   ],
+   "detail": "ink overlaps 'Retenez la phrase : 「买现货不用等，先看结算页，再付款。」' by 89.0x10.5px",
+   "by": "text@116"
+  },
+  {
+   "page": "p2-shenghuo.svg",
+   "class": "BOXTITLE",
+   "text": "本周生活小日历 · Les dates de la semaine",
+   "box": [
+    1007.0,
+    553.6,
+    1466.8,
+    575.9
+   ],
+   "detail": "ink crosses its box borders: right ink 1466.8 > border 1423.0",
+   "by": "rect@74"
+  },
+  {
+   "page": "p5-qingnian.svg",
+   "class": "BOXTITLE",
+   "text": "这一周的高频词 · Les mots de la semaine",
+   "box": [
+    545.0,
+    854.4,
+    999.5,
+    876.9
+   ],
+   "detail": "ink crosses its box borders: right ink 999.5 > border 961.0",
+   "by": "rect@53"
+  }
+ ],
+ "flag_count": 5
+}

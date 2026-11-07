@@ -1,0 +1,44 @@
+===== de =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-de/svg: 3 flags {'BOXTITLE': 2, 'EDGE': 1}
+  [EDGE] p1-prima.svg 'Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei' — ink box (1473.0, 1250.9000000000005, 2134.5, 1268.4000000000005) outside page 1950.0x2700.0
+  [BOXTITLE] p1-prima.svg 'Der Wochenplan · Cosa succede, giorno per giorno' — ink crosses its box borders: right ink 1929.5 > border 1885.0
+  [BOXTITLE] p1-prima.svg 'Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei' — ink crosses its box borders: right ink 2134.5 > border 1885.0
+===== en =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-en/svg: 0 flags 
+===== es =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-es/svg: 4 flags {'EDGE': 1, 'LINEX': 1, 'TEXTX': 2}
+  [EDGE] p2-vita.svg 'Emparejar palabras y definiciones' — ink box (1647.0, 1911.25, 1954.0, 1931.75) outside page 1950.0x2700.0
+  [TEXTX] p4-sport.svg 'Emparejar palabras y definiciones' — ink overlaps 'B1' by 23.1x14.0px
+  [LINEX] p7-lingua.svg 'escribid a la redacción.' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+  [TEXTX] p8-valutazione.svg 'Emparejar palabras y definiciones' — ink overlaps 'weekend.' by 41.2x12.8px
+===== fr =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-fr/svg: 0 flags 
+===== ja =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-ja/svg: 1 flags {'LINEX': 1}
+  [LINEX] p7-lingua.svg 'ください。' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+===== ko =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-ko/svg: 0 flags 
+===== nl =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-nl/svg: 1 flags {'LINEX': 1}
+  [LINEX] p7-lingua.svg 'redactie.' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+===== pt =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-pt/svg: 0 flags 
+===== ru =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-ru/svg: 5 flags {'BOXTITLE': 2, 'EDGE': 1, 'LINEX': 1, 'TEXTX': 1}
+  [EDGE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink box (1473.0, 1250.9000000000005, 1990.25, 1268.1500000000005) outside page 1950.0x2700.0
+  [BOXTITLE] p1-prima.svg 'План недели · Cosa succede, giorno per giorno' — ink crosses its box borders: right ink 1902.8 > border 1885.0
+  [BOXTITLE] p1-prima.svg 'Даты — по календарям мероприятий; время может измениться.' — ink crosses its box borders: right ink 1990.2 > border 1885.0
+  [LINEX] p7-lingua.svg 'настоящих писем и лучших сочинений' — later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink
+  [TEXTX] p8-valutazione.svg 'Соединить слова и значения' — ink overlaps 'weekend.' by 10.5x12.8px
+===== zh-tw =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-it-zh-tw/svg: 0 flags 

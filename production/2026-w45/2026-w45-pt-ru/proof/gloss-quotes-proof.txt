@@ -1,0 +1,42 @@
+P2: count=6
+    FOUND o feriadão = длинные праздничные выходные
+    FOUND o cemitério = кладбище
+    FOUND a vela = свеча
+    FOUND o crisântemo = хризантема
+    FOUND a missa = месса
+    FOUND conferir = проверять.
+P3: count=6
+    FOUND o túmulo = надгробие
+    FOUND a flor = цветок
+    FOUND acender = зажигать
+    FOUND rezar = молиться
+    FOUND o silêncio = тишина
+    FOUND a lembrança = воспоминание.
+P4: count=5
+    FOUND a ida = первый матч
+    FOUND a volta = ответный матч
+    FOUND o finalista = финалист
+    FOUND a decisão = решающий матч
+    FOUND a rodada = тур.
+P5: count=5
+    FOUND a reta final = последний рывок
+    FOUND a véspera = канун
+    FOUND a maratona = ночная зубрёжка
+    FOUND separar = приготовить
+    FOUND a cabeça = голова, состояние.
+P6: count=4
+    FOUND os portões = ворота
+    FOUND a segunda chamada = пересдача, повторный вход
+    FOUND conferir = проверять
+    FOUND a correria = спешка.
+--- P7 quotes ---
+src P1: full=2 p7=1 coreP1=True ruP1=True 'Do feriadão à prova: a semana do Enem'
+src P1: full=2 p7=1 coreP1=True ruP1=True 'Muita gente viaja, visita a família e vai ao cemitério '
+src P2: full=2 p7=1 coreP2=True ruP2=True 'Finados é o dia da memória'
+src P3: full=2 p7=1 coreP3=True ruP3=True 'lembrar é um jeito de continuar perto'
+src P4: full=2 p7=1 coreP4=True ruP4=True 'cada ponto vale uma posição, cada gol vale uma história'
+src P5: full=2 p7=1 coreP5=True ruP5=True 'quem dorme bem lembra melhor'
+src P6: full=2 p7=1 coreP6=True ruP6=True 'primeiro as fáceis, depois as difíceis'
+src P2: full=2 p7=1 coreP2=True ruP2=True 'Confira o cartão, durma bem, chegue cedo'
+--- P7 page tags ---
+tag counter: {'1': 2, '2': 2, '3': 1, '4': 1, '5': 1, '6': 1}

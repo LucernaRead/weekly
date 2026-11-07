@@ -1,0 +1,32 @@
+===== ED =====
+  content12: gloss boxes(calls)=6 items(split ·)=21
+    glossline calls=3
+  content34: gloss boxes(calls)=7 items(split ·)=20
+    glossline calls=6
+  content56: gloss boxes(calls)=7 items(split ·)=20
+    glossline calls=8
+  TOTAL gloss items=61 boxes=20
+  content7 glosslines=3 items=[2, 2, 2]
+    P7 glossline: '본격적 本格的 · 나다 過ごす。'
+    P7 glossline: '남다 残る · 바로 ちょうど。'
+    P7 glossline: '짐작하다 推測する · 나누다 区別する。'
+===== CORE =====
+  content12: gloss boxes(calls)=6 items(split ·)=21
+    glossline calls=3
+  content34: gloss boxes(calls)=7 items(split ·)=20
+    glossline calls=6
+  content56: gloss boxes(calls)=7 items(split ·)=20
+    glossline calls=8
+  TOTAL gloss items=61 boxes=20
+  content7 glosslines=3 items=[2, 2, 2]
+    P7 glossline: '본격적 正式、全面 · 나다 度过。'
+    P7 glossline: '남다 剩下 · 바로 正是、恰恰。'
+    P7 glossline: '짐작하다 推测 · 나누다 区分。'
+p1: ED start=1 substr=2 double=0 | CORE start=1 substr=1
+p2: ED start=5 substr=5 double=0 | CORE start=5 substr=5
+p3: ED start=4 substr=4 double=0 | CORE start=4 substr=4
+p4: ED start=3 substr=3 double=0 | CORE start=3 substr=3
+p5: ED start=4 substr=4 double=0 | CORE start=4 substr=4
+p6: ED start=3 substr=3 double=0 | CORE start=3 substr=3
+p7: ED start=0 substr=0 double=0 | CORE start=0 substr=0
+p8: ED start=0 substr=0 double=0 | CORE start=0 substr=0

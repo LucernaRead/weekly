@@ -1,0 +1,72 @@
+BRIDGE edition-svg: count=0
+BRIDGE core-svg: count=0
+BRIDGE kit: 0 abstract: 0
+LATIN core_total=5878 edition_total=5878
+LATIN distinct_diff_tokens=22
+  LATDIFF '2' +17 (core 61 -> ed 78)
+  LATDIFF 'Enem' +10 (core 37 -> ed 47)
+  LATDIFF 'LUCERNA' -8 (core 8 -> ed 0)
+  LATDIFF 'PORTUGUESE' -8 (core 8 -> ed 0)
+  LATDIFF 'PÁGINA' -8 (core 8 -> ed 0)
+  LATDIFF 'WEEKLY' -8 (core 8 -> ed 0)
+  LATDIFF '3' +7 (core 20 -> ed 27)
+  LATDIFF '1' +5 (core 33 -> ed 38)
+  LATDIFF 'VOL' +3 (core 13 -> ed 16)
+  LATDIFF 'BRASIL' -2 (core 2 -> ed 0)
+  LATDIFF 'MG' +2 (core 0 -> ed 2)
+  LATDIFF 'O' -2 (core 71 -> ed 69)
+  LATDIFF 'EM' -1 (core 7 -> ed 6)
+  LATDIFF 'PORTUGUÊS' -1 (core 2 -> ed 1)
+  LATDIFF 'PARA' -1 (core 2 -> ed 1)
+  LATDIFF 'SEMANAL' -1 (core 1 -> ed 0)
+  LATDIFF 'VERDADE' -1 (core 1 -> ed 0)
+  LATDIFF 'APRENDER' -1 (core 1 -> ed 0)
+  LATDIFF 'DO' -1 (core 12 -> ed 11)
+  LATDIFF 'DE' -1 (core 5 -> ed 4)
+  LATDIFF 'JORNAL' -1 (core 1 -> ed 0)
+  LATDIFF '8' +1 (core 88 -> ed 89)
+FREEZE-DIFF-KEYS: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+{"core_svg": "../files/weekly-report-w45-pt-core/svg", "edition_svg": "../files/weekly-report-w45-pt-ja/svg", "pages": {"1": {"added_strings": [{"text": "1 ページ（全 8 ページ）", "count": 1}, {"text": "11月2日死者の日の連休 · 11月8日Enem初日", "count": 1}, {"text": "13h — os portões fecham（13時閉門、遅", "count": 1}, {"text": "13h30–19h — a prova do dia 8（試験13:30", "count": 1}, {"text": "5h30 — a duração da prova do dia 8（試", "count": 1}, {"text": "A Lucerna · ポルトガル語週刊 VOL.2 · 本文はポルトガル語 · 解説は日本語", "count": 1}, {"text": "A NOTÍCIA · トップ記事", "count": 1}, {"text": "A SEMANA EM NÚMEROS · 今週の数字", "count": 1}, {"text": "AGORA VOCÊ · すぐ練習", "count": 1}, {"text": "EM POUCAS PALAVRAS · 短報", "count": 1}, {"text": "Enemの週", "count": 1}, {"text": "NESTA EDIÇÃO · 今号の目次", "count": 1}, {"text": "QUIZ RELÂMPAGO · クイズ", "count": 1}, {"text": "TODA SEMANA EM PORTUGUÊS · 毎週一号 · ブラジル人が読んでいるポルトガル語を読む", "count": 1}, {"text": "redação 小論文 · revisar 復習する。", "count": 1}, {"text": "「連休」：休みが週末につながり、全部で3日間。", "count": 1}, {"text": "から19:00まで）", "count": 1}, {"text": "トップ記事を読んで、正しい答えを選ぼう · 答えは8ページ", "count": 1}, {"text": "ポ ル ト ガ ル 語 週 刊 · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE", "count": 1}, {"text": "ポルトガル語テキスト · 日本語の解説 — 日本語読者のための版", "count": 1}, {"text": "刻は入場不可）", "count": 1}, {"text": "日曜日12時開門）", "count": 1}, {"text": "解説 — feriadão 連休 · o portão 門 · a", "count": 1}, {"text": "遅刻は入場不可：13時以降は閉門", "count": 1}, {"text": "験時間5時間半）", "count": 1}], "removed_strings": [{"text": "11 月 2 日亡灵节连休 · 11 月 8 日高考第一天", "cou
+=== JA WORD-LEVEL RESIDUAL HITS ===
+  HIT '作文' ...'編集部注：VOL.1で約束した実際の手紙と最 優秀作文は締切までに届かず、本号は例文を 掲載し、約束はV'
+  HIT '作文' ...'rigado) H · ESCREVA VOCÊ 作文問題（唯一の答えはない）；模範文（93 語）は下記'
+  HIT '作文' ...'い）；模範文（93 語）は下記。 B1 150. 作文 «O seu domingo 8 de nove'
+RESIDUAL total_hits=3 (each must be adjudicated; 0 = clean)
+=== SIMPLIFIED-ONLY GLYPH HITS ===
+SIMP total=0
+=== SINGLE-CHAR LEGAL-JA CHECK: chars present that single-char scans flag ===
+  LEGAL-WORD 現在形: present=True
+  LEGAL-WORD 目的語: present=True
+  LEGAL-WORD 場所: present=True
+  LEGAL-WORD 墓地: present=True
+  LEGAL-WORD 終了: present=True
+  LEGAL-WORD 不可: present=True
+  LEGAL-WORD 文化: present=True
+  LEGAL-WORD 数字: present=True
+=== LINE-START SCAN (per <text> element start char) ===
+ORPHAN total=0
+=== P5 prompt lines ===
+  P5 '験前夜はよく眠る）'
+  P5 'véspera 前夜 · a maratona 詰め込み勉強 ·'
+  P5 '大事な試験の前夜、復習しますか、休息し'
+  P5 'ますか。2文を書いて送ってください。'
+=== P7 feriadão definition ===
+  ED P7 '«O feriadão é de 2 a 5 de'
+  ED P7 '→ «O feriadão é de 31 a 2.» Três dias:'
+  ED P7 '« feriadão »: sábado, domingo e'
+  ED P7 'segunda — três dias de descanso.'
+  ED P7 'feriadão = 連休、全部で3日間。'
+  ED P7 '«Do feriadão à prova: a semana do Enem»'
+  ED P7 'Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática. E o feriado da Proclamação da República. Mais: as suas cartas e os melhores textos da página 8.'
+  CO P7 '«O feriadão é de 2 a 5 de'
+  CO P7 '→ «O feriadão é de 31 a 2.» Três dias:'
+  CO P7 '« feriadão »: sábado, domingo e'
+  CO P7 'segunda — três dias de descanso.'
+  CO P7 'feriadão = 连休长周末，共三天。'
+  CO P7 '«Do feriadão à prova: a semana do Enem»'
+  CO P7 'Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática. E o feriado da Proclamação da República. Mais: as suas cartas e os melhores textos da página 8.'
+=== EXERCISE NUMBERS (P8 key lines + question markers) ===
+  distinct leading-number items=150 min=1 max=150 missing=[]
+  badge-string [A2] occurrences in SVG text nodes: 0
+  badge-string [B1] occurrences in SVG text nodes: 0
+  badge-string [B2] occurrences in SVG text nodes: 0

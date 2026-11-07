@@ -1,0 +1,235 @@
+== P7-SECTION tags CORE: ['1', '2', '3', '4', '5', '6', '6', '1'] Counter={'1': 2, '2': 1, '3': 1, '4': 1, '5': 1, '6': 2}
+   P7 CORE gina-el: 'Es la gramática de la página 6: opinar'
+   P7 CORE gina-el: 'página 8; publicamos este ejemplo y la'
+   P7 CORE gina-el: '名单已提交：现在各党开始撰写纲领。 (Página 1)'
+   P7 CORE gina-el: '11 月 2 日周一九个自治区放假，其他地区照常上班。 (Página 2)'
+   P7 CORE gina-el: '三个节日，同一个秋夜。 (Página 3)'
+   P7 CORE gina-el: '皇马在诺坎普 2–1 获胜：这是巴萨本赛季联赛首败。 (Página 4)'
+   P7 CORE gina-el: '伯纳乌把草皮换成烤架形球场：美式足球来到马德里。 (Página 5)'
+   P7 CORE gina-el: '住房是 55.7% 的西班牙人的首要问题。 (Página 6)'
+   P7 CORE gina-el: '一次民调就是一张带误差的照片，拍于某一天。 (Página 6)'
+   P7 CORE gina-el: '11 月 8 日周日，马德里有两场约会：15:30 的 NFL 和 21:00 的马竞对巴萨。 (Página 1)'
+   P7 CORE gina-el: 'El viernes 13: empieza la campaña electoral. El domingo 29: España vota. Además: tus cartas y los mejores textos de la página 8. ¡'
+== P7-SECTION tags ED: ['1', '2', '3', '4', '5', '6', '6', '1'] Counter={'1': 2, '2': 1, '3': 1, '4': 1, '5': 1, '6': 2}
+   P7 ED gina-el: 'Es la gramática de la página 6: opinar'
+   P7 ED gina-el: 'página 8; publicamos este ejemplo y la'
+   P7 ED gina-el: 'pagina-8-teksten; daarom een'
+   P7 ED gina-el: "De lijsten zijn ingediend: nu schrijven de partijen hun programma's. (Pagina 1)"
+   P7 ED gina-el: "Maandag 2 november is een feestdag in negen regio's — en een werkdag elders. (Pagina 2)"
+   P7 ED gina-el: 'Drie feesten, één herfstnacht. (Pagina 3)'
+   P7 ED gina-el: '(Pagina 4)'
+   P7 ED gina-el: 'Het Bernabéu ruilt gras in voor het gridiron: American football komt naar Madrid. (Pagina 5)'
+   P7 ED gina-el: 'Huisvesting is het grootste probleem voor 55,7% van de Spanjaarden. (Pagina 6)'
+   P7 ED gina-el: 'Een peiling is een momentopname met een foutmarge, van één dag. (Pagina 6)'
+   P7 ED gina-el: '(Pagina 1)'
+   P7 ED gina-el: 'El viernes 13: empieza la campaña electoral. El domingo 29: España vota. Además: tus cartas y los mejores textos de la página 8. ¡'
+   P7 ED gina-el: 'Pagina 7 van 8'
+== QUOTE bare ed=2 core=2 src_ed=['p1-portada', 'p7-lengua'] src_co=['p1-portada', 'p7-lengua'] :: Las listas ya están presentadas: ahora los partidos escriben sus programas.
+== QUOTE bare ed=2 core=2 src_ed=['p2-vida', 'p7-lengua'] src_co=['p2-vida', 'p7-lengua'] :: El lunes 2 de noviembre es festivo en nueve comunidades — y día de trabajo en la
+== QUOTE bare ed=2 core=2 src_ed=['p3-cultura', 'p7-lengua'] src_co=['p3-cultura', 'p7-lengua'] :: Tres fiestas, una misma noche de otoño.
+== QUOTE bare ed=2 core=2 src_ed=['p4-deporte', 'p7-lengua'] src_co=['p4-deporte', 'p7-lengua'] :: El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del Barça.
+== QUOTE bare ed=2 core=2 src_ed=['p5-juventud', 'p7-lengua'] src_co=['p5-juventud', 'p7-lengua'] :: El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a Ma
+== QUOTE bare ed=2 core=2 src_ed=['p6-afondo', 'p7-lengua'] src_co=['p6-afondo', 'p7-lengua'] :: La vivienda es el principal problema para el 55,7 % de los españoles.
+== QUOTE bare ed=2 core=2 src_ed=['p6-afondo', 'p7-lengua'] src_co=['p6-afondo', 'p7-lengua'] :: Una encuesta es una foto con margen de error, tomada en un día concreto.
+== QUOTE bare ed=2 core=2 src_ed=['p1-portada', 'p7-lengua'] src_co=['p1-portada', 'p7-lengua'] :: El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético–Barça a l
+== ED body Pagina-ref p1-portada: '(Página 4)'
+== ED body Pagina-ref p1-portada: 'Atlético–Barça por la noche. (Páginas 4'
+== CORE body Pagina-ref p1-portada: '(Página 4)'
+== CORE body Pagina-ref p1-portada: 'Atlético–Barça por la noche. (Páginas 4'
+== CORE body Pagina-ref p7-lengua: '名单已提交：现在各党开始撰写纲领。 (Página 1)'
+== CORE body Pagina-ref p7-lengua: '11 月 2 日周一九个自治区放假，其他地区照常上班。 (Página 2)'
+== CORE body Pagina-ref p7-lengua: '三个节日，同一个秋夜。 (Página 3)'
+== CORE body Pagina-ref p7-lengua: '皇马在诺坎普 2–1 获胜：这是巴萨本赛季联赛首败。 (Página 4)'
+== CORE body Pagina-ref p7-lengua: '伯纳乌把草皮换成烤架形球场：美式足球来到马德里。 (Página 5)'
+== CORE body Pagina-ref p7-lengua: '住房是 55.7% 的西班牙人的首要问题。 (Página 6)'
+== CORE body Pagina-ref p7-lengua: '一次民调就是一张带误差的照片，拍于某一天。 (Página 6)'
+== CORE body Pagina-ref p7-lengua: '11 月 8 日周日，马德里有两场约会：15:30 的 NFL 和 21:00 的马竞对巴萨。 (Página 1)'
+== MODELO in core code found: False
+== ASSET weekly-report-w45-es-build/CREDITS-VOL2.md sha256=0f6de6de707504a4445c4fe51943df8a4cb43012e4438b07b5ec3a5177d54ed6 bytes=1182
+== ASSET weekly-report-w45-es-build/CREDITS.md sha256=360803ec7e16d4cefd417dff8128bf8a645c980507e1129378ce53bc787cecfd bytes=983
+== ASSET weekly-report-w45-es-build/atomuhr.jpg sha256=52937f76796300cfad63960872f29f48f7621d62b36f504674691e105d120a83 bytes=53856
+== ASSET weekly-report-w45-es-build/castanas.jpg sha256=39eaac936006604ab544173c6e8b6f59cab966d847c4249bcad984c19d9f4655 bytes=470292
+== ASSET weekly-report-w45-es-build/halloween1910.jpg sha256=b275256cf230afb0a8e000caf007315abfce7a3950931ed2e77b20de9bdd74ec bytes=45748
+== ASSET weekly-report-w45-es-build/kuerbis.jpg sha256=70542c15d5106c4a1a93fda258924c156660a59affa38c969c38db33deeaa57d bytes=346249
+== ASSET weekly-report-w45-es-nl-build/CREDITS-VOL2.md sha256=0f6de6de707504a4445c4fe51943df8a4cb43012e4438b07b5ec3a5177d54ed6 bytes=1182
+== ASSET weekly-report-w45-es-nl-build/CREDITS.md sha256=360803ec7e16d4cefd417dff8128bf8a645c980507e1129378ce53bc787cecfd bytes=983
+== ASSET weekly-report-w45-es-nl-build/atomuhr.jpg sha256=52937f76796300cfad63960872f29f48f7621d62b36f504674691e105d120a83 bytes=53856
+== ASSET weekly-report-w45-es-nl-build/castanas.jpg sha256=39eaac936006604ab544173c6e8b6f59cab966d847c4249bcad984c19d9f4655 bytes=470292
+== ASSET weekly-report-w45-es-nl-build/halloween1910.jpg sha256=b275256cf230afb0a8e000caf007315abfce7a3950931ed2e77b20de9bdd74ec bytes=45748
+== ASSET weekly-report-w45-es-nl-build/kuerbis.jpg sha256=70542c15d5106c4a1a93fda258924c156660a59affa38c969c38db33deeaa57d bytes=346249
+== PDFINFO La-Lucerna-VOL2-NL.pdf: ['Pages:           8'] bytes= 7163203
+== PDFINFO La-Lucerna-VOL2-NL-web.pdf: ['Title:           La-Lucerna-VOL2-NL-web', 'Pages:           8'] bytes= 3739003
+== KIT SVG hash present p1-portada: True c77fe533c5e6abb7
+== KIT SVG hash present p2-vida: True 3bf43b787d063294
+== KIT SVG hash present p3-cultura: True 47f1ff9ee25a801b
+== KIT SVG hash present p4-deporte: True 68a7e69beb87b4a4
+== KIT SVG hash present p5-juventud: True 31d90b5f07ec372c
+== KIT SVG hash present p6-afondo: True 547fd1961aa411cf
+== KIT SVG hash present p7-lengua: True d63e44d0e77df773
+== KIT SVG hash present p8-ejercicios: True 2fa4753c072d126d
+== KIT PDF hash present: True 7e0398c1412ac99e
+== KIT PDF hash present: True 4130e4bef0c5d815
+== ABSTRACT bytes: b"La Lucerna Spaans weekblad VOL.2: de countdown naar de verkiezingen van 29 november, huisvesting als beslissend thema, het lange weekend van maandag 2 november in negen regio's, en zondag 8 november de NFL in het Bernab\xc3\xa9u om 15:30 plus Atl\xc3\xa9tico\xe2\x80\x93Bar\xc3\xa7a om 21:00; Spaanse teksten met Nederlandse uitleg, niveau A2\xe2\x80\x93B2, 150 oefeningen, voor Nederlandstaligen die Spaans leren met Spaans nieuws.\n"
+== ABSTRACT in KIT §12: True
+== ABSTRACT lines: 1 ascii-quote: False
+== ROWSCAN CORE: 7 sub-6px same-baseline gaps
+    ('p1-portada', 1516.0, 4.0, 'Pág. 5', 'La NFL en Madrid')
+    ('p1-portada', 1396.0, 4.0, 'Pág. 2', 'El puente del lunes 2')
+    ('p1-portada', 1436.0, 4.0, 'Pág. 3', 'Tres noches de otoño')
+    ('p1-portada', 1476.0, 4.0, 'Pág. 4', 'Europa y el domingo')
+    ('p1-portada', 1556.0, 4.0, 'Pág. 6', 'La vivienda decide')
+    ('p1-portada', 1596.0, 4.0, 'Pág. 7', 'Fechas y promesas')
+    ('p1-portada', 1636.0, 4.0, 'Pág. 8', 'Ejercicios y respuestas')
+== ROWSCAN ED: 7 sub-6px same-baseline gaps
+    ('p1-portada', 1396.0, 4.0, 'Pág. 2', 'El puente del lunes 2')
+    ('p1-portada', 1436.0, 4.0, 'Pág. 3', 'Tres noches de otoño')
+    ('p1-portada', 1476.0, 4.0, 'Pág. 4', 'Europa y el domingo')
+    ('p1-portada', 1516.0, 4.0, 'Pág. 5', 'La NFL en Madrid')
+    ('p1-portada', 1556.0, 4.0, 'Pág. 6', 'La vivienda decide')
+    ('p1-portada', 1596.0, 4.0, 'Pág. 7', 'Fechas y promesas')
+    ('p1-portada', 1636.0, 4.0, 'Pág. 8', 'Ejercicios y respuestas')
+== ROWSCAN identical core vs ed: False
+== P1/W43-diff p1-portada: only-W43=134 only-ED=130
+   W43-only: (65.0, 92.0, 23.0, 'VOL. 1 · PRIMERA EDICIÓN')
+   W43-only: (65.0, 805.5999999999999, 20.0, 'De la redacción de La Lucerna · Nivel de lectura: A2')
+   W43-only: (65.0, 1753.6, 25.0, 'La semana también trae tiempo de')
+   W43-only: (65.0, 2449.45, 21.0, 'viernes · B. domingo · C. lunes')
+   W43-only: (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.1 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   W43-only: (527.0, 1325.8249999999998, 20.5, '· atrasar el reloj = de klok terugzetten ·')
+   W43-only: (527.0, 1355.55, 20.5, 'empatados = gelijk in punten · la tormenta =')
+   W43-only: (527.0, 2419.0, 21.0, 'El Clásico se juega en... A. Madrid · B.')
+   W43-only: (527.0, 2449.45, 21.0, 'Austin · C. el Camp Nou')
+   W43-only: (545.0, 1461.0, 23.0, 'LA SEMANA EN CIFRAS · In cijfers')
+   W43-only: (975.0, 330.0, 46.0, 'SPAANS WEEKBLAD · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1')
+   W43-only: (989.0, 850.5999999999999, 25.0, 'AHORA TÚ · Probeer het nu')
+   W43-only: (989.0, 1052.05, 20.5, 'La noche del sábado al domingo tiene ___')
+   W43-only: (989.0, 1514.1249999999993, 20.5, 'La DANA Adam es la primera gran ___')
+   W43-only: (989.0, 2449.45, 21.0, 'empatados a 7 puntos · B. con 20 puntos ·')
+   W43-only: (1451.0, 2419.0, 21.0, 'La noche del sábado al domingo tiene... A.')
+   W43-only: (1451.0, 2449.45, 21.0, '23 horas · B. 25 horas · C. 26 horas')
+   W43-only: (1473.0, 686.0, 19.0, 'Vijf sleutelpunten · Para entender la semana')
+   W43-only: (1539.0, 1476.0, 20.0, 'La semana del Clásico')
+   W43-only: (1855.0, 522.0, 21.0, 'ÉN DE CLÁSICO · ZIE PAGINA 2 EN 4')
+   W43-only: (1885.0, 92.0, 23.0, 'SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026')
+   W43-only: (1885.0, 2348.0, 20.0, 'Lees de voorpagina en kies het juiste antwoord · Antwoorden op pagina 8')
+   ED-only:  (65.0, 92.0, 23.0, 'VOL. 2 · SEGUNDA EDICIÓN')
+   ED-only:  (65.0, 672.0, 44.0, 'La cuenta atrás del 29-N: la vivienda decide la campaña')
+   ED-only:  (65.0, 752.8, 20.0, 'De la redacción de La Lucerna · Nivel de lectura: A2')
+   ED-only:  (65.0, 2449.45, 21.0, 'noviembre · B. 13 de noviembre · C. 29 de')
+   ED-only:  (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   ED-only:  (527.0, 1129.3, 20.5, 'Uitleg — la cuenta atrás = de countdown ·')
+   ED-only:  (527.0, 1188.75, 20.5, 'ontbinden · el decreto = een decreet · la')
+   ED-only:  (527.0, 1711.45, 25.0, 'AHORA TÚ · Probeer het nu')
+   ED-only:  (527.0, 2449.45, 21.0, 'comunidades · B. nueve comunidades · C.')
+   ED-only:  (545.0, 1294.2, 23.0, 'LA SEMANA EN CIFRAS · In cijfers')
+   ED-only:  (975.0, 330.0, 46.0, 'SPAANS WEEKBLAD · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL')
+   ED-only:  (989.0, 1071.2, 20.5, 'La ___ decide la campaña del 29-N.')
+   ED-only:  (989.0, 1380.5999999999997, 20.5, 'La NFL llega al Bernabéu el domingo a las')
+   ED-only:  (989.0, 2419.0, 21.0, 'La NFL llega al Bernabéu el... A. domingo')
+   ED-only:  (989.0, 2449.45, 21.0, '8 · B. lunes 2 · C. viernes 6')
+   ED-only:  (1451.0, 2449.45, 21.0, 'las... A. 15:30 · B. 21:00 · C. 18:30')
+   ED-only:  (1473.0, 686.0, 19.0, 'Vijf sleutels · Para entender la semana')
+   ED-only:  (1473.0, 2245.9999999999995, 20.0, 'La NFL en el Bernabéu por la tarde y el')
+   ED-only:  (1539.0, 1516.0, 20.0, 'La NFL en Madrid')
+   ED-only:  (1539.0, 1556.0, 20.0, 'La vivienda decide')
+   ED-only:  (1855.0, 478.0, 24.0, 'NOG 27 DAGEN · HUISVESTING BESLIST DE CAMPAGNE')
+   ED-only:  (1855.0, 522.0, 21.0, 'HOOFDVERHAAL · ZIE PAGINA 2 EN 6')
+   ED-only:  (1885.0, 92.0, 23.0, 'SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026')
+   ED-only:  (1885.0, 2348.0, 20.0, 'Lees de voorpagina en kies · Antwoorden op pagina 8')
+== P1/W43-diff p7-lengua: only-W43=149 only-ED=151
+   W43-only: (65.0, 224.0, 24.0, 'A2 · DECIR LA HORA Y EL PRESENTE')
+   W43-only: (65.0, 1081.7400000000002, 20.5, '«Son las dos y media» son las... A. 2:15 · B.')
+   W43-only: (65.0, 1111.4650000000001, 20.5, '2:30 · C. 2:45')
+   W43-only: (65.0, 1724.0, 27.0, 'FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer)')
+   W43-only: (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.1 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   W43-only: (93.0, 2448.0, 24.0, 'LA PRÓXIMA SEMANA · Volgende week (VOL.2)')
+   W43-only: (527.0, 224.0, 24.0, 'B1 · COMPARATIVOS Y PASADO')
+   W43-only: (527.0, 1049.06, 20.5, 'El Villarreal en Liverpool... A. ganó 4–3 · B.')
+   W43-only: (527.0, 1078.7849999999999, 20.5, 'perdió 4–3 · C. empató 0–0')
+   W43-only: (989.0, 224.0, 24.0, 'B2 · CREO QUE… / NO CREO QUE…')
+   W43-only: (989.0, 1114.42, 20.5, '«Es posible que el domingo...» A. llueve · B.')
+   W43-only: (989.0, 1144.145, 20.5, 'llueva · C. llover')
+   W43-only: (1473.0, 1019.9599999999999, 23.0, 'LA PALABRA · Woord van de week')
+   ED-only:  (65.0, 224.0, 24.0, 'A2 · LAS FECHAS')
+   ED-only:  (65.0, 992.565, 20.5, '¿Cómo se escribe el mes? A. Noviembre · B.')
+   ED-only:  (65.0, 1022.2900000000001, 20.5, 'noviembre · C. NOVIEMBRE')
+   ED-only:  (65.0, 1879.08, 27.0, 'FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer)')
+   ED-only:  (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   ED-only:  (93.0, 2484.08, 24.0, 'LA PRÓXIMA SEMANA · Volgende week (VOL.3)')
+   ED-only:  (527.0, 224.0, 24.0, 'B1 · COMPARATIVOS')
+   ED-only:  (527.0, 466.4, 21.5, 'La vivienda de esta semana sirve para')
+   ED-only:  (527.0, 745.6149999999999, 20.5, 'La vivienda es ___ que hace un año. (cara)')
+   ED-only:  (527.0, 837.8399999999999, 20.5, 'La preocupación es ___ como en')
+   ED-only:  (527.0, 1081.74, 20.5, '¿Qué forma es correcta? A. más mejor · B.')
+   ED-only:  (527.0, 1111.465, 20.5, 'mejor · C. muy mejor')
+   ED-only:  (989.0, 224.0, 24.0, 'B2 · EL SUBJUNTIVO')
+   ED-only:  (989.0, 1081.74, 20.5, '«Ojalá que el precio...» A. baja · B. baje · C.')
+   ED-only:  (1473.0, 992.0799999999999, 23.0, 'LA PALABRA · Woord van de week')
+== P1/W43-diff p8-ejercicios: only-W43=293 only-ED=310
+   W43-only: (65.0, 267.5, 15.5, 'Doué ___ el marcador en París. (A. cerró · B. abrió)')
+   W43-only: (65.0, 338.475, 15.5, 'Espart ___ el 1–1 para el Barça. (A. perdió · B. puso)')
+   W43-only: (65.0, 409.45000000000005, 15.5, 'Lucas Hernández marcó el 2–1 de ___. (A. cabeza · B.')
+   W43-only: (65.0, 502.9000000000001, 15.5, 'Yamal ___ a empatar: 2–2. (A. salió · B. volvió)')
+   W43-only: (65.0, 573.8750000000001, 15.5, 'Vitinha y Fabián Ruiz ___ el 4–2 al final. (A. abrieron · B.')
+   W43-only: (65.0, 667.3250000000002, 15.5, 'Fue la primera ___ del Barça este año. (A. victoria · B.')
+   W43-only: (65.0, 760.7750000000002, 15.5, 'El domingo se juega el ___ en el Camp Nou. (A. Clásico ·')
+   W43-only: (65.0, 854.2250000000003, 15.5, 'El Barça lleva una ___ de GOLF WANG. (A. camiseta · B.')
+   W43-only: (65.0, 922.1750000000003, 22.0, 'B · PREGUNTAS GENERALES')
+   W43-only: (65.0, 987.6750000000003, 15.5, 'El cambio: a las... A. 02→03 · B. 03→02 · C. 00→01')
+   W43-only: (65.0, 1058.6500000000003, 15.5, '¿Dónde hay una hora menos? A. Canarias · B. Madrid · C.')
+   W43-only: (65.0, 1152.1000000000001, 15.5, 'El domingo, 21:00: hay... A. solo fútbol · B. solo coches ·')
+   W43-only: (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.1 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   W43-only: (527.0, 320.95, 15.5, 'Halloween es... A. sáb. 31.10 · B. dom. 1.11 · C. lun. 2.11')
+   W43-only: (527.0, 391.925, 15.5, 'Las elecciones generales son el... A. 29.10 · B. 1.11 · C.')
+   W43-only: (527.0, 485.37500000000006, 15.5, '¿Por qué no mezclamos las series? A. son secretas · B.')
+   W43-only: (527.0, 507.8500000000001, 15.5, 'métodos distintos · C. son viejas')
+   W43-only: (527.0, 578.825, 15.5, 'La DANA Adam es... A. la primera tormenta con nombre ·')
+   W43-only: (527.0, 601.3000000000001, 15.5, 'B. una fiesta gallega · C. un equipo')
+   W43-only: (527.0, 646.7750000000001, 22.0, 'C · LEE Y RESPONDE')
+   W43-only: (527.0, 846.0250000000003, 15.5, '¿Quién hace puente? A. Marta · B. Lucía · C. las dos')
+   W43-only: (527.0, 917.0000000000003, 15.5, 'El lunes 2, Marta... A. trabaja · B. viaja · C. duerme')
+   W43-only: (527.0, 987.9750000000004, 15.5, '¿Qué comen Marta y sus amigos? A. flores · B. dulces de')
+   W43-only: (527.0, 1010.4500000000004, 15.5, 'Halloween · C. castañas y panellets')
+   W43-only: (527.0, 1081.4250000000004, 15.5, 'El mejor título es... A. «Una tormenta» · B. «Dos lunes» ·')
+   W43-only: (527.0, 1149.3750000000002, 22.0, 'D · CONSTRUYE FRASES')
+   W43-only: (989.0, 761.3000000000002, 22.0, 'F · LAS PALABRAS DEL 29N')
+   W43-only: (989.0, 1187.3000000000002, 22.0, 'G · DIÁLOGO EN LA TIENDA')
+   W43-only: (1451.0, 227.5, 15.5, '— Busco un ___ para mi hija. (A. disfraz · B. paraguas)')
+   W43-only: (1451.0, 298.475, 15.5, '— Le encanta ___. (A. Monster High · B. el Samaín)')
+   W43-only: (1451.0, 369.45000000000005, 15.5, '— ¿Cuánto ___? (A. cuesta · B. duerme)')
+   W43-only: (1451.0, 440.42500000000007, 15.5, '— ¿Cómo va a ___: con tarjeta o en efectivo? (A. pagar · B.')
+   W43-only: (1451.0, 533.8750000000001, 15.5, '— Con tarjeta. La fiesta es el ___. (A. sábado · B. lunes)')
+   W43-only: (1451.0, 579.3500000000001, 22.0, 'H · ESCRIBE TÚ')
+   ED-only:  (65.0, 267.5, 15.5, 'El Madrid ___ 2–1 en el Camp Nou. (A. perdió · B. ganó)')
+   ED-only:  (65.0, 338.475, 15.5, 'Mbappé ___ dos goles en Barcelona. (A. paró · B. marcó)')
+   ED-only:  (65.0, 409.45000000000005, 15.5, 'Fue la primera ___ del Barça en la Liga. (A. derrota · B.')
+   ED-only:  (65.0, 502.9000000000001, 15.5, 'El Madrid ___ la distancia a tres puntos. (A. aumentó · B.')
+   ED-only:  (65.0, 596.3500000000001, 15.5, 'El Bernabéu ___ un partido de la NFL. (A. acoge · B.')
+   ED-only:  (65.0, 689.8000000000002, 15.5, 'El Bernabéu cambia el césped por el ___. (A. puente · B.')
+   ED-only:  (65.0, 805.7250000000003, 15.5, 'Atlético–Barça · B. derbi madrileño)')
+   ED-only:  (65.0, 899.1750000000003, 15.5, 'UU. (A. himnos · B. puentes)')
+   ED-only:  (65.0, 944.6500000000003, 22.0, 'B · PREGUNTAS GENERALES')
+   ED-only:  (65.0, 1010.1500000000003, 15.5, 'El lunes 2 es fiesta en... A. todas · B. nueve comunidades ·')
+   ED-only:  (65.0, 1103.6000000000001, 15.5, 'Todos los Santos es el... A. 1 de noviembre · B. 2 de')
+   ED-only:  (65.0, 1126.075, 15.5, 'noviembre · C. 29 de noviembre')
+   ED-only:  (65.0, 1197.05, 15.5, 'El domingo 8 hay... A. solo fútbol · B. solo NFL · C. la NFL')
+   ED-only:  (65.0, 2624.0, 20.0, 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')
+   ED-only:  (527.0, 343.425, 15.5, 'de octubre · B. sábado 31 · C. lunes 2')
+   ED-only:  (527.0, 414.40000000000003, 15.5, 'Las elecciones generales son el... A. 29.10 · B. 13.11 · C.')
+   ED-only:  (527.0, 530.325, 15.5, 'problema para el... A. 20,9 % · B. 55,7 % · C. 17,1 %')
+   ED-only:  (527.0, 601.3000000000001, 15.5, 'La campaña electoral empieza el... A. 13 de noviembre ·')
+   ED-only:  (527.0, 623.7750000000001, 15.5, 'B. 3 de noviembre · C. 29 de noviembre')
+   ED-only:  (527.0, 669.2500000000001, 22.0, 'C · LEE Y RESPONDE')
+   ED-only:  (527.0, 868.5000000000003, 15.5, '¿Quién hace puente? A. Ana · B. Pablo · C. los dos')
+   ED-only:  (527.0, 939.4750000000004, 15.5, 'El lunes 2, Ana... A. trabaja · B. viaja · C. duerme')
+   ED-only:  (527.0, 1010.4500000000004, 15.5, 'El domingo, Ana ve... A. solo la NFL · B. solo el Barça · C.')
+   ED-only:  (527.0, 1103.9000000000003, 15.5, 'El mejor título es... A. «Una tormenta» · B. «Dos lunes» ·')
+   ED-only:  (527.0, 1171.8500000000001, 22.0, 'D · CONSTRUYE FRASES')
+   ED-only:  (989.0, 738.8250000000002, 22.0, 'F · LAS PALABRAS DEL 29N')
+   ED-only:  (989.0, 1164.8250000000003, 22.0, 'G · DIÁLOGO EN LA INMOBILIARIA')
+   ED-only:  (989.0, 1230.3250000000003, 15.5, '— Busco un piso de ___. (A. alquiler · B. puente)')
+   ED-only:  (1451.0, 227.5, 15.5, '— ¿Cuántas habitaciones? — ___. (A. Tres · B. Tres')
+   ED-only:  (1451.0, 320.95, 15.5, '— ¿Cuánto ___ al mes? (A. cuesta · B. duerme)')
+   ED-only:  (1451.0, 391.925, 15.5, '— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)')
+   ED-only:  (1451.0, 462.90000000000003, 15.5, '— La ___ es el lunes 2, que es fiesta. (A. mudanza · B.')
+   ED-only:  (1451.0, 530.8500000000001, 22.0, 'H · ESCRIBE TÚ')

@@ -1,0 +1,199 @@
+== 1. freeze diff removed strings WITHOUT any CJK char ==
+p1: removed total 26, pure-non-CJK 2
+   - x1 "THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM AMERICA"
+   - x1 '· Nov 8 — NFL in Madrid + F1 in São'
+   added CJK={}, edition CJK total=0
+p2: removed total 33, pure-non-CJK 0
+   added CJK={}, edition CJK total=0
+p3: removed total 23, pure-non-CJK 0
+   added CJK={}, edition CJK total=0
+p4: removed total 22, pure-non-CJK 0
+   added CJK={}, edition CJK total=0
+p5: removed total 23, pure-non-CJK 0
+   added CJK={}, edition CJK total=0
+p6: removed total 21, pure-non-CJK 0
+   added CJK={}, edition CJK total=0
+p7: removed total 39, pure-non-CJK 4
+   - x1 '6).'
+   - x3 '。'
+   added CJK={}, edition CJK total=0
+p8: removed total 104, pure-non-CJK 20
+   - x1 '1. ballot · 2. midterm · 3. November 3 · 4. early · 5.'
+   - x1 '42. We are going to watch the cat film on Friday. · 43. She is'
+   - x1 '75. d · 76. b · 77. a · 78. The map is changing colour now.'
+   - x1 'Americans are going to vote on Tuesday. · 17. She is going'
+   - x1 'Day in the United States.'
+   - x1 'Madrid on Sunday. · 61. She watched the race in São Paulo.'
+   - x1 'called · 6. takes · 7. B · 8. C · 9. A · 10. B'
+   - x1 'chose one game to watch fully.'
+   - x1 'defends · 53. begin · 54. bigger · 55. faster · 56. b · 57.'
+   - x1 'differs · 99. private'
+   - x1 'going to send their reviews to the newsroom.'
+   - x1 'going to tell the story in five sentences. · 44. Are you going'
+   - x1 'hour more. · 19. Are they going to fall back on Sunday ?（'
+   - x1 'result.'
+   - x1 'shape · 95. register · 96. patience · 97. optional · 98.'
+   - x1 'to watch the film on Friday. · 18. We are going to sleep one'
+   - x1 "watching the results at home. · 81. She is waiting for Ohio's"
+   - x1 '· 25. a · 26. d · 27. c'
+   - x1 '· 62. They followed the scores on their phones. · 63. He'
+   - x1 '· 79. Friends are sending messages tonight. · 80. We are'
+   added CJK={}, edition CJK total=0
+
+== 2. rendered gloss boxes: texts containing 'Note | ', items split on '·' ==
+  FR p1-front.svg: gloss-box texts=1 items=2
+  FR p2-life.svg: gloss-box texts=1 items=1
+  FR p3-culture.svg: gloss-box texts=1 items=2
+  FR p4-sport.svg: gloss-box texts=1 items=1
+  FR p5-jeunesse.svg: gloss-box texts=1 items=2
+  FR p6-politique.svg: gloss-box texts=1 items=1
+  FR p7-langue.svg: gloss-box texts=0 items=0
+  FR p8-exercices.svg: gloss-box texts=0 items=0
+  FR total rendered Note|-box items: 9
+  CORE total rendered Note|-box items: 0
+  CORE gloss-prefix texts (contain Chinese gloss marker):
+    p1-front.svg y=1395.3 '讲解｜a midterm 中期选举 · a ballot 选票 ·'
+    p2-life.svg y=698.4200000000001 '译注｜讲解｜to fall back （时钟）拨回 · a'
+    p3-culture.svg y=501.5 '译注｜讲解｜to open （电影）上映 · a'
+    p4-sport.svg y=539.5 '译注｜讲解｜a fixture 一场比赛（赛程） ·'
+    p5-jeunesse.svg y=349.5 '译注｜讲解｜a map （选举）地图 · too'
+    p6-politique.svg y=830.5 '译注｜讲解｜to register 登记（选民登记）'
+
+== 3. P7 verbatim checks ==
+  golden core_occ=0 fr_occ=0 :: 'Tuesday, November 3, is Election Day in the United States.'
+  golden core_occ=1 fr_occ=1 :: 'The hour from 1 to 2 happened twice.'
+  golden core_occ=1 fr_occ=1 :: 'Which film would you choose ?'
+  golden core_occ=0 fr_occ=0 :: 'Two games, two continents, one league — that is the modern NFL.'
+  golden core_occ=0 fr_occ=0 :: 'The results will still be there in the morning.'
+  golden core_occ=0 fr_occ=0 :: 'Patience is part of the system, not a failure of it.'
+  golden core_occ=1 fr_occ=1 :: 'Not every place changes.'
+  golden core_occ=0 fr_occ=0 :: 'One Sunday is not enough — good thing the week has seven days.'
+  definition core_occ=1 fr_occ=1 :: 'The clocks fell back.'
+  definition core_occ=0 fr_occ=0 :: 'She is going to vote on Tuesday.'
+  definition core_occ=0 fr_occ=0 :: 'The Bernabéu is bigger than most stadiums.'
+  definition core_occ=0 fr_occ=0 :: 'Nobody knows whether the race is called yet.'
+  P7 headings FR:
+    y=116.0 size=36.0 'LANGUAGE IN HAND · La langue en main'
+    y=116.0 size=36.0 'The Lucerna'
+    y=227.0 size=27.0 'LEVEL A2 · Les bases'
+    y=227.0 size=27.0 'LEVEL B1 · Plus loin'
+    y=227.0 size=27.0 'LEVEL B2 · Le défi'
+    y=227.0 size=27.0 'THE TOOLBOX · Boîte à outils'
+    y=1236.0 size=27.0 'PHRASES OF THE WEEK · Phrases de la semaine (de ce numéro)'
+    y=1903.0 size=25.0 'THE ERROR CLINIC · Les erreurs'
+    y=1918.0 size=24.0 "READERS' CORNER · Courrier des lecteurs"
+    y=2248.0 size=24.0 'NEXT WEEK · VOL.3 La semaine prochaine'
+  P7 headings W43 (same strings expected):
+    y=116.0 size=36.0 'LANGUAGE IN HAND · La langue en main'
+    y=227.0 size=27.0 'LEVEL A2 · Les bases'
+    y=227.0 size=27.0 'LEVEL B1 · Plus loin'
+    y=227.0 size=27.0 'LEVEL B2 · Le défi'
+    y=227.0 size=27.0 'THE TOOLBOX · Boîte à outils'
+    y=1236.0 size=27.0 'PHRASES OF THE WEEK · Phrases de la semaine (de ce numéro)'
+    y=1903.0 size=25.0 'THE ERROR CLINIC · Les erreurs'
+    y=1918.0 size=24.0 "READERS' CORNER · Courrier des lecteurs"
+    y=2248.0 size=24.0 'NEXT WEEK · VOL.2 La semaine prochaine'
+
+== 4. readers corner ==
+  --- CORE P7 texts mentioning reader/Chicago/M. L./Envoyez/lettres ---
+    y=428.1 'on November 1 is the example of the'
+    y=1956.0 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+    y=1986.53 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+    y=2017.06 'went to press, so the example stays, honestly labeled)'
+    y=2104.0 '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+    y=2248.0 'NEXT WEEK · VOL.3 下周预告'
+  --- FR P7 texts mentioning reader/Chicago/M. L./Envoyez/lettres ---
+    y=428.1 'on November 1 is the example of the'
+    y=797.0 'THE EXAMPLE · L’exemple'
+    y=1002.2 'THE EXAMPLE · L’exemple'
+    y=831.2 'THE EXAMPLE · L’exemple'
+    y=1956.0 '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+    y=1986.53 "in Chicago (editor's example : no real reader letters had arrived when this issue"
+    y=2017.06 'went to press, so the example stays, honestly labeled)'
+    y=2076.0 'Note : le VOL.1 avait promis de vraies lettres pour le VOL.2, mais aucune lettre ni aucun'
+    y=2104.0 'texte de la page 8 du VOL.1 n’est arrivé. L’exemple reste, honnêtement signalé, et la'
+    y=2132.0 'promesse passe au VOL.3. Envoyez vos lettres : les meilleures paraîtront dans le VOL.3 !'
+    y=2248.0 'NEXT WEEK · VOL.3 La semaine prochaine'
+
+== 5. P8 extracts ==
+  p8-core: keys=['p8', 'total', 'how', 'noted_set', 'keys']... (full json in file)
+    top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+  p8-ed: keys=['p8', 'total', 'how', 'noted_set', 'keys']... (full json in file)
+    top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+  FR P8 contains '(ID)' substring: False; contains 'pièce d'identité': True
+    FR P8 identity line y=2145.66 'participation a) · 145. ID (Au vote, on montre sa pièce d’identité)'
+  FR P8 font sizes in ANSWERS region (y>1600):
+    {21.5: 2, 20.0: 5, 21.0: 5, 26.0: 1, 16.0: 8, 13.5: 114}
+  FR P8 key-flow max baseline (texts with size 13.5):
+    count=114 max y=2529.27 (KIT claims flow bottom 2530)
+  W43 P8 key-flow max baseline (size 13.5):
+    count=123 max y=2529.27
+
+== 6. core P8 translation prompts (rendered SVG text search) ==
+  CORE-P8 'Patience is part of the system, not a fa': []
+  FR-P8 'Patience is part of the system, not a fa': []
+  CORE-P8 'Tuesday, November 3, is Election Day in ': []
+  FR-P8 'Tuesday, November 3, is Election Day in ': []
+  CORE-P8 'Not every place changes.': [(462.67500000000007, 'Translate : « Not every place changes. »')]
+  FR-P8 'Not every place changes.': [(492.4000000000001, 'Translate : « Not every place changes. »')]
+  CORE P8 texts containing 'Translate' or Chinese translate word:
+    y=1246.6 'E · TRANSLATION · 翻译'
+    y=1320.1 'Translate : « Patience is part of the system,'
+    y=246.5 '翻译：Tuesday, November 3, is Election'
+    y=369.45000000000005 '翻译：On Sunday, the NFL plays in Madrid.'
+    y=462.67500000000007 'Translate : « Not every place changes. »'
+  FR P8 texts containing 'Translate':
+    y=1320.1 'Translate : « Patience is part of the system,'
+    y=246.5 'Translate : Tuesday, November 3, is'
+    y=369.45000000000005 'Translate : On Sunday, the NFL plays in'
+    y=492.4000000000001 'Translate : « Not every place changes. »'
+  CORE P8 NFL-Madrid sentence search (139 prompt candidate):
+    y=369.45000000000005 '翻译：On Sunday, the NFL plays in Madrid.'
+    y=2539.19 'Madrid on Sunday. · 61. She watched the race in São Paulo.'
+    y=2364.91 'Madrid） · 140. 并非每处都拨回时钟。（not every 并非每处'
+  FR P8 NFL-Madrid sentence search:
+    y=399.17500000000007 'Madrid.'
+    y=2014.72 'reculé ses horloges le 1er novembre) · 10. B (Le match NFL à Madrid'
+    y=2020.21 '46. A (À Madrid : les Bengals contre les Falcons) · 47. C (Le match de'
+    y=2037.22 'Madrid a lieu au Bernabéu) · 48. B (Les Dolphins contre les Lions à'
+    y=2173.3 'défendre son titre c) · 60. The Bengals played in Madrid on Sunday.'
+    y=2077.62 'Madrid. (on Sunday ; in Madrid) · 140. Tous les endroits ne changent'
+
+== 7. image payload per page (href,x,y,w,h) core vs FR ==
+  p1-front.svg: core 1 FR 1 equal=True
+  p2-life.svg: core 1 FR 1 equal=True
+  p3-culture.svg: core 1 FR 1 equal=True
+  p4-sport.svg: core 1 FR 1 equal=True
+  p5-jeunesse.svg: core 0 FR 0 equal=True
+  p6-politique.svg: core 1 FR 1 equal=True
+  p7-langue.svg: core 0 FR 0 equal=True
+  p8-exercices.svg: core 0 FR 0 equal=True
+  credit-ish lines FR (©/Source/Crédit/Wikimedia/Commons):
+    p1-front.svg y=2271.3 'Kenneth C. Zirkel — CC0, via Wikimedia Commons'
+    p2-life.svg y=768.5999999999999 'Public domain, via Wikimedia Commons'
+    p3-culture.svg y=719.65 'illustration by Édouard Manet for « The Cats »'
+    p3-culture.svg y=798.5999999999999 'Édouard Manet — CC0, via Wikimedia Commons'
+    p4-sport.svg y=798.5999999999999 'Frank R. Snyder — public domain, via Wikimedia Commons'
+    p6-politique.svg y=602.9499999999999 'Public domain, via Wikimedia Commons'
+
+== 8a. same-baseline furniture bands, INK spans (occlusion font resolution) ==
+  (only ink gaps < 40px listed)
+
+== 8b. right-edge ADVANCE scan FR ==
+  p8-exercices.svg y=836.1250000000001 adv_right=1899.4  :: 'b. an election in the middle of a term'
+  p8-exercices.svg y=912.1250000000001 adv_right=1903.8  :: 'd. the paper you mark your choice on'
+  core counterparts of FR >1885 lines:
+    p8-exercices.svg FR y=836.1250000000001 core y=806.4000000000001 x core=1485.0 :: 'b. an election in the middle of a term'
+    p8-exercices.svg FR y=912.1250000000001 core y=882.4000000000001 x core=1485.0 :: 'd. the paper you mark your choice on'
+
+== 8c. P6 chart labels baseline-anchored ink vs later rects ==
+  'No lines : 38%' baseline=1218.16 ink=(1199.9,1219.2) coverage=0.0% PASS <30%
+  'Work on Tuesday : 29%' baseline=1270.76 ink=(1252.5,1276.8) coverage=0.0% PASS <30%
+  'Travel plans : 21%' baseline=1323.36 ink=(1305.1,1329.1) coverage=0.0% PASS <30%
+  'Habit : 12%' baseline=1375.9599999999998 ink=(1357.7,1377.0) coverage=0.0% PASS <30%
+
+== 8d. tight points: P8 Levels line + writing rule; P1/P2 section ends ==
+  FR P8 levels-line y=1470.9650000000001 'Levels : 145–148 [A2] · 149 [B1]'
+  FR P8 line at y1=1486: <line x1="65" y1="1486" x2="1885" y2="1486" stroke="#b3a06a" stroke-width="2"/>
+  P1 max non-footer baseline=2479.8999999999996; texts near max: [(2449.45, 'Tuesday, November 3 · C. November 8'), (2449.45, 'A. 100 · B. 50 · C. 435'), (2449.45, 'November 1 · B. November 3 · C.'), (2479.8999999999996, 'November 8'), (2449.45, '· B. Sunday, November 8 · C. Tuesday')]
+  P2 max non-footer baseline=2517.8250000000003; texts near max: [(2485.8250000000003, 'A2'), (2486.8250000000003, '15.'), (2486.8250000000003, 'Complétez'), (2517.8250000000003, 'We got an ___ hour of sleep.'), (2467.3500000000004, 'They (fall) back on Sunday ? → ___'), (2479.8, 'd. to move clocks back one hour')]

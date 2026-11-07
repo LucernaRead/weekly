@@ -1,0 +1,45 @@
+=== shared-word contexts (claimed list) ===
+--- 生活
+    p2-life.svg 'LIFE · 生活'
+--- 文化
+    p3-culture.svg 'CULTURE · 文化'
+--- 体育
+    p4-sport.svg 'SPORT · 体育'
+--- 青年
+    p5-jeunesse.svg 'YOUTH · 青年'
+--- 怪物
+    p3-culture.svg 'monster 怪物 · a catchphrase 決めぜりふ'
+--- 原文
+    p7-langue.svg 'つずつ。名文はすべて今号の記事から。原文に'
+    p8-exercices.svg '· 129. B (原文：a teacher from Ohio) · 130. B (火曜は一日中'
+--- 原形
+    p7-langue.svg '文法ポイント — would + 動詞の原形、選択の意志'
+    p8-exercices.svg '原形) · 103. is · 104. will · 105. is · 106. changes · 107. has'
+    p8-exercices.svg "定は doesn't + 原形) · 109. Yesterday the clocks fell back."
+    p8-exercices.svg 'の原形)'
+    p8-exercices.svg '(sticker ステッカー) · 117. C (will + 動詞の原形 know) · 118. B'
+    p8-exercices.svg 'half past one) · 121. A (we → get（原形）) · 122. B (すでに起'
+    p8-exercices.svg 'うか) · 126. A (未来形 will + 動詞の原形) · 127. A (be going to'
+    p8-exercices.svg '+ 原形 vote) · 128. C (too close to call = 接戦で判定できない)'
+    p8-exercices.svg 'are going to watch the cat film. (are going to + 原形) · 134.'
+--- 投票率
+    p8-exercices.svg '用紙 d) · 144. a (turnout = 投票率 a) · 145. ID (投票のときに身'
+--- 地図
+    p5-jeunesse.svg '解説 — a map （選挙の）地図 · too close'
+    p6-politique.svg '一枚の地図｜50の州、50通りのルール——だか'
+    p6-politique.svg 'ら選挙の夜に見るのは地図であって、1つの数'
+    p8-exercices.svg '英語で80–100語：私の11月3日火曜日。結果を見たか、何を食べたか、地図が何を示したかをはっ'
+    p8-exercices.svg '64. B (地図は結果とともに州ごとに色が変わる) · 65. A · 66. C'
+--- 得点
+    p4-sport.svg '観戦英語｜スコア、誰が得点したか、誰がリー'
+=== simplified-only char scan (chars invalid in Japanese) ===
+simplified-surname-ish hits (expect none except shared?): {'安': 1, '文': 50, '王': 1, '金': 1, '任': 3, '何': 3, '方': 2, '程': 1}
+=== Chinese function-word scan (context) ===
+  在 x1 e.g. [('p5-jeunesse.svg', '現在進行形で書きかえなさい（今起こっている')]
+  了 x1 e.g. [('p5-jeunesse.svg', '投票終了｜The polls have closed = その州の投')]
+  有 x1 e.g. [('p6-politique.svg', '解説 — to register 登録する（有権者登録）')]
+  不 x1 e.g. [('p8-exercices.svg', 'The clocks fell back on Sunday. (fall → fell（不規則変化）) ·')]
+  都 x1 e.g. [('p8-exercices.svg', '82. B (38%が「並ばなくてよい」を選んだ) · 83. C (仕事の都合')]
+  要 x2 e.g. [('p8-exercices.svg', '述 — 要点は作文の枠内、模範文は8ページの作文枠の中 (要点')]
+  会 x3 e.g. [('p8-exercices.svg', 'G · DIALOGUE · 会話補完'), ('p8-exercices.svg', '日曜の再会番組で週が締まる) · 34. opens · 35. taller · 36.'), ('p8-exercices.svg', '46. A · 47. C (マドリードの会場はベルナベウ) · 48. B (ドルフ')]
+  比 x3 e.g. [('p8-exercices.svg', "week's. (bigger はすでに比較級、more は付けない) · 111."), ('p8-exercices.svg', 'きたことは fell) · 123. B (than → 比較級 bigger) · 124. A'), ('p8-exercices.svg', '135. taller (tall → taller（比較級）) · 136. Whether (whether')]

@@ -1,0 +1,35 @@
+P7 phrase on p1-pyoji.svg: HIT :: 11월 7일은 입동이에요
+P7 phrase on p1-pyoji.svg: HIT :: 절정에 가까운 주말이라고만 말할 수 있어요
+P7 phrase on p1-pyoji.svg: HIT :: 김장은 겨울 내내 먹는 김치를 담그는 일이에요
+P7 phrase on p2-saenghwal.svg: HIT :: 수능까지 17일 남았어요. 오늘이 D-17예요
+P7 phrase on p3-munhwa.svg: HIT :: 낮은 길은 더 늦게 물들어요
+P7 phrase on p4-seupocheu.svg: HIT :: KIA 타이거즈가 LG 트윈스를 3연승으로 이겼어요
+P7 phrase on p5-cheongnyeon.svg: HIT :: 온 나라가 수험생을 응원해요
+P7 phrase on p6-gipi.svg: HIT :: 날짜를 먼저 보세요
+
+P5 contains '온 나라가 수험생을': True
+P5 contains '합격을 비는 마음으로 찹쌀떡이나 엿을': True
+P5 contains '선물해요': True
+P5 contains '선물하기도 해요': True
+
+p1-pyoji.svg: 설악산=0 기준=0
+p2-saenghwal.svg: 설악산=0 기준=0
+p3-munhwa.svg: 설악산=5 기준=6
+p4-seupocheu.svg: 설악산=0 기준=0
+p5-cheongnyeon.svg: 설악산=0 기준=0
+p6-gipi.svg: 설악산=0 기준=0
+p7-mal.svg: 설악산=2 기준=5
+p8-siheom.svg: 설악산=2 기준=3
+
+P7 '설악산 실제 관측은 10월 16일이었어요': True
+P7 '(3면)': True
+P7 '3면·6면': False
+P8 key 109: 기준 — 日期不同因标准不同
+P8 raw '3면·6면' present: False | '3版' in 109 note: False
+
+P5 y=715.98 x=65: '수험생을 응원해요. 시험장 앞에서는'
+P5 y=829.98 x=65: '비는 마음으로 찹쌀떡이나 엿을'
+P5 y=790.95 x=989: '합격을 비는 마음으로 찹쌀떡이나 엿을'
+P5 y=1728 x=527: '온 나라가 수험생을 ___해요.'
+P5 y=1904.0 x=527: '합격을 비는 마음으로 찹쌀떡이나 엿을'
+P5 y=2014.225 x=989: '우리는 / 수험생을 / 응원해요 → ___'

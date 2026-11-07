@@ -1,0 +1,12 @@
+== 1. same-baseline furniture bands (decoded, advance widths) ==
+  (only gaps < 40px listed)
+== 2. right-edge ADVANCE scan ==
+  advance-right > 1885 (content edge) or > 1922 (frame): 2
+    ('p8-exercices.svg', 836.1250000000001, 1899.421875, 'b. an election in the middle of a term')
+    ('p8-exercices.svg', 912.1250000000001, 1903.765625, 'd. the paper you mark your choice on')
+== 3. P6 chart labels, baseline-anchored ink vs later rects ==
+  'No lines : 38%' baseline=1218.16 ink=(1200.2,1219.2) max-later-rect-coverage=0.0% PASS <30%
+  'Work on Tuesday : 29%' baseline=1270.76 ink=(1251.8,1276.8) max-later-rect-coverage=0.0% PASS <30%
+  'Travel plans : 21%' baseline=1323.36 ink=(1305.4,1329.4) max-later-rect-coverage=0.0% PASS <30%
+  'Habit : 12%' baseline=1375.9599999999998 ink=(1358.0,1377.0) max-later-rect-coverage=0.0% PASS <30%
+scans done

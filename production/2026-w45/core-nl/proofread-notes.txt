@@ -1,0 +1,15 @@
+W45 NL CORE — SELF-PROOFREAD NOTES (builder, 2026-10-26)
+- Full SVG text read end to end; all 150 keys re-derived; P8 answers 150/150 vs registry.
+- Golden sentences: all 8 verified line-joined, exactly twice each (article + P7), verbatim.
+  Fix applied: P6 article sentences split into standalone sentences so P7 quotes match verbatim
+  (Een code is geen verbod... / Het weer is van ons allemaal...); rebuilt, re-verified.
+- Content-quality fixes: P2 ex.11 de-duplicated (was identical to P1 quiz item);
+  P2 ex.17 planten -> wortelen (was third planten item).
+- Banned-string scan clean: 桥接 0, AFSCAFFEN 0, spaced guillemets 0, double spaces 0.
+- P6 chart vs bars verified (45/25/20/10 = 100), labeled OEFENDATA.
+- Furniture-band same-baseline scan: no collisions.
+- Visual inspection of all 8 rendered PNG cards: clean, no overlaps, no cut-off text.
+- Final: 0 build warnings, occlusion audit 0 flags, 150 exercises, model essay 87 words.
+- Verification debts carried in KIT §4: KNMI 2 Nov switch dropped (unconfirmed);
+  Klimaatweek national framing + Crossing Border dates rest on trend-pool citations only;
+  Belastingplan dropped (unprinted).

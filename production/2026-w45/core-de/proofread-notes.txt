@@ -1,0 +1,46 @@
+W45 DE core — builder self-proofread record (2026-10-26)
+=====================================================
+Scope: all 8 rendered cards (1950px PNGs) + SVG text extraction, final build
+build-log-5.txt (zero FLOW OVERFLOW / HEAD TOO WIDE warnings, TOTAL 150).
+
+Pages inspected: p1-front, p2-leben, p3-kultur, p4-sport, p5-jugend,
+p6-vertiefung, p7-sprache, p8-uebungen — all clean on final render.
+
+Checks performed:
+- All 150 keys re-derived against prompts (P1 1-10, P2 11-28, P3 29-46,
+  P4 47-64, P5 65-82, P6 83-100, P7 101-112, P8 113-150), including matching
+  letter maps vs printed options on P2/P4/P8.
+- Suspect keys investigated from source and cleared: 129 = A (halb acht,
+  matches Familie Berger passage); 149 = A (gehe, 1st person singular,
+  matches "Ich ___ wieder in die Schule").
+- Dates/weekdays verified with date -d (Europe/Berlin): Nov 2 Mon, Nov 3 Tue,
+  Nov 4 Wed, Nov 5 Thu, Nov 6 Fri, Nov 7 Sat, Nov 8 Sun, Nov 9 Mon, Nov 15 Sun;
+  Oct 26 Mon, Oct 31 Sat, Nov 1 Sun.
+- Fixture table vs articles: all 9 Bundesliga MD9 + 4 UCL + 2 UEL + 1 2. BL
+  rows match article times (all CET); no invented results anywhere.
+- Chart arithmetic: 68+20=88, 68+20+12=100; P2 wide box 50x14.04=7.02 exact;
+  "rund 8,50" is press-standard rounding (50x17ct), noted in KIT.
+- MUSTER recount: 83 words, matches label.
+- P7 verbatim: all 8 phrases exactly 2x (verify.py, whitespace-normalized).
+- Forbidden wording scan: no 桥接, no Le/The Lucerna.
+- P1 top-band same-baseline intervals 65..367 / 651..1299 / 1476..1885: no
+  overlap. P6 chart labels end x<=425, bars start x=535: no graze.
+- Occlusion audit: run 1 = 5 flags (all fixed), run 2 = 0, run 3 (final) = 0.
+  Selftest OK on every run.
+
+Defects fixed during this build (see KIT §11 for detail):
+1. P6-main FLOW OVERFLOW (gloss under Pro&Contra box) — paras trimmed.
+2. P3 TIPP box crossed exercises rule — text shortened twice.
+3. P7 rail crossed phrases rule — toolbox/readers strings shortened.
+4. P1 band title overlapped right Chinese text — title shortened.
+5. P2 wide-box value grazed label — value x +30.
+6. Three box titles crossed right borders — titles shortened.
+7. P1 Zahlen orphan paren — item shortened.
+8. P4 C-ex 4 comparative corrected (18:45 < 21:00, "Bayern-Spiel").
+9. P4 section D drills fixture times, not results (by design).
+
+Kept as cosmetic-only (W43-accepted class): lone 。 orphans at end of
+P2/P3/P4/P6 gloss boxes; partly empty third feature column on P2/P3
+(white space, lower page dense).
+
+Final state: ZERO known defects. Ready for independent proofread + insert.

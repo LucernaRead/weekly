@@ -1,0 +1,66 @@
+=== P8 F rows core vs edition (ADVANCE) ===
+ CORE y=940.0 x=1485.0 x1=1891.2 w=406.2 :: "b. une soirée qui dure jusqu'à la nuit"
+ CORE y=1016.0 x=1485.0 x1=1891.3 w=406.3 :: 'd. le coquillage fêté à Port-en-Bessin'
+ CORE y=1054.0 x=1485.0 x1=1899.5 w=414.5 :: 'e. plusieurs concerts en une semaine'
+ EDITION y=1036.0 x=1485.0 x1=1891.2 w=406.2 :: "b. une soirée qui dure jusqu'à la nuit"
+ EDITION y=1112.0 x=1485.0 x1=1891.3 w=406.3 :: 'd. le coquillage fêté à Port-en-Bessin'
+ EDITION y=1150.0 x=1485.0 x1=1899.5 w=414.5 :: 'e. plusieurs concerts en une semaine'
+
+=== Kinsoku ':' core vs edition ===
+ -- CORE --
+  p3-culture.svg y=789.65 :: ": on le pose sur les tombes, on ne l'offre jamais"
+  p4-sport.svg y=837.1199999999999 :: ': quarts de finale vendredi 6'
+  p5-jeunesse.svg y=430.64999999999986 :: ': clôture du festival.'
+  p7-langue.svg y=428.1 :: ": attention à l'accord avec le sujet :"
+ -- EDITION --
+  p3-culture.svg y=789.65 :: ": on le pose sur les tombes, on ne l'offre jamais"
+  p4-sport.svg y=837.1199999999999 :: ': quarts de finale vendredi 6'
+  p5-jeunesse.svg y=430.64999999999986 :: ': clôture du festival.'
+  p7-langue.svg y=428.1 :: ": attention à l'accord avec le sujet :"
+
+=== P8 flow-end baselines + getmetrics descent calibre (ink_bottom = max_baseline + descent_at_that_node) ===
+ -- CORE battery top baselines <=1490 --
+   y=1426.825 size=20.0 desc=6 ink_bottom=1432.8 :: "Elle s'intéresse ___ festivals. A. à les · B. aux"
+   y=1430.2 size=20.0 desc=6 ink_bottom=1436.2 :: 'le petit Léo · B. le père · C. la mère'
+   y=1455.825 size=20.0 desc=6 ink_bottom=1461.8 :: '· C. des'
+ -- CORE answers top baselines (1878<=y<2600) --
+   y=2517.5800000000004 size=15.5 desc=5 ink_bottom=2522.6 :: '97. reprend · 98. encore · 99. déguisés · 100. plus'
+   y=2526.11 size=15.5 desc=5 ink_bottom=2531.1 :: '· 135. 读一份日程，本身就是在了解法国。（lire un'
+   y=2537.7300000000005 size=15.5 desc=5 ink_bottom=2542.7 :: 'excitante（plus + 形容词） · 101. promenons · 102. peut'
+   y=2539.1900000000005 size=15.5 desc=5 ink_bottom=2544.2 :: '44. B（决赛在周日 8 日） · 45. A · 46. C · 47. B · 48. A ·'
+   MAX answer baseline=2539.1900000000005 size=15.5 desc=5 ink_bottom=2544.2 gap_to_footer_rule_2580=35.8 gap_to_footer_baseline_2624=79.8
+ -- EDITION battery top baselines <=1490 --
+   y=1416.0 size=20.0 desc=6 ink_bottom=1422.0 :: 'votre (148)___. — Voilà. Bon (149)___ ! —'
+   y=1429.6250000000002 size=20.0 desc=6 ink_bottom=1435.6 :: '· C. des'
+   y=1446.4 size=20.0 desc=6 ink_bottom=1452.4 :: 'Merci !'
+ -- EDITION answers top baselines (1878<=y<2600) --
+   y=2520.3300000000004 size=14.5 desc=5 ink_bottom=2525.3 :: '· 89. plus long · 90. moins simple (El presupuesto es más'
+   y=2520.330000000001 size=14.5 desc=5 ink_bottom=2525.3 :: 'niveles de miedo se distinguen por colores) · 43. 19 heures'
+   y=2535.1200000000003 size=14.5 desc=5 ink_bottom=2540.1 :: '126. A (La insignia es para el pequeño Léo, contra monstruos) ·'
+   y=2539.1800000000003 size=14.5 desc=5 ink_bottom=2544.2 :: 'complejo que un calendario) · 91. aussi important · 92.'
+   MAX answer baseline=2539.1800000000003 size=14.5 desc=5 ink_bottom=2544.2 gap_to_footer_rule_2580=35.8 gap_to_footer_baseline_2624=79.8
+
+=== P7 teaser + reader box ===
+ -- CORE teaser top baselines --
+   y=2414.8999999999996 size=21.0 desc=6 ink_bottom=2420.9 :: 'la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, e'
+   y=2466.0 size=20.0 desc=6 ink_bottom=2472.0 :: '下周：参议院审议社保预算、11 月 11 日停战纪念日、迪耶普扇贝集市；还有你们的来信！'
+ -- CORE rects bottom 2258±2 or 2540±2 --
+   rect x=989.0 y=1878.0 w=896.0 h=380.0 bottom=2258.0 stroke=#d8cfb4 fill=#fdfaf0
+   rect x=989.0 y=2270.0 w=896.0 h=270.0 bottom=2540.0 stroke=None fill=#2c2822
+ -- CORE P7 nodes y 2050-2260 (reader box zone) top baselines --
+   y=2173.475 size=22.5 desc=7 ink_bottom=2180.5 :: '✗ « Les jeunes créateurs y rencontre'
+   y=2206.0 size=19.5 desc=6 ink_bottom=2212.0 :: '编辑部说明：截至付印，编辑部尚未收到 VOL.2 第 8 版的投稿作文（W44 未出刊），故本期刊登标'
+   y=2206.1 size=22.5 desc=7 ink_bottom=2213.1 :: 'leur public, en vrai. »'
+   y=2233.3 size=19.5 desc=6 ink_bottom=2239.3 :: '注明确的编辑部示例；VOL.4 将兑现点评真实投稿的承诺。'
+ -- EDITION teaser top baselines --
+   y=2414.8999999999996 size=21.0 desc=6 ink_bottom=2420.9 :: 'la Foire aux harengs et à la coquille Saint-Jacques, à Dieppe. Et vos lettres, e'
+   y=2466.0 size=20.0 desc=6 ink_bottom=2472.0 :: 'La semana que viene: el Senado examina el presupuesto social, 11 de noviembre Dí'
+   y=2494.0 size=20.0 desc=6 ink_bottom=2500.0 :: 'Armisticio, 14–15 de noviembre mercado de Dieppe… ¡y por fin vuestras cartas!'
+ -- EDITION rects bottom 2258±2 or 2540±2 --
+   rect x=989.0 y=1878.0 w=896.0 h=380.0 bottom=2258.0 stroke=#d8cfb4 fill=#fdfaf0
+   rect x=989.0 y=2270.0 w=896.0 h=270.0 bottom=2540.0 stroke=None fill=#2c2822
+ -- EDITION P7 nodes y 2050-2260 (reader box zone) top baselines --
+   y=2203.2 size=22.5 desc=7 ink_bottom=2210.2 :: '✗ « Les jeunes créateurs y rencontre'
+   y=2206.0 size=19.5 desc=6 ink_bottom=2212.0 :: 'Nota de la redacción: ningún texto del VOL.2 llegó a tiempo (no hubo W44); aquí '
+   y=2233.3 size=19.5 desc=6 ink_bottom=2239.3 :: 'El VOL.4 comentará textos reales. ¡Envíanos tu carta o tu mejor texto de la pági'
+   y=2235.825 size=22.5 desc=7 ink_bottom=2242.8 :: 'leur public, en vrai. »'

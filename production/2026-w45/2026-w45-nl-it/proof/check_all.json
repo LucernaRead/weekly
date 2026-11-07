@@ -1,0 +1,909 @@
+{
+ "badge_ed": [
+  [
+   "TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI",
+   20.0,
+   true,
+   "#a4553a",
+   "middle",
+   975.0,
+   568.0,
+   840.89
+  ]
+ ],
+ "badge_w43": [
+  [
+   "TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI",
+   20.0,
+   true,
+   "#a4553a",
+   "middle",
+   975.0,
+   568.0,
+   840.89
+  ]
+ ],
+ "badge_strings_equal": true,
+ "subtitle_ed": [
+  [
+   "SETTIMANALE OLANDESE · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12",
+   36.0,
+   true,
+   1619.95
+  ]
+ ],
+ "subtitle_w43": [
+  [
+   "SETTIMANALE OLANDESE · VOL.1 · DE KLOK GAAT TERUG · HERFSTVAKANTIE · ADE WORDT 30",
+   36.0,
+   true,
+   1764.78
+  ]
+ ],
+ "strapline_ed": [
+  "DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS"
+ ],
+ "strapline_core": [
+  "DE WEKELIJKSE KRANT OM NEDERLANDS TE LEREN — HET ECHTE NEDERLAND, IN HET NEDERLANDS"
+ ],
+ "strapline_equal": true,
+ "topstrip_ed": [
+  [
+   "VOL. 2",
+   "start"
+  ],
+  [
+   "ELKE WEEK IN HET NEDERLANDS · OGNI SETTIMANA IN OLANDESE",
+   "middle"
+  ],
+  [
+   "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026",
+   "end"
+  ]
+ ],
+ "footers": {
+  "p1-voorpagina.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 1 di 8"
+  ],
+  "p2-leven.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 2 di 8"
+  ],
+  "p3-cultuur.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 3 di 8"
+  ],
+  "p4-sport.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 4 di 8"
+  ],
+  "p5-jongeren.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 5 di 8"
+  ],
+  "p6-verdieping.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 6 di 8"
+  ],
+  "p7-taal.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 7 di 8"
+  ],
+  "p8-toets.svg": [
+   "De Lucerna · SETTIMANALE OLANDESE VOL.2 · TESTI IN OLANDESE · SPIEGAZIONI IN ITALIANO",
+   "Pagina 8 di 8"
+  ]
+ },
+ "footer_vol2_all": true,
+ "page_lines": {
+  "p1-voorpagina.svg": [
+   "Pagina 1 di 8"
+  ],
+  "p2-leven.svg": [
+   "Pagina 2 di 8"
+  ],
+  "p3-cultuur.svg": [
+   "Pagina 3 di 8"
+  ],
+  "p4-sport.svg": [
+   "Pagina 4 di 8"
+  ],
+  "p5-jongeren.svg": [
+   "Pagina 5 di 8"
+  ],
+  "p6-verdieping.svg": [
+   "Pagina 6 di 8"
+  ],
+  "p7-taal.svg": [
+   "Pagina 7 di 8"
+  ],
+  "p8-toets.svg": [
+   "Pagina 8 di 8"
+  ]
+ },
+ "gloss_ed": {
+  "p2-leven.svg": [
+   {
+    "joined": "Nota — het klimaat = clima · wortelen = mettere radici · besparen = risparmiare · de verwarming = riscaldamento · de waarschuwing = avviso, allarme · lokaal = locale.",
+    "items": [
+     "het klimaat = clima",
+     "wortelen = mettere radici",
+     "besparen = risparmiare",
+     "de verwarming = riscaldamento",
+     "de waarschuwing = avviso, allarme",
+     "lokaal = locale."
+    ],
+    "n": 6
+   }
+  ],
+  "p3-cultuur.svg": [
+   {
+    "joined": "Nota — het museum = museo · de rondleiding = visita guidata · het tijdslot = fascia oraria · tweedehands = di seconda mano · de beurs = fiera, mercato.",
+    "items": [
+     "het museum = museo",
+     "de rondleiding = visita guidata",
+     "het tijdslot = fascia oraria",
+     "tweedehands = di seconda mano",
+     "de beurs = fiera, mercato."
+    ],
+    "n": 5
+   }
+  ],
+  "p4-sport.svg": [
+   {
+    "joined": "Nota — de balans = il bilancio finale · gelijkspelen = pareggiare · de speelronde = giornata · de topper = il big match · de stand = la classifica.",
+    "items": [
+     "de balans = il bilancio finale",
+     "gelijkspelen = pareggiare",
+     "de speelronde = giornata",
+     "de topper = il big match",
+     "de stand = la classifica."
+    ],
+    "n": 5
+   }
+  ],
+  "p5-jongeren.svg": [
+   {
+    "joined": "Nota — het eiland = isola · de proef = prova, sfida · stemmen = votare · de aflevering = puntata · voorbij = finito, passato.",
+    "items": [
+     "het eiland = isola",
+     "de proef = prova, sfida",
+     "stemmen = votare",
+     "de aflevering = puntata",
+     "voorbij = finito, passato."
+    ],
+    "n": 5
+   }
+  ],
+  "p6-verdieping.svg": [
+   {
+    "joined": "Nota — de meteoroloog = meteorologo · waarschuwingsmoeheid = stanchezza da allarmi · vastzetten = fissare bene · het advies = consiglio · de voorstander = sostenitore.",
+    "items": [
+     "de meteoroloog = meteorologo",
+     "waarschuwingsmoeheid = stanchezza da allarmi",
+     "vastzetten = fissare bene",
+     "het advies = consiglio",
+     "de voorstander = sostenitore."
+    ],
+    "n": 5
+   }
+  ]
+ },
+ "gloss_core": {
+  "p2-leven.svg": [
+   {
+    "joined": "译注｜het klimaat 气候 · wortelen 生根 · besparen 节约 · de verwarming 暖气 · de waarschuwing 预警 · lokaal 当地的 、本地的。",
+    "items": [
+     "het klimaat 气候",
+     "wortelen 生根",
+     "besparen 节约",
+     "de verwarming 暖气",
+     "de waarschuwing 预警",
+     "lokaal 当地的 、本地的。"
+    ],
+    "n": 6
+   }
+  ],
+  "p3-cultuur.svg": [
+   {
+    "joined": "译注｜het museum 博物馆 · de rondleiding 导览 · het tijdslot 时间段 · tweedehands 二手的 · de beurs 展会、集 市。",
+    "items": [
+     "het museum 博物馆",
+     "de rondleiding 导览",
+     "het tijdslot 时间段",
+     "tweedehands 二手的",
+     "de beurs 展会、集 市。"
+    ],
+    "n": 5
+   }
+  ],
+  "p4-sport.svg": [
+   {
+    "joined": "译注｜de balans 成绩单、总结 · gelijkspelen 打平 · de speelronde 轮次 · de topper 焦点战 · de stand 积分榜。",
+    "items": [
+     "de balans 成绩单、总结",
+     "gelijkspelen 打平",
+     "de speelronde 轮次",
+     "de topper 焦点战",
+     "de stand 积分榜。"
+    ],
+    "n": 5
+   }
+  ],
+  "p5-jongeren.svg": [
+   {
+    "joined": "译注｜het eiland 岛 · de proef 比赛项目 、考验 · stemmen 投票 · de aflevering （一）集 · voorbij 过去了、结束了。",
+    "items": [
+     "het eiland 岛",
+     "de proef 比赛项目 、考验",
+     "stemmen 投票",
+     "de aflevering （一）集",
+     "voorbij 过去了、结束了。"
+    ],
+    "n": 5
+   }
+  ],
+  "p6-verdieping.svg": [
+   {
+    "joined": "译注｜de meteoroloog 气象学家 · waarschuwingsmoeheid 预警疲劳 · vastzetten 固定好 · het advies 建议、忠 告 · de voorstander 支持者。",
+    "items": [
+     "de meteoroloog 气象学家",
+     "waarschuwingsmoeheid 预警疲劳",
+     "vastzetten 固定好",
+     "het advies 建议、忠 告",
+     "de voorstander 支持者。"
+    ],
+    "n": 5
+   }
+  ]
+ },
+ "gloss_prefix_w43": [
+  "Nota — het ezelsbruggetje la frase-memoria · verzetten spost"
+ ],
+ "gloss_prefix_ed_all": [
+  "Nota — h",
+  "Nota — h",
+  "Nota — d",
+  "Nota — h",
+  "Nota — d"
+ ],
+ "p7_wordbox_lines": [
+  "«meedoen» betekent: deelnemen,",
+  "erbij zijn. In de Klimaatweek doet",
+  "heel Nederland mee."
+ ],
+ "p7_definition_joined": "«meedoen» betekent: deelnemen, erbij zijn. In de Klimaatweek doet heel Nederland mee.",
+ "p7_definition_target": "«meedoen» betekent: deelnemen, erbij zijn. In de Klimaatweek doet heel Nederland mee.",
+ "p7_definition_verbatim": true,
+ "p7_wordbox_gloss": [
+  "meedoen = partecipare: tutta l'Olanda",
+  "partecipa."
+ ],
+ "p7_wordbox_gloss_joined": "meedoen = partecipare: tutta l'Olanda partecipa.",
+ "p7_definition_core": "HET WOORD · 本周生词 «meedoen» betekent: deelnemen,",
+ "golden_ed": [
+  {
+   "sentence": "Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland",
+   "tag": "1",
+   "y": 2038.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "De herfst is de beste tijd om te planten",
+   "tag": "1",
+   "y": 2128.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Geel betekent: let op, het weer kan gevaarlijk zijn",
+   "tag": "2",
+   "y": 2218.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts",
+   "tag": "3",
+   "y": 2308.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Ajax won donderdag 22 oktober met 2–0 van Atalanta",
+   "tag": "4",
+   "y": 2038.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur",
+   "tag": "5",
+   "y": 2128.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Een code is geen verbod, maar een advies",
+   "tag": "6",
+   "y": 2218.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Het weer is van ons allemaal, maar het raakt ons allemaal anders",
+   "tag": "6",
+   "y": 2308.0,
+   "x": 989.0
+  }
+ ],
+ "golden_core": [
+  {
+   "sentence": "Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland",
+   "tag": "1",
+   "y": 2038.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "De herfst is de beste tijd om te planten",
+   "tag": "1",
+   "y": 2128.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Geel betekent: let op, het weer kan gevaarlijk zijn",
+   "tag": "2",
+   "y": 2218.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts",
+   "tag": "3",
+   "y": 2308.0,
+   "x": 65.0
+  },
+  {
+   "sentence": "Ajax won donderdag 22 oktober met 2–0 van Atalanta",
+   "tag": "4",
+   "y": 2038.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur",
+   "tag": "5",
+   "y": 2128.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Een code is geen verbod, maar een advies",
+   "tag": "6",
+   "y": 2218.0,
+   "x": 989.0
+  },
+  {
+   "sentence": "Het weer is van ons allemaal, maar het raakt ons allemaal anders",
+   "tag": "6",
+   "y": 2308.0,
+   "x": 989.0
+  }
+ ],
+ "golden_checks": [
+  {
+   "sentence": "Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland",
+   "tag": "1",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p1-voorpagina.svg"
+  },
+  {
+   "sentence": "De herfst is de beste tijd om te planten",
+   "tag": "1",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p1-voorpagina.svg"
+  },
+  {
+   "sentence": "Geel betekent: let op, het weer kan gevaarlijk zijn",
+   "tag": "2",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p2-leven.svg"
+  },
+  {
+   "sentence": "Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts",
+   "tag": "3",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p3-cultuur.svg"
+  },
+  {
+   "sentence": "Ajax won donderdag 22 oktober met 2–0 van Atalanta",
+   "tag": "4",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p4-sport.svg"
+  },
+  {
+   "sentence": "Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur",
+   "tag": "5",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p5-jongeren.svg"
+  },
+  {
+   "sentence": "Een code is geen verbod, maar een advies",
+   "tag": "6",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p6-verdieping.svg"
+  },
+  {
+   "sentence": "Het weer is van ons allemaal, maar het raakt ons allemaal anders",
+   "tag": "6",
+   "total_count": 2,
+   "on_tagged_page": true,
+   "tagged_file": "p6-verdieping.svg"
+  }
+ ],
+ "golden_outside_p7": [
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+ ],
+ "readers_lines": [
+  "BRIEVEN VAN LEZERS",
+  "«Hallo! Ik ben Li en ik leer",
+  "Nederlands in Shanghai. In de",
+  "Klimaatweek plant ik een boom op",
+  "mijn balkon!» — Li (voorbeeldbrief",
+  "van de redactie)",
+  "Ter perse: nog geen echte brieven of",
+  "beste pagina-8-teksten binnen —",
+  "daarom dit voorbeeld; belofte naar",
+  "VOL.3.",
+  "Alla stampa: niente lettere vere, niente",
+  "migliori testi di pagina 8 — quindi un",
+  "esempio; promessa rimandata al VOL.3.",
+  "Esempio della redazione, non una lettera",
+  "vera. Mandaci lettera e testo di pagina 8: li",
+  "pubblicheremo nel VOL.3!"
+ ],
+ "readers_joined": "BRIEVEN VAN LEZERS «Hallo! Ik ben Li en ik leer Nederlands in Shanghai. In de Klimaatweek plant ik een boom op mijn balkon!» — Li (voorbeeldbrief van de redactie) Ter perse: nog geen echte brieven of beste pagina-8-teksten binnen — daarom dit voorbeeld; belofte naar VOL.3. Alla stampa: niente lettere vere, niente migliori testi di pagina 8 — quindi un esempio; promessa rimandata al VOL.3. Esempio della redazione, non una lettera vera. Mandaci lettera e testo di pagina 8: li pubblicheremo nel VOL.3!",
+ "readers_checks": {
+  "nl_disclosure": true,
+  "it_disclosure": true,
+  "invitation": true,
+  "example_label": true,
+  "imperative_Mandaci": true,
+  "promise_pub": true
+ },
+ "p8_keydiff": [
+  {
+   "n": 7,
+   "core_seg": "B — 气候周共 7 天（11 月 2–8 日）",
+   "ed_seg": "B — La Settimana del clima dura 7 giorni (2–8 novembre)",
+   "core_token": "B",
+   "ed_token": "B",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "B — 气候周共 7 天",
+   "ed_key": "B — La Settimana del clima dura 7 giorni"
+  },
+  {
+   "n": 17,
+   "core_seg": "wortelen — wortelen = 生根（复数主语）",
+   "ed_seg": "wortelen — wortelen = mettere radici (soggetto plurale)",
+   "core_token": "wortelen",
+   "ed_token": "wortelen",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "wortelen — wortelen = 生根",
+   "ed_key": "wortelen — wortelen = mettere radici"
+  },
+  {
+   "n": 70,
+   "core_seg": "eiland — eiland = 岛（het）",
+   "ed_seg": "eiland — eiland = isola (het)",
+   "core_token": "eiland",
+   "ed_token": "eiland",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "eiland — eiland = 岛",
+   "ed_key": "eiland — eiland = isola"
+  },
+  {
+   "n": 71,
+   "core_seg": "proef — proef = 比赛项目、考验（de）",
+   "ed_seg": "proef — proef = prova, sfida (de)",
+   "core_token": "proef",
+   "ed_token": "proef",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "proef — proef = 比赛项目、考验",
+   "ed_key": "proef — proef = prova, sfida"
+  },
+  {
+   "n": 76,
+   "core_seg": "gaat winnen — gaat winnen = 会赢（只是猜测）",
+   "ed_seg": "gaat winnen — gaat winnen = vincerà (solo un'ipotesi)",
+   "core_token": "gaat winnen",
+   "ed_token": "gaat winnen",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "gaat winnen — gaat winnen = 会赢",
+   "ed_key": "gaat winnen — gaat winnen = vincerà"
+  },
+  {
+   "n": 96,
+   "core_seg": "advies — advies = 建议（het）",
+   "ed_seg": "advies — advies = consiglio (het)",
+   "core_token": "advies",
+   "ed_token": "advies",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "advies — advies = 建议",
+   "ed_key": "advies — advies = consiglio"
+  },
+  {
+   "n": 137,
+   "core_seg": "气候周持续七天。 — 对照第 1 版头条",
+   "ed_seg": "La Settimana del clima dura sette giorni. — Confronta con il titolo di pagina 1",
+   "core_token": "气候周持续七天。",
+   "ed_token": "La Settimana del clima dura sette giorni.",
+   "token_equal": false,
+   "core_method": "dash",
+   "ed_method": "dash",
+   "core_key": "气候周持续七天。",
+   "ed_key": "La Settimana del clima dura sette giorni."
+  },
+  {
+   "n": 138,
+   "core_seg": "橙色预警意味着：做好准备。 — 第 2 版原句 · bereid je voor 做好准备",
+   "ed_seg": "Il codice arancione significa: preparati. — Frase originale di pagina 2 · bereid je voor = preparati",
+   "core_token": "橙色预警意味着：做好准备。",
+   "ed_token": "Il codice arancione significa: preparati.",
+   "token_equal": false,
+   "core_method": "dash",
+   "ed_method": "dash",
+   "core_key": "橙色预警意味着：做好准备。",
+   "ed_key": "Il codice arancione significa: preparati."
+  },
+  {
+   "n": 148,
+   "core_seg": "B — zachte = 柔软的（土壤）",
+   "ed_seg": "B — zachte = morbido (terreno)",
+   "core_token": "B",
+   "ed_token": "B",
+   "token_equal": true,
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_key": "B — zachte = 柔软的",
+   "ed_key": "B — zachte = morbido"
+  }
+ ],
+ "p8_139_140": {
+  "139": {
+   "core_seg": "Museumnacht duurt van 19:00 uur tot 02:00 uur. — 注意时间表达 van...tot...",
+   "ed_seg": "Museumnacht duurt van 19:00 uur tot 02:00 uur. — Attenzione alla formula van...tot...",
+   "core_key": "Museumnacht duurt van 19:00 uur tot 02:00 uur.",
+   "ed_key": "Museumnacht duurt van 19:00 uur tot 02:00 uur.",
+   "key_equal": true
+  },
+  "140": {
+   "core_seg": "Ik doe mee aan de Klimaatweek. — meedoen 是可分动词",
+   "ed_seg": "Ik doe mee aan de Klimaatweek. — meedoen è un verbo separabile",
+   "core_key": "Ik doe mee aan de Klimaatweek.",
+   "ed_key": "Ik doe mee aan de Klimaatweek.",
+   "key_equal": true
+  },
+  "150": {
+   "core_seg": "✓ 范文见本版 H 区（87 词）",
+   "ed_seg": "✓ Vedi il testo modello nella sezione H (87 parole)",
+   "core_key": "✓",
+   "ed_key": "✓",
+   "key_equal": true
+  }
+ },
+ "p8_150": {
+  "core": "✓ 范文见本版 H 区（87 词）",
+  "ed": "✓ Vedi il testo modello nella sezione H (87 parole)"
+ },
+ "same_baseline": {
+  "p1-voorpagina.svg": [],
+  "p2-leven.svg": [],
+  "p3-cultuur.svg": [],
+  "p4-sport.svg": [],
+  "p5-jongeren.svg": [],
+  "p6-verdieping.svg": [],
+  "p7-taal.svg": [],
+  "p8-toets.svg": []
+ },
+ "p6_chart_region_texts": [
+  [
+   "DE GRAFIEK · DATI DI PROVA",
+   1473.0,
+   242.0,
+   24.0
+  ],
+  [
+   "Ik blijf thuis",
+   1473.0,
+   294.0,
+   19.5
+  ],
+  [
+   "45",
+   1863.0,
+   294.0,
+   19.5
+  ],
+  [
+   "Ik kijk eerst naar de tekst",
+   1473.0,
+   352.0,
+   19.5
+  ],
+  [
+   "25",
+   1863.0,
+   352.0,
+   19.5
+  ],
+  [
+   "Ik ga toch naar buiten",
+   1473.0,
+   410.0,
+   19.5
+  ],
+  [
+   "20",
+   1863.0,
+   410.0,
+   19.5
+  ],
+  [
+   "Ik weet het niet",
+   1473.0,
+   468.0,
+   19.5
+  ],
+  [
+   "10",
+   1863.0,
+   468.0,
+   19.5
+  ],
+  [
+   "OEFENDATA — verzonnen cijfers om mee",
+   1473.0,
+   539.0,
+   19.0
+  ],
+  [
+   "te oefenen, geen echte enquête. Vraag:",
+   1473.0,
+   564.84,
+   19.0
+  ],
+  [
+   "wat doe jij bij code oranje? (100 jongeren)",
+   1473.0,
+   590.6800000000001,
+   19.0
+  ],
+  [
+   "Dati di esercitazione: numeri inventati solo",
+   1473.0,
+   635.0200000000001,
+   18.5
+  ],
+  [
+   "per esercitarsi, non un vero sondaggio.",
+   1473.0,
+   659.44,
+   18.5
+  ],
+  [
+   "Domanda: cosa fai con il codice arancione?",
+   1473.0,
+   683.86,
+   18.5
+  ],
+  [
+   "(100 giovani)",
+   1473.0,
+   708.28,
+   18.5
+  ]
+ ],
+ "p6_chart_worst_baseline": {
+  "pct": 0.0,
+  "text": "—",
+  "method": ""
+ },
+ "p6_chart_nonzero": [],
+ "p6_chart_worst_anchor_ls": {
+  "pct": 0.0,
+  "text": "—"
+ },
+ "p6_chart_values_present": {
+  "45": true,
+  "25": true,
+  "20": true,
+  "10": true
+ },
+ "p6_all_texts_chart_area": [
+  [
+   "betekent: jouw stad kan code",
+   65.0,
+   629.68
+  ],
+  [
+   "oranje hebben, terwijl het twintig",
+   65.0,
+   667.68
+  ],
+  [
+   "kilometer verderop rustig is.",
+   65.0,
+   705.68
+  ],
+  [
+   "maar een advies. Lees de",
+   527.0,
+   602.0
+  ],
+  [
+   "waarschuwing, kijk naar je eigen",
+   527.0,
+   640.0
+  ],
+  [
+   "plaats en beslis zelf. En in de",
+   527.0,
+   678.0
+  ],
+  [
+   "Klimaatweek past dat goed. Het",
+   527.0,
+   716.0
+  ],
+  [
+   "weer is van ons allemaal, maar het",
+   527.0,
+   754.0
+  ],
+  [
+   "Dati di esercitazione: numeri inventati solo",
+   1473.0,
+   635.0200000000001
+  ],
+  [
+   "per esercitarsi, non un vero sondaggio.",
+   1473.0,
+   659.44
+  ],
+  [
+   "Domanda: cosa fai con il codice arancione?",
+   1473.0,
+   683.86
+  ],
+  [
+   "(100 giovani)",
+   1473.0,
+   708.28
+  ]
+ ],
+ "images": {
+  "p1-voorpagina.svg": 1,
+  "p2-leven.svg": 1,
+  "p3-cultuur.svg": 1,
+  "p4-sport.svg": 1,
+  "p5-jongeren.svg": 0,
+  "p6-verdieping.svg": 0,
+  "p7-taal.svg": 0,
+  "p8-toets.svg": 0
+ },
+ "credits": {
+  "p1-voorpagina.svg": [
+   "Foto: Vovogov90 — CC0"
+  ],
+  "p2-leven.svg": [
+   "Foto: Nationaal Archief — CC0"
+  ],
+  "p3-cultuur.svg": [
+   "Foto: W. Punt / Anefo, Nationaal Archief — CC0"
+  ],
+  "p4-sport.svg": [
+   "Foto: Spaarnestad Photo / Wikimedia Commons — publiek"
+  ],
+  "p5-jongeren.svg": [],
+  "p6-verdieping.svg": [],
+  "p7-taal.svg": [],
+  "p8-toets.svg": []
+ },
+ "banned": {
+  "p1-voorpagina.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p2-leven.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p3-cultuur.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p4-sport.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p5-jongeren.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p6-verdieping.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p7-taal.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  },
+  "p8-toets.svg": {
+   "bridge_term": 0,
+   "cjk": 0
+  }
+ },
+ "total_cjk_ed": 0,
+ "total_bridge_ed": 0,
+ "abstract": {
+  "text": "De Lucerna, settimanale olandese VOL.2 per lettori italiani: la Settimana del clima 2–8 novembre, la Notte dei musei di Amsterdam il 7 novembre, il festival Crossing Border e la 12ª giornata di Eredivisie con Twente–Ajax; testi in olandese con spiegazioni in italiano, livelli A2–B2, 150 esercizi per imparare l'olandese leggendo le notizie olandesi.\n",
+  "lines": [
+   "De Lucerna, settimanale olandese VOL.2 per lettori italiani: la Settimana del clima 2–8 novembre, la Notte dei musei di Amsterdam il 7 novembre, il festival Crossing Border e la 12ª giornata di Eredivisie con Twente–Ajax; testi in olandese con spiegazioni in italiano, livelli A2–B2, 150 esercizi per imparare l'olandese leggendo le notizie olandesi."
+  ],
+  "has_ascii_dquote": false
+ },
+ "cards": {
+  "p1-voorpagina.png": [
+   1950,
+   2700
+  ],
+  "p2-leven.png": [
+   1950,
+   2700
+  ],
+  "p3-cultuur.png": [
+   1950,
+   2700
+  ],
+  "p4-sport.png": [
+   1950,
+   2700
+  ],
+  "p5-jongeren.png": [
+   1950,
+   2700
+  ],
+  "p6-verdieping.png": [
+   1950,
+   2700
+  ],
+  "p7-taal.png": [
+   1950,
+   2700
+  ],
+  "p8-toets.png": [
+   1950,
+   2700
+  ]
+ },
+ "p8_noted": 150
+}

@@ -1,0 +1,338 @@
+content12.py:15: p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 每周一期 · 读荷兰人正在读的荷兰语", 21, "sans", False, GREY, anchor="middle")
+content12.py:19: p.text(975, 330, "荷 兰 语 周 报 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12", 40, "serif", True, INK, anchor="middle")
+content12.py:27: p.text(RIGHT - 30, 478, "气候周", 24, "sans", True, "#b3a06a", anchor="end")
+content12.py:28: p.text(RIGHT - 30, 522, "本周全国气候周 · 详见第 2 版", 21, "sans", False, "#b3a06a", anchor="end")
+content12.py:32: p.text(MX, hy + 26, "HET NIEUWS · 头条", 22, "sans", True, BRICK)
+content12.py:42: f.bridge("讲解｜de Klimaatweek 气候周 · de boom planten 种树 · besparen 节约 · de waarschuwing 警告、预警。")
+content12.py:43: f.box("DE WEEK IN CIJFERS · 数字看本周", [
+content12.py:44:     ("7 — de dagen van de Klimaatweek（气候周的天数）", "serif", False, INK, 20, 1.35),
+content12.py:45:     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt（周六科弗登发放的树木和灌木）", "serif", False, INK, 20, 1.35),
+content12.py:46:     ("70+ — de musea die open zijn op Museumnacht（博物馆之夜开放的博物馆，70 多家）", "serif", False, INK, 20, 1.35),
+content12.py:47:     ("9 — de wedstrijden van speelronde 12 in de Eredivisie（荷甲第 12 轮的比赛场数）", "serif", False, INK, 20, 1.35),
+content12.py:49: f.head("NU JIJ · 即学即练", 25)
+content12.py:50: f.ex("A2", "完成句子", "8", "气候周 11 月 2–8 日",
+content12.py:52: f.ex("A2", "完成句子", "200", "科弗登发放 200 棵树木灌木",
+content12.py:54: f.ex("A2", "完成句子", "7", "博物馆之夜在 11 月 7 日周六",
+content12.py:56: f.ex("A2", "完成句子", "11:15", "海伦芬–费耶诺德 11:15 开球",
+content12.py:58: f.ex("A2", "完成句子", "13:30", "特温特–阿贾克斯 13:30 开球",
+content12.py:60: f.ex("B1", "完成句子", "planten", "veel mensen → planten",
+content12.py:69: p.text(gx + 22, gy + 76, "· 本周日程", 27, "sans", True, OLIVE)
+content12.py:70: p.text(gx + 22, gy + 106, "Agenda van de week · 本周大事", 19, "sans", False, GREY)
+content12.py:85: p.text(gx + 22, byy + 76, "本周日程见第 2–4 版文章", 19, "sans", False, GREY)
+content12.py:90: p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 本期目录", 24, "sans", True, OLIVE)
+content12.py:112: p.para(gx, y2 + 28, "“气候”：我们周围长期的天气与自然。气候周讲的就是我们的气候。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:131: p.text(bx + 22, 1914, "IN HET KORT · 快讯", 24, "sans", True, OLIVE)
+content12.py:145: p.text(MX, qy + 36, "BLIKSEMQUIZ · 闪电问答", 26, "sans", True, OLIVE)
+content12.py:146: p.text(RIGHT, qy + 36, "读头版，选出正确答案 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+content12.py:148: qf.ex("A2", "单选", "B", "气候周共 7 天（11 月 2–8 日）",
+content12.py:150: qf.ex("A2", "单选", "B", "科弗登发放 200 棵树木灌木",
+content12.py:152: qf.ex("A2", "单选", "C", "博物馆之夜在阿姆斯特丹",
+content12.py:154: qf.ex("A2", "单选", "B", "特温特–阿贾克斯 13:30 开球",
+content12.py:164: p.band("LEVEN · 生活", "De Lucerna", "NIVEAU A2 · De Klimaatweek, stap voor stap · 一步一步讲气候周")
+content12.py:176: f.box("ZO ONTHOUD JE HET · 口诀", [
+content12.py:179: f.gloss("het klimaat 气候 · wortelen 生根 · besparen 节约 · de verwarming 暖气 · de waarschuwing 预警 · lokaal 当地的、本地的。")
+content12.py:200: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("气候周你做什么？种树、节约能源还是骑车。写两句荷兰语寄给编辑部。", "sans", False, 20, CW - 44)) * 29 + 20
+content12.py:203: p.text(ix + 22, yy3 + 26, "EN JIJ? · 说说你自己", 24, "sans", True, OLIVE)
+content12.py:206: p.para(ix + 22, yy3 + 20, "气候周你做什么？种树、节约能源还是骑车。写两句荷兰语寄给编辑部。", 20, "sans", False, GREY, CW - 44, 1.42)
+content12.py:212: p.text(MX, dy + 28, "DE CODES VAN HET KNMI · 气象预警颜色", 28, "sans", True, OLIVE)
+content12.py:213: p.text(RIGHT, dy + 28, "Wat betekent elke kleur? · 每种颜色是什么意思", 20, "sans", False, GREY, anchor="end")
+content12.py:215:     ("GEEL", "let op", "天气可能危险，要当心"),
+content12.py:216:     ("ORANJE", "gevaarlijk", "危险，做好准备"),
+content12.py:217:     ("ROOD", "blijf binnen", "非常危险，尽量待在室内"),
+content12.py:218:     ("LOKAAL", "jouw omgeving", "预警针对你所在的地区"),
+content12.py:231: p.text(MX, ey + 28, "OEFENINGEN · 第 2 版练习", 28, "sans", True, OLIVE)
+content12.py:232: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content12.py:235: e.bridge("读第 2 版文章，选出正确答案。")
+content12.py:236: e.ex("A2", "单选", "C", "气候周不做：更多开车",
+content12.py:238: e.ex("A2", "单选", "B", "科弗登发放 200 棵树木灌木",
+content12.py:240: e.ex("A2", "单选", "C", "红色预警：非常危险，待在室内",
+content12.py:242: e.ex("A2", "单选", "B", "预警针对本地，不针对整个省",
+content12.py:244: e.ex("A2", "单选", "B", "节约能源：暖气调低一度",
+content12.py:247: e.bridge("用第 2 版的词填空。")
+content12.py:248: e.ex("A2", "完成句子", "7", "气候周 11 月 2–8 日共 7 天",
+content12.py:249:      "De Klimaatweek duurt ___ dagen.", instr="填空", size=20, gap=8)
+content12.py:250: e.ex("A2", "完成句子", "wortelen", "wortelen = 生根（复数主语）",
+content12.py:251:      "In de herfst ___ (wortelen) de jonge bomen goed.", instr="填空", size=20, gap=8)
+content12.py:252: e.ex("A2", "完成句子", "besparen", "besparen = 节约",
+content12.py:253:      "Met korter douchen kun je energie ___.", instr="填空", size=20, gap=8)
+content12.py:254: e.ex("A2", "完成句子", "fiets", "fiets = 自行车",
+content12.py:255:      "Veel mensen nemen de ___ in plaats van de auto.", instr="填空", size=20, gap=8)
+content12.py:256: e.ex("A2", "完成句子", "Zweeloo", "发放地点在兹韦洛",
+content12.py:257:      "De bomen in Coevorden worden uitgedeeld in ___.", instr="填空", size=20, gap=8)
+content12.py:259: e.bridge("用颜色代码和日期填空。")
+content12.py:260: e.ex("A2", "完成句子", "geel", "黄色代码：当心",
+content12.py:261:      "Code ___ betekent: let op.", instr="填空", size=20, gap=8)
+content12.py:262: e.ex("A2", "完成句子", "oranje", "橙色代码：危险",
+content12.py:263:      "Code ___ betekent: gevaarlijk, bereid je voor.", instr="填空", size=20, gap=8)
+content12.py:264: e.ex("A2", "完成句子", "13:00", "发放从 13:00 开始",
+content12.py:265:      "De uitdeling in Coevorden begint om ___ uur.", instr="填空", size=20, gap=8)
+content12.py:266: e.ex("A2", "完成句子", "8", "气候周 11 月 8 日周日结束",
+content12.py:267:      "De Klimaatweek eindigt op zondag ___ november.", instr="填空", size=20, gap=8)
+content12.py:269: e.match_set("A2", "词汇配对",
+content12.py:276:             ["Klimaatweek=气候周 b", "besparen=节约 d", "waarschuwing=预警 a", "lokaal=本地的 c"],
+content12.py:277:             instr="把词和释义配对")
+content34.py:12: p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Museumnacht, boeken en kunst · 博物馆之夜、书籍与艺术")
+content34.py:24: f.gloss("het museum 博物馆 · de rondleiding 导览 · het tijdslot 时间段 · tweedehands 二手的 · de beurs 展会、集市。")
+content34.py:48: p.text(MX, ey + 28, "OEFENINGEN · 第 3 版练习", 28, "sans", True, OLIVE)
+content34.py:49: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content34.py:52: e.bridge("读第 3 版文章，选出正确答案。")
+content34.py:53: e.ex("A2", "单选", "B", "博物馆之夜在 11 月 7 日周六",
+content34.py:55: e.ex("A2", "单选", "B", "博物馆开放到凌晨 2 点",
+content34.py:57: e.ex("A2", "单选", "C", "Crossing Border 在海牙",
+content34.py:59: e.ex("A2", "单选", "A", "Crossing Border 结合书籍与音乐",
+content34.py:61: e.ex("A2", "单选", "B", "PAN 艺术博览会到 11 月 8 日",
+content34.py:64: e.bridge("用方框里的词填空。注意：有的词要变成复数。")
+content34.py:66: e.ex("A2", "完成句子", "musea", "museum 复数：musea",
+content34.py:67:      "Op Museumnacht zijn meer dan 70 ___ open.", instr="填空", size=20, gap=8)
+content34.py:68: e.ex("A2", "完成句子", "rondleiding", "rondleiding = 导览",
+content34.py:69:      "Een ___ laat je de mooiste zalen zien.", instr="填空", size=20, gap=8)
+content34.py:70: e.ex("B1", "完成句子", "tijdslot", "tijdslot = 时间段",
+content34.py:71:      "Reserveer een ___ voor populaire musea.", instr="填空", size=20, gap=8)
+content34.py:72: e.ex("B1", "完成句子", "tweedehands", "tweedehands = 二手的",
+content34.py:73:      "Op de Snuffelmarkt koop je ___ spullen.", instr="填空", size=20, gap=8)
+content34.py:74: e.ex("A2", "完成句子", "beurs", "beurs = 展会、集市",
+content34.py:75:      "PAN is een ___ voor kunst en antiek.", instr="填空", size=20, gap=8)
+content34.py:77: e.bridge("用现在完成时补全，注意助动词 hebben/zijn。")
+content34.py:78: e.ex("B1", "完成句子", "zijn geweest", "zijn 的 perfectum：zijn geweest",
+content34.py:79:      "De musea ___ (zijn) tot 02:00 uur open.", instr="填空", size=20, gap=8)
+content34.py:80: e.ex("B1", "完成句子", "hebben gekocht", "kopen 的 perfectum：hebben gekocht",
+content34.py:81:      "Wij ___ (kopen) één kaartje voor alle musea.", instr="填空", size=20, gap=8)
+content34.py:82: e.ex("B1", "完成句子", "hebben voorgelezen", "voorlezen 的 perfectum：hebben voorgelezen",
+content34.py:83:      "De schrijvers ___ (voorlezen) hun werk op het podium.", instr="填空", size=20, gap=8)
+content34.py:84: e.ex("B1", "完成句子", "zijn gekomen", "komen 用 zijn：zijn gekomen",
+content34.py:85:      "Veel bezoekers ___ (komen) met de fiets.", instr="填空", size=20, gap=8)
+content34.py:87: e.bridge("算一算：用第 3 版的数字回答。")
+content34.py:88: e.ex("B1", "完成句子", "7", "19:00 到 02:00 共 7 小时",
+content34.py:89:      "Museumnacht duurt van 19:00 tot 02:00 uur: ___ uur.", instr="填空", size=20, gap=8)
+content34.py:90: e.ex("B1", "完成句子", "8", "11 月 1–8 日共 8 天",
+content34.py:91:      "PAN Amsterdam loopt van 1 tot en met 8 november: ___ dagen.", instr="填空", size=20, gap=8)
+content34.py:92: e.ex("B1", "完成句子", "6", "11 月 3–8 日共 6 天",
+content34.py:93:      "Crossing Border duurt van dinsdag 3 tot en met zondag 8 november: ___ dagen.", instr="填空", size=20, gap=8)
+content34.py:94: e.ex("B2", "完成句子", "125", "250 的一半是 125",
+content34.py:95:      "De Snuffelmarkt heeft zo'n 250 kramen; de helft is ___.", instr="填空", size=20, gap=8)
+content34.py:104: p.band("SPORT · 体育", "De Lucerna", "NIVEAU B1 · Europese week en speelronde 12 · 欧战周与第 12 轮")
+content34.py:115: f.gloss("de balans 成绩单、总结 · gelijkspelen 打平 · de speelronde 轮次 · de topper 焦点战 · de stand 积分榜。")
+content34.py:140: p.text(MX, ey + 28, "OEFENINGEN · 第 4 版练习", 28, "sans", True, OLIVE)
+content34.py:141: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content34.py:144: e.bridge("读第 4 版文章，选出正确答案。")
+content34.py:145: e.ex("B1", "单选", "B", "阿贾克斯 2–0 赢亚特兰大",
+content34.py:147: e.ex("B1", "单选", "C", "特温特 4–1 赢林肯红魔",
+content34.py:149: e.ex("B1", "单选", "A", "NEC 2–4 输给萨格勒布迪纳摩",
+content34.py:151: e.ex("B1", "单选", "B", "皇家贝蒂斯 1–0 赢费耶诺德",
+content34.py:153: e.ex("B1", "单选", "B", "10 轮后费耶诺德 24 分领跑",
+content34.py:156: e.bridge("用方框里的词填空。注意动词形式。")
+content34.py:158: e.ex("B1", "完成句子", "balans", "balans = 成绩单、总结",
+content34.py:159:      "De ___ van de Europese week is: drie keer feest, twee keer verlies.", instr="填空", size=20, gap=8)
+content34.py:160: e.ex("B1", "完成句子", "speelden gelijk", "gelijkspelen 过去时复数：speelden gelijk",
+content34.py:161:      "PSV en Feyenoord ___ (gelijkspelen): 1–1.", instr="填空", size=20, gap=8)
+content34.py:162: e.ex("B1", "完成句子", "topper", "topper = 焦点战",
+content34.py:163:      "Heerenveen – Feyenoord is de ___ van zondag.", instr="填空", size=20, gap=8)
+content34.py:164: e.ex("B1", "完成句子", "stand", "stand = 积分榜",
+content34.py:165:      "Op de ___ staat Feyenoord bovenaan.", instr="填空", size=20, gap=8)
+content34.py:166: e.ex("B1", "完成句子", "doelpunt", "doelpunt = 进球",
+content34.py:167:      "Isco maakte het enige ___ van Betis – Feyenoord.", instr="填空", size=20, gap=8)
+content34.py:169: e.bridge("用过去时或完成时补全。")
+content34.py:170: e.ex("B1", "完成句子", "won", "winnen 过去时：won",
+content34.py:171:      "Ajax ___ (winnen) donderdag met 2–0.", instr="填空", size=20, gap=8)
+content34.py:172: e.ex("B1", "完成句子", "ging", "gaan 过去时：ging",
+content34.py:173:      "De bal ___ (gaan) in het doel: 1–0 voor Betis.", instr="填空", size=20, gap=8)
+content34.py:174: e.ex("B1", "完成句子", "verloor", "verliezen 过去时：verloor",
+content34.py:175:      "Feyenoord ___ (verliezen) met 1–0 in Sevilla.", instr="填空", size=20, gap=8)
+content34.py:176: e.ex("B2", "完成句子", "zijn gekomen", "komen 的 perfectum 用 zijn",
+content34.py:177:      "Veel supporters ___ (komen) naar het stadion.", instr="填空", size=20, gap=8)
+content34.py:179: e.ex("B1", "判断对错", "Waar", "对：阿贾克斯 2–0 获胜",
+content34.py:180:      "Ajax won donderdag met 2–0 van Atalanta. Waar of niet waar?", instr="判断", size=20, gap=8)
+content34.py:181: e.ex("B1", "判断对错", "Niet waar", "错：NEC 2–4 输了",
+content34.py:182:      "NEC won met 4–2 bij Dinamo Zagreb. Waar of niet waar?", instr="判断", size=20, gap=8)
+content34.py:183: e.ex("B1", "判断对错", "Niet waar", "错：特温特–阿贾克斯 13:30；11:15 是海伦芬–费耶诺德",
+content34.py:184:      "Twente – Ajax is zondag om 11:15 uur. Waar of niet waar?", instr="判断", size=20, gap=8)
+content34.py:185: e.ex("B1", "判断对错", "Waar", "对：10 轮后费耶诺德 24 分第一",
+content34.py:186:      "Feyenoord staat na 10 ronden bovenaan met 24 punten. Waar of niet waar?", instr="判断", size=20, gap=8)
+content56.py:12: p.band("JONGEREN · 青年", "De Lucerna", "NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · 荒岛节目开播、音乐节与设计周落幕")
+content56.py:24:     ("1. Kijk zondag om 20:00 uur op RTL 4（周日晚 20:00 在 RTL 4 收看）", "serif", False, INK, 21, 1.36),
+content56.py:25:     ("2. Let op de proeven: daar worden de punten verdeeld（注意比赛项目：分数在那里决出）", "serif", False, INK, 21, 1.36),
+content56.py:26:     ("3. Raad met vrienden wie het langst blijft（和朋友猜谁能留到最后）", "serif", False, INK, 21, 1.36),
+content56.py:27:     ("4. Volgende week lees je hier hoe het verder ging（下周这里继续报道进展）", "serif", False, INK, 21, 1.36),
+content56.py:29: f.gloss("het eiland 岛 · de proef 比赛项目、考验 · stemmen 投票 · de aflevering （一）集 · voorbij 过去了、结束了。")
+content56.py:47: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你看《荒岛远征》吗，还是更爱自己出门活动？写两句荷兰语寄来。", "sans", False, 20, CW - 44)) * 29 + 20
+content56.py:50: p.text(ix + 22, yy3 + 26, "EN JIJ? · 说说你自己", 24, "sans", True, OLIVE)
+content56.py:53: p.para(ix + 22, yy3 + 20, "你看《荒岛远征》吗，还是更爱自己出门活动？写两句荷兰语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
+content56.py:59: p.text(MX, ey + 28, "OEFENINGEN · 第 5 版练习", 28, "sans", True, OLIVE)
+content56.py:60: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content56.py:63: e.bridge("读第 5 版文章，选出正确答案。")
+content56.py:64: e.ex("B1", "单选", "B", "Robinson 在 11 月 1 日周日开始",
+content56.py:66: e.ex("B1", "单选", "A", "19 位参赛者",
+content56.py:68: e.ex("B1", "单选", "C", "ADE 今年 30 年",
+content56.py:70: e.ex("B1", "单选", "B", "设计周约 2.500 位设计师",
+content56.py:72: e.ex("B1", "单选", "A", "ADE 与 DDW 在 10 月 25 日周日落幕",
+content56.py:75: e.bridge("用方框里的词填空。")
+content56.py:77: e.ex("B1", "完成句子", "eiland", "eiland = 岛（het）",
+content56.py:78:      "Robinson speelt op een onbewoond ___.", instr="填空", size=20, gap=8)
+content56.py:79: e.ex("B1", "完成句子", "proef", "proef = 比赛项目、考验（de）",
+content56.py:80:      "Wie een ___ verliest, kan naar huis gaan.", instr="填空", size=20, gap=8)
+content56.py:81: e.ex("B1", "完成句子", "stemmen", "stemmen = 投票",
+content56.py:82:      "De kandidaten ___ wie naar huis moet.", instr="填空", size=20, gap=8)
+content56.py:83: e.ex("B1", "完成句子", "aflevering", "aflevering = （一）集",
+content56.py:84:      "De eerste ___ was zondag 1 november.", instr="填空", size=20, gap=8)
+content56.py:85: e.ex("B1", "完成句子", "voorbij", "voorbij = 过去了、结束了",
+content56.py:86:      "ADE is ___: het festival is afgelopen.", instr="填空", size=20, gap=8)
+content56.py:87: e.ex("B1", "完成句子", "kandidaten", "kandidaat 复数：kandidaten",
+content56.py:88:      "Er zijn 19 ___ op het eiland.", instr="填空", size=20, gap=8)
+content56.py:90: e.bridge("用 gaan + 不定式说将来。")
+content56.py:91: e.ex("B1", "完成句子", "gaat winnen", "gaat winnen = 会赢（只是猜测）",
+content56.py:92:      "Wie ___ (winnen) Expeditie Robinson, denk je?", instr="填空", size=20, gap=8)
+content56.py:93: e.ex("B1", "完成句子", "gaan kijken", "wij → gaan + 不定式 kijken",
+content56.py:94:      "Wij ___ (kijken) zondag naar de nieuwe aflevering.", instr="填空", size=20, gap=8)
+content56.py:95: e.ex("B1", "完成句子", "gaat praten", "hij → gaat praten",
+content56.py:96:      "Hij ___ (praten) morgen met vrienden over de proef.", instr="填空", size=20, gap=8)
+content56.py:97: e.ex("B1", "完成句子", "gaan zoeken", "zij (复数) → gaan zoeken",
+content56.py:98:      "De kandidaten ___ (zoeken) morgen eten op het eiland.", instr="填空", size=20, gap=8)
+content56.py:100: e.ex("B1", "判断对错", "Waar", "对：11 月 1 日开始",
+content56.py:101:      "Expeditie Robinson begon op 1 november. Waar of niet waar?", instr="判断", size=20, gap=8)
+content56.py:102: e.ex("B1", "判断对错", "Niet waar", "错：ADE 今年 30 年",
+content56.py:103:      "ADE werd dit jaar 26 jaar. Waar of niet waar?", instr="判断", size=20, gap=8)
+content56.py:104: e.ex("B2", "判断对错", "Niet waar", "错：10 月 25 日已落幕",
+content56.py:105:      "De Design Week is nog bezig. Waar of niet waar?", instr="判断", size=20, gap=8)
+content56.py:114: p.band("VERDIEPING · 深读", "De Lucerna", "NIVEAU B2 · De codes van het KNMI · 气象预警深度解读")
+content56.py:126: f.gloss("de meteoroloog 气象学家 · waarschuwingsmoeheid 预警疲劳 · vastzetten 固定好 · het advies 建议、忠告 · de voorstander 支持者。")
+content56.py:138: capcn = "练习数据：虚构数字，仅供练习，非真实调查。问题：橙色预警时你会怎么做？（100 名年轻人）"
+content56.py:142: p.text(ix + 22, yy3 + 26, "DE GRAFIEK · 图表（练习数据）", 24, "sans", True, OLIVE)
+content56.py:162: p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN? · 正方还是反方", 21, "sans", True, OLIVE)
+content56.py:171: p.text(MX, ey + 28, "OEFENINGEN · 第 6 版练习", 28, "sans", True, OLIVE)
+content56.py:172: p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+content56.py:175: e.bridge("看第 6 版图表（练习数据）回答。")
+content56.py:176: e.ex("B2", "完成句子", "45", "45 名年轻人选择待在家里",
+content56.py:177:      "Bij code oranje blijft ___ van de 100 jongeren thuis.", instr="填空", size=21.5, gap=9)
+content56.py:178: e.ex("B2", "完成句子", "25", "25 人先看预警文字",
+content56.py:179:      "___ jongeren kijken eerst naar de tekst.", instr="填空", size=21.5, gap=9)
+content56.py:180: e.ex("B2", "完成句子", "70", "45 + 25 = 70",
+content56.py:181:      "Thuis blijven en eerst de tekst lezen samen: ___ jongeren.", instr="填空", size=21.5, gap=9)
+content56.py:182: e.ex("B2", "完成句子", "10", "10 人不知道",
+content56.py:183:      "___ jongeren weten het niet.", instr="填空", size=21.5, gap=9)
+content56.py:184: e.ex("B2", "完成句子", "100", "图表共 100 人：45+25+20+10",
+content56.py:185:      "De grafiek telt in totaal ___ jongeren.", instr="填空", size=21.5, gap=9)
+content56.py:187: e.bridge("读第 6 版文章，选出正确答案。")
+content56.py:188: e.ex("B2", "单选", "B", "以前预警针对整个省",
+content56.py:190: e.ex("B2", "单选", "B", "如今预警是本地的",
+content56.py:192: e.ex("B2", "单选", "C", "红色：非常危险，非必要不上路",
+content56.py:194: e.ex("B2", "单选", "A", "预警疲劳：警告太多导致不再注意",
+content56.py:196: e.ex("B2", "单选", "B", "KNMI 说：看代码旁边的文字",
+content56.py:199: e.bridge("用方框里的词填空。")
+content56.py:201: e.ex("B2", "完成句子", "lokaal", "lokaal = 本地的",
+content56.py:202:      "De waarschuwing geldt voor jouw eigen stad: ze is ___.", instr="填空", size=21.5, gap=9)
+content56.py:203: e.ex("B2", "完成句子", "waarschuwingsmoeheid", "waarschuwingsmoeheid = 预警疲劳",
+content56.py:204:      "Wie te vaak onnodig wordt gewaarschuwd, krijgt ___.", instr="填空", size=21.5, gap=9)
+content56.py:205: e.ex("B2", "完成句子", "vastzetten", "vastzetten = 固定好",
+content56.py:206:      "Bij code oranje moet je losse spullen ___.", instr="填空", size=21.5, gap=9)
+content56.py:207: e.ex("B2", "完成句子", "advies", "advies = 建议（het）",
+content56.py:208:      "Een code is geen verbod, maar een ___.", instr="填空", size=21.5, gap=9)
+content56.py:210: e.bridge("把词组成正确的句子。")
+content56.py:211: e.ex("B2", "造句", "De waarschuwing geldt voor jouw stad.", "主语 + 动词 + 地点",
+content56.py:212:      "de waarschuwing / geldt / voor jouw stad → ___", instr="造句", size=21.5, gap=9)
+content56.py:213: e.ex("B2", "造句", "Kijk altijd naar de tekst bij de code.", "祈使句：动词在首位",
+content56.py:214:      "kijk / altijd / naar de tekst / bij de code → ___", instr="造句", size=21.5, gap=9)
+content56.py:215: e.ex("B2", "造句", "Rood komt weinig voor.", "weinig voor = 很少出现",
+content56.py:216:      "rood / komt / weinig / voor → ___", instr="造句", size=21.5, gap=9)
+content56.py:217: e.ex("B2", "造句", "Het weer raakt ons allemaal anders.", "raakt + 宾语 + 方式",
+content56.py:218:      "het weer / raakt / ons / allemaal anders → ___", instr="造句", size=21.5, gap=9)
+content7.py:12: p.band("TAAL · 语言", "De Lucerna", "聚焦语言 · Drie niveaus, drie gereedschappen · 三个级别，三件工具")
+content7.py:19: a.bridge("het klimaat 气候（长期）；een boom planten 种树；besparen 节约；de waarschuwing 预警。")
+content7.py:20: a.ex("A2", "完成句子", "planten", "wij → planten",
+content7.py:21:      "In de Klimaatweek ___ (planten) wij een boom.", instr="填空", size=20.5, gap=10)
+content7.py:22: a.ex("A2", "完成句子", "bespaar", "je → bespaar",
+content7.py:23:      "Met de fiets ___ (besparen) je energie.", instr="填空", size=20.5, gap=10)
+content7.py:24: a.ex("A2", "单选", "B", "气候是长期的天气与自然",
+content7.py:26: a.ex("A2", "完成句子", "blijf", "rood = blijf binnen",
+content7.py:27:      "Code rood betekent: ___ binnen.", instr="填空", size=20.5, gap=10)
+content7.py:35: b.bridge("meedoen 参加：ik doe mee；opruimen 收拾：wij hebben opgeruimd；vastzetten 固定：zij zette vast。")
+content7.py:36: b.ex("B1", "完成句子", "doe mee", "ik → doe mee",
+content7.py:37:      "Ik ___ (meedoen) aan de Klimaatweek.", instr="填空", size=20.5, gap=10)
+content7.py:38: b.ex("B1", "完成句子", "opgeruimd", "opruimen 的分词：opgeruimd",
+content7.py:39:      "Wij hebben de tuin ___ (opruimen).", instr="填空", size=20.5, gap=10)
+content7.py:40: b.ex("B1", "完成句子", "zette vast", "vastzetten 过去时：zette vast",
+content7.py:41:      "Zij ___ (vastzetten) de losse spullen.", instr="填空", size=20.5, gap=10)
+content7.py:42: b.ex("B1", "单选", "B", "meedoen = 参加、参与",
+content7.py:51: c.bridge("Ik vind dat… 我认为；Volgens mij… 依我看；Het lijkt me dat… 在我看来。")
+content7.py:52: c.ex("B2", "完成句子", "Volgens", "Volgens mij… = 依我看",
+content7.py:53:      "___ mij moet iedereen meedoen aan de Klimaatweek.", instr="填空", size=20.5, gap=10)
+content7.py:54: c.ex("B2", "单选", "B", "Ik vind dat… 表达看法",
+content7.py:56: c.ex("B2", "完成句子", "lijkt", "Het lijkt me dat… = 在我看来",
+content7.py:57:      "Het ___ me dat lokaal waarschuwen beter is.", instr="填空", size=20.5, gap=10)
+content7.py:58: c.ex("B2", "完成句子", "mij", "Volgens mij… = 依我看",
+content7.py:59:      "Volgens ___ is fietsen beter dan autorijden.", instr="填空", size=20.5, gap=10)
+content7.py:65:     ("«Het klimaat is slecht weer.»", "→ Fout: het klimaat is het weer over een lange tijd.", "气候是长期的天气自然，不是今天的天气。"),
+content7.py:66:     ("«Ik doe mee aan de klimaatweek.»", "→ «Klimaatweek» krijgt een hoofdletter: het is een naam.", "Klimaatweek 是专名，首字母大写。"),
+content7.py:67:     ("«Ik plant een bomen.»", "→ «Een» is enkelvoud: «een boom» of «bomen».", "een 是单数：een boom；复数直接用 bomen。"),
+content7.py:68:     ("«Omdat het regent, ik blijf thuis.»", "→ Na «omdat» staat het werkwoord op plaats 2: «... blijf ik thuis.»", "omdat 从句后，主句动词在第二位：blijf ik thuis。"),
+content7.py:73: p.text(bx + 22, yy3 + 26, "PAS OP! · 易错诊所", 23, "sans", True, OLIVE)
+content7.py:81: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("meedoen = 参加、参与：气候周全荷兰都参加。", "sans", False, 20, CW - 44)) * 29 + 28
+content7.py:84: p.text(bx + 22, yy3 + 26, "HET WOORD · 本周生词", 23, "sans", True, OLIVE)
+content7.py:87: p.para(bx + 22, yy3 + 20, "meedoen = 参加、参与：气候周全荷兰都参加。", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:94: dt_zh = "截稿时未收到真实来信或第 8 版最佳作文，刊登示例信，承诺顺延 VOL.3。"
+content7.py:95: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("编辑部示例信，非真实来信。欢迎寄来你的真实来信和第 8 版最佳作文，VOL.3 刊登！", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+content7.py:106: p.para(bx + 22, yy3 + 20, "编辑部示例信，非真实来信。欢迎寄来你的真实来信和第 8 版最佳作文，VOL.3 刊登！", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:115: p.text(MX, fy + 24, "ZINNEN VAN DE WEEK · 本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+content7.py:117:     ("«Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland»", "从 11 月 2 日周一到 8 日周日，荷兰是气候周。", "Pagina 1"),
+content7.py:118:     ("«De herfst is de beste tijd om te planten»", "秋天是种树的最好时节。", "Pagina 1"),
+content7.py:119:     ("«Geel betekent: let op, het weer kan gevaarlijk zijn»", "黄色意味着：当心，天气可能危险。", "Pagina 2"),
+content7.py:120:     ("«Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts»", "70 多家博物馆从晚上 19 点开放到凌晨 2 点。", "Pagina 3"),
+content7.py:121:     ("«Ajax won donderdag 22 oktober met 2–0 van Atalanta»", "阿贾克斯 10 月 22 日周四 2–0 战胜亚特兰大。", "Pagina 4"),
+content7.py:122:     ("«Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur»", "11 月 1 日周日，《荒岛远征》在 RTL 4 开播，20 点。", "Pagina 5"),
+content7.py:123:     ("«Een code is geen verbod, maar een advies»", "预警代码不是禁令，而是一条建议。", "Pagina 6"),
+content7.py:124:     ("«Het weer is van ons allemaal, maar het raakt ons allemaal anders»", "天气属于我们所有人，但对每个人的影响各不相同。", "Pagina 6"),
+content7.py:137: p.text(MX + 28, py + 44, "VOLGENDE WEEK · 下期预告 (VOL.3)", 24, "sans", True, "#e8dfc8")
+content8.py:12: p.band("TOETS EN ANTWOORDEN · 练习与答案", "De Lucerna", "第 8 版 · De grote toets van de week + alle antwoorden")
+content8.py:16: f.ex("B1", "完形单选", "B", "气候周到 11 月 8 日",
+content8.py:18: f.ex("B1", "完形单选", "B", "科弗登发放 200 棵树木灌木",
+content8.py:20: f.ex("B1", "完形单选", "B", "博物馆之夜在 11 月 7 日",
+content8.py:22: f.ex("B1", "完形单选", "B", "特温特–阿贾克斯 13:30 开球",
+content8.py:24: f.ex("B1", "完形单选", "A", "阿贾克斯 2–0 赢亚特兰大",
+content8.py:26: f.ex("B1", "完形单选", "A", "Robinson 在 11 月开始",
+content8.py:28: f.ex("B1", "完形单选", "B", "橙色预警：天气危险",
+content8.py:30: f.ex("B1", "完形单选", "B", "meedoen = 参加",
+content8.py:33: f.ex("A2", "单选", "A", "气候周 11 月 2 日周一开始",
+content8.py:35: f.ex("A2", "单选", "B", "发放地点在兹韦洛",
+content8.py:37: f.ex("A2", "单选", "B", "Crossing Border 在海牙",
+content8.py:39: f.ex("B1", "单选", "A", "PAN 在 RAI 展览中心",
+content8.py:41: f.ex("B1", "单选", "B", "皇家贝蒂斯 1–0 赢费耶诺德",
+content8.py:43: f.ex("B1", "单选", "B", "10 轮后阿贾克斯 21 分",
+content8.py:45: f.ex("B2", "单选", "B", "预警疲劳：警告太多导致不再注意",
+content8.py:47: f.ex("B1", "单选", "C", "扎安丹旧货市场约 250 个摊位",
+content8.py:51: f.ex("A2", "单选", "B", "Daan 住在科弗登",
+content8.py:53: f.ex("A2", "单选", "B", "他周六领了一棵免费灌木",
+content8.py:55: f.ex("A2", "单选", "B", "周日特温特对阿贾克斯",
+content8.py:57: f.ex("B1", "单选", "B", "气候周他每天骑车上学",
+content8.py:60: f.ex("A2", "造句", "De Klimaatweek begint op maandag.", "主语 + 动词 + 时间",
+content8.py:61:      "de klimaatweek / begint / op maandag → ___", instr="造句", size=13.8, gap=0)
+content8.py:62: f.ex("B1", "造句", "Wij planten een boom in de tuin.", "主语 + 动词 + 宾语 + 地点",
+content8.py:63:      "wij / planten / een boom / in de tuin → ___", instr="造句", size=13.8, gap=0)
+content8.py:64: f.ex("B1", "造句", "Twente speelt zondag tegen Ajax.", "主语 + 动词 + 时间 + 对手",
+content8.py:65:      "twente / speelt / zondag / tegen ajax → ___", instr="造句", size=13.8, gap=0)
+content8.py:66: f.ex("B1", "造句", "Ik doe mee aan de Klimaatweek.", "可分动词 mee 在句末",
+content8.py:67:      "ik / doe / mee / aan de klimaatweek → ___", instr="造句", size=13.8, gap=0)
+content8.py:69: f.ex("A2", "翻译", "气候周持续七天。", "对照第 1 版头条",
+content8.py:70:      "De Klimaatweek duurt zeven dagen. → ___", instr="翻译", size=13.8, gap=0)
+content8.py:71: f.ex("B1", "翻译", "橙色预警意味着：做好准备。", "第 2 版原句 · bereid je voor 做好准备",
+content8.py:72:      "Code oranje betekent: bereid je voor. → ___", instr="翻译", size=13.8, gap=0)
+content8.py:73: f.ex("B1", "翻译", "Museumnacht duurt van 19:00 uur tot 02:00 uur.", "注意时间表达 van...tot...",
+content8.py:74:      "博物馆之夜从晚上 19 点到凌晨 2 点。→ ___", instr="翻译", size=13.8, gap=0)
+content8.py:75: f.ex("B2", "翻译", "Ik doe mee aan de Klimaatweek.", "meedoen 是可分动词",
+content8.py:76:      "我参加气候周。→ ___", instr="翻译", size=13.8, gap=0)
+content8.py:78: f.match_set("B2", "词汇配对",
+content8.py:85:             ["klimaat=气候 c", "meedoen=参加 b", "waarschuwing=预警 a", "vastzetten=固定好 d"],
+content8.py:86:             instr="把词和释义配对")
+content8.py:88: f.ex("B1", "完形单选", "A", "boom = 树",
+content8.py:90: f.ex("B1", "完形单选", "A", "struik = 灌木",
+content8.py:92: f.ex("B1", "完形单选", "A", "planten = 种",
+content8.py:94: f.ex("B1", "完形单选", "B", "zachte = 柔软的（土壤）",
+content8.py:96: f.ex("B1", "完形单选", "A", "发放到 16:00 结束",
+content8.py:108: f.bridge(f"写作题（无唯一答案）；范文（{NWORDS} 词）见下。")
+content8.py:109: f.ex("B1", "写作", "（开放题，范文如下）", f"范文见本版 H 区（{NWORDS} 词）",
+content8.py:110:      "«Jouw week in de Klimaatweek» Schrijf 80–100 woorden: wat doe jij in de Klimaatweek, plant jij iets, fiets jij, en kijk jij naar Museumnacht of voetbal?", instr="写作", size=13.8, gap=0)
+content8.py:116: p.text(MX, 1302, "ANTWOORDEN · 参考答案 — 按版面分页排列，找到题号即可", 25, "sans", True, OLIVE)
+content8.py:117: p.text(RIGHT, 1302, "每题附一句中文简析 · 带 ✓ 的为范文题", 19.5, "sans", False, GREY, anchor="end")
+content8.py:126:         if e_["type"] == "写作":
+bslib4.py:70:         self.text(MX, 2624, "De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY", 20, "sans", False, GREY)
+bslib4.py:71:         self.text(RIGHT, 2624, f"第 {n} 版 / 共 {total} 版", 20, "sans", False, GREY, anchor="end")
+bslib4.py:197:         return self.box("", [("译注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+svglib.py:120:     """Mountains, sun, two stick climbers, chrysanthemums — for 重阳."""

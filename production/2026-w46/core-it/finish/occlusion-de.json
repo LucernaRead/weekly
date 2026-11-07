@@ -1,0 +1,45 @@
+{
+ "svgdir": "../files/weekly-report-w46-it-de/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "EDGE",
+   "text": "Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei",
+   "box": [
+    1473.0,
+    1250.9,
+    2134.5,
+    1268.4
+   ],
+   "detail": "ink box (1473.0, 1250.9000000000005, 2134.5, 1268.4000000000005) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "Der Wochenplan · Cosa succede, giorno per giorno",
+   "box": [
+    1473.0,
+    670.8,
+    1929.5,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1929.5 > border 1885.0",
+   "by": "rect@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "Die Termine folgen den Kalendern der Veranstaltungen; Uhrzei",
+   "box": [
+    1473.0,
+    1250.9,
+    2134.5,
+    1268.4
+   ],
+   "detail": "ink crosses its box borders: right ink 2134.5 > border 1885.0",
+   "by": "rect@97"
+  }
+ ],
+ "flag_count": 3
+}

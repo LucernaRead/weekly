@@ -1,0 +1,132 @@
+--- CORE per-page Han/fullwidth/footer ---
+p1-une.svg Han= 192 fw-parens= 0 footer-ES= False footer-ZH= True bridge-word= False
+p2-vie.svg Han= 219 fw-parens= 4 footer-ES= False footer-ZH= True bridge-word= False
+p3-culture.svg Han= 156 fw-parens= 4 footer-ES= False footer-ZH= True bridge-word= False
+p4-sport.svg Han= 171 fw-parens= 4 footer-ES= False footer-ZH= True bridge-word= False
+p5-jeunesse.svg Han= 159 fw-parens= 2 footer-ES= False footer-ZH= True bridge-word= False
+p6-politique.svg Han= 170 fw-parens= 8 footer-ES= False footer-ZH= True bridge-word= False
+p7-langue.svg Han= 328 fw-parens= 8 footer-ES= False footer-ZH= True bridge-word= False
+p8-exercices.svg Han= 788 fw-parens= 216 footer-ES= False footer-ZH= True bridge-word= False
+--- EDITION per-page Han/fullwidth/footer ---
+p1-une.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p2-vie.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p3-culture.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p4-sport.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p5-jeunesse.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p6-politique.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p7-langue.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+p8-exercices.svg Han= 0 fw-parens= 0 footer-ES= True footer-ZH= False bridge-word= False
+
+=== MODEL word count (space split, 7 lines) ===
+CORE lines= ["Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle", 'ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en', 'fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise,', 'achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la', 'mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons', "écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un", 'week-end parfait.']
+CORE wordcount= 86 identical-core-vs-edition-text= None
+EDITION lines= ["Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle", 'ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en', 'fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise,', 'achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la', 'mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons', "écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un", 'week-end parfait.']
+EDITION wordcount= 86 identical-core-vs-edition-text= None
+
+=== 41e / 40e sweep: every node containing '40e' or '41e' ===
+-- CORE --
+p4-sport.svg x=1473.0 y=278.0 size=21.5 '41e édition en 2026 (40e'
+-- EDITION --
+p4-sport.svg x=1473.0 y=278.0 size=21.5 '41e édition en 2026 (40e'
+
+=== Q119/Q120/Q121: keys from extracts + printed lines ===
+119 core_key= 'B' ed_key= 'B'
+120 core_key= 'B' ed_key= 'B'
+121 core_key= 'A' ed_key= 'A'
+-- CORE P8 nodes with 'tais libre' or 'Nanterre' or 'conditionnel' or 'imparfait' --
+  y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=2244.01 '+ imparfait（未完成过去时）→ conditionnel présent（条件式'
+  STEM p8-exercices.svg y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  OPT p8-exercices.svg y=275.0 'irai · B. irais · C. vais'
+-- EDITION P8 nodes with 'tais libre' or 'Nanterre' or 'conditionnel' or 'imparfait' --
+  y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  y=2440.8700000000003 "imparfait → conditionnel présent; j' es je ante vocal (elisión)) ·"
+  y=2008.75 'samedi, tu verrais la nocturne. (si + imparfait (venais)) · 132.'
+  STEM p8-exercices.svg y=246.0 "Si j'étais libre dimanche, j'___ à Nanterre. A."
+  OPT p8-exercices.svg y=275.0 'irai · B. irais · C. vais'
+
+=== P7 quotes verbatim ===
+-- CORE --
+ P4 debate contains #4 spaced: True | nospace: False
+ P5 contains #8: True
+ P6 contains #6: True
+ P7 contains #4 spaced: True | nospace: False | #8: True | #6: True
+  P7 node x=527.0 y=647.4 size=22.5 "d'avance : plus excitante ou plus"
+  P7 node x=545.0 y=931.43 size=21.5 "d'avance : plus excitante ou plus"
+  P7 node x=1007.0 y=866.7 size=21.5 '« Ce calendrier peut encore bouger. »'
+  P7 node x=1451.0 y=511.49999999999994 size=22.5 "pas d'avance : plus excitante ou plus"
+  P7 node x=527.0 y=1474.65 size=22 "d'avance : plus excitante ou plus"
+  P7 node x=989.0 y=1362.8000000000002 size=22 '« Ce calendrier peut encore bouger. »'
+  P7 node x=1451.0 y=1234.0 size=22 '« Les jeunes créateurs y rencontrent'
+  P8-106 node y=1915.8 '中 des 变 de） · 106. Les jeunes créateurs y rencontrent'
+  Q106 key core/ed from keycompare: 'Les jeunes créateurs y rencontrent leur public, en vrai.' 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+   106-node p7-langue.svg y=2141.975 '106.'
+   106-node p8-exercices.svg y=1915.8 '中 des 变 de） · 106. Les jeunes créateurs y rencontrent'
+-- EDITION --
+ P4 debate contains #4 spaced: True | nospace: False
+ P5 contains #8: True
+ P6 contains #6: True
+ P7 contains #4 spaced: True | nospace: False | #8: True | #6: True
+  P7 node x=527.0 y=647.4 size=22.5 "d'avance : plus excitante ou plus"
+  P7 node x=545.0 y=931.43 size=21.5 "d'avance : plus excitante ou plus"
+  P7 node x=1007.0 y=866.7 size=21.5 '« Ce calendrier peut encore bouger. »'
+  P7 node x=1451.0 y=511.49999999999994 size=22.5 "pas d'avance : plus excitante ou plus"
+  P7 node x=527.0 y=1474.65 size=22 "d'avance : plus excitante ou plus"
+  P7 node x=989.0 y=1415.5750000000003 size=22 '« Ce calendrier peut encore bouger. »'
+  P7 node x=1451.0 y=1330.9 size=22 '« Les jeunes créateurs y rencontrent'
+  P8-106 node y=2130.56 'de) · 106. Les jeunes créateurs y rencontrent leur public, en'
+  Q106 key core/ed from keycompare: 'Les jeunes créateurs y rencontrent leur public, en vrai.' 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+   106-node p7-langue.svg y=2171.7 '106.'
+   106-node p8-exercices.svg y=2130.56 'de) · 106. Les jeunes créateurs y rencontrent leur public, en'
+
+=== GOLDEN 8 joint-text counts (corpus = all 8 pages joined with space) ===
+-- CORE --
+ #1 count=5 claimed-tag=p2 pages-containing=['p2-vie.svg', 'p7-langue.svg'] :: 'Le lundi 2 novembre, on reprend les cours.'
+ #2 count=3 claimed-tag=p1 pages-containing=['p7-langue.svg', 'p8-exercices.svg'] :: 'On ne connaît pas encore les finalistes.'
+ #3 count=1 claimed-tag=p3 pages-containing=['p7-langue.svg'] :: 'Les cimetières se sont remplis de chrysanthèmes.'
+ #4 count=5 claimed-tag=p4 pages-containing=['p4-sport.svg', 'p7-langue.svg'] :: "Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ?"
+ #5 count=1 claimed-tag=p5 pages-containing=['p7-langue.svg'] :: 'Le festival se promène dans Paris.'
+ #6 count=3 claimed-tag=p6 pages-containing=['p6-politique.svg', 'p7-langue.svg'] :: 'Ce calendrier peut encore bouger.'
+ #7 count=1 claimed-tag=p1 pages-containing=['p7-langue.svg'] :: 'Ce week-end, tout se joue.'
+ #8 count=3 claimed-tag=p5 pages-containing=['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] :: 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+-- EDITION --
+ #1 count=5 claimed-tag=p2 pages-containing=['p2-vie.svg', 'p7-langue.svg'] :: 'Le lundi 2 novembre, on reprend les cours.'
+ #2 count=3 claimed-tag=p1 pages-containing=['p7-langue.svg', 'p8-exercices.svg'] :: 'On ne connaît pas encore les finalistes.'
+ #3 count=1 claimed-tag=p3 pages-containing=['p7-langue.svg'] :: 'Les cimetières se sont remplis de chrysanthèmes.'
+ #4 count=5 claimed-tag=p4 pages-containing=['p4-sport.svg', 'p7-langue.svg'] :: "Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ?"
+ #5 count=1 claimed-tag=p5 pages-containing=['p7-langue.svg'] :: 'Le festival se promène dans Paris.'
+ #6 count=3 claimed-tag=p6 pages-containing=['p6-politique.svg', 'p7-langue.svg'] :: 'Ce calendrier peut encore bouger.'
+ #7 count=1 claimed-tag=p1 pages-containing=['p7-langue.svg'] :: 'Ce week-end, tout se joue.'
+ #8 count=3 claimed-tag=p5 pages-containing=['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] :: 'Les jeunes créateurs y rencontrent leur public, en vrai.'
+
+=== P7 phrases: nodes around golden sentences in P7 ===
+-- CORE P7 nodes containing golden sentence fragments --
+  #1 node y=325.5 :: '« Le lundi 2 novembre, on reprend les'  ctx: "REPRENDRE | « Le lundi 2 novembre, on reprend les | cours. » Reprendre, c'est recommencer"
+  #1 node y=832.5 :: '« Le lundi 2 novembre, on reprend les'  ctx: 'LA PHRASE EXEMPLE | « Le lundi 2 novembre, on reprend les | cours. » — la phrase de la rentrée, à'
+  #3 node y=359.7 :: '» « Les cimetières se sont remplis de'  ctx: '« Les enfants se sont déguisés samedi. | » « Les cimetières se sont remplis de | fleurs. » Avec se + être + participe passé'
+  #4 node y=613.2 :: "Une finale qu'on ne connaît pas"  ctx: "plus / moins / aussi + adjectif (+ que) : « | Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #4 node y=900.9 :: "« Une finale qu'on ne connaît pas"  ctx: "LA PHRASE EXEMPLE | « Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #6 node y=866.7 :: '« Ce calendrier peut encore bouger. »'  ctx: 'LA PHRASE EXEMPLE | « Ce calendrier peut encore bouger. » | — pouvoir + infinitif : la phrase de'
+  #1 node y=1234.0 :: '« Le lundi 2 novembre, on reprend les'  ctx: '每句一个语法点 + 一道小题 · 答案见第 8 版 | « Le lundi 2 novembre, on reprend les | cours. » (page 2)'
+  #3 node y=1768.7250000000001 :: '« Les cimetières se sont remplis de'  ctx: 'Il ne fait pas ___ nuit : il est 15 heures. | « Les cimetières se sont remplis de | chrysanthèmes. » (page 3)'
+  #4 node y=1443.8500000000001 :: "« Une finale qu'on ne connaît pas"  ctx: "samedi. | « Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #5 node y=1711.9250000000004 :: '« Le festival se promène dans Paris. »'  ctx: 'La finale est ___ (excitante) ! | « Le festival se promène dans Paris. » | (page 5)'
+  #6 node y=1362.8000000000002 :: '« Ce calendrier peut encore bouger. »'  ctx: 'au parc. | « Ce calendrier peut encore bouger. » | (page 6)'
+  #7 node y=1631.9750000000004 :: '« Ce week-end, tout se joue. » (page 1)'  ctx: 'demain. | « Ce week-end, tout se joue. » (page 1) | 语法点｜se jouer：决出胜负、上演（代动词）。'
+  #8 node y=1234.0 :: '« Les jeunes créateurs y rencontrent'  ctx: 'La finale se ___ (jouer) dimanche. | « Les jeunes créateurs y rencontrent | leur public, en vrai. » (page 5)'
+  #8 node y=2173.475 :: '✗ « Les jeunes créateurs y rencontre'  ctx: '改错 | ✗ « Les jeunes créateurs y rencontre | leur public, en vrai. »'
+-- EDITION P7 nodes containing golden sentence fragments --
+  #1 node y=325.5 :: '« Le lundi 2 novembre, on reprend les'  ctx: "REPRENDRE | « Le lundi 2 novembre, on reprend les | cours. » Reprendre, c'est recommencer"
+  #1 node y=832.5 :: '« Le lundi 2 novembre, on reprend les'  ctx: 'LA PHRASE EXEMPLE | « Le lundi 2 novembre, on reprend les | cours. » — la phrase de la rentrée, à'
+  #3 node y=359.7 :: '» « Les cimetières se sont remplis de'  ctx: '« Les enfants se sont déguisés samedi. | » « Les cimetières se sont remplis de | fleurs. » Avec se + être + participe passé'
+  #4 node y=613.2 :: "Une finale qu'on ne connaît pas"  ctx: "plus / moins / aussi + adjectif (+ que) : « | Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #4 node y=900.9 :: "« Une finale qu'on ne connaît pas"  ctx: "LA PHRASE EXEMPLE | « Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #6 node y=866.7 :: '« Ce calendrier peut encore bouger. »'  ctx: 'LA PHRASE EXEMPLE | « Ce calendrier peut encore bouger. » | — pouvoir + infinitif : la phrase de'
+  #1 node y=1234.0 :: '« Le lundi 2 novembre, on reprend les'  ctx: 'Un punto de gramática y un ejercicio por frase · Respuestas en la página 8 | « Le lundi 2 novembre, on reprend les | cours. » (page 2)'
+  #3 node y=1768.7250000000001 :: '« Les cimetières se sont remplis de'  ctx: 'Il ne fait pas ___ nuit : il est 15 heures. | « Les cimetières se sont remplis de | chrysanthèmes. » (page 3)'
+  #4 node y=1443.8500000000001 :: "« Une finale qu'on ne connaît pas"  ctx: "samedi. | « Une finale qu'on ne connaît pas | d'avance : plus excitante ou plus"
+  #5 node y=1740.2000000000003 :: '« Le festival se promène dans Paris. »'  ctx: 'La finale est ___ (excitante) ! | « Le festival se promène dans Paris. » | (page 5)'
+  #6 node y=1415.5750000000003 :: '« Ce calendrier peut encore bouger. »'  ctx: 'au parc. | « Ce calendrier peut encore bouger. » | (page 6)'
+  #7 node y=1713.0250000000003 :: '« Ce week-end, tout se joue. » (page 1)'  ctx: 'demain. | « Ce week-end, tout se joue. » (page 1) | Gramática: se jouer — decidirse, celebrarse'
+  #8 node y=1330.9 :: '« Les jeunes créateurs y rencontrent'  ctx: 'La finale se ___ (jouer) dimanche. | « Les jeunes créateurs y rencontrent | leur public, en vrai. » (page 5)'
+  #8 node y=2203.2 :: '✗ « Les jeunes créateurs y rencontre'  ctx: 'Corregir | ✗ « Les jeunes créateurs y rencontre | leur public, en vrai. »'

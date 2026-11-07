@@ -1,0 +1,1284 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-ru/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "COVER",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]",
+   "by": "rect@99"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Fiorentina–Juventus si giocano ___ 8",
+   "box": [
+    989.0,
+    1893.5,
+    1344.8,
+    1914.2
+   ],
+   "detail": "later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink",
+   "by": "line@163"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "EDGE",
+   "text": "Даты — по календарям мероприятий; время может измениться.",
+   "box": [
+    1473.0,
+    1223.7,
+    1990.2,
+    1241.0
+   ],
+   "detail": "ink box (1473.0, 1223.7000000000005, 1990.25, 1240.9500000000005) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "после мягкой осени.",
+   "box": [
+    1451.0,
+    1856.4,
+    1641.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "ink overlaps '5.' by 22.0x18.0px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "ink overlaps 'B1' by 23.8x14.0px",
+   "by": "text@100"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px",
+   "by": "text@96"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px",
+   "by": "text@162"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px",
+   "by": "text@162"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'della media.' by 120.0x6.5px",
+   "by": "text@103"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px",
+   "by": "text@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "della media.",
+   "box": [
+    989.0,
+    1892.8,
+    1109.0,
+    1909.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px",
+   "by": "text@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "novembre.",
+   "box": [
+    989.0,
+    1921.8,
+    1093.8,
+    1938.2
+   ],
+   "detail": "ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px",
+   "by": "text@164"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "LA SETTIMANA IN CIFRE · В ЦИФРАХ",
+   "box": [
+    1007.0,
+    792.5,
+    1424.2,
+    814.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1424.2 > border 1423.0",
+   "by": "rect@58"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "План недели · Cosa succede, giorno per giorno",
+   "box": [
+    1473.0,
+    670.8,
+    1902.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1902.8 > border 1885.0",
+   "by": "rect@104"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "Даты — по календарям мероприятий; время может измениться.",
+   "box": [
+    1473.0,
+    1223.7,
+    1990.2,
+    1241.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1990.2 > border 1885.0",
+   "by": "rect@104"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · ПАМЯТКА",
+   "box": [
+    545.0,
+    1217.2,
+    983.8,
+    1234.7
+   ],
+   "detail": "ink crosses its box borders: right ink 983.8 > border 961.0",
+   "by": "rect@63"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "LINEX",
+   "text": "Пример редакции, а не настоящие",
+   "box": [
+    1473.0,
+    1683.2,
+    1811.8,
+    1702.5
+   ],
+   "detail": "later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink",
+   "by": "line@155"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "assaggio = дегустация. См. страницу 3.",
+   "box": [
+    1473.0,
+    1324.1,
+    1844.0,
+    1344.6
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1344.6 > border 1343.5",
+   "by": "rect@135"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '149. B — Фестиваль Torrone идёт до 22 но' by 303.8x14.5px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px",
+   "by": "text@393"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px",
+   "by": "text@393"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 245.0x13.0px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 245.0x12.8px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 245.0x12.0px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x11.8px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 191.2x12.8px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 191.2x12.0px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x11.8px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "148. A — pagare con carta = платить картой",
+   "box": [
+    1451.0,
+    2554.5,
+    1732.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "148. A — pagare con carta = платить картой",
+   "box": [
+    1451.0,
+    2554.5,
+    1732.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "147. B — quanto costa? = сколько стоит?",
+   "box": [
+    1451.0,
+    2555.2,
+    1707.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  }
+ ],
+ "flag_count": 49,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "COVER",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]",
+   "by": "rect@99"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Fiorentina–Juventus si giocano ___ 8",
+   "box": [
+    989.0,
+    1893.5,
+    1344.8,
+    1914.2
+   ],
+   "detail": "later line box [988.0, 1911.0, 1424.0, 1913.0] crosses ink",
+   "by": "line@163"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "EDGE",
+   "text": "Даты — по календарям мероприятий; время может измениться.",
+   "box": [
+    1473.0,
+    1223.7,
+    1990.2,
+    1241.0
+   ],
+   "detail": "ink box (1473.0, 1223.7000000000005, 1990.25, 1240.9500000000005) outside page 1950.0x2700.0",
+   "by": null
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "после мягкой осени.",
+   "box": [
+    1451.0,
+    1856.4,
+    1641.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@152"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "ink overlaps '5.' by 22.0x18.0px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "ink overlaps 'B1' by 23.8x14.0px",
+   "by": "text@100"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'Genoa–Milan, Inter–Como e' by 274.2x19.8px",
+   "by": "text@96"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Le ___ parlano di un novembre più freddo",
+   "box": [
+    989.0,
+    1863.5,
+    1399.2,
+    1885.2
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 278.8x11.5px",
+   "by": "text@162"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "Genoa–Milan, Inter–Como e",
+   "box": [
+    989.0,
+    1863.8,
+    1263.2,
+    1883.5
+   ],
+   "detail": "ink overlaps 'IL FREDDO È ARRIVATO' by 274.2x9.8px",
+   "by": "text@162"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'della media.' by 120.0x6.5px",
+   "by": "text@103"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "IL FREDDO È ARRIVATO",
+   "box": [
+    989.0,
+    1873.8,
+    1267.8,
+    1899.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 278.8x5.8px",
+   "by": "text@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "della media.",
+   "box": [
+    989.0,
+    1892.8,
+    1109.0,
+    1909.2
+   ],
+   "detail": "ink overlaps 'Fiorentina–Juventus si giocano ___ 8' by 120.0x15.8px",
+   "by": "text@97"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "novembre.",
+   "box": [
+    989.0,
+    1921.8,
+    1093.8,
+    1938.2
+   ],
+   "detail": "ink overlaps 'Giornate più corte, la prima neve in' by 104.8x9.2px",
+   "by": "text@164"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "LA SETTIMANA IN CIFRE · В ЦИФРАХ",
+   "box": [
+    1007.0,
+    792.5,
+    1424.2,
+    814.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1424.2 > border 1423.0",
+   "by": "rect@58"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "План недели · Cosa succede, giorno per giorno",
+   "box": [
+    1473.0,
+    670.8,
+    1902.8,
+    690.8
+   ],
+   "detail": "ink crosses its box borders: right ink 1902.8 > border 1885.0",
+   "by": "rect@104"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "Даты — по календарям мероприятий; время может измениться.",
+   "box": [
+    1473.0,
+    1223.7,
+    1990.2,
+    1241.0
+   ],
+   "detail": "ink crosses its box borders: right ink 1990.2 > border 1885.0",
+   "by": "rect@104"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · ПАМЯТКА",
+   "box": [
+    545.0,
+    1217.2,
+    983.8,
+    1234.7
+   ],
+   "detail": "ink crosses its box borders: right ink 983.8 > border 961.0",
+   "by": "rect@63"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "LINEX",
+   "text": "Пример редакции, а не настоящие",
+   "box": [
+    1473.0,
+    1683.2,
+    1811.8,
+    1702.5
+   ],
+   "detail": "later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink",
+   "by": "line@155"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "assaggio = дегустация. См. страницу 3.",
+   "box": [
+    1473.0,
+    1324.1,
+    1844.0,
+    1344.6
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1344.6 > border 1343.5",
+   "by": "rect@135"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '149. B — Фестиваль Torrone идёт до 22 но' by 303.8x14.5px",
+   "by": "text@399"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px",
+   "by": "text@393"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "150. ✓ Образец — в разделе H этой страницы (81 слов)",
+   "box": [
+    1451.0,
+    2553.5,
+    1808.2,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '143. b — bollettino = сводка погоды, b' by 245.0x13.0px",
+   "by": "text@393"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 302.0x14.2px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "149. B — Фестиваль Torrone идёт до 22 ноября",
+   "box": [
+    1451.0,
+    2554.0,
+    1754.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '144. c — modello = прогностическая модел' by 245.0x13.0px",
+   "by": "text@394"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 245.0x12.8px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 245.0x12.0px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "143. b — bollettino = сводка погоды, b",
+   "box": [
+    1451.0,
+    2554.2,
+    1696.0,
+    2567.2
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x11.8px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '146. A — mandorle = миндаль' by 191.2x13.0px",
+   "by": "text@396"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 281.8x14.0px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "144. c — modello = прогностическая модель, c",
+   "box": [
+    1451.0,
+    2554.2,
+    1753.0,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '148. A — pagare con carta = платить карт' by 191.2x12.8px",
+   "by": "text@398"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 191.2x12.0px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "146. A — mandorle = миндаль",
+   "box": [
+    1451.0,
+    2554.2,
+    1642.2,
+    2567.2
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x11.8px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "148. A — pagare con carta = платить картой",
+   "box": [
+    1451.0,
+    2554.5,
+    1732.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '147. B — quanto costa? = сколько стоит?' by 256.8x13.2px",
+   "by": "text@397"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "148. A — pagare con carta = платить картой",
+   "box": [
+    1451.0,
+    2554.5,
+    1732.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  },
+  {
+   "page": "p8-valutazione.svg",
+   "class": "TEXTX",
+   "text": "147. B — quanto costa? = сколько стоит?",
+   "box": [
+    1451.0,
+    2555.2,
+    1707.8,
+    2568.5
+   ],
+   "detail": "ink overlaps '145. B — torrone = нуга' by 147.8x13.0px",
+   "by": "text@395"
+  }
+ ],
+ "new_flag_count": 49
+}

@@ -1,0 +1,34 @@
+CORE
+  #1 exact=5 ci=5 :: Le lundi 2 novembre, on reprend les cours.
+  #2 exact=3 ci=4 :: On ne connaît pas encore les finalistes.
+  #3 exact=1 ci=1 :: Les cimetières se sont remplis de chrysanthèmes.
+  #4 exact=5 ci=5 :: Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ?
+  #5 exact=1 ci=1 :: Le festival se promène dans Paris.
+  #6 exact=3 ci=3 :: Ce calendrier peut encore bouger.
+  #7 exact=1 ci=1 :: Ce week-end, tout se joue.
+  #8 exact=3 ci=3 :: Les jeunes créateurs y rencontrent leur public, en vrai.
+  #1 per-page: p2x1,p7x4
+  #2 per-page: p4x1,p7x2,p8x1
+  #3 per-page: p7x1
+  #4 per-page: p4x1,p7x4
+  #5 per-page: p7x1
+  #6 per-page: p6x1,p7x2
+  #7 per-page: p7x1
+  #8 per-page: p5x1,p7x1,p8x1
+ED
+  #1 exact=5 ci=5 :: Le lundi 2 novembre, on reprend les cours.
+  #2 exact=3 ci=4 :: On ne connaît pas encore les finalistes.
+  #3 exact=1 ci=1 :: Les cimetières se sont remplis de chrysanthèmes.
+  #4 exact=5 ci=5 :: Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ?
+  #5 exact=1 ci=1 :: Le festival se promène dans Paris.
+  #6 exact=3 ci=3 :: Ce calendrier peut encore bouger.
+  #7 exact=1 ci=1 :: Ce week-end, tout se joue.
+  #8 exact=3 ci=3 :: Les jeunes créateurs y rencontrent leur public, en vrai.
+  #1 per-page: p2x1,p7x4
+  #2 per-page: p4x1,p7x2,p8x1
+  #3 per-page: p7x1
+  #4 per-page: p4x1,p7x4
+  #5 per-page: p7x1
+  #6 per-page: p6x1,p7x2
+  #7 per-page: p7x1
+  #8 per-page: p5x1,p7x1,p8x1

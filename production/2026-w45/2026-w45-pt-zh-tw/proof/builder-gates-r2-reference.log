@@ -1,0 +1,81 @@
+=== 1. independent exercise count from SVGs (chips + match ranges) ===
+  p1-capa: 10 chips-detail {'A2': 9, 'B1': 1}
+  p2-vida: 18 chips-detail {'A2': 17, 'B1': 1}
+  p3-cultura: 18 chips-detail {'A2': 10, 'B1': 8}
+  p4-esporte: 18 chips-detail {'B1': 18}
+  p5-jovens: 18 chips-detail {'B1': 15, 'B2': 3}
+  p6-aprofundamento: 18 chips-detail {'B2': 18}
+  p7-lingua: 12 chips-detail {'A2': 4, 'B1': 4, 'B2': 4}
+  p8-avaliacao: 38 chips-detail {'B1': 23, 'A2': 9, 'B2': 6}
+  TOTAL 150 by_level {'A2': 49, 'B1': 70, 'B2': 31} by_page {'p1-capa': 10, 'p2-vida': 18, 'p3-cultura': 18, 'p4-esporte': 18, 'p5-jovens': 18, 'p6-aprofundamento': 18, 'p7-lingua': 12, 'p8-avaliacao': 38}
+=== 2. gloss counts (source gloss() strings split on U+00B7) ===
+  core: {'content12.py': [6], 'content34.py': [6, 5], 'content56.py': [5, 4]} total 26
+  edition: {'content12.py': [6], 'content34.py': [6, 5], 'content56.py': [5, 4]} total 26
+=== 3. P7 quotes: each PT quote exactly 2x in edition full text ===
+  count=2 tag=Página 1 :: Do feriadão à prova: a semana do Enem
+  count=2 tag=Página 1 :: Muita gente viaja, visita a família e vai ao cemit
+  count=2 tag=Página 2 :: Finados é o dia da memória
+  count=2 tag=Página 3 :: lembrar é um jeito de continuar perto
+  count=2 tag=Página 4 :: cada ponto vale uma posição, cada gol vale uma his
+  count=2 tag=Página 5 :: quem dorme bem lembra melhor
+  count=2 tag=Página 6 :: primeiro as fáceis, depois as difíceis
+  count=2 tag=Página 2 :: Confira o cartão, durma bem, chegue cedo
+  P7 tags core: {'1': 2, '2': 2, '3': 1, '4': 1, '5': 1, '6': 1}
+  P7 tags edition: {'1': 2, '2': 2, '3': 1, '4': 1, '5': 1, '6': 1}
+=== 4. same-baseline ink collision scan (all pages) ===
+  same-baseline flags: 0
+=== 5. frame + right-edge ADVANCE scan (edge=1885, frame=1910) ===
+  EDGE p2-vida y=2304.0 adv=[1485.0,1897.2] 'd. o objeto que dá luz e se acende em'
+  EDGE p8-avaliacao y=1875.3800000000015 adv=[1451.0,1894.2] '134. O candidato confere o cartão no aplicativo. —'
+  EDGE p8-avaliacao y=2039.340000000002 adv=[1451.0,1890.5] '139. O feriadão é de 31 de outubro a 2 de novembro'
+  EDGE p8-avaliacao y=2084.6600000000017 adv=[1451.0,1888.8] '140. Quando você chegar, apresente o documento com'
+  advance-edge flags: 4
+=== 6. P6 chart-label coverage (baseline-anchored ink vs later rects) ===
+  max coverage: 0%
+=== 7. readers-garden checks (P7 SVG) ===
+  example label TW: True
+  PT disclosure verbatim: True
+  TW disclosure: True
+  invitation imperative+VOL.3: True
+  no invented name in letters box: True
+=== 8. simplified / mainland scans on edition SVGs ===
+  edition CJK chars: 412; unseen vs TW reference union: 24
+  unseen: 亡亮努匆容寂彌懷撒燃牢盧碑禱腦菊藍藏近遲靈頁額魂
+    亡 U+4EA1 :: ['p1-capa:11 月 2 日亡靈節連休 · 11 月 8 日高考第一天', 'p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的', 'p7-lingua:亡靈節是懷念的日子。 (Página 2)']
+    亮 U+4EAE :: ['p8-avaliacao:27. d — vela=點亮紀念的物品 d']
+    努 U+52AA :: ['p8-avaliacao:48. B — 瓦斯科 × 帕爾梅拉斯次回合在週日 8 日 17 點，聖雅努阿里奧']
+    匆 U+5306 :: ['p6-aprofundamento:對 · a correria 匆忙。']
+    容 U+5BB9 :: ['p7-lingua:先做容易的，再做難的。 (Página 6)']
+    寂 U+5BC2 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂', 'p8-avaliacao:38. silêncio — silêncio = 寂靜']
+    彌 U+5F4C :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:31. B — 教堂和墓園整天都有彌撒', 'p8-avaliacao:37. missa — missa = 彌撒']
+    懷 U+61F7 :: ['p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的', 'p3-cultura:靜 · a lembrança 懷念。', 'p3-cultura:在你的文化裡，人們怎樣懷念逝者？寫兩句']
+    撒 U+6492 :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:31. B — 教堂和墓園整天都有彌撒', 'p8-avaliacao:37. missa — missa = 彌撒']
+    燃 U+71C3 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂']
+    牢 U+7262 :: ['p7-lingua:睡得好，記得牢。 (Página 5)']
+    盧 U+76E7 :: ['p8-avaliacao:129. B — 盧卡斯住在貝洛奧里藏特']
+    碑 U+7891 :: ['p3-cultura:譯注｜o túmulo 墓碑 · a flor 花 ·', 'p8-avaliacao:26. b — cemitério=墓碑所在的地方 b', 'p8-avaliacao:34. túmulo — túmulo = 墓碑']
+    禱 U+79B1 :: ['p3-cultura:acender 點燃 · rezar 祈禱 · o silêncio 寂']
+    腦 U+8166 :: ['p5-jovens:備好 · a cabeça 頭腦、狀態。']
+    菊 U+83CA :: ['p2-vida:crisântemo 菊花 · a missa 彌撒 ·', 'p8-avaliacao:30. B — 家人們帶花去墓園，主要是菊花', 'p8-avaliacao:36. crisântemo — crisântemo = 菊花']
+    藍 U+85CD :: ['p7-lingua:高考用黑筆，藍筆不行。']
+    藏 U+85CF :: ['p8-avaliacao:129. B — 盧卡斯住在貝洛奧里藏特']
+    近 U+8FD1 :: ['p7-lingua:懷念是繼續親近的方式。 (Página 3)', 'p8-avaliacao:33. A — 懷念是繼續親近的方式']
+    遲 U+9072 :: ['p1-capa:遲到不得入內：13 點後關門']
+    靈 U+9748 :: ['p1-capa:11 月 2 日亡靈節連休 · 11 月 8 日高考第一天', 'p3-cultura:A2 → B1 · Finados: o dia da memória · 亡靈節：懷念的', 'p7-lingua:亡靈節是懷念的日子。 (Página 2)']
+    頁 U+9801 :: ['p8-avaliacao:RESPOSTAS · 參考答案 — 按版面分頁排列，找到題號即可']
+    額 U+984D :: ['p8-avaliacao:56. mais — 次回合決定決賽名額：mais']
+    魂 U+9B42 :: ['p8-avaliacao:128. A — 亡靈節又稱諸聖靈魂日']
+  SC-only block hits in SVGs: []
+  松 outside 馬拉松: []
+  mainland scan done (no HIT lines = 0)
+  只 occurrences in SVGs: 0
+  把詞組 intact: True
+=== 9. operative-code scans (bslib4+content+render) ===
+  code SC-only block hits: []
+  code 只 count: 0
+  code mainland scan done
+=== 10. forbidden-term + quote checks ===
+  SVGs has forbidden term: False (must be False)
+  code has forbidden term: False (must be False)
+  ASCII double-quote in SVGs: 0 (PT quotes use guillemets)
+  CJK straight quotes in SVGs: 0 (must be 0; TW uses corner brackets)

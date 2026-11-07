@@ -1,0 +1,9 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-nl-fr/svg: 3 flags {'BOXTITLE': 1, 'EDGE': 1, 'TEXTX': 1}
+  [BOXTITLE] p1-voorpagina.svg 'Agenda van de week · LES GRANDS RENDEZ-VOUS' — ink crosses its box borders: right ink 1924.5 > border 1885.0
+  [EDGE] p2-leven.svg 'Associez chaque mot à sa définition' — ink box (1647.0, 1952.0, 1970.25, 1973.5) outside page 1950.0x2700.0
+  [TEXTX] p8-toets.svg 'Associez chaque mot à sa définition' — ink overlaps 'Tekstmodel: Maandag 2 november begint de' by 57.2x15.8px
+core: 0 flags; NEW vs core: 3
+  NEW [BOXTITLE] p1-voorpagina.svg 'Agenda van de week · LES GRANDS RENDEZ-VOUS' — ink crosses its box borders: right ink 1924.5 > border 1885.0
+  NEW [EDGE] p2-leven.svg 'Associez chaque mot à sa définition' — ink box (1647.0, 1952.0, 1970.25, 1973.5) outside page 1950.0x2700.0
+  NEW [TEXTX] p8-toets.svg 'Associez chaque mot à sa définition' — ink overlaps 'Tekstmodel: Maandag 2 november begint de' by 57.2x15.8px

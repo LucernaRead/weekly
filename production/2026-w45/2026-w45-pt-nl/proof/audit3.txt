@@ -1,0 +1,95 @@
+== exercise expansion count (rendered number nodes) ==
+  p1-capa: 0 items []...[] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 0}
+  p2-vida: 4 items [25, 26, 27, 28]...[25, 26, 27, 28] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 4}
+  p3-cultura: 0 items []...[] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 0}
+  p4-esporte: 4 items [52, 53, 54, 55]...[52, 53, 54, 55] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 4}
+  p5-jovens: 0 items []...[] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 0}
+  p6-aprofundamento: 0 items []...[] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 0}
+  p7-lingua: 0 items []...[] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 0}
+  p8-avaliacao: 4 items [141, 142, 143, 144]...[141, 142, 143, 144] levels_in_page={'A2': 0, 'B1': 0, 'B2': 0, '?': 4}
+  union across P1-P7 pages (stem nodes): 12 numbers 25..144 missing=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  level totals from stem nodes: {'?': 12}
+  P8 stem-like nodes (113-150, any font): 76
+      137.0 243.0 fs=24.0 '113.'
+      137.0 331.54999999999995 fs=24.0 '114.'
+      137.0 399.07499999999993 fs=24.0 '115.'
+      137.0 466.5999999999999 fs=24.0 '116.'
+      137.0 534.1249999999999 fs=24.0 '117.'
+      137.0 601.6499999999999 fs=24.0 '118.'
+  P8 key nodes fs=13: 150 first='1. feriadão — feriadão = het lange feestweekend' last='150. ✓ voorbeeldtekst in deel H (93 woorden)' last_y=2369.9599999999978
+  P8 key node y range: 1341.0..2544.559999999997 (footer rule 2580, footer baseline 2624)
+== same-baseline ink collisions (>1px x-overlap, all pages) ==
+  p1-capa: 0 collisions []
+  p2-vida: 0 collisions []
+  p3-cultura: 0 collisions []
+  p4-esporte: 0 collisions []
+  p5-jovens: 0 collisions []
+  p6-aprofundamento: 0 collisions []
+  p7-lingua: 0 collisions []
+  p8-avaliacao: 0 collisions []
+  TOTAL same-baseline collisions: 0
+== ADVANCE right-edge scan (frames outer 28..1922, inner 40..1910) ==
+  p1-capa: max_adv_right=1885.0 min_adv_left=65.0 worst='SEMANA DE 2 A 8 DE NOVEMBRO DE 2026' defects=False
+  p2-vida: max_adv_right=1897.3 min_adv_left=65.0 worst='d. o objeto que dá luz e se acende em' defects=False
+  p3-cultura: max_adv_right=1885.0 min_adv_left=65.0 worst='Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer' defects=False
+  p4-esporte: max_adv_right=1885.0 min_adv_left=65.0 worst='Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer' defects=False
+  p5-jovens: max_adv_right=1885.0 min_adv_left=65.0 worst='Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer' defects=False
+  p6-aprofundamento: max_adv_right=1885.0 min_adv_left=65.0 worst='Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer' defects=False
+  p7-lingua: max_adv_right=1885.0 min_adv_left=65.0 worst='Pagina 7 van 8' defects=False
+  p8-avaliacao: max_adv_right=1885.0 min_adv_left=65.0 worst='bij elk antwoord een korte uitleg in het Nederlands · ✓ = met voorbeeldtekst' defects=False
+  P2 frozen line (edition vs core):
+    edition: x=1485.0 y=2355.0 fs=23.0 adv_right=1897.3 txt='d. o objeto que dá luz e se acende em' inner_clearance=12.7
+    core: x=1485.0 y=2304.0 fs=23.0 adv_right=1897.3 txt='d. o objeto que dá luz e se acende em' inner_clearance=12.7
+== P7 quote pitch + preview-box clearance ==
+  quote head nodes: 18
+    y=304.18 '«Que horas começa a prova?» — que'
+    y=1052.0149999999999 '«___ fica o meu local?» A. Que horas · B.'
+    y=1019.335 '«Os times ___ à volta com tudo em aberto.»'
+    y=1173.87 '«Quando ___ domingo, o país faz a prova.»'
+    y=291.0 '«Vou fazer o Enem de caneta azul.»'
+    y=474.52 '«Chego às 13h30, na hora da'
+    y=687.28 '«Vou revisar a noite inteira na'
+    y=900.04 '«O feriadão é de 2 a 5 de'
+    y=1187.5 '« feriadão »: sábado, domingo e'
+    y=1422.5 '«Vou fazer o Enem no domingo 8. Já'
+    y=2040.5 '«Do feriadão à prova: a semana do Enem»'
+    y=2136.5 '«Muita gente viaja, visita a família e vai ao cemitério leva'
+    y=2232.5 '«Finados é o dia da memória»'
+    y=2328.5 '«lembrar é um jeito de continuar perto»'
+    y=2040.5 '«cada ponto vale uma posição, cada gol vale uma história»'
+    y=2136.5 '«quem dorme bem lembra melhor»'
+    y=2232.5 '«primeiro as fáceis, depois as difíceis»'
+    y=2328.5 '«Confira o cartão, durma bem, chegue cedo»'
+  translation nodes with (Página: 8
+    y=2090.17 'Van het lange weekend naar het examen: Enem-week. (Página 1)'
+    y=2186.17 'Veel mensen reizen, bezoeken familie en brengen bloemen naar de begraa'
+    y=2282.17 'Finados is een dag van herinnering. (Página 2)'
+    y=2378.17 'Herinneren is een manier om dichtbij te blijven. (Página 3)'
+    y=2090.17 'Elk punt is een plaats waard, elk doelpunt een verhaal. (Página 4)'
+    y=2186.17 'Goed slapen, beter onthouden. (Página 5)'
+    y=2282.17 'Eerst de makkelijke, dan de moeilijke. (Página 6)'
+    y=2378.17 'Controleer je kaart, slaap goed, kom vroeg. (Página 2)'
+  preview rects at y=2404: [{'shape': 'rect', 'x': 65.0, 'y': 2404.0, 'w': 1820.0, 'h': 118.0, 'x1': 0.0, 'y1': 0.0, 'x2': 0.0, 'y2': 0.0}]
+  LAST translation baseline=2378.17 clearance_to_box_top_2404=25.83px txt='Herinneren is een manier om dichtbij te blijven. (Página 3)'
+  quote-row pitches: [747.83, -32.68, 154.53, -882.87, 183.52, 212.76, 212.76, 287.46, 235.0, 618.0, 96.0, 96.0, 96.0, -288.0, 96.0, 96.0, 96.0]
+== P6 chart-label coverage (baseline-anchored ink vs later rects) ==
+  label 'portões abertos' at (87.0,1690.0) ink=(87.0, 1673.5, 247.2, 1695.2) coverage=0.0%
+  label 'espera' at (87.0,1734.0) ink=(87.0, 1723.0, 154.5, 1739.2) coverage=0.0%
+  label 'prova' at (65.0,327.28) ink=(65.0, 306.8, 172.8, 336.8) coverage=0.0%
+  label 'prova' at (87.0,1778.0) ink=(87.0, 1767.0, 145.2, 1783.2) coverage=0.0%
+  label '60 min' at (373.125,1690.0) ink=(373.1, 1674.2, 441.1, 1690.2) coverage=0.0%
+  label '30 min' at (235.4375,1734.0) ink=(235.4, 1718.2, 303.4, 1734.2) coverage=0.0%
+  label '330 min' at (676.25,1778.0) ink=(676.2, 1762.2, 755.8, 1778.2) coverage=0.0%
+  P6 bar rects present (w=90/45/495 check):
+    rect w=90.0 x=265.125 y=1672.0 h=22.0
+    rect w=45.0 x=172.4375 y=1716.0 h=22.0
+    rect w=495.0 x=163.25 y=1760.0 h=22.0
+== ink right-edge max per page (true ink) ==
+  p1-capa: max_ink_right=1885.0 'Lees de voorpagina en kies het juiste antwoord · antwoorden '
+  p2-vida: max_ink_right=1897.2 'd. o objeto que dá luz e se acende em'
+  p3-cultura: max_ink_right=1885.3 'Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer'
+  p4-esporte: max_ink_right=1885.3 'Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer'
+  p5-jovens: max_ink_right=1885.3 'Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer'
+  p6-aprofundamento: max_ink_right=1885.3 'Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer'
+  p7-lingua: max_ink_right=1885.0 'Pagina 7 van 8'
+  p8-avaliacao: max_ink_right=1885.0 'bij elk antwoord een korte uitleg in het Nederlands · ✓ = me'

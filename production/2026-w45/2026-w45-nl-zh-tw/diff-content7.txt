@@ -1,0 +1,106 @@
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-core/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-zh-tw/svg")
+12c12
+< p.band("TAAL · 语言", "De Lucerna", "聚焦语言 · Drie niveaus, drie gereedschappen · 三个级别，三件工具")
+---
+> p.band("TAAL · 語言", "De Lucerna", "聚焦語言 · Drie niveaus, drie gereedschappen · 三個級別，三件工具")
+19c19
+< a.bridge("het klimaat 气候（长期）；een boom planten 种树；besparen 节约；de waarschuwing 预警。")
+---
+> a.expl("het klimaat 氣候（長期）；een boom planten 種樹；besparen 節約；de waarschuwing 預警。")
+24c24
+< a.ex("A2", "单选", "B", "气候是长期的天气与自然",
+---
+> a.ex("A2", "單選", "B", "氣候是長期的天氣與自然",
+35c35
+< b.bridge("meedoen 参加：ik doe mee；opruimen 收拾：wij hebben opgeruimd；vastzetten 固定：zij zette vast。")
+---
+> b.expl("meedoen 參加：ik doe mee；opruimen 收拾：wij hebben opgeruimd；vastzetten 固定：zij zette vast。")
+38c38
+< b.ex("B1", "完成句子", "opgeruimd", "opruimen 的分词：opgeruimd",
+---
+> b.ex("B1", "完成句子", "opgeruimd", "opruimen 的分詞：opgeruimd",
+40c40
+< b.ex("B1", "完成句子", "zette vast", "vastzetten 过去时：zette vast",
+---
+> b.ex("B1", "完成句子", "zette vast", "vastzetten 過去時：zette vast",
+42c42
+< b.ex("B1", "单选", "B", "meedoen = 参加、参与",
+---
+> b.ex("B1", "單選", "B", "meedoen = 參加、參與",
+51c51
+< c.bridge("Ik vind dat… 我认为；Volgens mij… 依我看；Het lijkt me dat… 在我看来。")
+---
+> c.expl("Ik vind dat… 我認為；Volgens mij… 依我看；Het lijkt me dat… 在我看來。")
+54c54
+< c.ex("B2", "单选", "B", "Ik vind dat… 表达看法",
+---
+> c.ex("B2", "單選", "B", "Ik vind dat… 表達看法",
+56c56
+< c.ex("B2", "完成句子", "lijkt", "Het lijkt me dat… = 在我看来",
+---
+> c.ex("B2", "完成句子", "lijkt", "Het lijkt me dat… = 在我看來",
+65,68c65,68
+<     ("«Het klimaat is slecht weer.»", "→ Fout: het klimaat is het weer over een lange tijd.", "气候是长期的天气自然，不是今天的天气。"),
+<     ("«Ik doe mee aan de klimaatweek.»", "→ «Klimaatweek» krijgt een hoofdletter: het is een naam.", "Klimaatweek 是专名，首字母大写。"),
+<     ("«Ik plant een bomen.»", "→ «Een» is enkelvoud: «een boom» of «bomen».", "een 是单数：een boom；复数直接用 bomen。"),
+<     ("«Omdat het regent, ik blijf thuis.»", "→ Na «omdat» staat het werkwoord op plaats 2: «... blijf ik thuis.»", "omdat 从句后，主句动词在第二位：blijf ik thuis。"),
+---
+>     ("«Het klimaat is slecht weer.»", "→ Fout: het klimaat is het weer over een lange tijd.", "氣候是長期的天氣自然，不是今天的天氣。"),
+>     ("«Ik doe mee aan de klimaatweek.»", "→ «Klimaatweek» krijgt een hoofdletter: het is een naam.", "Klimaatweek 是專名，首字母大寫。"),
+>     ("«Ik plant een bomen.»", "→ «Een» is enkelvoud: «een boom» of «bomen».", "een 是單數：een boom；複數直接用 bomen。"),
+>     ("«Omdat het regent, ik blijf thuis.»", "→ Na «omdat» staat het werkwoord op plaats 2: «... blijf ik thuis.»", "omdat 從句後，主句動詞在第二位：blijf ik thuis。"),
+73c73
+< p.text(bx + 22, yy3 + 26, "PAS OP! · 易错诊所", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "PAS OP! · 易錯診所", 23, "sans", True, OLIVE)
+81c81
+< wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("meedoen = 参加、参与：气候周全荷兰都参加。", "sans", False, 20, CW - 44)) * 29 + 28
+---
+> wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("meedoen = 參加、參與：氣候週全荷蘭都參加。", "sans", False, 20, CW - 44)) * 29 + 28
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD · 本周生词", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD · 本週生詞", 23, "sans", True, OLIVE)
+87c87
+< p.para(bx + 22, yy3 + 20, "meedoen = 参加、参与：气候周全荷兰都参加。", 20, "sans", False, GREY, CW - 44, 1.42)
+---
+> p.para(bx + 22, yy3 + 20, "meedoen = 參加、參與：氣候週全荷蘭都參加。", 20, "sans", False, GREY, CW - 44, 1.42)
+94,95c94,95
+< dt_zh = "截稿时未收到真实来信或第 8 版最佳作文，刊登示例信，承诺顺延 VOL.3。"
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("编辑部示例信，非真实来信。欢迎寄来你的真实来信和第 8 版最佳作文，VOL.3 刊登！", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> dt_zh = "截稿時未收到真實來信或第 8 版最佳作文，刊登示例信，承諾順延 VOL.3。"
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("編輯部示例信，非真實來信。歡迎寄來你的真實來信和第 8 版最佳作文，VOL.3 刊登！", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+106c106
+< p.para(bx + 22, yy3 + 20, "编辑部示例信，非真实来信。欢迎寄来你的真实来信和第 8 版最佳作文，VOL.3 刊登！", 20, "sans", False, GREY, CW - 44, 1.42)
+---
+> p.para(bx + 22, yy3 + 20, "編輯部示例信，非真實來信。歡迎寄來你的真實來信和第 8 版最佳作文，VOL.3 刊登！", 20, "sans", False, GREY, CW - 44, 1.42)
+115c115
+< p.text(MX, fy + 24, "ZINNEN VAN DE WEEK · 本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+---
+> p.text(MX, fy + 24, "ZINNEN VAN DE WEEK · 本週金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+117,124c117,124
+<     ("«Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland»", "从 11 月 2 日周一到 8 日周日，荷兰是气候周。", "Pagina 1"),
+<     ("«De herfst is de beste tijd om te planten»", "秋天是种树的最好时节。", "Pagina 1"),
+<     ("«Geel betekent: let op, het weer kan gevaarlijk zijn»", "黄色意味着：当心，天气可能危险。", "Pagina 2"),
+<     ("«Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts»", "70 多家博物馆从晚上 19 点开放到凌晨 2 点。", "Pagina 3"),
+<     ("«Ajax won donderdag 22 oktober met 2–0 van Atalanta»", "阿贾克斯 10 月 22 日周四 2–0 战胜亚特兰大。", "Pagina 4"),
+<     ("«Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur»", "11 月 1 日周日，《荒岛远征》在 RTL 4 开播，20 点。", "Pagina 5"),
+<     ("«Een code is geen verbod, maar een advies»", "预警代码不是禁令，而是一条建议。", "Pagina 6"),
+<     ("«Het weer is van ons allemaal, maar het raakt ons allemaal anders»", "天气属于我们所有人，但对每个人的影响各不相同。", "Pagina 6"),
+---
+>     ("«Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland»", "從 11 月 2 日週一到 8 日週日，荷蘭是氣候週。", "Pagina 1"),
+>     ("«De herfst is de beste tijd om te planten»", "秋天是種樹的最好時節。", "Pagina 1"),
+>     ("«Geel betekent: let op, het weer kan gevaarlijk zijn»", "黃色意味著：當心，天氣可能危險。", "Pagina 2"),
+>     ("«Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts»", "70 多家博物館從晚上 19 點開放到凌晨 2 點。", "Pagina 3"),
+>     ("«Ajax won donderdag 22 oktober met 2–0 van Atalanta»", "阿賈克斯 10 月 22 日週四 2–0 戰勝亞特蘭大。", "Pagina 4"),
+>     ("«Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur»", "11 月 1 日週日，《荒島遠征》在 RTL 4 開播，20 點。", "Pagina 5"),
+>     ("«Een code is geen verbod, maar een advies»", "預警程式碼不是禁令，而是一條建議。", "Pagina 6"),
+>     ("«Het weer is van ons allemaal, maar het raakt ons allemaal anders»", "天氣屬於我們所有人，但對每個人的影響各不相同。", "Pagina 6"),
+137c137
+< p.text(MX + 28, py + 44, "VOLGENDE WEEK · 下期预告 (VOL.3)", 24, "sans", True, "#e8dfc8")
+---
+> p.text(MX + 28, py + 44, "VOLGENDE WEEK · 下期預告 (VOL.3)", 24, "sans", True, "#e8dfc8")

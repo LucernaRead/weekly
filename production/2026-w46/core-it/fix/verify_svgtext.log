@@ -1,0 +1,151 @@
+--- core ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+--- de ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in de SVGs
+--- en ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in en SVGs
+--- es ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in es SVGs
+--- fr ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in fr SVGs
+--- ja ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+--- ko ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in ko SVGs
+PASS KO no katakana
+PASS KO correct name x6
+PASS KO no U+3002 stops
+--- nl ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in nl SVGs
+--- pt ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in pt SVGs
+--- ru ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS F1 no U+FF1A in ru SVGs
+--- zh-tw ---
+PASS D1 Pagina 2
+PASS D1 old gone
+PASS D3 chiuso sg
+PASS D3 aperte fem-pl
+PASS D3 old gone
+PASS D2 NON stems x2
+PASS D2 old stems gone
+PASS Q1 old gone everywhere
+PASS Q1 new fact in P7
+PASS P8 has 20.45
+PASS ZHTW no 未來時
+FAIL ZHTW 將來時 x7
+--- edition-specific ---
+PASS EN strapline
+PASS EN 132
+PASS EN 44/134 +date x2
+PASS ES 132
+PASS ES 117
+PASS FR 132
+PASS NL 20 zij
+PASS NL 146 =
+PASS PT 132
+PASS PT disclosure tu
+PASS RU disclosure qualifier
+PASS RU 38 marker
+PASS D5 core =
+PASS D5 ko 146
+PASS D5 zh-tw =
+FAILURES: 1

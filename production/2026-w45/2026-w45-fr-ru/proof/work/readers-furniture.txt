@@ -1,0 +1,88 @@
+===== GATE 6: readers corner verbatim (ED P7, full nodes) =====
+  x=1013 y=1956 size=21 :: "« Mon week-end de novembre : samedi, j'ai regardé un match à la télévision ;"
+  x=1013 y=1985.82 size=21 :: "dimanche, j'ai cuisiné une soupe et j'ai lu vingt pages. » — Exemple de la rédaction"
+  x=1013 y=2066 size=20 :: 'Комментарий редакции: passé composé уверенный, точка с запятой хорошо'
+  x=1013 y=2142 size=20 :: "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment de mettre sous"
+  x=1013 y=2206 size=19.5 :: 'Примечание редакции: настоящих писем и лучших сочинений VOL.2 со стр. 8 не'
+  CORE French editorial note nodes (frozen check):
+  :: "Note de la rédaction : aucun texte du VOL.2 n'était arrivé au moment de mettre sous"
+  :: "presse (le numéro W44 n'a pas paru). Le VOL.4 reprendra la promesse."
+  ED preview strip nodes (NOT solicitation):
+  :: 'На следующей неделе: Сенат рассматривает бюджет соцобеспечения, 11 ноября —'
+  :: 'День перемирия, ярмарка в Дьепе 14–15 ноября; и, наконец, ваши письма!'
+
+===== GATE 7: furniture three-way =====
+badge ED: ('ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ', '975', '574', '22', 'Noto Sans CJK SC', 'middle')
+badge W43: ('ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ', '975', '574', '22', 'Noto Sans CJK SC', 'middle')
+badge CORE: ('法语正文 · 简体中文讲解 — 给简体中文读者的版本', '975', '574', '22', 'Noto Sans CJK SC', 'middle')
+  footer VOL3 RU: ED=YES W43=no
+  footer W43 VOL2 RU: ED=no W43=YES
+  page line RU: ED=YES W43=YES
+  gloss prefix RU: ED=YES W43=YES
+  P8 sep RU: ED=YES W43=YES
+  P8 title RU: ED=YES W43=YES
+  P8 topright RU: ED=YES W43=YES
+  P1 topleft RU: ED=YES W43=no
+  strapline RU: ED=YES W43=YES
+  subtitle RU: ED=YES W43=no
+  darkband RU 1: ED=YES W43=no
+  darkband RU 2: ED=YES W43=no
+  H head RU: ED=YES W43=YES
+  MODÈLE head RU: ED=YES W43=YES
+  keys head? P8 RÉPONSES: ED=YES W43=YES
+  footer per page ED:
+    p1-une.svg: FOUND; page-line: True
+    p2-vie.svg: FOUND; page-line: True
+    p3-culture.svg: FOUND; page-line: True
+    p4-sport.svg: FOUND; page-line: True
+    p5-jeunesse.svg: FOUND; page-line: True
+    p6-politique.svg: FOUND; page-line: True
+    p7-langue.svg: FOUND; page-line: True
+    p8-exercices.svg: FOUND; page-line: True
+  section heads ED (sample):
+    YES :: VIE QUOTIDIENNE · ПОВСЕДНЕВНАЯ ЖИЗНЬ
+    YES :: CULTURE · КУЛЬТУРА
+    YES :: SPORT · СПОРТ
+    YES :: JEUNESSE & MUSIQUE · МОЛОДЁЖЬ
+    YES :: POLITIQUE & CHIFFRES · ПОЛИТИКА И ЦИФРЫ
+    YES :: LANGUE EN MAIN · ЯЗЫК В РУКАХ
+    YES :: NIVEAU A2 · БАЗОВЫЙ
+    YES :: NIVEAU B1 · СРЕДНИЙ
+    YES :: NIVEAU B2 · УРОВЕНЬ-ВЫЗОВ
+    YES :: BOÎTE À OUTILS · В КАРМАНЕ
+    YES :: CLINIQUE DES ERREURS · СТОП!
+    YES :: LE COURRIER DES LECTEURS · ПОЧТА ЧИТАТЕЛЕЙ
+    YES :: EXERCICES & RÉPONSES · УПРАЖНЕНИЯ И ОТВЕТЫ
+  instr labels ED:
+    Вставьте: YES
+    Перепишите: YES
+    Соедините: YES
+    Исправьте: YES
+  P8 separators ED:
+    — СТРАНИЦА 1 —: YES
+    — СТРАНИЦА 2 —: YES
+    — СТРАНИЦА 3 —: YES
+    — СТРАНИЦА 4 —: YES
+    — СТРАНИЦА 5 —: YES
+    — СТРАНИЦА 6 —: YES
+    — СТРАНИЦА 7 —: YES
+    — СТРАНИЦА 8 —: YES
+  W43 badge string byte-equal ED vs W43:
+   ED badge nodes: ['ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ', 'Le Lucerna · ФРАНЦУЗСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ']
+   W43 badge nodes: ['ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ', 'Le Lucerna · ФРАНЦУЗСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ']
+   byte-equal: False
+  W43 footer nodes:
+    'ФРАНЦУЗСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.2 · ОСЕНЬ И ПРАЗДНИКИ'
+    'Le Lucerna · ФРАНЦУЗСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ФРАНЦУЗСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+  W43 P8 sep/title/topright:
+    'EXERCICES & RÉPONSES · УПРАЖНЕНИЯ И ОТВЕТЫ'
+    'ТЕСТ · ОТВЕТЫ ВНИЗУ ЭТОЙ СТРАНИЦЫ'
+    'RÉPONSES · ВСЕ ОТВЕТЫ С ПРИМЕЧАНИЯМИ (СТРАНИЦЫ 1–8)'
+    '— СТРАНИЦА 1 —'
+    '— СТРАНИЦА 2 —'
+    '— СТРАНИЦА 3 —'
+    '— СТРАНИЦА 4 —'
+    '— СТРАНИЦА 5 —'
+    '— СТРАНИЦА 6 —'
+    '— СТРАНИЦА 7 —'
+    '— СТРАНИЦА 8 —'

@@ -1,0 +1,101 @@
+== TOKEN DIFF lost: {'ahora': 1, 'aprender': 1, 'desde': 1, 'el': 2, 'escriben': 1, 'españa': 1, 'español': 1, 'están': 1, 'las': 1, 'listas': 1, 'los': 1, 'lucerna': 7, 'para': 1, 'periódico': 1, 'presentadas': 1, 'programas': 1, 'página': 16, 'se': 1, 'semanal': 1, 'spanish': 8, 'vida': 1, 'weekly': 8, 'ya': 1}
+== TOKEN DIFF gained (sample, Dutch + kept-Spanish): {'a': 12, 'aan': 1, 'aanvoegende': 7, 'aardappel': 1, 'aardappelen': 1, 'achtergrond': 1, 'achterstand': 3, 'afspraken': 1, 'al': 1, 'alleen': 2, 'allerheiligen': 3, 'als': 4, 'american': 5, 'amerikaanse': 1, 'ander': 1, 'antwoord': 7, 'antwoorden': 8, 'artikel': 4, 'at': 1, 'athene': 1, 'atlético': 12, 'autonome': 3, 'avonds': 1, 'bar': 12, 'barometer': 2, 'begint': 6, 'begraafplaats': 2, 'begraafplaatsen': 1, 'beide': 2, 'bekend': 1, 'belofte': 1, 'bengals': 1, 'bernabéu': 7, 'beslist': 3, 'beste': 1, 'bezoek': 3, 'bij': 5, 'bijv': 1, 'bliksemquiz': 1, 'bloemen': 2, 'boe': 1, 'brachten': 1, 'brieven': 1, 'bron': 2, 'camp': 1, 'campagne': 9, 'cataloni': 3, 'champions': 2, 'cijfers': 2, 'clubs': 2, 'clásico': 1, 'combineer': 3, 'competitienederlaag': 2, 'contract': 1, 'contrast': 1, 'cortes': 1, 'countdown': 1, 'cultuur': 1, 'daarom': 1, 'dag': 2} ... total gained types: 411
+== P8 dash-parse: core answers: 150 edition answers: 150
+   KEYDIFF #137: core='周一在九个自治区是假日。' edition="Maandag is een feestdag in negen autonome regio's."
+   KEYDIFF #138: core='周日我们看 NFL 和马竞–巴萨。' edition='Op zondag kijken we naar de NFL en Atlético–Barça.'
+   KEYDIFF #150: core='✓ 范文见本版 H 区（84 词） La Lucerna · 西班牙语周报 VOL.2 · LUCERNA SPANISH WEEKLY 第 8 版 / 共 8 版' edition='✓ voorbeeldtekst in deel H (84 woorden) La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS Pagina 8 van 8'
+== P8 dash-parse diff count: 3
+== GLOSS core boxes: 5 edition boxes: 5
+   p1-portada: core 2 ['la', 'disolver'] | ed 2 ['la', ''] | headwords-equal=False
+   p2-vida: core 3 ['festivo', 'el', ''] | ed 1 ['festivo'] | headwords-equal=False
+   p3-cultura: core 2 ['sobrio', 'el'] | ed 2 ['sobrio', 'el'] | headwords-equal=True
+   p4-deporte: core 2 ['la', 'recortar'] | ed 2 ['la', ''] | headwords-equal=False
+   p5-juventud: core 1 ['el'] | ed 1 ['el'] | headwords-equal=True
+== GLOSS totals core: 10 edition: 8
+== IMAGES core==edition payloads: True {} {}
+== P7 FRASES header idx: 131 FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer)
+   P7ED: 'FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer)'
+   P7ED: '«Las listas ya están presentadas: ahora los partidos escriben sus programas.»'
+   P7ED: "De lijsten zijn ingediend: nu schrijven de partijen hun programma's. (Pagina 1)"
+   P7ED: '«El lunes 2 de noviembre es festivo en nueve comunidades — y día de trabajo en las'
+   P7ED: 'demás.»'
+   P7ED: "Maandag 2 november is een feestdag in negen regio's — en een werkdag elders. (Pagina 2)"
+   P7ED: '«Tres fiestas, una misma noche de otoño.»'
+   P7ED: 'Drie feesten, één herfstnacht. (Pagina 3)'
+   P7ED: '«El Madrid ganó 2–1 en el Camp Nou: fue la primera derrota liguera del Barça.»'
+   P7ED: 'Real Madrid won met 2–1 in Camp Nou: de eerste competitienederlaag van Barça dit seizoen.'
+   P7ED: '(Pagina 4)'
+   P7ED: '«El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a'
+   P7ED: 'Madrid.»'
+   P7ED: 'Het Bernabéu ruilt gras in voor het gridiron: American football komt naar Madrid. (Pagina 5)'
+   P7ED: '«La vivienda es el principal problema para el 55,7 % de los españoles.»'
+   P7ED: 'Huisvesting is het grootste probleem voor 55,7% van de Spanjaarden. (Pagina 6)'
+   P7ED: '«Una encuesta es una foto con margen de error, tomada en un día concreto.»'
+   P7ED: 'Een peiling is een momentopname met een foutmarge, van één dag. (Pagina 6)'
+   P7ED: '«El domingo 8, Madrid tiene dos citas: la NFL a las 15:30 y el Atlético–Barça a las'
+   P7ED: '21:00.»'
+   P7ED: 'Op zondag 8 november heeft Madrid twee afspraken: de NFL om 15:30 en Atlético–Barça om 21:00.'
+   P7ED: '(Pagina 1)'
+   P7ED: 'LA PRÓXIMA SEMANA · Volgende week (VOL.3)'
+   P7ED: 'El viernes 13: empieza la campaña electoral. El domingo 29: España vota. Además: tus cartas y los mejores textos de la p'
+   P7ED: 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS'
+   P7ED: 'Pagina 7 van 8'
+== P6 rects identical: False core 34 ed 34
+   only-core: ['<rect x="1451" y="2217.5" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2326.6000000000004" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2408.1500000000005" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2489.7000000000007" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2105.1000000000004" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2292.750000000001" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2429.4000000000015" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2215.3250000000003" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2324.4250000000006" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2433.525000000001" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2132.6500000000005" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2320.300000000001" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2401.8500000000013" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2483.4000000000015" width="60" height="30" rx="6" fill="#a4553a"/>']
+   only-ed: ['<rect x="1451" y="2245.0" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2324.325" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2403.6499999999996" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="1451" y="2482.9749999999995" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2102.1499999999996" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2286.124999999999" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="527" y="2419.0999999999985" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2242.0999999999995" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2348.249999999999" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="65" y="2454.3999999999987" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2128.9749999999995" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2312.949999999999" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2392.2749999999987" width="60" height="30" rx="6" fill="#a4553a"/>', '<rect x="989" y="2471.5999999999985" width="60" height="30" rx="6" fill="#a4553a"/>']
+== P6 y<1950 texts core 100 ed 100 identical: False
+   DIFF: (78.0, 116.0, 'A FONDO · 深读') || (78.0, 116.0, 'A FONDO · Achtergrond')
+   DIFF: (1872.0, 142.0, 'NIVEL B2 · La vivienda decide la campaña · 住房决定选战') || (1872.0, 142.0, 'NIVEL B2 · La vivienda decide la campaña · Huisvesting beslist de campagne')
+== ED badge: [(975.0, 372.0, 19.5, True, '#a4553a', 'TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'), (65.0, 2624.0, 20.0, False, '#57523f', 'La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')]
+== ED y=330: [(975.0, 46.0, 'SPAANS WEEKBLAD · VOL.2 · LA VIVIENDA · EL PUENTE · EL FÚTBOL')]
+== ED y=92: [(65.0, 23.0, 'VOL. 2 · SEGUNDA EDICIÓN'), (975.0, 21.0, 'CADA SEMANA EN ESPAÑOL · ELKE WEEK · HET SPAANS DAT DE SPANJAARDEN LEZEN'), (1885.0, 23.0, 'SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026')]
+== W43 badge: [(975.0, 372.0, 19.5, True, '#a4553a', 'TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'), (65.0, 2624.0, 20.0, False, '#57523f', 'La Lucerna · SPAANS WEEKBLAD VOL.1 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS')]
+== W43 y=330: [(975.0, 46.0, 'SPAANS WEEKBLAD · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1')]
+== W43 y=92: [(65.0, 23.0, 'VOL. 1 · PRIMERA EDICIÓN'), (975.0, 21.0, 'CADA SEMANA EN ESPAÑOL · ELKE WEEK · HET SPAANS DAT DE SPANJAARDEN LEZEN'), (1885.0, 23.0, 'SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026')]
+== ED footer p1-portada: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+== ED footer p2-vida: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+== ED footer p3-cultura: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+== ED footer p4-deporte: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+== ED footer p5-juventud: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+== ED footer p6-afondo: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+== ED footer p7-lengua: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+== ED footer p8-ejercicios: ['La Lucerna · SPAANS WEEKBLAD VOL.2 · TEKSTEN IN HET SPAANS · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+== p1-portada: Han chars=0 [] fullwidth-parens=0
+== p2-vida: Han chars=0 [] fullwidth-parens=0
+== p3-cultura: Han chars=0 [] fullwidth-parens=0
+== p4-deporte: Han chars=0 [] fullwidth-parens=0
+== p5-juventud: Han chars=0 [] fullwidth-parens=0
+== p6-afondo: Han chars=0 [] fullwidth-parens=0
+== p7-lengua: Han chars=0 [] fullwidth-parens=2
+== p8-ejercicios: Han chars=0 [] fullwidth-parens=0
+== ED contains '桥接': 0
+== ED contains 'bridge': 0
+== ED contains '12 de noviembre': 0
+== ED contains '12 november': 0
+== ED contains '(Página': 2
+== ED contains 'PÁGINA': 0
+== ED Pagina tags: ['(Pagina 1)', '(Pagina 2)', '(Pagina 3)', '(Pagina 4)', '(Pagina 5)', '(Pagina 6)', '(Pagina 6)', '(Pagina 1)'] count 8
+== ED P8 separators: ['— Pagina 1 —', '— Pagina 2 —', '— Pagina 3 —', '— Pagina 4 —', '— Pagina 5 —', '— Pagina 6 —', '— Pagina 7 —', '— Pagina 8 —']
+== ED Pagina-footer lines: ['Pagina 1 van 8', 'Pagina 2 van 8', 'Pagina 3 van 8', 'Pagina 4 van 8', 'Pagina 5 van 8', 'Pagina 6 van 8', 'Pagina 7 van 8', 'Pagina 8 van 8']
+== ED 12-nov check raw: False
+== P7 frag 'CARTAS DE LOS LECTORES': core=True ed=True
+== P7 frag 'Nota de la redacción': core=True ed=True
+== P7 frag 'VOL.3': core=True ed=True
+== ED Dutch disclosure: Opmerking: geen echte brieven of beste pagina-8-teksten; daarom een voorbeeldbrief. Belofte: VOL.3. FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer) «Las listas ya están presentadas: ahora los partido
+== CORE Spanish note: Nota de la redacción: al cierre no había cartas reales ni los mejores textos de la página 8; publicamos este ejemplo y la promesa pasa al VOL.3. 编辑部说明：截至本期截稿，未收到真实读 者来信与第 8 版最佳作文，故本期登载编辑 部示例信，承诺顺延至 VOL.3。欢迎来信！ FRASES DE 
+== P7 letter-block core vs ed equal: False
+   LETTER DIFF: '编辑部说明：截至本期截稿，未收到真实读' || 'Opmerking: geen echte brieven of beste'
+   LETTER DIFF: '者来信与第 8 版最佳作文，故本期登载编辑' || 'pagina-8-teksten; daarom een'
+   LETTER DIFF: '部示例信，承诺顺延至 VOL.3。欢迎来信！' || 'voorbeeldbrief. Belofte: VOL.3.'
+   LETTER DIFF: 'FRASES DE LA SEMANA · 本周金句（逐字摘自本期文章）' || 'FRASES DE LA SEMANA · Zinnen van de week (letterlijk uit dit nummer)'
+   LETTER DIFF: '名单已提交：现在各党开始撰写纲领。 (Página 1)' || "De lijsten zijn ingediend: nu schrijven de partijen hun programma's. (Pagina 1)"
+   LETTER DIFF: '11 月 2 日周一九个自治区放假，其他地区照常上班。 (Página 2)' || "Maandag 2 november is een feestdag in negen regio's — en een werkdag elders. (Pagina 2)"
+   LETTER DIFF: '三个节日，同一个秋夜。 (Página 3)' || 'Drie feesten, één herfstnacht. (Pagina 3)'
+   LETTER DIFF: '皇马在诺坎普 2–1 获胜：这是巴萨本赛季联赛首败。 (Página 4)' || 'Real Madrid won met 2–1 in Camp Nou: de eerste competitienederlaag van Barça dit seizoen.'
+   LETTER DIFF: '«El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a' || '(Pagina 4)'
+   LETTER DIFF: 'Madrid.»' || '«El Bernabéu cambia el césped por el emparrillado: el fútbol americano llega a'
+   LETTER DIFF: '伯纳乌把草皮换成烤架形球场：美式足球来到马德里。 (Página 5)' || 'Madrid.»'
+   LETTER DIFF: '«La vivienda es el principal problema para el 55,7 % de los españoles.»' || 'Het Bernabéu ruilt gras in voor het gridiron: American football komt naar Madrid. (Pagina 5)'
+   LETTER DIFF: '住房是 55.7% 的西班牙人的首要问题。 (Página 6)' || '«La vivienda es el principal problema para el 55,7 % de los españoles.»'
+== MODEL core: (None, [])
+== MODEL ed: (None, [])

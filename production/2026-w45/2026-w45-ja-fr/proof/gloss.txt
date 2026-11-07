@@ -1,0 +1,44 @@
+Per-page rendered gloss counts (split by ·):
+  p1-hyoushi.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=1 entries-per-box=[4] total=4
+      ED: Note — 祝日 jour férié · 見頃 le meilleurmoment · 暦 calendrier · お届けしますvous apporter.
+  p2-kurashi.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=2 entries-per-box=[4, 5] total=9
+      ED: Note — 蒸す cuire à la vapeur · 並ぶapparaître en rayon · 食卓 la table dudîner · 超える dépasser.
+      ED: Note — 予報 prévisions · 平年 une annéemoyenne · 季節風 vent saisonnier · 話題sujet · 値上がり hausses de prix.
+  p3-bunka.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=2 entries-per-box=[4, 4] total=8
+      ED: Note — 市場 marché · 工芸 artisanat · 光lumière · 楽しむ apprécier.
+      ED: Note — 陶器 poterie · 漆器 laque · 染物textiles teints · 金箔 feuille d'or.
+  p4-supotsu.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=2 entries-per-box=[4, 3] total=7
+      ED: Note — 延長 manches supplémentaires ·逆転 retournement · 同点 égalité · 優勝率taux de titre.
+      ED: Note — 総括 bilan · 締め切り date limite ·確認する vérifier.
+  p5-wakamono.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=2 entries-per-box=[4, 3] total=7
+      ED: Note — 罰金 amende · 像 statue · 仮装déguisement · 守る respecter.
+      ED: Note — 祭り fête · 週末 week-end · 話題sujet.
+  p6-fukayomi.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=1 entries-per-box=[4] total=4
+      ED: Note — 予算 budget · 満足 satisfaction ·観測 observation · 追いかける poursuivre.
+  p7-kotoba.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=0 entries-per-box=[] total=0
+  p8-tesuto.svg: core boxes=0 entries-per-box=[] total=0 | edition boxes=0 entries-per-box=[] total=0
+TOTAL core=0 edition=39
+
+Source gloss() strings in CORE build:
+  content12.py: entries=4 :: 祝日 节假日 · 見頃 最佳观赏期 · 暦 历法 · お届けします 为您送上。
+  content12.py: entries=4 :: 蒸す 蒸 · 並ぶ 摆上货架 · 食卓 餐桌 · 超える 超过。
+  content12.py: entries=5 :: 予報 预报 · 平年 往年平均 · 季節風 季风 · 話題 话题 · 値上がり 涨价。
+  content34.py: entries=4 :: 市場 市场 · 工芸 工艺 · 光 灯光 · 楽しむ 享受。
+  content34.py: entries=4 :: 陶器 陶瓷 · 漆器 漆器 · 染物 染色织物 · 金箔 金箔。
+  content34.py: entries=4 :: 延長 延长赛 · 逆転 逆转 · 同点 平分 · 優勝率 夺冠率。
+  content34.py: entries=3 :: 総括 总结 · 締め切り 截稿 · 確認する 核实。
+  content56.py: entries=4 :: 罰金 罚款 · 像 雕像 · 仮装 变装 · 守る 遵守。
+  content56.py: entries=3 :: 祭り 节日 · 週末 周末 · 話題 话题。
+  content56.py: entries=4 :: 予算 预算 · 満足 满足 · 観測 观测 · 追いかける 追赶。
+
+Source gloss() strings in ED build:
+  content12.py: entries=4 :: 祝日 jour férié · 見頃 le meilleur moment · 暦 calendrier · お届けします vous apporter.
+  content12.py: entries=4 :: 蒸す cuire à la vapeur · 並ぶ apparaître en rayon · 食卓 la table du dîner · 超える dépasser.
+  content12.py: entries=5 :: 予報 prévisions · 平年 une année moyenne · 季節風 vent saisonnier · 話題 sujet · 値上がり hausses de prix.
+  content34.py: entries=4 :: 市場 marché · 工芸 artisanat · 光 lumière · 楽しむ apprécier.
+  content34.py: entries=4 :: 陶器 poterie · 漆器 laque · 染物 textiles teints · 金箔 feuille d'or.
+  content34.py: entries=4 :: 延長 manches supplémentaires · 逆転 retournement · 同点 égalité · 優勝率 taux de titre.
+  content34.py: entries=3 :: 総括 bilan · 締め切り date limite · 確認する vérifier.
+  content56.py: entries=4 :: 罰金 amende · 像 statue · 仮装 déguisement · 守る respecter.
+  content56.py: entries=3 :: 祭り fête · 週末 week-end · 話題 sujet.
+  content56.py: entries=4 :: 予算 budget · 満足 satisfaction · 観測 observation · 追いかける poursuivre.

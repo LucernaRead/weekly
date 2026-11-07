@@ -1,0 +1,34 @@
+P1: removed-NC fragments=22 distinct removed words=81 total tokens=119 MISSING=NONE — every removed word still present at >= removed count in edition page text
+  removed word multiset sample: [('les', 6), ('le', 5), ('de', 5), ('samedi', 4), ('la', 4), ('en', 4), ('du', 3), ('et', 3), ('novembre', 3), ('finales', 3)]
+P8: removed-NC fragments=33 distinct removed words=126 total tokens=210 MISSING={'traduisez': (1, 0)}
+  removed word multiset sample: [('le', 9), ('les', 8), ('à', 5), ('soir', 4), ('a', 4), ('la', 4), ('elle', 4), ('pour', 4), ('novembre', 4), ('on', 4)]
+
+=== REG 130-150 (from scratch REG dump) ===
+130 p8 A2 Completar key= 'Les élèves vont reprendre les cours lundi.' note= 'aller + infinitivo (futur proche)'
+131 p8 B2 Completar key= 'Si tu venais samedi, tu verrais la nocturne.' note= 'si + imparfait (venais)'
+132 p8 B1 Completar key= 'Elle a goûté les coquilles à Port-en-Bessin.' note= 'passé composé: a + participio'
+133 p8 B2 Completar key= 'Selon moi, les finales sont excitantes.' note= 'selon moi = en mi opinión'
+134 p8 B1 Completar key= 'Il est prévu que le Sénat examine le texte lundi.' note= 'il est prévu que + subjuntivo'
+135 p8 B2 Traducir key= 'Leer un programa ya es entender Francia.' note= 'lire un programme = leer un programa'
+136 p8 A2 Traducir key= 'Il court plus vite que son frère.' note= 'Comparativo: plus vite + court'
+137 p8 B1 Traducir key= 'Les élèves sont en vacances depuis le 17 octobre.' note= 'être en vacances + depuis'
+138 p8 B1 Traducir key= 'Ce soir, nous allons préparer nos cartables.' note= 'futur proche + préparer'
+139 p8 B2 Traducir key= 'On ne connaît pas encore les finalistes.' note= 'ne...pas encore = todavía no'
+140 p8 B1 Emparejar key= 'a' note= 'tournoi=torneo a'
+141 p8 B1 Emparejar key= 'b' note= 'nocturne=evento nocturno b'
+142 p8 B1 Emparejar key= 'c' note= 'budget=presupuesto c'
+143 p8 B1 Emparejar key= 'd' note= 'coquille=vieira d'
+144 p8 B1 Emparejar key= 'e' note= 'festival=festival e'
+145 p8 A2 Completar diálogo key= 'samedi' note= 'El 7 de noviembre es sábado'
+146 p8 A2 Completar diálogo key= 'coquilles (des coquilles Saint-Jacques)' note= 'Comprar vieiras en el mercado'
+147 p8 B1 Completar diálogo key= 'goûter' note= 'goûter = probar (infinitivo)'
+148 p8 A2 Completar diálogo key= 'recette' note= 'à la portaise es una forma de prepararlas'
+149 p8 A2 Completar diálogo key= 'week-end' note= 'Bon week-end ! = ¡Buen fin de semana!'
+150 p8 B1 Escribir key= 'Pregunta abierta — los puntos están en el recuadro de escritura y el modelo, en el recuadro MODÈLE de esta página' note= 'se puntúa según los puntos'
+
+=== REG 135-139 detail + E stems search in edition ===
+{'n': 135, 'page': 8, 'level': 'B2', 'type': 'Traducir', 'key': 'Leer un programa ya es entender Francia.', 'note': 'lire un programme = leer un programa'}
+{'n': 136, 'page': 8, 'level': 'A2', 'type': 'Traducir', 'key': 'Il court plus vite que son frère.', 'note': 'Comparativo: plus vite + court'}
+{'n': 137, 'page': 8, 'level': 'B1', 'type': 'Traducir', 'key': 'Les élèves sont en vacances depuis le 17 octobre.', 'note': 'être en vacances + depuis'}
+{'n': 138, 'page': 8, 'level': 'B1', 'type': 'Traducir', 'key': 'Ce soir, nous allons préparer nos cartables.', 'note': 'futur proche + préparer'}
+{'n': 139, 'page': 8, 'level': 'B2', 'type': 'Traducir', 'key': 'On ne connaît pas encore les finalistes.', 'note': 'ne...pas encore = todavía no'}

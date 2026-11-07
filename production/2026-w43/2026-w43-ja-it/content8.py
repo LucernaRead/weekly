@@ -1,0 +1,135 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-it/svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P8 · テストと答え =================
+CURPAGE[0] = 8
+p = BSPage4()
+p.band("テストと答え · Test e risposte", "Lucerna", "第 8 面 · 週の大きなテスト + 全ての答え")
+
+f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
+f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.ex("B1", "cloze", "A", "Gara 1 è sabato 24 ottobre",
+     "日本シリーズの第1戦は、10月24日（___）です。(A. 土よう日 · B. 日よう日)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "Anche i Giochi Para-Asiatici finiscono il 24",
+     "アジアパラ競技大会の最終日も、___ 日です。(A. 24 · B. 25)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "Il Jidai Matsuri è stato giovedì 22 ottobre",
+     "時代祭は、10月 ___ 日（木）でした。(A. 22 · B. 24)", size=13.8, gap=0)
+f.ex("B1", "cloze", "B", "Vendita generale: il 22 alle 12",
+     "日本シリーズのチケットの一般発売は、___ 日12時でした。(A. 20 · B. 22)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "L'Irohazaka ha il picco da venerdì 23",
+     "日光のいろは坂の見頃は、___ 日（金）からです。(A. 23 · B. 15)", size=13.8, gap=0)
+f.ex("B1", "cloze", "B", "Il totale dei Geraldon: 1.342 punti",
+     "ジェラードンの合計点は、___ 点でした。(A. 671 · B. 1,342)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "La Settimana della Lettura comincia martedì 27 ottobre",
+     "読書週間は、10月 ___ 日（火）からです。(A. 27 · B. 31)", size=13.8, gap=0)
+f.ex("B1", "cloze", "B", "Halloween è sabato 31 ottobre",
+     "ハロウィンは、10月 ___ 日（土）です。(A. 30 · B. 31)", size=13.8, gap=0)
+f.head("B · 一般問題", 21, OLIVE, 5)
+f.ex("A2", "scelta multipla", "B", "45 paesi e regioni partecipanti",
+     "アジアパラ競技大会に参加した国と地域は？ A. 18 · B. 45 · C. 282", size=13.8, gap=0)
+f.ex("A2", "scelta multipla", "A", "282 atleti giapponesi",
+     "日本の選手は何人でしたか。 A. 282人 · B. 120人 · C. 17人", size=13.8, gap=0)
+f.ex("B1", "scelta multipla", "A", "Il tempo della Toyo: 10h 31m 30s",
+     "予選会で1位の東洋大学のタイムは？ A. 10時間31分30秒 · B. 1分46秒 · C. 9時間31分", size=13.8, gap=0)
+f.ex("B1", "scelta multipla", "B", "1m 46s = 106 secondi",
+     "法政大学は国士舘大学より何秒速かったですか。 A. 33秒 · B. 106秒 · C. 46秒", size=13.8, gap=0)
+f.ex("A2", "scelta multipla", "C", "Le recensioni sui mochi: +168%",
+     "『餅』の口コミは何%増えましたか。 A. 82% · B. 84% · C. 168%", size=13.8, gap=0)
+f.ex("B1", "scelta multipla", "A", "Multa per i rifiuti: 2.000 yen",
+     "渋谷でゴミを捨てた時の罰金は？ A. 2,000円 · B. 1,000万円 · C. 900円", size=13.8, gap=0)
+f.ex("A2", "scelta multipla", "B", "La mostra dello Shosoin dura fino al 9 novembre",
+     "正倉院展はいつまでですか。 A. 11月1日 · B. 11月9日 · C. 10月31日", size=13.8, gap=0)
+f.ex("B1", "scelta multipla", "C", "SoftBank: 91 vittorie in stagione",
+     "ソフトバンクのレギュラーシーズンの勝ち数は？ A. 71 · B. 49 · C. 91", size=13.8, gap=0)
+f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.para("ケンは大学生です。今週の土よう日、横浜スタジアムで日本シリーズの第1戦があります。ケンはチケットを買うことができませんでしたから、テレビで応援します。日よう日は、奈良の正倉院展へ行くつもりです。来週の読書週間には、図書館で本を3冊借りたいと思っています。", 15, lh=1.3, split=False)
+f.ex("A2", "scelta multipla", "B", "Ken tifa da casa davanti alla TV",
+     "ケンは土よう日に何をしますか。 A. スタジアムへ行く · B. テレビで応援する · C. 奈良へ行く", size=13.8, gap=0)
+f.ex("A2", "scelta multipla", "B", "Non è riuscito a comprare il biglietto",
+     "ケンはなぜスタジアムへ行きませんか。 A. 時間がない · B. チケットが買えなかった · C. 雨だった", size=13.8, gap=0)
+f.ex("A2", "scelta multipla", "A", "Domenica: la mostra dello Shosoin",
+     "日よう日の予定は？ A. 正倉院展 · B. 図書館 · C. ハロウィン", size=13.8, gap=0)
+f.ex("B1", "scelta multipla", "B", "Per la Settimana della Lettura vuole tre libri",
+     "読書週間に借りたい本は？ A. 2冊 · B. 3冊 · C. 9冊", size=13.8, gap=0)
+f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.ex("A2", "costruzione di frasi", "私は土よう日に試合を見ます。", "Soggetto + tempo + complemento + verbo",
+     "私は / 土よう日に / 試合を見ます → ___", instr="Costruisci la frase", size=13.8, gap=0)
+f.ex("A2", "costruzione di frasi", "紅葉は今週末が見頃です。", "見頃 = il periodo di massima bellezza",
+     "紅葉は / 今週末が / 見頃です → ___", instr="Costruisci la frase", size=13.8, gap=0)
+f.ex("B1", "costruzione di frasi", "図書館で本を借ります。", "Il luogo dell'azione prende «で»",
+     "図書館で / 本を / 借ります → ___", instr="Costruisci la frase", size=13.8, gap=0)
+f.ex("B1", "costruzione di frasi", "ジェラードンは1,342点で優勝しました。", "Punti + で + 優勝",
+     "ジェラードンは / 1,342点で / 優勝しました → ___", instr="Costruisci la frase", size=13.8, gap=0)
+f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.ex("A2", "traduzione", "La processione parte dal Kyoto Gyoen alle 12.", "Vedi pagina 3",
+     "行列は京都御苑を12時に出発します。 → ___", instr="Traduci in italiano", size=13.8, gap=0)
+f.ex("B1", "traduzione", "Se butti i rifiuti, la multa è di 2.000 yen.", "Vedi pagina 5",
+     "ゴミを捨てると、2,000円の罰金です。 → ___", instr="Traduci in italiano", size=13.8, gap=0)
+f.ex("B1", "traduzione", "読書週間は来週の火よう日から始まります。", "Vedi pagina 7",
+     "La Settimana della Lettura comincia martedì prossimo. → ___", instr="Traduci in giapponese", size=13.8, gap=0)
+f.ex("B2", "traduzione", "私は池袋のハロウィンのイベントに行きたいです。", "Vedi pagina 5 (l'evento di Ikebukuro)",
+     "Vorrei andare all'evento di Halloween di Ikebukuro. → ___", instr="Traduci in giapponese", size=13.8, gap=0)
+f.head("F · 今週のことば", 21, OLIVE, 5)
+f.match_set("B2", "abbinamento",
+            ["見頃", "福袋", "行列", "勝率"],
+            ["勝った割合（.650など）",
+             "花や紅葉がいちばん美しい時",
+             "中身が見えない本のセット",
+             "昔の服を着た人の列"],
+            ["b", "c", "d", "a"],
+            ["見頃 = il periodo di massima bellezza (b)", "福袋 = un set dal contenuto nascosto (c)", "行列 = un corteo (d)", "勝率 = percentuale di vittorie (a)"],
+            instr="Abbina parole e significati")
+f.head("G · 図書館で", 21, OLIVE, 5)
+f.ex("B1", "cloze", "A", "見せてください = per favore, mi mostri",
+     "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "借りられます = poter prendere in prestito (forma potenziale)",
+     "— 3冊、___ か。 (A. 借りられます · B. 借りますた)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "La Settimana della Lettura comincia martedì (pagina 7)",
+     "— いつ返しますか。— 読書週間が始まる ___ に返します。(A. 火よう日 · B. 土よう日)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "I fukubukuro di libri sono molto popolari",
+     "— おすすめはありますか。— 『本の ___ 』が人気です。(A. 福袋 · B. 行列)", size=13.8, gap=0)
+f.ex("B1", "cloze", "A", "どういたしまして = prego, di niente",
+     "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
+f.head("H · 書いてみましょう", 21, OLIVE, 5)
+MODELO = ("私の秋の週末は、スポーツと読書の週末です。"
+          "土よう日は、友達と家で日本シリーズを見ます。私はDeNAを応援します。"
+          "試合の後は、近くの公園へ紅葉を見に行きます。"
+          "日よう日は、図書館で借りた本を読みます。"
+          "読書週間も始まりますから、静かな場所で大きな冒険をしたいです。"
+          "秋は短いですが、楽しいことが多い季節です。")
+NCHARS = len(MODELO.replace(" ", ""))
+f.expl(f"Compito di scrittura (senza un'unica risposta giusta); il testo modello ({NCHARS} caratteri) è qui sotto.")
+f.ex("B1", "scrittura", "(compito aperto — testo modello qui sotto)", f"Testo modello nella sezione H di questa pagina ({NCHARS} caratteri)",
+     "『私の秋の週末』について、150〜200字で書いてください。スポーツ、紅葉、読書の中から一つ選んでください。", instr="Scrivi", size=13.8, gap=0)
+f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
+f.end_report()
+
+# ================= 答え =================
+p.hline(MX, RIGHT, 1264, GOLD, 2)
+p.text(MX, 1302, "答え · Risposte — raggruppate per pagina: basta cercare il numero", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Una breve nota in italiano per ogni risposta · ✓ = la domanda con il testo modello", 19.5, "sans", False, GREY, anchor="end")
+by_page = {}
+for e_ in REG:
+    by_page.setdefault(e_["page"], []).append(e_)
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+for pg in sorted(by_page):
+    af.para(f"— Pagina {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+    for e_ in by_page[pg]:
+        txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
+        if e_["type"] == "scrittura":
+            txt = f"{e_['n']}. ✓ {e_['note']}"
+        af.para(txt, 13.3, lh=1.16, gap=0.5, split=False)
+af.end_report()
+p.foot(8)
+p.save(f"{OUT}/p8-tesuto.svg")
+print("P8 saved, TOTAL exercises:", len(REG))
+from collections import Counter
+print("by level", dict(Counter(e["level"] for e in REG)))
+print("by page", dict(sorted(Counter(e["page"] for e in REG).items())))
+print("by type", dict(Counter(e["type"] for e in REG)))
+print("model chars:", NCHARS)

@@ -1,0 +1,40 @@
+PT phrases: 8 core phrases: 0
+PT phrase Chinese == core phrase Chinese: False
+PT page tags: ['Página 1', 'Página 2', 'Página 2', 'Página 3', 'Página 4', 'Página 4', 'Página 5', 'Página 5'] core page tags: []
+  「不用等11月11日」 Página 1: in-articles-contiguous=True
+  「下单就能发货」 Página 2: in-articles-contiguous=True
+  「先看结算页,再付款」 Página 2: in-articles-contiguous=True
+  「水开始结冰」 Página 3: in-articles-contiguous=True
+  「三场都输了」 Página 4: in-articles-contiguous=True
+  「小局一场没赢」 Página 4: in-articles-contiguous=True
+  「故事够不够好」 Página 5: in-articles-contiguous=True
+  「别以后,就现在」 Página 5: in-articles-contiguous=True
+  rendered P7: 「不用等11月11日」 present=True | tag (Página 1) present=True | PT transl present=True
+  rendered P7: 「下单就能发货」 present=True | tag (Página 2) present=True | PT transl present=True
+  rendered P7: 「先看结算页,再付款」 present=False | tag (Página 2) present=True | PT transl present=True
+  rendered P7: 「水开始结冰」 present=True | tag (Página 3) present=True | PT transl present=True
+  rendered P7: 「三场都输了」 present=True | tag (Página 4) present=True | PT transl present=True
+  rendered P7: 「小局一场没赢」 present=True | tag (Página 4) present=True | PT transl present=True
+  rendered P7: 「故事够不够好」 present=True | tag (Página 5) present=True | PT transl present=True
+  rendered P7: 「别以后,就现在」 present=False | tag (Página 5) present=True | PT transl present=True
+B1 glossline core: b.glossline("So English «Saturday evening, Nov 7» becomes 11月7日星期六晚上.")
+B1 glossline PT: b.glossline("Assim, «sábado à noite, 7 de novembro» vira 11月7日星期六晚上.")
+  date-order line core: b.para("Chinese gives times big → small: year, month, day, weekday, part of day, hour. Examples from this issue: 「11月7日星期六17点52分」 (Sat Nov 7, 17:52), 「11月10日星期二20点」 (Tue Nov 10, 20:00), 「11月15日凌晨3点」 (
+  date-order line core: b.glossline("So English «Saturday evening, Nov 7» becomes 11月7日星期六晚上.")
+  date-order line core: "哪个顺序对? A. 11月7日星期六17点52分 · B. 17点52分星期六11月7日 · C. 星期六17点52分11月7日", size=20.5, gap=10)
+  date-order line core: "11月7日是星期六,也可以说___。立冬在这天。", instr="Fill in", size=20.5, gap=10)
+  date-order line core: ("「立冬在星期六十一月七日」", "→ 「立冬在11月7日,星期六。」", "Times go big → small: weekday last."),
+  date-order line PT: b.para("O chinês dá os horários do maior para o menor: ano, mês, dia, dia da semana, parte do dia, hora. Exemplos desta edição: 「11月7日星期六17点52分」 (sáb. 7 de nov., 17h52), 「11月10日星期二20点」 (ter. 10 de nov
+  date-order line PT: b.glossline("Assim, «sábado à noite, 7 de novembro» vira 11月7日星期六晚上.")
+  date-order line PT: "哪个顺序对? A. 11月7日星期六17点52分 · B. 17点52分星期六11月7日 · C. 星期六17点52分11月7日", size=20.5, gap=10)
+  date-order line PT: "11月7日是星期六,也可以说___。立冬在这天。", instr="Complete", size=20.5, gap=10)
+  date-order line PT: ("「立冬在星期六十一月七日」", "→ 「立冬在11月7日,星期六。」", "Maior → menor: dia da semana por último."),
+PT disclosure+invitation in content7: True
+  full text: Exemplo da redação — não é uma carta de verdade. O VOL.1 prometeu cartas verdadeiras dos leitores e o melhor texto do VOL.1 neste VOL.2; até agora nenhuma carta chegou e não há texto publicável, por isso este cantinho ainda traz um exemplo da redação. Adiado, não cancelado. Escreva-nos! Envie a sua carta em chinês — duas frases já bastam — e ela pode sair no próximo número."
+invitation verbatim in PT content7: True
+invitation verbatim in delivered P7 SVG (as rendered lines joined): True
+disclosure-region nodes (x<1000, col3 area): 1
+   y=336.86 x=527.0 parte do dia, hora. Exemplos desta
+distinct disclosure baselines: [336.86]
+P6 chart-label element check core: later-rect overlaps on text ink: 0
+P6 chart-label element check ed: later-rect overlaps on text ink: 0

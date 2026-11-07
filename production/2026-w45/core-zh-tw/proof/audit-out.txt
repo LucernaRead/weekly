@@ -1,0 +1,20 @@
+S2T diffs total: 81
+   ('台', '臺') 51 [('p1-front.svg', '繁體中文版 · VOL.2 · 2026年11月2日（一）至11月8日（日） ·')]
+   ('吃', '喫') 26 [('p2-life.svg', '在這一天吃一頓熱的，幫身體「進')]
+   ('表', '錶') 3 [('p5-youth.svg', '旅展青年攻略：先看表演，')]
+   ('群', '羣') 1 [('p5-youth.svg', 'd. 拍照標記地點、分享到社群')]
+S2T variant pairs (full inventory above).
+KINSOKU line-start closer violations: 50 [('p1-front.svg', '· 週一 11/2 香港金融科技週開幕'), ('p1-front.svg', '· 週二 11/3 金融科技週主會議第二天'), ('p1-front.svg', '· 週五 11/6 台北國際旅展開幕 12:00'), ('p1-front.svg', '· 週六 11/7 立冬，冬天要來了'), ('p1-front.svg', '· 週日 11/8 旅展第三天；吉祥物大遊行'), ('p1-front.svg', '· 上週回顧：10/26 味全龍封王；福隆'), ('p1-front.svg', '· 上週回顧：美酒佳餚巡禮 11/1 落幕'), ('p2-life.svg', '· 週六 11/7：立冬，冬天開始'), ('p2-life.svg', '· 旅展：11/6（五）到11/9（一），南港'), ('p2-life.svg', '· 金融科技週：11/2（一）到11/6')]
+KINSOKU line-end opener violations: 0 []
+ASCII line-start hits: 0 []
+p1-front.svg same-baseline collisions: 0 []
+p2-life.svg same-baseline collisions: 0 []
+p3-culture.svg same-baseline collisions: 0 []
+p4-sport.svg same-baseline collisions: 0 []
+p5-youth.svg same-baseline collisions: 0 []
+p6-deep.svg same-baseline collisions: 0 []
+p7-lang.svg same-baseline collisions: 0 []
+p8-test.svg same-baseline collisions: 0 []
+TOTAL same-baseline collisions: 0
+Redline scan done (unlisted terms = 0).
+Hard simplified-only char hits (curated unambiguous set): {}

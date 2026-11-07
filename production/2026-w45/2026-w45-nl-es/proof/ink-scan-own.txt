@@ -1,0 +1,102 @@
+
+===== CORE P1 contents rows: true-ink same-baseline gaps =====
+ y=1396.0:
+   ink=(1473.0, 1380.5, 1535.0, 1401.2) text='Pag. 2'
+   ink=(1539.0, 1379.8, 1812.8, 1401.2) text='Klimaatweek, stap voor stap'
+   ink=(1840.6, 1382.8, 1863.1, 1396.0) text='A2'
+   gap 'Pag. 2' -> 'Klimaatweek, stap voor stap': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Klimaatweek, stap voor stap' -> 'A2': ink_gap=27.8 (overlap=-27.8 if >0)
+ y=1436.0:
+   ink=(1473.0, 1420.5, 1535.0, 1441.2) text='Pag. 3'
+   ink=(1539.0, 1419.8, 1799.5, 1441.5) text='Musea bij nacht en boeken'
+   ink=(1799.7, 1422.8, 1863.0, 1436.0) text='A2→B1'
+   gap 'Pag. 3' -> 'Musea bij nacht en boeken': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Musea bij nacht en boeken' -> 'A2→B1': ink_gap=0.2 (overlap=-0.2 if >0)
+ y=1476.0:
+   ink=(1473.0, 1460.5, 1535.0, 1481.2) text='Pag. 4'
+   ink=(1539.0, 1459.8, 1791.0, 1481.2) text='Voetbal: Europa, ronde 12'
+   ink=(1840.1, 1462.8, 1863.1, 1476.0) text='B1'
+   gap 'Pag. 4' -> 'Voetbal: Europa, ronde 12': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Voetbal: Europa, ronde 12' -> 'B1': ink_gap=49.1 (overlap=-49.1 if >0)
+ y=1516.0:
+   ink=(1473.0, 1500.5, 1535.0, 1521.2) text='Pag. 5'
+   ink=(1539.0, 1499.8, 1822.0, 1521.5) text='Robinson, ADE, DDW voorbij'
+   ink=(1840.1, 1502.8, 1863.1, 1516.0) text='B1'
+   gap 'Pag. 5' -> 'Robinson, ADE, DDW voorbij': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Robinson, ADE, DDW voorbij' -> 'B1': ink_gap=18.1 (overlap=-18.1 if >0)
+ y=1556.0:
+   ink=(1473.0, 1540.5, 1535.0, 1561.2) text='Pag. 6'
+   ink=(1539.0, 1539.8, 1766.0, 1556.2) text='De codes van het KNMI'
+   ink=(1840.1, 1542.8, 1863.1, 1556.0) text='B2'
+   gap 'Pag. 6' -> 'De codes van het KNMI': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'De codes van het KNMI' -> 'B2': ink_gap=74.1 (overlap=-74.1 if >0)
+ y=1596.0:
+   ink=(1473.0, 1580.5, 1535.0, 1601.2) text='Pag. 7'
+   ink=(1539.0, 1579.8, 1752.0, 1596.2) text='Woorden van de week'
+   ink=(1799.7, 1582.8, 1863.0, 1596.0) text='A2→B2'
+   gap 'Pag. 7' -> 'Woorden van de week': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Woorden van de week' -> 'A2→B2': ink_gap=47.7 (overlap=-47.7 if >0)
+ y=1636.0:
+   ink=(1473.0, 1620.5, 1535.0, 1641.2) text='Pag. 8'
+   ink=(1539.0, 1619.8, 1804.0, 1641.2) text='Oefeningen en antwoorden'
+   ink=(1830.6, 1621.5, 1863.1, 1636.2) text='alle'
+   gap 'Pag. 8' -> 'Oefeningen en antwoorden': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Oefeningen en antwoorden' -> 'alle': ink_gap=26.6 (overlap=-26.6 if >0)
+
+===== ED P1 contents rows: true-ink same-baseline gaps =====
+ y=1396.0:
+   ink=(1473.0, 1380.5, 1535.0, 1401.2) text='Pag. 2'
+   ink=(1539.0, 1379.8, 1812.8, 1401.2) text='Klimaatweek, stap voor stap'
+   ink=(1840.6, 1382.8, 1863.1, 1396.0) text='A2'
+   gap 'Pag. 2' -> 'Klimaatweek, stap voor stap': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Klimaatweek, stap voor stap' -> 'A2': ink_gap=27.8 (overlap=-27.8 if >0)
+ y=1436.0:
+   ink=(1473.0, 1420.5, 1535.0, 1441.2) text='Pag. 3'
+   ink=(1539.0, 1419.8, 1799.5, 1441.5) text='Musea bij nacht en boeken'
+   ink=(1799.7, 1422.8, 1863.0, 1436.0) text='A2→B1'
+   gap 'Pag. 3' -> 'Musea bij nacht en boeken': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Musea bij nacht en boeken' -> 'A2→B1': ink_gap=0.2 (overlap=-0.2 if >0)
+ y=1476.0:
+   ink=(1473.0, 1460.5, 1535.0, 1481.2) text='Pag. 4'
+   ink=(1539.0, 1459.8, 1791.0, 1481.2) text='Voetbal: Europa, ronde 12'
+   ink=(1840.1, 1462.8, 1863.1, 1476.0) text='B1'
+   gap 'Pag. 4' -> 'Voetbal: Europa, ronde 12': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Voetbal: Europa, ronde 12' -> 'B1': ink_gap=49.1 (overlap=-49.1 if >0)
+ y=1516.0:
+   ink=(1473.0, 1500.5, 1535.0, 1521.2) text='Pag. 5'
+   ink=(1539.0, 1499.8, 1822.0, 1521.5) text='Robinson, ADE, DDW voorbij'
+   ink=(1840.1, 1502.8, 1863.1, 1516.0) text='B1'
+   gap 'Pag. 5' -> 'Robinson, ADE, DDW voorbij': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Robinson, ADE, DDW voorbij' -> 'B1': ink_gap=18.1 (overlap=-18.1 if >0)
+ y=1556.0:
+   ink=(1473.0, 1540.5, 1535.0, 1561.2) text='Pag. 6'
+   ink=(1539.0, 1539.8, 1766.0, 1556.2) text='De codes van het KNMI'
+   ink=(1840.1, 1542.8, 1863.1, 1556.0) text='B2'
+   gap 'Pag. 6' -> 'De codes van het KNMI': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'De codes van het KNMI' -> 'B2': ink_gap=74.1 (overlap=-74.1 if >0)
+ y=1596.0:
+   ink=(1473.0, 1580.5, 1535.0, 1601.2) text='Pag. 7'
+   ink=(1539.0, 1579.8, 1752.0, 1596.2) text='Woorden van de week'
+   ink=(1799.7, 1582.8, 1863.0, 1596.0) text='A2→B2'
+   gap 'Pag. 7' -> 'Woorden van de week': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Woorden van de week' -> 'A2→B2': ink_gap=47.7 (overlap=-47.7 if >0)
+ y=1636.0:
+   ink=(1473.0, 1620.5, 1535.0, 1641.2) text='Pag. 8'
+   ink=(1539.0, 1619.8, 1804.0, 1641.2) text='Oefeningen en antwoorden'
+   ink=(1830.6, 1621.5, 1863.1, 1636.2) text='alle'
+   gap 'Pag. 8' -> 'Oefeningen en antwoorden': ink_gap=4.0 (overlap=-4.0 if >0)
+   gap 'Oefeningen en antwoorden' -> 'alle': ink_gap=26.6 (overlap=-26.6 if >0)
+
+===== P6 chart: baseline-anchored true ink (occlusion ink_box, getmetrics ascent) =====
+CORE bars: [('304', '180'), ('362', '100'), ('420', '80'), ('478', '40')]
+CORE x=1473 texts: [(242.0, 'Noto Sans CJK SC', 24.0, 'DE GRAFIEK · 图表（练习数据）'), (294.0, 'Noto Serif CJK SC', 19.5, 'Ik blijf thuis'), (352.0, 'Noto Serif CJK SC', 19.5, 'Ik kijk eerst naar de tekst'), (410.0, 'Noto Serif CJK SC', 19.5, 'Ik ga toch naar buiten'), (468.0, 'Noto Serif CJK SC', 19.5, 'Ik weet het niet'), (539.0, 'Noto Serif CJK SC', 19.0, 'OEFENDATA — verzonnen cijfers om mee'), (564.84, 'Noto Serif CJK SC', 19.0, 'te oefenen, geen echte enquête. Vraag:'), (590.6800000000001, 'Noto Serif CJK SC', 19.0, 'wat doe jij bij code oranje? (100 jongeren)'), (635.0200000000001, 'Noto Sans CJK SC', 18.5, '练习数据：虚构数字，仅供练习，非真实调查。'), (659.44, 'Noto Sans CJK SC', 18.5, '问题：橙色预警时你会怎么做？（100 名年轻人'), (683.86, 'Noto Sans CJK SC', 18.5, '）'), (759.0, 'Noto Sans CJK SC', 21.0, 'VOOR OF TEGEN? · 正方还是反方'), (806.0, 'Noto Serif CJK SC', 21.0, 'Voor lokaal: alleen wie het treft,'), (835.4, 'Noto Serif CJK SC', 21.0, 'wordt gewaarschuwd.'), (893.8, 'Noto Serif CJK SC', 21.0, 'Tegen lokaal: de buurstad heeft een'), (923.1999999999999, 'Noto Serif CJK SC', 21.0, 'andere kleur — verwarrend.'), (981.5999999999999, 'Noto Serif CJK SC', 21.0, 'De krant kiest niet: lees de tekst bij de'), (1010.9999999999999, 'Noto Serif CJK SC', 21.0, 'code, niet alleen de kleur. En jij?')]
+  label 'Ik blijf thuis' baseline=294.0 ink_box=(1473.0, 278.0, 1590.0, 299.25) bar_top=304 clearance=4.75 coverage=0.0%
+  label 'Ik kijk eerst naar de tekst' baseline=352.0 ink_box=(1473.0, 336.25, 1712.5, 357.25) bar_top=362 clearance=4.75 coverage=0.0%
+  label 'Ik ga toch naar buiten' baseline=410.0 ink_box=(1473.0, 394.25, 1682.0, 415.0) bar_top=420 clearance=5.00 coverage=0.0%
+  label 'Ik weet het niet' baseline=468.0 ink_box=(1473.0, 452.25, 1620.0, 468.25) bar_top=478 clearance=9.75 coverage=0.0%
+ED bars: [('304', '180'), ('362', '100'), ('420', '80'), ('478', '40')]
+ED x=1473 texts: [(242.0, 'Noto Sans CJK SC', 24.0, 'DE GRAFIEK · EL GRÁFICO'), (294.0, 'Noto Serif CJK SC', 19.5, 'Ik blijf thuis'), (352.0, 'Noto Serif CJK SC', 19.5, 'Ik kijk eerst naar de tekst'), (410.0, 'Noto Serif CJK SC', 19.5, 'Ik ga toch naar buiten'), (468.0, 'Noto Serif CJK SC', 19.5, 'Ik weet het niet'), (539.0, 'Noto Serif CJK SC', 19.0, 'OEFENDATA — verzonnen cijfers om mee'), (564.84, 'Noto Serif CJK SC', 19.0, 'te oefenen, geen echte enquête. Vraag:'), (590.6800000000001, 'Noto Serif CJK SC', 19.0, 'wat doe jij bij code oranje? (100 jongeren)'), (635.0200000000001, 'Noto Sans CJK SC', 18.5, 'Datos de práctica: cifras inventadas, solo'), (659.44, 'Noto Sans CJK SC', 18.5, 'para practicar, no una encuesta real.'), (683.86, 'Noto Sans CJK SC', 18.5, 'Pregunta: ¿qué haces tú con el código'), (708.28, 'Noto Sans CJK SC', 18.5, 'naranja? (100 jóvenes)'), (785.0, 'Noto Sans CJK SC', 21.0, 'VOOR OF TEGEN? · PROS Y CONTRAS'), (832.0, 'Noto Serif CJK SC', 21.0, 'Voor lokaal: alleen wie het treft,'), (861.4, 'Noto Serif CJK SC', 21.0, 'wordt gewaarschuwd.'), (919.8, 'Noto Serif CJK SC', 21.0, 'Tegen lokaal: de buurstad heeft een'), (949.1999999999999, 'Noto Serif CJK SC', 21.0, 'andere kleur — verwarrend.'), (1007.5999999999999, 'Noto Serif CJK SC', 21.0, 'De krant kiest niet: lees de tekst bij de'), (1037.0, 'Noto Serif CJK SC', 21.0, 'code, niet alleen de kleur. En jij?')]
+  label 'Ik blijf thuis' baseline=294.0 ink_box=(1473.0, 278.0, 1590.0, 299.25) bar_top=304 clearance=4.75 coverage=0.0%
+  label 'Ik kijk eerst naar de tekst' baseline=352.0 ink_box=(1473.0, 336.25, 1712.5, 357.25) bar_top=362 clearance=4.75 coverage=0.0%
+  label 'Ik ga toch naar buiten' baseline=410.0 ink_box=(1473.0, 394.25, 1682.0, 415.0) bar_top=420 clearance=5.00 coverage=0.0%
+  label 'Ik weet het niet' baseline=468.0 ink_box=(1473.0, 452.25, 1620.0, 468.25) bar_top=478 clearance=9.75 coverage=0.0%

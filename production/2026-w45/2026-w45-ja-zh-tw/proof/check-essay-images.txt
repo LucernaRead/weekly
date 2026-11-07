@@ -1,0 +1,147 @@
+=== P7 footer raw ===
+core {'t': '来週 · 下期预告 (VOL.3)', 'x': 93.0, 'y': 2438.08, 'fam': 'Noto Sans CJK JP', 'size': 24.0}
+core {'t': '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！', 'x': 93.0, 'y': 2478.08, 'fam': 'Noto Serif CJK JP', 'size': 21.0}
+core {'t': 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY', 'x': 65.0, 'y': 2624.0, 'fam': 'Noto Sans CJK JP', 'size': 20.0}
+core {'t': '第 7 版 / 共 8 版', 'x': 1885.0, 'y': 2624.0, 'fam': 'Noto Sans CJK JP', 'size': 20.0}
+edition {'t': '来週 · 下期預告 (VOL.3)', 'x': 93.0, 'y': 2438.08, 'fam': 'Noto Sans CJK TC', 'size': 24.0}
+edition {'t': '読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！', 'x': 93.0, 'y': 2478.08, 'fam': 'Noto Serif CJK JP', 'size': 21.0}
+edition {'t': 'Lucerna · 日語週報 VOL.2 · 正文日語 · 講解繁體中文', 'x': 65.0, 'y': 2624.0, 'fam': 'Noto Sans CJK TC', 'size': 20.0}
+edition {'t': '第 7 版 / 共 8 版', 'x': 1885.0, 'y': 2624.0, 'fam': 'Noto Sans CJK JP', 'size': 20.0}
+=== phrase3 inner brackets in article page P2 ===
+core ['レベル A2 · ゆる整え食と暖かい11月 · 轻松食养与暖和的11月', '「ゆる整え食」— 無理を', 'ゆる整え食』を発表しました。『ゆ', '『ゆる整え食』の食べ物は、せいろで', 'ゆる整え食の数字', 'ゆる整え食の4つの言葉 · 关于轻松食养的四个词', 'ゆる', '文で覚えましょう：『ゆる整え食で、体を整えましょう。』', '『ゆる』の意味は？ A. 速い · B. 無理をしない · C.', '25. ゆる']
+edition ['レベル A2 · ゆる整え食と暖かい11月 · 輕鬆食養與暖和的11月', '「ゆる整え食」— 無理を', 'ゆる整え食』を発表しました。『ゆ', '『ゆる整え食』の食べ物は、せいろで', 'ゆる整え食の数字', 'ゆる整え食の4つの言葉 · 關於輕鬆食養的四個詞', 'ゆる', '文で覚えましょう：『ゆる整え食で、体を整えましょう。』', '『ゆる』の意味は？ A. 速い · B. 無理をしない · C.', '25. ゆる']
+=== P7 freeze added/removed (from freeze.json) ===
+added:
+  + {'text': 'Lucerna · 日語週報 VOL.2 · 正文日語 · 講解繁體中文', 'count': 1}
+  + {'text': '〜倍 倍 · 〜% 百分之〜 · 〜万食 萬份。', 'count': 1}
+  + {'text': 'ことば · 語言', 'count': 1}
+  + {'text': 'まちがい診療所 · 易錯診所', 'count': 1}
+  + {'text': '今週のフレーズ · 本週金句（逐字摘自本期文章）', 'count': 1}
+  + {'text': '今週のフレーム · 本週句式', 'count': 1}
+  + {'text': '動作發生的場所用「で」。', 'count': 1}
+  + {'text': '動詞名詞化時要加「こと」。', 'count': 1}
+  + {'text': '去看紅葉的人可以自北向南追趕最佳觀賞期。 (第6版)', 'count': 1}
+  + {'text': '句式拆解：輕鬆地調理身心。', 'count': 1}
+  + {'text': '可以同時欣賞傳統工藝、紅葉與燈光。 (第3版)', 'count': 1}
+  + {'text': '地點用「か所」來數。', 'count': 1}
+  + {'text': '所謂ゆる，就是不勉強、慢慢來的意思。 (第2版)', 'count': 1}
+  + {'text': '收到真實來信與第8版最佳作文；VOL.3將刊', 'count': 1}
+  + {'text': '文化日是11月3日星期二。 (第1版)', 'count': 1}
+  + {'text': '有「昨日」時要用過去式。', 'count': 1}
+  + {'text': '来週 · 下期預告 (VOL.3)', 'count': 1}
+  + {'text': '火鍋食材提前一個月上架了。 (第2版)', 'count': 1}
+  + {'text': '登收到的來信與佳作。請把你的來信寄來。', 'count': 1}
+  + {'text': '編輯部示例信，非真實來信。截至截稿，未', 'count': 1}
+  + {'text': '葉 落葉', 'count': 1}
+  + {'text': '見頃 最佳觀賞期 · 紅葉狩り 看紅葉出遊 · 落', 'count': 1}
+  + {'text': '言語フォーカス · 三つのレベル、三つのテーマ · 三個級別，三個主題', 'count': 1}
+  + {'text': '読書週間 讀書週 · 紹介 介紹 · 読み聞かせ 朗', 'count': 1}
+  + {'text': '読者の手紙 · 讀者園地', 'count': 1}
+  + {'text': '讀。', 'count': 1}
+  + {'text': '軟銀以兩連勝開局。 (第4版)', 'count': 1}
+  + {'text': '這是一個慢慢地、輕鬆調理的日本11月。 (第1版)', 'count': 1}
+  + {'text': '遵守規則，過一個快樂的萬聖節吧。 (第5版)', 'count': 1}
+removed:
+  - {'text': 'Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY', 'count': 1}
+  - {'text': '〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。', 'count': 1}
+  - {'text': 'ことば · 语言', 'count': 1}
+  - {'text': 'まちがい診療所 · 易错诊所', 'count': 1}
+  - {'text': '今週のフレーズ · 本周金句（逐字摘自本期文章）', 'count': 1}
+  - {'text': '今週のフレーム · 本周句式', 'count': 1}
+  - {'text': '动作发生的场所用「で」。', 'count': 1}
+  - {'text': '动词名词化时要加「こと」。', 'count': 1}
+  - {'text': '去看红叶的人可以自北向南追赶最佳观赏期。 (第6面)', 'count': 1}
+  - {'text': '句式拆解：轻松地调理身心。', 'count': 1}
+  - {'text': '可以同时欣赏传统工艺、红叶与灯光。 (第3面)', 'count': 1}
+  - {'text': '地点用「か所」来数。', 'count': 1}
+  - {'text': '所谓ゆる，就是不勉强、慢慢来的意思。 (第2面)', 'count': 1}
+  - {'text': '收到真实来信与第8版最佳作文；VOL.3将刊', 'count': 1}
+  - {'text': '文化日是11月3日星期二。 (第1面)', 'count': 1}
+  - {'text': '有「昨日」时要用过去式。', 'count': 1}
+  - {'text': '来週 · 下期预告 (VOL.3)', 'count': 1}
+  - {'text': '火锅食材提前一个月上架了。 (第2面)', 'count': 1}
+  - {'text': '登收到的来信与佳作。', 'count': 1}
+  - {'text': '编辑部示例信，非真实来信。截至截稿，未', 'count': 1}
+  - {'text': '落叶', 'count': 1}
+  - {'text': '見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉', 'count': 1}
+  - {'text': '言語フォーカス · 三つのレベル、三つのテーマ · 三个级别，三个主题', 'count': 1}
+  - {'text': '読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗', 'count': 1}
+  - {'text': '読者の手紙 · 读者园地', 'count': 1}
+  - {'text': '读。', 'count': 1}
+  - {'text': '软银以两连胜开局。 (第4面)', 'count': 1}
+  - {'text': '这是一个慢慢地、轻松调理的日本11月。 (第1面)', 'count': 1}
+  - {'text': '遵守规则，过一个快乐的万圣节吧。 (第5面)', 'count': 1}
+=== essay: find title 私の11月の週末 ===
+core p8-tesuto.svg idx 147 {'t': '『私の11月の週末』について、150〜200字で書いてください。文化の', 'x': 1451.0, 'y': 324.02500000000003, 'fam': 'Noto Serif CJK JP', 'size': 13.8}
+    '日、紅葉、読書の中から一つ選んでください。'
+    '例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家'
+    '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土'
+    'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ'
+    'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も'
+    '終わりますから、静かな場所で大きな冒険をしたいです。11月は短'
+    'いですが、楽しいことが多い季節です。'
+    '答え · 参考答案 — 按版面分页排列，找到题号即可'
+    '每题附一句中文简析 · 带 ✓ 的为范文题'
+    '— 第1面 —'
+    '1. 3 — 文化日在11月3日（周二）'
+core p8-tesuto.svg idx 149 {'t': '例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家', 'x': 1451.0, 'y': 378.545, 'fam': 'Noto Serif CJK JP', 'size': 14.5}
+    '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土'
+    'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ'
+    'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も'
+    '終わりますから、静かな場所で大きな冒険をしたいです。11月は短'
+    'いですが、楽しいことが多い季節です。'
+    '答え · 参考答案 — 按版面分页排列，找到题号即可'
+    '每题附一句中文简析 · 带 ✓ 的为范文题'
+    '— 第1面 —'
+    '1. 3 — 文化日在11月3日（周二）'
+    '2. 9 — 读书周到11月9日（周一）'
+    '3. 見頃 — 見頃＝最佳观赏期'
+edition p8-tesuto.svg idx 147 {'t': '『私の11月の週末』について、150〜200字で書いてください。文化の', 'x': 1451.0, 'y': 324.02500000000003, 'fam': 'Noto Serif CJK JP', 'size': 13.8}
+    '日、紅葉、読書の中から一つ選んでください。'
+    '例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家'
+    '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土'
+    'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ'
+    'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も'
+    '終わりますから、静かな場所で大きな冒険をしたいです。11月は短'
+    'いですが、楽しいことが多い季節です。'
+    '答え · 參考答案 — 依版面分版排列，找到題號即可'
+    '每題附一句中文簡析 · 帶 ✓ 的為範文題'
+    '— 第1版 —'
+    '1. 3 — 文化日在11月3日（星期二）'
+edition p8-tesuto.svg idx 149 {'t': '例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家', 'x': 1451.0, 'y': 378.545, 'fam': 'Noto Serif CJK JP', 'size': 14.5}
+    '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土'
+    'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ'
+    'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も'
+    '終わりますから、静かな場所で大きな冒険をしたいです。11月は短'
+    'いですが、楽しいことが多い季節です。'
+    '答え · 參考答案 — 依版面分版排列，找到題號即可'
+    '每題附一句中文簡析 · 帶 ✓ 的為範文題'
+    '— 第1版 —'
+    '1. 3 — 文化日在11月3日（星期二）'
+    '2. 9 — 讀書週到11月9日（星期一）'
+    '3. 見頃 — 見頃＝最佳觀賞期'
+=== images payload ===
+core p1-hyoushi.svg n_images 1
+    <image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw href_sha16 65401b914bcdc53a href_len 632571
+core p2-kurashi.svg n_images 0
+core p3-bunka.svg n_images 1
+    <image x="1451" y="200" width="434" height="222" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAgQDA href_sha16 c0cb66ffb2c39869 href_len 816959
+core p4-supotsu.svg n_images 1
+    <image x="1451" y="200" width="434" height="290" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtb href_sha16 76f1f3674ebdbb0f href_len 789279
+core p5-wakamono.svg n_images 1
+    <image x="1451" y="200" width="434" height="262" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEB href_sha16 ab701108d08fac3b href_len 94167
+core p6-fukayomi.svg n_images 0
+core p7-kotoba.svg n_images 0
+core p8-tesuto.svg n_images 0
+edition p1-hyoushi.svg n_images 1
+    <image x="65" y="1874" width="896" height="320" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKDw href_sha16 65401b914bcdc53a href_len 632571
+edition p2-kurashi.svg n_images 0
+edition p3-bunka.svg n_images 1
+    <image x="1451" y="200" width="434" height="222" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAgQDA href_sha16 c0cb66ffb2c39869 href_len 816959
+edition p4-supotsu.svg n_images 1
+    <image x="1451" y="200" width="434" height="290" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtb href_sha16 76f1f3674ebdbb0f href_len 789279
+edition p5-wakamono.svg n_images 1
+    <image x="1451" y="200" width="434" height="262" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEB href_sha16 ab701108d08fac3b href_len 94167
+edition p6-fukayomi.svg n_images 0
+edition p7-kotoba.svg n_images 0
+edition p8-tesuto.svg n_images 0

@@ -1,0 +1,142 @@
+=== 41e full phrase ===
+CORE exact "41e édition en 2026 (40e anniversaire)" in joined P4 text: True
+   (65.0, 282.14, '37', 'dernière finale de la')
+   (527.0, 256.0, '24', 'Les finales du Masters ont lieu... A.')
+   (527.0, 290.8, '24', 'samedi 7 · B. dimanche 8 · C.')
+   (989.0, 259.22, '23.5', "c'est le but ! », « quelle ambiance ! » —")
+   (989.0, 294.94, '23.5', 'et les noms des villes deviennent')
+   (1473.0, 240.0, '23', 'LE MASTERS EN CHIFFRES')
+   (1473.0, 278.0, '21.5', '41e édition en 2026 (40e')
+   (1473.0, 308.53, '21.5', 'anniversaire). Dernier Masters 1000')
+CORE all "40e" substring occurrences in joined all-pages text: 1
+CORE "anniversaire" nodes:
+    p3-culture.svg y=1404.12 'anniversaire. Pour faire plaisir, on'
+    p3-culture.svg y=2490.745000000001 'anniversaire.'
+    p3-culture.svg y=1183.8999999999996 'pour un anniversaire. → ___'
+    p4-sport.svg y=308.53 'anniversaire). Dernier Masters 1000'
+    p7-langue.svg y=2075.35 'un anniversaire. »'
+    p8-exercices.svg y=2372.1800000000003 'chrysanthèmes pour un anniversaire. · 36. Les feuilles ne'
+    p8-exercices.svg y=1895.65 'chrysanthèmes pour un anniversaire.（jamais + de：否定句'
+CORE "22e"/"15e" nodes:
+    p1-une.svg y=988.4 'dimanche 8 novembre, 22e édition.'
+    p5-jeunesse.svg y=536.1199999999999 "de concert géante : c'est la 15e"
+    p5-jeunesse.svg y=256.0 "C'est la... A. 15e édition · B. 10e"
+CORE "40." / "140" nodes (numbering):
+    p3-culture.svg y=223.0 '40.'
+    p8-exercices.svg y=635.0 '140–144.'
+    p8-exercices.svg y=676.0 '140. un tournoi'
+    p8-exercices.svg y=713.0 '141. une nocturne'
+    p8-exercices.svg y=824.0 '144. un festival'
+    p8-exercices.svg y=1976.25 'finalistes.（ne...pas encore = 尚未） · 140. a（tournoi=赛事'
+    p8-exercices.svg y=1996.4 'a） · 141. b（nocturne=夜场 b） · 142. c（budget=预算 c'
+    p8-exercices.svg y=2016.55 '） · 143. d（coquille=扇贝 d） · 144. e（festival=音乐节 e'
+EDITION exact "41e édition en 2026 (40e anniversaire)" in joined P4 text: True
+   (65.0, 282.14, '37', 'dernière finale de la')
+   (557.0, 281.225, '19', 'B1')
+   (599.0, 282.225, '24', '44.')
+   (527.0, 315.225, '24', 'Les finales du Masters ont lieu... A.')
+   (989.0, 259.22, '23.5', 'les mêmes phrases — « il frappe ! », «')
+   (989.0, 294.94, '23.5', "c'est le but ! », « quelle ambiance ! » —")
+   (1473.0, 240.0, '23', 'LE MASTERS EN CHIFFRES')
+   (1473.0, 278.0, '21.5', '41e édition en 2026 (40e')
+   (1473.0, 308.53, '21.5', 'anniversaire). Dernier Masters 1000')
+EDITION all "40e" substring occurrences in joined all-pages text: 1
+EDITION "anniversaire" nodes:
+    p3-culture.svg y=1404.12 'anniversaire. Pour faire plaisir, on'
+    p3-culture.svg y=290.8 'anniversaire.'
+    p3-culture.svg y=1320.4999999999998 'pour un anniversaire. → ___'
+    p4-sport.svg y=308.53 'anniversaire). Dernier Masters 1000'
+    p7-langue.svg y=2105.075 'un anniversaire. »'
+    p8-exercices.svg y=2463.7800000000007 'un anniversaire. · 36. Les feuilles ne sont plus vertes en'
+    p8-exercices.svg y=2111.71 'pour un anniversaire. (jamais + de: en la negación, des pasa a'
+EDITION "22e"/"15e" nodes:
+    p1-une.svg y=870.0 'dimanche 8 novembre, 22e édition.'
+    p5-jeunesse.svg y=536.1199999999999 "de concert géante : c'est la 15e"
+    p5-jeunesse.svg y=256.0 "C'est la... A. 15e édition · B. 10e"
+EDITION "40." / "140" nodes (numbering):
+    p3-culture.svg y=359.6 '40.'
+    p8-exercices.svg y=731.0 '140–144.'
+    p8-exercices.svg y=772.0 '140. un tournoi'
+    p8-exercices.svg y=809.0 '141. une nocturne'
+    p8-exercices.svg y=920.0 '144. un festival'
+    p8-exercices.svg y=2216.1 'todavía no) · 140. a (tournoi=torneo a) · 141. b'
+    p8-exercices.svg y=2253.8 '· 143. d (coquille=vieira d) · 144. e (festival=festival e) · 145.'
+
+=== P8 note 120 full segment (joined P8 text around '120.') ===
+CORE "esser aux（à+les）） · 120. B（si + imparfait（未完成过去时）→ conditionnel présent（条件式 现在时）；j' 是 je 在元音前的省音） · 121. A（主语 ce programme 三单 → semble） · 122. B（将来时 aura lieu（ 决赛在周日）） · 123. A（三区同日复课） · 124. C（扇贝节 在 11 月 7–8 日） · 125. C（夜场 19 点至凌晨 1 点） · 126. A （小徽章给小 Léo 驱怪） · 127. B（周日先看决赛再吃扇贝"
+CORE 119 ctx: "119. Elle s'intéresse ___ festivals. A. à les · B. aux · C. des B2 120. Si j'étais libre dimanche, j'___ à Nanterre. A. irai · B. irais · C. vais B2 121. À mon avis, ce programme ___ très riche. A. se"
+CORE 121 ctx: '121. À mon avis, ce programme ___ très riche. A. semble · B. sembler · C. semblant B1 122. Dimanche, la finale ___ à Nanterre. A. a lieu · B. aura lieu · C. avait lieu A2 123. Les trois zones reprenne'
+EDITION "er aux (à + les)) · 120. B (si + imparfait → conditionnel présent; j' es je ante vocal (elisión)) · 121. A (Sujeto ce programme (3.ª persona singular) → semble) · 122. B (Futuro aura lieu (la final es el domingo)) · 123. A (Las tres zonas vuelven el mismo día) · 124. C (La fiesta"
+EDITION 119 ctx: "119. Elle s'intéresse ___ festivals. A. à les · B. aux · C. des B2 120. Si j'étais libre dimanche, j'___ à Nanterre. A. irai · B. irais · C. vais B2 121. À mon avis, ce programme ___ très riche. A. se"
+EDITION 121 ctx: '121. À mon avis, ce programme ___ très riche. A. semble · B. sembler · C. semblant B1 122. Dimanche, la finale ___ à Nanterre. A. a lieu · B. aura lieu · C. avait lieu A2 123. Les trois zones reprenne'
+
+=== P7 phrases table region: edition nodes y 1200-1850 ===
+ y=1234.0 x=65.0 size=22 '« Le lundi 2 novembre, on reprend les'
+ y=1264.8 x=65.0 size=22 'cours. » (page 2)'
+ y=1319.1 x=65.0 size=19.5 'Gramática: reprendre — volver al cole, volver a'
+ y=1347.375 x=65.0 size=19.5 'empezar (tras una pausa).'
+ y=1402.6499999999999 x=95.0 size=19 'A2'
+ y=1403.6499999999999 x=137.0 size=24 '97.'
+ y=1434.6499999999999 x=65.0 size=22 'Après les vacances, on ___ (reprendre)'
+ y=1466.55 x=65.0 size=22 'les cours.'
+ y=1531.45 x=65.0 size=22 '« On ne connaît pas encore les'
+ y=1562.25 x=65.0 size=22 'finalistes. » (page 1)'
+ y=1616.55 x=65.0 size=19.5 'Gramática: ne...pas encore — todavía no.'
+ y=1671.825 x=95.0 size=19 'B1'
+ y=1672.825 x=137.0 size=24 '98.'
+ y=1703.825 x=65.0 size=22 'Il ne fait pas ___ nuit : il est 15 heures.'
+ y=1768.7250000000001 x=65.0 size=22 '« Les cimetières se sont remplis de'
+ y=1799.525 x=65.0 size=22 'chrysanthèmes. » (page 3)'
+ y=1231.5 x=527.0 size=19.5 'Gramática: passé composé reflexivo — se + être'
+ y=1259.775 x=527.0 size=19.5 '+ participio.'
+ y=1315.05 x=557.0 size=19 'B1'
+ y=1316.05 x=599.0 size=24 '99.'
+ y=1347.05 x=527.0 size=22 'Les enfants se sont ___ (déguiser)'
+ y=1378.95 x=527.0 size=22 'samedi.'
+ y=1443.8500000000001 x=527.0 size=22 "« Une finale qu'on ne connaît pas"
+ y=1474.65 x=527.0 size=22 "d'avance : plus excitante ou plus"
+ y=1505.45 x=527.0 size=22 'frustrante ? » (page 4)'
+ y=1559.7500000000002 x=527.0 size=19.5 'Gramática: comparatif — plus + adjetivo, ou'
+ y=1588.0250000000003 x=527.0 size=19.5 'contrapone.'
+ y=1643.3000000000002 x=557.0 size=19 'B1'
+ y=1644.3000000000002 x=599.0 size=24 '100.'
+ y=1675.3000000000002 x=527.0 size=22 'La finale est ___ (excitante) !'
+ y=1740.2000000000003 x=527.0 size=22 '« Le festival se promène dans Paris. »'
+ y=1771.0000000000002 x=527.0 size=22 '(page 5)'
+ y=1825.3000000000002 x=527.0 size=19.5 'Gramática: se promener — reflexivo, pasear,'
+ y=1231.5 x=989.0 size=19.5 'moverse.'
+ y=1286.775 x=1019.0 size=19 'A2'
+ y=1287.775 x=1061.0 size=24 '101.'
+ y=1318.775 x=989.0 size=22 'Le dimanche, nous nous ___ (promener)'
+ y=1350.6750000000002 x=989.0 size=22 'au parc.'
+ y=1415.5750000000003 x=989.0 size=22 '« Ce calendrier peut encore bouger. »'
+ y=1446.3750000000002 x=989.0 size=22 '(page 6)'
+ y=1500.6750000000002 x=989.0 size=19.5 'Gramática: pouvoir + infinitivo — poder, ser'
+ y=1528.9500000000003 x=989.0 size=19.5 'posible.'
+ y=1584.2250000000001 x=1019.0 size=19 'B2'
+ y=1585.2250000000001 x=1061.0 size=24 '102.'
+ y=1616.2250000000001 x=989.0 size=22 'Le programme ___ (pouvoir) changer'
+ y=1648.1250000000002 x=989.0 size=22 'demain.'
+ y=1713.0250000000003 x=989.0 size=22 '« Ce week-end, tout se joue. » (page 1)'
+ y=1767.3250000000003 x=989.0 size=19.5 'Gramática: se jouer — decidirse, celebrarse'
+ y=1795.6000000000004 x=989.0 size=19.5 '(reflexivo).'
+ y=1234.0 x=1481.0 size=19 'A2'
+ y=1235.0 x=1523.0 size=24 '103.'
+ y=1266.0 x=1451.0 size=22 'La finale se ___ (jouer) dimanche.'
+ y=1330.9 x=1451.0 size=22 '« Les jeunes créateurs y rencontrent'
+ y=1361.7 x=1451.0 size=22 'leur public, en vrai. » (page 5)'
+ y=1416.0 x=1451.0 size=19.5 'Gramática: rencontrer — encontrarse con el'
+ y=1444.275 x=1451.0 size=19.5 'público; y remite al lugar.'
+ y=1499.55 x=1481.0 size=19 'A2'
+ y=1500.55 x=1523.0 size=24 '104.'
+ y=1531.55 x=1451.0 size=22 'Ils ___ (rencontrer) leur public.'
+
+=== P7 table page tags check ===
+'Le lundi 2 novembre, on reprend les cour' with tag page 2 in P7 joined text: True | bare in P7: True
+'On ne connaît pas encore les finalistes.' with tag page 1 in P7 joined text: True | bare in P7: True
+'Les cimetières se sont remplis de chrysa' with tag page 3 in P7 joined text: True | bare in P7: True
+"Une finale qu'on ne connaît pas d'avance" with tag page 4 in P7 joined text: True | bare in P7: True
+'Le festival se promène dans Paris.' with tag page 5 in P7 joined text: True | bare in P7: True
+'Ce calendrier peut encore bouger.' with tag page 6 in P7 joined text: True | bare in P7: True
+'Ce week-end, tout se joue.' with tag page 1 in P7 joined text: True | bare in P7: True
+'Les jeunes créateurs y rencontrent leur ' with tag page 5 in P7 joined text: True | bare in P7: True

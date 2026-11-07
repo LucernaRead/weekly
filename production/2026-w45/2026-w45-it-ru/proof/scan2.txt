@@ -1,0 +1,252 @@
+
+### 1d freeze-diff removed strings, adjudication
+page 1: keys=['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+page 1: removed_total=26 nonCJK=0
+page 2: removed_total=20 nonCJK=0
+page 3: removed_total=20 nonCJK=0
+page 4: removed_total=17 nonCJK=0
+page 5: removed_total=24 nonCJK=0
+page 6: removed_total=17 nonCJK=1
+   NONCJK: 'bollettino · modello'
+page 7: removed_total=33 nonCJK=1
+   NONCJK: 'è probabile che / è possibile che / bisogna'
+page 8: removed_total=168 nonCJK=15
+   NONCJK: '103. nevica — nevicare：nevica'
+   NONCJK: '17. metto — mettere：io → metto'
+   NONCJK: '18. portano — portare：loro → portano'
+   NONCJK: '19. guardano — guardare：loro → guardano'
+   NONCJK: '20. resta — restare：la scuola → resta（lei）'
+   NONCJK: '60. ha vinto — vincere：ha vinto'
+   NONCJK: '61. ha pareggiato — pareggiare：ha pareggiato'
+   NONCJK: '— PAGINA 1 —'
+   NONCJK: '— PAGINA 2 —'
+   NONCJK: '— PAGINA 3 —'
+   NONCJK: '— PAGINA 4 —'
+   NONCJK: '— PAGINA 5 —'
+   NONCJK: '— PAGINA 6 —'
+   NONCJK: '— PAGINA 7 —'
+   NONCJK: '— PAGINA 8 —'
+   PAGINA-removed: '— PAGINA 1 —'
+   PAGINA-removed: '— PAGINA 2 —'
+   PAGINA-removed: '— PAGINA 3 —'
+   PAGINA-removed: '— PAGINA 4 —'
+   PAGINA-removed: '— PAGINA 5 —'
+   PAGINA-removed: '— PAGINA 6 —'
+   PAGINA-removed: '— PAGINA 7 —'
+   PAGINA-removed: '— PAGINA 8 —'
+
+### 2e FRASI section nodes in order (core vs edition P7)
+--CORE nodes with y>=1700 (FRASI area) in doc order:
+   y=1724 x=65 fs=27 'FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）'
+   y=1787 x=65 fs=21.5 '«arriva il primo freddo vero della stagione»'
+   y=1836.67 x=65 fs=19.5 '第一场真正的寒冷到来了。 (Pagina 1)'
+   y=1945 x=65 fs=21.5 '«Non è una certezza, è una probabilità»'
+   y=1994.67 x=65 fs=19.5 '这不是确定性，而是概率。 (Pagina 1)'
+   y=2103 x=65 fs=21.5 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2152.67 x=65 fs=19.5 '11 月 2 日是追思日。 (Pagina 2)'
+   y=2261 x=65 fs=21.5 '«Fa freddo, copriti bene!»'
+   y=2310.67 x=65 fs=19.5 '天冷，穿暖和点！ (Pagina 2)'
+   y=1787 x=989 fs=21.5 '«il pubblico può assaggiare gratis»'
+   y=1836.67 x=989 fs=19.5 '观众可以免费品尝。 (Pagina 3)'
+   y=1945 x=989 fs=21.5 '«il calcio non si ferma per il primo freddo»'
+   y=1994.67 x=989 fs=19.5 '足球不会因为第一场寒冷而停下。 (Pagina 4)'
+   y=2103 x=989 fs=21.5 '«la cultura continua»'
+   y=2152.67 x=989 fs=19.5 '文化继续。 (Pagina 5)'
+   y=2261 x=989 fs=21.5 '«Una probabilità alta non è una certezza»'
+   y=2310.67 x=989 fs=19.5 '高概率不等于确定性。 (Pagina 6)'
+   y=2448 x=93 fs=24 'LA PROSSIMA SETTIMANA · 下期预告 (VOL.3)'
+   y=2488 x=93 fs=21 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   y=2516.56 x=93 fs=21 'pagina 8. A lunedì!'
+   y=2624 x=65 fs=20 'La Lucerna · 意大利语周报 VOL.2 · LUCERNA ITALIAN WEEKLY'
+   y=2624 x=1885 fs=20 '第 7 版 / 共 8 版'
+--CORE FRASI header node:
+   y=1724 'FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）'
+--ED nodes with y>=1700 (FRASI area) in doc order:
+   y=1724 x=65 fs=27 'FRASI DELLA SETTIMANA · ФРАЗЫ НЕДЕЛИ (дословно из статей выпуска)'
+   y=1787 x=65 fs=21.5 '«arriva il primo freddo vero della stagione»'
+   y=1836.67 x=65 fs=19.5 'Пришло первое настоящее похолодание сезона. (Страница 1)'
+   y=1945 x=65 fs=21.5 '«Non è una certezza, è una probabilità»'
+   y=1994.67 x=65 fs=19.5 'Это не уверенность, а вероятность. (Страница 1)'
+   y=2103 x=65 fs=21.5 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2152.67 x=65 fs=19.5 '2 ноября — День поминовения. (Страница 2)'
+   y=2261 x=65 fs=21.5 '«Fa freddo, copriti bene!»'
+   y=2310.67 x=65 fs=19.5 'Холодно, оденься теплее! (Страница 2)'
+   y=1787 x=989 fs=21.5 '«il pubblico può assaggiare gratis»'
+   y=1836.67 x=989 fs=19.5 'Публика может дегустировать бесплатно. (Страница 3)'
+   y=1945 x=989 fs=21.5 '«il calcio non si ferma per il primo freddo»'
+   y=1994.67 x=989 fs=19.5 'Футбол не останавливается из-за первого холода. (Страница 4)'
+   y=2103 x=989 fs=21.5 '«la cultura continua»'
+   y=2152.67 x=989 fs=19.5 'Культура продолжается. (Страница 5)'
+   y=2261 x=989 fs=21.5 '«Una probabilità alta non è una certezza»'
+   y=2310.67 x=989 fs=19.5 'Высокая вероятность — ещё не уверенность. (Страница 6)'
+   y=2448 x=93 fs=24 'LA PROSSIMA SETTIMANA · В СЛЕДУЮЩЕМ ВЫПУСКЕ (VOL.3)'
+   y=2488 x=93 fs=21 'Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della'
+   y=2516.56 x=93 fs=21 'pagina 8. A lunedì!'
+   y=2624 x=65 fs=20 'La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+   y=2624 x=1885 fs=20 'Страница 7 из 8'
+--ED FRASI header node:
+   y=1724 'FRASI DELLA SETTIMANA · ФРАЗЫ НЕДЕЛИ (дословно из статей выпуска)'
+
+### 2f golden sentences joined-stream counts (whitespace-normalized, all 8 pages)
+  'arriva il primo freddo vero della stagione': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'Non è una certezza, è una probabilità': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'il 2 novembre è la Commemorazione dei defunti': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'Fa freddo, copriti bene!': core_joined=2 ed_joined=2 core_quoted=2 ed_quoted=2
+  'il pubblico può assaggiare gratis': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'il calcio non si ferma per il primo freddo': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'la cultura continua': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+  'Una probabilità alta non è una certezza': core_joined=2 ed_joined=2 core_quoted=1 ed_quoted=1
+
+### 6d gloss() source strings: core build vs edition build (grep, read-only)
+CORE-BUILD content12.py: gloss("il cappotto 大衣 · la sciarpa 围巾 · i guanti 手套 · a strati 分层穿衣 · il termosifone 暖气片 · il crisantemo 菊花")
+CORE-BUILD content34.py: gloss("il panettone 米兰圣诞面包 · il torrone 牛轧糖 · l'assaggio 品尝 · la bancarella 摊位 · il cantiere 施工现场/修复工地。")
+CORE-BUILD content34.py: gloss("la giornata 轮次 · la presentazione 赛前介绍 · gli spalti 看台 · la sera 晚上。")
+CORE-BUILD content56.py: gloss("il cosplay 角色扮演服装 · gratuito 免费的 · il documentario 纪录片 · lo schermo 银幕。")
+CORE-BUILD content56.py: gloss("la probabilità 概率 · la media 平均值 · il modello 模型/预报模式 · il bollettino 公报/预报 · aggiornare 更新。")
+ED-BUILD content12.py: gloss("il cappotto = пальто · la sciarpa = шарф · i guanti = перчатки · a strati = слоями · il termosifone = радиатор · il crisantemo = хризантема")
+ED-BUILD content34.py: gloss("il panettone = миланский рождественский кекс · il torrone = нуга · l'assaggio = дегустация · la bancarella = прилавок · il cantiere = стройплощадка")
+ED-BUILD content34.py: gloss("la giornata = тур · la presentazione = превью · gli spalti = трибуны · la sera = вечер")
+ED-BUILD content56.py: gloss("il cosplay = косплей-костюм · gratuito = бесплатный · il documentario = документальный фильм · lo schermo = экран")
+ED-BUILD content56.py: gloss("la probabilità = вероятность · la media = среднее значение · il modello = прогностическая модель · il bollettino = сводка погоды · aggiornare = обновлять")
+
+### 6e rendered P1 bridge/gloss node sequences
+--CORE-P1:
+   y=672 x=65 "Arriva il primo freddo: l'Italia si copre e si mette a tavola"
+   y=835.8 x=65 'faccia: arriva il primo freddo vero'
+   y=911.8 x=65 'versante adriatico e la prima neve'
+   y=1205.3 x=527 '讲解｜il primo freddo 第一场寒冷 · il'
+   y=1235.0249999999999 x=527 'versante adriatico 亚得里亚海一侧 · la'
+   y=1264.75 x=527 'previsione 预报 · assaggi 品尝。'
+   y=1728 x=1451 '« il primo freddo » : il primo freddo serio'
+   y=2185.2 x=989 'di assaggi. Prendilo — e continua a'
+   y=2419 x=65 'Il primo freddo arriva... A. lunedì 2'
+--ED-P1:
+   y=672 x=65 "Arriva il primo freddo: l'Italia si copre e si mette a tavola"
+   y=835.8 x=65 'faccia: arriva il primo freddo vero'
+   y=911.8 x=65 'versante adriatico e la prima neve'
+   y=1205.3 x=527 'Пояснение — primo freddo = первый холод'
+   y=1235.0249999999999 x=527 '· versante adriatico = Адриатика ·'
+   y=1264.75 x=527 'previsione = прогноз · assaggi = пробы.'
+   y=1728 x=1451 '« il primo freddo » : il primo freddo serio'
+   y=1846.2999999999997 x=1451 '«il primo freddo»: холод после мягкой осени.'
+   y=2185.2 x=989 'di assaggi. Prendilo — e continua a'
+   y=2419 x=65 'Il primo freddo arriva... A. lunedì 2'
+
+### 6f rendered gloss box reconstruction per page (edition): join nodes from Пояснение start, next 12 nodes)
+p1-prima: "Пояснение — primo freddo = первый холод ‖ · versante adriatico = Адриатика · ‖ previsione = прогноз · assaggi = пробы. ‖ LA SETTIMANA IN CIFRE · ЦИФРЫ ‖ 1.300–1.500 — i metri di quota dove può ‖ cadere la prima neve leggera(граница ‖ снегопадов) ‖ 50+ — gli eventi del Forum Cultura di ‖ Milano, dal 3 all'8 novembre(более 50 ‖ мероприятий Forum Cultura) ‖ 19 — i paesi dei pasticceri alla finale del ‖ Panettone a Milano(стран-участниц) ‖ 11ª — la giornata di Serie A del fine ‖ settimana(11-й тур Серии А)"
+p2-vita: 'Пояснение — il cappotto = пальто · la ‖ sciarpa = шарф · i guanti = перчатки · ‖ a strati = слоями · il termosifone = ‖ радиатор · il crisantemo = хризантема ‖ LO SAPEVI? ‖ Il primo freddo porta piogge sul ‖ versante adriatico e neve leggera in ‖ montagna, intorno ai 1.300–1.500 ‖ metri. ‖ Il 2 novembre è la Commemorazione ‖ dei defunti: il fiore del giorno è il ‖ crisantemo. ‖ In alcune regioni il 2 novembre è ‖ festa per le scuole; in altre è un'
+p3-cultura: "Пояснение — il panettone = миланский ‖ рождественский кекс · il torrone = ‖ нуга · l'assaggio = дегустация · la ‖ bancarella = прилавок · il cantiere = ‖ стройплощадка ‖ IL TARTUFO RESTA IN TAVOLA ‖ La Fiera di Alba è aperta dal 10 ‖ ottobre: quasi due mesi di profumi e ‖ piatti speciali. Con il freddo, il tartufo ‖ bianco diventa ancora più prezioso — ‖ e i ristoranti lo servono con pasta, ‖ uova e risotti. ‖ Un tartufo bianco, il fungo più prezioso ‖ d'Italia. Ad Alba la fiera dura fino al 6"
+p4-sport: 'Пояснение — la giornata = тур · la ‖ presentazione = превью · gli spalti = ‖ трибуны · la sera = вечер ‖ LE PARTITE DA SEGNARE ‖ Martedì 3 – giovedì 5 novembre · ‖ Coppe europee, 4ª giornata — si ‖ giocano dopo la chiusura del ‖ giornale. Venerdì 6 – domenica 8 ‖ novembre · Serie A, 11ª giornata. ‖ Domenica 8 novembre · Genoa – ‖ Milan; Inter – Como; Fiorentina – ‖ Juventus (sera, a Firenze). ‖ E TU? · А ВЫ? ‖ E tu? Quale partita guardi domenica'
+p5-giovani: "Пояснение — il cosplay = ‖ косплей-костюм · gratuito = ‖ бесплатный · il documentario = ‖ документальный фильм · lo schermo = ‖ экран ‖ Le castagne arrosto: il cibo di strada ‖ dell'autunno. Con il primo freddo, le piazze ‖ profumano di caldarroste — e il weekend ‖ giovane comincia così. ‖ Foto: Wikimedia Commons — CC0 ‖ I GIOVANI IN NUMERI ‖ Lucca Comics, 60ª edizione, tema ‖ «Legacy»: dal 28 ottobre al 1° ‖ novembre."
+p6-approfondimento: 'Пояснение — la probabilità = ‖ вероятность · la media = среднее ‖ значение · il modello = ‖ прогностическая модель · il bollettino ‖ = сводка погоды · aggiornare = ‖ обновлять ‖ LA STRADA DEL FREDDO ‖ FINE OTT. ‖ Le previsioni parlano di ‖ un novembre più ‖ freddo della media. ‖ LUN 2 NOV. ‖ Arriva il primo freddo: ‖ piogge sul versante'
+p7-lingua: NO Пояснение-start node
+p8-valutazione: NO Пояснение-start node
+
+### 12 exercise/level counts from rendered SVGs
+ED p1-prima level-ish: y=845.8 'A2'
+ED p1-prima level-ish: y=962.8 'A2'
+ED p1-prima level-ish: y=1079.8 'A2'
+ED p1-prima level-ish: y=1167.8 'A2'
+ED p1-prima level-ish: y=1255.8 'A2'
+ED p1-prima level-ish: y=1401.8 'B1'
+ED p1-prima level-ish: y=1396 'A2'
+ED p1-prima level-ish: y=1436 'A2→B1'
+ED p1-prima level-ish: y=1476 'B1'
+ED p1-prima level-ish: y=1516 'B1'
+ED p1-prima level-ish: y=1556 'B2'
+ED p1-prima level-ish: y=1596 'A2→B2'
+ED p1-prima level-ish: y=2388 'A2'
+ED p1-prima level-ish: y=2388 'A2'
+ED p1-prima level-ish: y=2388 'A2'
+ED p1-prima level-ish: y=2388 'A2'
+CORE bracket-level totals: {} per-page: {'p1-prima': {}, 'p2-vita': {}, 'p3-cultura': {}, 'p4-sport': {}, 'p5-giovani': {}, 'p6-approfondimento': {}, 'p7-lingua': {}, 'p8-valutazione': {}}
+ED bracket-level totals: {} per-page: {'p1-prima': {}, 'p2-vita': {}, 'p3-cultura': {}, 'p4-sport': {}, 'p5-giovani': {}, 'p6-approfondimento': {}, 'p7-lingua': {}, 'p8-valutazione': {}}
+CORE line-start N. counts per page: [('p1-prima', 0, None, None), ('p2-vita', 4, 25, 28), ('p3-cultura', 0, None, None), ('p4-sport', 4, 52, 55), ('p5-giovani', 5, 1, 5), ('p6-approfondimento', 0, None, None), ('p7-lingua', 0, None, None), ('p8-valutazione', 150, 1, 150)]
+ED line-start N. counts per page: [('p1-prima', 0, None, None), ('p2-vita', 4, 25, 28), ('p3-cultura', 0, None, None), ('p4-sport', 4, 52, 55), ('p5-giovani', 5, 1, 5), ('p6-approfondimento', 0, None, None), ('p7-lingua', 0, None, None), ('p8-valutazione', 150, 1, 150)]
+
+### 9b per-page furniture presence: footer / page line / gloss prefix (W43 vs ED)
+W43 p1-prima: footer=["ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК · VOL.1 · L'ORA SOLARE · IL CINEMA", 'La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 1 из 8'] gloss_prefix=True
+ED p1-prima: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 1 из 8'] gloss_prefix=True
+---
+W43 p2-vita: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 2 из 8'] gloss_prefix=True
+ED p2-vita: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 2 из 8'] gloss_prefix=True
+---
+W43 p3-cultura: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 3 из 8'] gloss_prefix=True
+ED p3-cultura: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 3 из 8'] gloss_prefix=True
+---
+W43 p4-sport: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 4 из 8'] gloss_prefix=True
+ED p4-sport: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 4 из 8'] gloss_prefix=True
+---
+W43 p5-giovani: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 5 из 8'] gloss_prefix=True
+ED p5-giovani: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 5 из 8'] gloss_prefix=True
+---
+W43 p6-approfondimento: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 6 из 8'] gloss_prefix=True
+ED p6-approfondimento: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 6 из 8'] gloss_prefix=True
+---
+W43 p7-lingua: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 7 из 8'] gloss_prefix=False
+ED p7-lingua: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 7 из 8'] gloss_prefix=False
+---
+W43 p8-valutazione: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 8 из 8'] gloss_prefix=False
+ED p8-valutazione: footer=['La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'] pageline=['Страница 8 из 8'] gloss_prefix=False
+---
+
+### 8c W43 core P1 y-band + W43 P1 strapline search + siblings
+W43CORE y=372 x=975 fs=19 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+W43-ED strapline search done
+W45-ED strapline-ish: y=372 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+W45-ED strapline search done
+SIB it-en badge: x=65 y=2624 fs=20 w=None 'La Lucerna · ITALIAN WEEKLY VOL.2 · TEXT IN ITALIAN · EXPLANATIONS IN ENGLISH'
+SIB it-fr badge: x=975 y=574 fs=22 w=700 "TEXTES EN ITALIEN · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES"
+SIB it-fr badge: x=65 y=2624 fs=20 w=None 'La Lucerna · HEBDOMADAIRE ITALIEN VOL.2 · TEXTE EN ITALIEN · EXPLICATIONS EN FRANÇAIS'
+
+### 8d edition P1 band/headline geometry (raw elements near badge)
+ED P1 y=574 x=975 fs=22 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+ED P1 y=606 x=65 fs=22 'LA NOTIZIA · ГЛАВНАЯ НОВОСТЬ'
+ED P1 y=620 x=1473 fs=27 'LA SETTIMANA'
+
+### 10b <image> elements per page
+CORE p1-prima: image_elements=0 
+ED p1-prima: image_elements=0 
+CORE p2-vita: image_elements=0 
+ED p2-vita: image_elements=0 
+CORE p3-cultura: image_elements=1 <image x="1451" y="200" width="434" height="265" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKD
+ED p3-cultura: image_elements=1 <image x="1451" y="200" width="434" height="265" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/2wBDAAQDAwQDAwQEAwQFBAQFBgoHBgYGBg0JCggKD
+CORE p4-sport: image_elements=0 
+ED p4-sport: image_elements=0 
+CORE p5-giovani: image_elements=1 <image x="1451" y="200" width="434" height="300" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4QA0RXhpZgAATU0AKgAAAAgAAgEOAAIAAAAGAAAAJ
+ED p5-giovani: image_elements=1 <image x="1451" y="200" width="434" height="300" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,/9j/4QA0RXhpZgAATU0AKgAAAAgAAgEOAAIAAAAGAAAAJ
+CORE p6-approfondimento: image_elements=0 
+ED p6-approfondimento: image_elements=0 
+CORE p7-lingua: image_elements=0 
+ED p7-lingua: image_elements=0 
+CORE p8-valutazione: image_elements=0 
+ED p8-valutazione: image_elements=0 
+
+### 11 ABSTRACT checks
+lines=1 ends_newline=True ascii_dquote=0 chars=338
+text: 'La Lucerna VOL.2 — итальянский еженедельник для русскоязычных читателей: первый холод ноября, День поминовения 2 ноября, чемпионат мира по панеттоне в Милане 7–8 ноября, фестиваль торроне в Кремоне и 11-й тур Серии А — читайте по-итальянски и учите итальянский по настоящим текстам, уровни A2–B2, 150 упражнений с ответами и пояснениями.\n'
+  contains 'La Lucerna': True
+  contains 'итальян': True
+  contains 'A2': True
+  contains 'B2': True
+  contains '150': True
+  contains 'учите итальянский': True
+  contains 'первый холод': True
+  contains 'поминовения': True
+  contains 'панеттоне': True
+  contains 'торроне': True
+  contains 'Серии А': True
+
+### 5c round hash diffs (build sha256 files)
+sha files keys: r0=18 r1=18 r2=18
+R0->R1 changed (10): ['files/weekly-report-w45-it-ru/La-Lucerna-VOL2-RU-web.pdf', 'files/weekly-report-w45-it-ru/La-Lucerna-VOL2-RU.pdf', 'files/weekly-report-w45-it-ru/cards/p1-prima.png', 'files/weekly-report-w45-it-ru/cards/p2-vita.png', 'files/weekly-report-w45-it-ru/cards/p7-lingua.png', 'files/weekly-report-w45-it-ru/cards/p8-valutazione.png', 'files/weekly-report-w45-it-ru/svg/p1-prima.svg', 'files/weekly-report-w45-it-ru/svg/p2-vita.svg', 'files/weekly-report-w45-it-ru/svg/p7-lingua.svg', 'files/weekly-report-w45-it-ru/svg/p8-valutazione.svg']
+R0->R1 key-only diffs: []
+R1->R2 changed (6): ['files/weekly-report-w45-it-ru/La-Lucerna-VOL2-RU-web.pdf', 'files/weekly-report-w45-it-ru/La-Lucerna-VOL2-RU.pdf', 'files/weekly-report-w45-it-ru/cards/p1-prima.png', 'files/weekly-report-w45-it-ru/cards/p7-lingua.png', 'files/weekly-report-w45-it-ru/svg/p1-prima.svg', 'files/weekly-report-w45-it-ru/svg/p7-lingua.svg']
+R1->R2 key-only diffs: []
+
+### 12b model text word counts
+CORE model words(body)=81 label-inclusive=83 identical_text_check_below
+  'Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo freddo e la mattina è pungente. A scuola parliamo del Forum Cultura di Milano e del Festival dei Popoli di Firenze. Sabato assaggio il panettone con la mia famiglia: preferisco quello tradizionale, con i canditi. Domenica sera guardiamo Fiorentina–Juventus in televisione. Il freddo è arrivato, ma la settimana è dolce: cultura, dolci e calcio, come nel giornale. Lunedì prossimo racconto tutto alla classe, con le parole nuove del freddo.'
+ED model words(body)=81 label-inclusive=83 identical_text_check_below
+  'Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo freddo e la mattina è pungente. A scuola parliamo del Forum Cultura di Milano e del Festival dei Popoli di Firenze. Sabato assaggio il panettone con la mia famiglia: preferisco quello tradizionale, con i canditi. Domenica sera guardiamo Fiorentina–Juventus in televisione. Il freddo è arrivato, ma la settimana è dolce: cultura, dolci e calcio, come nel giornale. Lunedì prossimo racconto tutto alla classe, con le parole nuove del freddo.'
+model byte-identical core vs ed: True

@@ -1,0 +1,92 @@
+== A. same-baseline spacing (P1 top y=92, footers y=2624) ==
+  p1-une y=92.0: 3 segments, ink gaps [337.4, 112.0] ok
+  p1-une y=2624.0: 2 segments, ink gaps [782.2] ok
+  p2-vie y=2624.0: 2 segments, ink gaps [782.2] ok
+  p3-culture y=2624.0: 2 segments, ink gaps [782.2] ok
+  p4-sport y=2624.0: 2 segments, ink gaps [782.2] ok
+  p5-jeunesse y=2624.0: 2 segments, ink gaps [782.2] ok
+  p6-politique y=2624.0: 2 segments, ink gaps [782.2] ok
+  p7-langue y=2624.0: 2 segments, ink gaps [782.2] ok
+  p8-exercices y=2624.0: 2 segments, ink gaps [782.2] ok
+== B. right-edge scan (advance end > 1885; ink right > 1885) ==
+  p2-vie: adv_end=1885.0 ink_right=1885.0390625 :: lundi 2 novembre · let op: de 1e is le premier, andere dagen gebruiken hoofdtelw
+  p2-vie: adv_end=1885.0 ink_right=1885.15234375 :: Antwoorden op pagina 8 · oefeningen zijn gemengd per niveau; zoek antwoorden op 
+  p8-exercices: adv_end=1891.2 ink_right=1891.25 :: b. une soirée qui dure jusqu'à la nuit
+  p8-exercices: adv_end=1891.3 ink_right=1891.25 :: d. le coquillage fêté à Port-en-Bessin
+  p8-exercices: adv_end=1899.5 ink_right=1899.5 :: e. plusieurs concerts en une semaine
+== C. P6 chart-label baseline-anchored coverage ==
+  P6 chart texts: 0, max baseline-anchored coverage 0.0% (gate <30%)
+== D. orphan scan, y-gap window 10-45 ==
+  definition: blocks = same page/x/size/family, consecutive y gaps in [10,45];
+  flags: (i) line starting with . , ; : ! ? % ) ] } (ii) final line = single token <=3 chars
+  p1-une ORPHAN-SHORT-FINAL y=1604.0: 'p.8' (block 7 lines)
+  p2-vie ORPHAN-SHORT-FINAL y=2140.9: '___' (block 2 lines)
+  p2-vie ORPHAN-SHORT-FINAL y=2459.100000000001: '___' (block 2 lines)
+  p3-culture ORPHAN-SHORT-FINAL y=2405.3499999999995: '7).' (block 4 lines)
+  (core comparison: identical scan on core SVGs)
+  CORE p1-une ORPHAN-SHORT-FINAL y=1604.0: 'p.8'
+  CORE p2-vie ORPHAN-SHORT-FINAL y=2140.9: '___'
+  CORE p2-vie ORPHAN-SHORT-FINAL y=2459.100000000001: '___'
+  CORE p3-culture ORPHAN-SHORT-FINAL y=488.62500000000006: '填空。'
+  CORE p3-culture ORPHAN-SHORT-FINAL y=1054.3749999999995: '）。'
+  CORE p3-culture ORPHAN-SHORT-FINAL y=2405.3499999999995: '7).'
+  CORE p6-politique ORPHAN-SHORT-FINAL y=1953.1749999999995: '填空。'
+  CORE p7-langue ORPHAN-SHORT-FINAL y=1347.375: '）。'
+  CORE p7-langue ORPHAN-SHORT-FINAL y=1259.775: '分词。'
+== E. gloss counts (source gloss() strings, split on bare ·) ==
+  content12.py: 7 items :: se jouer beslist worden · une finale finale · une ...
+  content12.py: 6 items :: la rentrée terugkeer naar school · reprendre opnie...
+  content34.py: 6 items :: se déguiser zich verkleden · un sort een toverspre...
+  content34.py: 7 items :: un tournoi een toernooi · sur dur op hardcourt · e...
+  content56.py: 6 items :: un lieu een locatie · une affiche een affiche · le...
+  content56.py: 6 items :: un budget een begroting · une mission een (begroti...
+  TOTAL gloss items: 38 (core 38)
+== F. CJK in edition SVGs ==
+  p1-une: CJK chars in text nodes = 0
+  p2-vie: CJK chars in text nodes = 0
+  p3-culture: CJK chars in text nodes = 0
+  p4-sport: CJK chars in text nodes = 0
+  p5-jeunesse: CJK chars in text nodes = 0
+  p6-politique: CJK chars in text nodes = 0
+  p7-langue: CJK chars in text nodes = 0
+  p8-exercices: CJK chars in text nodes = 0
+== G. frozen French spot checks ==
+  p4-sport MISSING: 41e édition en 2026 (40e anniversaire)
+  p8-exercices FOUND: Si j'étais libre dimanche, j'___ à Nanterre.
+  p7-langue MISSING: plus excitante ou plus frustrante ?
+  p7-langue MISSING: Les jeunes créateurs y rencontrent leur public, en vrai.
+  p6-politique FOUND: Ce calendrier peut encore bouger.
+  p8-exercices MISSING: si + imparfait → conditionnel; j' = je geëlideerd
+  token 40e: [('p4-sport', 1)]
+  token 41e: [('p4-sport', 1)]
+== H. images: payload double-hash vs core ==
+  p1-une ed: b64-sha256=ff20bc2bd2654cdc decoded-sha256=f3705af28f175ce4 bytes=334674
+  p1-une core: b64-sha256=ff20bc2bd2654cdc decoded-sha256=f3705af28f175ce4 bytes=334674
+  p2-vie ed: b64-sha256=6918cb8bbe4b4bec decoded-sha256=5b772facb5db886c bytes=646242
+  p2-vie core: b64-sha256=6918cb8bbe4b4bec decoded-sha256=5b772facb5db886c bytes=646242
+  p3-culture ed: b64-sha256=bfaadf5b6b912416 decoded-sha256=be071fdae81a71b4 bytes=142340
+  p3-culture core: b64-sha256=bfaadf5b6b912416 decoded-sha256=be071fdae81a71b4 bytes=142340
+  p1-une credit FOUND: Eugène Atget (1857-1927)
+  p2-vie credit FOUND: Utagawa Hiroshige (1797-1858)
+  p3-culture credit FOUND: Flora de Filipinas (Blanco)
+== I. furniture ==
+  p1-une footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+  p2-vie footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+  p3-culture footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+  p4-sport footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+  p5-jeunesse footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+  p6-politique footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+  p7-langue footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+  p8-exercices footer: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+  P1 badge: [{'x': 975.0, 'y': 574.0, 'fam': 'Noto Sans CJK SC', 'size': 22.0, 'bold': True, 'anchor': 'middle', 's': 'TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS'}]
+  P8 separators: ['— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '— PAGINA 7 —', '— PAGINA 8 —']
+== J. forbidden term + reader corner ==
+  forbidden-term hits: 0
+  reader-corner FOUND: Exemple de la rédaction (ce texte n'est pas une lettre de le
+  reader-corner FOUND: Stuur je brief én je beste pagina-8-tekst in voor VOL.4!
+  reader-corner FOUND: geen echte brieven en geen beste VOL.2-pagina-8-tekst binnen
+  reader-corner FOUND: beide volgen in VOL.4
+  reader-corner FOUND: Note de la rédaction : aucun texte du VOL.2
+== K. registry level/type multiset vs core (source args) ==
+  core build: {'A2': 51, 'B1': 67, 'B2': 20}
+  nl build:   {'A2': 51, 'B1': 67, 'B2': 20}

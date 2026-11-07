@@ -1,0 +1,131 @@
+ED 40e count all: 1
+ED 41e count all: 1
+CORE 40e: 1
+CORE 41e: 1
+ED p4 joined has 41e edition: True
+CORE p4 joined has: True
+ ED p4 nodes containing 41e: ['41e édition en 2026 (40e']
+ CORE p4 nodes containing 41e: ['41e édition en 2026 (40e']
+CHECK 'Q120 stem' -> pages ['p8-exercices.svg'] count_all=1
+CHECK 'Q120 opt irai' -> pages ['p8-exercices.svg'] count_all=2
+CHECK 'Q120 opt irais' -> pages ['p8-exercices.svg'] count_all=1
+CHECK 'Q120 opt vais' -> pages ['p8-exercices.svg'] count_all=1
+CHECK 'P7 quote4 comparatif' -> pages ['p4-sport.svg', 'p7-langue.svg'] count_all=5
+CHECK 'P7 quote8 verbatim' -> pages ['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] count_all=3
+CHECK 'P6 sync' -> pages ['p6-politique.svg', 'p7-langue.svg'] count_all=3
+CHECK 'badge NL' -> pages ['p1-une.svg'] count_all=1
+CHECK 'gloss prefix sample' -> pages ['p1-une.svg', 'p2-vie.svg', 'p3-culture.svg', 'p4-sport.svg', 'p5-jeunesse.svg', 'p6-politique.svg'] count_all=9
+CHECK 'P8 sep' -> pages ['p8-exercices.svg'] count_all=8
+CHECK 'footer left' -> pages ['p1-une.svg', 'p2-vie.svg', 'p3-culture.svg', 'p4-sport.svg', 'p5-jeunesse.svg', 'p6-politique.svg', 'p7-langue.svg', 'p8-exercices.svg'] count_all=8
+CHECK 'solicit' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'no real letters NL' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'no best VOL2' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'VOL4 defer' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'editor example marker' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'not a reader letter' -> pages ['p7-langue.svg'] count_all=1
+CHECK 'arrow NL' -> pages ['p8-exercices.svg'] count_all=1
+CHECK 'arrow FR' -> pages ['p8-exercices.svg'] count_all=4
+CHECK '135 NL key' -> pages ['p8-exercices.svg'] count_all=1
+CHECK '136 NL stem' -> pages ['p8-exercices.svg'] count_all=1
+CHECK '137 NL stem' -> pages ['p8-exercices.svg'] count_all=1
+CHECK '138 NL stem' -> pages ['p8-exercices.svg'] count_all=1
+CHECK '139 NL stem' -> pages ['p8-exercices.svg'] count_all=1
+CHECK '150 NL key' -> pages ['p8-exercices.svg'] count_all=1
+CHECK 'Q106 error' -> pages ['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] count_all=8
+CHECK 'Q106 key context' -> pages ['p5-jeunesse.svg', 'p7-langue.svg', 'p8-exercices.svg'] count_all=5
+CJK p1-une.svg: 0
+CJK p2-vie.svg: 0
+CJK p3-culture.svg: 0
+CJK p4-sport.svg: 0
+CJK p5-jeunesse.svg: 0
+CJK p6-politique.svg: 0
+CJK p7-langue.svg: 0
+CJK p8-exercices.svg: 0
+CORE CJK p1-une.svg: 192
+CORE CJK p2-vie.svg: 219
+CORE CJK p3-culture.svg: 156
+CORE CJK p4-sport.svg: 171
+CORE CJK p5-jeunesse.svg: 159
+CORE CJK p6-politique.svg: 170
+CORE CJK p7-langue.svg: 328
+CORE CJK p8-exercices.svg: 788
+--- P8 ED nodes with 119. ---
+   '119.'
+   "119. B (s'intéresser aux (à + les)) · 120. B (si + imparfait →"
+--- P8 CORE nodes with 119. ---
+   '119.'
+   "allons） · 119. B（s'intéresser aux（à+les）） · 120. B（si"
+--- P8 ED nodes with 120. ---
+   '120.'
+   "119. B (s'intéresser aux (à + les)) · 120. B (si + imparfait →"
+--- P8 CORE nodes with 120. ---
+   '120.'
+   "allons） · 119. B（s'intéresser aux（à+les）） · 120. B（si"
+--- P8 ED nodes with 121. ---
+   '121.'
+   "conditionnel; j' = je geëlideerd) · 121. A (ce programme"
+--- P8 CORE nodes with 121. ---
+   '121.'
+   "现在时）；j' 是 je 在元音前的省音） · 121. A（主语 ce"
+=== item 135 ED ===
+   '135.'
+   '(il est prévu que + aanvoegende wijs) · 135. Een'
+=== item 135 CORE ===
+   '135.'
+   '· 135. 读一份日程，本身就是在了解法国。（lire un'
+=== item 136 ED ===
+   '136.'
+   'programme = programma lezen) · 136. Il court plus vite'
+=== item 136 CORE ===
+   '136.'
+   'programme = 读日程） · 136. Il court plus vite que son'
+=== item 137 ED ===
+   '137.'
+   'que son frère. (comparatief plus vite + court) · 137. Les'
+=== item 137 CORE ===
+   '137.'
+   'frère.（比较级 plus vite + court） · 137. Les élèves sont en'
+=== item 138 ED ===
+   '138.'
+   'vacances + depuis) · 138. Ce soir, nous allons préparer nos'
+=== item 138 CORE ===
+   '138.'
+   '· 138. Ce soir, nous allons préparer nos cartables.（futur'
+=== item 139 ED ===
+   '139.'
+   'cartables. (futur proche + préparer) · 139. On ne connaît'
+=== item 139 CORE ===
+   '139.'
+   'proche + préparer） · 139. On ne connaît pas encore les'
+=== item 150 ED ===
+   'week-end ! = fijn weekend) · 150. Open opdracht — punten'
+=== item 150 CORE ===
+   '· 150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要'
+=== item 106 ED ===
+   '(jamais + de: des wordt de) · 106. Les jeunes créateurs y'
+=== item 106 CORE ===
+   '中 des 变 de） · 106. Les jeunes créateurs y rencontrent'
+libre page p8-exercices.svg
+ Si j page p8-exercices.svg ["Si j'étais libre dimanche, j'___ à Nanterre. A."]
+FOOTER p1-une.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 1 van 8']
+FOOTER p2-vie.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 2 van 8']
+FOOTER p3-culture.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 3 van 8']
+FOOTER p4-sport.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 4 van 8']
+FOOTER p5-jeunesse.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 5 van 8']
+FOOTER p6-politique.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 6 van 8']
+FOOTER p7-langue.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 7 van 8']
+FOOTER p8-exercices.svg: ['Le Lucerna · FRANS WEEKBLAD VOL.3 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+  W43: ['Le Lucerna · FRANS WEEKBLAD VOL.2 · TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS', 'Pagina 8 van 8']
+ED TEKSTEN IN HET FRANS 'SC" font-size="24" font-weight="700" fill="#b3a06a" text-anchor="end">MAANDAG · TERUG NAAR SCHOOL IN HEEL FRANKRIJK</text><text x="1855" y="522" font-family="Noto Sans CJK SC" font-size="21" fill="#b3a06a" text-anchor="end">Masters begint · Pitchfork opent · zie pagina 2</text><text x="975" y="574" font-family="Noto Sans CJK SC" font-size="22" font-weight="700" fill="#a4553a" text-anchor="middle">TEKSTEN IN HET FRANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDER'
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/fr-nl-proof/work/check_text.py", line 95, in <module>
+    svg=(d/"p1-une.svg").read_text(encoding="utf-8")
+         ~^~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'dict' and 'str'

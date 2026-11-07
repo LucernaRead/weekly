@@ -1,0 +1,10 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-de-ru/svg: 8 flags {'BOXTITLE': 5, 'LINEX': 1, 'TEXTX': 2}
+  [TEXTX] p1-front.svg 'DIE WOCHE IN ZAHLEN · Цифры недели' — ink overlaps 'Der ___ läuft bis zum 31. Dezember.' by 22.2x14.9px
+  [BOXTITLE] p1-front.svg 'DIE WOCHE IN ZAHLEN · Цифры недели' — ink crosses its box borders: right ink 1011.2 > border 961.0
+  [LINEX] p2-leben.svg 'Prognose: Die Wirtschaft wächst' — later line box [64.0, 1553.0, 1886.0, 1555.0] crosses ink
+  [TEXTX] p2-leben.svg 'langsam, aber nicht von allein.' — ink overlaps 'Die Zahlen der Woche · Цифры недели' by 290.0x17.1px
+  [BOXTITLE] p3-kultur.svg 'FERIENWECHSEL · Смена каникул' — ink crosses its box borders: right ink 1893.5 > border 1885.0
+  [BOXTITLE] p3-kultur.svg 'HERBSTWÖRTER · Осенние слова' — ink crosses its box borders: right ink 1887.5 > border 1885.0
+  [BOXTITLE] p5-jugend.svg 'FERIENWECHSEL · Смена каникул' — ink crosses its box borders: right ink 1893.5 > border 1885.0
+  [BOXTITLE] p5-jugend.svg 'SCHULWÖRTER · Школьные слова' — ink crosses its box borders: right ink 1898.2 > border 1885.0

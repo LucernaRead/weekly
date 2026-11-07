@@ -1,0 +1,162 @@
+6c6
+< OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-core/svg")
+---
+> OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-zh-tw/svg")
+12c12
+< p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Museumnacht, boeken en kunst · 博物馆之夜、书籍与艺术")
+---
+> p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Museumnacht, boeken en kunst · 博物館之夜、書籍與藝術")
+24c24
+< f.gloss("het museum 博物馆 · de rondleiding 导览 · het tijdslot 时间段 · tweedehands 二手的 · de beurs 展会、集市。")
+---
+> f.gloss("het museum 博物館 · de rondleiding 導覽 · het tijdslot 時間段 · tweedehands 二手的 · de beurs 展會、集市。")
+48,49c48,49
+< p.text(MX, ey + 28, "OEFENINGEN · 第 3 版练习", 28, "sans", True, OLIVE)
+< p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, ey + 28, "OEFENINGEN · 第 3 版練習", 28, "sans", True, OLIVE)
+> p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+52,53c52,53
+< e.bridge("读第 3 版文章，选出正确答案。")
+< e.ex("A2", "单选", "B", "博物馆之夜在 11 月 7 日周六",
+---
+> e.expl("讀第 3 版文章，選出正確答案。")
+> e.ex("A2", "單選", "B", "博物館之夜在 11 月 7 日週六",
+55c55
+< e.ex("A2", "单选", "B", "博物馆开放到凌晨 2 点",
+---
+> e.ex("A2", "單選", "B", "博物館開放到凌晨 2 點",
+57c57
+< e.ex("A2", "单选", "C", "Crossing Border 在海牙",
+---
+> e.ex("A2", "單選", "C", "Crossing Border 在海牙",
+59c59
+< e.ex("A2", "单选", "A", "Crossing Border 结合书籍与音乐",
+---
+> e.ex("A2", "單選", "A", "Crossing Border 結合書籍與音樂",
+61c61
+< e.ex("A2", "单选", "B", "PAN 艺术博览会到 11 月 8 日",
+---
+> e.ex("A2", "單選", "B", "PAN 藝術博覽會到 11 月 8 日",
+64c64
+< e.bridge("用方框里的词填空。注意：有的词要变成复数。")
+---
+> e.expl("用方框裡的詞填空。注意：有的詞要變成複數。")
+66c66
+< e.ex("A2", "完成句子", "musea", "museum 复数：musea",
+---
+> e.ex("A2", "完成句子", "musea", "museum 複數：musea",
+68c68
+< e.ex("A2", "完成句子", "rondleiding", "rondleiding = 导览",
+---
+> e.ex("A2", "完成句子", "rondleiding", "rondleiding = 導覽",
+70c70
+< e.ex("B1", "完成句子", "tijdslot", "tijdslot = 时间段",
+---
+> e.ex("B1", "完成句子", "tijdslot", "tijdslot = 時間段",
+74c74
+< e.ex("A2", "完成句子", "beurs", "beurs = 展会、集市",
+---
+> e.ex("A2", "完成句子", "beurs", "beurs = 展會、集市",
+77c77
+< e.bridge("用现在完成时补全，注意助动词 hebben/zijn。")
+---
+> e.expl("用現在完成時補全，注意助動詞 hebben/zijn。")
+87,88c87,88
+< e.bridge("算一算：用第 3 版的数字回答。")
+< e.ex("B1", "完成句子", "7", "19:00 到 02:00 共 7 小时",
+---
+> e.expl("算一算：用第 3 版的數字回答。")
+> e.ex("B1", "完成句子", "7", "19:00 到 02:00 共 7 小時",
+104c104
+< p.band("SPORT · 体育", "De Lucerna", "NIVEAU B1 · Europese week en speelronde 12 · 欧战周与第 12 轮")
+---
+> p.band("SPORT · 體育", "De Lucerna", "NIVEAU B1 · Europese week en speelronde 12 · 歐戰週與第 12 輪")
+115c115
+< f.gloss("de balans 成绩单、总结 · gelijkspelen 打平 · de speelronde 轮次 · de topper 焦点战 · de stand 积分榜。")
+---
+> f.gloss("de balans 成績單、總結 · gelijkspelen 打平 · de speelronde 輪次 · de topper 焦點戰 · de stand 積分榜。")
+140,141c140,141
+< p.text(MX, ey + 28, "OEFENINGEN · 第 4 版练习", 28, "sans", True, OLIVE)
+< p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+---
+> p.text(MX, ey + 28, "OEFENINGEN · 第 4 版練習", 28, "sans", True, OLIVE)
+> p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+144,145c144,145
+< e.bridge("读第 4 版文章，选出正确答案。")
+< e.ex("B1", "单选", "B", "阿贾克斯 2–0 赢亚特兰大",
+---
+> e.expl("讀第 4 版文章，選出正確答案。")
+> e.ex("B1", "單選", "B", "阿賈克斯 2–0 贏亞特蘭大",
+147c147
+< e.ex("B1", "单选", "C", "特温特 4–1 赢林肯红魔",
+---
+> e.ex("B1", "單選", "C", "特溫特 4–1 贏林肯紅魔",
+149c149
+< e.ex("B1", "单选", "A", "NEC 2–4 输给萨格勒布迪纳摩",
+---
+> e.ex("B1", "單選", "A", "NEC 2–4 輸給薩格勒布迪納摩",
+151c151
+< e.ex("B1", "单选", "B", "皇家贝蒂斯 1–0 赢费耶诺德",
+---
+> e.ex("B1", "單選", "B", "皇家貝蒂斯 1–0 贏費耶諾德",
+153c153
+< e.ex("B1", "单选", "B", "10 轮后费耶诺德 24 分领跑",
+---
+> e.ex("B1", "單選", "B", "10 輪後費耶諾德 24 分領跑",
+156c156
+< e.bridge("用方框里的词填空。注意动词形式。")
+---
+> e.expl("用方框裡的詞填空。注意動詞形式。")
+158c158
+< e.ex("B1", "完成句子", "balans", "balans = 成绩单、总结",
+---
+> e.ex("B1", "完成句子", "balans", "balans = 成績單、總結",
+160c160
+< e.ex("B1", "完成句子", "speelden gelijk", "gelijkspelen 过去时复数：speelden gelijk",
+---
+> e.ex("B1", "完成句子", "speelden gelijk", "gelijkspelen 過去時複數：speelden gelijk",
+162c162
+< e.ex("B1", "完成句子", "topper", "topper = 焦点战",
+---
+> e.ex("B1", "完成句子", "topper", "topper = 焦點戰",
+164c164
+< e.ex("B1", "完成句子", "stand", "stand = 积分榜",
+---
+> e.ex("B1", "完成句子", "stand", "stand = 積分榜",
+166c166
+< e.ex("B1", "完成句子", "doelpunt", "doelpunt = 进球",
+---
+> e.ex("B1", "完成句子", "doelpunt", "doelpunt = 進球",
+169,170c169,170
+< e.bridge("用过去时或完成时补全。")
+< e.ex("B1", "完成句子", "won", "winnen 过去时：won",
+---
+> e.expl("用過去時或完成時補全。")
+> e.ex("B1", "完成句子", "won", "winnen 過去時：won",
+172c172
+< e.ex("B1", "完成句子", "ging", "gaan 过去时：ging",
+---
+> e.ex("B1", "完成句子", "ging", "gaan 過去時：ging",
+174c174
+< e.ex("B1", "完成句子", "verloor", "verliezen 过去时：verloor",
+---
+> e.ex("B1", "完成句子", "verloor", "verliezen 過去時：verloor",
+179,186c179,186
+< e.ex("B1", "判断对错", "Waar", "对：阿贾克斯 2–0 获胜",
+<      "Ajax won donderdag met 2–0 van Atalanta. Waar of niet waar?", instr="判断", size=20, gap=8)
+< e.ex("B1", "判断对错", "Niet waar", "错：NEC 2–4 输了",
+<      "NEC won met 4–2 bij Dinamo Zagreb. Waar of niet waar?", instr="判断", size=20, gap=8)
+< e.ex("B1", "判断对错", "Niet waar", "错：特温特–阿贾克斯 13:30；11:15 是海伦芬–费耶诺德",
+<      "Twente – Ajax is zondag om 11:15 uur. Waar of niet waar?", instr="判断", size=20, gap=8)
+< e.ex("B1", "判断对错", "Waar", "对：10 轮后费耶诺德 24 分第一",
+<      "Feyenoord staat na 10 ronden bovenaan met 24 punten. Waar of niet waar?", instr="判断", size=20, gap=8)
+---
+> e.ex("B1", "判斷對錯", "Waar", "對：阿賈克斯 2–0 獲勝",
+>      "Ajax won donderdag met 2–0 van Atalanta. Waar of niet waar?", instr="判斷", size=20, gap=8)
+> e.ex("B1", "判斷對錯", "Niet waar", "錯：NEC 2–4 輸了",
+>      "NEC won met 4–2 bij Dinamo Zagreb. Waar of niet waar?", instr="判斷", size=20, gap=8)
+> e.ex("B1", "判斷對錯", "Niet waar", "錯：特溫特–阿賈克斯 13:30；11:15 是海倫芬–費耶諾德",
+>      "Twente – Ajax is zondag om 11:15 uur. Waar of niet waar?", instr="判斷", size=20, gap=8)
+> e.ex("B1", "判斷對錯", "Waar", "對：10 輪後費耶諾德 24 分第一",
+>      "Feyenoord staat na 10 ronden bovenaan met 24 punten. Waar of niet waar?", instr="判斷", size=20, gap=8)

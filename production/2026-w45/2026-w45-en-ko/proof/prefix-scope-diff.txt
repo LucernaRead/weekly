@@ -1,0 +1,26 @@
+baseline entries=20 current entries=20
+CHANGED:
+  The-Lucerna-VOL2-KO-web.pdf pre=8ce20818fbc8ba537f08f505d0109f4bafca2e5713309e2b0eb2e0b45a4fa4df cur=380f734d1f2094eb9426827ce3b08153929f7598a7fe710f2bcd88b22642df0f
+  The-Lucerna-VOL2-KO.pdf pre=9a805dba23f7a6dc2d25f9e196d2fe8b9300dfdd178f43f973a76254ba0539b1 cur=305b69f2413cb500f80f03d6229d7115e68e40d9286775eea5ea7c6cd4691949
+  WEEKLY-KIT.md pre=ebfeb76c174f05e2342c550955ddee7d64d178311e4c72d349da890a17279db1 cur=1d500442b6fb9d46f07659839a675ac8f8b08d409f3064ad068381ef677aba69
+  cards/p8-exercices.png pre=1c7da9c775aa06501434736442e1d9730323d186edb3df349713ad49ad716298 cur=4868c268f0c5573dc93177c8e79fdcee06ccf2653a03c04ae22b9c69785d4c2b
+  svg/p8-exercices.svg pre=4bf81c17a5b9457d12fbe4efccca928042c76139a50c1ca2e1970c027d4fee7c cur=7cee4087c86c46b3b627c7f6cf0bc16cf5baa3c33380ae1d93143f377ea48e3c
+UNCHANGED:
+  ABSTRACT.txt
+  cards/p1-front.png
+  cards/p2-life.png
+  cards/p3-culture.png
+  cards/p4-sport.png
+  cards/p5-jeunesse.png
+  cards/p6-politique.png
+  cards/p7-langue.png
+  svg/p1-front.svg
+  svg/p2-life.svg
+  svg/p3-culture.svg
+  svg/p4-sport.svg
+  svg/p5-jeunesse.svg
+  svg/p6-politique.svg
+  svg/p7-langue.svg
+baseline keys not in current: []
+current keys not in baseline: []
+pypdf error: No module named 'pypdf'

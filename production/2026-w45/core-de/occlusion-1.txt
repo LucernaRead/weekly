@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-de-core/svg: 5 flags {'BOXTITLE': 3, 'TEXTX': 2}
+  [TEXTX] p1-front.svg 'ENGLISCHE WOCHE, DANN DER 9. SPIELTAG — DEUTSCHLAND SPIELT F' — ink overlaps '本周足球周 · 欧冠欧联德甲连轴转' by 17.9x23.2px
+  [BOXTITLE] p1-front.svg '本周大问题 · Die Fragen der Woche in Deutschland' — ink crosses its box borders: right ink 1924.0 > border 1885.0
+  [TEXTX] p2-leben.svg 'Staat: rund 2,5 Milliarden €' — ink overlaps '= weniger Einnahmen' by 3.5x21.5px
+  [BOXTITLE] p3-kultur.svg 'DER TIPP DER REDAKTION · 编辑部建议' — ink crosses its box borders: right ink 1934.2 > border 1885.0
+  [BOXTITLE] p6-vertiefung.svg 'DIE ZAHLEN DER WOCHE · 本周数字' — ink crosses its box borders: right ink 1892.2 > border 1885.0

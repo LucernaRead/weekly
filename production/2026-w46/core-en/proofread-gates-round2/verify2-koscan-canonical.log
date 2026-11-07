@@ -1,0 +1,25 @@
+UNRESOLVED p1-front.svg y=330.0 head='영화' tail='영어' :: 'L.3 · 기념 · 축구 · 영화' / '영어 텍스트 · 한국어 해설 — '
+UNRESOLVED p1-front.svg y=478.0 head='묵념' tail='참전' :: '일 오전 11시 · 2분간의 묵념' / '참전 용사의 날 · 전몰자 추모일'
+SPLIT p2-life.svg y=1496.87->1525.27 head='영'(1) tail='어로'(2) :: ...'러분의 나라는 무엇을 하나요? 영' / '어로 두 문장을 써서 편집부에 보'
+SPLIT p2-life.svg y=2037.5->2067.225 head='일'(1) tail='어날'(2) :: ...'로 바꿔 쓰세요(약속과 앞으로 일' / '어날 일).'
+SPLIT p3-culture.svg y=620.985->650.71 head='않'(1) tail='은'(1) :: ...'et to come 아직 오지 않' / '은 것.'
+SPLIT p5-jeunesse.svg y=794.2->823.9250000000001 head='걸'(1) tail='음이'(2) :: ...'y mile helps = 매 걸' / '음이 소중해요.'
+SPLIT p6-politique.svg y=860.225->889.95 head='결'(1) tail='선'(1) :: ...'다(인증) · a runoff 결' / '선 투표 · patience 인내'
+SPLIT p6-politique.svg y=1127.88->1157.605 head='선'(1) tail='거의'(2) :: ...'주, 쉰 가지 규칙 — 그래서 선' / '거의 밤에 보는 건 지도가 되지,'
+SPLIT p7-langue.svg y=812.2->841.9250000000001 head='하'(1) tail='나;'(1) :: ...' 휴대 문장 세 개, 단계마다 하' / '나; 명문장은 전부 이번 호 기사'
+SPLIT p7-langue.svg y=2104.0->2132.0 head='편지'(2) tail='를'(1) :: ...' 사실을 있는 그대로 밝히고 편지' / '를 지어내지 않아요. 여러분의 편'
+SPLIT p8-exercices.svg y=1937.41->1957.56 head='붉'(1) tail='은'(1) :: ...'8년) · 9. A (사람들은 붉' / '은 양귀비꽃을 달아요) · 10.'
+SPLIT p8-exercices.svg y=1961.91->1982.0600000000002 head='갈라쇼'(3) tail='는'(1) :: ...'일) · 68. A (모금 갈라쇼' / '는 솔퍼드에서 생방송돼요) · 6'
+SPLIT p8-exercices.svg y=2249.82->2269.9700000000003 head='결'(1) tail='과는'(2) :: ...'8. B · 89. A (공식 결' / '과는 각 주 인증에서 나와요) ·'
+UNRESOLVED p8-exercices.svg y=2269.9700000000003 head='시간이' tail='걸려요)' :: ' C (우편 투표 개표에는 시간이' / '걸려요) · 91. B · 92.'
+UNRESOLVED p8-exercices.svg y=1982.0600000000002 head='(퍼' tail='지' :: 'en 열한) · 116. A (퍼' / '지 노란 곰) · 117. C ('
+SPLIT p8-exercices.svg y=2042.51->2062.66 head='일에'(2) tail='는'(1) :: ...' 122. B (이미 일어난 일에' / '는 wrote를 써요) · 123'
+UNRESOLVED p8-exercices.svg y=2143.26 head='동안' tail='묵념해요)' :: '130. B (전교생이 2분 동안' / '묵념해요) · 131. A (반에'
+UNRESOLVED p8-exercices.svg y=2163.41 head='(퍼' tail='지는' :: ' 구웠어요) · 132. B (퍼' / '지는 언제나처럼 노란색이에요) ·'
+UNRESOLVED p8-exercices.svg y=2244.01 head='이끌어' tail='요)' :: "ther는 '~인지' 절을 이끌어" / '요) · 137. 인내는 제도의 '
+SPLIT p8-exercices.svg y=2264.16->2284.31 head='일'(1) tail='부분;'(2) :: ...'아니에요. (part of = 일' / '부분; not a failure '
+UNRESOLVED p8-exercices.svg y=2485.81 head='항목대로' tail='채점해요)' :: '면 쓰기 칸 안에 (기준 항목대로' / '채점해요)'
+CANDIDATES=28 TRUE_SPLITS=13 S3=0
+ORPHAN final lines (<=1 syllable): 0
+LINE-START orphan punct: 1
+  LEAD ('p8-exercices.svg', 1335.905, '! See you on (149)___ ! — Have a good day.')

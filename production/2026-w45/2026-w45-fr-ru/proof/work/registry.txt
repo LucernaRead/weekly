@@ -1,0 +1,29 @@
+ED: (150, {1: 10, 2: 15, 3: 18, 4: 18, 5: 17, 6: 18, 7: 12, 8: 42}, {'A2': 53, 'B1': 75, 'B2': 22})
+CORE: (150, {1: 10, 2: 15, 3: 18, 4: 18, 5: 17, 6: 18, 7: 12, 8: 42}, {'A2': 53, 'B1': 75, 'B2': 22})
+meta diffs: []
+key diffs (registry): [135, 150]
+  #135 CORE key='读一份日程，本身就是在了解法国。'
+      ED   key='Читать программу — уже значит понимать Францию.'
+      CORE note='lire un programme = 读日程'
+      ED   note='lire un programme = читать программу'
+  #150 CORE key='开放题 — 要点见写作框，范文在第 8 版写作框内'
+      ED   key='Открытый вопрос — баллы в рамке для письма, а образец — в рамке MODÈLE на этой странице'
+      CORE note='按要点给分'
+      ED   note='оценка по баллам'
+note diffs count: 137
+unchanged notes: [15, 16, 17, 18, 97, 99, 101, 102, 103, 104, 118, 137, 138]
+long/writing # 150 写作 words= 17 'Открытый вопрос — баллы в рамке для письма, а образец — в рамке MODÈLE на этой странице'
+#119 CORE={'n': 119, 'page': 8, 'level': 'B1', 'type': '单选', 'key': 'B', 'note': "s'intéresser aux（à+les）"}
+#119 ED  ={'n': 119, 'page': 8, 'level': 'B1', 'type': '单选', 'key': 'B', 'note': "s'intéresser aux (à + les)"}
+#120 CORE={'n': 120, 'page': 8, 'level': 'B2', 'type': '单选', 'key': 'B', 'note': "si + imparfait（未完成过去时）→ conditionnel présent（条件式现在时）；j' 是 je 在元音前的省音"}
+#120 ED  ={'n': 120, 'page': 8, 'level': 'B2', 'type': '单选', 'key': 'B', 'note': "si + imparfait → conditionnel; j' = je"}
+#121 CORE={'n': 121, 'page': 8, 'level': 'B2', 'type': '单选', 'key': 'A', 'note': '主语 ce programme 三单 → semble'}
+#121 ED  ={'n': 121, 'page': 8, 'level': 'B2', 'type': '单选', 'key': 'A', 'note': 'ce programme — 3-е лицо ед. числа → semble'}
+#136 CORE={'n': 136, 'page': 8, 'level': 'A2', 'type': '翻译', 'key': 'Il court plus vite que son frère.', 'note': '比较级 plus vite + court'}
+#136 ED  ={'n': 136, 'page': 8, 'level': 'A2', 'type': '翻译', 'key': 'Il court plus vite que son frère.', 'note': 'сравнение plus vite + court'}
+#137 CORE={'n': 137, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': 'Les élèves sont en vacances depuis le 17 octobre.', 'note': 'être en vacances + depuis'}
+#137 ED  ={'n': 137, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': 'Les élèves sont en vacances depuis le 17 octobre.', 'note': 'être en vacances + depuis'}
+#138 CORE={'n': 138, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': 'Ce soir, nous allons préparer nos cartables.', 'note': 'futur proche + préparer'}
+#138 ED  ={'n': 138, 'page': 8, 'level': 'B1', 'type': '翻译', 'key': 'Ce soir, nous allons préparer nos cartables.', 'note': 'futur proche + préparer'}
+#139 CORE={'n': 139, 'page': 8, 'level': 'B2', 'type': '翻译', 'key': 'On ne connaît pas encore les finalistes.', 'note': 'ne...pas encore = 尚未'}
+#139 ED  ={'n': 139, 'page': 8, 'level': 'B2', 'type': '翻译', 'key': 'On ne connaît pas encore les finalistes.', 'note': 'ne...pas encore = пока не'}

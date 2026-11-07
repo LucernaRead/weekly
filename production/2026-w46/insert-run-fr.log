@@ -1,0 +1,10 @@
+2026-11-03 17:46:08 UTC START bundle fr (one commit for the whole native set)
+2026-11-03 17:50:08 UTC   | (b) 2026-w46-fr-zh-cn: rendered from sibling (seed); web PDF 2057424 B sha256 e56328087e180a3c…
+2026-11-03 17:50:08 UTC   | (b) 2026-w46-fr-zh-tw: rendered from sibling (seed); web PDF 2400946 B sha256 8190272797d18378…
+2026-11-03 17:50:08 UTC   | (c) all bundle files written; lint --write OK
+2026-11-03 17:50:08 UTC   | (d) lint --require-pdf green: OK:293 版,index.json 最新
+2026-11-03 17:50:08 UTC   | (e) bundle commit 6dcf4af2 (11 editions)
+2026-11-03 17:50:08 UTC   |   push attempt 1 not verified (remote a134d607), retrying…
+2026-11-03 17:50:08 UTC   |   push verified on attempt 2: origin main == 6dcf4af2
+2026-11-03 17:50:08 UTC   | (f) verified: ls-remote origin main == local HEAD (6dcf4af2); editions in repo: 293
+2026-11-03 17:50:14 UTC BATCH fr: bundle done, index 282 -> 293 editions, local=6dcf4af2 remote=6dcf4af2 match=True

@@ -1,0 +1,70 @@
+=== P8 KEY section only (y >= 1328) ===
+key-section nodes: 168
+full-width parens in key section: []
+Han inside half-width parens in key section: []
+Han chars anywhere in key-section paren contents (both widths): []
+key-section nodes identical to core key-section nodes?
+core key nodes: 163 ed key nodes: 168
+core P8 full-width-paren nodes: 11
+ed P8 full-width-paren nodes: 10
+stem full-width nodes equal sets: False
+
+=== AI-variant forms (P5 vs P8) ===
+core p6-deep.svg 547.88 '智慧＋：人工智慧走進銀行、投資、保'
+=== frozen ＋ counts core vs ed ===
+p1-front.svg core 1 ed 1
+p2-life.svg core 0 ed 0
+p3-culture.svg core 0 ed 0
+p4-sport.svg core 0 ed 0
+p5-youth.svg core 0 ed 0
+p6-deep.svg core 3 ed 3
+p7-lang.svg core 0 ed 0
+p8-test.svg core 1 ed 0
+
+=== Readers corner line 2 + Italian disclosure full ===
+line2: 1457.51 '讀者來信和第8版最佳作文；截至截稿，'
+ed P7 1638.03 'vera. Avviso di rinvio: il VOL.1 aveva'
+ed P7 1666.43 'promesso lettere vere e i migliori testi di'
+ed P7 1694.8300000000002 'pagina 8 da questo numero; alla chiusura'
+ed P7 1723.2300000000002 'non ne era arrivato nessuno pubblicabile,'
+ed P7 1751.6300000000003 "quindi resta l'esempio. Scrivici!"
+--- core same band ---
+core P7 1638.03 'one. Deferral notice: VOL.1 promised real'
+core P7 1666.43 'letters and best page-8 writing from this'
+core P7 1694.8300000000002 'issue; none publishable had arrived by'
+core P7 1723.2300000000002 'press time, so the example stays and the'
+core P7 1751.6300000000003 'invitation stays open.'
+
+=== Golden recount, no-separator join ===
+'用手機轉帳、掃碼付款、網上買保險，都是金融科技' [('p1-front.svg', 1), ('p7-lang.svg', 1)] total 2
+'123個國家及城市、1,600個攤位' [('p1-front.svg', 1), ('p7-lang.svg', 1)] total 2
+'需要才買，不要為了折扣買一堆用不到的東西' [('p2-life.svg', 1), ('p7-lang.svg', 1)] total 2
+'在高雄，鋼鐵也能變成舞台' [('p3-culture.svg', 1), ('p7-lang.svg', 1)] total 2
+'福隆的夏天，在10月26日畫下句點' [('p3-culture.svg', 1), ('p7-lang.svg', 1)] total 2
+'6比0完封兄弟，龍隊拋下紅色彩帶' [('p4-sport.svg', 1), ('p7-lang.svg', 1)] total 2
+'250家店家一起討糖' [('p5-youth.svg', 1), ('p7-lang.svg', 1)] total 2
+'旅展首日中午12點才開門' [('p6-deep.svg', 1), ('p7-lang.svg', 1)] total 2
+=== P7 golden area nodes (all nodes y 1860-2340) ===
+  1890.3600000000001 65 '「用手機轉帳、掃碼付款、網上買保險，都是金融科技」'
+  1890.3600000000001 989 '「福隆的夏天，在10月26日畫下句點」'
+  1940.0300000000002 65 'Paga con il telefono, scansiona per pagare, compra assicurazioni online: questo è il fintech. (p. 1)'
+  1940.0300000000002 989 "L'estate di Fulong è finita il 26 ottobre. (p. 3)"
+  2028.3600000000001 65 '「123個國家及城市、1,600個攤位」'
+  2028.3600000000001 989 '「6比0完封兄弟，龍隊拋下紅色彩帶」'
+  2078.03 65 '123 paesi e città, 1.600 stand. (p. 1)'
+  2078.03 989 'Uno shutout per 6-0 contro i Brothers, e i Dragons hanno lanciato i nastri rossi. (p. 4)'
+  2166.36 65 '「需要才買，不要為了折扣買一堆用不到的東西」'
+  2166.36 989 '「250家店家一起討糖」'
+  2216.03 65 'Compra ciò che ti serve; non comprare un mucchio di cose che non userai solo per uno sconto. (p.'
+  2216.03 989 '250 negozi che offrono dolcetti insieme. (p. 5)'
+  2242.355 65 '2)'
+  2304.36 65 '「在高雄，鋼鐵也能變成舞台」'
+  2304.36 989 '「旅展首日中午12點才開門」'
+
+=== P4 credit wrap (ed vs core) ===
+-- core
+   591.3 'Photo: Bain News Service — Public domain (Wikimedia'
+   611.4499999999999 'Commons)'
+-- ed
+   591.3 'Photo: Bain News Service — Public domain (Wikimedia'
+   611.4499999999999 'Commons)'

@@ -1,0 +1,127 @@
+core items: 150 nums 1..150 contiguous=True
+edition items: 150 nums 1..150 contiguous=True
+missing in edition: [] extra in edition: []
+
+== IDENTICAL full lines (core == edition) ==
+count=0 nums=[]
+
+== KEYDIFF items (p8.py list) with full-line对照 + parsed keys ==
+#1:
+  CORE : 3 — 文化日在11月3日（周二）
+  ED   : 3 — La Journée de la culture, c'est le 3 novembre (mardi)
+  true-key-before-dash identical=True | core true-key='3' | ed true-key='3'
+  p8-parsed core key='3 — 文化日在11月3日' method=paren | ed key="3 — La Journée de la culture, c'est le 3 novembre" method=paren
+#2:
+  CORE : 9 — 读书周到11月9日（周一）
+  ED   : 9 — La Semaine de la lecture dure jusqu'au 9 novembre (lundi)
+  true-key-before-dash identical=True | core true-key='9' | ed true-key='9'
+  p8-parsed core key='9 — 读书周到11月9日' method=paren | ed key="9 — La Semaine de la lecture dure jusqu'au 9 novembre" method=paren
+#5:
+  CORE : 7 — 神户灯光秀从7日（周六）开始
+  ED   : 7 — Les illuminations de Kobe commencent le 7 (samedi)
+  true-key-before-dash identical=True | core true-key='7' | ed true-key='7'
+  p8-parsed core key='7' method=dash | ed key='7 — Les illuminations de Kobe commencent le 7' method=paren
+#7:
+  CORE : B — 文化日在11月3日（周二）
+  ED   : B — La Journée de la culture, c'est le 3 novembre (mardi)
+  true-key-before-dash identical=True | core true-key='B' | ed true-key='B'
+  p8-parsed core key='B — 文化日在11月3日' method=paren | ed key="B — La Journée de la culture, c'est le 3 novembre" method=paren
+#8:
+  CORE : C — 读书周到11月9日（周一）
+  ED   : C — La Semaine de la lecture dure jusqu'au 9 novembre (lundi)
+  true-key-before-dash identical=True | core true-key='C' | ed true-key='C'
+  p8-parsed core key='C — 读书周到11月9日' method=paren | ed key="C — La Semaine de la lecture dure jusqu'au 9 novembre" method=paren
+#9:
+  CORE : B — 立冬在11月7日（周六）
+  ED   : B — 立冬, c'est le 7 novembre (samedi)
+  true-key-before-dash identical=True | core true-key='B' | ed true-key='B'
+  p8-parsed core key='B — 立冬在11月7日' method=paren | ed key="B — 立冬, c'est le 7 novembre" method=paren
+#29:
+  CORE : A — 文化日在11月3日（周二）
+  ED   : A — La Journée de la culture, c'est le 3 novembre (mardi)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 文化日在11月3日' method=paren | ed key="A — La Journée de la culture, c'est le 3 novembre" method=paren
+#32:
+  CORE : B — 工艺展到11月8日（周日）
+  ED   : B — L'exposition dure jusqu'au 8 novembre (dimanche)
+  true-key-before-dash identical=True | core true-key='B' | ed true-key='B'
+  p8-parsed core key='B — 工艺展到11月8日' method=paren | ed key="B — L'exposition dure jusqu'au 8 novembre" method=paren
+#65:
+  CORE : A — 万圣节在10月31日（周六）
+  ED   : A — Halloween, c'était le 31 octobre (samedi)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 万圣节在10月31日' method=paren | ed key="A — Halloween, c'était le 31 octobre" method=paren
+#69:
+  CORE : C — 横滨中区民祭在11月8日（周日）
+  ED   : C — Le festival de Naka a lieu le 8 novembre (dimanche)
+  true-key-before-dash identical=True | core true-key='C' | ed true-key='C'
+  p8-parsed core key='C — 横滨中区民祭在11月8日' method=paren | ed key='C — Le festival de Naka a lieu le 8 novembre' method=paren
+#78:
+  CORE : ○ — ハロウィンは10月31日（土）
+  ED   : ○ — Halloween, c'était le 31 octobre (samedi)
+  true-key-before-dash identical=True | core true-key='○' | ed true-key='○'
+  p8-parsed core key='○ — ハロウィンは10月31日' method=paren | ed key="○ — Halloween, c'était le 31 octobre" method=paren
+#101:
+  CORE : 27 — 读书周从10月27日（周二）开始
+  ED   : 27 — La Semaine de la lecture commence le 27 octobre (mardi)
+  true-key-before-dash identical=True | core true-key='27' | ed true-key='27'
+  p8-parsed core key='27' method=dash | ed key='27 — La Semaine de la lecture commence le 27 octobre' method=paren
+#113:
+  CORE : A — 文化日在11月3日（周二）
+  ED   : A — La Journée de la culture, c'est le 3 novembre (mardi)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 文化日在11月3日' method=paren | ed key="A — La Journée de la culture, c'est le 3 novembre" method=paren
+#115:
+  CORE : A — 日本大赛第1战在10月24日（周六）
+  ED   : A — Le match 1 des Japan Series : le 24 octobre (samedi)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 日本大赛第1战在10月24日' method=paren | ed key='A — Le match 1 des Japan Series : le 24 octobre' method=paren
+#117:
+  CORE : B — 万圣节在10月31日（周六）
+  ED   : B — Halloween, c'était le 31 octobre (samedi)
+  true-key-before-dash identical=True | core true-key='B' | ed true-key='B'
+  p8-parsed core key='B — 万圣节在10月31日' method=paren | ed key="B — Halloween, c'était le 31 octobre" method=paren
+#118:
+  CORE : A — 立冬在11月7日（周六）
+  ED   : A — 立冬, c'est le 7 novembre (samedi)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 立冬在11月7日' method=paren | ed key="A — 立冬, c'est le 7 novembre" method=paren
+#137:
+  CORE : 文化日是11月3日。 — 对照第3版
+  ED   : La Journée de la culture, c'est le 3 novembre. — Voir page 3
+  true-key-before-dash identical=False | core true-key='文化日是11月3日。' | ed true-key="La Journée de la culture, c'est le 3 novembre."
+  p8-parsed core key='文化日是11月3日。' method=dash | ed key="La Journée de la culture, c'est le 3 novembre." method=dash
+#138:
+  CORE : 乱扔垃圾，要罚2,000日元。 — 对照第5版
+  ED   : Jeter des déchets coûte 2 000 yens d'amende. — Voir page 5
+  true-key-before-dash identical=False | core true-key='乱扔垃圾，要罚2,000日元。' | ed true-key="Jeter des déchets coûte 2 000 yens d'amende."
+  p8-parsed core key='乱扔垃圾，要罚2,000日元。' method=dash | ed key="Jeter des déchets coûte 2 000 yens d'amende." method=dash
+#140:
+  CORE : 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）
+  ED   : 神戸の紅葉のライトアップを見に行きたいです。 — Voir page 6
+  true-key-before-dash identical=True | core true-key='神戸の紅葉のライトアップを見に行きたいです。' | ed true-key='神戸の紅葉のライトアップを見に行きたいです。'
+  p8-parsed core key='神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版' method=paren | ed key='神戸の紅葉のライトアップを見に行きたいです。' method=dash
+#146:
+  CORE : A — 借りられます＝能借（可能形）
+  ED   : A — 借りられます = pouvoir emprunter (forme potentielle)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 借りられます＝能借' method=paren | ed key='A — 借りられます = pouvoir emprunter' method=paren
+#147:
+  CORE : A — 读书周到11月9日（第7版）
+  ED   : A — La Semaine de la lecture : jusqu'au 9 novembre (page 7)
+  true-key-before-dash identical=True | core true-key='A' | ed true-key='A'
+  p8-parsed core key='A — 读书周到11月9日' method=paren | ed key="A — La Semaine de la lecture : jusqu'au 9 novembre" method=paren
+
+== #139 / #140 / #150 spotlight ==
+#139 CORE: 読書週間は10月27日から始まります。 — 对照第7版
+#139 ED  : 読書週間は10月27日から始まります。 — Voir page 7
+  identical=False
+#140 CORE: 神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）
+#140 ED  : 神戸の紅葉のライトアップを見に行きたいです。 — Voir page 6
+  identical=False
+#150 CORE: ✓ 范文见本版 H 区（167 字）
+#150 ED  : ✓ Modèle dans la section H de cette page (167 caractères)
+  identical=False
+
+== P8 note-language check: every edition line's note part ==
+lines containing 工艺展/传统: []

@@ -1,0 +1,423 @@
+=== A. badge geometry (own attrs, edition vs W43) ===
+  W43: x=975 y=574 font=Noto Sans CJK TC size=22 weight=700 fill=#a4553a anchor=middle text='義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+  W45: x=975 y=574 font=Noto Sans CJK TC size=22 weight=700 fill=#a4553a anchor=middle text='義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本'
+=== B. disclosure: all 3 rendered lines + box containment ===
+  disclosure start index: [122]
+  line0: x=1473 y=1611.1499999999999 size=20 font=Noto Sans CJK TC text='這是編輯部示例信，非真實來信；本期無最'
+  line1: x=1473 y=1639.55 size=20 font=Noto Sans CJK TC text='佳第 8 版作文。請寄來信，VOL.3 刊登真實'
+  line2: x=1473 y=1667.95 size=20 font=Noto Sans CJK TC text='來信與最佳作文！'
+  joined disclosure: '這是編輯部示例信，非真實來信；本期無最佳第 8 版作文。請寄來信，VOL.3 刊登真實來信與最佳作文！'
+  target sentence: '這是編輯部示例信，非真實來信；本期無最佳第 8 版作文。請寄來信，VOL.3 刊登真實來信與最佳作文！'
+  verbatim match: True
+  disclosure y range: 1611.1499999999999 1667.95
+  containing rect: x=28.0 y=28.0 w=1894.0 h=2644.0
+  containing rect: x=40.0 y=40.0 w=1870.0 h=2620.0
+  containing rect: x=1451.0 y=1339.5 w=434.0 h=333.5
+  disclosure line0 ink box: (1473.0, 1593.8999999999999, 1853.0, 1613.6499999999999) bottom margin to 1673.0 = 59.35
+  disclosure line1 ink box: (1473.0, 1622.55, 1851.25, 1641.8) bottom margin to 1673.0 = 31.20
+  disclosure line2 ink box: (1473.0, 1650.95, 1633.0, 1669.95) bottom margin to 1673.0 = 3.05
+  letter lt in core P7: ['«Ciao! Sono Li, studio italiano a']
+  letter lt in edition P7: ['«Ciao! Sono Li, studio italiano a']
+  letter tag core: True edition: True
+=== C. P8 full key compare (p8.py extract, all 150) ===
+  core noted set size=150 edition noted set size=150 sets equal=True
+  keys dict sizes: core=150 edition=150
+  full keydiff (all 150 compared, norm): [6, 15, 58, 71, 77, 137, 138, 139]
+    #6: core key='previsioni — previsioni = 预报' edition key='previsioni — previsioni = 預報' core seg='previsioni — previsioni = 预报（复数）' edition seg='previsioni — previsioni = 預報（複數）'
+      edition seg first-seg before " — " == core key? False
+    #15: core key='termosifoni — termosifoni = 暖气片' edition key='termosifoni — termosifoni = 暖氣片' core seg='termosifoni — termosifoni = 暖气片（复数）' edition seg='termosifoni — termosifoni = 暖氣片（複數）'
+      edition seg first-seg before " — " == core key? False
+    #58: core key='più bella — più + bella 周日晚最美' edition key='più bella — più + bella 週日晚最美' core seg='più bella — più + bella 周日晚最美（主观评价）' edition seg='più bella — più + bella 週日晚最美（主觀評價）'
+      edition seg first-seg before " — " == core key? False
+    #71: core key='gratuiti — gratuiti = 免费的' edition key='gratuiti — gratuiti = 免費的' core seg='gratuiti — gratuiti = 免费的（阳性复数）' edition seg='gratuiti — gratuiti = 免費的（陽性複數）'
+      edition seg first-seg before " — " == core key? False
+    #77: core key='ci sarà — esserci 将来时：ci sarà' edition key='ci sarà — esserci 將來時：ci sarà' core seg='ci sarà — esserci 将来时：ci sarà（将有）' edition seg='ci sarà — esserci 將來時：ci sarà（將有）'
+      edition seg first-seg before " — " == core key? False
+    #137: core key='周一第一场寒冷来了。' edition key='週一第一場寒冷來了。' core seg='周一第一场寒冷来了。 — 对照原文' edition seg='週一第一場寒冷來了。 — 對照原文'
+      edition seg first-seg before " — " == core key? False
+    #138: core key='观众可以免费品尝。' edition key='觀眾可以免費品嚐。' core seg='观众可以免费品尝。 — assaggiare gratis = 免费品尝' edition seg='觀眾可以免費品嚐。 — assaggiare gratis = 免費品嚐'
+      edition seg first-seg before " — " == core key? False
+    #139: core key='周日晚上，佛罗伦萨对尤文图斯。' edition key='週日晚上，佛羅倫薩對尤文圖斯。' core seg='周日晚上，佛罗伦萨对尤文图斯。 — si gioca = 进行比赛' edition seg='週日晚上，佛羅倫薩對尤文圖斯。 — si gioca = 進行比賽'
+      edition seg first-seg before " — " == core key? False
+    printed raw line #6 (edition): ['6. previsioni — previsioni = 預報（複數）']
+    printed raw line #15 (edition): ['15. termosifoni — termosifoni = 暖氣片（複數）']
+    printed raw line #58 (edition): ['58. più bella — più + bella 週日晚最美（主觀評價）']
+    printed raw line #71 (edition): ['71. gratuiti — gratuiti = 免費的（陽性複數）']
+    printed raw line #77 (edition): ['77. ci sarà — esserci 將來時：ci sarà（將有）']
+    printed raw line #137 (edition): ['137.', '137. 週一第一場寒冷來了。 — 對照原文']
+    printed raw line #138 (edition): ['138.', '138. 觀眾可以免費品嚐。 — assaggiare gratis = 免費品嚐']
+    printed raw line #139 (edition): ['139.', '139. 週日晚上，佛羅倫薩對尤文圖斯。 — si gioca = 進行比賽']
+    control #140: core key='Ogni previsione deve essere chiara.' edition key='Ogni previsione deve essere chiara.' equal=True
+    control #150: core key='✓' edition key='✓' equal=True
+  P8 printed-note simplified-variant chars (excl 里/栗): count=0 []
+  P8 string multiset: core-only 139 edition-only 139
+    diff-string: '1. freddo — il primo freddo = 第一场寒冷'
+    diff-string: '1. freddo — il primo freddo = 第一場寒冷'
+    diff-string: '10. B — 意甲第 11 輪週日收官'
+    diff-string: '10. B — 意甲第 11 轮周日收官'
+    diff-string: '100. modello — modello = 預報模型'
+    diff-string: '100. modello — modello = 预报模型'
+    diff-string: '101. piove — piovere 天气动词：piove'
+    diff-string: '101. piove — piovere 天氣動詞：piove'
+    diff-string: '102. fa — fa freddo = 天气冷'
+    diff-string: '102. fa — fa freddo = 天氣冷'
+    diff-string: '104. B — “我冷”说 ho freddo'
+    diff-string: '104. B — 「我冷」說 ho freddo'
+    diff-string: '107. sono andati — andare 用 essere，复数 sono andati'
+    diff-string: '107. sono andati — andare 用 essere，複數 sono andati'
+    diff-string: '108. B — aprire 用 avere + 不变分词'
+    diff-string: '108. B — aprire 用 avere + 不變分詞'
+    diff-string: '109. piova — è probabile che + 虚拟式 piova'
+    diff-string: '109. piova — è probabile che + 虛擬式 piova'
+    diff-string: '110. nevichi — è possibile che + 虚拟式 nevichi'
+    diff-string: '110. nevichi — è possibile che + 虛擬式 nevichi'
+    diff-string: '111. sia — bisogna che + 虚拟式 sia'
+    diff-string: '111. sia — bisogna che + 虛擬式 sia'
+    diff-string: '112. B — so che + 陈述式 arriva'
+    diff-string: '112. B — so che + 陳述式 arriva'
+    diff-string: '113. B — primo freddo = 第一场寒冷'
+    diff-string: '113. B — primo freddo = 第一場寒冷'
+    diff-string: '115. A — 文化論壇在米蘭開幕'
+    diff-string: '115. A — 文化论坛在米兰开幕'
+    diff-string: '116. A — 潘妮托尼决赛在周六日'
+    diff-string: '116. A — 潘妮託尼決賽在週六日'
+    diff-string: '117. B — 牛軋糖節在克雷莫納'
+    diff-string: '117. B — 牛轧糖节在克雷莫纳'
+    diff-string: '118. B — 意甲第 11 輪週日收官：chiude'
+    diff-string: '118. B — 意甲第 11 轮周日收官：chiude'
+    diff-string: '119. A — 佛罗伦萨对尤文图斯在周日晚上'
+    diff-string: '119. A — 佛羅倫薩對尤文圖斯在週日晚上'
+    diff-string: '12. sciarpa — sciarpa = 围巾'
+    diff-string: '12. sciarpa — sciarpa = 圍巾'
+    diff-string: '120. B — 民俗电影节在佛罗伦萨'
+    diff-string: '120. B — 民俗電影節在佛羅倫薩'
+    diff-string: '123. A — 潘妮托尼决赛有 19 国糕点师'
+    diff-string: '123. A — 潘妮託尼決賽有 19 國糕點師'
+    diff-string: '124. B — 文化論壇有 50 多場活動'
+    diff-string: '124. B — 文化论坛有 50 多场活动'
+    diff-string: '125. C — 阿尔巴松露节到 12 月 6 日'
+    diff-string: '125. C — 阿爾巴松露節到 12 月 6 日'
+    diff-string: '126. A — DPB 于 10 月 15 日送出'
+    diff-string: '126. A — DPB 於 10 月 15 日送出'
+    diff-string: '127. B — 概率不等于确定'
+    diff-string: '127. B — 機率不等於確定'
+    diff-string: '128. B — 卢卡漫画节 11 月 1 日闭幕'
+    diff-string: '128. B — 盧卡漫畫節 11 月 1 日閉幕'
+    diff-string: '129. B — Giulia 去米兰潘妮托尼决赛'
+    diff-string: '129. B — Giulia 去米蘭潘妮託尼決賽'
+    diff-string: '13. guanti — guanti = 手套（复数）'
+    diff-string: '13. guanti — guanti = 手套（複數）'
+    diff-string: '130. A — Paolo 周六去牛轧糖节'
+    diff-string: '130. A — Paolo 週六去牛軋糖節'
+    diff-string: '131. B — 传统潘妮托尼是 Giulia 品尝的'
+    diff-string: '131. B — 傳統潘妮託尼是 Giulia 品嚐的'
+    diff-string: '132. A — 标题概括两个城市、两个节日'
+    diff-string: '132. A — 標題概括兩個城市、兩個節日'
+    diff-string: '133. Lunedì arriva il primo freddo. — 时间词在前'
+    diff-string: '133. Lunedì arriva il primo freddo. — 時間詞在前'
+    diff-string: '134. La finale è a Milano il 7 novembre. — 主語 + essere + 地點 + 日期'
+    diff-string: '134. La finale è a Milano il 7 novembre. — 主语 + essere + 地点 + 日期'
+    diff-string: '135. A che ora apre il Forum Cultura? — 疑問詞組在句首'
+    diff-string: '135. A che ora apre il Forum Cultura? — 疑问词组在句首'
+    diff-string: '136. Il freddo arriva lunedì. — 主語 + 動詞 + 時間'
+    diff-string: '136. Il freddo arriva lunedì. — 主语 + 动词 + 时间'
+    diff-string: '137. 周一第一场寒冷来了。 — 对照原文'
+    diff-string: '137. 週一第一場寒冷來了。 — 對照原文'
+    diff-string: '138. 觀眾可以免費品嚐。 — assaggiare gratis = 免費品嚐'
+    diff-string: '138. 观众可以免费品尝。 — assaggiare gratis = 免费品尝'
+    diff-string: '139. 周日晚上，佛罗伦萨对尤文图斯。 — si gioca = 进行比赛'
+    diff-string: '139. 週日晚上，佛羅倫薩對尤文圖斯。 — si gioca = 進行比賽'
+    diff-string: '14. crisantemi — crisantemi = 菊花（复数）'
+    diff-string: '14. crisantemi — crisantemi = 菊花（複數）'
+    diff-string: '140. Ogni previsione deve essere chiara. — dovere = 必須'
+    diff-string: '140. Ogni previsione deve essere chiara. — dovere = 必须'
+    diff-string: '143. b — bollettino=預報公報 b'
+    diff-string: '143. b — bollettino=预报公报 b'
+    diff-string: '144. c — modello=預報模型 c'
+    diff-string: '144. c — modello=预报模型 c'
+    diff-string: '145. B — torrone = 牛軋糖'
+    diff-string: '145. B — torrone = 牛轧糖'
+    diff-string: '147. B — quanto costa? 多少錢'
+    diff-string: '147. B — quanto costa? 多少钱'
+    diff-string: '149. B — 牛軋糖節持續到 11 月 22 日'
+    diff-string: '149. B — 牛轧糖节持续到 11 月 22 日'
+    diff-string: '15. termosifoni — termosifoni = 暖气片（复数）'
+    diff-string: '15. termosifoni — termosifoni = 暖氣片（複數）'
+    diff-string: '150. ✓ 範文見本版 H 區（81 詞）'
+    diff-string: '150. ✓ 范文见本版 H 区（81 词）'
+    diff-string: '16. fa — fare freddo：fa freddo（天气）'
+    diff-string: '16. fa — fare freddo：fa freddo（天氣）'
+    diff-string: '23. C — 分层穿衣：a strati'
+    diff-string: '23. C — 分層穿衣：a strati'
+    diff-string: '24. B — 諸聖節今年是週日、無連休'
+    diff-string: '24. B — 诸圣节今年是周日、无连休'
+    diff-string: '25. c — cappotto=御寒大衣 c'
+    diff-string: '25. c — cappotto=禦寒大衣 c'
+    diff-string: '26. d — sciarpa=围巾 d'
+    diff-string: '26. d — sciarpa=圍巾 d'
+    diff-string: '28. b — termosifone=暖气片 b'
+    diff-string: '28. b — termosifone=暖氣片 b'
+    diff-string: '29. B — 潘妮托尼决赛在米兰'
+    diff-string: '29. B — 潘妮託尼決賽在米蘭'
+    diff-string: '3. Milano — 文化論壇與潘妮託尼決賽都在米蘭'
+    diff-string: '3. Milano — 文化论坛与潘妮托尼决赛都在米兰'
+    diff-string: '30. C — 克雷莫納牛軋糖節到 11 月 22 日'
+    diff-string: '30. C — 克雷莫纳牛轧糖节到 11 月 22 日'
+    diff-string: '31. B — 潘妮托尼决赛有 19 国糕点师'
+    diff-string: '31. B — 潘妮託尼決賽有 19 國糕點師'
+    diff-string: '32. A — 文化論壇 11 月 3 日週二開幕'
+    diff-string: '32. A — 文化论坛 11 月 3 日周二开幕'
+    diff-string: '33. B — 阿尔巴松露节到 12 月 6 日'
+    diff-string: '33. B — 阿爾巴松露節到 12 月 6 日'
+    diff-string: '34. panettone — panettone = 米兰圣诞面包'
+    diff-string: '34. panettone — panettone = 米蘭聖誕麵包'
+    diff-string: '35. torrone — torrone = 牛軋糖'
+    diff-string: '35. torrone — torrone = 牛轧糖'
+    diff-string: '36. assaggio — assaggio = 品嚐'
+    diff-string: '36. assaggio — assaggio = 品尝'
+    diff-string: '37. bancarella — bancarella = 摊位'
+    diff-string: '37. bancarella — bancarella = 攤位'
+    diff-string: '38. mandorle — mandorle = 杏仁（复数）'
+    diff-string: '38. mandorle — mandorle = 杏仁（複數）'
+    diff-string: '4. Torrone — 克雷莫納的節日叫 Festa del Torrone'
+    diff-string: '4. Torrone — 克雷莫纳的节日叫 Festa del Torrone'
+    diff-string: '42. sono andati — andare 用 essere，复数 sono andati'
+    diff-string: '42. sono andati — andare 用 essere，複數 sono andati'
+    diff-string: '44. La finale è a Milano il 7 novembre. — 主語 + essere + 地點 + 日期'
+    diff-string: '44. La finale è a Milano il 7 novembre. — 主语 + essere + 地点 + 日期'
+    diff-string: '45. A Cremona il torrone è il re. — 地点在前，主语在后'
+    diff-string: '45. A Cremona il torrone è il re. — 地點在前，主語在後'
+    diff-string: '46. La fiera dura fino al 6 dicembre. — dura fino a = 持續到'
+    diff-string: '46. La fiera dura fino al 6 dicembre. — dura fino a = 持续到'
+    diff-string: '47. B — 意甲第 11 輪週日收官'
+    diff-string: '47. B — 意甲第 11 轮周日收官'
+    diff-string: '48. B — 周日晚上佛罗伦萨对尤文图斯'
+    diff-string: '48. B — 週日晚上佛羅倫薩對尤文圖斯'
+    diff-string: '49. A — 欧战第 4 轮在 11 月 3–5 日'
+    diff-string: '49. A — 歐戰第 4 輪在 11 月 3–5 日'
+    diff-string: '5. domenica — 意甲第 11 輪週日收官'
+    diff-string: '5. domenica — 意甲第 11 轮周日收官'
+    diff-string: '50. C — 欧战比赛只作前瞻、无结果'
+    diff-string: '50. C — 歐戰比賽只作前瞻、無結果'
+    diff-string: '51. B — 国米对科莫在圣西罗'
+    diff-string: '51. B — 國米對科莫在聖西羅'
+    diff-string: '52. c — giornata=联赛的一轮 c'
+    diff-string: '52. c — giornata=聯賽的一輪 c'
+    diff-string: '53. b — presentazione=賽前介紹 b'
+    diff-string: '53. b — presentazione=赛前介绍 b'
+    diff-string: '54. a — spalti=看台 a'
+    diff-string: '54. a — spalti=看臺 a'
+    diff-string: '56. più tardi — 周日晚上的比赛晚于周五的：più tardi'
+    diff-string: '56. più tardi — 週日晚上的比賽晚於週五的：più tardi'
+    diff-string: '57. più presto — 周五的比赛早于周日的：più presto'
+    diff-string: '57. più presto — 週五的比賽早於週日的：più presto'
+    diff-string: '58. più bella — più + bella 周日晚最美（主观评价）'
+    diff-string: '58. più bella — più + bella 週日晚最美（主觀評價）'
+    diff-string: '59. meglio — bene 的比較級是不規則的 meglio'
+    diff-string: '59. meglio — bene 的比较级是不规则的 meglio'
+    diff-string: '6. previsioni — previsioni = 預報（複數）'
+    diff-string: '6. previsioni — previsioni = 预报（复数）'
+    diff-string: '62. sono arrivati — arrivare 用 essere，复数 sono arrivati'
+    diff-string: '62. sono arrivati — arrivare 用 essere，複數 sono arrivati'
+    diff-string: '64. ha preso — prendere 的分詞是 preso：ha preso'
+    diff-string: '64. ha preso — prendere 的分词是 preso：ha preso'
+    diff-string: '65. B — 卢卡漫画节是第 60 届'
+    diff-string: '65. B — 盧卡漫畫節是第 60 屆'
+    diff-string: '66. B — 文化論壇 11 月 3 日開幕'
+    diff-string: '66. B — 文化论坛 11 月 3 日开幕'
+    diff-string: '67. C — 民俗电影节在佛罗伦萨'
+    diff-string: '67. C — 民俗電影節在佛羅倫薩'
+    diff-string: '68. A — 文化論壇有 50 多場活動'
+    diff-string: '68. A — 文化论坛有 50 多场活动'
+    diff-string: '69. A — 卢卡漫画节主题是 Legacy'
+    diff-string: '69. A — 盧卡漫畫節主題是 Legacy'
+    diff-string: '7. A — 第一场寒冷在周一 11 月 2 日到来'
+    diff-string: '7. A — 第一場寒冷在週一 11 月 2 日到來'
+    diff-string: '70. armadio — armadio = 衣柜'
+    diff-string: '70. armadio — armadio = 衣櫃'
+    diff-string: '71. gratuiti — gratuiti = 免費的（陽性複數）'
+    diff-string: '71. gratuiti — gratuiti = 免费的（阳性复数）'
+    diff-string: '72. documentario — documentario = 紀錄片'
+    diff-string: '72. documentario — documentario = 纪录片'
+    diff-string: '73. schermo — schermo = 銀幕'
+    diff-string: '73. schermo — schermo = 银幕'
+    diff-string: '74. castagne — castagne arrosto 烤栗子（复数）'
+    diff-string: '74. castagne — castagne arrosto 烤栗子（複數）'
+    diff-string: '75. cosplay — cosplay = 角色扮演服装'
+    diff-string: '75. cosplay — cosplay = 角色扮演服裝'
+    diff-string: '76. andremo — andare 将来时 noi：andremo'
+    diff-string: '76. andremo — andare 將來時 noi：andremo'
+    diff-string: '77. ci sarà — esserci 将来时：ci sarà（将有）'
+    diff-string: '77. ci sarà — esserci 將來時：ci sarà（將有）'
+    diff-string: '78. guarderemo — guardare 将来时 noi：guarderemo'
+    diff-string: '78. guarderemo — guardare 將來時 noi：guarderemo'
+    diff-string: '79. durerà — durare 将来时：durerà'
+    diff-string: '79. durerà — durare 將來時：durerà'
+    diff-string: '80. Vero — 文化論壇有 50 多場活動'
+    diff-string: '80. Vero — 文化论坛有 50 多场活动'
+    diff-string: '81. Vero — 民俗电影节在佛罗伦萨'
+    diff-string: '81. Vero — 民俗電影節在佛羅倫薩'
+    diff-string: '82. Falso — 卢卡漫画节到 11 月 8 日才结束是错的'
+    diff-string: '82. Falso — 盧卡漫畫節到 11 月 8 日才結束是錯的'
+    diff-string: '83. B — 示例数据中最冷的是都灵 3°'
+    diff-string: '83. B — 示例數據中最冷的是都靈 3°'
+    diff-string: '84. A — 示例数据中最暖的是那不勒斯 12°'
+    diff-string: '84. A — 示例數據中最暖的是那不勒斯 12°'
+    diff-string: '87. B — 图表数据是练习用的、不是真实预报'
+    diff-string: '87. B — 圖表數據是練習用的、不是真實預報'
+    diff-string: '88. A — 高概率不等于确定'
+    diff-string: '88. A — 高機率不等於確定'
+    diff-string: '89. B — 預報基於 ECMWF 等模型'
+    diff-string: '89. B — 预报基于 ECMWF 等模型'
+    diff-string: '9. C — 潘妮托尼决赛在米兰'
+    diff-string: '9. C — 潘妮託尼決賽在米蘭'
+    diff-string: '90. A — 預報會變，因為大氣變化快'
+    diff-string: '90. A — 预报会变，因为大气变化快'
+    diff-string: '91. A — DPB 于 10 月 15 日送布鲁塞尔'
+    diff-string: '91. A — DPB 於 10 月 15 日送布魯塞爾'
+    diff-string: '92. B — 2027 增長預測 +0,8%'
+    diff-string: '92. B — 2027 增长预测 +0,8%'
+    diff-string: '93. piova — è probabile che + 虚拟式 piova'
+    diff-string: '93. piova — è probabile che + 虛擬式 piova'
+    diff-string: '94. nevichi — è possibile che + 虚拟式 nevichi'
+    diff-string: '94. nevichi — è possibile che + 虛擬式 nevichi'
+    diff-string: '95. controllino — bisogna che + 虚拟式 controllino'
+    diff-string: '95. controllino — bisogna che + 虛擬式 controllino'
+    diff-string: '96. sia — è importante che + 虚拟式 sia'
+    diff-string: '96. sia — è importante che + 虛擬式 sia'
+    diff-string: '97. probabilità — probabilità = 概率'
+    diff-string: '97. probabilità — probabilità = 機率'
+    diff-string: '99. bollettino — bollettino = 預報公報'
+    diff-string: '99. bollettino — bollettino = 预报公报'
+    diff-string: 'La Lucerna · 意大利语周报 VOL.2 · LUCERNA ITALIAN WEEKLY'
+    diff-string: 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁體中文'
+    diff-string: 'RISPOSTE · 全部答案與簡析（第 1–8 版）'
+    diff-string: 'RISPOSTE · 参考答案 — 按版面分页排列，找到题号即可'
+    diff-string: 'VALUTAZIONE E RISPOSTE · 練習與答案'
+    diff-string: 'VALUTAZIONE E RISPOSTE · 练习与答案'
+    diff-string: '— PAGINA 1 —'
+    diff-string: '— PAGINA 2 —'
+    diff-string: '— PAGINA 3 —'
+    diff-string: '— PAGINA 4 —'
+    diff-string: '— PAGINA 5 —'
+    diff-string: '— PAGINA 6 —'
+    diff-string: '— PAGINA 7 —'
+    diff-string: '— PAGINA 8 —'
+    diff-string: '— 第 1 版 —'
+    diff-string: '— 第 2 版 —'
+    diff-string: '— 第 3 版 —'
+    diff-string: '— 第 4 版 —'
+    diff-string: '— 第 5 版 —'
+    diff-string: '— 第 6 版 —'
+    diff-string: '— 第 7 版 —'
+    diff-string: '— 第 8 版 —'
+    diff-string: '写作'
+    diff-string: '写作题（无唯一答案）；范文（81 词）见下。'
+    diff-string: '寫作'
+    diff-string: '寫作題（無唯一答案）；範文（81 詞）見下。'
+    diff-string: '把詞和釋義配對'
+    diff-string: '把词和释义配对'
+    diff-string: '每个预报都必须清楚。→ ___'
+    diff-string: '每個預報都必須清楚。→ ___'
+    diff-string: '每題附一句中文簡析 · 帶 ✓ 的為範文題'
+    diff-string: '每题附一句中文简析 · 带 ✓ 的为范文题'
+    diff-string: '翻譯'
+    diff-string: '翻译'
+=== D. gold sentences 2x ===
+  core quotes block found: True
+  core gold quotes: 8
+    '«arriva il primo freddo vero della stagione»'
+    '«Non è una certezza, è una probabilità»'
+    '«il 2 novembre è la Commemorazione dei defunti»'
+    '«Fa freddo, copriti bene!»'
+    '«il pubblico può assaggiare gratis»'
+    '«il calcio non si ferma per il primo freddo»'
+    '«la cultura continua»'
+    '«Una probabilità alta non è una certezza»'
+  edition quotes block found: True
+  edition gold quotes: 8
+    '«arriva il primo freddo vero della stagione»'
+    '«Non è una certezza, è una probabilità»'
+    '«il 2 novembre è la Commemorazione dei defunti»'
+    '«Fa freddo, copriti bene!»'
+    '«il pubblico può assaggiare gratis»'
+    '«il calcio non si ferma per il primo freddo»'
+    '«la cultura continua»'
+    '«Una probabilità alta non è una certezza»'
+  core book text len: 36985
+    core gold inner 'arriva il primo freddo vero della stagio'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'Non è una certezza, è una probabilità'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'il 2 novembre è la Commemorazione dei de'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'Fa freddo, copriti bene!'... quoted occurrences=2 inner occurrences=2
+    core gold inner 'il pubblico può assaggiare gratis'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'il calcio non si ferma per il primo fred'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'la cultura continua'... quoted occurrences=1 inner occurrences=2
+    core gold inner 'Una probabilità alta non è una certezza'... quoted occurrences=1 inner occurrences=2
+  edition book text len: 36934
+    edition gold inner 'arriva il primo freddo vero della stagio'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'Non è una certezza, è una probabilità'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'il 2 novembre è la Commemorazione dei de'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'Fa freddo, copriti bene!'... quoted occurrences=2 inner occurrences=2
+    edition gold inner 'il pubblico può assaggiare gratis'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'il calcio non si ferma per il primo fred'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'la cultura continua'... quoted occurrences=1 inner occurrences=2
+    edition gold inner 'Una probabilità alta non è una certezza'... quoted occurrences=1 inner occurrences=2
+=== E. static exercise expansion (no import, no build log) ===
+  total=150 levels={'A2': 47, 'B1': 70, 'B2': 33}
+  by page: {1: {'A2': 9, 'B1': 1}, 2: {'A2': 17, 'B1': 1}, 3: {'A2': 8, 'B1': 10}, 4: {'B1': 16, 'B2': 2}, 5: {'B1': 15, 'B2': 3}, 6: {'B2': 18}, 7: {'A2': 4, 'B1': 4, 'B2': 4}, 8: {'B1': 23, 'A2': 9, 'B2': 6}}
+  page totals: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+  by type: {'完成句子': 61, '單選': 48, '詞彙配對': 12, '造句': 7, '句型轉換': 1, '判斷對錯': 3, '完形單選': 13, '翻譯': 4, '寫作': 1}
+  core MODELO words=81 text='Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo freddo e la mattina è pungente.  A scuola parliamo del Forum Cultura di Milano e del Festival dei Popoli di Firenze.  Sabato assaggio il panettone con la mia famiglia: preferisco quello tradizionale, con i canditi.  Domenica sera guardiamo Fiorentina–Juventus in televisione.  Il freddo è arrivato, ma la settimana è dolce: cultura, dolci e calcio, come nel giornale.  Lunedì prossimo racconto tutto alla classe, con le parole nuove del freddo.'
+  core MODELO == edition MODELO check stored
+  edition MODELO words=81 text='Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo freddo e la mattina è pungente.  A scuola parliamo del Forum Cultura di Milano e del Festival dei Popoli di Firenze.  Sabato assaggio il panettone con la mia famiglia: preferisco quello tradizionale, con i canditi.  Domenica sera guardiamo Fiorentina–Juventus in televisione.  Il freddo è arrivato, ma la settimana è dolce: cultura, dolci e calcio, come nel giornale.  Lunedì prossimo racconto tutto alla classe, con le parole nuove del freddo.'
+  edition MODELO == edition MODELO check stored
+=== F. gloss headwords: source equality + rendered presence ===
+  content12.py call0 (P2): core items=6 edition items=6 headwords equal=True rendered present=6/6
+  content34.py call0 (P3): core items=5 edition items=5 headwords equal=True rendered present=5/5
+  content34.py call1 (P4): core items=4 edition items=4 headwords equal=True rendered present=4/4
+  content56.py call0 (P5): core items=4 edition items=4 headwords equal=True rendered present=4/4
+  content56.py call1 (P6): core items=5 edition items=5 headwords equal=True rendered present=5/5
+=== G. independent geometry ===
+  same-baseline overlaps total: 0
+  BELOW-2580 p1-prima: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p1-prima: y=2624.0 '第 1 版 / 共 8 版'
+  BELOW-2580 p2-vita: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p2-vita: y=2624.0 '第 2 版 / 共 8 版'
+  BELOW-2580 p3-cultura: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p3-cultura: y=2624.0 '第 3 版 / 共 8 版'
+  BELOW-2580 p4-sport: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p4-sport: y=2624.0 '第 4 版 / 共 8 版'
+  BELOW-2580 p5-giovani: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p5-giovani: y=2624.0 '第 5 版 / 共 8 版'
+  BELOW-2580 p6-approfondimento: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p6-approfondimento: y=2624.0 '第 6 版 / 共 8 版'
+  BELOW-2580 p7-lingua: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p7-lingua: y=2624.0 '第 7 版 / 共 8 版'
+  BELOW-2580 p8-valutazione: y=2624.0 'La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁'
+  BELOW-2580 p8-valutazione: y=2624.0 '第 8 版 / 共 8 版'
+  edge overflows: 0; texts with y>2580: 16 (footer band lines expected: check manually)
+  P6 rect multiset: core distinct=31 total=31; edition distinct=31 total=31; equal=True
+  P6 label 'Torino 3°' present: False
+  P6 label 'Milano 4°' present: False
+  P6 label 'Bologna 5°' present: False
+  P6 label 'Roma 9°' present: False
+  P6 label 'Napoli 12°' present: False
+  P6 label 'DATI INVENTATI' present: True
+  P6 text-vs-later-rect overlaps: 0 sites, max coverage=0.000 (gate <0.30)
+=== H. residue in shipped SVGs ===
+  pattern '重阳': 0 hits []
+  pattern '练习': 0 hits []
+  pattern '�': 0 hits []
+  pattern '意大利语': 0 hits []
+  pattern '简体': 0 hits []
+  P4 header strings: ['ESERCIZI · 第 4 版練習', '讀第 4 版文章，選出正確答案。', '第 4 版 / 共 8 版']
+=== I. flow terminal values in round-0 build log (no re-render) ===
+  P1-headline: ['  flow[P1-headline] ended col 2/2 y=1497 (bottom 1828)']
+  P7 col3: ['P7 col3 ends 1673.0']
+  P6-ex: ['  flow[P6-ex] ended col 3/3 y=2569 (bottom 2580)']
+  P8-keys: ['  flow[P8-keys] ended col 3/3 y=2484 (bottom 2552)']
+=== J. W43 furniture geometry vs edition (footer/page-line/gloss) ===
+  W43 P2: size=20.5 font=Noto Sans CJK TC text="譯注｜l'ora legale 夏令時間 · l'ora solare"
+  W43 P2: size=20 font=Noto Sans CJK TC text='La Lucerna · 義大利語週報 VOL.1 · 正文義大利語 · 講解繁體中文'
+  W45 P2: size=20.5 font=Noto Sans CJK TC text='譯注｜il cappotto 大衣 · la sciarpa 圍巾'
+  W45 P2: size=20 font=Noto Sans CJK TC text='La Lucerna · 義大利語週報 VOL.2 · 正文義大利語 · 講解繁體中文'

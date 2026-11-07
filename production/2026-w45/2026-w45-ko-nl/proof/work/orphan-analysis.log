@@ -1,0 +1,10 @@
+wrap calls logged: 943
+char-sequence violations: 0
+unparsed (tiling failures): 0
+mid-token splits with tail>=3 Hangul syllables: 0
+line-start NO_START (post[1:]): 5
+  LINESTART {'call': 316, 'text': "수능이 가까워지면 온 나라가 수험생을 응원해요. 시험장 앞에서는 '힘내세요!', '떨지 마세요!', '잘할 수 있어요!'라는 ", 'next': "'힘내세요!', '떨지 마세요!', '잘할 수", 'first': "'"}
+  LINESTART {'call': 460, 'text': "겨울이 시작되는 절기를 '입동'이라고 해요. 입동이 지나면 겨울 준비가 본격적으로 시작돼요. 겨울 내내 먹는 김치를 담그는 일", 'next': "'김장'이라고 해요.", 'first': "'"}
+  LINESTART {'call': 471, 'text': "한국에서는 중요한 날까지 남은 날짜를 'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월 19일이니까 오늘이 D-17예", 'next': "'D-17'처럼 써요. 오늘이 11월 2일, 수능이 11월", 'first': "'"}
+  LINESTART {'call': 517, 'text': "「〜부터 〜까지」 — '11월 1일부터 12월 15일까지 산불조심기간이에요.' 기간을 말할 때 쓰는 틀이에요. 물어볼 때는 '", 'next': "'〜부터 〜까지예요?'라고 해요.", 'first': "'"}
+  LINESTART {'call': 519, 'text': "「〜부터 〜까지」 — '11월 1일부터 12월 15일까지 산불조심기간이에요.' 기간을 말할 때 쓰는 틀이에요. 물어볼 때는 '", 'next': "'〜부터 〜까지예요?'라고 해요.", 'first': "'"}

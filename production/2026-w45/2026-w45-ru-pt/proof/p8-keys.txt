@@ -1,0 +1,22 @@
+--- #83 ---
+  ED key: "B — 3 dias de folga na semana"
+  CORE key: "B — 一周有 3 个休息日"
+--- #137 ---
+  ED key: "Na quarta-feira, 4 de novembro, é feriado."
+  CORE key: "11 月 4 日星期三放假。"
+--- #138 ---
+  ED key: "Um código promocional é um código de desconto."
+  CORE key: "促销码就是折扣码。"
+--- #148 ---
+  ED key: "A — его = o código promocional"
+  CORE key: "A — его = 促销码"
+--- #139 ---
+  ED key: "В субботу «Краснодар» играет с ЦСКА."
+  CORE key: "В субботу «Краснодар» играет с ЦСКА."
+--- #140 ---
+  ED key: "Поздравляю с Днём народного единства!"
+  CORE key: "Поздравляю с Днём народного единства!"
+--- #150 ---
+  ED key: "✓"
+  CORE key: "✓"
+extract-key diffs: [83, 137, 138, 148]

@@ -1,0 +1,96 @@
+===== A. REGISTRY RECOUNT =====
+entries 150 unique 150 complete 1..150: True all keyed: True
+per-page: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+per-level: {'A2': 60, 'B1': 69, 'B2': 21}
+keys 1..150: {'24': 'a', '25': 'b', '26': 'c', '27': 'd', '38': 'b', '39': 'c', '40': 'd', '41': 'a', '56': 'b', '57': 'd', '58': 'c', '59': 'a', '74': 'c', '75': 'd', '76': 'a', '77': 'b', '141': 'b', '142': 'c', '143': 'a', '144': 'd'}
+
+===== B. TEXT.MD ANSWERS COUNTS (all 4 incl core) =====
+core n= 150 unique= 150 complete= True
+es n= 150 unique= 150 complete= True
+fr n= 150 unique= 150 complete= True
+zh-tw n= 150 unique= 150 complete= True
+
+===== C. INDEPENDENT RAW-SVG LETTER PARSE (core + 3 editions) =====
+single-letter keys in registry: 59 ['7', '8', '9', '10', '20', '21', '22', '23', '28', '29', '30', '31', '32', '33', '46', '47', '48', '49', '50', '51', '64', '65', '66', '67', '68', '69', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '112', '113', '114', '115', '116', '117', '118', '119', '120', '121', '122', '123', '124', '125', '126', '127', '128', '129', '130', '131', '132']
+core letters found: 59 / 59
+es letters found: 59 / 59
+fr letters found: 59 / 59
+zh-tw letters found: 59 / 59
+TOTAL letter checks: 236, mismatches: 0
+
+===== D. P8 PRINTED KEYS vs REGISTRY (from verify3-p8keys JSONs) =====
+core printed keys n= 150 diffs-vs-registry: ['150']
+   150: registry='开放题 — 要点见写作框，范文在第 8 版写作框内' printed='开放题'
+es printed keys n= 150 diffs-vs-registry: ['137', '138', '139', '140', '150']
+   137: registry='耐心是制度的一部分，而不是制度的失败。' printed='La paciencia es parte del sistema, no un fallo del sistema.'
+   138: registry='11 月 11 日周三上午 11 点，英国默哀两分钟。' printed='El miércoles 11 de noviembre, a las 11 h, el Reino Unido guarda dos minutos de silencio.'
+   139: registry='这周日，NFL 在慕尼黑比赛。' printed='Este domingo, la NFL juega en Múnich.'
+   140: registry='并非每个国家都叫它同一个名字。' printed='No todos los países lo llaman igual.'
+   150: registry='开放题 — 要点见写作框，范文在第 8 版写作框内' printed='Pregunta abierta: véanse los puntos en el recuadro de redacción; el modelo está en el recuadro de esta página'
+fr printed keys n= 150 diffs-vs-registry: ['137', '138', '139', '140', '150']
+   137: registry='耐心是制度的一部分，而不是制度的失败。' printed='La patience fait partie du système, et non un échec de celui-ci.'
+   138: registry='11 月 11 日周三上午 11 点，英国默哀两分钟。' printed='Le mercredi 11 novembre, à 11 h, la Grande-Bretagne observe deux minutes de silence.'
+   139: registry='这周日，NFL 在慕尼黑比赛。' printed='Ce dimanche, la NFL joue à Munich.'
+   140: registry='并非每个国家都叫它同一个名字。' printed='Chaque pays ne l’appelle pas de la même façon.'
+   150: registry='开放题 — 要点见写作框，范文在第 8 版写作框内' printed='Tâche ouverte'
+zh-tw printed keys n= 150 diffs-vs-registry: ['137', '138', '139', '140', '150']
+   137: registry='耐心是制度的一部分，而不是制度的失败。' printed='耐心是制度的一部分，而不是制度的失敗。'
+   138: registry='11 月 11 日周三上午 11 点，英国默哀两分钟。' printed='11 月 11 日週三上午 11 點，英國默哀兩分鐘。'
+   139: registry='这周日，NFL 在慕尼黑比赛。' printed='這週日，NFL 在慕尼黑比賽。'
+   140: registry='并非每个国家都叫它同一个名字。' printed='並非每個國家都叫它同一個名字。'
+   150: registry='开放题 — 要点见写作框，范文在第 8 版写作框内' printed='開放題'
+
+===== E. CLOZE OPTIONS 112-119 (from core P8 SVG) =====
+  112. [A2] A. Monday · B. Wednesday · C.
+  113. [A2] A. poppy · B. hat · C. ticket
+  114. [B1] A. noise · B. music · C. silence
+  115. [A2] A. Ten · B. Eleven · C. Twelve
+  116. [A2] A. Pudsey · B. Scrooge · C. Dickens
+  117. [A2] A. do · B. are · C. will
+  118. [B1] A. goes · B. going · C. go
+  119. [B1] A. still · B. never · C. soon
+  expected: 112 B Wednesday / 113 A poppy / 114 C silence / 115 B Eleven / 116 A Pudsey / 117 C will / 118 B going / 119 A still
+
+===== F. MATCHING BLOCKS (stems+options from core text.md, keys from registry) =====
+-- P2 D (24-27): keys {24: 'a', 25: 'b', 26: 'c', 27: 'd'}
+-- P3 C (38-41): keys {38: 'b', 39: 'c', 40: 'd', 41: 'a'}
+-- P4 C (56-59): keys {56: 'b', 57: 'd', 58: 'c', 59: 'a'}
+-- P5 C (74-77): keys {74: 'c', 75: 'd', 76: 'a', 77: 'b'}
+-- P8 F (141-144): keys {141: 'b', 142: 'c', 143: 'a', 144: 'd'}
+
+===== G. P7 GOLDEN PHRASES verbatim (8 sentences) =====
+core golden in P7: 8/8, in whole issue: 8/8
+es golden in P7: 8/8, in whole issue: 8/8
+fr golden in P7: 8/8, in whole issue: 8/8
+zh-tw golden in P7: 8/8, in whole issue: 8/8
+
+===== H. P6 CHART + P1 BARS =====
+core P6 rects total: 25
+core P1 wide bars (w,fill): [(60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#8a6d3b'), (60.0, '#8a6d3b'), (250.0, '#3e4c2a'), (218.0, '#b3a06a'), (186.0, '#b3a06a'), (140.0, '#b3a06a'), (108.0, '#b3a06a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a')]
+es P6 rects total: 25
+es P1 wide bars (w,fill): [(60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#8a6d3b'), (60.0, '#8a6d3b'), (250.0, '#3e4c2a'), (218.0, '#b3a06a'), (186.0, '#b3a06a'), (140.0, '#b3a06a'), (108.0, '#b3a06a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a')]
+fr P6 rects total: 25
+fr P1 wide bars (w,fill): [(60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#8a6d3b'), (60.0, '#8a6d3b'), (250.0, '#3e4c2a'), (218.0, '#b3a06a'), (186.0, '#b3a06a'), (140.0, '#b3a06a'), (108.0, '#b3a06a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a')]
+zh-tw P6 rects total: 25
+zh-tw P1 wide bars (w,fill): [(60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#8a6d3b'), (60.0, '#8a6d3b'), (250.0, '#3e4c2a'), (218.0, '#b3a06a'), (186.0, '#b3a06a'), (140.0, '#b3a06a'), (108.0, '#b3a06a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a'), (60.0, '#3e4c2a')]
+
+===== I. MASTHEAD (SVG font-size + badge/footer) =====
+core masthead elements: [('168', '975', '262')]
+   badge/tagline candidates: ['WEEKLY IN ENGLISH · 每周一期 · 读英语世界正在谈的事', "THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM LONDON TO MUNICH", 'The Lucerna · 英语周报 VOL.3 · LUCERNA ENGLISH WEEKLY']
+   footer y=2624 texts: ['The Lucerna · 英语周报 VOL.3 · LUCERNA ENGLISH WEEKLY', '第 1 版 / 共 8 版', '第 2 版 / 共 8 版', '第 3 版 / 共 8 版', '第 4 版 / 共 8 版', '第 5 版 / 共 8 版', '第 6 版 / 共 8 版', '第 7 版 / 共 8 版', '第 8 版 / 共 8 版']
+es masthead elements: [('168', '975', '262')]
+   badge/tagline candidates: ['WEEKLY IN ENGLISH · Cada semana · Lo que se habla en el mundo angloparlante', 'TEXTOS EN INGLÉS · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES', 'The Lucerna · SEMANARIO INGLÉS VOL.3 · TEXTO EN INGLÉS · EXPLICACIONES EN ESPAÑOL']
+   footer y=2624 texts: ['Página 1 de 8', 'Página 2 de 8', 'Página 3 de 8', 'Página 4 de 8', 'Página 5 de 8', 'Página 6 de 8', 'Página 7 de 8', 'Página 8 de 8', 'The Lucerna · SEMANARIO INGLÉS VOL.3 · TEXTO EN INGLÉS · EXPLICACIONES EN ESPAÑOL']
+fr masthead elements: [('168', '975', '262')]
+   badge/tagline candidates: ['WEEKLY IN ENGLISH · Chaque semaine · Ce dont parle le monde anglophone', 'HEBDOMADAIRE EN ANGLAIS · VOL.3 · COMMÉMORATION · FOOTBALL · CINÉMA', 'TEXTE EN ANGLAIS · EXPLICATIONS EN FRANÇAIS — L’ÉDITION POUR LES LECTEURS FRANCOPHONES']
+   footer y=2624 texts: ['Page 1 sur 8', 'Page 2 sur 8', 'Page 3 sur 8', 'Page 4 sur 8', 'Page 5 sur 8', 'Page 6 sur 8', 'Page 7 sur 8', 'Page 8 sur 8', 'The Lucerna · HEBDOMADAIRE ANGLAIS VOL.3 · TEXTE EN ANGLAIS · EXPLICATIONS EN FRANÇAIS']
+zh-tw masthead elements: [('168', '975', '262')]
+   badge/tagline candidates: ['WEEKLY IN ENGLISH · 每週一期 · 讀英語世界正在談的事', '英語正文 · 繁體中文講解 — 給繁體中文讀者的版本']
+   footer y=2624 texts: ['The Lucerna · 英語週報 VOL.3 · 正文英語 · 講解繁體中文', '第 1 版 / 共 8 版', '第 2 版 / 共 8 版', '第 3 版 / 共 8 版', '第 4 版 / 共 8 版', '第 5 版 / 共 8 版', '第 6 版 / 共 8 版', '第 7 版 / 共 8 版', '第 8 版 / 共 8 版']
+
+===== J. NATIVE-SCRIPT SCANS =====
+es non-Latin chars in all SVG texts: «·»¿ÉÑÓÚáéíñóú–—→☐✗；
+fr non-Latin chars in all SVG texts: «·»ÀÇÉàâçèéêîôù–—’→☐✗；
+zh-tw simplified-only char hits: {'注': 6, '原': 10, '改': 25, '事': 6, '承': 2, '解': 15, '生': 6, '形': 9}
+zh-tw Traditional markers present: {'動': 5, '詞': 16, '原': 10, '形': 9, '改': 25, '寫': 29, '承': 2, '諾': 2, '將': 5, '發': 7, '生': 6, '的': 29, '事': 6, '來': 12}
+DONE verify3-keys

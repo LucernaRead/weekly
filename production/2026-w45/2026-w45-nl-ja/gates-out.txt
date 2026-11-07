@@ -1,0 +1,81 @@
+== GLOSS (build code gloss strings, split on '·') ==
+  P2: 6 items :: het klimaat 気候 · wortelen 根付く · besparen 節約する · de verwarming 暖房 · de 
+  P3/P4: 5 items :: het museum 博物館 · de rondleiding ガイドツアー · het tijdslot 時間枠 · tweedehand
+  P3/P4: 5 items :: de balans 成績のまとめ · gelijkspelen 引き分ける · de speelronde 節 · de topper 注目
+  P5/P6: 5 items :: het eiland 島 · de proef 競技・試練 · stemmen 投票する · de aflevering （1）話 · vo
+  P5/P6: 5 items :: de meteoroloog 気象学者 · waarschuwingsmoeheid 警報疲れ · vastzetten 固定する · he
+  P1 expl items: 4
+== GOLDEN SENTENCES ==
+  Pagina 1 src=p1-voorpagina.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Van maandag 2 tot en met zondag 8 november is het 
+  Pagina 1 src=p1-voorpagina.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: De herfst is de beste tijd om te planten
+  Pagina 2 src=p2-leven.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Geel betekent: let op, het weer kan gevaarlijk zij
+  Pagina 3 src=p3-cultuur.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Meer dan 70 musea zijn open van 19:00 uur 's avond
+  Pagina 4 src=p4-sport.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Ajax won donderdag 22 oktober met 2–0 van Atalanta
+  Pagina 5 src=p5-jongeren.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Zondag 1 november begon Expeditie Robinson op RTL 
+  Pagina 6 src=p6-verdieping.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Een code is geen verbod, maar een advies
+  Pagina 6 src=p6-verdieping.svg total_occ=2 on_tagged_page=True tag_on_P7=True :: Het weer is van ons allemaal, maar het raakt ons a
+== READERS CORNER (P7) ==
+  NL disclosure verbatim: False
+  JA disclosure (3 facts): True
+  JA invitation imperative+promise: True
+  example labeled editors: True
+  NL example signature kept: True
+== JA ORPHAN SCAN (line-start closers / small kana, all 8 SVGs) ==
+  hits: 0
+== BANNED + RESIDUE (all 8 SVGs, joined) ==
+  桥接: 0
+  译注: 0
+  讲解: 0
+  简体家具 练习与答案: 0
+  简体 参考答案: 0
+  简体 中文简析: 0
+  简体 本周: 0
+  简体 第 8 版: 0
+  Cyrillic: 0
+  Hangul: 0
+  DE furniture ERKLÄRUNGEN: 0
+  EN furniture EXPLANATIONS IN: 0
+  PT furniture EXPLICAÇÕES: 0
+  FR furniture EXPLICATIONS: 0
+  double prefix 解説 — 解説: 0
+  P8 answer lines: 188, full-width parens （: 16, half-width (: 0
+  P8 half-width paren lines (should be only Dutch bodies, e.g. options):
+== IMAGES + CREDITS ==
+  p1-voorpagina.svg: <image> x1 credit present=True
+  p2-leven.svg: <image> x1 credit present=True
+  p3-cultuur.svg: <image> x1 credit present=True
+  p4-sport.svg: <image> x1 credit present=False
+  p5-jongeren.svg: <image> x0 (no photo page)
+  p6-verdieping.svg: <image> x0 (no photo page)
+  p7-taal.svg: <image> x0 (no photo page)
+  p8-toets.svg: <image> x0 (no photo page)
+== FURNITURE ==
+  p1-voorpagina.svg: footer=True
+  p2-leven.svg: footer=True
+  p3-cultuur.svg: footer=True
+  p4-sport.svg: footer=True
+  p5-jongeren.svg: footer=True
+  p6-verdieping.svg: footer=True
+  p7-taal.svg: footer=True
+  p8-toets.svg: footer=True
+  badge: True
+  topstrip: True
+  flower: True
+  page line 1: True
+  page line 2: True
+  page line 3: True
+  page line 4: True
+  page line 5: True
+  page line 6: True
+  page line 7: True
+  page line 8: True
+  P8 head: True
+  P8 separator 1: True
+  P8 separator 2: True
+  P8 separator 3: True
+  P8 separator 4: True
+  P8 separator 5: True
+  P8 separator 6: True
+  P8 separator 7: True
+  P8 separator 8: True
+  P8 band: True

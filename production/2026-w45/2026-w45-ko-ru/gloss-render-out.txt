@@ -1,0 +1,11 @@
+p1-pyoji.svg: core boxes [5] (total 5) | ru boxes [5] (total 5) OK
+p2-saenghwal.svg: core boxes [4, 3, 3, 3, 3] (total 16) | ru boxes [4, 3, 3, 3, 3] (total 16) OK
+p3-munhwa.svg: core boxes [4, 3, 3, 3] (total 13) | ru boxes [4, 3, 3, 3] (total 13) OK
+p4-seupocheu.svg: core boxes [4, 2, 1] (total 7) | ru boxes [4, 2, 1] (total 7) OK
+p5-cheongnyeon.svg: core boxes [3, 3, 3, 3] (total 12) | ru boxes [3, 3, 3, 3] (total 12) OK
+p6-gipi.svg: core boxes [3, 2, 3] (total 8) | ru boxes [3, 2, 3] (total 8) OK
+p7-mal.svg: core boxes [] (total 0) | ru boxes [] (total 0) OK
+p8-siheom.svg: core boxes [] (total 0) | ru boxes [] (total 0) OK
+rendered-page gloss() totals: 61 vs 61 ALL-BOXES-EQUAL
+call-string gloss() only: core 61 {'content12.py': 21, 'content34.py': 20, 'content56.py': 20, 'content7.py': 0, 'content8.py': 0} | ru 61 {'content12.py': 21, 'content34.py': 20, 'content56.py': 20, 'content7.py': 0, 'content8.py': 0} OK
+call-string gloss()+glossline(): core 84 {'content12.py': 24, 'content34.py': 26, 'content56.py': 28, 'content7.py': 6, 'content8.py': 0} | ru 84 {'content12.py': 24, 'content34.py': 26, 'content56.py': 28, 'content7.py': 6, 'content8.py': 0} OK

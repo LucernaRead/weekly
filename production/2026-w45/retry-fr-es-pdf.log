@@ -1,0 +1,42 @@
+attempt 1: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 2: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 3: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 4: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 5: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 6: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 7: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 8: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 9: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+client_loop: send disconnect: Broken pipe
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+attempt 10: pushing 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 (remote=48fe13715d05f1343a281fd4f248c63641a45548)
+To github.com:LucernaRead/weekly.git
+   48fe137..818a38d  818a38d60aa02ddd9b4235db7c16cd60fa068ad0 -> main
+VERIFIED ls-remote == 818a38d60aa02ddd9b4235db7c16cd60fa068ad0 on check 11
+final remote=818a38d60aa02ddd9b4235db7c16cd60fa068ad0 local=818a38d60aa02ddd9b4235db7c16cd60fa068ad0
+SUCCESS fr-es PDF landed

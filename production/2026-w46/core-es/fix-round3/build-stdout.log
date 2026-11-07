@@ -1,0 +1,118 @@
+'VIDA · LEBEN'
+   1  '竞选持续 15 天' -> 'Der Wahlkampf dauert 15 Tage'
+   1  '罢工后两天竞选开始' -> 'Der Wahlkampf beginnt zwei Tage nach dem Streik'
+   1  '马丁把斗篷分给乞丐' -> 'Martin teilte seinen Umhang mit dem Bettler'
+   1  '时间在前，动词第二' -> 'Zeit zuerst, Verb an zweiter Stelle'
+   1  '地点在前，动词第二' -> 'Ort zuerst, Verb an zweiter Stelle'
+   1  '用方框里的词填空。' -> 'Fülle die Lücken mit den Wörtern aus dem Kasten.'
+   1  '西班牙在 A3 组' -> 'Spanien spielt in Gruppe A3'
+   1  'U21 周五对日本' -> 'Die U21 spielt am Freitag gegen Japan'
+   1  '静默日没有宣传活动' -> 'Am Tag der Besinnung gibt es keine Wahlwerbung'
+   1  'va a + 原形' -> 'va a + Infinitiv'
+   1  '两人都读纲领再投票' -> 'Beide lesen vor der Wahl die Programme'
+   1  '间接疑问用 si' -> 'Indirekte Fragen mit si'
+   1  'Ana 周三上班' -> 'Ana arbeitet am Mittwoch'
+   1  '标题概括两地对比' -> 'Der Titel fasst den Zwei-Orte-Vergleich zusammen'
+   1  '选出正确答案。' -> 'Wähle die richtige Antwort.'
+   1  '15 日是周日' -> 'der 15. ist ein Sonntag'
+   1  '疑问词在句首' -> 'Das Fragewort steht am Satzanfang'
+   1  '动词第二位' -> 'Das Verb steht an zweiter Stelle'
+   1  '月份小写' -> 'Monate klein'
+   1  '时间在前' -> 'Zeit zuerst'
+   2  '对照原文' -> 'Mit dem Original vergleichen.'
+   1  '译注｜' -> 'HINWEIS · '
+   1  '原形' -> 'Infinitiv'
+bslib4.py CJK distinct: 0 
+content12.py CJK distinct: 10 单句子完对成汇词选配
+content34.py CJK distinct: 17 判单句型子完对成换断汇词转选造配错
+content56.py CJK distinct: 13 判单句型子完对成换断转选错
+content7.py CJK distinct: 6 单句子完成选
+content8.py CJK distinct: 14 作写单句完对形汇翻词译选造配
+svglib.py CJK distinct: 2 重阳
+render.py CJK distinct: 0 
+
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1358 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=455 (bottom 1540)
+P2 col3 ends 1081.5
+  flow[P2-ex] ended col 3/3 y=2341 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=888 (bottom 1560)
+P3 col3 ends 1534.75
+  flow[P3-ex] ended col 2/3 y=2465 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=943 (bottom 1080)
+P4 col3 ends 963.0
+  flow[P4-ex] ended col 2/3 y=2457 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1120 (bottom 1560)
+P5 col3 ends 1333.75
+  flow[P5-ex] ended col 2/3 y=2348 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=840 (bottom 1540)
+P6 col3 ends 1407.0 timeline box height 920.0000000000001
+  flow[P6-ex] ended col 3/3 y=2562 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1151 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1151 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1121 (bottom 1560)
+P7 col3 ends 1833.58
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=1099 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2414 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 47, '词汇配对': 12, '判断对错': 8, '造句': 7, '句型转换': 10, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE
+
+rendered p1-portada
+rendered p2-vida
+rendered p3-cultura
+rendered p4-deporte
+rendered p5-juventud
+rendered p6-afondo
+rendered p7-lengua
+rendered p8-ejercicios
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/La-Lucerna-VOL3-DE.pdf 4641045
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/La-Lucerna-VOL3-DE-web.pdf: 527672 bytes, 47070 text bytes
+
+web PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/La-Lucerna-VOL3-DE-web.pdf 527672
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/svg
+112 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 20376 bytes
+  font LucernaNotoSansCJKSC-Bold: 20560 bytes
+  font LucernaNotoSerifCJKSC-Regular: 26108 bytes
+  font LucernaNotoSerifCJKSC-Bold: 26980 bytes
+  font LucernaUnifrakturMaguntia-Regular: 34272 bytes
+
+
+p1: +28 strings / -25 strings; CJK core 180 -> edition 0; added CJK chars: 0 
+p2: +52 strings / -43 strings; CJK core 295 -> edition 0; added CJK chars: 0 
+p3: +34 strings / -30 strings; CJK core 155 -> edition 0; added CJK chars: 0 
+p4: +34 strings / -27 strings; CJK core 176 -> edition 0; added CJK chars: 0 
+p5: +48 strings / -38 strings; CJK core 238 -> edition 0; added CJK chars: 0 
+p6: +33 strings / -33 strings; CJK core 80 -> edition 0; added CJK chars: 0 
+p7: +50 strings / -44 strings; CJK core 412 -> edition 0; added CJK chars: 0 
+p8: +176 strings / -159 strings; CJK core 964 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0
+
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/svg/p8-ejercicios.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-de/svg: 0 flags 
+
+GATES DONE de

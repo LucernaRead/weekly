@@ -1,0 +1,111 @@
+================ w45-es-ja-build5.log — FIX ROUND 2 (P7 readers-letter invitation only) ================
+Pre-fix baseline (this round's fix-before state = reproof REPORT.md version; recorded BEFORE any re-render)
+Concurrency check: no render/build process running at start; 70s recheck after baseline hashing: zero new writes in edition dir and build dir.
+--- pre-fix sha256 (full) ---
+098de92d91f15c2e1d98e073180e9dc0a4c471b8ae6729f3ca127822b20c20f4  svg/p1-portada.svg
+d5bbf5d10f1d4ae7aadd64e85d301b9a72e4a9c8c40707fefa31bff8ea04fff9  svg/p2-vida.svg
+b8cd0e6a4c83bf20d0bc6968851c351291415014e1e71f4082e88d8425e52987  svg/p3-cultura.svg
+196e97a39a91453d04df550069b8fa0fb2dafee860d6bdfc4492f1d942b82edb  svg/p4-deporte.svg
+1534eea1f9121ac9bd554d3bc80e53a429229a66f91079b63cdc5dfa2e5bf0c1  svg/p5-juventud.svg
+481ffa7a0bb32fdf7693e5b665b4ab40563ff69160bc10d2170b67c2cbbd7f0a  svg/p6-afondo.svg
+a09489eaca3c89f71aad54bc6aa08bf33ccf903000ea67c98919f120396242ee  svg/p7-lengua.svg
+dac6d639a5d6b582718382eb52c6d88f7e16c18cceedabbd8252f07539e61fc5  svg/p8-ejercicios.svg
+b2b77fa8de6017e31f0eff9d2f4140c5158977c521c0426356f58b9116306d8d  cards/p1-portada.png
+2e6a14d465b119e3a097334ef9cbbeca7eda53581e2b6c14f147e30ed147832d  cards/p2-vida.png
+843e39226196bbcc01c8b6f6278b076298f7b0a4a9426941eb7d6bfeed74970f  cards/p3-cultura.png
+54a35ad5b77702d2f6ae9658bc389640944b96f8c611fcd2682059cb1edceff8  cards/p4-deporte.png
+47b2a820d09f479a66e86801a573cde8b8c01af337d3af3cb045bf1b1279b8b3  cards/p5-juventud.png
+0c8094ec553cd4b3a4d6682fa56a14cbb043d670276e84f88daccb94ad837fdb  cards/p6-afondo.png
+ffbaecaee5327e6e99cd541603b31873d8fb0a88953c3a3726ca20a3539575ee  cards/p7-lengua.png
+b7283b756eab9e5e48f189ec34353d1f34af00e8eda2e8ff2b6ec568448f4be4  cards/p8-ejercicios.png
+5d75623cfb9851b233d7393c426540be7b79da1efb42f7b16ee37090067934a9  La-Lucerna-VOL2-JA-web.pdf
+ad19ec708b70ab5dbdca73588d495d1e00703ebf7d47e1337a2789c43dcea8a3  La-Lucerna-VOL2-JA.pdf
+--- pre-fix sizes ---
+-rw-rw---- 1 root nogroup  3639060 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/La-Lucerna-VOL2-JA-web.pdf
+-rw-rw---- 1 root nogroup 21775534 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/La-Lucerna-VOL2-JA.pdf
+-rw-rw---- 1 root nogroup   767423 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p1-portada.png
+-rw-rw---- 1 root nogroup   867135 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p2-vida.png
+-rw-rw---- 1 root nogroup  1132487 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p3-cultura.png
+-rw-rw---- 1 root nogroup   797436 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p4-deporte.png
+-rw-rw---- 1 root nogroup  1042447 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p5-juventud.png
+-rw-rw---- 1 root nogroup   761919 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p6-afondo.png
+-rw-rw---- 1 root nogroup   713399 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p7-lengua.png
+-rw-rw---- 1 root nogroup  1192908 Oct 27 19:56 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p8-ejercicios.png
+-rw-rw---- 1 root nogroup    29515 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p1-portada.svg
+-rw-rw---- 1 root nogroup    31970 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p2-vida.svg
+-rw-rw---- 1 root nogroup   654007 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p3-cultura.svg
+-rw-rw---- 1 root nogroup    28645 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p4-deporte.svg
+-rw-rw---- 1 root nogroup   491738 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p5-juventud.svg
+-rw-rw---- 1 root nogroup    32246 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p6-afondo.svg
+-rw-rw---- 1 root nogroup    26362 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p7-lengua.svg
+-rw-rw---- 1 root nogroup    59531 Oct 27 19:55 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p8-ejercicios.svg
+--- pre-fix P7 geometry (measured from delivered p7-lengua.svg) ---
+JP disclosure baselines y=1775.89 / 1804.29 / 1832.69 (3 lines, 20pt sans, x=1473)
+ES frozen note baselines y=1632.29 / 1660.69 / 1689.09 / 1717.49 (4 lines, untouched)
+FRASES hline y=1841.08, header baseline y=1879.08; preview rect y=2440.08 h=118 bottom=2558.08; footer line y=2580 (margin 21.92)
+Headroom analysis: +1 disclosure line = +29px box height -> preview bottom 2587.08 > footer 2580, so invitation MUST fit in original 3 lines.
+
+================ POST-FIX RESULTS (fix round 2) ================
+Source edit (only edit): hidden_files/weekly-report-w45-es-ja-build/content7.py:100, whole-line literal, count assertion 1x:
+  OLD: ldcn = "編集部より：本物の手紙も最優秀作文も届かなかったため、見本の手紙を掲載します。約束はVOL.3へ。"
+  NEW: ldcn = "編集部：本物の手紙も最優秀作文も届かなかったため、見本の手紙を掲載します。約束はVOL.3へ。手紙をお待ちしています。"
+  Label trim ONLY: 編集部より： -> 編集部： (dropped より, 2 chars; es-ru precedent: Примечание редакции: -> Примечание:). Three fact clauses byte-identical; frozen ES note untouched; Ana letter untouched; no invented reader/letter/quote.
+  wrap() pre-check (bslib4 wrap, sans 20pt, width 390): old-label + invitation = 4 lines (last line orphan す。); trimmed-label + invitation = 3 lines; plain 待っています variant also 3 lines but polite お待ちしています chosen per task example + es-ru precedent.
+Render: single-process run.py (content12->34->56->7->8, shared registry) then tools venv render.py (cards + both PDFs). No content module imported inside core build dir.
+Registry: TOTAL 150; A2 50 / B1 72 / B2 28; per page 10/18/18/18/18/18/12/38; FLOW OVERFLOW 0 / HEAD TOO WIDE 0 (no warnings in run output).
+P7 col3 ends 1820.08 — identical to pre-fix (box height unchanged, 3 disclosure lines).
+--- post-fix sha256 (full) ---
+098de92d91f15c2e1d98e073180e9dc0a4c471b8ae6729f3ca127822b20c20f4  svg/p1-portada.svg
+d5bbf5d10f1d4ae7aadd64e85d301b9a72e4a9c8c40707fefa31bff8ea04fff9  svg/p2-vida.svg
+b8cd0e6a4c83bf20d0bc6968851c351291415014e1e71f4082e88d8425e52987  svg/p3-cultura.svg
+196e97a39a91453d04df550069b8fa0fb2dafee860d6bdfc4492f1d942b82edb  svg/p4-deporte.svg
+1534eea1f9121ac9bd554d3bc80e53a429229a66f91079b63cdc5dfa2e5bf0c1  svg/p5-juventud.svg
+481ffa7a0bb32fdf7693e5b665b4ab40563ff69160bc10d2170b67c2cbbd7f0a  svg/p6-afondo.svg
+20f1a1dcdf9acebfc5616518fb8a153c418078f26370192d14acf9b23d0493dc  svg/p7-lengua.svg
+dac6d639a5d6b582718382eb52c6d88f7e16c18cceedabbd8252f07539e61fc5  svg/p8-ejercicios.svg
+b2b77fa8de6017e31f0eff9d2f4140c5158977c521c0426356f58b9116306d8d  cards/p1-portada.png
+2e6a14d465b119e3a097334ef9cbbeca7eda53581e2b6c14f147e30ed147832d  cards/p2-vida.png
+843e39226196bbcc01c8b6f6278b076298f7b0a4a9426941eb7d6bfeed74970f  cards/p3-cultura.png
+54a35ad5b77702d2f6ae9658bc389640944b96f8c611fcd2682059cb1edceff8  cards/p4-deporte.png
+47b2a820d09f479a66e86801a573cde8b8c01af337d3af3cb045bf1b1279b8b3  cards/p5-juventud.png
+0c8094ec553cd4b3a4d6682fa56a14cbb043d670276e84f88daccb94ad837fdb  cards/p6-afondo.png
+551e0cc6f4bab831ab5b33534b0e18652ec9a7964015561c57fd4a6e331e02fe  cards/p7-lengua.png
+b7283b756eab9e5e48f189ec34353d1f34af00e8eda2e8ff2b6ec568448f4be4  cards/p8-ejercicios.png
+56ed27fd1b6ff17b6f9d4741ef9652756f25f6daa83170406c8d5dded64cc35d  La-Lucerna-VOL2-JA-web.pdf
+7ebbf37e2514197c71c3cdb612875a1e219e1eeacb97880beac4f62c0abd680b  La-Lucerna-VOL2-JA.pdf
+--- post-fix sizes ---
+-rw-rw---- 1 root nogroup  3639992 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/La-Lucerna-VOL2-JA-web.pdf
+-rw-rw---- 1 root nogroup 21775658 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/La-Lucerna-VOL2-JA.pdf
+-rw-rw---- 1 root nogroup   767423 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p1-portada.png
+-rw-rw---- 1 root nogroup   867135 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p2-vida.png
+-rw-rw---- 1 root nogroup  1132487 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p3-cultura.png
+-rw-rw---- 1 root nogroup   797436 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p4-deporte.png
+-rw-rw---- 1 root nogroup  1042447 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p5-juventud.png
+-rw-rw---- 1 root nogroup   761919 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p6-afondo.png
+-rw-rw---- 1 root nogroup   719144 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p7-lengua.png
+-rw-rw---- 1 root nogroup  1192908 Oct 27 20:13 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/cards/p8-ejercicios.png
+-rw-rw---- 1 root nogroup    29515 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p1-portada.svg
+-rw-rw---- 1 root nogroup    31970 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p2-vida.svg
+-rw-rw---- 1 root nogroup   654007 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p3-cultura.svg
+-rw-rw---- 1 root nogroup    28645 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p4-deporte.svg
+-rw-rw---- 1 root nogroup   491738 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p5-juventud.svg
+-rw-rw---- 1 root nogroup    32246 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p6-afondo.svg
+-rw-rw---- 1 root nogroup    26392 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p7-lengua.svg
+-rw-rw---- 1 root nogroup    59531 Oct 27 20:12 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-ja/svg/p8-ejercicios.svg
+--- byte identity vs pre-fix baseline (this log, top section) ---
+SVG: p1-p6, p8 IDENTICAL; only p7 CHANGED (a09489ea... -> 20f1a1dc...).
+Cards: p1-p6, p8 IDENTICAL; only p7 CHANGED (ffbaecae... -> 551e0cc6...).
+PDFs: both CHANGED (P7 embedded). Print 21,775,534 B -> 21,775,658 B (+124); web 3,639,060 B -> 3,639,992 B (+932).
+--- post-fix P7 geometry (measured from delivered p7-lengua.svg) ---
+JP disclosure STILL 3 lines at UNCHANGED baselines y=1775.89 / 1804.29 / 1832.69, x=1473:
+  L1 編集部：本物の手紙も最優秀作文も届かな
+  L2 かったため、見本の手紙を掲載します。約
+  L3 束はVOL.3へ。手紙をお待ちしています。
+ES note baselines UNCHANGED y=1632.29/1660.69/1689.09/1717.49; Ana letter baselines UNCHANGED (1388.58..1571.76); FRASES hline y=1841.08, header y=1879.08 UNCHANGED; preview rect y=2440.08 h=118 bottom=2558.08 UNCHANGED (margin to footer line 2580 = 21.92); total <text> elements 155.
+--- gates re-run on fixed files ---
+tools/occlusion_audit.py (selftest OK): edition 0 flags; core 0 flags; NEW vs core 0 (hidden_files/w45-es-ja-occlusion5.json).
+tools/p8.py compare (explicit core/edition P8): CLEAN, 150 = 150, missing = [], extra = 0, keydiff UNCHANGED [2, 11, 12, 29, 83, 85, 95, 96, 98, 107, 117, 125, 137, 138, 148] (hidden_files/w45-es-ja-p8-5.json).
+Builder self-audit (hidden_files/w45-es-ja-audit.py): line-start orphan scan 0 (P5 small-kana fix intact); only known item remains the frozen-core P6 Inmigracion 5.2px graze, unchanged.
+P7 card visual (full size): disclosure 3 lines fully readable inside readers box, invitation 手紙をお待ちしています。 on last line, no overflow/overlap; FRASES, preview box, footer all clear.
+Canonical JA svglib md5 re-verified d73e23b365676c3618d7e060b835eb4d (never edited).
+NOT a final edition: per SOP 8.4 this fix round requires a fresh independent re-proof before any final claim. No Discord post, no main-chat card/PDF dump, no cron, weekly-git untouched, core/W43 dirs untouched, no subagent spawned.

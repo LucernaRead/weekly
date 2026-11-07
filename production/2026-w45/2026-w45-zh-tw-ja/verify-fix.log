@@ -1,0 +1,90 @@
+A1 transform olds still present in edition sources: 0 []
+A2 core literals lost from edition sources: 0 []
+B1 unattributed ADDED strings: 0 []
+B2 unattributed REMOVED strings: 0 []
+C union test: edition CJK set=1029 union=1288 outside=57 ['げ', 'じ', 'ほ', 'ょ', 'ろ', 'ゥ', 'ォ', 'ゴ', 'サ', 'ゼ', 'ャ', 'ョ', '仮', '伝', '催', '写', '削', '割', '募', '勤', '区', '収', '団', '寒', '彫', '役', '待', '応', '感', '抑', '援', '撃', '映', '昼', '晩', '毎', '浴', '済', '無', '独', '砂', '税', '素', '荷', '菓', '装', '裏', '覧', '賃', '赤', '込', '録', '除', '険', '－', '／', '～']
+D Simplified-only spot hits over frozen shared strings: 0 []
+E1 gloss boxes core={'p1-front.svg': 2, 'p2-life.svg': 2, 'p3-culture.svg': 3, 'p4-sport.svg': 2, 'p5-youth.svg': 2, 'p6-deep.svg': 1, 'p7-lang.svg': 0, 'p8-test.svg': 0} edition={'p1-front.svg': 2, 'p2-life.svg': 2, 'p3-culture.svg': 3, 'p4-sport.svg': 2, 'p5-youth.svg': 2, 'p6-deep.svg': 1, 'p7-lang.svg': 0, 'p8-test.svg': 0}
+E2 p1-front.svg: core nodes=95 edition nodes=95
+E2 p2-life.svg: core nodes=167 edition nodes=165
+E2 p3-culture.svg: core nodes=175 edition nodes=175
+E2 p4-sport.svg: core nodes=163 edition nodes=163
+E2 p5-youth.svg: core nodes=175 edition nodes=172
+E2 p6-deep.svg: core nodes=171 edition nodes=171
+E2 p7-lang.svg: core nodes=170 edition nodes=168
+E2 p8-test.svg: core nodes=315 edition nodes=316
+E3 golden quotes found in core source (incl. 3 clinic lines): 11
+   「龍隊完勝兄弟6比0」... count=1
+   「立冬就是冬至」... count=1
+   「金融科技週在台北開幕」... count=1
+   「用手機轉帳、掃碼付款、網上買保險，都是金融... count=2
+   「123個國家及城市、1,600個攤位」... count=2
+   「需要才買，不要為了折扣買一堆用不到的東西」... count=2
+   「在高雄，鋼鐵也能變成舞台」... count=2
+   「福隆的夏天，在10月26日畫下句點」... count=2
+   「6比0完封兄弟，龍隊拋下紅色彩帶」... count=2
+   「250家店家一起討糖」... count=2
+   「旅展首日中午12點才開門」... count=2
+E4 P7 page tags in edition: [('(p. 1)', 2), ('(p. 2)', 1), ('(p. 3)', 2), ('(p. 4)', 1), ('(p. 5)', 1), ('(p. 6)', 1)]
+F1 image payloads identical per page: True core={'p1-front.svg': ['ac4dfe2ad3a43cd3'], 'p2-life.svg': ['a40e7a2b265beba6'], 'p3-culture.svg': [], 'p4-sport.svg': ['18ad8ae06fac2860'], 'p5-youth.svg': ['bcbada13a5ae19d6'], 'p6-deep.svg': [], 'p7-lang.svg': [], 'p8-test.svg': []} edition={'p1-front.svg': ['ac4dfe2ad3a43cd3'], 'p2-life.svg': ['a40e7a2b265beba6'], 'p3-culture.svg': [], 'p4-sport.svg': ['18ad8ae06fac2860'], 'p5-youth.svg': ['bcbada13a5ae19d6'], 'p6-deep.svg': [], 'p7-lang.svg': [], 'p8-test.svg': []}
+F2 p1-front.svg credits identical: True ['Photo: Wilfredor — CC0 (Wikimedia Commons)']
+F2 p2-life.svg credits identical: True ['Photo: CorraleH — CC0 (Wikimedia Commons)']
+F2 p3-culture.svg credits identical: True []
+F2 p4-sport.svg credits identical: True ['Photo: Bain News Service — Public domain (Wikimedia']
+F2 p5-youth.svg credits identical: True ['Photo: Benjamin Balazs — CC0 (Wikimedia Commons)']
+F2 p6-deep.svg credits identical: True []
+F2 p7-lang.svg credits identical: True []
+F2 p8-test.svg credits identical: True []
+G rendered sweep: all edition nodes with [A-Za-z]{2,}:
+   p1-front.svg :: Lucerna
+   p1-front.svg :: 繁體中文版 · VOL.2 · 2026年11月2日（一）至11月8日（日） · 台灣 / 香港
+   p1-front.svg :: 本紙スタッフ · 出典：主催者のプレスリリース（10月23日）とイベントFAQ
+   p1-front.svg :: 香港金融科技週 x StartmeupHK 2026，週一（11月2日）在香港開幕，一連五天到週五（11月6日）。主會議和展覽在香港
+   p1-front.svg :: 的主題是 Fintech Nexus: Bridging the World, Building the Future，三大方向是金融＋、人工智慧＋、全球擴張。
+   p1-front.svg :: 解説 — 香港フィンテックウィーク×StartmeupHK 2026は11月2日（月）に開幕し、11月6日（金）まで開催。メインカンファレンスと展示会は
+   p1-front.svg :: 週五（11月6日）中午12點，2026 ITF 台灣國際旅展在台北南港展覽館一館開幕，展到下週一（11月9日）。123個國家及城
+   p1-front.svg :: 解説 — 台北国際旅展（ITF）は11月6日（金）正午に南港展覧館で開幕し、11月9日（月）まで開催：123の国と都市、1,600のブース、毎日14時
+   p1-front.svg :: Photo: Wilfredor — CC0 (Wikimedia Commons)
+   p1-front.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p2-life.svg :: Lucerna
+   p2-life.svg :: Photo: CorraleH — CC0 (Wikimedia Commons)
+   p2-life.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p3-culture.svg :: Lucerna
+   p3-culture.svg :: 日，主題是 SUPER STAGE，地點在駁
+   p3-culture.svg :: 者，辦國際論壇「剛質潮汐 SOLID
+   p3-culture.svg :: TIDES」，聊製造、設計，聊藝術怎麼
+   p3-culture.svg :: える — SUPER STAGE —
+   p3-culture.svg :: · 論壇：剛質潮汐 SOLID TIDES
+   p3-culture.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p4-sport.svg :: Lucerna
+   p4-sport.svg :: 本紙スタッフ · 出典：TSNAスポーツニュース
+   p4-sport.svg :: 失点に抑え、シリーズMVPに選ばれた。
+   p4-sport.svg :: 賽表現最好的人，英文叫 MVP。
+   p4-sport.svg :: ラン）、MVP（最優秀選手）。
+   p4-sport.svg :: Photo: Bain News Service — Public domain (Wikimedia
+   p4-sport.svg :: Commons)
+   p4-sport.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p5-youth.svg :: Lucerna
+   p5-youth.svg :: Trick or Treat，就能拿到糖果。
+   p5-youth.svg :: 拳道與喜劇武術表演《JUMP》；每日
+   p5-youth.svg :: 花笠舞、韓国のJUMPによるテコンドー・
+   p5-youth.svg :: Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+   p5-youth.svg :: · 韓國跆拳道與喜劇武術《JUMP》
+   p5-youth.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p6-deep.svg :: Lucerna
+   p6-deep.svg :: （10月23日）とイベントFAQ
+   p6-deep.svg :: ノロジー）、AI＋（銀行・投資・保険の中
+   p6-deep.svg :: のAI）、グローバル展開（スタートアップ
+   p6-deep.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p7-lang.svg :: Lucerna
+   p7-lang.svg :: 延期披露：VOL.1曾預告本期起刊登真實
+   p7-lang.svg :: い。VOL.1は今号から本物の手紙と第8版の
+   p7-lang.svg :: 下期預告 · 次号予告（VOL.3）
+   p7-lang.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+   p8-test.svg :: Lucerna
+   p8-test.svg :: 50. B — メルセデスはシリーズMVPに選ばれた。
+   p8-test.svg :: 82. d — 打卡 — 写真付きでSNSにチェックインすること。
+   p8-test.svg :: 88. A — AIはデータを見て、リスクを見つけ、顧客の質問に答える手伝いを
+   p8-test.svg :: 138. 人工智慧 — 金融の中のAIは人工智慧＋。
+   p8-test.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+H kinsoku: nodes=1425 NO_START=0 [] small-kana-starts=0 [] NO_END=0 []

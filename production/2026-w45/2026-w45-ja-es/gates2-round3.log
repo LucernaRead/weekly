@@ -1,0 +1,39 @@
+== 7b. right-edge scan, anchor-aware (hard: ink right > 1950) ==
+  over-margin p1-hyoushi.svg y=92 ink_right=1885.1 :: '2026年11月2日（月）〜8日（日）'
+  over-margin p2-kurashi.svg y=1844 ink_right=1885.1 :: 'Respuestas en la página 8 · Niveles mezclados: busca tu núme'
+  over-margin p3-bunka.svg y=1608 ink_right=1885.1 :: 'Respuestas en la página 8 · Niveles mezclados: busca tu núme'
+  over-margin p4-supotsu.svg y=1868 ink_right=1885.1 :: 'Respuestas en la página 8 · Niveles mezclados: busca tu núme'
+  over-margin p5-wakamono.svg y=1608 ink_right=1885.1 :: 'Respuestas en la página 8 · Niveles mezclados: busca tu núme'
+  over-margin p6-fukayomi.svg y=1928 ink_right=1885.1 :: 'Respuestas en la página 8 · Niveles mezclados: busca tu núme'
+  over-margin p8-tesuto.svg y=1302 ink_right=1885.1 :: 'Una breve explicación en español por respuesta · ✓ = ejercic'
+  hard=0 over-margin=7
+== 8b. P6 chart: label ink vs later bar rects ==
+  rect[0] x=None y=None w=1950 h=2700 fill=#f7f1e2
+  rect[1] x=28 y=28 w=1894 h=2644 fill=none
+  rect[2] x=40 y=40 w=1870 h=2620 fill=none
+  rect[3] x=52 y=52 w=1846 h=98 fill=#2c2822
+  rect[40] x=527 y=425.0 w=434 h=145.675 fill=#f1ead6
+  rect[44] x=1451 y=200 w=434 h=378.5 fill=#fdfaf0
+  rect[51] x=1451 y=604.5 w=434 h=284.5 fill=#fdfaf0
+  rect[61] x=315 y=1604 w=1140 h=34 fill=#3e4c2a
+  rect[64] x=315 y=1660 w=810 h=34 fill=#3e4c2a
+  rect[67] x=315 y=1716 w=630 h=34 fill=#3e4c2a
+  rect[70] x=315 y=1772 w=420 h=34 fill=#3e4c2a
+  rect[80] x=65 y=2095.95 w=60 h=30 fill=#a4553a
+  rect[85] x=65 y=2208.05 w=60 h=30 fill=#a4553a
+  rect[90] x=65 y=2320.1500000000005 w=60 h=30 fill=#a4553a
+  rect[95] x=65 y=2432.250000000001 w=60 h=30 fill=#a4553a
+  rect[100] x=527 y=1956 w=60 h=30 fill=#a4553a
+  rect[108] x=527 y=2178.325 w=60 h=30 fill=#a4553a
+  rect[113] x=527 y=2262.875 w=60 h=30 fill=#a4553a
+  rect[118] x=527 y=2347.425 w=60 h=30 fill=#a4553a
+  rect[123] x=527 y=2431.9750000000004 w=60 h=30 fill=#a4553a
+  rect[128] x=989 y=1956 w=60 h=30 fill=#a4553a
+  rect[133] x=989 y=2040.55 w=60 h=30 fill=#a4553a
+  rect[141] x=989 y=2235.3250000000003 w=60 h=30 fill=#a4553a
+  rect[146] x=989 y=2319.8750000000005 w=60 h=30 fill=#a4553a
+  rect[151] x=989 y=2404.4250000000006 w=60 h=30 fill=#a4553a
+  rect[156] x=989 y=2488.975000000001 w=60 h=30 fill=#a4553a
+  rect[165] x=1451 y=2095.95 w=60 h=30 fill=#a4553a
+  rect[170] x=1451 y=2180.5 w=60 h=30 fill=#a4553a
+  rect[175] x=1451 y=2265.05 w=60 h=30 fill=#a4553a

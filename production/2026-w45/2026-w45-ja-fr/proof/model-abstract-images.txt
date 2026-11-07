@@ -1,0 +1,46 @@
+P8 texts containing 例： or モデル:
+  例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家
+  150. ✓ Modèle dans la section H de cette page (167 caractères)
+model start idx=[150]
+  joined model lines: ['例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家', '族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土', 'よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップ', 'を見ます。日よう日は、図書館で借りた本を読みます。読書週間も', '終わりますから、静かな場所で大きな冒険をしたいです。11月は短', 'いですが、楽しいことが多い季節です。']
+  model char count (no spaces, after 例：) = 167 ; body= 私の11月の週末は、文化と紅葉の週末です。火よう日は、家族と金沢へ行きます。伝統工芸展とライトアップを見たいです。土よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップを見ます。日よう日は、図書館で借りた本を読みます。読書週間も終わりますから、静かな場所で大きな冒険をしたいです。11月は短いですが、楽しいことが多い季節です。
+  claimed 167? True
+
+ABSTRACT raw: 'Lucerna, hebdomadaire japonais pour lecteurs francophones : Journée de la culture du 3 novembre, week-end des érables du 7 au 8 novembre, gorges de Naruko, illuminations de Kobe, Semaine de la lecture et Japan Series, avec 150 exercices de japonais niveaux A2 à B2, textes en japonais et explications en français pour apprendre le japonais en lisant.\n'
+lines=1 has-ascii-dquote=False
+  p1-hyoushi.svg: core images=[('65', '1874', '896', '320', '140f46d9e41b8ef0', 632548)] edition images=[('65', '1874', '896', '320', '140f46d9e41b8ef0', 632548)] payload-equal=[True] count-equal=True
+  p2-kurashi.svg: core images=[] edition images=[] payload-equal=[] count-equal=True
+  p3-bunka.svg: core images=[('1451', '200', '434', '222', 'e293b32d5911d4d5', 816936)] edition images=[('1451', '200', '434', '222', 'e293b32d5911d4d5', 816936)] payload-equal=[True] count-equal=True
+  p4-supotsu.svg: core images=[('1451', '200', '434', '290', '19990669abb56897', 789256)] edition images=[('1451', '200', '434', '290', '19990669abb56897', 789256)] payload-equal=[True] count-equal=True
+  p5-wakamono.svg: core images=[('1451', '200', '434', '262', '6242ca640af3d418', 94144)] edition images=[('1451', '200', '434', '262', '6242ca640af3d418', 94144)] payload-equal=[True] count-equal=True
+  p6-fukayomi.svg: core images=[] edition images=[] payload-equal=[] count-equal=True
+  p7-kotoba.svg: core images=[] edition images=[] payload-equal=[] count-equal=True
+  p8-tesuto.svg: core images=[] edition images=[] payload-equal=[] count-equal=True
+
+Credit-like lines in edition SVGs:
+  p1-hyoushi.svg y=2245.65: 写真：Poliphilo — CC0（Wikimedia Commons）
+  p3-bunka.svg y=524.9499999999999: 版画：歌川広重（三代）— パブリックドメイン（Wikimedia
+  p3-bunka.svg y=545.0999999999999: Commons）
+  p4-supotsu.svg y=567.3: 写真：Syced — CC0（Wikimedia Commons）
+  p5-wakamono.svg y=539.3: 写真：Petr Kratochvil — パブリックドメイン（Wikimedia
+  p5-wakamono.svg y=559.4499999999999: Commons）
+
+Build assets CREDITS.md:
+# Image credits — Lucerna 日本語版 VOL.2 (W45, Nov 2–8, 2026)
+
+All images reused from the VOL.1 verified set (Wikimedia Commons API,
+extmetadata LicenseShortName, verified 2026-10-21; Artist field used for
+credit). Only Public Domain / CC0 images are used. No new downloads.
+
+| File | Page | Subject | Author / source | License | Commons page |
+|---|---|---|---|---|---|
+| maple.jpg | P1 | Maple leaves in autumn | Poliphilo | CC0 | https://commons.wikimedia.org/wiki/File:Maple_leaves_in_autumn_1.JPG |
+| hiroshige.jpg | P3 | Utagawa Hiroshige III, 1876 imperial-inspection procession print — captioned as a Meiji-era art print for Culture Day arts, not as a photo of any W45 event | Hiroshige III | Public domain | https://commons.wikimedia.org/wiki/File:Utagawa-Hiroshige-III-Progression-During-the-Imperial-Inspection-at-Ou-Matsushima-1876.png |
+| stadium.jpg | P4 | Yokohama Stadium (the "Dream Gate" entrance) — the actual venue of Japan Series Games 1–2 | Syced | CC0 | https://commons.wikimedia.org/wiki/File:Yokohama_Stadium_Dream_Gate.jpg |
+| pumpkin.jpg | P5 | Jack-o'-lantern pumpkins | Petr Kratochvil | Public domain | https://commons.wikimedia.org/wiki/File:Jack-o-lantern_pumpkins.jpg |
+
+P2 and P6 carry no photo (text + boxes + a labeled practice-data chart on
+P6); P7 and P8 carry no photo, as in VOL.1. No CC-BY/CC-BY-SA image was
+used: the one nabe candidate found (File:Motsunabe.jpg) is CC-BY-SA 3.0
+and was rejected under the SOP's PD/CC0-only rule.
+

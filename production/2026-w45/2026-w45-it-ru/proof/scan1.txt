@@ -1,0 +1,258 @@
+
+### 1a banned-term/CJK scan (edition SVGs)
+p1-prima: 桥接=0 bridge=0 CJKchars=0
+p2-vita: 桥接=0 bridge=0 CJKchars=0
+p3-cultura: 桥接=0 bridge=0 CJKchars=0
+p4-sport: 桥接=0 bridge=0 CJKchars=0
+p5-giovani: 桥接=0 bridge=0 CJKchars=0
+p6-approfondimento: 桥接=0 bridge=0 CJKchars=0
+p7-lingua: 桥接=0 bridge=0 CJKchars=0
+p8-valutazione: 桥接=0 bridge=0 CJKchars=0
+
+### 1b banned term in KIT/ABSTRACT/PDFs (binary substring)
+WEEKLY-KIT.md: 桥接-bytes=0
+ABSTRACT.txt: 桥接-bytes=0
+La-Lucerna-VOL2-RU.pdf: 桥接-bytes=0
+La-Lucerna-VOL2-RU-web.pdf: 桥接-bytes=0
+
+### 1c freeze-diff removed strings, full list (proof run)
+json keys: ['core_svg', 'edition_svg', 'pages', 'cjk_added_total']
+
+### 2 P7 word box
+--CORE guillemet-starting nodes:
+   y=1022.29 fs=20.5 '«Io ho freddo» vuol dire... A. fuori fa'
+   y=1144.145 fs=20.5 '«So che il freddo...» A. arrivi · B. arriva · C.'
+   y=291 fs=21.5 '«Fa freddi.»'
+   y=474.52 fs=21.5 '«Ho nevicato ieri.»'
+   y=685.92 fs=21.5 '«Pioverà di sicuro.»'
+   y=869.4399999999999 fs=21.5 '«La gente sono infreddoliti.»'
+   y=1128.5 fs=21.5 "« l'assaggio » è la prova di un cibo:"
+   y=1428.5 fs=21.5 '«Ciao! Sono Li, studio italiano a'
+   y=1787 fs=21.5 '«arriva il primo freddo vero della stagione»'
+   y=1945 fs=21.5 '«Non è una certezza, è una probabilità»'
+   y=2103 fs=21.5 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2261 fs=21.5 '«Fa freddo, copriti bene!»'
+   y=1787 fs=21.5 '«il pubblico può assaggiare gratis»'
+   y=1945 fs=21.5 '«il calcio non si ferma per il primo freddo»'
+   y=2103 fs=21.5 '«la cultura continua»'
+   y=2261 fs=21.5 '«Una probabilità alta non è una certezza»'
+--CORE assaggio-gloss nodes:
+   y=1280.62 'assaggio = 品尝。本周见第 3 版：潘妮托尼'
+--CORE definition continuation nodes (è la prova / prova di):
+   y=1128.5 "« l'assaggio » è la prova di un cibo:"
+   y=1220.09 'pagina 3, alla finale del Panettone.'
+--ED guillemet-starting nodes:
+   y=1052.0149999999999 fs=20.5 '«Io ho freddo» vuol dire... A. fuori fa'
+   y=1173.87 fs=20.5 '«So che il freddo...» A. arrivi · B. arriva · C.'
+   y=291 fs=21.5 '«Fa freddi.»'
+   y=474.52 fs=21.5 '«Ho nevicato ieri.»'
+   y=685.92 fs=21.5 '«Pioverà di sicuro.»'
+   y=869.4399999999999 fs=21.5 '«La gente sono infreddoliti.»'
+   y=1128.5 fs=21.5 "« l'assaggio » è la prova di un cibo:"
+   y=1401.5 fs=21.5 '«Ciao! Sono Li, studio italiano a'
+   y=1787 fs=21.5 '«arriva il primo freddo vero della stagione»'
+   y=1945 fs=21.5 '«Non è una certezza, è una probabilità»'
+   y=2103 fs=21.5 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2261 fs=21.5 '«Fa freddo, copriti bene!»'
+   y=1787 fs=21.5 '«il pubblico può assaggiare gratis»'
+   y=1945 fs=21.5 '«il calcio non si ferma per il primo freddo»'
+   y=2103 fs=21.5 '«la cultura continua»'
+   y=2261 fs=21.5 '«Una probabilità alta non è una certezza»'
+--ED assaggio-gloss nodes:
+   y=1280.62 'assaggio = дегустация (стр. 3).'
+--ED definition continuation nodes (è la prova / prova di):
+   y=1128.5 "« l'assaggio » è la prova di un cibo:"
+   y=1220.09 'pagina 3, alla finale del Panettone.'
+
+### 2b P7 golden sentences: quoted-form and inner-phrase counts, whole issue (core vs edition)
+--CORE P7 guillemet lines in FRASI area (y>1686):
+   y=1787 '«arriva il primo freddo vero della stagione»'
+   y=1945 '«Non è una certezza, è una probabilità»'
+   y=2103 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2261 '«Fa freddo, copriti bene!»'
+   y=1787 '«il pubblico può assaggiare gratis»'
+   y=1945 '«il calcio non si ferma per il primo freddo»'
+   y=2103 '«la cultura continua»'
+   y=2261 '«Una probabilità alta non è una certezza»'
+--ED P7 guillemet lines in FRASI area (y>1686):
+   y=1787 '«arriva il primo freddo vero della stagione»'
+   y=1945 '«Non è una certezza, è una probabilità»'
+   y=2103 '«il 2 novembre è la Commemorazione dei defunti»'
+   y=2261 '«Fa freddo, copriti bene!»'
+   y=1787 '«il pubblico può assaggiare gratis»'
+   y=1945 '«il calcio non si ferma per il primo freddo»'
+   y=2103 '«la cultura continua»'
+   y=2261 '«Una probabilità alta non è una certezza»'
+
+### 2c P7 quote tags in order (edition)
+edition P7 (Страница N) in node order: ['1', '1', '2', '2', '3', '4', '5', '6']
+core P7 tag-ish matches: [('1', '', ''), ('1', '', ''), ('2', '', ''), ('2', '', ''), ('3', '', ''), ('4', '', ''), ('5', '', ''), ('6', '', '')]
+   CORE tag node y=1280.62 'assaggio = 品尝。本周见第 3 版：潘妮托尼'
+   CORE tag node y=1639.55 '编辑部，VOL.3 刊登真实来信与第 8 版最佳'
+   CORE tag node y=2624 '第 7 版 / 共 8 版'
+
+### 2d golden inner-phrase 2x check (edition + core)
+edition P7 quoted nodes: ['Io ho freddo» vuol dire... A. fuori fa', 'So che il freddo...» A. arrivi · B. arriva · C.', 'Fa freddi.', 'Ho nevicato ieri.', 'Pioverà di sicuro.', 'La gente sono infreddoliti.', " l'assaggio » è la prova di un cibo:", 'Ciao! Sono Li, studio italiano a', 'arriva il primo freddo vero della stagione', 'Non è una certezza, è una probabilità', 'il 2 novembre è la Commemorazione dei defunti', 'Fa freddo, copriti bene!', 'il pubblico può assaggiare gratis', 'il calcio non si ferma per il primo freddo', 'la cultura continua', 'Una probabilità alta non è una certezza']
+  inner 'Io ho freddo» vuol dire... A. fuori fa': core_all=1 ed_all=1 quoted_core=0 quoted_ed=0
+  inner 'So che il freddo...» A. arrivi · B. arriva · C.': core_all=1 ed_all=1 quoted_core=0 quoted_ed=0
+  inner 'Fa freddi.': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'Ho nevicato ieri.': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'Pioverà di sicuro.': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'La gente sono infreddoliti.': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner "l'assaggio » è la prova di un cibo:": core_all=1 ed_all=1 quoted_core=0 quoted_ed=0
+  inner 'Ciao! Sono Li, studio italiano a': core_all=1 ed_all=1 quoted_core=0 quoted_ed=0
+  inner 'arriva il primo freddo vero della stagione': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'Non è una certezza, è una probabilità': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'il 2 novembre è la Commemorazione dei defunti': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'Fa freddo, copriti bene!': core_all=2 ed_all=2 quoted_core=2 quoted_ed=2
+  inner 'il pubblico può assaggiare gratis': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'il calcio non si ferma per il primo freddo': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+  inner 'la cultura continua': core_all=2 ed_all=2 quoted_core=1 quoted_ed=1
+  inner 'Una probabilità alta non è una certezza': core_all=1 ed_all=1 quoted_core=1 quoted_ed=1
+
+### 7 readers corner
+--CORE letter/disclosure area nodes:
+   y=1428.5 '«Ciao! Sono Li, studio italiano a'
+   y=1550.62 '(esempio della redazione)'
+   y=1639.55 '编辑部，VOL.3 刊登真实来信与第 8 版最佳'
+   y=2448 'LA PROSSIMA SETTIMANA · 下期预告 (VOL.3)'
+--ED letter/disclosure area nodes:
+   y=1401.5 '«Ciao! Sono Li, studio italiano a'
+   y=1523.62 '(esempio della redazione)'
+   y=1584.1499999999999 'Пример редакции, а не настоящие'
+   y=1612.55 'письма; лучшего текста со страницы 8'
+   y=1640.95 'нет. Напишите нам — лучшие в VOL.3!'
+   y=2448 'LA PROSSIMA SETTIMANA · В СЛЕДУЮЩЕМ ВЫПУСКЕ (VOL.3)'
+disclosure concatenation (next 3 nodes): Пример редакции, а не настоящие | письма; лучшего текста со страницы 8 | нет. Напишите нам — лучшие в VOL.3!
+joined: 'Пример редакции, а не настоящие письма; лучшего текста со страницы 8 нет. Напишите нам — лучшие в VOL.3!'
+
+### 3 P8 keydiff line-by-line (printed lines containing item numbers)
+--CORE extract exit=0 lines=2
+--ED extract exit=0 lines=2
+
+### 6 gloss: edition rendered gloss strings
+p1-prima: gloss-node items=1 :: 'Пояснение — primo freddo = первый холод'
+p2-vita: gloss-node items=2 :: 'Пояснение — il cappotto = пальто · la'
+p3-cultura: gloss-node items=1 :: 'Пояснение — il panettone = миланский'
+p4-sport: gloss-node items=2 :: 'Пояснение — la giornata = тур · la'
+p5-giovani: gloss-node items=1 :: 'Пояснение — il cosplay ='
+p6-approfondimento: gloss-node items=1 :: 'Пояснение — la probabilità ='
+
+### 6b core gloss strings (Chinese native)
+
+### 6c P1 bridge word list
+CORE P1: '讲解｜il primo freddo 第一场寒冷 · il'
+
+### 4 residual scan (all 8 edition SVGs, raw text)
+p1-prima: clean
+p2-vita: clean
+p3-cultura: clean
+p4-sport: clean
+p5-giovani: clean
+p6-approfondimento: clean
+p7-lingua: clean
+p8-valutazione: clean
+
+### 4b Italian grammar strings containing '->' etc (to distinguish)
+p1-prima: arrow-occurrences=2
+p2-vita: arrow-occurrences=0
+p3-cultura: arrow-occurrences=5
+p4-sport: arrow-occurrences=1
+p5-giovani: arrow-occurrences=0
+p6-approfondimento: arrow-occurrences=0
+p7-lingua: arrow-occurrences=4
+p8-valutazione: arrow-occurrences=12
+
+### 8 badge three-way
+--W43 ITxRU P1: badge-string present=True
+   badge node x=975 y=372 fs=20 anchor=middle weight=700 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+   badge node x=65 y=2624 fs=20 anchor=start weight=None 'La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.1 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+   y~372 node x=975 fs=20 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+--W45 CORE P1: badge-string present=False
+   y~372 node x=975 fs=19 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+--W45 RU P1: badge-string present=True
+   badge node x=975 y=574 fs=22 anchor=middle weight=700 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+   badge node x=65 y=2624 fs=20 anchor=start weight=None 'La Lucerna · ИТАЛЬЯНСКИЙ ЕЖЕНЕДЕЛЬНИК VOL.2 · ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ'
+   y~372 node x=975 fs=19 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+   y~574 node x=975 fs=22 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+
+### 8b W43 P1 strapline-like lines: all text nodes y in [340,420] W43 vs core vs edition
+W43 y=372 x=975 fs=20 'ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ'
+CORE y=372 x=975 fs=19 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+ED y=372 x=975 fs=19 "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA"
+
+### 9 furniture vs W43 (string presence)
+footer: W43-any=False ED-pages=8/8
+footer-W43: W43-any=True ED-pages=0/8
+page-line-p1: W43-any=True ED-pages=1/8
+gloss-prefix: W43-any=True ED-pages=6/8
+strap: W43-any=True ED-pages=1/8
+P8 sep — СТРАНИЦА 1 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 2 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 3 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 4 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 5 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 6 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 7 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+P8 sep — СТРАНИЦА 8 —: W43-P8=True ED-P8=True
+   PAGINA form: W43-P8=False ED-P8=False
+head/instr 'VITA · ЖИЗНЬ': ED-pages=1 W43-pages=1
+head/instr 'CULTURA · КУЛЬТУРА': ED-pages=1 W43-pages=1
+head/instr 'SPORT · СПОРТ': ED-pages=1 W43-pages=1
+head/instr 'GIOVANI · МОЛОДЁЖЬ': ED-pages=1 W43-pages=1
+head/instr 'APPROFONDIMENTO · РАЗБОР': ED-pages=1 W43-pages=1
+head/instr 'LINGUA · ЯЗЫК': ED-pages=1 W43-pages=1
+head/instr 'Вставьте': ED-pages=6 W43-pages=6
+head/instr 'Составьте предложение': ED-pages=2 W43-pages=2
+head/instr 'Переведите': ED-pages=1 W43-pages=0
+head/instr 'Верно или нет': ED-pages=1 W43-pages=1
+head/instr 'Напишите': ED-pages=6 W43-pages=4
+head/instr 'Соедините пары': ED-pages=3 W43-pages=3
+head/instr 'E TU? · А ВЫ?': ED-pages=4 W43-pages=4
+
+### 10 images: embedded image payload hashes per page (core vs edition)
+p1-prima: core=[] ed=[] equal=True
+p2-vita: core=[] ed=[] equal=True
+p3-cultura: core=['9ea4244b4d216b67(346864)'] ed=['9ea4244b4d216b67(346864)'] equal=True
+   ED credit y=593.5999999999999 'Foto: Wikimedia Commons — dominio pubblico'
+   CORE credit y=593.5999999999999 'Foto: Wikimedia Commons — dominio pubblico'
+p4-sport: core=[] ed=[] equal=True
+p5-giovani: core=['d6bc00b109d273c4(627056)'] ed=['d6bc00b109d273c4(627056)'] equal=True
+   ED credit y=628.5999999999999 'Foto: Wikimedia Commons — CC0'
+   CORE credit y=628.5999999999999 'Foto: Wikimedia Commons — CC0'
+p6-approfondimento: core=[] ed=[] equal=True
+p7-lingua: core=[] ed=[] equal=True
+p8-valutazione: core=[] ed=[] equal=True
+
+### 12 model text + levels placeholder (see separate count script)
+CORE model label y=717.5250000000002 'Testo modello: Lunedì 2 novembre metto il cappotto e'; following nodes:
+    y=738.3250000000002 'la sciarpa: arriva il primo freddo e la mattina è'
+    y=759.1250000000001 'pungente. A scuola parliamo del Forum Cultura di'
+    y=779.9250000000001 'Milano e del Festival dei Popoli di Firenze. Sabato'
+    y=800.725 'assaggio il panettone con la mia famiglia: preferisco'
+    y=821.525 'quello tradizionale, con i canditi. Domenica sera'
+    y=842.3249999999999 'guardiamo Fiorentina–Juventus in televisione. Il freddo'
+    y=863.1249999999999 'è arrivato, ma la settimana è dolce: cultura, dolci e'
+    y=883.9249999999998 'calcio, come nel giornale. Lunedì prossimo racconto'
+    y=904.7249999999998 'tutto alla classe, con le parole nuove del freddo.'
+    y=1382 'RISPOSTE · 参考答案 — 按版面分页排列，找到题号即可'
+    y=1382 '每题附一句中文简析 · 带 ✓ 的为范文题'
+ED model label y=747.2500000000002 'Testo modello: Lunedì 2 novembre metto il cappotto e'; following nodes:
+    y=768.0500000000002 'la sciarpa: arriva il primo freddo e la mattina è'
+    y=788.8500000000001 'pungente. A scuola parliamo del Forum Cultura di'
+    y=809.6500000000001 'Milano e del Festival dei Popoli di Firenze. Sabato'
+    y=830.45 'assaggio il panettone con la mia famiglia: preferisco'
+    y=851.25 'quello tradizionale, con i canditi. Domenica sera'
+    y=872.05 'guardiamo Fiorentina–Juventus in televisione. Il freddo'
+    y=892.8499999999999 'è arrivato, ma la settimana è dolce: cultura, dolci e'
+    y=913.6499999999999 'calcio, come nel giornale. Lunedì prossimo racconto'
+    y=934.4499999999998 'tutto alla classe, con le parole nuove del freddo.'
+    y=1382 'RISPOSTE · ОТВЕТЫ — по страницам: ищите по номеру задачи'
+    y=1382 'К каждой задаче — пояснение · ✓ — задание с образцом'

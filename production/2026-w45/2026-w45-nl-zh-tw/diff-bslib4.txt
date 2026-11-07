@@ -1,0 +1,12 @@
+70c70
+<         self.text(MX, 2624, "De Lucerna · 荷兰语周报 VOL.2 · LUCERNA DUTCH WEEKLY", 20, "sans", False, GREY)
+---
+>         self.text(MX, 2624, "De Lucerna · 荷語週報 VOL.2 · 正文荷語 · 講解繁體中文", 20, "sans", False, GREY)
+154c154
+<     def bridge(self, s, size=20.5, gap=9, fill=GREY):
+---
+>     def expl(self, s, size=20.5, gap=9, fill=GREY):
+197c197
+<         return self.box("", [("译注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+---
+>         return self.box("", [("譯注｜" + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)

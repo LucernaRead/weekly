@@ -1,0 +1,297 @@
+===== READERS ED P7 x>=989 y>=1878 =====
+x=1013.0 y=1918.0 :: "READERS' CORNER · 독자 코너"
+x=1013.0 y=1956.0 :: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+x=1013.0 y=1986.53 :: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+x=1013.0 y=2017.06 :: 'went to press, so the example stays, honestly labeled)'
+x=1013.0 y=2076.0 :: '편집부 알림｜VOL.1에서는 VOL.2에 실제 편지를 싣겠다고 약속했지만, 발행 때까지 실제 편지도'
+x=1013.0 y=2104.0 :: 'VOL.1 쓰기 투고도 도착하지 않았어요. 편지를 지어내지 않고 예시를 싣습니다. 여러분의 편지와 쓰기를'
+x=1013.0 y=2132.0 :: '보내 주세요. VOL.3부터 실제 편지를 싣겠습니다.'
+x=1013.0 y=2248.0 :: 'NEXT WEEK · VOL.3 다음 호 예고'
+x=1013.0 y=2286.0 :: 'Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in'
+x=1013.0 y=2317.175 :: 'Munich. And the midterm results, reported — who won, and what changes.'
+x=1013.0 y=2420.0 :: '다음 주 수요일 재향군인의 날, 일요일 NFL 뮌헨 경기, 그리고 중간선거 결과 보도.'
+x=1885.0 y=2624.0 :: '제 7 면 / 총 8 면'
+ ED P7 rect count=21
+  RECT <rect width="1950" height="2700" fill="#f7f1e2"/>
+  RECT <rect x="28" y="28" width="1894" height="2644" fill="none" stroke="#28251d" stroke-width="3.4"/>
+  RECT <rect x="40" y="40" width="1870" height="2620" fill="none" stroke="#28251d" stroke-width="1.2"/>
+  RECT <rect x="52" y="52" width="1846" height="98" rx="0" fill="#2c2822"/>
+  RECT <rect x="65" y="760.0" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="527" y="965.2" width="434" height="151.56" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="794.2" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="65" y="1390.99" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="65" y="1670.4799999999998" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1312.55" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="1534.7649999999999" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="989" y="1262" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1511.7649999999999" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1734.0599999999997" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="1451" y="1418.54" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="65" y="1988.225" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="65" y="2086.35" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1878" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="2008.75" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="989" y="1878" width="896" height="300" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="2202" width="896" height="338" rx="0" fill="#2c2822"/>
+===== READERS CORE P7 x>=989 y>=1878 =====
+x=1013.0 y=1918.0 :: "READERS' CORNER · 读者园地"
+x=1013.0 y=1956.0 :: '« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader'
+x=1013.0 y=1986.53 :: "in Chicago (editor's example : no real reader letters had arrived when this issue"
+x=1013.0 y=2017.06 :: 'went to press, so the example stays, honestly labeled)'
+x=1013.0 y=2076.0 :: '编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作'
+x=1013.0 y=2104.0 :: '投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信'
+x=1013.0 y=2132.0 :: '。'
+x=1013.0 y=2248.0 :: 'NEXT WEEK · VOL.3 下周预告'
+x=1013.0 y=2286.0 :: 'Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in'
+x=1013.0 y=2317.175 :: 'Munich. And the midterm results, reported — who won, and what changes.'
+x=1013.0 y=2420.0 :: '下周三退伍军人节，周日 NFL 慕尼黑赛；还有中期选举结果报道。'
+x=1885.0 y=2624.0 :: '第 7 版 / 共 8 版'
+ CORE P7 rect count=21
+  RECT <rect width="1950" height="2700" fill="#f7f1e2"/>
+  RECT <rect x="28" y="28" width="1894" height="2644" fill="none" stroke="#28251d" stroke-width="3.4"/>
+  RECT <rect x="40" y="40" width="1870" height="2620" fill="none" stroke="#28251d" stroke-width="1.2"/>
+  RECT <rect x="52" y="52" width="1846" height="98" rx="0" fill="#2c2822"/>
+  RECT <rect x="65" y="760.0" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="527" y="965.2" width="434" height="151.56" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="794.2" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="65" y="1390.99" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="65" y="1670.4799999999998" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1312.55" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="1534.7649999999999" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="989" y="1262" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1511.7649999999999" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1706.5099999999998" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="1451" y="1363.52" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="65" y="1988.225" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="65" y="2086.35" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1878" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="2008.75" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="989" y="1878" width="896" height="300" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="2202" width="896" height="338" rx="0" fill="#2c2822"/>
+===== READERS W43 P7 x>=989 y>=1878 =====
+x=1013.0 y=1918.0 :: "READERS' CORNER · 독자 코너"
+x=1013.0 y=1956.0 :: '« This autumn, I read my first book in English — one page every night, with'
+x=1013.0 y=1986.53 :: "Lucerna. » — R. T., a reader in Toronto (editor's example : the first real reader"
+x=1013.0 y=2017.06 :: 'letters will take this place in VOL.2)'
+x=1013.0 y=2076.0 :: '편집부 답글 — one page every night는 가장 꾸준한 습관이에요: 일반 현재형이 바로 습관을 말하죠.'
+x=1013.0 y=2104.0 :: '안내: 이 편지는 편집부 예시예요. VOL.2부터 실제 독자 편지를 싣고, 이번 호 8면 쓰기 투고도 평가해요.'
+x=1013.0 y=2248.0 :: 'NEXT WEEK · VOL.2 다음 주 예고'
+x=1013.0 y=2286.0 :: 'Saturday, October 31 : Halloween night, live. Sunday, November 1 : America falls'
+x=1013.0 y=2317.175 :: 'back — one more hour of sleep. Tuesday, November 3 : Election Day. What do'
+x=1013.0 y=2348.3500000000004 :: 'Americans read, watch and eat while they wait for the results ?'
+x=1013.0 y=2420.0 :: '다음 주 토요일은 할로윈 밤, 일요일에는 미국 전역이 시계를 되돌리고, 11월 3일 화요일 선거일에 결과'
+x=1013.0 y=2448.0 :: '가 나와요.'
+x=1885.0 y=2624.0 :: '제 7 면 / 총 8 면'
+ W43 P7 rect count=21
+  RECT <rect width="1950" height="2700" fill="#f7f1e2"/>
+  RECT <rect x="28" y="28" width="1894" height="2644" fill="none" stroke="#28251d" stroke-width="3.4"/>
+  RECT <rect x="40" y="40" width="1870" height="2620" fill="none" stroke="#28251d" stroke-width="1.2"/>
+  RECT <rect x="52" y="52" width="1846" height="98" rx="0" fill="#2c2822"/>
+  RECT <rect x="65" y="760.0" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="527" y="794.2" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="794.2" width="434" height="182.08999999999997" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="65" y="1446.01" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="65" y="1723.245" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1390.99" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="1670.4799999999998" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1340.1" width="60" height="30" rx="6" fill="#a4553a"/>
+  RECT <rect x="989" y="1592.1199999999997" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="1451" y="1312.55" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="1451" y="1619.5099999999998" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="65" y="1988.225" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="65" y="2086.35" width="60" height="30" rx="6" fill="#3e4c2a"/>
+  RECT <rect x="527" y="1878" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="527" y="2008.75" width="60" height="30" rx="6" fill="#8a6d3b"/>
+  RECT <rect x="989" y="1878" width="896" height="300" rx="0" fill="#fdfaf0" stroke="#d8cfb4" stroke-width="1.4"/>
+  RECT <rect x="989" y="2202" width="896" height="338" rx="0" fill="#2c2822"/>
+===== P1 badge/masthead/footers =====
+--- ED P1 ---
+ x=65.0 y=92.0 :: 'VOL. 2'
+ x=975.0 y=92.0 :: 'WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어'
+ x=1885.0 y=92.0 :: 'WEEK OF NOVEMBER 2 TO 8, 2026'
+ x=975.0 y=372.0 :: '영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+ x=65.0 y=2624.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ x=1885.0 y=2624.0 :: '제 1 면 / 총 8 면'
+  y372 raw: '<text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  y92 raw: '<text x="65" y="92" font-family="Noto Sans CJK SC" font-size="23" font-weight="700" fill="#3e4c2a" text-anchor="start">VOL. 2</text>'
+  y92 raw: '<text x="975" y="92" font-family="Noto Sans CJK SC" font-size="21" fill="#57523f" text-anchor="middle">WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어</text>'
+  y92 raw: '<text x="1885" y="92" font-family="Noto Sans CJK SC" font-size="23" fill="#57523f" text-anchor="end">WEEK OF NOVEMBER 2 TO 8, 2026</text>'
+--- CORE P1 ---
+ x=65.0 y=92.0 :: 'VOL. 2'
+ x=975.0 y=92.0 :: 'WEEKLY IN ENGLISH · 每周一期 · 读美国人正在读的英语'
+ x=1885.0 y=92.0 :: 'WEEK OF NOVEMBER 2 TO 8, 2026'
+ x=975.0 y=372.0 :: "THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM AMERICA"
+ x=65.0 y=2624.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ x=1885.0 y=2624.0 :: '第 1 版 / 共 8 版'
+  y372 raw: '<text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19" fill="#57523f" text-anchor="middle">THE LEARNERS\' WEEKLY — REAL LIFE, IN ENGLISH, FROM AMERICA</text>'
+  y92 raw: '<text x="65" y="92" font-family="Noto Sans CJK SC" font-size="23" font-weight="700" fill="#3e4c2a" text-anchor="start">VOL. 2</text>'
+  y92 raw: '<text x="975" y="92" font-family="Noto Sans CJK SC" font-size="21" fill="#57523f" text-anchor="middle">WEEKLY IN ENGLISH · 每周一期 · 读美国人正在读的英语</text>'
+  y92 raw: '<text x="1885" y="92" font-family="Noto Sans CJK SC" font-size="23" fill="#57523f" text-anchor="end">WEEK OF NOVEMBER 2 TO 8, 2026</text>'
+--- W43 P1 ---
+ x=65.0 y=92.0 :: 'VOL. 1 · FIRST ISSUE'
+ x=975.0 y=92.0 :: 'WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어'
+ x=1885.0 y=92.0 :: 'WEEK OF OCTOBER 19 TO 25, 2026'
+ x=975.0 y=372.0 :: '영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+ x=65.0 y=2624.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ x=1885.0 y=2624.0 :: '제 1 면 / 총 8 면'
+  y372 raw: '<text x="975" y="372" font-family="Noto Sans CJK SC" font-size="19.5" font-weight="700" fill="#a4553a" text-anchor="middle">영어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판</text>'
+  y92 raw: '<text x="65" y="92" font-family="Noto Sans CJK SC" font-size="23" font-weight="700" fill="#3e4c2a" text-anchor="start">VOL. 1 · FIRST ISSUE</text>'
+  y92 raw: '<text x="975" y="92" font-family="Noto Sans CJK SC" font-size="21" fill="#57523f" text-anchor="middle">WEEKLY IN ENGLISH · 매주 발행 · 미국이 읽는 영어</text>'
+  y92 raw: '<text x="1885" y="92" font-family="Noto Sans CJK SC" font-size="23" fill="#57523f" text-anchor="end">WEEK OF OCTOBER 19 TO 25, 2026</text>'
+  y92 raw: '<text x="65" y="926.5999999999999" font-family="Noto Serif CJK SC" font-size="25" fill="#28251d" text-anchor="start">election has already started. This</text>'
+  y92 raw: '<text x="527" y="926.5999999999999" font-family="Noto Serif CJK SC" font-size="25" fill="#28251d" text-anchor="start">the very first time. The Milwaukee</text>'
+  y92 raw: '<text x="989" y="929.0999999999999" font-family="Noto Serif CJK SC" font-size="20.5" fill="#28251d" text-anchor="start">You mark your choice on a ___ and put it in</text>'
+===== FOOTERS all pages =====
+--- ED ---
+ p1-front.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p1-front.svg x=1885.0 :: '제 1 면 / 총 8 면'
+ p2-life.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p2-life.svg x=1885.0 :: '제 2 면 / 총 8 면'
+ p3-culture.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p3-culture.svg x=1885.0 :: '제 3 면 / 총 8 면'
+ p4-sport.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p4-sport.svg x=1885.0 :: '제 4 면 / 총 8 면'
+ p5-jeunesse.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p5-jeunesse.svg x=1885.0 :: '제 5 면 / 총 8 면'
+ p6-politique.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p6-politique.svg x=1885.0 :: '제 6 면 / 총 8 면'
+ p7-langue.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p7-langue.svg x=1885.0 :: '제 7 면 / 총 8 면'
+ p8-exercices.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.2 · 텍스트는 영어 · 해설은 한국어'
+ p8-exercices.svg x=1885.0 :: '제 8 면 / 총 8 면'
+--- CORE ---
+ p1-front.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p1-front.svg x=1885.0 :: '第 1 版 / 共 8 版'
+ p2-life.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p2-life.svg x=1885.0 :: '第 2 版 / 共 8 版'
+ p3-culture.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p3-culture.svg x=1885.0 :: '第 3 版 / 共 8 版'
+ p4-sport.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p4-sport.svg x=1885.0 :: '第 4 版 / 共 8 版'
+ p5-jeunesse.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p5-jeunesse.svg x=1885.0 :: '第 5 版 / 共 8 版'
+ p6-politique.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p6-politique.svg x=1885.0 :: '第 6 版 / 共 8 版'
+ p7-langue.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p7-langue.svg x=1885.0 :: '第 7 版 / 共 8 版'
+ p8-exercices.svg x=65.0 :: 'The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY'
+ p8-exercices.svg x=1885.0 :: '第 8 版 / 共 8 版'
+--- W43 ---
+ p1-front.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p1-front.svg x=1885.0 :: '제 1 면 / 총 8 면'
+ p2-life.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p2-life.svg x=1885.0 :: '제 2 면 / 총 8 면'
+ p3-culture.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p3-culture.svg x=1885.0 :: '제 3 면 / 총 8 면'
+ p4-sport.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p4-sport.svg x=1885.0 :: '제 4 면 / 총 8 면'
+ p5-jeunesse.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p5-jeunesse.svg x=1885.0 :: '제 5 면 / 총 8 면'
+ p6-politique.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p6-politique.svg x=1885.0 :: '제 6 면 / 총 8 면'
+ p7-langue.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p7-langue.svg x=1885.0 :: '제 7 면 / 총 8 면'
+ p8-exercices.svg x=65.0 :: 'The Lucerna · 영어 주간지 VOL.1 · 텍스트는 영어 · 해설은 한국어'
+ p8-exercices.svg x=1885.0 :: '제 8 면 / 총 8 면'
+===== P8 headers/separators =====
+--- ED P8 ---
+ x=1872.0 y=142.0 :: 'FINAL TEST · 종합 평가 · Answers at the bottom of this page · 정답은 이 면 아래쪽에'
+ x=65.0 y=1877.0 :: '— 제 1 면 —'
+ x=65.0 y=1983.56 :: '— 제 2 면 —'
+ x=65.0 y=2190.87 :: '— 제 3 면 —'
+ x=65.0 y=2438.48 :: '— 제 4 면 —'
+ x=527.0 y=1982.1 :: '— 제 5 면 —'
+ x=527.0 y=2229.71 :: '— 제 6 면 —'
+ x=527.0 y=2477.32 :: '— 제 7 면 —'
+ x=989.0 y=2022.4 :: '— 제 8 면 —'
+ x=1885.0 y=2624.0 :: '제 8 면 / 총 8 면'
+ separators: ['— 제 1 면 —', '— 제 2 면 —', '— 제 3 면 —', '— 제 4 면 —', '— 제 5 면 —', '— 제 6 면 —', '— 제 7 면 —', '— 제 8 면 —']
+--- CORE P8 ---
+ x=1872.0 y=142.0 :: 'FINAL TEST · 综合评估 · Answers at the bottom of this page 答案在本版下方'
+ x=65.0 y=1838.0 :: 'ANSWERS · 全部答案与简析（第 1–8 版）'
+ x=65.0 y=1877.0 :: '— 第 1 版 —'
+ x=65.0 y=1983.56 :: '— 第 2 版 —'
+ x=65.0 y=2190.87 :: '— 第 3 版 —'
+ x=65.0 y=2418.33 :: '— 第 4 版 —'
+ x=527.0 y=1941.8 :: '— 第 5 版 —'
+ x=527.0 y=2169.2599999999998 :: '— 第 6 版 —'
+ x=527.0 y=2396.72 :: '— 第 7 版 —'
+ x=989.0 y=1941.8 :: '— 第 8 版 —'
+ x=1885.0 y=2624.0 :: '第 8 版 / 共 8 版'
+ separators: ['— 第 1 版 —', '— 第 2 版 —', '— 第 3 版 —', '— 第 4 版 —', '— 第 5 版 —', '— 第 6 版 —', '— 第 7 版 —', '— 第 8 版 —']
+===== P1 dark band: rects y range =====
+--- ED ---
+  rect x=None y=None w=1950 h=2700 fill=#f7f1e2
+  rect x=28 y=28 w=1894 h=2644 fill=none
+  rect x=40 y=40 w=1870 h=2620 fill=none
+  rect x=65 y=424 w=1820 h=118 fill=#2c2822
+  rect x=527 y=1493.475 w=434 h=281.05 fill=#fdfaf0
+  rect x=989 y=823.8 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=946.75 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1069.6999999999998 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1162.9249999999997 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1285.8749999999995 w=60 h=30 fill=#8a6d3b
+  rect x=989 y=1408.8249999999994 w=60 h=30 fill=#8a6d3b
+  rect x=1451 y=580 w=434 h=668 fill=#fdfaf0
+  rect x=1473 y=764 w=250 h=22 fill=#3e4c2a
+  rect x=1473 y=856 w=218 h=22 fill=#b3a06a
+  rect x=1473 y=948 w=186 h=22 fill=#b3a06a
+  rect x=1473 y=1040 w=140 h=22 fill=#b3a06a
+  rect x=1473 y=1132 w=108 h=22 fill=#b3a06a
+  rect x=1451 y=1280 w=434 h=372 fill=#f1ead6
+  rect x=65 y=1874 w=896 h=320 fill=none
+  rect x=1451 y=1874 w=434 h=416 fill=#fdfaf0
+  rect x=65 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=527 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=1451 y=2366 w=60 h=30 fill=#3e4c2a
+--- CORE ---
+  rect x=None y=None w=1950 h=2700 fill=#f7f1e2
+  rect x=28 y=28 w=1894 h=2644 fill=none
+  rect x=40 y=40 w=1870 h=2620 fill=none
+  rect x=65 y=424 w=1820 h=118 fill=#2c2822
+  rect x=527 y=1493.475 w=434 h=281.05 fill=#fdfaf0
+  rect x=989 y=823.8 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=946.75 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1069.6999999999998 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1162.9249999999997 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1285.8749999999995 w=60 h=30 fill=#8a6d3b
+  rect x=989 y=1408.8249999999994 w=60 h=30 fill=#8a6d3b
+  rect x=1451 y=580 w=434 h=668 fill=#fdfaf0
+  rect x=1473 y=764 w=250 h=22 fill=#3e4c2a
+  rect x=1473 y=856 w=218 h=22 fill=#b3a06a
+  rect x=1473 y=948 w=186 h=22 fill=#b3a06a
+  rect x=1473 y=1040 w=140 h=22 fill=#b3a06a
+  rect x=1473 y=1132 w=108 h=22 fill=#b3a06a
+  rect x=1451 y=1280 w=434 h=372 fill=#f1ead6
+  rect x=65 y=1874 w=896 h=320 fill=none
+  rect x=1451 y=1874 w=434 h=416 fill=#fdfaf0
+  rect x=65 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=527 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=1451 y=2366 w=60 h=30 fill=#3e4c2a
+--- W43 ---
+  rect x=None y=None w=1950 h=2700 fill=#f7f1e2
+  rect x=28 y=28 w=1894 h=2644 fill=none
+  rect x=40 y=40 w=1870 h=2620 fill=none
+  rect x=65 y=424 w=1820 h=118 fill=#2c2822
+  rect x=527 y=1440.55 w=434 h=308.725 fill=#fdfaf0
+  rect x=989 y=876.5999999999999 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=999.55 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1122.4999999999998 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1215.7249999999997 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=1338.6749999999995 w=60 h=30 fill=#8a6d3b
+  rect x=989 y=1461.6249999999993 w=60 h=30 fill=#8a6d3b
+  rect x=1451 y=580 w=434 h=668 fill=#fdfaf0
+  rect x=1473 y=764 w=250 h=22 fill=#3e4c2a
+  rect x=1473 y=856 w=218 h=22 fill=#b3a06a
+  rect x=1473 y=948 w=186 h=22 fill=#b3a06a
+  rect x=1473 y=1040 w=140 h=22 fill=#b3a06a
+  rect x=1473 y=1132 w=108 h=22 fill=#b3a06a
+  rect x=1451 y=1280 w=434 h=372 fill=#f1ead6
+  rect x=65 y=1874 w=896 h=320 fill=none
+  rect x=1451 y=1874 w=434 h=416 fill=#fdfaf0
+  rect x=65 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=527 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=989 y=2366 w=60 h=30 fill=#3e4c2a
+  rect x=1451 y=2366 w=60 h=30 fill=#3e4c2a

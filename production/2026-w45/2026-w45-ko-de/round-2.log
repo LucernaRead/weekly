@@ -1,0 +1,49 @@
+======================== content12.py
+  !! FLOW OVERFLOW [P1-headline] col 2 y=1743 need 99 bottom 1828
+  flow[P1-headline] ended col 2/2 y=1942 (bottom 1828)
+  flow[P1-weekend] ended col 0/0 y=2094 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=1417 (bottom 1540)
+P2 col3 ends 1225.9499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 2/2 y=1290 (bottom 1560)
+P3 col3 ends 1462.9000000000003
+  flow[P3-ex] ended col 2/3 y=2095 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 2/2 y=1022 (bottom 1180)
+P4 col3 ends 903.9499999999999
+  flow[P4-ex] ended col 2/3 y=2002 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 2/2 y=1268 (bottom 1560)
+P5 col3 ends 823.9499999999999
+  flow[P5-ex] ended col 2/3 y=2226 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=1119 (bottom 1180)
+P6 col3 ends 882.5
+  flow[P6-ex] ended col 2/3 y=2165 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1062 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1029 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1059 (bottom 1560)
+P7 col3 ends 1709.94
+P7 teaser ends 2483.94
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=492 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2396 (bottom 2540)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 52, '词汇配对': 16, '句型转换': 4, '造句': 8, '判断': 4, '完形单选': 13, '翻译': 4, '写作': 1}
+model chars: 157
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 52, '词汇配对': 16, '句型转换': 4, '造句': 8, '判断': 4, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE

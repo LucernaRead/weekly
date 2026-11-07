@@ -1,0 +1,20 @@
+ABSTRACT bytes: 375 sha: d4f1d3ad6f3d49b6feac6965279d1011eb4b274b706f88ae3559a07f3cb01f44
+lines (split b\n): [b'The Lucerna VOL.2: Engelse teksten met Nederlandse uitleg voor Nederlandstalige lezers \xe2\x80\x94 verkiezingsdag op dinsdag 3 november, de klok een uur terug op zondag 1 november, Halloween, de films The Cat in the Hat en Godzilla Minus Zero, NFL in Madrid en de Grand Prix van S\xc3\xa3o Paulo, en hoe Amerika stemt; 150 oefeningen op niveaus A2 tot B2 om Engels te leren door te lezen.', b'']
+text: 'The Lucerna VOL.2: Engelse teksten met Nederlandse uitleg voor Nederlandstalige lezers — verkiezingsdag op dinsdag 3 november, de klok een uur terug op zondag 1 november, Halloween, de films The Cat in the Hat en Godzilla Minus Zero, NFL in Madrid en de Grand Prix van São Paulo, en hoe Amerika stemt; 150 oefeningen op niveaus A2 tot B2 om Engels te leren door te lezen.\n'
+ASCII double-quote count: 0
+contains 'Engels te leren door te lezen': True
+  kw 'verkiezingsdag': True
+  kw '3 november': True
+  kw 'klok': True
+  kw 'Halloween': True
+  kw 'The Cat in the Hat': True
+  kw 'Godzilla Minus Zero': True
+  kw 'NFL': True
+  kw 'Madrid': True
+  kw 'São Paulo': True
+  kw 'stemmen': False
+  kw '150 oefeningen': True
+  kw 'A2': True
+  kw 'B2': True
+single line (strip trailing newline only, no internal newline): True
+Dutch check: contains English-only? words: ['The', 'Lucerna', 'VOL.2:', 'Engelse', 'teksten', 'met', 'Nederlandse', 'uitleg', 'voor', 'Nederlandstalige', 'lezers', '—', 'verkiezingsdag', 'op', 'dinsdag', '3', 'november,', 'de', 'klok', 'een']

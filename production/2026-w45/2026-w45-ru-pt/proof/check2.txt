@@ -1,0 +1,26 @@
+P1 core_total=400 ed_total=388 removed={'ПО': 1, 'РУССКИ': 1, 'РУССКАЯ': 1, 'ГАЗЕТА': 2, 'ЕЖЕНЕДЕЛЬНАЯ': 1, 'ДЛЯ': 1, 'ИЗУЧАЮЩИХ': 1, 'РУССКИЙ': 1, 'ЯЗЫК': 1, 'НАСТОЯЩАЯ': 1, 'РОССИЯ': 1} added={}
+P2 core_total=443 ed_total=443 removed={} added={}
+P3 core_total=338 ed_total=338 removed={} added={}
+P4 core_total=306 ed_total=306 removed={} added={}
+P5 core_total=316 ed_total=316 removed={} added={}
+P6 core_total=354 ed_total=354 removed={} added={}
+P7 core_total=397 ed_total=397 removed={} added={}
+P8 core_total=641 ed_total=641 removed={} added={}
+--- fullwidth parens ---
+p1-pervaya FF ( = 0 FF ) = 0 CJK chars: 0
+p2-zhizn FF ( = 0 FF ) = 0 CJK chars: 0
+p3-kultura FF ( = 0 FF ) = 0 CJK chars: 0
+p4-sport FF ( = 0 FF ) = 0 CJK chars: 0
+p5-molodezh FF ( = 0 FF ) = 0 CJK chars: 0
+p6-razbor FF ( = 0 FF ) = 0 CJK chars: 0
+p7-yazyk FF ( = 0 FF ) = 0 CJK chars: 0
+p8-test FF ( = 0 FF ) = 0 CJK chars: 0
+--- images ---
+p1-pervaya core ['033aa031098af56d'] ed ['033aa031098af56d'] EQUAL
+p2-zhizn core [] ed [] EQUAL
+p3-kultura core [] ed [] EQUAL
+p4-sport core ['b29925101e353f69'] ed ['b29925101e353f69'] EQUAL
+p5-molodezh core ['8c7e1ddf3947a5e1'] ed ['8c7e1ddf3947a5e1'] EQUAL
+p6-razbor core [] ed [] EQUAL
+p7-yazyk core [] ed [] EQUAL
+p8-test core [] ed [] EQUAL

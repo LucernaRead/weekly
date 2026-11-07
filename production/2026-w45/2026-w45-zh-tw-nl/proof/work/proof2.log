@@ -1,0 +1,18 @@
+== same-baseline collisions (edition) ==
+  total: 0
+== chart-label element check (edition P4/P6) ==
+  total: 0
+== P7 letter-box (edition) ==
+  node y=1580.6299999999999 size=20.0 ink=[1473.0, 1564.38, 1816.0, 1585.63] text=Voorbeeldbrief — geen echte. Uitstel:
+  node y=1694.2300000000002 size=20.0 ink=[1473.0, 1677.98, 1844.5, 1699.23] text=blijft, uitnodiging open. Stuur je brief in!
+  col3 rects: [[1451.0, 200.0, 1885.0, 848.4], [1451.0, 860.4, 1885.0, 1143.9], [1451.0, 1155.9, 1885.0, 1687.4]]
+== P7 letter-box (core) ==
+  node y=1638.03 size=20.0 ink=[1473.0, 1621.78, 1851.5, 1642.53] text=one. Deferral notice: VOL.1 promised real
+  node y=1751.6300000000003 size=20.0 ink=[1473.0, 1736.13, 1671.25, 1756.38] text=invitation stays open.
+  col3 rects: [[1451.0, 200.0, 1885.0, 848.4], [1451.0, 860.4, 1885.0, 1172.9], [1451.0, 1184.9, 1885.0, 1745.4]]
+== P7 heads (edition) ==
+  A2 · 展會的話 · Beurswoorden ink right=433.5 size=24.0
+  B1 · 球賽與節氣 · Sport & seizoenen ink right=960.8 size=24.0
+  B2 · 港台說法 · Lokaal taalgebruik ink right=1405.8 size=24.0
+== P7 teaser/footer geometry (edition) ==
+  teaser node y=2411.36 ink bottom=2417.36 text=下期預告 · Volgende week (VOL.3)

@@ -1,0 +1,27 @@
+counts: 150 150
+key diffs: [137, 138, 139, 150]
+note diffs: 148 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+unchanged notes: [85, 86]
+type diffs: 150
+page diffs: []
+level diffs: []
+KEY #137 CORE: '周一第一场寒冷来了。'
+KEY #137 ED  : 'Op maandag komt de eerste kou.'
+    note CORE: '对照原文'
+    note ED  : 'zie de originele zin'
+KEY #138 CORE: '观众可以免费品尝。'
+KEY #138 ED  : 'Het publiek kan gratis proeven.'
+    note CORE: 'assaggiare gratis = 免费品尝'
+    note ED  : 'assaggiare gratis = proeven'
+KEY #139 CORE: '周日晚上，佛罗伦萨对尤文图斯。'
+KEY #139 ED  : 'Domenica sera si gioca Fiorentina–Juventus.'
+    note CORE: 'si gioca = 进行比赛'
+    note ED  : 'si gioca = er wordt gespeeld'
+KEY #150 CORE: '（开放题，范文如下）'
+KEY #150 ED  : '(open vraag — het model staat hieronder)'
+    note CORE: '范文见本版 H 区（81 词）'
+    note ED  : 'Het model staat in sectie H van deze pagina (81 woorden)'
+#85 note CORE==ED: '12 − 9 = 3'
+#86 note CORE==ED: '4 + 5 = 9'
+ED si-gioca entry: 139 8 'Domenica sera si gioca Fiorentina–Juventus.' 'si gioca = er wordt gespeeld'
+CORE si-gioca entry: 139 8 '周日晚上，佛罗伦萨对尤文图斯。' 'si gioca = 进行比赛'

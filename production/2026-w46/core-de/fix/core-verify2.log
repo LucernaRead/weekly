@@ -1,0 +1,91 @@
+  flow[P1-headline] ended col 2/2 y=1563 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1290 (bottom 1540)
+P2 col3 box1 ends 527.1800000000001
+P2 col3 box2 ends 880.3600000000001
+P2 col3 box3 ends 1197.48
+P2 col3 box4 ends 1520.13
+  flow[P2-ex] ended col 3/3 y=2389 (bottom 2580)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 2/2 y=387 (bottom 1560)
+P3 col3 facts ends 588.24
+P3 col3 vocab ends 1040.42
+P3 col3 undsie ends 1357.54
+P3 col3 ends 1553.1299999999999
+  flow[P3-ex] ended col 2/3 y=2581 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=770 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=1843 (bottom 2580)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=659 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 ends 1296.48
+  flow[P5-ex] ended col 2/3 y=2138 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=1062 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1206.02
+  flow[P6-ex] ended col 3/3 y=2489 (bottom 2580)
+P6 saved, exercises so far: 100
+  flow[P7-A2] ended col 0/0 y=1285 (bottom 1480)
+  flow[P7-B1] ended col 0/0 y=1305 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1296 (bottom 1480)
+P7 col3 ends 1479.0
+P7 saved, exercises so far: 112
+  flow[P8-battery] ended col 3/3 y=1388 (bottom 1505)
+  flow[P8-keys] ended col 3/3 y=2251 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by level: {'A2': 66, 'B1': 70, 'B2': 14}
+by type: {'写作': 1, '判断对错': 8, '单选': 52, '句型转换': 11, '完形填空': 8, '完成句子': 41, '对话补全': 5, '翻译': 4, '词汇配对': 12, '造句': 8}
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+text volume (chars, no separators): 38381
+P7 verbatim check (expect exactly 2 each):
+  2x :: Die Bundesliga pausiert — aber die Nationalmannschaft spielt
+  2x :: Um 11.11 Uhr beginnt in Köln die neue Karnevalssession.
+  2x :: Sein Gedenktag ist der 11. November.
+  2x :: Die Rucksäcke sind gepackt, die Pausenhöfe sind wieder laut.
+  2x :: Der November ist dunkel, aber er ist nicht still: Er singt, 
+  2x :: Das Spiel ist ausverkauft, RTL überträgt live.
+  2x :: Gedenken heißt hier: innehalten, erinnern — und für Frieden 
+  2x :: Am Sonntag ist es still im Land.
+verbatim OK: True
+stale/forbidden '桥接' on pages: []
+stale/forbidden 'Le Lucerna' on pages: []
+stale/forbidden 'The Lucerna' on pages: []
+stale/forbidden 'VOL.2' on pages: []
+stale/forbidden 'Tankrabatt' on pages: []
+stale/forbidden '14,04' on pages: []
+stale/forbidden 'Hart aber fair' on pages: []
+stale/forbidden 'Klassiker' on pages: []
+stale/forbidden 'Allerheiligen' on pages: []
+stale/forbidden '8,35' on pages: []
+stale/forbidden 'ZEW' on pages: []
+p1-front.svg footer: 1 pageline: ['第 1 版 / 共 8 版']
+p2-leben.svg footer: 1 pageline: ['第 2 版 / 共 8 版']
+p3-kultur.svg footer: 1 pageline: ['第 3 版 / 共 8 版']
+p4-sport.svg footer: 1 pageline: ['第 4 版 / 共 8 版']
+p5-jugend.svg footer: 1 pageline: ['第 5 版 / 共 8 版']
+p6-vertiefung.svg footer: 1 pageline: ['第 6 版 / 共 8 版']
+p7-sprache.svg footer: 1 pageline: ['第 7 版 / 共 8 版']
+p8-uebungen.svg footer: 1 pageline: ['第 8 版 / 共 8 版']
+P1 masthead: True subtitle slot: True week header: True
+  topband VOL. 3 · DRITTE AUSGABE          65..364
+  topband WÖCHENTLICH AUF DEUTSCH · 每周一期   651..1299
+  topband WOCHE VOM 9. BIS 15. NOVEMBER    1463..1885
+P1 top band: no same-baseline overlap
+P6 olive bars (chart): [('535', '1482', '782', '30'), ('535', '1534', '578', '30'), ('535', '1586', '340', '30')]
+  label 'Nations League und NFL' ink ends x=338 (bars start 535; CN labels at 425)
+  label 'St. Martin und Karneval' ink ends x=333 (bars start 535; CN labels at 425)
+  label 'Volkstrauertag und Gedenken' ink ends x=399 (bars start 535; CN labels at 425)
+MUSTER label: MUSTER · 范文（84 Wörter）
+MUSTER words (whitespace split): 84
+chart sum 46+34+20 = 100
+time arithmetic 11:11 + 4h19 = 15:30: True
+exit=0

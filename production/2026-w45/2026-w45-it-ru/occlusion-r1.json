@@ -1,0 +1,62 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-ru/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "после мягкой осени.",
+   "box": [
+    1451.0,
+    1856.4,
+    1641.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "assaggio = дегустация (стр. 3).",
+   "box": [
+    1473.0,
+    1264.1,
+    1761.5,
+    1285.6
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1285.6 > border 1284.5",
+   "by": "rect@133"
+  }
+ ],
+ "flag_count": 2,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "LINEX",
+   "text": "после мягкой осени.",
+   "box": [
+    1451.0,
+    1856.4,
+    1641.8,
+    1872.2
+   ],
+   "detail": "later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink",
+   "by": "line@149"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "BOXTITLE",
+   "text": "assaggio = дегустация (стр. 3).",
+   "box": [
+    1473.0,
+    1264.1,
+    1761.5,
+    1285.6
+   ],
+   "detail": "ink crosses its box borders: bottom ink 1285.6 > border 1284.5",
+   "by": "rect@133"
+  }
+ ],
+ "new_flag_count": 2
+}

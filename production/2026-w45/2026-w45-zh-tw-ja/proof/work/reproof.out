@@ -1,0 +1,229 @@
+NODES edition total=1425 per-page=[95, 165, 175, 163, 172, 171, 168, 316]
+NODES core total=1431 w43 total=1395
+KINSOKU nodes=1425 NO_START=0 [] small-kana=0 [] NO_END=0 []
+KINSOKU W43-shipped NO_START=0 small=0 NO_END=0
+--- P5 nodes containing コメディショー ---
+  x=83 y=1962.445 :: 花笠舞、韓国のJUMPによるテコンドー・
+  x=83 y=1992.1699999999998 :: コメディショー、毎日14時のマスコットパ
+--- P5 nodes starting with ィ (must be none) ---
+[]
+--- P8 nodes containing コンベンション / エキシビション ---
+  x=65 y=1397.072 :: 2. A — メインカンファレンスは香港コンベンション・エキシビション・セ
+--- P8 key2 area: nodes y in 1380..1460 on p8 ---
+  x=65 y=1397.072 :: 2. A — メインカンファレンスは香港コンベンション・エキシビション・セ
+  x=65 y=1411.408 :: ンターで開催。
+  x=65 y=1439.5439999999999 :: 3. C — 45,000人以上の参加が見込まれる。
+  x=527 y=1383.272 :: 42. B — 10月23～31日（9日）+ 11月22日 = 31日。
+  x=527 y=1411.408 :: 43. a — 立冬 — 冬の最初の節気。
+  x=527 y=1439.5439999999999 :: 44. b — 進補 — 冬の前に体を養う食事。
+  x=989 y=1397.072 :: 83. A — 11月6日が最も短い日：6時間。
+  x=989 y=1425.2079999999999 :: 84. B — 11月8日は10時から18時まで：8時間。
+  x=989 y=1453.3439999999998 :: 85. C — 6 + 8 + 8 + 8 = 合計30時間。
+  x=1451 y=1397.072 :: 124. A — メルセデスは14イニングで1失点のみ。
+  x=1451 y=1425.2079999999999 :: 125. B — マスコットパレードは毎日14時に開催。
+  x=1451 y=1453.3439999999998 :: 126. A — 歩道百科には56のルートが収録されている。
+P5 old-fragment present=False new-fragment present=True
+P8 old 'アンド・エキシビション' present=False
+P8 new 'コンベンション・エキシビション・センターで開催' present=True
+P8 key2 subject present=True
+UNION edition=1108 union=1377 outside=57
+OUTSIDE: ['げ', 'じ', 'ほ', 'ょ', 'ろ', 'ゥ', 'ォ', 'ゴ', 'サ', 'ゼ', 'ャ', 'ョ', '仮', '伝', '催', '写', '削', '割', '募', '勤', '区', '収', '団', '寒', '彫', '役', '待', '応', '感', '抑', '援', '撃', '映', '昼', '晩', '毎', '浴', '済', '無', '独', '砂', '税', '素', '荷', '菓', '装', '裏', '覧', '賃', '赤', '込', '録', '除', '険', '－', '／', '～']
+  げ: nodes=1 no-kana-nodes=0 []
+  じ: nodes=1 no-kana-nodes=0 []
+  ほ: nodes=1 no-kana-nodes=0 []
+  ょ: nodes=4 no-kana-nodes=0 []
+  ろ: nodes=1 no-kana-nodes=0 []
+  ゥ: nodes=1 no-kana-nodes=0 []
+  ォ: nodes=1 no-kana-nodes=0 []
+  ゴ: nodes=7 no-kana-nodes=0 []
+  サ: nodes=3 no-kana-nodes=0 []
+  ゼ: nodes=6 no-kana-nodes=0 []
+  ャ: nodes=12 no-kana-nodes=0 []
+  ョ: nodes=6 no-kana-nodes=0 []
+  仮: nodes=5 no-kana-nodes=0 []
+  伝: nodes=4 no-kana-nodes=0 []
+  催: nodes=16 no-kana-nodes=0 []
+  写: nodes=4 no-kana-nodes=0 []
+  削: nodes=1 no-kana-nodes=0 []
+  割: nodes=1 no-kana-nodes=0 []
+  募: nodes=1 no-kana-nodes=0 []
+  勤: nodes=1 no-kana-nodes=0 []
+  区: nodes=2 no-kana-nodes=0 []
+  収: nodes=3 no-kana-nodes=0 []
+  団: nodes=1 no-kana-nodes=0 []
+  寒: nodes=2 no-kana-nodes=0 []
+  彫: nodes=10 no-kana-nodes=1 [('p3-culture.svg', 'NO-KANA', '解説 — 高雄国際鉄彫刻祭（10月23日～11')]
+  役: nodes=1 no-kana-nodes=0 []
+  待: nodes=1 no-kana-nodes=0 []
+  応: nodes=1 no-kana-nodes=0 []
+  感: nodes=1 no-kana-nodes=0 []
+  抑: nodes=3 no-kana-nodes=0 []
+  援: nodes=1 no-kana-nodes=0 []
+  撃: nodes=1 no-kana-nodes=0 []
+  映: nodes=3 no-kana-nodes=0 []
+  昼: nodes=1 no-kana-nodes=0 []
+  晩: nodes=1 no-kana-nodes=0 []
+  毎: nodes=6 no-kana-nodes=0 []
+  浴: nodes=1 no-kana-nodes=0 []
+  済: nodes=1 no-kana-nodes=0 []
+  無: nodes=3 no-kana-nodes=0 []
+  独: nodes=1 no-kana-nodes=0 []
+  砂: nodes=9 no-kana-nodes=0 []
+  税: nodes=2 no-kana-nodes=0 []
+  素: nodes=1 no-kana-nodes=0 []
+  荷: nodes=4 no-kana-nodes=0 []
+  菓: nodes=5 no-kana-nodes=0 []
+  装: nodes=5 no-kana-nodes=0 []
+  裏: nodes=1 no-kana-nodes=0 []
+  覧: nodes=5 no-kana-nodes=0 []
+  賃: nodes=3 no-kana-nodes=0 []
+  赤: nodes=1 no-kana-nodes=0 []
+  込: nodes=4 no-kana-nodes=0 []
+  録: nodes=4 no-kana-nodes=0 []
+  除: nodes=1 no-kana-nodes=0 []
+  険: nodes=2 no-kana-nodes=0 []
+  －: nodes=1 no-kana-nodes=0 []
+  ／: nodes=2 no-kana-nodes=1 [('p7-lang.svg', 'NO-KANA', '（立冬／進補）。')]
+  ～: nodes=9 no-kana-nodes=3 [('p3-culture.svg', 'NO-KANA', '解説 — 高雄国際鉄彫刻祭（10月23日～11'), ('p8-test.svg', 'NO-KANA', '41. C — 5月29～31日（3日）+ 6月30日 + 7月31日 + 8月31日 + 9月30日 +'), ('p8-test.svg', 'NO-KANA', '42. B — 10月23～31日（9日）+ 11月22日 = 31日。')]
+SPOT over frozen shared strings: chars=[] hits=0
+  SPOT-ALL 国: 19 no-kana=[('p3-culture.svg', 'NO-KANA', '解説 — 高雄国際鉄彫刻祭（10月23日～11')]
+  SPOT-ALL 学: 2 no-kana=[]
+  SPOT-ALL 点: 17 no-kana=[('p8-test.svg', 'NO-KANA', '60. A — 1 + 5 = 合計6点。')]
+APOS scan done (ASCII ' and ’ above, if any)
+HEAD '算一算 · 計算してみよう': per-page=[0, 1, 1, 0, 1, 0, 0, 0] total=3
+HEAD 'Work it out': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Did you get it': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Over to you': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Quick quiz': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Headline words': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'This week': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Word of the week': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Practice example': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Read the chart': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Deep-read quiz': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'True or false': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'The big quiz': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Read and answer': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Say it in context': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Test & keys': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Language focus': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+HEAD 'Fill in': per-page=[0, 0, 0, 0, 0, 0, 0, 0] total=0
+LATIN nodes (for adjudication):
+  p1-front.svg :: Lucerna
+  p1-front.svg :: 繁體中文版 · VOL.2 · 2026年11月2日（一）至11月8日（日） · 台灣 / 香港
+  p1-front.svg :: 本紙スタッフ · 出典：主催者のプレスリリース（10月23日）とイベントFAQ
+  p1-front.svg :: 香港金融科技週 x StartmeupHK 2026，週一（11月2日）在香港開幕，一連五天到週五（11月6日）。主會議和展覽在香港
+  p1-front.svg :: 的主題是 Fintech Nexus: Bridging the World, Building the Future，三大方向是金融＋、人工智慧＋、全球擴張。
+  p1-front.svg :: 解説 — 香港フィンテックウィーク×StartmeupHK 2026は11月2日（月）に開幕し、11月6日（金）まで開催。メインカンファレンスと展示会は
+  p1-front.svg :: 週五（11月6日）中午12點，2026 ITF 台灣國際旅展在台北南港展覽館一館開幕，展到下週一（11月9日）。123個國家及城
+  p1-front.svg :: 解説 — 台北国際旅展（ITF）は11月6日（金）正午に南港展覧館で開幕し、11月9日（月）まで開催：123の国と都市、1,600のブース、毎日14時
+  p1-front.svg :: Photo: Wilfredor — CC0 (Wikimedia Commons)
+  p1-front.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p2-life.svg :: Lucerna
+  p2-life.svg :: Photo: CorraleH — CC0 (Wikimedia Commons)
+  p2-life.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p3-culture.svg :: Lucerna
+  p3-culture.svg :: 日，主題是 SUPER STAGE，地點在駁
+  p3-culture.svg :: 者，辦國際論壇「剛質潮汐 SOLID
+  p3-culture.svg :: TIDES」，聊製造、設計，聊藝術怎麼
+  p3-culture.svg :: える — SUPER STAGE —
+  p3-culture.svg :: · 論壇：剛質潮汐 SOLID TIDES
+  p3-culture.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p4-sport.svg :: Lucerna
+  p4-sport.svg :: 本紙スタッフ · 出典：TSNAスポーツニュース
+  p4-sport.svg :: 失点に抑え、シリーズMVPに選ばれた。
+  p4-sport.svg :: 賽表現最好的人，英文叫 MVP。
+  p4-sport.svg :: ラン）、MVP（最優秀選手）。
+  p4-sport.svg :: Photo: Bain News Service — Public domain (Wikimedia
+  p4-sport.svg :: Commons)
+  p4-sport.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p5-youth.svg :: Lucerna
+  p5-youth.svg :: Trick or Treat，就能拿到糖果。
+  p5-youth.svg :: 拳道與喜劇武術表演《JUMP》；每日
+  p5-youth.svg :: 花笠舞、韓国のJUMPによるテコンドー・
+  p5-youth.svg :: Photo: Benjamin Balazs — CC0 (Wikimedia Commons)
+  p5-youth.svg :: · 韓國跆拳道與喜劇武術《JUMP》
+  p5-youth.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p6-deep.svg :: Lucerna
+  p6-deep.svg :: （10月23日）とイベントFAQ
+  p6-deep.svg :: ノロジー）、AI＋（銀行・投資・保険の中
+  p6-deep.svg :: のAI）、グローバル展開（スタートアップ
+  p6-deep.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p7-lang.svg :: Lucerna
+  p7-lang.svg :: 延期披露：VOL.1曾預告本期起刊登真實
+  p7-lang.svg :: い。VOL.1は今号から本物の手紙と第8版の
+  p7-lang.svg :: 下期預告 · 次号予告（VOL.3）
+  p7-lang.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+  p8-test.svg :: Lucerna
+  p8-test.svg :: 50. B — メルセデスはシリーズMVPに選ばれた。
+  p8-test.svg :: 82. d — 打卡 — 写真付きでSNSにチェックインすること。
+  p8-test.svg :: 88. A — AIはデータを見て、リスクを見つけ、顧客の質問に答える手伝いを
+  p8-test.svg :: 138. 人工智慧 — 金融の中のAIは人工智慧＋。
+  p8-test.svg :: Lucerna · 中国語（繁体字）週刊 VOL.2 · 本文は中国語（繁体字） · 解説は日本語
+BADGE core: y~378 nodes=[('975', '378', '21', '#3e4c2a', '700', '繁體中文正文 · 英語講解 — Traditional Chinese text · Explanations in E')]
+BADGE w43: y~378 nodes=[('975', '378', '21', '#3e4c2a', '700', '中国語（繁体字）テキスト · 日本語の解説 — 日本語読者のための版')]
+BADGE edition: y~378 nodes=[('975', '378', '21', '#3e4c2a', '700', '中国語（繁体字）テキスト · 日本語の解説 — 日本語読者のための版')]
+READERS core disclosure-nodes:
+   :: 延期披露：VOL.1曾預告本期起刊登真實
+   :: 集。你的來信，下一期見。
+   :: one. Deferral notice: VOL.1 promised real
+READERS edition disclosure-nodes:
+   :: 延期披露：VOL.1曾預告本期起刊登真實
+   :: 集。你的來信，下一期見。
+   :: これは編集部の例文で、本物の投書ではな
+   :: 集は続けている。あなたの手紙を次号でお
+READERS trad-identical check: core P7 nodes=170 ed P7 nodes=168
+  core-only P7 strings: ['語言 · Language focus', '語言聚焦 · 三個級別，三個主題 · Three levels, three topics', 'A2 · 展會的話 · Fair words', "This week's fairs give you four useful", 'words: 旅展 (travel fair), 攤位 (booth),', '集章 (stamp-collecting) and 吉祥物大遊行', '(mascot parade). Learn them once, and', 'the whole travel fair makes sense.', 'Four fair words: 旅展， 攤位， 集章，', '吉祥物大遊行.', '旅展 is short for 旅行展覽會 (travel', 'exhibition). A 攤位 is one stall inside the', 'fair; the Taipei fair has 1,600 of them.', '集章 means collecting stamps at set', 'points — collect all six Greenway stamps', 'and you win a prize.', 'Fill in', "Practise: 「旅展幾點開門？」 ('What time", "does the fair open?') — Friday opens at", 'noon, other days at 10:00.']
+GLOSS core: per-page=[2, 2, 3, 2, 2, 1, 0, 0]
+  gloss-prefix nodes total core-style Notes=12 ja-style=0
+GLOSS edition: per-page=[2, 2, 3, 2, 2, 1, 0, 0]
+  gloss-prefix nodes total core-style Notes=0 ja-style=12
+IMG core p1-front.svg: ['ac4dfe2ad3a43cd3']
+IMG core p2-life.svg: ['a40e7a2b265beba6']
+IMG core p3-culture.svg: []
+IMG core p4-sport.svg: ['18ad8ae06fac2860']
+IMG core p5-youth.svg: ['bcbada13a5ae19d6']
+IMG core p6-deep.svg: []
+IMG core p7-lang.svg: []
+IMG core p8-test.svg: []
+  credits core: ['Wilfredor', 'CorraleH', 'Bain News Service', 'Benjamin Balazs']
+IMG edition p1-front.svg: ['ac4dfe2ad3a43cd3']
+IMG edition p2-life.svg: ['a40e7a2b265beba6']
+IMG edition p3-culture.svg: []
+IMG edition p4-sport.svg: ['18ad8ae06fac2860']
+IMG edition p5-youth.svg: ['bcbada13a5ae19d6']
+IMG edition p6-deep.svg: []
+IMG edition p7-lang.svg: []
+IMG edition p8-test.svg: []
+  credits edition: ['Wilfredor', 'CorraleH', 'Bain News Service', 'Benjamin Balazs']
+P7 rendered core-vs-edition diff (multiset):
+  core-only: ['語言 · Language focus', '語言聚焦 · 三個級別，三個主題 · Three levels, three topics', 'A2 · 展會的話 · Fair words', "This week's fairs give you four useful", 'words: 旅展 (travel fair), 攤位 (booth),', '集章 (stamp-collecting) and 吉祥物大遊行', '(mascot parade). Learn them once, and', 'the whole travel fair makes sense.', 'Four fair words: 旅展， 攤位， 集章，', '吉祥物大遊行.', '旅展 is short for 旅行展覽會 (travel', 'exhibition). A 攤位 is one stall inside the', 'fair; the Taipei fair has 1,600 of them.', '集章 means collecting stamps at set', 'points — collect all six Greenway stamps', 'and you win a prize.', 'Fill in', "Practise: 「旅展幾點開門？」 ('What time", "does the fair open?') — Friday opens at", 'noon, other days at 10:00.', 'B1 · 球賽與節氣 · Games & seasons', "Sport and seasons share this week's", 'headlines. Group the words and they', 'stick: winning （封王、完封） and winter', '（立冬、進補）.', 'Group the words: winning （封王/完封）,', 'winter （立冬/進補）.', '封王 means clinching the championship;', '完封 means shutting the other side out, 0', 'runs. 立冬 is the solar term that starts', 'winter; 進補 is eating nourishing hot food', 'before the cold months.', 'Memory trick: learn 封王 first, then the', 'way it was won （完封）, then the season', 'it happened in （立冬）.', 'B2 · 港台說法 · Local talk', 'Taiwan and Hong Kong each have their', 'own way of saying things. This week:', '打卡 (check in with a photo), 討糖', '(trick-or-treat), 踩街 (street parade in', 'costume) and 泡湯 (soak in a hot spring).', 'Four local words from this issue: 打卡，', '討糖， 踩街， 泡湯.', '打卡 started as clocking in at work, but at', 'a fair or festival it means posting a photo', "to say 'I was here'. 討糖 is what children", 'say at shops at Halloween; 踩街 is the', 'costumed parade itself; 泡湯 is the', 'autumn pleasure of a hot-spring bath.', "You don't need many local sayings —", 'learn four and every outing feels closer.', '易錯診所 · Error clinic', '完勝 means winning big; 完封 means the', 'other side scored zero.', 'Lidong starts winter; the Solstice is the', 'shortest day. Different terms.', 'Check the city: FinTech Week opens in', 'Hong Kong, not Taipei.', '本週句式 · Sentence frame', '「先去集章，再去看表演。」 — the', 'frame 先…再… gives the order of two', 'actions: first X, then Y. Make your', 'own: 先比價，再結帳 (compare prices', 'first, then pay).', 'Frame: 先…再… — first X, then Y. Make', 'your own sentence with it.', "讀者園地 · Readers' corner", "An editor's example letter — not a real", 'one. Deferral notice: VOL.1 promised real', 'letters and best page-8 writing from this', 'issue; none publishable had arrived by', 'press time, so the example stays and the', 'invitation stays open.', "本週金句 · Phrases of the week — word for word from this issue's", 'Pay by phone, scan to pay, buy insurance online — that is fi', '123 countries and cities, 1,600 booths. (p. 1)', "Buy what you need; don't buy a pile of things you won't use ", 'In Kaohsiung, even steel can become a stage. (p. 3)', "Fulong's summer came to an end on October 26. (p. 3)", 'A 6-0 shutout of the Brothers, and the Dragons threw the red', '250 shops giving treats together. (p. 5)', "On the fair's first day the doors open only at noon. (p. 6)", '下期預告 · Next week (VOL.3)', 'Lucerna · 繁體中文週報 VOL.2 · 繁體中文正文 · 英語講解 · Traditional Chinese', '第 7 版 / 共 8 版']
+  ed-only (first 30): ['語言 · ことばの焦点', '語言聚焦 · 三個級別，三個主題 · 3つのレベル、3つのテーマ', 'A2 · 展會的話 · 展示会のことば', '今週の展示会から、役立つ言葉を4つ紹介す', 'る：旅展（旅行展覧会）、攤位（ブース）、', '集章（スタンプ集め）、吉祥物大遊行（マス', 'コットパレード）。一度覚えれば、旅展全体', 'が理解できる。', '展示会の言葉4つ：旅展、攤位、集章、吉祥物', '大遊行。', '旅展は旅行展覽會（旅行展覧会）の略。攤位', 'は展示会の中の一つの出店で、台北の旅展に', 'は1,600もある。集章は決められた場所でス', 'タンプを集めることで、6つのグリーンウェ', 'イのスタンプを全部集めると賞品がもらえ', 'る。', '空所補充', '練習：「旅展幾點開門？」（旅展は何時に開', 'きますか）— 金曜日は正午開場、他の日は10', '時開場。', 'B1 · 球賽與節氣 · 試合と季節', 'スポーツと季節が今週の見出しを分け合って', 'いる。言葉をグループにすると覚えやすい：', '勝利（封王、完封）と冬（立冬、進補）。', '言葉をグループに：勝利（封王／完封）、冬', '（立冬／進補）。', '封王は優勝を決めること、完封は相手を無得', '点に抑えること（0点）。立冬は冬を始める', '節気、進補は寒い季節の前に体に良い温かい', 'ものを食べること。']
+P7 tags edition: Counter({'(p. 1)': 2, '(p. 3)': 2, '(p. 2)': 1, '(p. 4)': 1, '(p. 5)': 1, '(p. 6)': 1})
+P7 tags core: Counter({'(p. 1)': 2, '(p. 3)': 2, '(p. 2)': 1, '(p. 4)': 1, '(p. 5)': 1, '(p. 6)': 1})
+content7 quotes block found: True
+  quotes count=24
+  quote 「用手機轉帳、掃碼付款、網上買保險，都是金融科技」... core=1 ed=1
+  quote Pay by phone, scan to pay, buy... core=1 ed=0
+  quote p. 1... core=2 ed=2
+  quote 「123個國家及城市、1,600個攤位」... core=1 ed=1
+  quote 123 countries and cities, 1,60... core=1 ed=0
+  quote p. 1... core=2 ed=2
+  quote 「需要才買，不要為了折扣買一堆用不到的東西」... core=1 ed=1
+  quote Buy what you need; don't buy a... core=1 ed=0
+  quote p. 2... core=1 ed=1
+  quote 「在高雄，鋼鐵也能變成舞台」... core=1 ed=1
+  quote In Kaohsiung, even steel can b... core=1 ed=0
+  quote p. 3... core=2 ed=2
+  quote 「福隆的夏天，在10月26日畫下句點」... core=1 ed=1
+  quote Fulong's summer came to an end... core=1 ed=0
+  quote p. 3... core=2 ed=2
+  quote 「6比0完封兄弟，龍隊拋下紅色彩帶」... core=1 ed=1
+  quote A 6-0 shutout of the Brothers,... core=1 ed=0
+  quote p. 4... core=1 ed=1
+  quote 「250家店家一起討糖」... core=1 ed=1
+  quote 250 shops giving treats togeth... core=1 ed=0
+  quote p. 5... core=1 ed=1
+  quote 「旅展首日中午12點才開門」... core=1 ed=1
+  quote On the fair's first day the do... core=1 ed=0
+  quote p. 6... core=1 ed=1

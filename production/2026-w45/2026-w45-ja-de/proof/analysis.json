@@ -1,0 +1,2442 @@
+{
+ "p8_identical_segments": [],
+ "p8_how": {
+  "core": "lines",
+  "ed": "lines"
+ },
+ "p8_keydiff_table": [
+  {
+   "n": 1,
+   "core_seg": "3 — 文化日在11月3日（周二）",
+   "ed_seg": "3 — Der Kulturtag ist am 3. November (Dienstag)",
+   "core_extracted_key": "3 — 文化日在11月3日",
+   "ed_extracted_key": "3 — Der Kulturtag ist am 3. November",
+   "core_true_key": "3",
+   "ed_true_key": "3",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 2,
+   "core_seg": "9 — 读书周到11月9日（周一）",
+   "ed_seg": "9 — Die Lesewoche läuft bis zum 9. November (Montag)",
+   "core_extracted_key": "9 — 读书周到11月9日",
+   "ed_extracted_key": "9 — Die Lesewoche läuft bis zum 9. November",
+   "core_true_key": "9",
+   "ed_true_key": "9",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 5,
+   "core_seg": "7 — 神户灯光秀从7日（周六）开始",
+   "ed_seg": "7 — Die Beleuchtung in Kobe beginnt am 7. (Samstag)",
+   "core_extracted_key": "7",
+   "ed_extracted_key": "7 — Die Beleuchtung in Kobe beginnt am 7.",
+   "core_true_key": "7",
+   "ed_true_key": "7",
+   "core_method": "dash",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 7,
+   "core_seg": "B — 文化日在11月3日（周二）",
+   "ed_seg": "B — Der Kulturtag ist am 3. November (Dienstag)",
+   "core_extracted_key": "B — 文化日在11月3日",
+   "ed_extracted_key": "B — Der Kulturtag ist am 3. November",
+   "core_true_key": "B",
+   "ed_true_key": "B",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 8,
+   "core_seg": "C — 读书周到11月9日（周一）",
+   "ed_seg": "C — Die Lesewoche läuft bis zum 9. November (Montag)",
+   "core_extracted_key": "C — 读书周到11月9日",
+   "ed_extracted_key": "C — Die Lesewoche läuft bis zum 9. November",
+   "core_true_key": "C",
+   "ed_true_key": "C",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 9,
+   "core_seg": "B — 立冬在11月7日（周六）",
+   "ed_seg": "B — 立冬 ist am 7. November (Samstag)",
+   "core_extracted_key": "B — 立冬在11月7日",
+   "ed_extracted_key": "B — 立冬 ist am 7. November",
+   "core_true_key": "B",
+   "ed_true_key": "B",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 29,
+   "core_seg": "A — 文化日在11月3日（周二）",
+   "ed_seg": "A — Der Kulturtag ist am 3. November (Dienstag)",
+   "core_extracted_key": "A — 文化日在11月3日",
+   "ed_extracted_key": "A — Der Kulturtag ist am 3. November",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 32,
+   "core_seg": "B — 工艺展到11月8日（周日）",
+   "ed_seg": "B — Die Ausstellung läuft bis zum 8. November (Sonntag)",
+   "core_extracted_key": "B — 工艺展到11月8日",
+   "ed_extracted_key": "B — Die Ausstellung läuft bis zum 8. November",
+   "core_true_key": "B",
+   "ed_true_key": "B",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 65,
+   "core_seg": "A — 万圣节在10月31日（周六）",
+   "ed_seg": "A — Halloween war am 31. Oktober (Samstag)",
+   "core_extracted_key": "A — 万圣节在10月31日",
+   "ed_extracted_key": "A — Halloween war am 31. Oktober",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 69,
+   "core_seg": "C — 横滨中区民祭在11月8日（周日）",
+   "ed_seg": "C — Bürgerfest Naka, Yokohama, 8. November (Sonntag)",
+   "core_extracted_key": "C — 横滨中区民祭在11月8日",
+   "ed_extracted_key": "C — Bürgerfest Naka, Yokohama, 8. November",
+   "core_true_key": "C",
+   "ed_true_key": "C",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 78,
+   "core_seg": "○ — ハロウィンは10月31日（土）",
+   "ed_seg": "○ — Halloween war am 31. Oktober (Samstag)",
+   "core_extracted_key": "○ — ハロウィンは10月31日",
+   "ed_extracted_key": "○ — Halloween war am 31. Oktober",
+   "core_true_key": "○",
+   "ed_true_key": "○",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 101,
+   "core_seg": "27 — 读书周从10月27日（周二）开始",
+   "ed_seg": "27 — Die Lesewoche begann am 27. Oktober (Dienstag)",
+   "core_extracted_key": "27",
+   "ed_extracted_key": "27 — Die Lesewoche begann am 27. Oktober",
+   "core_true_key": "27",
+   "ed_true_key": "27",
+   "core_method": "dash",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 113,
+   "core_seg": "A — 文化日在11月3日（周二）",
+   "ed_seg": "A — Der Kulturtag ist am 3. November (Dienstag)",
+   "core_extracted_key": "A — 文化日在11月3日",
+   "ed_extracted_key": "A — Der Kulturtag ist am 3. November",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 115,
+   "core_seg": "A — 日本大赛第1战在10月24日（周六）",
+   "ed_seg": "A — Spiel 1 der Japan Series war am 24. Oktober (Samstag)",
+   "core_extracted_key": "A — 日本大赛第1战在10月24日",
+   "ed_extracted_key": "A — Spiel 1 der Japan Series war am 24. Oktober",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 117,
+   "core_seg": "B — 万圣节在10月31日（周六）",
+   "ed_seg": "B — Halloween war am 31. Oktober (Samstag)",
+   "core_extracted_key": "B — 万圣节在10月31日",
+   "ed_extracted_key": "B — Halloween war am 31. Oktober",
+   "core_true_key": "B",
+   "ed_true_key": "B",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 118,
+   "core_seg": "A — 立冬在11月7日（周六）",
+   "ed_seg": "A — 立冬 ist am 7. November (Samstag)",
+   "core_extracted_key": "A — 立冬在11月7日",
+   "ed_extracted_key": "A — 立冬 ist am 7. November",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 137,
+   "core_seg": "文化日是11月3日。 — 对照第3版",
+   "ed_seg": "Der Kulturtag ist am 3. November. — Siehe Seite 3",
+   "core_extracted_key": "文化日是11月3日。",
+   "ed_extracted_key": "Der Kulturtag ist am 3. November.",
+   "core_true_key": "文化日是11月3日。",
+   "ed_true_key": "Der Kulturtag ist am 3. November.",
+   "core_method": "dash",
+   "ed_method": "dash",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 138,
+   "core_seg": "乱扔垃圾，要罚2,000日元。 — 对照第5版",
+   "ed_seg": "Wer Müll wegwirft, zahlt 2.000 Yen Strafe. — Siehe Seite 5",
+   "core_extracted_key": "乱扔垃圾，要罚2,000日元。",
+   "ed_extracted_key": "Wer Müll wegwirft, zahlt 2.000 Yen Strafe.",
+   "core_true_key": "乱扔垃圾，要罚2,000日元。",
+   "ed_true_key": "Wer Müll wegwirft, zahlt 2.000 Yen Strafe.",
+   "core_method": "dash",
+   "ed_method": "dash",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 140,
+   "core_seg": "神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版（神户的灯光秀）",
+   "ed_seg": "神戸の紅葉のライトアップを見に行きたいです。 — Siehe Seite 6 (Kobe-Beleuchtung)",
+   "core_extracted_key": "神戸の紅葉のライトアップを見に行きたいです。 — 对照第6版",
+   "ed_extracted_key": "神戸の紅葉のライトアップを見に行きたいです。 — Siehe Seite 6",
+   "core_true_key": "神戸の紅葉のライトアップを見に行きたいです。",
+   "ed_true_key": "神戸の紅葉のライトアップを見に行きたいです。",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 146,
+   "core_seg": "A — 借りられます＝能借（可能形）",
+   "ed_seg": "A — 借りられます = ausleihen können (Potentialform)",
+   "core_extracted_key": "A — 借りられます＝能借",
+   "ed_extracted_key": "A — 借りられます = ausleihen können",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  },
+  {
+   "n": 147,
+   "core_seg": "A — 读书周到11月9日（第7版）",
+   "ed_seg": "A — Die Lesewoche läuft bis zum 9. November (Seite 7)",
+   "core_extracted_key": "A — 读书周到11月9日",
+   "ed_extracted_key": "A — Die Lesewoche läuft bis zum 9. November",
+   "core_true_key": "A",
+   "ed_true_key": "A",
+   "core_method": "paren",
+   "ed_method": "paren",
+   "core_has_note": true,
+   "ed_has_note": true
+  }
+ ],
+ "p8_ed_note_cjk_chars": {
+  "3": [
+   "見",
+   "頃"
+  ],
+  "4": [
+   "冬",
+   "立"
+  ],
+  "9": [
+   "冬",
+   "立"
+  ],
+  "11": [
+   "「",
+   "」",
+   "ゆ",
+   "る"
+  ],
+  "16": [
+   "ゆ",
+   "る"
+  ],
+  "17": [
+   "し",
+   "器",
+   "蒸"
+  ],
+  "18": [
+   "え",
+   "る",
+   "整"
+  ],
+  "20": [
+   "鍋"
+  ],
+  "24": [
+   "ク",
+   "コ",
+   "サ",
+   "パ",
+   "ン"
+  ],
+  "25": [
+   "ゆ",
+   "る"
+  ],
+  "26": [
+   "し",
+   "器",
+   "蒸"
+  ],
+  "27": [
+   "湯",
+   "辣",
+   "麻"
+  ],
+  "28": [
+   "予",
+   "報"
+  ],
+  "34": [
+   "場",
+   "市"
+  ],
+  "35": [
+   "工",
+   "芸"
+  ],
+  "36": [
+   "器",
+   "陶"
+  ],
+  "38": [
+   "箔",
+   "金"
+  ],
+  "40": [
+   "あ",
+   "す",
+   "で",
+   "ま",
+   "り"
+  ],
+  "41": [
+   "い",
+   "た",
+   "見"
+  ],
+  "43": [
+   "の",
+   "化",
+   "文",
+   "日"
+  ],
+  "44": [
+   "展",
+   "工",
+   "芸"
+  ],
+  "45": [
+   "オ",
+   "ケ",
+   "ス",
+   "ト",
+   "ラ",
+   "ー"
+  ],
+  "46": [
+   "ア",
+   "イ",
+   "ッ",
+   "ト",
+   "プ",
+   "ラ"
+  ],
+  "57": [
+   "延",
+   "長"
+  ],
+  "79": [
+   "が",
+   "き",
+   "こ",
+   "せ",
+   "で",
+   "と",
+   "ま",
+   "む",
+   "ん",
+   "飲"
+  ],
+  "80": [
+   "〜",
+   "う",
+   "し",
+   "っ",
+   "て",
+   "ま",
+   "ょ",
+   "守"
+  ],
+  "81": [
+   "の",
+   "ェ",
+   "ス",
+   "フ",
+   "ン",
+   "中"
+  ],
+  "94": [
+   "冬",
+   "立"
+  ],
+  "103": [
+   "、",
+   "。",
+   "「",
+   "」",
+   "か",
+   "け",
+   "だ",
+   "ど",
+   "中",
+   "冒",
+   "険",
+   "静"
+  ],
+  "105": [
+   "見",
+   "頃"
+  ],
+  "106": [
+   "り",
+   "狩",
+   "紅",
+   "葉"
+  ],
+  "107": [
+   "ア",
+   "イ",
+   "ッ",
+   "ト",
+   "プ",
+   "ラ"
+  ],
+  "108": [
+   "落",
+   "葉"
+  ],
+  "109": [
+   "倍"
+  ],
+  "112": [
+   "ク",
+   "コ",
+   "サ",
+   "パ",
+   "ン"
+  ],
+  "118": [
+   "冬",
+   "立"
+  ],
+  "128": [
+   "、",
+   "。",
+   "「",
+   "」",
+   "か",
+   "け",
+   "だ",
+   "ど",
+   "中",
+   "冒",
+   "険",
+   "静"
+  ],
+  "134": [
+   "見",
+   "頃"
+  ],
+  "135": [
+   "「",
+   "」",
+   "で"
+  ],
+  "141": [
+   "見",
+   "頃"
+  ],
+  "142": [
+   "鍋"
+  ],
+  "143": [
+   "落",
+   "葉"
+  ],
+  "144": [
+   "予",
+   "算"
+  ],
+  "145": [
+   "い",
+   "く",
+   "さ",
+   "せ",
+   "だ",
+   "て",
+   "見"
+  ],
+  "146": [
+   "す",
+   "ま",
+   "ら",
+   "り",
+   "れ",
+   "借"
+  ],
+  "148": [
+   "「",
+   "」",
+   "の",
+   "本",
+   "紅",
+   "葉"
+  ],
+  "149": [
+   "い",
+   "う",
+   "し",
+   "た",
+   "て",
+   "ど",
+   "ま"
+  ]
+ },
+ "p8_dash_lines": {
+  "ed": 149,
+  "core": 149
+ },
+ "freeze_pages": {
+  "1": {
+   "added_distinct": 20,
+   "removed_distinct": 18,
+   "added_total": 20,
+   "removed_total": 18,
+   "cjk_core": 1406,
+   "cjk_ed": 1275,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 8,
+    "kana_runs_survive": 10,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "、",
+    "い",
+    "お",
+    "が",
+    "ぐ",
+    "け",
+    "こ",
+    "し",
+    "す",
+    "で",
+    "と",
+    "の",
+    "ば",
+    "ま",
+    "む",
+    "ゆ",
+    "る",
+    "を",
+    "ん",
+    "イ",
+    "ク",
+    "ス",
+    "ズ",
+    "ッ",
+    "ト",
+    "ニ",
+    "プ",
+    "ュ",
+    "ー",
+    "人",
+    "今",
+    "内",
+    "号",
+    "字",
+    "容",
+    "届",
+    "数",
+    "日",
+    "暦",
+    "本",
+    "毎",
+    "短",
+    "祝",
+    "練",
+    "習",
+    "見",
+    "語",
+    "読",
+    "週",
+    "頃"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "2": {
+   "added_distinct": 25,
+   "removed_distinct": 20,
+   "added_total": 33,
+   "removed_total": 28,
+   "cjk_core": 1312,
+   "cjk_ed": 1161,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 13,
+    "kana_runs_survive": 7,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "あ",
+    "い",
+    "え",
+    "か",
+    "が",
+    "こ",
+    "す",
+    "た",
+    "つ",
+    "と",
+    "な",
+    "の",
+    "は",
+    "ば",
+    "ぶ",
+    "ゆ",
+    "り",
+    "る",
+    "ベ",
+    "ル",
+    "レ",
+    "上",
+    "並",
+    "予",
+    "値",
+    "卓",
+    "報",
+    "季",
+    "平",
+    "年",
+    "整",
+    "暖",
+    "月",
+    "節",
+    "練",
+    "習",
+    "葉",
+    "蒸",
+    "言",
+    "話",
+    "超",
+    "題",
+    "風",
+    "食",
+    "？"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "3": {
+   "added_distinct": 17,
+   "removed_distinct": 15,
+   "added_total": 24,
+   "removed_total": 22,
+   "cjk_core": 1172,
+   "cjk_ed": 1051,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 12,
+    "kana_runs_survive": 3,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "あ",
+    "し",
+    "た",
+    "と",
+    "な",
+    "の",
+    "は",
+    "む",
+    "ベ",
+    "ル",
+    "レ",
+    "光",
+    "化",
+    "器",
+    "場",
+    "工",
+    "市",
+    "文",
+    "日",
+    "染",
+    "楽",
+    "沢",
+    "漆",
+    "物",
+    "箔",
+    "練",
+    "習",
+    "芸",
+    "金",
+    "陶",
+    "？"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "4": {
+   "added_distinct": 14,
+   "removed_distinct": 13,
+   "added_total": 21,
+   "removed_total": 20,
+   "cjk_core": 1263,
+   "cjk_ed": 1169,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 8,
+    "kana_runs_survive": 5,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "す",
+    "の",
+    "め",
+    "り",
+    "る",
+    "シ",
+    "ズ",
+    "ベ",
+    "リ",
+    "ル",
+    "レ",
+    "ー",
+    "優",
+    "切",
+    "勝",
+    "合",
+    "同",
+    "延",
+    "括",
+    "日",
+    "本",
+    "横",
+    "浜",
+    "点",
+    "率",
+    "確",
+    "程",
+    "総",
+    "締",
+    "練",
+    "習",
+    "記",
+    "試",
+    "認",
+    "転",
+    "逆",
+    "録",
+    "長"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "5": {
+   "added_distinct": 16,
+   "removed_distinct": 14,
+   "added_total": 27,
+   "removed_total": 25,
+   "cjk_core": 1247,
+   "cjk_ed": 1132,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 9,
+    "kana_runs_survive": 5,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "あ",
+    "た",
+    "つ",
+    "と",
+    "な",
+    "は",
+    "ま",
+    "り",
+    "る",
+    "ィ",
+    "ウ",
+    "エ",
+    "タ",
+    "ハ",
+    "ベ",
+    "メ",
+    "ル",
+    "レ",
+    "ロ",
+    "ン",
+    "・",
+    "仮",
+    "像",
+    "守",
+    "末",
+    "祭",
+    "秋",
+    "練",
+    "罰",
+    "習",
+    "者",
+    "若",
+    "装",
+    "話",
+    "週",
+    "金",
+    "題",
+    "？"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "6": {
+   "added_distinct": 12,
+   "removed_distinct": 11,
+   "added_total": 23,
+   "removed_total": 22,
+   "cjk_core": 1186,
+   "cjk_ed": 1101,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 7,
+    "kana_runs_survive": 4,
+    "kana_runs_not_survive": [],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "い",
+    "う",
+    "か",
+    "け",
+    "と",
+    "の",
+    "も",
+    "る",
+    "を",
+    "グ",
+    "タ",
+    "デ",
+    "フ",
+    "ベ",
+    "ラ",
+    "ル",
+    "レ",
+    "ー",
+    "予",
+    "旅",
+    "暖",
+    "月",
+    "測",
+    "満",
+    "用",
+    "秋",
+    "算",
+    "練",
+    "習",
+    "観",
+    "読",
+    "足",
+    "追"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "7": {
+   "added_distinct": 36,
+   "removed_distinct": 35,
+   "added_total": 41,
+   "removed_total": 40,
+   "cjk_core": 1676,
+   "cjk_ed": 1308,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 19,
+    "kana_runs_survive": 13,
+    "kana_runs_not_survive": [
+     "※この手紙は編集部の例です。締め切りま",
+     "でに、本当の読者の手紙と第8版の作文の",
+     "優秀作は届きませんでした。VOL.3に載せ"
+    ],
+    "p8_note": 0
+   },
+   "added_cjk_distinct": [
+    "、",
+    "「",
+    "」",
+    "〜",
+    "い",
+    "か",
+    "が",
+    "こ",
+    "せ",
+    "ち",
+    "つ",
+    "で",
+    "と",
+    "の",
+    "ば",
+    "ま",
+    "み",
+    "ゆ",
+    "り",
+    "る",
+    "ォ",
+    "カ",
+    "ス",
+    "ズ",
+    "テ",
+    "フ",
+    "ベ",
+    "マ",
+    "ム",
+    "ル",
+    "レ",
+    "ー",
+    "万",
+    "三",
+    "今",
+    "介",
+    "倍",
+    "所",
+    "手",
+    "日",
+    "昨",
+    "書",
+    "来",
+    "狩",
+    "療",
+    "紅",
+    "紙",
+    "紹",
+    "者",
+    "聞",
+    "落",
+    "葉",
+    "見",
+    "言",
+    "診",
+    "語",
+    "読",
+    "週",
+    "間",
+    "頃",
+    "食"
+   ],
+   "added_cjk_not_in_core": []
+  },
+  "8": {
+   "added_distinct": 173,
+   "removed_distinct": 171,
+   "added_total": 179,
+   "removed_total": 177,
+   "cjk_core": 2721,
+   "cjk_ed": 1448,
+   "cjk_added": {},
+   "removed_adjudication": {
+    "pure_no_kana": 0,
+    "kana_runs_survive": 0,
+    "kana_runs_not_survive": [],
+    "p8_note": 171
+   },
+   "added_cjk_distinct": [
+    "、",
+    "。",
+    "「",
+    "」",
+    "〜",
+    "あ",
+    "い",
+    "う",
+    "え",
+    "か",
+    "が",
+    "き",
+    "く",
+    "け",
+    "こ",
+    "さ",
+    "し",
+    "す",
+    "せ",
+    "た",
+    "だ",
+    "っ",
+    "て",
+    "で",
+    "と",
+    "ど",
+    "に",
+    "の",
+    "は",
+    "へ",
+    "ま",
+    "み",
+    "む",
+    "ゆ",
+    "ょ",
+    "よ",
+    "ら",
+    "り",
+    "る",
+    "れ",
+    "を",
+    "ん",
+    "ア",
+    "イ",
+    "ェ",
+    "オ",
+    "ク",
+    "ケ",
+    "コ",
+    "サ",
+    "ス",
+    "ソ",
+    "タ",
+    "ッ",
+    "テ",
+    "ト",
+    "バ",
+    "パ",
+    "フ",
+    "プ",
+    "ラ",
+    "ン",
+    "ー",
+    "中",
+    "予",
+    "今",
+    "倍",
+    "借",
+    "冒",
+    "冬",
+    "勝",
+    "化",
+    "器",
+    "図",
+    "報",
+    "場",
+    "始",
+    "守",
+    "家",
+    "展",
+    "工",
+    "市",
+    "延",
+    "戸",
+    "整",
+    "文",
+    "族",
+    "日",
+    "書",
+    "月",
+    "末",
+    "本",
+    "楽",
+    "沢",
+    "湯",
+    "満",
+    "火",
+    "狩",
+    "神",
+    "私",
+    "立",
+    "答",
+    "箔",
+    "算",
+    "紅",
+    "芸",
+    "落",
+    "葉",
+    "蒸",
+    "行",
+    "見",
+    "読",
+    "足",
+    "辣",
+    "近",
+    "連",
+    "週",
+    "金",
+    "鍋",
+    "長",
+    "間",
+    "陶",
+    "険",
+    "静",
+    "音",
+    "頃",
+    "飲",
+    "館",
+    "麻"
+   ],
+   "added_cjk_not_in_core": []
+  }
+ },
+ "apparatus": {
+  "p1-hyoushi.svg": {},
+  "p2-kurashi.svg": {},
+  "p3-bunka.svg": {},
+  "p4-supotsu.svg": {},
+  "p5-wakamono.svg": {},
+  "p6-fukayomi.svg": {},
+  "p7-kotoba.svg": {},
+  "p8-tesuto.svg": {}
+ },
+ "bare_string_counts": {
+  "p1-hyoushi.svg": 0,
+  "p2-kurashi.svg": 0,
+  "p3-bunka.svg": 0,
+  "p4-supotsu.svg": 0,
+  "p5-wakamono.svg": 0,
+  "p6-fukayomi.svg": 0,
+  "p7-kotoba.svg": 0,
+  "p8-tesuto.svg": 0
+ },
+ "forbidden": {
+  "svg_ed": {
+   "桥接": 0,
+   "橋接": 0
+  },
+  "kit": {
+   "桥接": 0,
+   "橋接": 0
+  },
+  "abstract": {
+   "桥接": 0,
+   "橋接": 0
+  }
+ },
+ "svglib_md5": {
+  "ed_build": "d73e23b365676c3618d7e060b835eb4d",
+  "core_build": "d73e23b365676c3618d7e060b835eb4d"
+ },
+ "kinsoku": {
+  "p1-hyoushi.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p2-kurashi.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p3-bunka.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p4-supotsu.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p5-wakamono.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p6-fukayomi.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p7-kotoba.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  },
+  "p8-tesuto.svg": {
+   "per_text": [],
+   "per_text_ext": [],
+   "per_line": [],
+   "per_line_ext": []
+  }
+ },
+ "p1_topband": {
+  "ed": [
+   {
+    "text": "VOL. 2 · 第2号",
+    "x": "65",
+    "anchor": "start",
+    "box": [
+     64.75,
+     72.0,
+     219.75,
+     94.25
+    ]
+   },
+   {
+    "text": "毎週、日本語で · Jede Woche neu · 日本人が読んでいる日本語を読む",
+    "x": "975",
+    "anchor": "middle",
+    "box": [
+     643.154296875,
+     74.0,
+     1306.904296875,
+     94.0
+    ]
+   },
+   {
+    "text": "2026年11月2日（月）〜8日（日）",
+    "x": "1885",
+    "anchor": "end",
+    "box": [
+     1529.875,
+     72.25,
+     1885.125,
+     94.25
+    ]
+   }
+  ],
+  "core": [
+   {
+    "text": "VOL. 2 · 第2号",
+    "x": "65",
+    "anchor": "start",
+    "box": [
+     64.75,
+     72.0,
+     219.75,
+     94.25
+    ]
+   },
+   {
+    "text": "毎週、日本語で · 每周一期 · 日本人が読んでいる日本語を読む",
+    "x": "975",
+    "anchor": "middle",
+    "box": [
+     681.337890625,
+     74.0,
+     1268.587890625,
+     94.0
+    ]
+   },
+   {
+    "text": "2026年11月2日（月）〜8日（日）",
+    "x": "1885",
+    "anchor": "end",
+    "box": [
+     1529.875,
+     72.25,
+     1885.125,
+     94.25
+    ]
+   }
+  ]
+ },
+ "latin_tokens": {
+  "A": 154,
+  "AUF": 16,
+  "AUSGABE": 1,
+  "Abschnitt": 1,
+  "Aikawa": 1,
+  "Alkoholverbot": 1,
+  "Alle": 1,
+  "Am": 2,
+  "Ankündigung": 2,
+  "Anm": 10,
+  "Antwort": 2,
+  "Antworten": 8,
+  "Artikel": 1,
+  "Auch": 1,
+  "Auf": 1,
+  "Aufholjagd": 1,
+  "Aufsätze": 1,
+  "Ausfüllen": 44,
+  "Ausgabe": 3,
+  "Ausstellung": 4,
+  "B": 210,
+  "Beispielbrief": 1,
+  "Beleuchtung": 6,
+  "Beobachtung": 1,
+  "Bibliothek": 1,
+  "Bis": 1,
+  "Blattgold": 2,
+  "Brief": 1,
+  "Briefe": 3,
+  "Budget": 3,
+  "Burg": 2,
+  "Bücher": 2,
+  "Bürgerfest": 1,
+  "C": 62,
+  "CC": 2,
+  "Commons": 4,
+  "Cosplay-Festival": 2,
+  "D": 6,
+  "DEUTSCH": 8,
+  "DEUTSCHE": 1,
+  "DEUTSCHSPRACHIGE": 1,
+  "DIE": 1,
+  "Dampfgarer": 3,
+  "Das": 8,
+  "Daten": 2,
+  "DeNA": 14,
+  "Der": 8,
+  "Dezember": 1,
+  "Diagramm": 1,
+  "Die": 28,
+  "Dienstag": 8,
+  "Drei": 1,
+  "Durchschnitt": 4,
+  "Durchschnittsjahr": 1,
+  "E": 1,
+  "ERKLÄRUNGEN": 9,
+  "Ein": 1,
+  "Eintopf": 3,
+  "Ereignisse": 1,
+  "Es": 1,
+  "Essen": 4,
+  "Esstisch": 1,
+  "F": 1,
+  "Falsch": 11,
+  "Familie": 2,
+  "Familienorchester": 2,
+  "Fehlerklinik": 1,
+  "Feiertag": 2,
+  "Fest": 1,
+  "Festival": 1,
+  "Folge": 4,
+  "Freunden": 1,
+  "FÜR": 1,
+  "Fälle": 1,
+  "Für": 2,
+  "G": 1,
+  "Geist": 2,
+  "Geldstrafe": 1,
+  "Gleichstand": 1,
+  "Grafik": 1,
+  "Grafik-Top": 1,
+  "H": 2,
+  "Halloween": 6,
+  "Haltet": 1,
+  "Handlung": 1,
+  "Handwerk": 1,
+  "Heiße": 1,
+  "Herbstfest": 1,
+  "Herbstfeste": 1,
+  "Herbstlaub": 1,
+  "Herbstlaub-Beleuchtung": 1,
+  "Herbstlaub-Wochenende": 1,
+  "Herbstreisen": 1,
+  "Höhepunkt": 1,
+  "Ich": 1,
+  "Ikebukuro": 2,
+  "In": 2,
+  "Innings": 2,
+  "Ishikawa-Kunstmuseum": 1,
+  "JAPANISCH": 8,
+  "JAPANISCHE": 8,
+  "JAPANISCHER": 1,
+  "JMA-Prognose": 3,
+  "Jahr": 5,
+  "Jahres": 1,
+  "Jahreszeit": 1,
+  "Januar": 2,
+  "Japan": 2,
+  "Japanisch": 4,
+  "Jede": 1,
+  "Jetzt": 1,
+  "Jugend": 1,
+  "Juni": 1,
+  "Kalender": 1,
+  "Kampf": 1,
+  "Kanazawa": 5,
+  "Kenrokuen": 1,
+  "Keramik": 2,
+  "Kleidung": 1,
+  "Kobe": 6,
+  "Kobe-Beleuchtung": 1,
+  "Kratochvil": 1,
+  "Kultur": 1,
+  "Kulturtag": 10,
+  "Kulturveranstaltung": 1,
+  "Kunsthandwerk": 2,
+  "Kunsthandwerksausstellung": 1,
+  "Kurze": 1,
+  "Kurznachrichten": 1,
+  "Kurzquiz": 1,
+  "Kyushu-Reisen": 4,
+  "Körper": 2,
+  "LESER": 1,
+  "Lackwaren": 1,
+  "Land": 1,
+  "Laub": 7,
+  "Laubschau": 1,
+  "Laubzeit": 5,
+  "Leserecke": 1,
+  "Lesewoche": 9,
+  "Licht": 1,
+  "Lichter": 1,
+  "Lucerna": 23,
+  "Läden": 2,
+  "Man": 1,
+  "Markt": 2,
+  "Mika": 1,
+  "Millionen": 2,
+  "Mit": 2,
+  "Monat": 2,
+  "Montag": 2,
+  "Museum": 1,
+  "Muster": 1,
+  "Mustertext": 2,
+  "Mustertext-Aufgabe": 1,
+  "Müll": 4,
+  "Müllstrafe": 1,
+  "Nabe": 1,
+  "Nabe-Essen": 4,
+  "Nabe-Zutaten": 2,
+  "Nach": 1,
+  "Nachts": 1,
+  "Naka": 1,
+  "Naruko-Schlucht": 1,
+  "Nomen": 1,
+  "Norden": 1,
+  "Notiz": 1,
+  "November": 28,
+  "Nummer": 6,
+  "Nächste": 1,
+  "Nähe": 2,
+  "Oktober": 13,
+  "Ordnung": 3,
+  "Ort": 4,
+  "Orte": 1,
+  "Orten": 1,
+  "Pazifikseite": 1,
+  "Petr": 1,
+  "Poliphilo": 1,
+  "Portionen": 3,
+  "Potentialform": 1,
+  "Preisanstieg": 1,
+  "Prognose": 1,
+  "Prozent": 1,
+  "Punkte": 2,
+  "Punkte-Homerun": 1,
+  "Quellen": 2,
+  "Redaktionsschluss": 2,
+  "Regeln": 2,
+  "Reise": 1,
+  "Richtig": 11,
+  "Rückblick": 1,
+  "S": 8,
+  "SNS": 4,
+  "Samstag": 9,
+  "Sanftes": 1,
+  "Satz": 8,
+  "Schickt": 1,
+  "Schreibaufgabe": 1,
+  "Schreiben": 4,
+  "Seite": 35,
+  "Seiten": 1,
+  "Series": 2,
+  "Shibuya": 1,
+  "Sie": 16,
+  "Siege": 2,
+  "Siegen": 2,
+  "Siehe": 5,
+  "Slogan": 2,
+  "SoftBank": 7,
+  "Sonntag": 2,
+  "Spiel": 13,
+  "Spiele": 1,
+  "Spielplan": 1,
+  "Sprache": 1,
+  "Start": 2,
+  "Statistik": 1,
+  "Statue": 1,
+  "Strafe": 4,
+  "Straße": 1,
+  "Stufen": 6,
+  "Subjekt": 2,
+  "Suche": 4,
+  "Suginami": 3,
+  "Suppengericht": 1,
+  "Syced": 1,
+  "Sätze": 4,
+  "Süden": 1,
+  "TEXT": 9,
+  "Tag": 1,
+  "Teams": 1,
+  "Test": 1,
+  "Textilien": 1,
+  "Thema": 2,
+  "Themen": 2,
+  "Titel": 2,
+  "Titelquote": 3,
+  "Titelseite": 1,
+  "Topmeldung": 1,
+  "Trainer": 1,
+  "Trinken": 1,
+  "Tsutsugos": 1,
+  "Uhr": 3,
+  "Und": 3,
+  "VOL": 15,
+  "Veranstaltung": 2,
+  "Verb": 2,
+  "Verbot": 2,
+  "Vergangenheit": 1,
+  "Verkleidung": 1,
+  "Verlängerung": 3,
+  "Vier": 1,
+  "Vorlesen": 1,
+  "Vorstellung": 1,
+  "WOCHENZEITUNG": 8,
+  "Was": 1,
+  "Weggeworfener": 3,
+  "Welchen": 1,
+  "Wer": 2,
+  "Wettervorhersage": 1,
+  "Wikimedia": 4,
+  "Wind": 1,
+  "Winteranfang": 1,
+  "Woche": 6,
+  "Wochenende": 1,
+  "Wort": 1,
+  "Wörter": 4,
+  "Yen": 4,
+  "Yokohama": 2,
+  "Yokohama-Festival": 1,
+  "Yokohama-Spiele": 1,
+  "Zahlen": 1,
+  "Zauns": 1,
+  "Zeichen": 2,
+  "Zeit": 3,
+  "Zerlegung": 1,
+  "Zu": 1,
+  "Zufriedenheit": 3,
+  "Zuschauer": 3,
+  "Zwang": 3,
+  "a": 9,
+  "als": 5,
+  "am": 24,
+  "an": 3,
+  "angehen": 1,
+  "anstrahlen": 1,
+  "auf": 12,
+  "aus": 2,
+  "ausgewählte": 1,
+  "ausleihen": 2,
+  "b": 9,
+  "begann": 1,
+  "beginnt": 5,
+  "bei": 2,
+  "beides": 1,
+  "beliebt": 1,
+  "beste": 5,
+  "besten": 2,
+  "bestätigen": 1,
+  "bilden": 8,
+  "bis": 12,
+  "bitte": 1,
+  "bringen": 4,
+  "c": 9,
+  "d": 9,
+  "das": 5,
+  "de": 6,
+  "dem": 1,
+  "den": 5,
+  "der": 16,
+  "des": 1,
+  "deutsche": 1,
+  "die": 9,
+  "dieser": 4,
+  "dieses": 1,
+  "dran": 3,
+  "drei": 1,
+  "dämpfen": 1,
+  "echten": 1,
+  "echter": 1,
+  "ein": 12,
+  "einem": 3,
+  "einen": 2,
+  "einer": 1,
+  "einfach": 1,
+  "einhalten": 2,
+  "einzige": 1,
+  "ergeben": 1,
+  "erreichte": 1,
+  "erscheinen": 1,
+  "erscheint": 1,
+  "erzielte": 2,
+  "es": 2,
+  "essen": 1,
+  "euch": 1,
+  "eure": 1,
+  "fast": 3,
+  "folgen": 1,
+  "fröhliches": 1,
+  "früher": 2,
+  "fährt": 2,
+  "für": 3,
+  "ganzen": 1,
+  "gefallenes": 3,
+  "gefärbte": 1,
+  "gehen": 1,
+  "gemeinsam": 1,
+  "gemischt": 5,
+  "genießen": 2,
+  "geordnet": 1,
+  "geordneter": 1,
+  "gern": 1,
+  "geschehen": 1,
+  "gewann": 4,
+  "gewinnen": 1,
+  "gilt": 2,
+  "ging": 3,
+  "habt": 1,
+  "hat": 2,
+  "heißt": 1,
+  "häufig": 4,
+  "ihrer": 1,
+  "im": 7,
+  "in": 29,
+  "innerhalb": 1,
+  "ist": 19,
+  "japanischer": 1,
+  "jeder": 1,
+  "kalten": 1,
+  "kamen": 2,
+  "kann": 2,
+  "kein": 2,
+  "keine": 4,
+  "kommen": 1,
+  "kommt": 1,
+  "kostet": 3,
+  "können": 2,
+  "langsam": 1,
+  "langsamer": 1,
+  "lautet": 2,
+  "lesen": 2,
+  "letztes": 5,
+  "lief": 1,
+  "locker": 4,
+  "los": 1,
+  "losziehen": 1,
+  "läuft": 10,
+  "mal": 5,
+  "man": 1,
+  "mehr": 2,
+  "minus": 1,
+  "mit": 7,
+  "möchte": 1,
+  "möchten": 3,
+  "nach": 12,
+  "nachts": 1,
+  "neu": 1,
+  "nicht": 3,
+  "note": 5,
+  "note-Rundschau": 1,
+  "ohne": 3,
+  "pro": 1,
+  "regnet": 1,
+  "richtige": 1,
+  "saisonaler": 1,
+  "sanft": 2,
+  "sanftes": 1,
+  "sank": 1,
+  "scharfes": 1,
+  "schicken": 3,
+  "schlug": 1,
+  "schönsten": 1,
+  "sehen": 4,
+  "seit": 1,
+  "sich": 4,
+  "sie": 5,
+  "sind": 8,
+  "so": 4,
+  "sprach": 1,
+  "startete": 2,
+  "steht": 2,
+  "stieg": 1,
+  "suchen": 6,
+  "traditionelles": 1,
+  "trinken": 1,
+  "tun": 1,
+  "um": 3,
+  "und": 19,
+  "uns": 1,
+  "unten": 1,
+  "verdoppelt": 3,
+  "verfolgen": 1,
+  "vier": 3,
+  "vom": 2,
+  "von": 10,
+  "vorgestellt": 1,
+  "war": 10,
+  "warmer": 2,
+  "wegwirft": 1,
+  "welcher": 1,
+  "wendete": 1,
+  "wenn": 1,
+  "werden": 1,
+  "wie": 4,
+  "will": 2,
+  "wird": 1,
+  "wollen": 1,
+  "wählen": 1,
+  "wärmer": 4,
+  "wörtlich": 1,
+  "zahlt": 1,
+  "zehntausend": 1,
+  "zeigen": 1,
+  "zeigt": 1,
+  "zu": 1,
+  "zum": 11,
+  "zuordnen": 3,
+  "zusammen": 2,
+  "zwei": 8,
+  "zweimal": 1,
+  "zwingen": 2,
+  "zählt": 1,
+  "Überblick": 1,
+  "Übersetzen": 4,
+  "Übungen": 5,
+  "Übungsdaten": 2,
+  "üben": 1,
+  "über": 2,
+  "überschritt": 1,
+  "übersteigen": 1
+ },
+ "sunday_count": 0,
+ "sonntag_contexts": [
+  [
+   "p8-tesuto.svg",
+   "32. B — Die Ausstellung läuft bis zum 8. November (Sonntag)"
+  ],
+  [
+   "p8-tesuto.svg",
+   "69. C — Bürgerfest Naka, Yokohama, 8. November (Sonntag)"
+  ]
+ ],
+ "en_day_month_hits": {
+  "Monday": 0,
+  "Tuesday": 0,
+  "Wednesday": 0,
+  "Thursday": 0,
+  "Friday": 0,
+  "Saturday": 0,
+  "Sunday": 0,
+  "January": 0,
+  "February": 0,
+  "March": 0,
+  "April": 0,
+  "May": 4,
+  "June": 0,
+  "July": 0,
+  "August": 0,
+  "September": 0,
+  "October": 0,
+  "November": 28,
+  "December": 0
+ },
+ "p7_common_definition_check": {
+  "ゆるく整える": {
+   "in_core": 2,
+   "in_ed": 2
+  },
+  "昨日": {
+   "in_core": 3,
+   "in_ed": 3
+  },
+  "診所": {
+   "in_core": 0,
+   "in_ed": 0
+  },
+  "Fehlerklinik": {
+   "in_core": 0,
+   "in_ed": 1
+  }
+ },
+ "p7_tags": {
+  "core": [
+   "第1面",
+   "第1面",
+   "第2面",
+   "第2面",
+   "第3面",
+   "第4面",
+   "第5面",
+   "第6面"
+  ],
+  "ed": [
+   "S.1",
+   "S.1",
+   "S.2",
+   "S.2",
+   "S.3",
+   "S.4",
+   "S.5",
+   "S.6"
+  ]
+ },
+ "golden": {
+  "文化の日は、11月3日（火よう日）です。": {
+   "core": 2,
+   "ed": 2
+  },
+  "ゆっくり、ゆるく整える日本の11月です。": {
+   "core": 2,
+   "ed": 2
+  },
+  "『ゆる』は、無理をしない、ゆっくり、という意味です。": {
+   "core": 2,
+   "ed": 2
+  },
+  "鍋の材料が1か月早く並び始めました。": {
+   "core": 2,
+   "ed": 2
+  },
+  "伝統工芸と紅葉と光を、いっしょに楽しむことができます。": {
+   "core": 2,
+   "ed": 2
+  },
+  "ソフトバンクが2連勝でスタートしました。": {
+   "core": 2,
+   "ed": 2
+  },
+  "ルールを守って、楽しいハロウィンにしましょう。": {
+   "core": 2,
+   "ed": 2
+  },
+  "紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。": {
+   "core": 2,
+   "ed": 2
+  }
+ },
+ "golden_in_core_p7": {
+  "文化の日は、11月3日（火よう日）です。": 1,
+  "ゆっくり、ゆるく整える日本の11月です。": 1,
+  "『ゆる』は、無理をしない、ゆっくり、という意味です。": 1,
+  "鍋の材料が1か月早く並び始めました。": 1,
+  "伝統工芸と紅葉と光を、いっしょに楽しむことができます。": 1,
+  "ソフトバンクが2連勝でスタートしました。": 1,
+  "ルールを守って、楽しいハロウィンにしましょう。": 1,
+  "紅葉を見に行く人は、北から南へ、見頃を追いかけることができます。": 1
+ },
+ "p7_rects": {
+  "ed": [
+   [
+    "65",
+    "2382.08",
+    "1820",
+    "118"
+   ]
+  ],
+  "core": [
+   [
+    "65",
+    "2394.08",
+    "1820",
+    "118"
+   ]
+  ]
+ },
+ "p7_def_lines_core_in_ed": [
+  "『ゆるく整える』 — ゆるく（無理をし",
+  "「ゆっくり、ゆるく整える日本の11月です。」"
+ ],
+ "p7_def_lines_core_total": [
+  "『ゆるく整える』 — ゆるく（無理をし",
+  "「ゆっくり、ゆるく整える日本の11月です。」"
+ ],
+ "p7_mit_lines": [
+  "Mit 「昨日」 gilt die Vergangenheit.",
+  "Mit 「こと」 wird das Verb zum Nomen.",
+  "Zerlegung: Körper und Geist sanft in"
+ ],
+ "advance": {
+  "p1-hyoushi.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "2026年11月2日（月）〜8日（日）",
+   "violations_over_1885_5": []
+  },
+  "p2-kurashi.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "ゆる整え食の4つの言葉 · Vier Wörter für sanftes Essen",
+   "violations_over_1885_5": []
+  },
+  "p3-bunka.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "Antworten auf Seite 8 · Stufen gemischt — nach Nummer suchen",
+   "violations_over_1885_5": []
+  },
+  "p4-supotsu.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "Antworten auf Seite 8 · Stufen gemischt — nach Nummer suchen",
+   "violations_over_1885_5": []
+  },
+  "p5-wakamono.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "Antworten auf Seite 8 · Stufen gemischt — nach Nummer suchen",
+   "violations_over_1885_5": []
+  },
+  "p6-fukayomi.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "練習用データ · Übungsdaten",
+   "violations_over_1885_5": []
+  },
+  "p7-kotoba.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "Seite 7 von 8",
+   "violations_over_1885_5": []
+  },
+  "p8-tesuto.svg": {
+   "max_adv_right": 1885.0,
+   "max_text": "Kurze deutsche Notiz bei jeder Antwort · ✓ = Mustertext-Aufgabe",
+   "violations_over_1885_5": []
+  }
+ },
+ "p8_ink_bottom": {
+  "max_ink_bottom": 2518.42,
+  "text": "38. 金箔 — 金箔 = Blattgold"
+ },
+ "p7_teaser_ink": {
+  "max_ink_bottom": 2468.58,
+  "text": "読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！"
+ },
+ "p6_chart_coverage": [
+  {
+   "text": "の満足』、つまり、近くで紅葉と温泉",
+   "ink_box": [
+    65.0,
+    884.7,
+    490.0,
+    908.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "とグルメを楽しむ旅が人気だそうで",
+   "ink_box": [
+    65.0,
+    922.7,
+    463.5,
+    946.5
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "紅葉の見頃も、今週末が大切です。宮",
+   "ink_box": [
+    65.0,
+    1071.5,
+    488.0,
+    1096.0
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "7日から12月28日まで、紅葉のライト",
+   "ink_box": [
+    65.0,
+    1299.7,
+    481.0,
+    1323.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "ということです。紅葉を見に行く人",
+   "ink_box": [
+    527.0,
+    203.8,
+    925.0,
+    227.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "温泉 — 温かいお湯の風呂",
+   "ink_box": [
+    1473.0,
+    738.5,
+    1718.2,
+    759.0
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "グルメ — おいしい食べ物",
+   "ink_box": [
+    1473.0,
+    802.1,
+    1716.8,
+    822.6
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "近場の満足",
+   "ink_box": [
+    65.0,
+    1611.5,
+    175.0,
+    1632.0
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "38%",
+   "ink_box": [
+    1471.0,
+    1613.5,
+    1518.2,
+    1630.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "温泉",
+   "ink_box": [
+    65.0,
+    1667.2,
+    109.0,
+    1688.0
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "27%",
+   "ink_box": [
+    1141.0,
+    1669.5,
+    1188.2,
+    1686.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "紅葉",
+   "ink_box": [
+    65.0,
+    1723.2,
+    109.0,
+    1744.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "21%",
+   "ink_box": [
+    961.0,
+    1725.5,
+    1008.2,
+    1742.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "グルメ",
+   "ink_box": [
+    65.0,
+    1780.0,
+    129.8,
+    1799.8
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "14%",
+   "ink_box": [
+    751.0,
+    1781.5,
+    798.2,
+    1798.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "近場の満足と答えた人は ___ %です。",
+   "ink_box": [
+    527.0,
+    2297.6,
+    850.8,
+    2315.6
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "温泉は ___ %です。",
+   "ink_box": [
+    527.0,
+    2382.2,
+    698.8,
+    2400.2
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "紅葉とグルメの差は ___ %です。",
+   "ink_box": [
+    527.0,
+    2466.7,
+    811.8,
+    2484.7
+   ],
+   "coverage_pct": 0.0
+  },
+  {
+   "text": "近場の満足と温泉を合わせると ___ %です。",
+   "ink_box": [
+    989.0,
+    1990.8,
+    1369.8,
+    2008.8
+   ],
+   "coverage_pct": 0.0
+  }
+ ],
+ "images": {
+  "ed": {
+   "p1-hyoushi.svg": [
+    {
+     "x": "65",
+     "y": "1874",
+     "width": "896",
+     "height": "320",
+     "sha16": "140f46d9e41b8ef0"
+    }
+   ],
+   "p2-kurashi.svg": [],
+   "p3-bunka.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "222",
+     "sha16": "e293b32d5911d4d5"
+    }
+   ],
+   "p4-supotsu.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "290",
+     "sha16": "19990669abb56897"
+    }
+   ],
+   "p5-wakamono.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "262",
+     "sha16": "6242ca640af3d418"
+    }
+   ],
+   "p6-fukayomi.svg": [],
+   "p7-kotoba.svg": [],
+   "p8-tesuto.svg": []
+  },
+  "core": {
+   "p1-hyoushi.svg": [
+    {
+     "x": "65",
+     "y": "1874",
+     "width": "896",
+     "height": "320",
+     "sha16": "140f46d9e41b8ef0"
+    }
+   ],
+   "p2-kurashi.svg": [],
+   "p3-bunka.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "222",
+     "sha16": "e293b32d5911d4d5"
+    }
+   ],
+   "p4-supotsu.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "290",
+     "sha16": "19990669abb56897"
+    }
+   ],
+   "p5-wakamono.svg": [
+    {
+     "x": "1451",
+     "y": "200",
+     "width": "434",
+     "height": "262",
+     "sha16": "6242ca640af3d418"
+    }
+   ],
+   "p6-fukayomi.svg": [],
+   "p7-kotoba.svg": [],
+   "p8-tesuto.svg": []
+  }
+ },
+ "readers_letter_ed": [
+  "「こんにちは。私は中学生です。読書週",
+  "間には、図書館で本を2冊読みたいで",
+  "です。」— 読者の手紙の例"
+ ],
+ "readers_letter_core": [
+  "「こんにちは。私は中学生です。読書週",
+  "間には、図書館で本を2冊読みたいで",
+  "です。」— 読者の手紙の例"
+ ],
+ "readers_disclosure_ed": [
+  "Beispielbrief, kein echter Brief. Bis zum",
+  "Redaktionsschluss keine echten Briefe",
+  "erscheint in VOL.3. Schickt uns eure Briefe"
+ ],
+ "readers_disclosure_core_jp": [
+  "※この手紙は編集部の例です。締め切りま",
+  "優秀作は届きませんでした。VOL.3に載せ"
+ ],
+ "readers_teaser_ed": [
+  "読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！"
+ ],
+ "masthead": {
+  "ed": {
+   "wordmark_y": "248",
+   "badge_or_edline": [
+    "356",
+    "JAPANISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER",
+    "#a4553a"
+   ],
+   "edition_line": [
+    "2624",
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH"
+   ]
+  },
+  "core": {
+   "wordmark_y": "262",
+   "edition_line": [
+    "2624",
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY"
+   ],
+   "badge_or_edline": [
+    "2624",
+    "Lucerna · 日语周报 VOL.2 · LUCERNA JAPANESE WEEKLY",
+    "#57523f"
+   ]
+  },
+  "w43": {
+   "wordmark_y": "248",
+   "badge_or_edline": [
+    "356",
+    "JAPANISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER",
+    "#a4553a"
+   ],
+   "edition_line": [
+    "2624",
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH"
+   ]
+  }
+ },
+ "footers": {
+  "ed": {
+   "p1-hyoushi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 1 von 8"
+   ],
+   "p2-kurashi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 2 von 8"
+   ],
+   "p3-bunka.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 3 von 8"
+   ],
+   "p4-supotsu.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 4 von 8"
+   ],
+   "p5-wakamono.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 5 von 8"
+   ],
+   "p6-fukayomi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 6 von 8"
+   ],
+   "p7-kotoba.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 7 von 8"
+   ],
+   "p8-tesuto.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.2 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 8 von 8"
+   ]
+  },
+  "w43": {
+   "p1-hyoushi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 1 von 8"
+   ],
+   "p2-kurashi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 2 von 8"
+   ],
+   "p3-bunka.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 3 von 8"
+   ],
+   "p4-supotsu.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 4 von 8"
+   ],
+   "p5-wakamono.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 5 von 8"
+   ],
+   "p6-fukayomi.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 6 von 8"
+   ],
+   "p7-kotoba.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 7 von 8"
+   ],
+   "p8-tesuto.svg": [
+    "Lucerna · JAPANISCHE WOCHENZEITUNG VOL.1 · TEXT AUF JAPANISCH · ERKLÄRUNGEN AUF DEUTSCH",
+    "Seite 8 von 8"
+   ]
+  }
+ },
+ "badge_a4553a_p1": {
+  "ed": 12,
+  "w43": 12,
+  "core": 11
+ },
+ "uebungen": {
+  "p2-kurashi.svg": [
+   "練習 · Übungen Seite 2"
+  ],
+  "p3-bunka.svg": [
+   "練習 · Übungen Seite 3"
+  ],
+  "p4-supotsu.svg": [
+   "練習 · Übungen Seite 4"
+  ],
+  "p5-wakamono.svg": [
+   "練習 · Übungen Seite 5"
+  ],
+  "p6-fukayomi.svg": [
+   "練習 · Übungen Seite 6"
+  ]
+ },
+ "gloss_prefix": {
+  "ed": {
+   "Anm": 10,
+   "HINWEIS": 0
+  },
+  "w43": {
+   "Anm": 10,
+   "HINWEIS": 0
+  }
+ },
+ "w43_p8_dash": 149,
+ "w43_p8_sample": [
+  "141. 見頃",
+  "142. 福袋",
+  "143. 行列"
+ ],
+ "abstract": {
+  "chars": 329,
+  "lines": 1,
+  "has_ascii_quote": false,
+  "text": "Lucerna Japanisch lernen: Die VOL.2-Ausgabe für deutschsprachige Leser mit 150 Übungen auf A2–B2 — Kulturtag am 3. November, Herbstlaub am Wochenende vom 7. bis 8. November, Lesewoche bis 9. November, Japan Series in Yokohama und sanftes Winteressen: Japanisch lesen und üben mit Texten auf Japanisch und Erklärungen auf Deutsch."
+ },
+ "kit_checks": {
+  "has_fresh_proof_note": true,
+  "has_fix_complete_only": true,
+  "print_bytes_claim": true,
+  "web_bytes_claim": true,
+  "print_sha_claim": true,
+  "web_sha_claim": true,
+  "keydiff_correction": true,
+  "round2_overstatement_note": true
+ },
+ "pdf": {
+  "print": {
+   "pages": 8,
+   "bytes": 28802945
+  },
+  "web": {
+   "pages": 8,
+   "bytes": 3100274
+  }
+ },
+ "model_candidates": [
+  "例： 私の11月の週末は、文化と紅葉の週末です。火よう日は、家"
+ ]
+}

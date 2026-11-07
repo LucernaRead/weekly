@@ -1,0 +1,25 @@
+== 1. same-baseline collisions ==
+  p1-front.svg: CLEAN
+  p2-life.svg: CLEAN
+  p3-culture.svg: CLEAN
+  p4-sport.svg: CLEAN
+  p5-jeunesse.svg: CLEAN
+  p6-politique.svg: CLEAN
+  p7-langue.svg: CLEAN
+  p8-exercices.svg: CLEAN
+== 2. P6 chart-label coverage ==
+  worst chart-label bbox coverage: 0.0% ('—')
+  verdict: below 30% threshold
+== 3. gloss counts (gloss strings carry the edition prefix; counts compared)
+== 3. gloss counts (split rendered gloss strings on ·) ==
+  content12.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content34.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
+  content56.py core 4 vs ed 4: OK
+  bridge content12.py: core '讲解｜an armistice 停战协定 · a veteran 退伍军人 · to fall si' ed '해설 — an armistice 휴전 협정 · a veteran 참전 용사 · to fal'
+  bridge content12.py: core '根据日期与时间，用英语补全句子。' ed '날짜와 시간에 따라 영어로 문장을 완성하세요.'
+  bridge content12.py: core '用 will + 动词改写（承诺与将要发生的事）。' ed 'will + 동사원형으로 바꿔 쓰세요(약속과 앞으로 일어날 일).'
+  bridge content12.py: core '读第 2 版文章，选出正确答案。' ed '2면 기사를 읽고 정답을 고르세요.'
+  bridge content7.py: core '工具箱｜本期三句随身句，按级各一；金句全部出自本期文章，回读原文最有效。' ed '도구 상자 — 이번 호 휴대 문장 세 개, 단계마다 하나; 명문장은 전부 이번 호 기사에서'
+  bridge content7.py: core '每句有一处错误：找出来并改正。' ed '문장마다 오류가 하나씩 있어요: 찾아서 고치세요.'

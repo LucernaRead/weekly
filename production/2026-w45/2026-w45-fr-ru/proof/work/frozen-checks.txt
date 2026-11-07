@@ -1,0 +1,53 @@
+== P4 edition claim ==
+ED 41e form: 1  CORE: 1
+ED old 40e form: 0  CORE: 0
+ED 41e anywhere: 1
+== Q120 ==
+CORE p 8 stem present
+CORE irai/irais/vais present in joined all: True
+ED p 8 stem present
+ED irai/irais/vais present in joined all: True
+CORE files/weekly-report-w45-fr-core/svg/p1-une.svg Nanterre count 1
+CORE files/weekly-report-w45-fr-core/svg/p4-sport.svg Nanterre count 3
+CORE files/weekly-report-w45-fr-core/svg/p5-jeunesse.svg Nanterre count 2
+CORE files/weekly-report-w45-fr-core/svg/p8-exercices.svg has blank stem
+CORE files/weekly-report-w45-fr-core/svg/p8-exercices.svg Nanterre count 3
+ED files/weekly-report-w45-fr-ru/svg/p1-une.svg Nanterre count 1
+ED files/weekly-report-w45-fr-ru/svg/p4-sport.svg Nanterre count 3
+ED files/weekly-report-w45-fr-ru/svg/p5-jeunesse.svg Nanterre count 2
+ED files/weekly-report-w45-fr-ru/svg/p8-exercices.svg has blank stem
+ED files/weekly-report-w45-fr-ru/svg/p8-exercices.svg Nanterre count 3
+== P7 #4 comparatif ==
+CORE plus excitante ou plus frustrante ?: 4  all-pages: 5
+ED plus excitante ou plus frustrante ?: 4  all-pages: 5
+== P7 #8 ==
+CORE P7 #8: 1  P5: 1
+ED P7 #8: 1  P5: 1
+== P6 sync ==
+CORE P6: 1  P7: 2
+ED P6: 1  P7: 2
+== P8 Q106 / Q120 notes ==
+CORE rencontrent, не rencontre 0
+CORE créateurs (мн. число) 0
+CORE P8-120 note si+imparfait: 1
+ED rencontrent, не rencontre 1
+ED créateurs (мн. число) 1
+ED P8-120 note si+imparfait: 1
+== freeze diff removed non-CJK per page ==
+--- p1 removed total 23 non-CJK 0
+--- p2 removed total 28 non-CJK 0
+--- p3 removed total 32 non-CJK 0
+--- p4 removed total 37 non-CJK 0
+--- p5 removed total 30 non-CJK 0
+--- p6 removed total 27 non-CJK 0
+--- p7 removed total 32 non-CJK 0
+--- p8 removed total 120 non-CJK 9
+  x1 reappear=False punctfrag=False :: "Traduisez : « Lire un programme, c'est déjà"
+  x1 reappear=True punctfrag=False :: 'chrysanthèmes pour un anniversaire. · 36. Les feuilles ne'
+  x1 reappear=True punctfrag=False :: 'comprendre la France. »'
+  x1 reappear=True punctfrag=False :: 'heures'
+  x1 reappear=True punctfrag=False :: 'pas la Toussaint. · 38. nocturne · 39. badge · 40. Plailly'
+  x1 reappear=True punctfrag=False :: "sont plus vertes en novembre. · 37. Le 2 novembre n'est"
+  x1 reappear=True punctfrag=False :: 'vingt pages ce soir. · 17. Tu vas préparer ton cartable ce'
+  x1 reappear=True punctfrag=False :: "· 103. joue · 104. rencontrent · 105. On n'offre jamais de"
+  x1 reappear=True punctfrag=False :: 'élèves vont reprendre les cours lundi. · 16. Nous allons lire'

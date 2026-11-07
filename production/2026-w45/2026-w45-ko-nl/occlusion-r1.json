@@ -1,0 +1,114 @@
+{
+ "svgdir": "../files/weekly-report-w45-ko-nl/svg",
+ "flags": [
+  {
+   "page": "p1-pyoji.svg",
+   "class": "LINEX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "LINEX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "TEXTX",
+   "text": "한능검 서울 접수는 11월 6일 ___시부터",
+   "box": [
+    989.0,
+    1862.5,
+    1323.0,
+    1881.8
+   ],
+   "detail": "ink overlaps '바쁜 주말' by 99.0x4.0px",
+   "by": "text@149"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "TEXTX",
+   "text": "바쁜 주말",
+   "box": [
+    989.0,
+    1877.8,
+    1088.0,
+    1901.5
+   ],
+   "detail": "ink overlaps '12시까지예요.' by 99.0x10.7px",
+   "by": "text@97"
+  }
+ ],
+ "flag_count": 4,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-pyoji.svg",
+   "class": "LINEX",
+   "text": "A2",
+   "box": [
+    1007.1,
+    1836.0,
+    1030.8,
+    1850.0
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "LINEX",
+   "text": "6.",
+   "box": [
+    1061.0,
+    1833.0,
+    1083.0,
+    1851.2
+   ],
+   "detail": "later line box [64.4, 1843.4, 1885.6, 1844.6] crosses ink",
+   "by": "line@144"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "TEXTX",
+   "text": "한능검 서울 접수는 11월 6일 ___시부터",
+   "box": [
+    989.0,
+    1862.5,
+    1323.0,
+    1881.8
+   ],
+   "detail": "ink overlaps '바쁜 주말' by 99.0x4.0px",
+   "by": "text@149"
+  },
+  {
+   "page": "p1-pyoji.svg",
+   "class": "TEXTX",
+   "text": "바쁜 주말",
+   "box": [
+    989.0,
+    1877.8,
+    1088.0,
+    1901.5
+   ],
+   "detail": "ink overlaps '12시까지예요.' by 99.0x10.7px",
+   "by": "text@97"
+  }
+ ],
+ "new_flag_count": 4
+}

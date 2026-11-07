@@ -1,0 +1,100 @@
+gloss calls core/it: 10 10
+gloss item totals: 33 33
+content12.py items 4 headwords equal: True 
+content12.py items 4 headwords equal: True 
+content12.py items 4 headwords equal: True 
+content34.py items 3 headwords equal: True 
+content34.py items 3 headwords equal: True 
+content34.py items 3 headwords equal: True 
+content56.py items 3 headwords equal: True 
+content56.py items 3 headwords equal: True 
+content56.py items 3 headwords equal: True 
+content56.py items 3 headwords equal: True 
+rendered Nota P1: 1
+rendered Nota P2: 2
+rendered Nota P3: 2
+rendered Nota P4: 1
+rendered Nota P5: 2
+rendered Nota P6: 2
+rendered Nota P7: 0
+rendered Nota P8: 0
+images p1-touiban.svg core 1 del 1 identical: True
+images p2-shenghuo.svg core 1 del 1 identical: True
+images p3-wenhua.svg core 2 del 2 identical: True
+images p4-tiyu.svg core 1 del 1 identical: True
+images p5-qingnian.svg core 1 del 1 identical: True
+images p6-shendu.svg core 0 del 0 identical: True
+images p7-ciyu.svg core 0 del 0 identical: True
+images p8-ceyan.svg core 0 del 0 identical: True
+asset locker.jpg identical: True
+asset valley.jpg identical: True
+asset frost.jpg identical: True
+asset dumplings.jpg identical: True
+asset lanparty.jpg identical: True
+asset popcorn.jpg identical: True
+core CREDITS.md:
+# Image credits — Lucerna Weekly W45 Simplified Chinese core (VOL.2)
+
+All images are used under a public-domain / CC0 licence, verified via the
+Wikimedia Commons API (`extmetadata`: `Artist` and `LicenseShortName`) on
+2026-10-27. The "Artist" column below is the Commons API Artist field,
+copied directly. Every image listed here is embedded in the issue; no other
+image is embedded (verified: each SVG's embedded payload MD5 matches the
+asset file below, and the count per page is 1 / 1 / 2 / 1 / 1 / 0 / 0 / 0).
+
+| Page | Asset file | Commons file | Subject as captioned | Artist (Commons API) | Licence |
+|---|---|---|---|---|---|
+| 1 | locker.jpg | Parcel lockers (W43 reuse) | Parcel locker, labelled 资料图 (file photo) | Map hobby | CC0 |
+| 2 | valley.jpg | Autumn valley (W43 reuse) | Autumn valley, red leaves in season | Paul Gilmore | CC0 |
+| 3 | frost.jpg | Frosted leaves (W43 reuse) | Frosted red leaves | Gerda Arendt | CC0 |
+| 3 | dumplings.jpg | Dumplings 3.jpg | Dumplings, labelled 资料图 (file photo) | Syced | CC0 |
+| 4 | lanparty.jpg | LAN party, France 2003 (W43 reuse) | LAN-party file photo, France, 2003 | Syced | CC0 |
+| 5 | popcorn.jpg | Regal Cinemas popcorn bucket.jpg | Cinema popcorn bucket, labelled 资料图 (file photo) | Based5290 | Public domain |
+
+Notes:
+- File photos are captioned as 资料图 (file photo) and are never presented
+  as this week's event. The P4 LAN-party caption states its real date
+  (2003) and place (France).
+- Rejected candidates (cinema-auditorium and shopping-bag search hits) were
+  mostly CC BY-SA 4.0 / CC BY, which the SOP does not allow, so they were
+  not used.
+- The two new downloads (dumplings.jpg, 838,923 bytes; popcorn.jpg,
+  775,812 bytes) were fetched 2026-10-27 at 1400 px via the Commons
+  `Special:FilePath` route.
+
+CORE credits {'p1-touiban.svg': ['Photo: Map hobby — CC0 (Wikimedia Commons)'], 'p2-shenghuo.svg': ['Photo: Paul Gilmore — CC0 (Wikimedia Commons)'], 'p3-wenhua.svg': ['Photo: Gerda Arendt — CC0 (Wikimedia Commons)', 'Photo: Syced — CC0 (Wikimedia Commons)'], 'p4-tiyu.svg': ['Photo: Syced — CC0 (Wikimedia Commons)'], 'p5-qingnian.svg': ['Photo: Based5290 — Public domain (Wikimedia Commons)']}
+DEL credits {'p1-touiban.svg': ['Foto: Map hobby — CC0 (Wikimedia Commons)'], 'p2-shenghuo.svg': ['Foto: Paul Gilmore — CC0 (Wikimedia Commons)'], 'p3-wenhua.svg': ['Foto: Gerda Arendt — CC0 (Wikimedia Commons)', 'Foto: Syced — CC0 (Wikimedia Commons)'], 'p4-tiyu.svg': ['Foto: Syced — CC0 (Wikimedia Commons)'], 'p5-qingnian.svg': ['Foto: Based5290 — Public domain (Wikimedia Commons)']}
+W43 P8 keyed nodes / paren-form: (188, 150)
+DEL P8 keyed nodes / paren-form: (188, 150)
+DEL full-width paren notes in P8 (should be core's 11 inside frozen stems):
+ count: 11
+   '立冬在11月7日。（A. 对 · B. 错）'
+   '立冬是第18个节气。（A. 对 · B. 错）'
+   '现货要先付定金才能买。（A. 对 · B. 错）'
+   'AL赢了三场比赛。（A. 对 · B. 错）'
+   '四分之一决赛在北京时间早上6点开始。（A. 对 · B. 错）'
+   '《三星堆》电影里有真人演员。（A. 对 · B. 错）'
+   '新片《我们仅有一次的人生》11月7日上映。（A. 对 · B. 错）'
+   '中国记者节在11月7日。（A. 对 · B. 错）'
+   '— 现货几天能到？ — 买了就能___，不用等预售。（A. 发货 · B.'
+   '— 立冬吃什么？ — 北方吃___，南方吃法各不同。（A. 饺子 · B.'
+   '— 这条新闻说最低价，可信吗？ — 先看___，再看广告。（A. 数据 · B.'
+W43 P8 full-width-paren nodes: 11
+band 生活 · Vita True
+band 文化 · Cultura True
+band 体育 · Sport True
+band 青年 · Giovani True
+band 深读 · Lettura approfondita True
+band 词语 · Focus sulla lingua True
+band 测验与答案 · Test e soluzioni True
+ENG band absent? Life False
+ENG band absent? Culture False
+ENG band absent? Youth False
+ENG band absent? Deep read False
+ENG band absent? Language focus False
+P6 head Calcoli present: True | 'Calcoli con i cesti' absent: True
+P6 label '270 元' ink x[1151.0,1223.5] baseline 1310.0
+P6 label '179 元' ink x[878.0,947.5] baseline 1368.0
+P6 label '160 元' ink x[821.0,890.8] baseline 1426.0
+bar ends x: [1135, 862, 805]
+P7 corner head: 读者园地 · L'angolo dei lettori

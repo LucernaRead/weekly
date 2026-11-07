@@ -1,0 +1,64 @@
+  flow[P1-headline] ended col 2/2 y=1588 (bottom 1812)
+  flow[P1-hiver] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=606 (bottom 1540)
+P2 col3 ends 1538.6
+  flow[P2-ex] ended col 3/3 y=2365 (bottom 2562)
+P2 saved, exercises so far: 25
+  flow[P3-main] ended col 2/2 y=813 (bottom 2540)
+P3 saved, exercises so far: 43
+  flow[P4-main] ended col 2/2 y=1169 (bottom 2540)
+  flow[P4-micro] ended col 0/0 y=2154 (bottom 2540)
+P4 saved, exercises so far: 61
+  flow[P5-main] ended col 1/2 y=2532 (bottom 2540)
+P5 saved, exercises so far: 78
+  flow[P6-deep] ended col 1/1 y=989 (bottom 1300)
+  flow[P6-ex] ended col 1/1 y=2557 (bottom 2540)
+  flow[P6-opinion] ended col 0/1 y=1255 (bottom 1300)
+  flow[P6-micro] ended col 1/1 y=2020 (bottom 2540)
+P6 saved, exercises so far: 96
+  flow[P7-A2] ended col 0/0 y=954 (bottom 1150)
+  flow[P7-B1] ended col 0/0 y=1053 (bottom 1150)
+  flow[P7-B2] ended col 0/1 y=988 (bottom 1150)
+  flow[P7-outils] ended col 0/0 y=979 (bottom 1150)
+  flow[P7-phrases] ended col 3/3 y=1546 (bottom 1830)
+  flow[P7-clinic] ended col 1/1 y=2140 (bottom 2268)
+P7 saved, exercises so far: 108
+  flow[P8-battery] ended col 3/3 y=1410 (bottom 1485)
+  flow[P8-keys] ended col 3/3 y=2227 (bottom 2545)
+P8 saved, TOTAL exercises: 150
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p1-une.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p2-vie.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p3-culture.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p4-sport.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p5-jeunesse.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p6-politique.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p7-langue.png
+card /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/cards/p8-exercices.png
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/fr-ja-proof/work/repro-build/render.py", line 59, in <module>
+    main()
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w45/fr-ja-proof/work/repro-build/render.py", line 43, in main
+    cairosvg.svg2pdf(url=f, write_to=tmp)
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairosvg/__init__.py", line 66, in svg2pdf
+    return surface.PDFSurface.convert(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairosvg/surface.py", line 137, in convert
+    instance = cls(
+               ^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairosvg/surface.py", line 209, in __init__
+    self.cairo, self.width, self.height = self._create_surface(
+                                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairosvg/surface.py", line 249, in _create_surface
+    cairo_surface = self.surface_class(self.output, width, height)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairocffi/surfaces.py", line 872, in __init__
+    Surface.__init__(self, pointer, target_keep_alive=write_func)
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairocffi/surfaces.py", line 158, in __init__
+    self._check_status()
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairocffi/surfaces.py", line 170, in _check_status
+    _check_status(cairo.cairo_surface_status(self._pointer))
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/lib/python3.12/site-packages/cairocffi/__init__.py", line 100, in _check_status
+    raise exception(message, status)
+OSError: [Errno cairo returned CAIRO_STATUS_WRITE_ERROR: b'error while writing to output stream'] 11

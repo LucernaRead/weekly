@@ -1,0 +1,114 @@
+{
+ "svgdir": "../files/weekly-report-w45-it-ko/svg",
+ "flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "LA SETTIMANA IN CIFRE · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    1032.5,
+    1342.7
+   ],
+   "detail": "ink overlaps 'novembre.' by 43.5x15.2px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "LA SETTIMANA IN CIFRE · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    1032.5,
+    1342.7
+   ],
+   "detail": "ink crosses its box borders: right ink 1032.5 > border 961.0",
+   "by": "rect@56"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · 암기 문장",
+   "box": [
+    545.0,
+    1185.2,
+    962.0,
+    1207.0
+   ],
+   "detail": "ink crosses its box borders: right ink 962.0 > border 961.0",
+   "by": "rect@62"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "LINEX",
+   "text": "아니에요. 8면 우수 작문도 아직 없어요. 예시와",
+   "box": [
+    1473.0,
+    1681.3,
+    1857.8,
+    1700.0
+   ],
+   "detail": "later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink",
+   "by": "line@152"
+  }
+ ],
+ "flag_count": 4,
+ "core_flag_count": 0,
+ "new_flags": [
+  {
+   "page": "p1-prima.svg",
+   "class": "TEXTX",
+   "text": "LA SETTIMANA IN CIFRE · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    1032.5,
+    1342.7
+   ],
+   "detail": "ink overlaps 'novembre.' by 43.5x15.2px",
+   "by": "text@95"
+  },
+  {
+   "page": "p1-prima.svg",
+   "class": "BOXTITLE",
+   "text": "LA SETTIMANA IN CIFRE · 숫자로 보는 이번 주",
+   "box": [
+    545.0,
+    1321.0,
+    1032.5,
+    1342.7
+   ],
+   "detail": "ink crosses its box borders: right ink 1032.5 > border 961.0",
+   "by": "rect@56"
+  },
+  {
+   "page": "p2-vita.svg",
+   "class": "BOXTITLE",
+   "text": "LA FRASE PER RICORDARE · 암기 문장",
+   "box": [
+    545.0,
+    1185.2,
+    962.0,
+    1207.0
+   ],
+   "detail": "ink crosses its box borders: right ink 962.0 > border 961.0",
+   "by": "rect@62"
+  },
+  {
+   "page": "p7-lingua.svg",
+   "class": "LINEX",
+   "text": "아니에요. 8면 우수 작문도 아직 없어요. 예시와",
+   "box": [
+    1473.0,
+    1681.3,
+    1857.8,
+    1700.0
+   ],
+   "detail": "later line box [64.0, 1685.0, 1886.0, 1687.0] crosses ink",
+   "by": "line@152"
+  }
+ ],
+ "new_flag_count": 4
+}

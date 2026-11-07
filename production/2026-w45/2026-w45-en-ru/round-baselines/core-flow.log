@@ -1,0 +1,10 @@
+baseline: 0/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content7.py, content8.py, render.py, supplemental.py, transform.py)
+  DIFF p1-front.svg core c7e7d019de01e662 produced fbf773160f688aa5
+  DIFF p2-life.svg core 07f5df7e8e7ea076 produced 84f239fe2764e577
+  DIFF p3-culture.svg core d9f7cc374fe1229c produced 269c9208b42a5466
+  DIFF p4-sport.svg core 3b8be5175094bcb7 produced d3d601d98c3d8b49
+  DIFF p5-jeunesse.svg core 73486e2f216e1f3b produced 64a09a710571d3ce
+  DIFF p6-politique.svg core 3e2187b37acb2883 produced 7ac510404c32a541
+  DIFF p7-langue.svg core 5a2684096010839c produced 8ae02622c481724d
+  DIFF p8-exercices.svg core 4de34a135cc831bf produced bec9a794a6fd98ca
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

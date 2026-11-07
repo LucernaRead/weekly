@@ -1,0 +1,860 @@
+{
+ "applied": 136,
+ "skipped": [
+  [
+   "bslib4.py",
+   "\"The Lucerna · 英语周报 VOL.2 · LUCERNA ENGLISH WEEKLY\""
+  ],
+  [
+   "content12.py",
+   "\"根据时间，用英语补全句子。\""
+  ],
+  [
+   "content12.py",
+   "\"用 be going to + 动词改写（计划与将要发生的事）。\""
+  ],
+  [
+   "content34.py",
+   "\"用 be going to 改写。\""
+  ],
+  [
+   "content56.py",
+   "\"读上面的教学图表，选出正确答案。\""
+  ],
+  [
+   "content12.py",
+   "\"WEEKLY IN ENGLISH · 每周一期 · 读美国人正在读的英语\""
+  ],
+  [
+   "content12.py",
+   "\"英 语 周 报 · VOL.2 · 选 票 · 足 球 · 电 影\""
+  ],
+  [
+   "content12.py",
+   "p.text(975, 372, \"THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM AMERICA\", 19, \"sans\", False, GREY, anchor=\"middle\")"
+  ],
+  [
+   "content12.py",
+   "\"周二选举日 · 周日已拨回时钟\""
+  ],
+  [
+   "content12.py",
+   "\"11 月 3 日周二选举日 · 详见第 6 版\""
+  ],
+  [
+   "content12.py",
+   "\"讲解｜a midterm 中期选举 · a ballot 选票 · a race 一场竞选 · to call a race 宣布某场竞选的结果。\""
+  ],
+  [
+   "content12.py",
+   "\"Nov 3 — Election Day（选举日） · 435 — seats in the House, all on the ballot（众议院全部席位改选）\""
+  ],
+  [
+   "content12.py",
+   "\"Nov 6 — two films open（两部电影上映） · Nov 8 — NFL in Madrid + F1 in São Paulo（周日两场大赛）\""
+  ],
+  [
+   "content12.py",
+   "\"ballot = 纸选票\""
+  ],
+  [
+   "content12.py",
+   "\"midterm = 中期（选举）\""
+  ],
+  [
+   "content12.py",
+   "\"选举日 11 月 3 日（周二）\""
+  ],
+  [
+   "content12.py",
+   "\"early voting = 提前投票\""
+  ],
+  [
+   "content12.py",
+   "\"race called = 宣布结果\""
+  ],
+  [
+   "content12.py",
+   "\"take time = 花时间\""
+  ],
+  [
+   "content12.py",
+   "\"本周美国热搜 · Google Trends 美国区快照\""
+  ],
+  [
+   "content12.py",
+   "\"（任期）中期。midterm election 中期选举。\""
+  ],
+  [
+   "content12.py",
+   "\"选举日 11 月 3 日周二\""
+  ],
+  [
+   "content12.py",
+   "\"众议院 435 席全部改选\""
+  ],
+  [
+   "content12.py",
+   "\"美国 11 月 1 日拨回时钟\""
+  ],
+  [
+   "content12.py",
+   "\"NFL 马德里赛 11 月 8 日周日\""
+  ],
+  [
+   "content12.py",
+   "p.band(\"LIFE · 生活\", \"The Lucerna\", \"LEVEL A2 · Clocks, candy & your week · 时钟、糖果与你的一周\")"
+  ],
+  [
+   "content12.py",
+   "\"DO THE MATHS · 算一算\""
+  ],
+  [
+   "content12.py",
+   "\"讲解｜to fall back （时钟）拨回 · a costume 服装、装扮 · trick or treat 不给糖就捣蛋。\""
+  ],
+  [
+   "content12.py",
+   "\"周日你多睡了一小时吗？写两句英语寄给编辑部。\""
+  ],
+  [
+   "content12.py",
+   "\"TELLING THE TIME · 这样报时间\""
+  ],
+  [
+   "content12.py",
+   "\"The repeated hour · 本周的三个时间\""
+  ],
+  [
+   "content12.py",
+   "\"= two times（两次）\""
+  ],
+  [
+   "content12.py",
+   "\"= one more time（再一次）\""
+  ],
+  [
+   "content12.py",
+   "\"= to go back one hour（拨回）\""
+  ],
+  [
+   "content12.py",
+   "\"= one hour more（多出一小时）\""
+  ],
+  [
+   "content12.py",
+   "\"1:00 = 一点整\""
+  ],
+  [
+   "content12.py",
+   "\"1:30 = 一点半\""
+  ],
+  [
+   "content12.py",
+   "\"7:45 = 差一刻八点\""
+  ],
+  [
+   "content12.py",
+   "\"两次 = twice\""
+  ],
+  [
+   "content12.py",
+   "\"多出的 = extra\""
+  ],
+  [
+   "content12.py",
+   "\"Americans 复数 → are going to\""
+  ],
+  [
+   "content12.py",
+   "\"疑问句：be 提前\""
+  ],
+  [
+   "content34.py",
+   "\"疑问句：be 提前\""
+  ],
+  [
+   "content12.py",
+   "\"11 月 1 日凌晨 2 点拨回 1 点\""
+  ],
+  [
+   "content12.py",
+   "\"亚利桑那与夏威夷不拨钟\""
+  ],
+  [
+   "content12.py",
+   "\"万圣节 10 月 31 日周六\""
+  ],
+  [
+   "content12.py",
+   "\"11 月 1 日夜晚有 25 小时\""
+  ],
+  [
+   "content12.py",
+   "\"costume=装扮 b\""
+  ],
+  [
+   "content12.py",
+   "\"extra hour=多出一小时 a\""
+  ],
+  [
+   "content12.py",
+   "\"fall back=拨回 d\""
+  ],
+  [
+   "content12.py",
+   "\"trick or treat=不给糖就捣蛋 c\""
+  ],
+  [
+   "content34.py",
+   "\"AT HOME THIS WEEK · 在家看什么\""
+  ],
+  [
+   "content34.py",
+   "\"讲解｜to open （电影）上映 · a monster 怪物 · a catchphrase 口头禅、金句 · a series 剧集。\""
+  ],
+  [
+   "content34.py",
+   "\"猫咪电影 11 月 6 日周五上映\""
+  ],
+  [
+   "content34.py",
+   "\"猫出自苏斯博士的书\""
+  ],
+  [
+   "content34.py",
+   "\"比尔·黑德为猫配音\""
+  ],
+  [
+   "content34.py",
+   "\"哥斯拉导演是山崎贵\""
+  ],
+  [
+   "content34.py",
+   "\"《黑鸽》第二季 11 月 5 日上线\""
+  ],
+  [
+   "content34.py",
+   "\"周日重聚节目收尾\""
+  ],
+  [
+   "content34.py",
+   "\"tall → taller 比较级\""
+  ],
+  [
+   "content34.py",
+   "\"loud → louder\""
+  ],
+  [
+   "content34.py",
+   "\"monster=怪物 b\""
+  ],
+  [
+   "content34.py",
+   "\"series=剧集 d\""
+  ],
+  [
+   "content34.py",
+   "\"open=上映 c\""
+  ],
+  [
+   "content34.py",
+   "\"THE CAT'S HAT · 猫的帽子\""
+  ],
+  [
+   "content34.py",
+   "p.band(\"SPORT · 体育\", \"The Lucerna\", \"LEVEL B1 · NFL · F1 · NASCAR · WTA · Boxing\")"
+  ],
+  [
+   "content34.py",
+   "\"WHY MADRID ? · 为什么去马德里？\""
+  ],
+  [
+   "content34.py",
+   "\"讲解｜a fixture 一场比赛（赛程） · a title 冠军头衔 · to defend （卫冕）保卫头衔 · a fan 球迷。\""
+  ],
+  [
+   "content34.py",
+   "\"马德里赛：孟加拉虎对猎鹰\""
+  ],
+  [
+   "content34.py",
+   "\"马德里赛场是伯纳乌\""
+  ],
+  [
+   "content34.py",
+   "\"海豚对雄狮在迈阿密\""
+  ],
+  [
+   "content34.py",
+   "\"F1 圣保罗大奖赛在巴西\""
+  ],
+  [
+   "content34.py",
+   "\"WTA 年终总决赛在印第安维尔斯开赛\""
+  ],
+  [
+   "content34.py",
+   "\"拳击赛在阿灵顿\""
+  ],
+  [
+   "content34.py",
+   "\"defend 三单加 s\""
+  ],
+  [
+   "content34.py",
+   "\"fast → faster\""
+  ],
+  [
+   "content34.py",
+   "\"title=冠军头衔 d\""
+  ],
+  [
+   "content34.py",
+   "\"fan=球迷 a\""
+  ],
+  [
+   "content34.py",
+   "\"defend=卫冕 c\""
+  ],
+  [
+   "content34.py",
+   "\"SUNDAY, NOVEMBER 8 · 周日赛程\""
+  ],
+  [
+   "content56.py",
+   "p.band(\"YOUTH · 青年\", \"The Lucerna\", \"LEVEL B1 · Election night at home · 选举之夜\")"
+  ],
+  [
+   "content56.py",
+   "\"TOO CLOSE TO CALL · 难分胜负\""
+  ],
+  [
+   "content56.py",
+   "\"讲解｜a map （选举）地图 · too close to call 难分胜负、无法判定 · a second screen 第二块屏幕（手机）。\""
+  ],
+  [
+   "content56.py",
+   "\"地图随结果逐州变色\""
+  ],
+  [
+   "content56.py",
+   "\"too close to call = 尚不知晓\""
+  ],
+  [
+   "content56.py",
+   "\"选举夜常吃披萨\""
+  ],
+  [
+   "content56.py",
+   "\"第二屏是手机\""
+  ],
+  [
+   "content56.py",
+   "\"孩子问为什么这么久\""
+  ],
+  [
+   "content56.py",
+   "\"结果早上还在\""
+  ],
+  [
+   "content56.py",
+   "\"close = 接近的\""
+  ],
+  [
+   "content56.py",
+   "\"still = 仍然\""
+  ],
+  [
+   "content56.py",
+   "\"与第 5 版原文一致，单数\""
+  ],
+  [
+   "content56.py",
+   "\"map=选举地图 c\""
+  ],
+  [
+   "content56.py",
+   "\"race=一场竞选 d\""
+  ],
+  [
+   "content56.py",
+   "\"result=结果 b\""
+  ],
+  [
+   "content56.py",
+   "\"call=宣布胜者 a\""
+  ],
+  [
+   "content56.py",
+   "\"change → is changing\""
+  ],
+  [
+   "content56.py",
+   "\"send → are sending\""
+  ],
+  [
+   "content56.py",
+   "\"wait → is waiting\""
+  ],
+  [
+   "content56.py",
+   "\"投票结束｜The polls have closed = 该州投票已结束，计票开始。\""
+  ],
+  [
+   "content56.py",
+   "p.band(\"DEEP READ · 时事深读\", \"The Lucerna\", \"LEVEL B2 · How America votes · 美国怎么投票\")"
+  ],
+  [
+   "content56.py",
+   "\"讲解｜to register 登记（选民登记） · a governor 州长 · to shape laws 影响立法 · patience 耐心。\""
+  ],
+  [
+   "content56.py",
+   "\"38% 选“不用排队”\""
+  ],
+  [
+   "content56.py",
+   "\"工作原因 29%\""
+  ],
+  [
+   "content56.py",
+   "\"四项合计 100%\""
+  ],
+  [
+   "content56.py",
+   "\"习惯最少 12%\""
+  ],
+  [
+   "content56.py",
+   "\"不用排队比旅行多 17 个百分点\""
+  ],
+  [
+   "content56.py",
+   "\"图表是教学数据非真实民调\""
+  ],
+  [
+   "content56.py",
+   "\"各州自行组织选举\""
+  ],
+  [
+   "content56.py",
+   "\"众议员任期两年\""
+  ],
+  [
+   "content56.py",
+   "\"参议员任期六年、每次约三分之一改选\""
+  ],
+  [
+   "content56.py",
+   "\"本期不印民调与预测\""
+  ],
+  [
+   "content56.py",
+   "\"耐心是制度的一部分\""
+  ],
+  [
+   "content56.py",
+   "\"shape = 影响、塑造\""
+  ],
+  [
+   "content56.py",
+   "\"register = 登记\""
+  ],
+  [
+   "content56.py",
+   "\"optional = 可选的\""
+  ],
+  [
+   "content56.py",
+   "\"private = 私密的\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜is = 是；日期作主语补足语。\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜happen 的过去式是 happened，规则变化。\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜would + 动词原形，表选择意愿。\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜that is = 那就是；破折号后总结。\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜part of = ……的一部分；not 表否定对照。\""
+  ],
+  [
+   "content7.py",
+   "\"语法点｜not every + 单数动词：并非每处都变。\""
+  ],
+  [
+   "content7.py",
+   "\"is 是\""
+  ],
+  [
+   "content7.py",
+   "\"would + 原形\""
+  ],
+  [
+   "content7.py",
+   "\"that is 那就是\""
+  ],
+  [
+   "content7.py",
+   "\"is part of 一部分\""
+  ],
+  [
+   "content7.py",
+   "\"going to 后用动词原形\""
+  ],
+  [
+   "content7.py",
+   "\"编辑说明｜VOL.1 曾承诺 VOL.2 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.1 写作投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.3 起刊登收到的真实来信。\""
+  ],
+  [
+   "content7.py",
+   "\"NEXT WEEK · VOL.3 下周预告\""
+  ],
+  [
+   "content7.py",
+   "\"下周三退伍军人节，周日 NFL 慕尼黑赛；还有中期选举结果报道。\""
+  ],
+  [
+   "content8.py",
+   "\"11 月 3 日是周二\""
+  ],
+  [
+   "content8.py",
+   "\"pizza 披萨\""
+  ],
+  [
+   "content8.py",
+   "\"map 地图逐州变色\""
+  ],
+  [
+   "content8.py",
+   "\"close 接近的\""
+  ],
+  [
+   "content8.py",
+   "\"sticker 贴纸\""
+  ],
+  [
+   "content8.py",
+   "\"we → get 原形\""
+  ],
+  [
+   "content8.py",
+   "\"已发生的事用 fell\""
+  ],
+  [
+   "content8.py",
+   "\"be going to + 原形 vote\""
+  ],
+  [
+   "content8.py",
+   "\"too close to call = 难分胜负\""
+  ],
+  [
+   "content8.py",
+   "\"原文：a teacher from Ohio\""
+  ],
+  [
+   "content8.py",
+   "\"周二他全天教书\""
+  ],
+  [
+   "content8.py",
+   "\"贴纸上写着 I VOTED\""
+  ],
+  [
+   "content8.py",
+   "\"俄亥俄一如既往难分胜负\""
+  ],
+  [
+   "content8.py",
+   "\"are going to + 原形\""
+  ],
+  [
+   "content8.py",
+   "\"tall → taller（比较级）\""
+  ],
+  [
+   "content8.py",
+   "\"11 月 3 日周二是美国的选举日。\""
+  ],
+  [
+   "content8.py",
+   "\"Election Day 选举日；on Tuesday\""
+  ],
+  [
+   "content8.py",
+   "\"翻译：Tuesday, November 3, is Election Day in the United States.\""
+  ],
+  [
+   "content8.py",
+   "\"这周日，NFL 在马德里比赛。\""
+  ],
+  [
+   "content8.py",
+   "\"on Sunday；in Madrid\""
+  ],
+  [
+   "content8.py",
+   "\"翻译：On Sunday, the NFL plays in Madrid.\""
+  ],
+  [
+   "content8.py",
+   "\"并非每处都拨回时钟。\""
+  ],
+  [
+   "content8.py",
+   "\"not every 并非每处；change 变化\""
+  ],
+  [
+   "content8.py",
+   "\"midterm = 中期选举 b\""
+  ],
+  [
+   "content8.py",
+   "\"governor = 州长 c\""
+  ],
+  [
+   "content8.py",
+   "\"ballot = 选票 d\""
+  ],
+  [
+   "content8.py",
+   "\"turnout = 投票率 a\""
+  ],
+  [
+   "content8.py",
+   "\"投票时出示证件 ID\""
+  ],
+  [
+   "content8.py",
+   "\"ballot = 选票\""
+  ],
+  [
+   "content8.py",
+   "\"sticker = 贴纸\""
+  ],
+  [
+   "content8.py",
+   "\"选举日是 11 月 3 日周二\""
+  ],
+  [
+   "content8.py",
+   "\"用英语写 80–100 词：我的 11 月 3 日周二。写清你是否看了结果、吃了什么、地图显示了什么，再写一句周日夜里拨回的时钟。\""
+  ],
+  [
+   "content12.py",
+   "\"Вторник — день выборов · В воскресенье часы перевели назад\""
+  ],
+  [
+   "content12.py",
+   "(все места в Палате представителей переизбираются)"
+  ],
+  [
+   "content12.py",
+   "\"Что ищут в США · Снимок Google Trends США\""
+  ],
+  [
+   "content12.py",
+   "\"Дополни предложения по-английски, глядя на время.\""
+  ],
+  [
+   "content34.py",
+   "\"AT HOME THIS WEEK · Что смотреть дома\""
+  ],
+  [
+   "content34.py",
+   "\"SUNDAY, NOVEMBER 8 · Воскресенье\""
+  ],
+  [
+   "content56.py",
+   "\"TOO CLOSE TO CALL · Равная борьба\""
+  ]
+ ],
+ "remaining": {
+  "content12.py": [
+   "11 月 11 日上午 11 点 · 两分钟默哀",
+   "11 月 11 日，你的国家做什么？写两句英语寄给编辑部。",
+   "11 月 = November",
+   "11 点 = eleven o",
+   "= a formal event（仪式）",
+   "= saying nothing（安静的）",
+   "= to keep in your mind（铭记）",
+   "= to show respect（致敬）",
+   "ELEVEN ELEVEN · 十一点十一分",
+   "LEVEL A2 · Silence, poppies & your week · 默哀、罂粟与你的一周",
+   "LIFE · 生活",
+   "NFL 慕尼黑赛 11 月 15 日周日",
+   "Nov 11, 11:00 — the silence（默哀） · 1918 — the armistice（停战）",
+   "Nov 13 — Children in Need + Ebenezer（周五） · Nov 15 — NFL Munich + ATP Finals（周日）",
+   "SAY IT : ELEVEN ELEVEN · 这样说时间",
+   "The silence, in three sentences · 三句话说默哀",
+   "WEEKLY IN ENGLISH · 每周一期 · 读英语世界正在谈的事",
+   "armistice = 停战协定",
+   "armistice=停战协定 b",
+   "ceremony=仪式 d",
+   "fall silent = 沉寂",
+   "poppy = 罂粟花",
+   "poppy=罂粟花 a",
+   "two minutes = 两分钟",
+   "veteran = 退伍军人",
+   "veteran=退伍军人 c",
+   "上午 11 点。",
+   "两分钟 = two minutes",
+   "两分钟默哀。",
+   "人们佩戴红罂粟花",
+   "停战 1918 年",
+   "停战年份 1918",
+   "我们会铭记他们。",
+   "排灯节主夜 11 月 8 日周日",
+   "本周英语世界热搜 · Google Trends 快照",
+   "根据日期与时间，用英语补全句子。",
+   "用 will + 动词改写（承诺与将要发生的事）。",
+   "疑问句：will 提前",
+   "纪念。Remembrance Day 阵亡将士纪念日。",
+   "纪念碑 1920 年揭幕",
+   "美国称退伍军人节",
+   "英 语 周 报 · VOL.3 · 纪 念 · 足 球 · 电 影",
+   "讲解｜a silence 默哀、寂静 · an armistice 停战协定 · a poppy 罂粟花 · a veteran 退伍军人。",
+   "讲解｜an armistice 停战协定 · a veteran 退伍军人 · to fall silent 沉寂。",
+   "退伍军人节 · 阵亡将士纪念日 · 详见第 2 版",
+   "默哀 11 月 11 日周三",
+   "默哀在上午 11 点开始",
+   "默哀日 11 月 11 日（周三）"
+  ],
+  "content34.py": [
+   "ATP 总决赛在都灵",
+   "COMING SOON · 即将上映",
+   "S NIGHT · 史高治之夜",
+   "SPORT · 体育",
+   "SUNDAY, NOVEMBER 15 · 周日赛程",
+   "WHY MUNICH ? · 为什么去慕尼黑？",
+   "finale=收官战 c",
+   "ghost = 鬼魂",
+   "ghost=鬼魂 c",
+   "group=小组 d",
+   "heist=抢劫案 d",
+   "host 三单 hosts",
+   "miser = 守财奴",
+   "miser=守财奴 b",
+   "star=明星球员 a",
+   "《Ebenezer》11 月 13 日周五上映",
+   "《饥饿游戏》新片 11 月 20 日上映",
+   "三个鬼魂一夜来访",
+   "八位 = eight",
+   "劫匪把犯罪发到网上",
+   "慕尼黑开球为当地时间下午 3:30",
+   "慕尼黑赛：爱国者对雄狮",
+   "故事写于 1843 年",
+   "用一般过去时改写（已经发生的事）。",
+   "第 10 周周一夜赛：闪电对乌鸦",
+   "约翰尼·德普饰演史高治",
+   "苏格兰对北马其顿",
+   "英格兰对克罗地亚 11 月 12 日周四",
+   "讲解｜a fixture 一场比赛（赛程） · a group 小组 · a finale 决赛、收官战 · a star 明星球员。",
+   "讲解｜a miser 守财奴 · a ghost 鬼魂 · a heist 抢劫案 · yet to come 尚未到来的。"
+  ],
+  "content56.py": [
+   "11 月 13 日也是世界善意日",
+   "2022 年众议院 8 天后才确定",
+   "2022 年参议院 4 天后才确定",
+   "26, IN NUMBERS · 数字 26",
+   "DEEP READ · 时事深读",
+   "LEVEL B1 · Pudsey, 26 & kindness · Pudsey、26 与善意",
+   "LEVEL B2 · After November 3 · 11 月 3 日之后",
+   "Pudsey 是黄色小熊",
+   "VOL.4 将报道核实后的结果",
+   "YOUTH · 青年",
+   "appeal=募捐呼吁 c",
+   "call a race = 宣布竞选结果",
+   "certify = 正式确认",
+   "challenge = 挑战",
+   "challenge=挑战 d",
+   "kind = 善良的",
+   "kindness=善意 a",
+   "live = 现场直播的",
+   "marathon=马拉松 b",
+   "official = 正式的",
+   "raise money = 筹款",
+   "take time = 花时间",
+   "众议院比参议院晚 4 天确定",
+   "决胜轮 12 月 1 日",
+   "募捐晚会 11 月 13 日周五",
+   "各州认证在 11 月 10 日至 12 月 18 日之间",
+   "图表是历史、不是对 2026 年的预测",
+   "挑战以数字 26 为灵感",
+   "晚会从索尔福德直播",
+   "本期 11 月 2 日付印、投票前",
+   "正式结果来自各州认证",
+   "每天两英里",
+   "每英里都有帮助｜Every mile helps = 每一步都算数。",
+   "讲解｜an appeal 募捐呼吁 · a challenge 挑战 · to raise money 筹款 · kindness 善意。",
+   "讲解｜to call a race 宣布竞选结果 · to certify 正式确认（认证） · a runoff 决胜轮选举 · patience 耐心。",
+   "读上面的历史图表，选出正确答案。",
+   "阿拉斯加与缅因用排序复选制",
+   "领先变化是正常的"
+  ],
+  "content7.py": [
+   "NEXT WEEK · VOL.4 下周预告",
+   "is 仍然是",
+   "of ……的",
+   "there were 过去式",
+   "will 后用动词原形",
+   "下期核实后的中期选举结果、11 月 21 日灰烬杯首战、11 月 20 日《饥饿游戏》新片；还有你的真实来信。",
+   "编辑说明｜VOL.2 曾承诺 VOL.3 刊登真实来信，但截至发稿编辑部未收到真实来信与 VOL.2 写作投稿，故本期如实说明、不虚构来信；请把你的来信与写作寄来，VOL.4 起刊登收到的真实来信。",
+   "语法点｜fall 的过去式是 fell。",
+   "语法点｜happen 三单加 s。",
+   "语法点｜is = 是；still 表仍然。",
+   "语法点｜nobody 后用单数动词。",
+   "语法点｜of = ……的；part of = ……的一部分。",
+   "语法点｜there were = 过去式“有”。"
+  ],
+  "content8.py": [
+   "11 月 11 日周三上午 11 点，英国默哀两分钟。",
+   "11 月 11 日是周三",
+   "11 点 = eleven o",
+   "Pudsey 一如既往是黄色的",
+   "Pudsey 黄色小熊",
+   "anthem = 国歌、颂歌",
+   "armistice=停战协定 c",
+   "be going to + 原形 watch",
+   "big → bigger（比较级）",
+   "challenge yourself = 接受挑战",
+   "eleven 十一",
+   "miser=守财奴 d",
+   "not every 并非每个；call 称呼",
+   "poppy 罂粟花",
+   "runoff=决胜轮 a",
+   "scarf = 围巾",
+   "silence 默哀、寂静",
+   "silence=默哀 b",
+   "ticket = 票",
+   "we → wear 原形",
+   "will + 原形",
+   "全校默哀两分钟",
+   "原文：a teacher from Manchester",
+   "已发生的事用 wrote",
+   "并非每个国家都叫它同一个名字。",
+   "比赛是 11 月 15 日周日",
+   "班级烤了 26 个蛋糕",
+   "用英语写 80–100 词：我的 11 月 11 日周三。写清你是否在 11 点静立、佩戴了什么、周五看了什么，再写一句周日在慕尼黑的比赛。",
+   "翻译：At 11 a.m. on Wednesday, November 11, Britain holds two minutes of silence.",
+   "翻译：On Sunday, the NFL plays in Munich.",
+   "这周日，NFL 在慕尼黑比赛。"
+  ],
+  "bslib4.py": [
+   "The Lucerna · 英语周报 VOL.3 · LUCERNA ENGLISH WEEKLY"
+  ]
+ }
+}

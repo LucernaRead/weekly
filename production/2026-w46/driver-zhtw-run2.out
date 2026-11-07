@@ -1,0 +1,17 @@
+2026-11-04 22:46:39 UTC START bundle zh-tw (one commit for the whole native set)
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-es: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-it: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-pt: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-nl: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ru: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ja: already in repo
+2026-11-04 22:46:39 UTC   |   skip 2026-w46-zh-tw-ko: already in repo
+2026-11-04 22:46:39 UTC   | bundle zh-tw: all 10 editions already in repo — nothing to do
+2026-11-04 22:46:41 UTC BUNDLE-STATE: insert.py reported success but remote != local (local=389c9442 remote=2724946b) — falling back only after state check
+2026-11-04 22:46:41 UTC BUNDLE-STATE: unpushed bundle commit 389c9442 (push too big / tunnel) — resetting to remote 2724946b and falling back to one-by-one inserts
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-en: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-de: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-fr: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-es: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC SKIP 2026-w46-zh-tw-it: already fully present in repo, verified (md+pdf+text.md+index)
+2026-11-04 22:46:42 UTC START 2026-w46-zh-tw-pt dir=weekly-report-w46-zh-tw-pt sibling (fallback one-by-one)

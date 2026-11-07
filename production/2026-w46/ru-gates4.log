@@ -1,0 +1,42 @@
+8 pages from ../files/weekly-report-w46-ru-en/svg
+150 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 28732 bytes
+  font LucernaNotoSansCJKSC-Bold: 29180 bytes
+  font LucernaNotoSerifCJKSC-Regular: 34992 bytes
+  font LucernaNotoSerifCJKSC-Bold: 36216 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29392 bytes
+WROTE ../files/weekly-report-w46-ru-en/Lucerna-VOL3-EN-web.pdf: 2310354 bytes, 54698 text bytes
+webpdf exit=0
+print=15001216 web=2310354 identical=YES webtext=54698
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ru-en/svg: 0 flags 
+occlusion exit=0
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Эта неделя в России — обычная
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] В среду, 11 ноября, — день распродажи 11.11: пик скидок
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Это профессиональный праздник: выходного в этот день нет, по
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие: в Москве солнце садится око
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После этого тура — пауза: следующий, 15-й тур, будет только 
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Посылку надо отследить, получить и проверить
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году, и именно они задают ритм
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 10028
+orphan line-starts: []
+same-baseline collisions: [] total 0
+check_core exit=0
+core    ../files/weekly-report-w46-ru-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-ru-en/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 exit=0
+p1: +24 strings / -24 strings; CJK core 131 -> edition 0; added CJK chars: 0 
+p2: +36 strings / -32 strings; CJK core 186 -> edition 0; added CJK chars: 0 
+p3: +25 strings / -22 strings; CJK core 134 -> edition 0; added CJK chars: 0 
+p4: +26 strings / -22 strings; CJK core 133 -> edition 0; added CJK chars: 0 
+p5: +24 strings / -22 strings; CJK core 116 -> edition 0; added CJK chars: 0 
+p6: +32 strings / -30 strings; CJK core 149 -> edition 0; added CJK chars: 0 
+p7: +40 strings / -38 strings; CJK core 324 -> edition 0; added CJK chars: 0 
+p8: +168 strings / -160 strings; CJK core 883 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0

@@ -1,0 +1,366 @@
+=== build ja ===
+   1  'p.text(975, 372, "EL PERIÓDICO SEMANAL PARA APRENDER — LA VI' -> 'p.text(975, 372, "スペイン語テキスト · 日本語の解説 — 日本語読者のための版", 19.5, "s'
+   1  '讲解｜la huelga general 大罢工 · la campaña electoral 竞选活动 · el vo' -> 'la huelga general＝ゼネスト · la campaña electoral＝選挙戦 · el voto '
+   1  'la fase de grupos 小组赛 · el seleccionador 国家队主教练 · la lista 征' -> 'la fase de grupos＝グループリーグ · el seleccionador＝代表監督 · la lista'
+   1  'la huelga 罢工 · el sindicato 工会 · el salario 工资 · el alquiler' -> 'la huelga＝ストライキ · el sindicato＝労働組合 · el salario＝給料 · el alq'
+   1  '24 — horas dura la huelga general del miércoles 11 de noviem' -> '24 — horas dura la huelga general del miércoles 11 de noviem'
+   1  'af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16' -> 'af.para(f"— {pg} ページ —", 14, "sans", True, OLIVE, lh=1.16, g'
+   1  'el sobre 信封 · la papeleta 选票 · el censo 选民名册 · la jornada de' -> 'el sobre＝封筒 · la papeleta＝投票用紙 · el censo＝選挙人名簿 · la jornada'
+   1  '20 — días faltan el lunes 9 para las elecciones del domingo ' -> '20 — días faltan el lunes 9 para las elecciones del domingo '
+   1  'la capa 斗篷 · el mendigo 乞丐 · el veranillo 小阳春 · la gaita 风笛 ' -> 'la capa＝マント · el mendigo＝物乞い · el veranillo＝小春日和 · la gaita＝'
+   1  '91,4 — % que pide más vivienda pública, según el CIS de octu' -> '91,4 — % que pide más vivienda pública, según el CIS de octu'
+   1  'p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS · 常见错误", 23, "san' -> 'p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS · よくある間違い", 23, "'
+   1  '    if cur.strip():\n        lines.append(cur.rstrip())\n    r' -> '    if cur.strip():\n        lines.append(cur.rstrip())\n    #'
+   1  'INK = "#28251d"; OLIVE = "#3e4c2a"; GOLD = "#b3a06a"; PAPER ' -> '# Seam slack of the 4-column grid (pitch 462 = column width '
+   1  'NIVEL B1 · Praga el jueves, Inglaterra el domingo · 周四布拉格，周日' -> 'NIVEL B1 · Praga el jueves, Inglaterra el domingo · 木曜はプラハ、日'
+   1  '编辑部说明：截至本期截稿，未收到真实读者来信与第 8 版最佳作文，故本期登载编辑部示例信，承诺顺延至 VOL.4。欢迎来' -> '編集部：本物の手紙も最優秀作文も届かなかったため、見本の手紙を掲載します。約束はVOL.4へ。手紙をお待ちしています。'
+   1  'NIVEL A2 · El miércoles 11, huelga general · 11 月 11 日周三大罢工' -> 'NIVEL A2 · El miércoles 11, huelga general · 11月11日（水）ゼネスト'
+   2  '11 月 11 日周三你做什么：罢工、上班还是待在家里？你最担心什么：工资、住房还是物价？写两句西班牙语寄给编辑部。' -> '11月11日（水）、あなたは何をしますか。ストに参加しますか、働きますか、家にいますか。一番心配なのは何ですか。給料、住'
+   1  '第 8 版 · La gran prueba de la semana + todas las respuestas' -> '8ページ · La gran prueba de la semana + todas las respuestas'
+   1  '比较级 más…que、tan…como；bueno→mejor、malo→peor；绝不说 más mejor。' -> '比較級は más…que、tan…como。bueno→mejor、malo→peor。más mejor とは絶対に言'
+   1  'A2 → B1 · San Martín, castañas y vino nuevo · 圣马丁节、栗子与新酒' -> 'A2 → B1 · San Martín, castañas y vino nuevo · 聖マルティン、栗と新酒'
+   1  '用方框里的词填空：sondeo · muestra · indecisos · margen de error' -> '枠の中の言葉で補おう：sondeo · muestra · indecisos · margen de error'
+   1  '西 班 牙 语 周 报 · VOL.3 · LA HUELGA · LA CAMPAÑA · LA ROJA' -> 'ス ペ イ ン 語 週 刊 · VOL.3 · LA HUELGA · LA CAMPAÑA · LA ROJA'
+   1  'lunes 9 – domingo 15 de noviembre · 11 月 9 日周一至 15 日周日' -> 'lunes 9 – domingo 15 de noviembre · 11月9日（月）から15日（日）まで'
+   1  '日期格式：el miércoles 11 de noviembre；星期、月份小写；1 号说 el uno。' -> '日付の形：el miércoles 11 de noviembre。曜日と月は小文字。1日は el uno と言う。'
+   1  '    def bridge(self, s, size=20.5, gap=9, fill=GREY):' -> '    def expl(self, s, size=20.5, gap=9, fill=GREY):'
+   1  'es necesario que、para que、ojalá 后用虚拟式；creo que 后用陈述式。' -> 'es necesario que、para que、ojalá の後は接続法。creo que の後は直説法。'
+   1  '"La Lucerna · 西班牙语周报 VOL.3 · LUCERNA SPANISH WEEKLY"' -> '"La Lucerna · スペイン語週刊 VOL.3 · 本文はスペイン語 · 解説は日本語"'
+   2  'huelga general = 大罢工：全体劳动者同一天停工。本期就是罢工周；竞选 13 日周五开始。' -> 'huelga general = ゼネスト：みんなが同じ日に仕事を止める。'
+   1  '语言聚焦 · Tres niveles, tres herramientas · 三个级别，三件工具' -> 'ことば特集 · Tres niveles, tres herramientas · 三つのレベル、三つの道具'
+   1  'NIVEL B2 · La vivienda decide la campaña · 住房决定选战' -> 'NIVEL B2 · La vivienda decide la campaña · 住宅が選挙戦を決める'
+   1  'CADA SEMANA EN ESPAÑOL · 每周一期 · 读西班牙人正在读的西班牙语' -> 'CADA SEMANA EN ESPAÑOL · 毎週一号 · スペイン人が読んでいるスペイン語を読む'
+   2  '周日 20:45 你看哪一场？A3 小组谁第一：西班牙还是英格兰？写两句西班牙语寄来。' -> '日曜20:45、どの試合を見ますか。A3組の1位はスペインとイングランドのどちらでしょう。スペイン語で2文書いて送ってく'
+   1  'LA LIGA DE NACIONES · GRUPO A3 · 欧国联 A3 组赛程' -> 'LA LIGA DE NACIONES · GRUPO A3 · ネーションズリーグA3組の日程'
+   2  '你会邮寄投票还是亲自去投票？这周你看什么：《Infamia》还是足球？写两句寄来。' -> '郵便投票にしますか、直接行きますか。今週は何を見ますか。『Infamia』ですか、サッカーですか。2文書いて送ってくださ'
+   1  '11 月 15 日周日，国家队在大都会球场 20:45 对英格兰，收官小组赛。' -> '11月15日（日）、代表はメトロポリターノで20:45からイングランドと対戦し、グループリーグを締めくくる。'
+   1  'f.box("EL PLAN DE LA SEMANA · 本周计划", [' -> 'f.box("EL PLAN DE LA SEMANA · 今週の計画", tsize=20, paras=['
+   1  'FRASES DE LA SEMANA · 本周金句（逐字摘自本期文章）' -> 'FRASES DE LA SEMANA · 今週の文（今号の記事から一字一句そのまま）'
+   1  'la huelga dura 24 horas = 罢工持续 24 小时' -> 'la huelga dura 24 horas = ストは24時間続く'
+   1  '（ejemplo, escrito por la redacción）' -> '（ejemplo, escrito por la redacción）'
+   1  '现任世界冠军和欧洲冠军西班牙，与克罗地亚、英格兰和捷克同在 A3 组。' -> '現世界王者で欧州王者のスペインは、クロアチア、イングランド、チェコと同じA3組。'
+   1  '圣马丁餐有 fabada、casadiellas 和 panchón' -> '聖マルティンの食事にはファバーダ、カサディエジャス、パンチョンがある'
+   1  'NIVEL B1 · Votar desde casa · 在家投票' -> 'NIVEL B1 · Votar desde casa · 家で投票する'
+   1  'RESPUESTAS · 参考答案 — 按版面分页排列，找到题号即可' -> 'RESPUESTAS · 全解答と解説（1–8ページ）'
+   1  'if f.getname()[0].endswith("SC"):' -> 'if f.getname()[0].endswith("JP"):'
+   1  '11 月 11 日周三全西班牙大罢工：工会召集的 24 小时停工。' -> '11月11日（水）、スペイン全土でゼネスト。労働組合が呼びかけた24時間のストライキ。'
+   1  '本周五大看点 · Para entender la semana' -> '五大見どころ · Para entender la semana'
+   1  'el miércoles 11 de noviembre 大罢工' -> 'el miércoles 11 de noviembre：ゼネスト'
+   1  'LA PRÓXIMA SEMANA · 下期预告 (VOL.4)' -> 'LA PRÓXIMA SEMANA · 次号予告 (VOL.4)'
+   1  'Humanitarios 节在 Moreda de Aller' -> 'ウマニタリオス祭はモレダ・デ・アジェールで開かれる'
+   1  '把句子改成过去时（pretérito indefinido）。' -> '文を過去形（pretérito indefinido）に直そう。'
+   1  'EJERCICIOS Y RESPUESTAS · 练习与答案' -> 'EJERCICIOS Y RESPUESTAS · 練習と答え'
+   1  'Infamia 改编自 Ledicia Costas 的小说' -> '『Infamia』はレディシア・コスタスの小説が原作'
+   1  'recibir a Inglaterra = 主场迎战英格兰' -> 'recibir a Inglaterra = イングランドをホームに迎える'
+   1  'LOS DÍAS DE LA SEMANA · 这样说日期' -> 'LOS DÍAS DE LA SEMANA · 日付の言い方'
+   1  'Humanitarios 节在阿斯图里亚斯，不在加利西亚' -> 'ウマニタリオス祭はアストゥリアス州で、ガリシア州ではない'
+   1  'LA SEMANA EN CIFRAS · 数字看本周' -> 'LA SEMANA EN CIFRAS · 今週の数字'
+   1  'veranillo de San Martín 小阳春' -> 'veranillo de San Martín = 聖マルティンの小春日和'
+   1  'muchísimos aficionados 球迷很多' -> 'muchísimos aficionados = ものすごく多くのファン'
+   1  'documento de identidad 身份证件' -> 'documento de identidad = 身分証明書'
+   1  '本报只刊登 CIS 住房晴雨表这一组数据并注明来源日期' -> '本紙はCIS住宅調査のデータだけを出典と日付つきで載せる'
+   1  'es importante que + 虚拟式 sea' -> 'es importante que + 接続法：sea'
+   1  'es necesario que + 虚拟式 baje' -> 'es necesario que + 接続法：baje'
+   1  '传说罗马士兵马丁用剑把斗篷分成两半，盖住快冻死的乞丐。' -> '言い伝えでは、ローマ兵マルティンは剣でマントを二つに切り、凍え死にそうな物乞いを覆った。'
+   2  '你吃过烤栗子吗？你的国家有“小阳春”吗？写两句寄来。' -> '焼き栗を食べたことがありますか。あなたの国にも「小春日和」のような言葉がありますか。2文書いて送ってください。'
+   1  'es posible que + 虚拟式 tenga' -> 'es posible que + 接続法：tenga'
+   1  '周三 11 日有大罢工，周五 13 日零点竞选开始。' -> '水曜11日にゼネストがあり、金曜13日の0時に選挙戦が始まる。'
+   6  'weekly-report-w46-es-core' -> 'weekly-report-w46-es-ja'
+   5  '答案见第 8 版 · 题目可跨级混排，按题号找答案' -> '答えは8ページ · レベル混合の問題もあります。番号で探してください'
+   1  'más + importante（小组第一更重要）' -> 'más + importante（組1位のほうが大事）'
+   1  '用 ir a + 原形动词改写句子，表示“将要”。' -> 'ir a + 不定詞で文を書きかえよう（近い未来）。'
+   1  'bueno 的比较级是 mejor（不用 más）' -> 'bueno の比較級は mejor（más は不要）'
+   1  'empieza la campaña = 竞选开始' -> 'empieza la campaña = 選挙戦が始まる'
+   1  '周五 13 日竞选开始 · 周三 11 日大罢工' -> '29-Nまであと20日 · 住宅が選挙戦を決める'
+   1  'jornada de reflexión 静默日' -> 'jornada de reflexión = 投票前日（静粛日）'
+   1  'visita a Chequia = 客场对捷克' -> 'visita a Chequia = チェコへの遠征'
+   1  'La-Lucerna-VOL3-web.pdf' -> 'La-Lucerna-VOL3-JA-web.pdf'
+   1  '“大罢工”：全体劳动者同一天停工 24 小时。' -> '「huelga general」：みんなが一日休む。'
+   1  'puya del ramu 是拍卖祝福过的面包' -> 'puya del ramu は祝福されたパンの競売'
+   1  '用括号里词的比较级或 -ísimo 形式填空。' -> 'かっこ内の言葉の比較級か -ísimo 形で補おう。'
+   1  'tres habitaciones = 三居室' -> 'tres habitaciones = 3部屋'
+   1  'junta electoral=选举委员会 a' -> 'junta electoral=選挙管理委員会 a'
+   1  'EN ESTA EDICIÓN · 本期目录' -> 'EN ESTA EDICIÓN · 今号の目次'
+   1  'margen de error = 误差范围' -> 'margen de error = 誤差の範囲'
+   1  'tan + alta + como（同样高）' -> 'tan + alta + como（同じくらい高い）'
+   1  '写作题（无唯一答案）；范文（84 词）见下。' -> '作文問題（答えは一つではない）。模範文（84語）は下。'
+   1  'a las cero horas = 在零点' -> 'a las cero horas = 0時に'
+   1  'margen de error=误差范围 b' -> 'margen de error=誤差の範囲 b'
+   1  '第 {n} 版 / 共 {total} 版' -> '{n} ページ（全 {total} ページ）'
+   1  'QUIZ RELÁMPAGO · 闪电问答' -> 'QUIZ RELÁMPAGO · クイズ'
+   1  '读头版，选出正确答案 · 答案见第 8 版' -> 'トップ記事を読んで、正しい答えを選ぼう · 答えは8ページ'
+   1  '（周五：竞选开始；《Infamia》上线）' -> '（金曜：選挙戦開始。『Infamia』配信開始）'
+   1  'muestra = 样本（6.019 人）' -> 'muestra = 標本（6,019人）'
+   1  'mejor 本身就是比较级，不加 más。' -> 'mejor 自体が比較級。más は不要。'
+   1  'creo que 表肯定，用陈述式 es。' -> 'creo que は断定。直説法の es。'
+   1  '一次民调就是一张带误差的照片，拍于某一天。' -> '世論調査は誤差のある写真で、ある一日に撮られたもの。'
+   1  'CIS 住房晴雨表：担心住房者 86,9%' -> 'CIS住宅調査：住宅を心配する人は86.9%'
+   1  '每题附一句中文简析 · 带 ✓ 的为范文题' -> '各問に日本語の解説つき · ✓ は模範文のある問題'
+   1  'EL CALENDARIO · 本周日历' -> 'EL CALENDARIO · 今週の予定'
+   1  '（周一国家队集结；邮寄选票材料开始寄出）' -> '（月曜：代表合宿開始。郵便投票の書類が届き始める）'
+   1  'EJERCICIOS · 第 2 版练习' -> 'EJERCICIOS · 2ページの練習'
+   1  'EJERCICIOS · 第 3 版练习' -> 'EJERCICIOS · 3ページの練習'
+   1  'EJERCICIOS · 第 4 版练习' -> 'EJERCICIOS · 4ページの練習'
+   1  'fase de grupos=小组赛 b' -> 'fase de grupos=グループリーグ b'
+   1  'EJERCICIOS · 第 5 版练习' -> 'EJERCICIOS · 5ページの練習'
+   1  'EJERCICIOS · 第 6 版练习' -> 'EJERCICIOS · 6ページの練習'
+   1  'gente 是单数集合名词，动词用单数。' -> 'gente は単数の集合名詞。動詞も単数。'
+   1  'llegar a casa = 送到家里' -> 'llegar a casa = 家に届く'
+   1  '"Noto Serif CJK SC"' -> '"Noto Serif CJK JP"'
+   1  'La-Lucerna-VOL3.pdf' -> 'La-Lucerna-VOL3-JA.pdf'
+   1  'castañas asadas 烤栗子' -> 'castañas asadas = 焼き栗'
+   1  '圣马丁节之后大选在 11 月 29 日' -> '聖マルティンの日の後、総選挙は11月29日'
+   1  '周日比赛在 Metropolitano' -> '日曜の試合はメトロポリターノ'
+   1  'seleccionador=主教练 c' -> 'seleccionador=代表監督 c'
+   1  '用方框里的词填空。注意：有的词要变位。' -> '枠の中の言葉で空所を補おう。注意：活用が必要な言葉もある。'
+   1  '调查 6.019 人次，误差 ±1,3' -> '調査は6,019人、誤差は±1.3'
+   1  'domingo 是单数，动词用 es。' -> 'domingo は単数。動詞は es。'
+   1  '¿cuánto cuesta? 多少钱' -> '¿cuánto cuesta? = いくらですか'
+   1  '"Noto Sans CJK SC"' -> '"Noto Sans CJK JP"'
+   1  '五大看点，不编数字：全在本期里讲清。' -> '五つのポイント。数字のねつ造なし。'
+   1  '西班牙–英格兰周日 20:45 开球' -> 'スペイン対イングランド、日曜20:45キックオフ'
+   1  '10 月 2 日议会否决两项住房法令' -> '10月2日、議会は住宅関連の政令2件を否決した'
+   1  'para que + 虚拟式（目的）' -> 'para que + 接続法（目的）'
+   1  'Aunque 后接陈述式（已知事实）' -> 'Aunque + 直説法（知っている事実）'
+   1  'para que + 虚拟式 sea' -> 'para que + 接続法：sea'
+   1  '投票不必去投票站：邮寄选票送到家里。' -> '投票所へ行く必要はない。郵便投票が家に届く。'
+   1  '住房让 86.9% 的西班牙人担心。' -> '住宅はスペイン人の86.9%を悩ませている。'
+   1  '圣马丁节在 11 月 11 日周三' -> '聖マルティンの日は11月11日（水）'
+   1  'bueno 的比较级是 mejor' -> 'bueno の比較級は mejor'
+   1  '投票站 9:00–20:00 开放' -> '投票所は9:00から20:00まで開いている'
+   1  'enviar 变位 → envío' -> 'enviar の活用 → envío'
+   1  '邮寄投票可在 Correos 申请' -> '郵便投票は Correos で申請する'
+   1  '10 月 5 日解散议会并召集大选' -> '10月5日、サンチェス首相は国会を解散し総選挙を公示した'
+   1  'creo que + 陈述式 es' -> 'creo que + 直説法：es'
+   1  'LA PALABRA · 本周生词' -> 'LA PALABRA · 今週の単語'
+   1  '每个图表都必须标明来源。→ ___' -> 'すべてのグラフに出典を明記しなければならない。→ ___'
+   1  '本期头条 · 详见第 2、6 版' -> '今号のトップ · 詳しくは2・6ページ'
+   1  '读第 2 版文章，选出正确答案。' -> '2ページの記事を読んで、正しい答えを選ぼう。'
+   1  '竞选 11 月 13 日周五开始' -> '選挙戦は11月13日（金）に始まる'
+   3  '大罢工在 11 月 11 日周三' -> 'ゼネストは11月11日（水）'
+   1  '小阳春是秋中暖和的几天，不是夏天' -> '小春日和は秋の暖かい数日で、夏ではない'
+   1  '读第 4 版文章，选出正确答案。' -> '4ページの記事を読んで、正しい答えを選ぼう。'
+   1  '读第 5 版文章，选出正确答案。' -> '5ページの記事を読んで、正しい答えを選ぼう。'
+   1  '静默日是周六 28 日，不是周日' -> '静粛日は土曜28日で、日曜ではない'
+   1  'indecisos = 未决定者' -> 'indecisos = 未定の人'
+   1  'más + cara（房价更高）' -> 'más + cara（もっと高い家賃）'
+   1  'ojalá + 虚拟式：baje' -> 'ojalá + 接続法：baje'
+   1  'LA NOTICIA · 头条' -> 'LA NOTICIA · トップ記事'
+   1  'AHORA TÚ · 即学即练' -> 'AHORA TÚ · すぐ練習'
+   1  '（周日欧国联：西班牙对英格兰）' -> '（日曜：ネーションズリーグ、スペイン対イングランド）'
+   1  '大选在 11 月 29 日周日' -> '総選挙は11月29日（日）'
+   1  '西班牙–英格兰周日 20:45' -> 'スペイン対イングランド、日曜20:45'
+   1  'malo 的比较级是 peor' -> 'malo の比較級は peor'
+   1  'ir 的过去时是 fueron' -> 'ir の過去形は fueron'
+   1  '（周一：邮寄选票材料开始寄出）' -> '（月曜：郵便投票の書類が届き始める）'
+   1  '材料从 11 月 9 日起寄出' -> '書類は11月9日から届く'
+   1  'más mejor 是错误说法' -> 'más mejor は誤り'
+   1  '范文见本版 H 区（84 词）' -> '模範文はこのページのH区（84語）'
+   1  'la lista = 征召名单' -> 'la lista = 招集リスト'
+   1  'veranillo = 小阳春' -> 'veranillo = 小春日和'
+   3  'instr="把词和释义配对"' -> 'instr="語と意味を結ぶ"'
+  18  'size=19, gap=3' -> 'size=18.5, gap=2'
+   1  '（周四欧国联：捷克对西班牙）' -> '（木曜：ネーションズリーグ、チェコ対スペイン）'
+   4  '¿Y TÚ? · 说说你自己' -> '¿Y TÚ? · あなたは？'
+   2  '邮寄投票须在 19 日前申请' -> '郵便投票は19日までに申請する'
+   3  '竞选 11 月 13 日开始' -> '選挙戦は11月13日に始まる'
+   1  '每月 1 号说 el uno' -> '1日は el uno と言う'
+   1  'sindicato=工会 b' -> 'sindicato=労働組合 b'
+   1  '读第 3 版文章，判断对错。' -> '3ページの記事を読んで、正しいか間違いか判断しよう。'
+   1  '马丁分开自己的斗篷 capa' -> 'マルティンは自分のマント（capa）を分けた'
+   1  'amistoso=友谊赛 a' -> 'amistoso=親善試合 a'
+   1  'correo = 邮局/邮寄' -> 'correo = 郵便局／郵便の'
+   1  '看上面两张图，选出正确答案。' -> '上の2つのグラフを見て、正しい答えを選ぼう。'
+   1  '减税支持率最高（95,4%）' -> '減税の支持が最も高い（95.4%）'
+   1  '民调是带误差的具体某天的照片' -> '世論調査は誤差のある写真で、ある一日に撮られたもの'
+   1  '月份小写：noviembre' -> '月は小文字：noviembre'
+   1  '圣马丁节 11 月 11 日' -> '聖マルティンの日、11月11日'
+   1  '西班牙–英格兰与罢工都在本周' -> 'スペイン対イングランドもストも今週'
+   1  'Pablo 周日去大都会球场' -> 'パブロは日曜にメトロポリターノへ行く'
+   1  '邮寄选票送到家里。→ ___' -> '郵便投票が家に届く。→ ___'
+   1  'tener que = 必须' -> 'tener que = 〜しなければならない'
+   1  'firmar = 签（合同）' -> 'firmar = 署名する（契約書に）'
+   1  '（周六联邦杯决赛在塞斯陶）' -> '（土曜：セスタオで連盟杯決勝）'
+   1  '用正确的日期形式补全句子。' -> '正しい日付の形で文を完成させよう。'
+   3  '大选在 11 月 29 日' -> '総選挙は11月29日'
+   1  '罢工口号是工资、住房、物价' -> 'ストのスローガンは給料・住まい・物価'
+   1  'alquiler=租金 d' -> 'alquiler=家賃 d'
+   1  'JUVENTUD · 青年' -> 'JUVENTUD · 若者'
+   1  '（周三：24 小时大罢工）' -> '（水曜：24時間のゼネスト）'
+   1  'Infamia 有 6 集' -> '『Infamia』は全6話'
+   1  'papeleta = 选票' -> 'papeleta = 投票用紙'
+   1  '更多公屋支持率 91,4%' -> '公営住宅を増やすことへの支持は91.4%'
+   1  'el sobre = 信封' -> 'el sobre = 封筒'
+   1  '罢工口号：工资、住房、物价' -> 'ストのスローガン：給料・住まい・物価'
+   1  '周日我们看西班牙–英格兰。' -> '日曜、私たちはスペイン対イングランドを見る。'
+   1  'alquiler = 租金' -> 'alquiler = 家賃'
+   1  '（周二罢工前最后准备日）' -> '（火曜：スト前日の最終準備）'
+   1  '（周三大罢工；圣马丁节）' -> '（水曜：ゼネスト。聖マルティンの祝日）'
+   1  '（周五零点竞选正式开始）' -> '（金曜：午前0時に選挙戦が始まる）'
+   1  'salario=工资 a' -> 'salario=給料 a'
+   1  'mendigo = 乞丐' -> 'mendigo = 物乞い'
+   1  '小阳春是秋中几天暖和天气' -> '小春日和は秋の数日間の暖かい天気'
+   1  'DEPORTE · 体育' -> 'DEPORTE · スポーツ'
+   1  '周四对捷克，周日对英格兰' -> '木曜はチェコ戦、日曜はイングランド戦'
+   1  '两场比赛都是 20:45' -> '2試合とも20:45開始'
+   1  '（周四晚：捷克对西班牙）' -> '（木曜夜：チェコ対スペイン）'
+   1  '（周日：西班牙对英格兰）' -> '（日曜：スペイン対イングランド）'
+   1  'censo = 选民名册' -> 'censo = 選挙人名簿'
+   1  'A FONDO · 深读' -> 'A FONDO · 深掘り'
+   1  'magosto 吃烤栗子' -> 'マゴストでは焼き栗を食べる'
+   1  '主语 + 动词 + 地点' -> '主語 + 動詞 + 場所'
+   1  'mudanza = 搬家' -> 'mudanza = 引っ越し'
+   1  'muestra=样本 d' -> 'muestra=標本 d'
+   1  'BREVES · 快讯' -> 'BREVES · 短報'
+   1  '补全动词的现在时形式。' -> '動詞を現在形で補おう。'
+   1  '大罢工持续 24 小时' -> 'ゼネストは24時間'
+   1  '11 月 11 日周三' -> '11月11日（水）'
+   1  '11 月 15 日周日' -> '11月15日（日）'
+   1  'huelga=罢工 c' -> 'huelga=ストライキ c'
+   1  '担心住房者 86,9%' -> '住宅を心配する人は86.9%'
+   1  'sondeo = 民调' -> 'sondeo = 世論調査'
+   1  'LENGUA · 语言' -> 'LENGUA · ことば'
+   1  '周日上演西班牙–英格兰' -> '日曜はスペイン対イングランド'
+   1  'sondeo=民调 c' -> 'sondeo=世論調査 c'
+   1  '罢工日有最低服务保障' -> 'ストの日も最低限のサービスはある'
+   1  'gaita = 风笛' -> 'gaita = バグパイプ'
+   1  '把词组成正确的句子。' -> '言葉を並べて正しい文を作ろう。'
+   1  'lista=名单 d' -> 'lista=招集リスト d'
+   1  '（开放题，范文如下）' -> '（自由な問題。模範文は下）'
+   1  '周三全西班牙大罢工。' -> '水曜、スペイン全土でゼネスト。'
+  42  'instr="填空"' -> 'instr="空所補充"'
+   8  'instr="判断"' -> 'instr="正誤"'
+   7  'instr="造句"' -> 'instr="文を作る"'
+  10  'instr="改写"' -> 'instr="書きかえ"'
+   4  'instr="翻译"' -> 'instr="翻訳"'
+   1  'instr="写作"' -> 'instr="作文"'
+   1  'VIDA · 生活' -> 'VIDA · 暮らし'
+   1  '竞选持续 15 天' -> '選挙戦は15日間'
+   1  '罢工后两天竞选开始' -> 'ストの2日後に選挙戦が始まる'
+   1  '马丁把斗篷分给乞丐' -> 'マルティンはマントを物乞いと分けた'
+   1  '时间在前，动词第二' -> '時間が先、動詞は2番目'
+   1  '地点在前，动词第二' -> '場所が先、動詞は2番目'
+   1  '用方框里的词填空。' -> '枠の中の言葉で空所を補おう。'
+   1  '西班牙在 A3 组' -> 'スペインはA3組'
+   1  'U21 周五对日本' -> 'U21は金曜に日本と対戦'
+   1  '静默日没有宣传活动' -> '静粛日には宣伝活動をしない'
+   1  '两人都读纲领再投票' -> '2人とも綱領を読んでから投票する'
+  20  '.bridge(' -> '.expl('
+   1  '间接疑问用 si' -> '間接疑問文には si'
+   1  'Ana 周三上班' -> 'アナは水曜に働く'
+   1  '标题概括两地对比' -> '見出しは2つの場所の対比をまとめる'
+   1  '== "写作"' -> '== "作文"'
+   1  '选出正确答案。' -> '正しい答えを選ぼう。'
+   1  '15 日是周日' -> '15日は日曜日'
+  48  '"完成句子"' -> '"文の完成"'
+   3  '"词汇配对"' -> '"単語のペア"'
+   8  '"判断对错"' -> '"正誤判断"'
+  10  '"句型转换"' -> '"文の書き換え"'
+  13  '"完形单选"' -> '"穴埋め選択"'
+   1  '疑问词在句首' -> '疑問詞は文頭に'
+   1  '动词第二位' -> '動詞は2番目'
+  47  '"单选"' -> '"選択問題"'
+   7  '"造句"' -> '"文を作る"'
+   4  '"翻译"' -> '"翻訳"'
+   1  '"写作"' -> '"作文"'
+   1  '月份小写' -> '月は小文字で書く'
+   1  '时间在前' -> '時間が先'
+   2  '对照原文' -> '原文と比べよう。'
+   1  '译注｜' -> '解説 — '
+bslib4.py CJK distinct: 16 はイジスペンー全刊文日本解語説週
+content12.py CJK distinct: 216 、。「」あいうえおかがきくぐこさしすせただつてでとどなにねのはぶへぼまみむめもよらりるろをんアィイェオガキクグコサシジスズセゼタチッテトドネビフプベペポマョラリ
+content34.py CJK distinct: 211 、。「」あいうえおかがきくけこごさしすそただちってでとどなにのはぶべほぼまもょよらりるれろをんァアィイゥウェエオカガグコサシジスズタダチツテデトドニネノハバパフ
+content56.py CJK distinct: 231 、。『』あいうえおかがきくけこさしすせただっつてでとなにのはへぼまめもやよらりるれをんアィイェカグコサシジスゼタチッデトドネフベペラルレン・ー一上不世中事人今付
+content7.py CJK distinct: 205 、。あいうえおかがくけこしじすせそたちっつてでとなにのはばびへまみめもよらりるれわをんアィイェキクグコスゼタチテトドネノプベペポマメラリルレロンー一三不世乞予事
+content8.py CJK distinct: 192 、。〜あいうえかがきくけこしすたちっつてでとなにのはばぶへべまめもよらるれをんアィイェガグコゴジスゼタチテトドナネノパフブペホポマムメラリルロン・ー一下世主人今
+svglib.py CJK distinct: 33 、。」』】ぁぃぅぇぉってゃゅょゎァィゥェォッャュョヮ・ー仮名捨重阳
+render.py CJK distinct: 0 
+$ /usr/bin/python3 run.py
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1358 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=455 (bottom 1540)
+P2 col3 ends 1052.5
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=859 (bottom 1560)
+P3 col3 ends 1505.75
+  flow[P3-ex] ended col 2/3 y=2465 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=913 (bottom 1080)
+P4 col3 ends 934.0
+  flow[P4-ex] ended col 2/3 y=2427 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1005 (bottom 1560)
+P5 col3 ends 1304.75
+  flow[P5-ex] ended col 2/3 y=2348 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=840 (bottom 1540)
+P6 col3 ends 1407.0 timeline box height 920.0000000000001
+  flow[P6-ex] ended col 3/3 y=2533 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1151 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1121 (bottom 1560)
+P7 col3 ends 1804.58
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=1099 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2472 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'文の完成': 48, '選択問題': 47, '単語のペア': 12, '正誤判断': 8, '文を作る': 7, '文の書き換え': 10, '穴埋め選択': 13, '翻訳': 4, '作文': 1}
+ALL DONE
+[exit 0]
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python render.py
+rendered p1-portada
+rendered p2-vida
+rendered p3-cultura
+rendered p4-deporte
+rendered p5-juventud
+rendered p6-afondo
+rendered p7-lengua
+rendered p8-ejercicios
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/La-Lucerna-VOL3-JA.pdf 17666248
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/La-Lucerna-VOL3-JA-web.pdf: 1215153 bytes, 48185 text bytes
+
+web PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/La-Lucerna-VOL3-JA-web.pdf 1215153
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg
+535 distinct chars; families: ['Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKJP-Regular: 204720 bytes
+  font LucernaNotoSansCJKJP-Bold: 209972 bytes
+  font LucernaNotoSerifCJKJP-Regular: 301820 bytes
+  font LucernaNotoSerifCJKJP-Bold: 305044 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31020 bytes
+
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-ja-diff.json
+p1: +27 strings / -26 strings; CJK core 180 -> edition 255; added CJK chars: 209 {'毎': 1, '週': 4, '号': 3, 'ス': 9, 'ペ': 10, 'イ': 8, 'ン': 7, 'が': 3, '読': 4, 'ん': 3}
+p2: +50 strings / -43 strings; CJK core 295 -> edition 447; added CJK chars: 367 {'暮': 1, 'ら': 2, 'し': 6, '月': 2, '日': 1, '（': 5, '水': 3, '）': 5, 'ゼ': 2, 'ネ': 4}
+p3: +31 strings / -29 strings; CJK core 155 -> edition 274; added CJK chars: 238 {'文': 5, '聖': 1, 'マ': 2, 'ル': 2, 'テ': 1, 'ィ': 1, 'ン': 4, '、': 1, 'と': 2, '解': 2}
+p4: +31 strings / -27 strings; CJK core 176 -> edition 282; added CJK chars: 258 {'ス': 6, 'ポ': 1, 'ー': 10, 'ツ': 1, '木': 1, '曜': 3, 'は': 7, 'プ': 2, 'ラ': 3, 'ハ': 1}
+p5: +41 strings / -37 strings; CJK core 238 -> edition 359; added CJK chars: 295 {'若': 1, '者': 1, 'で': 7, '投': 1, 'す': 7, 'る': 3, '今': 2, '週': 3, 'の': 8, '計': 1}
+p6: +31 strings / -32 strings; CJK core 80 -> edition 143; added CJK chars: 125 {'掘': 1, 'り': 2, '宅': 1, 'が': 1, '選': 2, '挙': 1, '戦': 1, 'を': 3, '決': 1, 'め': 1}
+p7: +43 strings / -42 strings; CJK core 412 -> edition 552; added CJK chars: 440 {'こ': 2, 'と': 7, 'ば': 2, '特': 1, '集': 1, 'つ': 3, 'の': 19, 'レ': 1, 'ベ': 1, 'ル': 3}
+p8: +170 strings / -163 strings; CJK core 964 -> edition 1504; added CJK chars: 1218 {'練': 1, '習': 1, 'と': 14, 'え': 3, 'ペ': 22, 'ー': 24, 'ジ': 15, '文': 10, 'を': 21, '作': 5}
+TOTAL added CJK characters: 3150
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/p8.py compare --core-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg --edition-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg/p8-ejercicios.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-ja-p8-compare.json
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core/svg/p8-ejercicios.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg/p8-ejercicios.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+[exit 0]
+$ /usr/bin/python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/occlusion_audit.py /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/es-ja-occlusion.json
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ja/svg: 0 flags 
+[exit 0]

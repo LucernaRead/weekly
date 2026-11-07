@@ -1,0 +1,20 @@
+--- KO
+  source p1: 1..10 n=8 page-exercises=10 cum=10
+  source p2: 11..31 n=19 page-exercises=21 cum=31
+  source p3: 29..46 n=16 page-exercises=15 cum=46
+  source p4: 47..64 n=16 page-exercises=18 cum=64
+  source p5: 65..82 n=17 page-exercises=18 cum=82
+  source p6: 83..100 n=16 page-exercises=18 cum=100
+  source p7: 101..112 n=10 page-exercises=12 cum=112
+  source p8: 113..150 n=37 page-exercises=38 cum=150
+  distinct 138 missing [4, 7, 35, 37, 50, 61, 71, 85, 98, 103, 105, 145]
+--- CORE
+  source p1: 1..10 n=10 page-exercises=10 cum=10
+  source p2: 11..31 n=19 page-exercises=21 cum=31
+  source p3: 29..46 n=17 page-exercises=15 cum=46
+  source p4: 47..64 n=16 page-exercises=18 cum=64
+  source p5: 65..81 n=15 page-exercises=17 cum=81
+  source p6: 83..99 n=16 page-exercises=18 cum=99
+  source p7: 101..112 n=11 page-exercises=13 cum=112
+  source p8: 113..150 n=37 page-exercises=38 cum=150
+  distinct 140 missing [45, 49, 58, 67, 76, 82, 95, 100, 106, 134]

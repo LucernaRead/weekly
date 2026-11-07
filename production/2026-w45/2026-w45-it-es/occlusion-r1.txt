@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-it-es/svg: 1 flags {'LINEX': 1}
+  [LINEX] p1-prima.svg 'otoño suave.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink
+core: 0 flags; NEW vs core: 1
+  NEW [LINEX] p1-prima.svg 'otoño suave.' — later line box [64.4, 1863.4, 1885.6, 1864.6] crosses ink

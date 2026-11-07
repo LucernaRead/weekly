@@ -1,0 +1,18 @@
+core entries: 150
+edition entries: 150
+keydiff items: answer-head (seg before first " — ") comparison
+  #6: core head='previsioni' edition head='previsioni' equal=True
+  #15: core head='termosifoni' edition head='termosifoni' equal=True
+  #58: core head='più bella' edition head='più bella' equal=True
+  #71: core head='gratuiti' edition head='gratuiti' equal=True
+  #77: core head='ci sarà' edition head='ci sarà' equal=True
+  #137: core head='周一第一场寒冷来了。' edition head='週一第一場寒冷來了。' equal=False
+  #138: core head='观众可以免费品尝。' edition head='觀眾可以免費品嚐。' equal=False
+  #139: core head='周日晚上，佛罗伦萨对尤文图斯。' edition head='週日晚上，佛羅倫薩對尤文圖斯。' equal=False
+all other 142 heads equal: False
+137-139 heads are the Chinese translation keys themselves (legit re-aim):
+  #137: core='周一第一场寒冷来了。 — 对照原文' edition='週一第一場寒冷來了。 — 對照原文'
+  #138: core='观众可以免费品尝。 — assaggiare gratis = 免费品尝' edition='觀眾可以免費品嚐。 — assaggiare gratis = 免費品嚐'
+  #139: core='周日晚上，佛罗伦萨对尤文图斯。 — si gioca = 进行比赛' edition='週日晚上，佛羅倫薩對尤文圖斯。 — si gioca = 進行比賽'
+core P8 max text y: 2624.0
+edition P8 max text y: 2624.0

@@ -1,0 +1,41 @@
+=== GLOSS ===
+  p2-vida CORE: segments split on '·' = 5 :: '译注｜festivo 放假的 · el puente 连休 · la comunidad 自治区 · anochecer 天黑 · el horario de invierno 冬令时。'
+    heads present in order: ['festivo', 'el puente', 'la comunidad', 'anochecer', 'el horario de invierno'] (expected ['festivo', 'el puente', 'la comunidad', 'anochecer', 'el horario de invierno'])
+  p2-vida ED: segments split on '·' = 5 :: 'Nota — festivo (de festa) · el puente (a ponte) · la comunidad (a comunidade autónoma) · anochecer (anoitecer) · el horario de invierno (o horário de inverno).'
+    heads present in order: ['festivo', 'el puente', 'la comunidad', 'anochecer', 'el horario de invierno'] (expected ['festivo', 'el puente', 'la comunidad', 'anochecer', 'el horario de invierno'])
+  p3-cultura CORE: segments split on '·' = 5 :: '译注｜sobrio 克制的 · el homenaje 纪念 表彰 · el disfraz 服装（化装） · el boniato 红薯 · el cementerio 墓地。'
+    heads present in order: ['sobrio', 'el homenaje', 'el disfraz', 'el boniato', 'el cementerio'] (expected ['sobrio', 'el homenaje', 'el disfraz', 'el boniato', 'el cementerio'])
+  p3-cultura ED: segments split on '·' = 5 :: 'Nota — sobrio (sóbrio) · el homenaje (a homenagem) · el disfraz (o disfarce) · el boniato (a batata-doce) · el cementerio (o cemitério).'
+    heads present in order: ['sobrio', 'el homenaje', 'el disfraz', 'el boniato', 'el cementerio'] (expected ['sobrio', 'el homenaje', 'el disfraz', 'el boniato', 'el cementerio'])
+  p4-deporte CORE: segments split on '·' = 5 :: '译注｜la jornada 轮次 · recortar la distancia 缩小分差 · recibir 主场迎战 · visitar 客场挑战 · el Metropolitano 马竞 主场。'
+    heads present in order: ['la jornada', 'recortar la distancia', 'recibir', 'visitar', 'el Metropolitano'] (expected ['la jornada', 'recortar la distancia', 'recibir', 'visitar', 'el Metropolitano'])
+  p4-deporte ED: segments split on '·' = 5 :: 'Nota — la jornada (a jornada) · recortar la distancia (reduzir a diferença) · recibir (jogar em casa) · visitar (jogar fora) · el Metropolitano (o estádio do Atlético).'
+    heads present in order: ['la jornada', 'recortar la distancia', 'recibir', 'visitar', 'el Metropolitano'] (expected ['la jornada', 'recortar la distancia', 'recibir', 'visitar', 'el Metropolitano'])
+  p5-juventud CORE: segments split on '·' = 4 :: '译注｜el emparrillado 美式足球场（烤架形 场地） · el himno 国歌 · el touchdown 达阵得分 · la calabaza 南瓜。'
+    heads present in order: ['el emparrillado', 'el himno', 'el touchdown', 'la calabaza'] (expected ['el emparrillado', 'el himno', 'el touchdown', 'la calabaza'])
+  p5-juventud ED: segments split on '·' = 4 :: 'Nota — el emparrillado (o campo com forma de grelha) · el himno (o hino) · el touchdown (o touchdown) · la calabaza (a abóbora).'
+    heads present in order: ['el emparrillado', 'el himno', 'el touchdown', 'la calabaza'] (expected ['el emparrillado', 'el himno', 'el touchdown', 'la calabaza'])
+
+=== IMAGES: element counts + payload MD5 (base64 decoded) ===
+  P1 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P1 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P2 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P2 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P3 CORE: image elements=1 dataURIs=0 payloadMD5=[] hrefs=['data:image/jpeg;base64,/9j/4QA0RXhpZgAATU0AKgAAAAgAAgEOAAIAAAAGAAAAJgITAAMAAAABA']
+  P3 ED: image elements=1 dataURIs=0 payloadMD5=[] hrefs=['data:image/jpeg;base64,/9j/4QA0RXhpZgAATU0AKgAAAAgAAgEOAAIAAAAGAAAAJgITAAMAAAABA']
+  P4 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P4 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P5 CORE: image elements=1 dataURIs=0 payloadMD5=[] hrefs=['data:image/jpeg;base64,/9j/4RhuRXhpZgAATU0AKgAAAAgABAEOAAIAABgMAAAAPgE7AAIAAAANA']
+  P5 ED: image elements=1 dataURIs=0 payloadMD5=[] hrefs=['data:image/jpeg;base64,/9j/4RhuRXhpZgAATU0AKgAAAAgABAEOAAIAABgMAAAAPgE7AAIAAAANA']
+  P6 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P6 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P7 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P7 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P8 CORE: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+  P8 ED: image elements=0 dataURIs=0 payloadMD5=[] hrefs=[]
+
+=== P5 credit lines (all small texts containing Foto/Crédit/USDA/dominio) ===
+  P5 CORE: ['Foto: Departamento de Agricultura de EE. UU. — dominio']
+  P3 CORE: ['Foto: Wikimedia Commons — CC0 (dominio público)']
+  P5 ED: ['Foto: Departamento de Agricultura de EE. UU. — dominio']
+  P3 ED: ['Foto: Wikimedia Commons — CC0 (dominio público)']

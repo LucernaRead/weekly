@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-core/svg: 5 flags {'BOXTITLE': 4, 'EDGE': 1}
+  [EDGE] p1-front.svg '3. „Karneval oder Laternen — was feiern Sie?“' — ink box (1473.0, 917.0, 1981.0, 939.5) outside page 1950.0x2700.0
+  [BOXTITLE] p1-front.svg '1. „Schafft Deutschland das Viertelfinale?“' — ink crosses its box borders: right ink 1944.0 > border 1885.0
+  [BOXTITLE] p1-front.svg '2. „Gewinnt Deutschland in Belgrad?“' — ink crosses its box borders: right ink 1892.8 > border 1885.0
+  [BOXTITLE] p1-front.svg '3. „Karneval oder Laternen — was feiern Sie?“' — ink crosses its box borders: right ink 1981.0 > border 1885.0
+  [BOXTITLE] p1-front.svg '5. „Was bedeutet der Volkstrauertag?“' — ink crosses its box borders: right ink 1894.2 > border 1885.0

@@ -1,0 +1,8 @@
+== SAME-BASELINE INK SCAN (overlap = gap < 0) ==
+  same-baseline overlaps: 0
+== P6 CHART-LABEL COVERAGE (getmetrics baseline-anchored boxes) ==
+  bars found: [(1473.0, 304.0, 180.0, 18.0), (1473.0, 362.0, 100.0, 18.0), (1473.0, 420.0, 80.0, 18.0), (1473.0, 478.0, 40.0, 18.0)]
+  label 'Ik blijf thuis' baseline y=294.0 box=[1473.0, 270.0, 1598.8, 300.0] coverage=0.0%
+  label 'Ik kijk eerst naar de tekst' baseline y=352.0 box=[1473.0, 328.0, 1731.1, 358.0] coverage=0.0%
+  label 'Ik ga toch naar buiten' baseline y=410.0 box=[1473.0, 386.0, 1696.8, 416.0] coverage=0.0%
+  label 'Ik weet het niet' baseline y=468.0 box=[1473.0, 444.0, 1630.3, 474.0] coverage=0.0%

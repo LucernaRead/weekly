@@ -1,0 +1,64 @@
+== footers / badge ==
+badge on P1: True
+  p1-voorpagina.svg: footer=True pageline=True
+  p2-leven.svg: footer=True pageline=True
+  p3-cultuur.svg: footer=True pageline=True
+  p4-sport.svg: footer=True pageline=True
+  p5-jongeren.svg: footer=True pageline=True
+  p6-verdieping.svg: footer=True pageline=True
+  p7-taal.svg: footer=True pageline=True
+  p8-toets.svg: footer=True pageline=True
+== golden sentences (Dutch, verbatim, 2x, page labels) ==
+  count=2 label=Pagina 1 present_on_P7=True :: Van maandag 2 tot en met zondag 8 november is het Klimaatwee
+  count=2 label=Pagina 1 present_on_P7=True :: De herfst is de beste tijd om te planten
+  count=2 label=Pagina 2 present_on_P7=True :: Geel betekent: let op, het weer kan gevaarlijk zijn
+  count=2 label=Pagina 3 present_on_P7=True :: Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:0
+  count=2 label=Pagina 4 present_on_P7=True :: Ajax won donderdag 22 oktober met 2–0 van Atalanta
+  count=2 label=Pagina 5 present_on_P7=True :: Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:0
+  count=2 label=Pagina 6 present_on_P7=True :: Een code is geen verbod, maar een advies
+  count=2 label=Pagina 6 present_on_P7=True :: Het weer is van ons allemaal, maar het raakt ons allemaal an
+== P7 phrases verbatim from articles ==
+  in Pagina 1: True :: Van maandag 2 tot en met zondag 8 november is het 
+  in Pagina 1: True :: De herfst is de beste tijd om te planten
+  in Pagina 2: True :: Geel betekent: let op, het weer kan gevaarlijk zij
+  in Pagina 3: True :: Meer dan 70 musea zijn open van 19:00 uur 's avond
+  in Pagina 4: True :: Ajax won donderdag 22 oktober met 2–0 van Atalanta
+  in Pagina 5: True :: Zondag 1 november begon Expeditie Robinson op RTL 
+  in Pagina 6: True :: Een code is geen verbod, maar een advies
+  in Pagina 6: True :: Het weer is van ons allemaal, maar het raakt ons a
+== P7 word-box Dutch definition verbatim ==
+  HET WOORD Dutch sentence verbatim: True
+  PAS OP frozen: True :: «Het klimaat is slecht weer.»
+  PAS OP frozen: True :: «Ik doe mee aan de klimaatweek.»
+  PAS OP frozen: True :: «Ik plant een bomen.»
+  PAS OP frozen: True :: «Omdat het regent, ik blijf thuis.»
+  PAS OP frozen: True :: → Fout: het klimaat is het weer over een lange tij
+  PAS OP frozen: True :: → «Klimaatweek» krijgt een hoofdletter: het is een
+  PAS OP frozen: True :: → «Een» is enkelvoud: «een boom» of «bomen».
+  PAS OP frozen: True :: → Na «omdat» staat het werkwoord op plaats 2: «...
+== readers' corner (P7) ==
+  Dutch disclosure (frozen): True
+  German disclosure: True
+  example labelled: True
+  imperative invitation: True
+  example letter frozen: True
+== credits ==
+  p1-voorpagina.svg: True
+  p2-leven.svg: True
+  p3-cultuur.svg: True
+  p4-sport.svg: True
+== banned / residual ==
+  p1-voorpagina.svg: CJK chars in text nodes = 0
+  p2-leven.svg: CJK chars in text nodes = 0
+  p3-cultuur.svg: CJK chars in text nodes = 0
+  p4-sport.svg: CJK chars in text nodes = 0
+  p5-jongeren.svg: CJK chars in text nodes = 0
+  p6-verdieping.svg: CJK chars in text nodes = 0
+  p7-taal.svg: CJK chars in text nodes = 0
+  p8-toets.svg: CJK chars in text nodes = 0
+  TOTAL CJK: 0
+  banned '桥接': 0 pages contain it
+  banned '讲解': 0 pages contain it
+  banned '译注': 0 pages contain it
+  ASCII double-quote count in SVG texts: 0
+  OEFENDATA label present (P6): True

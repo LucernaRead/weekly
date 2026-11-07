@@ -1,0 +1,65 @@
+P6 nodes with degree sign or city names:
+   564.0 'settimana a Roma. Il Documento' gm_box= [527.0, 535.0, 927.4, 572.0] gb_box= [527.0, 543.0, 927.0, 564.0]
+   582.8 'Milano: la cultura non' gm_box= [1615.0, 557.8, 1843.7, 588.8] gb_box= [1615.0, 565.8, 1844.0, 582.8]
+   708.0 'Panettone a Milano,' gm_box= [1615.0, 683.0, 1819.8, 714.0] gb_box= [1615.0, 691.0, 1820.0, 712.0]
+   1686.0 'Torino' gm_box= [87.0, 1662.0, 154.9, 1692.0] gb_box= [87.0, 1670.0, 155.0, 1686.0]
+   1686.0 '3°' gm_box= [292.9, 1662.0, 310.9, 1692.0] gb_box= [292.9, 1671.0, 310.9, 1686.0]
+   1724.0 'Milano' gm_box= [87.0, 1700.0, 158.8, 1730.0] gb_box= [87.0, 1707.0, 159.0, 1724.0]
+   1724.0 '4°' gm_box= [330.8, 1700.0, 348.7, 1730.0] gb_box= [330.8, 1709.0, 348.8, 1725.0]
+   1762.0 'Bologna' gm_box= [87.0, 1738.0, 170.4, 1768.0] gb_box= [87.0, 1745.0, 171.0, 1767.0]
+   1762.0 '5°' gm_box= [376.4, 1738.0, 394.4, 1768.0] gb_box= [376.4, 1747.0, 394.4, 1762.0]
+   1800.0 'Roma' gm_box= [87.0, 1776.0, 146.0, 1806.0] gb_box= [87.0, 1785.0, 146.0, 1800.0]
+   1800.0 '9°' gm_box= [488.0, 1776.0, 506.0, 1806.0] gb_box= [488.0, 1785.0, 506.0, 1800.0]
+   1838.0 'Napoli' gm_box= [87.0, 1814.0, 153.9, 1844.0] gb_box= [87.0, 1821.0, 154.0, 1843.0]
+   1838.0 '12°' gm_box= [597.9, 1814.0, 625.3, 1844.0] gb_box= [597.9, 1823.0, 625.9, 1838.0]
+   2175.9 'La città più fredda del grafico è... A. Milano · B.' gm_box= [65.0, 2154.9, 477.0, 2181.9] gb_box= [65.0, 2159.9, 477.0, 2180.9]
+   2202.0 'Torino · C. Napoli' gm_box= [65.0, 2181.0, 219.1, 2208.0] gb_box= [65.0, 2187.0, 219.0, 2207.0]
+   2280.1 'La città più calda del grafico è... A. Napoli · B.' gm_box= [65.0, 2259.1, 462.4, 2286.1] gb_box= [65.0, 2264.1, 462.0, 2285.1]
+   2306.2 'Roma · C. Bologna' gm_box= [65.0, 2285.2, 225.6, 2312.2] gb_box= [65.0, 2291.2, 226.0, 2311.2]
+   2384.3 'La differenza tra Napoli (12°) e Roma (9°) è... A. 2°' gm_box= [65.0, 2363.3, 494.6, 2390.3] gb_box= [65.0, 2368.3, 495.0, 2389.3]
+   2410.4 '· B. 3° · C. 4°' gm_box= [65.0, 2389.4, 167.7, 2416.4] gb_box= [65.0, 2397.4, 168.0, 2411.4]
+   2488.5 'Milano (4°) e Bologna (5°) insieme fanno... A. 9° ·' gm_box= [65.0, 2467.5, 487.1, 2494.5] gb_box= [65.0, 2472.5, 487.0, 2493.5]
+   2514.6 'B. 10° · C. 8°' gm_box= [65.0, 2493.6, 167.1, 2520.6] gb_box= [65.0, 2501.6, 167.0, 2514.6]
+
+P6 ALL-text max coverage, getmetrics method:
+  getmetrics max = 0  n>0: 0
+  getbbox    max = 0  n>0: 0
+
+P6 chart-label-only max coverage:
+  'settimana a Roma. Il Documento' getmetrics=0.00% getbbox=0.00%
+  'Milano: la cultura non' getmetrics=0.00% getbbox=0.00%
+  'Panettone a Milano,' getmetrics=0.00% getbbox=0.00%
+  'Torino' getmetrics=0.00% getbbox=0.00%
+  '3°' getmetrics=0.00% getbbox=0.00%
+  'Milano' getmetrics=0.00% getbbox=0.00%
+  '4°' getmetrics=0.00% getbbox=0.00%
+  'Bologna' getmetrics=0.00% getbbox=0.00%
+  '5°' getmetrics=0.00% getbbox=0.00%
+  'Roma' getmetrics=0.00% getbbox=0.00%
+  '9°' getmetrics=0.00% getbbox=0.00%
+  'Napoli' getmetrics=0.00% getbbox=0.00%
+  '12°' getmetrics=0.00% getbbox=0.00%
+  'La città più fredda del grafico è... A. Milano · B.' getmetrics=0.00% getbbox=0.00%
+  'Torino · C. Napoli' getmetrics=0.00% getbbox=0.00%
+  'La città più calda del grafico è... A. Napoli · B.' getmetrics=0.00% getbbox=0.00%
+  'Roma · C. Bologna' getmetrics=0.00% getbbox=0.00%
+  'La differenza tra Napoli (12°) e Roma (9°) è... A. 2°' getmetrics=0.00% getbbox=0.00%
+  '· B. 3° · C. 4°' getmetrics=0.00% getbbox=0.00%
+  'Milano (4°) e Bologna (5°) insieme fanno... A. 9° ·' getmetrics=0.00% getbbox=0.00%
+  'B. 10° · C. 8°' getmetrics=0.00% getbbox=0.00%
+
+ED right-edge ADVANCE flags (>1885):
+  p1-prima.svg y=1728.0 right=1889.3 '« il primo freddo » : il primo freddo serio'
+  p1-prima.svg y=1758.1 right=1888.8 'dopo un autunno mite. Questa settimana'
+  p2-vita.svg y=2195.0 right=1902.5 'b. il calorifero di casa, che si accende'
+  p8-valutazione.svg y=662.8250000000002 right=1898.6 '«La tua settimana del primo freddo» Scrivi 80–100 parole:'
+ED same-baseline furniture flags (gap<2, y<600 or y>2550):
+  total row flags: 0
+
+CORE right-edge ADVANCE flags (>1885):
+  p1-prima.svg y=1728.0 right=1889.3 '« il primo freddo » : il primo freddo serio'
+  p1-prima.svg y=1758.1 right=1888.8 'dopo un autunno mite. Questa settimana'
+  p2-vita.svg y=2195.0 right=1902.5 'b. il calorifero di casa, che si accende'
+  p8-valutazione.svg y=633.1000000000001 right=1898.6 '«La tua settimana del primo freddo» Scrivi 80–100 parole:'
+CORE same-baseline furniture flags (gap<2, y<600 or y>2550):
+  total row flags: 0

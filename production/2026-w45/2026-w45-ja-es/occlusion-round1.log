@@ -1,0 +1,20 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w45-ja-es/svg: 18 flags {'BOXTITLE': 2, 'TEXTX': 16}
+  [BOXTITLE] p1-hyoushi.svg 'Fechas en los artículos; no son estadísticas exactas' — ink crosses its box borders: right ink 1919.5 > border 1885.0
+  [BOXTITLE] p4-supotsu.svg '日本シリーズの日程 · Calendario de la serie' — ink crosses its box borders: right ink 1018.5 > border 961.0
+  [TEXTX] p8-tesuto.svg '150. ✓ El modelo está en la sección H de esta página (167' — ink overlaps '146. A — 借りられます = se puede tomar prestad' by 362.5x15.0px
+  [TEXTX] p8-tesuto.svg '150. ✓ El modelo está en la sección H de esta página (167' — ink overlaps '148. A — 「紅葉の本」 es popular' by 208.5x15.0px
+  [TEXTX] p8-tesuto.svg '150. ✓ El modelo está en la sección H de esta página (167' — ink overlaps '145. A — 見せてください = por favor, enseñe' by 276.0x14.8px
+  [TEXTX] p8-tesuto.svg '150. ✓ El modelo está en la sección H de esta página (167' — ink overlaps '149. A — どういたしまして = de nada' by 228.8x12.0px
+  [TEXTX] p8-tesuto.svg '150. ✓ El modelo está en la sección H de esta página (167' — ink overlaps '147. A — La Semana de la Lectura dura ha' by 362.5x11.0px
+  [TEXTX] p8-tesuto.svg '146. A — 借りられます = se puede tomar prestado (forma potencial)' — ink overlaps '148. A — 「紅葉の本」 es popular' by 208.5x15.0px
+  [TEXTX] p8-tesuto.svg '146. A — 借りられます = se puede tomar prestado (forma potencial)' — ink overlaps '145. A — 見せてください = por favor, enseñe' by 276.0x14.8px
+  [TEXTX] p8-tesuto.svg '146. A — 借りられます = se puede tomar prestado (forma potencial)' — ink overlaps '149. A — どういたしまして = de nada' by 228.8x12.0px
+  [TEXTX] p8-tesuto.svg '146. A — 借りられます = se puede tomar prestado (forma potencial)' — ink overlaps '147. A — La Semana de la Lectura dura ha' by 404.5x11.0px
+  [TEXTX] p8-tesuto.svg '148. A — 「紅葉の本」 es popular' — ink overlaps '145. A — 見せてください = por favor, enseñe' by 208.5x14.8px
+  [TEXTX] p8-tesuto.svg '148. A — 「紅葉の本」 es popular' — ink overlaps '149. A — どういたしまして = de nada' by 208.5x12.0px
+  [TEXTX] p8-tesuto.svg '148. A — 「紅葉の本」 es popular' — ink overlaps '147. A — La Semana de la Lectura dura ha' by 208.5x11.0px
+  [TEXTX] p8-tesuto.svg '145. A — 見せてください = por favor, enseñe' — ink overlaps '149. A — どういたしまして = de nada' by 228.8x12.0px
+  [TEXTX] p8-tesuto.svg '145. A — 見せてください = por favor, enseñe' — ink overlaps '147. A — La Semana de la Lectura dura ha' by 276.0x11.0px
+  [TEXTX] p8-tesuto.svg '149. A — どういたしまして = de nada' — ink overlaps '147. A — La Semana de la Lectura dura ha' by 228.8x11.0px
+  [TEXTX] p8-tesuto.svg '(página 7)' — ink overlaps 'caracteres)' by 64.0x13.8px

@@ -1,0 +1,36 @@
+core P6 shapes: 41
+de shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+en shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+fr shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+it shapes: 41 identical-to-core: False diff-count: 17 len-diff: 0
+   first diff at 20 
+    core: rect x="65" y="2242.8750000000005" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2239.1999999999994" width="60" height="30" rx="6" fill="#a4553a"/
+ja shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+ko shapes: 41 identical-to-core: True diff-count: 0 len-diff: 0
+nl shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+pt shapes: 41 identical-to-core: True diff-count: 0 len-diff: 0
+ru shapes: 41 identical-to-core: False diff-count: 18 len-diff: 0
+   first diff at 19 
+    core: rect x="65" y="2106.225" width="60" height="30" rx="6" fill="#a4553a"/ 
+    ed:   rect x="65" y="2135.95" width="60" height="30" rx="6" fill="#a4553a"/
+zh-cn shapes: 41 identical-to-core: True diff-count: 0 len-diff: 0
+zh-tw shapes: 41 identical-to-core: True diff-count: 0 len-diff: 0
+
+===== P6 chart labels vs bars (text ink vs later rects) =====
+ rect x=1451 y=1146.0 w=434 h=261.0 fill=#f1ead6

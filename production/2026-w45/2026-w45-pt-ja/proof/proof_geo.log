@@ -1,0 +1,18 @@
+SERIF: /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc
+SANS: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+=== FRAME / RIGHT-EDGE ADVANCE SCAN (inner frame x: find vertical lines near 40/1910) ===
+ed: max_right_advance=1897.2 at ('p2-vida', 'd. o objeto que dá luz e se acende em', 'start', 1485.0) flags=0
+core: max_right_advance=1897.2 at ('p2-vida', 'd. o objeto que dá luz e se acende em', 'start', 1485.0) flags=0
+=== SAME-BASELINE COLLISION SCAN (ink boxes, same page+y) ===
+ed same-baseline flags=0
+=== P6 CHART LABEL INK vs LATER BARS (anchor ls, Serif JP Bold 20pt) ===
+  ed label 'prova' x=65 y=327.28 size=37 anchor=start
+  ed label 'portões abertos' x=87 y=1690 size=20 anchor=start
+  ed label 'espera' x=87 y=1734 size=20 anchor=start
+  ed label 'prova' x=87 y=1778 size=20 anchor=start
+  ed total elements=203
+  core label 'prova' x=65 y=327.28 size=37 anchor=start
+  core label 'portões abertos' x=87 y=1690 size=20 anchor=start
+  core label 'espera' x=87 y=1734 size=20 anchor=start
+  core label 'prova' x=87 y=1778 size=20 anchor=start
+  core total elements=201
