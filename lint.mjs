@@ -78,6 +78,8 @@
  *      (not draft, PDF in the repo), covers/<week>/ must hold one cover block .html for each of the 12 reader
  *      languages, and images/ must hold one image for each of the 12 target languages.
  *      A print md/pdf does not count. Without them the site can show that week only as a list of cards.
+ *  12. **Issue number matches the PDF** — when the PDF is in the repo, the first VOL.n in its text (printed on P1)
+ *      must equal frontmatter vol. The PDF is the source: fix the frontmatter, not the PDF.
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -300,6 +302,13 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
         const text = execFileSync('pdftotext', [pdfPath, '-'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
         if (text.replace(/\s/g, '').length === 0) {
           fail(where, 'the PDF has no extractable text layer (image-only PDFs do not enter the repo; make the web PDF with webpdf.py first)');
+        } else {
+          // Rule 12: the issue number printed on P1 (first VOL.n in the text) must equal frontmatter vol.
+          const printed = text.match(/VOL\.?\s*(\d+)/);
+          if (!printed) fail(where, 'no VOL.n found in the PDF text (rule 12)');
+          else if (printed[1] !== String(fm.vol)) {
+            fail(where, `vol mismatch: frontmatter vol ${fm.vol}, PDF prints VOL.${printed[1]} (rule 12; the PDF is the source)`);
+          }
         }
       } catch (e) {
         if (e.code === 'ENOENT') fail(where, 'the PDF text-layer check needs pdftotext (install poppler-utils, then run again)');

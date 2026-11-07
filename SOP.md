@@ -27,8 +27,14 @@
 单位：pt 按 1462.5 × 2025 pt 版面计；SVG 用 1950 × 2700 px 时，px = pt × 4/3。
 
 **版数**：仍为 8 版，答案仍在 P8，不另起一页（用户 2026-11-06 指令）。
-P8 放不下时按 §5 处理：压缩练习排版或扩版到 4 的倍数并写进 KIT；不得只为答案加第 9 页。
-答案字号取 P8 能放下的最大值，实测值写进 KIT。
+答案字号目标 ≥ 11.25pt。实测 W46 全部 130 版（PyMuPDF 取 P8 最小字号）：19 版为 11.62pt，111 版压到 9.0–10.9pt，众数 9.75pt。
+所以多数版本在 8 版内达不到 11.25pt。P8 放不下时按下面的顺序让步，做到哪一步就停在哪一步：
+1. 去掉双线外框，按新版心回收空间（现行正文底边 y=1972pt，新版心底边 1977pt）。
+2. 每条答案简析压成一行。
+3. P8 的练习题干降到 15.4pt（W46 现行值；其他版仍按字号阶梯）。
+4. 答案字号降到不低于 9.75pt（W46 现行众数）。
+仍放不下就按 §5 处理：扩版到 4 的倍数，或答案另册，并写进 KIT。不得只为答案加第 9 页。
+每版的答案实测字号写进 KIT。
 
 **颜色**
 
@@ -52,11 +58,14 @@ P8 放不下时按 §5 处理：压缩练习排版或扩版到 4 的倍数并写
 | 角色 | 字体 | 字重 |
 |---|---|---|
 | 刊头 | UnifrakturMaguntia | 400 |
-| 拉丁/西里尔书写的目标语标题、正文 | Newsreader | 400 / 600；斜体用于本周词 |
+| 拉丁书写的目标语标题、正文 | Newsreader | 400 / 600；斜体用于本周词 |
+| 俄语目标语标题、正文 | Noto Serif（西里尔） | 400 / 700 |
 | 中日韩书写的目标语标题、正文 | Noto Serif CJK（按字形选 SC/TC/JP/KR） | 400 / 700 |
-| 刊别、讲解层、栏目小字、页眉页脚 | Noto Sans CJK（按读者语言选字形）；拉丁读者语言用 Newsreader | 500 / 700 |
+| 刊别、讲解层、栏目小字、页眉页脚 | 拉丁读者语言用 Newsreader；俄语读者用 Noto Sans；中日韩读者用 Noto Sans CJK（按字形选） | 500 / 700 |
 
-不用思源宋体自带的拉丁字形排西文。Newsreader 没有西里尔字形时，俄语正文退回 Noto Serif，并在 KIT 里注明。
+不用思源宋体自带的拉丁字形排西文。
+Newsreader 没有西里尔字形（2026-11-06 核实：@fontsource/newsreader 5.3.0 只有 latin、latin-ext、vietnamese 三个子集），所以俄语不用 Newsreader。
+同一版里俄语正文和拉丁字母的标签都用 Noto Serif，不混排两种衬线体。
 
 **字号阶梯（pt）**
 
@@ -164,7 +173,8 @@ P8 放不下时按 §5 处理：压缩练习排版或扩版到 4 的倍数并写
 - **Discord 投递暂停中（用户 2026-10-21 下午指令）**：出口被 40333 拦截后定稿只入 GitHub 仓，不发 Discord、不进待发队列；恢复投递需用户再发话。
 - **GitHub 入仓用 `tools/insert.py`**（防重复插入、PDF 实测 pin、lint 门槛、推送重试与 ls-remote 终验都在脚本里）；家具字符串、语言名、线程 ID 一律查 `tools/tables.json`，不再从各版 KIT 手抄。
 - **入仓 commit 粒度（用户 2026-11-03 指令）**：一个 bundle 一个 commit——一个 target 的全部母语版（md + .text.md + PDF + index.json）一次写完、一次 lint、一次 commit、一次验证推送。**不许**一版一个 commit、**不许**元数据与 PDF 分两个 commit、**不许**整周 130 版一个 commit。执行：`insert.py --bundle --week <周> --target <目标语>`（--vol/--exercises/--seed-excerpt 只在该 target 本周尚无 sibling 时用，seed excerpt 按 README 从 core P1 开头取）；已入仓的版自动跳过，工作树不干净即中止。简体中文与繁體中文是两个独立 target，各自一个 bundle commit。**例外（用户 2026-11-03 同日指令）：bundle 还是太大推不上去时，退回一个一个 commit**——`insert_driver.py` 先试 bundle，推送重试耗尽仍未验证时撤掉未推送的 bundle commit、改逐版插入（串行、首错即停）；bundle 在 commit 前失败（渲染/lint）则直接逐版，不留脏树。
-- **期号一致（weekly#4，2026-11-06 追加）**：md frontmatter 的 `vol` 必须等于该版 P1 刊别里印的 `VOL.n`。`--vol` 从核心报 P1 实际印的期号取，不按周次推算。入仓前用 pdftotext 提出 P1 的 `VOL.n` 与 `vol` 比对，不一致不得推送。
+- **期号一致（weekly#4，2026-11-06 追加）**：md frontmatter 的 `vol` 必须等于该版 P1 刊别里印的 `VOL.n`。`--vol` 从核心报 P1 实际印的期号取，不按周次推算。title 和正文标题里的「VOL.n」同样取这个数。仓库 lint 规则 12 自动比对（PDF 文字里第一个 `VOL.n` 对 `vol`），不一致即红。
+W46 法语 11 版曾写成 vol 3（沿用 W45），PDF 印 VOL.4；2026-11-06 已按 PDF 改正。
 - **入仓前必验 web PDF 文字层（见附则四）**：pdftotext 字节 > 0 且与 print 版文本一致，否则不得推送；W43/W45 旧版已于 2026-10-28 由 webpdf.py 全量重发回填。
 - **每版必带本期摘要（用户 2026-10-22 指令，为 SEO 命中）**：构建者在版本目录交付 `ABSTRACT.txt`——用**读者母语**原生撰写的一段摘要（单行、无 ASCII 双引号），写进本期真实主题/关键词（赛事、节日、事件的具体名）与学习者会搜的短语（如「学法语」「learn French by reading」），并含刊名、目标语名、A2–B2 分级与题数；事实只取本期内容，不得套模板换词。摘要在仓内出现两次：md frontmatter 的 `abstract` 字段（随 index.json 供列表/页面描述取用）与正文的摘要节（标题词查 tables.json 的 `abstract_heading`）。`insert.py` 无 ABSTRACT.txt 即中止；仓库 lint 已把 `abstract` 列为必填。W43 的 130 版已于 2026-10-22 补齐。
 - **仓库 lint 三道门（2026-10-29 已合入 main，默认模式即 enforce，CI 与提交钩子都跑）**：(1) 文本层门——在仓 PDF 必须 pdftotext 提出文字，图片版不进仓，新版一律 `tools/webpdf.py` 生成；(2) 封面块零交互门——仓内任何 `.html` 不得含脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等，只留静态内容，无 `.html` 时空过；(3) excerpt 目标语门——非拉丁书写目标语（ru/ja/ko/zh-cn/zh-tw）的 excerpt ASCII 字母占比 >50% 即判英文错放。`covers/` 已入 lint `ROOT_ALLOW`（W43+W45 封面 24 份随 main 入仓）；`index.json` 只由 `node lint.mjs --write` 生成，永不手改。
