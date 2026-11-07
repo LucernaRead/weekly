@@ -9,7 +9,7 @@
     --olive: #46581f;      /* 橄榄绿:栏目小字、首字、分隔线 */
     --gosling: #f6e08e;    /* 鹅黄:书衣绿上的强调 */
     --on-cloth: #f4efe1;   /* 书衣绿上的字 */
-    --a2: #5c6e30; --b1: #46581f; --b2: #37402f;   /* 等级徽章:越难越深 */
+    --a2: #4f765d; --b1: #4d72b4; --b2: #d7b257;   /* 等级徽章:取自飞蛾(阅读器配色)灰绿/蓝/金 */
     --serif: 'Newsreader', 'Noto Serif SC', Georgia, serif;
     --cjk-serif: 'Noto Serif SC', 'Newsreader', serif;
     --sans: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
@@ -34,8 +34,8 @@
   .mast h1 { margin: 0; font-family: 'UnifrakturMaguntia', var(--serif); font-weight: 400; font-size: 196px; line-height: 1; color: var(--ink); }
   .mast .sub { margin: 14px 0 0; font-family: var(--cjk-serif); font-weight: 700; font-size: 36px; letter-spacing: .32em; text-indent: .32em; color: var(--olive); }
   .mast .tag { margin: 12px 0 0; font-family: var(--sans); font-size: 16px; letter-spacing: .18em; color: var(--muted); }
-  .rule { position: relative; margin: 34px 0 0; height: 2px; background: var(--olive); }
-  .rule img { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 64px; padding: 0 22px; background: var(--paper); box-sizing: content-box; }
+  .rule { position: relative; flex-shrink: 0; margin: 76px 0 56px; height: 2px; background: var(--olive); }
+  .rule img { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 136px; padding: 0 28px; background: var(--paper); box-sizing: content-box; }
 
   /* ── 导读条(书衣绿) ── */
   .lead { margin-top: 40px; padding: 26px 34px; background: var(--cloth); color: var(--on-cloth); display: flex; justify-content: space-between; align-items: center; gap: 40px; }
@@ -65,7 +65,7 @@
   .ex li { font-size: 22px; line-height: 1.42; margin: 0 0 18px; color: var(--body); }
   .ex .n { display: flex; align-items: center; gap: 10px; font-family: var(--sans); font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 3px; }
   .lv { display: inline-block; padding: 2px 8px 1px; border-radius: 2px; font-family: var(--sans); font-size: 14px; font-weight: 700; letter-spacing: .04em; color: #fff; background: var(--a2); }
-  .lv.b1 { background: var(--b1); } .lv.b2 { background: var(--b2); }
+  .lv.b1 { background: var(--b1); } .lv.b2 { background: var(--b2); color: var(--ink); }
   .blank { display: inline-block; width: 3.2em; border-bottom: 1.5px solid var(--ink); transform: translateY(-.2em); }
 
   .bars { list-style: none; margin: 16px 0 0; padding: 0; }
@@ -101,5 +101,7 @@
   .quiz .opts { display: block; margin-top: 4px; color: var(--muted); }
   .quiz .opts span { display: block; }
 
+  .foot img { height: 26px; width: auto; }
+  .foot > span:first-child { align-items: center; }
   .foot { margin-top: auto; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-family: var(--sans); font-size: 15px; letter-spacing: .08em; color: var(--muted); }
   .foot span:first-child { display: flex; gap: 1.6em; }
