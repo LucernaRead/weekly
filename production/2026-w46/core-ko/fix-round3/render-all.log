@@ -1,0 +1,221 @@
+===== core : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== core : render.py =====
+render.py exit=0
+===== core : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-core/svg
+1015 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 254840 bytes
+  font LucernaNotoSansCJKKR-Bold: 260204 bytes
+  font LucernaNotoSerifCJKKR-Regular: 429252 bytes
+  font LucernaNotoSerifCJKKR-Bold: 434000 bytes
+  font LucernaUnifrakturMaguntia-Regular: 23112 bytes
+WROTE ../files/weekly-report-w46-ko-core/Lucerna-VOL3-web.pdf: 2528382 bytes, 50756 text bytes
+===== de : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== de : render.py =====
+render.py exit=0
+===== de : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-de/svg
+570 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84552 bytes
+  font LucernaNotoSansCJKKR-Bold: 85620 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185524 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187436 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31000 bytes
+WROTE ../files/weekly-report-w46-ko-de/Lucerna-VOL3-web.pdf: 2317186 bytes, 53316 text bytes
+===== en : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== en : render.py =====
+render.py exit=0
+===== en : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-en/svg
+567 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84524 bytes
+  font LucernaNotoSansCJKKR-Bold: 85732 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185860 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187628 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28872 bytes
+WROTE ../files/weekly-report-w46-ko-en/Lucerna-VOL3-EN-web.pdf: 2292773 bytes, 52452 text bytes
+===== es : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== es : render.py =====
+render.py exit=0
+===== es : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-es/svg
+576 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84808 bytes
+  font LucernaNotoSansCJKKR-Bold: 86016 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185832 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187712 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30316 bytes
+WROTE ../files/weekly-report-w46-ko-es/Lucerna-VOL3-ES-web.pdf: 2297594 bytes, 54064 text bytes
+===== fr : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== fr : render.py =====
+render.py exit=0
+===== fr : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-fr/svg
+579 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84640 bytes
+  font LucernaNotoSansCJKKR-Bold: 85940 bytes
+  font LucernaNotoSerifCJKKR-Regular: 186344 bytes
+  font LucernaNotoSerifCJKKR-Bold: 188116 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30148 bytes
+WROTE ../files/weekly-report-w46-ko-fr/Lucerna-VOL3-FR-web.pdf: 2305618 bytes, 54155 text bytes
+===== it : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== it : render.py =====
+render.py exit=0
+===== it : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-it/svg
+571 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 83424 bytes
+  font LucernaNotoSansCJKKR-Bold: 84652 bytes
+  font LucernaNotoSerifCJKKR-Regular: 184384 bytes
+  font LucernaNotoSerifCJKKR-Bold: 186196 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29128 bytes
+WROTE ../files/weekly-report-w46-ko-it/Lucerna-VOL3-IT-web.pdf: 2288549 bytes, 53507 text bytes
+===== ja : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== ja : render.py =====
+render.py exit=0
+===== ja : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-ja/svg
+975 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 271356 bytes
+  font LucernaNotoSansCJKKR-Bold: 277272 bytes
+  font LucernaNotoSerifCJKKR-Regular: 461664 bytes
+  font LucernaNotoSerifCJKKR-Bold: 466612 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22524 bytes
+WROTE ../files/weekly-report-w46-ko-ja/Lucerna-VOL3-web.pdf: 2661599 bytes, 53821 text bytes
+===== nl : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== nl : render.py =====
+render.py exit=0
+===== nl : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-nl/svg
+567 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 83444 bytes
+  font LucernaNotoSansCJKKR-Bold: 84668 bytes
+  font LucernaNotoSerifCJKKR-Regular: 184256 bytes
+  font LucernaNotoSerifCJKKR-Bold: 186052 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29008 bytes
+WROTE ../files/weekly-report-w46-ko-nl/Lucerna-VOL3-NL-web.pdf: 2291086 bytes, 53178 text bytes
+===== pt : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== pt : render.py =====
+render.py exit=0
+===== pt : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-pt/svg
+582 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84588 bytes
+  font LucernaNotoSansCJKKR-Bold: 85828 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185700 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187608 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30124 bytes
+WROTE ../files/weekly-report-w46-ko-pt/Lucerna-VOL3-web.pdf: 2301018 bytes, 53675 text bytes
+===== ru : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== ru : render.py =====
+render.py exit=0
+===== ru : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-ru/svg
+619 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 91548 bytes
+  font LucernaNotoSansCJKKR-Bold: 92972 bytes
+  font LucernaNotoSerifCJKKR-Regular: 192524 bytes
+  font LucernaNotoSerifCJKKR-Bold: 194952 bytes
+  font LucernaUnifrakturMaguntia-Regular: 23484 bytes
+WROTE ../files/weekly-report-w46-ko-ru/Lucerna-VOL3-RU-web.pdf: 2243389 bytes, 61396 text bytes
+===== zh-tw : run.py =====
+run.py exit=0
+P8 saved, TOTAL exercises: 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+===== zh-tw : render.py =====
+render.py exit=0
+===== zh-tw : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-zh-tw/svg
+1012 distinct chars; families: ['Noto Sans CJK TC', 'Noto Serif CJK TC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKTC-Regular: 333824 bytes
+  font LucernaNotoSansCJKTC-Bold: 341384 bytes
+  font LucernaNotoSerifCJKTC-Regular: 524276 bytes
+  font LucernaNotoSerifCJKTC-Bold: 531032 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22280 bytes
+WROTE ../files/weekly-report-w46-ko-zh-tw/Lucerna-VOL3-ZHTW-web.pdf: 2654630 bytes, 50903 text bytes
+RENDER-ALL-DONE

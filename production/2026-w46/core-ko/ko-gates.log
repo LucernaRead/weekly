@@ -1,0 +1,54 @@
+=== W46 KO CORE (zh-cn) — 2026-11-02 ===
+build: run.py TOTAL 150 (A2 51 / B1 72 / B2 27; pages 10/18/18/18/18/18/12/38; types 完成句子48 单选52 词汇配对16 完形单选13 造句8 句型转换4 判断4 翻译4 写作1; model 158 chars); zero FLOW OVERFLOW / HEAD TOO WIDE; P7 teaser ends 2507.7 (<2540)
+occlusion_audit.py: selftest OK (6 classes fire); final 0 flags (after fixing 2 TEXTX on P1 calendar box + P7 disclosure spill, re-audited)
+p8.py extract: noted set 150/150
+orphan scan (10-45, >=3-syllable tail, parenthesised fragments, line-start punct): 1 adjudicated hit (P4 parenthesised clause tail, non-defect); P2/P7 lone-verb tails fixed
+gloss check (source-parsed): 14 dictionary-form/inflected-form pairs adjudicated; 0 true orphans
+P7 phrases: 8/8 verbatim whitespace-insensitive
+webpdf.py: Lucerna-VOL3-web.pdf 2,530,084 bytes <7MB, pdftotext 50,787 bytes, 8 pages, consistent with print PDF
+print PDF: Lucerna-VOL3.pdf 32,012,452 bytes, sha256 3c2ea5e379a19850be308638dbf275e12b1b20df0ad942e712cb2b78d8381b5d
+web PDF sha256 faa9817ebe5531212167c4448c4167cf429194197e9ebaad3aeffb9b453ed35f
+=== W46 KO x EN — 2026-11-02 ===
+build: TOTAL 150 (pages 10/18/18/18/18/18/12/38); zero overflows; teaser 2483.7
+occlusion: 0 flags (selftest OK)
+p8 compare: CLEAN, keydiff=[137,138] (E-zone re-aim, expected); extract 150/150
+freeze diff: 0 added CJK chars all pages
+orphan scan: 1 adjudicated (P4 paren clause tail); kinsoku 0; phrases 8/8
+webpdf: 2,292,768 bytes, pdftotext 52,461 bytes, 8pp; print 32,290,739 bytes
+sha print 9fa379f4d052ca0f6268f0d0808d8858c6b6e717e87cd9bed8647d269b86be02 / web da208304f40724f6f0beb8db7576287020ab092e9dea71cbf5c2362463b08773
+
+## 2026-11-02 ko-fr (VOL.3)
+- run.py TOTAL 150 (10/18/18/18/18/18/12/38), teaser ends 2526.2, zero FLOW OVERFLOW/HEAD TOO WIDE (after fixes: lcn2 shortened to 3 lines, lcn to 1 line, phrases pitch 124->112; box title shortened to "Liste de courses").
+- occlusion_audit: selftest OK; 0 flags (first audit: BOXTITLE+TEXTX on P2 box title, fixed).
+- p8.py compare: CLEAN missing=[] extra_count=0 keydiff=[137,138] (E-zone, expected). extract 150/150.
+- freeze.py diff: TOTAL added CJK 0 (all pages).
+- check_edition: phrases 8/8, orphan 1 (adjudicated P4 paren tail, same as core), kinsoku 0.
+- web PDF Lucerna-VOL3-FR-web.pdf 2305612 bytes, pdftotext 54164 bytes, phrase x7. Print PDF 32499007 bytes (first render 176210147 bytes = transient font-embedding fallback under contention; re-render normal). SHA256 print 4c8cec888bde48dd91fbf722bd9eec2d1b77dc861432e717c0433a2dc42c8633, web 15519f5adac219db78f323c0669d9dc7c4fbac5cb3e909659c4c15b36f212a26.
+- Visual: P1 + P7 cards spot-checked, clean.
+
+## ko-it (2026-11-02, post-fix)
+run.py TOTAL 150 (A2 51/B1 72/B2 27), zero overflows, teaser 2526.2. occlusion 0 flags. p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 0 added CJK. check_edition phrases 8/8, orphan 1 adjudicated (P4 SHORT-TAIL '않아요.' identical wrap in frozen core), kinsoku 0. Letters-box margin +8px (trailing +60→+66). Print 32463406 bytes SHA256 1321c365eb90db00a74c2c73ea4d60ac14c63668299e825a93dfb37151428ea6; web 2288546 bytes SHA256 1453514515557699e6123bb3e1dda4fe877164fa591d56803aa2849abf0eb792, pdftotext 53516 bytes, phrase x7. text.md 338 items. P1+P7 cards read clean.
+
+## ko-de (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2497.2. occlusion 0 flags (final SVGs). p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 0 added CJK. check_edition phrases 8/8, orphan 0, kinsoku 0. Letters-box margin +8px (disclosure shortened to 3 lines, pitch 124→112, trailing +26→+66; supp_de.py record updated). Print 32911086 bytes SHA256 ae645a2db08cb38577c194921fc949cbb3d8e7a90cebcb48226403eef0d8459a; web 2317183 bytes SHA256 56a82776e955060e9c34a6dcf5cfb04ebadf4aff7885068a038d1354c80c9987, pdftotext 53325 bytes, phrase x7. text.md 338 items. P1+P7 cards read clean.
+
+## ko-es (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2526.2. occlusion 0 flags (final SVGs). p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 0 added CJK. check_edition phrases 8/8, orphan 1 adjudicated (P4 SHORT-TAIL '않아요.' identical wrap in frozen core), kinsoku 0. Letters-box margin +8px (trailing +26→+40→+66). P2 title shortened; P1 gloss shortened to one line (LINEX fix). First print PDF 134887896 bytes transient bloat → re-render 32467647 bytes SHA256 fd377b2861781c6e9e0cb8352aa81c45219d3637edbecceeb81ed94ea03238b7; web 2297591 bytes SHA256 866308835317888f243ca955cb123d7c6e17db97b2351220f8889dbdec72ac5f, pdftotext 54073 bytes, phrase x7. text.md 338 items. P7 card read clean.
+
+## ko-pt (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2523.2. occlusion 0 flags. p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 8 added Hangul adjudicated (quoted '서울에서 만났어요' in error-clinic note, W45 precedent W45-pt content7.py:68). check_edition phrases 8/8, orphan 1 adjudicated (P4 SHORT-TAIL '않아요.' same-wrap-as-core), kinsoku 0. Letters-box margin +9px (trailing +34→+66, pitch 112→104; lcn shortened). P2 title shortened. Print 32469016 bytes SHA256 90a61e4fae68193c82c3f26f4f7451da8d73c2be50597335e1e97fc48ee23695; web 2301015 bytes SHA256 c372f4555bddc7cc9a07ebb51fed73e33bf7821e1ae1972e0d5a7bfc81667953, pdftotext 53684 bytes, phrase x7. text.md 338 items. P7 card read clean.
+
+## ko-nl (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2528.7. occlusion 0 flags. p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 0 added CJK. check_edition phrases 8/8, orphan 1 adjudicated (P4 SHORT-TAIL '않아요.' same-wrap-as-core), kinsoku 0. Letters-box margin +9px. P2 title shortened; P8-keys overflow fixed by unifying dual-role string to short form. Print 32464310 bytes SHA256 1a3cab8516174866ab7a6b60f7ee3ea55c4a1712377626a5bf0f8bd779d1b855; web 2291082 bytes SHA256 6eddae1d206298f51cc683e0ead695ea0f4baa92fdefaa1fca96f84bad542f0f, pdftotext 53187 bytes, phrase x7. text.md 338 items. P7 card read clean.
+
+## ko-ru (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2528.7. occlusion 0 flags. p8 compare CLEAN keydiff=[137,138], extract 150/150. freeze 0 added CJK. check_edition phrases 8/8, orphan 1 adjudicated (P4 SHORT-TAIL '않아요.' same-wrap-as-core), kinsoku 0. Letters-box margin +9px. Terse-note fixes (17) + 2 gloss shortenings (supp_ru.py divergence recorded in KIT). P2 title shortened. Print 30827137 bytes SHA256 8fdc51b4e5bcd500c9eee518a4148654e134f37d313999b74b417af3391f9088; web 2243384 bytes SHA256 9ff13624ebc3a8ad433cab43de86fc2ef2b764aa5d38e031662bc840552f7b74, pdftotext 61405 bytes, phrase x7. text.md 340 items (+2 P1 furniture). P7 card read clean.
+
+## ko-ja (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2470.7. occlusion 0 flags. p8 compare CLEAN keydiff=[137,138], extract 150/150 (first compare SHORT missing=[81,133] fixed by shortening 2 P8 notes). freeze 2664 added CJK, 0 Hangul (all kana/kanji, legitimate). check_edition phrases 8/8, orphan 1 adjudicated (P4 PAREN-FRAG identical to core), kinsoku 0. Letters-box margin +8px. P2 title shortened. Print 36156859 bytes SHA256 7e74eeb2a5413503b97d7e5832246393f5d8c62377c60b6dded36edee0540c35; web 2661595 bytes SHA256 d049da0475229039206670d58c13462cc576fe4a1c35044ba8723f5ad71671f1, pdftotext 53830 bytes, phrase x7. text.md 339 items (+1 P1 furniture). P1+P7 cards read clean.
+
+## ko-zh-tw (2026-11-02, post-fix)
+run.py TOTAL 150, zero overflows, teaser 2518.7. occlusion 0 flags. p8 compare CLEAN keydiff=[] (keys coincide; only 對照/对照 notes differ), extract 150/150. freeze 903 added CJK, 0 Hangul (all Traditional forms, legitimate). check_edition phrases 8/8, orphan 2 adjudicated (P4 PAREN-FRAG identical to core; P3 SHORT-TAIL '주세요.' same frozen wrap as core P3). kinsoku 0. Letters-box margin +8px. lcn2 shortened to 37 chars (teaser 2547.7→2518.7). Print 32054364 bytes SHA256 0a3157ed58b14d12480ed6a37c25cf39ef587c96d85259cdc735dabed6b2b828; web 2654715 bytes SHA256 55268140de26a51f42ddacf0203f183a5b57ece379607a035ea364f4128ce0ab, pdftotext 50912 bytes, phrase x7. text.md 340 items (+2 P1 furniture). P1+P7 cards read clean. Simplified-char scan 0 hits.
+
+## ko-core fix (2026-11-02, post-fix re-gate)
+Letters-box spill found on re-check: core lcn2 shortened to 37-char 2-line form + trailing +26→+66. Re-run TOTAL 150, zero overflows, teaser 2518.7. Occlusion 0 flags (final SVGs). check_edition phrases 8/8, orphan 1 adjudicated (PAREN-FRAG). Letters-box margin +8px (was -32). Print 32011288 bytes SHA256 05169e63026083cf2a26ede85b6730f8fe5e6a65f32c6e0c81d14a3965149999; web 2528379 bytes SHA256 b1a0b2b4610a08e4c702766262b0f9d76ec59ea9c13a07c153241ae13f6a350e, pdftotext 50765 bytes, phrase x7. text.md regenerated 338 items. P7 card re-read clean. Core KIT corrected (prior 'spill fixed' claim was wrong).

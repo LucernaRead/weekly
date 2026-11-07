@@ -1,0 +1,249 @@
+=== occlusion selftest ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+=== freeze baseline (core reproduction) ===
+baseline rc=0
+baseline: 8/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content7.py, content8.py, render.py)
+  OK  p1-front.svg core 572ec520dacb445e produced 572ec520dacb445e
+  OK  p2-life.svg core 1284785ff19b7930 produced 1284785ff19b7930
+  OK  p3-culture.svg core 6e4ec0162084e28b produced 6e4ec0162084e28b
+  OK  p4-sport.svg core f73c663a033a541e produced f73c663a033a541e
+  OK  p5-youth.svg core a2ffcb8c95281dbd produced a2ffcb8c95281dbd
+  OK  p6-deep.svg core 6b2a5eed5123b90f produced 6b2a5eed5123b90f
+  OK  p7-lang.svg core d8f90cebf384fd29 produced d8f90cebf384fd29
+  OK  p8-test.svg core df1fc0e2d224e119 produced df1fc0e2d224e119
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+=== de freeze diff --strict-cjk ===
+freeze-de rc=0
+p1: +25 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +39 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +46 strings / -42 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +39 strings / -37 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +41 strings / -39 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +36 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +93 strings / -89 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +187 strings / -183 strings; CJK core 1064 -> edition 1044; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== de p8 compare ===
+p8-de rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-de/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== de occlusion ===
+occlusion-de rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-de/svg: 0 flags 
+=== de occlusion NEW vs core ===
+occlusion-new-de rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-de/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== es freeze diff --strict-cjk ===
+freeze-es rc=0
+p1: +25 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +39 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +47 strings / -43 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +42 strings / -38 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +40 strings / -38 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +38 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +97 strings / -91 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +191 strings / -191 strings; CJK core 1064 -> edition 1044; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== es p8 compare ===
+p8-es rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-es/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== es occlusion ===
+occlusion-es rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-es/svg: 0 flags 
+=== es occlusion NEW vs core ===
+occlusion-new-es rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-es/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== fr freeze diff --strict-cjk ===
+freeze-fr rc=0
+p1: +25 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +39 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +44 strings / -41 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +39 strings / -37 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +41 strings / -38 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +39 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +94 strings / -89 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +183 strings / -180 strings; CJK core 1064 -> edition 1044; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== fr p8 compare ===
+p8-fr rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-fr/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== fr occlusion ===
+occlusion-fr rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-fr/svg: 0 flags 
+=== fr occlusion NEW vs core ===
+occlusion-new-fr rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-fr/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== it freeze diff --strict-cjk ===
+freeze-it rc=0
+p1: +24 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +39 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +44 strings / -43 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +40 strings / -37 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +39 strings / -38 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +36 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +94 strings / -91 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +191 strings / -189 strings; CJK core 1064 -> edition 977; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== it p8 compare ===
+p8-it rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-it/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== it occlusion ===
+occlusion-it rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-it/svg: 0 flags 
+=== it occlusion NEW vs core ===
+occlusion-new-it rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-it/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== ja freeze diff --strict-cjk ===
+freeze-ja rc=1
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +25 strings / -25 strings; CJK core 826 -> edition 1264; added CJK chars: 454 {'中': 1, '年': 2, '月': 8, '日': 15, '（': 7, '一': 1, '）': 7, '台': 3, '港': 1, '国': 6}
+p2: +37 strings / -37 strings; CJK core 1009 -> edition 1393; added CJK chars: 397 {'暮': 1, 'ら': 3, 'し': 14, '東': 2, '北': 3, '季': 1, '、': 10, '湯': 1, 'モ': 2, 'ン': 6}
+p3: +40 strings / -43 strings; CJK core 1030 -> edition 1461; added CJK chars: 444 {'化': 1, '金': 6, '馬': 4, '展': 2, '、': 11, '映': 3, '画': 2, '祭': 2, 'と': 5, '鉄': 3}
+p4: +38 strings / -39 strings; CJK core 791 -> edition 1224; added CJK chars: 447 {'ス': 4, 'ポ': 13, 'ー': 13, 'ツ': 3, '行': 2, '告': 1, '運': 1, '動': 1, '集': 1, '優': 4}
+p5: +40 strings / -39 strings; CJK core 1166 -> edition 1595; added CJK chars: 443 {'年': 3, '若': 1, '者': 1, '、': 8, '演': 1, '抽': 2, 'ア': 6, 'ー': 22, 'ツ': 2, '・': 10}
+p6: +35 strings / -35 strings; CJK core 853 -> edition 1317; added CJK chars: 477 {'深': 3, 'く': 6, '読': 5, 'む': 2, 'ダ': 1, 'ブ': 2, 'ル': 1, 'イ': 4, 'レ': 1, 'ン': 9}
+p7: +88 strings / -91 strings; CJK core 825 -> edition 2000; added CJK chars: 1189 {'語': 2, '言': 8, 'こ': 13, 'と': 24, 'ば': 3, 'の': 44, '焦': 1, '点': 1, 'つ': 9, 'レ': 6}
+p8: +189 strings / -188 strings; CJK core 1064 -> edition 3651; added CJK chars: 2594 {'答': 6, 'テ': 8, 'ス': 20, 'ト': 30, 'と': 51, 'え': 7, '本': 5, '週': 2, '大': 6, '全': 4}
+TOTAL added CJK characters: 6445
+=== ja p8 compare ===
+p8-ja rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-ja/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== ja occlusion ===
+occlusion-ja rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ja/svg: 0 flags 
+=== ja occlusion NEW vs core ===
+occlusion-new-ja rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ja/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== ko freeze diff --strict-cjk ===
+freeze-ko rc=1
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +24 strings / -25 strings; CJK core 826 -> edition 1198; added CJK chars: 404 {'중': 5, '국': 9, '어': 12, '번': 5, '체': 3, '텍': 2, '스': 5, '트': 2, '한': 5, '해': 5}
+p2: +33 strings / -37 strings; CJK core 1009 -> edition 1315; added CJK chars: 328 {'생': 1, '활': 1, '동': 2, '북': 3, '계': 4, '절': 3, '풍': 2, '온': 6, '천': 3, '더': 2}
+p3: +37 strings / -43 strings; CJK core 1030 -> edition 1393; added CJK chars: 386 {'문': 2, '화': 5, '금': 6, '마': 7, '영': 6, '제': 8, '와': 3, '철': 3, '조': 2, '각': 2}
+p4: +36 strings / -38 strings; CJK core 791 -> edition 1140; added CJK chars: 371 {'스': 6, '포': 13, '츠': 3, '우': 11, '승': 4, '퍼': 6, '레': 5, '이': 15, '드': 7, '예': 3}
+p5: +37 strings / -39 strings; CJK core 1166 -> edition 1507; added CJK chars: 363 {'청': 1, '년': 4, '아': 5, '츠': 2, '인': 4, '더': 2, '파': 4, '크': 4, '콘': 3, '서': 9}
+p6: +33 strings / -35 strings; CJK core 853 -> edition 1213; added CJK chars: 381 {'깊': 3, '이': 17, '읽': 4, '기': 19, '더': 2, '블': 2, '일': 4, '레': 2, '븐': 2, '와': 1}
+p7: +85 strings / -90 strings; CJK core 825 -> edition 1751; added CJK chars: 946 {'언': 1, '어': 28, '포': 3, '커': 2, '스': 4, '세': 12, '단': 7, '계': 2, '가': 16, '지': 11}
+p8: +186 strings / -188 strings; CJK core 1064 -> edition 3132; added CJK chars: 2088 {'시': 24, '험': 2, '과': 6, '정': 9, '답': 9, '이': 81, '번': 8, '주': 4, '모': 15, '든': 5}
+TOTAL added CJK characters: 5267
+=== ko p8 compare ===
+p8-ko rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-ko/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== ko occlusion ===
+occlusion-ko rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ko/svg: 0 flags 
+=== ko occlusion NEW vs core ===
+occlusion-new-ko rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ko/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== nl freeze diff --strict-cjk ===
+freeze-nl rc=0
+p1: +24 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +39 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +45 strings / -43 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +39 strings / -37 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +39 strings / -37 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +37 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +91 strings / -89 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +186 strings / -183 strings; CJK core 1064 -> edition 1044; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== nl p8 compare ===
+p8-nl rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-nl/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== nl occlusion ===
+=== nl occlusion ===
+occlusion-nl rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-nl/svg: 0 flags 
+=== nl occlusion NEW vs core ===
+occlusion-new-nl rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-nl/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== pt freeze diff --strict-cjk ===
+freeze-pt rc=0
+p1: +25 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +38 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +44 strings / -43 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +42 strings / -38 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +40 strings / -38 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +37 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +94 strings / -91 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +190 strings / -189 strings; CJK core 1064 -> edition 977; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== pt p8 compare ===
+p8-pt rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-pt/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== pt occlusion ===
+occlusion-pt rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-pt/svg: 0 flags 
+=== pt occlusion NEW vs core ===
+occlusion-new-pt rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-pt/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== ru freeze diff --strict-cjk ===
+freeze-ru rc=0
+p1: +28 strings / -25 strings; CJK core 826 -> edition 794; added CJK chars: 0 
+p2: +41 strings / -37 strings; CJK core 1009 -> edition 987; added CJK chars: 0 
+p3: +48 strings / -43 strings; CJK core 1030 -> edition 1007; added CJK chars: 0 
+p4: +45 strings / -39 strings; CJK core 791 -> edition 769; added CJK chars: 0 
+p5: +42 strings / -39 strings; CJK core 1166 -> edition 1144; added CJK chars: 0 
+p6: +37 strings / -35 strings; CJK core 853 -> edition 832; added CJK chars: 0 
+p7: +98 strings / -90 strings; CJK core 825 -> edition 805; added CJK chars: 0 
+p8: +198 strings / -186 strings; CJK core 1064 -> edition 1044; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== ru p8 compare ===
+p8-ru rc=0
+core    ../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-zh-tw-ru/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+=== ru occlusion ===
+occlusion-ru rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ru/svg: 0 flags 
+=== ru occlusion NEW vs core ===
+occlusion-new-ru rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zh-tw-ru/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+=== core (en) p8 extract + occlusion ===
+p8-en rc=0
+../files/weekly-report-w46-zhtw-core/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion-en rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-zhtw-core/svg: 0 flags 

@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +44 strings / -46 strings; CJK core 932 -> edition 1297; added CJK chars: 398 {'中': 3, '文': 2, '本': 6, '物': 7, 'の': 12, '国': 6, '語': 8, 'を': 12, '毎': 1, '週': 7}
+p2: +56 strings / -60 strings; CJK core 968 -> edition 1432; added CJK chars: 477 {'生': 1, '活': 1, '一': 1, '買': 3, 'い': 10, '物': 5, 'の': 16, '週': 3, 'と': 2, '寒': 2}
+p3: +38 strings / -38 strings; CJK core 877 -> edition 1170; added CJK chars: 306 {'化': 2, '消': 2, '防': 2, '日': 4, '月': 3, 'の': 5, 'と': 5, '読': 6, '書': 3, '間': 2}
+p4: +38 strings / -39 strings; CJK core 787 -> edition 1115; added CJK chars: 342 {'ス': 10, 'ポ': 2, 'ー': 11, 'ツ': 2, '完': 1, '世': 1, '界': 1, '大': 1, '会': 1, '：': 4}
+p5: +38 strings / -39 strings; CJK core 901 -> edition 1171; added CJK chars: 283 {'若': 1, '者': 1, '映': 8, '月': 2, '名': 2, '作': 2, 'の': 7, '再': 4, '上': 5, 'と': 3}
+p6: +41 strings / -41 strings; CJK core 1019 -> edition 1401; added CJK chars: 397 {'深': 1, '読': 7, 'み': 3, '荷': 4, '物': 5, 'の': 13, 'ピ': 1, 'ー': 7, 'ク': 2, 'が': 2}
+p7: +76 strings / -80 strings; CJK core 741 -> edition 1513; added CJK chars: 783 {'言': 5, '葉': 4, 'の': 29, '焦': 1, '点': 1, '主': 4, 'レ': 4, 'ベ': 2, 'ル': 2, '、': 37}
+p8: +192 strings / -196 strings; CJK core 1084 -> edition 2996; added CJK chars: 1922 {'答': 8, 'テ': 8, 'ス': 24, 'ト': 8, 'と': 11, 'え': 6, '第': 5, '本': 5, '大': 4, '全': 1}
+TOTAL added CJK characters: 4908

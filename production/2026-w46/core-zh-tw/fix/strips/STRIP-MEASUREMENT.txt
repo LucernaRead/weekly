@@ -1,0 +1,8 @@
+D5 1:1 pixel-strip verification (cards/p7-lang.png, 1950x2700, 1:1 with SVG coords)
+Method: count #2c2822-dark pixels in x 65..1885 per row, y 2400..2600 (teaser band only;
+the page frame bottom edge at y=2672 is excluded by the y-range).
+en: last full-dark row 2572 (1820 px), 0 dark px at footer-rule row 2580 -> CLEAR (SVG bottom 2573.86)
+es: last full-dark row 2572 (1820 px), 0 dark px at footer-rule row 2580 -> CLEAR (SVG bottom 2573.86)
+fr: last full-dark row 2572 (1820 px), 0 dark px at footer-rule row 2580 -> CLEAR (SVG bottom 2573.86)
+nl: last full-dark row 2571 (1820 px), 0 dark px at footer-rule row 2580 -> CLEAR (SVG bottom 2572.36)
+Strips (full width, rows 2460-2660): strips/p7-teaser-{en,es,fr,nl}.png

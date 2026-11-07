@@ -1,0 +1,40 @@
+== gloss occurrence ==
+  P1 MISS: 입동
+  P1 MISS: 상륙
+  P1 MISS: 온대저기압
+  P2 MISS: 막히
+  P2 MISS: 버무리
+  P2 MISS: 아삭하
+  P3 MISS: 기준
+  P3 MISS: 가늘
+  P3 MISS: 막히
+  P4 MISS: 만루홈런
+  P4 MISS: 미뤄지
+  P4 MISS: 하나가 되
+  P5 MISS: 끈끈하
+  P5 MISS: 피곤하
+  P5 MISS: 졸리
+  P6 MISS: 재
+  P6 MISS: 정직하
+  P7 MISS: 본격
+  P7 MISS: 짐작
+  gloss fails: 19
+== P7 phrases ==
+  ok p1: 배추 값은 내렸는데 새우젓 값은 올랐어요
+  ok p1: 11월 11일은 이름이 세 개인 날이에요
+  ok p2: 김장이 한창이에요
+  ok p2: 수능까지 7일 남았어요. 오늘이 D-7예요
+  ok p3: 예보 날짜와 실제 관측 날짜는 달라요
+  ok p4: 결과는 KBO 홈페이지에서 확인하세요
+  ok p5: 수능까지 딱 일주일이 남아요
+  ok p6: 날짜와 기준과 결과를 나누면
+  phrases all verbatim: True
+== orphan scan (window 10-45, >=3-syllable tail) ==
+  (4, 'PAREN-FRAG', 2098.225, '신문에 나온 일이에요.)')
+  orphan issues: 1
+== dates ==
+  2026-11-09 Mon -> 10 days = D-10: True
+  2026-11-12 Thu -> 7 days = D-7: True
+  2026-11-15 Sun -> 4 days = D-4: True
+  2026-11-18 Wed -> 1 days = D-1: True
+  Nov 11 weekday: Wednesday | Nov 9: Monday | Nov 28: Saturday

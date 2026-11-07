@@ -1,0 +1,20 @@
+WROTE counts-phrases-chart-r3.json
+en p8mismatch [] key150 ✓
+de p8mismatch [] key150 ✓
+es p8mismatch [] key150 ✓
+fr p8mismatch [] key150 ✓
+it p8mismatch [] key150 ✓
+ja p8mismatch [] key150 ✓
+ko p8mismatch [] key150 ✓
+nl p8mismatch [] key150 ✓
+pt p8mismatch [] key150 ✓
+ru p8mismatch [] key150 ✓
+freeze {'ja': 4908, 'ko': 4304}
+ko hanzi 0
+chips {'en': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'de': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'es': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'fr': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'it': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'ja': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'ko': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'nl': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'pt': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}, 'ru': {'p1-touiban': 10, 'p2-shenghuo': 18, 'p3-wenhua': 18, 'p4-tiyu': 18, 'p5-qingnian': 18, 'p6-shendu': 18, 'p7-ciyu': 12, 'p8-ceyan': 38}}
+chart-en [('325', '1274', '220.0', '30', '#3e4c2a'), ('325', '1324', '330.0', '30', '#b3a06a'), ('325', '1374', '550.0', '30', '#b3a06a'), ('325', '1424', '770.0', '30', '#b3a06a')]
+kinsoku totals {'en': 0, 'de': 0, 'es': 0, 'fr': 0, 'it': 0, 'ja': 0, 'ko': 0, 'nl': 0, 'pt': 0, 'ru': 0}
+orphan {'en': (0, 0), 'de': (0, 0), 'es': (0, 0), 'fr': (0, 0), 'it': (0, 0), 'ja': (0, 0), 'ko': (0, 0), 'nl': (0, 0), 'pt': (0, 0), 'ru': (0, 0)}
+images {'en': 5, 'de': 5, 'es': 5, 'fr': 5, 'it': 5, 'ja': 5, 'ko': 5, 'nl': 5, 'pt': 5, 'ru': 5}
+payloads identical: True []
+scripts {'en': (0, 0, 0, 0, [], {}, {}), 'de': (0, 0, 0, 0, [], {}, {}), 'es': (0, 0, 0, 0, [], {}, {}), 'fr': (0, 0, 0, 0, [], {}, {}), 'it': (0, 0, 0, 0, [], {}, {}), 'ja': (0, 1752, 641, 0, [], {}, {}), 'ko': (4304, 0, 0, 0, [], {}, {}), 'nl': (0, 0, 0, 0, [], {}, {}), 'pt': (0, 0, 0, 0, [], {}, {}), 'ru': (0, 0, 0, 10563, [], {}, {})}

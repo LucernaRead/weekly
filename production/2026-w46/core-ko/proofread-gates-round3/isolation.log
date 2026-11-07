@@ -1,0 +1,331 @@
+pre-fix inventory sections: {'core': 19, 'de': 19, 'en': 19, 'es': 19, 'fr': 19, 'it': 19, 'ja': 19, 'nl': 19, 'pt': 19, 'ru': 19, 'zh-tw': 19}
+zh-cn changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-web.pdf', 'Lucerna-VOL3.pdf', '2026-w46-ko-zh-cn.text.md']
+de changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-web.pdf', 'Lucerna-VOL3.pdf', '2026-w46-ko-de.text.md']
+en changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-EN-web.pdf', 'Lucerna-VOL3-EN.pdf', '2026-w46-ko-en.text.md']
+es changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-ES-web.pdf', 'Lucerna-VOL3-ES.pdf', '2026-w46-ko-es.text.md']
+fr changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-FR-web.pdf', 'Lucerna-VOL3-FR.pdf', '2026-w46-ko-fr.text.md']
+it changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-IT-web.pdf', 'Lucerna-VOL3-IT.pdf', '2026-w46-ko-it.text.md']
+ja changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-web.pdf', 'Lucerna-VOL3.pdf', '2026-w46-ko-ja.text.md']
+nl changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-NL-web.pdf', 'Lucerna-VOL3-NL.pdf', '2026-w46-ko-nl.text.md']
+pt changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-web.pdf', 'Lucerna-VOL3.pdf', '2026-w46-ko-pt.text.md']
+ru changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-RU-web.pdf', 'Lucerna-VOL3-RU.pdf', '2026-w46-ko-ru.text.md']
+zh-tw changed files: 9 ['cards/p3-munhwa.png', 'cards/p4-seupocheu.png', 'cards/p7-mal.png', 'svg/p3-munhwa.svg', 'svg/p4-seupocheu.svg', 'svg/p7-mal.svg', 'Lucerna-VOL3-ZHTW-web.pdf', 'Lucerna-VOL3-ZHTW.pdf', '2026-w46-ko-zh-tw.text.md']
+zh-cn p1-pyoji.txt identical 158 nodes
+zh-cn p2-saenghwal.txt identical 189 nodes
+zh-cn p3-munhwa.txt +2 -2
+   REMOVED x1: '译注｜겹치다 重叠 · 감사하다 感谢 · 나누다'
+   REMOVED x1: '区分、分享。'
+   ADDED   x1: '译注｜겹치다 重叠 · 가늘다 细 · 감사하다'
+   ADDED   x1: '感谢 · 나누다 区分、分享。'
+zh-cn p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+zh-cn p5-cheongnyeon.txt identical 169 nodes
+zh-cn p6-gipi.txt identical 168 nodes
+zh-cn p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+zh-cn p8-siheom.txt identical 318 nodes
+de p1-pyoji.txt identical 161 nodes
+de p2-saenghwal.txt identical 193 nodes
+de p3-munhwa.txt +2 -2
+   REMOVED x1: '감사하다 = danken · 나누다 ='
+   REMOVED x1: 'unterscheiden, teilen'
+   ADDED   x1: '가늘다 = dünn · 감사하다 = danken · 나누다'
+   ADDED   x1: '= unterscheiden, teilen'
+de p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+de p5-cheongnyeon.txt identical 171 nodes
+de p6-gipi.txt identical 170 nodes
+de p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+de p8-siheom.txt identical 334 nodes
+en p1-pyoji.txt identical 160 nodes
+en p2-saenghwal.txt identical 193 nodes
+en p3-munhwa.txt +3 -2
+   REMOVED x1: 'Note — 겹치다 = to overlap · 감사하다 = to'
+   REMOVED x1: 'thank · 나누다 = to tell apart, to share'
+   ADDED   x1: 'Note — 겹치다 = to overlap · 가늘다 = thin'
+   ADDED   x1: '· 감사하다 = to thank · 나누다 = to tell'
+   ADDED   x1: 'apart, to share'
+en p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+en p5-cheongnyeon.txt identical 170 nodes
+en p6-gipi.txt identical 170 nodes
+en p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+en p8-siheom.txt identical 323 nodes
+es p1-pyoji.txt identical 161 nodes
+es p2-saenghwal.txt identical 194 nodes
+es p3-munhwa.txt +2 -2
+   REMOVED x1: '감사하다 = agradecer · 나누다 = distinguir,'
+   REMOVED x1: 'compartir'
+   ADDED   x1: '가늘다 = fino · 감사하다 = agradecer ·'
+   ADDED   x1: '나누다 = distinguir, compartir'
+es p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+es p5-cheongnyeon.txt identical 171 nodes
+es p6-gipi.txt identical 173 nodes
+es p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+es p8-siheom.txt identical 329 nodes
+fr p1-pyoji.txt identical 160 nodes
+fr p2-saenghwal.txt identical 192 nodes
+fr p3-munhwa.txt +3 -2
+   REMOVED x1: 'Note — 겹치다 = se chevaucher · 감사하다'
+   REMOVED x1: '= remercier · 나누다 = distinguer, partager'
+   ADDED   x1: 'Note — 겹치다 = se chevaucher · 가늘다 ='
+   ADDED   x1: 'fin · 감사하다 = remercier · 나누다 ='
+   ADDED   x1: 'distinguer, partager'
+fr p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+fr p5-cheongnyeon.txt identical 171 nodes
+fr p6-gipi.txt identical 170 nodes
+fr p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+fr p8-siheom.txt identical 328 nodes
+it p1-pyoji.txt identical 161 nodes
+it p2-saenghwal.txt identical 194 nodes
+it p3-munhwa.txt +3 -3
+   REMOVED x1: 'Nota — 겹치다 = sovrapporsi · 감사하다 ='
+   REMOVED x1: 'ringraziare · 나누다 = distinguere,'
+   REMOVED x1: 'condividere'
+   ADDED   x1: 'Nota — 겹치다 = sovrapporsi · 가늘다 ='
+   ADDED   x1: 'sottile · 감사하다 = ringraziare · 나누다 ='
+   ADDED   x1: 'distinguere, condividere'
+it p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+it p5-cheongnyeon.txt identical 173 nodes
+it p6-gipi.txt identical 173 nodes
+it p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+it p8-siheom.txt identical 323 nodes
+ja p1-pyoji.txt identical 159 nodes
+ja p2-saenghwal.txt identical 191 nodes
+ja p3-munhwa.txt +3 -2
+   REMOVED x1: '解説 — 겹치다 = 重なる · 감사하다 ='
+   REMOVED x1: '感謝する · 나누다 = 区別する、分かち合う'
+   ADDED   x1: '解説 — 겹치다 = 重なる · 가늘다 = 細い ·'
+   ADDED   x1: '감사하다 = 感謝する · 나누다 ='
+   ADDED   x1: '区別する、分かち合う'
+ja p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+ja p5-cheongnyeon.txt identical 169 nodes
+ja p6-gipi.txt identical 170 nodes
+ja p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+ja p8-siheom.txt identical 318 nodes
+nl p1-pyoji.txt identical 161 nodes
+nl p2-saenghwal.txt identical 195 nodes
+nl p3-munhwa.txt +3 -3
+   REMOVED x1: 'Uitleg — 겹치다 = samenvallen · 감사하다 ='
+   REMOVED x1: 'bedanken · 나누다 = onderscheiden,'
+   REMOVED x1: 'delen'
+   ADDED   x1: 'Uitleg — 겹치다 = samenvallen · 가늘다 ='
+   ADDED   x1: 'dun · 감사하다 = bedanken · 나누다 ='
+   ADDED   x1: 'onderscheiden, delen'
+nl p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+nl p5-cheongnyeon.txt identical 173 nodes
+nl p6-gipi.txt identical 172 nodes
+nl p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+nl p8-siheom.txt identical 332 nodes
+pt p1-pyoji.txt identical 160 nodes
+pt p2-saenghwal.txt identical 194 nodes
+pt p3-munhwa.txt +3 -2
+   REMOVED x1: 'Nota — 겹치다 = sobrepor-se · 감사하다 ='
+   REMOVED x1: 'agradecer · 나누다 = distinguir, partilhar'
+   ADDED   x1: 'Nota — 겹치다 = sobrepor-se · 가늘다 ='
+   ADDED   x1: 'fino · 감사하다 = agradecer · 나누다 ='
+   ADDED   x1: 'distinguir, partilhar'
+pt p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+pt p5-cheongnyeon.txt identical 172 nodes
+pt p6-gipi.txt identical 172 nodes
+pt p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+pt p8-siheom.txt identical 326 nodes
+ru p1-pyoji.txt identical 161 nodes
+ru p2-saenghwal.txt identical 196 nodes
+ru p3-munhwa.txt +3 -3
+   REMOVED x1: 'Пояснение — 겹치다 = совпадать ·'
+   REMOVED x1: '감사하다 = благодарить · 나누다 ='
+   REMOVED x1: 'различать, делиться'
+   ADDED   x1: 'Пояснение — 겹치다 = совпадать · 가늘다'
+   ADDED   x1: '= тонкий · 감사하다 = благодарить ·'
+   ADDED   x1: '나누다 = различать, делиться'
+ru p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+ru p5-cheongnyeon.txt identical 175 nodes
+ru p6-gipi.txt identical 172 nodes
+ru p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+ru p8-siheom.txt identical 329 nodes
+zh-tw p1-pyoji.txt identical 160 nodes
+zh-tw p2-saenghwal.txt identical 189 nodes
+zh-tw p3-munhwa.txt +2 -2
+   REMOVED x1: '譯注｜겹치다 重疊 · 감사하다 感謝 ·'
+   REMOVED x1: '나누다 區分、分享。'
+   ADDED   x1: '譯注｜겹치다 重疊 · 가늘다 細 · 감사하다'
+   ADDED   x1: '感謝 · 나누다 區分、分享。'
+zh-tw p4-seupocheu.txt +1 -1
+   REMOVED x1: '한국시리즈 시작이 하루 ___어요.'
+   ADDED   x1: '한국시리즈 시작이 하루 ___.'
+zh-tw p5-cheongnyeon.txt identical 169 nodes
+zh-tw p6-gipi.txt identical 168 nodes
+zh-tw p7-mal.txt +1 -1
+   REMOVED x1: '미리 소금에 절인 배추를 ___이라고 해요.'
+   ADDED   x1: '미리 소금에 절인 배추를 ___라고 해요.'
+zh-tw p8-siheom.txt identical 318 nodes
+MULTISET TOTAL: +51 -47
+zh-cn text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 重叠 · 감사하다 感谢 · 나누다 区分、分享。
+    +겹치다 重叠 · 가늘다 细 · 감사하다 感谢 · 나누다 区分、分享。
+     
+     단풍 구경, 이렇게 가세요
+     
+de text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = sich überschneiden · 감사하다 = danken · 나누다 = unterscheiden, teilen
+    +겹치다 = sich überschneiden · 가늘다 = dünn · 감사하다 = danken · 나누다 = unterscheiden, teilen
+     
+     단풍 구경, 이렇게 가세요
+     
+en text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = to overlap · 감사하다 = to thank · 나누다 = to tell apart, to share
+    +겹치다 = to overlap · 가늘다 = thin · 감사하다 = to thank · 나누다 = to tell apart, to share
+     
+     단풍 구경, 이렇게 가세요
+     
+es text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = coincidir, solaparse · 감사하다 = agradecer · 나누다 = distinguir, compartir
+    +겹치다 = coincidir, solaparse · 가늘다 = fino · 감사하다 = agradecer · 나누다 = distinguir, compartir
+     
+     단풍 구경, 이렇게 가세요
+     
+fr text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = se chevaucher · 감사하다 = remercier · 나누다 = distinguer, partager
+    +겹치다 = se chevaucher · 가늘다 = fin · 감사하다 = remercier · 나누다 = distinguer, partager
+     
+     단풍 구경, 이렇게 가세요
+     
+it text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = sovrapporsi · 감사하다 = ringraziare · 나누다 = distinguere, condividere
+    +겹치다 = sovrapporsi · 가늘다 = sottile · 감사하다 = ringraziare · 나누다 = distinguere, condividere
+     
+     단풍 구경, 이렇게 가세요
+     
+ja text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -276,7 +276,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = 重なる · 감사하다 = 感謝する · 나누다 = 区別する、分かち合う
+    +겹치다 = 重なる · 가늘다 = 細い · 감사하다 = 感謝する · 나누다 = 区別する、分かち合う
+     
+     단풍 구경, 이렇게 가세요
+     
+nl text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = samenvallen · 감사하다 = bedanken · 나누다 = onderscheiden, delen
+    +겹치다 = samenvallen · 가늘다 = dun · 감사하다 = bedanken · 나누다 = onderscheiden, delen
+     
+     단풍 구경, 이렇게 가세요
+     
+pt text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -274,7 +274,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = sobrepor-se · 감사하다 = agradecer · 나누다 = distinguir, partilhar
+    +겹치다 = sobrepor-se · 가늘다 = fino · 감사하다 = agradecer · 나누다 = distinguir, partilhar
+     
+     단풍 구경, 이렇게 가세요
+     
+ru text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -278,7 +278,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 = совпадать · 감사하다 = благодарить · 나누다 = различать, делиться
+    +겹치다 = совпадать · 가늘다 = тонкий · 감사하다 = благодарить · 나누다 = различать, делиться
+     
+     단풍 구경, 이렇게 가세요
+     
+zh-tw text.md diff lines: 11
+    --- 
+    +++ 
+    @@ -278,7 +278,7 @@
+     
+     가래떡데이는 2006년부터 시작됐어요. 우리 쌀로 만든 가래떡을 나누는 날이에요. 빼빼로 대신 가래떡을 선물하는 사람도 있어요. 같은 날짜, 다른 이름 — 세 이름의 뜻을 알면 11월 11일이 더 재미있어요.
+     
+    -겹치다 重疊 · 감사하다 感謝 · 나누다 區分、分享。
+    +겹치다 重疊 · 가늘다 細 · 감사하다 感謝 · 나누다 區分、分享。
+     
+     단풍 구경, 이렇게 가세요
+     

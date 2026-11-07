@@ -1,0 +1,486 @@
+===== en =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=590 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=813 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=791 (bottom 1180)
+P4 col3 ends 1227.6
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=928 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=460 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1312 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1222 (bottom 1560)
+P7 col3 ends 1626.44
+P7 teaser ends 2514
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2411 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-core/Lucerna-VOL3.pdf 36740408
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-core/svg
+698 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 239228 bytes
+  font LucernaNotoSansCJKSC-Bold: 244428 bytes
+  font LucernaNotoSerifCJKSC-Regular: 341084 bytes
+  font LucernaNotoSerifCJKSC-Bold: 348140 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30540 bytes
+WROTE ../files/weekly-report-w46-zh-cn-core/Lucerna-VOL3-web.pdf: 2390819 bytes, 45077 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-core/2026-w46-zh-cn-en.text.md 1868 lines
+===== en DONE =====
+===== de =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=619 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=843 (bottom 1560)
+P3 col3 ends 1355.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=821 (bottom 1180)
+P4 col3 ends 1258.1
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=928 (bottom 1560)
+P5 col3 ends 1186.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=566 (bottom 1180)
+P6 col3 ends 1127.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1344 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1320 (bottom 1560)
+P7 col3 ends 1708.48
+P7 teaser ends 2554.48
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2485 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-de/Lucerna-VOL3-DE.pdf 41752795
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-de/svg
+703 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 239176 bytes
+  font LucernaNotoSansCJKSC-Bold: 244216 bytes
+  font LucernaNotoSerifCJKSC-Regular: 340980 bytes
+  font LucernaNotoSerifCJKSC-Bold: 348136 bytes
+  font LucernaUnifrakturMaguntia-Regular: 33480 bytes
+WROTE ../files/weekly-report-w46-zh-cn-de/Lucerna-VOL3-DE-web.pdf: 2512304 bytes, 46148 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-de/2026-w46-zh-cn-de.text.md 1868 lines
+===== de DONE =====
+===== es =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=590 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=843 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=791 (bottom 1180)
+P4 col3 ends 1258.1
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=928 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=498 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1312 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1288 (bottom 1560)
+P7 col3 ends 1681.96
+P7 teaser ends 2527.96
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2366 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-es/Lucerna-VOL3-ES.pdf 42127052
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-es/svg
+698 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 238616 bytes
+  font LucernaNotoSansCJKSC-Bold: 243676 bytes
+  font LucernaNotoSerifCJKSC-Regular: 340188 bytes
+  font LucernaNotoSerifCJKSC-Bold: 347284 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30704 bytes
+WROTE ../files/weekly-report-w46-zh-cn-es/Lucerna-VOL3-ES-web.pdf: 2497485 bytes, 45801 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-es/2026-w46-zh-cn-es.text.md 1884 lines
+===== es DONE =====
+===== fr =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=590 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=843 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=791 (bottom 1180)
+P4 col3 ends 1288.6
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=928 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=528 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1344 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1288 (bottom 1560)
+P7 col3 ends 1648.98
+P7 teaser ends 2514
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2485 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-fr/Lucerna-VOL3-FR.pdf 38266462
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-fr/svg
+704 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 238832 bytes
+  font LucernaNotoSansCJKSC-Bold: 244004 bytes
+  font LucernaNotoSerifCJKSC-Regular: 340408 bytes
+  font LucernaNotoSerifCJKSC-Bold: 347392 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30940 bytes
+WROTE ../files/weekly-report-w46-zh-cn-fr/Lucerna-VOL3-FR-web.pdf: 2405806 bytes, 47170 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-fr/2026-w46-zh-cn-fr.text.md 1868 lines
+===== fr DONE =====
+===== it =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=590 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=872 (bottom 1560)
+P3 col3 ends 1355.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=791 (bottom 1180)
+P4 col3 ends 1258.1
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=928 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=528 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1344 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1288 (bottom 1560)
+P7 col3 ends 1652.96
+P7 teaser ends 2514
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2411 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-it/Lucerna-VOL3-IT.pdf 39035701
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-it/svg
+697 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 238376 bytes
+  font LucernaNotoSansCJKSC-Bold: 243524 bytes
+  font LucernaNotoSerifCJKSC-Regular: 340036 bytes
+  font LucernaNotoSerifCJKSC-Bold: 347028 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30580 bytes
+WROTE ../files/weekly-report-w46-zh-cn-it/Lucerna-VOL3-IT-web.pdf: 2420621 bytes, 45878 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-it/2026-w46-zh-cn-it.text.md 1884 lines
+===== it DONE =====
+===== ja =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=990 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=432 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=813 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=761 (bottom 1180)
+P4 col3 ends 1227.6
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=898 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=460 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1246 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1190 (bottom 1560)
+P7 col3 ends 1595.94
+P7 teaser ends 2514
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2351 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-ja/Lucerna-VOL3-JA.pdf 33921298
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-ja/svg
+957 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 362384 bytes
+  font LucernaNotoSansCJKSC-Bold: 370112 bytes
+  font LucernaNotoSerifCJKSC-Regular: 520032 bytes
+  font LucernaNotoSerifCJKSC-Bold: 530424 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28544 bytes
+WROTE ../files/weekly-report-w46-zh-cn-ja/Lucerna-VOL3-JA-web.pdf: 2730430 bytes, 47271 text bytes
+--- textmd.py ---
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-ja/2026-w46-zh-cn-ja.text.md 1868 lines
+===== ja DONE =====
+===== ko =====
+--- run.py ---
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=905 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=590 (bottom 1540)
+P2 col3 ends 1138.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=813 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2062 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=761 (bottom 1180)
+P4 col3 ends 1258.1
+  flow[P4-ex] ended col 2/3 y=2062 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=898 (bottom 1560)
+P5 col3 ends 1157.4499999999998
+  flow[P5-ex] ended col 2/3 y=2062 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 2/2 y=460 (bottom 1180)
+P6 col3 ends 1069.0
+  flow[P6-ex] ended col 2/3 y=2002 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1124 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1246 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1157 (bottom 1560)
+P7 col3 ends 1622.46
+P7 teaser ends 2514
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2351 (bottom 2540)
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 164
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+--- render.py ---
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-ko/Lucerna-VOL3-KO.pdf 32301884
+--- webpdf.py ---
+8 pages from ../files/weekly-report-w46-zh-cn-ko/svg
+1053 distinct chars; families: ['Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKSC-Regular: 287904 bytes
+  font LucernaNotoSansCJKSC-Bold: 293784 bytes
+  font LucernaNotoSerifCJKSC-Regular: 463248 bytes
+  font LucernaNotoSerifCJKSC-Bold: 470548 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28776 bytes

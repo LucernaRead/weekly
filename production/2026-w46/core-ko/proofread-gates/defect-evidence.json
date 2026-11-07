@@ -1,0 +1,17 @@
+{
+ "D1": {
+  "edition": "2026-w46-ko-zh-tw",
+  "page": "P6",
+  "file": "svg/p6-gipi.svg",
+  "wrong": "规 (U+89C4) in gloss line \"譯注｜재다 衡量 · 규모 规模 · 섞다 混淆。\"",
+  "correct": "規 (\"規模\")",
+  "note": "core P8 key 96 converted correctly to \"96. 규모 — 大數字顯示全國規模\", proving P6 gloss missed; expanded Simplified-only scan: sole genuine hit"
+ },
+ "D2": {
+  "scope": "frozen core, all 11 editions",
+  "page": "P3",
+  "file": "svg/p3-munhwa.svg",
+  "gloss_line": "译注｜겹치다 重叠 · 가늘다 细 · 감사하다 感谢 · 나누다 区分、分享。",
+  "finding": "headword 가늘다 has 0 occurrences in any page text of the issue (all inflected stems 가는/가늘게/가느다란/얇 also 0; only occurrence is the gloss line itself); neighbouring headwords verified present (막히다 via 막힐 수 있어요, 겹치다 via 겹쳐/겹치는)"
+ }
+}

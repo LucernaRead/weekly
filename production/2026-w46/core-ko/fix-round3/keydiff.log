@@ -1,0 +1,58 @@
+== P8 key extraction diff, pre-fix vs post-fix ==
+zh-cn keys-identical: True noted-set-identical: True diff-numbers: [] hash: 9c8420f5594d9a54 9c8420f5594d9a54 | 54: 밀렸어요 | 103: 절임배추
+de keys-identical: True noted-set-identical: True diff-numbers: [] hash: b09b007ff85391bd b09b007ff85391bd | 54: 밀렸어요 | 103: 절임배추
+en keys-identical: True noted-set-identical: True diff-numbers: [] hash: 7fd717627a796c49 7fd717627a796c49 | 54: 밀렸어요 | 103: 절임배추
+es keys-identical: True noted-set-identical: True diff-numbers: [] hash: 911bcc798cc45094 911bcc798cc45094 | 54: 밀렸어요 | 103: 절임배추
+fr keys-identical: True noted-set-identical: True diff-numbers: [] hash: 5f39d9edd6a55f38 5f39d9edd6a55f38 | 54: 밀렸어요 | 103: 절임배추
+it keys-identical: True noted-set-identical: True diff-numbers: [] hash: d3b1cdb2a5e7d09f d3b1cdb2a5e7d09f | 54: 밀렸어요 | 103: 절임배추
+ja keys-identical: True noted-set-identical: True diff-numbers: [] hash: 2b317e59a8b2fbbd 2b317e59a8b2fbbd | 54: 밀렸어요 | 103: 절임배추
+nl keys-identical: True noted-set-identical: True diff-numbers: [] hash: 193ff6985daa1073 193ff6985daa1073 | 54: 밀렸어요 | 103: 절임배추
+pt keys-identical: True noted-set-identical: True diff-numbers: [] hash: d6ad146d7d929860 d6ad146d7d929860 | 54: 밀렸어요 | 103: 절임배추
+ru keys-identical: True noted-set-identical: True diff-numbers: [] hash: c0d95106d7e1344c c0d95106d7e1344c | 54: 밀렸어요 | 103: 절임배추
+zh-tw keys-identical: True noted-set-identical: True diff-numbers: [] hash: 9c8420f5594d9a54 9c8420f5594d9a54 | 54: 밀렸어요 | 103: 절임배추
+
+== exercise blocks 54 / 103 / 69 from post-fix extraction ==
+zh-cn 54. B1 '填空 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+zh-cn 103. A2 '填空 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+zh-cn 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 빈칸에 알맞은 말을 넣으세요.' p5-cheongnyeon.svg
+---
+de 54. B1 'Ausfüllen 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+de 103. A2 'Ausfüllen 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+de 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Setze das passende Wort ein.' p5-cheongnyeon.svg
+---
+en 54. B1 'Fill in 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+en 103. A2 'Fill in 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+en 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 빈칸에 알맞은 말을 넣으세요.' p5-cheongnyeon.svg
+---
+es 54. B1 'Completa 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+es 103. A2 'Completa 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+es 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Pon la palabra adecuada en el hueco.' p5-cheongnyeon.svg
+---
+fr 54. B1 'Complétez 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+fr 103. A2 'Complétez 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+fr 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 빈칸에 알맞은 말을 넣으세요.' p5-cheongnyeon.svg
+---
+it 54. B1 'Completa 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+it 103. A2 'Completa 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+it 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Inserisci la parola giusta nello spazio.' p5-cheongnyeon.svg
+---
+ja 54. B1 '空所補充 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+ja 103. A2 '空所補充 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+ja 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 빈칸에 알맞은 말을 넣으세요.' p5-cheongnyeon.svg
+---
+nl 54. B1 'Vul in 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+nl 103. A2 'Vul in 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+nl 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Vul het juiste woord in.' p5-cheongnyeon.svg
+---
+pt 54. B1 'Preencha 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+pt 103. A2 'Preencha 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+pt 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Coloque a palavra certa no espaço.' p5-cheongnyeon.svg
+---
+ru 54. B1 'Вставьте 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+ru 103. A2 'Вставьте 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+ru 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 Вставьте в пропуск подходящее слово.' p5-cheongnyeon.svg
+---
+zh-tw 54. B1 '填空 한국시리즈 시작이 하루 ___.' p4-seupocheu.svg
+zh-tw 103. A2 '填空 미리 소금에 절인 배추를 ___라고 해요.' p7-mal.svg
+zh-tw 69. B1 '빼빼로데이에는 무엇을 나눠 줘요? A. 길고 가늰 과자 · B. 가래떡만 · C. 김치 B · 말 넣기 빈칸에 알맞은 말을 넣으세요.' p5-cheongnyeon.svg
+---

@@ -1,0 +1,18 @@
+== 1. same-baseline collisions ==
+  p1-touiban.svg: CLEAN
+  p2-shenghuo.svg: CLEAN
+  p3-wenhua.svg: CLEAN
+  p4-tiyu.svg: CLEAN
+  p5-qingnian.svg: CLEAN
+  p6-shendu.svg: CLEAN
+  p7-ciyu.svg: CLEAN
+  p8-ceyan.svg: CLEAN
+== 2. P6 chart-label coverage ==
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/rowcheck.py", line 74, in <module>
+    texts, rects, _ = parse(os.path.join(ED, "p6-verdieping.svg"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/rowcheck.py", line 21, in parse
+    t = open(path, encoding="utf-8").read()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zh-cn-de/svg/p6-verdieping.svg'

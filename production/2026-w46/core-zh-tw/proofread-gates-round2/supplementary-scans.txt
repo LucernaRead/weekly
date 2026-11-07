@@ -1,0 +1,44 @@
+# Round 2 supplementary scans — record (2026-11-03)
+
+Run by the Round 2 proofreader with tools/venv/bin/python, parsing shipped SVGs/PDFs as data only.
+No edition files were touched. Full method in the verdict file.
+
+## 1. Exercise stem count (core, node-start numbers)
+- p1-front: 1-10 (10) | p2-life: 11-28 (18) | p3-culture: 29-46 (18) | p4-sport: 47-64 (18)
+- p5-youth: 65-82 (18) | p6-deep: 83-100 (18) | p7-lang: 101-112 (12)
+- p8-test: stems 113-150 (38) + answer-key section 1-150 (150) = 188 node-starts.
+=> Per-page 10/18/18/18/18/18/12/38 = 150, continuous 1-150, no gaps/dupes. CONFIRMED.
+Level chips (138 glyphs) vs 150 exercises: the four matching groups (25-28, 43-46, 61-64, 79-82)
+carry ONE chip per group of 4 (e.g. EN P2 "A2 25-28. Match"), i.e. 12 fewer glyphs than items.
+The registry split A2 44 / B1 74 / B2 32 is therefore NOT contradicted by the 138 chip glyphs.
+
+## 2. Chart bars (core geometry, all editions identical values per KIT)
+- P4: brick #a4553a bars w=90.0 (y=1124), 450.0 (y=1164), 900.0 (y=1204), h=28. CONFIRMED 90/450/900.
+- P6: olive #3e4c2a bars w=220.0, 300.0, 400.0, 800.0, h=34. CONFIRMED 220/300/400/800.
+
+## 3. Same-baseline ink-collision scan, P1 band (y<450), all 10 editions
+- PIL true-ink measurement with TTC face indices per tools/tables.json (TC idx 3, JP 0, KR 1).
+- Result: 0 collisions in every edition.
+
+## 4. Chart-label graze scan, P4/P6 (text ink vs later-drawn olive/brick rects)
+- Fired at the same 3 sites in every edition (chart headers above bars + two B2-chip headers).
+- Adjudicated FALSE POSITIVES: full-frame card review of all 10 P4/P6 pages shows the header
+  text and bars visibly separated; the scan's em-box bottoms overstate descenders. The canonical
+  occlusion audit (0 flags) agrees. No real contact anywhere.
+
+## 5. Image credits (SVG text, all editions)
+- P2: CorraleH CC0 credit present in all 10 (native-language label). P4: Bain News Service
+  public-domain credit present in all 10. CONFIRMED.
+
+## 6. File sizes + SHA-256 (first 16) vs FIX-REPORT inventory — all match exactly
+- en textmd 46350 / web 2008249 / print 14116006 | webSHA d54c2e57db1be0d5 / printSHA 68d7f9d4d34a7fd6
+- de textmd 47681 / web 2133642 / print 16798216 | webSHA e0c8ea5a73b349e8 / printSHA 7384659c67522cdf
+- es textmd 47926 / web 2116602 / print 16402001 | webSHA d787f1670f40185d / printSHA f2a9a6d3fe6d0fbe
+- fr textmd 48653 / web 2073427 / print 15630984 | webSHA 93cd034644f28aaf / printSHA e884c9e5e81ef25b
+- it textmd 47324 / web 1982279 / print 14083148 | webSHA ceb15c347595475e / printSHA e3c4edbe526aa0d7
+- ja textmd 51992 / web 2208932 / print 12005689 | webSHA e8c2d34519a20686 / printSHA 37674a87b94a1212
+- ko textmd 50130 / web 1891878 / print 10063572 | webSHA 7e1542719e8510d8 / printSHA ef3a2547e59eafaf
+- nl textmd 46800 / web 1990345 / print 14476823 | webSHA b2b5de57e11a3053 / printSHA 295271cb313dade0
+- pt textmd 47298 / web 2075639 / print 15632996 | webSHA 776c892766c7a806 / printSHA ad62003b7e54ed1b
+- ru textmd 59161 / web 1700024 / print 8837523  | webSHA b67a80292092313c / printSHA 745e8668ddb5eaab
+- All web PDFs <= 7 MB; pdftotext bytes > 0 for every web PDF; print==web extracted text (byte-identical).

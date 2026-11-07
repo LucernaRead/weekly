@@ -1,0 +1,224 @@
+=== freeze baseline (core) ===
+freeze baseline exit=0
+baseline: 8/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content8.py, render.py, content7.py)
+  OK  p1-pyoji.svg core ec34f26a3d2fba28 produced ec34f26a3d2fba28
+  OK  p2-saenghwal.svg core dd44b7b05f978208 produced dd44b7b05f978208
+  OK  p3-munhwa.svg core 3f3816954aa0165a produced 3f3816954aa0165a
+  OK  p4-seupocheu.svg core 06a29160fbb28037 produced 06a29160fbb28037
+  OK  p5-cheongnyeon.svg core da0cc4cd48bef36a produced da0cc4cd48bef36a
+  OK  p6-gipi.svg core 572630d8afee6a6b produced 572630d8afee6a6b
+  OK  p7-mal.svg core 87eefaf3747eff15 produced 87eefaf3747eff15
+  OK  p8-siheom.svg core f2496945e368e80f produced f2496945e368e80f
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+=== freeze diff de ===
+freeze diff de exit=0
+p1: +20 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +42 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +35 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +27 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +37 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +21 strings / -19 strings; CJK core 1298 -> edition 1155; added CJK chars: 0 
+p7: +40 strings / -38 strings; CJK core 1443 -> edition 1135; added CJK chars: 0 
+p8: +185 strings / -169 strings; CJK core 2455 -> edition 1217; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff en ===
+freeze diff en exit=0
+p1: +19 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +39 strings / -35 strings; CJK core 1582 -> edition 1369; added CJK chars: 0 
+p3: +31 strings / -28 strings; CJK core 1528 -> edition 1372; added CJK chars: 0 
+p4: +23 strings / -21 strings; CJK core 1296 -> edition 1191; added CJK chars: 0 
+p5: +32 strings / -31 strings; CJK core 1362 -> edition 1211; added CJK chars: 0 
+p6: +17 strings / -15 strings; CJK core 1298 -> edition 1209; added CJK chars: 0 
+p7: +40 strings / -38 strings; CJK core 1443 -> edition 1135; added CJK chars: 0 
+p8: +172 strings / -167 strings; CJK core 2455 -> edition 1243; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff es ===
+freeze diff es exit=0
+p1: +20 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +43 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +36 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +28 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +37 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +24 strings / -19 strings; CJK core 1298 -> edition 1150; added CJK chars: 0 
+p7: +38 strings / -35 strings; CJK core 1443 -> edition 1181; added CJK chars: 0 
+p8: +180 strings / -169 strings; CJK core 2455 -> edition 1217; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff fr ===
+freeze diff fr exit=0
+p1: +19 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +38 strings / -35 strings; CJK core 1582 -> edition 1352; added CJK chars: 0 
+p3: +32 strings / -28 strings; CJK core 1528 -> edition 1372; added CJK chars: 0 
+p4: +23 strings / -21 strings; CJK core 1296 -> edition 1191; added CJK chars: 0 
+p5: +33 strings / -31 strings; CJK core 1362 -> edition 1211; added CJK chars: 0 
+p6: +17 strings / -15 strings; CJK core 1298 -> edition 1209; added CJK chars: 0 
+p7: +38 strings / -35 strings; CJK core 1443 -> edition 1181; added CJK chars: 0 
+p8: +177 strings / -167 strings; CJK core 2455 -> edition 1243; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff it ===
+freeze diff it exit=0
+p1: +20 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +43 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +35 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +28 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +39 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +24 strings / -19 strings; CJK core 1298 -> edition 1155; added CJK chars: 0 
+p7: +38 strings / -35 strings; CJK core 1443 -> edition 1181; added CJK chars: 0 
+p8: +174 strings / -169 strings; CJK core 2455 -> edition 1217; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff ja ===
+freeze diff ja exit=0
+p1: +19 strings / -18 strings; CJK core 1363 -> edition 1416; added CJK chars: 151 {'毎': 1, '週': 5, '号': 2, '韓': 3, '国': 3, '語': 6, 'テ': 1, 'キ': 3, 'ス': 3, 'ト': 3}
+p2: +36 strings / -34 strings; CJK core 1582 -> edition 1658; added CJK chars: 241 {'キ': 4, 'ム': 2, 'チ': 2, 'の': 6, '値': 1, '段': 1, 'と': 5, '支': 1, '度': 1, '、': 5}
+p3: +30 strings / -27 strings; CJK core 1528 -> edition 1606; added CJK chars: 193 {'文': 2, '紅': 2, '葉': 2, 'と': 3, '日': 1, 'の': 6, 'つ': 1, '前': 1, '解': 5, '説': 6}
+p4: +21 strings / -20 strings; CJK core 1296 -> edition 1342; added CJK chars: 132 {'プ': 1, 'レ': 2, 'ー': 7, 'オ': 1, 'フ': 1, 'の': 3, '結': 2, 'と': 2, '韓': 4, '国': 2}
+p5: +30 strings / -30 strings; CJK core 1362 -> edition 1431; added CJK chars: 182 {'修': 1, '能': 1, '週': 3, '間': 1, 'と': 1, 'ペ': 6, 'ロ': 1, 'デ': 1, 'ー': 5, '解': 5}
+p6: +17 strings / -15 strings; CJK core 1298 -> edition 1338; added CJK chars: 111 {'読': 2, 'み': 2, '予': 2, '報': 1, 'と': 3, '発': 1, 'の': 2, '方': 1, '解': 4, '説': 4}
+p7: +36 strings / -35 strings; CJK core 1443 -> edition 1546; added CJK chars: 279 {'葉': 1, 'の': 21, '勉': 2, '強': 2, 'つ': 4, 'レ': 1, 'ベ': 1, 'ル': 1, '、': 1, 'テ': 1}
+p8: +174 strings / -174 strings; CJK core 2455 -> edition 2997; added CJK chars: 1375 {'テ': 1, 'ス': 10, 'ト': 14, 'と': 20, 'え': 1, '組': 4, 'み': 4, '合': 14, 'わ': 8, 'せ': 4}
+TOTAL added CJK characters: 2664
+=== freeze diff nl ===
+freeze diff nl exit=0
+p1: +20 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +44 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +36 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +28 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +39 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +23 strings / -19 strings; CJK core 1298 -> edition 1155; added CJK chars: 0 
+p7: +38 strings / -35 strings; CJK core 1443 -> edition 1181; added CJK chars: 0 
+p8: +191 strings / -177 strings; CJK core 2455 -> edition 1201; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff pt ===
+freeze diff pt exit=0
+p1: +19 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +43 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +36 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +28 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +38 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +23 strings / -19 strings; CJK core 1298 -> edition 1155; added CJK chars: 0 
+p7: +39 strings / -35 strings; CJK core 1443 -> edition 1189; added CJK chars: 8 {'어': 1, '울': 1, '요': 1, '에': 1, '났': 1, '서': 2, '만': 1}
+p8: +177 strings / -169 strings; CJK core 2455 -> edition 1217; added CJK chars: 0 
+TOTAL added CJK characters: 8
+=== freeze diff ru ===
+freeze diff ru exit=0
+p1: +20 strings / -17 strings; CJK core 1363 -> edition 1268; added CJK chars: 0 
+p2: +45 strings / -38 strings; CJK core 1582 -> edition 1329; added CJK chars: 0 
+p3: +38 strings / -31 strings; CJK core 1528 -> edition 1334; added CJK chars: 0 
+p4: +30 strings / -25 strings; CJK core 1296 -> edition 1136; added CJK chars: 0 
+p5: +41 strings / -35 strings; CJK core 1362 -> edition 1160; added CJK chars: 0 
+p6: +23 strings / -19 strings; CJK core 1298 -> edition 1150; added CJK chars: 0 
+p7: +38 strings / -35 strings; CJK core 1443 -> edition 1181; added CJK chars: 0 
+p8: +178 strings / -167 strings; CJK core 2455 -> edition 1243; added CJK chars: 0 
+TOTAL added CJK characters: 0
+=== freeze diff zh-tw ===
+freeze diff zh-tw exit=0
+p1: +18 strings / -16 strings; CJK core 1363 -> edition 1395; added CJK chars: 72 {'週': 5, '韓': 3, '語': 4, '正': 2, '文': 5, '繁': 3, '體': 3, '中': 3, '講': 2, '解': 2}
+p2: +22 strings / -22 strings; CJK core 1582 -> edition 1593; added CJK chars: 77 {'價': 1, '與': 1, '過': 1, '準': 1, '備': 1, '韓': 5, '試': 2, '譯': 4, '統': 1, '計': 2}
+p3: +20 strings / -19 strings; CJK core 1528 -> edition 1538; added CJK chars: 62 {'文': 2, '紅': 2, '葉': 2, '與': 1, '個': 1, '譯': 4, '預': 1, '測': 1, '區': 2, '環': 1}
+p4: +17 strings / -16 strings; CJK core 1296 -> edition 1306; added CJK chars: 55 {'體': 3, '後': 1, '賽': 3, '結': 1, '與': 1, '韓': 4, '國': 2, '譯': 3, '遲': 1, '動': 2}
+p5: +16 strings / -16 strings; CJK core 1362 -> edition 1372; added CJK chars: 54 {'週': 3, '與': 1, '譯': 4, '複': 1, '習': 2, '報': 2, '準': 1, '備': 1, '數': 1, '遞': 1}
+p6: +11 strings / -11 strings; CJK core 1298 -> edition 1308; added CJK chars: 44 {'讀': 2, '預': 2, '報': 2, '與': 2, '發': 1, '譯': 3, '規': 1, '誠': 1, '實': 1, '補': 1}
+p7: +26 strings / -26 strings; CJK core 1443 -> edition 1453; added CJK chars: 81 {'語': 3, '個': 4, '級': 1, '別': 1, '題': 1, '節': 1, '正': 1, '標': 2, '準': 2, '區': 1}
+p8: +153 strings / -153 strings; CJK core 2455 -> edition 2461; added CJK chars: 459 {'測': 11, '驗': 1, '與': 2, '譯': 4, '個': 4, '週': 17, '條': 6, '詞': 6, '釋': 1, '義': 1}
+TOTAL added CJK characters: 904
+=== occlusion core ===
+occlusion core exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-core/svg: 0 flags 
+=== occlusion de ===
+occlusion de exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-de/svg: 0 flags 
+=== occlusion en ===
+occlusion en exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-en/svg: 0 flags 
+=== occlusion es ===
+occlusion es exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-es/svg: 0 flags 
+=== occlusion fr ===
+occlusion fr exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-fr/svg: 0 flags 
+=== occlusion it ===
+occlusion it exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-it/svg: 0 flags 
+=== occlusion ja ===
+occlusion ja exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-ja/svg: 0 flags 
+=== occlusion nl ===
+occlusion nl exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-nl/svg: 0 flags 
+=== occlusion pt ===
+occlusion pt exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-pt/svg: 0 flags 
+=== occlusion ru ===
+occlusion ru exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-ru/svg: 0 flags 
+=== occlusion zh-tw ===
+occlusion zh-tw exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ko-zh-tw/svg: 0 flags 
+=== occlusion selftest ===
+selftest exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+=== p8 extract core ===
+p8 core exit=0
+../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+=== p8 compare de ===
+p8 de exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-de/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare en ===
+p8 en exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-en/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare es ===
+p8 es exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-es/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare fr ===
+p8 fr exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-fr/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare it ===
+p8 it exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-it/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare ja ===
+p8 ja exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-ja/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare nl ===
+p8 nl exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-nl/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare pt ===
+p8 pt exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-pt/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare ru ===
+p8 ru exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-ru/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+=== p8 compare zh-tw ===
+p8 zh-tw exit=0
+core    ../files/weekly-report-w46-ko-core/svg/p8-siheom.svg: 150 noted
+edition ../files/weekly-report-w46-ko-zh-tw/svg/p8-siheom.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+GATES-DONE

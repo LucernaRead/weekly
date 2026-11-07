@@ -1,0 +1,860 @@
+===== D4: 19座城市 / 3座城市 sweep (all SVGs + text.md) =====
+en: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+de: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+es: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+fr: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+it: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+ja: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+ko: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+nl: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+pt: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+ru: SVG 19座城市=0 3座城市=1 | text.md 19座城市=0 3座城市=1
+--- D4 evidence: city names in core P1+P5, timetable rows ---
+  洛杉磯: P1+P5 occurrences=4
+  東京: P1+P5 occurrences=3
+  首爾: P1+P5 occurrences=3
+  洛杉矶: P1+P5 occurrences=0
+  东京: P1+P5 occurrences=0
+  首尔: P1+P5 occurrences=0
+  P5 y=2310.0 :: 長榮航空的抽獎，11月11日當天抽出洛
+  P5 y=1675.5 :: A. 11月11日
+  P5 y=1870.3 :: 11月11日抽出哪裡的來回機票？
+  P5 y=1244.8 :: · 寶可夢30週年：11月11日起，又一城
+  P5 y=1530.0 :: · 10月26日到11月13日：連續19天抽獎
+  P5 y=1591.7 :: · 11月11日：洛杉磯來回機票兩張
+  P5 y=1653.4 :: · 11月12日：東京來回機票兩張
+  P5 y=1715.1 :: · 11月13日：首爾來回機票兩張
+  P1 y=572.0 :: 週三11月11日全年最大檔 · 旅展123國、1600攤 · 週末銅鑼灣免費嘉年華
+  P1 y=816.5 :: 2026 ITF 台灣國際旅展，週一（11月9日）在台北南港展覽館一館落幕。旅展四天，一次看完123個國家及城市，1,600個攤
+  P1 y=1090.0 :: Notes｜The 2026 ITF Taiwan International Travel Fair closed Monday (Nov 9) at the Nangang Exhibition Center: 123 countries and cities,
+  P1 y=1332.0 :: 週三（11月11日）是雙11，各大電商早就開始暖身。蝦皮購物今年和長榮航空合作，從10月26日到11月13日，連續19天抽出
+  P1 y=1370.0 :: 23張來回機票，11月11日當天抽出洛杉磯來回機票兩張。先列清單，再比價，最後才結帳，才是聰明買法。
+  P1 y=1567.5 :: Notes｜Double 11 falls on Wednesday (Nov 11). Shopee's draw with EVA Air runs Oct 26-Nov 13: 23 return tickets over 19 days, with two Los
+  P1 y=891.1 :: · 規模：123個國家及城市、1,600個攤
+  P1 y=2434.5 :: A. 123個
+  P1 y=2484.1 :: B. 23個
+--- D4: P6 box lines containing 抽機票 (all editions) ---
+  en y=2306.2 :: 蝦皮抽機票活動到哪天？
+  en y=397.4 :: · 抽機票：23張、19天、3座城市
+  de y=2306.2 :: 蝦皮抽機票活動到哪天？
+  de y=397.4 :: · 抽機票：23張、19天、3座城市
+  es y=2306.2 :: 蝦皮抽機票活動到哪天？
+  es y=397.4 :: · 抽機票：23張、19天、3座城市
+  fr y=2306.2 :: 蝦皮抽機票活動到哪天？
+  fr y=397.4 :: · 抽機票：23張、19天、3座城市
+  it y=2306.2 :: 蝦皮抽機票活動到哪天？
+  it y=397.4 :: · 抽機票：23張、19天、3座城市
+  ja y=2306.2 :: 蝦皮抽機票活動到哪天？
+  ja y=397.4 :: · 抽機票：23張、19天、3座城市
+  ko y=2306.2 :: 蝦皮抽機票活動到哪天？
+  ko y=397.4 :: · 抽機票：23張、19天、3座城市
+  nl y=2306.2 :: 蝦皮抽機票活動到哪天？
+  nl y=397.4 :: · 抽機票：23張、19天、3座城市
+  pt y=2306.2 :: 蝦皮抽機票活動到哪天？
+  pt y=397.4 :: · 抽機票：23張、19天、3座城市
+  ru y=2306.2 :: 蝦皮抽機票活動到哪天？
+  ru y=397.4 :: · 抽機票：23張、19天、3座城市
+
+===== D1: P5 practice-example glossline (all editions) =====
+-- en:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Practice numbers: NT$450 + NT$1,550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- de:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Übungszahlen: NT$450 + NT$1.550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- es:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Números de práctica: NT$450 + NT$1.550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- fr:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Chiffres d'entraînement : NT$450 + NT$1
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- it:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Numeri di pratica: NT$450 + NT$1.550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- ja:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: 練習の数字：NT$450 + NT$1,550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- ko:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: 연습 숫자: NT$450 + NT$1,550 = NT$2,000,
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- nl:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Oefengetallen: NT$ 450 + NT$ 1.550 = NT$
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- pt:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Números de prática: NT$ 450 + NT$ 1.550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+-- ru:
+   y=311.8 :: 書450元、一件外套1,550元，加起來
+   y=459.5 :: Числа для практики: NT$450 + NT$1 550 =
+   y=506.8 :: 練習：書450元加外套1,550元，一共多少？
+--- D1: P2 practice glossline (check translated, no English 'Practice numbers') ---
+-- en:
+   y=2274.1 :: 小美在雙11買了一件外套3,000元，收到
+   y=2366.5 :: 3,000元。
+   y=2421.8 :: Practice numbers: NT$3,000 coat, returned
+   y=2474.5 :: of NT$3,000.
+   y=262.5 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=393.9 :: B. 3,000元
+-- de:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Übungszahlen: Mantel für 3.000 NT$,
+   y=507.7 :: 3.000 NT$.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- es:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Números de práctica: abrigo de 3.000 NT$,
+   y=481.4 :: reembolso completo de 3.000 NT$.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- fr:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Chiffres d'entraînement : manteau à 3 000
+   y=481.4 :: — remboursement intégral de 3 000 NT$.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- it:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Numeri di pratica: cappotto da 3.000 NT$,
+   y=481.4 :: rimborso completo di 3.000 NT$.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- ja:
+   y=2274.1 :: 小美在雙11買了一件外套3,000元，收到
+   y=2366.5 :: 3,000元。
+   y=2421.8 :: 練習の数字：NT$3,000のコート、タグをつけ
+   y=2448.1 :: たまま7日以内に返品 — NT$3,000の全額返金
+   y=262.5 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=393.9 :: B. 3,000元
+-- ko:
+   y=2214.7 :: 小美在雙11買了一件外套3,000元，收到
+   y=2307.1 :: 3,000元。
+   y=2362.4 :: 연습 숫자: NT$3,000짜리 코트, 택을 단 채로 7일
+   y=2388.7 :: 안에 반품하면 NT$3,000 전액 환불이에요.
+   y=262.5 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=393.9 :: B. 3,000元
+-- nl:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Oefengetallen: jas van NT$ 3.000, binnen 7
+   y=481.4 :: volledige terugbetaling van NT$ 3.000.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- pt:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Números de prática: casaco de NT$ 3.000,
+   y=481.4 :: reembolso total de NT$ 3.000.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+-- ru:
+   y=281.0 :: 小美在雙11買了一件外套3,000元，收到
+   y=373.4 :: 3,000元。
+   y=428.7 :: Числа для практики: пальто за NT$3 000,
+   y=481.4 :: полный возврат NT$3 000.
+   y=506.8 :: 練習：外套3,000元全額退貨，小美拿回多
+   y=638.1 :: B. 3,000元
+--- D1/D2 English-residue word scan (non-en editions): nodes with English function words ---
+  de p2-life y=1274.2 :: Magst du Thermalbäder? Was hast du am
+  de p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, Konzerte und Ticketverlosung
+  de p5-youth y=974.5 :: Hinweis · Standard Chartered Arts in the
+  de p5-youth y=2043.3 :: Restauranttheater The Celestial
+  de p5-youth y=485.8 :: NT$2.000, genau das Budget.
+  de p7-lang y=620.7 :: Einkaufen schreibst. 實付金額 ist das, was
+  de p7-lang y=1518.7 :: Übe: 「我的購物清單是什麼？」 („Was steht
+  de p8-test y=2072.3 :: 65. B — Arts in the Park läuft am 14.–15. Nov.
+  de p8-test y=2368.0 :: 75. 預算 — Sein Einkauf entspricht genau seinem Budget.
+  de p8-test y=2438.6 :: 77. B — 450 + 1.550 = 2.000, genau das Budget.
+  de p8-test y=1524.0 :: Vergleiche, was du wirklich kaufst.
+  de p8-test y=2452.4 :: 117. A — Arts in the Park hat freien Eintritt.
+  es p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, conciertos y sorteo de billetes
+  es p5-youth y=974.5 :: Nota — Standard Chartered Arts in the
+  es p5-youth y=2073.1 :: The Celestial Bookhouse en Wan Chai el
+  es p8-test y=2072.3 :: 65. B (Arts in the Park dura el 14-15 nov.)
+  es p8-test y=2424.3 :: 117. A (Arts in the Park es de entrada gratuita.)
+  fr p4-sport y=142.0 :: 第 4 版 · 封王遊行預告 + 運動集點 · Aperçu du défilé du titre et points sport
+  fr p4-sport y=484.3 :: 22. Taipei double les points U-Sport tout
+  fr p4-sport y=514.0 :: le mois de novembre : 10 points par visite
+  fr p4-sport y=306.0 :: supporters), 集點 (collecter des points),
+  fr p4-sport y=1098.0 :: U幣集點怎麼算 · Points U-Sport — barres proportionnelles aux points
+  fr p4-sport y=1310.0 :: Note : les visites de novembre rapportent 10 points chacune (5 d'habitude). 10 visites × 10 = 100 points, le seuil de conversion.
+  fr p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, concerts et tirage de billets
+  fr p5-youth y=974.5 :: Note — Standard Chartered Arts in the
+  fr p5-youth y=2043.3 :: théâtre-restaurant adapté d'une BD, The
+  fr p5-youth y=485.8 :: 550 = NT$2 000, exactement le budget.
+  fr p6-deep y=424.9 :: ou des points plus tard. Le cashback n'est
+  fr p6-deep y=1143.3 :: montant final ? Les points arrivent plus
+  fr p7-lang y=369.5 :: (collecter des points), 遊行 (défilé dans la
+  fr p7-lang y=653.4 :: des points à chaque séance de sport. 遊行
+  fr p8-test y=1622.2 :: 50. B — Les visites de novembre rapportent 10 points chacune.
+  fr p8-test y=1650.3 :: 51. A — 100 points se convertissent en crédit EasyCard.
+  fr p8-test y=1791.0 :: 56. 集點 — Collecter des points à chaque séance de sport.
+  fr p8-test y=1875.4 :: 59. B — 5 visites × 10 points = 50 points.
+  fr p8-test y=1903.5 :: 60. A — 10 visites × 10 points = 100 points.
+  fr p8-test y=1987.9 :: 63. c — 集點 — collecter des points.
+  fr p8-test y=2072.3 :: 65. B — Arts in the Park a lieu les 14-15 nov.
+  fr p8-test y=2353.7 :: 75. 預算 — Ses achats correspondent exactement à son budget.
+  fr p8-test y=2410.0 :: 77. B — 450 + 1 550 = 2 000, exactement le budget.
+  fr p8-test y=1566.4 :: 88. A — Les points ultérieurs ne sont pas une réduction immédiate.
+  fr p8-test y=1763.4 :: 95. 點數 — Les points ultérieurs servent au prochain achat.
+  fr p8-test y=2185.4 :: 109. A — 集點 veut dire collecter des points en faisant du sport.
+  fr p8-test y=2438.6 :: 117. A — Arts in the Park, c'est l'entrée gratuite.
+  fr p8-test y=1481.5 :: 126. A — Les visites de novembre rapportent 10 points chacune.
+  fr p8-test y=1706.6 :: 134. 集點 — Collecter des points, c'est 集點.
+  it p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, concerti ed estrazione di biglietti
+  it p5-youth y=974.5 :: Nota — Standard Chartered Arts in the
+  it p5-youth y=2043.3 :: da un fumetto The Celestial Bookhouse a
+  it p5-youth y=485.8 :: NT$2.000, esattamente il budget.
+  it p8-test y=2072.3 :: 65. B (Arts in the Park dura il 14-15 nov.)
+  it p8-test y=2368.0 :: 75. 預算 (I suoi acquisti sono esattamente il suo budget.)
+  it p8-test y=2424.3 :: 77. B (450 + 1.550 = 2.000, esattamente il budget.)
+  it p8-test y=2424.3 :: 117. A (Arts in the Park è a ingresso gratuito.)
+  nl p2-life y=1731.0 :: is er. Eet eerst wat, houd de baden kort en
+  nl p3-culture y=556.0 :: Uitleg — Volgende zondag (22 nov.) is ook
+  nl p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, concerten en de ticketloterij
+  nl p5-youth y=974.5 :: Uitleg — Standard Chartered Arts in the
+  nl p5-youth y=1924.4 :: Uitleg — Hongkongs november is druk:
+  nl p5-youth y=2043.3 :: restauranttheater The Celestial
+  nl p5-youth y=485.8 :: 2.000, precies het budget.
+  nl p6-deep y=395.1 :: een directe korting is of latere punten.
+  nl p6-deep y=424.9 :: Cashback is geen korting — het
+  nl p6-deep y=1090.7 :: Drie vragen voor je betaalt: wat is de
+  nl p6-deep y=1117.0 :: drempel? Is er nog quotum? Wat is het
+  nl p6-deep y=1143.3 :: eindbedrag? Punten komen later — het is
+  nl p7-lang y=588.0 :: 清單 is de lijst die je schrijft voor je
+  nl p7-lang y=620.7 :: winkelt. 實付金額 is wat je echt betaalt na
+  nl p7-lang y=686.1 :: claimen voor hij op is. 鑑賞期 is de 7
+  nl p7-lang y=555.4 :: betekent prijzen uitreiken. 星光大道 is de
+  nl p7-lang y=588.0 :: rode loper voor de ceremonie. 鋼雕 is een
+  nl p7-lang y=620.7 :: sculptuur van staal; 保險箱 is de kluis met
+  nl p7-lang y=588.0 :: plaatsen om te zeggen 'ik was hier'. 集點
+  nl p7-lang y=620.7 :: is punten verdienen elke keer dat je
+  nl p7-lang y=653.4 :: sport. 遊行 is de feestelijke optocht door
+  nl p7-lang y=686.1 :: de straten; 感謝祭 is het dankfestival van
+  nl p7-lang y=599.2 :: De ceremonie is 22 nov.; 15 nov. is de
+  nl p7-lang y=1723.2 :: was er geen publiceerbaar binnen voor de
+  nl p7-lang y=2383.0 :: Het Golden Horse-festival is één grote filmles per jaar. (p. 3)
+  nl p7-lang y=2383.0 :: Cashback is geen korting — het betaalde bedrag telt. (p. 6)
+  nl p8-test y=976.6 :: Schrijven — er is niet één juist antwoord. Er
+  nl p8-test y=1425.2 :: 3. C — Double 11 is woensdag 11 nov.
+  nl p8-test y=1453.3 :: 4. B — De mascotteparade is elke dag om 14:00.
+  nl p8-test y=1805.3 :: 15. C — De bedenktijd is 7 dagen.
+  nl p8-test y=2298.0 :: 31. C — De ceremonie is zondag 22 nov.
+  nl p8-test y=2494.9 :: 38. 鹽埕 — Yancheng is een van de festivalwijken.
+  nl p8-test y=2523.0 :: 39. 小雪 — Xiaoxue is de zonneterm na Lidong.
+  nl p8-test y=1368.9 :: 41. C — 6 tot 22 nov. inclusief is 17 dagen.
+  nl p8-test y=1397.1 :: 42. B — Van 14:00 tot 17:00 is 3 uur.
+  nl p8-test y=1565.9 :: 47. B — De parade is zondag 22 nov. om 14:00.
+  nl p8-test y=2100.5 :: 65. B — Arts in the Park loopt op 14-15 nov.
+  nl p8-test y=2128.6 :: 66. A — Entree is gratis, geen ticket nodig.
+  nl p8-test y=2269.3 :: 71. 童話 — Het thema van dit jaar is een eeuw sprookjes.
+  nl p8-test y=2381.8 :: 75. 預算 — Zijn aankopen zijn precies zijn budget.
+  nl p8-test y=2452.4 :: 77. B — 450 + 1.550 = 2.000, precies het budget.
+  nl p8-test y=1509.6 :: 86. A — 800 is meer dan 400, maar de drempels verschillen: vergelijk wat
+  nl p8-test y=1974.1 :: 101. 清單 — Een boodschappenlijst is een 清單.
+  nl p8-test y=2002.3 :: 102. A — De bedenktijd is 7 dagen.
+  nl p8-test y=2086.7 :: 105. 入圍 — Genomineerd worden is 入圍.
+  nl p8-test y=2142.9 :: 107. 鋼雕 — Sculptuur van staal is 鋼雕.
+  nl p8-test y=2227.4 :: 110. 遊行 — Een feestelijke optocht is 遊行.
+  nl p8-test y=2283.6 :: 112. 打卡 — Inchecken met een foto is 打卡.
+  nl p8-test y=2368.0 :: 114. B — Double 11 is 11 nov., niet 9 nov.
+  nl p8-test y=2396.2 :: 115. A — De parade is zondag 22 nov. om 14:00.
+  nl p8-test y=2424.3 :: 116. B — De ceremonie is 22 nov., niet 15 nov.
+  nl p8-test y=2452.4 :: 117. A — Arts in the Park is gratis toegankelijk.
+  nl p8-test y=2508.7 :: 119. B — De beurs is aan zijn 34e editie.
+  nl p8-test y=1397.1 :: 123. C — De bedenktijd is 7 dagen.
+  nl p8-test y=1622.2 :: 131. 溫差 — Het dag-nachtverschil is groot.
+  nl p8-test y=1650.3 :: 132. 入圍 — Genomineerd worden is 入圍.
+  nl p8-test y=1678.4 :: 133. 遊行 — Een feestelijke optocht is 遊行.
+  nl p8-test y=1706.6 :: 134. 集點 — Punten sparen is 集點.
+  nl p8-test y=1734.7 :: 135. 嘉年華 — Een carnaval is 嘉年華.
+  nl p8-test y=1762.8 :: 136. 打卡 — Inchecken met een foto is 打卡.
+  nl p8-test y=1875.4 :: 140. B — De parade is om 14:00.
+  nl p8-test y=2016.1 :: 145. B — Double 11 is woensdag 11 nov.
+  nl p8-test y=2044.2 :: 146. A — De bedenktijd is 7 dagen.
+  nl p8-test y=2072.3 :: 147. B — De ceremonie is 22 nov.
+  pt p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, shows e o sorteio de passagens
+  pt p5-youth y=974.5 :: Nota — O Standard Chartered Arts in the
+  pt p5-youth y=2073.1 :: quadrinhos The Celestial Bookhouse em
+  pt p8-test y=2072.3 :: 65. B (O Arts in the Park acontece em 14-15 nov.)
+  pt p8-test y=2424.3 :: 117. A (O Arts in the Park tem entrada gratuita.)
+  ru p5-youth y=142.0 :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · Arts in the Park, концерты и розыгрыш билетов
+  ru p5-youth y=1004.2 :: the Park 2026 проходит в
+  ru p8-test y=2156.7 :: 65. B — Arts in the Park проходит 14–15 ноября.
+  ru p8-test y=1397.1 :: 117. A — Arts in the Park — вход бесплатный.
+
+===== D2: P8 notes 132-135 (all editions) =====
+  en y=571.0 :: 132.
+  en y=636.9 :: 133.
+  en y=702.7 :: 134.
+  en y=768.5 :: 135.
+  en y=1622.2 :: 132. 入圍 — Being nominated is 入圍.
+  en y=1650.3 :: 133. 遊行 — A celebration march is 遊行.
+  en y=1678.4 :: 134. 集點 — Collecting points is 集點.
+  en y=1706.6 :: 135. 嘉年華 — A carnival is 嘉年華.
+  de y=571.0 :: 132.
+  de y=636.9 :: 133.
+  de y=702.7 :: 134.
+  de y=768.5 :: 135.
+  de y=1650.3 :: 132. 入圍 — Nominiert sein heißt 入圍.
+  de y=1678.4 :: 133. 遊行 — Ein Festzug heißt 遊行.
+  de y=1706.6 :: 134. 集點 — Punkte sammeln heißt 集點.
+  de y=1734.7 :: 135. 嘉年華 — Ein Karneval heißt 嘉年華.
+  es y=571.0 :: 132.
+  es y=636.9 :: 133.
+  es y=702.7 :: 134.
+  es y=768.5 :: 135.
+  es y=1622.2 :: 132. 入圍 (Ser nominado es 入圍.)
+  es y=1650.3 :: 133. 遊行 (Una marcha de celebración es 遊行.)
+  es y=1678.4 :: 134. 集點 (Acumular puntos es 集點.)
+  es y=1706.6 :: 135. 嘉年華 (Un carnaval es 嘉年華.)
+  fr y=571.0 :: 132.
+  fr y=636.9 :: 133.
+  fr y=702.7 :: 134.
+  fr y=768.5 :: 135.
+  fr y=1650.3 :: 132. 入圍 — Être nommé, c'est 入圍.
+  fr y=1678.4 :: 133. 遊行 — Une marche de fête, c'est 遊行.
+  fr y=1706.6 :: 134. 集點 — Collecter des points, c'est 集點.
+  fr y=1734.7 :: 135. 嘉年華 — Un carnaval, c'est 嘉年華.
+  it y=571.0 :: 132.
+  it y=636.9 :: 133.
+  it y=702.7 :: 134.
+  it y=768.5 :: 135.
+  it y=1622.2 :: 132. 入圍 (Essere nominato è rùwéi.)
+  it y=1650.3 :: 133. 遊行 (Una marcia di festa è yóuxíng.)
+  it y=1678.4 :: 134. 集點 (Raccogliere punti è jídiǎn.)
+  it y=1706.6 :: 135. 嘉年華 (Un carnevale è jiāniánhuá.)
+  ja y=571.0 :: 132.
+  ja y=636.9 :: 133.
+  ja y=702.7 :: 134.
+  ja y=768.5 :: 135.
+  ja y=1664.6 :: 132. 入圍 — ノミネートされることとは、入圍のことです。
+  ja y=1692.8 :: 133. 遊行 — お祝いの行進とは、遊行のことです。
+  ja y=1720.9 :: 134. 集點 — ポイントをためることとは、集點のことです。
+  ja y=1749.0 :: 135. 嘉年華 — カーニバルとは、嘉年華のことです。
+  ko y=571.0 :: 132.
+  ko y=636.9 :: 133.
+  ko y=702.7 :: 134.
+  ko y=768.5 :: 135.
+  ko y=1622.2 :: 132. 入圍 — 후보에 오르기가 바로 入圍예요.
+  ko y=1650.3 :: 133. 遊行 — 축하 행진이 바로 遊行이에요.
+  ko y=1678.4 :: 134. 集點 — 포인트 모으기가 바로 集點이에요.
+  ko y=1706.6 :: 135. 嘉年華 — 카니발이 바로 嘉年華예요.
+  nl y=571.0 :: 132.
+  nl y=636.9 :: 133.
+  nl y=702.7 :: 134.
+  nl y=768.5 :: 135.
+  nl y=1650.3 :: 132. 入圍 — Genomineerd worden is 入圍.
+  nl y=1678.4 :: 133. 遊行 — Een feestelijke optocht is 遊行.
+  nl y=1706.6 :: 134. 集點 — Punten sparen is 集點.
+  nl y=1734.7 :: 135. 嘉年華 — Een carnaval is 嘉年華.
+  pt y=571.0 :: 132.
+  pt y=636.9 :: 133.
+  pt y=702.7 :: 134.
+  pt y=768.5 :: 135.
+  pt y=1622.2 :: 132. 入圍 (Ser indicado é rùwéi.)
+  pt y=1650.3 :: 133. 遊行 (Uma marcha de festa é yóuxíng.)
+  pt y=1678.4 :: 134. 集點 (Acumular pontos é jídiǎn.)
+  pt y=1706.6 :: 135. 嘉年華 (Um carnaval é jiāniánhuá.)
+  ru y=571.0 :: 132.
+  ru y=636.9 :: 133.
+  ru y=702.7 :: 134.
+  ru y=768.5 :: 135.
+  ru y=1819.1 :: 132. 入圍 — Попасть в номинанты — это 入圍.
+  ru y=1847.2 :: 133. 遊行 — Праздничное шествие — это 遊行.
+  ru y=1875.4 :: 134. 集點 — Накопление баллов — это 集點.
+  ru y=1903.5 :: 135. 嘉年華 — Карнавал — это 嘉年華.
+
+===== D3: FR P4 gloss lines (full, in order) =====
+  y=142.0 x=1872 fs=19 fam=Noto Sans CJK TC :: 第 4 版 · 封王遊行預告 + 運動集點 · Aperçu du défilé du titre et points sport
+  y=246.5 x=545 fs=20.5 fam=Noto Sans CJK TC :: Note — Le défilé du titre des Wei Chuan
+  y=335.7 x=545 fs=20.5 fam=Noto Sans CJK TC :: Tianmu au Taipei Dome. Un festival de
+  y=395.1 x=545 fs=20.5 fam=Noto Sans CJK TC :: supporters se tient les 21-22 nov. à
+  y=424.9 x=545 fs=20.5 fam=Noto Sans CJK TC :: Tianmu : concert sur l'herbe et camping
+  y=484.3 x=545 fs=20.5 fam=Noto Sans CJK TC :: 22. Taipei double les points U-Sport tout
+  y=246.5 x=1007 fs=20.5 fam=Noto Sans CJK TC :: Note — Quatre mots : 遊行 (défilé), 感謝祭
+  y=306.0 x=1007 fs=20.5 fam=Noto Sans CJK TC :: supporters), 集點 (collecter des points),
+  y=1098.0 x=65 fs=27 fam=Noto Sans CJK TC :: U幣集點怎麼算 · Points U-Sport — barres proportionnelles aux points
+  y=684.0 x=1473 fs=25 fam=Noto Sans CJK TC :: 遊行小檔 · Fiche du défilé
+  y=1310.2 x=1473 fs=20 fam=Noto Sans CJK TC :: Verrez-vous le défilé ? Combien de fois
+--- D3 split-fragment check: any text node equal to/ending with fragments ---
+
+===== D5: P7 rect bottoms (rects with bottom > 2400) =====
+  en: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  en: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  en: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  en: rect y=2455.86 h=118.00 bottom=2573.86 fill=#2c2822 stroke=
+  en: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  de: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  de: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  de: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  de: rect y=2412.84 h=118.00 bottom=2530.84 fill=#2c2822 stroke=
+  de: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  es: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  es: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  es: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  es: rect y=2455.86 h=118.00 bottom=2573.86 fill=#2c2822 stroke=
+  es: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  fr: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  fr: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  fr: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  fr: rect y=2455.86 h=118.00 bottom=2573.86 fill=#2c2822 stroke=
+  fr: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  it: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  it: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  it: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  it: rect y=2439.36 h=118.00 bottom=2557.36 fill=#2c2822 stroke=
+  it: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  ja: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  ja: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  ja: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  ja: rect y=2411.86 h=118.00 bottom=2529.86 fill=#2c2822 stroke=
+  ja: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  ko: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  ko: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  ko: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  ko: rect y=2411.86 h=118.00 bottom=2529.86 fill=#2c2822 stroke=
+  ko: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  nl: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  nl: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  nl: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  nl: rect y=2454.36 h=118.00 bottom=2572.36 fill=#2c2822 stroke=
+  nl: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  pt: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  pt: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  pt: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  pt: rect y=2439.36 h=118.00 bottom=2557.36 fill=#2c2822 stroke=
+  pt: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+  ru: rect y=0.00 h=2700.00 bottom=2700.00 fill=#f7f1e2 stroke=
+  ru: rect y=28.00 h=2644.00 bottom=2672.00 fill=none stroke=#28251d
+  ru: rect y=40.00 h=2620.00 bottom=2660.00 fill=none stroke=#28251d
+  ru: rect y=2444.84 h=118.00 bottom=2562.84 fill=#2c2822 stroke=
+  ru: footer-rule line y1=2580.0 y2=2580.0 x1=65 x2=1885 stroke=#b3a06a width=1.6
+--- D5: P7 teaser text nodes es/fr/nl vs core (content multiset, y positions) ---
+-- es P7 nodes y>2400:
+   y=2499.9 x=93 :: 下期預告 · La próxima semana (VOL.4)
+   y=2539.9 x=93 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+   y=2624.0 x=65 :: Lucerna · SEMANARIO CHINO TRADICIONAL VOL.3 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+   y=2624.0 x=1885 :: Página 7 de 8
+-- fr P7 nodes y>2400:
+   y=2499.9 x=93 :: 下期預告 · La semaine prochaine (VOL.4)
+   y=2539.9 x=93 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+   y=2624.0 x=65 :: Lucerna · HEBDOMADAIRE CHINOIS VOL.3 · TEXTE EN CHINOIS TRADITIONNEL · EXPLICATIONS EN FRANÇAIS
+   y=2624.0 x=1885 :: Page 7 sur 8
+-- nl P7 nodes y>2400:
+   y=2498.4 x=93 :: 下期預告 · Volgende week (VOL.4)
+   y=2538.4 x=93 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+   y=2624.0 x=65 :: Lucerna · CHINEES WEEKBLAD VOL.3 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS
+   y=2624.0 x=1885 :: Pagina 7 van 8
+-- en P7 nodes y>2400:
+   y=2499.9 x=93 :: 下期預告 · Next week (VOL.4)
+   y=2539.9 x=93 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+   y=2624.0 x=65 :: Lucerna · 繁體中文週報 VOL.3 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English explanations
+   y=2624.0 x=1885 :: 第 7 版 / 共 8 版
+
+===== Badge (P1 y=378) + footers =====
+  en BADGE y=378.0 fs=21 fill=#3e4c2a :: 繁體中文正文 · 英語講解 — Traditional Chinese text · Explanations in English · the edition for English-speaking readers
+  en FOOTER :: Lucerna · 繁體中文週報 VOL.3 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English explanations
+  en FOOTER :: 第 1 版 / 共 8 版
+  en FOOTER :: 第 2 版 / 共 8 版
+  en FOOTER :: 第 3 版 / 共 8 版
+  en FOOTER :: 第 4 版 / 共 8 版
+  en FOOTER :: 第 5 版 / 共 8 版
+  en FOOTER :: 第 6 版 / 共 8 版
+  en FOOTER :: 第 7 版 / 共 8 版
+  en FOOTER :: 第 8 版 / 共 8 版
+  en PAGELINE :: — Page 1 —
+  en PAGELINE :: — Page 2 —
+  en PAGELINE :: — Page 3 —
+  en PAGELINE :: — Page 4 —
+  en PAGELINE :: — Page 5 —
+  en PAGELINE :: — Page 6 —
+  en PAGELINE :: — Page 7 —
+  en PAGELINE :: — Page 8 —
+  en PAGELINE :: 第 1 版 / 共 8 版
+  en PAGELINE :: 第 2 版 / 共 8 版
+  de BADGE y=378.0 fs=21 fill=#3e4c2a :: CHINESISCHER TEXT (TRADITIONELL) · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER
+  de FOOTER :: Lucerna · CHINESISCHE WOCHENZEITUNG VOL.3 · TEXT AUF CHINESISCH (TRADITIONELL) · ERKLÄRUNGEN AUF DEUTSCH
+  de FOOTER :: Seite 1 von 8
+  de FOOTER :: Seite 2 von 8
+  de FOOTER :: Seite 3 von 8
+  de FOOTER :: Seite 4 von 8
+  de FOOTER :: Seite 5 von 8
+  de FOOTER :: Seite 6 von 8
+  de FOOTER :: Seite 7 von 8
+  de FOOTER :: Seite 8 von 8
+  de PAGELINE :: Seite 1 von 8
+  de PAGELINE :: Seite 2 von 8
+  de PAGELINE :: Seite 3 von 8
+  de PAGELINE :: Seite 4 von 8
+  de PAGELINE :: Seite 5 von 8
+  de PAGELINE :: Seite 6 von 8
+  de PAGELINE :: Seite 7 von 8
+  de PAGELINE :: Seite 8 von 8
+  de PAGELINE :: — Seite 1 —
+  de PAGELINE :: — Seite 2 —
+  es BADGE y=378.0 fs=21 fill=#3e4c2a :: TEXTOS EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES
+  es FOOTER :: Lucerna · SEMANARIO CHINO TRADICIONAL VOL.3 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+  es FOOTER :: Página 1 de 8
+  es FOOTER :: Página 2 de 8
+  es FOOTER :: Página 3 de 8
+  es FOOTER :: Página 4 de 8
+  es FOOTER :: Página 5 de 8
+  es FOOTER :: Página 6 de 8
+  es FOOTER :: Página 7 de 8
+  es FOOTER :: Página 8 de 8
+  es PAGELINE :: Página 1 de 8
+  es PAGELINE :: Página 2 de 8
+  es PAGELINE :: Página 3 de 8
+  es PAGELINE :: Página 4 de 8
+  es PAGELINE :: Página 5 de 8
+  es PAGELINE :: Página 6 de 8
+  es PAGELINE :: Página 7 de 8
+  es PAGELINE :: Página 8 de 8
+  es PAGELINE :: — Página 1 —
+  es PAGELINE :: — Página 2 —
+  fr BADGE y=378.0 fs=21 fill=#3e4c2a :: TEXTES EN CHINOIS TRADITIONNEL · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES
+  fr FOOTER :: Lucerna · HEBDOMADAIRE CHINOIS VOL.3 · TEXTE EN CHINOIS TRADITIONNEL · EXPLICATIONS EN FRANÇAIS
+  fr FOOTER :: Page 1 sur 8
+  fr FOOTER :: Page 2 sur 8
+  fr FOOTER :: Page 3 sur 8
+  fr FOOTER :: Page 4 sur 8
+  fr FOOTER :: Page 5 sur 8
+  fr FOOTER :: Page 6 sur 8
+  fr FOOTER :: Page 7 sur 8
+  fr FOOTER :: Page 8 sur 8
+  fr PAGELINE :: Page 1 sur 8
+  fr PAGELINE :: Page 2 sur 8
+  fr PAGELINE :: Page 3 sur 8
+  fr PAGELINE :: Page 4 sur 8
+  fr PAGELINE :: Page 5 sur 8
+  fr PAGELINE :: Page 6 sur 8
+  fr PAGELINE :: Page 7 sur 8
+  fr PAGELINE :: Page 8 sur 8
+  fr PAGELINE :: — Page 1 —
+  fr PAGELINE :: — Page 2 —
+  it BADGE y=378.0 fs=21 fill=#3e4c2a :: TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI
+  it FOOTER :: Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.3 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO
+  it FOOTER :: Pagina 1 di 8
+  it FOOTER :: Pagina 2 di 8
+  it FOOTER :: Pagina 3 di 8
+  it FOOTER :: Pagina 4 di 8
+  it FOOTER :: Pagina 5 di 8
+  it FOOTER :: Pagina 6 di 8
+  it FOOTER :: Pagina 7 di 8
+  it FOOTER :: Pagina 8 di 8
+  it PAGELINE :: Pagina 1 di 8
+  it PAGELINE :: Pagina 2 di 8
+  it PAGELINE :: Pagina 3 di 8
+  it PAGELINE :: Pagina 4 di 8
+  it PAGELINE :: Pagina 5 di 8
+  it PAGELINE :: Pagina 6 di 8
+  it PAGELINE :: Pagina 7 di 8
+  it PAGELINE :: Pagina 8 di 8
+  it PAGELINE :: — Pagina 1 —
+  it PAGELINE :: — Pagina 2 —
+  ja BADGE y=378.0 fs=21 fill=#3e4c2a :: 中国語（繁体字）テキスト · 日本語の解説 — 日本語読者のための版
+  ja FOOTER :: 1 ページ（全 8 ページ）
+  ja FOOTER :: 2 ページ（全 8 ページ）
+  ja FOOTER :: 3 ページ（全 8 ページ）
+  ja FOOTER :: 4 ページ（全 8 ページ）
+  ja FOOTER :: 5 ページ（全 8 ページ）
+  ja FOOTER :: 6 ページ（全 8 ページ）
+  ja FOOTER :: 7 ページ（全 8 ページ）
+  ja FOOTER :: 8 ページ（全 8 ページ）
+  ja FOOTER :: Lucerna · 中国語（繁体字）週刊 VOL.3 · 本文は中国語（繁体字） · 解説は日本語
+  ja PAGELINE :: 1 ページ（全 8 ページ）
+  ja PAGELINE :: 2 ページ（全 8 ページ）
+  ja PAGELINE :: 3 ページ（全 8 ページ）
+  ja PAGELINE :: 4 ページ（全 8 ページ）
+  ja PAGELINE :: 5 ページ（全 8 ページ）
+  ja PAGELINE :: 6 ページ（全 8 ページ）
+  ja PAGELINE :: 7 ページ（全 8 ページ）
+  ja PAGELINE :: 8 ページ（全 8 ページ）
+  ja PAGELINE :: — 1 ページ —
+  ja PAGELINE :: — 2 ページ —
+  ko BADGE y=378.0 fs=21 fill=#3e4c2a :: 중국어 번체 텍스트 · 한국어 해설 — 한국어 독자를 위한 판
+  ko FOOTER :: Lucerna · 중국어 번체 주간지 VOL.3 · 텍스트는 중국어 번체 · 해설은 한국어
+  ko FOOTER :: 제 1 면 / 총 8 면
+  ko FOOTER :: 제 2 면 / 총 8 면
+  ko FOOTER :: 제 3 면 / 총 8 면
+  ko FOOTER :: 제 4 면 / 총 8 면
+  ko FOOTER :: 제 5 면 / 총 8 면
+  ko FOOTER :: 제 6 면 / 총 8 면
+  ko FOOTER :: 제 7 면 / 총 8 면
+  ko FOOTER :: 제 8 면 / 총 8 면
+  ko PAGELINE :: 第 2 版 · 東北季風、泡湯、雙11退貨 · 동북 계절풍, 온천, 더블 일레븐 반품
+  ko PAGELINE :: 第 3 版 · 金馬影展、鋼雕倒數 · 금마 영화제와 철 조각 예술의 마지막 주
+  ko PAGELINE :: 第 4 版 · 封王遊行預告 + 運動集點 · 우승 퍼레이드 예고와 스포츠 포인트
+  ko PAGELINE :: 第 5 版 · 藝趣嘉年華、演唱會、抽機票 · 아츠 인 더 파크, 콘서트, 항공권 추첨
+  ko PAGELINE :: 第 6 版 · 雙11深讀 + 讀圖表 · 더블 일레븐 깊이 읽기와 그래프 읽기
+  ko PAGELINE :: 第 8 版 · 本週大測驗 + 全部答案 · 이번 주 시험과 모든 정답
+  ko PAGELINE :: 콘서트 중 어느 쪽을 보고 싶어요?
+  nl BADGE y=378.0 fs=21 fill=#3e4c2a :: TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS
+  nl FOOTER :: Lucerna · CHINEES WEEKBLAD VOL.3 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS
+  nl FOOTER :: Pagina 1 van 8
+  nl FOOTER :: Pagina 2 van 8
+  nl FOOTER :: Pagina 3 van 8
+  nl FOOTER :: Pagina 4 van 8
+  nl FOOTER :: Pagina 5 van 8
+  nl FOOTER :: Pagina 6 van 8
+  nl FOOTER :: Pagina 7 van 8
+  nl FOOTER :: Pagina 8 van 8
+  nl PAGELINE :: Pagina 1 van 8
+  nl PAGELINE :: Pagina 2 van 8
+  nl PAGELINE :: Pagina 3 van 8
+  nl PAGELINE :: Pagina 4 van 8
+  nl PAGELINE :: Pagina 5 van 8
+  nl PAGELINE :: Pagina 6 van 8
+  nl PAGELINE :: Pagina 7 van 8
+  nl PAGELINE :: Pagina 8 van 8
+  nl PAGELINE :: — Pagina 1 —
+  nl PAGELINE :: — Pagina 2 —
+  pt BADGE y=378.0 fs=21 fill=#3e4c2a :: TEXTOS EM CHINÊS TRADICIONAL · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA
+  pt FOOTER :: Lucerna · SEMANÁRIO CHINÊS TRADICIONAL VOL.3 · TEXTOS EM CHINÊS TRADICIONAL · EXPLICAÇÕES EM PORTUGUÊS
+  pt FOOTER :: Página 1 de 8
+  pt FOOTER :: Página 2 de 8
+  pt FOOTER :: Página 3 de 8
+  pt FOOTER :: Página 4 de 8
+  pt FOOTER :: Página 5 de 8
+  pt FOOTER :: Página 6 de 8
+  pt FOOTER :: Página 7 de 8
+  pt FOOTER :: Página 8 de 8
+  pt PAGELINE :: Página 1 de 8
+  pt PAGELINE :: Página 2 de 8
+  pt PAGELINE :: Página 3 de 8
+  pt PAGELINE :: Página 4 de 8
+  pt PAGELINE :: Página 5 de 8
+  pt PAGELINE :: Página 6 de 8
+  pt PAGELINE :: Página 7 de 8
+  pt PAGELINE :: Página 8 de 8
+  pt PAGELINE :: — Página 1 —
+  pt PAGELINE :: — Página 2 —
+  ru BADGE y=378.0 fs=21 fill=#3e4c2a :: ТЕКСТЫ НА КИТАЙСКОМ (ТРАДИЦИОННОМ) · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ
+  ru FOOTER :: Lucerna · КИТАЙСКИЙ (ТРАДИЦИОННЫЙ) ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА КИТАЙСКОМ (ТРАДИЦИОННОМ) · ОБЪЯСНЕНИЯ НА РУССКОМ
+  ru FOOTER :: Страница 1 из 8
+  ru FOOTER :: Страница 2 из 8
+  ru FOOTER :: Страница 3 из 8
+  ru FOOTER :: Страница 4 из 8
+  ru FOOTER :: Страница 5 из 8
+  ru FOOTER :: Страница 6 из 8
+  ru FOOTER :: Страница 7 из 8
+  ru FOOTER :: Страница 8 из 8
+  ru PAGELINE :: Страница 1 из 8
+  ru PAGELINE :: Страница 2 из 8
+  ru PAGELINE :: Страница 3 из 8
+  ru PAGELINE :: Страница 4 из 8
+  ru PAGELINE :: Страница 5 из 8
+  ru PAGELINE :: Страница 6 из 8
+  ru PAGELINE :: Страница 7 из 8
+  ru PAGELINE :: Страница 8 из 8
+  ru PAGELINE :: 第 2 版 · 東北季風、泡湯、雙11退貨 · Северо-восточный муссон, горячие источники и возвраты 11.11
+  ru PAGELINE :: 第 3 版 · 金馬影展、鋼雕倒數 · Кинофестиваль «Золотая лошадь» и последние недели стального искусства
+
+===== Level chips (occurrences of >A2< >B1< >B2<) =====
+  en: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  de: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  es: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  fr: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  it: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  ja: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  ko: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  nl: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  pt: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+  ru: TOTAL A2=41 B1=65 B2=32 sum=138 | per-page sums=[10, 15, 15, 15, 15, 18, 12, 38] | {'p1-front': {'A2': 10, 'B1': 0, 'B2': 0}, 'p2-life': {'A2': 15, 'B1': 0, 'B2': 0}, 'p3-culture': {'A2': 4, 'B1': 11, 'B2': 0}, 'p4-sport': {'A2': 0, 'B1': 15, 'B2': 0}, 'p5-youth': {'A2': 0, 'B1': 15, 'B2': 0}, 'p6-deep': {'A2': 0, 'B1': 0, 'B2': 18}, 'p7-lang': {'A2': 4, 'B1': 4, 'B2': 4}, 'p8-test': {'A2': 8, 'B1': 20, 'B2': 10}}
+
+===== P7 phrases: verbatim counts (joined edition text, quotes stripped) =====
+  en: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  de: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  es: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  fr: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  it: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  ja: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  ko: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  nl: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  pt: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+  ru: counts=[2, 2, 2, 2, 2, 2, 2, 2] OK
+     P7 quoted forms: [1, 1, 1, 1, 1, 1, 1, 1]
+
+===== Charts: P4/P6 rect widths =====
+  en p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 353.8, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  en p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 353.8, 527.0, 433.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  de p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 413.2, 527.0, 208.0, '#f1ead6'), (434.0, 145.7, 989.0, 208.0, '#f1ead6')]
+  de p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 353.8, 527.0, 471.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  es p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 442.9, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  es p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 413.2, 989.0, 208.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  fr p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 383.5, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  fr p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 413.2, 989.0, 208.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  it p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 383.5, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  it p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 353.8, 527.0, 471.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  ja p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 324.0, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  ja p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 324.0, 527.0, 471.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  ko p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 324.0, 527.0, 208.0, '#f1ead6'), (434.0, 145.7, 527.0, 853.5, '#f1ead6')]
+  ko p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 294.3, 527.0, 433.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  nl p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 413.2, 527.0, 208.0, '#f1ead6'), (434.0, 145.7, 989.0, 208.0, '#f1ead6')]
+  nl p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 383.5, 989.0, 208.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  pt p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 413.2, 527.0, 208.0, '#f1ead6'), (434.0, 175.4, 989.0, 208.0, '#f1ead6')]
+  pt p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 383.5, 989.0, 208.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+  ru p4-sport: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (900.0, 28.0, 280.0, 1204.0, '#a4553a'), (450.0, 28.0, 280.0, 1164.0, '#a4553a'), (434.0, 442.9, 527.0, 208.0, '#f1ead6'), (434.0, 205.1, 989.0, 208.0, '#f1ead6')]
+  ru p6-deep: widest rects (w,h,x,y,fill): [(1950.0, 2700.0, 0.0, 0.0, '#f7f1e2'), (1894.0, 2644.0, 28.0, 28.0, 'none'), (1870.0, 2620.0, 40.0, 40.0, 'none'), (1846.0, 98.0, 52.0, 52.0, '#2c2822'), (800.0, 34.0, 405.0, 1118.0, '#3e4c2a'), (434.0, 383.5, 989.0, 208.0, '#f1ead6'), (434.0, 620.0, 1451.0, 208.0, '#fdfaf0'), (434.0, 504.0, 1451.0, 846.0, '#fdfaf0')]
+
+===== Simplified-residue scan =====
+  en: simplified-candidate hits={}
+  de: simplified-candidate hits={}
+  es: simplified-candidate hits={}
+  fr: simplified-candidate hits={}
+  it: simplified-candidate hits={}
+  ja: simplified-candidate hits={'与': 2, '学': 1, '国': 24}
+  ko: simplified-candidate hits={}
+  nl: simplified-candidate hits={}
+  pt: simplified-candidate hits={}
+  ru: simplified-candidate hits={}
+--- ja/ko added-string simplified scan (freeze added strings, with context) ---
+  ja: chars=['与'] :: を授与することです。星光大道は授賞式の前
+  ja: chars=['与'] :: 44. b — 頒獎 — 賞を授与すること。
+
+===== Reader-facing sweep (SVG text + text.md + ABSTRACT) =====
+  en: {'VOL.3 ': 20, 'VOL.4': 2}
+  de: {'VOL.3 ': 20, 'VOL.4': 2}
+  es: {'VOL.3 ': 20, 'VOL.4': 2}
+  fr: {'VOL.3 ': 20, 'VOL.4': 2}
+  it: {'VOL.3 ': 19, 'VOL.4': 2}
+  ja: {'VOL.3 ': 19, 'VOL.4': 2}
+  ko: {'VOL.3 ': 19, 'VOL.4': 2}
+  nl: {'VOL.3 ': 20, 'VOL.4': 2}
+  pt: {'VOL.3 ': 19, 'VOL.4': 2}
+  ru: {'VOL.3 ': 20, 'VOL.4': 2}
+
+===== W45 promises: deferral disclosure + VOL.4 teaser =====
+  en: Chinese deferral disclosure present=True
+    y=2499.9 :: 下期預告 · Next week (VOL.4)
+    y=2539.9 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · 繁體中文週報 VOL.3 · 繁體中文正文 · 英語講解 · Traditional Chinese text · English explanations
+    y=2624.0 :: 第 7 版 / 共 8 版
+    ---
+  de: Chinese deferral disclosure present=True
+    y=2456.8 :: 下期預告 · Nächste Woche (VOL.4)
+    y=2496.8 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · CHINESISCHE WOCHENZEITUNG VOL.3 · TEXT AUF CHINESISCH (TRADITIONELL) · ERKLÄRUNGEN AUF DEUTSCH
+    y=2624.0 :: Seite 7 von 8
+    ---
+  es: Chinese deferral disclosure present=True
+    y=2384.5 :: El festival Golden Horse es una gran clase de cine al año. (p. 3)
+    y=2384.5 :: El cashback no es un descuento: lo que cuenta es la cantidad pagada. (p. 6)
+    y=2499.9 :: 下期預告 · La próxima semana (VOL.4)
+    y=2539.9 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · SEMANARIO CHINO TRADICIONAL VOL.3 · TEXTO EN CHINO TRADICIONAL · EXPLICACIONES EN ESPAÑOL
+    y=2624.0 :: Página 7 de 8
+    ---
+  fr: Chinese deferral disclosure present=True
+    y=2384.5 :: Le festival Golden Horse, c'est un grand cours de cinéma par an. (p. 3)
+    y=2384.5 :: Le cashback n'est pas une réduction — c'est le montant payé qui compte. (p. 6)
+    y=2499.9 :: 下期預告 · La semaine prochaine (VOL.4)
+    y=2539.9 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · HEBDOMADAIRE CHINOIS VOL.3 · TEXTE EN CHINOIS TRADITIONNEL · EXPLICATIONS EN FRANÇAIS
+    y=2624.0 :: Page 7 sur 8
+    ---
+  it: Chinese deferral disclosure present=True
+    y=2483.4 :: 下期預告 · La prossima settimana (VOL.4)
+    y=2523.4 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · SETTIMANALE CINESE TRADIZIONALE VOL.3 · TESTI IN CINESE TRADIZIONALE · SPIEGAZIONI IN ITALIANO
+    y=2624.0 :: Pagina 7 di 8
+    ---
+  ja: Chinese deferral disclosure present=True
+    y=2455.9 :: 下期預告 · 来週（VOL.4）
+    y=2495.9 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · 中国語（繁体字）週刊 VOL.3 · 本文は中国語（繁体字） · 解説は日本語
+    y=2624.0 :: 7 ページ（全 8 ページ）
+    ---
+  ko: Chinese deferral disclosure present=True
+    y=2455.9 :: 下期預告 · 다음 주(VOL.4)
+    y=2495.9 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · 중국어 번체 주간지 VOL.3 · 텍스트는 중국어 번체 · 해설은 한국어
+    y=2624.0 :: 제 7 면 / 총 8 면
+    ---
+  nl: Chinese deferral disclosure present=True
+    y=2383.0 :: Het Golden Horse-festival is één grote filmles per jaar. (p. 3)
+    y=2383.0 :: Cashback is geen korting — het betaalde bedrag telt. (p. 6)
+    y=2498.4 :: 下期預告 · Volgende week (VOL.4)
+    y=2538.4 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · CHINEES WEEKBLAD VOL.3 · TEKSTEN IN HET CHINEES (TRADITIONEEL) · UITLEG IN HET NEDERLANDS
+    y=2624.0 :: Pagina 7 van 8
+    ---
+  pt: Chinese deferral disclosure present=True
+    y=2483.4 :: 下期預告 · A próxima semana (VOL.4)
+    y=2523.4 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · SEMANÁRIO CHINÊS TRADICIONAL VOL.3 · TEXTOS EM CHINÊS TRADICIONAL · EXPLICAÇÕES EM PORTUGUÊS
+    y=2624.0 :: Página 7 de 8
+    ---
+  ru: Chinese deferral disclosure present=True
+    y=2488.8 :: 下期預告 · На следующей неделе (VOL.4)
+    y=2528.8 :: 下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文。下週見！
+    y=2624.0 :: Lucerna · КИТАЙСКИЙ (ТРАДИЦИОННЫЙ) ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА КИТАЙСКОМ (ТРАДИЦИОННОМ) · ОБЪЯСНЕНИЯ НА РУССКОМ
+    y=2624.0 :: Страница 7 из 8
+    ---
+
+===== ABSTRACT.txt checks =====
+  en: lines=1 ascii-quote=False bytes=369 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna Traditional Chinese weekly VOL.3 for English-speaking learners, A2 to B2, 150 exercises: Double 11 shopping festival, ITF Taiwan International Travel Fair closing, Golden Horse Film Festival, Kaohsiung Steel Scul
+  de: lines=1 ascii-quote=False bytes=402 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna Wochenzeitung auf Chinesisch (traditionell) VOL.3 für deutschsprachige Lernende, A2 bis B2, 150 Übungen: Double-11-Shoppingfestival, Abschluss der ITF Taiwan International Travel Fair, Golden-Horse-Filmfestival, 
+  es: lines=1 ascii-quote=False bytes=416 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna semanario en chino tradicional VOL.3 para lectores hispanohablantes, A2 a B2, 150 ejercicios: festival de compras Double 11, cierre de la Feria Internacional de Viajes ITF Taiwán, Festival de Cine Golden Horse, F
+  fr: lines=1 ascii-quote=False bytes=419 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna hebdomadaire en chinois traditionnel VOL.3 pour lecteurs francophones, A2 à B2, 150 exercices : festival de shopping Double 11, clôture de la foire internationale du voyage ITF Taiwan, festival du film Golden Hor
+  it: lines=1 ascii-quote=False bytes=339 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna VOL.3, 9-15 novembre 2026: testi in cinese tradizionale per lettori italiani (livelli A2-B2, 150 esercizi) — chiusura della fiera ITF Taiwan, Double 11, festival Golden Horse, festival dell'acciaio di Kaohsiung, 
+  ja: lines=1 ascii-quote=False bytes=424 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna 中国語（繁体字）週刊 VOL.3、日本語話者の学習者向け、A2からB2、150問の練習：ダブルイレブン・ショッピングフェスティバル、ITF台湾国際旅展の閉幕、金馬映画祭、高雄の鉄彫刻フェスティバル、味全ドラゴンズ優勝パレード予告、香港のアーツ・イン・ザ・パーク——今週の話題を素材にした150問の練習。
+  ko: lines=1 ascii-quote=False bytes=379 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna 중국어 번체 주간지 VOL.3, 한국어 학습자를 위한 A2부터 B2, 연습 문제 150개: 더블 일레븐 쇼핑 페스티벌, ITF 대만 국제 여행 박람회 폐막, 금마 영화제, 가오슝 철 조각 축제, 웨이취안 드래곤스 우승 퍼레이드 예고, 홍콩 아츠 인 더 파크 — 이번 주 주제를 소재로 한 연습 문제 150개.
+  nl: lines=1 ascii-quote=False bytes=409 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna Chinees weekblad (traditioneel) VOL.3 voor Nederlandstalige leerders, A2 tot B2, 150 oefeningen: Double 11-winkelfestival, sluiting van de ITF Taiwan International Travel Fair, Golden Horse-filmfestival, staalscu
+  pt: lines=1 ascii-quote=False bytes=357 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna VOL.3, 9-15 de novembro de 2026: textos em chinês tradicional para leitores de língua portuguesa (níveis A2-B2, 150 exercícios) — fechamento da feira ITF Taiwan, Duplo 11, festival Golden Horse, festival de aço d
+  ru: lines=1 ascii-quote=False bytes=715 has150=True hasA2B2=True learnnews=[]
+    :: Lucerna — еженедельник на китайском (традиционном) VOL.3 для русскоязычных учащихся, уровни A2–B2, 150 упражнений: фестиваль покупок 11.11, закрытие Тайбэйской международной туристической ярмарки ITF, кинофестиваль «Золо
+
+===== PDF checks =====
+  en: print=14116006B txt=45561B | web=2008249B txt=45561B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Traditional Chinese text · English explanations
+  de: print=16798216B txt=46879B | web=2133642B txt=46879B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Chinesischer Text (traditionell) · Erklärungen auf Deutsch
+  es: print=16402001B txt=47147B | web=2116602B txt=47147B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Textos en chino tradicional · Explicaciones en español
+  fr: print=15630984B txt=47899B | web=2073427B txt=47899B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Textes en chinois traditionnel · Explications en français
+  it: print=14083148B txt=46541B | web=1982279B txt=46541B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Testi in cinese tradizionale · Spiegazioni in italiano
+  ja: print=12005689B txt=51271B | web=2208932B txt=51271B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · 中国語（繁体字）テキスト · 日本語の解説
+  ko: print=10063572B txt=49384B | web=1891878B txt=49384B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · 중국어 번체 텍스트 · 한국어 해설
+  nl: print=14476823B txt=45996B | web=1990345B txt=45996B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Teksten in het Chinees (traditioneel) · Uitleg in het Nederlands
+  pt: print=15632996B txt=46523B | web=2075639B txt=46523B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Textos em chinês tradicional · Explicações em português
+  ru: print=8837523B txt=58354B | web=1700024B txt=58354B | web<=7MB=True | print==web text: True
+    text.md first line: # VOL.3 · Тексты на китайском (традиционном) · Объяснения на русском

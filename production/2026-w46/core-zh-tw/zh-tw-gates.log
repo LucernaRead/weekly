@@ -1,0 +1,66 @@
+# W46 zh-tw gates log (builder self-check; coordinator/proofreader re-runs independently)
+## CORE 2026-w46-zh-tw-en (VOL.3) — files/weekly-report-w46-zhtw-core/
+- run.py: TOTAL 150; levels A2 44 / B1 74 / B2 32; pages 10/18/18/18/18/18/12/38; types 單選 67 / 完成句子 54 / 配對 16 / 完形單選 12 / 寫作 1; zero FLOW OVERFLOW / HEAD TOO WIDE warnings (build3.log).
+- freeze.py baseline: 8/8 SVGs byte-identical; shipped core SVGs re-hashed unchanged (see zh-tw-baseline.log).
+- occlusion_audit.py: selftest OK; first run 3 flags (P2 BOXTITLE, P4 TEXTX, P5 BOXTITLE) — all fixed in source; final run 0 flags (tools/scratch/w46-zhtw-core-occlusion2.json).
+- audit_extra.py (same-baseline + chart-label): 0 / 0.
+- p8.py extract --total 150: noted set 150/150; writing model 150 chars.
+- P7 phrases: 8/8 at exactly 2 occurrences (concatenated SVG text nodes).
+- Charts: P4 bars 90/450/900px; P6 bars 220/400/300/800px.
+- Simplified-only spot scan: 0 hits.
+- webpdf.py: exit 0; web PDF 2,008,247 bytes; pdftotext 45,562 bytes, byte-identical to print PDF text (cmp clean).
+- Print PDF 14,116,004 bytes, SHA-256 959b2ab0d3b7cd33d98ba2dad89906823fc31796bb683b64555aeaf205abaa17; web SHA-256 1fea60e2615e27b79fb71d3e1286c021c47954c5c9debfc1097a1953edf6e6be.
+## FAN-OUT 2026-w46-zh-tw-de (VOL.3)
+- run.py TOTAL 150 (A2 44/B1 74/B2 32; pages 10/18/18/18/18/18/12/38); final build log zero warnings.
+- occlusion_audit: 0 flags, NEW vs core 0; same-baseline/chart-label 0/0.
+- freeze.py diff --strict-cjk: added CJK 0 all pages (exit 0).
+- p8.py compare: CLEAN 150/150.
+- P7 phrases 8/8 at 2x; residual English: none except proper name "Arts in the Park".
+- Gate-10 replay: fresh core copy + transform = 8/8 SVGs byte-identical.
+- webpdf: 2,133,629 bytes; pdftotext 46,884 bytes, byte-identical to print text. Print 16,798,162 bytes SHA-256 52a4c5ce0ef2e4091ef809e4adc164d4848c48af05b61a51608e05f110b3a928; web SHA-256 9644e03710ccb571e7ca64c0aae0633cd4f6b9b3ab420d5b195e343d4cf4f26c.
+- Visual QA: P1, P7 viewed clean.
+## FAN-OUT 2026-w46-zh-tw-fr (VOL.3)
+- run.py TOTAL 150; final build log zero warnings (4 HEAD TOO WIDE in first render fixed in source: 3x "Compris ?", "Quiz de lecture").
+- occlusion_audit: 0 flags, NEW vs core 0 (first audit 2 BOXTITLE fixed in source: P3 title -> "Fin du festival", P4 Over-to-you shortened); same-baseline/chart-label 0/0.
+- freeze.py diff --strict-cjk: added CJK 0 all pages (exit 0; first run +3 full-width commas from commas after CJK terms, reworded).
+- p8.py compare: CLEAN 150/150.
+- P7 phrases 8/8 at 2x; residual English: none.
+- Gate-10 replay: fresh core copy + transform = 8/8 SVGs byte-identical.
+- webpdf: 2,073,408 bytes; pdftotext 47,891 bytes, byte-identical to print text. Print 15,630,960 bytes SHA-256 570aaa3ef2ab3590a9f5df7325fbc606f35603459fc681aa31c86b841270a976; web SHA-256 c5719514bc60d82789c1412be44c61db293a492e0d38fd3242380a4b21042896.
+- Visual QA: P7 viewed clean.
+## FAN-OUT 2026-w46-zh-tw-es (VOL.3)
+- run.py TOTAL 150; final build log zero warnings (1 HEAD TOO WIDE fixed: P7-A2 head).
+- occlusion_audit: 0 flags, NEW vs core 0.
+- freeze.py diff --strict-cjk: added CJK 0 all pages (first run +46 full-width parens; W45 _fw bypass replicated, re-run clean).
+- p8.py compare: CLEAN 150/150 (paren style).
+- P7 phrases 8/8 at 2x; residual English: none.
+- Gate-10 replay: 8/8 byte-identical.
+- webpdf: 2,116,579 bytes; pdftotext 47,134 bytes, byte-identical to print text. Print 16,401,975 bytes SHA-256 b6a259bc15c891b0831303486561a9bf3c0045e54305facc3f7a22216602bf5a; web SHA-256 ace7dab0eb072e0bc4c0591856643fa412600f6f69be2d0148dd29f2b89d511c.
+- Visual QA: P8 viewed clean.
+
+=== IT (2026-w46-zh-tw-it) 2026-11-02 ===
+registry TOTAL 150 (A2 44 / B1 74 / B2 32), 0 warnings final log
+occlusion audit: selftest OK, 0 flags, NEW vs core 0
+same-baseline/chart-label scan: 0/0
+freeze --strict-cjk: added CJK 0 (first run +4 full-width parens from 2 B2 ex notes; fixed to pinyin)
+p8.py compare: CLEAN 150/150
+phrases 8/8 at 2x (text-node join); residual English: proper names only
+Gate-10 replay: 8/8 byte-identical
+print PDF 14,083,166 bytes SHA-256 44982ffb5c64be703373bd4870521092a23eea04ccc32e788f703a95a128ef03
+web PDF 1,982,304 bytes SHA-256 98b350a543a419faaaa073aa53cb956b0ca0af0bed66faeb63161126995229fc; pdftotext 46,538 bytes byte-identical to print text
+visual QA: P1, P7, P8 viewed clean
+deliverables: ABSTRACT.txt (IT), 2026-w46-zh-tw-it.text.md, WEEKLY-KIT.md
+
+=== PT (2026-w46-zh-tw-pt) 2026-11-02 ===
+registry TOTAL 150 (A2 44 / B1 74 / B2 32), 0 warnings final log
+occlusion audit: selftest OK, 0 flags, NEW vs core 0
+same-baseline/chart-label scan: 0/0
+freeze --strict-cjk: added CJK 0
+p8.py compare: CLEAN 150/150
+phrases 8/8 at 2x (text-node join); residual English: proper names only
+Gate-10 replay: 8/8 byte-identical
+incident: first transform lacked main() and silently no-opped; untransformed render rewrote core dir, verified byte-identical to baseline (8/8 SVG hashes + both PDF SHAs); rebuilt properly
+print PDF 15,632,970 bytes SHA-256 937c4d50b0d62cad98a39ff0c463ed7e8b4380062997c901c29a280ab33ddf69
+web PDF 2,075,620 bytes SHA-256 ba9b0380c6ea27a95d19fab54e52c6beb06a4092fd0472a66ef57747204cf9f4; pdftotext 46,512 bytes byte-identical to print text
+visual QA: P1, P8 viewed clean
+deliverables: ABSTRACT.txt (PT), 2026-w46-zh-tw-pt.text.md, WEEKLY-KIT.md

@@ -1,0 +1,445 @@
+{
+ "hashdiff": {
+  "zh-cn": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-web.pdf",
+   "Lucerna-VOL3.pdf",
+   "2026-w46-ko-zh-cn.text.md"
+  ],
+  "de": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-web.pdf",
+   "Lucerna-VOL3.pdf",
+   "2026-w46-ko-de.text.md"
+  ],
+  "en": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-EN-web.pdf",
+   "Lucerna-VOL3-EN.pdf",
+   "2026-w46-ko-en.text.md"
+  ],
+  "es": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-ES-web.pdf",
+   "Lucerna-VOL3-ES.pdf",
+   "2026-w46-ko-es.text.md"
+  ],
+  "fr": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-FR-web.pdf",
+   "Lucerna-VOL3-FR.pdf",
+   "2026-w46-ko-fr.text.md"
+  ],
+  "it": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-IT-web.pdf",
+   "Lucerna-VOL3-IT.pdf",
+   "2026-w46-ko-it.text.md"
+  ],
+  "ja": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-web.pdf",
+   "Lucerna-VOL3.pdf",
+   "2026-w46-ko-ja.text.md"
+  ],
+  "nl": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-NL-web.pdf",
+   "Lucerna-VOL3-NL.pdf",
+   "2026-w46-ko-nl.text.md"
+  ],
+  "pt": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-web.pdf",
+   "Lucerna-VOL3.pdf",
+   "2026-w46-ko-pt.text.md"
+  ],
+  "ru": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-RU-web.pdf",
+   "Lucerna-VOL3-RU.pdf",
+   "2026-w46-ko-ru.text.md"
+  ],
+  "zh-tw": [
+   "cards/p3-munhwa.png",
+   "cards/p4-seupocheu.png",
+   "cards/p7-mal.png",
+   "svg/p3-munhwa.svg",
+   "svg/p4-seupocheu.svg",
+   "svg/p7-mal.svg",
+   "Lucerna-VOL3-ZHTW-web.pdf",
+   "Lucerna-VOL3-ZHTW.pdf",
+   "2026-w46-ko-zh-tw.text.md"
+  ]
+ },
+ "multiset": {
+  "zh-cn": {
+   "p3-munhwa.txt": {
+    "added": {
+     "译注｜겹치다 重叠 · 가늘다 细 · 감사하다": 1,
+     "感谢 · 나누다 区分、分享。": 1
+    },
+    "removed": {
+     "译注｜겹치다 重叠 · 감사하다 感谢 · 나누다": 1,
+     "区分、分享。": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "de": {
+   "p3-munhwa.txt": {
+    "added": {
+     "가늘다 = dünn · 감사하다 = danken · 나누다": 1,
+     "= unterscheiden, teilen": 1
+    },
+    "removed": {
+     "감사하다 = danken · 나누다 =": 1,
+     "unterscheiden, teilen": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "en": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Note — 겹치다 = to overlap · 가늘다 = thin": 1,
+     "· 감사하다 = to thank · 나누다 = to tell": 1,
+     "apart, to share": 1
+    },
+    "removed": {
+     "Note — 겹치다 = to overlap · 감사하다 = to": 1,
+     "thank · 나누다 = to tell apart, to share": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "es": {
+   "p3-munhwa.txt": {
+    "added": {
+     "가늘다 = fino · 감사하다 = agradecer ·": 1,
+     "나누다 = distinguir, compartir": 1
+    },
+    "removed": {
+     "감사하다 = agradecer · 나누다 = distinguir,": 1,
+     "compartir": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "fr": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Note — 겹치다 = se chevaucher · 가늘다 =": 1,
+     "fin · 감사하다 = remercier · 나누다 =": 1,
+     "distinguer, partager": 1
+    },
+    "removed": {
+     "Note — 겹치다 = se chevaucher · 감사하다": 1,
+     "= remercier · 나누다 = distinguer, partager": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "it": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Nota — 겹치다 = sovrapporsi · 가늘다 =": 1,
+     "sottile · 감사하다 = ringraziare · 나누다 =": 1,
+     "distinguere, condividere": 1
+    },
+    "removed": {
+     "Nota — 겹치다 = sovrapporsi · 감사하다 =": 1,
+     "ringraziare · 나누다 = distinguere,": 1,
+     "condividere": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "ja": {
+   "p3-munhwa.txt": {
+    "added": {
+     "解説 — 겹치다 = 重なる · 가늘다 = 細い ·": 1,
+     "감사하다 = 感謝する · 나누다 =": 1,
+     "区別する、分かち合う": 1
+    },
+    "removed": {
+     "解説 — 겹치다 = 重なる · 감사하다 =": 1,
+     "感謝する · 나누다 = 区別する、分かち合う": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "nl": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Uitleg — 겹치다 = samenvallen · 가늘다 =": 1,
+     "dun · 감사하다 = bedanken · 나누다 =": 1,
+     "onderscheiden, delen": 1
+    },
+    "removed": {
+     "Uitleg — 겹치다 = samenvallen · 감사하다 =": 1,
+     "bedanken · 나누다 = onderscheiden,": 1,
+     "delen": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "pt": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Nota — 겹치다 = sobrepor-se · 가늘다 =": 1,
+     "fino · 감사하다 = agradecer · 나누다 =": 1,
+     "distinguir, partilhar": 1
+    },
+    "removed": {
+     "Nota — 겹치다 = sobrepor-se · 감사하다 =": 1,
+     "agradecer · 나누다 = distinguir, partilhar": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "ru": {
+   "p3-munhwa.txt": {
+    "added": {
+     "Пояснение — 겹치다 = совпадать · 가늘다": 1,
+     "= тонкий · 감사하다 = благодарить ·": 1,
+     "나누다 = различать, делиться": 1
+    },
+    "removed": {
+     "Пояснение — 겹치다 = совпадать ·": 1,
+     "감사하다 = благодарить · 나누다 =": 1,
+     "различать, делиться": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  },
+  "zh-tw": {
+   "p3-munhwa.txt": {
+    "added": {
+     "譯注｜겹치다 重疊 · 가늘다 細 · 감사하다": 1,
+     "感謝 · 나누다 區分、分享。": 1
+    },
+    "removed": {
+     "譯注｜겹치다 重疊 · 감사하다 感謝 ·": 1,
+     "나누다 區分、分享。": 1
+    }
+   },
+   "p4-seupocheu.txt": {
+    "added": {
+     "한국시리즈 시작이 하루 ___.": 1
+    },
+    "removed": {
+     "한국시리즈 시작이 하루 ___어요.": 1
+    }
+   },
+   "p7-mal.txt": {
+    "added": {
+     "미리 소금에 절인 배추를 ___라고 해요.": 1
+    },
+    "removed": {
+     "미리 소금에 절인 배추를 ___이라고 해요.": 1
+    }
+   }
+  }
+ }
+}

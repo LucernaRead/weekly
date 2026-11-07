@@ -1,0 +1,9 @@
+{
+  "method": "PIL grayscale ink<128 on 1950x2700 P1 cards; central-only row clusters y<500 (xmin>300, xmax<1650); edge check x<25 or x>1924 over full page",
+  "wordmark_cluster_y144_265": {"en": [716, 1233], "de": [716, 1233], "es": [716, 1233], "fr": [716, 1233], "it": [716, 1233], "ja": [716, 1233], "ko": [716, 1233], "nl": [716, 1233], "pt": [716, 1233], "ru": [716, 1233]},
+  "wordmark_margins_vs_centre_975": "259 left / 258 right in all 10 (centred within 1 px)",
+  "subtitle_cluster_y296_333": "617-1332 in all 10 (margins 358/357)",
+  "badge_cluster_y356_376": "centred within 1 px in all 10 (worst asymmetry 1 px: NL 258/257, PT 212/211, RU 273/272, KO 205/204, ES 213/212)",
+  "rows_with_ink_outside_frame": 0,
+  "verdict": "masthead pixel clearance PASS, all 10 editions"
+}

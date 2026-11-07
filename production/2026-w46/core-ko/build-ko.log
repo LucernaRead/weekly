@@ -1,0 +1,52 @@
+===== ko transform rc=0 =====
+NOT FOUND literal: 'CULTURA · 文化'
+NOT FOUND literal: 'E TU? · 说说你自己'
+NOT FOUND literal: 'GIOVANI · 青年'
+NOT FOUND literal: 'LA FRASE PER RICORDARE · 口诀'
+NOT FOUND literal: 'LA SETTIMANA DELLO SPORT · 体育周'
+NOT FOUND literal: 'VITA · 生活'
+NOT FOUND literal: 'dovere = 必须'
+NOT FOUND literal: 'si gioca = 进行比赛'
+NOT FOUND literal: '写作'
+NOT FOUND literal: '判断'
+NOT FOUND literal: '判断对错'
+NOT FOUND literal: '单选'
+NOT FOUND literal: '句型转换'
+NOT FOUND literal: '周四晚上意大利对法国。'
+NOT FOUND literal: '周日晚上，比利时对意大利。'
+NOT FOUND literal: '圣马丁节葡萄汁变成酒。'
+NOT FOUND literal: '填空'
+NOT FOUND literal: '完形单选'
+NOT FOUND literal: '完成句子'
+NOT FOUND literal: '对照原文'
+NOT FOUND literal: '把词和释义配对'
+NOT FOUND literal: '每个数字都必须清楚。→ ___'
+NOT FOUND literal: '用方框里的词填空：manovra · deficit · copertura · scaglione'
+NOT FOUND literal: '词汇配对'
+NOT FOUND literal: '造句'
+NOT FOUND literal: '（开放题，范文如下）'
+transform done
+
+
+===== ko run.py rc=0 =====
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=865 (bottom 1332)
+  flow[P8-keys] ended col 3/3 y=2531 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 47, 'B1': 70, 'B2': 33}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 98
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 47, 'B1': 70, 'B2': 33}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'문장 완성': 61, '객관식': 48, '단어 짝짓기': 12, '문장 만들기': 7, '문장 전환': 1, '읽기 판단': 3, '빈칸 채우기': 13, '번역': 4, '쓰기': 1}
+ALL DONE
+
+===== ko render.py rc=0 =====
+card: p8-valutazione.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-ko/La-Lucerna-VOL3-KO.pdf 12514276
+web PDF: build separately with tools/webpdf.py
+
+

@@ -1,0 +1,320 @@
+===== core : run.py =====
+run.py exit=0 (see core-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 52, '词汇配对': 16, '句型转换': 4, '造句': 8, '判断': 4, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE
+===== core : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-core/Lucerna-VOL3.pdf 32010944
+===== core : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-core/svg
+1015 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 254840 bytes
+  font LucernaNotoSansCJKKR-Bold: 260204 bytes
+  font LucernaNotoSerifCJKKR-Regular: 429252 bytes
+  font LucernaNotoSerifCJKKR-Bold: 434000 bytes
+  font LucernaUnifrakturMaguntia-Regular: 23112 bytes
+WROTE ../files/weekly-report-w46-ko-core/Lucerna-VOL3-web.pdf: 2527990 bytes, 50748 text bytes
+===== de : run.py =====
+run.py exit=0 (see de-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Satz ergänzen': 48, 'Auswahl': 52, 'Paare zuordnen': 16, 'Umformen': 4, 'Sätze bilden': 8, 'Richtig oder falsch': 4, 'Lückentext': 13, 'Übersetzen': 4, 'Schreiben': 1}
+ALL DONE
+===== de : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-de/Lucerna-VOL3.pdf 32910937
+===== de : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-de/svg
+570 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84552 bytes
+  font LucernaNotoSansCJKKR-Bold: 85620 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185524 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187436 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31000 bytes
+WROTE ../files/weekly-report-w46-ko-de/Lucerna-VOL3-web.pdf: 2317063 bytes, 53304 text bytes
+===== en : run.py =====
+run.py exit=0 (see en-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'fill-in': 48, 'multiple choice': 52, 'matching': 16, 'transformation': 4, 'sentence building': 8, 'true/false': 4, 'cloze': 13, 'translation': 4, 'writing': 1}
+ALL DONE
+===== en : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-en/Lucerna-VOL3-EN.pdf 32290628
+===== en : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-en/svg
+567 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84524 bytes
+  font LucernaNotoSansCJKKR-Bold: 85732 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185860 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187628 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28872 bytes
+WROTE ../files/weekly-report-w46-ko-en/Lucerna-VOL3-EN-web.pdf: 2292678 bytes, 52460 text bytes
+===== es : run.py =====
+run.py exit=0 (see es-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completar': 48, 'Opción múltiple': 52, 'Emparejar': 16, 'Transformación': 4, 'Formar una frase': 8, 'Verdadero o falso': 4, 'Texto con huecos': 13, 'Traducción': 4, 'Redacción': 1}
+ALL DONE
+===== es : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-es/Lucerna-VOL3-ES.pdf 32467501
+===== es : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-es/svg
+576 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84808 bytes
+  font LucernaNotoSansCJKKR-Bold: 86016 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185832 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187712 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30316 bytes
+WROTE ../files/weekly-report-w46-ko-es/Lucerna-VOL3-ES-web.pdf: 2297481 bytes, 54053 text bytes
+===== fr : run.py =====
+run.py exit=0 (see fr-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Compléter': 48, 'Choix multiple': 52, 'Appariement': 16, 'Transformation': 4, 'Former une phrase': 8, 'Vrai ou faux': 4, 'Texte à trous': 13, 'Traduction': 4, 'Rédaction': 1}
+ALL DONE
+===== fr : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-fr/Lucerna-VOL3-FR.pdf 32498888
+===== fr : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-fr/svg
+579 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84640 bytes
+  font LucernaNotoSansCJKKR-Bold: 85940 bytes
+  font LucernaNotoSerifCJKKR-Regular: 186344 bytes
+  font LucernaNotoSerifCJKKR-Bold: 188116 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30148 bytes
+WROTE ../files/weekly-report-w46-ko-fr/Lucerna-VOL3-FR-web.pdf: 2305526 bytes, 54157 text bytes
+===== it : run.py =====
+run.py exit=0 (see it-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completa la frase': 48, 'Scelta multipla': 52, 'Abbinamento': 16, 'Trasforma la frase': 4, 'Costruisci la frase': 8, 'Vero o falso': 4, 'Cloze': 13, 'Traduzione': 4, 'Scrittura': 1}
+ALL DONE
+===== it : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-it/Lucerna-VOL3-IT.pdf 32463283
+===== it : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-it/svg
+571 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 83424 bytes
+  font LucernaNotoSansCJKKR-Bold: 84652 bytes
+  font LucernaNotoSerifCJKKR-Regular: 184384 bytes
+  font LucernaNotoSerifCJKKR-Bold: 186196 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29128 bytes
+WROTE ../files/weekly-report-w46-ko-it/Lucerna-VOL3-IT-web.pdf: 2288426 bytes, 53493 text bytes
+===== ja : run.py =====
+run.py exit=0 (see ja-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'文完成': 48, '単択': 52, '語彙対応': 16, '書きかえ': 4, '組み合わせ': 8, '正誤': 4, '穴埋め単択': 13, '翻訳': 4, '作文': 1}
+ALL DONE
+===== ja : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-ja/Lucerna-VOL3.pdf 36156571
+===== ja : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-ja/svg
+975 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 271356 bytes
+  font LucernaNotoSansCJKKR-Bold: 277272 bytes
+  font LucernaNotoSerifCJKKR-Regular: 461664 bytes
+  font LucernaNotoSerifCJKKR-Bold: 466612 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22524 bytes
+WROTE ../files/weekly-report-w46-ko-ja/Lucerna-VOL3-web.pdf: 2661269 bytes, 53820 text bytes
+===== nl : run.py =====
+run.py exit=0 (see nl-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Vul de zin in': 48, 'Meerkeuze': 52, 'Koppel paren': 16, 'Herschrijf': 4, 'Bouw zinnen': 8, 'Juist of onjuist': 4, 'Invuloefening': 13, 'Vertaal': 4, 'Schrijf': 1}
+ALL DONE
+===== nl : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-nl/Lucerna-VOL3-NL.pdf 32464167
+===== nl : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-nl/svg
+567 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 83444 bytes
+  font LucernaNotoSansCJKKR-Bold: 84668 bytes
+  font LucernaNotoSerifCJKKR-Regular: 184256 bytes
+  font LucernaNotoSerifCJKKR-Bold: 186052 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29008 bytes
+WROTE ../files/weekly-report-w46-ko-nl/Lucerna-VOL3-NL-web.pdf: 2290981 bytes, 53168 text bytes
+===== pt : run.py =====
+run.py exit=0 (see pt-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Complete a frase': 48, 'Escolha múltipla': 52, 'Associe pares': 16, 'Reescreva': 4, 'Monte frases': 8, 'Verdadeiro ou falso': 4, 'Texto com lacunas': 13, 'Traduza': 4, 'Escreva': 1}
+ALL DONE
+===== pt : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-pt/Lucerna-VOL3.pdf 32468910
+===== pt : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-pt/svg
+582 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 84588 bytes
+  font LucernaNotoSansCJKKR-Bold: 85828 bytes
+  font LucernaNotoSerifCJKKR-Regular: 185700 bytes
+  font LucernaNotoSerifCJKKR-Bold: 187608 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30124 bytes
+WROTE ../files/weekly-report-w46-ko-pt/Lucerna-VOL3-web.pdf: 2300931 bytes, 53676 text bytes
+===== ru : run.py =====
+run.py exit=0 (see ru-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Дополните предложение': 48, 'Выбор ответа': 52, 'Пары слов': 16, 'Преобразование предложения': 4, 'Составьте предложение': 8, 'Верно или неверно': 4, 'Заполните пропуски': 13, 'Переведите': 4, 'Письмо': 1}
+ALL DONE
+===== ru : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-ru/Lucerna-VOL3-RU.pdf 30826972
+===== ru : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-ru/svg
+619 distinct chars; families: ['Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKKR-Regular: 91548 bytes
+  font LucernaNotoSansCJKKR-Bold: 92972 bytes
+  font LucernaNotoSerifCJKKR-Regular: 192524 bytes
+  font LucernaNotoSerifCJKKR-Bold: 194952 bytes
+  font LucernaUnifrakturMaguntia-Regular: 23484 bytes
+WROTE ../files/weekly-report-w46-ko-ru/Lucerna-VOL3-RU-web.pdf: 2243230 bytes, 61377 text bytes
+===== zh-tw : run.py =====
+run.py exit=0 (see zh-tw-run.log)
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 51, 'B1': 72, 'B2': 27}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '單選': 52, '詞彙配對': 16, '句型轉換': 4, '造句': 8, '判斷': 4, '完形單選': 13, '翻譯': 4, '寫作': 1}
+ALL DONE
+===== zh-tw : render.py =====
+render.py exit=0
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ko-zh-tw/Lucerna-VOL3-ZHTW.pdf 32053910
+===== zh-tw : webpdf.py =====
+webpdf.py exit=0
+8 pages from ../files/weekly-report-w46-ko-zh-tw/svg
+1012 distinct chars; families: ['Noto Sans CJK TC', 'Noto Serif CJK TC', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKTC-Regular: 333824 bytes
+  font LucernaNotoSansCJKTC-Bold: 341384 bytes
+  font LucernaNotoSerifCJKTC-Regular: 524276 bytes
+  font LucernaNotoSerifCJKTC-Bold: 531032 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22280 bytes
+WROTE ../files/weekly-report-w46-ko-zh-tw/Lucerna-VOL3-ZHTW-web.pdf: 2654260 bytes, 50895 text bytes
+ALL-RENDER-DONE

@@ -1,0 +1,86 @@
+118c118,200
+< None yet. Independent proofreading is still owed.
+---
+> ### Fix 1 — Round 1 verdict D1 (blocking, 2026-11-02/03 fix worker; Round 2 re-proofread still owed)
+> 
+> - **Defect (Round 1 verdict D1):** stray wrap-orphan lines on P3 and P5. The
+>   section-C instruction wrapped and orphaned the page number onto its own
+>   line — P3 `Responde con fechas y números de la página` / lone `3.`
+>   (`<text x="527" y="2115.425">3.</text>` in `p3-wenhua.svg`), P5 the same
+>   with lone `5.`. The lone number read as a phantom exercise number and
+>   displaced the first section-C exercise ~30 px down (39./75. at
+>   y=2177.1 vs 2147.4 in the core).
+> - **Fix (Spanish explanation string only; no frozen Chinese string
+>   changed):** the instruction was shortened by abbreviating `página` to
+>   the standard Spanish abbreviation `p.`, in both the render source and
+>   the transform map so a rebuild from the core reproduces the fix:
+>   - Source 1 — `hidden_files/weekly-report-w46-zh-cn-es-build/content34.py`
+>     line 96, `e.glossline(...)`:
+>     before `Responde con fechas y números de la página 3.` →
+>     after `Responde con fechas y números de la p. 3.`
+>   - Source 2 — `hidden_files/weekly-report-w46-zh-cn-es-build/content56.py`
+>     line 91, `e.glossline(...)`:
+>     before `Responde con fechas y números de la página 5.` →
+>     after `Responde con fechas y números de la p. 5.`
+>   - Source 3 — `hidden_files/w46/maps/es.json` (the two corresponding
+>     `"Answer with dates and numbers from page N."` mapping values, same
+>     before/after as above; English keys unchanged, 282 keys total, JSON
+>     re-validated). No other edition file was touched: all 189 files of
+>     the other 9 ZH-CN editions verified byte-identical by sha256 before
+>     and after (see fix-worker's `hidden_files/w46/zh-cn-fix/`).
+>   - Wrap pre-check with the build's own `wrap()` (size 20.5, sans, width
+>     434): old string 448.3 px → 2 lines; new string 401.3 px → 1 line.
+> - **Re-render (full, from source):** `run.py` then `render.py` in the ES
+>   build dir — TOTAL 150, levels A2 56 / B1 69 / B2 25, pages
+>   10/18/18/18/18/18/12/38, writing model 164 characters, **zero** FLOW
+>   OVERFLOW / HEAD TOO WIDE warnings. All 8 SVGs + 8 cards + print PDF
+>   regenerated; web PDF rebuilt with `tools/webpdf.py`; `.text.md`
+>   regenerated from the source manuscript with `hidden_files/w46/textmd.py`
+>   (never hand-edited, never from PDF) — diff vs the pre-fix export is
+>   exactly the 2 fixed lines (lines 623/1063), header preserved verbatim.
+>   Change footprint verified by sha256: only `p3-wenhua.svg`,
+>   `p5-qingnian.svg`, their 2 cards, both PDFs and `.text.md` changed; the
+>   other 6 SVGs/cards and `ABSTRACT.txt` are byte-identical to the
+>   pre-fix render.
+> - **Re-gates (on the FINAL artifacts; evidence in
+>   `hidden_files/w46/zh-cn-fix/`):**
+>   - Standalone-`"N."` scan: zero orphan candidates — no single-digit
+>     `"N."` node at any column-start x (65/527/989/1451) in the edition.
+>     The only single-digit `"N."` nodes left are the 9 legitimate P1
+>     exercise numbers (`1.`–`9.` at x=137/599/1061, the exercise-number
+>     offset); no digit-dot node sits outside exercise-number x positions
+>     anywhere in the edition. Instruction is a single text node on P3
+>     (`x=527 y=2085.7`, `Responde con fechas y números de la p. 3.`) and
+>     P5 (`… la p. 5.`), page number on line 1. First section-C exercises
+>     39./75. at y=2147.425, exactly matching the core (was 2177.1).
+>   - Occlusion audit (`tools/occlusion_audit.py`, selftest first): selftest
+>     OK, **0 flags** (all 8 pages).
+>   - Freeze (`tools/freeze.py diff --strict-cjk`): added CJK **0 on every
+>     page** (CJK core→edition per page identical to Round 1: 932→882,
+>     968→946, 877→855, 787→766, 901→879, 1019→997, 741→721, 1084→1063).
+>   - P8 (`tools/p8.py`): extract 150/150; compare core vs edition **CLEAN**
+>     (missing=[], extra_count=0, keydiff=[]).
+>   - Rowcheck §1: all 8 pages CLEAN (§2 N/A — hardcodes the NL P6
+>     filename, same as Round 1).
+>   - Counts re-measured: 150 unique exercise numbers 1–150, no gaps or
+>     duplicates; per-page 10/18/18/18/18/18/12/38. P7 phrases: all 8
+>     exactly 2× (1× source article + 1× P7). P6 chart rects: x=325,
+>     widths 220/330/550/770, h=30, y=1274/1324/1374/1424, first fill
+>     `#3e4c2a`, rest `#b3a06a`.
+>   - PDFs: web PDF 2,497,482 bytes (< 7 MB), 8 pages; `pdftotext`
+>     **45,801 bytes, byte-identical web vs print** (10 bytes fewer than
+>     Round 1's 45,811 — exactly the 2×5-byte shortening). Print PDF
+>     42,127,051 bytes. `.text.md` 42,763 bytes.
+>   - Visual: P3 + P5 cards read at full frame — instruction complete on
+>     one line with its page number, exercises aligned with the core, no
+>     orphan, overflow or overlap; P1/P8 spot-checked clean.
+>   - The "Gates (final render)" section above describes the PRE-fix
+>     render; the figures in this record supersede it (notably web PDF
+>     2,497,482 bytes / 45,801 text bytes).
+> - **D2 (verdict, record-only):** NOT applied to edition content, per the
+>   fix instruction. This KIT does not repeat the refuted KO/JA figures
+>   (KO total 4300→4304, JA p2 479→477, JA "identical" wording), so no
+>   correction was needed here; no other edition's KIT was touched.
+> - **Status after this fix:** re-gated clean by the fix worker; Round 2
+>   independent proofread of the ES edition (P3/P5) is still owed before
+>   shipping. No push, no insert, no Discord post, no chat dump.

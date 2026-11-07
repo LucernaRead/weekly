@@ -1,0 +1,10 @@
+elements incl root: before 189 after 189 (188 excl root)
+idx 183 rect: BEFORE {'x': '65', 'y': '2518.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'} ''
+idx 183 rect: AFTER  {'x': '65', 'y': '2448.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'} ''
+idx 184 text: BEFORE {'x': '93', 'y': '2562.52', 'font-family': 'Noto Sans CJK SC', 'font-size': '24', 'font-weight': '700', 'fill': '#e8dfc8', 'text-anchor': 'start'} '下期预告 · На следующей неделе (VOL.4)'
+idx 184 text: AFTER  {'x': '93', 'y': '2492.52', 'font-family': 'Noto Sans CJK SC', 'font-size': '24', 'font-weight': '700', 'fill': '#e8dfc8', 'text-anchor': 'start'} '下期预告 · На следующей неделе (VOL.4)'
+idx 185 text: BEFORE {'x': '93', 'y': '2602.52', 'font-family': 'Noto Serif CJK SC', 'font-size': '21', 'fill': '#f3edda', 'text-anchor': 'start'} 'S16总决赛打完了，谁是冠军？包裹都到了吗？还有你们的来信和第8版最佳作文。下周见！'
+idx 185 text: AFTER  {'x': '93', 'y': '2532.52', 'font-family': 'Noto Serif CJK SC', 'font-size': '21', 'fill': '#f3edda', 'text-anchor': 'start'} 'S16总决赛打完了，谁是冠军？包裹都到了吗？还有你们的来信和第8版最佳作文。下周见！'
+differing elements: 3
+SVG-text multiset diff: before-only [] after-only []
+fills: band #2c2822 unchanged, footer #57523f unchanged (see diffs above: only y changed)

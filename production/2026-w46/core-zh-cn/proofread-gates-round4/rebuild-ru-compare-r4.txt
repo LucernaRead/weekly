@@ -1,0 +1,5 @@
+Scratch rebuild (current RU build source, OUT redirected to gate scratch, shipped files hash-guarded):
+registry: TOTAL 150, A2 56 / B1 69 / B2 25, per-page 10/18/18/18/18/18/12/38, writing model 164, P7 teaser ends 2566.52, 0 FLOW OVERFLOW / HEAD TOO WIDE
+scratch SVGs vs shipped SVGs: p1..p8 all 8 BYTE-IDENTICAL (cmp), P7 element sequence 189/189 identical, text multiset diff empty.
+guard: shipped RU hashes before==after (rebuild-guard-before.txt == rebuild-guard-after.txt).
+Scratch build copy deleted after comparison (as in Round 3); run log retained as rebuild-ru-run.log.

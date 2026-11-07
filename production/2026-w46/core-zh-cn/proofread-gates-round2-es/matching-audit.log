@@ -1,0 +1,58 @@
+# Matching-set + full answer-key audit — Round 2, 2026-w46-zh-cn-es
+
+Method: `bslib4.Flow.match_set` (build source) prints `rights` in list order
+lettered a/b/c/d in that order; the P8 key letter for each left word must be
+the letter printed beside its matching definition. Verified against the
+rendered SVGs (right-column letters + P8 answer-section keys) in both the ES
+edition and the core. All 150 P8 keys were also read in reading order
+(`p8-answers-reading-order.txt`) and checked against stems/articles.
+
+## All 5 matching sets (ES source calls + rendered order)
+
+### P2 D, ex. 25-28 (content12.py:282) — WRONG (3 of 4)
+- lefts: [高潮场, 包裹, 取件码, 供暖]
+- rights rendered (p2 SVG, x=1485, y=2092/2130/2168/2206):
+  a. 北方冬天家里暖和，靠它 (= 供暖)
+  b. 打开快递柜要用的号码 (= 取件码)
+  c. 买的东西，装在里面送来 (= 包裹)
+  d. 双11最忙的卖货时间 (= 高潮场)
+- keys registered/printed (P8 — Página 2 —): 25. c / 26. b / 27. d / 28. a
+- CORRECT: 25. d / 26. c / 27. b / 28. a
+- Core P8 prints the identical wrong keys (25. c, 26. b, 27. d, 28. a).
+
+### P3 D, ex. 43-46 (content34.py) — CORRECT
+- rights: a. 自己救自己，先保护自己 (自救) / b. 火警电话119，防火的事 (消防) /
+  c. 大家按逃生路线离开 (疏散) / d. 楼里的走道，逃生路要通 (楼道)
+- keys printed: 43. b / 44. c / 45. a / 46. d — all match.
+
+### P4 D, ex. 61-64 (content34.py) — CORRECT
+- rights: a. 最后一场比赛，决定冠军 (总决赛) / b. 输一场就回家的赛制 (单败) /
+  c. 同一个赛区的两支队打 (内战) / d. 按胜负分组打的比赛 (瑞士轮)
+- keys printed: 61. d / 62. c / 63. b / 64. a — all match.
+
+### P5 D, ex. 79-82 (content56.py:101) — CORRECT
+- rights: a. 办活动的地方，美术馆、图书馆 (场馆) / b. 听人讲，学东西的活动 (讲座) /
+  c. 把老电影修好，画面更清楚 (修复) / d. 老电影再上映一次 (重映)
+- keys printed: 79. d / 80. c / 81. b / 82. a — all match.
+
+### P6 D, ex. 97-100 (content56.py:226) — WRONG (2 of 4)
+- lefts: [说法, 数据, 预报, 前置]
+- rights rendered (p6 SVG, x=1023, y=1836/1874/1912/1950):
+  a. 还没发生的事，先猜一猜 (= 预报: forecast, not yet fact — cf. P6 B
+     fill-in "天气预报是___，不是已经发生的事" and article "顺丰今年推了预售极速达…
+     包裹就先送到离你近的地方" for 前置)
+  b. 提前放到离买家近的地方 (= 前置)
+  c. 别人说的话，不一定是真的 (= 说法)
+  d. 量出来的数字 (= 数据)
+- keys registered/printed (P8 — Página 6 —): 97. c / 98. d / 99. b / 100. a
+- CORRECT: 97. c / 98. d / 99. a / 100. b
+- Core P8 prints the identical wrong keys (99. b — 预报 = a forecast, b;
+  100. a — 前置 = placed in advance, a). DE and FR P8 spot-checked: same
+  wrong 99. b / 100. a (German/French notes). Frozen-core defect.
+
+## Full key audit 1-150
+Every other key (1-24, 29-42, 47-60, 65-78, 83-96, 101-150) checked against
+its stem and the article facts: all correct, including T/F 113-120, MCQ
+letters, fill-ins, P7 items 101-112, P8 test 113-150, and the 164-character
+writing model (counted: 164 characters incl. punctuation, excl. whitespace).
+Only the 5 matching letters above are wrong.

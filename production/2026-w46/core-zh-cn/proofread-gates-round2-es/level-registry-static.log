@@ -1,0 +1,11 @@
+content12.py match_set A2 keys= 4
+content12.py {'A2': 25, 'B1': 3} subtotal 28
+content34.py match_set A2 keys= 4
+content34.py match_set B1 keys= 4
+content34.py {'A2': 15, 'B1': 21} subtotal 36
+content56.py match_set B1 keys= 4
+content56.py match_set B2 keys= 4
+content56.py {'B1': 17, 'A2': 1, 'B2': 18} subtotal 36
+content7.py {'A2': 4, 'B1': 4, 'B2': 4} subtotal 12
+content8.py {'A2': 11, 'B1': 24, 'B2': 3} subtotal 38
+TOTAL static: {'A2': 56, 'B1': 69, 'B2': 25} 150

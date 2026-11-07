@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ko-fix/koscan_reconstruct.py", line 85, in <module>
+    edir, build_dir = sys.argv[1], sys.argv[2]
+                      ~~~~~~~~^^^
+IndexError: list index out of range

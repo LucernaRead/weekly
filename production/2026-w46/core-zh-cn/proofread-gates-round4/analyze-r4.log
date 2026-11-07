@@ -1,0 +1,100 @@
+FINAL elements incl root: 189
+PREF  elements incl root: 189
+DIFFERING ELEMENT INDICES (document order, root=0): [183, 184, 185]
+--- idx 183 ---
+  PRE : {'tag': 'rect', 'attrs': {'x': '65', 'y': '2518.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}, 'text': ''}
+  POST: {'tag': 'rect', 'attrs': {'x': '65', 'y': '2448.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}, 'text': ''}
+    attr y: '2518.52' -> '2448.52'
+--- idx 184 ---
+  PRE : {'tag': 'text', 'attrs': {'x': '93', 'y': '2562.52', 'font-family': 'Noto Sans CJK SC', 'font-size': '24', 'font-weight': '700', 'fill': '#e8dfc8', 'text-anchor': 'start'}, 'text': '下期预告 · На следующей неделе (VOL.4)'}
+  POST: {'tag': 'text', 'attrs': {'x': '93', 'y': '2492.52', 'font-family': 'Noto Sans CJK SC', 'font-size': '24', 'font-weight': '700', 'fill': '#e8dfc8', 'text-anchor': 'start'}, 'text': '下期预告 · На следующей неделе (VOL.4)'}
+    attr y: '2562.52' -> '2492.52'
+--- idx 185 ---
+  PRE : {'tag': 'text', 'attrs': {'x': '93', 'y': '2602.52', 'font-family': 'Noto Serif CJK SC', 'font-size': '21', 'fill': '#f3edda', 'text-anchor': 'start'}, 'text': 'S16总决赛打完了，谁是冠军？包裹都到了吗？还有你们的来信和第8版最佳作文。下周见！'}
+  POST: {'tag': 'text', 'attrs': {'x': '93', 'y': '2532.52', 'font-family': 'Noto Serif CJK SC', 'font-size': '21', 'fill': '#f3edda', 'text-anchor': 'start'}, 'text': 'S16总决赛打完了，谁是冠军？包裹都到了吗？还有你们的来信和第8版最佳作文。下周见！'}
+    attr y: '2602.52' -> '2532.52'
+BAND candidates: [(183, {'x': '65', 'y': '2448.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}, '')]
+BAND pre-fix: [(183, {'x': '65', 'y': '2518.52', 'width': '1820', 'height': '118', 'rx': '0', 'fill': '#2c2822'}, '')]
+BAND final: idx=183 x=65 y=2448.52 w=1820 h=118.0 fill=#2c2822 bottom=2566.52
+BAND pre  : y=2518.52 bottom=2636.52 dy=-70.0
+TEASER idx 184: final y=2492.52 fill=#e8dfc8 offset_from_band_top=44.0 | pre y=2562.52 offset=44.0 | text='下期预告 · На следующей неделе (VOL.4)'
+   dy vs pre: -70.0
+TEASER idx 185: final y=2532.52 fill=#f3edda offset_from_band_top=84.0 | pre y=2602.52 offset=84.0 | text='S16总决赛打完了，谁是冠军？包裹都到了吗？还有你们的来信和第8版最佳作文。下周见！'
+   dy vs pre: -70.0
+FOOTER RULE: [(186, {'x1': '65', 'y1': '2580', 'x2': '1885', 'y2': '2580', 'stroke': '#b3a06a', 'stroke-width': '1.6'}, '')]
+FOOTER TEXTS: [(187, {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'Lucerna · КИТАЙСКИЙ (УПРОЩЁННЫЙ) ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ'), (188, {'x': '1885', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'end'}, 'Страница 7 из 8')]
+FOOTER TEXTS pre: [(187, {'x': '65', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'start'}, 'Lucerna · КИТАЙСКИЙ (УПРОЩЁННЫЙ) ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ'), (188, {'x': '1885', 'y': '2624', 'font-family': 'Noto Sans CJK SC', 'font-size': '20', 'fill': '#57523f', 'text-anchor': 'end'}, 'Страница 7 из 8')]
+FOOTER rule y=2580.0, band_bottom=2566.52, rule_minus_bandbottom=13.480000000000018
+Band bottom <=2570 ? True; band bottom below rule? True
+FOOTER idx 187: font-size=20.0 family=Noto Sans CJK SC ink_box=(65.0, 2605.0, 1402.25, 2628.25) ink_top=2605.00 ink_bottom=2628.25 gap_bandbottom_to_inktop=38.48
+   text='Lucerna · КИТАЙСКИЙ (УПРОЩЁННЫЙ) ЕЖЕНЕДЕЛЬНИК VOL.3 · ТЕКСТЫ НА КИТАЙСКОМ (УПРОЩЁННОМ) · ОБЪЯСНЕНИЯ НА РУССКОМ'
+FOOTER idx 188: font-size=20.0 family=Noto Sans CJK SC ink_box=(1731.84, 2609.0, 1885.09, 2628.5) ink_top=2609.00 ink_bottom=2628.50 gap_bandbottom_to_inktop=42.48
+   text='Страница 7 из 8'
+TEASER idx 184 ink_box=(93.0, 2472.02, 591.75, 2498.02) inside_band_y=2448.52..2566.52 ? top>=2448.52=True bottom<=2566.52=True
+TEASER idx 185 ink_box=(93.0, 2514.52, 937.75, 2536.77) inside_band_y=2448.52..2566.52 ? top>=2448.52=True bottom<=2566.52=True
+TOP 5 ink-bottoms above band (ink_bottom, ink_top, idx, baseline, text):
+  2425.69 top=2405.19 idx=182 baseline=2421.19 text='При пожаре не пользуйся лифтом. (Страница 3)' box=(989.0, 2405.19, 1444.5, 2425.69)
+  2425.69 top=2405.19 idx=174 baseline=2421.19 text='Три команды в четвертьфинале. (Страница 4)' box=(65.0, 2405.19, 500.25, 2425.69)
+  2374.27 top=2353.27 idx=173 baseline=2371.52 text='「三支队进了八强」' box=(65.0, 2353.27, 258.5, 2374.27)
+  2373.52 top=2353.02 idx=181 baseline=2371.52 text='「着火了不坐电梯」' box=(989.0, 2353.02, 1182.5, 2373.52)
+  2275.69 top=2255.19 idx=180 baseline=2271.19 text='Пик посылок идёт тремя волнами. (Страница 6)' box=(989.0, 2255.19, 1443.0, 2275.69)
+MAX ink bottom above band = 2425.69; clearance to band top = 22.83 px (must be >0)
+CONTRAST footer on paper: #57523f on #f7f1e2 = 6.94:1 (WCAG >=4.5 required for footer)
+CONTRAST footer on band (pre-fix bg): #57523f on #2c2822 = 1.87:1 (WCAG >=4.5 required for footer)
+CONTRAST teaser title on band: #e8dfc8 on #2c2822 = 11.03:1 (WCAG >=4.5 required for footer)
+CONTRAST teaser sentence on band: #f3edda on #2c2822 = 12.51:1 (WCAG >=4.5 required for footer)
+PAPER bg rect: {'tag': 'rect', 'attrs': {'width': '1950', 'height': '2700', 'fill': '#f7f1e2'}, 'text': ''}
+TEXT nodes: pre=163 final=163
+  before-only: {}
+  after-only : {}
+  changed strings: 0
+STEM new count in P7 SVG text nodes: 1 (exact-node); substring count=1; old stem substring=0
+DOUBLED '我拿了一个个包裹' count=0
+WROTE geometry-contrast-r4.json
+CARD PNG size 1950x2700 (SVG 1950x2700, scale 1.000x1.000)
+PIXEL band at x=1000: first=2449 last=2565 count=117
+PIXEL footer ink rows: first=2606 last=2673 per-row counts first5=[(2606, 6), (2607, 8), (2609, 250), (2610, 129), (2611, 76)]
+PIXEL gap: band_last=2565 -> footer_ink_first=2606 = 41 px (rows strictly between, exclusive of band last row)
+  row y=2566 top colours: [((141, 136, 126), 1820), ((247, 241, 226), 1)]
+  row y=2567 top colours: [((247, 241, 226), 1821)]
+  row y=2568 top colours: [((247, 241, 226), 1821)]
+  row y=2569 top colours: [((247, 241, 226), 1821)]
+  row y=2570 top colours: [((247, 241, 226), 1821)]
+  row y=2571 top colours: [((247, 241, 226), 1821)]
+  row y=2572 top colours: [((247, 241, 226), 1821)]
+  row y=2573 top colours: [((247, 241, 226), 1821)]
+  row y=2574 top colours: [((247, 241, 226), 1821)]
+  row y=2575 top colours: [((247, 241, 226), 1821)]
+  row y=2576 top colours: [((247, 241, 226), 1821)]
+  row y=2577 top colours: [((247, 241, 226), 1821)]
+  row y=2578 top colours: [((247, 241, 226), 1821)]
+  row y=2579 top colours: [((192, 176, 129), 1820), ((247, 241, 226), 1)]
+  row y=2580 top colours: [((192, 176, 129), 1820), ((247, 241, 226), 1)]
+  row y=2581 top colours: [((247, 241, 226), 1821)]
+  row y=2582 top colours: [((247, 241, 226), 1821)]
+  row y=2583 top colours: [((247, 241, 226), 1821)]
+  row y=2584 top colours: [((247, 241, 226), 1821)]
+  row y=2585 top colours: [((247, 241, 226), 1821)]
+  row y=2586 top colours: [((247, 241, 226), 1821)]
+  row y=2587 top colours: [((247, 241, 226), 1821)]
+  row y=2588 top colours: [((247, 241, 226), 1821)]
+  row y=2589 top colours: [((247, 241, 226), 1821)]
+  row y=2590 top colours: [((247, 241, 226), 1821)]
+  row y=2591 top colours: [((247, 241, 226), 1821)]
+  row y=2592 top colours: [((247, 241, 226), 1821)]
+  row y=2593 top colours: [((247, 241, 226), 1821)]
+  row y=2594 top colours: [((247, 241, 226), 1821)]
+  row y=2595 top colours: [((247, 241, 226), 1821)]
+  row y=2596 top colours: [((247, 241, 226), 1821)]
+  row y=2597 top colours: [((247, 241, 226), 1821)]
+  row y=2598 top colours: [((247, 241, 226), 1821)]
+  row y=2599 top colours: [((247, 241, 226), 1821)]
+  row y=2600 top colours: [((247, 241, 226), 1821)]
+  row y=2601 top colours: [((247, 241, 226), 1821)]
+  row y=2602 top colours: [((247, 241, 226), 1821)]
+  row y=2603 top colours: [((247, 241, 226), 1821)]
+  row y=2604 top colours: [((247, 241, 226), 1821)]
+  row y=2605 top colours: [((247, 241, 226), 1777), ((247, 238, 194), 4), ((167, 114, 75), 4)]
+PIXEL gold-rule rows (>100 gold px): []
+PIXEL footer-ink pixels inside band rows: 1311 (must be 0; teaser light text excluded by colour test)
+WROTE pixel-measurement-r4.json

@@ -1,0 +1,287 @@
+== STEM / CLINIC / GLOSS in P7 SVGs ==
+en NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['Measure words still matter: 一个包裹 (a', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+de NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['Zählwörter sind weiter wichtig: 一个包裹 (ein', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+es NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['一个包裹 (un paquete), 一部电影 (una', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+fr NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['一个包裹 (un colis), 一部电影 (un film),', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+it NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['I classificatori contano ancora: 一个包裹 (un', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+ja NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['量詞は今も大事： 一个包裹（荷物1つ）、一部', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+ko NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['양사는 여전히 중요해요: 一个包裹 (소포 하나),', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+nl NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['Telwoorden blijven belangrijk: 一个包裹 (een', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+pt NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['Os classificadores ainda importam: 一个包裹', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+ru NEW: 1 | OLD: 0 | clinic wrong: 1 | clinic right: 1 | doubled: 0
+   gloss 一个包裹 nodes: ['Счётные слова всё ещё важны: 一个包裹', '哪个说法对？ A. 一个包裹 · B. 一只包裹 · C.']
+
+== OLD STEM: SVGs, .text.md, KITs ==
+en old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+de old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+es old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+fr old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+it old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+ja old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+ko old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+nl old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+pt old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+ru old-in-SVGs: 0 old-in-textmd: 0 new-in-textmd: 1 old-in-KIT: 3 new-in-KIT: 1
+   textmd line1379: '我拿了___包裹。'
+
+== BUILD SOURCES ==
+en build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 takes the measure word 个 gè.", || L20: "我拿了___包裹。", instr="Fill in", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+de build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 nimmt das Zählwort 个 gè.", || L20: "我拿了___包裹。", instr="Ergänzen", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+es build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 lleva el clasificador 个 gè.", || L20: "我拿了___包裹。", instr="Completa", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+fr build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 prend le classificateur 个 gè.", || L20: "我拿了___包裹。", instr="Compléter", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+it build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 prende il classificatore 个 gè.", || L20: "我拿了___包裹。", instr="Completa", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+ja build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 は量詞 个 gè を取る。", || L20: "我拿了___包裹。", instr="入れよう", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+ko build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 는 양사 个 gè 를 써요.", || L20: "我拿了___包裹。", instr="채우세요", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+nl build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 neemt het telwoord 个 gè.", || L20: "我拿了___包裹。", instr="Vul in", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+pt build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 leva o classificador 个 gè.", || L20: "我拿了___包裹。", instr="Completa", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+ru build old: 0 new: 1 hits: [('content7.py', 0, 1)] | L19: a.ex("A2", "完成句子", "个", "包裹 берёт счётное слово 个 gè.", || L20: "我拿了___包裹。", instr="Вставь", size=20.5, gap=10)
+   oldkeyD3 0 fixedD3 3 oldkeyD4 0 fixedD4 1
+
+== P8 note101 + D3/D4 keys (SVG text) ==
+en 101: ['101. 个 — 包裹 takes the measure word 个 gè.']
+    25 ['25. d — 高潮场 = the peak sale period, d']
+    26 ['26. c — 包裹 = a parcel, c']
+    27 ['27. b — 取件码 = a pick-up code, b']
+    99 ['99. a — 预报 = a forecast, a']
+    100 ['100. b — 前置 = placed in advance, b']
+de 101: ['101. 个 — 包裹 nimmt das Zählwort 个 gè.']
+    25 ['25. d — 高潮场 = die Hauptverkaufszeit, d']
+    26 ['26. c — 包裹 = ein Paket, c']
+    27 ['27. b — 取件码 = ein Abholcode, b']
+    99 ['99. a — 预报 = eine Vorhersage, a']
+    100 ['100. b — 前置 = im Voraus platziert, b']
+es 101: ['101. 个 — 包裹 lleva el clasificador 个 gè.']
+    25 ['25. d — 高潮场 = la venta punta, d']
+    26 ['26. c — 包裹 = un paquete, c']
+    27 ['27. b — 取件码 = un código de recogida, b']
+    99 ['99. a — 预报 = un pronóstico, a']
+    100 ['100. b — 前置 = colocado por adelantado, b']
+fr 101: ['101. 个 — 包裹 prend le classificateur 个 gè.']
+    25 ['25. d — 高潮场 = la grande vente, d']
+    26 ['26. c — 包裹 = un colis, c']
+    27 ['27. b — 取件码 = un code de retrait, b']
+    99 ['99. a — 预报 = une prévision, a']
+    100 ["100. b — 前置 = placé à l'avance, b"]
+it 101: ['101. 个 — 包裹 prende il classificatore 个 gè.']
+    25 ['25. d — 高潮场 = la vendita di punta, d']
+    26 ['26. c — 包裹 = un pacco, c']
+    27 ['27. b — 取件码 = un codice di ritiro, b']
+    99 ['99. a — 预报 = una previsione, a']
+    100 ['100. b — 前置 = collocato in anticipo, b']
+ja 101: ['101. 个 — 包裹 は量詞 个 gè を取る。']
+    25 ['25. d — 高潮场 = ピークセール期間、d']
+    26 ['26. c — 包裹 = 荷物、c']
+    27 ['27. b — 取件码 = 受取コード、b']
+    99 ['99. a — 预报 = 予報、a']
+    100 ['100. b — 前置 = 前もって置かれた、b']
+ko 101: ['101. 个 — 包裹 는 양사 个 gè 를 써요.']
+    25 ['25. d — 高潮场 = 피크 세일 기간, d']
+    26 ['26. c — 包裹 = 소포, c']
+    27 ['27. b — 取件码 = 수령 코드, b']
+    99 ['99. a — 预报 = 예보, a']
+    100 ['100. b — 前置 = 미리 배치된, b']
+nl 101: ['101. 个 — 包裹 neemt het telwoord 个 gè.']
+    25 ['25. d — 高潮场 = de piekverkoopperiode, d']
+    26 ['26. c — 包裹 = een pakket, c']
+    27 ['27. b — 取件码 = een ophaalcode, b']
+    99 ['99. a — 预报 = een voorspelling, a']
+    100 ['100. b — 前置 = van tevoren geplaatst, b']
+pt 101: ['101. 个 — 包裹 leva o classificador 个 gè.']
+    25 ['25. d — 高潮场 = a venda de pico, d']
+    26 ['26. c — 包裹 = uma encomenda, c']
+    27 ['27. b — 取件码 = um código de levantamento, b']
+    99 ['99. a — 预报 = uma previsão, a']
+    100 ['100. b — 前置 = colocado por antecipação, b']
+ru 101: ['101. 个 — 包裹 берёт счётное слово 个 gè.']
+    25 ['25. d — 高潮场 = пиковый период распродажи, d']
+    26 ['26. c — 包裹 = посылка, c']
+    27 ['27. b — 取件码 = код получения, b']
+    99 ['99. a — 预报 = прогноз, a']
+    100 ['100. b — 前置 = размещено заранее, b']
+
+== P8 note101 vs BEFORE-quotes (pre-fix evidence) ==
+en in before: True | in after: True | 101. 个 — 包裹 takes the measure word 个 gè.
+de in before: True | in after: True | 101. 个 — 包裹 nimmt das Zählwort 个 gè.
+es in before: True | in after: True | 101. 个 — 包裹 lleva el clasificador 个 gè.
+fr in before: True | in after: True | 101. 个 — 包裹 prend le classificateur 个 gè.
+it in before: True | in after: True | 101. 个 — 包裹 prende il classificatore 个 gè.
+ja in before: True | in after: True | 101. 个 — 包裹 は量詞 个 gè を取る。
+ko in before: True | in after: True | 101. 个 — 包裹 는 양사 个 gè 를 써요.
+nl in before: True | in after: True | 101. 个 — 包裹 neemt het telwoord 个 gè.
+pt in before: True | in after: True | 101. 个 — 包裹 leva o classificador 个 gè.
+ru in before: True | in after: True | 101. 个 — 包裹 берёт счётное слово 个 gè.
+
+== P8 HASHES current vs pre-fix snapshot ==
+en svg/p8-ceyan.svg 937871c262133e316b40dcc33e95f786a5c21f3a13e9e08c361d339efca4f92d MATCH
+en cards/p8-ceyan.png b5c7a50d0cf4feab9086511a1fb81427d2fc73ac0423d02691c8bbb2e76d1314 MATCH
+de svg/p8-ceyan.svg a062bbe269f7cd863e1f843de6244b129641b271620c9fe4273ed1eb72a2a66a MATCH
+de cards/p8-ceyan.png 268e4aa5cee9c5e4c5716838513af41d2bc2781b552caf3a70d6c28a8c1fda40 MATCH
+es svg/p8-ceyan.svg 8b9e73b94ad8c7539dc13fc469806f5a8ecb6b801780f1967322cc4fadc152c0 MATCH
+es cards/p8-ceyan.png 2ae73144eef68580fa5b61df9f203a458d17338023e4ced45f964a3492c3e9b2 MATCH
+fr svg/p8-ceyan.svg 8f42782927883a279ecaa2f33956cd9e097aceb14f5e10b9b555f850ba17eb32 MATCH
+fr cards/p8-ceyan.png 63b496b3519d46c5e628d2e124f06033fd0547a3c9adf3db6f02670b3c9f3e90 MATCH
+it svg/p8-ceyan.svg 26965d102b2dce9773ffd2cbd2bc647aabcc9aa0326b2226f83d2dcfb403b6c9 MATCH
+it cards/p8-ceyan.png 0a46641b8e95f0f695b9d93932248be4736086ebfd64ffbdfbd01be7cedace0b MATCH
+ja svg/p8-ceyan.svg 899ba552c851db91368e65927004fc0e2efb56952ddd0bb25ac375af84ff3e8f MATCH
+ja cards/p8-ceyan.png 90827a560139d1f54fc203251c595664a8b5819ed90569079abeee97ea702051 MATCH
+ko svg/p8-ceyan.svg 981d8898035d9727ffea1e565d97d0762bd15d8f6f47003adbe4fd4bed646699 MATCH
+ko cards/p8-ceyan.png 099432f580df4ee025fbaf7d3a166097259073917435d0904f0b4c90eee866d4 MATCH
+nl svg/p8-ceyan.svg 062c08dedb5410645b9ac4ad983ea6cee334786f9273540dca23b26847c56077 MATCH
+nl cards/p8-ceyan.png b0c84242f601a55daf8f9bd02db34691f83f1f0709a3f312541648099792a85c MATCH
+pt svg/p8-ceyan.svg 95b42d0a05dfdec591d10192a58bd8e84c1781547db94d67a1664587fc7f4e85 MATCH
+pt cards/p8-ceyan.png 46544e4f73dd6559a77894c5dc6a15ad8b62bd7d1c7a9ed47f5c3d1f727bacde MATCH
+ru svg/p8-ceyan.svg cdf804c1c97bc62bc74e9f044a65c568909895df1f5cc94c4353a429e958a116 MATCH
+ru cards/p8-ceyan.png 21daa9b9a25cf9d0477c7e95fe10144031663db85c74b1b6cab7db54bddd4495 MATCH
+P8 hash mismatches: 0 /20
+
+== FULL EDITION HASH DIFF vs pre-fix snapshot ==
+current files: 210 pre-fix snapshot: 210 changed: 60
+en changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-core/2026-w46-zh-cn-en.text.md', 'weekly-report-w46-zh-cn-core/Lucerna-VOL3-web.pdf', 'weekly-report-w46-zh-cn-core/Lucerna-VOL3.pdf', 'weekly-report-w46-zh-cn-core/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-core/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-core/svg/p7-ciyu.svg']
+de changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-de/2026-w46-zh-cn-de.text.md', 'weekly-report-w46-zh-cn-de/Lucerna-VOL3-DE-web.pdf', 'weekly-report-w46-zh-cn-de/Lucerna-VOL3-DE.pdf', 'weekly-report-w46-zh-cn-de/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-de/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-de/svg/p7-ciyu.svg']
+es changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-es/2026-w46-zh-cn-es.text.md', 'weekly-report-w46-zh-cn-es/Lucerna-VOL3-ES-web.pdf', 'weekly-report-w46-zh-cn-es/Lucerna-VOL3-ES.pdf', 'weekly-report-w46-zh-cn-es/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-es/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-es/svg/p7-ciyu.svg']
+fr changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-fr/2026-w46-zh-cn-fr.text.md', 'weekly-report-w46-zh-cn-fr/Lucerna-VOL3-FR-web.pdf', 'weekly-report-w46-zh-cn-fr/Lucerna-VOL3-FR.pdf', 'weekly-report-w46-zh-cn-fr/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-fr/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-fr/svg/p7-ciyu.svg']
+it changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-it/2026-w46-zh-cn-it.text.md', 'weekly-report-w46-zh-cn-it/Lucerna-VOL3-IT-web.pdf', 'weekly-report-w46-zh-cn-it/Lucerna-VOL3-IT.pdf', 'weekly-report-w46-zh-cn-it/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-it/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-it/svg/p7-ciyu.svg']
+ja changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-ja/2026-w46-zh-cn-ja.text.md', 'weekly-report-w46-zh-cn-ja/Lucerna-VOL3-JA-web.pdf', 'weekly-report-w46-zh-cn-ja/Lucerna-VOL3-JA.pdf', 'weekly-report-w46-zh-cn-ja/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-ja/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-ja/svg/p7-ciyu.svg']
+ko changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-ko/2026-w46-zh-cn-ko.text.md', 'weekly-report-w46-zh-cn-ko/Lucerna-VOL3-KO-web.pdf', 'weekly-report-w46-zh-cn-ko/Lucerna-VOL3-KO.pdf', 'weekly-report-w46-zh-cn-ko/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-ko/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-ko/svg/p7-ciyu.svg']
+nl changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-nl/2026-w46-zh-cn-nl.text.md', 'weekly-report-w46-zh-cn-nl/Lucerna-VOL3-NL-web.pdf', 'weekly-report-w46-zh-cn-nl/Lucerna-VOL3-NL.pdf', 'weekly-report-w46-zh-cn-nl/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-nl/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-nl/svg/p7-ciyu.svg']
+pt changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-pt/2026-w46-zh-cn-pt.text.md', 'weekly-report-w46-zh-cn-pt/Lucerna-VOL3-PT-web.pdf', 'weekly-report-w46-zh-cn-pt/Lucerna-VOL3-PT.pdf', 'weekly-report-w46-zh-cn-pt/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-pt/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-pt/svg/p7-ciyu.svg']
+ru changed vs pre-fix: 6 ['weekly-report-w46-zh-cn-ru/2026-w46-zh-cn-ru.text.md', 'weekly-report-w46-zh-cn-ru/Lucerna-VOL3-RU-web.pdf', 'weekly-report-w46-zh-cn-ru/Lucerna-VOL3-RU.pdf', 'weekly-report-w46-zh-cn-ru/WEEKLY-KIT.md', 'weekly-report-w46-zh-cn-ru/cards/p7-ciyu.png', 'weekly-report-w46-zh-cn-ru/svg/p7-ciyu.svg']
+
+== PHRASES / CHART ==
+en phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+de phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+es phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+fr phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+it phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+ja phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+ko phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+nl phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+pt phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+ru phrases: {'双11的正日子': 2, '先看结算页，再决定买不买': 1, '提高自防自救能力': 2, '三支队进了八强': 2, '输了就回家': 1, '老电影，新画面': 1, '快递的高峰分三波': 2, '着火了不坐电梯': 2}
+   P6 x=325 rects: 4
+      <rect x="325" y="1274" width="220.0" height="30" rx="0" fill="#3e4c2a"/>
+      <rect x="325" y="1324" width="330.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1374" width="550.0" height="30" rx="0" fill="#b3a06a"/>
+      <rect x="325" y="1424" width="770.0" height="30" rx="0" fill="#b3a06a"/>
+
+== KINSOKU ==
+en kinsoku start: 0 end: 0 []
+de kinsoku start: 0 end: 0 []
+es kinsoku start: 0 end: 0 []
+fr kinsoku start: 0 end: 0 []
+it kinsoku start: 0 end: 0 []
+ja kinsoku start: 0 end: 0 []
+ko kinsoku start: 0 end: 0 []
+nl kinsoku start: 0 end: 0 []
+pt kinsoku start: 0 end: 0 []
+ru kinsoku start: 0 end: 0 []
+
+== ABSTRACT.txt ==
+en bytes: 463 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna Simplified Chinese Weekly VOL.3 for English-speaking readers learning Chinese through real news: Doubl
+de bytes: 601 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna Chinesische Wochenzeitung VOL.3 (vereinfachtes Chinesisch) für deutschsprachige Leserinnen und Leser, 
+es bytes: 579 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, semanario chino VOL.3 (chino simplificado) para lectores hispanohablantes que aprenden chino con noti
+fr bytes: 589 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, hebdomadaire chinois VOL.3 (chinois simplifié) pour les lecteurs francophones qui apprennent le chino
+it bytes: 554 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, settimanale cinese VOL.3 (cinese semplificato) per lettori italiani che imparano il cinese con notizi
+ja bytes: 527 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna 中国語（簡体字）週刊 VOL.3。中国語を本物のニュースで学ぶ日本語読者のための版：双11の大セールと3波の荷物ピーク、11月9日月曜日の消防の日、リーグ・オブ・レジェンド世界大会S16のスイスステージ結
+ko bytes: 492 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna 중국어 간체 주간지 VOL.3. 중국어를 진짜 뉴스로 배우는 한국어 독자를 위한 판: 더블 11 대세일과 세 번의 소포 파도, 11월 9일 월요일 소방의 날, 리그 오브 레전드 월드 
+nl bytes: 555 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, Chinees weekblad VOL.3 (vereenvoudigd Chinees) voor Nederlandstalige lezers die Chinees leren met ech
+pt bytes: 592 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, semanário chinês VOL.3 (chinês simplificado) para leitores de língua portuguesa que aprendem chinês c
+ru bytes: 948 NLs: 1 trailingNL: True asciiDQ: 0 Lucerna: True VOL.3: True A2: True 150: True | Lucerna, китайский еженедельник VOL.3 (упрощённый китайский) для русскоязычных читателей, изучающих китайский 
+
+== PDF TEXT LAYER / SIZES ==
+en web bytes: 2390807 <=7MB: True | web text: 45071 print text: 45071 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+de web bytes: 2512298 <=7MB: True | web text: 46142 print text: 46142 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+es web bytes: 2497476 <=7MB: True | web text: 45795 print text: 45795 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+fr web bytes: 2405830 <=7MB: True | web text: 47164 print text: 47164 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+it web bytes: 2420595 <=7MB: True | web text: 45872 print text: 45872 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+ja web bytes: 2730428 <=7MB: True | web text: 47265 print text: 47265 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+ko web bytes: 2526513 <=7MB: True | web text: 46852 print text: 46852 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+nl web bytes: 2484968 <=7MB: True | web text: 45185 print text: 45185 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+pt web bytes: 2450694 <=7MB: True | web text: 45677 print text: 45677 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+ru web bytes: 2275750 <=7MB: True | web text: 55434 print text: 55434 identical: True ['Pages:           8'] | old in web: 0 new: 1 doubled: 0
+
+== ES p. SURVIVAL ==
+en old instr: 0 | p.3: 0 | p.5: 0
+de old instr: 0 | p.3: 0 | p.5: 0
+es old instr: 0 | p.3: 1 | p.5: 1
+fr old instr: 0 | p.3: 0 | p.5: 0
+it old instr: 0 | p.3: 0 | p.5: 0
+ja old instr: 0 | p.3: 0 | p.5: 0
+ko old instr: 0 | p.3: 0 | p.5: 0
+nl old instr: 0 | p.3: 0 | p.5: 0
+pt old instr: 0 | p.3: 0 | p.5: 0
+ru old instr: 0 | p.3: 0 | p.5: 0
+ES line623: 'Responde con fechas y números de la p. 3.'
+ES line1063: 'Responde con fechas y números de la p. 5.'

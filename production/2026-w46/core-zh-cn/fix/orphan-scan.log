@@ -1,0 +1,21 @@
+STANDALONE single-digit N. scan — ES edition, final SVGs
+  p1-touiban.svg x=599 y=1474.925 '1.'
+  p1-touiban.svg x=599 y=1560.7 '2.'
+  p1-touiban.svg x=599 y=1646.4750000000001 '3.'
+  p1-touiban.svg x=599 y=1732.2500000000002 '4.'
+  p1-touiban.svg x=1061 y=841.8 '5.'
+  p1-touiban.svg x=1061 y=927.5749999999999 '6.'
+  p1-touiban.svg x=137 y=2389 '7.'
+  p1-touiban.svg x=599 y=2389 '8.'
+  p1-touiban.svg x=1061 y=2389 '9.'
+ORPHAN-CANDIDATES (single-digit N. at exact column x 65/527/989/1451): []
+SECTION-C INSTRUCTION NODES:
+  p3-wenhua.svg x=527 y=2085.7 'Responde con fechas y números de la p. 3.'
+  p3-wenhua.svg stray '3.' at x=527: 0
+  p5-qingnian.svg x=527 y=2085.7 'Responde con fechas y números de la p. 5.'
+  p5-qingnian.svg stray '5.' at x=527: 0
+FIRST SECTION-C EXERCISE y (ES vs core):
+  p3-wenhua.svg 39. ES=[('599', '2147.4249999999997')] CORE=[('599', '2147.4249999999997')]
+  p5-qingnian.svg 75. ES=[('599', '2147.4249999999997')] CORE=[('599', '2147.4249999999997')]
+DIGIT-DOT nodes outside exercise-number x positions (137/599/1061/1523):
+  []

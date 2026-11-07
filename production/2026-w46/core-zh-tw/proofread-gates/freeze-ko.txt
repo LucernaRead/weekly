@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +24 strings / -25 strings; CJK core 826 -> edition 1198; added CJK chars: 404 {'중': 5, '국': 9, '어': 12, '번': 5, '체': 3, '텍': 2, '스': 5, '트': 2, '한': 5, '해': 5}
+p2: +33 strings / -37 strings; CJK core 1009 -> edition 1315; added CJK chars: 328 {'생': 1, '활': 1, '동': 2, '북': 3, '계': 4, '절': 3, '풍': 2, '온': 6, '천': 3, '더': 2}
+p3: +37 strings / -43 strings; CJK core 1030 -> edition 1393; added CJK chars: 386 {'문': 2, '화': 5, '금': 6, '마': 7, '영': 6, '제': 8, '와': 3, '철': 3, '조': 2, '각': 2}
+p4: +36 strings / -38 strings; CJK core 791 -> edition 1140; added CJK chars: 371 {'스': 6, '포': 13, '츠': 3, '우': 11, '승': 4, '퍼': 6, '레': 5, '이': 15, '드': 7, '예': 3}
+p5: +37 strings / -39 strings; CJK core 1166 -> edition 1507; added CJK chars: 363 {'청': 1, '년': 4, '아': 5, '츠': 2, '인': 4, '더': 2, '파': 4, '크': 4, '콘': 3, '서': 9}
+p6: +33 strings / -35 strings; CJK core 853 -> edition 1213; added CJK chars: 381 {'깊': 3, '이': 17, '읽': 4, '기': 19, '더': 2, '블': 2, '일': 4, '레': 2, '븐': 2, '와': 1}
+p7: +85 strings / -90 strings; CJK core 825 -> edition 1751; added CJK chars: 946 {'언': 1, '어': 28, '포': 3, '커': 2, '스': 4, '세': 12, '단': 7, '계': 2, '가': 16, '지': 11}
+p8: +186 strings / -188 strings; CJK core 1064 -> edition 3132; added CJK chars: 2088 {'시': 24, '험': 2, '과': 6, '정': 9, '답': 9, '이': 81, '번': 8, '주': 4, '모': 15, '든': 5}
+TOTAL added CJK characters: 5267

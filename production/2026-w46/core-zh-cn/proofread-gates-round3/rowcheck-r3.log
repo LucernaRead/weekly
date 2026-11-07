@@ -1,0 +1,60 @@
+== en
+p2-shenghuo.svg y=1897.0 gap=-18.8: 'A · 读一读选一选 · Read &amp; choose' <> 'B · 词语填空 · Word blanks'
+rowcheck collisions: 1
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+== de
+p2-shenghuo.svg y=1897.0 gap=-31.8: 'A · 读一读选一选 · Lesen &amp; wählen' <> 'B · 词语填空 · Wortlücken'
+rowcheck collisions: 1
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+== es
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== fr
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== it
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== ja
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== ko
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== nl
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== pt
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+== ru
+rowcheck collisions: 0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/checks.py", line 74, in <module>
+    c = chartcheck(os.path.join(sys.argv[2], "p6-afondo.svg"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

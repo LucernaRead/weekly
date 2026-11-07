@@ -1,0 +1,52 @@
+# zh-cn W46 gates log (builder: zh-cn family builder, 2026-11-02)
+
+## Core (zh-cn × en) — files/weekly-report-w46-zh-cn-core/ — VOL.3
+- run.py: TOTAL 150; A2 56 / B1 69 / B2 25; pages 10/18/18/18/18/18/12/38; writing 164 chars; 0 overflow/head warnings.
+- occlusion_audit.py: 0 flags (selftest OK). rowcheck.py: 0 flags. P6 chart rects 220/330/550/770 from x=325 verified.
+- p8.py extract: 150/150. Phrases: 8 x exactly 2. Politics scan 0; 麼/魚 0; kinsoku orphans 0; "Lucerna" 23; "The Lucerna" 0.
+- webpdf.py: Lucerna-VOL3-web.pdf 2,390,816 bytes; pdftotext byte-identical to print PDF (45,077 bytes). Print PDF 36,740,406 bytes.
+- freeze.py baseline: 8/8 SVGs byte-identical; core integrity re-hash OK.
+- Visual: all 8 cards read in full. CREDITS.md MD5-verified (5 photos).
+
+## de — files/weekly-report-w46-zh-cn-de/ — VOL.3
+- Build 1: HEAD TOO WIDE x7 + P8-keys FLOW OVERFLOW x9 (German notes too long) -> notes/heads shortened in maps/de.json, rebuilt from core copy.
+- Build 2: 0 run warnings; occlusion 4 flags (press-time BOXTITLE/EDGE, P2 TEXTX + BOXTITLE); freeze strict-cjk FAIL (+2 CJK: badge 德, comma->，) -> badge Latin-only, 3 strings shortened, 2 comma-after-CJK reworded, rebuilt.
+- Build 3 (FINAL): 0 run warnings; occlusion 1 flag (press-time line) -> shortened to "Redaktionsschluss: 2. Nov. — noch offen", rebuilt.
+- Build 4 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck 0; p8 150/150; freeze strict-cjk added CJK 0; keysbudget final y 2397; web PDF 2,512,308 bytes, pdftotext == print PDF; phrases 8x2; print PDF 41,752,800 bytes.
+
+## fr — files/weekly-report-w46-zh-cn-fr/ — VOL.3
+- Build 1: HEAD TOO WIDE x1 (P5-ex head) + P8-keys FLOW OVERFLOW x6 -> notes shortened in maps/fr.json (terse forms), head shortened, rebuilt from core copy.
+- Build 2: 0 FLOW OVERFLOW; HEAD TOO WIDE x1 (head still wide) -> head to "Horaires", rebuilt.
+- Build 3: 0 run warnings; occlusion 5 flags (press-time EDGE+BOXTITLE, 2x BOXTITLE, P2 TEXTX word-card wrap) -> press-time/titles/dates entries shortened, rebuilt.
+- Build 4: occlusion 1 flag (P2 TEXTX, word-card gloss last line 134.5x10.0 -> 47.5x6.5 after 1st gloss shortening; gloss shortened 2nd time in map + build dir identically) -> occlusion 0 flags.
+- Build 5 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (§2 NL-filename N/A; chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2397 (161 lines); phrases 8x2 (joined-text count); web PDF 2,405,799 bytes, pdftotext == print PDF (47,170 text bytes); print PDF 38,266,455 bytes. Superseded build-4 print PDF was 240,537,623 bytes (transient; final render normal).
+
+## es — files/weekly-report-w46-zh-cn-es/ — VOL.3
+- Build 1: HEAD TOO WIDE x5 (B head "Huecos de vocabulario") + occlusion 8 flags (4 TEXTX from the wide head, 4 BOXTITLE) -> head to "Huecos", 4 box titles shortened in maps/es.json, rebuilt from core copy.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2279 (153 lines); phrases 8x2; web PDF 2,497,496 bytes, pdftotext == print PDF (45,811 text bytes); print PDF 42,127,062 bytes.
+
+## it — files/weekly-report-w46-zh-cn-it/ — VOL.3
+- Build 1: 0 run warnings; occlusion 3 flags (BOXTITLE x3) -> 3 box titles shortened in maps/it.json, rebuilt from core copy.
+- Build 2: fanout.sh interrupted by VM service restart during render (SVGs written, cards empty); completed via run.py + render.py from the same transformed build dir, no source change.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2323 (157 lines); phrases 8x2; web PDF 2,420,623 bytes, pdftotext == print PDF (45,878 text bytes); print PDF 39,035,703 bytes.
+
+## pt — files/weekly-report-w46-zh-cn-pt/ — VOL.3
+- Build 1: 0 run warnings; occlusion 3 flags (BOXTITLE x3, two marginal: 3.2px / 2.5px) -> 3 box titles shortened in maps/pt.json, rebuilt from core copy.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2279 (154 lines); phrases 8x2; web PDF 2,450,693 bytes, pdftotext == print PDF (45,683 text bytes); print PDF 39,429,619 bytes.
+
+## nl — files/weekly-report-w46-zh-cn-nl/ — VOL.3
+- Build 1: 0 run warnings; occlusion 2 flags (P2 TEXTX word-card gloss 315.8x12.4, P5 BOXTITLE) -> word-card label+gloss shortened, P5 title to "Sleutelwoorden" in maps/nl.json, rebuilt from core copy.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2440 (161 lines); phrases 8x2; web PDF 2,484,978 bytes, pdftotext == print PDF (45,191 text bytes); print PDF 40,971,327 bytes.
+
+## ru — files/weekly-report-w46-zh-cn-ru/ — VOL.3
+- Build 1: HEAD TOO WIDE x11 + P8-keys FLOW OVERFLOW x1 + occlusion 9 flags (4 TEXTX wide heads, P2 TEXTX+LINEX word-card, P7 BOXTITLE) -> 3 heads + P7 title + word-card label/gloss shortened, 5 keys notes shortened, rebuilt from core copy.
+- Build 2: HEAD TOO WIDE x5 (A head "Читай и выбери" still wide) -> head to "Читай" in maps/ru.json, rebuilt.
+- Build 3 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk added CJK 0; keysbudget final y 2427 (161 lines); phrases 8x2; web PDF 2,275,745 bytes, pdftotext == print PDF (55,440 text bytes); print PDF 30,430,920 bytes. textmd.py filter fix (Cyrillic/kana/Hangul) applied; RU export 1884 lines, DE re-export unchanged.
+
+## ja — files/weekly-report-w46-zh-cn-ja/ — VOL.3
+- Build 1: fanout.sh JA kana-extension broke svglib.py (IndentationError: NO_START is function-local in W46 svglib, insert assumed module level) -> fixed insertion to preserve indent; fanout.sh patched; rebuilt. 0 run warnings; occlusion 1 flag (P2 BOXTITLE) -> title to "今週のカレンダー", rebuilt.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk TOTAL added CJK 4908 (EXPECTED FAIL — Japanese layer; adjudicated by Chinese-run conservation: only 6 missing runs, 3 furniture + 3 gloss fragments, identical to all other editions); keysbudget final y 2263 (152 lines); phrases 8x2; orphan line-start scan 0; web PDF 2,730,433 bytes, pdftotext == print PDF (47,271 text bytes); print PDF 33,921,301 bytes.
+
+## ko — files/weekly-report-w46-zh-cn-ko/ — VOL.3
+- Build 1: 0 run warnings; occlusion 0 flags; p8 CLEAN; freeze strict-cjk TOTAL added CJK 4300 (EXPECTED — Hangul layer); Hanzi-added accounting: +4 (双 x3 from "双11" in Korean explanations, 付 x1 from Japanese 付き typo) -> 双11 to 더블 11, 付き to pure Korean, rebuilt from core copy.
+- Build 2 (FINAL, shipped): 0 run warnings; occlusion 0 flags; rowcheck §1 all CLEAN (chart rects 220/330/550/770 from x=325 verified); p8 extract 150/150; p8 compare CLEAN; freeze strict-cjk TOTAL added CJK 4300, Hanzi added 0 on ALL 8 pages; keysbudget final y 2263 (151 lines); phrases 8x2; KO orphan scan 0; web PDF 2,526,535 bytes, pdftotext == print PDF (46,858 text bytes); print PDF 32,301,882 bytes.

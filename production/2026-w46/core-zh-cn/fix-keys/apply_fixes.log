@@ -1,0 +1,25 @@
+weekly-report-w46-zhcn-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zhcn-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-de-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-de-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-es-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-es-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-fr-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-fr-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-it-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-it-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-ja-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-ja-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-ko-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-ko-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-nl-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-nl-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-pt-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-pt-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+weekly-report-w46-zh-cn-ru-build/content12.py: keys ["c", "b", "d", "a"] -> ["d", "c", "b", "a"]; notes -> ['d', 'c', 'b', 'a']
+weekly-report-w46-zh-cn-ru-build/content56.py: keys ["c", "d", "b", "a"] -> ["c", "d", "a", "b"]; notes -> ['c', 'd', 'a', 'b']
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/zh-cn-fix-keys/apply_fixes.py", line 75, in <module>
+    assert m and m.group(2) == old, (lang, k, v)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('de', '前置 = placed in advance, a', '前置 = im Voraus platziert, a')

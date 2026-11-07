@@ -1,0 +1,47 @@
+===== en : weekly-report-w46-zhtw-build =====
+======================== content12.py
+  flow[P1-lead] ended col 0/0 y=1687 (bottom 1935)
+  flow[P1-quiz] ended col 3/3 y=2225 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-main] ended col 2/2 y=1114 (bottom 2540)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 2/2 y=1486 (bottom 2540)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=395 (bottom 1020)
+  flow[P4-ex] ended col 2/2 y=1936 (bottom 2540)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=1326 (bottom 2540)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=799 (bottom 860)
+  flow[P6-ex] ended col 2/2 y=2335 (bottom 2540)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1561 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1463 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1496 (bottom 1560)
+P7 col3 ends 1775.8600000000001
+P7 teaser ends 2573.86
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=318 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2158 (bottom 2540)
+P8 saved, exercises total: 150
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 44, 'B1': 74, 'B2': 32}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'單選': 67, '完成句子': 54, '配對': 16, '完形單選': 12, '寫作': 1}
+ALL DONE
+card: p1-front.png
+card: p2-life.png
+card: p3-culture.png
+card: p4-sport.png
+card: p5-youth.png
+card: p6-deep.png
+card: p7-lang.png
+card: p8-test.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-zhtw-core/Lucerna-VOL3.pdf 14116006
+web PDF: build separately with tools/webpdf.py -> Lucerna-VOL3-web.pdf
+run.py rc=0 render.py rc=0
