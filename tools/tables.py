@@ -8,7 +8,9 @@ instead of copying language names, thread IDs or furniture strings by hand.
 Usage:
     tables.py lang <code>                 language record (JSON)
     tables.py thread <target-code>       Discord thread id for a target language
-    tables.py furniture <native> --target <code> [--vol N]
+    tables.py vol <week> [--allocate]     issue number of a week from production/volumes.json;
+                                          --allocate appends max+1 for a new week later than all others
+    tables.py furniture <native> --target <code> --week <week>
                                           rendered badge / footer / page line / gloss prefix
     tables.py slug <week> <target> <native>     e.g. 2026-W43 fr zh-cn -> 2026-w43-fr-zh-cn
     tables.py edition-dir <target> <native>     files/ directory name for a pairing
@@ -37,6 +39,37 @@ def lang(code):
     if code not in LANGS:
         raise KeyError(f"unknown language code {code!r} (known: {', '.join(ORDER)})")
     return LANGS[code]
+
+
+VOLUMES_PATH = os.path.join(HERE, "..", "production", "volumes.json")
+
+
+def _norm_week(week):
+    m = re.match(r"^(\d{4})-w(\d{2})$", week, re.I)
+    if not m:
+        raise ValueError(f"week must look like 2026-W46, got {week!r}")
+    return f"{m.group(1)}-W{m.group(2)}"
+
+
+def vol(week, allocate=False):
+    """Issue number of a week. The tracker production/volumes.json is the only source:
+    one entry per published week, numbered 1, 2, 3 … in week order (all 12 targets share it).
+    Never type a vol by hand; allocate the next one when a new week's production starts."""
+    week = _norm_week(week)
+    with open(VOLUMES_PATH, encoding="utf-8") as f:
+        vols = json.load(f)
+    if week in vols:
+        return vols[week]
+    if not allocate:
+        raise KeyError(f"{week} has no issue number in production/volumes.json "
+                       f"(run `tables.py vol {week} --allocate` when the week's production starts)")
+    if vols and week < max(vols):
+        raise ValueError(f"{week} is earlier than the latest tracked week {max(vols)}; numbers only grow")
+    vols[week] = max(vols.values(), default=0) + 1
+    with open(VOLUMES_PATH, "w", encoding="utf-8") as f:
+        json.dump(vols, f, indent=2)
+        f.write("\n")
+    return vols[week]
 
 
 def masthead(code):
@@ -79,8 +112,8 @@ def p8_file(target):
     return lang(target)["p8_file"]
 
 
-def furniture(native, target, vol=None):
-    """Render the column furniture for (target text x native explanations)."""
+def furniture(native, target, week):
+    """Render the column furniture for (target text x native explanations) in a given week."""
     col = T["columns"].get(native)
     if col is None:
         raise KeyError(f"no established furniture column for native {native!r} "
@@ -88,14 +121,13 @@ def furniture(native, target, vol=None):
     names = col["target_names"].get(target)
     if names is None:
         raise KeyError(f"no target-name row for {target!r} in the {native} column")
-    if vol is None:
-        vol = lang(target)["vol_w43"]
-    ctx = {"MASTHEAD": masthead(target), "VOL": vol, "N": "{n}",
+    number = vol(week)
+    ctx = {"MASTHEAD": masthead(target), "VOL": number, "N": "{n}",
            "T_BADGE": names["T_BADGE"], "T_FADJ": names["T_FADJ"], "T_FNOUN": names["T_FNOUN"]}
     def render(tpl):
         return tpl.format(**ctx) if tpl else None
     return {
-        "native": native, "target": target, "vol": vol,
+        "native": native, "target": target, "vol": number,
         "status": col["status"],
         "derived_target_row": bool(names.get("derived")),
         "badge": render(col["badge_template"]),
@@ -152,7 +184,8 @@ def main(argv=None):
     p = sub.add_parser("lang"); p.add_argument("code")
     p = sub.add_parser("thread"); p.add_argument("target")
     p = sub.add_parser("furniture"); p.add_argument("native")
-    p.add_argument("--target", required=True); p.add_argument("--vol", type=int)
+    p.add_argument("--target", required=True); p.add_argument("--week", required=True)
+    p = sub.add_parser("vol"); p.add_argument("week"); p.add_argument("--allocate", action="store_true")
     p = sub.add_parser("slug"); p.add_argument("week"); p.add_argument("target"); p.add_argument("native")
     p = sub.add_parser("edition-dir"); p.add_argument("target"); p.add_argument("native")
     sub.add_parser("frontmatter")
@@ -165,7 +198,9 @@ def main(argv=None):
         elif args.cmd == "thread":
             out = {"target": args.target, "discord_thread": thread(args.target)}
         elif args.cmd == "furniture":
-            out = furniture(args.native, args.target, args.vol)
+            out = furniture(args.native, args.target, args.week)
+        elif args.cmd == "vol":
+            out = {"week": _norm_week(args.week), "vol": vol(args.week, args.allocate)}
         elif args.cmd == "slug":
             out = {"slug": slug(args.week, args.target, args.native)}
         elif args.cmd == "edition-dir":

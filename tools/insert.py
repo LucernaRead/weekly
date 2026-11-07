@@ -5,10 +5,12 @@
 Replaces the ~15 hand-run commands per edition. Steps, each verified,
 failing loudly and stopping on the first problem:
   (a) abort if the slug already exists in the repo
-  (b) generate <slug>.md — frontmatter per lint.mjs; vol / exercises /
-      weekStart / weekEnd / publishedAt / excerpt copied from the target's
-      xEN sibling md in the repo; masthead / names / labels / discordThread
-      from tables.json; pdfBytes / pdfSha256 MEASURED from the edition's
+  (b) generate <slug>.md — frontmatter per lint.mjs; vol from the issue tracker
+      production/volumes.json (tables.vol; never an argument); week / weekStart /
+      weekEnd computed from --week (ISO week); exercises / publishedAt / excerpt
+      copied from the target's xEN sibling md in the repo; masthead / names /
+      labels / discordThread from tables.json; pages counted from the web PDF
+      (pdfinfo); pdfBytes / pdfSha256 MEASURED from the edition's
       actual web PDF file (never taken from arguments or the KIT);
       abstract read from the edition dir's ABSTRACT.txt (single line, the
       reader-native-language summary written for this edition — ABORT if
@@ -36,7 +38,7 @@ Modes:
                remaining native first (fail-fast, nothing written), then
                writes all md + .text.md + PDFs, one lint --write, one
                --require-pdf gate, ONE commit, one verified push. Editions
-               already in the repo are skipped; --vol/--exercises/
+               already in the repo are skipped; --exercises/
                --seed-excerpt are required only when the target has no
                in-week sibling yet (same seed rule as single mode).
                --native/--edition-dir must NOT be given; edition dirs are
@@ -46,9 +48,11 @@ Usage:
   insert.py --week 2026-W43 --target ko --native pt \
             [--edition-dir ../production/2026-w43/2026-w43-ko-pt] [--repo ~/workspace/weekly-git]
   insert.py --week 2026-W46 --target de --bundle \
-            --vol 3 --exercises 150 --seed-excerpt "..." [--repo ~/workspace/weekly-git]
+            --exercises 150 --seed-excerpt "..." [--repo ~/workspace/weekly-git]
 Exit 0 on success, non-zero on any failed step. System python3 is fine
-(only stdlib is used); git + node must be on PATH.
+(only stdlib is used); git + node + pdfinfo (poppler) must be on PATH.
+The week must already have its number in production/volumes.json
+(`tables.py vol <week> --allocate` at the start of the week's production).
 
 Edition sources live in the repo under production/<week>/<slug>/
 (e.g. production/2026-w43/2026-w43-ko-pt/); --files-root defaults to
@@ -122,23 +126,27 @@ def render_md(args, repo):
         fm, _ = parse_frontmatter(sib)
     else:
         # First edition of this target in this week: no in-week donor exists.
-        # Seed mode (added 2026-10-26 for W45): week fields are computed from
-        # --week (ISO week), publishedAt = weekStart, and the caller must
-        # supply --vol, --exercises and --seed-excerpt (the excerpt is shared
+        # Seed mode (added 2026-10-26 for W45): publishedAt = weekStart, and the caller
+        # must supply --exercises and --seed-excerpt (the excerpt is shared
         # across the target's natives, exactly as a sibling's excerpt would be).
-        if args.vol is None or args.exercises is None or not getattr(args, "seed_excerpt", None):
-            raise SystemExit(f"ABORT: no sibling md for target {args.target} in {repo}/issues/{week_lower} — first-in-week insert requires --vol, --exercises and --seed-excerpt")
-        import datetime as _dt
-        m = re.match(r"^(\d{4})-W(\d{1,2})$", args.week, re.I)
-        if not m:
-            raise SystemExit(f"ABORT: --week must look like 2026-W45, got {args.week}")
-        ws = _dt.date.fromisocalendar(int(m.group(1)), int(m.group(2)), 1)
-        we = ws + _dt.timedelta(days=6)
-        fm = {"vol": str(args.vol), "exercises": str(args.exercises),
-              "excerpt": args.seed_excerpt, "publishedAt": ws.isoformat(),
-              "week": f"{int(m.group(1))}-W{int(m.group(2)):02d}",
-              "weekStart": ws.isoformat(), "weekEnd": we.isoformat()}
+        if args.exercises is None or not getattr(args, "seed_excerpt", None):
+            raise SystemExit(f"ABORT: no sibling md for target {args.target} in {repo}/issues/{week_lower} — first-in-week insert requires --exercises and --seed-excerpt")
+        fm = {"exercises": str(args.exercises), "excerpt": args.seed_excerpt, "publishedAt": None}
         sib = "(seed)"
+    # Derived, never copied or typed: week fields from the ISO week, vol from the tracker.
+    import datetime as _dt
+    m = re.match(r"^(\d{4})-W(\d{1,2})$", args.week, re.I)
+    if not m:
+        raise SystemExit(f"ABORT: --week must look like 2026-W45, got {args.week}")
+    ws = _dt.date.fromisocalendar(int(m.group(1)), int(m.group(2)), 1)
+    fm["week"] = f"{int(m.group(1))}-W{int(m.group(2)):02d}"
+    fm["weekStart"] = ws.isoformat()
+    fm["weekEnd"] = (ws + _dt.timedelta(days=6)).isoformat()
+    fm["publishedAt"] = fm["publishedAt"] or ws.isoformat()
+    try:
+        vol = T.vol(args.week)
+    except KeyError as e:
+        raise SystemExit(f"ABORT: {e}")
     web_pdf = find_web_pdf(args.edition_dir)
     nbytes, sha = sha256_bytes(web_pdf)
     text_path = os.path.join(args.edition_dir, f"{slug}.text.md")
@@ -147,7 +155,8 @@ def render_md(args, repo):
                          "(repo AGENTS.md rule 4: export the edition text from the source manuscript, never extracted from the PDF)")
     tnbytes, tsha = sha256_bytes(text_path)
     tl, nl = T.lang(args.target), T.lang(args.native)
-    vol = args.vol if args.vol is not None else int(fm["vol"])
+    info = run(["pdfinfo", web_pdf]).stdout
+    pages = int(re.search(r"^Pages:\s+(\d+)", info, re.M).group(1))
     exercises = args.exercises if args.exercises is not None else int(fm["exercises"])
     ctx = {"MASTHEAD": tl["masthead"], "VOL": vol,
            "TARGET_NAME": tl["name_en"], "NATIVE_NAME": nl["name_en"]}
@@ -161,6 +170,10 @@ def render_md(args, repo):
     if not abstract or "\n" in abstract or '"' in abstract:
         raise SystemExit("ABORT: ABSTRACT.txt must be a single non-empty line "
                          "without ASCII double quotes")
+    named = {int(n) for n in re.findall(r"VOL\.\s*(\d+)", abstract)}
+    if named - {vol}:
+        raise SystemExit(f"ABORT: ABSTRACT.txt names VOL.{sorted(named - {vol})}, but {fm['week']} is VOL.{vol} "
+                         "(production/volumes.json; take the number from `tables.py vol <week>`)")
     body = T.load()["frontmatter"]["body_template"].format(
         TITLE=title, EXCERPT=excerpt, TARGET_NAME=tl["name_en"],
         NATIVE_NAME=nl["name_en"], EXERCISES=exercises,
@@ -182,7 +195,7 @@ native: {args.native}
 nativeName: "{nl['name_en']}"
 nativeLabel: "{nl['label']}"
 exercises: {exercises}
-pages: 8
+pages: {pages}
 pdf: {slug}.pdf
 pdfBytes: {nbytes}
 pdfSha256: {sha}
@@ -336,7 +349,6 @@ def main(argv=None):
                     help="bundle mode: dir holding the production/<week>/<slug> edition dirs "
                          "(single-edition --edition-dir defaults to the slug dir under it)")
     ap.add_argument("--repo", default=os.path.expanduser("~/workspace/weekly-git"))
-    ap.add_argument("--vol", type=int)
     ap.add_argument("--exercises", type=int)
     ap.add_argument("--seed-excerpt", help="required only for a target's first edition in a week (no in-week sibling): the excerpt shared across that target's natives")
     ap.add_argument("--dry-run", action="store_true")

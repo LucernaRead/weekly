@@ -172,9 +172,17 @@ Newsreader 没有西里尔字形（2026-11-06 核实：@fontsource/newsreader 5.
 - Discord token 存本地 `~/workspace/custom-connectors/custom.discord/token.txt`（0600），调用时请求头拼 `Bot <token>`；助手脚本在 `~/workspace/custom-connectors/custom.discord/bin/`。
 - **Discord 投递暂停中（用户 2026-10-21 下午指令）**：出口被 40333 拦截后定稿只入 GitHub 仓，不发 Discord、不进待发队列；恢复投递需用户再发话。
 - **GitHub 入仓用 `tools/insert.py`**（防重复插入、PDF 实测 pin、lint 门槛、推送重试与 ls-remote 终验都在脚本里）；家具字符串、语言名、线程 ID 一律查 `tools/tables.json`，不再从各版 KIT 手抄。
-- **入仓 commit 粒度（用户 2026-11-03 指令）**：一个 bundle 一个 commit——一个 target 的全部母语版（md + .text.md + PDF + index.json）一次写完、一次 lint、一次 commit、一次验证推送。**不许**一版一个 commit、**不许**元数据与 PDF 分两个 commit、**不许**整周 130 版一个 commit。执行：`insert.py --bundle --week <周> --target <目标语>`（--vol/--exercises/--seed-excerpt 只在该 target 本周尚无 sibling 时用，seed excerpt 按 README 从 core P1 开头取）；已入仓的版自动跳过，工作树不干净即中止。简体中文与繁體中文是两个独立 target，各自一个 bundle commit。**例外（用户 2026-11-03 同日指令）：bundle 还是太大推不上去时，退回一个一个 commit**——`insert_driver.py` 先试 bundle，推送重试耗尽仍未验证时撤掉未推送的 bundle commit、改逐版插入（串行、首错即停）；bundle 在 commit 前失败（渲染/lint）则直接逐版，不留脏树。
-- **期号一致（weekly#4，2026-11-06 追加）**：md frontmatter 的 `vol` 必须等于该版 P1 刊别里印的 `VOL.n`。`--vol` 从核心报 P1 实际印的期号取，不按周次推算。title 和正文标题里的「VOL.n」同样取这个数。仓库 lint 规则 12 自动比对（PDF 文字里第一个 `VOL.n` 对 `vol`），不一致即红。
-W46 法语 11 版曾写成 vol 3（沿用 W45），PDF 印 VOL.4；2026-11-06 已按 PDF 改正。
+- **入仓 commit 粒度（用户 2026-11-03 指令）**：一个 bundle 一个 commit——一个 target 的全部母语版（md + .text.md + PDF + index.json）一次写完、一次 lint、一次 commit、一次验证推送。**不许**一版一个 commit、**不许**元数据与 PDF 分两个 commit、**不许**整周 130 版一个 commit。执行：`insert.py --bundle --week <周> --target <目标语>`（--exercises/--seed-excerpt 只在该 target 本周尚无 sibling 时用，seed excerpt 按 README 从 core P1 开头取）；已入仓的版自动跳过，工作树不干净即中止。简体中文与繁體中文是两个独立 target，各自一个 bundle commit。**例外（用户 2026-11-03 同日指令）：bundle 还是太大推不上去时，退回一个一个 commit**——`insert_driver.py` 先试 bundle，推送重试耗尽仍未验证时撤掉未推送的 bundle commit、改逐版插入（串行、首错即停）；bundle 在 commit 前失败（渲染/lint）则直接逐版，不留脏树。
+- **期号由台账给出，不手写（用户 2026-11-06 指令，weekly#4）**：
+  - 期号台账是 `production/volumes.json`：每个出刊的周一条，按周递增 1、2、3……，12 个目标语共用同一个号。
+  - 每周生产开工第一步跑 `tools/tables.py vol <周> --allocate`，台账自动追加下一个号。不许手改台账，不许给更早的周补号。
+  - 刊别、页脚、title、正文标题、摘要里的 VOL.n 一律从台账取：家具用 `tables.py furniture <母语> --target <目标语> --week <周>` 渲染；摘要里写期号时先查 `tables.py vol <周>`。
+  - `insert.py` 自己查台账写 `vol`，没有 `--vol` 参数。
+  - 仓库 lint 规则 12 核对 frontmatter 和 PDF 刊头印的 VOL.n 都等于台账；规则 13 核对 md 里任何位置出现的 VOL.n。
+  - 已知误印：法语核心把 W43 之前的试刊算成了 VOL.1，W43/W45/W46 法语 33 版 PDF 多印一号（VOL.2/3/4）。frontmatter 已按台账改正（1/2/3），PDF 列在 lint 的 `VOL_MISPRINTS` 里，重印后删掉对应条目。
+- **能推导的字段不手写（用户 2026-11-06 指令）**：周次日期（week / weekStart / weekEnd，按 ISO 周算）、vol 与 title（台账 + 模板）、刊头 / 语言名 / 标签 / Discord 线程（`tools/tables.json`）、正文标题、页数（从 PDF 数）都由工具生成，lint 规则 13 逐项核对推导值。
+  新加任何一个能从数据或代码算出来的量，先写进工具，再让 lint 核对，不要写成「记得填」的规矩。
+  每周变化的量（题数、摘录）不存常量：没有 sibling 时必须显式给出，工具不回退到旧周的数。
 - **入仓前必验 web PDF 文字层（见附则四）**：pdftotext 字节 > 0 且与 print 版文本一致，否则不得推送；W43/W45 旧版已于 2026-10-28 由 webpdf.py 全量重发回填。
 - **每版必带本期摘要（用户 2026-10-22 指令，为 SEO 命中）**：构建者在版本目录交付 `ABSTRACT.txt`——用**读者母语**原生撰写的一段摘要（单行、无 ASCII 双引号），写进本期真实主题/关键词（赛事、节日、事件的具体名）与学习者会搜的短语（如「学法语」「learn French by reading」），并含刊名、目标语名、A2–B2 分级与题数；事实只取本期内容，不得套模板换词。摘要在仓内出现两次：md frontmatter 的 `abstract` 字段（随 index.json 供列表/页面描述取用）与正文的摘要节（标题词查 tables.json 的 `abstract_heading`）。`insert.py` 无 ABSTRACT.txt 即中止；仓库 lint 已把 `abstract` 列为必填。W43 的 130 版已于 2026-10-22 补齐。
 - **仓库 lint 三道门（2026-10-29 已合入 main，默认模式即 enforce，CI 与提交钩子都跑）**：(1) 文本层门——在仓 PDF 必须 pdftotext 提出文字，图片版不进仓，新版一律 `tools/webpdf.py` 生成；(2) 封面块零交互门——仓内任何 `.html` 不得含脚本/按钮/链接/表单/导航/页脚/侧栏/点击事件等，只留静态内容，无 `.html` 时空过；(3) excerpt 目标语门——非拉丁书写目标语（ru/ja/ko/zh-cn/zh-tw）的 excerpt ASCII 字母占比 >50% 即判英文错放。`covers/` 已入 lint `ROOT_ALLOW`（W43+W45 封面 24 份随 main 入仓）；`index.json` 只由 `node lint.mjs --write` 生成，永不手改。
@@ -203,6 +211,7 @@ W46 法语 11 版曾写成 vol 3（沿用 W45），PDF 印 VOL.4；2026-11-06 �
 
 工具目录 `~/workspace/weekly-git/tools/`（含持久 venv `tools/venv`，取代临时的 /tmp/wp-venv；用法与验证证据见 `tools/README.md`）：
 
+- `tables.py vol`：期号台账 `production/volumes.json` 的唯一读写入口（`--allocate` 给新的一周取下一个号）。
 - `tables.json` / `tables.py`：12 语代码/名/标签/刊头（含冠词规则）、Discord 线程 ID、各母语列家具模板（徽章/页脚/页码行/注前缀/目标语名表）、仓库 frontmatter 约定、字体真实路径与字重索引（本机为分拆 TTC：JP=0/KR=1/SC=2/TC=3/HK=4）。与仓库 73 版 frontmatter 全量核对零不符。
 - `freeze.py`：`baseline`（核心构建副本重跑 + 8 SVG sha256 比对，带防写穿守卫）与 `diff`（逐页文本多重集差分 + CJK 核算；zh/ja 版 `--strict-cjk` 要求新增 CJK = 0；韩语版允许读者语注释中引用的韩字，逐字裁定）。
 - `p8.py`：从 P8 SVG 提取印刷注释集合与印刷键（兼容括号体/破折号体两种排法），`compare` 按题号比对核心与 fan-out——子集（SHORT）为硬失败，超集记 EXTRA_ONLY（已裁定接受）。锚点复现：EN 核心 62、FR 核心 67、NL 核心 150。

@@ -1,12 +1,12 @@
 ---
-title: "VOL.3 · French text · Simplified Chinese explanations"
+title: "VOL.2 · French text · Simplified Chinese explanations"
 excerpt: "Semaine des finales du Masters de Paris, Halloween et Toussaint, deuxième semaine de l'heure d'hiver, Pitchfork Paris et semaine du budget français"
-abstract: "Le Lucerna法语周报VOL.3：11月2日全法开学复课，巴黎网球大师赛决赛、阿斯泰里克斯公园万圣节最后夜场与滨海波尔诺曼底扇贝节构成决赛周末，另有Pitchfork巴黎音乐节、法甲第十轮与国民议会2027预算周等本周热点，A2到B2分级，适合想学法语的读者做以本周话题为素材的150道练习。"
+abstract: "Le Lucerna法语周报VOL.2：11月2日全法开学复课，巴黎网球大师赛决赛、阿斯泰里克斯公园万圣节最后夜场与滨海波尔诺曼底扇贝节构成决赛周末，另有Pitchfork巴黎音乐节、法甲第十轮与国民议会2027预算周等本周热点，A2到B2分级，适合想学法语的读者做以本周话题为素材的150道练习。"
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
 weekEnd: "2026-11-08"
-vol: 3
+vol: 2
 masthead: "Le Lucerna"
 target: fr
 targetName: "French"
@@ -23,8 +23,8 @@ discordThread: "1562312611603947611"
 draft: false
 ---
 
-# VOL.3 · French text · Simplified Chinese explanations
+# VOL.2 · French text · Simplified Chinese explanations
 
 ## 摘要
 
-Le Lucerna法语周报VOL.3：11月2日全法开学复课，巴黎网球大师赛决赛、阿斯泰里克斯公园万圣节最后夜场与滨海波尔诺曼底扇贝节构成决赛周末，另有Pitchfork巴黎音乐节、法甲第十轮与国民议会2027预算周等本周热点，A2到B2分级，适合想学法语的读者做以本周话题为素材的150道练习。
+Le Lucerna法语周报VOL.2：11月2日全法开学复课，巴黎网球大师赛决赛、阿斯泰里克斯公园万圣节最后夜场与滨海波尔诺曼底扇贝节构成决赛周末，另有Pitchfork巴黎音乐节、法甲第十轮与国民议会2027预算周等本周热点，A2到B2分级，适合想学法语的读者做以本周话题为素材的150道练习。

@@ -24,8 +24,8 @@ Scratch/output goes to `tools/scratch/` — never `/tmp` (512 MB tmpfs).
 ## 1. `tables.json` + `tables.py` — hard-coded reference data
 
 Language codes/names/labels/mastheads (article rule included), Discord
-thread IDs per target, core dir / build dir / P8 filename / W43 vol +
-exercise counts per language, per-native-column furniture (badge + footer
+thread IDs per target, core dir / build dir / P8 filename per language,
+per-native-column furniture (badge + footer
 templates, page line, gloss prefix, P8 separator, full target-name tables
 for de/fr/es/it/pt + provisional nl), repo frontmatter conventions from
 `lint.mjs`, and the font table. Furniture strings were extracted verbatim
@@ -35,8 +35,9 @@ here from a shipped artifact and say so in the commit.
 ```bash
 $PY tables.py lang fr
 $PY tables.py thread fr                                  # -> 1562312611603947611
-$PY tables.py furniture pt --target ko                   # rendered badge/footer/page line
-$PY tables.py furniture de --target fr                   # VOL.2 handled automatically
+$PY tables.py vol 2026-W47 --allocate                   # start of a week: next issue number into production/volumes.json
+$PY tables.py vol 2026-W46                              # -> 3 (the tracker is the only source; never type a vol)
+$PY tables.py furniture pt --target ko --week 2026-W46  # rendered badge/footer/page line, VOL from the tracker
 $PY tables.py slug 2026-W43 fr zh-cn                     # -> 2026-w43-fr-zh-cn
 $PY tables.py edition-dir zh-cn fr                       # -> weekly-report-zhcn-fr (exception table)
 $PY tables.py frontmatter                                # required fields, slug/pdf rules
@@ -165,7 +166,7 @@ whole week. Single-edition mode above is for one-off repairs only.
 $PY insert.py --week 2026-W43 --target ko --native pt \
     --edition-dir ../production/2026-w43/2026-w43-ko-pt   # single-edition repair only
 $PY insert.py --week 2026-W46 --target de --bundle \
-    --vol 3 --exercises 150 --seed-excerpt "..."          # bundle: one commit
+    --exercises 150 --seed-excerpt "..."                  # bundle: one commit; vol comes from the tracker
 $PY insert.py ... --dry-run                               # existence/PDF checks only
 $PY insert.py ... --render-only                           # render + lint in a scratch repo copy (single-edition only)
 ```

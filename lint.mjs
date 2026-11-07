@@ -78,8 +78,14 @@
  *      (not draft, PDF in the repo), covers/<week>/ must hold one cover block .html for each of the 12 reader
  *      languages, and images/ must hold one image for each of the 12 target languages.
  *      A print md/pdf does not count. Without them the site can show that week only as a list of cards.
- *  12. **Issue number matches the PDF** — when the PDF is in the repo, the first VOL.n in its text (printed on P1)
- *      must equal frontmatter vol. The PDF is the source: fix the frontmatter, not the PDF.
+ *  12. **Issue number comes from the tracker** — production/volumes.json maps each published week to its number,
+ *      1, 2, 3 … in week order, shared by all 12 targets; tools/tables.py allocates the next one (`vol <week> --allocate`).
+ *      Frontmatter vol must equal it, and the first VOL.n in the PDF text (printed on P1) must equal it.
+ *      Known misprinted PDFs are listed in VOL_MISPRINTS until they are reprinted.
+ *  13. **Derived fields are not typed** — week / weekStart / weekEnd (from the week directory, ISO week),
+ *      vol and title (tracker + title template), masthead / names / labels / discordThread (tools/tables.json),
+ *      the body heading "# <title>", and pages (counted from the PDF) must equal their derived values;
+ *      any VOL.n anywhere in the md (abstract included) must be this week's number.
  */
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -144,6 +150,29 @@ function frontmatter(raw, where) {
 }
 
 const root = process.cwd();
+
+/** Issue numbers: production/volumes.json is the only source (one entry per published week, 1, 2, 3 … in week order). */
+const VOLUMES = JSON.parse(readFileSync(join(root, 'production', 'volumes.json'), 'utf8'));
+Object.keys(VOLUMES).sort().forEach((w, i) => {
+  if (!/^\d{4}-W\d{2}$/.test(w)) fail('production/volumes.json', `bad week key ${w} (use 2026-W46)`);
+  if (VOLUMES[w] !== i + 1) fail('production/volumes.json', `${w} must be ${i + 1}: numbers run 1, 2, 3 … in week order, no gaps`);
+});
+/** Language names, labels, mastheads, threads, title template: the same table tools/insert.py renders from. */
+const TABLES = JSON.parse(readFileSync(join(root, 'tools', 'tables.json'), 'utf8'));
+/**
+ * PDFs already published with a wrong printed number (rule 12). The French core counted a pilot issue
+ * before W43 as VOL.1, so W43/W45/W46 fr print one number too high. Frontmatter carries the right number.
+ * An entry is removed when that week's PDFs are reprinted; lint fails if an entry no longer matches.
+ */
+const VOL_MISPRINTS = { '2026-w43|fr': 2, '2026-w45|fr': 3, '2026-w46|fr': 4 };
+
+/** ISO week (year, week) → YYYY-MM-DD of Monday + offset days. */
+function isoWeekDay(year, week, offset) {
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const monday = new Date(jan4);
+  monday.setUTCDate(jan4.getUTCDate() - ((jan4.getUTCDay() + 6) % 7) + (week - 1) * 7 + offset);
+  return monday.toISOString().slice(0, 10);
+}
 
 // Root allowlist
 for (const name of readdirSync(root)) {
@@ -246,8 +275,10 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
     }
 
     const where = `${rel}/${mdName}`;
-    const fm = frontmatter(readFileSync(join(dir, mdName), 'utf8'), where);
+    const mdRaw = readFileSync(join(dir, mdName), 'utf8');
+    const fm = frontmatter(mdRaw, where);
     if (!fm) continue;
+    const body = mdRaw.slice(mdRaw.indexOf('\n---', 4) + 4);
 
     for (const key of REQUIRED_FM) {
       if (!(key in fm) || fm[key] === '') fail(where, `frontmatter is missing ${key}`);
@@ -280,6 +311,39 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
     if (fm.pdfSha256 && !SHA_RE.test(fm.pdfSha256)) fail(where, 'pdfSha256 must be 64 lowercase hex digits');
     if (fm.pdf && fm.pdf !== pdfName) fail(where, `the pdf field must be ${pdfName}`);
 
+    // Rule 13: fields that follow from the week, the tracker or tools/tables.json must equal the derived value.
+    // tools/insert.py writes them from the same sources; a mismatch means someone typed or copied a value.
+    const weekKey = weekDirName.toUpperCase();
+    const expectVol = VOLUMES[weekKey];
+    if (expectVol === undefined) fail(where, `${weekKey} has no issue number in production/volumes.json (rule 12)`);
+    const tl = TABLES.languages[target];
+    const nl = TABLES.languages[nat];
+    if (tl && nl) {
+      const [wy, wn] = [Number(weekDirName.slice(0, 4)), Number(weekDirName.slice(6))];
+      const derived = {
+        week: `${wy}-W${String(wn).padStart(2, '0')}`,
+        weekStart: isoWeekDay(wy, wn, 0),
+        weekEnd: isoWeekDay(wy, wn, 6),
+        vol: String(expectVol),
+        title: TABLES.frontmatter.title_template
+          .replace('{VOL}', expectVol).replace('{TARGET_NAME}', tl.name_en).replace('{NATIVE_NAME}', nl.name_en),
+        masthead: tl.masthead,
+        targetName: tl.name_en,
+        targetLabel: tl.label,
+        nativeName: nl.name_en,
+        nativeLabel: nl.label,
+        discordThread: tl.discord_thread,
+      };
+      for (const [k, v] of Object.entries(derived)) {
+        if (fm[k] !== v) fail(where, `${k} must be "${v}" (derived), found "${fm[k]}" (rule 13)`);
+      }
+      if (!body.split('\n').includes(`# ${derived.title}`)) fail(where, `the body heading must be "# ${derived.title}" (rule 13)`);
+      // The abstract is free text, but any issue number it names must be this one.
+      for (const m of mdRaw.matchAll(/VOL\.\s*(\d+)/g)) {
+        if (Number(m[1]) !== expectVol) fail(where, `the md names VOL.${m[1]}; this week is VOL.${expectVol} (rule 13)`);
+      }
+    }
+
     // Excerpt language gate (conservative): only non-Latin-script targets, by share of ASCII letters.
     // Latin-script targets (de/fr/es/it/pt/nl/en) use Latin letters anyway and cannot be told from English, so they are not checked.
     if (NON_LATIN_TARGETS.has(target) && fm.excerpt && asciiLetterFraction(fm.excerpt) > 0.5) {
@@ -303,13 +367,20 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
         if (text.replace(/\s/g, '').length === 0) {
           fail(where, 'the PDF has no extractable text layer (image-only PDFs do not enter the repo; make the web PDF with webpdf.py first)');
         } else {
-          // Rule 12: the issue number printed on P1 (first VOL.n in the text) must equal frontmatter vol.
+          // Rule 12: the issue number printed on P1 (first VOL.n in the text) must equal the tracker's number.
           const printed = text.match(/VOL\.?\s*(\d+)/);
+          const known = VOL_MISPRINTS[`${weekDirName}|${target}`];
           if (!printed) fail(where, 'no VOL.n found in the PDF text (rule 12)');
-          else if (printed[1] !== String(fm.vol)) {
-            fail(where, `vol mismatch: frontmatter vol ${fm.vol}, PDF prints VOL.${printed[1]} (rule 12; the PDF is the source)`);
+          else if (known !== undefined) {
+            if (Number(printed[1]) !== known) fail(where, `VOL_MISPRINTS says this PDF prints VOL.${known}, it prints VOL.${printed[1]}; update or remove the entry`);
+          } else if (expectVol !== undefined && Number(printed[1]) !== expectVol) {
+            fail(where, `the PDF prints VOL.${printed[1]}, production/volumes.json gives ${weekKey} = ${expectVol} (rule 12; render the furniture from tables.vol)`);
           }
         }
+        // Rule 13: pages is counted from the PDF, never typed.
+        const info = execFileSync('pdfinfo', [pdfPath], { encoding: 'utf8' });
+        const pages = info.match(/^Pages:\s+(\d+)/m)?.[1];
+        if (pages !== String(fm.pages)) fail(where, `pages must be ${pages} (counted from the PDF), found ${fm.pages} (rule 13)`);
       } catch (e) {
         if (e.code === 'ENOENT') fail(where, 'the PDF text-layer check needs pdftotext (install poppler-utils, then run again)');
         else fail(where, `PDF text-layer check failed: ${e.message}`);

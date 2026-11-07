@@ -1,12 +1,12 @@
 ---
-title: "VOL.3 · French text · Traditional Chinese explanations"
+title: "VOL.2 · French text · Traditional Chinese explanations"
 excerpt: "Semaine des finales du Masters de Paris, Halloween et Toussaint, deuxième semaine de l'heure d'hiver, Pitchfork Paris et semaine du budget français"
-abstract: "法語週報 VOL.3：11 月 2 日至 8 日，開學復課、巴黎大師賽決賽週末、萬聖節與諸聖節、Pitchfork 巴黎音樂節、2027 社保預算國會審議，A2 到 B2 共 150 道法語練習，含本週金句、易錯診所與第 8 版作文範本，適合正在學法語的繁體中文讀者用法語讀真實生活。"
+abstract: "法語週報 VOL.2：11 月 2 日至 8 日，開學復課、巴黎大師賽決賽週末、萬聖節與諸聖節、Pitchfork 巴黎音樂節、2027 社保預算國會審議，A2 到 B2 共 150 道法語練習，含本週金句、易錯診所與第 8 版作文範本，適合正在學法語的繁體中文讀者用法語讀真實生活。"
 publishedAt: "2026-11-02"
 week: "2026-W45"
 weekStart: "2026-11-02"
 weekEnd: "2026-11-08"
-vol: 3
+vol: 2
 masthead: "Le Lucerna"
 target: fr
 targetName: "French"
@@ -23,8 +23,8 @@ discordThread: "1562312611603947611"
 draft: false
 ---
 
-# VOL.3 · French text · Traditional Chinese explanations
+# VOL.2 · French text · Traditional Chinese explanations
 
 ## 摘要
 
-法語週報 VOL.3：11 月 2 日至 8 日，開學復課、巴黎大師賽決賽週末、萬聖節與諸聖節、Pitchfork 巴黎音樂節、2027 社保預算國會審議，A2 到 B2 共 150 道法語練習，含本週金句、易錯診所與第 8 版作文範本，適合正在學法語的繁體中文讀者用法語讀真實生活。
+法語週報 VOL.2：11 月 2 日至 8 日，開學復課、巴黎大師賽決賽週末、萬聖節與諸聖節、Pitchfork 巴黎音樂節、2027 社保預算國會審議，A2 到 B2 共 150 道法語練習，含本週金句、易錯診所與第 8 版作文範本，適合正在學法語的繁體中文讀者用法語讀真實生活。

@@ -253,7 +253,8 @@ def main(argv=None):
         core_p8 = p8_path(args.core_dir, args.target)
         ed_p8 = p8_path(args.edition_dir, args.target)
         if total is None:
-            total = T.lang(args.target)["exercises_w43"]
+            # The count changes every week (fr: 145 in W43, 150 in W46); never fall back to a stored constant.
+            ap.error("compare needs --total (this week's exercise count from the core's registry)")
     elif args.core_p8 and args.edition_p8 and total:
         core_p8, ed_p8 = args.core_p8, args.edition_p8
     else:

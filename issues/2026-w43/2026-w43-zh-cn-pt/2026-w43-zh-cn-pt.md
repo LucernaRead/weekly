@@ -1,5 +1,5 @@
 ---
-title: "VOL.1 · 简体中文正文 · Portuguese explanations"
+title: "VOL.1 · Simplified Chinese text · Portuguese explanations"
 excerpt: "双11尾款周——大闸蟹、霜降与购物节预热"
 abstract: "Na China, a semana é de correria no comércio: o Lucerna em chinês simplificado abre com a noite de pagamento do saldo （付尾款） do Double 11 （双11）, na terça-feira, 20 de outubro, às 20h, no Tmall. Tem ainda a temporada do caranguejo-peludo （大闸蟹）, com preços acompanhados no mercado de Xinfadi, e as datas do calendário tradicional: o Shuangjiang （霜降）, em 23 de outubro, e o festival Chongyang （重阳）, lembrado em retrospectiva. São 150 exercícios, do A2 ao B2, para aprender chinês lendo a China de hoje, com explicações em português."
 publishedAt: "2026-10-21"
@@ -22,7 +22,7 @@ pdfSha256: 8f51b7506a522d235066599eae6dcd8f754988338b4696924a28f414a7392311
 discordThread: "1562312827774042172"
 draft: false
 ---
-# VOL.1 · 简体中文正文 · Portuguese explanations
+# VOL.1 · Simplified Chinese text · Portuguese explanations
 
 ## Resumo
 
