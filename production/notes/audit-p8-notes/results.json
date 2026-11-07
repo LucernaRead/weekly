@@ -1,0 +1,3948 @@
+{
+ "2026-w43-de-en": {
+  "dir": "weekly-report-de-en",
+  "target": "de",
+  "native": "en",
+  "total": 150,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   32,
+   137,
+   138,
+   150
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-de-es": {
+  "dir": "weekly-report-de-es",
+  "target": "de",
+  "native": "es",
+  "total": 150,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   137,
+   138,
+   150
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-de-fr": {
+  "dir": "weekly-report-de-fr",
+  "target": "de",
+  "native": "fr",
+  "total": 150,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   32,
+   137,
+   138,
+   150
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-de-zh-cn": {
+  "dir": "weekly-report-de-vol1",
+  "target": "de",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-en-de": {
+  "dir": "weekly-report-en-de",
+  "target": "en",
+  "native": "de",
+  "total": 149,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 62,
+  "ed_count": 149,
+  "missing": [],
+  "extra": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   13,
+   16,
+   17,
+   18,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   37,
+   38,
+   39,
+   41,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   88,
+   90,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   102,
+   103,
+   104,
+   105,
+   107
+  ],
+  "uncertain": [],
+  "keydiff_note_items": [
+   85,
+   108,
+   110,
+   136,
+   139,
+   149
+  ],
+  "status": "EXTRA_ONLY",
+  "_detail": {
+   "1": {
+    "core": {
+     "has_note": false,
+     "key": "ballot",
+     "seg": "ballot",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "ballot",
+     "seg": "ballot (ballot = Stimmzettel)",
+     "method": "paren"
+    }
+   },
+   "2": {
+    "core": {
+     "has_note": false,
+     "key": "early",
+     "seg": "early",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "early",
+     "seg": "early (early voting = vorzeitige Stimmabgabe)",
+     "method": "paren"
+    }
+   },
+   "3": {
+    "core": {
+     "has_note": false,
+     "key": "November 3",
+     "seg": "November 3",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "November 3",
+     "seg": "November 3 (Wahltag: Dienstag, 3. November)",
+     "method": "paren"
+    }
+   },
+   "4": {
+    "core": {
+     "has_note": false,
+     "key": "champion",
+     "seg": "champion",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "champion",
+     "seg": "champion (champion = Meister, Sieger)",
+     "method": "paren"
+    }
+   },
+   "5": {
+    "core": {
+     "has_note": false,
+     "key": "opened",
+     "seg": "opened",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "opened",
+     "seg": "opened (Start war am Montag → Vergangenheit: opened)",
+     "method": "paren"
+    }
+   },
+   "6": {
+    "core": {
+     "has_note": false,
+     "key": "first",
+     "seg": "first",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "first",
+     "seg": "first (first title = der erste Titel)",
+     "method": "paren"
+    }
+   },
+   "7": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Texas: Start am Montag, 19. Oktober)",
+     "method": "paren"
+    }
+   },
+   "8": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Die USA stellen erst am 1. November zurück)",
+     "method": "paren"
+    }
+   },
+   "9": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Spiel 1 der World Series in Milwaukee)",
+     "method": "paren"
+    }
+   },
+   "10": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (NBA-Start: Dienstag, 20. Oktober)",
+     "method": "paren"
+    }
+   },
+   "12": {
+    "core": {
+     "has_note": false,
+     "key": "quarter past",
+     "seg": "quarter past",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "quarter past",
+     "seg": "quarter past (9:15 = Viertel nach neun)",
+     "method": "paren"
+    }
+   },
+   "13": {
+    "core": {
+     "has_note": false,
+     "key": "quarter to",
+     "seg": "quarter to",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "quarter to",
+     "seg": "quarter to (7:45 = Viertel vor acht)",
+     "method": "paren"
+    }
+   },
+   "16": {
+    "core": {
+     "has_note": false,
+     "key": "Checks are going to grow in January.",
+     "seg": "Checks are going to grow in January.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Checks are going to grow in January.",
+     "seg": "Checks are going to grow in January. (checks (Plural) → are going to)",
+     "method": "paren"
+    }
+   },
+   "17": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee is going to play Game 1 on Friday.",
+     "seg": "Milwaukee is going to play Game 1 on Friday.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee is going to play Game 1 on Friday.",
+     "seg": "Milwaukee is going to play Game 1 on Friday. (Milwaukee (Singular) → is going to)",
+     "method": "paren"
+    }
+   },
+   "18": {
+    "core": {
+     "has_note": false,
+     "key": "We are going to check the fridge tonight.",
+     "seg": "We are going to check the fridge tonight.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "We are going to check the fridge tonight.",
+     "seg": "We are going to check the fridge tonight. (we → are going to)",
+     "method": "paren"
+    }
+   },
+   "20": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (COLA +3,6 % (SSA))",
+     "method": "paren"
+    }
+   },
+   "21": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Online Ende November, per Post im Dezember)",
+     "method": "paren"
+    }
+   },
+   "22": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Grund: defekte Kühlung im Werk)",
+     "method": "paren"
+    }
+   },
+   "23": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Erster Scheck 1940: 22,54 Dollar)",
+     "method": "paren"
+    }
+   },
+   "24": {
+    "core": {
+     "has_note": false,
+     "key": "b",
+     "seg": "b",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "b",
+     "seg": "b (benefit = Geld vom Staat b)",
+     "method": "paren"
+    }
+   },
+   "25": {
+    "core": {
+     "has_note": false,
+     "key": "d",
+     "seg": "d",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "d",
+     "seg": "d (recall = Firma holt Ware zurück d)",
+     "method": "paren"
+    }
+   },
+   "26": {
+    "core": {
+     "has_note": false,
+     "key": "c",
+     "seg": "c",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "c",
+     "seg": "c (pound = ca. 0,45 kg c)",
+     "method": "paren"
+    }
+   },
+   "27": {
+    "core": {
+     "has_note": false,
+     "key": "a",
+     "seg": "a",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "a",
+     "seg": "a (cost of living = Preise des Alltags a)",
+     "method": "paren"
+    }
+   },
+   "28": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Halloween ist am Samstag (31. Oktober))",
+     "method": "paren"
+    }
+   },
+   "29": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (NRF-Prognose: 13,5 Milliarden Dollar)",
+     "method": "paren"
+    }
+   },
+   "30": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Größter Posten: Kostüme (4,4 Mrd.), nicht Süßes)",
+     "method": "paren"
+    }
+   },
+   "31": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (47 % nutzen KI für Ideen)",
+     "method": "paren"
+    }
+   },
+   "32": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Kein Licht an der Tür = bitte nicht stören)",
+     "method": "paren"
+    }
+   },
+   "33": {
+    "core": {
+     "has_note": false,
+     "key": "costume",
+     "seg": "costume",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "costume",
+     "seg": "costume (costume = Kostüm, Verkleidung)",
+     "method": "paren"
+    }
+   },
+   "34": {
+    "core": {
+     "has_note": false,
+     "key": "carve",
+     "seg": "carve",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "carve",
+     "seg": "carve (carve a pumpkin = einen Kürbis schnitzen)",
+     "method": "paren"
+    }
+   },
+   "37": {
+    "core": {
+     "has_note": false,
+     "key": "patch",
+     "seg": "patch",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "patch",
+     "seg": "patch (pumpkin patch = Kürbisfeld)",
+     "method": "paren"
+    }
+   },
+   "38": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (13,5 Mrd. = Prognose für dieses Jahr)",
+     "method": "paren"
+    }
+   },
+   "39": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Googles Liste heißt Frightgeist)",
+     "method": "paren"
+    }
+   },
+   "41": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Anfang des 20. Jh.: Grüße per Postkarte)",
+     "method": "paren"
+    }
+   },
+   "43": {
+    "core": {
+     "has_note": false,
+     "key": "She buys a Greek god costume.",
+     "seg": "She buys a Greek god costume.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "She buys a Greek god costume.",
+     "seg": "She buys a Greek god costume. (3. Person Singular: buys)",
+     "method": "paren"
+    }
+   },
+   "44": {
+    "core": {
+     "has_note": false,
+     "key": "He does not like horror films.",
+     "seg": "He does not like horror films.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "He does not like horror films.",
+     "seg": "He does not like horror films. (Verneinung, 3. Person: does not)",
+     "method": "paren"
+    }
+   },
+   "45": {
+    "core": {
+     "has_note": false,
+     "key": "will rain",
+     "seg": "will rain",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "will rain",
+     "seg": "will rain (I think → will für Vermutungen)",
+     "method": "paren"
+    }
+   },
+   "46": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Letztes Knicks-Banner: 1973)",
+     "method": "paren"
+    }
+   },
+   "47": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (106–100 = 6 Punkte Abstand)",
+     "method": "paren"
+    }
+   },
+   "48": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Brewers zuletzt 1982 in der World Series)",
+     "method": "paren"
+    }
+   },
+   "50": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Laut Quelle Week 7 (nicht Week 8))",
+     "method": "paren"
+    }
+   },
+   "51": {
+    "core": {
+     "has_note": false,
+     "key": "d",
+     "seg": "d",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "d",
+     "seg": "d (tip-off = Spielbeginn (Basketball) d)",
+     "method": "paren"
+    }
+   },
+   "52": {
+    "core": {
+     "has_note": false,
+     "key": "b",
+     "seg": "b",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "b",
+     "seg": "b (sweep = jede Partie der Serie gewinnen b)",
+     "method": "paren"
+    }
+   },
+   "53": {
+    "core": {
+     "has_note": false,
+     "key": "a",
+     "seg": "a",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "a",
+     "seg": "a (defending champion = Titelverteidiger a)",
+     "method": "paren"
+    }
+   },
+   "54": {
+    "core": {
+     "has_note": false,
+     "key": "c",
+     "seg": "c",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "c",
+     "seg": "c (banner = Fahne für den Titel c)",
+     "method": "paren"
+    }
+   },
+   "55": {
+    "core": {
+     "has_note": false,
+     "key": "older",
+     "seg": "older",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "older",
+     "seg": "older (Die World Series ist älter als die NBA)",
+     "method": "paren"
+    }
+   },
+   "56": {
+    "core": {
+     "has_note": false,
+     "key": "hotter",
+     "seg": "hotter",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "hotter",
+     "seg": "hotter (hot → hotter (Konsonant wird verdoppelt))",
+     "method": "paren"
+    }
+   },
+   "57": {
+    "core": {
+     "has_note": false,
+     "key": "busiest",
+     "seg": "busiest",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "busiest",
+     "seg": "busiest (Superlativ: the busiest)",
+     "method": "paren"
+    }
+   },
+   "58": {
+    "core": {
+     "has_note": false,
+     "key": "more",
+     "seg": "more",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "more",
+     "seg": "more (Maxey 28 Punkte > Brunson 21)",
+     "method": "paren"
+    }
+   },
+   "59": {
+    "core": {
+     "has_note": false,
+     "key": "The 76ers won 106–100.",
+     "seg": "The 76ers won 106–100.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The 76ers won 106–100.",
+     "seg": "The 76ers won 106–100. (win → won (unregelmäßig))",
+     "method": "paren"
+    }
+   },
+   "60": {
+    "core": {
+     "has_note": false,
+     "key": "The Knicks raised their banner.",
+     "seg": "The Knicks raised their banner.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The Knicks raised their banner.",
+     "seg": "The Knicks raised their banner. (raise → raised (regelmäßig))",
+     "method": "paren"
+    }
+   },
+   "61": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee swept the Dodgers.",
+     "seg": "Milwaukee swept the Dodgers.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee swept the Dodgers.",
+     "seg": "Milwaukee swept the Dodgers. (sweep → swept (unregelmäßig))",
+     "method": "paren"
+    }
+   },
+   "62": {
+    "core": {
+     "has_note": false,
+     "key": "Tampa Bay beat Cleveland on Monday.",
+     "seg": "Tampa Bay beat Cleveland on Monday.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Tampa Bay beat Cleveland on Monday.",
+     "seg": "Tampa Bay beat Cleveland on Monday. (beat → beat (unregelmäßig))",
+     "method": "paren"
+    }
+   },
+   "63": {
+    "core": {
+     "has_note": false,
+     "key": "Fans watched three games on Tuesday night.",
+     "seg": "Fans watched three games on Tuesday night.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Fans watched three games on Tuesday night.",
+     "seg": "Fans watched three games on Tuesday night. (watch → watched (regelmäßig))",
+     "method": "paren"
+    }
+   },
+   "64": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Drei Spiele an einem Abend: NBC und Peacock)",
+     "method": "paren"
+    }
+   },
+   "66": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (47 % planen Kostüm und Deko mit KI)",
+     "method": "paren"
+    }
+   },
+   "67": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Tesla und Meta: Zahlen am Mittwoch nach Börsenschluss)",
+     "method": "paren"
+    }
+   },
+   "68": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Vor dem Bericht gehen die Schätzungen auseinander)",
+     "method": "paren"
+    }
+   },
+   "69": {
+    "core": {
+     "has_note": false,
+     "key": "stream",
+     "seg": "stream",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "stream",
+     "seg": "stream (stream = online ansehen)",
+     "method": "paren"
+    }
+   },
+   "70": {
+    "core": {
+     "has_note": false,
+     "key": "highlights",
+     "seg": "highlights",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "highlights",
+     "seg": "highlights (highlights = die besten Szenen)",
+     "method": "paren"
+    }
+   },
+   "71": {
+    "core": {
+     "has_note": false,
+     "key": "viral",
+     "seg": "viral",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "viral",
+     "seg": "viral (go viral = viral gehen)",
+     "method": "paren"
+    }
+   },
+   "72": {
+    "core": {
+     "has_note": false,
+     "key": "roster",
+     "seg": "roster",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "roster",
+     "seg": "roster (roster = Kaderliste)",
+     "method": "paren"
+    }
+   },
+   "73": {
+    "core": {
+     "has_note": false,
+     "key": "earnings",
+     "seg": "earnings",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "earnings",
+     "seg": "earnings (earnings = Firmenzahlen)",
+     "method": "paren"
+    }
+   },
+   "75": {
+    "core": {
+     "has_note": false,
+     "key": "Tesla is reporting its results tonight.",
+     "seg": "Tesla is reporting its results tonight.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Tesla is reporting its results tonight.",
+     "seg": "Tesla is reporting its results tonight. (3. Person Singular: is + -ing)",
+     "method": "paren"
+    }
+   },
+   "76": {
+    "core": {
+     "has_note": false,
+     "key": "The teams are playing 43 games this week.",
+     "seg": "The teams are playing 43 games this week.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The teams are playing 43 games this week.",
+     "seg": "The teams are playing 43 games this week. (Plural: are + -ing)",
+     "method": "paren"
+    }
+   },
+   "77": {
+    "core": {
+     "has_note": false,
+     "key": "Fans are watching the tripleheader on their phones.",
+     "seg": "Fans are watching the tripleheader on their phones.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Fans are watching the tripleheader on their phones.",
+     "seg": "Fans are watching the tripleheader on their phones. (fans → are watching)",
+     "method": "paren"
+    }
+   },
+   "78": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee is preparing for Game 1.",
+     "seg": "Milwaukee is preparing for Game 1.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee is preparing for Game 1.",
+     "seg": "Milwaukee is preparing for Game 1. (prepare → is preparing)",
+     "method": "paren"
+    }
+   },
+   "79": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (Im Text: Viele Fans sehen zuerst Clips)",
+     "method": "paren"
+    }
+   },
+   "80": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Vor dem Bericht kennt niemand die Zahlen)",
+     "method": "paren"
+    }
+   },
+   "81": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Listen von Google (Frightgeist) und aus Shops)",
+     "method": "paren"
+    }
+   },
+   "88": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Zwischenwahlen entscheiden über den Kongress)",
+     "method": "paren"
+    }
+   },
+   "90": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (3,8 Mrd. = Werbeausgaben bis 12. Oktober)",
+     "method": "paren"
+    }
+   },
+   "91": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Florida: Pflichtzeit ab Samstag, 24. Oktober)",
+     "method": "paren"
+    }
+   },
+   "92": {
+    "core": {
+     "has_note": false,
+     "key": "more convenient",
+     "seg": "more convenient",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "more convenient",
+     "seg": "more convenient (convenient → mit more bilden)",
+     "method": "paren"
+    }
+   },
+   "93": {
+    "core": {
+     "has_note": false,
+     "key": "highest",
+     "seg": "highest",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "highest",
+     "seg": "highest (record = das höchste je)",
+     "method": "paren"
+    }
+   },
+   "94": {
+    "core": {
+     "has_note": false,
+     "key": "earlier",
+     "seg": "earlier",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "earlier",
+     "seg": "earlier (Texas (19.) startet vor Florida (24.))",
+     "method": "paren"
+    }
+   },
+   "95": {
+    "core": {
+     "has_note": false,
+     "key": "smaller",
+     "seg": "smaller",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "smaller",
+     "seg": "smaller (218 − 214 = 4 < 10)",
+     "method": "paren"
+    }
+   },
+   "96": {
+    "core": {
+     "has_note": false,
+     "key": "incumbent",
+     "seg": "incumbent",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "incumbent",
+     "seg": "incumbent (incumbent = Amtsinhaber)",
+     "method": "paren"
+    }
+   },
+   "97": {
+    "core": {
+     "has_note": false,
+     "key": "margin",
+     "seg": "margin",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "margin",
+     "seg": "margin (margin = Abstand)",
+     "method": "paren"
+    }
+   },
+   "98": {
+    "core": {
+     "has_note": false,
+     "key": "turnout",
+     "seg": "turnout",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "turnout",
+     "seg": "turnout (turnout = Wahlbeteiligung)",
+     "method": "paren"
+    }
+   },
+   "99": {
+    "core": {
+     "has_note": false,
+     "key": "campaign",
+     "seg": "campaign",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "campaign",
+     "seg": "campaign (campaign = Wahlkampf)",
+     "method": "paren"
+    }
+   },
+   "100": {
+    "core": {
+     "has_note": false,
+     "key": "opened",
+     "seg": "opened",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "opened",
+     "seg": "opened (open → opened)",
+     "method": "paren"
+    }
+   },
+   "102": {
+    "core": {
+     "has_note": false,
+     "key": "beat",
+     "seg": "beat",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "beat",
+     "seg": "beat (beat → beat (bleibt gleich))",
+     "method": "paren"
+    }
+   },
+   "103": {
+    "core": {
+     "has_note": false,
+     "key": "has",
+     "seg": "has",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "has",
+     "seg": "has (neither → has)",
+     "method": "paren"
+    }
+   },
+   "104": {
+    "core": {
+     "has_note": false,
+     "key": "no longer",
+     "seg": "no longer",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "no longer",
+     "seg": "no longer (no longer = nicht mehr)",
+     "method": "paren"
+    }
+   },
+   "105": {
+    "core": {
+     "has_note": false,
+     "key": "head",
+     "seg": "head",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "head",
+     "seg": "head (fans → head (Grundform))",
+     "method": "paren"
+    }
+   },
+   "107": {
+    "core": {
+     "has_note": false,
+     "key": "spring",
+     "seg": "spring",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "spring",
+     "seg": "spring (spring forward = vorspringen)",
+     "method": "paren"
+    }
+   }
+  }
+ },
+ "2026-w43-en-es": {
+  "dir": "weekly-report-en-es",
+  "target": "en",
+  "native": "es",
+  "total": 149,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 62,
+  "ed_count": 62,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   136,
+   139,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-en-fr": {
+  "dir": "weekly-report-en-fr",
+  "target": "en",
+  "native": "fr",
+  "total": 149,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 62,
+  "ed_count": 149,
+  "missing": [],
+  "extra": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   13,
+   16,
+   17,
+   18,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   37,
+   38,
+   39,
+   41,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   72,
+   73,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   88,
+   90,
+   91,
+   92,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   100,
+   102,
+   103,
+   104,
+   105,
+   107
+  ],
+  "uncertain": [],
+  "keydiff_note_items": [
+   136,
+   139,
+   149
+  ],
+  "status": "EXTRA_ONLY",
+  "_detail": {
+   "1": {
+    "core": {
+     "has_note": false,
+     "key": "ballot",
+     "seg": "ballot",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "ballot",
+     "seg": "ballot (ballot = le bulletin de vote)",
+     "method": "paren"
+    }
+   },
+   "2": {
+    "core": {
+     "has_note": false,
+     "key": "early",
+     "seg": "early",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "early",
+     "seg": "early (early voting = le vote anticipé)",
+     "method": "paren"
+    }
+   },
+   "3": {
+    "core": {
+     "has_note": false,
+     "key": "November 3",
+     "seg": "November 3",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "November 3",
+     "seg": "November 3 (Jour des élections : mardi 3 novembre)",
+     "method": "paren"
+    }
+   },
+   "4": {
+    "core": {
+     "has_note": false,
+     "key": "champion",
+     "seg": "champion",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "champion",
+     "seg": "champion (champion = le champion)",
+     "method": "paren"
+    }
+   },
+   "5": {
+    "core": {
+     "has_note": false,
+     "key": "opened",
+     "seg": "opened",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "opened",
+     "seg": "opened (Commencé dès lundi → prétérit : opened)",
+     "method": "paren"
+    }
+   },
+   "6": {
+    "core": {
+     "has_note": false,
+     "key": "first",
+     "seg": "first",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "first",
+     "seg": "first (first title = le premier titre)",
+     "method": "paren"
+    }
+   },
+   "7": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Au Texas, le vote anticipé commence lundi 19 octobre)",
+     "method": "paren"
+    }
+   },
+   "8": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (L’Amérique recule ses horloges le 1er novembre)",
+     "method": "paren"
+    }
+   },
+   "9": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Le match 1 des World Series est à Milwaukee)",
+     "method": "paren"
+    }
+   },
+   "10": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (La nouvelle saison NBA commence mardi 20 octobre)",
+     "method": "paren"
+    }
+   },
+   "12": {
+    "core": {
+     "has_note": false,
+     "key": "quarter past",
+     "seg": "quarter past",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "quarter past",
+     "seg": "quarter past (9:15 = neuf heures et quart)",
+     "method": "paren"
+    }
+   },
+   "13": {
+    "core": {
+     "has_note": false,
+     "key": "quarter to",
+     "seg": "quarter to",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "quarter to",
+     "seg": "quarter to (7:45 = huit heures moins le quart)",
+     "method": "paren"
+    }
+   },
+   "16": {
+    "core": {
+     "has_note": false,
+     "key": "Checks are going to grow in January.",
+     "seg": "Checks are going to grow in January.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Checks are going to grow in January.",
+     "seg": "Checks are going to grow in January. (checks (pluriel) → are going to)",
+     "method": "paren"
+    }
+   },
+   "17": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee is going to play Game 1 on Friday.",
+     "seg": "Milwaukee is going to play Game 1 on Friday.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee is going to play Game 1 on Friday.",
+     "seg": "Milwaukee is going to play Game 1 on Friday. (Milwaukee (singulier) → is going to)",
+     "method": "paren"
+    }
+   },
+   "18": {
+    "core": {
+     "has_note": false,
+     "key": "We are going to check the fridge tonight.",
+     "seg": "We are going to check the fridge tonight.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "We are going to check the fridge tonight.",
+     "seg": "We are going to check the fridge tonight. (we → are going to)",
+     "method": "paren"
+    }
+   },
+   "20": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (COLA : +3,6 % (chiffre officiel SSA))",
+     "method": "paren"
+    }
+   },
+   "21": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (En ligne fin nov., par courrier en déc.)",
+     "method": "paren"
+    }
+   },
+   "22": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Rappel : refroidisseur d’usine en panne)",
+     "method": "paren"
+    }
+   },
+   "23": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Le premier chèque, en 1940 : 22,54 dollars)",
+     "method": "paren"
+    }
+   },
+   "24": {
+    "core": {
+     "has_note": false,
+     "key": "b",
+     "seg": "b",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "b",
+     "seg": "b (benefit = l’argent versé par l’État b)",
+     "method": "paren"
+    }
+   },
+   "25": {
+    "core": {
+     "has_note": false,
+     "key": "d",
+     "seg": "d",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "d",
+     "seg": "d (recall = l’entreprise reprend tout d)",
+     "method": "paren"
+    }
+   },
+   "26": {
+    "core": {
+     "has_note": false,
+     "key": "c",
+     "seg": "c",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "c",
+     "seg": "c (pound = environ 0,45 kg c)",
+     "method": "paren"
+    }
+   },
+   "27": {
+    "core": {
+     "has_note": false,
+     "key": "a",
+     "seg": "a",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "a",
+     "seg": "a (cost of living = le prix du quotidien a)",
+     "method": "paren"
+    }
+   },
+   "28": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Halloween tombe un samedi (31 octobre))",
+     "method": "paren"
+    }
+   },
+   "29": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (La NRF prévoit 13,5 milliards de dollars)",
+     "method": "paren"
+    }
+   },
+   "30": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Les costumes d’abord, pas les bonbons)",
+     "method": "paren"
+    }
+   },
+   "31": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (47 % des gens utilisent l’IA pour leurs idées)",
+     "method": "paren"
+    }
+   },
+   "32": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Porche éteint = « pas cette année, merci »)",
+     "method": "paren"
+    }
+   },
+   "33": {
+    "core": {
+     "has_note": false,
+     "key": "costume",
+     "seg": "costume",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "costume",
+     "seg": "costume (costume = le déguisement)",
+     "method": "paren"
+    }
+   },
+   "34": {
+    "core": {
+     "has_note": false,
+     "key": "carve",
+     "seg": "carve",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "carve",
+     "seg": "carve (carve a pumpkin = creuser une citrouille)",
+     "method": "paren"
+    }
+   },
+   "37": {
+    "core": {
+     "has_note": false,
+     "key": "patch",
+     "seg": "patch",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "patch",
+     "seg": "patch (pumpkin patch = le champ de citrouilles)",
+     "method": "paren"
+    }
+   },
+   "38": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (13,5 milliards : la prévision de cette année)",
+     "method": "paren"
+    }
+   },
+   "39": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (La liste de Google s’appelle Frightgeist)",
+     "method": "paren"
+    }
+   },
+   "41": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Années 1900 : les vœux par carte postale)",
+     "method": "paren"
+    }
+   },
+   "43": {
+    "core": {
+     "has_note": false,
+     "key": "She buys a Greek god costume.",
+     "seg": "She buys a Greek god costume.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "She buys a Greek god costume.",
+     "seg": "She buys a Greek god costume. (3e personne : buys (présent simple))",
+     "method": "paren"
+    }
+   },
+   "44": {
+    "core": {
+     "has_note": false,
+     "key": "He does not like horror films.",
+     "seg": "He does not like horror films.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "He does not like horror films.",
+     "seg": "He does not like horror films. (Négation, 3e personne : does not)",
+     "method": "paren"
+    }
+   },
+   "45": {
+    "core": {
+     "has_note": false,
+     "key": "will rain",
+     "seg": "will rain",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "will rain",
+     "seg": "will rain (I think → will pour prédire)",
+     "method": "paren"
+    }
+   },
+   "46": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (La dernière bannière des Knicks datait de 1973)",
+     "method": "paren"
+    }
+   },
+   "47": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (106–100 : six points d’écart)",
+     "method": "paren"
+    }
+   },
+   "48": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Les Brewers en World Series : la dernière fois en 1982)",
+     "method": "paren"
+    }
+   },
+   "50": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Le programme dit Week 7, pas Week 8)",
+     "method": "paren"
+    }
+   },
+   "51": {
+    "core": {
+     "has_note": false,
+     "key": "d",
+     "seg": "d",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "d",
+     "seg": "d (tip-off = le début du match (basket) d)",
+     "method": "paren"
+    }
+   },
+   "52": {
+    "core": {
+     "has_note": false,
+     "key": "b",
+     "seg": "b",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "b",
+     "seg": "b (sweep = gagner tous les matchs d’une série b)",
+     "method": "paren"
+    }
+   },
+   "53": {
+    "core": {
+     "has_note": false,
+     "key": "a",
+     "seg": "a",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "a",
+     "seg": "a (defending champion = le champion en titre a)",
+     "method": "paren"
+    }
+   },
+   "54": {
+    "core": {
+     "has_note": false,
+     "key": "c",
+     "seg": "c",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "c",
+     "seg": "c (banner = la bannière qui rappelle un titre c)",
+     "method": "paren"
+    }
+   },
+   "55": {
+    "core": {
+     "has_note": false,
+     "key": "older",
+     "seg": "older",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "older",
+     "seg": "older (Les World Series sont plus anciennes que la NBA)",
+     "method": "paren"
+    }
+   },
+   "56": {
+    "core": {
+     "has_note": false,
+     "key": "hotter",
+     "seg": "hotter",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "hotter",
+     "seg": "hotter (hot → hotter (consonne doublée))",
+     "method": "paren"
+    }
+   },
+   "57": {
+    "core": {
+     "has_note": false,
+     "key": "busiest",
+     "seg": "busiest",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "busiest",
+     "seg": "busiest (Superlatif : the busiest)",
+     "method": "paren"
+    }
+   },
+   "58": {
+    "core": {
+     "has_note": false,
+     "key": "more",
+     "seg": "more",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "more",
+     "seg": "more (Maxey 28 points > Brunson 21 points)",
+     "method": "paren"
+    }
+   },
+   "59": {
+    "core": {
+     "has_note": false,
+     "key": "The 76ers won 106–100.",
+     "seg": "The 76ers won 106–100.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The 76ers won 106–100.",
+     "seg": "The 76ers won 106–100. (win → won (irrégulier))",
+     "method": "paren"
+    }
+   },
+   "60": {
+    "core": {
+     "has_note": false,
+     "key": "The Knicks raised their banner.",
+     "seg": "The Knicks raised their banner.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The Knicks raised their banner.",
+     "seg": "The Knicks raised their banner. (raise → raised (régulier))",
+     "method": "paren"
+    }
+   },
+   "61": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee swept the Dodgers.",
+     "seg": "Milwaukee swept the Dodgers.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee swept the Dodgers.",
+     "seg": "Milwaukee swept the Dodgers. (sweep → swept (irrégulier))",
+     "method": "paren"
+    }
+   },
+   "62": {
+    "core": {
+     "has_note": false,
+     "key": "Tampa Bay beat Cleveland on Monday.",
+     "seg": "Tampa Bay beat Cleveland on Monday.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Tampa Bay beat Cleveland on Monday.",
+     "seg": "Tampa Bay beat Cleveland on Monday. (beat → beat (irrégulier))",
+     "method": "paren"
+    }
+   },
+   "63": {
+    "core": {
+     "has_note": false,
+     "key": "Fans watched three games on Tuesday night.",
+     "seg": "Fans watched three games on Tuesday night.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Fans watched three games on Tuesday night.",
+     "seg": "Fans watched three games on Tuesday night. (watch → watched (régulier))",
+     "method": "paren"
+    }
+   },
+   "64": {
+    "core": {
+     "has_note": false,
+     "key": "A",
+     "seg": "A",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "A",
+     "seg": "A (Le triple match d’ouverture : NBC et Peacock)",
+     "method": "paren"
+    }
+   },
+   "66": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (47 % utilisent l’IA pour costumes et décorations)",
+     "method": "paren"
+    }
+   },
+   "67": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Tesla et Meta : résultats mercredi après la clôture)",
+     "method": "paren"
+    }
+   },
+   "68": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (Avant la publication, les experts donnent des chiffres différents)",
+     "method": "paren"
+    }
+   },
+   "69": {
+    "core": {
+     "has_note": false,
+     "key": "stream",
+     "seg": "stream",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "stream",
+     "seg": "stream (stream = regarder en streaming)",
+     "method": "paren"
+    }
+   },
+   "70": {
+    "core": {
+     "has_note": false,
+     "key": "highlights",
+     "seg": "highlights",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "highlights",
+     "seg": "highlights (highlights = les meilleurs moments)",
+     "method": "paren"
+    }
+   },
+   "71": {
+    "core": {
+     "has_note": false,
+     "key": "viral",
+     "seg": "viral",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "viral",
+     "seg": "viral (go viral = devenir viral, faire le buzz)",
+     "method": "paren"
+    }
+   },
+   "72": {
+    "core": {
+     "has_note": false,
+     "key": "roster",
+     "seg": "roster",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "roster",
+     "seg": "roster (roster = la liste des joueurs)",
+     "method": "paren"
+    }
+   },
+   "73": {
+    "core": {
+     "has_note": false,
+     "key": "earnings",
+     "seg": "earnings",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "earnings",
+     "seg": "earnings (earnings = les résultats financiers)",
+     "method": "paren"
+    }
+   },
+   "75": {
+    "core": {
+     "has_note": false,
+     "key": "Tesla is reporting its results tonight.",
+     "seg": "Tesla is reporting its results tonight.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Tesla is reporting its results tonight.",
+     "seg": "Tesla is reporting its results tonight. (3e personne : is + -ing)",
+     "method": "paren"
+    }
+   },
+   "76": {
+    "core": {
+     "has_note": false,
+     "key": "The teams are playing 43 games this week.",
+     "seg": "The teams are playing 43 games this week.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "The teams are playing 43 games this week.",
+     "seg": "The teams are playing 43 games this week. (Pluriel : are + -ing)",
+     "method": "paren"
+    }
+   },
+   "77": {
+    "core": {
+     "has_note": false,
+     "key": "Fans are watching the tripleheader on their phones.",
+     "seg": "Fans are watching the tripleheader on their phones.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Fans are watching the tripleheader on their phones.",
+     "seg": "Fans are watching the tripleheader on their phones. (fans → are watching)",
+     "method": "paren"
+    }
+   },
+   "78": {
+    "core": {
+     "has_note": false,
+     "key": "Milwaukee is preparing for Game 1.",
+     "seg": "Milwaukee is preparing for Game 1.",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "Milwaukee is preparing for Game 1.",
+     "seg": "Milwaukee is preparing for Game 1. (prepare → is preparing)",
+     "method": "paren"
+    }
+   },
+   "79": {
+    "core": {
+     "has_note": false,
+     "key": "True",
+     "seg": "True",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "True",
+     "seg": "True (Le texte : beaucoup de jeunes fans découvrent le match en clip)",
+     "method": "paren"
+    }
+   },
+   "80": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Avant la publication, personne ne connaît les chiffres)",
+     "method": "paren"
+    }
+   },
+   "81": {
+    "core": {
+     "has_note": false,
+     "key": "False",
+     "seg": "False",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "False",
+     "seg": "False (Les listes viennent de Google (Frightgeist) et des magasins)",
+     "method": "paren"
+    }
+   },
+   "88": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (Les élections de mi-mandat décident du contrôle du Congrès)",
+     "method": "paren"
+    }
+   },
+   "90": {
+    "core": {
+     "has_note": false,
+     "key": "B",
+     "seg": "B",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "B",
+     "seg": "B (3,8 milliards : la publicité électorale au 12 octobre)",
+     "method": "paren"
+    }
+   },
+   "91": {
+    "core": {
+     "has_note": false,
+     "key": "C",
+     "seg": "C",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "C",
+     "seg": "C (En Floride, la période obligatoire commence samedi 24 octobre)",
+     "method": "paren"
+    }
+   },
+   "92": {
+    "core": {
+     "has_note": false,
+     "key": "more convenient",
+     "seg": "more convenient",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "more convenient",
+     "seg": "more convenient (convenient → more convenient)",
+     "method": "paren"
+    }
+   },
+   "93": {
+    "core": {
+     "has_note": false,
+     "key": "highest",
+     "seg": "highest",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "highest",
+     "seg": "highest (record = le plus haut de l’histoire)",
+     "method": "paren"
+    }
+   },
+   "94": {
+    "core": {
+     "has_note": false,
+     "key": "earlier",
+     "seg": "earlier",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "earlier",
+     "seg": "earlier (Le Texas commence le 19, la Floride le 24)",
+     "method": "paren"
+    }
+   },
+   "95": {
+    "core": {
+     "has_note": false,
+     "key": "smaller",
+     "seg": "smaller",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "smaller",
+     "seg": "smaller (218 − 214 = 4 < 10)",
+     "method": "paren"
+    }
+   },
+   "96": {
+    "core": {
+     "has_note": false,
+     "key": "incumbent",
+     "seg": "incumbent",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "incumbent",
+     "seg": "incumbent (incumbent = le sortant)",
+     "method": "paren"
+    }
+   },
+   "97": {
+    "core": {
+     "has_note": false,
+     "key": "margin",
+     "seg": "margin",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "margin",
+     "seg": "margin (margin = l’écart)",
+     "method": "paren"
+    }
+   },
+   "98": {
+    "core": {
+     "has_note": false,
+     "key": "turnout",
+     "seg": "turnout",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "turnout",
+     "seg": "turnout (turnout = la participation)",
+     "method": "paren"
+    }
+   },
+   "99": {
+    "core": {
+     "has_note": false,
+     "key": "campaign",
+     "seg": "campaign",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "campaign",
+     "seg": "campaign (campaign = la campagne)",
+     "method": "paren"
+    }
+   },
+   "100": {
+    "core": {
+     "has_note": false,
+     "key": "opened",
+     "seg": "opened",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "opened",
+     "seg": "opened (open → opened)",
+     "method": "paren"
+    }
+   },
+   "102": {
+    "core": {
+     "has_note": false,
+     "key": "beat",
+     "seg": "beat",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "beat",
+     "seg": "beat (beat → beat (inchangé))",
+     "method": "paren"
+    }
+   },
+   "103": {
+    "core": {
+     "has_note": false,
+     "key": "has",
+     "seg": "has",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "has",
+     "seg": "has (neither → has)",
+     "method": "paren"
+    }
+   },
+   "104": {
+    "core": {
+     "has_note": false,
+     "key": "no longer",
+     "seg": "no longer",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "no longer",
+     "seg": "no longer (no longer = ne… plus)",
+     "method": "paren"
+    }
+   },
+   "105": {
+    "core": {
+     "has_note": false,
+     "key": "head",
+     "seg": "head",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "head",
+     "seg": "head (fans → head (forme de base))",
+     "method": "paren"
+    }
+   },
+   "107": {
+    "core": {
+     "has_note": false,
+     "key": "spring",
+     "seg": "spring",
+     "method": "none"
+    },
+    "ed": {
+     "has_note": true,
+     "key": "spring",
+     "seg": "spring (spring forward = avancer)",
+     "method": "paren"
+    }
+   }
+  }
+ },
+ "2026-w43-en-zh-cn": {
+  "dir": "weekly-report-en-vol1",
+  "target": "en",
+  "native": "zh-cn",
+  "total": 149,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 62,
+  "ed_count": 62,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-es-de": {
+  "dir": "weekly-report-es-de",
+  "target": "es",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   5,
+   12,
+   14,
+   16,
+   17,
+   25,
+   26,
+   27,
+   28,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   64,
+   73,
+   75,
+   83,
+   95,
+   96,
+   101,
+   105,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-es-en": {
+  "dir": "weekly-report-es-en",
+  "target": "es",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   12,
+   14,
+   16,
+   17,
+   20,
+   57,
+   73,
+   75,
+   83,
+   95,
+   96,
+   101,
+   102,
+   105,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-es-fr": {
+  "dir": "weekly-report-es-fr",
+  "target": "es",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   5,
+   12,
+   14,
+   16,
+   17,
+   25,
+   26,
+   27,
+   28,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   73,
+   75,
+   83,
+   95,
+   96,
+   101,
+   102,
+   105,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-es-zh-cn": {
+  "dir": "weekly-report-es-vol1",
+  "target": "es",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-fr-de": {
+  "dir": "weekly-report-fr-de",
+  "target": "fr",
+  "native": "de",
+  "total": 145,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 67,
+  "ed_count": 67,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   71,
+   72,
+   73,
+   132,
+   145
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-fr-en": {
+  "dir": "weekly-report-fr-en",
+  "target": "fr",
+  "native": "en",
+  "total": 145,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 67,
+  "ed_count": 67,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   71,
+   72,
+   73,
+   132,
+   145
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-fr-es": {
+  "dir": "weekly-report-fr-es",
+  "target": "fr",
+  "native": "es",
+  "total": 145,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 67,
+  "ed_count": 67,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   71,
+   72,
+   73,
+   132,
+   145
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-fr-zh-cn": {
+  "dir": "weekly-report-vol4",
+  "target": "fr",
+  "native": "zh-cn",
+  "total": 145,
+  "how": "joined",
+  "ref_how": "joined",
+  "core_count": 67,
+  "ed_count": 67,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-it-de": {
+  "dir": "weekly-report-it-de",
+  "target": "it",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   12,
+   14,
+   16,
+   37,
+   58,
+   72,
+   78,
+   101,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-it-en": {
+  "dir": "weekly-report-it-en",
+  "target": "it",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   12,
+   37,
+   58,
+   72,
+   78,
+   88,
+   98,
+   101,
+   115,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-it-es": {
+  "dir": "weekly-report-it-es",
+  "target": "it",
+  "native": "es",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   12,
+   16,
+   17,
+   19,
+   37,
+   58,
+   72,
+   78,
+   85,
+   101,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-it-fr": {
+  "dir": "weekly-report-it-fr",
+  "target": "it",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   1,
+   12,
+   37,
+   58,
+   72,
+   78,
+   101,
+   115,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-it-zh-cn": {
+  "dir": "weekly-report-it-vol1",
+  "target": "it",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ja-de": {
+  "dir": "weekly-report-ja-de",
+  "target": "ja",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   7,
+   25,
+   26,
+   27,
+   28,
+   29,
+   43,
+   44,
+   45,
+   46,
+   65,
+   78,
+   83,
+   95,
+   113,
+   115,
+   120,
+   137,
+   138,
+   140,
+   141,
+   142,
+   143,
+   144,
+   146,
+   147
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ja-en": {
+  "dir": "weekly-report-ja-en",
+  "target": "ja",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   7,
+   25,
+   26,
+   27,
+   28,
+   29,
+   43,
+   44,
+   45,
+   46,
+   65,
+   78,
+   83,
+   95,
+   113,
+   115,
+   120,
+   137,
+   138,
+   140,
+   141,
+   142,
+   143,
+   144,
+   146,
+   147
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ja-es": {
+  "dir": "weekly-report-ja-es",
+  "target": "ja",
+  "native": "es",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   7,
+   29,
+   65,
+   78,
+   83,
+   95,
+   113,
+   115,
+   120,
+   137,
+   138,
+   140,
+   146,
+   147
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ja-fr": {
+  "dir": "weekly-report-ja-fr",
+  "target": "ja",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   7,
+   25,
+   26,
+   27,
+   28,
+   29,
+   43,
+   44,
+   45,
+   46,
+   65,
+   78,
+   83,
+   95,
+   113,
+   115,
+   120,
+   137,
+   138,
+   140,
+   141,
+   142,
+   143,
+   144,
+   146,
+   147
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ja-zh-cn": {
+  "dir": "weekly-report-ja-vol1",
+  "target": "ja",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ko-de": {
+  "dir": "weekly-report-ko-de",
+  "target": "ko",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   4,
+   9,
+   25,
+   26,
+   27,
+   28,
+   43,
+   44,
+   45,
+   46,
+   61,
+   62,
+   63,
+   64,
+   66,
+   72,
+   99,
+   109,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ko-en": {
+  "dir": "weekly-report-ko-en",
+  "target": "ko",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   4,
+   9,
+   25,
+   26,
+   27,
+   28,
+   43,
+   44,
+   45,
+   46,
+   61,
+   62,
+   63,
+   64,
+   66,
+   99,
+   109,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ko-fr": {
+  "dir": "weekly-report-ko-fr",
+  "target": "ko",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   4,
+   9,
+   25,
+   26,
+   27,
+   28,
+   43,
+   44,
+   45,
+   46,
+   61,
+   62,
+   63,
+   64,
+   66,
+   99,
+   109,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   149
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ko-zh-cn": {
+  "dir": "weekly-report-ko-vol1",
+  "target": "ko",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-nl-de": {
+  "dir": "weekly-report-nl-de",
+  "target": "nl",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   5,
+   11,
+   19,
+   20,
+   24,
+   35,
+   56,
+   66,
+   70,
+   71,
+   73,
+   74,
+   78,
+   82,
+   83,
+   94,
+   109,
+   127,
+   137,
+   138,
+   146
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-nl-en": {
+  "dir": "weekly-report-nl-en",
+  "target": "nl",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   2,
+   5,
+   11,
+   19,
+   20,
+   24,
+   35,
+   66,
+   70,
+   71,
+   73,
+   74,
+   78,
+   82,
+   83,
+   85,
+   94,
+   109,
+   127,
+   137,
+   138,
+   146
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-nl-es": {
+  "dir": "weekly-report-nl-es",
+  "target": "nl",
+  "native": "es",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   5,
+   11,
+   19,
+   20,
+   24,
+   35,
+   56,
+   66,
+   70,
+   71,
+   73,
+   74,
+   78,
+   82,
+   83,
+   94,
+   109,
+   127,
+   137,
+   138,
+   146
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-nl-fr": {
+  "dir": "weekly-report-nl-fr",
+  "target": "nl",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   5,
+   11,
+   17,
+   19,
+   20,
+   24,
+   35,
+   66,
+   70,
+   71,
+   73,
+   74,
+   78,
+   82,
+   83,
+   94,
+   103,
+   109,
+   127,
+   137,
+   138,
+   146
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-nl-zh-cn": {
+  "dir": "weekly-report-nl-vol1",
+  "target": "nl",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-pt-de": {
+  "dir": "weekly-report-pt-de",
+  "target": "pt",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   3,
+   8,
+   23,
+   58,
+   98,
+   101,
+   137,
+   138,
+   146,
+   147,
+   148
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-pt-en": {
+  "dir": "weekly-report-pt-en",
+  "target": "pt",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   1,
+   3,
+   8,
+   25,
+   26,
+   27,
+   28,
+   52,
+   53,
+   54,
+   55,
+   58,
+   97,
+   98,
+   101,
+   137,
+   138,
+   141,
+   142,
+   143,
+   144,
+   146,
+   147,
+   148
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-pt-es": {
+  "dir": "weekly-report-pt-es",
+  "target": "pt",
+  "native": "es",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   3,
+   8,
+   23,
+   58,
+   98,
+   101,
+   137,
+   138,
+   146,
+   147,
+   148
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-pt-fr": {
+  "dir": "weekly-report-pt-fr",
+  "target": "pt",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   2,
+   3,
+   4,
+   5,
+   8,
+   23,
+   38,
+   58,
+   98,
+   101,
+   137,
+   138,
+   146,
+   147,
+   148
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-pt-zh-cn": {
+  "dir": "weekly-report-pt-vol1",
+  "target": "pt",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ru-de": {
+  "dir": "weekly-report-ru-de",
+  "target": "ru",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   54,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ru-en": {
+  "dir": "weekly-report-ru-en",
+  "target": "ru",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   54,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ru-es": {
+  "dir": "weekly-report-ru-es",
+  "target": "ru",
+  "native": "es",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   54,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ru-fr": {
+  "dir": "weekly-report-ru-fr",
+  "target": "ru",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [
+   54,
+   137,
+   138
+  ],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-ru-zh-cn": {
+  "dir": "weekly-report-ru-vol1",
+  "target": "ru",
+  "native": "zh-cn",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-cn-de": {
+  "dir": "weekly-report-zh-cn-de",
+  "target": "zh-cn",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-cn-en": {
+  "dir": "weekly-report-zhcn-vol1",
+  "target": "zh-cn",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-cn-fr": {
+  "dir": "weekly-report-zhcn-fr",
+  "target": "zh-cn",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-tw-de": {
+  "dir": "weekly-report-zh-tw-de",
+  "target": "zh-tw",
+  "native": "de",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-tw-en": {
+  "dir": "weekly-report-zhtw-vol1",
+  "target": "zh-tw",
+  "native": "en",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ },
+ "2026-w43-zh-tw-fr": {
+  "dir": "weekly-report-zh-tw-fr",
+  "target": "zh-tw",
+  "native": "fr",
+  "total": 150,
+  "how": "lines",
+  "ref_how": "lines",
+  "core_count": 150,
+  "ed_count": 150,
+  "missing": [],
+  "extra": [],
+  "uncertain": [],
+  "keydiff_note_items": [],
+  "status": "CLEAN",
+  "_detail": {}
+ }
+}
