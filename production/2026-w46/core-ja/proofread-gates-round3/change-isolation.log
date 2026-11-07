@@ -1,0 +1,145 @@
+zh-cn: before=1302 after=1302 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — 在酉の市买熊手')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — 在酉の市买熊手')]
+de: before=1329 after=1330 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Einen Kumade auf dem Tori-no-ichi kaufen')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Einen Kumade auf dem Tori-no-ichi'), ('p8-tesuto.svg', 'kaufen')]
+en: before=1321 after=1321 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Buying a kumade at Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Buying a kumade at Tori-no-ichi')]
+es: before=1336 after=1336 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Comprar un kumade en Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Comprar un kumade en Tori-no-ichi')]
+fr: before=1326 after=1326 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Acheter un kumade à Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Acheter un kumade à Tori-no-ichi')]
+it: before=1333 after=1333 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Comprare un kumade a Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Comprare un kumade a Tori-no-ichi')]
+ko: before=1305 after=1305 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — 도리노이치에서 구마데 사기')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — 도리노이치에서 구마데 사기')]
+nl: before=1334 after=1334 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Een kumade kopen op Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Een kumade kopen op Tori-no-ichi')]
+pt: before=1336 after=1336 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Comprar um kumade em Tori-no-ichi')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Comprar um kumade em Tori-no-ichi')]
+ru: before=1337 after=1337 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — Покупка кумадэ на Тори-но-ити')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — Покупка кумадэ на Тори-но-ити')]
+zh-tw: before=1299 after=1299 removed=[('p8-tesuto.svg', '42. 熊手を買います。 — 在酉の市買熊手')] added=[('p8-tesuto.svg', '42. 酉の市で熊手を買います。 — 在酉の市買熊手')]
+=== textmd diffs vs pre-fix copies ===
+zh-cn: textmd lines before=1329 after=1329
+    --- 
+    +++ 
+    @@ -1209,7 +1209,7 @@
+     39. 七五三は子どものお祝いです。 — 主语＋说明
+     40. 神社へお参りに行きます。 — 地点＋へ＋动词
+     41. 千歳飴をもらいます。 — 宾语＋动词
+    -42. 熊手を買います。 — 在酉の市买熊手
+    +42. 酉の市で熊手を買います。 — 在酉の市买熊手
+     43. b — 七五三＝3岁5岁7岁孩子的庆祝 b
+     44. d — 千歳飴＝红白长糖 d
+     45. c — 熊手＝竹耙吉祥物 c
+de: textmd lines before=1356 after=1357
+    --- 
+    +++ 
+    @@ -1225,7 +1225,8 @@
+     39. 七五三は子どものお祝いです。 — Subjekt + Beschreibung
+     40. 神社へお参りに行きます。 — Ort + へ + Verb
+     41. 千歳飴をもらいます。 — Objekt + Verb
+    -42. 熊手を買います。 — Einen Kumade auf dem Tori-no-ichi kaufen
+    +42. 酉の市で熊手を買います。 — Einen Kumade auf dem Tori-no-ichi
+    +kaufen
+     43. b — 七五三 = ein Fest für Kinder von 3, 5 und 7 Jahren b
+     44. d — 千歳飴 = rot-weißes langes Bonbon d
+     45. c — 熊手 = Glücksrechen c
+en: textmd lines before=1348 after=1348
+    --- 
+    +++ 
+    @@ -1220,7 +1220,7 @@
+     39. 七五三は子どものお祝いです。 — subject + description
+     40. 神社へお参りに行きます。 — place + へ + verb
+     41. 千歳飴をもらいます。 — object + verb
+    -42. 熊手を買います。 — Buying a kumade at Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Buying a kumade at Tori-no-ichi
+     43. b — 七五三 = a celebration for children aged 3, 5 and 7 · b
+     44. d — 千歳飴 = red-and-white long candy · d
+     45. c — 熊手 = a lucky-rake charm · c
+es: textmd lines before=1363 after=1363
+    --- 
+    +++ 
+    @@ -1227,7 +1227,7 @@
+     39. 七五三は子どものお祝いです。 — sujeto + descripción
+     40. 神社へお参りに行きます。 — lugar + へ + verbo
+     41. 千歳飴をもらいます。 — objeto + verbo
+    -42. 熊手を買います。 — Comprar un kumade en Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Comprar un kumade en Tori-no-ichi
+     43. b — 七五三 = una celebración para niños de 3, 5 y 7 años b
+     44. d — 千歳飴 = caramelo largo rojo y blanco d
+     45. c — 熊手 = rastrillo de la suerte c
+fr: textmd lines before=1353 after=1353
+    --- 
+    +++ 
+    @@ -1222,7 +1222,7 @@
+     39. 七五三は子どものお祝いです。 — sujet + description
+     40. 神社へお参りに行きます。 — lieu + へ + verbe
+     41. 千歳飴をもらいます。 — objet + verbe
+    -42. 熊手を買います。 — Acheter un kumade à Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Acheter un kumade à Tori-no-ichi
+     43. b — 七五三 = une fête pour les enfants de 3, 5 et 7 ans b
+     44. d — 千歳飴 = long bonbon rouge et blanc d
+     45. c — 熊手 = râteau porte-bonheur c
+it: textmd lines before=1360 after=1360
+    --- 
+    +++ 
+    @@ -1225,7 +1225,7 @@
+     39. 七五三は子どものお祝いです。 — soggetto + descrizione
+     40. 神社へお参りに行きます。 — luogo + へ + verbo
+     41. 千歳飴をもらいます。 — oggetto + verbo
+    -42. 熊手を買います。 — Comprare un kumade a Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Comprare un kumade a Tori-no-ichi
+     43. b — 七五三 = una festa per bambini di 3, 5 e 7 anni b
+     44. d — 千歳飴 = lunga caramella rossa e bianca d
+     45. c — 熊手 = rastrello fortunato c
+ko: textmd lines before=1332 after=1332
+    --- 
+    +++ 
+    @@ -1211,7 +1211,7 @@
+     39. 七五三は子どものお祝いです。 — 주어 + 설명
+     40. 神社へお参りに行きます。 — 장소 + へ + 동사
+     41. 千歳飴をもらいます。 — 목적어 + 동사
+    -42. 熊手を買います。 — 도리노이치에서 구마데 사기
+    +42. 酉の市で熊手を買います。 — 도리노이치에서 구마데 사기
+     43. b — 七五三 = 3세, 5세, 7세 아이들을 위한 축하 b
+     44. d — 千歳飴 = 길고 붉고 흰 사탕 d
+     45. c — 熊手 = 행운의 갈퀴 c
+nl: textmd lines before=1361 after=1361
+    --- 
+    +++ 
+    @@ -1228,7 +1228,7 @@
+     39. 七五三は子どものお祝いです。 — onderwerp + beschrijving
+     40. 神社へお参りに行きます。 — plaats + へ + werkwoord
+     41. 千歳飴をもらいます。 — voorwerp + werkwoord
+    -42. 熊手を買います。 — Een kumade kopen op Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Een kumade kopen op Tori-no-ichi
+     43. b — 七五三 = een feest voor kinderen van 3, 5 en 7 jaar b
+     44. d — 千歳飴 = lang rood-wit snoepje d
+     45. c — 熊手 = gelukshark c
+pt: textmd lines before=1363 after=1363
+    --- 
+    +++ 
+    @@ -1228,7 +1228,7 @@
+     39. 七五三は子どものお祝いです。 — sujeito + descrição
+     40. 神社へお参りに行きます。 — lugar + へ + verbo
+     41. 千歳飴をもらいます。 — objeto + verbo
+    -42. 熊手を買います。 — Comprar um kumade em Tori-no-ichi
+    +42. 酉の市で熊手を買います。 — Comprar um kumade em Tori-no-ichi
+     43. b — 七五三 = uma celebração para crianças de 3, 5 e 7 anos b
+     44. d — 千歳飴 = doce comprido vermelho e branco d
+     45. c — 熊手 = ancinho da sorte c
+ru: textmd lines before=1364 after=1364
+    --- 
+    +++ 
+    @@ -1234,7 +1234,7 @@
+     39. 七五三は子どものお祝いです。 — подлежащее + описание
+     40. 神社へお参りに行きます。 — место + へ + глагол
+     41. 千歳飴をもらいます。 — дополнение + глагол
+    -42. 熊手を買います。 — Покупка кумадэ на Тори-но-ити
+    +42. 酉の市で熊手を買います。 — Покупка кумадэ на Тори-но-ити
+     43. b — 七五三 = праздник для детей 3, 5 и 7 лет b
+     44. d — 千歳飴 = длинная красно-белая конфета d
+     45. c — 熊手 = грабли удачи c
+zh-tw: textmd lines before=1326 after=1326
+    --- 
+    +++ 
+    @@ -1206,7 +1206,7 @@
+     39. 七五三は子どものお祝いです。 — 主語＋說明
+     40. 神社へお参りに行きます。 — 地點＋へ＋動詞
+     41. 千歳飴をもらいます。 — 賓語＋動詞
+    -42. 熊手を買います。 — 在酉の市買熊手
+    +42. 酉の市で熊手を買います。 — 在酉の市買熊手
+     43. b — 七五三＝3歲5歲7歲孩子的慶祝 b
+     44. d — 千歳飴＝紅白長糖 d
+     45. c — 熊手＝竹耙吉祥物 c

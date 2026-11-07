@@ -1,0 +1,11 @@
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ko/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/freeze-ko.json
+exit=0
+p1: +24 strings / -26 strings; CJK core 196 -> edition 219; added CJK chars: 219 {'매': 1, '주': 7, '발': 1, '행': 2, '네': 7, '덜': 7, '란': 7, '드': 7, '인': 1, '이': 7}
+p2: +37 strings / -34 strings; CJK core 220 -> edition 301; added CJK chars: 301 {'생': 1, '활': 1, '성': 3, '마': 5, '르': 5, '틴': 3, '의': 2, '날': 1, '등': 6, '롱': 4}
+p3: +28 strings / -27 strings; CJK core 141 -> edition 206; added CJK chars: 206 {'문': 2, '화': 1, '신': 1, '터': 1, '클': 1, '라': 1, '스': 4, '뉴': 2, '와': 1, '『': 1}
+p4: +25 strings / -26 strings; CJK core 136 -> edition 188; added CJK chars: 188 {'스': 3, '포': 1, '츠': 1, '오': 1, '라': 1, '녜': 1, '와': 1, '네': 3, '이': 3, '션': 1}
+p5: +38 strings / -36 strings; CJK core 217 -> edition 291; added CJK chars: 291 {'청': 1, '소': 5, '년': 1, '로': 5, '빈': 11, '슨': 1, '신': 3, '발': 3, '과': 2, '원': 4}
+p6: +32 strings / -31 strings; CJK core 184 -> edition 261; added CJK chars: 261 {'심': 2, '층': 1, '성': 1, '마': 1, '르': 2, '틴': 1, '의': 1, '날': 1, '이': 6, '냐': 2}
+p7: +43 strings / -41 strings; CJK core 379 -> edition 438; added CJK chars: 438 {'언': 2, '어': 14, '에': 14, '집': 2, '중': 1, '세': 3, '단': 2, '계': 2, '가': 6, '지': 5}
+p8: +184 strings / -182 strings; CJK core 1144 -> edition 1677; added CJK chars: 1677 {'시': 20, '험': 1, '과': 5, '정': 8, '답': 6, '면': 16, '문': 9, '장': 10, '만': 7, '들': 11}
+TOTAL added CJK characters: 3581

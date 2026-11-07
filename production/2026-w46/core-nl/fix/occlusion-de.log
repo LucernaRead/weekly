@@ -1,0 +1,4 @@
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/occlusion_audit.py /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-de --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/occlusion-de.json
+exit=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-de/svg: 0 flags 

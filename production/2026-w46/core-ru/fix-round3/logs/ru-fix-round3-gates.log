@@ -1,0 +1,415 @@
+=== WEBPDF CHECK it (existing artifacts, webpdf.py already run) ===
+WEBPDF weekly-report-w46-ru-it pages=8 print=15000295B web=2310997B pdftotext_print=55066 web=55066 identical=YES
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+DXTZGS+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes      8  0
+IHBAVE+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes     13  0
+ZPFUWA+LucernaUnifrakturMaguntia-Regular TrueType          WinAnsi          yes yes yes     18  0
+KOMMXF+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes     22  0
+BFODZP+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes     27  0
+HXDAZQ+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes     37  0
+NXMWUO+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes     42  0
+BLJFUP+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes     47  0
+CJQEMT+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes     52  0
+CFIVRU+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes     60  0
+JAMOAN+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes     65  0
+JRHWRT+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes     70  0
+PZKQWW+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes     75  0
+DEUMWC+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes     84  0
+SYIHAF+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes     89  0
+OPRZRG+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes     94  0
+JJNTLH+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes     99  0
+PHGESH+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes    108  0
+REGVJR+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes    113  0
+IQKFLA+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes    118  0
+ZIVFHB+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes    123  0
+CYKHOU+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes    131  0
+YBTUWN+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes    136  0
+WJMOZO+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes    141  0
+YDYWIR+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes    146  0
+ZXPDJZ+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes    154  0
+TJDHNI+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes    159  0
+GJMRMQ+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes    164  0
+MWYDSV+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes    169  0
+QXAVRN+LucernaNotoSansCJKSC-Bold     CID Type 0C       Identity-H       yes yes yes    177  0
+UATCOK+LucernaNotoSerifCJKSC-Bold    CID Type 0C       Identity-H       yes yes yes    182  0
+SJRMYJ+LucernaNotoSansCJKSC-Regular  CID Type 0C       Identity-H       yes yes yes    187  0
+UUNXZE+LucernaNotoSerifCJKSC-Regular CID Type 0C       Identity-H       yes yes yes    192  0
+=== OCCLUSION it ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+../files/weekly-report-w46-ru-it/svg: 0 flags 
+occlusion exit=0
+=== CHECK_CORE it ===
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Эта неделя в России — обычная
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] В среду, 11 ноября, — день распродажи 11.11: пик скидок
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Это профессиональный праздник: выходного в этот день нет, по
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие: в Москве солнце садится око
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После этого тура — пауза: следующий, 15-й тур, будет только 
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Посылку надо отследить, получить и проверить
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году, и именно они задают ритм
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 10476
+orphan line-starts: []
+same-baseline collisions: [] total 0
+check_core exit=0
+=== P8 EXTRACT CORE ===
+../files/weekly-report-w46-ru-core/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8-extract exit=0
+=== P8 COMPARE it ===
+core    ../files/weekly-report-w46-ru-core/svg/p8-test.svg: 150 noted
+edition ../files/weekly-report-w46-ru-it/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 exit=0
+{
+ "status": "CLEAN",
+ "total": 150,
+ "how": "lines",
+ "ref_how": "lines",
+ "core_count": 150,
+ "edition_count": 150,
+ "core_set": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150
+ ],
+ "edition_set": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150
+ ],
+ "missing": [],
+ "extra": [],
+ "uncertain": [],
+ "keydiff": [
+  137,
+  138,
+  139,
+  140
+ ]
+}=== FREEZE DIFF it ===
+p1: +25 strings / -24 strings; CJK core 131 -> edition 0; added CJK chars: 0 
+p2: +36 strings / -32 strings; CJK core 186 -> edition 0; added CJK chars: 0 
+p3: +24 strings / -22 strings; CJK core 134 -> edition 0; added CJK chars: 0 
+p4: +25 strings / -22 strings; CJK core 133 -> edition 0; added CJK chars: 0 
+p5: +25 strings / -22 strings; CJK core 116 -> edition 0; added CJK chars: 0 
+p6: +32 strings / -30 strings; CJK core 149 -> edition 0; added CJK chars: 0 
+p7: +43 strings / -38 strings; CJK core 324 -> edition 0; added CJK chars: 0 
+p8: +171 strings / -160 strings; CJK core 883 -> edition 0; added CJK chars: 0 
+TOTAL added CJK characters: 0
+freeze exit=0
+=== FREEZE WORD ANALYSIS it ===
+word-analysis exit=0
+p6-razbor.svg CYR-WORD REM: {'редакции': 1, 'не': 1, 'УЧЕБНЫЕ': 1, 'ДАННЫЕ': 1, 'Это': 1, 'учебный': 1, 'опрос': 1, 'для': 1, 'упражнений': 1, 'настоящая': 1, 'статистика': 1}
+p7-yazyk.svg CYR-WORD ADD: {}
+p7-yazyk.svg CYR-WORD REM: {'Три': 1, 'уровня': 1, 'три': 1, 'темы': 1, 'миллиона': 1}
+p8-test.svg CYR-WORD ADD: {}
+p8-test.svg CYR-WORD REM: {'Большой': 1, 'тест': 1, 'недели': 1, 'все': 1, 'ответы': 1, 'можно': 1}
+TOTAL ADD: {}
+TOTAL REM: {'ПО': 1, 'РУССКИ': 1, 'ГАЗЕТА': 1, 'ЕЖЕНЕДЕЛЬНАЯ': 1, 'ДЛЯ': 1, 'ИЗУЧАЮЩИХ': 1, 'РУССКИЙ': 1, 'ЯЗЫК': 1, 'НАСТОЯЩАЯ': 1, 'РОССИЯ': 1, 'редакции': 1, 'не': 1, 'УЧЕБНЫЕ': 1, 'ДАННЫЕ': 1, 'Это': 1, 'учебный': 1, 'опрос': 1, 'для': 1, 'упражнений': 1, 'настоящая': 1, 'статистика': 1, 'Три': 1, 'уровня': 1, 'три': 1, 'темы': 1, 'миллиона': 1, 'Большой': 1, 'тест': 1, 'недели': 1, 'все': 1, 'ответы': 1, 'можно': 1}
+CHAR TOTALS cyr=16860 han=0 kana=0 hangul=0
+CORE HAN NODES SURVIVING VERBATIM: 0
+ADDED HAN CHARS (not in core): 
+SIMPLIFIED-ONLY among added: 
+TRADITIONAL-ONLY among added: 
+=== P6 CHART it ===
+weekly-report-w46-ru-it: bars=[600.0, 343.0, 286.0, 200.0] pct_labels=['42', '24', '20', '14'] sum=100
+chart exit=0
+GATES DONE

@@ -1,0 +1,20 @@
+== W46 JA core gates (2026-11-02) ==
+occlusion_audit: 0 flags (ja-core-occlusion5.json)
+p8.py extract --total 150: 150/150
+freeze.py baseline: 8/8 byte-identical
+webpdf: Lucerna-VOL3-web.pdf 2496763 B, pdftotext 44838 B == print PDF
+exercises: 150 (A2 46 / B1 75 / B2 29)
+== W46 JA-EN gates ==
+occlusion: 0 flags
+p8 compare: CLEAN keydiff=[137,138]
+freeze --strict-cjk: 0 added CJK
+webpdf: 2318038 B, pdftotext 46148 == print
+exercises: 150
+
+--- 2026-11-02 (session 2) ---
+ZH-TW: generator rerun (AST JoinedStr fragment pass + 2 mixed-note MAP additions, 179 entries); run.py TOTAL 150 (A2 46/B1 75/B2 29), P8 keys end y=2382, P7 teaser band bottom ~2442. Occlusion 0 flags (ja-zh-tw-occlusion.json, selftest OK). p8 compare CLEAN 150/150 keydiff=[138] (ja-zh-tw-p8compare.json). Freeze --strict-cjk FAIL 839 added chars, ADJUDICATED: 0 unexplained, 0 SC-only chars remain (ja-zh-tw-freeze.json). Web PDF Lucerna-VOL3-ZHTW-web.pdf 2,875,035 bytes, 44,817 pdftotext bytes, identical to print text. Print PDF Lucerna-VOL3-ZHTW.pdf 27,063,356 bytes. Visual: P1/P7/P8 checked (TC face renders).
+PT: map title fix "Números semanais" (400.3px fits 412px budget); regenerated + rebuilt + re-rendered; occlusion 0 flags, p8 CLEAN keydiff=[137,138], freeze strict-CJK 0 (ja-pt-occlusion/p8compare/freeze.json). Print PDF Lucerna-VOL3-PT.pdf 28,727,056 bytes. Visual P1 checked (new title fits).
+DE: stale P7 SVG found (standalone content7.py debug run 14:23, numbers 1-12); full clean rebuild via gen+transform+run+render; occlusion 0 flags, p8 CLEAN keydiff=[137,138], freeze strict-CJK 0 (ja-de-*.json re-recorded). Print PDF 29,499,997 bytes (same as good 14:11 render). Web PDF 2,366,003 bytes, 46,990 pdftotext bytes, IDENTICAL to print text. text.md regenerated (46,348 bytes).
+FR/ES/IT/NL/RU/KO: web PDFs + text.md built; web text byte-identical to print text (pdftotext diff, except DE handled above). Sizes: FR 2,344,132 / ES 2,346,159 / IT 2,337,478 / NL 2,340,936 / RU 2,254,301 / KO 2,395,649 bytes, all < 7 MB.
+Edition files: ABSTRACT.txt + WEEKLY-KIT.md written for de/fr/es/it/pt/nl/ru/ko/zh-tw (EN + core already done). Core SVGs verified byte-identical before/after fan-out work (freeze baselines + final md5 check).
+Final: freeze.py baseline re-run 2026-11-02 — 8/8 SVGs byte-identical (sha256), core integrity unchanged by the run. Core SVG mtimes all 12:40-12:41 (original core build, pre-fan-out).

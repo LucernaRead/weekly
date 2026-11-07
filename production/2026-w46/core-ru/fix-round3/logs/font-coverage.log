@@ -1,0 +1,21 @@
+cmap ('Noto Sans CJK SC', 'regular'): 44810 chars from /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc face 2
+cmap ('Noto Sans CJK SC', 'bold'): 44810 chars from /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc face 2
+cmap ('Noto Serif CJK SC', 'regular'): 44777 chars from /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc face 2
+cmap ('Noto Serif CJK SC', 'bold'): 44777 chars from /usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc face 2
+cmap ('UnifrakturMaguntia', 'regular'): 247 chars from /home/hatch/.local/share/fonts/UnifrakturMaguntia.ttf face 0
+cmap ('UnifrakturMaguntia', 'bold'): 247 chars from /home/hatch/.local/share/fonts/UnifrakturMaguntia.ttf face 0
+
+Distinct rendered chars (excl. whitespace): 156
+  Noto Sans CJK SC bold: 94 distinct chars
+  Noto Sans CJK SC regular: 132 distinct chars
+  Noto Serif CJK SC bold: 73 distinct chars
+  Noto Serif CJK SC regular: 141 distinct chars
+  UnifrakturMaguntia regular: 7 distinct chars
+
+MISSING-GLYPH CHARS: 0
+
+CONTROL š U+0161 in Serif SC cmap union: False (expect False)
+CONTROL š U+0161 in Sans SC cmap union: False
+CONTROL š present in current it SVGs: False
+
+SWEEP RESULT: CLEAN — no missing glyphs

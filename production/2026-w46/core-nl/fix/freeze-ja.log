@@ -1,0 +1,11 @@
+$ /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/tools/freeze.py diff --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-core/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/freeze-ja.json
+exit=0
+p1: +26 strings / -26 strings; CJK core 196 -> edition 280; added CJK chars: 232 {'毎': 1, '週': 7, '号': 2, 'オ': 7, 'ラ': 12, 'ン': 12, 'ダ': 8, 'が': 3, '読': 4, 'ん': 2}
+p2: +39 strings / -33 strings; CJK core 220 -> edition 341; added CJK chars: 293 {'聖': 3, 'マ': 5, 'ル': 4, 'テ': 3, 'ィ': 3, 'ン': 18, '祭': 2, 'ラ': 10, 'タ': 5, 'と': 4}
+p3: +30 strings / -28 strings; CJK core 141 -> edition 220; added CJK chars: 177 {'シ': 1, 'ン': 3, 'タ': 1, 'ク': 1, 'ラ': 3, 'ー': 9, 'ス': 3, '・': 1, 'ニ': 2, 'ュ': 2}
+p4: +28 strings / -28 strings; CJK core 136 -> edition 200; added CJK chars: 172 {'ス': 1, 'ポ': 1, 'ー': 10, 'ツ': 1, 'オ': 3, 'ラ': 3, 'ニ': 1, 'エ': 1, 'と': 1, 'ネ': 1}
+p5: +39 strings / -37 strings; CJK core 217 -> edition 313; added CJK chars: 264 {'若': 1, 'ロ': 1, 'ビ': 1, 'ン': 5, 'ソ': 2, '、': 2, '靴': 3, 'と': 3, '願': 4, 'い': 8}
+p6: +35 strings / -33 strings; CJK core 184 -> edition 289; added CJK chars: 245 {'掘': 1, 'り': 1, '聖': 1, 'マ': 1, 'ル': 2, 'テ': 1, 'ィ': 2, 'ン': 4, '祭': 1, 'か': 6}
+p7: +44 strings / -41 strings; CJK core 379 -> edition 487; added CJK chars: 382 {'語': 7, 'に': 4, '注': 1, '目': 1, 'レ': 2, 'ベ': 1, 'ル': 4, '、': 11, 'つ': 2, 'の': 16}
+p8: +187 strings / -182 strings; CJK core 1144 -> edition 1849; added CJK chars: 1576 {'テ': 19, 'ス': 36, 'ト': 20, 'と': 18, '解': 4, 'ペ': 14, 'ー': 54, 'ジ': 19, '文': 8, 'を': 22}
+TOTAL added CJK characters: 3341

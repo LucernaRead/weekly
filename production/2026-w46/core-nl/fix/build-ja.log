@@ -1,0 +1,73 @@
+
+===== run.py exit=0 =====
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1452 (bottom 1828)
+  flow[P1-extra] ended col 0/0 y=2264 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1458 (bottom 1540)
+P2 col3 ends 1450.6
+  flow[P2-ex] ended col 3/3 y=2407 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 2/2 y=391 (bottom 1540)
+P3 col3 ends 1137.1
+  flow[P3-ex] ended col 2/3 y=2407 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=1015 (bottom 1560)
+P4 col3 ends 1129.6
+  flow[P4-ex] ended col 2/3 y=2435 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1505 (bottom 1560)
+P5 col3 ends 965.5
+  flow[P5-ex] ended col 2/3 y=2288 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=391 (bottom 1560)
+P6 chart ends 718 content to 740.12
+P6 col3 ends 1082.5
+  flow[P6-ex] ended col 3/3 y=1926 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1282 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1282 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1279 (bottom 1560)
+P7 col3 ends 1928.0
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=950 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2565 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 47, 'B1': 72, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 89
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 47, 'B1': 72, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'文の完成': 65, '選択問題': 44, '対応付け': 8, '正誤判断': 7, '文を作る': 8, '穴埋め選択': 13, '翻訳': 4, '作文': 1}
+ALL DONE
+
+===== render.py exit=0 =====
+card: p1-voorpagina.png
+card: p2-leven.png
+card: p3-cultuur.png
+card: p4-sport.png
+card: p5-jongeren.png
+card: p6-verdieping.png
+card: p7-taal.png
+card: p8-toets.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/De-Lucerna-VOL3-JA.pdf 19287942
+
+===== webpdf.py exit=0 =====
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/De-Lucerna-VOL3-JA-web.pdf: 1375362 bytes, 47973 text bytes
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/svg
+482 distinct chars; families: ['Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKJP-Regular: 191872 bytes
+  font LucernaNotoSansCJKJP-Bold: 195900 bytes
+  font LucernaNotoSerifCJKJP-Regular: 279796 bytes
+  font LucernaNotoSerifCJKJP-Bold: 283444 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29472 bytes
+
+===== export_text.py exit=0 =====
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/2026-w46-nl-ja.text.md: 150 exercises, 33220 bytes

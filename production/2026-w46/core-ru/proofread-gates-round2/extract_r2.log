@@ -1,0 +1,74 @@
+core p8 key lines: 150 range: 1 150
+de p8 key lines: 150 range: 1 150
+en p8 key lines: 150 range: 1 150
+es p8 key lines: 150 range: 1 150
+fr p8 key lines: 150 range: 1 150
+it p8 key lines: 150 range: 1 150
+ja p8 key lines: 150 range: 1 150
+ko p8 key lines: 150 range: 1 150
+nl p8 key lines: 150 range: 1 150
+pt p8 key lines: 150 range: 1 150
+zh-tw p8 key lines: 150 range: 1 150
+--- core 75-78: {75: 'd — 包裹 d', 76: 'b — 退货 b', 77: 'a — 促销码 a', 78: 'c — 高峰 c'}
+--- de 75-78: {75: 'd — Paket d', 76: 'b — Rücksendung b', 77: 'a — Rabattcode a', 78: 'c — Höhepunkt c'}
+--- en 75-78: {75: 'd — parcel d', 76: 'b — return b', 77: 'a — promo code a', 78: 'c — peak c'}
+--- es 75-78: {75: 'd — paquete d', 76: 'b — devolución b', 77: 'a — código promocional a', 78: 'c — pico c'}
+--- fr 75-78: {75: 'd — colis d', 76: 'b — retour b', 77: 'a — code promo a', 78: 'c — pic c'}
+--- it 75-78: {75: 'd — pacco d', 76: 'b — reso b', 77: 'a — codice promozionale a', 78: 'c — picco c'}
+--- ja 75-78: {75: 'd — 荷物 d', 76: 'b — 返品 b', 77: 'a — プロモコード a', 78: 'c — ピーク c'}
+--- ko 75-78: {75: 'd — 소포 d', 76: 'b — 반품 b', 77: 'a — 프로모 코드 a', 78: 'c — 정점 c'}
+--- nl 75-78: {75: 'd — pakket d', 76: 'b — retour b', 77: 'a — kortingscode a', 78: 'c — hoogtepunt c'}
+--- pt 75-78: {75: 'd — encomenda d', 76: 'b — devolução b', 77: 'a — código promocional a', 78: 'c — pico c'}
+--- zh-tw 75-78: {75: 'd — 包裹 d', 76: 'b — 退貨 b', 77: 'a — 促銷碼 a', 78: 'c — 高峰 c'}
+P5 core words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 de words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 en words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 es words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 fr words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 it words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 ja words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 ko words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 nl words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 pt words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+P5 zh-tw words= ['75. посылка', '76. возврат', '77. промокод', '78. пик'] opts= ['a. код со скидкой', 'b. товар возвращают в магазин', 'c. самое большое число заказов', 'd. товар, который прислали по']
+D2 core p3-kultura.svg HOME= [] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 core p4-sport.svg HOME= [] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 de p3-kultura.svg HOME= [('Setzen Sie Verbform und Kasus richtig ein.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 de p4-sport.svg HOME= [('Zahlen und Wörter von Seite 4 einsetzen.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 en p3-kultura.svg HOME= [('Fill in the right verb form or the right case.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 en p4-sport.svg HOME= [('Fill in with numbers and words from page 4.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 es p3-kultura.svg HOME= [('Completa la forma verbal o el caso correcto.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 es p4-sport.svg HOME= [('Completa: números y palabras (página 4).', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 fr p3-kultura.svg HOME= [('Complétez la bonne forme verbale ou le cas.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 fr p4-sport.svg HOME= [('Complétez : chiffres et mots de la page 4.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 it p3-kultura.svg HOME= [('Metti la forma verbale o il caso giusti.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 it p4-sport.svg HOME= [('Completa con numeri e parole di pagina 4.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 ja p3-kultura.svg HOME= [] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 ja p4-sport.svg HOME= [] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 ko p3-kultura.svg HOME= [('요.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 ko p4-sport.svg HOME= [] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 nl p3-kultura.svg HOME= [('Vul in: juiste werkwoordsvorm of naamval.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 nl p4-sport.svg HOME= [('Vul in met cijfers en woorden van pagina 4.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 pt p3-kultura.svg HOME= [('Complete a forma verbal ou o caso correto.', '20.5', '#57523f')] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 pt p4-sport.svg HOME= [('Complete: números e palavras da página 4.', '20.5', '#57523f')] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+D2 zh-tw p3-kultura.svg HOME= [] COL2TOP= [(1728.0, 'Фильм «Лиля» ___ 12 ноября. (выходить)')]
+D2 zh-tw p4-sport.svg HOME= [] COL2TOP= [(1688.0, '14-й тур начинается ___ ноября.'), (1777.0, 'Матч «Краснодар» — ЦСКА будет ___')]
+==== ORPHAN SCAN ====
+CAND core p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= '把词组成正确的句子。'
+CAND de p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Bilden Sie richtige Sätze aus den Wörtern.'
+CAND en p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Put the words in the right order.'
+CAND es p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Forma frases correctas con las palabras.'
+CAND fr p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Formez des phrases correctes avec les mots.'
+CAND it p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Forma frasi corrette con le parole.'
+CAND ja p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= '単語を並べて正しい文を作る。'
+CAND ko p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= '단어로 올바른 문장을 만드세요.'
+CAND nl p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Maak juiste zinnen van de woorden.'
+CAND pt p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= 'Forme frases corretas com as palavras.'
+CAND zh-tw p5 y= 1747.5 x= 989.0 prev_home= False prev= 'D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ' text= '把詞組成正確的句子。'
+ORPHANS: []
+==== KINSOKU SCAN ====
+KINSOKU HITS: 0
+JA HNOTE: 1451.0 371.12 20.5 '作文（決まった答えはありません）；模範文は'
+JA HNOTE: 1593.0 462.57 19.5 '作文'
+JA HNOTE: 1885.0 1302.0 19.5 '各問に日本語の解説つき · ✓ は模範文のある問題'
+JA HNOTE: 1451.0 2201.3900000000017 13.0 '150. ✓ 模範文はこのページの H 欄（87 語）'

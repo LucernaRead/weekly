@@ -1,0 +1,35 @@
+# W46 Russian (ru) family — FINAL gate record (consolidated 2026-11-02)
+# This file supersedes the partial run-1 log (preserved as ru-gates-run1-partial.log).
+# Detailed logs: ru-gates2.log (core + es/it/nl run-2 gates; superseded for the 7 rebuilt editions),
+# ru-gates3.log (en/de/fr/pt/ja/ko/zh-tw run-3 gates), ru-gates4.log (en run-4 re-gate after the disclosure rewording).
+# Per-edition JSON evidence: ru-<key>-occlusion.json, ru-<key>-p8.json, ru-<key>-freeze.json (hidden_files/w46/).
+# Build logs: ru-core-run6.log; ru-en-run4.log; ru-de/fr/pt/ja/ko/zh-tw-run3.log; ru-es/it/nl-run2.log.
+# Transform logs: ru-<native>-transform2/3/4.log. Freeze adjudication: Cyrillic word-multiset diff
+# core-vs-edition run 2026-11-02 on the final SVGs (gained Cyrillic: none in any edition; losses are
+# deliberate furniture/explanation replacements inside map keys only; strict-CJK: JA zero Hangul,
+# KO zero kana, ZH-TW zero Simplified-only chars).
+#
+# VOL: VOL.3 for all 11 editions. Exercises: 150 each (P1 10, P2 18, P3 18, P4 18, P5 18, P6 18, P7 12, P8 38;
+# A2 51, B1 75, B2 24; model text 87 words).
+#
+# slug                          print_bytes  web_bytes  web_text  chars   overflow  occlusion  p8        freeze
+# 2026-w46-ru-core              24,590,689   2,719,071   53,549   52,665  0         0 flags    n/a(core) n/a(core)
+# 2026-w46-ru-en                15,001,216   2,310,354   54,698   53,832  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-de                15,043,468   2,316,298   55,336   54,487  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-fr                14,964,879   2,312,547   55,360   54,546  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-es                15,002,137   2,314,698   55,341   54,527  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-it                15,000,485   2,311,183   55,075   54,260  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-pt                14,930,049   2,316,308   55,672   54,866  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-nl                15,041,273   2,314,344   55,296   54,448  0         0 flags    CLEAN     exit 0
+# 2026-w46-ru-ja                22,056,623   2,736,411   55,685   54,826  0         0 flags    CLEAN     strict-CJK adjudicated
+# 2026-w46-ru-ko                16,475,623   2,490,724   55,864   54,997  0         0 flags    CLEAN     strict-CJK adjudicated
+# 2026-w46-ru-zh-tw             17,941,798   2,760,273   53,507   52,625  0         0 flags    CLEAN     strict-CJK adjudicated
+# All web PDFs < 7 MB; print-vs-web normalised text identical for every edition.
+# All check_core runs: golden 8/8 exactly 2x, gloss fails 0, orphan line-starts 0, same-baseline collisions 0.
+# P8 compare: CLEAN 150/150 for all 10 fan-outs; keys 137-140 differ by design (E-section translations into the reader language).
+# Visual: P1+P7 cards read for every edition (core also P2/P4/P6/P8); PT P1 not card-read (occlusion + SVG measurements only).
+# Defects fixed in rounds 2-4: E3 stray arrow (core + all maps); E-section direction; P1 word-gloss LINEX;
+# box-title overflows; P7 letters-box/golden geometry (disclosures + clinic lines shortened, DE gloss #4, KO title);
+# KO orphans x3; ZH-TW bridge orphans; EN disclosure apostrophe line-split (run4 rewording, re-verified).
+# P7 letters-box bottoms: core/zh-tw 1789, all other editions 1818 (golden rule at 1802 passes only through empty box padding).
+# NOT inserted into the repo (coordinator inserts serially). No Discord posts. No chat dumps.

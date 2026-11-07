@@ -1,0 +1,29 @@
+===== KO: single-syllable final-line candidates (10-45 window analogue) =====
+Method: every <text> element whose stripped Korean content (letters+punct) has exactly 1 Hangul syllable,
+excluding exercise-number-only and level-tag elements; each adjudicated by neighbours (same x, y-step 10-45).
+P2 x=545.0 y=1394.5749999999998 fs=20.5 'LED 등.' | prev='erfgoed 문화유산 · het ledlampje 작은' y=1364.85 | next='Molens bij Kinderdijk. In november wordt het' y=496.0
+P6 x=1007.0 y=327.67500000000007 fs=20.5 '가.' | prev='achteruitgang 쇠퇴 · de deskundige 전문' y=297.95000000000005 | next='DE GRAFIEK · 그래프(연습용 데이터)' y=242.0
+P7 x=527.0 y=785.1100000000001 fs=20.5 '요.' | prev='cadeautje 작은 선물. -je는 작고 애정 어린 뜻이에' y=755.3850000000001 | next='B1' y=845.835
+P8 x=1872.0 y=142.0 fs=19.0 '8면 · De grote toets van de week + alle antwoorden' | prev='De Lucerna' y=116.0 | next='A · VUL DE KRONIEK IN' y=201.0
+P8 x=1451.0 y=2175.300000000001 fs=13.5 '140. Ik zet mijn schoen met een verlanglijstje. — schoen zetten은' | prev='세요' y=2145.6400000000012 | next='고정 표현이에요' y=2190.960000000001
+
+===== KO: line-START orphan punctuation (lines starting with ) . , etc after Korean wrap) =====
+
+===== KO: mid-word splits with >=3-syllable tail (heuristic: line ends mid-word + next line starts with >=3 syllables before space/punct) =====
+P1 y=330.0->372.0 tail='네덜란드어' :: 'VOL.3 · 신터클라스 · 성 마르틴의 날 · 오라녜' / '네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판'
+P2 y=1359.8399999999997->1388.2399999999998 tail='거예요' :: '11월 11일, 등롱을 들고 집집마다 노래하러 갈' / '거예요, 아니면 신터클라스 뉴스를 볼 거예요?'
+P3 y=2274.5->2304.225 tail='하세요' :: '재완료로 채우세요. 조동사 hebben/zijn에 주의' / '하세요.'
+P5 y=932.0499999999998->960.4499999999998 tail='란드어로' :: '면 소원 목록을 넣은 신발을 내놓을래요? 네덜' / '란드어로 두 문장을 써서 보내 주세요.'
+P7 y=692.98->722.705 tail='어두워지면' :: '/ ~할 때; als het donker wordt =' / '어두워지면; als Sinterklaas komt = 신터클라스가'
+P7 y=1870.57->1898.97 tail='주세요' :: '편집부 예시예요. 여러분의 편지와 작문을 보내' / '주세요!'
+P8 y=2027.920000000002->2043.580000000002 tail='지막에' :: 'aar blijven vieren. — als 절은 마' / '지막에 와요'
+
+===== JA kinsoku: lines starting with closers =====
+P1 x=1451.0 y=1846.2999999999997 '「de intocht」：祝祭の到着行列。'
+(end kinsoku scan)
+
+===== ZH-TW: lines starting with closers (same kinsoku-style check) =====
+P6 x=1007.0 y=327.67500000000007 '。'
+P6 x=1473.0 y=685.2800000000001 '。問題：11 月 11 日前後你做什麼？（100 位年'
+P8 x=1451.0 y=592.495 '。'
+(end zh-tw scan)

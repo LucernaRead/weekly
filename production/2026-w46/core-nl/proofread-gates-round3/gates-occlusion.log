@@ -1,0 +1,97 @@
+=== OCCLUSION selftest ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+exit=0
+=== OCCLUSION alone: core ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-core/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: de ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-de/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: en ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-en/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: es ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-es/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: fr ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-fr/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: it ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-it/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: ja ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: ko ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ko/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: pt ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-pt/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: ru ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ru/svg: 0 flags 
+exit=0
+=== OCCLUSION alone: zh-tw ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-zh-tw/svg: 0 flags 
+exit=0
+=== OCCLUSION vs-core: de ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-de/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: en ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-en/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: es ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-es/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: fr ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-fr/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: it ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-it/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: ja ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ja/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: ko ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ko/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: pt ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-pt/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: ru ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-ru/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0
+=== OCCLUSION vs-core: zh-tw ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-zh-tw/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+exit=0

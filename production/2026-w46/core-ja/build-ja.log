@@ -1,0 +1,40 @@
+ja: svglib.py copied from W45 ja build (font-face/kinsoku patch)
+===== ja transform rc=0 =====
+NOT FOUND (skip): 'p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L\'ITALIA VERA, IN ITALIANO, DALL\'ITALIA", 19, "sans", False, GREY, anchor="middle")'
+NOT FOUND literal: 'E TU? · 说说你自己'
+NOT FOUND literal: 'dovere = 必须'
+NOT FOUND literal: 'si gioca = 进行比赛'
+NOT FOUND literal: '判断'
+NOT FOUND literal: '周四晚上意大利对法国。'
+NOT FOUND literal: '周日晚上，比利时对意大利。'
+NOT FOUND literal: '圣马丁节葡萄汁变成酒。'
+NOT FOUND literal: '填空'
+NOT FOUND literal: '对照原文'
+NOT FOUND literal: '把词和释义配对'
+NOT FOUND literal: '每个数字都必须清楚。→ ___'
+NOT FOUND literal: '（开放题，范文如下）'
+transform done
+
+
+===== ja run.py rc=0 =====
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=865 (bottom 1332)
+  flow[P8-keys] ended col 3/3 y=2499 (bottom 2552)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 47, 'B1': 70, 'B2': 33}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 98
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 47, 'B1': 70, 'B2': 33}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'文を完成させる': 61, '単一選択': 48, '単語の組み合わせ': 12, '文を作る': 7, '文型変換': 1, '正誤判断': 3, '穴埋め選択': 13, '翻译': 4, '作文': 1}
+ALL DONE
+
+===== ja render.py rc=0 =====
+card: p8-valutazione.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-ja/La-Lucerna-VOL3-JA.pdf 20219243
+web PDF: build separately with tools/webpdf.py
+
+

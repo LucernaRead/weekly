@@ -1,0 +1,14 @@
+diff -r '--exclude=__pycache__' '--exclude=transform.py' '--exclude=transform-run.log' '--exclude=build-log.txt' '--exclude=transform-log.txt' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/rederive/zh-tw/content56.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/build-before/zh-tw-build/content56.py
+126c126
+< f.gloss("de traditie 傳統 · griezelen 嚇人 · de belangstelling 關注· de achteruitgang 衰退 · de deskundige 專家。")
+---
+> f.gloss("de traditie 傳統 · griezelen 嚇人 · de belangstelling 關注 · de achteruitgang 衰退 · de deskundige 專家。")
+138c138
+< capcn = "練習數據：虛構數字，僅供練習，非真實調查。問題：11 月 11 日前後你做什麼？（100 位年輕人）"
+---
+> capcn = "練習數據：僅供練習的虛構數字，不是真實調查。問題：11 月 11 日前後你做什麼？（100 位年輕人）"
+diff -r '--exclude=__pycache__' '--exclude=transform.py' '--exclude=transform-run.log' '--exclude=build-log.txt' '--exclude=transform-log.txt' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/rederive/zh-tw/content8.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/nl-fix/scratch/build-before/zh-tw-build/content8.py
+111c111
+< f.expl(f"寫作題（無唯一答案）；範文（{NWORDS} 詞）見下。")
+---
+> f.expl(f"寫作題（沒有唯一答案）；範文（{NWORDS} 詞）見下。")

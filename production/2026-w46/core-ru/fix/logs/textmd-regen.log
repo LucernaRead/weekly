@@ -1,0 +1,229 @@
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-core.text.md: 150 exercises, 30627 bytes
+gen core exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-core.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-en.text.md: 150 exercises, 37928 bytes
+gen en exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-en.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-de.text.md: 150 exercises, 38352 bytes
+gen de exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-de.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-fr.text.md: 150 exercises, 38218 bytes
+gen fr exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-fr.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-es.text.md: 150 exercises, 38994 bytes
+gen es exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-es.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-it.text.md: 150 exercises, 38870 bytes
+gen it exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-it.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-pt.text.md: 150 exercises, 39839 bytes
+gen pt exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-pt.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-nl.text.md: 150 exercises, 39181 bytes
+gen nl exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-nl.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-ja.text.md: 150 exercises, 31119 bytes
+gen ja exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-ja.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-ko.text.md: 150 exercises, 32115 bytes
+gen ko exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-ko.text.md
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-zh-tw.text.md: 150 exercises, 30570 bytes
+gen zh-tw exit=0 -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w46/ru-fix/textmd-tmp/2026-w46-ru-zh-tw.text.md
+=== DIFF core (weekly-report-w46-ru-core/2026-w46-ru-core.text.md) ===
+316,317c316,317
+< 76. возврат — код со скидкой (key a · 退货 a)
+< 77. промокод — товар возвращают в магазин (key b · 促销码 b)
+---
+> 76. возврат — товар возвращают в магазин (key b · 退货 b)
+> 77. промокод — код со скидкой (key a · 促销码 a)
+602,603c602,603
+< 76. a — 退货 a
+< 77. b — 促销码 b
+---
+> 76. b — 退货 b
+> 77. a — 促销码 a
+diff lines: 12
+=== DIFF en (weekly-report-w46-ru-en/2026-w46-ru-en.text.md) ===
+174c174
+< *Fill in the gaps with the right verb form or the right case.*
+---
+> *Fill in the right verb form or the right case.*
+233c233
+< *Fill in the gaps with numbers and words from page 4.*
+---
+> *Fill in with numbers and words from page 4.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · return a)
+< 77. промокод — товар возвращают в магазин (key b · promo code b)
+---
+> 76. возврат — товар возвращают в магазин (key b · return b)
+> 77. промокод — код со скидкой (key a · promo code a)
+602,603c602,603
+< 76. a — return a
+< 77. b — promo code b
+---
+> 76. b — return b
+> 77. a — promo code a
+diff lines: 20
+=== DIFF de (weekly-report-w46-ru-de/2026-w46-ru-de.text.md) ===
+174c174
+< *Füllen Sie die Lücken mit der richtigen Verbform oder dem richtigen Kasus aus.*
+---
+> *Setzen Sie Verbform und Kasus richtig ein.*
+233c233
+< *Füllen Sie die Lücken mit Zahlen und Wörtern von Seite 4 aus.*
+---
+> *Zahlen und Wörter von Seite 4 einsetzen.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · Rücksendung a)
+< 77. промокод — товар возвращают в магазин (key b · Rabattcode b)
+---
+> 76. возврат — товар возвращают в магазин (key b · Rücksendung b)
+> 77. промокод — код со скидкой (key a · Rabattcode a)
+602,603c602,603
+< 76. a — Rücksendung a
+< 77. b — Rabattcode b
+---
+> 76. b — Rücksendung b
+> 77. a — Rabattcode a
+diff lines: 20
+=== DIFF fr (weekly-report-w46-ru-fr/2026-w46-ru-fr.text.md) ===
+174c174
+< *Complétez avec la bonne forme du verbe ou le bon cas.*
+---
+> *Complétez la bonne forme verbale ou le cas.*
+233c233
+< *Complétez avec les chiffres et les mots de la page 4.*
+---
+> *Complétez : chiffres et mots de la page 4.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · retour a)
+< 77. промокод — товар возвращают в магазин (key b · code promo b)
+---
+> 76. возврат — товар возвращают в магазин (key b · retour b)
+> 77. промокод — код со скидкой (key a · code promo a)
+602,603c602,603
+< 76. a — retour a
+< 77. b — code promo b
+---
+> 76. b — retour b
+> 77. a — code promo a
+diff lines: 20
+=== DIFF es (weekly-report-w46-ru-es/2026-w46-ru-es.text.md) ===
+174c174
+< *Completa con la forma verbal correcta o el caso correcto.*
+---
+> *Completa la forma verbal o el caso correcto.*
+233c233
+< *Completa con números y palabras de la página 4.*
+---
+> *Completa: números y palabras (página 4).*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · devolución a)
+< 77. промокод — товар возвращают в магазин (key b · código promocional b)
+---
+> 76. возврат — товар возвращают в магазин (key b · devolución b)
+> 77. промокод — код со скидкой (key a · código promocional a)
+602,603c602,603
+< 76. a — devolución a
+< 77. b — código promocional b
+---
+> 76. b — devolución b
+> 77. a — código promocional a
+diff lines: 20
+=== DIFF it (weekly-report-w46-ru-it/2026-w46-ru-it.text.md) ===
+174c174
+< *Completa con la forma verbale giusta o il caso giusto.*
+---
+> *Metti la forma verbale o il caso giusti.*
+233c233
+< *Completa con i numeri e le parole di pagina 4.*
+---
+> *Completa con numeri e parole di pagina 4.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · reso a)
+< 77. промокод — товар возвращают в магазин (key b · codice promozionale b)
+---
+> 76. возврат — товар возвращают в магазин (key b · reso b)
+> 77. промокод — код со скидкой (key a · codice promozionale a)
+602,603c602,603
+< 76. a — reso a
+< 77. b — codice promozionale b
+---
+> 76. b — reso b
+> 77. a — codice promozionale a
+diff lines: 20
+=== DIFF pt (weekly-report-w46-ru-pt/2026-w46-ru-pt.text.md) ===
+174c174
+< *Complete com a forma verbal correta ou o caso correto.*
+---
+> *Complete a forma verbal ou o caso correto.*
+233c233
+< *Complete com números e palavras da página 4.*
+---
+> *Complete: números e palavras da página 4.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · devolução a)
+< 77. промокод — товар возвращают в магазин (key b · código promocional b)
+---
+> 76. возврат — товар возвращают в магазин (key b · devolução b)
+> 77. промокод — код со скидкой (key a · código promocional a)
+602,603c602,603
+< 76. a — devolução a
+< 77. b — código promocional b
+---
+> 76. b — devolução b
+> 77. a — código promocional a
+diff lines: 20
+=== DIFF nl (weekly-report-w46-ru-nl/2026-w46-ru-nl.text.md) ===
+174c174
+< *Vul in met de juiste werkwoordsvorm of de juiste naamval.*
+---
+> *Vul in: juiste werkwoordsvorm of naamval.*
+316,317c316,317
+< 76. возврат — код со скидкой (key a · retour a)
+< 77. промокод — товар возвращают в магазин (key b · kortingscode b)
+---
+> 76. возврат — товар возвращают в магазин (key b · retour b)
+> 77. промокод — код со скидкой (key a · kortingscode a)
+602,603c602,603
+< 76. a — retour a
+< 77. b — kortingscode b
+---
+> 76. b — retour b
+> 77. a — kortingscode a
+diff lines: 16
+=== DIFF ja (weekly-report-w46-ru-ja/2026-w46-ru-ja.text.md) ===
+316,317c316,317
+< 76. возврат — код со скидкой (key a · 返品 a)
+< 77. промокод — товар возвращают в магазин (key b · プロモコード b)
+---
+> 76. возврат — товар возвращают в магазин (key b · 返品 b)
+> 77. промокод — код со скидкой (key a · プロモコード a)
+507c507
+< *作文（決まった答えはありません）；模範文（87 語）は下にあります。*
+---
+> *作文（決まった答えはありません）；模範文は下にあります（87 語）。*
+602,603c602,603
+< 76. a — 返品 a
+< 77. b — プロモコード b
+---
+> 76. b — 返品 b
+> 77. a — プロモコード a
+diff lines: 16
+=== DIFF ko (weekly-report-w46-ru-ko/2026-w46-ru-ko.text.md) ===
+316,317c316,317
+< 76. возврат — код со скидкой (key a · 반품 a)
+< 77. промокод — товар возвращают в магазин (key b · 프로모 코드 b)
+---
+> 76. возврат — товар возвращают в магазин (key b · 반품 b)
+> 77. промокод — код со скидкой (key a · 프로모 코드 a)
+602,603c602,603
+< 76. a — 반품 a
+< 77. b — 프로모 코드 b
+---
+> 76. b — 반품 b
+> 77. a — 프로모 코드 a
+316,317c316,317
+< 76. возврат — код со скидкой (key a · 退貨 a)
+< 77. промокод — товар возвращают в магазин (key b · 促銷碼 b)
+---
+> 76. возврат — товар возвращают в магазин (key b · 退貨 b)
+> 77. промокод — код со скидкой (key a · 促銷碼 a)
+602,603c602,603
+< 76. a — 退貨 a
+< 77. b — 促銷碼 b
+---
+> 76. b — 退貨 b
+> 77. a — 促銷碼 a
