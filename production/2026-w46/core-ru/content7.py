@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ru-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · ЯЗЫК (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("ЯЗЫК · 语言", "Lucerna", "Фокус на язык · Три уровня, три темы · 三个级别，三个主题")
+p.band("ЯЗЫК　语言", "Lucerna", "Фокус на язык　Три уровня, три темы　三个级别，三个主题")
 
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · СЛОВА О ПОГОДЕ", 24)
+a.head("A2　СЛОВА О ПОГОДЕ", 24)
 a.para("О ноябре говорим так: предзимье — время между осенью и зимой; мокрый снег — снег с дождём; гололедица — лёд на дороге. Примеры: «Сейчас предзимье», «Синоптики обещают мокрый снег».", 21.5)
 a.para("Заморозки — это мороз ночью: «Ночью заморозки, а днём тепло». Тёплая одежда и зонт — лучшие друзья ноября.", 21.5)
 a.bridge("предзимье 初冬时节；мокрый снег 湿雪；гололедица 路面结冰。")
@@ -27,7 +27,7 @@ a.ex("A2", "完成句子", "заморозки", "заморозки = 夜间霜
 a.end_report()
 
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · СЛОВА ПОКУПОК", 24)
+b.head("B1　СЛОВА ПОКУПОК", 24)
 b.para("Слова распродажи: посылка — товар, который прислали по почте; отследить — узнать, где посылка; вернуть — отдать товар обратно. Пример: «Посылку надо отследить и проверить».", 21.5)
 b.para("Пик — самое большое число: «11 ноября — пик скидок». Промокод действует недолго: проверьте срок, пока он не закончился.", 21.5)
 b.bridge("посылка 包裹；отследить 追踪；вернуть 退回；пик 高峰。")
@@ -42,7 +42,7 @@ b.ex("B1", "完成句子", "промокод", "промокод = 折扣码",
 b.end_report()
 
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · КАК ССЫЛАТЬСЯ", 24)
+c.head("B2　КАК ССЫЛАТЬСЯ", 24)
 c.para("Когда факт — из прогноза или прессы, говорите так: «синоптики обещают» или «по данным пресс-службы». Это честно: читатель знает, откуда факт.", 21.5)
 c.para("Неуверенность — тоже по-русски: «может быть» — возможно; «снег, если и выпадет, быстро растает» — оговорка, а не обещание. Говорить «может быть» — признак хорошего уровня!", 21.5)
 c.bridge("синоптики обещают 据气象学家预报；по данным 据……数据；может быть 可能。")
@@ -64,20 +64,20 @@ errs = [
     ("«Фильм выходит с 12 ноябрь»", "→ Родительный падеж: «с 12 ноября».", "с 表起点用属格：с 12 ноября。"),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ОШИБКИ · 易错诊所", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ОШИБКИ　易错诊所", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "«посылка» — товар, который прислали по почте: её надо отследить, получить и проверить."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("посылка = 包裹，须追踪、领取并检查。", "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "СЛОВО · 本周生词", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "СЛОВО　本周生词", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "посылка = 包裹，须追踪、领取并检查。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -86,7 +86,7 @@ lt = "«Здравствуйте! Я учу русский язык и чита�
 disc_ru = "Настоящих писем и лучших сочинений к сроку сдачи не поступило: здесь пример от редакции. Обещание переносится на VOL.4."
 disc_cn = "截至交稿时未收到真实来信与最佳作文，仍为编辑部示例；承诺顺延至 VOL.4。"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(disc_ru, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(disc_cn, "sans", False, 20, CW - 44)) * 29 + 60
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "ПИСЬМА ЧИТАТЕЛЕЙ", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -96,8 +96,8 @@ p.para(bx + 22, yy3 + 20, disc_cn, 20, "sans", False, GREY, CW - 44, 1.42)
 print("P7 col3 ends", ly + lh)
 
 fy = 1816
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ · 本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ　本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
 quotes = [
     ("«Эта неделя в России — обычная»", "这一周在俄罗斯——很平常。", "Страница 1"),
     ("«В среду, 11 ноября, — день распродажи 11.11: пик скидок»", "11 月 11 日星期三是大促日：折扣高峰。", "Страница 1"),
@@ -116,9 +116,9 @@ for i, (q, cn, pg) in enumerate(quotes):
     p.para(cx, yyq + 20, cn + " (" + pg + ")", 19.5, "sans", False, GREY, colw, 1.35)
 
 py = 2420
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ · 下期预告 (VOL.4)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "Полные итоги 14-го тура и результат матча Узбекистан — Россия. Плюс «Чёрная пятница» и ваши письма. До понедельника!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ　下期预告 (VOL.4)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "Полные итоги 14-го тура и результат матча Узбекистан — Россия. Плюс «Чёрная пятница» и ваши письма. До понедельника!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-yazyk.svg")
 print("P7 saved, exercises so far:", len(REG))

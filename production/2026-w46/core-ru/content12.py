@@ -3,34 +3,34 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-ru-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · ПЕРВАЯ ПОЛОСА (A2) =================
 CURPAGE[0] = 1
 p = BSPage4()
 
-p.text(MX, 92, "VOL. 3 · ТРЕТИЙ ВЫПУСК", 23, "sans", True, OLIVE)
-p.text(975, 92, "КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · 俄语正文 · 中文讲解", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "НЕДЕЛЯ С 9 ПО 15 НОЯБРЯ 2026 ГОДА", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "РУССКАЯ ГАЗЕТА · VOL.3 · ОБЫЧНАЯ НЕДЕЛЯ · СКИДКИ · ФУТБОЛ", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 3　ТРЕТИЙ ВЫПУСК", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ　俄语正文　中文讲解", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "НЕДЕЛЯ С 9 ПО 15 НОЯБРЯ 2026 ГОДА", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "РУССКАЯ ГАЗЕТА　VOL.3　ОБЫЧНАЯ НЕДЕЛЯ　СКИДКИ　ФУТБОЛ", 36, "serif", True, OLIVE, anchor="middle", spacing=6)
+p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "ОБЫЧНАЯ НЕДЕЛЯ — И ЭТО ХОРОШО!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Пять рабочих дней, ни одного праздника. А в среду — 11.11 и День экономиста.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "平常的一周", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "11 月 11 日大促日 · 详见第 5、6 版", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "ОБЫЧНАЯ НЕДЕЛЯ — И ЭТО ХОРОШО!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Пять рабочих дней, ни одного праздника. А в среду — 11.11 и День экономиста.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "平常的一周", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "11月11日大促日　详见第5、6版", 18, "sans", False, GOOSE, anchor="end")
 
-hy = 580
-p.text(MX, hy + 26, "ГЛАВНАЯ ТЕМА · 头条", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Обычная неделя: пять рабочих дней", 44, "serif", True, INK, 1388, 1.2)
+hy = 590
+p.text(MX, hy + 26, "ГЛАВНАЯ ТЕМА　头条", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Обычная неделя: пять рабочих дней", 53, "serif", True, INK, 1323, 1.06)
 p.text(MX, hy + 30, "Ни одного выходного посреди недели: как Россия живёт первую полную неделю ноября", 25, "serif", False, GREY)
 hy += 46
-p.text(MX, hy + 28, "От редакции Lucerna · Уровень чтения: A2", 20, "sans", False, GREY)
+p.text(MX, hy + 28, "От редакции Lucerna　Уровень чтения: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Эта неделя в России — обычная. В понедельник, 9 ноября, люди идут на работу и в школу. Никаких праздников посреди недели: пять рабочих дней подряд, а потом выходные.", size=24)
@@ -39,13 +39,13 @@ f.para("В среду, 11 ноября, — день распродажи 11.11:
 f.para("В четверг, 12 ноября, сборная России по футболу играет с Узбекистаном в Ташкенте. А в чемпионате — пауза: 14-й тур сыграли 6–8 ноября, а 15-й тур будет только 20 ноября.", size=24)
 f.para("Как прожить обычную неделю без праздников? Об этом — весь наш номер. Приятного чтения!", size=24)
 f.bridge("讲解｜обычная 平常的 · подряд 连续 · пик скидок 折扣高峰。")
-f.box("НЕДЕЛЯ В ЦИФРАХ · 数字看本周", [
+f.box("НЕДЕЛЯ В ЦИФРАХ　数字看本周", [
     ("5 — рабочих дней на этой неделе: с понедельника по пятницу", "serif", False, INK, 20, 1.35),
     ("10 — ноября, вторник: День полиции（11月10日警察节）", "serif", False, INK, 20, 1.35),
     ("11 — ноября, среда: день распродажи 11.11（大促日）", "serif", False, INK, 20, 1.35),
     ("20 — рабочих дней в ноябре всего（11 月共 20 个工作日）", "serif", False, INK, 20, 1.35),
 ])
-f.head("СЕЙЧАС ВЫ · 即学即练", 25)
+f.head("СЕЙЧАС ВЫ　即学即练", 25)
 f.ex("A2", "完成句子", "9", "11 月 9 日星期一",
      "Обычная неделя начинается ___ ноября.", size=19.5, gap=6)
 f.ex("A2", "完成句子", "5", "一周 5 个工作日",
@@ -61,10 +61,10 @@ f.ex("B1", "完成句子", "20", "11 月 20 日第 15 轮",
 f.end_report()
 
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "О ЧЁМ ПИШУТ", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "СМИ · 媒体在谈什么", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "СМИ　媒体在谈什么", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Главные темы недели в российских СМИ", 19, "sans", False, GREY)
 topics = [
     "Обычная неделя: пять рабочих дней",
@@ -78,11 +78,11 @@ for i, t in enumerate(topics):
     yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 20, "serif", True, INK, gw - 44, 1.32)
     byy = yy_t + 26
 p.text(gx + 22, gy + 636, "По российским СМИ, ноябрь 2026 г.", 18.5, "sans", False, GREY)
-p.text(gx + 22, gy + 664, "据俄罗斯媒体 2026 年 11 月报道", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 664, "据俄罗斯媒体2026年11月报道", 19, "sans", False, GREY)
 
 sy = 1296
-p.rect(gx, sy, gw, 330, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ · 本期目录", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 330, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　本期目录", 24, "sans", True, OLIVE)
 som = [
     ("Стр. 2", "День полиции 10 ноября", "A2"),
     ("Стр. 3", "Кино в ноябре", "A2→B1"),
@@ -94,16 +94,17 @@ som = [
 ]
 yy = sy + 82
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 108, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 37
 
 my = 1636
-p.text(gx, my + 24, "СЛОВО НЕДЕЛИ · 本周单词", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "«предзимье» — время между осенью и зимой: дождь с мокрым снегом и первые заморозки.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "предзимье = 初冬时节（秋冬之间）。", 19, "sans", False, GREY, gw, 1.35)
+p.text(gx, my + 24, "СЛОВО НЕДЕЛИ　本周单词", 22, "sans", True, OLIVE)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "«предзимье»", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "время между осенью и зимой: дождь с мокрым снегом и первые заморозки.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 10, "предзимье = 初冬时节（秋冬之间）。", 19, "sans", False, GREY, gw, 1.35)
 
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
 iy = 1874
@@ -112,14 +113,14 @@ image(p, "autumn_path.jpg", ix, iy, iw, 320, par="xMidYMax slice")
 caption(p, ix, iy + 320, iw,
         "Ноябрь в парке: листья почти облетели, скамейки пустые. Впереди — предзимье.",
         "Фото: Toxer427 — лицензия CC0 (Wikimedia Commons)")
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-snow")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-snow")
 f2.head("ПЕРВЫЙ СНЕГ?", 25)
 f2.para("Синоптики обещали первый мокрый снег ещё 3–4 ноября. Снег, если и выпадет, быстро растает: устойчивый снежный покров ляжет только в конце ноября.", 22.5)
 f2.para("А пока — дождь, туман и первые заморозки. Не забудьте тёплую одежду и зонт!", 22.5)
 f2.end_report()
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "КОРОТКО · 快讯", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "КОРОТКО　快讯", 24, "sans", True, OLIVE)
 brefs = [
     ("ВТОРНИК", "10 ноября — День полиции. Рабочий день, не выходной."),
     ("СРЕДА", "11 ноября — 11.11: пик скидок. И День экономиста."),
@@ -127,14 +128,14 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "БЛИЦ-ВИКТОРИНА · 闪电问答", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "读头版，选出正确答案 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "БЛИЦ-ВИКТОРИНА　闪电问答", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "读头版，选出正确答案　答案见第8版", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "A", "一周 5 个工作日",
       "Сколько рабочих дней на этой неделе? A. 5 · B. 4 · C. 3", size=21)
 qf.ex("A2", "单选", "B", "11 月 10 日警察节",
@@ -151,11 +152,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · ЖИЗНЬ (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("ЖИЗНЬ · 生活", "Lucerna", "УРОВЕНЬ A2 · День полиции, День экономиста и обычная неделя · 警察节、经济学家日与平常的一周")
+p.band("ЖИЗНЬ　生活", "Lucerna", "УРОВЕНЬ A2　День полиции, День экономиста и обычная неделя　警察节、经济学家日与平常的一周")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("10 ноября: День полиции", 37)
-f.byline("От редакции Lucerna · Уровень чтения: A2")
+f.title("10 ноября: День полиции", 32)
+f.byline("От редакции Lucerna　Уровень чтения: A2")
 f.para("Во вторник, 10 ноября, в России — День сотрудника органов внутренних дел. Многие по привычке называют его Днём полиции. Это профессиональный праздник: выходного в этот день нет, полицейские работают, а мы их поздравляем.")
 f.para("У праздника давняя история: он отсчитывается с 1962 года, а дату выбрали не случайно — 10 ноября 1917 года было подписано постановление о создании рабочей милиции. С тех пор 10 ноября — день тех, кто охраняет порядок.")
 f.para("А в среду, 11 ноября, — День экономиста. Тоже профессиональный праздник и тоже без выходного. Получается: на этой неделе два праздника — и ни одного лишнего выходного!")
@@ -175,7 +176,7 @@ last = ["10 ноября — День полиции (вторник).",
         "15 ноября — Всероссийский день призывника."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in last) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "ПРАЗДНИКИ НЕДЕЛИ", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -184,9 +185,9 @@ for t in last:
 ey3 = sy3 + sh + 26
 etvous = "А вы? Кого вы поздравите 10 ноября? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.4 (страница 7, «Письма читателей»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？11 月 10 日你要祝贺谁？写两句俄语寄给编辑部。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "А ВЫ? · 说说你自己", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "А ВЫ?　说说你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "你呢？11 月 10 日你要祝贺谁？写两句俄语寄给编辑部。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -199,9 +200,9 @@ cy2 = caption(p, ix, siy + 300, CW, "Снежинка под микроскоп�
 print("P2 snowflake ends", cy2)
 
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "СЛОВА НЕДЕЛИ · 本周词", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Четыре слова о предзимье · 关于初冬时节的四个词", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "СЛОВА НЕДЕЛИ　本周词", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Четыре слова о предзимье　关于初冬时节的四个词", 20, "sans", False, GREY, anchor="end")
 words = [
     ("предзимье", "время между осенью и зимой", "初冬时节"),
     ("мокрый снег", "снег с дождём, он тает", "湿雪"),
@@ -210,18 +211,18 @@ words = [
 ]
 for i, (t, lab, cn) in enumerate(words):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 106, t, 34, "serif", True, OLIVE)
     yy = p.para(bx + 22, dy + 140, lab, 20.5, "serif", False, INK, CW - 44, 1.32)
     p.para(bx + 22, yy + 19, cn, 19, "sans", False, GREY, CW - 44, 1.3)
 p.para(MX, dy + 234, "Запомните: в предзимье бывает мокрый снег и гололедица. Синоптики советуют: не забывайте о зимних шинах и тёплой одежде.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "УПРАЖНЕНИЯ · 第 2 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "УПРАЖНЕНИЯ　第2版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · ПОНИМАНИЕ", 25)
+e.head("A　ПОНИМАНИЕ", 25)
 e.bridge("读第 2 版文章，选出正确答案。")
 e.ex("A2", "单选", "A", "11 月 10 日是工作日",
      "День полиции — это... A. рабочий день · B. выходной · C. воскресенье", size=19, gap=6)
@@ -233,7 +234,7 @@ e.ex("A2", "单选", "C", "11 月有 20 个工作日",
      "Сколько рабочих дней в ноябре? A. 10 · B. 15 · C. 20", size=19, gap=6)
 e.ex("A2", "单选", "B", "职业节日不增加休息日",
      "Профессиональные праздники... A. дают выходной · B. не дают выходного · C. переносят выходные", size=19, gap=6)
-e.head("B · СЛОВА НЕДЕЛИ", 25)
+e.head("B　СЛОВА НЕДЕЛИ", 25)
 e.bridge("用第 2 版的词填空。")
 e.ex("A2", "完成句子", "предзимье", "предзимье = 初冬时节",
      "Сейчас ___: время между осенью и зимой.", instr="填空", size=19, gap=6)
@@ -245,7 +246,7 @@ e.ex("B1", "完成句子", "заморозки", "заморозки = 夜间霜
      "Ночью бывают слабые ___.", instr="填空", size=19, gap=6)
 e.ex("B1", "完成句子", "порядок", "охранять порядок = 维护秩序",
      "Полиция охраняет ___.", instr="填空", size=19, gap=6)
-e.head("C · ЧИСЛА И ДАТЫ", 25)
+e.head("C　ЧИСЛА И ДАТЫ", 25)
 e.bridge("用第 1、2 版的数字和日期填空。")
 e.ex("A2", "完成句子", "9", "11 月 9 日星期一",
      "Неделя начинается ___ ноября.", instr="填空", size=19, gap=6)
@@ -255,7 +256,7 @@ e.ex("A2", "完成句子", "10", "11 月 10 个休息日",
      "В ноябре ___ выходных и праздничных дней.", instr="填空", size=19, gap=6)
 e.ex("B1", "完成句子", "15", "11 月 15 日征兵日",
      "День призывника — ___ ноября.", instr="填空", size=19, gap=6)
-e.head("D · ПРАЗДНИКИ НЕДЕЛИ", 25)
+e.head("D　ПРАЗДНИКИ НЕДЕЛИ", 25)
 e.match_set("A2", "词汇配对",
             ["10 ноября", "11 ноября", "13 ноября", "15 ноября"],
             ["День экономиста",
