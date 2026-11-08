@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · 头版 (A2) =================
@@ -11,30 +11,30 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2 · Nº 2", 23, "sans", True, OLIVE)
-p.text(975, 92, "HEBDOMADAIRE EN FRANÇAIS · TODA SEMANA · O FRANCÊS QUE OS FRANCESES LEEM", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "SEMAINE DU 19 AU 25 OCTOBRE 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Le Lucerna", 178, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "SEMANÁRIO EM FRANCÊS · VOL.2 · OUTONO E FESTAS", 46, "serif", True, INK, anchor="middle")
-p.text(975, 372, "LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 1　Nº 1", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "HEBDOMADAIRE EN FRANÇAIS　TODA SEMANA　O FRANCÊS QUE OS FRANCESES LEEM", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SEMAINE DU 19 AU 25 OCTOBRE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Le Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "SEMANÁRIO EM FRANCÊS　VOL.1　OUTONO E FESTAS", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 372, "LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # countdown band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "DIMANCHE, ON RECULE D'UNE HEURE !", 41, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Changement d'heure : dans la nuit de samedi à dimanche, à 3 h, il sera 2 h. On gagne une heure de sommeil !", 24, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "NESTE DOMINGO · HORÁRIO DE INVERNO", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "Relógios atrasam uma hora · ver página 2", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "DIMANCHE, ON RECULE D'UNE HEURE !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Changement d'heure : dans la nuit de samedi à dimanche, à 3 h, il sera 2 h. On gagne une heure de sommeil !", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "NESTE DOMINGO　HORÁRIO DE INVERNO", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "Relógios atrasam uma hora　ver página 2", 18, "sans", False, GOOSE, anchor="end")
 
 # pairing badge (this edition: French text, Italian explanations)
-p.text(975, 574, "TEXTOS EM FRANCÊS · EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 22, "sans", True, BRICK, anchor="middle")
+p.text(975, 612, "TEXTOS EM FRANCÊS　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 16, "sans", False, GREY, anchor="middle")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "POLITIQUE · LA UNE · POLÍTICA INTERNA", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Présidentielle 2027 : les Français regardent déjà les sondages", 47, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Par la rédaction du Lucerna · Niveau de lecture : A2", 20, "sans", False, GREY)
+hy = 610
+p.text(MX, hy + 26, "POLITIQUE　LA UNE　POLÍTICA INTERNA", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Présidentielle 2027 : les Français regardent déjà les sondages", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Par la rédaction du Lucerna　Niveau de lecture : A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1812, tag="P1-headline")
 f.para("L'élection présidentielle est en 2027, mais les Français en parlent déjà. Cette semaine, sur Google, la recherche numéro un en France est : « sondage présidentielle 2027 ». Des milliers de personnes cherchent ces mots chaque jour.")
@@ -43,11 +43,11 @@ f.para("Pourquoi si tôt ? Parce que la campagne commence doucement. Les candida
 f.para("Attention : un sondage n'est pas un résultat. C'est une photo du moment. En avril 2027, les Français voteront pour de vrai, en deux tours.")
 f.para("En attendant, les chiffres font parler le pays — et ils sont parfaits pour apprendre le français des nombres et des opinions. Dossier complet en page 6.")
 f.gloss("sondage pesquisa · en tête na liderança · un tour um turno · voter votar · un candidat um candidato.")
-f.box("EN CHIFFRES · OS NÚMEROS", [
+f.box("EN CHIFFRES　OS NÚMEROS", [
     ("18 ans — l'âge pour voter (vota-se aos 18) · 5 ans — la durée du mandat (dura 5 anos)", "serif", False, INK, 21.5, 1.4),
     ("2 tours — deux votes pour élire (dois turnos) · 50 % + 1 — pour gagner dès le premier tour (vencer já no 1.º turno)", "serif", False, INK, 21.5, 1.4),
 ])
-f.head("À VOUS ! · SUA VEZ", 25)
+f.head("À VOUS !　SUA VEZ", 25)
 f.ex("A2", "完成句子", "sondage", "palavra-chave da manchete",
      "Un ___ pose des questions à beaucoup de personnes.", size=21.5)
 f.ex("A2", "完成句子", "tête", "être en tête = estar na liderança",
@@ -64,11 +64,11 @@ f.end_report()
 
 # ---- GT chart (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 668, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 668, fill=BOX)
 p.text(gx + 22, gy + 40, "LES RECHERCHES", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "DE LA SEMAINE", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "As buscas da semana · Google Trends", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "As buscas da semana　Google Trends", 19, "sans", False, GREY)
 gt = [
     ("sondage présidentielle 2027", "5 000 +", 250),
     ("knicks – 76ers (NBA)", "2 000 +", 196),
@@ -79,8 +79,8 @@ gt = [
 byy = gy + 150
 for i, (lab, val, bw) in enumerate(gt):
     p.text(gx + 22, byy + 22, f"{i+1}. {lab}", 21.5, "serif", True, INK)
-    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE if i == 0 else GOLD)
-    p.text(gx + 30 + bw, byy + 53, val, 20, "sans", True, BRICK)
+    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE)
+    p.text(gx + 30 + bw, byy + 53, val, 20, "sans", True, OLIVE)
     byy += 92
 p.text(gx + 22, byy + 16, "Source : Google Trends, France,", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "recherches du jour, cette semaine.", 18.5, "sans", False, GREY)
@@ -88,8 +88,8 @@ p.text(gx + 22, byy + 76, "A mais buscada: a presidencial de 2027.", 19, "sans",
 
 # ---- sommaire (col 3) ----
 sy = 1280
-p.rect(gx, sy, gw, 372, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "DANS CE NUMÉRO · SUMÁRIO", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 372, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "DANS CE NUMÉRO　SUMÁRIO", 24, "sans", True, OLIVE)
 som = [
     ("p.2", "L'heure d'hiver arrive", "A2"),
     ("p.3", "La Toussaint des fleurs", "A2→B1"),
@@ -101,7 +101,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 72, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -109,9 +109,10 @@ for pg, t, lv in som:
 # ---- mot de la semaine (col 3) ----
 my = 1652
 p.text(gx, my + 24, "LE MOT DE LA SEMAINE", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-p.para(gx, my + 76, "« reculer » : aller en arrière. Dimanche, les horloges reculent d'une heure.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, my + 146, "Andar para trás; atrasar o relógio.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« reculer »", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "aller en arrière. Dimanche, les horloges reculent d'une heure.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 10, "Andar para trás; atrasar o relógio.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -122,7 +123,7 @@ caption(p, ix, iy + 320, iw,
         "L'automne à Mama, près d'Edo : les érables deviennent rouges, les lecteurs ouvrent leurs livres.",
         "Utagawa Hiroshige (1797-1858), estampe, domaine public · LACMA")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-automne")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-automne")
 f2.head("L'AUTOMNE, SAISON DES LIVRES", 25)
 f2.para("En France, l'automne est la saison des livres : c'est la « rentrée littéraire », des centaines de romans nouveaux arrivent en librairie.", 22.5)
 f2.para("Ce numéro suit le rythme de la saison : les vacances, la Toussaint, le basket de la nuit, les chiffres de la politique. Bonne lecture !", 22.5)
@@ -130,8 +131,8 @@ f2.para("Ce numéro suit le rythme de la saison : les vacances, la Toussaint, le
 f2.end_report()
 # col 3 EN BREF
 bx = COLX[3]
-p.rect(bx, 1874, CW, 416, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "EN BREF · EM RESUMO", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 416, fill=BOX)
+p.text(bx + 22, 1914, "EN BREF　EM RESUMO", 24, "sans", True, OLIVE)
 brefs = [
     ("VACANCES", "Les vacances de la Toussaint ont commencé samedi 17. Les cours reprennent le lundi 2 novembre."),
     ("NBA", "La saison de basket commence : la France regarde les Spurs de Wembanyama. (page 4)"),
@@ -139,15 +140,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz éclair (4 columns, one item each) ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "QUIZ ÉCLAIR · QUIZ RELÂMPAGO", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Leia a primeira página e escolha a resposta certa · Respostas na página 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "QUIZ ÉCLAIR　QUIZ RELÂMPAGO", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Leia a primeira página e escolha a resposta certa　Respostas na página 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "B", "a manchete: a busca número um na França nesta semana",
       "Quelle est la recherche numéro un en France cette semaine ? A. le football · B. « sondage présidentielle 2027 » · C. la météo", size=21)
 qf.ex("A2", "单选", "B", "neste domingo, às 3 h serão 2 h",
@@ -164,11 +165,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · 生活 (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("VIE QUOTIDIENNE · VIDA COTIDIANA", "Le Lucerna", "NIVEAU A2 · Changement d'heure · A MUDANÇA DE HORA")
+p.band("VIE QUOTIDIENNE　VIDA COTIDIANA", "Le Lucerna", "NIVEAU A2　Changement d'heure　A MUDANÇA DE HORA")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Changement d'heure : dimanche, la France recule d'une heure", 37)
-f.byline("Par la rédaction · Niveau de lecture : A2")
+f.title("Changement d'heure : dimanche, la France recule d'une heure", 32)
+f.byline("Par la rédaction　Niveau de lecture : A2")
 f.para("Dans la nuit de samedi à dimanche, la France passe à l'heure d'hiver. À trois heures du matin, les horloges reculent : il est deux heures. Résultat : on dort une heure de plus !")
 f.para("Pourquoi ce changement ? L'histoire commence en 1976. Après le choc pétrolier de 1973, l'énergie est très chère. L'idée est simple : utiliser la lumière du jour pour économiser l'électricité. Depuis, deux fois par an, les Français changent d'heure : au printemps, le dernier dimanche de mars, on avance d'une heure ; en automne, le dernier dimanche d'octobre, on recule.")
 f.para("Pour ne pas se tromper, les Français répètent une petite phrase : « En octobre, on recule. » Le même jour, toute l'Union européenne change d'heure. Les téléphones et les ordinateurs changent tout seuls. Mais attention aux montres, aux fours et aux vieux réveils : eux, il faut les régler à la main !")
@@ -194,7 +195,7 @@ sav = ["Le changement d'heure existe en France depuis 1976, après le choc pétr
        "Dimanche matin, vous gagnez une heure de sommeil. Profitez-en pour lire !"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -203,9 +204,9 @@ for t in sav:
 ey3 = sy3 + sh + 26
 etvous = "Dans votre pays, change-t-on d'heure ? Le dimanche, à quelle heure vous levez-vous ? Écrivez deux phrases en français et envoyez-les à la rédaction : les meilleures paraîtront dans le prochain numéro (page 7, « Le courrier des lecteurs »)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("O seu país muda a hora? A que horas você acorda no domingo? Escreva-nos.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "ET VOUS ? · E VOCÊ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "ET VOUS ?　E VOCÊ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "O seu país muda a hora? A que horas você acorda no domingo? Escreva-nos.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -213,9 +214,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Dire l'heure wide box ----
 dy = 1570
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "DIRE L'HEURE · DIZER AS HORAS", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Il est + heure · Atenção: para dizer as horas, usa-se « Il est », não « C'est »", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "DIRE L'HEURE　DIZER AS HORAS", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Il est + heure　Atenção: para dizer as horas, usa-se « Il est », não « C'est »", 20, "sans", False, GREY, anchor="end")
 
 def clock(cx, cy, r, hh, mm, label):
     p.add(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#fdfaf0" stroke="{INK}" stroke-width="3"/>')
@@ -228,7 +229,7 @@ def clock(cx, cy, r, hh, mm, label):
     ah = math.radians((hh % 12) * 30 + mm * 0.5)
     am = math.radians(mm * 6)
     p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.55)*math.sin(ah):.0f}" y2="{cy - (r*0.55)*math.cos(ah):.0f}" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>')
-    p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.82)*math.sin(am):.0f}" y2="{cy - (r*0.82)*math.cos(am):.0f}" stroke="{BRICK}" stroke-width="4" stroke-linecap="round"/>')
+    p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.82)*math.sin(am):.0f}" y2="{cy - (r*0.82)*math.cos(am):.0f}" stroke="{OLIVE}" stroke-width="4" stroke-linecap="round"/>')
     p.text(cx, cy + r + 34, label, 22, "serif", True, INK, anchor="middle")
 
 clock(240, dy + 140, 74, 3, 0, "Il est trois heures.")
@@ -249,11 +250,11 @@ p.para(lx, ly + 24, "Exemples : 8 h 45 = Il est neuf heures moins le quart. · 2
 
 # ---- P2 exercises ----
 ey = dy + 340
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCICES · EXERCÍCIOS DA PÁGINA 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respostas na página 8 · Os exercícios podem misturar os níveis: procure pelo número", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2562, tag="P2-ex")
-e.head("A · QUELLE HEURE EST-IL ?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCICES　EXERCÍCIOS DA PÁGINA 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respostas na página 8　Os exercícios podem misturar os níveis: procure pelo número", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P2-ex")
+e.head("A　QUELLE HEURE EST-IL ?", 25)
 e.expl("Complete as frases conforme a hora.")
 e.ex("A2", "完成句子", "demie", "14 h 30 = duas e meia da tarde",
      "14 h 30 : Il est deux heures et ___ .", instr="Complete", size=23)
@@ -265,7 +266,7 @@ e.ex("A2", "完成句子", "midi", "12 h 00 = meio-dia",
      "12 h 00 : Il est ___ . On déjeune !", instr="Complete", size=23)
 e.ex("A2", "完成句子", "minuit et demi", "0 h 30 = meia-noite e meia (minuit é masculino: demi sem -e)",
      "0 h 30 : Il est ___ . Bonne nuit !", instr="Complete", size=23)
-e.head("B · LE FUTUR PROCHE", 25)
+e.head("B　LE FUTUR PROCHE", 25)
 e.expl("Reescreva no futur proche (aller + inf.).")
 e.ex("A2", "句型转换", "Nous allons changer les horloges.", "nous → allons",
      "Ce soir, nous (changer) les horloges. → ___", instr="Reescreva")
@@ -275,7 +276,7 @@ e.ex("A2", "句型转换", "Les élèves vont reprendre les cours le 2 novembre.
      "Les élèves (reprendre) les cours le 2 novembre. → ___", instr="Reescreva")
 e.ex("B1", "句型转换", "Vous allez partir en vacances ?", "vous → allez",
      "Vous (partir) en vacances cette semaine ? → ___", instr="Reescreva")
-e.head("C · COMPRÉHENSION", 25)
+e.head("C　COMPRÉHENSION", 25)
 e.expl("Leia o artigo da página 2 e escolha.")
 e.ex("A2", "单选", "B", "existe desde 1976 (depois do choque do petróleo)",
      "Le changement d'heure existe depuis... A. 1916 · B. 1976 · C. 2020", size=23.5)
@@ -283,7 +284,7 @@ e.ex("A2", "单选", "B", "na primavera, adianta-se (avancer)",
      "Au printemps, on... A. recule d'une heure · B. avance d'une heure · C. ne change rien", size=23.5)
 e.ex("A2", "单选", "C", "celulares e computadores se atualizam sozinhos",
      "Quels appareils changent d'heure tout seuls ? A. les fours · B. les montres · C. les téléphones", size=23.5)
-e.head("D · LES MOTS", 25)
+e.head("D　LES MOTS", 25)
 e.match_set("A2", "词汇配对",
             ["reculer", "régler", "économiser", "la lumière du jour"],
             ["mettre une montre à l'heure", "aller en arrière",

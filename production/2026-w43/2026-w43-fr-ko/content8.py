@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band('EXERCICES & RÉPONSES · 연습 문제와 정답', "Le Lucerna", '종합 평가 ÉVALUATION · 정답은 이 면 아래쪽에')
+p.band('EXERCICES & RÉPONSES　연습 문제와 정답', "Le Lucerna", '종합 평가 ÉVALUATION　정답은 이 면 아래쪽에')
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1485, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("A2", "A", 'elle écrit 그녀가 쓰다'),
 ]
 cnums = [reg_ex(lv, '빈칸 채우기', k, nt) for lv, k, nt in cloze_defs]
-bf.head('A · TEXTE À TROUS · 빈칸 채우기', 24)
+bf.head('A　TEXTE À TROUS　빈칸 채우기', 24)
 bf.para(f"Léa a quinze ans. Le ({cnums[0]})___ 1er novembre, elle se lève tôt : c'est la Toussaint. Avec sa famille, elle va au ({cnums[1]})___. Sa grand-mère porte un bouquet de ({cnums[2]})___, les fleurs du souvenir. « On les pose sur la ({cnums[3]})___ de ton grand-père », dit sa mère. L'après-midi, Léa se ({cnums[4]})___ et lit un roman en français avec un dictionnaire. Le soir, elle pense : « J'ai pensé aux morts, mais j'ai aussi ({cnums[5]})___ ma famille vivante. » Demain, les cours ({cnums[6]})___ : les vacances sont finies. Mais Léa garde une phrase de son roman et elle l'({cnums[7]})___ dans son cahier.", 21.5)
 bf.expl('보기:')
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head('B · CHOIX MULTIPLE · 객관식', 24)
+bf.head('B　CHOIX MULTIPLE　객관식', 24)
 mcq = [
     ("A2", "B", "7 h 30 = et demie", "Il est sept heures ___. (7 h 30) A. et quart · B. et demie · C. moins le quart"),
     ("A2", "A", "nous → allons", "Dimanche, nous ___ reculer les horloges. A. allons · B. allez · C. vont"),
@@ -54,7 +54,7 @@ for lv, k, nt, body in mcq:
     bf.ex(lv, '객관식', k, nt, body, size=20.5)
 
 # ---- C. reading ----
-bf.head('C · LECTURE · 읽기 이해', 24)
+bf.head('C　LECTURE　읽기 이해', 24)
 bf.para("Samedi soir, la famille Martin regarde un film. À deux heures du matin, tout le monde dort. Mais quelque chose se prépare... À trois heures, les horloges du pays reculent : il est deux heures. La nuit dure une heure de plus ! Le dimanche matin, Monsieur Martin se réveille content. « On a bien dormi ! » dit-il. Sa fille rit : « Papa, tu as dormi une heure de plus, mais le chat, lui, demande son petit déjeuner à l'ancienne heure ! » Le soir, la nuit tombera plus tôt : à dix-huit heures, il fera déjà noir — l'hiver arrive.", 21.5)
 read_qs = [
     ("A2", "C", '본문: les horloges reculent', "Que se passe-t-il à trois heures ? A. Le film commence · B. La famille se réveille · C. Les horloges reculent"),
@@ -66,7 +66,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, '읽기 이해', k, nt, body, size=20.5)
 
 # ---- D. sentence building ----
-bf.head('D · PHRASES · 문장 완성', 24)
+bf.head('D　PHRASES　문장 완성', 24)
 d_items = [
     ("A2", "Les Français vont reculer les horloges dimanche.", 'aller + 원형 (futur proche)',
      "Futur proche : « Les Français reculent les horloges dimanche. » → ___"),
@@ -81,7 +81,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, '문장 완성', k, nt, body, size=20.5)
 
 # ---- E. translation ----
-bf.head('E · TRADUCTION · 번역', 24)
+bf.head('E　TRADUCTION　번역', 24)
 e_items = [
     ("B2", '여론조사를 읽는 것 자체가 이미 정치에 참여하는 거예요.', 'lire un sondage = 여론조사를 읽다',
      "Traduisez : « Lire un sondage, c'est déjà faire de la politique. »"),
@@ -96,7 +96,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, '번역', k, nt, body, size=20.5)
 
 # ---- F. matching ----
-bf.head('F · LES MOTS · 단어 짝짓기', 24)
+bf.head('F　LES MOTS　단어 짝짓기', 24)
 bf.match_set("B1", '단어 짝짓기',
              ["un scrutin", "devancer", "un cimetière", "une console"],
              ["un vote organisé", "passer devant quelqu'un", "le lieu où sont les tombes",
@@ -114,28 +114,28 @@ dlg_defs = [
     ("A2", "voyage", 'Bon voyage ! 즐거운 여행 되세요'),
 ]
 gnums = [reg_ex(lv, '대화 완성', k, nt) for lv, k, nt in dlg_defs]
-bf.head('G · DIALOGUE · 대화 완성', 24)
+bf.head('G　DIALOGUE　대화 완성', 24)
 bf.para(f"— Bonjour madame, un billet pour Lyon, s'il vous plaît. — Pour quel jour ? — Pour ({gnums[0]})___, le 24 octobre : je pars chez mes grands-parents pour la Toussaint. Je dois aussi acheter des ({gnums[1]})___ pour le cimetière. — Les chrysanthèmes sont à gauche. Vous ({gnums[2]})___ le train de 9 h 15 ? — Oui. Il arrive à quelle heure à Lyon ? — À 11 h 30. — Ah oui, cette nuit, on ({gnums[3]})___ les horloges d'une heure. Je vais dormir plus ! Voici vos billets. Bon ({gnums[4]})___ ! — Merci, au revoir !", 21.5)
 bf.end_report()
 
 # ---- writing strip ----
 wy = 1500
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", '쓰기', '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에', '기준 항목대로 채점해요')
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, 'H · ÉCRITURE · 쓰기', 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, 'H　ÉCRITURE　쓰기', 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Écrivez un petit texte (80 à 100 mots) : « Mes vacances de la Toussaint ». Racontez : où, avec qui, une fleur, un repas, un livre. Les meilleurs textes paraîtront dans le VOL.3 (page 7, « Le courrier des lecteurs »).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 190, '프랑스어로 80–100단어를 쓰세요: 나의 모든 성인의 날 연휴. 장소, 함께한 사람, 꽃 한 송이, 식사 한 끼, 책 한 권을 쓰세요.', 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 276, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, 'MODÈLE · 모범 답안', 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 276, fill=BOX)
+p.text(mx2 + 22, wy + 38, 'MODÈLE　모범 답안', 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "Pendant les vacances, je suis allé chez mes grands-parents, à la campagne. Le matin, nous avons marché dans la forêt aux feuilles rouges et jaunes. Le dimanche 25 octobre, j'ai reculé ma montre d'une heure... et j'ai dormi très longtemps ! Le 1er novembre, nous sommes allés au cimetière avec des chrysanthèmes blancs pour la tombe de mon arrière-grand-père. Le soir, ma grand-mère a préparé une soupe délicieuse. Après le repas, nous avons regardé de vieilles photos de famille, et j'ai lu vingt pages de mon roman français.", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 312
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, 'RÉPONSES · 전체 정답과 해설 (1–8면)', 26, "sans", True, OLIVE)
-kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2545, tag="P8-keys")
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, 'RÉPONSES　전체 정답과 해설 (1–8면)', 26, "sans", True, OLIVE)
+kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 # Notes printed on this page = exactly the set printed in the core edition,
 # computed from the core registry (its rule was: page 8 always, or note of
 # 10 chars or fewer, or chart/error-correction types). Reproduced as an

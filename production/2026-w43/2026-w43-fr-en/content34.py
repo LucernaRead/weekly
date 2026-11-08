@@ -3,23 +3,23 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · 文化 (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURE · TRADITIONS", "Le Lucerna", "NIVEAU A2 → B1 · La Toussaint · ALL SAINTS' DAY")
+p.band("CULTURE　TRADITIONS", "Le Lucerna", "NIVEAU A2 → B1　La Toussaint　ALL SAINTS' DAY")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P3-main")
-f.title("La Toussaint : le jour des fleurs et des souvenirs", 37)
-f.byline("Par la rédaction · Niveau de lecture : A2 → B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P3-main")
+f.title("La Toussaint : le jour des fleurs et des souvenirs", 32)
+f.byline("Par la rédaction　Niveau de lecture : A2 → B1")
 f.para("Le 1er novembre, la France fête la Toussaint. À l'origine, c'est la fête de tous les saints. Aujourd'hui, pour beaucoup de familles, c'est surtout le jour du souvenir : on pense aux personnes mortes qu'on a aimées.")
 f.para("Ce jour-là, les cimetières se remplissent de fleurs. La fleur de la Toussaint, c'est le chrysanthème. Les Français en achètent des millions : blancs, jaunes, violets... On les pose sur les tombes, on nettoie les pierres, et on reste un moment en silence avec la famille.")
 f.para("Attention, voyageurs ! En France, le chrysanthème est la fleur des cimetières. On n'offre jamais de chrysanthèmes pour un anniversaire ou pour un dîner. Pour faire plaisir, choisissez des roses ou des tulipes !")
 f.para("La Toussaint arrive pendant les vacances scolaires : les familles voyagent pour se retrouver. Le 1er novembre est un jour férié : les écoles, les bureaux et beaucoup de magasins sont fermés. Dans les villages comme dans les grandes villes, c'est un jour calme, doux et un peu mélancolique — le cœur de l'automne français.")
 f.gloss("un cimetière a cemetery · une tombe a grave · un jour férié a public holiday · le souvenir memory, remembrance · mélancolique melancholy · à l'origine originally.")
-f.head("À VOUS ! · YOUR TURN", 25)
+f.head("À VOUS !　YOUR TURN", 25)
 f.bridge("True or false? (Vrai / Faux)")
 f.ex("A2", "阅读判断", "Faux", "All Saints' Day is 1 November, not 31 October",
      "La Toussaint est le 31 octobre.", instr="Vrai ou faux ?")
@@ -81,8 +81,8 @@ cy3 = caption(p, ix, 740, CW,
               "Le chrysanthème, fleur du souvenir en France : on le pose sur les tombes, on ne l'offre jamais en cadeau.",
               "Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public")
 by3 = cy3 + 22
-p.rect(ix, by3, CW, 452, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES · WORDS", 23, "sans", True, OLIVE)
+p.rect(ix, by3, CW, 452, fill=BOX)
+p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　WORDS", 23, "sans", True, OLIVE)
 mots = [
     "un saint — a saint", "un cimetière — a cemetery", "une tombe — a tomb, a grave",
     "un jour férié — a public holiday", "se souvenir — to remember",
@@ -94,13 +94,13 @@ for m in mots:
     p.text(ix + 22, yy3, m, 21.5, "serif", False, INK)
     yy3 += 37
 zy3 = by3 + 452 + 26
-p.rect(ix, zy3, CW, 476, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(ix + 22, zy3 + 40, "ZOOM · THE WRITERS' CEMETERY", 23, "sans", True, OLIVE)
+p.rect(ix, zy3, CW, 476, fill="#f0eee5")
+p.text(ix + 22, zy3 + 40, "ZOOM　THE WRITERS' CEMETERY", 23, "sans", True, OLIVE)
 p.para(ix + 22, zy3 + 78, "À Paris, le cimetière du Père-Lachaise est le plus visité du monde. On y trouve les tombes de Balzac, d'Oscar Wilde et de Marcel Proust. Le 1er novembre, des lecteurs y déposent des fleurs... et parfois un livre.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, zy3 + 340, "Balzac, Wilde and Proust are buried at Père-Lachaise. On All Saints' Day, readers bring the writers a flower.", 20, "sans", False, GREY, CW - 44, 1.4)
 dy3 = zy3 + 476 + 26
-p.rect(ix, dy3, CW, 330, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, dy3 + 40, "DATES À RETENIR · THIS MONTH", 23, "sans", True, OLIVE)
+p.rect(ix, dy3, CW, 330, fill=BOX)
+p.text(ix + 22, dy3 + 40, "DATES À RETENIR　THIS MONTH", 23, "sans", True, OLIVE)
 dates3 = [
     ("dim. 25 oct.", "changement d'heure !"),
     ("sam. 31 oct.", "Halloween"),
@@ -109,13 +109,13 @@ dates3 = [
 ]
 yy3 = dy3 + 84
 for d, t in dates3:
-    p.text(ix + 22, yy3, d, 19.5, "sans", True, BRICK)
+    p.text(ix + 22, yy3, d, 19.5, "sans", True, OLIVE)
     p.text(ix + 168, yy3, t, 18.5, "serif", False, INK)
     yy3 += 42
 p.para(ix + 22, yy3 + 20, "Three days in a row: Halloween, All Saints', back to school.", 19.5, "sans", False, GREY, CW - 44, 1.4)
 py3 = dy3 + 330 + 30
 p.text(ix, py3 + 24, "POUR OU CONTRE ?", 23, "sans", True, OLIVE)
-p.hline(ix, ix + CW, py3 + 38, GOLD, 2)
+p.hline(ix, ix + CW, py3 + 38, OLIVE, 2)
 p.para(ix, py3 + 74, "Halloween en France : fête joyeuse ou commerce ? Écrivez votre avis en deux phrases (page 8).", 20.5, "serif", False, INK, CW, 1.4)
 p.foot(3)
 p.save(f"{OUT}/p3-culture.svg")
@@ -124,18 +124,18 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · 体育 (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · SPORTS", "Le Lucerna", "NIVEAU B1 · NBA · Wembanyama")
+p.band("SPORT　SPORTS", "Le Lucerna", "NIVEAU B1　NBA　Wembanyama")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P4-main")
-f.title("Wemby : le géant français qui fait rêver la NBA", 37)
-f.byline("Par la rédaction · Niveau de lecture : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P4-main")
+f.title("Wemby : le géant français qui fait rêver la NBA", 32)
+f.byline("Par la rédaction　Niveau de lecture : B1")
 f.para("Il mesure 2,24 mètres. Il a de très longs bras. Et cette semaine, son équipe est dans les recherches Google de toute la France : les Spurs de San Antonio contre Oklahoma City. Le nom du phénomène : Victor Wembanyama, dit « Wemby ».")
 f.para("Né au Chesnay, près de Paris, Victor commence le sport enfant : d'abord le football — il est gardien de but ! — et le judo. Puis le basket arrive, et tout change. À 19 ans, il devient le numéro un de la draft NBA : les Spurs le choisissent en premier. C'est un événement historique pour le basket français.")
 f.para("Pourquoi tout le monde le regarde ? Parce qu'il joue comme personne : très grand, mais rapide et précis. Il bloque les tirs des adversaires et il marque de loin, avec facilité. Certains commentateurs l'appellent « l'extraterrestre » : sur le terrain, il semble venir d'une autre planète.")
 f.para("La France a déjà eu une star en NBA : Tony Parker, quatre fois champion avec San Antonio. Aujourd'hui, Parker regarde les matchs de Wemby comme un grand frère. Entre les deux hommes, une même adresse : San Antonio, une ville devenue un peu française.")
 f.para("La saison NBA commence en automne. En France, beaucoup de jeunes se lèvent la nuit pour regarder les matchs en direct. C'est dur pour le réveil du matin... mais quand Wemby joue, le spectacle vaut le voyage.")
 f.gloss("un géant a giant · la draft the (NBA) draft · un tir a shot · bloquer to block · un gardien de but a goalkeeper · précis precise · en direct live.")
-f.head("À VOUS ! · YOUR TURN", 25)
+f.head("À VOUS !　YOUR TURN", 25)
 f.bridge("Read the article on page 4 and choose the right answer.")
 f.ex("B1", "单选", "B", "text: Il mesure 2,24 mètres",
      "Victor Wembanyama mesure... A. 2,04 m · B. 2,24 m · C. 2,40 m")
@@ -167,7 +167,7 @@ f.para("Le basket n'est pas né en France — il arrive des États-Unis à la fi
 f.para("Avec Wembanyama, une nouvelle génération découvre le championnat américain. Les professeurs de sport le racontent : depuis l'arrivée de « Wemby » en NBA, les inscriptions des adolescents dans les clubs augmentent. Un géant de 2,24 mètres fait grandir tout un sport.", 23.5)
 f.bridge("NOTE · une inscription signing up · un championnat a championship, a league · une salle a sports hall.")
 f.para("À l'école aussi, le basket est partout : dans les cours de sport, sur les terrains des quartiers, et cette semaine dans les recherches Google des Français. La saison ne fait que commencer — la France continuera de se lever la nuit.", 23.5)
-f.head("REGARDER UN MATCH EN FRANÇAIS", 25)
+f.head("VOIR UN MATCH EN FRANÇAIS", 25)
 f.para("Pour profiter d'un match avec les commentaires français, quelques phrases suffisent. Les commentateurs parlent vite, mais ils répètent souvent les mêmes expressions : écoutez, répétez, criez avec eux !", 23.5)
 f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — Come on! · « Quelle action ! » — What a play!", "serif", False, INK, 21.5, 1.42),
@@ -186,13 +186,13 @@ f.end_report()
 
 # col 3: Parker + vocab + stats + micro-drills
 ix = COLX[3]
-p.rect(ix, 200, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, 470, fill=BOX)
 p.text(ix + 22, 240, "TONY PARKER, LE PIONNIER", 23, "sans", True, OLIVE)
 p.para(ix + 22, 278, "Avant Wemby, il y a Tony Parker. Arrivé à San Antonio à 19 ans, il gagne quatre titres de champion NBA (2003, 2005, 2007, 2014). Aujourd'hui, il est président du club de l'ASVEL, à Villeurbanne, et il reste un modèle pour les jeunes joueurs français.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, 520, "Cette semaine, son nom est aussi dans les recherches Google : la France du basket a la mémoire longue.", 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
-p.rect(ix, vy, CW, 416, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(ix + 22, vy + 40, "LES MOTS DU SPORT · WORDS", 23, "sans", True, OLIVE)
+p.rect(ix, vy, CW, 416, fill="#f0eee5")
+p.text(ix + 22, vy + 40, "LES MOTS DU SPORT　WORDS", 23, "sans", True, OLIVE)
 mots4 = [
     "le basket — basketball", "un match — a match", "un panier — a basket; a score",
     "un terrain — a court, a pitch", "un champion — a champion", "s'entraîner — to train",
@@ -203,11 +203,11 @@ for m in mots4:
     p.text(ix + 22, yy4, m, 21.5, "serif", False, INK)
     yy4 += 37
 sy4 = vy + 416 + 26
-p.rect(ix, sy4, CW, 218, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy4, CW, 218, fill=BOX)
 p.text(ix + 22, sy4 + 40, "WEMBY EN CHIFFRES", 23, "sans", True, OLIVE)
 p.para(ix + 22, sy4 + 80, "2,24 m — sa taille · né en 2004 au Chesnay · n° 1 de la draft 2023 · son surnom : « Wemby ».", 21.5, "serif", False, INK, CW - 44, 1.42)
-mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2540, tag="P4-micro")
-mf.head("MICRO-DRILLS · PRACTICE", 24)
+mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2560, tag="P4-micro")
+mf.head("MICRO-DRILLS　PRACTICE", 24)
 mf.bridge("Fill in with bloque / marque / gagnent / entraînent / gagné / saison.")
 mf.ex("B1", "完成句子", "bloque", "bloquer les tirs = to block shots",
       "Wemby ___ le tir de l'adversaire.", size=23)
@@ -223,8 +223,8 @@ mf.ex("A2", "完成句子", "saison", "la saison commence en automne",
       "La ___ NBA commence en automne.", size=23)
 mf.end_report()
 db4 = mf.y + 6
-p.rect(ix, db4, CW, 2540 - db4, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(ix + 22, db4 + 40, "LE DÉBAT · THE DEBATE", 23, "sans", True, OLIVE)
+p.rect(ix, db4, CW, 2560 - db4, fill="#f0eee5")
+p.text(ix + 22, db4 + 40, "LE DÉBAT　THE DEBATE", 23, "sans", True, OLIVE)
 p.para(ix + 22, db4 + 78, "Se lever à 3 heures du matin pour un match : folie ou passion ? Discutez en classe : deux phrases pour, deux phrases contre.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, db4 + 196, "Getting up at 3 a.m. for a match: madness or passion? Two sentences for, two against.", 20, "sans", False, GREY, CW - 44, 1.4)
 p.foot(4)

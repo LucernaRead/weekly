@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EXERCICES & RÉPONSES · 練習與答案", "Le Lucerna", "綜合評估 ÉVALUATION · 答案在本版下方")
+p.band("EXERCICES & RÉPONSES　練習與答案", "Le Lucerna", "綜合評估 ÉVALUATION　答案在本版下方")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1485, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit 她寫"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · TEXTE À TROUS · 完形填空", 24)
+bf.head("A　TEXTE À TROUS　完形填空", 24)
 bf.para(f"Léa a quinze ans. Le ({cnums[0]})___ 1er novembre, elle se lève tôt : c'est la Toussaint. Avec sa famille, elle va au ({cnums[1]})___. Sa grand-mère porte un bouquet de ({cnums[2]})___, les fleurs du souvenir. « On les pose sur la ({cnums[3]})___ de ton grand-père », dit sa mère. L'après-midi, Léa se ({cnums[4]})___ et lit un roman en français avec un dictionnaire. Le soir, elle pense : « J'ai pensé aux morts, mais j'ai aussi ({cnums[5]})___ ma famille vivante. » Demain, les cours ({cnums[6]})___ : les vacances sont finies. Mais Léa garde une phrase de son roman et elle l'({cnums[7]})___ dans son cahier.", 21.5)
 bf.expl("選項：")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B · CHOIX MULTIPLE · 單選", 24)
+bf.head("B　CHOIX MULTIPLE　單選", 24)
 mcq = [
     ("A2", "B", "7 h 30 = et demie", "Il est sept heures ___. (7 h 30) A. et quart · B. et demie · C. moins le quart"),
     ("A2", "A", "nous → allons", "Dimanche, nous ___ reculer les horloges. A. allons · B. allez · C. vont"),
@@ -54,7 +54,7 @@ for lv, k, nt, body in mcq:
     bf.ex(lv, "單選", k, nt, body, size=20.5)
 
 # ---- C. reading ----
-bf.head("C · LECTURE · 閱讀理解", 24)
+bf.head("C　LECTURE　閱讀理解", 24)
 bf.para("Samedi soir, la famille Martin regarde un film. À deux heures du matin, tout le monde dort. Mais quelque chose se prépare... À trois heures, les horloges du pays reculent : il est deux heures. La nuit dure une heure de plus ! Le dimanche matin, Monsieur Martin se réveille content. « On a bien dormi ! » dit-il. Sa fille rit : « Papa, tu as dormi une heure de plus, mais le chat, lui, demande son petit déjeuner à l'ancienne heure ! » Le soir, la nuit tombera plus tôt : à dix-huit heures, il fera déjà noir — l'hiver arrive.", 21.5)
 read_qs = [
     ("A2", "C", "原文：les horloges reculent", "Que se passe-t-il à trois heures ? A. Le film commence · B. La famille se réveille · C. Les horloges reculent"),
@@ -66,7 +66,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "閱讀理解", k, nt, body, size=20.5)
 
 # ---- D. sentence building ----
-bf.head("D · PHRASES · 完成句子與轉換", 24)
+bf.head("D　PHRASES　完成句子與轉換", 24)
 d_items = [
     ("A2", "Les Français vont reculer les horloges dimanche.", "aller + 原形（futur proche）",
      "Futur proche : « Les Français reculent les horloges dimanche. » → ___"),
@@ -81,7 +81,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20.5)
 
 # ---- E. translation ----
-bf.head("E · TRADUCTION · 翻譯", 24)
+bf.head("E　TRADUCTION　翻譯", 24)
 e_items = [
     ("B2", "讀一份民調，本身就是在參與政治。", "lire un sondage = 讀民調",
      "Traduisez : « Lire un sondage, c'est déjà faire de la politique. »"),
@@ -96,7 +96,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, "翻譯", k, nt, body, size=20.5)
 
 # ---- F. matching ----
-bf.head("F · LES MOTS · 詞彙配對", 24)
+bf.head("F　LES MOTS　詞彙配對", 24)
 bf.match_set("B1", "詞彙配對",
              ["un scrutin", "devancer", "un cimetière", "une console"],
              ["un vote organisé", "passer devant quelqu'un", "le lieu où sont les tombes",
@@ -114,34 +114,34 @@ dlg_defs = [
     ("A2", "voyage", "Bon voyage ! 一路順風"),
 ]
 gnums = [reg_ex(lv, "對話補全", k, nt) for lv, k, nt in dlg_defs]
-bf.head("G · DIALOGUE · 對話補全", 24)
+bf.head("G　DIALOGUE　對話補全", 24)
 bf.para(f"— Bonjour madame, un billet pour Lyon, s'il vous plaît. — Pour quel jour ? — Pour ({gnums[0]})___, le 24 octobre : je pars chez mes grands-parents pour la Toussaint. Je dois aussi acheter des ({gnums[1]})___ pour le cimetière. — Les chrysanthèmes sont à gauche. Vous ({gnums[2]})___ le train de 9 h 15 ? — Oui. Il arrive à quelle heure à Lyon ? — À 11 h 30. — Ah oui, cette nuit, on ({gnums[3]})___ les horloges d'une heure. Je vais dormir plus ! Voici vos billets. Bon ({gnums[4]})___ ! — Merci, au revoir !", 21.5)
 bf.end_report()
 
 # ---- writing strip ----
 wy = 1500
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "寫作", "開放題 — 要點見寫作框，範本在第 8 版寫作框內", "按要點給分")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · ÉCRITURE · 寫作", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　ÉCRITURE　寫作", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Écrivez un petit texte (80 à 100 mots) : « Mes vacances de la Toussaint ». Racontez : où, avec qui, une fleur, un repas, un livre. Les meilleurs textes paraîtront dans le VOL.3 (page 7, « Le courrier des lecteurs »).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 190, "用法語寫 80–100 詞：我的諸聖節假期。寫清地點、同行者、一枝花、一頓飯、一本書。", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 276, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MODÈLE · 範本", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 276, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MODÈLE　範本", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "Pendant les vacances, je suis allé chez mes grands-parents, à la campagne. Le matin, nous avons marché dans la forêt aux feuilles rouges et jaunes. Le dimanche 25 octobre, j'ai reculé ma montre d'une heure... et j'ai dormi très longtemps ! Le 1er novembre, nous sommes allés au cimetière avec des chrysanthèmes blancs pour la tombe de mon arrière-grand-père. Le soir, ma grand-mère a préparé une soupe délicieuse. Après le repas, nous avons regardé de vieilles photos de famille, et j'ai lu vingt pages de mon roman français.", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 312
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "RÉPONSES · 全部答案與簡析（第 1–8 版）", 26, "sans", True, OLIVE)
-kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2545, tag="P8-keys")
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "RÉPONSES　全部答案與簡析（第1–8版）", 26, "sans", True, OLIVE)
+kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 PRINT_NOTES = {1, 4, 17, 22, 26, 33, 35, 41, 44, 46, 47, 55, 56, 65,
                71, 72, 73, 74, 80, 81, 82, 83, 84, 85, 92, 97,
                *range(105, 146)}
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):
-    kf.para(f"— 第 {pg} 版 —", 17, "sans", True, OLIVE, 1.28, 3)
+    kf.para(f"— 第{pg}版 —", 17, "sans", True, OLIVE, 1.28, 3)
     parts = []
     for e in grp:
         s = f"{e['n']}. {e['key']}"

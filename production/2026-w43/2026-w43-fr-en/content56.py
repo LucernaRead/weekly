@@ -3,23 +3,23 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 青年 (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("JEUNESSE & ÉCRANS · YOUNG PEOPLE", "Le Lucerna", "NIVEAU B1 · GTA VI · Réseaux sociaux")
+p.band("JEUNESSE & ÉCRANS　YOUNG PEOPLE", "Le Lucerna", "NIVEAU B1　GTA VI　Réseaux sociaux")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P5-main")
-f.title("GTA VI : le jeu que tout le monde attend", 37)
-f.byline("Par la rédaction · Niveau de lecture : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P5-main")
+f.title("GTA VI : le jeu que tout le monde attend", 32)
+f.byline("Par la rédaction　Niveau de lecture : B1")
 f.para("C'est peut-être le jeu vidéo le plus attendu de la planète. Grand Theft Auto VI — GTA VI — est encore une fois, cette semaine, dans les recherches Google en France. Les fans attendent, regardent les bandes-annonces et comptent les jours.")
 f.para("La série GTA est célèbre pour ses villes immenses : on se promène librement dans un monde ouvert, en voiture ou à pied. Pour beaucoup de joueurs, c'est comme un film interactif géant — avec de l'humour, de la musique et des histoires de personnages attachants.")
 f.para("En France, le jeu vidéo est un loisir de masse : des millions de personnes jouent, sur console, sur ordinateur ou sur téléphone. Les jeunes, bien sûr, mais aussi leurs parents. Et les mots du jeu vidéo sont partout : « streamer », « gamer », « spoiler »... mélangés au français de tous les jours.")
 f.para("Pourquoi tant d'attente ? Parce que les grands jeux sont rares, et parce que chaque bande-annonce devient un événement mondial, regardé des centaines de millions de fois. En attendant la sortie, les fans imaginent, dessinent et discutent. L'attente, elle aussi, fait partie du jeu.")
 f.gloss("un jeu vidéo a video game · une bande-annonce a trailer · un monde ouvert an open world · une console a games console · la sortie the release · un loisir a leisure activity.")
-f.head("À VOUS ! · YOUR TURN", 25)
+f.head("À VOUS !　YOUR TURN", 25)
 f.bridge("Read the article on page 5 and choose the right answer.")
 f.ex("B1", "单选", "B", "GTA is famous for its huge open worlds",
      "La série GTA est célèbre pour... A. ses petites villes · B. ses mondes ouverts · C. ses jeux de cartes")
@@ -73,8 +73,8 @@ f.end_report()
 
 # col 3 boxes
 ix = COLX[3]
-p.rect(ix, 200, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS · WORDS", 23, "sans", True, OLIVE)
+p.rect(ix, 200, CW, 470, fill=BOX)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　WORDS", 23, "sans", True, OLIVE)
 mots5 = [
     "un écran — a screen", "un réseau social — a social network", "viral — viral, gone viral",
     "un abonné — a subscriber", "partager — to share", "un commentaire — a comment",
@@ -86,24 +86,24 @@ for m in mots5:
     p.text(ix + 22, yy5, m, 21.5, "serif", False, INK)
     yy5 += 37
 qy5 = 696
-p.rect(ix, qy5, CW, 400, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, qy5, CW, 400, fill="#f0eee5")
 p.text(ix + 22, qy5 + 40, "LA PHRASE QUI FAIT RÉAGIR", 23, "sans", True, OLIVE)
-p.para(ix + 22, qy5 + 92, "« Lire en français, c'est chic. »", 27, "serif", True, BRICK, CW - 44, 1.3)
+p.para(ix + 22, qy5 + 92, "« Lire en français, c'est chic. »", 27, "serif", True, OLIVE, CW - 44, 1.3)
 p.para(ix + 22, qy5 + 168, "Sous cette phrase, des centaines de lecteurs racontent leur premier livre en français : un roman d'amour, un polar, un classique commencé trois fois. Et vous, quel est le vôtre ?", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, qy5 + 322, "What was the first book you read in French? Tell us in the comments.", 20, "sans", False, GREY, CW - 44, 1.4)
 dy5 = qy5 + 400 + 26
-p.rect(ix, dy5, CW, 440, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, dy5 + 40, "LE DÉBAT · SCREEN TIME", 23, "sans", True, OLIVE)
+p.rect(ix, dy5, CW, 440, fill=BOX)
+p.text(ix + 22, dy5 + 40, "LE DÉBAT　SCREEN TIME", 23, "sans", True, OLIVE)
 p.para(ix + 22, dy5 + 78, "Combien d'heures par jour devant un écran ? Pour jouer, regarder, lire... Les écrans sont-ils des ennemis des livres, ou une autre porte pour entrer dans la langue ?", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 240, "Petit test de la rédaction : ce soir, remplacez trente minutes d'écran par trente minutes de lecture — et racontez-nous la différence (page 8).", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 372, "Try it tonight: thirty minutes less screen, thirty minutes more book.", 20, "sans", False, GREY, CW - 44, 1.4)
 sy5 = dy5 + 440 + 26
 p.text(ix, sy5 + 24, "LE SONDAGE DE LA RÉDACTION", 23, "sans", True, OLIVE)
-p.hline(ix, ix + CW, sy5 + 38, GOLD, 2)
+p.hline(ix, ix + CW, sy5 + 38, OLIVE, 2)
 p.para(ix, sy5 + 76, "Quel jeu attendez-vous le plus ? Quel livre français lisez-vous en ce moment ? Répondez dans les commentaires : résultats dans le prochain numéro.", 21.5, "serif", False, INK, CW, 1.42)
 p.para(ix, sy5 + 210, "Editors' poll: which game are you waiting for? Which French book are you reading?", 20, "sans", False, GREY, CW, 1.4)
 ty5 = sy5 + 268
-p.rect(ix, ty5, CW, 2540 - ty5, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ty5, CW, 2560 - ty5, fill=BOX)
 p.text(ix + 22, ty5 + 40, "TROIS TENDANCES À RETENIR", 23, "sans", True, OLIVE)
 tend5 = [
     ("1 · LE JEU ÉVÉNEMENT", "GTA VI fait attendre la planète entière : l'attente devient un spectacle."),
@@ -112,7 +112,7 @@ tend5 = [
 ]
 yy5 = ty5 + 82
 for h, t in tend5:
-    p.text(ix + 22, yy5, h, 20.5, "sans", True, BRICK)
+    p.text(ix + 22, yy5, h, 20.5, "sans", True, OLIVE)
     yy5 = p.para(ix + 22, yy5 + 28, t, 21, "serif", False, INK, CW - 44, 1.4) + 16
 p.foot(5)
 p.save(f"{OUT}/p5-jeunesse.svg")
@@ -121,11 +121,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 时事 (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("POLITIQUE & CHIFFRES · CURRENT AFFAIRS", "Le Lucerna", "NIVEAU B2 · Présidentielle 2027 · THE ELECTION IN DEPTH")
+p.band("POLITIQUE & CHIFFRES　CURRENT AFFAIRS", "Le Lucerna", "NIVEAU B2　Présidentielle 2027　THE ELECTION IN DEPTH")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 200, 1420, tag="P6-deep")
-f.title("Présidentielle 2027 : comprendre l'élection et ses chiffres", 36)
-f.byline("Par la rédaction · Niveau de lecture : B2")
+f.title("Présidentielle 2027 : comprendre l'élection et ses chiffres", 32)
+f.byline("Par la rédaction　Niveau de lecture : B2")
 f.para("En avril 2027, les Français éliront leur président — ou leur présidente. Le président est élu pour cinq ans, au suffrage universel direct : chaque citoyen de 18 ans et plus peut voter. L'élection se déroule en deux tours. Au premier tour, tous les candidats sont en compétition. Si personne n'obtient plus de 50 % des voix, un second tour oppose, deux semaines plus tard, les deux candidats arrivés en tête.")
 f.para("À six mois du scrutin, la bataille des chiffres a commencé. Les instituts publient régulièrement des « intentions de vote » : si l'élection avait lieu dimanche, pour qui voteriez-vous ? Ces enquêtes ne prédisent pas le résultat — elles photographient l'opinion à un moment donné. Un écart de deux points peut tenir à la marge d'erreur.")
 f.para("Lire un sondage, c'est déjà faire de la politique : qui devance qui ? Qui gagne des points, qui en perd ? Le vocabulaire des comparaisons envahit les titres des journaux : « X creuse l'écart », « Y passe devant », « Z stagne ». Pour les apprenants de français, c'est un terrain d'entraînement idéal : les chiffres, les pourcentages et le comparatif y sont partout.")
@@ -136,21 +136,21 @@ f.end_report()
 # practice poll chart, span cols 0-1
 chx, chw = MX, 896
 chy = 1470
-p.rect(chx, chy, chw, 470, fill=BOX, stroke=LINE, sw=1.4)
-p.text(chx + 24, chy + 42, "SONDAGE D'ENTRAÎNEMENT · PRACTICE POLL", 25, "sans", True, OLIVE)
-p.text(chx + 24, chy + 74, "Données simplifiées pour l'exercice — aucun institut, aucun vrai candidat.", 19.5, "sans", False, BRICK)
+p.rect(chx, chy, chw, 470, fill=BOX)
+p.text(chx + 24, chy + 42, "SONDAGE D'ENTRAÎNEMENT　PRACTICE POLL", 25, "sans", True, OLIVE)
+p.text(chx + 24, chy + 74, "Données simplifiées pour l'exercice — aucun institut, aucun vrai candidat.", 19.5, "sans", False, OLIVE)
 p.text(chx + 24, chy + 100, "Teaching practice data: no real polling institute, no real candidate.", 19, "sans", False, GREY)
-bars = [("Candidat A", 28, OLIVE), ("Candidate B", 24, GOLD), ("Candidat C", 17, OLIVE),
-        ("Candidat D", 11, GOLD), ("Autres", 9, OLIVE), ("Indécis", 11, "#8a8168")]
+bars = [("Candidat A", 28, OLIVE), ("Candidate B", 24, OLIVE), ("Candidat C", 17, OLIVE),
+        ("Candidat D", 11, OLIVE), ("Autres", 9, OLIVE), ("Indécis", 11, "#8a8168")]
 byy = chy + 128
 for lab, val, col in bars:
     p.text(chx + 24, byy + 26, lab, 22, "serif", True, INK)
     p.rect(chx + 200, byy + 6, val * 18, 26, fill=col)
-    p.text(chx + 212 + val * 18, byy + 27, f"{val} %", 22, "sans", True, BRICK)
+    p.text(chx + 212 + val * 18, byy + 27, f"{val} %", 22, "sans", True, OLIVE)
     byy += 52
 
-e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2540, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE · THE CHART", 25)
+e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
+e6.head("LIRE LE GRAPHIQUE　THE CHART", 25)
 e6.bridge("Answer from the practice poll chart above.")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A leads with 28 %",
       "Qui est en tête du sondage ?", size=23)
@@ -167,8 +167,8 @@ e6.ex("B2", "图表读数", "Oui, 52 %", "28 + 24 = 52 %: more than half",
 e6.end_report()
 
 # right half, col 2: vocab box + comparatif + vocab MCQ + headline phrases
-g = Flow(p, [(COLX[2], CW)], 200, 2540, tag="P6-right2")
-g.box("LES MOTS DU SCRUTIN · WORDS", [
+g = Flow(p, [(COLX[2], CW)], 200, 2560, tag="P6-right2")
+g.box("LES MOTS DU SCRUTIN　WORDS", [
     ("un sondage — a poll · une intention de vote — voting intention", "serif", False, INK, 21.5, 1.42),
     ("devancer — to move ahead · creuser l'écart — to widen the gap", "serif", False, INK, 21.5, 1.42),
     ("stagner — to flatline · un échantillon — a sample", "serif", False, INK, 21.5, 1.42),
@@ -184,7 +184,7 @@ g.ex("B2", "完成句子", "aussi", "11 % = 11 %: as many, use aussi",
      "Les indécis sont ___ nombreux que les partisans de D.", size=23)
 g.ex("B2", "完成句子", "meilleur", "the comparative of bon is meilleur",
      "Ce sondage est ___ (bon) que le précédent : l'échantillon est plus grand.", size=23)
-g.head("LES MOTS · WORDS", 25)
+g.head("LES MOTS　WORDS", 25)
 g.bridge("Choose the correct meaning.")
 g.ex("B2", "单选", "B", "devancer = to go in front",
      "« Devancer » signifie... A. arriver après · B. passer devant · C. abandonner", size=23)
@@ -203,8 +203,8 @@ g.box("LES PHRASES DES JOURNAUX", [
 g.end_report()
 
 # right half, col 3: micro-drills + history box + big number + débat
-g2 = Flow(p, [(COLX[3], CW)], 200, 2540, tag="P6-right3")
-g2.head("MICRO-DRILLS · PRACTICE", 25)
+g2 = Flow(p, [(COLX[3], CW)], 200, 2560, tag="P6-right3")
+g2.head("MICRO-DRILLS　PRACTICE", 25)
 g2.bridge("Complete these election phrases.")
 g2.ex("B2", "完成句子", "universel", "suffrage universel = direct universal suffrage",
       "Le président est élu au suffrage ___ direct.", size=23)
@@ -221,9 +221,9 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("Three reforms that shaped today's French elections.", "sans", False, GREY, 20, 1.4),
 ])
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
-g2.para("5 000 +", 54, "serif", True, BRICK, 1.1, 4)
+g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)
-g2.head("LE DÉBAT · THE DEBATE", 25)
+g2.head("LE DÉBAT　THE DEBATE", 25)
 g2.para("Les sondages influencent-ils le vote ? Certains disent oui : on aime voter pour le gagnant. D'autres disent non : les électeurs choisissent leurs idées, pas les chiffres. Et vous, qu'en pensez-vous ? Deux phrases, en français, dans les commentaires.", 22)
 g2.bridge("Do polls influence the vote? Give your view in two sentences.")
 g2.end_report()

@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-it/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 精讲 =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("LANGUE EN MAIN · LA LINGUA IN MANO", "Le Lucerna", "A2 → B2 · Les phrases de la semaine · LE FRASI DELLA SETTIMANA")
+p.band("LANGUE EN MAIN　LA LINGUA IN MANO", "Le Lucerna", "A2 → B2　Les phrases de la semaine　LE FRASI DELLA SETTIMANA")
 
 # --- three level columns ---
 cA = Flow(p, [(COLX[0], CW)], 200, 1150, tag="P7-A2")
-cA.head("NIVEAU A2 · LIVELLO BASE", 27)
+cA.head("NIVEAU A2　LIVELLO BASE", 27)
 cA.head("DIRE L'HEURE", 24)
 cA.para("Il est trois heures. · Il est sept heures et demie. · Il est midi moins le quart. On dit toujours « Il est » + l'heure — jamais « c'est ». (page 2)", 22.5)
 cA.head("LE FUTUR PROCHE", 24)
@@ -24,7 +24,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("NIVEAU B1 · INTERMEDIO", 27)
+cB.head("NIVEAU B1　INTERMEDIO", 27)
 cB.head("LE COMPARATIF", 24)
 cB.para("plus / moins / aussi + adjectif + que : « Wemby est plus grand que les autres. » « Ce sondage est meilleur que le précédent » — bon devient meilleur, jamais « plus bon ».", 22.5)
 cB.head("DEPUIS + PRÉSENT", 24)
@@ -35,7 +35,7 @@ cB.box("LA PHRASE EXEMPLE", [
 cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
-cC.head("NIVEAU B2 · SFIDA", 27)
+cC.head("NIVEAU B2　SFIDA", 27)
 cC.head("EXPRIMER UNE OPINION", 24)
 cC.para("À mon avis, ... · Selon les chiffres, ... · D'après ce sondage, ... Pour commencer une phrase d'opinion, ces trois portes sont toujours ouvertes.", 22.5)
 cC.head("IL SEMBLE QUE + SUBJONCTIF", 24)
@@ -46,7 +46,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head("BOÎTE À OUTILS · STRUMENTI", 27)
+cD.head("BOÎTE À OUTILS　STRUMENTI", 27)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Il est dix heures moins le quart. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Les vacances commencent depuis samedi... » Non ! « Je suis en vacances depuis samedi. »", 22.5)
@@ -57,9 +57,9 @@ cD.end_report()
 
 # --- phrases de la semaine ---
 py = 1210
-p.hline(MX, RIGHT, py - 14, GOLD, 2)
-p.text(MX, py + 26, "LES PHRASES DE LA SEMAINE · LE FRASI DELLA SETTIMANA", 27, "sans", True, OLIVE)
-p.text(RIGHT, py + 26, "Un punto di grammatica e una domanda per frase · Soluzioni a pagina 8", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, py - 14, OLIVE, 2)
+p.text(MX, py + 26, "LES PHRASES DE LA SEMAINE　LE FRASI DELLA SETTIMANA", 27, "sans", True, OLIVE)
+p.text(RIGHT, py + 26, "Un punto di grammatica e una domanda per frase　Soluzioni a pagina 8", 20, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
 phrases = [
     ("« À trois heures, il sera deux heures. » (page 2)",
@@ -92,9 +92,9 @@ pf.end_report()
 
 # --- bottom: clinic (left) + courrier & teaser (right) ---
 by7 = 1870
-p.hline(MX, RIGHT, by7 - 14, GOLD, 2)
+p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS · CLINICA", 25)
+cf.head("CLINIQUE DES ERREURS　CLINICA", 25)
 cf.expl("Ogni frase ha un errore: trovalo e correggilo.")
 cf.ex("A2", "改错", "J'ai vingt ans.", "l'età si dice con avoir, non con être",
       "✗ « Je suis vingt ans. »", instr="Correggi", size=22.5)
@@ -107,15 +107,15 @@ cf.ex("B1", "改错", "Elle offre des roses pour mon anniversaire.", "da regalar
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(rx + 24, by7 + 48, "LE COURRIER DES LECTEURS · L'ANGOLO DEI LETTORI", 24, "sans", True, OLIVE)
+p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.text(rx + 24, by7 + 48, "LE COURRIER DES LECTEURS　L'ANGOLO DEI LETTORI", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« En automne, je me suis couché de bonne heure, comme Proust. » — L. M., lectrice fidèle (composition du VOL.1, « Mon automne »)", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 176, "Il commento di Xiaomo — Il passé composé richiama la celebre frase di Proust, e « de bonne heure » suona molto naturale. Un dettaglio: L. M. è una lettrice, quindi couché prende una e in più: couchée. Nel prossimo numero, questo angolo commenterà i testi inviati per il VOL.2: il tema è a pagina 8.", 20, "sans", False, GREY, rw - 48, 1.42)
 ty7 = by7 + 332
-p.rect(rx, ty7, rw, 2540 - ty7, fill=DARK)
-p.text(rx + 24, ty7 + 46, "LA SEMAINE PROCHAINE · VOL.3 LA SETTIMANA PROSSIMA", 24, "sans", True, "#f3edda")
-p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#e8dfc8", rw - 48, 1.45)
-p.para(rx + 24, ty7 + 218, "Sabato prossimo è Halloween e domenica Ognissanti; nella prima settimana con l'ora solare, fa buio sempre più presto.", 20, "sans", False, "#b3a06a", rw - 48, 1.4)
+p.rect(rx, ty7, rw, 2560 - ty7, fill=CLOTH)
+p.text(rx + 24, ty7 + 46, "LA SEMAINE PROCHAINE　VOL.3 LA SETTIMANA PROSSIMA", 24, "sans", True, ONCLOTH)
+p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#cac8ba", rw - 48, 1.45)
+p.para(rx + 24, ty7 + 218, "Sabato prossimo è Halloween e domenica Ognissanti; nella prima settimana con l'ora solare, fa buio sempre più presto.", 20, "sans", False, GOOSE, rw - 48, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-langue.svg")
 print("P7 saved, exercises so far:", len(REG))

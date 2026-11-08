@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 精讲 =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("LANGUE EN MAIN · 精講", "Le Lucerna", "A2 → B2 · Les phrases de la semaine · 今週のフレーズ")
+p.band("LANGUE EN MAIN　精講", "Le Lucerna", "A2 → B2　Les phrases de la semaine　今週のフレーズ")
 
 # --- three level columns ---
 cA = Flow(p, [(COLX[0], CW)], 200, 1150, tag="P7-A2")
-cA.head("NIVEAU A2 · 基礎", 27)
+cA.head("NIVEAU A2　基礎", 27)
 cA.head("DIRE L'HEURE", 24)
 cA.para("Il est trois heures. · Il est sept heures et demie. · Il est midi moins le quart. On dit toujours « Il est » + l'heure — jamais « c'est ». (page 2)", 22.5)
 cA.head("LE FUTUR PROCHE", 24)
@@ -24,7 +24,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("NIVEAU B1 · 中級", 27)
+cB.head("NIVEAU B1　中級", 27)
 cB.head("LE COMPARATIF", 24)
 cB.para("plus / moins / aussi + adjectif + que : « Wemby est plus grand que les autres. » « Ce sondage est meilleur que le précédent » — bon devient meilleur, jamais « plus bon ».", 22.5)
 cB.head("DEPUIS + PRÉSENT", 24)
@@ -35,7 +35,7 @@ cB.box("LA PHRASE EXEMPLE", [
 cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
-cC.head("NIVEAU B2 · 上級", 27)
+cC.head("NIVEAU B2　上級", 27)
 cC.head("EXPRIMER UNE OPINION", 24)
 cC.para("À mon avis, ... · Selon les chiffres, ... · D'après ce sondage, ... Pour commencer une phrase d'opinion, ces trois portes sont toujours ouvertes.", 22.5)
 cC.head("IL SEMBLE QUE + SUBJONCTIF", 24)
@@ -46,7 +46,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head("BOÎTE À OUTILS · 工具箱", 27)
+cD.head("BOÎTE À OUTILS　工具箱", 27)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Il est dix heures moins le quart. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Les vacances commencent depuis samedi... » Non ! « Je suis en vacances depuis samedi. »", 22.5)
@@ -57,9 +57,9 @@ cD.end_report()
 
 # --- phrases de la semaine ---
 py = 1210
-p.hline(MX, RIGHT, py - 14, GOLD, 2)
-p.text(MX, py + 26, "LES PHRASES DE LA SEMAINE · 今週のフレーズ（すべて今号の記事から）", 27, "sans", True, OLIVE)
-p.text(RIGHT, py + 26, "各フレーズに文法ポイント + 小問題 · 答えは8ページ", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, py - 14, OLIVE, 2)
+p.text(MX, py + 26, "LES PHRASES DE LA SEMAINE　今週のフレーズ（すべて今号の記事から）", 27, "sans", True, OLIVE)
+p.text(RIGHT, py + 26, "各フレーズに文法ポイント + 小問題　答えは8ページ", 20, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
 phrases = [
     ("« À trois heures, il sera deux heures. » (page 2)",
@@ -92,9 +92,9 @@ pf.end_report()
 
 # --- bottom: clinic (left) + courrier & teaser (right) ---
 by7 = 1870
-p.hline(MX, RIGHT, by7 - 14, GOLD, 2)
+p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS · 間違い", 25)
+cf.head("CLINIQUE DES ERREURS　間違い", 25)
 cf.expl("各文に1か所ずつ間違いがあります。見つけて直しなさい。")
 cf.ex("A2", "改错", "J'ai vingt ans.", "年齢の表現では avoir を使い、être は使いません",
       "✗ « Je suis vingt ans. »", instr="誤り直し", size=22.5)
@@ -107,15 +107,15 @@ cf.ex("B1", "改错", "Elle offre des roses pour mon anniversaire.", "花はバ�
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(rx + 24, by7 + 48, "LE COURRIER DES LECTEURS · 読者の広場", 24, "sans", True, OLIVE)
+p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.text(rx + 24, by7 + 48, "LE COURRIER DES LECTEURS　読者の広場", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« En automne, je me suis couché de bonne heure, comme Proust. » — L. M., lectrice fidèle (composition du VOL.1, « Mon automne »)", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 176, "小墨のコメント｜passé composé でプルーストの名句に応えていて、de bonne heure がとても自然です。ひとつだけ注意：L. M. さんは女性読者ですから、couché に e を足して couchée にします。次号の読者の広場では VOL.2 の投稿作文を講評します。テーマは8ページにあります。", 20, "sans", False, GREY, rw - 48, 1.42)
 ty7 = by7 + 332
-p.rect(rx, ty7, rw, 2540 - ty7, fill=DARK)
-p.text(rx + 24, ty7 + 46, "LA SEMAINE PROCHAINE · VOL.3 次号予告", 24, "sans", True, "#f3edda")
-p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#e8dfc8", rw - 48, 1.45)
-p.para(rx + 24, ty7 + 218, "来週の土曜日は Halloween、日曜日は諸聖人の日です。冬時間の最初の週、暗くなるのがどんどん早くなります。", 20, "sans", False, "#b3a06a", rw - 48, 1.4)
+p.rect(rx, ty7, rw, 2560 - ty7, fill=CLOTH)
+p.text(rx + 24, ty7 + 46, "LA SEMAINE PROCHAINE　VOL.3次号予告", 24, "sans", True, ONCLOTH)
+p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#cac8ba", rw - 48, 1.45)
+p.para(rx + 24, ty7 + 218, "来週の土曜日は Halloween、日曜日は諸聖人の日です。冬時間の最初の週、暗くなるのがどんどん早くなります。", 20, "sans", False, GOOSE, rw - 48, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-langue.svg")
 print("P7 saved, exercises so far:", len(REG))

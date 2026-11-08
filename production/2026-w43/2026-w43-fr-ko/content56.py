@@ -3,23 +3,23 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 青年 (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band('JEUNESSE & ÉCRANS · 청소년', "Le Lucerna", "NIVEAU B1 · GTA VI · Réseaux sociaux")
+p.band('JEUNESSE & ÉCRANS　청소년', "Le Lucerna", "NIVEAU B1　GTA VI　Réseaux sociaux")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P5-main")
-f.title("GTA VI : le jeu que tout le monde attend", 37)
-f.byline("Par la rédaction · Niveau de lecture : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P5-main")
+f.title("GTA VI : le jeu que tout le monde attend", 32)
+f.byline("Par la rédaction　Niveau de lecture : B1")
 f.para("C'est peut-être le jeu vidéo le plus attendu de la planète. Grand Theft Auto VI — GTA VI — est encore une fois, cette semaine, dans les recherches Google en France. Les fans attendent, regardent les bandes-annonces et comptent les jours.")
 f.para("La série GTA est célèbre pour ses villes immenses : on se promène librement dans un monde ouvert, en voiture ou à pied. Pour beaucoup de joueurs, c'est comme un film interactif géant — avec de l'humour, de la musique et des histoires de personnages attachants.")
 f.para("En France, le jeu vidéo est un loisir de masse : des millions de personnes jouent, sur console, sur ordinateur ou sur téléphone. Les jeunes, bien sûr, mais aussi leurs parents. Et les mots du jeu vidéo sont partout : « streamer », « gamer », « spoiler »... mélangés au français de tous les jours.")
 f.para("Pourquoi tant d'attente ? Parce que les grands jeux sont rares, et parce que chaque bande-annonce devient un événement mondial, regardé des centaines de millions de fois. En attendant la sortie, les fans imaginent, dessinent et discutent. L'attente, elle aussi, fait partie du jeu.")
 f.gloss('un jeu vidéo 비디오 게임 · une bande-annonce 예고편 · un monde ouvert 오픈 월드 · une console 게임기 · la sortie (게임) 출시 · un loisir 여가.')
-f.head('À VOUS ! · 바로 연습', 25)
+f.head('À VOUS !　바로 연습', 25)
 f.expl('5면 기사를 읽고 정답을 고르세요.')
 f.ex("B1", '객관식', "B", 'GTA는 거대한 오픈 월드 도시로 유명해요',
      "La série GTA est célèbre pour... A. ses petites villes · B. ses mondes ouverts · C. ses jeux de cartes")
@@ -73,8 +73,8 @@ f.end_report()
 
 # col 3 boxes
 ix = COLX[3]
-p.rect(ix, 200, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, 240, 'LES MOTS DES ÉCRANS · 화면 단어장', 23, "sans", True, OLIVE)
+p.rect(ix, 200, CW, 470, fill=BOX)
+p.text(ix + 22, 240, 'LES MOTS DES ÉCRANS　화면 단어장', 23, "sans", True, OLIVE)
 mots5 = [
     'un écran — 화면', 'un réseau social — 소셜 네트워크', 'viral — 입소문이 난',
     'un abonné — 구독자, 팔로워', 'partager — 공유하다', 'un commentaire — 댓글',
@@ -86,24 +86,24 @@ for m in mots5:
     p.text(ix + 22, yy5, m, 21.5, "serif", False, INK)
     yy5 += 37
 qy5 = 696
-p.rect(ix, qy5, CW, 400, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, qy5, CW, 400, fill="#f0eee5")
 p.text(ix + 22, qy5 + 40, "LA PHRASE QUI FAIT RÉAGIR", 23, "sans", True, OLIVE)
-p.para(ix + 22, qy5 + 92, "« Lire en français, c'est chic. »", 27, "serif", True, BRICK, CW - 44, 1.3)
+p.para(ix + 22, qy5 + 92, "« Lire en français, c'est chic. »", 27, "serif", True, OLIVE, CW - 44, 1.3)
 p.para(ix + 22, qy5 + 168, "Sous cette phrase, des centaines de lecteurs racontent leur premier livre en français : un roman d'amour, un polar, un classique commencé trois fois. Et vous, quel est le vôtre ?", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, qy5 + 322, '여러분이 처음 읽은 프랑스어 책은 무엇인가요? 댓글로 알려 주세요.', 20, "sans", False, GREY, CW - 44, 1.4)
 dy5 = qy5 + 400 + 26
-p.rect(ix, dy5, CW, 440, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, dy5 + 40, 'LE DÉBAT · 화면 시간', 23, "sans", True, OLIVE)
+p.rect(ix, dy5, CW, 440, fill=BOX)
+p.text(ix + 22, dy5 + 40, 'LE DÉBAT　화면 시간', 23, "sans", True, OLIVE)
 p.para(ix + 22, dy5 + 78, "Combien d'heures par jour devant un écran ? Pour jouer, regarder, lire... Les écrans sont-ils des ennemis des livres, ou une autre porte pour entrer dans la langue ?", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 240, "Petit test de la rédaction : ce soir, remplacez trente minutes d'écran par trente minutes de lecture — et racontez-nous la différence (page 8).", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 372, '오늘 밤 이렇게 해 보세요: 화면은 30분 줄이고 책은 30분 더 읽기.', 20, "sans", False, GREY, CW - 44, 1.4)
 sy5 = dy5 + 440 + 26
 p.text(ix, sy5 + 24, "LE SONDAGE DE LA RÉDACTION", 23, "sans", True, OLIVE)
-p.hline(ix, ix + CW, sy5 + 38, GOLD, 2)
+p.hline(ix, ix + CW, sy5 + 38, OLIVE, 2)
 p.para(ix, sy5 + 76, "Quel jeu attendez-vous le plus ? Quel livre français lisez-vous en ce moment ? Répondez dans les commentaires : résultats dans le prochain numéro.", 21.5, "serif", False, INK, CW, 1.42)
 p.para(ix, sy5 + 210, '편집부 작은 설문: 어떤 게임을 기다리나요? 어떤 프랑스어 책을 읽고 있나요?', 20, "sans", False, GREY, CW, 1.4)
 ty5 = sy5 + 268
-p.rect(ix, ty5, CW, 2540 - ty5, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ty5, CW, 2560 - ty5, fill=BOX)
 p.text(ix + 22, ty5 + 40, "TROIS TENDANCES À RETENIR", 23, "sans", True, OLIVE)
 tend5 = [
     ("1 · LE JEU ÉVÉNEMENT", "GTA VI fait attendre la planète entière : l'attente devient un spectacle."),
@@ -112,7 +112,7 @@ tend5 = [
 ]
 yy5 = ty5 + 82
 for h, t in tend5:
-    p.text(ix + 22, yy5, h, 20.5, "sans", True, BRICK)
+    p.text(ix + 22, yy5, h, 20.5, "sans", True, OLIVE)
     yy5 = p.para(ix + 22, yy5 + 28, t, 21, "serif", False, INK, CW - 44, 1.4) + 16
 p.foot(5)
 p.save(f"{OUT}/p5-jeunesse.svg")
@@ -121,11 +121,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 时事 (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band('POLITIQUE & CHIFFRES · 시사', "Le Lucerna", 'NIVEAU B2 · Présidentielle 2027 · 대선 심층 읽기')
+p.band('POLITIQUE & CHIFFRES　시사', "Le Lucerna", 'NIVEAU B2　Présidentielle 2027　대선 심층 읽기')
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 200, 1420, tag="P6-deep")
-f.title("Présidentielle 2027 : comprendre l'élection et ses chiffres", 36)
-f.byline("Par la rédaction · Niveau de lecture : B2")
+f.title("Présidentielle 2027 : comprendre l'élection et ses chiffres", 32)
+f.byline("Par la rédaction　Niveau de lecture : B2")
 f.para("En avril 2027, les Français éliront leur président — ou leur présidente. Le président est élu pour cinq ans, au suffrage universel direct : chaque citoyen de 18 ans et plus peut voter. L'élection se déroule en deux tours. Au premier tour, tous les candidats sont en compétition. Si personne n'obtient plus de 50 % des voix, un second tour oppose, deux semaines plus tard, les deux candidats arrivés en tête.")
 f.para("À six mois du scrutin, la bataille des chiffres a commencé. Les instituts publient régulièrement des « intentions de vote » : si l'élection avait lieu dimanche, pour qui voteriez-vous ? Ces enquêtes ne prédisent pas le résultat — elles photographient l'opinion à un moment donné. Un écart de deux points peut tenir à la marge d'erreur.")
 f.para("Lire un sondage, c'est déjà faire de la politique : qui devance qui ? Qui gagne des points, qui en perd ? Le vocabulaire des comparaisons envahit les titres des journaux : « X creuse l'écart », « Y passe devant », « Z stagne ». Pour les apprenants de français, c'est un terrain d'entraînement idéal : les chiffres, les pourcentages et le comparatif y sont partout.")
@@ -136,21 +136,21 @@ f.end_report()
 # practice poll chart, span cols 0-1
 chx, chw = MX, 896
 chy = 1470
-p.rect(chx, chy, chw, 470, fill=BOX, stroke=LINE, sw=1.4)
-p.text(chx + 24, chy + 42, "SONDAGE D'ENTRAÎNEMENT · 연습 여론조사 도표", 25, "sans", True, OLIVE)
-p.text(chx + 24, chy + 74, "Données simplifiées pour l'exercice — aucun institut, aucun vrai candidat.", 19.5, "sans", False, BRICK)
+p.rect(chx, chy, chw, 470, fill=BOX)
+p.text(chx + 24, chy + 42, "SONDAGE D'ENTRAÎNEMENT　연습 여론조사 도표", 25, "sans", True, OLIVE)
+p.text(chx + 24, chy + 74, "Données simplifiées pour l'exercice — aucun institut, aucun vrai candidat.", 19.5, "sans", False, OLIVE)
 p.text(chx + 24, chy + 100, '이 도표는 연습용 자료로, 실제 여론조사 기관이나 후보자와 관계없어요.', 19, "sans", False, GREY)
-bars = [("Candidat A", 28, OLIVE), ("Candidate B", 24, GOLD), ("Candidat C", 17, OLIVE),
-        ("Candidat D", 11, GOLD), ("Autres", 9, OLIVE), ("Indécis", 11, "#8a8168")]
+bars = [("Candidat A", 28, OLIVE), ("Candidate B", 24, OLIVE), ("Candidat C", 17, OLIVE),
+        ("Candidat D", 11, OLIVE), ("Autres", 9, OLIVE), ("Indécis", 11, "#8a8168")]
 byy = chy + 128
 for lab, val, col in bars:
     p.text(chx + 24, byy + 26, lab, 22, "serif", True, INK)
     p.rect(chx + 200, byy + 6, val * 18, 26, fill=col)
-    p.text(chx + 212 + val * 18, byy + 27, f"{val} %", 22, "sans", True, BRICK)
+    p.text(chx + 212 + val * 18, byy + 27, f"{val} %", 22, "sans", True, OLIVE)
     byy += 52
 
-e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2540, tag="P6-chart-ex")
-e6.head('LIRE LE GRAPHIQUE · 도표 읽기', 25)
+e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
+e6.head('LIRE LE GRAPHIQUE　도표 읽기', 25)
 e6.expl('위 연습 여론조사 도표를 보고 답하세요.')
 e6.ex("B2", '도표 읽기', "Le candidat A, avec 28 %", 'A가 28%로 선두',
       "Qui est en tête du sondage ?", size=23)
@@ -167,8 +167,8 @@ e6.ex("B2", '도표 읽기', "Oui, 52 %", '28 + 24 = 52%로 과반을 넘어요'
 e6.end_report()
 
 # right half, col 2: vocab box + comparatif + vocab MCQ + headline phrases
-g = Flow(p, [(COLX[2], CW)], 200, 2540, tag="P6-right2")
-g.box('LES MOTS DU SCRUTIN · 선거 단어장', [
+g = Flow(p, [(COLX[2], CW)], 200, 2560, tag="P6-right2")
+g.box('LES MOTS DU SCRUTIN　선거 단어장', [
     ('un sondage — 여론조사 · une intention de vote — 투표 의향', "serif", False, INK, 21.5, 1.42),
     ("devancer — 추월하다 · creuser l'écart — 격차를 벌리다", "serif", False, INK, 21.5, 1.42),
     ('stagner — 정체하다 · un échantillon — 표본', "serif", False, INK, 21.5, 1.42),
@@ -184,7 +184,7 @@ g.ex("B2", '문장 완성', "aussi", '11% = 11%로 같으니 aussi를 써요',
      "Les indécis sont ___ nombreux que les partisans de D.", size=23)
 g.ex("B2", '문장 완성', "meilleur", 'bon의 비교급은 meilleur예요',
      "Ce sondage est ___ (bon) que le précédent : l'échantillon est plus grand.", size=23)
-g.head('LES MOTS · 단어', 25)
+g.head('LES MOTS　단어', 25)
 g.expl('올바른 뜻을 고르세요.')
 g.ex("B2", '객관식', "B", 'devancer = 앞서다, 추월하다',
      "« Devancer » signifie... A. arriver après · B. passer devant · C. abandonner", size=23)
@@ -203,8 +203,8 @@ g.box("LES PHRASES DES JOURNAUX", [
 g.end_report()
 
 # right half, col 3: micro-drills + history box + big number + débat
-g2 = Flow(p, [(COLX[3], CW)], 200, 2540, tag="P6-right3")
-g2.head('MICRO-DRILLS · 바로 연습', 25)
+g2 = Flow(p, [(COLX[3], CW)], 200, 2560, tag="P6-right3")
+g2.head('MICRO-DRILLS　바로 연습', 25)
 g2.expl('선거 상식 표현을 완성하세요.')
 g2.ex("B2", '문장 완성', "universel", 'suffrage universel 보통 직접 선거',
       "Le président est élu au suffrage ___ direct.", size=23)
@@ -221,9 +221,9 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ('세 번의 개혁이 오늘의 프랑스 대선을 만들었어요.', "sans", False, GREY, 20, 1.4),
 ])
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
-g2.para("5 000 +", 54, "serif", True, BRICK, 1.1, 4)
+g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)
-g2.head('LE DÉBAT · 토론', 25)
+g2.head('LE DÉBAT　토론', 25)
 g2.para("Les sondages influencent-ils le vote ? Certains disent oui : on aime voter pour le gagnant. D'autres disent non : les électeurs choisissent leurs idées, pas les chiffres. Et vous, qu'en pensez-vous ? Deux phrases, en français, dans les commentaires.", 22)
 g2.expl('여론조사가 투표에 영향을 줄까요? 내 생각을 두 문장으로 써 보세요.')
 g2.end_report()

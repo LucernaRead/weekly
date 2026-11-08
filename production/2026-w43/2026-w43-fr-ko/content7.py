@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-fr-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 精讲 =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band('LANGUE EN MAIN · 집중 해설', "Le Lucerna", 'A2 → B2 · Les phrases de la semaine · 이번 주 명문장')
+p.band('LANGUE EN MAIN　집중 해설', "Le Lucerna", 'A2 → B2　Les phrases de la semaine　이번 주 명문장')
 
 # --- three level columns ---
 cA = Flow(p, [(COLX[0], CW)], 200, 1150, tag="P7-A2")
-cA.head('NIVEAU A2 · 기초', 27)
+cA.head('NIVEAU A2　기초', 27)
 cA.head("DIRE L'HEURE", 24)
 cA.para("Il est trois heures. · Il est sept heures et demie. · Il est midi moins le quart. On dit toujours « Il est » + l'heure — jamais « c'est ». (page 2)", 22.5)
 cA.head("LE FUTUR PROCHE", 24)
@@ -24,7 +24,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head('NIVEAU B1 · 심화', 27)
+cB.head('NIVEAU B1　심화', 27)
 cB.head("LE COMPARATIF", 24)
 cB.para("plus / moins / aussi + adjectif + que : « Wemby est plus grand que les autres. » « Ce sondage est meilleur que le précédent » — bon devient meilleur, jamais « plus bon ».", 22.5)
 cB.head("DEPUIS + PRÉSENT", 24)
@@ -35,7 +35,7 @@ cB.box("LA PHRASE EXEMPLE", [
 cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
-cC.head('NIVEAU B2 · 도전', 27)
+cC.head('NIVEAU B2　도전', 27)
 cC.head("EXPRIMER UNE OPINION", 24)
 cC.para("À mon avis, ... · Selon les chiffres, ... · D'après ce sondage, ... Pour commencer une phrase d'opinion, ces trois portes sont toujours ouvertes.", 22.5)
 cC.head("IL SEMBLE QUE + SUBJONCTIF", 24)
@@ -46,7 +46,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head('BOÎTE À OUTILS · 도구 상자', 27)
+cD.head('BOÎTE À OUTILS　도구 상자', 27)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Il est dix heures moins le quart. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Les vacances commencent depuis samedi... » Non ! « Je suis en vacances depuis samedi. »", 22.5)
@@ -57,9 +57,9 @@ cD.end_report()
 
 # --- phrases de la semaine ---
 py = 1210
-p.hline(MX, RIGHT, py - 14, GOLD, 2)
-p.text(MX, py + 26, 'LES PHRASES DE LA SEMAINE · 이번 주 명문장 (전부 이번 호 기사에서)', 27, "sans", True, OLIVE)
-p.text(RIGHT, py + 26, '문장마다 문법 포인트와 작은 문제 하나 · 정답은 8면', 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, py - 14, OLIVE, 2)
+p.text(MX, py + 26, 'LES PHRASES DE LA SEMAINE　이번 주 명문장 (전부 이번 호 기사에서)', 27, "sans", True, OLIVE)
+p.text(RIGHT, py + 26, '문장마다 문법 포인트와 작은 문제 하나　정답은 8면', 20, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
 phrases = [
     ("« À trois heures, il sera deux heures. » (page 2)",
@@ -92,9 +92,9 @@ pf.end_report()
 
 # --- bottom: clinic (left) + courrier & teaser (right) ---
 by7 = 1870
-p.hline(MX, RIGHT, by7 - 14, GOLD, 2)
+p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head('CLINIQUE DES ERREURS · 실수', 25)
+cf.head('CLINIQUE DES ERREURS　실수', 25)
 cf.expl('문장마다 틀린 곳이 하나씩 있어요: 찾아서 고치세요.')
 cf.ex("A2", '오류 고치기', "J'ai vingt ans.", '나이는 être가 아니라 avoir를 써요',
       "✗ « Je suis vingt ans. »", instr='오류 고치기', size=22.5)
@@ -107,15 +107,15 @@ cf.ex("B1", '오류 고치기', "Elle offre des roses pour mon anniversaire.", '
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(rx + 24, by7 + 48, 'LE COURRIER DES LECTEURS · 독자 마당', 24, "sans", True, OLIVE)
+p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.text(rx + 24, by7 + 48, 'LE COURRIER DES LECTEURS　독자 마당', 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« En automne, je me suis couché de bonne heure, comme Proust. » — L. M., lectrice fidèle (composition du VOL.1, « Mon automne »)", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 176, '샤오모의 한마디 — passé composé로 프루스트의 명문장을 살렸고, de bonne heure도 아주 자연스러워요. 작은 주의: L. M. 님은 여성 독자라 couché에 e를 붙여 couchée가 돼요. 다음 호 독자 마당에서는 VOL.2 투고 글을 계속 다뤄요. 주제는 8면에 있어요.', 20, "sans", False, GREY, rw - 48, 1.42)
 ty7 = by7 + 332
-p.rect(rx, ty7, rw, 2540 - ty7, fill=DARK)
-p.text(rx + 24, ty7 + 46, 'LA SEMAINE PROCHAINE · VOL.3 다음 주 예고', 24, "sans", True, "#f3edda")
-p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#e8dfc8", rw - 48, 1.45)
-p.para(rx + 24, ty7 + 218, '다음 주 토요일은 Halloween, 일요일은 모든 성인의 날이에요. 겨울 시간 첫 주, 밤이 점점 일찍 찾아와요.', 20, "sans", False, "#b3a06a", rw - 48, 1.4)
+p.rect(rx, ty7, rw, 2560 - ty7, fill=CLOTH)
+p.text(rx + 24, ty7 + 46, 'LA SEMAINE PROCHAINE　VOL.3 다음 주 예고', 24, "sans", True, ONCLOTH)
+p.para(rx + 24, ty7 + 84, "Samedi 31 octobre : Halloween en France, en direct. Dimanche 1er novembre : la Toussaint, le jour des fleurs. Et la première semaine à l'heure d'hiver : la nuit tombe à 18 heures — que lit-on quand il fait nuit tôt ?", 21.5, "serif", False, "#cac8ba", rw - 48, 1.45)
+p.para(rx + 24, ty7 + 218, '다음 주 토요일은 Halloween, 일요일은 모든 성인의 날이에요. 겨울 시간 첫 주, 밤이 점점 일찍 찾아와요.', 20, "sans", False, GOOSE, rw - 48, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-langue.svg")
 print("P7 saved, exercises so far:", len(REG))
