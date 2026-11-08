@@ -16,12 +16,12 @@ Consolidates the method that a dozen hand-rolled audit scripts re-derived
     shipped a struck-through caption in EN×PT P6.
   * Bold (font-weight=700) texts are parsed and measured with the Bold
     face. (An early audit regex silently skipped bold elements.)
-  * Footer band rule at y=2580 (page 1950x2700, footer baseline 2624 is
+  * Footer band rule at y=2596 (page 1950x2700, footer baseline 2624 is
     exempt — the footers live below the rule by design).
 
 Classes: COVER (later opaque shape covers >=30% of a text's ink),
 LINEX (later line / thin rect crossing a text's ink), FOOTER (ink below
-y=2580, footer texts exempt), EDGE (ink past the page edge), TEXTX
+y=2596, footer texts exempt), EDGE (ink past the page edge), TEXTX
 (text-ink vs text-ink overlap), BOXTITLE (a text's ink crossing the
 borders of the bordered box painted just before it that contains it).
 
@@ -53,6 +53,19 @@ SCALE = 4  # supersample font size for sub-pixel ink metrics
 def resolve_font(family, size, bold):
     """(path, index) for an SVG font-family string."""
     fam = family or "Noto Sans CJK SC"
+    if "Newsreader" in fam:
+        # New standard style (§1.1) Latin text is set in Newsreader, not in
+        # Noto CJK: measuring it with a CJK font overstates Latin widths and
+        # raises false TEXTX alarms (pilot: 15). Bold has no static Bold
+        # file; SemiBold is the closest available weight.
+        base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+        return (os.path.join(base, "Newsreader-SemiBold.ttf") if bold
+                else os.path.join(base, "Newsreader-Regular.ttf"), 0)
+    if "DejaVu Sans" in fam:
+        # Symbol glyphs (✗ ☐ →) are set in DejaVu Sans; the CJK fallback
+        # overstates their widths (pilot P7: 4 false ✗ overlaps).
+        return ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf" if bold
+                else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 0)
     if "Unifraktur" in fam:
         return (FONTS["blackletter"], 0)
     serif = "Serif" in fam
