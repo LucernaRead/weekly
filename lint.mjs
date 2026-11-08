@@ -94,14 +94,18 @@
  *      it (every field present, length limits, whole-sentence excerpt, script of non-Latin languages) and renders the
  *      12 blocks. Each committed block must equal that rendering byte for byte: change cover.json, run
  *      `node tools/cover.mjs <week>`, never edit the .html.
- *  15. **Moving pictures** — covers/<week>/motion/<target language>.webp: an optional animated WebP for that story,
+ *  15. **Moving pictures** — covers/<week>/motion/<target language>.webp (lead) or
+ *      motion/<target language>-<n>.webp (secondary story more[n]): an optional animated WebP for that story,
  *      shown in place of the still on every cover. Animated (VP8X animation flag, ≥ 2 frames), loops forever
  *      (loop count 0), canvas 3:2 (±1%) and ≥ 800 px wide, total duration 2–15 s, file ≤ 4 MB. A still image for the
- *      same language must exist (images/<lang>.webp): the site shows it to readers who turned motion off.
- *      The motions on one cover page must have staggered, pairwise-coprime durations (in frames at 12 fps),
- *      so they never loop back in sync: en 89, de 97, fr 103, es 109, it 113, pt 127, nl 131, ru 137, ja 149,
- *      ko 157, zh-cn 167, zh-tw 179 frames (tools/motion.sh applies them; SOP Appendix 5, rule 15).
- *      It enters the index's coverMotion (week, lang, path, byte size, SHA-256, frames, durationMs).
+ *      same story must exist (images/<lang>.webp or images/<lang>-<n>.webp): the site shows it to readers who turned motion off.
+ *      The motions visible together must never loop back in sync, so their frame counts (at 12 fps) are
+ *      pairwise coprime within each visible set: the 12 leads are pairwise coprime (en 89, de 97, fr 103,
+ *      es 109, it 113, pt 127, nl 131, ru 137, ja 149, ko 157, zh-cn 167, zh-tw 179 frames), and each target
+ *      language's 5 motions (lead + 4 secondaries) are pairwise coprime too; all 60 frame counts on a page
+ *      are distinct. (60 pairwise-coprime counts cannot exist in the 2–15 s window — only 38 primes have a
+ *      prime power in it — so lint checks the visible sets, not all 60 pairs; SOP Appendix 5, rule 15.)
+ *      It enters the index's coverMotion (week, lang, more = n or null for the lead, path, byte size, SHA-256, frames, durationMs).
  */
 import { readdirSync as readdirAll, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -179,6 +183,8 @@ Object.keys(VOLUMES).sort().forEach((w, i) => {
 });
 /** Language names, labels, mastheads, threads, title template: the same table tools/insert.py renders from. */
 const TABLES = JSON.parse(readFileSync(join(root, 'tools', 'tables.json'), 'utf8'));
+/** Motion frame counts (12 fps): tools/motion-durations.json is the only source (leads + secondaries). */
+const DURATIONS = JSON.parse(readFileSync(join(root, 'tools', 'motion-durations.json'), 'utf8'));
 /**
  * PDFs already published with a wrong printed number (rule 12). The French core counted a pilot issue
  * before W43 as VOL.1, so W43/W45/W46 fr print one number too high. Frontmatter carries the right number.
@@ -643,7 +649,7 @@ function animatedWebp(data) {
   return out;
 }
 
-/** Rule 15: covers/<week>/motion/<lang>.webp — animated, looping, 3:2, 2–15 s, ≤ MOTION_MAX_BYTES. */
+/** Rule 15: covers/<week>/motion/<lang>.webp (lead) or <lang>-<n>.webp (secondary story more[n]) — animated, looping, 3:2, 2–15 s, ≤ MOTION_MAX_BYTES. */
 function collectCoverMotion(dir, rel, week) {
   if (!statSync(dir).isDirectory()) {
     fail(rel, `${MOTION_DIR} must be a directory`);
@@ -651,9 +657,11 @@ function collectCoverMotion(dir, rel, week) {
   }
   for (const name of readdirSync(dir).sort()) {
     const fileRel = `${rel}/${name}`;
-    const m = name.match(/^(.+)\.webp$/);
-    if (!m || !LANGS.includes(m[1])) {
-      fail(fileRel, 'a moving-picture file name must be <target language>.webp (e.g. it.webp)');
+    // <target>.webp = the lead picture; <target>-<n>.webp = the picture of secondary story more[n].
+    const m = name.match(/^([a-z]{2}(?:-[a-z]{2})?)(?:-(\d))?\.webp$/);
+    const more = m?.[2] === undefined ? null : Number(m[2]);
+    if (!m || !LANGS.includes(m[1]) || (more !== null && !MORE_IMAGES[more])) {
+      fail(fileRel, `a moving-picture file name must be <target language>.webp (the lead) or <target language>-<n>.webp with n in ${Object.keys(MORE_IMAGES).join(' ')} (secondary story more[n]); e.g. it.webp, it-3.webp`);
       continue;
     }
     const data = readFileSync(join(dir, name));
@@ -673,7 +681,7 @@ function collectCoverMotion(dir, rel, week) {
       fail(fileRel, `${bad.join('; ')} (rule 15; see AGENTS.md, "Add a moving picture")`);
       continue;
     }
-    coverMotion.push({ week, lang: m[1], path: fileRel, bytes: data.length, sha256: createHash('sha256').update(data).digest('hex'), frames: w.frames, durationMs: w.ms });
+    coverMotion.push({ week, lang: m[1], more, path: fileRel, bytes: data.length, sha256: createHash('sha256').update(data).digest('hex'), frames: w.frames, durationMs: w.ms });
   }
 }
 
@@ -749,18 +757,45 @@ for (const [week, pairs] of readyPairsByWeek) {
   }
 }
 
-// Rule 15 (durations): the motions on one cover page must loop at staggered, pairwise-coprime
-// frame counts (12 fps), so they never jump back in sync. tools/motion.sh assigns one prime frame
-// count per language (SOP Appendix 5); lint checks the outcome, not the tool.
+// Rule 15 (durations): the motions visible together must never loop back in sync, so their frame
+// counts (12 fps) are pairwise coprime within each visible set: the 12 leads together (shown on the
+// weekly page) and each target language's 5 motions (lead + 4 secondaries, shown on its front page).
+// All frame counts on a page are distinct. 60 pairwise-coprime counts cannot exist in the 2–15 s
+// window (only 38 primes have a prime power in [24,180]), so lint checks the visible sets, not all
+// 60 pairs (SOP Appendix 5); lint checks the outcome, not the tool.
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 const motionByWeek = new Map();
 for (const mo of coverMotion) motionByWeek.set(mo.week, [...(motionByWeek.get(mo.week) ?? []), mo]);
 for (const [week, mos] of motionByWeek) {
-  for (let i = 0; i < mos.length; i++) {
-    for (let j = i + 1; j < mos.length; j++) {
-      if (gcd(mos[i].frames, mos[j].frames) !== 1) {
-        fail(`covers/${week}/${MOTION_DIR}`, `${mos[i].lang} (${mos[i].frames} frames) and ${mos[j].lang} (${mos[j].frames} frames) share a common divisor — the motions on one cover page must have pairwise-coprime frame counts at 12 fps (rule 15; SOP Appendix 5)`);
+  const checkSet = (label, set) => {
+    for (let i = 0; i < set.length; i++) {
+      for (let j = i + 1; j < set.length; j++) {
+        if (gcd(set[i].frames, set[j].frames) !== 1) {
+          const name = (mo) => `${mo.lang}${mo.more === null ? '' : `-${mo.more}`}`;
+          fail(`covers/${week}/${MOTION_DIR}`, `${label}: ${name(set[i])} (${set[i].frames} frames) and ${name(set[j])} (${set[j].frames} frames) share a common divisor — the motions visible together must have pairwise-coprime frame counts at 12 fps (rule 15; SOP Appendix 5)`);
+        }
       }
+    }
+  };
+  // The 12 leads are shown together on the weekly page.
+  checkSet('leads', mos.filter((mo) => mo.more === null));
+  // Each target's 5 motions are shown together on its front page.
+  for (const lang of LANGS) checkSet(lang, mos.filter((mo) => mo.lang === lang));
+  // No two motions on the page share a frame count.
+  const byFrames = new Map();
+  for (const mo of mos) {
+    if (byFrames.has(mo.frames)) {
+      const name = (m) => `${m.lang}${m.more === null ? '' : `-${m.more}`}`;
+      fail(`covers/${week}/${MOTION_DIR}`, `${name(mo)} and ${name(byFrames.get(mo.frames))} both use ${mo.frames} frames — every motion on a page needs its own frame count (rule 15; SOP Appendix 5)`);
+    }
+    byFrames.set(mo.frames, mo);
+  }
+  // Each motion's frame count equals the assignment in tools/motion-durations.json.
+  for (const mo of mos) {
+    const want = mo.more === null ? DURATIONS.leads[mo.lang] : DURATIONS.secondaries[mo.lang]?.[String(mo.more)];
+    if (want !== undefined && mo.frames !== want) {
+      const name = (m) => `${m.lang}${m.more === null ? '' : `-${m.more}`}`;
+      fail(`covers/${week}/${MOTION_DIR}`, `${name(mo)} has ${mo.frames} frames but tools/motion-durations.json assigns ${want} (rule 15)`);
     }
   }
 }
