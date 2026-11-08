@@ -12,12 +12,24 @@
 # Staggered durations (SOP rule 15): the 12 motions on one cover page must NOT all loop at the same
 # length, or the reader sees them all jump back in sync. Each language gets its own PRIME frame count
 # at 12 fps (pairwise coprime, so the loops never re-sync); the same language keeps the same count
-# every week. The source loop is retimed with one uniform speed change, which preserves seamlessness
-# (frame(t) = frame(t mod source duration) for a seamless source loop). Durations 7.4–14.9 s,
-# speeds 0.67–1.35x against the 10 s source loops. Give FRAMES explicitly to override (e.g. for a
+# every week. The source loop is retimed with one uniform speed change. Durations 7.3–14.8 s,
+# speeds 0.67–1.36x against the 10 s source loops. Give FRAMES explicitly to override (e.g. for a
 # non-cover video); a language with no table entry and no FRAMES keeps the old behaviour (the video's
 # own length at 12 fps).
 #   en 89 · de 97 · fr 103 · es 109 · it 113 · pt 127 · nl 131 · ru 137 · ja 149 · ko 157 · zh-cn 167 · zh-tw 179
+#
+# Endpoint sampling (2026-11-08 fix): the P frames must span the CLOSED period [0, source
+# duration], so the last frame IS the first frame and the loop-point step is 0. The retime
+# therefore targets (P-1)/12 s, not P/12 s: sampling P frames out of a P/12 s period puts the
+# last kept frame at source t = 10 - 10/P, and the wrap step measured 6.7 / 6.2 / 15.7 /255
+# (fr W46 / zh-tw W43 / en W45) — not acceptable. After extraction the Pth frame is an exact
+# copy of the first PNG, and after img2webp the last frame is replaced by a cwebp keyframe of
+# the first frame (tools/splice_last_keyframe.py): img2webp encodes the last frame as an
+# inter frame predicted from the previous one, and even with identical PNG inputs the decoded
+# jump measured 1.32/255 (fr W46, q70); the keyframe decodes bit-identically to the first
+# frame (measured 0.0000). The splice step verifies the decoded first-vs-last diff < 1.0/255
+# and fails loud otherwise. (No SOP text for this mechanism — user 2026-11-08: stop writing
+# SOP prose; the rule lives here and in the commit message.)
 set -eu
 
 src=${1:?video file}
@@ -51,9 +63,13 @@ framesdir=$(mktemp -d tools/scratch/motion-frames.XXXXXX)
 trap 'rm -rf "$framesdir"; [ -n "$warped" ] && rm -f "$warped"' EXIT
 if [ -n "$nframes" ]; then
   case "$nframes" in ''|*[!0-9]*) echo "frames must be a positive integer"; exit 1;; esac
-  dur=$(awk -v n="$nframes" 'BEGIN{printf "%.6f", n/12}')
+  # Endpoint sampling: the retimed period is (P-1)/12 s, so frame P-1 lands
+  # exactly on the source loop's endpoint (source t = duration == frame 0).
+  # A P/12 s period would put the last frame 10/P of source motion short of
+  # the endpoint, and the wrap step measured up to 15.7/255 — not acceptable.
+  dur=$(awk -v n="$nframes" 'BEGIN{printf "%.6f", (n-1)/12}')
   srcdur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$src")
-  factor=$(awk -v n="$nframes" -v d="$srcdur" 'BEGIN{printf "%.6f", (n/12)/d}')
+  factor=$(awk -v n="$nframes" -v d="$srcdur" 'BEGIN{printf "%.6f", ((n-1)/12)/d}')
   warped=$(mktemp --suffix=.mp4 tools/scratch/motion-warped.XXXXXX)
   # Uniform retime: output lasts exactly nframes/12 s. factor = target duration / source duration.
   # NOTE: do NOT force -pix_fmt here. The source loops are yuv444p, and forcing yuv420p
@@ -66,19 +82,23 @@ if [ -n "$nframes" ]; then
     -vf "setpts=PTS*$factor" -t "$dur" -c:v libx264 -crf 16 -preset fast "$warped"
   src="$warped"
 fi
-# Cap the extraction at exactly nframes: the warped stream's last frame
-# duration can push the fps filter one slot past N (measured 2026-11-08:
-# W43 en warped to 89 frames came out as 90). The extra frame sits at
-# t = N/12, i.e. the wrap point, and is a duplicate of frame 0 in a
-# seamless loop, so dropping it preserves closure. The guard below still
-# catches a warp that lands SHORT of N.
+# Extract the frames at 12 fps. Cap the extraction at exactly P-1 frames: the retimed
+# period is (P-1)/12 s, so the fps filter yields P-1 frames, and the Pth frame is then
+# an exact copy of the first PNG — the P frames span the closed period [0, source
+# duration], so the loop closes on itself. (The old code capped at P and dropped the
+# extra frame at the wrap point; that extra frame WAS the endpoint, and dropping it
+# left the last kept frame 10/P of source motion short of closure — the 6–16/255 bug.)
 cap_args=""
-if [ -n "$nframes" ]; then cap_args="-frames:v $nframes"; fi
+if [ -n "$nframes" ]; then cap_args="-frames:v $((nframes - 1))"; fi
 ffmpeg -hide_banner -loglevel error -y -i "$src" -an \
   -vf "fps=12,scale=1200:800:force_original_aspect_ratio=increase,crop=1200:800" $cap_args "$framesdir/%04d.png"
 n=$(ls "$framesdir" | wc -l)
-if [ -n "$nframes" ] && [ "$n" -ne "$nframes" ]; then
-  echo "expected $nframes frames at 12 fps, got $n; the retime did not land — not writing $out"; exit 1
+if [ -n "$nframes" ]; then
+  if [ "$n" -ne $((nframes - 1)) ]; then
+    echo "expected $((nframes - 1)) frames at 12 fps, got $n; the retime did not land — not writing $out"; exit 1
+  fi
+  cp "$framesdir/0001.png" "$framesdir/$(printf '%04d' "$nframes").png"
+  n=$nframes
 fi
 mkdir -p "covers/$week/motion"
 # 83 ms per frame = 12 frames/s. Lower -q until the file is ≤ 4 MB (rule 15).
@@ -87,11 +107,31 @@ mkdir -p "covers/$week/motion"
 # ladder stays at -m 4 and goes down to q10/q5 instead; q10 fixed that loop
 # (3.93 MB). If even q5 is over the cap the file is deleted, not written:
 # a missing motion is legal (rule 15 is optional), an over-cap one is not.
+# When a frame count is set, the quality ladder also closes the loop: after
+# img2webp, tools/splice_last_keyframe.py replaces the last frame with a
+# keyframe of the first frame (the decoded jump would otherwise be ~1.3/255
+# even with identical PNG inputs — inter-frame prediction residual). The
+# splice verifies the decoded first-vs-last diff < 1.0/255 and fails loud
+# if it cannot close the loop. It can change the size slightly, so the cap
+# is re-checked after the splice; if the spliced file is over the cap, drop
+# a quality rung and redo.
+wrote=""
 for q in 70 60 50 40 30 20 10 5; do
   img2webp -loop 0 -lossy -q "$q" -m 4 -d 83 "$framesdir"/*.png -o "$out" >/dev/null 2>&1
-  [ "$(wc -c < "$out")" -le 4194304 ] && break
+  [ -f "$out" ] && [ "$(wc -c < "$out")" -le 4194304 ] || continue
+  if [ -n "$nframes" ]; then
+    py=tools/venv/bin/python
+    [ -x "$py" ] || py=python3
+    if ! "$py" tools/splice_last_keyframe.py "$out" "$framesdir/0001.png" "$q"; then
+      rm -f "$out"
+      echo "splice failed for $out — not writing it (rule 15)"; exit 1
+    fi
+    [ "$(wc -c < "$out")" -le 4194304 ] || { rm -f "$out"; continue; }
+  fi
+  wrote=1
+  break
 done
-if [ "$(wc -c < "$out")" -gt 4194304 ]; then
+if [ -z "$wrote" ]; then
   rm -f "$out"
   echo "still over 4 MB at quality 5 — not writing $out (rule 15)"; exit 1
 fi
