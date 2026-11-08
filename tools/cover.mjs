@@ -46,10 +46,8 @@ export const MORE_COUNT = 6;
  * (`page`, 1…the edition's page count). The site sends a click on that item to that page of the edition
  * (#page-N). The lead is page 1; "inside this issue" item i is page i + 2 (both derived, not written).
  * Required for every item (user 2026-11-08: every item on the front page links to its page).
- * PAGE_ANCHORS_REQUIRED is false only until W46's cover.json has its page numbers (Muse fills them);
- * meanwhile a page that is written is checked and rendered, a missing one opens the edition at the top.
  */
-export const PAGE_ANCHORS_REQUIRED = false;
+export const PAGE_ANCHORS_REQUIRED = true;
 /** more index → picture aspect [w, h]. File: covers/<week>/images/<target>-<index>.webp (lint rule 10). */
 export const MORE_IMAGES = { 1: [1, 1], 2: [1, 1], 3: [3, 2], 5: [3, 2] };
 
