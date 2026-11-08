@@ -4,7 +4,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-fr-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 =================
@@ -12,9 +12,9 @@ CURPAGE[0] = 3
 p = BSPage4()
 p.band(E["band_p3"], "Le Lucerna", E["band_p3_sub"])
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P3-main")
-f.title("Le 11 novembre : se souvenir, puis faire la fête", 37)
-f.byline("Par la rédaction · Niveau de lecture : A2 → B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P3-main")
+f.title("Le 11 novembre : se souvenir, puis faire la fête", 32)
+f.byline("Par la rédaction　Niveau de lecture : A2 → B1")
 f.para("Le 11 novembre 1918, à 11 heures, les armes se sont tues. La Première Guerre mondiale était finie. Depuis, chaque 11 novembre, la France se souvient : c'est le jour de l'Armistice, un jour férié, un jour de silence et de mémoire.")
 f.para("Le matin, dans chaque commune, les gens se retrouvent devant le monument aux morts. On dépose une gerbe, on lit les noms des soldats morts pour la France, on observe une minute de silence. Depuis 2012, l'hommage concerne aussi tous les morts pour la France, dans toutes les guerres.")
 f.para("À Paris, la cérémonie nationale a lieu sous l'Arc de Triomphe. Le Soldat inconnu y repose depuis 1920, et sa flamme brûle depuis 1923, sans jamais s'éteindre. Le bleuet, fleur bleue, est devenu le symbole de ce jour : on le porte à la boutonnière, comme on porte le souvenir.")
@@ -72,7 +72,7 @@ cy3 = caption(p, ix, 740, CW,
               "Le chrysanthème, fleur du souvenir en France : on le pose sur les tombes, on ne l'offre jamais en cadeau.",
               "Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public")
 by3 = cy3 + 22
-p.rect(ix, by3, CW, 452, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, by3, CW, 452, fill=BOX)
 p.text(ix + 22, by3 + 40, E["head_mots_fetes"], 23, "sans", True, OLIVE)
 mots = E["mots_fetes"]
 yy3 = by3 + 82
@@ -80,13 +80,13 @@ for m in mots:
     p.text(ix + 22, yy3, m, 21.5, "serif", False, INK)
     yy3 += 37
 zy3 = by3 + 452 + 26
-p.rect(ix, zy3, CW, 476, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, zy3, CW, 476, fill="#f0eee5")
 p.text(ix + 22, zy3 + 40, E["head_zoom"], 23, "sans", True, OLIVE)
 illus_flame(p, ix + 22, zy3 + 58, s=0.85)
 p.para(ix + 70, zy3 + 78, "1918 : l'Armistice. 1920 : le Soldat inconnu. 1922 : le jour férié. 1923 : la flamme. 2026 : la 56e foire de Dieppe.", 21.5, "serif", False, INK, CW - 92, 1.42)
 p.para(ix + 22, zy3 + 300, E["zoom_note"], 20, "sans", False, GREY, CW - 44, 1.4)
 dy3 = zy3 + 476 + 26
-p.rect(ix, dy3, CW, 330, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, dy3, CW, 330, fill=BOX)
 p.text(ix + 22, dy3 + 40, E["head_dates3"], 23, "sans", True, OLIVE)
 dates3 = [
     ("mer. 11 nov.", "Armistice · cérémonies"),
@@ -96,13 +96,13 @@ dates3 = [
 ]
 yy3 = dy3 + 84
 for d, t in dates3:
-    p.text(ix + 22, yy3, d, 19.5, "sans", True, BRICK)
+    p.text(ix + 22, yy3, d, 19.5, "sans", True, OLIVE)
     p.text(ix + 168, yy3, t, 18.5, "serif", False, INK)
     yy3 += 42
 p.para(ix + 22, yy3 + 20, E["dates3_note"], 19.5, "sans", False, GREY, CW - 44, 1.4)
 py3 = dy3 + 330 + 30
 p.text(ix, py3 + 24, "POUR OU CONTRE ?", 23, "sans", True, OLIVE)
-p.hline(ix, ix + CW, py3 + 38, GOLD, 2)
+p.hline(ix, ix + CW, py3 + 38, OLIVE, 2)
 p.para(ix, py3 + 74, "Un jour férié au milieu de la semaine : une bonne coupure, ou une semaine cassée ? Écrivez votre avis en deux phrases pour le courrier des lecteurs (page 7).", 20.5, "serif", False, INK, CW, 1.4)
 p.foot(3)
 p.save(f"{OUT}/p3-culture.svg")
@@ -113,9 +113,9 @@ CURPAGE[0] = 4
 p = BSPage4()
 p.band(E["band_p4"], "Le Lucerna", E["band_p4_sub"])
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P4-main")
-f.title("Le Masters est fini, Turin commence", 37)
-f.byline("Par la rédaction · Niveau de lecture : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P4-main")
+f.title("Le Masters est fini, Turin commence", 32)
+f.byline("Par la rédaction　Niveau de lecture : B1")
 f.para("C'était le dernier grand tournoi de la saison : le Rolex Paris Masters, 41e édition, sur dur, en salle, à la Paris La Défense Arena de Nanterre. Le tableau comptait 56 joueurs ; les finales ont eu lieu dimanche 8 novembre, comme prévu, avec la finale du simple, la finale du double et la finale du simple en fauteuil.")
 f.para("Mais une absence a marqué le tournoi : Jannik Sinner, le tenant du titre, n'a pas joué. Blessé au genou, l'Italien a mis fin à sa saison le 6 octobre. Il ne jouera pas non plus les Masters de Turin : sa place ira au joueur suivant dans la course, arrêtée lundi 9 novembre.")
 f.para("Au moment où nous écrivons, le 2 novembre, les premiers matches venaient à peine de commencer : il est donc impossible de donner ici les résultats des finales. Ce numéro ne les invente pas — les résultats du week-end seront dans le VOL.5, avec le nom du vainqueur.")
@@ -162,12 +162,12 @@ f.box("LES PHRASES DU COMMENTATEUR", [
 f.end_report()
 
 ix = COLX[3]
-p.rect(ix, 200, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, 470, fill=BOX)
 p.text(ix + 22, 240, E["head_chiffres"], 23, "sans", True, OLIVE)
 p.para(ix + 22, 278, "41e édition du Masters en 2026. 56 joueurs au tableau. 8 joueurs à Turin, en deux groupes de quatre. 10 points pour la France après quatre matches de Ligue des nations.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, 520, E["chiffres_note"], 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
-p.rect(ix, vy, CW, 416, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, vy, CW, 416, fill="#f0eee5")
 p.text(ix + 22, vy + 40, E["head_mots_tennis"], 23, "sans", True, OLIVE)
 mots4 = E["mots_tennis"]
 yy4 = vy + 82
@@ -175,10 +175,10 @@ for m in mots4:
     p.text(ix + 22, yy4, m, 21.5, "serif", False, INK)
     yy4 += 37
 sy4 = vy + 416 + 26
-p.rect(ix, sy4, CW, 218, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy4, CW, 218, fill=BOX)
 p.text(ix + 22, sy4 + 40, E["head_asuivre"], 23, "sans", True, OLIVE)
 p.para(ix + 22, sy4 + 80, "Les résultats du Masters de Paris seront dans le VOL.5 : le nom du vainqueur, les finalistes, et la liste complète des huit joueurs de Turin.", 21.5, "serif", False, INK, CW - 44, 1.42)
-mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2540, tag="P4-micro")
+mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2560, tag="P4-micro")
 mf.head(E["head_micro"], 24)
 mf.bridge(E["bridge_micro4"])
 mf.ex("B1", "完成句子", "forfait", E["n_forfait"],
@@ -195,7 +195,7 @@ mf.ex("A2", "完成句子", "Milan", E["n_milan"],
       "Italie – France, jeudi 12, à ___.", size=23)
 mf.end_report()
 db4 = mf.y + 6
-p.rect(ix, db4, CW, 2540 - db4, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, db4, CW, 2560 - db4, fill="#f0eee5")
 p.text(ix + 22, db4 + 40, E["head_debat"], 23, "sans", True, OLIVE)
 p.para(ix + 22, db4 + 78, "Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? La question reste posée pour Turin.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, db4 + 196, E["debat_note"], 20, "sans", False, GREY, CW - 44, 1.4)

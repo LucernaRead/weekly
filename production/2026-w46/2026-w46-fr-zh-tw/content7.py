@@ -4,7 +4,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-fr-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 7
@@ -55,7 +55,7 @@ cD.bridge(E["bridge_outils"])
 cD.end_report()
 
 py = 1160
-p.hline(MX, RIGHT, py - 14, GOLD, 2)
+p.hline(MX, RIGHT, py - 14, OLIVE, 2)
 p.text(MX, py + 26, E["head_phrases"], 27, "sans", True, OLIVE)
 p.text(RIGHT, py + 26, E["phrases_sub"], 20, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
@@ -84,7 +84,7 @@ for sent, point, lv, q, key, note in phrases:
 pf.end_report()
 
 by7 = 1870
-p.hline(MX, RIGHT, by7 - 14, GOLD, 2)
+p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
 cf.head(E["head_clinic"], 25)
 cf.bridge(E["bridge_clinic"])
@@ -99,17 +99,17 @@ cf.ex("B1", "改错", "La foire a lieu samedi 14 novembre.", E["n_cl4"],
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 380, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by7 + 8, rw, 380, fill=BOX)
 p.text(rx + 24, by7 + 48, E["head_courrier"], 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« Mon mercredi 11 novembre : le matin, j'ai regardé la cérémonie à la télévision ; l'après-midi, j'ai marché jusqu'au monument aux morts et j'ai lu vingt pages. » — Exemple de la rédaction (ce texte n'est pas une lettre de lecteur).", 21, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 196, E["courrier_comment"], 20, "sans", False, GREY, rw - 48, 1.4)
 p.para(rx + 24, by7 + 272, "Note de la rédaction : aucun texte du VOL.3 n'était arrivé au moment de mettre sous presse. Le VOL.5 reprendra la promesse.", 20, "serif", False, INK, rw - 48, 1.4)
 p.para(rx + 24, by7 + 336, E["courrier_disclosure"], 19.5, "sans", False, GREY, rw - 48, 1.4)
 ty7 = by7 + 8 + 380 + 12
-p.rect(rx, ty7, rw, 2540 - ty7, fill=DARK)
-p.text(rx + 24, ty7 + 46, E["head_teaser"], 24, "sans", True, "#f3edda")
-p.para(rx + 24, ty7 + 84, "Mercredi 18 novembre : le vote solennel du Sénat est prévu. Jeudi 19 novembre : le beaujolais nouveau arrive. Dimanche 22 novembre : les finales de Turin. Les résultats du Masters, et vos lettres, enfin !", 21, "serif", False, "#e8dfc8", rw - 48, 1.45)
-p.para(rx + 24, ty7 + 196, E["teaser_note"], 20, "sans", False, "#b3a06a", rw - 48, 1.4)
+p.rect(rx, ty7, rw, 2560 - ty7, fill=CLOTH)
+p.text(rx + 24, ty7 + 46, E["head_teaser"], 24, "sans", True, ONCLOTH)
+p.para(rx + 24, ty7 + 84, "Mercredi 18 novembre : le vote solennel du Sénat est prévu. Jeudi 19 novembre : le beaujolais nouveau arrive. Dimanche 22 novembre : les finales de Turin. Les résultats du Masters, et vos lettres, enfin !", 21, "serif", False, "#cac8ba", rw - 48, 1.45)
+p.para(rx + 24, ty7 + 196, E["teaser_note"], 20, "sans", False, GOOSE, rw - 48, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-langue.svg")
 print("P7 saved, exercises so far:", len(REG))

@@ -4,7 +4,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-fr-zh-cn/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 =================
@@ -12,9 +12,9 @@ CURPAGE[0] = 5
 p = BSPage4()
 p.band(E["band_p5"], "Le Lucerna", E["band_p5_sub"])
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P5-main")
-f.title("Paris Photo : deux cents ans de photographie", 37)
-f.byline("Par la rédaction · Niveau de lecture : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P5-main")
+f.title("Paris Photo : deux cents ans de photographie", 32)
+f.byline("Par la rédaction　Niveau de lecture : B1")
 f.para("Du jeudi 12 au dimanche 15 novembre, le Grand Palais devient une immense galerie : c'est la 29e édition de Paris Photo, le salon de la photographie. Cette année est spéciale : on y fête les 200 ans de la photographie, née en 1826. Des galeries et des éditeurs de 38 pays montrent des tirages, des livres et des installations.")
 f.para("Au programme : « Révéler », une exposition tirée de la collection de photographie du Centre Pompidou, et « Elles × Paris Photo », qui met en avant les femmes photographes. Partout, des conversations avec des photographes, des livres à feuilleter, des séances de signatures dans les allées.")
 f.para("Pratique : le salon ouvre de 13 heures à 20 heures, 19 heures dimanche. Le billet coûte 36 euros en semaine, 41 euros le week-end, en ligne seulement ; le billet du soir et le tarif étudiant coûtent 26 euros. Le vernissage, mercredi 11 novembre, est réservé aux invités — le public entre jeudi.")
@@ -63,12 +63,12 @@ f.box("REGARDER UNE PHOTO", [("« Une photo vaut mille mots. » — dit-on. Et v
 f.end_report()
 
 ix = COLX[3]
-p.rect(ix, 200, CW, 470, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, 470, fill=BOX)
 p.text(ix + 22, 240, E["head_sortir"], 23, "sans", True, OLIVE)
 p.para(ix + 22, 278, "Mercredi 11 : vernissage de Paris Photo (invités) + cinéma. Jeudi 12 – dimanche 15 : Paris Photo, de 13 h à 20 h (19 h dimanche). Samedi 14 – dimanche 15 : la foire de Dieppe.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, 520, E["sortir_note"], 21.5, "serif", False, INK, CW - 44, 1.42)
 qy5 = 696
-p.rect(ix, qy5, CW, 400, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, qy5, CW, 400, fill="#f0eee5")
 p.text(ix + 22, qy5 + 40, E["head_mots_photo"], 23, "sans", True, OLIVE)
 mots5 = E["mots_photo"]
 yy5 = qy5 + 82
@@ -76,12 +76,12 @@ for m in mots5:
     p.text(ix + 22, yy5, m, 21.5, "serif", False, INK)
     yy5 += 37
 dy5 = qy5 + 400 + 26
-p.rect(ix, dy5, CW, 440, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, dy5, CW, 440, fill=BOX)
 p.text(ix + 22, dy5 + 40, E["head_cine"], 23, "sans", True, OLIVE)
 p.para(ix + 22, dy5 + 78, "Mercredi 11 novembre, jour férié : « Il faut brûler Maman » (Albert Dupontel), « Scrooge » (Ti West, avec Johnny Depp), un film de braquage (David Leitch), et la ressortie de « Dune ». « Kaamelott » est repoussé au 10 mars 2027.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 300, E["cine_note"], 20, "sans", False, GREY, CW - 44, 1.4)
 ty5 = dy5 + 440 + 26
-p.rect(ix, ty5, CW, 2540 - ty5, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ty5, CW, 2560 - ty5, fill=BOX)
 p.text(ix + 22, ty5 + 40, E["head_debat"], 23, "sans", True, OLIVE)
 p.para(ix + 22, ty5 + 78, "Une photo vaut-elle mille mots ? Discutez en classe : deux phrases pour, deux phrases contre. Et vous, quelle photo raconterait votre semaine ?", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, ty5 + 285, E["debat5_note"], 20, "sans", False, GREY, CW - 44, 1.4)
@@ -95,8 +95,8 @@ p = BSPage4()
 p.band(E["band_p6"], "Le Lucerna", E["band_p6_sub"])
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 200, 1300, tag="P6-deep")
-f.title("Au Sénat, cette semaine : le budget de la Sécu", 36)
-f.byline("Par la rédaction · Niveau de lecture : B2")
+f.title("Au Sénat, cette semaine : le budget de la Sécu", 32)
+f.byline("Par la rédaction　Niveau de lecture : B2")
 f.para("Cette semaine, le Sénat examine le projet de loi de financement de la Sécurité sociale pour 2027. La discussion générale s'ouvre lundi 9 novembre ; ensuite, les sénateurs discutent les articles, un par un. Le texte qu'ils examinent est celui du gouvernement, dans sa version initiale.")
 f.para("Pourquoi la version initiale ? Parce que le 23 octobre, l'Assemblée nationale a rejeté la partie « recettes » du texte, par 115 voix contre 1. Le rejet a arrêté l'examen : la partie « dépenses » n'a jamais été débattue par les députés. La commission des affaires sociales du Sénat a préparé son rapport le mercredi 4 novembre.")
 f.para("Attention, lecteurs : ce numéro corrige son propre calendrier. La semaine dernière, nous avions annoncé des votes par mission, du 3 au 6 novembre. Ce calendrier n'a pas eu lieu : le vote solennel est prévu mardi 3 novembre, sur la première partie du budget de l'État, celle des recettes.")
@@ -106,24 +106,24 @@ f.end_report()
 
 chx, chw = COLX[0], 2 * CW + GUT
 chy = 1330
-p.rect(chx, chy, chw, 436, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(chx, chy, chw, 436, fill=BOX)
 p.text(chx + 22, chy + 40, E["head_chart"], 24, "sans", True, OLIVE)
 p.text(chx + 22, chy + 74, E["chart_sub"], 19, "sans", False, GREY)
 rows6 = [
     ("23 oct.", "Rejet 115–1 des recettes de la Sécu", OLIVE),
-    ("3 nov.", "Vote solennel : recettes du budget", GOLD),
+    ("3 nov.", "Vote solennel : recettes du budget", OLIVE),
     ("4 nov.", "Commission du Sénat : rapport", OLIVE),
-    ("9 nov.", "Discussion générale au Sénat", GOLD),
+    ("9 nov.", "Discussion générale au Sénat", OLIVE),
 ]
 byy = chy + 112
 for d, t, col in rows6:
-    p.text(chx + 22, byy + 22, d, 21, "sans", True, BRICK)
+    p.text(chx + 22, byy + 22, d, 21, "sans", True, OLIVE)
     p.text(chx + 200, byy + 22, t, 21.5, "serif", False, INK)
     byy += 68
 p.text(chx + 22, byy + 16, "Source : ordre du jour du Sénat ; NosParlementaires.", 18.5, "sans", False, GREY)
 p.text(chx + 22, byy + 44, E["chart_note"], 19, "sans", False, GREY)
 
-e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 436 + 24, 2540, tag="P6-ex")
+e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 436 + 24, 2560, tag="P6-ex")
 e6.head(E["head_lire"], 25)
 e6.bridge(E["bridge_chart"])
 e6.ex("B2", "图表读数", "B", E["n_chart1"],
@@ -161,7 +161,7 @@ g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner 
 g.bridge(E["bridge_prevu"])
 g.end_report()
 
-g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2540, tag="P6-micro")
+g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
 g2.head(E["head_comp6"], 25)
 g2.bridge(E["bridge_comp6"])
 g2.ex("B1", "完成句子", "plus long", E["n_comp6a"],
