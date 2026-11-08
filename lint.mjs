@@ -184,7 +184,7 @@ const TABLES = JSON.parse(readFileSync(join(root, 'tools', 'tables.json'), 'utf8
  * before W43 as VOL.1, so W43/W45/W46 fr print one number too high. Frontmatter carries the right number.
  * An entry is removed when that week's PDFs are reprinted; lint fails if an entry no longer matches.
  */
-const VOL_MISPRINTS = { '2026-w43|fr': 2 };
+const VOL_MISPRINTS = {};
 
 /** ISO week (year, week) → YYYY-MM-DD of Monday + offset days. */
 function isoWeekDay(year, week, offset) {
