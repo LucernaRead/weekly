@@ -98,7 +98,10 @@
  *      shown in place of the still on every cover. Animated (VP8X animation flag, ≥ 2 frames), loops forever
  *      (loop count 0), canvas 3:2 (±1%) and ≥ 800 px wide, total duration 2–15 s, file ≤ 4 MB. A still image for the
  *      same language must exist (images/<lang>.webp): the site shows it to readers who turned motion off.
- *      It enters the index's coverMotion (week, lang, path, byte size, SHA-256).
+ *      The motions on one cover page must have staggered, pairwise-coprime durations (in frames at 12 fps),
+ *      so they never loop back in sync: en 89, de 97, fr 103, es 109, it 113, pt 127, nl 131, ru 137, ja 149,
+ *      ko 157, zh-cn 167, zh-tw 179 frames (tools/motion.sh applies them; SOP Appendix 5, rule 15).
+ *      It enters the index's coverMotion (week, lang, path, byte size, SHA-256, frames, durationMs).
  */
 import { readdirSync as readdirAll, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -665,7 +668,7 @@ function collectCoverMotion(dir, rel, week) {
       fail(fileRel, `${bad.join('; ')} (rule 15; see AGENTS.md, "Add a moving picture")`);
       continue;
     }
-    coverMotion.push({ week, lang: m[1], path: fileRel, bytes: data.length, sha256: createHash('sha256').update(data).digest('hex') });
+    coverMotion.push({ week, lang: m[1], path: fileRel, bytes: data.length, sha256: createHash('sha256').update(data).digest('hex'), frames: w.frames, durationMs: w.ms });
   }
 }
 
@@ -738,6 +741,22 @@ for (const [week, pairs] of readyPairsByWeek) {
   const noImage = LANGS.filter((l) => !imageLangsByWeek.get(week)?.has(l));
   if (noImage.length) {
     fail(`covers/${week}/${IMAGES_DIR}`, `this week has all ${expectedPairCount} editions but no story image for target languages ${noImage.join(' ')}; see AGENTS.md, "Add story images"`);
+  }
+}
+
+// Rule 15 (durations): the motions on one cover page must loop at staggered, pairwise-coprime
+// frame counts (12 fps), so they never jump back in sync. tools/motion.sh assigns one prime frame
+// count per language (SOP Appendix 5); lint checks the outcome, not the tool.
+const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
+const motionByWeek = new Map();
+for (const mo of coverMotion) motionByWeek.set(mo.week, [...(motionByWeek.get(mo.week) ?? []), mo]);
+for (const [week, mos] of motionByWeek) {
+  for (let i = 0; i < mos.length; i++) {
+    for (let j = i + 1; j < mos.length; j++) {
+      if (gcd(mos[i].frames, mos[j].frames) !== 1) {
+        fail(`covers/${week}/${MOTION_DIR}`, `${mos[i].lang} (${mos[i].frames} frames) and ${mos[j].lang} (${mos[j].frames} frames) share a common divisor — the motions on one cover page must have pairwise-coprime frame counts at 12 fps (rule 15; SOP Appendix 5)`);
+      }
+    }
   }
 }
 

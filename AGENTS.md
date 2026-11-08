@@ -163,10 +163,15 @@ The site shows it with no controls. It plays in a loop. Readers who turned motio
    The tool writes `covers/<week>/motion/<target language>.webp`: an animated WebP, 1200×800, 12 frames per second.
    A WebP has no audio track, so the picture is always silent.
    The tool lowers the quality until the file is ≤ 4 MB.
-3. Keep the still image `covers/<week>/images/<target language>.webp`. Lint requires it (rule 15).
-4. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
-   Lint checks rule 15: animated, loops forever, 3:2, at least 800 px wide, 2–15 s, ≤ 4 MB.
-5. Commit the file and index.json.
+3. Durations must be staggered: each language has a fixed prime frame count at 12 fps, so the 12 motions
+   on one cover page never loop back in sync — en 89, de 97, fr 103, es 109, it 113, pt 127, nl 131,
+   ru 137, ja 149, ko 157, zh-cn 167, zh-tw 179 (same language, same count, every week).
+   `motion.sh` applies the count for the language automatically (a 4th argument overrides it).
+   Lint rule 15 checks every pair of frame counts is coprime (SOP Appendix 5).
+4. Keep the still image `covers/<week>/images/<target language>.webp`. Lint requires it (rule 15).
+5. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+   Lint checks rule 15: animated, loops forever, 3:2, at least 800 px wide, 2–15 s, ≤ 4 MB, pairwise-coprime frame counts.
+6. Commit the file and index.json.
 
 ## Do not
 
