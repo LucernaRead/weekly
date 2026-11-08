@@ -184,6 +184,10 @@ case passes its checks and writes nothing.
 
 ## 6. `cover_check.py` — website cover block gate (rule 11 companion)
 
+**Only for hand-written cover blocks (W45 and earlier).** From 2026-w46 the blocks are generated from
+`production/covers/<week>/cover.json` by `node tools/cover.mjs <week>`; the gate is lint rule 14. Do not run
+this tool on W46 or later (see SOP §8.6 and Appendix 5).
+
 Per `<article>` in every website cover block it asserts: (1) a
 `<p class="lc-excerpt" lang="<story lang>">` exists, its `lang` matches
 the story language, and its text is byte-identical to that week+story's
