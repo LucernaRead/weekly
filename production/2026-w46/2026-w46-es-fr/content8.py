@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · EXERCICES ET RÉPONSES", "La Lucerna", "Page 8 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　EXERCICES ET RÉPONSES", "La Lucerna", "Page 8　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "B", "visita a Chequia = en déplacement en Tchéquie",
      "El jueves, la Roja ___ a Chequia en Praga. (A. recibe · B. visita)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "B", "recibir a Inglaterra = recevoir l'Angleterre à domicile",
@@ -30,7 +30,7 @@ f.ex("B1", "完形单选", "A", "Espagne–Angleterre dimanche",
      "El domingo se juega el ___ en el Metropolitano. (A. España–Inglaterra · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "veranillo = été de la Saint-Martin",
      "En noviembre llega el ___ de San Martín. (A. veranillo · B. puente)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "单选", "B", "La grève générale a lieu mercredi 11 novembre",
      "La huelga general es el... A. lunes 9 · B. miércoles 11 · C. viernes 13", size=15.5, gap=1)
 f.ex("A2", "单选", "A", "Saint-Martin, 11 novembre",
@@ -47,7 +47,7 @@ f.ex("B2", "单选", "B", "Baromètre logement du CIS : 86,9 % inquiets pour le 
      "Según el CIS de vivienda, está preocupado el... A. 13,5 % · B. 86,9 % · C. 79 %", size=15.5, gap=1)
 f.ex("B1", "单选", "A", "La campagne commence le 13 novembre",
      "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Pablo vive en Madrid: el miércoles 11 sigue la huelga en las noticias y el domingo ve el España–Inglaterra en el Metropolitano. Ana vive en Barcelona: el miércoles 11 trabaja, y el domingo ve el partido por televisión. Los dos leen los programas antes de votar el 29.", 16.5, lh=1.3, split=False)
 f.ex("A2", "单选", "B", "Pablo va au Metropolitano dimanche",
      "¿Quién ve el partido en el Metropolitano? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
@@ -57,7 +57,7 @@ f.ex("A2", "单选", "A", "Tous les deux lisent les programmes avant de voter",
      "Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga", size=15.5, gap=1)
 f.ex("A2", "单选", "B", "Le titre résume le contraste entre deux lieux",
      "El mejor título es... A. «Una tormenta» · B. «Dos miércoles» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "造句", "El miércoles hay huelga general.", "Sujet + verbe + lieu",
      "el miércoles / hay / huelga general → ___", instr="Former une phrase", size=15.5, gap=1)
 f.ex("A2", "造句", "El domingo vemos el España–Inglaterra.", "Le temps d'abord",
@@ -66,7 +66,7 @@ f.ex("B1", "造句", "La campaña empieza a las cero horas.", "a las cero horas 
      "la campaña / empieza / a las cero horas → ___", instr="Former une phrase", size=15.5, gap=1)
 f.ex("B1", "造句", "¿A qué hora empieza el partido?", "Le mot interrogatif en tête",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="Former une phrase", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "翻译", "Mercredi, grève générale dans toute l'Espagne.", "Compare avec l'original.",
      "El miércoles hay huelga general en toda España. → ___", instr="Traduire", size=15.5, gap=1)
 f.ex("A2", "翻译", "Dimanche, nous regardons Espagne–Angleterre.", "Compare avec l'original.",
@@ -75,7 +75,7 @@ f.ex("B1", "翻译", "El voto por correo llega a casa.", "llegar a casa = arrive
      "Le vote par correspondance arrive à la maison. → ___", instr="Traduire", size=15.5, gap=1)
 f.ex("B2", "翻译", "Cada gráfico tiene que llevar su fuente.", "tener que = devoir",
      "Chaque graphique doit indiquer sa source. → ___", instr="Traduire", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "词汇配对",
             ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -85,7 +85,7 @@ f.match_set("B2", "词汇配对",
             ["c", "d", "b", "a"],
             ["sondeo=sondage c", "muestra=échantillon d", "margen de error=marge d'erreur b", "junta electoral=commission électorale a"],
             instr="Associer")
-f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "alquiler = loyer",
      "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "tres habitaciones = trois pièces",
@@ -96,7 +96,7 @@ f.ex("B1", "完形单选", "A", "firmar = signer (un contrat)",
      "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "mudanza = déménagement",
      "— La ___ es el miércoles 11, día de huelga. (A. mudanza · B. campaña)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.bridge("Exercice d'écriture (pas de réponse unique) ; texte modèle (84 mots) ci-dessous.")
 f.ex("B1", "写作", "Question ouverte — texte modèle ci-dessous sur cette page", "Texte modèle dans la section H de cette page (84 mots)",
      "«¿Qué harías tú por la vivienda?» Escribe 80–100 palabras: tu plan del miércoles 11, tu domingo 15 y tu voto del 29.", instr="Écrire", size=15.5, gap=1)
@@ -109,13 +109,13 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · CORRIGÉS — classés par page, cherchez le numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Une courte explication en français pour chaque exercice · ✓ = exercice d'écriture", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　CORRIGÉS — classés par page, cherchez le numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Une courte explication en français pour chaque exercice　✓ = exercice d'écriture", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.12, gap=2, split=False)
     for e_ in by_page[pg]:

@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · 연습과 답", "La Lucerna", "8면 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　연습과 답", "La Lucerna", "8면　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "빈칸 채우기", "B", "visita a Chequia = 체코 원정",
      "El jueves, la Roja ___ a Chequia en Praga. (A. recibe · B. visita)", size=15.5, gap=1)
 f.ex("B1", "빈칸 채우기", "B", "recibir a Inglaterra = 잉글랜드를 홈에서 맞이해요",
@@ -30,7 +30,7 @@ f.ex("B1", "빈칸 채우기", "A", "일요일에는 스페인–잉글랜드 �
      "El domingo se juega el ___ en el Metropolitano. (A. España–Inglaterra · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "빈칸 채우기", "A", "veranillo = 늦가을 따뜻한 날",
      "En noviembre llega el ___ de San Martín. (A. veranillo · B. puente)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "객관식", "B", "총파업은 11월 11일 수요일이에요",
      "La huelga general es el... A. lunes 9 · B. miércoles 11 · C. viernes 13", size=15.5, gap=1)
 f.ex("A2", "객관식", "A", "성 마르틴 축일 11월 11일",
@@ -47,7 +47,7 @@ f.ex("B2", "객관식", "B", "CIS 주택 지표: 주택이 걱정되는 사람 8
      "Según el CIS de vivienda, está preocupado el... A. 13,5 % · B. 86,9 % · C. 79 %", size=15.5, gap=1)
 f.ex("B1", "객관식", "A", "선거 운동은 11월 13일에 시작해요",
      "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Pablo vive en Madrid: el miércoles 11 sigue la huelga en las noticias y el domingo ve el España–Inglaterra en el Metropolitano. Ana vive en Barcelona: el miércoles 11 trabaja, y el domingo ve el partido por televisión. Los dos leen los programas antes de votar el 29.", 16.5, lh=1.3, split=False)
 f.ex("A2", "객관식", "B", "파블로는 일요일에 메트로폴리타노에 가요",
      "¿Quién ve el partido en el Metropolitano? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
@@ -57,7 +57,7 @@ f.ex("A2", "객관식", "A", "두 사람 모두 강령을 읽고 투표해요",
      "Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga", size=15.5, gap=1)
 f.ex("A2", "객관식", "B", "제목은 두 곳의 대비를 요약해요",
      "El mejor título es... A. «Una tormenta» · B. «Dos miércoles» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "문장 만들기", "El miércoles hay huelga general.", "주어 + 동사 + 장소",
      "el miércoles / hay / huelga general → ___", instr="문장 만들기", size=15.5, gap=1)
 f.ex("A2", "문장 만들기", "El domingo vemos el España–Inglaterra.", "시간이 앞에 있어요",
@@ -66,7 +66,7 @@ f.ex("B1", "문장 만들기", "La campaña empieza a las cero horas.", "a las c
      "la campaña / empieza / a las cero horas → ___", instr="문장 만들기", size=15.5, gap=1)
 f.ex("B1", "문장 만들기", "¿A qué hora empieza el partido?", "의문사는 문장 맨 앞에 있어요",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="문장 만들기", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "번역", "수요일 스페인 전역에서 총파업이 있어요.", "원문과 대조해 보세요.",
      "El miércoles hay huelga general en toda España. → ___", instr="번역", size=15.5, gap=1)
 f.ex("A2", "번역", "일요일에 우리는 스페인–잉글랜드를 봐요.", "원문과 대조해 보세요.",
@@ -75,7 +75,7 @@ f.ex("B1", "번역", "El voto por correo llega a casa.", "llegar a casa = 집으
      "우편 투표가 집으로 와요. → ___", instr="번역", size=15.5, gap=1)
 f.ex("B2", "번역", "Cada gráfico tiene que llevar su fuente.", "tener que = 반드시 ~해야 해요",
      "모든 도표는 출처를 밝혀야 해요. → ___", instr="번역", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "단어 짝짓기",
             ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -85,7 +85,7 @@ f.match_set("B2", "단어 짝짓기",
             ["c", "d", "b", "a"],
             ["sondeo=여론조사 c", "muestra=표본 d", "margen de error=오차 범위 b", "junta electoral=선거관리위원회 a"],
             instr="단어와 뜻 짝짓기")
-f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "빈칸 채우기", "A", "alquiler = 임대료",
      "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
 f.ex("B1", "빈칸 채우기", "A", "tres habitaciones = 방 세 개",
@@ -96,7 +96,7 @@ f.ex("B1", "빈칸 채우기", "A", "firmar = 서명해요 (계약서에)",
      "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "빈칸 채우기", "A", "mudanza = 이사",
      "— La ___ es el miércoles 11, día de huelga. (A. mudanza · B. campaña)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.bridge("쓰기 문제 (정답이 하나가 아니에요). 모범 답안 (84단어)은 아래에 있어요.")
 f.ex("B1", "쓰기", "(열린 문제 — 모범 답안은 아래에 있어요)", "모범 답안은 이 면 H 구역에 있어요 (84단어)",
      "«¿Qué harías tú por la vivienda?» Escribe 80–100 palabras: tu plan del miércoles 11, tu domingo 15 y tu voto del 29.", instr="쓰기", size=15.5, gap=1)
@@ -109,13 +109,13 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · 정답 — 면별로 나누어 실었어요, 번호로 찾으세요", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "문제마다 한국어 해설 한 줄 · ✓ 표시는 모범 답안 문제예요", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　정답 — 면별로 나누어 실었어요, 번호로 찾으세요", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "문제마다 한국어 해설 한 줄　✓ 표시는 모범 답안 문제예요", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— 제 {pg} 면 —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

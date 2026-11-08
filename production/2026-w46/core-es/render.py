@@ -6,7 +6,7 @@ import os, io, glob, subprocess, sys
 import cairosvg
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-core")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVG_DIR = os.path.join(BASE, "svg")
 CARDS = os.path.join(BASE, "cards")
 os.makedirs(CARDS, exist_ok=True)
@@ -33,7 +33,7 @@ with open(print_path, "wb") as fh:
 print("print PDF:", print_path, os.path.getsize(print_path))
 
 web_path = os.path.join(BASE, "La-Lucerna-VOL3-web.pdf")
-tools = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/tools")
+tools = os.path.expanduser("~/workspace/weekly-git/tools")
 r = subprocess.run([sys.executable, os.path.join(tools, "webpdf.py"), SVG_DIR, web_path],
                    capture_output=True, text=True)
 print(r.stdout)

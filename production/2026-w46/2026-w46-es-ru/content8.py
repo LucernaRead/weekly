@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-es-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · Упражнения и ответы", "La Lucerna", "Страница 8 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　Упражнения и ответы", "La Lucerna", "Страница 8　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "Выбор в тексте", "B", "visita a Chequia = выезд в Чехию",
      "El jueves, la Roja ___ a Chequia en Praga. (A. recibe · B. visita)", size=15.5, gap=1)
 f.ex("B1", "Выбор в тексте", "B", "recibir a Inglaterra = принимать Англию дома",
@@ -30,7 +30,7 @@ f.ex("B1", "Выбор в тексте", "A", "Испания — Англия �
      "El domingo se juega el ___ en el Metropolitano. (A. España–Inglaterra · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "Выбор в тексте", "A", "veranillo = бабье лето",
      "En noviembre llega el ___ de San Martín. (A. veranillo · B. puente)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "Выбор ответа", "B", "Всеобщая забастовка — в среду, 11 ноября",
      "La huelga general es el... A. lunes 9 · B. miércoles 11 · C. viernes 13", size=15.5, gap=1)
 f.ex("A2", "Выбор ответа", "A", "День святого Мартина, 11 ноября",
@@ -47,7 +47,7 @@ f.ex("B2", "Выбор ответа", "B", "Жилищный барометр CI
      "Según el CIS de vivienda, está preocupado el... A. 13,5 % · B. 86,9 % · C. 79 %", size=15.5, gap=1)
 f.ex("B1", "Выбор ответа", "A", "Кампания начинается 13 ноября",
      "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Pablo vive en Madrid: el miércoles 11 sigue la huelga en las noticias y el domingo ve el España–Inglaterra en el Metropolitano. Ana vive en Barcelona: el miércoles 11 trabaja, y el domingo ve el partido por televisión. Los dos leen los programas antes de votar el 29.", 16.5, lh=1.3, split=False)
 f.ex("A2", "Выбор ответа", "B", "Пабло идёт в воскресенье на «Метрополитано»",
      "¿Quién ve el partido en el Metropolitano? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
@@ -57,7 +57,7 @@ f.ex("A2", "Выбор ответа", "A", "Оба читают программ
      "Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga", size=15.5, gap=1)
 f.ex("A2", "Выбор ответа", "B", "Заголовок обобщает контраст двух мест",
      "El mejor título es... A. «Una tormenta» · B. «Dos miércoles» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "Составьте предложение", "El miércoles hay huelga general.", "Подлежащее + глагол + место",
      "el miércoles / hay / huelga general → ___", instr="Составьте предложение", size=15.5, gap=1)
 f.ex("A2", "Составьте предложение", "El domingo vemos el España–Inglaterra.", "Время впереди",
@@ -66,7 +66,7 @@ f.ex("B1", "Составьте предложение", "La campaña empieza a l
      "la campaña / empieza / a las cero horas → ___", instr="Составьте предложение", size=15.5, gap=1)
 f.ex("B1", "Составьте предложение", "¿A qué hora empieza el partido?", "Вопросительное слово в начале",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="Составьте предложение", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "Перевод", "В среду по всей Испании всеобщая забастовка.", "Сверьтесь с оригиналом.",
      "El miércoles hay huelga general en toda España. → ___", instr="Перевод", size=15.5, gap=1)
 f.ex("A2", "Перевод", "В воскресенье мы смотрим Испания — Англия.", "Сверьтесь с оригиналом.",
@@ -75,7 +75,7 @@ f.ex("B1", "Перевод", "El voto por correo llega a casa.", "llegar a casa 
      "Голосование по почте приходит домой. → ___", instr="Перевод", size=15.5, gap=1)
 f.ex("B2", "Перевод", "Cada gráfico tiene que llevar su fuente.", "tener que = должен",
      "Каждый график должен указывать источник. → ___", instr="Перевод", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "Соотнесите слова",
             ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -85,7 +85,7 @@ f.match_set("B2", "Соотнесите слова",
             ["c", "d", "b", "a"],
             ["sondeo=опрос c", "muestra=выборка d", "margen de error=погрешность b", "junta electoral=избирательная комиссия a"],
             instr="Соотнесите")
-f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "Выбор в тексте", "A", "alquiler = арендная плата",
      "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
 f.ex("B1", "Выбор в тексте", "A", "tres habitaciones = три комнаты",
@@ -96,7 +96,7 @@ f.ex("B1", "Выбор в тексте", "A", "firmar = подписать (до
      "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "Выбор в тексте", "A", "mudanza = переезд",
      "— La ___ es el miércoles 11, día de huelga. (A. mudanza · B. campaña)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.expl("Письменное задание (без единственного ответа); образец (84 слова) — ниже.")
 f.ex("B1", "Письмо", "(открытый вопрос — образец ниже)", "Образец — в разделе H этой страницы (84 слова)",
      "«¿Qué harías tú por la vivienda?» Escribe 80–100 palabras: tu plan del miércoles 11, tu domingo 15 y tu voto del 29.", instr="Письмо", size=15.5, gap=1)
@@ -109,13 +109,13 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · Ответы — по страницам, ищите по номеру", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "К каждому ответу — короткое пояснение · ✓ = задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　Ответы — по страницам, ищите по номеру", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "К каждому ответу — короткое пояснение　✓ = задание с образцом", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— СТРАНИЦА {pg} —", 14, "sans", True, OLIVE, lh=1.12, gap=2, split=False)
     for e_ in by_page[pg]:
