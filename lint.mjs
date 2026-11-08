@@ -584,10 +584,15 @@ function checkGenerated(week, reader, text, where) {
       }
       const problems = cover ? checkCover(cover) : [];
       // "Inside this issue" lists pages 2…n: one title per page after P1 of that target's edition.
+      // Page anchors (more[n].page, word.page) point at a page that edition has.
       for (const e of problems.length ? [] : editions) {
-        const titles = cover.stories[e.target].pages.length;
-        if (e.week.toLowerCase() === week && titles !== Number(e.pages) - 1) {
-          problems.push(`stories.${e.target}.pages: ${titles} titles, but ${e.slug} has ${e.pages} pages (one title per page after P1)`);
+        if (e.week.toLowerCase() !== week) continue;
+        const s = cover.stories[e.target];
+        if (s.pages.length !== Number(e.pages) - 1) {
+          problems.push(`stories.${e.target}.pages: ${s.pages.length} titles, but ${e.slug} has ${e.pages} pages (one title per page after P1)`);
+        }
+        for (const [where, p] of [...s.more.map((m, i) => [`more[${i}]`, m.page]), ['word', s.word.page]]) {
+          if (p > Number(e.pages)) problems.push(`stories.${e.target}.${where}.page: ${p}, but ${e.slug} has ${e.pages} pages`);
         }
       }
       for (const p of new Set(problems)) fail(path, `${p} (rule 14)`);

@@ -74,11 +74,15 @@ You write the content in one file. A tool generates the 12 cover blocks. Lint ch
    | lead text (verbatim, whole sentences) | `excerpt` | target |
    | lead explanation | `teaser[reader]` | reader |
    | lead picture caption / screen-reader text | `caption[reader]` / `alt[reader]` | reader |
-   | 6 secondary stories | `more[n].headline` / `more[n].summary[reader]` | target / reader |
-   | word of the week | `word.term` / `word.gloss[reader]` | target / reader |
+   | 6 secondary stories | `more[n].headline` / `more[n].summary[reader]` / `more[n].page` | target / reader / page number |
+   | word of the week | `word.term` / `word.gloss[reader]` / `word.page` | target / reader / page number |
    | "inside this issue" | `pages` (titles of page 2 to the last page) | target |
 
    For reader = target, write the reader fields in the target language.
+   Write `page` for every secondary story and for the word: the page of the edition PDF that item is on
+   (an integer, 1 to the last page). The page number is required. Read it from the PDF page footer.
+   The site sends a click on the item to that page of the edition. The lead is page 1, and
+   "inside this issue" line i is page i + 2. Do not write a page for those two.
    SOP.md, Appendix 5, says how to write each field. Read it before you write.
 2. Keep each field within its length limit. The limits are `LIMITS` in `tools/cover.mjs`.
    Count = Unicode characters after you remove all whitespace. Punctuation and digits count.
