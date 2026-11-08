@@ -71,9 +71,11 @@
  *  10. **Story images** — a cover block reserves image places: put data-image-slot on the placeholder element
  *      inside an <article> (no value; rule 8's order gives its target language). At most one per story;
  *      none outside an <article>. The image goes in covers/<week>/images/<target language>.webp: one per target
- *      language, shared by the 12 covers; it must be WebP, non-empty, ≤ 400 KB (file bytes).
- *      It enters the index's coverImages (week, lang, path, byte size, SHA-256).
- *      The site fills each cover's slot for that story with the image; without an image the placeholder shows as is.
+ *      language, shared by the 12 covers; it must be WebP, non-empty, ≤ 400 KB (file bytes), 3:2, ≥ 800 px wide.
+ *      Secondary stories that the layout gives a picture (tools/cover.mjs MORE_IMAGES) take
+ *      images/<target language>-<n>.webp for more[n], in the aspect MORE_IMAGES gives (square ≥ 400 px, 3:2 ≥ 800 px).
+ *      Each enters the index's coverImages (week, lang, more = n or null for the lead, path, byte size, SHA-256).
+ *      The site fills each place with its image; without an image it shows a placeholder.
  *  11. **A complete week must have its website cover** — when a week's expected set (130 editions) is all present
  *      (not draft, PDF in the repo), covers/<week>/ must hold one cover block .html for each of the 12 reader
  *      languages, and images/ must hold one image for each of the 12 target languages.
@@ -86,11 +88,26 @@
  *      vol and title (tracker + title template), masthead / names / labels / discordThread (tools/tables.json),
  *      the body heading "# <title>", and pages (counted from the PDF) must equal their derived values;
  *      any VOL.n anywhere in the md (abstract included) must be this week's number.
+ *  14. **Cover blocks are generated (from 2026-w46)** — production/covers/<week>/cover.json holds the cover content
+ *      (lead headline, excerpt, teaser, caption, alt, 6 secondary stories, word of the week and the titles of pages
+ *      2…n per target language; one title per page after P1 of that week's edition); tools/cover.mjs checks
+ *      it (every field present, length limits, whole-sentence excerpt, script of non-Latin languages) and renders the
+ *      12 blocks. Each committed block must equal that rendering byte for byte: change cover.json, run
+ *      `node tools/cover.mjs <week>`, never edit the .html.
+ *  15. **Moving pictures** — covers/<week>/motion/<target language>.webp: an optional animated WebP for that story,
+ *      shown in place of the still on every cover. Animated (VP8X animation flag, ≥ 2 frames), loops forever
+ *      (loop count 0), canvas 3:2 (±1%) and ≥ 800 px wide, total duration 2–15 s, file ≤ 4 MB. A still image for the
+ *      same language must exist (images/<lang>.webp): the site shows it to readers who turned motion off.
+ *      It enters the index's coverMotion (week, lang, path, byte size, SHA-256).
  */
-import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
+import { readdirSync as readdirAll, readFileSync, writeFileSync, existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { createHash } from 'node:crypto';
+import { checkCover, renderCover, coverJsonPath, FIRST_GENERATED_WEEK, MORE_IMAGES } from './tools/cover.mjs';
+
+/** Directory listing without macOS Finder metadata (.DS_Store is gitignored; Finder rewrites it at any time). */
+const readdirSync = (dir) => readdirAll(dir).filter((name) => name !== '.DS_Store');
 
 /** The 12 languages (target and native use the same codes). This order is the sort order in the index. */
 const LANGS = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'ko', 'zh-cn', 'zh-tw'];
@@ -439,7 +456,12 @@ for (const weekDirName of readdirSync(issuesDir).sort()) {
 // A directory with only the print cover and no .html does not enter the index; rule 11 decides whether the week needs one.
 const covers = [];
 const coverImages = [];
+const coverMotion = [];
 const IMAGES_DIR = 'images';
+const MOTION_DIR = 'motion';
+const MOTION_MAX_BYTES = 4 * 1024 * 1024;
+/** week → its parsed, checked cover.json (null when missing or invalid); rule 14. */
+const coverJsonCache = new Map();
 const IMAGE_MAX_BYTES = 400 * 1024;
 const IMAGE_SLOT_RE = /\sdata-image-slot\b/gi;
 const coversDir = join(root, 'covers');
@@ -459,6 +481,10 @@ if (existsSync(coversDir)) {
       const rel = `covers/${weekDirName}/${coverDirName}`;
       if (coverDirName === IMAGES_DIR) {
         collectCoverImages(dir, rel, weekDirName);
+        continue;
+      }
+      if (coverDirName === MOTION_DIR) {
+        collectCoverMotion(dir, rel, weekDirName);
         continue;
       }
       if (!statSync(dir).isDirectory()) {
@@ -492,6 +518,7 @@ if (existsSync(coversDir)) {
       const htmlData = readFileSync(join(dir, htmls[0]));
       checkStoryLangs(htmlData.toString('utf8'), htmlRel);
       checkImageSlots(htmlData.toString('utf8'), htmlRel);
+      checkGenerated(weekDirName, lang, htmlData.toString('utf8'), htmlRel);
       covers.push({
         slug: coverDirName,
         week: weekDirName,
@@ -538,6 +565,110 @@ function checkImageSlots(text, where) {
   if (stray) fail(where, `${stray} data-image-slot attributes are outside an <article>; an image slot must sit in its story`);
 }
 
+/** Rule 14: from FIRST_GENERATED_WEEK, a cover block equals tools/cover.mjs's rendering of cover.json. */
+function checkGenerated(week, reader, text, where) {
+  if (week < FIRST_GENERATED_WEEK) return;
+  if (!coverJsonCache.has(week)) {
+    const path = coverJsonPath(week);
+    let cover = null;
+    if (!existsSync(join(root, path))) {
+      fail(path, `missing: from ${FIRST_GENERATED_WEEK} on, cover blocks are generated from it (rule 14; see AGENTS.md, "Add a cover")`);
+    } else {
+      try {
+        cover = JSON.parse(readFileSync(join(root, path), 'utf8'));
+      } catch (err) {
+        fail(path, `not valid JSON: ${err.message}`);
+      }
+      const problems = cover ? checkCover(cover) : [];
+      // "Inside this issue" lists pages 2…n: one title per page after P1 of that target's edition.
+      for (const e of problems.length ? [] : editions) {
+        const titles = cover.stories[e.target].pages.length;
+        if (e.week.toLowerCase() === week && titles !== Number(e.pages) - 1) {
+          problems.push(`stories.${e.target}.pages: ${titles} titles, but ${e.slug} has ${e.pages} pages (one title per page after P1)`);
+        }
+      }
+      for (const p of new Set(problems)) fail(path, `${p} (rule 14)`);
+      if (problems.length) cover = null;
+    }
+    coverJsonCache.set(week, cover);
+  }
+  const cover = coverJsonCache.get(week);
+  if (cover && renderCover(cover, reader) !== text) {
+    fail(where, `differs from the rendering of ${coverJsonPath(week)}; run \`node tools/cover.mjs ${week}\` and do not edit the .html (rule 14)`);
+  }
+}
+
+/** Rule 10: a WebP's pixel size from its first chunk (VP8X canvas, VP8 key frame or VP8L header). Null when not a WebP. */
+function webpSize(data) {
+  if (data.length < 30 || data.subarray(0, 4).toString('latin1') !== 'RIFF' || data.subarray(8, 12).toString('latin1') !== 'WEBP') return null;
+  const id = data.subarray(12, 16).toString('latin1');
+  if (id === 'VP8X') return { width: 1 + data.readUIntLE(24, 3), height: 1 + data.readUIntLE(27, 3) };
+  if (id === 'VP8 ') return { width: data.readUInt16LE(26) & 0x3fff, height: data.readUInt16LE(28) & 0x3fff };
+  if (id === 'VP8L') {
+    const bits = data.readUInt32LE(21);
+    return { width: 1 + (bits & 0x3fff), height: 1 + ((bits >> 14) & 0x3fff) };
+  }
+  return null;
+}
+
+/** Rule 15: animated WebP facts from its chunks (RIFF / WEBP / VP8X / ANIM / ANMF). Null when it is not one. */
+function animatedWebp(data) {
+  if (data.length < 30 || data.subarray(0, 4).toString('latin1') !== 'RIFF' || data.subarray(8, 12).toString('latin1') !== 'WEBP') return null;
+  const out = { animated: false, width: 0, height: 0, loops: -1, frames: 0, ms: 0 };
+  const u24 = (o) => data[o] | (data[o + 1] << 8) | (data[o + 2] << 16);
+  for (let o = 12; o + 8 <= data.length; ) {
+    const id = data.subarray(o, o + 4).toString('latin1');
+    const size = data.readUInt32LE(o + 4);
+    const d = o + 8;
+    if (id === 'VP8X') {
+      out.animated = (data[d] & 0x02) !== 0;
+      out.width = u24(d + 4) + 1;
+      out.height = u24(d + 7) + 1;
+    } else if (id === 'ANIM') {
+      out.loops = data.readUInt16LE(d + 4);
+    } else if (id === 'ANMF') {
+      out.frames += 1;
+      out.ms += u24(d + 12);
+    }
+    o = d + size + (size & 1);
+  }
+  return out;
+}
+
+/** Rule 15: covers/<week>/motion/<lang>.webp — animated, looping, 3:2, 2–15 s, ≤ MOTION_MAX_BYTES. */
+function collectCoverMotion(dir, rel, week) {
+  if (!statSync(dir).isDirectory()) {
+    fail(rel, `${MOTION_DIR} must be a directory`);
+    return;
+  }
+  for (const name of readdirSync(dir).sort()) {
+    const fileRel = `${rel}/${name}`;
+    const m = name.match(/^(.+)\.webp$/);
+    if (!m || !LANGS.includes(m[1])) {
+      fail(fileRel, 'a moving-picture file name must be <target language>.webp (e.g. it.webp)');
+      continue;
+    }
+    const data = readFileSync(join(dir, name));
+    const w = animatedWebp(data);
+    const bad = [];
+    if (data.length > MOTION_MAX_BYTES) bad.push(`${data.length} bytes, limit ${MOTION_MAX_BYTES}`);
+    if (!w) bad.push('not a WebP file');
+    else {
+      if (!w.animated || w.frames < 2) bad.push('not animated (needs the VP8X animation flag and ≥ 2 frames)');
+      if (w.loops !== 0) bad.push(`loop count ${w.loops}; it must loop forever (0)`);
+      if (w.width < 800) bad.push(`canvas ${w.width} px wide; at least 800`);
+      if (Math.abs(w.width / w.height - 1.5) > 0.015) bad.push(`canvas ${w.width}×${w.height} is not 3:2`);
+      if (w.ms < 2000 || w.ms > 15000) bad.push(`total duration ${w.ms} ms; 2000–15000`);
+    }
+    if (!existsSync(join(dir, '..', IMAGES_DIR, name))) bad.push(`no still ${IMAGES_DIR}/${name} for readers who turned motion off`);
+    if (bad.length) {
+      fail(fileRel, `${bad.join('; ')} (rule 15; see AGENTS.md, "Add a moving picture")`);
+      continue;
+    }
+    coverMotion.push({ week, lang: m[1], path: fileRel, bytes: data.length, sha256: createHash('sha256').update(data).digest('hex') });
+  }
+}
+
 /** Rule 10: covers/<week>/images/<lang>.webp, at most one per target language (story), each ≤ IMAGE_MAX_BYTES. */
 function collectCoverImages(dir, rel, week) {
   if (!statSync(dir).isDirectory()) {
@@ -546,9 +677,11 @@ function collectCoverImages(dir, rel, week) {
   }
   for (const name of readdirSync(dir).sort()) {
     const fileRel = `${rel}/${name}`;
-    const m = name.match(/^(.+)\.webp$/);
-    if (!m || !LANGS.includes(m[1])) {
-      fail(fileRel, 'an image file name must be <target language>.webp (a language from the 12-language list, e.g. it.webp)');
+    // <target>.webp = the lead picture; <target>-<n>.webp = the picture of secondary story more[n].
+    const m = name.match(/^([a-z]{2}(?:-[a-z]{2})?)(?:-(\d))?\.webp$/);
+    const more = m?.[2] === undefined ? null : Number(m[2]);
+    if (!m || !LANGS.includes(m[1]) || (more !== null && !MORE_IMAGES[more])) {
+      fail(fileRel, `an image file name must be <target language>.webp (the lead) or <target language>-<n>.webp with n in ${Object.keys(MORE_IMAGES).join(' ')} (secondary story more[n]); e.g. it.webp, it-3.webp`);
       continue;
     }
     const data = readFileSync(join(dir, name));
@@ -556,13 +689,21 @@ function collectCoverImages(dir, rel, week) {
       fail(fileRel, `image is ${data.length} bytes; it must be non-empty and ≤ ${IMAGE_MAX_BYTES} bytes`);
       continue;
     }
-    if (data.subarray(0, 4).toString('latin1') !== 'RIFF' || data.subarray(8, 12).toString('latin1') !== 'WEBP') {
-      fail(fileRel, 'not a WebP file (the header is not RIFF…WEBP)');
+    const size = webpSize(data);
+    if (!size) {
+      fail(fileRel, 'not a WebP file (the header is not RIFF…WEBP with a VP8 / VP8L / VP8X chunk)');
+      continue;
+    }
+    const [aw, ah] = more === null ? [3, 2] : MORE_IMAGES[more];
+    const minWidth = aw === ah ? 400 : 800;
+    if (Math.abs(size.width / size.height - aw / ah) > 0.015 || size.width < minWidth) {
+      fail(fileRel, `image is ${size.width}×${size.height}; it must be ${aw}:${ah} and at least ${minWidth} px wide (rule 10)`);
       continue;
     }
     coverImages.push({
       week,
       lang: m[1],
+      more,
       path: fileRel,
       bytes: data.length,
       sha256: createHash('sha256').update(data).digest('hex'),
@@ -578,7 +719,9 @@ function collectCoverImages(dir, rel, week) {
 const coverLangsByWeek = new Map();
 for (const c of covers) coverLangsByWeek.set(c.week, (coverLangsByWeek.get(c.week) ?? new Set()).add(c.lang));
 const imageLangsByWeek = new Map();
-for (const i of coverImages) imageLangsByWeek.set(i.week, (imageLangsByWeek.get(i.week) ?? new Set()).add(i.lang));
+for (const i of coverImages) {
+  if (i.more === null) imageLangsByWeek.set(i.week, (imageLangsByWeek.get(i.week) ?? new Set()).add(i.lang));
+}
 const expectedPairCount = LANGS.length * (LANGS.length - 1) - 2;
 const readyPairsByWeek = new Map();
 for (const e of editions) {
@@ -601,9 +744,12 @@ for (const [week, pairs] of readyPairsByWeek) {
 covers.sort((a, b) =>
   b.week.localeCompare(a.week) ||
   LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
-coverImages.sort((a, b) =>
-  b.week.localeCompare(a.week) ||
-  LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang));
+for (const list of [coverImages, coverMotion]) {
+  list.sort((a, b) =>
+    b.week.localeCompare(a.week) ||
+    LANGS.indexOf(a.lang) - LANGS.indexOf(b.lang) ||
+    (a.more ?? -1) - (b.more ?? -1));
+}
 
 // Sort: week (weekStart) descending → target in LANGS order → native in LANGS order. Never left to consumers.
 editions.sort((a, b) =>
@@ -618,6 +764,7 @@ const index = {
   coverCount: covers.length,
   covers,
   coverImages,
+  coverMotion,
 };
 const rendered = JSON.stringify(index, null, 2) + '\n';
 

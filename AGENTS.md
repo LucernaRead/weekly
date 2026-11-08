@@ -13,7 +13,8 @@
   changes often; each weekly cycle pulls the latest version before
   starting. Do not work from memory or from a summary of it.
 - `tools/` holds the shared production toolkit (freeze / p8 / occlusion
-  audit / insert / webpdf / cover_check / tables + README). Run it from
+  audit / insert / webpdf / cover_check / tables + README; `cover.mjs` generates the website cover
+  blocks from cover.json, `motion.sh` turns a video into a moving picture). Run the Python tools from
   the repo clone with the persistent venv `tools/venv/bin/python`
   (never `/tmp`). `tools/venv/` and `tools/scratch/` are gitignored and
   never committed. Every builder/proofreader MUST use these tools
@@ -58,6 +59,42 @@ When a reader clicks a story, the site opens the edition for that target languag
 If one is missing, lint fails. The commit hook and CI both block it.
 The print cover (`.md` + PDF) is **not** a website cover block. The site reads only the `.html`.
 Order: commit the cover blocks and the images first. Then commit the last batch of editions that completes the 130.
+
+### From 2026-w46: write cover.json, generate the blocks (lint rule 14)
+
+The site shows one target-language edition at a time as one newspaper front page (the NYT front-page grid).
+You write the content in one file. A tool generates the 12 cover blocks. Lint checks the content and the blocks.
+
+1. Write `production/covers/<week>/cover.json`. The shape is in the header of `tools/cover.mjs`.
+   Write one entry per target language (12). Each entry has these fields:
+
+   | Place on the page | Field | Language |
+   |---|---|---|
+   | lead headline | `headline` | target |
+   | lead text (verbatim, whole sentences) | `excerpt` | target |
+   | lead explanation | `teaser[reader]` | reader |
+   | lead picture caption / screen-reader text | `caption[reader]` / `alt[reader]` | reader |
+   | 6 secondary stories | `more[n].headline` / `more[n].summary[reader]` | target / reader |
+   | word of the week | `word.term` / `word.gloss[reader]` | target / reader |
+   | "inside this issue" | `pages` (titles of page 2 to the last page) | target |
+
+   For reader = target, write the reader fields in the target language.
+   SOP.md, Appendix 5, says how to write each field. Read it before you write.
+2. Keep each field within its length limit. The limits are `LIMITS` in `tools/cover.mjs`.
+   Count = Unicode characters after you remove all whitespace. Punctuation and digits count.
+   The limits come from the site layout. Do not ask for a higher limit to fit a text. Write a shorter text.
+3. Run `node tools/cover.mjs <week>`. It checks cover.json and writes the 12 `.html` files.
+   It fails and writes nothing when a field is missing or too long.
+4. Do not edit a generated `.html`. Lint renders each block again and fails on a difference of one byte.
+   To change a block, change cover.json and run step 3 again.
+5. Put the print cover in the same directory, as before (step 3 below).
+6. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+
+When content is not ready, put a placeholder text in the field (a short sentence in that language that says it is a placeholder).
+Do not leave a field empty. Do not publish a week with placeholders.
+
+### Before 2026-w46: hand-written blocks
+
 Follow W45 (`covers/2026-w45/`): the lead story carries its image, and the other stories hold an image slot (`data-image-slot`).
 
 1. Create the directory `covers/<week, lowercase>/<week, lowercase>-cover-<reader language>/`.
@@ -86,8 +123,19 @@ Follow W45 (`covers/2026-w45/`): the lead story carries its image, and the other
 
 ## Add story images
 
-Each week has one image per target language. The image goes with that week's story in that target language.
-The 12 covers share these 12 images. The site puts each image into that story's `data-image-slot` on every cover.
+Each week has one lead image per target language. The image goes with that week's lead story in that target language.
+The 12 covers share these 12 images. The site puts each image into that story's picture place on every cover.
+
+From 2026-w46, four secondary stories per target language also have a picture place (`MORE_IMAGES` in `tools/cover.mjs`):
+
+| Story | Place on the page | Aspect | File |
+|---|---|---|---|
+| `more[1]`, `more[2]` | narrow column, small picture beside the text | 1:1, at least 400 px wide | `images/<target language>-1.webp`, `-2.webp` |
+| `more[3]` | feature of the second group, above the headline | 3:2, at least 800 px wide | `images/<target language>-3.webp` |
+| `more[5]` | rail story, above the headline | 3:2, at least 800 px wide | `images/<target language>-5.webp` |
+
+A secondary picture is optional for lint. Without it, the site shows a placeholder in that place.
+Make it from that secondary story's content, with the same rules as the lead image (no text in the image, WebP, ≤ 400 KB).
 
 1. Read that target language's story (headline and summary) on any of that week's covers. Make an image from its content.
 2. Image specification:
@@ -104,6 +152,21 @@ The 12 covers share these 12 images. The site puts each image into that story's 
    When the week has 130 editions, all 12 images must exist (lint rule 11).
 6. To replace a committed image, overwrite the file with the same name. Then do step 4 again.
    The site fetches the new image by its SHA-256.
+
+## Add a moving picture
+
+A lead story can have a moving picture in place of its still image: a short silent loop, like a living photograph.
+The site shows it with no controls. It plays in a loop. Readers who turned motion off in their system see the still image.
+
+1. Cut the video to 2–15 seconds. Make the last frame meet the first frame, so the loop does not jump.
+2. Run `sh tools/motion.sh <video file> <week> <target language>`.
+   The tool writes `covers/<week>/motion/<target language>.webp`: an animated WebP, 1200×800, 12 frames per second.
+   A WebP has no audio track, so the picture is always silent.
+   The tool lowers the quality until the file is ≤ 4 MB.
+3. Keep the still image `covers/<week>/images/<target language>.webp`. Lint requires it (rule 15).
+4. Run `node lint.mjs --write`. Then run `node lint.mjs` and confirm it is green.
+   Lint checks rule 15: animated, loops forever, 3:2, at least 800 px wide, 2–15 s, ≤ 4 MB.
+5. Commit the file and index.json.
 
 ## Do not
 
