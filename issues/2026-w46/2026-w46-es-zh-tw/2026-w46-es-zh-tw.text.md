@@ -2,53 +2,51 @@
 
 ## Portada
 
-VOL. 3 · TERCERA EDICIÓN
+VOL. 3　TERCERA EDICIÓN
 
-CADA SEMANA EN ESPAÑOL · 每週一期 · 讀西班牙人正在讀的西班牙語
+CADA SEMANA EN ESPAÑOL　每週一期　讀西班牙人正在讀的西班牙語
 
 SEMANA DEL 9 AL 15 DE NOVIEMBRE DE 2026
 
-西 班 牙 語 週 報 · VOL.3 · LA HUELGA · LA CAMPAÑA · LA ROJA
+西班牙語週報　VOL.3　LA HUELGA　LA CAMPAÑA　LA ROJA
 
-西班牙語正文 · 繁體中文講解 — 給繁體中文讀者的版本
+西班牙語正文　繁體中文講解 — 給繁體中文讀者的版本
 
 ¡EL VIERNES 13 EMPIEZA LA CAMPAÑA!
 
 Faltan 20 días para el 29-N: el miércoles 11, huelga general de 24 horas.
 
-競選週五 13 日開始 · 大罷工週三 11 日
+競選週五13日開始　大罷工週三11日
 
-本期頭條 · 詳見第 2、6 版
+本期頭條　詳見第2、6版
 
-LA NOTICIA · 頭條
+LA NOTICIA　頭條
 
 Del 11-N a la campaña: España vota en 20 días
 
-De la redacción de La Lucerna · Nivel de lectura: A2
+De la redacción de La Lucerna　Nivel de lectura: A2
 
 España entra en su semana más
 
 intensa antes de las elecciones. El
 
-miércoles 11 hay huelga general y
+miércoles 11 hay huelga general y el
 
-el viernes 13, a las 00:00, empieza
+viernes 13, a las 00:00, empieza la
 
-la campaña electoral.
+campaña electoral.
 
-El domingo 29 de noviembre,
+El domingo 29 de noviembre, España
 
-España vota en elecciones
+vota en elecciones generales. La
 
-generales. La campaña dura quince
+campaña dura quince días: del viernes
 
-días: del viernes 13 al viernes 27 de
+13 al viernes 27 de noviembre. El
 
-noviembre. El sábado 28 es la
+sábado 28 es la jornada de reflexión,
 
-jornada de reflexión, sin actos de
-
-campaña.
+sin actos de campaña.
 
 ¿Por qué esta semana decide tanto?
 
@@ -62,43 +60,43 @@ Barómetro de Vivienda del CIS, el
 
 (página 6).
 
-Y el que quiera votar por correo
+Y el que quiera votar por correo tiene
 
-tiene que pedirlo antes del jueves
+que pedirlo antes del jueves 19: la
 
-19: la documentación llega a casa
+documentación llega a casa desde el
 
-desde el lunes 9 (página 2).
+lunes 9 (página 2).
 
-El domingo 15, la selección cierra
+El domingo 15, la selección cierra la
 
-la fase de grupos de la Liga de
+fase de grupos de la Liga de Naciones
 
-Naciones contra Inglaterra, en el
+contra Inglaterra, en el
 
 Metropolitano, a las 20:45.
 
 Esta es la tercera edición de La
 
-Lucerna en español: cada semana,
+Lucerna en español: cada semana, la
 
-la España real contigo.
+España real contigo. ¡Bienvenidos!
 
-¡Bienvenidos!
+譯注｜la huelga general 大罷工 · la
 
-譯注｜la huelga general 大罷工 · la campaña
+campaña electoral 競選活動 · el voto por
 
-electoral 競選活動 · el voto por correo 郵寄
+correo 郵寄投票 · la jornada de reflexión 投
 
-投票 · la jornada de reflexión 投票前靜默日。
+票前靜默日。
 
-LA SEMANA EN CIFRAS · 數字看本週
+LA SEMANA EN CIFRAS　數字看本週
 
 20 — días faltan el lunes 9 para las
 
-elecciones del domingo 29（距 29 日大
+elecciones del domingo 29（距 29 日大選
 
-選 20 天）
+20 天）
 
 24 — horas dura la huelga general del
 
@@ -106,21 +104,21 @@ miércoles 11 de noviembre（11 月 11 日
 
 大罷工持續 24 小時）
 
-91,4 — % que pide más vivienda
+91,4 — % que pide más vivienda pública,
 
-pública, según el CIS de octubre（CIS
+según el CIS de octubre（CIS 住房晴雨表
 
-住房晴雨表數據）
+數據）
 
-AHORA TÚ · 即學即練
+AHORA TÚ　即學即練
 
 A2
 
 1.
 
-La campaña electoral empieza el viernes
+La campaña electoral empieza el viernes ___
 
-___ de noviembre.
+de noviembre.
 
 A2
 
@@ -150,9 +148,9 @@ B1
 
 5.
 
-El España–Inglaterra del domingo se juega
+El España–Inglaterra del domingo se juega a
 
-a las ___.
+las ___.
 
 B1
 
@@ -164,7 +162,7 @@ CINCO
 
 CLAVES
 
-本週五大看點 · Para entender la semana
+本週五大看點　Para entender la semana
 
 1. La huelga del 11-N
 
@@ -184,7 +182,7 @@ en esta edición.
 
 五大看點，不編數字：全在本期裡講清。
 
-EN ESTA EDICIÓN · 本期目錄
+EN ESTA EDICIÓN　本期目錄
 
 Pág. 2
 
@@ -230,17 +228,17 @@ todos
 
 LA PALABRA DE LA SEMANA
 
-« la huelga general » : todos paran a la
+« la huelga general »
 
-vez, un día entero.
+todos paran a la vez, un día entero.
 
 「大罷工」：全體勞動者同一天停工 24 小時。
 
-La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la
+La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 2,
 
-página 2, cómo pedir el voto por correo antes del jueves 19, y en la página 6, los datos del CIS
+cómo pedir el voto por correo antes del jueves 19, y en la página 6, los datos del CIS sobre la
 
-sobre la vivienda. (Ilustración de la redacción, no una fotografía)
+vivienda. (Ilustración de la redacción, no una fotografía)
 
 Ilustración: La Lucerna
 
@@ -252,19 +250,19 @@ viernes, la campaña en marcha. El
 
 domingo, el Metropolitano con la Roja.
 
-Entre medias, San Martín y su
+Entre medias, San Martín y su veranillo:
 
-veranillo: esta semana España vive a la
+esta semana España vive a la vez su
 
-vez su protesta y su fiesta.
+protesta y su fiesta.
 
-Nuestro consejo para esta semana: lee
+Nuestro consejo para esta semana: lee el
 
-el programa, no solo el titular. En la
+programa, no solo el titular. En la página
 
-página 6 te enseñamos cómo.
+6 te enseñamos cómo.
 
-BREVES · 快訊
+BREVES　快訊
 
 LA HUELGA
 
@@ -284,9 +282,9 @@ El miércoles 11 es San Martín: castañas
 
 y veranillo. (Página 3)
 
-QUIZ RELÁMPAGO · 閃電問答
+QUIZ RELÁMPAGO　閃電問答
 
-讀頭版，選出正確答案 · 答案見第 8 版
+讀頭版，選出正確答案　答案見第8版
 
 A2
 
@@ -318,32 +316,30 @@ A2
 
 10.
 
-El España–Inglaterra se juega el domingo
+El España–Inglaterra se juega el domingo a
 
-a las... A. 15:30 · B. 20:45 · C. 18:30
+las... A. 15:30 · B. 20:45 · C. 18:30
 
 
 ## Vida
 
-VIDA · 生活
+VIDA　生活
 
-NIVEL A2 · El miércoles 11, huelga general · 11 月 11 日週三大罷工
+NIVEL A2　El miércoles 11, huelga general　11月11日週三大罷工
 
 El miércoles 11: huelga
 
 general de 24 horas
 
-De la redacción de La Lucerna · Nivel de lectura:
-
-A2
+De la redacción de La Lucerna　Nivel de lectura: A2
 
 El miércoles 11 de noviembre hay
 
 huelga general en toda España: un
 
-paro de 24 horas, convocado por
+paro de 24 horas, convocado por los
 
-los sindicatos.
+sindicatos.
 
 La convocan Comisiones Obreras
 
@@ -353,53 +349,51 @@ Trabajadores (UGT), junto con la
 
 Confederación General del Trabajo
 
-(CGT), la Confederación Nacional
+(CGT), la Confederación Nacional del
 
-del Trabajo (CNT) y la
+Trabajo (CNT) y la Confederación de
 
-Confederación de Sindicatos de
+Sindicatos de Inquilinas, entre otras
 
-Inquilinas, entre otras
+organizaciones. El lema es «Salarios,
 
-organizaciones. El lema es
+vivienda y precios».
 
-«Salarios, vivienda y precios».
+¿Qué piden? Subir los salarios, bajar el
 
-¿Qué piden? Subir los salarios,
+precio de la vivienda, regular el
 
-bajar el precio de la vivienda,
+alquiler y frenar la subida de los
 
-regular el alquiler y frenar la
+precios. La huelga llega dos días antes
 
-subida de los precios. La huelga
+de que empiece la campaña electoral,
 
-llega dos días antes de que empiece
+el viernes 13.
 
-la campaña electoral, el viernes 13.
+En un día de huelga, no todo se para
 
-En un día de huelga, no todo se
+igual: hay servicios mínimos en el
 
-para igual: hay servicios mínimos
+transporte y en la sanidad. Los
 
-en el transporte y en la sanidad.
+servicios mínimos de esta huelga se
 
-Los servicios mínimos de esta
+anuncian antes del miércoles:
 
-huelga se anuncian antes del
+consulta los avisos de tu ciudad y de
 
-miércoles: consulta los avisos de tu
+tu empresa.
 
-ciudad y de tu empresa.
-
-EL CALENDARIO · 本週日曆
+EL CALENDARIO　本週日曆
 
 Lunes 9 — la selección se concentra en
 
 Las Rozas; la documentación del voto
 
-por correo empieza a llegar a casa（週
+por correo empieza a llegar a casa（週一
 
-一國家隊集結；郵寄選票材料開始寄出）
+國家隊集結；郵寄選票材料開始寄出）
 
 Martes 10 — último día de calma antes
 
@@ -417,9 +411,9 @@ nuevo（週三大罷工；聖馬丁節）
 
 Jueves 12 — Liga de Naciones:
 
-Chequia–España, 20:45, en Praga（週
+Chequia–España, 20:45, en Praga（週四
 
-四歐國聯：捷克對西班牙）
+歐國聯：捷克對西班牙）
 
 Viernes 13 — a las 00:00 empieza la
 
@@ -445,15 +439,15 @@ DECIR LA FECHA
 
 En español, la fecha se dice así: «el
 
-miércoles 11 de noviembre». Primero
+miércoles 11 de noviembre». Primero el
 
-el día de la semana, luego el número y
+día de la semana, luego el número y
 
 luego el mes. Los días y los meses van
 
-en minúscula: miércoles, noviembre.
+en minúscula: miércoles, noviembre. Y
 
-Y ojo: el primero del mes no es «el
+ojo: el primero del mes no es «el
 
 primero», es «el uno»: el 1 de
 
@@ -471,9 +465,9 @@ La huelga del miércoles 11 dura 24
 
 horas y llega a todo el país.
 
-La convocan CCOO, UGT, CGT, CNT y
+La convocan CCOO, UGT, CGT, CNT
 
-los sindicatos de inquilinas.
+y los sindicatos de inquilinas.
 
 El lema es «Salarios, vivienda y
 
@@ -481,13 +475,13 @@ precios»: tres palabras, tres
 
 problemas.
 
-¿Y TÚ? · 說說你自己
+¿Y TÚ?　說說你自己
 
-¿Y tú? ¿Qué harías el miércoles 11:
+¿Y tú? ¿Qué harías el miércoles 11: vas
 
-vas a la huelga, trabajas o te quedas
+a la huelga, trabajas o te quedas en
 
-en casa? ¿Qué te preocupa más: el
+casa? ¿Qué te preocupa más: el
 
 salario, la vivienda o los precios?
 
@@ -501,13 +495,13 @@ lectores».
 
 11 月 11 日週三你做什麼：罷工、上班還是
 
-待在家裡？你最擔心什麼：工資、住房還是
+待在家裡？你最擔心什麼：工資、住房還
 
-物價？寫兩句西班牙語寄給編輯部。
+是物價？寫兩句西班牙語寄給編輯部。
 
-LOS DÍAS DE LA SEMANA · 這樣說日期
+LOS DÍAS DE LA SEMANA　這樣說日期
 
-lunes 9 – domingo 15 de noviembre · 11 月 9 日週一至 15 日週日
+lunes 9 – domingo 15 de noviembre　11月9日週一至15日週日
 
 lunes 9
 
@@ -539,11 +533,11 @@ el domingo 15 — España–Inglaterra, 20:45
 
 Ojo: los días de la semana y los meses van en minúscula en español — miércoles, noviembre — y el 1 del mes es «el uno», no «el primero».
 
-EJERCICIOS · 第 2 版練習
+EJERCICIOS　第2版練習
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+答案見第8版　題目可跨級混排，按題號找答案
 
-A · LAS FECHAS
+A　LAS FECHAS
 
 用正確的日期形式補全句子。
 
@@ -563,9 +557,9 @@ A2
 
 填空
 
-El España–Inglaterra se juega el domingo
+El España–Inglaterra se juega el domingo ___
 
-___ de noviembre.
+de noviembre.
 
 A2
 
@@ -595,7 +589,7 @@ A2
 
 El miércoles 11 de ___ hay huelga general.
 
-B · EL PRESENTE
+B　EL PRESENTE
 
 補全動詞的現在時形式。
 
@@ -641,7 +635,7 @@ La documentación del voto por correo ___
 
 desde el lunes 9.
 
-C · COMPRENSIÓN
+C　COMPRENSIÓN
 
 讀第 2 版文章，選出正確答案。
 
@@ -667,9 +661,9 @@ A2
 
 23.
 
-La campaña empieza... A. antes de la huelga
+La campaña empieza... A. antes de la huelga ·
 
-· B. el mismo día · C. dos días después de la
+B. el mismo día · C. dos días después de la
 
 huelga
 
@@ -681,7 +675,7 @@ En un día de huelga hay... A. fiesta total · B.
 
 servicios mínimos · C. vacaciones
 
-D · LAS PALABRAS
+D　LAS PALABRAS
 
 A2
 
@@ -708,77 +702,69 @@ d. lo que se paga por vivir en un piso
 
 ## Cultura
 
-CULTURA · 文化
+CULTURA　文化
 
-A2 → B1 · San Martín, castañas y vino nuevo · 聖馬丁節、栗子與新酒
+A2 → B1　San Martín, castañas y vino nuevo　聖馬丁節、栗子與新酒
 
-San Martín: la capa,
+San Martín: la capa, las
 
-las castañas y el
+castañas y el veranillo
 
-veranillo
+De la redacción de La Lucerna　Nivel de lectura: A2
 
-De la redacción de La Lucerna · Nivel de lectura:
+→ B1
 
-A2 → B1
+El miércoles 11 de noviembre es San
 
-El miércoles 11 de noviembre es
+Martín, y en muchos pueblos de
 
-San Martín, y en muchos pueblos
+España es día de fiesta, de castañas y
 
-de España es día de fiesta, de
-
-castañas y de vino nuevo.
+de vino nuevo.
 
 Cuenta la leyenda que Martín,
 
-soldado romano, partió su capa en
+soldado romano, partió su capa en dos
 
-dos con la espada para cubrir a un
+con la espada para cubrir a un
 
-mendigo que moría de frío. Y el
+mendigo que moría de frío. Y el cielo
 
-cielo le regaló unos días de sol: el
+le regaló unos días de sol: el veranillo
 
-veranillo de San Martín, ese calor
+de San Martín, ese calor suave que
 
-suave que llega a mitad del otoño,
+llega a mitad del otoño, justo antes de
 
-justo antes de que el frío se instale
-
-de verdad.
+que el frío se instale de verdad.
 
 En Moreda de Aller, en Asturias, la
 
 Fiesta de San Martín o de los
 
-Humanitarios empieza con una
+Humanitarios empieza con una misa
 
-misa cantada al son de las gaitas.
+cantada al son de las gaitas. Después
 
-Después llega la puya del ramu, la
+llega la puya del ramu, la subasta del
 
-subasta del pan de escanda
+pan de escanda bendecido, y un
 
-bendecido, y un desfile de carrozas
+desfile de carrozas con bandas de
 
-con bandas de gaitas y trajes
-
-tradicionales.
+gaitas y trajes tradicionales.
 
 Y en la mesa, la comida de San
 
-Martín: fabada, casadiellas y
+Martín: fabada, casadiellas y panchón.
 
-panchón. En Galicia y en Castilla y
+En Galicia y en Castilla y León, el
 
-León, el magosto pone castañas
+magosto pone castañas asadas y vino
 
-asadas y vino nuevo en la mesa.
+nuevo en la mesa. Tres fiestas, una
 
-Tres fiestas, una misma tarde de
-
-otoño.
+misma tarde de otoño.
 
 譯注｜la capa 斗篷 · el mendigo 乞丐 ·
 
@@ -790,25 +776,21 @@ LO QUE QUEDA DEL OTOÑO
 
 El otoño sigue: las tardes cortas, las
 
-castañas en la calle y, en la cocina,
+castañas en la calle y, en la cocina, los
 
-los primeros guisos de la
+primeros guisos de la temporada. Y en
 
-temporada. Y en la agenda, una
+la agenda, una fecha que ya mira toda
 
-fecha que ya mira toda España: el
+España: el domingo 29 de noviembre,
 
-domingo 29 de noviembre, las
+las elecciones generales (página 6).
 
-elecciones generales (página 6).
+Castañas asadas, las protagonistas del magosto:
 
-Castañas asadas, las protagonistas del
+en noviembre, la noche huele a castaña caliente
 
-magosto: en noviembre, la noche huele a
-
-castaña caliente y a vino nuevo, de Galicia a
-
-Castilla y León.
+y a vino nuevo, de Galicia a Castilla y León.
 
 Foto: Wikimedia Commons — CC0 (dominio público)
 
@@ -822,15 +804,15 @@ pueblos.
 
 En Moreda de Aller, la fiesta empieza
 
-con misa cantada y gaitas, y sigue
+con misa cantada y gaitas, y sigue con
 
-con la puya del ramu.
+la puya del ramu.
 
 El veranillo de San Martín trae unos
 
 días de sol suave a mitad del otoño.
 
-¿Y TÚ? · 說說你自己
+¿Y TÚ?　說說你自己
 
 ¿Y tú? ¿Has probado las castañas
 
@@ -840,15 +822,15 @@ Martín en tu país? Escribe dos frases
 
 en español.
 
-你吃過烤栗子嗎？你的國家有「小陽春」嗎
+你吃過烤栗子嗎？你的國家有「小陽春」
 
-？寫兩句寄來。
+嗎？寫兩句寄來。
 
-EJERCICIOS · 第 3 版練習
+EJERCICIOS　第3版練習
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+答案見第8版　題目可跨級混排，按題號找答案
 
-A · ¿VERDADERO O FALSO?
+A　¿VERDADERO O FALSO?
 
 讀第 3 版文章，判斷對錯。
 
@@ -902,7 +884,7 @@ La comida de San Martín incluye fabada y
 
 casadiellas. ¿Verdadero o falso?
 
-B · PALABRAS DEL TEXTO
+B　PALABRAS DEL TEXTO
 
 用方框裡的詞填空。
 
@@ -940,9 +922,7 @@ A2
 
 填空
 
-La misa de San Martín suena al son de la
-
-___.
+La misa de San Martín suena al son de la ___.
 
 B1
 
@@ -952,7 +932,7 @@ B1
 
 En noviembre llega el ___ de San Martín.
 
-C · COMPRENSIÓN
+C　COMPRENSIÓN
 
 選出正確答案。
 
@@ -962,9 +942,9 @@ A2
 
 ¿Dónde se celebra la Fiesta de los
 
-Humanitarios? A. en Galicia · B. en Moreda
+Humanitarios? A. en Galicia · B. en Moreda de
 
-de Aller · C. en Madrid
+Aller · C. en Madrid
 
 A2
 
@@ -994,7 +974,7 @@ fecha es... A. el puente · B. las elecciones del
 
 29 · C. la Navidad
 
-D · CONSTRUIR FRASES
+D　CONSTRUIR FRASES
 
 把詞組成正確的句子。
 
@@ -1012,9 +992,9 @@ B1
 
 造句
 
-en noviembre / comemos / castañas asadas
+en noviembre / comemos / castañas asadas →
 
-→ ___
+___
 
 B1
 
@@ -1035,17 +1015,17 @@ B1
 
 ## Deporte
 
-DEPORTE · 體育
+DEPORTE　體育
 
-NIVEL B1 · Praga el jueves, Inglaterra el domingo · 週四布拉格，週日英格蘭
+NIVEL B1　Praga el jueves, Inglaterra el domingo　週四布拉格，週日英格蘭
 
-Praga el jueves,
+Praga el jueves, Inglaterra
 
-Inglaterra el domingo
+el domingo
 
-De la redacción deportiva de La Lucerna · Nivel
+De la redacción deportiva de La Lucerna　Nivel de
 
-de lectura: B1
+lectura: B1
 
 La Liga se para y juega la selección:
 
@@ -1053,43 +1033,37 @@ dos partidos de la Liga de Naciones
 
 deciden el grupo A3.
 
-España, vigente campeona del
+España, vigente campeona del mundo
 
-mundo y de Europa, juega en el
+y de Europa, juega en el grupo A3 con
 
-grupo A3 con Croacia, Inglaterra y
+Croacia, Inglaterra y la República
 
-la República Checa. La fase de
+Checa. La fase de grupos se cierra esta
 
-grupos se cierra esta semana: el
+semana: el jueves 12, a las 20:45, la
 
-jueves 12, a las 20:45, la Roja visita
+Roja visita a Chequia en el estadio
 
-a Chequia en el estadio Letná de
+Letná de Praga; el domingo 15, a las
 
-Praga; el domingo 15, a las 20:45,
-
-recibe a Inglaterra en el
+20:45, recibe a Inglaterra en el
 
 Metropolitano de Madrid.
 
-El seleccionador Luis de la Fuente
+El seleccionador Luis de la Fuente dio
 
-dio la lista el viernes 6 de
+la lista el viernes 6 de noviembre, y
 
-noviembre, y los convocados se
+los convocados se concentran el lunes
 
-concentran el lunes 9 en la Ciudad
+9 en la Ciudad del Fútbol de Las
 
-del Fútbol de Las Rozas. El
+Rozas. El domingo 15 puede decidir el
 
-domingo 15 puede decidir el
+primer puesto del grupo y la plaza en
 
-primer puesto del grupo y la plaza
-
-en la fase final de la Liga de
-
-Naciones.
+la fase final de la Liga de Naciones.
 
 Y el viernes 13, a las 19:00, la
 
@@ -1105,11 +1079,11 @@ para: cambia de camiseta.
 
 譯注｜la fase de grupos 小組賽 · el
 
-seleccionador 國家隊主教練 · la lista 徵召
+seleccionador 國家隊主教練 · la lista 徵
 
-名單 · la plaza 名額 · el amistoso 友誼賽
+召名單 · la plaza 名額 · el amistoso 友
 
-。
+誼賽。
 
 EL DOMINGO 8, DOS CITAS
 
@@ -1127,21 +1101,23 @@ disponibles: esta página no inventa
 
 marcadores.
 
-¿Y TÚ? · 說說你自己
+¿Y TÚ?　說說你自己
 
 ¿Y tú? El domingo a las 20:45, ¿qué
 
-miras: la Roja o la tele? ¿Quién gana
+miras: la Roja o la tele? ¿Quién gana el
 
-el grupo A3: España o Inglaterra?
+grupo A3: España o Inglaterra?
 
 Escribe dos frases en español.
 
-週日 20:45 你看哪一場？A3 小組誰第一：西
+週日 20:45 你看哪一場？A3 小組誰第一：
 
-班牙還是英格蘭？寫兩句西班牙語寄來。
+西班牙還是英格蘭？寫兩句西班牙語寄來
 
-LA LIGA DE NACIONES · GRUPO A3 · 歐國聯 A3 組賽程
+。
+
+LA LIGA DE NACIONES　GRUPO A3　歐國聯 A3組賽程
 
 J1 · 26.09
 
@@ -1187,11 +1163,11 @@ España – Japón, amistoso en Almendralejo (Badajoz)
 
 Horarios en hora peninsular. La fase de grupos se cierra el domingo 15: el partido contra Inglaterra puede decidir el primer puesto del grupo A3.
 
-EJERCICIOS · 第 4 版練習
+EJERCICIOS　第4版練習
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+答案見第8版　題目可跨級混排，按題號找答案
 
-A · COMPRENSIÓN
+A　COMPRENSIÓN
 
 讀第 4 版文章，選出正確答案。
 
@@ -1227,9 +1203,7 @@ B1
 
 El España–Inglaterra se juega en... A. el
 
-Metropolitano · B. el Bernabéu · C. Las
-
-Rozas
+Metropolitano · B. el Bernabéu · C. Las Rozas
 
 B1
 
@@ -1239,7 +1213,7 @@ La sub-21 juega el viernes contra... A.
 
 Inglaterra · B. Japón · C. Croacia
 
-B · LAS PALABRAS
+B　LAS PALABRAS
 
 B1
 
@@ -1269,7 +1243,7 @@ d. los jugadores convocados para un
 
 partido
 
-C · COMPARATIVOS
+C　COMPARATIVOS
 
 用括號裡詞的比較級或 -ísimo 形式填空。
 
@@ -1299,9 +1273,9 @@ B1
 
 填空
 
-Perder en Praga sería la ___ (malo) noticia
+Perder en Praga sería la ___ (malo) noticia de
 
-de la semana.
+la semana.
 
 B1
 
@@ -1309,11 +1283,11 @@ B1
 
 填空
 
-Ganar el grupo sería la ___ (bueno) noticia
+Ganar el grupo sería la ___ (bueno) noticia del
 
-del otoño.
+otoño.
 
-D · EL PRETÉRITO INDEFINIDO
+D　EL PRETÉRITO INDEFINIDO
 
 把句子改成過去時（pretérito indefinido）。
 
@@ -1360,23 +1334,21 @@ El grupo cierra la fase el domingo. → ___
 
 ## Juventud
 
-JUVENTUD · 青年
+JUVENTUD　青年
 
-NIVEL B1 · Votar desde casa · 在家投票
+NIVEL B1　Votar desde casa　在家投票
 
-Votar desde casa: el
+Votar desde casa: el voto
 
-voto por correo
+por correo
 
-De la redacción de La Lucerna · Nivel de lectura:
-
-B1
+De la redacción de La Lucerna　Nivel de lectura: B1
 
 No hace falta ir al colegio electoral
 
-para votar: el voto por correo llega
+para votar: el voto por correo llega a
 
-a casa.
+casa.
 
 El voto por correo se pide desde la
 
@@ -1384,19 +1356,17 @@ convocatoria y hasta el jueves 19 de
 
 noviembre, en cualquier oficina de
 
-Correos o por internet, en la web
+Correos o por internet, en la web de
 
-de Correos. La Oficina del Censo
+Correos. La Oficina del Censo
 
-Electoral envía la documentación a
+Electoral envía la documentación a la
 
-la dirección indicada a partir del
+dirección indicada a partir del lunes 9
 
-lunes 9 de noviembre. Después,
+de noviembre. Después, votas en casa,
 
-votas en casa, con calma, y envías
-
-el sobre.
+con calma, y envías el sobre.
 
 Y si prefieres votar en persona, el
 
@@ -1408,47 +1378,47 @@ documento de identidad. El sábado
 
 28, jornada de reflexión, no hay
 
-propaganda ni actos de campaña:
+propaganda ni actos de campaña: un
 
-un día de silencio antes de votar.
+día de silencio antes de votar.
 
 Y el viernes 13, la otra cita de la
 
 semana joven: llega a HBO Max
 
-«Infamia», un thriller español de
+«Infamia», un thriller español de seis
 
-seis episodios con Susana Abaitua,
+episodios con Susana Abaitua, que
 
-que adapta la novela de la escritora
+adapta la novela de la escritora gallega
 
-gallega Ledicia Costas. La serie
+Ledicia Costas. La serie tuvo su
 
-tuvo su estreno mundial en el
+estreno mundial en el festival de
 
-festival de series de Cádiz.
+series de Cádiz.
 
-EL PLAN DE LA SEMANA · 本周计划
+EL PLAN DE LA SEMANA　本周计划
 
-1. El lunes 9: llega la documentación
+1. El lunes 9: llega la documentación del
 
-del voto por correo a casa（週一：郵寄
+voto por correo a casa（週一：郵寄選票
 
-選票材料開始寄出）
+材料開始寄出）
 
-2. El miércoles 11: huelga general de
+2. El miércoles 11: huelga general de 24
 
-24 horas（週三：24 小時大罷工）
+horas（週三：24 小時大罷工）
 
 3. El jueves 12: Chequia–España, 20:45,
 
 en Praga（週四晚：捷克對西班牙）
 
-4. El viernes 13: empieza la campaña;
+4. El viernes 13: empieza la campaña; se
 
-se estrena «Infamia»（週五：競選開始
+estrena «Infamia»（週五：競選開始；《
 
-；《Infamia》上線）
+Infamia》上線）
 
 5. Y el domingo 15: España–Inglaterra,
 
@@ -1456,27 +1426,27 @@ se estrena «Infamia»（週五：競選開始
 
 牙對英格蘭）
 
-譯注｜el sobre 信封 · la papeleta 選票 ·
+譯注｜el sobre 信封 · la papeleta 選票
 
-el censo 選民名冊 · la jornada de
+· el censo 選民名冊 · la jornada de
 
 reflexión 投票前靜默日。
 
 INFAMIA
 
-VIERNES 13 · HBO MAX
+VIERNES 13　HBO MAX
 
-Seis episodios · Susana Abaitua
+Seis episodios　Susana Abaitua
 
 Novela de Ledicia Costas
 
-«Infamia», el thriller español del viernes 13:
+«Infamia», el thriller español del viernes 13: una
 
-una abogada obsesionada con una
+abogada obsesionada con una desaparición de
 
-desaparición de hace veinte años. El domingo
+hace veinte años. El domingo 15, la otra
 
-15, la otra pantalla: la Roja contra Inglaterra.
+pantalla: la Roja contra Inglaterra.
 
 Placa tipográfica: La Lucerna
 
@@ -1486,15 +1456,15 @@ El voto por correo se pide hasta el
 
 jueves 19: en Correos o por internet.
 
-La documentación llega a casa a
+La documentación llega a casa a partir
 
-partir del lunes 9 de noviembre.
+del lunes 9 de noviembre.
 
 «Infamia» se estrena el viernes 13:
 
 seis episodios, en HBO Max.
 
-¿Y TÚ? · 說說你自己
+¿Y TÚ?　說說你自己
 
 ¿Y tú? ¿Votarías por correo o en
 
@@ -1504,15 +1474,17 @@ persona? ¿Qué serie ves esta semana:
 
 frases en español.
 
-你會郵寄投票還是親自去投票？這週你看什
+你會郵寄投票還是親自去投票？這週你看
 
-麼：《Infamia》還是足球？寫兩句寄來。
+什麼：《Infamia》還是足球？寫兩句寄來
 
-EJERCICIOS · 第 5 版練習
+。
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+EJERCICIOS　第5版練習
 
-A · COMPRENSIÓN
+答案見第8版　題目可跨級混排，按題號找答案
+
+A　COMPRENSIÓN
 
 讀第 5 版文章，選出正確答案。
 
@@ -1520,9 +1492,9 @@ B1
 
 65.
 
-El voto por correo se pide hasta... A. el lunes
+El voto por correo se pide hasta... A. el lunes 9
 
-9 · B. el jueves 19 · C. el domingo 29
+· B. el jueves 19 · C. el domingo 29
 
 B1
 
@@ -1538,9 +1510,9 @@ B1
 
 67.
 
-El domingo 29, los colegios abren... A. todo
+El domingo 29, los colegios abren... A. todo el
 
-el día · B. de noche · C. de 9:00 a 20:00
+día · B. de noche · C. de 9:00 a 20:00
 
 B1
 
@@ -1554,11 +1526,11 @@ B1
 
 69.
 
-El sábado 28, jornada de reflexión, no hay...
+El sábado 28, jornada de reflexión, no hay... A.
 
-A. propaganda ni actos · B. fútbol · C. series
+propaganda ni actos · B. fútbol · C. series
 
-B · PALABRAS DEL TEXTO
+B　PALABRAS DEL TEXTO
 
 用方框裡的詞填空。注意：有的詞要變位。
 
@@ -1596,9 +1568,9 @@ B1
 
 填空
 
-Para votar en persona llevo mi documento
+Para votar en persona llevo mi documento de
 
-de ___.
+___.
 
 B1
 
@@ -1616,7 +1588,7 @@ B1
 
 El sábado 28 es la jornada de ___.
 
-C · IR A + INFINITIVO
+C　IR A + INFINITIVO
 
 用 ir a + 原形動詞改寫句子，表示「將要」。
 
@@ -1652,7 +1624,7 @@ B1
 
 Votan el domingo 29. → ___
 
-D · ¿VERDADERO O FALSO?
+D　¿VERDADERO O FALSO?
 
 B1
 
@@ -1687,105 +1659,97 @@ Costas. ¿Verdadero o falso?
 
 ## A fondo
 
-A FONDO · 深讀
+A FONDO　深讀
 
-NIVEL B2 · La vivienda decide la campaña · 住房決定選戰
+NIVEL B2　La vivienda decide la campaña　住房決定選戰
 
 La vivienda decide la
 
 campaña
 
-De la redacción de La Lucerna · Nivel de lectura:
+De la redacción de La Lucerna　Nivel de lectura: B2
 
-B2 · La política nacional española
+La política nacional española
 
-La vivienda preocupa al 86,9 % de
+La vivienda preocupa al 86,9 % de los
 
-los españoles.
+españoles.
 
 Ese dato es del Barómetro de
 
 Vivienda 2026 del CIS, el instituto
 
-público de encuestas: estudio
+público de encuestas: estudio número
 
-número 3532, con 6.019
+3532, con 6.019 entrevistas, un
 
-entrevistas, un margen de error de
+margen de error de ±1,3 puntos,
 
-±1,3 puntos, publicado el 8 de
+publicado el 8 de octubre. Es la
 
-octubre. Es la primera vez que el
+primera vez que el CIS dedica un
 
-CIS dedica un estudio monográfico
-
-a la vivienda.
+estudio monográfico a la vivienda.
 
 El barómetro pregunta por
 
-soluciones, y las respuestas son
+soluciones, y las respuestas son claras:
 
-claras: el 91,4 % cree que las
+el 91,4 % cree que las
 
-administraciones deberían
+administraciones deberían construir
 
-construir más vivienda pública, y
+más vivienda pública, y el 76,3 %
 
-el 76,3 % defiende que el Estado
+defiende que el Estado intervenga en
 
-intervenga en el mercado «tanto
+el mercado «tanto como sea
 
-como sea necesario». El 79 %
+necesario». El 79 % quiere que la
 
-quiere que la vivienda se trate
+vivienda se trate como un derecho
 
-como un derecho constitucional,
+constitucional, frente al 13,5 % que la
 
-frente al 13,5 % que la ve como un
+ve como un bien de mercado.
 
-bien de mercado.
+Una encuesta es una foto con margen
 
-Una encuesta es una foto con
+de error, tomada en un día concreto.
 
-margen de error, tomada en un día
+Y mientras tanto, la campaña ya tiene
 
-concreto.
+su calendario: el miércoles 11, huelga
 
-Y mientras tanto, la campaña ya
+general; el viernes 13 empieza la
 
-tiene su calendario: el miércoles
+campaña; el jueves 19 termina el
 
-11, huelga general; el viernes 13
+plazo del voto por correo; el viernes
 
-empieza la campaña; el jueves 19
+27 termina la campaña; y el domingo
 
-termina el plazo del voto por
+29, la única encuesta que no admite
 
-correo; el viernes 27 termina la
+error: la votación, con papeletas de
 
-campaña; y el domingo 29, la única
+verdad.
 
-encuesta que no admite error: la
+El 28 de octubre, un grave accidente
 
-votación, con papeletas de verdad.
+ferroviario en Urda (Toledo) detuvo la
 
-El 28 de octubre, un grave
+precampaña unos días. La
 
-accidente ferroviario en Urda
+investigación sigue abierta: esta
 
-(Toledo) detuvo la precampaña
-
-unos días. La investigación sigue
-
-abierta: esta página no adelanta
-
-conclusiones.
+página no adelanta conclusiones.
 
 EL CAMINO AL 29N
 
-2 OCT. — El Congreso rechaza dos
+2 OCT. — El Congreso rechaza dos decretos
 
-decretos de vivienda.
+de vivienda.
 
 5 OCT. — Sánchez disuelve las Cortes;
 
@@ -1825,21 +1789,21 @@ España vota.
 
 LEER UNA ENCUESTA
 
-Para leer cualquier encuesta,
+Para leer cualquier encuesta, pregunta
 
-pregunta tres cosas: ¿quién la
+tres cosas: ¿quién la publica? ¿Cuándo
 
-publica? ¿Cuándo se hizo el trabajo
+se hizo el trabajo de campo? ¿Qué
 
-de campo? ¿Qué margen de error
+margen de error tiene? Sin esas tres
 
-tiene? Sin esas tres respuestas, un
+respuestas, un porcentaje no dice casi
 
-porcentaje no dice casi nada.
+nada.
 
-EL BARÓMETRO DE VIVIENDA DEL CIS · % que apoya cada medida
+EL BARÓMETRO DE VIVIENDA DEL CIS　% que apoya cada medida
 
-BARÓMETRO DE VIVIENDA (CIS) · apoyo a cada medida, %
+BARÓMETRO DE VIVIENDA (CIS)　apoyo a cada medida, %
 
 1ª vivienda: menos impuestos
 
@@ -1883,11 +1847,11 @@ Según el mismo barómetro: el 86,9 % está preocupado por la vivienda; el 79 % 
 
 constitucional y solo el 13,5 % como un bien de mercado.
 
-EJERCICIOS · 第 6 版練習
+EJERCICIOS　第6版練習
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+答案見第8版　題目可跨級混排，按題號找答案
 
-A · LEER LOS GRÁFICOS
+A　LEER LOS GRÁFICOS
 
 看上面兩張圖，選出正確答案。
 
@@ -1905,35 +1869,33 @@ B2
 
 84.
 
-Construir más vivienda pública lo apoya el...
+Construir más vivienda pública lo apoya el... A.
 
-A. 76,3 % · B. 91,4 % · C. 70,6 %
+76,3 % · B. 91,4 % · C. 70,6 %
 
 B2
 
 85.
 
-Está preocupado por la vivienda el... A. 13,5 %
+Está preocupado por la vivienda el... A. 13,5 % ·
 
-· B. 79 % · C. 86,9 %
+B. 79 % · C. 86,9 %
 
 B2
 
 86.
 
-El barómetro se hizo con... A. 6.019 entrevistas
+El barómetro se hizo con... A. 6.019 entrevistas ·
 
-· B. 5.025 entrevistas · C. 3532 entrevistas
+B. 5.025 entrevistas · C. 3532 entrevistas
 
 B2
 
 87.
 
-Entre la medida más apoyada y la segunda
+Entre la medida más apoyada y la segunda hay...
 
-hay... A. 19,1 puntos · B. 4,0 puntos · C. 24,8
-
-puntos
+A. 19,1 puntos · B. 4,0 puntos · C. 24,8 puntos
 
 B2
 
@@ -1941,11 +1903,11 @@ B2
 
 La Lucerna publica aquí... A. una media
 
-mezclada · B. todos los sondeos · C. solo la
+mezclada · B. todos los sondeos · C. solo la serie
 
-serie del CIS, con fuente y fecha
+del CIS, con fuente y fecha
 
-B · COMPRENSIÓN
+B　COMPRENSIÓN
 
 B2
 
@@ -1961,21 +1923,21 @@ B2
 
 90.
 
-El 5 de octubre, Sánchez... A. disolvió las
+El 5 de octubre, Sánchez... A. disolvió las Cortes
 
-Cortes y convocó elecciones · B. publicó las
+y convocó elecciones · B. publicó las listas · C.
 
-listas · C. empezó la campaña
+empezó la campaña
 
 B2
 
 91.
 
-Según el texto, una encuesta es... A. un
+Según el texto, una encuesta es... A. un resultado
 
-resultado final · B. una promesa · C. una foto
+final · B. una promesa · C. una foto con margen
 
-con margen de error
+de error
 
 B2
 
@@ -1987,7 +1949,7 @@ noviembre · B. 13 de noviembre · C. 29 de
 
 noviembre
 
-C · EL SUBJUNTIVO
+C　EL SUBJUNTIVO
 
 B2
 
@@ -2023,7 +1985,7 @@ B2
 
 ___ las encuestas difieren, ninguna miente.
 
-D · PALABRAS DEL DEBATE
+D　PALABRAS DEL DEBATE
 
 用方框裡的詞填空：sondeo · muestra ·
 
@@ -2035,9 +1997,7 @@ B2
 
 填空
 
-Un ___ pregunta a una muestra de
-
-ciudadanos.
+Un ___ pregunta a una muestra de ciudadanos.
 
 B2
 
@@ -2066,11 +2026,11 @@ Toda encuesta tiene un ___.
 
 ## Lengua
 
-LENGUA · 語言
+LENGUA　語言
 
-語言聚焦 · Tres niveles, tres herramientas · 三個級別，三件工具
+語言聚焦　Tres niveles, tres herramientas　三個級別，三件工具
 
-A2 · LAS FECHAS
+A2　LAS FECHAS
 
 Para decir la fecha: «el miércoles 11 de
 
@@ -2082,11 +2042,11 @@ meses van en minúscula: miércoles,
 
 noviembre.
 
-Y ojo con el 1: el primer día del mes es
+Y ojo con el 1: el primer día del mes es «el
 
-«el uno», no «el primero»: el 1 de
+uno», no «el primero»: el 1 de noviembre,
 
-noviembre, el Día de Todos los Santos.
+el Día de Todos los Santos.
 
 日期格式：el miércoles 11 de noviembre；星
 
@@ -2128,17 +2088,17 @@ A2
 
 noviembre · C. NOVIEMBRE
 
-B1 · COMPARATIVOS
+B1　COMPARATIVOS
 
 Para comparar: más / menos + adjetivo +
 
-que; tan + adjetivo + como. Dos
+que; tan + adjetivo + como. Dos irregulares
 
-irregulares para recordar: bueno →
+para recordar: bueno → mejor, malo →
 
-mejor, malo → peor. Y nunca «más
+peor. Y nunca «más mejor»: mejor ya es
 
-mejor»: mejor ya es comparativo.
+comparativo.
 
 La vivienda de esta semana sirve para
 
@@ -2188,7 +2148,7 @@ B1
 
 mejor · C. muy mejor
 
-B2 · EL SUBJUNTIVO
+B2　EL SUBJUNTIVO
 
 Las promesas usan el subjuntivo: «es
 
@@ -2196,9 +2156,9 @@ necesario que», «para que», «ojalá» van
 
 con subjuntivo — tenga, sea, baje. Pero
 
-«creo que» afirma y va con indicativo:
+«creo que» afirma y va con indicativo: creo
 
-creo que es.
+que es.
 
 Es la gramática de la página 6: opinar
 
@@ -2224,9 +2184,9 @@ B2
 
 填空
 
-Publicamos la fuente para que todo ___
+Publicamos la fuente para que todo ___ (ser)
 
-(ser) claro.
+claro.
 
 B2
 
@@ -2246,7 +2206,7 @@ B2
 
 bajar
 
-ERRORES TÍPICOS · 常見錯誤
+ERRORES TÍPICOS　常見錯誤
 
 «El domingo 15 son el partido.»
 
@@ -2280,7 +2240,7 @@ Creo que afirma: indicativo.
 
 creo que 表肯定，用陳述式 es。
 
-LA PALABRA · 本週生詞
+LA PALABRA　本週生詞
 
 « la huelga general » es el paro de
 
@@ -2320,13 +2280,15 @@ página 8; publicamos este ejemplo y la
 
 promesa pasa al VOL.4.
 
-編輯部說明：截至本期截稿，未收到真實讀
+編輯部說明：截至本期截稿，未收到真實
 
-者來信與第 8 版最佳作文，故本期登載編輯
+讀者來信與第 8 版最佳作文，故本期登載
 
-部示例信，承諾順延至 VOL.4。歡迎來信！
+編輯部示例信，承諾順延至 VOL.4。歡迎來
 
-FRASES DE LA SEMANA · 本週金句（逐字摘自本期文章）
+信！
+
+FRASES DE LA SEMANA　本週金句（逐字摘自本期文章）
 
 «El miércoles 11 hay huelga general y el viernes 13, a las 00:00, empieza la campaña
 
@@ -2334,9 +2296,9 @@ electoral.»
 
 週三 11 日有大罷工，週五 13 日零點競選開始。 (Página 1)
 
-«El miércoles 11 de noviembre hay huelga general en toda España: un paro de 24
+«El miércoles 11 de noviembre hay huelga general en toda España: un paro de 24 horas,
 
-horas, convocado por los sindicatos.»
+convocado por los sindicatos.»
 
 11 月 11 日週三全西班牙大罷工：工會召集的 24 小時停工。 (Página 2)
 
@@ -2346,9 +2308,9 @@ para cubrir a un mendigo que moría de frío.»
 
 傳說羅馬士兵馬丁用劍把斗篷分成兩半，蓋住快凍死的乞丐。 (Página 3)
 
-«España, vigente campeona del mundo y de Europa, juega en el grupo A3 con
+«España, vigente campeona del mundo y de Europa, juega en el grupo A3 con Croacia,
 
-Croacia, Inglaterra y la República Checa.»
+Inglaterra y la República Checa.»
 
 現任世界冠軍和歐洲冠軍西班牙，與克羅地亞、英格蘭和捷克同在 A3 組。 (Página 4)
 
@@ -2370,18 +2332,18 @@ Inglaterra, en el Metropolitano, a las 20:45.»
 
 11 月 15 日週日，國家隊在大都會球場 20:45 對英格蘭，收官小組賽。 (Página 1)
 
-LA PRÓXIMA SEMANA · 下期預告 (VOL.4)
+LA PRÓXIMA SEMANA　下期預告 (VOL.4)
 
 La primera semana de campaña, la jornada 13 de Liga y la vuelta de la Champions. Además: tus cartas y los mejores textos de la página 8. ¡Hasta el lunes!
 
 
 ## Ejercicios y respuestas
 
-EJERCICIOS Y RESPUESTAS · 練習與答案
+EJERCICIOS Y RESPUESTAS　練習與答案
 
-第 8 版 · La gran prueba de la semana + todas las respuestas
+第8版　La gran prueba de la semana + todas las respuestas
 
-A · COMPLETA LA CRÓNICA
+A　COMPLETA LA CRÓNICA
 
 B1
 
@@ -2395,9 +2357,9 @@ B1
 
 114.
 
-El domingo, España ___ a Inglaterra en Madrid. (A. visita
+El domingo, España ___ a Inglaterra en Madrid. (A. visita ·
 
-· B. recibe)
+B. recibe)
 
 B1
 
@@ -2409,9 +2371,7 @@ B1
 
 116.
 
-La huelga del miércoles ___ 24 horas. (A. empieza · B.
-
-dura)
+La huelga del miércoles ___ 24 horas. (A. empieza · B. dura)
 
 B1
 
@@ -2443,7 +2403,7 @@ En noviembre llega el ___ de San Martín. (A. veranillo · B.
 
 puente)
 
-B · PREGUNTAS GENERALES
+B　PREGUNTAS GENERALES
 
 A2
 
@@ -2457,9 +2417,9 @@ A2
 
 122.
 
-San Martín es el... A. 11 de noviembre · B. 12 de
+San Martín es el... A. 11 de noviembre · B. 12 de noviembre
 
-noviembre · C. 29 de noviembre
+· C. 29 de noviembre
 
 A2
 
@@ -2481,9 +2441,9 @@ B1
 
 125.
 
-El lema de la huelga es... A. «Salarios, vivienda y precios»
+El lema de la huelga es... A. «Salarios, vivienda y precios» ·
 
-· B. «Fútbol y fiesta» · C. «Cine y series»
+B. «Fútbol y fiesta» · C. «Cine y series»
 
 B1
 
@@ -2505,31 +2465,29 @@ B1
 
 128.
 
-La campaña electoral empieza el... A. 13 de noviembre ·
+La campaña electoral empieza el... A. 13 de noviembre · B.
 
-B. 3 de noviembre · C. 29 de noviembre
+3 de noviembre · C. 29 de noviembre
 
-C · LEE Y RESPONDE
+C　LEE Y RESPONDE
 
-Pablo vive en Madrid: el miércoles 11 sigue la huelga
+Pablo vive en Madrid: el miércoles 11 sigue la huelga en
 
-en las noticias y el domingo ve el España–Inglaterra
+las noticias y el domingo ve el España–Inglaterra en el
 
-en el Metropolitano. Ana vive en Barcelona: el
+Metropolitano. Ana vive en Barcelona: el miércoles 11
 
-miércoles 11 trabaja, y el domingo ve el partido por
+trabaja, y el domingo ve el partido por televisión. Los
 
-televisión. Los dos leen los programas antes de votar
-
-el 29.
+dos leen los programas antes de votar el 29.
 
 A2
 
 129.
 
-¿Quién ve el partido en el Metropolitano? A. Ana · B.
+¿Quién ve el partido en el Metropolitano? A. Ana · B. Pablo
 
-Pablo · C. los dos
+· C. los dos
 
 A2
 
@@ -2551,11 +2509,11 @@ A2
 
 132.
 
-El mejor título es... A. «Una tormenta» · B. «Dos
+El mejor título es... A. «Una tormenta» · B. «Dos miércoles»
 
-miércoles» · C. «El Clásico»
+· C. «El Clásico»
 
-D · CONSTRUYE FRASES
+D　CONSTRUYE FRASES
 
 A2
 
@@ -2589,7 +2547,7 @@ B1
 
 ¿ / a qué hora / empieza / el partido / ? → ___
 
-E · TRADUCE
+E　TRADUCE
 
 A2
 
@@ -2623,7 +2581,7 @@ B2
 
 每個圖表都必須標明來源。→ ___
 
-F · LAS PALABRAS DEL 29N
+F　LAS PALABRAS DEL 29N
 
 B2
 
@@ -2647,7 +2605,7 @@ c. una encuesta de opinión
 
 d. las personas entrevistadas
 
-G · DIÁLOGO EN LA INMOBILIARIA
+G　DIÁLOGO EN LA INMOBILIARIA
 
 B1
 
@@ -2659,9 +2617,7 @@ B1
 
 146.
 
-— ¿Cuántas habitaciones? — ___. (A. Tres · B. Tres
-
-puentes)
+— ¿Cuántas habitaciones? — ___. (A. Tres · B. Tres puentes)
 
 B1
 
@@ -2679,11 +2635,11 @@ B1
 
 149.
 
-— La ___ es el miércoles 11, día de huelga. (A. mudanza ·
+— La ___ es el miércoles 11, día de huelga. (A. mudanza · B.
 
-B. campaña)
+campaña)
 
-H · ESCRIBE TÚ
+H　ESCRIBE TÚ
 
 寫作題（無唯一答案）；範文（84 詞）見下。
 
@@ -2693,37 +2649,33 @@ B1
 
 寫作
 
-«¿Qué harías tú por la vivienda?» Escribe 80–100
+«¿Qué harías tú por la vivienda?» Escribe 80–100 palabras:
 
-palabras: tu plan del miércoles 11, tu domingo 15 y tu
-
-voto del 29.
+tu plan del miércoles 11, tu domingo 15 y tu voto del 29.
 
 Texto modelo: Vivo en Madrid, y el miércoles 11 sigo la
 
-huelga en las noticias: salarios, vivienda y precios, los
+huelga en las noticias: salarios, vivienda y precios, los tres
 
-tres temas de la semana. El viernes 13 empieza la
+temas de la semana. El viernes 13 empieza la campaña, y
 
-campaña, y el domingo 15 veo el España–Inglaterra con
+el domingo 15 veo el España–Inglaterra con mi familia.
 
-mi familia. El jueves 12 veo el Chequia–España en
+El jueves 12 veo el Chequia–España en Praga por
 
-Praga por televisión, a las 20:45. Mis amigos de
+televisión, a las 20:45. Mis amigos de Barcelona no
 
-Barcelona no tienen huelga en su empresa: el miércoles
+tienen huelga en su empresa: el miércoles trabajan. Yo, en
 
-trabajan. Yo, en cambio, leo los programas con calma y
+cambio, leo los programas con calma y preparo mi voto
 
-preparo mi voto por correo. El 29 votamos. ¡Qué
+por correo. El 29 votamos. ¡Qué semana!
 
-semana!
+RESPUESTAS　全部答案與簡析（第1–8版）
 
-RESPUESTAS · 全部答案與簡析（第 1–8 版）
+每題附一句中文簡析　帶 ✓ 的為範本題
 
-每題附一句中文簡析 · 帶 ✓ 的為範本題
-
-— 第 1 版 —
+— 第1版 —
 
 1. 13 — 競選 11 月 13 日週五開始
 
@@ -2745,7 +2697,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 10. B — 西班牙–英格蘭週日 20:45
 
-— 第 2 版 —
+— 第2版 —
 
 11. 11 — 11 月 11 日週三
 
@@ -2783,7 +2735,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 28. d — alquiler=租金 d
 
-— 第 3 版 —
+— 第3版 —
 
 29. Verdadero — 聖馬丁節在 11 月 11 日週三
 
@@ -2821,7 +2773,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 46. Todos preguntan si hay veranillo. — 間接疑問用 si
 
-— 第 4 版 —
+— 第4版 —
 
 47. A — 西班牙在 A3 組
 
@@ -2859,7 +2811,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 64. El grupo cerró la fase el domingo. — cerrar → cerró
 
-— 第 5 版 —
+— 第5版 —
 
 65. B — 郵寄投票須在 19 日前申請
 
@@ -2897,7 +2849,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 82. Verdadero — Infamia 改編自 Ledicia Costas 的小說
 
-— 第 6 版 —
+— 第6版 —
 
 83. A — 減稅支持率最高（95,4%）
 
@@ -2935,7 +2887,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 100. margen de error — margen de error = 誤差範圍
 
-— 第 7 版 —
+— 第7版 —
 
 101. 11 — el miércoles 11 de noviembre 大罷工
 
@@ -2961,7 +2913,7 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 112. B — ojalá + 虛擬式：baje
 
-— 第 8 版 —
+— 第8版 —
 
 113. B — visita a Chequia = 客場對捷克
 
@@ -3007,9 +2959,9 @@ RESPUESTAS · 全部答案與簡析（第 1–8 版）
 
 134. El domingo vemos el España–Inglaterra. — 時間在前
 
-135. La campaña empieza a las cero horas. — a las cero horas = 在
+135. La campaña empieza a las cero horas. — a las cero horas = 在零
 
-零點
+點
 
 136. ¿A qué hora empieza el partido? — 疑問詞在句首
 
