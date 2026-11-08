@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""W45 FR core VOL.3 — P8 (battery 42 + writing + all keys from REG)."""
+"""W45 FR core VOL.2 — P8 (battery 42 + writing + all keys from REG)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EXERCICES & RÉPONSES · 연습과 정답", "Le Lucerna", "종합 평가 ÉVALUATION · 정답은 이 면 아래에")
+p.band("EXERCICES & RÉPONSES　연습과 정답", "Le Lucerna", "종합 평가 ÉVALUATION　정답은 이 면 아래에")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1485, tag="P8-battery")
 
@@ -25,7 +25,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit 그녀가 써요"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · TEXTE À TROUS · 빈칸 채우기", 24)
+bf.head("A　TEXTE À TROUS　빈칸 채우기", 24)
 bf.para(f"Léa a seize ans. Le ({cnums[0]})___ 8 novembre, elle se lève tôt : c'est le jour des finales. Avec son frère, elle va à ({cnums[1]})___ pour voir le tennis. « On ne connaît pas encore les ({cnums[2]})___ », dit son frère. Le soir, Léa raconte : « À Port-en-Bessin, on a ({cnums[3]})___ des coquilles, un régal ! » Le festival ({cnums[4]})___ dans Paris. Léa a ({cnums[5]})___ la musique. Les finales ({cnums[6]})___ dimanche, et elle l'({cnums[7]})___ dans son cahier.", 21)
 bf.expl("선택지:")
 for n, opts in zip(cnums, [
@@ -41,7 +41,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B · CHOIX MULTIPLE · 객관식", 24)
+bf.head("B　CHOIX MULTIPLE　객관식", 24)
 mcq = [
     ("A2", "B", "7 nov. = samedi(마지막 야간 행사)", "La dernière nocturne a lieu... A. vendredi 6 · B. samedi 7 · C. dimanche 8"),
     ("A2", "A", "nous → allons", "Lundi, nous ___ reprendre les cours. A. allons · B. allez · C. vont"),
@@ -56,7 +56,7 @@ for lv, k, nt, body in mcq:
     bf.ex(lv, "单选", k, nt, body, size=20)
 
 # ---- C. reading ----
-bf.head("C · LECTURE · 읽기", 24)
+bf.head("C　LECTURE　읽기", 24)
 bf.para("Samedi soir, la famille Martin prépare son week-end. Samedi 7 novembre, ils iront à Plailly pour la dernière nocturne : de 19 heures à 1 heure du matin, avec un badge repousse-monstres pour le petit Léo. Dimanche 8, ils regarderont les finales à la télévision, puis ils goûteront des coquilles de Port-en-Bessin. « Trois finales en un week-end ! » dit Monsieur Martin. Le soir, Léo dormira tôt : demain, c'est l'école.", 21)
 read_qs = [
     ("A2", "C", "야간 행사는 19시부터 새벽 1시까지", "La nocturne dure de... A. 10 h à 19 h · B. 18 h à 20 h · C. 19 h à 1 h"),
@@ -69,7 +69,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "阅读理解", k, nt, body, size=20)
 
 # ---- D. sentence building ----
-bf.head("D · PHRASES · 문장 완성", 24)
+bf.head("D　PHRASES　문장 완성", 24)
 d_items = [
     ("A2", "Les élèves vont reprendre les cours lundi.", "aller + 원형(futur proche)",
      "Futur proche : « Les élèves reprennent les cours lundi. » → ___"),
@@ -86,7 +86,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20)
 
 # ---- E. translation ----
-bf.head("E · TRADUCTION · 번역", 24)
+bf.head("E　TRADUCTION　번역", 24)
 e_items = [
     ("B2", "일정을 읽는 것 자체가 이미 프랑스를 이해하는 거예요.", "lire un programme = 일정 읽기",
      "한국어로: « Lire un programme, c'est déjà comprendre la France. »"),
@@ -103,7 +103,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, "翻译", k, nt, body, size=20)
 
 # ---- F. matching ----
-bf.head("F · LES MOTS · 단어 짝짓기", 24)
+bf.head("F　LES MOTS　단어 짝짓기", 24)
 bf.match_set("B1", "词汇配对",
              ["un tournoi", "une nocturne", "un budget", "une coquille", "un festival"],
              ["une compétition avec plusieurs matchs", "une soirée qui dure jusqu'à la nuit",
@@ -122,28 +122,28 @@ dlg_defs = [
     ("A2", "week-end", "Bon week-end! 즐거운 주말 보내세요"),
 ]
 gnums = [reg_ex(lv, "对话补全", k, nt) for lv, k, nt in dlg_defs]
-bf.head("G · DIALOGUE · 대화 완성", 24)
+bf.head("G　DIALOGUE　대화 완성", 24)
 bf.para(f"— Bonjour madame, c'est le marché du Goût du Large ? — Oui ! — Pour ({gnums[0]})___, le 7 novembre : je veux des ({gnums[1]})___ pour ma famille. — Goûtez celle-ci ! Vous voulez les ({gnums[2]})___ à la portaise ? — Oui, donnez-moi votre ({gnums[3]})___. — Voilà. Bon ({gnums[4]})___ ! — Merci !", 21)
 bf.end_report()
 
 # ---- writing strip ----
 wy = 1500
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "写作", "열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에", "기준에 따라 채점")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · ÉCRITURE · 쓰기", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　ÉCRITURE　쓰기", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Écrivez un petit texte (80 à 100 mots) : « Mon week-end du 7–8 novembre ». Racontez : un match, une fête, un plat. Les meilleurs textes paraîtront dans le VOL.4 (page 7, « Le courrier des lecteurs »).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 190, "프랑스어로 80–100단어를 쓰세요: 저의 11월 7–8일 주말. 경기 하나, 축제 하나, 요리 하나를 분명히 쓰세요.", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 288, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MODÈLE · 모범 답안", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 288, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MODÈLE　모범 답안", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise, achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un week-end parfait.", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 312
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "RÉPONSES · 모든 정답과 해설(1–8면)", 26, "sans", True, OLIVE)
-kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2545, tag="P8-keys")
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "RÉPONSES　모든 정답과 해설(1–8면)", 26, "sans", True, OLIVE)
+kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 # Notes printed on this page = exactly the set printed in the core
 # edition, measured from the shipped core P8 SVG with tools/p8.py

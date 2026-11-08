@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-"""W45 FR core VOL.3 — P8 (battery 42 + writing + all keys from REG)."""
+"""W45 FR core VOL.2 — P8 (battery 42 + writing + all keys from REG)."""
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-fr-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EXERCICES & RÉPONSES · 練習と答え", "Le Lucerna", "総合テスト ÉVALUATION · 答えはこのページの下にあります")
+p.band("EXERCICES & RÉPONSES　練習と答え", "Le Lucerna", "総合テスト ÉVALUATION　答えはこのページの下にあります")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1485, tag="P8-battery")
 
@@ -25,7 +25,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit 彼女は書く"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · TEXTE À TROUS · 穴埋め", 24)
+bf.head("A　TEXTE À TROUS　穴埋め", 24)
 bf.para(f"Léa a seize ans. Le ({cnums[0]})___ 8 novembre, elle se lève tôt : c'est le jour des finales. Avec son frère, elle va à ({cnums[1]})___ pour voir le tennis. « On ne connaît pas encore les ({cnums[2]})___ », dit son frère. Le soir, Léa raconte : « À Port-en-Bessin, on a ({cnums[3]})___ des coquilles, un régal ! » Le festival ({cnums[4]})___ dans Paris. Léa a ({cnums[5]})___ la musique. Les finales ({cnums[6]})___ dimanche, et elle l'({cnums[7]})___ dans son cahier.", 21)
 bf.bridge("選択肢：")
 for n, opts in zip(cnums, [
@@ -41,7 +41,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B · CHOIX MULTIPLE · 選択問題", 24)
+bf.head("B　CHOIX MULTIPLE　選択問題", 24)
 mcq = [
     ("A2", "B", "7 nov. = samedi（最終ナイトイベント）", "La dernière nocturne a lieu... A. vendredi 6 · B. samedi 7 · C. dimanche 8"),
     ("A2", "A", "nous → allons", "Lundi, nous ___ reprendre les cours. A. allons · B. allez · C. vont"),
@@ -56,7 +56,7 @@ for lv, k, nt, body in mcq:
     bf.ex(lv, "单选", k, nt, body, size=20)
 
 # ---- C. reading ----
-bf.head("C · LECTURE · 読解", 24)
+bf.head("C　LECTURE　読解", 24)
 bf.para("Samedi soir, la famille Martin prépare son week-end. Samedi 7 novembre, ils iront à Plailly pour la dernière nocturne : de 19 heures à 1 heure du matin, avec un badge repousse-monstres pour le petit Léo. Dimanche 8, ils regarderont les finales à la télévision, puis ils goûteront des coquilles de Port-en-Bessin. « Trois finales en un week-end ! » dit Monsieur Martin. Le soir, Léo dormira tôt : demain, c'est l'école.", 21)
 read_qs = [
     ("A2", "C", "ナイトイベントは19時から深夜1時まで", "La nocturne dure de... A. 10 h à 19 h · B. 18 h à 20 h · C. 19 h à 1 h"),
@@ -69,7 +69,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "阅读理解", k, nt, body, size=20)
 
 # ---- D. sentence building ----
-bf.head("D · PHRASES · 文の完成と変換", 24)
+bf.head("D　PHRASES　文の完成と変換", 24)
 d_items = [
     ("A2", "Les élèves vont reprendre les cours lundi.", "aller + 不定詞（futur proche）",
      "Futur proche : « Les élèves reprennent les cours lundi. » → ___"),
@@ -86,7 +86,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20)
 
 # ---- E. translation ----
-bf.head("E · TRADUCTION · 翻訳", 24)
+bf.head("E　TRADUCTION　翻訳", 24)
 e_items = [
     ("B2", "日程表を読むことは、それ自体がフランスを理解することです。", "lire un programme = 日程表を読む",
      "和訳：« Lire un programme, c'est déjà comprendre la France. »"),
@@ -103,7 +103,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, "翻译", k, nt, body, size=20)
 
 # ---- F. matching ----
-bf.head("F · LES MOTS · 語の対応", 24)
+bf.head("F　LES MOTS　語の対応", 24)
 bf.match_set("B1", "词汇配对",
              ["un tournoi", "une nocturne", "un budget", "une coquille", "un festival"],
              ["une compétition avec plusieurs matchs", "une soirée qui dure jusqu'à la nuit",
@@ -122,21 +122,21 @@ dlg_defs = [
     ("A2", "week-end", "Bon week-end ! よい週末を"),
 ]
 gnums = [reg_ex(lv, "对话补全", k, nt) for lv, k, nt in dlg_defs]
-bf.head("G · DIALOGUE · 会話の穴埋め", 24)
+bf.head("G　DIALOGUE　会話の穴埋め", 24)
 bf.para(f"— Bonjour madame, c'est le marché du Goût du Large ? — Oui ! — Pour ({gnums[0]})___, le 7 novembre : je veux des ({gnums[1]})___ pour ma famille. — Goûtez celle-ci ! Vous voulez les ({gnums[2]})___ à la portaise ? — Oui, donnez-moi votre ({gnums[3]})___. — Voilà. Bon ({gnums[4]})___ ! — Merci !", 21)
 bf.end_report()
 
 # ---- writing strip ----
 wy = 1500
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "写作", "自由記述 — ポイントは作文欄に、範文はこのページの作文欄の中にあります", "ポイントで採点")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · ÉCRITURE · 作文", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　ÉCRITURE　作文", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Écrivez un petit texte (80 à 100 mots) : « Mon week-end du 7–8 novembre ». Racontez : un match, une fête, un plat. Les meilleurs textes paraîtront dans le VOL.4 (page 7, « Le courrier des lecteurs »).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 190, "フランス語で80〜100語で書きましょう：11月7〜8日の私の週末。試合1つ、祭り1つ、料理1つを書きましょう。", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 288, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MODÈLE · 範文", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 288, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MODÈLE　範文", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "Samedi 7 novembre, j'ai regardé les demi-finales du Masters à la télévision : quelle ambiance ! Le soir, nous avons fêté la dernière nocturne avec des amis, déguisés en fantômes. Dimanche 8, nous avons goûté des coquilles Saint-Jacques à la portaise, achetées au marché de Port-en-Bessin. Le matin, nous avons marché au bord de la mer et nous avons acheté des fleurs pour ma grand-mère. Le soir, nous avons écouté de la musique et j'ai lu vingt pages de mon roman français. C'était un week-end parfait.", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # Explicit printed-note set: the core's noted set (tools/p8.py
@@ -146,12 +146,12 @@ PRINT_NOTES = [1, 3, 4, 7, 8, 10, 11, 13, 14, 17, 19, 21, 27, 28, 31, 32, 33, 34
 
 # ---- keys ----
 ky = wy + 312
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "RÉPONSES · 全解答と解説（1–8ページ）", 26, "sans", True, OLIVE)
-kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2545, tag="P8-keys")
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "RÉPONSES　全解答と解説（1–8ページ）", 26, "sans", True, OLIVE)
+kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):
-    kf.para(f"— {pg} ページ —", 17, "sans", True, OLIVE, 1.28, 3)
+    kf.para(f"— {pg}ページ —", 17, "sans", True, OLIVE, 1.28, 3)
     parts = []
     for e in grp:
         s = f"{e['n']}. {e['key']}"
