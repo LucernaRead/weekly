@@ -56,20 +56,60 @@ if [ -n "$nframes" ]; then
   factor=$(awk -v n="$nframes" -v d="$srcdur" 'BEGIN{printf "%.6f", (n/12)/d}')
   warped=$(mktemp --suffix=.mp4 tools/scratch/motion-warped.XXXXXX)
   # Uniform retime: output lasts exactly nframes/12 s. factor = target duration / source duration.
+  # NOTE: do NOT force -pix_fmt here. The source loops are yuv444p, and forcing yuv420p
+  # downsamples chroma enough to erase the tiny differences between near-static frames:
+  # measured 2026-11-08 on W43 pt, the forced conversion made the opening pair differ by
+  # at most 11/255 (vs 13 without it), and at -q 30 libwebp then merged the pair into one
+  # 166 ms frame (126 frames instead of 127). The warped file is an intermediate consumed
+  # only by ffmpeg's own PNG extraction below, so keeping the native format costs nothing.
   ffmpeg -hide_banner -loglevel error -y -i "$src" -an \
-    -vf "setpts=PTS*$factor" -t "$dur" -c:v libx264 -crf 16 -preset fast -pix_fmt yuv420p "$warped"
+    -vf "setpts=PTS*$factor" -t "$dur" -c:v libx264 -crf 16 -preset fast "$warped"
   src="$warped"
 fi
+# Cap the extraction at exactly nframes: the warped stream's last frame
+# duration can push the fps filter one slot past N (measured 2026-11-08:
+# W43 en warped to 89 frames came out as 90). The extra frame sits at
+# t = N/12, i.e. the wrap point, and is a duplicate of frame 0 in a
+# seamless loop, so dropping it preserves closure. The guard below still
+# catches a warp that lands SHORT of N.
+cap_args=""
+if [ -n "$nframes" ]; then cap_args="-frames:v $nframes"; fi
 ffmpeg -hide_banner -loglevel error -y -i "$src" -an \
-  -vf "fps=12,scale=1200:800:force_original_aspect_ratio=increase,crop=1200:800" "$framesdir/%04d.png"
+  -vf "fps=12,scale=1200:800:force_original_aspect_ratio=increase,crop=1200:800" $cap_args "$framesdir/%04d.png"
 n=$(ls "$framesdir" | wc -l)
 if [ -n "$nframes" ] && [ "$n" -ne "$nframes" ]; then
   echo "expected $nframes frames at 12 fps, got $n; the retime did not land — not writing $out"; exit 1
 fi
 mkdir -p "covers/$week/motion"
 # 83 ms per frame = 12 frames/s. Lower -q until the file is ≤ 4 MB (rule 15).
-for q in 70 60 50 40 30 20; do
+# Measured 2026-11-08 on the noisiest loop (W45 de, 97 frames): -m 6 -q 20
+# saves only ~2% over -m 4 -q 20 (5.32 vs 5.45 MB) at 5x the time, so the
+# ladder stays at -m 4 and goes down to q10/q5 instead; q10 fixed that loop
+# (3.93 MB). If even q5 is over the cap the file is deleted, not written:
+# a missing motion is legal (rule 15 is optional), an over-cap one is not.
+for q in 70 60 50 40 30 20 10 5; do
   img2webp -loop 0 -lossy -q "$q" -m 4 -d 83 "$framesdir"/*.png -o "$out" >/dev/null 2>&1
   [ "$(wc -c < "$out")" -le 4194304 ] && break
 done
+if [ "$(wc -c < "$out")" -gt 4194304 ]; then
+  rm -f "$out"
+  echo "still over 4 MB at quality 5 — not writing $out (rule 15)"; exit 1
+fi
+# Frame-count guard: at low quality libwebp merges near-identical frames into one
+# longer frame (measured 2026-11-08: W43 pt lost 1 of 127 frames at -q 30). Size
+# alone cannot catch that — a merged file is SMALLER. Verify the WebP really holds
+# $nframes frames (webpmux ships with img2webp; fall back to PIL). Fail loud.
+if [ -n "$nframes" ]; then
+  got=""
+  if command -v webpmux >/dev/null 2>&1; then
+    got=$(webpmux -info "$out" 2>/dev/null | sed -n 's/.*Number of frames: \([0-9]*\).*/\1/p')
+  fi
+  if [ -z "$got" ] && [ -x tools/venv/bin/python ]; then
+    got=$(tools/venv/bin/python -c "from PIL import Image; print(Image.open('$out').n_frames)" 2>/dev/null)
+  fi
+  if [ "$got" != "$nframes" ]; then
+    rm -f "$out"
+    echo "wrote $nframes frames but $out holds ${got:-unknown} — not writing $out (rule 15)"; exit 1
+  fi
+fi
 echo "wrote $out ($(wc -c < "$out" | tr -d ' ') bytes, quality $q, $n frames). Now run: node lint.mjs --write && node lint.mjs"
