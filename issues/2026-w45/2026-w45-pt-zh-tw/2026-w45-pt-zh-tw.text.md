@@ -1,0 +1,478 @@
+# A Lucerna · 葡萄牙語週報 VOL.2
+
+2026 年 11 月 2–8 日 · 正文葡萄牙語 · 講解繁體中文 · 程度 A2–B2 · 150 道練習題
+
+## Página 1 — A notícia
+
+### A SEMANA DO ENEM!
+
+De segunda a domingo, o Brasil revisa, descansa e faz a prova.
+
+### Do feriadão à prova: a semana do Enem
+
+*Da redação da A Lucerna · Nível de leitura: A2*
+
+Começa na segunda-feira, 2 de novembro, feriado de Finados, e termina no domingo, 8 de novembro, com o primeiro dia do Enem. Entre um dia e outro, o país inteiro vive a mesma semana: descansar, revisar e fazer a prova.
+
+O feriadão abre a semana: sábado, 31 de outubro, domingo, 1º de novembro, e segunda-feira, 2, feriado nacional. Muita gente viaja, visita a família e vai ao cemitério levar flores. Para quem faz o Enem, o feriadão é também um fim de semana de revisão: um pouco por dia, sem maratona.
+
+No domingo, 8 de novembro, é o primeiro dia do Enem 2026. Os portões abrem às 12h e fecham às 13h, no horário de Brasília. A prova começa às 13h30 e vai até as 19h: são cinco horas e meia de redação, Linguagens e Ciências Humanas. Mais de 5 milhões de estudantes estão inscritos.
+
+E o futebol não para: a rodada 34 do Brasileirão tem jogo de segunda a sexta, e as semifinais da Copa do Brasil se decidem no fim de semana — sábado, Atlético-MG × Grêmio, e domingo, Vasco × Palmeiras (página 4). O sábado, 31, foi de Halloween, e o domingo, 1º, teve os jogos de ida da Copa do Brasil.
+
+Esta é a segunda edição da A Lucerna em português: toda semana, o Brasil de verdade, com clareza e honestidade. Boa prova — e boa leitura!
+
+*講解｜feriadão 連休長週末 · o portão 大門 · a redação 作文 · revisar 複習。*
+
+### A semana em números
+
+- 12h — os portões abrem no domingo 8（週日 12 點開門）
+- 13h — os portões fecham（13 點關門，過時不入）
+- 13h30–19h — a prova do dia 8（考試 13:30 至 19:00）
+- 5h30 — a duração da prova do dia 8（考試時長 5 個半小時）
+
+### Os horários do domingo 15
+
+Enem, dia 8 · horário de Brasília: 12h os portões abrem · 13h os portões fecham · 13h30 a prova começa · 19h a prova termina. Chegue cedo: depois das 13h, ninguém mais entra. 遲到不得入內：13點後關門。
+
+### Nesta edição
+
+Pág. 2 O feriadão e a revisão (A2) · Pág. 3 Finados, o dia da memória (A2→B1) · Pág. 4 O futebol decide (B1) · Pág. 5 A reta final dos jovens (B1) · Pág. 6 O Enem explicado (B2) · Pág. 7 Frases da semana (A2→B2) · Pág. 8 Exercícios e respostas (todos)
+
+### A palavra da semana
+
+«feriadão» um feriado grudado no fim de semana — três dias. 「連休」：假期連著週末，一共三天。
+
+### A semana em dois domingos
+
+Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.
+
+No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.
+
+*Estudantes em uma biblioteca: para os mais de 5 milhões de inscritos no Enem, o feriadão é um fim de semana de revisão — um pouco por dia, sem maratona. (Página 5) Foto: Gary Todd / Wikimedia Commons — CC0*
+
+### Em poucas palavras
+
+- O FERIADÃO — Segunda, 2: Finados, feriado nacional — feriadão de 31 a 2. (Página 2)
+- O ENEM — Domingo, 8: primeiro dia — redação, Linguagens e Humanas. (Página 6)
+- O FUTEBOL — Sábado e domingo: os jogos de volta da Copa do Brasil decidem os finalistas. (Página 4)
+
+### Exercícios da página 1
+
+1. A semana começa com o ___ de Finados. (feriadão)
+2. No domingo 8, os ___ abrem às 12h. (portões)
+3. A prova do dia 8 tem ___, Linguagens e Ciências Humanas. (redação)
+4. A prova começa às ___. (13h30)
+5. A prova vai até as ___. (19h)
+6. Os estudantes ___ (revisar) um pouco por dia. (revisam)
+
+### Quiz relâmpago
+
+7. O feriadão vai... A. de 2 a 4 de novembro · B. de 31 de outubro a 2 de novembro · C. de 8 a 15 de novembro (B)
+8. Os portões do Enem fecham às... A. 12h · B. 13h · C. 13h30 (B)
+9. No dia 8, a prova tem... A. só Matemática · B. só redação · C. redação, Linguagens e Ciências Humanas (C)
+10. Os jogos de volta da Copa do Brasil são... A. no dia 1º · B. nos dias 7 e 8 · C. no dia 15 (B)
+
+## Página 2 — Vida
+
+### Finados e revisão: o feriadão do Brasil
+
+*Da redação da A Lucerna · Nível de leitura: A2*
+
+Segunda-feira, 2 de novembro, é Finados, feriado nacional. Com o sábado, 31, e o domingo, 1º, o país ganha um feriadão de três dias: muita gente viaja para ver a família, e muita gente fica em casa para descansar.
+
+Finados é o dia da memória: famílias visitam os cemitérios, levam flores — sobretudo crisântemos —, acendem velas e participam de missas. É um dia calmo, de lembrança e de encontro: os vivos cuidam do lugar dos mortos, e as histórias voltam à mesa.
+
+Para os candidatos do Enem, o feriadão tem outro nome: revisão. O plano da semana é simples — revisar um pouco por dia, dormir bem e conferir o Cartão de Confirmação, o documento que mostra o local da prova. Quem confere antes não se perde no dia.
+
+E atenção ao relógio do domingo 8: os portões abrem às 12h e fecham às 13h. Chegue cedo, leve documento com foto e caneta preta, e desligue o celular. A prova é longa — cinco horas e meia — e começa às 13h30.
+
+No Brasil, não há horário de verão desde 2019: ninguém muda o relógio nesta semana. O horário do Enem é o de Brasília — confira o fuso da sua cidade.
+
+### E se eu chegar tarde?
+
+Se você chegar depois das 13h, os portões já fecharam — e não há segunda chamada. Por isso o plano é sair cedo: o domingo 8 não aceita atraso. Melhor chegar cedo e esperar do que correr no último minuto.
+
+### Para não errar
+
+«Confira o cartão, durma bem, chegue cedo.» Três passos e o domingo fica tranquilo: o resto é com a prova.
+
+*譯注｜o feriadão 連休長週末 · o cemitério 墓園 · a vela 蠟燭 · o crisântemo 菊花 · a missa 彌撒 · conferir 核對。*
+
+### Você sabia?
+
+O feriadão vai de sábado, 31 de outubro, a segunda, 2 de novembro. Finados: visitas aos cemitérios, flores, velas e missas. Domingo 8: portões 12h–13h, prova 13h30–19h, horário de Brasília.
+
+### E você?
+
+E você? No seu país, há um dia de lembrar os mortos? O que as famílias fazem nesse dia? Escreva duas frases em português e mande para a redação: as melhores saem na página 7, «Cartas dos leitores». 在你的國家，有紀念逝者的日子嗎？那天家人們做什麼？寫兩句寄來。
+
+### Os horários do domingo 8
+
+Um país, vários relógios: 12h os portões abrem · 13h os portões fecham · 13h30 a prova começa · 19h a prova termina. Atenção: o horário é o de Brasília. Quem faz a prova em outro fuso deve conferir a hora local: o portão fecha às 13h de Brasília, e não há atraso.
+
+### Exercícios da página 2
+
+11. O feriadão vai... A. de 2 a 5 de novembro · B. de 31 de outubro a 2 de novembro · C. de 8 a 15 de novembro (B)
+12. Em Finados, as famílias... A. compram presentes de Natal · B. visitam os cemitérios e levam flores · C. votam para presidente (B)
+13. O Cartão de Confirmação mostra... A. a nota do aluno · B. o local da prova · C. o resultado final (B)
+14. Os portões fecham às... A. 12h · B. 13h · C. 19h (B)
+15. Nesta semana, o relógio no Brasil... A. não muda · B. volta uma hora · C. avança uma hora (A)
+16. O candidato ___ (conferir) o cartão. (confere)
+17. O portão ___ (abrir) às 12h. (abre)
+18. Nós ___ (levar) documento com foto. (levamos)
+19. A prova ___ (começar) às 13h30. (começa)
+20. A missa de Finados ___ (ser) um momento calmo. (é)
+21. Os portões ficam abertos ___ hora. (1)
+22. A prova dura ___ horas e meia. (5)
+23. De 13h30 a 19h são ___ minutos. (330)
+24. O feriadão tem ___ dias. (3)
+25–28. Associe: 25. o feriadão — c. um feriado grudado no fim de semana · 26. o cemitério — b. o lugar onde ficam os túmulos · 27. a vela — d. o objeto que dá luz e se acende em memória · 28. o crisântemo — a. a flor que as famílias levam a Finados.
+
+## Página 3 — Cultura
+
+### Finados: o dia em que o Brasil lembra
+
+*Da redação da A Lucerna · Nível de leitura: A2 → B1*
+
+No dia 2 de novembro, o Brasil para para lembrar. Finados — o Dia dos Fiéis Defuntos — é o dia em que as famílias visitam os cemitérios do país inteiro, do pequeno cemitério do interior ao grande cemitério da capital.
+
+O ritual é simples e antigo: limpar o túmulo, levar flores — sobretudo crisântemos, a flor de Finados —, acender uma vela e rezar. Nas igrejas e nos cemitérios, há missas o dia inteiro. Não é festa: é um dia calmo, de silêncio, de encontro e de memória.
+
+Cada família tem o seu jeito: uns levam a flor preferida de quem partiu, outros levam a comida de que ele gostava, outros só ficam um pouco em silêncio. O que não muda é o centro do dia: lembrar é um jeito de continuar perto.
+
+E Finados tem um vizinho famoso: no sábado, 31 de outubro, foi Halloween, com fantasias e doces. Dois dias, dois jeitos de olhar para a morte: um de festa, outro de silêncio — e os dois cabem na mesma semana.
+
+*譯注｜o túmulo 墓碑 · a flor 花 · acender 點燃 · rezar 祈禱 · o silêncio 寂靜 · a lembrança 懷念。*
+
+### Dois dias, dois jeitos
+
+Halloween é barulho, fantasia e doce. Finados é silêncio, flor e vela. O Brasil vive os dois em três dias — e o português aprende os dois vocabulários: «doce ou travessura?» de um lado, «descanse em paz» do outro.
+
+Na página 2, o feriadão inteiro. Na página 5, a reta final dos jovens. Mas antes, uma pergunta para você, leitor: na sua cultura, como se lembram os mortos?
+
+### A semana, dia a dia
+
+Seg 2 — Finados, feriado nacional. · Ter 3 — as assembleias estaduais voltam do recesso. · Sáb 7 — Atlético-MG × Grêmio, a volta da semifinal. · Dom 8 — Enem, dia 1; Vasco × Palmeiras, a volta.
+
+### E você?
+
+E você? Na sua cultura, como se lembram os mortos? Escreva duas frases em português e mande para a redação. 在你的文化裡，人們怎樣懷念逝者？寫兩句寄來。 PALAVRAS DE FINADOS o túmulo · a vela · o crisântemo · a missa · a lembrança · «descanse em paz» — seis palavras para um dia de silêncio.
+
+### Exercícios da página 3
+
+29. Finados é... A. um dia de festa e fantasia · B. o dia da memória e do silêncio · C. um dia de votação (B)
+30. As famílias levam aos cemitérios... A. presentes de Natal · B. flores, sobretudo crisântemos · C. fogos de artifício (B)
+31. Nas igrejas e nos cemitérios, há... A. shows de rock · B. missas o dia inteiro · C. feiras de livros (B)
+32. Halloween foi... A. no domingo 8 · B. na segunda 2 · C. no sábado, 31 de outubro (C)
+33. O texto diz que lembrar é... A. um jeito de continuar perto · B. uma festa · C. uma votação (A)
+34. As famílias limpam o ___. (túmulo)
+35. Acendem uma ___ em memória. (vela)
+36. O ___ é a flor de Finados. (crisântemo)
+37. Na igreja, há ___ o dia inteiro. (missa)
+38. Finados é um dia de ___. (silêncio)
+39. A ___ volta à mesa. (lembrança)
+40. As famílias ___ (visitar) os cemitérios. (visitaram)
+41. Elas ___ (levar) flores. (levaram)
+42. O sábado ___ (ser) de Halloween. (foi)
+43. O Brasil ___ (viver) dois dias diferentes. (viveu)
+44. finados / é / um dia de silêncio → Finados é um dia de silêncio.
+45. as famílias / levam / flores / ao cemitério → As famílias levam flores ao cemitério.
+46. o Brasil / lembra / os seus mortos → O Brasil lembra os seus mortos.
+
+## Página 4 — Esporte
+
+### Semana de decisão: quem vai à final da Copa do Brasil?
+
+*Da redação da A Lucerna · Nível de leitura: B1*
+
+A pergunta da semana é simples: quem vai à final da Copa do Brasil? Quatro times, dois jogos de volta, um fim de semana. No sábado, 7, às 18h, o Atlético-MG recebe o Grêmio na Arena MRV. No domingo, 8, às 17h, o Vasco recebe o Palmeiras em São Januário.
+
+Os jogos de ida foram no domingo, 1º de novembro: Palmeiras × Vasco, às 16h, e Grêmio × Atlético-MG, às 18h30. Os quatro times chegam à volta com tudo em aberto: quem vencer no total dos dois jogos vai à final.
+
+E o Brasileirão não para: a rodada 34 tem jogo de segunda a sexta, de 2 a 6 de novembro. É a reta final do campeonato: cada ponto vale uma posição, cada gol vale uma história. No fim de semana, o país para para a Copa — e volta para o Brasileirão na semana que vem.
+
+Ontem, domingo 1º, já foi de Copa: os jogos de ida abriram as semifinais. Nesta semana, a volta fecha a conta. Sábado e domingo, o Brasil tem dois horários marcados: 18h e 17h.
+
+*譯注｜a ida 首回合 · a volta 次回合 · o finalista 決賽球隊 · a decisão 決戰 · a rodada 輪次。*
+
+### Os jogos da semana
+
+Sáb 7, 18h — Atlético-MG × Grêmio, Arena MRV (volta). Dom 8, 17h — Vasco × Palmeiras, São Januário (volta). Ida, dom 1º — Palmeiras × Vasco, 16h; Grêmio × Atlético-MG, 18h30.
+
+### E você?
+
+E você? Para quem você torce na Copa do Brasil? Escreva duas frases em português e mande para a redação. 你在巴西盃支持哪支球隊？寫兩句寄來。
+
+### A semana do futebol
+
+- Seg 2 – Sex 6 · Brasileirão · Rodada 34: um jogo por dia, de segunda a sexta
+- Dom 1º.11 · Copa do Brasil · Palmeiras × Vasco, às 16h — jogo de ida (já jogado)
+- Dom 1º.11 · Copa do Brasil · Grêmio × Atlético-MG, às 18h30 — jogo de ida (já jogado)
+- Sáb 7.11 · Copa do Brasil · Atlético-MG × Grêmio, às 18h, Arena MRV — jogo de volta
+- Dom 8.11 · Copa do Brasil · Vasco × Palmeiras, às 17h, São Januário — jogo de volta
+- Ter 3.11 · Fora do campo · As assembleias estaduais voltam do recesso eleitoral
+
+Atenção: os jogos de ida foram no domingo 1º; os de volta decidem os finalistas neste fim de semana. Os resultados da volta saem na próxima edição.
+
+### Exercícios da página 4
+
+47. A volta de Atlético-MG × Grêmio é... A. no sábado 7, às 18h · B. no domingo 8 · C. no dia 1º (A)
+48. Vasco × Palmeiras, a volta, é... A. no sábado, na Arena MRV · B. no domingo 8, às 17h, em São Januário · C. na segunda 2 (B)
+49. Os jogos de ida foram... A. no domingo 1º · B. no sábado 7 · C. no domingo 8 (A)
+50. A rodada 34 do Brasileirão... A. é só no domingo · B. tem jogo de segunda a sexta · C. já terminou (B)
+51. Quem vai à final? A. quem vencer no total dos dois jogos · B. quem vencer a ida · C. quem tiver mais torcida (A)
+52–55. Associe: 52. o finalista — b. o time que chega à final · 53. a ida — c. o primeiro jogo de um confronto · 54. a volta — a. o segundo jogo de um confronto · 55. a rodada — d. a jornada de jogos de um campeonato.
+56. A volta é ___ decisiva do que a ida. (mais / menos) (mais)
+57. 18h é ___ tarde do que 16h. (mais / menos) (mais)
+58. 17h é ___ cedo do que 18h. (mais / menos) (mais)
+59. O Brasileirão tem ___ jogos na semana do que a Copa: a rodada vai de segunda a sexta. (mais / menos) (mais)
+60. Os jogos de ida ___ (ser) no domingo 1º. (foram)
+61. O Palmeiras ___ (receber) o Vasco na ida. (recebeu)
+62. O Grêmio ___ (receber) o Atlético-MG na ida. (recebeu)
+63. A rodada 34 ___ (começar) na segunda. (começou)
+64. Os times ___ (chegar) à volta com tudo em aberto. (chegaram)
+
+## Página 5 — Jovens
+
+### A reta final: revisar, descansar, fazer a prova
+
+*Da redação da A Lucerna · Nível de leitura: B1*
+
+A semana dos jovens brasileiros tem um centro: o domingo 8. Para os mais de 5 milhões de inscritos no Enem, é a reta final — a última semana de revisão antes da redação, de Linguagens e de Ciências Humanas.
+
+O plano da reta final cabe em cinco linhas: conferir o Cartão de Confirmação, revisar um pouco por dia, dormir bem na véspera, separar documento e caneta preta no dia anterior — e, no domingo, chegar cedo. Nada de maratona na véspera: quem dorme bem lembra melhor.
+
+E a semana tem mais: na terça, 3, as assembleias estaduais voltam do recesso; no sábado e no domingo, a Copa do Brasil decide os finalistas. O Brasil estuda de dia e torce à noite.
+
+No sábado, 31 de outubro, foi Halloween: a última festa antes da prova para muita gente. Agora é silêncio e revisão: o feriadão é para descansar o corpo e organizar a cabeça.
+
+### O plano da reta final
+
+1. Confira o Cartão de Confirmação do Enem（核對高考確認卡） 2. Revise um pouco por dia, sem maratona（每天複習一點，不搞突擊） 3. Durma bem na véspera da prova（考前一晚睡好） 4. Separe documento e caneta preta no dia anterior（提前一天備好證件和黑筆） 5. Domingo 8: chegue antes das 12h（週日 8 日：12 點前到達）
+
+*譯注｜a reta final 最後衝刺 · a véspera 前夕 · a maratona 突擊馬拉松 · separar 準備好 · a cabeça 頭腦、狀態。*
+
+### Os jovens em números
+
+Mais de 5 milhões de inscritos no Enem 2026 (Inep). Prova do dia 8: 13h30–19h, cinco horas e meia. Dia 15: o segundo dia — Natureza e Matemática (prévia).
+
+### E você?
+
+E você? Qual é o seu plano para a véspera de uma prova importante: revisar ou descansar? Escreva duas frases em português. 重要考試前一晚，你的計畫是複習還是休息？寫兩句寄來。 E A COPA? No fim de semana, o Brasil troca o livro pela bola: sábado, Atlético-MG × Grêmio; domingo, Vasco × Palmeiras. Estudar de dia, torcer à noite — a semana cabe nos dois.
+
+### Exercícios da página 5
+
+65. A reta final termina... A. na segunda 2 · B. no domingo 8 · C. no dia 15 (B)
+66. O plano da reta final inclui... A. maratona na véspera · B. revisar um pouco por dia · C. chegar às 13h30 (B)
+67. No dia anterior, o candidato separa... A. documento e caneta preta · B. só o celular · C. a roupa da festa (A)
+68. O segundo dia do Enem (dia 15) tem... A. redação · B. Natureza e Matemática · C. só Linguagens (B)
+69. Na terça, 3, ... A. é o Enem · B. as assembleias voltam do recesso · C. é a final da Copa (B)
+70. A semana é a ___ dos estudos. (reta final)
+71. Mais de 5 milhões de estudantes estão ___ no Enem. (inscritos)
+72. Na ___ da prova, durma bem. (véspera)
+73. Nada de ___ na véspera. (maratona)
+74. Confira o ___ da sua prova no cartão. (local)
+75. ___ o documento no dia anterior. (Separe)
+76. Os estudantes ___ (fazer) a prova no domingo. (farão)
+77. O cartão ___ (mostrar) o local da prova. (mostrará)
+78. Os finalistas ___ (sair) dos jogos de volta. (sairão)
+79. Quem ___ (chegar) cedo não perde a prova. (chegará)
+80. O Cartão de Confirmação mostra o local da prova. Verdadeiro ou falso? (Verdadeiro)
+81. A maratona na véspera é o melhor plano. Verdadeiro ou falso? (Falso)
+82. No domingo 8, a prova vai de 13h30 a 19h. Verdadeiro ou falso? (Verdadeiro)
+
+## Página 6 — Aprofundamento
+
+### O Enem explicado: dois domingos, uma prova
+
+*Da redação da A Lucerna · Nível de leitura: B2*
+
+O Enem 2026 tem dois domingos: 8 e 15 de novembro. No dia 8, o primeiro: redação, Linguagens e Ciências Humanas, das 13h30 às 19h — cinco horas e meia. No dia 15, o segundo: Ciências da Natureza e Matemática. Esta edição cobre o dia 8; o dia 15 é a prévia da próxima semana.
+
+O ritual do domingo 8 começa ao meio-dia: os portões abrem às 12h e fecham às 13h, no horário de Brasília. Quem chega depois das 13h não entra — não há segunda chamada. Leve documento com foto, caneta preta e o Cartão de Confirmação: ele mostra o seu local de prova.
+
+Mais de 5 milhões de estudantes estão inscritos. É muita gente para o mesmo horário: por isso o Inep pede que cada um confira o local antes do domingo. Quem confere antes não se perde no dia.
+
+E os números do domingo? Cinco horas e meia são 330 minutos: 60 minutos para cada hora, mais 30. É tempo para ler com calma, escrever a redação e revisar — sem correria. A regra de ouro do Enem: primeiro as fáceis, depois as difíceis, e a redação com tempo guardado.
+
+*譯注｜os portões 大門 · a segunda chamada 補考、第二次入場 · conferir 核對 · a correria 匆忙。*
+
+### O caminho até a prova
+
+2 NOV. Finados: feriadão de revisão, um pouco por dia. · 3 NOV. As assembleias estaduais voltam do recesso. · 8 NOV. Enem, dia 1: portões 12h–13h, prova 13h30–19h. · 15 NOV. Enem, dia 2 (prévia): Natureza e Matemática.
+
+### Ler os números
+
+Diante de um número, faça três perguntas: quem publica? Quando? É busca, prova ou pesquisa? Sem essas respostas, um número diz pouco.
+
+### O domingo 8 em números (horários oficiais do Inep)
+
+O relógio do domingo, do meio-dia às 19h: portões abertos 60 min · espera 30 min · prova 330 min. Minutos do domingo 8: 60 + 30 + 330 = 420 minutos do meio-dia às 19h. Fonte: horários oficiais do Inep para o dia 8.
+
+Dois domingos, uma prova: Dia 8 — redação, Linguagens, Humanas. Dia 8 — 13h30 às 19h, cinco horas e meia. Dia 15 — Natureza e Matemática (prévia). Dia 15 — a cobertura sai na próxima edição. Fonte: Inep — as provas são nos dias 8 e 15.
+
+### Exercícios da página 6
+
+83. No relógio do domingo, os portões ficam abertos... A. 30 minutos · B. 60 minutos · C. 330 minutos (B)
+84. A espera entre o fechamento e a prova é de... A. 30 minutos · B. 60 minutos · C. 330 minutos (A)
+85. A prova dura... A. 60 minutos · B. 330 minutos · C. 420 minutos (B)
+86. 60 + 30 + 330 = ... A. 390 · B. 420 · C. 360 (B)
+87. Do meio-dia às 19h são... A. 5h30 · B. 6h · C. 7h (C)
+88. Os números do gráfico são... A. horários oficiais do Inep · B. uma pesquisa eleitoral · C. buscas no Google (A)
+89. O Enem tem... A. um só domingo · B. dois domingos: 8 e 15 · C. três domingos (B)
+90. No dia 8, a prova tem... A. Natureza e Matemática · B. redação, Linguagens e Humanas · C. só redação (B)
+91. Quem chega depois das 13h... A. entra atrasado · B. não entra · C. faz a prova no dia 15 (B)
+92. O Cartão de Confirmação mostra... A. a nota · B. o local da prova · C. o gabarito (B)
+93. No domingo, ___ (começar) a prova às 13h30. (começará)
+94. Quem ___ (chegar) depois das 13h não entra. (chegar)
+95. Os portões ___ (fechar) às 13h. (fecham)
+96. O Inep ___ (pedir) que cada um confira o local. (pede)
+97. Os ___ abrem às 12h. (portões)
+98. Não há ___ no Enem. (segunda chamada)
+99. Confira o ___ da sua prova. (local)
+100. ___ o cartão antes do domingo. (Confira)
+
+## Página 7 — Língua
+
+### A2 · Perguntas e o presente
+
+Para perguntar o essencial da semana: «Que horas começa a prova?» — que horas + verbo no presente. E, para lugares, «Onde fica o meu local?» — onde fica.
+
+E conferir é especial na primeira pessoa: eu confiro, você confere, ele confere. Nós conferimos, eles conferem.
+
+提問句：que horas（幾點）+ 動詞；onde fica 問地點；conferir 的 eu 形式不規則：confiro
+
+### B1 · O pretérito perfeito
+
+Para contar a semana, usamos o pretérito perfeito: eu revisei, ele chegou, ele dormiu. Revisar é regular: eu revisei, ele revisou.
+
+E o modelo é simples: chegar → chegou; dormir → dormiu; separar → separei. Atenção ao acento: saíram, caíram.
+
+講一週的事用過去時（pretérito perfeito）；revisar 規則（revisei）；chegar/dormir 的過去時注意重音。
+
+### B2 · O futuro do subjuntivo
+
+Depois de «quando», «se» e «quem», o futuro pede o subjuntivo: «Quando você chegar, apresente o documento.» «Quem tiver o cartão, confere o local.»
+
+É o tempo da página 6: regras e condições. Ter → tiver; ser → for; chegar → chegar (regular). Não confunda com o presente: é a gramática das hipóteses sobre o domingo.
+
+quando、se、quem 後用虛擬式將來：tiver、for、chegar（週日假設）。
+
+### Erros comuns
+
+- «Vou fazer o Enem de caneta azul.» → «De caneta preta.» A caneta do Enem é preta. 高考用黑筆，藍筆不行。
+- «Chego às 13h30, na hora da prova.» → «Chego antes das 13h.» Os portões fecham às 13h. 13 點關門，13:30 到就晚了。
+- «Vou revisar a noite inteira na véspera.» → «Vou dormir bem na véspera.» Quem dorme lembra melhor. 考前一夜突擊沒用，睡好才記得住。
+- «O feriadão é de 2 a 5 de novembro.» → «O feriadão é de 31 a 2.» Três dias: sábado, domingo e segunda. 連休是 10 月 31 日到 11 月 2 日，共三天。
+
+### A palavra
+
+«feriadão»: sábado, domingo e segunda — três dias de descanso. feriadão = 連休長週末，共三天。
+
+### Cartas dos leitores
+
+«Vou fazer o Enem no domingo 8. Já conferi o cartão. Boa prova!» — EXEMPLO DA REDAÇÃO
+
+編輯部示例，非真實來信。真實來信請寄編輯部，下期見！
+
+Nota da redação: as cartas reais e os melhores textos prometidos no VOL.1 não chegaram até o fechamento — fica o exemplo, e a promessa passa para o VOL.3.
+
+編輯部說明：上期承諾的真實來信與最佳作文截稿時未收到，本期仍刊示例，順延至 VOL.3。
+
+請把你的來信寄給編輯部，VOL.3 就刊登你的來信！
+
+### Frases da semana (trechos literais dos artigos desta edição)
+
+1. «Do feriadão à prova: a semana do Enem» — 從連休到考試：高考週。(Página 1)
+2. «Muita gente viaja, visita a família e vai ao cemitério levar flores» — 許多人旅行、探親、去墓園獻花。(Página 1)
+3. «Finados é o dia da memória» — 亡靈節是懷念的日子。(Página 2)
+4. «lembrar é um jeito de continuar perto» — 懷念是繼續親近的方式。(Página 3)
+5. «cada ponto vale uma posição, cada gol vale uma história» — 每一分值一個名次，每一球值一個故事。(Página 4)
+6. «quem dorme bem lembra melhor» — 睡得好，記得牢。(Página 5)
+7. «primeiro as fáceis, depois as difíceis» — 先做容易的，再做難的。(Página 6)
+8. «Confira o cartão, durma bem, chegue cedo» — 核對確認卡、睡好、早到。(Página 2)
+
+### A próxima semana (VOL.3)
+
+Domingo 15 de novembro: o segundo dia do Enem — Natureza e Matemática. E o feriado da Proclamação da República. Mais: as suas cartas e os melhores textos da página 8. Até segunda!
+
+### Exercícios da página 7
+
+101. Eu ___ (conferir) o cartão. (confiro)
+102. Você ___ (conferir) o local antes de sair. (confere)
+103. Que horas ___ (começar) a prova? (começa)
+104. «___ fica o meu local?» A. Que horas · B. Onde · C. Quando (B)
+105. Eu ___ (revisar) um pouco por dia. (revisei)
+106. O candidato ___ (chegar) cedo. (chegou)
+107. Ele ___ (dormir) bem na véspera. (dormiu)
+108. «Os times ___ à volta com tudo em aberto.» A. chega · B. chegaram · C. chegamos (B)
+109. Quem ___ (ter) o cartão confere o local antes do domingo. (tiver)
+110. Quando você ___ (chegar) ao local, apresente o documento. (chegar)
+111. Se o seu local ___ (ser) novo, saia mais cedo de casa. (for)
+112. «Quando ___ domingo, o país faz a prova.» A. é · B. for · C. seja (B)
+
+## Página 8 — Avaliação e respostas
+
+### A · Complete a crônica
+
+113. No domingo 8, o Brasil faz ___ do Enem. (A. o primeiro dia · B. o segundo dia) (A)
+114. Os portões fecham às ___. (A. 12h · B. 13h) (B)
+115. A prova começa às ___. (A. 13h30 · B. 19h) (A)
+116. Finados é no dia ___ de novembro. (A. 2 · B. 15) (A)
+117. A volta de Vasco × Palmeiras é no domingo ___. (A. 1º · B. 8) (B)
+118. O feriadão tem ___ dias. (A. dois · B. três) (B)
+119. No dia 8, a prova dura ___. (A. cinco horas e meia · B. sete horas) (A)
+120. O segundo dia do Enem é no dia ___. (A. 8 · B. 15) (B)
+
+### B · Perguntas gerais
+
+121. O feriadão vai... A. de 8 a 15 · B. de 31 de outubro a 2 de novembro · C. de 2 a 5 (B)
+122. O Cartão de Confirmação é um documento... A. da Copa do Brasil · B. do Enem · C. do Halloween (B)
+123. Atlético-MG × Grêmio, a volta, é... A. em São Januário · B. na Arena MRV · C. no Maracanã (B)
+124. A rodada 34 do Brasileirão... A. é só no fim de semana · B. vai de segunda a sexta · C. já terminou (B)
+125. Em Finados, as famílias levam... A. fogos · B. flores · C. presentes (B)
+126. Halloween foi... A. no domingo 8 · B. no sábado, 31 de outubro · C. na segunda 2 (B)
+127. O número 330 mede... A. os minutos da prova · B. os dias do feriadão · C. os inscritos (A)
+128. Finados, em português, também se chama... A. Dia dos Fiéis Defuntos · B. Dia da Independência · C. Dia do Trabalho (A)
+
+### C · Leia e responda
+
+Lucas mora em Belo Horizonte. No domingo 8, ele faz o Enem pela primeira vez. Na segunda, 2, ele descansa no feriadão e revisa um pouco por dia. Na véspera, ele separa o documento e a caneta preta e dorme cedo. No domingo, ele chega ao local às 11h, duas horas antes de os portões fecharem, e faz a prova com calma.
+
+129. Onde mora Lucas? A. no Rio · B. em Belo Horizonte · C. em São Paulo (B)
+130. O que Lucas faz no feriadão? A. só festa · B. descansa e revisa um pouco por dia · C. viaja para a praia (B)
+131. Na véspera, Lucas... A. faz maratona a noite inteira · B. separa o documento e dorme cedo · C. compra a caneta azul (B)
+132. Lucas chega ao local... A. às 13h30 · B. às 11h · C. às 19h (B)
+
+### D · Construa as frases
+
+133. domingo / é / dia de prova → Domingo é dia de prova.
+134. o candidato / confere / o cartão / no aplicativo → O candidato confere o cartão no aplicativo.
+135. que horas / começa / a prova / ? → Que horas começa a prova?
+136. o Brasil / lembra / os seus mortos → O Brasil lembra os seus mortos.
+
+### E · Traduza
+
+137. Domingo, 8 de novembro, é o primeiro dia do Enem. → 11 月 8 日週日是高考的第一天。
+138. Confira o cartão antes do domingo. → 週日前核對確認卡。
+139. 「連休是 10 月 31 日到 11 月 2 日。」 → O feriadão é de 31 de outubro a 2 de novembro.
+140. 你到達時，請出示帶照片的證件。 → Quando você chegar, apresente o documento com foto.
+
+### F · As palavras da semana
+
+141–144. Associe: 141. o feriadão — b. um feriado grudado no fim de semana · 142. o portão — d. a porta de entrada do local de prova · 143. a reta final — a. a última semana antes da prova · 144. a segunda chamada — c. uma nova entrada depois do fechamento — que não existe no Enem.
+
+### G · Diálogo no portão
+
+145. — Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento) (B)
+146. — A sua ___ é a 042. (A. seção · B. zona) (A)
+147. — Os portões fecham às ___. (A. 12h · B. 13h) (B)
+148. — A prova começa às ___. (A. 13h30 · B. 19h) (A)
+149. — Boa prova! — Muito ___! (A. tarde · B. obrigado) (B)
+
+### H · Escreva você
+
+150. «O seu domingo 8 de novembro» Escreva 80–100 palavras: onde você faz a prova (ou descansa), o que confere antes de sair, e o seu plano para o dia.
+
+Texto modelo (93 palavras): Domingo, 8 de novembro, acordo cedo e abro o Cartão de Confirmação no celular. Confiro o meu local: a escola fica a vinte minutos de casa. Tomo café com a minha família, pego o documento com foto e a caneta preta e saio às onze. Chego antes do meio-dia, entro com calma e guardo o celular desligado. A prova começa às 13h30: primeiro a redação, depois Linguagens e Humanas. Escrevo com calma e reviso no fim. Às 19h, saio cansado e feliz: o primeiro dia acabou, e o segundo vem no domingo 15.
