@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-pt-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · AVALIAÇÃO E RESPOSTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("AVALIAÇÃO E RESPOSTAS · TEST AND ANSWERS", "A Lucerna", "PAGE 8 · The big test of the week + all the answers")
+p.band("AVALIAÇÃO E RESPOSTAS　TEST AND ANSWERS", "A Lucerna", "PAGE 8　The big test of the week + all the answers")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETE A CRÔNICA", 22, OLIVE, 5)
+f.head("A　COMPLETE A CRÔNICA", 22, OLIVE, 5)
 f.ex("B1", "Cloze", "B", "voltar às urnas = to go to the polls",
      "No domingo, o Brasil volta ___ para o segundo turno. (A. às escolas · B. às urnas)", size=14.5, gap=0)
 f.ex("B1", "Cloze", "A", "4.352 polling stations changed address",
@@ -29,7 +29,7 @@ f.ex("B1", "Cloze", "A", "Most valid votes wins: votos válidos",
      "No segundo turno, vence quem tiver mais ___ válidos. (A. votos · B. debates)", size=14.5, gap=0)
 f.ex("B1", "Cloze", "B", "No daylight saving in Brazil; clocks stay put",
      "No Brasil, o relógio de domingo ___. (A. volta uma hora · B. não muda)", size=14.5, gap=0)
-f.head("B · PERGUNTAS GERAIS", 22, OLIVE, 5)
+f.head("B　PERGUNTAS GERAIS", 22, OLIVE, 5)
 f.ex("A2", "Multiple choice", "B", "Voting 8h–17h, Brasília time",
      "A votação de domingo é... A. das 6h às 15h · B. das 8h às 17h, hora de Brasília · C. das 8h às 20h", size=14.5, gap=0)
 f.ex("A2", "Multiple choice", "B", "The 982 are in São Paulo state",
@@ -46,7 +46,7 @@ f.ex("B2", "Multiple choice", "B", "+900% is search-interest data",
      "O número +900% mede... A. intenção de voto · B. interesse de busca · C. votos válidos", size=14.5, gap=0)
 f.ex("B1", "Multiple choice", "B", "Finados is on November 2",
      "Finados, feriado nacional, é no dia... A. 31 de outubro · B. 2 de novembro · C. 15 de novembro", size=14.5, gap=0)
-f.head("C · LEIA E RESPONDA", 22, OLIVE, 5)
+f.head("C　LEIA E RESPONDA", 22, OLIVE, 5)
 f.para("Marina mora em São Paulo. No primeiro turno, ela votou numa escola perto de casa. Nesta semana, abriu o e-Título e viu uma surpresa: a seção dela é uma das 982 que mudaram de endereço em São Paulo. Domingo, ela acorda cedo, leva o documento com foto e vota na escola nova.", 15.5, lh=1.3, split=False)
 f.ex("A2", "Multiple choice", "B", "Marina lives in São Paulo",
      "Onde mora Marina? A. no Rio de Janeiro · B. em São Paulo · C. na Bahia", size=14.5, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Multiple choice", "B", "She saw the change in the e-Título",
      "Marina viu a mudança... A. na televisão · B. no aplicativo e-Título · C. no jornal de papel", size=14.5, gap=0)
 f.ex("A2", "Multiple choice", "A", "The title must sum up the whole text",
      "O melhor título é... A. «A seção nova de Marina» · B. «O debate final» · C. «A volta da guitarra»", size=14.5, gap=0)
-f.head("D · CONSTRUA AS FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUA AS FRASES", 22, OLIVE, 5)
 f.ex("A2", "Sentence building", "Domingo é dia de decisão.", "The time word comes first",
      "domingo / é / dia de decisão → ___", instr="Build the sentence", size=14.5, gap=0)
 f.ex("B1", "Sentence building", "O eleitor confere o local no aplicativo.", "S + V + O + place",
@@ -65,7 +65,7 @@ f.ex("B1", "Sentence building", "Que horas começa a votação?", "Question phra
      "que horas / começa / a votação / ? → ___", instr="Build the sentence", size=14.5, gap=0)
 f.ex("B1", "Sentence building", "O Vasco perdeu por 3 a 1.", "Subject + verb + score",
      "o Vasco / perdeu / por 3 a 1 → ___", instr="Build the sentence", size=14.5, gap=0)
-f.head("E · TRADUZA", 22, OLIVE, 5)
+f.head("E　TRADUZA", 22, OLIVE, 5)
 f.ex("A2", "Translation", "On Sunday, Brazil goes back to the polls.", "See page 1",
      "Domingo, o Brasil volta às urnas. → ___", instr="Translate", size=14.5, gap=0)
 f.ex("B1", "Translation", "Check your polling place before you leave home.", "Confira = please check, make sure",
@@ -74,7 +74,7 @@ f.ex("B1", "Translation", "As buscas por guitarra cresceram 53%.", "cresceram = 
      "Searches for “guitar” grew by 53%. → ___", instr="Translate", size=14.5, gap=0)
 f.ex("B2", "Translation", "Quando você chegar, confira a seção.", "Fut. subj. + imper.",
      "When you arrive, check your polling station. → ___", instr="Translate", size=14.5, gap=0)
-f.head("F · AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
+f.head("F　AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
 f.match_set("B2", "Vocabulary matching",
             ["o segundo turno", "a seção eleitoral", "justificar", "a maioria absoluta"],
             ["explicar por que você não votou",
@@ -84,7 +84,7 @@ f.match_set("B2", "Vocabulary matching",
             ["b", "d", "a", "c"],
             ["segundo turno = the final of the top two (b)", "seção = the exact place where you vote (d)", "justificar = to explain why you did not vote (a)", "maioria absoluta = more than half of the valid votes (c)"],
             instr="Match the pairs")
-f.head("G · DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
+f.head("G　DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
 f.ex("B1", "Cloze", "B", "documento com foto = a photo document",
      "— Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento)", size=14.5, gap=0)
 f.ex("B1", "Cloze", "A", "seção is the exact polling place (room)",
@@ -95,7 +95,7 @@ f.ex("B1", "Cloze", "A", "The green key = confirma (confirm)",
      "— Para terminar, você ___ o voto na tecla verde. (A. confirma · B. apaga)", size=14.5, gap=0)
 f.ex("B1", "Cloze", "B", "obrigado = thank you",
      "— Pronto, você já votou. — Muito ___! (A. tarde · B. obrigado)", size=14.5, gap=0)
-f.head("H · ESCREVA VOCÊ", 22, OLIVE, 5)
+f.head("H　ESCREVA VOCÊ", 22, OLIVE, 5)
 MODELO = ("Domingo, 25 de outubro, acordo cedo e abro o aplicativo e-Título no celular. "
           "Confiro a minha seção: ela mudou de endereço, e a escola nova fica a dez minutos de casa. "
           "Tomo café com a minha família, pego o documento com foto e saio às nove. "
@@ -110,20 +110,20 @@ f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPOSTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPOSTAS · ANSWER KEY — grouped by page; find your number", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "One short note per answer · ✓ = the writing model", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPOSTAS　ANSWER KEY — grouped by page; find your number", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "One short note per answer　✓ = the writing model", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2606, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.21, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "Writing":
             txt = f"{e_['n']}. ✓ {e_['note']}"
-        af.para(txt, 14, lh=1.21, gap=0.5, split=False)
+        af.para(txt, 14, lh=1.15, gap=0.5, split=False)
 af.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-avaliacao.svg")

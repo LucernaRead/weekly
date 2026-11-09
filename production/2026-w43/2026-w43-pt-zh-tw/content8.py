@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-pt-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · AVALIAÇÃO E RESPOSTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("AVALIAÇÃO E RESPOSTAS · 練習與答案", "A Lucerna", "第 8 版 · A grande prova da semana + todas as respostas")
+p.band("AVALIAÇÃO E RESPOSTAS　練習與答案", "A Lucerna", "第8版　A grande prova da semana + todas as respostas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETE A CRÔNICA", 22, OLIVE, 5)
+f.head("A　COMPLETE A CRÔNICA", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "B", "voltar às urnas = 去投票",
      "No domingo, o Brasil volta ___ para o segundo turno. (A. às escolas · B. às urnas)", size=14.5, gap=0)
 f.ex("B1", "完形單選", "A", "4.352 個投票站換址",
@@ -29,7 +29,7 @@ f.ex("B1", "完形單選", "A", "得票多者勝：votos válidos",
      "No segundo turno, vence quem tiver mais ___ válidos. (A. votos · B. debates)", size=14.5, gap=0)
 f.ex("B1", "完形單選", "B", "巴西沒有夏令時，鐘錶不動",
      "No Brasil, o relógio de domingo ___. (A. volta uma hora · B. não muda)", size=14.5, gap=0)
-f.head("B · PERGUNTAS GERAIS", 22, OLIVE, 5)
+f.head("B　PERGUNTAS GERAIS", 22, OLIVE, 5)
 f.ex("A2", "單選", "B", "投票 8h–17h，巴西利亞時間",
      "A votação de domingo é... A. das 6h às 15h · B. das 8h às 17h, hora de Brasília · C. das 8h às 20h", size=14.5, gap=0)
 f.ex("A2", "單選", "B", "982 個在聖保羅州",
@@ -46,7 +46,7 @@ f.ex("B2", "單選", "B", "+900% 是搜尋熱度數據",
      "O número +900% mede... A. intenção de voto · B. interesse de busca · C. votos válidos", size=14.5, gap=0)
 f.ex("B1", "單選", "B", "Finados 在 11 月 2 日",
      "Finados, feriado nacional, é no dia... A. 31 de outubro · B. 2 de novembro · C. 15 de novembro", size=14.5, gap=0)
-f.head("C · LEIA E RESPONDA", 22, OLIVE, 5)
+f.head("C　LEIA E RESPONDA", 22, OLIVE, 5)
 f.para("Marina mora em São Paulo. No primeiro turno, ela votou numa escola perto de casa. Nesta semana, abriu o e-Título e viu uma surpresa: a seção dela é uma das 982 que mudaram de endereço em São Paulo. Domingo, ela acorda cedo, leva o documento com foto e vota na escola nova.", 15.5, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "Marina 住在聖保羅",
      "Onde mora Marina? A. no Rio de Janeiro · B. em São Paulo · C. na Bahia", size=14.5, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "單選", "B", "她在 e-Título 裡看到變化",
      "Marina viu a mudança... A. na televisão · B. no aplicativo e-Título · C. no jornal de papel", size=14.5, gap=0)
 f.ex("A2", "單選", "A", "標題要概括全文",
      "O melhor título é... A. «A seção nova de Marina» · B. «O debate final» · C. «A volta da guitarra»", size=14.5, gap=0)
-f.head("D · CONSTRUA AS FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUA AS FRASES", 22, OLIVE, 5)
 f.ex("A2", "造句", "Domingo é dia de decisão.", "時間詞在前",
      "domingo / é / dia de decisão → ___", instr="造句", size=14.5, gap=0)
 f.ex("B1", "造句", "O eleitor confere o local no aplicativo.", "主語 + 動詞 + 賓語 + 地點",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "Que horas começa a votação?", "疑問詞組在句首",
      "que horas / começa / a votação / ? → ___", instr="造句", size=14.5, gap=0)
 f.ex("B1", "造句", "O Vasco perdeu por 3 a 1.", "主語 + 動詞 + 比分",
      "o Vasco / perdeu / por 3 a 1 → ___", instr="造句", size=14.5, gap=0)
-f.head("E · TRADUZA", 22, OLIVE, 5)
+f.head("E　TRADUZA", 22, OLIVE, 5)
 f.ex("A2", "翻譯", "週日，巴西重返投票站。", "對照第 1 版標題",
      "Domingo, o Brasil volta às urnas. → ___", instr="翻譯", size=14.5, gap=0)
 f.ex("B1", "翻譯", "出門前，核對你的投票地點。", "Confira = 請核對",
@@ -74,7 +74,7 @@ f.ex("B1", "翻譯", "As buscas por guitarra cresceram 53%.", "cresceram = 增�
      "「吉他」的搜尋量增長了 53%。→ ___", instr="翻譯", size=14.5, gap=0)
 f.ex("B2", "翻譯", "Quando você chegar, confira a seção.", "虛擬式將來 chegar + 祈使 confira",
      "你到達時，請核對一下投票站。→ ___", instr="翻譯", size=14.5, gap=0)
-f.head("F · AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
+f.head("F　AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
 f.match_set("B2", "詞彙配對",
             ["o segundo turno", "a seção eleitoral", "justificar", "a maioria absoluta"],
             ["explicar por que você não votou",
@@ -84,7 +84,7 @@ f.match_set("B2", "詞彙配對",
             ["b", "d", "a", "c"],
             ["segundo turno=兩人決選 b", "seção=投票的確切地點 d", "justificar=解釋為何沒投票 a", "maioria absoluta=過半有效票 c"],
             instr="把詞和釋義配對")
-f.head("G · DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
+f.head("G　DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "B", "documento com foto 帶照片的證件",
      "— Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento)", size=14.5, gap=0)
 f.ex("B1", "完形單選", "A", "seção 是具體的投票點（房間）",
@@ -95,7 +95,7 @@ f.ex("B1", "完形單選", "A", "綠色鍵 = confirma（確認）",
      "— Para terminar, você ___ o voto na tecla verde. (A. confirma · B. apaga)", size=14.5, gap=0)
 f.ex("B1", "完形單選", "B", "obrigado = 謝謝",
      "— Pronto, você já votou. — Muito ___! (A. tarde · B. obrigado)", size=14.5, gap=0)
-f.head("H · ESCREVA VOCÊ", 22, OLIVE, 5)
+f.head("H　ESCREVA VOCÊ", 22, OLIVE, 5)
 MODELO = ("Domingo, 25 de outubro, acordo cedo e abro o aplicativo e-Título no celular. "
           "Confiro a minha seção: ela mudou de endereço, e a escola nova fica a dez minutos de casa. "
           "Tomo café com a minha família, pego o documento com foto e saio às nove. "
@@ -110,15 +110,15 @@ f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPOSTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPOSTAS · 全部答案與簡析（第 1–8 版）", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "每題附一句簡析 · 帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPOSTAS　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "每題附一句簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— 第 {pg} 版 —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+    af.para(f"— 第{pg}版 —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":

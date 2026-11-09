@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-pt-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURA (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURA · CULTUUR", "A Lucerna", "A2 → B1 · A volta da guitarra · de gitaar is terug")
+p.band("CULTURA　CULTUUR", "A Lucerna", "A2 → B1　A volta da guitarra　de gitaar is terug")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("A guitarra voltou: o som que o Brasil procura", 37)
-f.byline("Da redação da A Lucerna · Nível de leitura: A2 → B1")
+f.title("A guitarra voltou: o som que o Brasil procura", 32)
+f.byline("Da redação da A Lucerna　Nível de leitura: A2 → B1")
 f.para("Durante muitos anos, a guitarra perdeu espaço no Brasil. Um estudo publicado nesta semana, com 22 anos de dados do Google, conta a história inteira: as buscas por «guitarra» caíram 74% entre 2004 e 2021. Ano após ano, o instrumento elétrico ficava mais silencioso.")
 f.para("Mas a história mudou. Desde 2021, as buscas por guitarra crescem todos os anos: no total, já subiram 53%. Em 2026, a guitarra chegou a 75% do volume de buscas do violão — o instrumento mais brasileiro de todos. A guitarra elétrica e o violão acústico, outra vez lado a lado.")
 f.para("Por quê? Os jovens descobrem bandas antigas nos vídeos curtos, compram a primeira guitarra e aprendem com aulas na internet. E há o ritual da semana: na sexta-feira, o país inteiro assiste ao debate na TV. No Brasil, a música e a televisão moram na mesma casa: a família se reúne, comenta, canta junto.")
@@ -33,7 +33,7 @@ facts = ["−74%: a queda das buscas por «guitarra» entre 2004 e 2021.",
          "75%: o volume da guitarra comparado ao do violão em 2026."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "A GUITARRA EM NÚMEROS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -42,9 +42,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E você? Você toca algum instrumento — ou quer aprender? Escreva duas frases em português e mande para a redação."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Welk instrument bespeel je — of wil je leren bespelen? Schrijf twee zinnen en stuur ze op.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E VOCÊ? · EN JIJ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E VOCÊ?　EN JIJ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Welk instrument bespeel je — of wil je leren bespelen? Schrijf twee zinnen en stuur ze op.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -56,11 +56,11 @@ print("P3 col3 ends", acy)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCÍCIOS · OEFENINGEN", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCÍCIOS　OEFENINGEN", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　niveaus gemengd: zoek op nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 25)
 e.expl("Uitleg — Lees het artikel op pagina 3 en kies het juiste antwoord.")
 e.ex("A2", "Meerkeuze", "B", "de zoekopdrachten daalden 74% tussen 2004 en 2021",
      "Entre 2004 e 2021, as buscas por «guitarra»... A. cresceram 53% · B. caíram 74% · C. ficaram iguais", size=20, gap=8)
@@ -72,7 +72,7 @@ e.ex("B1", "Meerkeuze", "B", "jongeren ontdekken oude bands via korte video's",
      "Os jovens descobrem bandas antigas... A. no rádio do carro · B. nos vídeos curtos · C. nos jornais de papel", size=20, gap=8)
 e.ex("B1", "Meerkeuze", "A", "de violão is het «meest Braziliaanse» instrument",
      "O instrumento «mais brasileiro de todos» é... A. o violão · B. a guitarra · C. o piano", size=20, gap=8)
-e.head("B · AS PALAVRAS DO TEXTO", 25)
+e.head("B　AS PALAVRAS DO TEXTO", 25)
 e.expl("Uitleg — Vul de woorden uit het kader in.")
 e.para("guitarra · violão · busca · volume · banda · instrumento", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "Voltooi de zin", "guitarra", "guitarra elétrica = de elektrische gitaar",
@@ -87,7 +87,7 @@ e.ex("A2", "Voltooi de zin", "banda", "banda = de band",
      "Os jovens descobrem uma ___ antiga nos vídeos.", instr="Vul in", size=20, gap=8)
 e.ex("B1", "Voltooi de zin", "instrumento", "instrumento = het instrument",
      "O piano também é um ___ musical.", instr="Vul in", size=20, gap=8)
-e.head("C · O PRETÉRITO PERFEITO", 25)
+e.head("C　O PRETÉRITO PERFEITO", 25)
 e.expl("Uitleg — Vul de verleden tijd (pretérito perfeito) in.")
 e.ex("B1", "Voltooi de zin", "caíram", "cair, verleden tijd (elas): caíram",
      "As buscas ___ (cair) 74% entre 2004 e 2021.", instr="Vul in", size=20, gap=8)
@@ -97,7 +97,7 @@ e.ex("B1", "Voltooi de zin", "chegou", "chegar, verleden tijd (ela): chegou",
      "Em 2026, a guitarra ___ (chegar) a 75% do violão.", instr="Vul in", size=20, gap=8)
 e.ex("B1", "Voltooi de zin", "mudou", "mudar, verleden tijd (ela): mudou",
      "A história ___ (mudar) depois de 2021.", instr="Vul in", size=20, gap=8)
-e.head("D · CONSTRUA AS FRASES", 25)
+e.head("D　CONSTRUA AS FRASES", 25)
 e.expl("Uitleg — Zet de woorden in de juiste volgorde.")
 e.ex("B1", "Bouw de zin", "A guitarra voltou a crescer.", "onderwerp + voltou a + infinitief",
      "a guitarra / voltou / a crescer → ___", instr="Bouw de zin", size=20, gap=8)
@@ -113,11 +113,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · ESPORTE (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("ESPORTE · SPORT", "A Lucerna", "NÍVEL B1 · O futebol da semana · de voetbalweek")
+p.band("ESPORTE　SPORT", "A Lucerna", "NÍVEL B1　O futebol da semana　de voetbalweek")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("Semana de decisão: adeus à Sul-Americana, vem aí a Copa do Brasil", 37)
-f.byline("Da redação da A Lucerna · Nível de leitura: B1")
+f.title("Semana de decisão: adeus à Sul-Americana, vem aí a Copa do Brasil", 32)
+f.byline("Da redação da A Lucerna　Nível de leitura: B1")
 f.para("A terça-feira foi de festa e de lágrimas no Maracanã. O Vasco jogou a volta da semifinal da Copa Sul-Americana contra o Boca Juniors. Na ida, em Buenos Aires, o Vasco tinha vencido por 1 a 0. Mas na volta, o Boca fez 3 a 1 — e o Vasco está fora da competição.")
 f.para("Os gols contam a noite: Di Lollo abriu o placar e Merentiel ampliou ainda no primeiro tempo. Puma Rodríguez diminuiu para o Vasco no segundo tempo, mas Paredes, no fim, fechou o 3 a 1. No total dos dois jogos: 3 a 2 para o Boca. Mais de 66 mil torcedores estavam no estádio.")
 f.para("Agora, o Vasco pensa na Copa do Brasil. Na terça-feira, a CBF confirmou a arbitragem das semifinais: Anderson Daronco apita Palmeiras × Vasco, e Davi Lacerda comanda Grêmio × Atlético-MG. Os jogos de ida são no domingo, 1º de novembro: o futebol brasileiro não para — nem na semana da eleição.")
@@ -126,15 +126,15 @@ f.end_report()
 
 # col 3: data box + e você (sequential)
 bx = COLX[3]
-p.rect(bx, 200, CW, 376, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 376, fill=BOX)
 p.text(bx + 22, 240, "O JOGO EM NÚMEROS", 23, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Vasco 1 × 3 Boca Juniors · Maracanã · terça-feira, 20 de outubro. Ida: Boca 0 × 1 Vasco. Total (agregado): 3 × 2 para o Boca. Público: 66.026 torcedores. O Boca está na final da Sul-Americana.", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 602
 etvous = "E você? Para quem você torce? Escreva duas frases em português e mande para a redação."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Voor welke club ben jij? Schrijf twee zinnen en stuur ze op.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "E VOCÊ? · EN JIJ?", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "E VOCÊ?　EN JIJ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "Voor welke club ben jij? Schrijf twee zinnen en stuur ze op.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -142,7 +142,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "A SEMANA DO FUTEBOL · DE VOETBALKALENDER", 26, "sans", True, OLIVE)
+p.text(MX, ty, "A SEMANA DO FUTEBOL　DE VOETBALKALENDER", 26, "sans", True, OLIVE)
 rows = [
     ("Ter 20.10", "Sul-Americana", "Vasco 1 × 3 Boca Juniors — o Vasco está eliminado"),
     ("Sáb 24.10", "Brasileirão", "Vasco × Corinthians, em São Januário, às 18h30"),
@@ -154,7 +154,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -163,11 +163,11 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCÍCIOS · OEFENINGEN", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · niveaus gemengd: zoek op nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCÍCIOS　OEFENINGEN", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　niveaus gemengd: zoek op nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 25)
 e.expl("Uitleg — Lees het artikel op pagina 4 en kies het juiste antwoord.")
 e.ex("B1", "Meerkeuze", "A", "in de return won Boca met 3–1",
      "O jogo de volta, no Maracanã, terminou... A. Vasco 1 × 3 Boca · B. Vasco 3 × 1 Boca · C. 1 × 1", size=20, gap=8)
@@ -179,7 +179,7 @@ e.ex("B1", "Meerkeuze", "B", "heenwedstrijden Copa do Brasil op 1 november",
      "Os jogos de ida da Copa do Brasil são... A. nesta semana · B. no dia 1º de novembro · C. em dezembro", size=20, gap=8)
 e.ex("B1", "Meerkeuze", "A", "Daronco fluit Palmeiras × Vasco",
      "Quem apita Palmeiras × Vasco? A. Anderson Daronco · B. Davi Lacerda · C. César Tralli", size=20, gap=8)
-e.head("B · AS PALAVRAS", 25)
+e.head("B　AS PALAVRAS", 25)
 e.match_set("B1", "Woorden koppelen",
             ["o placar", "a ida", "a volta", "o agregado"],
             ["a soma dos resultados dos dois jogos",
@@ -189,7 +189,7 @@ e.match_set("B1", "Woorden koppelen",
             ["c", "b", "d", "a"],
             ["placar = de uitslag met de doelpunten c", "ida = de eerste wedstrijd van het tweeluik b", "volta = de tweede wedstrijd van het tweeluik d", "agregado = de som van de twee wedstrijden a"],
             instr="Combineer")
-e.head("C · COMPARATIVOS", 25)
+e.head("C　COMPARATIVOS", 25)
 e.expl("Uitleg — Vul de juiste vergelijkende vorm uit de haakjes in.")
 e.ex("B1", "Voltooi de zin", "mais", "return: 4 goals > heenwedstrijd: 1 goal: mais",
      "A volta foi ___ emocionante do que a ida: quatro gols contra um. (mais / menos)", instr="Vul in", size=20, gap=8)
@@ -199,7 +199,7 @@ e.ex("B1", "Voltooi de zin", "melhor", "vergrotende trap van bem (3–1 tegen 0�
      "O Boca jogou ___ na volta do que na ida. (melhor / pior)", instr="Vul in", size=20, gap=8)
 e.ex("B1", "Voltooi de zin", "menos", "Vasco 1 goal < Boca 3 goals: menos",
      "O Vasco marcou ___ gols na volta (1) do que o Boca (3). (mais / menos)", instr="Vul in", size=20, gap=8)
-e.head("D · O PRETÉRITO PERFEITO", 25)
+e.head("D　O PRETÉRITO PERFEITO", 25)
 e.expl("Uitleg — Maak de zin af in de verleden tijd (pretérito perfeito).")
 e.ex("B1", "Voltooi de zin", "venceu", "vencer, verleden tijd (ele): venceu",
      "Na ida, o Vasco ___ (vencer) por 1 a 0.", instr="Vul in", size=20, gap=8)

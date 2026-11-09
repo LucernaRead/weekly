@@ -6,7 +6,7 @@ import cairosvg
 from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-pt-ru")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVGS = sorted(glob.glob(os.path.join(BASE, "svg", "*.svg")))
 assert len(SVGS) == 8, SVGS
 
@@ -26,7 +26,7 @@ for s in SVGS:
     reader = PdfReader(io.BytesIO(data))
     for pg in reader.pages:
         writer.add_page(pg)
-print_pdf = os.path.join(BASE, "A-Lucerna-VOL1-RU.pdf")
+print_pdf = os.path.join(BASE, "A-Lucerna-VOL1-pt-ru.pdf")
 with open(print_pdf, "wb") as fh:
     writer.write(fh)
 print("print PDF:", print_pdf, os.path.getsize(print_pdf))
@@ -38,6 +38,6 @@ for pp in png_paths:
     w, h = im.size
     im = im.resize((1400, int(h * 1400 / w)), Image.LANCZOS)
     imgs.append(im)
-web_pdf = os.path.join(BASE, "A-Lucerna-VOL1-RU-web.pdf")
+web_pdf = os.path.join(BASE, "A-Lucerna-VOL1-pt-ru-web.pdf")
 imgs[0].save(web_pdf, save_all=True, append_images=imgs[1:], quality=85)
 print("web PDF:", web_pdf, os.path.getsize(web_pdf))

@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-pt-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · AVALIAÇÃO E RESPOSTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("AVALIAÇÃO E RESPOSTAS · Упражнения и ответы", "A Lucerna", "Страница 8 · A grande prova da semana + todas as respostas")
+p.band("AVALIAÇÃO E RESPOSTAS　Упражнения и ответы", "A Lucerna", "Страница 8　A grande prova da semana + todas as respostas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETE A CRÔNICA", 22, OLIVE, 5)
+f.head("A　COMPLETE A CRÔNICA", 22, OLIVE, 5)
 f.ex("B1", "Выбор в пропуске", "B", "voltar às urnas = идти голосовать",
      "No domingo, o Brasil volta ___ para o segundo turno. (A. às escolas · B. às urnas)", size=14.5, gap=0)
 f.ex("B1", "Выбор в пропуске", "A", "4.352 участка сменили адрес",
@@ -29,7 +29,7 @@ f.ex("B1", "Выбор в пропуске", "A", "Побеждает набра
      "No segundo turno, vence quem tiver mais ___ válidos. (A. votos · B. debates)", size=14.5, gap=0)
 f.ex("B1", "Выбор в пропуске", "B", "В Бразилии нет летнего времени, часы не переводят",
      "No Brasil, o relógio de domingo ___. (A. volta uma hora · B. não muda)", size=14.5, gap=0)
-f.head("B · PERGUNTAS GERAIS", 22, OLIVE, 5)
+f.head("B　PERGUNTAS GERAIS", 22, OLIVE, 5)
 f.ex("A2", "Выбор ответа", "B", "Голосование 8h–17h, время Бразилиа",
      "A votação de domingo é... A. das 6h às 15h · B. das 8h às 17h, hora de Brasília · C. das 8h às 20h", size=14.5, gap=0)
 f.ex("A2", "Выбор ответа", "B", "982 — в штате Сан-Паулу",
@@ -46,7 +46,7 @@ f.ex("B2", "Выбор ответа", "B", "+900% — данные поиско�
      "O número +900% mede... A. intenção de voto · B. interesse de busca · C. votos válidos", size=14.5, gap=0)
 f.ex("B1", "Выбор ответа", "B", "Finados — 2 ноября",
      "Finados, feriado nacional, é no dia... A. 31 de outubro · B. 2 de novembro · C. 15 de novembro", size=14.5, gap=0)
-f.head("C · LEIA E RESPONDA", 22, OLIVE, 5)
+f.head("C　LEIA E RESPONDA", 22, OLIVE, 5)
 f.para("Marina mora em São Paulo. No primeiro turno, ela votou numa escola perto de casa. Nesta semana, abriu o e-Título e viu uma surpresa: a seção dela é uma das 982 que mudaram de endereço em São Paulo. Domingo, ela acorda cedo, leva o documento com foto e vota na escola nova.", 15.5, lh=1.3, split=False)
 f.ex("A2", "Выбор ответа", "B", "Marina живёт в Сан-Паулу",
      "Onde mora Marina? A. no Rio de Janeiro · B. em São Paulo · C. na Bahia", size=14.5, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Выбор ответа", "B", "Изменение она увиде
      "Marina viu a mudança... A. na televisão · B. no aplicativo e-Título · C. no jornal de papel", size=14.5, gap=0)
 f.ex("A2", "Выбор ответа", "A", "Заголовок должен охватывать весь текст",
      "O melhor título é... A. «A seção nova de Marina» · B. «O debate final» · C. «A volta da guitarra»", size=14.5, gap=0)
-f.head("D · CONSTRUA AS FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUA AS FRASES", 22, OLIVE, 5)
 f.ex("A2", "Составьте предложение", "Domingo é dia de decisão.", "Слово времени — в начале",
      "domingo / é / dia de decisão → ___", instr="Составьте", size=14.5, gap=0)
 f.ex("B1", "Составьте предложение", "O eleitor confere o local no aplicativo.", "Подлежащее + глагол + дополнение + место",
@@ -65,7 +65,7 @@ f.ex("B1", "Составьте предложение", "Que horas começa a vot
      "que horas / começa / a votação / ? → ___", instr="Составьте", size=14.5, gap=0)
 f.ex("B1", "Составьте предложение", "O Vasco perdeu por 3 a 1.", "Подлежащее + глагол + счёт",
      "o Vasco / perdeu / por 3 a 1 → ___", instr="Составьте", size=14.5, gap=0)
-f.head("E · TRADUZA", 22, OLIVE, 5)
+f.head("E　TRADUZA", 22, OLIVE, 5)
 f.ex("A2", "Перевод", "В воскресенье Бразилия — снова к урнам.", "См. заголовок стр. 1",
      "Domingo, o Brasil volta às urnas. → ___", instr="Переведите", size=14.5, gap=0)
 f.ex("B1", "Перевод", "Перед выходом проверьте место голосования.", "Confira = проверьте",
@@ -74,7 +74,7 @@ f.ex("B1", "Перевод", "As buscas por guitarra cresceram 53%.", "cresceram
      "Запросы «гитара» выросли на 53%. → ___", instr="Переведите", size=14.5, gap=0)
 f.ex("B2", "Перевод", "Quando você chegar, confira a seção.", "Будущее сослагательное chegar + повелительное confira",
      "Когда вы придёте, проверьте свой участок. → ___", instr="Переведите", size=14.5, gap=0)
-f.head("F · AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
+f.head("F　AS PALAVRAS DA ELEIÇÃO", 22, OLIVE, 5)
 f.match_set("B2", "Сопоставление",
             ["o segundo turno", "a seção eleitoral", "justificar", "a maioria absoluta"],
             ["explicar por que você não votou",
@@ -84,7 +84,7 @@ f.match_set("B2", "Сопоставление",
             ["b", "d", "a", "c"],
             ["segundo turno = финал двух лидеров b", "seção = точное место голосования d", "justificar = объяснить, почему не голосовали a", "maioria absoluta = больше половины действительных голосов c"],
             instr="Соедините пары")
-f.head("G · DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
+f.head("G　DIÁLOGO NO DIA DA VOTAÇÃO", 22, OLIVE, 5)
 f.ex("B1", "Выбор в пропуске", "B", "documento com foto = документ с фото",
      "— Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento)", size=14.5, gap=0)
 f.ex("B1", "Выбор в пропуске", "A", "seção — конкретный участок (комната)",
@@ -95,7 +95,7 @@ f.ex("B1", "Выбор в пропуске", "A", "Зелёная клавиша
      "— Para terminar, você ___ o voto na tecla verde. (A. confirma · B. apaga)", size=14.5, gap=0)
 f.ex("B1", "Выбор в пропуске", "B", "obrigado = спасибо",
      "— Pronto, você já votou. — Muito ___! (A. tarde · B. obrigado)", size=14.5, gap=0)
-f.head("H · ESCREVA VOCÊ", 22, OLIVE, 5)
+f.head("H　ESCREVA VOCÊ", 22, OLIVE, 5)
 MODELO = ("Domingo, 25 de outubro, acordo cedo e abro o aplicativo e-Título no celular. "
           "Confiro a minha seção: ela mudou de endereço, e a escola nova fica a dez minutos de casa. "
           "Tomo café com a minha família, pego o documento com foto e saio às nove. "
@@ -112,13 +112,13 @@ f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPOSTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPOSTAS · Ответы — по страницам: ищите по номеру задания", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "К каждому ответу — короткое пояснение · ✓ — задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPOSTAS　Ответы — по страницам: ищите по номеру задания", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "К каждому ответу — короткое пояснение　✓ — задание с образцом", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— СТРАНИЦА {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
