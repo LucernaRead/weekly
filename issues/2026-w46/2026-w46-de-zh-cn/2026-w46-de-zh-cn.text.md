@@ -2,17 +2,17 @@
 
 Edition `2026-w46-de-zh-cn` — German text with reader-language explanations. Exported from the production source manuscript (build-dir sources), in reading order: headlines, article paragraphs, boxes, exercises, answers.
 
-## Seite 1
+# Page 1
 
-### VOL. 3 · DRITTE AUSGABE
+VOL. 3　DRITTE AUSGABE
 
-### WÖCHENTLICH AUF DEUTSCH · 每周一期 · 读德国人正在读的德语
+WÖCHENTLICH AUF DEUTSCH　每周一期　读德国人正在读的德语
 
-### WOCHE VOM 9. BIS 15. NOVEMBER 2026
+WOCHE VOM 9. BIS 15. NOVEMBER 2026
 
 Die Lucerna
 
-德 语 周 报 · VOL.3 · 国 家 队 · 圣 马 丁 · NFL
+德语周报　VOL.3　国家队　圣马丁　NFL
 
 DIE WOCHENZEITUNG FÜR LERNENDE — DAS ECHTE LEBEN, AUF DEUTSCH, AUS DEUTSCHLAND
 
@@ -20,15 +20,15 @@ LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!
 
 Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche
 
-本周国家队周 · 圣马丁节与 NFL
+本周国家队周　圣马丁节与 NFL
 
-详见第 4 版 · Seite 4
+详见第4 版　Seite 4
 
-### DIE TOPMELDUNG · 头条
+DIE TOPMELDUNG　头条
 
 Länderspielpause in Deutschland: Kampf ums Viertelfinale, dann die NFL in München
 
-Von der Lucerna-Redaktion · Leseniveau: A2
+Von der Lucerna-Redaktion　Leseniveau: A2
 
 Diese Woche spielt die Bundesliga nicht: Es ist Länderspielpause. Die deutsche Nationalmannschaft trifft am Freitagabend in Belgrad auf Serbien — und am Montag danach in Berlin auf die Niederlande. Es geht ums Viertelfinale.
 
@@ -40,9 +40,9 @@ Am Sonntag wird München zur Football-Stadt: Um 15.30 Uhr spielen in der Allianz
 
 Aber diese Woche ist mehr als Sport: Am Sonntag ist auch Volkstrauertag — ein stiller Gedenktag. Die zentrale Gedenkstunde findet im Bundestag statt.
 
-讲解｜die Länderspielpause 国家队比赛间歇期 · das Viertelfinale 四分之一决赛 · ausverkauft 售罄。
+*讲解｜die Länderspielpause 国家队比赛间歇期 · das Viertelfinale 四分之一决赛 · ausverkauft 售罄。*
 
-### DIE WOCHE IN ZAHLEN · 数字看本周
+### DIE WOCHE IN ZAHLEN　数字看本周
 
 5 — Punkte hat Deutschland nach vier Spielen in der Nations League（四轮过后德国队 5 分）
 
@@ -50,49 +50,35 @@ Aber diese Woche ist mehr als Sport: Am Sonntag ist auch Volkstrauertag — ein 
 
 15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München（周日 15 点 30 分 NFL 开球）
 
-### JETZT ÜBEN · 即学即练
+### JETZT ÜBEN　即学即练
 
-Länderspielpause
+1. Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.
 
-国家队比赛周
+2. Am Freitag spielt Deutschland in ___ gegen Serbien.
 
-Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.
+3. Um 11.11 Uhr beginnt in Köln die neue Session des ___.
 
-Belgrad
+4. Am Sonntag spielen die Lions und die Patriots in ___.
 
-塞尔维亚首都
+5. Deutschland hat nach vier Spielen ___ Punkte.
 
-Am Freitag spielt Deutschland in ___ gegen Serbien.
+6. Am Sonntag ist auch ___: ein stiller Gedenktag.
 
-Karnevals
+FRAGEN
 
-狂欢季 11 点 11 分开幕
+DER WOCHE
 
-Um 11.11 Uhr beginnt in Köln die neue Session des ___.
+本周大问题　Die Fragen der Woche
 
-München
+1. „Deutschland im Viertelfinale?“
 
-NFL 在慕尼黑
+2. „Sieg in Belgrad?“
 
-Am Sonntag spielen die Lions und die Patriots in ___.
+3. „Karneval oder Laternen?“
 
-fünf
+4. „NFL in München: Wer gewinnt?“
 
-四轮 5 分
-
-Deutschland hat nach vier Spielen ___ Punkte.
-
-Volkstrauertag
-
-周日是纪念日
-
-Am Sonntag ist auch ___: ein stiller Gedenktag.
-
-### FRAGEN
-
-### DER WOCHE
-
-本周大问题 · Die Fragen der Woche
+5. „Volkstrauertag — was ist das?“
 
 Die fünf Fragen, über die Deutschland
 
@@ -100,55 +86,105 @@ in dieser Woche spricht.
 
 德国本周最热议的五个问题。
 
-### IN DIESER AUSGABE · 本期目录
+IN DIESER AUSGABE　本期目录
 
-### DAS WORT DER WOCHE
+S.2
 
-« das Geisterspiel » : Ein Spiel vor leeren Rängen — ohne Zuschauer im Stadion.
+11. November & Alltag
+
+A2
+
+S.3
+
+St. Martin & Karneval
+
+A2→B1
+
+S.4
+
+Nationalelf & NFL
+
+B1
+
+S.5
+
+Laternen & Kinder
+
+B1
+
+S.6
+
+Gedenken & Stromsteuer
+
+B2
+
+S.7
+
+Sätze der Woche
+
+A2→B2
+
+S.8
+
+Übungen & Lösungen
+
+alle
+
+DAS WORT DER WOCHE
+
+« das Geisterspiel »
+
+Ein Spiel vor leeren Rängen — ohne Zuschauer im Stadion.
 
 空场比赛（无观众）。详见第 4 版。
 
-Fußball auf dem Rasen: In dieser Woche spielt die Nationalmannschaft in Belgrad — die Bundesliga pausiert. Am Montag danach kommen die Niederlande nach Berlin. (Seite 4)
+*Fußball auf dem Rasen: In dieser Woche spielt die Nationalmannschaft in Belgrad — die Bundesliga pausiert. Am Montag danach kommen die Niederlande nach Berlin. (Seite 4)*
 
-EINE WOCHE, ZWEI WELTEN
+*Foto: Staff Sgt. Stephanie Jacobs, U.S. Air Force — public domain*
+
+### EINE WOCHE, ZWEI WELTEN
 
 Freitagabend in Belgrad, Sonntag in München: Erst die Nationalelf, dann American Football — eine Woche, zwei Ballspiele.
 
 Und am Montag danach? Da spielt Deutschland schon wieder — gegen die Niederlande in Berlin. Die Länderspielpause ist kurz, aber sie ist voll.
 
-### KURZ & GUT · 快讯
+KURZ & GUT　快讯
 
-### BLITZQUIZ · 闪电问答
+FUSSBALL
 
-读头版，选出正确答案 · 答案见第 8 版
+Nations League: Serbien auswärts, Niederlande zu Hause. (Seite 4)
 
-周五客战塞尔维亚
+NFL
 
-Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München
+Lions gegen Patriots in München, 15.30 Uhr, RTL live. (Seite 4)
 
-NFL 下午 3 点半开球
+11. NOVEMBER
 
-Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr
+Karneval um 11.11 Uhr in Köln, Laternen am Abend überall. (Seite 3)
 
-狂欢季 11 点 11 分开幕
+BLITZQUIZ　闪电问答
 
-Die Karnevalssession beginnt in Köln um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr
+读头版，选出正确答案　答案见第8 版
 
-纪念日在周日
+7. Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München
 
-Der Volkstrauertag ist am... A. Sonntag, 15. November · B. Mittwoch, 11. November · C. Montag, 9. November
+8. Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr
 
-### LEBEN · 生活
+9. Die Karnevalssession beginnt in Köln um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr
+
+10. Der Volkstrauertag ist am... A. Sonntag, 15. November · B. Mittwoch, 11. November · C. Montag, 9. November
+
+# Page 2
+
+## LEBEN　生活
 
 Die Lucerna
 
-### LEVEL A2 · Der 11. November & der Alltag · 11 月 11 日与日常生活
+*LEVEL A2　Der 11. November & der Alltag　11月11日与日常生活*
 
-## Seite 2
+## Ein Mittwoch, zwei Feste: Karneval am Morgen, Laternen am Abend
 
-Ein Mittwoch, zwei Feste: Karneval am Morgen, Laternen am Abend
-
-Von der Lucerna-Redaktion · Leseniveau: A2
+*Von der Lucerna-Redaktion　Leseniveau: A2*
 
 Am Mittwoch, dem 11. November, ist in Deutschland viel los: Um 11.11 Uhr beginnt in Köln die neue Karnevalssession. Auf dem Heumarkt und dem Alter Markt feiern die Jecken den Start der „fünften Jahreszeit“ — mit Musik, Kostümen und Konfetti. Der WDR überträgt ab 10.30 Uhr live.
 
@@ -160,33 +196,41 @@ Was isst man an diesem Tag? In vielen Familien gibt es die Martinsgans: Gänsebr
 
 Und die dunkle Jahreszeit? Die Abende sind jetzt lang und kalt. Viele Menschen bereiten schon den Advent vor: Sie kaufen Kerzen, backen Plätzchen — oder basteln Laternen mit ihren Kindern. Der November ist dunkel, aber er ist nicht still: Er singt, leuchtet und feiert.
 
-der Jeck 狂欢者（科隆方言） · die fünfte Jahreszeit 第五个季节（狂欢季） · die Laterne 灯笼 · der Weckmann 面人面包 · die Martinsgans 圣马丁鹅。
+> 译注｜der Jeck 狂欢者（科隆方言） · die fünfte Jahreszeit 第五个季节（狂欢季） · die Laterne 灯笼 · der Weckmann 面人面包 · die Martinsgans 圣马丁鹅。
 
-### DER 11. NOVEMBER · 11 月 11 日
+DER 11. NOVEMBER　11月11日
+
+11.11 Uhr — die Karnevalssession in Köln beginnt.
+
+Ab 10.30 Uhr — der WDR überträgt live.
+
+Am Abend — Laternenumzüge in ganz Deutschland.
 
 WUSSTEN SIE DAS?
 
-### UND SIE? · 说说你自己
+Kein Feiertag: Schule und Arbeit laufen normal.
+
+Die Zahl Elf gilt im Karneval als Narrenzahl.
+
+Der Weckmann heißt anderswo Stutenkerl oder Martinsmann.
+
+UND SIE?　说说你自己
+
+Und Sie? Feiern Sie Karneval oder St. Martin? Was singen Kinder in Ihrem Land? Schreiben Sie zwei Sätze auf Deutsch!
 
 你过狂欢节还是圣马丁节？写两句德语寄来。
 
-### MARTIN IN KÜRZE · 圣马丁简讯
+MARTIN IN KÜRZE　圣马丁简讯
 
-### RECHNEN WIR MAL · 算一算
+Martin von Tours — Soldat, Mönch, Bischof.
 
-Die Uhrzeiten der Woche · 本周时刻
+Die Legende: Er teilte seinen Mantel.
 
-11.11 Uhr + 6 Stunden
+Die Gans verriet der Legende nach sein Versteck.
 
-= etwa 17 Uhr: Die Laternenumzüge beginnen
+RECHNEN WIR MAL　算一算
 
-15.30 Uhr — NFL in München
-
-= 4 Stunden 19 Minuten nach 11.11 Uhr
-
-9. bis 15. November
-
-= 7 Tage: eine volle Länderspielwoche
+Die Uhrzeiten der Woche　本周时刻
 
 11.11 Uhr + 6 Stunden
 
@@ -204,157 +248,65 @@ Achtung: Der 11. November ist ein Werktag. Wer nach Köln fährt, sollte früh k
 
 注意：11 月 11 日是工作日。去科隆要早到：老城很挤，晚上街道属于提灯笼的孩子们。
 
-### ÜBUNGEN · 第 2 版练习
+ÜBUNGEN　第2 版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8 版　题目可跨级混排，按题号找答案
 
-### A · WIE VIEL UHR?
+### A　WIE VIEL UHR?
 
-看第 2 版文章，用时间填空。
+*看第 2 版文章，用时间填空。*
 
-11.11
+11. Die Karnevalssession beginnt um ___ Uhr. [填空]
 
-狂欢季 11 点 11 分开幕
+12. Der WDR überträgt ab ___ Uhr live. [填空]
 
-Die Karnevalssession beginnt um ___ Uhr.
+13. Das NFL-Spiel in München beginnt um ___ Uhr. [填空]
 
-填空
+14. St. Martin ist am ___. [填空]
 
-10.30
+15. Der 11. November 2026 ist ein ___. [填空]
 
-WDR 10 点半直播
+### B　DAS PERFEKT
 
-Der WDR überträgt ab ___ Uhr live.
+*改成 Perfekt 现在完成时。*
 
-填空
+16. Der Karneval (beginnen) in Köln. → ___ [改写]
 
-15.30
+17. Die Kinder (singen) Martinslieder. → ___ [改写]
 
-NFL 下午 3 点半开球
+18. Wir (basteln) eine Laterne. → ___ [改写]
 
-Das NFL-Spiel in München beginnt um ___ Uhr.
+19. Martin (teilen) seinen Mantel. → ___ [改写]
 
-填空
+20. Viele Familien (essen) Martinsgans. → ___ [改写]
 
-11. November
+### C　LESEVERSTEHEN
 
-圣马丁节 11 月 11 日
+*读第 2 版文章，选出正确答案。*
 
-St. Martin ist am ___.
+21. Wann überträgt der WDR? A. um 11.11 Uhr · B. ab 10.30 Uhr · C. um 15.30 Uhr
 
-填空
+22. Was ist ein Weckmann? A. ein Lied · B. Gebäck aus Hefeteig · C. eine Laterne
 
-Mittwoch
+23. Ist der 11. November ein Feiertag? A. Nein, Schule und Arbeit laufen normal. · B. Ja, alles ist geschlossen. · C. Nur in Köln.
 
-11 月 11 日是星期三
+24. Was isst man mit der Martinsgans? A. Pommes · B. Rotkohl und Klöße · C. Eis
 
-Der 11. November 2026 ist ein ___.
+### D　DIE WÖRTER
 
-填空
+25–28 der Jeck — das Licht aus Papier, das die Kinder am Abend tragen / die Laterne — der Mann aus Hefeteig, den die Kinder bekommen / der Weckmann — der Mensch, der in Köln Karneval feiert / die Martinsgans — der Gänsebraten am Martinstag [把词和释义配对]
 
-### B · DAS PERFEKT
+# Page 3
 
-改成 Perfekt 现在完成时。
-
-Der Karneval hat in Köln begonnen.
-
-beginnen → begonnen
-
-Der Karneval (beginnen) in Köln. → ___
-
-改写
-
-Die Kinder haben Martinslieder gesungen.
-
-singen → gesungen
-
-Die Kinder (singen) Martinslieder. → ___
-
-改写
-
-Wir haben eine Laterne gebastelt.
-
-basteln → gebastelt
-
-Wir (basteln) eine Laterne. → ___
-
-改写
-
-Martin hat seinen Mantel geteilt.
-
-teilen → geteilt
-
-Martin (teilen) seinen Mantel. → ___
-
-改写
-
-Viele Familien haben Martinsgans gegessen.
-
-essen → gegessen
-
-Viele Familien (essen) Martinsgans. → ___
-
-改写
-
-### C · LESEVERSTEHEN
-
-读第 2 版文章，选出正确答案。
-
-WDR 10 点半直播
-
-Wann überträgt der WDR? A. um 11.11 Uhr · B. ab 10.30 Uhr · C. um 15.30 Uhr
-
-Weckmann 是面人面包
-
-Was ist ein Weckmann? A. ein Lied · B. Gebäck aus Hefeteig · C. eine Laterne
-
-11 月 11 日不是法定假日
-
-Ist der 11. November ein Feiertag? A. Nein, Schule und Arbeit laufen normal. · B. Ja, alles ist geschlossen. · C. Nur in Köln.
-
-圣马丁鹅配红甘蓝和丸子
-
-Was isst man mit der Martinsgans? A. Pommes · B. Rotkohl und Klöße · C. Eis
-
-### D · DIE WÖRTER
-
-der Jeck
-
-die Laterne
-
-der Weckmann
-
-die Martinsgans
-
-das Licht aus Papier, das die Kinder am Abend tragen
-
-der Mann aus Hefeteig, den die Kinder bekommen
-
-der Mensch, der in Köln Karneval feiert
-
-der Gänsebraten am Martinstag
-
-Jeck=狂欢者 c
-
-Laterne=灯笼 a
-
-Weckmann=面人面包 b
-
-Martinsgans=圣马丁鹅 d
-
-把词和释义配对
-
-## Seite 3
-
-### KULTUR · 文化
+## KULTUR　文化
 
 Die Lucerna
 
-### A2 → B1 · St. Martin, Karneval & Rückblick · 圣马丁、狂欢节与回顾
+*A2 → B1　St. Martin, Karneval & Rückblick　圣马丁、狂欢节与回顾*
 
-St. Martin: Ein Mantel, eine Laterne, eine Gans
+## St. Martin: Ein Mantel, eine Laterne, eine Gans
 
-Von der Lucerna-Redaktion · Leseniveau: A2 → B1
+*Von der Lucerna-Redaktion　Leseniveau: A2 → B1*
 
 Wer war St. Martin? Martin von Tours lebte vor mehr als 1600 Jahren. Der Legende nach war er ein römischer Soldat. An einem kalten Wintertag traf er einen Bettler — und teilte seinen Mantel mit ihm. Später wurde Martin Mönch und Bischof von Tours. Sein Gedenktag ist der 11. November.
 
@@ -368,179 +320,109 @@ Und die Kultur im November? Die Museen und Theater spielen ihr Herbstprogramm, d
 
 Für Kinder gibt es in dieser Woche noch ein zweites Highlight: In Köln beginnt am 11. November um 11.11 Uhr die Karnevalssession — mit dem Dreigestirn aus Prinz, Bauer und Jungfrau. Am Abend gehören die Straßen dann den Laternen. Mehr dazu auf Seite 2.
 
-der Bettler 乞丐 · der Mantel 斗篷 · das Geschnatter 鹅叫声 · der Gänsestall 鹅棚 · das Dreigestirn 狂欢节三人组。
+> 译注｜der Bettler 乞丐 · der Mantel 斗篷 · das Geschnatter 鹅叫声 · der Gänsestall 鹅棚 · das Dreigestirn 狂欢节三人组。
 
-### ST. MARTIN · 圣马丁
+ST. MARTIN　圣马丁
 
-### MARTINSWÖRTER · 圣马丁词汇
+Der 11. November ist der Gedenktag des heiligen Martin von Tours.
 
-### UND SIE? · 说说你自己
+Die Laternenumzüge finden oft auch an Abenden vor oder nach dem 11. November statt.
+
+Karneval und St. Martin teilen sich den 11. November — morgens närrisch, abends still.
+
+MARTINSWÖRTER　圣马丁词汇
+
+die Laterne — 灯笼
+
+der Mantel — 斗篷
+
+die Gans — 鹅
+
+der Weckmann — 面人面包
+
+das Martinsfeuer — 圣马丁篝火
+
+das Kostüm — 服装
+
+UND SIE?　说说你自己
+
+Und Sie? Haben Sie schon einmal eine Laterne gebastelt? Was singen Kinder in Ihrem Land? Schreiben Sie zwei Sätze auf Deutsch!
 
 你做过灯笼吗？你们国家的孩子唱什么歌？写两句德语寄来。
 
-### DER TIPP · 编辑部建议
+DER TIPP　编辑部建议
 
-### ÜBUNGEN · 第 3 版练习
+Tipp: Basteln Sie eine Laterne aus Papier — ein Glas, ein Licht, ein Lied genügt.
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+ÜBUNGEN　第3 版练习
 
-### A · RICHTIG ODER FALSCH?
+答案见第8 版　题目可跨级混排，按题号找答案
 
-读第 3 版文章，判断对错。
+### A　RICHTIG ODER FALSCH?
 
-Richtig
+*读第 3 版文章，判断对错。*
 
-传说马丁是罗马士兵
+29. Martin war der Legende nach ein römischer Soldat. Richtig oder falsch? [判断]
 
-Martin war der Legende nach ein römischer Soldat. Richtig oder falsch?
+30. Die Gänse haben Martin versteckt. Richtig oder falsch? [判断]
 
-判断
+31. Der Gedenktag des heiligen Martin ist am 11. November. Richtig oder falsch? [判断]
 
-Falsch
+32. Die Ergebnisse vom 3. bis 8. November standen bei Redaktionsschluss fest. Richtig oder falsch? [判断]
 
-传说鹅叫声暴露了他
+33. Die Karnevalssession beginnt um 11.11 Uhr. Richtig oder falsch? [判断]
 
-Die Gänse haben Martin versteckt. Richtig oder falsch?
+### B　WÖRTER AUS DEM TEXT
 
-判断
-
-Richtig
-
-纪念日 11 月 11 日
-
-Der Gedenktag des heiligen Martin ist am 11. November. Richtig oder falsch?
-
-判断
-
-Falsch
-
-截稿时 11 月 3–8 日结果未知
-
-Die Ergebnisse vom 3. bis 8. November standen bei Redaktionsschluss fest. Richtig oder falsch?
-
-判断
-
-Richtig
-
-狂欢季 11 点 11 分开幕
-
-Die Karnevalssession beginnt um 11.11 Uhr. Richtig oder falsch?
-
-判断
-
-### B · WÖRTER AUS DEM TEXT
-
-用方框里的词填空。
+*用方框里的词填空。*
 
 Mantel · Laterne · Gans · Kostüm · Martinsfeuer
 
-Mantel
+34. Martin teilte seinen ___ mit einem Bettler. [填空]
 
-斗篷分给乞丐
+35. Die Kinder basteln eine bunte ___ aus Papier. [填空]
 
-Martin teilte seinen ___ mit einem Bettler.
+36. Am Martinstag gibt es die Martins___: Gänsebraten. [填空]
 
-填空
+37. In Köln tragen die Jecken ein buntes ___. [填空]
 
-Laterne
+38. Am ___ endet der Laternenumzug. [填空]
 
-纸灯笼
+### C　LESEVERSTEHEN
 
-Die Kinder basteln eine bunte ___ aus Papier.
+*选出正确答案。*
 
-填空
+39. Was wurde Martin später? A. ein König · B. Bischof von Tours · C. ein Bäcker
 
-Gans
+40. Wann finden Laternenumzüge statt? A. nur am 25. Dezember · B. oft auch vor oder nach dem 11. November · C. nur im Sommer
 
-圣马丁鹅
+41. Was isst man am Martinstag? A. Gänsebraten mit Rotkohl und Klößen · B. Eis · C. Pommes
 
-Am Martinstag gibt es die Martins___: Gänsebraten.
+42. Wo berichtet die Redaktion über die Spiele vom 3. bis 8. November? A. in VOL.4 · B. in dieser Ausgabe mit Ergebnissen · C. gar nicht
 
-填空
+### D　SÄTZE BAUEN
 
-Kostüm
+*把词组成正确的句子。*
 
-狂欢节服装
+43. Martin / teilte / seinen Mantel / mit einem Bettler → ___ [造句]
 
-In Köln tragen die Jecken ein buntes ___.
+44. die Kinder / basteln / bunte Laternen / aus Papier → ___ [造句]
 
-填空
+45. am 11. November / beginnt / die Karnevalssession / in Köln → ___ [造句]
 
-Martinsfeuer
+46. am Martinsfeuer / endet / der Laternenumzug → ___ [造句]
 
-游行在篝火处结束
+# Page 4
 
-Am ___ endet der Laternenumzug.
-
-填空
-
-### C · LESEVERSTEHEN
-
-选出正确答案。
-
-马丁后来成为图尔主教
-
-Was wurde Martin später? A. ein König · B. Bischof von Tours · C. ein Bäcker
-
-灯笼游行常在前后晚上举行
-
-Wann finden Laternenumzüge statt? A. nur am 25. Dezember · B. oft auch vor oder nach dem 11. November · C. nur im Sommer
-
-圣马丁鹅配红甘蓝和丸子
-
-Was isst man am Martinstag? A. Gänsebraten mit Rotkohl und Klößen · B. Eis · C. Pommes
-
-VOL.4 报道 11 月 3–8 日结果
-
-Wo berichtet die Redaktion über die Spiele vom 3. bis 8. November? A. in VOL.4 · B. in dieser Ausgabe mit Ergebnissen · C. gar nicht
-
-### D · SÄTZE BAUEN
-
-把词组成正确的句子。
-
-Martin teilte seinen Mantel mit einem Bettler.
-
-主谓宾顺序
-
-Martin / teilte / seinen Mantel / mit einem Bettler → ___
-
-造句
-
-Die Kinder basteln bunte Laternen aus Papier.
-
-主谓宾顺序
-
-die Kinder / basteln / bunte Laternen / aus Papier → ___
-
-造句
-
-Am 11. November beginnt die Karnevalssession in Köln.
-
-时间状语开头，动词第二位
-
-am 11. November / beginnt / die Karnevalssession / in Köln → ___
-
-造句
-
-Am Martinsfeuer endet der Laternenumzug.
-
-地点开头，动词第二位
-
-am Martinsfeuer / endet / der Laternenumzug → ___
-
-造句
-
-### SPORT · 体育
+## SPORT　体育
 
 Die Lucerna
 
-### LEVEL B1 · Nationalelf & NFL · 国家队与 NFL
+*LEVEL B1　Nationalelf & NFL　国家队与 NFL*
 
-## Seite 4
+## Zwei Ballspiele, eine Woche: Nations League und NFL
 
-Zwei Ballspiele, eine Woche: Nations League und NFL
-
-Von der Lucerna-Sportredaktion · Leseniveau: B1
+*Von der Lucerna-Sportredaktion　Leseniveau: B1*
 
 Was für eine Woche für den Fußball! Die Bundesliga pausiert — aber die Nationalmannschaft spielt. Am Freitagabend (20.45 Uhr) trifft Deutschland in Belgrad auf Serbien. Es geht ums Viertelfinale: Deutschland hat fünf Punkte, die Niederlande und Griechenland je acht.
 
@@ -554,143 +436,129 @@ Und dann der andere Football: Am Sonntag (15.30 Uhr) spielen in München die Det
 
 Merken Sie sich auch die Rückkehr der Liga: Am 20. November beginnt der 10. Spieltag mit Bayern gegen Köln. Und die Europapokale kehren am 24. bis 26. November zurück.
 
-das Geisterspiel 空场比赛 · das Hinspiel 首回合 · ausverkauft 售罄 · der Star 明星 · gewinnen 获胜。
+> 译注｜das Geisterspiel 空场比赛 · das Hinspiel 首回合 · ausverkauft 售罄 · der Star 明星 · gewinnen 获胜。
 
-Kopfball im Spiel: So sieht ein Duell in der Luft aus — um jeden Ball wird gekämpft. Die Nationalelf spielt in dieser Woche in Belgrad — am Montag danach in Berlin.
+*Kopfball im Spiel: So sieht ein Duell in der Luft aus — um jeden Ball wird gekämpft. Die Nationalelf spielt in dieser Woche in Belgrad — am Montag danach in Berlin.*
 
-### UND SIE? · 说说你自己
+*Foto: DVIDS (Armed Forces Soccer Championship, Destin, Florida, 2010) — public domain*
+
+UND SIE?　说说你自己
+
+Und Sie? Schauen Sie lieber Fußball oder American Football? Und wer gewinnt in Belgrad? Schreiben Sie zwei Sätze auf Deutsch!
 
 你更爱看足球还是美式橄榄球？贝尔格莱德谁赢？写两句德语寄来。
 
-### DER SPIELPLAN · 本周与下周赛程
+DER SPIELPLAN　本周与下周赛程
 
-### ÜBUNGEN · 第 4 版练习
+Do 5.11.
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+—
 
-### A · LESEVERSTEHEN
+Bundestrainer Klopp nennt den Kader (DFB-Video)
 
-读第 4 版文章，选出正确答案。
+Fr 13.11.
 
-德国 5 分，荷兰希腊各 8 分
+20.45
 
-Wie viele Punkte hat Deutschland nach vier Spielen? A. acht · B. fünf · C. zwei
+Serbien – Deutschland (Nations League, Belgrad, RTL)
 
-主教练 11 月 5 日公布名单
+So 15.11.
 
-Wann nennt Klopp seinen Kader? A. am 13. November · B. am 5. November · C. am 9. November
+15.30
 
-贝尔格莱德空场
+Detroit Lions – New England Patriots (NFL, München, RTL)
 
-Warum ist das Spiel in Belgrad ein Geisterspiel? A. Es ist Nacht. · B. Es gibt keine Karten. · C. Das Stadion bleibt wegen einer UEFA-Strafe leer.
+Mo 16.11.
 
-首回合德国 2:0 胜塞尔维亚
+20.45
 
-Wie endete das Hinspiel gegen Serbien? A. 2:0 für Deutschland · B. 1:1 · C. 0:2
+Deutschland – Niederlande (Nations League, Berlin, ARD)
 
-NFL 慕尼黑赛售罄
+Fr 20.11.
 
-Das NFL-Spiel in München ist... A. abgesagt · B. ausverkauft · C. gratis
+20.30
 
-### B · DIE WÖRTER
+Bayern München – 1. FC Köln (Bundesliga, 10. Spieltag)
 
-das Geisterspiel
+Sa 21.11.
 
-das Hinspiel
+15.30
 
-der Ausrüster
+Borussia Mönchengladbach – Borussia Dortmund · Union Berlin – RB Leipzig
 
-ausverkauft
+Sa 21.11.
 
-das erste Spiel gegen denselben Gegner in einer Runde
+15.30
 
-ein Spiel ohne Zuschauer im Stadion
+Bayer Leverkusen – SC Paderborn · Frankfurt – Hoffenheim · Elversberg – Freiburg
 
-die Firma, die die Trikots und Schuhe liefert
+Sa 21.11.
 
-alle Karten sind weg, es gibt keine mehr
+17.30
 
-Geisterspiel=空场比赛 b
+FC Schalke 04 – VfB Stuttgart (Topspiel)
 
-Hinspiel=首回合 a
+Alle Zeiten in MEZ (Mitteleuropäische Zeit). Am Sonntag, dem 22. November: FC Augsburg – Mainz 05 (15.30 Uhr), Werder Bremen – Hamburger SV (16.30 Uhr). In dieser Woche keine Europapokal-Spiele der Vereine — die Klubs kehren am 24. bis 26. November zurück.
 
-Ausrüster=装备赞助商 c
+ÜBUNGEN　第4 版练习
 
-ausverkauft=售罄 d
+答案见第8 版　题目可跨级混排，按题号找答案
 
-把词和释义配对
+### A　LESEVERSTEHEN
 
-### C · KOMPARATIV
+*读第 4 版文章，选出正确答案。*
 
-用比较级完成句子（括号里是原级）。
+47. Wie viele Punkte hat Deutschland nach vier Spielen? A. acht · B. fünf · C. zwei
 
-mehr
+48. Wann nennt Klopp seinen Kader? A. am 13. November · B. am 5. November · C. am 9. November
 
-viel → mehr（荷兰 8 分多于德国 5 分）
+49. Warum ist das Spiel in Belgrad ein Geisterspiel? A. Es ist Nacht. · B. Es gibt keine Karten. · C. Das Stadion bleibt wegen einer UEFA-Strafe leer.
 
-Die Niederlande haben ___ (viel) Punkte als Deutschland.
+50. Wie endete das Hinspiel gegen Serbien? A. 2:0 für Deutschland · B. 1:1 · C. 0:2
 
-填空
+51. Das NFL-Spiel in München ist... A. abgesagt · B. ausverkauft · C. gratis
 
-später
+### B　DIE WÖRTER
 
-spät → später（15:30 晚于 11:11）
+52–55 das Geisterspiel — das erste Spiel gegen denselben Gegner in einer Runde / das Hinspiel — ein Spiel ohne Zuschauer im Stadion / der Ausrüster — die Firma, die die Trikots und Schuhe liefert / ausverkauft — alle Karten sind weg, es gibt keine mehr [把词和释义配对]
 
-Das NFL-Spiel beginnt ___ (spät) als die Karnevalseröffnung.
+### C　KOMPARATIV
 
-填空
+*用比较级完成句子（括号里是原级）。*
 
-leiser
+56. Die Niederlande haben ___ (viel) Punkte als Deutschland. [填空]
 
-leise → leiser（空场比主场安静）
+57. Das NFL-Spiel beginnt ___ (spät) als die Karnevalseröffnung. [填空]
 
-In Belgrad spielt Deutschland ohne Zuschauer — das ist ___ (leise) als ein Heimspiel in Berlin.
+58. In Belgrad spielt Deutschland ohne Zuschauer — das ist ___ (leise) als ein Heimspiel in Berlin. [填空]
 
-填空
+59. Klopp nennt den Kader ___ (früh) als das Spiel in Belgrad. [填空]
 
-früher
+### D　DIE UHRZEITEN
 
-früh → früher（11 月 5 日早于 11 月 13 日）
+*看上面的赛程表，选出正确答案。*
 
-Klopp nennt den Kader ___ (früh) als das Spiel in Belgrad.
+60. Serbien–Deutschland beginnt um... A. 20.45 Uhr · B. 18.45 Uhr · C. 15.30 Uhr
 
-填空
+61. Das NFL-Spiel in München beginnt um... A. 20.45 Uhr · B. 15.30 Uhr · C. 11.11 Uhr
 
-### D · DIE UHRZEITEN
+62. Deutschland–Niederlande ist am Montag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.45 Uhr
 
-看上面的赛程表，选出正确答案。
+63. Bayern–Köln beginnt am Freitag um... A. 20.30 Uhr · B. 15.30 Uhr · C. 18.30 Uhr
 
-塞尔维亚–德国周五 20:45
+64. Schalke–Stuttgart ist das Topspiel am Samstag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.30 Uhr
 
-Serbien–Deutschland beginnt um... A. 20.45 Uhr · B. 18.45 Uhr · C. 15.30 Uhr
+# Page 5
 
-NFL 周日 15:30
-
-Das NFL-Spiel in München beginnt um... A. 20.45 Uhr · B. 15.30 Uhr · C. 11.11 Uhr
-
-德国–荷兰周一 20:45
-
-Deutschland–Niederlande ist am Montag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.45 Uhr
-
-拜仁–科隆周五 20:30
-
-Bayern–Köln beginnt am Freitag um... A. 20.30 Uhr · B. 15.30 Uhr · C. 18.30 Uhr
-
-沙尔克–斯图加特周六 17:30
-
-Schalke–Stuttgart ist das Topspiel am Samstag um... A. 15.30 Uhr · B. 17.30 Uhr · C. 20.30 Uhr
-
-## Seite 5
-
-### JUGEND · 青年
+## JUGEND　青年
 
 Die Lucerna
 
-### LEVEL B1 · Laternen, Lieder & Schule · 灯笼、歌曲与学校
+*LEVEL B1　Laternen, Lieder & Schule　灯笼、歌曲与学校*
 
-Laternen basteln, Lieder singen: Die Woche der Kinder
+## Laternen basteln, Lieder singen: Die Woche der Kinder
 
-Von der Lucerna-Redaktion · Leseniveau: B1
+*Von der Lucerna-Redaktion　Leseniveau: B1*
 
 Am Montag, dem 9. November, sind alle wieder in der Schule: Auch in Bayern sind die Herbstferien jetzt vorbei. Die Rucksäcke sind gepackt, die Pausenhöfe sind wieder laut. Und in vielen Klassen wird schon gebastelt: Laternen für St. Martin.
 
@@ -702,175 +570,127 @@ Was macht man nach der Schule im dunklen November? Lesen, was man im Herbst bego
 
 Auch der Fußball gehört zur Woche: Am Freitag spielt die Nationalmannschaft in Belgrad — viele Jugendliche schauen das Spiel im Fernsehen. Wer in München wohnt, sieht am Sonntag vielleicht sogar die NFL-Stars in der Stadt. Mehr dazu auf Seite 4.
 
-basteln 制作 · der Pausenhof 课间操场 · sich verkleiden 乔装打扮 · die Stimmung 气氛 · der Pirat 海盗。
+> 译注｜basteln 制作 · der Pausenhof 课间操场 · sich verkleiden 乔装打扮 · die Stimmung 气氛 · der Pirat 海盗。
 
-### SCHULWOCHE · 开学周
+SCHULWOCHE　开学周
 
-### MARTINSWÖRTER · 圣马丁词汇
+Am 9. November sind alle Bundesländer wieder in der Schule.
 
-### UND SIE? · 说说你自己
+In vielen Klassen werden Laternen für St. Martin gebastelt.
+
+Am 11. November: Karneval am Vormittag, Laternen am Abend.
+
+MARTINSWÖRTER　圣马丁词汇
+
+die Laterne — 灯笼
+
+basteln — 制作
+
+das Lied — 歌曲
+
+das Kostüm — 服装
+
+der Umzug — 游行
+
+der Stern — 星星
+
+UND SIE?　说说你自己
+
+Und Sie? Haben Sie als Kind eine Laterne gebastelt? Welches Lied singen Sie im November? Schreiben Sie zwei Sätze auf Deutsch!
 
 你小时候做过灯笼吗？11 月你唱哪首歌？写两句德语寄来。
 
-### DER WOCHENPLAN DER REDAKTION · 编辑部一周计划
+DER WOCHENPLAN DER REDAKTION　编辑部一周计划
 
-### ÜBUNGEN · 第 5 版练习
+Mo 9.11.
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+Schule für alle: Auch Bayern ist wieder da.
 
-### A · LESEVERSTEHEN
+Di 10.11.
 
-读第 5 版文章，选出正确答案。
+Laternen basteln: Die Kitas bereiten den Umzug vor.
 
-11 月 9 日全德复课
+Mi 11.11.
 
-Wann sind alle wieder in der Schule? A. am 9. November · B. am 11. November · C. am 15. November
+Karneval um 11.11 Uhr, Laternen am Abend.
 
-孩子们做纸灯笼
+Do 12.11.
 
-Was basteln die Kinder? A. ein Kostüm · B. Laternen aus Papier · C. einen Kürbis
+Nach dem Fest: In der Schule wird erzählt und geschrieben.
 
-上午狂欢，下午圣马丁
+Fr 13.11.
 
-Was ist am 11. November richtig? A. Nur Karneval. · B. Karneval am Vormittag, St. Martin am Abend. · C. Nur St. Martin.
+Nations League: Serbien – Deutschland (20.45 Uhr, RTL).
 
-NFL 周日在电视上
+ÜBUNGEN　第5 版练习
 
-Was läuft am Sonntag im Fernsehen? A. die Bundesliga · B. die NFL · C. ein Film
+答案见第8 版　题目可跨级混排，按题号找答案
 
-周五看国家队比赛
+### A　LESEVERSTEHEN
 
-Was schauen viele Jugendliche am Freitag? A. die Nationalmannschaft in Belgrad · B. die NFL · C. den Karneval
+*读第 5 版文章，选出正确答案。*
 
-### B · WÖRTER AUS DEM TEXT
+65. Wann sind alle wieder in der Schule? A. am 9. November · B. am 11. November · C. am 15. November
 
-用方框里的词填空。
+66. Was basteln die Kinder? A. ein Kostüm · B. Laternen aus Papier · C. einen Kürbis
+
+67. Was ist am 11. November richtig? A. Nur Karneval. · B. Karneval am Vormittag, St. Martin am Abend. · C. Nur St. Martin.
+
+68. Was läuft am Sonntag im Fernsehen? A. die Bundesliga · B. die NFL · C. ein Film
+
+69. Was schauen viele Jugendliche am Freitag? A. die Nationalmannschaft in Belgrad · B. die NFL · C. den Karneval
+
+### B　WÖRTER AUS DEM TEXT
+
+*用方框里的词填空。*
 
 Laterne · basteln · Lied · Kostüm · Umzug · Stern
 
-Laterne
+70. Die Kinder tragen eine bunte ___ durch die Straßen. [填空]
 
-纸灯笼
+71. In der Schule ___ die Kinder Laternen. [填空]
 
-Die Kinder tragen eine bunte ___ durch die Straßen.
+72. Die Kinder singen ein Martins___. [填空]
 
-填空
+73. In Köln tragen die Kinder ein buntes ___. [填空]
 
-basteln
+74. Am Abend zieht der ___ durch die Straßen. [填空]
 
-做灯笼
+75. Auf der Laterne ist ein ___. [填空]
 
-In der Schule ___ die Kinder Laternen.
+### C　SÄTZE MIT «WEIL»
 
-填空
+*用 weil 连接两个句子（动词放句末）。*
 
-Lied
+76. Die Kinder freuen sich. St. Martin kommt. (weil) → ___ [改写]
 
-唱圣马丁歌曲
+77. Er bleibt zu Hause. Es ist dunkel. (weil) → ___ [改写]
 
-Die Kinder singen ein Martins___.
+78. Sie geht in die Bibliothek. Sie will ein Buch lesen. (weil) → ___ [改写]
 
-填空
+79. Köln feiert. Die Karnevalssession beginnt. (weil) → ___ [改写]
 
-Kostüm
+### D　RICHTIG ODER FALSCH?
 
-狂欢节服装
+*判断对错。*
 
-In Köln tragen die Kinder ein buntes ___.
+80. Auch in Bayern sind die Herbstferien am 9. November vorbei. Richtig oder falsch? [判断]
 
-填空
+81. Der Laternenumzug findet am Vormittag statt. Richtig oder falsch? [判断]
 
-Umzug
+82. Die Kinder singen Martinslieder. Richtig oder falsch? [判断]
 
-灯笼游行
+# Page 6
 
-Am Abend zieht der ___ durch die Straßen.
-
-填空
-
-Stern
-
-灯笼上的星星
-
-Auf der Laterne ist ein ___.
-
-填空
-
-### C · SÄTZE MIT «WEIL»
-
-用 weil 连接两个句子（动词放句末）。
-
-Die Kinder freuen sich, weil St. Martin kommt.
-
-weil 句动词置尾
-
-Die Kinder freuen sich. St. Martin kommt. (weil) → ___
-
-改写
-
-Er bleibt zu Hause, weil es dunkel ist.
-
-ist 置尾
-
-Er bleibt zu Hause. Es ist dunkel. (weil) → ___
-
-改写
-
-Sie geht in die Bibliothek, weil sie ein Buch lesen will.
-
-will 置尾
-
-Sie geht in die Bibliothek. Sie will ein Buch lesen. (weil) → ___
-
-改写
-
-Köln feiert, weil die Karnevalssession beginnt.
-
-beginnt 置尾
-
-Köln feiert. Die Karnevalssession beginnt. (weil) → ___
-
-改写
-
-### D · RICHTIG ODER FALSCH?
-
-判断对错。
-
-Richtig
-
-11 月 9 日巴伐利亚也复课
-
-Auch in Bayern sind die Herbstferien am 9. November vorbei. Richtig oder falsch?
-
-判断
-
-Falsch
-
-灯笼游行在晚上
-
-Der Laternenumzug findet am Vormittag statt. Richtig oder falsch?
-
-判断
-
-Richtig
-
-孩子们唱圣马丁歌曲
-
-Die Kinder singen Martinslieder. Richtig oder falsch?
-
-判断
-
-### VERTIEFUNG · 深读
+## VERTIEFUNG　深读
 
 Die Lucerna
 
-### LEVEL B2 · Volkstrauertag & Stromsteuer · 纪念日与电力税
+*LEVEL B2　Volkstrauertag & Stromsteuer　纪念日与电力税*
 
-## Seite 6
+## Stille am Sonntag: Was bedeutet der Volkstrauertag?
 
-Stille am Sonntag: Was bedeutet der Volkstrauertag?
-
-Von der Lucerna-Redaktion · Leseniveau: B2
+*Von der Lucerna-Redaktion　Leseniveau: B2*
 
 Am Sonntag, dem 15. November, ist Volkstrauertag: ein staatlicher Gedenktag. Die Menschen gedenken der Opfer von Gewalt und Krieg aller Nationen. In vielen Städten gibt es Gedenkstunden und Kranzniederlegungen. Der Tag liegt zwei Sonntage vor dem ersten Advent — und er ist ein stiller Tag.
 
@@ -884,526 +704,464 @@ Die Grünen hatten im April einen Entwurf zur Senkung für alle vorgelegt — de
 
 Zwei Themen, ein Muster: Gedenken und Energiepolitik betreffen fast jeden Haushalt. Am Sonntag ist es still im Land. Am Montag geht die Debatte weiter.
 
-gedenken 纪念 · die Kranzniederlegung 献花圈 · der stille Tag 安静日 · die Verbundenheit 联系 · die Versöhnung 和解。
+> 译注｜gedenken 纪念 · die Kranzniederlegung 献花圈 · der stille Tag 安静日 · die Verbundenheit 联系 · die Versöhnung 和解。
 
-### DIE ZAHLEN · 本周数字
+DIE ZAHLEN　本周数字
 
-### DIE DEBATTE IN EINEM SATZ
+15.11.
+
+Volkstrauertag — zwei Sonntage vor dem ersten Advent.
+
+1922
+
+erste Gedenkstunde im Reichstag in Berlin.
+
+13.30
+
+Uhr: Das ZDF überträgt die Gedenkstunde live.
+
+2,05
+
+Cent pro Kilowattstunde: Stromsteuer für Haushalte.
+
+0,05
+
+Cent: Stromsteuer für die Industrie seit 2026.
+
+27.11.
+
+Verabschiedung des Bundeshaushalts 2027 geplant.
+
+DIE DEBATTE IN EINEM SATZ
+
+Volkstrauertag: Gedenken braucht Stille — darüber sind sich fast alle einig. Stromsteuer: Wie stark sie sinkt, ist noch offen. Beides betrifft fast jeden Haushalt.
 
 纪念日：纪念需要安静——对此几乎人人赞同。电力税：降多少尚未确定。两者都关系到几乎每个家庭。
 
-### ZWEI SONNTAGE IM NOVEMBER · 十一月的两个周日
+ZWEI SONNTAGE IM NOVEMBER　十一月的两个周日
 
-### VOLKSTRAUERTAG — 15. NOVEMBER
+VOLKSTRAUERTAG — 15. NOVEMBER
 
-### TOTENSONNTAG — 22. NOVEMBER
+TOTENSONNTAG — 22. NOVEMBER
 
-### WAS INTERESSIERT DIE LESER? · 读者最关心什么？
+· Gedenken an die Opfer von Gewalt und Krieg aller Nationen.
 
-ÜBUNGSDATEN · 练习数据 — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage.（本图数字为编辑部练习示例，非真实调查。）
+· Zentrale Gedenkstunde im Bundestag, Kranzniederlegungen im ganzen Land.
 
-### ÜBUNGEN · 第 6 版练习
+· Evangelischer Gedenktag für die Verstorbenen.
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+· Eine Woche nach dem Volkstrauertag; dazwischen der Buß- und Bettag (18. November, Feiertag in Sachsen).
 
-### A · DAS DIAGRAMM LESEN
+WAS INTERESSIERT DIE LESER?　读者最关心什么？
 
-看上面的练习图表，选出正确答案。
+Nations League und NFL
 
-46% 足球最受关注
+足球
 
-Was interessiert die Leser am meisten (Übungsdaten)? A. Nations League und NFL · B. St. Martin · C. Volkstrauertag
+46 %
 
-节日 34% 第二
+St. Martin und Karneval
 
-Was ist die zweitgrößte Gruppe? A. Volkstrauertag · B. St. Martin und Karneval · C. Nations League
+节日
 
-46+34=80
+34 %
 
-Fußball und Feste zusammen sind... A. 66 % · B. 80 % · C. 100 %
+Volkstrauertag und Gedenken
 
-纪念 20% 最小
+纪念
 
-Welche Gruppe ist kleiner? A. Feste · B. Gedenken · C. beide gleich
+20 %
 
-纪念 20%
+ÜBUNGSDATEN　练习数据 — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage.（本图数字为编辑部练习示例，非真实调查。）
 
-Wie viele Prozent interessieren sich für den Volkstrauertag? A. 20 % · B. 34 % · C. 46 %
+ÜBUNGEN　第6 版练习
 
-46+34+20=100
+答案见第8 版　题目可跨级混排，按题号找答案
 
-Die drei Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %
+### A　DAS DIAGRAMM LESEN
 
-### B · LESEVERSTEHEN (B2)
+*看上面的练习图表，选出正确答案。*
 
-读第 6 版深读文章，选出正确答案。
+83. Was interessiert die Leser am meisten (Übungsdaten)? A. Nations League und NFL · B. St. Martin · C. Volkstrauertag
 
-11 月 15 日纪念日
+84. Was ist die zweitgrößte Gruppe? A. Volkstrauertag · B. St. Martin und Karneval · C. Nations League
 
-Wann ist Volkstrauertag? A. am 11. November · B. am 15. November · C. am 22. November
+85. Fußball und Feste zusammen sind... A. 66 % · B. 80 % · C. 100 %
 
-ZDF 13 点半直播纪念仪式
+86. Welche Gruppe ist kleiner? A. Feste · B. Gedenken · C. beide gleich
 
-Wer überträgt die Gedenkstunde ab 13.30 Uhr? A. das ZDF · B. RTL · C. die ARD
+87. Wie viele Prozent interessieren sich für den Volkstrauertag? A. 20 % · B. 34 % · C. 46 %
 
-家庭电力税 2.05 欧分
+88. Die drei Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %
 
-Wie hoch ist die Stromsteuer für Haushalte? A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent
+### B　LESEVERSTEHEN (B2)
 
-2027 年预算 11 月 27 日表决
+*读第 6 版深读文章，选出正确答案。*
 
-Wann soll der Bundeshaushalt 2027 verabschiedet werden? A. am 15. November · B. am 27. November · C. am 18. November
+89. Wann ist Volkstrauertag? A. 11. November · B. 15. November · C. 22. November
 
-### C · GRAMMATIK
+90. Wer überträgt die Gedenkstunde ab 13.30 Uhr? A. das ZDF · B. RTL · C. die ARD
 
-用括号里的形式填空。
+91. Wie hoch ist die Stromsteuer für Haushalte? A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent
 
-wird
+92. Wann soll der Bundeshaushalt 2027 verabschiedet werden? A. am 15. November · B. am 27. November · C. am 18. November
 
-被动：wird + Partizip II
+### C　GRAMMATIK
 
-Die Gedenkstunde ___ (werden) live übertragen.
+*用括号里的形式填空。*
 
-填空
+93. Die Gedenkstunde ___ (werden) live übertragen. [填空]
 
-ob
+94. Niemand weiß, ___ die Einigung gelingt. [填空]
 
-ob 引导间接疑问句
+95. Die Debatte ___ (gehen) weiter. [填空]
 
-Niemand weiß, ___ die Einigung gelingt.
+96. Steinmeier ___ (sprechen) das Totengedenken. [填空]
 
-填空
+### D　WÖRTER DER DEBATTE
 
-geht
-
-gehen → geht
-
-Die Debatte ___ (gehen) weiter.
-
-填空
-
-spricht
-
-sprechen → spricht
-
-Steinmeier ___ (sprechen) das Totengedenken.
-
-填空
-
-### D · WÖRTER DER DEBATTE
-
-用方框里的词填空。
+*用方框里的词填空。*
 
 Kranzniederlegung · Versöhnung · Verbundenheit · gedenken
 
-Kranzniederlegung
+97. In vielen Städten gibt es eine ___. [填空]
 
-献花圈仪式
+98. Gedenken heißt: für Frieden und ___ einstehen. [填空]
 
-In vielen Städten gibt es eine ___.
+99. Die Gedenkstunde steht im Zeichen der deutsch-österreichischen ___. [填空]
 
-填空
+100. Die Menschen ___ der Opfer von Gewalt und Krieg. [填空]
 
-Versöhnung
+# Page 7
 
-为和平与和解
-
-Gedenken heißt: für Frieden und ___ einstehen.
-
-填空
-
-Verbundenheit
-
-德奥联系
-
-Die Gedenkstunde steht im Zeichen der deutsch-österreichischen ___.
-
-填空
-
-gedenken
-
-纪念受害者
-
-Die Menschen ___ der Opfer von Gewalt und Krieg.
-
-填空
-
-## Seite 7
-
-### SPRACHE · 语言
+## SPRACHE　语言
 
 Die Lucerna
 
-### A2 → B2 · Sätze der Woche & Fehlerklinik · 本周金句与纠错诊所
+*A2 → B2　Sätze der Woche & Fehlerklinik　本周金句与纠错诊所*
 
 Diese Seite gehört der Sprache: drei kleine Lektionen, die Sätze der Woche aus dieser Ausgabe, unsere Fehlerklinik — und Ihre Briefe.
 
 本版专攻语言：三节小课、本期金句（全部摘自本期文章原文）、纠错诊所和读者来信。
 
-### A2 · UHRZEITEN & DATEN
+### A2　UHRZEITEN & DATEN
 
 So sagen Sie Uhrzeiten und Daten: Um 11.11 Uhr beginnt der Karneval. Am 15. November ist Volkstrauertag. Mit werden sprechen Sie über das Passiv: Um 20.45 Uhr wird in Belgrad gespielt. Die NFL wird in München gespielt.
 
-### BEISPIELE · 例句
+### BEISPIELE　例句
 
-„Um 11.11 Uhr beginnt der Karneval.“ · „Am Sonntag wird in München Football gespielt.“
+„Um 11.11 Uhr beginnt der Karneval.“　„Am Sonntag wird in München Football gespielt.“
 
-wird
+101. Am Freitag ___ in Belgrad gespielt. [填空]
 
-被动：wird + Partizip II
+102. Am 11. November ___ zwei Feste gefeiert. [填空]
 
-Am Freitag ___ in Belgrad gespielt.
+103. Die Karnevalssession ___ um 11.11 Uhr beginnen. [填空]
 
-填空
+104. „Es wird gespielt“ ist... A. Passiv · B. Perfekt · C. Imperativ
 
-werden
-
-复数：werden
-
-Am 11. November ___ zwei Feste gefeiert.
-
-填空
-
-wird
-
-werden + 原形表将来
-
-Die Karnevalssession ___ um 11.11 Uhr beginnen.
-
-填空
-
-被动语态
-
-„Es wird gespielt“ ist... A. Passiv · B. Perfekt · C. Imperativ
-
-### B1 · VERGLEICHE & GRÜNDE
+### B1　VERGLEICHE & GRÜNDE
 
 Vergleichen geht mit dem Komparativ: Die Nacht ist länger als der Tag. Gründe geben Sie mit weil: Ich bleibe zu Hause, weil es dunkel ist — das Verb steht am Ende des Satzes.
 
-### BEISPIELE · 例句
+### BEISPIELE　例句
 
-„Die Nacht ist länger als der Tag.“ · „Ich lese, weil das Buch spannend ist.“
+„Die Nacht ist länger als der Tag.“　„Ich lese, weil das Buch spannend ist.“
 
-länger
+105. Im November ist die Nacht ___ (lang) als der Tag. [填空]
 
-lang → länger（夜晚比白天长）
+106. Es wird früher dunkel, ___ die Tage kürzer werden. [填空]
 
-Im November ist die Nacht ___ (lang) als der Tag.
+107. Viele bleiben zu Hause. Es ist dunkel. (weil) → ___ [改写]
 
-填空
+108. „Länger als sonst“ heißt... A. 比平时更长 · B. 和平时一样 · C. 比平时更短
 
-weil
-
-weil 引导原因
-
-Es wird früher dunkel, ___ die Tage kürzer werden.
-
-填空
-
-Viele bleiben zu Hause, weil es dunkel ist.
-
-weil 句动词置尾
-
-Viele bleiben zu Hause. Es ist dunkel. (weil) → ___
-
-改写
-
-länger als = 比……更长
-
-„Länger als sonst“ heißt... A. 比平时更长 · B. 和平时一样 · C. 比平时更短
-
-### B2 · MEINUNG SAGEN
+### B2　MEINUNG SAGEN
 
 Eine Meinung sagen Sie höflich so: Meiner Meinung nach ... Oder: Ich finde, dass ... — bei dass steht das Verb am Ende! Nicht sicher? Dann: Es ist fraglich, ob ...
 
-### BEISPIELE · 例句
+### BEISPIELE　例句
 
-„Meiner Meinung nach braucht das Gedenken Stille.“ · „Niemand weiß, ob die Einigung gelingt.“
+„Meiner Meinung nach braucht das Gedenken Stille.“　„Niemand weiß, ob die Einigung gelingt.“
 
-ob
+109. Ich weiß nicht, ___ die Stromsteuer sinkt. [填空]
 
-ob 引导间接疑问
+110. Es ist ___ , ob sich Union und SPD einigen. [填空]
 
-Ich weiß nicht, ___ die Stromsteuer sinkt.
+111. Ich finde: Das Gedenken braucht Stille. (dass) → ___ [改写]
 
-填空
+112. „Das Gedenken braucht Stille“ höflich sagen: A. „Stille, sofort!“ · B. „Meiner Meinung nach braucht das Gedenken Stille.“ · C. „Die Politik macht alles falsch.“
 
-fraglich
+DER WERKZEUGKASTEN　工具箱
 
-Es ist fraglich, ob ... = 是否还难说
+11.11 Uhr = 11 点 11 分
 
-Es ist ___ , ob sich Union und SPD einigen.
+vor leeren Rängen = 空场，没有观众
 
-填空
+Es wird gespielt. = 比赛将进行（被动）
 
-Ich finde, dass das Gedenken Stille braucht.
+Meiner Meinung nach ... = 在我看来……
 
-dass 句动词置尾
+Ich finde, dass ... = 我觉得……
 
-Ich finde: Das Gedenken braucht Stille. (dass) → ___
+Es ist fraglich, ob ... = 是否……还难说
 
-改写
+LESERBRIEFE　读者来信
 
-礼貌表达观点
+Ein Beispiel der Redaktion!
 
-„Das Gedenken braucht Stille“ höflich sagen: A. „Stille, sofort!“ · B. „Meiner Meinung nach braucht das Gedenken Stille.“ · C. „Die Politik macht alles falsch.“
+Bis Redaktionsschluss keine Briefe oder Texte — sie erscheinen in VOL.4.
 
-### DER WERKZEUGKASTEN · 工具箱
+„Liebe Lucerna, am Mittwoch bastle ich eine Laterne. Am Abend singe ich mit meiner Klasse. Viele Grüße — die Redaktion“
 
-### LESERBRIEFE · 读者来信
+Schreiben Sie uns Ihre Sätze und Ihre Texte von Seite 8! Die besten echten Briefe drucken wir in VOL.4.
 
-### NOCH EIN WORT · 再学一词
+编辑部示例，非真实来信：截稿时未收到真实来信或习作，见 VOL.4。请寄来您的习作，优秀者刊登于 VOL.4。
+
+NOCH EIN WORT　再学一词
 
 «das Geisterspiel»（Seite 4）: ein Spiel ohne Zuschauer im Stadion. 空场比赛。
 
-### SÄTZE DER WOCHE · 本周金句
+SÄTZE DER WOCHE　本周金句
 
-原文摘录，逐字引自本期文章 · 括号内为出处
+原文摘录，逐字引自本期文章　括号内为出处
 
-### FEHLERKLINIK · 纠错诊所
+„Die Bundesliga pausiert — aber die Nationalmannschaft spielt.“
 
-学习者最常犯的四个错 · 先自己改，再看答案
+德甲休战——但国家队要比赛。
 
-### FALSCH
+Seite 4 · B1
 
-### RICHTIG
+„Um 11.11 Uhr beginnt in Köln die neue Karnevalssession.“
 
-### IN DER NÄCHSTEN AUSGABE · 下期预告 (VOL.4)
+11 点 11 分，科隆新一季狂欢季开幕。
+
+Seite 2 · A2
+
+„Sein Gedenktag ist der 11. November.“
+
+他的纪念日是 11 月 11 日。
+
+Seite 3 · A2
+
+„Die Rucksäcke sind gepackt, die Pausenhöfe sind wieder laut.“
+
+书包收拾好了，操场上又热闹起来。
+
+Seite 5 · B1
+
+„Der November ist dunkel, aber er ist nicht still: Er singt, leuchtet und feiert.“
+
+十一月黑暗，但并不安静：它歌唱、发光、庆祝。
+
+Seite 2 · A2
+
+„Das Spiel ist ausverkauft, RTL überträgt live.“
+
+比赛售罄，RTL 现场直播。
+
+Seite 4 · B1
+
+„Gedenken heißt hier: innehalten, erinnern — und für Frieden und Versöhnung einstehen.“
+
+这里的纪念意味着：停下来、记住——并为和平与和解挺身而出。
+
+Seite 6 · B2
+
+„Am Sonntag ist es still im Land.“
+
+周日，全国一片安静。
+
+Seite 6 · B2
+
+FEHLERKLINIK　纠错诊所
+
+学习者最常犯的四个错　先自己改，再看答案
+
+FALSCH
+
+Am Mittwoch die Kinder basteln Laternen.
+
+RICHTIG
+
+Am Mittwoch basteln die Kinder Laternen.
+
+动词第二位：主语不在句首时，动词仍居第二。
+
+FALSCH
+
+Halb zwölf ist 12.30 Uhr.
+
+RICHTIG
+
+Halb zwölf ist 11.30 Uhr.
+
+halb zwölf = 十一点半（zwölf 之前）。
+
+FALSCH
+
+Die Mannschaft ist nach Herzogenaurach gereist am Montag.
+
+RICHTIG
+
+Die Mannschaft ist am Montag nach Herzogenaurach gereist.
+
+Perfekt 中 Partizip II 放句末。
+
+FALSCH
+
+Er fragt, ob spielt Deutschland am Freitag?
+
+RICHTIG
+
+Er fragt, ob Deutschland am Freitag spielt.
+
+ob 从句动词放句末。
+
+IN DER NÄCHSTEN AUSGABE　下期预告 (VOL.4)
 
 Freitag, 20. November: Die Bundesliga kehrt zurück — Bayern gegen Köln. Dazu die Europapokal-Spieltage (24.–26. November), Buß- und Bettag, Totensonntag — und die Ergebnisse vom 3. bis 8. November. Und Ihre Briefe: Die besten echten Briefe erscheinen in VOL.4!
 
-## Seite 8
+# Page 8
 
-### ÜBUNGEN & ANTWORTEN · 练习与答案
+## ÜBUNGEN & ANTWORTEN　练习与答案
 
 Die Lucerna
 
-SCHLUSSTEST · 综合评估 · Alle Antworten unten auf dieser Seite 答案在本版下方
+*SCHLUSSTEST　综合评估　Alle Antworten unten auf dieser Seite 答案在本版下方*
 
-beginnt（第三人称单数）
+### A　LÜCKENTEXT　完形填空
 
-bastelt（第三人称单数）
+Lena freut sich auf die Novemberwoche. Am Montag (113)___ die Schule wieder, und Lena (114)___ eine Laterne aus Papier. Am Mittwoch (115)___ sie mit ihrer Klasse beim Laternenumzug mit und (116)___ Martinslieder. Am Freitagabend (117)___ sie Deutschland in Belgrad. Am Sonntag (118)___ sie die NFL in München im Fernsehen. In der Schule (119)___ Lena: „Die Woche war toll! Der Karneval (120)___ um 11.11 Uhr.“
 
-geht（第三人称单数）
+*选项：*
 
-singt（第三人称单数）
+113. A. beginnt · B. beginnen · C. begann
 
-schaut（第三人称单数）
+114. A. basteln · B. bastelt · C. bastelte
 
-sieht（第三人称单数）
+115. A. geht · B. gehen · C. ging
 
-erzählt（第三人称单数）
+116. A. singen · B. singt · C. sang
 
-beginnt（第三人称单数）
+117. A. schaut · B. schauen · C. schaute
 
-### A · LÜCKENTEXT · 完形填空
+118. A. sehen · B. sieht · C. sah
 
-Lena freut sich auf die Novemberwoche. Am Montag (N)___ die Schule wieder, und Lena (N)___ eine Laterne aus Papier. Am Mittwoch (N)___ sie mit ihrer Klasse beim Laternenumzug mit und (N)___ Martinslieder. Am Freitagabend (N)___ sie Deutschland in Belgrad. Am Sonntag (N)___ sie die NFL in München im Fernsehen. In der Schule (N)___ Lena: „Die Woche war toll! Der Karneval (N)___ um 11.11 Uhr.“
+119. A. erzählen · B. erzählt · C. erzählte
 
-选项：
+120. A. beginnt · B. beginnen · C. begann
 
-A. beginnt · B. beginnen · C. begann
+### B　WISSENSFRAGEN　综合问答
 
-A. basteln · B. bastelt · C. bastelte
+121. Die Karnevalssession beginnt um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr
 
-A. geht · B. gehen · C. ging
+122. Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München
 
-A. singen · B. singt · C. sang
+123. Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr
 
-A. schaut · B. schauen · C. schaute
+124. Der Volkstrauertag ist am... A. 15. November · B. 11. November · C. 22. November
 
-A. sehen · B. sieht · C. sah
+125. Die Stromsteuer für Haushalte beträgt... A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent
 
-A. erzählen · B. erzählt · C. erzählte
+126. Klopp nennt seinen Kader am... A. 13. November · B. 5. November · C. 9. November
 
-A. beginnt · B. beginnen · C. begann
+127. Die Gedenkstunde überträgt ab 13.30 Uhr... A. das ZDF · B. RTL · C. die ARD
 
-### B · WISSENSFRAGEN · 综合问答
+128. Der Totensonntag ist am... A. 15. November · B. 18. November · C. 22. November
 
-狂欢季 11 点 11 分开幕
-
-Die Karnevalssession beginnt um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr
-
-周五客战塞尔维亚
-
-Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München
-
-NFL 周日 15:30
-
-Das NFL-Spiel in München beginnt um... A. 11.11 Uhr · B. 20.45 Uhr · C. 15.30 Uhr
-
-纪念日 11 月 15 日
-
-Der Volkstrauertag ist am... A. 15. November · B. 11. November · C. 22. November
-
-家庭电力税 2.05 欧分
-
-Die Stromsteuer für Haushalte beträgt... A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent
-
-主教练 11 月 5 日公布名单
-
-Klopp nennt seinen Kader am... A. 13. November · B. 5. November · C. 9. November
-
-ZDF 13 点半直播纪念仪式
-
-Die Gedenkstunde überträgt ab 13.30 Uhr... A. das ZDF · B. RTL · C. die ARD
-
-亡灵主日 11 月 22 日
-
-Der Totensonntag ist am... A. 15. November · B. 18. November · C. 22. November
-
-### C · LESEVERSTEHEN · 阅读理解
+### C　LESEVERSTEHEN　阅读理解
 
 Familie Berger aus Stuttgart hat am Montag wieder Schule: Die Kinder gehen um halb acht aus dem Haus. Am Mittwoch bastelt die Familie eine Laterne aus Papier. Am Freitag schaut sie Deutschland in Belgrad im Fernsehen. Am Sonntag schaut sie das NFL-Spiel um 15.30 Uhr. „Eine Woche mit Laternen und Football“, sagt Frau Berger.
 
-halb acht = 7:30
+129. Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun
 
-Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun
+130. Was bastelt die Familie am Mittwoch? A. ein Kostüm · B. eine Laterne · C. einen Kürbis
 
-周三做灯笼
+131. Was schaut die Familie am Freitag? A. Deutschland in Belgrad · B. die NFL · C. den Karneval
 
-Was bastelt die Familie am Mittwoch? A. ein Kostüm · B. eine Laterne · C. einen Kürbis
+132. Wann schaut die Familie das NFL-Spiel? A. Samstag 18.30 Uhr · B. Sonntag 15.30 Uhr · C. Freitag 20.45 Uhr
 
-周五看德国队
+### D　SÄTZE BAUEN　造句
 
-Was schaut die Familie am Freitag? A. Deutschland in Belgrad · B. die NFL · C. den Karneval
+133. die Karnevalssession / beginnt / am Mittwoch → ___ [造句]
 
-NFL 周日 15:30
+134. wir / basteln / eine Laterne / aus Papier → ___ [造句]
 
-Wann schaut die Familie das NFL-Spiel? A. Samstag 18.30 Uhr · B. Sonntag 15.30 Uhr · C. Freitag 20.45 Uhr
+135. die Kinder / gehen / am Montag / wieder in die Schule → ___ [造句]
 
-### D · SÄTZE BAUEN · 造句
+136. am Sonntag / ist / Volkstrauertag / in ganz Deutschland → ___ [造句]
 
-Die Karnevalssession beginnt am Mittwoch.
+### E　ÜBERSETZEN　翻译
 
-时间状语，动词第二位
+137. Der Karneval beginnt um 11.11 Uhr in Köln.（译成中文） [翻译]
 
-die Karnevalssession / beginnt / am Mittwoch → ___
+138. Ich bastle am Mittwoch eine Laterne.（译成中文） [翻译]
 
-造句
+139. Die Schule hat am 9. November wieder begonnen.（译成中文） [翻译]
 
-Wir basteln eine Laterne aus Papier.
+140. 我周日看 NFL 比赛。（译成德语） [翻译]
 
-主谓宾顺序
+### F　WÖRTER PAAREN　词汇配对
 
-wir / basteln / eine Laterne / aus Papier → ___
+141–144 der Mantel — das Licht aus Papier, das die Kinder am Abend tragen / die Laterne — der warme Umhang, den Martin mit dem Bettler teilte / das Geisterspiel — die Aussöhnung nach einem Streit — Frieden zwischen Menschen / die Versöhnung — ein Spiel ohne Zuschauer im Stadion [把词和释义配对]
 
-造句
+### G　DIALOG　对话补全
 
-Die Kinder gehen am Montag wieder in die Schule.
+— Hallo, Lena! Bastelst du eine Laterne? — Ja, für St. Martin! Am Mittwoch gehen wir mit. — (145)___ du auch Martinslieder? — Ja, mit meiner Klasse. — Und was (146)___ ihr am Abend? — Wir singen und laufen mit den Laternen. Am Sonntag (147)___ wir Brezeln und schauen die NFL. — Lecker! Und was (148)___ du am Freitag? — Ich (149)___ Deutschland in Belgrad im Fernsehen!
 
-时间状语开头，动词第二位
+*选项：*
 
-die Kinder / gehen / am Montag / wieder in die Schule → ___
+145. A. singe · B. singst · C. singen
 
-造句
+146. A. macht · B. machen · C. machst
 
-Am Sonntag ist Volkstrauertag in ganz Deutschland.
+147. A. essen · B. esse · C. esst
 
-地点时间开头，动词第二位
+148. A. machen · B. machst · C. macht
 
-am Sonntag / ist / Volkstrauertag / in ganz Deutschland → ___
+149. A. schaue · B. schaust · C. schaut
 
-造句
-
-### E · ÜBERSETZEN · 翻译
-
-狂欢节 11 点 11 分在科隆开幕。
-
-beginnen = 开始
-
-Der Karneval beginnt um 11.11 Uhr in Köln.（译成中文）
-
-翻译
-
-我周三做一个灯笼。
-
-basteln = 制作
-
-Ich bastle am Mittwoch eine Laterne.（译成中文）
-
-翻译
-
-学校 11 月 9 日又开学了。
-
-wieder begonnen = 又开始
-
-Die Schule hat am 9. November wieder begonnen.（译成中文）
-
-翻译
-
-Am Sonntag schaue ich das NFL-Spiel.
-
-看比赛 = das Spiel schauen
-
-我周日看 NFL 比赛。（译成德语）
-
-翻译
-
-### F · WÖRTER PAAREN · 词汇配对
-
-der Mantel
-
-die Laterne
-
-das Geisterspiel
-
-die Versöhnung
-
-das Licht aus Papier, das die Kinder am Abend tragen
-
-der warme Umhang, den Martin mit dem Bettler teilte
-
-die Aussöhnung nach einem Streit — Frieden zwischen Menschen
-
-ein Spiel ohne Zuschauer im Stadion
-
-Mantel=斗篷 b
-
-Laterne=灯笼 a
-
-Geisterspiel=空场比赛 d
-
-Versöhnung=和解 c
-
-把词和释义配对
-
-singst（第二人称单数）
-
-macht（第二人称复数）
-
-essen（第一人称复数）
-
-machst（第二人称单数）
-
-schaue（第一人称单数）
-
-### G · DIALOG · 对话补全
-
-— Hallo, Lena! Bastelst du eine Laterne? — Ja, für St. Martin! Am Mittwoch gehen wir mit. — (N)___ du auch Martinslieder? — Ja, mit meiner Klasse. — Und was (N)___ ihr am Abend? — Wir singen und laufen mit den Laternen. Am Sonntag (N)___ wir Brezeln und schauen die NFL. — Lecker! Und was (N)___ du am Freitag? — Ich (N)___ Deutschland in Belgrad im Fernsehen!
-
-选项：
-
-A. singe · B. singst · C. singen
-
-A. macht · B. machen · C. machst
-
-A. essen · B. esse · C. esst
-
-A. machen · B. machst · C. macht
-
-A. schaue · B. schaust · C. schaut
-
-开放题 — 要点见写作框，范文在第 8 版写作框内 (按要点给分)
-
-### H · SCHREIBEN · 写作
+H　SCHREIBEN　写作
 
 Schreiben Sie einen kurzen Text (80 bis 100 Wörter): «Meine Novemberwoche». Erzählen Sie: Was basteln Sie? Welche Spiele schauen Sie? Mit wem? Schreiben Sie auch einen Satz über St. Martin oder den Volkstrauertag! Die besten Texte drucken wir in VOL.4 (Seite 7, «Leserbriefe»).
 
 用德语写 80–100 词：《我的十一月的一周》。写清做什么手工、看哪几场比赛、和谁一起，并写一句关于圣马丁节或纪念日的话。
 
-### MUSTER · 范文（84 Wörter）
+MUSTER　范文（84 Wörter）
 
 In dieser Woche bastle ich eine Laterne. Am Mittwoch singe ich mit meiner Klasse Martinslieder und gehe beim Laternenumzug mit. Am Freitag schaue ich mit meiner Familie Deutschland in Belgrad im Fernsehen. Das Spiel ist ein Geisterspiel — ohne Zuschauer. Am Sonntag schaue ich die NFL in München im Fernsehen. Die Lions spielen gegen die Patriots. Der Karneval beginnt um 11.11 Uhr in Köln. Am Sonntag esse ich Brezeln und trinke Apfelschorle. Am Montag gehe ich wieder in die Schule. Die Woche macht Spaß!
 
-### ANTWORTEN · 全部答案与简析（第 1–8 版）
+ANTWORTEN　全部答案与简析（第1–8 版）
+
+— 第 1 版 —
+
+1. Länderspielpause（国家队比赛周） · 2. Belgrad（塞尔维亚首都） · 3. Karnevals（狂欢季 11 点 11 分开幕） · 4. München（NFL 在慕尼黑） · 5. fünf（四轮 5 分） · 6. Volkstrauertag（周日是纪念日） · 7. B（周五客战塞尔维亚） · 8. C（NFL 下午 3 点半开球） · 9. A（狂欢季 11 点 11 分开幕） · 10. A（纪念日在周日）
+
+— 第 2 版 —
+
+11. 11.11（狂欢季 11 点 11 分开幕） · 12. 10.30（WDR 10 点半直播） · 13. 15.30（NFL 下午 3 点半开球） · 14. 11. November（圣马丁节 11 月 11 日） · 15. Mittwoch（11 月 11 日是星期三） · 16. Der Karneval hat in Köln begonnen.（beginnen → begonnen） · 17. Die Kinder haben Martinslieder gesungen.（singen → gesungen） · 18. Wir haben eine Laterne gebastelt.（basteln → gebastelt） · 19. Martin hat seinen Mantel geteilt.（teilen → geteilt） · 20. Viele Familien haben Martinsgans gegessen.（essen → gegessen） · 21. B（WDR 10 点半直播） · 22. B（Weckmann 是面人面包） · 23. A（11 月 11 日不是法定假日） · 24. B（圣马丁鹅配红甘蓝和丸子） · 25. c（Jeck=狂欢者 c） · 26. a（Laterne=灯笼 a） · 27. b（Weckmann=面人面包 b） · 28. d（Martinsgans=圣马丁鹅 d）
+
+— 第 3 版 —
+
+29. Richtig（传说马丁是罗马士兵） · 30. Falsch（传说鹅叫声暴露了他） · 31. Richtig（纪念日 11 月 11 日） · 32. Falsch（截稿时 11 月 3–8 日结果未知） · 33. Richtig（狂欢季 11 点 11 分开幕） · 34. Mantel（斗篷分给乞丐） · 35. Laterne（纸灯笼） · 36. Gans（圣马丁鹅） · 37. Kostüm（狂欢节服装） · 38. Martinsfeuer（游行在篝火处结束） · 39. B（马丁后来成为图尔主教） · 40. B（灯笼游行常在前后晚上举行） · 41. A（圣马丁鹅配红甘蓝和丸子） · 42. A（VOL.4 报道 11 月 3–8 日结果） · 43. Martin teilte seinen Mantel mit einem Bettler.（主谓宾顺序） · 44. Die Kinder basteln bunte Laternen aus Papier.（主谓宾顺序） · 45. Am 11. November beginnt die Karnevalssession in Köln.（时间状语开头，动词第二位） · 46. Am Martinsfeuer endet der Laternenumzug.（地点开头，动词第二位）
+
+— 第 4 版 —
+
+47. B（德国 5 分，荷兰希腊各 8 分） · 48. B（主教练 11 月 5 日公布名单） · 49. C（贝尔格莱德空场） · 50. A（首回合德国 2:0 胜塞尔维亚） · 51. B（NFL 慕尼黑赛售罄） · 52. b（Geisterspiel=空场比赛 b） · 53. a（Hinspiel=首回合 a） · 54. c（Ausrüster=装备赞助商 c） · 55. d（ausverkauft=售罄 d） · 56. mehr（viel → mehr（荷兰 8 分多于德国 5 分）） · 57. später（spät → später（15:30 晚于 11:11）） · 58. leiser（leise → leiser（空场比主场安静）） · 59. früher（früh → früher（11 月 5 日早于 11 月 13 日）） · 60. A（塞尔维亚–德国周五 20:45） · 61. B（NFL 周日 15:30） · 62. C（德国–荷兰周一 20:45） · 63. A（拜仁–科隆周五 20:30） · 64. B（沙尔克–斯图加特周六 17:30）
+
+— 第 5 版 —
+
+65. A（11 月 9 日全德复课） · 66. B（孩子们做纸灯笼） · 67. B（上午狂欢，下午圣马丁） · 68. B（NFL 周日在电视上） · 69. A（周五看国家队比赛） · 70. Laterne（纸灯笼） · 71. basteln（做灯笼） · 72. Lied（唱圣马丁歌曲） · 73. Kostüm（狂欢节服装） · 74. Umzug（灯笼游行） · 75. Stern（灯笼上的星星） · 76. Die Kinder freuen sich, weil St. Martin kommt.（weil 句动词置尾） · 77. Er bleibt zu Hause, weil es dunkel ist.（ist 置尾） · 78. Sie geht in die Bibliothek, weil sie ein Buch lesen will.（will 置尾） · 79. Köln feiert, weil die Karnevalssession beginnt.（beginnt 置尾） · 80. Richtig（11 月 9 日巴伐利亚也复课） · 81. Falsch（灯笼游行在晚上） · 82. Richtig（孩子们唱圣马丁歌曲）
+
+— 第 6 版 —
+
+83. A（46% 足球最受关注） · 84. B（节日 34% 第二） · 85. B（46+34=80） · 86. B（纪念 20% 最小） · 87. A（纪念 20%） · 88. B（46+34+20=100） · 89. B（11 月 15 日纪念日） · 90. A（ZDF 13 点半直播纪念仪式） · 91. B（家庭电力税 2.05 欧分） · 92. B（2027 年预算 11 月 27 日表决） · 93. wird（被动：wird + Partizip II） · 94. ob（ob 引导间接疑问句） · 95. geht（gehen → geht） · 96. spricht（sprechen → spricht） · 97. Kranzniederlegung（献花圈仪式） · 98. Versöhnung（为和平与和解） · 99. Verbundenheit（德奥联系） · 100. gedenken（纪念受害者）
+
+— 第 7 版 —
+
+101. wird（被动：wird + Partizip II） · 102. werden（复数：werden） · 103. wird（werden + 原形表将来） · 104. A（被动语态） · 105. länger（lang → länger（夜晚比白天长）） · 106. weil（weil 引导原因） · 107. Viele bleiben zu Hause, weil es dunkel ist.（weil 句动词置尾） · 108. A（länger als = 比……更长） · 109. ob（ob 引导间接疑问） · 110. fraglich（Es ist fraglich, ob ... = 是否还难说） · 111. Ich finde, dass das Gedenken Stille braucht.（dass 句动词置尾） · 112. B（礼貌表达观点）
+
+— 第 8 版 —
+
+113. A（beginnt（第三人称单数）） · 114. B（bastelt（第三人称单数）） · 115. A（geht（第三人称单数）） · 116. B（singt（第三人称单数）） · 117. A（schaut（第三人称单数）） · 118. B（sieht（第三人称单数）） · 119. B（erzählt（第三人称单数）） · 120. A（beginnt（第三人称单数）） · 121. A（狂欢季 11 点 11 分开幕） · 122. B（周五客战塞尔维亚） · 123. C（NFL 周日 15:30） · 124. A（纪念日 11 月 15 日） · 125. B（家庭电力税 2.05 欧分） · 126. B（主教练 11 月 5 日公布名单） · 127. A（ZDF 13 点半直播纪念仪式） · 128. C（亡灵主日 11 月 22 日） · 129. A（halb acht = 7:30） · 130. B（周三做灯笼） · 131. A（周五看德国队） · 132. B（NFL 周日 15:30） · 133. Die Karnevalssession beginnt am Mittwoch.（时间状语，动词第二位） · 134. Wir basteln eine Laterne aus Papier.（主谓宾顺序） · 135. Die Kinder gehen am Montag wieder in die Schule.（时间状语开头，动词第二位） · 136. Am Sonntag ist Volkstrauertag in ganz Deutschland.（地点时间开头，动词第二位） · 137. 狂欢节 11 点 11 分在科隆开幕。（beginnen = 开始） · 138. 我周三做一个灯笼。（basteln = 制作） · 139. 学校 11 月 9 日又开学了。（wieder begonnen = 又开始） · 140. Am Sonntag schaue ich das NFL-Spiel.（看比赛 = das Spiel schauen） · 141. b（Mantel=斗篷 b） · 142. a（Laterne=灯笼 a） · 143. d（Geisterspiel=空场比赛 d） · 144. c（Versöhnung=和解 c） · 145. B（singst（第二人称单数）） · 146. A（macht（第二人称复数）） · 147. A（essen（第一人称复数）） · 148. B（machst（第二人称单数）） · 149. A（schaue（第一人称单数）） · 150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）
