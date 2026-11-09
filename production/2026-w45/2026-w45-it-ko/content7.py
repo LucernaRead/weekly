@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-it-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · LINGUA (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("LINGUA · 언어", "La Lucerna", "언어 집중 · Tre livelli, tre strumenti · 세 단계, 세 가지 도구")
+p.band("LINGUA　언어", "La Lucerna", "언어 집중　Tre livelli, tre strumenti　세 단계, 세 가지 도구")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · IL TEMPO CHE FA", 24)
+a.head("A2　IL TEMPO CHE FA", 24)
 a.para("Per il tempo usiamo verbi impersonali, sempre alla terza persona singolare: fa freddo, fa caldo, piove, nevica, c'è vento. Non si dice «sono freddo»: si dice «ho freddo» (io) e «fa freddo» (fuori).", 21.5)
 a.para("E per vestirsi: metto il cappotto, metti la sciarpa, mette i guanti. Il verbo è mettere, regolare.", 21.5)
 a.bridge("날씨는 무인칭 동사 (3인칭 단수)를 써요. '나는 추워요'는 ho freddo, '밖이 추워요'는 fa freddo예요.")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · IL PASSATO PROSSIMO", 24)
+b.head("B1　IL PASSATO PROSSIMO", 24)
 b.para("Per raccontare il freddo usiamo il passato prossimo: ausiliare + participio. Con essere — per verbi come arrivare e andare — il participio cambia con la persona: è arrivato (il freddo), sono andati (i pasticceri).", 21.5)
 b.para("Con avere: abbiamo assaggiato, ha aperto. Il participio con avere non cambia.", 21.5)
 b.bridge("과거 이야기는 근과거를 써요: arrivare, andare 같은 동사는 essere를 쓰고 분사는 성과 수에 맞춰요. avere의 분사는 변하지 않아요.")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · IL CONGIUNTIVO", 24)
+c.head("B2　IL CONGIUNTIVO", 24)
 c.para("Con «è probabile che», «è possibile che» e «bisogna che» usiamo il congiuntivo: piova (piovere), nevichi (nevicare), sia (essere). È la grammatica della probabilità, la stessa di pagina 6.", 21.5)
 c.para("Ma dopo «so che» e «i giornali scrivono che» resta l'indicativo: il freddo arriva, la finale è a Milano. Opinioni sì, fatti con l'indicativo.", 21.5)
 c.bridge("è probabile che, è possibile che, bisogna che 뒤에는 접속법을 써요. so che, scrivono che 뒤에는 직설법을 써요.")
@@ -68,27 +68,27 @@ errs = [
     ("«La gente sono infreddoliti.»", "→ «La gente è infreddolita.» Gente è singolare, come un solo gruppo.", "gente는 단수예요. 단수 여성형으로 써요."),
 ]
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 194
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERRORI TIPICI · 자주 하는 실수", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERRORI TIPICI　자주 하는 실수", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 26
 wt = "« l'assaggio » è la prova di un cibo: un piccolo pezzo per decidere se piace. Questa settimana vive a pagina 3, alla finale del Panettone."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("assaggio = 맛보기예요. 3면 파네토네 결승에서 무료로 맛봐요.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "LA PAROLA · 이번 주 단어", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "LA PAROLA　이번 주 단어", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "assaggio = 맛보기예요. 3면 파네토네 결승에서 무료로 맛봐요.", 20, "sans", False, GREY, CW - 44, 1.42)
 ly = wy + wh + 26
 lt = "«Ciao! Sono Li, studio italiano a Pechino. Lunedì metto il cappotto e la sciarpa, sabato assaggio il panettone — almeno in foto!» — Li (esempio della redazione)"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("편집부 예시예요. 실제 편지도 8면 우수 작문도 아직 없어요. 편지를 보내 주세요! VOL.3에 실어요!", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "LETTERE DEI LETTORI", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -98,8 +98,8 @@ print("P7 col3 ends", ly + lh)
 
 # ---- frasi della settimana (verbatim from this issue) ----
 fy = 1700
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "FRASI DELLA SETTIMANA · 이번 주 문장 (이번 호 기사에서 그대로)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "FRASI DELLA SETTIMANA　이번 주 문장 (이번 호 기사에서 그대로)", 27, "sans", True, OLIVE)
 quotes = [
     ("«arriva il primo freddo vero della stagione»", "첫 진짜 추위가 찾아왔어요.", "Pagina 1"),
     ("«Non è una certezza, è una probabilità»", "이건 확실한 게 아니라 확률이에요.", "Pagina 1"),
@@ -119,9 +119,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- prossima settimana ----
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "LA PROSSIMA SETTIMANA · 다음 호 예고 (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della pagina 8. A lunedì!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "LA PROSSIMA SETTIMANA　다음 호 예고 (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "Lunedì 9 novembre: chiude il Festival dei Popoli a Firenze. La Festa del Torrone continua a Cremona fino al 22 novembre. E poi: le vostre lettere vere e i testi migliori della pagina 8. A lunedì!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-lingua.svg")
 print("P7 saved, exercises so far:", len(REG))

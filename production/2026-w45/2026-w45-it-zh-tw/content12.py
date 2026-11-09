@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-it-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · PRIMA PAGINA (A2) =================
@@ -11,30 +11,30 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2 · SECONDA EDIZIONE", 23, "sans", True, OLIVE)
-p.text(975, 92, "OGNI SETTIMANA IN ITALIANO · 每週一期 · 讀義大利人正在讀的義大利語", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "SETTIMANA DAL 2 ALL'8 NOVEMBRE 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "La Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "意 大 利 語 週 報 · VOL.2 · IL PRIMO FREDDO · IL PANETTONE · LA SERIE A", 46, "serif", True, INK, anchor="middle")
-p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 2　SECONDA EDIZIONE", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "OGNI SETTIMANA IN ITALIANO　每週一期　讀義大利人正在讀的義大利語", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SETTIMANA DAL 2 ALL'8 NOVEMBRE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "意大利語週報　VOL.2　IL PRIMO FREDDO　IL PANETTONE　LA SERIE A", 36, "serif", True, OLIVE, anchor="middle", spacing=9.2)
+p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "ARRIVA IL PRIMO FREDDO!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "La settimana in cui l'Italia si copre: freddo, piogge e la prima neve in montagna.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "本週迎來第一場寒冷", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "初寒之週 · 詳見第 2 版", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "ARRIVA IL PRIMO FREDDO!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "La settimana in cui l'Italia si copre: freddo, piogge e la prima neve in montagna.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "本週迎來第一場寒冷", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "初寒之週　詳見第2版", 18, "sans", False, GOOSE, anchor="end")
 
 # pairing badge (W43 IT x ZH-TW geometry: inserted y=574, 22pt bold BRICK)
-p.text(975, 574, "義大利語正文 · 繁體中文講解 — 給繁體中文讀者的版本", 22, "sans", True, BRICK, anchor="middle")
+p.text(975, 612, "義大利語正文　繁體中文講解 — 給繁體中文讀者的版本", 16, "sans", True, GREY, anchor="middle")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "LA NOTIZIA · 頭條", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Arriva il primo freddo: l'Italia si copre e si mette a tavola", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Dalla redazione de La Lucerna · Livello di lettura: A2", 20, "sans", False, GREY)
+hy = 610
+p.text(MX, hy + 26, "LA NOTIZIA　頭條", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Arriva il primo freddo: l'Italia si copre e si mette a tavola", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Dalla redazione de La Lucerna　Livello di lettura: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Lunedì 2 novembre l'Italia cambia faccia: arriva il primo freddo vero della stagione, con piogge sul versante adriatico e la prima neve leggera in montagna, intorno ai 1.300–1.500 metri.")
@@ -44,13 +44,13 @@ f.para("Sabato 7 e domenica 8 novembre, a Milano, c'è la finale della Coppa del
 f.para("E lo sport chiude la settimana: l'undicesima giornata di Serie A si gioca da venerdì 6 a domenica 8 novembre, con Genoa–Milan, Inter–Como e Fiorentina–Juventus domenica 8 novembre.")
 f.para("Questa è la seconda edizione de La Lucerna in italiano: ogni settimana leggiamo l'Italia vera con te. Benvenuti al freddo!")
 f.expl("講解｜il primo freddo 第一場寒冷 · il versante adriatico 亞得里亞海一側 · la previsione 預報 · assaggi 品嚐。")
-f.box("LA SETTIMANA IN CIFRE · 數字看本週", [
+f.box("LA SETTIMANA IN CIFRE　數字看本週", [
     ("1.300–1.500 — i metri di quota dove può cadere la prima neve leggera（可能下初雪的海拔）", "serif", False, INK, 20.5, 1.35),
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre（米蘭文化論壇 50 多場活動）", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano（參加米蘭潘妮託尼決賽的國家數）", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana（本週末意甲第 11 輪）", "serif", False, INK, 20.5, 1.35),
 ])
-f.head("ADESSO TU · 即學即練", 25)
+f.head("ADESSO TU　即學即練", 25)
 f.ex("A2", "完成句子", "freddo", "il primo freddo = 第一場寒冷",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)
 f.ex("A2", "完成句子", "neve", "la prima neve leggera = 初雪",
@@ -67,11 +67,11 @@ f.end_report()
 
 # ---- la settimana (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "LA SETTIMANA", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "GIORNO PER GIORNO", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "本週日程 · Cosa succede, giorno per giorno", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "本週日程　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
 sett = [
     "LUN 2 — Commemorazione dei defunti; scuole chiuse in alcune regioni.",
     "MAR 3 — Apre il Forum Cultura a Milano; in serata, le coppe europee.",
@@ -89,8 +89,8 @@ p.text(gx + 22, byy + 76, "日程以各活動日曆為準，時間可能有變�
 
 # ---- sommario (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO · 本期目錄", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　本期目錄", 24, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Il freddo e il 2 novembre", "A2"),
     ("Pag. 3", "Panettone e torrone", "A2→B1"),
@@ -102,7 +102,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -110,29 +110,30 @@ for pg, t, lv in som:
 # ---- parola della settimana (col 3) ----
 my = 1652
 p.text(gx, my + 24, "LA PAROLA DELLA SETTIMANA", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "« il primo freddo » : il primo freddo serio dopo un autunno mite. Questa settimana ha un programma: cultura, dolci, calcio.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "「第一場寒冷」：溫和秋天後的第一波寒冷。", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« il primo freddo »", 21.5, "serif", False, INK, italic=True)
+y2 = p.para(gx, my + 108, "il primo freddo serio dopo un autunno mite. Questa settimana ha un programma: cultura, dolci, calcio.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, y2 + 4, "「第一場寒冷」：溫和秋天後的第一波寒冷。", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1864, LINE, 1.2)
 iy = 1874
 ix, iw = span_x(0, 2)
-p.rect(ix, iy, iw, 320, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, iy, iw, 320, fill=BOX)
 illus_frost(p, ix + iw // 2 - 70, iy + 80, 2.0)
 caption(p, ix, iy + 320, iw,
         "Il fiocco di neve: la prima neve leggera può cadere in montagna, intorno ai 1.300–1.500 metri. In pianura, per ora, arriva solo il freddo — e la voglia di dolci caldi. (Pagina 2)",
         "Disegno della redazione")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-freddo")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-freddo")
 f2.head("IL FREDDO È ARRIVATO", 25)
 f2.para("Giornate più corte, la prima neve in montagna, i musei che aprono le porte e le piazze che profumano di dolci: l'Italia di novembre mostra questa settimana tutto il suo programma.", 22.5)
 f2.para("Il suo regalo per i lettori è un weekend di assaggi. Prendilo — e continua a leggere a pagina 2!", 22.5)
 f2.end_report()
 # col 3 IN BREVE
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "IN BREVE · 快訊", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "IN BREVE　快訊", 24, "sans", True, OLIVE)
 brefs = [
     ("FREDDO", "Lunedì 2 novembre arriva il primo freddo: piogge adriatiche, neve in montagna. (Pagina 2)"),
     ("CULTURA", "Il Forum Cultura apre martedì 3 novembre: più di 50 eventi. (Pagina 5)"),
@@ -140,15 +141,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz lampo ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "QUIZ LAMPO · 閃電問答", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "讀頭版，選出正確答案 · 答案見第 8 版", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "QUIZ LAMPO　閃電問答", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "讀頭版，選出正確答案　答案見第8版", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "單選", "A", "第一場寒冷在週一 11 月 2 日到來",
       "Il primo freddo arriva... A. lunedì 2 novembre · B. sabato 7 novembre · C. domenica 1° novembre", size=21)
 qf.ex("A2", "單選", "B", "初雪在 1300–1500 米左右",
@@ -165,11 +166,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · VITA (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("VITA · 生活", "La Lucerna", "LIVELLO A2 · Il primo freddo e il 2 novembre · 初寒與追思日")
+p.band("VITA　生活", "La Lucerna", "LIVELLO A2　Il primo freddo e il 2 novembre　初寒與追思日")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Il primo freddo: come ci si veste e che cosa si mangia", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: A2")
+f.title("Il primo freddo: come ci si veste e che cosa si mangia", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: A2")
 f.para("Il primo freddo si sente subito: la mattina l'aria è pungente, la sera il buio arriva presto. Allora gli italiani tirano fuori dall'armadio il cappotto, la sciarpa e i guanti. Vestirsi «a strati» è la regola: una maglia, un maglione e, sopra, il cappotto.")
 f.para("In casa si accendono i termosifoni. La sera, la cucina profuma di zuppe e di castagne arrosto: il freddo porta con sé i piatti caldi dell'autunno. E al mattino, prima di uscire, tutti guardano il cielo — e il telefono, per le previsioni.")
 f.para("Il lunedì di questa settimana è un giorno speciale: il 2 novembre è la Commemorazione dei defunti, il giorno in cui gli italiani ricordano le persone care che non ci sono più. Molti portano i crisantemi al cimitero: è il fiore di novembre.")
@@ -178,7 +179,7 @@ f.head("E LA SETTIMANA SCORSA?", 25)
 f.para("La settimana scorsa si è chiusa con due appuntamenti attesi: la 60ª edizione di Lucca Comics & Games, dal 28 ottobre al 1° novembre, e la festa di Ognissanti, domenica 1° novembre. Quest'anno Ognissanti è caduta di domenica: niente ponte, come avevamo previsto nel VOL.1.", 23.5)
 f.para("Anche la manovra, la legge di bilancio, era attesa al voto intorno al 28 ottobre: il punto difficile resta il contributo di banche e assicurazioni. Al momento di andare in stampa, l'esito non era ancora confermato: ne parliamo a pagina 6.", 23.5)
 f.expl("發稿時表決結果尚未確認，詳見第 6 版。")
-f.box("LA FRASE PER RICORDARE · 口訣", [
+f.box("LA FRASE PER RICORDARE　口訣", [
     ("«Fa freddo, copriti bene!» Così dicono le nonne italiane: quando arriva il primo freddo, il consiglio è uno solo — vestirsi bene, a strati.", "serif", False, INK, 21.5, 1.4),
 ])
 f.gloss("il cappotto 大衣 · la sciarpa 圍巾 · i guanti 手套 · a strati 分層穿衣 · il termosifone 暖氣片 · il crisantemo 菊花")
@@ -191,7 +192,7 @@ facts = ["Il primo freddo porta piogge sul versante adriatico e neve leggera in 
          "In alcune regioni il 2 novembre è festa per le scuole; in altre è un lunedì normale."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LO SAPEVI?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -200,9 +201,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Che cosa metti quando arriva il primo freddo: cappotto, sciarpa o guanti? Scrivi due frasi in italiano e mandale alla redazione: le migliori escono nel VOL.3 (pagina 7, «Lettere dei lettori»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("初寒來了你穿什麼：大衣、圍巾還是手套？寫兩句義大利語寄給編輯部。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · 說說你自己", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　說說你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "初寒來了你穿什麼：大衣、圍巾還是手套？寫兩句義大利語寄給編輯部。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -210,19 +211,19 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Il 2 novembre wide box ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "IL 2 NOVEMBRE · 追思日", 28, "sans", True, OLIVE)
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "IL 2 NOVEMBRE　追思日", 28, "sans", True, OLIVE)
 p.text(RIGHT, dy + 28, "Un giorno di memoria, in tutta Italia", 20, "sans", False, GREY, anchor="end")
 p.para(MX, dy + 72, "Il 2 novembre, il giorno dopo Ognissanti, gli italiani vanno al cimitero con i crisantemi: fiori bianchi, gialli e viola per ricordare chi non c'è più. È un giorno silenzioso, di famiglia. Le scuole, in molte regioni, restano chiuse — e il lunedì comincia piano, con il primo freddo.", 22.5, "serif", False, INK, RIGHT - MX, 1.45)
 p.para(MX, dy + 196, "Attenzione alla parola: «defunto» è una parola gentile per dire «morto». «Commemorazione» vuol dire «ricordo insieme»: si commemora una persona, si ricorda un giorno.", 21, "serif", False, INK, RIGHT - MX, 1.45)
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · 第 2 版練習", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · CHE COSA SERVE?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　第2版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P2-ex")
+e.head("A　CHE COSA SERVE?", 25)
 e.expl("用義大利語補全句子。")
 e.ex("A2", "完成句子", "cappotto", "cappotto = 大衣",
      "Quando fa freddo, metto il ___.", instr="填空", size=20, gap=8)
@@ -234,7 +235,7 @@ e.ex("A2", "完成句子", "crisantemi", "crisantemi = 菊花（複數）",
      "Il 2 novembre portiamo i ___ al cimitero.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "termosifoni", "termosifoni = 暖氣片（複數）",
      "In casa si accendono i ___.", instr="填空", size=20, gap=8)
-e.head("B · IL PRESENTE", 25)
+e.head("B　IL PRESENTE", 25)
 e.expl("補全動詞的現在時形式。")
 e.ex("A2", "完成句子", "fa", "fare freddo：fa freddo（天氣）",
      "La mattina ___ freddo.", instr="填空", size=20, gap=8)
@@ -246,7 +247,7 @@ e.ex("A2", "完成句子", "guardano", "guardare：loro → guardano",
      "Tutti ___ il cielo prima di uscire.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "resta", "restare：la scuola → resta（lei）",
      "In molte regioni, la scuola ___ chiusa il 2 novembre.", instr="填空", size=20, gap=8)
-e.head("C · COMPRENSIONE", 25)
+e.head("C　COMPRENSIONE", 25)
 e.expl("讀第 2 版文章，選出正確答案。")
 e.ex("A2", "單選", "B", "11 月 2 日是追思日",
      "Il 2 novembre è... A. Ognissanti · B. la Commemorazione dei defunti · C. il primo giorno di scuola", size=20, gap=8)
@@ -256,7 +257,7 @@ e.ex("A2", "單選", "C", "分層穿衣：a strati",
      "Vestirsi «a strati» vuol dire... A. vestirsi di nero · B. vestirsi in fretta · C. mettere più strati, uno sopra l'altro", size=20, gap=8)
 e.ex("B1", "單選", "B", "諸聖節今年是週日、無連休",
      "Ognissanti, quest'anno, è caduta... A. di lunedì · B. di domenica · C. di sabato", size=20, gap=8)
-e.head("D · LE PAROLE DEL FREDDO", 25)
+e.head("D　LE PAROLE DEL FREDDO", 25)
 e.match_set("A2", "詞彙配對",
             ["il cappotto", "la sciarpa", "il crisantemo", "il termosifone"],
             ["il fiore di novembre, per il 2 novembre",

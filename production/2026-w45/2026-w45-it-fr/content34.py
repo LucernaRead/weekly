@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-it-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURA (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURA · CULTURE", "La Lucerna", "A2 → B1 · Panettone, torrone e musei aperti · Douceurs et musées ouverts")
+p.band("CULTURA　CULTURE", "La Lucerna", "A2 → B1　Panettone, torrone e musei aperti　Douceurs et musées ouverts")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("Il weekend più dolce: panettone a Milano, torrone a Cremona", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: A2 → B1")
+f.title("Il weekend più dolce: panettone a Milano, torrone a Cremona", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: A2 → B1")
 f.para("Il freddo porta con sé la voglia di dolci. Sabato 7 e domenica 8 novembre, a Milano, c'è la finale della Coppa del Mondo del Panettone: pasticceri da 19 paesi si sfidano con il dolce simbolo di Milano, e il pubblico può assaggiare gratis. Due le categorie in gara: il panettone tradizionale e il panettone al cioccolato.")
 f.para("Lo stesso fine settimana apre a Cremona la Festa del Torrone, che dura fino al 22 novembre: bancarelle, degustazioni e musica nella città dei violini. Il torrone è un dolce antico, di mandorle e miele — e Cremona ne è la capitale.")
 f.para("E il tartufo bianco non va in vacanza: ad Alba, in Piemonte, la Fiera del Tartufo Bianco continua fino al 6 dicembre, con mercati e piatti speciali. Il re dell'autunno resta in tavola anche con il primo freddo.")
@@ -33,7 +33,7 @@ facts = ["Milano, 7–8 novembre: finale della Coppa del Mondo del Panettone, de
          "Alba: la Fiera del Tartufo Bianco continua fino al 6 dicembre."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "IL WEEKEND DOLCE", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -42,9 +42,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Preferisci il panettone tradizionale o quello al cioccolato? Scrivi due frasi in italiano e mandale alla redazione."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Préférez-vous le panettone traditionnel ou celui au chocolat ? Écrivez deux phrases et envoyez-les-nous.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · À TOI LA PAROLE", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　À TOI LA PAROLE", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Préférez-vous le panettone traditionnel ou celui au chocolat ? Écrivez deux phrases et envoyez-les-nous.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -52,54 +52,54 @@ print("P3 col3 ends", ey3 + eh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · Exercices page 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Niveaux mélangés — cherchez par numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　Exercices page 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Niveaux mélangés — cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P3-ex")
+e.head("A　COMPRENSIONE", 25)
 e.bridge("Lisez l’article page 3 et choisissez la bonne réponse.")
-e.ex("A2", "单选", "B", "La finale du Panettone est à Milan",
+e.ex("A2", "Choix unique", "B", "La finale du Panettone est à Milan",
      "La finale della Coppa del Mondo del Panettone è a... A. Cremona · B. Milano · C. Alba", size=20, gap=8)
-e.ex("A2", "单选", "C", "La fête du torrone de Crémone dure jusqu’au 22 novembre",
+e.ex("A2", "Choix unique", "C", "La fête du torrone de Crémone dure jusqu’au 22 novembre",
      "La Festa del Torrone dura fino al... A. 6 dicembre · B. 8 novembre · C. 22 novembre", size=20, gap=8)
-e.ex("A2", "单选", "B", "19 pays envoient des pâtissiers à la finale du Panettone",
+e.ex("A2", "Choix unique", "B", "19 pays envoient des pâtissiers à la finale du Panettone",
      "Alla finale del Panettone partecipano pasticceri da... A. 5 paesi · B. 19 paesi · C. 50 paesi", size=20, gap=8)
-e.ex("B1", "单选", "A", "Le Forum Cultura ouvre mardi 3 novembre",
+e.ex("B1", "Choix unique", "A", "Le Forum Cultura ouvre mardi 3 novembre",
      "Il Forum Cultura apre... A. martedì 3 novembre · B. sabato 7 novembre · C. lunedì 2 novembre", size=20, gap=8)
-e.ex("B1", "单选", "B", "La foire de la truffe d’Alba dure jusqu’au 6 décembre",
+e.ex("B1", "Choix unique", "B", "La foire de la truffe d’Alba dure jusqu’au 6 décembre",
      "La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. il 6 dicembre · C. l'8 novembre", size=20, gap=8)
-e.head("B · LE PAROLE DEL TESTO", 25)
+e.head("B　LE PAROLE DEL TESTO", 25)
 e.bridge("Complétez avec les mots de l’encadré.")
 e.para("panettone · torrone · assaggio · bancarella · tartufo · mandorle", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("A2", "完成句子", "panettone", "panettone = gâteau de Noël milanais",
+e.ex("A2", "Compléter les phrases", "panettone", "panettone = gâteau de Noël milanais",
      "Il ___ è il dolce simbolo di Milano.", instr="Compléter", size=20, gap=8)
-e.ex("A2", "完成句子", "torrone", "torrone = nougat",
+e.ex("A2", "Compléter les phrases", "torrone", "torrone = nougat",
      "A Cremona si festeggia il ___.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "assaggio", "assaggio = dégustation",
+e.ex("B1", "Compléter les phrases", "assaggio", "assaggio = dégustation",
      "Alla finale del Panettone, il pubblico può fare un ___ gratis.", instr="Compléter", size=20, gap=8)
-e.ex("A2", "完成句子", "bancarella", "bancarella = étal",
+e.ex("A2", "Compléter les phrases", "bancarella", "bancarella = étal",
      "Alla festa ci sono tante ___ con i dolci.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "mandorle", "mandorle = amandes (pluriel)",
+e.ex("B1", "Compléter les phrases", "mandorle", "mandorle = amandes (pluriel)",
      "Il torrone è fatto di ___ e miele.", instr="Compléter", size=20, gap=8)
-e.ex("A2", "完成句子", "tartufo", "tartufo = truffe",
+e.ex("A2", "Compléter les phrases", "tartufo", "tartufo = truffe",
      "Il ___ bianco è il fungo più prezioso d'Italia.", instr="Compléter", size=20, gap=8)
-e.head("C · IL PASSATO PROSSIMO", 25)
+e.head("C　IL PASSATO PROSSIMO", 25)
 e.bridge("Complétez avec le passato prossimo — attention aux auxiliaires avere / essere.")
-e.ex("B1", "完成句子", "è arrivato", "arrivare prend essere : è arrivato",
+e.ex("B1", "Compléter les phrases", "è arrivato", "arrivare prend essere : è arrivato",
      "Il primo freddo ___ (arrivare) lunedì.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "abbiamo assaggiato", "assaggiare prend avere",
+e.ex("B1", "Compléter les phrases", "abbiamo assaggiato", "assaggiare prend avere",
      "Noi ___ (assaggiare) il panettone a Milano.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "sono andati", "andare prend essere, pluriel sono andati",
+e.ex("B1", "Compléter les phrases", "sono andati", "andare prend essere, pluriel sono andati",
      "I pasticceri ___ (andare) a Milano per la finale.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "ha aperto", "aprire prend avere : ha aperto",
+e.ex("B1", "Compléter les phrases", "ha aperto", "aprire prend avere : ha aperto",
      "Cremona ___ (aprire) la Festa del Torrone sabato.", instr="Compléter", size=20, gap=8)
-e.head("D · COSTRUISCI LE FRASI", 25)
+e.head("D　COSTRUISCI LE FRASI", 25)
 e.bridge("Remettez les mots dans le bon ordre.")
-e.ex("B1", "造句", "La finale è a Milano il 7 novembre.", "Sujet + essere + lieu + date",
+e.ex("B1", "Faire des phrases", "La finale è a Milano il 7 novembre.", "Sujet + essere + lieu + date",
      "la finale / è a Milano / il 7 novembre → ___", instr="Former une phrase", size=20, gap=8)
-e.ex("A2", "造句", "A Cremona il torrone è il re.", "Lieu d’abord, sujet ensuite",
+e.ex("A2", "Faire des phrases", "A Cremona il torrone è il re.", "Lieu d’abord, sujet ensuite",
      "a Cremona / il torrone / è il re → ___", instr="Former une phrase", size=20, gap=8)
-e.ex("B1", "造句", "La fiera dura fino al 6 dicembre.", "dura fino a = dure jusqu’à",
+e.ex("B1", "Faire des phrases", "La fiera dura fino al 6 dicembre.", "dura fino a = dure jusqu’à",
      "la fiera / dura / fino al 6 dicembre → ___", instr="Former une phrase", size=20, gap=8)
 e.end_report()
 p.foot(3)
@@ -109,11 +109,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · SPORT", "La Lucerna", "LIVELLO B1 · La Serie A e l'Europa · Serie A et Europe")
+p.band("SPORT　SPORT", "La Lucerna", "LIVELLO B1　La Serie A e l'Europa　Serie A et Europe")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("L'undicesima giornata: Genoa–Milan, Inter–Como, Fiorentina–Juventus", 37)
-f.byline("Dalla redazione sportiva de La Lucerna · Livello di lettura: B1")
+f.title("L'undicesima giornata: Genoa–Milan, Inter–Como, Fiorentina–Juventus", 32)
+f.byline("Dalla redazione sportiva de La Lucerna　Livello di lettura: B1")
 f.para("È una settimana di grande calcio. Da martedì 3 a giovedì 5 novembre si gioca la quarta giornata delle coppe europee: Champions League, Europa League e Conference League. Attenzione: queste partite si giocano dopo la chiusura del giornale — qui sono una presentazione, senza risultati.")
 f.para("Poi arriva l'undicesima giornata di Serie A, da venerdì 6 a domenica 8 novembre. La giornata chiude domenica 8 novembre con tre partite grandi: Genoa–Milan, Inter–Como e Fiorentina–Juventus, la sera a Firenze.")
 f.para("Domenica è anche il giorno del freddo sugli spalti: chi va allo stadio mette sciarpa e guanti, come a pagina 2. Ma il calcio non si ferma per il primo freddo — anzi, con il freddo le partite della sera diventano ancora più belle, sotto le luci.")
@@ -123,15 +123,15 @@ f.end_report()
 
 # col 3: data box + e tu? (sequential)
 bx = COLX[3]
-p.rect(bx, 200, CW, 436, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 436, fill=BOX)
 p.text(bx + 22, 240, "LE PARTITE DA SEGNARE", 23, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Martedì 3 – giovedì 5 novembre · Coppe europee, 4ª giornata — si giocano dopo la chiusura del giornale. Venerdì 6 – domenica 8 novembre · Serie A, 11ª giornata. Domenica 8 novembre · Genoa – Milan; Inter – Como; Fiorentina – Juventus (sera, a Firenze).", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 662
 etvous = "E tu? Quale partita guardi domenica sera? Scrivi due frasi in italiano."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Quel match regarderez-vous dimanche soir ? Écrivez deux phrases en italien et envoyez-les-nous.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "E TU? · À TOI LA PAROLE", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "E TU?　À TOI LA PAROLE", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "Quel match regarderez-vous dimanche soir ? Écrivez deux phrases en italien et envoyez-les-nous.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -139,7 +139,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "LA SETTIMANA DEL CALCIO · SEMAINE DE FOOTBALL", 26, "sans", True, OLIVE)
+p.text(MX, ty, "LA SETTIMANA DEL CALCIO　SEMAINE DE FOOTBALL", 26, "sans", True, OLIVE)
 rows = [
     ("Mar–Gio", "Coppe europee · 4ª giornata", "Champions, Europa e Conference League: presentazione, senza risultati"),
     ("Ven–Dom", "Serie A · 11ª giornata", "L'undicesima giornata si gioca da venerdì 6 a domenica 8 novembre"),
@@ -150,7 +150,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 470, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -159,24 +159,24 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · Exercices page 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Niveaux mélangés — cherchez par numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　Exercices page 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Niveaux mélangés — cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P4-ex")
+e.head("A　COMPRENSIONE", 25)
 e.bridge("Lisez l’article page 4 et choisissez la bonne réponse.")
-e.ex("B1", "单选", "B", "La 11e journée de Serie A se termine dimanche",
+e.ex("B1", "Choix unique", "B", "La 11e journée de Serie A se termine dimanche",
      "L'undicesima giornata di Serie A chiude... A. venerdì · B. domenica 8 novembre · C. lunedì", size=20, gap=8)
-e.ex("B1", "单选", "B", "Fiorentina joue contre Juventus dimanche soir",
+e.ex("B1", "Choix unique", "B", "Fiorentina joue contre Juventus dimanche soir",
      "Domenica sera, a Firenze, si gioca... A. Inter–Como · B. Fiorentina–Juventus · C. Genoa–Milan", size=20, gap=8)
-e.ex("B1", "单选", "A", "La 4e journée européenne a lieu du 3 au 5 novembre",
+e.ex("B1", "Choix unique", "A", "La 4e journée européenne a lieu du 3 au 5 novembre",
      "La quarta giornata delle coppe europee si gioca... A. dal 3 al 5 novembre · B. dal 6 all'8 novembre · C. il 2 novembre", size=20, gap=8)
-e.ex("B1", "单选", "C", "Matchs européens : avant-premières ici, sans résultats",
+e.ex("B1", "Choix unique", "C", "Matchs européens : avant-premières ici, sans résultats",
      "Le partite europee, in questo giornale, sono... A. risultati finali · B. cancellate · C. presentazioni senza risultati", size=20, gap=8)
-e.ex("B1", "单选", "B", "Inter joue contre Como à San Siro",
+e.ex("B1", "Choix unique", "B", "Inter joue contre Como à San Siro",
      "Inter–Como si gioca... A. a Firenze · B. a San Siro · C. a Genova", size=20, gap=8)
-e.head("B · LE PAROLE", 25)
-e.match_set("B1", "词汇配对",
+e.head("B　LE PAROLE", 25)
+e.match_set("B1", "Associer les mots",
             ["la giornata", "la presentazione", "gli spalti", "la sera"],
             ["il posto del pubblico allo stadio, con le gradinate",
              "il racconto prima della partita, senza risultati",
@@ -185,27 +185,27 @@ e.match_set("B1", "词汇配对",
             ["c", "b", "a", "d"],
             ["giornata = une journée de championnat, c", "presentazione = présentation d’avant-match, b", "spalti = tribunes, a", "sera = soir, d"],
             instr="Associer")
-e.head("C · I COMPARATIVI", 25)
+e.head("C　I COMPARATIVI", 25)
 e.bridge("Complétez avec le comparatif du mot entre parenthèses (voir le tableau des matchs).")
-e.ex("B1", "完成句子", "più tardi", "Matchs du dimanche soir, plus tardifs : più tardi",
+e.ex("B1", "Compléter les phrases", "più tardi", "Matchs du dimanche soir, plus tardifs : più tardi",
      "Le partite di domenica sera cominciano ___ di quelle di venerdì. (tardi)", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "più presto", "Matchs du vendredi, plus précoces : più presto",
+e.ex("B1", "Compléter les phrases", "più presto", "Matchs du vendredi, plus précoces : più presto",
      "Le partite di venerdì cominciano ___ di quelle di domenica. (presto)", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "più bella", "più + bella : le dimanche soir est le plus beau",
+e.ex("B1", "Compléter les phrases", "più bella", "più + bella : le dimanche soir est le plus beau",
      "Per i tifosi, la domenica sera è la serata ___ del weekend. (bella)", instr="Compléter", size=20, gap=8)
-e.ex("B2", "句型转换", "meglio", "Le comparatif de bene est l’irrégulier meglio",
+e.ex("B2", "Structures de phrase", "meglio", "Le comparatif de bene est l’irrégulier meglio",
      "L'Inter gioca bene. → L'Inter gioca ___ (bene).", instr="Compléter", size=20, gap=8)
-e.head("D · IL PASSATO DELLO SPORT", 25)
+e.head("D　IL PASSATO DELLO SPORT", 25)
 e.bridge("Complétez avec le passato prossimo.")
-e.ex("B1", "完成句子", "ha vinto", "vincere : ha vinto",
+e.ex("B1", "Compléter les phrases", "ha vinto", "vincere : ha vinto",
      "La mia squadra ___ (vincere) la partita di ieri.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "ha pareggiato", "pareggiare : ha pareggiato",
+e.ex("B1", "Compléter les phrases", "ha pareggiato", "pareggiare : ha pareggiato",
      "La mia squadra ___ (pareggiare) 1–1.", instr="Compléter", size=20, gap=8)
-e.ex("B2", "完成句子", "sono arrivati", "arrivare prend essere, pluriel sono arrivati",
+e.ex("B2", "Compléter les phrases", "sono arrivati", "arrivare prend essere, pluriel sono arrivati",
      "I tifosi ___ (arrivare) allo stadio alle cinque.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "abbiamo guardato", "guardare prend avere : abbiamo guardato",
+e.ex("B1", "Compléter les phrases", "abbiamo guardato", "guardare prend avere : abbiamo guardato",
      "Noi ___ (guardare) la partita in televisione.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "ha preso", "Le participe de prendere est preso : ha preso",
+e.ex("B1", "Compléter les phrases", "ha preso", "Le participe de prendere est preso : ha preso",
      "Il portiere ___ (prendere) un gol al 90°.", instr="Compléter", size=20, gap=8)
 e.end_report()
 p.foot(4)

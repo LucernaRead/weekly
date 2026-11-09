@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-it-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · GIOVANI (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("GIOVANI · JUNGE LEUTE", "La Lucerna", "LIVELLO B1 · Dopo Lucca: cultura, cinema e weekend · Nach Lucca")
+p.band("GIOVANI　JUNGE LEUTE", "La Lucerna", "LIVELLO B1　Dopo Lucca: cultura, cinema e weekend　Nach Lucca")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-main")
-f.title("Dopo Lucca: la settimana giovane continua a Milano e Firenze", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: B1")
+f.title("Dopo Lucca: la settimana giovane continua a Milano e Firenze", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: B1")
 f.para("Lucca Comics & Games si è chiusa domenica 1° novembre: la 60ª edizione, con il tema «Legacy», ha riempito le mura di Lucca dal 28 ottobre al 1° novembre. Per molti giovani è stata la festa più importante dell'autunno — e ora i cosplay tornano nell'armadio, ma la cultura continua.")
 f.para("Da martedì 3 a domenica 8 novembre, a Milano, c'è il Forum Cultura: più di 50 eventi e aperture straordinarie di musei e biblioteche. Per i giovani è un'occasione da non perdere: molti eventi sono gratuiti, e il fine settimana il Forum si sposta alla Bovisa, al sito della Goccia.")
 f.para("E da martedì 3 a lunedì 9 novembre, a Firenze, c'è il Festival dei Popoli, il festival del cinema documentario: storie vere da tutto il mondo, raccontate sullo schermo. Un festival per chi ama capire il mondo, non solo guardarlo.")
@@ -38,7 +38,7 @@ facts = ["Lucca Comics, 60ª edizione, tema «Legacy»: dal 28 ottobre al 1° no
          "Festival dei Popoli, Firenze: dal 3 al 9 novembre, cinema documentario."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "I GIOVANI IN NUMERI", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -47,9 +47,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Dopo Lucca, dove vai: al Forum Cultura, al cinema o a una sagra? Scrivi due frasi in italiano."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Nach Lucca: Forum Cultura, Kino oder Sagre? Schreiben Sie zwei Sätze!", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · UND DU?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　UND DU?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Nach Lucca: Forum Cultura, Kino oder Sagre? Schreiben Sie zwei Sätze!", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -57,53 +57,53 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · ÜBUNGEN ZU SEITE 5", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · Aufgaben gemischt — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　ÜBUNGEN ZU SEITE 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8　Aufgaben gemischt — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P5-ex")
+e.head("A　COMPRENSIONE", 25)
 e.bridge("Lesen Sie den Artikel auf Seite 5 und wählen Sie die richtige Antwort.")
-e.ex("B1", "单选", "B", "Lucca Comics ist die 60. Ausgabe",
+e.ex("B1", "Eine Antwort", "B", "Lucca Comics ist die 60. Ausgabe",
      "Lucca Comics & Games è alla sua... A. 50ª edizione · B. 60ª edizione · C. 21ª edizione", size=20, gap=8)
-e.ex("B1", "单选", "B", "Das Forum Cultura eröffnet am 3. November",
+e.ex("B1", "Eine Antwort", "B", "Das Forum Cultura eröffnet am 3. November",
      "Il Forum Cultura apre... A. il 2 novembre · B. il 3 novembre · C. il 7 novembre", size=20, gap=8)
-e.ex("B1", "单选", "C", "Das Festival dei Popoli ist in Florenz",
+e.ex("B1", "Eine Antwort", "C", "Das Festival dei Popoli ist in Florenz",
      "Il Festival dei Popoli è a... A. Milano · B. Lucca · C. Firenze", size=20, gap=8)
-e.ex("B1", "单选", "A", "Das Forum Cultura hat über 50 Veranstaltungen",
+e.ex("B1", "Eine Antwort", "A", "Das Forum Cultura hat über 50 Veranstaltungen",
      "Il Forum Cultura ha... A. più di 50 eventi · B. 19 eventi · C. 5 eventi", size=20, gap=8)
-e.ex("B1", "单选", "A", "Das Thema von Lucca Comics ist «Legacy»",
+e.ex("B1", "Eine Antwort", "A", "Das Thema von Lucca Comics ist «Legacy»",
      "Il tema di Lucca Comics è... A. «Legacy» · B. «Freddo» · C. «Tartufo»", size=20, gap=8)
-e.head("B · LE PAROLE DEL TESTO", 25)
+e.head("B　LE PAROLE DEL TESTO", 25)
 e.bridge("Ergänzen Sie die Wörter aus dem Kasten. Achtung: Manche Wörter stehen im Plural.")
 e.para("cosplay · gratuito · documentario · schermo · castagne · armadio", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("B1", "完成句子", "armadio", "armadio = Schrank",
+e.ex("B1", "Sätze vervollständigen", "armadio", "armadio = Schrank",
      "Dopo Lucca, i cosplay tornano nell'___.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "gratuiti", "gratuiti = kostenlos (maskulin, Plural)",
+e.ex("B1", "Sätze vervollständigen", "gratuiti", "gratuiti = kostenlos (maskulin, Plural)",
      "Molti eventi del Forum sono ___.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "documentario", "documentario = Dokumentarfilm",
+e.ex("B1", "Sätze vervollständigen", "documentario", "documentario = Dokumentarfilm",
      "Il Festival dei Popoli è un festival del cinema ___.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "schermo", "schermo = Leinwand",
+e.ex("B1", "Sätze vervollständigen", "schermo", "schermo = Leinwand",
      "Le storie vere si vedono sullo ___.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "castagne", "castagne arrosto = geröstete Kastanien (Plural)",
+e.ex("B1", "Sätze vervollständigen", "castagne", "castagne arrosto = geröstete Kastanien (Plural)",
      "Le piazze profumano di ___ arrosto.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "cosplay", "cosplay = Cosplay-Kostüm",
+e.ex("B1", "Sätze vervollständigen", "cosplay", "cosplay = Cosplay-Kostüm",
      "Molti giovani preparano un ___ per Lucca.", instr="Ausfüllen", size=20, gap=8)
-e.head("C · IL FUTURO", 25)
+e.head("C　IL FUTURO", 25)
 e.bridge("Ergänzen Sie mit dem Futuro (futuro semplice).")
-e.ex("B1", "完成句子", "andremo", "andare, Futur, noi: andremo",
+e.ex("B1", "Sätze vervollständigen", "andremo", "andare, Futur, noi: andremo",
      "Sabato noi ___ (andare) a Milano per gli assaggi.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B2", "完成句子", "ci sarà", "esserci, Futur: ci sarà (es wird geben)",
+e.ex("B2", "Sätze vervollständigen", "ci sarà", "esserci, Futur: ci sarà (es wird geben)",
      "Al Forum ___ (esserci) tanta gente giovane.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B1", "完成句子", "guarderemo", "guardare, Futur, noi: guarderemo",
+e.ex("B1", "Sätze vervollständigen", "guarderemo", "guardare, Futur, noi: guarderemo",
      "Domenica noi ___ (guardare) la Serie A.", instr="Ausfüllen", size=20, gap=8)
-e.ex("B2", "完成句子", "durerà", "durare, Futur: durerà",
+e.ex("B2", "Sätze vervollständigen", "durerà", "durare, Futur: durerà",
      "La Festa del Torrone ___ (durare) fino al 22 novembre.", instr="Ausfüllen", size=20, gap=8)
-e.head("D · VERO O FALSO?", 25)
-e.ex("B1", "判断对错", "Vero", "Das Forum Cultura hat über 50 Veranstaltungen",
+e.head("D　VERO O FALSO?", 25)
+e.ex("B1", "Richtig oder falsch", "Vero", "Das Forum Cultura hat über 50 Veranstaltungen",
      "Il Forum Cultura ha più di 50 eventi. Vero o falso?", instr="Entscheiden", size=20, gap=8)
-e.ex("B1", "判断对错", "Vero", "Das Festival dei Popoli ist in Florenz",
+e.ex("B1", "Richtig oder falsch", "Vero", "Das Festival dei Popoli ist in Florenz",
      "Il Festival dei Popoli è a Firenze. Vero o falso?", instr="Entscheiden", size=20, gap=8)
-e.ex("B2", "判断对错", "Falso", "Lucca Comics endet nicht am 8. November",
+e.ex("B2", "Richtig oder falsch", "Falso", "Lucca Comics endet nicht am 8. November",
      "Lucca Comics chiude l'8 novembre. Vero o falso?", instr="Entscheiden", size=20, gap=8)
 e.end_report()
 p.foot(5)
@@ -113,11 +113,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · APPROFONDIMENTO (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("APPROFONDIMENTO · VERTIEFUNG", "La Lucerna", "LIVELLO B2 · Leggere le previsioni · Wettervorhersagen lesen")
+p.band("APPROFONDIMENTO　VERTIEFUNG", "La Lucerna", "LIVELLO B2　Leggere le previsioni　Wettervorhersagen lesen")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1520, tag="P6-main")
-f.title("Come si legge una previsione: probabilità, non certezze", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: B2 · Il meteo e i numeri")
+f.title("Come si legge una previsione: probabilità, non certezze", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: B2　Il meteo e i numeri")
 f.para("Le previsioni di questa settimana parlano di un inizio di novembre più freddo della media in gran parte d'Italia, con piogge sul versante adriatico e la prima neve leggera in montagna. Le previsioni si basano su modelli come quello del Centro europeo (ECMWF): il computer calcola tanti scenari possibili e dice quale è più probabile.")
 f.para("La parola chiave è «probabilità»: quando leggi «probabilità di pioggia sopra la media», non significa «pioverà di sicuro». Significa che, in passato, in situazioni simili, ha piovuto più spesso della media. Una probabilità alta non è una certezza, e una probabilità bassa non è un «no».")
 f.para("Perché le previsioni cambiano? Perché l'atmosfera è un sistema che cambia in fretta: un piccolo errore all'inizio diventa grande dopo qualche giorno. Per questo i meteorologi aggiornano le previsioni ogni giorno — e il lettore saggio controlla sempre il bollettino ufficiale più recente, prima di uscire.")
@@ -128,7 +128,7 @@ f.end_report()
 
 # col 3: timeline + leggere i numeri (sequential, measured)
 bx = COLX[3]
-p.rect(bx, 200, CW, 640, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 640, fill=BOX)
 p.text(bx + 22, 240, "LA STRADA DEL FREDDO", 22, "sans", True, OLIVE)
 steps = [
     ("FINE OTT.", "Le previsioni parlano di un novembre più freddo della media."),
@@ -138,13 +138,13 @@ steps = [
 ]
 sy3 = 282
 for w, t in steps:
-    p.text(bx + 22, sy3 + 21, w, 20, "sans", True, BRICK)
+    p.text(bx + 22, sy3 + 21, w, 20, "sans", True, OLIVE)
     sy3 = p.para(bx + 164, sy3 + 21, t, 21, "serif", False, INK, CW - 186, 1.4) + 16
 by3 = 866
 bb = ("Davanti a una previsione, fai tre domande: chi la pubblica? Quando? "
       "È una probabilità o una certezza? Senza queste tre risposte, un numero dice poco.")
 bh = 62 + len(wrap(bb, "serif", False, 21.5, CW - 44)) * 30.5 + 16
-p.rect(bx, by3, CW, bh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, by3, CW, bh, fill="#f0eee5")
 yy3 = by3 + 16
 p.text(bx + 22, yy3 + 26, "LEGGERE I NUMERI", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -153,16 +153,16 @@ print("P6 col3 ends", by3 + bh)
 
 # ---- Practice-data chart (explicitly labeled as exercise data) ----
 gy = 1566
-p.hline(MX, RIGHT, gy - 18, GOLD, 2)
-p.text(MX, gy + 10, "LE MINIME DI ESEMPIO · BEISPIEL-TIEFSTWERTE (DATI INVENTATI PER L'ESERCIZIO)", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, gy - 18, OLIVE, 2)
+p.text(MX, gy + 10, "LE MINIME DI ESEMPIO　BEISPIEL-TIEFSTWERTE (DATI INVENTATI PER L'ESERCIZIO)", 26, "sans", True, OLIVE)
 dpb = [("Torino", 3.0),
        ("Milano", 4.0),
        ("Bologna", 5.0),
        ("Roma", 9.0),
        ("Napoli", 12.0)]
 bx1, bw_, bhh = MX, 2 * CW + GUT, 322
-p.rect(bx1, gy + 28, bw_, bhh, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx1 + 22, gy + 68, "MINIME DI ESEMPIO · gradi, dati inventati", 21, "sans", True, INK)
+p.rect(bx1, gy + 28, bw_, bhh, fill=BOX)
+p.text(bx1 + 22, gy + 68, "MINIME DI ESEMPIO　gradi, dati inventati", 21, "sans", True, INK)
 yy = gy + 96
 for lab, v in dpb:
     p.text(bx1 + 22, yy + 24, lab, 20, "serif", True, INK)
@@ -173,8 +173,8 @@ for lab, v in dpb:
 p.para(bx1 + 22, gy + bhh - 26, "Questi numeri sono inventati per l'esercizio: servono per imparare a leggere un grafico, NON sono previsioni reali.", 17.5, "sans", False, GREY, bw_ - 44, 1.3)
 # right box: probabilities
 bx2 = COLX[2]
-p.rect(bx2, gy + 28, bw_, bhh, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx2 + 22, gy + 68, "PROBABILITÀ · WAHRSCHEINLICHKEIT", 21, "sans", True, INK)
+p.rect(bx2, gy + 28, bw_, bhh, fill=BOX)
+p.text(bx2 + 22, gy + 68, "PROBABILITÀ　WAHRSCHEINLICHKEIT", 21, "sans", True, INK)
 p.para(bx2 + 22, gy + 118, "Probabilità alta ≠ certezza", 23, "serif", True, INK, bw_ - 44, 1.35)
 p.para(bx2 + 22, gy + 158, "Probabilità bassa ≠ «no»", 23, "serif", True, INK, bw_ - 44, 1.35)
 p.para(bx2 + 22, gy + 198, "Il bollettino ufficiale più recente vale più di una previsione di una settimana fa.", 19.5, "serif", False, INK, bw_ - 44, 1.4)
@@ -182,51 +182,51 @@ p.para(bx2 + 22, gy + bhh - 62, "Le previsioni vere si aggiornano ogni giorno: c
 
 # ---- P6 exercises ----
 ey = 1930
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · ÜBUNGEN ZU SEITE 6", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · Aufgaben gemischt — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · LEGGERE IL GRAFICO", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　ÜBUNGEN ZU SEITE 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8　Aufgaben gemischt — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P6-ex")
+e.head("A　LEGGERE IL GRAFICO", 25)
 e.bridge("Sehen Sie sich das Übungsdiagramm oben an und wählen Sie die richtige Antwort.")
-e.ex("B2", "单选", "B", "In den Beispieldaten ist Turin mit 3° am kältesten",
+e.ex("B2", "Eine Antwort", "B", "In den Beispieldaten ist Turin mit 3° am kältesten",
      "La città più fredda del grafico è... A. Milano · B. Torino · C. Napoli", size=18, gap=2)
-e.ex("B2", "单选", "A", "In den Beispieldaten ist Neapel mit 12° am wärmsten",
+e.ex("B2", "Eine Antwort", "A", "In den Beispieldaten ist Neapel mit 12° am wärmsten",
      "La città più calda del grafico è... A. Napoli · B. Roma · C. Bologna", size=18, gap=2)
-e.ex("B2", "单选", "B", "12 − 9 = 3",
+e.ex("B2", "Eine Antwort", "B", "12 − 9 = 3",
      "La differenza tra Napoli (12°) e Roma (9°) è... A. 2° · B. 3° · C. 4°", size=18, gap=2)
-e.ex("B2", "单选", "A", "4 + 5 = 9",
+e.ex("B2", "Eine Antwort", "A", "4 + 5 = 9",
      "Milano (4°) e Bologna (5°) insieme fanno... A. 9° · B. 10° · C. 8°", size=18, gap=2)
-e.ex("B2", "单选", "B", "Diagrammdaten: zum Üben, keine echten Vorhersagen",
+e.ex("B2", "Eine Antwort", "B", "Diagrammdaten: zum Üben, keine echten Vorhersagen",
      "I numeri del grafico sono... A. previsioni reali · B. dati inventati per l'esercizio · C. temperature di ieri", size=18, gap=2)
-e.ex("B2", "单选", "A", "Hohe Wahrscheinlichkeit ist keine Gewissheit",
+e.ex("B2", "Eine Antwort", "A", "Hohe Wahrscheinlichkeit ist keine Gewissheit",
      "Una probabilità alta... A. non è una certezza · B. è una certezza · C. è un errore", size=18, gap=2)
-e.head("B · COMPRENSIONE", 25)
-e.ex("B2", "单选", "B", "Vorhersagen beruhen auf Modellen wie dem ECMWF",
+e.head("B　COMPRENSIONE", 25)
+e.ex("B2", "Eine Antwort", "B", "Vorhersagen beruhen auf Modellen wie dem ECMWF",
      "Le previsioni si basano su... A. la fortuna · B. modelli come l'ECMWF · C. i giornali", size=18, gap=2)
-e.ex("B2", "单选", "A", "Vorhersagen ändern sich: Atmosphäre ändert sich schnell",
+e.ex("B2", "Eine Antwort", "A", "Vorhersagen ändern sich: Atmosphäre ändert sich schnell",
      "Le previsioni cambiano perché... A. l'atmosfera cambia in fretta · B. i computer si rompono · C. nessuno le legge", size=18, gap=2)
-e.ex("B2", "单选", "A", "Der DPB wurde am 15. Oktober nach Brüssel geschickt",
+e.ex("B2", "Eine Antwort", "A", "Der DPB wurde am 15. Oktober nach Brüssel geschickt",
      "Il DPB è stato mandato a Bruxelles... A. il 15 ottobre · B. il 19 ottobre · C. il 28 ottobre", size=18, gap=2)
-e.ex("B2", "单选", "B", "Wachstumsprognose 2027: +0,8 %",
+e.ex("B2", "Eine Antwort", "B", "Wachstumsprognose 2027: +0,8 %",
      "La crescita prevista per il 2027 è... A. +3,4% · B. +0,8% · C. +5%", size=18, gap=2)
-e.head("C · IL CONGIUNTIVO", 25)
-e.ex("B2", "完成句子", "piova", "è probabile che + Konjunktiv: piova",
+e.head("C　IL CONGIUNTIVO", 25)
+e.ex("B2", "Sätze vervollständigen", "piova", "è probabile che + Konjunktiv: piova",
      "È probabile che domani ___ (piovere) sul versante adriatico.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "nevichi", "è possibile che + Konjunktiv: nevichi",
+e.ex("B2", "Sätze vervollständigen", "nevichi", "è possibile che + Konjunktiv: nevichi",
      "È possibile che in montagna ___ (nevicare) nel weekend.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "controllino", "bisogna che + Konjunktiv: controllino",
+e.ex("B2", "Sätze vervollständigen", "controllino", "bisogna che + Konjunktiv: controllino",
      "Bisogna che i lettori ___ (controllare) il bollettino più recente.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "sia", "è importante che + Konjunktiv: sia",
+e.ex("B2", "Sätze vervollständigen", "sia", "è importante che + Konjunktiv: sia",
      "È importante che la previsione ___ (essere) chiara per tutti.", instr="Ausfüllen", size=18, gap=2)
-e.head("D · LE PAROLE DEL METEO", 25)
-e.bridge("Ergänzen Sie die Wörter aus dem Kasten: probabilità · media · bollettino · modello")
-e.ex("B2", "完成句子", "probabilità", "probabilità = Wahrscheinlichkeit",
+e.head("D　LE PAROLE DEL METEO", 25)
+e.bridge("Ergänzen Sie: probabilità · media · bollettino · modello")
+e.ex("B2", "Sätze vervollständigen", "probabilità", "probabilità = Wahrscheinlichkeit",
      "La ___ di pioggia non è una certezza.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "media", "media = Durchschnitt",
+e.ex("B2", "Sätze vervollständigen", "media", "media = Durchschnitt",
      "Un novembre più freddo della ___ è un novembre freddo.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "bollettino", "bollettino = Wetterbericht",
+e.ex("B2", "Sätze vervollständigen", "bollettino", "bollettino = Wetterbericht",
      "Prima di uscire, controlla il ___ più recente.", instr="Ausfüllen", size=18, gap=2)
-e.ex("B2", "完成句子", "modello", "modello = Vorhersagemodell",
+e.ex("B2", "Sätze vervollständigen", "modello", "modello = Vorhersagemodell",
      "L'ECMWF è un ___ di previsione europeo.", instr="Ausfüllen", size=18, gap=2)
 e.end_report()
 p.foot(6)

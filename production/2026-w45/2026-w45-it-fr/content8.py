@@ -3,69 +3,69 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-it-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · VALUTAZIONE E RISPOSTE =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("VALUTAZIONE E RISPOSTE · EXERCICES ET RÉPONSES", "La Lucerna", "Page 8 · La grande prova della settimana + tutte le risposte")
+p.band("VALUTAZIONE E RISPOSTE　EXERCICES ET RÉPONSES", "La Lucerna", "Page 8　La grande prova della settimana + tutte le risposte")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1332, tag="P8-ex")
-f.head("A · COMPLETA LA CRONACA", 22, OLIVE, 5)
-f.ex("B1", "完形单选", "B", "primo freddo = le premier froid",
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.ex("B1", "Texte à trous", "B", "primo freddo = le premier froid",
      "Lunedì 2 novembre arriva il primo ___ della stagione. (A. caldo · B. freddo)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "La commémoration des défunts a lieu le 2 novembre",
+f.ex("B1", "Texte à trous", "A", "La commémoration des défunts a lieu le 2 novembre",
      "Il 2 novembre è la Commemorazione dei ___. (A. defunti · B. santi)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "Le Forum Cultura ouvre à Milan",
+f.ex("B1", "Texte à trous", "A", "Le Forum Cultura ouvre à Milan",
      "Il Forum Cultura apre martedì a ___. (A. Milano · B. Cremona)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "La finale du Panettone a lieu samedi et dimanche",
+f.ex("B1", "Texte à trous", "A", "La finale du Panettone a lieu samedi et dimanche",
      "La finale del Panettone è sabato e ___ a Milano. (A. domenica · B. lunedì)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "B", "La fête du torrone est à Crémone",
+f.ex("B1", "Texte à trous", "B", "La fête du torrone est à Crémone",
      "La Festa del Torrone apre a ___. (A. Milano · B. Cremona)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "B", "La 11e journée de Serie A se termine dimanche : chiude",
+f.ex("B1", "Texte à trous", "B", "La 11e journée de Serie A se termine dimanche : chiude",
      "L'undicesima giornata ___ domenica 8 novembre. (A. apre · B. chiude)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "Fiorentina joue contre Juventus dimanche soir",
+f.ex("B1", "Texte à trous", "A", "Fiorentina joue contre Juventus dimanche soir",
      "Fiorentina–Juventus si gioca domenica ___. (A. sera · B. mattina)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "B", "Le Festival dei Popoli est à Florence",
+f.ex("B1", "Texte à trous", "B", "Le Festival dei Popoli est à Florence",
      "Il Festival dei Popoli è a ___. (A. Milano · B. Firenze)", size=15.5, gap=1)
-f.head("B · DOMANDE GENERALI", 22, OLIVE, 5)
-f.ex("A2", "单选", "B", "Les premières neiges tombent vers 1 300-1 500 mètres",
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
+f.ex("A2", "Choix unique", "B", "Les premières neiges tombent vers 1 300-1 500 mètres",
      "La prima neve leggera può cadere intorno ai... A. 500 m · B. 1.300–1.500 m · C. 3.000 m", size=15.5, gap=1)
-f.ex("A2", "单选", "B", "Fleur de la commémoration des défunts : le chrysanthème",
+f.ex("A2", "Choix unique", "B", "Fleur de la commémoration des défunts : le chrysanthème",
      "Il fiore del 2 novembre è... A. la rosa · B. il crisantemo · C. il tulipano", size=15.5, gap=1)
-f.ex("A2", "单选", "A", "19 pays envoient des pâtissiers à la finale du Panettone",
+f.ex("A2", "Choix unique", "A", "19 pays envoient des pâtissiers à la finale du Panettone",
      "Alla finale del Panettone partecipano pasticceri da... A. 19 paesi · B. 5 paesi · C. 50 paesi", size=15.5, gap=1)
-f.ex("B1", "单选", "B", "Le Forum Cultura propose plus de 50 événements",
+f.ex("B1", "Choix unique", "B", "Le Forum Cultura propose plus de 50 événements",
      "Il Forum Cultura ha... A. 5 eventi · B. più di 50 eventi · C. 19 eventi", size=15.5, gap=1)
-f.ex("B1", "单选", "C", "La foire de la truffe d’Alba dure jusqu’au 6 décembre",
+f.ex("B1", "Choix unique", "C", "La foire de la truffe d’Alba dure jusqu’au 6 décembre",
      "La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. l'8 novembre · C. il 6 dicembre", size=15.5, gap=1)
-f.ex("B1", "单选", "A", "Le DPB est parti le 15 octobre",
+f.ex("B1", "Choix unique", "A", "Le DPB est parti le 15 octobre",
      "Il DPB è partito per Bruxelles... A. il 15 ottobre · B. il 19 ottobre · C. il 28 ottobre", size=15.5, gap=1)
-f.ex("B2", "单选", "B", "Une probabilité n’est pas une certitude",
+f.ex("B2", "Choix unique", "B", "Une probabilité n’est pas une certitude",
      "Una probabilità alta... A. è una certezza · B. non è una certezza · C. è un errore", size=15.5, gap=1)
-f.ex("B1", "单选", "B", "Lucca Comics a fermé le 1er novembre",
+f.ex("B1", "Choix unique", "B", "Lucca Comics a fermé le 1er novembre",
      "Lucca Comics si è chiusa... A. il 28 ottobre · B. il 1° novembre · C. l'8 novembre", size=15.5, gap=1)
-f.head("C · LEGGI E RISPONDI", 22, OLIVE, 5)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
 f.para("Giulia vive a Milano: sabato 7 novembre va alla finale del Panettone e assaggia il panettone tradizionale. Paolo vive a Cremona: sabato 7 novembre va alla Festa del Torrone. Domenica, Giulia e Paolo guardano la Serie A: fa freddo, ma il calcio non si ferma.", 16.5, lh=1.3, split=False)
-f.ex("A2", "单选", "B", "Giulia va à la finale du Panettone à Milan",
+f.ex("A2", "Choix unique", "B", "Giulia va à la finale du Panettone à Milan",
      "Chi va alla finale del Panettone? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
-f.ex("A2", "单选", "A", "Paolo va à la fête du torrone samedi",
+f.ex("A2", "Choix unique", "A", "Paolo va à la fête du torrone samedi",
      "Paolo, sabato, va... A. alla Festa del Torrone · B. a Milano · C. allo stadio", size=15.5, gap=1)
-f.ex("A2", "单选", "B", "Le panettone traditionnel est dégusté par Giulia",
+f.ex("A2", "Choix unique", "B", "Le panettone traditionnel est dégusté par Giulia",
      "Il panettone tradizionale è assaggiato da... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
-f.ex("A2", "单选", "A", "Le titre résume deux villes, deux douceurs",
+f.ex("A2", "Choix unique", "A", "Le titre résume deux villes, deux douceurs",
      "Il titolo migliore è... A. «Due città, due dolci» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
-f.head("D · COSTRUISCI LE FRASI", 22, OLIVE, 5)
-f.ex("A2", "造句", "Lunedì arriva il primo freddo.", "Le mot de temps d’abord",
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.ex("A2", "Faire des phrases", "Lunedì arriva il primo freddo.", "Le mot de temps d’abord",
      "lunedì / arriva / il primo freddo → ___", instr="Former une phrase", size=15.5, gap=1)
-f.ex("B1", "造句", "La finale è a Milano il 7 novembre.", "Sujet + essere + lieu + date",
+f.ex("B1", "Faire des phrases", "La finale è a Milano il 7 novembre.", "Sujet + essere + lieu + date",
      "la finale / è a Milano / il 7 novembre → ___", instr="Former une phrase", size=15.5, gap=1)
-f.ex("B1", "造句", "A che ora apre il Forum Cultura?", "Interrogatif d’abord",
+f.ex("B1", "Faire des phrases", "A che ora apre il Forum Cultura?", "Interrogatif d’abord",
      "a che ora / apre / il Forum Cultura / ? → ___", instr="Former une phrase", size=15.5, gap=1)
-f.ex("B1", "造句", "Il freddo arriva lunedì.", "Sujet + verbe + temps",
+f.ex("B1", "Faire des phrases", "Il freddo arriva lunedì.", "Sujet + verbe + temps",
      "il freddo / arriva / lunedì → ___", instr="Former une phrase", size=15.5, gap=1)
-f.head("E · TRADUCI", 22, OLIVE, 5)
+f.head("E　TRADUCI", 22, OLIVE, 5)
 f.ex("A2", "翻译", "Lundi, le premier froid arrive.", "Comparer avec l’original.",
      "Lunedì arriva il primo freddo. → ___", instr="Traduire en français", size=15.5, gap=1)
 f.ex("B1", "翻译", "Le public peut déguster gratuitement.", "assaggiare gratis = déguster gratuitement",
@@ -74,8 +74,8 @@ f.ex("B1", "翻译", "Dimanche soir, on joue Fiorentina–Juventus.", "si gioca 
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Traduire en français", size=15.5, gap=1)
 f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = devoir",
      "Chaque prévision doit être claire. → ___", instr="Traduire en italien", size=15.5, gap=1)
-f.head("F · LE PAROLE DEL METEO", 22, OLIVE, 5)
-f.match_set("B2", "词汇配对",
+f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
+f.match_set("B2", "Associer les mots",
             ["la probabilità", "la media", "il bollettino", "il modello"],
             ["il valore medio, tra tanti valori",
              "il documento con le previsioni più recenti",
@@ -84,18 +84,18 @@ f.match_set("B2", "词汇配对",
             ["d", "a", "b", "c"],
             ["probabilità = possibilité, d", "media = moyenne, a", "bollettino = bulletin de prévision, b", "modello = modèle de prévision, c"],
             instr="Associer")
-f.head("G · DIALOGO ALLA SAGRA", 22, OLIVE, 5)
-f.ex("B1", "完形单选", "B", "torrone = nougat",
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.ex("B1", "Texte à trous", "B", "torrone = nougat",
      "— Cerco il ___ di Cremona. (A. biglietto · B. torrone)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "mandorle = amandes",
+f.ex("B1", "Texte à trous", "A", "mandorle = amandes",
      "— È fatto di ___ e miele. (A. mandorle · B. patate)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "B", "quanto costa ? = combien ça coûte ?",
+f.ex("B1", "Texte à trous", "B", "quanto costa ? = combien ça coûte ?",
      "— Quanto ___ tutto? (A. dorme · B. costa)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "A", "pagare con carta = payer par carte",
+f.ex("B1", "Texte à trous", "A", "pagare con carta = payer par carte",
      "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
-f.ex("B1", "完形单选", "B", "La fête du torrone dure jusqu’au 22 novembre",
+f.ex("B1", "Texte à trous", "B", "La fête du torrone dure jusqu’au 22 novembre",
      "— La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre)", size=15.5, gap=1)
-f.head("H · SCRIVI TU", 22, OLIVE, 5)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
 MODELO = ("Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo freddo e la mattina è pungente. "
           "A scuola parliamo del Forum Cultura di Milano e del Festival dei Popoli di Firenze. "
           "Sabato assaggio il panettone con la mia famiglia: preferisco quello tradizionale, con i canditi. "
@@ -104,24 +104,24 @@ MODELO = ("Lunedì 2 novembre metto il cappotto e la sciarpa: arriva il primo fr
           "Lunedì prossimo racconto tutto alla classe, con le parole nuove del freddo.")
 NWORDS = len(MODELO.split())
 f.bridge(f"Exercice d’écriture (pas de réponse unique) ; le texte modèle ({NWORDS} mots) suit.")
-f.ex("B1", "写作", "(exercice ouvert — texte modèle ci-dessous)", f"Texte modèle dans la section H ci-dessous ({NWORDS} mots)",
+f.ex("B1", "Écriture", "(exercice ouvert — texte modèle ci-dessous)", f"Texte modèle dans la section H ci-dessous ({NWORDS} mots)",
      "«La tua settimana del primo freddo» Scrivi 80–100 parole: il freddo, cosa metti, un evento o una festa del tuo weekend.", instr="Écrire", size=15.5, gap=1)
 f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RISPOSTE =================
-p.hline(MX, RIGHT, 1344, GOLD, 2)
-p.text(MX, 1382, "RISPOSTE · CORRIGÉS — classés par page, cherchez le numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1382, "Chaque réponse est accompagnée d’une note d’une ligne en français · ✓ = exercice du texte modèle", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1344, OLIVE, 2)
+p.text(MX, 1382, "RISPOSTE　CORRIGÉS — classés par page, cherchez le numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1382, "Chaque réponse est accompagnée d’une note d’une ligne en français　✓ = exercice du texte modèle", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.14, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
-        if e_["type"] == "写作":
+        if e_["type"] == "Écriture":
             txt = f"{e_['n']}. ✓ {e_['note']}"
         af.para(txt, 13, lh=1.14, gap=0.5, split=False)
 af.end_report()
