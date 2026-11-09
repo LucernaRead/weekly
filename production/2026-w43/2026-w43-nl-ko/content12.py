@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-nl-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · VOORPAGINA (A2) =================
@@ -11,27 +11,27 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 1 · EERSTE EDITIE", 23, "sans", True, OLIVE)
-p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 매주 발행 · 네덜란드인이 읽는 네덜란드어", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "WEEK VAN 19 TOT EN MET 25 OKTOBER 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "De Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "네덜란드어 주간지 · VOL.1 · 시계 · 방학 · 댄스", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판", 19.5, "sans", True, BRICK, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 1　EERSTE EDITIE", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS　매주 발행　네덜란드인이 읽는 네덜란드어", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "WEEK VAN 19 TOT EN MET 25 OKTOBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "De Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "네덜란드어 주간지　VOL.1　시계　방학　댄스", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 372, "네덜란드어 텍스트　한국어 해설 — 한국어 독자를 위한 판", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "ZONDAG GAAT DE KLOK TERUG!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "In de nacht van zaterdag op zondag begint de wintertijd: om 03:00 uur gaat de klok één uur achteruit.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "일요일 시계 뒤로", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "겨울 시간 시작 · 2면 참조", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "ZONDAG GAAT DE KLOK TERUG!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "In de nacht van zaterdag op zondag begint de wintertijd: om 03:00 uur gaat de klok één uur achteruit.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "일요일 시계 뒤로", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "겨울 시간 시작　2면 참조", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "HET NIEUWS · 헤드라인", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Een volle week: vakantie, design, dance — en een uur extra slaap", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Van de redactie van De Lucerna · Leesniveau: A2", 20, "sans", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "HET NIEUWS　헤드라인", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Een volle week: vakantie, design, dance — en een uur extra slaap", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Van de redactie van De Lucerna　Leesniveau: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Het is een volle week in Nederland. De regio's Midden en Zuid hebben de hele week herfstvakantie: van zaterdag 17 tot en met zondag 25 oktober. De regio Noord was vorige week vrij; daar begint de school weer op maandag.", size=24)
@@ -40,13 +40,13 @@ f.para("Cultuur is er ook genoeg. In Eindhoven is de Dutch Design Week: zo'n 2.5
 f.para("Sportliefhebbers kijken naar zondag: PSV tegen Feyenoord om 14:30 uur en Sparta tegen Ajax om 16:45 uur. En wie zondagavond thuis blijft, kijkt misschien televisie — daarover meer op pagina 5.", size=24)
 f.para("Dit is de eerste editie van De Lucerna in het Nederlands: elke week het echte Nederland, helder en eerlijk. Veel plezier met lezen!", size=24)
 f.expl("해설 — de herfstvakantie 가을 방학 · achteruit 뒤로(돌리기) · de ontwerper 디자이너.")
-f.box("DE WEEK IN CIJFERS · 숫자로 보기", [
+f.box("DE WEEK IN CIJFERS　숫자로 보기", [
     ("9 — de dagen van de Dutch Design Week in Eindhoven(디자인 위크의 날수)", "serif", False, INK, 20, 1.35),
     ("25 — de dag in oktober waarop de wintertijd begint(겨울 시간이 시작하는 날)", "serif", False, INK, 20, 1.35),
     ("30 — de jaren van het Amsterdam Dance Event(암스테르담 댄스 이벤트의 햇수)", "serif", False, INK, 20, 1.35),
     ("2.500 — de ontwerpers op de Dutch Design Week, ongeveer(대략: 디자인 위크의 디자이너 수)", "serif", False, INK, 20, 1.35),
 ])
-f.head("NU JIJ · 바로 연습", 25)
+f.head("NU JIJ　바로 연습", 25)
 f.ex("A2", "문장 완성", "herfstvakantie", "herfstvakantie = 가을 방학",
      "De regio's Midden en Zuid hebben de hele week ___.", size=19.5, gap=6)
 f.ex("A2", "문장 완성", "achteruit", "achteruit = 뒤로 돌리기",
@@ -63,11 +63,11 @@ f.end_report()
 
 # ---- topzoekopdrachten (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "TOPZOEK-", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "OPDRACHTEN", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "네덜란드인의 구글 검색 · zoeken op Google", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "네덜란드인의 구글 검색　zoeken op Google", 19, "sans", False, GREY)
 gt = [
     ("de hanslers ruzie", "10.000+"),
     ("uitslagen champions league", "1.000+"),
@@ -78,7 +78,7 @@ gt = [
 byy = gy + 150
 for i, (lab, vol) in enumerate(gt):
     p.text(gx + 22, byy + 22, f"{i+1}. {lab}", 20, "serif", True, INK)
-    p.text(gx + gw - 22, byy + 22, vol, 20, "sans", True, BRICK, anchor="end")
+    p.text(gx + gw - 22, byy + 22, vol, 20, "sans", True, OLIVE, anchor="end")
     byy += 62
 p.text(gx + 22, byy + 16, "Google Trends, dinsdag 20 oktober:", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "een momentopname; de aantallen zijn", 18.5, "sans", False, GREY)
@@ -87,8 +87,8 @@ p.text(gx + 22, byy + 102, "10월 20일(화) Google Trends 스냅샷: 추정치�
 
 # ---- inhoud (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 이번 호 목차", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN DEZE EDITIE　이번 호 목차", 24, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "De wintertijd, stap voor stap", "A2"),
     ("Pag. 3", "Design en herfstvakantie", "A2→B1"),
@@ -100,7 +100,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -108,9 +108,10 @@ for pg, t, lv in som:
 # ---- woord van de week (col 3) ----
 my = 1652
 p.text(gx, my + 24, "HET WOORD VAN DE WEEK", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "«de klok verzetten»: de tijd op je klok veranderen — deze week één uur achteruit.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "\"시계 돌리기\": 시계의 시간을 바꾸는 일, 이번 주는 한 시간 뒤로 돌려요.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "«de klok verzetten»", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "de tijd op je klok veranderen — deze week één uur achteruit.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 26, "\"시계 돌리기\": 시계의 시간을 바꾸는 일, 이번 주는 한 시간 뒤로 돌려요.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1853, LINE, 1.2)
@@ -121,15 +122,15 @@ caption(p, ix, iy + 320, iw,
         "De Westertoren in Amsterdam. In de nacht van zaterdag op zondag gaat elke klok in Nederland één uur terug: om 03:00 uur wordt het 02:00 uur. (Pagina 2)",
         "Foto: Wim van Rossem / Anefo, Nationaal Archief — CC0")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-tv")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
 f2.head("DE WEEK OP TV", 25)
 f2.para("Op televisie was er ruzie bij De Hanslers, de realityserie van SBS6: de zoekopdracht «de hanslers ruzie» was dinsdag de grootste van het land.", 22.5)
 f2.para("En wie zondag na de sport nog energie heeft, danst in Amsterdam: het is de laatste avond van ADE. (Pagina's 4 en 5)", 22.5)
 f2.end_report()
 # col 3 IN HET KORT
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "IN HET KORT · 단신", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "IN HET KORT　단신", 24, "sans", True, OLIVE)
 brefs = [
     ("DE KLOK", "Zondag wordt 03:00 uur weer 02:00 uur. Telefoons doen het zelf; de ovenklok niet. (Pagina 2)"),
     ("DE VAKANTIE", "Midden en Zuid zijn de hele week vrij. Noord gaat maandag weer naar school."),
@@ -137,15 +138,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz bliksem ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "BLIKSEMQUIZ · 번개 퀴즈", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "머릿기사를 읽고 정답을 고르세요 · 정답은 8면에", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "BLIKSEMQUIZ　번개 퀴즈", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "머릿기사를 읽고 정답을 고르세요　정답은 8면에", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "객관식", "B", "겨울 시간은 토요일에서 일요일로 넘어가는 밤에 시작해요",
       "De wintertijd begint... A. op maandag · B. in de nacht van zaterdag op zondag · C. op vrijdag", size=21)
 qf.ex("A2", "객관식", "B", "시계는 한 시간 뒤로 가요",
@@ -162,11 +163,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · LEVEN (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("LEVEN · 생활", "De Lucerna", "NIVEAU A2 · De wintertijd, stap voor stap · 겨울 시간 단계별로")
+p.band("LEVEN　생활", "De Lucerna", "NIVEAU A2　De wintertijd, stap voor stap　겨울 시간 단계별로")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("De wintertijd: een uur langer slapen", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2")
+f.title("De wintertijd: een uur langer slapen", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2")
 f.para("Eén keer per jaar krijgt Nederland een cadeau: een uur extra. In de nacht van zaterdag 24 op zondag 25 oktober gaat de klok één uur achteruit. Om 03:00 uur 's nachts wordt het weer 02:00 uur. De zomertijd is voorbij; de wintertijd begint.")
 f.para("Hoe onthoud je de richting? Nederlanders gebruiken een ezelsbruggetje: «In het voorjaar gaat de klok vooruit, in het najaar achteruit.» Voorjaar is de lente, najaar is de herfst. Dus nu, in de herfst, gaat de klok terug.")
 f.para("Niet alles gaat vanzelf. Je telefoon en je computer veranderen de tijd zelf. Maar de klok in de keuken, de wekker naast je bed en de ovenklok moet je met de hand verzetten. Vergeet ze niet: 's avonds wordt het nu vroeger donker.")
@@ -176,7 +177,7 @@ f.para("Wordt het nu vroeger donker? Ja en nee: 's avonds is het eerder donker, 
 f.para("Nederland doet dit niet alleen: in heel Europa gaat de klok in dezelfde nacht achteruit. Wie in het weekend naar Duitsland of Frankrijk reist, hoeft dus niets extra's te doen: overal is het even laat.")
 f.head("ETEN BESTELLEN WORDT HELDER", 25)
 f.para("Ander nieuws van dinsdag: Thuisbezorgd en Uber Eats stoppen met verborgen kosten. Wie eten bestelt, ziet voortaan vóór het betalen alle extra kosten duidelijk op het scherm. Miljoenen klanten krijgen een kortingsbon als compensatie, schrijven NU.nl en het AD.")
-f.box("ZO ONTHOUD JE HET · 암기법", [
+f.box("ZO ONTHOUD JE HET　암기법", [
     ("«Voorjaar vooruit, najaar achteruit.» En in de nacht van zaterdag op zondag geldt: één uur langer slapen.", "serif", False, INK, 21.5, 1.4),
 ])
 f.gloss("het ezelsbruggetje 암기 문구 · verzetten 돌리다, 맞추다 · de wekker 알람 시계 · de kortingsbon 할인 쿠폰 · verborgen 숨은 · de ovenklok 오븐 시계.")
@@ -192,7 +193,7 @@ facts = ["De wintertijd begint op zondag 25 oktober om 03:00 uur; de klok gaat t
          "De data van de schoolvakanties zijn adviesdata: scholen mogen afwijken."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "WIST JE DAT?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -201,9 +202,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "En jij? Wat doe jij met een uur extra: langer slapen, lezen of sporten? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie: de mooiste komen in VOL.2 (pagina 7, «Brieven van lezers»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("한 시간이 더 생기면 뭘 해요? 잠자기, 책 읽기, 아니면 운동? 네덜란드어로 두 문장 써서 편집부로 보내 주세요.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "EN JIJ? · 너는 어때요?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "EN JIJ?　너는 어때요?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "한 시간이 더 생기면 뭘 해요? 잠자기, 책 읽기, 아니면 운동? 네덜란드어로 두 문장 써서 편집부로 보내 주세요.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -211,9 +212,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Hoe laat is het? 4 time boxes ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "HOE LAAT IS HET? · 지금 몇 시예요?", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "De tijd zeggen als een Nederlander · 네덜란드인처럼 시간 말하기", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "HOE LAAT IS HET?　지금 몇 시예요?", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "De tijd zeggen als een Nederlander　네덜란드인처럼 시간 말하기", 20, "sans", False, GREY, anchor="end")
 times = [
     ("02:15", "kwart over twee", "2시 15분"),
     ("02:30", "half drie", "주의: 3:30이 아니라 2:30이에요"),
@@ -222,7 +223,7 @@ times = [
 ]
 for i, (t, lab, cn) in enumerate(times):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 116, t, 40, "serif", True, OLIVE)
     yy = p.para(bx + 150, dy + 92, lab, 21.5, "serif", False, INK, CW - 172, 1.36)
     p.para(bx + 150, yy + 20, cn, 19, "sans", False, GREY, CW - 172, 1.3)
@@ -230,11 +231,11 @@ p.para(MX, dy + 234, "Let op de valkuil: «half drie» is half vóór drie — d
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 제 2 면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "정답은 8면에 · 문제는 단계가 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　제 2 면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "정답은 8면에　문제는 단계가 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.expl("2면 기사를 읽고 정답을 고르세요.")
 e.ex("A2", "객관식", "B", "암기 문구: najaar achteruit(가을에는 뒤로)",
      "De klok gaat achteruit in... A. het voorjaar · B. het najaar · C. de zomer", size=20, gap=8)
@@ -246,7 +247,7 @@ e.ex("A2", "객관식", "B", "북부 지역은 월요일에 다시 학교에 가
      "De regio Noord... A. heeft deze week vakantie · B. gaat maandag weer naar school · C. heeft vakantie tot 25 oktober", size=20, gap=8)
 e.ex("A2", "객관식", "B", "두 플랫폼이 숨은 비용을 없애요",
      "Thuisbezorgd en Uber Eats... A. worden duurder · B. stoppen met verborgen kosten · C. stoppen met bezorgen", size=20, gap=8)
-e.head("B · HOE LAAT?", 25)
+e.head("B　HOE LAAT?", 25)
 e.expl("시간을 네덜란드어로 써 보세요.")
 e.ex("A2", "문장 완성", "kwart over twee", "kwart over twee = 2:15",
      "02:15 is ___.", instr="빈칸 채우기", size=20, gap=8)
@@ -258,7 +259,7 @@ e.ex("A2", "문장 완성", "drie uur", "새벽 세 시(drie uur 's nachts)",
      "De wintertijd begint om ___ 's nachts.", instr="빈칸 채우기", size=20, gap=8)
 e.ex("B1", "문장 완성", "achteruit", "achteruit = 뒤로(돌리기)",
      "Om 03:00 uur gaat de klok één uur ___.", instr="빈칸 채우기", size=20, gap=8)
-e.head("C · CIJFERS EN DATUMS", 25)
+e.head("C　CIJFERS EN DATUMS", 25)
 e.expl("1면과 2면의 숫자로 빈칸을 채우세요.")
 e.ex("A2", "문장 완성", "25", "10월 25일 일요일",
      "De wintertijd begint op zondag ___ oktober.", instr="빈칸 채우기", size=20, gap=8)
@@ -268,7 +269,7 @@ e.ex("B1", "문장 완성", "9", "17일부터 25일까지 모두 9일",
      "De herfstvakantie van Midden en Zuid duurt ___ dagen (17 tot en met 25 oktober).", instr="빈칸 채우기", size=20, gap=8)
 e.ex("B1", "문장 완성", "2.500", "약 2,500명의 디자이너(1면)",
      "Op de Dutch Design Week zijn ongeveer ___ ontwerpers.", instr="빈칸 채우기", size=20, gap=8)
-e.head("D · WOORDEN", 25)
+e.head("D　WOORDEN", 25)
 e.match_set("A2", "단어 짝짓기",
             ["de klok verzetten", "het ezelsbruggetje", "de kortingsbon", "verborgen"],
             ["een zinnetje dat helpt om iets te onthouden",

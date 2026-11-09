@@ -3,59 +3,59 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-nl-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · TAAL (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("TAAL · LENGUA", "De Lucerna", "La lengua, en primer plano · Drie niveaus, drie gereedschappen · Tres niveles, tres herramientas")
+p.band("TAAL　LENGUA", "De Lucerna", "La lengua, en primer plano　Drie niveaus, drie gereedschappen　Tres niveles, tres herramientas")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · DE KLOK EN HOE LAAT", 24)
+a.head("A2　DE KLOK EN HOE LAAT", 24)
 a.para("Vraag: «Hoe laat is het?» Antwoord met kwart en half: kwart over twee (02:15), half drie (02:30), kwart voor drie (02:45). Let op: half drie is half vóór drie — dus half vóór het hele uur.", 21.5)
 a.para("En de klok verzetten: in oktober gaat hij achteruit, in het voorjaar vooruit. Eén uur maar — maar iedereen praat erover.", 21.5)
 a.expl("hoe laat: preguntar la hora; half drie = 2:30 (media hora antes de las tres); en octubre se atrasa, en primavera se adelanta.")
-a.ex("A2", "完成句子", "kwart over drie", "kwart over drie = 3:15",
+a.ex("A2", "Completar las frases", "kwart over drie", "kwart over drie = 3:15",
      "03:15 is ___.", instr="Completar", size=20.5, gap=10)
-a.ex("A2", "完成句子", "half vier", "half vier = 3:30",
+a.ex("A2", "Completar las frases", "half vier", "half vier = 3:30",
      "03:30 is ___.", instr="Completar", size=20.5, gap=10)
-a.ex("A2", "单选", "B", "half vijf = 4:30 (pregunta trampa)",
+a.ex("A2", "Una opción", "B", "half vijf = 4:30 (pregunta trampa)",
      "«Half vijf» is... A. 05:30 · B. 04:30 · C. 04:45", size=20.5, gap=10)
-a.ex("A2", "完成句子", "achteruit", "En octubre el reloj se atrasa",
+a.ex("A2", "Completar las frases", "achteruit", "En octubre el reloj se atrasa",
      "In oktober gaat de klok ___.", instr="Completar", size=20.5, gap=10)
 a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · VAKANTIE EN VRIJE TIJD", 24)
+b.head("B1　VAKANTIE EN VRIJE TIJD", 24)
 b.para("In de herfstvakantie gaan families eropuit: naar een museum, het bos of een andere stad. En thuis bijslapen hoort er ook bij: een uur extra in bed is ook vakantie.", 21.5)
 b.para("Werkwoorden van de week: eropuit gaan (ging, gegaan) en bijslapen (sliep bij, bijgeslapen). Let op: bijslapen is scheidbaar — «ik sliep zondag lekker bij».", 21.5)
 b.expl("eropuit gaan: salir de paseo; bijslapen: dormir para recuperarse — verbo separable: ik sliep bij.")
-b.ex("B1", "完成句子", "eropuit", "eropuit = salir de paseo",
+b.ex("B1", "Completar las frases", "eropuit", "eropuit = salir de paseo",
      "In de vakantie gaan wij ___: naar het bos en een museum.", instr="Completar", size=20.5, gap=10)
-b.ex("B1", "完成句子", "bijgeslapen", "Participio de bijslapen: bijgeslapen",
+b.ex("B1", "Completar las frases", "bijgeslapen", "Participio de bijslapen: bijgeslapen",
      "Zondag heb ik lekker ___ (bijslapen).", instr="Completar", size=20.5, gap=10)
-b.ex("B1", "完成句子", "gingen", "Pasado plural de gaan: gingen",
+b.ex("B1", "Completar las frases", "gingen", "Pasado plural de gaan: gingen",
      "Gisteren ___ (gaan) wij naar Eindhoven.", instr="Completar", size=20.5, gap=10)
-b.ex("B1", "单选", "A", "bijslapen = dormir para recuperarse",
+b.ex("B1", "Una opción", "A", "bijslapen = dormir para recuperarse",
      "«Bijslapen» betekent... A. extra slapen om uit te rusten · B. vroeg opstaan · C. buiten slapen", size=20.5, gap=10)
 b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · RUZIE EN MENINGEN", 24)
+c.head("B2　RUZIE EN MENINGEN", 24)
 c.para("Televisie geeft woorden voor ruzie: «een ruzie hebben met iemand», «het ergens niet mee eens zijn». Een sterke, informele zin is: «Dat slaat nergens op!» Dat betekent: dat is onzin. Gebruik hem voorzichtig — hij is informeel.", 21.5)
 c.para("Een mening beleefd geven doe je zo: «Ik vind dat ...», «Volgens mij ...» of «Het lijkt me dat ...» Zo praat je mee over De Hanslers én over de klok.", 21.5)
 c.expl("ruzie: la discusión; slaat nergens op es coloquial («no tiene ningún sentido»), úsalo con cuidado; Ik vind dat… presenta una opinión con cortesía.")
-c.ex("B2", "完成句子", "ruzie", "ruzie = la discusión (de)",
+c.ex("B2", "Completar las frases", "ruzie", "ruzie = la discusión (de)",
      "Monique en Mike hebben ___ in de serie.", instr="Completar", size=20.5, gap=10)
-c.ex("B2", "单选", "B", "Volgens mij…: una entrada cortés",
+c.ex("B2", "Una opción", "B", "Volgens mij…: una entrada cortés",
      "Je begint je mening beleefd met... A. Dat slaat nergens op! · B. Volgens mij is dat goed. · C. Ruzie!", size=20.5, gap=10)
-c.ex("B2", "完成句子", "onzin", "onzin = tonterías, sin sentido",
+c.ex("B2", "Completar las frases", "onzin", "onzin = tonterías, sin sentido",
      "«Dat slaat nergens op» betekent: dat is ___.", instr="Completar", size=20.5, gap=10)
-c.ex("B2", "完成句子", "eens", "het eens zijn met iemand = estar de acuerdo con alguien",
+c.ex("B2", "Completar las frases", "eens", "het eens zijn met iemand = estar de acuerdo con alguien",
      "Ik ben het helemaal met je ___.", instr="Completar", size=20.5, gap=10)
 c.end_report()
 
@@ -68,27 +68,27 @@ errs = [
     ("«Ik blijf thuis, omdat ik heb geen tijd.»", "→ Na «omdat» staat het werkwoord aan het einde: «... geen tijd heb.»", "Tras «omdat», el verbo va al final."),
 ]
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 192
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "PAS OP! · ERRORES FRECUENTES", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORES FRECUENTES", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 18
 wt = "«eropuit» betekent: het huis uit gaan om iets leuks te doen — naar een museum, het bos of een festival. In de herfstvakantie gaat heel Nederland eropuit."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("eropuit = salir de paseo: ir a un museo, al bosque o a un festival.", "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "HET WOORD · PALABRA SEMANAL", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "eropuit = salir de paseo: ir a un museo, al bosque o a un festival.", 20, "sans", False, GREY, CW - 44, 1.42)
 ly = wy + wh + 18
 lt = "«Hallo! Ik ben Lucía en ik leer Nederlands in Madrid. In oktober slaap ik één uur langer — net als jullie!» — Lucía (voorbeeldbrief van de redactie)"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Carta de ejemplo de la redacción. ¡VOL.2: cartas reales y el mejor texto (p. 8)!", "sans", False, 20, CW - 44)) * 29 + 34
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "BRIEVEN VAN LEZERS", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -98,8 +98,8 @@ print("P7 col3 ends", ly + lh)
 
 # ---- zinnen van de week (verbatim from this issue) ----
 fy = 1712
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "ZINNEN VAN DE WEEK · FRASES DE LA SEMANA (PALABRA POR PALABRA, DE ESTA EDICIÓN)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "ZINNEN VAN DE WEEK　FRASES DE LA SEMANA (PALABRA POR PALABRA, DE ESTA EDICIÓN)", 27, "sans", True, OLIVE)
 quotes = [
     ("«De wintertijd begint — en iedereen slaapt een uur langer»", "Empieza el horario de invierno — y todo el mundo duerme una hora más.", "Pagina 1"),
     ("«In het voorjaar gaat de klok vooruit, in het najaar achteruit»", "En primavera el reloj se adelanta; en otoño, se atrasa.", "Pagina 2"),
@@ -119,9 +119,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- volgende week ----
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "VOLGENDE WEEK · LA SEMANA QUE VIENE (VOL.2)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "Zondag 1 november begint Expeditie Robinson (20:00 uur, RTL 4): wie van de 19 kandidaten is de sterkste? Verder: de uitslagen van de Europese voetbalweek, de laatste verhalen van ADE en de Dutch Design Week, en jullie brieven en beste teksten van pagina 8. Tot maandag!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "VOLGENDE WEEK　LA SEMANA QUE VIENE (VOL.2)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "Zondag 1 november begint Expeditie Robinson (20:00 uur, RTL 4): wie van de 19 kandidaten is de sterkste? Verder: de uitslagen van de Europese voetbalweek, de laatste verhalen van ADE en de Dutch Design Week, en jullie brieven en beste teksten van pagina 8. Tot maandag!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-taal.svg")
 print("P7 saved, exercises so far:", len(REG))

@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-nl-it/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · TAAL (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("TAAL · LINGUA", "De Lucerna", "La lingua in primo piano · Drie niveaus, drie gereedschappen · Tre livelli, tre strumenti")
+p.band("TAAL　LINGUA", "De Lucerna", "La lingua in primo piano　Drie niveaus, drie gereedschappen　Tre livelli, tre strumenti")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · DE KLOK EN HOE LAAT", 24)
+a.head("A2　DE KLOK EN HOE LAAT", 24)
 a.para("Vraag: «Hoe laat is het?» Antwoord met kwart en half: kwart over twee (02:15), half drie (02:30), kwart voor drie (02:45). Let op: half drie is half vóór drie — dus half vóór het hele uur.", 21.5)
 a.para("En de klok verzetten: in oktober gaat hij achteruit, in het voorjaar vooruit. Eén uur maar — maar iedereen praat erover.", 21.5)
 a.expl("Nota — hoe laat chiede l'ora; half drie sono le 2:30 (mezz'ora prima delle tre); in ottobre indietro, in primavera avanti.")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · VAKANTIE EN VRIJE TIJD", 24)
+b.head("B1　VAKANTIE EN VRIJE TIJD", 24)
 b.para("In de herfstvakantie gaan families eropuit: naar een museum, het bos of een andere stad. En thuis bijslapen hoort er ook bij: een uur extra in bed is ook vakantie.", 21.5)
 b.para("Werkwoorden van de week: eropuit gaan (ging, gegaan) en bijslapen (sliep bij, bijgeslapen). Let op: bijslapen is scheidbaar — «ik sliep zondag lekker bij».", 21.5)
 b.expl("Nota — eropuit gaan uscire per divertirsi; bijslapen dormire per recuperare, verbo separabile: ik sliep bij.")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · RUZIE EN MENINGEN", 24)
+c.head("B2　RUZIE EN MENINGEN", 24)
 c.para("Televisie geeft woorden voor ruzie: «een ruzie hebben met iemand», «het ergens niet mee eens zijn». Een sterke, informele zin is: «Dat slaat nergens op!» Dat betekent: dat is onzin. Gebruik hem voorzichtig — hij is informeel.", 21.5)
 c.para("Een mening beleefd geven doe je zo: «Ik vind dat ...», «Volgens mij ...» of «Het lijkt me dat ...» Zo praat je mee over De Hanslers én over de klok.", 21.5)
 c.expl("Nota — ruzie lite; slaat nergens op è informale («non ha senso»), usalo con cautela; Ik vind dat… esprime un'opinione in modo gentile.")
@@ -68,27 +68,27 @@ errs = [
     ("«Ik blijf thuis, omdat ik heb geen tijd.»", "→ Na «omdat» staat het werkwoord aan het einde: «... geen tijd heb.»", "Dopo «omdat», verbo alla fine."),
 ]
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 192
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "PAS OP! · ERRORI FREQUENTI", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORI FREQUENTI", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 18
 wt = "«eropuit» betekent: het huis uit gaan om iets leuks te doen — naar een museum, het bos of een festival. In de herfstvakantie gaat heel Nederland eropuit."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("eropuit = uscire per divertirsi: al museo, nel bosco o a un festival.", "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "HET WOORD · LA PAROLA", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "HET WOORD　LA PAROLA", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "eropuit = uscire per divertirsi: al museo, nel bosco o a un festival.", 20, "sans", False, GREY, CW - 44, 1.42)
 ly = wy + wh + 18
 lt = "«Hallo! Ik ben Chen en ik leer Nederlands in Beijing. In oktober slaap ik één uur langer — net als jullie!» — Chen (voorbeeldbrief van de redactie)"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Esempio della redazione. Nel VOL.2: lettere vere e miglior testo di pagina 8!", "sans", False, 20, CW - 44)) * 29 + 34
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "BRIEVEN VAN LEZERS", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -98,8 +98,8 @@ print("P7 col3 ends", ly + lh)
 
 # ---- zinnen van de week (verbatim from this issue) ----
 fy = 1712
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "ZINNEN VAN DE WEEK · FRASI DELLA SETTIMANA (PAROLA PER PAROLA, DA QUESTA EDIZIONE)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "ZINNEN VAN DE WEEK　FRASI DELLA SETTIMANA (PAROLA PER PAROLA, DA QUESTA EDIZIONE)", 27, "sans", True, OLIVE)
 quotes = [
     ("«De wintertijd begint — en iedereen slaapt een uur langer»", "Comincia l'ora solare — e tutti dormono un'ora in più.", "Pagina 1"),
     ("«In het voorjaar gaat de klok vooruit, in het najaar achteruit»", "In primavera l'orologio va avanti, in autunno indietro.", "Pagina 2"),
@@ -119,9 +119,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- volgende week ----
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "VOLGENDE WEEK · LA PROSSIMA SETTIMANA (VOL.2)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "Zondag 1 november begint Expeditie Robinson (20:00 uur, RTL 4): wie van de 19 kandidaten is de sterkste? Verder: de uitslagen van de Europese voetbalweek, de laatste verhalen van ADE en de Dutch Design Week, en jullie brieven en beste teksten van pagina 8. Tot maandag!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "VOLGENDE WEEK　LA PROSSIMA SETTIMANA (VOL.2)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "Zondag 1 november begint Expeditie Robinson (20:00 uur, RTL 4): wie van de 19 kandidaten is de sterkste? Verder: de uitslagen van de Europese voetbalweek, de laatste verhalen van ADE en de Dutch Design Week, en jullie brieven en beste teksten van pagina 8. Tot maandag!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-taal.svg")
 print("P7 saved, exercises so far:", len(REG))

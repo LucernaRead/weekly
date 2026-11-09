@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-nl-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · TOETS EN ANTWOORDEN =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("TOETS EN ANTWOORDEN · PRUEBA Y RESPUESTAS", "De Lucerna", "Página 8 · De grote toets van de week + alle antwoorden")
+p.band("TOETS EN ANTWOORDEN　PRUEBA Y RESPUESTAS", "De Lucerna", "Página 8　De grote toets van de week + alle antwoorden")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · VUL DE KRONIEK IN", 21, OLIVE, 5)
+f.head("A　VUL DE KRONIEK IN", 21, OLIVE, 5)
 f.ex("B1", "Huecos", "B", "En otoño se atrasa el reloj",
      "In de nacht van zaterdag op zondag gaat de klok één uur ___. (A. vooruit · B. achteruit)", size=13.8, gap=0)
 f.ex("B1", "Huecos", "A", "Las vacaciones del Centro y el Sur llegan hasta el 25 de octubre",
@@ -29,7 +29,7 @@ f.ex("B1", "Huecos", "A", "La mayor búsqueda sobre el reloj: wintertijd",
      "De grootste zoekterm over de klok was «___». (A. wintertijd · B. klok vooruit)", size=13.8, gap=0)
 f.ex("B1", "Huecos", "B", "half drie = 2:30",
      "«Half drie» is ___. (A. 03:30 · B. 02:30)", size=13.8, gap=0)
-f.head("B · ALGEMENE VRAGEN", 21, OLIVE, 5)
+f.head("B　ALGEMENE VRAGEN", 21, OLIVE, 5)
 f.ex("A2", "Elección", "B", "El horario de invierno empieza a las 03:00",
      "De wintertijd begint om... A. 02:00 uur · B. 03:00 uur · C. middernacht", size=13.8, gap=0)
 f.ex("A2", "Elección", "A", "El Norte tuvo vacaciones del 10 al 18 de octubre",
@@ -46,7 +46,7 @@ f.ex("B2", "Elección", "B", "Las 6.600 búsquedas pedían «hacia adelante» (a
      "De 6.600 zoekopdrachten vroegen naar... A. achteruit · B. vooruit · C. wintertijd", size=13.8, gap=0)
 f.ex("B1", "Elección", "A", "Las plataformas mostrarán con claridad todos los gastos extra",
      "Thuisbezorgd laat voortaan... A. alle extra kosten duidelijk zien · B. geen eten meer bezorgen · C. alleen kortingsbonnen zien", size=13.8, gap=0)
-f.head("C · LEES EN ANTWOORD", 21, OLIVE, 5)
+f.head("C　LEES EN ANTWOORD", 21, OLIVE, 5)
 f.para("Sanne woont in Utrecht, in de regio Midden. Zij heeft de hele week herfstvakantie. Op woensdag gaat zij met haar zus naar Eindhoven, naar de Dutch Design Week. Zaterdagavond zet zij alle klokken in huis één uur achteruit — behalve haar telefoon, die doet het zelf. Zondag slaapt zij lang uit: het is de laatste dag van de vakantie.", 15, lh=1.3, split=False)
 f.ex("A2", "Elección", "B", "Sanne vive en Utrecht",
      "Waar woont Sanne? A. in Venlo · B. in Utrecht · C. in Amsterdam", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Elección", "B", "El sábado por la noche atrasa los relojes",
      "Wat doet Sanne zaterdagavond? A. Zij gaat dansen · B. Zij zet de klokken achteruit · C. Zij pakt haar koffer", size=13.8, gap=0)
 f.ex("B1", "Elección", "C", "El teléfono cambia la hora solo, sin tocarlo",
      "Welke klok zet Sanne NIET met de hand achteruit? A. de ovenklok · B. de wekker · C. haar telefoon", size=13.8, gap=0)
-f.head("D · MAAK DE ZINNEN", 21, OLIVE, 5)
+f.head("D　MAAK DE ZINNEN", 21, OLIVE, 5)
 f.ex("A2", "Frases", "De klok gaat één uur achteruit.", "Sujeto + verbo + complemento + dirección",
      "de klok / gaat / één uur / achteruit → ___", instr="Formar la frase", size=13.8, gap=0)
 f.ex("B1", "Frases", "Wij gaan zondag naar de topper.", "Sujeto + verbo + tiempo + lugar",
@@ -65,7 +65,7 @@ f.ex("B1", "Frases", "Hoe laat begint de wedstrijd?", "La palabra interrogativa 
      "hoe laat / begint / de wedstrijd / ? → ___", instr="Formar la frase", size=13.8, gap=0)
 f.ex("B1", "Frases", "PSV won met 1–0 in Porto.", "Sujeto + verbo + resultado + lugar",
      "psv / won / met 1–0 / in porto → ___", instr="Formar la frase", size=13.8, gap=0)
-f.head("E · VERTAAL", 21, OLIVE, 5)
+f.head("E　VERTAAL", 21, OLIVE, 5)
 f.ex("A2", "Traducción", "El domingo se atrasa el reloj: ¡una hora más de sueño!", "Compara la banda de titulares de la página 1",
      "Zondag gaat de klok terug: een uur langer slapen! → ___", instr="Traducir", size=13.8, gap=0)
 f.ex("B1", "Traducción", "Tu teléfono y tu ordenador cambian la hora solos.", "Frase de la página 2 · veranderen = cambiar",
@@ -74,7 +74,7 @@ f.ex("B1", "Traducción", "De Dutch Design Week is in Eindhoven.", "Ojo a la exp
      "La Dutch Design Week es en Eindhoven. → ___", instr="Traducir", size=13.8, gap=0)
 f.ex("B2", "Traducción", "Zondag heb ik een uur langer geslapen.", "Perfectum: heb geslapen",
      "El domingo dormí una hora más. → ___", instr="Traducir", size=13.8, gap=0)
-f.head("F · WOORDEN VAN DE WEEK", 21, OLIVE, 5)
+f.head("F　WOORDEN VAN DE WEEK", 21, OLIVE, 5)
 f.match_set("B2", "Relacionar",
             ["de klok verzetten", "het ezelsbruggetje", "eropuit gaan", "bijslapen"],
             ["extra slapen om uit te rusten",
@@ -84,7 +84,7 @@ f.match_set("B2", "Relacionar",
             ["d", "c", "b", "a"],
             ["verzetten=ajustar los relojes d", "ezelsbruggetje=frase para recordar c", "eropuit=salir de paseo b", "bijslapen=dormir para recuperarse a"],
             instr="Relacionar")
-f.head("G · DIALOOG BIJ DE DDW", 21, OLIVE, 5)
+f.head("G　DIALOOG BIJ DE DDW", 21, OLIVE, 5)
 f.ex("B1", "Huecos", "B", "kaartje = la entrada",
      "— Goedemorgen! Een ___ voor de Dutch Design Week, alstublieft. (A. ezelsbruggetje · B. kaartje)", size=13.8, gap=0)
 f.ex("B1", "Huecos", "A", "student = el estudiante (entrada: € 19,50)",
@@ -95,7 +95,7 @@ f.ex("B1", "Huecos", "A", "veel plezier = que lo pases bien",
      "— Tot 18:00 uur. Veel ___ met de ontwerpen! (A. plezier · B. slaap)", size=13.8, gap=0)
 f.ex("B1", "Huecos", "B", "tot ziens = hasta luego",
      "— Dank u wel, tot ___! (A. straks · B. ziens)", size=13.8, gap=0)
-f.head("H · SCHRIJF ZELF", 21, OLIVE, 5)
+f.head("H　SCHRIJF ZELF", 21, OLIVE, 5)
 MODELO = ("Zondag 25 oktober word ik laat wakker: het is de laatste dag van mijn herfstvakantie. "
           "Ik heb een uur langer geslapen, want vannacht ging de klok achteruit. "
           "Na het ontbijt ga ik met mijn vrienden naar het bos; de bladeren zijn geel en rood. "
@@ -111,13 +111,13 @@ f.para("Tekstmodel: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= ANTWOORDEN =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "ANTWOORDEN · RESPUESTAS — ordenadas por página, busca tu número", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Una explicación breve por número · ✓ = modelo de redacción", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "ANTWOORDEN　RESPUESTAS — ordenadas por página, busca tu número", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Una explicación breve por número　✓ = modelo de redacción", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
