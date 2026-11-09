@@ -6,31 +6,19 @@ Source manuscript export: headings, paragraphs and exercises in original order, 
 
 ## Page P1
 
-VOL. 3
-
-WEEKLY IN ENGLISH · 每週一期 · 讀英語世界正在談的事
-
-WEEK OF NOVEMBER 9 TO 15, 2026
-
 The Lucerna
 
-英 語 週 報 · VOL.3 · 紀 念 · 足 球 · 電 影
-
-英語正文 · 繁體中文講解 — 給繁體中文讀者的版本
+英語週報　VOL.3　紀念　足球　電影
 
 ELEVEN ELEVEN — AND TWO MINUTES OF SILENCE !
 
 Wednesday, November 11, at 11 a.m., Britain, Canada, Australia and America stop for two minutes.
 
-11 月 11 日上午 11 點 · 兩分鐘默哀
+11月11日上午11點　兩分鐘默哀
 
-退伍軍人節 · 陣亡將士紀念日 · 詳見第 2 版
-
-THE BIG STORY · 頭條
+退伍軍人節　陣亡將士紀念日　詳見第2版
 
 Eleven Eleven : The Two Minutes When the English-Speaking World Stops
-
-By The Lucerna newsroom · Reading level : A2
 
 On Wednesday, November 11, at eleven o'clock in the morning, something quiet happens across the English-speaking world. In London, Ottawa, Canberra and Washington, people stop what they are doing, and for two minutes they stand still and say nothing. It is the two-minute silence — for the soldiers who died in war, and for all who served.
 
@@ -44,9 +32,9 @@ And one promise from last issue : the midterm election results. This issue went 
 
 譯注｜an armistice 停戰協定 · a veteran 退伍軍人 · to fall silent 沉寂。
 
-THE WEEK IN NUMBERS · 數字看本週
+THE WEEK IN NUMBERS　數字看本週
 
-TRY IT NOW · 即學即練
+TRY IT NOW　即學即練
 
 EXERCISE: The fighting stopped with an ___ in 1918.
 
@@ -64,7 +52,7 @@ SEARCHES
 
 OF THE WEEK
 
-本週英語世界熱搜 · Google Trends 快照
+本週英語世界熱搜　Google Trends 快照
 
 {...}. {...}
 
@@ -74,11 +62,13 @@ search interest changes during the day.
 
 相對熱度示意，非精確搜尋量。
 
-IN THIS ISSUE · 本期目錄
+IN THIS ISSUE　本期目錄
 
 THE WORD OF THE WEEK
 
-« remembrance » : the act of remembering those who died in war.
+« remembrance »
+
+the act of remembering those who died in war.
 
 紀念。Remembrance Day 陣亡將士紀念日。
 
@@ -88,11 +78,11 @@ One silence, four names. In the United States it is Veterans Day. In Britain it 
 
 Remember on Wednesday, laugh on Friday, watch sport on Sunday. See you on page 2 !
 
-IN BRIEF · 快訊
+IN BRIEF　快訊
 
-LIGHTNING QUIZ · 閃電問答
+LIGHTNING QUIZ　閃電問答
 
-讀頭版，選出正確答案 · 答案見第 8 版
+讀頭版，選出正確答案　答案見第8版
 
 EXERCISE: The two-minute silence is on... A. November 13 · B. Wednesday, November 11 · C. November 15
 
@@ -104,9 +94,9 @@ EXERCISE: The NFL game in Munich is on... A. Friday · B. Sunday, November 15 ·
 
 ## Page P2
 
-LIFE · 生活
+LIFE　生活
 
-LEVEL A2 · Silence, poppies & your week · 默哀、罌粟與你的一週
+LEVEL A2　Silence, poppies & your week　默哀、罌粟與你的一週
 
 On Wednesday, November 11, at 11 a.m., Britain stops. Buses stop. Shops go quiet. In schools, children stand still. For two minutes, nobody speaks. The silence remembers the soldiers who died in the First World War — and in every war since.
 
@@ -120,7 +110,7 @@ And what about the weekend just gone ? On Sunday, November 8, it was Remembrance
 
 This week looks forward too. On Wednesday, November 11, shoppers mark Singles' Day — 11.11, the biggest online shopping day in China, now copied around the world. On Friday, November 13, Britain's Children in Need appeal takes over television. Page 5 has the story of Pudsey the bear.
 
-ELEVEN ELEVEN · 十一點十一分
+ELEVEN ELEVEN　十一點十一分
 
 WHAT IS ON THIS WEEK ?
 
@@ -134,23 +124,23 @@ How do you say the time of the silence ? « At eleven o'clock — eleven eleven.
 
 DID YOU KNOW ?
 
-AND YOU ? · 說說你自己
+AND YOU ?　說說你自己
 
 And you ? Do you wear a poppy in November ? What does your country do on November 11 ? Write two sentences in English for VOL.4.
 
 11 月 11 日，你的國家做什麼？寫兩句英語寄給編輯部。
 
-SAY IT : ELEVEN ELEVEN · 這樣說時間
+SAY IT : ELEVEN ELEVEN　這樣說時間
 
-The silence, in three sentences · 三句話說默哀
+The silence, in three sentences　三句話說默哀
 
 This week : on Wednesday, November 11, at 11 a.m., the silence begins. Two minutes — for the dead, and for all who served.
 
-EXERCISES · 第 2 版練習
+EXERCISES　第2版練習
 
-答案見第 8 版 · 題目可跨級混排，按題號找答案
+答案見第8版　題目可跨級混排，按題號找答案
 
-A · THE DATE
+A　THE DATE
 
 根據日期與時間，用英語補全句子。
 
@@ -164,7 +154,7 @@ EXERCISE: People wear a red ___ in November.
 
 EXERCISE: The armistice began in ___.
 
-B · WILL
+B　WILL
 
 用 will + 動詞原形改寫，承諾與將要發生的事。
 
@@ -176,7 +166,7 @@ EXERCISE: We (stand) still. → ___
 
 EXERCISE: They (watch) the ceremony ? → ___
 
-C · COMPREHENSION
+C　COMPREHENSION
 
 讀第 2 版文章，選出正確答案。
 
@@ -188,7 +178,7 @@ EXERCISE: Diwali's main night was... A. Sun, Nov 8 · B. Wed, Nov 11 · C. Fri, 
 
 EXERCISE: In the US, November 11 is... A. Remembrance Day · B. Veterans Day · C. Singles' Day
 
-D · THE WORDS
+D　THE WORDS
 
 MATCH: a poppy
 MATCH: an armistice
@@ -201,9 +191,9 @@ MATCH: a formal public event
 
 ## Page P3
 
-CULTURE · 文化
+CULTURE　文化
 
-A2 → B1 · Friday at the movies · 週五看電影
+A2 → B1　Friday at the movies　週五看電影
 
 On Friday, November 13, a ghost comes to the cinema — early. « Ebenezer » is a dark new telling of Charles Dickens's « A Christmas Carol », with Johnny Depp as Ebenezer Scrooge, the miser who hates Christmas. Christmas is still six weeks away. The film does not wait.
 
@@ -213,7 +203,7 @@ The second film of the week is very different. « How to Rob a Bank » is a heis
 
 Which film would you choose ? A ghost story in Dickens's London, or a bank story on today's internet ? In our newsroom, the vote is split again — half for the ghost, half for the bank. Tell us your choice on page 7.
 
-COMING SOON · 即將上映
+COMING SOON　即將上映
 
 A film is not only a story — it is also English practice. Listen for three things : the catchphrase (the line everybody repeats), the joke (why does the room laugh ?), and the ending (happy, sad, or open ?). After the film, try to tell the story in five English sentences.
 
@@ -221,7 +211,7 @@ And if you stay at home, the same rule works for a series : one episode, five se
 
 講解｜a miser 守財奴 · a ghost 鬼魂 · a heist 搶劫案 · yet to come 尚未到來的。
 
-A · COMPREHENSION
+A　COMPREHENSION
 
 讀第 3 版文章，選出正確答案。
 
@@ -237,7 +227,7 @@ EXERCISE: In « How to Rob a Bank », the robbers... A. post their crimes online
 
 EXERCISE: « The Hunger Games : Sunrise on the Reaping » opens on... A. November 13 · B. November 15 · C. November 20
 
-B · SENTENCES
+B　SENTENCES
 
 用所給詞補全句子。
 
@@ -249,7 +239,7 @@ EXERCISE: In our newsroom, the vote is ___ : half ghost, half bank.
 
 EXERCISE: Marley's ___ visits Scrooge at night.
 
-C · THE WORDS
+C　THE WORDS
 
 MATCH: a miser
 MATCH: a ghost
@@ -260,7 +250,7 @@ MATCH: a person who loves money and hates spending it
 MATCH: the spirit of a dead person
 MATCH: a robbery, usually of a bank
 
-D · PAST SIMPLE
+D　PAST SIMPLE
 
 用一般過去時改寫（已經發生的事）。
 
@@ -272,7 +262,7 @@ EXERCISE: Scrooge (become) warm again by morning. → ___
 
 EXERCISE: She (choose) the ghost story. → ___
 
-SCROOGE'S NIGHT · 史高治之夜
+SCROOGE'S NIGHT　史高治之夜
 
 FIVE SENTENCES
 
@@ -284,9 +274,9 @@ Example : « A ghost comes to a house. A miser is cold and alone. Three ghosts v
 
 ## Page P4
 
-SPORT · 體育
+SPORT　體育
 
-LEVEL B1 · NFL · ATP · Nations League
+LEVEL B1　NFL　ATP　Nations League
 
 Sunday, November 15, is the biggest sports day of the autumn. Three cities, three sports, one Sunday — and American football in the home of Bayern Munich.
 
@@ -298,7 +288,7 @@ In Turin, Italy, tennis begins its season finale : the ATP Finals, from Sunday, 
 
 And in Madrid, football takes the stage : Spain play England in the Nations League on Sunday night, three days after England play Croatia at Wembley on Thursday, November 12. Scotland play North Macedonia at Hampden Park on Friday, November 13. One Sunday is not enough — good thing the week has seven days.
 
-WHY MUNICH ? · 為什麼去慕尼黑？
+WHY MUNICH ?　為什麼去慕尼黑？
 
 How do you follow three sports in one day ? Choose one game to watch fully, and follow the others on your phone. That is the modern fan : one screen for the game, one screen for the scores.
 
@@ -306,7 +296,7 @@ The Allianz Arena holds 70,000 people — bigger than most NFL stadiums. And nex
 
 講解｜a fixture 一場比賽（賽程） · a group 小組 · a finale 決賽、收官戰 · a star 明星球員。
 
-A · COMPREHENSION
+A　COMPREHENSION
 
 讀第 4 版文章，選出正確答案。
 
@@ -322,7 +312,7 @@ EXERCISE: Scotland play... A. Spain · B. Croatia · C. North Macedonia
 
 EXERCISE: Week 10 ends with... A. Commanders at Giants · B. Chargers at Ravens · C. 49ers at Cowboys
 
-B · SENTENCES
+B　SENTENCES
 
 用所給詞補全句子。
 
@@ -334,7 +324,7 @@ EXERCISE: The Allianz Arena is ___ than most NFL stadiums.
 
 EXERCISE: ___ singles players play in Turin.
 
-C · THE WORDS
+C　THE WORDS
 
 MATCH: a fixture
 MATCH: a group
@@ -345,7 +335,7 @@ MATCH: a game in a season's schedule
 MATCH: the last event of a season
 MATCH: a small set of players who play each other
 
-D · PAST SIMPLE
+D　PAST SIMPLE
 
 用一般過去時改寫（比賽已結束的說法）。
 
@@ -357,7 +347,7 @@ EXERCISE: They (follow) the scores on their phones. → ___
 
 EXERCISE: He (choose) one game to watch fully. → ___
 
-SUNDAY, NOVEMBER 15 · 週日賽程
+SUNDAY, NOVEMBER 15　週日賽程
 
 ONE SCREEN, TWO SCREENS
 
@@ -367,9 +357,9 @@ The modern fan watches one game fully and follows the others on a phone. Try it 
 
 ## Page P5
 
-YOUTH · 青年
+YOUTH　青年
 
-LEVEL B1 · Pudsey, 26 & kindness · Pudsey、26 與善意
+LEVEL B1　Pudsey, 26 & kindness　Pudsey、26 與善意
 
 On Friday, November 13, Britain turns yellow. It is the BBC Children in Need appeal show, live from Salford, on BBC One and iPlayer — a night of music, comedy and stories, to raise money for children and young people across the UK. The star is a yellow bear with a spotted bandage over one eye : Pudsey Bear.
 
@@ -381,13 +371,13 @@ Friday, November 13, is also World Kindness Day. Kindness is the week's other wo
 
 And the children ? They watch Pudsey, and they ask the best questions : « Why does Pudsey wear a bandage ? » « Can we do 26 too ? » « How much money will we raise ? » The answer to the last question is : we will know on Friday night. The total will still be there in the morning — and so will the kindness.
 
-26, IN NUMBERS · 數字 26
+26, IN NUMBERS　數字 26
 
 If you want to practise Friday-night English, try this : watch ten minutes of the appeal show in English, and write down five sentences you hear. « Challenge yourself » will certainly be one of them. The other four are your homework.
 
 講解｜an appeal 募捐呼籲 · a challenge 挑戰 · to raise money 籌款 · kindness 善意。
 
-A · COMPREHENSION
+A　COMPREHENSION
 
 讀第 5 版文章，選出正確答案。
 
@@ -403,7 +393,7 @@ EXERCISE: The appeal show is live from... A. Salford · B. Munich · C. Turin
 
 EXERCISE: Friday, November 13, is also... A. Veterans Day · B. Diwali · C. World Kindness Day
 
-B · SENTENCES
+B　SENTENCES
 
 用所給詞補全句子。
 
@@ -415,7 +405,7 @@ EXERCISE: Be ___ : help a stranger today.
 
 EXERCISE: The show is ___ from Salford.
 
-C · THE WORDS
+C　THE WORDS
 
 MATCH: an appeal
 MATCH: a challenge
@@ -426,7 +416,7 @@ MATCH: a race of about 26 miles
 MATCH: a public call for help and money
 MATCH: a hard task you take on
 
-D · PRESENT CONTINUOUS
+D　PRESENT CONTINUOUS
 
 用現在進行時改寫（正在發生的事）。
 
@@ -438,7 +428,7 @@ EXERCISE: We (watch) Pudsey tonight. → ___
 
 EXERCISE: She (raise) money for children. → ___
 
-FIVE SENTENCES · 五句話作業
+FIVE SENTENCES　五句話作業
 
 FRIDAY-NIGHT PHRASES
 
@@ -454,9 +444,9 @@ After Friday, the weekend keeps going : the Lions' Fan Fest in Munich on Friday 
 
 ## Page P6
 
-DEEP READ · 時事深讀
+DEEP READ　時事深讀
 
-LEVEL B2 · After November 3 · 11 月 3 日之後
+LEVEL B2　After November 3　11月3日之後
 
 On Tuesday, November 3, Americans voted in the midterm election — all 435 seats in the House of Representatives, about a third of the Senate, and governorships in many states. This issue went to press on Monday, November 2, the day before the vote. That is why it prints no results. There were no results to print — and this paper invents none.
 
@@ -468,17 +458,17 @@ Leads can change as the count goes on. In some states, the votes cast on the day
 
 The last midterm, in 2022, tells the same story. The Senate was not decided until the Saturday after Election Day, and the House until the Wednesday after. Nobody knows whether this year will be faster or slower — and this paper will not guess.
 
-A PRACTICE BALLOT · 模擬選票
+A PRACTICE BALLOT　模擬選票
 
 A note on numbers in this issue : this paper prints no poll figures and no predictions, and no results it cannot verify. When the verified results are in, VOL.4 will report them — who won, and what changes. Patience is part of the system, not a failure of it.
 
 講解｜to call a race 宣布競選結果 · to certify 正式確認（認證） · a runoff 決勝輪選舉 · patience 耐心。
 
-READ THE CHART · 讀圖表
+READ THE CHART　讀圖表
 
 How long did the last midterm take ? In 2022, the count ran past election night. The chart is history, not a prediction for 2026.
 
-A · CHART READING
+A　CHART READING
 
 讀上面的歷史圖表，選出正確答案。
 
@@ -494,7 +484,7 @@ EXERCISE: This chart is... A. history, not a prediction · B. a prediction · C.
 
 EXERCISE: The House took longer than the Senate by... A. 2 days · B. 12 days · C. 4 days
 
-B · COMPREHENSION
+B　COMPREHENSION
 
 讀第 6 版文章，選出正確答案。
 
@@ -510,7 +500,7 @@ EXERCISE: A lead that changes is... A. normal · B. a sign of fraud · C. imposs
 
 EXERCISE: The verified results will be reported in... A. VOL.2 · B. this issue · C. VOL.4
 
-C · SENTENCES
+C　SENTENCES
 
 用所給詞補全句子。
 
@@ -526,7 +516,7 @@ EXERCISE: The rule ___ from state to state.
 
 EXERCISE: A call is not the ___ result.
 
-HOW LONG ? · 任期多長？
+HOW LONG ?　任期多長？
 
 FIFTY ELECTIONS
 
@@ -536,11 +526,11 @@ One country, fifty systems : that is why American election night is a map, not a
 
 ## Page P7
 
-LANGUAGE IN HAND · 精講
+LANGUAGE IN HAND　精講
 
-A2 → B2 · Phrases of the week · 本週金句
+A2 → B2　Phrases of the week　本週金句
 
-LEVEL A2 · 基礎
+LEVEL A2　基礎
 
 ELEVEN ELEVEN
 
@@ -550,9 +540,9 @@ WILL + VERB
 
 For a plan or a promise : « We will remember them. » will + the verb, with no change. It is the future of the week — use it for every promise of November 11.
 
-THE EXAMPLE · 例句
+THE EXAMPLE　例句
 
-LEVEL B1 · 進階
+LEVEL B1　進階
 
 COMPARATIVES
 
@@ -562,9 +552,9 @@ THE PAST SIMPLE
 
 Regular verbs add -ed : remembered, watched. Irregular verbs change : write → wrote, go → went, choose → chose. Use it for what is already finished — Diwali, which was on November 8, and Bonfire Night, which was on November 5. The November 15 games are still to come at press time, so their results are not past yet.
 
-THE EXAMPLE · 例句
+THE EXAMPLE　例句
 
-LEVEL B2 · 挑戰
+LEVEL B2　挑戰
 
 HEADLINE PRESENT
 
@@ -574,9 +564,9 @@ WHETHER = IF ?
 
 « Nobody knows whether this year will be faster or slower. » Whether introduces an open question inside a sentence — more elegant than if, and safe everywhere. It is the word for counting-week uncertainty.
 
-THE EXAMPLE · 例句
+THE EXAMPLE　例句
 
-THE TOOLBOX · 工具箱
+THE TOOLBOX　工具箱
 
 Three sentences to keep in your pocket, one for each level :
 
@@ -590,9 +580,9 @@ And the newspaper reflex : every phrase of the week comes from an article of thi
 
 工具箱｜本期三句隨身句，按級各一；金句全部出自本期文章，回讀原文最有效。
 
-PHRASES OF THE WEEK · 本週金句（全部出自本期文章）
+PHRASES OF THE WEEK　本週金句（全部出自本期文章）
 
-每句一個語法點 + 一道小題 · 答案見第 8 版
+每句一個語法點 + 一道小題　答案見第8版
 
 « On Wednesday, November 11, at eleven o'clock in the morning, something quiet happens across the English-speaking world. » (page 1)
 
@@ -642,7 +632,7 @@ EXERCISE: Patience is part of the system, not a failure ___ it. (of)
 
 EXERCISE: There ___ no results to print. (be)
 
-THE ERROR CLINIC · 易錯診所
+THE ERROR CLINIC　易錯診所
 
 每句有一處錯誤：找出來並改正。
 
@@ -654,25 +644,25 @@ EXERCISE: ✗ « This stadium is more bigger than most. »
 
 EXERCISE: ✗ « She will watches the film on Friday. »
 
-READERS' CORNER · 讀者園地
+READERS' CORNER　讀者園地
 
 « I wore a poppy all week, and I stood still at eleven. Two minutes felt very long — and very short, at the same time. » — an editor's example : no real reader letters had arrived when this issue went to press, so the example stands, honestly labeled
 
 編輯說明｜VOL.2 曾承諾 VOL.3 刊登真實來信，但截至發稿編輯部未收到真實來信與 VOL.2 寫作投稿，故本期如實說明、不虛構來信；請把來信與寫作寄來，VOL.4 起刊登收到的真實來信。
 
-NEXT WEEK · VOL.4 下週預告
+NEXT WEEK　VOL.4 下週預告
 
 The verified midterm results — who won, and what changes. The Ashes begin in Perth on Saturday, November 21. « The Hunger Games : Sunrise on the Reaping » opens on Friday, November 20. And your real letters, if they arrive.
 
-下期核實後的中期選舉結果、11 月 21 日灰燼杯首戰、11 月 20 日《飢餓遊戲》新片；還有你的真實來信。
+下期核實後的中期選舉結果、11月21日灰燼杯首戰、11月20日《飢餓遊戲》新片；還有你的真實來信。
 
 ## Page P8
 
-EXERCISES & ANSWERS · 練習與答案
+EXERCISES & ANSWERS　練習與答案
 
-FINAL TEST · 綜合評估 · Answers at the bottom of this page 答案在本版下方
+FINAL TEST　綜合評估　Answers at the bottom of this page 答案在本版下方
 
-A · CLOZE · 完形填空
+A　CLOZE　完形填空
 
 Maya is sixteen. On (112)___, November 11, she wears a red (113)___ to school. At eleven o'clock, the whole school stands in (114)___ for two minutes. « (115)___, eleven, eleven », says her teacher. On Friday, Maya bakes cakes for (116)___, the yellow bear. « When (117)___ we know the total ? » asks Maya. « On Friday night », says her mother. « On Sunday, Maya is (118)___ to watch the game from Munich — and the poppy will (119)___ be on her coat. »
 
@@ -680,7 +670,7 @@ Maya is sixteen. On (112)___, November 11, she wears a red (113)___ to school. A
 
 {...}. [{...}] {...}
 
-B · MULTIPLE CHOICE · 單選
+B　MULTIPLE CHOICE　單選
 
 EXERCISE: The silence begins at 11 a.m. In words : ... A. ten o'clock · B. eleven o'clock · C. twelve o'clock
 
@@ -700,7 +690,7 @@ EXERCISE: They are going to ___ the game on Sunday. A. watch · B. watches · C.
 
 EXERCISE: « Challenge yourself » means... A. the show is over · B. voting is closed · C. take on a challenge
 
-C · READING · 閱讀理解
+C　READING　閱讀理解
 
 On Wednesday morning, Tom, a teacher from Manchester, finished his breakfast and walked to school early. At eleven o'clock, the whole school stood still for two minutes. There was no sound in the hall. « We remember them », said Tom, quietly. In the afternoon, his class baked 26 cakes for Children in Need, and a poppy box stood by the door. On Friday night, Tom watched the appeal show with his family — and Pudsey was, as always, yellow and smiling.
 
@@ -712,7 +702,7 @@ EXERCISE: His class baked... A. 26 cakes · B. 11 cakes · C. 13 cakes
 
 EXERCISE: On Friday night, Pudsey was... A. red · B. yellow and smiling · C. asleep
 
-D · SENTENCES · 完成句子與轉換
+D　SENTENCES　完成句子與轉換
 
 EXERCISE: Will future : « On Friday, they (watch) the appeal show. » → ___
 
@@ -722,7 +712,7 @@ EXERCISE: Comparative : « The arena is ___ (big) than most stadiums. »
 
 EXERCISE: Whether : « ___ this year will be faster, nobody knows yet. »
 
-E · TRANSLATION · 翻譯
+E　TRANSLATION　翻譯
 
 EXERCISE: Translate : « Patience is part of the system, not a failure of it. »
 
@@ -732,7 +722,7 @@ EXERCISE: 翻譯：On Sunday, the NFL plays in Munich.
 
 EXERCISE: Translate : « Not every country calls it by the same name. »
 
-F · WORDS · 詞彙配對
+F　WORDS　詞彙配對
 
 MATCH: a silence
 MATCH: an armistice
@@ -743,23 +733,23 @@ MATCH: a quiet time with no speaking
 MATCH: an agreement to stop fighting
 MATCH: a person who loves money and hates spending it
 
-G · DIALOGUE · 對話補全
+G　DIALOGUE　對話補全
 
 — Good morning ! Is this the way to the Allianz Arena ? — Yes, welcome. May I see your (145)___ ? — Here it is. Is the (146)___ long ? — No, five minutes only. It is my first NFL game. What do I do with the (147)___ ? — Wear it with pride, and cheer for the Lions. — And the famous (148)___ ? — Two anthems, one game. Enjoy Munich. — I will ! See you on (149)___ ! — Have a good day.
 
 Levels : 145–148 [A2] · 149 [B1]
 
-H · WRITING · 寫作 [B1]
+H　WRITING　寫作 [B1]
 
 Write a short text (80 to 100 words) : « My Wednesday, November 11 ». Tell us : did you stand still at eleven, what did you wear, what did you watch on Friday — and one sentence about the game in Munich on Sunday. The best texts will appear in VOL.4 (page 7, « Readers' Corner »).
 
 用英語寫 80–100 詞：我的 11 月 11 日週三。寫清你是否在 11 點靜立、佩戴了什麼、週五看了什麼，再寫一句週日在慕尼黑的比賽。
 
-MODEL · 範文
+MODEL　範文
 
 On Wednesday, November 11, our school stopped for two minutes. At eleven o'clock, the hall went quiet, and I thought about the soldiers of the First World War. In the evening, we watched the news from London, and my mother wore her poppy at dinner. On Friday, we baked 26 cakes for Children in Need, and Pudsey smiled from the television. On Sunday, we watched the game from Munich. It was a week of silence, kindness and sport — and I slept well, because I had remembered.
 
-ANSWERS · 全部答案與簡析（第 1–8 版）
+ANSWERS　全部答案與簡析（第1–8版）
 
 ## Answers (Page 8, from the exercise registry)
 
