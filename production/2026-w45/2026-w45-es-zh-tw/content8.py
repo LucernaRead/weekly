@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · 練習與答案", "La Lucerna", "第 8 版 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　練習與答案", "La Lucerna", "第8版　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "B", "ganó 2–1 = 以 2–1 獲勝",
      "El Madrid ___ 2–1 en el Camp Nou. (A. perdió · B. ganó)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "B", "marcar dos goles = 進兩球",
@@ -29,7 +29,7 @@ f.ex("B1", "完形單選", "A", "週日上演馬競–巴薩",
      "El domingo se juega el ___ en el Metropolitano. (A. Atlético–Barça · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "A", "himno = 國歌",
      "Antes del partido suenan dos ___: el de España y el de EE. UU. (A. himnos · B. puentes)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "單選", "B", "週一放假的自治區有 9 個",
      "El lunes 2 es fiesta en... A. todas · B. nueve comunidades · C. ninguna", size=15.5, gap=1)
 f.ex("A2", "單選", "A", "諸聖節 11 月 1 日",
@@ -46,7 +46,7 @@ f.ex("B2", "單選", "B", "CIS 十月調查：住房 55,7%",
      "Según el CIS de octubre, la vivienda es el principal problema para el... A. 20,9 % · B. 55,7 % · C. 17,1 %", size=15.5, gap=1)
 f.ex("B1", "單選", "A", "競選 11 月 13 日開始",
      "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Pablo vive en Madrid: el lunes 2 es festivo en su comunidad y hace puente. Ana vive en Barcelona: en Cataluña el lunes 2 es laborable y trabaja. El domingo por la tarde, Ana ve la NFL en televisión; por la noche, Pablo ve el Atlético–Barça.", 16.5, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "馬德里在放假名單裡",
      "¿Quién hace puente? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "單選", "A", "Ana 只看 NFL；晚上看馬競–巴薩的是 Pablo
      "El domingo, Ana ve... A. solo la NFL · B. solo el Barça · C. la NFL y, por la noche, el Atlético–Barça", size=15.5, gap=1)
 f.ex("A2", "單選", "B", "標題概括兩地對比",
      "El mejor título es... A. «Una tormenta» · B. «Dos lunes» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "造句", "El lunes es festivo en Madrid.", "主語 + 動詞 + 地點",
      "el lunes / es festivo / en Madrid → ___", instr="造句", size=15.5, gap=1)
 f.ex("A2", "造句", "El domingo vemos la NFL en el Bernabéu.", "時間在前",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "El Atlético–Barça empieza a las nueve.", "a las nueve 
      "el Atlético–Barça / empieza / a las nueve → ___", instr="造句", size=15.5, gap=1)
 f.ex("B1", "造句", "¿A qué hora empieza el partido?", "疑問詞在句首",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="造句", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "翻譯", "週一在九個自治區是假日。", "對照原文",
      "El lunes es festivo en nueve comunidades. → ___", instr="翻譯", size=15.5, gap=1)
 f.ex("A2", "翻譯", "週日我們看 NFL 和馬競–巴薩。", "對照原文",
@@ -74,7 +74,7 @@ f.ex("B1", "翻譯", "El Bernabéu acoge un partido de la NFL.", "acoger = 承�
      "伯納烏承辦一場 NFL 比賽。→ ___", instr="翻譯", size=15.5, gap=1)
 f.ex("B2", "翻譯", "Cada gráfico tiene que llevar su fuente.", "tener que = 必須",
      "每個圖表都必須標明來源。→ ___", instr="翻譯", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "詞彙配對",
             ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -84,7 +84,7 @@ f.match_set("B2", "詞彙配對",
             ["c", "d", "b", "a"],
             ["sondeo=民調 c", "muestra=樣本 d", "margen de error=誤差範圍 b", "junta electoral=選舉委員會 a"],
             instr="把詞和釋義配對")
-f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "alquiler = 租金",
      "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "A", "tres habitaciones = 三房",
@@ -95,7 +95,7 @@ f.ex("B1", "完形單選", "A", "firmar = 籤（合約）",
      "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "A", "mudanza = 搬家",
      "— La ___ es el lunes 2, que es fiesta. (A. mudanza · B. campaña)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.expl("寫作題（無唯一答案）；範本（84 詞）見下。")
 f.ex("B1", "寫作", "（開放題，範本如下）", "範本見本版 H 區（84 詞）",
      "«¿El lunes 2 es festivo en tu comunidad?» Escribe 80–100 palabras: dónde vives, tu plan del puente y tu domingo 8.", instr="寫作", size=15.5, gap=1)
@@ -107,15 +107,15 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · 全部答案與簡析（第 1–8 版）", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "每題附一句中文簡析 · 帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "每題附一句中文簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— 第 {pg} 版 —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
+    af.para(f"— 第{pg}版 —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":

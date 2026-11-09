@@ -6,7 +6,7 @@ import cairosvg
 from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-core")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVG_DIR = os.path.join(BASE, "svg")
 CARDS = os.path.join(BASE, "cards")
 os.makedirs(CARDS, exist_ok=True)

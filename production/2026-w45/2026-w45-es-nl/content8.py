@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-es-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · Oefeningen en antwoorden", "La Lucerna", "Pagina 8 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　Oefeningen en antwoorden", "La Lucerna", "Pagina 8　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "Cloze-meerkeuze", "B", "ganó 2–1 = won met 2–1",
      "El Madrid ___ 2–1 en el Camp Nou. (A. perdió · B. ganó)", size=15.5, gap=1)
 f.ex("B1", "Cloze-meerkeuze", "B", "marcar dos goles = scoorde twee doelpunten",
@@ -29,7 +29,7 @@ f.ex("B1", "Cloze-meerkeuze", "A", "zondag is het Atlético–Barça",
      "El domingo se juega el ___ en el Metropolitano. (A. Atlético–Barça · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "Cloze-meerkeuze", "A", "himno = volkslied",
      "Antes del partido suenan dos ___: el de España y el de EE. UU. (A. himnos · B. puentes)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "Meerkeuze", "B", "negen regio's hebben maandag vrij",
      "El lunes 2 es fiesta en... A. todas · B. nueve comunidades · C. ninguna", size=15.5, gap=1)
 f.ex("A2", "Meerkeuze", "A", "Allerheiligen: 1 november",
@@ -46,7 +46,7 @@ f.ex("B2", "Meerkeuze", "B", "CIS, oktober: huisvesting 55,7%",
      "Según el CIS de octubre, la vivienda es el principal problema para el... A. 20,9 % · B. 55,7 % · C. 17,1 %", size=15.5, gap=1)
 f.ex("B1", "Meerkeuze", "A", "de campagne begint op 13 november",
      "La campaña electoral empieza el... A. 13 de noviembre · B. 3 de noviembre · C. 29 de noviembre", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Pablo vive en Madrid: el lunes 2 es festivo en su comunidad y hace puente. Ana vive en Barcelona: en Cataluña el lunes 2 es laborable y trabaja. El domingo por la tarde, Ana ve la NFL en televisión; por la noche, Pablo ve el Atlético–Barça.", 16.5, lh=1.3, split=False)
 f.ex("A2", "Meerkeuze", "B", "Madrid staat op de feestdagenlijst",
      "¿Quién hace puente? A. Ana · B. Pablo · C. los dos", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "Meerkeuze", "A", "Ana: alleen NFL; Pablo: Atlético–Barça 's avon
      "El domingo, Ana ve... A. solo la NFL · B. solo el Barça · C. la NFL y, por la noche, el Atlético–Barça", size=15.5, gap=1)
 f.ex("A2", "Meerkeuze", "B", "de titel vat het contrast tussen twee steden samen",
      "El mejor título es... A. «Una tormenta» · B. «Dos lunes» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "Zinnen maken", "El lunes es festivo en Madrid.", "onderwerp + werkwoord + plaats",
      "el lunes / es festivo / en Madrid → ___", instr="Zinnen maken", size=15.5, gap=1)
 f.ex("A2", "Zinnen maken", "El domingo vemos la NFL en el Bernabéu.", "tijd eerst",
@@ -65,7 +65,7 @@ f.ex("B1", "Zinnen maken", "El Atlético–Barça empieza a las nueve.", "a las 
      "el Atlético–Barça / empieza / a las nueve → ___", instr="Zinnen maken", size=15.5, gap=1)
 f.ex("B1", "Zinnen maken", "¿A qué hora empieza el partido?", "het vraagwoord staat vooraan",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="Zinnen maken", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "Vertalen", "Maandag is een feestdag in negen autonome regio's.", "zie het origineel",
      "El lunes es festivo en nueve comunidades. → ___", instr="Vertalen", size=15.5, gap=1)
 f.ex("A2", "Vertalen", "Op zondag kijken we naar de NFL en Atlético–Barça.", "zie het origineel",
@@ -74,7 +74,7 @@ f.ex("B1", "Vertalen", "El Bernabéu acoge un partido de la NFL.", "acoger = org
      "Het Bernabéu organiseert een NFL-wedstrijd. → ___", instr="Vertalen", size=15.5, gap=1)
 f.ex("B2", "Vertalen", "Cada gráfico tiene que llevar su fuente.", "tener que = moeten",
      "Elke grafiek moet zijn bron vermelden. → ___", instr="Vertalen", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "Woorden combineren",
             ["el sondeo", "la muestra", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -84,7 +84,7 @@ f.match_set("B2", "Woorden combineren",
             ["c", "d", "b", "a"],
             ["sondeo = een opiniepeiling — c", "muestra = de geïnterviewden — d", "margen de error = foutmarge — b", "junta electoral = het stembureau — a"],
             instr="Combineer")
-f.head("G · DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "Cloze-meerkeuze", "A", "alquiler = huur",
      "— Busco un piso de ___. (A. alquiler · B. puente)", size=15.5, gap=1)
 f.ex("B1", "Cloze-meerkeuze", "A", "tres habitaciones = drie slaapkamers",
@@ -95,7 +95,7 @@ f.ex("B1", "Cloze-meerkeuze", "A", "firmar = tekenen (het contract)",
      "— ¿Cuándo vamos a ___ el contrato? (A. firmar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "Cloze-meerkeuze", "A", "mudanza = verhuizen",
      "— La ___ es el lunes 2, que es fiesta. (A. mudanza · B. campaña)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.expl("Schrijfopdracht (geen uniek antwoord); voorbeeldtekst (84 woorden) hieronder.")
 f.ex("B1", "Schrijven", "(open vraag — de voorbeeldtekst staat hieronder)", "voorbeeldtekst in deel H (84 woorden)",
      "«¿El lunes 2 es festivo en tu comunidad?» Escribe 80–100 palabras: dónde vives, tu plan del puente y tu domingo 8.", instr="Schrijven", size=15.5, gap=1)
@@ -107,13 +107,13 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · Antwoorden — per pagina gerangschikt; zoek op nummer", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Bij elk antwoord een korte uitleg in het Nederlands · ✓ = met voorbeeldtekst", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　Antwoorden — per pagina gerangschikt; zoek op nummer", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Bij elk antwoord een korte uitleg in het Nederlands　✓ = met voorbeeldtekst", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Pagina {pg} —", 14, "sans", True, OLIVE, lh=1.12, gap=2, split=False)
     for e_ in by_page[pg]:
