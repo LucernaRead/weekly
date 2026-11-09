@@ -649,7 +649,7 @@ function animatedWebp(data) {
   return out;
 }
 
-/** Rule 15: covers/<week>/motion/<lang>.webp (lead) or <lang>-<n>.webp (secondary story more[n]) — animated, looping, 3:2, 2–15 s, ≤ MOTION_MAX_BYTES. */
+/** Rule 15: covers/<week>/motion/<lang>.webp (lead) or <lang>-<n>.webp (secondary story more[n]) — animated, looping, 3:2 (1:1 for the square slots more[1]/more[2]), 2–15 s, ≤ MOTION_MAX_BYTES. */
 function collectCoverMotion(dir, rel, week) {
   if (!statSync(dir).isDirectory()) {
     fail(rel, `${MOTION_DIR} must be a directory`);
@@ -673,7 +673,10 @@ function collectCoverMotion(dir, rel, week) {
       if (!w.animated || w.frames < 2) bad.push('not animated (needs the VP8X animation flag and ≥ 2 frames)');
       if (w.loops !== 0) bad.push(`loop count ${w.loops}; it must loop forever (0)`);
       if (w.width < 800) bad.push(`canvas ${w.width} px wide; at least 800`);
-      if (Math.abs(w.width / w.height - 1.5) > 0.015) bad.push(`canvas ${w.width}×${w.height} is not 3:2`);
+      // Square slots (more[1]/more[2]) carry a 1:1 motion matching their
+      // square still; the lead and more[3]/more[5] are 3:2.
+      const wantRatio = (more === 1 || more === 2) ? 1 : 1.5;
+      if (Math.abs(w.width / w.height - wantRatio) > 0.015) bad.push(`canvas ${w.width}×${w.height} is not ${wantRatio === 1 ? '1:1' : '3:2'}`);
       if (w.ms < 2000 || w.ms > 15000) bad.push(`total duration ${w.ms} ms; 2000–15000`);
     }
     if (!existsSync(join(dir, '..', IMAGES_DIR, name))) bad.push(`no still ${IMAGES_DIR}/${name} for readers who turned motion off`);

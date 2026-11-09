@@ -1,11 +1,13 @@
 #!/usr/bin/env sh
 # Video → moving picture for the website cover (lint rule 15).
 #
-#     sh tools/motion.sh <video file> <week> <target language> [frames]
+#     sh tools/motion.sh <video file> <week> <target language> [slot-or-frames]
 #     sh tools/motion.sh ~/Downloads/poppies.mp4 2026-w47 en
+#     sh tools/motion.sh loop.mp4 2026-w43 de 1     # secondary story more[1]
 #
-# Writes covers/<week>/motion/<lang>.webp: an animated WebP, 1200×800 (3:2, centre crop), 12 frames/s,
-# loops forever. A WebP has no audio track, so the picture is always silent. The site shows it with no controls.
+# Writes covers/<week>/motion/<lang>.webp (or <lang>-<slot>.webp for a
+# secondary slot): an animated WebP, 1200×800 — 800×800 for the square
+# secondary slots 1/2 — (centre crop), 12 frames/s, loops forever. A WebP has no audio track, so the picture is always silent. The site shows it with no controls.
 # Needs ffmpeg and img2webp (Homebrew: `brew install ffmpeg webp`).
 # Cut the video to 2–15 s first. Make the last frame meet the first frame, or the loop jumps.
 #
@@ -17,6 +19,11 @@
 # non-cover video); a language with no table entry and no FRAMES keeps the old behaviour (the video's
 # own length at 12 fps).
 #   en 89 · de 97 · fr 103 · es 109 · it 113 · pt 127 · nl 131 · ru 137 · ja 149 · ko 157 · zh-cn 167 · zh-tw 179
+#
+# Secondary stories (slot 1/2/3/5 as the 4th argument): the frame count
+# comes from tools/motion-durations.json (secondaries[lang][slot]), the
+# output is covers/<week>/motion/<lang>-<slot>.webp, and the canvas matches
+# the slot's still: 800x800 for the square slots 1/2, 1200x800 for 3/5.
 #
 # Endpoint sampling (2026-11-08 fix): the P frames must span the CLOSED period [0, source
 # duration], so the last frame IS the first frame and the loop-point step is 0. The retime
@@ -35,7 +42,24 @@ set -eu
 src=${1:?video file}
 week=${2:?week, e.g. 2026-w47}
 lang=${3:?target language, e.g. en}
-nframes=${4:-}
+arg4=${4:-}
+# 4th argument: a secondary slot (1/2/3/5) takes its frame count from
+# tools/motion-durations.json; any other number is a frame-count override
+# (lead behaviour); empty = lead default for the language.
+slot=""
+canvas_w=1200
+canvas_h=800
+nframes=""
+case "$arg4" in
+  1|2|3|5)
+    slot=$arg4
+    nframes=$(python3 -c "import json; print(json.load(open('tools/motion-durations.json'))['secondaries']['$lang']['$slot'])" 2>/dev/null) || { echo "no secondary frame count for $lang slot $slot"; exit 1; }
+    case "$slot" in 1|2) canvas_w=800; canvas_h=800;; esac
+    ;;
+  '') ;;
+  *[!0-9]*) echo "frames must be a positive integer"; exit 1;;
+  *) nframes=$arg4;;
+esac
 case "$lang" in
   en)    nframes=${nframes:-89} ;;
   de)    nframes=${nframes:-97} ;;
@@ -50,8 +74,13 @@ case "$lang" in
   zh-cn) nframes=${nframes:-167} ;;
   zh-tw) nframes=${nframes:-179} ;;
 esac
-out="covers/$week/motion/$lang.webp"
-[ -f "covers/$week/images/$lang.webp" ] || { echo "missing still covers/$week/images/$lang.webp (rule 15)"; exit 1; }
+if [ -n "$slot" ]; then
+  out="covers/$week/motion/$lang-$slot.webp"
+  [ -f "covers/$week/images/$lang-$slot.webp" ] || { echo "missing still covers/$week/images/$lang-$slot.webp (rule 15)"; exit 1; }
+else
+  out="covers/$week/motion/$lang.webp"
+  [ -f "covers/$week/images/$lang.webp" ] || { echo "missing still covers/$week/images/$lang.webp (rule 15)"; exit 1; }
+fi
 
 framesdir=""
 warped=""
@@ -91,7 +120,7 @@ fi
 cap_args=""
 if [ -n "$nframes" ]; then cap_args="-frames:v $((nframes - 1))"; fi
 ffmpeg -hide_banner -loglevel error -y -i "$src" -an \
-  -vf "fps=12,scale=1200:800:force_original_aspect_ratio=increase,crop=1200:800" $cap_args "$framesdir/%04d.png"
+  -vf "fps=12,scale=$canvas_w:$canvas_h:force_original_aspect_ratio=increase,crop=$canvas_w:$canvas_h" $cap_args "$framesdir/%04d.png"
 n=$(ls "$framesdir" | wc -l)
 if [ -n "$nframes" ]; then
   if [ "$n" -ne $((nframes - 1)) ]; then
