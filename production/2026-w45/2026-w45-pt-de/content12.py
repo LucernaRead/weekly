@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-pt-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · CAPA (A2) =================
@@ -11,27 +11,27 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2 · SEGUNDA EDIÇÃO", 23, "sans", True, OLIVE)
-p.text(975, 92, "TODA SEMANA EM PORTUGUÊS · DAS PORTUGIESISCH, DAS BRASILIEN LIEST", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "SEMANA DE 2 A 8 DE NOVEMBRO DE 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "A Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "PORTUGIESISCHE WOCHENZEITUNG · VOL.2 · A SEMANA DO ENEM · FINADOS · O FUTEBOL DECIDE", 34, "serif", True, INK, anchor="middle")
-p.text(975, 372, "PORTUGIESISCHER TEXT · DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER", 19, "sans", True, BRICK, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 2　SEGUNDA EDIÇÃO", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　DAS PORTUGIESISCH, DAS BRASILIEN LIEST", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SEMANA DE 2 A 8 DE NOVEMBRO DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "A Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "PORTUGIESISCHE WOCHENZEITUNG　VOL.2　A SEMANA DO ENEM　FINADOS　O FUTEBOL DECIDE", 32, "serif", True, OLIVE, anchor="middle", spacing=0)
+p.text(975, 372, "PORTUGIESISCHER TEXT　DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "A SEMANA DO ENEM!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "De segunda a domingo, o Brasil revisa, descansa e faz a prova.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "DIE ENEM-WOCHE", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "2. Nov.: Finados und langes Wochenende · 8. Nov.: erster Prüfungstag", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "A SEMANA DO ENEM!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "De segunda a domingo, o Brasil revisa, descansa e faz a prova.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "DIE ENEM-WOCHE", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "2. Nov.: Finados und langes Wochenende　8. Nov.: erster Prüfungstag", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "A NOTÍCIA · SCHLAGZEILE", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Do feriadão à prova: a semana do Enem", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Da redação da A Lucerna · Nível de leitura: A2", 20, "sans", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "A NOTÍCIA　SCHLAGZEILE", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Do feriadão à prova: a semana do Enem", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Da redação da A Lucerna　Nível de leitura: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Começa na segunda-feira, 2 de novembro, feriado de Finados, e termina no domingo, 8 de novembro, com o primeiro dia do Enem. Entre um dia e outro, o país inteiro vive a mesma semana: descansar, revisar e fazer a prova.", size=24)
@@ -40,13 +40,13 @@ f.para("No domingo, 8 de novembro, é o primeiro dia do Enem 2026. Os portões a
 f.para("E o futebol não para: a rodada 34 do Brasileirão tem jogo de segunda a sexta, e as semifinais da Copa do Brasil se decidem no fim de semana — sábado, Atlético-MG × Grêmio, e domingo, Vasco × Palmeiras (página 4). O sábado, 31, foi de Halloween, e o domingo, 1º, teve os jogos de ida da Copa do Brasil.", size=24)
 f.para("Esta é a segunda edição da A Lucerna em português: toda semana, o Brasil de verdade, com clareza e honestidade. Boa prova — e boa leitura!", size=24)
 f.bridge("HINWEIS · feriadão = langes Feiertagswochenende · o portão = Eingangstor · a redação = Aufsatz · revisar = wiederholen.")
-f.box("A SEMANA EM NÚMEROS · ZAHLEN", [
+f.box("A SEMANA EM NÚMEROS　ZAHLEN", [
     ("12h — os portões abrem no domingo 8 (Sonntag, 12 Uhr öffnen die Tore)", "serif", False, INK, 20, 1.35),
     ("13h — os portões fecham (13 Uhr: nachher kein Einlass mehr)", "serif", False, INK, 20, 1.35),
     ("13h30–19h — a prova do dia 8 (Prüfung 13:30 bis 19:00 Uhr)", "serif", False, INK, 20, 1.35),
     ("5h30 — a duração da prova do dia 8 (Prüfungsdauer: fünfeinhalb Stunden)", "serif", False, INK, 20, 1.35),
 ])
-f.head("AGORA VOCÊ · SIE SIND DRAN", 25)
+f.head("AGORA VOCÊ　SIE SIND DRAN", 25)
 f.ex("A2", "完成句子", "feriadão", "feriadão = langes Feiertagswochenende",
      "A semana começa com o ___ de Finados.", size=19.5, gap=6)
 f.ex("A2", "完成句子", "portões", "portões = Eingangstore am Prüfungsort",
@@ -63,11 +63,11 @@ f.end_report()
 
 # ---- os horários do domingo 8 (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "OS HORÁRIOS", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "DO DOMINGO 8", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Enem, dia 8 · horário de Brasília", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "Enem, dia 8　horário de Brasília", 19, "sans", False, GREY)
 hor = [
     ("12h", "os portões abrem"),
     ("13h", "os portões fecham"),
@@ -85,8 +85,8 @@ p.text(gx + 22, byy + 76, "Zu spät: kein Einlass nach 13 Uhr", 19, "sans", Fals
 
 # ---- conteúdo (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO · INHALT", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　INHALT", 24, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "O feriadão e a revisão", "A2"),
     ("Pág. 3", "Finados, o dia da memória", "A2→B1"),
@@ -98,7 +98,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -106,12 +106,13 @@ for pg, t, lv in som:
 # ---- palavra da semana (col 3) ----
 my = 1652
 p.text(gx, my + 24, "A PALAVRA DA SEMANA", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "« feriadão » : um feriado grudado no fim de semana — três dias.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "„Feriadão“ = langes Wochenende, drei Tage.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« feriadão »", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "um feriado grudado no fim de semana — três dias.", 21.5, "serif", False, INK, gw, 1.4)
+wy2 = p.para(gx, wy + 10, "„Feriadão“ = langes Wochenende, drei Tage.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
-p.hline(MX, RIGHT, 1844, LINE, 1.2)
+p.hline(MX, RIGHT, max(1844, wy2 - 16), LINE, 1.2)  # adaptive: keep the rule clear of a 2-line weekly-word gloss
 iy = 1874
 ix, iw = span_x(0, 2)
 image(p, "estudo.jpg", ix, iy, iw, 320)
@@ -119,15 +120,15 @@ caption(p, ix, iy + 320, iw,
         "Estudantes em uma biblioteca: para os mais de 5 milhões de inscritos no Enem, o feriadão é um fim de semana de revisão — um pouco por dia, sem maratona. (Página 5)",
         "Foto: Gary Todd / Wikimedia Commons — CC0")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-tv")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
 f2.head("A SEMANA EM DOIS DOMINGOS", 25)
 f2.para("Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.", 22.5)
 f2.para("No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.", 22.5)
 f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS · IN KÜRZE", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN KÜRZE", 24, "sans", True, OLIVE)
 brefs = [
     ("O FERIADÃO", "Segunda, 2: Finados, feriado nacional — feriadão de 31 a 2. (Página 2)"),
     ("O ENEM", "Domingo, 8: primeiro dia — redação, Linguagens e Humanas. (Página 6)"),
@@ -135,15 +136,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz relâmpago ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "QUIZ RELÂMPAGO · BLITZQUIZ", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Titelseite lesen, richtig antworten · Lösungen auf Seite 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "QUIZ RELÂMPAGO　BLITZQUIZ", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Titelseite lesen, richtig antworten　Lösungen auf Seite 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "B", "Feriadão: 31. Oktober bis 2. November",
       "O feriadão vai... A. de 2 a 4 de novembro · B. de 31 de outubro a 2 de novembro · C. de 8 a 15 de novembro", size=21)
 qf.ex("A2", "单选", "B", "Die Tore schließen um 13 Uhr",
@@ -160,11 +161,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · VIDA (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("VIDA · LEBEN", "A Lucerna", "NÍVEL A2 · Finados e revisão: o feriadão do Brasil · Finados und Wiederholung: das lange Wochenende in Brasilien")
+p.band("VIDA　LEBEN", "A Lucerna", "NÍVEL A2　Finados e revisão: o feriadão do Brasil　Finados und Wiederholung: das lange Wochenende in Brasilien")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Finados e revisão: o feriadão do Brasil", 37)
-f.byline("Da redação da A Lucerna · Nível de leitura: A2")
+f.title("Finados e revisão: o feriadão do Brasil", 32)
+f.byline("Da redação da A Lucerna　Nível de leitura: A2")
 f.para("Segunda-feira, 2 de novembro, é Finados, feriado nacional. Com o sábado, 31, e o domingo, 1º, o país ganha um feriadão de três dias: muita gente viaja para ver a família, e muita gente fica em casa para descansar.")
 f.para("Finados é o dia da memória: famílias visitam os cemitérios, levam flores — sobretudo crisântemos —, acendem velas e participam de missas. É um dia calmo, de lembrança e de encontro: os vivos cuidam do lugar dos mortos, e as histórias voltam à mesa.")
 f.para("Para os candidatos do Enem, o feriadão tem outro nome: revisão. O plano da semana é simples — revisar um pouco por dia, dormir bem e conferir o Cartão de Confirmação, o documento que mostra o local da prova. Quem confere antes não se perde no dia.")
@@ -172,7 +173,7 @@ f.para("E atenção ao relógio do domingo 8: os portões abrem às 12h e fecham
 f.para("No Brasil, não há horário de verão desde 2019: ninguém muda o relógio nesta semana. O horário do Enem é o de Brasília — confira o fuso da sua cidade.")
 f.head("E SE EU CHEGAR TARDE?", 25)
 f.para("Se você chegar depois das 13h, os portões já fecharam — e não há segunda chamada. Por isso o plano é sair cedo: o domingo 8 não aceita atraso. Melhor chegar cedo e esperar do que correr no último minuto.", 23.5)
-f.box("PARA NÃO ERRAR · MERKSATZ", [
+f.box("PARA NÃO ERRAR　MERKSATZ", [
     ("«Confira o cartão, durma bem, chegue cedo.» Três passos e o domingo fica tranquilo: o resto é com a prova.", "serif", False, INK, 21.5, 1.4),
 ])
 f.gloss("o feriadão = langes Feiertagswochenende · o cemitério = Friedhof · a vela = Kerze · o crisântemo = Chrysantheme · a missa = Messe · conferir = prüfen, nachsehen.")
@@ -185,7 +186,7 @@ facts = ["O feriadão vai de sábado, 31 de outubro, a segunda, 2 de novembro.",
          "Domingo 8: portões 12h–13h, prova 13h30–19h, horário de Brasília."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "VOCÊ SABIA?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -194,9 +195,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E você? No seu país, há um dia de lembrar os mortos? O que as famílias fazem nesse dia? Escreva duas frases em português e mande para a redação: as melhores saem na página 7, «Cartas dos leitores»."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Gibt es in Ihrem Land einen Tag, an dem man der Toten gedenkt? Was tun die Familien an diesem Tag? Schreiben Sie zwei Sätze.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E VOCÊ? · UND SIE?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E VOCÊ?　UND SIE?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Gibt es in Ihrem Land einen Tag, an dem man der Toten gedenkt? Was tun die Familien an diesem Tag? Schreiben Sie zwei Sätze.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -204,9 +205,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Os horários do domingo 8: 4 time boxes ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "OS HORÁRIOS DO DOMINGO 8 · DIE ZEITEN AM SONNTAG", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Um país, vários relógios · Ein Land, viele Uhren", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "OS HORÁRIOS DO DOMINGO 8　DIE ZEITEN AM SONNTAG", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Um país, vários relógios　Ein Land, viele Uhren", 20, "sans", False, GREY, anchor="end")
 times = [
     ("12h", "os portões abrem", "Sonntag 12 Uhr: öffnen"),
     ("13h", "os portões fecham", "Die Tore schließen um 13 Uhr"),
@@ -215,7 +216,7 @@ times = [
 ]
 for i, (t, lab, cn) in enumerate(times):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 116, t, 40, "serif", True, OLIVE)
     yy = p.para(bx + 152, dy + 92, lab, 21.5, "serif", False, INK, CW - 174, 1.36)
     p.para(bx + 152, yy + 20, cn, 19, "sans", False, GREY, CW - 174, 1.3)
@@ -223,11 +224,11 @@ p.para(MX, dy + 234, "Atenção: o horário é o de Brasília. Quem faz a prova 
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCÍCIOS · ÜBUNGEN · SEITE 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · gemischte Stufen — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCÍCIOS　ÜBUNGEN　SEITE 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8　gemischte Stufen — nach Nummern suchen", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 25)
 e.bridge("Lesen Sie Seite 2 und wählen Sie die richtige Antwort.")
 e.ex("A2", "单选", "B", "Feriadão: 31. Oktober bis 2. November",
      "O feriadão vai... A. de 2 a 5 de novembro · B. de 31 de outubro a 2 de novembro · C. de 8 a 15 de novembro", size=20, gap=8)
@@ -239,7 +240,7 @@ e.ex("A2", "单选", "B", "Die Tore schließen um 13 Uhr",
      "Os portões fecham às... A. 12h · B. 13h · C. 19h", size=20, gap=8)
 e.ex("A2", "单选", "A", "Brasilien hat keine Sommerzeit: Die Uhr bleibt",
      "Nesta semana, o relógio no Brasil... A. não muda · B. volta uma hora · C. avança uma hora", size=20, gap=8)
-e.head("B · O PRESENTE", 25)
+e.head("B　O PRESENTE", 25)
 e.bridge("Ergänzen Sie die Verben im Präsens.")
 e.ex("A2", "完成句子", "confere", "conferir: ele confere",
      "O candidato ___ (conferir) o cartão.", instr="Ausfüllen", size=20, gap=8)
@@ -251,7 +252,7 @@ e.ex("A2", "完成句子", "começa", "começar: ela começa",
      "A prova ___ (começar) às 13h30.", instr="Ausfüllen", size=20, gap=8)
 e.ex("A2", "完成句子", "é", "ser, Präsens ela: é",
      "A missa de Finados ___ (ser) um momento calmo.", instr="Ausfüllen", size=20, gap=8)
-e.head("C · COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 25)
 e.bridge("Ergänzen Sie die Zahlen von Seite 1 und 2.")
 e.ex("A2", "完成句子", "1", "12 bis 13 Uhr = 1 Stunde",
      "Os portões ficam abertos ___ hora.", instr="Ausfüllen", size=20, gap=8)
@@ -261,7 +262,7 @@ e.ex("B1", "完成句子", "330", "5 × 60 + 30 = 330 Minuten",
      "De 13h30 a 19h são ___ minutos.", instr="Ausfüllen", size=20, gap=8)
 e.ex("A2", "完成句子", "3", "31., 1. und 2. = 3 Tage",
      "O feriadão tem ___ dias.", instr="Ausfüllen", size=20, gap=8)
-e.head("D · AS PALAVRAS", 25)
+e.head("D　AS PALAVRAS", 25)
 e.match_set("A2", "词汇配对",
             ["o feriadão", "o cemitério", "a vela", "o crisântemo"],
             ["a flor que as famílias levam a Finados",
