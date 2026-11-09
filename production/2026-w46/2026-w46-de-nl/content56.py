@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · YOUTH (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("JUGEND · Jeugd", "Die Lucerna", "LEVEL B1 · Laternen, Lieder & Schule · Lantaarns, liedjes en school")
+p.band("JUGEND　Jeugd", "Die Lucerna", "LEVEL B1　Laternen, Lieder & Schule　Lantaarns, liedjes en school")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P5-main")
-f.title("Laternen basteln, Lieder singen: Die Woche der Kinder", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: B1")
+f.title("Laternen basteln, Lieder singen: Die Woche der Kinder", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: B1")
 f.para("Am Montag, dem 9. November, sind alle wieder in der Schule: Auch in Bayern sind die Herbstferien jetzt vorbei. Die Rucksäcke sind gepackt, die Pausenhöfe sind wieder laut. Und in vielen Klassen wird schon gebastelt: Laternen für St. Martin.")
 f.para("Was basteln die Kinder? Bunte Laternen aus Papier, mit Sternen, Monden und Tieren. In der Kita und in der Schule singen sie Martinslieder und üben den Umzug. Am Mittwochabend ziehen sie dann mit ihren Laternen durch die Straßen — vorneweg der heilige Martin auf dem Pferd.")
 f.para("Und in Köln? Dort beginnt am Mittwoch um 11.11 Uhr die Karnevalssession. Auch Kinder verkleiden sich: als Prinzessin, als Pirat, als Tier. Aber Vorsicht: Am Vormittag ist Karneval, am Abend ist St. Martin — zwei Feste, zwei Stimmungen, ein Tag.")
@@ -29,9 +29,9 @@ facts = ["Am 9. November sind alle Bundesländer wieder in der Schule.",
          "Am 11. November: Karneval am Vormittag, Laternen am Abend."]
 sy3 = 200
 sh = 45 + 33 * len(facts) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in facts)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "SCHULWOCHE · Naar school", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "SCHULWOCHE　Naar school", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -40,9 +40,9 @@ words = ["die Laterne — lantaarn", "basteln — knutselen", "das Lied — lied
          "das Kostüm — kostuum", "der Umzug — optocht", "der Stern — ster"]
 sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "MARTINSWÖRTER · Sint Maarten", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "MARTINSWÖRTER　Sint Maarten", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -50,9 +50,9 @@ print("P5 col3 vocab ends", sy3 + sh)
 ey3 = sy3 + sh + 26
 etvous = "Und Sie? Haben Sie als Kind eine Laterne gebastelt? Welches Lied singen Sie im November? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("Heb je als kind een lantaarn gemaakt? Welk lied zing jij in november? Schrijf twee Duitse zinnen!", "sans", False, 20, CW - 44)) - 1)
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "UND SIE? · En u?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "UND SIE?　En u?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Heb je als kind een lantaarn gemaakt? Welk lied zing jij in november? Schrijf twee Duitse zinnen!", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -60,8 +60,8 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- Wochenplan wide box (cols 0-2) ----
 sx, swd = span_x(0, 3)
-p.rect(sx, 1120, swd, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(sx + 24, 1162, "DER WOCHENPLAN DER REDAKTION · De week van de redactie", 24, "sans", True, OLIVE)
+p.rect(sx, 1120, swd, 300, fill=BOX)
+p.text(sx + 24, 1162, "DER WOCHENPLAN DER REDAKTION　De week van de redactie", 24, "sans", True, OLIVE)
 planrows = [
     ("Mo 9.11.", "Schule für alle: Auch Bayern ist wieder da."),
     ("Di 10.11.", "Laternen basteln: Die Kitas bereiten den Umzug vor."),
@@ -71,17 +71,17 @@ planrows = [
 ]
 pyy = 1184
 for t, txt in planrows:
-    p.text(sx + 24, pyy + 24, t, 21, "sans", True, BRICK)
+    p.text(sx + 24, pyy + 24, t, 21, "sans", True, OLIVE)
     p.text(sx + 190, pyy + 24, txt, 21.5, "serif", False, INK)
     pyy += 45
 
 # ---- P5 exercises ----
 ey = 1500
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Oefeningen pagina 5", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · De niveaus lopen door elkaar — vind elk antwoord op nummer", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · LESEVERSTEHEN", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Oefeningen pagina 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　De niveaus lopen door elkaar — vind elk antwoord op nummer", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P5-ex")
+e.head("A　LESEVERSTEHEN", 25)
 e.bridge("Lees het artikel op pagina 5 en kies het juiste antwoord.")
 e.ex("B1", "meerkeuze", "A", "school begint overal weer op 9 november",
      "Wann sind alle wieder in der Schule? A. am 9. November · B. am 11. November · C. am 15. November", size=20, gap=8)
@@ -93,7 +93,7 @@ e.ex("B1", "meerkeuze", "B", "de NFL op tv op zondag",
      "Was läuft am Sonntag im Fernsehen? A. die Bundesliga · B. die NFL · C. ein Film", size=20, gap=8)
 e.ex("A2", "meerkeuze", "A", "het nationale team kijken op vrijdag",
      "Was schauen viele Jugendliche am Freitag? A. die Nationalmannschaft in Belgrad · B. die NFL · C. den Karneval", size=20, gap=8)
-e.head("B · WÖRTER AUS DEM TEXT", 25)
+e.head("B　WÖRTER AUS DEM TEXT", 25)
 e.bridge("Vul in met de woorden uit het kader.")
 e.para("Laterne · basteln · Lied · Kostüm · Umzug · Stern", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "invullen", "Laterne", "een papieren lantaarn",
@@ -108,7 +108,7 @@ e.ex("A2", "invullen", "Umzug", "een lantaarnoptocht",
      "Am Abend zieht der ___ durch die Straßen.", instr="Vul in", size=20, gap=8)
 e.ex("A2", "invullen", "Stern", "de ster op de lantaarn",
      "Auf der Laterne ist ein ___.", instr="Vul in", size=20, gap=8)
-e.head("C · SÄTZE MIT «WEIL»", 25)
+e.head("C　SÄTZE MIT «WEIL»", 25)
 e.bridge("Verbind de twee zinnen met weil (het werkwoord gaat naar het eind).")
 e.ex("B1", "omvormen", "Die Kinder freuen sich, weil St. Martin kommt.", "in een weil-zin gaat het werkwoord naar het eind",
      "Die Kinder freuen sich. St. Martin kommt. (weil) → ___", instr="Herschrijf", size=20, gap=8)
@@ -118,7 +118,7 @@ e.ex("B1", "omvormen", "Sie geht in die Bibliothek, weil sie ein Buch lesen will
      "Sie geht in die Bibliothek. Sie will ein Buch lesen. (weil) → ___", instr="Herschrijf", size=20, gap=8)
 e.ex("B1", "omvormen", "Köln feiert, weil die Karnevalssession beginnt.", "beginnt gaat naar het eind",
      "Köln feiert. Die Karnevalssession beginnt. (weil) → ___", instr="Herschrijf", size=20, gap=8)
-e.head("D · RICHTIG ODER FALSCH?", 25)
+e.head("D　RICHTIG ODER FALSCH?", 25)
 e.bridge("Juist of onjuist?")
 e.ex("A2", "juist-onjuist", "Richtig", "Beieren ook terug op 9 november",
      "Auch in Bayern sind die Herbstferien am 9. November vorbei. Richtig oder falsch?", instr="Beoordeel", size=20, gap=8)
@@ -134,11 +134,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · DEEP READ (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("VERTIEFUNG · Verdieping", "Die Lucerna", "LEVEL B2 · Volkstrauertag & Stromsteuer · Herdenkingsdag en stroomtaks")
+p.band("VERTIEFUNG　Verdieping", "Die Lucerna", "LEVEL B2　Volkstrauertag & Stromsteuer　Herdenkingsdag en stroomtaks")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P6-main")
-f.title("Stille am Sonntag: Was bedeutet der Volkstrauertag?", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: B2")
+f.title("Stille am Sonntag: Was bedeutet der Volkstrauertag?", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: B2")
 f.para("Am Sonntag, dem 15. November, ist Volkstrauertag: ein staatlicher Gedenktag. Die Menschen gedenken der Opfer von Gewalt und Krieg aller Nationen. In vielen Städten gibt es Gedenkstunden und Kranzniederlegungen. Der Tag liegt zwei Sonntage vor dem ersten Advent — und er ist ein stiller Tag.")
 f.para("Die zentrale Gedenkstunde findet im Bundestag statt. Das ZDF überträgt ab 13.30 Uhr live. In diesem Jahr steht sie im Zeichen der deutsch-österreichischen Verbundenheit: Die Gedenkrede hält der österreichische Bundespräsident Alexander Van der Bellen. Bundespräsident Frank-Walter Steinmeier spricht das Totengedenken.")
 f.para("Warum gibt es diesen Tag? Die erste Gedenkstunde fand 1922 im Reichstag statt. Seit 1952 wird der Volkstrauertag zwei Sonntage vor dem ersten Advent begangen. Gedenken heißt hier: innehalten, erinnern — und für Frieden und Versöhnung einstehen.")
@@ -157,18 +157,18 @@ tl = [("15.11.", "Volkstrauertag — zwei Sonntage vor dem ersten Advent."),
       ("0,05", "Cent: Stromsteuer für die Industrie seit 2026."),
       ("27.11.", "Verabschiedung des Bundeshaushalts 2027 geplant.")]
 tlh = 45 + 30.5 * len(tl) + 29.11 * sum(len(wrap(t, "serif", False, 20.5, CW - 152)) for yr, t in tl)
-p.rect(ix, 200, CW, tlh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, tlh, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DIE ZAHLEN · De cijfers", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DIE ZAHLEN　De cijfers", 24, "sans", True, OLIVE)
 yy3 += 52
 for yr, t in tl:
-    p.text(ix + 22, yy3 + 21, yr, 21, "sans", True, BRICK)
+    p.text(ix + 22, yy3 + 21, yr, 21, "sans", True, OLIVE)
     yy3 = p.para(ix + 130, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 152, 1.42) + 10
 print("P6 col3 numbers ends", 200 + tlh)
 deb = "Volkstrauertag: Gedenken braucht Stille — darüber sind sich fast alle einig. Stromsteuer: Wie stark sie sinkt, ist noch offen. Beides betrifft fast jeden Haushalt."
 hy3 = 200 + tlh + 26
 hh = 140 + 29.82 * len(wrap(deb, "serif", False, 21, CW - 44)) + 27.69 * (len(wrap("Herdenkingsdag: herdenken vraagt stilte — bijna iedereen is het eens. Stroomtaks: hoeveel hij daalt is nog open. Beide raken bijna elk huishouden.", "sans", False, 19.5, CW - 44)) - 1)
-p.rect(ix, hy3, CW, hh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, hy3, CW, hh, fill="#f0eee5")
 yy3 = hy3 + 16
 p.text(ix + 22, yy3 + 26, "DIE DEBATTE IN EINEM SATZ", 22.5, "sans", True, OLIVE)
 yy3 += 50
@@ -178,10 +178,10 @@ print("P6 col3 ends", hy3 + hh)
 
 # ---- Two Sundays wide box (cols 0-2) ----
 sx, swd = span_x(0, 3)
-p.rect(sx, 1120, swd, 252, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(sx + 24, 1162, "ZWEI SONNTAGE IM NOVEMBER · Twee zondagen in november", 24, "sans", True, OLIVE)
-p.text(sx + 24, 1210, "VOLKSTRAUERTAG — 15. NOVEMBER", 21, "sans", True, BRICK)
-p.text(sx + 24 + (swd - 48) // 2, 1210, "TOTENSONNTAG — 22. NOVEMBER", 21, "sans", True, BRICK)
+p.rect(sx, 1120, swd, 252, fill="#f0eee5")
+p.text(sx + 24, 1162, "ZWEI SONNTAGE IM NOVEMBER　Twee zondagen in november", 24, "sans", True, OLIVE)
+p.text(sx + 24, 1210, "VOLKSTRAUERTAG — 15. NOVEMBER", 21, "sans", True, OLIVE)
+p.text(sx + 24 + (swd - 48) // 2, 1210, "TOTENSONNTAG — 22. NOVEMBER", 21, "sans", True, OLIVE)
 pro = ["Gedenken an die Opfer von Gewalt und Krieg aller Nationen.",
        "Zentrale Gedenkstunde im Bundestag, Kranzniederlegungen im ganzen Land."]
 contra = ["Evangelischer Gedenktag für die Verstorbenen.",
@@ -197,8 +197,8 @@ for t in contra:
 
 # ---- practice chart (full width) ----
 cy = 1420
-p.hline(MX, RIGHT, cy - 12, GOLD, 2)
-p.text(MX, cy + 28, "WAS INTERESSIERT DIE LESER? · Wat interesseert de lezers?", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, cy - 12, OLIVE, 2)
+p.text(MX, cy + 28, "WAS INTERESSIERT DIE LESER?　Wat interesseert de lezers?", 26, "sans", True, OLIVE)
 bars = [("Nations League und NFL", 46, "voetbal"),
         ("St. Martin und Karneval", 34, "feesten"),
         ("Volkstrauertag und Gedenken", 20, "herdenken")]
@@ -207,61 +207,61 @@ for lab, v, zh in bars:
     p.text(MX, byy + 26, lab, 22, "serif", True, INK)
     p.text(MX + 360, byy + 26, zh, 20, "sans", False, GREY)
     p.rect(MX + 470, byy + 4, v * 17, 30, fill=OLIVE)
-    p.text(MX + 470 + v * 17 + 16, byy + 26, f"{v} %", 22, "sans", True, BRICK)
+    p.text(MX + 470 + v * 17 + 16, byy + 26, f"{v} %", 22, "sans", True, OLIVE)
     byy += 52
-p.text(MX, byy + 22, "ÜBUNGSDATEN · Oefengegevens — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage. (Oefengegevens, geen echte enquête.)", 19.5, "sans", False, GREY)
+p.text(MX, byy + 22, "ÜBUNGSDATEN　Oefengegevens — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage. (Oefengegevens, geen echte enquête.)", 19.5, "sans", False, GREY)
 
 # ---- P6 exercises ----
-ey = 1808
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Oefeningen pagina 6", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · De niveaus lopen door elkaar — vind elk antwoord op nummer", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · DAS DIAGRAMM LESEN", 25, gap=9)
-e.bridge("Gebruik de oefengrafiek hierboven.")
+ey = 1752
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Oefeningen pagina 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　De niveaus lopen door elkaar — vind elk antwoord op nummer", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P6-ex")
+e.head("A　DAS DIAGRAMM LESEN", 25, gap=6)
+e.bridge("Gebruik de oefengrafiek hierboven.", gap=6)
 e.ex("B1", "meerkeuze", "A", "voetbal leidt met 46%",
-     "Was interessiert die Leser am meisten (Übungsdaten)? A. Nations League und NFL · B. St. Martin · C. Volkstrauertag", size=20, gap=7)
+     "Was interessiert die Leser am meisten (Übungsdaten)? A. Nations League und NFL · B. St. Martin · C. Volkstrauertag", size=20, gap=6)
 e.ex("B1", "meerkeuze", "B", "feesten tweede met 34%",
-     "Was ist die zweitgrößte Gruppe? A. Volkstrauertag · B. St. Martin und Karneval · C. Nations League", size=20, gap=7)
+     "Was ist die zweitgrößte Gruppe? A. Volkstrauertag · B. St. Martin und Karneval · C. Nations League", size=20, gap=6)
 e.ex("B1", "meerkeuze", "B", "46+34=80",
-     "Fußball und Feste zusammen sind... A. 66 % · B. 80 % · C. 100 %", size=20, gap=7)
+     "Fußball und Feste zusammen sind... A. 66 % · B. 80 % · C. 100 %", size=20, gap=6)
 e.ex("B2", "meerkeuze", "B", "herdenken het kleinst met 20%",
-     "Welche Gruppe ist kleiner? A. Feste · B. Gedenken · C. beide gleich", size=20, gap=7)
+     "Welche Gruppe ist kleiner? A. Feste · B. Gedenken · C. beide gleich", size=20, gap=6)
 e.ex("B1", "meerkeuze", "A", "herdenken 20%",
-     "Wie viele Prozent interessieren sich für den Volkstrauertag? A. 20 % · B. 34 % · C. 46 %", size=20, gap=7)
+     "Wie viele Prozent interessieren sich für den Volkstrauertag? A. 20 % · B. 34 % · C. 46 %", size=20, gap=6)
 e.ex("B2", "meerkeuze", "B", "46+34+20=100",
-     "Die drei Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %", size=20, gap=7)
-e.head("B · LESEVERSTEHEN (B2)", 25, gap=9)
-e.bridge("Lees het artikel op pagina 6.")
+     "Die drei Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %", size=20, gap=6)
+e.head("B　LESEVERSTEHEN (B2)", 25, gap=6)
+e.bridge("Lees het artikel op pagina 6.", gap=6)
 e.ex("B2", "meerkeuze", "B", "de herdenkingsdag is 15 november",
-     "Wann ist Volkstrauertag? A. am 11. November · B. am 15. November · C. am 22. November", size=20, gap=7)
+     "Wann ist Volkstrauertag? A. 11. November · B. 15. November · C. 22. November", size=20, gap=6)
 e.ex("B2", "meerkeuze", "A", "ZDF live vanaf 13.30 uur",
-     "Wer überträgt die Gedenkstunde ab 13.30 Uhr? A. das ZDF · B. RTL · C. die ARD", size=20, gap=7)
+     "Wer überträgt die Gedenkstunde ab 13.30 Uhr? A. das ZDF · B. RTL · C. die ARD", size=20, gap=6)
 e.ex("B2", "meerkeuze", "B", "de stroomtaks voor huishoudens is 2,05 cent",
-     "Wie hoch ist die Stromsteuer für Haushalte? A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent", size=20, gap=7)
+     "Wie hoch ist die Stromsteuer für Haushalte? A. 0,05 Cent · B. 2,05 Cent · C. 3,05 Cent", size=20, gap=6)
 e.ex("B1", "meerkeuze", "B", "stemming over de begroting 2027 op 27 november",
-     "Wann soll der Bundeshaushalt 2027 verabschiedet werden? A. am 15. November · B. am 27. November · C. am 18. November", size=20, gap=7)
-e.head("C · GRAMMATIK", 25, gap=9)
-e.bridge("Vul in met de vorm tussen haakjes.")
+     "Wann soll der Bundeshaushalt 2027 verabschiedet werden? A. am 15. November · B. am 27. November · C. am 18. November", size=20, gap=6)
+e.head("C　GRAMMATIK", 25, gap=6)
+e.bridge("Vul in met de vorm tussen haakjes.", gap=6)
 e.ex("B2", "invullen", "wird", "passief: wird + voltooid deelwoord",
-     "Die Gedenkstunde ___ (werden) live übertragen.", instr="Vul in", size=20, gap=7)
+     "Die Gedenkstunde ___ (werden) live übertragen.", instr="Vul in", size=20, gap=6)
 e.ex("B2", "invullen", "ob", "ob leidt een indirecte vraag in",
-     "Niemand weiß, ___ die Einigung gelingt.", instr="Vul in", size=20, gap=7)
+     "Niemand weiß, ___ die Einigung gelingt.", instr="Vul in", size=20, gap=6)
 e.ex("B1", "invullen", "geht", "gehen → geht",
-     "Die Debatte ___ (gehen) weiter.", instr="Vul in", size=20, gap=7)
+     "Die Debatte ___ (gehen) weiter.", instr="Vul in", size=20, gap=6)
 e.ex("B2", "invullen", "spricht", "sprechen → spricht",
-     "Steinmeier ___ (sprechen) das Totengedenken.", instr="Vul in", size=20, gap=7)
-e.head("D · WÖRTER DER DEBATTE", 25, gap=9)
-e.bridge("Vul in met de woorden uit het kader.")
+     "Steinmeier ___ (sprechen) das Totengedenken.", instr="Vul in", size=20, gap=6)
+e.head("D　WÖRTER DER DEBATTE", 25, gap=6)
+e.bridge("Vul in met de woorden uit het kader.", gap=6)
 e.para("Kranzniederlegung · Versöhnung · Verbundenheit · gedenken", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "invullen", "Kranzniederlegung", "een kransleggingsceremonie",
-     "In vielen Städten gibt es eine ___.", instr="Vul in", size=20, gap=7)
+     "In vielen Städten gibt es eine ___.", instr="Vul in", size=20, gap=6)
 e.ex("B2", "invullen", "Versöhnung", "voor vrede en verzoening",
-     "Gedenken heißt: für Frieden und ___ einstehen.", instr="Vul in", size=20, gap=7)
+     "Gedenken heißt: für Frieden und ___ einstehen.", instr="Vul in", size=20, gap=6)
 e.ex("B2", "invullen", "Verbundenheit", "Duits-Oostenrijkse verbondenheid",
-     "Die Gedenkstunde steht im Zeichen der deutsch-österreichischen ___.", instr="Vul in", size=20, gap=7)
+     "Die Gedenkstunde steht im Zeichen der deutsch-österreichischen ___.", instr="Vul in", size=20, gap=6)
 e.ex("B1", "invullen", "gedenken", "de slachtoffers herdenken",
-     "Die Menschen ___ der Opfer von Gewalt und Krieg.", instr="Vul in", size=20, gap=7)
+     "Die Menschen ___ der Opfer von Gewalt und Krieg.", instr="Vul in", size=20, gap=6)
 e.end_report()
 p.foot(6)
 p.save(f"{OUT}/p6-vertiefung.svg")

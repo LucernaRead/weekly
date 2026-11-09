@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("ÜBUNGEN & ANTWORTEN · 練習與答案", "Die Lucerna", "SCHLUSSTEST · 綜合評估 · Alle Antworten unten auf dieser Seite — 答案在本版下方")
+p.band("ÜBUNGEN & ANTWORTEN　練習與答案", "Die Lucerna", "SCHLUSSTEST　綜合評估　Alle Antworten unten auf dieser Seite — 答案在本版下方")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1505, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("B1", "A", "beginnt(第三人稱單數)"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · LÜCKENTEXT · 完形填空", 24)
+bf.head("A　LÜCKENTEXT　完形填空", 24)
 bf.para(f"Lena freut sich auf die Novemberwoche. Am Montag ({cnums[0]})___ die Schule wieder, und Lena ({cnums[1]})___ eine Laterne aus Papier. Am Mittwoch ({cnums[2]})___ sie mit ihrer Klasse beim Laternenumzug mit und ({cnums[3]})___ Martinslieder. Am Freitagabend ({cnums[4]})___ sie Deutschland in Belgrad. Am Sonntag ({cnums[5]})___ sie die NFL in München im Fernsehen. In der Schule ({cnums[6]})___ Lena: „Die Woche war toll! Der Karneval ({cnums[7]})___ um 11.11 Uhr.“", 20.5)
 bf.bridge("選項：")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 18.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. general MC ----
-bf.head("B · WISSENSFRAGEN · 綜合問答", 24)
+bf.head("B　WISSENSFRAGEN　綜合問答", 24)
 bf.ex("B1", "單選", "A", "狂歡季 11 點 11 分開幕",
       "Die Karnevalssession beginnt um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr", size=19.5, gap=8)
 bf.ex("A2", "單選", "B", "週五客戰塞爾維亞",
@@ -59,7 +59,7 @@ bf.ex("A2", "單選", "C", "亡靈主日 11 月 22 日",
       "Der Totensonntag ist am... A. 15. November · B. 18. November · C. 22. November", size=19.5, gap=8)
 
 # ---- C. reading ----
-bf.head("C · LESEVERSTEHEN · 閱讀理解", 24)
+bf.head("C　LESEVERSTEHEN　閱讀理解", 24)
 bf.para("Familie Berger aus Stuttgart hat am Montag wieder Schule: Die Kinder gehen um halb acht aus dem Haus. Am Mittwoch bastelt die Familie eine Laterne aus Papier. Am Freitag schaut sie Deutschland in Belgrad im Fernsehen. Am Sonntag schaut sie das NFL-Spiel um 15.30 Uhr. „Eine Woche mit Laternen und Football“, sagt Frau Berger.", 20.5)
 bf.ex("B1", "單選", "A", "halb acht = 7:30",
       "Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun", size=19.5, gap=8)
@@ -71,7 +71,7 @@ bf.ex("B1", "單選", "B", "NFL 週日 15:30",
       "Wann schaut die Familie das NFL-Spiel? A. Samstag 18.30 Uhr · B. Sonntag 15.30 Uhr · C. Freitag 20.45 Uhr", size=19.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D · SÄTZE BAUEN · 造句", 24)
+bf.head("D　SÄTZE BAUEN　造句", 24)
 bf.ex("A2", "造句", "Die Karnevalssession beginnt am Mittwoch.", "時間狀語，動詞第二位",
       "die Karnevalssession / beginnt / am Mittwoch → ___", instr="造句", size=19.5, gap=8)
 bf.ex("A2", "造句", "Wir basteln eine Laterne aus Papier.", "主謂賓順序",
@@ -82,7 +82,7 @@ bf.ex("B1", "造句", "Am Sonntag ist Volkstrauertag in ganz Deutschland.", "地
       "am Sonntag / ist / Volkstrauertag / in ganz Deutschland → ___", instr="造句", size=19.5, gap=8)
 
 # ---- E. translation ----
-bf.head("E · ÜBERSETZEN · 翻譯", 24)
+bf.head("E　ÜBERSETZEN　翻譯", 24)
 bf.ex("A2", "翻譯", "狂歡節 11 點 11 分在科隆開幕。", "beginnen = 開始",
       "Der Karneval beginnt um 11.11 Uhr in Köln.（譯成中文）", instr="翻譯", size=19.5, gap=8)
 bf.ex("A2", "翻譯", "我週三做一個燈籠。", "basteln = 製作",
@@ -93,7 +93,7 @@ bf.ex("B1", "翻譯", "Am Sonntag schaue ich das NFL-Spiel.", "看比賽 = das S
       "我週日看 NFL 比賽。（譯成德語）", instr="翻譯", size=19.5, gap=8)
 
 # ---- F. matching ----
-bf.head("F · WÖRTER PAAREN · 詞彙配對", 24)
+bf.head("F　WÖRTER PAAREN　詞彙配對", 24)
 bf.match_set("B1", "詞彙配對",
              ["der Mantel", "die Laterne", "das Geisterspiel", "die Versöhnung"],
              ["das Licht aus Papier, das die Kinder am Abend tragen",
@@ -113,7 +113,7 @@ ddefs = [
     ("B1", "A", "schaue(第一人稱單數)"),
 ]
 dnums = [reg_ex(lv, "對話補全", k, nt) for lv, k, nt in ddefs]
-bf.head("G · DIALOG · 對話補全", 24)
+bf.head("G　DIALOG　對話補全", 24)
 bf.para(f"— Hallo, Lena! Bastelst du eine Laterne? — Ja, für St. Martin! Am Mittwoch gehen wir mit. — ({dnums[0]})___ du auch Martinslieder? — Ja, mit meiner Klasse. — Und was ({dnums[1]})___ ihr am Abend? — Wir singen und laufen mit den Laternen. Am Sonntag ({dnums[2]})___ wir Brezeln und schauen die NFL. — Lecker! Und was ({dnums[3]})___ du am Freitag? — Ich ({dnums[4]})___ Deutschland in Belgrad im Fernsehen!", 20.5)
 bf.bridge("選項：")
 for n, opts in zip(dnums, [
@@ -128,21 +128,21 @@ bf.end_report()
 
 # ---- writing strip ----
 wy = 1520
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "寫作", "開放題 — 要點見寫作框，範文在第 8 版寫作框內", "按要點給分")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · SCHREIBEN · 寫作", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　SCHREIBEN　寫作", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Schreiben Sie einen kurzen Text (80 bis 100 Wörter): «Meine Novemberwoche». Erzählen Sie: Was basteln Sie? Welche Spiele schauen Sie? Mit wem? Schreiben Sie auch einen Satz über St. Martin oder den Volkstrauertag! Die besten Texte drucken wir in VOL.4 (Seite 7, «Leserbriefe»).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 196, "用德語寫 80–100 詞：《我的十一月的一週》。寫清做什麼手工、看哪幾場比賽、和誰一起，並寫一句關於聖馬丁節或紀念日的話。", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MUSTER · 範本（84 Wörter）", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 300, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MUSTER　範本（84 Wörter）", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "In dieser Woche bastle ich eine Laterne. Am Mittwoch singe ich mit meiner Klasse Martinslieder und gehe beim Laternenumzug mit. Am Freitag schaue ich mit meiner Familie Deutschland in Belgrad im Fernsehen. Das Spiel ist ein Geisterspiel — ohne Zuschauer. Am Sonntag schaue ich die NFL in München im Fernsehen. Die Lions spielen gegen die Patriots. Der Karneval beginnt um 11.11 Uhr in Köln. Am Sonntag esse ich Brezeln und trinke Apfelschorle. Am Montag gehe ich wieder in die Schule. Die Woche macht Spaß!", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 320
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "ANTWORTEN · 全部答案與簡析（第 1–8 版）", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "ANTWORTEN　全部答案與簡析（第1–8 版）", 26, "sans", True, OLIVE)
 kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):

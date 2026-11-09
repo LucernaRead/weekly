@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-it/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("ÜBUNGEN & ANTWORTEN · Esercizi e risposte", "Die Lucerna", "SCHLUSSTEST · Test finale · Alle Antworten unten auf dieser Seite — tutte le risposte in fondo a questa pagina")
+p.band("ÜBUNGEN & ANTWORTEN　Esercizi e risposte", "Die Lucerna", "SCHLUSSTEST　Test finale　Alle Antworten unten auf dieser Seite — tutte le risposte in fondo a questa pagina")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1505, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("B1", "A", "beginnt (3ª pers. sing.)"),
 ]
 cnums = [reg_ex(lv, "testo a buchi", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · LÜCKENTEXT · Testo a buchi", 24)
+bf.head("A　LÜCKENTEXT　Testo a buchi", 24)
 bf.para(f"Lena freut sich auf die Novemberwoche. Am Montag ({cnums[0]})___ die Schule wieder, und Lena ({cnums[1]})___ eine Laterne aus Papier. Am Mittwoch ({cnums[2]})___ sie mit ihrer Klasse beim Laternenumzug mit und ({cnums[3]})___ Martinslieder. Am Freitagabend ({cnums[4]})___ sie Deutschland in Belgrad. Am Sonntag ({cnums[5]})___ sie die NFL in München im Fernsehen. In der Schule ({cnums[6]})___ Lena: „Die Woche war toll! Der Karneval ({cnums[7]})___ um 11.11 Uhr.“", 20.5)
 bf.bridge("Opzioni:")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 18.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. general MC ----
-bf.head("B · WISSENSFRAGEN · Quiz", 24)
+bf.head("B　WISSENSFRAGEN　Quiz", 24)
 bf.ex("B1", "scelta multipla", "A", "il carnevale inizia alle 11.11",
       "Die Karnevalssession beginnt um... A. 11.11 Uhr · B. 15.30 Uhr · C. 20.45 Uhr", size=19.5, gap=8)
 bf.ex("A2", "scelta multipla", "B", "in trasferta in Serbia venerdì",
@@ -59,7 +59,7 @@ bf.ex("A2", "scelta multipla", "C", "Totensonntag è il 22 novembre",
       "Der Totensonntag ist am... A. 15. November · B. 18. November · C. 22. November", size=19.5, gap=8)
 
 # ---- C. reading ----
-bf.head("C · LESEVERSTEHEN · Lettura", 24)
+bf.head("C　LESEVERSTEHEN　Lettura", 24)
 bf.para("Familie Berger aus Stuttgart hat am Montag wieder Schule: Die Kinder gehen um halb acht aus dem Haus. Am Mittwoch bastelt die Familie eine Laterne aus Papier. Am Freitag schaut sie Deutschland in Belgrad im Fernsehen. Am Sonntag schaut sie das NFL-Spiel um 15.30 Uhr. „Eine Woche mit Laternen und Football“, sagt Frau Berger.", 20.5)
 bf.ex("B1", "scelta multipla", "A", "halb acht = 7:30",
       "Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun", size=19.5, gap=8)
@@ -71,7 +71,7 @@ bf.ex("B1", "scelta multipla", "B", "NFL domenica alle 15.30",
       "Wann schaut die Familie das NFL-Spiel? A. Samstag 18.30 Uhr · B. Sonntag 15.30 Uhr · C. Freitag 20.45 Uhr", size=19.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D · SÄTZE BAUEN · Frasi", 24)
+bf.head("D　SÄTZE BAUEN　Frasi", 24)
 bf.ex("A2", "costruire frasi", "Die Karnevalssession beginnt am Mittwoch.", "il tempo, il verbo al secondo posto",
       "die Karnevalssession / beginnt / am Mittwoch → ___", instr="Costruisci la frase", size=19.5, gap=8)
 bf.ex("A2", "costruire frasi", "Wir basteln eine Laterne aus Papier.", "ordine soggetto–verbo–oggetto",
@@ -82,7 +82,7 @@ bf.ex("B1", "costruire frasi", "Am Sonntag ist Volkstrauertag in ganz Deutschlan
       "am Sonntag / ist / Volkstrauertag / in ganz Deutschland → ___", instr="Costruisci la frase", size=19.5, gap=8)
 
 # ---- E. translation ----
-bf.head("E · ÜBERSETZEN · Traduzione", 24)
+bf.head("E　ÜBERSETZEN　Traduzione", 24)
 bf.ex("A2", "traduzione", "Il carnevale inizia alle 11.11 a Colonia.", "beginnen = iniziare",
       "Der Karneval beginnt um 11.11 Uhr in Köln. (traduci in italiano)", instr="Traduci in italiano", size=19.5, gap=8)
 bf.ex("A2", "traduzione", "Faccio una lanterna mercoledì.", "basteln = costruire",
@@ -93,7 +93,7 @@ bf.ex("B1", "traduzione", "Am Sonntag schaue ich das NFL-Spiel.", "guardare una 
       "Guardo la partita NFL domenica. (traduci in tedesco)", instr="Traduci in tedesco", size=19.5, gap=8)
 
 # ---- F. matching ----
-bf.head("F · WÖRTER PAAREN · Coppie", 24)
+bf.head("F　WÖRTER PAAREN　Coppie", 24)
 bf.match_set("B1", "abbinamento",
              ["der Mantel", "die Laterne", "das Geisterspiel", "die Versöhnung"],
              ["das Licht aus Papier, das die Kinder am Abend tragen",
@@ -113,7 +113,7 @@ ddefs = [
     ("B1", "A", "schaue (1ª pers. sing.)"),
 ]
 dnums = [reg_ex(lv, "completare il dialogo", k, nt) for lv, k, nt in ddefs]
-bf.head("G · DIALOG · Completare il dialogo", 24)
+bf.head("G　DIALOG　Completare il dialogo", 24)
 bf.para(f"— Hallo, Lena! Bastelst du eine Laterne? — Ja, für St. Martin! Am Mittwoch gehen wir mit. — ({dnums[0]})___ du auch Martinslieder? — Ja, mit meiner Klasse. — Und was ({dnums[1]})___ ihr am Abend? — Wir singen und laufen mit den Laternen. Am Sonntag ({dnums[2]})___ wir Brezeln und schauen die NFL. — Lecker! Und was ({dnums[3]})___ du am Freitag? — Ich ({dnums[4]})___ Deutschland in Belgrad im Fernsehen!", 20.5)
 bf.bridge("Opzioni:")
 for n, opts in zip(dnums, [
@@ -128,21 +128,21 @@ bf.end_report()
 
 # ---- writing strip ----
 wy = 1520
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "scrittura", "Compito aperto — segui i punti del riquadro; il testo modello è nel riquadro di questa pagina", "Valutato secondo i punti elencati")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · SCHREIBEN · Scrittura", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　SCHREIBEN　Scrittura", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Schreiben Sie einen kurzen Text (80 bis 100 Wörter): «Meine Novemberwoche». Erzählen Sie: Was basteln Sie? Welche Spiele schauen Sie? Mit wem? Schreiben Sie auch einen Satz über St. Martin oder den Volkstrauertag! Die besten Texte drucken wir in VOL.4 (Seite 7, «Leserbriefe»).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 196, "Scrivi in tedesco, 80–100 parole: «La mia settimana di novembre». Di' cosa costruisci, quali partite guardi e con chi — e aggiungi una frase su San Martino o sul giorno del ricordo.", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MUSTER · Testo modello (84 parole)", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 300, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MUSTER　Testo modello (84 parole)", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "In dieser Woche bastle ich eine Laterne. Am Mittwoch singe ich mit meiner Klasse Martinslieder und gehe beim Laternenumzug mit. Am Freitag schaue ich mit meiner Familie Deutschland in Belgrad im Fernsehen. Das Spiel ist ein Geisterspiel — ohne Zuschauer. Am Sonntag schaue ich die NFL in München im Fernsehen. Die Lions spielen gegen die Patriots. Der Karneval beginnt um 11.11 Uhr in Köln. Am Sonntag esse ich Brezeln und trinke Apfelschorle. Am Montag gehe ich wieder in die Schule. Die Woche macht Spaß!", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 320
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "ANTWORTEN · Tutte le risposte con note (pagine 1–8)", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "ANTWORTEN　Tutte le risposte con note (pagine 1–8)", 26, "sans", True, OLIVE)
 kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):

@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-de-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · FRONT PAGE (A2) =================
@@ -11,27 +11,27 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 3 · DRITTE AUSGABE", 23, "sans", True, OLIVE)
-p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH · 每周一期 · 读德国人正在读的德语", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Die Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "德 语 周 报 · VOL.3 · 国 家 队 · 圣 马 丁 · NFL", 46, "serif", True, INK, anchor="middle")
-p.text(975, 372, "DIE WOCHENZEITUNG FÜR LERNENDE — DAS ECHTE LEBEN, AUF DEUTSCH, AUS DEUTSCHLAND", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 3　DRITTE AUSGABE", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH　每周一期　读德国人正在读的德语", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Die Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "德语周报　VOL.3　国家队　圣马丁　NFL", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 372, "DIE WOCHENZEITUNG FÜR LERNENDE — DAS ECHTE LEBEN, AUF DEUTSCH, AUS DEUTSCHLAND", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # football band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "本周国家队周 · 圣马丁节与 NFL", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "详见第 4 版 · Seite 4", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "本周国家队周　圣马丁节与 NFL", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "详见第4 版　Seite 4", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "DIE TOPMELDUNG · 头条", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Länderspielpause in Deutschland: Kampf ums Viertelfinale, dann die NFL in München", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Von der Lucerna-Redaktion · Leseniveau: A2", 20, "sans", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "DIE TOPMELDUNG　头条", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Länderspielpause in Deutschland: Kampf ums Viertelfinale, dann die NFL in München", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Von der Lucerna-Redaktion　Leseniveau: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Diese Woche spielt die Bundesliga nicht: Es ist Länderspielpause. Die deutsche Nationalmannschaft trifft am Freitagabend in Belgrad auf Serbien — und am Montag danach in Berlin auf die Niederlande. Es geht ums Viertelfinale.")
@@ -40,12 +40,12 @@ f.para("Am Mittwoch ist in Deutschland ein besonderer Tag: Um 11.11 Uhr beginnt 
 f.para("Am Sonntag wird München zur Football-Stadt: Um 15.30 Uhr spielen in der Allianz Arena die Detroit Lions gegen die New England Patriots. Das Spiel ist ausverkauft.")
 f.para("Aber diese Woche ist mehr als Sport: Am Sonntag ist auch Volkstrauertag — ein stiller Gedenktag. Die zentrale Gedenkstunde findet im Bundestag statt.")
 f.bridge("讲解｜die Länderspielpause 国家队比赛间歇期 · das Viertelfinale 四分之一决赛 · ausverkauft 售罄。")
-f.box("DIE WOCHE IN ZAHLEN · 数字看本周", [
+f.box("DIE WOCHE IN ZAHLEN　数字看本周", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League（四轮过后德国队 5 分）", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln（11 点 11 分狂欢季开幕）", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München（周日 15 点 30 分 NFL 开球）", "serif", False, INK, 20.5, 1.35),
 ])
-f.head("JETZT ÜBEN · 即学即练", 25)
+f.head("JETZT ÜBEN　即学即练", 25)
 f.ex("A2", "完成句子", "Länderspielpause", "国家队比赛周",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)
 f.ex("A2", "完成句子", "Belgrad", "塞尔维亚首都",
@@ -62,11 +62,11 @@ f.end_report()
 
 # ---- questions of the week (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "FRAGEN", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "DER WOCHE", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "本周大问题 · Die Fragen der Woche", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "本周大问题　Die Fragen der Woche", 19, "sans", False, GREY)
 gt = [
     ("„Deutschland im Viertelfinale?“", 250),
     ("„Sieg in Belgrad?“", 226),
@@ -77,7 +77,7 @@ gt = [
 byy = gy + 150
 for i, (lab, bw) in enumerate(gt):
     p.text(gx + 22, byy + 22, f"{i+1}. {lab}", 21.5, "serif", True, INK)
-    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE if i == 0 else GOLD)
+    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE)
     byy += 92
 p.text(gx + 22, byy + 16, "Die fünf Fragen, über die Deutschland", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "in dieser Woche spricht.", 18.5, "sans", False, GREY)
@@ -85,8 +85,8 @@ p.text(gx + 22, byy + 76, "德国本周最热议的五个问题。", 19, "sans",
 
 # ---- sommaire (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE · 本期目录", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　本期目录", 24, "sans", True, OLIVE)
 som = [
     ("S.2", "11. November & Alltag", "A2"),
     ("S.3", "St. Martin & Karneval", "A2→B1"),
@@ -98,7 +98,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 72, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -106,9 +106,10 @@ for pg, t, lv in som:
 # ---- word of the week (col 3) ----
 my = 1652
 p.text(gx, my + 24, "DAS WORT DER WOCHE", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-p.para(gx, my + 76, "« das Geisterspiel » : Ein Spiel vor leeren Rängen — ohne Zuschauer im Stadion.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, my + 152, "空场比赛（无观众）。详见第 4 版。", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« das Geisterspiel »", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "Ein Spiel vor leeren Rängen — ohne Zuschauer im Stadion.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 10, "空场比赛（无观众）。详见第 4 版。", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -119,15 +120,15 @@ caption(p, ix, iy + 320, iw,
         "Fußball auf dem Rasen: In dieser Woche spielt die Nationalmannschaft in Belgrad — die Bundesliga pausiert. Am Montag danach kommen die Niederlande nach Berlin. (Seite 4)",
         "Foto: Staff Sgt. Stephanie Jacobs, U.S. Air Force — public domain")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-fussball")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-fussball")
 f2.head("EINE WOCHE, ZWEI WELTEN", 25)
 f2.para("Freitagabend in Belgrad, Sonntag in München: Erst die Nationalelf, dann American Football — eine Woche, zwei Ballspiele.", 22.5)
 f2.para("Und am Montag danach? Da spielt Deutschland schon wieder — gegen die Niederlande in Berlin. Die Länderspielpause ist kurz, aber sie ist voll.", 22.5)
 f2.end_report()
 # col 3 KURZ & GUT
 bx = COLX[3]
-p.rect(bx, 1874, CW, 416, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "KURZ & GUT · 快讯", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 416, fill=BOX)
+p.text(bx + 22, 1914, "KURZ & GUT　快讯", 24, "sans", True, OLIVE)
 brefs = [
     ("FUSSBALL", "Nations League: Serbien auswärts, Niederlande zu Hause. (Seite 4)"),
     ("NFL", "Lions gegen Patriots in München, 15.30 Uhr, RTL live. (Seite 4)"),
@@ -135,15 +136,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "BLITZQUIZ · 闪电问答", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "读头版，选出正确答案 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "BLITZQUIZ　闪电问答", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "读头版，选出正确答案　答案见第8 版", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "B", "周五客战塞尔维亚",
       "Deutschland spielt am Freitag in... A. Berlin · B. Belgrad · C. München", size=21)
 qf.ex("A2", "单选", "C", "NFL 下午 3 点半开球",
@@ -160,11 +161,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · LIFE (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("LEBEN · 生活", "Die Lucerna", "LEVEL A2 · Der 11. November & der Alltag · 11 月 11 日与日常生活")
+p.band("LEBEN　生活", "Die Lucerna", "LEVEL A2　Der 11. November & der Alltag　11月11日与日常生活")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Ein Mittwoch, zwei Feste: Karneval am Morgen, Laternen am Abend", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: A2")
+f.title("Ein Mittwoch, zwei Feste: Karneval am Morgen, Laternen am Abend", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: A2")
 f.para("Am Mittwoch, dem 11. November, ist in Deutschland viel los: Um 11.11 Uhr beginnt in Köln die neue Karnevalssession. Auf dem Heumarkt und dem Alter Markt feiern die Jecken den Start der „fünften Jahreszeit“ — mit Musik, Kostümen und Konfetti. Der WDR überträgt ab 10.30 Uhr live.")
 f.para("Am Abend desselben Tages wird es stiller — und heller: Kinder ziehen mit selbst gebastelten Laternen durch die Straßen und singen Martinslieder. Es ist St. Martin. Vorneweg reitet oft ein Reiter als heiliger Martin, am Feuer wird die Mantelteilung gespielt. Danach gibt es Gebäck: den Weckmann.")
 f.para("Warum feiern die Menschen am 11. November gleich zwei Feste? Der Martinstag ist der Gedenktag des heiligen Martin von Tours. Der Karneval beginnt an diesem Tag, weil die Zahl Elf die Narrenzahl ist — 11.11 Uhr, am 11.11. So teilen sich ein alter Heiligentag und ein närrischer Start denselben Mittwoch.")
@@ -180,9 +181,9 @@ zapf = ["11.11 Uhr — die Karnevalssession in Köln beginnt.",
         "Am Abend — Laternenumzüge in ganz Deutschland."]
 sy3 = 200
 sh = 45 + 33 * len(zapf) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zapf)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "DER 11. NOVEMBER · 11 月 11 日", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER 11. NOVEMBER　11月11日", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in zapf:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -192,7 +193,7 @@ sav = ["Kein Feiertag: Schule und Arbeit laufen normal.",
        "Der Weckmann heißt anderswo Stutenkerl oder Martinsmann."]
 sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(sav) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in sav)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "WUSSTEN SIE DAS?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -202,9 +203,9 @@ print("P2 col3 box2 ends", sy3 + sh)
 ey3 = sy3 + sh + 26
 etvous = "Und Sie? Feiern Sie Karneval oder St. Martin? Was singen Kinder in Ihrem Land? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("你过狂欢节还是圣马丁节？写两句德语寄来。", "sans", False, 20, CW - 44)) - 1)
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "UND SIE? · 说说你自己", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "UND SIE?　说说你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "你过狂欢节还是圣马丁节？写两句德语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -214,9 +215,9 @@ zew = ["Martin von Tours — Soldat, Mönch, Bischof.",
        "Die Gans verriet der Legende nach sein Versteck."]
 sy3 = ey3 + eh + 26
 sh = 45 + 33 * len(zew) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zew)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "MARTIN IN KÜRZE · 圣马丁简讯", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "MARTIN IN KÜRZE　圣马丁简讯", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in zew:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -224,9 +225,9 @@ print("P2 col3 box4 ends", sy3 + sh)
 
 # ---- Rechnen wide box ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "RECHNEN WIR MAL · 算一算", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Die Uhrzeiten der Woche · 本周时刻", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "RECHNEN WIR MAL　算一算", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Die Uhrzeiten der Woche　本周时刻", 20, "sans", False, GREY, anchor="end")
 lx = MX
 ly = dy + 58
 for line in [
@@ -242,11 +243,11 @@ p.para(1090, ly - 108 + 22 + 4 * 29.1 + 10, "注意：11 月 11 日是工作日�
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · 第 2 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · WIE VIEL UHR?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　第2 版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8 版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P2-ex")
+e.head("A　WIE VIEL UHR?", 25)
 e.bridge("看第 2 版文章，用时间填空。")
 e.ex("A2", "完成句子", "11.11", "狂欢季 11 点 11 分开幕",
      "Die Karnevalssession beginnt um ___ Uhr.", instr="填空", size=20, gap=8)
@@ -258,7 +259,7 @@ e.ex("A2", "完成句子", "11. November", "圣马丁节 11 月 11 日",
      "St. Martin ist am ___.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "Mittwoch", "11 月 11 日是星期三",
      "Der 11. November 2026 ist ein ___.", instr="填空", size=20, gap=8)
-e.head("B · DAS PERFEKT", 25)
+e.head("B　DAS PERFEKT", 25)
 e.bridge("改成 Perfekt 现在完成时。")
 e.ex("A2", "句型转换", "Der Karneval hat in Köln begonnen.", "beginnen → begonnen",
      "Der Karneval (beginnen) in Köln. → ___", instr="改写", size=20, gap=8)
@@ -270,7 +271,7 @@ e.ex("B1", "句型转换", "Martin hat seinen Mantel geteilt.", "teilen → gete
      "Martin (teilen) seinen Mantel. → ___", instr="改写", size=20, gap=8)
 e.ex("B1", "句型转换", "Viele Familien haben Martinsgans gegessen.", "essen → gegessen",
      "Viele Familien (essen) Martinsgans. → ___", instr="改写", size=20, gap=8)
-e.head("C · LESEVERSTEHEN", 25)
+e.head("C　LESEVERSTEHEN", 25)
 e.bridge("读第 2 版文章，选出正确答案。")
 e.ex("A2", "单选", "B", "WDR 10 点半直播",
      "Wann überträgt der WDR? A. um 11.11 Uhr · B. ab 10.30 Uhr · C. um 15.30 Uhr", size=20, gap=8)
@@ -280,7 +281,7 @@ e.ex("A2", "单选", "A", "11 月 11 日不是法定假日",
      "Ist der 11. November ein Feiertag? A. Nein, Schule und Arbeit laufen normal. · B. Ja, alles ist geschlossen. · C. Nur in Köln.", size=20, gap=8)
 e.ex("A2", "单选", "B", "圣马丁鹅配红甘蓝和丸子",
      "Was isst man mit der Martinsgans? A. Pommes · B. Rotkohl und Klöße · C. Eis", size=20, gap=8)
-e.head("D · DIE WÖRTER", 25)
+e.head("D　DIE WÖRTER", 25)
 e.match_set("A2", "词汇配对",
             ["der Jeck", "die Laterne", "der Weckmann", "die Martinsgans"],
             ["das Licht aus Papier, das die Kinder am Abend tragen",
