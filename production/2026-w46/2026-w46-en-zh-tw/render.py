@@ -4,7 +4,7 @@ import os, glob
 from PIL import Image
 import cairosvg
 from pypdf import PdfWriter
-ED = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-zh-tw")
+ED = os.path.dirname(os.path.abspath(__file__))
 SVG = os.path.join(ED, "svg"); CARDS = os.path.join(ED, "cards")
 os.makedirs(CARDS, exist_ok=True)
 pages = sorted(glob.glob(os.path.join(SVG, "*.svg")))
@@ -19,6 +19,6 @@ for p in pages:
     tmp = p.replace(".svg", ".tmp.pdf")
     with open(tmp, "wb") as f: f.write(pdf_bytes)
     writer.append(tmp); os.remove(tmp)
-pp = os.path.join(ED, "The-Lucerna-VOL3.pdf")
+pp = os.path.join(ED, "The-Lucerna-VOL3-en-zh-tw.pdf")
 with open(pp, "wb") as f: writer.write(f)
 print("print PDF:", pp, os.path.getsize(pp))

@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-en-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EXERCISES & ANSWERS · Übungen & Antworten", "The Lucerna", "FINAL TEST · Abschlusstest · Answers at the bottom of this page · Die Antworten stehen am Ende dieser Seite")
+p.band("EXERCISES & ANSWERS　Übungen & Antworten", "The Lucerna", "FINAL TEST　Abschlusstest　Answers at the bottom of this page　Die Antworten stehen am Ende dieser Seite")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1485, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("B1", "A", "still = weiterhin"),
 ]
 cnums = [reg_ex(lv, "Lückentext", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · CLOZE · Lückentext", 24, gap=8)
+bf.head("A　CLOZE　Lückentext", 24, gap=8)
 bf.para(f"Maya is sixteen. On ({cnums[0]})___, November 11, she wears a red ({cnums[1]})___ to school. At eleven o'clock, the whole school stands in ({cnums[2]})___ for two minutes. « ({cnums[3]})___, eleven, eleven », says her teacher. On Friday, Maya bakes cakes for ({cnums[4]})___, the yellow bear. « When ({cnums[5]})___ we know the total ? » asks Maya. « On Friday night », says her mother. « On Sunday, Maya is ({cnums[6]})___ to watch the game from Munich — and the poppy will ({cnums[7]})___ be on her coat. »", 21.5)
 bf.bridge("Optionen:")
 for n, (lv, _k, _nt), opts in zip(cnums, cloze_defs, [
@@ -40,7 +40,7 @@ for n, (lv, _k, _nt), opts in zip(cnums, cloze_defs, [
     bf.para(f"{n}. [{lv}] {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B · MULTIPLE CHOICE · Auswahl", 24, gap=8)
+bf.head("B　MULTIPLE CHOICE　Auswahl", 24, gap=8)
 mcq = [
     ("A2", "B", "11 Uhr = eleven o'clock", "The silence begins at 11 a.m. In words : ... A. ten o'clock · B. eleven o'clock · C. twelve o'clock"),
     ("A2", "A", "we → wear (Grundform)", "On Wednesday, we ___ a poppy. A. wear · B. wears · C. wearing"),
@@ -56,7 +56,7 @@ for lv, k, nt, body in mcq:
     bf.ex(lv, "Multiple Choice", k, nt, body, size=20.5, gap=8)
 
 # ---- C. reading ----
-bf.head("C · READING · Leseverstehen", 24, gap=8)
+bf.head("C　READING　Leseverstehen", 24, gap=8)
 bf.para("On Wednesday morning, Tom, a teacher from Manchester, finished his breakfast and walked to school early. At eleven o'clock, the whole school stood still for two minutes. There was no sound in the hall. « We remember them », said Tom, quietly. In the afternoon, his class baked 26 cakes for Children in Need, and a poppy box stood by the door. On Friday night, Tom watched the appeal show with his family — and Pudsey was, as always, yellow and smiling.", 21.5)
 read_qs = [
     ("A2", "B", "Im Text: a teacher from Manchester", "Tom is... A. a nurse · B. a teacher · C. a driver"),
@@ -68,7 +68,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "Leseverstehen", k, nt, body, size=20.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D · SENTENCES · Sätze umformen", 24, gap=8)
+bf.head("D　SENTENCES　Sätze umformen", 24, gap=8)
 d_items = [
     ("A2", "On Friday, they will watch the appeal show.", "will + Grundform",
      "Will future : « On Friday, they (watch) the appeal show. » → ___"),
@@ -83,7 +83,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "Satzergänzung", k, nt, body, size=20.5, gap=8)
 
 # ---- E. translation ----
-bf.head("E · TRANSLATION · Übersetzung", 24, gap=8)
+bf.head("E　TRANSLATION　Übersetzung", 24, gap=8)
 e_items = [
     ("B2", "Geduld ist Teil des Systems, nicht ein Versagen des Systems.", "part of = ein Teil von; not a failure = kein Versagen",
      "Translate : « Patience is part of the system, not a failure of it. »"),
@@ -98,7 +98,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, "Übersetzung", k, nt, body, size=20.5, gap=8)
 
 # ---- F. matching ----
-bf.head("F · WORDS · Zuordnung", 24, gap=8)
+bf.head("F　WORDS　Zuordnung", 24, gap=8)
 bf.match_set("B1", "Zuordnung",
              ["a silence", "an armistice", "a runoff", "a miser"],
              ["the second vote, when no one wins a majority",
@@ -118,29 +118,29 @@ dlg_defs = [
     ("B1", "Sunday", "Das Spiel ist am Sonntag, 15. November"),
 ]
 gnums = [reg_ex(lv, "Dialogergänzung", k, nt) for lv, k, nt in dlg_defs]
-bf.head("G · DIALOGUE · Dialog", 24, gap=8)
+bf.head("G　DIALOGUE　Dialog", 24, gap=8)
 bf.para(f"— Good morning ! Is this the way to the Allianz Arena ? — Yes, welcome. May I see your ({gnums[0]})___ ? — Here it is. Is the ({gnums[1]})___ long ? — No, five minutes only. It is my first NFL game. What do I do with the ({gnums[2]})___ ? — Wear it with pride, and cheer for the Lions. — And the famous ({gnums[3]})___ ? — Two anthems, one game. Enjoy Munich. — I will ! See you on ({gnums[4]})___ ! — Have a good day.", 20.5)
 bf.para("Levels : 145–148 [A2] · 149 [B1]", 19.5, "sans", False, GREY, 1.32, 2)
 bf.end_report()
 
 # ---- writing strip ----
 wy = 1500
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "Schreiben", "Offene Aufgabe — Stichpunkte im Schreibkasten; Mustertext im Kasten auf Seite 8", "Bewertung nach Stichpunkten")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · WRITING · Schreiben [B1]", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　WRITING　Schreiben [B1]", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Write a short text (80 to 100 words) : « My Wednesday, November 11 ». Tell us : did you stand still at eleven, what did you wear, what did you watch on Friday — and one sentence about the game in Munich on Sunday. The best texts will appear in VOL.4 (page 7, « Readers' Corner »).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 190, "Schreibe auf Englisch (80–100 Wörter): « Mein Mittwoch, der 11. November ». Schreibe, ob du um 11 Uhr stillgestanden hast, was du getragen hast, was du am Freitag gesehen hast — und einen Satz über das Spiel in München am Sonntag.", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 276, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MODEL · Mustertext", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 276, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MODEL　Mustertext", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "On Wednesday, November 11, our school stopped for two minutes. At eleven o'clock, the hall went quiet, and I thought about the soldiers of the First World War. In the evening, we watched the news from London, and my mother wore her poppy at dinner. On Friday, we baked 26 cakes for Children in Need, and Pudsey smiled from the television. On Sunday, we watched the game from Munich. It was a week of silence, kindness and sport — and I slept well, because I had remembered.", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 312
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "ANSWERS · Alle Antworten mit Anmerkungen (Seiten 1–8)", 26, "sans", True, OLIVE)
-kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2530, tag="P8-keys")
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "ANSWERS　Alle Antworten mit Anmerkungen (Seiten 1–8)", 26, "sans", True, OLIVE)
+kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):
     kf.para(f"— Seite {pg} —", 16, "sans", True, OLIVE, 1.26, 3)
