@@ -33,7 +33,7 @@ Esta é a terceira edição da A Lucerna em português: toda semana, o Brasil de
 
 ### Os horários do domingo 15
 
-Enem, dia 15 · horário de Brasília: 12h os portões abrem · 13h os portões fecham · 13h30 a prova começa · 18h30 a prova termina. Chegue cedo: depois das 13h, ninguém mais entra. 迟到不得入内：13 点后关门。
+Enem, dia 15 · horário de Brasília: 12h os portões abrem · 13h os portões fecham · 13h30 a prova começa · 18h30 a prova termina. Chegue cedo: depois das 13h, ninguém mais entra. 迟到不得入内：13点后关门。
 
 ### Nesta edição
 
@@ -41,7 +41,7 @@ Pág. 2 Prova e feriado no domingo (A2) · Pág. 3 Proclamação: 137 anos (A2�
 
 ### A palavra da semana
 
-«proclamação»: o ato de anunciar uma mudança — em 1889, o fim da monarquia. proclamação = 宣布（共和国宣言）。
+«proclamação» o ato de anunciar uma mudança — em 1889, o fim da monarquia. proclamação = 宣布（共和国宣言）。
 
 ### Dois fins de semana
 
@@ -281,7 +281,7 @@ Quarta, 11: o dia das promoções abre a temporada de ofertas. Compare preços, 
 76. Os estudantes ___ (fazer) a prova no domingo. (farão)
 77. O cartão ___ (mostrar) o local da prova. (mostrará)
 78. Os finalistas ___ (sair) dos jogos de volta. (sairão)
-79. Quem ___ (chegar) cedo não perde a prova. (chegar)
+79. Quem ___ (chegar) cedo não perde a prova. (chegará)
 80. O Cartão de Confirmação mostra o local da prova. Verdadeiro ou falso? (Verdadeiro)
 81. A maratona na véspera é o melhor plano. Verdadeiro ou falso? (Falso)
 82. No domingo 15, a prova vai de 13h30 a 18h30. Verdadeiro ou falso? (Verdadeiro)
@@ -330,8 +330,8 @@ Dois domingos, uma prova: Dia 8 — redação, Linguagens, Humanas. Dia 8 — 13
 92. O Cartão de Confirmação mostra... A. a nota · B. o local da prova · C. o gabarito (B)
 93. No domingo, ___ (começar) a prova às 13h30. (começará)
 94. Quem ___ (chegar) depois das 13h não entra. (chegar)
-95. Os portões ___ (fechar) às 13h. (fecharão)
-96. O Inep ___ (pedir) que cada um confira o local. (pedirá)
+95. Os portões ___ (fechar) às 13h. (fecham)
+96. O Inep ___ (pedir) que cada um confira o local. (pede)
 97. Os ___ abrem às 12h. (portões)
 98. Não há ___ no Enem. (segunda chamada)
 99. Confira o ___ da sua prova. (local)
