@@ -5,7 +5,7 @@ import os, io, glob
 import cairosvg
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-en")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVGS = sorted(glob.glob(os.path.join(BASE, "svg", "*.svg")))
 assert len(SVGS) == 8, SVGS
 

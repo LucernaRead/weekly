@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · JONGEREN (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("JONGEREN · JEUNESSE", "De Lucerna", "NIVEAU B1 · Robinson, de schoen en het verlanglijstje · Robinson, la chaussure et la liste de souhaits")
+p.band("JONGEREN　JEUNESSE", "De Lucerna", "NIVEAU B1　Robinson, de schoen en het verlanglijstje　Robinson, la chaussure et la liste de souhaits")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-main")
-f.title("Robinson op zondag — en de schoen staat klaar", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.title("Robinson op zondag — en de schoen staat klaar", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B1")
 f.para("Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4. Negentien bekende Nederlanders en Vlamingen leven 34 dagen op een onbewoond eiland in Maleisië. Nicolette Kluijver en Edson da Graça presenteren het programma, Camille Vanuxem is de verslaggever.")
 f.para("De kandidaten slapen buiten en moeten alles zelf doen: vuur maken, eten zoeken, proeven winnen. Wie een proef verliest, kan naar huis worden gestemd. Wie het langst blijft, wint de expeditie. Het seizoen begon op zondag 1 november — en elke week wordt het spel harder.")
 f.para("Deze week is zondag 15 november een drukke dag: overdag de intocht in Amsterdam, 's avonds een nieuwe aflevering van Robinson. En na de intocht mag de schoen. Ook jongeren zetten hun schoen — met een verlanglijstje erin, in plaats van alleen een tekening.")
@@ -36,7 +36,7 @@ facts = ["Expeditie Robinson: 19 kandidaten; elke zondag 20:00 uur, RTL 4.",
          "Na de intocht (15 november) mag de schoen, met een wortel en een verlanglijstje."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 64
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "JONGEREN IN CIJFERS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -45,9 +45,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "En jij? Kijk jij zondag naar Expeditie Robinson, of zet je liever je schoen met een verlanglijstje? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Dimanche, regardes-tu Expeditie Robinson, ou préfères-tu poser ta chaussure avec une liste de souhaits ? Écris deux phrases en néerlandais et envoie-les.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "EN JIJ? · ET TOI ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "EN JIJ?　ET TOI ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Dimanche, regardes-tu Expeditie Robinson, ou préfères-tu poser ta chaussure avec une liste de souhaits ? Écris deux phrases en néerlandais et envoie-les.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -55,53 +55,53 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · EXERCICES PAGE 5", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · niveaux mélangés ; cherche ton numéro", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　EXERCICES PAGE 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　niveaux mélangés ; cherche ton numéro", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.bridge("Lis l'article page 5 et choisis la bonne réponse.")
-e.ex("B1", "单选", "B", "Robinson passe chaque dimanche à 20 h 00 sur RTL 4",
+e.ex("B1", "Choix unique", "B", "Robinson passe chaque dimanche à 20 h 00 sur RTL 4",
      "Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur", size=20, gap=8)
-e.ex("B1", "单选", "A", "19 candidats",
+e.ex("B1", "Choix unique", "A", "19 candidats",
      "Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88", size=20, gap=8)
-e.ex("B1", "单选", "C", "L'émission est tournée sur une île déserte en Malaisie",
+e.ex("B1", "Choix unique", "C", "L'émission est tournée sur une île déserte en Malaisie",
      "De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië", size=20, gap=8)
-e.ex("B1", "单选", "B", "Les candidats passent 34 jours sur l'île",
+e.ex("B1", "Choix unique", "B", "Les candidats passent 34 jours sur l'île",
      "De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88", size=20, gap=8)
-e.ex("B1", "单选", "A", "Une liste de souhaits va dans la chaussure",
+e.ex("B1", "Choix unique", "A", "Une liste de souhaits va dans la chaussure",
      "Jongeren zetten hun schoen met... A. een verlanglijstje · B. een boek · C. een lampion", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.bridge("Complète avec les mots de l'encadré.")
 e.para("verlanglijstje · verslaggever · proef · stemmen · aflevering · kandidaat", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("B1", "完成句子", "verlanglijstje", "verlanglijstje = liste de souhaits, mot en het",
+e.ex("B1", "Compléter les phrases", "verlanglijstje", "verlanglijstje = liste de souhaits, mot en het",
      "In mijn schoen zit een ___ met drie wensen.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "verslaggever", "verslaggever = reporter, mot en de",
+e.ex("B1", "Compléter les phrases", "verslaggever", "verslaggever = reporter, mot en de",
      "Camille Vanuxem is de ___ van het programma.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "proef", "proef = épreuve, mot en de",
+e.ex("B1", "Compléter les phrases", "proef", "proef = épreuve, mot en de",
      "Wie een ___ verliest, kan naar huis gaan.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "stemmen", "stemmen = voter",
+e.ex("B1", "Compléter les phrases", "stemmen", "stemmen = voter",
      "De kandidaten ___ wie naar huis moet.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "aflevering", "aflevering = épisode",
+e.ex("B1", "Compléter les phrases", "aflevering", "aflevering = épisode",
      "Zondag is er een nieuwe ___ van Robinson.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "kandidaten", "kandidaat, pluriel : kandidaten",
+e.ex("B1", "Compléter les phrases", "kandidaten", "kandidaat, pluriel : kandidaten",
      "Er zijn 19 ___ op het eiland.", instr="Compléter", size=20, gap=8)
-e.head("C · DE TOEKOMST MET GAAN", 25)
+e.head("C　DE TOEKOMST MET GAAN", 25)
 e.bridge("Parle du futur avec gaan + infinitif.")
-e.ex("B1", "完成句子", "gaat winnen", "gaat winnen = va gagner, simple supposition",
+e.ex("B1", "Compléter les phrases", "gaat winnen", "gaat winnen = va gagner, simple supposition",
      "Wie ___ (winnen) Expeditie Robinson, denk je?", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "gaan kijken", "wij → gaan + infinitif kijken",
+e.ex("B1", "Compléter les phrases", "gaan kijken", "wij → gaan + infinitif kijken",
      "Wij ___ (kijken) zondag naar de nieuwe aflevering.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "gaat zetten", "hij → gaat zetten",
+e.ex("B1", "Compléter les phrases", "gaat zetten", "hij → gaat zetten",
      "Hij ___ (zetten) zondagavond zijn schoen.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "gaan schrijven", "zij (pluriel) → gaan schrijven",
+e.ex("B1", "Compléter les phrases", "gaan schrijven", "zij (pluriel) → gaan schrijven",
      "De kinderen ___ (schrijven) een verlanglijstje.", instr="Compléter", size=20, gap=8)
-e.head("D · WAAR OF NIET WAAR?", 25)
-e.ex("B1", "判断对错", "Waar", "Vrai : l'émission a commencé le 1er novembre",
+e.head("D　WAAR OF NIET WAAR?", 25)
+e.ex("B1", "Vrai ou faux", "Waar", "Vrai : l'émission a commencé le 1er novembre",
      "Expeditie Robinson begon op 1 november. Waar of niet waar?", instr="Vrai ou faux", size=20, gap=8)
-e.ex("B1", "判断对错", "Niet waar", "Faux : l'émission est tournée en Malaisie",
+e.ex("B1", "Vrai ou faux", "Niet waar", "Faux : l'émission est tournée en Malaisie",
      "Expeditie Robinson speelt in Spanje. Waar of niet waar?", instr="Vrai ou faux", size=20, gap=8)
-e.ex("B2", "判断对错", "Niet waar", "Faux : la carotte dans la chaussure est pour le cheval",
+e.ex("B2", "Vrai ou faux", "Niet waar", "Faux : la carotte dans la chaussure est pour le cheval",
      "De wortel in de schoen is voor Sinterklaas. Waar of niet waar?", instr="Vrai ou faux", size=20, gap=8)
 e.end_report()
 p.foot(5)
@@ -111,11 +111,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · VERDIEPING (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("VERDIEPING · APPROFONDISSEMENT", "De Lucerna", "NIVEAU B2 · Sint-Maarten of Halloween? · Saint-Martin ou Halloween ?")
+p.band("VERDIEPING　APPROFONDISSEMENT", "De Lucerna", "NIVEAU B2　Sint-Maarten of Halloween?　Saint-Martin ou Halloween ?")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P6-main")
-f.title("Sint-Maarten of Halloween: moet je kiezen?", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B2")
+f.title("Sint-Maarten of Halloween: moet je kiezen?", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B2")
 f.para("Sint-Maarten is een oude traditie in Nederland. Kinderen lopen al meer dan honderd jaar met lampionnen langs de deuren. Halloween is nieuwer in Nederland — en het groeit: volgens onderzoeksbureau Motivaction vierde in 2025 26 procent van de Nederlanders Halloween, tegenover 21 procent een jaar eerder.")
 f.para("Maar let op de cijfers: de onderzoeken gebruiken verschillende definities en zijn daarom niet rechtstreeks vergelijkbaar. En een lege stoep betekent niet automatisch dat Sint-Maarten verdwijnt. In sommige plaatsen verplaatst de viering zich naar winkelcentra en georganiseerde optochten, waar kinderen samen langs deelnemende winkels lopen.")
 f.para("Deskundigen zien Sint-Maarten niet verdwijnen. Antropoloog Irene Stengs van het Meertens Instituut zei in 2025 dat de belangstelling voor Sint-Maarten is toegenomen. Traditiedeskundige Ineke Strouken ziet geen duidelijke landelijke achteruitgang. Het feest verandert, zeggen zij — het verdwijnt niet.")
@@ -137,13 +137,13 @@ rows = [
 cap = "OEFENDATA — verzonnen cijfers om mee te oefenen, geen echte enquête. Vraag: wat doe jij rond 11 november? (100 jongeren)"
 capcn = "Données fictives : chiffres inventés, pas une vraie enquête. Question : que fais-tu autour du 11 novembre ? (100 jeunes)"
 ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
-p.rect(ix, 200, CW, ch, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, ch, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DE GRAFIEK · DONNÉES FICTIVES", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DONNÉES FICTIVES", 24, "sans", True, OLIVE)
 yy3 += 58
 for lab, val, bw in rows:
     p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)
-    p.text(ix + CW - 22, yy3 + 20, val, 19.5, "sans", True, BRICK, anchor="end")
+    p.text(ix + CW - 22, yy3 + 20, val, 19.5, "sans", True, OLIVE, anchor="end")
     p.rect(ix + 22, yy3 + 30, bw, 18, fill=OLIVE)
     yy3 += 58
 yy3 += 14
@@ -157,9 +157,9 @@ bt = [
     ("De krant kiest niet: vier wat je viert. En zing op 11 november één liedje. En jij?", "serif", False, INK, 21, 1.4),
 ]
 bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
-p.rect(ix, by6, CW, bh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, by6, CW, bh, fill="#f0eee5")
 yy3 = by6 + 16
-p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN? · POUR OU CONTRE ?", 21, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　POUR OU CONTRE ?", 21, "sans", True, OLIVE)
 yy3 += 52
 for t, k, b, fl, s, lh in bt:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8
@@ -167,54 +167,54 @@ print("P6 col3 ends", by6 + bh)
 
 # ---- P6 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · EXERCICES PAGE 6", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · niveaux mélangés ; cherche ton numéro", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　EXERCICES PAGE 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　niveaux mélangés ; cherche ton numéro", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · LEES DE GRAFIEK", 25)
+e.head("A　LEES DE GRAFIEK", 25)
 e.bridge("Réponds avec le graphique page 6 (données fictives).")
-e.ex("B2", "完成句子", "40", "40 jeunes marchent avec une lanterne",
+e.ex("B2", "Compléter les phrases", "40", "40 jeunes marchent avec une lanterne",
      "___ van de 100 jongeren lopen met een lampion.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "25", "25 fêtent Halloween",
+e.ex("B2", "Compléter les phrases", "25", "25 fêtent Halloween",
      "___ jongeren vieren Halloween.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "60", "40 + 20 = 60",
+e.ex("B2", "Compléter les phrases", "60", "40 + 20 = 60",
      "Lampion lopen en allebei samen: ___ jongeren.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "15", "15 restent à la maison",
+e.ex("B2", "Compléter les phrases", "15", "15 restent à la maison",
      "___ jongeren blijven thuis.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "100", "Le graphique compte 100 personnes : 40+25+20+15",
+e.ex("B2", "Compléter les phrases", "100", "Le graphique compte 100 personnes : 40+25+20+15",
      "De grafiek telt in totaal ___ jongeren.", instr="Compléter", size=21.5, gap=9)
-e.head("B · BEGRIJPEN", 25)
+e.head("B　BEGRIJPEN", 25)
 e.bridge("Lis l'article page 6 et choisis la bonne réponse.")
-e.ex("B2", "单选", "B", "En 2025, 26 % des Néerlandais ont fêté Halloween",
+e.ex("B2", "Choix unique", "B", "En 2025, 26 % des Néerlandais ont fêté Halloween",
      "Volgens Motivaction vierde in 2025 ___ procent Halloween. A. 21 · B. 26 · C. 11", size=21.5, gap=9)
-e.ex("B2", "单选", "B", "Les deux enquêtes utilisent des définitions différentes, on ne peut pas les comparer directement",
+e.ex("B2", "Choix unique", "B", "Les deux enquêtes utilisent des définitions différentes, on ne peut pas les comparer directement",
      "De onderzoeken zijn... A. precies hetzelfde · B. niet rechtstreeks vergelijkbaar · C. allebei fout", size=21.5, gap=9)
-e.ex("B2", "单选", "C", "L'intérêt pour la Saint-Martin a augmenté, selon Stengs 2025",
+e.ex("B2", "Choix unique", "C", "L'intérêt pour la Saint-Martin a augmenté, selon Stengs 2025",
      "Irene Stengs zei in 2025 dat de belangstelling voor Sint-Maarten... A. verdween · B. gelijk bleef · C. is toegenomen", size=21.5, gap=9)
-e.ex("B2", "单选", "A", "Halloween, c'est faire peur ; la Saint-Martin, c'est partager",
+e.ex("B2", "Choix unique", "A", "Halloween, c'est faire peur ; la Saint-Martin, c'est partager",
      "Halloween draait om griezelen; Sint-Maarten draait om... A. delen · B. voetbal · C. boeken", size=21.5, gap=9)
-e.ex("B2", "单选", "B", "Une tradition vit quand les gens continuent de la fêter",
+e.ex("B2", "Choix unique", "B", "Une tradition vit quand les gens continuent de la fêter",
      "Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is", size=21.5, gap=9)
-e.head("C · WOORDEN", 25)
+e.head("C　WOORDEN", 25)
 e.bridge("Complète avec les mots de l'encadré.")
 e.para("traditie · griezelen · belangstelling · achteruitgang", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("B2", "完成句子", "traditie", "traditie = tradition, mot en de",
+e.ex("B2", "Compléter les phrases", "traditie", "traditie = tradition, mot en de",
      "Sint-Maarten is een oude ___.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "griezelen", "griezelen = faire peur",
+e.ex("B2", "Compléter les phrases", "griezelen", "griezelen = faire peur",
      "Met Halloween gaan kinderen ___ en zich verkleden.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "belangstelling", "belangstelling = intérêt, mot en de",
+e.ex("B2", "Compléter les phrases", "belangstelling", "belangstelling = intérêt, mot en de",
      "De ___ voor Sint-Maarten is toegenomen.", instr="Compléter", size=21.5, gap=9)
-e.ex("B2", "完成句子", "achteruitgang", "achteruitgang = déclin, mot en de",
+e.ex("B2", "Compléter les phrases", "achteruitgang", "achteruitgang = déclin, mot en de",
      "Strouken ziet geen duidelijke landelijke ___.", instr="Compléter", size=21.5, gap=9)
-e.head("D · MAAK DE ZINNEN", 25)
+e.head("D　MAAK DE ZINNEN", 25)
 e.bridge("Mets les mots dans le bon ordre pour faire des phrases.")
-e.ex("B2", "造句", "Sint-Maarten is een oude traditie in Nederland.", "Sujet + verbe + attribut + lieu",
+e.ex("B2", "Faire des phrases", "Sint-Maarten is een oude traditie in Nederland.", "Sujet + verbe + attribut + lieu",
      "sint-maarten / is / een oude traditie / in nederland → ___", instr="Former la phrase", size=21.5, gap=9)
-e.ex("B2", "造句", "De kinderen lopen met lampionnen langs de deuren.", "Sujet + verbe + manière + lieu",
+e.ex("B2", "Faire des phrases", "De kinderen lopen met lampionnen langs de deuren.", "Sujet + verbe + manière + lieu",
      "de kinderen / lopen / met lampionnen / langs de deuren → ___", instr="Former la phrase", size=21.5, gap=9)
-e.ex("B2", "造句", "Een traditie leeft als mensen haar blijven vieren.", "La proposition en als vient en dernier",
+e.ex("B2", "Faire des phrases", "Een traditie leeft als mensen haar blijven vieren.", "La proposition en als vient en dernier",
      "een traditie / leeft / als mensen haar blijven vieren → ___", instr="Former la phrase", size=21.5, gap=9)
-e.ex("B2", "造句", "Kiezen hoeft niet: het zijn twee feesten.", "kiezen + hoeft niet + explication",
+e.ex("B2", "Faire des phrases", "Kiezen hoeft niet: het zijn twee feesten.", "kiezen + hoeft niet + explication",
      "kiezen / hoeft niet / het zijn twee feesten → ___", instr="Former la phrase", size=21.5, gap=9)
 e.end_report()
 p.foot(6)

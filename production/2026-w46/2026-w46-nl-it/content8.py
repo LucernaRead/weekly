@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-it/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · TOETS EN ANTWOORDEN =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("TOETS EN ANTWOORDEN · TEST E RISPOSTE", "De Lucerna", "Pagina 8 · De grote toets van de week + alle antwoorden")
+p.band("TOETS EN ANTWOORDEN　TEST E RISPOSTE", "De Lucerna", "Pagina 8　De grote toets van de week + alle antwoorden")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · VUL DE KRONIEK IN", 21, OLIVE, 5)
+f.head("A　VUL DE KRONIEK IN", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "B", "Il notiziario di Sinterklaas inizia il 9 novembre",
      "Het Sinterklaasjournaal begint op 9 ___. (A. oktober · B. november)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "L'arrivo nazionale è a Grave",
@@ -29,7 +29,7 @@ f.ex("B1", "Cloze", "B", "San Martino è la festa della condivisione",
      "Sint-Maarten is het feest van het ___. (A. griezelen · B. delen)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "schoen zetten = mettere fuori la scarpa",
      "«De schoen zetten» betekent ___. (A. schoenen kopen · B. je schoen neerzetten)", size=13.8, gap=0)
-f.head("B · ALGEMENE VRAGEN", 21, OLIVE, 5)
+f.head("B　ALGEMENE VRAGEN", 21, OLIVE, 5)
 f.ex("A2", "Scelta multipla", "A", "Il notiziario di Sinterklaas va in onda ogni giorno alle 18:00",
      "Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur", size=13.8, gap=0)
 f.ex("A2", "Scelta multipla", "B", "Grave si trova sul fiume Mosa",
@@ -46,7 +46,7 @@ f.ex("B2", "Scelta multipla", "B", "Una tradizione vive quando la gente continua
      "Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is", size=13.8, gap=0)
 f.ex("B1", "Scelta multipla", "C", "Pakjesavond cade sabato 5 dicembre",
      "Pakjesavond is op... A. 11 november · B. 14 november · C. 5 december", size=13.8, gap=0)
-f.head("C · LEES EN ANTWOORD", 21, OLIVE, 5)
+f.head("C　LEES EN ANTWOORD", 21, OLIVE, 5)
 f.para("Sanne woont in Utrecht. Op woensdag 11 november loopt zij met een lampion mee in de Sint Maarten Parade en zingt zij bij elke deur. Elke dag kijkt zij om 18:00 uur naar het Sinterklaasjournaal. Zaterdag kijkt zij op televisie naar de intocht in Grave. Zondag zet zij haar schoen met een wortel en een verlanglijstje. Vrijdag kijkt zij naar Oranje tegen Griekenland.", 15, lh=1.3, split=False)
 f.ex("A2", "Scelta multipla", "B", "Sanne vive a Utrecht",
      "Waar woont Sanne? A. in Grave · B. in Utrecht · C. in Amsterdam", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Scelta multipla", "B", "Mette una carota e una lista dei desideri ne
      "Wat zit er in de schoen van Sanne? A. een boek · B. een wortel en een verlanglijstje · C. een lampion", size=13.8, gap=0)
 f.ex("B1", "Scelta multipla", "B", "Guarda il notiziario di Sinterklaas ogni giorno alle 18:00",
      "Wanneer kijkt Sanne naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur", size=13.8, gap=0)
-f.head("D · MAAK DE ZINNEN", 21, OLIVE, 5)
+f.head("D　MAAK DE ZINNEN", 21, OLIVE, 5)
 f.ex("A2", "Forma la frase", "Het Sinterklaasjournaal begint op maandag.", "Soggetto + verbo + tempo",
      "het sinterklaasjournaal / begint / op maandag → ___", instr="Forma la frase", size=13.8, gap=0)
 f.ex("B1", "Forma la frase", "Wij zetten onze schoen bij de deur.", "Soggetto + verbo + complemento + luogo",
@@ -65,7 +65,7 @@ f.ex("B1", "Forma la frase", "Oranje speelt vrijdag tegen Griekenland.", "Sogget
      "oranje / speelt / vrijdag / tegen griekenland → ___", instr="Forma la frase", size=13.8, gap=0)
 f.ex("B1", "Forma la frase", "Ik loop met een lampion langs de deuren.", "Soggetto + verbo + modo + luogo",
      "ik / loop / met een lampion / langs de deuren → ___", instr="Forma la frase", size=13.8, gap=0)
-f.head("E · VERTAAL", 21, OLIVE, 5)
+f.head("E　VERTAAL", 21, OLIVE, 5)
 f.ex("A2", "Traduzione", "Il notiziario di Sinterklaas va in onda ogni giorno alle 18:00.", "Confronta con l'articolo di pagina 3",
      "Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___", instr="Traduci in italiano", size=13.8, gap=0)
 f.ex("B1", "Traduzione", "San Martino è la festa della condivisione.", "Frase originale da pagina 2 · delen = condividere",
@@ -74,7 +74,7 @@ f.ex("B1", "Traduzione", "De intocht in Amsterdam is de 88e editie.", "Attenzion
      "L'arrivo ad Amsterdam è l'88ª edizione. → ___", instr="Traduci in olandese", size=13.8, gap=0)
 f.ex("B2", "Traduzione", "Ik zet mijn schoen met een verlanglijstje.", "schoen zetten è un'espressione fissa",
      "Metto fuori la scarpa, con una lista dei desideri dentro. → ___", instr="Traduci in olandese", size=13.8, gap=0)
-f.head("F · WOORDEN VAN DE WEEK", 21, OLIVE, 5)
+f.head("F　WOORDEN VAN DE WEEK", 21, OLIVE, 5)
 f.match_set("B2", "Abbinamento",
             ["het journaal", "de intocht", "de lampion", "delen"],
             ["een papieren lichtje voor 11 november",
@@ -83,8 +83,8 @@ f.match_set("B2", "Abbinamento",
              "de feestelijke aankomst van Sinterklaas"],
             ["b", "d", "a", "c"],
             ["journaal = notiziario b", "intocht = arrivo festoso d", "lampion = lanterna a", "delen = condividere c"],
-            instr="Abbina la parola al significato")
-f.head("G · DIALOOG BIJ DE SCHOEN", 21, OLIVE, 5)
+            instr="Parola e significato")
+f.head("G　DIALOOG BIJ DE SCHOEN", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "A", "schoen = scarpa",
      "— Mama, waar moet mijn ___? (A. schoen · B. boek)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "A", "wortel = carota (per il cavallo)",
@@ -95,7 +95,7 @@ f.ex("B1", "Cloze", "B", "cadeautje = regalino",
      "— Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "A", "18:00 = l'ora del notiziario di Sinterklaas",
      "— Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45)", size=13.8, gap=0)
-f.head("H · SCHRIJF ZELF", 21, OLIVE, 5)
+f.head("H　SCHRIJF ZELF", 21, OLIVE, 5)
 MODELO = ("Maandag 9 november begint het Sinterklaasjournaal. "
           "Ik kijk elke dag om 18:00 uur naar NPO Zapp. "
           "Op woensdag 11 november loop ik met een lampion langs de deuren en zing ik een liedje. "
@@ -115,13 +115,13 @@ f.para("Tekstmodel: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= ANTWOORDEN =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "ANTWOORDEN · CHIAVE DELLE RISPOSTE — raggruppate per pagina: trova il tuo numero", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Ogni risposta con una breve nota in italiano · ✓ segna il compito di scrittura", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "ANTWOORDEN　CHIAVE DELLE RISPOSTE — raggruppate per pagina: trova il tuo numero", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Ogni risposta con una breve nota in italiano　✓ segna il compito di scrittura", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 13.5, "sans", True, OLIVE, lh=1.17, gap=1.5, split=False)
     for e_ in by_page[pg]:

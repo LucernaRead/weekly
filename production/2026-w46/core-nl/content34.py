@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-nl-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTUUR (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Sinterklaasjournaal en Het diner · 圣诞老人新闻与《晚餐》")
+p.band("CULTUUR　文化", "De Lucerna", "NIVEAU A2 → B1　Sinterklaasjournaal en Het diner　圣诞老人新闻与《晚餐》")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P3-feature")
-f.title("Het Sinterklaasjournaal begint: aftellen naar Grave", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2 → B1")
+f.title("Het Sinterklaasjournaal begint: aftellen naar Grave", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2 → B1")
 f.para("Op maandag 9 november begint het Sinterklaasjournaal op NPO Zapp. Elke dag om 18:00 uur vertelt presentatrice Merel Westrik hoe de voorbereidingen gaan. Aan het einde van vorig jaar gooide Sinterklaas een fles in zee met een aanwijzing — de flessenpost werd gevonden en leidde naar Grave.")
 f.para("Op zaterdag 14 november komt Sinterklaas officieel aan in Grave. Rond 12:00 uur meert de stoomboot aan bij de Maaskade, aan de Maas. Burgemeester Marieke Moorman ontvangt Sinterklaas. Het programma in Grave duurt van 12:00 tot 16:00 uur en is live te zien op NPO Zapp (NPO 3), vanaf 12:00 uur.")
 f.para("Een dag later vaart Sinterklaas in Amsterdam: de boot vertrekt om 10:15 uur bij De Omval en vaart over de Amstel naar het Scheepvaartmuseum, waar hij rond 11:30 uur aankomt. Daar krijgt hij de sleutel van de stad van burgemeester Halsema en de kinderburgemeester. Om 13:00 uur begint de stoet te paard bij de Stopera, via het Rembrandtplein en de Utrechtsestraat naar het Leidseplein.")
@@ -35,7 +35,7 @@ facts = ["Sinterklaasjournaal: vanaf maandag 9 november, elke dag 18:00 uur, NPO
          "Heel Nederland Leest: Het diner, gratis in de bibliotheek, heel november."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 64
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "SINTERKLAAS IN CIJFERS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -45,11 +45,11 @@ print("P3 col3 ends", sy3 + sh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 第 3 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　第3版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.bridge("读第 3 版文章，选出正确答案。")
 e.ex("A2", "单选", "B", "圣诞老人新闻每天 18:00 播出",
      "Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:45 uur", size=20, gap=8)
@@ -61,7 +61,7 @@ e.ex("A2", "单选", "A", "《晚餐》作者是赫尔曼·科赫",
      "Heel Nederland Leest leest dit jaar... A. Het diner van Herman Koch · B. een boek van Merel Westrik · C. een boek over Grave", size=20, gap=8)
 e.ex("A2", "单选", "B", "《晚餐》在图书馆免费领取",
      "Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.bridge("用方框里的词填空。")
 e.para("journaal · burgemeester · stoet · leeskring · flessenpost", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "完成句子", "journaal", "journaal = 新闻节目",
@@ -74,7 +74,7 @@ e.ex("B1", "完成句子", "flessenpost", "flessenpost = 瓶中信",
      "De ___ leidde naar Grave.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "leeskring", "leeskring = 读书会",
      "In de bibliotheek is er een ___ over Het diner.", instr="填空", size=20, gap=8)
-e.head("C · HET PERFECTUM", 25)
+e.head("C　HET PERFECTUM", 25)
 e.bridge("用现在完成时补全，注意助动词 hebben/zijn。")
 e.ex("B1", "完成句子", "is begonnen", "beginnen 用 zijn：is begonnen",
      "Het Sinterklaasjournaal ___ (beginnen) op 9 november.", instr="填空", size=20, gap=8)
@@ -84,7 +84,7 @@ e.ex("B1", "完成句子", "is aangekomen", "aankomen 用 zijn：is aangekomen",
      "Sinterklaas ___ (aankomen) in Grave.", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "hebben gelezen", "lezen 的 perfectum：hebben gelezen",
      "Veel mensen ___ (lezen) Het diner in november.", instr="填空", size=20, gap=8)
-e.head("D · REKENEN", 25)
+e.head("D　REKENEN", 25)
 e.bridge("算一算：用第 3 版的数字回答。")
 e.ex("B1", "完成句子", "5", "11 月 9 日到 14 日相隔 5 天",
      "Van 9 tot 14 november: ___ dagen.", instr="填空", size=20, gap=8)
@@ -102,11 +102,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · 体育", "De Lucerna", "NIVEAU B1 · Oranje en de Nations League · 橙衣军团与国家联赛")
+p.band("SPORT　体育", "De Lucerna", "NIVEAU B1　Oranje en de Nations League　橙衣军团与国家联赛")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P4-feature")
-f.title("Oranje: twee wedstrijden, één doel", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.title("Oranje: twee wedstrijden, één doel", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B1")
 f.para("Op vrijdag 13 november speelt Oranje thuis tegen Griekenland. De wedstrijd begint om 20:45 uur in de Johan Cruijff ArenA in Amsterdam. Het is de vijfde wedstrijd in de groepsfase van de Nations League — en een beslissende: de nummers één en twee van de groep gaan naar de kwartfinales in maart 2027.")
 f.para("Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. Oranje is nog ongeslagen: 1–1 thuis tegen Duitsland, 2–1 uit bij Servië, 2–2 uit bij Griekenland en 2–1 thuis tegen Servië.")
 f.para("Drie dagen later, op maandag 16 november, speelt Oranje uit tegen Duitsland in Berlijn, ook om 20:45 uur. De spelers melden zich op maandag 9 november in Zeist. Daarna is er geen interland meer tot maart: dan zijn de kwartfinales.")
@@ -127,7 +127,7 @@ facts = ["Vrijdag 13 november, 20:45 uur: Nederland – Griekenland, Johan Cruij
          "Speelronde 11: PSV – Willem II 7–0; Ajax – AZ 1–0; Feyenoord – Fortuna 1–1; Cambuur – Go Ahead Eagles 4–0."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "HET PROGRAMMA", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -137,11 +137,11 @@ print("P4 col3 ends", sy3 + sh)
 
 # ---- P4 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 第 4 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　第4版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.bridge("读第 4 版文章，选出正确答案。")
 e.ex("B1", "单选", "B", "荷兰–希腊周五 20:45 在阿姆斯特丹",
      "Nederland – Griekenland is op... A. maandag 16 november · B. vrijdag 13 november · C. zaterdag 14 november", size=20, gap=8)
@@ -153,7 +153,7 @@ e.ex("B1", "单选", "B", "德国–荷兰周一在柏林",
      "Duitsland – Nederland is op maandag in... A. Amsterdam · B. Berlijn · C. Zeist", size=20, gap=8)
 e.ex("B1", "单选", "B", "荷甲第 13 轮在 11 月 21–22 日",
      "Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.bridge("用方框里的词填空。注意动词形式。")
 e.para("groepsfase · kwartfinale · ongeslagen · interland · stand", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "完成句子", "groepsfase", "groepsfase = 小组赛阶段",
@@ -166,7 +166,7 @@ e.ex("B1", "完成句子", "stand", "stand = 积分榜",
      "Op de ___ staat Servië onderaan met 0 punten.", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "interland", "interland = 国家队比赛",
      "Na deze week is er geen ___ meer tot maart.", instr="填空", size=20, gap=8)
-e.head("C · VERLEDEN TIJD", 25)
+e.head("C　VERLEDEN TIJD", 25)
 e.bridge("用过去时或完成时补全。")
 e.ex("B1", "完成句子", "speelde", "spelen 过去时：speelde",
      "Oranje ___ (spelen) 1–1 tegen Duitsland.", instr="填空", size=20, gap=8)
@@ -176,7 +176,7 @@ e.ex("B1", "完成句子", "maakte", "maken 过去时：maakte",
      "Nederland ___ (maken) 7 doelpunten in vier wedstrijden.", instr="填空", size=20, gap=8)
 e.ex("B2", "完成句子", "zijn gekomen", "komen 的 perfectum 用 zijn",
      "De spelers ___ (komen) maandag in Zeist bij elkaar.", instr="填空", size=20, gap=8)
-e.head("D · WAAR OF NIET WAAR?", 25)
+e.head("D　WAAR OF NIET WAAR?", 25)
 e.ex("B1", "判断对错", "Waar", "对：荷兰–希腊周五 20:45",
      "Nederland – Griekenland begint vrijdag om 20:45 uur. Waar of niet waar?", instr="判断", size=20, gap=8)
 e.ex("B1", "判断对错", "Niet waar", "错：塞尔维亚 0 分垫底",
