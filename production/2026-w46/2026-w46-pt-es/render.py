@@ -6,7 +6,7 @@ import os, io, glob
 import cairosvg
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-es")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVGS = sorted(glob.glob(os.path.join(BASE, "svg", "*.svg")))
 assert len(SVGS) == 8, SVGS
 
@@ -25,7 +25,7 @@ for s in SVGS:
     reader = PdfReader(io.BytesIO(data))
     for pg in reader.pages:
         writer.add_page(pg)
-print_pdf = os.path.join(BASE, "Lucerna-VOL3-ES.pdf")
+print_pdf = os.path.join(BASE, "A-Lucerna-VOL3-pt-es.pdf")
 with open(print_pdf, "wb") as fh:
     writer.write(fh)
 print("print PDF:", print_pdf, os.path.getsize(print_pdf))

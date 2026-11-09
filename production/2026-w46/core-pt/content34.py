@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURA (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURA · 文化", "A Lucerna", "A2 → B1 · Proclamação da República: 137 anos · 共和国宣言 137 周年")
+p.band("CULTURA　文化", "A Lucerna", "A2 → B1　Proclamação da República: 137 anos　共和国宣言137周年")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("Proclamação da República: 137 anos de Brasil", 37)
-f.byline("Da redação da A Lucerna · Nível de leitura: A2 → B1")
+f.title("Proclamação da República: 137 anos de Brasil", 32)
+f.byline("Da redação da A Lucerna　Nível de leitura: A2 → B1")
 f.para("Em 15 de novembro de 1889, tropas comandadas pelo marechal Deodoro da Fonseca tomaram o governo no Rio de Janeiro, então a capital do país. A monarquia acabou: o imperador Dom Pedro II foi deposto e partiu para o exílio. Deodoro assumiu o governo provisório e se tornou o primeiro presidente do Brasil.")
 f.para("A data virou feriado nacional: a Proclamação da República está na lista da Lei nº 662, de 1949, ao lado do 1º de janeiro, do 1º de maio e do 7 de setembro. É um feriado para todo o país — nenhuma cidade pode transformá-lo em dia útil.")
 f.para("O que muda em 137 anos? A República é a forma do Estado: o presidente é eleito, o poder tem prazo, e as leis valem para todos. Para quem aprende português, a data traz palavras úteis: república, presidente, eleição, voto, constituição.")
@@ -32,7 +32,7 @@ semana = ["Seg 9 — começa a semana do segundo dia do Enem.",
           "Dom 15 — Enem, dia 2; feriado da Proclamação da República."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in semana) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "A SEMANA, DIA A DIA", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -41,16 +41,16 @@ for t in semana:
 ey3 = sy3 + sh + 26
 etvous = "E você? No seu país, há um feriado que lembra o começo da república? Escreva duas frases em português e mande para a redação."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("在你的国家，有纪念共和国建立的假日吗？写两句寄来。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E VOCÊ? · 说说你自己", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E VOCÊ?　说说你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "在你的国家，有纪念共和国建立的假日吗？写两句寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
 ky3 = ey3 + eh + 26
 kb = "a república · o presidente · a eleição · o voto · a constituição · «proclamar» — seis palavras para um feriado de 137 anos."
 kh = 62 + len(wrap(kb, "serif", False, 21.5, CW - 44)) * 30.5 + 16
-p.rect(ix, ky3, CW, kh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ky3, CW, kh, fill=BOX)
 yy3 = ky3 + 16
 p.text(ix + 22, yy3 + 26, "PALAVRAS DA REPÚBLICA", 22, "sans", True, OLIVE)
 yy3 += 52
@@ -59,11 +59,11 @@ print("P3 col3 ends", ky3 + kh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCÍCIOS · 第 3 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCÍCIOS　第3版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 25)
 e.bridge("读第 3 版文章，选出正确答案。")
 e.ex("A2", "单选", "B", "共和国宣言在 1889 年 11 月 15 日",
      "A Proclamação da República foi... A. em 1949 · B. em 15 de novembro de 1889 · C. em 1822", size=20, gap=8)
@@ -75,7 +75,7 @@ e.ex("A2", "单选", "C", "2026 年假日落在周日",
      "Em 2026, o feriado cai... A. na segunda · B. na sexta · C. num domingo", size=20, gap=8)
 e.ex("B1", "单选", "A", "共和国里总统由选举产生、任期有限",
      "Na República, o presidente... A. é eleito e o poder tem prazo · B. governa para sempre · C. é escolhido pelo imperador", size=20, gap=8)
-e.head("B · AS PALAVRAS DO TEXTO", 25)
+e.head("B　AS PALAVRAS DO TEXTO", 25)
 e.bridge("用方框里的词填空。")
 e.para("monarquia · república · marechal · exílio · governo · lei", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "完成句子", "monarquia", "monarquia = 君主制",
@@ -90,7 +90,7 @@ e.ex("A2", "完成句子", "governo", "governo = 政府",
      "Deodoro assumiu o ___ provisório.", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "lei", "lei = 法律",
      "A data está na lista da ___ nº 662.", instr="填空", size=20, gap=8)
-e.head("C · O PRETÉRITO PERFEITO", 25)
+e.head("C　O PRETÉRITO PERFEITO", 25)
 e.bridge("用过去时（pretérito perfeito）补全。")
 e.ex("B1", "完成句子", "tomaram", "tomar 过去时 elas 形式：tomaram",
      "As tropas ___ (tomar) o governo.", instr="填空", size=20, gap=8)
@@ -100,7 +100,7 @@ e.ex("B1", "完成句子", "foi", "ser 过去时 ele 形式：foi",
      "Dom Pedro II ___ (ser) deposto.", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "assumiu", "assumir 过去时 ele 形式：assumiu",
      "Deodoro ___ (assumir) o governo.", instr="填空", size=20, gap=8)
-e.head("D · CONSTRUA AS FRASES", 25)
+e.head("D　CONSTRUA AS FRASES", 25)
 e.bridge("把词组成正确的句子。")
 e.ex("B1", "造句", "A Proclamação da República é um feriado nacional.", "主语 + é + 表语",
      "a proclamação / é / um feriado nacional → ___", instr="造句", size=20, gap=8)
@@ -116,11 +116,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · ESPORTE (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("ESPORTE · 体育", "A Lucerna", "NÍVEL B1 · O futebol da semana · 足球之周")
+p.band("ESPORTE　体育", "A Lucerna", "NÍVEL B1　O futebol da semana　足球之周")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("As voltas decidem os finalistas da Copa", 37)
-f.byline("Da redação da A Lucerna · Nível de leitura: B1")
+f.title("As voltas decidem os finalistas da Copa", 32)
+f.byline("Da redação da A Lucerna　Nível de leitura: B1")
 f.para("A pergunta da semana é a mesma da semana passada — agora com respostas na ida: quem vai à final da Copa do Brasil? No domingo, 1º de novembro, o Grêmio venceu o Atlético-MG por 2 a 0, na Arena do Grêmio, com gols de Carlos Vinícius e Noriega. No mesmo dia, o Palmeiras venceu o Vasco por 1 a 0, no Nubank Parque, com gol de Maurício.")
 f.para("A volta é neste fim de semana: no sábado, 7, às 18h, o Atlético-MG recebe o Grêmio na Arena MRV. O Atlético precisa vencer por três gols para passar direto; uma vitória por dois gols leva a decisão para os pênaltis. No domingo, 8, às 17h, o Vasco recebe o Palmeiras em São Januário: o Palmeiras passa com um empate; o Vasco precisa vencer por dois gols.")
 f.para("A final é em jogo único, no dia 6 de dezembro, no Mané Garrincha, em Brasília. Até lá, o Brasileirão faz uma pausa: a rodada 35 só tem um jogo nesta semana — sábado, 14, às 18h30, Mirassol × Atlético-MG. Os outros nove jogos são nos dias 18 e 19, depois da Data Fifa.")
@@ -130,15 +130,15 @@ f.end_report()
 
 # col 3: data box + e você (sequential)
 bx = COLX[3]
-p.rect(bx, 200, CW, 376, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 376, fill=BOX)
 p.text(bx + 22, 240, "OS JOGOS DA SEMANA", 23, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Ida, dom 1º — Grêmio 2 × 0 Atlético-MG; Palmeiras 1 × 0 Vasco. Volta, sáb 7, 18h — Atlético-MG × Grêmio, Arena MRV. Volta, dom 8, 17h — Vasco × Palmeiras, São Januário. Final — 6 de dezembro, Mané Garrincha, Brasília.", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 602
 etvous = "E você? Para quem você torce na Copa do Brasil — e quem chega à final? Escreva duas frases em português e mande para a redação."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你在巴西杯支持哪支球队？谁能进决赛？写两句寄来。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "E VOCÊ? · 说说你自己", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "E VOCÊ?　说说你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "你在巴西杯支持哪支球队？谁能进决赛？写两句寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -146,7 +146,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "A SEMANA DO FUTEBOL · 足球周历", 26, "sans", True, OLIVE)
+p.text(MX, ty, "A SEMANA DO FUTEBOL　足球周历", 26, "sans", True, OLIVE)
 rows = [
     ("Dom 1º.11", "Copa do Brasil", "Grêmio 2 × 0 Atlético-MG — jogo de ida, Arena do Grêmio"),
     ("Dom 1º.11", "Copa do Brasil", "Palmeiras 1 × 0 Vasco — jogo de ida, Nubank Parque"),
@@ -158,7 +158,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -167,11 +167,11 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EXERCÍCIOS · 第 4 版练习", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案见第 8 版 · 题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EXERCÍCIOS　第4版练习", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 25)
 e.bridge("读第 4 版文章，选出正确答案。")
 e.ex("B1", "单选", "A", "首回合格雷米奥 2 比 0 战胜米内罗竞技",
      "Na ida, Grêmio × Atlético-MG foi... A. 2 a 0 para o Grêmio · B. 1 a 0 para o Atlético · C. 0 a 0", size=20, gap=8)
@@ -183,7 +183,7 @@ e.ex("B1", "单选", "B", "决赛 12 月 6 日单场，在马内·加林查",
      "A final da Copa do Brasil é... A. em dois jogos · B. em jogo único, no dia 6 de dezembro · C. no dia 15", size=20, gap=8)
 e.ex("B1", "单选", "A", "第 35 轮本周只有一场：米拉索尔 × 米内罗竞技",
      "Na rodada 35, nesta semana... A. só há um jogo: Mirassol × Atlético-MG · B. há dez jogos · C. não há jogos", size=20, gap=8)
-e.head("B · AS PALAVRAS", 25)
+e.head("B　AS PALAVRAS", 25)
 e.match_set("B1", "词汇配对",
             ["o gol", "a ida", "a volta", "o pênalti"],
             ["o segundo jogo de um confronto",
@@ -193,7 +193,7 @@ e.match_set("B1", "词汇配对",
             ["b", "d", "a", "c"],
             ["gol=射入球网的得分 b", "ida=对决的第一场 d", "volta=对决的第二场 a", "pênalti=十一米点的罚球 c"],
             instr="把词和释义配对")
-e.head("C · COMPARATIVOS", 25)
+e.head("C　COMPARATIVOS", 25)
 e.bridge("用括号里正确的比较形式填空。")
 e.ex("B1", "完成句子", "mais", "2 > 0：mais",
      "Dois gols são ___ do que zero gols. (mais / menos)", instr="填空", size=20, gap=8)
@@ -203,7 +203,7 @@ e.ex("B1", "完成句子", "mais", "17 < 18：mais cedo",
      "17h é ___ cedo do que 18h. (mais / menos)", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "menos", "5 小时 < 5.5 小时：menos",
      "Cinco horas são ___ do que cinco horas e meia. (mais / menos)", instr="填空", size=20, gap=8)
-e.head("D · O PRETÉRITO PERFEITO", 25)
+e.head("D　O PRETÉRITO PERFEITO", 25)
 e.bridge("把句子补全成过去时（pretérito perfeito）。")
 e.ex("B1", "完成句子", "venceu", "vencer 过去时 ele 形式：venceu",
      "O Grêmio ___ (vencer) por 2 a 0.", instr="填空", size=20, gap=8)

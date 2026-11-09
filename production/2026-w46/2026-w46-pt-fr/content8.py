@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · AVALIAÇÃO E RESPOSTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("AVALIAÇÃO E RESPOSTAS · TEST ET RÉPONSES", "A Lucerna", "PAGE 8 · La grande épreuve de la semaine + toutes les réponses")
+p.band("AVALIAÇÃO E RESPOSTAS　TEST ET RÉPONSES", "A Lucerna", "PAGE 8　La grande épreuve de la semaine + toutes les réponses")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETE A CRÔNICA", 22, OLIVE, 5)
+f.head("A　COMPLETE A CRÔNICA", 22, OLIVE, 5)
 f.ex("B1", "Texte à trous", "A", "Le jour 2, c’est le 15 novembre",
      "No domingo 15, o Brasil faz ___ do Enem. (A. o segundo dia · B. o primeiro dia)", size=14.5, gap=0)
 f.ex("B1", "Texte à trous", "B", "Fermeture à 13h",
@@ -29,7 +29,7 @@ f.ex("B1", "Texte à trous", "A", "L’épreuve dure 5 heures",
      "No dia 15, a prova dura ___ . (A. cinco horas · B. sete horas)", size=14.5, gap=0)
 f.ex("B1", "Texte à trous", "B", "Le jour 1, c’est le 8 novembre",
      "O primeiro dia do Enem foi no dia ___ . (A. 15 · B. 8)", size=14.5, gap=0)
-f.head("B · PERGUNTAS GERAIS", 22, OLIVE, 5)
+f.head("B　PERGUNTAS GERAIS", 22, OLIVE, 5)
 f.ex("A2", "Choix multiple", "B", "Le jour férié tombe un dimanche, pas de récupération le lundi",
      "O feriado de 15 de novembro... A. dá folga na segunda · B. cai num domingo · C. muda o relógio", size=14.5, gap=0)
 f.ex("A2", "Choix multiple", "B", "La carte de confirmation appartient à l’Enem",
@@ -46,7 +46,7 @@ f.ex("B2", "Choix multiple", "A", "300, c’est la durée de l’épreuve en min
      "O número 300 mede... A. os minutos da prova · B. os dias do feriado · C. os inscritos", size=14.5, gap=0)
 f.ex("B1", "Choix multiple", "A", "Deodoro a été le premier président",
      "Deodoro da Fonseca foi... A. o primeiro presidente · B. o último imperador · C. um jogador", size=14.5, gap=0)
-f.head("C · LEIA E RESPONDA", 22, OLIVE, 5)
+f.head("C　LEIA E RESPONDA", 22, OLIVE, 5)
 f.para("Marina mora em São Paulo. No domingo 15, ela faz o segundo dia do Enem. Na segunda, 9, ela revisa Natureza um pouco por dia. Na véspera, ela separa o documento e a caneta preta e dorme cedo. No domingo, ela chega ao local às 11h30, uma hora e meia antes de os portões fecharem, e faz a prova com calma.", 15.5, lh=1.3, split=False)
 f.ex("A2", "Choix multiple", "B", "Marina habite à São Paulo",
      "Onde mora Marina? A. no Rio · B. em São Paulo · C. em Belo Horizonte", size=14.5, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Choix multiple", "B", "La veille, elle prépare sa pièce d’identi
      "Na véspera, Marina... A. faz maratona a noite inteira · B. separa o documento e dorme cedo · C. compra a caneta azul", size=14.5, gap=0)
 f.ex("A2", "Choix multiple", "B", "Elle arrive au centre d’examen à 11h30",
      "Marina chega ao local... A. às 13h30 · B. às 11h30 · C. às 18h30", size=14.5, gap=0)
-f.head("D · CONSTRUA AS FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUA AS FRASES", 22, OLIVE, 5)
 f.ex("A2", "Former une phrase", "Domingo é dia de prova.", "Le mot de temps est en tête",
      "domingo / é / dia de prova → ___", instr="Forme une phrase", size=14.5, gap=0)
 f.ex("B1", "Former une phrase", "A candidata confere o cartão no aplicativo.", "Sujet + verbe + objet + lieu",
@@ -65,7 +65,7 @@ f.ex("B1", "Former une phrase", "Que horas termina a prova?", "La phrase interro
      "que horas / termina / a prova / ? → ___", instr="Forme une phrase", size=14.5, gap=0)
 f.ex("B1", "Former une phrase", "O Brasil comemora a Proclamação da República.", "Sujet + verbe + objet",
      "o Brasil / comemora / a proclamação / da república → ___", instr="Forme une phrase", size=14.5, gap=0)
-f.head("E · TRADUZA", 22, OLIVE, 5)
+f.head("E　TRADUZA", 22, OLIVE, 5)
 f.ex("A2", "Traduction", "Dimanche 15 novembre, c’est le deuxième jour de l’Enem.", "Voir le titre de la page 6",
      "Domingo, 15 de novembro, é o segundo dia do Enem. → ___", instr="Traduis", size=14.5, gap=0)
 f.ex("B1", "Traduction", "Vérifie la carte avant dimanche.", "Confira = vérifie",
@@ -74,7 +74,7 @@ f.ex("B1", "Traduction", "O feriado cai num domingo.", "feriado = jour férié",
      "« Le jour férié tombe un dimanche. » → ___", instr="Traduis", size=14.5, gap=0)
 f.ex("B2", "Traduction", "Quando você chegar, apresente o documento com foto.", "Futur du subjonctif chegar + impératif apresente",
      "Quand tu arrives, montre ta pièce d’identité avec photo. → ___", instr="Traduis", size=14.5, gap=0)
-f.head("F · AS PALAVRAS DA SEMANA", 22, OLIVE, 5)
+f.head("F　AS PALAVRAS DA SEMANA", 22, OLIVE, 5)
 f.match_set("B2", "Associer le vocabulaire",
             ["a proclamação", "o portão", "a república", "a segunda chamada"],
             ["a forma do Estado depois de 1889",
@@ -84,7 +84,7 @@ f.match_set("B2", "Associer le vocabulaire",
             ["b", "d", "a", "c"],
             ["proclamação = annoncer un changement (b)", "portão = l’entrée du centre d’examen (d)", "república = la forme d’État après 1889 (a)", "segunda chamada = réadmission après fermeture (n’existe pas à l’Enem) (c)"],
             instr="Associe les mots")
-f.head("G · DIÁLOGO NO PORTÃO", 22, OLIVE, 5)
+f.head("G　DIÁLOGO NO PORTÃO", 22, OLIVE, 5)
 f.ex("B1", "Texte à trous", "B", "documento com foto = pièce d’identité avec photo",
      "— Bom dia! O seu ___ com foto, por favor. (A. cartão · B. documento)", size=14.5, gap=0)
 f.ex("B1", "Texte à trous", "A", "seção = la salle d’examen (le secteur)",
@@ -95,7 +95,7 @@ f.ex("B1", "Texte à trous", "A", "L’épreuve finit à 18h30",
      "— A prova termina às ___ . (A. 18h30 · B. 19h)", size=14.5, gap=0)
 f.ex("B1", "Texte à trous", "B", "obrigado = merci",
      "— Boa prova! — Muito ___! (A. tarde · B. obrigado)", size=14.5, gap=0)
-f.head("H · ESCREVA VOCÊ", 22, OLIVE, 5)
+f.head("H　ESCREVA VOCÊ", 22, OLIVE, 5)
 MODELO = ("Domingo, 15 de novembro, acordo cedo e abro o Cartão de Confirmação no celular. "
           "Confiro o meu local: a escola fica a vinte minutos de casa. "
           "Tomo café com a minha família, pego o documento com foto e a caneta preta e saio às onze. "
@@ -111,13 +111,13 @@ f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPOSTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPOSTAS · RÉPONSES — classées par page ; trouve ton numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Une courte note par réponse · ✓ = l’exercice d’écriture", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPOSTAS　RÉPONSES — classées par page ; trouve ton numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Une courte note par réponse　✓ = l’exercice d’écriture", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

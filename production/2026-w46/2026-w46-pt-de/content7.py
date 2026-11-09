@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-pt-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · LÍNGUA (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("LÍNGUA · SPRACHE", "A Lucerna", "Três níveis, três ferramentas · Drei Niveaus, drei Werkzeuge")
+p.band("LÍNGUA　SPRACHE", "A Lucerna", "Três níveis, três ferramentas　Drei Niveaus, drei Werkzeuge")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · PERGUNTAS E O PRESENTE", 24)
+a.head("A2　PERGUNTAS E O PRESENTE", 24)
 a.para("Para perguntar o essencial da semana: «Que horas começa a prova?» — que horas + verbo no presente. E, para lugares, «Onde fica o meu local?» — onde fica.", 21.5)
 a.para("E conferir é especial na primeira pessoa: eu confiro, você confere, ele confere. Nós conferimos, eles conferem.", 21.5)
 a.bridge("Fragen: que horas (wie spät) + Verb; onde fica fragt nach dem Ort; conferir ist in der eu-Form unregelmäßig: confiro.")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · O PRETÉRITO PERFEITO", 24)
+b.head("B1　O PRETÉRITO PERFEITO", 24)
 b.para("Para contar a semana, usamos o pretérito perfeito: o Grêmio venceu, Maurício marcou, o candidato chegou. Vencer é regular: eu venci, ele venceu.", 21.5)
 b.para("E o modelo é simples: marcar → marcou; chegar → chegou; dormir → dormiu. Atenção ao acento: saíram, caíram.", 21.5)
 b.bridge("Um die Woche zu erzählen, benutzen wir das Perfekt (pretérito perfeito); vencer ist regelmäßig (venceu); achte auf die Betonung im Perfekt von marcar, chegar und dormir.")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · O FUTURO DO SUBJUNTIVO", 24)
+c.head("B2　O FUTURO DO SUBJUNTIVO", 24)
 c.para("Depois de «quando», «se» e «quem», o futuro pede o subjuntivo: «Quando você chegar, apresente o documento.» «Quem tiver o cartão, confere o local.»", 21.5)
 c.para("É o tempo da página 6: regras e condições. Ter → tiver; ser → for; chegar → chegar (regular). Não confunda com o presente: é a gramática das hipóteses sobre o domingo.", 21.5)
 c.bridge("Nach quando, se und quem steht der Futur des Konjunktivs: tiver, for, chegar — die Grammatik der Sonntagshypothesen.")
@@ -68,20 +68,20 @@ errs = [
     ("«O feriado dá folga na segunda.»", "→ «O feriado cai num domingo.» Não há folga extra.", "Der Feiertag fällt auf einen Sonntag, montags gibt es keinen Ausgleich."),
 ]
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 198
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERROS COMUNS · FEHLER", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERROS COMUNS　FEHLER", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 22
 wt = "« proclamação »: o ato de anunciar — em 1889, o fim da monarquia e o começo da República."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("proclamação = Ausrufung; 1889 endete die Monarchie und die Republik begann.", "sans", False, 20, CW - 44)) * 29 + 30
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA · WORT DER WOCHE", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WORT DER WOCHE", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "proclamação = Ausrufung; 1889 endete die Monarchie und die Republik begann.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -93,7 +93,7 @@ lt = "«Vou fazer o segundo dia no domingo 15. Já conferi o cartão. Boa prova!
 disc_pt = "Nota da redação: as cartas reais e os melhores textos prometidos no VOL.2 não chegaram até o fechamento — fica o exemplo, e a promessa passa para o VOL.4."
 disc_de = "Anmerkung: Die versprochenen Briefe und Texte kamen nicht an – das Beispiel bleibt, das Versprechen geht an VOL.4 weiter."
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Redaktionsbeispiel – kein echter Brief.", "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap(disc_pt, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(disc_de, "sans", False, 19.5, CW - 44)) * 29 + 22
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "CARTAS DOS LEITORES", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -105,8 +105,8 @@ print("P7 col3 ends", ly + lh)
 
 # ---- frases da semana (verbatim from this issue) ----
 fy = max(1712, ly + lh + 30)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "FRASES DA SEMANA · SÄTZE DER WOCHE (wörtlich aus dieser Ausgabe)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "FRASES DA SEMANA　SÄTZE DER WOCHE (wörtlich aus dieser Ausgabe)", 27, "sans", True, OLIVE)
 quotes = [
     ("«Dois domingos, um feriado: o Brasil faz o segundo dia do Enem»", "Zwei Sonntage, ein Feiertag: Brasilien schreibt den zweiten Enem-Tag.", "Página 1"),
     ("«A prova e o feriado chegam no mesmo dia»", "Prüfung und Feiertag kommen am selben Tag.", "Página 1"),
@@ -126,9 +126,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- próxima semana ----
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "A PRÓXIMA SEMANA · NÄCHSTE WOCHE (VOL.4)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "Sexta, 20 de novembro: o feriado da Consciência Negra. E os finalistas da Copa do Brasil, os gabaritos do Enem e as suas cartas e os melhores textos da página 8. Até segunda!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "A PRÓXIMA SEMANA　NÄCHSTE WOCHE (VOL.4)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "Sexta, 20 de novembro: o feriado da Consciência Negra. E os finalistas da Copa do Brasil, os gabaritos do Enem e as suas cartas e os melhores textos da página 8. Até segunda!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-lingua.svg")
 print("P7 saved, exercises so far:", len(REG))
