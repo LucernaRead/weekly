@@ -6,7 +6,7 @@ import cairosvg
 from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-es-vol1")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVG_DIR = os.path.join(BASE, "svg")
 CARDS = os.path.join(BASE, "cards")
 os.makedirs(CARDS, exist_ok=True)
@@ -38,6 +38,6 @@ for s in svgs:
     im = Image.open(os.path.join(CARDS, name + ".png")).convert("RGB")
     im = im.resize((1400, int(1400 * im.height / im.width)), Image.LANCZOS)
     imgs.append(im)
-web_path = os.path.join(BASE, "La-Lucerna-VOL1-web.pdf")
+web_path = os.path.join(BASE, "La-Lucerna-VOL1-es-core-web.pdf")
 imgs[0].save(web_path, save_all=True, append_images=imgs[1:], quality=85)
 print("web PDF:", web_path, os.path.getsize(web_path))

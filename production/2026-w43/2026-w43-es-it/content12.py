@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-es-it/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · PORTADA (A2) =================
@@ -11,30 +11,30 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 1 · PRIMERA EDICIÓN", 23, "sans", True, OLIVE)
-p.text(975, 92, "CADA SEMANA EN ESPAÑOL · OGNI SETTIMANA · LO SPAGNOLO DEGLI SPAGNOLI", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "La Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "SETTIMANALE IN SPAGNOLO · VOL.1 · EL RELOJ · EL CLÁSICO · LA F1", 46, "serif", True, INK, anchor="middle")
-p.text(975, 372, "EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 1　PRIMERA EDICIÓN", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　OGNI SETTIMANA　LO SPAGNOLO DEGLI SPAGNOLI", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "SETTIMANALE IN SPAGNOLO　VOL.1　EL RELOJ　EL CLÁSICO　LA F1", 36, "serif", True, OLIVE, anchor="middle", spacing=6)
+p.text(975, 372, "EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "¡ESTE DOMINGO DORMIMOS UNA HORA MÁS… Y SE JUEGA EL CLÁSICO!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "En la madrugada del domingo, el reloj se atrasa una hora: a las 03:00 serán las 02:00.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "DOMENICA · UN'ORA DI SONNO IN PIÙ", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "Tre appuntamenti in una notte · pagine 2 e 4", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 150, fill=CLOTH)
+p.text(MX + 30, 524, "¡ESTE DOMINGO DORMIMOS UNA HORA MÁS… Y SE JUEGA EL CLÁSICO!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 560, "En la madrugada del domingo, el reloj se atrasa una hora: a las 03:00 serán las 02:00.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 596, "DOMENICA　UN'ORA DI SONNO IN PIÙ", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 560, "Tre appuntamenti in una notte　pagine 2 e 4", 18, "sans", False, GOOSE, anchor="end")
 
 # pairing badge (this edition: Spanish text, Italian explanations)
-p.text(975, 574, "TESTI IN SPAGNOLO · SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI", 22, "sans", True, BRICK, anchor="middle")
+p.text(975, 614, "TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI", 16, "sans", False, GREY, anchor="middle")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "LA NOTICIA · LA NOTIZIA", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Este domingo: dormimos una hora más… ¡y se juega el Clásico!", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "De la redacción de La Lucerna · Nivel de lectura: A2", 20, "sans", False, GREY)
+hy = 642
+p.text(MX, hy + 26, "LA NOTICIA　LA NOTIZIA", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Este domingo: dormimos una hora más… ¡y se juega el Clásico!", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "De la redacción de La Lucerna　Nivel de lectura: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Este domingo pasa todo a la vez. Primero, en la madrugada, España cambia la hora: a las 03:00, el reloj vuelve a las 02:00. La noche tiene 25 horas y dormimos una hora más.")
@@ -43,12 +43,12 @@ f.para("¿Solo fútbol? No: a la misma hora, las 21:00, los coches de Fórmula 1
 f.para("La semana también trae tiempo de otoño: la DANA Adam, la primera gran tormenta mediterránea de la temporada, trajo lluvia fuerte y tormentas a la costa mediterránea y a Baleares entre el sábado y el lunes.")
 f.para("Esta es la primera edición de La Lucerna en español. Cada semana leemos la España real contigo: despacio, claro y con honestidad. ¡Bienvenidos!")
 f.expl("la madrugada la notte fonda · atrasar el reloj rimettere l'orologio indietro di un'ora · empatados pari, a pari punti · la tormenta la tempesta.")
-f.box("LA SEMANA EN CIFRAS · IN CIFRE", [
+f.box("LA SEMANA EN CIFRAS　IN CIFRE", [
     ("25 — horas tiene la noche del sábado al domingo (la notte tra sabato e domenica ha 25 ore)", "serif", False, INK, 20.5, 1.35),
     ("21:00 — el Clásico y la carrera de F1, a la misma hora (il Clásico e la F1 alla stessa ora)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (il lunedì 2 novembre è festivo in 9 comunità)", "serif", False, INK, 20.5, 1.35),
 ])
-f.head("AHORA TÚ · TOCCA A TE", 25)
+f.head("AHORA TÚ　TOCCA A TE", 25)
 f.ex("A2", "完成句子", "se atrasa", "el reloj se atrasa = l'orologio torna indietro",
      "En la madrugada del domingo, el reloj ___ una hora.", size=20.5)
 f.ex("A2", "完成句子", "25", "la notte di 25 ore",
@@ -65,11 +65,11 @@ f.end_report()
 
 # ---- claves de la semana (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 620
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "CINCO", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "CLAVES", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Cinque chiavi · Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "Cinque chiavi　Para entender la semana", 19, "sans", False, GREY)
 gt = [
     ("El cambio de hora", 250),
     ("El Clásico, el domingo", 226),
@@ -80,7 +80,7 @@ gt = [
 byy = gy + 150
 for i, (lab, bw) in enumerate(gt):
     p.text(gx + 22, byy + 22, f"{i+1}. {lab}", 21.5, "serif", True, INK)
-    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE if i == 0 else GOLD)
+    p.rect(gx + 22, byy + 34, bw, 22, fill=OLIVE)
     byy += 92
 p.text(gx + 22, byy + 16, "Cinco claves, sin números", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "inventados: todo está explicado", 18.5, "sans", False, GREY)
@@ -88,9 +88,9 @@ p.text(gx + 22, byy + 68, "en esta edición.", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 102, "Cinque chiavi, zero numeri inventati.", 19, "sans", False, GREY)
 
 # ---- sommaire (col 3) ----
-sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN · IL NUMERO", 24, "sans", True, OLIVE)
+sy = 1344
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　IL NUMERO", 24, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El reloj y el tiempo", "A2"),
     ("Pág. 3", "Fiestas de otoño", "A2→B1"),
@@ -102,36 +102,37 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
 
 # ---- word of the week (col 3) ----
-my = 1652
+my = 1684
 p.text(gx, my + 24, "LA PALABRA DE LA SEMANA", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "« hacer puente » : fiesta cerca del fin de semana = descanso de tres días.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "«Fare ponte» (pagina 3): una festa vicina al fine settimana unisce tre soli in fila. Stavolta è diviso in due.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« hacer puente »", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "fiesta cerca del fin de semana = descanso de tres días.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 10, "«Fare ponte» (p. 3): una festa vicina al fine settimana unisce tre soli in fila.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
-p.hline(MX, RIGHT, 1844, LINE, 1.2)
-iy = 1874
+p.hline(MX, RIGHT, 1899, LINE, 1.2)
+iy = 1906
 ix, iw = span_x(0, 2)
 image(p, "atomuhr.jpg", ix, iy, iw, 320)
 caption(p, ix, iy + 320, iw,
         "El reloj atómico NIST-F1, en Estados Unidos: uno de los relojes más exactos del mundo. La hora oficial de España también nace en relojes atómicos — y en la madrugada del domingo, todos atrasan una hora. (Página 2)",
         "Foto: NIST (EE. UU.) — dominio público")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-otono")
+f2 = Flow(p, [(COLX[2], CW)], iy, 2300, tag="P1-otono")
 f2.head("EL OTOÑO EMPIEZA DE VERDAD", 25)
 f2.para("Días más cortos, la primera gran tormenta del Mediterráneo, un descanso partido en dos y un domingo con tres citas a la vez: el otoño enseña esta semana todo su programa.", 22.5)
 f2.para("Su regalo para todos los lectores es una hora más de sueño. Tómala — ¡y sigue leyendo en la página 2!", 22.5)
 f2.end_report()
 # col 3 BREVES
 bx = COLX[3]
-p.rect(bx, 1874, CW, 416, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "BREVES · IN BREVE", 24, "sans", True, OLIVE)
+p.rect(bx, iy, CW, 416, fill=BOX)
+p.text(bx + 22, 1914, "BREVES　IN BREVE", 24, "sans", True, OLIVE)
 brefs = [
     ("LA HORA", "El domingo a las 03:00, los relojes vuelven a las 02:00. En Canarias: de las 02:00 a la 01:00. (Página 2)"),
     ("FÚTBOL", "Champions el martes: el PSG ganó 4–2 al Barça. El domingo, el Clásico a las 21:00. (Página 4)"),
@@ -139,15 +140,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
-qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "QUIZ RELÁMPAGO · QUIZ LAMPO", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Leggi la prima pagina e scegli la risposta giusta · risposte a pagina 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+qy = 2344
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　QUIZ LAMPO", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Leggi la prima pagina e scegli la risposta giusta　risposte a pagina 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "B", "la domenica all'alba, un'ora indietro",
       "El reloj se atrasa en la madrugada del... A. viernes · B. domingo · C. lunes", size=21)
 qf.ex("A2", "单选", "C", "il Clásico si gioca al Camp Nou",
@@ -164,16 +165,16 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · VIDA (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("VIDA · VITA QUOTIDIANA", "La Lucerna", "NIVEL A2 · El cambio de hora y el tiempo · IL CAMBIO DELL'ORA")
+p.band("VIDA　VITA QUOTIDIANA", "La Lucerna", "NIVEL A2　El cambio de hora y el tiempo　IL CAMBIO DELL'ORA")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Una hora más: la noche de las 25 horas", 37)
-f.byline("De la redacción de La Lucerna · Nivel de lectura: A2")
+f.title("Una hora más: la noche de las 25 horas", 32)
+f.byline("De la redacción de La Lucerna　Nivel de lectura: A2")
 f.para("Solo pasa una vez al año: una noche con 25 horas. En la madrugada del sábado 24 al domingo 25 de octubre termina en España el horario de verano. A las 03:00, los relojes vuelven a las 02:00 — y todos dormimos una hora más.")
 f.para("La hora de las 02:00 a las 03:00 existe dos veces en esta noche. Pero atención: el cambio no es igual en todo el país. En la Península, las Baleares, Ceuta y Melilla, el cambio es a las 03:00. En Canarias hay una hora menos que en la Península: allí, a las 02:00 será la 01:00.")
 f.para("¿Qué relojes cambian solos? El móvil y el ordenador cambian solos. Pero el reloj del horno, el reloj viejo de la cocina y el reloj del coche necesitan tu mano. Nuestro consejo: cambia los relojes el sábado por la noche — y el domingo por la mañana todo está tranquilo.")
 f.para("Este cambio es especial: es el último del calendario de cinco años que España publicó en el Boletín Oficial del Estado en 2022. ¿Es el último cambio de la historia? No es seguro: la Comisión Europea ya publicó en marzo de 2026 las fechas de cambio para 2027–2031. El sistema sigue — si la ley europea no cambia.")
-f.box("LA FRASE · DA RICORDARE", [
+f.box("LA FRASE　DA RICORDARE", [
     ("«En primavera se adelanta, en otoño se atrasa.» Así recuerda España la dirección del cambio: adelante en marzo, atrás en octubre — y en otoño, una hora más de sueño.", "serif", False, INK, 21.5, 1.4),
 ])
 f.head("EL TIEMPO DESPUÉS DE ADAM", 25)
@@ -190,7 +191,7 @@ facts = ["La noche del sábado al domingo tiene 25 horas: es la noche más larga
          "El horario de invierno dura hasta el domingo 28 de marzo de 2027."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "¿SABÍAS QUE…?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -199,9 +200,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "¿Y tú? ¿Qué haces con una hora más: duermes, lees o sales a la calle? Escribe dos frases en español y envíalas a la redacción: las mejores salen en el VOL.2 (página 7, «Cartas de los lectores»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("E tu, cosa fai con un'ora in più: dormi, leggi o esci? Scrivi due frasi in spagnolo e mandale alla redazione.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "¿Y TÚ? · TOCCA A TE", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　TOCCA A TE", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "E tu, cosa fai con un'ora in più: dormi, leggi o esci? Scrivi due frasi in spagnolo e mandale alla redazione.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -209,9 +210,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Decir la hora wide box ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "DECIR LA HORA · DIRE L'ORA", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Las horas de la semana · gli orari della settimana", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "DECIR LA HORA　DIRE L'ORA", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Las horas de la semana　gli orari della settimana", 20, "sans", False, GREY, anchor="end")
 
 def clock(cx, cy, r, hh, mm, label):
     p.add(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#fdfaf0" stroke="{INK}" stroke-width="3"/>')
@@ -224,7 +225,7 @@ def clock(cx, cy, r, hh, mm, label):
     ah = math.radians((hh % 12) * 30 + mm * 0.5)
     am = math.radians(mm * 6)
     p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.55)*math.sin(ah):.0f}" y2="{cy - (r*0.55)*math.cos(ah):.0f}" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>')
-    p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.82)*math.sin(am):.0f}" y2="{cy - (r*0.82)*math.cos(am):.0f}" stroke="{BRICK}" stroke-width="4" stroke-linecap="round"/>')
+    p.add(f'<line x1="{cx}" y1="{cy}" x2="{cx + (r*0.82)*math.sin(am):.0f}" y2="{cy - (r*0.82)*math.cos(am):.0f}" stroke="{OLIVE}" stroke-width="4" stroke-linecap="round"/>')
     p.text(cx, cy + r + 34, label, 22, "serif", True, INK, anchor="middle")
 
 clock(240, dy + 130, 70, 1, 0, "Es la una.")
@@ -245,11 +246,11 @@ p.para(lx, ly + 22, "Ojo con el domingo: el Clásico empieza a las 21:00 — «s
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "EJERCICIOS · ESERCIZI · PAGINA 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Risposte a pagina 8 · livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EJERCICIOS　ESERCIZI　PAGINA 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Risposte a pagina 8　livelli misti: cerca per numero", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · ¿QUÉ HORA ES?", 25)
+e.head("A　¿QUÉ HORA ES?", 25)
 e.expl("Guarda gli orologi e completa le frasi in spagnolo.")
 e.ex("A2", "完成句子", "la una", "alle 1:00 si dice solo Es la una",
      "1:00 — Es ___ en punto.", instr="Completa", size=20, gap=8)
@@ -261,7 +262,7 @@ e.ex("A2", "完成句子", "y cuarto", "y cuarto = e un quarto (+15 min)",
      "5:15 — Son las cinco ___.", instr="Completa", size=20, gap=8)
 e.ex("A2", "完成句子", "medianoche", "0:00 = mezzanotte, medianoche",
      "0:00 — Es ___. La ciudad duerme.", instr="Completa", size=20, gap=8)
-e.head("B · EL PRESENTE", 25)
+e.head("B　EL PRESENTE", 25)
 e.expl("Completa con il presente del verbo.")
 e.ex("A2", "完成句子", "duermo", "dormir: o → ue (duermo)",
      "Yo ___ (dormir) una hora más el domingo.", instr="Completa", size=20, gap=8)
@@ -273,7 +274,7 @@ e.ex("B1", "完成句子", "se despierta", "verbo riflessivo: despertarse → se
      "María ___ (despertarse) a las ocho.", instr="Completa", size=20, gap=8)
 e.ex("A2", "完成句子", "se atrasa", "el reloj se atrasa (él)",
      "El reloj ___ (atrasar) una hora.", instr="Completa", size=20, gap=8)
-e.head("C · COMPRENSIÓN", 25)
+e.head("C　COMPRENSIÓN", 25)
 e.expl("Leggi gli articoli di pagina 2 e scegli la risposta giusta.")
 e.ex("A2", "单选", "C", "l'ora 02:00–03:00 esiste due volte",
      "La hora de 02:00 a 03:00 existe... A. nunca · B. una vez · C. dos veces", size=20, gap=8)
@@ -283,7 +284,7 @@ e.ex("A2", "单选", "A", "l'orologio del forno si regola a mano",
      "¿Qué reloj NO cambia solo? A. el del horno · B. el del móvil · C. el del ordenador", size=20, gap=8)
 e.ex("A2", "单选", "B", "l'ora solare dura fino al 28 marzo 2027",
      "El horario de invierno dura hasta... A. el 1 de noviembre · B. el 28 de marzo de 2027 · C. el 29 de noviembre", size=20, gap=8)
-e.head("D · LAS PALABRAS", 25)
+e.head("D　LAS PALABRAS", 25)
 e.match_set("A2", "词汇配对",
             ["la tormenta", "el pronóstico", "atrasar", "el paraguas"],
             ["lo abres cuando llueve",

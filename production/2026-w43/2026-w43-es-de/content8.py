@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-es-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · EJERCICIOS Y RESPUESTAS =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("EJERCICIOS Y RESPUESTAS · ÜBUNGEN UND ANTWORTEN", "La Lucerna", "Seite 8 · La gran prueba de la semana + todas las respuestas")
+p.band("EJERCICIOS Y RESPUESTAS　ÜBUNGEN UND ANTWORTEN", "La Lucerna", "Seite 8　La gran prueba de la semana + todas las respuestas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRÓNICA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRÓNICA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "B", "abrir el marcador = das erste Tor schießen",
      "Doué ___ el marcador en París. (A. cerró · B. abrió)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "B", "poner el 1–1 = den Ausgleich erzielen",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "am Sonntag steigt der Clásico",
      "El domingo se juega el ___ en el Camp Nou. (A. Clásico · B. derbi madrileño)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "camiseta = Trikot",
      "El Barça lleva una ___ de GOLF WANG. (A. camiseta · B. bufanda)", size=15.5, gap=1)
-f.head("B · PREGUNTAS GENERALES", 22, OLIVE, 5)
+f.head("B　PREGUNTAS GENERALES", 22, OLIVE, 5)
 f.ex("A2", "单选", "B", "am Sonntagmorgen wird aus 03:00 wieder 02:00",
      "El cambio: a las... A. 02→03 · B. 03→02 · C. 00→01", size=15.5, gap=1)
 f.ex("A2", "单选", "A", "auf den Kanaren ist es eine Stunde früher",
@@ -46,7 +46,7 @@ f.ex("B2", "单选", "B", "die zwei Umfragereihen darf man nicht mischen",
      "¿Por qué no mezclamos las series? A. son secretas · B. métodos distintos · C. son viejas", size=15.5, gap=1)
 f.ex("B1", "单选", "A", "DANA Adam ist der erste benannte Sturm der Saison",
      "La DANA Adam es... A. la primera tormenta con nombre · B. una fiesta gallega · C. un equipo", size=15.5, gap=1)
-f.head("C · LEE Y RESPONDE", 22, OLIVE, 5)
+f.head("C　LEE Y RESPONDE", 22, OLIVE, 5)
 f.para("Lucía vive en Sevilla: el lunes 2 es festivo en Andalucía y hace puente. Marta vive en Barcelona: en Cataluña el lunes 2 es laborable y trabaja. El sábado por la noche, Marta celebra la Castanyada con sus amigos: castañas y panellets.", 16.5, lh=1.3, split=False)
 f.ex("A2", "单选", "B", "Andalusien steht auf der Feiertagsliste",
      "¿Quién hace puente? A. Marta · B. Lucía · C. las dos", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "单选", "C", "zur Castanyada isst man Kastanien und panellets",
      "¿Qué comen Marta y sus amigos? A. flores · B. dulces de Halloween · C. castañas y panellets", size=15.5, gap=1)
 f.ex("A2", "单选", "B", "die Überschrift zeigt den Gegensatz der beiden Montage",
      "El mejor título es... A. «Una tormenta» · B. «Dos lunes» · C. «El Clásico»", size=15.5, gap=1)
-f.head("D · CONSTRUYE FRASES", 22, OLIVE, 5)
+f.head("D　CONSTRUYE FRASES", 22, OLIVE, 5)
 f.ex("A2", "造句", "El domingo dormimos una hora más.", "Zeitangabe vorn",
      "el domingo / dormimos / una hora más → ___", instr="Sätze bilden", size=15.5, gap=1)
 f.ex("A2", "造句", "El lunes es festivo en Madrid.", "Subjekt + Verb + Ortsangabe",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "El Clásico empieza a las nueve.", "a las nueve = um neun 
      "el Clásico / empieza / a las nueve → ___", instr="Sätze bilden", size=15.5, gap=1)
 f.ex("B1", "造句", "¿A qué hora empieza el partido?", "Fragewort am Anfang",
      "¿ / a qué hora / empieza / el partido / ? → ___", instr="Sätze bilden", size=15.5, gap=1)
-f.head("E · TRADUCE", 22, OLIVE, 5)
+f.head("E　TRADUCE", 22, OLIVE, 5)
 f.ex("A2", "翻译", "Am Sonntag schlafen wir eine Stunde länger.", "Übersetzung (Original Seite 1)",
      "El domingo dormimos una hora más. → ___", instr="Übersetzen", size=15.5, gap=1)
 f.ex("A2", "翻译", "Am Montag ist in neun Regionen Feiertag.", "Übersetzung (Text Seite 3)",
@@ -74,7 +74,7 @@ f.ex("B1", "翻译", "El Clásico se juega el domingo a las nueve de la noche.",
      "Der Clásico wird am Sonntagabend um neun Uhr angepfiffen. → ___", instr="Übersetzen", size=15.5, gap=1)
 f.ex("B2", "翻译", "Cada gráfico tiene que llevar su fuente.", "tener que = müssen",
      "Jede Grafik muss ihre Quelle angeben. → ___", instr="Übersetzen", size=15.5, gap=1)
-f.head("F · LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
 f.match_set("B2", "词汇配对",
             ["el sondeo", "el indeciso", "el margen de error", "la junta electoral"],
             ["quien organiza las elecciones",
@@ -84,7 +84,7 @@ f.match_set("B2", "词汇配对",
             ["c", "d", "b", "a"],
             ["sondeo = Umfrage (c)", "indeciso = Unentschlossener (d)", "margen de error = Fehlermarge (b)", "junta electoral = Wahlkommission (a)"],
             instr="Zuordnen")
-f.head("G · DIÁLOGO EN LA TIENDA", 22, OLIVE, 5)
+f.head("G　DIÁLOGO EN LA TIENDA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "A", "disfraz = Kostüm",
      "— Busco un ___ para mi hija. (A. disfraz · B. paraguas)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "Monster High ist bei Kindern beliebt",
@@ -95,7 +95,7 @@ f.ex("B1", "完形单选", "A", "pagar = bezahlen",
      "— ¿Cómo va a ___: con tarjeta o en efectivo? (A. pagar · B. votar)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "die Party ist am Samstag (Halloween)",
      "— Con tarjeta. La fiesta es el ___. (A. sábado · B. lunes)", size=15.5, gap=1)
-f.head("H · ESCRIBE TÚ", 22, OLIVE, 5)
+f.head("H　ESCRIBE TÚ", 22, OLIVE, 5)
 f.bridge("Schreibaufgabe (ohne Musterlösung); der Mustertext (82 Wörter) steht unten.")
 f.ex("B1", "写作", "Offene Aufgabe — Mustertext unten auf dieser Seite", "Mustertext in Abschnitt H auf dieser Seite (82 Wörter)",
      "«¿El lunes 2 es festivo en tu comunidad?» Escribe 80–100 palabras: dónde vives, tu plan del 31 y del 1, y tu lunes.", instr="Schreiben", size=15.5, gap=1)
@@ -108,13 +108,13 @@ f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RESPUESTAS =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RESPUESTAS · ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Zu jeder Aufgabe ein deutscher Kurzhinweis · ✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RESPUESTAS　ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Zu jeder Aufgabe ein deutscher Kurzhinweis　✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PÁGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
