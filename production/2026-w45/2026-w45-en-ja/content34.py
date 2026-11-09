@@ -3,22 +3,22 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURE (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURE · 文化", "The Lucerna", "A2 → B1 · Friday at the movies · 金曜日の映画")
+p.band("CULTURE　文化", "The Lucerna", "A2 → B1　Friday at the movies　金曜日の映画")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P3-main")
-f.title("Friday Night at the Movies : A Cat and a Monster", 37)
-f.byline("By The Lucerna newsroom · Reading level : A2 → B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P3-main")
+f.title("Friday Night at the Movies : A Cat and a Monster", 32)
+f.byline("By The Lucerna newsroom　Reading level : A2 → B1")
 f.para("On Friday, November 6, two very different films open in cinemas across America. One is for children and families. The other is for monster fans. Both give you a reason to go out on a dark autumn evening.")
 f.para("The first is « The Cat in the Hat », from the famous children's book by Dr. Seuss. The Cat — tall, funny, and always in trouble — comes to life on the big screen, with Bill Hader as the voice of the Cat. If you know the book, you know the hat : red and white, and much too tall.")
 f.para("The second is « Godzilla Minus Zero », the new film from Japanese director Takashi Yamazaki. Godzilla is the giant monster who has walked through Japanese films for more than seventy years. This time, the monster returns to the cinema — bigger, darker, and louder than ever.")
 f.para("Which film would you choose ? A talking cat in a striped hat, or a giant monster in a city ? In our newsroom, the vote is split — half for the cat, half for the monster. Tell us your choice on page 7.")
-f.box("AT HOME THIS WEEK · おうち時間", [
+f.box("AT HOME THIS WEEK　おうち時間", [
     ("Wed Nov 4 — « A Dog's Perfect Christmas » and « Taken : Natalee Holloway » arrive on Netflix.", "serif", False, INK, 21.5, 1.4),
     ("Thu Nov 5 — « Black Doves » Season 2 begins. Fri Nov 6 — « Under Siege » Season 1 and « Unprotected : Murder in Galicia ».", "serif", False, INK, 21.5, 1.4),
     ("Sun Nov 8 — « Love Is Blind : The Reunion » closes the week. One week, one screen, many stories.", "serif", False, INK, 21.5, 1.4),
@@ -26,7 +26,7 @@ f.box("AT HOME THIS WEEK · おうち時間", [
 f.para("A film is not only a story — it is also English practice. Listen for three things : the catchphrase (the line everybody repeats), the joke (why does the room laugh ?), and the ending (happy, sad, or open ?). After the film, try to tell the story in five English sentences.")
 f.para("And if you stay at home, the same rule works for a series : one episode, five sentences, in English. The best five-sentence reviews will be printed in VOL.3 — send yours to the newsroom.")
 f.gloss("to open （映画が）公開される · a monster 怪物 · a catchphrase 決めぜりふ · a series シリーズ。")
-f.head("A · COMPREHENSION", 25)
+f.head("A　COMPREHENSION", 25)
 f.bridge("3ページの記事を読んで、正しい答えを選びなさい。")
 f.ex("A2", "選択", "B", "猫の映画は11月6日金曜に公開",
      "« The Cat in the Hat » opens on... A. November 3 · B. Friday, November 6 · C. November 8", size=22)
@@ -40,7 +40,7 @@ f.ex("B1", "選択", "A", "「ブラック・ダヴ」シーズン2は11月5日�
      "« Black Doves » Season 2 begins on... A. Thursday, November 5 · B. Friday, November 6 · C. Sunday, November 8", size=22)
 f.ex("B1", "選択", "C", "日曜の再会番組で週が締まる",
      "The week closes with... A. a film · B. a monster · C. « Love Is Blind : The Reunion »", size=22)
-f.head("B · SENTENCES", 25)
+f.head("B　SENTENCES", 25)
 f.bridge("与えられた語で文を完成させなさい。")
 f.ex("A2", "文の完成", "opens", "open = 公開される（三単現は s を付ける）",
      "The film ___ on Friday, November 6.", instr="空所補充")
@@ -50,7 +50,7 @@ f.ex("B1", "文の完成", "louder", "loud → louder",
      "Godzilla is bigger, darker, and ___ than ever this time.", instr="空所補充")
 f.ex("B1", "文の完成", "split", "split = 意見が分かれた",
      "In our newsroom, the vote is ___ : half cat, half monster.", instr="空所補充")
-f.head("C · THE WORDS", 25)
+f.head("C　THE WORDS", 25)
 f.match_set("A2", "語彙マッチング",
             ["a monster", "a catchphrase", "a series", "to open"],
             ["a line everybody repeats",
@@ -60,7 +60,7 @@ f.match_set("A2", "語彙マッチング",
             ["b", "a", "d", "c"],
             ["monster=怪物 b", "catchphrase=決めぜりふ a", "series=シリーズ d", "open=公開 c"],
             instr="語と意味を結ぶ")
-f.head("D · GOING TO", 25)
+f.head("D　GOING TO", 25)
 f.bridge("be going to で書きかえなさい。")
 f.ex("A2", "文型変換", "We are going to watch the cat film on Friday.", "we → are going to",
      "We (watch) the cat film on Friday. → ___", instr="書きかえ")
@@ -77,8 +77,8 @@ ix = COLX[3]
 image(p, "catmanet.jpg", ix, 200, CW, 470)
 cy3 = caption(p, ix, 670, CW, "A cat in art : « Cat and Flowers », an illustration by Édouard Manet for « The Cats » by Champfleury. Not film art — but this week, every cat is a star.",
               "Édouard Manet — CC0, via Wikimedia Commons")
-v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2540, tag="P3-col3")
-v3.box("THE CAT'S HAT · 猫の帽子", [
+v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
+v3.box("THE CAT'S HAT　猫の帽子", [
     ("Red and white stripes, much too tall — the most famous hat in children's books. In the film, the hat is back, and so is the trouble.", "serif", False, INK, 21.5, 1.42),
 ])
 v3.head("FIVE SENTENCES", 25)
@@ -93,23 +93,23 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · 体育", "The Lucerna", "LEVEL B1 · NFL · F1 · NASCAR · WTA · Boxing")
+p.band("SPORT　体育", "The Lucerna", "LEVEL B1　NFL　F1　NASCAR　WTA　Boxing")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P4-main")
-f.title("Sunday in Madrid, São Paulo and Miami", 37)
-f.byline("By The Lucerna newsroom · Reading level : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P4-main")
+f.title("Sunday in Madrid, São Paulo and Miami", 32)
+f.byline("By The Lucerna newsroom　Reading level : B1")
 f.para("Sunday, November 8, is the biggest sports day of the autumn. Three countries, five sports, one Sunday — and American football in a Spanish football stadium.")
 f.para("In Madrid, the NFL plays its international game at the Santiago Bernabéu : the Cincinnati Bengals against the Atlanta Falcons. American football in the home of Real Madrid — a strange and wonderful mix. The game is part of NFL Week 9, and it is the week's most talked-about fixture.")
 f.para("Back in the United States, Week 9 continues the same day : the Miami Dolphins play the Detroit Lions at Hard Rock Stadium in Miami Gardens. Two games, two continents, one league — that is the modern NFL.")
 f.para("In Brazil, Formula 1 races the São Paulo Grand Prix, the second race after the United States Grand Prix in Austin. Fast cars, a famous track, and a championship still to decide — the perfect Sunday afternoon for racing fans.")
 f.para("And there is more : NASCAR races at Homestead-Miami, the WTA Finals begin at Indian Wells, and in Arlington, Texas, Alycia Baumgardner defends her women's lightweight title against Elif Nur Turhan. One Sunday is not enough — good thing the week has seven days.")
-f.box("WHY MADRID ? · なぜマドリードへ？", [
+f.box("WHY MADRID ?　なぜマドリードへ？", [
     ("The NFL plays games outside the United States every year, so new fans can see the sport live. Madrid joins London, Munich and São Paulo on the international map.", "serif", False, INK, 21.5, 1.4),
 ])
 f.para("How do you follow five sports in one day ? Choose one game to watch fully, and follow the others on your phone. That is the modern fan : one screen for the game, one screen for the scores.")
 f.para("On Saturday, November 7, the warm-up is already on : Major League Soccer plays its late-season fixtures, including Charlotte against Inter Miami and Atlanta against the New York Red Bulls. The weekend starts on Saturday — and it does not stop.")
 f.gloss("a fixture 日程の中の1試合 · a title 優勝の称号 · to defend （王座を）守る · a fan ファン。")
-f.head("A · COMPREHENSION", 25)
+f.head("A　COMPREHENSION", 25)
 f.bridge("4ページの記事を読んで、正しい答えを選びなさい。")
 f.ex("B1", "選択", "A", "マドリード戦：ベンガルズ対ファルコンズ",
      "In Madrid, the Bengals play... A. the Falcons · B. the Lions · C. Real Madrid", size=22)
@@ -123,7 +123,7 @@ f.ex("B1", "選択", "C", "WTAファイナルズはインディアンウェル�
      "The WTA Finals begin at... A. Miami · B. Madrid · C. Indian Wells", size=22)
 f.ex("B1", "選択", "B", "ボクシングの試合はアーリントンで",
      "The Baumgardner fight is in... A. Miami · B. Arlington, Texas · C. Madrid", size=22)
-f.head("B · SENTENCES", 25)
+f.head("B　SENTENCES", 25)
 f.bridge("与えられた語で文を完成させなさい。")
 f.ex("B1", "文の完成", "defends", "defend は三単現で s を付ける",
      "Baumgardner ___ her title on Sunday.", instr="空所補充")
@@ -133,7 +133,7 @@ f.ex("A2", "文の完成", "bigger", "big → bigger",
      "The Bernabéu is ___ than most NFL stadiums.", instr="空所補充")
 f.ex("A2", "文の完成", "faster", "fast → faster",
      "Formula 1 cars are ___ than NASCAR cars on a road course.", instr="空所補充")
-f.head("C · THE WORDS", 25)
+f.head("C　THE WORDS", 25)
 f.match_set("B1", "語彙マッチング",
             ["a fixture", "a title", "a fan", "to defend"],
             ["a person who loves a team or sport",
@@ -143,7 +143,7 @@ f.match_set("B1", "語彙マッチング",
             ["b", "d", "a", "c"],
             ["fixture=日程の中の試合 b", "title=優勝の称号 d", "fan=ファン a", "defend=王座を守る c"],
             instr="語と意味を結ぶ")
-f.head("D · PAST SIMPLE", 25)
+f.head("D　PAST SIMPLE", 25)
 f.bridge("単純過去で書きかえなさい（試合が終わった言い方）。")
 f.ex("B1", "文型変換", "The Bengals played in Madrid on Sunday.", "play → played",
      "The Bengals (play) in Madrid on Sunday. → ___", instr="書きかえ")
@@ -160,8 +160,8 @@ ix = COLX[3]
 image(p, "football1910.jpg", ix, 200, CW, 470)
 cy4 = caption(p, ix, 670, CW, "American football in 1910 : Miami against Wittenberg. The helmets were leather, the fields were mud — but the game was already America's game.",
               "Frank R. Snyder — public domain, via Wikimedia Commons")
-v4 = Flow(p, [(ix, CW)], int(cy4) + 18, 2540, tag="P4-col3")
-v4.box("SUNDAY, NOVEMBER 8 · 日曜の試合", [
+v4 = Flow(p, [(ix, CW)], int(cy4) + 18, 2560, tag="P4-col3")
+v4.box("SUNDAY, NOVEMBER 8　日曜の試合", [
     ("NFL : Bengals–Falcons, Madrid (Bernabéu) ; Dolphins–Lions, Miami.", "serif", False, INK, 21.5, 1.42),
     ("F1 : São Paulo Grand Prix, Brazil. NASCAR : Homestead-Miami.", "serif", False, INK, 21.5, 1.42),
     ("WTA Finals begin, Indian Wells. Boxing : Baumgardner–Turhan, Arlington.", "serif", False, INK, 21.5, 1.42),

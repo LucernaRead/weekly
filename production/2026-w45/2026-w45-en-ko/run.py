@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""One-process driver for the W45 EN x KO edition (shared registry: never run
-content modules standalone). Imports content12/34/56/7/8 in order."""
-import os, sys
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import content12  # noqa: F401
-import content34  # noqa: F401
-import content56  # noqa: F401
-import content7  # noqa: F401
-import content8  # noqa: F401
+"""Run the W46 EN core build files in ONE process so the exercise registry
+(REG in bslib4) accumulates across pages: content12 -> 34 -> 56 -> 7 -> 8."""
+import runpy, sys, os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+files = sys.argv[1:] or ["content12.py", "content34.py", "content56.py", "content7.py", "content8.py"]
+for f in files:
+    print("=" * 24, f)
+    runpy.run_path(f, run_name="__main__")
+print("ALL DONE")

@@ -1,20 +1,24 @@
 # -*- coding: utf-8 -*-
-"""Render cards + print PDF + web PDF for the EN x FR edition.
-Run ONLY with tools/venv/bin/python (system python3 has no cairosvg)."""
-import glob, os
+"""Render W46 EN core: cards (PNG @1950), print PDF. Web PDF via tools/webpdf.py."""
+import os, glob
+from PIL import Image
 import cairosvg
 from pypdf import PdfWriter
-from PIL import Image
-
-base = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-fr")
-w = PdfWriter()
-for f in sorted(glob.glob(base + "/svg/*.svg")):
-    cairosvg.svg2png(url=f, write_to=f.replace("/svg/", "/cards/").replace(".svg", ".png"), output_width=1950)
-    cairosvg.svg2pdf(url=f, write_to="/tmp/en45frpage.pdf")
-    w.append("/tmp/en45frpage.pdf")
-w.write(open(base + "/The-Lucerna-VOL2-FR-print.pdf", "wb"))
-imgs = [Image.open(f).convert("RGB") for f in sorted(glob.glob(base + "/cards/*.png"))]
-for im in imgs:
-    im.thumbnail((1400, 1938))
-imgs[0].save(base + "/The-Lucerna-VOL2-FR-web.pdf", save_all=True, append_images=imgs[1:], quality=85)
-print("render done")
+ED = os.path.dirname(os.path.abspath(__file__))
+SVG = os.path.join(ED, "svg"); CARDS = os.path.join(ED, "cards")
+os.makedirs(CARDS, exist_ok=True)
+pages = sorted(glob.glob(os.path.join(SVG, "*.svg")))
+assert len(pages) == 8, pages
+for p in pages:
+    out = os.path.join(CARDS, os.path.basename(p).replace(".svg", ".png"))
+    cairosvg.svg2png(url=p, write_to=out, output_width=1950)
+    print("card:", out, os.path.getsize(out))
+writer = PdfWriter()
+for p in pages:
+    pdf_bytes = cairosvg.svg2pdf(url=p)
+    tmp = p.replace(".svg", ".tmp.pdf")
+    with open(tmp, "wb") as f: f.write(pdf_bytes)
+    writer.append(tmp); os.remove(tmp)
+pp = os.path.join(ED, "The-Lucerna-VOL2-en-fr.pdf")
+with open(pp, "wb") as f: writer.write(f)
+print("print PDF:", pp, os.path.getsize(pp))

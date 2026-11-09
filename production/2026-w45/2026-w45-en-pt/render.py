@@ -1,44 +1,24 @@
 # -*- coding: utf-8 -*-
-"""Render the W45 EN x PT edition: svg/ -> cards/ PNG (1950x2700) -> print PDF -> web PDF.
-Web PDF: pages downscaled to 1400px wide, JPEG q85 (finalized core recipe).
-Run ONLY with tools/venv/bin/python (system python3 has no cairosvg)."""
-import os, io, glob
-import cairosvg
+"""Render W46 EN core: cards (PNG @1950), print PDF. Web PDF via tools/webpdf.py."""
+import os, glob
 from PIL import Image
-from pypdf import PdfWriter, PdfReader
-
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-pt")
-SVG_DIR = os.path.join(BASE, "svg")
-CARDS = os.path.join(BASE, "cards")
+import cairosvg
+from pypdf import PdfWriter
+ED = os.path.dirname(os.path.abspath(__file__))
+SVG = os.path.join(ED, "svg"); CARDS = os.path.join(ED, "cards")
 os.makedirs(CARDS, exist_ok=True)
-
-svgs = sorted(glob.glob(os.path.join(SVG_DIR, "*.svg")))
-assert len(svgs) == 8, svgs
-
-page_pdfs = []
-for s in svgs:
-    name = os.path.splitext(os.path.basename(s))[0]
-    png_path = os.path.join(CARDS, name + ".png")
-    cairosvg.svg2png(url=s, write_to=png_path, output_width=1950, output_height=2700)
-    page_pdfs.append(cairosvg.svg2pdf(url=s))
-    print("rendered", name)
-
-w = PdfWriter()
-for b in page_pdfs:
-    r = PdfReader(io.BytesIO(b))
-    for pg in r.pages:
-        w.add_page(pg)
-print_path = os.path.join(BASE, "The-Lucerna-VOL2-PT.pdf")
-with open(print_path, "wb") as fh:
-    w.write(fh)
-print("print PDF:", print_path, os.path.getsize(print_path))
-
-imgs = []
-for s in svgs:
-    name = os.path.splitext(os.path.basename(s))[0]
-    im = Image.open(os.path.join(CARDS, name + ".png")).convert("RGB")
-    im = im.resize((1400, int(1400 * im.height / im.width)), Image.LANCZOS)
-    imgs.append(im)
-web_path = os.path.join(BASE, "The-Lucerna-VOL2-PT-web.pdf")
-imgs[0].save(web_path, save_all=True, append_images=imgs[1:], quality=85)
-print("web PDF:", web_path, os.path.getsize(web_path))
+pages = sorted(glob.glob(os.path.join(SVG, "*.svg")))
+assert len(pages) == 8, pages
+for p in pages:
+    out = os.path.join(CARDS, os.path.basename(p).replace(".svg", ".png"))
+    cairosvg.svg2png(url=p, write_to=out, output_width=1950)
+    print("card:", out, os.path.getsize(out))
+writer = PdfWriter()
+for p in pages:
+    pdf_bytes = cairosvg.svg2pdf(url=p)
+    tmp = p.replace(".svg", ".tmp.pdf")
+    with open(tmp, "wb") as f: f.write(pdf_bytes)
+    writer.append(tmp); os.remove(tmp)
+pp = os.path.join(ED, "The-Lucerna-VOL2-en-pt.pdf")
+with open(pp, "wb") as f: writer.write(f)
+print("print PDF:", pp, os.path.getsize(pp))

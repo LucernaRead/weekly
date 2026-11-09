@@ -3,49 +3,49 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-en-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · LANGUAGE FOCUS =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("LANGUAGE IN HAND · Sprachwerkstatt", "The Lucerna", "A2 → B2 · Phrases of the week · Sätze der Woche")
+p.band("LANGUAGE IN HAND　Sprachwerkstatt", "The Lucerna", "A2 → B2　Phrases of the week　Sätze der Woche")
 
 cA = Flow(p, [(COLX[0], CW)], 200, 1150, tag="P7-A2")
-cA.head("LEVEL A2 · Grundlagen", 27)
+cA.head("LEVEL A2　Grundlagen", 27)
 cA.head("FALLING BACK", 24)
 cA.para("« The clocks fell back. » Fall back = to go back one hour. The past is fell back, not « falled back ». The repeated hour on November 1 is the example of the week (page 2).", 22.5)
 cA.head("GOING TO + VERB", 24)
 cA.para("For a plan : « She is going to vote on Tuesday. » be + going to + the verb, with no change. It is the friendliest future in English — use it for every plan of the week.", 22.5)
-cA.box("THE EXAMPLE · Beispiel", [
+cA.box("THE EXAMPLE　Beispiel", [
     ("« Americans are going to vote on Tuesday. » — the election story, from page 1.", "serif", False, INK, 21.5, 1.42),
 ])
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("LEVEL B1 · Aufbau", 27)
+cB.head("LEVEL B1　Aufbau", 27)
 cB.head("COMPARATIVES", 24)
 cB.para("Short adjective + -er + than : « The Bernabéu is bigger than most stadiums. » Long adjective : more + adjective : « more convenient ». And good becomes better — never « more good ». Page 4 is full of them.", 22.5)
 cB.head("THE PAST SIMPLE", 24)
 cB.para("Regular verbs add -ed : changed, watched. Irregular verbs change : fall → fell, go → went, choose → chose. Use it for what is already finished — the clocks that fell back on November 1, and the « as-if-finished » retellings on page 4. The November 3 election and the November 8 games are still to come at press time, so their results are not past yet.", 22.5)
-cB.box("THE EXAMPLE · Beispiel", [
+cB.box("THE EXAMPLE　Beispiel", [
     ("« The clocks fell back on Sunday, November 1. » — fall → fell (page 2).", "serif", False, INK, 21.5, 1.42),
 ])
 cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW)], 200, 1150, tag="P7-B2")
-cC.head("LEVEL B2 · Herausforderung", 27)
+cC.head("LEVEL B2　Herausforderung", 27)
 cC.head("HEADLINE PRESENT", 24)
 cC.para("Headlines speak of yesterday in the present : « America votes », « Bengals play in Madrid ». The present simple makes old news feel live. Read the front page again and find three.", 22.5)
 cC.head("WHETHER = IF ?", 24)
 cC.para("« Nobody knows whether the race is called yet. » Whether introduces an open question inside a sentence — more elegant than if, and safe everywhere. It is the word for election-night uncertainty.", 22.5)
-cC.box("THE EXAMPLE · Beispiel", [
+cC.box("THE EXAMPLE　Beispiel", [
     ("« Patience is part of the system, not a failure of it. » — part of = ein Teil von (page 6).", "serif", False, INK, 21.5, 1.42),
 ])
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-tools")
-cD.head("THE TOOLBOX · Werkzeugkiste", 27)
+cD.head("THE TOOLBOX　Werkzeugkiste", 27)
 cD.para("Three sentences to keep in your pocket, one for each level :", 22.5)
 cD.para("A2 — « It is one o'clock — again ! »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « The clocks fell back on Sunday. »", 22.5)
@@ -56,9 +56,9 @@ cD.end_report()
 
 # --- phrases of the week ---
 py = 1210
-p.hline(MX, RIGHT, py - 14, GOLD, 2)
-p.text(MX, py + 26, "PHRASES OF THE WEEK · Sätze der Woche (alle aus dieser Ausgabe)", 27, "sans", True, OLIVE)
-p.text(RIGHT, py + 26, "Jeder Satz: ein Grammatikpunkt + eine Übung · Antworten auf Seite 8", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, py - 14, OLIVE, 2)
+p.text(MX, py + 26, "PHRASES OF THE WEEK　Sätze der Woche (alle aus dieser Ausgabe)", 27, "sans", True, OLIVE)
+p.text(RIGHT, py + 26, "Jeder Satz: ein Grammatikpunkt + eine Übung　Antworten auf Seite 8", 20, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
 phrases = [
     ("« Tuesday, November 3, is Election Day in the United States. » (page 1)",
@@ -94,9 +94,9 @@ pf.end_report()
 
 # --- bottom: clinic (left) + readers' corner & teaser (right) ---
 by7 = 1870
-p.hline(MX, RIGHT, by7 - 14, GOLD, 2)
+p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("THE ERROR CLINIC · Fehlerklinik", 25)
+cf.head("THE ERROR CLINIC　Fehlerklinik", 25)
 cf.bridge("Jeder Satz enthält einen Fehler: Finde ihn und korrigiere den Satz.")
 cf.ex("A2", "Fehlerkorrektur", "He doesn't like voting early.", "3. Person: doesn't + Grundform",
      "✗ « He don't like voting early. »", instr="Fehlerkorrektur", size=22.5)
@@ -109,15 +109,15 @@ cf.ex("B1", "Fehlerkorrektur", "She is going to watch the film on Friday.", "Nac
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(rx + 24, by7 + 48, "READERS' CORNER · Leserecke", 24, "sans", True, OLIVE)
+p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.text(rx + 24, by7 + 48, "READERS' CORNER　Leserecke", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader in Chicago (editor's example : no real reader letters had arrived when this issue went to press, so the example stays, honestly labeled)", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 206, "Anmerkung der Redaktion | Bis Redaktionsschluss sind keine echten Leserbriefe eingetroffen, und es gibt keinen besten VOL.1-Schreibtext zu besprechen. Das Beispiel oben bleibt daher ehrlich gekennzeichnet stehen; echte Briefe erscheinen ab VOL.3. Schicke uns deinen Brief und deinen Text — wir drucken sie in VOL.3!", 20, "sans", False, GREY, rw - 48, 1.4)
 ty7 = by7 + 332
-p.rect(rx, ty7, rw, 2540 - ty7, fill=DARK)
-p.text(rx + 24, ty7 + 46, "NEXT WEEK · VOL.3 · Vorschau", 24, "sans", True, "#f3edda")
-p.para(rx + 24, ty7 + 84, "Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in Munich. And the midterm results, reported — who won, and what changes.", 21.5, "serif", False, "#e8dfc8", rw - 48, 1.45)
-p.para(rx + 24, ty7 + 218, "Mittwoch: Veterans Day. Sonntag: die NFL in München. Dazu die Ergebnisse der Zwischenwahlen.", 20, "sans", False, "#b3a06a", rw - 48, 1.4)
+p.rect(rx, ty7, rw, 2560 - ty7, fill=CLOTH)
+p.text(rx + 24, ty7 + 46, "NEXT WEEK　VOL.3　Vorschau", 24, "sans", True, ONCLOTH)
+p.para(rx + 24, ty7 + 84, "Wednesday, November 11 : Veterans Day. Sunday, November 15 : the NFL in Munich. And the midterm results, reported — who won, and what changes.", 21.5, "serif", False, "#cac8ba", rw - 48, 1.45)
+p.para(rx + 24, ty7 + 218, "Mittwoch: Veterans Day. Sonntag: die NFL in München. Dazu die Ergebnisse der Zwischenwahlen.", 20, "sans", False, GOOSE, rw - 48, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-langue.svg")
 print("P7 saved, exercises so far:", len(REG))
