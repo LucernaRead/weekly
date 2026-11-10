@@ -17,8 +17,8 @@ nativeLabel: "简体中文"
 exercises: 150
 pages: 8
 pdf: 2026-w43-nl-zh-cn.pdf
-pdfBytes: 1455113
-pdfSha256: f6c58f983d3b3eba6e0a2249076dfee3f3f00ba00e82e053f8231efa7ddc3f68
+pdfBytes: 1455224
+pdfSha256: 6f4743c4f7d56f0e64cce5aca0c99e13fea62290daa578a94776f63818df56c7
 discordThread: "1562312784451084349"
 draft: false
 ---
