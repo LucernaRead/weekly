@@ -3,13 +3,13 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · LANGUAGE FOCUS =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("SPRACHE · Langue", "Die Lucerna", "A2 → B2 · Sätze der Woche & Fehlerklinik · Phrases de la semaine et clinique des erreurs")
+p.band("SPRACHE　Langue", "Die Lucerna", "A2 → B2　Sätze der Woche & Fehlerklinik　Phrases de la semaine et clinique des erreurs")
 
 p.para(MX, 226, "Diese Seite gehört der Sprache: drei kleine Lektionen, die Sätze der Woche aus dieser Ausgabe, unsere Fehlerklinik — und Ihre Briefe.", 23, "serif", False, INK, RIGHT - MX, 1.4)
 p.para(MX, 262, "Cette page est consacrée à la langue : trois mini-leçons, les phrases de la semaine (toutes citées mot pour mot dans les articles de ce numéro), la clinique des erreurs et le courrier des lecteurs.", 20, "sans", False, GREY, RIGHT - MX, 1.4)
@@ -17,9 +17,9 @@ p.para(MX, 262, "Cette page est consacrée à la langue : trois mini-leçons, le
 CTOP, CBOT = 330, 1480
 # --- col A2 ---
 fa = Flow(p, [(COLX[0], CW)], CTOP, CBOT, tag="P7-A2")
-fa.head("A2 · DIE ZAHLEN & «WERDEN»", 24)
+fa.head("A2　DIE ZAHLEN & «WERDEN»", 24)
 fa.para("So sagen Sie die Zahlen: 14,04 Cent pro Liter, rund 8,35 Euro für 50 Liter. Mit werden sprechen Sie über die Zukunft und das Passiv: Am Freitag wird gespielt. Der Tankrabatt wird bis Dezember gelten.")
-fa.box("BEISPIELE · Exemples", [("„Am Freitag wird gespielt.“ · „Der Tankrabatt gilt bis Dezember.“", "serif", False, INK, 21, 1.4)])
+fa.box("BEISPIELE　Exemples", [("„Am Freitag wird gespielt.“　„Der Tankrabatt gilt bis Dezember.“", "serif", False, INK, 21, 1.4)])
 fa.ex("A2", "à compléter", "wird", "passif : wird + Partizip II",
       "Am Freitag ___ gespielt: Hamburg gegen Gladbach.", instr="Compléter", size=20, gap=8)
 fa.ex("A2", "à compléter", "werden", "pluriel : werden",
@@ -31,9 +31,9 @@ fa.ex("A2", "QCM", "A", "voix passive",
 fa.end_report()
 # --- col B1 ---
 fb = Flow(p, [(COLX[1], CW)], CTOP, CBOT, tag="P7-B1")
-fb.head("B1 · VERGLEICHE & GRÜNDE", 24)
+fb.head("B1　VERGLEICHE & GRÜNDE", 24)
 fb.para("Vergleichen geht mit dem Komparativ: Der Abend ist länger als sonst. Gründe geben Sie mit weil: Ich bleibe zu Hause, weil es kalt ist — das Verb steht am Ende des Satzes.")
-fb.box("BEISPIELE · Exemples", [("„Das Spiel ist später als sonst.“ · „Ich lese, weil das Buch spannend ist.“", "serif", False, INK, 21, 1.4)])
+fb.box("BEISPIELE　Exemples", [("„Das Spiel ist später als sonst.“　„Ich lese, weil das Buch spannend ist.“", "serif", False, INK, 21, 1.4)])
 fb.ex("B1", "à compléter", "später", "spät → später (19 h 30, le plus tard)",
       "Das Spiel Hoffenheim–Schalke ist ___ (spät) als die anderen Sonntagsspiele.", instr="Compléter", size=20, gap=8)
 fb.ex("B1", "à compléter", "weil", "weil introduit une cause",
@@ -45,9 +45,9 @@ fb.ex("B1", "QCM", "A", "länger als = plus long que",
 fb.end_report()
 # --- col B2 ---
 fc = Flow(p, [(COLX[2], CW)], CTOP, CBOT, tag="P7-B2")
-fc.head("B2 · MEINUNG SAGEN", 24)
+fc.head("B2　MEINUNG SAGEN", 24)
 fc.para("Eine Meinung sagen Sie höflich so: Meiner Meinung nach ... Oder: Ich finde, dass ... — bei dass steht das Verb am Ende! Nicht sicher? Dann: Es ist fraglich, ob ...")
-fc.box("BEISPIELE · Exemples", [("„Meiner Meinung nach braucht die Pflege mehr Geld.“ · „Niemand weiß, ob die Steuer sinkt.“", "serif", False, INK, 21, 1.4)])
+fc.box("BEISPIELE　Exemples", [("„Meiner Meinung nach braucht die Pflege mehr Geld.“　„Niemand weiß, ob die Steuer sinkt.“", "serif", False, INK, 21, 1.4)])
 fc.ex("B2", "à compléter", "ob", "ob introduit une question indirecte",
       "Ich weiß nicht, ___ die Stromsteuer sinkt.", instr="Compléter", size=20, gap=8)
 fc.ex("B2", "à compléter", "fraglich", "Es ist fraglich, ob ... = il est douteux que ...",
@@ -67,9 +67,9 @@ tb = ["14,04 Cent = 14,04 centimes par litre",
       "Ich finde, dass ... = Je trouve que ...",
       "Es ist fraglich, ob = Il est douteux que"]
 tbh = 62 + sum(len(wrap(t, "serif", False, 20.5, CW - 44)) * 29.5 + 6 for t in tb) + 110
-p.rect(ix, CTOP, CW, tbh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, CTOP, CW, tbh, fill=BOX)
 yy3 = CTOP + 16
-p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN · Outils", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Outils", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in tb:
     yy3 = p.para(ix + 22, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 44, 1.42) + 6
@@ -91,26 +91,26 @@ rh = 62 + 30 + len(wrap(label, "sans", True, 20, CW - 44)) * 29 \
 # transition undercount (each drawn para adds its size on top of the
 # formula's +8 gap); without it the last French line would sit below the
 # box border.
-p.rect(ix, ry, CW, rh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ry, CW, rh, fill="#f0eee5")
 yy3 = ry + 16
-p.text(ix + 22, yy3 + 26, "LESERBRIEFE · Vos lettres", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "LESERBRIEFE　Vos lettres", 23, "sans", True, OLIVE)
 yy3 += 52
-yy3 = p.para(ix + 22, yy3 + 20, label, 20, "sans", True, BRICK, CW - 44, 1.42)
+yy3 = p.para(ix + 22, yy3 + 20, label, 20, "sans", True, OLIVE, CW - 44, 1.42)
 yy3 = p.para(ix + 22, yy3 + 20.5, defer, 20.5, "serif", False, INK, CW - 44, 1.42) + 8
 yy3 = p.para(ix + 22, yy3 + 21, reader, 21, "serif", False, INK, CW - 44, 1.42) + 8
 yy3 = p.para(ix + 22, yy3 + 20.5, invite, 20.5, "serif", False, INK, CW - 44, 1.42) + 8
 yy3 = p.para(ix + 22, yy3 + 19.5, note_fr, 19.5, "sans", False, GREY, CW - 44, 1.42) + 8
 p.para(ix + 22, yy3 + 20.5, invite_fr, 20.5, "serif", False, INK, CW - 44, 1.42)
 wy3 = ry + rh + 16
-p.rect(ix, wy3, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
-p.text(ix + 22, wy3 + 40, "NOCH EIN WORT · Un mot de plus", 22, "sans", True, OLIVE)
+p.rect(ix, wy3, CW, 150, fill=BOX)
+p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Un mot de plus", 22, "sans", True, OLIVE)
 p.para(ix + 22, wy3 + 78, "«der Tankrabatt» (page 2) : la taxe réduite sur l'essence et le diesel. Réduction du carburant.", 20.5, "serif", False, INK, CW - 44, 1.42)
 print("P7 col3 ends", wy3 + 150)
 
 # --- phrases of the week (verbatim from this issue) ---
 py = 1520
-p.hline(MX, RIGHT, py - 12, GOLD, 2)
-p.text(MX, py + 28, "SÄTZE DER WOCHE · Phrases de la semaine", 28, "sans", True, OLIVE)
+p.hline(MX, RIGHT, py - 12, OLIVE, 2)
+p.text(MX, py + 28, "SÄTZE DER WOCHE　Phrases de la semaine", 28, "sans", True, OLIVE)
 p.text(RIGHT, py + 28, "Citées mot pour mot dans les articles de ce numéro", 20, "sans", False, GREY, anchor="end")
 phrases = [
     ("Vier Nächte Fußball hintereinander, dann ein ganzes Wochenende Liga.", "Quatre nuits de football d'affilée, puis tout un week-end de championnat.", "Seite 4 · B1"),
@@ -134,9 +134,9 @@ for i, (q, zh, tag) in enumerate(phrases):
 
 # --- error clinic ---
 ey = 1980
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "FEHLERKLINIK · La clinique des erreurs", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Les quatre erreurs les plus fréquentes · corrigez d'abord, puis vérifiez", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "FEHLERKLINIK　La clinique des erreurs", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Les quatre erreurs les plus fréquentes　corrigez d'abord, puis vérifiez", 20, "sans", False, GREY, anchor="end")
 clinic = [
     ("Die Schule beginnt wieder in Baden-Württemberg am Montag.", "In Baden-Württemberg beginnt die Schule am Montag wieder.", "Verbe en deuxième position : même si le sujet n'est pas en tête, le verbe reste deuxième."),
     ("Halb acht ist 8.30 Uhr.", "Halb acht ist 7.30 Uhr.", "halb acht = 7 h 30, une demi-heure avant huit heures."),
@@ -145,7 +145,7 @@ clinic = [
 ]
 for i, (wrong, right, note) in enumerate(clinic):
     cx = COLX[i]
-    p.text(cx, ey + 84, "FALSCH", 19, "sans", True, BRICK)
+    p.text(cx, ey + 84, "FALSCH", 19, "sans", True, OLIVE)
     yy = p.para(cx, ey + 112, wrong, 20.5, "serif", False, INK, CW, 1.38)
     p.text(cx, yy + 28, "RICHTIG", 19, "sans", True, OLIVE)
     yy = p.para(cx, yy + 56, right, 20.5, "serif", True, INK, CW, 1.38)
@@ -153,9 +153,9 @@ for i, (wrong, right, note) in enumerate(clinic):
 
 # --- next issue teaser ---
 ty = 2400
-p.rect(MX, ty, RIGHT - MX, 130, fill=DARK)
-p.text(MX + 26, ty + 46, "IN DER NÄCHSTEN AUSGABE · Au prochain numéro (VOL.3)", 24, "sans", True, "#f3edda")
-p.para(MX + 26, ty + 82, "Sonntag, 15. November: Volkstrauertag und NFL in München — American Football in der Allianz Arena · dazu St. Martin am 11. November, die Europapokal-Rückspiele und Ihre Briefe: Schreiben Sie uns! Die besten echten Briefe erscheinen in VOL.3!", 21, "serif", False, "#e8dfc8", RIGHT - MX - 52, 1.4)
+p.rect(MX, ty, RIGHT - MX, 130, fill=CLOTH)
+p.text(MX + 26, ty + 46, "IN DER NÄCHSTEN AUSGABE　Au prochain numéro (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 26, ty + 82, "Sonntag, 15. November: Volkstrauertag und NFL in München — American Football in der Allianz Arena · dazu St. Martin am 11. November, die Europapokal-Rückspiele und Ihre Briefe: Schreiben Sie uns! Die besten echten Briefe erscheinen in VOL.3!", 21, "serif", False, "#cac8ba", RIGHT - MX - 52, 1.4)
 p.foot(7)
 p.save(f"{OUT}/p7-sprache.svg")
 print("P7 saved, exercises so far:", len(REG))

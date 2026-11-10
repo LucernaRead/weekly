@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURE (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("KULTUR · Cultuur", "Die Lucerna", "A2 → B1 · Ferienwechsel & Herbst · Vakantiewissel en herfst")
+p.band("KULTUR　Cultuur", "Die Lucerna", "A2 → B1　Ferienwechsel & Herbst　Vakantiewissel en herfst")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("Ferienwechsel: Die einen kommen, die anderen gehen", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: A2 → B1")
+f.title("Ferienwechsel: Die einen kommen, die anderen gehen", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: A2 → B1")
 f.para("In dieser Woche wechseln die Ferien: In Baden-Württemberg ist die Schule schon wieder losgegangen — die Herbstferien dort sind vorbei. In Bayern dagegen haben die Schülerinnen und Schüler noch frei: Dort dauern die Herbstferien in dieser Woche noch an.")
 f.para("Was macht man im November? Der Herbst zeigt seine ruhige Seite: Man liest, man kocht Kürbissuppe, man geht spazieren — und man plant schon den Advent. Die Tage sind kurz, die Abende lang. Viele Familien nutzen die freie Zeit für Ausflüge in die Berge oder an einen See — bevor der Winter kommt.")
 f.para("Rückblick: Am Samstag, dem 31. Oktober, war Halloween — und zugleich Reformationstag in neun Bundesländern. Ebenfalls am 31. Oktober spielte Bayern in Dortmund — der Klassiker. Einen Tag später, am Sonntag, dem 1. November, war Allerheiligen: ein Feiertag in Baden-Württemberg, Bayern, Nordrhein-Westfalen, Rheinland-Pfalz und dem Saarland. Die Geschäfte blieben geschlossen, viele Menschen besuchten die Gräber ihrer Angehörigen.")
@@ -30,9 +30,9 @@ facts = ["Baden-Württemberg ist seit Montag, dem 2. November, wieder in der Sch
          "Allerheiligen am 1. November ist ein stiller Feiertag: Die Geschäfte bleiben zu."]
 sy3 = 200
 sh = 45 + 33 * len(facts) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in facts)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "FERIENWECHSEL · Vakantiewissel", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "FERIENWECHSEL　Vakantiewissel", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -41,9 +41,9 @@ words = ["der Nebel — mist", "das Laub — bladeren", "der Kürbis — pompoen
          "die Kerze — kaars", "der Spaziergang — wandeling", "die Lesung — voorleesavond"]
 sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "HERBSTWÖRTER · Herfstwoorden", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "HERBSTWÖRTER　Herfstwoorden", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -51,9 +51,9 @@ print("P3 col3 vocab ends", sy3 + sh)
 ey3 = sy3 + sh + 26
 etvous = "Und Sie? Lesen Sie im Herbst mehr als im Sommer? Welches Buch liegt gerade auf Ihrem Nachttisch? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("Lees je in de herfst meer? Welk boek ligt naast je bed? Schrijf twee Duitse zinnen!", "sans", False, 20, CW - 44)) - 1)
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "UND SIE? · En jij?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "UND SIE?　En jij?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Lees je in de herfst meer? Welk boek ligt naast je bed? Schrijf twee Duitse zinnen!", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -61,20 +61,20 @@ print("P3 col3 undsie ends", ey3 + eh)
 tipp = "Tipp: An einem grauen Nachmittag ins Museum — dort ist es warm."
 sy3 = ey3 + eh + 26
 sh = 45 + 33 + 30.53 * len(wrap(tipp, "serif", False, 21.5, CW - 44))
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "DER TIPP · Tip van de redactie", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER TIPP　Tip van de redactie", 24, "sans", True, OLIVE)
 yy3 += 52
 p.para(ix + 22, yy3 + 21, tipp, 21.5, "serif", False, INK, CW - 44, 1.42)
 print("P3 col3 ends", sy3 + sh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Oefeningen pagina 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · Niveaus lopen door elkaar — zoek per nummer", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · RICHTIG ODER FALSCH?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Oefeningen pagina 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus lopen door elkaar — zoek per nummer", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P3-ex")
+e.head("A　RICHTIG ODER FALSCH?", 25)
 e.bridge("Lees het artikel op pagina 3. Juist of onjuist?")
 e.ex("A2", "juist/onjuist", "Richtig", "Baden-Württemberg weer naar school op maandag",
      "In Baden-Württemberg sind die Herbstferien vorbei. Richtig oder falsch?", instr="Beoordeel", size=20, gap=8)
@@ -86,7 +86,7 @@ e.ex("B1", "juist/onjuist", "Falsch", "31 oktober is ook Hervormingsdag in negen
      "Am 31. Oktober war nur Halloween, kein Feiertag. Richtig oder falsch?", instr="Beoordeel", size=20, gap=8)
 e.ex("A2", "juist/onjuist", "Falsch", "winkels gesloten op Allerheiligen",
      "Die Geschäfte sind an Allerheiligen geöffnet. Richtig oder falsch?", instr="Beoordeel", size=20, gap=8)
-e.head("B · WÖRTER AUS DEM TEXT", 25)
+e.head("B　WÖRTER AUS DEM TEXT", 25)
 e.bridge("Vul in met de woorden uit het kader.")
 e.para("Ferienwechsel · Ausflug · Lesung · Advent · Nebel", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "invullen", "Ferienwechsel", "vakantiewissel",
@@ -99,7 +99,7 @@ e.ex("A2", "invullen", "Advent", "advent wordt in november al gepland",
      "Im November plant man schon den ___.", instr="Vul in", size=20, gap=8)
 e.ex("A2", "invullen", "Nebel", "mist boven het meer",
      "Am Morgen liegt ___ über dem See.", instr="Vul in", size=20, gap=8)
-e.head("C · LESEVERSTEHEN", 25)
+e.head("C　LESEVERSTEHEN", 25)
 e.bridge("Kies het juiste antwoord.")
 e.ex("A2", "meerkeuze", "B", "vakantie in Baden-Württemberg voorbij",
      "Wo sind die Ferien schon vorbei? A. in Bayern · B. in Baden-Württemberg · C. in Berlin", size=20, gap=8)
@@ -109,7 +109,7 @@ e.ex("A2", "meerkeuze", "A", "graven bezoeken op Allerheiligen",
      "Was machen viele an Allerheiligen? A. Sie besuchen Gräber. · B. Sie gehen in die Schule. · C. Sie kaufen Kostüme.", size=20, gap=8)
 e.ex("B1", "meerkeuze", "A", "korte dagen, dus lange avonden",
      "Warum sind die Abende lang? A. Die Tage sind kurz. · B. Die Uhren gehen vor. · C. Die Ferien sind lang.", size=20, gap=8)
-e.head("D · SÄTZE BAUEN", 25)
+e.head("D　SÄTZE BAUEN", 25)
 e.bridge("Zet de woorden in de juiste volgorde.")
 e.ex("A2", "zinnen bouwen", "In Baden-Württemberg ist die Schule wieder losgegangen.", "tijd en plaats vooraan, werkwoord op plaats 2",
      "in Baden-Württemberg / ist / die Schule / wieder losgegangen → ___", instr="Vorm de zin", size=20, gap=8)
@@ -127,11 +127,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · Sport", "Die Lucerna", "LEVEL B1 · Europapokal & Bundesliga · Europacups en Bundesliga")
+p.band("SPORT　Sport", "Die Lucerna", "LEVEL B1　Europapokal & Bundesliga　Europacups en Bundesliga")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("Englische Woche: Vier Nächte, dann der Spieltag", 37)
-f.byline("Von der Lucerna-Sportredaktion · Leseniveau: B1")
+f.title("Englische Woche: Vier Nächte, dann der Spieltag", 32)
+f.byline("Von der Lucerna-Sportredaktion　Leseniveau: B1")
 f.para("Was für eine Fußballwoche! Am Dienstag und Mittwoch spielt die Champions League, am Donnerstag die Europa League — und am Freitag beginnt schon der 9. Spieltag der Bundesliga. Vier Nächte Fußball hintereinander, dann ein ganzes Wochenende Liga.")
 f.para("Am Dienstagabend wird es ernst: Bayern München spielt um 21.00 Uhr bei Atlético Madrid. Schon um 18.45 Uhr spielt der VfB Stuttgart bei Galatasaray in Istanbul. Zwei schwere Auswärtsspiele für die deutschen Teams.")
 f.para("Am Mittwochabend (21.00 Uhr) geht es weiter: Borussia Dortmund empfängt Real Betis Sevilla, und RB Leipzig spielt gegen Manchester City. Für Leipzig ist es das schwerste Spiel der Woche: City ist der Favorit — aber zu Hause ist alles möglich.")
@@ -149,9 +149,9 @@ cy3 = caption(p, bx, 670, CW, "Kopfball im Spiel: So sieht ein Duell in der Luft
 ey3 = cy3 + 26
 etvous = "Und Sie? Für wen sind Sie in dieser Woche — Bayern, Dortmund, Leipzig oder Stuttgart? Und wer gewinnt am Samstag das Topspiel? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("Wie steun jij deze week? Wie wint de topwedstrijd op zaterdag? Schrijf twee Duitse zinnen!", "sans", False, 20, CW - 44)) - 1)
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "UND SIE? · En jij?", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "UND SIE?　En jij?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "Wie steun jij deze week? Wie wint de topwedstrijd op zaterdag? Schrijf twee Duitse zinnen!", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -159,7 +159,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "DER 9. SPIELTAG · Speeldag 9: de wedstrijden", 26, "sans", True, OLIVE)
+p.text(MX, ty, "DER 9. SPIELTAG　Speeldag 9: de wedstrijden", 26, "sans", True, OLIVE)
 rows = [
     ("Fr 6.11.", "20.30", "Hamburger SV – Borussia Mönchengladbach"),
     ("Sa 7.11.", "15.30", "Borussia Dortmund – SV Elversberg · SC Paderborn 07 – Eintracht Frankfurt"),
@@ -173,7 +173,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -182,11 +182,11 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1640
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Oefeningen pagina 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · Niveaus lopen door elkaar — zoek per nummer", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · LESEVERSTEHEN", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Oefeningen pagina 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus lopen door elkaar — zoek per nummer", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P4-ex")
+e.head("A　LESEVERSTEHEN", 25)
 e.bridge("Lees het artikel op pagina 4 en kies het juiste antwoord.")
 e.ex("B1", "meerkeuze", "B", "Bayern uit bij Atlético op dinsdag",
      "Bayern spielt am Dienstag... A. zu Hause gegen Atlético · B. bei Atlético Madrid · C. bei Galatasaray", size=20, gap=8)
@@ -198,7 +198,7 @@ e.ex("B1", "meerkeuze", "A", "Hoffenheim uit bij Crystal Palace in de Europa Lea
      "Hoffenheim spielt in der Europa League bei... A. Crystal Palace · B. Galatasaray · C. Real Betis", size=20, gap=8)
 e.ex("B1", "meerkeuze", "B", "topwedstrijd op zaterdag: Stuttgart–Bremen",
      "Das Topspiel am Samstag ist... A. Hamburg–Gladbach · B. Stuttgart–Bremen · C. Köln–Leverkusen", size=20, gap=8)
-e.head("B · DIE WÖRTER", 25)
+e.head("B　DIE WÖRTER", 25)
 e.match_set("B1", "koppelen",
             ["die Englische Woche", "auswärts", "der Favorit", "eröffnen"],
             ["eine Woche mit Spielen unter der Woche und am Wochenende",
@@ -208,7 +208,7 @@ e.match_set("B1", "koppelen",
             ["a", "b", "c", "d"],
             ["Englische Woche = Engelse week a", "auswärts = uit b", "Favorit = favoriet c", "eröffnen = openen d"],
             instr="Combineer")
-e.head("C · KOMPARATIV", 25)
+e.head("C　KOMPARATIV", 25)
 e.bridge("Vul in met de vergrotende trap (tussen haakjes staat de stellende trap).")
 e.ex("B1", "invullen", "schwerer", "schwer → schwerer",
      "Für Leipzig wird der Abend gegen City ___ (schwer) als normal.", instr="Vul in", size=20, gap=8)
@@ -218,7 +218,7 @@ e.ex("B1", "invullen", "mehr", "viel → mehr (fans willen meer zien)",
      "Die Fans wollen ___ (viel) Tore sehen.", instr="Vul in", size=20, gap=8)
 e.ex("B1", "invullen", "früher", "früh → früher (18.45 uur is vroeger dan 21.00 uur)",
      "Stuttgart spielt schon um 18.45 Uhr — ___ (früh) als das Bayern-Spiel.", instr="Vul in", size=20, gap=8)
-e.head("D · DIE UHRZEITEN", 25)
+e.head("D　DIE UHRZEITEN", 25)
 e.bridge("Kijk naar de wedstrijdtabel hierboven en kies het juiste antwoord.")
 e.ex("B1", "meerkeuze", "A", "Hamburg–Gladbach op vrijdag om 20.30 uur",
      "Das Spiel Hamburg–Gladbach beginnt um... A. 20.30 Uhr · B. 18.30 Uhr · C. 15.30 Uhr", size=20, gap=8)

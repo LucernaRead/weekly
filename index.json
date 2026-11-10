@@ -4677,10 +4677,14 @@
       "dir": "issues/2026-w45/2026-w45-de-en",
       "md": "issues/2026-w45/2026-w45-de-en/2026-w45-de-en.md",
       "pdf": "issues/2026-w45/2026-w45-de-en/2026-w45-de-en.pdf",
-      "pdfBytes": 1066074,
-      "pdfSha256": "89c59cb555694c8b10fcc31bb839850279ab216d01928aba70690669158edf77",
+      "pdfBytes": 972821,
+      "pdfSha256": "94b258d8dbdb1fb87fc069e621deec4fa7690310f3189b48ea8751f58acb3fa2",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-en/2026-w45-de-en.text.md",
+        "bytes": 48183,
+        "sha256": "cba8e97c9699190922857d08916992f4b3873a0e30d8eb3a0c720f01c09ba8c8"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4706,10 +4710,14 @@
       "dir": "issues/2026-w45/2026-w45-de-fr",
       "md": "issues/2026-w45/2026-w45-de-fr/2026-w45-de-fr.md",
       "pdf": "issues/2026-w45/2026-w45-de-fr/2026-w45-de-fr.pdf",
-      "pdfBytes": 1073179,
-      "pdfSha256": "1a593f374256fe354e77765650c22d2ba229bfec3749cdbd8bc3b8cbaa2373b5",
+      "pdfBytes": 978474,
+      "pdfSha256": "848fc640649aa1c2ee3b91eb8237b3da6702eb481116c2c9d99de55d8cb1da2b",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-fr/2026-w45-de-fr.text.md",
+        "bytes": 49749,
+        "sha256": "8e980525eb8fff97d443f3657f60e1c3019848a03eb6fc4695d50f4dc99bb7c9"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4735,10 +4743,14 @@
       "dir": "issues/2026-w45/2026-w45-de-es",
       "md": "issues/2026-w45/2026-w45-de-es/2026-w45-de-es.md",
       "pdf": "issues/2026-w45/2026-w45-de-es/2026-w45-de-es.pdf",
-      "pdfBytes": 1074922,
-      "pdfSha256": "816ddf6b27bc71aab3893dc628cce28abc85820ebd40693e425c0b49cffcb812",
+      "pdfBytes": 979869,
+      "pdfSha256": "9dbbb49ca1ddc0c948fd387176d2c39a7ee76d65e26b0efca963d40cfeb921a8",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-es/2026-w45-de-es.text.md",
+        "bytes": 50653,
+        "sha256": "0c5442378ee3f1c33f4c616546e00da2ae908c8100f5b68973613a01f7384d3e"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4764,10 +4776,14 @@
       "dir": "issues/2026-w45/2026-w45-de-it",
       "md": "issues/2026-w45/2026-w45-de-it/2026-w45-de-it.md",
       "pdf": "issues/2026-w45/2026-w45-de-it/2026-w45-de-it.pdf",
-      "pdfBytes": 1066598,
-      "pdfSha256": "d7d0e5c82e65219e87b92f3c9abacc9e3bb7faea08db10aec4a2fa86c1a18154",
+      "pdfBytes": 973391,
+      "pdfSha256": "49cbedde023ab0be1b31c3601b5004406f31546f2e0432bcc4d3803c3787b3a9",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-it/2026-w45-de-it.text.md",
+        "bytes": 49402,
+        "sha256": "fca1dbd5513f2a017f70c4acdc47ea1c20219e8e1240f2fb0a52650482566437"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4793,10 +4809,14 @@
       "dir": "issues/2026-w45/2026-w45-de-pt",
       "md": "issues/2026-w45/2026-w45-de-pt/2026-w45-de-pt.md",
       "pdf": "issues/2026-w45/2026-w45-de-pt/2026-w45-de-pt.pdf",
-      "pdfBytes": 1077622,
-      "pdfSha256": "ad0eb3159b9123d1f71b02af6d0aff1cbba264e13bd69fd8d1d219570994be74",
+      "pdfBytes": 981120,
+      "pdfSha256": "32eaac01f3026cf07326658358681aed8e2f3899c7973f8accdf6eaf05066cfa",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-pt/2026-w45-de-pt.text.md",
+        "bytes": 49498,
+        "sha256": "7277c81d3d12c28822be63c670ba38959aac3bf4b04d8ccb0c76210df94e8767"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4822,10 +4842,14 @@
       "dir": "issues/2026-w45/2026-w45-de-nl",
       "md": "issues/2026-w45/2026-w45-de-nl/2026-w45-de-nl.md",
       "pdf": "issues/2026-w45/2026-w45-de-nl/2026-w45-de-nl.pdf",
-      "pdfBytes": 1065536,
-      "pdfSha256": "6db6296ddaf29ef28a07a585cab2b111c3988a73c1087ad7686acbce0b015be7",
+      "pdfBytes": 972767,
+      "pdfSha256": "e47c2e54ba53616e2368f8ded2715e9542be4d06fbbd7622a614a5abb3e01acc",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-nl/2026-w45-de-nl.text.md",
+        "bytes": 48617,
+        "sha256": "7a6757f7e3cf69eec3333d62aced4c1703d26b195e95e1eb2c663e0aee46431d"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4851,10 +4875,14 @@
       "dir": "issues/2026-w45/2026-w45-de-ru",
       "md": "issues/2026-w45/2026-w45-de-ru/2026-w45-de-ru.md",
       "pdf": "issues/2026-w45/2026-w45-de-ru/2026-w45-de-ru.pdf",
-      "pdfBytes": 1106509,
-      "pdfSha256": "5217b71ee413e697dbeb0c2ce7d7f080d5af87a57de2b481461a64b07455a7cf",
+      "pdfBytes": 1029477,
+      "pdfSha256": "187e7c45b0a85024fac267047f5aec4f52977cfdc04b5e614aa9da5954518eee",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-ru/2026-w45-de-ru.text.md",
+        "bytes": 55936,
+        "sha256": "0b854db94ada63036aea52254913fba4fa981be403997947f956e0d6785384d9"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4880,10 +4908,14 @@
       "dir": "issues/2026-w45/2026-w45-de-ja",
       "md": "issues/2026-w45/2026-w45-de-ja/2026-w45-de-ja.md",
       "pdf": "issues/2026-w45/2026-w45-de-ja/2026-w45-de-ja.pdf",
-      "pdfBytes": 1952039,
-      "pdfSha256": "934698af21afa99257d5690b1a613c7f31b36db0faa9750a30639796ba318719",
+      "pdfBytes": 1711334,
+      "pdfSha256": "dfd8fb4600355084b53a21b6fb151a4c15afd9d8e5a7f9043fbdf0e94f76cec0",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-ja/2026-w45-de-ja.text.md",
+        "bytes": 51043,
+        "sha256": "54222479d02c212913cc641e4708620828dca7ce5e2b27811129754584676435"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4909,10 +4941,14 @@
       "dir": "issues/2026-w45/2026-w45-de-ko",
       "md": "issues/2026-w45/2026-w45-de-ko/2026-w45-de-ko.md",
       "pdf": "issues/2026-w45/2026-w45-de-ko/2026-w45-de-ko.pdf",
-      "pdfBytes": 1444214,
-      "pdfSha256": "444195da2b9b7473ce4cb8d5e4da73c5d53d0fc9608ad4d928998ce150e02fa4",
+      "pdfBytes": 1261419,
+      "pdfSha256": "22133d4b64adc355e9d2da47f1ef1a02559a439fdd14c3d9fd8ba99726143a0a",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-ko/2026-w45-de-ko.text.md",
+        "bytes": 50947,
+        "sha256": "9feb32f890f067f2f9835d989643e0a1763db060b90ad2b3ad5d3b14c3d1b793"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4938,10 +4974,14 @@
       "dir": "issues/2026-w45/2026-w45-de-zh-cn",
       "md": "issues/2026-w45/2026-w45-de-zh-cn/2026-w45-de-zh-cn.md",
       "pdf": "issues/2026-w45/2026-w45-de-zh-cn/2026-w45-de-zh-cn.pdf",
-      "pdfBytes": 1741648,
-      "pdfSha256": "ec71a174ddf06575299ce23939b476735ff80c94b73a817369d83551da6545d8",
+      "pdfBytes": 1501997,
+      "pdfSha256": "ce1fee649aa68167c84fcf9e7d2c95efb2e47544fbfea2214a73ee32c7376c61",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-zh-cn/2026-w45-de-zh-cn.text.md",
+        "bytes": 47403,
+        "sha256": "8c5aada69761cc3ee6a12b49ce2c07e8ae111b3d35fde25424fc8e44e5a992d4"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },
@@ -4967,10 +5007,14 @@
       "dir": "issues/2026-w45/2026-w45-de-zh-tw",
       "md": "issues/2026-w45/2026-w45-de-zh-tw/2026-w45-de-zh-tw.md",
       "pdf": "issues/2026-w45/2026-w45-de-zh-tw/2026-w45-de-zh-tw.pdf",
-      "pdfBytes": 2125400,
-      "pdfSha256": "352893b66a90041357fbd55c1fed8f2e28c0b6b7d3e13734fac440e64c5f127d",
+      "pdfBytes": 1852371,
+      "pdfSha256": "427c2028a1f424b326d8f0f297e3e1100536fe3295c606c298c79f84b7c1d9dd",
       "pdfInRepo": true,
-      "text": null,
+      "text": {
+        "path": "issues/2026-w45/2026-w45-de-zh-tw/2026-w45-de-zh-tw.text.md",
+        "bytes": 46919,
+        "sha256": "3e1f05d9fab90bbeb4fb0dc9e29971b716b412d249e68909cc7651549653fd31"
+      },
       "discordThread": "1562312528405598248",
       "draft": false
     },

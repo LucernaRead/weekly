@@ -3,12 +3,12 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-de-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("ÜBUNGEN & ANTWORTEN · 練習與答案", "Die Lucerna", "SCHLUSSTEST · 綜合評估 · Alle Antworten unten auf dieser Seite 答案在本版下方")
+p.band("ÜBUNGEN & ANTWORTEN　練習與答案", "Die Lucerna", "SCHLUSSTEST　綜合評估　Alle Antworten unten auf dieser Seite 答案在本版下方")
 
 bf = Flow(p, [(COLX[i], CW) for i in range(4)], 194, 1505, tag="P8-battery")
 
@@ -24,7 +24,7 @@ cloze_defs = [
     ("B1", "B", "erzählt（第三人稱單數）"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A · LÜCKENTEXT · 完形填空", 24)
+bf.head("A　LÜCKENTEXT　完形填空", 24)
 bf.para(f"Lena freut sich auf die Fußballwoche. Am Dienstag sieht sie Bayern bei Atlético Madrid, am Mittwoch Dortmund gegen Real Betis. Am Donnerstag ({cnums[0]})___ Hoffenheim bei Crystal Palace, und am Freitag ({cnums[1]})___ die Bundesliga mit Hamburg gegen Gladbach. Am Samstag ({cnums[2]})___ Lena einen Kürbis und ({cnums[3]})___ ihn zu Hause. Am Sonntag ({cnums[4]})___ sie lange, denn die Woche war anstrengend. In der Schule erzählt sie: „Die Fußballwoche war toll! Und der ({cnums[5]})___ läuft noch bis Dezember.“ Am Montag ({cnums[6]})___ Lena wieder in die Schule und ({cnums[7]})___ von den Spielen.", 20.5)
 bf.expl("選項：")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 18.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. general MC ----
-bf.head("B · WISSENSFRAGEN · 綜合問答", 24)
+bf.head("B　WISSENSFRAGEN　綜合問答", 24)
 bf.ex("B1", "單選", "A", "減稅到 2026 年 12 月 31 日",
       "Der Tankrabatt läuft bis... A. 31. Dezember 2026 · B. 1. November · C. 31. Oktober", size=19.5, gap=8)
 bf.ex("A2", "單選", "B", "拜仁週二客戰馬競",
@@ -59,7 +59,7 @@ bf.ex("A2", "單選", "B", "諸聖節 11 月 1 日",
       "Allerheiligen ist am... A. 31. Oktober · B. 1. November · C. 2. November", size=19.5, gap=8)
 
 # ---- C. reading ----
-bf.head("C · LESEVERSTEHEN · 閱讀理解", 24)
+bf.head("C　LESEVERSTEHEN　閱讀理解", 24)
 bf.para("Familie Berger aus Stuttgart hat am Montag wieder Schule: Die Kinder gehen um halb acht aus dem Haus. Am Dienstagabend schaut die Familie Bayern bei Atlético im Fernsehen. Am Samstag fährt sie zum Markt und kauft einen Kürbis. Am Sonntag schaut sie Hoffenheim gegen Schalke um 19.30 Uhr. „Eine Woche mit Fußball und Kürbis“, sagt Frau Berger.", 20.5)
 bf.ex("B1", "單選", "A", "halb acht = 7:30",
       "Wann gehen die Kinder aus dem Haus? A. um halb acht · B. um acht · C. um halb neun", size=19.5, gap=8)
@@ -71,7 +71,7 @@ bf.ex("B1", "單選", "B", "霍芬海姆–沙爾克週日 19:30",
       "Wann spielt Hoffenheim gegen Schalke? A. Samstag 18.30 Uhr · B. Sonntag 19.30 Uhr · C. Freitag 20.30 Uhr", size=19.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D · SÄTZE BAUEN · 造句", 24)
+bf.head("D　SÄTZE BAUEN　造句", 24)
 bf.ex("A2", "造句", "Die Bundesliga beginnt am Freitag.", "時間狀語，動詞第二位",
       "die Bundesliga / beginnt / am Freitag → ___", instr="造句", size=19.5, gap=8)
 bf.ex("A2", "造句", "Wir schauen Bayern bei Atlético.", "主謂賓順序",
@@ -82,7 +82,7 @@ bf.ex("B1", "造句", "In Bayern dauern die Ferien noch an.", "地點開頭，�
       "in Bayern / dauern / die Ferien / noch an → ___", instr="造句", size=19.5, gap=8)
 
 # ---- E. translation ----
-bf.head("E · ÜBERSETZEN · 翻譯", 24)
+bf.head("E　ÜBERSETZEN　翻譯", 24)
 bf.ex("A2", "翻譯", "油價減稅持續到十二月。", "laufen = 持續",
       "Der Tankrabatt läuft bis Dezember.（譯成中文）", instr="翻譯", size=19.5, gap=8)
 bf.ex("A2", "翻譯", "我週二看足球。", "schauen = 看",
@@ -93,7 +93,7 @@ bf.ex("B1", "翻譯", "Am Sonntag schlafe ich eine Stunde länger.", "多睡一�
       "我週日多睡一小時。（譯成德語）", instr="翻譯", size=19.5, gap=8)
 
 # ---- F. matching ----
-bf.head("F · WÖRTER PAAREN · 詞彙配對", 24)
+bf.head("F　WÖRTER PAAREN　詞彙配對", 24)
 bf.match_set("B1", "詞彙配對",
              ["der Tankrabatt", "die Pflege", "der Advent", "der Pausenhof"],
              ["die Zeit vor Weihnachten, in der man plant und bastelt",
@@ -113,7 +113,7 @@ ddefs = [
     ("B1", "A", "gehe（第一人稱單數）"),
 ]
 dnums = [reg_ex(lv, "對話補全", k, nt) for lv, k, nt in ddefs]
-bf.head("G · DIALOG · 對話補全", 24)
+bf.head("G　DIALOG　對話補全", 24)
 bf.para(f"— Hallo, Lena! Schaust du am Dienstag Fußball? — Ja, Bayern bei Atlético! Um 21.00 Uhr. — Und am Mittwoch? — Dortmund gegen Betis. Ich bin für Dortmund. — ({dnums[0]})___ du am Sonntag auch Fußball? — Ja, Hoffenheim gegen Schalke um 19.30 Uhr. — Mit wem ({dnums[1]})___ du das Spiel? — Mit meiner Familie, zu Hause. Wir ({dnums[2]})___ Kürbissuppe. — Lecker! Und was ({dnums[3]})___ du am Montag? — Ich ({dnums[4]})___ wieder in die Schule. Die Ferien sind vorbei!", 20.5)
 bf.expl("選項：")
 for n, opts in zip(dnums, [
@@ -128,21 +128,21 @@ bf.end_report()
 
 # ---- writing strip ----
 wy = 1520
-p.hline(MX, RIGHT, wy - 14, GOLD, 2)
+p.hline(MX, RIGHT, wy - 14, OLIVE, 2)
 reg_ex("B1", "寫作", "開放題 — 要點見寫作框，範本在第 8 版寫作框內", "按要點給分")
 wx, ww = span_x(0, 2)
-p.text(wx, wy + 26, "H · SCHREIBEN · 寫作", 25, "sans", True, OLIVE)
+p.text(wx, wy + 26, "H　SCHREIBEN　寫作", 25, "sans", True, OLIVE)
 p.para(wx, wy + 62, "Schreiben Sie einen kurzen Text (80 bis 100 Wörter): «Meine Fußballwoche». Erzählen Sie: Welche Spiele schauen Sie? Mit wem? Was essen Sie beim Spiel? Schreiben Sie auch einen Satz über den Tankrabatt oder die Pflege! Die besten Texte drucken wir in VOL.3 (Seite 7, «Leserbriefe»).", 21.5, "serif", False, INK, ww, 1.45)
 p.para(wx, wy + 196, "用德語寫 80–100 詞：《我的足球週》。寫清看哪幾場比賽、和誰一起、看球時吃什麼，並寫一句關於油價減稅或護理的話。", 20, "sans", False, GREY, ww, 1.4)
 mx2, mw2 = span_x(2, 2)
-p.rect(mx2, wy, mw2, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(mx2 + 22, wy + 38, "MUSTER · 範本（84 Wörter）", 23, "sans", True, OLIVE)
+p.rect(mx2, wy, mw2, 300, fill=BOX)
+p.text(mx2 + 22, wy + 38, "MUSTER　範本（84 Wörter）", 23, "sans", True, OLIVE)
 p.para(mx2 + 22, wy + 74, "In dieser Woche schaue ich viel Fußball. Am Dienstag sehe ich Bayern bei Atlético, am Mittwoch Dortmund gegen Betis. Am Donnerstag spielt Hoffenheim bei Crystal Palace. Am Freitag sehe ich Hamburg gegen Gladbach mit meinem Bruder. Wir essen Brezeln und trinken Apfelschorle. Am Sonntag schauen wir Hoffenheim gegen Schalke. Der Tankrabatt freut mich sehr: Ich tanke 50 Liter und spare rund 8,35 Euro. Am Samstag kaufe ich einen Kürbis und schnitze ihn mit Lena. Am Montag gehe ich zur Arbeit. Die Woche macht Spaß!", 21, "serif", False, INK, mw2 - 44, 1.42)
 
 # ---- keys ----
 ky = wy + 320
-p.hline(MX, RIGHT, ky - 12, GOLD, 2)
-p.text(MX, ky + 26, "ANTWORTEN · 全部答案與簡析（第 1–8 版）", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, ky - 12, OLIVE, 2)
+p.text(MX, ky + 26, "ANTWORTEN　全部答案與簡析（第1–8 版）", 26, "sans", True, OLIVE)
 kf = Flow(p, [(COLX[i], CW) for i in range(4)], ky + 48, 2560, tag="P8-keys")
 from itertools import groupby
 for pg, grp in groupby(REG, key=lambda e: e["page"]):
