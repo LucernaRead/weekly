@@ -188,7 +188,31 @@ class Page:
         for i, (t, cls) in enumerate(runs):
             w = _pil(kind, bold, cls, size).getlength(t)
             it = ' font-style="italic"' if cls == "news_i" else ""
-            self.add(f'<text x="{cur:.1f}" y="{y}" font-family="{_FAMILY[cls]}" font-size="{size}"{wt}{it} fill="{fill}" text-anchor="start"{spattr}>{esc(t)}</text>')
+            # D1 fix (2026-11-09): CairoSVG strips the LEADING whitespace
+            # of a <text> element, so a run beginning with a space prints
+            # glued to the previous run ("наDouble", "→___"). A space
+            # lands at a run head because _char_font classes " " as Latin
+            # (Newsreader), while the glyph before it is CJK/symbol class
+            # — the run boundary falls BEFORE the space, not after it.
+            # Emit the leading space(s) as their own <text> (a space
+            # renders no ink; the following run's x already encodes the
+            # advance) and start the visible run after it. The cur advance
+            # keeps the letter-spacing units the spaces carried (one sp
+            # after each space), so total geometry is unchanged for any
+            # spacing value. U+3000 is NOT stripped by CairoSVG (probe:
+            # "　包裹" ink starts exactly at x + 28.0), so only ASCII
+            # space is moved. A run that is only spaces is emitted as
+            # the space element alone; its advance still reaches the
+            # next run through cur.
+            lead = len(t) - len(t.lstrip(" "))
+            if lead:
+                _lw = _pil(kind, bold, cls, size).getlength(t[:lead])
+                self.add(f'<text x="{cur:.1f}" y="{y}" font-family="{_FAMILY[cls]}" font-size="{size}"{wt}{it} fill="{fill}" text-anchor="start"{spattr}>{esc(t[:lead])}</text>')
+                cur += _lw + sp * lead
+                t = t[lead:]
+                w = _pil(kind, bold, cls, size).getlength(t) if t else 0.0
+            if t:
+                self.add(f'<text x="{cur:.1f}" y="{y}" font-family="{_FAMILY[cls]}" font-size="{size}"{wt}{it} fill="{fill}" text-anchor="start"{spattr}>{esc(t)}</text>')
             # next run starts after this run's rendered span (incl. its
             # trailing letter-spacing) plus one boundary spacing unit.
             cur += w + (sp * len(t) if i < len(runs) - 1 else 0)
