@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTUUR (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTUUR · КУЛЬТУРА", "De Lucerna", "NIVEAU A2 → B1 · Museumnacht, boeken en kunst · Ночь музеев, книги и искусство")
+p.band("CULTUUR　КУЛЬТУРА", "De Lucerna", "NIVEAU A2 → B1　Museumnacht, boeken en kunst　Ночь музеев, книги и искусство")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P3-feature")
-f.title("Amsterdam blijft wakker: de Museumnacht", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2 → B1")
+f.title("Amsterdam blijft wakker: de Museumnacht", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2 → B1")
 f.para("Zaterdagavond 7 november blijft Amsterdam wakker: het is Museumnacht, de 26e editie. Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts, met muziek, workshops en rondleidingen. Eén kaartje geeft toegang tot alle deelnemende musea.")
 f.para("Let op: de Museumkaart geldt deze avond niet — je hebt een apart kaartje nodig. Populaire musea werken met tijdsloten: reserveer op tijd, anders sta je in de rij. Veel bezoekers gaan op de fiets van museum naar museum; er rijden ook extra nachtbussen.")
 f.para("In Den Haag is het deze week Crossing Border Festival, van dinsdag tot en met zondag: schrijvers en muzikanten delen het podium. Literatuur en muziek horen bij elkaar, zeggen de organisatoren — een boek kan klinken als een lied, en een lied kan lezen als een verhaal.")
@@ -34,7 +34,7 @@ facts = ["26e editie van Museumnacht, zaterdag 7 november, 19:00–02:00 uur.",
          "PAN Amsterdam in de RAI, tot en met zondag 8 november."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "MUSEUMNACHT IN CIJFERS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -44,11 +44,11 @@ print("P3 col3 ends", sy3 + sh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · УПРАЖНЕНИЯ СТРАНИЦЫ 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Ответы — на странице 8 · задания могут быть разного уровня, ищите по номеру", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　УПРАЖНЕНИЯ СТРАНИЦЫ 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы — на странице 8　задания могут быть разного уровня, ищите по номеру", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.expl("Прочитайте статью на странице 3 и выберите правильный ответ.")
 e.ex("A2", "Выбор ответа", "B", "Ночь музеев — в субботу, 7 ноября",
      "Museumnacht is op... A. vrijdag 6 november · B. zaterdag 7 november · C. zondag 8 november", size=20, gap=8)
@@ -60,7 +60,7 @@ e.ex("A2", "Выбор ответа", "A", "Crossing Border объединяет
      "Crossing Border combineert... A. boeken en muziek · B. voetbal en dans · C. film en eten", size=20, gap=8)
 e.ex("A2", "Выбор ответа", "B", "Ярмарка PAN — до 8 ноября",
      "PAN Amsterdam loopt tot en met... A. zaterdag 7 november · B. zondag 8 november · C. maandag 9 november", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.expl("Заполните пропуски словами из рамки. Внимание: некоторые слова нужно поставить во множественное число.")
 e.para("museum · rondleiding · tijdslot · tweedehands · beurs", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "Дополнение предложения", "musea", "museum во множественном числе: musea",
@@ -73,7 +73,7 @@ e.ex("B1", "Дополнение предложения", "tweedehands", "tweede
      "Op de Snuffelmarkt koop je ___ spullen.", instr="Заполните пропуск", size=20, gap=8)
 e.ex("A2", "Дополнение предложения", "beurs", "beurs — ярмарка, выставка",
      "PAN is een ___ voor kunst en antiek.", instr="Заполните пропуск", size=20, gap=8)
-e.head("C · HET PERFECTUM", 25)
+e.head("C　HET PERFECTUM", 25)
 e.expl("Дополните предложения перфектом; следите за вспомогательным глаголом hebben/zijn.")
 e.ex("B1", "Дополнение предложения", "zijn geweest", "перфект от zijn: zijn geweest",
      "De musea ___ (zijn) tot 02:00 uur open.", instr="Заполните пропуск", size=20, gap=8)
@@ -83,7 +83,7 @@ e.ex("B1", "Дополнение предложения", "hebben voorgelezen", 
      "De schrijvers ___ (voorlezen) hun werk op het podium.", instr="Заполните пропуск", size=20, gap=8)
 e.ex("B1", "Дополнение предложения", "zijn gekomen", "komen употребляется с zijn: zijn gekomen",
      "Veel bezoekers ___ (komen) met de fiets.", instr="Заполните пропуск", size=20, gap=8)
-e.head("D · REKENEN", 25)
+e.head("D　REKENEN", 25)
 e.expl("Посчитайте: отвечайте цифрами со страницы 3.")
 e.ex("B1", "Дополнение предложения", "7", "С 19:00 до 02:00 — всего 7 часов",
      "Museumnacht duurt van 19:00 tot 02:00 uur: ___ uur.", instr="Заполните пропуск", size=20, gap=8)
@@ -101,11 +101,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · СПОРТ", "De Lucerna", "NIVEAU B1 · Europese week en speelronde 12 · Европейская неделя и 12-й тур")
+p.band("SPORT　СПОРТ", "De Lucerna", "NIVEAU B1　Europese week en speelronde 12　Европейская неделя и 12-й тур")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P4-feature")
-f.title("Europa: drie keer feest, twee keer verlies", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.title("Europa: drie keer feest, twee keer verlies", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B1")
 f.para("De Europese week is voorbij — en de balans is drie keer feest, twee keer verlies. Ajax won donderdag 22 oktober met 2–0 van Atalanta in de Conference League. Twente won met 4–1 bij Lincoln Red Imps in Gibraltar. AZ won met 4–0 van Ararat-Armenia. NEC verloor: 2–4 bij Dinamo Zagreb.")
 f.para("En woensdag 21 oktober verloor Feyenoord in de Champions League: Real Betis won met 1–0 in Sevilla, door een doelpunt van Isco in de 59e minuut. Feyenoord had wel meer balbezit, maar schoot te weinig op doel.")
 f.para("In de Eredivisie was het zondag 25 oktober ook spannend: PSV en Feyenoord speelden 1–1 gelijk. Ajax won met 2–1 bij Sparta. En Twente won met 2–0 bij AZ. Na 10 ronden staat Feyenoord bovenaan met 24 punten, Ajax heeft 21, en PSV, Twente en AZ hebben elk 20 punten.")
@@ -126,7 +126,7 @@ facts = ["Donderdag 22 oktober: Ajax – Atalanta 2–0; Twente – Lincoln 4–
          "Speelronde 12: vrijdag Willem II – PEC; zondag Heerenveen – Feyenoord (11:15) en Twente – Ajax (13:30)."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "HET PROGRAMMA", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -136,11 +136,11 @@ print("P4 col3 ends", sy3 + sh)
 
 # ---- P4 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · УПРАЖНЕНИЯ СТРАНИЦЫ 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Ответы — на странице 8 · задания могут быть разного уровня, ищите по номеру", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　УПРАЖНЕНИЯ СТРАНИЦЫ 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы — на странице 8　задания могут быть разного уровня, ищите по номеру", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.expl("Прочитайте статью на странице 4 и выберите правильный ответ.")
 e.ex("B1", "Выбор ответа", "B", "Аякс выиграл у Аталанты 2–0",
      "Ajax won donderdag met... A. 1–0 · B. 2–0 · C. 4–1", size=20, gap=8)
@@ -152,7 +152,7 @@ e.ex("B1", "Выбор ответа", "B", "Реал Бетис выиграл �
      "Real Betis – Feyenoord eindigde... A. 0–0 · B. 1–0 · C. 0–1", size=20, gap=8)
 e.ex("B1", "Выбор ответа", "B", "После 10 туров Фейеноорд лидирует с 24 очками",
      "Na 10 ronden staat Feyenoord... A. tweede · B. eerste met 24 punten · C. derde", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.expl("Заполните пропуски словами из рамки. Следите за формой глагола.")
 e.para("balans · gelijkspelen · topper · stand · doelpunt", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "Дополнение предложения", "balans", "balans — итог, баланс",
@@ -165,7 +165,7 @@ e.ex("B1", "Дополнение предложения", "stand", "stand — т
      "Op de ___ staat Feyenoord bovenaan.", instr="Заполните пропуск", size=20, gap=8)
 e.ex("B1", "Дополнение предложения", "doelpunt", "doelpunt — гол",
      "Isco maakte het enige ___ van Betis – Feyenoord.", instr="Заполните пропуск", size=20, gap=8)
-e.head("C · VERLEDEN TIJD", 25)
+e.head("C　VERLEDEN TIJD", 25)
 e.expl("Дополните предложения прошедшим временем или перфектом.")
 e.ex("B1", "Дополнение предложения", "won", "winnen в прошедшем времени: won",
      "Ajax ___ (winnen) donderdag met 2–0.", instr="Заполните пропуск", size=20, gap=8)
@@ -175,7 +175,7 @@ e.ex("B1", "Дополнение предложения", "verloor", "verliezen 
      "Feyenoord ___ (verliezen) met 1–0 in Sevilla.", instr="Заполните пропуск", size=20, gap=8)
 e.ex("B2", "Дополнение предложения", "zijn gekomen", "перфект от komen употребляется с zijn",
      "Veel supporters ___ (komen) naar het stadion.", instr="Заполните пропуск", size=20, gap=8)
-e.head("D · WAAR OF NIET WAAR?", 25)
+e.head("D　WAAR OF NIET WAAR?", 25)
 e.ex("B1", "Верно или неверно", "Waar", "Верно: Аякс выиграл 2–0",
      "Ajax won donderdag met 2–0 van Atalanta. Waar of niet waar?", instr="Верно или нет?", size=20, gap=8)
 e.ex("B1", "Верно или неверно", "Niet waar", "Неверно: NEC проиграл 2–4",

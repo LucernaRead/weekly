@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · VOORPAGINA (A2) =================
@@ -11,27 +11,27 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2", 23, "sans", True, OLIVE)
-p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 매주 발행 · 네덜란드인이 읽는 네덜란드어", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "De Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "네덜란드어 주간지 · VOL.2 · 기후 주간 · 박물관의 밤 · 12라운드", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "네덜란드어 텍스트 · 한국어 해설 — 한국어 독자를 위한 판", 19.5, "sans", True, BRICK, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 2", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS　매주 발행　네덜란드인이 읽는 네덜란드어", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "De Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "네덜란드어 주간지　VOL.2　기후 주간　박물관의 밤　12라운드", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 372, "네덜란드어 텍스트　한국어 해설 — 한국어 독자를 위한 판", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "DEZE WEEK IS DE KLIMAATWEEK!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Van maandag 2 tot en met zondag 8 november doet heel Nederland mee: bomen planten, energie besparen, fietsen.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "기후 주간", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "온 나라가 함께하는 기후 주간 · 2면 참조", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "DEZE WEEK IS DE KLIMAATWEEK!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Van maandag 2 tot en met zondag 8 november doet heel Nederland mee: bomen planten, energie besparen, fietsen.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "기후 주간", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "온 나라가 함께하는 기후 주간　2면 참조", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "HET NIEUWS · 헤드라인", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Nederland in de Klimaatweek: bomen, musea en voetbal", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Van de redactie van De Lucerna · Leesniveau: A2", 20, "sans", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "HET NIEUWS　헤드라인", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Nederland in de Klimaatweek: bomen, musea en voetbal", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Van de redactie van De Lucerna　Leesniveau: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland. Gemeenten in het hele land organiseren acties: bomen planten, energie besparen, de fiets nemen in plaats van de auto. Iedereen kan meedoen.")
@@ -40,13 +40,13 @@ f.para("Het weer hoort bij deze week: de waarschuwingen van het KNMI zijn tegenw
 f.para("Cultuur is er ook: zaterdagavond 7 november is het Museumnacht in Amsterdam (meer dan 70 musea open tot 02:00 uur) en in Den Haag is het Crossing Border Festival, van dinsdag tot en met zondag.")
 f.para("Sport: speelronde 12 van de Eredivisie, met zondag Heerenveen tegen Feyenoord (11:15 uur) en Twente tegen Ajax (13:30 uur). En wie zondagavond thuis blijft, kijkt misschien naar Expeditie Robinson (pagina 5).")
 f.bridge("해설 — de Klimaatweek 기후 주간 · de boom planten 나무 심기 · besparen 절약하기 · de waarschuwing 경고.")
-f.box("DE WEEK IN CIJFERS · 숫자로 보기", [
+f.box("DE WEEK IN CIJFERS　숫자로 보기", [
     ("7 — de dagen van de Klimaatweek(기후 주간의 일수)", "serif", False, INK, 20, 1.35),
     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt(토요일에 주는 나무와 관목)", "serif", False, INK, 20, 1.35),
     ("70+ — de musea die open zijn op Museumnacht(박물관의 밤에 문을 여는 박물관, 70곳 이상)", "serif", False, INK, 20, 1.35),
     ("9 — de wedstrijden van speelronde 12 in de Eredivisie(에레디비시 12라운드 경기 수)", "serif", False, INK, 20, 1.35),
 ])
-f.head("NU JIJ · 직접 해 보기", 25)
+f.head("NU JIJ　직접 해 보기", 25)
 f.ex("A2", "문장 완성", "8", "기후 주간 11월 2-8일",
      "De Klimaatweek duurt van maandag 2 tot en met zondag ___ november.", size=19.5, gap=6)
 f.ex("A2", "문장 완성", "200", "쿠포르던에서 나무와 관목 200그루를 나눠 줘요",
@@ -63,11 +63,11 @@ f.end_report()
 
 # ---- deze week agenda (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "DEZE WEEK", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "· 이번 주 일정", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Agenda van de week · 이번 주 일정", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 76, "　이번 주 일정", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 106, "Agenda van de week　이번 주 일정", 19, "sans", False, GREY)
 gt = [
     ("MA 2", "Klimaatweek begint"),
     ("DI 3", "Crossing Border, Den Haag"),
@@ -77,7 +77,7 @@ gt = [
 ]
 byy = gy + 150
 for i, (lab, vol) in enumerate(gt):
-    p.text(gx + 22, byy + 22, lab, 20, "serif", True, BRICK)
+    p.text(gx + 22, byy + 22, lab, 20, "serif", True, OLIVE)
     p.text(gx + 110, byy + 22, vol, 20, "serif", False, INK)
     byy += 62
 p.text(gx + 22, byy + 16, "Alle data en tijden staan ook", 18.5, "sans", False, GREY)
@@ -86,8 +86,8 @@ p.text(gx + 22, byy + 76, "일정은 2–4면 기사 참조", 19, "sans", False,
 
 # ---- inhoud (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 이번 호 안내", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN DEZE EDITIE　이번 호 안내", 24, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Klimaatweek, stap voor stap", "A2"),
     ("Pag. 3", "Musea bij nacht en boeken", "A2→B1"),
@@ -99,7 +99,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -107,9 +107,10 @@ for pg, t, lv in som:
 # ---- woord van de week (col 3) ----
 my = 1652
 p.text(gx, my + 24, "HET WOORD VAN DE WEEK", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "«het klimaat»: het weer en de natuur om ons heen, over een lange tijd. De Klimaatweek gaat over ons klimaat.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "«기후»: 우리 주변의 장기적인 날씨와 자연이에요. 기후 주간은 우리의 기후에 관한 주간이에요.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "«het klimaat»", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 104, "het weer en de natuur om ons heen, over een lange tijd. De Klimaatweek gaat over ons klimaat.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy, "«기후»: 우리 주변의 장기적인 날씨와 자연이에요. 기후 주간은 우리의 기후에 관한 주간이에요.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1853, LINE, 1.2)
@@ -120,15 +121,15 @@ caption(p, ix, iy + 320, iw,
         "Een herfstbos in november. De herfst is de beste tijd om een boom te planten: de grond is nog zacht en de jonge boom kan rustig wortelen. (Pagina 2)",
         "Foto: Vovogov90 — CC0")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-extra")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-extra")
 f2.head("NOG MEER DEZE WEEK", 25)
 f2.para("PAN Amsterdam (kunst en antiek, RAI) loopt nog tot en met zondag 8 november. En in Zaandam is op 7 en 8 november de Mega Snuffelmarkt, met zo'n 250 kramen.", 22.5)
 f2.para("Tweedehands kopen is klimaatvriendelijk: wat al bestaat, hoeft niet opnieuw gemaakt te worden.", 22.5)
 f2.end_report()
 # col 3 IN HET KORT
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "IN HET KORT · 간단 소식", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "IN HET KORT　간단 소식", 24, "sans", True, OLIVE)
 brefs = [
     ("DE KLIMAATWEEK · P.2", "2–8 november. Coevorden deelt zaterdag 200 bomen uit."),
     ("DE MUSEA · P.3", "Zaterdagavond Museumnacht: 70+ musea open tot 02:00 uur."),
@@ -136,15 +137,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz bliksem ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "BLIKSEMQUIZ · 번개 퀴즈", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "1면을 읽고 정답을 고르세요 · 정답은 8면", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "BLIKSEMQUIZ　번개 퀴즈", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "1면을 읽고 정답을 고르세요　정답은 8면", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "객관식", "B", "기후 주간은 모두 7일이에요(11월 2-8일)",
       "De Klimaatweek duurt... A. 5 dagen · B. 7 dagen · C. 9 dagen", size=21)
 qf.ex("A2", "객관식", "B", "쿠포르던에서 나무와 관목 200그루를 나눠 줘요",
@@ -161,11 +162,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · LEVEN (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("LEVEN · 생활", "De Lucerna", "NIVEAU A2 · De Klimaatweek, stap voor stap · 기후 주간, 단계별로")
+p.band("LEVEN　생활", "De Lucerna", "NIVEAU A2　De Klimaatweek, stap voor stap　기후 주간, 단계별로")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("De Klimaatweek: wat kun jij doen?", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2")
+f.title("De Klimaatweek: wat kun jij doen?", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2")
 f.para("De Klimaatweek is een week waarin heel Nederland nadenkt over het klimaat: het weer, de natuur en de energie die wij gebruiken. Gemeenten, scholen en bedrijven organiseren acties. Iedereen kan meedoen — ook jij.")
 f.para("De makkelijkste actie is een boom planten. In de herfst is de grond nog zacht en kan een jonge boom goed wortelen. In Coevorden deelt de gemeente op zaterdag 7 november 200 biologisch geteelde bomen en struiken uit, van 13:00 tot 16:00 uur, op de Fair Groen Coevorden in Zweeloo.")
 f.para("Een tweede actie is energie besparen: korter douchen, de verwarming één graad lager zetten, de fiets nemen in plaats van de auto. Kleine stappen, zeggen de organisatoren, maar samen maken ze een groot verschil.")
@@ -173,7 +174,7 @@ f.para("En het weer zelf? Het KNMI waarschuwt met kleuren: geel, oranje en rood.
 f.para("Wat doe jij deze week? Plant een boom, spaar energie of ga met de fiets naar school. En praat erover met je vrienden: het klimaat is van ons allemaal.")
 f.head("DRIE ACTIES VOOR DEZE WEEK", 25)
 f.para("Eén: plant iets groens, al is het maar een struik op je balkon. Twee: bespaar energie, bijvoorbeeld met de verwarming één graad lager. Drie: neem de fiets voor korte ritten — gezond voor jou en goed voor de lucht.")
-f.box("ZO ONTHOUD JE HET · 외우는 방법", [
+f.box("ZO ONTHOUD JE HET　외우는 방법", [
     ("«Geel is let op, oranje is gevaarlijk, rood is blijf binnen.» En de waarschuwing geldt voor jouw eigen omgeving.", "serif", False, INK, 21.5, 1.4),
 ])
 f.gloss("het klimaat 기후(날씨) · wortelen 뿌리내리다 · besparen 절약하다 · de verwarming 난방 · de waarschuwing 경보 · lokaal 현지의.")
@@ -189,7 +190,7 @@ facts = ["De Klimaatweek duurt van maandag 2 tot en met zondag 8 november.",
          "Code geel = let op · oranje = gevaarlijk · rood = zeer gevaarlijk, blijf binnen."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 40
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "WIST JE DAT?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -198,9 +199,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "En jij? Wat doe jij in de Klimaatweek: een boom planten, energie besparen of fietsen? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie: de mooiste komen in VOL.3 (pagina 7, «Brieven van lezers»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("기후 주간에 여러분은 무엇을 할 거예요? 나무 심기, 에너지 절약, 자전거 타기. 네덜란드어 문장 두 개를 써서 편집부에 보내세요.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "EN JIJ? · 여러분은요", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "EN JIJ?　여러분은요", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "기후 주간에 여러분은 무엇을 할 거예요? 나무 심기, 에너지 절약, 자전거 타기. 네덜란드어 문장 두 개를 써서 편집부에 보내세요.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -208,9 +209,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- codes row: 4 boxes ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "DE CODES VAN HET KNMI · KNMI 경보 색깔", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Wat betekent elke kleur? · 각 색깔은 무슨 뜻일까요", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "DE CODES VAN HET KNMI　KNMI 경보 색깔", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Wat betekent elke kleur?　각 색깔은 무슨 뜻일까요", 20, "sans", False, GREY, anchor="end")
 codes = [
     ("GEEL", "let op", "날씨가 위험할 수 있으니 조심하세요"),
     ("ORANJE", "gevaarlijk", "위험해요, 대비하세요"),
@@ -219,19 +220,19 @@ codes = [
 ]
 for i, (t, lab, cn) in enumerate(codes):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 116, t, 40, "serif", True, OLIVE)
-    yy = p.para(bx + 200, dy + 92, lab, 21.5, "serif", False, INK, CW - 222, 1.36)
-    p.para(bx + 200, yy + 20, cn, 19, "sans", False, GREY, CW - 222, 1.3)
+    yy = p.para(bx + 216, dy + 92, lab, 21.5, "serif", False, INK, CW - 238, 1.36)
+    p.para(bx + 216, yy + 20, cn, 19, "sans", False, GREY, CW - 238, 1.3)
 p.para(MX, dy + 234, "Let op: een waarschuwing is geen voorspelling voor het hele land — kijk altijd naar jouw eigen plaats. Meer over de codes lees je op pagina 6.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 2면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "정답은 8면 · 문제는 수준이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　2면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "정답은 8면　문제는 수준이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.bridge("2면 기사를 읽고 정답을 고르세요.")
 e.ex("A2", "객관식", "C", "기후 주간에 하지 않는 일: 자동차 더 타기",
      "Wat doe je in de Klimaatweek NIET? A. een boom planten · B. energie besparen · C. meer autorijden", size=20, gap=8)
@@ -243,7 +244,7 @@ e.ex("A2", "객관식", "B", "경보는 지역 단위예요, 한 주 전체가 �
      "De waarschuwingen van het KNMI zijn tegenwoordig... A. voor het hele land · B. lokaal, voor je eigen omgeving · C. alleen voor de kust", size=20, gap=8)
 e.ex("A2", "객관식", "B", "에너지 절약: 난방을 1도 낮추기",
      "Energie besparen is... A. langer douchen · B. de verwarming lager zetten · C. meer autorijden", size=20, gap=8)
-e.head("B · ACTIES", 25)
+e.head("B　ACTIES", 25)
 e.bridge("2면 단어로 채우세요.")
 e.ex("A2", "문장 완성", "7", "기후 주간 11월 2-8일은 모두 7일이에요",
      "De Klimaatweek duurt ___ dagen.", instr="빈칸 채우기", size=20, gap=8)
@@ -255,7 +256,7 @@ e.ex("A2", "문장 완성", "fiets", "fiets = 자전거",
      "Veel mensen nemen de ___ in plaats van de auto.", instr="빈칸 채우기", size=20, gap=8)
 e.ex("A2", "문장 완성", "Zweeloo", "나눠 주는 곳은 즈벨로예요",
      "De bomen in Coevorden worden uitgedeeld in ___.", instr="빈칸 채우기", size=20, gap=8)
-e.head("C · CODES EN DATUMS", 25)
+e.head("C　CODES EN DATUMS", 25)
 e.bridge("색깔 코드와 날짜로 채우세요.")
 e.ex("A2", "문장 완성", "geel", "노란색 코드: 조심하세요",
      "Code ___ betekent: let op.", instr="빈칸 채우기", size=20, gap=8)
@@ -265,7 +266,7 @@ e.ex("A2", "문장 완성", "13:00", "나눠 주기는 13:00부터 시작해요"
      "De uitdeling in Coevorden begint om ___ uur.", instr="빈칸 채우기", size=20, gap=8)
 e.ex("A2", "문장 완성", "8", "기후 주간은 11월 8일 일요일에 끝나요",
      "De Klimaatweek eindigt op zondag ___ november.", instr="빈칸 채우기", size=20, gap=8)
-e.head("D · WOORDEN", 25)
+e.head("D　WOORDEN", 25)
 e.match_set("A2", "단어 짝짓기",
             ["de Klimaatweek", "besparen", "de waarschuwing", "lokaal"],
             ["een bericht dat zegt: let op, gevaarlijk weer",

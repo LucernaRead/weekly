@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · VOORPAGINA (A2) =================
@@ -11,42 +11,42 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 2", 23, "sans", True, OLIVE)
-p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS · 毎週一号 · オランダ人が読んでいるオランダ語を読む", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "De Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "オ ラ ン ダ 語 週 刊 · VOL.2 · KLIMAATWEEK · MUSEUMNACHT · SPEELRONDE 12", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "オランダ語テキスト · 日本語の解説 — 日本語読者のための版", 19.5, "sans", True, BRICK, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 2", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "ELKE WEEK IN HET NEDERLANDS　毎週一号　オランダ人が読んでいるオランダ語を読む", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "WEEK VAN 2 TOT EN MET 8 NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "De Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "オランダ語週刊　VOL.2　KLIMAATWEEK　MUSEUMNACHT　SPEELRONDE 12", 36, "serif", True, OLIVE, anchor="middle", spacing=2)
+p.text(975, 372, "オランダ語テキスト　日本語の解説 — 日本語読者のための版", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "DEZE WEEK IS DE KLIMAATWEEK!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Van maandag 2 tot en met zondag 8 november doet heel Nederland mee: bomen planten, energie besparen, fietsen.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "気候週間", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "全国で気候週間 · 詳しくは2ページ", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "DEZE WEEK IS DE KLIMAATWEEK!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Van maandag 2 tot en met zondag 8 november doet heel Nederland mee: bomen planten, energie besparen, fietsen.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "気候週間", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "全国で気候週間　詳しくは2ページ", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "HET NIEUWS · トップニュース", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Nederland in de Klimaatweek: bomen, musea en voetbal", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Van de redactie van De Lucerna · Leesniveau: A2", 20, "sans", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "HET NIEUWS　トップニュース", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Nederland in de Klimaatweek: bomen, musea en voetbal", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Van de redactie van De Lucerna　Leesniveau: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
-f.para("Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland. Gemeenten in het hele land organiseren acties: bomen planten, energie besparen, de fiets nemen in plaats van de auto. Iedereen kan meedoen.")
-f.para("In Coevorden, in Drenthe, deelt de gemeente op zaterdag 7 november 200 biologisch geteelde bomen en struiken uit. De herfst is de beste tijd om te planten, zeggen de organisatoren: de grond is nog zacht en de jonge boom kan rustig wortelen.")
-f.para("Het weer hoort bij deze week: de waarschuwingen van het KNMI zijn tegenwoordig lokaal — voor jouw eigen omgeving, niet voor een hele provincie. De codes zijn geel, oranje en rood (pagina 2 en 6).")
-f.para("Cultuur is er ook: zaterdagavond 7 november is het Museumnacht in Amsterdam (meer dan 70 musea open tot 02:00 uur) en in Den Haag is het Crossing Border Festival, van dinsdag tot en met zondag.")
-f.para("Sport: speelronde 12 van de Eredivisie, met zondag Heerenveen tegen Feyenoord (11:15 uur) en Twente tegen Ajax (13:30 uur). En wie zondagavond thuis blijft, kijkt misschien naar Expeditie Robinson (pagina 5).")
+f.para("Van maandag 2 tot en met zondag 8 november is het Klimaatweek in Nederland. Gemeenten in het hele land organiseren acties: bomen planten, energie besparen, de fiets nemen in plaats van de auto. Iedereen kan meedoen.", size=23)
+f.para("In Coevorden, in Drenthe, deelt de gemeente op zaterdag 7 november 200 biologisch geteelde bomen en struiken uit. De herfst is de beste tijd om te planten, zeggen de organisatoren: de grond is nog zacht en de jonge boom kan rustig wortelen.", size=23)
+f.para("Het weer hoort bij deze week: de waarschuwingen van het KNMI zijn tegenwoordig lokaal — voor jouw eigen omgeving, niet voor een hele provincie. De codes zijn geel, oranje en rood (pagina 2 en 6).", size=23)
+f.para("Cultuur is er ook: zaterdagavond 7 november is het Museumnacht in Amsterdam (meer dan 70 musea open tot 02:00 uur) en in Den Haag is het Crossing Border Festival, van dinsdag tot en met zondag.", size=23)
+f.para("Sport: speelronde 12 van de Eredivisie, met zondag Heerenveen tegen Feyenoord (11:15 uur) en Twente tegen Ajax (13:30 uur). En wie zondagavond thuis blijft, kijkt misschien naar Expeditie Robinson (pagina 5).", size=23)
 f.expl("解説 — de Klimaatweek 気候週間 · de boom planten 植樹 · besparen 節約する · de waarschuwing 警報。")
-f.box("DE WEEK IN CIJFERS · 数字で見る今週", [
+f.box("DE WEEK IN CIJFERS　数字で見る今週", [
     ("7 — de dagen van de Klimaatweek（気候週間の日数）", "serif", False, INK, 20, 1.35),
     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt（土曜日にコーフェルデンが配布する木と低木）", "serif", False, INK, 20, 1.35),
     ("70+ — de musea die open zijn op Museumnacht（ミュージアムナハトに開館する美術館・博物館、70超）", "serif", False, INK, 20, 1.35),
     ("9 — de wedstrijden van speelronde 12 in de Eredivisie（エールディヴィジ第12節の試合数）", "serif", False, INK, 20, 1.35),
 ])
-f.head("NU JIJ · すぐ練習", 25)
+f.head("NU JIJ　すぐ練習", 25)
 f.ex("A2", "文の完成", "8", "気候週間 11月2–8日",
      "De Klimaatweek duurt van maandag 2 tot en met zondag ___ november.", size=19.5, gap=6)
 f.ex("A2", "文の完成", "200", "コーフェルデンは200本の木と低木を配布",
@@ -63,11 +63,11 @@ f.end_report()
 
 # ---- deze week agenda (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "DEZE WEEK", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "· 今週の予定", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Agenda van de week · 今週の主な出来事", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 76, "　今週の予定", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 106, "Agenda van de week　今週の主な出来事", 19, "sans", False, GREY)
 gt = [
     ("MA 2", "Klimaatweek begint"),
     ("DI 3", "Crossing Border, Den Haag"),
@@ -77,7 +77,7 @@ gt = [
 ]
 byy = gy + 150
 for i, (lab, vol) in enumerate(gt):
-    p.text(gx + 22, byy + 22, lab, 20, "serif", True, BRICK)
+    p.text(gx + 22, byy + 22, lab, 20, "serif", True, OLIVE)
     p.text(gx + 110, byy + 22, vol, 20, "serif", False, INK)
     byy += 62
 p.text(gx + 22, byy + 16, "Alle data en tijden staan ook", 18.5, "sans", False, GREY)
@@ -86,8 +86,8 @@ p.text(gx + 22, byy + 76, "日程は2–4ページの記事に", 19, "sans", Fal
 
 # ---- inhoud (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN DEZE EDITIE · 今号の内容", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN DEZE EDITIE　今号の内容", 24, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Klimaatweek, stap voor stap", "A2"),
     ("Pag. 3", "Musea bij nacht en boeken", "A2→B1"),
@@ -99,7 +99,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -107,9 +107,10 @@ for pg, t, lv in som:
 # ---- woord van de week (col 3) ----
 my = 1652
 p.text(gx, my + 24, "HET WOORD VAN DE WEEK", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "«het klimaat»: het weer en de natuur om ons heen, over een lange tijd. De Klimaatweek gaat over ons klimaat.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "「気候」とは長期的な天気と自然のこと。気候週間は私たちの気候の週だ。", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "«het klimaat»", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 104, "het weer en de natuur om ons heen, over een lange tijd. De Klimaatweek gaat over ons klimaat.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy, "「気候」とは長期的な天気と自然のこと。気候週間は私たちの気候の週だ。", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1853, LINE, 1.2)
@@ -120,15 +121,15 @@ caption(p, ix, iy + 320, iw,
         "Een herfstbos in november. De herfst is de beste tijd om een boom te planten: de grond is nog zacht en de jonge boom kan rustig wortelen. (Pagina 2)",
         "Foto: Vovogov90 — CC0")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-extra")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-extra")
 f2.head("NOG MEER DEZE WEEK", 25)
 f2.para("PAN Amsterdam (kunst en antiek, RAI) loopt nog tot en met zondag 8 november. En in Zaandam is op 7 en 8 november de Mega Snuffelmarkt, met zo'n 250 kramen.", 22.5)
 f2.para("Tweedehands kopen is klimaatvriendelijk: wat al bestaat, hoeft niet opnieuw gemaakt te worden.", 22.5)
 f2.end_report()
 # col 3 IN HET KORT
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "IN HET KORT · 速報", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "IN HET KORT　速報", 24, "sans", True, OLIVE)
 brefs = [
     ("DE KLIMAATWEEK · P.2", "2–8 november. Coevorden deelt zaterdag 200 bomen uit."),
     ("DE MUSEA · P.3", "Zaterdagavond Museumnacht: 70+ musea open tot 02:00 uur."),
@@ -136,15 +137,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- quiz bliksem ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "BLIKSEMQUIZ · 早押しクイズ", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "1ページを読んで正しい答えを選ぶ · 解答は8ページ", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "BLIKSEMQUIZ　早押しクイズ", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "1ページを読んで正しい答えを選ぶ　解答は8ページ", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "選択問題", "B", "気候週間は全7日間（11月2–8日）",
       "De Klimaatweek duurt... A. 5 dagen · B. 7 dagen · C. 9 dagen", size=21)
 qf.ex("A2", "選択問題", "B", "コーフェルデンは200本の木と低木を配布",
@@ -161,11 +162,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · LEVEN (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("LEVEN · 生活", "De Lucerna", "NIVEAU A2 · De Klimaatweek, stap voor stap · 気候週間を一歩ずつ")
+p.band("LEVEN　生活", "De Lucerna", "NIVEAU A2　De Klimaatweek, stap voor stap　気候週間を一歩ずつ")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("De Klimaatweek: wat kun jij doen?", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2")
+f.title("De Klimaatweek: wat kun jij doen?", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2")
 f.para("De Klimaatweek is een week waarin heel Nederland nadenkt over het klimaat: het weer, de natuur en de energie die wij gebruiken. Gemeenten, scholen en bedrijven organiseren acties. Iedereen kan meedoen — ook jij.")
 f.para("De makkelijkste actie is een boom planten. In de herfst is de grond nog zacht en kan een jonge boom goed wortelen. In Coevorden deelt de gemeente op zaterdag 7 november 200 biologisch geteelde bomen en struiken uit, van 13:00 tot 16:00 uur, op de Fair Groen Coevorden in Zweeloo.")
 f.para("Een tweede actie is energie besparen: korter douchen, de verwarming één graad lager zetten, de fiets nemen in plaats van de auto. Kleine stappen, zeggen de organisatoren, maar samen maken ze een groot verschil.")
@@ -173,7 +174,7 @@ f.para("En het weer zelf? Het KNMI waarschuwt met kleuren: geel, oranje en rood.
 f.para("Wat doe jij deze week? Plant een boom, spaar energie of ga met de fiets naar school. En praat erover met je vrienden: het klimaat is van ons allemaal.")
 f.head("DRIE ACTIES VOOR DEZE WEEK", 25)
 f.para("Eén: plant iets groens, al is het maar een struik op je balkon. Twee: bespaar energie, bijvoorbeeld met de verwarming één graad lager. Drie: neem de fiets voor korte ritten — gezond voor jou en goed voor de lucht.")
-f.box("ZO ONTHOUD JE HET · 覚え方", [
+f.box("ZO ONTHOUD JE HET　覚え方", [
     ("«Geel is let op, oranje is gevaarlijk, rood is blijf binnen.» En de waarschuwing geldt voor jouw eigen omgeving.", "serif", False, INK, 21.5, 1.4),
 ])
 f.gloss("het klimaat 気候 · wortelen 根付く · besparen 節約する · de verwarming 暖房 · de waarschuwing 警報 · lokaal 地元の。")
@@ -189,7 +190,7 @@ facts = ["De Klimaatweek duurt van maandag 2 tot en met zondag 8 november.",
          "Code geel = let op · oranje = gevaarlijk · rood = zeer gevaarlijk, blijf binnen."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 40
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "WIST JE DAT?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -198,9 +199,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "En jij? Wat doe jij in de Klimaatweek: een boom planten, energie besparen of fietsen? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie: de mooiste komen in VOL.3 (pagina 7, «Brieven van lezers»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("気候週間、あなたは何をする？木を植える、エネルギーを節約する、それとも自転車に乗る？オランダ語で2文書いて編集部へ送ってください。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "EN JIJ? · あなたは?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "EN JIJ?　あなたは?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "気候週間、あなたは何をする？木を植える、エネルギーを節約する、それとも自転車に乗る？オランダ語で2文書いて編集部へ送ってください。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -208,9 +209,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- codes row: 4 boxes ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "DE CODES VAN HET KNMI · KNMIの警報カラー", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Wat betekent elke kleur? · 各色の意味は?", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "DE CODES VAN HET KNMI　KNMIの警報カラー", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Wat betekent elke kleur?　各色の意味は?", 20, "sans", False, GREY, anchor="end")
 codes = [
     ("GEEL", "let op", "危険な天気になるおそれ、注意"),
     ("ORANJE", "gevaarlijk", "危険、備えよ"),
@@ -219,19 +220,19 @@ codes = [
 ]
 for i, (t, lab, cn) in enumerate(codes):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 116, t, 40, "serif", True, OLIVE)
-    yy = p.para(bx + 200, dy + 92, lab, 21.5, "serif", False, INK, CW - 222, 1.36)
-    p.para(bx + 200, yy + 20, cn, 19, "sans", False, GREY, CW - 222, 1.3)
+    yy = p.para(bx + 216, dy + 92, lab, 21.5, "serif", False, INK, CW - 238, 1.36)
+    p.para(bx + 216, yy + 20, cn, 19, "sans", False, GREY, CW - 238, 1.3)
 p.para(MX, dy + 234, "Let op: een waarschuwing is geen voorspelling voor het hele land — kijk altijd naar jouw eigen plaats. Meer over de codes lees je op pagina 6.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 2ページの練習", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答えは8ページ · 問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　2ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · BEGRIJPEN", 25, gap=8)
+e.head("A　BEGRIJPEN", 25, gap=8)
 e.expl("2ページを読んで正解を選んでください。")
 e.ex("A2", "選択問題", "C", "気候週間でしないこと：車をもっと使う",
      "Wat doe je in de Klimaatweek NIET? A. een boom planten · B. energie besparen · C. meer autorijden", size=20, gap=4)
@@ -243,7 +244,7 @@ e.ex("A2", "選択問題", "B", "警報は地域向けで、州全体向けで�
      "De waarschuwingen van het KNMI zijn tegenwoordig... A. voor het hele land · B. lokaal, voor je eigen omgeving · C. alleen voor de kust", size=20, gap=4)
 e.ex("A2", "選択問題", "B", "省エネ：暖房を1度下げる",
      "Energie besparen is... A. langer douchen · B. de verwarming lager zetten · C. meer autorijden", size=20, gap=4)
-e.head("B · ACTIES", 25, gap=8)
+e.head("B　ACTIES", 25, gap=8)
 e.expl("2ページの単語で空所を補充してください。")
 e.ex("A2", "文の完成", "7", "気候週間11月2–8日は全7日間",
      "De Klimaatweek duurt ___ dagen.", instr="空所補充", size=20, gap=4)
@@ -255,7 +256,7 @@ e.ex("A2", "文の完成", "fiets", "fiets = 自転車",
      "Veel mensen nemen de ___ in plaats van de auto.", instr="空所補充", size=20, gap=4)
 e.ex("A2", "文の完成", "Zweeloo", "配布場所はズウェーロー",
      "De bomen in Coevorden worden uitgedeeld in ___.", instr="空所補充", size=20, gap=4)
-e.head("C · CODES EN DATUMS", 25, gap=8)
+e.head("C　CODES EN DATUMS", 25, gap=8)
 e.expl("警報カラーと日付で空所を補充してください。")
 e.ex("A2", "文の完成", "geel", "黄色警報：注意",
      "Code ___ betekent: let op.", instr="空所補充", size=20, gap=4)
@@ -265,7 +266,7 @@ e.ex("A2", "文の完成", "13:00", "配布は13:00開始",
      "De uitdeling in Coevorden begint om ___ uur.", instr="空所補充", size=20, gap=4)
 e.ex("A2", "文の完成", "8", "気候週間は11月8日（日）に終了",
      "De Klimaatweek eindigt op zondag ___ november.", instr="空所補充", size=20, gap=4)
-e.head("D · WOORDEN", 25, gap=8)
+e.head("D　WOORDEN", 25, gap=8)
 e.match_set("A2", "単語のペア",
             ["de Klimaatweek", "besparen", "de waarschuwing", "lokaal"],
             ["een bericht dat zegt: let op, gevaarlijk weer",

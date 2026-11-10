@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTUUR (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTUUR · 文化", "De Lucerna", "NIVEAU A2 → B1 · Museumnacht, boeken en kunst · ミュージアムナハト、本と芸術")
+p.band("CULTUUR　文化", "De Lucerna", "NIVEAU A2 → B1　Museumnacht, boeken en kunst　ミュージアムナハト、本と芸術")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P3-feature")
-f.title("Amsterdam blijft wakker: de Museumnacht", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: A2 → B1")
+f.title("Amsterdam blijft wakker: de Museumnacht", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: A2 → B1")
 f.para("Zaterdagavond 7 november blijft Amsterdam wakker: het is Museumnacht, de 26e editie. Meer dan 70 musea zijn open van 19:00 uur 's avonds tot 02:00 uur 's nachts, met muziek, workshops en rondleidingen. Eén kaartje geeft toegang tot alle deelnemende musea.")
 f.para("Let op: de Museumkaart geldt deze avond niet — je hebt een apart kaartje nodig. Populaire musea werken met tijdsloten: reserveer op tijd, anders sta je in de rij. Veel bezoekers gaan op de fiets van museum naar museum; er rijden ook extra nachtbussen.")
 f.para("In Den Haag is het deze week Crossing Border Festival, van dinsdag tot en met zondag: schrijvers en muzikanten delen het podium. Literatuur en muziek horen bij elkaar, zeggen de organisatoren — een boek kan klinken als een lied, en een lied kan lezen als een verhaal.")
@@ -34,7 +34,7 @@ facts = ["26e editie van Museumnacht, zaterdag 7 november, 19:00–02:00 uur.",
          "PAN Amsterdam in de RAI, tot en met zondag 8 november."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "MUSEUMNACHT IN CIJFERS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -44,11 +44,11 @@ print("P3 col3 ends", sy3 + sh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 3ページの練習", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答えは8ページ · 問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　3ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.expl("3ページの記事を読んで正しい答えを選んでください。")
 e.ex("A2", "選択問題", "B", "ミュージアムナハトは11月7日（土）",
      "Museumnacht is op... A. vrijdag 6 november · B. zaterdag 7 november · C. zondag 8 november", size=20, gap=8)
@@ -60,7 +60,7 @@ e.ex("A2", "選択問題", "A", "クロッシング・ボーダーは本と音�
      "Crossing Border combineert... A. boeken en muziek · B. voetbal en dans · C. film en eten", size=20, gap=8)
 e.ex("A2", "選択問題", "B", "PAN アートフェアは11月8日まで",
      "PAN Amsterdam loopt tot en met... A. zaterdag 7 november · B. zondag 8 november · C. maandag 9 november", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.expl("枠内の単語で空所を補充してください。注意：複数形に変える単語もあります。")
 e.para("museum · rondleiding · tijdslot · tweedehands · beurs", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "文の完成", "musea", "museum 複数形：musea",
@@ -73,7 +73,7 @@ e.ex("B1", "文の完成", "tweedehands", "tweedehands = 中古の",
      "Op de Snuffelmarkt koop je ___ spullen.", instr="空所補充", size=20, gap=8)
 e.ex("A2", "文の完成", "beurs", "beurs = 見本市・市場",
      "PAN is een ___ voor kunst en antiek.", instr="空所補充", size=20, gap=8)
-e.head("C · HET PERFECTUM", 25)
+e.head("C　HET PERFECTUM", 25)
 e.expl("現在完了形で補充してください。助動詞 hebben/zijn に注意。")
 e.ex("B1", "文の完成", "zijn geweest", "zijn の完了形：zijn geweest",
      "De musea ___ (zijn) tot 02:00 uur open.", instr="空所補充", size=20, gap=8)
@@ -83,7 +83,7 @@ e.ex("B1", "文の完成", "hebben voorgelezen", "voorlezen の完了形：hebbe
      "De schrijvers ___ (voorlezen) hun werk op het podium.", instr="空所補充", size=20, gap=8)
 e.ex("B1", "文の完成", "zijn gekomen", "komen は zijn を使う：zijn gekomen",
      "Veel bezoekers ___ (komen) met de fiets.", instr="空所補充", size=20, gap=8)
-e.head("D · REKENEN", 25)
+e.head("D　REKENEN", 25)
 e.expl("計算してください：3ページの数字で答えてください。")
 e.ex("B1", "文の完成", "7", "19:00から02:00までは7時間",
      "Museumnacht duurt van 19:00 tot 02:00 uur: ___ uur.", instr="空所補充", size=20, gap=8)
@@ -101,11 +101,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · スポーツ", "De Lucerna", "NIVEAU B1 · Europese week en speelronde 12 · ヨーロッパ週間と第12節")
+p.band("SPORT　スポーツ", "De Lucerna", "NIVEAU B1　Europese week en speelronde 12　ヨーロッパ週間と第12節")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P4-feature")
-f.title("Europa: drie keer feest, twee keer verlies", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.title("Europa: drie keer feest, twee keer verlies", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B1")
 f.para("De Europese week is voorbij — en de balans is drie keer feest, twee keer verlies. Ajax won donderdag 22 oktober met 2–0 van Atalanta in de Conference League. Twente won met 4–1 bij Lincoln Red Imps in Gibraltar. AZ won met 4–0 van Ararat-Armenia. NEC verloor: 2–4 bij Dinamo Zagreb.")
 f.para("En woensdag 21 oktober verloor Feyenoord in de Champions League: Real Betis won met 1–0 in Sevilla, door een doelpunt van Isco in de 59e minuut. Feyenoord had wel meer balbezit, maar schoot te weinig op doel.")
 f.para("In de Eredivisie was het zondag 25 oktober ook spannend: PSV en Feyenoord speelden 1–1 gelijk. Ajax won met 2–1 bij Sparta. En Twente won met 2–0 bij AZ. Na 10 ronden staat Feyenoord bovenaan met 24 punten, Ajax heeft 21, en PSV, Twente en AZ hebben elk 20 punten.")
@@ -126,7 +126,7 @@ facts = ["Donderdag 22 oktober: Ajax – Atalanta 2–0; Twente – Lincoln 4–
          "Speelronde 12: vrijdag Willem II – PEC; zondag Heerenveen – Feyenoord (11:15) en Twente – Ajax (13:30)."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "HET PROGRAMMA", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -136,11 +136,11 @@ print("P4 col3 ends", sy3 + sh)
 
 # ---- P4 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · 4ページの練習", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答えは8ページ · 問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　4ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　問題はレベル混合、番号で探してください", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.expl("4ページの記事を読んで正しい答えを選んでください。")
 e.ex("B1", "選択問題", "B", "アヤックスはアタランタに2–0で勝利",
      "Ajax won donderdag met... A. 1–0 · B. 2–0 · C. 4–1", size=20, gap=8)
@@ -152,7 +152,7 @@ e.ex("B1", "選択問題", "B", "レアル・ベティスはフェイエノー�
      "Real Betis – Feyenoord eindigde... A. 0–0 · B. 1–0 · C. 0–1", size=20, gap=8)
 e.ex("B1", "選択問題", "B", "10節後フェイエノールトは24点で首位",
      "Na 10 ronden staat Feyenoord... A. tweede · B. eerste met 24 punten · C. derde", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.expl("枠内の単語で空所を補充してください。動詞の形に注意。")
 e.para("balans · gelijkspelen · topper · stand · doelpunt", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "文の完成", "balans", "balans = 成績のまとめ",
@@ -165,7 +165,7 @@ e.ex("B1", "文の完成", "stand", "stand = 順位表",
      "Op de ___ staat Feyenoord bovenaan.", instr="空所補充", size=20, gap=8)
 e.ex("B1", "文の完成", "doelpunt", "doelpunt = ゴール",
      "Isco maakte het enige ___ van Betis – Feyenoord.", instr="空所補充", size=20, gap=8)
-e.head("C · VERLEDEN TIJD", 25)
+e.head("C　VERLEDEN TIJD", 25)
 e.expl("過去形または完了形で補充してください。")
 e.ex("B1", "文の完成", "won", "winnen の過去形：won",
      "Ajax ___ (winnen) donderdag met 2–0.", instr="空所補充", size=20, gap=8)
@@ -175,7 +175,7 @@ e.ex("B1", "文の完成", "verloor", "verliezen の過去形：verloor",
      "Feyenoord ___ (verliezen) met 1–0 in Sevilla.", instr="空所補充", size=20, gap=8)
 e.ex("B2", "文の完成", "zijn gekomen", "komen の完了形は zijn を使う",
      "Veel supporters ___ (komen) naar het stadion.", instr="空所補充", size=20, gap=8)
-e.head("D · WAAR OF NIET WAAR?", 25)
+e.head("D　WAAR OF NIET WAAR?", 25)
 e.ex("B1", "正誤判断", "Waar", "正：アヤックスは2–0で勝利",
      "Ajax won donderdag met 2–0 van Atalanta. Waar of niet waar?", instr="正誤", size=20, gap=8)
 e.ex("B1", "正誤判断", "Niet waar", "誤：NEC は2–4で敗北",

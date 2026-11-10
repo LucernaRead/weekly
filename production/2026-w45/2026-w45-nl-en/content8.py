@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · TOETS EN ANTWOORDEN =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("TOETS EN ANTWOORDEN · TEST AND ANSWERS", "De Lucerna", "Page 8 · De grote toets van de week + alle antwoorden")
+p.band("TOETS EN ANTWOORDEN　TEST AND ANSWERS", "De Lucerna", "Page 8　De grote toets van de week + alle antwoorden")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · VUL DE KRONIEK IN", 21, OLIVE, 5)
+f.head("A　VUL DE KRONIEK IN", 21, OLIVE, 5)
 f.ex("B1", "cloze choice", "B", "The Climate Week runs to 8 November",
      "De Klimaatweek duurt van 2 tot en met ___ november. (A. 7 · B. 8)", size=13.8, gap=0)
 f.ex("B1", "cloze choice", "B", "Coevorden gives away 200 trees and shrubs",
@@ -29,7 +29,7 @@ f.ex("B1", "cloze choice", "B", "Code orange: the weather is dangerous",
      "Code oranje betekent: het weer is ___. (A. veilig · B. gevaarlijk)", size=13.8, gap=0)
 f.ex("B1", "cloze choice", "B", "meedoen = to take part",
      "«Meedoen» betekent ___. (A. weggaan · B. deelnemen)", size=13.8, gap=0)
-f.head("B · ALGEMENE VRAGEN", 21, OLIVE, 5)
+f.head("B　ALGEMENE VRAGEN", 21, OLIVE, 5)
 f.ex("A2", "choice", "A", "The Climate Week starts on Monday 2 November",
      "De Klimaatweek begint op... A. maandag 2 november · B. dinsdag 3 november · C. zaterdag 7 november", size=13.8, gap=0)
 f.ex("A2", "choice", "B", "The giveaway place is Zweeloo",
@@ -46,7 +46,7 @@ f.ex("B2", "choice", "B", "Warning fatigue: too many warnings, so people stop pa
      "Waarschuwingsmoeheid betekent... A. moe van het weer · B. minder opletten door te veel waarschuwingen · C. een nieuwe code", size=13.8, gap=0)
 f.ex("B1", "choice", "C", "The Zaandam flea market has about 250 stalls",
      "De Snuffelmarkt in Zaandam heeft zo'n ___ kramen. A. 70 · B. 200 · C. 250", size=13.8, gap=0)
-f.head("C · LEES EN ANTWOORD", 21, OLIVE, 5)
+f.head("C　LEES EN ANTWOORD", 21, OLIVE, 5)
 f.para("Daan woont in Coevorden. Op zaterdag 7 november gaat hij naar de Fair Groen in Zweeloo en haalt hij een gratis struik op. 's Avonds kijkt hij naar de foto's van Museumnacht in Amsterdam — zelf gaat hij niet, want zondag speelt zijn club Twente tegen Ajax om 13:30 uur. En in de Klimaatweek fietst Daan elke dag naar school, ook als het regent.", 15, lh=1.3, split=False)
 f.ex("A2", "choice", "B", "Daan lives in Coevorden",
      "Waar woont Daan? A. in Zweeloo · B. in Coevorden · C. in Amsterdam", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "choice", "B", "On Sunday Twente play Ajax",
      "Waarom gaat Daan zaterdagavond niet naar Amsterdam? A. Hij heeft geen kaartje · B. Zondag speelt Twente tegen Ajax · C. Hij houdt niet van musea", size=13.8, gap=0)
 f.ex("B1", "choice", "B", "In the Climate Week he cycles to school every day",
      "Wat doet Daan in de Klimaatweek? A. Hij rijdt elke dag met de auto · B. Hij fietst elke dag naar school · C. Hij blijft thuis", size=13.8, gap=0)
-f.head("D · MAAK DE ZINNEN", 21, OLIVE, 5)
+f.head("D　MAAK DE ZINNEN", 21, OLIVE, 5)
 f.ex("A2", "make sentences", "De Klimaatweek begint op maandag.", "Subject + verb + time",
      "de klimaatweek / begint / op maandag → ___", instr="Make the sentence", size=13.8, gap=0)
 f.ex("B1", "make sentences", "Wij planten een boom in de tuin.", "Subject + verb + object + place",
@@ -65,7 +65,7 @@ f.ex("B1", "make sentences", "Twente speelt zondag tegen Ajax.", "Subject + verb
      "twente / speelt / zondag / tegen ajax → ___", instr="Make the sentence", size=13.8, gap=0)
 f.ex("B1", "make sentences", "Ik doe mee aan de Klimaatweek.", "Separable verb: mee goes last",
      "ik / doe / mee / aan de klimaatweek → ___", instr="Make the sentence", size=13.8, gap=0)
-f.head("E · VERTAAL", 21, OLIVE, 5)
+f.head("E　VERTAAL", 21, OLIVE, 5)
 f.ex("A2", "translate", "The Climate Week lasts seven days.", "Compare with the page 1 headline",
      "De Klimaatweek duurt zeven dagen. → ___", instr="Translate into English", size=13.8, gap=0)
 f.ex("B1", "translate", "Code orange means: be prepared.", "From page 2 · bereid je voor = be prepared",
@@ -74,7 +74,7 @@ f.ex("B1", "translate", "Museumnacht duurt van 19:00 uur tot 02:00 uur.", "Watch
      "Museum Night lasts from 19:00 to 02:00. → ___", instr="Translate into Dutch", size=13.8, gap=0)
 f.ex("B2", "translate", "Ik doe mee aan de Klimaatweek.", "meedoen is a separable verb",
      "I take part in the Climate Week. → ___", instr="Translate into Dutch", size=13.8, gap=0)
-f.head("F · WOORDEN VAN DE WEEK", 21, OLIVE, 5)
+f.head("F　WOORDEN VAN DE WEEK", 21, OLIVE, 5)
 f.match_set("B2", "matching",
             ["het klimaat", "meedoen", "de waarschuwing", "vastzetten"],
             ["een bericht over gevaarlijk weer",
@@ -84,7 +84,7 @@ f.match_set("B2", "matching",
             ["c", "b", "a", "d"],
             ["klimaat = climate c", "meedoen = to take part b", "waarschuwing = warning a", "vastzetten = to secure d"],
             instr="Match word to meaning")
-f.head("G · DIALOOG BIJ DE BOMEN", 21, OLIVE, 5)
+f.head("G　DIALOOG BIJ DE BOMEN", 21, OLIVE, 5)
 f.ex("B1", "cloze choice", "A", "boom = tree",
      "— Goedemiddag! Ik kom voor een ___. (A. boom · B. fiets)", size=13.8, gap=0)
 f.ex("B1", "cloze choice", "A", "struik = shrub",
@@ -95,7 +95,7 @@ f.ex("B1", "cloze choice", "B", "zachte = soft (soil)",
      "— In de tuin, in de ___ grond. (A. harde · B. zachte)", size=13.8, gap=0)
 f.ex("B1", "cloze choice", "A", "The giveaway runs until 16:00",
      "— De uitdeling duurt tot ___ uur. (A. 16:00 · B. 20:00)", size=13.8, gap=0)
-f.head("H · SCHRIJF ZELF", 21, OLIVE, 5)
+f.head("H　SCHRIJF ZELF", 21, OLIVE, 5)
 MODELO = ("Maandag 2 november begint de Klimaatweek in Nederland. "
           "Ik doe mee: ik fiets elke dag naar school en ik zet de verwarming één graad lager. "
           "Op zaterdag 7 november ga ik met mijn vader naar Coevorden, want daar deelt de gemeente gratis bomen uit. "
@@ -112,13 +112,13 @@ f.para("Tekstmodel: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= ANTWOORDEN =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "ANTWOORDEN · ANSWER KEY — grouped by page: find your number", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Every answer has a short note in English · ✓ marks the writing task", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "ANTWOORDEN　ANSWER KEY — grouped by page: find your number", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Every answer has a short note in English　✓ marks the writing task", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 13.5, "sans", True, OLIVE, lh=1.17, gap=1.5, split=False)
     for e_ in by_page[pg]:

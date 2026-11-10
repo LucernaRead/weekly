@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-nl-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · JONGEREN (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("JONGEREN · JUGEND", "De Lucerna", "NIVEAU B1 · Robinson is begonnen, ADE en DDW voorbij · Robinson ist gestartet, ADE und DDW sind vorbei")
+p.band("JONGEREN　JUGEND", "De Lucerna", "NIVEAU B1　Robinson is begonnen, ADE en DDW voorbij　Robinson ist gestartet, ADE und DDW sind vorbei")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-main")
-f.title("Expeditie Robinson is begonnen!", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B1")
+f.title("Expeditie Robinson is begonnen!", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B1")
 f.para("Zondag 1 november begon Expeditie Robinson op RTL 4, om 20:00 uur. Negentien kandidaten leven op een onbewoond eiland. De eerste aflevering is geweest — nu begint het echte spel: vuur maken, eten zoeken, proeven winnen.")
 f.para("De kandidaten slapen buiten en moeten alles zelf doen. Wie een proef verliest, kan naar huis worden gestemd. Wie het langst blijft, wint de expeditie. De kandidaten komen uit Nederland en Vlaanderen, en ze kennen elkaar nog niet allemaal.")
 f.para("Twee festivals zijn intussen voorbij. ADE en de Dutch Design Week sloten allebei op zondag 25 oktober. ADE werd dertig jaar, met meer dan 3.000 artiesten op meer dan 200 locaties in Amsterdam. De Design Week in Eindhoven toonde werk van ongeveer 2.500 ontwerpers.")
@@ -36,7 +36,7 @@ facts = ["Expeditie Robinson: 19 kandidaten; start zondag 1 november, 20:00 uur,
          "Dutch Design Week: ongeveer 2.500 ontwerpers; gesloten zondag 25 oktober."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "JONGEREN IN CIJFERS", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -45,9 +45,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "En jij? Kijk jij naar Expeditie Robinson, of doe je liever zelf iets buiten? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Schaust du Expeditie Robinson oder machst du lieber selbst etwas draußen? Schreib zwei Sätze auf Niederländisch und schicke sie ein.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "EN JIJ? · UND DU?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "EN JIJ?　UND DU?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Schaust du Expeditie Robinson oder machst du lieber selbst etwas draußen? Schreib zwei Sätze auf Niederländisch und schicke sie ein.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -55,11 +55,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · ÜBUNGEN ZU SEITE 5", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antworten auf Seite 8 · die Stufen sind gemischt, suche deine Nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　ÜBUNGEN ZU SEITE 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　die Stufen sind gemischt, suche deine Nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · BEGRIJPEN", 25)
+e.head("A　BEGRIJPEN", 25)
 e.bridge("Lies den Artikel auf Seite 5 und wähle die richtige Antwort.")
 e.ex("B1", "wählen", "B", "Robinson startete am Sonntag, 1. November",
      "Expeditie Robinson begon op... A. zondag 25 oktober · B. zondag 1 november · C. woensdag 21 oktober", size=20, gap=8)
@@ -71,7 +71,7 @@ e.ex("B1", "wählen", "B", "Die Design Week zeigte etwa 2.500 Designer",
      "De Design Week toonde werk van ongeveer... A. 250 ontwerpers · B. 2.500 ontwerpers · C. 3.000 ontwerpers", size=20, gap=8)
 e.ex("B1", "wählen", "A", "ADE und DDW endeten am Sonntag, 25. Oktober",
      "ADE en de Design Week sloten op... A. zondag 25 oktober · B. zondag 1 november · C. zaterdag 7 november", size=20, gap=8)
-e.head("B · WOORDEN UIT DE TEKST", 25)
+e.head("B　WOORDEN UIT DE TEKST", 25)
 e.bridge("Ergänze mit den Wörtern aus dem Kasten.")
 e.para("eiland · proef · stemmen · aflevering · voorbij · kandidaat", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "ergänzen", "eiland", "eiland = Insel (het)",
@@ -86,7 +86,7 @@ e.ex("B1", "ergänzen", "voorbij", "voorbij = vorbei, zu Ende",
      "ADE is ___: het festival is afgelopen.", instr="Einsetzen", size=20, gap=8)
 e.ex("B1", "ergänzen", "kandidaten", "kandidaat Plural: kandidaten",
      "Er zijn 19 ___ op het eiland.", instr="Einsetzen", size=20, gap=8)
-e.head("C · DE TOEKOMST MET GAAN", 25)
+e.head("C　DE TOEKOMST MET GAAN", 25)
 e.bridge("Sprich mit gaan + Infinitiv über die Zukunft.")
 e.ex("B1", "ergänzen", "gaat winnen", "gaat winnen = wird gewinnen (nur eine Vermutung)",
      "Wie ___ (winnen) Expeditie Robinson, denk je?", instr="Einsetzen", size=20, gap=8)
@@ -96,7 +96,7 @@ e.ex("B1", "ergänzen", "gaat praten", "hij → gaat praten",
      "Hij ___ (praten) morgen met vrienden over de proef.", instr="Einsetzen", size=20, gap=8)
 e.ex("B1", "ergänzen", "gaan zoeken", "zij (Plural) → gaan zoeken",
      "De kandidaten ___ (zoeken) morgen eten op het eiland.", instr="Einsetzen", size=20, gap=8)
-e.head("D · WAAR OF NIET WAAR?", 25)
+e.head("D　WAAR OF NIET WAAR?", 25)
 e.ex("B1", "richtig/falsch", "Waar", "Richtig: Start am 1. November",
      "Expeditie Robinson begon op 1 november. Waar of niet waar?", instr="Richtig oder falsch?", size=20, gap=8)
 e.ex("B1", "richtig/falsch", "Niet waar", "Falsch: ADE wurde dieses Jahr 30 Jahre alt",
@@ -111,11 +111,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · VERDIEPING (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("VERDIEPING · VERTIEFUNG", "De Lucerna", "NIVEAU B2 · De codes van het KNMI · Die KNMI-Codes im Detail")
+p.band("VERDIEPING　VERTIEFUNG", "De Lucerna", "NIVEAU B2　De codes van het KNMI　Die KNMI-Codes im Detail")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P6-main")
-f.title("Geel, oranje, rood: hoe werken de codes?", 37)
-f.byline("Van de redactie van De Lucerna · Leesniveau: B2")
+f.title("Geel, oranje, rood: hoe werken de codes?", 32)
+f.byline("Van de redactie van De Lucerna　Leesniveau: B2")
 f.para("Het KNMI waarschuwt Nederland al jaren met kleuren. Maar de waarschuwingen zijn veranderd: vroeger golden ze voor een hele provincie, nu zijn ze lokaal. Dat betekent: jouw stad kan code oranje hebben, terwijl het twintig kilometer verderop rustig is.")
 f.para("Waarom lokaal? Omdat het weer lokaal is. Een zware bui kan over één stad vallen en de buurstad overslaan. Een waarschuwing voor een hele provincie waarschuwt dan mensen die niets merken — en die letten de volgende keer minder op. Meteorologen noemen dat waarschuwingsmoeheid.")
 f.para("De kleuren zelf zijn simpel. Geel: het weer kan gevaarlijk zijn, let op. Oranje: het weer ís gevaarlijk, bereid je voor — zet losse spullen vast, rijd voorzichtig. Rood: het weer is zeer gevaarlijk, ga niet de weg op als het niet moet. Rood komt weinig voor.")
@@ -137,13 +137,13 @@ rows = [
 cap = "OEFENDATA — verzonnen cijfers om mee te oefenen, geen echte enquête. Vraag: wat doe jij bij code oranje? (100 jongeren)"
 capcn = "ÜBUNGSDATEN: erfundene Zahlen, nur zum Üben, keine echte Umfrage. Frage: Was machst du bei Code Orange? (100 junge Leute)"
 ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
-p.rect(ix, 200, CW, ch, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, ch, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DE GRAFIEK · ÜBUNGSDATEN", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DE GRAFIEK　ÜBUNGSDATEN", 24, "sans", True, OLIVE)
 yy3 += 58
 for lab, val, bw in rows:
     p.text(ix + 22, yy3 + 20, lab, 19.5, "serif", True, INK)
-    p.text(ix + CW - 22, yy3 + 20, val, 19.5, "sans", True, BRICK, anchor="end")
+    p.text(ix + CW - 22, yy3 + 20, val, 19.5, "sans", True, OLIVE, anchor="end")
     p.rect(ix + 22, yy3 + 30, bw, 18, fill=OLIVE)
     yy3 += 58
 yy3 += 14
@@ -157,9 +157,9 @@ bt = [
     ("De krant kiest niet: lees de tekst bij de code, niet alleen de kleur. En jij?", "serif", False, INK, 21, 1.4),
 ]
 bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
-p.rect(ix, by6, CW, bh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, by6, CW, bh, fill="#f0eee5")
 yy3 = by6 + 16
-p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN? · PRO UND KONTRA", 21, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　PRO UND KONTRA", 21, "sans", True, OLIVE)
 yy3 += 52
 for t, k, b, fl, s, lh in bt:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8
@@ -167,11 +167,11 @@ print("P6 col3 ends", by6 + bh)
 
 # ---- P6 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "OEFENINGEN · ÜBUNGEN ZU SEITE 6", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antworten auf Seite 8 · die Stufen sind gemischt, suche deine Nummer", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "OEFENINGEN　ÜBUNGEN ZU SEITE 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　die Stufen sind gemischt, suche deine Nummer", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · LEES DE GRAFIEK", 25)
+e.head("A　LEES DE GRAFIEK", 25)
 e.bridge("Antworte anhand der Grafik auf Seite 6 (Übungsdaten).")
 e.ex("B2", "ergänzen", "45", "45 junge Leute bleiben zu Hause",
      "Bij code oranje blijft ___ van de 100 jongeren thuis.", instr="Einsetzen", size=21.5, gap=9)
@@ -183,7 +183,7 @@ e.ex("B2", "ergänzen", "10", "10 wissen es nicht",
      "___ jongeren weten het niet.", instr="Einsetzen", size=21.5, gap=9)
 e.ex("B2", "ergänzen", "100", "Die Grafik zählt 100 Leute: 45+25+20+10",
      "De grafiek telt in totaal ___ jongeren.", instr="Einsetzen", size=21.5, gap=9)
-e.head("B · BEGRIJPEN", 25)
+e.head("B　BEGRIJPEN", 25)
 e.bridge("Lies den Artikel auf Seite 6 und wähle die richtige Antwort.")
 e.ex("B2", "wählen", "B", "Früher galten Warnungen für eine ganze Provinz",
      "Vroeger golden waarschuwingen voor... A. één stad · B. een hele provincie · C. het hele land", size=21.5, gap=9)
@@ -195,7 +195,7 @@ e.ex("B2", "wählen", "A", "Warnmüdigkeit: zu viele Warnungen, man passt nicht 
      "Waarschuwingsmoeheid is... A. moe van waarschuwingen, dus minder opletten · B. moe van het weer · C. een nieuwe code", size=21.5, gap=9)
 e.ex("B2", "wählen", "B", "Das KNMI sagt: Lies den Text neben dem Code",
      "Het KNMI zegt: kijk niet alleen naar de kleur, maar naar... A. de wind · B. de tekst bij de code · C. de televisie", size=21.5, gap=9)
-e.head("C · WOORDEN", 25)
+e.head("C　WOORDEN", 25)
 e.bridge("Ergänze mit den Wörtern aus dem Kasten.")
 e.para("lokaal · waarschuwingsmoeheid · vastzetten · advies", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B2", "ergänzen", "lokaal", "lokaal = lokal",
@@ -206,7 +206,7 @@ e.ex("B2", "ergänzen", "vastzetten", "vastzetten = befestigen",
      "Bij code oranje moet je losse spullen ___.", instr="Einsetzen", size=21.5, gap=9)
 e.ex("B2", "ergänzen", "advies", "advies = Rat (het)",
      "Een code is geen verbod, maar een ___.", instr="Einsetzen", size=21.5, gap=9)
-e.head("D · MAAK DE ZINNEN", 25)
+e.head("D　MAAK DE ZINNEN", 25)
 e.bridge("Bringe die Wörter in die richtige Reihenfolge.")
 e.ex("B2", "Sätze bilden", "De waarschuwing geldt voor jouw stad.", "Subjekt + Verb + Ort",
      "de waarschuwing / geldt / voor jouw stad → ___", instr="Bilde den Satz", size=21.5, gap=9)
