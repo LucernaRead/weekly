@@ -1,4 +1,176 @@
-# FIX-LOG — core-nl fix round 2 (2026-11-11)
+# FIX-LOG — core-nl fix rounds 2–3 (2026-11-11)
+
+## Fix round 3 — D6/D7 orphan 。 (2026-11-11)
+
+Core-nl reopened after independent re-proof (proof2,
+`hidden_files/w47/scratch-proof-core-nl2/PROOF-NOTE.md`, conclusion (b)):
+fix2's D3/D4/D5 all regressed PASS, 150 exercises, 16 mechanical gates,
+all external facts PASS — but 2 new defects of the same class (both
+pre-existing fix-round leftovers missed by proof1, NOT introduced by
+fix2). Scope: D6 + D7 only. No wording, key, or fact changed anywhere;
+only the two line breaks moved. Fan-out editions NOT rebuilt in this
+round (nl re-fan-out is rebuilding 10 editions from the fix2 core in
+parallel — coordinator to schedule the fix3 incremental rebuild).
+
+### D6 — P3 trailing 。 alone on its own line (section C, HET PERFECTUM bridge)
+
+- **Evidence (pre-fix, verified on disk):** `svg/p3-cultuur.svg`:
+  bridge `用现在完成时补全，注意助动词 hebben/zijn` (x=538.5, y=2250.5,
+  20.5px), then `。` alone in its own `<text>` (x=538.5, y=2280.225) —
+  the only character on the line. Print-PDF crop in proof2
+  `render/crop-p3-orphan.png`. text.md carries the sentence on one line
+  with its 。 (the wrapper ejected it at the SVG layer).
+- **Root cause:** the greedy `wrap()` at the full column width (422.5px)
+  happens to push the final `。` onto a second line by itself.
+- **Fix:** `bslib4.py`: `Flow.para` / `Flow.bridge` take a new optional
+  `w` parameter (wrap-width override; default = column width, so every
+  existing call is unaffected). `content34.py`: that one bridge call
+  passes `w=CW - 40` (382.5px). Width scan: every width in 300–405px
+  wraps to the same two lines
+  `用现在完成时补全，注意助动词 / hebben/zijn。`; 382.5px sits 22.5px
+  below the 405px threshold. Still 2 lines — no downstream y shift.
+- **Re-measurement (rebuilt SVG):** lines are
+  `['用现在完成时补全，注意助动词', 'hebben/zijn。']`; the orphan is
+  gone. Print-PDF crop `render/crop-p3-fixed.png` confirms visually.
+
+### D7 — P7 trailing 。 alone on its own line (A2 VOETBALWOORDEN gloss bridge)
+
+- **Evidence (pre-fix, verified on disk):** `svg/p7-taal.svg`:
+  `；de kwartfinale 四分之一决赛；scoren 进球` (x=88.0, y=755.385,
+  20.5px), then `。` alone in its own `<text>` (x=88.0, y=785.11).
+  Print-PDF crop in proof2 `render/crop-p7-orphan.png`.
+- **Root cause:** same as D6.
+- **Fix:** `content7.py`: that one bridge call passes `w=CW - 35`
+  (387.5px). Width scan: every width in 377.5–395px wraps to the same
+  three lines `de wedstrijd 比赛；de groepswinst 小组 / 头名；de kwartfinale
+  四分之一决赛； / scoren 进球。`; 387.5px is the middle of the band.
+  Still 3 lines — no downstream y shift.
+- **Re-measurement (rebuilt SVG):** last line is `scoren 进球。`; the
+  orphan is gone. Print-PDF crop `render/crop-p7-fixed.png` confirms
+  visually.
+
+### Full-edition orphan-punctuation sweep (rebuilt SVGs, all 8 pages)
+
+`<text>` elements grouped by baseline y (a lone character counts as an
+orphan only if it owns its whole baseline):
+
+- Lone `。`: **0** on all 8 pages.
+- Lone closing quotes `» ” ’ ） 」 》`: **0** on all 8 pages.
+- Lone `：` / `–`: **0** as well.
+- P8's 7 lone `）` `<text>` elements each share their baseline with 4–6
+  siblings — answer-zone inline locators, not orphans (excluded, same as
+  proof2).
+
+### Side note: exporter stub (goals-side tool, not committed)
+
+`scratch-nl/stub_bslib47.py` (the recording stub `export47.py` runs the
+content files against) overrode `Flow.para`/`Flow.bridge` without `w`,
+so the first text.md re-export died with
+`TypeError: Flow.para() got an unexpected keyword argument 'w'`. Added
+`w=None` pass-through to both overrides (signature compatibility only;
+exported text unaffected). Re-export then exited 0 and produced a
+byte-identical text.md.
+
+### Fix-round-3 gates (final build, 2026-11-11)
+
+- Build: `run.py` exit 0, TOTAL 150, by page 10/18/18/18/18/18/12/38,
+  A2 46 / B1 73 / B2 31; `render.py` exit 0, zero FLOW OVERFLOW / HEAD
+  TOO WIDE warnings. SVG hashes: only `p3-cultuur.svg` and
+  `p7-taal.svg` changed; the other 6 are byte-identical to fix2.
+- `occlusion_audit.py svg/`: selftest OK, **0 flags**.
+- Creambox check (same `check_creambox.py` as fix2): same 3 CREAM-BOTTOM
+  flags (P2/P5/P6, ≤1.6px); 7px strip below each box bottom probed
+  pixel by pixel on the card PNGs: **0 non-paper pixels** — all three
+  are the known false positives (CJK last line measured with a Latin
+  0.3×size descender allowance), same as proof2. **True overflow 0.**
+  (Note: my full-width band scan for P6 bottomed at 664.44 because the
+  cream fill itself trips the non-paper threshold; proof2's narrower
+  glyph scan gave ink bottom 661.4, clearance +3.6px. The decisive
+  below-box strip probe agrees in both rounds: 0 ink.)
+- `p8.py extract --p8 svg/p8-toets.svg --total 150`: noted set **150/150**.
+- P8 keys vs text.md (proof2's `step3b_p8compare.py`, rerun unmodified
+  except the scratch path): output **byte-identical to proof2's own run**
+  — the 8 "mismatches" are all match items 25–28/141–144 whose text.md
+  answers live on range-header lines (parser yields None); the match
+  keys themselves agree: 25–28 = d/c/a/b, 141–144 = b/c/d/a. text.md
+  is byte-identical to fix2 and the P8 keys match the proof2-verified
+  set, so the 150 keys needed no fresh hand-check (nothing changed).
+- Freeze (direct sha256, clean-dir re-run of `run.py`): **8/8 MATCH**.
+- P8 answer font size (PyMuPDF): min = **10.12pt** ≥ 9.75pt floor.
+- Web vs print text layer (PyMuPDF position-sorted): all 8 pages
+  positional diff 0, multiset diff 0 (tokens 760/715/673/671/700/659/
+  738/1685 = 6,520). pdftotext: print 44,197 bytes, web 44,197 bytes.
+  (1 byte less than fix2's 44,198: the D6 reflow drops the single space
+  that separated 助动词 from hebben/zijn — fix2's line 1 ended with
+  "…助动词 hebben/zijn" (55B incl. that space) and the orphan "。" (4B);
+  fix3's lines are 43B + 15B. The D7 hunk is byte-neutral (107B = 107B).
+  The print-text diff vs fix2 shows exactly the two reflowed passages
+  and nothing else.)
+- D3 regression re-measured (proof2's `step3_gates.py`): P2 D-option
+  true-ink clearances identical to proof2 (c +71.5, a +97.5, b +44.5,
+  d +55.5; left 25–28 +278.5/+285.5/+208.5/+265.5). Quote sweep:
+  ASCII `"` 0, backtick 0, `« »` paired on P1/P2/P7/P8, `“ ”` only the
+  P1 pair. Golden lines 8/8 verbatim in body; Q150 model 81 words
+  (80 excluding the standalone `–`), within 80–100.
+  (Two pre-existing quirks in proof2's `step3_gates.py`, same in its
+  own run: it crashes after the quote section on `re.findall(..., md)`
+  where `md` is a list — the golden-lines section was re-run separately
+  (`golden-fix3.txt`, 8/8); and its embedded p8-extract subsection
+  reports noted set 0 because it omits `--json` — the standalone
+  `p8.py extract` (150/150) is authoritative.)
+- Core text.md re-export (`export47.py`, exit 0): 44,088 bytes,
+  **byte-identical to fix2** (SHA `2f2a650b…b25d92e` unchanged); 432
+  lines; 142 + 2 + 8 = 150 exercises; 8 golden lines; 6 gloss lines.
+- Print PDF viewed page by page (PyMuPDF self-render 1.5×,
+  `render/p1–p8.png`): P1/P2/P4/P5/P6/P8 clean; P3/P7 fixed spots
+  confirmed by crops. No new findings. (Pre-existing proof2 N3 — P7
+  VOLGENDE WEEK dark band tight to its last line — unchanged, out of
+  scope for this round.)
+
+## New SHAs (lowercase) + bytes — fix round 3
+
+- Print PDF `De-Lucerna-VOL4.pdf`:
+  `82427d3f80af23588726311dd415ff9caefe0cc153dc3b3637444babd4bc9eb7`
+  (25,955,581 bytes)
+- Web PDF `De-Lucerna-VOL4-web.pdf`:
+  `44553e5c77d3fbf796939fc35bc43721292e44f1669253cd23fc76c47bcd5a39`
+  (2,103,999 bytes)
+- Core text.md `2026-w47-nl-zh-cn.text.md`:
+  `2f2a650b54989e7b4b656f21cc2ae613e9dc42425a56106f03e00dff6b25d92e`
+  (44,088 bytes — **unchanged from fix2**)
+
+## Files changed (this commit, fix round 3)
+
+Per the repo rule (AGENTS.md: rendered SVGs/PNGs/PDFs are reproducible
+render cache, not kept in `production/`), only sources + text.md + docs
+are committed. The rebuilt SVGs/cards/PDFs stay on disk for the
+coordinator's insert flow; their SHAs are recorded above and in
+WEEKLY-KIT.md §14.
+
+- `production/2026-w47/core-nl/bslib4.py` (`w` wrap-width override on
+  `Flow.para`/`Flow.bridge` — mechanism for both fixes; **first added
+  to the repo in this commit**, previously untracked on disk)
+- `production/2026-w47/core-nl/content34.py` (D6 call site)
+- `production/2026-w47/core-nl/content7.py` (D7 call site — **first added
+  to the repo in this commit**, previously untracked on disk; same
+  precedent as fix2 first adding `content12.py`/`content34.py`)
+- `production/2026-w47/core-nl/WEEKLY-KIT.md` (§14)
+- `production/2026-w47/core-nl/FIX-LOG.md` (this file)
+
+Unchanged, not in this commit: `content12.py` (D3 fix2 intact),
+`2026-w47-nl-zh-cn.text.md` (byte-identical). Rebuilt on disk, NOT
+committed (render cache): `svg/p3-cultuur.svg`, `svg/p7-taal.svg`
+(other 6 SVGs byte-identical to the fix2 build), `cards/*.png`,
+`De-Lucerna-VOL4.pdf`, `De-Lucerna-VOL4-web.pdf`. Fan-out text.md/PDFs
+NOT rebuilt in this round — coordinator's fix3 incremental rebuild.
+
+Not committed (goals-side scratch, same as prior rounds):
+`hidden_files/w47/scratch-fix-core-nl3/` (logs, measurements, renders,
+gates), `hidden_files/w47/scratch-nl/stub_bslib47.py` (the `w`
+pass-through — the exporter stub lives outside the repo).
+
+---
+
 
 Core-nl reopened after nl-de proof1 (b) found D3 + D4; nl-es proof1 D5 was
 verified as a true core defect and merged into this round. Scope: D3 + D4 +

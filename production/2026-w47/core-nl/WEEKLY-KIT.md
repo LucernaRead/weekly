@@ -157,6 +157,33 @@ Core定稿状态撤销后重开。本轮只做 D3（core P2 溢出）+ D4（9 �
 - New SHAs (lowercase): print `5308f4a321e6176acfe58b69b858413183093097559b6fe3bd9a50eb5bd361f8`; web `a5f7ecba7d8436fb9173f2f468b6074e98514e316964b6e50c8cd966d6a1cfd3`; core text.md `2f2a650b54989e7b4b656f21cc2ae613e9dc42425a56106f03e00dff6b25d92e`. 9 版 text.md SHA（见 FIX-LOG.md）。
 - Logs and scratch: `hidden_files/w47/scratch-fix-core-nl1/` — `build-fix3.log`, `render-fix3.log`, `export-fix3.log`, `webpdf-fix3.log`, `occlusion-fix3.log`, `p8-fix3.log`, `p8-fontsize-fix3.log`, `webprint-fix3.log`, `print-text.txt`, `web-text.txt`, `svg-hashes-fix3.txt`, `svg-hashes-repro3.txt`, `repro/` + `repro.log`, `measure_d3.py` + `measure_d3*.log`, `measure_d3_rendered*.log`, `check_creambox.py` + `creambox-*.log`, `marker-survey.log`, `textmd-before/`（9 版重导前快照）, `export-d4-*.log`。`export_fanout.py` 的 ANSWER_MARK 改动在 goals 侧 scratch（与历轮 exporter 存放方式一致，不入仓）。
 - FIX-LOG.md 位于 core-nl/（随本轮 commit 入仓）：缺陷、证据、改动、门禁结果、新 SHA。
+- **Superseded by fix round 3 (§14):** the §13 byte counts (print 25,955,593; web 2,104,002; pdftotext 44,198/44,198; 6,520 tokens) are the fix-round-2 values. Post-fix-round-3 final values are in §14 (print 25,955,581; web 2,103,999; pdftotext 44,197/44,197; 6,520 tokens).
+
+## 14. Fix round 3 (2026-11-11, core-nl reopened — independent re-proof (proof2) conclusion (b): D6 + D7 orphan 。)
+
+独立复校（proof2，`scratch-proof-core-nl2/PROOF-NOTE.md`）确认 fix2 的 D3/D4/D5 全部回归通过，150 题、16 项机械门、全部外部事实均通过；但发现 2 项新缺陷（均非 fix2 引入，是 fix-round 遗留、proof1 漏检）。本轮只做 D6 + D7，不动 fan-out 版（nl 重 fan-out 正在用 fix2 核心并行重建 10 版——修完由协调员派 fix3 增量重建）。
+
+- **D6 — P3 句末 `。` 独占一行（C 节 HET PERFECTUM 说明句）。** 证据：重建前 `svg/p3-cultuur.svg`：说明句 `用现在完成时补全，注意助动词 hebben/zijn`（x=538.5, y=2250.5, 20.5px）后，句号 `。` 单独成一 `<text>`（x=538.5, y=2280.225）——行内仅此一字；印 PDF 裁图见 proof2 `render/crop-p3-orphan.png`。根因：贪心断行器 `wrap()` 按栏宽 422.5px 恰好把末尾 `。` 甩到下一行。修复（措辞、键、事实全不动，只改断行）：`bslib4.py` 的 `Flow.para`/`Flow.bridge` 新增可选 `w` 参数（默认栏宽，不传则行为不变）；`content34.py` 该 bridge 调用传 `w=CW - 40`（382.5px）。宽度扫描证明 300–405px 区间均断为同一两行 `用现在完成时补全，注意助动词 / hebben/zijn。`，取 382.5px 距阈值 405px 有 22.5px 裕量；行数仍为 2 行，下游 y 坐标不变。
+- **D7 — P7 句末 `。` 独占一行（A2 VOETBALWOORDEN 词汇行）。** 证据：重建前 `svg/p7-taal.svg`：`；de kwartfinale 四分之一决赛；scoren 进球`（x=88.0, y=755.385, 20.5px）后，句号 `。` 单独成一 `<text>`（x=88.0, y=785.11）；印 PDF 裁图见 proof2 `render/crop-p7-orphan.png`。根因同 D6。修复：`content7.py` 该 bridge 调用传 `w=CW - 35`（387.5px）。宽度扫描证明 377.5–395px 区间均断为同一三行 `de wedstrijd 比赛；de groepswinst 小组 / 头名；de kwartfinale 四分之一决赛； / scoren 进球。`，取 387.5px 为区间中值；行数仍为 3 行，下游 y 坐标不变。
+- **全版孤儿标点重扫（重建后 8 版 SVG，`<text>` 按基线 y 分组——单字元只有独占整行基线才算孤儿）：** 独行 `。` 0 处；独行闭引号 `» ” ’ ） 」 》` 0 处；独行 `：`/`–` 亦 0 处。P8 的 7 个单字元 `）` `<text>` 各与同基线的 4–6 个 sibling 共行（答案区行内定位符，非独行，已排除，与 proof2 结论一致）。
+- **附带：导出器桩（goals 侧工具，非入仓文件）。** `scratch-nl/stub_bslib47.py` 的 `Flow.para`/`Flow.bridge` 覆写未接受 `w`，致 `export47.py` 首次重导报 `TypeError`；已为该桩补 `w=None` 透传（仅签名兼容，导出文本不受影响）。重导后 text.md 与 fix2 字节一致（见下）。
+
+**Fix-round-3 gates (final build, 2026-11-11):**
+- Build: `run.py` exit 0, TOTAL 150, by page 10/18/18/18/18/18/12/38, A2 46 / B1 73 / B2 31; `render.py` exit 0, zero FLOW OVERFLOW / HEAD TOO WIDE warnings. Print PDF 25,955,581 bytes; web PDF 2,103,999 bytes. SVG 哈希：仅 `p3-cultuur.svg` 与 `p7-taal.svg` 变化，其余 6 版与 fix2 字节一致。
+- `occlusion_audit.py svg/`: selftest OK, **0 flags**.
+- Creambox check（与 fix2 同款 `check_creambox.py`）：仍报 3 处 CREAM-BOTTOM（P2 y=1383.36 / P5 y=932.05 / P6 y=659.44，均 ≤1.6px），三处框底以下 7px 带逐像素探针均为 0 墨点——与 proof2 结论一致，均为中文末行套用拉丁下伸裕量的人为假阳性。**结论：creambox 真溢出 0。**（注：P6 的全宽带扫描墨底 664.44 是奶油框填充本身触及非纸阈值，非字墨；proof2 窄幅扫描的字墨墨底为 661.4、余量 +3.6px；决定性判据框底以下 7px 带 0 墨点两轮一致。）
+- `p8.py extract --p8 svg/p8-toets.svg --total 150`: noted set **150/150**.
+- P8 键 vs text.md 对照（proof2 的 `step3b_p8compare.py` 原样重跑）：输出与 proof2 **逐字一致**（8 处“mismatches”全为配对项 25–28/141–144 的已知解析 artifact——text.md 配对答案在区间标题行、逐题解析为 None；配对键本身一致：25–28 = d/c/a/b，141–144 = b/c/d/a）。text.md 与 fix2 字节一致、P8 键与 proof2 全验集合一致，故 150 键无需逐题重手验（无任何键变动）。
+- Freeze (direct sha256, clean-dir re-run of `run.py`): **8/8 MATCH**.
+- P8 answer font size (PyMuPDF): min = **10.12pt** ≥ 9.75pt floor（与 fix2 同值）。
+- Web vs print text layer (PyMuPDF position-sorted): all 8 pages positional diff 0, multiset diff 0 (tokens 760/715/673/671/700/659/738/1685 = 6,520，与 proof2 同值）。pdftotext: print 44,197 bytes, web 44,197 bytes (0-byte difference)。较 fix2 的 44,198 少 1 字节——D6 重排丢掉了助动词与 hebben/zijn 之间那一个断行空格（fix2 第 1 行末含该空格；D7 段字节不变）；print-text 与 fix2 的 diff 仅两处重排段（D6 两行、D7 三行），无其他内容差。
+- D3 回归复测（proof2 的 `step3_gates.py`）：P2 D 选项真墨 clearance 与 proof2 逐值一致（c +71.5，a +97.5，b +44.5，d +55.5；左列 25–28 +278.5/+285.5/+208.5/+265.5）。引号全扫：ASCII 双引号 0、反引号 0，`« »` 成对（P1 1对、P2 2对、P7 30对、P8 2对），`“ ”` 仅 P1 一对；金句 8/8 逐字出自正文；Q150 范文 81 词（含独立 `–`）/ 80 词（不含），均在 80–100 内。（注：`step3_gates.py` 自身在金句小节后因既有 bug 崩溃——`md` 为 list 却传入 `re.findall`，proof2 轮同款脚本亦然；金句小节已单独重跑，见 `golden-fix3.txt`，8/8；其内嵌 p8-extract 小节因未传 `--json` 报 noted set 0，独立 `p8.py extract`（150/150）为准。）
+- `.text.md` re-exported from source (`export47.py`, exit 0): **44,088 bytes，与 fix2 字节一致**（SHA `2f2a650b…b25d92e` 不变）；432 行；142 single-exercise lines + 2 match headers + 8 match items = 150; 8 golden lines; 6 gloss lines。
+- 8 版目视（印 PDF 自渲染 1.5×，`render/p1–p8.png`）：P1、P2、P4、P5、P6、P8 干净，与 proof2 一致；P3/P7 修复处裁图（`render/crop-p3-fixed.png`、`render/crop-p7-fixed.png`）确认 `。` 已回上一行，无孤儿、无遮挡。P7 末尾 VOLGENDE WEEK 深色带贴底（proof2 N3，非阻塞观察）未变，不在本轮范围。
+- New SHAs (lowercase): print `82427d3f80af23588726311dd415ff9caefe0cc153dc3b3637444babd4bc9eb7`; web `44553e5c77d3fbf796939fc35bc43721292e44f1669253cd23fc76c47bcd5a39`; core text.md `2f2a650b54989e7b4b656f21cc2ae613e9dc42425a56106f03e00dff6b25d92e`（不变）。
+- Logs and scratch: `hidden_files/w47/scratch-fix-core-nl3/` — `build-fix3.log`, `render-fix3.log`, `export-fix3.log`, `webpdf-fix3.log`, `occlusion.log`, `freeze.log`, `creambox.log`, `p8-fix3.log`, `p8-extract.json`, `step3b-p8compare.txt`, `step3-gates.txt`, `golden-fix3.txt`, `step4-inkprobe.txt`, `step4b-inkprobe.txt`, `step4c-p6-inkprobe.txt`, `print-text.txt`, `web-text.txt`, `svg-hashes-before.txt`, `svg-hashes-after.txt`, `check_creambox.py`, `export47.py`, `render/`（8 页自渲染 + 两处修复裁图）, `tmp/`（TMPDIR）。`stub_bslib47.py` 的 `w` 透传改动在 `scratch-nl/`（goals 侧导出器桩，不入仓）。
+- FIX-LOG.md 位于 core-nl/（随本轮 commit 入仓）：缺陷、证据、改动、门禁结果、新 SHA。
+- **Commit 说明：** 本轮 commit 只含 core-nl 的 5 个文件——`content34.py`（D6 调用点）、`content7.py`（D7 调用点）、`bslib4.py`（`w` 参数机制）三处源码改动 + `FIX-LOG.md` + `WEEKLY-KIT.md`。其中 `bslib4.py` 与 `content7.py` 此前未入仓（与 fix2 首次加 `content12.py`/`content34.py` 同例：每轮只加本轮改动的源文件），本轮首次加入。`content12.py`、`2026-w47-nl-zh-cn.text.md` 未变，不在 commit 内。重建的 SVG/PDF/cards 为 render cache，不入仓。9 版 fan-out text.md/PDF 未重建（待协调员派 fix3 增量重建）。
 
 ## 10. Delivery note
 

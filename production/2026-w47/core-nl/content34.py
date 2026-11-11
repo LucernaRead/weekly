@@ -75,7 +75,7 @@ e.ex("B1", "完成句子", "editie", "editie = 届",
 e.ex("A2", "完成句子", "leeskring", "leeskring = 读书会",
      "In de bibliotheek is er een ___ over Het diner.", instr="填空", size=20, gap=8)
 e.head("C　HET PERFECTUM", 25)
-e.bridge("用现在完成时补全，注意助动词 hebben/zijn。")
+e.bridge("用现在完成时补全，注意助动词 hebben/zijn。", w=CW - 40)  # fix3 D6: 窄 40px 使句末 。 回上一行（原断行 。 独占一行）
 e.ex("B1", "完成句子", "is aangekomen", "aankomen 用 zijn：is aangekomen",
      "Sinterklaas ___ (aankomen) in Grave.", instr="填空", size=20, gap=8)
 e.ex("B1", "完成句子", "heeft ontvangen", "ontvangen 的 perfectum：heeft ontvangen",
