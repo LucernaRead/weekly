@@ -131,7 +131,7 @@ f.para("A pergunta da semana passada tem resposta: quem vai à final da Copa do 
 f.para("No domingo, 8, o Vasco venceu o Palmeiras por 2 a 1, em São Januário — mas o Palmeiras havia vencido a ida por 1 a 0, e o agregado ficou em 2 a 2. Nos pênaltis, o Palmeiras venceu por 5 a 4 e foi à final. Foi a segunda semifinal decidida nos detalhes: um empate que bastou, e uma disputa de pênaltis.")
 f.para("A final é em jogo único, no dia 6 de dezembro, no Mané Garrincha, em Brasília. O Grêmio busca o sexto título — e joga a décima final da sua história. O Palmeiras busca o quinto título da Copa do Brasil. Quem ganha, levanta a taça e garante vaga na próxima Libertadores.")
 f.para("E o Brasileirão volta depois da pausa: a rodada 35 termina na quarta, 18, e na quinta, 19 — Cruzeiro × Palmeiras e Flamengo × Athletico-PR na quarta; Vasco × Internacional e São Paulo × Fluminense na quinta. No sábado, 21, às 16h30, Palmeiras × Flamengo: o jogo que pode decidir o título. E em Interlagos, no domingo 8, Lando Norris venceu o Grande Prêmio de São Paulo, com Verstappen em segundo e Hadjar em terceiro; a Mercedes garantiu o título de construtores.")
-f.gloss("o agregado 总比分 · os pênaltis 点球大战 · a decisão 决赛 · o título 冠军 · a pausa 休整期 · a taça 奖杯。")
+f.gloss("o agregado 总比分 · os pênaltis 点球大战 · a decisão 决赛 · o título 冠军头衔 · a pausa 休整期 · a taça 奖杯。")
 f.end_report()
 
 # col 3: data box + e você (sequential)

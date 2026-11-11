@@ -212,7 +212,7 @@ A final é em jogo único, no dia 6 de dezembro, no Mané Garrincha, em Brasíli
 
 E o Brasileirão volta depois da pausa: a rodada 35 termina na quarta, 18, e na quinta, 19 — Cruzeiro × Palmeiras e Flamengo × Athletico-PR na quarta; Vasco × Internacional e São Paulo × Fluminense na quinta. No sábado, 21, às 16h30, Palmeiras × Flamengo: o jogo que pode decidir o título. E em Interlagos, no domingo 8, Lando Norris venceu o Grande Prêmio de São Paulo, com Verstappen em segundo e Hadjar em terceiro; a Mercedes garantiu o título de construtores.
 
-*译注｜o agregado 总比分 · os pênaltis 点球大战 · a decisão 决赛 · o título 冠军 · a pausa 休整期 · a taça 奖杯。*
+*译注｜o agregado 总比分 · os pênaltis 点球大战 · a decisão 决赛 · o título 冠军头衔 · a pausa 休整期 · a taça 奖杯。*
 
 ### Os finalistas
 

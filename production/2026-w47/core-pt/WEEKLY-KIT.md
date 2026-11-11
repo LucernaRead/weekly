@@ -52,9 +52,9 @@
 - 构建自检 gates_core.py（由 W46 版改编适配 W47）：**16/16 PASS**（原记 17/17 系把 `def check` 行计入；实际 check 调用 16 项，第 3 轮核对时更正）（VOL.4/日期/副标题、页脚+页码 8/8、无 VOL.3 版标残留——VOL.3 仅在 P7 披露中作为被引承诺期出现、截稿注 + 决赛命名、P1 刊头行宽 ≤1820、同基线碰撞 0、页框墨迹穿越 0、P6 图表标签 GRAZE 0%、gloss 29 项枚举+词头存活、P7 金句 2×+页签+中文、读者角逐字串 5/5、图片+credits 5/5、P7 金句区不入预告框、P1 头条 ≤56 去空白字符 41）。改编说明（与 W46 副本的偏差）：`svglib._font` 在当前工具包已不存在，墨迹盒改用 `svglib._runs` + `svglib._pil` + 逐 run `getbbox`（`text_bbox` 辅助）；Newsreader 字族名既不含 "Serif" 也不含 "Sans"，归为 serif（P1 词标 UnifrakturMaguntia 仍为 'other' 并跳过）；SVG 文本须先 `html.unescape` 再量宽（`&gt;` 按 4 字符量宽会虚增约 19px——此前 P8 答案 56–59 的 4 处 17–20px“碰撞”即由此来）；同基线碰撞阈值 0.5→2.0px（PIL `getbbox` 返回整数像素界，每元素约 1px 舍入，≤1.5px 重叠为舍入噪声；真实 P2 缺陷类约为 18px）。
 - tools/occlusion_audit.py：selftest 先过（植入类触发、干净对照静默）；当前 SVG **0 flags**。初版 5 flags（全在 P1：Dom 22 项及 Sáb 21 第二行被目录盒遮住），根因见下。
 - tools/p8.py extract --total 150：**150/150**。
-- tools/freeze.py baseline：工具内置比对报 "0/8 SVGs byte-identical (repointed files: none)"——因副本 OUT 为 `__file__` 相对路径，未把任何文件重定向到 `<out>/svg`（工具只重定向落在真实 files/ 或 production/ 树的绝对路径）；副本实际已运行并在 `freeze/build-copy/svg/` 产出 SVG，直接 `sha256sum -c` 核对核心哈希：**8/8 OK**。核心 SVG 构建前后未变。工具局限记于此，勿当作 freeze 失败。
-- Web PDF：tools/webpdf.py 生成 A-Lucerna-VOL4-web.pdf，**1,608,359 字节**（<7 MB），SHA-256 `d1d26cd70823e83e6165268b055b481981cd5cc3bdcffaec40042f7bf28a521f`（fix1 重建后；webpdf 逐跑 SHA 不定——fontTools 子集化流的字节级非确定性，见 FIX-LOG；文字层与印版逐字相同，pdftotext 44,481 字节，见下），含真实文本层；印刷版 pdftotext 44,481 字节，两版文本一致（词多重集差 0）。
-- 印刷版 PDF：A-Lucerna-VOL4.pdf（**25,311,644 字节**，8 页；fix1 重建后）保留于本目录，SHA-256 `98f44af82f82df7c7fec1014fff7098d0448bf775b2aeda484f2e69233235181`（render.py 两跑 SHA 相同，确定性已验）。text.md 未动：36,876 字节，SHA-256 `9dd550b6d7d19703ce6643357e9aad3f5367dfc40379bd41d56db999fd36afbe`。
+- tools/freeze.py baseline：**8/8 SVGs byte-identical**（副本重建后逐字节比对，repointed files: none；核心 SVG 构建前后未变，8 文件重哈希无改动）。fix1 轮已是此结果；第 3 轮旧版“0/8”系工具重定向局限，勿当作 freeze 失败。
+- Web PDF：tools/webpdf.py 生成 A-Lucerna-VOL4-web.pdf，**1,609,033 字节**（<7 MB），SHA-256 `9f2d70e5404a964d303182faae69b4884e46dbcc168a632323fb2bff61a2a7b5`（fix2 重建后；webpdf 逐跑 SHA 不定——fontTools 子集化流的字节级非确定性，见 FIX-LOG；文字层与印版逐字相同，pdftotext 44,487 字节，见下），含真实文本层；印刷版 pdftotext 44,487 字节，两版文本一致（词多重集差 0）。
+- 印刷版 PDF：A-Lucerna-VOL4.pdf（**25,312,258 字节**，8 页；fix2 重建后）保留于本目录，SHA-256 `4b58f4dfec2245f77dbb57b53c58cbab4913fdc85e4cf8566d706d4d3ec141b6`（render.py 三跑 SHA 相同，确定性已验）。text.md 只改第 215 行（见 fix2）：36,882 字节，SHA-256 `3cd3793f198a40d8c4b895275bbce9c6593168eeb93ae2e7fea7ce0e7f4fbce2`。
 - P8 答案实测字号：**10.1pt（渲染后）**——13.5 SVG 单位 × 0.75 页面缩放（页面 1462.5×2025 pt 对 1950×2700 单位）；光栅 cap-height 实测验证（卡片上 "RESPOSTAS" 标题 cap 高 19px，web PDF 上 14px，比值 0.737 ≈ 0.75；答案 "A" cap 高 9px vs 7px）。pdftohtml 的 "15pt" 为内嵌字体名义字号，非渲染字号，勿报 15pt。10.1pt 高于 SOP §1.1 下限 9.75pt，无需让步（不需去掉双线框/单行答案注/降题干字号）。
 - 全 8 张卡片已目检；全文已通读校对；全 150 题答案逐题核对（见 §6 末）。未做 SOP §8 独立第二人校对——仅构建者自检，须如实上报。独立校对由协调员另派。
 - 自查轮次：**第 1 轮**（目视全卡 + 通读 + 逐题核对）发现 8 处缺陷，全部修复并重渲染复查（见下）；**第 2 轮**（最终轮，P1/P5 修复后重看 + 全文复读 + 机械门禁重跑）零问题。详见“构建过程缺陷与修复”。**第 3 轮（2026-11-10 返修轮，独立校对后）**：独立校对结论 1 硬缺陷（D1）+ 3 次要观察（O1–O3），源头修复后整期重渲染并从头再做一轮全量自查，见下方“返修轮（第 3 轮）”。**第 4 轮（2026-11-10 返修轮之二，D2 修复后）**：Q131 键改为 A 后整期重渲染并从头再做一轮全量自查，见下方“返修后自查（第 4 轮全量）”。
@@ -88,6 +88,15 @@
 - 三框加高后全版重扫：creambox 31 框 0 真溢出；occlusion 0 flags；gates 同基线碰撞 0、页框墨迹穿越 0（最小边距 L/R/T/B = 47.0/47.9/35.0/33.0）；P1 quiz 流末 y=2559（底线 2560），无 FLOW OVERFLOW；P3 col3 末 1077（练习横线 1620），无挤压；P6 col3 末 1066 不变。
 - 附注：任务原列 `freeze_direct` 在仓库 `tools/freeze.py` 中无此子命令（仅 baseline/diff），本次 freeze 证据为 baseline 8/8 + diff 自比 0 增 CJK，不拦停。
 - 修复日志（改行旧值→新值、逐门结果、回归实测值、裁切图）：`~/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-core-pt1/FIX-LOG.md`。
+
+## 8c. fix2（第 6 轮，2026-11-11；D5 译注消歧，re-proof c5fe4f3c 结论 b 的唯一未修项）
+
+- 诱因：fix1 后独立 re-proof 复测 D1/D2/D3/D7 全部通过，唯一缺陷 D5：P4 译注 `o título 冠军` 有歧义——文中 `o título` 凡 9 处皆指头衔/冠军（`o sexto título`、`o título de construtores`、`o jogo do título` 等），“人”（冠军得主）义无一处成立；且歧义已实证传播到 8 个 fanout 版（fr champion、de Meister、es campeón、it campione、nl kampioen、ru чемпион、ja 優勝者、ko 우승자——各版 text.md 已核实；fanout 版修正不在本轮，协调员另行处理）。
+- 改动（只加“头衔”二字，文案其余、题键、字数结构不动）：`content34.py:134` 的 P4 gloss 由 `o título 冠军` 改为 `o título 冠军头衔`；`2026-w47-pt-zh-cn.text.md:215` 由导出器重生成同步更新，仅该行一处改动（36,876 → 36,882 字节，+6 字节）。text.md 未手改：导出路径为本轮新建的记录桩导出器 `scratch-fix-core-pt2/make_textmd_pt.py`（执行 content 文件、记录渲染字符串并按既定版式拼合；其余核心已有同类先例 core-en/de/it），改动前先验证其输出与修前已入仓 text.md **逐字节相同**（SHA `9dd550b6…`），再改源码重导出。
+- P4 gloss 盒实测：仍 3 行（未新增换行），末行 PIL 宽 342.4 → 383.4px，内宽余量 44.1 → **+3.1px**；末行基线 368.4、框底 416.2，creambox 纵向余量仍 **+47.7px**（desc-clear +41.6）；Cairo 渲染 PNG 实测末行墨右缘 1387，距框右缘 1411.5 余 **24.5px**，墨底 372、距框底 44.2px——框内，无溢出。
+- 回归（PNG 真墨，与 fix1 值比对）：D1 `em Brasília. (Página 4)` 墨底 2331、框底 2348，clearance **+17px**（fix1 +16，阈值差 1px，无回退）；D2 `16h30.` 墨底 540、框底 551，**+11px**；D3 `Página do Participante.` 墨底 845、框底 854，**+9px**；D7 范文 10 行墨右缘 1722–1840，最紧距 1862 **22px**——四项均与 fix1 一致，无回退。
+- 全部门禁（fix2 重建后）：gates 16/16 PASS（同基线碰撞 0；页框墨迹穿越 0，最小边距 L/R/T/B = 47.0/47.9/35.0/33.0；P1 头条 41 字符）；occlusion 自检过、0 flags；creambox 全版 31 框 0 真溢出（仅 6 处已知 BELOW-WINDOW 假阳性 +32…+42px 下块标题；inside-only desc-clear 负值 6 处均为已知误报）；p8 extract 150/150；p8 compare（core 自比）CLEAN、keydiff=[]；freeze baseline 8/8（venv：Pillow 13.0.0 / FreeType 2.14.3）；keycheck 150/150（印 PDF RESPOSTAS 与 text.md 逐项比对，149 项正则逐字一致 + Q140 因版式换行手工核对一致，Q150 仅 ✓ 标记提取 artifact，目视一致）；印/网文字层各 44,487 字节、7,263 词，词多重集差 0（逐字相同）；P8 最小字号实测 10.12pt（全版最小亦为 10.12pt，仅在 P8），高于 SOP §1.1 下限 9.75pt；弯引号 U+201C/U+201D 各 3（印/网一致）、U+2019 0、«» 各 40。
+- 修复日志：`~/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-core-pt2/FIX-LOG.md`。
 
 ## 7. 复现
 
