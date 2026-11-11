@@ -102,13 +102,25 @@ $PY freeze.py diff --core-svg ../production/<week>/core-<target>/svg \
 output path in the copy to the scratch tree, **aborts if any copied file still
 references the real edition dir**, runs the copy (run.py, else imports
 content12/34/56/7/8 in order), sha256-compares all 8 SVGs, and re-hashes
-the real core SVGs afterwards to prove they were untouched.
+the real core SVGs afterwards to prove they were untouched. The repoint
+covers `production/`, `files/` and `hidden_files/` under both trees
+(2026-11-11: scratch OUT paths under `hidden_files/` used to escape
+`--out`, baseline self-reporting 0/8 while the files landed elsewhere).
 
 `diff` lists every added/removed text string per page (multiset) plus CJK
 accounting. **`--strict-cjk` is the gate for zh-cn/zh-tw/ja targets**:
 added CJK characters must be 0. For ko targets, Hangul syllables cited
 inside reader-language notes legitimately add counts (see validation) —
 read the per-char list instead of gating on it.
+
+`diff` also carries Latin accounting (2026-11-11): per-page added Latin
+strings and the unexpected subset (added Latin strings that are not a
+bare furniture language name, see `FURNITURE_LANG_NAMES` in the source).
+**`--strict-latin` is a same-slug before/after gate only** — it fails
+when any unexpected Latin string was added (the W47 core-it D-2 fix, two
+pure-Latin strings, now trips it; before the fix the gate was blind to
+Latin entirely). Never use it on a core-vs-edition diff: translation
+adds Latin wholesale (measured 415 added strings core-de -> de-en).
 
 **Validation:** KO core baseline **8/8 byte-identical**, core untouched.
 Diff core-vs-itself: all zeros. KO core vs KO×PT: only explanation-layer
@@ -239,6 +251,29 @@ Re-running the tool against the pre-fix tree (git stash) fails with
 432 `MISSING <p class="lc-excerpt">` lines — the exact defect it exists
 to catch — plus the 144 W45 headline mismatches and 36 missing
 `.lc-excerpt` CSS rules (612 failures total).
+
+---
+
+## 7. `style_check.py` — §1.1 style gate (P8 font size, palette, badges)
+
+```bash
+$PY style_check.py <print-pdf> <svg-dir>
+```
+
+Prints per-page minimum font size from the print PDF, palette / paper /
+VOL counts and visible-text CJK inventory from the SVGs, and the badge
+check: a badge is a 60x30 rect, rx=2.7, filled A2 #5c6e30 / B1 #46581f /
+B2 #37402f and holding exactly one bare A2/B1/B2 tag; fill must match
+the level. Any other olive-filled rect (section bands, chart legend
+blocks) is listed as a non-badge rect, not checked as a badge — the old
+code checked any text falling inside any olive rect and false-flagged
+section titles and headlines (26 false hits on zh-cn-es, 2026-11-11).
+
+**Validation (2026-11-11):** zh-cn-es **135 badges (A2 50 / B1 63 /
+B2 22)**, 0 mismatches, P6 legend block (29.5x30 at 428,1324) excluded;
+de-en **141 badges (A2 66 / B1 61 / B2 14)**, 0 mismatches. Counts
+reconcile with the exercise registry (150 exercises − 15 shared pairing
+badges = 135 for zh-cn-es).
 
 ---
 
