@@ -16,6 +16,12 @@ Consolidates the method that a dozen hand-rolled audit scripts re-derived
     shipped a struck-through caption in EN×PT P6.
   * Bold (font-weight=700) texts are parsed and measured with the Bold
     face. (An early audit regex silently skipped bold elements.)
+  * Nested <svg> viewports and <g transform="..."> are mapped to page
+    coords before any box is compared. The P1 moth brand mark is a nested
+    <svg viewBox="64 120 384 284"> with a mirrored wing group; its LOCAL
+    coords read as page coords produced a false 89% COVER on W47 IT x JA
+    P1 (the moth body vs the masthead band's リ). The synthetic selftest
+    carries a nested-svg regression case for this.
   * Footer band rule at y=2596 (page 1950x2700, footer baseline 2624 is
     exempt — the footers live below the rule by design).
 
@@ -106,11 +112,93 @@ def ink_box(text, family, size, bold, x, y, anchor="start", spacing=0.0):
     return (left, y - ascent + t, right, y - ascent + b)
 
 
-# ---------------- SVG parsing (flat paint order; the corpus has no
-# transforms / opacity / tspan — verified in the 2026-10-21 audit) ------
+# ---------------- SVG parsing (flat paint order, with a transform
+# stack for nested <svg> viewports and <g transform="...">) ------------
+# The 2026-10-21 audit claimed the corpus had no transforms — that was
+# wrong for the P1 moth: svglib.moth() inlines the brand mark as a nested
+# <svg x y width height viewBox="64 120 384 284">, and the moth asset
+# itself mirrors one wing with <g transform="translate(512 0)
+# scale(-1 1)">. Ignoring those mappings read the moth's LOCAL coords
+# as page coords: on W47 IT x JA the moth body's local box [240, 204,
+# 272, 375] falsely "covered" 89% of the masthead band's リ (page
+# x=237, y=330; the body really sits at page [971, 405, 979, 448]).
+# Every shape/text box below is therefore mapped through the enclosing
+# transforms before any check sees it.
+def _compose(m1, m2):
+    """Affine compose m1 o m2 (apply m2 first). Matrices as
+    (a, b, c, d, e, f): x' = a*x + c*y + e; y' = b*x + d*y + f."""
+    a1, b1, c1, d1, e1, f1 = m1
+    a2, b2, c2, d2, e2, f2 = m2
+    return (a1 * a2 + c1 * b2, b1 * a2 + d1 * b2,
+            a1 * c2 + c1 * d2, b1 * c2 + d1 * d2,
+            a1 * e2 + c1 * f2 + e1, b1 * e2 + d1 * f2 + f1)
+
+
+_IDENTITY = (1.0, 0.0, 0.0, 1.0, 0.0, 0.0)
+_TRANS_FN = re.compile(r"(translate|scale|rotate|matrix)\s*\(([^)]*)\)")
+
+
+def _parse_transform(s):
+    """SVG transform attribute -> affine matrix (identity if unparsable)."""
+    m = _IDENTITY
+    for fn, argstr in _TRANS_FN.findall(s or ""):
+        nums = [float(v) for v in _PATH_NUM.findall(argstr)]
+        if fn == "translate":
+            t = (1.0, 0.0, 0.0, 1.0, nums[0], nums[1] if len(nums) > 1 else 0.0)
+        elif fn == "scale":
+            sx = nums[0]
+            sy = nums[1] if len(nums) > 1 else sx
+            t = (sx, 0.0, 0.0, sy, 0.0, 0.0)
+        elif fn == "matrix" and len(nums) >= 6:
+            t = tuple(nums[:6])
+        elif fn == "rotate" and nums:
+            import math
+            a = math.radians(nums[0])
+            co, si = math.cos(a), math.sin(a)
+            r = (co, si, -si, co, 0.0, 0.0)
+            if len(nums) >= 3:
+                cx, cy = nums[1], nums[2]
+                r = _compose((1.0, 0.0, 0.0, 1.0, cx, cy),
+                             _compose(r, (1.0, 0.0, 0.0, 1.0, -cx, -cy)))
+            t = r
+        else:
+            continue
+        m = _compose(m, t)
+    return m
+
+
+def _viewport_map(attrs):
+    """Nested <svg x y width height viewBox> -> affine map to page coords
+    (identity when there is no viewBox and no offset)."""
+    vb = attrs.get("viewBox", "").split()
+    x, y = fnum(attrs, "x"), fnum(attrs, "y")
+    if len(vb) != 4:
+        return (1.0, 0.0, 0.0, 1.0, x, y)
+    vx, vy, vw, vh = (float(v) for v in vb)
+    w = fnum(attrs, "width", vw) or vw
+    h = fnum(attrs, "height", vh) or vh
+    sx, sy = (w / vw if vw else 1.0), (h / vh if vh else 1.0)
+    return (sx, 0.0, 0.0, sy, x - vx * sx, y - vy * sy)
+
+
+def _map_box(box, m):
+    """Axis-aligned bbox of a box mapped through an affine transform."""
+    if box is None or m == _IDENTITY:
+        return box
+    a, b, c, d, e, f = m
+    xs, ys = [], []
+    for (px, py) in [(box[0], box[1]), (box[2], box[1]),
+                     (box[0], box[3]), (box[2], box[3])]:
+        xs.append(a * px + c * py + e)
+        ys.append(b * px + d * py + f)
+    return (min(xs), min(ys), max(xs), max(ys))
+
+
 TAG_RE = re.compile(
     r"<text\b(?P<tattrs>[^>]*)>(?P<tcontent>.*?)</text>"
-    r"|<(?P<tag>rect|line|image|circle|path)\b(?P<attrs>[^>]*?)/?>",
+    r"|<(?P<tag>rect|line|image|circle|path)\b(?P<attrs>[^>]*?)/?>"
+    r"|</(?P<endtag>g|svg)>"
+    r"|<(?P<opentag>g|svg)\b(?P<oattrs>[^>]*)>",
     re.S)
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
@@ -294,7 +382,22 @@ def parse_svg(svg_text):
         W = fnum(attrs, "width", PAGE_W) or PAGE_W
         H = fnum(attrs, "height", PAGE_H) or PAGE_H
     els = []
+    stack = [_IDENTITY]
     for i, mm in enumerate(TAG_RE.finditer(svg_text)):
+        if mm.group("endtag") is not None:
+            if len(stack) > 1:
+                stack.pop()
+            continue
+        if mm.group("opentag") is not None:
+            oa = mm.group("oattrs") or ""
+            if oa.rstrip().endswith("/"):
+                continue  # self-closing <g/> or <svg/>: no children
+            attrs = parse_attrs(oa)
+            if mm.group("opentag") == "svg":
+                stack.append(_compose(stack[-1], _viewport_map(attrs)))
+            else:
+                stack.append(_compose(stack[-1], _parse_transform(attrs.get("transform", ""))))
+            continue
         if mm.group("tattrs") is not None:
             attrs = parse_attrs(mm.group("tattrs"))
             text = clean_text(mm.group("tcontent"))
@@ -303,13 +406,13 @@ def parse_svg(svg_text):
             bold = attrs.get("font-weight", "") in ("700", "bold")
             spacing = fnum(attrs, "letter-spacing", 0.0)
             el.baseline = fnum(attrs, "y")
-            el.box = ink_box(text, attrs.get("font-family", ""), size, bold,
+            el.box = _map_box(ink_box(text, attrs.get("font-family", ""), size, bold,
                              fnum(attrs, "x"), el.baseline,
-                             attrs.get("text-anchor", "start"), spacing)
+                             attrs.get("text-anchor", "start"), spacing), stack[-1])
             els.append(el)
         else:
             el = El(mm.group("tag"), i, parse_attrs(mm.group("attrs")))
-            el.box = shape_box(el)
+            el.box = _map_box(shape_box(el), stack[-1])
             els.append(el)
     return els, W, H
 
@@ -452,6 +555,15 @@ CLEAN_SVG = (
     + '<line x1="90" y1="400" x2="600" y2="400" stroke="#b3a06a" stroke-width="2"/>'
     + '<rect x="100" y="600" width="300" height="120" fill="#fdfaf0" stroke="#28251d" stroke-width="1.2"/>'
     + _txt(120, 660, "Inside box fine")
+    # Nested-<svg> regression (W47 IT x JA P1): the moth brand mark is a
+    # nested <svg viewBox="64 120 384 284"> whose body path has LOCAL box
+    # [240, 204, 272, 375]; the narrow リ below sits inside that local box
+    # (a reader ignoring the viewport would flag ~76% COVER), but mapped
+    # through the viewport it lands at page [1544, 2021, 1552, 2064] and
+    # covers nothing. If the transform stack regresses, this page flags.
+    + _txt(240, 230, "リ", size=36)
+    + '<svg x="1500" y="2000" width="96" height="71" viewBox="64 120 384 284">'
+      '<path d="M256 204 240 229v121l16 25 16-25V229Z" fill="#34483A"/></svg>'
     + "</svg>")
 CLEAN_TEXTS = ("Clean control text", "Inside box fine", "Perfectly clean text")
 

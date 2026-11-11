@@ -38,13 +38,65 @@ CJK = re.compile(r"[\u2e80-\u9fff\u3040-\u30ff\uac00-\ud7af\uff00-\uffef]")
 
 
 def load_texts(path):
+    """Logical lines, not raw <text> elements: the current svglib emits one
+    <text> per same-font run, so a header like '— СТРАНИЦА 1 —' arrives as
+    three elements ('— ', 'СТРАНИЦА', ' 1 —') and a per-element scan never
+    sees it (fixed 2026-11-10: p8.py extract failed 'no-header' on the new
+    run-split SVGs while the old single-element SVGs parsed fine).
+    Runs on one baseline, in document order, join with no added space
+    (spaces are explicit elements); a baseline change, an x regression
+    (new column), or an end-anchored element starts a new line. Old
+    single-element SVGs come through unchanged."""
     s = open(path, encoding="utf-8").read()
-    return [html.unescape(re.sub(r"<[^>]+>", "", c)) for _, c in TEXT_RE.findall(s)]
+    raw = []
+    for attrs, c in TEXT_RE.findall(s):
+        m_x = re.search(r'x="([-\d.]+)"', attrs)
+        m_y = re.search(r'y="([-\d.]+)"', attrs)
+        m_a = re.search(r'text-anchor="([^"]+)"', attrs)
+        raw.append((float(m_x.group(1)) if m_x else 0.0,
+                    float(m_y.group(1)) if m_y else 0.0,
+                    m_a.group(1) if m_a else "start",
+                    html.unescape(re.sub(r"<[^>]+>", "", c))))
+    lines, cur, cur_y, last_x = [], [], None, None
+    for x, y, anchor, t in raw:
+        if not t:
+            continue
+        new_line = (cur_y is None or abs(y - cur_y) > 2 or
+                    (last_x is not None and x < last_x - 1) or
+                    anchor == "end")
+        if new_line:
+            if cur:
+                lines.append("".join(cur))
+            cur, cur_y = [t], y
+        else:
+            cur.append(t)
+        last_x = x
+    if cur:
+        lines.append("".join(cur))
+    return lines
 
 
 def is_header(t):
     t = t.strip()
     return bool(HEADER_RE.match(t)) and len(t) <= 34
+
+
+FOOTER_RE = re.compile(r"LUCERNA|第\s*\d+\s*版／共\s*\d+\s*版")
+
+
+def _tail(texts, start):
+    """Elements from texts[start:], with trailing footer lines dropped by
+    content, not by count. The two footer texts share one baseline
+    (y=2624) and svglib writes both with text-anchor="start" (the
+    end-anchored right text is pre-positioned), so load_texts merges them
+    into ONE logical line; a blind [-2] then eats the last answer (no.
+    150) and split_lines fails. Fixed 2026-11-10, W47 nl core: drop every
+    trailing line that carries the masthead or the page-count footer
+    instead."""
+    els = texts[start:]
+    while els and FOOTER_RE.search(els[-1]):
+        els = els[:-1]
+    return els
 
 
 def answers_elements(texts):
@@ -55,7 +107,7 @@ def answers_elements(texts):
             break
     if start is None:
         return None
-    return texts[start:-2]  # drop the two footer lines
+    return _tail(texts, start)
 
 
 def join2(a, b):
@@ -126,6 +178,10 @@ def split_joined(els, total):
     stream = ""
     for t in els:
         stream = join2(stream, "·" if is_header(t) else t)
+    # 2026-11-10 (W47 fr core, SOP §1.1): the printed keys separator is now
+    # a full-width space U+3000, not "·". Normalize it to the internal "·"
+    # marker BEFORE the whitespace collapse below (\s+ would eat U+3000).
+    stream = stream.replace("　", "·")
     stream = re.sub(r"\s+", " ", stream).strip().lstrip("·").strip()
     if not re.match(r"1\.\s", stream):
         return None
@@ -136,6 +192,13 @@ def split_joined(els, total):
         # line start, and join2() adds no space before a CJK-initial line. The "·" before
         # the number keeps the separator unambiguous, so the trailing space is optional.
         mm = re.compile(r"·\s*" + str(cur + 1) + r"\.\s?").search(stream, pos)
+        if not mm:
+            # Fallback: a "　" eaten by svglib's rstrip() at a line break
+            # leaves only a space (or nothing) before the number. Accept a
+            # bare boundary, but require the number NOT to be preceded by a
+            # digit or "." so decimals inside a key (e.g. "21.8") cannot
+            # create a false entry.
+            mm = re.compile(r"(?<![\d.])\s*" + str(cur + 1) + r"\.\s?").search(stream, pos)
         if not mm:
             return None
         entries[cur] = stream[pos:mm.start()].strip().rstrip("·").strip()
@@ -164,21 +227,34 @@ def split_lines(els, total):
 def extract(p8_path, total):
     """{n: {has_note, key, seg, method}} or (None, reason)."""
     texts = load_texts(p8_path)
-    els = answers_elements(texts)
-    if els is None:
+    starts = [i for i, t in enumerate(texts) if is_header(t)]
+    if not starts:
         return None, "no-header"
-    body = [t for t in els if not is_header(t)]
-    joined = any(re.search(r"\d+\.\s.*·\s*\d+\.", t) for t in body)
-    entries = split_joined(els, total) if joined else split_lines(els, total)
-    how = "joined" if joined else "lines"
-    if entries is None:
-        return None, how + "-split-fail"
-    res = {}
-    for n, seg in entries.items():
-        has, key, method = detect_note(seg)
-        res[n] = {"has_note": has, "key": key, "seg": seg, "method": method}
-    res["_how"] = how
-    return res, how
+    # Try each header candidate in document order. A dialogue stem in the
+    # test area can wrap to a line that looks exactly like a page
+    # separator (starts AND ends with "—", short, contains a digit:
+    # W47 zh-cn E149 "— 这条新闻说最高一天1.4亿件，可信吗？ —"), and the
+    # old code took the first such line as the keys section start, so
+    # split_lines failed before it ever saw a number. A candidate is only
+    # the keys section if the numbered answers 1..total follow it in full.
+    # Fixed 2026-11-10, W47 zh-cn core.
+    last_err = "no-header"
+    for s in starts:
+        els = _tail(texts, s)
+        body = [t for t in els if not is_header(t)]
+        joined = any(re.search(r"\d+\.\s.*[·　]\s*\d+\.", t) for t in body)
+        entries = split_joined(els, total) if joined else split_lines(els, total)
+        how = "joined" if joined else "lines"
+        if entries is None:
+            last_err = how + "-split-fail"
+            continue
+        res = {}
+        for n, seg in entries.items():
+            has, key, method = detect_note(seg)
+            res[n] = {"has_note": has, "key": key, "seg": seg, "method": method}
+        res["_how"] = how
+        return res, how
+    return None, last_err
 
 
 def norm(s):
