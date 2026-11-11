@@ -55,9 +55,23 @@ PAGE_H = FONTS["page"]["height"]
 _font_cache = {}
 SCALE = 4  # supersample font size for sub-pixel ink metrics
 
+# Cyrillic + Cyrillic Supplement — the same range as the build's
+# svglib._CYR (production/2026-w47/core-ru/svglib.py).
+_CYRILLIC = range(0x0400, 0x0530)
+# System non-CJK Noto faces (same dir the build's NOTO_DIR points at).
+_NOTO_DIR = "/usr/share/fonts/truetype/noto"
 
-def resolve_font(family, size, bold):
-    """(path, index) for an SVG font-family string."""
+
+def _has_cyrillic(text):
+    return any(ord(ch) in _CYRILLIC for ch in (text or ""))
+
+
+def resolve_font(family, size, bold, text=None):
+    """(path, index) for an SVG font-family string.
+
+    `text` is the run's content: the build emits one <text> per maximal
+    same-font run, so the run's characters decide which face it was
+    rendered in (see ink_box)."""
     fam = family or "Noto Sans CJK SC"
     if "Newsreader" in fam:
         # New standard style (§1.1) Latin text is set in Newsreader, not in
@@ -75,6 +89,23 @@ def resolve_font(family, size, bold):
     if "Unifraktur" in fam:
         return (FONTS["blackletter"], 0)
     serif = "Serif" in fam
+    # Cyrillic runs: the build (core-ru svglib._char_font) renders them
+    # with the non-CJK Noto Serif/Sans, never the CJK SC face — the
+    # per-character fallback chain is Newsreader (Latin) -> Noto Serif
+    # (Cyrillic) -> Noto Serif CJK SC (CJK). Measuring a Cyrillic run with
+    # the CJK SC face overstates its ink ~2-6% (+3.0-8.0px per word at
+    # body/headline sizes, e.g. Bold 53 'Зенит' 171.8 vs build 166.3) and
+    # raised 42 false TEXTX flags on W47 ru-nl. Only the bare family
+    # names are diverted: 'Noto Serif CJK SC' / 'Noto Sans CJK SC' stay
+    # on the CJK face (that is what the old build rendered, and what CJK
+    # runs use). No Cyrillic in the text (or no text given) -> unchanged.
+    first = fam.strip().split(",")[0].strip()
+    if text and _has_cyrillic(text) and first in ("Noto Serif", "Noto Sans"):
+        if serif:
+            return (os.path.join(_NOTO_DIR, "NotoSerif-Bold.ttf" if bold
+                                 else "NotoSerif-Regular.ttf"), 0)
+        return (os.path.join(_NOTO_DIR, "NotoSans-Bold.ttf" if bold
+                             else "NotoSans-Regular.ttf"), 0)
     suffix = fam.strip().split()[-1] if fam.strip().split() else "SC"
     index = FACE_INDEX.get(suffix, FACE_INDEX["SC"])
     if serif:
@@ -82,9 +113,9 @@ def resolve_font(family, size, bold):
     return (FONTS["sans_bold"] if bold else FONTS["sans_regular"], index)
 
 
-def get_font(family, size, bold):
+def get_font(family, size, bold, text=None):
     from PIL import ImageFont
-    path, index = resolve_font(family, size, bold)
+    path, index = resolve_font(family, size, bold, text)
     px = max(1, int(round(size * SCALE)))
     key = (path, index, px)
     if key not in _font_cache:
@@ -96,9 +127,29 @@ def ink_box(text, family, size, bold, x, y, anchor="start", spacing=0.0):
     """True ink box (l, t, r, b) for a text node with SVG baseline (x, y)."""
     if not text.strip():
         return None
-    f = get_font(family, size, bold)
+    f = get_font(family, size, bold, text)
     adv = f.getlength(text) / SCALE + (spacing * (len(text) - 1) if spacing else 0.0)
-    l, t, r, b = [v / SCALE for v in f.getbbox(text)]
+    # PIL's getbbox() counts a whitespace glyph's degenerate (zero-height,
+    # full-advance-wide) box as ink at the string edges: '» ' reports
+    # 12.5px wider than '»' at 53pt, and a leading U+3000 IDEOGRAPHIC
+    # SPACE adds a full em (46px at 46pt) to '\u3000TAAL'. That overstated
+    # run edges at every word/quote seam. Measure the stripped core and
+    # shift it by the stripped leading prefix's advance (advance + the
+    # letter-spacing gaps inside the prefix, matching the adv formula).
+    lead = len(text) - len(text.lstrip())
+    trail = len(text) - len(text.rstrip())
+    if lead or trail:
+        core = text.strip()
+        gb = f.getbbox(core)
+        if gb is None:
+            return None
+        lead_adv = (f.getlength(text[:lead]) / SCALE
+                    + (spacing * lead if spacing else 0.0)) if lead else 0.0
+        l, t, r, b = [v / SCALE for v in gb]
+        l += lead_adv
+        r += lead_adv
+    else:
+        l, t, r, b = [v / SCALE for v in f.getbbox(text)]
     ascent = f.getmetrics()[0] / SCALE
     if anchor == "middle":
         left = x - adv / 2 + l
