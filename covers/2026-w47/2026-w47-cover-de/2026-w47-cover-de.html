@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Die Lucerna · Wochenzeitung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">Die Lucerna<span class="lc-wm-small">Wochenzeitung</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Das Kapitol der Vereinigten Staaten in Washington, seine weiße Kuppel über dem Rasen.">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>Das Kapitol in Washington.</figcaption>
+        </figure>
+        <h3 lang="en">Democrats Win the House and the Senate</h3>
+        <p class="lc-excerpt" lang="en">On Tuesday, November 3, Americans voted in the midterm election — for all 435 seats in the House of Representatives, for 35 seats in the Senate, and for governor in 36 states.</p>
+        <p class="lc-teaser">Die Demokraten gewannen beide Kammern; die Zahlen sind noch keine amtlichen Ergebnisse.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The Week After the Vote: What Happens Now?</h4><p>Die Staaten bestätigen die Ergebnisse bis 18. Dezember; Georgia stimmt notfalls am 1. Dezember neu ab.</p></li>
+          <li data-page="3"><h4 lang="en">Friday at the Movies: Haymitch Goes Back to the Arena</h4><p>Der neue Hunger-Games-Film startet Freitag, 20. November: der junge Haymitch in den 50. Spielen.</p></li>
+          <li data-page="4"><h4 lang="en">Perth, One Year On: How Australia Kept the Ashes</h4><p>Vor einem Jahr gewann Australien die Ashes 4:1, ab Perth; die nächste Serie ist im Juni 2027 in England.</p></li>
+          <li data-page="5"><h4 lang="en">Break the Silence: Odd Socks and Loud Voices</h4><p>Die Anti-Mobbing-Woche läuft vom 16. bis 20. November; Montag ist Tag der ungleichen Socken.</p></li>
+          <li data-page="6"><h4 lang="en">The Map After November 3: Reading the Results</h4><p>So liest man die Karte: Repräsentantenhaus 254:162, Senat 54:44 — und was ein “Call” bedeutet.</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the Week</h4><p>Die Sätze der Woche: win und won, will, more than, Past Simple, Schlagzeilen-Präsens, whether.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">midterm</p><p class="lc-gloss">Eine Wahl mitten in der Amtszeit eines Präsidenten; bei Midterms wird der Kongress gewählt, nicht der Präsident.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Ein Fußballspiel: Ein Spieler in Rot läuft mit dem Ball, ein Spieler in Weiß rutscht in den Zweikampf.">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>Ein Fußballspiel auf Rasen.</figcaption>
+        </figure>
+        <h3 lang="de">Die Bundesliga kehrt zurück — Bayern gegen Köln</h3>
+        <p class="lc-excerpt" lang="de">Diese Woche ist die Bundesliga zurück: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern gegen den 1. FC Köln. Anstoß ist um 20.30 Uhr in der Allianz Arena in München.</p>
+        <p class="lc-teaser">Die Bundesliga ist zurück: Bayern gegen Köln am Freitag, die Nationalelf in Belgrad.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Ein Mittwoch, der fast frei ist: Der Buß- und Bettag</h4><p>Am Mittwoch, 18. November, ist Buß- und Bettag, ein evangelischer Feiertag; nur in Sachsen ist frei.</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu</h4><p>Die Kölner Weihnachtsmärkte öffnen Montag, 16. November, bleiben aber am Sonntag, 22. November, zu.</p></li>
+          <li data-page="4"><h4 lang="de">Die Woche der Ergebnisse — und die Rückkehr der Liga</h4><p>Champions League, 4. Spieltag, Bundesliga, 9. Spieltag mit 30 Toren, und die Liga kehrt vom 20. bis 22. November zurück.</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender basteln: 24 Türchen bis Weihnachten</h4><p>Kinder basteln einen Adventskalender: 24 Türchen bis Weihnachten, und der Kalender von 1903 aus der Geschichte.</p></li>
+          <li data-page="6"><h4 lang="de">Eine stille Woche: Was bedeuten Buß- und Bettag und Totensonntag?</h4><p>Eine stille Woche: Was Buß- und Bettag und Totensonntag bedeuten, und der Bundeshaushalt 2027.</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>Die Sätze der Woche: Daten sagen, Passiv mit werden, Fehlerklinik und Leserbriefe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="6"><p class="lc-term" lang="de">Totensonntag</p><p class="lc-gloss">Der letzte Sonntag des Kirchenjahres, ein stiller Tag, an dem evangelische Christen ihrer Verstorbenen gedenken.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Eine Pariser Straßenszene, fotografiert von Eugène Atget: alte Häuser an einer stillen Straße.">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>Eine Pariser Straße von Atget.</figcaption>
+        </figure>
+        <h3 lang="fr">Alcaraz, roi de Paris : le Sénat tranche mercredi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5, en finale du Rolex Paris Masters, à Nanterre.</p>
+        <p class="lc-teaser">Alcaraz gewann das Paris Masters; am Mittwoch stimmt der Senat über den Sozialhaushalt ab.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 16 novembre : une semaine en trois temps</h4><p>Die Woche in drei Akten: Turin und der Senat am Montag, Haushaltsabstimmung am Mittwoch, Wein am Donnerstag.</p></li>
+          <li data-page="3"><h4 lang="fr">Le beaujolais nouveau a 75 ans</h4><p>Der Beaujolais nouveau wird 75: Der neue Wein kommt Donnerstag, 19. November, um Mitternacht.</p></li>
+          <li data-page="4"><h4 lang="fr">Alcaraz gagne Paris, Turin commence</h4><p>Alcaraz schlug Shelton im Finale von Paris; Sinner fehlt verletzt, und die ATP Finals beginnen Sonntag in Turin.</p></li>
+          <li data-page="5"><h4 lang="fr">Mercredi 18 novembre : le cinéma, et la seconde main</h4><p>Sechzehn Filme starten Mittwoch, 18. November, und die Europäische Woche der Abfallvermeidung beginnt Samstag.</p></li>
+          <li data-page="6"><h4 lang="fr">Au Sénat, mercredi 18 : le vote du budget de la Sécu</h4><p>Der Senat stimmt Mittwoch, 18. November, über den Sozialhaushalt 2027 ab; die Einnahmen lehnte die Nationalversammlung ab.</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>Die Sätze der Woche: das nahe Futur, das Passé composé und die Sätze aus dieser Ausgabe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">trancher</p><p class="lc-gloss">Entscheiden, kurz und bündig: Der Senat entscheidet, der Richter entscheidet.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Eine Wahlurne aus Bronze, mit der Inschrift “Suffrage universel”, allgemeines Wahlrecht.">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>Eine Wahlurne aus Bronze.</figcaption>
+        </figure>
+        <h3 lang="es">La campaña arranca: trece días para el 29-N</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.</p>
+        <p class="lc-teaser">Der Wahlkampf begann Freitag, 13. November; fünfzehn Tage bis zur Wahl am 29. November.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 16 al domingo 22</h4><p>Die Woche Tag für Tag, Montag 16 bis Sonntag 22: der Wahlkampf, die Musik, der Fußball.</p></li>
+          <li data-page="3"><h4 lang="es">El flamenco cumple: del 16 de noviembre a Santa Cecilia</h4><p>Flamenco: UNESCO-Erbe seit 16. November 2010, und die heilige Cäcilia, Patronin der Musik, am Sonntag, 22. November.</p></li>
+          <li data-page="4"><h4 lang="es">Vuelve la Liga: la jornada 13, del viernes al lunes</h4><p>Die Liga ist zurück: Der 13. Spieltag läuft von Freitag bis Montag.</p></li>
+          <li data-page="5"><h4 lang="es">Votar por primera vez: el jueves 19 se cierra el plazo</h4><p>Zum ersten Mal wählen: Die Frist für die Briefwahl endet Donnerstag, 19. November.</p></li>
+          <li data-page="6"><h4 lang="es">Leer la campaña: debates, programas y encuestas</h4><p>Die Kampagne lesen: Debatten, Programme und Umfragen — und Vorschlag von Beschluss unterscheiden.</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>Die Sätze der Woche: die Uhrzeit sagen, Vergleiche und der Subjunktiv.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el debate</p><p class="lc-gloss">Eine Diskussion mit Redereihenfolge: vier Sprecher am Freitag, 13. November, ein Duell am Montag, 16. November.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Eine alte Schwarz-Weiß-Luftansicht eines Stadions in Rom: eine ovale Laufbahn um einen Fußballplatz.">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>Ein altes Stadion in Rom, von oben.</figcaption>
+        </figure>
+        <h3 lang="it">La Lazio resta in vetta: Inter e Roma inseguono</h3>
+        <p class="lc-excerpt" lang="it">La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta.</p>
+        <p class="lc-teaser">Lazio bleibt Erster der Serie A mit 29 Punkten nach dem 1:1 in Neapel; Inter hat 28, Roma 27.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Venezia prega, l'Italia pianta alberi: il 21 novembre</h4><p>Venedig feiert am Samstag, 21. November, die Madonna della Salute, und Italien pflanzt Bäume.</p></li>
+          <li data-page="3"><h4 lang="it">Due feste dolci chiudono in bellezza: torrone e cioccolato</h4><p>Zwei süße Feste enden Sonntag, 22. November: das Torrone-Fest in Cremona und die Schokolade.</p></li>
+          <li data-page="4"><h4 lang="it">Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata</h4><p>11. Spieltag: Lazio Erster mit 29 Punkten, Inter und Roma dahinter; Milan steigt mit 24 Punkten auf Platz vier.</p></li>
+          <li data-page="5"><h4 lang="it">I giovani leggono: BookCity arriva, il cinema torna a Torino</h4><p>Die Jugend liest: BookCity kommt nach Mailand, 23. bis 29. November, und das Kino kehrt nach Turin zurück.</p></li>
+          <li data-page="6"><h4 lang="it">La manovra va in Parlamento: audizioni, emendamenti, voto</h4><p>Das Haushaltsgesetz geht ins Parlament: Anhörungen vom 9. bis 12. November, dann Änderungsanträge und Abstimmung.</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>Die Sätze der Woche: das Futur für Pläne, das Lesen bei BookCity und die Sätze aus dieser Ausgabe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la vetta</p><p class="lc-gloss">Der erste Platz in der Tabelle. Lazio ist mit 29 Punkten Erster.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Ein Stich von 1835: ein Capoeira-Spiel in einer Straße in Rio, zwei Spieler im Kreis, Musiker und Zuschauer ringsum.">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>Ein Capoeira-Spiel in Rio, 1835.</figcaption>
+        </figure>
+        <h3 lang="pt">Consciência Negra: sexta é feriado em todo o país</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 20 de novembro, é feriado nacional: o Dia Nacional de Zumbi e da Consciência Negra. A data lembra a morte de Zumbi dos Palmares, em 1695, líder do Quilombo dos Palmares.</p>
+        <p class="lc-teaser">Freitag, 20. November, ist der Tag des Schwarzen Bewusstseins, ein Feiertag.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 20 de novembro: o feriado e o feriadão</h4><p>Der Feiertag und das lange Wochenende: was schließt, was öffnet, und Capoeira, Samba und Buchmessen die ganze Woche.</p></li>
+          <li data-page="3"><h4 lang="pt">Zumbi e Palmares: a história do 20 de novembro</h4><p>Der 20. November erinnert an Zumbis Tod 1695, Anführer von Palmares: Widerstand, Geschichte, afrobrasilianische Kultur.</p></li>
+          <li data-page="4"><h4 lang="pt">Grêmio e Palmeiras decidem a Copa do Brasil</h4><p>Grêmio und Palmeiras entscheiden den Copa do Brasil: ein Endspiel am 6. Dezember in Brasília.</p></li>
+          <li data-page="5"><h4 lang="pt">Depois do Enem: a espera começa</h4><p>Nach dem Enem beginnt das Warten: Millionen waren am zweiten Tag dabei, Sonntag, 15. November.</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: como funciona a espera</h4><p>Der Lösungsschlüssel erklärt: wie das Warten funktioniert und wie der TRI-Score jede Antwort wertet.</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>Die Sätze der Woche: über einen Feiertag sprechen, das Perfekt und die Sätze aus dieser Ausgabe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">consciência</p><p class="lc-gloss">Wissen und Erinnern — sich selbst, die Geschichte, die anderen.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Der Westertoren, der hohe Turm der Westerkerk in Amsterdam, über den Dächern.">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>Der Westertoren in Amsterdam.</figcaption>
+        </figure>
+        <h3 lang="nl">Vanavond in Berlijn: Oranje tegen Duitsland</h3>
+        <p class="lc-excerpt" lang="nl">Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3.</p>
+        <p class="lc-teaser">Heute Abend, Montag, spielt die Niederlande in Berlin gegen Deutschland, 20.45 Uhr.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: aftellen naar pakjesavond</h4><p>Der Schuh steht bereit: Countdown zu Pakjesavond, 5. Dezember — eine Möhre für das Pferd, ein Wunschzettel, ein Gedicht.</p></li>
+          <li data-page="3"><h4 lang="nl">Sinterklaas is er: Grave, Amsterdam en het journaal</h4><p>Sinterklaas ist da: die Ankunft in Grave am Samstag und in Amsterdam am Sonntag, zum 88. Mal.</p></li>
+          <li data-page="4"><h4 lang="nl">Oranje: de beslissing in Berlijn</h4><p>Oranje: die Entscheidung in Berlin; die Tabelle und die Eredivisie, 13. Runde, am 21. und 22. November.</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>Expeditie Robinson sonntags, 20.00 Uhr auf RTL 4: 19 Kandidaten, 34 Tage auf einer Insel in Malaysia.</p></li>
+          <li data-page="6"><h4 lang="nl">Sinterklaas: oud feest, nieuwe wensen</h4><p>Sinterklaas: altes Fest, neue Wünsche. Die Tradition wandelt sich, und eine Grafik fragt 100 Jugendliche, was sie in den Schuh legen.</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>Die Sätze der Woche: Fußballwörter, die Vergangenheitsform, Weil-Sätze und die Sätze aus dieser Ausgabe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de groepswinst</p><p class="lc-gloss">Der erste Platz in der Gruppe: als Nummer eins ins Viertelfinale.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">De schoen</li>
+          <li lang="nl">Sinterklaas</li>
+          <li lang="nl">Oranje</li>
+          <li lang="nl">Robinson op zondag</li>
+          <li lang="nl">Oud feest</li>
+          <li lang="nl">Zinnen van de week</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Ein Herbstweg in einem Park, mit gelben Blättern an den Bäumen und auf dem Boden.">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>Ein Herbstweg im Park.</figcaption>
+        </figure>
+        <h3 lang="ru">14-й тур: «Зенит» и «Динамо» — по 31 очку</h3>
+        <p class="lc-excerpt" lang="ru">Все восемь матчей 14-го тура завершены: тур сыграли 6–8 ноября. «Зенит» и «Динамо» набрали по 31 очку и делят первое место в таблице.</p>
+        <p class="lc-teaser">Der 14. Spieltag ist vorbei: Zenit und Dynamo teilen sich den ersten Platz mit je 31 Punkten.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">День студента, день рождения Деда Мороза</h4><p>Dienstag, 17. November, ist Internationaler Tag der Studierenden; Mittwoch, 18. November, ist der Geburtstag von Ded Moroz.</p></li>
+          <li data-page="3"><h4 lang="ru">Кино 19 ноября: пять премьер</h4><p>Fünf Filmpremieren am Donnerstag, 19. November: eine Stallone-Biografie, ein Krimi und Familienkomödien.</p></li>
+          <li data-page="4"><h4 lang="ru">14-й тур: все восемь результатов</h4><p>14. Spieltag: alle acht Ergebnisse, die Top-5-Tabelle und die Nationalelf gegen Usbekistan und Venezuela.</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: скидки с 16 ноября</h4><p>Schwarzer Freitag: Rabatte ab 16. November. Wie man ein Paket verfolgt, prüft und zurückschickt, wenn es nicht passt.</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 16–22 ноября: как её прожить</h4><p>Eine gewöhnliche Woche, 16. bis 22. November: fünf Arbeitstage, dann das Wochenende — und wie man sie gut lebt.</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>Die Sätze der Woche: Wetterwörter, Einkaufswörter und wie man sich auf etwas bezieht.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">оттепель</p><p class="lc-gloss">Wärme im Winter: Der Schnee schmilzt.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Rote und orangefarbene japanische Ahornblätter vor dunklem Hintergrund.">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>Japanische Ahornblätter im Herbst.</figcaption>
+        </figure>
+        <h3 lang="ja">二の酉と新酒、19日の木よう日</h3>
+        <p class="lc-excerpt" lang="ja">19日（木よう日）は、酉の市・二の酉です。浅草の鷲神社では、午前0時の一番太鼓から、24時まで市が開きます。熊手を買う人の夜です。同じ19日（木よう日）は、ボジョレー・ヌーヴォーの解禁日です。</p>
+        <p class="lc-teaser">Donnerstag, 19. November: Tori-no-Ichi und der Beaujolais Nouveau.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">19日 — 夜通しの酉の市</h4><p>Donnerstag, 19. November: Das Tori-no-Ichi läuft die ganze Nacht am Schrein in Asakusa: die erste Trommel um Mitternacht.</p></li>
+          <li data-page="3"><h4 lang="ja">新酒の夜 — 19日の0時</h4><p>Der neue Wein kommt Donnerstag, 19. November: um Mitternacht geht der Beaujolais Nouveau in Japan in den Verkauf.</p></li>
+          <li data-page="4"><h4 lang="ja">波乱の3日間 — 九州場所</h4><p>Drei dramatische Tage beim Kyushu-Sumo-Turnier: fünf Favoriten sind verletzt, und ein 23-Jähriger wird zum Kandidaten.</p></li>
+          <li data-page="5"><h4 lang="ja">今年のことば、30語</h4><p>Die Wörter dieses Jahres: 30 Kandidaten, vom «schnellen Omamori» bis zu «der Frau, die lief».</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて京都へ</h4><p>Den Blättern nach nach Kyoto: die beste Zeit für das Herbstlaub und wo man es genießt.</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>Die Sätze der Woche: wie man sagt, wann etwas passiert, Wetterwörter und die Sätze aus dieser Ausgabe.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">熊手</p><p class="lc-gloss">Ein Rechen für Glück, gekauft auf dem Tori-no-Ichi.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Eine rote Stahlbrücke über einem Tal nebligen Herbstwaldes, die Hänge bedeckt mit gelben und orangefarbenen Bäumen.">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>Eine rote Brücke über Herbstwald im Nebel.</figcaption>
+        </figure>
+        <h3 lang="ko">수능 D-1, 김치의 날 — 삼성 12년 만의 우승</h3>
+        <p class="lc-excerpt" lang="ko">11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.</p>
+        <p class="lc-teaser">Die CSAT-Prüfung ist Donnerstag, 19. November; der Kimchi-Tag ist Sonntag, 22. November.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장비용이 내렸어요 — 김치의 날에는 김치를 나눠요</h4><p>Die Kimjang-Kosten sind in diesem Jahr gesunken. Am Kimchi-Tag teilen die Menschen Kimchi mit Familie und Nachbarn.</p></li>
+          <li data-page="3"><h4 lang="ko">김치의 날이 와요 — 늦가을 단풍은 마무리에요</h4><p>Der Kimchi-Tag kommt, und die spät-herbstlichen Blätter sind fast vorbei: Geschichte und die Blätter im Bukhansan.</p></li>
+          <li data-page="4"><h4 lang="ko">삼성이 12년 만에 우승했어요 — kt wiz를 4승 1패로 이겼어요</h4><p>Samsung gewann die Korean Series 4:1 gegen kt wiz: der erste Titel seit 12 Jahren und ein neuer KBO-Trophäenrekord.</p></li>
+          <li data-page="5"><h4 lang="ko">수능 주간 — 예비소집부터 시험 날까지</h4><p>Die CSAT-Woche, von der Vorversammlung bis zum Prüfungstag: wie der Tag abläuft und was man mitbringt.</p></li>
+          <li data-page="6"><h4 lang="ko">예보에서 결과로 — 뉴스를 다시 읽는 법</h4><p>Von der Vorhersage zum Ergebnis: wie man Nachrichten erneut liest — die Geschichten mit der längsten Haltbarkeit.</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>Die Fehlerklinik: die häufigsten Fehler der Woche und wie man sie behebt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">예비소집</p><p class="lc-gloss">Der Tag vor der Prüfung, an dem die Kandidaten sich versammeln und ihre Räume prüfen.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">김장비용과 김치의 날</li>
+          <li lang="ko">김치의 날과 늦가을 단풍</li>
+          <li lang="ko">한국시리즈 우승과 K리그</li>
+          <li lang="ko">수능 주간과 예비소집</li>
+          <li lang="ko">예보에서 결과로</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Eine Reihe grauer Paketstationen mit vielen kleinen Türen, von vorn gesehen.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>Eine Reihe von Paketstationen.</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG赢了，决赛对阵GEN</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16的半决赛打完了。11月8日星期日，GEN 3比0打赢了IG。11月9日星期一，BLG 3比1打赢了T1。决赛是BLG对GEN，北京时间11月15日星期日凌晨3点，在纽约的巴克莱中心打。</p>
+        <p class="lc-teaser">BLG schlug T1 mit 3:1 am Montag, 9. November; das Finale gegen GEN ist Sonntag, 15. November.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">包裹到了吗？收、退、查</h4><p>Ist Ihr Paket da? Wie man es annimmt, zurückschickt und verfolgt.</p></li>
+          <li data-page="3"><h4 lang="zh-cn">小雪到了，冬天真的来了</h4><p>Der Kleine Schnee ist da: der 22. November, die Jahreszeit, in der der Winter wirklich beginnt.</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：四强打完，决赛见</h4><p>S16: Die Halbfinals sind gespielt. GEN schlug IG 3:0, BLG schlug T1 3:1; das Finale ist BLG gegen GEN.</p></li>
+          <li data-page="5"><h4 lang="zh-cn">新电影《试探》，你去看吗？</h4><p>Der neue Film «Die Befragung» — gehen Sie ihn sehen? Der erste Film des Festivals Saison der Wörter.</p></li>
+          <li data-page="6"><h4 lang="zh-cn">今年的包裹，为什么没有爆掉？</h4><p>Warum sind die Pakete dieses Jahres nicht explodiert? Die Lager, die Fahrer und drei Grafiken.</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>Die Fehlerklinik: die häufigsten Fehler der Woche und wie man sie behebt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">决赛</p><p class="lc-gloss">Das letzte Spiel, um die Meisterschaft.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">包裹到了吗</li>
+          <li lang="zh-cn">小雪到了</li>
+          <li lang="zh-cn">S16四强打完</li>
+          <li lang="zh-cn">新电影《试探》</li>
+          <li lang="zh-cn">包裹为什么没爆</li>
+          <li lang="zh-cn">词语精讲</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Ein Foto von 1908: eine Baseballmannschaft in Uniform auf dem Feld, der Werfer in der Mitte.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>Eine Baseballmannschaft im Jahr 1908.</figcaption>
+        </figure>
+        <h3 lang="zh-tw">週日下午2點，封王遊行天母出發</h3>
+        <p class="lc-excerpt" lang="zh-tw">味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。</p>
+        <p class="lc-teaser">Die Wei Chuan Dragons gewannen den sechsten Titel; die Parade startet Sonntag um 14.00 Uhr.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪快到了，保暖先做好</h4><p>Der Kleine Schnee kommt: Halten Sie sich vorher warm — ein Mantel, ein heißes Getränk, eine Heizung und eine Decke.</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬獎本週日頒獎，誰會得獎？</h4><p>Die Golden-Horse-Preise sind diesen Sonntag: Wer gewinnt? Ein Filmfestival mit 209 Titeln in 10 Tagen.</p></li>
+          <li data-page="4"><h4 lang="zh-tw">本週日，封王遊行天母出發！</h4><p>Diesen Sonntag startet die Siegesparade in Tianmu: 14.00 Uhr bis zur Songyan Avenue am Taipei Dome.</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港迪士尼聖誕，11月17日開始</h4><p>Die Weihnachten in Hong Kong Disneyland beginnt Montag, 17. November: die Welt von Frozen, Schnee und Shows.</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月22日，一天四件大事</h4><p>22. November, vier große Dinge an einem Tag: die Parade, der Eurovision-Wettbewerb und der Kleine Schnee.</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>Die Fehlerklinik: die häufigsten Fehler der Woche und wie man sie behebt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">封王</p><p class="lc-gloss">Eine Meisterschaft besiegeln: den Titel gewinnen.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">小雪與雙11包裹</li>
+          <li lang="zh-tw">金馬獎頒獎</li>
+          <li lang="zh-tw">封王遊行</li>
+          <li lang="zh-tw">迪士尼聖誕</li>
+          <li lang="zh-tw">一天四件大事</li>
+          <li lang="zh-tw">語言聚焦</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>

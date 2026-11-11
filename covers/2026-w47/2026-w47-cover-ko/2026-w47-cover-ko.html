@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Lucerna · 위클리</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">Lucerna<span class="lc-wm-small">위클리</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="워싱턴의 미국 국회의사당. 하얀 돔이 잔디밭 위로 솟아 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>워싱턴의 국회의사당.</figcaption>
+        </figure>
+        <h3 lang="en">Democrats Win the House and the Senate</h3>
+        <p class="lc-excerpt" lang="en">On Tuesday, November 3, Americans voted in the midterm election — for all 435 seats in the House of Representatives, for 35 seats in the Senate, and for governor in 36 states.</p>
+        <p class="lc-teaser">민주당이 상하 양원을 이겼다. 아직 공식 결과가 아닌 예측이다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The Week After the Vote: What Happens Now?</h4><p>주들은 12월 18일까지 결과를 확정한다. 조지아는 12월 1일 결선 투표를 할 수 있다.</p></li>
+          <li data-page="3"><h4 lang="en">Friday at the Movies: Haymitch Goes Back to the Arena</h4><p>새 헝거 게임 영화가 11월 20일 금요일 개봉한다. 젊은 헤이미치와 제50회 게임.</p></li>
+          <li data-page="4"><h4 lang="en">Perth, One Year On: How Australia Kept the Ashes</h4><p>1년 전 호주가 퍼스에서 시작해 애시스에서 4대 1로 이겼다. 다음은 2027년 6월 잉글랜드에서 열린다.</p></li>
+          <li data-page="5"><h4 lang="en">Break the Silence: Odd Socks and Loud Voices</h4><p>괴롭힘 방지 주간은 11월 16~20일. 월요일은 짝짝이 양말의 날, 금요일은 세계 어린이의 날.</p></li>
+          <li data-page="6"><h4 lang="en">The Map After November 3: Reading the Results</h4><p>지도 읽는 법: 하원 254대 162, 상원 54대 44, “콜”이 무슨 뜻인지.</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the Week</h4><p>이번 주의 문장: win과 won, will, 과거시제, 비교급, 제목의 현재시제.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">midterm</p><p class="lc-gloss">대통령 4년 임기 중간에 치르는 선거. 중간선거에서는 대통령이 아니라 의회를 뽑는다.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="축구 경기. 빨간 옷 선수가 공을 몰고 달리고, 하얀 옷 선수가 슬라이딩 태클을 한다.">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>잔디 위의 축구 경기.</figcaption>
+        </figure>
+        <h3 lang="de">Die Bundesliga kehrt zurück — Bayern gegen Köln</h3>
+        <p class="lc-excerpt" lang="de">Diese Woche ist die Bundesliga zurück: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern gegen den 1. FC Köln. Anstoß ist um 20.30 Uhr in der Allianz Arena in München.</p>
+        <p class="lc-teaser">분데스리가가 돌아왔다. 금요일 바이에른 대 쾰른, 대표팀은 베오그라드와 베를린에서 뛴다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Ein Mittwoch, der fast frei ist: Der Buß- und Bettag</h4><p>11월 18일 수요일은 참회와 기도의 날. 쉬는 곳은 작센주뿐이다.</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu</h4><p>쾰른 크리스마스 시장은 11월 16일 월요일에 열리지만 22일 일요일에는 닫는다.</p></li>
+          <li data-page="4"><h4 lang="de">Die Woche der Ergebnisse — und die Rückkehr der Liga</h4><p>챔피언스리그 4차전, 분데스리가 9라운드 30골, 리그는 11월 20~22일에 돌아온다.</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender basteln: 24 Türchen bis Weihnachten</h4><p>아이들이 어드벤트 캘린더를 만든다. 크리스마스까지 24개의 작은 문, 1903년 캘린더도 나온다.</p></li>
+          <li data-page="6"><h4 lang="de">Eine stille Woche: Was bedeuten Buß- und Bettag und Totensonntag?</h4><p>조용한 한 주. 참회의 날과 추모 주일의 뜻, 그리고 2027년 연방 예산.</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>이번 주의 문장: 날짜 말하기, werden 수동태, 실수 병원과 독자의 편지.</p></li>
+        </ul>
+        <div class="lc-word" data-page="6"><p class="lc-term" lang="de">Totensonntag</p><p class="lc-gloss">교회력의 마지막 주일, 개신교가 죽은 이를 기리는 조용한 날.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="외젠 아제가 찍은 파리 거리. 오래된 건물들이 조용한 거리를 따라 서 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>아제가 찍은 파리의 거리.</figcaption>
+        </figure>
+        <h3 lang="fr">Alcaraz, roi de Paris : le Sénat tranche mercredi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5, en finale du Rolex Paris Masters, à Nanterre.</p>
+        <p class="lc-teaser">알카라스가 파리 마스터스에서 우승했다. 수요일 상원이 사회보장 예산을 표결한다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 16 novembre : une semaine en trois temps</h4><p>한 주는 세 막. 월요일 토리노와 상원, 수요일 예산 표결, 목요일 와인.</p></li>
+          <li data-page="3"><h4 lang="fr">Le beaujolais nouveau a 75 ans</h4><p>보졸레 누보 75주년. 새 와인은 11월 19일 목요일 자정에 나온다.</p></li>
+          <li data-page="4"><h4 lang="fr">Alcaraz gagne Paris, Turin commence</h4><p>알카라스가 파리 결승에서 셸턴을 이겼다. 시너는 부상으로 빠지고, ATP 파이널은 일요일 토리노에서 시작한다.</p></li>
+          <li data-page="5"><h4 lang="fr">Mercredi 18 novembre : le cinéma, et la seconde main</h4><p>11월 18일 수요일에 영화 16편이 개봉하고, 토요일에는 유럽 폐기물 줄이기 주간이 시작된다.</p></li>
+          <li data-page="6"><h4 lang="fr">Au Sénat, mercredi 18 : le vote du budget de la Sécu</h4><p>상원은 11월 18일 수요일 2027년 사회보장 예산을 표결한다. 하원은 세입 부분을 부결했다.</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>이번 주의 문장: 근접 미래, 복합과거, 그리고 이번 호의 문장들.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">trancher</p><p class="lc-gloss">결정하다, 단호하게 자르다. 상원이 결정하고, 판사가 결정한다.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="청동 투표함. “Suffrage universel”, 보통선거라는 글자가 새겨져 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>청동 투표함.</figcaption>
+        </figure>
+        <h3 lang="es">La campaña arranca: trece días para el 29-N</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.</p>
+        <p class="lc-teaser">선거 운동은 11월 13일 금요일에 시작됐다. 11월 29일 일요일 투표까지 15일 남았다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 16 al domingo 22</h4><p>16일 월요일부터 22일 일요일까지, 하루하루. 선거 운동, 음악, 축구.</p></li>
+          <li data-page="3"><h4 lang="es">El flamenco cumple: del 16 de noviembre a Santa Cecilia</h4><p>플라멩코는 2010년 11월 16일부터 유네스코 유산. 음악의 수호성인 성녀 체칠리아는 11월 22일 일요일.</p></li>
+          <li data-page="4"><h4 lang="es">Vuelve la Liga: la jornada 13, del viernes al lunes</h4><p>라리가가 돌아왔다. 13라운드는 금요일부터 월요일까지.</p></li>
+          <li data-page="5"><h4 lang="es">Votar por primera vez: el jueves 19 se cierra el plazo</h4><p>처음 투표하기. 우편 투표 신청 마감은 11월 19일 목요일.</p></li>
+          <li data-page="6"><h4 lang="es">Leer la campaña: debates, programas y encuestas</h4><p>선거 운동 읽는 법. 토론, 공약, 여론조사. “제안”과 “확정”을 가리는 법.</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>이번 주의 문장: 시간 말하기, 비교급, 접속법.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el debate</p><p class="lc-gloss">차례대로 말하는 토론. 11월 13일 금요일 네 명의 대변인, 16일 월요일 일대일 토론.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="로마 경기장의 오래된 흑백 항공 사진. 타원형 트랙이 축구장을 둘러싸고 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>로마의 오래된 경기장, 위에서 본 모습.</figcaption>
+        </figure>
+        <h3 lang="it">La Lazio resta in vetta: Inter e Roma inseguono</h3>
+        <p class="lc-excerpt" lang="it">La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta.</p>
+        <p class="lc-teaser">라치오는 나폴리와 1대 1로 비겨 승점 29점으로 선두를 지켰다. 인테르 28점, 로마 27점.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Venezia prega, l'Italia pianta alberi: il 21 novembre</h4><p>베네치아는 11월 21일 토요일 살루테 성모 축제를 지내고, 이탈리아는 나무를 심는다.</p></li>
+          <li data-page="3"><h4 lang="it">Due feste dolci chiudono in bellezza: torrone e cioccolato</h4><p>두 개의 달콤한 축제가 11월 22일 일요일에 끝난다. 크레모나의 토로네 축제와 초콜릿.</p></li>
+          <li data-page="4"><h4 lang="it">Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata</h4><p>11라운드. 라치오 29점으로 선두, 인테르와 로마가 뒤쫓는다. 밀란은 24점으로 4위로 올라섰다.</p></li>
+          <li data-page="5"><h4 lang="it">I giovani leggono: BookCity arriva, il cinema torna a Torino</h4><p>젊은이들이 읽는다. 북시티는 11월 23~29일 밀라노에서 열리고, 영화는 토리노로 돌아온다.</p></li>
+          <li data-page="6"><h4 lang="it">La manovra va in Parlamento: audizioni, emendamenti, voto</h4><p>예산안이 의회로 간다. 11월 9~12일 청문회, 이후 수정과 표결.</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>이번 주의 문장: 계획을 말하는 단순 미래, 북시티에서 읽기, 이번 호의 문장들.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la vetta</p><p class="lc-gloss">순위 1위. 라치오는 승점 29점으로 선두에 있다.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1835년 판화. 리우 거리에서의 카포에이라. 원 안의 두 선수와 주변의 연주자들과 구경꾼들.">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>1835년 리우의 카포에이라.</figcaption>
+        </figure>
+        <h3 lang="pt">Consciência Negra: sexta é feriado em todo o país</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 20 de novembro, é feriado nacional: o Dia Nacional de Zumbi e da Consciência Negra. A data lembra a morte de Zumbi dos Palmares, em 1695, líder do Quilombo dos Palmares.</p>
+        <p class="lc-teaser">11월 20일 금요일은 전국 공휴일, 흑인 의식의 날. 3일 연휴가 시작된다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 20 de novembro: o feriado e o feriadão</h4><p>공휴일과 긴 연휴. 무엇이 닫고 무엇이 여는지, 카포에이라와 삼바, 책 박람회도 있다.</p></li>
+          <li data-page="3"><h4 lang="pt">Zumbi e Palmares: a história do 20 de novembro</h4><p>11월 20일은 1695년 줌비의 기일, 팔마리스의 지도자. 저항, 역사, 아프리카계 브라질 문화.</p></li>
+          <li data-page="4"><h4 lang="pt">Grêmio e Palmeiras decidem a Copa do Brasil</h4><p>그레미우와 파우메이라스가 브라질컵 결승을 치른다. 12월 6일 브라질리아에서 단판 승부.</p></li>
+          <li data-page="5"><h4 lang="pt">Depois do Enem: a espera começa</h4><p>에넴이 끝나고 기다림이 시작된다. 11월 15일 일요일 둘째 날을 수백만 명이 치렀다. 공식 답안은 11월 말까지 나온다.</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: como funciona a espera</h4><p>답안 설명. 기다림이 어떻게 돌아가는지, TRI 점수가 답을 어떻게 세는지.</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>이번 주의 문장: 공휴일에 대해 말하기, 완료형, 그리고 이번 호의 문장들.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">consciência</p><p class="lc-gloss">알고 기억하는 것. 자기 자신, 역사, 다른 사람들.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="암스테르담 베스트케르크 교회의 높은 탑, 베스트토렌이 지붕 위로 솟아 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>암스테르담의 베스트토렌.</figcaption>
+        </figure>
+        <h3 lang="nl">Vanavond in Berlijn: Oranje tegen Duitsland</h3>
+        <p class="lc-excerpt" lang="nl">Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3.</p>
+        <p class="lc-teaser">오늘 밤 월요일, 네덜란드가 베를린에서 독일과 맞붙는다. 20시 45분, 조 결정전.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: aftellen naar pakjesavond</h4><p>신발이 준비됐다. 12월 5일 선물 밤까지 카운트다운. 말에게 당근, 소원 목록, 시.</p></li>
+          <li data-page="3"><h4 lang="nl">Sinterklaas is er: Grave, Amsterdam en het journaal</h4><p>신터클라스가 왔다. 토요일 흐라버, 일요일 암스테르담. 88번째.</p></li>
+          <li data-page="4"><h4 lang="nl">Oranje: de beslissing in Berlijn</h4><p>오라녜, 베를린에서 결정전. 순위표와 에레디비시 13라운드는 11월 21~22일.</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>‘로빈슨 원정대’는 일요일 20시 RTL 4에서 방송한다. 19명의 참가자, 말레이시아 섬에서 34일.</p></li>
+          <li data-page="6"><h4 lang="nl">Sinterklaas: oud feest, nieuwe wensen</h4><p>신터클라스. 오래된 축제, 새로운 소원. 전통은 바뀌고, 100명의 젊은이에게 신발 속에 무엇을 넣는지 물었다.</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>이번 주의 문장: 축구 단어, 과거시제, ‘왜냐하면’ 문장, 그리고 이번 호의 문장들.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de groepswinst</p><p class="lc-gloss">조 1위. 1위로 8강에 진출.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">De schoen</li>
+          <li lang="nl">Sinterklaas</li>
+          <li lang="nl">Oranje</li>
+          <li lang="nl">Robinson op zondag</li>
+          <li lang="nl">Oud feest</li>
+          <li lang="nl">Zinnen van de week</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="공원의 가을 오솔길. 나무에도 땅에도 노란 잎이 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>공원의 가을 오솔길.</figcaption>
+        </figure>
+        <h3 lang="ru">14-й тур: «Зенит» и «Динамо» — по 31 очку</h3>
+        <p class="lc-excerpt" lang="ru">Все восемь матчей 14-го тура завершены: тур сыграли 6–8 ноября. «Зенит» и «Динамо» набрали по 31 очку и делят первое место в таблице.</p>
+        <p class="lc-teaser">14라운드를 마쳤다. 제니트와 디나모가 승점 31점으로 공동 선두다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">День студента, день рождения Деда Мороза</h4><p>11월 17일 화요일은 세계 학생의 날. 11월 18일 수요일은 데드 모로즈의 생일.</p></li>
+          <li data-page="3"><h4 lang="ru">Кино 19 ноября: пять премьер</h4><p>11월 19일 목요일에 영화 다섯 편이 개봉한다. 스탤론 전기, 범죄 드라마, 가족 코미디.</p></li>
+          <li data-page="4"><h4 lang="ru">14-й тур: все восемь результатов</h4><p>14라운드. 여덟 경기 결과 전부, 상위 5위 표, 대표팀은 우즈베키스탄과 베네수엘라와 맞붙는다.</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: скидки с 16 ноября</h4><p>블랙 프라이데이. 11월 16일부터 할인. 소포를 추적하고 확인하고, 맞지 않으면 반품하는 법.</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 16–22 ноября: как её прожить</h4><p>평범한 한 주, 11월 16~22일. 닷새 일하고 주말. 잘 보내는 법.</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>이번 주의 문장: 날씨 단어, 쇼핑 단어, 무언가를 가리키는 법.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">оттепель</p><p class="lc-gloss">겨울의 따뜻함. 눈이 녹는다.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="어두운 배경에 빨간색과 주황색 일본 단풍잎.">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>가을의 일본 단풍.</figcaption>
+        </figure>
+        <h3 lang="ja">二の酉と新酒、19日の木よう日</h3>
+        <p class="lc-excerpt" lang="ja">19日（木よう日）は、酉の市・二の酉です。浅草の鷲神社では、午前0時の一番太鼓から、24時まで市が開きます。熊手を買う人の夜です。同じ19日（木よう日）は、ボジョレー・ヌーヴォーの解禁日です。</p>
+        <p class="lc-teaser">11월 19일 목요일은 니노토리와 보졸레 누보 해금일. 같은 밤이다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">19日 — 夜通しの酉の市</h4><p>11월 19일 목요일. 아사쿠사 오토리 신사에서 토리노이치는 밤새 열린다. 첫 북은 자정에.</p></li>
+          <li data-page="3"><h4 lang="ja">新酒の夜 — 19日の0時</h4><p>새 술은 11월 19일 목요일. 0시에 보졸레 누보가 일본에서 발매된다.</p></li>
+          <li data-page="4"><h4 lang="ja">波乱の3日間 — 九州場所</h4><p>규슈 스모 대회, 파란의 사흘. 우승 후보 다섯 명이 다치고, 23세가 우승 후보가 된다.</p></li>
+          <li data-page="5"><h4 lang="ja">今年のことば、30語</h4><p>올해의 말, 30개. ‘특급 오마모리’부터 ‘달린 여자’까지.</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて京都へ</h4><p>단풍을 좇아 교토로. 단풍 절정과 즐기는 장소.</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>이번 주의 문장: 언제인지 말하는 법, 날씨 단어, 이번 호의 문장들.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">熊手</p><p class="lc-gloss">토리노이치에서 사는 복을 긁어모으는 갈퀴.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="안개 낀 가을 숲의 계곡 위에 놓인 빨간 철교. 경사면은 노란색과 주황색 나무로 덮여 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>안개 속 가을 숲 위의 빨간 다리.</figcaption>
+        </figure>
+        <h3 lang="ko">수능 D-1, 김치의 날 — 삼성 12년 만의 우승</h3>
+        <p class="lc-excerpt" lang="ko">11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.</p>
+        <p class="lc-teaser">이번 주는 수능 주간이에요. 시험은 11월 19일 목요일, 김치의 날은 11월 22일 일요일이에요.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장비용이 내렸어요 — 김치의 날에는 김치를 나눠요</h4><p>올해 김장비용이 내렸어요. 김치의 날에는 가족과 이웃과 김치를 나눠요.</p></li>
+          <li data-page="3"><h4 lang="ko">김치의 날이 와요 — 늦가을 단풍은 마무리에요</h4><p>김치의 날이 와요. 늦가을 단풍은 마무리에요. 역사와 북한산 단풍.</p></li>
+          <li data-page="4"><h4 lang="ko">삼성이 12년 만에 우승했어요 — kt wiz를 4승 1패로 이겼어요</h4><p>삼성이 kt wiz를 4승 1패로 꺾고 한국시리즈 우승. 12년 만의 우승, KBO 트로피 새 기록.</p></li>
+          <li data-page="5"><h4 lang="ko">수능 주간 — 예비소집부터 시험 날까지</h4><p>수능 주간. 예비소집부터 시험 날까지. 하루가 어떻게 돌아가는지, 무엇을 가져가는지.</p></li>
+          <li data-page="6"><h4 lang="ko">예보에서 결과로 — 뉴스를 다시 읽는 법</h4><p>예보에서 결과로. 뉴스를 다시 읽는 법. 유통기한이 가장 긴 이야기.</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>실수 병원. 이번 주의 흔한 실수와 고치는 법.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">예비소집</p><p class="lc-gloss">시험 전날. 수험생들이 모여 교실을 확인하는 날.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">김장비용과 김치의 날</li>
+          <li lang="ko">김치의 날과 늦가을 단풍</li>
+          <li lang="ko">한국시리즈 우승과 K리그</li>
+          <li lang="ko">수능 주간과 예비소집</li>
+          <li lang="ko">예보에서 결과로</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="작은 문이 많은 회색 택배 보관함의 줄, 정면에서 본 모습.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>택배 보관함의 줄.</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG赢了，决赛对阵GEN</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16的半决赛打完了。11月8日星期日，GEN 3比0打赢了IG。11月9日星期一，BLG 3比1打赢了T1。决赛是BLG对GEN，北京时间11月15日星期日凌晨3点，在纽约的巴克莱中心打。</p>
+        <p class="lc-teaser">BLG는 11월 9일 월요일 T1을 3대 1로 이겼다. 결승은 11월 15일 일요일.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">包裹到了吗？收、退、查</h4><p>소포가 도착했어요? 받는 법, 반품하는 법, 추적하는 법.</p></li>
+          <li data-page="3"><h4 lang="zh-cn">小雪到了，冬天真的来了</h4><p>소설이 왔어요. 11월 22일, 겨울이 진짜 시작되는 절기.</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：四强打完，决赛见</h4><p>S16. 준결승이 끝났다. GEN은 IG를 3대 0으로, BLG는 T1을 3대 1로 이겼다. 결승은 BLG 대 GEN.</p></li>
+          <li data-page="5"><h4 lang="zh-cn">新电影《试探》，你去看吗？</h4><p>새 영화 ‘시탄’. 보러 갈래요? ‘말의 계절’ 영화제의 첫 번째 영화.</p></li>
+          <li data-page="6"><h4 lang="zh-cn">今年的包裹，为什么没有爆掉？</h4><p>올해 소포는 왜 터지지 않았을까? 창고, 배달 기사, 세 개의 그래프.</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>실수 병원. 이번 주의 흔한 실수와 고치는 법.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">决赛</p><p class="lc-gloss">우승을 가리는 마지막 경기.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">包裹到了吗</li>
+          <li lang="zh-cn">小雪到了</li>
+          <li lang="zh-cn">S16四强打完</li>
+          <li lang="zh-cn">新电影《试探》</li>
+          <li lang="zh-cn">包裹为什么没爆</li>
+          <li lang="zh-cn">词语精讲</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1908년 사진. 유니폼을 입은 야구팀이 구장에 서 있고, 투수가 가운데에 있다.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>1908년의 야구팀.</figcaption>
+        </figure>
+        <h3 lang="zh-tw">週日下午2點，封王遊行天母出發</h3>
+        <p class="lc-excerpt" lang="zh-tw">味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。</p>
+        <p class="lc-teaser">웨이촨 드래건스가 여섯 번째 우승을 거뒀다. 우승 퍼레이드는 일요일 14시 톈무 구장에서 출발한다.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪快到了，保暖先做好</h4><p>소설이 다가온다. 미리 보온해요. 코트, 따뜻한 음료, 난방, 담요.</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬獎本週日頒獎，誰會得獎？</h4><p>금마상은 이번 일요일. 누가 수상할까? 10일간 209편의 영화제.</p></li>
+          <li data-page="4"><h4 lang="zh-tw">本週日，封王遊行天母出發！</h4><p>이번 일요일, 우승 퍼레이드는 톈무에서 출발한다. 14시, 타이베이돔의 쑹옌대로까지.</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港迪士尼聖誕，11月17日開始</h4><p>홍콩 디즈니랜드의 크리스마스는 11월 17일 월요일 시작. 겨울왕국 세상, 눈과 쇼.</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月22日，一天四件大事</h4><p>11월 22일, 하루에 네 가지 큰 일. 퍼레이드, 유로비전, 그리고 소설.</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>실수 병원. 이번 주의 흔한 실수와 고치는 법.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">封王</p><p class="lc-gloss">우승을 확정하다. 타이틀을 따내다.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">小雪與雙11包裹</li>
+          <li lang="zh-tw">金馬獎頒獎</li>
+          <li lang="zh-tw">封王遊行</li>
+          <li lang="zh-tw">迪士尼聖誕</li>
+          <li lang="zh-tw">一天四件大事</li>
+          <li lang="zh-tw">語言聚焦</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>

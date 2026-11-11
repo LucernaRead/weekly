@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Lucerna · 週報</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">Lucerna<span class="lc-wm-small">週報</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="華盛頓的美國國會大廈，白色的圓頂高出草坪。">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>華盛頓的國會大廈。</figcaption>
+        </figure>
+        <h3 lang="en">Democrats Win the House and the Senate</h3>
+        <p class="lc-excerpt" lang="en">On Tuesday, November 3, Americans voted in the midterm election — for all 435 seats in the House of Representatives, for 35 seats in the Senate, and for governor in 36 states.</p>
+        <p class="lc-teaser">民主黨贏下國會兩院；數字是媒體預測，尚未正式確認。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The Week After the Vote: What Happens Now?</h4><p>各州在12月18日前確認結果；喬治亞可能在12月1日加投一輪。</p></li>
+          <li data-page="3"><h4 lang="en">Friday at the Movies: Haymitch Goes Back to the Arena</h4><p>新版《飢餓遊戲》11月20日週五上映，年輕的黑密契回到第50屆遊戲。</p></li>
+          <li data-page="4"><h4 lang="en">Perth, One Year On: How Australia Kept the Ashes</h4><p>一年前澳洲從伯斯出發，以4比1贏下灰燼杯；下一屆2027年6月在英格蘭。</p></li>
+          <li data-page="5"><h4 lang="en">Break the Silence: Odd Socks and Loud Voices</h4><p>反霸凌週為11月16至20日；週一是怪襪日，週五是世界兒童日。</p></li>
+          <li data-page="6"><h4 lang="en">The Map After November 3: Reading the Results</h4><p>如何讀這張圖：眾議院254比162，參議院54比44，以及「宣布」是什麼意思。</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the Week</h4><p>本週句型：win和won、will、一般過去式、比較級、標題現在式。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">midterm</p><p class="lc-gloss">總統四年任期中途的選舉；期中選舉選的是國會，不是總統。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一場足球比賽：紅衣球員帶球奔跑，白衣球員滑鏟搶斷。">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>草地上的足球比賽。</figcaption>
+        </figure>
+        <h3 lang="de">Die Bundesliga kehrt zurück — Bayern gegen Köln</h3>
+        <p class="lc-excerpt" lang="de">Diese Woche ist die Bundesliga zurück: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern gegen den 1. FC Köln. Anstoß ist um 20.30 Uhr in der Allianz Arena in München.</p>
+        <p class="lc-teaser">德甲回歸：週五拜仁對科隆；國家隊先去貝爾格勒，再回柏林。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Ein Mittwoch, der fast frei ist: Der Buß- und Bettag</h4><p>11月18日週三是懺悔祈禱日，新教的祈禱日；只有薩克森邦放假。</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu</h4><p>科隆聖誕市集11月16日週一開張，但11月22日週日關門。</p></li>
+          <li data-page="4"><h4 lang="de">Die Woche der Ergebnisse — und die Rückkehr der Liga</h4><p>歐冠第4輪、德甲第9輪共30球，聯賽11月20至22日回歸。</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender basteln: 24 Türchen bis Weihnachten</h4><p>孩子們做降臨節日曆：通往聖誕節的24扇小門，還有1903年的那款日曆。</p></li>
+          <li data-page="6"><h4 lang="de">Eine stille Woche: Was bedeuten Buß- und Bettag und Totensonntag?</h4><p>安靜的一週：懺悔祈禱日和亡者主日是什麼意思，還有2027年聯邦預算。</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>本週金句：說日期、werden被動態、糾錯診所和讀者來信。</p></li>
+        </ul>
+        <div class="lc-word" data-page="6"><p class="lc-term" lang="de">Totensonntag</p><p class="lc-gloss">教會年最後的主日，新教徒緬懷逝者的安靜日子。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="尤金·阿傑拍的巴黎街景：老建築沿著安靜的街道排開。">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>阿傑拍下的巴黎街景。</figcaption>
+        </figure>
+        <h3 lang="fr">Alcaraz, roi de Paris : le Sénat tranche mercredi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5, en finale du Rolex Paris Masters, à Nanterre.</p>
+        <p class="lc-teaser">阿爾卡拉斯贏得巴黎大師賽；週三參議院表決社保預算。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 16 novembre : une semaine en trois temps</h4><p>一週分三段：週一都靈與參議院，週三預算表決，週四喝新酒。</p></li>
+          <li data-page="3"><h4 lang="fr">Le beaujolais nouveau a 75 ans</h4><p>薄酒萊新酒75週年：新酒11月19日週四零點上市。</p></li>
+          <li data-page="4"><h4 lang="fr">Alcaraz gagne Paris, Turin commence</h4><p>阿爾卡拉斯在巴黎決賽擊敗謝爾頓；辛納因傷缺席，ATP總決賽週日在都靈開打。</p></li>
+          <li data-page="5"><h4 lang="fr">Mercredi 18 novembre : le cinéma, et la seconde main</h4><p>11月18日週三16部新片上映，週六開始歐洲減廢週。</p></li>
+          <li data-page="6"><h4 lang="fr">Au Sénat, mercredi 18 : le vote du budget de la Sécu</h4><p>參議院11月18日週三表決2027年社保預算，國民議會此前否決了收入部分。</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>本週金句：最近將來式、複合過去式，以及本期文章裡的句子。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">trancher</p><p class="lc-gloss">作決定、快刀斬亂麻：參議院作決定，法官作決定。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="青銅投票箱，上面刻著普選的字樣。">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>青銅投票箱。</figcaption>
+        </figure>
+        <h3 lang="es">La campaña arranca: trece días para el 29-N</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.</p>
+        <p class="lc-teaser">競選活動11月13日週五開始；距11月29日週日投票還有15天。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 16 al domingo 22</h4><p>11月16日週一到22日週日，一天一天看：競選、音樂、足球。</p></li>
+          <li data-page="3"><h4 lang="es">El flamenco cumple: del 16 de noviembre a Santa Cecilia</h4><p>佛朗明哥自2010年11月16日列入非遺；音樂守護神聖塞西莉亞在11月22日週日。</p></li>
+          <li data-page="4"><h4 lang="es">Vuelve la Liga: la jornada 13, del viernes al lunes</h4><p>西甲回歸：第13輪從週五踢到週一。</p></li>
+          <li data-page="5"><h4 lang="es">Votar por primera vez: el jueves 19 se cierra el plazo</h4><p>第一次投票：申請郵寄投票的截止日是11月19日週四。</p></li>
+          <li data-page="6"><h4 lang="es">Leer la campaña: debates, programas y encuestas</h4><p>讀懂競選：辯論、政綱與民調，分清「提議」和「定案」。</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>本週句型：說時間、比較級與虛擬式。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el debate</p><p class="lc-gloss">輪流發言的討論：11月13日週五四位發言人，11月16日週一兩人正面辯論。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="羅馬一座體育場的老黑白航拍：橢圓形跑道環繞著足球場。">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>羅馬的一座老體育場，俯瞰。</figcaption>
+        </figure>
+        <h3 lang="it">La Lazio resta in vetta: Inter e Roma inseguono</h3>
+        <p class="lc-excerpt" lang="it">La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta.</p>
+        <p class="lc-teaser">拉齊奧客場1比1戰平那不勒斯，29分繼續領跑；國米28分，羅馬27分。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Venezia prega, l'Italia pianta alberi: il 21 novembre</h4><p>威尼斯11月21日週六慶祝健康聖母節，義大利種樹。</p></li>
+          <li data-page="3"><h4 lang="it">Due feste dolci chiudono in bellezza: torrone e cioccolato</h4><p>兩場甜蜜節慶11月22日週日落幕：克雷莫納牛軋糖節與巧克力節。</p></li>
+          <li data-page="4"><h4 lang="it">Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata</h4><p>第11輪：拉齊奧29分第一，國米羅馬緊追；米蘭24分升至第四。</p></li>
+          <li data-page="5"><h4 lang="it">I giovani leggono: BookCity arriva, il cinema torna a Torino</h4><p>年輕人讀書：圖書節11月23至29日來到米蘭，電影回到都靈。</p></li>
+          <li data-page="6"><h4 lang="it">La manovra va in Parlamento: audizioni, emendamenti, voto</h4><p>預算法案進議會：11月9至12日聽證，隨後修正與表決。</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>本週句型：用將來式說計劃、在圖書節讀書，以及本期文章裡的句子。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la vetta</p><p class="lc-gloss">榜首。拉齊奧29分在榜首。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1835年的版畫：里約街頭的卡波耶拉，兩名選手在圈中，樂手與圍觀者在旁。">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>1835年，里約的卡波耶拉。</figcaption>
+        </figure>
+        <h3 lang="pt">Consciência Negra: sexta é feriado em todo o país</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 20 de novembro, é feriado nacional: o Dia Nacional de Zumbi e da Consciência Negra. A data lembra a morte de Zumbi dos Palmares, em 1695, líder do Quilombo dos Palmares.</p>
+        <p class="lc-teaser">11月20日週五是全國假日——黑人意識日，開啟三天小長假。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 20 de novembro: o feriado e o feriadão</h4><p>假日與小長假：什麼關門、什麼開門，還有卡波耶拉、森巴與書展。</p></li>
+          <li data-page="3"><h4 lang="pt">Zumbi e Palmares: a história do 20 de novembro</h4><p>11月20日紀念1695年去世的祖比，帕爾馬雷斯領袖：反抗、歷史與非裔巴西文化。</p></li>
+          <li data-page="4"><h4 lang="pt">Grêmio e Palmeiras decidem a Copa do Brasil</h4><p>格雷米奧與帕梅拉斯決戰巴西盃：12月6日在巴西利亞單場定勝負。</p></li>
+          <li data-page="5"><h4 lang="pt">Depois do Enem: a espera começa</h4><p>高考之後開始等待：11月15日週日第二天，數百萬考生參考；官方答案11月底公布。</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: como funciona a espera</h4><p>答案詳解：等待是怎麼回事，以及TRI分數如何計算答案。</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>本週句型：說假日、過去完成式，以及本期文章裡的句子。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">consciência</p><p class="lc-gloss">知曉並銘記：自己、歷史與他人。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="阿姆斯特丹西教堂的高塔，高出屋頂。">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>阿姆斯特丹的西教堂塔。</figcaption>
+        </figure>
+        <h3 lang="nl">Vanavond in Berlijn: Oranje tegen Duitsland</h3>
+        <p class="lc-excerpt" lang="nl">Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3.</p>
+        <p class="lc-teaser">今晚週一，荷蘭隊20點45分在柏林對陣德國隊，這是小組決戰。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: aftellen naar pakjesavond</h4><p>鞋子擺好了：倒數12月5日收禮夜——給馬一根胡蘿蔔、一張願望單、一首詩。</p></li>
+          <li data-page="3"><h4 lang="nl">Sinterklaas is er: Grave, Amsterdam en het journaal</h4><p>聖誕老人來了：週六到赫拉弗，週日到阿姆斯特丹，第88次。</p></li>
+          <li data-page="4"><h4 lang="nl">Oranje: de beslissing in Berlijn</h4><p>橙衣軍團：柏林決戰；積分榜，以及荷甲第13輪11月21至22日。</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>《魯賓遜遠征》每週日20點RTL 4播出：19名選手，在馬來西亞海島待34天。</p></li>
+          <li data-page="6"><h4 lang="nl">Sinterklaas: oud feest, nieuwe wensen</h4><p>聖誕老人：古老的節日、新的願望。傳統在變，一項調查問了100名年輕人往鞋裡放什麼。</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>本週句型：足球詞彙、過去式、因為子句，以及本期文章裡的句子。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de groepswinst</p><p class="lc-gloss">小組頭名：以第一名的身份晉級四分之一決賽。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">De schoen</li>
+          <li lang="nl">Sinterklaas</li>
+          <li lang="nl">Oranje</li>
+          <li lang="nl">Robinson op zondag</li>
+          <li lang="nl">Oud feest</li>
+          <li lang="nl">Zinnen van de week</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="公園裡的秋日小徑，樹上和地上都是黃葉。">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>公園裡的秋日小徑。</figcaption>
+        </figure>
+        <h3 lang="ru">14-й тур: «Зенит» и «Динамо» — по 31 очку</h3>
+        <p class="lc-excerpt" lang="ru">Все восемь матчей 14-го тура завершены: тур сыграли 6–8 ноября. «Зенит» и «Динамо» набрали по 31 очку и делят первое место в таблице.</p>
+        <p class="lc-teaser">第14輪踢完了：澤尼特與迪納摩各積31分，並列第一。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">День студента, день рождения Деда Мороза</h4><p>11月17日週二是國際大學生節；11月18日週三是嚴寒老人的生日。</p></li>
+          <li data-page="3"><h4 lang="ru">Кино 19 ноября: пять премьер</h4><p>11月19日週四五部新片首映：史泰隆傳記片、犯罪片與家庭喜劇。</p></li>
+          <li data-page="4"><h4 lang="ru">14-й тур: все восемь результатов</h4><p>第14輪：全部八場賽果、前五名積分榜，國家隊對陣烏茲別克斯坦與委內瑞拉。</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: скидки с 16 ноября</h4><p>黑色星期五：11月16日起打折。如何追蹤包裹、驗貨，不合適怎麼退。</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 16–22 ноября: как её прожить</h4><p>平凡的一週，11月16至22日：五個工作日，然後是週末——怎麼過好它。</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>本週句型：天氣詞彙、購物詞彙，以及如何指代某事。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">оттепель</p><p class="lc-gloss">冬天的回暖：雪化了。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="暗色背景上紅橙相間的日本紅楓葉。">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>秋日的日本紅楓。</figcaption>
+        </figure>
+        <h3 lang="ja">二の酉と新酒、19日の木よう日</h3>
+        <p class="lc-excerpt" lang="ja">19日（木よう日）は、酉の市・二の酉です。浅草の鷲神社では、午前0時の一番太鼓から、24時まで市が開きます。熊手を買う人の夜です。同じ19日（木よう日）は、ボジョレー・ヌーヴォーの解禁日です。</p>
+        <p class="lc-teaser">11月19日週四，酉市二之酉與薄酒萊新酒解禁日是同一天。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">19日 — 夜通しの酉の市</h4><p>11月19日週四：淺草鷲神社的酉市通宵營業，午夜第一聲鼓。</p></li>
+          <li data-page="3"><h4 lang="ja">新酒の夜 — 19日の0時</h4><p>新酒11月19日週四到貨：午夜，薄酒萊新酒在日本開售。</p></li>
+          <li data-page="4"><h4 lang="ja">波乱の3日間 — 九州場所</h4><p>九州相撲比賽波瀾三日：五名奪冠熱門受傷，23歲選手成為爭冠者。</p></li>
+          <li data-page="5"><h4 lang="ja">今年のことば、30語</h4><p>今年的流行詞，30個候選：從「特急御守」到「奔跑的女人」。</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて京都へ</h4><p>追著紅葉去京都：紅葉最佳觀賞期與賞楓去處。</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>本週句型：怎麼表達「什麼時候」，天氣詞彙，以及本期文章裡的句子。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">熊手</p><p class="lc-gloss">酉市上買的招福熊手。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="霧中秋林山谷上的一座紅色鋼橋，山坡上滿是黃橙樹木。">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>霧中秋林上的一座紅橋。</figcaption>
+        </figure>
+        <h3 lang="ko">수능 D-1, 김치의 날 — 삼성 12년 만의 우승</h3>
+        <p class="lc-excerpt" lang="ko">11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.</p>
+        <p class="lc-teaser">這週是高考週：考試在11月19日週四，泡菜日是11月22日週日。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장비용이 내렸어요 — 김치의 날에는 김치를 나눠요</h4><p>今年醃泡菜的費用降了。泡菜日，人們與家人鄰里分享泡菜。</p></li>
+          <li data-page="3"><h4 lang="ko">김치의 날이 와요 — 늦가을 단풍은 마무리에요</h4><p>泡菜日來了，晚秋紅葉接近尾聲：歷史，以及北漢山的紅葉。</p></li>
+          <li data-page="4"><h4 lang="ko">삼성이 12년 만에 우승했어요 — kt wiz를 4승 1패로 이겼어요</h4><p>三星4比1擊敗KT巫師奪得韓國系列賽冠軍：12年來首冠，KBO獎盃新紀錄。</p></li>
+          <li data-page="5"><h4 lang="ko">수능 주간 — 예비소집부터 시험 날까지</h4><p>高考週：從預備召集到考試當天——當天怎麼安排，要帶什麼。</p></li>
+          <li data-page="6"><h4 lang="ko">예보에서 결과로 — 뉴스를 다시 읽는 법</h4><p>從預報到結果：如何重讀新聞——保質期最長的故事。</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>易錯診所：本週常見錯誤與改正方法。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">예비소집</p><p class="lc-gloss">考試前一天，考生集合、確認考場的日子。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">김장비용과 김치의 날</li>
+          <li lang="ko">김치의 날과 늦가을 단풍</li>
+          <li lang="ko">한국시리즈 우승과 K리그</li>
+          <li lang="ko">수능 주간과 예비소집</li>
+          <li lang="ko">예보에서 결과로</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="一排灰色快遞櫃，有很多小門，正面看去。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>一排快遞櫃。</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG赢了，决赛对阵GEN</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16的半决赛打完了。11月8日星期日，GEN 3比0打赢了IG。11月9日星期一，BLG 3比1打赢了T1。决赛是BLG对GEN，北京时间11月15日星期日凌晨3点，在纽约的巴克莱中心打。</p>
+        <p class="lc-teaser">BLG 11月9日週一半決賽3比1贏了T1。決賽對陣GEN，北京時間11月15日週日凌晨3點。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">包裹到了吗？收、退、查</h4><p>包裹到了嗎？怎麼收、怎麼退、怎麼查。</p></li>
+          <li data-page="3"><h4 lang="zh-cn">小雪到了，冬天真的来了</h4><p>小雪到了：11月22日，冬天真正開始的節氣。</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：四强打完，决赛见</h4><p>GEN橫掃IG，BLG力克T1，決賽對陣確定。</p></li>
+          <li data-page="5"><h4 lang="zh-cn">新电影《试探》，你去看吗？</h4><p>新電影《試探》，你去看嗎？「詞語之季」影展的第一部片。</p></li>
+          <li data-page="6"><h4 lang="zh-cn">今年的包裹，为什么没有爆掉？</h4><p>今年的包裹為什麼沒有爆掉？倉庫、快遞員與三張圖。</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>易錯診所：本週常見錯誤與改正方法。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">决赛</p><p class="lc-gloss">爭冠軍的最後一場比賽。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">包裹到了吗</li>
+          <li lang="zh-cn">小雪到了</li>
+          <li lang="zh-cn">S16四强打完</li>
+          <li lang="zh-cn">新电影《试探》</li>
+          <li lang="zh-cn">包裹为什么没爆</li>
+          <li lang="zh-cn">词语精讲</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="1908年的照片：身著隊服的棒球隊站在球場上，投手在中間。">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>1908年的一支棒球隊。</figcaption>
+        </figure>
+        <h3 lang="zh-tw">週日下午2點，封王遊行天母出發</h3>
+        <p class="lc-excerpt" lang="zh-tw">味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。</p>
+        <p class="lc-teaser">味全龍隊史第6冠，封王遊行本週日下午2點從天母棒球場出發。</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪快到了，保暖先做好</h4><p>小雪快到了，保暖先做好：一件外套、一杯熱飲、一台暖氣、一床毯子。</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬獎本週日頒獎，誰會得獎？</h4><p>金馬獎本週日頒獎，誰會得獎？10天209部片的影展。</p></li>
+          <li data-page="4"><h4 lang="zh-tw">本週日，封王遊行天母出發！</h4><p>本週日，封王遊行天母出發：下午2點，終點台北大巨蛋松菸大道。</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港迪士尼聖誕，11月17日開始</h4><p>香港迪士尼聖誕，11月17日開始：冰雪奇緣世界、飄雪與演出。</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月22日，一天四件大事</h4><p>11月22日，一天四件大事：遊行、歐洲歌唱大賽與小雪。</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>易錯診所：本週常見錯誤與改正方法。</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">封王</p><p class="lc-gloss">拿下總冠軍：奪得冠軍頭銜。</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">小雪與雙11包裹</li>
+          <li lang="zh-tw">金馬獎頒獎</li>
+          <li lang="zh-tw">封王遊行</li>
+          <li lang="zh-tw">迪士尼聖誕</li>
+          <li lang="zh-tw">一天四件大事</li>
+          <li lang="zh-tw">語言聚焦</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>

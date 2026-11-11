@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>De Lucerna · Weekblad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700;6..72,800&amp;display=swap" rel="stylesheet" />
+    <style>
+      .lucerna-cover { --lc-bg: #fbfaf6; --lc-ink: #302c28; --lc-body: #3a3631; --lc-muted: #6f675d;
+        --lc-line: #d8d2c4; --lc-olive: #46581f; --lc-plate: #efebe1;
+        background: var(--lc-bg); color: var(--lc-body); padding: 8px 24px 28px;
+        font: 16px/1.55 "Newsreader", Georgia, "Noto Serif SC", "Songti SC", serif; }
+      @media (prefers-color-scheme: dark) {
+        .lucerna-cover { --lc-bg: #16180f; --lc-ink: #ece4cd; --lc-body: #cfc9b6; --lc-muted: #9a957f;
+          --lc-line: #3d3f2c; --lc-olive: #a9bf7d; --lc-plate: #26291a; }
+      }
+      .lucerna-cover * { box-sizing: border-box; }
+      .lucerna-cover .lc-wordmark-block { text-align: center; padding: 18px 0 20px; border-bottom: 2px solid var(--lc-ink); }
+      .lucerna-cover .lc-wordmark { margin: 0; color: var(--lc-ink); font-size: clamp(44px, 7vw, 80px); font-weight: 800; line-height: 1; }
+      .lucerna-cover .lc-wm-small { display: block; margin-top: 10px; font-size: 14px; font-weight: 600;
+        letter-spacing: .34em; text-transform: uppercase; color: var(--lc-olive); }
+      .lucerna-cover .lc-hero { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px 32px; padding-top: 24px; }
+      .lucerna-cover .lc-story { min-width: 0; }
+      .lucerna-cover .lc-media { margin: 0 0 12px; }
+      .lucerna-cover .lc-plate { display: flex; align-items: center; justify-content: center; aspect-ratio: 3 / 2;
+        background: var(--lc-plate); border: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-mast { font-style: italic; font-size: 22px; color: var(--lc-ink); }
+      .lucerna-cover figcaption { margin-top: 6px; font-size: 12px; color: var(--lc-muted); }
+      .lucerna-cover h3 { margin: 0 0 8px; color: var(--lc-ink); font-size: 22px; line-height: 1.2; }
+      .lucerna-cover p { margin: 0 0 8px; }
+      .lucerna-cover .lc-teaser { color: var(--lc-muted); font-size: 14.5px; }
+      .lucerna-cover .lc-more { margin: 12px 0 0; padding: 10px 0 0; list-style: none; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-more li + li { margin-top: 10px; }
+      .lucerna-cover .lc-more h4 { margin: 0 0 2px; color: var(--lc-ink); font-size: 16px; line-height: 1.3; }
+      .lucerna-cover .lc-more p { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-word { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--lc-line); }
+      .lucerna-cover .lc-term { margin: 0; color: var(--lc-ink); font-size: 20px; font-style: italic; font-weight: 700; }
+      .lucerna-cover .lc-gloss { margin: 0; color: var(--lc-muted); font-size: 14px; }
+      .lucerna-cover .lc-pages { margin: 10px 0 0; padding-left: 1.6em; font-size: 14px; color: var(--lc-muted); }
+    </style>
+  </head>
+  <body data-story-langs="en de fr es it pt nl ru ja ko zh-cn zh-tw">
+    <div class="lucerna-cover">
+      <div class="lc-wordmark-block">
+        <h1 class="lc-wordmark">De Lucerna<span class="lc-wm-small">Weekblad</span></h1>
+      </div>
+      <div class="lc-hero">
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Het Capitool van de Verenigde Staten in Washington, de witte koepel boven het gazon.">
+          <div class="lc-plate"><span class="lc-mast" lang="en">The Lucerna</span></div>
+          <figcaption>Het Capitool in Washington.</figcaption>
+        </figure>
+        <h3 lang="en">Democrats Win the House and the Senate</h3>
+        <p class="lc-excerpt" lang="en">On Tuesday, November 3, Americans voted in the midterm election — for all 435 seats in the House of Representatives, for 35 seats in the Senate, and for governor in 36 states.</p>
+        <p class="lc-teaser">De Democraten wonnen beide kamers; de cijfers zijn nog geen officiële uitslagen.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="en">The Week After the Vote: What Happens Now?</h4><p>De staten stellen de uitslagen vast vóór 18 december; Georgia stemt zo nodig opnieuw op 1 december.</p></li>
+          <li data-page="3"><h4 lang="en">Friday at the Movies: Haymitch Goes Back to the Arena</h4><p>De nieuwe Hunger Games-film opent vrijdag 20 november, met de jonge Haymitch in de 50e Spelen.</p></li>
+          <li data-page="4"><h4 lang="en">Perth, One Year On: How Australia Kept the Ashes</h4><p>Een jaar geleden won Australië de Ashes met 4-1, vanaf Perth; de volgende serie is in juni 2027 in Engeland.</p></li>
+          <li data-page="5"><h4 lang="en">Break the Silence: Odd Socks and Loud Voices</h4><p>De Week tegen Pesten loopt van 16 tot 20 november; maandag is de dag van de verschillende sokken.</p></li>
+          <li data-page="6"><h4 lang="en">The Map After November 3: Reading the Results</h4><p>Zo lees je de kaart: Huis 254-162, Senaat 54-44, en wat een “call” betekent.</p></li>
+          <li data-page="7"><h4 lang="en">Phrases of the Week</h4><p>De zinnen van de week: win en won, will, more than, de verleden tijd, koppen in de tegenwoordige tijd, whether.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="en">midterm</p><p class="lc-gloss">Een verkiezing halverwege de termijn van een president; bij de midterms kiest men het Congres, niet de president.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="en">Life</li>
+          <li lang="en">Culture</li>
+          <li lang="en">Sport</li>
+          <li lang="en">Youth</li>
+          <li lang="en">Deep Read</li>
+          <li lang="en">Language in Hand</li>
+          <li lang="en">Exercises</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een voetbalwedstrijd: een speler in het rood rent met de bal, een speler in het wit glijdt in.">
+          <div class="lc-plate"><span class="lc-mast" lang="de">Die Lucerna</span></div>
+          <figcaption>Een voetbalwedstrijd op gras.</figcaption>
+        </figure>
+        <h3 lang="de">Die Bundesliga kehrt zurück — Bayern gegen Köln</h3>
+        <p class="lc-excerpt" lang="de">Diese Woche ist die Bundesliga zurück: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern gegen den 1. FC Köln. Anstoß ist um 20.30 Uhr in der Allianz Arena in München.</p>
+        <p class="lc-teaser">De Bundesliga is terug: Bayern tegen Köln op vrijdag, Duitsland in Belgrado.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="de">Ein Mittwoch, der fast frei ist: Der Buß- und Bettag</h4><p>Woensdag 18 november is Buß- und Bettag, een protestantse biddag; alleen Saksen is dan vrij.</p></li>
+          <li data-page="3"><h4 lang="de">Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu</h4><p>De kerstmarkten van Keulen openen maandag 16 november, maar blijven zondag 22 november dicht.</p></li>
+          <li data-page="4"><h4 lang="de">Die Woche der Ergebnisse — und die Rückkehr der Liga</h4><p>Champions League, speeldag 4, Bundesliga, speeldag 9 met 30 goals, en de competitie keert terug op 20–22 november.</p></li>
+          <li data-page="5"><h4 lang="de">Adventskalender basteln: 24 Türchen bis Weihnachten</h4><p>Kinderen knutselen een adventskalender: 24 deurtjes tot Kerstmis, en de kalender uit 1903.</p></li>
+          <li data-page="6"><h4 lang="de">Eine stille Woche: Was bedeuten Buß- und Bettag und Totensonntag?</h4><p>Een stille week: wat Buß- und Bettag en Totensonntag betekenen, en de federale begroting 2027.</p></li>
+          <li data-page="7"><h4 lang="de">Sätze der Woche &amp; Fehlerklinik</h4><p>De zinnen van de week: datums zeggen, de lijdende vorm met werden, de foutenkliniek en brieven.</p></li>
+        </ul>
+        <div class="lc-word" data-page="6"><p class="lc-term" lang="de">Totensonntag</p><p class="lc-gloss">De laatste zondag van het kerkelijk jaar, een stille dag waarop protestanten de doden herdenken.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="de">Leben</li>
+          <li lang="de">Kultur</li>
+          <li lang="de">Sport</li>
+          <li lang="de">Jugend</li>
+          <li lang="de">Vertiefung</li>
+          <li lang="de">Sprache</li>
+          <li lang="de">Übungen</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een Parijse straat, gefotografeerd door Eugène Atget: oude gebouwen langs een rustige straat.">
+          <div class="lc-plate"><span class="lc-mast" lang="fr">Le Lucerna</span></div>
+          <figcaption>Een Parijse straat van Atget.</figcaption>
+        </figure>
+        <h3 lang="fr">Alcaraz, roi de Paris : le Sénat tranche mercredi</h3>
+        <p class="lc-excerpt" lang="fr">Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5, en finale du Rolex Paris Masters, à Nanterre.</p>
+        <p class="lc-teaser">Alcaraz won de Paris Masters; woensdag stemt de Senaat over de begroting.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="fr">Lundi 16 novembre : une semaine en trois temps</h4><p>De week in drie bedrijven: Turijn en de Senaat op maandag, de begrotingsstemming op woensdag, wijn op donderdag.</p></li>
+          <li data-page="3"><h4 lang="fr">Le beaujolais nouveau a 75 ans</h4><p>De beaujolais nouveau wordt 75: de nieuwe wijn arriveert donderdag 19 november om middernacht.</p></li>
+          <li data-page="4"><h4 lang="fr">Alcaraz gagne Paris, Turin commence</h4><p>Alcaraz versloeg Shelton in de finale van Parijs; Sinner ontbreekt geblesseerd, en de ATP Finals beginnen zondag in Turijn.</p></li>
+          <li data-page="5"><h4 lang="fr">Mercredi 18 novembre : le cinéma, et la seconde main</h4><p>Zestien films gaan woensdag 18 november in première, en de Europese Week van de Afvalvermindering begint zaterdag.</p></li>
+          <li data-page="6"><h4 lang="fr">Au Sénat, mercredi 18 : le vote du budget de la Sécu</h4><p>De Senaat stemt woensdag 18 november over de begroting 2027, nadat de Assemblée het inkomstendeel verwierp.</p></li>
+          <li data-page="7"><h4 lang="fr">Les phrases de la semaine</h4><p>De zinnen van de week: de nabije toekomst, de passé composé en de zinnen uit dit nummer.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="fr">trancher</p><p class="lc-gloss">Beslissen, de knoop doorhakken: de Senaat beslist, de rechter beslist.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="fr">Vie quotidienne</li>
+          <li lang="fr">Culture</li>
+          <li lang="fr">Sport</li>
+          <li lang="fr">Jeunesse &amp; Musique</li>
+          <li lang="fr">Politique</li>
+          <li lang="fr">Langue en main</li>
+          <li lang="fr">Exercices</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een bronzen stembus, met de woorden “Suffrage universel”, algemeen kiesrecht.">
+          <div class="lc-plate"><span class="lc-mast" lang="es">La Lucerna</span></div>
+          <figcaption>Een bronzen stembus.</figcaption>
+        </figure>
+        <h3 lang="es">La campaña arranca: trece días para el 29-N</h3>
+        <p class="lc-excerpt" lang="es">La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.</p>
+        <p class="lc-teaser">De campagne begon vrijdag 13 november; vijftien dagen tot de stemming op zondag 29 november.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="es">La semana, día a día: del lunes 16 al domingo 22</h4><p>De week dag voor dag, maandag 16 tot zondag 22: de campagne, de muziek, het voetbal.</p></li>
+          <li data-page="3"><h4 lang="es">El flamenco cumple: del 16 de noviembre a Santa Cecilia</h4><p>Flamenco: UNESCO-erfgoed sinds 16 november 2010, en Sint-Cecilia, patrones van de muziek, op zondag 22 november.</p></li>
+          <li data-page="4"><h4 lang="es">Vuelve la Liga: la jornada 13, del viernes al lunes</h4><p>La Liga is terug: speeldag 13 loopt van vrijdag tot maandag.</p></li>
+          <li data-page="5"><h4 lang="es">Votar por primera vez: el jueves 19 se cierra el plazo</h4><p>Voor het eerst stemmen: de deadline om een briefstem aan te vragen is donderdag 19 november.</p></li>
+          <li data-page="6"><h4 lang="es">Leer la campaña: debates, programas y encuestas</h4><p>De campagne lezen: debatten, programma's en peilingen, en een voorstel van een akkoord onderscheiden.</p></li>
+          <li data-page="7"><h4 lang="es">Frases de la semana</h4><p>De zinnen van de week: de tijd zeggen, vergrotende trappen en de aanvoegende wijs.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="es">el debate</p><p class="lc-gloss">Een discussie met beurten: vier woordvoerders op vrijdag 13 november, een debat op maandag 16.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="es">Vida</li>
+          <li lang="es">Cultura</li>
+          <li lang="es">Deporte</li>
+          <li lang="es">Juventud</li>
+          <li lang="es">A fondo</li>
+          <li lang="es">Lengua</li>
+          <li lang="es">Ejercicios</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een oude zwart-wit luchtfoto van een stadion in Rome: een ovale atletiekbaan rond een voetbalveld.">
+          <div class="lc-plate"><span class="lc-mast" lang="it">La Lucerna</span></div>
+          <figcaption>Een oud stadion in Rome, van bovenaf.</figcaption>
+        </figure>
+        <h3 lang="it">La Lazio resta in vetta: Inter e Roma inseguono</h3>
+        <p class="lc-excerpt" lang="it">La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta.</p>
+        <p class="lc-teaser">Lazio blijft koploper in de Serie A met 29 punten na de 1-1 in Napels; Inter heeft 28, Roma 27.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="it">Venezia prega, l'Italia pianta alberi: il 21 novembre</h4><p>Venetië viert op zaterdag 21 november de Madonna della Salute, en Italië plant bomen.</p></li>
+          <li data-page="3"><h4 lang="it">Due feste dolci chiudono in bellezza: torrone e cioccolato</h4><p>Twee zoete feesten eindigen zondag 22 november: het torronefeest in Cremona en chocolade.</p></li>
+          <li data-page="4"><h4 lang="it">Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata</h4><p>Speeldag 11: Lazio eerste met 29 punten, Inter en Roma erachter; Milan stijgt naar de vierde plaats met 24 punten.</p></li>
+          <li data-page="5"><h4 lang="it">I giovani leggono: BookCity arriva, il cinema torna a Torino</h4><p>Jongeren lezen: BookCity komt naar Milaan, 23 tot 29 november, en de bioscoop keert terug in Turijn.</p></li>
+          <li data-page="6"><h4 lang="it">La manovra va in Parlamento: audizioni, emendamenti, voto</h4><p>De begrotingswet gaat naar het Parlement: hoorzittingen van 9 tot 12 november, dan amendementen en stemming.</p></li>
+          <li data-page="7"><h4 lang="it">Frasi della settimana</h4><p>De zinnen van de week: de toekomende tijd voor plannen, lezen op BookCity en de zinnen uit dit nummer.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="it">la vetta</p><p class="lc-gloss">De eerste plaats in de stand. Lazio staat bovenaan met 29 punten.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="it">Vita</li>
+          <li lang="it">Cultura</li>
+          <li lang="it">Sport</li>
+          <li lang="it">Giovani</li>
+          <li lang="it">Approfondimento</li>
+          <li lang="it">Lingua</li>
+          <li lang="it">Valutazione</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een gravure uit 1835: een capoeiraspel in een straat in Rio, twee spelers in de kring, muzikanten en toeschouwers eromheen.">
+          <div class="lc-plate"><span class="lc-mast" lang="pt">A Lucerna</span></div>
+          <figcaption>Een capoeiraspel in Rio, 1835.</figcaption>
+        </figure>
+        <h3 lang="pt">Consciência Negra: sexta é feriado em todo o país</h3>
+        <p class="lc-excerpt" lang="pt">Sexta, 20 de novembro, é feriado nacional: o Dia Nacional de Zumbi e da Consciência Negra. A data lembra a morte de Zumbi dos Palmares, em 1695, líder do Quilombo dos Palmares.</p>
+        <p class="lc-teaser">Vrijdag 20 november is Zwarte Bewustzijnsdag, een nationale feestdag.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="pt">Sexta, 20 de novembro: o feriado e o feriadão</h4><p>De feestdag en het lange weekend: wat sluit, wat opent, en capoeira, samba en boekenbeurzen de hele week.</p></li>
+          <li data-page="3"><h4 lang="pt">Zumbi e Palmares: a história do 20 de novembro</h4><p>20 november herdenkt de dood van Zumbi in 1695, leider van Palmares: verzet, geschiedenis, Afro-Braziliaanse cultuur.</p></li>
+          <li data-page="4"><h4 lang="pt">Grêmio e Palmeiras decidem a Copa do Brasil</h4><p>Grêmio en Palmeiras beslissen de Copa do Brasil: één finalewedstrijd op 6 december in Brasília.</p></li>
+          <li data-page="5"><h4 lang="pt">Depois do Enem: a espera começa</h4><p>Na het Enem begint het wachten. Miljoenen deden mee aan de tweede dag, zondag 15 november; de officiële sleutel komt eind november.</p></li>
+          <li data-page="6"><h4 lang="pt">O gabarito explicado: como funciona a espera</h4><p>De sleutel uitgelegd: hoe het wachten werkt en hoe de TRI-score de antwoorden telt.</p></li>
+          <li data-page="7"><h4 lang="pt">Frases da semana</h4><p>De zinnen van de week: over een feestdag praten, de voltooide tijd en de zinnen uit dit nummer.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="pt">consciência</p><p class="lc-gloss">Weten en herinneren — jezelf, de geschiedenis, de anderen.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="pt">Vida</li>
+          <li lang="pt">Cultura</li>
+          <li lang="pt">Esporte</li>
+          <li lang="pt">Jovens</li>
+          <li lang="pt">Aprofundamento</li>
+          <li lang="pt">Língua</li>
+          <li lang="pt">Avaliação</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="De Westertoren, de hoge toren van de Westerkerk in Amsterdam, boven de daken uit.">
+          <div class="lc-plate"><span class="lc-mast" lang="nl">De Lucerna</span></div>
+          <figcaption>De Westertoren in Amsterdam.</figcaption>
+        </figure>
+        <h3 lang="nl">Vanavond in Berlijn: Oranje tegen Duitsland</h3>
+        <p class="lc-excerpt" lang="nl">Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3.</p>
+        <p class="lc-teaser">Vanavond, maandag, speelt Oranje in Berlijn tegen Duitsland, 20.45 uur.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="nl">De schoen staat klaar: aftellen naar pakjesavond</h4><p>De schoen staat klaar: aftellen naar pakjesavond, 5 december — een wortel voor het paard, een verlanglijstje, een gedicht.</p></li>
+          <li data-page="3"><h4 lang="nl">Sinterklaas is er: Grave, Amsterdam en het journaal</h4><p>Sinterklaas is er: de intocht in Grave op zaterdag en in Amsterdam op zondag, de 88e keer.</p></li>
+          <li data-page="4"><h4 lang="nl">Oranje: de beslissing in Berlijn</h4><p>Oranje: de beslissing in Berlijn; de stand en de Eredivisie, speelronde 13, op 21 en 22 november.</p></li>
+          <li data-page="5"><h4 lang="nl">Robinson op zondag — en de surprises</h4><p>Expeditie Robinson op zondag, 20.00 uur op RTL 4: 19 kandidaten, 34 dagen op een eiland in Maleisië.</p></li>
+          <li data-page="6"><h4 lang="nl">Sinterklaas: oud feest, nieuwe wensen</h4><p>Sinterklaas: oud feest, nieuwe wensen. De traditie verandert, en een grafiek vraagt 100 jongeren wat zij in de schoen zetten.</p></li>
+          <li data-page="7"><h4 lang="nl">Zinnen van de week</h4><p>De zinnen van de week: voetbalwoorden, de verleden tijd, omdat-zinnen en de zinnen uit dit nummer.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="nl">de groepswinst</p><p class="lc-gloss">De eerste plaats in de groep: als nummer één naar de kwartfinales.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="nl">De schoen</li>
+          <li lang="nl">Sinterklaas</li>
+          <li lang="nl">Oranje</li>
+          <li lang="nl">Robinson op zondag</li>
+          <li lang="nl">Oud feest</li>
+          <li lang="nl">Zinnen van de week</li>
+          <li lang="nl">Toets</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een herfstpad in een park, met gele bladeren aan de bomen en op de grond.">
+          <div class="lc-plate"><span class="lc-mast" lang="ru">Lucerna</span></div>
+          <figcaption>Een herfstpad in een park.</figcaption>
+        </figure>
+        <h3 lang="ru">14-й тур: «Зенит» и «Динамо» — по 31 очку</h3>
+        <p class="lc-excerpt" lang="ru">Все восемь матчей 14-го тура завершены: тур сыграли 6–8 ноября. «Зенит» и «Динамо» набрали по 31 очку и делят первое место в таблице.</p>
+        <p class="lc-teaser">Speeldag 14 is voorbij: Zenit en Dynamo delen de eerste plaats met elk 31 punten.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ru">День студента, день рождения Деда Мороза</h4><p>Dinsdag 17 november is de Internationale Dag van de Student; woensdag 18 november is de verjaardag van Ded Moroz.</p></li>
+          <li data-page="3"><h4 lang="ru">Кино 19 ноября: пять премьер</h4><p>Vijf filmpremières op donderdag 19 november: een Stallone-biopic, een misdaaddrama en familiekomedies.</p></li>
+          <li data-page="4"><h4 lang="ru">14-й тур: все восемь результатов</h4><p>Speeldag 14: alle acht uitslagen, de top 5 van de stand en het nationale elftal tegen Oezbekistan en Venezuela.</p></li>
+          <li data-page="5"><h4 lang="ru">«Чёрная пятница»: скидки с 16 ноября</h4><p>Black Friday: kortingen vanaf 16 november. Hoe je een pakket volgt, controleert en terugstuurt als het niet past.</p></li>
+          <li data-page="6"><h4 lang="ru">Неделя 16–22 ноября: как её прожить</h4><p>Een gewone week, 16–22 november: vijf werkdagen, dan het weekend — en hoe je die goed beleeft.</p></li>
+          <li data-page="7"><h4 lang="ru">Фразы недели</h4><p>De zinnen van de week: weerwoorden, winkelwoorden en hoe je naar iets verwijst.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ru">оттепель</p><p class="lc-gloss">Warmte in de winter: de sneeuw smelt.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ru">Жизнь</li>
+          <li lang="ru">Культура</li>
+          <li lang="ru">Спорт</li>
+          <li lang="ru">Молодёжь</li>
+          <li lang="ru">Разбор</li>
+          <li lang="ru">Язык</li>
+          <li lang="ru">Тест</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Rode en oranje Japanse esdoornbladeren tegen een donkere achtergrond.">
+          <div class="lc-plate"><span class="lc-mast" lang="ja">Lucerna</span></div>
+          <figcaption>Japanse esdoornbladeren in de herfst.</figcaption>
+        </figure>
+        <h3 lang="ja">二の酉と新酒、19日の木よう日</h3>
+        <p class="lc-excerpt" lang="ja">19日（木よう日）は、酉の市・二の酉です。浅草の鷲神社では、午前0時の一番太鼓から、24時まで市が開きます。熊手を買う人の夜です。同じ19日（木よう日）は、ボジョレー・ヌーヴォーの解禁日です。</p>
+        <p class="lc-teaser">Donderdag 19 november is de tweede Tori-no-Ichi en de eerste dag van de Beaujolais Nouveau.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ja">19日 — 夜通しの酉の市</h4><p>Donderdag 19 november: de Tori-no-Ichi duurt de hele nacht bij de schrijn in Asakusa, de eerste trom om middernacht.</p></li>
+          <li data-page="3"><h4 lang="ja">新酒の夜 — 19日の0時</h4><p>De nieuwe wijn komt donderdag 19 november: om middernacht gaat de Beaujolais Nouveau in Japan in de verkoop.</p></li>
+          <li data-page="4"><h4 lang="ja">波乱の3日間 — 九州場所</h4><p>Drie dramatische dagen op het Kyushu-sumotoernooi: vijf favorieten geblesseerd, en een 23-jarige wordt kandidaat.</p></li>
+          <li data-page="5"><h4 lang="ja">今年のことば、30語</h4><p>De woorden van dit jaar: 30 genomineerden, van de «snelle omamori» tot «de vrouw die rende».</p></li>
+          <li data-page="6"><h4 lang="ja">見頃を追いかけて京都へ</h4><p>De bladeren achterna naar Kyoto: de beste tijd voor de herfstbladeren en waar je ervan geniet.</p></li>
+          <li data-page="7"><h4 lang="ja">今週のフレーズ</h4><p>De zinnen van de week: hoe je zegt wanneer iets gebeurt, weerwoorden en de zinnen uit dit nummer.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ja">熊手</p><p class="lc-gloss">Een gelukshark, gekocht op de Tori-no-Ichi.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ja">生活</li>
+          <li lang="ja">文化</li>
+          <li lang="ja">スポーツ</li>
+          <li lang="ja">若者・エンタメ</li>
+          <li lang="ja">深読み</li>
+          <li lang="ja">ことば</li>
+          <li lang="ja">テストと答え</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een rode stalen brug over een dal van mistig herfstbos, de hellingen bedekt met gele en oranje bomen.">
+          <div class="lc-plate"><span class="lc-mast" lang="ko">Lucerna</span></div>
+          <figcaption>Een rode brug over een herfstbos in de mist.</figcaption>
+        </figure>
+        <h3 lang="ko">수능 D-1, 김치의 날 — 삼성 12년 만의 우승</h3>
+        <p class="lc-excerpt" lang="ko">11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.</p>
+        <p class="lc-teaser">Het CSAT-examen is donderdag 19 november; Kimchi-dag is zondag 22 november.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="ko">김장비용이 내렸어요 — 김치의 날에는 김치를 나눠요</h4><p>De kimjangkosten zijn dit jaar gedaald. Op Kimchi-dag delen mensen kimchi met familie en buren.</p></li>
+          <li data-page="3"><h4 lang="ko">김치의 날이 와요 — 늦가을 단풍은 마무리에요</h4><p>Kimchi-dag komt eraan, en de late herfstbladeren zijn bijna voorbij: geschiedenis en de bladeren van Bukhansan.</p></li>
+          <li data-page="4"><h4 lang="ko">삼성이 12년 만에 우승했어요 — kt wiz를 4승 1패로 이겼어요</h4><p>Samsung won de Korean Series met 4-1 van kt wiz: de eerste titel in 12 jaar, en een nieuw KBO-trofeeënrecord.</p></li>
+          <li data-page="5"><h4 lang="ko">수능 주간 — 예비소집부터 시험 날까지</h4><p>De CSAT-week, van de voorbijeenkomst tot de examendag: hoe de dag verloopt en wat je meeneemt.</p></li>
+          <li data-page="6"><h4 lang="ko">예보에서 결과로 — 뉴스를 다시 읽는 법</h4><p>Van voorspelling naar resultaat: hoe je het nieuws opnieuw leest — de verhalen met de langste houdbaarheid.</p></li>
+          <li data-page="7"><h4 lang="ko">실수 병원</h4><p>De foutenkliniek: de veelgemaakte fouten van de week en hoe je ze herstelt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="ko">예비소집</p><p class="lc-gloss">De dag voor het examen, wanneer kandidaten samenkomen en hun lokalen controleren.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="ko">김장비용과 김치의 날</li>
+          <li lang="ko">김치의 날과 늦가을 단풍</li>
+          <li lang="ko">한국시리즈 우승과 K리그</li>
+          <li lang="ko">수능 주간과 예비소집</li>
+          <li lang="ko">예보에서 결과로</li>
+          <li lang="ko">말 공부</li>
+          <li lang="ko">시험과 답</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een rij grijze pakketkluizen met veel kleine deurtjes, van voren gezien.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-cn">Lucerna</span></div>
+          <figcaption>Een rij pakketkluizen.</figcaption>
+        </figure>
+        <h3 lang="zh-cn">BLG赢了，决赛对阵GEN</h3>
+        <p class="lc-excerpt" lang="zh-cn">S16的半决赛打完了。11月8日星期日，GEN 3比0打赢了IG。11月9日星期一，BLG 3比1打赢了T1。决赛是BLG对GEN，北京时间11月15日星期日凌晨3点，在纽约的巴克莱中心打。</p>
+        <p class="lc-teaser">BLG versloeg T1 met 3-1 op maandag 9 november; de finale tegen GEN is zondag 15 november.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-cn">包裹到了吗？收、退、查</h4><p>Is je pakket er? Hoe je het aanneemt, terugstuurt en volgt.</p></li>
+          <li data-page="3"><h4 lang="zh-cn">小雪到了，冬天真的来了</h4><p>Kleine Sneeuw is er: 22 november, het seizoen waarin de winter echt begint.</p></li>
+          <li data-page="4"><h4 lang="zh-cn">S16：四强打完，决赛见</h4><p>S16: de halve finales zijn gespeeld. GEN veegde IG met 3-0 en BLG versloeg T1 met 3-1; de finale is BLG tegen GEN.</p></li>
+          <li data-page="5"><h4 lang="zh-cn">新电影《试探》，你去看吗？</h4><p>De nieuwe film «Het verhoor» — ga je kijken? De eerste film van het festival Seizoen van de Woorden.</p></li>
+          <li data-page="6"><h4 lang="zh-cn">今年的包裹，为什么没有爆掉？</h4><p>Waarom zijn de pakketten van dit jaar niet ontploft? De magazijnen, de bezorgers en drie grafieken.</p></li>
+          <li data-page="7"><h4 lang="zh-cn">易错诊所</h4><p>De foutenkliniek: de veelgemaakte fouten van de week en hoe je ze herstelt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-cn">决赛</p><p class="lc-gloss">De laatste wedstrijd, om het kampioenschap.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-cn">包裹到了吗</li>
+          <li lang="zh-cn">小雪到了</li>
+          <li lang="zh-cn">S16四强打完</li>
+          <li lang="zh-cn">新电影《试探》</li>
+          <li lang="zh-cn">包裹为什么没爆</li>
+          <li lang="zh-cn">词语精讲</li>
+          <li lang="zh-cn">测验与答案</li>
+        </ol>
+      </article>
+      <article class="lc-story">
+        <figure class="lc-media" data-image-slot data-alt="Een foto uit 1908: een honkbalteam in uniform op het veld, de werper in het midden.">
+          <div class="lc-plate"><span class="lc-mast" lang="zh-tw">Lucerna</span></div>
+          <figcaption>Een honkbalteam in 1908.</figcaption>
+        </figure>
+        <h3 lang="zh-tw">週日下午2點，封王遊行天母出發</h3>
+        <p class="lc-excerpt" lang="zh-tw">味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。</p>
+        <p class="lc-teaser">De Wei Chuan Dragons wonnen hun zesde titel; de parade vertrekt zondag om 14.00 uur.</p>
+        <ul class="lc-more">
+          <li data-page="2"><h4 lang="zh-tw">小雪快到了，保暖先做好</h4><p>Kleine Sneeuw komt eraan: houd je warm — een jas, een warme drank, een verwarming en een deken.</p></li>
+          <li data-page="3"><h4 lang="zh-tw">金馬獎本週日頒獎，誰會得獎？</h4><p>De Golden Horse-prijzen zijn deze zondag: wie wint? Een filmfestival met 209 titels in 10 dagen.</p></li>
+          <li data-page="4"><h4 lang="zh-tw">本週日，封王遊行天母出發！</h4><p>Deze zondag vertrekt de overwinningsparade uit Tianmu: 14.00 uur, naar de Songyan Avenue bij de Taipei Dome.</p></li>
+          <li data-page="5"><h4 lang="zh-tw">香港迪士尼聖誕，11月17日開始</h4><p>Kerstmis in Hong Kong Disneyland begint maandag 17 november: de Wereld van Frozen, sneeuwval en shows.</p></li>
+          <li data-page="6"><h4 lang="zh-tw">11月22日，一天四件大事</h4><p>22 november, vier grote dingen op één dag: de parade, het Eurovisie Songfestival en Kleine Sneeuw.</p></li>
+          <li data-page="7"><h4 lang="zh-tw">易錯診所</h4><p>De foutenkliniek: de veelgemaakte fouten van de week en hoe je ze herstelt.</p></li>
+        </ul>
+        <div class="lc-word" data-page="1"><p class="lc-term" lang="zh-tw">封王</p><p class="lc-gloss">Een kampioenschap bezegelen: de titel winnen.</p></div>
+        <ol class="lc-pages" start="2">
+          <li lang="zh-tw">小雪與雙11包裹</li>
+          <li lang="zh-tw">金馬獎頒獎</li>
+          <li lang="zh-tw">封王遊行</li>
+          <li lang="zh-tw">迪士尼聖誕</li>
+          <li lang="zh-tw">一天四件大事</li>
+          <li lang="zh-tw">語言聚焦</li>
+          <li lang="zh-tw">測驗與答案</li>
+        </ol>
+      </article>
+      </div>
+    </div>
+  </body>
+</html>
