@@ -277,6 +277,101 @@ badges = 135 for zh-cn-es).
 
 ---
 
+## 8. `d5_creambox_audit.py` — D5 standing gate: cream-box differential audit
+
+```bash
+$PY d5_creambox_audit.py <baseline-edition-dir> <patched-edition-dir> [--json out.json]
+$PY d5_creambox_audit.py --selftest
+```
+
+For every cream (`#f0eee5`) rect, measures the PIL true-ink bbox of every
+text element whose baseline sits inside the box and flags ink running past
+any box edge by > 2.0 px. A patched absolute overflow is a DEFECT only
+when the same box had no baseline overflow on the same side at
+equal-or-greater severity (within 2.0 px); equal severity in the baseline
+is OBSERVE (pre-existing, not caused by the change). A line that sat
+inside a box in the baseline and sits below the box in the patched build
+("spilled below box") is a DEFECT. "Line vanished/rewrapped" diffs are
+INFORMATIONAL (reflow is expected under a font change) and never fail
+the gate. Also reported, non-gating: per-page element/family/character
+counts, line reflow counts, element movement, advance ratios of every
+distinct sans string (baseline vs patched `text_w`, split by bold), and
+P8 slack (last baseline, max ink bottom, distance to the footer rule at
+y=2596 and to the page bottom at 2700). Exit 0 iff no DEFECT; exit 1 if
+any DEFECT; exit 2 on usage/blocked input. Read-only wrt both edition
+dirs; writes only --json + stdout.
+
+**Why it exists (D5, 2026-11-11):** the font change widens bold caps box
+titles in Newsreader SemiBold (bold median +5.7%, `A2` +18.4%), pushing
+the trailing reader-language subtitle out of its cream box. `gates.py`
+16/16 stayed green on 5 of the 6 such defects in the pt-fr pilot and the
+occlusion audit caught only 1 (a true collision). This audit catches the
+other 5. It is a *differential* audit (before/after pair) — not the same
+tool as the single-edition baseline-window scan in
+`hidden_files/w47/tools/creambox.py` (different method, different job);
+the `d5_` name is kept so the two are never confused.
+
+**Old-style baselines:** ja/ko-target editions (and the shipped
+W43/W45/W46 generations) still ship the old-style single-font svglib
+with no `_runs`/`_pil` split. When the loaded baseline module has no
+`_runs`/`_pil`, the audit measures the whole string with that module's
+`_font` — exactly the face the old-style renderer used. `--selftest`
+exercises both paths on synthetic fixtures under `tools/scratch/`.
+
+**Validation (2026-11-12):** `--selftest` OK (widened title → 1 defect;
+identical pair → 0; old-style baseline shim → 0, fallback path
+exercised). On the D5 mechanism pilot pairs the converged copy
+reproduces the mechanism tool's numbers exactly: en-fr **FAIL 3
+defects** (`Chiffres` +12.5 / +28.3, `Bulletin test` +16.4; ratios n=467
+median 1.003 boldT 1.049 boldF 0.982; P8 lines 197→189, slack
+35.3→35.9) and en-ru **PASS 0 defects** (ratios n=472 median 1.008
+boldT 0.956 boldF 1.026; P8 192→203, slack 47.8→36.3). The pair is
+frozen — baseline
+`hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-fr|ru`,
+patched
+`hidden_files/w47/scratch-d5-plan/mechanism/pilot/en-fr|ru/edition`;
+re-run against THAT pair to reproduce these numbers (2026-11-12
+re-verified: the current tool reproduces the pilot's stored
+`creambox.json` exactly — pages, totals, ratios and P8 all equal).
+Do NOT re-run against current production to check them: en-fr's 3
+defects were fixed after the pilot, so that pair now reads PASS 0.
+
+---
+
+## 9. `head_check.py` — standing gate: `HEAD TOO WIDE` is a defect
+
+```bash
+$PY head_check.py <run.log> [<run.log> ...] [--json out.json]
+$PY head_check.py --selftest
+```
+
+`run.py` (via bslib4 `head()`) prints `  !! HEAD TOO WIDE [<tag>]:
+<text>` whenever a column/battery heading's advance width exceeds its
+column. Any occurrence is a defect — the warning itself is the gate, not
+the visual severity. Exit 0 iff no `HEAD TOO WIDE` in any log; exit 1 if
+any found (each listed with file, line number, tag and text); exit 2 on
+usage error or a missing log file. Read-only wrt the logs.
+
+**Why it exists (D5, 2026-11-11):** the en-fr pilot proved all 8 other
+gates miss this class — occlusion, edge scan, creambox, boxtitle and
+spill all stayed green while a P7 heading ran 8.6 px past its column and
+past the page content edge (RIGHT=1862). A P8 battery heading over by
+1.2 px is also a defect even when the ink stops short of the next
+column. Save `run.py` output to `run.log` and run this gate on it; do
+not eyeball the build log for warnings.
+
+**Validation (2026-11-12):** `--selftest` OK (dirty log → exactly its 2
+planted findings; clean log → 0; missing file reported). On the D5
+mechanism pilot logs
+(`hidden_files/w47/scratch-d5-plan/mechanism/pilot/en-fr|ru/run.log`):
+en-fr **FAIL 2 defects** (`P7-col3 AN EXAMPLE LETTER　Exemple`,
+`P8-battery D　SENTENCES　Phrases à former`) and en-ru **PASS 0
+defects** — the same two warnings the pilot report records. Those logs
+are the frozen pilot run output; current production `run.log` files
+have since been re-run after the fixes and no longer contain them.
+
+---
+
 ## Data contradictions found while consolidating (read before reusing)
 
 1. **Fonts:** the tasking brief named combined files

@@ -47,7 +47,12 @@ kept missing it:
    `<out>/run-build.log`, so an audit can see exactly where the build
    wrote. It also picks the interpreter the way `tools/freeze.py` does
    (ko family → system python3 / Pillow 10, else `tools/venv` /
-   Pillow 13) and aborts on a mismatch.
+   Pillow 13) and aborts on a mismatch — except the **render** step,
+   which always uses `tools/venv` (cairosvg lives there; the system
+   python3 has none, so a ko render under it fails at import).
+   Repoint finds string literals with the tokenizer, so an apostrophe
+   in a docstring cannot hide a path literal (core-ko
+   `check_gloss.py:9`, 2026-11-12).
 
 ## Usage
 

@@ -26,7 +26,11 @@ This wrapper makes the safe path the only path:
      and any other quoted path resolving inside production/) to the
      scratch tree — including `~`-prefixed paths (incident #6) and
      paths reached through symlinks — by resolving each candidate
-     string, not by pattern-matching the spelling.
+     string, not by pattern-matching the spelling. String boundaries
+     come from the tokenizer, so an apostrophe in a docstring or
+     comment cannot desync the scan (core-ko check_gloss.py:9,
+     2026-11-12: "page's" in the docstring hid the ED literal from
+     the old quote-pairing scan).
   3. It VERIFIES the copy before running: if any .py in the copy still
      references the real production tree, it aborts (exit 2) without
      running anything. A missed redirect is a hard failure, not a
@@ -55,9 +59,15 @@ executes render.py in the copy (skipped with a note when absent).
 Default: run,render.
 
 Interpreter: --python overrides. Otherwise ko-family builds
-(core-ko, <week>-ko-*) use /usr/bin/python3 (Pillow 10, per core-ko
-WEEKLY-KIT.md fix #15) and everything else uses tools/venv/bin/python
-(Pillow 13), mirroring the runtime guard in tools/freeze.py.
+(core-ko, <week>-ko-*) RUN under /usr/bin/python3 (Pillow 10, per core-ko
+WEEKLY-KIT.md fix #15) and everything else runs under tools/venv/bin/python
+(Pillow 13), mirroring the runtime guard in tools/freeze.py. The RENDER
+step always uses tools/venv/bin/python, even for ko: render.py imports
+cairosvg, which /usr/bin/python3 does not have — a ko render under the
+system interpreter fails at import (2026-11-12). Rendering does no PIL
+text measurement (CairoSVG rasterizes the already-built SVGs), so the
+Pillow version cannot change its output; the render interpreter is
+checked for cairosvg + Pillow 13 instead.
 
 Exit codes: 0 = built, outputs under <out>/build-copy (+ <out>/svg when
 a script redirects there); 1 = the build/render step itself failed;
@@ -69,7 +79,9 @@ content*.py. Adoption by builders/proofreaders is a W47+ rollout item;
 see tools/run_build.README.md.
 """
 import argparse
+import ast
 import hashlib
+import io
 import json
 import os
 import re
@@ -77,6 +89,7 @@ import shutil
 import subprocess
 import sys
 import time
+import tokenize
 
 CONTENT_ORDER = ["content12.py", "content34.py", "content56.py",
                  "content7.py", "content8.py"]
@@ -175,6 +188,89 @@ def map_production_path(resolved, edition_dir, production_root, out_dir, copy_di
     return os.path.join(out_dir, "external", rel)
 
 
+def _string_replacements(s, copy_dir, edition_dir, production_root, out_dir):
+    """[(start, end, new_literal)] for every string literal in s whose
+    value is a path resolving inside production/.
+
+    Uses the tokenizer, not a quote-pairing regex: a naive
+    ``(["'])([^"']*)\\1`` scan goes out of phase as soon as an apostrophe
+    appears before the path literal (e.g. "page's" in a module docstring),
+    so the path literal is never seen as one unit and repoint silently
+    misses it — core-ko check_gloss.py:9 (``ED =
+    os.path.expanduser("~/workspace/weekly-git/production/2026-w47/core-ko")``)
+    survived repoint for exactly this reason (2026-11-12). The tokenizer
+    knows real string boundaries (triple quotes, prefixes, comments), so
+    apostrophes elsewhere cannot shift it. Returns None when the source
+    does not tokenize (caller falls back to the regex scan).
+    """
+    try:
+        tokens = list(tokenize.generate_tokens(io.StringIO(s).readline))
+    except (tokenize.TokenError, SyntaxError, IndentationError):
+        return None
+    lines = s.splitlines(keepends=True)
+
+    def off(pos):
+        row, col = pos
+        return sum(len(lines[i]) for i in range(row - 1)) + col
+
+    out = []
+    for tok in tokens:
+        if tok.type != tokenize.STRING:
+            continue
+        try:
+            val = ast.literal_eval(tok.string)
+        except (ValueError, SyntaxError, MemoryError, RecursionError):
+            continue
+        if not isinstance(val, str) or "\n" in val or "/" not in val:
+            continue
+        if not (val.startswith(("~", "/", "workspace/"))
+                or "production/" in val or "files/" in val):
+            continue
+        cand = (os.path.join(copy_dir, val)
+                if not val.startswith(("~", "/")) else val)
+        resolved = resolve(cand)
+        if not is_within(resolved, production_root):
+            continue
+        new = map_production_path(resolved, edition_dir,
+                                  production_root, out_dir, copy_dir)
+        # Rebuild the literal keeping its original quote/prefix: the token
+        # text is [prefix]quote...quote; splice the new path between them.
+        text = tok.string
+        m = re.match(r"(?i)([rubf]*)((?:\"\"\")|(?:''')|\"|')", text)
+        if not m:
+            continue
+        prefix, quote = m.group(1), m.group(2)
+        if not text.endswith(quote):
+            continue
+        new_literal = prefix + quote + new + quote
+        out.append((off(tok.start), off(tok.end), new_literal, val, new))
+    return out
+
+
+def _regex_replacements(s, copy_dir, edition_dir, production_root, out_dir):
+    """Fallback for sources the tokenizer rejects: the old quote-pairing
+    scan. Less robust (see _string_replacements), but better than
+    repointing nothing."""
+    out = []
+    for m in QUOTED_RE.finditer(s):
+        inner = m.group(2)
+        if "/" not in inner:
+            continue
+        if not (inner.startswith(("~", "/", "workspace/"))
+                or "production/" in inner or "files/" in inner):
+            continue
+        cand = (os.path.join(copy_dir, inner)
+                if not inner.startswith(("~", "/")) else inner)
+        resolved = resolve(cand)
+        if not is_within(resolved, production_root):
+            continue
+        new = map_production_path(resolved, edition_dir,
+                                  production_root, out_dir, copy_dir)
+        out.append((m.start(), m.end(), f"{m.group(1)}{new}{m.group(1)}",
+                    inner, new))
+    return out
+
+
 def repoint_tree(copy_dir, edition_dir, production_root, out_dir, logf=None):
     """Rewrite every quoted path literal in the copy's .py files that
     resolves inside production/ to its scratch mapped path.
@@ -185,6 +281,7 @@ def repoint_tree(copy_dir, edition_dir, production_root, out_dir, logf=None):
     sed misses: `~/workspace/...`, absolute paths, symlinked paths.
     `__file__`-relative OUT/BASE need no rewrite: they resolve inside
     the copy by construction, and are logged as such by the caller.
+    String boundaries come from the tokenizer (see _string_replacements).
     """
     touched, mapped = [], []
     for root, dirs, files in os.walk(copy_dir):
@@ -194,30 +291,24 @@ def repoint_tree(copy_dir, edition_dir, production_root, out_dir, logf=None):
                 continue
             p = os.path.join(root, fn)
             s = open(p, encoding="utf-8").read()
-
-            def repl(m):
-                q, inner = m.group(1), m.group(2)
-                if "/" not in inner:
-                    return m.group(0)
-                if not (inner.startswith(("~", "/", "workspace/"))
-                        or "production/" in inner or "files/" in inner):
-                    return m.group(0)
-                # Resolve relative literals against the copy dir, as the
-                # running script would see them.
-                cand = (os.path.join(copy_dir, inner) if not inner.startswith(("~", "/"))
-                        else inner)
-                resolved = resolve(cand)
-                if not is_within(resolved, production_root):
-                    return m.group(0)
-                new = map_production_path(resolved, edition_dir,
-                                          production_root, out_dir, copy_dir)
-                mapped.append((inner, new))
-                return f"{q}{new}{q}"
-
-            s2 = QUOTED_RE.sub(repl, s)
-            if s2 != s:
-                open(p, "w", encoding="utf-8").write(s2)
-                touched.append(os.path.relpath(p, copy_dir))
+            repls = _string_replacements(s, copy_dir, edition_dir,
+                                         production_root, out_dir)
+            if repls is None:
+                if logf is not None:
+                    log(f"repoint: {os.path.relpath(p, copy_dir)} does not "
+                        f"tokenize; regex fallback", logf)
+                repls = _regex_replacements(s, copy_dir, edition_dir,
+                                            production_root, out_dir)
+            if not repls:
+                continue
+            # Splice from the end so earlier offsets stay valid; skip any
+            # overlapping replacement (cannot happen for real tokens).
+            repls.sort(key=lambda r: r[0], reverse=True)
+            for start, end, new_literal, orig, new in repls:
+                s = s[:start] + new_literal + s[end:]
+                mapped.append((orig, new))
+            open(p, "w", encoding="utf-8").write(s)
+            touched.append(os.path.relpath(p, copy_dir))
     return touched, mapped
 
 
@@ -302,6 +393,41 @@ def check_pillow(python, build_dir):
                 f"family requires Pillow {required}.x "
                 f"({'ko family -> /usr/bin/python3' if required == 10 else 'default -> tools/venv/bin/python'}; "
                 f"see tools/freeze.py runtime guard)")
+    return 0
+
+
+def pick_render_python(explicit, logf=None):
+    """The render step always runs under the canonical stack
+    (tools/venv/bin/python: cairosvg lives there; /usr/bin/python3 does
+    not have it), whatever family the build is. An explicit --python
+    overrides both steps (debugging escape hatch)."""
+    if explicit:
+        return resolve(explicit)
+    venv_py = os.path.join(repo_root(), "tools", "venv", "bin", "python")
+    if os.path.exists(venv_py):
+        log(f"render interpreter: {venv_py} (cairosvg + Pillow 13)", logf)
+        return venv_py
+    log("render interpreter: no tools/venv found, falling back to the "
+        "run interpreter", logf)
+    return None
+
+
+def check_render_stack(python):
+    """Render needs cairosvg (importable) on the canonical Pillow 13
+    stack. Returns 0 or an error string."""
+    proc = subprocess.run(
+        [python, "-c",
+         "import cairosvg, PIL; print(PIL.__version__)"],
+        capture_output=True, text=True)
+    if proc.returncode != 0:
+        return (f"wrong render interpreter: {python} cannot import "
+                f"cairosvg ({(proc.stderr or proc.stdout).strip().splitlines()[-1:]})"
+                f" — render must run under tools/venv/bin/python")
+    ver = proc.stdout.strip()
+    if ver.split(".")[0] != str(REQUIRED_PILLOW_MAJOR):
+        return (f"wrong render interpreter: {python} has Pillow {ver}, "
+                f"render requires Pillow {REQUIRED_PILLOW_MAJOR}.x "
+                f"(tools/venv/bin/python)")
     return 0
 
 
@@ -434,6 +560,17 @@ def main(argv=None):
             print(f"ABORT: {err}", file=sys.stderr)
             return 2
         log(f"interpreter Pillow check OK: {python}", logf)
+        render_python = python
+        if "render" in steps:
+            render_python = pick_render_python(args.python, logf)
+            if render_python is None:
+                render_python = python
+            err = check_render_stack(render_python)
+            if err:
+                log(f"ABORT: {err}", logf)
+                print(f"ABORT: {err}", file=sys.stderr)
+                return 2
+            log(f"render interpreter check OK: {render_python}", logf)
 
         # --- run steps in the copy ----------------------------------------
         rc = 0
@@ -454,8 +591,8 @@ def main(argv=None):
         if "render" in steps:
             renderer = os.path.join(copy_dir, "render.py")
             if os.path.exists(renderer):
-                rc = run_step(python, copy_dir,
-                              [python, "render.py"], "render.py", logf)
+                rc = run_step(render_python, copy_dir,
+                              [render_python, "render.py"], "render.py", logf)
                 if rc:
                     log(f"ABORT: render step failed (exit {rc})", logf)
                     return 1

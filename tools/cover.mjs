@@ -89,9 +89,43 @@ const SENTENCE_END = /[.!?。！？…][»"”’」』)）]*$/u;
 export const count = (s) => [...s.replace(/\s/gu, '')].length;
 export const limitOf = (field, lang) => LIMITS[field][CJK.has(lang) ? 'cjk' : lang === 'ko' ? 'ko' : 'other'];
 
+/**
+ * Fraction of letters that are ASCII. Letters inside a run of ≥2
+ * consecutive [A-Z0-9] characters (e.g. BLG, GEN, T1) are proper names /
+ * team abbreviations, not running text in the wrong language, so they do
+ * not count toward the ASCII numerator — but ONLY when the field also
+ * contains a non-ASCII letter (e.g. 「BLG赢了T1」). A field written
+ * entirely in ASCII letters (e.g. "USA WINS BIG TODAY") gets no
+ * exemption: without this gate the whole-field-uppercase case slipped
+ * through, since every letter sat inside an exempted run. The
+ * denominator stays all Unicode letters. A lone capital (e.g. "I")
+ * still counts, as do all lowercase letters. The check exists to catch
+ * a whole field written in the wrong language, not to flag abbreviations.
+ */
 function asciiLetterFraction(s) {
-  const letters = [...s].filter((c) => /\p{L}/u.test(c));
-  return letters.length ? letters.filter((c) => c.charCodeAt(0) < 128).length / letters.length : 0;
+  const chars = [...s];
+  // Closing rule (2026-11-12): exempt ≥2 [A-Z0-9] runs only when the
+  // field contains at least one non-ASCII letter; an all-ASCII field
+  // counts every ASCII letter, so an all-caps English field cannot
+  // hide inside the abbreviation exemption.
+  const hasNonAsciiLetter = chars.some((c) => /\p{L}/u.test(c) && c.charCodeAt(0) >= 128);
+  const inRun = new Array(chars.length).fill(false);
+  for (let i = 0; i < chars.length;) {
+    if (/[A-Z0-9]/.test(chars[i])) {
+      let j = i;
+      while (j < chars.length && /[A-Z0-9]/.test(chars[j])) j++;
+      if (j - i >= 2 && hasNonAsciiLetter) for (let k = i; k < j; k++) inRun[k] = true;
+      i = j;
+    } else i++;
+  }
+  let total = 0;
+  let ascii = 0;
+  chars.forEach((c, idx) => {
+    if (!/\p{L}/u.test(c)) return;
+    total++;
+    if (c.charCodeAt(0) < 128 && !inRun[idx]) ascii++;
+  });
+  return total ? ascii / total : 0;
 }
 
 /**

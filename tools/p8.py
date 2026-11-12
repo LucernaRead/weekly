@@ -144,6 +144,18 @@ def detect_note(seg):
     if seg.startswith("✓"):
         rest = seg[1:].strip()
         return (bool(rest), "✓", "check")
+    # 2026-11-12 (D5 CJK, W47 fr-ko): D5 splits a sans line into per-script
+    # runs, and a run that starts with a space loses it (svglib wrap() drops
+    # a space token at a line break; CairoSVG drops a leading space of a run).
+    # When the break falls right after an em-dash separator, the joined
+    # segment reads "key —<CJK>…" with the space after the dash gone, so the
+    # " — " dash test below misses and the segment falls through to paren
+    # style — where last_paren_group() then finds a paren in the P8 caption
+    # swallowed into the last entry (e.g. Hiroshige "(1797-1858)") and the
+    # whole key is lost (fr-ko Q150). The source E values always write the
+    # dash with spaces on both sides, so a dash directly before a CJK char
+    # can only be this lost-space artifact: restore the space before testing.
+    seg = re.sub(r" —(?=[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7a3])", " — ", seg)
     g = last_paren_group(seg)
     dash = None
     if " — " in seg:

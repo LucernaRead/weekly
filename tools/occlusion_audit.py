@@ -89,18 +89,20 @@ def resolve_font(family, size, bold, text=None):
     if "Unifraktur" in fam:
         return (FONTS["blackletter"], 0)
     serif = "Serif" in fam
-    # Cyrillic runs: the build (core-ru svglib._char_font) renders them
-    # with the non-CJK Noto Serif/Sans, never the CJK SC face — the
-    # per-character fallback chain is Newsreader (Latin) -> Noto Serif
-    # (Cyrillic) -> Noto Serif CJK SC (CJK). Measuring a Cyrillic run with
-    # the CJK SC face overstates its ink ~2-6% (+3.0-8.0px per word at
-    # body/headline sizes, e.g. Bold 53 'Зенит' 171.8 vs build 166.3) and
-    # raised 42 false TEXTX flags on W47 ru-nl. Only the bare family
-    # names are diverted: 'Noto Serif CJK SC' / 'Noto Sans CJK SC' stay
-    # on the CJK face (that is what the old build rendered, and what CJK
-    # runs use). No Cyrillic in the text (or no text given) -> unchanged.
+    # Bare family names: the D5 build emits font-family "Noto Sans" /
+    # "Noto Serif" (no CJK suffix) for its non-CJK runs (ru-reader
+    # sans_noto, serif Cyrillic), which CairoSVG renders in the non-CJK
+    # Noto faces. Measure them there, whatever the text holds: the old
+    # Cyrillic-only condition let Latin/punct-only runs (e.g. '· ' in a
+    # ko-ru vocabulary line) fall through to the CJK SC face, where
+    # U+00B7 is full-width (82/82em vs 22/82em in Noto Sans) — 2 false
+    # TEXTX flags on 2026-w47-ko-ru (2026-11-12, measurement-face
+    # mismatch, render shows a clean gap). Only the bare family names
+    # are diverted: 'Noto Serif CJK SC' / 'Noto Sans CJK SC' stay on
+    # the CJK face (that is what the old build rendered, and what CJK
+    # runs use).
     first = fam.strip().split(",")[0].strip()
-    if text and _has_cyrillic(text) and first in ("Noto Serif", "Noto Sans"):
+    if first in ("Noto Serif", "Noto Sans"):
         if serif:
             return (os.path.join(_NOTO_DIR, "NotoSerif-Bold.ttf" if bold
                                  else "NotoSerif-Regular.ttf"), 0)
