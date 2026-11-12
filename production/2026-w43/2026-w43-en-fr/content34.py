@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-en-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURE (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURE · Culture", "The Lucerna", "A2 → B1 · Halloween in America · Halloween en Amérique")
+p.band("CULTURE　Culture", "The Lucerna", "A2 → B1　Halloween in America　Halloween en Amérique")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P3-main")
-f.title("Halloween in America : a $13.5 Billion Night of Candy", 37)
-f.byline("By The Lucerna newsroom · Reading level : A2 → B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P3-main")
+f.title("Halloween in America : a $13.5 Billion Night of Candy", 32)
+f.byline("By The Lucerna newsroom　Reading level : A2 → B1")
 f.para("On Saturday, October 31, America will put on its costumes. Halloween is not an official holiday — nobody gets the day off — but it is one of the biggest nights of the American year. This year, the National Retail Federation (NRF) projects record spending of 13.5 billion dollars, up 3.82% from 2025. That is about $115.14 for every person who celebrates.")
 f.para("Where does the money go ? Costumes come first : $4.4 billion. Decorations are second, at $4.3 billion — gardens full of skeletons, lights and giant spiders. Candy takes $4.1 billion, and almost everybody buys it : 96% of celebrants plan to buy sweets for the big night.")
 f.para("How does trick-or-treating work ? In the early evening, children in costumes walk from door to door in their neighbourhood. They ring the bell and shout : « Trick or treat ! » — a joke threat, always answered with candy. One rule matters : a light on the porch means « welcome, knock here ». A dark house means « please, not this year » — and children respect it.")
@@ -22,13 +22,13 @@ f.para("What will America wear this year ? Google published its Frightgeist cost
 f.para("Halloween was a national festival long before it was a shopping season. In the early 1900s, when telephones were still rare, Americans sent Halloween postcards — more than 3,000 designs were printed. The card on this page is from 1912. The greetings travelled slowly, by mail, and arrived like little paper ghosts.")
 f.para("This year, the calendar is kind : Halloween falls on a Saturday. No school the next morning, no work for most parents — the party can begin in the afternoon and the last jack-o'-lantern can burn late. Shops know it, too : the last full shopping week of the season is this one, and the costume shelves empty fast.")
 f.para("One object waits by every door : the candy bowl. Families fill it in the afternoon — chocolate, sweets, sometimes small toys — and children empty it, street by street, all evening. Economists study the $13.5 billion. Children study something simpler : which house gives the biggest chocolate ?")
-f.box("SAY IT ON THE NIGHT · Ce soir-là", [
+f.box("SAY IT ON THE NIGHT　Ce soir-là", [
     ("« Trick or treat ! » — « Des bonbons ou un sort ! » (une menace pour rire, toujours récompensée par des bonbons)", "serif", False, INK, 21.5, 1.42),
     ("« Happy Halloween ! » — Joyeux Halloween ! · « Thank you ! » — Merci ! (à dire dès que vous recevez des bonbons)", "serif", False, INK, 21.5, 1.42),
     ("« What are you dressed as ? » — En quoi es-tu déguisé ?", "serif", False, INK, 21.5, 1.42),
 ])
 f.gloss("to celebrate = fêter, célébrer · a porch = un porche, un perron · to carve = sculpter, creuser · a decoration = une décoration · a survey = une enquête (NRF, 7 889 personnes).")
-f.head("A · TRUE OR FALSE ? · Vrai / faux", 25)
+f.head("A　TRUE OR FALSE ?　Vrai / faux", 25)
 f.instrline("Lisez l’article de la page 3 : vrai ou faux ?")
 f.ex("A2", "Vrai ou faux", "False", "Halloween tombe un samedi (31 octobre)",
      "1. Halloween is on a Friday this year.", instr="Vrai ou faux", size=23)
@@ -40,7 +40,7 @@ f.ex("A2", "Vrai ou faux", "True", "47 % des gens utilisent l’IA pour leurs id
      "4. Almost half of celebrants use AI tools for costume ideas.", instr="Vrai ou faux", size=23)
 f.ex("A2", "Vrai ou faux", "False", "Porche éteint = « pas cette année, merci »",
      "5. A house with no light on the porch is asking for visitors.", instr="Vrai ou faux", size=23)
-f.head("B · FESTIVAL WORDS · Fête", 25)
+f.head("B　FESTIVAL WORDS　Fête", 25)
 f.ex("A2", "Compléter", "costume", "costume = le déguisement",
      "Children wear a ___ and go from door to door.", instr="Complétez", size=23)
 f.ex("A2", "Compléter", "carve", "carve a pumpkin = creuser une citrouille",
@@ -51,7 +51,7 @@ f.ex("A2", "Compléter", "candy", "96 % des célébrants achètent des bonbons",
      "Ninety-six percent of celebrants buy ___.", instr="Complétez", size=23)
 f.ex("A2", "Compléter", "patch", "pumpkin patch = le champ de citrouilles",
      "In October, families visit a pumpkin ___ to choose a pumpkin.", instr="Complétez", size=23)
-f.head("C · CHOOSE · Choix multiple", 25)
+f.head("C　CHOOSE　Choix multiple", 25)
 f.ex("B1", "Choix multiple", "B", "13,5 milliards : la prévision de cette année",
      "The $13.5 billion is... A. last year's total · B. this year's projection · C. candy money only", size=22.5)
 f.ex("B1", "Choix multiple", "A", "La liste de Google s’appelle Frightgeist",
@@ -60,7 +60,7 @@ f.ex("B1", "Choix multiple", "B", "Cette année : les dieux grecs",
      "This year's costumes include... A. Roman kings · B. Greek gods · C. astronauts only", size=22.5)
 f.ex("B1", "Choix multiple", "B", "Années 1900 : les vœux par carte postale",
      "In the early 1900s, Halloween greetings travelled by... A. telephone · B. postcard · C. radio", size=22.5)
-f.head("D · SENTENCES · Transformer", 25)
+f.head("D　SENTENCES　Transformer", 25)
 f.ex("A2", "Transformation", "Children go door to door on October 31.", "Présent simple : les habitudes",
      "Children (go) door to door on October 31. → ___", instr="Réécrivez")
 f.ex("B1", "Transformation", "She buys a Greek god costume.", "3e personne : buys (présent simple)",
@@ -76,8 +76,8 @@ ix = COLX[3]
 image(p, "halloween1912.jpg", ix, 200, CW, 470)
 cy3 = caption(p, ix, 670, CW, "« A Halloween Wish », 1912 : in the age of postcards, Halloween greetings travelled by mail — slowly, like little paper ghosts.",
               "Halloween postcard, 1912 — public domain")
-v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2540, tag="P3-col3")
-v3.box("FESTIVAL WORDS · Mots de la fête", [
+v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
+v3.box("FESTIVAL WORDS　Mots de la fête", [
     ("trick or treat — « des bonbons ou un sort »", "serif", False, INK, 21.5, 1.5),
     ("a costume — un déguisement", "serif", False, INK, 21.5, 1.5),
     ("a jack-o'-lantern — une citrouille-lanterne", "serif", False, INK, 21.5, 1.5),
@@ -87,10 +87,10 @@ v3.box("FESTIVAL WORDS · Mots de la fête", [
     ("spooky — effrayant (pour de rire)", "serif", False, INK, 21.5, 1.5),
     ("a patch — un champ (de citrouilles)", "serif", False, INK, 21.5, 1.5),
 ])
-v3.box("DATES TO REMEMBER · À retenir", [
-    ("Oct 23 — Red Ribbon Week begins", "sans", True, BRICK, 20, 1.4),
+v3.box("DATES TO REMEMBER　À retenir", [
+    ("Oct 23 — Red Ribbon Week begins", "sans", True, OLIVE, 20, 1.4),
     ("Oct 24 — Make a Difference Day · Drug Take Back Day, 10 a.m.–2 p.m.", "serif", False, INK, 20.5, 1.4),
-    ("Oct 31 — Halloween (Saturday)", "sans", True, BRICK, 20, 1.4),
+    ("Oct 31 — Halloween (Saturday)", "sans", True, OLIVE, 20, 1.4),
     ("Nov 1 — clocks fall back · Nov 3 — Election Day", "serif", False, INK, 20.5, 1.4),
 ])
 v3.box("THE SEASON IN NUMBERS", [
@@ -109,11 +109,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · Sport", "The Lucerna", "LEVEL B1 · NBA · World Series · Austin F1")
+p.band("SPORT　Sport", "The Lucerna", "LEVEL B1　NBA　World Series　Austin F1")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P4-main")
-f.title("The Biggest Sports Week of the Autumn", 37)
-f.byline("By The Lucerna newsroom · Reading level : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P4-main")
+f.title("The Biggest Sports Week of the Autumn", 32)
+f.byline("By The Lucerna newsroom　Reading level : B1")
 f.head("TIP-OFF TUESDAY", 26)
 f.para("The NBA is back. On Tuesday, October 20, the 2026–27 season opened with something new : a tripleheader — three big games in one night — on NBC and its streaming service Peacock. Boston played at Detroit, Oklahoma City at San Antonio, and in New York, the champions received their rings.")
 f.para("Before the game at Madison Square Garden, the New York Knicks raised their championship banner — the club's first since 1973. Then the Philadelphia 76ers spoiled the party. Philadelphia won 106–100, with 28 points from Tyrese Maxey. LeBron James, now a 76er, began a record 24th NBA season. The season continues all week : 43 games from Tuesday to Sunday, including the Lakers against the Warriors on Wednesday.")
@@ -127,14 +127,14 @@ f.head("THE FOOTBALL WEEKEND", 26)
 f.para("And football ? It never stops. Week 7 of the NFL season brings the Patriots at the Bears on Thursday night, then, on Sunday, the Packers at the Lions and the Chiefs at the Seahawks in the night game. College football fills Saturday : LSU at Auburn, Texas A&M at Alabama, Ole Miss at Texas, Indiana at Michigan.")
 f.head("AND AT 4 P.M. ON SUNDAY...", 26)
 f.para("...the world game joins the party. Barcelona play Real Madrid in El Clásico on Sunday — 4 p.m. Eastern on ESPN in the United States. On Wednesday morning, « barca vs real madrid » was the number one trending search in the US in one snapshot.")
-f.box("THE WEEK'S FIXTURES · Agenda", [
+f.box("THE WEEK'S FIXTURES　Agenda", [
     ("Tue — NBA tip-off : 76ers at Knicks · Thunder at Spurs", "serif", False, INK, 21, 1.42),
     ("Wed — Lakers vs Warriors · Thu — Patriots at Bears", "serif", False, INK, 21, 1.42),
     ("Fri — World Series Game 1, 8 p.m. ET · Sat — Game 2", "serif", False, INK, 21, 1.42),
     ("Sun — Austin Grand Prix · El Clásico, 4 p.m. ET", "serif", False, INK, 21, 1.42),
 ])
 f.gloss("a banner = une bannière de champion · to sweep = balayer (gagner tous les matchs) · the defending champion = le champion en titre · qualifying = les qualifications · a storyline = une intrigue, un fil narratif.")
-f.head("A · READING · Lecture", 25)
+f.head("A　READING　Lecture", 25)
 f.ex("B1", "Choix multiple", "A", "La dernière bannière des Knicks datait de 1973",
      "The Knicks' banner was their first since... A. 1973 · B. 1982 · C. 2003", size=22.5)
 f.ex("B1", "Choix multiple", "A", "106–100 : six points d’écart",
@@ -145,7 +145,7 @@ f.ex("B1", "Choix multiple", "C", "La course de F1 a lieu dimanche",
      "The Grand Prix race day is... A. Friday · B. Saturday · C. Sunday", size=22.5)
 f.ex("B1", "Choix multiple", "B", "Le programme dit Week 7, pas Week 8",
      "The NFL games this week are in... A. Week 6 · B. Week 7 · C. Week 8", size=22.5)
-f.head("B · SPORTS WORDS · Sport", 25)
+f.head("B　SPORTS WORDS　Sport", 25)
 f.match_set("B1", "Appariement",
             ["tip-off", "a sweep", "the defending champion", "a banner"],
             ["the team that won last time, playing to keep the title",
@@ -155,7 +155,7 @@ f.match_set("B1", "Appariement",
             ["d", "b", "a", "c"],
             ["tip-off = le début du match (basket) d", "sweep = gagner tous les matchs d’une série b", "defending champion = le champion en titre a", "banner = la bannière qui rappelle un titre c"],
             instr="Associez")
-f.head("C · COMPARATIVES · Comparatifs", 25)
+f.head("C　COMPARATIVES　Comparatifs", 25)
 f.ex("B1", "Compléter", "older", "Les World Series sont plus anciennes que la NBA",
      "The World Series is ___ (old) than the NBA.", instr="Complétez", size=22.5)
 f.ex("B1", "Compléter", "hotter", "hot → hotter (consonne doublée)",
@@ -164,7 +164,7 @@ f.ex("B1", "Compléter", "busiest", "Superlatif : the busiest",
      "This is the ___ (busy) sports week of the autumn.", instr="Complétez", size=22.5)
 f.ex("B1", "Compléter", "more", "Maxey 28 points > Brunson 21 points",
      "Maxey scored ___ points than Brunson on Tuesday. (28 to 21)", instr="Complétez", size=22.5)
-f.head("D · VERB FORMS · Le prétérit", 25)
+f.head("D　VERB FORMS　Le prétérit", 25)
 f.ex("B1", "Transformation", "The 76ers won 106–100.", "win → won (irrégulier)",
      "The 76ers (win) 106–100 on Tuesday. → ___", instr="Réécrivez", size=23)
 f.ex("B1", "Transformation", "The Knicks raised their banner.", "raise → raised (régulier)",
@@ -179,12 +179,12 @@ f.end_report()
 
 # col 3
 ix = COLX[3]
-v4 = Flow(p, [(ix, CW)], 200, 2540, tag="P4-col3")
+v4 = Flow(p, [(ix, CW)], 200, 2560, tag="P4-col3")
 v4.box("THE KING'S NEW TEAM", [
     ("LeBron James begins his 24th season — a record — in a new shirt : Philadelphia. He arrived this summer, and on night one, his new team won on the champions' floor.", "serif", False, INK, 21.5, 1.45),
     ("James commence sa 24e saison (un record) sous le maillot de Philadelphie ; dès la première nuit, sa nouvelle équipe gagne sur le parquet des champions.", "sans", False, GREY, 20.5, 1.4),
 ])
-v4.box("SPORTS WORDS · Mots du sport", [
+v4.box("SPORTS WORDS　Mots du sport", [
     ("tip-off — le coup d’envoi (basket)", "serif", False, INK, 21.5, 1.5),
     ("a banner — une bannière de champion", "serif", False, INK, 21.5, 1.5),
     ("to sweep — balayer (gagner toute la série)", "serif", False, INK, 21.5, 1.5),
@@ -205,7 +205,7 @@ v4.para("« What a shot ! » — Quel tir !", 21.5, "serif", True, OLIVE)
 v4.para("« They are up by six. » — Ils mènent de six points.", 21.5)
 v4.para("« It is going down to the last minute. » — Ça va se jouer jusqu’à la dernière minute.", 21.5)
 v4.para("« We were robbed ! » — On s’est fait voler ! (le cri des supporters battus, pour rire)", 21.5)
-v4.box("THE DEBATE · Le débat", [
+v4.box("THE DEBATE　Le débat", [
     ("Three finals in one week : the NBA begins, baseball ends, and the cars race in Austin. A feast for fans — or too much sport ? Tell us on page 7.", "serif", False, INK, 21.5, 1.45),
 ])
 v4.end_report()

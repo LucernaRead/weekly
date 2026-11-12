@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-en-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · YOUTH (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("YOUTH · Jugend", "The Lucerna", "LEVEL B1 · Screens, streams & new machines")
+p.band("YOUTH　Jugend", "The Lucerna", "LEVEL B1　Screens, streams & new machines")
 
-f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2540, tag="P5-main")
-f.title("Opening Week Lives on Your Phone", 37)
-f.byline("By The Lucerna newsroom · Reading level : B1")
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 2560, tag="P5-main")
+f.title("Opening Week Lives on Your Phone", 32)
+f.byline("By The Lucerna newsroom　Reading level : B1")
 f.head("THE GAME COMES TO YOU", 26)
 f.para("For fifty years, a big game meant a television in the living room. This week, the NBA opened its season in a new way : opening night was built as a tripleheader for NBC — and for its streaming service, Peacock. Three games, one night, every screen in the house.")
 f.para("Young fans do not always watch a whole game. Many meet the game first as a clip : forty seconds of the best moment, sent by a friend, watched on the bus. The full game comes later — or never. On Wednesday morning, one of the top trending searches in America was « lakers roster » : before watching the team, fans wanted the list of names. Who plays for the Lakers this year ?")
@@ -27,7 +27,7 @@ f.head("THE SECOND SCREEN", 26)
 f.para("Watch a game with young fans and you will see two games at once. On the television, the match. On the phone, the second match : live statistics, polls — « Who wins tonight ? » — and the group chat, where every goal, every basket, produces twenty messages in ten seconds. The phone does not kill the game. For this generation, the phone IS part of the game.")
 f.para("The same phone plans the weekend. It holds the costume ideas, the AI pictures, the party address and the money for the pizza. One small glass rectangle runs the whole autumn : sport, money, festivals and friends. The Lucerna's advice ? Enjoy it — and sometimes, look up. The real game is also beautiful.")
 f.gloss("to stream = streamen, online sehen · a highlight = die besten Szenen · earnings = Firmenzahlen, Gewinn · a feed = der Nachrichtenstrom · a roster = die Kaderliste.")
-f.head("A · CHOOSE · Auswahl", 25)
+f.head("A　CHOOSE　Auswahl", 25)
 f.ex("B1", "Multiple Choice", "A", "Drei Spiele an einem Abend: NBC und Peacock",
      "The opening tripleheader was shown on... A. NBC and Peacock · B. FOX only · C. ESPN only", size=22.5)
 f.ex("B1", "Multiple Choice", "A", "Top-Suche am Mittwochmorgen (Schnappschuss)",
@@ -38,7 +38,7 @@ f.ex("B1", "Multiple Choice", "B", "Tesla und Meta: Zahlen am Mittwoch nach Bör
      "Tesla and Meta report their results... A. Monday morning · B. Wednesday after the close · C. Sunday night", size=22.5)
 f.ex("B1", "Multiple Choice", "C", "Vor dem Bericht gehen die Schätzungen auseinander",
      "Before a report, the experts' numbers... A. are all the same · B. are secret · C. differ from expert to expert", size=22.5)
-f.head("B · BILDSCHIRMWÖRTER", 25)
+f.head("B　BILDSCHIRMWÖRTER", 25)
 f.ex("A2", "Satzergänzung", "stream", "stream = online ansehen",
      "You can ___ the game live on your phone.", instr="Ergänze", size=23)
 f.ex("B1", "Satzergänzung", "highlights", "highlights = die besten Szenen",
@@ -51,7 +51,7 @@ f.ex("B1", "Satzergänzung", "earnings", "earnings = Firmenzahlen",
      "Wednesday is ___ day for Tesla and Meta : the companies publish their numbers.", instr="Ergänze", size=23)
 f.ex("A2", "Satzergänzung", "feed", "feed = Nachrichtenstrom",
      "His ___ is full of game clips and costume photos.", instr="Ergänze", size=23)
-f.head("C · THIS WEEK, LIVE · -ing-Form", 25)
+f.head("C　THIS WEEK, LIVE　-ing-Form", 25)
 f.bridge("Schreibe im Present Continuous um: Was passiert gerade diese Woche?")
 f.ex("B1", "Umformung", "Tesla is reporting its results tonight.", "3. Person Singular: is + -ing",
      "Tesla (report) its results tonight. → ___", instr="Schreibe um")
@@ -61,7 +61,7 @@ f.ex("B1", "Umformung", "Fans are watching the tripleheader on their phones.", "
      "Fans (watch) the tripleheader on their phones. → ___", instr="Schreibe um")
 f.ex("B1", "Umformung", "Milwaukee is preparing for Game 1.", "prepare → is preparing",
      "Milwaukee (prepare) for Game 1. → ___", instr="Schreibe um")
-f.head("D · WAHR ODER FALSCH ?", 25)
+f.head("D　WAHR ODER FALSCH ?", 25)
 f.ex("B1", "Richtig/Falsch", "True", "Im Text: Viele Fans sehen zuerst Clips",
      "1. Many young fans meet a game first as a short clip.", instr="Richtig oder falsch?", size=23)
 f.ex("B1", "Richtig/Falsch", "False", "Vor dem Bericht kennt niemand die Zahlen",
@@ -72,8 +72,8 @@ f.end_report()
 
 # col 3
 ix = COLX[3]
-v5 = Flow(p, [(ix, CW)], 200, 2540, tag="P5-col3")
-v5.box("WORDS OF THE SCREEN · Wortliste", [
+v5 = Flow(p, [(ix, CW)], 200, 2560, tag="P5-col3")
+v5.box("WORDS OF THE SCREEN　Wortliste", [
     ("to stream — streamen, online sehen", "serif", False, INK, 21.5, 1.5),
     ("a highlight — die besten Szenen", "serif", False, INK, 21.5, 1.5),
     ("a clip — ein kurzes Video", "serif", False, INK, 21.5, 1.5),
@@ -83,7 +83,7 @@ v5.box("WORDS OF THE SCREEN · Wortliste", [
     ("earnings — Firmenzahlen, Gewinn", "serif", False, INK, 21.5, 1.5),
     ("to post — posten, veröffentlichen", "serif", False, INK, 21.5, 1.5),
 ])
-v5.box("SAY IT ONLINE · Sag es so", [
+v5.box("SAY IT ONLINE　Sag es so", [
     ("« What a game ! » — Was für ein Spiel!", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — Schick mir die besten Szenen.", "serif", False, INK, 21.5, 1.45),
     ("« This costume wins Halloween. » — Dieses Kostüm gewinnt Halloween.", "serif", False, INK, 21.5, 1.45),
@@ -101,7 +101,7 @@ v5.box("PLAN YOUR STREAMING WEEK", [
 v5.box("NEXT WEEK ON YOUR SCREENS", [
     ("Mon–Tue — the Series moves to Tampa · Sat Oct 31 — Halloween night · Sun Nov 1 — the clocks fall back · Tue Nov 3 — election night. The autumn does not slow down.", "serif", False, INK, 21.5, 1.45),
 ])
-v5.box("THE DEBATE · Die Debatte", [
+v5.box("THE DEBATE　Die Debatte", [
     ("Is a forty-second clip really « watching the game » ? Or is the full game a thing of the past ? Two sentences, in English, to the newsroom — the best answers appear on page 7 of VOL.2.", "serif", False, INK, 21.5, 1.45),
 ])
 v5.end_report()
@@ -112,17 +112,17 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · DEEP READ (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("IN DEPTH · Vertiefung", "The Lucerna", "LEVEL B2 · The 2026 midterms · Die Zwischenwahlen")
+p.band("IN DEPTH　Vertiefung", "The Lucerna", "LEVEL B2　The 2026 midterms　Die Zwischenwahlen")
 
 a6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 200, 1420, tag="P6-article")
-a6.title("The Midterms : Why America Votes Early", 37)
-a6.byline("By The Lucerna newsroom · Reading level : B2")
+a6.title("The Midterms : Why America Votes Early", 32)
+a6.byline("By The Lucerna newsroom　Reading level : B2")
 a6.para("On Tuesday, November 3, Americans vote in the midterm elections — the elections that fall in the middle of a president's term. There is no presidential race this year. Instead, voters choose the whole House of Representatives, part of the Senate, and most state governors. It is a smaller election than 2024, but in Washington, it changes everything.", 24, gap=8)
 a6.para("The stakes fit in one line of numbers : the House today stands at 218 Republicans to 214 Democrats, according to Reuters — a margin of four seats. A handful of districts will decide who controls Congress for the next two years. That is why the advertising never stops : spending on election ads had already reached a record 3.8 billion dollars by October 12, the analytics firm AdImpact reported.", 24, gap=8)
 a6.para("The newest fact of American elections is the calendar. Voting is no longer a day ; it is a season. Nurses, drivers, soldiers and parents often cannot queue for hours on a Tuesday, so states let them vote early, in person, with the same ballot. This year's wave opened on Monday, October 19, in Texas — early voting there runs to October 30 — and in Alaska, Arkansas, Connecticut and Colorado.", 24, gap=8)
 a6.para("Louisiana and Missouri followed on Tuesday, Delaware and Maryland on Thursday, and Michigan and Florida's mandatory period begins on Saturday, October 24. Fifty states, fifty calendars : in the United States, elections are run by the states, not by Washington, and every state keeps its own doors and its own hours.", 24, gap=8)
 a6.para("Early voting changes the campaign, too. Parties no longer aim everything at one Tuesday ; they aim at October. But one rule protects the suspense : early votes are counted under state rules, and the results, as always, arrive on election night. Voting early does not mean knowing early.", 24, gap=8)
-a6.box("", [("Anmerkung | midterms = Zwischenwahlen · the House = Repräsentantenhaus · margin = Abstand · turnout = Wahlbeteiligung.", "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", pad=14, gap=6)
+a6.box("", [("Anmerkung | midterms = Zwischenwahlen · the House = Repräsentantenhaus · margin = Abstand · turnout = Wahlbeteiligung.", "sans", False, GREY, 20.5, 1.45)], fill="#f0eee5", pad=14, gap=6)
 a6.end_report()
 
 # col 2 rail
@@ -135,7 +135,7 @@ r6rail.box("THE EARLY-VOTING WEEK", [
     ("Fri, Oct 30 — early voting closes in Texas", "serif", False, INK, 21.5, 1.48),
     ("Tue, Nov 3 — ELECTION DAY", "serif", True, INK, 21.5, 1.48),
 ])
-r6rail.box("HOW TO FOLLOW IT · Überblick", [
+r6rail.box("HOW TO FOLLOW IT　Überblick", [
     ("Watch three numbers, not three hundred opinions : the turnout (how many vote), the House margin (218–214 today) and the ad money ($3.8 billion and counting). The rest is noise.", "serif", False, INK, 21.5, 1.45),
     ("Drei Zahlen statt dreihundert Meinungen: die Wahlbeteiligung, der Abstand im Haus (heute 218–214) und das Werbegeld (3,8 Mrd. Dollar). Der Rest ist Rauschen.", "sans", False, GREY, 20.5, 1.4),
 ])
@@ -147,7 +147,7 @@ image(p, "capitol.jpg", ix, 200, CW, 186)
 cy6 = caption(p, ix, 386, CW, "The Capitol in Washington : control of Congress is the prize on November 3.",
               "United States Capitol — public domain")
 s6 = Flow(p, [(ix, CW)], int(cy6) + 16, 1420, tag="P6-side")
-s6.box("ELECTION WORDS · Wahlwörter", [
+s6.box("ELECTION WORDS　Wahlwörter", [
     ("a midterm — Zwischenwahl", "serif", False, INK, 21.5, 1.5),
     ("an incumbent — Amtsinhaber", "serif", False, INK, 21.5, 1.5),
     ("a margin — Abstand (Stimmen/Sitze)", "serif", False, INK, 21.5, 1.5),
@@ -155,7 +155,7 @@ s6.box("ELECTION WORDS · Wahlwörter", [
     ("a campaign — Wahlkampf", "serif", False, INK, 21.5, 1.5),
     ("a district — Wahlbezirk", "serif", False, INK, 21.5, 1.5),
 ])
-s6.box("HEADLINE TALK · Schlagzeilen", [
+s6.box("HEADLINE TALK　Schlagzeilen", [
     ("« Early voting opens » — Das frühe Wählen beginnt", "serif", False, INK, 21, 1.45),
     ("« voters head to the polls » — Wähler strömen zu den Urnen", "serif", False, INK, 21, 1.45),
     ("« too close to call » — zu knapp für eine Prognose", "serif", False, INK, 21, 1.45),
@@ -164,28 +164,28 @@ s6.end_report()
 
 # ---- practice chart (span cols 0-1) ----
 chy = 1456
-p.hline(MX, RIGHT, chy - 12, GOLD, 2)
+p.hline(MX, RIGHT, chy - 12, OLIVE, 2)
 chx, chw = COLX[0], 2 * CW + GUT
-p.text(chx, chy + 28, "WHY DO VOTERS VOTE EARLY ? · Übungsdiagramm", 26, "sans", True, OLIVE)
-p.para(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Übungsdaten: vereinfacht und erfunden, keine echte Umfrage.", 18.5, "sans", False, BRICK, chw, 1.3)
-p.rect(chx, chy + 96, chw, 336, fill=BOX, stroke=LINE, sw=1.4)
+p.text(chx, chy + 28, "WHY DO VOTERS VOTE EARLY ?　Übungsdiagramm", 26, "sans", True, OLIVE)
+p.para(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Übungsdaten: vereinfacht und erfunden, keine echte Umfrage.", 18.5, "sans", False, OLIVE, chw, 1.3)
+p.rect(chx, chy + 96, chw, 336, fill=BOX)
 rows = [
     ("To avoid the long lines", 34, OLIVE),
-    ("I work on Election Day", 27, GOLD),
+    ("I work on Election Day", 27, OLIVE),
     ("I want it done early", 23, OLIVE),
-    ("I will travel on Nov 3", 16, GOLD),
+    ("I will travel on Nov 3", 16, OLIVE),
 ]
 byy = chy + 116
 for lab, val, col in rows:
     p.text(chx + 24, byy + 24, lab, 22, "serif", True, INK)
     p.rect(chx + 24, byy + 36, val * 11, 24, fill=col)
-    p.text(chx + 34 + val * 11, byy + 56, f"{val}%", 21, "sans", True, BRICK)
+    p.text(chx + 34 + val * 11, byy + 56, f"{val}%", 21, "sans", True, OLIVE)
     byy += 82
 p.text(chx + 24, byy + 8, "Four answers, 100 voters. Vier Antworten, zusammen 100 Wähler.", 19, "sans", False, GREY)
 
 # ---- chart questions (cols 0-1) ----
-q6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470, 2540, tag="P6-chart-ex")
-q6.head("READING THE CHART · Diagramm", 24)
+q6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470, 2560, tag="P6-chart-ex")
+q6.head("READING THE CHART　Diagramm", 24)
 q6.ex("B2", "Diagramm", "C", "Größter Grund: lange Schlangen meiden (34 %)",
      "The biggest reason is... A. travel · B. work · C. avoiding long lines", size=22)
 q6.ex("B2", "Diagramm", "27", "Am Wahltag arbeiten: 27 Personen",
@@ -198,15 +198,15 @@ q6.ex("B1", "Diagramm", "18 points", "34 − 16 = 18 Prozentpunkte",
      "The difference between « lines » and « travel » is ___.", size=22)
 q6.ex("B1", "Diagramm", "100%", "Alle vier zusammen: 100 %",
      "All four answers together make ___ of the voters.", size=22)
-q6.box("KEY SENTENCE · Schlüsselsatz", [
+q6.box("KEY SENTENCE　Schlüsselsatz", [
     ("« Voting is no longer a day ; it is a season. »", "serif", False, INK, 21.5, 1.45),
     ("Wählen ist nicht mehr ein Tag, sondern eine Jahreszeit. — der Kernsatz dieser Seite.", "sans", False, GREY, 20.5, 1.4),
 ])
 q6.end_report()
 
 # ---- right exercises (cols 2-3) ----
-r6 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], chy + 14, 2540, tag="P6-ex")
-r6.head("READING · Leseauswahl", 24)
+r6 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], chy + 14, 2560, tag="P6-ex")
+r6.head("READING　Leseauswahl", 24)
 r6.ex("B2", "Multiple Choice", "B", "Zwischenwahlen entscheiden über den Kongress",
      "The midterms decide... A. the president · B. control of Congress · C. the Supreme Court", size=22)
 r6.ex("B2", "Multiple Choice", "B", "Wahlen laufen über die Bundesstaaten",
@@ -215,7 +215,7 @@ r6.ex("B2", "Multiple Choice", "B", "3,8 Mrd. = Werbeausgaben bis 12. Oktober",
      "The $3.8 billion is... A. the cost of voting machines · B. ad spending by Oct 12 · C. the price of ballots", size=22)
 r6.ex("B2", "Multiple Choice", "C", "Florida: Pflichtzeit ab Samstag, 24. Oktober",
      "Florida's mandatory early voting starts... A. Oct 19 · B. Oct 22 · C. Oct 24", size=22)
-r6.head("COMPARATIVES · Vergleiche", 24)
+r6.head("COMPARATIVES　Vergleiche", 24)
 r6.ex("B2", "Satzergänzung", "more convenient", "convenient → mit more bilden",
      "Early voting is ___ (convenient) than voting on one day only.", instr="Ergänze", size=22)
 r6.ex("B1", "Satzergänzung", "highest", "record = das höchste je",
@@ -224,7 +224,7 @@ r6.ex("B1", "Satzergänzung", "earlier", "Texas (19.) startet vor Florida (24.)"
      "Texas starts ___ (early) than Florida.", instr="Ergänze", size=22)
 r6.ex("B2", "Satzergänzung", "smaller", "218 − 214 = 4 < 10",
      "The House margin (218–214) is ___ (small) than ten seats.", instr="Ergänze", size=22)
-r6.head("ELECTION WORDS · Wahlwörter", 24)
+r6.head("ELECTION WORDS　Wahlwörter", 24)
 r6.ex("B2", "Satzergänzung", "incumbent", "incumbent = Amtsinhaber",
      "The ___ is the person who holds the job now and wants to keep it.", instr="Ergänze", size=22)
 r6.ex("B2", "Satzergänzung", "margin", "margin = Abstand",
