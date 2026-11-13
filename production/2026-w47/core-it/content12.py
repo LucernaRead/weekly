@@ -46,7 +46,9 @@ f.box("LA SETTIMANA IN CIFRE　数字看本周", [
     ("24 — i gol dell'11ª giornata, in dieci partite（第 11 轮 10 场比赛共 24 球）", "serif", False, INK, 20.5, 1.35),
     ("20.45 — l'ora di Atalanta–Inter, domenica 22 novembre（亚特兰大对国米周日 20:45）", "serif", False, INK, 20.5, 1.35),
     ("oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=17.5)  # D5 round 3 (2026-11-12): Newsreader bold caps widen the Latin run;
+# tsize 20 overflowed the box right by +42.6px (boxtitle/creambox); 17.5 fits
+# (total 388.7 -> ~340px vs 346.1px available). Text unchanged.
 f.head("ADESSO TU　即学即练", 25)
 f.ex("A2", "完成句子", "Lazio", "榜首是拉齐奥",
      "La prima in classifica è la ___.", size=20, gap=7)
@@ -174,9 +176,9 @@ f.head("E LA SETTIMANA SCORSA?", 25)
 f.para("La settimana scorsa si è chiusa con due feste dolci ancora aperte: la Festa del Torrone a Cremona e Eurochocolate a Perugia, che chiudono domenica 22 novembre. E due grandi appuntamenti di sport: le due notti azzurre della Nazionale e l'inizio delle Nitto ATP Finals a Torino.", 23.5)
 f.para("Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre le commissioni Bilancio di Camera e Senato hanno ascoltato enti e istituzioni. Al momento di andare in stampa, il testo non era ancora legge: ne parliamo a pagina 6.", 23.5)
 f.bridge("发稿时预算法案尚未成为法律，详见第 6 版。")
-f.box("LA FRASE PER RICORDARE　口诀", [
+f.box("LA FRASE PER RICORDARE　请记住", [
     ("«La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21.5)  # FIX 2026-11-12 (F-4): subtitle -> 请记住, tsize 23 -> 21.5 (ink 415.2px, margin 7.3px)
 f.gloss("la salute 健康 · il ponte votivo 还愿桥 · la candela 蜡烛 · la peste 瘟疫 · il voto 誓愿 · piantare 种植。")
 f.end_report()
 
@@ -235,15 +237,15 @@ e.ex("A2", "完成句子", "musica", "圣塞西莉亚是音乐主保",
      "Santa Cecilia è la patrona della ___.", instr="填空", size=20, gap=8)
 e.head("B　IL PRESENTE", 25)
 e.bridge("补全动词的现在时形式。")
-e.ex("A2", "完成句子", "attraversano", "attraversare：i veneziani → attraversano",
+e.ex("A2", "完成句子", "attraversano", "attraversare:i veneziani → attraversano",
      "I veneziani ___ il ponte votivo.", instr="填空", size=20, gap=8)
-e.ex("A2", "完成句子", "portano", "portare：i fedeli → portano",
+e.ex("A2", "完成句子", "portano", "portare:i fedeli → portano",
      "I fedeli ___ candele accese.", instr="填空", size=20, gap=8)
-e.ex("A2", "完成句子", "piantiamo", "piantare：noi → piantiamo",
+e.ex("A2", "完成句子", "piantiamo", "piantare:noi → piantiamo",
      "Noi ___ un albero nel giardino della scuola.", instr="填空", size=20, gap=8)
-e.ex("A2", "完成句子", "prega", "pregare：la famiglia → prega",
+e.ex("A2", "完成句子", "prega", "pregare:la famiglia → prega",
      "La famiglia ___ per la salute.", instr="填空", size=20, gap=8)
-e.ex("A2", "完成句子", "mangia", "mangiare：la famiglia → mangia",
+e.ex("A2", "完成句子", "mangia", "mangiare:la famiglia → mangia",
      "La famiglia ___ la castradina la sera prima.", instr="填空", size=20, gap=8)
 e.head("C　COMPRENSIONE", 25)
 e.bridge("读第 2 版文章，选出正确答案。")
@@ -263,7 +265,7 @@ e.match_set("A2", "词汇配对",
              "stare bene, la prima ricchezza",
              "la piccola luce di cera accesa in chiesa"],
             ["c", "b", "d", "a"],
-            ["salute=健康 c", "ponte votivo=还愿桥 b", "candela=蜡烛 d", "piantare=种植 a"],
+            ["salute = 健康 c", "ponte votivo = 还愿桥 b", "candela = 蜡烛 d", "piantare = 种植 a"],
             instr="把词和释义配对")
 e.end_report()
 p.foot(2)

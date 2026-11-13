@@ -1,0 +1,143 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/2026-w47-it-zh-tw/svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P8 · VALUTAZIONE E RISPOSTE =================
+CURPAGE[0] = 8
+p = BSPage4()
+p.band("VALUTAZIONE E RISPOSTE　練習與答案", "La Lucerna", "第 8 版　La grande prova della settimana + tutte le risposte")
+
+f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1332, tag="P8-ex")
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.ex("B1", "完形單選", "B", "拉齊奧 = Lazio",
+     "La prima in classifica è la ___. (A. Roma · B. Lazio)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "第 11 輪共 24 球",
+     "L'11ª giornata ha portato ___ gol. (A. 24 · B. 31)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "亞特蘭大對國米在貝加莫",
+     "Atalanta–Inter si gioca a ___. (A. Bergamo · B. Torino)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "牛軋糖節在週日閉幕",
+     "La Festa del Torrone chiude domenica a ___. (A. Cremona · B. Perugia)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "B", "巧克力節在佩魯賈",
+     "Eurochocolate chiude a ___. (A. Cremona · B. Perugia)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "B", "聖母健康節在 11 月 21 日",
+     "La Madonna della Salute si celebra il ___ novembre. (A. 20 · B. 21)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "米蘭書城 11 月 23 日開幕",
+     "BookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "B", "都靈電影節 11 月 24 日開幕",
+     "Il Torino Film Festival apre... A. il 20 novembre · B. il 24 novembre", size=15.5, gap=1)
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
+f.ex("A2", "單選", "B", "榜首是拉齊奧 29 分",
+     "La prima in classifica ha... A. 28 punti · B. 29 punti · C. 27 punti", size=15.5, gap=1)
+f.ex("A2", "單選", "B", "國米 2–0 戰勝科莫",
+     "L'Inter vince 2–0 con... A. la Roma · B. il Como · C. il Milan", size=15.5, gap=1)
+f.ex("A2", "單選", "A", "巧克力節是第 32 屆",
+     "Eurochocolate è alla sua... A. 32ª edizione · B. 29ª edizione · C. 15ª edizione", size=15.5, gap=1)
+f.ex("B1", "單選", "C", "烏迪內斯墊底 5 分",
+     "L'ultima in classifica è... A. il Monza · B. il Venezia · C. l'Udinese", size=15.5, gap=1)
+f.ex("B1", "單選", "C", "阿爾巴松露節到 12 月 6 日",
+     "La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. l'8 novembre · C. il 6 dicembre", size=15.5, gap=1)
+f.ex("B1", "單選", "A", "修正案截止 11 月 17 日 18 點",
+     "Il termine per gli emendamenti è... A. il 17 novembre · B. il 9 novembre · C. il 31 dicembre", size=15.5, gap=1)
+f.ex("B2", "單選", "B", "政府提議不等於法律",
+     "«Il governo propone»... A. è già legge · B. non è ancora legge · C. è un errore", size=15.5, gap=1)
+f.ex("B1", "單選", "B", "聖母健康節源於 1630 年誓願",
+     "La festa della Salute nasce da un voto del... A. 1687 · B. 1630 · C. 1898", size=15.5, gap=1)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
+f.para("Giulia vive a Venezia: sabato 21 novembre attraversa il ponte votivo e porta una candela in basilica. Paolo vive a Cremona: domenica 22 novembre guarda il corteo del Torrone e assaggia il dolce con la sua famiglia. Domenica sera, Giulia e Paolo guardano Atalanta–Inter: è la festa del torrone, ma il calcio non si ferma.", 16.5, lh=1.3, split=False)
+f.ex("A2", "單選", "B", "Giulia 週六去聖母健康節",
+     "Chi va alla Madonna della Salute? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
+f.ex("A2", "單選", "A", "Paolo 週日看牛軋糖節遊行",
+     "Paolo, domenica, guarda... A. il corteo del Torrone · B. il ponte votivo · C. lo stadio", size=15.5, gap=1)
+f.ex("A2", "單選", "B", "蠟燭是 Giulia 帶的",
+     "La candela è portata da... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
+f.ex("A2", "單選", "A", "標題概括兩個城市、兩個節日",
+     "Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.ex("A2", "造句", "Domenica è il 22 novembre.", "時間詞在前",
+     "domenica / è / il 22 novembre → ___", instr="造句", size=15.5, gap=1)
+f.ex("B1", "造句", "Eurochocolate chiude a Perugia il 22 novembre.", "主語 + 動詞 + 地點 + 日期",
+     "Eurochocolate / chiude / a Perugia / il 22 novembre → ___", instr="造句", size=15.5, gap=1)
+f.ex("B1", "造句", "A che ora gioca la Lazio?", "疑問詞組在句首",
+     "a che ora / gioca / la Lazio / ? → ___", instr="造句", size=15.5, gap=1)
+f.ex("B1", "造句", "Il torrone si assaggia a Cremona.", "主語 + 動詞 + 地點",
+     "il torrone / si assaggia / a Cremona → ___", instr="造句", size=15.5, gap=1)
+f.head("E　TRADUCI", 22, OLIVE, 5)
+f.ex("A2", "翻譯", "聖母健康節人們走過還願橋。", "對照原文",
+     "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+f.ex("B1", "翻譯", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
+     "Domenica sera si gioca Atalanta–Inter. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+f.ex("B1", "翻譯", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
+     "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+f.ex("B2", "翻譯", "Ogni cifra deve essere chiara.", "dovere = 必須",
+     "每個數字都必須清楚。→ ___", instr="翻譯成義大利語", size=15.5, gap=1)
+f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+f.match_set("B2", "詞彙配對",
+            ["la manovra", "il deficit", "la copertura", "lo scaglione"],
+            ["un livello di reddito del sistema fiscale",
+             "i soldi che pagano una misura",
+             "la differenza tra spese ed entrate",
+             "la legge di bilancio, il documento dello Stato"],
+            ["d", "c", "b", "a"],
+            ["manovra = 預算法案 d", "deficit = 赤字 c", "copertura = 資金來源 b", "scaglione = 稅級 a"],
+            instr="把詞和釋義配對")
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.ex("B1", "完形單選", "B", "torrone = 牛軋糖",
+     "— Cerco il ___ di Cremona. (A. biglietto · B. torrone)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "mandorle = 杏仁",
+     "— È fatto di ___ e miele. (A. mandorle · B. patate)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "B", "quanto costa? = 多少錢",
+     "— Quanto ___ tutto? (A. dorme · B. costa)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "A", "pagare con carta = 刷卡",
+     "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
+f.ex("B1", "完形單選", "B", "牛軋糖節持續到 11 月 22 日",
+     "— La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre)", size=15.5, gap=1)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
+MODELO = ("Domenica 22 novembre metto la sciarpa e vado a Cremona: è l'ultimo giorno della Festa del Torrone e il corteo passa in piazza del Comune. "
+          "Assaggio il torrone con la mia famiglia: preferisco quello con le mandorle e il miele, a forma di Torrazzo. "
+          "La sera guardiamo Atalanta–Inter, alle 20.45, e la Lazio è ancora prima con 29 punti. "
+          "Sabato, a Venezia, c'era la Madonna della Salute: il ponte votivo e le candele accese. "
+          "La settimana è dolce e azzurra: torrone, cioccolato e calcio, come nel giornale. "
+          "Lunedì prossimo racconto tutto alla classe, con le parole nuove della settimana.")
+NWORDS = len(MODELO.split())
+f.bridge(f"寫作題（無唯一答案）；範文（{NWORDS} 詞）見下。")
+f.ex("B1", "寫作", "（開放題，範文如下）", f"範文見本版 H 區（{NWORDS} 詞）",
+     "«La tua domenica del 22 novembre» Scrivi 80–100 parole: una festa, una partita, cosa assaggi.", instr="寫作", size=15.5, gap=1)
+f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
+f.end_report()
+print("P8 exercises flow ends col", f.ci, "y=", f.y)
+# ---- Vermeer image under the exercises flow (measured slot, col 3) ----
+if f.y + 10 + 170 + 70 <= 1332:
+    image(p, "lettera.jpg", COLX[3], f.y + 10, CW, 170)
+    caption(p, COLX[3], f.y + 180, CW, "Una donna scrive una lettera: la scrittura è l'ultimo esercizio della settimana.",
+            "Foto: Johannes Vermeer — Wikimedia Commons, dominio pubblico")
+    print("P8 lettera image placed at y=", f.y + 10)
+else:
+    print("  !! P8 LETTERA NOSPACE: flow ends y=", f.y)
+
+# ================= RISPOSTE =================
+p.hline(MX, RIGHT, 1344, OLIVE, 2)
+p.text(MX, 1382, "RISPOSTE　參考答案 — 按版面分頁排列，找到題號即可", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1382, "每題附一句繁體中文簡析　帶 ✓ 的為範文題", 19.5, "sans", False, GREY, anchor="end")
+by_page = {}
+for e_ in REG:
+    by_page.setdefault(e_["page"], []).append(e_)
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2552, tag="P8-keys")
+for pg in sorted(by_page):
+    af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.14, gap=2, split=False)
+    for e_ in by_page[pg]:
+        txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
+        if e_["type"] == "寫作":
+            txt = f"{e_['n']}. ✓ {e_['note']}"
+        af.para(txt, 13, lh=1.14, gap=0.5, split=False)
+af.end_report()
+p.foot(8)
+p.save(f"{OUT}/p8-valutazione.svg")
+print("P8 saved, TOTAL exercises:", len(REG))
+from collections import Counter
+print("by level", dict(Counter(e["level"] for e in REG)))
+print("by page", dict(sorted(Counter(e["page"] for e in REG).items())))
+print("model words:", NWORDS)

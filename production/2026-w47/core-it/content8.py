@@ -82,7 +82,7 @@ f.match_set("B2", "词汇配对",
              "la differenza tra spese ed entrate",
              "la legge di bilancio, il documento dello Stato"],
             ["d", "c", "b", "a"],
-            ["manovra=预算法案 d", "deficit=赤字 c", "copertura=资金来源 b", "scaglione=税级 a"],
+            ["manovra = 预算法案 d", "deficit = 赤字 c", "copertura = 资金来源 b", "scaglione = 税级 a"],
             instr="把词和释义配对")
 f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "B", "torrone = 牛轧糖",

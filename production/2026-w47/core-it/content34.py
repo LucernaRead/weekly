@@ -129,7 +129,9 @@ cy3 = caption(p, bx, 310, CW, "Il tennis di cent'anni fa: oggi le Finals si gioc
               "Foto: Wikimedia Commons — dominio pubblico")
 cb = cy3 + 24
 p.rect(bx, cb, CW, 470, fill=BOX)
-p.text(bx + 22, cb + 40, "LA CLASSIFICA　DOPO 11 GIORNATE", 21, "sans", True, OLIVE)
+p.text(bx + 22, cb + 40, "LA CLASSIFICA　DOPO 11 GIORNATE", 18.5, "sans", True, OLIVE)  # D5 round 3 (2026-11-12): Newsreader bold widened the title; size 20
+# overflowed the box right by +16.8px (boxtitle/creambox); 18.5 fits
+# (total 417.3 -> ~386px vs 400.5px available). Text unchanged.
 classifica = [
     "1. Lazio — 29 punti",
     "2. Inter — 28 punti",
@@ -155,7 +157,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- results table (full width, compact) ----
 ty = 1140
-p.text(MX, ty, "I RISULTATI DELL'11ª GIORNATA　第 11 轮赛果（6–8 novembre）", 26, "sans", True, OLIVE)
+p.text(MX, ty, "I RISULTATI DELL'11ª GIORNATA　第 11 轮赛果（11月6–8日）", 26, "sans", True, OLIVE)
 rows = [
     ("VEN 6.11", "Venezia – Udinese 2–1", ""),
     ("SAB 7.11", "Cagliari – Frosinone 1–0", "Torino – Lecce 1–1"),
@@ -198,7 +200,7 @@ e.match_set("B1", "词汇配对",
              "il gruppo di squadre in un torneo",
              "il primo posto in classifica, la cima"],
             ["d", "b", "c", "a"],
-            ["vetta=榜首 d", "imbattuto=不败的 b", "girone=小组 c", "debutto=首次亮相 a"],
+            ["vetta = 榜首 d", "imbattuto = 不败的 b", "girone = 小组 c", "debutto = 首次亮相 a"],
             instr="把词和释义配对")
 e.head("C　I COMPARATIVI", 25)
 e.bridge("用比较级填空（看积分榜）。")
@@ -212,9 +214,9 @@ e.ex("B2", "句型转换", "meglio", "bene 的比较级是不规则的 meglio",
      "La Lazio gioca bene. → La Lazio gioca ___ (bene).", instr="填空", size=20, gap=8)
 e.head("D　IL PASSATO DELLO SPORT", 25)
 e.bridge("用 passato prossimo 补全。")
-e.ex("B1", "完成句子", "ha vinto", "vincere：ha vinto",
+e.ex("B1", "完成句子", "ha vinto", "vincere:ha vinto",
      "L'Inter ___ (vincere) 2–0 con il Como.", instr="填空", size=20, gap=8)
-e.ex("B1", "完成句子", "ha pareggiato", "pareggiare：ha pareggiato",
+e.ex("B1", "完成句子", "ha pareggiato", "pareggiare:ha pareggiato",
      "La Lazio ___ (pareggiare) 1–1 a Napoli.", instr="填空", size=20, gap=8)
 e.ex("B2", "完成句子", "sono arrivati", "arrivare 用 essere，复数 sono arrivati",
      "I tifosi ___ (arrivare) allo stadio alle cinque.", instr="填空", size=20, gap=8)

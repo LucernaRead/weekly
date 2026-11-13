@@ -202,7 +202,7 @@ Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre 
 
 发稿时预算法案尚未成为法律，详见第 6 版。
 
-LA FRASE PER RICORDARE　口诀
+LA FRASE PER RICORDARE　请记住
 
 «La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.
 
@@ -256,15 +256,15 @@ B　IL PRESENTE
 
 补全动词的现在时形式。
 
-16. [A2 · 完成句子] I veneziani ___ il ponte votivo. — key: attraversano (attraversare：i veneziani → attraversano) [填空]
+16. [A2 · 完成句子] I veneziani ___ il ponte votivo. — key: attraversano (attraversare:i veneziani → attraversano) [填空]
 
-17. [A2 · 完成句子] I fedeli ___ candele accese. — key: portano (portare：i fedeli → portano) [填空]
+17. [A2 · 完成句子] I fedeli ___ candele accese. — key: portano (portare:i fedeli → portano) [填空]
 
-18. [A2 · 完成句子] Noi ___ un albero nel giardino della scuola. — key: piantiamo (piantare：noi → piantiamo) [填空]
+18. [A2 · 完成句子] Noi ___ un albero nel giardino della scuola. — key: piantiamo (piantare:noi → piantiamo) [填空]
 
-19. [A2 · 完成句子] La famiglia ___ per la salute. — key: prega (pregare：la famiglia → prega) [填空]
+19. [A2 · 完成句子] La famiglia ___ per la salute. — key: prega (pregare:la famiglia → prega) [填空]
 
-20. [A2 · 完成句子] La famiglia ___ la castradina la sera prima. — key: mangia (mangiare：la famiglia → mangia) [填空]
+20. [A2 · 完成句子] La famiglia ___ la castradina la sera prima. — key: mangia (mangiare:la famiglia → mangia) [填空]
 
 C　COMPRENSIONE
 
@@ -282,13 +282,13 @@ D　LE PAROLE DI VENEZIA
 
 25–28. [A2 · 词汇配对] 把词和释义配对
 
-25. la salute — stare bene, la prima ricchezza (key c · salute=健康 c)
+25. la salute — stare bene, la prima ricchezza (key c · salute = 健康 c)
 
-26. il ponte votivo — il ponte di barche per la festa in novembre (key b · ponte votivo=还愿桥 b)
+26. il ponte votivo — il ponte di barche per la festa in novembre (key b · ponte votivo = 还愿桥 b)
 
-27. la candela — la piccola luce di cera accesa in chiesa (key d · candela=蜡烛 d)
+27. la candela — la piccola luce di cera accesa in chiesa (key d · candela = 蜡烛 d)
 
-28. piantare — mettere una pianta nella terra (key a · piantare=种植 a)
+28. piantare — mettere una pianta nella terra (key a · piantare = 种植 a)
 
 ## Cultura
 
@@ -442,7 +442,7 @@ E tu? Quale partita guardi domenica sera? Scrivi due frasi in italiano.
 
 周日晚上你看哪场比赛？写两句意大利语寄来。
 
-I RISULTATI DELL'11ª GIORNATA　第 11 轮赛果（6–8 novembre）
+I RISULTATI DELL'11ª GIORNATA　第 11 轮赛果（11月6–8日）
 
 VEN 6.11
 
@@ -496,13 +496,13 @@ B　LE PAROLE
 
 52–55. [B1 · 词汇配对] 把词和释义配对
 
-52. la vetta — il primo posto in classifica, la cima (key d · vetta=榜首 d)
+52. la vetta — il primo posto in classifica, la cima (key d · vetta = 榜首 d)
 
-53. imbattuto — che non ha mai perso (key b · imbattuto=不败的 b)
+53. imbattuto — che non ha mai perso (key b · imbattuto = 不败的 b)
 
-54. il girone — il gruppo di squadre in un torneo (key c · girone=小组 c)
+54. il girone — il gruppo di squadre in un torneo (key c · girone = 小组 c)
 
-55. il debutto — la prima volta in un torneo importante (key a · debutto=首次亮相 a)
+55. il debutto — la prima volta in un torneo importante (key a · debutto = 首次亮相 a)
 
 C　I COMPARATIVI
 
@@ -520,9 +520,9 @@ D　IL PASSATO DELLO SPORT
 
 用 passato prossimo 补全。
 
-60. [B1 · 完成句子] L'Inter ___ (vincere) 2–0 con il Como. — key: ha vinto (vincere：ha vinto) [填空]
+60. [B1 · 完成句子] L'Inter ___ (vincere) 2–0 con il Como. — key: ha vinto (vincere:ha vinto) [填空]
 
-61. [B1 · 完成句子] La Lazio ___ (pareggiare) 1–1 a Napoli. — key: ha pareggiato (pareggiare：ha pareggiato) [填空]
+61. [B1 · 完成句子] La Lazio ___ (pareggiare) 1–1 a Napoli. — key: ha pareggiato (pareggiare:ha pareggiato) [填空]
 
 62. [B2 · 完成句子] I tifosi ___ (arrivare) allo stadio alle cinque. — key: sono arrivati (arrivare 用 essere，复数 sono arrivati) [填空]
 
@@ -772,9 +772,9 @@ La Lucerna
 
 A2　IL FUTURO
 
-Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: andare → andrò, assaggiare → assaggerò, guardare → guarderò.
+Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.
 
-E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, irregolare al futuro: leggerò.
+E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: leggerò.
 
 用将来时说计划：andremo、assaggeremo、guarderemo、leggeremo。
 
@@ -978,13 +978,13 @@ F　LE PAROLE DELLA MANOVRA
 
 141–144. [B2 · 词汇配对] 把词和释义配对
 
-141. la manovra — la legge di bilancio, il documento dello Stato (key d · manovra=预算法案 d)
+141. la manovra — la legge di bilancio, il documento dello Stato (key d · manovra = 预算法案 d)
 
-142. il deficit — la differenza tra spese ed entrate (key c · deficit=赤字 c)
+142. il deficit — la differenza tra spese ed entrate (key c · deficit = 赤字 c)
 
-143. la copertura — i soldi che pagano una misura (key b · copertura=资金来源 b)
+143. la copertura — i soldi che pagano una misura (key b · copertura = 资金来源 b)
 
-144. lo scaglione — un livello di reddito del sistema fiscale (key a · scaglione=税级 a)
+144. lo scaglione — un livello di reddito del sistema fiscale (key a · scaglione = 税级 a)
 
 G　DIALOGO ALLA SAGRA
 
@@ -1046,15 +1046,15 @@ RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
 15. musica — 圣塞西莉亚是音乐主保
 
-16. attraversano — attraversare：i veneziani → attraversano
+16. attraversano — attraversare:i veneziani → attraversano
 
-17. portano — portare：i fedeli → portano
+17. portano — portare:i fedeli → portano
 
-18. piantiamo — piantare：noi → piantiamo
+18. piantiamo — piantare:noi → piantiamo
 
-19. prega — pregare：la famiglia → prega
+19. prega — pregare:la famiglia → prega
 
-20. mangia — mangiare：la famiglia → mangia
+20. mangia — mangiare:la famiglia → mangia
 
 21. B — 还愿桥在运河上
 
@@ -1064,13 +1064,13 @@ RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
 24. B — 圣塞西莉亚是音乐主保
 
-25. c — salute=健康 c
+25. c — salute = 健康 c
 
-26. b — ponte votivo=还愿桥 b
+26. b — ponte votivo = 还愿桥 b
 
-27. d — candela=蜡烛 d
+27. d — candela = 蜡烛 d
 
-28. a — piantare=种植 a
+28. a — piantare = 种植 a
 
 29. B — 牛轧糖节闭幕在 11 月 22 日周日
 
@@ -1118,13 +1118,13 @@ RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
 51. B — 焦点战在贝加莫周日晚上
 
-52. d — vetta=榜首 d
+52. d — vetta = 榜首 d
 
-53. b — imbattuto=不败的 b
+53. b — imbattuto = 不败的 b
 
-54. c — girone=小组 c
+54. c — girone = 小组 c
 
-55. a — debutto=首次亮相 a
+55. a — debutto = 首次亮相 a
 
 56. più — 拉齐奥 29 分比国米多：più
 
@@ -1134,9 +1134,9 @@ RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
 59. meglio — bene 的比较级是不规则的 meglio
 
-60. ha vinto — vincere：ha vinto
+60. ha vinto — vincere:ha vinto
 
-61. ha pareggiato — pareggiare：ha pareggiato
+61. ha pareggiato — pareggiare:ha pareggiato
 
 62. sono arrivati — arrivare 用 essere，复数 sono arrivati
 
@@ -1296,13 +1296,13 @@ RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
 140. Ogni cifra deve essere chiara. — dovere = 必须
 
-141. d — manovra=预算法案 d
+141. d — manovra = 预算法案 d
 
-142. c — deficit=赤字 c
+142. c — deficit = 赤字 c
 
-143. b — copertura=资金来源 b
+143. b — copertura = 资金来源 b
 
-144. a — scaglione=税级 a
+144. a — scaglione = 税级 a
 
 145. B — torrone = 牛轧糖
 
