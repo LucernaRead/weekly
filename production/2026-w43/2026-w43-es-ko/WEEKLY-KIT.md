@@ -66,8 +66,8 @@
 
 ## §7 实测针脚（交付时磁盘实测）
 
-- 印刷 PDF `La-Lucerna-VOL1-KO.pdf`：**10,974,471 B** · sha256 `cb861bdb57153529fb2d69fbc38697073a9fbabbf2984aac0623319951c42f60`
-- 网页 PDF `La-Lucerna-VOL1-KO-web.pdf`：**3,812,736 B**（< 10 MB） · sha256 `2840d5a697804fb310e90cada85b5ad4b81fdbfd5045d523f1bb879fc83c682b`
+- 印刷 PDF `La-Lucerna-VOL1-KO.pdf`：**6,282,148 B** · sha256 `38bf908926ea9b4e250bc2d978f28efd8f83e30174722e19ae9c7ae3306072ee`（D5 重建，2026-11-13；见 §9 D5 记录）
+- 网页 PDF `La-Lucerna-VOL1-KO-web.pdf`：**3,417,414 B**（< 10 MB） · sha256 `aea95a87809290a1ed7e281282019a511ee8e043bb3fc31a0d2e201239edfd35`（D5 重建，2026-11-13；见 §9 D5 记录）
 - SVG sha256：p1 `da993d0baa0d2409a30ee79af7b3f454b0ba2efa479be2912335a58bfe68ca10` · p2 `3654c8eb46b6f01205e83af96c7231b7ab154faeddfa1120a2ba17bfaaa73e5e` · p3 `9fe246f50b0a8433a9951dfc6430860ca22cc1fa71bb0cc9fa2237e06c416012` · p4 `2c8e9b73cba4b7c6ffd697341705d89df6ead2623a9d108c8afd0bf6d44032ae` · p5 `49ec7813abcab084f26f62cb6ad3701c2eb713dbc6823e66e0af972b6f3e9a3a` · p6 `c265b10ab5e70820217ecaacea6eccccb15fb57cb821f96c81698e03eb918bc3` · p7 `f82226dd3b89e28c2efe88c790668cbe8b14aa24a5da75134935121b6e4c56eb` · p8 `8cdb00fbd30171d43d5f0a049fc6d580b5f2b15ff0517a5fdf6d94a1cbb220d3`
 - 交付物：`files/weekly-report-es-ko/`（svg ×8、cards ×8、印刷 PDF、网页 PDF、本 KIT）。未入仓、未发 Discord。
 
@@ -86,3 +86,20 @@
 - 残留：成品 SVG 汉字 = 0、西里尔 = 0、荷/俄/日家具 = 0、bridge/가교/KIT/operative = 0。
 - 最终针脚（磁盘实测，与 §7 登记逐值全合）：网页 PDF 3,812,736 B · sha256 2840d5a697804fb310e90cada85b5ad4b81fdbfd5045d523f1bb879fc83c682b；印刷 PDF 10,974,471 B · sha256 cb861bdb57153529fb2d69fbc38697073a9fbabbf2984aac0623319951c42f60；两 PDF 均 8 页。
 - 备注（非缺陷）：§1 «40 goles» 计数为建造者对代码的速记，SVG 渲染面作 «¡40 en toda Europa!»，事实本身已实证；§6-1 的 2548.7 为墨迹底口径，基线口径 2535.64 与核心逐值同。
+
+## §9 D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 346、西里尔 0、弯引号 CJK 4（修前已在 CJK 者 4 个，fix2 后归 Newsreader）。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target es --reader ko --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "cjk"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 5 个全在 Newsreader（U+2019×5）。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；`render.py` + `webpdf.py` 产出与已发版文本层逐字一致（字符多重集差 0）；重建 SVG 8/8 与已发版逐字节相同。基线实测（已发版配方）：印 PDF `3474f60c845a5771743987d2732e3ed7a943716cc1c9f9989ec5e73a5e031d97`（9,097,069 B）、网 PDF（render）`6acefbaec02f6aa4aaec8c8607dd22e222561dc0d7522d20889f3d13bdfaddfa`（3,407,869 B）。§7 旧值（10,974,471 / 3,812,736 B）为更旧配方，已过期，以上两值为准。
+- **二次修复（只动字号，文字零改动；实测 advance，patched svglib `text_w`，sans bold；栏宽 CW=422.5，盒标题内宽 404.5）**：
+  1. `content12.py:126` P1 头 `EL OTOÑO EMPIEZA DE VERDAD` 25→24（439.1→421.5）。
+  2. `content34.py:23` P3 头 `RECORDAR JUNTOS　함께 기억해요` 25→24（436.8→419.3）。
+  3. `content7.py:16` P7 头 `A2　DECIR LA HORA Y EL PRESENTE` 24→21（471.1→412.2；同时清除 P7 TEXTX 碰撞——该头压 `B1` 20.5×16.8px）。
+  4. `content7.py:48` P7 头 `B2　CREO QUE… / NO CREO QUE…` 24→23（428.8→411.0）。
+  5. `content12.py:48` P1 盒 `LA SEMANA EN CIFRAS　이번 주 숫자` tsize 23→21（428.5→391.2；22pt 仍 +5.3）。
+  6. `content12.py:177` P2 盒 `LA FRASE PARA RECORDAR　암기` tsize 23→22（406.5→388.8；boxtitle +1.7，低于 creambox 2.0 阈值但高于 boxtitle 1.0 阈值，按严门修）。
+- **P8**：行数 199→199，距页脚线余量 57.4px 不变；p8 compare CLEAN（keydiff [137, 138]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `La-Lucerna-VOL1-es-ko.pdf` sha256 `38bf908926ea9b4e250bc2d978f28efd8f83e30174722e19ae9c7ae3306072ee`（6,282,148 B）；网 PDF（render）`La-Lucerna-VOL1-es-ko-web.pdf` sha256 `aea95a87809290a1ed7e281282019a511ee8e043bb3fc31a0d2e201239edfd35`（3,417,414 B）；issues 网 PDF（`tools/webpdf.py`）`2026-w43-es-ko.web.pdf` sha256 `389bd523584acba28c558a854f8f999528ca5c9ecf20d9b5704c5667dc7d305a`（1,316,458 B）——待 closer 换入 `issues/2026-w43/2026-w43-es-ko/2026-w43-es-ko.pdf` 并更新 pin（已发版 `a31454d21995f28523496cf3ca23a38eff17b894170c191e5fdb4221afd0ef63`，1,402,447 B）。印 PDF 由 9.1MB 缩至 6.3MB 系字体子集变化（拉丁文移出 CJK 字体、按读者选 KR 变体），文字内容不变（文字层 print=web 多重集差 0）。
+- **text.md**：D5 不改文字内容；重建后重出因字体宽度变化断行重排（28 REWRAP），交付件为已发版 `.text.md` 原样沿用（BYTE-IDENTICAL）；验收 `verify_textexp_es.py --edition` 判 ADOPT（0 UNEXPECTED；习题号 313/313 序列一致；8 页 token 全同）。
+- **D5 门禁（17 门，run 2，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（1,316,458 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 1 个（U+3000，run 拆分）；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=385，中位 1.040）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A。日志：`hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-ko/`（`GATES-SUMMARY.txt` 为总表；run1 日志归档于 `run1/` 子目录）。D5 报告：`production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-ko.md`。

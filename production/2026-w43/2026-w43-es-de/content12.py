@@ -47,7 +47,7 @@ f.box("LA SEMANA EN CIFRAS　ZAHLEN", [
     ("25 — horas tiene la noche del sábado al domingo (die Nacht zum Sonntag hat 25 Stunden)", "serif", False, INK, 20.5, 1.35),
     ("21:00 — el Clásico y la carrera de F1, a la misma hora (Clásico und F1-Rennen zur selben Zeit)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (in 9 Regionen ist Montag, der 2.11., Feiertag)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 fix run1: box title 23->22 (adv 418.0->399.8 vs inner 404.5)
 f.head("AHORA TÚ　DU BIST DRAN", 25)
 f.ex("A2", "完成句子", "se atrasa", "el reloj se atrasa = die Uhr wird zurückgestellt",
      "En la madrugada del domingo, el reloj ___ una hora.", size=20.5)
@@ -125,7 +125,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: NIST (EE. UU.) — dominio público")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], iy, 2300, tag="P1-otono")
-f2.head("EL OTOÑO EMPIEZA DE VERDAD", 25)
+f2.head("EL OTOÑO EMPIEZA DE VERDAD", 24)  # D5 fix run1: head 25->24 (adv 439.1->421.5 vs CW 422.5)
 f2.para("Días más cortos, la primera gran tormenta del Mediterráneo, un descanso partido en dos y un domingo con tres citas a la vez: el otoño enseña esta semana todo su programa.", 22.5)
 f2.para("Su regalo para todos los lectores es una hora más de sueño. Tómala — ¡y sigue leyendo en la página 2!", 22.5)
 f2.end_report()
@@ -176,7 +176,7 @@ f.para("¿Qué relojes cambian solos? El móvil y el ordenador cambian solos. Pe
 f.para("Este cambio es especial: es el último del calendario de cinco años que España publicó en el Boletín Oficial del Estado en 2022. ¿Es el último cambio de la historia? No es seguro: la Comisión Europea ya publicó en marzo de 2026 las fechas de cambio para 2027–2031. El sistema sigue — si la ley europea no cambia.")
 f.box("FRASE PARA RECORDAR　MERKSATZ", [
     ("«En primavera se adelanta, en otoño se atrasa.» Así recuerda España la dirección del cambio: adelante en marzo, atrás en octubre — y en otoño, una hora más de sueño.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=19)  # D5 fix run1: box title 23->19 (adv 466.4->385.2 vs inner 404.5; 20pt still +1.0 over)
 f.head("EL TIEMPO DESPUÉS DE ADAM", 25)
 f.para("La semana empezó con mal tiempo en el Mediterráneo. La DANA Adam — la primera tormenta con nombre de la temporada — trajo su peor parte entre el domingo 18 y el lunes 19: lluvia fuerte y tormentas en la costa mediterránea y en Baleares. Los mapas de la AEMET anunciaban acumulaciones locales de 150 a 300 litros por metro cuadrado. Ojo: son cifras de pronóstico, no el agua final caída.", 23.5)
 f.para("El martes y el miércoles, la cola de la tormenta todavía deja nubes y algo de lluvia en el norte y el noreste. Después, el tiempo se calma poco a poco. Y para el domingo, todos miran el pronóstico: nadie quiere lluvia a las 21:00 en el Camp Nou.", 23.5)

@@ -100,10 +100,10 @@ Full credit detail: build-dir `assets/CREDITS.md` (Commons API verification, 202
 
 | File | Bytes | sha256 |
 |---|---|---|
-| La-Lucerna-VOL1-IT-web.pdf | 3,917,512 | dc72dbc6b33291e0025ab2039ee27ac85e040ba45ed3cb8900aa8d64f760de5b |
-| La-Lucerna-VOL1-IT.pdf (print) | 5,794,496 | 229224eba6a9e18c091469228d74dd285fe946dfd3133cd5e3df238c31b60cf7 |
+| La-Lucerna-VOL1-IT-web.pdf | 3,514,713 | 579ecf54de6c9f8914f398068d4322f35e8e94c3f644fead95b78a5f939b4ca2 |
+| La-Lucerna-VOL1-IT.pdf (print) | 4,548,994 | 93435546576e4270e119f57dde820eea9892b9ebce87b54ffce8251e86c7fc78 |
 
-Web PDF < 10 MB ✓ (Discord/repo limit). svg/ ×8, cards/ ×8 (1950×2700 PNG).
+Web PDF < 10 MB ✓ (Discord/repo limit). svg/ ×8, cards/ ×8 (1950×2700 PNG). Values above are the D5 rebuild (2026-11-13; see final §12 D5 record); §9-era values were an older recipe and are stale.
 
 ## 10. Status
 
@@ -143,3 +143,21 @@ After the fixes the edition was re-rendered from the operative build and **the e
 | La-Lucerna-VOL1-IT.pdf (print) | 5,794,180 | 59bafb50073cec69f9ca70b403972aca3835b4911c31616d4ec14497172ec8dd |
 
 Web PDF < 10 MB ✓; both PDFs 8 pages; cards 8 × 1950×2700. Changed SVGs: p7-lengua.svg `7e55f143e46abdca25a16f686ef6c4cf3c50da7667e3da8ea2958af8315da2fa`, p8-ejercicios.svg `e4644ac033d7f3f34a1d604af7966fd0030b0f65b94680fe678b27907a8c6d50`; P1–P6 SVGs byte-identical to the builder's shipped set (§9-era hashes in the proofreader's scratch record). **The edition is final and cleared for repo insertion.**
+
+## 12. D5 rebuild record (2026-11-13, W43/W45/W46 D5+§1.1 joint rebuild, Phase 1)
+
+- **Cause:** D5 defect — sans-layer Latin/Cyrillic chars landing in Noto Sans CJK instead of Newsreader (Latin readers) / Noto Sans (Russian readers). Pre-repair census for this edition: D5 Latin 494, Cyrillic 0, curly-in-CJK 0.
+- **Install:** `tools/mechanism-w47/apply_variant.py --svglib <edition>/svglib.py --target es --reader it --week 2026-w43` (after a clean `--check` dry-run). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py` FAILURES: 0. fix2 (U+201C/U+201D/U+2019 → serif) kept: this edition has 0 curly quotes.
+- **Baseline:** proven clean before rebuild — `run.py` TOTAL 150, 0 warnings; `render.py` + `webpdf.py` output text-identical to the shipped edition (character-multiset diff 0); rebuilt SVGs 8/8 byte-identical to shipped. Baseline measured (shipped recipe): print PDF `659a5794b07575bf5a68beaf04d88838d6173daa62b17df5eff466fd77f6d333` (5,157,454 B), render web PDF `502b2ff438a8dc81f0683f274bb0947a0346329955b56e8ae14adaf169d930a7` (3,499,571 B). The §9 / Final-pins old values (5,794,496 / 3,917,512 B and 5,794,180 / 3,914,495 B) are from an older recipe and are stale; the baseline values above govern.
+- **Second-round fixes (font sizes only, no text change; measured advances with the patched svglib `text_w`, sans bold; column width CW=422.5, box-title inner width 404.5, P7 p.text title inner width 400.5):**
+  1. `content12.py:128` P1 head `EL OTOÑO EMPIEZA DE VERDAD` 25→24 (439.1→421.5).
+  2. `content34.py:23` P3 head `RECORDAR　RICORDARE INSIEME` 25→22 (467.5→411.4; 23pt still +7.6 over; note: no `JUNTOS` in this edition's head).
+  3. `content7.py:16` P7 head `A2　DECIR LA HORA Y EL PRESENTE` 24→21 (471.1→412.2; also clears the P7 TEXTX collision — that head overlapped `B1` by 20.5×16.8px).
+  4. `content7.py:48` P7 head `B2　CREO QUE… / NO CREO QUE…` 24→23 (428.8→411.0).
+  5. `content12.py:50` P1 box `LA SEMANA EN CIFRAS　IN CIFRE` tsize 23→21 (421.8→385.0; 22pt margin only 1.1px).
+  6. `content12.py:93` P1 `EN ESTA EDICIÓN　IL NUMERO` p.text 24→23 (403.9→387.1).
+  7. `content7.py:79` P7 `ERRORES TÍPICOS　ERRORI TIPICI` p.text 23→21 (427.5→390.3; 22pt still +8.3 over).
+- **P8:** lines 210→210, footer slack 56.6px unchanged; p8 compare CLEAN (keydiff [137, 138]).
+- **New deliverables (D5 rebuild, 2026-11-13):** print PDF `La-Lucerna-VOL1-es-it.pdf` sha256 `93435546576e4270e119f57dde820eea9892b9ebce87b54ffce8251e86c7fc78` (4,548,994 B); render web PDF `La-Lucerna-VOL1-es-it-web.pdf` sha256 `579ecf54de6c9f8914f398068d4322f35e8e94c3f644fead95b78a5f939b4ca2` (3,514,713 B); issues web PDF (`tools/webpdf.py`) `2026-w43-es-it.web.pdf` sha256 `17c097d15ca2e8cfccc3c8df60a739c54073e5476bbee93dbc43f6fceba025ff` (1,060,240 B) — to be swapped into `issues/2026-w43/2026-w43-es-it/2026-w43-es-it.pdf` by the closer with a pin update (shipped `aa1c9f0b1c487c5cd6f19067c220530ae1af064588b09deb739c8f880a606414`, 1,101,162 B). Print PDF shrank ~600KB from font-subset changes (Latin moved out of the CJK font); text content unchanged (print=web text-layer multiset diff 0).
+- **text.md:** D5 changes no text content; re-export after rebuild reflows line breaks (31 REWRAP), so the deliverable is the shipped `.text.md` carried over unchanged (BYTE-IDENTICAL); acceptance `verify_textexp_es.py --edition` verdict ADOPT (0 UNEXPECTED; exercise numbers 313/313 in sequence; all 8 pages token-identical).
+- **D5 gates (17 gates, run 2, ALL-GREEN):** run TOTAL 150, warnings 0; head_check PASS 0 defects; d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0; render RC=0; webpdf RC=0 (1,060,240 B <7MB); occlusion 0 (incl. selftest); p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8; freeze diff vs base added CJK chars TOTAL 1 (U+3000, run split); spill 0; boxtitle 0; edge 0/0; creambox PASS 0 defects (ratios n=401, median 1.040); text-layer print=web multiset diff 0; census_quotes 0 defective; family gates.py N/A. Logs: `hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-it/` (`GATES-SUMMARY.txt` is the master table; run-1 logs archived under `run1/`). D5 report: `production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-it.md`.

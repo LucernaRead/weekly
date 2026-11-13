@@ -88,8 +88,8 @@ cd hidden_files/weekly-report-es-en-build
 ## 7. 交付物(files/weekly-report-es-en/)
 
 - `svg/` 8 张 · `cards/` 8 张 PNG(1950×2700)
-- `La-Lucerna-VOL1-EN.pdf` 印刷版 5,763,570 B(独立校对修复后重渲染实测)
-- `La-Lucerna-VOL1-EN-web.pdf` 网络版 3,875,443 B(< 10 MB,可直接投递;同上)
+- `La-Lucerna-VOL1-EN.pdf` 印刷版 4,552,819 B（D5 重建，2026-11-13；旧配方值 5,763,570 B 已过期，见末节 D5 记录）
+- `La-Lucerna-VOL1-EN-web.pdf` 网络版 3,464,783 B（D5 重建，2026-11-13；旧配方值 3,875,443 B 已过期，见末节 D5 记录）
 - 本 KIT
 
 未投递 Discord(按任务要求,投递由主线执行)。
@@ -171,3 +171,20 @@ cd hidden_files/weekly-report-es-en-build
 - **错误**：第 5 版西班牙语正文（与核心版逐字节相同）称 eFootball 球衣「desde el jueves 23」——2026 年 10 月 23 日实为**星期五**。ES×FR 独立校对发现；核心版与 EN/DE/FR 三个讲解版同日同步订正（本版改动在 `content56.py` 第 19 行，仅此一词）。
 - **核验**：先证基线（未修改构建逐字节复现 8 张定稿 SVG）；渲染差异仅 `p5-juventud.svg` 一个文本元素、仅 P5 卡片重出，其余逐字节不变。注册表扫描无题目引用该星期说法；第 80 题（Verdadero，题干仅称「desde el 23 de octubre」）复解仍成立；P7 金句仅引「sábado 24」（正确）。几何：改动行墨迹右界 433→446px，距栏界余 53px；遮挡审计第 5 版 0 标记（第 1 版既有模型标记经像素实测非缺陷，与本次无关）。
 - **产物（订正后）**：印刷 PDF 5,763,569 B（sha256 `9c387fa34b2b60098b54d4870548261db2ef3b0c39aead3167dcad0baf517803`）；网页版 PDF 3,875,591 B（sha256 `608ce4081f32a2188e5f05cc5a20dee0cce7a4e9426e54beb146378d398916d5`），均 8 版。GitHub 仓 `2026-w43-es-en` 已同步换 PDF 并更新 pin（附订正说明）。
+
+## D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 492、西里尔 0、弯引号 CJK 0。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target es --reader en --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "latin"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 0 个。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；`render.py` + `webpdf.py` 产出与已发版文本层逐字一致（字符多重集差 0）；重建 SVG 8/8 与已发版逐字节相同。基线实测（已发版配方）：印 PDF `57a62c8f3e75124b6683f373825856914b5d4731474f60d585cc14ecf31a9acd`（5,150,124 B）、网 PDF（render）`5baadb685b06f32338917770eab12d60c870509d82dc9f6f7583b318d55ef3a8`（3,465,204 B）。本 KIT §7 旧值（5,763,570 / 3,875,443 B）为更旧配方，已过期，以上两值为准。
+- **二次修复（只动字号，文字零改动；实测 advance，patched svglib `text_w`，sans bold；栏宽 CW=422.5，盒标题内宽 404.5）**：
+  1. `content12.py:125` P1 头 `EL OTOÑO EMPIEZA DE VERDAD` 25→24（439.1→421.5）。
+  2. `content34.py:23` P3 头 `RECORDAR JUNTOS　Remembering` 23→22（427.5→408.9；该头 D5 前已预缩至 23）。
+  3. `content7.py:16` P7 头 `A2　DECIR LA HORA Y EL PRESENTE` 24→21（471.1→412.2；同时清除 P7 TEXTX 碰撞——该头压 `B1` 20.5×16.8px）。
+  4. `content7.py:48` P7 头 `B2　CREO QUE… / NO CREO QUE…` 24→23（428.8→411.0）。
+  5. `content12.py:47` P1 盒 `LA SEMANA EN CIFRAS　Numbers` tsize 23→22（414.8→396.8）。
+  6. `content12.py:176` P2 盒 `LA FRASE PARA RECORDAR　Remember` tsize 19.5→18.5（412.2→391.1；该盒 D5 前已预缩至 19.5）。
+- **P8**：行数 234→234，距页脚线余量 39.5px 不变；p8 compare CLEAN（keydiff [137, 138]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `La-Lucerna-VOL1-es-en.pdf` sha256 `e49a35d81676ef758bc7fac5cd82f51c45c7c4d3255e8144af2aa529fb71fabc`（4,552,819 B）；网 PDF（render）`La-Lucerna-VOL1-es-en-web.pdf` sha256 `40dfac21af7b8a5a75aac7ba93b1285cf922d63e17c010b1b10b8961ada6c322`（3,464,783 B）；issues 网 PDF（`tools/webpdf.py`）`2026-w43-es-en.web.pdf` sha256 `f5b8965b557ddba2c245d9fbb4f280d0bcdc367e80a8e43182df27525d2b1d1b`（1,064,057 B）——待 closer 换入 `issues/2026-w43/2026-w43-es-en/2026-w43-es-en.pdf` 并更新 pin（已发版 `5c486f00586a6a668e3bef40383e5cbbf950341db526da0bc33d54aa4b778dc6`，1,105,025 B）。印 PDF 缩小约 600KB 系字体子集变化（拉丁文移出 CJK 字体），文字内容不变（文字层 print=web 多重集差 0）。
+- **text.md**：D5 不改文字内容；重建后重出因字体宽度变化断行重排（26 REWRAP），交付件为已发版 `.text.md` 原样沿用（BYTE-IDENTICAL）；验收 `verify_textexp_es.py --edition` 判 ADOPT（0 UNEXPECTED；习题号 313/313 序列一致；8 页 token 全同）。
+- **D5 门禁（17 门，run 2，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（1,064,057 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 1 个（U+3000，run 拆分）；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=399，中位 1.040）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A。日志：`hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-en/`（`GATES-SUMMARY.txt` 为总表；run1 日志归档于 `run1/` 子目录）。D5 报告：`production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-en.md`。

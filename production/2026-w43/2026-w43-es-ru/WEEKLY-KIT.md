@@ -69,9 +69,9 @@
 - 变换规模：264 条 ZH→RU 字面替换源（与 ES×NL 源集全等）+ 家具 EDITS；transform 替换 484 处（与 ES×NL 同数）。
 
 ## 12. PDF 针脚（实测，终稿渲染）
-- 印刷 PDF：La-Lucerna-VOL1-RU.pdf — 5,760,577 B，sha256 30221d008e774e337e45afdf4b19fbe2646d7ee522d3a5d64fc05b5d167bb45c
-- 网页 PDF：La-Lucerna-VOL1-RU-web.pdf — 3,948,140 B（< 10 MB ✓)，sha256 d262557507008e05261aefef46de8832b1c9aeadb60c3118d7c751139f62bfbe
-- 注：网页 PDF sha 嵌渲染时间戳，入仓时须以磁盘实测为准重测。
+- 印刷 PDF：La-Lucerna-VOL1-RU.pdf — 4,811,727 B，sha256 0c31a56b2db62c904eed9a81c236a0c8eb53c16367880085e39fc67737e33b20（D5 重建，2026-11-13；见 §15 D5 记录）
+- 网页 PDF：La-Lucerna-VOL1-RU-web.pdf — 3,547,345 B（< 10 MB ✓)，sha256 0473e3d41f13649012a3cf7d7ba406b873165db171a64ee5e58d51c42a8b53c8（D5 重建，2026-11-13；见 §15 D5 记录）
+- 注：网页 PDF sha 嵌渲染时间戳，入仓时须以磁盘实测为准重测。§12 旧值（5,760,577 / 3,948,140 B）为更旧配方，已过期，见 §15 基线实测。
 
 ## 13. 交付清单
 - files/weekly-report-es-ru/: svg ×8、cards ×8、印刷 PDF、网页 PDF、本 KIT。
@@ -89,3 +89,15 @@
 - 校对员修复 1 项（仅文档措辞）：本 KIT §10 原稿引述了禁用术语的英文原形（自报「paper 与 operative code = 0」未含 KIT 本身）；已改为不引原词的表述，终稿 paper/KIT/operative code 两形均为 0（scratch/transform.py 5 处搜索模式为例外，已披露）。版面渲染件未动。
 - PDF 针脚（磁盘实测，与建造者自报全合）：网页版 3,948,140 B / sha256 d262557507008e05261aefef46de8832b1c9aeadb60c3118d7c751139f62bfbe；印刷版 5,760,577 B / sha256 30221d008e774e337e45afdf4b19fbe2646d7ee522d3a5d64fc05b5d167bb45c。
 - 校对 scratch：hidden_files/proof-esru-independent/。
+
+## 15. D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 338、西里尔 250，合计 588；弯引号 CJK 0。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target es --reader ru --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "ru"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 0 个。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；`render.py` + `webpdf.py` 产出与已发版文本层逐字一致（字符多重集差 0）；重建 SVG 8/8 与已发版逐字节相同。基线实测（已发版配方）：印 PDF `3b64621ce52051c8e2b658828e18f0659fca6b7f17cae2f61e4e269ac389ed5c`（5,169,873 B）、网 PDF（render）`b9f25af22eab293b782929115191f81c628746507eee583bac07940c0258db01`（3,539,100 B）。§12 旧值（5,760,577 / 3,948,140 B）为更旧配方，已过期，以上两值为准。
+- **二次修复（只动字号，文字零改动；实测 advance，patched svglib `text_w`，sans regular；盒内宽 400.5）**：
+  1. `content12.py:69` P1 `Пять главных тем　Para entender la semana` p.text 19→18（416.2→394.3）。本版头（P1/P3/P7）与 P7 碰撞首轮即全过，无需修。
+- **P8**：行数 228→231（D5 重排多绕 3 行），距页脚线余量 44.7px 不变；p8 compare CLEAN（keydiff [137, 138]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `La-Lucerna-VOL1-es-ru.pdf` sha256 `0c31a56b2db62c904eed9a81c236a0c8eb53c16367880085e39fc67737e33b20`（4,811,727 B）；网 PDF（render）`La-Lucerna-VOL1-es-ru-web.pdf` sha256 `0473e3d41f13649012a3cf7d7ba406b873165db171a64ee5e58d51c42a8b53c8`（3,547,345 B）；issues 网 PDF（`tools/webpdf.py`）`2026-w43-es-ru.web.pdf` sha256 `3863f81013be3f6b143d0654abf6a1b087df09c79647a04801df8427fd04dd30`（1,308,732 B）——待 closer 换入 `issues/2026-w43/2026-w43-es-ru/2026-w43-es-ru.pdf` 并更新 pin（已发版 `d365d2874f1199a12d3a055a1f1d1d1e560ea0d6c0a34c162fc1b1e7a301f3c2`，1,151,782 B）。印 PDF 缩小约 360KB 系字体子集变化（拉丁/西里尔移出 CJK 字体），文字内容不变（文字层 print=web 多重集差 0）。
+- **text.md**：D5 不改文字内容；交付件为已发版 `.text.md` 原样沿用（BYTE-IDENTICAL）。验收 `verify_textexp_es.py --edition` 判 **HOLD（已解释，见下）**——非内容改动：P7 行 `bueno→mejor и malo→peor —` 在重出里被拆成三行（`bueno` / `→mejor и malo` / `→peor —`）。根因是导出器 `textexp_es.py` 的 `kind_of()` 不认 `Noto Sans`（ru 读者拉丁文走该字体），默认按 `serif`（Newsreader）量宽——`bueno` 量得 58.98，真实 62.75，算出间距 3.72px > GROUP_GAP 2.0 误拆；真实间距 −0.05px（run 相接）。新版 SVG 各 run 拼接与已发版该行逐字相同；其余 7 页 token 全同，习题号 313/313 序列一致。共享导出器未改（超出本家范围）；建议机制方在 `kind_of` 里加 `Noto Sans` → sans_noto 映射。重排统计：37 REWRAP。
+- **D5 门禁（17 门，run 2：16 门绿 + gate 15 HOLD-已解释）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0（noto_sans_elements=772，ru 读者预期）；render RC=0；webpdf RC=0（1,308,732 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 1 个（U+3000，run 拆分）；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=405，中位 1.001）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A。日志：`hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-ru/`（`GATES-SUMMARY.txt` 为总表；run1 日志归档于 `run1/` 子目录）。D5 报告：`production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-ru.md`。

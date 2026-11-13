@@ -110,8 +110,10 @@ All 8 «Frases de la semana» quotes are verbatim contiguous excerpts of this is
 
 | file | bytes | sha256 |
 |---|---|---|
-| La-Lucerna-VOL1-PT.pdf (print) | 5,800,267 | b01b55068b9b2d87e26d2baf06120e344f53a4c550ab005d561ab7d15006307c |
-| La-Lucerna-VOL1-PT-web.pdf (web) | 3,918,451 | e513a0c34356f7ce0cda0aee2ab33323dd96049a7b6e943dc33907771c8a6633 |
+| La-Lucerna-VOL1-PT.pdf (print) | 4,554,264 | 1f3225f9527af54b52e53383fcaebfdf0d64a82119c70e84d72925bba27d102b |
+| La-Lucerna-VOL1-PT-web.pdf (web) | 3,522,457 | 68411a88e07a1f1c455f1beea51c4761245e6357b0ad001ea16c44b6dd415711 |
+
+Values above are the D5 rebuild (2026-11-13; see §13 D5 record); §10-era values were an older recipe and are stale.
 
 Web PDF 3.92 MB < 10 MB limit ✓ (JPEG q85 @1400px, same recipe as the shipped ES siblings).
 
@@ -196,3 +198,21 @@ Scratch: `hidden_files/es-pt-proofread/` (registry dumps, code diffs, own audit 
 
 **Verdict: PASS — one complete independent pass, zero problems. The edition is ready for repo insert
 (slug 2026-w43-es-pt) under the standing GitHub-only delivery rule.**
+
+## 13. D5 rebuild record (2026-11-13, W43/W45/W46 D5+§1.1 joint rebuild, Phase 1)
+
+- **Cause:** D5 defect — sans-layer Latin/Cyrillic chars landing in Noto Sans CJK instead of Newsreader (Latin readers) / Noto Sans (Russian readers). Pre-repair census for this edition: D5 Latin 488, Cyrillic 0, curly-in-CJK 0.
+- **Install:** `tools/mechanism-w47/apply_variant.py --svglib <edition>/svglib.py --target es --reader pt --week 2026-w43` (after a clean `--check` dry-run). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py` FAILURES: 0. fix2 (U+201C/U+201D/U+2019 → serif) kept: this edition has 0 curly quotes.
+- **Baseline:** proven clean before rebuild — `run.py` TOTAL 150, 0 warnings; `render.py` + `webpdf.py` output text-identical to the shipped edition (character-multiset diff 0); rebuilt SVGs 8/8 byte-identical to shipped. Baseline measured (shipped recipe): print PDF `769c6cb4e2efcd5c57992bd5146b9a2537a7ab2037be2c3de2b9b8f8d50d9a25` (5,163,376 B), render web PDF `c27dea0e89da69c5e427bc17908da12a5e8506840fe8fda5de6446c4e20c83d7` (3,515,085 B). The §10 old values (5,800,267 / 3,918,451 B) are from an older recipe and are stale; the baseline values above govern.
+- **Second-round fixes (font sizes only, no text change; measured advances with the patched svglib `text_w`, sans bold; column width CW=422.5, box-title inner width 404.5):**
+  1. `content12.py:15` masthead tagline `SEMANAL EN ESPAÑOL　UM NÚMERO POR SEMANA　O ESPANHOL QUE A ESPANHA LÊ` 17→16 — D5 widened Latin (Newsreader wider than CJK SC at 17pt + letter-spacing 1.7), so the centered tagline's right end moved right and the right-aligned date's left end moved left; their gap collapsed 80.4px → −4.4px and the glyphs touched (`LÊ` + `SEMANA` rendered as `LÊSEMANA`). 16pt restores a +41.0px gap.
+  2. `content12.py:16` masthead date `SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026` 17→16 (paired with the tagline; same collision).
+  3. `content12.py:125` P1 head `EL OTOÑO EMPIEZA DE VERDAD` 25→24 (439.1→421.5).
+  4. `content7.py:16` P7 head `A2　DECIR LA HORA Y EL PRESENTE` 24→21 (471.1→412.2; also clears the P7 TEXTX collision — that head overlapped `B1` by 20.5×16.8px).
+  5. `content7.py:48` P7 head `B2　CREO QUE… / NO CREO QUE…` 24→23 (428.8→411.0).
+  6. `content12.py:176` P2 box `FRASE PARA RECORDAR　Para guardar` tsize 20→19 (409.2→388.8; was already 20 pre-D5; note: no `LA` prefix in this edition's title).
+  - P3 head `RECORDAR JUNTOS　Lembrar` fits at 25pt, no fix needed.
+- **P8:** lines 197→197, footer slack 56.4px unchanged; p8 compare CLEAN (keydiff [137, 138]).
+- **New deliverables (D5 rebuild, 2026-11-13):** print PDF `La-Lucerna-VOL1-es-pt.pdf` sha256 `1f3225f9527af54b52e53383fcaebfdf0d64a82119c70e84d72925bba27d102b` (4,554,264 B); render web PDF `La-Lucerna-VOL1-es-pt-web.pdf` sha256 `68411a88e07a1f1c455f1beea51c4761245e6357b0ad001ea16c44b6dd415711` (3,522,457 B); issues web PDF (`tools/webpdf.py`) `2026-w43-es-pt.web.pdf` sha256 `0de196c49f8f78000925496f6618de10ed37c2e7fd579f6d5b0fc3f64e3d0e4c` (1,065,509 B) — to be swapped into `issues/2026-w43/2026-w43-es-pt/2026-w43-es-pt.pdf` by the closer with a pin update (shipped `806cfdecd075a6114dd2309776cda812fb18153c7d6b572173a3091054cb8a0b`, 1,108,388 B). Print PDF shrank ~600KB from font-subset changes (Latin moved out of the CJK font); text content unchanged (print=web text-layer multiset diff 0).
+- **text.md:** D5 changes no text content; re-export after rebuild reflows line breaks (29 REWRAP), so the deliverable is the shipped `.text.md` carried over unchanged (BYTE-IDENTICAL); acceptance `verify_textexp_es.py --edition` verdict ADOPT (0 UNEXPECTED; exercise numbers 313/313 in sequence; all 8 pages token-identical). Run 1 had returned HOLD on the masthead merge (`LÊ`+`SEMANA` → `LÊSEMANA` in the re-export); the masthead 17→16pt fix resolves it — run 2 verifies ADOPT.
+- **D5 gates (17 gates, run 2, ALL-GREEN):** run TOTAL 150, warnings 0; head_check PASS 0 defects; d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0; render RC=0; webpdf RC=0 (1,065,509 B <7MB); occlusion 0 (incl. selftest); p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8; freeze diff vs base added CJK chars TOTAL 1 (U+3000, run split); spill 0; boxtitle 0; edge 0/0; creambox PASS 0 defects (ratios n=395, median 1.040); text-layer print=web multiset diff 0; census_quotes 0 defective; family gates.py N/A. Logs: `hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-pt/` (`GATES-SUMMARY.txt` is the master table; run-1 logs archived under `run1/`). D5 report: `production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-pt.md`.

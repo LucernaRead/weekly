@@ -4,8 +4,8 @@
 - 状态：**PASS**（独立校对一轮零问题，见 §7；未入仓、未发 Discord）。
 - 核心：files/weekly-report-es-vol1（西语核心 VOL.1，150 题）。build 副本：hidden_files/weekly-report-es-ja-build（源：hidden_files/weekly-report-es-build 逐字节复制后变换）。
 - 产物（本目录）：svg ×8、cards ×8、印刷 PDF、网页 PDF。
-  - La-Lucerna-VOL1-JA.pdf：20,004,913 B，sha256 `31ba9af8318fbfa79ba4c86745ab49dc35972d8c4f0f096f429c023a67fe0842`
-  - La-Lucerna-VOL1-JA-web.pdf：3,842,414 B（<10 MB），sha256 `bf894077083fa710ba1c3b53d477564e5800d9a8d6a63823ca9b22029390c77c`
+  - La-Lucerna-VOL1-JA.pdf：11,775,499 B，sha256 `53aef2d8d57fe87f1c0b1c07e82fb86f536ba707fd9fef60ce9e7081f4375004`（D5 重建，2026-11-13；见末节 D5 记录）
+  - La-Lucerna-VOL1-JA-web.pdf：3,449,690 B（<10 MB），sha256 `653e235f39a0768037ff5aa73b8a16e87780b0f6c78098713fcb2f0a44ed27c3`（D5 重建，2026-11-13；见末节 D5 记录）
   - SVG sha256（前 16）：p1 166077532e3a9674 · p2 22174197f2e64aa6 · p3 e36de2350ff7341e · p4 a433dbcd09247e53 · p5 3cb3e84027668f88 · p6 31bbd2e111af8fe2 · p7 2e5d1462c5c834d9 · p8 759ee6f3732ee102
 
 ## §1 变换方法（与 JA 列同法）
@@ -101,3 +101,21 @@
 - **日历**（`date` Europe/Madrid 实测）：10-19 一、10-20 二（#57 注火曜合）、10-23 五、10-24 六（球衣首秀 «sábado 24» 合）、10-25 日（换时 + Clásico 21:00)、10-29 四（DANA 纪念 «jueves 29» 合）、10-31 六（Halloween)、11-01 日（诸圣节）、11-02 一（连休周一）与纸面全合。
 - **残留/红线**：中文讲解残留 = 0（「仅汉字无假名」节点逐条裁定为正明日语：空所補充/正誤/翻訳/作文等列定式标签、天気予報/世論調査/選挙管理委員会等固有词）；西里尔 = 0、韩字 = 0、他列家具 = 0；禁用术语纸面 = 0（scratch 转换脚本内核心原串引用为例外，§1 已披露）；讲解层无国际政治新增（西班牙国内选举为核心冻结题面，讲解仅语言说明）。
 - **最终针脚（磁盘实测，与 §0 登记逐字全合）**：网页版 `La-Lucerna-VOL1-JA-web.pdf` **3,842,414 B** · sha256 `bf894077083fa710ba1c3b53d477564e5800d9a8d6a63823ca9b22029390c77c`（< 10 MB)，8 页；印刷版 `La-Lucerna-VOL1-JA.pdf` **20,004,913 B** · sha256 `31ba9af8318fbfa79ba4c86745ab49dc35972d8c4f0f096f429c023a67fe0842`，8 页；cards ×8、SVG ×8。
+
+## §8 D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 340、西里尔 0、弯引号 CJK 0。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target es --reader ja --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "cjk"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 0 个。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；`render.py` + `webpdf.py` 产出与已发版文本层逐字一致（字符多重集差 0）；重建 SVG 8/8 与已发版逐字节相同。基线实测（已发版配方）：印 PDF `bf2e639b97f79677fd7bcdb037c329176bad6bdffc8cd6fe0e1e95485db08615`（18,045,216 B）、网 PDF（render）`955c7f6c9e3cc130747df8c1ad57f260b78bec711cec431209c4c44a62ea9640`（3,438,455 B）。§0 旧值（20,004,913 / 3,842,414 B）为更旧配方，已过期，以上两值为准。
+- **二次修复（只动字号，文字零改动；实测 advance，patched svglib `text_w`，sans bold；栏宽 CW=422.5，盒标题内宽 404.5，P7 p.text 标题内宽 400.5）**：
+  1. `content12.py:125` P1 头 `EL OTOÑO EMPIEZA DE VERDAD` 25→24（439.1→421.5）。
+  2. `content7.py:16` P7 头 `A2　DECIR LA HORA Y EL PRESENTE` 24→21（471.1→412.2；同时清除 P7 TEXTX 碰撞——该头压 `B1` 20.5×16.8px）。
+  3. `content7.py:48` P7 头 `B2　CREO QUE… / NO CREO QUE…` 24→23（428.8→411.0）。
+  4. `content12.py:47` P1 盒 `LA SEMANA EN CIFRAS　今週の数字` tsize 23→21（427.0→389.8；22pt 仍 +3.9）。
+  5. `content12.py:176` P2 盒 `LA FRASE PARA RECORDAR　一句` tsize 23→22（410.2→392.4）。
+  6. `content7.py:79` P7 `ERRORES TÍPICOS　よくある間違い` p.text 23→22（409.2→391.3）。
+  - P3 头 `RECORDAR JUNTOS　ともに偲ぶ` 25pt 实测 418.0 入栏，无需修。
+- **P8**：行数 222→222，距页脚线余量 41.7px 不变；p8 compare CLEAN（keydiff [137, 138]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `La-Lucerna-VOL1-es-ja.pdf` sha256 `53aef2d8d57fe87f1c0b1c07e82fb86f536ba707fd9fef60ce9e7081f4375004`（11,775,499 B）；网 PDF（render）`La-Lucerna-VOL1-es-ja-web.pdf` sha256 `653e235f39a0768037ff5aa73b8a16e87780b0f6c78098713fcb2f0a44ed27c3`（3,449,690 B）；issues 网 PDF（`tools/webpdf.py`）`2026-w43-es-ja.web.pdf` sha256 `5d8fd9b1ad2b38152bbcf99494c22de52cff2eff157bc80d364e333daf40ba93`（1,547,194 B）——待 closer 换入 `issues/2026-w43/2026-w43-es-ja/2026-w43-es-ja.pdf` 并更新 pin（已发版 `6aff84ace50444208b129f56fb1c99c7d77e3b0fb1ac917f19c4d33abb3b32ed`，1,716,266 B）。印 PDF 由 18.0MB 缩至 11.8MB：`pdffonts` 核查——基线嵌 `NotoSansCJKsc`/`NotoSerifCJKsc`，D5 后嵌 `NotoSansCJKjp`/`NotoSerifCJKjp`（按读者选 CJK 变体）+ Newsreader，全部 embedded/subset/unicode，无丢字体；文字内容不变（文字层 print=web 多重集差 0）。
+- **text.md**：D5 不改文字内容；重建后重出因字体宽度变化断行重排（20 REWRAP），交付件为已发版 `.text.md` 原样沿用（BYTE-IDENTICAL）；验收 `verify_textexp_es.py --edition` 判 ADOPT（0 UNEXPECTED；习题号 313/313 序列一致；8 页 token 全同）。
+- **D5 门禁（17 门，run 2，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（1,547,194 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 1 个（U+3000，run 拆分）；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=395，中位 1.040）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A。日志：`hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-ja/`（`GATES-SUMMARY.txt` 为总表；run1 日志归档于 `run1/` 子目录）。D5 报告：`production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-ja.md`。

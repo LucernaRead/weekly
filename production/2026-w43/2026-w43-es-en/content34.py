@@ -20,7 +20,7 @@ f.para("En las demás — Baleares, Cantabria, Cataluña, Galicia, Murcia, el Pa
 f.para("La noche anterior, el sábado 31 de octubre, llega Halloween — una fiesta que viene de fuera, pero que ya es parte del otoño español, sobre todo para los niños. En la página 5 contamos qué disfraces busca España este año.")
 f.para("Pero España también tiene sus fiestas propias para estas fechas. En Cataluña, la Castanyada: castañas asadas, boniatos y panellets, unos dulces pequeños de mazapán. En Galicia, el Samaín, una fiesta muy antigua de la noche de los muertos. Tres fiestas, una misma noche de otoño.")
 f.gloss("el cementerio — the cemetery · el dulce — a sweet · festivo — a public holiday (adj.) · el homenaje — a tribute · el mazapán — marzipan.")
-f.head("RECORDAR JUNTOS　Remembering", 23)
+f.head("RECORDAR JUNTOS　Remembering", 22)  # D5 fix run1: head 23->22 (adv 427.5->408.9 vs CW 422.5; was already 23 pre-D5)
 f.para("El jueves 29 de octubre se cumplen dos años de la DANA de Valencia de 2024, la tormenta que dejó 233 muertos, según la cifra de las asociaciones de víctimas.")
 f.para("Esta semana, Catarroja homenajeó a los servicios de emergencia y a los voluntarios de aquellos días, con unas 1.300 distinciones. Los representantes de las entidades locales han pedido que el día 29 no haya plenos en los ayuntamientos, para facilitar los actos de memoria. Desde La Lucerna, nos sumamos al recuerdo.")
 f.end_report()

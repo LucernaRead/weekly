@@ -12,8 +12,8 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 1　PRIMERA EDICIÓN", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "SEMANAL EN ESPAÑOL　UM NÚMERO POR SEMANA　O ESPANHOL QUE A ESPANHA LÊ", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
-p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 92, "SEMANAL EN ESPAÑOL　UM NÚMERO POR SEMANA　O ESPANHOL QUE A ESPANHA LÊ", 16, "sans", False, GREY, anchor="middle", spacing=1.7)  # D5 fix run1: masthead tagline 17->16 (D5 widened Latin: tagline/date gap 80.4->-4.4px, glyphs touch; 16pt restores +41.0px)
+p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 16, "sans", False, GREY, anchor="end", spacing=1.7)  # D5 fix run1: masthead date 17->16 (same collision; paired with tagline)
 p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SEMANÁRIO ESPANHOL　VOL.1　EL RELOJ　EL CLÁSICO　LA F1", 36, "serif", True, OLIVE, anchor="middle", spacing=8)
 p.text(975, 372, "TEXTOS EM ESPANHOL　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 16, "sans", False, GREY, anchor="middle")
@@ -122,7 +122,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: NIST (EE. UU.) — dominio público")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], iy, 2300, tag="P1-otono")
-f2.head("EL OTOÑO EMPIEZA DE VERDAD", 25)
+f2.head("EL OTOÑO EMPIEZA DE VERDAD", 24)  # D5 fix run1: head 25->24 (adv 439.1->421.5 vs CW 422.5)
 f2.para("Días más cortos, la primera gran tormenta del Mediterráneo, un descanso partido en dos y un domingo con tres citas a la vez: el otoño enseña esta semana todo su programa.", 22.5)
 f2.para("Su regalo para todos los lectores es una hora más de sueño. Tómala — ¡y sigue leyendo en la página 2!", 22.5)
 f2.end_report()
@@ -173,7 +173,7 @@ f.para("¿Qué relojes cambian solos? El móvil y el ordenador cambian solos. Pe
 f.para("Este cambio es especial: es el último del calendario de cinco años que España publicó en el Boletín Oficial del Estado en 2022. ¿Es el último cambio de la historia? No es seguro: la Comisión Europea ya publicó en marzo de 2026 las fechas de cambio para 2027–2031. El sistema sigue — si la ley europea no cambia.")
 f.box("FRASE PARA RECORDAR　Para guardar", [
     ("«En primavera se adelanta, en otoño se atrasa.» Así recuerda España la dirección del cambio: adelante en marzo, atrás en octubre — y en otoño, una hora más de sueño.", "serif", False, INK, 21.5, 1.4),
-], tsize=20)
+], tsize=19)  # D5 fix run1: box title 20->19 (adv 409.2->388.8 vs inner 404.5; was already 20 pre-D5)
 f.head("EL TIEMPO DESPUÉS DE ADAM", 25)
 f.para("La semana empezó con mal tiempo en el Mediterráneo. La DANA Adam — la primera tormenta con nombre de la temporada — trajo su peor parte entre el domingo 18 y el lunes 19: lluvia fuerte y tormentas en la costa mediterránea y en Baleares. Los mapas de la AEMET anunciaban acumulaciones locales de 150 a 300 litros por metro cuadrado. Ojo: son cifras de pronóstico, no el agua final caída.", 23.5)
 f.para("El martes y el miércoles, la cola de la tormenta todavía deja nubes y algo de lluvia en el norte y el noreste. Después, el tiempo se calma poco a poco. Y para el domingo, todos miran el pronóstico: nadie quiere lluvia a las 21:00 en el Camp Nou.", 23.5)

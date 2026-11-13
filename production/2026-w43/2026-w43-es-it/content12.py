@@ -47,7 +47,7 @@ f.box("LA SEMANA EN CIFRAS　IN CIFRE", [
     ("25 — horas tiene la noche del sábado al domingo (la notte tra sabato e domenica ha 25 ore)", "serif", False, INK, 20.5, 1.35),
     ("21:00 — el Clásico y la carrera de F1, a la misma hora (il Clásico e la F1 alla stessa ora)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (il lunedì 2 novembre è festivo in 9 comunità)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5 fix run1: box title 23->21 (adv 421.8->385.0 vs inner 404.5; 22pt margin only 1.1)
 f.head("AHORA TÚ　TOCCA A TE", 25)
 f.ex("A2", "完成句子", "se atrasa", "el reloj se atrasa = l'orologio torna indietro",
      "En la madrugada del domingo, el reloj ___ una hora.", size=20.5)
@@ -90,7 +90,7 @@ p.text(gx + 22, byy + 102, "Cinque chiavi, zero numeri inventati.", 19, "sans", 
 # ---- sommaire (col 3) ----
 sy = 1344
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　IL NUMERO", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　IL NUMERO", 23, "sans", True, OLIVE)  # D5 fix run1: 24->23 (adv 403.9->387.1 vs inner 400.5)
 som = [
     ("Pág. 2", "El reloj y el tiempo", "A2"),
     ("Pág. 3", "Fiestas de otoño", "A2→B1"),
@@ -125,7 +125,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: NIST (EE. UU.) — dominio público")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], iy, 2300, tag="P1-otono")
-f2.head("EL OTOÑO EMPIEZA DE VERDAD", 25)
+f2.head("EL OTOÑO EMPIEZA DE VERDAD", 24)  # D5 fix run1: head 25->24 (adv 439.1->421.5 vs CW 422.5)
 f2.para("Días más cortos, la primera gran tormenta del Mediterráneo, un descanso partido en dos y un domingo con tres citas a la vez: el otoño enseña esta semana todo su programa.", 22.5)
 f2.para("Su regalo para todos los lectores es una hora más de sueño. Tómala — ¡y sigue leyendo en la página 2!", 22.5)
 f2.end_report()

@@ -13,7 +13,7 @@ p.band("LENGUA　语言", "La Lucerna", "语言聚焦　Tres niveles, tres herra
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2　DECIR LA HORA Y EL PRESENTE", 24)
+a.head("A2　DECIR LA HORA Y EL PRESENTE", 21)  # D5 fix run1: head 24->21 (adv 471.1->412.2; also clears P7 TEXTX overlap vs B1)
 a.para("Para decir la hora: «Es la una», pero «Son las dos, las tres…». «Y media» es +30 minutos (2:30); «menos cuarto», −15 (2:45).", 21.5)
 a.para("Y ojo con dormir: el presente cambia la vocal — duermo, duermes, duerme… pero dormimos, dormís. Despertarse es reflexivo: me despierto, se despierta.", 21.5)
 a.bridge("报时只有“一点”用 es；dormir 是不规则变位；despertarse 是反身动词。")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2　CREO QUE… / NO CREO QUE…", 24)
+c.head("B2　CREO QUE… / NO CREO QUE…", 23)  # D5 fix run1: head 24->23 (adv 428.8->411.0 vs CW 422.5)
 c.para("Con «creo que» afirmamos: va el indicativo — «Creo que el Clásico es el domingo». Con «no creo que», con dudas y con «es importante que» va el subjuntivo: tenga (tener), sea (ser), llueva (llover).", 21.5)
 c.para("Es la gramática de la página 6: opinar sobre encuestas sin afirmar más de lo que sabemos.", 21.5)
 c.bridge("creo que 后用陈述式；no creo que、es importante que 后用虚拟式（tenga/sea/llueva）。")

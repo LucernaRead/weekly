@@ -66,7 +66,7 @@ gy = 620
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "CINCO", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "CLAVES", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Пять главных тем　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "Пять главных тем　Para entender la semana", 18, "sans", False, GREY)  # D5 fix run1: 19->18 (adv 416.2->394.3 vs inner 400.5)
 gt = [
     ("El cambio de hora", 250),
     ("El Clásico, el domingo", 226),

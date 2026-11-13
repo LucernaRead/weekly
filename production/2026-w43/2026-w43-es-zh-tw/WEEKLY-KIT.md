@@ -93,8 +93,8 @@
 ## 9. 實測針腳（交付版，渲染后實測）
 
 - SVG ×8 + cards ×8：`files/weekly-report-es-zh-tw/{svg,cards}/`（p1-portada · p2-vida · p3-cultura · p4-deporte · p5-juventud · p6-afondo · p7-lengua · p8-ejercicios）
-- 印刷 PDF：`La-Lucerna-VOL1.pdf` — **19,141,588 B · sha256 124953016f9a540675e321ed12da8a42c5f10631624a348a29818fcf45dfb517 · 8 頁**
-- 網頁 PDF：`La-Lucerna-VOL1-web.pdf` — **3,745,023 B（< 10 MB）· sha256 93e6e66b1701a975896a2d1c8d0dfd85ef2db502fdf0af0d703a1336ec378550 · 8 頁**
+- 印刷 PDF：`La-Lucerna-VOL1.pdf` — **5,960,459 B · sha256 2bc920547fce94caae23ae54885770e5bcf761a7f210cce25e1fade5a55ba6e9 · 8 頁**（D5 重建，2026-11-13；見 §11 D5 記錄）
+- 網頁 PDF：`La-Lucerna-VOL1-web.pdf` — **3,351,530 B（< 10 MB）· sha256 d427ea6d0a3d1f23a2ded40f5ceae47a348a7d071fb911be02a1dded73cf8a9e · 8 頁**（D5 重建，2026-11-13；見 §11 D5 記錄）
 - 總量：150 題（A2 52 · B1 70 · B2 28），注 150/150 非空且全譯繁體（28 條字形合法同作/中立，§2）。
 - 交付範圍：僅建造與自校；未入倉、未發 Discord。
 
@@ -116,3 +116,20 @@
 - **針腳複核（實測全長）**：網頁 3,745,023 B · sha256 93e6e66b1701a975896a2d1c8d0dfd85ef2db502fdf0af0d703a1336ec378550；印刷 19,141,588 B · sha256 124953016f9a540675e321ed12da8a42c5f10631624a348a29818fcf45dfb517（均 8 頁、印刷版面 1462.5×2025pt）——與建造者自報逐字全合。
 - 校對員勘誤（僅 KIT 計數文字，不涉頁面）：§4 逐頁增刪 P5 應為 +25/−25（建造者記 +24）、P7 應為 +30/−30（建造者記 +29）；以 freeze.py 實測為準。
 - 結論：**PASS**。未入倉、未發 Discord（投遞暫停期，入倉由上級以 insert.py 辦理）。
+
+## 11. D5 重建記錄（2026-11-13，W43/W45/W46 D5+§1.1 合併重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 層拉丁/西里爾字符落入 Noto Sans CJK 而非 Newsreader（拉丁讀者）/ Noto Sans（俄語讀者）。本版修前 census：D5 拉丁 338、西里爾 0、彎引號 CJK 0。
+- **安裝**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target es --reader zh-tw --week 2026-w43`（先 `--check` dry-run 通過）。`_D5_READER = "cjk"`。路由單元測試 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版彎引號 0 個。
+- **基線**：重建前先證基線乾淨——`run.py` TOTAL 150、0 警告；`render.py` + `webpdf.py` 產出與已發版文本層逐字一致（字符多重集差 0）；重建 SVG 8/8 與已發版逐字節相同。基線實測（已發版配方）：印 PDF `129115ff97e879fa30b666e70e7e7cf3c1adf6a09914571b1723924c652fd108`（17,166,335 B）、網 PDF（render）`57675efd3af5547479cd39ed257ce7161b28fc27376942032d962feda589b02d`（3,340,861 B）。§9 舊值（19,141,588 / 3,745,023 B）為更舊配方，已過期，以上兩值為準。
+- **二次修復（只動字號，文字零改動；實測 advance，patched svglib `text_w`，sans bold；欄寬 CW=422.5，盒標題內寬 404.5）**：
+  1. `content12.py:125` P1 頭 `EL OTOÑO EMPIEZA DE VERDAD` 25→24（439.1→421.5）。
+  2. `content7.py:16` P7 頭 `A2　DECIR LA HORA Y EL PRESENTE` 24→21（471.1→412.2；同時清除 P7 TEXTX 碰撞——該頭壓 `B1` 20.5×16.8px）。
+  3. `content7.py:48` P7 頭 `B2　CREO QUE… / NO CREO QUE…` 24→23（428.8→411.0）。
+  4. `content12.py:47` P1 盒 `LA SEMANA EN CIFRAS　數字看本週` tsize 23→21（427.0→389.8；22pt 仍 +3.9）。
+  5. `content12.py:176` P2 盒 `LA FRASE PARA RECORDAR　口訣` tsize 23→22（410.2→392.4）。
+  - P3 頭 `RECORDAR JUNTOS　一起紀念` 25pt 入欄，無需修。
+- **P8**：行數 200→200，距頁腳線餘量 57.4px 不變；p8 compare CLEAN（keydiff [137, 138]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `La-Lucerna-VOL1-es-zh-tw.pdf` sha256 `2bc920547fce94caae23ae54885770e5bcf761a7f210cce25e1fade5a55ba6e9`（5,960,459 B）；網 PDF（render）`La-Lucerna-VOL1-es-zh-tw-web.pdf` sha256 `d427ea6d0a3d1f23a2ded40f5ceae47a348a7d071fb911be02a1dded73cf8a9e`（3,351,530 B）；issues 網 PDF（`tools/webpdf.py`）`2026-w43-es-zh-tw.web.pdf` sha256 `172aa57c838bee09a75144e49956674dd823a44e226e61d754bd3ac05b37c08d`（1,506,359 B）——待 closer 換入 `issues/2026-w43/2026-w43-es-zh-tw/2026-w43-es-zh-tw.pdf` 並更新 pin（已發版 `50b1ccde913b73ca76a435edd056b84af004dc7026e81fd255335fa4342db72c`，1,885,857 B）。印 PDF 由 17.2MB 縮至 6.0MB：`pdffonts` 核查——基線與 D5 後均嵌 `NotoSansCJKsc`/`NotoSerifCJKsc` + Newsreader，全部 embedded/subset/unicode，無丟字體；縮小系拉丁文移出 CJK 字體後每頁 CJK 子集大幅縮小。文字內容不變（文字層 print=web 多重集差 0）。
+- **text.md**：D5 不改文字內容；重建後重出因字體寬度變化斷行重排（21 REWRAP），交付件為已發版 `.text.md` 原樣沿用（BYTE-IDENTICAL）；驗收 `verify_textexp_es.py --edition` 判 ADOPT（0 UNEXPECTED；習題號 313/313 序列一致；8 頁 token 全同）。
+- **D5 門禁（17 門，run 2，全綠 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里爾 0 / 彎引號 CJK 0；render RC=0；webpdf RC=0（1,506,359 B <7MB）；occlusion 0（含自檢）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 1 個（U+3000，run 拆分）（U+3000，run 拆分）；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=378，中位 1.040）；文字層 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A。日誌：`hidden_files/d5-redo/scratch-2026-w43-es/logs/2026-w43-es-zh-tw/`（`GATES-SUMMARY.txt` 為總表；run1 日誌歸檔於 `run1/` 子目錄）。D5 報告：`production/notes/2026-w43/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w43-es-zh-tw.md`。

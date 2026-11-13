@@ -12,8 +12,8 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 1　PRIMERA EDICIÓN", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ELKE WEEK　HET SPAANS DAT DE SPANJAARDEN LEZEN", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
-p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ELKE WEEK　HET SPAANS DAT DE SPANJAARDEN LEZEN", 16, "sans", False, GREY, anchor="middle", spacing=1.7)  # D5 fix run1: masthead tagline 17->16 (D5 widened Latin: tagline/date gap 81.9->-4.1px, glyphs touch; 16pt restores +41.3px)
+p.text(RIGHT, 92, "SEMANA DEL 19 AL 25 DE OCTUBRE DE 2026", 16, "sans", False, GREY, anchor="end", spacing=1.7)  # D5 fix run1: masthead date 17->16 (same collision; paired with tagline)
 p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SPAANS WEEKBLAD　VOL.1　EL RELOJ　EL CLÁSICO　LA F1", 36, "serif", True, OLIVE, anchor="middle", spacing=8)
 p.text(975, 372, "TEKSTEN IN HET SPAANS　UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS", 16, "sans", False, GREY, anchor="middle")
@@ -44,7 +44,7 @@ f.box("LA SEMANA EN CIFRAS　In cijfers", [
     ("25 — horas tiene la noche del sábado al domingo (de nacht van zaterdag op zondag telt 25 uur)", "serif", False, INK, 20.5, 1.35),
     ("21:00 — el Clásico y la carrera de F1, a la misma hora (de Clásico en de F1-race, op hetzelfde tijdstip)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (negen regio's waar maandag 2 november een feestdag is)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 fix run1: box title 23->22 (adv 411.3->393.4 vs inner 404.5)
 f.head("AHORA TÚ　Probeer het nu", 25)
 f.ex("A2", "Zinnen aanvullen", "se atrasa", "el reloj se atrasa = de klok wordt teruggezet",
      "En la madrugada del domingo, el reloj ___ una hora.", size=20.5)
@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 102, "Vijf sleutelpunten, zonder verzonnen cijfers.", 19, 
 # ---- sommaire (col 3) ----
 sy = 1344
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 22, "sans", True, OLIVE)  # D5 fix run1: 24->22 (adv 422.6->387.4 vs inner 400.5; 23pt still +4.5)
 som = [
     ("Pág. 2", "El reloj y el tiempo", "A2"),
     ("Pág. 3", "Fiestas de otoño", "A2→B1"),
@@ -122,7 +122,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: NIST (EE. UU.) — dominio público")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], iy, 2300, tag="P1-otono")
-f2.head("EL OTOÑO EMPIEZA DE VERDAD", 25)
+f2.head("EL OTOÑO EMPIEZA DE VERDAD", 24)  # D5 fix run1: head 25->24 (adv 439.1->421.5 vs CW 422.5)
 f2.para("Días más cortos, la primera gran tormenta del Mediterráneo, un descanso partido en dos y un domingo con tres citas a la vez: el otoño enseña esta semana todo su programa.", 22.5)
 f2.para("Su regalo para todos los lectores es una hora más de sueño. Tómala — ¡y sigue leyendo en la página 2!", 22.5)
 f2.end_report()
@@ -173,7 +173,7 @@ f.para("¿Qué relojes cambian solos? El móvil y el ordenador cambian solos. Pe
 f.para("Este cambio es especial: es el último del calendario de cinco años que España publicó en el Boletín Oficial del Estado en 2022. ¿Es el último cambio de la historia? No es seguro: la Comisión Europea ya publicó en marzo de 2026 las fechas de cambio para 2027–2031. El sistema sigue — si la ley europea no cambia.")
 f.box("LA FRASE PARA RECORDAR　Spreuk", [
     ("«En primavera se adelanta, en otoño se atrasa.» Así recuerda España la dirección del cambio: adelante en marzo, atrás en octubre — y en otoño, una hora más de sueño.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=20)  # D5 fix run1: box title 23->20 (adv 445.0->386.9 vs inner 404.5; 21pt still +1.8)
 f.head("EL TIEMPO DESPUÉS DE ADAM", 25)
 f.para("La semana empezó con mal tiempo en el Mediterráneo. La DANA Adam — la primera tormenta con nombre de la temporada — trajo su peor parte entre el domingo 18 y el lunes 19: lluvia fuerte y tormentas en la costa mediterránea y en Baleares. Los mapas de la AEMET anunciaban acumulaciones locales de 150 a 300 litros por metro cuadrado. Ojo: son cifras de pronóstico, no el agua final caída.", 23.5)
 f.para("El martes y el miércoles, la cola de la tormenta todavía deja nubes y algo de lluvia en el norte y el noreste. Después, el tiempo se calma poco a poco. Y para el domingo, todos miran el pronóstico: nadie quiere lluvia a las 21:00 en el Camp Nou.", 23.5)

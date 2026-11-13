@@ -13,7 +13,7 @@ p.band("LENGUA　ことば", "La Lucerna", "ことば特集　Tres niveles, tres
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2　DECIR LA HORA Y EL PRESENTE", 24)
+a.head("A2　DECIR LA HORA Y EL PRESENTE", 21)  # D5 fix run1: head 24->21 (adv 471.1->412.2; also clears P7 TEXTX overlap vs B1)
 a.para("Para decir la hora: «Es la una», pero «Son las dos, las tres…». «Y media» es +30 minutos (2:30); «menos cuarto», −15 (2:45).", 21.5)
 a.para("Y ojo con dormir: el presente cambia la vocal — duermo, duermes, duerme… pero dormimos, dormís. Despertarse es reflexivo: me despierto, se despierta.", 21.5)
 a.expl("時刻で「1時」だけ es を使う。dormir は不規則活用、despertarse は再帰動詞。")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2　CREO QUE… / NO CREO QUE…", 24)
+c.head("B2　CREO QUE… / NO CREO QUE…", 23)  # D5 fix run1: head 24->23 (adv 428.8->411.0 vs CW 422.5)
 c.para("Con «creo que» afirmamos: va el indicativo — «Creo que el Clásico es el domingo». Con «no creo que», con dudas y con «es importante que» va el subjuntivo: tenga (tener), sea (ser), llueva (llover).", 21.5)
 c.para("Es la gramática de la página 6: opinar sobre encuestas sin afirmar más de lo que sabemos.", 21.5)
 c.expl("creo que の後は直説法。no creo que、es importante que の後は接続法（tenga/sea/llueva）。")
@@ -76,7 +76,7 @@ for _w, _r, _n in errs:
 eh = _sim - 200 + 12
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　よくある間違い", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　よくある間違い", 22, "sans", True, OLIVE)  # D5 fix run1: 23->22 (adv 409.2->391.3 vs inner 400.5)
 yy3 += 44
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 17, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
