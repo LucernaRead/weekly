@@ -12,20 +12,26 @@
 
 ## 2. Files delivered
 - 8 SVG (`svg/p1-front.svg` … `svg/p8-test.svg`) + 8 card PNGs (`cards/`).
-- Print PDF: `The-Lucerna-VOL4-en-zh-tw.pdf` — 38,152,350 bytes,
-  SHA-256 `7641031186c77653ac1263056a968ba7ce2ffb9383716c5a35cfad798e0fc334`
+- Print PDF: `The-Lucerna-VOL4-en-zh-tw.pdf` — 30,215,637 bytes,
+  SHA-256 `58112dca9cafc639314ebab97273aa5622bc323cc084bb88a11b1ab6aaa025b7`
+  [D5 rebuild, 12 Nov 2026 — see §3; pre-D5 values were print `854d0943…` 38,152,349 B,
+  web `09121c22…` 2,965,195 B.]
+  [F1+F3 fix, 12 Nov 2026 — see §3; pre-fix values were print `44dcb76d…` 30,215,246 B,
+  web `6353e450…` 2,701,246 B.]
   (CJK-font-embedding scale, like ja/ko/core-en).
-- Web PDF: `The-Lucerna-VOL4-en-zh-tw.web.pdf` — 2,965,191 bytes,
-  SHA-256 `e07e5dd048dad9ab1ed42daa6d33c2e9f0dea129538b957c06afe25627e0d177`
-  (built only with `tools/webpdf.py`; text layer 42,852 chars, identical to the print extraction — token-multiset diff 0/0; per-page byte-identical 8/8; < 7 MB).
-- `2026-w47-en-zh-tw.text.md` — 51,147 bytes, SHA-256 `57cb886738e8e23d79abe531e1f03ee7372560c5020ff02d4d6997ea117651b3`, exported from the build source (never from the PDF);
+- Web PDF: `The-Lucerna-VOL4-en-zh-tw.web.pdf` — 2,701,637 bytes,
+  SHA-256 `cd585a52bc5772230d975bd4a305119563e3f07ebc0ccd80404f73c027e242de`
+  (built only with `tools/webpdf.py`; text layer 47,885 chars by plain `pdftotext`,
+  identical to the print extraction — token-multiset diff 0/0; per-page byte-identical 8/8; < 7 MB).
+- `2026-w47-en-zh-tw.text.md` — 51,321 bytes, SHA-256 `63c7651e06e925927a2bcc97939418209657855c0073b8e0aac445f2bede8009` (F1+F3 fix, 12 Nov 2026 — see §3; pre-fix 51,144 B `cf12ebfe…`), exported from the build source (never from the PDF);
   stub registry 150 = real registry 150.
 - `ABSTRACT.txt` — one line, Traditional Chinese, no ASCII double quotes.
 - `registry.json` — fresh dump (150 keys), copied over the stale core copy from apply.py.
 - `svglib.py` is the W46 en-zh-tw file wholesale (apply.py does this for ja/zh-tw only) — verified
   byte-identical to `2026-w46-en-zh-tw/svglib.py`.
 
-## 3. Gates (all green, re-run fresh 2026-11-11 after the two fixes)
+## 3. Gates (all green, re-run fresh 2026-11-11 after the two fixes; re-run again
+2026-11-11 for the Q73 delta, §5 item 6 — all green, see there for the delta numbers)
 - run.py exit 0; 0 FLOW OVERFLOW / HEAD TOO WIDE after the P2 fix; every Flow end y ≤ its bottom
   (P8-keys 2137/2560; P2-feature 1528/1540 — tight, 12pt spare, visually clean;
   P2-ex 2532/2560).
@@ -37,12 +43,18 @@
   Freeze diff: added CJK = 775 characters (the Traditional layer; most Traditional strings share
   characters with the Simplified core, so the added count is lower than ja/ko); removed = core
   Simplified Chinese layer.
-- print/web text token-multiset diff: 0/0 (42,852 chars each; token-multiset diff 0/0; per-page byte-identical 8/8).
+- print/web text token-multiset diff: 0/0 (47,829 chars each by plain `pdftotext`;
+  token-multiset diff 0/0; per-page byte-identical 8/8). (Earlier editions of this KIT
+  quoted 42,852 chars; that figure's extraction method is not recorded and does not
+  reproduce — 47,829 is the plain-`pdftotext` byte count measured on the Q73-delta PDFs,
+  identical for print and web.)
 - `check_s11.py zh-tw`: ALL §1.1/P8 CHECKS PASS (colour set core 19 = edition 19;
   badge colours A2 #5c6e30 / B1 #46581f / B2 #37402f; P8 min font 13.5 pt ≥ 9.75;
   chip-rect counts = core per page; Q113–120 options line with [A2] tag present;
   "Levels: 145–149 [A2]" present; Q120 [A2] chip OK;
   P8 WRITING head "H　WRITING　寫作 [B1]" present).
+- **D5 rebuild + gates (12 Nov 2026; full log `hidden_files/w47/scratch-d5-rebuild-en/logs/2026-w47-en-zh-tw/GATES-SUMMARY.txt`)**: SOP §1.1 font fix — installed via `scratch-d5-plan/mechanism/apply_variant.py --target en --reader zh-tw` (mode cjk, D5 block in this edition's `svglib.py`, `_D5_READER = "cjk"`; script-based routing, no `_READER_LANG` gate; routing unit-checked with the latin case set + `_D5_READER == "cjk"`: FAILURES: 0; U+201C fix2 routing preserved — `census_quotes.py`: 0 defective, all 164 curly quotes in Newsreader). Pre-fix census: 374 Latin-in-CJK-sans elements. Post-fix defects, all D5-caused (same classes as core-en — identical overruns, same strings): (1) P1 cream-box title `THE WEEK IN NUMBERS　數字看本週` +36.5 px right → `tsize` 23 → 20 (`content12.py:43`); (2) P2 cream-box title `SENATE IN NUMBERS　參議院數字` +1.2 px right → `tsize` 23 → 22 (`content12.py:175`); (3) P3 cream-box title `HAYMITCH'S GAMES　海米奇的比賽` +17.8 px right → `tsize` 23 → 21 (`content34.py:82`); (4) P5 cream-box title `ODD SOCKS, IN NUMBERS　奇襪日` +6.3 px right → `tsize` 23 → 22 (`content56.py:22`). Layout only, text unchanged. Pre-fix baseline snapshotted from production immediately before the install (this edition was still pre-D5 when the CJK scope landed): print `854d0943…` (38,152,349 B, = KIT value), web `09121c22…` (2,965,195 B; the KIT line read 2,965,206 B / `e6e9f859…` — stale, disk-measured value used). Gates: run rc=0 TOTAL 150, MODEL 82, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; `head_check.py` PASS 0 defects; `render.py` + `webpdf.py` rc=0; `occlusion_audit.py` 0 flags (selftest OK); `p8.py extract` 60/150 (same set), `compare` **CLEAN**, keydiff=[137, 138, 139, 150] (omits 140, expected for this edition — see §3 note above); `freeze.py baseline` **8/8**; `freeze.py diff` vs core-en TOTAL added CJK 775 (the Traditional layer; most Traditional strings share characters with the Simplified core); added Latin strings 132 (D5 run-splitting); `spill_sweep.py` 0 SPILL (135 OBSERVE); `boxtitle_check.py` 0 DEFECT / 0 OBSERVE / 0 marginal (30 titles, 251 body lines); `pdf_edge_scan.py` 0 TOUCH, 0 NEAR; `d5_creambox_audit.py` **PASS 0 defects** (ratios n=425 median 1.015, bold 1.057); `d5_census.py` **PASS** — D5 Latin 0, Cyrillic 0, curly in CJK 0, 164 curly in Newsreader, `Noto Sans` elements 0; print/web `pdftotext` byte-identical, 47,680 chars (pre-fix 47,829; −149 whitespace-only, non-space multiset 33,932 identical pre/post); text.md byte-identical (`cf12ebfe…`, 51,144 B). P8: 184 → 182 lines, footer slack 34.6 → 35.6 px. **OVERALL: ALL-GREEN.** Pre-D5 baselines: print `854d0943…` (38,152,349 B), web `09121c22…` (2,965,195 B); new SHAs in §2 (print `44dcb76d…`, web `6353e450…`).
+- **F1+F3 fix (12 Nov 2026, proof-round defects F1 + F3; work log in `hidden_files/w47/scratch-fix-en/FIX-LOG.md`, gates in `hidden_files/w47/scratch-fix-en/logs/2026-w47-en-zh-tw/`):** F1 — P2 :185 + P6 :651 rewritten as settled law + result (Georgia law calls for a Dec 1 runoff only if no one wins a majority — AP called Jon Ossoff reelected 3 Nov, ~59%, so no runoff); Q13/Q142 untouched (rule questions, answers still 1 December); source `content12.py:171` + `content56.py:103`. F3 — P8 answer 13 note :1031 `決勝輪 12 月 1 日` → `第二輪投票 12 月 1 日` (source `content12.py:257`); the printed P8 key prints only `13. 1`, so F3 lives only in the text.md answers appendix + registry note. text.md re-exported with `scratch-fix-en/make_textmd_fix.py` (diff exactly the 3 lines :185/:651/:1031, no title lost). Full rebuild + gates ALL-GREEN: run rc=0 TOTAL 150 MODEL 82, 0 overflow; head_check PASS; occlusion 0 flags (selftest OK); p8 extract 60/150, compare CLEAN, keydiff=[137, 138, 139, 150] (omits 140, expected — see §3 note above); freeze baseline 8/8; freeze diff added CJK 775 (Traditional layer), added Latin 132; spill 0 (138 OBSERVE); boxtitle 0 DEFECT / 0 OBSERVE / 0 marginal (30 titles, 251 body lines); edge 0 TOUCH, 0 NEAR; creambox PASS 0 defects (P8 182 lines, slack 35.6); census PASS — D5 Latin 0, Cyrillic 0, curly in CJK 0, 164 curly in Newsreader, `Noto Sans` elements 0; print/web text layers byte-identical. New deliverables: print 30,215,637 B SHA-256 `58112dca…` (was 30,215,246 B `44dcb76d…`), web 2,701,637 B `cd585a52…` (was 2,701,246 B `6353e450…`), text 51,321 B `63c7651e…` (was 51,144 B `cf12ebfe…`); text layer 47,885 chars by plain `pdftotext` (was 47,680).
 - **Script gate (OpenCC s2t, this edition only):** registry.json + text.md + all 8 SVGs convert
   to themselves with 0 differences (re-run in this rebuild — see §5 item 4 for the first-build
   宣佈 fix that closed it) — zero Simplified characters anywhere in the edition's deliverables.
@@ -146,11 +158,57 @@
    in Simplified and Traditional, so it does not differ from the core); registry vs P8
    extract 149/150 exact + n=150 short-label exception; registry keys vs core 145/150 (diff
    only the 5 reader-language keys 137–140, 150); `freeze.py baseline` 8/8 SVGs byte-identical;
-   `freeze.py diff` TOTAL added CJK 775; print/web text layers 42,852 chars each,
+   `freeze.py diff` TOTAL added CJK 775; print/web text layers 47,829 chars each
+   (plain `pdftotext`; the 42,852 figure quoted in the first build is not reproducible),
    token-multiset diff 0/0, per-page byte-identical 8/8; `check_s11.py` ALL PASS; source
    boxtitle sweep 12/12 fit; SVG boxtitle sweep 18/18 fit; canonical `creambox.py` scan: all
    inside-only clearances positive; P8 min PDF font 10.12 pt ≥ 9.75 pt; SVG zero real CJK
    (Traditional layer — OpenCC s2t 0 differences, see above).
+   **Correction to the registry-vs-core line above:** the pre-delta diff set was
+   {Q73, 137, 138, 139, 150} (Q73 `speak` vs core `up` + the 4 reader-language keys),
+   **not** 137–140 + 150 — Q140 "打破沉默。" is byte-identical in core and edition
+   (verified 2026-11-11 from both registry.json files). The count 145/150 was right;
+   the membership was misstated.
+6. **Q73 delta (2026-11-11, core-en fix2 sync — this rebuild, ONLY change in the edition).**
+   Core-en fix2 changed the Q73 key "speak" → "up" (stem "Speak ___: tell a teacher.",
+   note "speak up = 大聲說出來" untouched); re-proof (a) passed. This edition synced the
+   one key in `content56.py:49` only — no other file, line or value touched by hand.
+   Pre-rebuild pins (verified before the edit): print PDF
+   `76410311…fc334` / 38,152,350 B; web PDF `e07e5dd0…d177` / 2,965,191 B; text.md
+   `57cb8867…51b3` / 51,147 B; registry Q73 key `speak`; text.md L1151 `speak`;
+   P8 "73. speak". Post-rebuild: print PDF `854d0943…3468` / 38,152,349 B; web PDF
+   `e6e9f859…41bb` / 2,965,206 B; text.md `cf12ebfe…2e2b` / 51,144 B; registry.json
+   `ee44f57d…df3c`. Registry diff exactly 1 line (n=73 `speak`→`up`); text.md diff
+   exactly 1 line (L1151); Q73 four sources agree on `up` (registry, text.md, P8
+   "73. up", P5 stem "Speak ___: tell a teacher." + "to speak up" gloss). SVG bytes:
+   only p8-test.svg changed vs pre-rebuild — correct and expected, not an anomaly:
+   the Q73 key appears only on the P8 answers page; P5 prints only the `Speak ___`
+   blank + the `speak up` gloss and never carries the key (the en-es delta confirmed
+   the same pattern: p8 carries `73. up`, p5 byte-identical). **ABSTRACT.txt preserved:** SHA
+   `47750881…f16` before and after (first line "已宣佈結果", "宣布" 0×); run.py does
+   not generate it. Delta gates (logs in
+   `hidden_files/w47/scratch-delta-en-zh-tw/gates/`): run.py rc=0, TOTAL 150, 0
+   OVERFLOW; freeze baseline: edition rebuild 8/8 (`--build` = this edition's own
+   build dir, `--core-svg` = its shipped `svg/`, shipped edition SVGs unchanged by
+   the run) + core read-only对照 8/8 (core-en rebuild reproduces shipped core SVGs,
+   core untouched); freeze diff TOTAL added
+   CJK 775, only p8 differs from the pre-delta diff; occlusion 0 flags; p8 extract
+   60/150 noted, compare CLEAN, keydiff [137, 138, 139, 150]; keycheck registry-vs-P8
+   149/150 + n=150 exception, extract keys 150/150, registry-vs-core now only the 4
+   reader-language keys {137, 138, 139, 150} (Q73 matches core); print/web text
+   layers per-page byte-identical 8/8, token diff 0; check_s11 ALL PASS, P8 min font
+   13.5 SVG units = 10.125 PDF pt ≥ 10 pt; creambox true-ink STRADDLE 0 / COVER 0
+   (32 boxes, min ink bottom clearance +2.5 px, P2 box — pre-existing, P2
+   byte-identical; canonical scan 32 boxes, 0 inside-only negatives; one
+   desc-clear −1.5 px is a 0.30×fontsize estimate on a CJK line with no descender,
+   true ink +2.5 px); OpenCC s2t 0 diffs on ABSTRACT + registry + text.md + 8 SVGs;
+   150-key/stem fit review: all 78 fill-in/rewrite/translation/dialogue/cloze keys fit
+   their blanks (incl. Q73 `up` in "Speak ___"), 51 MCQ keys all valid option letters,
+   20 match keys all a–d with matching notes; 3 duplicate stems (Q2/Q95, Q5/Q96,
+   Q6/Q12) are core-identical P6 revisits, keys fitting, not a delta defect; 8 cards
+   visually checked, clean (P2 Q19 blank tight at the bottom as before, 2532/2560).
+   D5 fonts recorded only: print + web PDFs 43 font objects each, all embedded+subset.
+   Evidence: `hidden_files/w47/scratch-delta-en-zh-tw/DELTA-NOTE.md`.
 
 ## 6. Self-check (2026-11-11)
 - Full read of `2026-w47-en-zh-tw.text.md` (all ~1,306 lines): zero issues (after the two fixes).
