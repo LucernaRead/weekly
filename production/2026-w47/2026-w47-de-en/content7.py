@@ -90,7 +90,7 @@ _last_base = _tb_y - 6 - 20.5 * 1.42
 tbh = _last_base - CTOP + 16
 p.rect(ix, CTOP, CW, tbh, fill=BOX)
 yy3 = CTOP + 16
-p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Toolbox", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Toolbox", 21, "sans", True, OLIVE)  # D5 (2026-11-12): @23pt 423.1px ran +23.0px past the box; @21pt 386.4px fits 400.5. No wording change.
 yy3 += 52
 for t in tb:
     yy3 = p.para(ix + 22, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 44, 1.42) + 6

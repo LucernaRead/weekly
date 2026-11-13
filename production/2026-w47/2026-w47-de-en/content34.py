@@ -14,7 +14,7 @@ p.band("KULTUR　Culture", "Die Lucerna", "A2 → B1　Weihnachtsmärkte & die s
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
 f.title("Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu", 32)
 f.byline("Von der Lucerna-Redaktion　Leseniveau: A2 → B1")
-f.para("Am Montag, dem 16. November, öffnen in Köln die ersten Weihnachtsmärkte: der Markt am Dom auf dem Roncalliplatz und der Markt der Engel auf dem Neumarkt. Beide Märkte sind bis zum 23. Dezember geöffnet — mit einer Ausnahme.")
+f.para("Am Montag, dem 16. November, öffnen in Köln zwei große Weihnachtsmärkte: der Markt am Dom auf dem Roncalliplatz und der Markt der Engel auf dem Neumarkt. Beide Märkte sind bis zum 23. Dezember geöffnet — mit einer Ausnahme.")
 f.para("Die Ausnahme ist der Sonntag, der 22. November: Totensonntag. An diesem stillen Tag bleiben die Märkte geschlossen. Erst am Montag öffnen sie wieder. Auch der Hafenweihnachtsmarkt am Schokoladenmuseum ist schon seit dem 13. November geöffnet.")
 f.para("Was gibt es auf einem Weihnachtsmarkt? Kleine Holzbuden mit Kunsthandwerk, Kerzen und Spielzeug. Dazu Glühwein für die Erwachsenen, Kinderpunsch für die Kinder — und überall der Duft von gebrannten Mandeln und Lebkuchen. Vor dem Dom steht ein großer, geschmückter Weihnachtsbaum.")
 f.para("Ein Blick zurück: Vor fast 100 Jahren sah ein Weihnachtsmarkt noch ganz anders aus. Ein Gemälde von Wilhelm Ritter aus dem Jahr 1930 zeigt einen Weihnachtsmarkt in Nürnberg — auf der vorderen Insel Schütt: Holzbuden, Menschen, Lichter — und doch schon dieselbe Stimmung wie heute. Mehr dazu beim Bild auf dieser Seite.")
@@ -55,7 +55,7 @@ sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "WEIHNACHTSWÖRTER　Words", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "WEIHNACHTSWÖRTER　Words", 22, "sans", True, OLIVE)  # D5 (2026-11-12): @24pt 402.2px ran +1.9px past the box; @22pt 368.7px fits 400.5. No wording change.
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -100,9 +100,9 @@ e.ex("A2", "true/false", "Richtig", "Official opening 17 November, 19.00",
      "Die offizielle Eröffnung am Dom ist am 17. November um 19 Uhr. Richtig oder falsch?", instr="True or false?", size=22, gap=8)
 e.head("B　WÖRTER AUS DEM TEXT", 25)
 e.bridge("Complete with the words from the box.")
-e.para("Weihnachtsmarkt · Glühwein · Lebkuchen · Advent · Weihnachtsbaum", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("A2", "fill-in", "Weihnachtsmarkt", "Christmas market",
-     "Am Montag öffnet in Köln der erste ___.", instr="Fill in", size=22, gap=8)
+e.para("Weihnachtsmärkte · Glühwein · Lebkuchen · Advent · Weihnachtsbaum", 20, "sans", True, OLIVE, 1.35, 6)
+e.ex("A2", "fill-in", "Weihnachtsmärkte", "Christmas market",
+     "Am Montag öffnen in Köln der Markt am Dom und der Markt der Engel, zwei große ___.", instr="Fill in", size=22, gap=8)
 e.ex("A2", "fill-in", "Glühwein", "mulled wine",
      "Die Erwachsenen trinken auf dem Markt ___.", instr="Fill in", size=22, gap=8)
 e.ex("A2", "fill-in", "Lebkuchen", "gingerbread",
@@ -160,13 +160,13 @@ cy3 = caption(p, bx, 670, CW, "Kopfball im Spiel: So sieht ein Duell in der Luft
               "Foto: DVIDS (Armed Forces Soccer Championship, Destin, Florida, 2010) — public domain")
 ey3 = cy3 + 26
 etvous = "Und Sie? Bundesliga oder Nationalelf? Wer gewinnt in München? Schreiben Sie zwei Sätze auf Deutsch!"
-eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("Bundesliga or national team? Who wins in Munich? Write two German sentences!", "sans", False, 20, CW - 44)) - 1)
+eh = 140 + 30.53 * len(wrap(etvous, "serif", False, 21.5, CW - 44)) + 29 * (len(wrap("Bundesliga or national team? Who wins in Munich? Write two sentences!", "sans", False, 20, CW - 44)) - 1)  # D5 (2026-11-12): the English gloss wrapped to 3 lines in Newsreader (was 2 in CJK Sans) and its last line 'sentences!' was covered by the table band below (occlusion COVER 51%); shortened gloss wraps to 2 lines again. German prompt above still says 'auf Deutsch'.
 p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
 p.text(bx + 22, yy3 + 26, "UND SIE?　And you?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(bx + 22, yy3 + 20, "Bundesliga or national team? Who wins in Munich? Write two German sentences!", 20, "sans", False, GREY, CW - 44, 1.42)
+p.para(bx + 22, yy3 + 20, "Bundesliga or national team? Who wins in Munich? Write two sentences!", 20, "sans", False, GREY, CW - 44, 1.42)
 print("P4 col3 ends", ey3 + eh)
 
 # ---- results + fixture table (full width) ----

@@ -218,7 +218,7 @@ for pg, grp in groupby(REG, key=lambda e: e["page"]):
         if e["note"]:
             s += f" ({e['note']})"
         parts.append(s)
-    kf.para("·".join(parts), 13.25, "sans", False, INK, 1.18, 4)
+    kf.para(" · ".join(parts), 13.25, "sans", False, INK, 1.18, 4)
 kf.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-uebungen.svg")

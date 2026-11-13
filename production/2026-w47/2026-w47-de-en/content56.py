@@ -14,13 +14,13 @@ p.band("JUGEND　Youth", "Die Lucerna", "LEVEL B1　Adventskalender, Wunschzette
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P5-main")
 f.title("Adventskalender basteln: 24 Türchen bis Weihnachten", 32)
 f.byline("Von der Lucerna-Redaktion　Leseniveau: B1")
-f.para("Am Montag, dem 16. November, öffnen in Köln die ersten Weihnachtsmärkte. Aber für Kinder beginnt die schönste Zeit erst am 1. Dezember: Dann öffnet sich das erste Türchen des Adventskalenders. Bis dahin bleibt Zeit zum Basteln.")
+f.para("Am Montag, dem 16. November, öffnen in Köln zwei große Weihnachtsmärkte. Aber für Kinder beginnt die schönste Zeit erst am 1. Dezember: Dann öffnet sich das erste Türchen des Adventskalenders. Bis dahin bleibt Zeit zum Basteln.")
 f.para("Was ist ein Adventskalender? Ein Kalender mit 24 Türchen — für jeden Dezembertag bis Weihnachten eines. Hinter jedem Türchen wartet eine kleine Überraschung. Das kann Schokolade, ein Bild oder ein Spruch sein. Viele Familien basteln ihren Kalender selbst: aus Papier, Pappe und viel Fantasie.")
-f.para("So alt ist die Idee: Schon im Jahr 1903 gab es einen Adventskalender mit dem Titel „Im Lande des Christkinds“. Die Kinder konnten die Fenster mit Bildern überkleben. Das Bild auf dieser Seite zeigt ihn — über 120 Jahre alt, und die Idee lebt noch heute.")
+f.para("So alt ist die Idee: Schon im Jahr 1903 gab es einen Adventskalender mit dem Titel „Im Lande des Christkinds“. Die Kinder konnten die Bilder ausschneiden und auf den Kalender kleben. Das Bild auf dieser Seite zeigt ihn — über 120 Jahre alt, und die Idee lebt noch heute.")
 f.para("Und der Wunschzettel? Im November schreiben viele Kinder ihren Wunschzettel für Weihnachten. Was steht darauf? Ein Buch, ein Spiel, ein Fahrrad — oder ein Besuch auf dem Weihnachtsmarkt. Der Wunschzettel kommt ans Fenster oder geht per Post an das Christkind oder den Weihnachtsmann.")
 f.para("Was macht man nach der Schule im dunklen November? Lesen, was man im Herbst begonnen hat, oder einen Adventskalender basteln. In vielen Familien brennt im Advent eine Kerze auf dem Tisch, und auf dem Kalender leuchtet ein Stern. Unser Tipp: Suchen Sie sich ein Buch für die dunklen Abende — die Bibliotheken haben im November oft neue Bücher und Lesungen. Und wer Sport mag: Am Freitag kehrt die Bundesliga zurück.")
 f.para("Auch der Fußball gehört zur Woche: Am Montag spielt die Nationalmannschaft in Berlin gegen die Niederlande — viele Jugendliche schauen das Spiel im Fernsehen. Am Freitag spielt der FC Bayern gegen Köln. Mehr dazu auf Seite 4.")
-f.gloss("der Adventskalender = Advent calendar · das Türchen = little door · der Wunschzettel = wish list · das Christkind = Christ Child · basteln = to make, to craft · überkleben = to cover by gluing.")
+f.gloss("der Adventskalender = Advent calendar · das Türchen = little door · der Wunschzettel = wish list · das Christkind = Christ Child · basteln = to make, to craft.")
 f.end_report()
 
 # col 3: facts + vocab + Und Sie (hand-rolled; CORRECTED height formula — see W45 KIT §geometry)
@@ -43,7 +43,7 @@ sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "ADVENTSWÖRTER　Advent words", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "ADVENTSWÖRTER　Advent words", 22, "sans", True, OLIVE)  # D5 (2026-11-12): @24pt 431.0px ran +30.4px past the box; @22pt 395.2px fits 400.5 (kept at 22, not 21, so the title stays above boxtitle_check's 22pt detection floor). No wording change.
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -130,7 +130,7 @@ e.ex("B1", "transformation", "Köln feiert, weil die Weihnachtsmärkte öffnen."
 e.head("D　RICHTIG ODER FALSCH?", 25)
 e.bridge("Right or wrong?")
 e.ex("A2", "true/false", "Richtig", "Cologne markets open 16 November",
-     "Am 16. November öffnen in Köln die ersten Weihnachtsmärkte. Richtig oder falsch?", instr="True or false?", size=22, gap=8)
+     "Am 16. November öffnen der Markt am Dom und der Markt der Engel. Richtig oder falsch?", instr="True or false?", size=22, gap=8)
 e.ex("B1", "true/false", "Falsch", "Surprise behind each door",
      "Hinter jedem Türchen wartet nichts. Richtig oder falsch?", instr="True or false?", size=22, gap=8)
 e.ex("A2", "true/false", "Richtig", "Children write wish lists to the Christ Child",

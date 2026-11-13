@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　Numbers", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (Germany have 5 points after four games)", "serif", False, INK, 20.5, 1.35),
     ("20.30 — Anstoß Bayern gegen Köln am Freitagabend (Bayern v Cologne 20.30)", "serif", False, INK, 20.5, 1.35),
     ("30 — Tore fielen am 9. Spieltag der Bundesliga (30 goals, matchday 9)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 (2026-11-12): Newsreader SemiBold widens the German head; title ran +13.8px past the box at 23pt. tsize 22 -> 399.9px fits 404.5 (kept at 22, not 21, so the title stays above boxtitle_check's 22pt detection floor). No wording change.
 f.head("JETZT ÜBEN　Practise now", 25)
 f.ex("A2", "fill-in", "Bundesliga", "The Bundesliga is back",
      "Diese Woche ist die ___ zurück: Bayern spielt gegen Köln.", size=22)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Germany's five hot questions this week.", 19, "sans",
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　In this issue", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　In this issue", 22, "sans", True, OLIVE)  # D5 (2026-11-12): @24pt 428.1px ran +27.5px past the box; @22pt 392.4px fits 400.5. No wording change.
 som = [
     ("S.2", "Buß- und Bettag & Alltag", "A2"),
     ("S.3", "Weihnachtsmärkte & Stille", "A2→B1"),
@@ -121,7 +121,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: Staff Sgt. Stephanie Jacobs, U.S. Air Force — public domain")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-fussball")
-f2.head("EINE WOCHE, ZWEI STIMMUNGEN", 25)
+f2.head("EINE WOCHE, ZWEI STIMMUNGEN", 22)  # D5 (2026-11-12): @25pt the head is 468.0px > column 422.5px (HEAD TOO WIDE); @22pt 411.8px fits. No wording change.
 f2.para("Freitagabend in München, Sonntag still im ganzen Land: Erst die Bundesliga, dann der Totensonntag — eine Woche, zwei Stimmungen.", 22.5)
 f2.para("Und am Montag? Da öffnen in Köln die Weihnachtsmärkte — mitten in der stillen Woche. Der November kann beides: laut und leise.", 22.5)
 f2.end_report()
@@ -218,7 +218,7 @@ sy3 = ey3 + eh + 26
 sh = 45 + 33 * len(zew) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zew)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "DIE STILLE WOCHE　A quiet week", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DIE STILLE WOCHE　A quiet week", 22, "sans", True, OLIVE)  # D5 (2026-11-12): @24pt 426.3px ran +26.1px past the box; @22pt 390.9px fits 400.5. No wording change.
 yy3 += 52
 for t in zew:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
