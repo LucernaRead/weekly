@@ -1,0 +1,22 @@
+# measure-venv regeneration record — captured 2026-11-13 before harvest deletion
+# venv created by: /usr/bin/python3 -m venv <path>  (see pyvenv.cfg below)
+# regenerate with: /usr/bin/python3 -m venv <path> && <path>/bin/pip install -r <this file>
+# --- pyvenv.cfg ---
+home = /usr/bin
+include-system-site-packages = false
+version = 3.12.3
+executable = /usr/bin/python3.12
+command = /usr/bin/python3 -m venv /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ko/measure-venv
+# --- pip freeze ---
+flatbuffers==25.12.19
+networkx==3.7
+numpy==2.5.4
+onnxruntime==1.31.1
+packaging==26.3
+protobuf==7.36.2
+psutil==7.2.2
+pymupdf==2.1
+pymupdf4llm==2.1
+pymupdf_layout==2.1
+PyYAML==6.0.3
+tabulate==0.10.0
