@@ -33,20 +33,25 @@ Subcommands:
 Exit: baseline 0 iff 8/8 identical; diff 0 normally, 1 with --strict-cjk
 when CJK was added. Run with tools/venv/bin/python.
 
-Runtime guard (2026-11-11): the stack is per family, not one global
-mandate — build == freeze == core within a family. The canonical stack
-is tools/venv (Pillow 13.0.0, pinned in tools/requirements.txt), and
-main() asserts Pillow major version 13 for every path — EXCEPT the ko
-family (core-ko and the 2026-w47-ko-* editions under production/),
-which was built on system python3 (Pillow 10.2.0 / FreeType 2.13.2):
-the venv measures the same Korean strings ~1.1% wider (~+1.11px per
-Korean-space boundary), moving every line break, so a venv freeze of a
-ko edition is 0/8 by construction — a recorded control, not a gate
-failure (core-ko WEEKLY-KIT.md fix #15, Round 10). For ko paths main()
-therefore asserts Pillow major version 10. pt-ko was realigned to the
-venv core; ko stays on the system stack. The guard prints executable /
-Pillow / FreeType versions in every run, so a wrong interpreter fails
-loudly instead of silently producing numbers.
+Runtime guard (2026-11-11, revised 2026-11-13 scheme (b)): the stack is
+per edition, not one global mandate and not one rule per family —
+build == freeze == core for the edition being gated. The canonical
+stack is tools/venv (Pillow 13.0.0, pinned in tools/requirements.txt).
+A ko edition built BEFORE D5 (no _D5_READER marker in its svglib.py)
+still carries system-python3-built SVGs (Pillow 10.2.0 /
+FreeType 2.13.2): the venv measures the same Korean strings ~1.1%
+wider (~+1.11px per Korean-space boundary), moving every line break,
+so a venv freeze of such an edition is 0/8 by construction — a
+recorded control, not a gate failure (core-ko WEEKLY-KIT.md fix #15,
+Round 10). For those pre-D5 ko editions main() still asserts Pillow
+major version 10. A D5-rebuilt edition (svglib.py carries
+`_D5_READER = "<mode>"`) was rebuilt with the venv, so main() asserts
+Pillow 13 for it — the ko path alone no longer forces Pillow 10, and
+there is no system-python3 exception for D5-rebuilt editions. pt-ko
+was realigned to the venv core; ko follows the same rule once
+rebuilt. The guard prints executable / Pillow / FreeType versions in
+every run (D12 version report), so a wrong interpreter fails loudly
+instead of silently producing numbers.
 """
 import argparse, hashlib, json, os, re, shutil, subprocess, sys, time
 from collections import Counter
@@ -54,21 +59,30 @@ from collections import Counter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 
-# ---------------- runtime guard (2026-11-11), per family ----------------
-# Stack consistency is per family (build == freeze == core), not a single
-# global venv mandate. The canonical stack is tools/venv (SOP; Pillow
-# pinned 13.0.0 in tools/requirements.txt) — EXCEPT the ko family, whose
-# shipped SVGs were built on system python3 (Pillow 10.2.0 /
-# FreeType 2.13.2): the venv stack measures Korean ~1.1% wider
-# (~+1.11px per space boundary; 40px: 991.3 vs 1002.2) and re-wraps
-# every line, so a venv freeze of a ko edition is 0/8 by construction
-# (core-ko WEEKLY-KIT.md fix #15, Round 10) — a recorded control, not
-# a gate failure. The W47 pt-ko 0/8 freeze was the same mismatch in the
-# other direction (freeze ran venv against system-built SVGs); pt-ko
-# was realigned to the venv core, while ko stays on the system stack.
-# A wrong interpreter must therefore fail loudly, against the family's
-# own required major: ko family paths REQUIRE Pillow 10, all other
-# paths REQUIRE Pillow 13.
+# ---------------- runtime guard (2026-11-11; scheme (b) 2026-11-13) -----
+# Stack consistency is per edition (build == freeze == core), not a
+# single global venv mandate and no longer one rule per family. The
+# canonical stack is tools/venv (SOP; Pillow pinned 13.0.0 in
+# tools/requirements.txt). How the required Pillow major is decided
+# (required_pillow_major):
+#   1. If the edition being gated carries the D5 marker (`_D5_READER =`
+#      in its svglib.py), it was rebuilt with the venv: REQUIRE 13.
+#      This is what flips a ko edition from the legacy system stack to
+#      the venv the moment it is D5-rebuilt — there is no
+#      system-python3 exception for D5-rebuilt editions, and no
+#      rename-the-path workaround: the marker, not the path, decides.
+#   2. Otherwise fall back to the path rule: ko family paths (core-ko
+#      or <week>-ko-*) still REQUIRE 10, because their shipped SVGs
+#      were built on system python3 (Pillow 10.2.0 / FreeType 2.13.2)
+#      and the venv measures Korean ~1.1% wider (~+1.11px per space
+#      boundary; 40px: 991.3 vs 1002.2), re-wrapping every line, so a
+#      venv freeze of a pre-D5 ko edition is 0/8 by construction
+#      (core-ko WEEKLY-KIT.md fix #15, Round 10) — a recorded control,
+#      not a gate failure. The W47 pt-ko 0/8 freeze was the same
+#      mismatch in the other direction; pt-ko was realigned to the
+#      venv core, and ko follows once rebuilt.
+# A wrong interpreter must therefore fail loudly, against the
+# edition's own required major.
 REQUIRED_PILLOW_MAJOR = 13
 KO_REQUIRED_PILLOW_MAJOR = 10
 
@@ -103,30 +117,72 @@ def is_ko_family_path(path):
     return any(p == "core-ko" or re.match(r"^\d{4}-w\d+-ko-", p) for p in parts)
 
 
+_D5_MARKER_RE = re.compile(r'^_D5_READER\s*=\s*["\']', re.M)
+
+
+def has_d5_marker(edition_dir):
+    """True if <edition_dir>/svglib.py carries the D5 install marker
+    (`_D5_READER = "<mode>"`). Missing/unreadable svglib.py -> False
+    (caller falls back to the path rule). The regex requires a quote
+    after `=` so a comment mentioning `_D5_READER == "..."` cannot
+    false-positive."""
+    if not edition_dir:
+        return False
+    try:
+        with open(os.path.join(edition_dir, "svglib.py"), encoding="utf-8") as f:
+            return bool(_D5_MARKER_RE.search(f.read()))
+    except (OSError, UnicodeDecodeError):
+        return False
+
+
+def edition_dir_for_svg_dir(svg_dir):
+    """Edition dir owning an svg dir: the svg dir's parent, when that
+    parent holds svglib.py; else None (bare svg dir, no marker to read)."""
+    if not svg_dir:
+        return None
+    parent = os.path.dirname(os.path.abspath(svg_dir))
+    return parent if os.path.isfile(os.path.join(parent, "svglib.py")) else None
+
+
 def required_pillow_major(args):
-    """Pillow major this run must see, from the paths it touches:
-    10 for the ko family, 13 everywhere else."""
-    paths = ([args.build, args.core_svg] if args.cmd == "baseline"
-             else [args.core_svg, args.edition_svg])
+    """Pillow major this run must see, from the edition(s) it touches:
+    13 when the edition carries the D5 marker (venv-rebuilt), else the
+    path rule (10 for the pre-D5 ko family, 13 everywhere else).
+    baseline reads the marker from --build; diff reads it from the
+    edition-svg dir's owning edition dir, then the core-svg dir's."""
+    if args.cmd == "baseline":
+        if has_d5_marker(args.build):
+            return REQUIRED_PILLOW_MAJOR
+        paths = [args.build, args.core_svg]
+    else:
+        for svg_dir in (args.edition_svg, args.core_svg):
+            ed = edition_dir_for_svg_dir(svg_dir)
+            if ed is not None and has_d5_marker(ed):
+                return REQUIRED_PILLOW_MAJOR
+        paths = [args.core_svg, args.edition_svg]
     return (KO_REQUIRED_PILLOW_MAJOR
             if any(is_ko_family_path(p) for p in paths)
             else REQUIRED_PILLOW_MAJOR)
 
 
 def check_runtime_env(required_major=REQUIRED_PILLOW_MAJOR):
-    """Print the runtime line; abort (exit 2) unless the Pillow major
-    matches the family's required stack (10 = ko family, 13 = default).
-    A ko abort cites core-ko WEEKLY-KIT.md fix #15."""
+    """Print the runtime line (D12 version report: executable, Pillow,
+    FreeType); abort (exit 2) unless the Pillow major matches the
+    edition's required stack (13 = D5-rebuilt or non-ko, 10 = pre-D5 ko
+    family). A ko abort cites core-ko WEEKLY-KIT.md fix #15."""
     exe, pillow, freetype = runtime_env()
     print(f"runtime: {exe} | Pillow {pillow} | FreeType {freetype}")
     major = pillow.split(".")[0] if pillow not in ("MISSING", "unknown") else None
     if major != str(required_major):
         if required_major == KO_REQUIRED_PILLOW_MAJOR:
-            print(f"ABORT: ko family builds on system python3 (Pillow 10.x) — "
-                  f"core-ko WEEKLY-KIT.md fix #15: the venv (Pillow 13) measures "
+            print(f"ABORT: this ko edition has no _D5_READER marker — its shipped "
+                  f"SVGs were built on system python3 (Pillow 10.x) "
+                  f"(core-ko WEEKLY-KIT.md fix #15: the venv (Pillow 13) measures "
                   f"Korean ~1.1% wider and re-wraps every line, so a venv freeze "
-                  f"of a ko edition is 0/8 by construction. Got Pillow {pillow} "
-                  f"at {exe}; re-run with /usr/bin/python3.", file=sys.stderr)
+                  f"of a pre-D5 ko edition is 0/8 by construction). Got Pillow {pillow} "
+                  f"at {exe}; re-run with /usr/bin/python3. Once the edition is "
+                  f"D5-rebuilt (svglib.py carries _D5_READER), re-run with "
+                  f"tools/venv/bin/python.", file=sys.stderr)
         else:
             print(f"ABORT: canonical stack is tools/venv Pillow {required_major}.x "
                   f"(got Pillow {pillow} at {exe}); re-run with tools/venv/bin/python. "
