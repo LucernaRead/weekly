@@ -235,7 +235,7 @@ p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
 p.text(MX, ey + 28, "EXERCÍCIOS　第2版练习", 28, "sans", True, OLIVE)
 p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A　COMPREENSÃO", 25)
+e.head("A　COMPREENSÃO", 22)
 e.bridge("读第 2 版文章，选出正确答案。")
 e.ex("A2", "单选", "B", "黑人意识日在 11 月 20 日",
      "O feriado da Consciência Negra é... A. no dia 15 · B. no dia 20 · C. no dia 27", size=20, gap=8)
@@ -247,7 +247,7 @@ e.ex("A2", "单选", "B", "假日公交可能减班",
      "No feriado, o transporte... A. para sempre · B. pode rodar em horário reduzido · C. é grátis", size=20, gap=8)
 e.ex("A2", "单选", "B", "黑五在 11 月 27 日",
      "A Black Friday é... A. no dia 20 · B. no dia 27 · C. no dia 15", size=20, gap=8)
-e.head("B　O PRESENTE", 25)
+e.head("B　O PRESENTE", 22)
 e.bridge("补全动词的现在时形式。")
 e.ex("A2", "完成句子", "cai", "cair 现在时 ele 形式：cai",
      "O feriado ___ (cair) numa sexta-feira.", instr="填空", size=20, gap=8)
@@ -259,7 +259,7 @@ e.ex("A2", "完成句子", "abrem", "abrir 现在时 elas 形式：abrem",
      "As lojas ___ (abrir) em horário especial.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "aproveita", "aproveitar 现在时 você 形式：aproveita",
      "Você ___ (aproveitar) o feriadão?", instr="填空", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.bridge("用第 1、2 版的数字填空。")
 e.ex("A2", "完成句子", "3", "20、21、22 日共 3 天",
      "O feriadão tem ___ dias.", instr="填空", size=20, gap=8)
@@ -269,7 +269,7 @@ e.ex("B1", "完成句子", "2023", "2023 年立法，定为全国假日",
      "A Lei nº 14.759 é de ___ .", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "27", "黑五在 11 月 27 日",
      "A Black Friday é no dia ___ de novembro.", instr="填空", size=20, gap=8)
-e.head("D　AS PALAVRAS", 25)
+e.head("D　AS PALAVRAS", 22)
 e.match_set("A2", "词汇配对",
             ["o feriadão", "a folga", "a programação", "aproveitar"],
             ["um fim de semana longo com feriado",

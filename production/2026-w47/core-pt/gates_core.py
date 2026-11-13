@@ -52,6 +52,18 @@ def joined(path):
     els, _ = svg_texts_full(path)
     return re.sub(r'\s+', ' ', ' '.join(e['s'] for e in els)).strip()
 
+def squashed(s):
+    """Whitespace-insensitive form for substring checks. D5 splits one
+    source string into several <text> runs (Latin/digits -> Newsreader,
+    CJK stays), so joined() inserts a space where the source had none
+    ('第 1 版' for '第1版', '2 。' for '2。'). The characters and their
+    order are unchanged (pdftotext still extracts '第1版／共8版');
+    only the check comparison must ignore the split-induced spaces.
+    Used ONLY for the two checks whose targets contain CJK+digit mixes;
+    the other checks keep the strict joined() form (e.g. the VOL.3
+    residue check must not match across a real 'VOL.3' citation)."""
+    return re.sub(r'\s+', '', s)
+
 PAGES = ['p1-capa', 'p2-vida', 'p3-cultura', 'p4-esporte', 'p5-jovens', 'p6-aprofundamento', 'p7-lingua', 'p8-avaliacao']
 EDSVG = {p: os.path.join(ED, 'svg', p + '.svg') for p in PAGES}
 for p in PAGES:
@@ -62,8 +74,8 @@ check('P1 VOL.4 + week dates', 'VOL. 4' in p1 and 'SEMANA DE 16 A 22 DE NOVEMBRO
 check('P1 subtitle topics', 'CONSCIÊNCIA NEGRA' in p1 and 'GABARITO DO ENEM' in p1 and 'A FINAL DA COPA' in p1, 'subtitle line')
 foot_ok = True
 for i, p in enumerate(PAGES, 1):
-    j = joined(EDSVG[p])
-    if 'A Lucerna 葡萄牙语周报 VOL.4 LUCERNA PORTUGUESE WEEKLY' not in j or f'第{i}版／共8版' not in j:
+    j = squashed(joined(EDSVG[p]))
+    if squashed('A Lucerna 葡萄牙语周报 VOL.4 LUCERNA PORTUGUESE WEEKLY') not in j or squashed(f'第{i}版／共8版') not in j:
         foot_ok = False
 check('footer+page line 8/8', foot_ok, 'VOL.4 ZH footer + page line on all pages')
 allj = ' '.join(joined(EDSVG[p]) for p in PAGES)
@@ -162,10 +174,10 @@ t7src = open(os.path.join(BUILD, 'content7.py'), encoding='utf-8').read()
 quotes = re.findall(r'\("«([^»]+)»", "([^"]+)", "(Página \d)"\)', t7src)
 qok, qdet = True, []
 for q, cn, pg in quotes:
-    n = allj.count(q)
+    n = squashed(allj).count(squashed(q))
     pgn = {'Página 1': 'p1-capa', 'Página 2': 'p2-vida', 'Página 3': 'p3-cultura', 'Página 4': 'p4-esporte', 'Página 5': 'p5-jovens', 'Página 6': 'p6-aprofundamento'}[pg]
-    onpage = q in joined(EDSVG[pgn])
-    onp7 = (cn + ' (' + pg + ')') in joined(EDSVG['p7-lingua'])
+    onpage = squashed(q) in squashed(joined(EDSVG[pgn]))
+    onp7 = squashed(cn + ' (' + pg + ')') in squashed(joined(EDSVG['p7-lingua']))
     if not (n == 2 and onpage and onp7):
         qok = False
     qdet.append((q[:30], n, onpage, onp7))

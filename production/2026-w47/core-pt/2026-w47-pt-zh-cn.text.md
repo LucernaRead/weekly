@@ -430,7 +430,7 @@ Nota da redação: as cartas reais e os melhores textos do VOL.3 não chegaram a
 111. Quem ___ (ter) o cartão confere o local antes do domingo. (tiver)
 112. «Quando ___ o gabarito, o país respira.» A. sai · B. sair · C. saia (B)
 
-### Frases da semana (verbatim from this issue)
+### Frases da semana （逐字摘自本期文章）
 
 - «Consciência Negra: sexta é feriado em todo o país» — 黑人意识日：周五全国放假。(Página 1)
 - «o feriado abre um fim de semana de três dias» — 假日开启一个三天周末。(Página 1)
