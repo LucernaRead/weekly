@@ -89,7 +89,15 @@ ly = wy + wh + 18
 lt = "«Hallo! Ik ben Anna en ik leer Nederlands. Maandag kijk ik naar Oranje tegen Duitsland — en daarna zet ik mijn schoen!» — Anna (voorbeeldbrief van de redactie)"
 dt_nl = "Ter perse: nog geen echte brieven of beste pagina-8-teksten binnen — daarom dit voorbeeld; belofte naar VOL.5."
 dt_zh = "截稿时未收到真实来信或第 8 版最佳作文，刊登示例信，承诺顺延 VOL.5。"
-lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("编辑部示例信，非真实来信。欢迎寄来你的来信和作文，VOL.5 刊登！", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+# fix4 D10: dt_zh wrap width CW-32 (390.5). Width scan (sans 20): 378.5
+# (CW-44) wraps ， onto line 2 start; band 380.5-400.0 wraps to the same 2
+# lines with ， at end of line 1; 390.5 is the band middle (10px from each
+# edge). Narrowing also clears it at ~350-360 but splits 作文 across lines
+# (最佳作 / 文，…); widening keeps 作文 whole and the ， at line-1 end.
+# 2 lines kept, box height unchanged, zero y shift. Line 1 ends at
+# bx+22+380.06 = 1841.6, 20px inside the box right edge (1862.0).
+dt_zh_w = CW - 32
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("编辑部示例信，非真实来信。欢迎寄来你的来信和作文，VOL.5 刊登！", "sans", False, 20, CW - 44)) * 29 + 34 + 50
 # +50 measured correction carried from W45 Fix-1 (rendered spacing runs above formula).
 p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
@@ -97,7 +105,7 @@ p.text(bx + 22, yy3 + 26, "BRIEVEN VAN LEZERS", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 21, dt_nl, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # fix4 D10: dt_zh_w, see above
 p.para(bx + 22, yy3 + 20, "编辑部示例信，非真实来信。欢迎寄来你的来信和作文，VOL.5 刊登！", 20, "sans", False, GREY, CW - 44, 1.42)
 print("P7 col3 ends", ly + lh)
 

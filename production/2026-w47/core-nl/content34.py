@@ -127,7 +127,11 @@ facts = ["Maandag 16 november, 20:45 uur: Duitsland – Nederland, Berlijn, NPO 
          "Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.",
          "Speelronde 13: zaterdag NEC – PSV 16:30 uur; Feyenoord – Excelsior 18:45 uur."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30
+# Fix5 D11: top reserve was 62 but box-top -> first baseline is really
+# 16 (pad) + 52 (title block) + 21 (para y-offset) = 89; the 27px shortfall
+# put the last baseline 6.89px below the box bottom. With 89 the simulated
+# last baseline sits 617.89 below the top and sh=638 leaves 20.11px below it.
+sh = 89 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "HET PROGRAMMA", 24, "sans", True, OLIVE)

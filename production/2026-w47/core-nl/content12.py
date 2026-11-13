@@ -172,7 +172,7 @@ f.para("De wortel is voor het paard van Sinterklaas, Ozosnel. De tekening is voo
 f.para("Vorige week woensdag was het Sint-Maarten: kinderen liepen met lampionnen zingend langs de deuren. Nu is het licht van de lampion doorgegeven aan de schoen: twee feesten van licht en geven, in twee weken.")
 f.para("Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus. Veel families maken dan een surprise: een cadeau in een gekke verpakking, met een gedicht erbij. Een gedicht is een klein versje — grappig, lief of een beetje plagend. Nog negentien dagen tot pakjesavond: tijd om te knutselen en te dichten.")
 f.para("En het Sinterklaasjournaal? Dat is er elke dag om 18:00 uur op NPO Zapp. Kinderen volgen hoe Sinterklaas en zijn Pieten zich voorbereiden op pakjesavond.")
-f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
 f.para("Eén: zet je schoen, met een wortel en een verlanglijstje. Twee: schrijf een gedicht — kort is ook goed. Drie: maak een surprise: verstop het cadeau in iets geks.")
 f.box("ZO ONTHOUD JE HET　口诀", [
     ("«De schoen staat klaar: een wortel voor het paard, een lijstje voor de Sint.» En pakjesavond is op 5 december.", "serif", False, INK, 21.5, 1.4),

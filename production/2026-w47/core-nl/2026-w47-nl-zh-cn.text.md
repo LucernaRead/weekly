@@ -2,7 +2,6 @@
 
 ## Pagina 1
 
-VOL.4
 ## Vanavond in Berlijn: Oranje tegen Duitsland
 Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3. Het is de laatste wedstrijd in de groep — en de beslissing in groep 2.
 Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. De nummers één en twee van de groep gaan naar de kwartfinales in maart 2027.
@@ -413,7 +412,7 @@ Daan woont in Rotterdam. Op maandag 16 november kijkt hij om 20:45 uur naar Duit
 137. [A2 · 翻译] Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — 答案：圣诞老人新闻每天 18:00 播出。（对照第 3 版文章） [翻译]
 138. [B1 · 翻译] De nummers één en twee gaan naar de kwartfinales. → ___ — 答案：前两名晋级四分之一决赛。（第 4 版原句 · kwartfinale 四分之一决赛） [翻译]
 139. [B1 · 翻译] 阿姆斯特丹的入城式是第 88 届。→ ___ — 答案：De intocht in Amsterdam was de 88e editie.（注意序数词 88e） [翻译]
-140. [B2 · 翻译] 我做一个带小诗的伪装礼物。→ ___ — 答案：Ik maak een surprise met een gedicht.（surprise 是固定搭配） [翻译]
+140. [B2 · 翻译] 我做一个带小诗的伪装礼物。→ ___ — 答案：Ik maak een surprise met een kort gedicht.（surprise 是固定搭配） [翻译]
 ## F　WOORDEN VAN DE WEEK
 141–144. [B2 · 词汇配对] 把词和释义配对
 141. het journaal — een dagelijks nieuwsprogramma op televisie (答案 b · journaal=新闻节目 b)
