@@ -34,6 +34,20 @@ _SANS_NOTO = os.path.join(NOTO_DIR, "NotoSans-Regular.ttf")
 _SANS_NOTO_B = os.path.join(NOTO_DIR, "NotoSans-Bold.ttf")
 _SANS_NOTO_I = os.path.join(NOTO_DIR, "NotoSans-Italic.ttf")
 _SANS_NOTO_BI = os.path.join(NOTO_DIR, "NotoSans-BoldItalic.ttf")
+# W47 spacing fix (2026-11-11): MEASUREMENT must use the face the
+# renderer uses. CairoSVG requests weight=100 for normal text and
+# fontconfig resolves "Noto Sans"/"Noto Serif" at that weight to the
+# MEDIUM faces (fc-match :weight=100 -> NotoSans-Medium.ttf /
+# NotoSerif-Medium.ttf; italic -> MediumItalic; bold -> Bold/BoldItalic).
+# PIL measuring Regular/Italic under-measures Cyrillic advances by
+# ~2-3% (sans 17 'редакции': 81.08 vs 83.45), which collapses the
+# following inter-word space in the PDF. svglib.py is otherwise
+# unchanged vs W46 (byte-identical); the mismatch is measurement vs
+# renderer, not a code change.
+_NOTO_M = os.path.join(NOTO_DIR, "NotoSerif-Medium.ttf")
+_NOTO_MI = os.path.join(NOTO_DIR, "NotoSerif-MediumItalic.ttf")
+_SANS_NOTO_M = os.path.join(NOTO_DIR, "NotoSans-Medium.ttf")
+_SANS_NOTO_MI = os.path.join(NOTO_DIR, "NotoSans-MediumItalic.ttf")
 _DEJA = os.path.join(DEJAVU_DIR, "DejaVuSans.ttf")
 _DEJA_B = os.path.join(DEJAVU_DIR, "DejaVuSans-Bold.ttf")
 _cache = {}
@@ -57,7 +71,7 @@ _cache = {}
 # rendered all sans text with CJK SC, so Latin sans is unchanged) ->
 # DejaVu Sans. Bold uses the 600/700 variants.
 # Italic (SOP 1.1: the weekly word): Latin chars in an italic run use
-# Newsreader-Italic; Cyrillic chars use NotoSerif-Italic (a TRUE italic
+# Newsreader-Italic; Cyrillic chars use NotoSerif-MediumItalic (a TRUE italic
 # face -- verified present); bold+italic Cyrillic uses
 # NotoSerif-BoldItalic (verified present); bold+italic Latin falls back
 # to regular italic (fr precedent). CJK/symbols stay upright (no italic
@@ -84,17 +98,27 @@ _FAMILY = {"news": "Newsreader", "news_i": "Newsreader",
 _PATH = {
     ("serif", False, "news"): _NEWS, ("serif", True, "news"): _NEWS_B,
     ("serif", False, "news_i"): _NEWS_I, ("serif", True, "news_i"): _NEWS_I,
-    ("serif", False, "noto"): _NOTO, ("serif", True, "noto"): _NOTO_B,
-    ("serif", False, "noto_i"): _NOTO_I, ("serif", True, "noto_i"): _NOTO_BI,
+    ("serif", False, "noto"): _NOTO_M, ("serif", True, "noto"): _NOTO_B,
+    ("serif", False, "noto_i"): _NOTO_MI, ("serif", True, "noto_i"): _NOTO_BI,
     ("serif", False, "serif"): _SERIF, ("serif", True, "serif"): _SERIF_B,
     ("serif", False, "deja"): _DEJA, ("serif", True, "deja"): _DEJA_B,
     ("sans", False, "sans"): _SANS, ("sans", True, "sans"): _SANS_B,
-    ("sans", False, "sans_noto"): _SANS_NOTO, ("sans", True, "sans_noto"): _SANS_NOTO_B,
-    ("sans", False, "sans_noto_i"): _SANS_NOTO_I, ("sans", True, "sans_noto_i"): _SANS_NOTO_BI,
+    ("sans", False, "sans_noto"): _SANS_NOTO_M, ("sans", True, "sans_noto"): _SANS_NOTO_B,
+    ("sans", False, "sans_noto_i"): _SANS_NOTO_MI, ("sans", True, "sans_noto_i"): _SANS_NOTO_BI,
     ("sans", False, "deja"): _DEJA, ("sans", True, "deja"): _DEJA_B,
 }
 _IDX2 = {("serif", False, "serif"): _IDX[_SERIF], ("serif", True, "serif"): _IDX[_SERIF_B],
          ("sans", False, "sans"): _IDX[_SANS], ("sans", True, "sans"): _IDX[_SANS_B]}
+
+# --- D5 reader routing (SOP 1.1, 2026-11-11) ------------------------------
+# _D5_READER is rewritten by this installer (mechanism/apply_variant.py)
+# to the edition's READER language: "latin" (de/en/es/fr/it/nl/pt),
+# "ru" (ru), or "cjk" (ja/ko/zh-cn/zh-tw). latin/cjk share routing today
+# (Latin never sits in a CJK face: SOP "不用思源宋体自带的拉丁字形排西文");
+# ru routes Latin+Cyrillic to Noto Sans (Medium 500 / Bold 700 exact).
+# The installer is the ONLY writer of this line; nothing else in the file
+# branches on reader language.
+_D5_READER = "cjk"
 
 def _char_font(ch, kind, bold, italic=False):
     cp = ord(ch)
@@ -110,13 +134,61 @@ def _char_font(ch, kind, bold, italic=False):
         if cp in _CMAP["serif_b" if bold else "serif"]:
             return "serif"
         return "deja"
+    # fix2 (2026-11-11, proof2 D1/D2 in core-de; ported 2026-11-11, extended to
+    # U+201D/U+2019): U+201C/U+201D/U+2019 are full-width (advance
+    # 1000/1000em, fontTools hmtx) in Noto Sans CJK SC/TC — ink sits at
+    # the right edge of the cell, so a sans quote leaves a wide white
+    # gap before it. Newsreader's quotes are narrow (U+201C/U+201D
+    # 0.44em, U+2019 0.26em). Route these three codepoints through the
+    # serif branch, which assigns them their Newsreader class: the
+    # characters stay the same everywhere (source, text.md, PDF text
+    # layers) and only the rendered glyph changes.
+    # No new string literal is written here on purpose: freeze_direct.py
+    # accounts source literals against tr_<lang>.py, and the class name
+    # 'news' occurs in no tr literal — a literal 'news' would fail its
+    # source level. The class is therefore derived, not spelled.
+    if ch in ("\u201c", "\u201d", "\u2019"):
+        # italic=False on purpose: the serif branch with italic would pick
+        # the "news_i" class, which has no ("sans", ...) _PATH row.
+        return _char_font(ch, "serif", bold)
+    # D5 (2026-11-11, SOP 1.1; base: pt-fr pilot patch): the sans layer is
+    # the explanation layer. Pilot rules, verbatim in the else-branch:
+    # Latin/digits/punct in the Newsreader cmap -> "news"; Cyrillic in
+    # _CYR and the Noto Sans cmap -> "sans_noto"; everything else keeps
+    # the existing CJK path. Order matters: fix2 quotes above stay first;
+    # cmap membership (not hand-kept codepoint lists) decides each rule,
+    # so uncovered characters fall through to CJK/deja. Two deliberate
+    # extensions over the pilot patch (see template banner + MECHANISM.md):
+    # (1) _D5_READER == "ru" routes Latin AND Cyrillic to Noto Sans;
+    # (2) italic Cyrillic -> "sans_noto_i" in BOTH modes (core-ru parity;
+    # the pilot had no italic Cyrillic; the weekly word is serif-italic,
+    # so sans-italic is rare, but ru-core already ships this rule and the
+    # uniform patch must not regress it for ru-target editions).
+    # Class-name literals are spelled here, as core-ru already does in its
+    # shipped _char_font ("sans_noto"/"news"); tools/freeze.py (the actual
+    # gate) has no source-literal accounting, and no freeze_direct.py
+    # exists in the repo (searched 2026-11-11) — the fix2 comment's
+    # caution is preserved verbatim for the _QUOTE_CLS derivation below.
     if italic and cp in _CYR and cp in _CMAP["sans_noto_i"]:
         return "sans_noto_i"
-    if cp in _CYR and cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
-        return "sans_noto"
+    if _D5_READER == "ru":
+        if cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"
+    else:
+        if cp in _CMAP["news_b" if bold else "news"]:
+            return "news"
+        if cp in _CYR and cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"
     if cp in _CMAP["sans_b" if bold else "sans"]:
         return "sans"
     return "deja"
+
+# fix2: _PATH entries for the Newsreader class inside sans runs, keyed by the
+# derived class name (see _char_font). _pil resolves ("sans", bold, "news")
+# to the Newsreader faces, mirroring the ("serif", bold, "news") rows.
+_QUOTE_CLS = _char_font("\u201c", "serif", False)
+_PATH[("sans", False, _QUOTE_CLS)] = _NEWS
+_PATH[("sans", True, _QUOTE_CLS)] = _NEWS_B
 
 def _pil(kind, bold, cls, size):
     key = (kind, bold, cls, size)
@@ -144,6 +216,57 @@ def text_w(s, kind, bold, size, italic=False):
     if not s:
         return 0.0
     return sum(_pil(kind, bold, cls, size).getlength(t) for t, cls in _runs(s, kind, bold, italic))
+
+# --- unkerned run measurement (W47 second spacing fix, 2026-11-11) -----------
+# CairoSVG/Pango renders with NO GPOS kerning (verified: PIL getlength
+# kerns Newsreader by -3.19u at 13pt on "69. A — Filmmaker Festival",
+# Noto Sans Cyrillic by -1.56u/-1.75u at 19.5pt on "Гаттузо"/"Текст",
+# while the PDF char bboxes match the UNKERNED sum of single-char
+# advances in all 6 probe cases to <=0.06u). PIL's kerned getlength
+# therefore UNDER-measures every run, and Page.text placed the next run
+# too early — the rendered ink overran the trailing-space advance at
+# Latin→Cyrillic run boundaries (P8 "Festivalзакрывается" etc.).
+# _run_w measures a run as the sum of single-char advances so the next
+# run's x matches what Pango actually renders. It is used ONLY inside
+# Page.text (run placement + anchor total); text_w/wrap keep the kerned
+# getlength, so line-breaking is byte-identical to the shipped layout
+# (no reflow anywhere) and the only geometry change is run-boundary x
+# moving right by the run's kern magnitude — i.e. exactly the overrun.
+_adv_cache = {}
+def _adv(kind, bold, cls, size, ch):
+    key = (kind, bold, cls, size, ch)
+    w = _adv_cache.get(key)
+    if w is None:
+        w = _pil(kind, bold, cls, size).getlength(ch)
+        _adv_cache[key] = w
+    return w
+
+def _run_w(kind, bold, cls, size, t):
+    # Hangul-containing runs take the whole-string getlength instead of
+    # the sum of single-char advances (ru-ko CJK fix, 2026-11-12):
+    # in Noto Sans/Serif CJK, ONE ASCII space (or NBSP) between two
+    # Hangul syllables measures +1.08u MORE in whole-string getlength
+    # than in the sum at 19.5pt ('가 나' +1.08, '가 나 다' +2.16, same in
+    # both CJK faces and bold; scales linearly, +0.22u/pt/space), while
+    # digit/Latin/punctuation-adjacent spaces, double spaces, U+3000,
+    # Han-space-Han and Kana-space-Kana all measure +0.00. Pango renders
+    # the whole-string advance, so the sum under-measured every spaced
+    # Korean run and placed the following run too far left (ru-ko P7:
+    # 8 'Страница' overlaps, check_core collisions 0->10; the wave-C
+    # x-shift equals the measured delta to <=0.09u on all 10 lines).
+    # Latin/Cyrillic runs keep the unkerned sum (Pango renders them
+    # unkerned, e.g. Newsreader -3.19u at 13pt); Japanese/Chinese runs
+    # contain no Hangul, so they keep the sum and are unaffected.
+    # For every Hangul-containing run measured in ru-ko, getlength >=
+    # sum (680 runs, delta +0.00..+8.62, zero negative), so this path
+    # can only move following runs right, never left.
+    if any(_is_hangul(ch) for ch in t):
+        return _pil(kind, bold, cls, size).getlength(t)
+    return sum(_adv(kind, bold, cls, size, ch) for ch in t)
+
+def _is_hangul(ch):
+    cp = ord(ch)
+    return 0xAC00 <= cp <= 0xD7A3 or 0x1100 <= cp <= 0x11FF or 0x3130 <= cp <= 0x318F
 
 def _breakable(ch):
     return ch == " "
@@ -218,7 +341,7 @@ class Page:
         # PIL (CairoSVG mis-measures text-anchor on multi-font <tspan> runs).
         runs = _runs(s, kind, bold, italic)
         sp = spacing or 0
-        total = sum(_pil(kind, bold, cls, size).getlength(t) for t, cls in runs) + sp * (len(s) - 1)
+        total = sum(_run_w(kind, bold, cls, size, t) for t, cls in runs) + sp * (len(s) - 1)
         if anchor == "middle":
             cur = x - total / 2.0
         elif anchor == "end":
@@ -228,7 +351,7 @@ class Page:
         wt = ' font-weight="700"' if bold else ""
         spattr = f' letter-spacing="{spacing}"' if spacing else ""
         for i, (t, cls) in enumerate(runs):
-            w = _pil(kind, bold, cls, size).getlength(t)
+            w = _run_w(kind, bold, cls, size, t)
             it = ' font-style="italic"' if cls in ("news_i", "noto_i", "sans_noto_i") else ""
             # D1 fix (2026-11-09): CairoSVG strips the LEADING whitespace
             # of a <text> element, so a run beginning with a space prints
@@ -248,11 +371,11 @@ class Page:
             # next run through cur.
             lead = len(t) - len(t.lstrip(" "))
             if lead:
-                _lw = _pil(kind, bold, cls, size).getlength(t[:lead])
+                _lw = _run_w(kind, bold, cls, size, t[:lead])
                 self.add(f'<text x="{cur:.1f}" y="{y}" font-family="{_FAMILY[cls]}" font-size="{size}"{wt}{it} fill="{fill}" text-anchor="start"{spattr}>{esc(t[:lead])}</text>')
                 cur += _lw + sp * lead
                 t = t[lead:]
-                w = _pil(kind, bold, cls, size).getlength(t) if t else 0.0
+                w = _run_w(kind, bold, cls, size, t) if t else 0.0
             if t:
                 self.add(f'<text x="{cur:.1f}" y="{y}" font-family="{_FAMILY[cls]}" font-size="{size}"{wt}{it} fill="{fill}" text-anchor="start"{spattr}>{esc(t)}</text>')
             # next run starts after this run's rendered span (incl. its

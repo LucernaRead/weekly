@@ -74,7 +74,8 @@ Emission rules (all verified against the shipped W46 .text.md)
 * The answers loop (`for pg in sorted(by_page):`) is replaced by the
   appendix built from REG: "— СТРАНИЦА ? —", "## Answers", then one
   block per page: "### Page {pg}" + "{n}. {key} — {note}" lines
-  (writing exercise: "{n}. ✓ {note}").
+  (writing exercise: "{n}. ✓ {note}"; detected by its parenthesised
+  key, not by the translated type label — see do_appendix).
 * Blocks are joined by one blank line; the file ends with one "\n".
   Consecutive exercises (and matching blocks) share one block — no
   blank lines between them; a stand-alone emission flushes the run.
@@ -605,7 +606,7 @@ class Exporter:
     # ---- appendix from the live registry ----
     def do_appendix(self):
         reg = self.get_reg()
-        self.add("— СТРАНИЦА ? —")
+        self.add("— СТРАНИЦА 8 —")
         self.add("## Answers")
         by_page = {}
         for e in reg:
@@ -613,7 +614,15 @@ class Exporter:
         for pg in sorted(by_page):
             lines = ["### Page %d" % pg]
             for e in by_page[pg]:
-                if e["type"] == "写作":
+                # Writing exercise: its "key" is not an answer but the
+                # parenthesised open-task note, e.g. core "(开放题…)" /
+                # ko "(열린 문제 …)". The type label is translated per
+                # reader language (写作/쓰기/writing/…) so it cannot be
+                # matched here — this exporter is shared by all of them.
+                # The parenthesised key is unique in the registry
+                # (verified: exactly 1 of 150 in core + all 10 fan-outs,
+                # always the writing exercise, n=150, page 8).
+                if e["key"].startswith(("(", "（")):
                     lines.append("%d. ✓ %s" % (e["n"], e["note"]))
                 else:
                     lines.append("%d. %s — %s" % (e["n"], e["key"], e["note"]))

@@ -4,7 +4,7 @@
 - 刊期：2026-11-16（周一）至 2026-11-22（周日）；VOL.4
 - 8 页（1950×2700，4 栏），150 道练习（A2 50 / B1 76 / B2 24），写作范文 97 词（80–100）
 - P1 主头条：«14-й тур: «Зенит» и «Динамо» — по 31 очку»（去空白计 32 字符，≤ tools/cover.mjs LIMITS.headline.other 56）
-- 状态：**核心版定稿后因 proof1 三处核心级缺陷重开，2026-11-11 已修复重建、全门禁绿（见 §7.5），未入仓、未发布**——入仓/lint/commit 由协调员做（本任务不跑 insert.py、不 push；core-ru 本地 commit 由修复任务做）
+- 状态：**核心版定稿后因 proof1 三处核心级缺陷重开，2026-11-11 已修复重建、全门禁绿（见 §7.5），2026-11-12 D5 重建、全门禁绿（见 §7.7），未入仓、未发布**——入仓/lint/commit 由协调员做（本任务不跑 insert.py、不 push；core-ru 本地 commit 由修复任务做）
 
 ## §1 规格与结构
 
@@ -102,7 +102,7 @@
 - `occlusion_audit.py --selftest`：OK（6 类植入各触发 1 次，干净对照静默）。最终渲染 run3（`scratch-ru/occlusion-run3.json`）：**42 标记，全部 TEXTX，0 LINEX**；像素裁决 `Counter({'CLEAR': 42})`，0 OVERLAP、0 REAL。（hline 修复后 run2 同为 42 TEXTX / 0 LINEX。）
 - **P8 答案实测字号 9.75pt**（PyMuPDF `fitz`，印版 PDF 第 8 页，高 2025pt；最小字号段在答案区 y 1083–1411pt）——恰好落在 §1.1 兜底梯队下限（≥9.75pt），未动用梯队，无需扩版。
 - **印版 vs 网版文本同一性（已查清，见 7.4）**。
-- **实测文件（SHA-256，fix1 终版，2026-11-11）**：印版 `Lucerna-VOL4.pdf` 31,429,147 字节，SHA-256 `d60fbd6c503f2442ae5a49bf475518034563816af27a05f8bbba2dc1383cab81`（两跑 SHA 一致，确定性已验）；网版 `Lucerna-VOL4-web.pdf` 4,025,834 字节，SHA-256 `2f995f1deb75fce116b33a10b9da816fb415a7bac79a258d817c4f99731e4197`；文本导出 `2026-w47-ru-zh-cn.text.md` 60,953 字节、838 行，SHA-256 `348511e061c28019b56d81bcd6e006ff1d7ddae3e49c7b599668216a6b90f8cc`（与 `2026-w47-ru-core.text.md` 字节一致）；答案 JSON `ru-p8.json` SHA-256 `5193ff4adde4005ca6047e73ba6ec68a623751b7bef9469b9db57256bb04ccfd`。旧值（修复前）：印版 31,429,156 字节 `4b564297…`、网版 3,992,881 字节 `8a264926…`、文本 60,980 字节 `93562099…`。
+- **实测文件（SHA-256，fix2 重建终版，2026-11-12）**：印版 `Lucerna-VOL4.pdf` 31,426,216 字节，SHA-256 `09680fb595182a81155bd1ab84f90013e086b6369cb6f2a9483c2fb0cb0bf717`（两跑 SHA 一致，确定性已验）；网版 `Lucerna-VOL4-web.pdf` 4,023,396 字节，SHA-256 `03d1b6f497e629704c6605a39a9d87002f31b4d81f6f0935cb28c015838e9884`；文本导出 `2026-w47-ru-zh-cn.text.md` 60,953 字节、838 行，SHA-256 `a54372a10afc91761f6a8e21a597b7ce2f001c80987f51b3b9789e795ad62c9e`（与 `2026-w47-ru-core.text.md` 字节一致）；答案 JSON `ru-p8.json` SHA-256 `5193ff4adde4005ca6047e73ba6ec68a623751b7bef9469b9db57256bb04ccfd`。旧值（_run_w 重建终版）：印版 31,426,561 字节 `c2fd743e…`、网版 4,023,304 字节 `a4f4bbd6…`；更早（fix1 终版）：印版 31,429,147 字节 `d60fbd6c…`、网版 4,025,834 字节 `2f995f1d…`；更早（修复前）：印版 31,429,156 字节 `4b564297…`、网版 3,992,881 字节 `8a264926…`、文本 60,980 字节 `93562099…`。
 - **freeze 基线**：`freeze.py baseline` **8/8 SVG 字节一致**，本次运行未改动已发核心 SVG（8 文件重哈希确认）。工具收集逻辑的兜底修复见 §5。
 - **全幅目视**：8 张卡片逐张全帧读过（终版渲染，21:38–21:39 生成）；P1 hline 1856 与释义、P8 缩短后的注释重点复查，无问题。
 - **正式自校轮次（SOP §8）第 1 轮**：全文读 `.text.md` 690 行（按阅读顺序）+ 8 张终版卡片，逐项核对俄语拼写/变格/变位/标点、讲解层与正文一致、150 题答案对照题干/正文/图表、编号连续、日期与星期、等级徽章。**结论：0 个问题。** 按 SOP，一整轮零问题即通过，无需第 2 轮。（P8 64 题 «Динамо» ___ «Факел» 2:1 键 «победило» 已核：«Динамо» 为中性，故 «победило» 正确；W46 题干为 «Спартак»/«победил》，本版题干与键同步改过。）
@@ -127,6 +127,30 @@
 
 **下游注意**：ru-en 的「完全定稿」状态因 D2 已作废（其 proof3 (a) 漏检了 D2），重建后须重校——由协调员处理。10 个 ru fan-out 版（ru-{de,en,es,fr,it,ja,ko,nl,pt,zh-tw}）须重 fan-out：kicker 补丁须落到每版重建产物里（fan-out 若不从 core 复制 `content12.py`，则每版同法打补丁 + 重建 P1），D2/D6 键与选项同理随 core 重建同步。
 
+### 7.6 fix2（2026-11-12）：U+201C/U+201D/U+2019 字体路由修复（port 自 core-de fix2）
+
+port 自 core-de 提交 4ac7192c 的 fix2 补丁：`svglib.py` `_char_font` 增 `if ch in ("\u201c", "\u201d", "\u2019")` 分支，遇这三码点走 serif 分支到 Newsreader（它们在 Noto Sans CJK SC/TC 的 advance 为 1.000em 全宽，Newsreader 为 0.44/0.44/0.26em）。类名由 `_char_font("“", "serif", False)` 派生、不拼字面串（freeze_direct 原因，见 core-de fix2 注释）。本版 `svglib.py` md5 `27f11789af7c828e47ca14eb00c1dded`（_run_w Hangul-fix 文件）→ `b0928993747a13e94573a5dcced00961`；diff 仅 ported block（py_compile 通过、逆向 patch 还原 pre-patch md5 已验）。完整记录见 scratch `hidden_files/w47/scratch-gatefix-u201c-ru/FIX-LOG.md`。
+
+SVG census：修复前 2 处缺陷字形（P5 `“”` in `“黑色星期五”：11月16日开始打折`，18pt，Noto Sans CJK SC）；修复后 0 处，引号现为 Newsreader。`tools/run_build.py` 两次独立构建 + `tools/webpdf.py` 重建；`svg/` + `cards/` + 印/网 PDF 已同步进 production；text.md SHA 不变（`348511e0…`，60,953 B）。印版 `c2fd743e…` 31,426,561 B → `09680fb5…` 31,426,216 B；网版 `a4f4bbd6…` 4,023,304 B → `03d1b6f4…` 4,023,396 B。
+
+**fix2 全部门禁（2026-11-12）**：`run.py` exit 0，0 FLOW OVERFLOW，TOTAL 150；`check_core.py .` exit 0（golden BAD 0、gloss 0、孤儿行首 5 处皆为 §7.3 已裁决的非行首、碰撞 1 处为已知 P1 y1712）；`p8.py extract` **150/150**，`compare` **CLEAN**（keydiff=[]）；occlusion 审计 **0 标记**；`freeze.py baseline` **8/8 SVG 字节一致**（两构建 SVG 8/8 相同、印 PDF 两跑 SHA 一致；同步后文件上再跑 baseline 亦 8/8）；印/网文字层**逐页字节一致**（31,504 字符；pdftotext 各 56,073 字节）；词缝 census **42/58**，token 集与 _run_w after-census 完全一致、0 真接合；spill 0；boxtitle 0 DEFECT（以 production pre-fix 构建为基准）；Morozko 存活（P8 keys end 2216.58，图片 422.5×200 于 y=2240.58，images per page [1,1,0,1,1,0,1,1] total 6）。
+
+### 7.7 D5（2026-11-12）：讲解层拉丁字形路由修复（SOP §1.1；B档）
+
+机制：`scratch-d5-plan/mechanism/apply_variant.py --target ru --reader zh-cn`（mode cjk；见 `scratch-d5-plan/mechanism/PILOT-REPORT.md` 安装方法）。本版读者语为简体中文，`_D5_READER = "cjk"`：sans 层拉丁/数字/标点 → Newsreader（`news` 类），西里尔 → 新增 `sans_noto` 类（NotoSans-Regular/Bold/Medium；核心早已正确分流西里尔，D5 只修拉丁）。`svglib.py` md5 `b0928993747a13e94573a5dcced00961`（fix2 版）→ `d6e0a93d27c8366de20a16fa4a38cc20`；路由断言 `assert_routing.py`（latin→news）全过，fix2 路由保留（U+201C/U+201D/U+2019 在 sans 层仍走 serif→`news`）。
+
+普查（修复前 → 修复后）：拉丁在 CJK Sans 207 → **0**；西里尔在 CJK Sans 0 → 0（422 个元素在 Noto Sans，不变）；弯引号在 CJK Sans 0 → 0（4 个全在 Newsreader）。`tools/venv/bin/python` 全程构建：`run.py` RC=0，TOTAL 150，0 FLOW OVERFLOW，**0 HEAD TOO WIDE**；`render.py` RC=0；`webpdf.py` RC=0，3,898,257 B（<7 MB），文本层 56,087 字节。text.md 字节不变（SHA-256 `348511e061c28019b56d81b84f90013e086b6369cb6f2a9483c2fb0cb0bf717`，60,953 B）。印版 `09680fb5…` 31,426,216 B → `e3c4c0ee155a96a96a56a70326e4df0e0572705e2fff3457599f361b929b60bf` 24,713,345 B；网版 `03d1b6f4…` 4,023,396 B → `0bdc87e621d75bb35d4a507463237fa05748dfaf1e67090926e68afb58ba45af` 3,898,257 B。
+
+**D5 全部门禁（2026-11-12，`scratch-d5-rebuild-ru/core-ru/gates-summary.txt`，GATES_OVERALL_FAIL=0）**：D5 普查 PASS（拉丁 0、西里尔 0、弯引号 0）；`p8.py extract` **150/150**，`compare` vs 修复前 P8 **CLEAN**（keydiff=[]）；`freeze.py baseline` **8/8 SVG 字节一致**；freeze-diff 新增 CJK 字符 0（U+3000 除外亦 0；新增 Latin strings 每页 8–12 个为 D5 分 run 的直接结果，见 PILOT-REPORT §3）；occlusion 审计 **0 flags**；boxtitle **0 DEFECT**（57 标题、704 正文行）；creambox **PASS 0 defects**（P8 行数 237→237、距页脚线余量 55.0px→55.0px，无重排；全版行数不变，宽度比中位 1.026）；spill **0**；edge **0 TOUCH、0 NEAR**；印/网文字层**字节一致**（各 32,613 字符）。注：首轮门禁 creambox 因基线副本缺 `assets/lucerna-moth.svg` 崩溃（RC=1，工具加载失败、非内容缺陷），补齐基线 assets 后重跑 PASS；其余门禁首轮即全绿，**零内容缺陷、零修补**。独立重校由协调员另派，本节只记自查门禁。
+
+### 7.8 F-2 附录页码占位符修复（2026-11-12，独立重校 F-2；完整记录见 `hidden_files/w47/scratch-fix-ru/FIX-LOG.md`）
+
+text.md 附录行 `— СТРАНИЦА ? —` 是导出器 `ru_textmd.py` do_appendix 的硬编码占位符；附录（`## Answers`）在 P8（印 PDF 逐页核实：8 页，P8 含 `— СТРАНИЦА 1 —` 至 `— СТРАНИЦА 8 —`）。源头由上一任修好（do_appendix `— СТРАНИЦА ? —` → `— СТРАНИЦА 8 —`；写作题判定同步改为 parenthesised-key 判定），11 份 `ru_textmd.py` 副本字节一致。本任务接手核实：core 两份 text.md（`2026-w47-ru-core.text.md` 与 `2026-w47-ru-zh-cn.text.md`，字节一致）附录行已是 `— СТРАНИЦА 8 —`，新鲜重导出与盘上文件字节一致，无丢行、无需再动。text.md SHA-256 `348511e0…` → `a54372a10afc91761f6a8e21a597b7ce2f001c80987f51b3b9789e795ad62c9e`（60,953 B，838 行，150 题，277 块，均不变）；§7 实测文件行的 text.md SHA 已同步更新为本次修后实测值（该行 §7.7 D5 段内的旧 SHA 为 D5 当时记录，不动），印/网 PDF 行未动（印 `e3c4c0ee…` 24,713,345 B，网 `0bdc87e6…` 3,898,257 B，核对不变）。门禁：core 为 p8 比对基准；10 版 fan-out 逐版 `p8.py compare --total 150` CLEAN（见各版 KIT）。F-1 按协调员裁定接受现状、不修；F-3 按设计、不修。
+
+### 7.9 补修 4（2026-11-12，第四轮独立重校 J-6；完整记录见 `hidden_files/w47/scratch-fix4-w47-ru/FIX-LOG-4.md`）
+
+Q77 配对选项 a 标 `促销码` 与全版 gloss `折扣码` 不一致（其余 9 处皆为 `折扣码`，见 L71/L89、`content7.py:33,40`、`content8.py:92`）。源头 `content56.py:85` 配对选项表 `["大促销 d", "退货 b", "促销码 a", "折扣 c"]` → `["大促销 d", "退货 b", "折扣码 a", "折扣 c"]`（仅改该一字；其余三项选项标本就与 gloss 一致）。**共享核查（修前）：**`促销码` 在其余 9 版 content 文件中 0 处，各版 `content56.py:85` 均为独立的本语选项表（en `promo code a`、de `Rabattcode a`、ja `プロモコード a`、ko `프로모 코드 a` 等），core 源头不被他版共享；`ru-p8.json` 不含 `促销码`，Q77 键为字母 `a`。SVG 仅 p8 变。印 PDF `e3c4c0ee155a…` 24,713,345 B → `a114f1d24694…` 24,713,343 B；网 PDF `0bdc87e621d7…` 3,898,257 B → `e37922c048d1…` 3,898,280 B；text.md diff 恰 2 行（L413、L757），SHA `a54372a10afc…`（60,953 B）→ `2a38d3dab649…`（60,953 B，字节不变：`促销码`→`折扣码` 等长）；两份 text.md（`2026-w47-ru-core.text.md` 与 `2026-w47-ru-zh-cn.text.md`）同步更新、字节一致；导出器干跑无丢行。印/网 PDF 各 8 页、文字层归一化一致（31,503 字符）；印 PDF 文字层 `折扣码` ×6、`促销码` ×0，网 PDF 同。门禁：`p8.py extract` **150/150**，提取键与生产 `ru-p8.json` 逐键一致（`ru-p8.json` 未改写）；occlusion **0 flags**；boxtitle **0 DEFECT**（57 标题/704 正文行）；spill rc=0（1 条既有 `[observe]` Black Friday gloss 行）；edge **0 TOUCH、0 NEAR**；head_check **PASS 0 defects**；D5 普查 CJK+Latin=0、CJK+Cyrillic=0（11 版全量）；弯引号全部 Newsreader（4 处）。**无外溢核查（修后全量指纹对照）：**其余 6 版（en/de/es/fr/it/nl）的印/网 PDF 与 text.md SHA 与修前指纹逐一核对不变；pt/ja/ko/zh-tw 4 版的变化仅为本轮各自的修复（见各版 KIT）；变化的 16 个文件恰为本轮 5 版的印/网 PDF + text.md（core 两份 text.md 计 2 个）。J-6 另半在 ru-zh-tw（`促銷碼` → `折扣碼`，见该版 KIT §13）。
+
 ## §8 摘要（ABSTRACT.txt，372 字节，单行，0 个 ASCII 双引号）
 
 > Lucerna俄语周报VOL.4：11月16日至22日俄超第14轮全部八场赛果、泽尼特与迪纳摩并列31分、11月12日国家队客战乌兹别克斯坦与11月17日主场迎战委内瑞拉、黑色星期五、11月19日五部首映、国际大学生节与严寒老人生日，A2到B2，适合想学俄语的中国读者做以本周话题为素材的150道练习。
@@ -134,8 +158,8 @@
 ## §9 交付状态
 
 - **未推送、未发布**。核心目录：`production/2026-w47/core-ru/`（新目录，本次 fix1 本地 commit，未 push；待协调员入仓）
-- 印版 PDF：`production/2026-w47/core-ru/Lucerna-VOL4.pdf`——31,429,147 字节，8 页
-- 网版 PDF：`production/2026-w47/core-ru/Lucerna-VOL4-web.pdf`——4,025,834 字节，8 页（<7 MB，文本层 56,024 字节，与印版字节一致）
+- 印版 PDF：`production/2026-w47/core-ru/Lucerna-VOL4.pdf`——24,713,343 字节，8 页，SHA-256 `a114f1d24694fc11f07d32611111c0b2d508a64d1f970e0c8cb080530533f466`（补修 4 重建，2026-11-12，见 §7.9）
+- 网版 PDF：`production/2026-w47/core-ru/Lucerna-VOL4-web.pdf`——3,898,280 字节，8 页（<7 MB，文本层 56,087 字节，与印版字节一致），SHA-256 `e37922c048d1a46e32fc0e7e13f6e91e236445f43a5937b9d7c67c63f2dfe195`（补修 4 重建，2026-11-12，见 §7.9）
 - 8 SVG：`production/2026-w47/core-ru/svg/`（p1-pervaya / p2-zhizn / p3-kultura / p4-sport / p5-molodezh / p6-razbor / p7-yazyk / p8-test）
 - 8 卡片：`production/2026-w47/core-ru/cards/`（与终版 SVG 同步）
 - 文本导出：`2026-w47-ru-zh-cn.text.md` = `2026-w47-ru-core.text.md`，60,953 字节，838 行，字节一致

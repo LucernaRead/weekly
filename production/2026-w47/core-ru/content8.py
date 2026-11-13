@@ -130,7 +130,7 @@ af.end_report()
 print("P8 keys end col", af.ci, "y", af.y)
 # --- Morozko image in the free space below the keys (last column only) ---
 img_y = af.y + 24
-img_h = 250
+img_h = 200
 if af.ci == 3 and img_y + img_h + 90 < 2560:
     image(p, "morozko.jpg", COLX[3], img_y, CW, img_h)
     cy8 = caption(p, COLX[3], img_y + img_h, CW, "«Морозко»: иллюстрация Ивана Билибина, 1932 год. Зимняя сказка — к ноябрю.",
