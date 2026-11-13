@@ -155,7 +155,7 @@ f.match_set("B1", "Associação de palavras",
             ["d", "b", "a", "c"],
             ["tip-off = início do jogo de basquete, d", "sweep = vencer todos os jogos da série, b", "defending champion = o atual campeão, a", "banner = a faixa que celebra o título, c"],
             instr="Associe as palavras")
-f.head("C　COMPARATIVES　Comparação", 25)
+f.head("C　COMPARATIVES　Comparação", 23)
 f.ex("B1", "Completar frases", "older", "a World Series é mais antiga que a NBA",
      "The World Series is ___ (old) than the NBA.", instr="Complete", size=22.5)
 f.ex("B1", "Completar frases", "hotter", "hot → hotter (dobra a consoante final)",

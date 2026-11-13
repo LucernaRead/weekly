@@ -132,7 +132,7 @@ f.box("THE WEEK'S FIXTURES　Spielplan", [
     ("Wed — Lakers vs Warriors · Thu — Patriots at Bears", "serif", False, INK, 21, 1.42),
     ("Fri — World Series Game 1, 8 p.m. ET · Sat — Game 2", "serif", False, INK, 21, 1.42),
     ("Sun — Austin Grand Prix · El Clásico, 4 p.m. ET", "serif", False, INK, 21, 1.42),
-])
+], tsize=22)
 f.gloss("a banner = Banner, Meisterfahne · to sweep = alle Spiele einer Serie gewinnen · the defending champion = der Titelverteidiger · qualifying = die Qualifikation · a storyline = der rote Faden.")
 f.head("A　READING　Leseauswahl", 25)
 f.ex("B1", "Multiple Choice", "A", "Letztes Knicks-Banner: 1973",
@@ -164,7 +164,7 @@ f.ex("B1", "Satzergänzung", "busiest", "Superlativ: the busiest",
      "This is the ___ (busy) sports week of the autumn.", instr="Ergänze", size=22.5)
 f.ex("B1", "Satzergänzung", "more", "Maxey 28 Punkte > Brunson 21",
      "Maxey scored ___ points than Brunson on Tuesday. (28 to 21)", instr="Ergänze", size=22.5)
-f.head("D　VERB FORMS　Vergangenheit", 25)
+f.head("D　VERB FORMS　Vergangenheit", 24)
 f.ex("B1", "Umformung", "The 76ers won 106–100.", "win → won (unregelmäßig)",
      "The 76ers (win) 106–100 on Tuesday. → ___", instr="Schreibe um", size=23)
 f.ex("B1", "Umformung", "The Knicks raised their banner.", "raise → raised (regelmäßig)",

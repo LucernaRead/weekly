@@ -9,6 +9,12 @@
 - `cards/` — 8 张整版 PNG（1950 宽）
 - `The-Lucerna-VOL1-DE.pdf` — 完整版 PDF（8 版，8,623,563 字节）
 - `The-Lucerna-VOL1-DE-web.pdf` — 压缩版 PDF（4,394,567 字节 < 10 MB，可直接投递）
+- D5 重建（2026-11-13，见十一节）：印 `The-Lucerna-VOL1-en-de.pdf` **7,500,351 字节**
+  （SHA-256 `fa012bcb406c23c749ab34f65b17381686405346fdb1f015a94c69ed8d77f37c`）；网
+  `2026-w43-en-de.web.pdf` **1,069,759 字节**（SHA-256
+  `b0c18a07aba2cd5df11a586607121369baac1820508f713f3e1bd3840d182fe3`，< 7 MB）；
+  text.md 与已发版字节一致（SHA-256 `eb6a1179cdf3621a06746c2b74b56cb04a0e5a997200775b09221a12487380db`）。
+  D5 前值：印 8,623,563 字节、网 1,114,484 字节（`e086bc0c…`，issues 已发版）。
 - 构建源码：`hidden_files/weekly-report-en-de-build/`（核心版源码的副本上改写，核心目录未动）
 
 ## 二、配对标注（SOP 配对标准）
@@ -134,3 +140,48 @@ EOF
 
 1. **可见字符数口径差**：KIT §三记 49,526（核心版 41,362）；复校按成品 SVG `<text>` 解码实测为 **49,519**（核心版 41,358），差 7 / 4 字（0.014%）——系构建方按源码字符串计、复校按渲染文本计的口径差；经源码 diff 与登记表完整性双验，无任何词句缺失。
 2. **家具条目微调未逐条登记**：第 3 版 A/B 头与第 5 版 B/D 头为德语单语（如 „A · WAHR ODER FALSCH ?"），第 6 版边栏框题 „HEADLINE LANGUAGE" 改为 „HEADLINE TALK · Schlagzeilen"——均为讲解层家具，不涉正文、题干、选项、键。
+
+## 十一、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-de/`；
+逐版报告：`production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-de.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core en --week 2026-w43`（core-en
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target en --reader de --week 2026-w43`，装后 `_D5_READER = "latin"`（装后 svglib
+md5 与 de/it/nl/pt 四版全同）；路由单元测试 FAILURES: 0（66 PASS）；fix2 块保留。
+
+**基线**（修前生产版）：run TOTAL 149，0 警告；印 PDF 与 `MANIFEST-W43-D1.md`
+逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 592、西里尔 0、弯引号在 CJK 1；基线 P8 noted 149/149。
+
+**缺陷与修法**（run1 共 11 项，全为 D5 字体加宽引起，另 P2 spill 为既有缺陷——基线
+同值；修法只动字号，未动文字）：
+
+- head ×6：P4 `D　VERB FORMS　Vergangenheit` 25→24；P5 `EARNINGS, IN PLAIN ENGLISH`
+  26→25；P5 `C　THIS WEEK, LIVE　-ing-Form` 25→24；P6 `READING THE CHART　Diagramm`
+  24→23；P7 `THE TOOLBOX　Werkzeugkiste` 27→25；P7 `THE ERROR CLINIC　Fehlerklinik`
+  25→24（栏宽 422.5）。
+- occlusion ×1（P1）：暗带标题与副标 `EUROPA STELLT UM` 重叠 **145.2×20.8px**（全家
+  最大——德语副标 27pt 宽 295.7px，左缘 x=1559.3；46pt 标题右缘 1681.3，44pt 仍重叠
+  54px）→ 暗带标题 46→**42** + 副标 27→**25**。
+- creambox/boxtitle ×2：P4 `THE WEEK'S FIXTURES　Spielplan` +13.7px → 加 `tsize=22`；
+  P5 `WORDS OF THE SCREEN　Wortliste` +22.9px → 加 `tsize=21`（22pt 仍超约 4px）。
+- spill ×1：P2 `Check your number !` 跌出 DID YOU KNOW 框底 12.71px → 框高公式尾数
+  +14→+34（框底 +20px；与 core-en 同款既有缺陷）。
+
+P8：225→216 行，距页脚线余量 34.9→46.7 px。
+
+**门禁 run2（全套 17 门 ALL-GREEN）**：run TOTAL 149、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,069,759 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 149/149；p8 compare **EXTRA_ONLY**（extra_count=87，裁定接受；
+keydiff=[136, 139, 149]，与本 KIT 记载的读者语答案键一致）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（55 titles）；edge 0/0；
+creambox PASS 0 defects；文字层 print=web 差 0（各 112,735 字符）；census_quotes
+0 defective；en 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-en-de.pdf` 7,500,351 字节（`fa012bcb…`）；
+网 `2026-w43-en-de.web.pdf` 1,069,759 字节（`b0c18a07…`）；text.md 字节一致
+（`eb6a1179…`）。练习仍为 149 题，§三/§四未变。

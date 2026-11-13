@@ -26,7 +26,7 @@ f.box("SAY IT ON THE NIGHT　Zeg het zo", [
     ("« Trick or treat ! » — Snoep of je leven! (een grapje dat altijd snoep oplevert)", "serif", False, INK, 21.5, 1.42),
     ("« Happy Halloween ! » — Vrolijk Halloween! · « Thank you ! » — Dank je wel! (zeg dit altijd als je snoep krijgt)", "serif", False, INK, 21.5, 1.42),
     ("« What are you dressed as ? » — Als wat ben je verkleed?", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 f.gloss("to celebrate, vieren · a porch, de veranda · to carve, uitsnijden · a decoration, een versiering · a survey, een enquête (de NRF ondervroeg 7.889 mensen).")
 f.head("A　TRUE OR FALSE ?　W/NW", 25)
 f.expl("Lees het artikel op pagina 3: waar (W) of niet waar (NW)?")
@@ -155,7 +155,7 @@ f.match_set("B1", "Woorden combineren",
             ["d", "b", "a", "c"],
             ["tip-off = de start van een basketbalwedstrijd, d", "sweep = elke wedstrijd van de serie winnen, b", "defending champion = de titelverdediger, a", "banner = een vaandel dat een titel herdenkt, c"],
             instr="Combineer")
-f.head("C　COMPARATIVES　Vergelijking", 25)
+f.head("C　COMPARATIVES　Vergelijking", 24)
 f.ex("B1", "Zinnen aanvullen", "older", "de World Series is ouder dan de NBA",
      "The World Series is ___ (old) than the NBA.", instr="Vul in", size=22.5)
 f.ex("B1", "Zinnen aanvullen", "hotter", "hot → hotter (de t wordt verdubbeld)",

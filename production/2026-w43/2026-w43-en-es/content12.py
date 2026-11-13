@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # clock-contrast band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 42, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Daylight saving ends one week later in the United States : on Sunday, November 1. Do not change your clock this week !", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "CAMBIA LA HORA", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "EE. UU., EL 1 DE NOVIEMBRE (P. 7)", 18, "sans", False, GOOSE, anchor="end")
@@ -43,8 +43,8 @@ f.expl("Nota — early voting, votación anticipada · ballot, papeleta · tip-o
 f.box("THE WEEK IN NUMBERS　En cifras", [
     ("Nov 3 — Election Day (día electoral) · Oct 19 — early voting opens in Texas (primer día)", "serif", False, INK, 20.5, 1.35),
     ("43 — NBA games from Tuesday to Sunday (martes a domingo) · 2 — teams in the World Series, both after a first title (su primer título)", "serif", False, INK, 20.5, 1.35),
-])
-f.head("TRY IT NOW　Practica al momento", 25)
+], tsize=21)
+f.head("TRY IT NOW　Practica al momento", 24)
 f.ex("A2", "Completar frases", "ballot", "ballot = la papeleta",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
 f.ex("A2", "Completar frases", "early", "early voting = la votación anticipada",
@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

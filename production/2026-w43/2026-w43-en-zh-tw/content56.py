@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -51,7 +51,7 @@ f.ex("B1", "完成句子", "earnings", "earnings = 財報",
      "Wednesday is ___ day for Tesla and Meta : the companies publish their numbers.", instr="填空", size=23)
 f.ex("A2", "完成句子", "feed", "feed = 資訊流",
      "His ___ is full of game clips and costume photos.", instr="填空", size=23)
-f.head("C　THIS WEEK, LIVE　現在進行時", 25)
+f.head("C　THIS WEEK, LIVE　現在進行時", 24)
 f.expl("用現在進行時改寫：本週正在發生的事。")
 f.ex("B1", "句型轉換", "Tesla is reporting its results tonight.", "三單 is + -ing",
      "Tesla (report) its results tonight. → ___", instr="改寫")
@@ -82,7 +82,7 @@ v5.box("WORDS OF THE SCREEN　螢幕詞表", [
     ("a roster — 名單、花名冊", "serif", False, INK, 21.5, 1.5),
     ("earnings — 財報、獲利", "serif", False, INK, 21.5, 1.5),
     ("to post — 發文、發布", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=22)
 v5.box("SAY IT ONLINE　在網上這樣說", [
     ("« What a game ! » — 這比賽太精采了！", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — 把集錦發給我。", "serif", False, INK, 21.5, 1.45),

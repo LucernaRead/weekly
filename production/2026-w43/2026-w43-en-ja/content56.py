@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -51,7 +51,7 @@ f.ex("B1", '文の完成', "earnings", 'earnings = 決算',
      "Wednesday is ___ day for Tesla and Meta : the companies publish their numbers.", instr='空所補充', size=23)
 f.ex("A2", '文の完成', "feed", 'feed = フィード',
      "His ___ is full of game clips and costume photos.", instr='空所補充', size=23)
-f.head('C　THIS WEEK, LIVE　現在進行形', 25)
+f.head('C　THIS WEEK, LIVE　現在進行形', 24)
 f.expl('現在進行形で書きかえる：今週まさに起きていること。')
 f.ex("B1", '文型変換', "Tesla is reporting its results tonight.", '三単現 is + -ing',
      "Tesla (report) its results tonight. → ___", instr='書きかえ')
@@ -82,7 +82,7 @@ v5.box('WORDS OF THE SCREEN　画面の語彙', [
     ('a roster — 名簿・選手一覧', "serif", False, INK, 21.5, 1.5),
     ('earnings — 決算・収益', "serif", False, INK, 21.5, 1.5),
     ('to post — 投稿する', "serif", False, INK, 21.5, 1.5),
-])
+], tsize=21)
 v5.box('SAY IT ONLINE　ネットでのひと言', [
     ('« What a game ! » — なんという試合！', "serif", False, INK, 21.5, 1.45),
     ('« Send me the highlights. » — ハイライトを送って。', "serif", False, INK, 21.5, 1.45),
@@ -159,7 +159,7 @@ s6.box('HEADLINE LANGUAGE　見出しの英語', [
     ('« Early voting opens » — 期日前投票が始まる', "serif", False, INK, 21, 1.45),
     ('« voters head to the polls » — 有権者が投票所へ向かう', "serif", False, INK, 21, 1.45),
     ('« too close to call » — 互角で勝敗が読めない', "serif", False, INK, 21, 1.45),
-])
+], tsize=20)
 s6.end_report()
 
 # ---- practice chart (span cols 0-1) ----
@@ -185,7 +185,7 @@ p.text(chx + 24, byy + 8, 'Four answers, 100 voters. 四つの答え、合計100
 
 # ---- chart questions (cols 0-1) ----
 q6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470, 2560, tag="P6-chart-ex")
-q6.head('READING THE CHART　グラフを読む', 24)
+q6.head('READING THE CHART　グラフを読む', 22)
 q6.ex("B2", 'グラフ読み取り', "C", '最大の理由は長い列を避けるため 34%',
      "The biggest reason is... A. travel · B. work · C. avoiding long lines", size=22)
 q6.ex("B2", 'グラフ読み取り', "27", '選挙日に仕事がある：27人',

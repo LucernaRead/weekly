@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # clock-contrast band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 44, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Daylight saving ends one week later in the United States : on Sunday, November 1. Do not change your clock this week !", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "SPOSTA L'ORA", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "GLI USA L'1 NOVEMBRE (P. 7)", 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.expl("Nota — early voting, il voto anticipato · ballot, la scheda · tip-of
 f.box("THE WEEK IN NUMBERS　In cifre", [
     ("Nov 3 — Election Day (il giorno delle elezioni) · Oct 19 — early voting opens in Texas (inizia in Texas)", "serif", False, INK, 20.5, 1.35),
     ("43 — NBA games from Tuesday to Sunday (da martedì a domenica) · 2 — teams in the World Series, both after a first title (entrambe al primo titolo)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("TRY IT NOW　Prova subito", 25)
 f.ex("A2", "Completare le frasi", "ballot", "ballot = la scheda elettorale",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -85,7 +85,7 @@ p.text(gx + 22, byy + 76, "“hot dog recall”, lunedì: 200K+ (p. 2)", 19, "sa
 # ---- sommaire (col 3) ----
 sy = 1280
 p.rect(gx, sy, gw, 372, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN THIS ISSUE　In questo numero", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN THIS ISSUE　In questo numero", 22, "sans", True, OLIVE)
 som = [
     ("p.2", "Checks, fridges & clocks", "A2"),
     ("p.3", "Halloween in America", "A2→B1"),
@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

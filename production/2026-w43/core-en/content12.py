@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # clock-contrast band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 44, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Daylight saving ends one week later in the United States : on Sunday, November 1. Do not change your clock this week !", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "本周日欧洲拨钟", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "美国 11月1日才拨钟　详见第7版", 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.bridge("讲解｜early voting 提前投票 · ballot 选票 · tip off 开赛 
 f.box("THE WEEK IN NUMBERS　数字看本周", [
     ("Nov 3 — Election Day（选举日） · Oct 19 — early voting opens in Texas（得州提前投票首日）", "serif", False, INK, 20.5, 1.35),
     ("43 — NBA games from Tuesday to Sunday（本周 43 场 NBA） · 2 — teams in the World Series, both after a first title（两队争首冠）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("TRY IT NOW　即学即练", 25)
 f.ex("A2", "完成句子", "ballot", "ballot = 纸选票",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

@@ -192,6 +192,13 @@ throughout; masthead «The Lucerna» as the core ships.
 8 pages. Print: **8,615,022 B**, sha256
 `e1b2f240087239a91bcdd08dcfd4ef5b69126f6c60adac55120c1d150ae9a103`, 8 pages.
 
+**D5 rebuild (2026-11-13, see §7 below).** Print `The-Lucerna-VOL1-en-it.pdf` **7,493,650 B**,
+sha256 `d54137e00e209de5bdc1cbc1eb4aa46c8025de56c8c184af3b37636363ce592e`; web
+`2026-w43-en-it.web.pdf` **1,063,082 B**, sha256
+`6416281b07a3362325c86e1a4fa4206a1b9578815923b0fb880e3b0504180d0a` (< 7 MB);
+text.md byte-identical to the shipped version (sha256 `dbc0c91d…`). Pre-D5 values:
+print 8,615,022 B, web 1,103,724 B (`32aaebd8…`, shipped in issues/).
+
 **Terminology scan.** The intermediary-layer term: **0 occurrences** in the paper
 (SVGs, cards, PDFs), in this KIT, and in the operative build sources
 (content12/34/56/7/8.py, svglib.py, bslib4.py). Zero CJK in all 8 SVGs.
@@ -212,3 +219,24 @@ are clean; adjudicated a builder-hygiene note, not an edition defect.
 
 Proofreader scratch (audit script, control SVG, text dumps, rebuilds, flag logs):
 `hidden_files/proof-enit-independent/`.
+
+## 7. D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-it/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-it.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader it --week 2026-w43`, `_D5_READER = "latin"` (installed svglib md5 identical across de/it/nl/pt); routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF vs `MANIFEST-W43-D1.md` −79 B (metadata float, one of the 4); print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 550, Cyrillic 0, curly in CJK 1; baseline P8 noted 62/149 (core口径).
+
+**Defects and fixes** (run1: 6 items, all D5 widening except the pre-existing P2 spill, which the baseline shares; sizes only, no wording changed):
+
+- heads ×2: P4 `C　COMPARATIVES　Comparativi` 25→23 (24 still 3.7 px over); P5 `EARNINGS, IN PLAIN ENGLISH` 26→25 (column width 422.5).
+- occlusion ×1 (P1): band headline vs subtitle `SPOSTA L'ORA` overlapped 55.5×20.8 px → headline 46→**44** (the family's narrowest subtitle at 27 pt, left edge x=1649.0 — 44 already clears, no need for 42).
+- creambox/boxtitle ×2: P1 `THE WEEK IN NUMBERS　In cifre` +3.5 px → `tsize=22`; P1 `IN THIS ISSUE　In questo numero` (contents-box header, a bare `p.text` at 24 pt, not a `box()` title) +11.1 px → 24→**22**.
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px → box-height formula tail +14→+34 (box bottom +20 px; same pre-existing defect as core-en).
+
+P8: 193→189 lines, footer slack 32.7→52.8 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0; render RC=0; webpdf RC=0 (1,063,082 B < 7 MB); occlusion 0 flags; p8 extract noted 62/149; p8 compare **CLEAN** (keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (57 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-it.pdf` 7,493,650 B (`d54137e0…`); web `2026-w43-en-it.web.pdf` 1,063,082 B (`6416281b…`); text.md byte-identical (`dbc0c91d…`). Still 149 exercises.

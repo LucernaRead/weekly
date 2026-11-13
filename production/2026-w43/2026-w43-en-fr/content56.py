@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -61,7 +61,7 @@ f.ex("B1", "Transformation", "Fans are watching the tripleheader on their phones
      "Fans (watch) the tripleheader on their phones. → ___", instr="Réécrivez")
 f.ex("B1", "Transformation", "Milwaukee is preparing for Game 1.", "prepare → is preparing",
      "Milwaukee (prepare) for Game 1. → ___", instr="Réécrivez")
-f.head("D　TRUE OR FALSE ?　Vrai / faux", 25)
+f.head("D　TRUE OR FALSE ?　Vrai / faux", 24)
 f.ex("B1", "Vrai ou faux", "True", "Le texte : beaucoup de jeunes fans découvrent le match en clip",
      "1. Many young fans meet a game first as a short clip.", instr="Vrai ou faux", size=23)
 f.ex("B1", "Vrai ou faux", "False", "Avant la publication, personne ne connaît les chiffres",
@@ -159,7 +159,7 @@ s6.box("HEADLINE LANGUAGE　Les titres", [
     ("« Early voting opens » — Le vote anticipé commence", "serif", False, INK, 21, 1.45),
     ("« voters head to the polls » — Les électeurs se rendent aux urnes", "serif", False, INK, 21, 1.45),
     ("« too close to call » — Trop serré pour annoncer un vainqueur", "serif", False, INK, 21, 1.45),
-])
+], tsize=22)
 s6.end_report()
 
 # ---- practice chart (span cols 0-1) ----
@@ -185,7 +185,7 @@ p.text(chx + 24, byy + 8, "Four answers, 100 voters. Quatre réponses, 100 élec
 
 # ---- chart questions (cols 0-1) ----
 q6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470, 2560, tag="P6-chart-ex")
-q6.head("READING THE CHART　Graphique", 24)
+q6.head("READING THE CHART　Graphique", 23)
 q6.ex("B2", "Lecture de graphique", "C", "La première raison : éviter les files (34 %)",
      "The biggest reason is... A. travel · B. work · C. avoiding long lines", size=22)
 q6.ex("B2", "Lecture de graphique", "27", "Ils travaillent le jour du vote : 27 personnes",

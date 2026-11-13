@@ -15,6 +15,12 @@ explanations only. Masthead: **The Lucerna** (the article follows the target lan
   uncompressed, same as the French VOL.2 original)
 - `The-Lucerna-VOL1-web.pdf` — Discord-sized compressed PDF, **4.18 MB** (< 25 MB limit;
   page JPEGs q85 at 1400 px wide)
+- D5 重建（2026-11-13，见十二节）：印 `The-Lucerna-VOL1-en-zh-cn.pdf` **9,076,058 字节**
+  （SHA-256 `ed53b86f7f11e7f36dc2ffff8ba7d9239a348923e51a8150ce21ad6c46ef78d6`）；网
+  `2026-w43-en-zh-cn.web.pdf` **1,457,171 字节**（SHA-256
+  `ae8c2e4a7d3a13ad0ecb790d3a0617646325f8fd2673c4040a8bf89dd38de533`，< 7 MB）；
+  text.md 与已发版字节一致（SHA-256 `b45f90ad…`）。D5 前值：印 24,496,906 字节
+  （见十一节）、网 1,705,044 字节（`9a10aa9d…`，issues 已发版）。
 - 本文件
 
 构建代码在 `hidden_files/weekly-report-en-build/`：`svglib.py`（与法语版相同）、
@@ -209,3 +215,46 @@ EOF
 
 **最终体量**：完整版 PDF 24,496,906 字节（24.5 MB）；web 版 PDF **4,184,520 字节（4.18 MB < 10 MB）**。
 本 PATCH 未向 Discord 重新投递（投递由上级步骤决定）。
+
+## 十二、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-zh-cn/`；
+逐版报告：`production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-zh-cn.md`。
+
+**装机**：`apply_variant.py --patch-core en --week 2026-w43`（core-en `svglib.py`
++95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py --target en
+--reader zh-cn --week 2026-w43`，装后 `_D5_READER = "cjk"`（与 W47 的 6 个 cjk core
+一致，是预期状态）；路由单元测试 FAILURES: 0（66 PASS）；fix2 块保留。
+
+**基线**（修前生产版）：run TOTAL 149，0 警告；印 PDF 21,867,600 B（与清单差 −2 B，
+元数据浮动）；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差 447）；
+修前普查 D5 拉丁 403、西里尔 0、弯引号在 CJK 3。
+
+**缺陷与修法**（run1 共 9 项，全为 D5 字体加宽引起，另 P2 spill 为既有缺陷——基线
+同值；修法只动字号与框高，未动文字）：
+
+- head ×3：P3 `B　FESTIVAL WORDS　节日词填空` 25→24；P5 `EARNINGS, IN PLAIN ENGLISH`
+  26→25；P5 `C　THIS WEEK, LIVE　现在进行时` 25→24（栏宽 422.5）。
+- occlusion ×2（P1）：暗带标题与副标 `本周日欧洲拨钟` 重叠 38.5×25.0px → 暗带标题
+  46→44；`One team will now win the World Series for` 与 `　数字看本周` 重叠
+  8.5×12.8px → 随奶油框标题缩小解决。
+- creambox/boxtitle ×3：P1 `　数字看本周` +36.5px → `THE WEEK IN NUMBERS　数字看本周`
+  加 `tsize=21`；P3 `　当晚这样说` +3.6px → `SAY IT ON THE NIGHT　当晚这样说`
+  加 `tsize=22`；P5 `　屏幕词表` +8.9px → `WORDS OF THE SCREEN　屏幕词表` 加 `tsize=22`。
+- spill ×1：P2 `Check your number!` 跌出 DID YOU KNOW 框底 12.71px → 框高公式尾数
+  +14→+34（框底 +20px；下方 AND YOU 框底至 1554.6，距 TELLING THE TIME 横线 3.4px，
+  无接触）。
+
+P8：182→181 行，距页脚线余量 33.7→33.7 px。
+
+**门禁 run2（全套 17 门 ALL-GREEN）**：run TOTAL 149、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,457,171 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 62/149；p8 compare **CLEAN**；freeze baseline 8/8；freeze diff 新增
+CJK 字符 0；spill 0；boxtitle 0 DEFECT（55 titles）；edge 0/0；creambox PASS 0 defects；
+文字层 print=web 差 0（各 100,785 字符）；census_quotes 0 defective；en 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-en-zh-cn.pdf` 9,076,058 字节（`ed53b86f…`）；
+网 `2026-w43-en-zh-cn.web.pdf` 1,457,171 字节（`ae8c2e4a…`）；text.md 字节一致
+（`b45f90ad…`）。练习仍为 149 题，§四体量数未变。

@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -38,7 +38,7 @@ f.ex("B1", "객관식", "B", "Tesla와 Meta는 수요일 장 마감 뒤 실적 �
      "Tesla and Meta report their results... A. Monday morning · B. Wednesday after the close · C. Sunday night", size=22.5)
 f.ex("B1", "객관식", "C", "실적 발표 전에는 전문가 수치가 제각각이에요",
      "Before a report, the experts' numbers... A. are all the same · B. are secret · C. differ from expert to expert", size=22.5)
-f.head("B　SCREEN WORDS　화면 단어 빈칸", 25)
+f.head("B　SCREEN WORDS　화면 단어 빈칸", 24)
 f.ex("A2", "문장 완성", "stream", "stream = 스트리밍으로 보기",
      "You can ___ the game live on your phone.", instr="빈칸 채우기", size=23)
 f.ex("B1", "문장 완성", "highlights", "highlights = 하이라이트 장면",
@@ -82,7 +82,7 @@ v5.box("WORDS OF THE SCREEN　화면 단어장", [
     ("a roster — 명단", "serif", False, INK, 21.5, 1.5),
     ("earnings — 실적 발표, 이익", "serif", False, INK, 21.5, 1.5),
     ("to post — 글을 올리다, 게시하다", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=21)
 v5.box("SAY IT ONLINE　온라인 한마디", [
     ("« What a game ! » — 정말 멋진 경기예요!", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — 하이라이트 보내 줘요.", "serif", False, INK, 21.5, 1.45),
@@ -159,7 +159,7 @@ s6.box("HEADLINE LANGUAGE　헤드라인 언어", [
     ("« Early voting opens » — 사전투표 시작", "serif", False, INK, 21, 1.45),
     ("« voters head to the polls » — 유권자들이 투표소로 향해요", "serif", False, INK, 21, 1.45),
     ("« too close to call » — 너무 접전이라 예측 불가", "serif", False, INK, 21, 1.45),
-])
+], tsize=21)
 s6.end_report()
 
 # ---- practice chart (span cols 0-1) ----

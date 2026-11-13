@@ -103,6 +103,7 @@
 - `cards/` ×8 PNG（1950×2700）
 - 印刷 PDF `Lucerna-VOL1-KO.pdf`：**15,122,583 B**，sha256 `68f3f679869d8faa337649b5a4ca90bbda49448b82290e0787d9bfbed79481eb`（8 页，校对终值）
 - 网页 PDF `Lucerna-VOL1-KO-web.pdf`：**4,404,907 B < 10 MB**，sha256 `8a102dc90c75f0ea2a33dd52d0b28a28f52b999f4424073caed0d020d8f995ca`（8 页，1400px 宽 JPEG q85，核心配方，校对终值）
+- **D5 重建（2026-11-13，见 §14）**：印刷 `The-Lucerna-VOL1-en-ko.pdf` **10,013,644 B**，sha256 `57e0a3e072b569b4ea26691e684790e271e35a976e21094b315b5fa33c71d8ed`；网页 `2026-w43-en-ko.web.pdf` **1,396,153 B < 7 MB**，sha256 `40500e99cebaaa09867973eaa80d818aeea5bc6e3954ca4664c4435bc0e213c6`；text.md 与已发版字节一致（sha256 `a1d45cf1…`）。D5 前值：印刷 15,122,583 B（本节上行），网页 1,478,283 B（`6ce8cdc7…`，issues 已发版）。
 - `WEEKLY-KIT.md`（本文件）
 
 ## 12. 纪律声明与披露
@@ -124,3 +125,39 @@
 - **KO 列定式验收**：§3 各行逐字在版实证（徽章/顶带/衬线行/时钟带两行/P8 头与分隔 ×8/页脚 ×8/页码 ×8）；gloss 双前缀 = 0、5 处 gloss 调用 × 5 词条、词头序列与核心逐条同序（核心串内自带前缀为 §8-④ 已清理项）；P7 页标签计数 (page 2)×3 · (page 4)×4 · (page 6)×4 与核心逐项全等；8 金句逐条回溯本期原文命中。定式完整、自洽、可复用，唯顶带第三段国家名替换规则已在 §3 后加澄清注。
 - **缺陷与修复（7 处，均为讲解层韩语折行末行单音节孤行，IT×KO 实测缺陷类）**：P3 词表 '요'（거예요 尾）→ 장난쳐요；P4 词表 '언'（챔피언 尾）→ 디펜딩 챔프（gloss/配对/词表 3 处同词统一）；P4 短语盒 '요.' → 앞섰어요；P5 词表 '다'（보다 尾）→ 스트리밍, 온라인으로 보다；P5 图注 '요.' → 스냅샷에서（删 는）；P7 语法行 '요.' ×2 → 불규칙. / 어림수에 써요。修复在改道副本内单一 driver 一进程重渲，仅 p3/p4/p5/p7 四页 SVG 变化、余 4 页逐字节不变；注册表键 149/149 不变（唯一连带变化：#53 未印刷注内同词统一 챔프，键 'a' 不动、P8 逐字节未变）；建造记录 `weekly-report-en-ko-build` 已同步同改。修复后整轮门重跑全绿：孤行复扫单音节末行 = 0（余 3 个 2 音节尾 '흐름.'/'불가' 为完整词、'어요.' 为 2 音节敬语尾，均在已入仓 ×KO 版容忍带内，记录保留）；遮挡/p8/freeze 终态如上；P3 节头墨迹右缘 1443.25（与 §8 留档逐值合，距栏界 7.75 净空）、P5 节头墨迹止于 965.5（净空 23.5），HEAD TOO WIDE 警告为 advance 口径保守项、墨迹口径无越界。
 - **日历**（America/New_York 实测）：Oct 19 Mon · 20 Tue · 23 Fri · 24 Sat · 25 Sun · 31 Sat · Nov 1 Sun · Nov 3 Tue，与纸面全合（本版 #148 注 (화요일) 亦合）。讲解层无国际政治新增。最终针脚见 §11（已换校对终值）。
+
+## 14. D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+不 commit、不 push——入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-ko/`；本版报告：
+`production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-ko.md`。
+
+**装机**：核心以 `apply_variant.py --patch-core en --week 2026-w43` 落盘（core-en
+`svglib.py` +95/−3，`_D5_READER = "latin"`）；本版以 `--svglib patched/…/svglib.py
+--target en --reader ko --week 2026-w43` 安装，`_D5_READER = "cjk"`（安装器注记
+`CJK index SC -> KR`）；路由单元测试 FAILURES: 0（66 PASS）；fix2 块保留。
+
+**基线**（修前生产版）：run TOTAL 149，0 警告；印 PDF 与 MANIFEST-W43-D1 逐字节一致；
+印/网文字层多重集差 0；自建网 vs 已发网非空字符差 0（仅空格差）；修前普查 D5 拉丁 399、
+西里尔 0、弯引号在 CJK 1；基线 P8 noted 62/149（core 口径）。
+
+**缺陷与修法**（run1 共 10 项，字号-only，未动文字）：P5 `EARNINGS, IN PLAIN ENGLISH`
+26→25；P5 `B　SCREEN WORDS　화면 단어 빈칸` 25→24；P1 暗带标题 46→**42**（44pt 仅余
+约 1px advance 空隙，副标 `유럽은 이번 주 일요일` 两处重叠 74.5+11.2px）；P3 `SAY IT ON
+THE NIGHT　그날 밤 표현` tsize=22；P3 `DATES TO REMEMBER　이달의 날짜` tsize=22；P4
+`THE WEEK'S FIXTURES　이번 주 일정` tsize=**21**（22pt 仍超约 4.5px）；P5 `WORDS OF
+THE SCREEN　화면 단어장` tsize=**21**（22pt 仍超约 8.7px）；P6 `HEADLINE LANGUAGE　헤드라인
+언어` tsize=**21**（22pt 仍超约 14.2px）；P2 spill（`Check your number !` +12.71px，既有缺陷，
+基线同值）→ DID YOU KNOW 框高公式尾数 +14→+34。本版 boxtitle 计 76 titles（余版多为 57），
+系韩语版框数多，非缺陷。P8：183→182 行，距页脚线余量 33.7→33.7px。
+
+**门禁 run2（全套 17 门 ALL-GREEN）**：run TOTAL 149；head_check 0；d5 census 0/0/0；
+render RC=0；webpdf RC=0（1,396,153 B < 7 MB）；occlusion 0 flags；p8 extract noted
+62/149；p8 compare **CLEAN**（keydiff=[136, 139, 149]）；freeze baseline 8/8；freeze diff
+新增 CJK 0；spill 0；boxtitle 0 DEFECT（66 titles）；edge 0/0；creambox PASS 0 defects；
+文字层 print=web 差 0；census_quotes 0 defective；en 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-en-ko.pdf` 10,013,644 B（`57e0a3e0…`）；网
+`2026-w43-en-ko.web.pdf` 1,396,153 B（`40500e99…`）；text.md 字节一致（`a1d45cf1…`）。
+仍为 149 题。

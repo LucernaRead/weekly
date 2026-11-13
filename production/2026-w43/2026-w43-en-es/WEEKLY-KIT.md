@@ -12,6 +12,7 @@
 - `cards/` — 8 PNG cards, 1950×2700 (p1-front, p2-life, p3-culture, p4-sport, p5-jeunesse, p6-politique, p7-langue, p8-exercices)
 - `Lucerna-VOL1-ES.pdf` (print) — 8,618,507 bytes · sha256 ee727ca23af47a19f47b85f5fb61fb2007ee855a1dbdf3114117e101bea74b57 (pins updated 2026-10-21 after the independent-proofread fix below; original build pins were 8,618,113 B / 216ee988…)
 - `Lucerna-VOL1-ES-web.pdf` — **4,517,009 bytes (< 10 MB)** · sha256 517e9ff12e671f9fc4ca3d552313f0f4cd12d6b7ed08e4b6d6ef884f5db57a44 (original build pins were 4,317,581 B / cb7dbc8f…)
+- D5 rebuild (2026-11-13, see D5 rebuild section below): print `The-Lucerna-VOL1-en-es.pdf` **7,499,239 bytes** · sha256 `1a9e0b68a28526cf116403c79238c4de4fd105247c05d056ac2bf35a46edfd50`; web `2026-w43-en-es.web.pdf` **1,068,674 bytes** · sha256 `d852804361ed382b4d053555cc26228c21e298964c64656681b76cb449c225a4` (< 7 MB); text.md byte-identical to the shipped version (sha256 `ba99650a…`). Pre-D5 values: print 8,618,507 B, web 1,108,851 B (`164eb07c…`, shipped in issues/).
 - Build code: `hidden_files/weekly-report-en-es-build/` (copy of the frozen core build; core dirs never edited)
 
 ## Method (fan-out, same as the EN×FR / EN×DE siblings)
@@ -73,6 +74,29 @@ cd hidden_files/weekly-report-en-es-build
   2. **Registry**: 149 items in both; n/page/level identical for all 149; levels A2 58 · B1 72 · B2 19; per-page 10/17/18/18/18/18/12/38; 13 type labels translated 1:1. **Key diffs exactly #136, #139, #149**; stems #137/#138 re-aimed into Spanish with English keys byte-identical. The two Spanish translation keys verified faithful against the printed stems (#136 «Voting is no longer a day ; it is a season.» → «Votar ya no es cosa de un solo día; es una temporada.»; #139 «Neither club has ever won the Series.» → «Ninguno de los dos clubes ha ganado nunca la Serie Mundial.»). Keys spot-derived against the articles/chart (chart 34+27+23+16 = 100; #82–87 = C/27/61%/False/18 points/100%; House 218−214 = 4; matching maps P2 b/d/c/a · P4 d/b/a/c · P8 b/c/d/a) — all agree. Numbering 1–149 continuous.
   3. **DEFECT FOUND AND FIXED (explanation layer)**: 14 answer notes present in the registry but missing from the printed P8 key block (items 11, 14, 15, 19, 35, 36, 40, 42, 49, 65, 74, 89, 101, 106) — the inherited `len ≤ 10` print rule fits Chinese notes (8–10 chars) but the Spanish notes run 13–52 chars. The builder's "no note dropped" claim held for the registry, not for the printed page. Fix: `NOTAS_EXTRA` set added to the print condition in the ES build's `content8.py` only; rebuilt — P1–P7 SVGs byte-identical, P8 battery byte-identical, key block now prints 62 notes = the core's exact set. Cards and both PDFs re-rendered with the documented recipe; new pins at the top of this KIT.
   4. **Spanish apparatus**: complete after the fix; CJK characters in final SVGs: 0 (the single '｜' fullwidth bar is a punctuation separator inherited from the core's furniture, not language content); all instructions, glosses, notes, chart note, clinic, readers'-corner reply and teaser in Spanish.
+
+## D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-es/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-es.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader es --week 2026-w43`, `_D5_READER = "latin"`; routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF byte-identical to `MANIFEST-W43-D1.md`; print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 553, Cyrillic 0, curly in CJK 1; baseline P8 noted 62/149 (core口径).
+
+**Defects and fixes** (run1: 12 items, all D5 widening except the pre-existing P2 spill, which the baseline shares; sizes only, no wording changed):
+
+- heads ×4: P1 `TRY IT NOW　Practica al momento` 25→24 (421.5 px, 1.0 px margin); P3 `B　FESTIVAL WORDS　Completa` 25→24; P5 `EARNINGS, IN PLAIN ENGLISH` 26→25; P7 `THE TOOLBOX　Herramientas` 27→26 (column width 422.5).
+- occlusion ×2 (P1): band headline vs subtitle `CAMBIA LA HORA` overlapped 111.9×20.8 px → headline 46→**42** (44 still overlapped); P6 PRACTICE DATA line crossed by the r6 head's rule (LINEX, tail x=993.2 vs rule from x=989) → PRACTICE DATA 18.5→**18** (tail x=969.0). Note: the same P6 strike-through was already fixed in the D1 build (Geometry §8: tail shortened, tail x=958) — the D5 font widening re-introduced it (Latin runs ~35 px wider in Newsreader than in the CJK face).
+- creambox/boxtitle ×4: P1 `THE WEEK IN NUMBERS　En cifras` +21.5 px → `tsize=21`; P4 `THE WEEK'S FIXTURES　Partidos` +3.7 px → `tsize=22`; P5 `WORDS OF THE SCREEN　Palabras` +13.9 px → `tsize=22`; P6 `HEADLINE LANGUAGE　Titulares` +3.2 px → `tsize=22`.
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px → box-height formula tail +14→+34 (box bottom +20 px; same pre-existing defect as core-en).
+
+Lesson recorded: the first attempt set PRACTICE DATA to 16 pt, and the rebuild's text.md export then LOST that line — the exporter (`en_textmd_w43.py` L240–242) only includes `p.text` calls with size ≥ 18. Corrected to 18 pt and text.md is byte-identical again. Never size a `p.text` line below 18 pt without checking the exporter threshold.
+
+P8: 195→192 lines, footer slack 32.7→32.6 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0; render RC=0; webpdf RC=0 (1,068,674 B < 7 MB); occlusion 0 flags; p8 extract noted 62/149; p8 compare **CLEAN** (keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (55 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-es.pdf` 7,499,239 B (`1a9e0b68…`); web `2026-w43-en-es.web.pdf` 1,068,674 B (`d8528043…`); text.md byte-identical (`ba99650a…`). Still 149 exercises; answer keys differ from the core only at #136/#139/#149, as registered.
   5. **P7 phrases**: all 8 verified verbatim in their cited pages (tags 4/2/4/4/6/6/2/2); #5 also legitimately recurs in P6's KEY SENTENCE box and P7's B2 example (frozen core design, identical in the core).
   6. **Calendar**: every weekday claim re-checked against the real 2026 calendar (NBA Tue Oct 20 · World Series Fri Oct 23 · F1 Austin Sun Oct 25 · Halloween Sat Oct 31 · Election Day Tue Nov 3 · TX early voting Mon Oct 19 – Fri Oct 30 · FL mandatory Sat Oct 24 · US clocks Sun Nov 1 · DE/MD Thu Oct 22) — all correct.
   7. **Furniture**: pairing badge on P1 (verbatim, brick red); pairing footer + «Página N de 8» on all 8 pages; masthead «The Lucerna» as shipped.

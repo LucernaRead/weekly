@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # clock-contrast band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 42, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Daylight saving ends one week later in the United States : on Sunday, November 1. Do not change your clock this week !", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "欧州は時計を戻す", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, '米国は11月1日　詳しくは7ページ', 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.expl('解説 — early voting 期日前投票 · ballot 投票用紙 · tip of
 f.box('THE WEEK IN NUMBERS　今週の数字', [
     ('Nov 3 — Election Day（選挙日） · Oct 19 — early voting opens in Texas（テキサスで期日前投票開始）', "serif", False, INK, 20.5, 1.35),
     ('43 — NBA games from Tuesday to Sunday（今週のNBA 43試合） · 2 — teams in the World Series, both after a first title（両チームとも初優勝を狙う）', "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head('TRY IT NOW　すぐ練習', 25)
 f.ex("A2", '文の完成', "ballot", 'ballot = 紙の投票用紙',
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
@@ -202,7 +202,7 @@ etvous = "And you ? Is there a hot dog in your fridge today ? What money comes i
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("冷蔵庫にホットドッグはある？毎月の収入は何？英語で2文。", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, 'AND YOU ?　あなたのことを話そう', 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, 'AND YOU ?　あなたのことを話そう', 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "冷蔵庫にホットドッグはある？毎月の収入は何？英語で2文。", 20, "sans", False, GREY, CW - 44, 1.42)

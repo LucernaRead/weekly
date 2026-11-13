@@ -168,6 +168,8 @@ Lucerna-VOL1-NL.pdf (print), Lucerna-VOL1-NL-web.pdf, this KIT.
 | Lucerna-VOL1-NL.pdf | 8,617,312 | 51cd2483d483c77f1d07da9326c7f87519c39a51a169c481e8f35673b44db8ed |
 | Lucerna-VOL1-NL-web.pdf | 4,539,679 (< 10 MB ✓) | 52b71880309f960e1444935013494e2ab96b37a6fc6717eeb1ff93de9c3d57ef |
 
+**D5 rebuild (2026-11-13, see §11 below).** Print `The-Lucerna-VOL1-en-nl.pdf` **7,494,138 bytes**, sha256 `3875d10bc3aa7a5267c4e5599358254bd20475011441385a7dc78d8fec4b85ae`; web `2026-w43-en-nl.web.pdf` **1,063,554 bytes**, sha256 `5107ac33829e6f78cac8642da9e70a450dcf506ebbe2963a72f3cf35d4e87e5d` (< 7 MB); text.md byte-identical to the shipped version (sha256 `72de5219…`). Pre-D5 values: print 8,617,312 B, web 1,105,489 B (`4e244251…`, shipped in issues/).
+
 (The two rows above are the FINAL pins, measured by the independent
 proofreader on the post-fix artifacts — §10; they supersede the builder's
 pre-fix pins 8,617,532 / a74d571b… and 4,360,461 / 2a985a10….)
@@ -289,3 +291,24 @@ p8 35c00e49…, full values in §1).
 
 **Verdict: PASS — one complete independent pass over the final artifacts
 with zero problems.**
+
+## 11. D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-nl/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-nl.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader nl --week 2026-w43`, `_D5_READER = "latin"` (installed svglib md5 identical across de/it/nl/pt); routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF byte-identical to `MANIFEST-W43-D1.md`; print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 556, Cyrillic 0, curly in CJK 1; baseline P8 noted 62/149 (core口径).
+
+**Defects and fixes** (run1: 8 items, all D5 widening except the pre-existing P2 spill, which the baseline shares; sizes only, no wording changed):
+
+- heads ×3: P4 `C　COMPARATIVES　Vergelijking` 25→24 (420.6 px, only 1.9 px spare — the gate is a deterministic measurement, a pass is a pass); P5 `EARNINGS, IN PLAIN ENGLISH` 26→25; P8 `B　MULTIPLE CHOICE　Meerkeuze` 24→**22** (23pt still 0.2 px over).
+- occlusion ×2: P1 band headline vs subtitle `DE KLOK TERUG` overlapped 89.9×20.8 px → headline 46→**42** (44 leaves only ~1 px advance gap); P6 PRACTICE DATA line crossed by the r6 first-column title rule (LINEX, same defect class as es — the Dutch tail sentence `Oefengegevens, verzonnen.` pushed the line end past the rule at x=989) → PRACTICE DATA 18.5→**18** (stays ≥ the 18 pt exporter threshold; text.md still byte-identical).
+- creambox/boxtitle ×3: P3 `SAY IT ON THE NIGHT　Zeg het zo` +2.6 px → `tsize=22`; P5 `WORDS OF THE SCREEN　Scherm` +2.9 px → `tsize=22`; P6 `HOW TO FOLLOW IT　Zo volg je ze` +2.3 px → `tsize=22`.
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px → box-height formula tail +14→+34 (box bottom +20 px; same pre-existing defect as core-en).
+
+P8: 197→193 lines, footer slack 32.7→51.6 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0; render RC=0; webpdf RC=0 (1,063,554 B < 7 MB); occlusion 0 flags; p8 extract noted 62/149; p8 compare **CLEAN** (keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (57 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-nl.pdf` 7,494,138 B (`3875d10b…`); web `2026-w43-en-nl.web.pdf` 1,063,554 B (`5107ac33…`); text.md byte-identical (`72de5219…`). Still 149 exercises.

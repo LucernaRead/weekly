@@ -45,7 +45,7 @@ cC.box("THE EXAMPLE　Das Beispiel", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-tools")
-cD.head("THE TOOLBOX　Werkzeugkiste", 27)
+cD.head("THE TOOLBOX　Werkzeugkiste", 25)
 cD.para("Three sentences to keep in your pocket, one for each level :", 22.5)
 cD.para("A2 — « It's a quarter to eight. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « The 76ers won, and Maxey scored more than Brunson. »", 22.5)
@@ -96,7 +96,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("THE ERROR CLINIC　Fehlerklinik", 25)
+cf.head("THE ERROR CLINIC　Fehlerklinik", 24)
 cf.bridge("Jeder Satz enthält einen Fehler: Finde ihn und korrigiere den Satz.")
 cf.ex("A2", "Fehlerkorrektur", "I agree with you.", "agree ist ein Verb — kein am davor",
      "✗ « I am agree with you. »", instr="Korrigiere", size=22.5)

@@ -40,7 +40,7 @@ f.ex("A2", "Verdadero o falso", "True", "el 47% usa herramientas de IA para busc
      "4. Almost half of celebrants use AI tools for costume ideas.", instr="V o F", size=23)
 f.ex("A2", "Verdadero o falso", "False", "porche a oscuras = este año, no molestar",
      "5. A house with no light on the porch is asking for visitors.", instr="V o F", size=23)
-f.head("B　FESTIVAL WORDS　Completa", 25)
+f.head("B　FESTIVAL WORDS　Completa", 24)
 f.ex("A2", "Completar frases", "costume", "costume = el disfraz",
      "Children wear a ___ and go from door to door.", instr="Completa", size=23)
 f.ex("A2", "Completar frases", "carve", "carve a pumpkin = tallar una calabaza",
@@ -132,7 +132,7 @@ f.box("THE WEEK'S FIXTURES　Partidos", [
     ("Wed — Lakers vs Warriors · Thu — Patriots at Bears", "serif", False, INK, 21, 1.42),
     ("Fri — World Series Game 1, 8 p.m. ET · Sat — Game 2", "serif", False, INK, 21, 1.42),
     ("Sun — Austin Grand Prix · El Clásico, 4 p.m. ET", "serif", False, INK, 21, 1.42),
-])
+], tsize=22)
 f.gloss("a banner, la bandera de campeón · to sweep, barrer (ganar toda la serie) · the defending champion, el campeón defensor · qualifying, la clasificación · a storyline, la historia de fondo.")
 f.head("A　READING　Lectura", 25)
 f.ex("B1", "Opción múltiple", "A", "la última bandera de los Knicks era de 1973",

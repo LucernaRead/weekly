@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # clock-contrast band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "EUROPE TURNS ITS CLOCKS BACK SUNDAY — AMERICA WAITS !", 42, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Daylight saving ends one week later in the United States : on Sunday, November 1. Do not change your clock this week !", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "L’EUROPE RECULE", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Amérique : le 1er novembre　page 7", 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.instrline("Note | early voting = le vote anticipé · ballot = le bulletin de 
 f.box("THE WEEK IN NUMBERS　Chiffres", [
     ("Nov 3 — Election Day (jour des élections) · Oct 19 — early voting opens in Texas (premier jour au Texas)", "serif", False, INK, 20.5, 1.35),
     ("43 — NBA games from Tuesday to Sunday (43 matchs NBA cette semaine) · 2 — teams in the World Series, both after a first title (les deux visent un premier titre)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("TRY IT NOW　À vous de jouer", 25)
 f.ex("A2", "Compléter", "ballot", "ballot = le bulletin de vote",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -173,7 +173,7 @@ f.para("Will 3.6% make anyone rich ? No. But for many households, 75 dollars is 
 f.para("The system is old. The first monthly check went to Ida May Fuller, of Vermont, on January 31, 1940. It was 22.54 dollars. In three years of work, Miss Fuller had paid 24.75 dollars into the system. She lived to be 100 years old, and in her long retirement she received more than 22,000 dollars in checks.")
 f.box("DO THE MATHS　À vous de calculer", [
     ("3.6% of $1,000 is $36. Of $2,000, it is $72. The average increase — about $75 — tells you the average check is a little over $2,000 a month.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=22)
 f.head("CHECK YOUR FRIDGE !", 25)
 f.para("Second story of the week — and it is in your kitchen. On Saturday, October 17, the US Department of Agriculture announced a big recall : about 1.58 million pounds of hot dogs, bacon and deli meats from one company, Kayem Foods. A cooler in the factory did not work correctly, and the food was not cold enough.", 23.5)
 f.para("What must you do ? Do not eat the food. Throw it away, or take it back to the shop. At the time of the announcement, no illnesses were reported — but the rule with a recall is simple : when in doubt, throw it out.", 23.5)
@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

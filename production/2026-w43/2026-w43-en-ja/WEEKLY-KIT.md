@@ -17,6 +17,7 @@
 - 练习总量 **149**（A2 58 · B1 72 · B2 19，核心继承；分级字段未动）。
 - 印刷 PDF `The-Lucerna-VOL1-JA.pdf`：**23,259,458 B**，sha256 `2b04e892f4f73613882378c89ea68c43586ae6a8ec61fccdc7a7c8b60b3d20c1`
 - 网页 PDF `The-Lucerna-VOL1-JA-web.pdf`：**4,425,353 B**（< 10 MB），sha256 `d7864277170011e5909510dd32deaf9de1108a53eb5711f2f73d3c1afcd53cd7`
+- **D5 重建（2026-11-13，见 §10）**：印刷 `The-Lucerna-VOL1-en-ja.pdf` **13,208,214 B**，sha256 `7c89a5133c3c2bfe3e5b9a296ad0330b4621738e34b47d8771262eeaf7413eeb`；网页 `2026-w43-en-ja.web.pdf` **1,577,598 B**（< 7 MB），sha256 `dbf79aa49de5afee65579ea0a0b7b88206fb203828b95ae586b93e3e35c670a3`；text.md 与已发版字节一致（sha256 `b27b6f2c…`）。D5 前值：印刷 23,259,458 B（本节上行），网页 1,787,577 B（`979e8017…`，issues 已发版）。
 - 渲染配方与核心一致：CairoSVG 卡片 1950×2700 → pypdf 印刷本；网页本 = 卡片缩至 1400 宽 JPEG q85（`render.py`）。
 
 ## 3.
@@ -118,3 +119,42 @@ en 英語 · de ドイツ語 · fr フランス語 · es スペイン語 · it �
 - VOL.2 预告与读者园地承诺（P1/P3/P7 冻结正文内）由核心继承，本版未动。
 - 图片与署名行全部随核心冻结（public domain 署名逐字继承核心出货）。
 - 本 KIT 与报面、operative 代码中不使用任何中介层表述；讲解一律称「解説」。
+
+## 10. D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+不 commit、不 push——入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-ja/`；本版报告：
+`production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-ja.md`。
+
+**装机**：核心以 `apply_variant.py --patch-core en --week 2026-w43` 落盘（core-en
+`svglib.py` +95/−3，`_D5_READER = "latin"`）；本版以 `--svglib patched/…/svglib.py
+--target en --reader ja --week 2026-w43` 安装，`_D5_READER = "cjk"`（安装器注记
+`CJK index already JP`，已有 kinsoku，走 skip port）；路由单元测试 FAILURES: 0（66 PASS）；
+fix2 块保留。
+
+**基线**（修前生产版）：run TOTAL 149，0 警告；印 PDF 与 MANIFEST-W43-D1 同字节、SHA
+不同（元数据浮动）；印/网文字层多重集差 0；自建网 vs 已发网非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 402、西里尔 0、弯引号在 CJK 1；基线 P8 noted 62/149（core 口径）。
+
+**缺陷与修法**（run1 共 14 项，字号-only，未动文字）：P4 `B　SPORTS WORDS　スポーツの語`
+25→24；P5 `EARNINGS, IN PLAIN ENGLISH` 26→25；P5 `C　THIS WEEK, LIVE　現在進行形` 25→24；
+P6 `READING THE CHART　グラフを読む` 24→22（23pt 仍超 10.9px）；P1 暗带标题 46→**42**
+（44pt 仅余约 3px 墨水空隙）；P1 `One team…` 与 `　今週の数字` 重叠 8.5px 随框标题缩小解决；
+P1 `THE WEEK IN NUMBERS　今週の数字` tsize=**21**（与 core-en 同题同值，仅余 1.8px）；
+P2 `AND YOU?　あなたのことを話そう`（裸 p.text）24→23；P3 `SAY IT ON THE NIGHT　夜のひと言`
+tsize=22；P3 `DATES TO REMEMBER　今月の日程` tsize=22；P4 `THE WEEK'S FIXTURES　今週の試合`
+tsize=**21**（22pt 仍超约 3.2px）；P5 `WORDS OF THE SCREEN　画面の語彙` tsize=**21**
+（22pt 仍超约 12.9px）；P6 `HEADLINE LANGUAGE　見出しの英語` tsize=**20**（21pt 仍超约
+0.6px）；P2 spill（`Check your number !` +12.71px，既有缺陷，基线同值）→ DID YOU KNOW
+框高公式尾数 +14→+34。P8：183→183 行，距页脚线余量 33.7→33.7px。
+
+**门禁 run2（全套 17 门 ALL-GREEN）**：run TOTAL 149；head_check 0；d5 census 0/0/0；
+render RC=0；webpdf RC=0（1,577,598 B < 7 MB）；occlusion 0 flags；p8 extract noted
+62/149；p8 compare **CLEAN**（keydiff=[136, 139, 149]）；freeze baseline 8/8；freeze diff
+新增 CJK 0；spill 0；boxtitle 0 DEFECT（49 titles）；edge 0/0；creambox PASS 0 defects；
+文字层 print=web 差 0；census_quotes 0 defective；en 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-en-ja.pdf` 13,208,214 B（`7c89a513…`）；网
+`2026-w43-en-ja.web.pdf` 1,577,598 B（`dbf79aa4…`）；text.md 字节一致（`b27b6f2c…`）。
+仍为 149 题。

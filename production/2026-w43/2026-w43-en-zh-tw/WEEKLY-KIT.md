@@ -119,6 +119,7 @@
 
 - svg ×8、cards ×8（1950×2700）齊備。
 - 練習總量 149（A2 58 · B1 72 · B2 19）；印刷注 62 條。
+- **D5 重建（2026-11-13，見 §9）**：印刷 `The-Lucerna-VOL1-en-zh-tw.pdf` **9,153,657 字節**，sha256 `c367edeb43683e6956b61649a8776c1fa3d9575d9e7ce1a3c9e5a54d851c41f1`；網頁 `2026-w43-en-zh-tw.web.pdf` **1,576,737 字節**（< 7 MB），sha256 `d13e636bfd9588a3385c68fbde7b66ae7f44f7b0d4b0dba26d634a125eee7d22`；text.md 與已發版字節一致（sha256 `83e0804e…`）。D5 前值：印刷 22,033,928 B（本節上表），網頁 1,954,849 B（`6b67bc90…`，issues 已發版）。
 - 建造 scratch（變換表、差分 JSON、審計 JSON、構建日誌）confined 於 `hidden_files/weekly-report-en-zh-tw-build/scratch/` 與 `tools/scratch/`（freeze-diff-en-zh-tw.json、occlusion-en-zh-tw.json），在此披露。
 - 狀態 PENDING：待獨立校對；建造者不入倉、不投遞。
 
@@ -140,3 +141,41 @@
 - **svglib**：與核心版逐行 diff 恰 §2 登記 3 項（4 行：def 名、endswith "TC"、_IDX 調用、預設字體族名），無他。
 - **最終針腳（實測全長 sha256）**：網頁版 Lucerna-VOL1-ZHTW-web.pdf = 4,183,350 B / `66cf188c051eddf9d8a125c5f489a2e3f05741d2038f251a7805c8a7d364e97a`（8 頁）；印刷版 Lucerna-VOL1-ZHTW.pdf = 22,033,928 B / `4a08e48e9c562b1ca1f8016516502137ed7a936e346e2fdec0b4f1bf1a803be5`（8 頁）。與建造者自報逐項一致。
 - 校對 scratch 在 `hidden_files/proof-en-zh-tw/`（差分/掃描/註冊表雙 dump/像素裁定腳本與裁圖）。
+
+---
+
+## §9 D5 重建記錄（2026-11-13，D5-only）
+
+SOP §1.1 字體修復：講解層拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+不 commit、不 push——入倉由獨立重校後的 closer 做。工作日誌：
+`hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-zh-tw/`；本版報告：
+`production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-zh-tw.md`。
+
+**裝機**：核心以 `apply_variant.py --patch-core en --week 2026-w43` 落盤（core-en
+`svglib.py` +95/−3，`_D5_READER = "latin"`）；本版以 `--svglib patched/…/svglib.py
+--target en --reader zh-tw --week 2026-w43` 安裝，`_D5_READER = "cjk"`（TC 面）；
+路由單元測試 FAILURES: 0（66 PASS）；fix2 塊保留。
+
+**基線**（修前生產版）：run TOTAL 149，0 警告；印 PDF 與 MANIFEST-W43-D1 差 −5 B
+（元數據浮動）；印/網文字層多重集差 0；自建網 vs 已發網非空字符差 0（僅空格差）；
+修前普查 D5 拉丁 399、西里爾 0、彎引號在 CJK 1；基線 P8 noted 62/149（core 口徑）。
+
+**缺陷與修法**（run1 共 9 項，逐項與簡體版 core-en 相同，修法同值；字號-only，未動文字）：
+P3 `B　FESTIVAL WORDS　節日詞填空` 25→24；P5 `EARNINGS, IN PLAIN ENGLISH` 26→25；P5
+`C　THIS WEEK, LIVE　現在進行時` 25→24；P1 暗帶標題 46→**44**（副標 `本週日歐洲撥鐘`
+重疊 38.5px，44pt 標題右緣 1613.6、空隙 51.9px，與 core-en 同值）；P1 `One team…`
+與 `　數字看本週` 重疊 8.5px 隨框標題縮小解決；P1 `THE WEEK IN NUMBERS　數字看本週`
+tsize=21（與 core-en 同題同值）；P3 `SAY IT ON THE NIGHT　當晚這樣說` tsize=22；P5
+`WORDS OF THE SCREEN　螢幕詞表` tsize=22（繁體 `螢幕` 對簡體 `屏幕`）；P2 spill
+（`Check your number !` +12.71px，既有缺陷，基線同值）→ DID YOU KNOW 框高公式尾數
++14→+34。P8：179→179 行，距頁腳線餘量 33.7→33.7px。
+
+**門禁 run2（全套 17 門 ALL-GREEN）**：run TOTAL 149；head_check 0；d5 census 0/0/0；
+render RC=0；webpdf RC=0（1,576,737 B < 7 MB）；occlusion 0 flags；p8 extract noted
+62/149；p8 compare **CLEAN**（keydiff=[136, 139, 149]）；freeze baseline 8/8；freeze diff
+新增 CJK 0；spill 0；boxtitle 0 DEFECT（55 titles）；edge 0/0；creambox PASS 0 defects；
+文字層 print=web 差 0；census_quotes 0 defective；en 家無 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-en-zh-tw.pdf` 9,153,657 B（`c367edeb…`）；網
+`2026-w43-en-zh-tw.web.pdf` 1,576,737 B（`d13e636b…`）；text.md 字節一致（`83e0804e…`）。
+仍為 149 題。

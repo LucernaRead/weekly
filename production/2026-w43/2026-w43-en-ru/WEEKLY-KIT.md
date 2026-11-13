@@ -172,6 +172,7 @@ non-defects, both identical to the core's own state**:
 - `svg/` ×8, `cards/` ×8 (1950×2700 PNG)
 - Print PDF `Lucerna-VOL1-RU.pdf` — 8,574,128 bytes · sha256 403e98435f08f87047f4927e8c39c2581349d8dc19d7532d11bdc0cc75f76b24
 - Web PDF `Lucerna-VOL1-RU-web.pdf` — 4,546,960 bytes (< 10 MB) · sha256 18d35eb4e71dfc45080bdbc4cd9dfdc6d371cec7ab387990bedf50a0252d1cfc
+- D5 rebuild (2026-11-13, see §12 below): print `The-Lucerna-VOL1-en-ru.pdf` **7,808,348 bytes**, sha256 `5df67b262bd16578404db288f18421f96da5dc50f36241b7e78c28a8403699c8`; web `2026-w43-en-ru.web.pdf` **1,331,580 bytes**, sha256 `7edf2365247e1af5244e502f88bb70095761ca6e30322fedfdba1810589ad2a3` (< 7 MB); text.md byte-identical to the shipped version (sha256 `de0fbf3d…`). Pre-D5 values: print 8,574,128 B, web 1,170,319 B (`7885361d…`, shipped in issues/).
 - This KIT. No repo insert, no Discord (both are the parent line's steps, per current rules).
 
 ## 10. Proofread status
@@ -245,3 +246,22 @@ none taken on trust.
   web `Lucerna-VOL1-RU-web.pdf` 4,546,960 B (< 10 MB) ·
   sha256 18d35eb4e71dfc45080bdbc4cd9dfdc6d371cec7ab387990bedf50a0252d1cfc.
   All 8 cards read visually; no defect found anywhere.
+
+## 12. D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader; the Russian (Cyrillic) letters move from Noto Sans CJK to Noto Sans (regular face). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-ru/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-ru.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader ru --week 2026-w43`, `_D5_READER = "ru"`; routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF byte-identical to `MANIFEST-W43-D1.md`; print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 422, Cyrillic 323 (the family's only Cyrillic >0), curly in CJK 1; baseline P8 noted 62/149 (core口径). Known measurement artefact, NOT a defect: P8 ×3 "mutual collision" (D5-METHOD §4.5) — do not repair.
+
+**Defects and fixes** (run1: only 2 gates red — the family's fewest; head 0 defects, boxtitle 0 DEFECT, creambox PASS; sizes only, no wording changed):
+
+- occlusion ×1 (P2): the AND YOU box's last line `приходит в семью?` sits on the TELLING THE TIME rule at y=1558 (`content12.py:213 p.hline(MX, RIGHT, dy-12)`, dy=1570 fixed). Last-line baseline y=1559, box bottom already 1563.6. Root cause: the Russian AND YOU box is taller than the other editions' — the Russian back-translation line wraps to 3 lines at 20 pt; box-height formula `content12.py:202`: 62 + English 7 lines×30.5 + 12 + Russian 3 lines×29 + 20 = 394.5. **Fixed in two places together**: ① the DID YOU KNOW box-height formula tail +14→+34 (the family-wide fix, box bottom +20 px); ② the Russian back-translation line 20→**19 pt** (`content12.py:202` and `:208`, both changed; at 19 pt it wraps to 2 lines, box height −29 px). Net effect: box bottom 1563.6+20−29 = **1554.6** (same value as the rebuilt core-en), last-line baseline ≈1550, 8 px from the rule. Rejected alternative: the English etvous paragraph 21.5→19.5 pt (7→6 lines, saves 30.5 px) — a larger visual change. Note: applying only +34 without touching the AND YOU box would push the box bottom to 1583.6, hitting the TELLING THE TIME right-column title's ink top (≈1580.4).
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px — fixed by item ① above (same pre-existing defect as core-en).
+
+P8: 196→197 lines, footer slack 32.7→32.7 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0 (noto_sans_elements=862, Cyrillic regular face); render RC=0; webpdf RC=0 (1,331,580 B < 7 MB); occlusion 0 flags; p8 extract noted 62/149; p8 compare **CLEAN** (keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (57 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-ru.pdf` 7,808,348 B (`5df67b26…`); web `2026-w43-en-ru.web.pdf` 1,331,580 B (`7edf2365…`); text.md byte-identical (`de0fbf3d…`). Still 149 exercises.

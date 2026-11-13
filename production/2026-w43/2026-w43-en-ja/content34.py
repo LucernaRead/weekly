@@ -26,7 +26,7 @@ f.box('SAY IT ON THE NIGHT　夜のひと言', [
     ('« Trick or treat ! » — お菓子をくれないといたずらするぞ！（冗談の脅し文句、必ずお菓子がもらえる）', "serif", False, INK, 21.5, 1.42),
     ('« Happy Halloween ! » — ハッピーハロウィーン！ · « Thank you ! » — ありがとう！（お菓子をもらったら必ず言う）', "serif", False, INK, 21.5, 1.42),
     ('« What are you dressed as ? » — 何の仮装？', "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 f.gloss('to celebrate 祝う · a porch ポーチ · to carve 彫る · a decoration 飾り · a survey 調査（NRFは7,889人を調査）。')
 f.head('A　TRUE OR FALSE ?　正誤判断', 25)
 f.expl('3ページの記事を読んで、正誤を判断する。')
@@ -92,7 +92,7 @@ v3.box('DATES TO REMEMBER　今月の日程', [
     ("Oct 24 — Make a Difference Day · Drug Take Back Day, 10 a.m.–2 p.m.", "serif", False, INK, 20.5, 1.4),
     ("Oct 31 — Halloween (Saturday)", "sans", True, OLIVE, 20, 1.4),
     ("Nov 1 — clocks fall back · Nov 3 — Election Day", "serif", False, INK, 20.5, 1.4),
-])
+], tsize=22)
 v3.box("THE SEASON IN NUMBERS", [
     ("3,000+ — Halloween postcard designs printed in the early 1900s", "serif", False, INK, 21, 1.45),
     ("96% — of celebrants buy candy · 47% — now use AI for ideas", "serif", False, INK, 21, 1.45),
@@ -132,7 +132,7 @@ f.box("THE WEEK'S FIXTURES　今週の試合", [
     ("Wed — Lakers vs Warriors · Thu — Patriots at Bears", "serif", False, INK, 21, 1.42),
     ("Fri — World Series Game 1, 8 p.m. ET · Sat — Game 2", "serif", False, INK, 21, 1.42),
     ("Sun — Austin Grand Prix · El Clásico, 4 p.m. ET", "serif", False, INK, 21, 1.42),
-])
+], tsize=21)
 f.gloss('a banner 優勝旗 · to sweep 全勝で勝ち抜く · the defending champion 前回優勝者 · qualifying 予選 · a storyline 物語の筋。')
 f.head('A　READING　読解・選択', 25)
 f.ex("B1", '選択', "A", 'ニックスの前回の優勝旗は1973年',
@@ -145,7 +145,7 @@ f.ex("B1", '選択', "C", 'F1の決勝は日曜日',
      "The Grand Prix race day is... A. Friday · B. Saturday · C. Sunday", size=22.5)
 f.ex("B1", '選択', "B", '出典は「Week 7」と明記する。「Week 8」と書かない',
      "The NFL games this week are in... A. Week 6 · B. Week 7 · C. Week 8", size=22.5)
-f.head('B　SPORTS WORDS　スポーツの語', 25)
+f.head('B　SPORTS WORDS　スポーツの語', 24)
 f.match_set("B1", '語彙マッチング',
             ["tip-off", "a sweep", "the defending champion", "a banner"],
             ["the team that won last time, playing to keep the title",

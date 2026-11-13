@@ -95,6 +95,7 @@ Own implementation (`scratch/audit_pt.py` in the build dir): SVGs parsed in pain
 - `svg/` ×8, `cards/` ×8 PNG (1950×2700).
 - Print PDF `Lucerna-VOL1-PT.pdf` — **8,622,488 bytes**, sha256 `c23e630fded096f301d1a895875821a508c92d491f4a8b3bd52585e0423a8fc4` (final, post-proofread-fix — supersedes the builder's pins).
 - Web PDF `Lucerna-VOL1-PT-web.pdf` — **6,523,708 bytes** (< 10 MB), sha256 `5319ccca1fe30c8563f42ceeaecd412a94e521384e1735656855f3b85b6cdd8e` (final, post-proofread-fix — supersedes the builder's pins).
+- D5 rebuild (2026-11-13, see §13 below): print `The-Lucerna-VOL1-en-pt.pdf` **7,501,769 bytes**, sha256 `2a4b70efddefe66aff04d84a836af6182d8d017cc0649fcef4f063c0f70b302d`; web `2026-w43-en-pt.web.pdf` **1,071,178 bytes**, sha256 `d4e426be7208255020a05a2c85e16cf82d1639f55707473d205d915ca4f74cce` (< 7 MB); text.md byte-identical to the shipped version (sha256 `1ab0f9c6…`). Pre-D5 values: print 8,622,488 B, web 1,113,944 B (`1ed9ae29…`, shipped in issues/).
 
 ## 12. Independent proofread — **PASS** (2026-10-21)
 
@@ -116,3 +117,24 @@ One complete, skeptical, independent pass over the final rendered artifacts; eve
 - **Core integrity:** the frozen core's 8 shipped SVG sha256 are **unchanged** after all proofread work (verified at start and end). Furniture cross-check vs FR×PT §5: same badge/footer/gloss patterns and target-name table (NEERLANDÊS) — the only divergence is per-edition wording of the P8 keys-head Portuguese gloss («Respostas e notas» here vs «TODAS AS RESPOSTAS COM NOTAS» in FR×PT), recorded here for the parent line; not a defect.
 
 **Verdict: PASS — zero problems. Ready for repo insert as slug `2026-w43-en-pt`.**
+
+## 13. D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-pt/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-pt.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader pt --week 2026-w43`, `_D5_READER = "latin"` (installed svglib md5 identical across de/it/nl/pt); routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF byte-identical to `MANIFEST-W43-D1.md`; print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 549, Cyrillic 0, curly in CJK 1; baseline P8 noted 62/149 (core口径).
+
+**Defects and fixes** (run1: 7 items, all D5 widening except the pre-existing P2 spill, which the baseline shares; sizes only, no wording changed):
+
+- heads ×2: P4 `C　COMPARATIVES　Comparação` 25→23 (24 still 2.4 px over); P5 `EARNINGS, IN PLAIN ENGLISH` 26→25 (column width 422.5).
+- occlusion ×1 (P1): band headline vs subtitle `ATRASA O RELÓGIO` overlapped 138.0×25.5 px → headline 46→**42** + subtitle 27→**25** (headline 44 still overlapped by 47 px; headline 42 alone leaves only ~21 px advance gap, ~−2 px ink — not enough).
+- creambox/boxtitle ×3: P1 `THE WEEK IN NUMBERS　Semana` +10.5 px → `tsize=22`; P6 `HOW TO FOLLOW IT　Como seguir` +8.3 px → `tsize=22`; P6 `HEADLINE LANGUAGE　Manchete` +14.2 px → `tsize=22`.
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px → box-height formula tail +14→+34 (box bottom +20 px; same pre-existing defect as core-en).
+
+P8: 191→187 lines, footer slack 32.7→32.7 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0; render RC=0; webpdf RC=0 (1,071,178 B < 7 MB); occlusion 0 flags; p8 extract noted 62/149; p8 compare **CLEAN** (keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (57 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-pt.pdf` 7,501,769 B (`2a4b70ef…`); web `2026-w43-en-pt.web.pdf` 1,071,178 B (`d4e426be…`); text.md byte-identical (`1ab0f9c6…`). Still 149 exercises.

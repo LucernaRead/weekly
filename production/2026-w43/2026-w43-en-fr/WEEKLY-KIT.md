@@ -11,6 +11,7 @@
 - `cards/` — 8 PNG cards, 1950 px wide (p1-front, p2-life, p3-culture, p4-sport, p5-youth, p6-midterms, p7-language, p8-test-answers)
 - `The-LUCERNA-English-Weekly-VOL1-FR-print.pdf` — 8,623,199 bytes · sha256 a6f003c1abf6d18b71b962869f51f413d3df507c898ee246c161a04e89da01f6
 - `The-LUCERNA-English-Weekly-VOL1-FR-web.pdf` — **4,421,142 bytes (< 10 MB)** · sha256 65a52868566f289cddf42013e6fd82f71e0c22280aa60c52ef92522880a6fdd9
+- D5 rebuild (2026-11-13, see D5 rebuild section below): print `The-Lucerna-VOL1-en-fr.pdf` **7,502,963 bytes** · sha256 `44b551420d6b91b17f5e19b16986e3f1a1ed65758b9c8f71f39c0d7e987351b7`; web `2026-w43-en-fr.web.pdf` **1,072,352 bytes** · sha256 `cb02ed902f319f610fdf1e206cc48a5501940ce55cb51f9985c3534e24a70275` (< 7 MB); text.md byte-identical to the shipped version (sha256 `2b25e2aa…`). Pre-D5 values: print 8,623,199 B, web 1,113,337 B (`b2dfb4f5…`, shipped in issues/). (The KIT pins above are the D1-era pre-D5 values, already expired before this rebuild.)
 - Build code: `hidden_files/weekly-report-en-fr-build/` (copy of the frozen core build; core dirs never edited)
 
 ## Method (fan-out, same as the EN×DE sibling)
@@ -74,3 +75,24 @@ Complete independent pass over the shipped artifacts; no defect found, nothing t
 - **Facts**: weekdays verified against the 2026 calendar (NBA opening Tue Oct 20; World Series Game 1 Fri Oct 23, Game 2 Sat Oct 24; Europe DST Sun Oct 25 vs US Sun Nov 1; Halloween Sat Oct 31; Election Day Tue Nov 3) — all as printed. P7's 8 phrases byte-verbatim; per-page occurrence counts identical to the core. 4 images MD5-identical to the core; credits identical (English).
 - **Deliverables**: print PDF 8,623,199 B / sha256 a6f003c1…f6d18b; web PDF 4,421,142 B / sha256 65a52868…f9dd9 — both match the KIT, both 8 pages.
 - **Out-of-scope observation** (frozen core, for the record — NOT an EN×FR defect): the same audit run on the core flags the core P1 word-of-week Chinese gloss line (baseline 1846) crossed by the y=1844 rule; the FR and DE editions do not inherit it (gloss rewritten, rule at 1852).
+
+## D5 rebuild (2026-11-13, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-en/logs/2026-w43-en-fr/`; per-edition report: `production/notes/2026-w43/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w43-en-fr.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core en --week 2026-w43` (core-en `svglib.py` +95/−3, `_D5_READER = "latin"`); this edition installed with `--svglib patched/…/svglib.py --target en --reader fr --week 2026-w43`, `_D5_READER = "latin"` (installed svglib md5 identical to the production core-en install); routing unit test FAILURES: 0 (66 PASS); fix2 block kept.
+
+**Baseline** (pre-fix production build): run TOTAL 149, 0 warnings; print PDF byte-identical to `MANIFEST-W43-D1.md`; print/web text layers differ by 0 chars; self-built web vs shipped web differ by 0 non-space chars (spaces only); pre-fix census D5 Latin 598, Cyrillic 0, curly in CJK 59 (the family's highest — French « » quotes); baseline P8 noted 149/149.
+
+**Defects and fixes** (run1: 12 items, all D5 widening except the pre-existing P2 spill, which the baseline shares; sizes only, no wording changed):
+
+- heads ×6: P3 `A　TRUE OR FALSE ?　Vrai / faux` 25→24; P4 `C　COMPARATIVES　Comparatifs` 25→23 (24 still 2.5 px over); P5 `EARNINGS, IN PLAIN ENGLISH` 26→25; P5 `D　TRUE OR FALSE ?　Vrai / faux` 25→24; P6 `READING THE CHART　Graphique` 24→23; P8 `D　SENTENCES　Phrases à former` 24→23 (column width 422.5).
+- occlusion ×1 (P1): band headline vs subtitle `L'EUROPE RECULE` overlapped 121.2×20.8 px → headline 46→**42** (44 still overlapped).
+- creambox/boxtitle ×4: P1 `THE WEEK IN NUMBERS　Chiffres` +12.5 px → `tsize=22`; P2 `DO THE MATHS　À vous de calculer` +14.7 px → `tsize=22`; P3 `FESTIVAL WORDS　Mots de la fête` +5.1 px → `tsize=22`; P6 `HEADLINE LANGUAGE　Les titres` +6.2 px → `tsize=22`.
+- spill ×1: P2 `Check your number !` below the DID YOU KNOW box by 12.71 px → box-height formula tail +14→+34 (box bottom +20 px; same pre-existing defect as core-en).
+
+P8: 221→221 lines, footer slack 34.9→34.9 px.
+
+**Gates run2 (all 17 ALL-GREEN)**: run TOTAL 149, 0 warnings; head_check 0; d5 census 0/0/0; render RC=0; webpdf RC=0 (1,072,352 B < 7 MB); occlusion 0 flags; p8 extract noted 149/149; p8 compare **EXTRA_ONLY** (extra_count=87, adjudicated accepted; keydiff=[136, 139, 149], the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0; spill 0; boxtitle 0 DEFECT (57 titles); edge 0/0; creambox PASS 0 defects; text layer print=web diff 0; census_quotes 0 defective; no family gates.py for en.
+
+**New deliverables**: print `The-Lucerna-VOL1-en-fr.pdf` 7,502,963 B (`44b55142…`); web `2026-w43-en-fr.web.pdf` 1,072,352 B (`cb02ed90…`); text.md byte-identical (`2b25e2aa…`). Still 149 exercises; answer keys differ from the core only at #136/#139/#149, as registered.

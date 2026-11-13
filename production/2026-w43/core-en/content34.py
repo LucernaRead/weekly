@@ -26,7 +26,7 @@ f.box("SAY IT ON THE NIGHT　当晚这样说", [
     ("« Trick or treat ! » — 不给糖就捣蛋！（开玩笑的威胁，永远换来糖果）", "serif", False, INK, 21.5, 1.42),
     ("« Happy Halloween ! » — 万圣节快乐！ · « Thank you ! » — 谢谢！（拿到糖果一定要说）", "serif", False, INK, 21.5, 1.42),
     ("« What are you dressed as ? » — 你扮的是什么？", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 f.gloss("讲解｜to celebrate 庆祝 · a porch 门廊 · to carve 雕刻 · a decoration 装饰品 · a survey 调查（NRF 调查了 7,889 人）。")
 f.head("A　TRUE OR FALSE ?　判断对错", 25)
 f.bridge("读第 3 版文章，判断对错。")
@@ -40,7 +40,7 @@ f.ex("A2", "阅读判断", "True", "47% 的人用 AI 工具找灵感",
      "4. Almost half of celebrants use AI tools for costume ideas.", instr="判断", size=23)
 f.ex("A2", "阅读判断", "False", "门廊熄灯 = 今年请勿打扰",
      "5. A house with no light on the porch is asking for visitors.", instr="判断", size=23)
-f.head("B　FESTIVAL WORDS　节日词填空", 25)
+f.head("B　FESTIVAL WORDS　节日词填空", 24)
 f.ex("A2", "完成句子", "costume", "costume = 戏服、装扮",
      "Children wear a ___ and go from door to door.", instr="填空", size=23)
 f.ex("A2", "完成句子", "carve", "carve a pumpkin 刻南瓜",

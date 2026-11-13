@@ -190,7 +190,7 @@ sav = ["Nearly 72 million people receive Social Security money every month.",
        "The first check, in 1940, was 22.54 dollars. The average increase in 2027 is about 75 dollars a month.",
        "Notices arrive online in late November and by mail in December. Check your number !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
@@ -199,13 +199,13 @@ for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "And you ? Is there a hot dog in your fridge today ? What money comes into your house every month ? Write two sentences in English and send them to the newsroom : the best ones will be printed in VOL.2 (page 7, « Readers' Corner »)."
-eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Есть ли у вас хот-дог в холодильнике? Какой доход приходит в семью?", "sans", False, 20, CW - 44)) * 29 + 20
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Есть ли у вас хот-дог в холодильнике? Какой доход приходит в семью?", "sans", False, 19, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
 p.text(ix + 22, yy3 + 26, "AND YOU ?　А вы?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(ix + 22, yy3 + 20, "Есть ли у вас хот-дог в холодильнике? Какой доход приходит в семью?", 20, "sans", False, GREY, CW - 44, 1.42)
+p.para(ix + 22, yy3 + 20, "Есть ли у вас хот-дог в холодильнике? Какой доход приходит в семью?", 19, "sans", False, GREY, CW - 44, 1.42)
 print("P2 col3 ends", ey3 + eh)
 
 # ---- Telling the time wide box ----

@@ -28,7 +28,7 @@ f.box("SAY IT ON THE NIGHT　Ce soir-là", [
     ("« What are you dressed as ? » — En quoi es-tu déguisé ?", "serif", False, INK, 21.5, 1.42),
 ])
 f.gloss("to celebrate = fêter, célébrer · a porch = un porche, un perron · to carve = sculpter, creuser · a decoration = une décoration · a survey = une enquête (NRF, 7 889 personnes).")
-f.head("A　TRUE OR FALSE ?　Vrai / faux", 25)
+f.head("A　TRUE OR FALSE ?　Vrai / faux", 24)
 f.instrline("Lisez l’article de la page 3 : vrai ou faux ?")
 f.ex("A2", "Vrai ou faux", "False", "Halloween tombe un samedi (31 octobre)",
      "1. Halloween is on a Friday this year.", instr="Vrai ou faux", size=23)
@@ -86,7 +86,7 @@ v3.box("FESTIVAL WORDS　Mots de la fête", [
     ("a decoration — une décoration", "serif", False, INK, 21.5, 1.5),
     ("spooky — effrayant (pour de rire)", "serif", False, INK, 21.5, 1.5),
     ("a patch — un champ (de citrouilles)", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=22)
 v3.box("DATES TO REMEMBER　À retenir", [
     ("Oct 23 — Red Ribbon Week begins", "sans", True, OLIVE, 20, 1.4),
     ("Oct 24 — Make a Difference Day · Drug Take Back Day, 10 a.m.–2 p.m.", "serif", False, INK, 20.5, 1.4),
@@ -155,7 +155,7 @@ f.match_set("B1", "Appariement",
             ["d", "b", "a", "c"],
             ["tip-off = le début du match (basket) d", "sweep = gagner tous les matchs d’une série b", "defending champion = le champion en titre a", "banner = la bannière qui rappelle un titre c"],
             instr="Associez")
-f.head("C　COMPARATIVES　Comparatifs", 25)
+f.head("C　COMPARATIVES　Comparatifs", 23)
 f.ex("B1", "Compléter", "older", "Les World Series sont plus anciennes que la NBA",
      "The World Series is ___ (old) than the NBA.", instr="Complétez", size=22.5)
 f.ex("B1", "Compléter", "hotter", "hot → hotter (consonne doublée)",

@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　MULTIPLE CHOICE　Meerkeuze", 24)
+bf.head("B　MULTIPLE CHOICE　Meerkeuze", 22)
 mcq = [
     ("A2", "B", "9:15 = a quarter past nine", "The game starts at 9:15. In words : ... A. a quarter to nine · B. a quarter past nine · C. half past nine"),
     ("A2", "A", "we → get (basisvorm)", "On Sunday, we ___ an extra hour of sleep. A. get · B. gets · C. getting"),

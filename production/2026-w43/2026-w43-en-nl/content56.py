@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -82,7 +82,7 @@ v5.box("WORDS OF THE SCREEN　Scherm", [
     ("a roster — de lijst, de selectie", "serif", False, INK, 21.5, 1.5),
     ("earnings — de kwartaalcijfers", "serif", False, INK, 21.5, 1.5),
     ("to post — posten, plaatsen", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=22)
 v5.box("SAY IT ONLINE　Zeg het online", [
     ("« What a game ! » — Wat een wedstrijd!", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — Stuur me de hoogtepunten.", "serif", False, INK, 21.5, 1.45),
@@ -138,7 +138,7 @@ r6rail.box("THE EARLY-VOTING WEEK", [
 r6rail.box("HOW TO FOLLOW IT　Zo volg je ze", [
     ("Watch three numbers, not three hundred opinions : the turnout (how many vote), the House margin (218–214 today) and the ad money ($3.8 billion and counting). The rest is noise.", "serif", False, INK, 21.5, 1.45),
     ("Volg drie getallen, geen meningen: de opkomst, het verschil in het Huis en het reclamegeld. De rest is ruis.", "sans", False, GREY, 20.5, 1.4),
-])
+], tsize=22)
 r6rail.end_report()
 
 # col 3 sidebar
@@ -167,7 +167,7 @@ chy = 1456
 p.hline(MX, RIGHT, chy - 12, OLIVE, 2)
 chx, chw = COLX[0], 2 * CW + GUT
 p.text(chx, chy + 28, "WHY DO VOTERS VOTE EARLY ?　Oefengrafiek", 26, "sans", True, OLIVE)
-p.text(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Oefengegevens, verzonnen.", 18.5, "sans", False, OLIVE)
+p.text(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Oefengegevens, verzonnen.", 18, "sans", False, OLIVE)
 p.rect(chx, chy + 76, chw, 356, fill=BOX)
 rows = [
     ("To avoid the long lines", 34, OLIVE),

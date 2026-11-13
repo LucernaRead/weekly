@@ -26,7 +26,7 @@ f.box("SAY IT ON THE NIGHT　그날 밤 표현", [
     ("« Trick or treat ! » — 사탕 안 주면 장난칠 거예요! (장난스러운 협박, 늘 사탕을 받아요)", "serif", False, INK, 21.5, 1.42),
     ("« Happy Halloween ! » — 해피 할로윈! · « Thank you ! » — 감사합니다! (사탕을 받으면 꼭 말하세요)", "serif", False, INK, 21.5, 1.42),
     ("« What are you dressed as ? » — 무엇으로 분장했어요?", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 f.gloss("to celebrate 축하하다 · a porch 현관 앞 공간 · to carve 파다, 조각하다 · a decoration 장식품 · a survey 조사 (NRF가 7,889명을 조사했어요).")
 f.head("A　TRUE OR FALSE ?　참 / 거짓", 25)
 f.expl("3면 기사를 읽고 참인지 거짓인지 판단하세요.")
@@ -92,7 +92,7 @@ v3.box("DATES TO REMEMBER　이달의 날짜", [
     ("Oct 24 — Make a Difference Day · Drug Take Back Day, 10 a.m.–2 p.m.", "serif", False, INK, 20.5, 1.4),
     ("Oct 31 — Halloween (Saturday)", "sans", True, OLIVE, 20, 1.4),
     ("Nov 1 — clocks fall back · Nov 3 — Election Day", "serif", False, INK, 20.5, 1.4),
-])
+], tsize=22)
 v3.box("THE SEASON IN NUMBERS", [
     ("3,000+ — Halloween postcard designs printed in the early 1900s", "serif", False, INK, 21, 1.45),
     ("96% — of celebrants buy candy · 47% — now use AI for ideas", "serif", False, INK, 21, 1.45),
@@ -132,7 +132,7 @@ f.box("THE WEEK'S FIXTURES　이번 주 일정", [
     ("Wed — Lakers vs Warriors · Thu — Patriots at Bears", "serif", False, INK, 21, 1.42),
     ("Fri — World Series Game 1, 8 p.m. ET · Sat — Game 2", "serif", False, INK, 21, 1.42),
     ("Sun — Austin Grand Prix · El Clásico, 4 p.m. ET", "serif", False, INK, 21, 1.42),
-])
+], tsize=21)
 f.gloss("a banner 우승 깃발 · to sweep 전승하다 · the defending champion 디펜딩 챔프 · qualifying 예선 · a storyline 이야기 흐름.")
 f.head("A　READING　읽기 객관식", 25)
 f.ex("B1", "객관식", "A", "닉스의 지난 우승 배너는 1973년",

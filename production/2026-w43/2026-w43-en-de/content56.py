@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -51,7 +51,7 @@ f.ex("B1", "Satzergänzung", "earnings", "earnings = Firmenzahlen",
      "Wednesday is ___ day for Tesla and Meta : the companies publish their numbers.", instr="Ergänze", size=23)
 f.ex("A2", "Satzergänzung", "feed", "feed = Nachrichtenstrom",
      "His ___ is full of game clips and costume photos.", instr="Ergänze", size=23)
-f.head("C　THIS WEEK, LIVE　-ing-Form", 25)
+f.head("C　THIS WEEK, LIVE　-ing-Form", 24)
 f.bridge("Schreibe im Present Continuous um: Was passiert gerade diese Woche?")
 f.ex("B1", "Umformung", "Tesla is reporting its results tonight.", "3. Person Singular: is + -ing",
      "Tesla (report) its results tonight. → ___", instr="Schreibe um")
@@ -82,7 +82,7 @@ v5.box("WORDS OF THE SCREEN　Wortliste", [
     ("a roster — Kaderliste", "serif", False, INK, 21.5, 1.5),
     ("earnings — Firmenzahlen, Gewinn", "serif", False, INK, 21.5, 1.5),
     ("to post — posten, veröffentlichen", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=21)
 v5.box("SAY IT ONLINE　Sag es so", [
     ("« What a game ! » — Was für ein Spiel!", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — Schick mir die besten Szenen.", "serif", False, INK, 21.5, 1.45),
@@ -185,7 +185,7 @@ p.text(chx + 24, byy + 8, "Four answers, 100 voters. Vier Antworten, zusammen 10
 
 # ---- chart questions (cols 0-1) ----
 q6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470, 2560, tag="P6-chart-ex")
-q6.head("READING THE CHART　Diagramm", 24)
+q6.head("READING THE CHART　Diagramm", 23)
 q6.ex("B2", "Diagramm", "C", "Größter Grund: lange Schlangen meiden (34 %)",
      "The biggest reason is... A. travel · B. work · C. avoiding long lines", size=22)
 q6.ex("B2", "Diagramm", "27", "Am Wahltag arbeiten: 27 Personen",

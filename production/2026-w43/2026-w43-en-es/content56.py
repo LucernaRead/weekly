@@ -20,7 +20,7 @@ f.para("Young fans do not always watch a whole game. Many meet the game first as
 f.head("AI PLANS YOUR COSTUME", 26)
 f.para("Halloween is the other screen story of the week. The NRF counts a new habit : 47% of celebrants now use AI tools to plan a costume or a decoration. You describe an idea — « a Greek god, but funny » — and the machine offers ten versions. Then the group chat votes.")
 f.para("The costume itself is content now. A good costume is not finished when you put it on ; it is finished when the photo is posted. Google's Frightgeist list and the Spirit Halloween list agree on the stars of 2026 : KPop Demon Hunters, Toy Story 5, superheroes and Greek gods. This year, the gods have good lighting.")
-f.head("EARNINGS, IN PLAIN ENGLISH", 26)
+f.head("EARNINGS, IN PLAIN ENGLISH", 25)
 f.para("On Wednesday, after the markets close, two giants publish their numbers : Tesla and Meta. Netflix and SpaceX did the same on Tuesday. « Earnings » is a company's report card : how much money came in, how much went out, and what is left — the profit.")
 f.para("For a few hours, every feed is green arrows and red arrows. One warning from our business desk : before the report, different experts give different numbers — nobody knows. After the close, everybody knows at the same time. That is the game, and this week, America is watching it live.")
 f.head("THE SECOND SCREEN", 26)
@@ -82,7 +82,7 @@ v5.box("WORDS OF THE SCREEN　Palabras", [
     ("a roster — la plantilla, la lista", "serif", False, INK, 21.5, 1.5),
     ("earnings — los resultados, las ganancias", "serif", False, INK, 21.5, 1.5),
     ("to post — publicar, subir", "serif", False, INK, 21.5, 1.5),
-])
+], tsize=22)
 v5.box("SAY IT ONLINE　Dilo en línea", [
     ("« What a game ! » — ¡Qué partidazo!", "serif", False, INK, 21.5, 1.45),
     ("« Send me the highlights. » — Pásame el resumen.", "serif", False, INK, 21.5, 1.45),
@@ -159,7 +159,7 @@ s6.box("HEADLINE LANGUAGE　Titulares", [
     ("« Early voting opens » — Empieza la votación anticipada", "serif", False, INK, 21, 1.45),
     ("« voters head to the polls » — Los votantes van a las urnas", "serif", False, INK, 21, 1.45),
     ("« too close to call » — Demasiado reñido para saber", "serif", False, INK, 21, 1.45),
-])
+], tsize=22)
 s6.end_report()
 
 # ---- practice chart (span cols 0-1) ----
@@ -167,7 +167,7 @@ chy = 1456
 p.hline(MX, RIGHT, chy - 12, OLIVE, 2)
 chx, chw = COLX[0], 2 * CW + GUT
 p.text(chx, chy + 28, "WHY DO VOTERS VOTE EARLY ?　Gráfico de práctica", 26, "sans", True, OLIVE)
-p.text(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Datos de práctica, ficticios.", 18.5, "sans", False, OLIVE)
+p.text(chx, chy + 58, "PRACTICE DATA — simplified and invented for this exercise ; not a real survey. Datos de práctica, ficticios.", 18, "sans", False, OLIVE)
 p.rect(chx, chy + 76, chw, 356, fill=BOX)
 rows = [
     ("To avoid the long lines", 34, OLIVE),
