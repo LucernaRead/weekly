@@ -1,0 +1,29 @@
+== W47 JA core gates (2026-11-10, Round 5 re-gated) ==
+occlusion_audit: 0 flags (ja-core-occlusion.json; selftest OK, all 6 planted classes fired once, clean controls silent; first re-render had 2 flags — P1 LINEX gloss struck by divider, P1 BOXTITLE source line past box edge — fixed by row-B +24 and source line 17 px, re-audit 0 flags)
+p8.py extract --total 150: noted set 150/150 (ja-core-p8.json)
+freeze.py baseline: 8/8 SVGs byte-identical (run twice, 2026-11-10 21:04 and 21:17, identical sha256 both runs; core SVGs unchanged by the runs; re-confirmed after the Round-5 registry-dump rebuild — sha256 of all 8 SVGs unchanged)
+webpdf: Lucerna-VOL4-web.pdf 4652750 B (< 7 MB), pdftotext -layout 85389 B / raw 44819 B == print PDF text (byte-identical, both)
+print PDF: Lucerna-VOL4.pdf 26018004 B, 8 pages
+text.md: 2026-w47-ja-zh-cn.text.md 44432 B, 1356 lines, 1329 text lines
+exercises: 150 (A2 48 / B1 73 / B2 29; by page 10/18/18/18/18/18/12/38; by type 完成句子 50 / 单选 51 / 完形单选 13 / 词汇配对 12 / 判断对错 11 / 造句 8 / 翻译 4 / 写作 1)
+P8 min font: 9.975 pt (answers, 13.3 SVG px; Tm-matrix measurement of the print PDF p.8; next size 10.35 pt = 13.8 px exercises)
+golden phrases: 8x exactly 2 (bare-sentence recount on the whitespace-stripped .text.md; the bracketed form counts 1x = P7 box only, see KIT §5)
+kinsoku line-start hits: 0 (ja-core-checks.py); orphan-line scan: 0 hits
+P6 chart: bar widths 1140/720/660/480 (38/24/22/16%); labels 京都/浅草/高尾山/家 ink ends 132/132/154/110, bars start x=338 — clear
+P7 teaser ends 2542.58 (footer 2580); P7 col3 ends 1768.58; P8-ex col3 y=531, P8-keys y=2351 (bottom 2540); P1 quiz ends y=2525 (bottom 2540)
+
+== W47 JA core gates — Fix 1 (2026-11-11, core typo key 47) ==
+fix: content34.py:186 一之富士 -> 义之富士 (one char); key 47 note only.
+run.py x2 (tools/venv): exit 0, zero FLOW OVERFLOW / HEAD TOO WIDE; registry 150 (A2 48 / B1 73 / B2 29; by page 10/18/18/18/18/18/12/38)
+render.py: exit 0; print PDF Lucerna-VOL4.pdf 26018019 B, sha256 20b9d50469fbb6ca6470c17becb2790a30f69191d9083520a9270ea7ebbe9ab4
+webpdf.py: exit 0 (first attempt RC=120 transient, retry OK); web PDF Lucerna-VOL4-web.pdf 4652763 B, sha256 8722bdfbcec0478a7a60fc86ab0ee7cc9333f957253959476d4f608eed82d5b0
+text.md: 2026-w47-ja-zh-cn.text.md 44432 B, sha256 bcfa667da57e2f477b9d825200b98db454ade3c1dde6ec92ea3d446b0bf9926a (diff vs pre-fix: line 1247 only)
+occlusion_audit: 0 flags (ja-core-occlusion-fix1.json in scratch-ja-fix-core1; selftest OK, all 6 planted classes fired, clean controls silent)
+p8.py extract --total 150: noted set 150/150 (ja-core-p8-fix1.json); sets equal to pre-fix extract, 0 key diffs
+freeze.py baseline: 8/8 SVGs byte-identical (tools/venv/bin/python); only p8-tesuto.svg changed (9db7294a -> f7118644); P1-P7 identical to pre-fix
+print/web text layers: pdftotext 44818 B each, byte-identical; web -layout 85061 B
+P8 min font: 9.98 pt (PyMuPDF, print PDF p.8; stems 10.35 pt; >= 9.75 pt floor)
+U+2019 full sweep (svg + text.md + py): 0
+150 keys re-verified vs registry: 145 exact-line matches; 5 frozen-format (F 141-144 stem+key lines, writing 150 tick display), all byte-identical to pre-fix
+8 pages visually checked from fresh print-PDF renders; P8 answers area magnified, key 47 reads 义之富士; web P8 key-47 crop byte-identical to print
+post-fix grep: 一之富士 0 (py/md/svg); 义之富士 2x each (= pre-fix 1+1)
