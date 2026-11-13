@@ -1,0 +1,214 @@
+# -*- coding: utf-8 -*-
+# W47 ES core (VOL.4) — P3 flamenco & Santa Cecilia / P4 LaLiga J13. Fresh text, structure mirrors W46.
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from bslib4 import *
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
+os.makedirs(OUT, exist_ok=True)
+
+# ================= P3 · CULTURA (A2→B1) =================
+CURPAGE[0] = 3
+p = BSPage4()
+p.band("CULTURA　Culture", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　Flamenco et Sainte-Cécile")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
+f.title("El flamenco cumple: del 16 de noviembre a Santa Cecilia", 32)
+f.byline("De la redacción de La Lucerna　Nivel de lectura: A2 → B1")
+f.para("El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.")
+f.para("La fecha recuerda el 16 de noviembre de 2010, cuando la UNESCO, en Nairobi, inscribió el flamenco en su Lista del Patrimonio Cultural Inmaterial de la Humanidad. No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.")
+f.para("El flamenco nació del encuentro de muchas culturas en Andalucía: gitanos, andaluces, árabes, judíos. Y su palabra mágica es el duende: ese momento en que la música te toca por dentro y no sabes explicarlo.")
+f.para("Y la música sigue: el domingo 22 es Santa Cecilia, la patrona de los músicos. Las bandas municipales y las sociedades musicales dan en noviembre su concierto del año: en Bilbao, la Banda Municipal toca el domingo 22 a las 12:00 en el Palacio Euskalduna. Noviembre es el mes de las bandas.")
+f.gloss("el cante = le chant · el toque = la guitare · el baile = la danse · el compás = le rythme · el duende = l'âme du flamenco.")
+f.head("LO QUE QUEDA DE NOVIEMBRE", 24)
+f.para("El otoño sigue: las tardes cortas, la música en la calle y, en la agenda, una fecha que ya mira toda España: el domingo 29 de noviembre, las elecciones generales (página 6).")
+f.end_report()
+
+# col 3: flamenco image + facts + ¿Y tú? (sequential)
+ix = COLX[3]
+image(p, "flamenco_sargent.jpg", ix, 200, CW, 500)
+cy3 = caption(p, ix, 700, CW, "«Bailaora española», cuadro de John Singer Sargent (1880–81): una bailaora con su mantón, el gesto que el mundo reconoce como flamenco.",
+              "Cuadro: John Singer Sargent — dominio público (Wikimedia Commons)")
+facts = ["El 16 de noviembre de 2010, la UNESCO declaró el flamenco Patrimonio Inmaterial de la Humanidad.",
+         "El flamenco es cante, toque y baile, con palmas, taconeo y compás.",
+         "El 22 de noviembre es Santa Cecilia: noviembre es el mes de las bandas de música."]
+sy3 = cy3 + 24
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
+p.rect(ix, sy3, CW, sh, fill=BOX)
+yy3 = sy3 + 16
+p.text(ix + 22, yy3 + 26, "EL FLAMENCO, EN TRES DATOS", 23, "sans", True, OLIVE)
+yy3 += 52
+for t in facts:
+    yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ey3 = sy3 + sh + 26
+etvous = "¿Y tú? ¿Has escuchado flamenco alguna vez? ¿Conoces la música de tu país que tiene duende? Escribe dos frases en español."
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("As-tu déjà écouté du flamenco ? Quelle musique de ton pays a du duende ? Écris deux phrases et envoie-les.", "sans", False, 19, CW - 44)) * 27 + 29
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
+yy3 = ey3 + 16
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　ET TOI ?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(ix + 22, yy3 + 20, "As-tu déjà écouté du flamenco ? Quelle musique de ton pays a du duende ? Écris deux phrases et envoie-les.", 19, "sans", False, GREY, CW - 44, 1.42)
+print("P3 col3 ends", ey3 + eh)
+
+# ---- P3 exercises ----
+ey = 1620
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EJERCICIOS　EXERCICES", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
+e.head("A　¿VERDADERO O FALSO?", 25)
+e.bridge("Lis l'article de la page 3 : vrai ou faux ?")
+e.ex("A2", "Vrai ou faux", "Verdadero", "Journée du flamenco, lundi 16 novembre",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="Vrai ou faux", size=20, gap=8)
+e.ex("A2", "Vrai ou faux", "Verdadero", "UNESCO : flamenco au patrimoine depuis 2010",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="Vrai ou faux", size=20, gap=8)
+e.ex("A2", "Vrai ou faux", "Falso", "Le flamenco : chant, guitare et danse ensemble",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="Vrai ou faux", size=20, gap=8)
+e.ex("B1", "Vrai ou faux", "Falso", "La Sainte-Cécile est le 22 novembre",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="Vrai ou faux", size=20, gap=8)
+e.ex("A2", "Vrai ou faux", "Verdadero", "Fanfare de Bilbao, dimanche 22, 12 h 00",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="Vrai ou faux", size=20, gap=8)
+e.head("B　PALABRAS DEL TEXTO", 25)
+e.bridge("Complète avec les mots de l'encadré.")
+e.para("cante · baile · guitarra · palmas · compás", 20, "sans", True, OLIVE, 1.35, 6)
+e.ex("A2", "Compléter des phrases", "cante", "cante = chant",
+     "El flamenco es ___, toque y baile.", instr="Compléter", size=20, gap=8)
+e.ex("A2", "Compléter des phrases", "baile", "baile = danse",
+     "La bailaora mueve los brazos en el ___.", instr="Compléter", size=20, gap=8)
+e.ex("A2", "Compléter des phrases", "guitarra", "guitarra = guitare",
+     "El toque es la ___ del flamenco.", instr="Compléter", size=20, gap=8)
+e.ex("A2", "Compléter des phrases", "palmas", "palmas = battements de mains",
+     "El público marca el ritmo con las ___.", instr="Compléter", size=20, gap=8)
+e.ex("B1", "Compléter des phrases", "compás", "compás = rythme",
+     "Sin ___ no hay flamenco.", instr="Compléter", size=20, gap=8)
+e.head("C　COMPRENSIÓN", 25)
+e.bridge("Choisis la bonne réponse.")
+e.ex("A2", "Choix multiple", "B", "L'UNESCO l'a annoncé à Nairobi en 2010",
+     "¿Dónde declaró la UNESCO el flamenco Patrimonio? A. en Madrid · B. en Nairobi · C. en Sevilla", size=20, gap=8)
+e.ex("A2", "Choix multiple", "A", "duende, c'est le moment où la musique vous touche",
+     "¿Qué es el duende? A. el momento en que la música te toca · B. un instrumento · C. un baile", size=20, gap=8)
+e.ex("B1", "Choix multiple", "C", "Le flamenco est né de plusieurs cultures en Andalousie",
+     "El flamenco nació del encuentro de culturas en... A. Madrid · B. Bilbao · C. Andalucía", size=20, gap=8)
+e.ex("B1", "Choix multiple", "B", "Après le flamenco : l'élection du 29 novembre",
+     "Después del Día del Flamenco, la próxima gran fecha es... A. el puente · B. las elecciones del 29 · C. la Navidad", size=20, gap=8)
+e.head("D　CONSTRUIR FRASES", 25)
+e.bridge("Remets les mots en ordre pour faire une phrase correcte.")
+e.ex("A2", "Former des phrases", "El flamenco es cante, toque y baile.", "Sujet + verbe + attribut",
+     "el flamenco / es / cante, toque y baile → ___", instr="Former une phrase", size=20, gap=8)
+e.ex("B1", "Former des phrases", "En noviembre suena la guitarra en España.", "Le temps d'abord, le verbe ensuite",
+     "en noviembre / suena / la guitarra / en España → ___", instr="Former une phrase", size=20, gap=8)
+e.ex("B1", "Former des phrases", "En Bilbao toca la banda el domingo.", "Le lieu d'abord",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="Former une phrase", size=20, gap=8)
+e.ex("B1", "Transformer des phrases", "Todos preguntan si hay duende.", "Questions indirectes avec si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="Reformuler", size=20, gap=8)
+e.end_report()
+p.foot(3)
+p.save(f"{OUT}/p3-cultura.svg")
+print("P3 saved, exercises so far:", len(REG))
+
+# ================= P4 · DEPORTE (B1) =================
+CURPAGE[0] = 4
+p = BSPage4()
+p.band("DEPORTE　SPORT", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　La Liga est de retour : 13e journée")
+
+f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
+f.title("Vuelve la Liga: la jornada 13, del viernes al lunes", 32)
+f.byline("De la redacción deportiva de La Lucerna　Nivel de lectura: B1")
+f.para("La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.")
+f.para("El Barça llega líder, con 33 puntos, después de ganar 1–2 al Atlético en el Metropolitano. El Real Madrid es segundo, con 30, y el Atlético tercero, con 28. La jornada 13 puede mover el liderato: el Barça recibe al Villarreal el domingo a las 14:00, y el Madrid recibe al Celta el sábado a las 21:00.")
+f.para("El partido grande del sábado es el derbi sevillano, a las 18:30: Sevilla–Betis, un clásico de barrio que se juega con el corazón. Y el domingo a las 21:00, el Getafe recibe al Atlético en el Coliseum.")
+f.para("Y la semana que viene vuelve Europa: la jornada 5 de la Champions, el martes 24 y el miércoles 25. El Madrid recibe al PSV el martes a las 21:00; el Barça visita al Sabah el miércoles a las 18:45 y el Atlético recibe al Viking a las 21:00. En la jornada 4, el Barça ganó 3–0 al Aston Villa, el Madrid 3–2 al AEK y el Atlético perdió 0–2 con el Bayern.")
+f.gloss("la jornada = la journée · el derbi = le derby · el liderato = la première place · el parón = la trêve · la fase liga = la phase de ligue.")
+f.end_report()
+
+# col 3: champions box + ¿Y tú? (sequential)
+bx = COLX[3]
+p.rect(bx, 200, CW, 376, fill=BOX)
+p.text(bx + 22, 240, "LA CHAMPIONS VUELVE", 23, "sans", True, OLIVE)
+p.para(bx + 22, 282, "La semana que viene, la jornada 5: martes 24, Real Madrid–PSV, 21:00; miércoles 25, Sabah–Barça, 18:45, y Atlético–Viking, 21:00. También juegan el Villarreal y el Betis. En la jornada 4, el Barça ganó 3–0 y el Madrid 3–2; el Atlético perdió 0–2.", 21.5, "serif", False, INK, CW - 44, 1.42)
+ey3 = 602
+etvous = "¿Y tú? El sábado a las 18:30, ¿qué miras: el derbi sevillano o el Madrid–Celta? ¿Quién gana la Liga: el Barça o el Madrid? Escribe dos frases en español."
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Quel match regarderas-tu samedi à 18 h 30 : le derby de Séville ou le Real Madrid–Celta ? Qui gagnera la Liga : le Barça ou le Real Madrid ? Écris deux phrases en espagnol et envoie-les.", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
+yy3 = ey3 + 16
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　ET TOI ?", 24, "sans", True, OLIVE)
+yy3 += 52
+yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+p.para(bx + 22, yy3 + 20, "Quel match regarderas-tu samedi à 18 h 30 : le derby de Séville ou le Real Madrid–Celta ? Qui gagnera la Liga : le Barça ou le Real Madrid ? Écris deux phrases en espagnol et envoie-les.", 20, "sans", False, GREY, CW - 44, 1.42)
+print("P4 col3 ends", ey3 + eh)
+
+# ---- fixture table (full width) ----
+ty = 1140
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　13e journée : les six matches", 26, "sans", True, OLIVE)
+rows = [
+    ("VIE 20 · 21:00", "Athletic – Espanyol (abre la jornada, en San Mamés)"),
+    ("SÁB 21 · 18:30", "Sevilla – Betis (el derbi sevillano)"),
+    ("SÁB 21 · 21:00", "Real Madrid – Celta (en el Bernabéu)"),
+    ("DOM 22 · 14:00", "Barcelona – Villarreal (el líder recibe al submarino)"),
+    ("DOM 22 · 21:00", "Getafe – Atlético (el Atlético visita el Coliseum)"),
+    ("LUN 23 · 21:00", "Levante – Elche (cierra la jornada 13)"),
+]
+yy = ty + 16
+for i, (d, m) in enumerate(rows):
+    p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
+    p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
+    yy += 44
+tnote = "Horarios en hora peninsular. La jornada 13 se juega del viernes 20 al lunes 23: estos son sus seis partidos clave; el resto de la jornada, en la web de LaLiga."
+p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
+
+# ---- P4 exercises ----
+ey = 1580
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "EJERCICIOS　EXERCICES", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
+e.head("A　COMPRENSIÓN", 25)
+e.bridge("Lis l'article de la page 4 et choisis la bonne réponse.")
+e.ex("B1", "Choix multiple", "A", "Le Barça mène avec 33 points",
+     "El líder de la Liga es el... A. Barça, con 33 puntos · B. Real Madrid, con 33 · C. Atlético, con 28", size=20, gap=8)
+e.ex("B1", "Choix multiple", "B", "13e journée, 20–23 novembre",
+     "La jornada 13 se juega... A. el fin de semana del 8 · B. del viernes 20 al lunes 23 · C. en diciembre", size=20, gap=8)
+e.ex("B1", "Choix multiple", "C", "Le derby de Séville, samedi 18 h 30",
+     "El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30", size=20, gap=8)
+e.ex("B1", "Choix multiple", "A", "Barça–Villarreal, dimanche 14 h 00",
+     "El Barça–Villarreal se juega el domingo a las... A. 14:00 · B. 18:30 · C. 21:00", size=20, gap=8)
+e.ex("B1", "Choix multiple", "B", "Ligue des champions, 5e journée, 24–25 novembre",
+     "La jornada 5 de la Champions es... A. el 20–21 · B. el 24–25 · C. el 29–30", size=20, gap=8)
+e.head("B　LAS PALABRAS", 25)
+e.match_set("B1", "Associer les mots",
+            ["la jornada", "el derbi", "el liderato", "la fase liga"],
+            ["el primer puesto de la clasificación",
+             "un partido entre dos rivales de la misma ciudad",
+             "una fecha del campeonato, con diez partidos",
+             "la primera parte de la Champions, en formato liga"],
+            ["c", "b", "a", "d"],
+            ["jornada = journée c", "derbi = derby b", "liderato = première place a", "fase liga = phase de ligue d"],
+            instr="Associer")
+e.head("C　COMPARATIVOS", 25)
+e.bridge("Complète avec le comparatif ou la forme en -ísimo du mot entre parenthèses.")
+e.ex("B1", "Compléter des phrases", "más importante", "más + importante (la course au titre)",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="Compléter", size=20, gap=8)
+e.ex("B1", "Compléter des phrases", "muchísimos", "énormément de supporters",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="Compléter", size=20, gap=8)
+e.ex("B1", "Compléter des phrases", "peor", "Le comparatif de malo est peor",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="Compléter", size=20, gap=8)
+e.ex("B1", "Compléter des phrases", "mejor", "Le comparatif de bueno est mejor",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="Compléter", size=20, gap=8)
+e.head("D　EL PRETÉRITO INDEFINIDO", 25)
+e.bridge("Mets les phrases au passé (pretérito indefinido).")
+e.ex("B1", "Transformer des phrases", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="Reformuler", size=20, gap=8)
+e.ex("B1", "Transformer des phrases", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="Reformuler", size=20, gap=8)
+e.ex("B1", "Transformer des phrases", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="Reformuler", size=20, gap=8)
+e.ex("B1", "Transformer des phrases", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="Reformuler", size=20, gap=8)
+e.ex("B1", "Transformer des phrases", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="Reformuler", size=20, gap=8)
+e.end_report()
+p.foot(4)
+p.save(f"{OUT}/p4-deporte.svg")
+print("P4 saved, exercises so far:", len(REG))
