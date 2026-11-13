@@ -1,0 +1,294 @@
+# -*- coding: utf-8 -*-
+"""V4 broadsheet library: 1950x2700, 4 columns, exercise registry + flow layout."""
+import sys, os, base64
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from svglib import *
+
+PW, PH = 1950, 2700
+MX = 88                       # left/right margin (SOP 1.1: 66pt)
+CW = 422.5                    # column width (1774 - 3*28) / 4
+GUT = 28
+COLX = [MX + i * (CW + GUT) for i in range(4)]      # 88, 538.5, 989, 1439.5
+RIGHT = MX + 4 * CW + 3 * GUT                       # 1862
+CONTENT_BOTTOM = 2540         # nothing below this except footer
+ASSETS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+
+LV_COLOR = {"A2": "#5c6e30", "B1": "#46581f", "B2": "#37402f"}
+
+# ---------------- exercise registry (keys on P8 are generated from this) ----------------
+REG = []
+CURPAGE = [0]
+
+def reg_ex(level, typ, key, note=""):
+    REG.append({"n": len(REG) + 1, "page": CURPAGE[0], "level": level,
+                "type": typ, "key": key, "note": note})
+    return len(REG)
+
+# ---------------- images ----------------
+def img_uri(path):
+    ext = "png" if path.lower().endswith(".png") else "jpeg"
+    with open(path, "rb") as f:
+        return f"data:image/{ext};base64," + base64.b64encode(f.read()).decode()
+
+def image(p, fname, x, y, w, h, par="xMidYMid slice"):
+    path = os.path.join(ASSETS, fname)
+    p.add(f'<image x="{x}" y="{y}" width="{w}" height="{h}" '
+          f'preserveAspectRatio="{par}" href="{img_uri(path)}"/>')
+    return y + h
+
+def caption(p, x, y, w, fr, credit=""):
+    y = p.para(x, y + 24, fr, 19, "serif", False, GREY, w, 1.35)
+    if credit:
+        y = p.para(x, y + 2, credit, 15.5, "sans", False, GREY, w, 1.3)
+    return y
+
+def chip(p, x, ytop, level):
+    p.rect(x, ytop, 60, 30, fill=LV_COLOR[level], rx=2.7)
+    p.text(x + 30, ytop + 22, level, 19, "sans", True, "#ffffff", anchor="middle")
+    return 60
+
+# ---------------- page ----------------
+class BSPage4(Page):
+    def __init__(self):
+        self.w, self.h = PW, PH
+        self.parts = []
+        self.add(f'<rect width="{PW}" height="{PH}" fill="{PAPER}"/>')
+
+    def band(self, title_left, title_right, sub=""):
+        self.rect(MX, 72, RIGHT - MX, 110, fill=CLOTH)
+        self.text(MX + 30, 142, title_left, 46, "sans", True, ONCLOTH)
+        self.text(RIGHT - 30, 142, title_right, 46, "serif", True, ONCLOTH, anchor="end")
+        if sub:
+            self.text(RIGHT - 30, 168, sub, 18, "sans", False, GOOSE, anchor="end")
+        return 210
+
+    def foot(self, n, total=8):
+        self.hline(MX, RIGHT, 2580, LINE, 1.2)
+        self.text(MX, 2624, "Lucerna　SETTIMANALE COREANO VOL.4　Testo in coreano　Spiegazioni in italiano", 17, "sans", False, GREY)
+        self.text(RIGHT, 2624, f"Pagina {n} di {total}", 17, "sans", False, GREY, anchor="end")
+
+    def shead(self, x, y, s, w, size=29, color=OLIVE):
+        self.text(x, y, s, size, "sans", True, color)
+        self.hline(x, x + w, y + 13, OLIVE, 2)
+        return y + 13
+
+    def strip(self, y, h, text, fill=CLOTH, tcolor=ONCLOTH, size=27):
+        self.rect(MX, y, RIGHT - MX, h, fill=fill)
+        self.text((MX + RIGHT) / 2, y + h / 2 + size * 0.36, text, size, "sans", True, tcolor, anchor="middle")
+        return y + h
+
+def span_x(i, n=1):
+    return COLX[i], n * CW + (n - 1) * GUT
+
+# ---------------- column flow ----------------
+class Flow:
+    """Flows text blocks down a column, then to the next. Heights pre-measured via wrap()."""
+    def __init__(self, page, cols, top, bottom=CONTENT_BOTTOM, tag=""):
+        self.p = page
+        self.cols = cols            # list of (x, w)
+        self.top = top
+        self.bottom = bottom
+        self.ci = 0
+        self.y = top
+        self.tag = tag
+
+    def set_region(self, cols, top, bottom=CONTENT_BOTTOM):
+        self.cols, self.top, self.bottom = cols, top, bottom
+        self.ci, self.y = 0, top
+
+    @property
+    def x(self):
+        return self.cols[self.ci][0]
+
+    @property
+    def w(self):
+        return self.cols[self.ci][1]
+
+    def _fit(self, h):
+        if self.y + h > self.bottom:
+            if self.ci < len(self.cols) - 1:
+                self.ci += 1
+                self.y = self.top
+            else:
+                print(f"  !! FLOW OVERFLOW [{self.tag}] col {self.ci} y={self.y:.0f} need {h:.0f} bottom {self.bottom}")
+                self.y = self.bottom  # clamp; visual QA will catch
+
+    def keep(self, h):
+        """Keep-with-next (W47-KO fix4): if a block of h px does not fit in
+        the rest of this column, start the next column first, so a section
+        heading is never stranded at a column foot while its body lands in
+        the next column. No-op when h fits or this is the last column."""
+        if self.y + h > self.bottom and self.ci < len(self.cols) - 1:
+            self.ci += 1
+            self.y = self.top
+
+    def _ph(self, s, size, kind, bold, w, lh):
+        return len(wrap(s, kind, bold, size, w)) * size * lh
+
+    def para(self, s, size=25, kind="serif", bold=False, fill=INK, lh=1.52, gap=10, split=True, w=None):
+        # W45-KO fix: w narrows ONE paragraph's wrap width (orphan control).
+        # Text is unchanged; only the line breaks move so the final line is
+        # no longer a lone verb ending / single word. Column width untouched.
+        pw = w if w else self.w
+        if not split:
+            h = self._ph(s, size, kind, bold, pw, lh)
+            self._fit(h + gap)
+            self.y = self.p.para(self.x, self.y + size, s, size, kind, bold, fill, pw, lh) + gap
+            return self.y
+        lines = wrap(s, kind, bold, size, pw)
+        while lines:
+            maxk = int((self.bottom - self.y - size) // (size * lh)) + 1
+            if maxk < 1 and self.ci < len(self.cols) - 1:
+                self.ci += 1
+                self.y = self.top
+                continue
+            k = min(maxk, len(lines)) if maxk >= 1 else len(lines)
+            take, lines = lines[:k], lines[k:]
+            base = self.y + size
+            for i, ln in enumerate(take):
+                self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill)
+            self.y = base + k * size * lh
+            if lines:
+                if self.ci < len(self.cols) - 1:
+                    self.ci += 1
+                    self.y = self.top
+                else:
+                    base = self.y + size
+                    for i, ln in enumerate(lines):
+                        self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill)
+                    self.y = base + len(lines) * size * lh
+                    lines = []
+        self.y += gap
+        return self.y
+
+    def lead_para(self, s, size=25, kind="serif", bold=False, fill=INK, lh=1.52, gap=10):
+        """Lead paragraph with a drop cap (SOP 1.1): the first character
+        in olive, ~4 lines high; the first 4 text lines are indented
+        around it. Single column only (used for the P1 headline lead)."""
+        from svglib import drop_size
+        c, rest = s[0], s[1:]
+        target_h = 3 * size * lh + size * 0.75
+        d = drop_size(c, kind, True, target_h)
+        indent = text_w(c, kind, True, d) + 12
+        lines = wrap(rest, kind, bold, size, self.w,
+                     first_w=self.w - indent, first_n=4)
+        self._fit(len(lines) * size * lh + gap)
+        x, y = self.x, self.y
+        base = y + size
+        self.p.text(x, base + 3 * size * lh, c, d, kind, True, OLIVE)
+        for i, ln in enumerate(lines):
+            lx = x + indent if i < 4 else x
+            self.p.text(lx, base + i * size * lh, ln, size, kind, bold, fill)
+        self.y = base + len(lines) * size * lh + gap
+        return self.y
+
+    def glossline(self, s, size=20.5, gap=9, fill=GREY):
+        return self.para(s, size, "sans", False, fill, 1.45, gap)
+
+    def head(self, s, size=30, fill=OLIVE, gap=13):
+        if text_w(s, "sans", True, size) > self.w:
+            print(f"  !! HEAD TOO WIDE [{self.tag}]: {s[:40]}")
+        h = size + 14 + gap
+        self._fit(h + 30)
+        self.y = self.p.shead(self.x, self.y + size, s, self.w, size, fill) + gap
+        return self.y
+
+    def title(self, s, size=38, gap=9, fill=INK):
+        return self.para(s, size, "serif", True, fill, 1.22, gap, split=False)
+
+    def byline(self, s, gap=10):
+        return self.para(s, 17, "sans", False, GREY, 1.3, gap)
+
+    def rule(self, gap=10):
+        self._fit(4 + gap)
+        self.p.hline(self.x, self.x + self.w, self.y + 2, LINE, 1.2)
+        self.y += 4 + gap
+        return self.y
+
+    def box(self, title, paras, fill=BOX, bsize=22, tsize=23, pad=18, gap=12):
+        """paras: list of (text, kind, bold, fill, size, lh) with an optional
+        7th element = per-item inner wrap width (orphan control, W45-KO fix)."""
+        iw = self.w - 2 * pad
+        total = pad + (tsize + 10 if title else 0)
+        for pr in paras:
+            t, k, b, f, s, lh = pr[:6]
+            total += self._ph(t, s, k, b, pr[6] if len(pr) > 6 else iw, lh) + 5 + s
+        total += pad - 5
+        self._fit(total + gap)
+        x, y0 = self.x, self.y
+        self.p.rect(x, y0, self.w, total, fill=fill)
+        yy = y0 + pad
+        if title:
+            self.p.text(x + pad, yy + tsize - 4, title, tsize, "sans", True, OLIVE)
+            yy += tsize + 10
+        for pr in paras:
+            t, k, b, f, s, lh = pr[:6]
+            yy = self.p.para(x + pad, yy + s, t, s, k, b, f, pr[6] if len(pr) > 6 else iw, lh) + 5
+        self.y = y0 + total + gap
+        return self.y
+
+    def gloss(self, s, gap=12):
+        return self.box("", [("Nota — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f0eee5", gap=gap)
+
+    def ex(self, level, typ, key, note, body, opts=None, instr=None, size=23, gap=11, bw=None):
+        # bw: one-item body wrap width (orphan control, W45-KO fix). Text unchanged.
+        n = reg_ex(level, typ, key, note)
+        hh = 36
+        bwid = bw if bw else self.w
+        bh = self._ph(body, size, "serif", False, bwid, 1.45)
+        oh = 0
+        if opts:
+            for o in opts:
+                oh += self._ph(o, size - 1, "serif", False, self.w - 34, 1.4) + 3
+        self._fit(hh + bh + oh + gap)
+        x, y = self.x, self.y
+        chip(self.p, x, y, level)
+        self.p.text(x + 72, y + 23, f"{n}.", 24, "sans", True, OLIVE)
+        if instr:
+            self.p.text(x + 142, y + 23, instr, 19.5, "sans", False, GREY)
+        self.y = self.p.para(x, y + hh + size - 4, body, size, "serif", False, INK, bwid, 1.45)
+        if opts:
+            for o in opts:
+                self.y = self.p.para(x + 34, self.y + size - 6, o, size - 1, "serif", False, INK, self.w - 34, 1.4) + 3
+        self.y += gap
+        return n
+
+    def match_set(self, level, typ, lefts, rights, keys, notes, instr=None, gap=14, narrow=None, head=None, head_size=25, head_gap=13):
+        """lefts numbered (each registered), rights lettered a/b/c... printed once.
+        narrow: {right_index: wrap_width} orphan control (W45-KO fix).
+        head: optional section heading drawn first and KEPT with the block
+        (W47-KO fix4) — the whole block (heading + match set) moves to the
+        next column together when it does not fit in the rest of this column,
+        so a heading is never stranded at a column foot (P4 D in run 9)."""
+        nums = [reg_ex(level, typ, k, nt) for k, nt in zip(keys, notes)]
+        # measure with the same math used to draw (explicit baselines)
+        total = 40 + len(lefts) * 37 + 8
+        for i, r in enumerate(rights):
+            rw = (narrow or {}).get(i, self.w - 34)
+            total += len(wrap(r, "serif", False, 23, rw)) * 33 + 5
+        total += gap
+        if head is not None:
+            self.keep(head_size + 14 + head_gap + total)
+            self.head(head, head_size, gap=head_gap)
+        self._fit(total)
+        x, y = self.x, self.y
+        chip(self.p, x, y, level)
+        self.p.text(x + 72, y + 23, f"{nums[0]}–{nums[-1]}.", 24, "sans", True, OLIVE)
+        if instr:
+            self.p.text(x + 196, y + 23, instr, 19.5, "sans", False, GREY)
+        yy = y + 40 + 24
+        for num, l in zip(nums, lefts):
+            self.p.text(x, yy, f"{num}. {l}", 24, "serif", False, INK)
+            yy += 37
+        yy += 8
+        for i, r in enumerate(rights):
+            rw = (narrow or {}).get(i, self.w - 34)
+            for j, ln in enumerate(wrap(r, "serif", False, 23, rw)):
+                self.p.text(x + 34, yy, (f"{chr(97+i)}. " if j == 0 else "") + ln, 23, "serif", False, GREY)
+                yy += 33
+            yy += 5
+        self.y = yy + gap
+        return nums
+
+    def end_report(self):
+        print(f"  flow[{self.tag}] ended col {self.ci}/{len(self.cols)-1} y={self.y:.0f} (bottom {self.bottom})")
