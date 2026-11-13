@@ -1,0 +1,13 @@
+p1-portada.svg: els 187->237 lines 120->120 diff 2 moved 29 defects 1 observe 0
+  DEFECT abs box#0 y=1294.94 '\u3000數字看本週' over={'right': 22.5}
+p2-vida.svg: els 196->252 lines 130->130 diff 5 moved 15 defects 0 observe 0
+p3-cultura.svg: els 171->220 lines 110->109 diff 6 moved 23 defects 0 observe 0
+p4-deporte.svg: els 171->232 lines 115->115 diff 3 moved 20 defects 0 observe 0
+p5-juventud.svg: els 186->236 lines 121->121 diff 5 moved 18 defects 1 observe 0
+  DEFECT abs box#0 y=237.0 '\u3000本週計劃' over={'right': 13.7}
+p6-afondo.svg: els 189->223 lines 127->127 diff 1 moved 19 defects 0 observe 0
+p7-lengua.svg: els 158->278 lines 76->76 diff 0 moved 20 defects 0 observe 0
+p8-ejercicios.svg: els 854->892 lines 241->241 diff 0 moved 35 defects 0 observe 0
+ratios: n=383 median=1.04 boldT=1.057 boldF=1.0
+P8 p8-ejercicios.svg: lines 241->241 slack_footer 38.9->38.9
+CREAMBOX FAIL 2 defects

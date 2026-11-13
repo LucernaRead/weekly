@@ -1,0 +1,11 @@
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=3
+   key diffs: [137, 138, 140]
+keydiffs parsed from fixed file: [137, 138, 140]
+ASSERT OK: matches p8-compare.json keydiff [137, 138, 140]
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=2
+   key diffs: [137, 138]
+legacy spaced format -> [137, 138]
+ASSERT OK: legacy fallback works
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=0
+empty keydiff -> []
+ASSERT OK: empty list handled

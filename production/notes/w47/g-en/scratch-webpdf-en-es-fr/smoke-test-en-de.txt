@@ -1,0 +1,10 @@
+Smoke test (run before batch driver, 2026-11-11 ~17:25 EST):
+edition: 2026-w47-en-de
+dir: production/2026-w47/2026-w47-en-de
+web PDF: The-Lucerna-VOL4-en-de.web.pdf
+old (build #3, pre-rebuild): sha256 7117abe47962468fbf93068665f10da4cafaa2116ad368a907971bc9a94fa655, 2414471 bytes
+new (rebuilt with patched tools/webpdf.py commit 40963281): sha256 0d5bbc7ba9cab6a5d547411a38a3d2158cac97de4dbe2000cc58bde485415286, 2414466 bytes
+text bytes: 48638, cmp vs print PDF: TEXT-MATCH (byte-identical)
+size <7MB: yes (2.41MB)
+status: OK
+Note: batch driver skips en-de; its TSV row is appended manually from this file.

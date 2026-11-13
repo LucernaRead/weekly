@@ -1,0 +1,19 @@
+content56.py:136 current: 'НЕДЕЛЯ 16–22 НОЯБРЯ'
+  string 'ЗА И ПРОТИВ\u3000FOR AND AGAINST' size=24
+    run x=1461.5 cls=sans_noto 'ЗА' bbox_x0=0 bbox_x1=33 ink_right=1494.5
+    run x=1499.1 cls=sans_noto 'И' bbox_x0=0 bbox_x1=20 ink_right=1519.1
+    run x=1524.3 cls=sans_noto 'ПРОТИВ' bbox_x0=0 bbox_x1=101 ink_right=1625.3
+    run x=1625.4 cls=sans '\u3000FOR AND AGAINST' bbox_x0=0 bbox_x1=237 ink_right=1862.4
+  -> PIL true-ink right edge 1862.4 svg px, box right 1862.0, margin -0.4px
+  string 'ЗА И ПРОТИВ\u3000FOR & AGAINST' size=24
+    run x=1461.5 cls=sans_noto 'ЗА' bbox_x0=0 bbox_x1=33 ink_right=1494.5
+    run x=1499.1 cls=sans_noto 'И' bbox_x0=0 bbox_x1=20 ink_right=1519.1
+    run x=1524.3 cls=sans_noto 'ПРОТИВ' bbox_x0=0 bbox_x1=101 ink_right=1625.3
+    run x=1625.4 cls=sans '\u3000FOR & AGAINST' bbox_x0=0 bbox_x1=204 ink_right=1829.4
+  -> PIL true-ink right edge 1829.4 svg px, box right 1862.0, margin +32.6px
+  [fallback] current string at 23pt:
+  string 'НЕДЕЛЯ 16–22 НОЯБРЯ' size=23
+    run x=1461.5 cls=sans_noto 'НЕДЕЛЯ' bbox_x0=0 bbox_x1=93 ink_right=1554.5
+    run x=1560.1 cls=sans '16–22 ' bbox_x0=0 bbox_x1=72 ink_right=1632.1
+    run x=1632.1 cls=sans_noto 'НОЯБРЯ' bbox_x0=0 bbox_x1=96 ink_right=1728.1
+  -> PIL true-ink right edge 1728.1 svg px, box right 1862.0, margin +133.9px

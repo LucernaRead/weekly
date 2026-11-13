@@ -1,0 +1,70 @@
+resume start 2026-11-11T23:37:10Z
+[2026-w47-pt-nl] rebuild start avail=1527MB old=1142955
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-nl/svg
+114 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 23812 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 23856 bytes
+  font LucernaNewsreader-Italic: 26264 bytes
+  font LucernaNotoSansCJKSC-Regular: 19728 bytes
+  font LucernaNotoSansCJKSC-Bold: 20008 bytes
+  font LucernaNotoSerifCJKSC-Regular: 25528 bytes
+  font LucernaNotoSerifCJKSC-Bold: 26152 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31556 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-nl/A-Lucerna-VOL4-web.pdf: 1142952 bytes, 47216 text bytes
+[2026-w47-pt-nl] OK old=1142955 new=1142952 text=47216 rc=0
+[2026-w47-pt-ru] mem avail 1248MB <1500, wait 60s (1/30)
+[2026-w47-pt-ru] mem avail 1128MB <1500, wait 60s (2/30)
+[2026-w47-pt-ru] rebuild start avail=1793MB old=1188615
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-ru/svg
+173 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 22988 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 23028 bytes
+  font LucernaNewsreader-Italic: 25292 bytes
+  font LucernaNotoSansCJKSC-Regular: 29964 bytes
+  font LucernaNotoSansCJKSC-Bold: 30408 bytes
+  font LucernaNotoSerifCJKSC-Regular: 37600 bytes
+  font LucernaNotoSerifCJKSC-Bold: 38796 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30412 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-ru/A-Lucerna-VOL4-web.pdf: 1188611 bytes, 54965 text bytes
+[2026-w47-pt-ru] OK old=1188615 new=1188611 text=54965 rc=0
+[2026-w47-pt-zh-tw] rebuild start avail=1600MB old=1820203
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-zh-tw/svg
+548 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 22588 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 22628 bytes
+  font LucernaNewsreader-Italic: 24888 bytes
+  font LucernaNotoSansCJKSC-Regular: 243908 bytes
+  font LucernaNotoSansCJKSC-Bold: 248740 bytes
+  font LucernaNotoSerifCJKSC-Regular: 353440 bytes
+  font LucernaNotoSerifCJKSC-Bold: 358400 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30336 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-zh-tw/A-Lucerna-VOL4-web.pdf: 1820207 bytes, 44666 text bytes
+[2026-w47-pt-zh-tw] OK old=1820203 new=1820207 text=44666 rc=0
+[core-pt] mem avail 1226MB <1500, wait 60s (1/30)
+[core-pt] mem avail 1343MB <1500, wait 60s (2/30)
+[core-pt] mem avail 1359MB <1500, wait 60s (3/30)
+[core-pt] mem avail 1213MB <1500, wait 60s (4/30)
+[core-pt] mem avail 1309MB <1500, wait 60s (5/30)
+[core-pt] mem avail 1197MB <1500, wait 60s (6/30)
+[core-pt] rebuild start avail=1862MB old=1609033
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg
+540 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 23200 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 23240 bytes
+  font LucernaNewsreader-Italic: 25520 bytes
+  font LucernaNotoSansCJKSC-Regular: 172916 bytes
+  font LucernaNotoSansCJKSC-Bold: 176244 bytes
+  font LucernaNotoSerifCJKSC-Regular: 243544 bytes
+  font LucernaNotoSerifCJKSC-Bold: 246992 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31108 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/A-Lucerna-VOL4-web.pdf: 1609039 bytes, 44487 text bytes
+[core-pt] OK old=1609033 new=1609039 text=44487 rc=0
+resume done 2026-11-11T23:52:44Z

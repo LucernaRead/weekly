@@ -1,0 +1,16 @@
+print chars 44174 web chars 44284
+char multiset diff print-only: {} web-only: {' ': 106, '\n': 4}
+char multiset EQUAL: False
+word multiset print-only: {'ИТАЛЬЯНСКИЙЕЖЕНЕДЕЛЬНИК': 8, 'Составьтепредложения': 7, 'правильныйответ.': 5, 'перемешаны—': 5, 'Прочитайтестатью': 4, 'Переведитена': 4, 'лидируетс': 3, 'Соединитеслова': 3, 'Вставьтеслова': 3, 'Дополнитеформы': 3}
+word multiset web-only: {'предложения': 11, 'ИТАЛЬЯНСКИЙ': 8, '·': 8, 'ЕЖЕНЕДЕЛЬНИК': 8, 'Составьте': 8, 'на': 7, 'слова': 7, 'правильный': 6, '—': 5, 'в': 5}
+word counts: 7602 7709
+pages print/web: 9 9
+ page 1: chars 4697/4706 char-equal=False word-equal=False
+ page 2: chars 5126/5139 char-equal=False word-equal=False
+ page 3: chars 4376/4395 char-equal=False word-equal=False
+ page 4: chars 4384/4395 char-equal=False word-equal=False
+ page 5: chars 4375/4388 char-equal=False word-equal=False
+ page 6: chars 4981/4993 char-equal=False word-equal=False
+ page 7: chars 4533/4549 char-equal=False word-equal=False
+ page 8: chars 11694/11711 char-equal=False word-equal=False
+ page 9: chars 0/0 char-equal=True word-equal=True

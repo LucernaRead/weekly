@@ -1,0 +1,43 @@
+#00 p1-pervaya.svg gap=7 eL=1090 sR=1098 Rx=546.5 med=249 -> FALSE-POS | L='Зенит' R='» ' | audit: ink overlaps '» ' by 5.5x25.0px
+#01 p1-pervaya.svg gap=10 eL=1778 sR=1789 Rx=891.8 med=249 -> FALSE-POS | L='Динамо' R='» — ' | audit: ink overlaps '» — ' by 5.1x25.0px
+#02 p1-pervaya.svg gap=11 eL=637 sR=649 Rx=321.2 med=249 -> FALSE-POS | L='тур' R=': «' | audit: ink overlaps ': «' by 4.9x26.2px
+#03 p1-pervaya.svg gap=3 eL=3336 sR=3340 Rx=1668.9 med=249 -> FALSE-POS | L='пятница' R='»: ' | audit: ink overlaps '»: ' by 3.2x9.8px
+#04 p1-pervaya.svg gap=2 eL=660 sR=663 Rx=330.5 med=249 -> FALSE-POS | L='третий' R=', ' | audit: ink overlaps ', ' by 3.4x7.5px
+#05 p1-pervaya.svg gap=7 eL=994 sR=1002 Rx=500.2 med=249 -> FALSE-POS | L='субботу' R=',' | audit: ink overlaps ',' by 3.2x7.5px
+#06 p1-pervaya.svg gap=0 eL=460 sR=461 Rx=230.6 med=237 -> REAL-TOUCH | L='Краснодар' R='» — ' | audit: ink overlaps '» — ' by 3.1x11.0px
+#07 p1-pervaya.svg gap=0 eL=1002 sR=1003 Rx=501.9 med=249 -> REAL-TOUCH | L='Краснодаре' R=',' | audit: ink overlaps ',' by 3.3x7.5px
+#08 p1-pervaya.svg gap=0 eL=764 sR=765 Rx=382.5 med=249 -> REAL-TOUCH | L='истории' R='!' | audit: ink overlaps 'истории' by 3.6x13.2px
+#09 p1-pervaya.svg gap=0 eL=1794 sR=1795 Rx=897.6 med=249 -> REAL-TOUCH | L='ЦСКА' R='? A.' | audit: ink overlaps '? A.' by 3.5x14.8px
+#10 p2-zhizn.svg gap=0 eL=3637 sR=3638 Rx=1819.1 med=249 -> REAL-TOUCH | L='толерантности' R='.' | audit: ink overlaps '.' by 4.1x3.0px
+#11 p2-zhizn.svg gap=0 eL=3499 sR=3500 Rx=1750.4 med=249 -> REAL-TOUCH | L='студента' R='.' | audit: ink overlaps '.' by 3.0x3.0px
+#12 p2-zhizn.svg gap=0 eL=948 sR=949 Rx=474.6 med=237 -> REAL-TOUCH | L='студента' R='.' | audit: ink overlaps '.' by 3.3x3.2px
+#13 p2-zhizn.svg gap=0 eL=1432 sR=1433 Rx=716.9 med=249 -> REAL-TOUCH | L='студента' R='! ' | audit: ink overlaps 'студента' by 3.4x13.2px
+#14 p2-zhizn.svg gap=7 eL=1332 sR=1340 Rx=669.1 med=249 -> FALSE-POS | L='студенту' R=', ' | audit: ink overlaps ', ' by 3.5x7.5px
+#15 p2-zhizn.svg gap=3 eL=369 sR=373 Rx=185.4 med=249 -> FALSE-POS | L='спасибо' R='.' | audit: ink overlaps '.' by 3.3x3.2px
+#16 p3-kultura.svg gap=0 eL=868 sR=869 Rx=434.5 med=249 -> REAL-TOUCH | L='биография' R=':' | audit: ink overlaps ':' by 5.0x11.5px
+#17 p3-kultura.svg gap=0 eL=460 sR=461 Rx=230.5 med=249 -> REAL-TOUCH | L='посмотреть' R=': ' | audit: ink overlaps ': ' by 3.8x11.5px
+#18 p3-kultura.svg gap=0 eL=1326 sR=1327 Rx=663.6 med=249 -> REAL-TOUCH | L='посмотреть' R=')' | audit: ink overlaps 'посмотреть' by 3.2x13.5px
+#19 p4-sport.svg gap=3 eL=885 sR=889 Rx=443.3 med=249 -> FALSE-POS | L='место' R='.' | audit: ink overlaps '.' by 3.0x3.2px
+#20 p4-sport.svg gap=0 eL=460 sR=461 Rx=230.6 med=249 -> REAL-TOUCH | L='Краснодар' R='» ' | audit: ink overlaps '» ' by 3.1x11.0px
+#21 p4-sport.svg gap=0 eL=460 sR=461 Rx=230.6 med=249 -> REAL-TOUCH | L='Краснодар' R='» — ' | audit: ink overlaps '» — ' by 3.1x11.0px
+#22 p4-sport.svg gap=0 eL=1328 sR=1329 Rx=664.8 med=249 -> REAL-TOUCH | L='Россия' R=', ' | audit: ink overlaps ', ' by 3.1x3.0px
+#23 p4-sport.svg gap=0 eL=2418 sR=2419 Rx=1209.7 med=249 -> REAL-TOUCH | L='истории' R='; ' | audit: ink overlaps '; ' by 3.1x13.2px
+#24 p4-sport.svg gap=0 eL=2342 sR=2343 Rx=1171.6 med=249 -> REAL-TOUCH | L='Краснодар' R='»' | audit: ink overlaps '»' by 3.1x11.0px
+#25 p4-sport.svg gap=0 eL=940 sR=941 Rx=470.7 med=249 -> REAL-TOUCH | L='ЦСКА' R='? A.' | audit: ink overlaps '? A.' by 3.6x13.8px
+#26 p5-molodezh.svg gap=5 eL=764 sR=770 Rx=383.6 med=249 -> FALSE-POS | L='пятница' R='»:' | audit: ink overlaps '»:' by 5.1x15.5px
+#27 p5-molodezh.svg gap=0 eL=1895 sR=1896 Rx=948.0 med=249 -> REAL-TOUCH | L='смартфоны' R=',' | audit: ink overlaps ',' by 5.2x7.5px
+#28 p6-razbor.svg gap=0 eL=847 sR=848 Rx=424.2 med=249 -> REAL-TOUCH | L='студента' R=', ' | audit: ink overlaps ', ' by 3.2x7.5px
+#29 p6-razbor.svg gap=0 eL=3139 sR=3140 Rx=1570.0 med=249 -> REAL-TOUCH | L='сбивается' R='.' | audit: ink overlaps '.' by 3.2x3.0px
+#30 p6-razbor.svg gap=0 eL=697 sR=698 Rx=349.0 med=249 -> REAL-TOUCH | L='Планируйте' R=': ' | audit: ink overlaps ': ' by 3.2x11.5px
+#31 p6-razbor.svg gap=6 eL=1055 sR=1062 Rx=529.7 med=249 -> FALSE-POS | L='НЕДЕЛЕ' R='?\u3000' | audit: ink overlaps 'НЕДЕЛЕ' by 3.3x19.5px
+#32 p7-yazyk.svg gap=100 eL=501 sR=602 Rx=251.0 med=58 -> FALSE-POS | L='ЯЗЫК' R='\u3000LÍNGUA' | audit: ink overlaps 'ЯЗЫК' by 3.8x35.5px
+#33 p7-yazyk.svg gap=0 eL=2787 sR=2788 Rx=1394.0 med=249 -> REAL-TOUCH | L='прессы' R=',' | audit: ink overlaps ',' by 3.0x6.8px
+#34 p7-yazyk.svg gap=3 eL=3598 sR=3602 Rx=1799.7 med=249 -> FALSE-POS | L='студента' R='!»' | audit: ink overlaps 'студента' by 3.4x12.0px
+#35 p7-yazyk.svg gap=3 eL=2470 sR=2474 Rx=1235.5 med=249 -> FALSE-POS | L='пресс' R='-' | audit: ink overlaps '-' by 3.0x5.8px
+#36 p7-yazyk.svg gap=3 eL=3632 sR=3636 Rx=1816.9 med=249 -> FALSE-POS | L='пятница' R='»' | audit: ink overlaps '»' by 3.6x10.2px
+#37 p7-yazyk.svg gap=0 eL=3115 sR=3116 Rx=1558.2 med=219 -> REAL-TOUCH | L='студента' R='!» — ' | audit: ink overlaps 'студента' by 3.0x11.8px
+#38 p7-yazyk.svg gap=0 eL=1129 sR=1130 Rx=565.4 med=249 -> REAL-TOUCH | L='Кипренского' R=', 1827 ' | audit: ink overlaps ', 1827 ' by 3.5x17.2px
+#39 p7-yazyk.svg gap=0 eL=3154 sR=3155 Rx=1577.8 med=249 -> REAL-TOUCH | L='поступило' R=': ' | audit: ink overlaps ': ' by 3.2x10.5px
+#40 p8-test.svg gap=101 eL=937 sR=1039 Rx=471.9 med=58 -> FALSE-POS | L='ОТВЕТЫ' R='\u3000TESTE E RESPOSTAS' | audit: ink overlaps '\u3000TESTE E RESPOSTAS' by 8.0x35.5px
+#41 p8-test.svg gap=57 eL=375 sR=433 Rx=189.5 med=249 -> FALSE-POS | L='ОТВЕТЫ' R='\u3000RESPOSTAS — ORDENADAS POR PÁG' | audit: ink overlaps 'ОТВЕТЫ' by 4.5x19.0px
+REAL-TOUCH count: 25 of 42

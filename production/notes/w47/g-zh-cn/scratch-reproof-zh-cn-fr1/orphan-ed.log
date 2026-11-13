@@ -1,0 +1,34 @@
+file: wrap-log.jsonl  calls=902 unique=506 multi-line=158
+Category A: 8
+  --- A size=20.5 max_w=422.5 kind=sans bold=False
+      text="Utilise l'exemple d'entraînement de cette page."
+      lines=["Utilise l'exemple d'entraînement de cette", 'page.']
+  --- A size=20 max_w=378.5 kind=sans bold=False
+      text="Et toi ? Tu aimes l'hiver ? Qu'est-ce que tu lis ce mois-ci ? Écris deux phrases en chinois."
+      lines=["Et toi ? Tu aimes l'hiver ? Qu'est-ce que", 'tu lis ce mois-ci ? Écris deux phrases en', 'chinois.']
+  --- A size=21.5 max_w=378.5 kind=serif bold=False
+      text='四强 sìqiáng — les quatre dernières équipes.'
+      lines=['四强 sìqiáng — les quatre dernières', 'équipes.']
+  --- A size=20 max_w=422.5 kind=serif bold=False
+      text='半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C. BLG'
+      lines=['半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C.', 'BLG']
+  --- A size=15.5 max_w=422.5 kind=sans bold=False
+      text='Photo : Based5290 — Domaine public (Wikimedia Commons)'
+      lines=['Photo : Based5290 — Domaine public (Wikimedia', 'Commons)']
+  --- A size=21.5 max_w=422.5 kind=serif bold=False
+      text='Mots de la semaine : 决赛 (juésài, la finale), 冠军 (guànjūn, le champion), 半决赛 (bànjuésài, la demi-finale), 到货 (dàohuò, arrivé), 退换货 (tuìhuànhuò, retours et échanges), 价保 (jiàbǎo, protection du prix).'
+      lines=['Mots de la semaine : 决赛 (juésài, la finale),', '冠军 (guànjūn, le champion), 半决赛', '(bànjuésài, la demi-finale), 到货 (dàohuò,', 'arrivé), 退换货 (tuìhuànhuò, retours et', 'échanges), 价保 (jiàbǎo, protection du', 'prix).']
+  --- A size=19.5 max_w=378.5 kind=sans bold=False
+      text='地 (de) indique comment une action est faite.'
+      lines=['地 (de) indique comment une action est', 'faite.']
+  --- A size=21.5 max_w=378.5 kind=serif bold=False
+      text="「先看预报，再决定穿什么。」La structure 先…再… donne l'ordre des actions."
+      lines=['「先看预报，再决定穿什么。」La', "structure 先…再… donne l'ordre des", 'actions.']
+Category B: 2
+  --- B size=20 max_w=422.5 kind=serif bold=False
+      text='《试探》讲的是谁？ A. 钢琴家 · B. 船长 · C. 画家'
+      lines=['《试探》讲的是谁？ A. 钢琴家 · B. 船长 · C. 画', '家']
+  --- B size=20 max_w=422.5 kind=serif bold=False
+      text='《白衣逆行者》上映了吗？ A. 没有，上映前撤档了 · B. 上映了，11月6日 · C. 上映了，11月7日'
+      lines=['《白衣逆行者》上映了吗？ A. 没有，上映前撤', '档了 · B. 上映了，11月6日 · C. 上映了，11月7', '日']
+Category C: 0

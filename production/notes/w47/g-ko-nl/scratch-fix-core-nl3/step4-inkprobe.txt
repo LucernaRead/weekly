@@ -1,0 +1,18 @@
+P2 flagged line y=1383.36: candidate boxes=[(1439.5, 1022.2499999999999, 422.5, 365.5)]
+  text elem: <text x="1461.5" y="1383.36" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-ancho
+  card PNG size: 1950x2700
+  viewBox 1950.0x2700.0 scale x=1.0000 y=1.0000
+  strip below box: x[1439,1862] y[1387,1394] (423x7px) non-paper pixels=0 -> no ink (artifact)
+  line-band lowest ink row (band top y=1343.36 svg): 41 -> ink bottom svg y=1384.4 vs rect bottom 1387.8
+P5 flagged line y=932.05: candidate boxes=[(538.5, 647.3199999999999, 422.5, 429.04), (1439.5, 632.0, 422.5, 304.5)]
+  text elem: <text x="1461.5" y="932.0499999999998" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" 
+  card PNG size: 1950x2700
+  viewBox 1950.0x2700.0 scale x=1.0000 y=1.0000
+  strip below box: x[538,961] y[1076,1083] (423x7px) non-paper pixels=0 -> no ink (artifact)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-core-nl3/step4_inkprobe.py", line 54, in <module>
+    band = png.crop((int(tx * sx), int((y - 40) * sy), int((rx + rw) * sx), int((y + 30) * sy)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/PIL/Image.py", line 1384, in crop
+    raise ValueError(msg)
+ValueError: Coordinate 'right' is less than 'left'

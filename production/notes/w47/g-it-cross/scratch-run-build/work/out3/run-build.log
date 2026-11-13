@@ -1,0 +1,15 @@
+
+=== run_build 2026-11-12 06:31:50 UTC ===
+[06:31:50] build source : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed
+[06:31:50] production   : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production
+[06:31:50] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3
+[06:31:50] steps        : run, render
+[06:31:50] build is inside production/
+[06:31:50] snapshot: 5 production files hashed
+[06:31:50] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3/build-copy
+[06:31:50] repoint: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3/build-copy/svg
+[06:31:50] repoint: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3/build-copy
+[06:31:50] repointed files: content12.py, render.py
+[06:31:50] verify: copy is clean — no .py references the real production tree
+[06:31:50] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out3/svg (any literal /svg target)
+[06:31:50] dry-run: stopping before execution

@@ -1,0 +1,8 @@
+P5 line y=932.0499999999998 x=1461.5 :: box x=1439.5 y=632.0 w=422.5 h=304.5 bottom=936.5
+  strip below box y[936,943] non-paper pixels=0 -> no ink (artifact)
+  line-band lowest ink svg y=933.0 vs rect bottom 936.5 (clearance +3.5)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-core-nl3/step4b_inkprobe.py", line 23, in <module>
+    tx, ty = float(m.group(1)), float(m.group(2))
+                                ^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '。问题：你在鞋里放什么？（100 名年轻人）'

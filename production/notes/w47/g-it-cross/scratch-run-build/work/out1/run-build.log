@@ -1,0 +1,41 @@
+
+=== run_build 2026-11-12 06:31:44 UTC ===
+[06:31:44] build source : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed
+[06:31:44] production   : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production
+[06:31:44] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1
+[06:31:44] steps        : run, render
+[06:31:44] build is inside production/
+[06:31:44] snapshot: 5 production files hashed
+[06:31:44] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy
+[06:31:44] repoint: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy/svg
+[06:31:44] repoint: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/fake-prod/production/2026-w47/fake-ed -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy
+[06:31:44] repointed files: content12.py, render.py
+[06:31:44] verify: copy is clean — no .py references the real production tree
+[06:31:44] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/svg (any literal /svg target)
+[06:31:44] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[06:31:45] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[06:31:45] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy)
+TOTAL 8
+[06:31:46] run.py: exit 0
+[06:31:46] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1/build-copy)
+rendered 8 pages
+[06:31:46] render.py: exit 0
+[06:31:46] integrity: production unchanged (5 files re-hashed)
+[06:31:46] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-run-build/work/out1 (17 svg/png/pdf files)
+[06:31:46]   out: build-copy/Lucerna-FAKE.pdf
+[06:31:46]   out: build-copy/cards/p1.png
+[06:31:46]   out: build-copy/cards/p2.png
+[06:31:46]   out: build-copy/cards/p3.png
+[06:31:46]   out: build-copy/cards/p4.png
+[06:31:46]   out: build-copy/cards/p5.png
+[06:31:46]   out: build-copy/cards/p6.png
+[06:31:46]   out: build-copy/cards/p7.png
+[06:31:46]   out: build-copy/cards/p8.png
+[06:31:46]   out: build-copy/svg/p1.svg
+[06:31:46]   out: build-copy/svg/p2.svg
+[06:31:46]   out: build-copy/svg/p3.svg
+[06:31:46]   out: build-copy/svg/p4.svg
+[06:31:46]   out: build-copy/svg/p5.svg
+[06:31:46]   out: build-copy/svg/p6.svg
+[06:31:46]   out: build-copy/svg/p7.svg
+[06:31:46]   out: build-copy/svg/p8.svg

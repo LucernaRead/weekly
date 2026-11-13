@@ -1,0 +1,46 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+01 p1-pervaya.s 'Зенит'                    vs '» '         right size=53.0 pixel_gap=3.67px (tool 5.5) -> CLEAR
+02 p1-pervaya.s 'Динамо'                   vs '» — '       right size=53.0 pixel_gap=5.17px (tool 5.1) -> CLEAR
+03 p1-pervaya.s 'тур'                      vs ': «'        right size=53.0 pixel_gap=5.67px (tool 4.9) -> CLEAR
+04 p1-pervaya.s 'пятница'                  vs '»: '        right size=20.0 pixel_gap=1.67px (tool 3.2) -> CLEAR
+05 p1-pervaya.s 'третий'                   vs ', '         right size=24.0 pixel_gap=0.00px (tool 3.4) -> TOUCH
+06 p1-pervaya.s 'субботу'                  vs ','          right size=24.0 pixel_gap=0.00px (tool 3.2) -> TOUCH
+07 p1-pervaya.s 'Краснодар'                vs '» — '       right size=24.0 pixel_gap=0.00px (tool 3.1) -> TOUCH
+08 p1-pervaya.s 'Краснодаре'               vs ','          right size=24.0 pixel_gap=0.00px (tool 3.3) -> TOUCH
+09 p1-pervaya.s '!'                        vs 'истории'    left size=24.0 pixel_gap=0.00px (tool 3.6) -> TOUCH
+10 p1-pervaya.s 'ЦСКА'                     vs '? A.'       right size=21.0 pixel_gap=0.00px (tool 3.5) -> TOUCH
+11 p2-zhizn.svg 'толерантности'            vs '.'          right size=21.5 pixel_gap=0.00px (tool 4.1) -> TOUCH
+12 p2-zhizn.svg 'студента'                 vs '.'          right size=21.5 pixel_gap=0.00px (tool 3.0) -> TOUCH
+13 p2-zhizn.svg 'студента'                 vs '.'          right size=24.0 pixel_gap=0.00px (tool 3.3) -> TOUCH
+14 p2-zhizn.svg '! '                       vs 'студента'   left size=24.0 pixel_gap=0.00px (tool 3.4) -> TOUCH
+15 p2-zhizn.svg 'студенту'                 vs ', '         right size=24.0 pixel_gap=0.00px (tool 3.5) -> TOUCH
+16 p2-zhizn.svg 'спасибо'                  vs '.'          right size=24.0 pixel_gap=1.33px (tool 3.3) -> CLEAR
+17 p3-kultura.s 'биография'                vs ':'          right size=24.0 pixel_gap=0.00px (tool 5.0) -> TOUCH
+18 p3-kultura.s 'посмотреть'               vs ': '         right size=24.0 pixel_gap=0.00px (tool 3.8) -> TOUCH
+19 p3-kultura.s ')'                        vs 'посмотреть' left size=20.0 pixel_gap=0.00px (tool 3.2) -> TOUCH
+20 p4-sport.svg 'место'                    vs '.'          right size=24.0 pixel_gap=0.00px (tool 3.0) -> TOUCH
+21 p4-sport.svg 'Краснодар'                vs '» '         right size=24.0 pixel_gap=0.00px (tool 3.1) -> TOUCH
+22 p4-sport.svg 'Краснодар'                vs '» — '       right size=24.0 pixel_gap=0.00px (tool 3.1) -> TOUCH
+23 p4-sport.svg 'Россия'                   vs ', '         right size=20.5 pixel_gap=0.00px (tool 3.1) -> TOUCH
+24 p4-sport.svg 'истории'                  vs '; '         right size=20.5 pixel_gap=0.00px (tool 3.1) -> TOUCH
+25 p4-sport.svg 'Краснодар'                vs '»'          right size=24.0 pixel_gap=0.00px (tool 3.1) -> TOUCH
+26 p4-sport.svg 'ЦСКА'                     vs '? A.'       right size=19.5 pixel_gap=0.00px (tool 3.6) -> TOUCH
+27 p5-molodezh. 'пятница'                  vs '»:'         right size=32.0 pixel_gap=2.67px (tool 5.1) -> CLEAR
+28 p5-molodezh. 'смартфоны'                vs ','          right size=24.0 pixel_gap=0.00px (tool 5.2) -> TOUCH
+29 p6-razbor.sv 'студента'                 vs ', '         right size=24.0 pixel_gap=0.00px (tool 3.2) -> TOUCH
+30 p6-razbor.sv 'сбивается'                vs '.'          right size=21.5 pixel_gap=0.00px (tool 3.2) -> TOUCH
+31 p6-razbor.sv 'Планируйте'               vs ': '         right size=24.0 pixel_gap=0.00px (tool 3.2) -> TOUCH
+32 p6-razbor.sv '?\u3000'                  vs 'НЕДЕЛЕ'     left size=26.0 pixel_gap=3.00px (tool 3.3) -> CLEAR
+33 p7-yazyk.svg '\u3000語言'                 vs 'ЯЗЫК'       left size=46.0 pixel_gap=0.00px (tool 3.8) -> TOUCH
+34 p7-yazyk.svg 'прессы'                   vs ','          right size=21.5 pixel_gap=0.00px (tool 3.0) -> TOUCH
+35 p7-yazyk.svg '!»'                       vs 'студента'   left size=21.5 pixel_gap=1.67px (tool 3.4) -> CLEAR
+36 p7-yazyk.svg 'пресс'                    vs '-'          right size=21.5 pixel_gap=0.00px (tool 3.0) -> TOUCH
+37 p7-yazyk.svg 'пятница'                  vs '»'          right size=21.5 pixel_gap=1.83px (tool 3.6) -> CLEAR
+38 p7-yazyk.svg '!» — '                    vs 'студента'   left size=21.5 pixel_gap=0.00px (tool 3.0) -> TOUCH
+39 p7-yazyk.svg 'Кипренского'              vs ', 1827 '    right size=19.0 pixel_gap=0.00px (tool 3.5) -> TOUCH
+40 p7-yazyk.svg 'поступило'                vs ': '         right size=21.5 pixel_gap=0.00px (tool 3.2) -> TOUCH
+41 p8-test.svg  '\u3000練習與答案'              vs 'ОТВЕТЫ'     left size=46.0 pixel_gap=0.00px (tool 8.0) -> TOUCH
+42 p8-test.svg  '\u3000參考答案 — 按版面分頁排列，找到題號即可' vs 'ОТВЕТЫ'     left size=25.0 pixel_gap=27.33px (tool 4.5) -> CLEAR
+CLEAR: 10 TOUCH: 32
+gaps sorted: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.33, 1.67, 1.67, 1.83, 2.67, 3.0, 3.67, 5.17, 5.67, 27.33]

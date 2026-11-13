@@ -1,0 +1,367 @@
+########## nl-de : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+43c43
+< f.box("DE WEEK IN CIJFERS　IN ZAHLEN", [
+---
+> f.box("DE WEEK IN CIJFERS　IN ZAHLEN", [  # D5: tsize 21 — title advance 421.6px > box 404.5 at 23pt
+48c48
+< ])
+---
+> ], tsize=21)
+70c70
+< p.text(gx + 22, gy + 106, "Agenda van de week　TERMINE DER WOCHE", 19, "sans", False, GREY)
+---
+> p.text(gx + 22, gy + 106, "Agenda van de week　TERMINE DER WOCHE", 17, "sans", False, GREY)  # D5: 19 -> 17 — advance 419.4px > box 400.5
+132c132
+< p.text(bx + 22, 1914, "IN HET KORT　KURZ GEMELDET", 24, "sans", True, OLIVE)
+---
+> p.text(bx + 22, 1914, "IN HET KORT　KURZ GEMELDET", 22, "sans", True, OLIVE)  # D5: 24 -> 22 — advance 424.6px > box 400.5
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+177c177
+< f.box("ZO ONTHOUD JE HET　MERK DIR", [
+---
+> f.box("ZO ONTHOUD JE HET　MERK DIR", [  # D5: tsize 22 — title advance 415.4px > box 404.5 at 23pt
+179c179
+< ])
+---
+> ], tsize=22)
+--- content56.py
+144,145c144
+< capcn_w = 374.25  # delta D8: width-scan band 358.5–390.0px keeps the 4 lines; mid 374.25
+< ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, capcn_w)) * 26 + 18
+---
+> ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+157c156
+< yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, capcn_w, 1.32) + 6  # delta D8: capcn_w, see above
+---
+> yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+168c167
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　DAFÜR / DAGEGEN", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　DAFÜR / DAGEGEN", 19, "sans", True, OLIVE)  # D5: 21 -> 19 — advance 431.3px > box 400.5
+--- content7.py
+19c19
+< a.bridge("de wedstrijd Spiel; de groepswinst Gruppensieg; de kwartfinale Viertelfinale; scoren treffen.", w=412.25)  # delta D7: width-scan band 394.5–430.0px keeps the 3 lines; mid 412.25
+---
+> a.bridge("de wedstrijd Spiel; de groepswinst Gruppensieg; de kwartfinale Viertelfinale; scoren treffen.")
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD　WORT DER WOCHE", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD　WORT DER WOCHE", 21, "sans", True, OLIVE)  # D5: 23 -> 21 — advance 416.9px > box 400.5
+92,93c92
+< dt_zh_w = 353.25  # delta D10: width-scan band 300.0–406.5px keeps the 2 lines; mid 353.25
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("Beispielbrief der Redaktion. Schickt uns eure Briefe und Texte für VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("Beispielbrief der Redaktion. Schickt uns eure Briefe und Texte für VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+101c100
+< yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # delta D10: dt_zh_w, see above
+---
+> yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+########## nl-en : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+43c43
+< f.box("DE WEEK IN CIJFERS　IN NUMBERS", [
+---
+> f.box("DE WEEK IN CIJFERS　IN NUMBERS", [  # D5: tsize 20 — title advance 443.9px > box 404.5 at 23pt
+48c48
+< ])
+---
+> ], tsize=20)
+70c70
+< p.text(gx + 22, gy + 106, "Agenda van de week　THIS WEEK'S EVENTS", 19, "sans", False, GREY)
+---
+> p.text(gx + 22, gy + 106, "Agenda van de week　THIS WEEK'S EVENTS", 18, "sans", False, GREY)  # D5: 19 -> 18 — advance 409.9px > box 400.5
+90c90
+< p.text(gx + 22, sy + 40, "IN DEZE EDITIE　IN THIS ISSUE", 24, "sans", True, OLIVE)
+---
+> p.text(gx + 22, sy + 40, "IN DEZE EDITIE　IN THIS ISSUE", 23, "sans", True, OLIVE)  # D5: 24 -> 23 — advance 408.6px > box 400.5
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+177c177
+< f.box("ZO ONTHOUD JE HET　REMEMBER", [
+---
+> f.box("ZO ONTHOUD JE HET　REMEMBER", [  # D5: tsize 20 — title advance 438.5px > box 404.5 at 23pt
+179c179
+< ])
+---
+> ], tsize=20)
+--- content56.py
+167c167
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　FOR OR AGAINST?", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　FOR OR AGAINST?", 19, "sans", True, OLIVE)  # D5: 21 -> 19 — advance 424.1px > box 400.5
+--- content7.py
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD　WORD OF THE WEEK", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD　WORD OF THE WEEK", 20, "sans", True, OLIVE)  # D5: 23 -> 20 — advance 438.5px > box 400.5
+########## nl-es : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+43c43
+< f.box("DE WEEK IN CIJFERS　EN CIFRAS", [
+---
+> f.box("DE WEEK IN CIJFERS　EN CIFRAS", [  # D5: tsize 22 — title advance 415.0px > box 404.5 at 23pt
+48c48
+< ])
+---
+> ], tsize=22)
+90c90
+< p.text(gx + 22, sy + 40, "IN DEZE EDITIE　ESTE NÚMERO", 24, "sans", True, OLIVE)
+---
+> p.text(gx + 22, sy + 40, "IN DEZE EDITIE　ESTE NÚMERO", 22, "sans", True, OLIVE)  # D5: 24 -> 22 — advance 420.8px > box 400.5
+147c147
+< p.text(NOTE_RIGHT, qy + 36, "Lee la primera página y elige la respuesta correcta　Respuestas en la página 8", 20, "sans", False, GREY, anchor="end")  # fix1 D2: anchor NOTE_RIGHT, string unchanged
+---
+> p.text(RIGHT, qy + 36, "Lee la primera página y elige la respuesta correcta　Respuestas en la página 8", 20, "sans", False, GREY, anchor="end")
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+177c177
+< f.box("ZO ONTHOUD JE HET　RECUERDA", [
+---
+> f.box("ZO ONTHOUD JE HET　RECUERDA", [  # D5: tsize 21 — title advance 428.0px > box 404.5 at 23pt
+179c179
+< ])
+---
+> ], tsize=21)
+213,214c213,214
+< p.text(MX, dy + 28, "PAKJESAVOND IN VIER WOORDEN　PAKJESAVOND EN CUATRO PALABRAS", 28, "sans", True, OLIVE)
+< p.text(NOTE_RIGHT, dy + 28, "Wat hoort bij pakjesavond?　¿Qué palabras pertenecen a Pakjesavond?", 20, "sans", False, GREY, anchor="end")  # fix1 D2: anchor NOTE_RIGHT, string unchanged
+---
+> p.text(MX, dy + 28, "PAKJESAVOND IN VIER WOORDEN　PAKJESAVOND EN CUATRO PALABRAS", 27, "sans", True, OLIVE)  # D5: 28 -> 27 — title overlapped right-anchored subtitle by 6.8px (occlusion TEXTX)
+> p.text(RIGHT, dy + 28, "Wat hoort bij pakjesavond?　¿Qué palabras pertenecen a Pakjesavond?", 20, "sans", False, GREY, anchor="end")
+235c235
+< p.text(NOTE_RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")  # fix1 D3: anchor NOTE_RIGHT, string unchanged (shared furniture, 1 of 5)
+---
+> p.text(RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")
+--- content56.py
+65c65
+< p.text(NOTE_RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")  # fix1 D3: anchor NOTE_RIGHT, string unchanged (shared furniture, 4 of 5)
+---
+> p.text(RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")
+144,147c144
+< # delta D8: capcn wrap width 370.75. Width scan (sans 18.5): band
+< # 349.5–392.0px wraps to the same 4 lines; 370.75 is the band middle.
+< capcn_w = 370.75
+< ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, capcn_w)) * 26 + 18
+---
+> ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+150,153c147
+< # fix1 D1: chart title ink crossed the cream box right edge (1862) by 4.08 px
+< # (PIL 1862.5, PDF raster 1866.08). Left-anchored, so size cut works: 24 -> 23
+< # keeps the full string; scale 23/24 moves Cairo ink to ~1849, margin ~13 px.
+< p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DATOS DE PRÁCTICA", 23, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DATOS DE PRÁCTICA", 20, "sans", True, OLIVE)  # D5: 24 -> 20 — advance 458.3px > box 400.5
+162c156
+< yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, capcn_w, 1.32) + 6  # delta D8: capcn_w, see above
+---
+> yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+183c177
+< p.text(NOTE_RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")  # fix1 D3: anchor NOTE_RIGHT, string unchanged (shared furniture, 5 of 5)
+---
+> p.text(RIGHT, ey + 28, "Respuestas en la página 8　Los niveles están mezclados; busca tu número", 20, "sans", False, GREY, anchor="end")
+--- content7.py
+19c19
+< a.bridge("de wedstrijd partido; de groepswinst victoria de grupo; de kwartfinale cuartos de final; scoren marcar.", w=419.5)  # delta D7: width-scan band 414.5–424.5px keeps the 3 lines; mid 419.5
+---
+> a.bridge("de wedstrijd partido; de groepswinst victoria de grupo; de kwartfinale cuartos de final; scoren marcar.")
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 21, "sans", True, OLIVE)  # D5: 23 -> 21 — advance 432.1px > box 400.5
+92,95c92
+< # delta D10: dt_zh wrap width 362.5. Width scan (sans 20): band
+< # 319.5–405.5px wraps to the same 2 lines; 362.5 is the band middle.
+< dt_zh_w = 362.5
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("Ejemplo de la redacción. ¡Enviadnos cartas y textos para VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("Ejemplo de la redacción. ¡Enviadnos cartas y textos para VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+103c100
+< yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # delta D10: dt_zh_w, see above
+---
+> yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+########## nl-fr : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+43c43
+< f.box("DE WEEK IN CIJFERS　EN CHIFFRES", [
+---
+> f.box("DE WEEK IN CIJFERS　EN CHIFFRES", [  # D5: tsize 20 — title advance 448.9px > box 404.5 at 23pt
+48c48
+< ])
+---
+> ], tsize=20)
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+177c177
+< f.box("ZO ONTHOUD JE HET　À RETENIR", [
+---
+> f.box("ZO ONTHOUD JE HET　À RETENIR", [  # D5: tsize 21 — title advance 424.3px > box 404.5 at 23pt
+179c179
+< ])
+---
+> ], tsize=21)
+--- content56.py
+144,146c144
+< # delta D8: capcn wrap width 382.25. Width scan (sans 18.5): identical 4-line band 359.7–404.8px; mid 382.25 (structural sync — no line-initial punctuation pre-fix).
+< capcn_w = 382.25
+< ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, capcn_w)) * 26 + 18
+---
+> ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+149c147
+< p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DONNÉES FICTIVES", 24, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DONNÉES FICTIVES", 21, "sans", True, OLIVE)  # D5: 24 -> 21 — advance 443.1px > box 400.5
+158c156
+< yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, capcn_w, 1.32) + 6  # delta D8: capcn_w, see above
+---
+> yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+169c167
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　POUR OU CONTRE", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　POUR OU CONTRE", 19, "sans", True, OLIVE)  # D5: 21 -> 19 — advance 424.5px > box 400.5
+--- content7.py
+19c19
+< a.bridge("de wedstrijd match ; de groepswinst victoire de groupe ; de kwartfinale quart de finale ; scoren marquer.", w=433.45)  # delta D7: width-scan band 419.2–447.7px keeps the 3 lines; mid 433.45 (structural sync — no orphan pre-fix)
+---
+> a.bridge("de wedstrijd match ; de groepswinst victoire de groupe ; de kwartfinale quart de finale ; scoren marquer.")
+73c73
+< p.text(bx + 22, yy3 + 26, "PAS OP!　CLINIQUE DES ERREURS", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "PAS OP!　CLINIQUE DES ERREURS", 21, "sans", True, OLIVE)  # D5: 23 -> 21 — advance 421.6px > box 400.5
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD　MOT DE LA SEMAINE", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD　MOT DE LA SEMAINE", 20, "sans", True, OLIVE)  # D5: 23 -> 20 — advance 443.9px > box 400.5
+92,94c92
+< # delta D10: dt_zh wrap width 408.75. Width scan (sans 20): identical 2-line band 367.5–450.0px; mid 408.75 (structural sync — no line-initial punctuation pre-fix).
+< dt_zh_w = 408.75
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("Exemple de la rédaction. Envoyez vos lettres et textes pour VOL.5 !", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("Exemple de la rédaction. Envoyez vos lettres et textes pour VOL.5 !", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+102c100
+< yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # delta D10: dt_zh_w, see above
+---
+> yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+########## nl-it : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+--- content56.py
+144,145c144
+< capcn_w = 377.7  # delta D8: width-scan band 367.4–388.0px keeps the 4 lines; mid 377.7
+< ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, capcn_w)) * 26 + 18
+---
+> ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+157c156
+< yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, capcn_w, 1.32) + 6  # delta D8: capcn_w, see above
+---
+> yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+168c167
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　PRO O CONTRO?", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　PRO O CONTRO?", 20, "sans", True, OLIVE)  # D5: 21 -> 20 — advance 403.2px > box 400.5
+--- content7.py
+19c19
+< a.bridge("de wedstrijd partita; de groepswinst vittoria del girone; de kwartfinale quarti di finale; scoren segnare.", w=432.7)  # delta D7: width-scan band 415.5–449.9px keeps the 3 lines; mid 432.7
+---
+> a.bridge("de wedstrijd partita; de groepswinst vittoria del girone; de kwartfinale quarti di finale; scoren segnare.")
+73c73
+< p.text(bx + 22, yy3 + 26, "PAS OP!　CLINICA DEGLI ERRORI", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "PAS OP!　CLINICA DEGLI ERRORI", 22, "sans", True, OLIVE)  # D5: 23 -> 22 — advance 409.0px > box 400.5
+92,93c92
+< dt_zh_w = 388.7  # delta D10: width-scan band 343.7–433.7px keeps the 2 lines; mid 388.7
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("Lettera di esempio. Mandateci lettere e testi per VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("Lettera di esempio. Mandateci lettere e testi per VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+101c100
+< yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # delta D10: dt_zh_w, see above
+---
+> yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+########## nl-pt : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+43c43
+< f.box("DE WEEK IN CIJFERS　NÚMEROS", [
+---
+> f.box("DE WEEK IN CIJFERS　NÚMEROS", [  # D5: tsize 22 — title advance 411.8px > box 404.5 at 23pt
+48c48
+< ])
+---
+> ], tsize=22)
+90c90
+< p.text(gx + 22, sy + 40, "IN DEZE EDITIE　NESTA EDIÇÃO", 24, "sans", True, OLIVE)
+---
+> p.text(gx + 22, sy + 40, "IN DEZE EDITIE　NESTA EDIÇÃO", 22, "sans", True, OLIVE)  # D5: 24 -> 22 — advance 421.6px > box 400.5
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.
+177c177
+< f.box("ZO ONTHOUD JE HET　LEMBRA-TE", [
+---
+> f.box("ZO ONTHOUD JE HET　LEMBRA-TE", [  # D5: tsize 21 — title advance 437.2px > box 404.5 at 23pt
+179c179
+< ])
+---
+> ], tsize=21)
+213c213
+< p.text(MX, dy + 28, "PAKJESAVOND IN VIER WOORDEN　PAKJESAVOND EM QUATRO PALAVRAS", 28, "sans", True, OLIVE)
+---
+> p.text(MX, dy + 28, "PAKJESAVOND IN VIER WOORDEN　PAKJESAVOND EM QUATRO PALAVRAS", 27, "sans", True, OLIVE)  # D5: 28 -> 27 — title overlapped right-anchored subtitle by 11.8px
+--- content56.py
+144,147c144
+< # delta D8: capcn wrap width 378.1. Width scan (sans 18.5): band
+< # 359.6–396.6px wraps to the same 4 lines; 378.1 is the band middle.
+< capcn_w = 378.1
+< ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, capcn_w)) * 26 + 18
+---
+> ch = 62 + len(rows) * 58 + 14 + len(wrap(cap, "serif", False, 19, CW - 44)) * 27 + 6 + len(wrap(capcn, "sans", False, 18.5, CW - 44)) * 26 + 18
+150c147
+< p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DADOS DE TREINO", 24, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "DE GRAFIEK　DADOS DE TREINO", 22, "sans", True, OLIVE)  # D5: 24 -> 22 — advance 428.6px > box 400.5
+159c156
+< yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, capcn_w, 1.32) + 6  # delta D8: capcn_w, see above
+---
+> yy3 = p.para(ix + 22, yy3 + 18.5, capcn, 18.5, "sans", False, GREY, CW - 44, 1.32) + 6
+170c167
+< p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　A FAVOR / CONTRA", 21, "sans", True, OLIVE)
+---
+> p.text(ix + 22, yy3 + 26, "VOOR OF TEGEN?　A FAVOR / CONTRA", 19, "sans", True, OLIVE)  # D5: 21 -> 19 — advance 432.6px > box 400.5
+--- content7.py
+19c19
+< a.bridge("de wedstrijd jogo; de groepswinst vitória do grupo; de kwartfinale quartos de final; scoren marcar.", w=423.95)  # delta D7: width-scan band 415.7–432.2px keeps the 3 lines; mid 423.95
+---
+> a.bridge("de wedstrijd jogo; de groepswinst vitória do grupo; de kwartfinale quartos de final; scoren marcar.")
+84c84
+< p.text(bx + 22, yy3 + 26, "HET WOORD　PALAVRA DA SEMANA", 23, "sans", True, OLIVE)
+---
+> p.text(bx + 22, yy3 + 26, "HET WOORD　PALAVRA DA SEMANA", 19, "sans", True, OLIVE)  # D5: 23 -> 19 — advance 456.8px > box 400.5
+92,95c92
+< # delta D10: dt_zh wrap width 401.45. Width scan (sans 20): band
+< # 356.3–446.6px wraps to the same 2 lines; 401.45 is the band middle.
+< dt_zh_w = 401.45
+< lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, dt_zh_w)) * 29 + 10 + len(wrap("Carta de exemplo. Enviem-nos cartas e textos para VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+---
+> lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(dt_nl, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(dt_zh, "sans", False, 20, CW - 44)) * 29 + 10 + len(wrap("Carta de exemplo. Enviem-nos cartas e textos para VOL.5!", "sans", False, 20, CW - 44)) * 29 + 34 + 50
+103c100
+< yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, dt_zh_w, 1.42) + 10  # delta D10: dt_zh_w, see above
+---
+> yy3 = p.para(bx + 22, yy3 + 20, dt_zh, 20, "sans", False, GREY, CW - 44, 1.42) + 10
+########## nl-ru : content diffs top -> copy (D5 hunks only) ##########
+--- content12.py
+175c175
+< f.head("DRIE DINGEN VOOR 5 DECEMBER", 25)
+---
+> f.head("DRIE DINGEN VOOR 5 DECEMBER", 23)  # D5: 25pt -> 23pt — Newsreader SemiBold advance 451.8px > col 422.5 (HEAD TOO WIDE); 23pt = 415.6px. Text unchanged.

@@ -1,0 +1,10 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +19 strings / -19 strings; CJK core 137 -> edition 147; added CJK chars: 52 {'\u3000': 1, '正': 1, '文': 2, '俄': 1, '語': 3, '講': 2, '繁': 2, '體': 4, '中': 1, '輪': 3}
+p2: +24 strings / -24 strings; CJK core 204 -> edition 215; added CJK chars: 63 {'\u3000': 1, '學': 2, '節': 2, '嚴': 2, '與': 1, '氣': 2, '譯': 2, '賀': 1, '鄉': 1, '頭': 1}
+p3: +15 strings / -15 strings; CJK core 143 -> edition 154; added CJK chars: 46 {'\u3000': 1, '文': 2, '電': 2, '譯': 2, '傳': 1, '記': 1, '偵': 1, '話': 1, '編': 1, '觀': 1}
+p4: +15 strings / -15 strings; CJK core 166 -> edition 177; added CJK chars: 55 {'\u3000': 1, '體': 2, '輪': 3, '場': 1, '賽': 3, '國': 2, '隊': 3, '譯': 1, '正': 1, '處': 1}
+p5: +14 strings / -14 strings; CJK core 138 -> edition 149; added CJK chars: 39 {'\u3000': 1, '開': 1, '譯': 2, '曆': 1, '適': 1, '試': 1, '電': 1, '練': 1, '習': 1, '見': 1}
+p6: +20 strings / -20 strings; CJK core 163 -> edition 174; added CJK chars: 59 {'\u3000': 1, '讀': 1, '這': 2, '週': 3, '麼': 1, '過': 1, '譯': 1, '節': 1, '實': 2, '中': 1}
+p7: +29 strings / -30 strings; CJK core 282 -> edition 291; added CJK chars: 84 {'\u3000': 1, '語': 3, '個': 4, '級': 1, '別': 2, '題': 1, '解': 1, '凍': 2, '濕': 1, '銷': 2}
+p8: +171 strings / -171 strings; CJK core 980 -> edition 992; added CJK chars: 345 {'\u3000': 1, '練': 4, '習': 5, '與': 4, '譯': 4, '詞': 10, '釋': 1, '義': 1, '對': 10, '寫': 2}
+TOTAL added CJK characters: 743

@@ -1,0 +1,238 @@
+===== core-fr =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== core-fr  core=self backup=-
+BOXTITLE core-fr: 40 titles, 381 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1449.7 y=2316.0 [observe] '下周预告'
+SPILL_SWEEP core-fr: 33 boxes, 102 candidates, 0 SPILL, 102 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN core-fr: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+===== 2026-w47-fr-de =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-de: 34 titles, 296 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1626.5 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-de: 33 boxes, 102 candidates, 0 SPILL, 102 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-de: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-de/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-en =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-en  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-en: 34 titles, 290 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1551.3 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-en: 33 boxes, 102 candidates, 0 SPILL, 102 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-en: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-en/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-es =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-es  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-es: 38 titles, 280 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1682.1 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-es: 33 boxes, 100 candidates, 0 SPILL, 100 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-es: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-es/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-it =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-it  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-it: 38 titles, 286 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1739.7 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-it: 33 boxes, 107 candidates, 0 SPILL, 107 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-fr-it: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-it/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-ja =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-ja  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-ja: 41 titles, 396 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1440.0 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-ja: 33 boxes, 104 candidates, 0 SPILL, 104 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-ja: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-ko =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-ko: 47 titles, 546 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1463.8 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-ko: 33 boxes, 136 candidates, 0 SPILL, 136 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-ko: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ko/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-nl =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-nl  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-nl: 38 titles, 286 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1624.5 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-nl: 33 boxes, 101 candidates, 0 SPILL, 101 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.5}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-nl: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-nl/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-pt =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-pt: 36 titles, 289 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1665.8 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-pt: 33 boxes, 103 candidates, 0 SPILL, 103 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-pt: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-pt/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-ru =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-ru: 43 titles, 358 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1529.7 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-ru: 33 boxes, 107 candidates, 0 SPILL, 107 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-ru: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=1010
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ru/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+===== 2026-w47-fr-zh-tw =====
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+boxtitle rc=0
+== 2026-w47-fr-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-zh-tw: 40 titles, 380 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1440.0 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-zh-tw: 33 boxes, 104 candidates, 0 SPILL, 104 OBSERVE
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+p8 rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-zh-tw/svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]

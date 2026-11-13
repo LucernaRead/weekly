@@ -1,0 +1,28 @@
+kicker-row elements: 20
+  x=586.3 fam='Noto Sans' size=16 text='ЕЖЕНЕДЕЛЬНАЯ'
+  x=712.3 fam='Noto Sans CJK SC' size=16 text='  '
+  x=719.5 fam='Noto Sans' size=16 text='ГАЗЕТА'
+  x=773.2 fam='Noto Sans CJK SC' size=16 text='  '
+  x=780.4 fam='Noto Sans' size=16 text='ДЛЯ'
+  x=813.0 fam='Noto Sans CJK SC' size=16 text='  '
+  x=820.2 fam='Noto Sans' size=16 text='ИЗУЧАЮЩИХ'
+  x=928.4 fam='Noto Sans CJK SC' size=16 text='  '
+  x=935.5 fam='Noto Sans' size=16 text='РУССКИЙ'
+  x=1009.4 fam='Noto Sans CJK SC' size=16 text='  '
+  x=1016.6 fam='Noto Sans' size=16 text='ЯЗЫК'
+  x=1059.8 fam='Noto Sans CJK SC' size=16 text='  '
+  x=1067.0 fam='Noto Sans CJK SC' size=16 text='—  '
+  x=1088.4 fam='Noto Sans' size=16 text='НАСТОЯЩАЯ'
+  x=1189.0 fam='Noto Sans CJK SC' size=16 text='  '
+  x=1196.2 fam='Noto Sans' size=16 text='РОССИЯ'
+  x=1260.8 fam='Noto Sans CJK SC' size=16 text=',  '
+  x=1272.4 fam='Noto Sans' size=16 text='ПО'
+  x=1296.6 fam='Noto Sans CJK SC' size=16 text='-'
+  x=1302.1 fam='Noto Sans' size=16 text='РУССКИ'
+full kicker text: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'
+tokens (11): ['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ']
+gaps (9): [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6]
+min gap: 5.9 >= 4.0: True
+double-space runs in source (content12.py:18):
+  line 18: 'p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")'
+  double spaces in line 18: 9

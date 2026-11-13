@@ -1,0 +1,8 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+total spans P8: 322
+min size all P8: 9.975
+answer-region spans (pt y>=976.5): 160
+min size answer region: 9.975
+Counter({9.975: 158, 15.0: 2})
+smallest 5: [(9.975, 994.4, '— 제1면—'), (9.975, 994.5, '116. A — 泡菜节在11月20日周五'), (9.975, 994.5, '39. 22 — 泡菜有22种功效'), (9.975, 994.5, '78. 10 — 考试日机关10点上班'), (9.975, 1016.4, '117. A — 三星4胜1负夺冠')]

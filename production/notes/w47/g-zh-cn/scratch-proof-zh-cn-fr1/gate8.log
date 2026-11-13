@@ -1,0 +1,29 @@
+=== 1. political / banned terms (text.md + SVG) ===
+  HIT 'TBD' text.md=0 svg=13
+  HIT 'XXX' text.md=0 svg=16
+  (no hits printed = clean)
+=== 2. English leftovers in fr SVG (explanation-layer markers) ===
+  (no hits printed = clean)
+=== 3. U+2019 ===
+  text.md: 0  svg total: 0
+  U+201C/U+201D svg: 2 2
+=== 4. opencc t2s scan (traditional residuals) ===
+  text.md chars changed by t2s: NONE
+  p1-touiban.svg changed chars: NONE
+  p2-shenghuo.svg changed chars: NONE
+  p3-wenhua.svg changed chars: NONE
+  p4-tiyu.svg changed chars: NONE
+  p5-qingnian.svg changed chars: NONE
+  p6-shendu.svg changed chars: NONE
+  p7-ciyu.svg changed chars: NONE
+  p8-ceyan.svg changed chars: NONE
+=== 5. CJK orphan punctuation (line-initial closers / line-final openers) ===
+  ORPHAN-START p6-shendu.svg y=787.7: '— un total, la somme.'
+  ORPHAN-START p8-ceyan.svg y=385.8: '— 小雪之后，怎么办？— 多穿一件，别___。(A. 着凉·'
+  ORPHAN-START p8-ceyan.svg y=486.0: '— 这条新闻说单日最高7.77亿件，可信吗？— 先看__'
+  ORPHAN-START p8-ceyan.svg y=1397.3: '— Page 1 —37. 七— Sept lieux participent au Mois de'
+  ORPHAN-START p8-ceyan.svg y=1684.6: '— Page 4 —'
+  ORPHAN-START p8-ceyan.svg y=1715.3: '— Page 2 —47. A — IG a battu TES 3-1 en quart de f'
+  ORPHAN-START p8-ceyan.svg y=2232.4: '— Page 5 —141. A — Xiao Lin vit à Shenzhen.'
+  ORPHAN-START p8-ceyan.svg y=2294.0: '— Page 3 —'
+  (no orphan lines printed = clean)

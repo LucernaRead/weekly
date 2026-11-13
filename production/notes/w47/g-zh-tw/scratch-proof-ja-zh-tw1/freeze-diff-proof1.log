@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +19 strings / -19 strings; CJK core 1405 -> edition 1409; added CJK chars: 61 {'\u3000': 1, '週': 5, '日': 1, '語': 2, '解': 1, '兩': 1, '橫': 1, '綱': 1, '勝': 1, '負': 1}
+p2: +18 strings / -18 strings; CJK core 1174 -> edition 1184; added CJK chars: 60 {'\u3000': 1, '與': 2, '日': 1, '開': 2, '時': 1, '繁': 1, '買': 1, '譯': 2, '註': 2, '攤': 1}
+p3: +12 strings / -12 strings; CJK core 1177 -> edition 1187; added CJK chars: 47 {'文': 2, '\u3000': 1, '萊': 1, '與': 2, '日': 1, '穫': 1, '解': 1, '譯': 2, '註': 2, '來': 2}
+p4: +12 strings / -12 strings; CJK core 1433 -> edition 1443; added CJK chars: 39 {'\u3000': 1, '撲': 1, '日': 1, '場': 1, '綱': 1, '勝': 1, '敗': 1, '譯': 2, '註': 2, '亂': 1}
+p5: +15 strings / -15 strings; CJK core 1174 -> edition 1184; added CJK chars: 46 {'\u3000': 1, '語': 5, '紅': 1, '葉': 1, '與': 1, '日': 1, '中': 1, '譯': 2, '註': 2, '會': 1}
+p6: +12 strings / -12 strings; CJK core 1213 -> edition 1223; added CJK chars: 39 {'\u3000': 1, '紅': 1, '葉': 2, '見': 1, '日': 1, '報': 1, '確': 1, '譯': 1, '註': 1, '開': 1}
+p7: +33 strings / -37 strings; CJK core 1776 -> edition 1725; added CJK chars: 96 {'\u3000': 1, '語': 4, '個': 3, '級': 1, '別': 1, '題': 1, '日': 2, '繁': 1, '買': 1, '時': 2}
+p8: +165 strings / -165 strings; CJK core 3014 -> edition 3024; added CJK chars: 496 {'\u3000': 1, '練': 2, '習': 2, '與': 5, '週': 29, '日': 1, '解': 1, '義': 5, '負': 6, '勝': 12}
+TOTAL added CJK characters: 884

@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -15,7 +15,7 @@
+ p.text(975, 92, "OGNI SETTIMANA IN ITALIANO　ELKE WEEK　HET ITALIAANS DAT DE ITALIANEN LEZEN", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+ p.text(RIGHT, 92, "SETTIMANA DAL 16 AL 22 NOVEMBRE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+ p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+-p.text(975, 330, "ITALIAANS WEEKBLAD　VOL.4　LA SERIE A　IL TORRONE　VENEZIA", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
++p.text(975, 330, "ITALIAANS WEEKBLAD　VOL.4　LA SERIE A　IL TORRONE　VENEZIA", 36, "serif", True, OLIVE, anchor="middle", spacing=11.0)
+ p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 16, "sans", False, GREY, anchor="middle")
+ p.hline(MX, RIGHT, 420, OLIVE, 2)
+ moth(p, 975, 420)

@@ -1,0 +1,47 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+flags: 42
+01 p1-pervaya.s 'Зенит'                      vs '» '         dir=left tool_ov=5.5 pixel_gap=2.17px overlap=0.0px -> CLEAR
+02 p1-pervaya.s 'Динамо'                     vs '» — '       dir=left tool_ov=5.1 pixel_gap=2.17px overlap=0.0px -> CLEAR
+03 p1-pervaya.s 'тур'                        vs ': «'        dir=right tool_ov=4.9 pixel_gap=0.0px overlap=7.67px -> TOUCH
+04 p1-pervaya.s 'пятница'                    vs '»: '        dir=left tool_ov=3.2 pixel_gap=5.0px overlap=0.0px -> CLEAR
+05 p1-pervaya.s 'третий'                     vs ', '         dir=right tool_ov=3.4 pixel_gap=0.0px overlap=1.5px -> TOUCH
+06 p1-pervaya.s 'субботу'                    vs ','          dir=right tool_ov=3.2 pixel_gap=0.0px overlap=1.67px -> TOUCH
+07 p1-pervaya.s 'Краснодар'                  vs '» — '       dir=right tool_ov=3.1 pixel_gap=0.0px overlap=9.33px -> TOUCH
+08 p1-pervaya.s 'Краснодаре'                 vs ','          dir=right tool_ov=3.3 pixel_gap=0.0px overlap=1.33px -> TOUCH
+09 p1-pervaya.s '!'                          vs 'истории'    dir=left tool_ov=3.6 pixel_gap=0.0px overlap=15.17px -> TOUCH
+10 p1-pervaya.s 'ЦСКА'                       vs '? A.'       dir=right tool_ov=3.5 pixel_gap=0.0px overlap=6.33px -> TOUCH
+11 p2-zhizn.svg 'толерантности'              vs '.'          dir=right tool_ov=4.1 pixel_gap=0.0px overlap=0.17px -> TOUCH
+12 p2-zhizn.svg 'студента'                   vs '.'          dir=left tool_ov=3.0 pixel_gap=5.83px overlap=0.0px -> CLEAR
+13 p2-zhizn.svg 'студента'                   vs '.'          dir=right tool_ov=3.3 pixel_gap=0.0px overlap=1.5px -> TOUCH
+14 p2-zhizn.svg '! '                         vs 'студента'   dir=right tool_ov=3.4 pixel_gap=0.33px overlap=0.0px -> CLEAR
+15 p2-zhizn.svg 'студенту'                   vs ', '         dir=right tool_ov=3.5 pixel_gap=0.0px overlap=1.33px -> TOUCH
+16 p2-zhizn.svg 'спасибо'                    vs '.'          dir=right tool_ov=3.3 pixel_gap=0.0px overlap=1.33px -> TOUCH
+17 p3-kultura.s 'биография'                  vs ':'          dir=right tool_ov=5.0 pixel_gap=100.33px overlap=0.0px -> CLEAR
+18 p3-kultura.s 'посмотреть'                 vs ': '         dir=right tool_ov=3.8 pixel_gap=0.0px overlap=1.33px -> TOUCH
+19 p3-kultura.s ')'                          vs 'посмотреть' dir=left tool_ov=3.2 pixel_gap=0.0px overlap=9.67px -> TOUCH
+20 p4-sport.svg 'место'                      vs '.'          dir=right tool_ov=3.0 pixel_gap=0.0px overlap=1.83px -> TOUCH
+21 p4-sport.svg 'Краснодар'                  vs '» '         dir=right tool_ov=3.1 pixel_gap=0.0px overlap=9.33px -> TOUCH
+22 p4-sport.svg 'Краснодар'                  vs '» — '       dir=right tool_ov=3.1 pixel_gap=0.0px overlap=9.33px -> TOUCH
+23 p4-sport.svg 'Россия'                     vs ', '         dir=left tool_ov=3.1 pixel_gap=6.17px overlap=0.0px -> CLEAR
+24 p4-sport.svg 'истории'                    vs '; '         dir=right tool_ov=3.1 pixel_gap=0.0px overlap=1.5px -> TOUCH
+25 p4-sport.svg 'Краснодар'                  vs '»'          dir=left tool_ov=3.1 pixel_gap=0.5px overlap=0.0px -> CLEAR
+26 p4-sport.svg 'ЦСКА'                       vs '? A.'       dir=right tool_ov=3.6 pixel_gap=0.0px overlap=5.33px -> TOUCH
+27 p5-molodezh. 'пятница'                    vs '»:'         dir=right tool_ov=5.1 pixel_gap=0.0px overlap=12.83px -> TOUCH
+28 p5-molodezh. 'смартфоны'                  vs ','          dir=left tool_ov=5.2 pixel_gap=4.83px overlap=0.0px -> CLEAR
+29 p6-razbor.sv 'студента'                   vs ', '         dir=right tool_ov=3.2 pixel_gap=0.0px overlap=1.5px -> TOUCH
+30 p6-razbor.sv 'сбивается'                  vs '.'          dir=left tool_ov=3.2 pixel_gap=150.0px overlap=0.0px -> CLEAR
+31 p6-razbor.sv 'Планируйте'                 vs ': '         dir=right tool_ov=3.2 pixel_gap=0.0px overlap=1.83px -> TOUCH
+32 p6-razbor.sv '?\u3000'                    vs 'НЕДЕЛЕ'     dir=left tool_ov=3.3 pixel_gap=1.67px overlap=0.0px -> CLEAR
+33 p7-yazyk.svg '\u3000語言'                   vs 'ЯЗЫК'       dir=left tool_ov=3.8 pixel_gap=0.0px overlap=150.0px -> TOUCH
+34 p7-yazyk.svg 'прессы'                     vs ','          dir=right tool_ov=3.0 pixel_gap=0.0px overlap=1.17px -> TOUCH
+35 p7-yazyk.svg '!»'                         vs 'студента'   dir=left tool_ov=3.4 pixel_gap=0.17px overlap=0.0px -> CLEAR
+36 p7-yazyk.svg 'пресс'                      vs '-'          dir=right tool_ov=3.0 pixel_gap=0.0px overlap=3.83px -> TOUCH
+37 p7-yazyk.svg 'пятница'                    vs '»'          dir=left tool_ov=3.6 pixel_gap=5.17px overlap=0.0px -> CLEAR
+38 p7-yazyk.svg '!» — '                      vs 'студента'   dir=right tool_ov=3.0 pixel_gap=0.83px overlap=0.0px -> CLEAR
+39 p7-yazyk.svg 'Кипренского'                vs ', 1827 '    dir=right tool_ov=3.5 pixel_gap=0.0px overlap=0.33px -> TOUCH
+40 p7-yazyk.svg 'поступило'                  vs ': '         dir=left tool_ov=3.2 pixel_gap=150.0px overlap=0.0px -> CLEAR
+41 p8-test.svg  '\u3000練習與答案'                vs 'ОТВЕТЫ'     dir=left tool_ov=8.0 pixel_gap=0.0px overlap=150.0px -> TOUCH
+42 p8-test.svg  '\u3000參考答案 — 按版面分頁排列，找到題號即可' vs 'ОТВЕТЫ'     dir=right tool_ov=4.5 pixel_gap=150.0px overlap=0.0px -> CLEAR
+CLEAR: 16 TOUCH/CHECK: 26
+min pixel gap: 0.0

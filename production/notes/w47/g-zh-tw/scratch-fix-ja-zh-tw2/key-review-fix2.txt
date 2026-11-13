@@ -1,0 +1,168 @@
+extract keys type: <class 'dict'> count: 150
+sample key 47: 'A'
+text.md P8 answer lines: 150 numbers: 1 - 150 continuous: True
+diffs: 150
+1 | text.md: 19 — 二の酉與新酒的解禁日在11月19日（週四） | extract: 19
+2 | text.md: 22 — 相撲千秋樂在11月22日（週日） | extract: 22
+3 | text.md: 23 — 嵐山紅葉從11月23日（週一）前後進入見賞期 | extract: 23
+4 | text.md: 2 — 兩位橫綱到第3天都是2勝1負 | extract: 2
+5 | text.md: 19 — 博若萊新酒解禁日在11月19日（週四） | extract: 19
+6 | text.md: 熊手 — 熊手是酉之市買的吉祥物 | extract: 熊手
+7 | text.md: B — 二の酉在11月19日（週四） | extract: B
+8 | text.md: A — 博若萊新酒解禁日在11月19日（週四） | extract: A
+9 | text.md: B — 到第3天兩位橫綱都是2勝1負 | extract: B
+10 | text.md: C — 嵐山紅葉從11月23日（週一）前後進入見賞期 | extract: C
+11 | text.md: B — 二の酉在11月19日（週四） | extract: B
+12 | text.md: B — 2026年酉之市共2次 | extract: B
+13 | text.md: A — 酉之市從0點到24點 | extract: A
+14 | text.md: B — 熊手是祈求生意興隆的吉祥物 | extract: B
+15 | text.md: B — 小雪在11月22日（週日） | extract: B
+16 | text.md: 熊手 — 熊手＝祈求生意興隆的竹耙 | extract: 熊手
+17 | text.md: 手締め — 手締め＝買下熊手時打的拍手 | extract: 手締め
+18 | text.md: 19 — 二の酉在11月19日（週四） | extract: 19
+19 | text.md: 7 — 一之酉在11月7日（週六） | extract: 7
+20 | text.md: 勤労感謝の日 — 11月23日（週一）是勞動感謝日 | extract: 勤労感謝の日
+21 | text.md: 0 — 酉之市從0點開始 | extract: 0
+22 | text.md: 24 — 酉之市開到24點 | extract: 24
+23 | text.md: 2 — 2026年酉之市共2次 | extract: 2
+24 | text.md: 22 — 小雪在11月22日（週日） | extract: 22
+25 | text.md: b — 熊手＝祈求生意興隆的竹耙 b | extract: b
+26 | text.md: d — 手締め＝買下熊手時打的拍手 d | extract: d
+27 | text.md: c — 一番太鼓＝0點的鼓 c | extract: c
+28 | text.md: a — 小雪＝雪開始下一點的時候 a | extract: a
+29 | text.md: A — 博若萊新酒是法國的新酒 | extract: A
+30 | text.md: B — 解禁日是11月第3個週四 | extract: B
+31 | text.md: A — 新酒的葡萄在9月前後收穫 | extract: A
+32 | text.md: A — 因時差日本最早喝到新酒 | extract: A
+33 | text.md: B — 阪神梅田賣約40種新酒 | extract: B
+34 | text.md: 解禁 — 解禁＝開始發售的日子 | extract: 解禁
+35 | text.md: 収穫 — 収穫＝收穫 | extract: 収穫
+36 | text.md: 19 — 今年解禁日在11月19日（週四） | extract: 19
+37 | text.md: 40 — 阪神梅田賣約40種新酒 | extract: 40
+38 | text.md: 0 — 解禁從0點開始 | extract: 0
+39 | text.md: ボジョレー・ヌーヴォーはフランスの新酒です。 — 主語＋說明 | extract: ボジョレー・ヌーヴォーはフランスの新酒です。
+40 | text.md: 新酒は11月19日から売られます。 — 時間＋動詞 | extract: 新酒は11月19日から売られます。
+41 | text.md: 屋台で食べ物を買います。 — 場所＋賓語＋動詞 | extract: 屋台で食べ物を買います。
+42 | text.md: 秋の味覚を味わいます。 — 賓語＋動詞 | extract: 秋の味覚を味わいます。
+43 | text.md: b — ボジョレー・ヌーヴォー＝法國新酒 b | extract: b
+44 | text.md: d — 解禁＝開始發售 d | extract: d
+45 | text.md: a — 収穫＝收穫 a | extract: a
+46 | text.md: c — 屋台＝節日賣食物的攤子 c | extract: c
+47 | text.md: A — 首日戰勝大之里的是義之富士 | extract: A
+48 | text.md: B — 首日敗給豐升龍的是美之海 | extract: B
+49 | text.md: A — 第三天戰勝豐升龍的是藤凌駕 | extract: A
+50 | text.md: B — 到第三天，兩位橫綱都是2勝1負 | extract: B
+51 | text.md: C — 千秋樂在11月22日（週日） | extract: C
+52 | text.md: 2 — 到第三天，大之里贏了2場 | extract: 2
+53 | text.md: 2 — 豐升龍到第三天也贏了2場 | extract: 2
+54 | text.md: 11 — 藤凌駕的金星是初登場後第11個場所 | extract: 11
+55 | text.md: 7 — 金星速度是年6場所制以來第7快 | extract: 7
+56 | text.md: 8 — 九州場所在11月8日（週日）開幕 | extract: 8
+57 | text.md: A — 金星＝前頭力士戰勝橫綱 | extract: A
+58 | text.md: B — 千秋樂＝場所最後一天 | extract: B
+59 | text.md: A — 九州場所在福岡國際中心 | extract: A
+60 | text.md: B — 休場3個場所後復出的是豐升龍 | extract: B
+61 | text.md: × — 大之里首日輸了 | extract: ×
+62 | text.md: ○ — 豐升龍首日和次日都贏了 | extract: ○
+63 | text.md: ○ — 藤凌駕第三天拿到金星 | extract: ○
+64 | text.md: × — 優勝還沒決定 | extract: ×
+65 | text.md: A — 提名30詞發表於11月5日（週四） | extract: A
+66 | text.md: A — 「ryuuryuu」是花樣滑冰雙人組合 | extract: A
+67 | text.md: A — 「吉伊卡哇」是大熱漫畫 | extract: A
+68 | text.md: C — 前十名與大獎在12月1日發表 | extract: C
+69 | text.md: B — 嵐山見賞期從23日前後開始 | extract: B
+70 | text.md: 30 — 提名共30詞 | extract: 30
+71 | text.md: 5 — 提名在11月5日發表 | extract: 5
+72 | text.md: 1 — 前十名在12月1日發表 | extract: 1
+73 | text.md: 23 — 嵐山見賞期從11月23日前後開始 | extract: 23
+74 | text.md: 暑い — 酷暑日＝非常熱的日子 | extract: 暑い
+75 | text.md: ○ — 提名共30個詞 | extract: ○
+76 | text.md: × — 前十名還沒發表 | extract: ×
+77 | text.md: × — 「ryuuryuu」不是電影名 | extract: ×
+78 | text.md: ○ — 嵐山見賞期從23日前後開始 | extract: ○
+79 | text.md: 選ばれ — 反映今年社會的話語選出了30個 | extract: 選ばれ
+80 | text.md: ペア — 「ryuuryuu」是三浦璃來與木原龍一的組合 | extract: ペア
+81 | text.md: 上げる — 把紅色楓葉照片上傳到SNS的人很多 | extract: 上げる
+82 | text.md: 発表 — 前十名在12月1日發表 | extract: 発表
+83 | text.md: B — 宮島見賞期從11月21日前後開始 | extract: B
+84 | text.md: B — 到11月8日，嵐山兩成開始變色 | extract: B
+85 | text.md: B — 嵐山開始落葉在12月12日前後 | extract: B
+86 | text.md: A — 按日本氣象協會預報，嵐山見賞期從11月13日開始 | extract: A
+87 | text.md: A — 預報因公司而異是因為見賞期的定義不同 | extract: A
+88 | text.md: 京都 — 圖表中最想去的是京都 | extract: 京都
+89 | text.md: 38 — 想去京都的人佔38% | extract: 38
+90 | text.md: 24 — 淺草佔24% | extract: 24
+91 | text.md: 14 — 京都與淺草之差為14% | extract: 14
+92 | text.md: 62 — 38+24=62 | extract: 62
+93 | text.md: 100 — 四項合計100% | extract: 100
+94 | text.md: 13 — 高尾山從11月13日前後進入見賞期 | extract: 13
+95 | text.md: 29 — 東京紅葉在11月29日前後 | extract: 29
+96 | text.md: 4 — 大阪紅葉在12月4日前後 | extract: 4
+97 | text.md: 29 — Weathernews預報在10月29日 | extract: 29
+98 | text.md: ○ — 紅葉見賞期從北向南移動 | extract: ○
+99 | text.md: × — 圖表是練習數據，不是真實調查 | extract: ×
+100 | text.md: × — 各公司對嵐山見賞期的預報並不相同 | extract: ×
+101 | text.md: B — 熊手＝祈求生意興隆的吉祥物 | extract: B
+102 | text.md: 一番太鼓 — 一番太鼓＝0點的鼓 | extract: 一番太鼓
+103 | text.md: C — 手締め＝買下時打的拍手 | extract: C
+104 | text.md: 2 — 2026年酉之市共2次 | extract: 2
+105 | text.md: B — 「ryuuryuu」是花樣滑冰雙人組合 | extract: B
+106 | text.md: ちいかわ — 大熱漫畫的名字是「吉伊卡哇」 | extract: ちいかわ
+107 | text.md: C — 提名＝被選為候選 | extract: C
+108 | text.md: 30 — 提名共30詞 | extract: 30
+109 | text.md: B — 2勝1負＝贏2場輸1場 | extract: B
+110 | text.md: A — 金星＝前頭力士戰勝橫綱 | extract: A
+111 | text.md: 11 — 藤凌駕的金星是初登場後第11個場所 | extract: 11
+112 | text.md: 7 — 金星速度是年6場所制以來第7快 | extract: 7
+113 | text.md: A — 二之酉在11月19日（週四） | extract: A
+114 | text.md: A — 博若萊新酒解禁日在11月19日（週四） | extract: A
+115 | text.md: A — 大之里首日輸給了義之富士 | extract: A
+116 | text.md: A — 豐升龍第三天輸給了藤凌駕 | extract: A
+117 | text.md: A — 嵐山見賞期從11月23日（週一）前後開始 | extract: A
+118 | text.md: A — 小雪在11月22日（週日） | extract: A
+119 | text.md: A — 流行語提名在11月5日（週四）發表 | extract: A
+120 | text.md: A — 相撲千秋樂在11月22日（週日） | extract: A
+121 | text.md: A — 酉之市在11月的酉日舉行 | extract: A
+122 | text.md: B — 2026年酉之市共2次 | extract: B
+123 | text.md: A — 新酒的葡萄在9月前後收穫 | extract: A
+124 | text.md: A — 到第三天，兩位橫綱都是2勝1負 | extract: A
+125 | text.md: B — 熊手是祈求生意興隆的吉祥物 | extract: B
+126 | text.md: A — 預報因公司而異是因為見賞期的定義不同 | extract: A
+127 | text.md: A — 嵐山開始落葉在12月12日前後 | extract: A
+128 | text.md: A — 「吉伊卡哇」是大熱漫畫 | extract: A
+129 | text.md: A — 週四和家人去淺草 | extract: A
+130 | text.md: A — 週五把紅葉照片上傳 | extract: A
+131 | text.md: B — 週日看相撲千秋樂 | extract: B
+132 | text.md: A — 週一因勞動感謝日放假 | extract: A
+133 | text.md: 私は木よう日に浅草へ行きます。 — 主語＋時間＋地點＋動詞 | extract: 私は木よう日に浅草へ行きます。
+134 | text.md: 酉の市は11月の酉の日に開きます。 — 主語＋時間＋動詞 | extract: 酉の市は11月の酉の日に開きます。
+135 | text.md: 新酒は11月19日から売られます。 — 時間＋動詞 | extract: 新酒は11月19日から売られます。
+136 | text.md: 大の里は3日目まで2勝1敗です。 — 3天為止2勝1負 | extract: 大の里は3日目まで2勝1敗です。
+137 | text.md: 二之酉在11月19日。 — 對照第2版 | extract: 二之酉在11月19日。
+138 | text.md: 新酒在11月19日解禁。 — 對照第3版 | extract: 新酒在11月19日解禁。
+139 | text.md: 流行語提名在11月5日發表。 — 對照第5版 | extract: 流行語提名在11月5日發表。
+140 | text.md: 去看紅葉的人應該同時確認預報日期和現在的狀況。 — 對照第6版 | extract: 去看紅葉的人應該同時確認預報日期和現在的狀況。
+141 | text.md: c — 熊手＝祈求生意興隆的竹耙 c | extract: c
+142 | text.md: a — 解禁＝開始發售的日子 a | extract: a
+143 | text.md: d — 金星＝前頭力士戰勝橫綱 d | extract: d
+144 | text.md: b — 見頃＝最佳觀賞期 b | extract: b
+145 | text.md: A — 去淺草 | extract: A
+146 | text.md: A — 買熊手 | extract: A
+147 | text.md: A — 二之酉在11月19日（見第 2 版） | extract: A
+148 | text.md: A — 推薦「熊手」 | extract: A
+149 | text.md: A — 不客氣 | extract: A
+150 | text.md: ✓ 範文見本版 H 區（154 字） | extract: ✓
+spot checks:
+47 text.md: A — 首日戰勝大之里的是義之富士 | extract: A
+115 text.md: A — 大之里首日輸給了義之富士 | extract: A
+137 text.md: 二之酉在11月19日。 — 對照第2版 | extract: 二之酉在11月19日。
+138 text.md: 新酒在11月19日解禁。 — 對照第3版 | extract: 新酒在11月19日解禁。
+139 text.md: 流行語提名在11月5日發表。 — 對照第5版 | extract: 流行語提名在11月5日發表。
+140 text.md: 去看紅葉的人應該同時確認預報日期和現在的狀況。 — 對照第6版 | extract: 去看紅葉的人應該同時確認預報日期和現在的狀況。
+150 text.md: ✓ 範文見本版 H 區（154 字） | extract: ✓
+text.md P8 answer lines: 150 continuous 1-150: True
+key-part diffs vs p8 extract: 1
+(150, '✓ 範文見本版 H 區（154 字）', '✓', '✓ 範文見本版 H 區（154 字）')
+key 47: A — 首日戰勝大之里的是義之富士 | extract key: A
+key 115: A — 大之里首日輸給了義之富士 | extract key: A
+key 150: ✓ 範文見本版 H 區（154 字） | extract key: ✓

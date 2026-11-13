@@ -1,0 +1,21 @@
+extract json top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+extracted key entries: 150
+text.md answer entries: 150
+number range: 1..150 continuous=True
+missing in text.md: []
+key-part diffs text.md vs SVG extract: 1
+  key 150: text.md='✓ 範文見本版 H 區（154 字）' svg='✓'
+  key 47 full text.md: 'A — 首日戰勝大之里的是義之富士'
+  key 47 full svg: 'A'
+  key 115 full text.md: 'A — 大之里首日輸給了義之富士'
+  key 115 full svg: 'A'
+  key 137 full text.md: '二之酉在11月19日。 — 對照第2版'
+  key 137 full svg: '二之酉在11月19日。'
+  key 138 full text.md: '新酒在11月19日解禁。 — 對照第3版'
+  key 138 full svg: '新酒在11月19日解禁。'
+  key 139 full text.md: '流行語提名在11月5日發表。 — 對照第5版'
+  key 139 full svg: '流行語提名在11月5日發表。'
+  key 140 full text.md: '去看紅葉的人應該同時確認預報日期和現在的狀況。 — 對照第6版'
+  key 140 full svg: '去看紅葉的人應該同時確認預報日期和現在的狀況。'
+  key 150 full text.md: '✓ 範文見本版 H 區（154 字）'
+  key 150 full svg: '✓'

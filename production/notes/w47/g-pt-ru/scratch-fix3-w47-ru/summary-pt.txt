@@ -1,0 +1,28 @@
+===== pt 2026-11-12T20:01:42Z =====
+run.py rc=0
+render.py rc=0
+print PDF mtime=2026-11-12 20:04:44.514717330 +0000 size=20883723
+7624d63eec28dc6eaba2b41ada0cadd6c58743469fc42c0d51cb56093755db89  Lucerna-VOL4-ru-pt.pdf
+ru_textmd.py rc=0
+backfill rc=0
+text.md landed:
+93b60dc2d78d1bd260660826585800a460d47d28ee45e7f6432096868e55ff53  2026-w47-ru-pt.text.md
+text.md size=65110
+35c35
+< ## СЕЙЧАС ВЫ · AGORA VOCÊ
+---
+> ## СЕЙЧАС ВЫ · AGORA TU
+webpdf.py rc=0
+web PDF mtime=2026-11-12 20:07:15.430861235 +0000 size=3337277
+a8773dcdbcdcd05d1397fbaf8136fb529945dd45f5ac1fa4b8e83241a1ba67b8  Lucerna-VOL4-ru-pt-web.pdf
+SVG diff vs pre:
+p1-pervaya.svg: FAILED
+p2-zhizn.svg: OK
+p3-kultura.svg: OK
+p4-sport.svg: OK
+p5-molodezh.svg: OK
+p6-razbor.svg: OK
+p7-yazyk.svg: OK
+p8-test.svg: OK
+sha256sum: WARNING: 1 computed checksum did NOT match
+BUILD DONE pt 2026-11-12T20:07:16Z

@@ -1,0 +1,11 @@
+p1-hyoushi: 5 light boxes, 1 true-overflow flags
+  box x=538.5 y=993.0350000000001 w=422.5 h=299.0 | y=1030.035 '数字で見る今週\u3000A semana em números' -> right +34.66px
+p2-kurashi: 9 light boxes, 0 true-overflow flags
+p3-bunka: 4 light boxes, 0 true-overflow flags
+p4-supotsu: 6 light boxes, 0 true-overflow flags
+p5-wakamono: 5 light boxes, 0 true-overflow flags
+p6-fukayomi: 3 light boxes, 0 true-overflow flags
+p7-kotoba: 3 light boxes, 1 true-overflow flags
+  box x=1439.5 y=1073.12 w=422.5 h=251.5 | y=1115.12 '今週のフレーム\u3000Estrutura da semana' -> right +17.14px
+p8-tesuto: 0 light boxes, 0 true-overflow flags
+TOTAL true-overflow flags: 2

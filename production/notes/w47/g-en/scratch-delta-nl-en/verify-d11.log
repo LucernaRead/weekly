@@ -1,0 +1,22 @@
+wrap counts: [3, 3, 3, 2, 3] total lines: 14
+simulated baselines (offset from box top): [89.0, 119.53, 150.06, 213.59, 244.12, 274.65, 338.18, 368.71, 399.24, 462.77, 493.3, 556.83, 587.36, 617.89]
+first=89.00 last=617.89
+sh_old=611.0 sh_new=638.0
+old baseline margin: -6.89  new baseline margin: 20.11
+box top sy3=591.6 -> old bottom 1202.6 new bottom 1229.6; last baseline y=1209.49
+SVG actual P4 col3 21.5pt lines:
+  y=680.60 off=89.00 'Maandag 16 november, 20:45 uur:'
+  y=711.13 off=119.53 'Duitsland – Nederland, Berlijn, NPO'
+  y=741.66 off=150.06 '3.'
+  y=805.19 off=213.59 'Stand na 4 wedstrijden: Nederland 8,'
+  y=835.72 off=244.12 'Griekenland 8, Duitsland 5, Servië 0'
+  y=866.25 off=274.65 'punten.'
+  y=929.78 off=338.18 'Speelronde 12: Heerenveen –'
+  y=960.31 off=368.71 'Feyenoord 5–3; Cambuur – PSV 2–5;'
+  y=990.84 off=399.24 'Twente – Ajax 2–2.'
+  y=1054.37 off=462.77 'Stand Eredivisie na 12 ronden: PSV'
+  y=1084.90 off=493.30 '26, Feyenoord 25, Ajax 25 punten.'
+  y=1148.43 off=556.83 'Speelronde 13: zaterdag NEC – PSV'
+  y=1178.96 off=587.36 '16:30 uur; Feyenoord – Excelsior'
+  y=1209.49 off=617.89 '18:45 uur.'
+simulated first baseline y=680.60 vs actual 680.60; last 1209.49 vs 1209.49

@@ -1,0 +1,26 @@
+===== stage0 2026-w47-zh-tw-es 2026-11-12T08:41:09Z =====
+/dev/mapper/rv  150G   92G   58G  62% /home/hatch
+backup copied
+9caa4651959673f511cd56873d93a04a  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/svglib.py
+e32c58c489ebb9a79e2d9c6029c3c0c23931c8bcbaea631144489daef3454a2c  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/Lucerna-VOL4-ES.pdf
+a1f8af0d1c788b51be8c0cd083e325a360387e98130b7c5e63c9f24d89f10849  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/Lucerna-VOL4-ES-web.pdf
+2529736 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/Lucerna-VOL4-ES-web.pdf
+23256381 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/Lucerna-VOL4-ES.pdf
+post-print chars=25773 post-web chars=25773 pre-print chars=25773
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+59439c7db9e176b8bb6138fafde56e0ee6f720460659a0277d2ed8c42bffc778  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/2026-w47-zh-tw-es.text.md
+census-pre RC=1 (1 expected: D5 present)
+p8-test.svg: els=652 news=213 cjk_sans=264 noto_sans=0 D5_lat=226 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=616 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS FAIL 616 violations
+quotes-pre RC=0 (0 expected: 0 defects)
+  p8-test.svg: defective=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+TOTAL 150
+base-run RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+BASELINE CLEAN: rebuilt svg 8/8 byte-identical to delivered
+STAGE0 OVERALL: CLEAN

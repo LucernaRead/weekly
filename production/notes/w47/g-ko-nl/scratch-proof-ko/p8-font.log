@@ -1,0 +1,7 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+total spans p8: 322
+answers-region spans (y>=1302): 103
+distinct sizes: [9.98, 15.0]
+min size: 9.975000381469727
+Counter({9.98: 101, 15.0: 2})

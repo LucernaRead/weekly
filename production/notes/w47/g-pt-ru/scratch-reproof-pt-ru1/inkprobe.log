@@ -1,0 +1,76 @@
+== A. any ink beyond right page edge 1884 (or x<0) ==
+ A done. worst-right list: NONE beyond 1884
+== B. box titles: ink-right vs box-right (all cream boxes) ==
+ p1-capa box x=989 y=786 right=1411.5 title y=823.2 ink-right=1391.0 clear=+20.5 | 'A SEMANA EM NÚMEROS\u3000Цифры'
+ p1-capa box x=1440 y=588 right=1862.0 title y=628.0 ink-right=1732.5 clear=+129.5 | 'A SEMANA, DIA A DIA'
+ p1-capa box x=1440 y=1238 right=1862.0 title y=1278.4 ink-right=1833.5 clear=+28.5 | 'NESTA EDIÇÃO\u3000В этом номере'
+ p1-capa box x=1440 y=1874 right=1862.0 title y=1914.0 ink-right=1853.5 clear=+8.5 | 'EM POUCAS PALAVRAS\u3000Коротко'
+ p2-vida box x=538 y=605 right=961.0 title y=642.0 ink-right=877.5 clear=+83.5 | 'PARA NÃO ERRAR\u3000Правило'
+ p2-vida box x=538 y=858 right=961.0 title y=896.5 ink-right=928.5 clear=+32.5 | 'Пояснение — o feriadão трёхдневные'
+ p2-vida box x=1440 y=200 right=1862.0 title y=242.0 ink-right=1611.5 clear=+250.5 | 'VOCÊ SABIA?'
+ p2-vida box x=1440 y=545 right=1862.0 title y=587.0 ink-right=1780.5 clear=+81.5 | 'E VOCÊ?\u3000Расскажи о себе'
+ p2-vida box x=88 y=1618 right=510.5 title y=1658.0 ink-right=409.0 clear=+101.5 | 'o feriado começa'
+ p2-vida box x=538 y=1618 right=961.0 title y=1658.0 ink-right=938.5 clear=+22.5 | 'Palmeiras × Flamengo, às'
+ p2-vida box x=989 y=1618 right=1411.5 title y=1658.0 ink-right=1309.0 clear=+102.5 | 'o fim do feriadão'
+ p2-vida box x=1440 y=1618 right=1862.0 title y=1658.0 ink-right=1797.5 clear=+64.5 | 'tudo volta ao normal'
+ p3-cultura box x=538 y=200 right=961.0 title y=238.5 ink-right=916.5 clear=+44.5 | 'Пояснение — o quilombo поселение'
+ p3-cultura box x=1440 y=200 right=1862.0 title y=242.0 ink-right=1702.5 clear=+159.5 | 'A SEMANA, DIA A DIA'
+ p3-cultura box x=1440 y=577 right=1862.0 title y=619.0 ink-right=1780.5 clear=+81.5 | 'E VOCÊ?\u3000Расскажи о себе'
+ p3-cultura box x=1440 y=906 right=1862.0 title y=948.0 ink-right=1716.5 clear=+145.5 | 'PALAVRAS DA MEMÓRIA'
+ p4-esporte box x=989 y=270 right=1411.5 title y=309.0 ink-right=1373.0 clear=+38.5 | 'Пояснение — o agregado общий счёт'
+ p4-esporte box x=1440 y=200 right=1862.0 title y=240.0 ink-right=1628.5 clear=+233.5 | 'OS FINALISTAS'
+ p4-esporte box x=1440 y=602 right=1862.0 title y=644.0 ink-right=1780.5 clear=+81.5 | 'E VOCÊ?\u3000Расскажи о себе'
+ p5-jovens box x=538 y=200 right=961.0 title y=237.0 ink-right=787.5 clear=+173.5 | 'O PLANO DA ESPERA'
+ p5-jovens box x=538 y=892 right=961.0 title y=930.0 ink-right=861.5 clear=+99.5 | 'Пояснение — o gabarito ключи'
+ p5-jovens box x=1440 y=200 right=1862.0 title y=242.0 ink-right=1761.5 clear=+100.5 | 'OS JOVENS EM NÚMEROS'
+ p5-jovens box x=1440 y=539 right=1862.0 title y=581.0 ink-right=1780.5 clear=+81.5 | 'E VOCÊ?\u3000Расскажи о себе'
+ p6-aprofundamento box x=538 y=343 right=961.0 title y=381.9 ink-right=933.5 clear=+27.5 | 'Пояснение — o prazo крайний срок ·'
+ p6-aprofundamento box x=1440 y=200 right=1862.0 title y=240.0 ink-right=1770.5 clear=+91.5 | 'O CAMINHO ATÉ O GABARITO'
+ p6-aprofundamento box x=1440 y=866 right=1862.0 title y=908.0 ink-right=1671.5 clear=+190.5 | 'LER OS NÚMEROS'
+ p6-aprofundamento box x=88 y=1594 right=961.0 title y=1634.0 ink-right=456.0 clear=+505.0 | 'A CONTAGEM\u3000do dia 16 ao dia 30'
+ p6-aprofundamento box x=989 y=1594 right=1862.0 title y=1634.0 ink-right=1314.0 clear=+548.0 | 'DOIS GABARITOS\u3000um exame'
+ p7-lingua box x=1440 y=200 right=1862.0 title y=242.0 ink-right=1764.5 clear=+97.5 | 'ERROS COMUNS\u3000Ошибки'
+ p7-lingua box x=1440 y=1158 right=1862.0 title y=1199.5 ink-right=1769.5 clear=+92.5 | 'A PALAVRA\u3000Слово недели'
+ p7-lingua box x=1440 y=1454 right=1862.0 title y=1495.5 ink-right=1718.5 clear=+143.5 | 'CARTAS DOS LEITORES'
+ B min clear: 8.5
+== F. D3/D4/D5/O3 target lines: true-ink bottom vs box bottom ==
+ D3 P1 EM POUCAS box bottom 2348.0:
+ p1-capa baseline=2327.6 ink=(1461.5,2311.6,1665.5,2332.6) 'em Brasília. (Página 4)'
+ D4 P3 week box bottom 551.0:
+ p3-cultura baseline=540.6 ink=(1461.5,524.6,1531.5,540.6) '16h30.'
+ D5 P6 timeline box bottom 854.0:
+ p6-aprofundamento baseline=840.8 ink=(1603.5,825.8,1828.5,845.8) 'Página do Participante.'
+ O3 P7 A PALAVRA box bottom 1431.5:
+ p7-lingua baseline=1427.0 ink=(1461.5,1410.0,1737.5,1432.0) 'память о борьбе и культуре.'
+ D1 P7 title:
+ p7-lingua baseline=242.0 ink=(1461.5,222.0,1764.5,242.0) 'ERROS COMUNS\u3000Ошибки'
+ D2 P1 numbers title:
+ p1-capa baseline=823.2 ink=(1006.0,799.2,1391.0,828.2) 'A SEMANA EM NÚMEROS\u3000Цифры'
+ SÁB21 P2 cell lines:
+ p2-vida baseline=1736.5 ink=(690.5,1720.5,888.5,1741.5) 'суббота, 16:30, дерби'
+ p2-vida baseline=1761.2 ink=(690.5,1744.2,896.5,1766.2) 'Палмейрас–Фламенго'
+ p2-vida baseline=1687.2 ink=(690.5,1671.2,755.5,1687.2) '16h30'
+== C. P8 font sizes ==
+ all sizes: [13.0, 14.0, 14.5, 15.0, 15.5, 17.0, 18.0, 19.0, 19.5, 20.5, 22.0, 23.0, 24.0, 25.0, 46.0] min pt=9.75
+ answers-region min size units: 13.0 pt=9.75 n= 1339
+ answers-region size histogram: Counter({13.0: 1327, 14.0: 8, 17.0: 2, 25.0: 1, 19.5: 1})
+ P8 answers last baselines: [2518.6, 2534.2, 2541.4, 2546.7, 2624.0]
+== D. curly quotes ==
+ p1-capa: U+201C=0 U+201D=0 U+2019=0 straight-dquote=3084
+ p2-vida: U+201C=0 U+201D=0 U+2019=0 straight-dquote=2582
+ p3-cultura: U+201C=0 U+201D=0 U+2019=0 straight-dquote=2590
+ p4-esporte: U+201C=0 U+201D=0 U+2019=0 straight-dquote=2594
+ p5-jovens: U+201C=0 U+201D=0 U+2019=0 straight-dquote=3150
+ p6-aprofundamento: U+201C=0 U+201D=0 U+2019=0 straight-dquote=2566
+ p7-lingua: U+201C=0 U+201D=0 U+2019=0 straight-dquote=2624
+ p8-avaliacao: U+201C=2 U+201D=2 U+2019=0 straight-dquote=19536
+== E. CJK non-U+3000 ==
+ p1-capa: CJK non-3000: ['三', '色', '蛾'] count=3
+ p2-vida: CJK non-3000: [] count=0
+ p3-cultura: CJK non-3000: [] count=0
+ p4-esporte: CJK non-3000: [] count=0
+ p5-jovens: CJK non-3000: [] count=0
+ p6-aprofundamento: CJK non-3000: [] count=0
+ p7-lingua: CJK non-3000: [] count=0
+ p8-avaliacao: CJK non-3000: [] count=0
+wrote boxtitles.json

@@ -1,0 +1,32 @@
+===== 2026-w47-es-ja 18:18:50 =====
+freeze rc=0 baseline: 8/8 SVGs byte-identical (repointed files: none)
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-ja: 26 titles, 346 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-ja: 27 boxes, 84 candidates, 0 SPILL, 84 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-ja: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-ja
+===== 2026-w47-es-pt 18:21:28 =====
+freeze rc=0 baseline: 8/8 SVGs byte-identical (repointed files: none)
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-pt: 24 titles, 266 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-pt: 27 boxes, 69 candidates, 0 SPILL, 69 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-pt: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-pt
+===== 2026-w47-es-ru 18:23:50 =====
+freeze rc=0 baseline: 8/8 SVGs byte-identical (repointed files: none)
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-ru: 30 titles, 372 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-ru: 27 boxes, 72 candidates, 0 SPILL, 72 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-ru: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-ru
+GATES2 DONE 18:26:28 GATES_RC=0
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch

@@ -1,0 +1,10 @@
+page 3 rect: Rect(0.0, 0.0, 1462.5, 2025.0) (pt)
+clip Rect(1071.625, 1437.1999999999998, 1404.5, 1507.1999999999998) -> 2775x584 px @ 600dpi
+box bottom at pixmap row 333.3 (= 1477.200 pt)
+DARK PIXELS BELOW BOX BOTTOM: rows 334..340 (pixmap) -> deepest 1478.00 pt, overflow +0.80 pt = +1.07 svg px
+  row 334 (+0.7px below bottom): 60 dark px
+  row 335 (+1.7px below bottom): 58 dark px
+  row 336 (+2.7px below bottom): 39 dark px
+  row 337 (+3.7px below bottom): 38 dark px
+  row 338 (+4.7px below bottom): 37 dark px
+  deepest dark row inside box: 1477.16 pt

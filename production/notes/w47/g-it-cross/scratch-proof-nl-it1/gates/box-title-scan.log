@@ -1,0 +1,36 @@
+headings scanned: 85
+OVER (margin<0): 0
+TIGHT (0<=margin<15): 0
+cream-box titles: 25 min margin: 32.0
+  cream tightest: 6 'VOOR OF TEGEN?\u3000PRO O CONTRO?' margin 32.0 ink_right 1830.0 cright 1862.0
+  cream tightest: 7 'PAS OP!\u3000CLINICA DEGLI ERRORI' margin 32.0 ink_right 1830.0 cright 1862.0
+  cream tightest: 2 'ZO ONTHOUD JE HET\u3000RICORDA' margin 41.2 ink_right 919.8 cright 961.0
+  cream tightest: 6 'DE GRAFIEK\u3000DATI INVENTATI' margin 54.5 ink_right 1807.5 cright 1862.0
+  cream tightest: 1 'DE WEEK IN CIJFERS\u3000IN CIFRE' margin 56.2 ink_right 904.8 cright 961.0
+  cream tightest: 1 "IN DEZE EDITIE\u3000L'EDIZIONE" margin 69.0 ink_right 1793.0 cright 1862.0
+== render verification (delivered print PDF 150dpi) ==
+  P1 'DE WEEK IN CIJFERS\u3000IN CIFRE': render ink_right=1040.0 cright=961.0 margin=-79.0 [OVER] PILmargin=+56.2
+  P1 'DEZE WEEK': render ink_right=1612.7 cright=1862.0 margin=+249.3 [ok] PILmargin=+248.8
+  P1 '\u3000QUESTA SETTIMANA': render ink_right=1756.7 cright=1862.0 margin=+105.3 [ok] PILmargin=+106.5
+  P1 "IN DEZE EDITIE\u3000L'EDIZIONE": render ink_right=1794.5 cright=1862.0 margin=+67.5 [ok] PILmargin=+69.0
+  P1 'Pag. 2': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 3': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 4': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 5': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 6': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 7': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'Pag. 8': render ink_right=1838.6 cright=1862.0 margin=+23.4 [ok] PILmargin=+338.5
+  P1 'IN HET KORT\u3000IN BREVE': render ink_right=1743.3 cright=1862.0 margin=+118.7 [ok] PILmargin=+118.2
+  P2 'ZO ONTHOUD JE HET\u3000RICORDA': render ink_right=920.3 cright=961.0 margin=+40.7 [ok] PILmargin=+41.2
+  P2 'WIST JE DAT?': render ink_right=1619.1 cright=1862.0 margin=+242.9 [ok] PILmargin=+244.2
+  P2 'EN JIJ?\u3000E TU?': render ink_right=1635.1 cright=1862.0 margin=+226.9 [ok] PILmargin=+225.2
+  P3 'SINTERKLAAS IN CIJFERS': render ink_right=1757.4 cright=1862.0 margin=+104.6 [ok] PILmargin=+103.8
+  P4 'HET PROGRAMMA': render ink_right=1670.3 cright=1862.0 margin=+191.7 [ok] PILmargin=+191.0
+  P5 'ZO KIJK JE ROBINSON': render ink_right=803.8 cright=961.0 margin=+157.2 [ok] PILmargin=+155.0
+  P5 'JONGEREN IN CIJFERS': render ink_right=1725.4 cright=1862.0 margin=+136.6 [ok] PILmargin=+135.5
+  P5 'EN JIJ?\u3000E TU?': render ink_right=1635.1 cright=1862.0 margin=+226.9 [ok] PILmargin=+225.2
+  P6 'DE GRAFIEK\u3000DATI INVENTATI': render ink_right=1809.8 cright=1862.0 margin=+52.2 [ok] PILmargin=+54.5
+  P6 'VOOR OF TEGEN?\u3000PRO O CONTRO?': render ink_right=1829.7 cright=1862.0 margin=+32.3 [ok] PILmargin=+32.0
+  P7 'PAS OP!\u3000CLINICA DEGLI ERRORI': render ink_right=1828.4 cright=1862.0 margin=+33.6 [ok] PILmargin=+32.0
+  P7 'HET WOORD\u3000PAROLA': render ink_right=1715.1 cright=1862.0 margin=+146.9 [ok] PILmargin=+147.5
+  P7 'BRIEVEN VAN LEZERS': render ink_right=1701.1 cright=1862.0 margin=+160.9 [ok] PILmargin=+160.2

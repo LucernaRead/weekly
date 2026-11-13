@@ -1,0 +1,31 @@
+===== pt 2026-11-12T23:45:50Z disk=95G =====
+run.py rc=0
+probe rc=0 : 2026-w47-pt-ru: runs=3206 LAT@NotoSans=0 LAT@Newsreader=21003 CYR@NotoSans=4736 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=649 curly={'Newsreader': 4}
+render.py rc=0
+print PDF mtime=2026-11-12 23:46:30.279473778 +0000 size=12583263
+a96fd4c41abe6e1f6f60b8273548f6423e88434f4567027ac491e5d0b1f62261  A-Lucerna-VOL4.pdf
+pre non-space chars: 35285; post non-space chars: 35285
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (53978 chars)
+webpdf.py rc=0
+web PDF mtime=2026-11-12 23:46:45.561566654 +0000 size=1202236
+f03415dfab06fae399ed8c6485197672bc030f995c250e8a4aedd9a7ccde761d  A-Lucerna-VOL4-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-capa.svg: No such file or directory
+svg/p1-capa.svg: FAILED open or read
+sha256sum: svg/p2-vida.svg: No such file or directory
+svg/p2-vida.svg: FAILED open or read
+sha256sum: svg/p3-cultura.svg: No such file or directory
+svg/p3-cultura.svg: FAILED open or read
+sha256sum: svg/p4-esporte.svg: No such file or directory
+svg/p4-esporte.svg: FAILED open or read
+sha256sum: svg/p5-jovens.svg: No such file or directory
+svg/p5-jovens.svg: FAILED open or read
+sha256sum: svg/p6-aprofundamento.svg: No such file or directory
+svg/p6-aprofundamento.svg: FAILED open or read
+sha256sum: svg/p7-lingua.svg: No such file or directory
+svg/p7-lingua.svg: FAILED open or read
+sha256sum: svg/p8-avaliacao.svg: No such file or directory
+svg/p8-avaliacao.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE pt 2026-11-12T23:46:45Z

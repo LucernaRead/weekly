@@ -1,0 +1,36 @@
+render size 4063x5625 SCALE=2.0833 (SVG px per image px); margin 1862 -> 3879.2 img px
+P2 LO SAPEVI? last 'della musica e dei musicisti.'
+   box bottom SVG 960.6 | last-ink row img 1990 = SVG 955.20 | clearance +5.40 SVG px | ink below bottom? False
+P2 E TU? last '에 보내세요.'
+   box bottom SVG 1350.6 | last-ink row img 2805 = SVG 1346.40 | clearance +4.20 SVG px | ink below bottom? False
+P3 IL WEEKEND DOLCE last 'continua fino al 6 dicembre.'
+   box bottom SVG 1021.1 | last-ink row img 2116 = SVG 1015.68 | clearance +5.42 SVG px | ink below bottom? False
+P3 E TU? last '문장을 써서 보내세요.'
+   box bottom SVG 1290.6 | last-ink row img 2681 = SVG 1286.88 | clearance +3.72 SVG px | ink below bottom? False
+P4 E TU? last '아어로 두 문장을 써서 보내세요.'
+   box bottom SVG 1140.4 | last-ink row img 2368 = SVG 1136.64 | clearance +3.76 SVG px | ink below bottom? False
+P5 I GIOVANI IN NUMERI last 'domenica 22 novembre.'
+   box bottom SVG 1010.7 | last-ink row img 2094 = SVG 1005.12 | clearance +5.58 SVG px | ink below bottom? False
+P5 E TU? last '장을 써서 보내세요.'
+   box bottom SVG 1249.8 | last-ink row img 2596 = SVG 1246.08 | clearance +3.72 SVG px | ink below bottom? False
+P7 LA PAROLA last '치오가 29점으로 선두.'
+   box bottom SVG 1344.0 | last-ink row img 2792 = SVG 1340.16 | clearance +3.84 SVG px | ink below bottom? False
+P7 LETTERE last '습니다. 약속은 VOL.5로 이어집니다.'
+   box bottom SVG 1673.0 | last-ink row img 3476 = SVG 1668.48 | clearance +4.52 SVG px | ink below bottom? False
+P1 'SETTIMANA DAL 16 AL 22 NOVEMBRE 2026'
+   band SVG y 76.7..99.7 | rightmost ink img 3877 = SVG 1860.96 | margin 1862 | over -1.04 SVG px
+P1 QUIZ LAMPO '1면을 읽고 정답을 고르세요 정답은 8면'
+   band SVG y 2330.0..2357.0 | rightmost ink img 3866 = SVG 1855.68 | margin 1862 | over -6.32 SVG px
+P8 '각 정답에 한국어 한 줄 설명 ✓ = 모범 답안 과제'
+   band SVG y 1364.5..1390.8 | rightmost ink img 3858 = SVG 1851.84 | margin 1862 | over -10.16 SVG px
+P1: rightmost SVG 1861.44 (over -0.56) | leftmost SVG 87.36 | footer rightmost SVG 1859.52 | rows beyond margin: 0
+P2: rightmost SVG 1862.40 (over +0.40) | leftmost SVG 87.36 | footer rightmost SVG 1859.52 | rows beyond margin: 8
+   over-rows SVG y 1585..1588
+P3: rightmost SVG 1861.44 (over -0.56) | leftmost SVG 87.84 | footer rightmost SVG 1859.52 | rows beyond margin: 0
+P4: rightmost SVG 1861.44 (over -0.56) | leftmost SVG 87.84 | footer rightmost SVG 1859.52 | rows beyond margin: 0
+P5: rightmost SVG 1862.40 (over +0.40) | leftmost SVG 87.84 | footer rightmost SVG 1859.52 | rows beyond margin: 6
+   over-rows SVG y 601..604
+P6: rightmost SVG 1861.44 (over -0.56) | leftmost SVG 87.36 | footer rightmost SVG 1859.52 | rows beyond margin: 0
+P7: rightmost SVG 1861.44 (over -0.56) | leftmost SVG 87.84 | footer rightmost SVG 1859.52 | rows beyond margin: 0
+P8: rightmost SVG 1863.36 (over +1.36) | leftmost SVG 87.84 | footer rightmost SVG 1859.52 | rows beyond margin: 17
+   over-rows SVG y 624..651

@@ -1,0 +1,16 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-nl/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: RC=0 core    /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-nl/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=2 curly_in_newsreader=2 noto_sans_elements=0
+== boxtitle: RC=0 BOXTITLE 2026-w47-it-nl: 22 titles, 252 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+    BOXTITLE 2026-w47-it-nl: 22 titles, 252 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP 2026-w47-it-nl: 29 boxes, 68 candidates, 0 SPILL, 68 OBSERVE
+== edge: RC=0
+    EDGE_SCAN 2026-w47-it-nl: 8 pages, 0 TOUCH, 0 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN 2026-w47-it-nl: 8 pages, 0 TOUCH, 0 NEAR
+== textlayer: RC=0 print_chars=44674 web_chars=44674 multiset_diff=0 nonws_diff=0
+GATES 2026-w47-it-nl: ALL-GREEN

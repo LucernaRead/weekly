@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-plan/mechanism/d5_creambox_audit.py", line 367, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-plan/mechanism/d5_creambox_audit.py", line 279, in main
+    s_base = load_svgmod("svglib_base", os.path.join(args.baseline, "svglib.py"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-plan/mechanism/d5_creambox_audit.py", line 63, in load_svgmod
+    spec.loader.exec_module(m)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/core-en/svglib.py", line 231, in <module>
+    with open(_MOTH_PATH, encoding="utf-8") as _f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/core-en/assets/lucerna-moth.svg'

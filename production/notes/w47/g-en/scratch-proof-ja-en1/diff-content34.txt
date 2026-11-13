@@ -1,0 +1,247 @@
+--- core-ja/content34.py	2026-11-10 21:45:04.092130234 +0000
++++ fanout-ja/2026-w47-ja-en/content34.py	2026-11-11 01:57:12.652112901 +0000
+@@ -3,13 +3,13 @@
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from bslib4 import *
+ 
+-OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/core-ja/svg")
++OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
+ os.makedirs(OUT, exist_ok=True)
+ 
+ # ================= P3　文化 (A2→B1) =================
+ CURPAGE[0] = 3
+ p = BSPage4()
+-p.band("文化　ぶんか", "Lucerna", "レベル A2→B1　ボジョレーと秋の味　博若莱与秋味")
++p.band("文化　ぶんか", "Lucerna", "レベル A2→B1　ボジョレーと秋の味　Beaujolais and autumn flavours")
+ 
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P3-feature")
+ f.title("新酒の夜 — 19日の0時", 37)
+@@ -17,18 +17,18 @@
+ f.para("ボジョレー・ヌーヴォーは、フランスのボジョレー地方の新酒です。9月ごろに収穫したぶどうで、短い時間で作ります。解禁日は、毎年11月の第3木曜日、午前0時です。今年は、11月19日（木よう日）です。")
+ f.para("日本は、時差の関係で、世界でいちばん早く新酒を飲むことができる国だそうです。百貨店では、11月19日から新酒を売ります。阪神梅田本店では、約40種類の新酒を売るそうです。")
+ f.para("ボジョレー・ヌーヴォーは、秋の収穫を祝うワインです。フレッシュで、果実の香りがします。今年の出来栄えを確かめながら、季節の味覚といっしょに楽しみます。")
+-f.gloss("収穫 收获　解禁日 解禁日　出来栄え 今年的品质　味覚 味觉。")
++f.gloss("収穫 the harvest　解禁日 the release day　出来栄え this year's quality　味覚 taste.")
+ f.head("酉の市の屋台", 25)
+ f.para("酉の市の楽しみは、熊手だけではありません。会場のまわりには、屋台も並びます。昔ながらの祭りの食べ物を、食べながら歩く人もいます。夜の浅草は、明るくにぎやかです。")
+ f.para("11月19日は、夜の浅草と新酒のワイン、両方の楽しみがある日です。秋の味覚を、味わいましょう。")
+-f.gloss("屋台 路边摊　にぎやか 热闹　味わう 品味。")
++f.gloss("屋台 food stalls　にぎやか lively　味わう to savour.")
+ f.end_report()
+ 
+ # col 3: vineyard image + calendar + あなた
+ ix = COLX[3]
+ image(p, "beaujolais.jpg", ix, 200, CW, 290)
+ cy3 = caption(p, ix, 490, CW, "フランス・ボジョレー地方のぶどう畑。秋色の畑です。",
+-              "写真：Alainauzas — パブリックドメイン（Wikimedia Commons）")
++              "Photo: Alainauzas — public domain (Wikimedia Commons)")
+ cal = ["16日（月）今週の始まり",
+        "19日（木）酉の市・二の酉と新酒の解禁",
+        "22日（日）相撲の千秋楽と小雪",
+@@ -44,65 +44,65 @@
+     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ ey3 = sy3 + sh + 26
+ etvous = "あなたは？新酒と秋の味覚で、何を楽しみたいですか。日本語で2文、書いて送ってください。"
+-eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？新酒与秋味中想享受什么？写两句日语寄来。", "sans", False, 20, CW - 44)) * 29 + 20
++eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("What would you like to enjoy among the new wine and autumn flavours? Write two sentences in Japanese and send them in.", "sans", False, 20, CW - 44)) * 29 + 20
+ p.rect(ix, ey3, CW, eh, fill=BOX)
+ yy3 = ey3 + 16
+-p.text(ix + 22, yy3 + 26, "あなたは？　说说你自己", 24, "sans", True, OLIVE)
++p.text(ix + 22, yy3 + 26, "あなたは？　Your turn", 24, "sans", True, OLIVE)
+ yy3 += 52
+ yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+-p.para(ix + 22, yy3 + 20, "你呢？新酒与秋味中想享受什么？写两句日语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
++p.para(ix + 22, yy3 + 20, "What would you like to enjoy among the new wine and autumn flavours? Write two sentences in Japanese and send them in.", 20, "sans", False, GREY, CW - 44, 1.42)
+ print("P3 col3 ends", ey3 + eh)
+ 
+ # ---- P3 exercises ----
+ ey = 1580
+ p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+-p.text(MX, ey + 28, "練習　第3版练习", 28, "sans", True, OLIVE)
+-p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
++p.text(MX, ey + 28, "練習　Page 3 exercises", 28, "sans", True, OLIVE)
++p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+ e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
+ e.head("A　理解", 25)
+ e.bridge("第3版の文章を読んで、正しい答えを選んでください。")
+-e.ex("A2", "单选", "A", "博若莱新酒是法国的新酒",
++e.ex("A2", "multiple choice", "A", "Beaujolais Nouveau is a French new wine",
+      "ボジョレー・ヌーヴォーは、何ですか。 A. フランスの新酒　B. 日本のお茶　C. 韓国のお酒", size=19, gap=6)
+-e.ex("A2", "单选", "B", "解禁日是11月第3个周四",
++e.ex("A2", "multiple choice", "B", "The release day is the third Thursday of November",
+      "解禁日は、いつですか。 A. 11月の第1木曜日　B. 11月の第3木曜日　C. 12月の第3木曜日", size=19, gap=6)
+-e.ex("B1", "单选", "A", "新酒的葡萄在9月前后收获",
++e.ex("B1", "multiple choice", "A", "New-wine grapes harvested around September",
+      "新酒のぶどうは、いつ収穫しますか。 A. 9月ごろ　B. 11月ごろ　C. 12月ごろ", size=19, gap=6)
+-e.ex("B1", "单选", "A", "因时差日本最早喝到新酒",
++e.ex("B1", "multiple choice", "A", "Japan drinks it first: time difference",
+      "日本が新酒をいちばん早く飲めるのは、どうしてですか。 A. 時差の関係で　B. 飛行機が速いから　C. ぶどうが日本で取れるから", size=19, gap=6)
+-e.ex("A2", "单选", "B", "阪神梅田卖约40种新酒",
++e.ex("A2", "multiple choice", "B", "Hanshin Umeda sells about 40 kinds of new wine",
+      "阪神梅田本店では、新酒を何種類売りますか。 A. 約4種類　B. 約40種類　C. 約400種類", size=19, gap=6)
+ e.head("B　ことば", 25)
+ e.bridge("言葉や数字を入れてください。")
+-e.ex("A2", "完成句子", "解禁", "解禁＝开始发售的日子",
+-     "新酒を売り始める日を「___」と言います。", instr="填空", size=19, gap=6)
+-e.ex("A2", "完成句子", "収穫", "収穫＝收获",
+-     "ぶどうを取ることを「___」と言います。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "19", "今年解禁日在11月19日（周四）",
+-     "今年の解禁日は11月 ___ 日（木）です。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "40", "阪神梅田卖约40种新酒",
+-     "阪神梅田本店では、約 ___ 種類売ります。", instr="填空", size=19, gap=6)
+-e.ex("A2", "完成句子", "0", "解禁从0点开始",
+-     "解禁日は、午前 ___ 時からです。", instr="填空", size=19, gap=6)
++e.ex("A2", "fill-in", "解禁", "解禁 = the day sales begin",
++     "新酒を売り始める日を「___」と言います。", instr="Fill in", size=19, gap=6)
++e.ex("A2", "fill-in", "収穫", "収穫 = the harvest",
++     "ぶどうを取ることを「___」と言います。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "19", "This year's release day is November 19 (Thursday)",
++     "今年の解禁日は11月 ___ 日（木）です。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "40", "Hanshin Umeda sells about 40 kinds of new wine",
++     "阪神梅田本店では、約 ___ 種類売ります。", instr="Fill in", size=19, gap=6)
++e.ex("A2", "fill-in", "0", "The release starts at midnight",
++     "解禁日は、午前 ___ 時からです。", instr="Fill in", size=19, gap=6)
+ e.head("C　文を作りましょう", 25)
+ e.bridge("言葉を並べて、正しい文を作ってください。")
+-e.ex("B1", "造句", "ボジョレー・ヌーヴォーはフランスの新酒です。", "主语＋说明",
+-     "ボジョレー・ヌーヴォーは / フランスの / 新酒です → ___", instr="造句", size=19, gap=6)
+-e.ex("A2", "造句", "新酒は11月19日から売られます。", "时间＋动词",
+-     "新酒は / 11月19日から / 売られます → ___", instr="造句", size=19, gap=6)
+-e.ex("B1", "造句", "屋台で食べ物を買います。", "场所＋宾语＋动词",
+-     "屋台で / 食べ物を / 買います → ___", instr="造句", size=19, gap=6)
+-e.ex("B1", "造句", "秋の味覚を味わいます。", "宾语＋动词",
+-     "秋の味覚を / 味わいます → ___", instr="造句", size=19, gap=6)
++e.ex("B1", "sentence building", "ボジョレー・ヌーヴォーはフランスの新酒です。", "subject + description",
++     "ボジョレー・ヌーヴォーは / フランスの / 新酒です → ___", instr="Build a sentence", size=19, gap=6)
++e.ex("A2", "sentence building", "新酒は11月19日から売られます。", "time + verb",
++     "新酒は / 11月19日から / 売られます → ___", instr="Build a sentence", size=19, gap=6)
++e.ex("B1", "sentence building", "屋台で食べ物を買います。", "place + object + verb",
++     "屋台で / 食べ物を / 買います → ___", instr="Build a sentence", size=19, gap=6)
++e.ex("B1", "sentence building", "秋の味覚を味わいます。", "object + verb",
++     "秋の味覚を / 味わいます → ___", instr="Build a sentence", size=19, gap=6)
+ e.head("D　ペアにしましょう", 25)
+-e.match_set("B1", "词汇配对",
++e.match_set("B1", "matching",
+             ["ボジョレー・ヌーヴォー", "解禁", "収穫", "屋台"],
+             ["ぶどうを取ること",
+              "フランスの新酒",
+              "祭りの食べ物を売る店",
+              "新酒を売り始める日"],
+             ["b", "d", "a", "c"],
+-            ["ボジョレー・ヌーヴォー＝法国新酒 b", "解禁＝开始发售 d", "収穫＝收获 a", "屋台＝节日卖食物的摊子 c"],
+-            instr="把词和释义配对")
++            ["ボジョレー・ヌーヴォー = French new wine b", "解禁 = the day sales begin d", "収穫 = the harvest a", "屋台 = a festival stall selling food c"],
++            instr="Match words to meanings")
+ e.end_report()
+ p.foot(3)
+ p.save(f"{OUT}/p3-bunka.svg")
+@@ -111,7 +111,7 @@
+ # ================= P4　スポーツ (B1) =================
+ CURPAGE[0] = 4
+ p = BSPage4()
+-p.band("スポーツ　体育", "Lucerna", "レベル B1　相撲3日目まで　相扑前三天")
++p.band("スポーツ　体育", "Lucerna", "レベル B1　相撲3日目まで　Sumo: the first three days")
+ 
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P4-feature")
+ f.title("波乱の3日間 — 九州場所", 37)
+@@ -121,7 +121,7 @@
+ f.para("2日目は、両横綱と3人の大関が、みんな勝ちました。大の里は、藤凌駕を寄り切って初白星をあげました。豊昇龍と霧島は、2連勝です。")
+ f.para("3日目は、また波乱でした。豊昇龍が、藤凌駕に押し倒されて、初黒星になりました。藤凌駕の金星です。初土俵から11場所での金星は、年6場所になってから7番目の速さだそうです。大の里は、2勝目をあげました。")
+ f.para("3日目まで、大の里も豊昇龍も2勝1敗です。優勝は、まだ決まっていません。千秋楽の結果は、次号（VOL.5）でお知らせします。")
+-f.gloss("波乱 出乎意料　ねらう 瞄准　金星 打败横纲的胜利　初土俵 首次登场。")
++f.gloss("波乱 an upset　ねらう to aim for　金星 a win over a yokozuna　初土俵 a debut.")
+ f.head("3日目までの星取", 25)
+ f.box("九州場所の記録　3日目まで", [
+     ("初日（8日）— 大の里 ●、豊昇龍 ○、霧島 ○、琴櫻 ●、安青錦 ●", "serif", False, INK, 20, 1.35),
+@@ -131,7 +131,7 @@
+     ("千秋楽 — 22日（日）、優勝はまだ決まっていません", "serif", False, GREY, 20, 1.35),
+ ])
+ f.para("前号（VOL.3）では、場所の始まりだけをお知らせしました。今号で、3日目までの結果をお知らせします。")
+-f.gloss("前号 上一期　星取 战绩。")
++f.gloss("前号 the last issue　星取 the win–loss record.")
+ f.end_report()
+ 
+ # col 3: yokozuna box + words box
+@@ -178,53 +178,53 @@
+ # ---- P4 exercises ----
+ ey = 1840
+ p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+-p.text(MX, ey + 28, "練習　第4版练习", 28, "sans", True, OLIVE)
+-p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
++p.text(MX, ey + 28, "練習　Page 4 exercises", 28, "sans", True, OLIVE)
++p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+ e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
+ e.head("A　理解", 25)
+ e.bridge("第4版の文章を読んで、正しい答えを選んでください。")
+-e.ex("B1", "单选", "A", "首日战胜大之里的是一之富士",
++e.ex("B1", "multiple choice", "A", "Yoshinofuji beat Ōnosato on day 1",
+      "初日に大の里に勝ったのはだれですか。 A. 義ノ富士　B. 美ノ海　C. 藤凌駕", size=19, gap=6)
+-e.ex("B1", "单选", "B", "首日败给丰升龙的是美之海",
++e.ex("B1", "multiple choice", "B", "Umi-no-umi lost to Hōshōryū on day 1",
+      "初日に豊昇龍に敗れたのはだれですか。 A. 義ノ富士　B. 美ノ海　C. 宇良", size=19, gap=6)
+-e.ex("B1", "单选", "A", "第三天战胜丰升龙的是藤凌驾",
++e.ex("B1", "multiple choice", "A", "Fujiryūga beat Hōshōryū on day 3",
+      "3日目に豊昇龍に勝ったのはだれですか。 A. 藤凌駕　B. 大の里　C. 霧島", size=19, gap=6)
+-e.ex("B1", "单选", "B", "到第三天，两位横纲都是2胜1负",
++e.ex("B1", "multiple choice", "B", "Both yokozuna are 2–1 after day 3",
+      "3日目まで、両横綱は何勝何敗ですか。 A. 3勝0敗　B. 2勝1敗　C. 1勝2敗", size=19, gap=6)
+-e.ex("B1", "单选", "C", "千秋乐在11月22日（周日）",
++e.ex("B1", "multiple choice", "C", "The final day is November 22 (Sunday)",
+      "千秋楽はいつですか。 A. 15日（日）　B. 19日（木）　C. 22日（日）", size=19, gap=6)
+ e.head("B　数字", 25)
+ e.bridge("第4版の数字を入れてください。")
+-e.ex("B1", "完成句子", "2", "到第三天，大之里赢了2场",
+-     "大の里は3日目まで ___ 勝しています。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "2", "丰升龙到第三天也赢了2场",
+-     "豊昇龍も3日目まで ___ 勝しています。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "11", "藤凌驾的金星是初登场后第11个场所",
+-     "藤凌駕の金星は、初土俵から ___ 場所目でした。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "7", "金星速度是年6场所制以来第7快",
+-     "金星の速さは、年6場所制で ___ 番目です。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "8", "九州场所在11月8日（周日）开幕",
+-     "九州場所は11月 ___ 日（日）に始まりました。", instr="填空", size=19, gap=6)
++e.ex("B1", "fill-in", "2", "Ōnosato has won 2 bouts after day 3",
++     "大の里は3日目まで ___ 勝しています。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "2", "Hōshōryū has also won 2 bouts after day 3",
++     "豊昇龍も3日目まで ___ 勝しています。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "11", "Fujiryūga's kinboshi: 11th tournament since debut",
++     "藤凌駕の金星は、初土俵から ___ 場所目でした。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "7", "7th fastest kinboshi since the six-tournament era began",
++     "金星の速さは、年6場所制で ___ 番目です。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "8", "The Kyushu tournament opened on November 8 (Sunday)",
++     "九州場所は11月 ___ 日（日）に始まりました。", instr="Fill in", size=19, gap=6)
+ e.head("C　ことばと記録", 25)
+ e.bridge("第4版の記事から答えてください。")
+-e.ex("B1", "单选", "A", "金星＝前头力士战胜横纲",
++e.ex("B1", "multiple choice", "A", "金星 = a lower-ranked wrestler beating a yokozuna",
+      "「金星」とは何ですか。 A. 前頭が横綱に勝つ　B. 横綱が大関に勝つこと　C. 優勝", size=19, gap=6)
+-e.ex("B1", "单选", "B", "千秋乐＝场所最后一天",
++e.ex("B1", "multiple choice", "B", "千秋楽 = the last day of the tournament",
+      "「千秋楽」とは何ですか。 A. 場所の最初の日　B. 場所の最後の日　C. 休みの日", size=19, gap=6)
+-e.ex("B1", "单选", "A", "九州场所在福冈国际中心",
++e.ex("B1", "multiple choice", "A", "The Kyushu tournament is at the Fukuoka Kokusai Center",
+      "九州場所はどこですか。 A. 福岡国際センター　B. 横浜スタジアム　C. 東京ドーム", size=19, gap=6)
+-e.ex("B1", "单选", "B", "休场3个场所后复出的是丰升龙",
++e.ex("B1", "multiple choice", "B", "Hōshōryū is the yokozuna returning after missing three straight tournaments",
+      "3場所連続休場明けの横綱はだれですか。 A. 大の里　B. 豊昇龍　C. 霧島", size=19, gap=6)
+ e.head("D　正しい・正しくない", 25)
+ e.bridge("文が正しければ○、正しくなければ×を書いてください。")
+-e.ex("B1", "判断对错", "×", "大之里首日输了",
+-     "大の里は、初日に勝ちました。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "○", "丰升龙首日和次日都赢了",
+-     "豊昇龍は、初日と2日目に勝ちました。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "○", "藤凌驾第三天拿到金星",
+-     "藤凌駕は、3日目に金星をあげました。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "×", "优胜还没决定",
+-     "優勝は、もう決まっています。", instr="判断", size=19, gap=6)
++e.ex("B1", "true/false", "×", "Ōnosato lost on day 1",
++     "大の里は、初日に勝ちました。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "○", "Hōshōryū won on days 1 and 2",
++     "豊昇龍は、初日と2日目に勝ちました。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "○", "Fujiryūga won a kinboshi on day 3",
++     "藤凌駕は、3日目に金星をあげました。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "×", "The champion is not decided yet",
++     "優勝は、もう決まっています。", instr="True or false?", size=19, gap=6)
+ e.end_report()
+ p.foot(4)
+ p.save(f"{OUT}/p4-supotsu.svg")

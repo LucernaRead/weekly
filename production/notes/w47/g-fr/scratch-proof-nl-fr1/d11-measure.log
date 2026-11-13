@@ -1,0 +1,12 @@
+title element: [(1461.5, 633.5999999999999, 24.0, 'Noto Sans CJK SC', 'HET PROGRAMMA')]
+box: x=1439.5 y=591.5999999999999 w=422.5 h=638.0 bottom=1229.6 right=1862.0
+last-line elements: [(1461.5, 1209.4899999999996, 21.5, 'Newsreader', '18:45 uur.')]
+last baseline y=1209.4899999999996 size=21.5 line='18:45 uur.'
+METHOD1 geometric clearance: bottom - baseline = 20.11px
+fact wrap counts (serif 21.5, CW-44): [3, 3, 3, 2, 3] total lines: 14
+recomputed sh = 89 + sum + 62 = 638.0 (SVG h=638.0)
+METHOD2 lowest ink row in box x-range near last line: 1209 (box bottom 1230, clearance +21px)
+METHOD2 dark pixels in 7px strip below box bottom: 0
+last-line ink x-span: 1463..1562 (text starts x=1461.5)
+title advance (svglib): 209.4px; title x=1461.5, box right=1862.0
+title true-ink right edge: 1670 (clearance to box right: +192.0px)

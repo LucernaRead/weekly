@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 close (sans) [font=NotoSansCJKsc-Regular size=15.00em-cell=15.00pt]
+   ink runs (pt): [(443.29, 444.37), (446.89, 450.85), (460.57, 462.37), (463.45, 465.25), (467.41, 468.85)]
+   prev ink end=450.85 | quote ink=[(460.57, 462.37), (463.45, 465.25)] | next ink start=467.41
+   GAP BEFORE quote = 9.72pt = 0.65em | GAP AFTER = 2.16pt
+D2 close (sans) [font=NotoSansCJKsc-Regular size=9.94em-cell=9.94pt]
+   ink runs (pt): [(449.67, 450.39), (452.19, 455.43), (462.63, 463.71), (464.43, 465.51), (466.59, 468.75)]
+   prev ink end=455.43 | quote ink=[(462.63, 463.71), (464.43, 465.51)] | next ink start=466.59
+   GAP BEFORE quote = 7.20pt = 0.72em | GAP AFTER = 1.08pt
+P5 close (Newsreader) [font=Newsreader16pt-Regular size=18.00em-cell=7.94pt]
+   ink runs (pt): [(701.23, 702.67), (704.11, 710.23), (712.75, 714.91), (715.99, 718.15), (720.67, 722.83)]
+   prev ink end=710.23 | quote ink=[(712.75, 714.91), (715.99, 718.15)] | next ink start=720.67
+   GAP BEFORE quote = 2.52pt = 0.14em | GAP AFTER = 2.52pt
+P8 dialogue close (Newsreader) [font=Newsreader16pt-Regular size=14.62em-cell=6.45pt]
+   ink runs (pt): [(492.13, 493.57), (494.65, 500.41), (502.21, 504.01), (505.09, 506.89), (508.69, 510.49)]
+   prev ink end=500.41 | quote ink=[(502.21, 504.01), (505.09, 506.89)] | next ink start=508.69
+   GAP BEFORE quote = 1.80pt = 0.12em | GAP AFTER = 1.80pt

@@ -1,0 +1,38 @@
+== 2026-w47-nl-de reader=de ed=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-de
+ff8bc1f4678cf646ce2cf20aa59355b6  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-de/svglib.py
+0326dbb2874cdb2b193f1149dcbf0d3236eb9b91a7fc0b742cd58fbf8b9d489a  svg/p1-voorpagina.svg
+5a0511d959ea8563bc122940c72c9a2d8e796881a7a0997e38d55df9718d116f  svg/p2-leven.svg
+3a2830820682b1d1808e90b40208a8660ac0de779a2dd912cae31cd7ca4b9adf  svg/p3-cultuur.svg
+19889014a7646b6f5eeadbb9c8541bd92f7ab3cbb923e240ebb21ed9e5c4379f  svg/p4-sport.svg
+9eaca0c036b80e220b8ea418ee797c4c6a29b4723f562d6d59f54d7597b49368  svg/p5-jongeren.svg
+a0e18bac707f107ebbb9ec6839673488cfcc269a26f8b5eb164dd345571a13db  svg/p6-verdieping.svg
+03695006c92f0bbba19abab26fda5514cc4bf53de74becaa0190e49f32762dce  svg/p7-taal.svg
+83c3cc7aa0a5142ae7e04741df6bb1118221a2f8cb473ccd26e4ab49270a86c1  svg/p8-toets.svg
+8e3ba9155d155db85f2b0c03f1595d920ceb8b3220d7652929f67b489f8b1412  De-Lucerna-VOL4-nl-de.pdf
+0139ab963c4e61f534ef537ee17ff3899c029780577036696776055d35c3c360  De-Lucerna-VOL4-nl-de-web.pdf
+c1342c3fe20d7a26df33d604285a9a1fc746ea8ae1c62ef1c66e6211dd908aeb  2026-w47-nl-de.text.md
+12669946 De-Lucerna-VOL4-nl-de.pdf
+1617872 De-Lucerna-VOL4-nl-de-web.pdf
+46226 2026-w47-nl-de.text.md
+run-pre RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+prerun svg == snapshot: YES
+census-pre RC=1
+TOTAL: D5_latin_in_cjk=501 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=1 curly_in_newsreader=1 noto_sans_elements=0
+CENSUS FAIL 501 violations
+occlusion-pre RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-de/svg: 0 flags 
+spill-pre RC=0
+P7 box=(1439.5,1359.0,422.5,568.5) bottom=1927.5
+   ABOVE -30.48px x=1461.5 y=1328.5 [observe] 'Gruppe zieht ins Viertelfinale ein.'
+SPILL_SWEEP 2026-w47-nl-de: 26 boxes, 34 candidates, 0 SPILL, 34 OBSERVE
+boxtitle-pre RC=0
+== 2026-w47-nl-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-nl backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-redo-nl/scratch-fanout-nl/backup/2026-w47-nl-de
+BOXTITLE 2026-w47-nl-de: 16 titles, 236 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge-pre RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 65.2}
+EDGE_SCAN 2026-w47-nl-de: 8 pages, 0 TOUCH, 0 NEAR
+PHASE A DONE 2026-w47-nl-de

@@ -1,0 +1,10 @@
+multiset equal? False
+core-only kana chars: Counter({'の': 4})
+ko-only kana chars: Counter()
+block2 multiset equal? False
+core-only: Counter()
+ko-only: Counter({'ノ': 1, 'ミ': 1, 'ネ': 1, 'ー': 1, 'ト': 1})
+--- ko lines with ノミネート in 1290-1356 ---
+1309 107. C — ノミネート = 후보에 오르기
+--- core lines with ノミネート in 1290-1356 ---
+--- core P8 lines 1194-1293 containing 'の' as standalone particle in answers ---

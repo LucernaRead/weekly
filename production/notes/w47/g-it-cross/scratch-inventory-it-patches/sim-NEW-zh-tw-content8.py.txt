@@ -1,0 +1,30 @@
+--- 
++++ 
+@@ -66,20 +66,20 @@
+ f.ex("B1", "造句", "Il torrone si assaggia a Cremona.", "主語 + 動詞 + 地點",
+      "il torrone / si assaggia / a Cremona → ___", instr="造句", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "翻譯", "聖母健康節人們走過還願橋。", "對照原文",
++f.ex("A2", "翻译", "聖母健康節人們走過還願橋。", "對照原文",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+-f.ex("B1", "翻譯", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
++f.ex("B1", "翻译", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+-f.ex("B1", "翻譯", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
++f.ex("B1", "翻译", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="翻譯成繁體中文", size=15.5, gap=1)
+-f.ex("B2", "翻譯", "Ogni cifra deve essere chiara.", "dovere = 必須",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = 必須",
+      "每個數字都必須清楚。→ ___", instr="翻譯成義大利語", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "詞彙配對",
+             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
+-            ["un livello di reddito del sistema fiscale",
+-             "i soldi che pagano una misura",
+-             "la differenza tra spese ed entrate",
++            ["la parte del sistema fiscale, un livello di reddito",
++             "i soldi che pagano una misura, la sua fonte",
++             "la differenza tra spese ed entrate, in rosso",
+              "la legge di bilancio, il documento dello Stato"],
+             ["d", "c", "b", "a"],
+             ["manovra=預算法案 d", "deficit=赤字 c", "copertura=資金來源 b", "scaglione=稅級 a"],

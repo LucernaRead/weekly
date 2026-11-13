@@ -1,0 +1,66 @@
+== D1 Ashes ==
+P4 title present: False
+  'Perth is winning' whole-edition count: 0
+  'Ashes begin' whole-edition count: 0
+  'second week in Perth' whole-edition count: 0
+  text.md 'Perth is winning': 0
+  text.md 'Ashes begin': 0
+  text.md 'second week in Perth': 0
+== D2 Q38-41 ==
+  registry 38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+  text.md answers 38-41: ['38. [A2] 단어 짝짓기 — b (tribute = 선수 b)', '39. [A2] 단어 짝짓기 — a (mentor = 스승 a)', '40. [A2] 단어 짝짓기 — d (arena = 경기장 d)', '41. [A2] 단어 짝짓기 — c (campmate = 캠프 친구 c)']
+== D3 ODD SOCKS ==
+  P5 short title present: True
+  P5 long title absent: True
+== orphan punctuation: line-initial . , 。 ， ! ? : ; ) ] in text.md and SVG ==
+  text.md line-initial orphan count: 0
+  p2-life.svg: pure-punct '— ' at x=1110.6 y=272.5 same-baseline siblings=15
+  p2-life.svg: pure-punct '— ' at x=1096.1 y=302.6 same-baseline siblings=7
+  p2-life.svg: pure-punct '— ' at x=1110.6 y=359.20000000000005 same-baseline siblings=18
+  p2-life.svg: pure-punct '— ' at x=1007.0 y=389.30000000000007 same-baseline siblings=11
+  p2-life.svg: pure-punct '— ' at x=1250.9 y=389.30000000000007 same-baseline siblings=11
+  p7-lang.svg: pure-punct '.' at x=1696.4 y=754.03 same-baseline siblings=6
+  p7-lang.svg: pure-punct '.' at x=1584.5 y=841.5899999999999 same-baseline siblings=5
+  p7-lang.svg: pure-punct '.' at x=1613.3 y=959.6799999999998 same-baseline siblings=6
+== spill sweep: text baselines just outside cream boxes ==
+  p1-front.svg: BELOW-BOX text y=1076.5549999999998 box bottom=1039.6 gap=37.0 'TRY IT NOW\u3000바로 연습'
+  p1-front.svg: ABOVE-BOX text y=568.0 box top=588.0 gap=20.0 '중간 선거\u3000발표된 결과\u30006면 참조'
+  p1-front.svg: BELOW-BOX text y=1676.0 box bottom=1652.0 gap=24.0 'THE WORD OF THE WEEK'
+  p2-life.svg: BELOW-BOX text y=742.6400000000001 box bottom=706.6 gap=36.0 'Life goes on around the politics. Next'
+  p2-life.svg: BELOW-BOX text y=504.5 box bottom=467.5 gap=37.0 'WHAT IS ON THIS WEEK?'
+  p3-culture.svg: BELOW-BOX text y=680.0 box bottom=644.5 gap=35.5 'A film is not only a story — it is also'
+  p3-culture.svg: BELOW-BOX text y=1406.2549999999999 box bottom=1369.3 gap=37.0 'A\u3000COMPREHENSION'
+  p3-culture.svg: BELOW-BOX text y=1105.62 box bottom=1068.6 gap=37.0 'FIVE SENTENCES'
+  p4-sport.svg: BELOW-BOX text y=856.16 box bottom=820.7 gap=35.5 'How do you follow three sports in one'
+  p4-sport.svg: BELOW-BOX text y=1618.135 box bottom=1581.1 gap=37.0 'A\u3000COMPREHENSION'
+  p4-sport.svg: BELOW-BOX text y=1311.27 box bottom=1274.3 gap=37.0 'ONE SCREEN, TWO SCREENS'
+  p5-youth.svg: BELOW-BOX text y=2280.26 box bottom=2244.8 gap=35.5 'If you want to practise'
+  p5-youth.svg: BELOW-BOX text y=382.675 box bottom=345.7 gap=37.0 'A\u3000COMPREHENSION'
+  p5-youth.svg: BELOW-BOX text y=1101.62 box bottom=1064.6 gap=37.0 "FRIDAY'S WORDS"
+  p6-deep.svg: BELOW-BOX text y=477.0 box bottom=441.0 gap=36.0 'A note on numbers in this issue: this'
+  p6-deep.svg: BELOW-BOX text y=961.5150000000001 box bottom=924.5 gap=37.0 'READ THE CHART\u3000도표 읽기'
+  p6-deep.svg: BELOW-BOX text y=915.62 box bottom=878.6 gap=37.0 'FIFTY ELECTIONS'
+  p7-lang.svg: BELOW-BOX text y=435.175 box bottom=399.7 gap=35.5 'win = to get first place. won = the past'
+  p7-lang.svg: BELOW-BOX text y=1074.825 box bottom=1039.3 gap=35.5 'more than = a bigger number than. In'
+  p7-lang.svg: BELOW-BOX text y=1750.1950000000002 box bottom=1714.7 gap=35.5 'The counting will continue. The new'
+  p7-lang.svg: BELOW-BOX text y=2213.465 box bottom=2178.0 gap=35.5 'Use the past for the past: Collins'
+  p7-lang.svg: BELOW-BOX text y=405.45 box bottom=369.9 gap=35.5 'Newspapers use the present in'
+  p7-lang.svg: BELOW-BOX text y=835.22 box bottom=799.7 gap=35.5 'Nobody knows whether the count will'
+  p7-lang.svg: BELOW-BOX text y=1045.21 box bottom=1008.2 gap=37.0 "READERS' CORNER\u3000독자의 편지"
+  p8-test.svg: ABOVE-BOX text y=1698.0 box top=1720.0 gap=22.0 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+spill sweep done
+== standalone ___ nodes per page ==
+  p1-front.svg: 0
+  p2-life.svg: 4
+  p3-culture.svg: 4
+  p4-sport.svg: 4
+  p5-youth.svg: 4
+  p6-deep.svg: 0
+  p7-lang.svg: 0
+  p8-test.svg: 2
+== Q73 three-source ==
+  registry: [{'n': 73, 'page': 5, 'level': 'A2', 'type': '문장 완성', 'key': 'up', 'note': 'speak up = 목소리를 내다'}]
+  text.md:589: EXERCISE: Speak ___: tell a teacher.
+  text.md:1151: 73. [A2] 문장 완성 — up (speak up = 목소리를 내다)
+  P8 contains '73. up': True | '73. speak' count: 0
+  P5 stem present: True

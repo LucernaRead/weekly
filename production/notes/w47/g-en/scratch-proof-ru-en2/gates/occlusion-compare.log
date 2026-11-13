@@ -1,0 +1,5 @@
+mine: 38 proof1: 38 proof3: 38
+mine - proof1: {('p6-razbor.svg', 'TEXTX', '?\u3000', None)}
+proof1 - mine: {('p6-razbor.svg', 'TEXTX', '?\u3000PRACTICE DATA', None)}
+mine - proof3: {('p6-razbor.svg', 'TEXTX', '?\u3000', None)}
+proof3 - mine: {('p6-razbor.svg', 'TEXTX', '?\u3000PRACTICE DATA', None)}

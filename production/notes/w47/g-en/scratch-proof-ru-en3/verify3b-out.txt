@@ -1,0 +1,168 @@
+{
+ "print": {
+  "line_y0": 1266.76,
+  "n_spans": 3,
+  "word_font": "NotoSerif-MediumItalic",
+  "word_size": 16.12,
+  "word_bbox": [
+   1088.042,
+   1266.762,
+   1222.815,
+   1288.725
+  ],
+  "space_bbox": [
+   1145.576,
+   1266.762,
+   1148.108,
+   1288.725
+  ],
+  "space_width": 2.532,
+  "ya_x1": 1145.576,
+  "pe_x0": 1148.108,
+  "gap_ya_pe": 2.532,
+  "last_a_x1": 1222.815,
+  "quote_x0": 1220.622,
+  "quote_font": "Newsreader16pt-Italic",
+  "gap_a_quote": -2.193
+ },
+ "web": {
+  "line_y0": 1266.76,
+  "n_spans": 3,
+  "word_font": "LucernaNotoSerif-Italic",
+  "word_size": 16.12,
+  "word_bbox": [
+   1088.042,
+   1266.762,
+   1222.815,
+   1288.725
+  ],
+  "space_bbox": [
+   1145.576,
+   1266.762,
+   1148.108,
+   1288.725
+  ],
+  "space_width": 2.532,
+  "ya_x1": 1145.576,
+  "pe_x0": 1148.108,
+  "gap_ya_pe": 2.532,
+  "last_a_x1": 1222.815,
+  "quote_x0": 1220.622,
+  "quote_font": "LucernaNewsreader-Italic",
+  "gap_a_quote": -2.193
+ },
+ "d3a": {
+  "space_bbox_equal": true,
+  "space_width_print": 2.532,
+  "space_width_web": 2.532,
+  "gap_print": 2.532,
+  "gap_web": 2.532,
+  "gap_diff": 0.0
+ },
+ "d3b": {
+  "last_a_x1_print": 1222.815,
+  "last_a_x1_web": 1222.815,
+  "x1_deficit": 0.0,
+  "quote_x0_print": 1220.622,
+  "quote_x0_web": 1220.622,
+  "gap_print": -2.193,
+  "gap_web": -2.193,
+  "gap_diff": 0.0
+ },
+ "p7_print": [
+  {
+   "y0": 201.01,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  },
+  {
+   "y0": 338.65,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  },
+  {
+   "y0": 496.18,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  },
+  {
+   "y0": 612.91,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  },
+  {
+   "y0": 813.55,
+   "x0": 1096.12,
+   "x1": 1104.994,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  },
+  {
+   "y0": 989.43,
+   "x0": 1096.12,
+   "x1": 1104.994,
+   "font": "Newsreader16pt-Regular",
+   "text": "«"
+  }
+ ],
+ "p7_web": [
+  {
+   "y0": 201.01,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "LucernaNewsreader-Bold",
+   "text": "«"
+  },
+  {
+   "y0": 338.65,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "LucernaNewsreader-Bold",
+   "text": "«"
+  },
+  {
+   "y0": 496.18,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "LucernaNewsreader-Bold",
+   "text": "«"
+  },
+  {
+   "y0": 612.91,
+   "x0": 1096.12,
+   "x1": 1105.606,
+   "font": "LucernaNewsreader-Bold",
+   "text": "«"
+  },
+  {
+   "y0": 813.55,
+   "x0": 1096.12,
+   "x1": 1104.994,
+   "font": "LucernaNewsreader-Regula",
+   "text": "«"
+  },
+  {
+   "y0": 989.43,
+   "x0": 1096.12,
+   "x1": 1104.994,
+   "font": "LucernaNewsreader-Regula",
+   "text": "«"
+  }
+ ],
+ "p7_deficits": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ]
+}

@@ -1,0 +1,15 @@
+BACKFILL 2 line(s) at pre L45: ['', '### СМИ · O QUE DIZEM OS MEDIA']
+BACKFILL 2 line(s) at pre L449: ['### ЗА И ПРОТИВ · PRÓS E CONTRAS', '']
+WROTE /tmp/fix3-final/2026-w47-ru-pt.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -32,7 +32,7 @@
+ 
+ 20 — ноября возвращается чемпионат: 15-й тур
+ 
+-## СЕЙЧАС ВЫ · AGORA VOCÊ
++## СЕЙЧАС ВЫ · AGORA TU
+ 
+ 1. [A2 · Completar frases] 14-й тур завершился ___ ноября. — key: 8 (A jornada 14 terminou a 8 de novembro)
+ 2. [A2 · Completar frases] «Зенит» и «Динамо» набрали по ___ очку. — key: 31 (Zenit e Dínamo têm 31 pontos cada um)

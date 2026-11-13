@@ -1,0 +1,31 @@
+===== zh-cn 2026-11-12T23:48:47Z disk=95G =====
+run.py rc=0
+probe rc=0 : 2026-w47-zh-cn-ru: runs=5529 LAT@NotoSans=0 LAT@Newsreader=1811 CYR@NotoSans=4851 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=801 curly={'Newsreader': 4}
+render.py rc=0
+print PDF mtime=2026-11-12 23:49:37.891615188 +0000 size=33644459
+52aa381ae7dd22cd30cb06fa0a40c7e3db065d941d46fa71e732f14d1f45840a  Lucerna-VOL4-RU.pdf
+pre non-space chars: 22680; post non-space chars: 22680
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (51589 chars)
+webpdf.py rc=0
+web PDF mtime=2026-11-12 23:50:33.791615013 +0000 size=2557060
+3e47f038c53b5b5f082f7f367fecd0bf3aa8eec1a174b2026689a3068292808c  Lucerna-VOL4-RU-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-touiban.svg: No such file or directory
+svg/p1-touiban.svg: FAILED open or read
+sha256sum: svg/p2-shenghuo.svg: No such file or directory
+svg/p2-shenghuo.svg: FAILED open or read
+sha256sum: svg/p3-wenhua.svg: No such file or directory
+svg/p3-wenhua.svg: FAILED open or read
+sha256sum: svg/p4-tiyu.svg: No such file or directory
+svg/p4-tiyu.svg: FAILED open or read
+sha256sum: svg/p5-qingnian.svg: No such file or directory
+svg/p5-qingnian.svg: FAILED open or read
+sha256sum: svg/p6-shendu.svg: No such file or directory
+svg/p6-shendu.svg: FAILED open or read
+sha256sum: svg/p7-ciyu.svg: No such file or directory
+svg/p7-ciyu.svg: FAILED open or read
+sha256sum: svg/p8-ceyan.svg: No such file or directory
+svg/p8-ceyan.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE zh-cn 2026-11-12T23:50:35Z

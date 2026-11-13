@@ -1,0 +1,14 @@
+content56.py:136 current: 'ЗА И ПРОТИВ\u3000FOR & AGAINST'
+  string 'ЗА И ПРОТИВ\u3000FOR & AGAINST' size=24
+    run x=1461.5 cls=sans_noto 'ЗА' bbox_x0=0 bbox_x1=33 ink_right=1494.5
+    run x=1499.1 cls=sans_noto 'И' bbox_x0=0 bbox_x1=20 ink_right=1519.1
+    run x=1524.3 cls=sans_noto 'ПРОТИВ' bbox_x0=0 bbox_x1=101 ink_right=1625.3
+    run x=1625.4 cls=sans '\u3000FOR & AGAINST' bbox_x0=0 bbox_x1=204 ink_right=1829.4
+  -> PIL true-ink right edge 1829.4 svg px, box right 1862.0, margin +32.6px
+  [fallback] current string at 23pt:
+  string 'ЗА И ПРОТИВ\u3000FOR & AGAINST' size=23
+    run x=1461.5 cls=sans_noto 'ЗА' bbox_x0=0 bbox_x1=31 ink_right=1492.5
+    run x=1497.5 cls=sans_noto 'И' bbox_x0=0 bbox_x1=19 ink_right=1516.5
+    run x=1521.6 cls=sans_noto 'ПРОТИВ' bbox_x0=0 bbox_x1=97 ink_right=1618.6
+    run x=1618.5 cls=sans '\u3000FOR & AGAINST' bbox_x0=0 bbox_x1=196 ink_right=1814.5
+  -> PIL true-ink right edge 1814.5 svg px, box right 1862.0, margin +47.5px

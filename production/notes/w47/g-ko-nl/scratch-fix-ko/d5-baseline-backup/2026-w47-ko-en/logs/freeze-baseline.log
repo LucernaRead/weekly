@@ -1,0 +1,11 @@
+runtime: /usr/bin/python3 | Pillow 10.2.0 | FreeType 2.13.2
+baseline: 7/8 SVGs byte-identical (repointed files: none)
+  DIFF p1-pyoji.svg core 4a23e7feec3f500e produced 634e7b5ce6fa0380
+  OK  p2-saenghwal.svg core 47c13b0bf891c45b produced 47c13b0bf891c45b
+  OK  p3-munhwa.svg core be14be6e903e211f produced be14be6e903e211f
+  OK  p4-seupocheu.svg core 838065116c3516e0 produced 838065116c3516e0
+  OK  p5-cheongnyeon.svg core edac8b4d078a5396 produced edac8b4d078a5396
+  OK  p6-gipi.svg core 42ae4caf322e2271 produced 42ae4caf322e2271
+  OK  p7-mal.svg core 1a716ce99495c2a0 produced 1a716ce99495c2a0
+  OK  p8-siheom.svg core 29ca84cde10b59d1 produced 29ca84cde10b59d1
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

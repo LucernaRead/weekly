@@ -1,0 +1,96 @@
+[2026-w47-fr-ru/fix-ru2] run.py
+  !! HEAD TOO WIDE [P7-outils]: BOÎTE À OUTILS　ИНСТРУМЕНТЫ
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 1
+[2026-w47-fr-ru/fix-ru2] render.py
+render rc=0
+[2026-w47-fr-ru/fix-ru2] webpdf.py
+webpdf rc=0
+  font LucernaNotoSansCJKSC-Bold: 29344 bytes
+  font LucernaNotoSerifCJKSC-Regular: 35896 bytes
+  font LucernaNotoSerifCJKSC-Bold: 37224 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31344 bytes
+WROTE La-Lucerna-VOL4-fr-ru-web.pdf: 1773854 bytes, 51025 text bytes
+[2026-w47-fr-ru/fix-ru2] shas
+-rw-rw---- 1 root nogroup  1773854 Nov 13 01:27 La-Lucerna-VOL4-fr-ru-web.pdf
+-rw-rw---- 1 root nogroup 17222281 Nov 13 01:27 La-Lucerna-VOL4-fr-ru.pdf
+af7d37bc0a56a786b038561da1a0f049a2d04b5397ba5cc15e8c3f728e9f0510  La-Lucerna-VOL4-fr-ru.pdf
+f6e82ee074cf7392220f9b4fa52be7ef640070f3d8d2caea68b4994abe95ddc2  La-Lucerna-VOL4-fr-ru-web.pdf
+ae0a0429047a1c0f249f38f53ad15f2329b81247f55fcf0bddeb252263e8a410  2026-w47-fr-ru.text.md
+[2026-w47-fr-ru/fix-ru2] text layers print vs web
+TEXTLAYER print==web BYTE-IDENTICAL
+print chars 96699 web chars 96699
+multiset diff total 0
+only-in-print {} only-in-web {}
+[2026-w47-fr-ru/fix-ru2] occlusion
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+[2026-w47-fr-ru/fix-ru2] p8 extract
+p8extract rc=0
+svg/p8-exercices.svg: noted set = 121 of 150 (parse: joined)
+  set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[2026-w47-fr-ru/fix-ru2] p8 compare vs core-fr
+p8compare-core rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+[2026-w47-fr-ru/fix-ru2] p8 compare vs pre-fix baseline
+p8compare-pre rc=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ru/baseline/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[2026-w47-fr-ru/fix-ru2] freeze baseline
+freeze-baseline rc=0
+  OK  p7-langue.svg core 29ba41574b775e4c produced 29ba41574b775e4c
+  OK  p8-exercices.svg core b77842b81caafcab produced b77842b81caafcab
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[2026-w47-fr-ru/fix-ru2] freeze diff vs core-fr
+freeze-diff rc=0
+p1: +166 strings / -52 strings; CJK core 224 -> edition 34; added CJK chars: 0 ; added Latin strings: 6 (unexpected 6)
+p2: +221 strings / -74 strings; CJK core 283 -> edition 33; added CJK chars: 0 ; added Latin strings: 5 (unexpected 5)
+p3: +139 strings / -67 strings; CJK core 194 -> edition 20; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 9 (unexpected 9)
+p4: +180 strings / -63 strings; CJK core 236 -> edition 28; added CJK chars: 0 ; added Latin strings: 14 (unexpected 14)
+p5: +191 strings / -55 strings; CJK core 243 -> edition 22; added CJK chars: 0 ; added Latin strings: 6 (unexpected 6)
+p6: +146 strings / -55 strings; CJK core 227 -> edition 22; added CJK chars: 0 ; added Latin strings: 13 (unexpected 13)
+p7: +258 strings / -76 strings; CJK core 411 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 14 (unexpected 14)
+p8: +927 strings / -543 strings; CJK core 1220 -> edition 190; added CJK chars: 8 {'\u3000': 8}; added Latin strings: 141 (unexpected 141)
+TOTAL added CJK characters: 10
+TOTAL added Latin strings: 208 (unexpected 208)
+p5: +191 strings / -55 strings; CJK core 243 -> edition 22; added CJK chars: 0 ; added Latin strings: 6 (unexpected 6)
+p6: +146 strings / -55 strings; CJK core 227 -> edition 22; added CJK chars: 0 ; added Latin strings: 13 (unexpected 13)
+p7: +258 strings / -76 strings; CJK core 411 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 14 (unexpected 14)
+p8: +927 strings / -543 strings; CJK core 1220 -> edition 190; added CJK chars: 8 {'\u3000': 8}; added Latin strings: 141 (unexpected 141)
+TOTAL added CJK characters: 10
+TOTAL added Latin strings: 208 (unexpected 208)
+[2026-w47-fr-ru/fix-ru2] boxtitle
+boxtitle rc=0
+== 2026-w47-fr-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-ru: 53 titles, 549 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[2026-w47-fr-ru/fix-ru2] creambox
+creambox rc=1
+  DEFECT spill box#1 'нового хозяина — или попадёт в' {'box': 1, 's': 'нового хозяина — или попадёт в', 'issue': 'spilled below box', 'y_base': 811.0, 'y_patch': 2354.6, 'box_bottom': 887.9}
+  DEFECT spill box#1 'мусор?' {'box': 1, 's': 'мусор?', 'issue': 'spilled below box', 'y_base': 841.5, 'y_patch': 2382.6, 'box_bottom': 887.9}
+p6-politique.svg: els 233->346 lines 165->161 diff 103 moved 45 defects 0 observe 0
+p7-langue.svg: els 189->428 lines 110->118 diff 116 moved 59 defects 0 observe 0
+p8-exercices.svg: els 356->1294 lines 194->196 diff 74 moved 42 defects 0 observe 0
+ratios: n=515 median=1.029 boldT=1.049 boldF=1.016
+P8 p8-exercices.svg: lines 194->196 slack_footer 32.7->32.7
+CREAMBOX FAIL 3 defects
+[2026-w47-fr-ru/fix-ru2] spill
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1565.9 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-ru: 33 boxes, 151 candidates, 0 SPILL, 151 OBSERVE
+[2026-w47-fr-ru/fix-ru2] edge scan
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 54.7}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-ru: 8 pages, 0 TOUCH, 0 NEAR
+[2026-w47-fr-ru/fix-ru2] census
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=932
+CENSUS PASS
+=== SUMMARY 2026-w47-fr-ru/fix-ru2 FAILFLAG=0 (rcs above; 0=pass) ===

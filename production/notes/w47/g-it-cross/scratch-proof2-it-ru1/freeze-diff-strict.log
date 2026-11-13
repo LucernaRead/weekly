@@ -1,0 +1,11 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +216 strings / -39 strings; CJK core 197 -> edition 20; added CJK chars: 1 {'\u3000': 1}
+p2: +188 strings / -29 strings; CJK core 191 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p3: +173 strings / -30 strings; CJK core 180 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p4: +153 strings / -26 strings; CJK core 162 -> edition 17; added CJK chars: 1 {'\u3000': 1}
+p5: +222 strings / -40 strings; CJK core 227 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p6: +164 strings / -25 strings; CJK core 167 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p7: +302 strings / -40 strings; CJK core 304 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p8: +1011 strings / -402 strings; CJK core 1015 -> edition 22; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 8

@@ -1,0 +1,55 @@
+======================== content12.py
+  !! FLOW OVERFLOW [P1-headline] col 2 y=1739 need 99 bottom 1828
+  flow[P1-headline] ended col 2/2 y=1942 (bottom 1828)
+P1 col3 semana ends 1212.3500000000001
+P1 col3 ends 1832.55
+  flow[P1-tv] ended col 0/0 y=2249 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1105 (bottom 1540)
+P2 col3 ends 909.0
+  flow[P2-ex] ended col 3/3 y=2323 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/1 y=714 (bottom 1560)
+P3 col3 ends 1080.0
+  flow[P3-ex] ended col 2/3 y=2408 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=458 (bottom 1080)
+P4 col3 ends 905.0
+  flow[P4-ex] ended col 2/3 y=2368 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1109 (bottom 1560)
+P5 col3 ends 1256.5
+  flow[P5-ex] ended col 2/3 y=2377 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=531 (bottom 1520)
+P6 col3 ends 1066.0
+  flow[P6-ex] ended col 3/3 y=2305 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1181 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1181 (bottom 1560)
+P7 image ends ~ 1653.4649999999997
+P7 col3 ends 1958.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=976 (bottom 1252)
+P8 exercises end y: 976.1499999999999 col: 3
+P8 image ends ~ 1247.4500000000003
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2559 need 15 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2588 need 15 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2588 need 15 bottom 2560
+  flow[P8-keys] ended col 3/3 y=2588 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 88
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Дополни предложение': 61, 'Выбери один ответ': 62, 'Соедините слова': 12, 'Составление предложений': 7, 'Верно или неверно': 3, 'Перевод': 4, 'Письмо': 1}
+ALL DONE

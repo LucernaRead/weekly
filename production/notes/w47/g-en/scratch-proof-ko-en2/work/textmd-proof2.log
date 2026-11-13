@@ -1,0 +1,5 @@
+collect() returned: <class 'dict'> len: 8
+unique: 8
+Traceback (most recent call last):
+  File "<stdin>", line 9, in <module>
+KeyError: slice(None, 3, None)

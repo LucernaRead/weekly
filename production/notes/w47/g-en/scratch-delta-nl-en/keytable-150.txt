@@ -1,0 +1,750 @@
+### Q1 [A2 · complete] p1 verdict=MATCH
+  STEM: Duitsland – Nederland begint maandag om ___ uur. — Correct: 20:45（Germany–Netherlands kicks off Monday at 20:45）
+  REG : key='20:45' note='Germany–Netherlands kicks off Monday at 20:45'
+  MD  : ans='20:45'
+  P8  : key='20:45'
+### Q2 [A2 · complete] p1 verdict=MATCH
+  STEM: Oranje speelt maandag in ___ tegen Duitsland. — Correct: Berlijn（The match is in Berlin）
+  REG : key='Berlijn' note='The match is in Berlin'
+  MD  : ans='Berlijn'
+  P8  : key='Berlijn'
+### Q3 [A2 · complete] p1 verdict=MATCH
+  STEM: Nederland en Griekenland hebben allebei ___ punten. — Correct: 8（The Netherlands and Greece both have 8 points）
+  REG : key='8' note='The Netherlands and Greece both have 8 points'
+  MD  : ans='8'
+  P8  : key='8'
+### Q4 [A2 · complete] p1 verdict=MATCH
+  STEM: De intocht in Amsterdam was op zondag ___ november. — Correct: 15（The Amsterdam arrival is on Sunday 15 November）
+  REG : key='15' note='The Amsterdam arrival is on Sunday 15 November'
+  MD  : ans='15'
+  P8  : key='15'
+### Q5 [A2 · complete] p1 verdict=MATCH
+  STEM: Pakjesavond is op zaterdag ___ december. — Correct: 5（Pakjesavond is on 5 December）
+  REG : key='5' note='Pakjesavond is on 5 December'
+  MD  : ans='5'
+  P8  : key='5'
+### Q6 [B1 · complete] p1 verdict=MATCH
+  STEM: Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — Correct: maakte（The Netherlands scored 7 goals）
+  REG : key='maakte' note='The Netherlands scored 7 goals'
+  MD  : ans='maakte'
+  P8  : key='maakte'
+### Q7 [A2 · choice] p1 verdict=MATCH
+  STEM: Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — Correct: B（Germany–Netherlands kicks off Monday at 20:45）
+  REG : key='B' note='Germany–Netherlands kicks off Monday at 20:45'
+  MD  : ans='B'
+  P8  : key='B'
+### Q8 [A2 · choice] p1 verdict=MATCH
+  STEM: Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — Correct: B（The match is at the Olympiastadion Berlin）
+  REG : key='B' note='The match is at the Olympiastadion Berlin'
+  MD  : ans='B'
+  P8  : key='B'
+### Q9 [A2 · choice] p1 verdict=MATCH
+  STEM: Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — Correct: C（The Netherlands and Greece both have 8 points）
+  REG : key='C' note='The Netherlands and Greece both have 8 points'
+  MD  : ans='C'
+  P8  : key='C'
+### Q10 [A2 · choice] p1 verdict=MATCH
+  STEM: Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — Correct: B（Pakjesavond is on Saturday 5 December）
+  REG : key='B' note='Pakjesavond is on Saturday 5 December'
+  MD  : ans='B'
+  P8  : key='B'
+### Q11 [A2 · choice] p2 verdict=MATCH
+  STEM: Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — Correct: B（Sinterklaas arrived in Grave and Amsterdam last weekend）
+  REG : key='B' note='Sinterklaas arrived in Grave and Amsterdam last weekend'
+  MD  : ans='B'
+  P8  : key='B'
+### Q12 [A2 · choice] p2 verdict=MATCH
+  STEM: De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — Correct: B（The carrot in the shoe is for the horse）
+  REG : key='B' note='The carrot in the shoe is for the horse'
+  MD  : ans='B'
+  P8  : key='B'
+### Q13 [A2 · choice] p2 verdict=MATCH
+  STEM: Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — Correct: C（Pakjesavond is on 5 December）
+  REG : key='C' note='Pakjesavond is on 5 December'
+  MD  : ans='C'
+  P8  : key='C'
+### Q14 [A2 · choice] p2 verdict=MATCH
+  STEM: Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — Correct: A（A surprise is a present in disguise）
+  REG : key='A' note='A surprise is a present in disguise'
+  MD  : ans='A'
+  P8  : key='A'
+### Q15 [A2 · choice] p2 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — Correct: B（The Sinterklaas news is on every day at 18:00）
+  REG : key='B' note='The Sinterklaas news is on every day at 18:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q16 [A2 · complete] p2 verdict=MATCH
+  STEM: Kinderen zetten hun ___ bij de deur. — Correct: schoen（schoen = shoe） [Fill in]
+  REG : key='schoen' note='schoen = shoe'
+  MD  : ans='schoen'
+  P8  : key='schoen'
+### Q17 [A2 · complete] p2 verdict=MATCH
+  STEM: In de schoen zit een ___ voor het paard. — Correct: wortel（wortel = carrot） [Fill in]
+  REG : key='wortel' note='wortel = carrot'
+  MD  : ans='wortel'
+  P8  : key='wortel'
+### Q18 [A2 · complete] p2 verdict=MATCH
+  STEM: Op het ___ staan drie wensen. — Correct: verlanglijstje（verlanglijstje = wish list） [Fill in]
+  REG : key='verlanglijstje' note='verlanglijstje = wish list'
+  MD  : ans='verlanglijstje'
+  P8  : key='verlanglijstje'
+### Q19 [A2 · complete] p2 verdict=MATCH
+  STEM: Bij de surprise hoort een ___. — Correct: gedicht（gedicht = poem） [Fill in]
+  REG : key='gedicht' note='gedicht = poem'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q20 [A2 · complete] p2 verdict=MATCH
+  STEM: Pakjesavond is op ___ december. — Correct: 5（Pakjesavond is on 5 December） [Fill in]
+  REG : key='5' note='Pakjesavond is on 5 December'
+  MD  : ans='5'
+  P8  : key='5'
+### Q21 [A2 · complete] p2 verdict=MATCH
+  STEM: Het paard van Sinterklaas heet ___. — Correct: Ozosnel（Sinterklaas's horse is called Ozosnel） [Fill in]
+  REG : key='Ozosnel' note="Sinterklaas's horse is called Ozosnel"
+  MD  : ans='Ozosnel'
+  P8  : key='Ozosnel'
+### Q22 [A2 · complete] p2 verdict=MATCH
+  STEM: Van 16 november tot 5 december: ___ dagen. — Correct: 19（From 16 November to 5 December is 19 days） [Fill in]
+  REG : key='19' note='From 16 November to 5 December is 19 days'
+  MD  : ans='19'
+  P8  : key='19'
+### Q23 [A2 · complete] p2 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is om ___ uur. — Correct: 18:00（The Sinterklaas news at 18:00） [Fill in]
+  REG : key='18:00' note='The Sinterklaas news at 18:00'
+  MD  : ans='18:00'
+  P8  : key='18:00'
+### Q24 [A2 · complete] p2 verdict=MATCH
+  STEM: Pakjesavond is in ___. — Correct: december（Pakjesavond is in December） [Fill in]
+  REG : key='december' note='Pakjesavond is in December'
+  MD  : ans='december'
+  P8  : key='december'
+### Q25 [A2 · matching] p2 verdict=MATCH
+  STEM: None
+  REG : key='d' note='schoen = shoe d'
+  MD  : ans='d'
+  P8  : key='d'
+### Q26 [A2 · matching] p2 verdict=MATCH
+  STEM: None
+  REG : key='c' note='wortel = carrot c'
+  MD  : ans='c'
+  P8  : key='c'
+### Q27 [A2 · matching] p2 verdict=MATCH
+  STEM: None
+  REG : key='a' note='verlanglijstje = wish list a'
+  MD  : ans='a'
+  P8  : key='a'
+### Q28 [A2 · matching] p2 verdict=MATCH
+  STEM: None
+  REG : key='b' note='gedicht = poem b'
+  MD  : ans='b'
+  P8  : key='b'
+### Q29 [A2 · choice] p3 verdict=MATCH
+  STEM: De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — Correct: B（The national arrival is in Grave）
+  REG : key='B' note='The national arrival is in Grave'
+  MD  : ans='B'
+  P8  : key='B'
+### Q30 [A2 · choice] p3 verdict=MATCH
+  STEM: De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — Correct: B（The boat docks at the Maaskade around 12:00）
+  REG : key='B' note='The boat docks at the Maaskade around 12:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q31 [A2 · choice] p3 verdict=MATCH
+  STEM: De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — Correct: C（The Amsterdam boat leaves De Omval at 10:15）
+  REG : key='C' note='The Amsterdam boat leaves De Omval at 10:15'
+  MD  : ans='C'
+  P8  : key='C'
+### Q32 [A2 · choice] p3 verdict=MATCH
+  STEM: De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — Correct: A（The Amsterdam arrival is the 88th edition）
+  REG : key='A' note='The Amsterdam arrival is the 88th edition'
+  MD  : ans='A'
+  P8  : key='A'
+### Q33 [A2 · choice] p3 verdict=MATCH
+  STEM: Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — Correct: B（Het diner is free to pick up at the library）
+  REG : key='B' note='Het diner is free to pick up at the library'
+  MD  : ans='B'
+  P8  : key='B'
+### Q34 [A2 · complete] p3 verdict=MATCH
+  STEM: Grave is een oude ___ aan de Maas. — Correct: vestingstad（vestingstad = fortress town） [Fill in]
+  REG : key='vestingstad' note='vestingstad = fortress town'
+  MD  : ans='vestingstad'
+  P8  : key='vestingstad'
+### Q35 [B1 · complete] p3 verdict=MATCH
+  STEM: Burgemeester Moorman ___ Sinterklaas in Grave. — Correct: ontving（ontvangen past tense: ontving） [Fill in]
+  REG : key='ontving' note='ontvangen past tense: ontving'
+  MD  : ans='ontving'
+  P8  : key='ontving'
+### Q36 [B1 · complete] p3 verdict=MATCH
+  STEM: Sinterklaas kreeg de ___ van de stad. — Correct: sleutel（sleutel = key） [Fill in]
+  REG : key='sleutel' note='sleutel = key'
+  MD  : ans='sleutel'
+  P8  : key='sleutel'
+### Q37 [B1 · complete] p3 verdict=MATCH
+  STEM: Het was de 88e ___ van de Amsterdamse intocht. — Correct: editie（editie = edition） [Fill in]
+  REG : key='editie' note='editie = edition'
+  MD  : ans='editie'
+  P8  : key='editie'
+### Q38 [A2 · complete] p3 verdict=MATCH
+  STEM: In de bibliotheek is er een ___ over Het diner. — Correct: leeskring（leeskring = reading club） [Fill in]
+  REG : key='leeskring' note='leeskring = reading club'
+  MD  : ans='leeskring'
+  P8  : key='leeskring'
+### Q39 [B1 · complete] p3 verdict=MATCH
+  STEM: Sinterklaas ___ (aankomen) in Grave. — Correct: is aangekomen（aankomen takes zijn: is aangekomen） [Fill in]
+  REG : key='is aangekomen' note='aankomen takes zijn: is aangekomen'
+  MD  : ans='is aangekomen'
+  P8  : key='is aangekomen'
+### Q40 [B1 · complete] p3 verdict=MATCH
+  STEM: De burgemeester ___ (ontvangen) Sinterklaas. — Correct: heeft ontvangen（ontvangen perfectum: heeft ontvangen） [Fill in]
+  REG : key='heeft ontvangen' note='ontvangen perfectum: heeft ontvangen'
+  MD  : ans='heeft ontvangen'
+  P8  : key='heeft ontvangen'
+### Q41 [B1 · complete] p3 verdict=MATCH
+  STEM: De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — Correct: is gevaren（varen takes zijn: is gevaren） [Fill in]
+  REG : key='is gevaren' note='varen takes zijn: is gevaren'
+  MD  : ans='is gevaren'
+  P8  : key='is gevaren'
+### Q42 [B1 · complete] p3 verdict=MATCH
+  STEM: Veel mensen ___ (lezen) Het diner in november. — Correct: hebben gelezen（lezen perfectum: hebben gelezen） [Fill in]
+  REG : key='hebben gelezen' note='lezen perfectum: hebben gelezen'
+  MD  : ans='hebben gelezen'
+  P8  : key='hebben gelezen'
+### Q43 [B1 · complete] p3 verdict=MATCH
+  STEM: Van zaterdag 14 tot zondag 15 november: ___ dag. — Correct: 1（From 14 to 15 November is 1 day） [Fill in]
+  REG : key='1' note='From 14 to 15 November is 1 day'
+  MD  : ans='1'
+  P8  : key='1'
+### Q44 [B1 · complete] p3 verdict=MATCH
+  STEM: Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — Correct: 4（The Grave programme, 12:00–16:00, lasts 4 hours） [Fill in]
+  REG : key='4' note='The Grave programme, 12:00–16:00, lasts 4 hours'
+  MD  : ans='4'
+  P8  : key='4'
+### Q45 [B1 · complete] p3 verdict=MATCH
+  STEM: Van 16 november tot 5 december: ___ dagen. — Correct: 19（From 16 November to 5 December is 19 days） [Fill in]
+  REG : key='19' note='From 16 November to 5 December is 19 days'
+  MD  : ans='19'
+  P8  : key='19'
+### Q46 [B2 · complete] p3 verdict=MATCH
+  STEM: Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — Correct: 17（Het diner is from 2009: 17 years ago in 2026） [Fill in]
+  REG : key='17' note='Het diner is from 2009: 17 years ago in 2026'
+  MD  : ans='17'
+  P8  : key='17'
+### Q47 [B1 · choice] p4 verdict=MATCH
+  STEM: Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — Correct: C（Germany–Netherlands, Monday, in Berlin）
+  REG : key='C' note='Germany–Netherlands, Monday, in Berlin'
+  MD  : ans='C'
+  P8  : key='C'
+### Q48 [B1 · choice] p4 verdict=MATCH
+  STEM: Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — Correct: B（The Netherlands and Greece both have 8 points）
+  REG : key='B' note='The Netherlands and Greece both have 8 points'
+  MD  : ans='B'
+  P8  : key='B'
+### Q49 [B1 · choice] p4 verdict=MATCH
+  STEM: Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Correct: B（Germany lost 0–1 at home to Greece）
+  REG : key='B' note='Germany lost 0–1 at home to Greece'
+  MD  : ans='B'
+  P8  : key='B'
+### Q50 [B1 · choice] p4 verdict=MATCH
+  STEM: Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — Correct: B（Eredivisie matchday 13 is on 21–22 November）
+  REG : key='B' note='Eredivisie matchday 13 is on 21–22 November'
+  MD  : ans='B'
+  P8  : key='B'
+### Q51 [B1 · choice] p4 verdict=MATCH
+  STEM: PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — Correct: B（PSV beat Cambuur 2–5）
+  REG : key='B' note='PSV beat Cambuur 2–5'
+  MD  : ans='B'
+  P8  : key='B'
+### Q52 [B1 · complete] p4 verdict=MATCH
+  STEM: Maandag valt de beslissing om de ___. — Correct: groepswinst（groepswinst = group win） [Fill in]
+  REG : key='groepswinst' note='groepswinst = group win'
+  MD  : ans='groepswinst'
+  P8  : key='groepswinst'
+### Q53 [B1 · complete] p4 verdict=MATCH
+  STEM: De nummers één en twee gaan naar de ___. — Correct: kwartfinales（kwartfinale plural: kwartfinales） [Fill in]
+  REG : key='kwartfinales' note='kwartfinale plural: kwartfinales'
+  MD  : ans='kwartfinales'
+  P8  : key='kwartfinales'
+### Q54 [B1 · complete] p4 verdict=MATCH
+  STEM: Oranje is nog ___ na vier wedstrijden. — Correct: ongeslagen（ongeslagen = unbeaten） [Fill in]
+  REG : key='ongeslagen' note='ongeslagen = unbeaten'
+  MD  : ans='ongeslagen'
+  P8  : key='ongeslagen'
+### Q55 [B1 · complete] p4 verdict=MATCH
+  STEM: Op de ___ staat Servië onderaan met 0 punten. — Correct: stand（stand = the table） [Fill in]
+  REG : key='stand' note='stand = the table'
+  MD  : ans='stand'
+  P8  : key='stand'
+### Q56 [B1 · complete] p4 verdict=MATCH
+  STEM: Na maandag is er geen ___ meer tot maart. — Correct: interland（interland = international match） [Fill in]
+  REG : key='interland' note='interland = international match'
+  MD  : ans='interland'
+  P8  : key='interland'
+### Q57 [B1 · complete] p4 verdict=MATCH
+  STEM: Oranje ___ (spelen) 1–1 tegen Duitsland. — Correct: speelde（spelen past tense: speelde） [Fill in]
+  REG : key='speelde' note='spelen past tense: speelde'
+  MD  : ans='speelde'
+  P8  : key='speelde'
+### Q58 [B1 · complete] p4 verdict=MATCH
+  STEM: PSV ___ (winnen) met 2–5 van Cambuur. — Correct: won（winnen past tense: won） [Fill in]
+  REG : key='won' note='winnen past tense: won'
+  MD  : ans='won'
+  P8  : key='won'
+### Q59 [B1 · complete] p4 verdict=MATCH
+  STEM: Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Correct: verloor（verliezen past tense: verloor） [Fill in]
+  REG : key='verloor' note='verliezen past tense: verloor'
+  MD  : ans='verloor'
+  P8  : key='verloor'
+### Q60 [B2 · complete] p4 verdict=MATCH
+  STEM: Twente en Ajax ___ (spelen) 2–2 gelijk. — Correct: speelden（spelen past tense plural: speelden） [Fill in]
+  REG : key='speelden' note='spelen past tense plural: speelden'
+  MD  : ans='speelden'
+  P8  : key='speelden'
+### Q61 [B1 · true or false] p4 verdict=MATCH
+  STEM: Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — Correct: Waar（True: Germany–Netherlands, Monday 20:45） [True or false?]
+  REG : key='Waar' note='True: Germany–Netherlands, Monday 20:45'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q62 [B1 · true or false] p4 verdict=MATCH
+  STEM: Servië heeft 8 punten in groep 2. Waar of niet waar? — Correct: Niet waar（False: Serbia are bottom with 0 points） [True or false?]
+  REG : key='Niet waar' note='False: Serbia are bottom with 0 points'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q63 [B1 · true or false] p4 verdict=MATCH
+  STEM: PSV staat onderaan in de Eredivisie. Waar of niet waar? — Correct: Niet waar（False: PSV top the Eredivisie with 26 points） [True or false?]
+  REG : key='Niet waar' note='False: PSV top the Eredivisie with 26 points'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q64 [B1 · true or false] p4 verdict=MATCH
+  STEM: Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — Correct: Waar（True: Heerenveen beat Feyenoord 5–3） [True or false?]
+  REG : key='Waar' note='True: Heerenveen beat Feyenoord 5–3'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q65 [B1 · choice] p5 verdict=MATCH
+  STEM: Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — Correct: B（Robinson is on every Sunday at 20:00 on RTL 4）
+  REG : key='B' note='Robinson is on every Sunday at 20:00 on RTL 4'
+  MD  : ans='B'
+  P8  : key='B'
+### Q66 [B1 · choice] p5 verdict=MATCH
+  STEM: Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — Correct: A（19 contestants）
+  REG : key='A' note='19 contestants'
+  MD  : ans='A'
+  P8  : key='A'
+### Q67 [B1 · choice] p5 verdict=MATCH
+  STEM: De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — Correct: C（The show is filmed on a desert island in Malaysia）
+  REG : key='C' note='The show is filmed on a desert island in Malaysia'
+  MD  : ans='C'
+  P8  : key='C'
+### Q68 [B1 · choice] p5 verdict=MATCH
+  STEM: De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — Correct: B（The contestants spend 34 days on the island）
+  REG : key='B' note='The contestants spend 34 days on the island'
+  MD  : ans='B'
+  P8  : key='B'
+### Q69 [B1 · choice] p5 verdict=MATCH
+  STEM: Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — Correct: A（A disguised present holds a poem）
+  REG : key='A' note='A disguised present holds a poem'
+  MD  : ans='A'
+  P8  : key='A'
+### Q70 [B1 · complete] p5 verdict=MATCH
+  STEM: Ik maak een ___ voor mijn vriendin. — Correct: surprise（surprise = disguised present (de)） [Fill in]
+  REG : key='surprise' note='surprise = disguised present (de)'
+  MD  : ans='surprise'
+  P8  : key='surprise'
+### Q71 [B1 · complete] p5 verdict=MATCH
+  STEM: Camille Vanuxem is de ___ van het programma. — Correct: verslaggever（verslaggever = reporter (de)） [Fill in]
+  REG : key='verslaggever' note='verslaggever = reporter (de)'
+  MD  : ans='verslaggever'
+  P8  : key='verslaggever'
+### Q72 [B1 · complete] p5 verdict=MATCH
+  STEM: Wie een ___ verliest, kan naar huis gaan. — Correct: proef（proef = trial, challenge (de)） [Fill in]
+  REG : key='proef' note='proef = trial, challenge (de)'
+  MD  : ans='proef'
+  P8  : key='proef'
+### Q73 [B1 · complete] p5 verdict=MATCH
+  STEM: In vier regels schrijf ik een ___. — Correct: gedicht（gedicht = poem (het)） [Fill in]
+  REG : key='gedicht' note='gedicht = poem (het)'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q74 [B1 · complete] p5 verdict=MATCH
+  STEM: Zondag is er een nieuwe ___ van Robinson. — Correct: aflevering（aflevering = episode） [Fill in]
+  REG : key='aflevering' note='aflevering = episode'
+  MD  : ans='aflevering'
+  P8  : key='aflevering'
+### Q75 [B1 · complete] p5 verdict=MATCH
+  STEM: Er zijn 19 ___ op het eiland. — Correct: kandidaten（kandidaat plural: kandidaten） [Fill in]
+  REG : key='kandidaten' note='kandidaat plural: kandidaten'
+  MD  : ans='kandidaten'
+  P8  : key='kandidaten'
+### Q76 [B1 · complete] p5 verdict=MATCH
+  STEM: Wie ___ (winnen) Expeditie Robinson, denk je? — Correct: gaat winnen（gaat winnen = will win (just a guess)） [Fill in]
+  REG : key='gaat winnen' note='gaat winnen = will win (just a guess)'
+  MD  : ans='gaat winnen'
+  P8  : key='gaat winnen'
+### Q77 [B1 · complete] p5 verdict=MATCH
+  STEM: Wij ___ (kijken) zondag naar de nieuwe aflevering. — Correct: gaan kijken（wij → gaan + infinitive kijken） [Fill in]
+  REG : key='gaan kijken' note='wij → gaan + infinitive kijken'
+  MD  : ans='gaan kijken'
+  P8  : key='gaan kijken'
+### Q78 [B1 · complete] p5 verdict=MATCH
+  STEM: Zij ___ (maken) zondag een surprise voor pakjesavond. — Correct: gaat maken（zij → gaat maken） [Fill in]
+  REG : key='gaat maken' note='zij → gaat maken'
+  MD  : ans='gaat maken'
+  P8  : key='gaat maken'
+### Q79 [B1 · complete] p5 verdict=MATCH
+  STEM: De kinderen ___ (schrijven) een gedicht van vier regels. — Correct: gaan schrijven（zij (plural) → gaan schrijven） [Fill in]
+  REG : key='gaan schrijven' note='zij (plural) → gaan schrijven'
+  MD  : ans='gaan schrijven'
+  P8  : key='gaan schrijven'
+### Q80 [B1 · true or false] p5 verdict=MATCH
+  STEM: Expeditie Robinson begon op 1 november. Waar of niet waar? — Correct: Waar（True: the show started on 1 November） [True or false?]
+  REG : key='Waar' note='True: the show started on 1 November'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q81 [B1 · true or false] p5 verdict=MATCH
+  STEM: Expeditie Robinson speelt in Spanje. Waar of niet waar? — Correct: Niet waar（False: the show is filmed in Malaysia） [True or false?]
+  REG : key='Niet waar' note='False: the show is filmed in Malaysia'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q82 [B2 · true or false] p5 verdict=MATCH
+  STEM: Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — Correct: Niet waar（False: four lines are enough for a poem） [True or false?]
+  REG : key='Niet waar' note='False: four lines are enough for a poem'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q83 [B2 · complete] p6 verdict=MATCH
+  STEM: ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — Correct: 35（35 young people put a carrot and a drawing in their shoe） [Fill in]
+  REG : key='35' note='35 young people put a carrot and a drawing in their shoe'
+  MD  : ans='35'
+  P8  : key='35'
+### Q84 [B2 · complete] p6 verdict=MATCH
+  STEM: ___ jongeren zetten een verlanglijstje in hun schoen. — Correct: 30（30 people put in a wish list） [Fill in]
+  REG : key='30' note='30 people put in a wish list'
+  MD  : ans='30'
+  P8  : key='30'
+### Q85 [B2 · complete] p6 verdict=MATCH
+  STEM: Wortel en verlanglijstje samen: ___ jongeren. — Correct: 65（35 + 30 = 65） [Fill in]
+  REG : key='65' note='35 + 30 = 65'
+  MD  : ans='65'
+  P8  : key='65'
+### Q86 [B2 · complete] p6 verdict=MATCH
+  STEM: ___ jongeren zetten nog niets in hun schoen. — Correct: 15（15 people put in nothing yet） [Fill in]
+  REG : key='15' note='15 people put in nothing yet'
+  MD  : ans='15'
+  P8  : key='15'
+### Q87 [B2 · complete] p6 verdict=MATCH
+  STEM: De grafiek telt in totaal ___ jongeren. — Correct: 100（The chart counts 100 people in total: 35+30+20+15） [Fill in]
+  REG : key='100' note='The chart counts 100 people in total: 35+30+20+15'
+  MD  : ans='100'
+  P8  : key='100'
+### Q88 [B2 · choice] p6 verdict=MATCH
+  STEM: Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — Correct: B（People used to put a drawing in the shoe; now they often put a wish list）
+  REG : key='B' note='People used to put a drawing in the shoe; now they often put a wish list'
+  MD  : ans='B'
+  P8  : key='B'
+### Q89 [B2 · choice] p6 verdict=MATCH
+  STEM: Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — Correct: B（A surprise is a present hidden inside strange packaging）
+  REG : key='B' note='A surprise is a present hidden inside strange packaging'
+  MD  : ans='B'
+  P8  : key='B'
+### Q90 [B2 · choice] p6 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — Correct: C（The Sinterklaas news is on every day at 18:00）
+  REG : key='C' note='The Sinterklaas news is on every day at 18:00'
+  MD  : ans='C'
+  P8  : key='C'
+### Q91 [B2 · choice] p6 verdict=MATCH
+  STEM: Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — Correct: A（A tradition lives on when people keep celebrating it）
+  REG : key='A' note='A tradition lives on when people keep celebrating it'
+  MD  : ans='A'
+  P8  : key='A'
+### Q92 [B2 · choice] p6 verdict=MATCH
+  STEM: Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — Correct: B（St Martin's Day was last Wednesday）
+  REG : key='B' note="St Martin's Day was last Wednesday"
+  MD  : ans='B'
+  P8  : key='B'
+### Q93 [B2 · complete] p6 verdict=MATCH
+  STEM: Op het ___ staan drie wensen. — Correct: verlanglijstje（verlanglijstje = wish list (het)） [Fill in]
+  REG : key='verlanglijstje' note='verlanglijstje = wish list (het)'
+  MD  : ans='verlanglijstje'
+  P8  : key='verlanglijstje'
+### Q94 [B2 · complete] p6 verdict=MATCH
+  STEM: Het cadeau zit verstopt in een ___. — Correct: surprise（surprise = disguised present (de)） [Fill in]
+  REG : key='surprise' note='surprise = disguised present (de)'
+  MD  : ans='surprise'
+  P8  : key='surprise'
+### Q95 [B2 · complete] p6 verdict=MATCH
+  STEM: Bij het cadeau hoort een ___ van vier regels. — Correct: gedicht（gedicht = poem (het)） [Fill in]
+  REG : key='gedicht' note='gedicht = poem (het)'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q96 [B2 · complete] p6 verdict=MATCH
+  STEM: Het feest ___ elk jaar een beetje. — Correct: verandert（veranderen → verandert (singular)） [Fill in]
+  REG : key='verandert' note='veranderen → verandert (singular)'
+  MD  : ans='verandert'
+  P8  : key='verandert'
+### Q97 [B2 · make sentences] p6 verdict=MATCH
+  STEM: sinterklaas / is / een oud feest / in nederland → ___ — Correct: Sinterklaas is een oud feest in Nederland.（Subject + verb + complement + place） [Make the sentence]
+  REG : key='Sinterklaas is een oud feest in Nederland.' note='Subject + verb + complement + place'
+  MD  : ans='Sinterklaas is een oud feest in Nederland.'
+  P8  : key='Sinterklaas is een oud feest in Nederland.'
+### Q98 [B2 · make sentences] p6 verdict=MATCH
+  STEM: de kinderen / zetten / hun schoen / bij de deur → ___ — Correct: De kinderen zetten hun schoen bij de deur.（Subject + verb + object + place） [Make the sentence]
+  REG : key='De kinderen zetten hun schoen bij de deur.' note='Subject + verb + object + place'
+  MD  : ans='De kinderen zetten hun schoen bij de deur.'
+  P8  : key='De kinderen zetten hun schoen bij de deur.'
+### Q99 [B2 · make sentences] p6 verdict=MATCH
+  STEM: een traditie / leeft / als mensen haar blijven vieren → ___ — Correct: Een traditie leeft als mensen haar blijven vieren.（The als-clause comes last） [Make the sentence]
+  REG : key='Een traditie leeft als mensen haar blijven vieren.' note='The als-clause comes last'
+  MD  : ans='Een traditie leeft als mensen haar blijven vieren.'
+  P8  : key='Een traditie leeft als mensen haar blijven vieren.'
+### Q100 [B2 · make sentences] p6 verdict=MATCH
+  STEM: het feest / verandert / maar het verdwijnt niet → ___ — Correct: Het feest verandert, maar het verdwijnt niet.（veranderen + maar + negation） [Make the sentence]
+  REG : key='Het feest verandert, maar het verdwijnt niet.' note='veranderen + maar + negation'
+  MD  : ans='Het feest verandert, maar het verdwijnt niet.'
+  P8  : key='Het feest verandert, maar het verdwijnt niet.'
+### Q101 [A2 · complete] p7 verdict=MATCH
+  STEM: Duitsland – Nederland is een belangrijke ___. — Correct: wedstrijd（de wedstrijd = match） [Fill in]
+  REG : key='wedstrijd' note='de wedstrijd = match'
+  MD  : ans='wedstrijd'
+  P8  : key='wedstrijd'
+### Q102 [A2 · complete] p7 verdict=MATCH
+  STEM: Wie pakt de ___ in groep 2? — Correct: groepswinst（de groepswinst = group win） [Fill in]
+  REG : key='groepswinst' note='de groepswinst = group win'
+  MD  : ans='groepswinst'
+  P8  : key='groepswinst'
+### Q103 [A2 · choice] p7 verdict=MATCH
+  STEM: «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — Correct: B（Group win means finishing first in the group）
+  REG : key='B' note='Group win means finishing first in the group'
+  MD  : ans='B'
+  P8  : key='B'
+### Q104 [A2 · complete] p7 verdict=MATCH
+  STEM: Nederland ___ (scoren) 7 keer in vier wedstrijden. — Correct: scoorde（Past tense of scoren: scoorde） [Fill in]
+  REG : key='scoorde' note='Past tense of scoren: scoorde'
+  MD  : ans='scoorde'
+  P8  : key='scoorde'
+### Q105 [B1 · complete] p7 verdict=MATCH
+  STEM: PSV ___ (winnen) met 2–5 van Cambuur. — Correct: won（winnen past tense: won） [Fill in]
+  REG : key='won' note='winnen past tense: won'
+  MD  : ans='won'
+  P8  : key='won'
+### Q106 [B1 · complete] p7 verdict=MATCH
+  STEM: Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Correct: verloor（verliezen past tense: verloor） [Fill in]
+  REG : key='verloor' note='verliezen past tense: verloor'
+  MD  : ans='verloor'
+  P8  : key='verloor'
+### Q107 [B1 · complete] p7 verdict=MATCH
+  STEM: Ajax ___ (spelen) 2–2 tegen Twente. — Correct: speelde（spelen past tense: speelde） [Fill in]
+  REG : key='speelde' note='spelen past tense: speelde'
+  MD  : ans='speelde'
+  P8  : key='speelde'
+### Q108 [B1 · choice] p7 verdict=MATCH
+  STEM: «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — Correct: B（won is the past tense of winnen）
+  REG : key='B' note='won is the past tense of winnen'
+  MD  : ans='B'
+  P8  : key='B'
+### Q109 [B2 · complete] p7 verdict=MATCH
+  STEM: Oranje staat bovenaan, ___ het meer doelpunten maakte. — Correct: omdat（omdat = because） [Fill in]
+  REG : key='omdat' note='omdat = because'
+  MD  : ans='omdat'
+  P8  : key='omdat'
+### Q110 [B2 · choice] p7 verdict=MATCH
+  STEM: «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — Correct: B（An omdat-clause gives a reason, not a question）
+  REG : key='B' note='An omdat-clause gives a reason, not a question'
+  MD  : ans='B'
+  P8  : key='B'
+### Q111 [B2 · complete] p7 verdict=MATCH
+  STEM: Ik zet mijn schoen, omdat ik een cadeautje ___. — Correct: wil（The verb goes at the end of the omdat-clause: wil） [Fill in]
+  REG : key='wil' note='The verb goes at the end of the omdat-clause: wil'
+  MD  : ans='wil'
+  P8  : key='wil'
+### Q112 [B2 · complete] p7 verdict=MATCH
+  STEM: Oranje staat bovenaan, omdat het meer doelpunten ___. — Correct: maakte（In the omdat-clause, maakte goes last） [Fill in]
+  REG : key='maakte' note='In the omdat-clause, maakte goes last'
+  MD  : ans='maakte'
+  P8  : key='maakte'
+### Q113 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — Correct: B（Germany–Netherlands, Monday, in Berlin）
+  REG : key='B' note='Germany–Netherlands, Monday, in Berlin'
+  MD  : ans='B'
+  P8  : key='B'
+### Q114 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — Correct: B（The Netherlands and Greece both have 8 points）
+  REG : key='B' note='The Netherlands and Greece both have 8 points'
+  MD  : ans='B'
+  P8  : key='B'
+### Q115 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — Correct: A（The Netherlands scored 7 goals）
+  REG : key='A' note='The Netherlands scored 7 goals'
+  MD  : ans='A'
+  P8  : key='A'
+### Q116 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Pakjesavond is op ___ december. (A. november · B. december) — Correct: B（Pakjesavond is in December）
+  REG : key='B' note='Pakjesavond is in December'
+  MD  : ans='B'
+  P8  : key='B'
+### Q117 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — Correct: B（The Sinterklaas news at 18:00）
+  REG : key='B' note='The Sinterklaas news at 18:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q118 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — Correct: B（Robinson is on RTL 4）
+  REG : key='B' note='Robinson is on RTL 4'
+  MD  : ans='B'
+  P8  : key='B'
+### Q119 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: Bij een surprise hoort een ___. (A. liedje · B. gedicht) — Correct: B（A disguised present holds a poem）
+  REG : key='B' note='A disguised present holds a poem'
+  MD  : ans='B'
+  P8  : key='B'
+### Q120 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — Correct: B（groepswinst = group win）
+  REG : key='B' note='groepswinst = group win'
+  MD  : ans='B'
+  P8  : key='B'
+### Q121 [A2 · choice] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — Correct: A（The Sinterklaas news is on every day at 18:00）
+  REG : key='A' note='The Sinterklaas news is on every day at 18:00'
+  MD  : ans='A'
+  P8  : key='A'
+### Q122 [A2 · choice] p8 verdict=MATCH
+  STEM: Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — Correct: B（Grave lies on the river Maas）
+  REG : key='B' note='Grave lies on the river Maas'
+  MD  : ans='B'
+  P8  : key='B'
+### Q123 [A2 · choice] p8 verdict=MATCH
+  STEM: De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — Correct: B（The Amsterdam arrival is the 88th edition）
+  REG : key='B' note='The Amsterdam arrival is the 88th edition'
+  MD  : ans='B'
+  P8  : key='B'
+### Q124 [B1 · choice] p8 verdict=MATCH
+  STEM: Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — Correct: A（Het diner was published in 2009）
+  REG : key='A' note='Het diner was published in 2009'
+  MD  : ans='A'
+  P8  : key='A'
+### Q125 [B1 · choice] p8 verdict=MATCH
+  STEM: Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Correct: B（Germany lost 0–1 at home to Greece）
+  REG : key='B' note='Germany lost 0–1 at home to Greece'
+  MD  : ans='B'
+  P8  : key='B'
+### Q126 [B1 · choice] p8 verdict=MATCH
+  STEM: PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Correct: B（PSV lead the Eredivisie with 26 points）
+  REG : key='B' note='PSV lead the Eredivisie with 26 points'
+  MD  : ans='B'
+  P8  : key='B'
+### Q127 [B2 · choice] p8 verdict=MATCH
+  STEM: Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — Correct: B（A tradition lives on when people keep celebrating it）
+  REG : key='B' note='A tradition lives on when people keep celebrating it'
+  MD  : ans='B'
+  P8  : key='B'
+### Q128 [B1 · choice] p8 verdict=MATCH
+  STEM: Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — Correct: C（Eredivisie matchday 13 is on 21–22 November）
+  REG : key='C' note='Eredivisie matchday 13 is on 21–22 November'
+  MD  : ans='C'
+  P8  : key='C'
+### Q129 [A2 · choice] p8 verdict=MATCH
+  STEM: Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — Correct: B（Daan lives in Rotterdam）
+  REG : key='B' note='Daan lives in Rotterdam'
+  MD  : ans='B'
+  P8  : key='B'
+### Q130 [A2 · choice] p8 verdict=MATCH
+  STEM: Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — Correct: B（On Monday he watches Germany–Netherlands）
+  REG : key='B' note='On Monday he watches Germany–Netherlands'
+  MD  : ans='B'
+  P8  : key='B'
+### Q131 [A2 · choice] p8 verdict=MATCH
+  STEM: Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — Correct: B（He puts a carrot and a wish list in his shoe）
+  REG : key='B' note='He puts a carrot and a wish list in his shoe'
+  MD  : ans='B'
+  P8  : key='B'
+### Q132 [B1 · choice] p8 verdict=MATCH
+  STEM: Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — Correct: B（He watches the Sinterklaas news every day at 18:00）
+  REG : key='B' note='He watches the Sinterklaas news every day at 18:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q133 [A2 · make sentences] p8 verdict=MATCH
+  STEM: het sinterklaasjournaal / begint / om 18:00 uur → ___ — Correct: Het Sinterklaasjournaal begint om 18:00 uur.（Subject + verb + time） [Make the sentence]
+  REG : key='Het Sinterklaasjournaal begint om 18:00 uur.' note='Subject + verb + time'
+  MD  : ans='Het Sinterklaasjournaal begint om 18:00 uur.'
+  P8  : key='Het Sinterklaasjournaal begint om 18:00 uur.'
+### Q134 [B1 · make sentences] p8 verdict=MATCH
+  STEM: wij / zetten / onze schoen / bij de deur → ___ — Correct: Wij zetten onze schoen bij de deur.（Subject + verb + object + place） [Make the sentence]
+  REG : key='Wij zetten onze schoen bij de deur.' note='Subject + verb + object + place'
+  MD  : ans='Wij zetten onze schoen bij de deur.'
+  P8  : key='Wij zetten onze schoen bij de deur.'
+### Q135 [B1 · make sentences] p8 verdict=MATCH
+  STEM: oranje / speelt / maandag / in berlijn → ___ — Correct: Oranje speelt maandag in Berlijn.（Subject + verb + time + place） [Make the sentence]
+  REG : key='Oranje speelt maandag in Berlijn.' note='Subject + verb + time + place'
+  MD  : ans='Oranje speelt maandag in Berlijn.'
+  P8  : key='Oranje speelt maandag in Berlijn.'
+### Q136 [B1 · make sentences] p8 verdict=MATCH
+  STEM: ik / zet / mijn schoen / met een wortel → ___ — Correct: Ik zet mijn schoen met een wortel.（Subject + verb + object + manner） [Make the sentence]
+  REG : key='Ik zet mijn schoen met een wortel.' note='Subject + verb + object + manner'
+  MD  : ans='Ik zet mijn schoen met een wortel.'
+  P8  : key='Ik zet mijn schoen met een wortel.'
+### Q137 [A2 · translate] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — Correct: The Sinterklaas news is on every day at 18:00.（Compare with the page 3 article） [Translate into English]
+  REG : key='The Sinterklaas news is on every day at 18:00.' note='Compare with the page 3 article'
+  MD  : ans='The Sinterklaas news is on every day at 18:00.'
+  P8  : key='The Sinterklaas news is on every day at 18:00.'
+### Q138 [B1 · translate] p8 verdict=MATCH
+  STEM: De nummers één en twee gaan naar de kwartfinales. → ___ — Correct: The top two go through to the quarter-finals.（Original sentence from page 4 · kwartfinale = quarter-final） [Translate into English]
+  REG : key='The top two go through to the quarter-finals.' note='Original sentence from page 4 · kwartfinale = quarter-final'
+  MD  : ans='The top two go through to the quarter-finals.'
+  P8  : key='The top two go through to the quarter-finals.'
+### Q139 [B1 · translate] p8 verdict=MATCH
+  STEM: The arrival in Amsterdam is the 88th edition. → ___ — Correct: De intocht in Amsterdam was de 88e editie.（Watch the ordinal 88e） [Translate into Dutch]
+  REG : key='De intocht in Amsterdam was de 88e editie.' note='Watch the ordinal 88e'
+  MD  : ans='De intocht in Amsterdam was de 88e editie.'
+  P8  : key='De intocht in Amsterdam was de 88e editie.'
+### Q140 [B2 · translate] p8 verdict=MATCH
+  STEM: I am making a surprise with a little poem. → ___ — Correct: Ik maak een surprise met een kort gedicht.（surprise is a fixed expression） [Translate into Dutch]
+  REG : key='Ik maak een surprise met een kort gedicht.' note='surprise is a fixed expression'
+  MD  : ans='Ik maak een surprise met een kort gedicht.'
+  P8  : key='Ik maak een surprise met een kort gedicht.'
+### Q141 [B2 · matching] p8 verdict=MATCH
+  STEM: None
+  REG : key='b' note='journaal = news programme b'
+  MD  : ans='b'
+  P8  : key='b'
+### Q142 [B2 · matching] p8 verdict=MATCH
+  STEM: None
+  REG : key='c' note='groepswinst=group win c'
+  MD  : ans='c'
+  P8  : key='c'
+### Q143 [B2 · matching] p8 verdict=MATCH
+  STEM: None
+  REG : key='d' note='schoen = shoe d'
+  MD  : ans='d'
+  P8  : key='d'
+### Q144 [B2 · matching] p8 verdict=MATCH
+  STEM: None
+  REG : key='a' note='gedicht=poem a'
+  MD  : ans='a'
+  P8  : key='a'
+### Q145 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: — Mama, waar moet mijn ___? (A. schoen · B. boek) — Correct: A（schoen = shoe）
+  REG : key='A' note='schoen = shoe'
+  MD  : ans='A'
+  P8  : key='A'
+### Q146 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — Correct: A（wortel = carrot (for the horse)）
+  REG : key='A' note='wortel = carrot (for the horse)'
+  MD  : ans='A'
+  P8  : key='A'
+### Q147 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: — En mijn ___ erin? (A. verlanglijstje · B. journaal) — Correct: A（verlanglijstje = wish list）
+  REG : key='A' note='verlanglijstje = wish list'
+  MD  : ans='A'
+  P8  : key='A'
+### Q148 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — Correct: B（cadeautje = little present）
+  REG : key='B' note='cadeautje = little present'
+  MD  : ans='B'
+  P8  : key='B'
+### Q149 [B1 · cloze choice] p8 verdict=MATCH
+  STEM: — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — Correct: A（18:00 = the Sinterklaas news time）
+  REG : key='A' note='18:00 = the Sinterklaas news time'
+  MD  : ans='A'
+  P8  : key='A'
+### Q150 [B1 · writing] p8 verdict=EXCEPTION-OPEN-WRITING
+  STEM: «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Correct: (open task, model text below)（See the model text in section H (81 words)） [Write]
+  REG : key='(open task, model text below)' note='See the model text in section H (81 words)'
+  MD  : ans='(open task, model text below)'
+  P8  : key='✓'

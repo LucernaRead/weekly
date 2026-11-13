@@ -1,0 +1,25 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print=8 web=8
+P1: print=826 web=826 posdiff=0 msdiff=0
+P2: print=834 web=834 posdiff=0 msdiff=0
+P3: print=730 web=730 posdiff=0 msdiff=0
+P4: print=736 web=736 posdiff=0 msdiff=0
+P5: print=811 web=811 posdiff=0 msdiff=0
+P6: print=758 web=758 posdiff=0 msdiff=0
+P7: print=950 web=950 posdiff=0 msdiff=0
+P8: print=2461 web=2461 posdiff=0 msdiff=0
+pdftotext bytes print=46867 web=46867
+print-vs-build5 unified diff lines:
+  --- 
+  +++ 
+  @@ -2623,7 +2623,7 @@
+   
+   102. groepswinst — de groepswinst = victoire de groupe
+   
+  -140. Ik maak een surprise met een gedicht. — surprise est une
+  +140. Ik maak een surprise met een kort gedicht. — surprise est une
+   expression fixe
+   
+   103. B — Victoire de groupe : finir premier du groupe
+print-vs-web: ALL PASS

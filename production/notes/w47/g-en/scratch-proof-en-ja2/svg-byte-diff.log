@@ -1,0 +1,10 @@
+p1-front: BYTE-IDENTICAL
+p2-life: BYTE-IDENTICAL
+p3-culture: BYTE-IDENTICAL
+p4-sport: BYTE-IDENTICAL
+p5-youth: BYTE-IDENTICAL
+p6-deep: BYTE-IDENTICAL
+p7-lang: BYTE-IDENTICAL
+p8-test: len 1237869 vs 1237866; first diff at byte 1228700; differing spans pre[1228700:1228705] (5B) post[1228700:1228702] (2B)
+   pre : b'y="Noto Sans CJK JP" font-size="13.5" fill="#302c28" text-anchor="start">\xc2\xb7 73. speak \xc2\xb7 74. d \xc2\xb7 75. a \xc2\xb7 76. b (right = \xe6\xa8\xa9\xe5\x88\xa9 b) \xc2\xb7 77. c \xc2\xb7 78. Schools</text><text x="538.5" y="2259.8200000000006" font-family="Noto Sans CJK JP" font-siz'
+   post: b'y="Noto Sans CJK JP" font-size="13.5" fill="#302c28" text-anchor="start">\xc2\xb7 73. up \xc2\xb7 74. d \xc2\xb7 75. a \xc2\xb7 76. b (right = \xe6\xa8\xa9\xe5\x88\xa9 b) \xc2\xb7 77. c \xc2\xb7 78. Schools</text><text x="538.5" y="2259.8200000000006" font-family="Noto Sans CJK JP" font-size="'

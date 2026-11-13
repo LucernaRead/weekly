@@ -1,0 +1,26 @@
+== chips rx=2.7 ==
+  p1-portada.svg: chips=10 bad=0 levels={'A2': 8, 'B1': 2}
+  p2-vida.svg: chips=15 bad=0 levels={'A2': 13, 'B1': 2}
+  p3-cultura.svg: chips=18 bad=0 levels={'A2': 11, 'B1': 7}
+  p4-deporte.svg: chips=15 bad=0 levels={'B1': 15}
+  p5-juventud.svg: chips=18 bad=0 levels={'B1': 18}
+  p6-afondo.svg: chips=18 bad=0 levels={'B2': 18}
+  p7-lengua.svg: chips=12 bad=0 levels={'A2': 4, 'B1': 4, 'B2': 4}
+  p8-ejercicios.svg: chips=35 bad=0 levels={'B1': 21, 'A2': 11, 'B2': 3}
+TOTAL chips: 141
+== font-family counts (all <text> elements) ==
+   {'Noto Sans CJK SC': 632, 'UnifrakturMaguntia': 1, 'Newsreader': 973, 'Noto Serif CJK SC': 43}
+== D5: Latin-only text elements set in Noto Sans CJK SC (per page) ==
+   {'p1-portada.svg': 62, 'p2-vida.svg': 62, 'p3-cultura.svg': 63, 'p4-deporte.svg': 61, 'p5-juventud.svg': 62, 'p6-afondo.svg': 51, 'p7-lengua.svg': 60, 'p8-ejercicios.svg': 70} TOTAL 491
+  p1-portada.svg y=92: 'VOL. 4\u3000CUARTA EDICIÓN'
+  p1-portada.svg y=92: 'CADA SEMANA EN ESPAÑOL\u3000OGNI SETTIMANA\u3000LO SPAGNOLO DEGLI SPAGNOLI'
+  p1-portada.svg y=92: 'SEMANA DEL 16 AL 22 DE NOVIEMBRE DE 2026'
+  p1-portada.svg y=372: 'EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA'
+  p1-portada.svg y=614: "TESTI IN SPAGNOLO\u3000SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI"
+  p1-portada.svg y=524: '¡LA CAMPAÑA ARRANCA!'
+  p1-portada.svg y=524: 'PRIMA SETTIMANA DI CAMPAGNA\u300013 GIORNI ALLE ELEZIONI'
+  p1-portada.svg y=568: 'Il tema di copertina\u3000vedi le pagine 2 e 6'
+  p1-portada.svg y=616: 'LA NOTICIA\u3000LA NOTIZIA'
+  p1-portada.svg y=766.18: 'De la redacción de La Lucerna\u3000Nivel de lectura: A2'
+  p1-portada.svg y=1130.04: 'la campaña electoral = la campagna'
+  p1-portada.svg y=1159.7649999999999: 'elettorale · el debate = il dibattito · el cara'

@@ -1,0 +1,51 @@
+CJK font: /usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc
+sanity 19px 'j': bbox ls=(-1, -14, 5, 5) ink-below-baseline=5.00px ink-above=-14.00px
+sanity 19px 'q': bbox ls=(0, -9, 12, 4) ink-below-baseline=4.00px ink-above=-9.00px
+sanity 19px 'g': bbox ls=(0, -9, 11, 4) ink-below-baseline=4.00px ink-above=-9.00px
+sanity 19px 'p': bbox ls=(0, -9, 12, 4) ink-below-baseline=4.00px ink-above=-9.00px
+sanity 19px 'y': bbox ls=(0, -9, 11, 4) ink-below-baseline=4.00px ink-above=-9.00px
+sanity 19px 'rédaction.': bbox ls=(0, -14, 88, 0) ink-below-baseline=0.00px ink-above=-14.00px
+sanity 19px 'envoie-les.': bbox ls=(0, -14, 93, 0) ink-below-baseline=0.00px ink-above=-14.00px
+sanity 19px 'taquin': bbox ls=(0, -14, 57, 4) ink-below-baseline=4.00px ink-above=-14.00px
+sanity 19px 'erbij.': bbox ls=(0, -14, 45, 5) ink-below-baseline=5.00px ink-above=-14.00px
+sanity 19px 'chaussure ? (100 jeunes)': bbox ls=(0, -14, 212, 5) ink-below-baseline=5.00px ink-above=-14.00px
+sanity 19px 'quart de finale.': bbox ls=(0, -14, 131, 4) ink-below-baseline=4.00px ink-above=-14.00px
+P1 gloss L1 baseline 1846.2 ink bottom 1850.20 vs rule top 1852.4 -> clearance +2.20px
+P1 gloss L2 baseline 1871.85 ink top 1857.85 vs rule bottom 1853.6 -> clearance +4.25px
+p2 [WIST JE DAT?] 'erbij.' size=21.5 bold=False ink-bottom=988.90 box-bottom=996.2 clearance +7.30px
+p2 [EN JIJ?] 'rédaction.' size=20.0 bold=False ink-bottom=1468.60 box-bottom=1474.8 clearance +6.20px
+p5 [EN JIJ?] 'envoie-les.' size=20.0 bold=False ink-bottom=1017.20 box-bottom=1023.5 clearance +6.30px
+p6 [DE GRAFIEK] 'chaussure ? (100 jeunes)' size=18.5 bold=False ink-bottom=713.30 box-bottom=717.0 clearance +3.70px
+p2 [GEDICHT] 'taquin' size=19.0 bold=False ink-bottom=1760.60 box-bottom=1768.0 clearance +7.40px
+p2 [SCHOEN] 'Sinterklaas' size=19.0 bold=False ink-bottom=1756.60 box-bottom=1768.0 clearance +11.40px
+p7 [HET WOORD] 'quart de finale.' size=20.0 bold=False ink-bottom=1332.40 box-bottom=1340.5 clearance +8.10px
+p7 [PAS OP!] 'verbe vient en tête : blijf ik thuis.' size=19.5 bold=False ink-bottom=1000.10 box-bottom=1011.5 clearance +11.40px
+p3 [SINTERKLAAS IN CIJFERS] 'november.' size=21.5 bold=False ink-bottom=1090.40 box-bottom=1106.6 clearance +16.20px
+p4 [HET PROGRAMMA] '18:45 uur.' size=21.5 bold=False ink-bottom=1115.40 box-bottom=1129.6 clearance +14.20px
+p1 [IN DEZE EDITIE] 'Pag. 8' size=21.0 bold=True ink-bottom=1641.00 box-bottom=1652.0 clearance +11.00px
+p1 title 'DE WEEK IN CIJFERS\u3000EN CHIFFRES' size=23.0 x=556.5 ink-right=1005.2 box-right=961.0 margin -44.2px page-margin +944.8px
+p1 title 'DEZE WEEK' size=27.0 x=1461.5 ink-right=1636.5 box-right=1862.0 margin +225.5px page-margin +313.5px
+p1 title 'IN DEZE EDITIE\u3000CE NUMÉRO' size=24.0 x=1461.5 ink-right=1849.5 box-right=1862.0 margin +12.5px page-margin +100.5px
+p1 title 'groupe, direction les quarts de finale.' size=19.0 x=1439.5 ink-right=1761.5 box-right=1862.0 margin +100.5px page-margin +188.5px
+p2 title 'ZO ONTHOUD JE HET\u3000À RETENIR' size=23.0 x=556.5 ink-right=981.0 box-right=961.0 margin -20.0px page-margin +969.0px
+p2 title 'Note — de schoen chaussure · de' size=20.5 x=556.5 ink-right=850.5 box-right=961.0 margin +110.5px page-margin +1099.5px
+p2 title 'WIST JE DAT?' size=24.0 x=1461.5 ink-right=1637.5 box-right=1862.0 margin +224.5px page-margin +312.5px
+p2 title 'EN JIJ?\u3000ET TOI ?' size=24.0 x=1461.5 ink-right=1681.5 box-right=1862.0 margin +180.5px page-margin +268.5px
+p2 title 'de schoen' size=21.5 x=271.7 ink-right=372.7 box-right=510.5 margin +137.8px page-margin +1577.3px
+p2 title 'voor het paard' size=21.5 x=727.3 ink-right=875.3 box-right=961.0 margin +85.7px page-margin +1074.7px
+p2 title 'het verlanglijstje' size=21.5 x=1158.5 ink-right=1326.5 box-right=1411.5 margin +85.0px page-margin +623.5px
+p2 title 'het versje' size=21.5 x=1639.0 ink-right=1736.0 box-right=1862.0 margin +126.0px page-margin +214.0px
+p3 title 'Note — de vestingstad ville fortifiée ·' size=20.5 x=556.5 ink-right=890.5 box-right=961.0 margin +70.5px page-margin +1059.5px
+p3 title 'SINTERKLAAS IN CIJFERS' size=24.0 x=1461.5 ink-right=1797.5 box-right=1862.0 margin +64.5px page-margin +152.5px
+p4 title 'Note — de groepswinst victoire de' size=20.5 x=556.5 ink-right=866.5 box-right=961.0 margin +94.5px page-margin +1083.5px
+p4 title 'HET PROGRAMMA' size=24.0 x=1461.5 ink-right=1705.5 box-right=1862.0 margin +156.5px page-margin +244.5px
+p5 title 'ZO KIJK JE ROBINSON' size=23.0 x=556.5 ink-right=827.5 box-right=961.0 margin +133.5px page-margin +1122.5px
+p5 title 'Note — de surprise cadeau déguisé ·' size=20.5 x=556.5 ink-right=881.5 box-right=961.0 margin +79.5px page-margin +1068.5px
+p5 title 'JONGEREN IN CIJFERS' size=24.0 x=1461.5 ink-right=1753.5 box-right=1862.0 margin +108.5px page-margin +196.5px
+p5 title 'EN JIJ?\u3000ET TOI ?' size=24.0 x=1461.5 ink-right=1681.5 box-right=1862.0 margin +180.5px page-margin +268.5px
+p6 title 'Note — het verlanglijstje liste de' size=20.5 x=556.5 ink-right=848.5 box-right=961.0 margin +112.5px page-margin +1101.5px
+p6 title 'DE GRAFIEK\u3000DONNÉES FICTIVES' size=24.0 x=1461.5 ink-right=1904.6 box-right=1862.0 margin -42.6px page-margin +45.4px
+p6 title 'VOOR OF TEGEN?\u3000POUR OU CONTRE ?' size=21.0 x=1461.5 ink-right=1902.1 box-right=1862.0 margin -40.1px page-margin +47.9px
+p7 title 'PAS OP!\u3000CLINIQUE DES ERREURS' size=23.0 x=1461.5 ink-right=1883.1 box-right=1862.0 margin -21.1px page-margin +66.9px
+p7 title 'HET WOORD\u3000LE MOT DE LA SEMAINE' size=23.0 x=1461.5 ink-right=1943.1 box-right=1862.0 margin -81.1px page-margin +6.9px
+p7 title 'BRIEVEN VAN LEZERS' size=23.0 x=1461.5 ink-right=1735.5 box-right=1862.0 margin +126.5px page-margin +214.5px

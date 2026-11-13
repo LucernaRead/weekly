@@ -1,0 +1,498 @@
+ M issues/2026-w43/2026-w43-en-de/2026-w43-en-de.md
+ M issues/2026-w43/2026-w43-en-de/2026-w43-en-de.pdf
+ M issues/2026-w43/2026-w43-en-es/2026-w43-en-es.md
+ M issues/2026-w43/2026-w43-en-es/2026-w43-en-es.pdf
+ M issues/2026-w43/2026-w43-en-fr/2026-w43-en-fr.md
+ M issues/2026-w43/2026-w43-en-fr/2026-w43-en-fr.pdf
+ M issues/2026-w43/2026-w43-en-it/2026-w43-en-it.md
+ M issues/2026-w43/2026-w43-en-it/2026-w43-en-it.pdf
+ M issues/2026-w43/2026-w43-en-ja/2026-w43-en-ja.md
+ M issues/2026-w43/2026-w43-en-ja/2026-w43-en-ja.pdf
+ M issues/2026-w43/2026-w43-en-ko/2026-w43-en-ko.md
+ M issues/2026-w43/2026-w43-en-ko/2026-w43-en-ko.pdf
+ M issues/2026-w43/2026-w43-en-nl/2026-w43-en-nl.md
+ M issues/2026-w43/2026-w43-en-nl/2026-w43-en-nl.pdf
+ M issues/2026-w43/2026-w43-en-pt/2026-w43-en-pt.md
+ M issues/2026-w43/2026-w43-en-pt/2026-w43-en-pt.pdf
+ M issues/2026-w43/2026-w43-en-ru/2026-w43-en-ru.md
+ M issues/2026-w43/2026-w43-en-ru/2026-w43-en-ru.pdf
+ M issues/2026-w43/2026-w43-en-zh-cn/2026-w43-en-zh-cn.md
+ M issues/2026-w43/2026-w43-en-zh-cn/2026-w43-en-zh-cn.pdf
+ M issues/2026-w43/2026-w43-en-zh-tw/2026-w43-en-zh-tw.md
+ M issues/2026-w43/2026-w43-en-zh-tw/2026-w43-en-zh-tw.pdf
+ M production/2026-w43/2026-w43-en-de/bslib4.py
+ M production/2026-w43/2026-w43-en-de/content12.py
+ M production/2026-w43/2026-w43-en-de/content34.py
+ M production/2026-w43/2026-w43-en-de/content56.py
+ M production/2026-w43/2026-w43-en-de/content7.py
+ M production/2026-w43/2026-w43-en-de/content8.py
+ M production/2026-w43/2026-w43-en-de/svglib.py
+ M production/2026-w43/2026-w43-en-es/bslib4.py
+ M production/2026-w43/2026-w43-en-es/content12.py
+ M production/2026-w43/2026-w43-en-es/content34.py
+ M production/2026-w43/2026-w43-en-es/content56.py
+ M production/2026-w43/2026-w43-en-es/content7.py
+ M production/2026-w43/2026-w43-en-es/content8.py
+ M production/2026-w43/2026-w43-en-es/svglib.py
+ M production/2026-w43/2026-w43-en-fr/bslib4.py
+ M production/2026-w43/2026-w43-en-fr/content12.py
+ M production/2026-w43/2026-w43-en-fr/content34.py
+ M production/2026-w43/2026-w43-en-fr/content56.py
+ M production/2026-w43/2026-w43-en-fr/content7.py
+ M production/2026-w43/2026-w43-en-fr/content8.py
+ M production/2026-w43/2026-w43-en-fr/svglib.py
+ M production/2026-w43/2026-w43-en-it/bslib4.py
+ M production/2026-w43/2026-w43-en-it/content12.py
+ M production/2026-w43/2026-w43-en-it/content34.py
+ M production/2026-w43/2026-w43-en-it/content56.py
+ M production/2026-w43/2026-w43-en-it/content7.py
+ M production/2026-w43/2026-w43-en-it/content8.py
+ M production/2026-w43/2026-w43-en-it/svglib.py
+ M production/2026-w43/2026-w43-en-ja/bslib4.py
+ M production/2026-w43/2026-w43-en-ja/content12.py
+ M production/2026-w43/2026-w43-en-ja/content34.py
+ M production/2026-w43/2026-w43-en-ja/content56.py
+ M production/2026-w43/2026-w43-en-ja/content7.py
+ M production/2026-w43/2026-w43-en-ja/content8.py
+ M production/2026-w43/2026-w43-en-ja/render.py
+ M production/2026-w43/2026-w43-en-ja/svglib.py
+ M production/2026-w43/2026-w43-en-ko/bslib4.py
+ M production/2026-w43/2026-w43-en-ko/content12.py
+ M production/2026-w43/2026-w43-en-ko/content34.py
+ M production/2026-w43/2026-w43-en-ko/content56.py
+ M production/2026-w43/2026-w43-en-ko/content7.py
+ M production/2026-w43/2026-w43-en-ko/content8.py
+ M production/2026-w43/2026-w43-en-ko/render.py
+ M production/2026-w43/2026-w43-en-ko/run.py
+ M production/2026-w43/2026-w43-en-ko/svglib.py
+ M production/2026-w43/2026-w43-en-nl/bslib4.py
+ M production/2026-w43/2026-w43-en-nl/content12.py
+ M production/2026-w43/2026-w43-en-nl/content34.py
+ M production/2026-w43/2026-w43-en-nl/content56.py
+ M production/2026-w43/2026-w43-en-nl/content7.py
+ M production/2026-w43/2026-w43-en-nl/content8.py
+ M production/2026-w43/2026-w43-en-nl/svglib.py
+ M production/2026-w43/2026-w43-en-pt/bslib4.py
+ M production/2026-w43/2026-w43-en-pt/content12.py
+ M production/2026-w43/2026-w43-en-pt/content34.py
+ M production/2026-w43/2026-w43-en-pt/content56.py
+ M production/2026-w43/2026-w43-en-pt/content7.py
+ M production/2026-w43/2026-w43-en-pt/content8.py
+ M production/2026-w43/2026-w43-en-pt/svglib.py
+ M production/2026-w43/2026-w43-en-ru/bslib4.py
+ M production/2026-w43/2026-w43-en-ru/content12.py
+ M production/2026-w43/2026-w43-en-ru/content34.py
+ M production/2026-w43/2026-w43-en-ru/content56.py
+ M production/2026-w43/2026-w43-en-ru/content7.py
+ M production/2026-w43/2026-w43-en-ru/content8.py
+ M production/2026-w43/2026-w43-en-ru/render.py
+ M production/2026-w43/2026-w43-en-ru/svglib.py
+ M production/2026-w43/2026-w43-en-zh-tw/bslib4.py
+ M production/2026-w43/2026-w43-en-zh-tw/content12.py
+ M production/2026-w43/2026-w43-en-zh-tw/content34.py
+ M production/2026-w43/2026-w43-en-zh-tw/content56.py
+ M production/2026-w43/2026-w43-en-zh-tw/content7.py
+ M production/2026-w43/2026-w43-en-zh-tw/content8.py
+ M production/2026-w43/2026-w43-en-zh-tw/svglib.py
+ M production/2026-w43/core-en/bslib4.py
+ M production/2026-w43/core-en/content12.py
+ M production/2026-w43/core-en/content34.py
+ M production/2026-w43/core-en/content56.py
+ M production/2026-w43/core-en/content7.py
+ M production/2026-w43/core-en/content8.py
+ M production/2026-w43/core-en/svglib.py
+ M production/2026-w47/2026-w47-en-zh-tw/WEEKLY-KIT.md
+ M production/2026-w47/2026-w47-it-es/2026-w47-it-es.text.md
+ M production/2026-w47/2026-w47-it-es/WEEKLY-KIT.md
+ M production/2026-w47/core-nl/2026-w47-nl-zh-cn.text.md
+ M production/2026-w47/core-nl/FIX-LOG.md
+ M production/2026-w47/core-nl/WEEKLY-KIT.md
+ M production/2026-w47/core-nl/content34.py
+ M production/2026-w47/core-nl/content7.py
+ M production/2026-w47/fanout-nl/2026-w47-nl-de/2026-w47-nl-de.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-en/2026-w47-nl-en.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-es/2026-w47-nl-es.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-fr/2026-w47-nl-fr.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-it/2026-w47-nl-it.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-ja/2026-w47-nl-ja.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-ko/2026-w47-nl-ko.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-pt/2026-w47-nl-pt.text.md
+ M production/2026-w47/fanout-nl/2026-w47-nl-ru/2026-w47-nl-ru.text.md
+ M tools/freeze.py
+ M tools/occlusion_audit.py
+ M tools/p8.py
+?? hidden_files/
+?? issues/2026-w43/2026-w43-en-de/2026-w43-en-de.text.md
+?? issues/2026-w43/2026-w43-en-es/2026-w43-en-es.text.md
+?? issues/2026-w43/2026-w43-en-fr/2026-w43-en-fr.text.md
+?? issues/2026-w43/2026-w43-en-it/2026-w43-en-it.text.md
+?? issues/2026-w43/2026-w43-en-ja/2026-w43-en-ja.text.md
+?? issues/2026-w43/2026-w43-en-ko/2026-w43-en-ko.text.md
+?? issues/2026-w43/2026-w43-en-nl/2026-w43-en-nl.text.md
+?? issues/2026-w43/2026-w43-en-pt/2026-w43-en-pt.text.md
+?? issues/2026-w43/2026-w43-en-ru/2026-w43-en-ru.text.md
+?? issues/2026-w43/2026-w43-en-zh-cn/2026-w43-en-zh-cn.text.md
+?? issues/2026-w43/2026-w43-en-zh-tw/2026-w43-en-zh-tw.text.md
+?? production/2026-w43/2026-w43-en-de/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-de/render.py
+?? production/2026-w43/2026-w43-en-de/run.py
+?? production/2026-w43/2026-w43-en-es/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-es/render.py
+?? production/2026-w43/2026-w43-en-es/run.py
+?? production/2026-w43/2026-w43-en-fr/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-fr/render.py
+?? production/2026-w43/2026-w43-en-fr/run.py
+?? production/2026-w43/2026-w43-en-it/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-it/render.py
+?? production/2026-w43/2026-w43-en-it/run.py
+?? production/2026-w43/2026-w43-en-ja/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-ja/run.py
+?? production/2026-w43/2026-w43-en-ko/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-nl/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-nl/render.py
+?? production/2026-w43/2026-w43-en-nl/run.py
+?? production/2026-w43/2026-w43-en-pt/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-pt/render.py
+?? production/2026-w43/2026-w43-en-pt/run.py
+?? production/2026-w43/2026-w43-en-ru/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-ru/run.py
+?? production/2026-w43/2026-w43-en-zh-tw/assets/lucerna-moth.svg
+?? production/2026-w43/2026-w43-en-zh-tw/render.py
+?? production/2026-w43/2026-w43-en-zh-tw/run.py
+?? production/2026-w43/core-en/assets/lucerna-moth.svg
+?? production/2026-w43/core-en/render.py
+?? production/2026-w43/core-en/run.py
+?? production/2026-w47/2026-w47-de-en/Die-Lucerna-VOL4-de-en-web.pdf
+?? production/2026-w47/2026-w47-de-en/Die-Lucerna-VOL4-de-en.pdf
+?? production/2026-w47/2026-w47-de-en/assets/christkind.jpg
+?? production/2026-w47/2026-w47-de-en/assets/fussball.jpg
+?? production/2026-w47/2026-w47-de-en/assets/fussball1905.jpg
+?? production/2026-w47/2026-w47-de-en/assets/kopfball.jpg
+?? production/2026-w47/2026-w47-de-en/assets/lesesaal.jpg
+?? production/2026-w47/2026-w47-de-en/assets/weihnachtsmarkt1930.jpg
+?? production/2026-w47/2026-w47-de-en/cards/
+?? production/2026-w47/2026-w47-de-en/svg/
+?? production/2026-w47/2026-w47-de-es/
+?? production/2026-w47/2026-w47-de-fr/
+?? production/2026-w47/2026-w47-de-it/
+?? production/2026-w47/2026-w47-de-ja/
+?? production/2026-w47/2026-w47-de-ko/
+?? production/2026-w47/2026-w47-de-nl/
+?? production/2026-w47/2026-w47-de-pt/
+?? production/2026-w47/2026-w47-de-ru/
+?? production/2026-w47/2026-w47-de-zh-tw/
+?? production/2026-w47/2026-w47-en-de/
+?? production/2026-w47/2026-w47-en-es/
+?? production/2026-w47/2026-w47-en-fr/
+?? production/2026-w47/2026-w47-en-it/
+?? production/2026-w47/2026-w47-en-ja/
+?? production/2026-w47/2026-w47-en-ko/
+?? production/2026-w47/2026-w47-en-nl/
+?? production/2026-w47/2026-w47-en-pt/
+?? production/2026-w47/2026-w47-en-ru/
+?? production/2026-w47/2026-w47-en-zh-tw/2026-w47-en-zh-tw.text.md
+?? production/2026-w47/2026-w47-en-zh-tw/The-Lucerna-VOL4-en-zh-tw.pdf
+?? production/2026-w47/2026-w47-en-zh-tw/The-Lucerna-VOL4-en-zh-tw.web.pdf
+?? production/2026-w47/2026-w47-en-zh-tw/assets/
+?? production/2026-w47/2026-w47-en-zh-tw/bslib4.py
+?? production/2026-w47/2026-w47-en-zh-tw/cards/
+?? production/2026-w47/2026-w47-en-zh-tw/content12.py
+?? production/2026-w47/2026-w47-en-zh-tw/content34.py
+?? production/2026-w47/2026-w47-en-zh-tw/content56.py
+?? production/2026-w47/2026-w47-en-zh-tw/content7.py
+?? production/2026-w47/2026-w47-en-zh-tw/content8.py
+?? production/2026-w47/2026-w47-en-zh-tw/dump_reg.py
+?? production/2026-w47/2026-w47-en-zh-tw/registry.json
+?? production/2026-w47/2026-w47-en-zh-tw/render.py
+?? production/2026-w47/2026-w47-en-zh-tw/run.py
+?? production/2026-w47/2026-w47-en-zh-tw/svg/
+?? production/2026-w47/2026-w47-en-zh-tw/svglib.py
+?? production/2026-w47/2026-w47-es-de/
+?? production/2026-w47/2026-w47-es-en/
+?? production/2026-w47/2026-w47-es-fr/
+?? production/2026-w47/2026-w47-es-it/
+?? production/2026-w47/2026-w47-es-ja/
+?? production/2026-w47/2026-w47-es-ko/
+?? production/2026-w47/2026-w47-es-nl/
+?? production/2026-w47/2026-w47-es-pt/
+?? production/2026-w47/2026-w47-es-ru/
+?? production/2026-w47/2026-w47-es-zh-tw/
+?? production/2026-w47/2026-w47-fr-de/
+?? production/2026-w47/2026-w47-fr-en/
+?? production/2026-w47/2026-w47-fr-es/
+?? production/2026-w47/2026-w47-fr-it/
+?? production/2026-w47/2026-w47-fr-ja/
+?? production/2026-w47/2026-w47-fr-ko/
+?? production/2026-w47/2026-w47-fr-nl/
+?? production/2026-w47/2026-w47-fr-pt/
+?? production/2026-w47/2026-w47-fr-ru/
+?? production/2026-w47/2026-w47-fr-zh-tw/
+?? production/2026-w47/2026-w47-it-de/
+?? production/2026-w47/2026-w47-it-en/
+?? production/2026-w47/2026-w47-it-es/ABSTRACT.txt
+?? production/2026-w47/2026-w47-it-es/La-Lucerna-VOL4-ES-web.pdf
+?? production/2026-w47/2026-w47-it-es/La-Lucerna-VOL4-ES.pdf
+?? production/2026-w47/2026-w47-it-es/assets/
+?? production/2026-w47/2026-w47-it-es/bslib4.py
+?? production/2026-w47/2026-w47-it-es/cards/
+?? production/2026-w47/2026-w47-it-es/content12.py
+?? production/2026-w47/2026-w47-it-es/content34.py
+?? production/2026-w47/2026-w47-it-es/content56.py
+?? production/2026-w47/2026-w47-it-es/content7.py
+?? production/2026-w47/2026-w47-it-es/content8.py
+?? production/2026-w47/2026-w47-it-es/render.py
+?? production/2026-w47/2026-w47-it-es/run.py
+?? production/2026-w47/2026-w47-it-es/svg/
+?? production/2026-w47/2026-w47-it-es/svglib.py
+?? production/2026-w47/2026-w47-it-fr/
+?? production/2026-w47/2026-w47-it-ja/
+?? production/2026-w47/2026-w47-it-ko/
+?? production/2026-w47/2026-w47-it-nl/
+?? production/2026-w47/2026-w47-it-pt/
+?? production/2026-w47/2026-w47-it-ru/
+?? production/2026-w47/2026-w47-it-zh-tw/
+?? production/2026-w47/2026-w47-ko-de/
+?? production/2026-w47/2026-w47-ko-en/
+?? production/2026-w47/2026-w47-ko-es/
+?? production/2026-w47/2026-w47-ko-fr/
+?? production/2026-w47/2026-w47-ko-it/
+?? production/2026-w47/2026-w47-ko-ja/
+?? production/2026-w47/2026-w47-ko-nl/
+?? production/2026-w47/2026-w47-ko-pt/
+?? production/2026-w47/2026-w47-ko-ru/
+?? production/2026-w47/2026-w47-ko-zh-tw/
+?? production/2026-w47/2026-w47-nl-de/
+?? production/2026-w47/2026-w47-nl-es/
+?? production/2026-w47/2026-w47-nl-fr/
+?? production/2026-w47/2026-w47-pt-de/
+?? production/2026-w47/2026-w47-pt-en/
+?? production/2026-w47/2026-w47-pt-es/
+?? production/2026-w47/2026-w47-pt-fr/
+?? production/2026-w47/2026-w47-pt-it/
+?? production/2026-w47/2026-w47-pt-ja/
+?? production/2026-w47/2026-w47-pt-ko/
+?? production/2026-w47/2026-w47-pt-nl/
+?? production/2026-w47/2026-w47-pt-ru/
+?? production/2026-w47/2026-w47-pt-zh-tw/
+?? production/2026-w47/2026-w47-ru-de/
+?? production/2026-w47/2026-w47-ru-en/
+?? production/2026-w47/2026-w47-ru-es/
+?? production/2026-w47/2026-w47-ru-fr/
+?? production/2026-w47/2026-w47-ru-it/
+?? production/2026-w47/2026-w47-ru-ja/
+?? production/2026-w47/2026-w47-ru-ko/
+?? production/2026-w47/2026-w47-ru-nl/
+?? production/2026-w47/2026-w47-ru-pt/
+?? production/2026-w47/2026-w47-ru-zh-tw/
+?? production/2026-w47/2026-w47-zh-cn-de/
+?? production/2026-w47/2026-w47-zh-cn-en/
+?? production/2026-w47/2026-w47-zh-cn-es/
+?? production/2026-w47/2026-w47-zh-cn-fr/
+?? production/2026-w47/2026-w47-zh-cn-it/
+?? production/2026-w47/2026-w47-zh-cn-ja/
+?? production/2026-w47/2026-w47-zh-cn-ko/
+?? production/2026-w47/2026-w47-zh-cn-nl/
+?? production/2026-w47/2026-w47-zh-cn-pt/
+?? production/2026-w47/2026-w47-zh-cn-ru/
+?? production/2026-w47/2026-w47-zh-tw-de/
+?? production/2026-w47/2026-w47-zh-tw-es/
+?? production/2026-w47/2026-w47-zh-tw-fr/
+?? production/2026-w47/2026-w47-zh-tw-it/
+?? production/2026-w47/2026-w47-zh-tw-ja/
+?? production/2026-w47/2026-w47-zh-tw-ko/
+?? production/2026-w47/2026-w47-zh-tw-nl/
+?? production/2026-w47/2026-w47-zh-tw-pt/
+?? production/2026-w47/2026-w47-zh-tw-ru/
+?? production/2026-w47/core-de/
+?? production/2026-w47/core-en/
+?? production/2026-w47/core-es/
+?? production/2026-w47/core-fr/
+?? production/2026-w47/core-it/ABSTRACT.txt
+?? production/2026-w47/core-it/La-Lucerna-VOL4-web.pdf
+?? production/2026-w47/core-it/La-Lucerna-VOL4.pdf
+?? production/2026-w47/core-it/assets/
+?? production/2026-w47/core-it/bslib4.py
+?? production/2026-w47/core-it/cards/
+?? production/2026-w47/core-it/content56.py
+?? production/2026-w47/core-it/content7.py
+?? production/2026-w47/core-it/render.py
+?? production/2026-w47/core-it/run.py
+?? production/2026-w47/core-it/scratch/
+?? production/2026-w47/core-it/svg/
+?? production/2026-w47/core-it/svglib.py
+?? production/2026-w47/core-ja/
+?? production/2026-w47/core-ko/
+?? production/2026-w47/core-nl/ABSTRACT.txt
+?? production/2026-w47/core-nl/De-Lucerna-VOL4-web.pdf
+?? production/2026-w47/core-nl/De-Lucerna-VOL4.pdf
+?? production/2026-w47/core-nl/assets/
+?? production/2026-w47/core-nl/cards/
+?? production/2026-w47/core-nl/content56.py
+?? production/2026-w47/core-nl/content8.py
+?? production/2026-w47/core-nl/render.py
+?? production/2026-w47/core-nl/run.py
+?? production/2026-w47/core-nl/svg/
+?? production/2026-w47/core-nl/svglib.py
+?? production/2026-w47/core-pt/A-Lucerna-VOL4-web.pdf
+?? production/2026-w47/core-pt/A-Lucerna-VOL4.pdf
+?? production/2026-w47/core-pt/assets/capoeira.jpg
+?? production/2026-w47/core-pt/assets/estudo.jpg
+?? production/2026-w47/core-pt/assets/garrincha.jpg
+?? production/2026-w47/core-pt/assets/lusiadas.jpg
+?? production/2026-w47/core-pt/assets/zumbi.jpg
+?? production/2026-w47/core-pt/cards/
+?? production/2026-w47/core-pt/svg/
+?? production/2026-w47/core-ru/2026-w47-ru-core.text.md
+?? production/2026-w47/core-ru/Lucerna-VOL4-web.pdf
+?? production/2026-w47/core-ru/Lucerna-VOL4.pdf
+?? production/2026-w47/core-ru/cards/
+?? production/2026-w47/core-ru/svg/
+?? production/2026-w47/core-zh-cn/
+?? production/2026-w47/core-zh-tw/
+?? production/2026-w47/fanout-ja/
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/De-Lucerna-VOL4-nl-de-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/De-Lucerna-VOL4-nl-de.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-de/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/De-Lucerna-VOL4-nl-en-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/De-Lucerna-VOL4-nl-en.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-en/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/De-Lucerna-VOL4-nl-es-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/De-Lucerna-VOL4-nl-es.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-es/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/De-Lucerna-VOL4-nl-fr-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/De-Lucerna-VOL4-nl-fr.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-fr/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/De-Lucerna-VOL4-nl-it-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/De-Lucerna-VOL4-nl-it.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-it/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/De-Lucerna-VOL4-nl-ja-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/De-Lucerna-VOL4-nl-ja.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ja/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/De-Lucerna-VOL4-nl-ko-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/De-Lucerna-VOL4-nl-ko.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ko/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/De-Lucerna-VOL4-nl-pt-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/De-Lucerna-VOL4-nl-pt.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-pt/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/ABSTRACT.txt
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/De-Lucerna-VOL4-nl-ru-web.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/De-Lucerna-VOL4-nl-ru.pdf
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/WEEKLY-KIT.md
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/assets/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/bslib4.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/cards/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/content12.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/content34.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/content56.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/content7.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/content8.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/render.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/run.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/svg/
+?? production/2026-w47/fanout-nl/2026-w47-nl-ru/svglib.py
+?? production/2026-w47/fanout-nl/2026-w47-nl-zh-tw/
+?? production/2026-w47/fanout-zh-tw/

@@ -1,0 +1,11 @@
+== 2026-w47-fr-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+  P3 [TITLE] DEFECT over=+25.9px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'WEINWÖRTER'
+  P3 [TITLE] DEFECT over=+7.6px (right) core=-9.8 backup=None | regression vs core (core -9.8px) | 'LES DATES EN CHIFFRES'
+  P4 [TITLE] DEFECT over=+36.5px (right) core=-1.5 backup=None | regression vs core (core -1.5px) | 'LES PHRASES DU COMMENTATEUR'
+  P4 [TITLE] DEFECT over=+5.3px (right) core=-14.7 backup=None | regression vs core (core -14.7px) | 'WÖRTER'
+  P4 [TITLE] DEFECT over=+19.7px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'FORTSETZUNG FOLGT'
+  P5 [TITLE] DEFECT over=+28.7px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'FILMWÖRTER'
+  P5 [TITLE] DEFECT over=+33.3px (right) core=-14.6 backup=None | regression vs core (core -14.6px) | 'FILME'
+  P6 [TITLE] DEFECT over=+68.7px (right) core=-22.0 backup=None | overflowing ink overlaps line | 'HAUSHALTSKALENDER (ABSTIMMUNG MITTWOCH)'
+  P6 [TITLE] DEFECT over=+24.5px (right) core=-12.5 backup=None | regression vs core (core -12.5px) | 'TROIS DATES POUR COMPRENDRE'
+BOXTITLE 2026-w47-fr-de: 43 titles, 287 body lines, 9 DEFECT, 0 OBSERVE, 0 marginal

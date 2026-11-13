@@ -1,0 +1,16 @@
+=== occlusion ===
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-de-nl/svg: 0 flags 
+RC=0
+=== p8 compare ===
+usage: p8.py [-h] {extract,compare} ...
+p8.py: error: unrecognized arguments: production/2026-w47/core-de/svg/p8-uebungen.svg production/2026-w47/2026-w47-de-nl/svg/p8-uebungen.svg
+RC=2
+=== p8 extract ===
+usage: p8.py extract [-h] --p8 P8 --total TOTAL [--json JSON_OUT]
+p8.py extract: error: the following arguments are required: --p8, --total
+RC=2
+=== freeze ===
+usage: freeze.py [-h] {baseline,diff} ...
+freeze.py: error: argument cmd: invalid choice: 'production/2026-w47/core-de/svg' (choose from 'baseline', 'diff')
+RC=2

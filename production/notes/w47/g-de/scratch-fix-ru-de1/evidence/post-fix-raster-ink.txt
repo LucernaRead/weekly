@@ -1,0 +1,10 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+page rect pts: Rect(0.0, 0.0, 1462.5, 2025.0)
+render px: 8125 11250
+scale x=4.1667 y=4.1667 px per SVG unit
+crop saved d1-p1-subtitle-FIXED.png size (2292, 417)
+RASTER title ink right px=3700 -> SVG x=888.0
+RASTER ink top SVG y=1222.1 bottom=1246.1
+BOX_RIGHT=961.0 margin=+73.0 PASS=True
+box right edge px=4004.2 within crop coords x=1920.8

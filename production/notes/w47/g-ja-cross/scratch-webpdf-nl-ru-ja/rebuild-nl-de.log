@@ -1,0 +1,25 @@
+=== nl-de  2026-11-11T23:40:59+00:00 ===
+svg: production/2026-w47/2026-w47-nl-de/svg
+web: production/2026-w47/2026-w47-nl-de/De-Lucerna-VOL4-nl-de-web.pdf
+print: production/2026-w47/2026-w47-nl-de/De-Lucerna-VOL4-nl-de.pdf
+mem available before: 1672MB
+old_sha=aba38eecd9e18499438a5f32e6f6469c3aa590ef9ed5420061f5b6bd76730953 old_bytes=1617817
+8 pages from production/2026-w47/2026-w47-nl-de/svg
+98 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 21672 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 21712 bytes
+  font LucernaNewsreader-Italic: 24064 bytes
+  font LucernaNotoSansCJKSC-Regular: 18536 bytes
+  font LucernaNotoSansCJKSC-Bold: 18692 bytes
+  font LucernaNotoSerifCJKSC-Regular: 23656 bytes
+  font LucernaNotoSerifCJKSC-Bold: 24416 bytes
+  font LucernaUnifrakturMaguntia-Regular: 32212 bytes
+WROTE production/2026-w47/2026-w47-nl-de/De-Lucerna-VOL4-nl-de-web.pdf: 1617820 bytes, 46746 text bytes
+webpdf rc=0
+new_sha=a4303add596e2c0ca2be7af5fe30e9921e2a4f353e22e7b1f7f96a55caf7d5b7 new_bytes=1617820
+web_text_bytes=106161 print_text_bytes=106161
+text layer: BYTE-IDENTICAL to print PDF
+STATUS=OK 
+=== done nl-de status=OK 2026-11-11T23:42:45+00:00 ===

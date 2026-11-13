@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: {'print': 8, 'web': 8, 'core_print': 8}
+  P1: print_words=391 web_words=393 msdiff=6 posdiff=-1
+    ms: {'van': 1, 'film《试探》': 1, 'de': 1, 'in': 1, 'film《试探': 1, '》gaat': 1}
+  P2: print_words=379 web_words=380 msdiff=1 posdiff=-1
+    ms: {'van': 1}
+  P3: print_words=290 web_words=290 msdiff=0 posdiff=0
+  P4: print_words=354 web_words=354 msdiff=0 posdiff=0
+  P5: print_words=291 web_words=294 msdiff=3 posdiff=-1
+    ms: {'de': 1, 'van': 1, 'week': 1}
+  P6: print_words=356 web_words=356 msdiff=0 posdiff=0
+  P7: print_words=526 web_words=526 msdiff=0 posdiff=0
+  P8: print_words=1803 web_words=1803 msdiff=0 posdiff=0
+min_font_pt: {'print': [10.5, 11.62, 11.62, 11.62, 11.62, 12.75, 11.62, 9.98], 'web': [10.5, 11.62, 11.62, 11.62, 11.62, 12.75, 11.62, 9.98]}
+p8 chips: {'edition': {'A2': 11, 'B1': 24, 'B2': 3}, 'core': {'A2': 11, 'B1': 24, 'B2': 3}}
+U+2019: {'svg_total': 0, 'textmd': 0}
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-zh-cn-nl1/textlayer.json

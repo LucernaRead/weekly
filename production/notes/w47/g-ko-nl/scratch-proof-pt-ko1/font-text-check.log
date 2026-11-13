@@ -1,0 +1,21 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P8 smallest 12 spans (pt):
+    (10.125, ' ✓모범글은이페이지', 1820.0)
+    (10.125, ' 개인성적은', 1352.3)
+    (10.125, ' 개인성적은', 1745.4)
+    (10.125, ' 결승', 1039.0)
+    (10.125, ' 결승', 1196.6)
+    (10.125, ' 결승은', 1107.6)
+    (10.125, ' 결승은', 1286.8)
+    (10.125, ' 공식정답은', 1218.9)
+    (10.125, ' 공식정답은이네프가발표해요', 1083.5)
+    (10.125, ' 공휴일', 1040.9)
+    (10.125, ' 공휴일에는버스가줄어들수있어요', 1332.0)
+    (10.125, ' 과거형', 1610.0)
+P8 min font size (pt): 10.125
+print text bytes: 45562 web text bytes: 45562
+print words: 7030 web words: 7030
+word multiset diff: 0 0
+text.md words: 6917

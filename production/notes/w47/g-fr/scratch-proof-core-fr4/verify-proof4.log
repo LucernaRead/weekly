@@ -1,0 +1,164 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1556 (bottom 1812)
+  flow[P1-budget] ended col 0/0 y=2242 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=289 (bottom 1540)
+P2 col3 ends 1279.6
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 25
+======================== content34.py
+  flow[P3-main] ended col 2/2 y=565 (bottom 2560)
+P3 saved, exercises so far: 43
+  flow[P4-main] ended col 2/2 y=771 (bottom 2560)
+  flow[P4-micro] ended col 0/0 y=2188 (bottom 2560)
+P4 saved, exercises so far: 61
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=735 (bottom 2560)
+P5 saved, exercises so far: 78
+  flow[P6-deep] ended col 1/1 y=1288 (bottom 1300)
+  flow[P6-ex] ended col 1/1 y=2402 (bottom 2560)
+  flow[P6-opinion] ended col 0/1 y=1190 (bottom 1300)
+  flow[P6-micro] ended col 1/1 y=2355 (bottom 2560)
+P6 saved, exercises so far: 96
+======================== content7.py
+  flow[P7-A2] ended col 0/0 y=950 (bottom 1150)
+  flow[P7-B1] ended col 0/0 y=855 (bottom 1150)
+P7 B1 flow ends y= 855.1599999999999 dore slot y0= 871.1599999999999
+  flow[P7-B2] ended col 0/1 y=1019 (bottom 1150)
+  flow[P7-outils] ended col 0/0 y=949 (bottom 1150)
+  flow[P7-phrases] ended col 3/3 y=1718 (bottom 1830)
+  flow[P7-clinic] ended col 1/1 y=2140 (bottom 2268)
+P7 saved, exercises so far: 108
+======================== content8.py
+  flow[P8-battery] ended col 3/3 y=1428 (bottom 1485)
+P8 battery flow ends col 3 y= 1427.52
+  flow[P8-keys] ended col 3/3 y=2046 (bottom 2560)
+P8 keys flow ends col 3 y= 2045.7
+P8 hiroshige image placed at y= 2055.7
+P8 saved, TOTAL exercises: 150
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 53, 'B1': 75, 'B2': 22}
+by page {1: 10, 2: 15, 3: 18, 4: 18, 5: 17, 6: 18, 7: 12, 8: 42}
+by type {'完成句子': 49, '单选': 26, '句型转换': 7, '词汇配对': 21, '阅读判断': 5, '图表读数': 6, '跟练': 8, '改错': 4, '完形填空': 8, '阅读理解': 5, '翻译': 5, '对话补全': 5, '写作': 1}
+ALL DONE
+REG total=150
+[PASS] REG total 150 
+--- A) Q148 ---
+[PASS] content8.py:170 key devant le '("A2", "devant le", E["n_g4"]),'
+[PASS] content8.py:176 stem ___ cinéma ? 
+[PASS] Q148 filled sentence logic 
+[PASS] source old wording 0 
+[PASS] text.md:1039 stem '— Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games.'
+[PASS] text.md:1083 appendix 
+[PASS] old wording 0 in text.md 
+[PASS] P8 SVG dialogue stem 
+[PASS] P8 SVG old stem 0 
+[PASS] P8 SVG answer node 
+[PASS] REG 148 = devant le key='devant le' type=对话补全 page=8
+[PASS] dialogue defs order 145-149 ['des billets', 'deux', 'quelle heure', 'devant le', 'film']
+[PASS] gnums[3] is 4th dialogue = Q148 
+--- B) P4 + displacement ---
+[PASS] expl.py:123 chiffres_note shortened '"chiffres_note": "大师赛结果与都灵名单见本版正文。",'
+[PASS] expl.py:123 no 决赛 
+[PASS] P4 note single element [('1461.5', '520', '大师赛结果与都灵名单见本版正文。')]
+[PASS] P4 old note 0 
+  note width 344.0px (old string 387.0px) vs col 378.5px
+[PASS] P4 note fits one line (<378.5px) 
+  displacement vs fix3 build-copy:
+  p1-une: old 190 new 190 removed 0 added 0
+  p2-vie: old 189 new 189 removed 0 added 0
+  p3-culture: old 201 new 201 removed 0 added 0
+  p4-sport: old 215 new 214 removed 2 added 1
+    removed: ('1461.5', '520', '大师赛决赛结果与都灵名单见本版正文')
+    removed: ('1461.5', '550.53', '。')
+    added:   ('1461.5', '520', '大师赛结果与都灵名单见本版正文。')
+  p5-jeunesse: old 199 new 199 removed 0 added 0
+  p6-politique: old 215 new 215 removed 0 added 0
+  p7-langue: old 185 new 185 removed 0 added 0
+  p8-exercices: old 323 new 323 removed 4 added 4
+    removed: ('1439.5', '1353.68', '(148)___ du cinéma ? — Oui, à 19 h 30. Bon')
+    removed: ('1439.5', '1976.25', '）\u3000148. devant（电影院门口）\u3000149. film（Bon film ! 好电')
+    removed: ('1439.5', '1996.4', '影）\u3000150. 开放题 — 要点见写作框，范文在第 8 版写作框内')
+    removed: ('1439.5', '2016.55', '（按要点给分）')
+    added:   ('1439.5', '1353.68', '(148)___ cinéma ? — Oui, à 19 h 30. Bon')
+    added:   ('1439.5', '1976.25', '）\u3000148. devant le（电影院门口）\u3000149. film（Bon film ! 好')
+    added:   ('1439.5', '1996.4', '电影）\u3000150. 开放题 — 要点见写作框，范文在第 8 版写作框')
+    added:   ('1439.5', '2016.55', '内（按要点给分）')
+[PASS] displacement only P4(2rem/1add)+P8(4chg) removed=6 added=5
+--- C) orphan punctuation ---
+  p1-une: orphans=0 []
+  p2-vie: orphans=0 []
+  p3-culture: orphans=0 []
+  p4-sport: orphans=0 []
+  p5-jeunesse: orphans=0 []
+  p6-politique: orphans=0 []
+  p7-langue: orphans=0 []
+  p8-exercices: orphans=0 []
+[PASS] orphan lone-punct total 0 total=0
+  lone em-dash lines (baseline, not in task set): [('p4-sport', '— '), ('p6-politique', '— ')]
+[PASS] dash lines unchanged vs fix3 old=[('p4-sport', '1007.0', '623.135'), ('p6-politique', '1007.0', '653.6899999999999')] new=[('p4-sport', '1007.0', '623.135'), ('p6-politique', '1007.0', '653.6899999999999')]
+--- D) keys 4-way / notes 3-way ---
+  RÉPONSES answers header at text.md line 1051
+  parsed text.md answers: 150 (expect 150 incl Q150)
+[PASS] keys 4-way 150/150 (Q150 per established convention) mismatches=[]
+[PASS] extract noted_set == fin noted_set ext=121 fin=121
+  notes checked on 121 printed answers; mismatches=0
+[PASS] notes 3-way on 121 printed (whitespace-free) []
+[PASS] non-noted questions print no note []
+--- E) stems 150 ---
+  matching groups parsed: [22, 23, 24, 25, 49, 50, 51, 52, 73, 74, 75, 76, 85, 86, 87, 88, 140, 141, 142, 143, 144]
+  stems located: 150/150
+[PASS] stems 150/150 in REG-page SVG ok=150 fails=0
+--- F) badges ---
+  p1-une: 10
+  p2-vie: 12
+  p3-culture: 18
+  p4-sport: 15
+  p5-jeunesse: 14
+  p6-politique: 15
+  p7-langue: 12
+  p8-exercices: 38
+[PASS] badges total 134 total=134 cols={'#5c6e30': 50, '#46581f': 65, '#37402f': 19}
+[PASS] badge colours 50/65/19 {'#5c6e30': 50, '#46581f': 65, '#37402f': 19}
+--- G) S1.1 spots ---
+  p1-une: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=35
+[PASS] p1-une paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p2-vie: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=33
+[PASS] p2-vie paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p3-culture: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=19
+[PASS] p3-culture paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p4-sport: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=29
+[PASS] p4-sport paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p5-jeunesse: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=23
+[PASS] p5-jeunesse paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p6-politique: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=24
+[PASS] p6-politique paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p7-langue: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=15
+[PASS] p7-langue paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  p8-exercices: paper=True oldpaper=False gold=0 dot=0 font38=0 fwsp=182
+[PASS] p8-exercices paper #fbfaf6, no old paper, no gold, no dot, no font38 
+  text.md: dot=0 fwsp=390
+[PASS] text.md dot 0 
+  ABSTRACT: dot=0
+[PASS] ABSTRACT dot 0 
+--- H) creambox ---
+[PASS] creambox violations 0 viol=0
+--- I) P8 min font ---
+  P8 spans: 469 min=11.62pt at-min=214
+[PASS] P8 min font >= 9.75pt min=11.62pt
+--- J) quotes verbatim ---
+  Q97: VERBATIM
+  Q98: VERBATIM
+  Q99: VERBATIM
+  Q100: VERBATIM
+  Q101: VERBATIM
+  Q102: VERBATIM
+  Q103: VERBATIM
+  Q104: VERBATIM
+[PASS] quotes 8/8 verbatim 8/8
+
+OVERALL FAILS: 0 (none)

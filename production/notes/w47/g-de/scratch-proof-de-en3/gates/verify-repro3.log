@@ -1,0 +1,39 @@
+verbatim 2x :: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern 
+verbatim 2x :: Es geht ums Viertelfinale der Nations League.
+verbatim 2x :: Nur in Sachsen ist der Buß- und Bettag ein gesetzlicher Feie
+verbatim 2x :: Die Märkte beginnen fast zwei Wochen früher.
+verbatim 2x :: Hinter jedem Türchen wartet eine kleine Überraschung.
+verbatim 2x :: Der FC Bayern gewann in Mainz mit 2:1.
+verbatim 2x :: Die stille Woche ist der Übergang: vom November in den Adven
+verbatim 2x :: Am Sonntag ist es still im Land.
+verbatim OK: True
+PAPER: #fbfaf6 INK: #302c28 OLIVE: #46581f CLOTH: #37402f
+old-style hexes: []
+MUSTER label: MUSTER　Model text (84 words)
+MUSTER words: 84 label says 84: True
+MUSTER text present in P8 SVG: True
+P1 footer exact: 1 pageline: ['Page 1 of 8']
+P2 footer exact: 1 pageline: ['Page 2 of 8']
+P3 footer exact: 1 pageline: ['Page 3 of 8']
+P4 footer exact: 1 pageline: ['Page 4 of 8']
+P5 footer exact: 1 pageline: ['Page 5 of 8']
+P6 footer exact: 1 pageline: ['Page 6 of 8']
+P7 footer exact: 1 pageline: ['Page 7 of 8']
+P8 footer exact: 1 pageline: ['Page 8 of 8']
+P1 masthead Die Lucerna: True | TEXT IN GERMAN: True | week header: True
+headline stripped chars: 40 (limit 56)
+P1 min SVG font: 15.5 -> 11.62 PDF pt
+P2 min SVG font: 17.0 -> 12.75 PDF pt
+P3 min SVG font: 15.5 -> 11.62 PDF pt
+P4 min SVG font: 15.5 -> 11.62 PDF pt
+P5 min SVG font: 15.5 -> 11.62 PDF pt
+P6 min SVG font: 17.0 -> 12.75 PDF pt
+P7 min SVG font: 15.5 -> 11.62 PDF pt
+P8 min SVG font: 13.25 -> 9.94 PDF pt
+P8 floor >=9.75pt: True
+chart sum 44+33+23 = 100
+18 Nov + 11 days = 29 Nov: True
+15 Nov + 7 days = 22 Nov: True
+16 Nov + 6 days = 22 Nov: True
+weekdays: 16 Nov 2026 = Monday | 13 Nov = Friday | 18 Nov = Wednesday | 20 Nov = Friday | 22 Nov = Sunday | 27 Nov = Friday | 29 Nov = Sunday
+P6 olive bars (expect 748/561/391): ['748', '561', '391']

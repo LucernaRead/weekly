@@ -1,0 +1,18 @@
+[PIL-advance] lines=1458 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1458 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 0; leftmost-on-baseline: 0
+[D8 P6 caption lines]
+   {'needle': "Données d'exercice", 'x': 1461.5, 'y': 635.0200000000001, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': "Données d'exercice : des chiffres inventés,"}
+[D10 P7 dt_zh lines]
+   {'needle': 'VOL.5', 'x': 1461.5, 'y': 1722.7399999999998, 'size': 21.5, 'fam': 'Newsreader', 'text': 'VOL.5.'}
+   {'needle': 'Aucune vraie lettre', 'x': 1461.5, 'y': 1783.2699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': 'Aucune vraie lettre ni meilleur texte : un'}
+   {'needle': 'VOL.5', 'x': 1461.5, 'y': 1811.6699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': 'exemple ; promesse reportée à VOL.5.'}
+   {'needle': 'VOL.5', 'x': 1461.5, 'y': 1898.47, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': 'lettres et textes pour VOL.5 !'}
+   {'needle': 'VOL.5', 'x': 116.0, 'y': 2483.0, 'size': 24.0, 'fam': 'Noto Sans CJK SC', 'text': 'VOLGENDE WEEK\u3000LA SEMAINE PROCHAINE (VOL.5)'}
+[D6 P3 bridge lines]
+   {'needle': 'Complète au passé composé', 'x': 538.5, 'y': 2303.5, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'Complète au passé composé. Attention aux'}
+   {'needle': 'hebben/zijn', 'x': 538.5, 'y': 2333.225, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'auxiliaires hebben/zijn.'}
+[D7 P7 bridge lines]
+   {'needle': 'de wedstrijd match', 'x': 88.0, 'y': 725.6600000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'de wedstrijd match ; de groepswinst victoire'}
+   {'needle': 'scoren marquer', 'x': 88.0, 'y': 785.1100000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'scoren marquer.'}
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

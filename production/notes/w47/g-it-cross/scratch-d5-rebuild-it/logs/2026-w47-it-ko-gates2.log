@@ -1,0 +1,36 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0 (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/logs/2026-w47-it-ko-run2.log)
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ko/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: RC=0 core    /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ko/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+== boxtitle: RC=1 BOXTITLE 2026-w47-it-ko: 39 titles, 490 body lines, 4 DEFECT, 0 OBSERVE, 0 marginal
+      P1 [TITLE] DEFECT over=+38.5px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | '보는'
+      P1 [TITLE] DEFECT over=+15.7px (right) core=-9.8 backup=None | regression vs core (core -9.8px) | '목차'
+      P2 [TITLE] DEFECT over=+13.3px (right) core=-3.7 backup=None | regression vs core (core -3.7px) | '\u3000기억해'
+      P4 [BODY] DEFECT over=+16.8px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'DOPO 11 GIORNATE'
+    BOXTITLE 2026-w47-it-ko: 39 titles, 490 body lines, 4 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP 2026-w47-it-ko: 29 boxes, 179 candidates, 0 SPILL, 179 OBSERVE
+== creambox: RC=1 P8 p8-valutazione.svg: lines 246->246 slack_footer 45.4->45.4
+      DEFECT abs box#2 y=1352.0 '목차' over={'right': 15.7}
+      DEFECT abs box#1 y=471.44999999999993 'DOPO 11 GIORNATE' over={'right': 16.8}
+== edge: RC=0
+    EDGE_SCAN 2026-w47-it-ko: 8 pages, 0 TOUCH, 0 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN 2026-w47-it-ko: 8 pages, 0 TOUCH, 0 NEAR
+== freeze-baseline: RC=0 baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+== freeze-diff: RC=0 ref=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/baselines/2026-w47-it-ko/svg
+    p1: +154 strings / -22 strings; CJK core 281 -> edition 281; added CJK chars: 0 ; added Latin strings: 25 (unexpected 25)
+    p2: +207 strings / -36 strings; CJK core 271 -> edition 271; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+    p3: +201 strings / -39 strings; CJK core 250 -> edition 250; added CJK chars: 0 ; added Latin strings: 30 (unexpected 30)
+    p4: +180 strings / -32 strings; CJK core 228 -> edition 228; added CJK chars: 0 ; added Latin strings: 28 (unexpected 28)
+    p5: +194 strings / -36 strings; CJK core 307 -> edition 307; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+    p6: +194 strings / -31 strings; CJK core 230 -> edition 230; added CJK chars: 0 ; added Latin strings: 31 (unexpected 31)
+    p7: +311 strings / -43 strings; CJK core 409 -> edition 409; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+    p8: +184 strings / -33 strings; CJK core 1341 -> edition 1341; added CJK chars: 0 ; added Latin strings: 21 (unexpected 21)
+    TOTAL added CJK characters: 0
+new-CJK-non-U3000: NONE
+== textlayer-print-vs-web: RC=1 print_chars=39308 web_chars=39307 multiset_diff=1 nonws_diff=0
+== text.md: UNCHANGED d4d0c6c1a0048b9f2fa3248c0b5868058a3599bf75d253188301f3ad0a5a8fa1
+GATES 2026-w47-it-ko: FAILURES-PRESENT

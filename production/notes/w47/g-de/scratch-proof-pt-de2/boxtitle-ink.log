@@ -1,0 +1,46 @@
+== p1-capa.svg boxes: 4
+  box x=989..1412 title ink 1006.0..1410.0 clear L=+17.0 R=+1.5 | 'A SEMANA EM NÚMEROS\u3000In Zahlen'
+  box x=1440..1862 title ink 1460.5..1732.5 clear L=+21.0 R=+129.5 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title ink 1461.5..1863.5 clear L=+22.0 R=-1.5 | 'NESTA EDIÇÃO\u3000In dieser Ausgabe' <<<< INK OVERFLOW
+  box x=1440..1862 title ink 1461.5..1861.5 clear L=+22.0 R=+0.5 | 'EM POUCAS PALAVRAS\u3000IN KÜRZE'
+== p2-vida.svg boxes: 8
+  box x=538..961 title ink 556.5..929.5 clear L=+18.0 R=+31.5 | 'PARA NÃO ERRAR\u3000Die Merkregel'
+  box x=538..961 title ink 556.5..905.5 clear L=+18.0 R=+55.5 | 'HINWEIS · o feriadão das dreitägige'
+  box x=1440..1862 title ink 1460.5..1611.5 clear L=+21.0 R=+250.5 | 'VOCÊ SABIA?'
+  box x=1440..1862 title ink 1461.5..1828.5 clear L=+22.0 R=+33.5 | 'E VOCÊ?\u3000Erzählen Sie von sich'
+  box x=88..510 title ink 240.0..409.0 clear L=+152.0 R=+101.5 | 'o feriado começa'
+  box x=538..961 title ink 690.5..938.5 clear L=+152.0 R=+22.5 | 'Palmeiras × Flamengo, às'
+  box x=989..1412 title ink 1141.0..1309.0 clear L=+152.0 R=+102.5 | 'o fim do feriadão'
+  box x=1440..1862 title ink 1591.5..1797.5 clear L=+152.0 R=+64.5 | 'tudo volta ao normal'
+== p3-cultura.svg boxes: 4
+  box x=538..961 title ink 556.5..915.5 clear L=+18.0 R=+45.5 | 'HINWEIS · o quilombo eine Siedlung'
+  box x=1440..1862 title ink 1460.5..1702.5 clear L=+21.0 R=+159.5 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title ink 1461.5..1828.5 clear L=+22.0 R=+33.5 | 'E VOCÊ?\u3000Erzählen Sie von sich'
+  box x=1440..1862 title ink 1461.5..1716.5 clear L=+22.0 R=+145.5 | 'PALAVRAS DA MEMÓRIA'
+== p4-esporte.svg boxes: 3
+  box x=989..1412 title ink 1007.0..1387.0 clear L=+18.0 R=+24.5 | 'HINWEIS · o agregado Gesamtergebnis'
+  box x=1440..1862 title ink 1461.5..1628.5 clear L=+22.0 R=+233.5 | 'OS FINALISTAS'
+  box x=1440..1862 title ink 1461.5..1828.5 clear L=+22.0 R=+33.5 | 'E VOCÊ?\u3000Erzählen Sie von sich'
+== p5-jovens.svg boxes: 4
+  box x=538..961 title ink 556.5..787.5 clear L=+18.0 R=+173.5 | 'O PLANO DA ESPERA'
+  box x=538..961 title ink 556.5..889.5 clear L=+18.0 R=+71.5 | 'HINWEIS · o gabarito Lösungen ·'
+  box x=1440..1862 title ink 1461.5..1761.5 clear L=+22.0 R=+100.5 | 'OS JOVENS EM NÚMEROS'
+  box x=1440..1862 title ink 1461.5..1828.5 clear L=+22.0 R=+33.5 | 'E VOCÊ?\u3000Erzählen Sie von sich'
+== p6-aprofundamento.svg boxes: 5
+  box x=538..961 title ink 556.5..899.5 clear L=+18.0 R=+61.5 | 'HINWEIS · o prazo Frist · o dia útil'
+  box x=1440..1862 title ink 1461.5..1770.5 clear L=+22.0 R=+91.5 | 'O CAMINHO ATÉ O GABARITO'
+  box x=1440..1862 title ink 1461.5..1671.5 clear L=+22.0 R=+190.5 | 'LER OS NÚMEROS'
+  box x=88..961 title ink 109.0..456.0 clear L=+21.0 R=+505.0 | 'A CONTAGEM\u3000do dia 16 ao dia 30'
+  box x=989..1862 title ink 1011.0..1314.0 clear L=+22.0 R=+548.0 | 'DOIS GABARITOS\u3000um exame'
+== p7-lingua.svg boxes: 3
+  box x=1440..1862 title ink 1461.5..1833.5 clear L=+22.0 R=+28.5 | 'ERROS COMUNS\u3000Häufige Fehler'
+  box x=1440..1862 title ink 1460.5..1784.5 clear L=+21.0 R=+77.5 | 'A PALAVRA\u3000Wort der Woche'
+  box x=1440..1862 title ink 1461.5..1718.5 clear L=+22.0 R=+143.5 | 'CARTAS DOS LEITORES'
+== p8-avaliacao.svg boxes: 0
+TIGHTEST 5 (right clearance):
+  -1.5 p1-capa.svg 'NESTA EDIÇÃO\u3000In dieser Ausgabe'
+  +0.5 p1-capa.svg 'EM POUCAS PALAVRAS\u3000IN KÜRZE'
+  +1.5 p1-capa.svg 'A SEMANA EM NÚMEROS\u3000In Zahlen'
+  +22.5 p2-vida.svg 'Palmeiras × Flamengo, às'
+  +24.5 p4-esporte.svg 'HINWEIS · o agregado Gesamtergebnis'
+OVERFLOW COUNT: 1

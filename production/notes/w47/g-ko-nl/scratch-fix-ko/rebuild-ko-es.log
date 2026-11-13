@@ -1,0 +1,22 @@
+### [2026-w47-ko-es] base-prep (fixed sources + pre-D5 svglib)
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-es/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-es/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-es/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-es/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-es/base': Operation not permitted
+### [2026-w47-ko-es] base-venv run RC=0
+  !! FLOW OVERFLOW [P2-feature] col 2 y=1179 need 390 bottom 1540
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+### [2026-w47-ko-es] phase=rebuild-gates reader=es mode=latin print=Lucerna-VOL4-KO-ES.pdf web=Lucerna-VOL4-KO-ES-web.pdf
+### [2026-w47-ko-es] Phase C: rebuild production (venv)
+### [2026-w47-ko-es] run.py RC=0
+### [2026-w47-ko-es] render.py RC=0
+### [2026-w47-ko-es] webpdf.py RC=0
+### [2026-w47-ko-es] Phase D: gates
+### [2026-w47-ko-es] d5_census patched RC=0
+### [2026-w47-ko-es] census_quotes patched svg RC=0
+### [2026-w47-ko-es] head_check RC=0
+### [2026-w47-ko-es] occlusion_audit RC=0
+### [2026-w47-ko-es] p8 extract RC=0
+### [2026-w47-ko-es] p8 compare vs core-ko RC=0

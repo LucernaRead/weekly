@@ -1,0 +1,46 @@
+== 2026-w47-nl-pt reader=pt ed=/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt
+78fdfbb037538b1f8a738434ea90a782  /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svglib.py
+1606fd098a945a2bc9dd17cccc7f4cba04156b276d2bc716b3420ccfbe0cf90a  svg/p1-voorpagina.svg
+85e0f1a5b746cafb949f16e295ff86b0fe56b92d78411b069c75509fbce589b4  svg/p2-leven.svg
+5ecb39b7598e8f8116ec06f6d09a2cbdf643cc319a7d0a76c8e9546487630f56  svg/p3-cultuur.svg
+d813dcc068a85d4873223ba71195222efca716b4a279cbb25d60e64c8b3af722  svg/p4-sport.svg
+b699d9de65ca004755071f20ce889ba1109a411c4f08c9fecdbe9e3a966e8c5e  svg/p5-jongeren.svg
+87b5e95222fcfabd7b80e6e7cbb5a5d9833cd52e968bf1a5c1a3553eb687f361  svg/p6-verdieping.svg
+5150b656c0af5a5849299de6e5bb47656f450ffb5334ba5ae2c6791256714795  svg/p7-taal.svg
+de6ef7d3512a825b806eef689a29ed99579c58f92211c8c31ce5f9ba5bc2e63d  svg/p8-toets.svg
+e85aa1a01bea9c7894546e9e33f45f2c519f202f3404103dff59265f5daac834  De-Lucerna-VOL4-nl-pt.pdf
+a0c8c87bd941fc87d945eac257053a482de7b1f1fc8a088070f3d66351146d85  De-Lucerna-VOL4-nl-pt-web.pdf
+865e659fc2d4a9b1639c3513cd8e3326536feac8ae5fed14dca411d0cc137efc  2026-w47-nl-pt.text.md
+12672018 De-Lucerna-VOL4-nl-pt.pdf
+1618472 De-Lucerna-VOL4-nl-pt-web.pdf
+47204 2026-w47-nl-pt.text.md
+run-pre RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+prerun svg == snapshot: CHECK DIFF BELOW
+2c2
+< 85e0f1a5b746cafb949f16e295ff86b0fe56b92d78411b069c75509fbce589b4  svg/p2-leven.svg
+---
+> f4593049faaf1c6c7197bf213c1a74734b23ccef8055c0b3d3f153b50616caf0  svg/p2-leven.svg
+4c4
+< d813dcc068a85d4873223ba71195222efca716b4a279cbb25d60e64c8b3af722  svg/p4-sport.svg
+---
+> 3a264ed1ba36749dea1cf4e7a9be46a644a1798851a035fd6b36f7f1601ea436  svg/p4-sport.svg
+census-pre RC=1
+TOTAL: D5_latin_in_cjk=497 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS FAIL 497 violations
+occlusion-pre RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svg: 0 flags 
+spill-pre RC=0
+P7 box=(1439.5,1358.5,422.5,568.5) bottom=1927.0
+   ABOVE -31.08px x=1461.5 y=1327.4 [observe] 'de final.'
+SPILL_SWEEP 2026-w47-nl-pt: 26 boxes, 31 candidates, 0 SPILL, 31 OBSERVE
+boxtitle-pre RC=0
+== 2026-w47-nl-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/core-nl backup=-
+BOXTITLE 2026-w47-nl-pt: 16 titles, 228 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge-pre RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.1}
+EDGE_SCAN 2026-w47-nl-pt: 8 pages, 0 TOUCH, 0 NEAR
+PHASE A DONE 2026-w47-nl-pt

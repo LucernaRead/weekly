@@ -1,0 +1,259 @@
+{
+ "P1_numbox_title": {
+  "text": "数字看本周　Esta semana em números",
+  "x": 556.5,
+  "y": 1147.2649999999999,
+  "size": 23.0,
+  "kind": "sans",
+  "bold": true,
+  "ink_left": 556.5,
+  "ink_right": 982.5,
+  "advance_right": 982.7,
+  "box": null,
+  "box_right": null,
+  "ink_clear_of_box_right": null
+ },
+ "P1_numbox_rows": {
+  "box_y": null,
+  "lines": [],
+  "orphan_close_quote_at_line_start": []
+ },
+ "P1_fecho": {
+  "cal_boxes": [
+   {
+    "x": 1439.5,
+    "y": 588.0,
+    "w": 422.5,
+    "h": 700.0,
+    "fill": "#f0eee5"
+   },
+   {
+    "x": 1439.5,
+    "y": 1312.0,
+    "w": 422.5,
+    "h": 340.0,
+    "fill": "#f0eee5"
+   },
+   {
+    "x": 1439.5,
+    "y": 1874.0,
+    "w": 422.5,
+    "h": 416.0,
+    "fill": "#f0eee5"
+   }
+  ],
+  "lines": [
+   {
+    "text": "Fecho: 10 nov. A final é a 15 nov. às 03:00",
+    "x": 1461.5,
+    "y": 1068.3999999999999,
+    "size": 18.5,
+    "ink_right": 1809.5,
+    "advance_right": 1809.4,
+    "clear_of_RIGHT_1862": 52.5
+   },
+   {
+    "text": "Fecho: 10 nov. — a final ainda não jogada",
+    "x": 1461.5,
+    "y": 1252.0,
+    "size": 19.0,
+    "ink_right": 1823.5,
+    "advance_right": 1823.7,
+    "clear_of_RIGHT_1862": 38.5
+   }
+  ]
+ },
+ "P1_fecho_para_lines": [
+  [
+   "Fecho: 10 nov. A final é a 15 nov. às 03:00",
+   1068.4
+  ],
+  [
+   "hora de Pequim — ainda não jogada ao",
+   1093.4
+  ],
+  [
+   "fecho, o campeão será anunciado na",
+   1118.3
+  ],
+  [
+   "próxima semana. As meias-finais (8–9 nov.)",
+   1143.3
+  ],
+  [
+   "são resultados completos.",
+   1168.3
+  ],
+  [
+   "Todos os horários, hora de Pequim",
+   1224.0
+  ],
+  [
+   "Fecho: 10 nov. — a final ainda não jogada",
+   1252.0
+  ]
+ ],
+ "P2_cal_title": {
+  "text": "本周生活小日历　Datas desta semana",
+  "x": 1007.0,
+  "y": 237.0,
+  "size": 23.0,
+  "ink_right": 1416.0,
+  "advance_right": 1415.8,
+  "box_right": null,
+  "ink_clear_of_box_right": null,
+  "valley_left": 1439.5,
+  "ink_clear_of_valley": 23.5
+ },
+ "P4_gloss": {
+  "prefix": "Notas｜",
+  "n_lines_wrap": 2,
+  "lines": [
+   "Notas｜sìqiáng 四强 — as quatro últimas equipas, as meias-finalistas · zhǐbù 止步 — parar aqui, não ir mais longe · nàozhōng 闹钟 —",
+   "um despertador · wǔjú sānshèng 五局三胜 — à melhor de cinco: vence quem ganhar três jogos."
+  ],
+  "box_width": 1323.5,
+  "inner_w": 1287.5
+ },
+ "P4_gloss_rendered": [
+  {
+   "box": {
+    "x": 538.5,
+    "y": 557.36,
+    "w": 422.5,
+    "h": 234.85,
+    "fill": "#f0eee5"
+   },
+   "lines": [
+    [
+     "Notas｜sìqiáng 四强 — as quatro últimas",
+     595.9
+    ],
+    [
+     "equipas, as meias-finalistas · zhǐbù 止",
+     625.6
+    ],
+    [
+     "步 — parar aqui, não ir mais longe ·",
+     655.3
+    ],
+    [
+     "nàozhōng 闹钟 — um despertador ·",
+     685.0
+    ],
+    [
+     "wǔjú sānshèng 五局三胜 — à melhor de",
+     714.8
+    ],
+    [
+     "cinco: vence quem ganhar três jogos.",
+     744.5
+    ]
+   ]
+  },
+  {
+   "box": {
+    "x": 1439.5,
+    "y": 541.4499999999999,
+    "w": 422.5,
+    "h": 348.0,
+    "fill": "#f0eee5"
+   },
+   "lines": []
+  },
+  {
+   "box": {
+    "x": 1439.5,
+    "y": 915.4499999999999,
+    "w": 422.5,
+    "h": 286.5,
+    "fill": "#f0eee5"
+   },
+   "lines": []
+  }
+ ],
+ "P4_C_head": {
+  "text": "C　读赛程　Ler o calendário",
+  "size": 25,
+  "advance": 339.0
+ },
+ "P7_heads": {
+  "A2": {
+   "text": "A2　决赛与包裹　Final e pacotes",
+   "size": 24,
+   "advance": 371.9
+  },
+  "B1": {
+   "text": "B1　时间与日期　Hora e datas",
+   "size": 24,
+   "advance": 345.3
+  },
+  "B2": {
+   "text": "B2　读新闻　Ler as notícias",
+   "size": 24,
+   "advance": 318.5
+  }
+ },
+ "P2_wordcard_examples": [
+  {
+   "text": "a tua encomenda chegou, vai buscá-la",
+   "n_lines": 1,
+   "lines": [
+    "a tua encomenda chegou, vai buscá-la"
+   ]
+  },
+  {
+   "text": "não está bem? devolve-o cedo",
+   "n_lines": 1,
+   "lines": [
+    "não está bem? devolve-o cedo"
+   ]
+  },
+  {
+   "text": "não é automático — pede-o tu mesmo",
+   "n_lines": 1,
+   "lines": [
+    "não é automático — pede-o tu mesmo"
+   ]
+  },
+  {
+   "text": "o estafeta entrega-to",
+   "n_lines": 1,
+   "lines": [
+    "o estafeta entrega-to"
+   ]
+  },
+  {
+   "rendered_hits": [
+    [
+     "a tua encomenda chegou, vai buscá-la",
+     1752.1
+    ]
+   ]
+  },
+  {
+   "rendered_hits": [
+    [
+     "não está bem? devolve-o cedo",
+     1752.1
+    ]
+   ]
+  },
+  {
+   "rendered_hits": [
+    [
+     "não é automático — pede-o tu mesmo",
+     1752.1
+    ]
+   ]
+  },
+  {
+   "rendered_hits": [
+    [
+     "o estafeta entrega-to",
+     1752.1
+    ]
+   ]
+  }
+ ]
+}

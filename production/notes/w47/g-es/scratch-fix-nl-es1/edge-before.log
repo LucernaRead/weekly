@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D2 P1 bridge row: rightmost ink = 1866.24 SVG px (limit 1862)
+page 1 done, whole-page excl footer = 1866.24
+D2 P2 col-title row: rightmost ink = 1865.76 SVG px (limit 1862)
+D3 P2 furniture: rightmost ink = 1864.0 SVG px (limit 1862)
+page 2 done, whole-page excl footer = 1865.76
+D3 P3 furniture: rightmost ink = 1864.0 SVG px (limit 1862)
+page 3 done, whole-page excl footer = 1864.0
+D3 P4 furniture: rightmost ink = 1864.0 SVG px (limit 1862)
+page 4 done, whole-page excl footer = 1864.0
+D3 P5 furniture: rightmost ink = 1864.0 SVG px (limit 1862)
+page 5 done, whole-page excl footer = 1864.0
+D1 P6 chart title: rightmost ink = 1866.24 SVG px (limit 1862)
+D3 P6 furniture: rightmost ink = 1864.0 SVG px (limit 1862)
+page 6 done, whole-page excl footer = 1866.24
+page 7 done, whole-page excl footer = 1861.92
+D3 P8 header row: rightmost ink = 1864.0 SVG px (limit 1862)
+page 8 done, whole-page excl footer = 1864.0
+whole-page (excl footer): {'page1': 1866.24, 'page2': 1865.76, 'page3': 1864.0, 'page4': 1864.0, 'page5': 1864.0, 'page6': 1866.24, 'page7': 1861.92, 'page8': 1864.0}

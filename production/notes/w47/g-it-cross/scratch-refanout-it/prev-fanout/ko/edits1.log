@@ -1,0 +1,37 @@
+ko bridge reconstructed: '해설 — la vetta 선두·정상 · imbattuto 무패의 · il capolista 선두 팀 · chiudere 마감하다.'
+[bridge] 2 line(s), 784.4 px
+    | 해설 — la vetta 선두·정상 · imbattuto 무패의 ·
+    | il capolista 선두 팀 · chiudere 마감하다.
+== CANDIDATES: disclosure (sans 20, w 378.5, target 3) ==
+[disclosure C1] 4 line(s), 1142.0 px  <-- OVER
+    | 편집부의 예시이며 실제 편지가 아닙니다. 마
+    | 감 시점까지 실제 편지와 8면 최우수 작문이
+    | 도착하지 않았습니다. 약속은 VOL.5로 이어집
+    | 니다.
+[disclosure C2] 3 line(s), 949.6 px  OK
+    | 편집부의 예시이며 실제 편지가 아닙니다. 실
+    | 제 편지와 최우수 작문이 도착하지 않았고, 약
+    | 속은 VOL.5로 이어집니다.
+[disclosure C3] 3 line(s), 1047.2 px  OK
+    | 이것은 편집부의 예시이며 실제 편지가 아닙니
+    | 다. 실제 편지와 최우수 작문이 도착하지 않았
+    | 습니다. 약속은 VOL.5로 이어집니다.
+== CANDIDATES: cifre 20.45 (serif 20.5, w 386.5, target 2) ==
+[20.45 D1] 2 line(s), 468.7 px  OK
+    | 20.45 — 아탈란타-인터, 일요일 11월 22일
+    | （20:45）
+[20.45 D2] 2 line(s), 533.1 px  OK
+    | 20.45 — 아탈란타-인터 킥오프, 일요일 11
+    | 월 22일（20:45）
+== 44/134 note shortened (serif 13, w 422.5, target 1) ==
+[Q44/134] 1 line(s), 363.4 px  OK
+    | Eurochocolate chiude a Perugia il 22 novembre. — 주어 + 동사
+pick C1: 4 lines -> REJECT
+pick C2: 3 lines -> ACCEPT
+pick C3: 3 lines -> ACCEPT
+pick D1: 2 lines -> ACCEPT
+pick D2: 2 lines -> ACCEPT
+EDIT OK: '这是编辑部示例，非真实来信。截稿时未收到真实来信与最佳作' -> '이것은 편집부의 예시이며 실제 편지가 아닙니다. 실제 편지와 최우수 작문이 도착하지 않았습니다. 약속은 VOL.5로 이어집니다.'
+EDIT OK: "20.45 — l'ora di Atalanta–In" -> '20.45 — 아탈란타-인터 킥오프, 일요일 11월 22일（20:45）'
+EDIT OK: '主语 + 动词 + 地点 + 日期' -> '주어 + 동사'
+translations.py updated, 3 edits applied

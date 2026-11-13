@@ -1,0 +1,16 @@
+cream boxes total: 36
+STRADDLE flags: 0
+CREAM-COVER flags: 0
+min bottom clearance per page:
+  p1-front.svg: min bottom clearance 16.5px over 5 boxes
+  p2-life.svg: min bottom clearance 39.8px over 6 boxes
+  p3-culture.svg: min bottom clearance 14.1px over 7 boxes
+  p4-sport.svg: min bottom clearance 33.8px over 4 boxes
+  p5-youth.svg: min bottom clearance 4.4px over 8 boxes
+  p6-deep.svg: min bottom clearance 17.1px over 3 boxes
+  p7-lang.svg: min bottom clearance 10.4px over 3 boxes
+P7 cream boxes (clearance = ink-to-edge px):
+  [1439.5, 200.0, 1862.0, 851.1] inner: 38 clearance: {'left': 22.0, 'right': 24.5, 'top': 21.8, 'bottom': 38.8}
+  [1439.5, 863.1, 1862.0, 1175.6] inner: 17 clearance: {'left': 22.0, 'right': 25.0, 'top': 22.0, 'bottom': 10.4}
+  [1439.5, 1187.6, 1862.0, 1827.3] inner: 24 clearance: {'left': 22.0, 'right': 13.5, 'top': 22.0, 'bottom': 12.0}
+CREAMBOX DONE

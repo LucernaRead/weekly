@@ -1,0 +1,107 @@
+=== build fr 2026-11-11T14:10:21Z ===
+CJK 0 OK in all build sources
+TRANSFORM COMPLETE fr /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr
+gates.py written for fr
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1826 (bottom 1828)
+P1 col3 semana ends 1212.3500000000001
+P1 col3 ends 1832.55
+  flow[P1-tv] ended col 0/0 y=2249 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2559 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1075 (bottom 1540)
+P2 col3 ends 909.0
+  flow[P2-ex] ended col 3/3 y=2323 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/1 y=685 (bottom 1560)
+P3 col3 ends 1106.0
+  flow[P3-ex] ended col 2/3 y=2408 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=458 (bottom 1080)
+P4 col3 ends 905.0
+  flow[P4-ex] ended col 2/3 y=2368 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1050 (bottom 1560)
+P5 col3 ends 1227.5
+  flow[P5-ex] ended col 2/3 y=2377 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=531 (bottom 1520)
+P6 col3 ends 1066.0
+  flow[P6-ex] ended col 3/3 y=2305 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1151 (bottom 1560)
+P7 image ends ~ 1653.4649999999997
+P7 col3 ends 1987.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=909 (bottom 1252)
+P8 exercises end y: 908.6249999999999 col: 3
+P8 image ends ~ 1247.4500000000003
+  flow[P8-keys] ended col 3/3 y=2411 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 88
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Complétez la phrase': 61, 'Choix multiple': 49, 'Vocabulaire : associez': 12, 'Construction de phrases': 7, 'Vrai ou faux': 3, 'Texte à trous': 13, 'Traduction': 4, 'Écriture': 1}
+ALL DONE
+card: p1-capa.png
+card: p2-vida.png
+card: p3-cultura.png
+card: p4-esporte.png
+card: p5-jovens.png
+card: p6-aprofundamento.png
+card: p7-lingua.png
+card: p8-avaliacao.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/A-Lucerna-VOL4.pdf 12934630
+[PASS] P1 VOL.4 + week dates :: top strip
+[PASS] P1 subtitle topics :: subtitle line
+[PASS] footer+page line 8/8 :: VOL.4 FR footer + page line on all pages
+[PASS] no VOL.3 edition label residue :: VOL.3 may appear only as the cited promising issue in the P7 disclosure
+[PASS] press-time note + final named :: P4 press-time note present; final date named
+[PASS] P1 masthead lines fit 1820 :: {330: 281.6, 372: 797.8}
+[PASS] same-baseline ink collisions = 0 :: 0 collisions
+[PASS] page-frame ink crossings = 0 :: 0 crossings | min margins L/R/T/B = [47.0, 47.7, 35.0, 32.0]
+[PASS] P6 chart-label coverage <30% :: [('dias úteis', 0.0), ('10 dias', 0.0), ('fins de semana e feriado', 0.0), ('5 dias', 0.0)]
+[PASS] gloss items enumerated :: {2: 6, 3: 6, 4: 6, 5: 6, 6: 5} total 29
+[PASS] gloss headwords survive in render :: 0 missing
+[PASS] P7 quotes 2x + page tag + FR on P7 :: 8 quotes; [('Consciência Negra: sexta é fer', 2, True, True), ('o feriado abre um fim de seman', 2, True, True), ('Zumbi nasceu em Palmares', 2, True, True), ('sem memória, não há futuro', 2, True, True), ('o agregado ficou em 2 a 2', 2, True, True), ('a espera pelo gabarito', 2, True, True), ('primeiro as fáceis, depois as ', 2, True, True), ('Confira o transporte, guarde o', 2, True, True)]
+[PASS] readers corner disclosure :: {'PT example verbatim': True, 'PT disclosure verbatim': True, 'FR disclosure verbatim': True, 'FR example label': True, 'VOL.5 carry': True}
+[PASS] images embedded + credits 5/5 :: {'P1 capoeira + credit': True, 'P3 zumbi + credit': True, 'P5 estudo + credit': True, 'P7 lusiadas + credit': True, 'P8 garrincha + credit': True}
+[PASS] P7 quotes clear of preview box :: max quote-region baseline 2380.17
+[PASS] P1 headline <= 56 non-space chars :: 41 chars
+FAILURES: none
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/2026-w47-pt-fr.text.md (535 lines)
+remaining CJK chars: 0 []
+changed lines: 51 of 535
+PT-only lines changed (should be none except header/330):
+  L433: '### Frases da semana (verbatim from this issue)' -> '### Frases da semana (extraites mot pour mot de ce numéro)'
+question numbers present: 150 missing: []
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-pt/fr-textmd-diff.json
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/svg
+116 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 23920 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 23960 bytes
+  font LucernaNewsreader-Italic: 26404 bytes
+  font LucernaNotoSansCJKSC-Regular: 19872 bytes
+  font LucernaNotoSansCJKSC-Bold: 20200 bytes
+  font LucernaNotoSerifCJKSC-Regular: 25904 bytes
+  font LucernaNotoSerifCJKSC-Bold: 26584 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31492 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/A-Lucerna-VOL4-web.pdf: 1141286 bytes, 47554 text bytes
+-rw-rw---- 1 root root       37699 Nov 11 14:13 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/2026-w47-pt-fr.text.md
+-rw-rw---- 1 root nogroup  1141286 Nov 11 14:14 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/A-Lucerna-VOL4-web.pdf
+-rw-rw---- 1 root nogroup 12934630 Nov 11 14:13 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/A-Lucerna-VOL4.pdf
+-rw-rw---- 1 root nogroup      673 Nov 11 14:14 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/ABSTRACT.txt
+-rw-rw---- 1 root nogroup    17468 Nov 11 14:14 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-fr/WEEKLY-KIT.md
+=== build done fr ===

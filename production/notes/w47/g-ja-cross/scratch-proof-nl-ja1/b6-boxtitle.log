@@ -1,0 +1,45 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PIL scan: 2015 texts
+PIL over page edge (>1862): 6
+  P4 y=527.3 right=1873.5 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+  P6 y=242.0 right=1864.5 'DE GRAFIEK\u3000グラフ（練習データ）'
+  P8 y=525.39 right=1862.5 'wat doe jij deze week, kijk jij naar Duitsland – Nederland, '
+  P8 y=1302.0 right=1873.8 '答えにはどれも日本語の短い注がある\u3000✓ は作文問題'
+  P8 y=1905.0400000000016 right=1864.5 '主語＋動詞＋時'
+  P8 y=2025.340000000002 right=1862.9 '方法'
+PIL over enclosing box right: 1
+  P6 y=242.0 right=1864.5 box_right=1862.0 'DE GRAFIEK\u3000グラフ（練習データ）'
+near-edge (within 10px of a limit): 30
+--- PDF 300dpi adjudication of near-edge texts ---
+P1 y=2348.0 PIL_right=1861.6 PDF_right=1861.36 limit=1862.0 OVER=False '1面を読んで、正しい答えを選ぼう\u3000答えは8面に'
+P1 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '1ページ（全8ページ）'
+P2 y=864.24 PIL_right=955.5 PDF_right=951.96 limit=961.0 OVER=False 'ZO ONTHOUD JE HET\u3000こう覚えよう'
+P2 y=1594.0 PIL_right=1861.7 PDF_right=1853.36 limit=1862.0 OVER=False 'Wat hoort bij pakjesavond?\u3000Pakjesavondに関係ある言葉は？'
+P2 y=1876.0 PIL_right=1861.9 PDF_right=1858.8 limit=1862.0 OVER=False '答えは8面に\u3000レベルは混ざっているので番号で探そう'
+P2 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '2ページ（全8ページ）'
+P3 y=1648.0 PIL_right=1861.9 PDF_right=1858.8 limit=1862.0 OVER=False '答えは8面に\u3000レベルは混ざっているので番号で探そう'
+P3 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '3ページ（全8ページ）'
+P4 y=527.3 PIL_right=1873.5 PDF_right=1861.04 limit=1862.0 OVER=False 'Foto: Spaarnestad Photo / Wikimedia Commons — publiek'
+P4 y=1648.0 PIL_right=1861.9 PDF_right=1858.8 limit=1862.0 OVER=False '答えは8面に\u3000レベルは混ざっているので番号で探そう'
+P4 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '4ページ（全8ページ）'
+P5 y=1648.0 PIL_right=1861.9 PDF_right=1858.8 limit=1862.0 OVER=False '答えは8面に\u3000レベルは混ざっているので番号で探そう'
+P5 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '5ページ（全8ページ）'
+P6 y=242.0 PIL_right=1864.5 PDF_right=1848.88 limit=1862.0 OVER=False 'DE GRAFIEK\u3000グラフ（練習データ）'
+P6 y=1648.0 PIL_right=1861.9 PDF_right=1858.8 limit=1862.0 OVER=False '答えは8面に\u3000レベルは混ざっているので番号で探そう'
+P6 y=1729.5 PIL_right=1855.5 PDF_right=1852.08 limit=1862.0 OVER=False 'het feest / verandert / maar het verdwijnt'
+P6 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '6ページ（全8ページ）'
+P7 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '7ページ（全8ページ）'
+P8 y=225.8 PIL_right=1861.5 PDF_right=1858.16 limit=1862.0 OVER=False "— Ja. Sinterklaas brengt 's nachts een ___. (A. mantel "
+P8 y=505.38 PIL_right=1857.5 PDF_right=1851.76 limit=1862.0 OVER=False '«Mijn week met Oranje en Sinterklaas» Schrijf 80–100 wo'
+P8 y=525.39 PIL_right=1862.5 PDF_right=1858.16 limit=1862.0 OVER=False 'wat doe jij deze week, kijk jij naar Duitsland – Nederl'
+P8 y=999.5600000000002 PIL_right=1857.5 PDF_right=1857.2 limit=1862.0 OVER=False 'Een vulpen op een schrift. Schrijf je opstel eerst'
+P8 y=1302.0 PIL_right=1873.8 PDF_right=1861.04 limit=1862.0 OVER=False '答えにはどれも日本語の短い注がある\u3000✓ は作文問題'
+P8 y=1905.0400000000016 PIL_right=1864.5 PDF_right=1860.4 limit=1862.0 OVER=False '主語＋動詞＋時'
+P8 y=1950.3600000000017 PIL_right=1854.6 PDF_right=1848.56 limit=1862.0 OVER=False '主語＋動詞＋目的語＋場'
+P8 y=2025.340000000002 PIL_right=1862.9 PDF_right=1860.4 limit=1862.0 OVER=False '方法'
+P8 y=2055.000000000002 PIL_right=1853.0 PDF_right=1850.16 limit=1862.0 OVER=False 'ペー'
+P8 y=2100.3200000000015 PIL_right=1856.3 PDF_right=1853.36 limit=1862.0 OVER=False '· kwartfinale'
+P8 y=2175.300000000001 PIL_right=1860.3 PDF_right=1855.6 limit=1862.0 OVER=False 'は決まっ'
+P8 y=2624.0 PIL_right=1861.8 PDF_right=1850.8 limit=1862.0 OVER=False '8ページ（全8ページ）'
+PDF adjudication: 0 overflows among 30 near-edge texts

@@ -1,0 +1,115 @@
+  flow[P1-headline] ended col 2/2 y=1554 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2264 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2523 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=964 (bottom 1540)
+P2 col3 box1 ends 496.65
+P2 col3 box2 ends 849.8299999999999
+P2 col3 box3 ends 1166.9499999999998
+P2 col3 box4 ends 1520.1299999999999
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 2/2 y=886 (bottom 1560)
+P3 image at 906.405 ends 1378.1550000000004
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1009.8900000000001
+P3 col3 undsie ends 1327.0100000000002
+P3 col3 ends 1522.6000000000001
+  flow[P3-ex] ended col 3/3 y=2041 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=647 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=966 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1296.48
+P5 col3 image ends 1732.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=747 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1206.02
+  flow[P6-ex] ended col 3/3 y=2523 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1310 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1479.0
+P7 saved, exercises so far: 112
+  flow[P8-battery] ended col 3/3 y=1395 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1395.4450000000002 | image ends 1619.2450000000003
+  flow[P8-keys] ended col 3/3 y=2504 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by level: {'A2': 69, 'B1': 67, 'B2': 14}
+by type: {'写作': 1, '判断对错': 8, '单选': 52, '句型转换': 11, '完形填空': 8, '完成句子': 41, '对话补全': 5, '翻译': 4, '词汇配对': 12, '造句': 8}
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+SOP 1.1 style audit (paper/badges/palette/margins): True | old-style hexes found: []
+text volume (chars, no separators): 40450
+P7 verbatim check (expect exactly 2 each):
+  2x :: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern 
+  2x :: Es geht ums Viertelfinale der Nations League.
+  2x :: Nur in Sachsen ist der Buß- und Bettag ein gesetzlicher Feie
+  2x :: Die Märkte beginnen fast zwei Wochen früher.
+  2x :: Hinter jedem Türchen wartet eine kleine Überraschung.
+  2x :: Der FC Bayern gewann in Mainz mit 2:1.
+  2x :: Die stille Woche ist der Übergang: vom November in den Adven
+  2x :: Am Sonntag ist es still im Land.
+verbatim OK: True
+stale/forbidden '桥接' on pages: []
+stale/forbidden 'Le Lucerna' on pages: []
+stale/forbidden 'The Lucerna' on pages: []
+stale/forbidden 'VOL.3' on pages: []
+stale/forbidden 'VOL.2' on pages: []
+stale/forbidden 'Geisterspiel' on pages: []
+stale/forbidden 'Karneval' on pages: []
+stale/forbidden 'Volkstrauertag' on pages: []
+stale/forbidden 'NFL' on pages: []
+stale/forbidden 'American Football' on pages: []
+stale/forbidden '11.11' on pages: []
+stale/forbidden 'Tankrabatt' on pages: []
+stale/forbidden '14,04' on pages: []
+stale/forbidden 'Hart aber fair' on pages: []
+stale/forbidden 'Klassiker' on pages: []
+stale/forbidden 'Allerheiligen' on pages: []
+stale/forbidden '8,35' on pages: []
+stale/forbidden 'ZEW' on pages: []
+P1 headline stripped chars: 40 (limit 56)
+p1-front.svg footer: 1 pageline: ['第1版／共8版']
+p2-leben.svg footer: 1 pageline: ['第2版／共8版']
+p3-kultur.svg footer: 1 pageline: ['第3版／共8版']
+p4-sport.svg footer: 1 pageline: ['第4版／共8版']
+p5-jugend.svg footer: 1 pageline: ['第5版／共8版']
+p6-vertiefung.svg footer: 1 pageline: ['第6版／共8版']
+p7-sprache.svg footer: 1 pageline: ['第7版／共8版']
+p8-uebungen.svg footer: 1 pageline: ['第8版／共8版']
+P1 masthead: True subtitle slot: True week header: True
+  topband VOL. 4　VIERTE AUSGABE            88..299
+  topband WÖCHENTLICH AUF DEUTSCH　每周一期　读   721..1229
+  topband WOCHE VOM 16. BIS 22. NOVEMBER   1541..1862
+P1 top band: no same-baseline overlap
+P6 olive bars (chart widths, expect 748/561/391): ['748', '561', '391']
+  label 'Bundesliga und Nations League' ink ends x=425 (bars start 558; CN labels at 448)
+  label 'Weihnachtsmärkte' ink ends x=294 (bars start 558; CN labels at 448)
+  label 'Stille Tage' ink ends x=200 (bars start 558; CN labels at 448)
+MUSTER label: MUSTER　范文（84 Wörter）
+MUSTER words (whitespace split): 84
+p1-front.svg min SVG font: 15.5 -> PDF pt: 11.625
+p2-leben.svg min SVG font: 17.0 -> PDF pt: 12.75
+p3-kultur.svg min SVG font: 15.5 -> PDF pt: 11.625
+p4-sport.svg min SVG font: 15.5 -> PDF pt: 11.625
+p5-jugend.svg min SVG font: 15.5 -> PDF pt: 11.625
+p6-vertiefung.svg min SVG font: 17.0 -> PDF pt: 12.75
+p7-sprache.svg min SVG font: 15.5 -> PDF pt: 11.625
+p8-uebungen.svg min SVG font: 13.5 -> PDF pt: 10.125
+P8 answers floor check (>= 9.75pt): True
+chart sum 44+33+23 = 100
+18 Nov + 11 days = True
+15 Nov + 7 days = True
+16 Nov + 6 days = True

@@ -1,0 +1,16 @@
+D6: cur_w=422.5 band=416.7-500.0 contiguous=True mid=458.35 n=834
+   at mid: ['Completa no pretérito perfeito. Atenção aos', 'auxiliares hebben/zijn.']
+   target: ['Completa no pretérito perfeito. Atenção aos', 'auxiliares hebben/zijn.']
+D7: cur_w=422.5 band=415.7-432.2 contiguous=True mid=423.95 n=166
+   at mid: ['de wedstrijd jogo; de groepswinst vitória do', 'grupo; de kwartfinale quartos de final;', 'scoren marcar.']
+   target: ['de wedstrijd jogo; de groepswinst vitória do', 'grupo; de kwartfinale quartos de final;', 'scoren marcar.']
+D8: cur_w=378.5 band=359.6-396.6 contiguous=True mid=378.1 n=371
+   at mid: ['Dados de prática: números inventados, só', 'para praticar, não um inquérito real.', 'Pergunta: o que pões no teu sapato? (100', 'jovens)']
+   target: ['Dados de prática: números inventados, só', 'para praticar, não um inquérito real.', 'Pergunta: o que pões no teu sapato? (100', 'jovens)']
+D10: cur_w=378.5 band=356.3-446.6 contiguous=True mid=401.45 n=904
+   at mid: ['Sem cartas reais nem melhores textos:', 'exemplo; promessa passa para VOL.5.']
+   target: ['Sem cartas reais nem melhores textos:', 'exemplo; promessa passa para VOL.5.']
+== D11 facts wrap counts (serif 21.5, CW-44=378.5) ==
+counts: [3, 3, 3, 2, 3] total lines: 14
+sh old=611.0 new=638.0 (sy3=591.6 -> bottom old=1202.6 new=1229.6)
+last baseline 1209.49 -> margin old=-6.89 new=20.11

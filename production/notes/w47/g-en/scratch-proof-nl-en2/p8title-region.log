@@ -1,0 +1,18 @@
+--- rects overlapping y[150,230] ---
+rect x=0.0 y=0.0 w=1950.0 h=2700.0 fill=#fbfaf6 rx=None
+rect x=88.0 y=72.0 w=1774.0 h=110.0 fill=#37402f rx=0
+rect x=88.0 y=219.0 w=60.0 h=30.0 fill=#46581f rx=2.7
+rect x=538.5 y=180.0 w=60.0 h=30.0 fill=#46581f rx=2.7
+rect x=989.0 y=180.0 w=60.0 h=30.0 fill=#46581f rx=2.7
+rect x=1439.5 y=180.0 w=60.0 h=30.0 fill=#46581f rx=2.7
+--- texts with baseline y in [170,215] ---
+text x=88.0 y=201.0 size=21 fam=Noto Sans CJK SC fill=#46581f 'A\u3000VUL DE KRONIEK IN'
+text x=556.4 y=202.0 size=19 fam=Noto Sans CJK SC fill=#ffffff 'B1'
+text x=610.5 y=203.0 size=24 fam=Noto Sans CJK SC fill=#46581f '126.'
+text x=1006.9 y=202.0 size=19 fam=Noto Sans CJK SC fill=#ffffff 'B1'
+text x=1061.0 y=203.0 size=24 fam=Noto Sans CJK SC fill=#46581f '136.'
+text x=1131.0 y=203.0 size=19.5 fam=Noto Sans CJK SC fill=#6f675d 'Make the sentence'
+text x=1457.4 y=202.0 size=19 fam=Noto Sans CJK SC fill=#ffffff 'B1'
+text x=1511.5 y=203.0 size=24 fam=Noto Sans CJK SC fill=#46581f '148.'
+--- lines with y in [170,215] ---
+line x1=88.0 y1=214.0 x2=510.5 y2=214 stroke=#46581f w=2

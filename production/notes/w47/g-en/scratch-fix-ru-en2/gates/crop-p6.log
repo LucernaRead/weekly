@@ -1,0 +1,5 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print 1388 x 949
+web 1388 x 949
+print crop SHA: 728a04578a03e9e5  web crop SHA: 728a04578a03e9e5  byte-identical: True

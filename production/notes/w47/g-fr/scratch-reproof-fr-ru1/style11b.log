@@ -1,0 +1,50 @@
+p1-une.svg: paper=0 VOL.4=2 VOL.5=0
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#46581f': 54, '#6f675d': 20, '#302c28': 109, '#f4efe1': 1, '#cac8ba': 1, '#f6e08e': 2, '#ffffff': 10}
+  families={'Noto Sans CJK SC': 77, 'UnifrakturMaguntia': 1, 'Noto Serif CJK SC': 13, 'Newsreader': 106}
+  U+3000=33 real_CJK_glyphs={}
+  path_fills(illustration)={'#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3}
+  masthead 'Le Lucerna' in joined: True
+p2-vie.svg: paper=0 VOL.4=1 VOL.5=1
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 111, '#6f675d': 43, '#46581f': 26, '#ffffff': 12}
+  families={'Noto Sans CJK SC': 71, 'Newsreader': 114, 'Noto Serif CJK SC': 10}
+  U+3000=33 real_CJK_glyphs={}
+  path_fills(illustration)={}
+p3-culture.svg: paper=0 VOL.4=1 VOL.5=0
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 124, '#6f675d': 28, '#46581f': 28, '#ffffff': 18}
+  families={'Noto Sans CJK SC': 74, 'Newsreader': 112, 'Noto Serif CJK SC': 15}
+  U+3000=20 real_CJK_glyphs={}
+  path_fills(illustration)={'#46581f': 1}
+p4-sport.svg: paper=0 VOL.4=1 VOL.5=2
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 178, '#6f675d': 27, '#46581f': 24, '#ffffff': 15}
+  families={'Noto Sans CJK SC': 63, 'Newsreader': 151, 'Noto Serif CJK SC': 33}
+  U+3000=29 real_CJK_glyphs={}
+  path_fills(illustration)={}
+p5-jeunesse.svg: paper=0 VOL.4=1 VOL.5=0
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 152, '#6f675d': 34, '#46581f': 20, '#ffffff': 14}
+  families={'Noto Sans CJK SC': 63, 'Newsreader': 135, 'Noto Serif CJK SC': 25}
+  U+3000=21 real_CJK_glyphs={}
+  path_fills(illustration)={}
+p6-politique.svg: paper=0 VOL.4=1 VOL.5=0
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 156, '#6f675d': 26, '#46581f': 33, '#ffffff': 15}
+  families={'Noto Sans CJK SC': 72, 'Newsreader': 140, 'Noto Serif CJK SC': 21}
+  U+3000=23 real_CJK_glyphs={}
+  path_fills(illustration)={}
+p7-langue.svg: paper=0 VOL.4=3 VOL.5=3
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 3, '#f6e08e': 3, '#46581f': 35, '#302c28': 104, '#6f675d': 29, '#ffffff': 12, '#cac8ba': 3}
+  families={'Noto Sans CJK SC': 73, 'Newsreader': 107, 'Noto Serif CJK SC': 5, 'DejaVu Sans': 4}
+  U+3000=14 real_CJK_glyphs={}
+  path_fills(illustration)={}
+p8-exercices.svg: paper=0 VOL.4=1 VOL.5=3
+  rect_fills_nonpalette={} text_fills_nonpalette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#46581f': 47, '#302c28': 253, '#6f675d': 15, '#ffffff': 38}
+  families={'Noto Sans CJK SC': 193, 'Newsreader': 124, 'Noto Serif CJK SC': 39}
+  U+3000=196 real_CJK_glyphs={}
+  path_fills(illustration)={}
+TOTAL VOL.4=11 VOL.5=9

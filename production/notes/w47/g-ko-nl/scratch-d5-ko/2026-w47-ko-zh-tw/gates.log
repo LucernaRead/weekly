@@ -1,0 +1,40 @@
+### [2026-w47-ko-zh-tw] phase=rebuild-gates reader=zh-tw mode=cjk print=Lucerna-VOL4-KO-ZH-TW.pdf web=Lucerna-VOL4-KO-ZH-TW-web.pdf
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch
+### [2026-w47-ko-zh-tw] Phase C: rebuild production (venv)
+--- run.py (RC logged below) ---
+RC=0 :: run.py
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- render.py (RC logged below) ---
+RC=0 :: render.py
+--- webpdf.py (RC logged below) ---
+RC=0 :: webpdf.py
+-rw-rw---- 1 root nogroup  4323857 Nov 12 16:50 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW-web.pdf
+-rw-rw---- 1 root nogroup 45219886 Nov 12 16:49 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW.pdf
+### [2026-w47-ko-zh-tw] Phase D: gates
+--- d5_census patched (RC logged below) ---
+RC=0 :: d5_census patched
+--- census_quotes patched svg (RC logged below) ---
+RC=0 :: census_quotes patched svg
+--- head_check (RC logged below) ---
+RC=0 :: head_check
+--- occlusion_audit (RC logged below) ---
+RC=0 :: occlusion_audit
+--- p8 extract (RC logged below) ---
+RC=0 :: p8 extract
+--- p8 compare vs core-ko (RC logged below) ---
+RC=0 :: p8 compare vs core-ko
+--- freeze baseline (syspy exception) (RC logged below) ---
+RC=1 :: freeze baseline (syspy exception)
+--- freeze diff patched vs base-venv (syspy exception) (RC logged below) ---
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+--- spill_sweep (RC logged below) ---
+RC=0 :: spill_sweep
+--- boxtitle_check (RC logged below) ---
+RC=0 :: boxtitle_check
+--- pdf_edge_scan (RC logged below) ---
+RC=0 :: pdf_edge_scan
+--- d5_creambox_audit (RC logged below) ---
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+### [2026-w47-ko-zh-tw] gates done; summary RCs above

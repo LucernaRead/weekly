@@ -1,0 +1,25 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+page rect print: Rect(0.0, 0.0, 1462.5, 2025.0) web: Rect(0.0, 0.0, 1462.5, 2025.0)
+total non-ws chars print: 25845 web: 25845 multiset identical: True
+P1 print 2864 web 2864 identical True
+P2 print 2934 web 2934 identical True
+P3 print 2401 web 2401 identical True
+P4 print 3009 web 3009 identical True
+P5 print 2619 web 2619 identical True
+P6 print 2413 web 2413 identical True
+P7 print 3089 web 3089 identical True
+P8 print 6516 web 6516 identical True
+norm lines print: 1584 web: 1584
+diff opcodes: 0
+P8 min sizes: [(9.75, ' +', 1390.2), (9.75, ' +', 1390.2), (9.75, ' +', 1411.3), (9.75, ' 16:20. —', 1083.2), (9.75, ' =', 1169.3), (9.75, ' =', 1190.5), (9.75, ' =', 1211.6), (9.75, ' =', 1253.9)]
+P8 spans: 1268 min: 9.75
+P1 min font 11.62 spans 538
+P2 min font 11.62 spans 437
+P3 min font 12.75 spans 409
+P4 min font 11.62 spans 577
+P5 min font 11.62 spans 479
+P6 min font 12.75 spans 400
+P7 min font 11.62 spans 509
+P8 min font 9.75 spans 1268

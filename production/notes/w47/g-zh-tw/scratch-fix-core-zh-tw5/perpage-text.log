@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P1 chars print=2228 web=2228 multiset print-only=0 web-only=0 OK
+P2 chars print=2685 web=2685 multiset print-only=0 web-only=0 OK
+P3 chars print=3128 web=3128 multiset print-only=0 web-only=0 OK
+P4 chars print=2344 web=2344 multiset print-only=0 web-only=0 OK
+P5 chars print=3165 web=3165 multiset print-only=0 web-only=0 OK
+P6 chars print=2351 web=2351 multiset print-only=0 web-only=0 OK
+P7 chars print=3596 web=3596 multiset print-only=0 web-only=0 OK
+P8 chars print=8982 web=8982 multiset print-only=0 web-only=0 OK
+PERPAGE TEXTLAYER: PASS
+col4 elements with top in (1372,2500): []

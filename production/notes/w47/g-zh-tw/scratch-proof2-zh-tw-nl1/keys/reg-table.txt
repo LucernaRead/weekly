@@ -1,0 +1,652 @@
+#1 P1 A2 單選 reg='B' p8='B' call='B' [content12.py:79]
+   note_arg: De parade is op zondag 22 nov. om 14:00.
+   body: 封王遊行在哪天下午2點出發？
+   opts: ['A. 週六', 'B. 週日（11月22日）', 'C. 週一']
+   reg_note: De parade is op zondag 22 nov. om 14:00.
+#2 P1 A2 單選 reg='C' p8='C' call='C' [content12.py:81]
+   note_arg: De parade start bij het Tianmu Baseball Stadium.
+   body: 封王遊行從哪裡出發？
+   opts: ['A. 台北大巨蛋', 'B. 南港展覽館', 'C. 天母棒球場']
+   reg_note: De parade start bij het Tianmu Baseball Stadium.
+#3 P1 A2 單選 reg='A' p8='A' call='A' [content12.py:83]
+   note_arg: De laatste voorstelling van de nachtparade is om 19:00 op 22 nov.
+   body: 六福村夜間遊行最終場晚上幾點？
+   opts: ['A. 晚上7點', 'B. 下午2點', 'C. 晚上9點']
+   reg_note: De laatste voorstelling van de nachtparade is om 19:00 op 22 nov.
+#4 P1 A2 單選 reg='B' p8='B' call='B' [content12.py:85]
+   note_arg: De reuzendemon is 5 meter hoog.
+   body: 夜間遊行的巨型鹿魔有多高？
+   opts: ['A. 1米', 'B. 5米', 'C. 10米']
+   reg_note: De reuzendemon is 5 meter hoog.
+#5 P1 A2 完成句子 reg='封王' p8='封王' call='封王' [content12.py:88]
+   note_arg: De titel pakken is 封王.
+   body: 拿下總冠軍，叫___。
+   reg_note: De titel pakken is 封王.
+#6 P1 A2 完成句子 reg='大巨蛋' p8='大巨蛋' call='大巨蛋' [content12.py:90]
+   note_arg: De parade eindigt bij de Taipei Dome.
+   body: 封王遊行終點是台北___松菸大道。
+   reg_note: De parade eindigt bij de Taipei Dome.
+#7 P1 A2 完成句子 reg='夜間' p8='夜間' call='夜間' [content12.py:92]
+   note_arg: De nachtparade is 's avonds.
+   body: 《鹿魔覺醒》是___遊行。
+   reg_note: De nachtparade is 's avonds.
+#8 P1 A2 完成句子 reg='感謝祭' p8='感謝祭' call='感謝祭' [content12.py:94]
+   note_arg: Het dankfeest bedankt de fans.
+   body: 球隊謝謝球迷的活動，叫___。
+   reg_note: Het dankfeest bedankt de fans.
+#9 P1 A2 完成句子 reg='鹿魔' p8='鹿魔' call='鹿魔' [content12.py:96]
+   note_arg: De reuzendemon leidt de nachtparade.
+   body: 夜間遊行由5米高的巨型___帶隊。
+   reg_note: De reuzendemon leidt de nachtparade.
+#10 P1 A2 完成句子 reg='紅色' p8='紅色' call='紅色' [content12.py:98]
+   note_arg: Draag rood voor de Dragons.
+   body: 看遊行要穿___衣服，為龍隊喝采。
+   reg_note: Draag rood voor de Dragons.
+#11 P2 A2 單選 reg='B' p8='B' call='B' [content12.py:125]
+   note_arg: Xiaoxue is op zondag 22 nov.
+   body: 小雪在哪天？
+   opts: ['A. 11月16日', 'B. 11月22日', 'C. 11月9日']
+   reg_note: Xiaoxue is op zondag 22 nov.
+#12 P2 A2 單選 reg='A' p8='A' call='A' [content12.py:127]
+   note_arg: Xiaoxue is de 20e zonneterm.
+   body: 小雪是二十四節氣的第幾個？
+   opts: ['A. 第20個', 'B. 第2個', 'C. 第24個']
+   reg_note: Xiaoxue is de 20e zonneterm.
+#13 P2 A2 單選 reg='C' p8='C' call='C' [content12.py:129]
+   note_arg: Warme voetenbaden duren 10–15 minuten.
+   body: 晚上用溫熱水泡腳，泡多久？
+   opts: ['A. 1分鐘', 'B. 1小時', 'C. 10到15分鐘']
+   reg_note: Warme voetenbaden duren 10–15 minuten.
+#14 P2 A2 單選 reg='B' p8='B' call='B' [content12.py:131]
+   note_arg: Controleer het pakket voordat je het opent.
+   body: 包裹到了，第一步要做什麼？
+   opts: ['A. 馬上拆箱', 'B. 先點收、看外箱', 'C. 直接丟掉']
+   reg_note: Controleer het pakket voordat je het opent.
+#15 P2 A2 單選 reg='C' p8='C' call='C' [content12.py:133]
+   note_arg: De bedenktijd is 7 dagen.
+   body: 台灣消保法的鑑賞期是幾天？
+   opts: ['A. 3天', 'B. 14天', 'C. 7天']
+   reg_note: De bedenktijd is 7 dagen.
+#16 P2 A2 單選 reg='A' p8='A' call='A' [content12.py:135]
+   note_arg: Christmasland loopt van 13 nov. tot 27 dec.
+   body: 新北耶誕城展到哪天？
+   opts: ['A. 12月27日', 'B. 11月22日', 'C. 11月16日']
+   reg_note: Christmasland loopt van 13 nov. tot 27 dec.
+#17 P2 A2 完成句子 reg='小雪' p8='小雪' call='小雪' [content12.py:138]
+   note_arg: Xiaoxue is de zonneterm na Lidong.
+   body: 立冬之後的下一個節氣是___。
+   reg_note: Xiaoxue is de zonneterm na Lidong.
+#18 P2 A2 完成句子 reg='保暖' p8='保暖' call='保暖' [content12.py:140]
+   note_arg: Kleed je warm als de winter dieper wordt.
+   body: 冬天更深了，要注意___。
+   reg_note: Kleed je warm als de winter dieper wordt.
+#19 P2 A2 完成句子 reg='泡腳' p8='泡腳' call='泡腳' [content12.py:142]
+   note_arg: Een warm voetenbad helpt om te slapen.
+   body: 晚上用溫熱水___10到15分鐘。
+   reg_note: Een warm voetenbad helpt om te slapen.
+#20 P2 A2 完成句子 reg='點收' p8='點收' call='點收' [content12.py:144]
+   note_arg: Controleer de levering voordat je de doos opent.
+   body: 包裹到了，先___再拆箱。
+   reg_note: Controleer de levering voordat je de doos opent.
+#21 P2 A2 完成句子 reg='鑑賞期' p8='鑑賞期' call='鑑賞期' [content12.py:146]
+   note_arg: De bedenktijd van 7 dagen.
+   body: 收到商品7天內可以退貨，叫___。
+   reg_note: De bedenktijd van 7 dagen.
+#22 P2 A2 完成句子 reg='主燈秀' p8='主燈秀' call='主燈秀' [content12.py:148]
+   note_arg: De hoofdlichtshow herhaalt zich elk halfuur.
+   body: 耶誕城的___每半小時一次。
+   reg_note: De hoofdlichtshow herhaalt zich elk halfuur.
+#23 P2 A2 單選 reg='B' p8='B' call='B' [content12.py:151]
+   note_arg: 1.200 + 800 = 2.000 in totaal.
+   body: 練習：耳機1,200元加背包800元，一共多少？
+   opts: ['A. 1,000元', 'B. 2,000元', 'C. 3,000元']
+   reg_note: 1.200 + 800 = 2.000 in totaal.
+#24 P2 A2 單選 reg='A' p8='A' call='A' [content12.py:153]
+   note_arg: 2.000 − 1.200 = 800 werkelijk betaald.
+   body: 練習：退掉1,200元的耳機，阿明實付多少？
+   opts: ['A. 800元', 'B. 1,200元', 'C. 2,000元']
+   reg_note: 2.000 − 1.200 = 800 werkelijk betaald.
+#25 P2 A2 配對 reg='a' p8='a' call='A' [content34.py:29]
+   note_arg: Het filmfestival loopt van 6 tot 22 nov.
+   body: 金馬影展放到哪天？
+   opts: ['A. 11月22日', 'B. 11月15日', 'C. 11月9日']
+   reg_note: 小雪 — Kleine Sneeuw, de term na Lidong.
+#26 P2 A2 配對 reg='b' p8='b' call='B' [content34.py:31]
+   note_arg: 587 films ingezonden dit jaar.
+   body: 今年金馬獎有幾部影片報名？
+   opts: ['A. 87部', 'B. 587部', 'C. 57部']
+   reg_note: 點收 — een levering bij aankomst controleren.
+#27 P2 A2 配對 reg='c' p8='c' call='C' [content34.py:33]
+   note_arg: De ceremonie is op zondag 22 nov.
+   body: 第63屆金馬獎頒獎典禮在哪天？
+   opts: ['A. 11月15日', 'B. 11月9日', 'C. 11月22日']
+   reg_note: 鑑賞期 — de bedenktijd (retourtermijn).
+#28 P2 A2 配對 reg='d' p8='d' call='A' [content34.py:35]
+   note_arg: De ceremonie begint om 18:30.
+   body: 金馬獎頒獎典禮晚上幾點開始？
+   opts: ['A. 6點30分', 'B. 5點', 'C. 8點']
+   reg_note: 主燈秀 — de hoofdlichtshow.
+#29 P3 A2 單選 reg='A' p8='A' call='B' [content34.py:37]
+   note_arg: Het staalfestival sluit op 22 nov.
+   body: 高雄鋼雕藝術節展到哪天？
+   opts: ['A. 11月15日', 'B. 11月22日', 'C. 12月22日']
+   reg_note: Het filmfestival loopt van 6 tot 22 nov.
+#30 P3 A2 單選 reg='B' p8='B' call='C' [content34.py:39]
+   note_arg: A Trip to the Moon is gemaakt in 1902.
+   body: 《月球之旅》是哪一年拍的？
+   opts: ['A. 2026年', 'B. 1920年', 'C. 1902年']
+   reg_note: 587 films ingezonden dit jaar.
+#31 P3 B1 單選 reg='C' p8='C' call='入圍' [content34.py:42]
+   note_arg: De nominatielijst werd op 1 okt. bekendgemaakt.
+   body: 金馬獎___名單在10月1日公布。
+   reg_note: De ceremonie is op zondag 22 nov.
+#32 P3 B1 單選 reg='A' p8='A' call='星光大道' [content34.py:44]
+   note_arg: De rode loper begint om 17:00.
+   body: 頒獎典禮前，先走___。
+   reg_note: De ceremonie begint om 18:30.
+#33 P3 B1 單選 reg='B' p8='B' call='保險箱' [content34.py:46]
+   note_arg: Het pakhuis wordt een stalen kluis.
+   body: 主題展把倉庫變成一座___。
+   reg_note: Het staalfestival sluit op 22 nov.
+#34 P3 B1 單選 reg='C' p8='C' call='鹽埕' [content34.py:48]
+   note_arg: Yancheng is een van de festivalwijken.
+   body: 鋼雕藝術節的地點包括駁二、哈瑪星和___街區。
+   reg_note: A Trip to the Moon is gemaakt in 1902.
+#35 P3 A2 完成句子 reg='入圍' p8='入圍' call='默片' [content34.py:50]
+   note_arg: Vroege films waren zwart-wit en stil.
+   body: 一百多年前的電影是黑白___。
+   reg_note: De nominatielijst werd op 1 okt. bekendgemaakt.
+#36 P3 A2 完成句子 reg='星光大道' p8='星光大道' call='柯煒林' [content34.py:52]
+   note_arg: Will Or presenteert de ceremonie van dit jaar.
+   body: 今年金馬獎主持人是___。
+   reg_note: De rode loper begint om 17:00.
+#37 P3 B1 完成句子 reg='保險箱' p8='保險箱' call='C' [content34.py:55]
+   note_arg: 6 tot 22 nov. inclusief is 17 dagen.
+   body: 金馬影展11月6日到11月22日，一共幾天？
+   opts: ['A. 15天', 'B. 16天', 'C. 17天']
+   reg_note: Het pakhuis wordt een stalen kluis.
+#38 P3 B1 完成句子 reg='鹽埕' p8='鹽埕' call='B' [content34.py:57]
+   note_arg: Van 17:00 tot 18:30 is 1,5 uur.
+   body: 星光大道下午5點開始，典禮晚上6點30分開始，中間隔多久？
+   opts: ['A. 1小時', 'B. 1小時30分', 'C. 2小時']
+   reg_note: Yancheng is een van de festivalwijken.
+#39 P3 B1 完成句子 reg='默片' p8='默片' call='B' [content34.py:153]
+   note_arg: De parade is op zondag 22 nov. om 14:00.
+   body: 封王遊行在哪天下午2點出發？
+   opts: ['A. 11月15日', 'B. 11月22日', 'C. 11月9日']
+   reg_note: Vroege films waren zwart-wit en stil.
+#40 P3 B1 完成句子 reg='柯煒林' p8='柯煒林' call='C' [content34.py:155]
+   note_arg: De parade start bij het Tianmu Baseball Stadium.
+   body: 封王遊行從哪裡出發？
+   opts: ['A. 台北大巨蛋', 'B. 南港展覽館', 'C. 天母棒球場']
+   reg_note: Will Or presenteert de ceremonie van dit jaar.
+#41 P3 B1 單選 reg='C' p8='C' call='A' [content34.py:157]
+   note_arg: Het festival is op 21–22 nov. in Tianmu.
+   body: 球迷感謝祭在哪兩天舉行？
+   opts: ['A. 11月21、22日', 'B. 11月14、15日', 'C. 11月6、7日']
+   reg_note: 6 tot 22 nov. inclusief is 17 dagen.
+#42 P3 B1 單選 reg='B' p8='B' call='B' [content34.py:159]
+   note_arg: Bezoeken in november leveren elk 10 punten op.
+   body: 11月運動一次拿幾個U幣？
+   opts: ['A. 5個', 'B. 10個', 'C. 100個']
+   reg_note: Van 17:00 tot 18:30 is 1,5 uur.
+#43 P3 B1 配對 reg='a' p8='a' call='A' [content34.py:161]
+   note_arg: 100 punten worden omgezet in EasyCard-tegoed.
+   body: 滿幾個U幣可以換成悠遊卡儲值金？
+   opts: ['A. 100個', 'B. 50個', 'C. 10個']
+   reg_note: 入圍 — genomineerd zijn.
+#44 P3 B1 配對 reg='b' p8='b' call='C' [content34.py:163]
+   note_arg: 267 locaties doen mee.
+   body: U幣集點有幾間運動場館參加？
+   opts: ['A. 67間', 'B. 167間', 'C. 267間']
+   reg_note: 頒獎 — prijzen uitreiken.
+#45 P3 B1 配對 reg='c' p8='c' call='大巨蛋' [content34.py:166]
+   note_arg: De parade eindigt bij de Taipei Dome.
+   body: 封王遊行終點是台北___松菸大道。
+   reg_note: 鋼雕 — sculptuur van staal.
+#46 P3 B1 配對 reg='d' p8='d' call='遊行' [content34.py:168]
+   note_arg: Een parade: iedereen gaat de straat op om te vieren.
+   body: 大家走上街頭慶祝，叫___。
+   reg_note: 默片 — een stomme film.
+#47 P4 B1 單選 reg='B' p8='B' call='感謝祭' [content34.py:170]
+   note_arg: Het dankfeest bedankt de fans.
+   body: 球隊謝謝球迷的活動，叫___。
+   reg_note: De parade is op zondag 22 nov. om 14:00.
+#48 P4 B1 單選 reg='C' p8='C' call='集點' [content34.py:172]
+   note_arg: Punten verzamelen elke keer dat je sport.
+   body: 每次運動累積點數，叫___。
+   reg_note: De parade start bij het Tianmu Baseball Stadium.
+#49 P4 B1 單選 reg='A' p8='A' call='帳篷' [content34.py:174]
+   note_arg: Fans kamperen 's nachts op het gras.
+   body: 球迷可以在草坪上搭___過夜。
+   reg_note: Het festival is op 21–22 nov. in Tianmu.
+#50 P4 B1 單選 reg='B' p8='B' call='紅色' [content34.py:176]
+   note_arg: Draag rood voor de Dragons.
+   body: 看遊行要穿___衣服，為龍隊喝采。
+   reg_note: Bezoeken in november leveren elk 10 punten op.
+#51 P4 B1 單選 reg='A' p8='A' call='B' [content34.py:179]
+   note_arg: 5 bezoeken × 10 punten = 50 punten.
+   body: 運動5次，一共幾個U幣？
+   opts: ['A. 10個', 'B. 50個', 'C. 100個']
+   reg_note: 100 punten worden omgezet in EasyCard-tegoed.
+#52 P4 B1 單選 reg='C' p8='C' call='C' [content34.py:181]
+   note_arg: 7 bezoeken × 10 = 70 punten; nog 30 tot 100.
+   body: 運動7次，一共70個U幣，還差幾個滿100個？
+   opts: ['A. 10個', 'B. 20個', 'C. 30個']
+   reg_note: 267 locaties doen mee.
+#53 P4 B1 完成句子 reg='大巨蛋' p8='大巨蛋' call='B' [content56.py:34]
+   note_arg: Disney-Kerstmis loopt van 17 nov. tot 3 jan.
+   body: 香港迪士尼聖誕從哪天開始？
+   opts: ['A. 11月11日', 'B. 11月17日', 'C. 11月22日']
+   reg_note: De parade eindigt bij de Taipei Dome.
+#54 P4 B1 完成句子 reg='遊行' p8='遊行' call='A' [content56.py:36]
+   note_arg: De wintermarkt is in World of Frozen.
+   body: 魔雪奇緣世界今年有什麼新東西？
+   opts: ['A. 第一個冬日市集', 'B. 新的雲霄飛車', 'C. 新的水上樂園']
+   reg_note: Een parade: iedereen gaat de straat op om te vieren.
+#55 P4 B1 完成句子 reg='感謝祭' p8='感謝祭' call='C' [content56.py:38]
+   note_arg: Stacey Kent speelt op 17 nov. in FreeSpace.
+   body: 史黛西·肯特在哪天演出？
+   opts: ['A. 11月13日', 'B. 11月15日', 'C. 11月17日']
+   reg_note: Het dankfeest bedankt de fans.
+#56 P4 B1 完成句子 reg='集點' p8='集點' call='B' [content56.py:40]
+   note_arg: Kenny G sluit het festival af op 24 nov.
+   body: 爵士音樂節誰收尾？
+   opts: ['A. 戴安娜·克瑞兒', 'B. 肯尼·基', 'C. 科里·黃']
+   reg_note: Punten verzamelen elke keer dat je sport.
+#57 P4 B1 完成句子 reg='帳篷' p8='帳篷' call='A' [content56.py:42]
+   note_arg: De Pokémon-tentoonstelling opent op 11 nov.
+   body: 寶可夢30週年活動從哪天開始？
+   opts: ['A. 11月11日', 'B. 11月22日', 'C. 11月6日']
+   reg_note: Fans kamperen 's nachts op het gras.
+#58 P4 B1 完成句子 reg='紅色' p8='紅色' call='B' [content56.py:44]
+   note_arg: Het kerstconcert speelt in totaal 4 voorstellingen.
+   body: 迪士尼聖誕音樂會一共幾場？
+   opts: ['A. 2場', 'B. 4場', 'C. 6場']
+   reg_note: Draag rood voor de Dragons.
+#59 P4 B1 單選 reg='B' p8='B' call='市集' [content56.py:47]
+   note_arg: World of Frozen houdt de eerste wintermarkt.
+   body: 魔雪奇緣世界有第一個冬日___。
+   reg_note: 5 bezoeken × 10 punten = 50 punten.
+#60 P4 B1 單選 reg='C' p8='C' call='亮燈禮' [content56.py:49]
+   note_arg: De boomverlichting sluit de avond af.
+   body: 晚上有聖誕樹___。
+   reg_note: 7 bezoeken × 10 = 70 punten; nog 30 tot 100.
+#61 P4 B1 配對 reg='a' p8='a' call='爵士' [content56.py:51]
+   note_arg: Jazz aan de haven, gratis buiten.
+   body: 西九音樂節是___音樂節。
+   reg_note: 遊行 — een parade door de straten.
+#62 P4 B1 配對 reg='b' p8='b' call='免費' [content56.py:53]
+   note_arg: De buitenpodia zijn gratis.
+   body: 戶外舞台是___的。
+   reg_note: 感謝祭 — een dankfeest voor fans.
+#63 P4 B1 配對 reg='c' p8='c' call='皮卡丘' [content56.py:55]
+   note_arg: Een reusachtige Pikachu-ballon markeert het Pokémon-evenement.
+   body: 寶可夢活動有巨型___氣球。
+   reg_note: 集點 — punten verzamelen.
+#64 P4 B1 配對 reg='d' p8='d' call='耶誕' [content56.py:57]
+   note_arg: De Duitse kerstmarkt is van 4 tot 6 dec.
+   body: 新北耶誕城有德國___市集。
+   reg_note: 封王 — de titel pakken.
+#65 P5 B1 單選 reg='B' p8='B' call='B' [content56.py:60]
+   note_arg: 17–30 nov. is 14 dagen, plus 31 in december, plus 3 in januari = 48.
+   body: 迪士尼聖誕11月17日到明年1月3日，一共幾天？
+   opts: ['A. 38天', 'B. 48天', 'C. 58天']
+   reg_note: Disney-Kerstmis loopt van 17 nov. tot 3 jan.
+#66 P5 B1 單選 reg='A' p8='A' call='A' [content56.py:62]
+   note_arg: 17 tot 22 nov. inclusief is 6 dagen.
+   body: 爵士音樂節第二週11月17日到22日，一共幾天？
+   opts: ['A. 6天', 'B. 5天', 'C. 7天']
+   reg_note: De wintermarkt is in World of Frozen.
+#67 P5 B1 單選 reg='C' p8='C' call='A' [content56.py:158]
+   note_arg: De parade vertrekt om 14:00, de vroegste markering.
+   body: 時間軸上，最早開始的是哪一件大事？
+   opts: ['A. 封王遊行下午2點', 'B. 金馬獎頒獎典禮', 'C. 夜間遊行']
+   reg_note: Stacey Kent speelt op 17 nov. in FreeSpace.
+#68 P5 B1 單選 reg='B' p8='B' call='B' [content56.py:160]
+   note_arg: Van 14:00 tot 19:00 is 5 uur.
+   body: 封王遊行下午2點出發，夜間遊行晚上7點，中間隔幾小時？
+   opts: ['A. 3小時', 'B. 5小時', 'C. 7小時']
+   reg_note: Kenny G sluit het festival af op 24 nov.
+#69 P5 B1 單選 reg='A' p8='A' call='C' [content56.py:162]
+   note_arg: Van 17:00 tot 18:30 is 1,5 uur.
+   body: 星光大道下午5點，頒獎典禮晚上6點30分，中間隔多久？
+   opts: ['A. 1小時', 'B. 2小時', 'C. 1小時30分']
+   reg_note: De Pokémon-tentoonstelling opent op 11 nov.
+#70 P5 B1 單選 reg='B' p8='B' call='A' [content56.py:164]
+   note_arg: Het staalfestival sluit om 20:00, de laatste markering.
+   body: 時間軸上，最晚的是哪一件？
+   opts: ['A. 鋼雕藝術節晚上8點閉館', 'B. 星光大道', 'C. 封王遊行']
+   reg_note: Het kerstconcert speelt in totaal 4 voorstellingen.
+#71 P5 B1 完成句子 reg='市集' p8='市集' call='B' [content56.py:167]
+   note_arg: Eén persoon kan niet alle vier evenementen op één dag zien.
+   body: 11月22日四件大事，一個人看得完嗎？
+   opts: ['A. 看得完，都在同一個地方', 'B. 看不完，要選一件', 'C. 看得完，都在早上']
+   reg_note: World of Frozen houdt de eerste wintermarkt.
+#72 P5 B1 完成句子 reg='亮燈禮' p8='亮燈禮' call='A' [content56.py:169]
+   note_arg: Bekijk de parade live, de ceremonie op het scherm.
+   body: 看遊行和看金馬獎，最好的辦法是什麼？
+   opts: ['A. 遊行去現場，金馬獎看轉播', 'B. 兩件都不要看', 'C. 只看夜間遊行']
+   reg_note: De boomverlichting sluit de avond af.
+#73 P5 B1 完成句子 reg='爵士' p8='爵士' call='C' [content56.py:171]
+   note_arg: Xiaoxue is op 22 nov., dezelfde dag.
+   body: 小雪在哪天？
+   opts: ['A. 11月16日', 'B. 11月17日', 'C. 11月22日']
+   reg_note: Jazz aan de haven, gratis buiten.
+#74 P5 B1 完成句子 reg='免費' p8='免費' call='B' [content56.py:173]
+   note_arg: Het staalfestival sluit op 22 nov.
+   body: 鋼雕藝術節展到哪天？
+   opts: ['A. 11月15日', 'B. 11月22日', 'C. 12月22日']
+   reg_note: De buitenpodia zijn gratis.
+#75 P5 B1 完成句子 reg='皮卡丘' p8='皮卡丘' call='A' [content56.py:175]
+   note_arg: De laatste voorstelling van de nachtparade is om 19:00 op 22 nov.
+   body: 六福村夜間遊行最終場晚上幾點？
+   opts: ['A. 晚上7點', 'B. 下午2點', 'C. 晚上9點']
+   reg_note: Een reusachtige Pikachu-ballon markeert het Pokémon-evenement.
+#76 P5 B1 完成句子 reg='耶誕' p8='耶誕' call='C' [content56.py:177]
+   note_arg: De ceremonie is in het Taipei Music Center.
+   body: 金馬獎頒獎典禮在哪裡舉行？
+   opts: ['A. 天母棒球場', 'B. 駁二蓬萊區', 'C. 台北流行音樂中心']
+   reg_note: De Duitse kerstmarkt is van 4 tot 6 dec.
+#77 P5 B1 單選 reg='B' p8='B' call='時間軸' [content56.py:180]
+   note_arg: Lees de tijdlijn om de dag te plannen.
+   body: 先看___，再決定去哪一件。
+   reg_note: 17–30 nov. is 14 dagen, plus 31 in december, plus 3 in januari = 48.
+#78 P5 B1 單選 reg='A' p8='A' call='轉播' [content56.py:182]
+   note_arg: Bekijk de ceremonie op het scherm.
+   body: 金馬獎在家看___就好。
+   reg_note: 17 tot 22 nov. inclusief is 6 dagen.
+#79 P5 B1 配對 reg='a' p8='a' call='取捨' [content56.py:184]
+   note_arg: Je kunt niet alles zien: kies.
+   body: 四件大事同一天，要學會___。
+   reg_note: 市集 — een markt.
+#80 P5 B1 配對 reg='b' p8='b' call='星光大道' [content56.py:186]
+   note_arg: De rode loper begint om 17:00.
+   body: 頒獎典禮前，先走___。
+   reg_note: 亮燈禮 — de boomverlichting.
+#81 P5 B1 配對 reg='c' p8='c' call='閉館' [content56.py:188]
+   note_arg: Het staalfestival sluit om 20:00.
+   body: 鋼雕藝術節晚上8點___。
+   reg_note: 爵士 — jazzmuziek.
+#82 P5 B1 配對 reg='d' p8='d' call='小雪' [content56.py:190]
+   note_arg: Xiaoxue is op 22 nov.
+   body: 11月22日也是___。
+   reg_note: 打卡 — inchecken met een foto op sociale media.
+#83 P6 B2 單選 reg='A' p8='A' call='5' [content56.py:192]
+   note_arg: Van 14:00 tot 19:00 is 5 uur.
+   body: 遊行下午2點，夜間遊行晚上7點，中間隔___小時。
+   reg_note: De parade vertrekt om 14:00, de vroegste markering.
+#84 P6 B2 單選 reg='B' p8='B' call='4' [content56.py:194]
+   note_arg: Vier grote evenementen vallen op dezelfde zondag.
+   body: 11月22日一共有___件大事。
+   reg_note: Van 14:00 tot 19:00 is 5 uur.
+#85 P6 B2 單選 reg='C' p8='C' call='遊行' [content7.py:21]
+   note_arg: Een feestoptocht is 遊行.
+   body: 大家走上街頭慶祝，叫___。
+   reg_note: Van 17:00 tot 18:30 is 1,5 uur.
+#86 P6 B2 單選 reg='A' p8='A' call='A' [content7.py:23]
+   note_arg: De parade vertrekt om 14:00 op 22 nov.
+   body: 封王遊行幾點出發？
+   opts: ['A. 下午2點', 'B. 上午2點', 'C. 晚上7點']
+   reg_note: Het staalfestival sluit om 20:00, de laatste markering.
+#87 P6 B2 單選 reg='B' p8='B' call='封王' [content7.py:25]
+   note_arg: De titel pakken is 封王.
+   body: 拿下總冠軍，叫___。
+   reg_note: Eén persoon kan niet alle vier evenementen op één dag zien.
+#88 P6 B2 單選 reg='A' p8='A' call='A' [content7.py:27]
+   note_arg: De nachtparade begint om 19:00.
+   body: 夜間遊行晚上幾點開始？
+   opts: ['A. 晚上7點', 'B. 下午2點', 'C. 上午10點']
+   reg_note: Bekijk de parade live, de ceremonie op het scherm.
+#89 P6 B2 單選 reg='C' p8='C' call='入圍' [content7.py:44]
+   note_arg: Genomineerd zijn is 入圍.
+   body: 被選進最後的得獎名單，叫___。
+   reg_note: Xiaoxue is op 22 nov., dezelfde dag.
+#90 P6 B2 單選 reg='B' p8='B' call='A' [content7.py:46]
+   note_arg: De ceremonie begint om 18:30 op 22 nov.
+   body: 金馬獎頒獎典禮幾點開始？
+   opts: ['A. 晚上6點30分', 'B. 下午2點', 'C. 上午10點']
+   reg_note: Het staalfestival sluit op 22 nov.
+#91 P6 B2 單選 reg='A' p8='A' call='鋼雕' [content7.py:48]
+   note_arg: Een sculptuur van staal is 鋼雕.
+   body: 用鋼鐵做的藝術，叫___。
+   reg_note: De laatste voorstelling van de nachtparade is om 19:00 op 22 nov.
+#92 P6 B2 單選 reg='C' p8='C' call='A' [content7.py:50]
+   note_arg: Het staalfestival sluit op 22 nov.
+   body: 鋼雕藝術節展到哪天？
+   opts: ['A. 11月22日', 'B. 11月15日', 'C. 11月9日']
+   reg_note: De ceremonie is in het Taipei Music Center.
+#93 P6 B2 完成句子 reg='時間軸' p8='時間軸' call='A' [content7.py:61]
+   note_arg: Xiaoxue is de 20e zonneterm.
+   body: 「小雪」是二十四節氣的第幾個？
+   opts: ['A. 第20個', 'B. 第2個', 'C. 第24個']
+   reg_note: Lees de tijdlijn om de dag te plannen.
+#94 P6 B2 完成句子 reg='轉播' p8='轉播' call='主燈秀' [content7.py:63]
+   note_arg: De hoofdlichtshow herhaalt zich elk halfuur.
+   body: 耶誕城的___每半小時一次。
+   reg_note: Bekijk de ceremonie op het scherm.
+#95 P6 B2 完成句子 reg='取捨' p8='取捨' call='A' [content7.py:65]
+   note_arg: De wintermarkt is in World of Frozen.
+   body: 想逛冬日市集、買聖誕禮物，要去哪裡？
+   opts: ['A. 魔雪奇緣世界', 'B. 維多利亞港', 'C. 駁二']
+   reg_note: Je kunt niet alles zien: kies.
+#96 P6 B2 完成句子 reg='星光大道' p8='星光大道' call='市集' [content7.py:67]
+   note_arg: Een markt is 市集.
+   body: 賣東西、逛街的地方，叫___。
+   reg_note: De rode loper begint om 17:00.
+#97 P6 B2 完成句子 reg='閉館' p8='閉館' call='A' [content8.py:18]
+   note_arg: De parade is op zondag 22 nov. om 14:00.
+   body: 封王遊行11月22日下午2點出發。(A. 對 · B. 錯)
+   reg_note: Het staalfestival sluit om 20:00.
+#98 P6 B2 完成句子 reg='小雪' p8='小雪' call='B' [content8.py:20]
+   note_arg: De laatste voorstelling van de nachtparade is op 22 nov., niet op 15 nov.
+   body: 六福村夜間遊行最終場在11月15日。(A. 對 · B. 錯)
+   reg_note: Xiaoxue is op 22 nov.
+#99 P6 B2 完成句子 reg='5' p8='5' call='A' [content8.py:22]
+   note_arg: Disney-Kerstmis begint op 17 nov.
+   body: 香港迪士尼聖誕11月17日開始。(A. 對 · B. 錯)
+   reg_note: Van 14:00 tot 19:00 is 5 uur.
+#100 P6 B2 完成句子 reg='4' p8='4' call='B' [content8.py:24]
+   note_arg: Het staalfestival sluit op 22 nov., niet op 15 nov.
+   body: 鋼雕藝術節11月15日閉幕。(A. 對 · B. 錯)
+   reg_note: Vier grote evenementen vallen op dezelfde zondag.
+#101 P7 A2 完成句子 reg='遊行' p8='遊行' call='A' [content8.py:26]
+   note_arg: Xiaoxue is op 22 nov.
+   body: 小雪在11月22日。(A. 對 · B. 錯)
+   reg_note: Een feestoptocht is 遊行.
+#102 P7 A2 單選 reg='A' p8='A' call='A' [content8.py:28]
+   note_arg: Kenny G sluit het jazzfestival af op 24 nov.
+   body: 爵士音樂節11月24日由肯尼·基收尾。(A. 對 · B. 錯)
+   reg_note: De parade vertrekt om 14:00 op 22 nov.
+#103 P7 A2 完成句子 reg='封王' p8='封王' call='B' [content8.py:31]
+   note_arg: De parade eindigt bij de Taipei Dome.
+   body: 封王遊行終點是哪裡？ A. 天母棒球場 · B. 台北大巨蛋 · C. 駁二
+   reg_note: De titel pakken is 封王.
+#104 P7 A2 單選 reg='A' p8='A' call='C' [content8.py:33]
+   note_arg: De reuzendemon is 5 meter hoog.
+   body: 夜間遊行的巨型鹿魔有多高？ A. 1米 · B. 3米 · C. 5米
+   reg_note: De nachtparade begint om 19:00.
+#105 P7 B1 完成句子 reg='入圍' p8='入圍' call='A' [content8.py:35]
+   note_arg: Xiaoxue is de 20e zonneterm.
+   body: 小雪是二十四節氣的第幾個？ A. 第20個 · B. 第2個 · C. 第24個
+   reg_note: Genomineerd zijn is 入圍.
+#106 P7 B1 單選 reg='A' p8='A' call='B' [content8.py:37]
+   note_arg: De hoofdlichtshow duurt elke keer 5 minuten.
+   body: 耶誕城主燈秀每次幾分鐘？ A. 30分鐘 · B. 5分鐘 · C. 1小時
+   reg_note: De ceremonie begint om 18:30 op 22 nov.
+#107 P7 B1 完成句子 reg='鋼雕' p8='鋼雕' call='C' [content8.py:39]
+   note_arg: 587 films ingezonden.
+   body: 金馬獎有幾部影片報名？ A. 87部 · B. 57部 · C. 587部
+   reg_note: Een sculptuur van staal is 鋼雕.
+#108 P7 B1 單選 reg='A' p8='A' call='B' [content8.py:41]
+   note_arg: Het staalfestival sluit op 22 nov.
+   body: 鋼雕藝術節展到哪天？ A. 11月15日 · B. 11月22日 · C. 12月22日
+   reg_note: Het staalfestival sluit op 22 nov.
+#109 P7 B2 單選 reg='A' p8='A' call='A' [content8.py:43]
+   note_arg: 17 nov.–3 jan. is 48 dagen.
+   body: 迪士尼聖誕一共幾天？ A. 48天 · B. 38天 · C. 58天
+   reg_note: Xiaoxue is de 20e zonneterm.
+#110 P7 B2 完成句子 reg='主燈秀' p8='主燈秀' call='B' [content8.py:45]
+   note_arg: 17 tot 22 nov. inclusief is 6 dagen.
+   body: 爵士音樂節第二週一共幾天？ A. 5天 · B. 6天 · C. 7天
+   reg_note: De hoofdlichtshow herhaalt zich elk halfuur.
+#111 P7 B2 單選 reg='A' p8='A' call='A' [content8.py:47]
+   note_arg: 100 punten worden omgezet in EasyCard-tegoed.
+   body: 滿幾個U幣可以換成悠遊卡儲值金？ A. 100個 · B. 50個 · C. 10個
+   reg_note: De wintermarkt is in World of Frozen.
+#112 P7 B2 完成句子 reg='市集' p8='市集' call='B' [content8.py:49]
+   note_arg: Van 14:00 tot 19:00 is 5 uur.
+   body: 遊行下午2點，夜間遊行晚上7點，中間隔幾小時？ A. 3小時 · B. 5小時 · C. 7小時
+   reg_note: Een markt is 市集.
+#113 P8 A2 完形單選 reg='A' p8='A' call='封王' [content8.py:52]
+   note_arg: De titel pakken is 封王.
+   body: 拿下總冠軍，叫___。
+   reg_note: De parade is op zondag 22 nov. om 14:00.
+#114 P8 A2 完形單選 reg='B' p8='B' call='夜間' [content8.py:54]
+   note_arg: De nachtparade is 's avonds.
+   body: 《鹿魔覺醒》是___遊行。
+   reg_note: De laatste voorstelling van de nachtparade is op 22 nov., niet op 15 nov.
+#115 P8 B1 完形單選 reg='A' p8='A' call='點收' [content8.py:56]
+   note_arg: Controleer de levering voordat je de doos opent.
+   body: 包裹到了，先___再拆箱。
+   reg_note: Disney-Kerstmis begint op 17 nov.
+#116 P8 B1 完形單選 reg='B' p8='B' call='入圍' [content8.py:58]
+   note_arg: Genomineerd zijn is 入圍.
+   body: 被選進得獎名單，叫___。
+   reg_note: Het staalfestival sluit op 22 nov., niet op 15 nov.
+#117 P8 B1 完形單選 reg='A' p8='A' call='遊行' [content8.py:60]
+   note_arg: Een feestoptocht is 遊行.
+   body: 大家走上街頭慶祝，叫___。
+   reg_note: Xiaoxue is op 22 nov.
+#118 P8 B2 完形單選 reg='A' p8='A' call='集點' [content8.py:62]
+   note_arg: Punten sparen is 集點.
+   body: 每次運動累積點數，叫___。
+   reg_note: Kenny G sluit het jazzfestival af op 24 nov.
+#119 P8 A2 單選 reg='B' p8='B' call='主燈秀' [content8.py:64]
+   note_arg: De hoofdlichtshow herhaalt zich elk halfuur.
+   body: 耶誕城的___每半小時一次。
+   reg_note: De parade eindigt bij de Taipei Dome.
+#120 P8 A2 單選 reg='C' p8='C' call='市集' [content8.py:66]
+   note_arg: Een markt is 市集.
+   body: 賣東西、逛街的地方，叫___。
+   reg_note: De reuzendemon is 5 meter hoog.
+#121 P8 B1 單選 reg='A' p8='A' call='時間軸' [content8.py:68]
+   note_arg: Lees de tijdlijn om de dag te plannen.
+   body: 先看___，再決定去哪一件。
+   reg_note: Xiaoxue is de 20e zonneterm.
+#122 P8 B1 單選 reg='B' p8='B' call='小雪' [content8.py:70]
+   note_arg: Xiaoxue is op 22 nov.
+   body: 11月22日也是___。
+   reg_note: De hoofdlichtshow duurt elke keer 5 minuten.
+#123 P8 B1 單選 reg='C' p8='C' call='B' [content8.py:74]
+   note_arg: Ze kijkt 's middags in Tianmu naar de parade.
+   body: 阿玲週日下午去哪裡？ A. 大巨蛋 · B. 天母棒球場 · C. 駁二
+   reg_note: 587 films ingezonden.
+#124 P8 B1 單選 reg='B' p8='B' call='B' [content8.py:76]
+   note_arg: De parade is om 14:00.
+   body: 封王遊行在週日下午幾點出發？ A. 12:00 · B. 14:00 · C. 19:00
+   reg_note: Het staalfestival sluit op 22 nov.
+#125 P8 B2 單選 reg='A' p8='A' call='A' [content8.py:78]
+   note_arg: De ceremonie begint om 18:30.
+   body: 金馬獎頒獎典禮晚上幾點開始？ A. 6點30分 · B. 5點 · C. 8點
+   reg_note: 17 nov.–3 jan. is 48 dagen.
+#126 P8 B2 單選 reg='B' p8='B' call='A' [content8.py:80]
+   note_arg: Volgorde: eerst de parade, dan de ceremonie op het scherm.
+   body: 這一天她的順序是？ A. 先看遊行，再看金馬獎轉播 · B. 先看金馬獎，再看遊行 · C. 只看夜間遊行
+   reg_note: 17 tot 22 nov. inclusief is 6 dagen.
+#127 P8 B2 單選 reg='A' p8='A' call='A' [content8.py:82]
+   note_arg: De staalsluiting en Xiaoxue vallen allebei op 22 nov.
+   body: 11月22日還是哪兩個日子？ A. 鋼雕閉幕和小雪 · B. 雙11和旅展 · C. 爵士音樂節開幕
+   reg_note: 100 punten worden omgezet in EasyCard-tegoed.
+#128 P8 B2 單選 reg='B' p8='B' call='A' [content8.py:85]
+   note_arg: De parade is op zondag 22 nov.
+   body: — 封王遊行哪天出發？ — 本週日___出發。(A. 11月22日 · B. 11月15日)
+   reg_note: Van 14:00 tot 19:00 is 5 uur.
+#129 P8 A2 完成句子 reg='封王' p8='封王' call='A' [content8.py:87]
+   note_arg: De nachtparade begint om 19:00.
+   body: — 夜間遊行晚上幾點？ — ___(A. 晚上7點 · B. 下午2點)
+   reg_note: De titel pakken is 封王.
+#130 P8 A2 完成句子 reg='夜間' p8='夜間' call='A' [content8.py:89]
+   note_arg: De hoofdlichtshow duurt elke keer 5 minuten.
+   body: — 主燈秀每次幾分鐘？ — ___(A. 5分鐘 · B. 30分鐘)
+   reg_note: De nachtparade is 's avonds.
+#131 P8 B1 完成句子 reg='點收' p8='點收' call='A' [content8.py:91]
+   note_arg: De ceremonie is op 22 nov.
+   body: — 金馬獎哪天頒獎？ — ___(A. 11月22日 · B. 11月15日)
+   reg_note: Controleer de levering voordat je de doos opent.
+#132 P8 B1 完成句子 reg='入圍' p8='入圍' call='A' [content8.py:93]
+   note_arg: Xiaoxue is de 20e zonneterm.
+   body: — 小雪是第幾個節氣？ — ___(A. 第20個 · B. 第2個)
+   reg_note: Genomineerd zijn is 入圍.
+#133 P8 B1 完成句子 reg='遊行' p8='遊行' call='A' [content8.py:95]
+   note_arg: Hoe kouder het wordt, hoe warmer je je moet kleden: 越…越….
+   body: — 天氣越冷，越要___？ — ___(A. 保暖 · B. 開窗)
+   reg_note: Een feestoptocht is 遊行.
+#134 P8 B1 完成句子 reg='集點' p8='集點' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Punten sparen is 集點.
+#135 P8 B1 完成句子 reg='主燈秀' p8='主燈秀' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De hoofdlichtshow herhaalt zich elk halfuur.
+#136 P8 B1 完成句子 reg='市集' p8='市集' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Een markt is 市集.
+#137 P8 B2 完成句子 reg='時間軸' p8='時間軸' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Lees de tijdlijn om de dag te plannen.
+#138 P8 B2 完成句子 reg='小雪' p8='小雪' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Xiaoxue is op 22 nov.
+#139 P8 A2 單選 reg='B' p8='B' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Ze kijkt 's middags in Tianmu naar de parade.
+#140 P8 B1 單選 reg='B' p8='B' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De parade is om 14:00.
+#141 P8 B1 單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De ceremonie begint om 18:30.
+#142 P8 B1 單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Volgorde: eerst de parade, dan de ceremonie op het scherm.
+#143 P8 B2 單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De staalsluiting en Xiaoxue vallen allebei op 22 nov.
+#144 P8 B1 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De parade is op zondag 22 nov.
+#145 P8 B1 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De nachtparade begint om 19:00.
+#146 P8 B1 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De hoofdlichtshow duurt elke keer 5 minuten.
+#147 P8 B1 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: De ceremonie is op 22 nov.
+#148 P8 A2 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Xiaoxue is de 20e zonneterm.
+#149 P8 B2 完形單選 reg='A' p8='A' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Hoe kouder het wordt, hoe warmer je je moet kleden: 越…越….
+#150 P8 B2 寫作 reg='(開放題，範文如下)' p8='✓' call=None [?:0]
+   note_arg: 
+   body: 
+   reg_note: Open opdracht — het modelantwoord staat hierboven in sectie F (142 tekens)

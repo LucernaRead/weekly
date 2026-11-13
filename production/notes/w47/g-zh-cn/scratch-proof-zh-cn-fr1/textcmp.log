@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P1: print_spans=485 web_spans=485 posdiff=1 msdiff=0
+P2: print_spans=359 web_spans=359 posdiff=0 msdiff=0
+P3: print_spans=297 web_spans=297 posdiff=0 msdiff=0
+P4: print_spans=507 web_spans=507 posdiff=0 msdiff=0
+P5: print_spans=301 web_spans=301 posdiff=0 msdiff=0
+P6: print_spans=328 web_spans=328 posdiff=0 msdiff=0
+P7: print_spans=348 web_spans=348 posdiff=0 msdiff=0
+P8: print_spans=836 web_spans=836 posdiff=0 msdiff=0
+TOTAL posdiff 1 msdiff 0
+print P8 min size overall: 9.98 count spans: 836
+print P8 page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+web P8 min size overall: 9.98 count spans: 836
+web P8 page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+core print P8 min size overall: 9.98 spans: 838
+print P8 smallest: [(9.98, ' — un colis.'), (9.98, ' ✓'), (9.98, ' 《我们仅有一次的人生》'), (9.98, ' 《珠穆朗玛：云中彼岸》'), (9.98, ' 《白衣逆行者》'), (9.98, ' 《试探》'), (9.98, ' 一天'), (9.98, ' 七')]

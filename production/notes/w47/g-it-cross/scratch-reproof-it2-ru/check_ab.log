@@ -1,0 +1,70 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+text lines: 1318
+775 'Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–In'
+777 'E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: '
+663 "Пояснение — la manovra, бюджетный законопроект · l'audizione, слушания · l'emendamento, поправка · il deficit, дефицит ·"
+763 '100. [B2 · Дополните предложение] Il secondo ___ Irpef si allarga, secondo le ricostruzioni. — key: scaglione (scaglione'
+987 '144. lo scaglione — un livello di reddito del sistema fiscale (key a · scaglione = ступень налоговой шкалы, a)'
+1217 '100. scaglione — scaglione = ступень налоговой шкалы'
+1305 '144. a — scaglione = ступень налоговой шкалы, a'
+new L17 count: 1
+new L18 count: 1
+old1 count: 0
+old2 count: 0
+D1 old count: 0
+D1 new count: 5
+D1 line 663 has new: True
+D1 line 763 has new: True
+D1 line 987 has new: True
+D1 line 1217 has new: True
+D1 line 1305 has new: True
+La-Lucerna-VOL4-RU.pdf pages: 8
+ P7 newL17 norm: 0
+ P7 newL18: 0
+ P7 old1: 0 old2: 0
+ full old1: 0 full old2: 0
+ full D1old: 0 full D1new(norm): 2
+ full words: 7379 p7 words: 686
+La-Lucerna-VOL4-RU-web.pdf pages: 8
+ P7 newL17 norm: 0
+ P7 newL18: 0
+ P7 old1: 0 old2: 0
+ full old1: 0 full old2: 0
+ full D1old: 0 full D1new(norm): 2
+ full words: 7379 p7 words: 686
+svg p7 newL17: 0
+svg p7 newL18: 0
+svg p7 old1: 0 old2: 0
+text diff opcode: ('replace', 774, 777, 774, 777) ['Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: andare → andrò, assaggiare → assaggerò, guardare → guarderò.', '', 'E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, irregolare al futuro: leggerò.'] -> ['Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.', '', 'E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: leggerò.']
+text bytes old/new: 67752 67731
+svg p1-prima.svg SAME
+svg p2-vita.svg SAME
+svg p3-cultura.svg SAME
+svg p4-sport.svg SAME
+svg p5-giovani.svg SAME
+svg p6-approfondimento.svg SAME
+svg p7-lingua.svg DIFF
+svg p8-valutazione.svg SAME
+cards p1-prima.png SAME
+cards p2-vita.png SAME
+cards p3-cultura.png SAME
+cards p4-sport.png SAME
+cards p5-giovani.png SAME
+cards p6-approfondimento.png SAME
+cards p7-lingua.png DIFF
+cards p8-valutazione.png SAME
+content7.py old==new: False
+  --- 
+  +++ 
+  @@ -14,8 +14,8 @@
+   # ---- A2 column ----
+   a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
+   a.head("A2　IL FUTURO", 24)
+  -a.para("Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: andare → andrò, assaggiare → assaggerò, guardare → guarderò.", 21.5)
+  -a.para("E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, irregolare al futuro: leggerò.", 21.5)
+  +a.para("Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.", 21.5)
+  +a.para("E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: leggerò.", 21.5)
+   a.bridge("Говорите о планах в будущем времени: andremo, assaggeremo, guarderemo, leggeremo.")
+   a.ex("A2", "Дополните предложение", "andremo", "andare, будущее время, noi: andremo",
+        "Domenica noi ___ (andare) a Cremona.", instr="Вставьте", size=20.5, gap=10)

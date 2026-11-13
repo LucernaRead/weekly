@@ -1,0 +1,17 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+WORST 8 clearances (px, negative = overflow):
+    13.50px  p4-tiyu.svg box=[1439.5, 915.4, 1862.0, 1171.4]
+    20.25px  p2-shenghuo.svg box=[538.5, 1286.1, 961.0, 1431.8]
+    21.00px  p1-touiban.svg box=[538.5, 1110.3, 961.0, 1463.3]
+    21.00px  p3-wenhua.svg box=[88.0, 1265.2, 510.5, 1470.3]
+    21.80px  p7-ciyu.svg box=[1439.5, 1250.5, 1862.0, 1646.5]
+    21.90px  p1-touiban.svg box=[1439.5, 1312.0, 1862.0, 1652.0]
+    22.30px  p1-touiban.svg box=[1439.5, 1874.0, 1862.0, 2290.0]
+    22.50px  p5-qingnian.svg box=[538.5, 200.0, 961.0, 405.1]
+PDF pages: 8
+b1 text-layer spans: [] boxedge pt: 720.75
+b2 text-layer spans: [] boxedge pt: 1058.625
+b3 line: 'Sluiting: 10 nov. — finale nog niet gespeeld' rightmost 1379.39 vs box 1396.5 -> clear 17.11 pt
+b4 orphan lines (all pages): NONE
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-zh-cn-nl1/measure-after-svg.json

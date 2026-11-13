@@ -1,0 +1,14 @@
+SVG text runs changed by s2t (simplified residue): 8
+   ('p7-lingua.svg', '官方答案要到 11 月底才出，週日晚上只有', [('才', '纔')])
+   ('p8-avaliacao.svg', '月底前公布。', [('布', '佈')])
+   ('p8-avaliacao.svg', '月底前公布', [('布', '佈')])
+   ('p8-avaliacao.svg', '月底前公布', [('布', '佈')])
+   ('p8-avaliacao.svg', '月才公布', [('布', '佈')])
+   ('p8-avaliacao.svg', '公布，不是補習班', [('布', '佈')])
+   ('p8-avaliacao.svg', '月公布', [('布', '佈')])
+   ('p8-avaliacao.svg', '月底前公布', [('布', '佈')])
+FILE CHANGED: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-zh-tw/2026-w47-pt-zh-tw.text.md
+   pos 24624: '才' -> '纔' context: 'o. 官方答案要到 11 月底才出，週日晚上只有非官方版。\n'
+   pos 29818: '布' -> '佈' context: ' “官方答案在 11 月底前公布。” → O gabarit'
+   total differing chars: 2
+FILE CLEAN (s2t identity): /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-zh-tw/ABSTRACT.txt

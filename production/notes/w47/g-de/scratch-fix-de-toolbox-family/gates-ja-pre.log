@@ -1,0 +1,21 @@
+source files core: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 721, 'verify.py': 167}
+source files edition: {'bslib4.py': 100, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 730, 'verify.py': 167}
+source literals: core=2556 edition=2564 removed=516 added=524
+unaccounted removed: 1; unaccounted added: 3
+  REMOVED x1: 'Noto Serif CJK SC'
+  ADDED x1: 'JP'
+  ADDED x1: 'Noto Sans CJK JP'
+  ADDED x1: 'Noto Serif CJK JP'
+  p1: frozen=144 (core 191 / edition 181) sha8=b01ba1b1 PASS
+  p2: frozen=164 (core 194 / edition 196) sha8=2db0dd83 PASS
+  p3: frozen=200 (core 241 / edition 245) sha8=2dd3b3f2 PASS
+  p4: frozen=166 (core 187 / edition 188) sha8=df1bebf7 PASS
+  p5: frozen=179 (core 217 / edition 218) sha8=e7b235f9 PASS
+  p6: frozen=173 (core 207 / edition 206) sha8=89156519 PASS
+  p7: frozen=163 (core 227 / edition 225) sha8=b854370f PASS
+  p8: frozen=183 (core 323 / edition 340) sha8=1c855c30 PASS
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-de/freeze_direct.py", line 204, in <module>
+    json.dump(result, open(os.path.join(LOGDIR, 'freeze-direct.json'), 'w',
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-toolbox-family/gates-ja-pre/freeze-direct.json'

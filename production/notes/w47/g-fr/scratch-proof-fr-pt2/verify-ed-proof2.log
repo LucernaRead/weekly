@@ -1,0 +1,26 @@
+PASS D1 deleted middle clause gone from expl.py
+PASS D1 deleted middle clause gone from SVG
+PASS D1 disclosure 2-line form present in expl.py
+PASS D1 P7 disclosure last baseline 2233.3 — got 2233.3
+PASS D1 P7 disclosure last line text (two SVG lines)
+PASS D2 une actrice in expl.py
+PASS D2 une actrice in P5 SVG
+PASS D2 une actrice in text.md
+PASS D2 une actrice in print text
+PASS D2 no 'uma actrice' anywhere (svg+text.md+print)
+PASS D3 une séance in expl.py
+PASS D3 une séance in P5 SVG
+PASS D3 no 'uma séance' anywhere (svg+text.md+print)
+PASS Q148 registry key 'devant le' — 'devant le'
+PASS Q148 content8 key+stem
+PASS Q148 extracted key 'devant le'
+PASS Q148 P8 SVG stem, no 'du cinéma'
+PASS text.md answers block parses 150 keys — found 150; unparsed chunks=['RÉPONSES', 'TODAS AS RESPOSTAS COM NOTAS BREVES (PÁGINAS 1–8)', '— Página 1 —']
+PASS text.md answer keys == registry keys (Q150 excepted: prose key) — diff=[]
+PASS text.md Q148 answer 'devant le' — 'devant le'
+PASS text.md Q150 answer starts 'Pergunta aberta' — 'Pergunta aberta — pontos no quadro; modelo no quadro da página 8'
+PASS text.md has 150 answer numbers
+PASS text.md CJK 0 — found 0
+PASS text.md no U+2019
+PASS text.md no U+00B7
+VERIFY_ED PASS

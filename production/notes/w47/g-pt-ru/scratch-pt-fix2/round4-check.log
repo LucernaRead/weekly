@@ -1,0 +1,29 @@
+[PASS] D1 print has no 7h15 :: count=0
+[PASS] D1 web has no 7h15 :: count=0
+[PASS] D1 Ter17 7h twice in print :: count=2
+[PASS] D1 Ter17 7h twice in md :: count=2
+[PASS] O1 timeline has Linguagens :: 
+[PASS] O1 old timeline string gone :: 
+[PASS] O2 no 'por volta de 1830' :: 
+[PASS] O2 Paris 1835 in caption :: 
+[PASS] O3 estudo credit still CC0 :: 
+[PASS] ex 1..150 complete in md :: missing=[] extra=[] n=150
+[PASS] gold x2: Consciência Negra: sexta é f :: count=2
+[PASS] gold x2: o feriado abre um fim de sem :: count=2
+[PASS] gold x2: Zumbi nasceu em Palmares :: count=2
+[PASS] gold x2: sem memória, não há futuro :: count=2
+[PASS] gold x2: o agregado ficou em 2 a 2 :: count=2
+[PASS] gold x2: a espera pelo gabarito :: count=2
+[PASS] gold x2: primeiro as fáceis, depois a :: count=2
+[PASS] gold x2: Confira o transporte, guarde :: count=2
+  assembly-OK (tokens all present, not contiguous): VOL. 4 · QUARTA EDIÇÃO · SEMANA DE 16 A 22 DE NOVEMBRO DE 20
+  assembly-OK (tokens all present, not contiguous): 葡萄牙语周报 VOL.4 · CONSCIÊNCIA NEGRA · GABARITO DO ENEM · A FINA
+  assembly-OK (tokens all present, not contiguous): «consciência»: saber e lembrar — de si, da história e dos ou
+  assembly-OK (tokens all present, not contiguous): O dia 20 lembra a morte de Zumbi dos Palmares, em 1695. · É 
+  assembly-OK (tokens all present, not contiguous): Três dias, uma semana（三天连休，一周安排）: SEX 20 — o feriado começa（
+  assembly-OK (tokens all present, not contiguous): Seg 16 — começa a semana do feriado. · Ter 17 — Singapura × 
+  assembly-OK (tokens all present, not contiguous): Palavras do texto: quilombo · resistência · escravizado · lí
+  assembly-OK (tokens all present, not contiguous): A contagem, do dia 16 ao dia 30: dias úteis — 10 dias; fins 
+  assembly-OK (tokens all present, not contiguous): Dois gabaritos, um exame: Extraoficial — na noite do dia 15,
+[PASS] long prose present in SVG :: checked=66 missing=0
+RESULT: ALL PASS

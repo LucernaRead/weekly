@@ -1,0 +1,18 @@
+P1 saved, exercises so far: 10
+P2 col3 ends 1376.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+recorded blocks: 498
+stub registry total: 150
+real registry total: 150
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/ru/make_textmd_w47.py", line 225, in <module>
+    assert [e["key"] for e in REG] == [e["key"] for e in real], "key mismatch"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: key mismatch

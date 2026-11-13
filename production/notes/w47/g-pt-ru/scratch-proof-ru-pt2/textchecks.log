@@ -1,0 +1,70 @@
+== curved quotes pairing (per page SVG + text.md) ==
+  p1-pervaya.svg: « 25 / » 25 OK; “ 0 / ” 0 OK
+  p2-zhizn.svg: « 4 / » 4 OK; “ 0 / ” 0 OK
+  p3-kultura.svg: « 21 / » 21 OK; “ 0 / ” 0 OK
+  p4-sport.svg: « 73 / » 73 OK; “ 0 / ” 0 OK
+  p5-molodezh.svg: « 22 / » 22 OK; “ 0 / ” 0 OK
+  p6-razbor.svg: « 1 / » 1 OK; “ 0 / ” 0 OK
+  p7-yazyk.svg: « 36 / » 36 OK; “ 1 / ” 1 OK
+  p8-test.svg: « 17 / » 17 OK; “ 0 / ” 0 OK
+  text.md: « 165 / » 165 OK; “ 1 / ” 1 OK
+== straight double quotes in SVG (should be 0 in visible text) ==
+  p1-pervaya.svg: ASCII double-quote count 0
+  p2-zhizn.svg: ASCII double-quote count 0
+  p3-kultura.svg: ASCII double-quote count 0
+  p4-sport.svg: ASCII double-quote count 0
+  p5-molodezh.svg: ASCII double-quote count 0
+  p6-razbor.svg: ASCII double-quote count 0
+  p7-yazyk.svg: ASCII double-quote count 0
+  p8-test.svg: ASCII double-quote count 0
+== CJK chars in edition SVG (Latin reader: expect only U+3000 separators) ==
+  p1-pervaya.svg: [('\u3000', '0x3000')]
+  p2-zhizn.svg: [('\u3000', '0x3000')]
+  p3-kultura.svg: [('\u3000', '0x3000')]
+  p4-sport.svg: [('\u3000', '0x3000')]
+  p5-molodezh.svg: [('\u3000', '0x3000')]
+  p6-razbor.svg: [('\u3000', '0x3000')]
+  p7-yazyk.svg: [('\u3000', '0x3000')]
+  p8-test.svg: [('\u3000', '0x3000')]
+== simplified-Chinese chars in text.md (spot: common simplified-only forms) ==
+  text.md CJK-bearing lines: 0 of 838
+== banned words / internal labels in visible text ==
+  SVG 'SOP': absent
+  text.md 'SOP': count 0
+  SVG 'proofread': absent
+  text.md 'proofread': count 0
+  SVG 'cover': absent
+  text.md 'cover': count 0
+  SVG 'geometry': absent
+  text.md 'geometry': count 0
+  SVG 'lint': absent
+  text.md 'lint': count 0
+  SVG 'VOL.5': ['p1-pervaya.svg', 'p2-zhizn.svg', 'p4-sport.svg', 'p7-yazyk.svg']
+  text.md 'VOL.5': count 5
+  SVG 'W47': absent
+  text.md 'W47': count 0
+  SVG '2026-w47': absent
+  text.md '2026-w47': count 0
+  SVG 'ru-pt': absent
+  text.md 'ru-pt': count 0
+  SVG 'placeholder': absent
+  text.md 'placeholder': count 0
+  SVG 'TODO': absent
+  text.md 'TODO': count 0
+  SVG 'FIXME': absent
+  text.md 'FIXME': count 0
+== '___' literal blanks (template gaps, core-inherited) ==
+  text.md: 87 core text.md: 87
+  SVG total: 87
+== apostrophes in SVG text (straight ' used for Russian?) ==
+  p1-pervaya.svg: straight ' count 0
+  p2-zhizn.svg: straight ' count 0
+  p3-kultura.svg: straight ' count 0
+  p4-sport.svg: straight ' count 0
+  p5-molodezh.svg: straight ' count 0
+  p6-razbor.svg: straight ' count 0
+  p7-yazyk.svg: straight ' count 0
+  p8-test.svg: straight ' count 0
+== kicker/headers: check 'VOL.4' present, no 'VOL.5' in P1/P8 band ==
+  P1 VOL.4: True P1 VOL.5: True
+  P8 VOL.4: True

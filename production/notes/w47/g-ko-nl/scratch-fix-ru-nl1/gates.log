@@ -1,0 +1,148 @@
+===== [g1] check_core.py =====
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Все восемь матчей 14-го тура завершены
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Это последний матч сборной в 2026 году
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Профессиональные праздники не дают выходных
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После паузы чемпионат возвращается 20 ноября
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Умный покупатель не спешит
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 11138
+orphan line-starts: [('p7-yazyk.svg', 553, '”».')]
+same-baseline collisions: [('p1-pervaya.svg', 1712, 'чёрная', ' ')] total 1
+[check_core] rc=0
+===== [g2] p8 extract core =====
+/home/hatch/workspace/weekly-git/production/2026-w47/core-ru/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[p8-extract-core] rc=0
+===== [g3] p8 extract edition =====
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-nl/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[p8-extract] rc=0
+===== [g4] p8 compare =====
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ru/svg/p8-test.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-nl/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+[p8-compare] rc=0
+===== [g4b] direct keydiff vs core ru-p8.json =====
+direct keydiff vs core: [137, 138, 139, 140]
+keys identical except diff: 4
+===== [g5] occlusion audit (real run, no --selftest flag) =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-nl/svg: 42 flags {'TEXTX': 42}
+  [TEXTX] p1-pervaya.svg 'Зенит' — ink overlaps '» ' by 5.5x25.0px
+  [TEXTX] p1-pervaya.svg 'Динамо' — ink overlaps '» — ' by 5.1x25.0px
+  [TEXTX] p1-pervaya.svg 'тур' — ink overlaps ': «' by 4.9x26.2px
+  [TEXTX] p1-pervaya.svg 'пятница' — ink overlaps '»: ' by 3.2x9.8px
+  [TEXTX] p1-pervaya.svg 'третий' — ink overlaps ', ' by 3.4x7.5px
+  [TEXTX] p1-pervaya.svg 'субботу' — ink overlaps ',' by 3.2x7.5px
+  [TEXTX] p1-pervaya.svg 'Краснодар' — ink overlaps '» — ' by 3.1x11.0px
+  [TEXTX] p1-pervaya.svg 'Краснодаре' — ink overlaps ',' by 3.3x7.5px
+  [TEXTX] p1-pervaya.svg '!' — ink overlaps 'истории' by 3.6x13.2px
+  [TEXTX] p1-pervaya.svg 'ЦСКА' — ink overlaps '? A.' by 3.5x14.8px
+  [TEXTX] p2-zhizn.svg 'толерантности' — ink overlaps '.' by 4.1x3.0px
+  [TEXTX] p2-zhizn.svg 'студента' — ink overlaps '.' by 3.0x3.0px
+  [TEXTX] p2-zhizn.svg 'студента' — ink overlaps '.' by 3.3x3.2px
+  [TEXTX] p2-zhizn.svg '! ' — ink overlaps 'студента' by 3.4x13.2px
+  [TEXTX] p2-zhizn.svg 'студенту' — ink overlaps ', ' by 3.5x7.5px
+  [TEXTX] p2-zhizn.svg 'спасибо' — ink overlaps '.' by 3.3x3.2px
+  [TEXTX] p3-kultura.svg 'биография' — ink overlaps ':' by 5.0x11.5px
+  [TEXTX] p3-kultura.svg 'посмотреть' — ink overlaps ': ' by 3.8x11.5px
+  [TEXTX] p3-kultura.svg ')' — ink overlaps 'посмотреть' by 3.2x13.5px
+  [TEXTX] p4-sport.svg 'место' — ink overlaps '.' by 3.0x3.2px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '» ' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '» — ' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'Россия' — ink overlaps ', ' by 3.1x3.0px
+  [TEXTX] p4-sport.svg 'истории' — ink overlaps '; ' by 3.1x13.2px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '»' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'ЦСКА' — ink overlaps '? A.' by 3.6x13.8px
+  [TEXTX] p5-molodezh.svg 'пятница' — ink overlaps '»:' by 5.1x15.5px
+  [TEXTX] p5-molodezh.svg 'смартфоны' — ink overlaps ',' by 5.2x7.5px
+  [TEXTX] p6-razbor.svg 'студента' — ink overlaps ', ' by 3.2x7.5px
+  [TEXTX] p6-razbor.svg 'сбивается' — ink overlaps '.' by 3.2x3.0px
+  [TEXTX] p6-razbor.svg 'Планируйте' — ink overlaps ': ' by 3.2x11.5px
+  [TEXTX] p6-razbor.svg '?\u3000' — ink overlaps 'НЕДЕЛЕ' by 3.3x19.5px
+  [TEXTX] p7-yazyk.svg 'ЯЗЫК' — ink overlaps '\u3000TAAL' by 3.8x34.0px
+  [TEXTX] p7-yazyk.svg 'прессы' — ink overlaps ',' by 3.0x6.8px
+  [TEXTX] p7-yazyk.svg '!»' — ink overlaps 'студента' by 3.4x12.0px
+  [TEXTX] p7-yazyk.svg 'пресс' — ink overlaps '-' by 3.0x5.8px
+  [TEXTX] p7-yazyk.svg 'пятница' — ink overlaps '»' by 3.6x10.2px
+  [TEXTX] p7-yazyk.svg '!» — ' — ink overlaps 'студента' by 3.0x11.8px
+  [TEXTX] p7-yazyk.svg 'Кипренского' — ink overlaps ', 1827 ' by 3.5x17.2px
+  [TEXTX] p7-yazyk.svg 'поступило' — ink overlaps ': ' by 3.2x10.5px
+  [TEXTX] p8-test.svg 'ОТВЕТЫ' — ink overlaps '\u3000TEST EN ANTWOORDEN' by 8.0x35.5px
+  [TEXTX] p8-test.svg 'ОТВЕТЫ' — ink overlaps '\u3000ANTWOORDEN — PER PAGINA GERANGSCHIKT; Z' by 4.5x19.0px
+core: 42 flags; NEW vs core: 3
+  NEW [TEXTX] p7-yazyk.svg 'ЯЗЫК' — ink overlaps '\u3000TAAL' by 3.8x34.0px
+  NEW [TEXTX] p8-test.svg 'ОТВЕТЫ' — ink overlaps '\u3000TEST EN ANTWOORDEN' by 8.0x35.5px
+  NEW [TEXTX] p8-test.svg 'ОТВЕТЫ' — ink overlaps '\u3000ANTWOORDEN — PER PAGINA GERANGSCHIKT; Z' by 4.5x19.0px
+[occlusion-audit] rc=1 (1 = flags found, expected)
+===== [g6] freeze baseline (core rebuild 8/8) =====
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-pervaya.svg core 409d5c2d5f794374 produced 409d5c2d5f794374
+  OK  p2-zhizn.svg core 370a2470f20d6515 produced 370a2470f20d6515
+  OK  p3-kultura.svg core 9c0de9072ddfb690 produced 9c0de9072ddfb690
+  OK  p4-sport.svg core 3f330829f0f90837 produced 3f330829f0f90837
+  OK  p5-molodezh.svg core 2441db435350fb9b produced 2441db435350fb9b
+  OK  p6-razbor.svg core c6f816791724499e produced c6f816791724499e
+  OK  p7-yazyk.svg core 6679e1aa83699942 produced 6679e1aa83699942
+  OK  p8-test.svg core 6ad2c7f1b4349378 produced 6ad2c7f1b4349378
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[freeze-baseline] rc=0
+===== [g7] freeze diff core->edition =====
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +19 strings / -22 strings; CJK core 137 -> edition 21; added CJK chars: 1 {'\u3000': 1}
+p2: +36 strings / -37 strings; CJK core 204 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p3: +26 strings / -28 strings; CJK core 143 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +28 strings / -28 strings; CJK core 166 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p5: +27 strings / -27 strings; CJK core 138 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +34 strings / -33 strings; CJK core 163 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p7: +47 strings / -50 strings; CJK core 282 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p8: +178 strings / -629 strings; CJK core 980 -> edition 15; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 8
+[freeze-diff] rc=0
+===== [g8] s11 §1.1 check =====
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS 8 SVG 8
+PASS paper #fbfaf6 present
+PASS no #f7f1e2
+PASS no #c9a227
+PASS no #8b4513
+PASS no #000000
+PASS badge A2 #5c6e30
+PASS badge B1 #46581f
+PASS badge B2 #37402f
+PASS foot has VOL.4 + full-width space
+PASS VOL.3 only in P4 correction 1
+PASS no VOL.5 in P1/P8 band
+PASS masthead 196px
+PASS band title 46px
+PASS left margin >= 87 88.0
+PASS no CJK in visible svg (latin reader)
+PDFs: [('Lucerna-VOL4-ru-nl-web.pdf', 3387332), ('Lucerna-VOL4-ru-nl.pdf', 21291643)]
+PASS Lucerna-VOL4-ru-nl-web.pdf 8 pages 8
+PASS web < 7MB 3387332
+PASS web text > 0
+PASS Lucerna-VOL4-ru-nl.pdf 8 pages 8
+PASS P8 min font >= 9.75pt 9.75
+FAILURES: none
+[s11_check] rc=0
+===== [g9] print/web text layer per-page + overall =====
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print pages: 8 bytes(pdftotext): 110893
+web pages: 8 bytes(pdftotext): 110893
+overall multiset identical: True chars: 37531 vs 37531
+per-page multiset identical: [True, True, True, True, True, True, True, True] -> ALL
+[text-layer] rc=0
+===== [g10] P8 min font from PDFs (fitz) =====
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print P8 min font: 9.75pt | n spans: 908
+web P8 min font: 9.75pt | n spans: 908
+[p8-font] rc=0

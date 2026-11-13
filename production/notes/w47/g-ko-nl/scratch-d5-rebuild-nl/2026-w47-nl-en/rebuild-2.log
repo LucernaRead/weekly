@@ -1,0 +1,103 @@
+############ REBUILD 2026-w47-nl-en reader=en mode=latin
+--- install --check ---
+check RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svglib.py (target=nl reader=en mode=latin): D5 block already present (skip)
+--- install ---
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svglib.py (target=nl reader=en mode=latin): D5 block already present (skip)
+svglib diff lines: 112
+9e44d3e443063634d5dd8570d4af10b7  /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svglib.py
+--- routing assert ---
+routing RC=0
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0
+--- run.py ---
+run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- render.py ---
+render RC=0
+card: p8-toets.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/De-Lucerna-VOL4-nl-en.pdf 12102278
+--- webpdf.py ---
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 22296 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29980 bytes
+WROTE De-Lucerna-VOL4-nl-en-web.pdf: 1534341 bytes, 45341 text bytes
+--- occlusion ---
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svg: 0 flags 
+--- p8 extract ---
+extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svg/p8-toets.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- p8 compare vs core-nl ---
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svg/p8-toets.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-en/svg/p8-toets.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 140]
+--- freeze baseline ---
+freeze-baseline RC=0
+  OK  p7-taal.svg core e0a5f9b1e9af01c4 produced e0a5f9b1e9af01c4
+  OK  p8-toets.svg core b11806f299607866 produced b11806f299607866
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+--- freeze diff ---
+freeze-diff RC=0
+p6: +47 strings / -61 strings; CJK core 205 -> edition 16; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 38 (unexpected 38)
+p7: +59 strings / -130 strings; CJK core 387 -> edition 14; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 49 (unexpected 49)
+p8: +191 strings / -692 strings; CJK core 1074 -> edition 16; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 182 (unexpected 182)
+TOTAL added CJK characters: 15
+TOTAL added Latin strings: 444 (unexpected 444)
+--- spill ---
+spill RC=0
+P7 box=(1439.5,1388.0,422.5,539.5) bottom=1927.5
+   ABOVE -31.08px x=1461.5 y=1356.9 [observe] 'quarter-finals.'
+SPILL_SWEEP 2026-w47-nl-en: 26 boxes, 37 candidates, 0 SPILL, 37 OBSERVE
+--- boxtitle (backup-root=scratch) ---
+boxtitle RC=0
+== 2026-w47-nl-en  core=/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/core-nl backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-nl/scratch-fanout-nl/backup/2026-w47-nl-en
+BOXTITLE 2026-w47-nl-en: 19 titles, 240 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+--- edge scan ---
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.1}
+EDGE_SCAN 2026-w47-nl-en: 8 pages, 0 TOUCH, 0 NEAR
+--- creambox audit (baseline=pre-D5 snapshot) ---
+creambox RC=0
+p8-toets.svg: els 383->416 lines 236->236 diff 0 moved 36 defects 0 observe 0
+ratios: n=402 median=1.04 boldT=1.057 boldF=0.994
+P8 p8-toets.svg: lines 236->236 slack_footer 38.4->38.4
+CREAMBOX PASS 0 defects
+--- census (patched) ---
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+--- text layer + orphan sweep ---
+textlayer RC=0
+pdftotext bytes: print=45341 web=45341
+word multiset diff: 0 (print-only 0, web-only 0)
+print-only words sample: []
+web-only words sample: []
+de-whitespaced char stream: print=35523 web=35523 equal=True
+orphan class (a) lone 。: 0 []
+orphan class (b) line-initial closer candidates: 0
+--- post SHAs ---
+03efb040e9c52d25fa586df1c2474dcfcd972eb1284e81b2c8ae5a1eaab08b28  svg/p1-voorpagina.svg
+5dd52f7dab1c29500eac390a880d3251b28113ee391bc943ad6d8f3cdc192d0f  svg/p2-leven.svg
+a1d4266c51443bc2e1a56d03bed3c79e0c5b5f63804227303f7af265bba72501  svg/p3-cultuur.svg
+d387c0fd298dd173accb7e51c407d66aec375f43c3d8092914989a441c066943  svg/p4-sport.svg
+9a57f677682c5c1e6fe01f84107d521bc6a2a31205de1946e0984b0d82c47565  svg/p5-jongeren.svg
+5e9a7eed52dfeb1c6ab13a7f90f39a240eb9422edad294b59f4f946546fad980  svg/p6-verdieping.svg
+e0a5f9b1e9af01c498e8644a2baa6036d851cf712c2fb71a7ddd5536e9f2c686  svg/p7-taal.svg
+b11806f2996078665eb49da51b15796e88b62f3695c270ed387eb3f5230ebe21  svg/p8-toets.svg
+ff89c908aa2f8637e45b42c5d7064dcdd47afc618335e52afb1cdb7327a6a323  De-Lucerna-VOL4-nl-en.pdf
+a35d66b1b7c6870d18ba781b4880386077e0af5ff60f49118a7877fc3097613a  De-Lucerna-VOL4-nl-en-web.pdf
+05513522b585be936b4bd28654e911c278595afa9ec8a8713e1504ab364623dd  2026-w47-nl-en.text.md
+12102278 De-Lucerna-VOL4-nl-en.pdf
+1534341 De-Lucerna-VOL4-nl-en-web.pdf
+45106 2026-w47-nl-en.text.md
+REBUILD DONE 2026-w47-nl-en

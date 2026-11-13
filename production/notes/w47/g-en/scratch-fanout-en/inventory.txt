@@ -1,0 +1,728 @@
+### 'A2 → B1\u3000Friday at the movies\u3000周五看电影'  x1
+    content34.py:12: p.band("CULTURE　文化", "The Lucerna", "A2 → B1　Friday at the movies　周五看电影")
+### 'A2 → B2\u3000Phrases of the week\u3000本周句型'  x1
+    content7.py:12: p.band("LANGUAGE IN HAND　语言在手", "The Lucerna", "A2 → B2　Phrases of the week　本周句型")
+### 'ALL LEVELS\u3000Test yourself\u3000自测'  x1
+    content8.py:12: p.band("EXERCISES & ANSWERS　练习与答案", "The Lucerna", "ALL LEVELS　Test yourself　自测")
+### 'CULTURE\u3000文化'  x1
+    content34.py:12: p.band("CULTURE　文化", "The Lucerna", "A2 → B1　Friday at the movies　周五看电影")
+### 'EXERCISES & ANSWERS\u3000练习与答案'  x1
+    content8.py:12: p.band("EXERCISES & ANSWERS　练习与答案", "The Lucerna", "ALL LEVELS　Test yourself　自测")
+### 'LANGUAGE IN HAND\u3000语言在手'  x1
+    content7.py:12: p.band("LANGUAGE IN HAND　语言在手", "The Lucerna", "A2 → B2　Phrases of the week　本周句型")
+### 'LEVEL B1\u3000Break the silence\u3000打破沉默'  x1
+    content56.py:12: p.band("YOUTH　青年", "The Lucerna", "LEVEL B1　Break the silence　打破沉默")
+### 'YOUTH\u3000青年'  x1
+    content56.py:12: p.band("YOUTH　青年", "The Lucerna", "LEVEL B1　Break the silence　打破沉默")
+### 'WEEKLY IN ENGLISH\u3000每周一期\u3000读英语世界正在谈的事'  x1
+    content12.py:15: p.text(975, 92, "WEEKLY IN ENGLISH　每周一期　读英语世界正在谈的事", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+### 'By The Lucerna newsroom\u3000Reading level: A2 → B1'  x1
+    content34.py:16: f.byline("By The Lucerna newsroom　Reading level: A2 → B1")
+### 'By The Lucerna newsroom\u3000Reading level: B1'  x2
+    content34.py:101: f.byline("By The Lucerna newsroom　Reading level: B1")
+    content56.py:16: f.byline("By The Lucerna newsroom　Reading level: B1")
+### 'WORDS\u3000A2\u3000win / won'  x1
+    content7.py:16: f.head("WORDS　A2　win / won", 28)
+### '讲解｜Win 是现在时（每次都赢）；won 是过去时（已经赢了）——本周新闻多用过去时。'  x1
+    content7.py:17: f.gloss("讲解｜Win 是现在时（每次都赢）；won 是过去时（已经赢了）——本周新闻多用过去时。")
+### '周二 11 月 3 日投票日'  x1
+    content8.py:18: ("A2", "Tuesday", "周二 11 月 3 日投票日"),
+### '英语周报\u3000VOL.4\u3000选举\u3000丛林\u3000电影'  x1
+    content12.py:18: p.text(975, 330, "英语周报　VOL.4　选举　丛林　电影", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+### 'call=宣布结果'  x1
+    content8.py:19: ("A2", "call", "call=宣布结果"),
+### 'continues 现在时'  x1
+    content8.py:20: ("A2", "continues", "continues 现在时"),
+### 'will meet 将来时'  x1
+    content8.py:21: ("A2", "will meet", "will meet 将来时"),
+### 'COMING SOON\u3000即将上映'  x1
+    content34.py:22: f.box("COMING SOON　即将上映", [
+### 'ODD SOCKS, IN NUMBERS\u3000奇袜日'  x1
+    content56.py:22: f.box("ODD SOCKS, IN NUMBERS　奇袜日", [
+### 'WORDS\u3000B1\u3000more than'  x1
+    content7.py:22: f.head("WORDS　B1　more than", 28)
+### 'writes 三单'  x1
+    content8.py:22: ("B1", "writes", "writes 三单"),
+### 'will certify 将来时'  x1
+    content8.py:23: ("B1", "will certify", "will certify 将来时"),
+### '讲解｜comparative 比较级：用 more than 说数量和大小。'  x1
+    content7.py:23: f.gloss("讲解｜comparative 比较级：用 more than 说数量和大小。")
+### 'wears 三单'  x1
+    content8.py:24: ("B1", "wears", "wears 三单"),
+### 'will watch 将来时'  x1
+    content8.py:25: ("B1", "will watch", "will watch 将来时"),
+### '讲解｜bullying 欺凌 · to speak up 大声说出来 · a right 权利 · silence 沉默'  x1
+    content56.py:26: f.gloss("讲解｜bullying 欺凌 · to speak up 大声说出来 · a right 权利 · silence 沉默")
+### '11月3日投票\u3000民主党赢下两院'  x1
+    content12.py:27: p.text(RIGHT - 30, 524, "11月3日投票　民主党赢下两院", 27, "sans", True, GOOSE, anchor="end")
+### 'A\u3000COMPREHENSION'  x3
+    content34.py:30: f.head("A　COMPREHENSION", 25)
+    content34.py:114: f.head("A　COMPREHENSION", 25)
+    content56.py:27: f.head("A　COMPREHENSION", 25)
+### '完形填空'  x1
+    content8.py:27: cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
+### 'A\u3000CLOZE\u3000完形填空'  x1
+    content8.py:28: bf.head("A　CLOZE　完形填空", 24, gap=8)
+### 'GRAMMAR\u3000A2\u3000will + verb'  x1
+    content7.py:28: f.head("GRAMMAR　A2　will + verb", 28)
+### '中期选举\u3000已核实结果\u3000详见第6版'  x1
+    content12.py:28: p.text(RIGHT - 30, 568, "中期选举　已核实结果　详见第6版", 18, "sans", False, GOOSE, anchor="end")
+### '读第 5 版文章，选出正确答案。'  x1
+    content56.py:28: f.bridge("读第 5 版文章，选出正确答案。")
+### '单选'  x33
+    content12.py:147: qf.ex("A2", "单选", "B", "众议院民主党获 254 席（11 月 8 日已确认数）",
+    content12.py:149: qf.ex("A2", "单选", "A", "投票日 11 月 3 日周二",
+    content12.py:151: qf.ex("A2", "单选", "C", "众议院过半数为 218 席",
+    content12.py:153: qf.ex("A2", "单选", "C", "新国会 2027 年 1 月开会",
+    content12.py:273: e.ex("A2", "单选", "B", "各州认证在 11 月 10 日至 12 月 18 日",
+    content12.py:275: e.ex("A2", "单选", "C", "决胜轮在 12 月 1 日",
+    content12.py:277: e.ex("A2", "单选", "A", "感恩节在 11 月 26 日周四",
+    content12.py:279: e.ex("A2", "单选", "B", "丛林节目 11 月 16 日周一晚 9 点开播",
+    content34.py:32: f.ex("A2", "单选", "B", "《饥饿游戏》新片 11 月 20 日周五上映",
+    content34.py:34: f.ex("A2", "单选", "A", "约瑟夫·扎达饰演年轻的海米奇",
+    content34.py:36: f.ex("A2", "单选", "C", "第 50 届饥饿游戏，参赛人数翻倍",
+    content34.py:38: f.ex("B1", "单选", "B", "拉尔夫·费因斯饰演年轻的斯诺总统",
+    content34.py:40: f.ex("B1", "单选", "A", "丛林节目 11 月 16 日周一晚 9 点开播",
+    content34.py:42: f.ex("B1", "单选", "C", "开播推迟一天是因为英格兰对西班牙的比赛",
+    content34.py:116: f.ex("B1", "单选", "A", "灰烬杯首战 11 月 21 日周六在珀斯",
+    content34.py:118: f.ex("B1", "单选", "C", "澳大利亚队长卡明斯因背伤缺阵",
+    content34.py:120: f.ex("B1", "单选", "B", "史蒂夫·史密斯代任队长",
+    content34.py:122: f.ex("B1", "单选", "A", "英格兰上次在澳大利亚赢系列赛是 2010–11 赛季",
+    content34.py:124: f.ex("B1", "单选", "C", "英超回归：曼城对富勒姆 12:30 开球",
+    content34.py:126: f.ex("B1", "单选", "B", "ATP 总决赛在都灵，辛纳因膝伤缺席",
+    content56.py:29: f.ex("B1", "单选", "B", "反欺凌周 11 月 16–20 日",
+    content56.py:31: f.ex("B1", "单选", "A", "今年主题是“打破沉默”",
+    content56.py:33: f.ex("B1", "单选", "C", "奇袜日是第十个年头",
+    content56.py:35: f.ex("B1", "单选", "B", "活动覆盖约 800 万儿童",
+    content56.py:37: f.ex("B1", "单选", "A", "世界儿童日 11 月 20 日周五",
+    content56.py:39: f.ex("B1", "单选", "C", "《儿童权利公约》通过于 1989 年",
+    content56.py:137: f.ex("B2", "单选", "B", "“宣布结果”不等于正式结果",
+    content56.py:139: f.ex("B2", "单选", "A", "正式结果来自各州认证",
+    content56.py:141: f.ex("B2", "单选", "C", "两个参议院选区尚未确认：阿拉斯加与密西西比",
+    content56.py:143: f.ex("B2", "单选", "B", "众议院共和党 11 月 10 日选领袖",
+    content56.py:145: f.ex("B2", "单选", "A", "中期选举改变国会、不改变总统",
+    content56.py:147: f.ex("B2", "单选", "C", "VOL.5 将报道认证后的最终结果",
+    content8.py:57: bf.ex(lv, "单选", k, nt, body, size=20.5)
+### '反欺凌周 11 月 16–20 日'  x1
+    content56.py:29: f.ex("B1", "单选", "B", "反欺凌周 11 月 16–20 日",
+### '讲解｜a tribute 被选中的参赛者 · a mentor 导师 · the arena 竞技场 · a campmate 营地成员。'  x1
+    content34.py:29: f.gloss("讲解｜a tribute 被选中的参赛者 · a mentor 导师 · the arena 竞技场 · a campmate 营地成员。")
+### '讲解｜will + 动词原形：说将要发生的事；疑问句 will 提前。'  x1
+    content7.py:29: f.gloss("讲解｜will + 动词原形：说将要发生的事；疑问句 will 提前。")
+### '选项：'  x1
+    content8.py:30: bf.bridge("选项：")
+### '今年主题是“打破沉默”'  x1
+    content56.py:31: f.ex("B1", "单选", "A", "今年主题是“打破沉默”",
+### '读第 3 版文章，选出正确答案。'  x1
+    content34.py:31: f.bridge("读第 3 版文章，选出正确答案。")
+### 'THE BIG STORY\u3000头条'  x1
+    content12.py:32: p.text(MX, hy + 26, "THE BIG STORY　头条", 17, "sans", True, OLIVE)
+### '《饥饿游戏》新片 11 月 20 日周五上映'  x1
+    content34.py:32: f.ex("A2", "单选", "B", "《饥饿游戏》新片 11 月 20 日周五上映",
+### 'GRAMMAR\u3000B1\u3000past simple'  x1
+    content7.py:33: f.head("GRAMMAR　B1　past simple", 28)
+### '奇袜日是第十个年头'  x1
+    content56.py:33: f.ex("B1", "单选", "C", "奇袜日是第十个年头",
+### 'By The Lucerna newsroom\u3000Reading level: A2'  x2
+    content12.py:34: p.text(MX, hy + 28, "By The Lucerna newsroom　Reading level: A2", 17, "sans", False, GREY)
+    content12.py:167: f.byline("By The Lucerna newsroom　Reading level: A2")
+### '约瑟夫·扎达饰演年轻的海米奇'  x1
+    content34.py:34: f.ex("A2", "单选", "A", "约瑟夫·扎达饰演年轻的海米奇",
+### '讲解｜past simple 一般过去时：已经发生的事；不规则动词要记住。'  x1
+    content7.py:34: f.gloss("讲解｜past simple 一般过去时：已经发生的事；不规则动词要记住。")
+### '活动覆盖约 800 万儿童'  x1
+    content56.py:35: f.ex("B1", "单选", "B", "活动覆盖约 800 万儿童",
+### '第 50 届饥饿游戏，参赛人数翻倍'  x1
+    content34.py:36: f.ex("A2", "单选", "C", "第 50 届饥饿游戏，参赛人数翻倍",
+### '世界儿童日 11 月 20 日周五'  x1
+    content56.py:37: f.ex("B1", "单选", "A", "世界儿童日 11 月 20 日周五",
+### 'GRAMMAR\u3000B2\u3000headlines'  x1
+    content7.py:38: f.head("GRAMMAR　B2　headlines", 28)
+### '拉尔夫·费因斯饰演年轻的斯诺总统'  x1
+    content34.py:38: f.ex("B1", "单选", "B", "拉尔夫·费因斯饰演年轻的斯诺总统",
+### '《儿童权利公约》通过于 1989 年'  x1
+    content56.py:39: f.ex("B1", "单选", "C", "《儿童权利公约》通过于 1989 年",
+### '讲解｜headline present 标题现在时：报纸标题用现在时说已经发生的事。'  x1
+    content7.py:39: f.gloss("讲解｜headline present 标题现在时：报纸标题用现在时说已经发生的事。")
+### '丛林节目 11 月 16 日周一晚 9 点开播'  x2
+    content12.py:279: e.ex("A2", "单选", "B", "丛林节目 11 月 16 日周一晚 9 点开播",
+    content34.py:40: f.ex("B1", "单选", "A", "丛林节目 11 月 16 日周一晚 9 点开播",
+### 'B\u3000SENTENCES'  x3
+    content34.py:44: f.head("B　SENTENCES", 25)
+    content34.py:128: f.head("B　SENTENCES", 25)
+    content56.py:41: f.head("B　SENTENCES", 25)
+### 'GRAMMAR\u3000B2\u3000whether'  x1
+    content7.py:42: f.head("GRAMMAR　B2　whether", 28)
+### '开播推迟一天是因为英格兰对西班牙的比赛'  x1
+    content34.py:42: f.ex("B1", "单选", "C", "开播推迟一天是因为英格兰对西班牙的比赛",
+### '用所给词补全句子。'  x4
+    content34.py:45: f.bridge("用所给词补全句子。")
+    content34.py:129: f.bridge("用所给词补全句子。")
+    content56.py:42: f.bridge("用所给词补全句子。")
+    content56.py:150: f.bridge("用所给词补全句子。")
+### '讲解｜a midterm 中期选举 · to call a race 宣布竞选结果 · a seat 席位。'  x1
+    content12.py:42: f.bridge("讲解｜a midterm 中期选举 · to call a race 宣布竞选结果 · a seat 席位。")
+### 'THE WEEK IN NUMBERS\u3000数字看本周'  x1
+    content12.py:43: f.box("THE WEEK IN NUMBERS　数字看本周", [
+### 'silence = 沉默'  x1
+    content56.py:43: f.ex("B1", "完成句子", "silence", "silence = 沉默",
+### '完成句子'  x31
+    content12.py:48: f.ex("A2", "完成句子", "midterm", "midterm = 中期选举",
+    content12.py:50: f.ex("A2", "完成句子", "call", "call a race = 宣布竞选结果",
+    content12.py:52: f.ex("A2", "完成句子", "seats", "seat = 席位",
+    content12.py:54: f.ex("A2", "完成句子", "majority", "majority = 多数、过半数",
+    content12.py:56: f.ex("B1", "完成句子", "changed", "change hands = 易手",
+    content12.py:58: f.ex("B1", "完成句子", "January", "新国会 2027 年 1 月开会",
+    content12.py:251: e.ex("A2", "完成句子", "November", "11 月 = November",
+    content12.py:253: e.ex("A2", "完成句子", "January", "新国会 2027 年 1 月开会",
+    content12.py:255: e.ex("A2", "完成句子", "1", "决胜轮 12 月 1 日",
+    content12.py:257: e.ex("A2", "完成句子", "Thursday", "感恩节是周四",
+    content12.py:259: e.ex("A2", "完成句子", "27", "黑色星期五 11 月 27 日",
+    content34.py:46: f.ex("A2", "完成句子", "opens", "open = 上映（第三人称单数加 s）",
+    content34.py:48: f.ex("A2", "完成句子", "mentor", "mentor = 导师",
+    content34.py:50: f.ex("B1", "完成句子", "twice", "twice = 两倍",
+    content34.py:52: f.ex("B1", "完成句子", "jungle", "jungle = 丛林",
+    content34.py:130: f.ex("B1", "完成句子", "hosts", "host 三单 hosts",
+    content34.py:132: f.ex("B1", "完成句子", "lasts", "last 三单 lasts",
+    content34.py:134: f.ex("A2", "完成句子", "eight", "八位 = eight",
+    content34.py:136: f.ex("A2", "完成句子", "sold", "sell 的过去分词：be sold out 售罄",
+    content56.py:43: f.ex("B1", "完成句子", "silence", "silence = 沉默",
+    content56.py:45: f.ex("B1", "完成句子", "socks", "sock = 袜子",
+    content56.py:47: f.ex("A2", "完成句子", "rights", "right = 权利",
+    content56.py:49: f.ex("A2", "完成句子", "speak", "speak up = 大声说出来",
+    content56.py:151: f.ex("B2", "完成句子", "certify", "certify = 正式确认",
+    content56.py:153: f.ex("B2", "完成句子", "call", "call a race = 宣布竞选结果",
+    content56.py:155: f.ex("B2", "完成句子", "changed", "change hands = 易手",
+    content56.py:157: f.ex("B1", "完成句子", "takes", "take time = 花时间",
+    content56.py:159: f.ex("B1", "完成句子", "differs", "differ 三单 differs",
+    content56.py:161: f.ex("B1", "完成句子", "official", "official = 正式的",
+    content7.py:77: f.ex("A2", "完成句子", "win", "复数主语用 win（标题现在时）",
+    content8.py:84: bf.ex(lv, "完成句子", k, nt, body, size=20.5)
+### '讲解｜whether 引导宾语从句：不知道结果的事，用 whether。'  x1
+    content7.py:43: f.gloss("讲解｜whether 引导宾语从句：不知道结果的事，用 whether。")
+### 'B\u3000MULTIPLE CHOICE\u3000单选'  x1
+    content8.py:44: bf.head("B　MULTIPLE CHOICE　单选", 24, gap=8)
+### 'Nov 3 — the vote（投票日） · 254–162 — the House, as called on Nov 8（众议院）'  x1
+    content12.py:44: ("Nov 3 — the vote（投票日） · 254–162 — the House, as called on Nov 8（众议院）", "serif", False, INK, 20.5, 1.35),
+### '填空'  x31
+    content12.py:252: "The vote was on Tuesday, ___ 3.", instr="填空", size=22)
+    content12.py:254: "The new Congress meets in ___ 2027.", instr="填空", size=22)
+    content12.py:256: "A runoff, if needed, is on December ___.", instr="填空", size=22)
+    content12.py:258: "Thanksgiving is on ___, November 26.", instr="填空", size=22)
+    content12.py:260: "Black Friday is on November ___.", instr="填空", size=22)
+    content34.py:47: "The film ___ on Friday, November 20.", instr="填空")
+    content34.py:49: "Haymitch becomes the ___ of the later stories.", instr="填空")
+    content34.py:51: "The 50th Games sent ___ as many young people.", instr="填空")
+    content34.py:53: "Ant and Dec are back in the Australian ___.", instr="填空")
+    content34.py:131: "Perth Stadium ___ the first Ashes Test.", instr="填空")
+    content34.py:133: "One Test ___ up to five days.", instr="填空")
+    content34.py:135: "___ singles players play in Turin.", instr="填空")
+    content34.py:137: "Day one is already ___ out.", instr="填空")
+    content56.py:44: "Break the ___: speak up about bullying.", instr="填空")
+    content56.py:46: "On Monday, children wear odd ___.", instr="填空")
+    content56.py:48: "Every child has ___.", instr="填空")
+    content56.py:50: "Speak ___: tell a teacher.", instr="填空")
+    content56.py:152: "Each state must ___ its count.", instr="填空")
+    content56.py:154: "News organisations ___ a race when the maths is clear.", instr="填空")
+    content56.py:156: "Seven Senate seats ___ hands on election night.", instr="填空")
+    content56.py:158: "Counting ___ time in every state.", instr="填空")
+    content56.py:160: "The rule ___ from state to state.", instr="填空")
+    content56.py:162: "A call is not the ___ result.", instr="填空")
+    content7.py:64: "“The Democrats ___ the House.”", instr="填空")
+    content7.py:66: "254 is ___ than 218.", instr="填空")
+    content7.py:68: "England ___ 4–0 in 2021–22.", instr="填空")
+    content7.py:70: "The new Congress ___ meet in January.", instr="填空")
+    content7.py:72: "Collins ___ the novel in 2025.", instr="填空")
+    content7.py:74: "Nobody knows ___ the count will change.", instr="填空")
+    content7.py:76: "ITV ___ Monday for the launch.", instr="填空")
+    content7.py:78: "“Democrats ___ the House” is a headline.", instr="填空")
+### '218 — the majority（过半数） · 7 — Senate seats that changed hands（参议院易手席位）'  x1
+    content12.py:45: ("218 — the majority（过半数） · 7 — Senate seats that changed hands（参议院易手席位）", "serif", False, INK, 20.5, 1.35),
+### 'sock = 袜子'  x1
+    content56.py:45: f.ex("B1", "完成句子", "socks", "sock = 袜子",
+### 'open = 上映（第三人称单数加 s）'  x1
+    content34.py:46: f.ex("A2", "完成句子", "opens", "open = 上映（第三人称单数加 s）",
+### '众议院民主党 254 席'  x2
+    content8.py:46: ("A2", "B", "众议院民主党 254 席", "How many House seats did the Democrats win, as called? A. 218 · B. 254 · C. 162"),
+    content8.py:64: ("B1", "A", "众议院民主党 254 席", "The Democrats won the House with... A. 254 seats · B. 218 seats · C. 162 seats"),
+### 'TRY IT NOW\u3000即学即练'  x1
+    content12.py:47: f.head("TRY IT NOW　即学即练", 25)
+### 'right = 权利'  x1
+    content56.py:47: f.ex("A2", "完成句子", "rights", "right = 权利",
+### '投票日 11 月 3 日'  x1
+    content8.py:47: ("A2", "A", "投票日 11 月 3 日", "The vote was on... A. Tue, Nov 3 · B. Sun, Nov 8 · C. Mon, Nov 16"),
+### '金句（本期正文原句）——背下来，下次你也可以这样写。'  x1
+    content7.py:47: f.bridge("金句（本期正文原句）——背下来，下次你也可以这样写。")
+### '7 个参议院席位易手'  x1
+    content8.py:48: ("A2", "C", "7 个参议院席位易手", "How many Senate seats changed hands? A. 2 · B. 5 · C. 7"),
+### 'mentor = 导师'  x1
+    content34.py:48: f.ex("A2", "完成句子", "mentor", "mentor = 导师",
+### 'midterm = 中期选举'  x1
+    content12.py:48: f.ex("A2", "完成句子", "midterm", "midterm = 中期选举",
+### 'speak up = 大声说出来'  x1
+    content56.py:49: f.ex("A2", "完成句子", "speak", "speak up = 大声说出来",
+### '新片 11 月 20 日上映'  x1
+    content8.py:49: ("A2", "B", "新片 11 月 20 日上映", "“Sunrise on the Reaping” opens on... A. Nov 16 · B. Fri, Nov 20 · C. Nov 22"),
+### 'call a race = 宣布竞选结果'  x2
+    content12.py:50: f.ex("A2", "完成句子", "call", "call a race = 宣布竞选结果",
+    content56.py:153: f.ex("B2", "完成句子", "call", "call a race = 宣布竞选结果",
+### 'twice = 两倍'  x1
+    content34.py:50: f.ex("B1", "完成句子", "twice", "twice = 两倍",
+### '丛林节目 11 月 16 日晚 9 点'  x1
+    content8.py:50: ("A2", "A", "丛林节目 11 月 16 日晚 9 点", "“I'm a Celebrity” starts... A. Mon, Nov 16, 9 p.m. · B. Sun, Nov 15 · C. Fri, Nov 20"),
+### 'C\u3000THE WORDS'  x3
+    content34.py:54: f.head("C　THE WORDS", 25)
+    content34.py:138: f.head("C　THE WORDS", 25)
+    content56.py:51: f.head("C　THE WORDS", 25)
+### '灰烬杯首战 11 月 21 日珀斯'  x1
+    content8.py:51: ("B1", "C", "灰烬杯首战 11 月 21 日珀斯", "The first Ashes Test starts on... A. Thu, Nov 19 · B. Sun, Nov 22 · C. Sat, Nov 21"),
+### 'jungle = 丛林'  x1
+    content34.py:52: f.ex("B1", "完成句子", "jungle", "jungle = 丛林",
+### 'seat = 席位'  x1
+    content12.py:52: f.ex("A2", "完成句子", "seats", "seat = 席位",
+### '反欺凌周主题“打破沉默”'  x1
+    content8.py:52: ("B1", "B", "反欺凌周主题“打破沉默”", "The theme of Anti-Bullying Week is... A. “Odd Socks” · B. “Break the Silence” · C. “My day”"),
+### '词汇配对'  x5
+    content12.py:282: e.match_set("A2", "词汇配对",
+    content34.py:55: f.match_set("A2", "词汇配对",
+    content34.py:139: f.match_set("B1", "词汇配对",
+    content56.py:52: f.match_set("B1", "词汇配对",
+    content8.py:103: bf.match_set("A2", "词汇配对",
+### '世界儿童日 11 月 20 日'  x1
+    content8.py:53: ("B1", "A", "世界儿童日 11 月 20 日", "World Children's Day is on... A. Fri, Nov 20 · B. Thu, Nov 26 · C. Mon, Nov 16"),
+### 'majority = 多数、过半数'  x1
+    content12.py:54: f.ex("A2", "完成句子", "majority", "majority = 多数、过半数",
+### '感恩节 11 月 26 日周四'  x1
+    content8.py:54: ("B1", "C", "感恩节 11 月 26 日周四", "Thanksgiving is on... A. Mon, Nov 16 · B. Fri, Nov 27 · C. Thu, Nov 26"),
+### 'change hands = 易手'  x2
+    content12.py:56: f.ex("B1", "完成句子", "changed", "change hands = 易手",
+    content56.py:155: f.ex("B2", "完成句子", "changed", "change hands = 易手",
+### '新国会 2027 年 1 月开会'  x3
+    content12.py:58: f.ex("B1", "完成句子", "January", "新国会 2027 年 1 月开会",
+    content12.py:153: qf.ex("A2", "单选", "C", "新国会 2027 年 1 月开会",
+    content12.py:253: e.ex("A2", "完成句子", "January", "新国会 2027 年 1 月开会",
+### 'bullying=欺凌 d'  x1
+    content56.py:59: ["bullying=欺凌 d", "speak up=大声说 a", "right=权利 b", "silence=沉默 c"],
+### 'right=权利 b'  x1
+    content56.py:59: ["bullying=欺凌 d", "speak up=大声说 a", "right=权利 b", "silence=沉默 c"],
+### 'silence=沉默 c'  x1
+    content56.py:59: ["bullying=欺凌 d", "speak up=大声说 a", "right=权利 b", "silence=沉默 c"],
+### 'speak up=大声说 a'  x1
+    content56.py:59: ["bullying=欺凌 d", "speak up=大声说 a", "right=权利 b", "silence=沉默 c"],
+### 'C\u3000READING\u3000阅读理解'  x1
+    content8.py:60: bf.head("C　READING　阅读理解", 24, gap=8)
+### '把词和释义配对'  x4
+    content12.py:290: instr="把词和释义配对")
+    content34.py:63: instr="把词和释义配对")
+    content34.py:147: instr="把词和释义配对")
+    content56.py:60: instr="把词和释义配对")
+### 'D\u3000PRESENT CONTINUOUS'  x1
+    content56.py:61: f.head("D　PRESENT CONTINUOUS", 25)
+### 'THE DRILLS\u3000本周小练'  x1
+    content7.py:61: f.head("THE DRILLS　本周小练", 28)
+### 'arena=竞技场 a'  x1
+    content34.py:62: ["tribute=参赛者 b", "mentor=导师 d", "arena=竞技场 a", "campmate=营地成员 c"],
+### 'campmate=营地成员 c'  x1
+    content34.py:62: ["tribute=参赛者 b", "mentor=导师 d", "arena=竞技场 a", "campmate=营地成员 c"],
+### 'mentor=导师 d'  x1
+    content34.py:62: ["tribute=参赛者 b", "mentor=导师 d", "arena=竞技场 a", "campmate=营地成员 c"],
+### 'tribute=参赛者 b'  x1
+    content34.py:62: ["tribute=参赛者 b", "mentor=导师 d", "arena=竞技场 a", "campmate=营地成员 c"],
+### '用下列词填空：won / more / lost / will / published / whether / chose / win。'  x1
+    content7.py:62: f.bridge("用下列词填空：won / more / lost / will / published / whether / chose / win。")
+### '用现在进行时改写（正在发生的事）。'  x1
+    content56.py:62: f.bridge("用现在进行时改写（正在发生的事）。")
+### 'won = win 的过去时（已赢）'  x1
+    content7.py:63: f.ex("A2", "金句填空", "won", "won = win 的过去时（已赢）",
+### '句型转换'  x16
+    content12.py:263: e.ex("A2", "句型转换", "The new Congress will meet in January.", "meet → will meet",
+    content12.py:265: e.ex("A2", "句型转换", "States will certify their counts.", "certify → will certify",
+    content12.py:267: e.ex("A2", "句型转换", "Families will travel home.", "travel → will travel",
+    content12.py:269: e.ex("B1", "句型转换", "Will they watch the jungle on Monday?", "疑问句：will 提前",
+    content34.py:66: f.ex("A2", "句型转换", "Collins published the novel in 2025.", "publish → published",
+    content34.py:68: f.ex("A2", "句型转换", "Haymitch won the 50th Games.", "win → won",
+    content34.py:70: f.ex("B1", "句型转换", "Rousseau painted jungles he never saw.", "paint → painted",
+    content34.py:72: f.ex("B1", "句型转换", "ITV chose Monday for the launch.", "choose → chose",
+    content34.py:150: f.ex("B1", "句型转换", "England lost 4–0 in 2021–22.", "lose → lost",
+    content34.py:152: f.ex("B1", "句型转换", "Australia lost their first Test at the ground.", "lose → lost",
+    content34.py:154: f.ex("B1", "句型转换", "The last series ended in a draw in 2023.", "end → ended",
+    content34.py:156: f.ex("B1", "句型转换", "India beat Australia by 295 runs.", "beat → beat（不规则变化）",
+    content56.py:63: f.ex("B1", "句型转换", "Schools are wearing odd socks today.", "wear → are wearing",
+    content56.py:65: f.ex("B1", "句型转换", "Children are speaking up this week.", "speak → are speaking",
+    content56.py:67: f.ex("B1", "句型转换", "We are listening to every child.", "listen → are listening",
+    content56.py:69: f.ex("B1", "句型转换", "She is sitting with a new friend.", "sit → is sitting",
+### '汤姆在曼彻斯特教书'  x1
+    content8.py:63: ("B1", "B", "汤姆在曼彻斯特教书", "Tom is... A. a student · B. a teacher in Manchester · C. a reporter"),
+### '金句填空'  x1
+    content7.py:63: f.ex("A2", "金句填空", "won", "won = win 的过去时（已赢）",
+### 'D\u3000PAST SIMPLE'  x2
+    content34.py:64: f.head("D　PAST SIMPLE", 25)
+    content34.py:148: f.head("D　PAST SIMPLE", 25)
+### '改写'  x16
+    content12.py:264: "The new Congress (meet) in January. → ___", instr="改写")
+    content12.py:266: "States (certify) their counts. → ___", instr="改写")
+    content12.py:268: "Families (travel) home for Thanksgiving. → ___", instr="改写")
+    content12.py:270: "They (watch) the jungle on Monday? → ___", instr="改写")
+    content34.py:67: "Collins (publish) the novel in 2025. → ___", instr="改写")
+    content34.py:69: "Haymitch (win) the 50th Games. → ___", instr="改写")
+    content34.py:71: "Rousseau (paint) jungles he never saw. → ___", instr="改写")
+    content34.py:73: "ITV (choose) Monday for the launch. → ___", instr="改写")
+    content34.py:151: "England (lose) 4–0 in 2021–22. → ___", instr="改写")
+    content34.py:153: "Australia (lose) their first Test at the ground. → ___", instr="改写")
+    content34.py:155: "The last series (end) in a draw in 2023. → ___", instr="改写")
+    content34.py:157: "India (beat) Australia by 295 runs in November 2024. → ___", instr="改写")
+    content56.py:64: "Schools (wear) odd socks today. → ___", instr="改写")
+    content56.py:66: "Children (speak) up this week. → ___", instr="改写")
+    content56.py:68: "We (listen) to every child. → ___", instr="改写")
+    content56.py:70: "She (sit) with a new friend. → ___", instr="改写")
+### 'more than = 比……多'  x1
+    content7.py:65: f.ex("B1", "比较填空", "more", "more than = 比……多",
+### '比较填空'  x1
+    content7.py:65: f.ex("B1", "比较填空", "more", "more than = 比……多",
+### '汤姆穿一红一蓝两只袜子'  x1
+    content8.py:65: ("B1", "C", "汤姆穿一红一蓝两只袜子", "Tom is wearing... A. one red sock · B. one blue sock · C. one red sock and one blue sock"),
+### '用一般过去时改写（已经发生的事）。'  x1
+    content34.py:65: f.bridge("用一般过去时改写（已经发生的事）。")
+### '汤姆的课在读选举新闻'  x1
+    content8.py:66: ("B1", "B", "汤姆的课在读选举新闻", "Tom's class is reading about... A. the Ashes · B. the American election · C. the film"),
+### '过去时'  x2
+    content7.py:67: f.ex("B1", "过去时", "lost", "lose → lost",
+    content7.py:75: f.ex("B2", "过去时", "chose", "choose → chose",
+### '本周英语世界热搜\u3000Google Trends 快照'  x1
+    content12.py:68: p.text(gx + 22, gy + 106, "本周英语世界热搜　Google Trends 快照", 19, "sans", False, GREY)
+### 'will + 动词原形'  x2
+    content7.py:69: f.ex("A2", "将来时", "will", "will + 动词原形",
+    content8.py:74: ("B1", "will meet", "will + 动词原形",
+### '将来时'  x1
+    content7.py:69: f.ex("A2", "将来时", "will", "will + 动词原形",
+### '阅读理解'  x1
+    content8.py:69: bf.ex(lv, "阅读理解", k, nt, body, size=20.5)
+### '时态'  x1
+    content7.py:71: f.ex("B1", "时态", "published", "publish → published",
+### 'D\u3000SENTENCES\u3000完成句子与转换'  x1
+    content8.py:72: bf.head("D　SENTENCES　完成句子与转换", 24, gap=8)
+### 'whether = 是否（不知道的事）'  x1
+    content7.py:73: f.ex("B2", "从句", "whether", "whether = 是否（不知道的事）",
+### '从句'  x1
+    content7.py:73: f.ex("B2", "从句", "whether", "whether = 是否（不知道的事）",
+### '复数主语用 win（标题现在时）'  x1
+    content7.py:77: f.ex("A2", "完成句子", "win", "复数主语用 win（标题现在时）",
+### 'more than 比较级'  x1
+    content8.py:78: ("B1", "more", "more than 比较级",
+### 'ERROR CLINIC\u3000纠错门诊'  x1
+    content7.py:79: f.head("ERROR CLINIC　纠错门诊", 28)
+### 'SPEAK UP\u3000大声说出来'  x1
+    content56.py:79: v5.box("SPEAK UP　大声说出来", [
+### 'whether = 是否'  x1
+    content8.py:80: ("B2", "whether", "whether = 是否",
+### 'won / win 时态错'  x1
+    content7.py:80: f.ex("A2", "纠错", "Correct: The Democrats won the House.", "won / win 时态错",
+### '纠错'  x9
+    content7.py:80: f.ex("A2", "纠错", "Correct: The Democrats won the House.", "won / win 时态错",
+    content7.py:81: "“The Democrats win the House in 2026.” (wrong tense)", instr="纠错")
+    content7.py:82: f.ex("A2", "纠错", "Correct: The count continued after the vote.", "continue 的过去时 continued",
+    content7.py:83: "“The count continue after the vote.” (wrong tense)", instr="纠错")
+    content7.py:84: f.ex("B1", "纠错", "Correct: 254 is more than 218.", "more than 结构",
+    content7.py:85: "“254 is more then 218.” (wrong word)", instr="纠错")
+    content7.py:86: f.ex("B2", "纠错", "Correct: Nobody knows whether it will change.", "whether 引导从句",
+    content7.py:87: "“Nobody knows if the count will change or not whether.” (wrong structure)", instr="纠错")
+    content8.py:155: if e["note"] and (pg == 8 or len(e["note"]) <= 10 or e["type"] in ("改错", "纠错", "图表读数")):
+### "HAYMITCH'S GAMES\u3000海米奇的比赛"  x1
+    content34.py:82: v3.box("HAYMITCH'S GAMES　海米奇的比赛", [
+### 'continue 的过去时 continued'  x1
+    content7.py:82: f.ex("A2", "纠错", "Correct: The count continued after the vote.", "continue 的过去时 continued",
+### '相对热度示意，非精确搜索量。'  x1
+    content12.py:83: p.text(gx + 22, byy + 76, "相对热度示意，非精确搜索量。", 19, "sans", False, GREY)
+### 'more than 结构'  x1
+    content7.py:84: f.ex("B1", "纠错", "Correct: 254 is more than 218.", "more than 结构",
+### '每个孩子都有权利｜Every child has rights = 每个孩子都有权利。'  x1
+    content56.py:85: v5.bridge("每个孩子都有权利｜Every child has rights = 每个孩子都有权利。")
+### 'whether 引导从句'  x1
+    content7.py:86: f.ex("B2", "纠错", "Correct: Nobody knows whether it will change.", "whether 引导从句",
+### 'E\u3000TRANSLATION\u3000翻译'  x1
+    content8.py:87: bf.head("E　TRANSLATION　翻译", 24, gap=8)
+### 'IN THIS ISSUE\u3000本期目录'  x1
+    content12.py:88: p.text(gx + 22, sy + 40, "IN THIS ISSUE　本期目录", 24, "sans", True, OLIVE)
+### '五句影评｜who、where、发生了什么、转折、结局——五句就够。'  x1
+    content34.py:88: v3.bridge("五句影评｜who、where、发生了什么、转折、结局——五句就够。")
+### 'the House and the Senate = 两院'  x1
+    content8.py:89: ("B2", "民主党赢下了众议院和参议院。", "the House and the Senate = 两院",
+### '民主党赢下了众议院和参议院。'  x1
+    content8.py:89: ("B2", "民主党赢下了众议院和参议院。", "the House and the Senate = 两院",
+### 'continues = 仍在继续'  x1
+    content8.py:91: ("B2", "计票仍在继续。", "continues = 仍在继续",
+### '计票仍在继续。'  x1
+    content8.py:91: ("B2", "计票仍在继续。", "continues = 仍在继续",
+### 'will meet = 将于……开会'  x1
+    content8.py:93: ("B2", "新国会将于 2027 年 1 月开会。", "will meet = 将于……开会",
+### '新国会将于 2027 年 1 月开会。'  x1
+    content8.py:93: ("B2", "新国会将于 2027 年 1 月开会。", "will meet = 将于……开会",
+### '打破沉默。'  x1
+    content8.py:95: ("B1", "打破沉默。", "Break the silence.",
+### 'DEEP READ\u3000时事深读'  x1
+    content56.py:96: p.band("DEEP READ　时事深读", "The Lucerna", "LEVEL B2　The map after November 3　11月3日之后的版图")
+### 'LEVEL B2\u3000The map after November 3\u300011月3日之后的版图'  x1
+    content56.py:96: p.band("DEEP READ　时事深读", "The Lucerna", "LEVEL B2　The map after November 3　11月3日之后的版图")
+### 'THE TOOLBOX\u3000句型工具箱'  x1
+    content7.py:96: v7.box("THE TOOLBOX　句型工具箱", [
+### 'A2 — “The Democrats won the House.” 民主党赢了众议院。'  x1
+    content7.py:97: ("A2 — “The Democrats won the House.” 民主党赢了众议院。", "serif", False, INK, 21.5, 1.42),
+### 'LEVEL B1\u3000Ashes\u3000Premier League\u3000ATP'  x1
+    content34.py:97: p.band("SPORT　体育", "The Lucerna", "LEVEL B1　Ashes　Premier League　ATP")
+### 'SPORT\u3000体育'  x1
+    content34.py:97: p.band("SPORT　体育", "The Lucerna", "LEVEL B1　Ashes　Premier League　ATP")
+### 'B1 — “254 is more than 218.” 254 比 218 多。'  x1
+    content7.py:98: ("B1 — “254 is more than 218.” 254 比 218 多。", "serif", False, INK, 21.5, 1.42),
+### 'B2 — “Nobody knows whether the count will change.” 没人知道计票结果还会不会变。'  x1
+    content7.py:99: ("B2 — “Nobody knows whether the count will change.” 没人知道计票结果还会不会变。", "serif", False, INK, 21.5, 1.42),
+### '翻译'  x1
+    content8.py:99: bf.ex(lv, "翻译", k, nt, body, size=20.5)
+### 'By The Lucerna newsroom\u3000Reading level: B2'  x1
+    content56.py:100: f.byline("By The Lucerna newsroom　Reading level: B2")
+### "READERS' CORNER\u3000读者来信"  x1
+    content7.py:101: v7.head("READERS' CORNER　读者来信", 25)
+### 'F\u3000WORDS\u3000词汇配对'  x1
+    content8.py:102: bf.head("F　WORDS　词汇配对", 24, gap=8)
+### 'VOL.3 曾承诺：从 VOL.4 起刊登真实读者来信。本期截稿时没有收到来信——这个承诺仍然有效：请把你的信、三句话练习或五句影评寄给编辑部。真实来信将从 VOL.5 起刊登，姓名与城市只在你同意时写出。'  x1
+    content7.py:103: v7.para("VOL.3 曾承诺：从 VOL.4 起刊登真实读者来信。本期截稿时没有收到来信——这个承诺仍然有效：请把你的信、三句话练习或五句影评寄给编辑部。真实来信将从 VOL.5 起刊登，姓名与城市只在你同意时写出。", 20, "sans", False, GREY, 1.4, 2)
+### 'AN EXAMPLE LETTER\u3000示例信'  x1
+    content7.py:104: v7.head("AN EXAMPLE LETTER　示例信", 25)
+### 'A PRACTICE BALLOT\u3000模拟选票'  x1
+    content56.py:106: f.box("A PRACTICE BALLOT　模拟选票", [
+### '这封信是编辑写的示例，仅供参考格式，不是读者来信。没有写姓名与城市，因为尚未收到真实来信。'  x1
+    content7.py:107: v7.para("这封信是编辑写的示例，仅供参考格式，不是读者来信。没有写姓名与城市，因为尚未收到真实来信。", 20, "sans", False, GREY, 1.4, 2)
+### 'NEXT WEEK\u3000VOL.5 预告'  x1
+    content7.py:108: v7.head("NEXT WEEK　VOL.5 预告", 25)
+### 'WHY PERTH?\u3000为什么去珀斯？'  x1
+    content34.py:108: f.box("WHY PERTH?　为什么去珀斯？", [
+### 'call=宣布结果 b'  x1
+    content8.py:110: ["call=宣布结果 b", "runoff=决胜轮 c", "certify=正式确认 d", "midterm=中期选举 a"],
+### 'certify=正式确认 d'  x1
+    content8.py:110: ["call=宣布结果 b", "runoff=决胜轮 c", "certify=正式确认 d", "midterm=中期选举 a"],
+### 'midterm=中期选举 a'  x1
+    content8.py:110: ["call=宣布结果 b", "runoff=决胜轮 c", "certify=正式确认 d", "midterm=中期选举 a"],
+### 'runoff=决胜轮 c'  x1
+    content8.py:110: ["call=宣布结果 b", "runoff=决胜轮 c", "certify=正式确认 d", "midterm=中期选举 a"],
+### '讲解｜to call a race 宣布竞选结果 · to certify 正式确认（认证） · a runoff 决胜轮选举 · a map 政治版图。'  x1
+    content56.py:110: f.gloss("讲解｜to call a race 宣布竞选结果 · to certify 正式确认（认证） · a runoff 决胜轮选举 · a map 政治版图。")
+### '中期选举。Midterm elections 选众议院全部席位与约三分之一参议院席位。'  x1
+    content12.py:111: p.para(gx, wy + 10, "中期选举。Midterm elections 选众议院全部席位与约三分之一参议院席位。", 19, "sans", False, GREY, gw, 1.35)
+### '配对'  x1
+    content8.py:111: instr="配对")
+### 'READ THE CHART\u3000读图表'  x1
+    content56.py:112: f.head("READ THE CHART　读图表", 25)
+### '讲解｜a Test 五日板球赛 · a tour 巡回赛 · an injury 伤病 · a break 间歇期。'  x1
+    content34.py:113: f.gloss("讲解｜a Test 五日板球赛 · a tour 巡回赛 · an injury 伤病 · a break 间歇期。")
+### 'row = 一排座位'  x1
+    content8.py:115: ("A2", "row", "row = 一排座位"),
+### '读第 4 版文章，选出正确答案。'  x1
+    content34.py:115: f.bridge("读第 4 版文章，选出正确答案。")
+### 'film = 电影'  x1
+    content8.py:116: ("A2", "film", "film = 电影"),
+### '灰烬杯首战 11 月 21 日周六在珀斯'  x1
+    content34.py:116: f.ex("B1", "单选", "A", "灰烬杯首战 11 月 21 日周六在珀斯",
+### 'popcorn = 爆米花'  x1
+    content8.py:117: ("A2", "popcorn", "popcorn = 爆米花"),
+### 'show = 场次'  x1
+    content8.py:118: ("A2", "show", "show = 场次"),
+### '澳大利亚队长卡明斯因背伤缺阵'  x1
+    content34.py:118: f.ex("B1", "单选", "C", "澳大利亚队长卡明斯因背伤缺阵",
+### 'Friday = 星期五'  x1
+    content8.py:119: ("A2", "Friday", "Friday = 星期五"),
+### '史蒂夫·史密斯代任队长'  x1
+    content34.py:120: f.ex("B1", "单选", "B", "史蒂夫·史密斯代任队长",
+### 'A\u3000CHART READING'  x1
+    content56.py:121: f.head("A　CHART READING", 25)
+### '对话补全'  x1
+    content8.py:121: gnums = [reg_ex(lv, "对话补全", k, nt) for lv, k, nt in dlg_defs]
+### 'G\u3000DIALOGUE\u3000对话补全'  x1
+    content8.py:122: bf.head("G　DIALOGUE　对话补全", 24, gap=8)
+### '英格兰上次在澳大利亚赢系列赛是 2010–11 赛季'  x1
+    content34.py:122: f.ex("B1", "单选", "A", "英格兰上次在澳大利亚赢系列赛是 2010–11 赛季",
+### '读上面的已确认数图表，选出正确答案。'  x1
+    content56.py:122: f.bridge("读上面的已确认数图表，选出正确答案。")
+### '11 月 8 日已确认：众议院民主党 254 席'  x1
+    content56.py:123: f.ex("B2", "图表读数", "B", "11 月 8 日已确认：众议院民主党 254 席",
+### '图表读数'  x7
+    content56.py:123: f.ex("B2", "图表读数", "B", "11 月 8 日已确认：众议院民主党 254 席",
+    content56.py:125: f.ex("B2", "图表读数", "C", "众议院 19 个选区尚未确认",
+    content56.py:127: f.ex("B2", "图表读数", "A", "参议院 35 席中 33 席已确认",
+    content56.py:129: f.ex("B2", "图表读数", "B", "7 个参议院席位易手，全部归民主党",
+    content56.py:131: f.ex("B2", "图表读数", "A", "5 个州长职位易手，全部归民主党",
+    content56.py:133: f.ex("B2", "图表读数", "C", "254 + 162 + 19 = 435（众议院总席位）",
+    content8.py:155: if e["note"] and (pg == 8 or len(e["note"]) <= 10 or e["type"] in ("改错", "纠错", "图表读数")):
+### '英超回归：曼城对富勒姆 12:30 开球'  x1
+    content34.py:124: f.ex("B1", "单选", "C", "英超回归：曼城对富勒姆 12:30 开球",
+### '众议院 19 个选区尚未确认'  x1
+    content56.py:125: f.ex("B2", "图表读数", "C", "众议院 19 个选区尚未确认",
+### 'ATP 总决赛在都灵，辛纳因膝伤缺席'  x1
+    content34.py:126: f.ex("B1", "单选", "B", "ATP 总决赛在都灵，辛纳因膝伤缺席",
+### '参议院 35 席中 33 席已确认'  x1
+    content56.py:127: f.ex("B2", "图表读数", "A", "参议院 35 席中 33 席已确认",
+### '7 个参议院席位易手，全部归民主党'  x1
+    content56.py:129: f.ex("B2", "图表读数", "B", "7 个参议院席位易手，全部归民主党",
+### 'IN BRIEF\u3000快讯'  x1
+    content12.py:130: p.text(bx + 22, 1914, "IN BRIEF　快讯", 24, "sans", True, OLIVE)
+### 'host 三单 hosts'  x1
+    content34.py:130: f.ex("B1", "完成句子", "hosts", "host 三单 hosts",
+### '写作'  x1
+    content8.py:130: reg_ex("B1", "写作", "开放题 — 要点见写作框，范文在第 8 版写作框内", "按要点给分")
+### '开放题 — 要点见写作框，范文在第 8 版写作框内'  x1
+    content8.py:130: reg_ex("B1", "写作", "开放题 — 要点见写作框，范文在第 8 版写作框内", "按要点给分")
+### '按要点给分'  x1
+    content8.py:130: reg_ex("B1", "写作", "开放题 — 要点见写作框，范文在第 8 版写作框内", "按要点给分")
+### '5 个州长职位易手，全部归民主党'  x1
+    content56.py:131: f.ex("B2", "图表读数", "A", "5 个州长职位易手，全部归民主党",
+### 'H\u3000WRITING\u3000写作 [B1]'  x1
+    content8.py:132: p.text(wx, wy + 26, "H　WRITING　写作 [B1]", 25, "sans", True, OLIVE)
+### 'last 三单 lasts'  x1
+    content34.py:132: f.ex("B1", "完成句子", "lasts", "last 三单 lasts",
+### '254 + 162 + 19 = 435（众议院总席位）'  x1
+    content56.py:133: f.ex("B2", "图表读数", "C", "254 + 162 + 19 = 435（众议院总席位）",
+### '八位 = eight'  x1
+    content34.py:134: f.ex("A2", "完成句子", "eight", "八位 = eight",
+### '用英语写 80–100 词：我的 11 月 16 日周一。写清你是否穿了奇袜、晚上看了什么电视、读了什么选举新闻，再写一句周五的电影。'  x1
+    content8.py:134: p.para(wx, wy + 190, "用英语写 80–100 词：我的 11 月 16 日周一。写清你是否穿了奇袜、晚上看了什么电视、读了什么选举新闻，再写一句周五的电影。", 20, "sans", False, GREY, ww, 1.4)
+### 'B\u3000COMPREHENSION'  x1
+    content56.py:135: f.head("B　COMPREHENSION", 25)
+### 'sell 的过去分词：be sold out 售罄'  x1
+    content34.py:136: f.ex("A2", "完成句子", "sold", "sell 的过去分词：be sold out 售罄",
+### '读第 6 版文章，选出正确答案。'  x1
+    content56.py:136: f.bridge("读第 6 版文章，选出正确答案。")
+### '“宣布结果”不等于正式结果'  x1
+    content56.py:137: f.ex("B2", "单选", "B", "“宣布结果”不等于正式结果",
+### 'MODEL\u3000范文'  x1
+    content8.py:139: p.text(mx2 + 22, wy + 188, "MODEL　范文", 23, "sans", True, OLIVE)
+### '正式结果来自各州认证'  x1
+    content56.py:139: f.ex("B2", "单选", "A", "正式结果来自各州认证",
+### '两个参议院选区尚未确认：阿拉斯加与密西西比'  x1
+    content56.py:141: f.ex("B2", "单选", "C", "两个参议院选区尚未确认：阿拉斯加与密西西比",
+### '众议院共和党 11 月 10 日选领袖'  x1
+    content56.py:143: f.ex("B2", "单选", "B", "众议院共和党 11 月 10 日选领袖",
+### 'LIGHTNING QUIZ\u3000闪电问答'  x1
+    content12.py:144: p.text(MX, qy + 36, "LIGHTNING QUIZ　闪电问答", 26, "sans", True, OLIVE)
+### '中期选举改变国会、不改变总统'  x1
+    content56.py:145: f.ex("B2", "单选", "A", "中期选举改变国会、不改变总统",
+### '读头版，选出正确答案\u3000答案见第8版'  x1
+    content12.py:145: p.text(RIGHT, qy + 36, "读头版，选出正确答案　答案见第8版", 20, "sans", False, GREY, anchor="end")
+### 'Test=五日板球赛 b'  x1
+    content34.py:146: ["Test=五日板球赛 b", "tour=巡回赛 c", "injury=伤病 d", "break=间歇期 a"],
+### 'break=间歇期 a'  x1
+    content34.py:146: ["Test=五日板球赛 b", "tour=巡回赛 c", "injury=伤病 d", "break=间歇期 a"],
+### 'injury=伤病 d'  x1
+    content34.py:146: ["Test=五日板球赛 b", "tour=巡回赛 c", "injury=伤病 d", "break=间歇期 a"],
+### 'tour=巡回赛 c'  x1
+    content34.py:146: ["Test=五日板球赛 b", "tour=巡回赛 c", "injury=伤病 d", "break=间歇期 a"],
+### 'ANSWERS\u3000全部答案与简析（第1–8版）'  x1
+    content8.py:147: p.text(MX, ky + 26, "ANSWERS　全部答案与简析（第1–8版）", 26, "sans", True, OLIVE)
+### 'VOL.5 将报道认证后的最终结果'  x1
+    content56.py:147: f.ex("B2", "单选", "C", "VOL.5 将报道认证后的最终结果",
+### '众议院民主党获 254 席（11 月 8 日已确认数）'  x1
+    content12.py:147: qf.ex("A2", "单选", "B", "众议院民主党获 254 席（11 月 8 日已确认数）",
+### 'C\u3000SENTENCES'  x1
+    content56.py:149: f.head("C　SENTENCES", 25)
+### '投票日 11 月 3 日周二'  x1
+    content12.py:149: qf.ex("A2", "单选", "A", "投票日 11 月 3 日周二",
+### '用一般过去时改写（比赛已结束的说法）。'  x1
+    content34.py:149: f.bridge("用一般过去时改写（比赛已结束的说法）。")
+### 'certify = 正式确认'  x1
+    content56.py:151: f.ex("B2", "完成句子", "certify", "certify = 正式确认",
+### '众议院过半数为 218 席'  x1
+    content12.py:151: qf.ex("A2", "单选", "C", "众议院过半数为 218 席",
+### '改错'  x1
+    content8.py:155: if e["note"] and (pg == 8 or len(e["note"]) <= 10 or e["type"] in ("改错", "纠错", "图表读数")):
+### 'beat → beat（不规则变化）'  x1
+    content34.py:156: f.ex("B1", "句型转换", "India beat Australia by 295 runs.", "beat → beat（不规则变化）",
+### 'take time = 花时间'  x1
+    content56.py:157: f.ex("B1", "完成句子", "takes", "take time = 花时间",
+### 'differ 三单 differs'  x1
+    content56.py:159: f.ex("B1", "完成句子", "differs", "differ 三单 differs",
+### 'official = 正式的'  x1
+    content56.py:161: f.ex("B1", "完成句子", "official", "official = 正式的",
+### 'LEVEL A2\u3000After the vote\u3000投票之后'  x1
+    content12.py:163: p.band("LIFE　生活", "The Lucerna", "LEVEL A2　After the vote　投票之后")
+### 'LIFE\u3000生活'  x1
+    content12.py:163: p.band("LIFE　生活", "The Lucerna", "LEVEL A2　After the vote　投票之后")
+### 'SATURDAY, NOVEMBER 21\u3000周六赛程'  x1
+    content34.py:166: v4.box("SATURDAY, NOVEMBER 21　周六赛程", [
+### 'HOW LONG?\u3000任期多长？'  x1
+    content56.py:171: v6.box("HOW LONG?　任期多长？", [
+### 'THE SENATE, IN NUMBERS\u3000参议院数字'  x1
+    content12.py:173: f.box("THE SENATE, IN NUMBERS　参议院数字", [
+### '看球英语｜比分、谁得分、谁领先——短句就是直播英语。'  x1
+    content34.py:174: v4.bridge("看球英语｜比分、谁得分、谁领先——短句就是直播英语。")
+### '一张地图｜五十个州、五十套规则——所以选举夜看的是地图，不是一个数字。'  x1
+    content56.py:176: v6.bridge("一张地图｜五十个州、五十套规则——所以选举夜看的是地图，不是一个数字。")
+### 'THE CALENDAR\u3000本周日历'  x1
+    content12.py:178: f.box("THE CALENDAR　本周日历", [
+### 'Nov 10 — House Republicans choose their leader（众议院共和党选领袖） · Nov 18–19 — House Democrats vote（众议院民主党投票）'  x1
+    content12.py:179: ("Nov 10 — House Republicans choose their leader（众议院共和党选领袖） · Nov 18–19 — House Democrats vote（众议院民主党投票）", "serif", False, INK, 21.5, 1.4),
+### "Nov 20 — World Children's Day（世界儿童日） · Nov 26 — Thanksgiving（感恩节） · Nov 27 — Black Friday（黑色星期五）"  x1
+    content12.py:180: ("Nov 20 — World Children's Day（世界儿童日） · Nov 26 — Thanksgiving（感恩节） · Nov 27 — Black Friday（黑色星期五）", "serif", False, INK, 21.5, 1.4),
+### '讲解｜to certify 正式确认 · a runoff 决胜轮选举。'  x1
+    content12.py:186: f.gloss("讲解｜to certify 正式确认 · a runoff 决胜轮选举。")
+### '你所在的国家，选举后会发生什么？写三句英语寄给编辑部。'  x2
+    content12.py:207: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你所在的国家，选举后会发生什么？写三句英语寄给编辑部。", "sans", False, 20, CW - 44)) * 29 + 20
+    content12.py:213: p.para(ix + 22, yy3 + 20, "你所在的国家，选举后会发生什么？写三句英语寄给编辑部。", 20, "sans", False, GREY, CW - 44, 1.42)
+### 'AND YOU?\u3000说说你自己'  x1
+    content12.py:210: p.text(ix + 22, yy3 + 26, "AND YOU?　说说你自己", 24, "sans", True, OLIVE)
+### 'SAY IT: IN JANUARY 2027\u3000这样说时间'  x1
+    content12.py:219: p.text(MX, dy + 28, "SAY IT: IN JANUARY 2027　这样说时间", 28, "sans", True, OLIVE)
+### 'The new Congress, in three sentences\u3000三句话说新国会'  x1
+    content12.py:220: p.text(RIGHT, dy + 28, "The new Congress, in three sentences　三句话说新国会", 20, "sans", False, GREY, anchor="end")
+### '计票还在继续。'  x1
+    content12.py:227: phrase_panel(299, "The counting continues.", "计票还在继续。")
+### '新国会在一月开会。'  x1
+    content12.py:228: phrase_panel(750, "The new Congress meets in January.", "新国会在一月开会。")
+### '感恩节快乐！'  x1
+    content12.py:229: phrase_panel(1200, "Happy Thanksgiving!", "感恩节快乐！")
+### '= to confirm（正式确认）'  x1
+    content12.py:233: ("to certify", "= to confirm（正式确认）"),
+### '= a second vote（决胜轮）'  x1
+    content12.py:234: ("a runoff", "= a second vote（决胜轮）"),
+### '= to take the oath（宣誓就职）'  x1
+    content12.py:235: ("sworn in", "= to take the oath（宣誓就职）"),
+### '= the bird of Thanksgiving（火鸡）'  x1
+    content12.py:236: ("a turkey", "= the bird of Thanksgiving（火鸡）"),
+### 'EXERCISES\u3000第2版练习'  x1
+    content12.py:246: p.text(MX, ey + 28, "EXERCISES　第2版练习", 28, "sans", True, OLIVE)
+### '答案见第8版\u3000题目可跨级混排，按题号找答案'  x1
+    content12.py:247: p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
+### 'A\u3000THE DATE'  x1
+    content12.py:249: e.head("A　THE DATE", 25)
+### '根据日期与时间，用英语补全句子。'  x1
+    content12.py:250: e.bridge("根据日期与时间，用英语补全句子。")
+### '11 月 = November'  x1
+    content12.py:251: e.ex("A2", "完成句子", "November", "11 月 = November",
+### '决胜轮 12 月 1 日'  x1
+    content12.py:255: e.ex("A2", "完成句子", "1", "决胜轮 12 月 1 日",
+### '感恩节是周四'  x1
+    content12.py:257: e.ex("A2", "完成句子", "Thursday", "感恩节是周四",
+### '黑色星期五 11 月 27 日'  x1
+    content12.py:259: e.ex("A2", "完成句子", "27", "黑色星期五 11 月 27 日",
+### 'B\u3000WILL'  x1
+    content12.py:261: e.head("B　WILL", 25)
+### '用 will + 动词改写（承诺与将要发生的事）。'  x1
+    content12.py:262: e.bridge("用 will + 动词改写（承诺与将要发生的事）。")
+### '疑问句：will 提前'  x1
+    content12.py:269: e.ex("B1", "句型转换", "Will they watch the jungle on Monday?", "疑问句：will 提前",
+### 'C\u3000COMPREHENSION'  x1
+    content12.py:271: e.head("C　COMPREHENSION", 25)
+### '读第 2 版文章，选出正确答案。'  x1
+    content12.py:272: e.bridge("读第 2 版文章，选出正确答案。")
+### '各州认证在 11 月 10 日至 12 月 18 日'  x1
+    content12.py:273: e.ex("A2", "单选", "B", "各州认证在 11 月 10 日至 12 月 18 日",
+### '决胜轮在 12 月 1 日'  x1
+    content12.py:275: e.ex("A2", "单选", "C", "决胜轮在 12 月 1 日",
+### '感恩节在 11 月 26 日周四'  x1
+    content12.py:277: e.ex("A2", "单选", "A", "感恩节在 11 月 26 日周四",
+### 'D\u3000THE WORDS'  x1
+    content12.py:281: e.head("D　THE WORDS", 25)
+### 'Thanksgiving=感恩节 d'  x1
+    content12.py:289: ["runoff=决胜轮 b", "certify=正式确认 c", "turkey=火鸡 a", "Thanksgiving=感恩节 d"],
+### 'certify=正式确认 c'  x1
+    content12.py:289: ["runoff=决胜轮 b", "certify=正式确认 c", "turkey=火鸡 a", "Thanksgiving=感恩节 d"],
+### 'runoff=决胜轮 b'  x1
+    content12.py:289: ["runoff=决胜轮 b", "certify=正式确认 c", "turkey=火鸡 a", "Thanksgiving=感恩节 d"],
+### 'turkey=火鸡 a'  x1
+    content12.py:289: ["runoff=决胜轮 b", "certify=正式确认 c", "turkey=火鸡 a", "Thanksgiving=感恩节 d"],

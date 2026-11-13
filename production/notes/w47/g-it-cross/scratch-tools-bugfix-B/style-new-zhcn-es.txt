@@ -1,0 +1,19 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8
+  P1 min font 10.50pt (n=470)
+  P2 min font 11.62pt (n=359)
+  P3 min font 11.62pt (n=297)
+  P4 min font 11.62pt (n=507)
+  P5 min font 11.62pt (n=302)
+  P6 min font 12.75pt (n=328)
+  P7 min font 11.62pt (n=349)
+  P8 min font 9.98pt (n=834)
+paper #fbfaf6 present in fills: True
+fills outside palette: ['#34483A', '#4D72B4', '#4F765D', '#7898CD', '#84A283', '#D7B257', '#EDD17F', '#F1E8D4', '#cac8ba']
+VOL.4 count: 9  VOL.5 count: 1
+CJK chars in visible text: 591 sample: 一七三上下不与专世业东丢
+badges: 135 total (A2 50 / B1 63 / B2 22); per page: p1-touiban 10, p2-shenghuo 15, p3-wenhua 15, p4-tiyu 15, p5-qingnian 15, p6-shendu 15, p7-ciyu 12, p8-ceyan 38
+badge mismatches: none (fill matches level on every badge)
+olive non-badge rects ignored: 11 [('p1-touiban.svg', 88.0, 470.0, 1774.0, 118.0, 0.0, '#37402f'), ('p2-shenghuo.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p3-wenhua.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p4-tiyu.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p5-qingnian.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p6-shendu.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p6-shendu.svg', 428.0, 1274.0, 529.644, 30.0, 0.0, '#46581f'), ('p6-shendu.svg', 428.0, 1324.0, 29.525999999999996, 30.0, 0.0, '#37402f'), ('p7-ciyu.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p7-ciyu.svg', 88.0, 2470.78, 1774.0, 118.0, 0.0, '#37402f'), ('p8-ceyan.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f')]
+badge non-ASCII hits: none (Latin-only OK)

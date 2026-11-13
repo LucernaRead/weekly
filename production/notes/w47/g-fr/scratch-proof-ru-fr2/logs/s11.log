@@ -1,0 +1,25 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS 8 SVG 8
+PASS paper #fbfaf6 present
+PASS no #f7f1e2
+PASS no #c9a227
+PASS no #8b4513
+PASS no #000000
+PASS badge A2 #5c6e30
+PASS badge B1 #46581f
+PASS badge B2 #37402f
+PASS foot has VOL.4 + full-width space
+PASS VOL.3 only in P4 correction 1
+PASS no VOL.5 in P1/P8 band
+PASS masthead 196px
+PASS band title 46px
+PASS left margin >= 87 88.0
+PASS no CJK in visible svg (latin reader)
+PDFs: [('Lucerna-VOL4-ru-fr-web.pdf', 3385758), ('Lucerna-VOL4-ru-fr.pdf', 21291969)]
+PASS Lucerna-VOL4-ru-fr-web.pdf 8 pages 8
+PASS web < 7MB 3385758
+PASS web text > 0
+PASS Lucerna-VOL4-ru-fr.pdf 8 pages 8
+PASS P8 min font >= 9.75pt 9.75
+FAILURES: none

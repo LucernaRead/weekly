@@ -1,0 +1,47 @@
+--- 
++++ 
+@@ -36,12 +36,12 @@
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
+ f.para("La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta. L'Inter vince 2–0 con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 27.")
+ f.para("L'11ª giornata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in dieci partite. Il Milan vince 2–1 a Genova e prende il quarto posto, con 24 punti; Fiorentina e Juventus chiudono 2–2. In coda, l'Udinese è ultima, con 5 punti.")
+-f.para("Sabato 21 novembre torna la Serie A con la 12ª giornata: domenica sera, a Bergamo, c'è Atalanta–Inter. Sabato 21 la Lazio capolista gioca in casa con il Lecce.")
++f.para("Domenica 22 novembre torna la Serie A con la 12ª giornata: la sera, a Bergamo, c'è Atalanta–Inter. Sabato 21 la Lazio capolista gioca in casa con il Lecce.")
+ f.para("E domenica 22 novembre è anche il giorno dei dolci: a Cremona chiude la Festa del Torrone, con il corteo storico e la rievocazione del matrimonio Sforza–Visconti; a Perugia chiude Eurochocolate, con il maestro Iginio Massari.")
+ f.para("A Torino, domenica 22 novembre, si gioca la finale delle Nitto ATP Finals: otto campioni, una settimana di tennis, e l'Italia con Flavio Cobolli. A Venezia, sabato 21, c'è la Madonna della Salute.")
+ f.para("Questa è la quarta edizione de La Lucerna in italiano. Benvenuti in una settimana di calcio, dolci e musica!")
+ f.bridge("Note — la vetta, la tête / le sommet · imbattuto, invaincu · il capolista, le leader · chiudere, clore.")
+-f.box("LA SETTIMANA IN CIFRE　CHIFFRES", [
++f.box("LA SETTIMANA IN CIFRE　LA SEMAINE EN CHIFFRES", [
+     ("29 — les points de la Lazio, première après 11 journées (la Lazio mène)", "serif", False, INK, 20.5, 1.35),
+     ("24 — les buts de la 11e journée, en dix matches (24 buts en 10 matches)", "serif", False, INK, 20.5, 1.35),
+     ("20.45 — le coup d'envoi d'Atalanta–Inter, dimanche 22 novembre (20 h 45)", "serif", False, INK, 20.5, 1.35),
+@@ -68,7 +68,7 @@
+ p.rect(gx, gy, gw, 700, fill=BOX)
+ p.text(gx + 22, gy + 40, "LA SETTIMANA", 27, "sans", True, OLIVE)
+ p.text(gx + 22, gy + 76, "GIORNO PER GIORNO", 27, "sans", True, OLIVE)
+-p.text(gx + 22, gy + 106, "Cette sem.　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
++p.text(gx + 22, gy + 106, "Cette semaine　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
+ sett = [
+     "LUN 16 — Manovra in Parlamento: emendamenti entro il 17, ore 18.",
+     "MAR 17 — Scade il termine per gli emendamenti.",
+@@ -174,7 +174,7 @@
+ f.para("La settimana scorsa si è chiusa con due feste dolci ancora aperte: la Festa del Torrone a Cremona e Eurochocolate a Perugia, che chiudono domenica 22 novembre. E due grandi appuntamenti di sport: le due notti azzurre della Nazionale e l'inizio delle Nitto ATP Finals a Torino.", 23.5)
+ f.para("Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre le commissioni Bilancio di Camera e Senato hanno ascoltato enti e istituzioni. Al momento di andare in stampa, il testo non era ancora legge: ne parliamo a pagina 6.", 23.5)
+ f.bridge("Au moment de mettre sous presse, le projet de budget n'était pas encore une loi — voir page 6.")
+-f.box("LA FRASE PER RICORDARE　DEVISE", [
++f.box("LA FRASE PER RICORDARE　À RETENIR", [
+     ("«La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.", "serif", False, INK, 21.5, 1.4),
+ ])
+ f.gloss("la salute, la santé · il ponte votivo, le pont votif · la candela, la bougie · la peste, la peste · il voto, le vœu · piantare, planter.")
+@@ -259,9 +259,9 @@
+ e.match_set("A2", "Associe les mots",
+             ["la salute", "il ponte votivo", "la candela", "piantare"],
+             ["mettere una pianta nella terra",
+-             "il ponte di barche per la festa in novembre",
++             "il ponte di barche per la festa del 21 novembre",
+              "stare bene, la prima ricchezza",
+-             "la piccola luce di cera accesa in chiesa"],
++             "la piccola luce di cera che si accende in chiesa"],
+             ["c", "b", "d", "a"],
+             ["salute = la santé, c", "ponte votivo = pont votif, b", "candela = bougie, d", "piantare = planter, a"],
+             instr="Associe mots et définitions")

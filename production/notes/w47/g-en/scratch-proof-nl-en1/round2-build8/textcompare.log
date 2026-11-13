@@ -1,0 +1,22 @@
+pages print/web: 8 8
+P1: print spans 218 web spans 218 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 218)
+P2: print spans 203 web spans 203 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 203)
+P3: print spans 189 web spans 189 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 189)
+P4: print spans 184 web spans 184 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 184)
+P5: print spans 196 web spans 196 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 196)
+P6: print spans 201 web spans 201 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 201)
+P7: print spans 188 web spans 188 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 188)
+P8: print spans 386 web spans 386 multiset-diff=0 tokens-only-in-print=[] tokens-only-in-web=[]
+   positional mismatches (tol 2pt): 0 (of 386)
+print P1 italic spans: 1
+    (1079.6, 1284.1, 'Newsreader16pt-Italic', '«de groepswinst»')
+web P1 italic spans: 0
+print P1 raw around first groepswinst: 'ar op zaterdag 5\ndecember — over negentien dagen.\nNote | de groepswinst group win · de\nkwartfinale quarter-final · de intocht\narrival · het verlanglijstje wish list.\nDE WEEK IN CIJ'
+web P1 raw around first groepswinst: 'ar op zaterdag 5\ndecember — over negentien dagen.\nNote | de groepswinst group win · de\nkwartfinale quarter-final · de intocht\narrival · het verlanglijstje wish list.\nDE WEEK IN CIJ'

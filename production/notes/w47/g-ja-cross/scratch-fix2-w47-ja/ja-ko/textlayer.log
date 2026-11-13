@@ -1,0 +1,4 @@
+patched print: 21618 chars; patched web: 21618 chars; delivered web: 21618 chars
+print-vs-web multiset diff: +0 -0 IDENTICAL
+patched-vs-delivered multiset diff: +4 -4 {'은': 2, '정': 2}
+BYTE-IDENTICAL print-vs-web pdftotext (47947 vs 47947 bytes)

@@ -1,0 +1,12 @@
+md parsed: 150 keys 1..150 all present: True
+pdf parsed: 150 keys 1..150 all present: True
+common: 150; diffs: 0
+  Q134: md='O Grêmio empatou por 1 a 1.' | pdf='O Grêmio empatou por 1 a 1.'
+  Q140: md='Anote as suas respostas e confira quando sair o gabarito oficial.' | pdf='Anote as suas respostas e confira quando sair o gabarito oficial.'
+  Q150: md='✓ 范文见本版 H 区（88 词）' | pdf='✓ 范文见本版 H 区（88 词）'
+  Q44: md='O dia 20 de novembro é feriado nacional.' | pdf='O dia 20 de novembro é feriado nacional.'
+  Q45: md='Zumbi foi o líder de Palmares.' | pdf='Zumbi foi o líder de Palmares.'
+  Q46: md='Palmares foi o maior quilombo do Brasil.' | pdf='Palmares foi o maior quilombo do Brasil.'
+  Q120: md='B' | pdf='B'
+  Q125: md='A' | pdf='A'
+  Q30: md='A' | pdf='A'

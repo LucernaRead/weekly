@@ -1,0 +1,20 @@
+chars U+201C on P8:
+  Newsreader16pt-Regular 14.62pt bbox [501.53, 825.36, 507.98, 839.99]
+  Newsreader16pt-Regular 15.00pt bbox [450.52, 1373.47, 457.14, 1388.47]
+  Newsreader16pt-Regular 9.94pt bbox [456.08, 1906.11, 460.46, 1916.05]
+chars U+201E on P8 (openers, for pairing check):
+  Newsreader16pt-Regular 14.62pt bbox [622.68, 803.14, 629.13, 817.76]
+  NotoSansCJKsc-Regular 15.00pt bbox [290.37, 1367.1, 297.48, 1388.82]
+  NotoSansCJKsc-Regular 9.94pt bbox [598.53, 1890.16, 603.24, 1904.55]
+D1 (H-box): char bbox [450.52, 1373.47, 457.14, 1388.47] font Newsreader16pt-Regular 15.00pt
+  quote ink run px 2507..2519 (pt 451.26..453.42)
+  prev run ends px 2505 (pt 450.90); PRE-GAP 1px = 0.18pt = 0.012em
+  next run starts px 2523 (pt 454.14); POST-GAP 3px = 0.54pt = 0.036em
+D2 (key 67): char bbox [456.08, 1906.11, 460.46, 1916.05] font Newsreader16pt-Regular 9.94pt
+  quote ink run px 2547..2555 (pt 458.46..459.90)
+  prev run ends px 2544 (pt 457.92); PRE-GAP 2px = 0.36pt = 0.036em
+  next run starts px 2561 (pt 460.98); POST-GAP 5px = 0.90pt = 0.091em
+CTRL (P8 dialogue, Woche“): char bbox [501.53, 825.36, 507.98, 839.99] font Newsreader16pt-Regular 14.62pt
+  quote ink run px 2805..2817 (pt 504.90..507.06)
+  prev run ends px 2802 (pt 504.36); PRE-GAP 2px = 0.36pt = 0.025em
+  next run starts px 2825 (pt 508.50); POST-GAP 7px = 1.26pt = 0.086em

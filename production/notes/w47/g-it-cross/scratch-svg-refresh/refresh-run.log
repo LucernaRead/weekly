@@ -1,0 +1,94 @@
+DF BEFORE: used 99G  (stop line 100G)
+== ru-de ==
+  A print PDF Lucerna-VOL4-ru-de.pdf: MATCH 1920da86eb76 vs recorded 1920da86eb76
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1297 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-en ==
+  A print PDF Lucerna-VOL4-ru-en.pdf: MATCH e29ba5fae4a3 vs recorded e29ba5fae4a3
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1941 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-fr ==
+  A print PDF Lucerna-VOL4-ru-fr.pdf: MATCH c29251ebecb6 vs recorded c29251ebecb6
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1605 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-es ==
+  A print PDF Lucerna-VOL4-ru-es.pdf: MATCH deb7b08e1697 vs recorded deb7b08e1697
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1532 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== core-ru ==
+  A print PDF Lucerna-VOL4.pdf: MATCH c2fd743e16fe vs recorded c2fd743e16fe
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1817 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-it ==
+  A print PDF Lucerna-VOL4-ru-it.pdf: MATCH 12f897b2f27c vs recorded 12f897b2f27c
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1776 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-pt ==
+  A print PDF Lucerna-VOL4-ru-pt.pdf: MATCH 9057a1e3e3f4 vs recorded 9057a1e3e3f4
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1574 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-nl ==
+  A print PDF Lucerna-VOL4-ru-nl.pdf: MATCH 2bd4e0f2aa0f vs recorded 2bd4e0f2aa0f
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1385 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-ja ==
+  A print PDF Lucerna-VOL4-ru-ja.pdf: MATCH 38a6efb07df5 vs recorded 38a6efb07df5
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1917 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== ru-zh-tw ==
+  A print PDF Lucerna-VOL4-ru-zh-tw.pdf: MATCH dbd7a52a0f8e vs recorded dbd7a52a0f8e
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 1988 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== nl-ru ==
+  A print PDF De-Lucerna-VOL4-nl-ru.pdf: MATCH b9847bb26eac vs recorded b9847bb26eac
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 2596 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== pt-ru ==
+  A print PDF A-Lucerna-VOL4.pdf: MATCH a3b022bc3dd5 vs recorded a3b022bc3dd5
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 2735 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+== zh-cn-ru ==
+  A print PDF Lucerna-VOL4-RU.pdf: MATCH f1b2162dc919 vs recorded f1b2162dc919
+  B build1 8 files; production BEFORE matches build1 on 0/8 (expect 0: stale pre-_run_w)
+  D production AFTER matches build1: 8/8
+  mem available 2776 MB at start
+  E freeze baseline vs refreshed svg/: 8/8 (rc=0)
+  E freeze build-copy deleted
+DF AFTER: used 99G
+REFRESH DONE

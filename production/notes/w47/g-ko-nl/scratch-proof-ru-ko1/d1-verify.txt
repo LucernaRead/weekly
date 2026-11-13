@@ -1,0 +1,17 @@
+P2 node x=621.7 y=381.94 font=Noto Sans size=20.5 text='поздравить' codepoints=['U+043F', 'U+043E', 'U+0437', 'U+0434', 'U+0440', 'U+0430', 'U+0432', 'U+0438', 'U+0442', 'U+044C']
+P2 node x=739.9 y=381.94 font=Noto Sans CJK SC size=20.5 text=' ' codepoints=['U+0020']
+P2 node x=744.5 y=381.94 font=Noto Sans CJK SC size=20.5 text='축하하다 · ' codepoints=['U+CD95', 'U+D558', 'U+D558', 'U+B2E4', 'U+0020', 'U+00B7', 'U+0020']
+P2 node x=849.7 y=381.94 font=Noto Sans size=20.5 text='роди' codepoints=['U+0440', 'U+043E', 'U+0434', 'U+0438']
+P2 node x=899.8 y=381.94 font=Noto Sans CJK SC size=20.5 text='나' codepoints=['U+B098']
+content12.py 'роди나' ctx: 'а тёмные и короткие.")\nf.gloss("поздравить 축하하다 · роди나 고향 · повод 계기.")\nf.head("ЧТО ПОЖЕЛАТЬ?", 25)\nf.pa'
+content12.py 'роди' ctx: 'да Мороза. Праздник отмечают в Великом Устюге, на родине Деда Мороза. Там его дом, там почта Деда Мороза'
+content12.py 'роди' ctx: 'а тёмные и короткие.")\nf.gloss("поздравить 축하하다 · роди나 고향 · повод 계기.")\nf.head("ЧТО ПОЖЕЛАТЬ?", 25)\nf.p'
+content12.py: 'роди나'=1 '시노'=0
+content34.py: 'роди나'=0 '시노'=0
+content56.py: 'роди나'=0 '시노'=0
+content7.py: 'роди나'=0 '시노'=0
+content8.py: 'роди나'=0 '시노'=0
+text.md 'роди나' count: 1
+text.md 'родина' count: 1
+  text.md L99: > поздравить 축하하다 · роди나 고향 · повод 계기.
+P7 y=693 line nodes:

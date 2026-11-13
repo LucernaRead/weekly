@@ -1,0 +1,186 @@
+===== content12.py =====
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-es/backup-old/2026-w47-es-en/content12.py	2026-11-11 01:50:29.034101865 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-en/content12.py	2026-11-11 11:48:52.086480103 +0000
+@@ -38,8 +38,8 @@
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
+ f.para("La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre. El sábado 28 es la jornada de reflexión: un día de silencio, sin propaganda ni actos de campaña. El domingo 29, España vota en elecciones generales.")
+ f.para("El primer debate fue también el viernes 13: a las 21:30, en laSexta, cuatro portavoces hablaron de economía. Fue el único debate cerrado al cierre de esta edición.")
+-f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+-f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
++f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6).")
++f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+ f.para("Y esta semana la música manda: el lunes 16 es el Día Internacional del Flamenco, y el domingo 22, Santa Cecilia, la patrona de los músicos (página 3).")
+ f.para("El viernes 20 vuelve el fútbol de verdad: la jornada 13 de Liga, con el derbi Sevilla–Betis el sábado (página 4).")
+ f.bridge("Note | la campaña electoral = election campaign · el debate = debate · el cara a cara = face-to-face debate · el voto por correo = postal vote · la jornada de reflexión = reflection day.")
+@@ -53,8 +53,8 @@
+      "La campaña electoral empieza el viernes ___ de noviembre.", size=20.5)
+ f.ex("A2", "Sentence completion", "29", "The election is on Sunday 29 November",
+      "España vota en elecciones generales el domingo ___ de noviembre.", size=20.5)
+-f.ex("A2", "Sentence completion", "19", "Postal votes must be requested before the 19th",
+-     "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
++f.ex("A2", "Sentence completion", "19", "Postal votes must be requested by the 19th at the latest",
++     "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+ f.ex("A2", "Sentence completion", "16", "International Flamenco Day, Monday 16 November",
+      "El Día Internacional del Flamenco es el lunes ___ de noviembre.", size=20.5)
+ f.ex("B1", "Sentence completion", "20", "Matchday 13 kicks off on Friday 20 November",
+@@ -66,7 +66,7 @@
+ # ---- claves de la semana (col 3) ----
+ gx, gw = COLX[3], CW
+ gy = 588
+-p.rect(gx, gy, gw, 700, fill=BOX)
++p.rect(gx, gy, gw, 720, fill=BOX)
+ p.text(gx + 22, gy + 40, "CINCO", 27, "sans", True, OLIVE)
+ p.text(gx + 22, gy + 76, "CLAVES", 27, "sans", True, OLIVE)
+ p.text(gx + 22, gy + 106, "Five keys　Para entender la semana", 19, "sans", False, GREY)
+@@ -122,13 +122,13 @@
+ p.rect(ix, iy, iw, 320, fill=BOX)
+ illus_voto(p, ix + 240, iy + 30, s=1.7)
+ caption(p, ix, iy + 320, iw,
+-        "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate sin perderse. (Ilustración de la redacción, no una fotografía)",
++        "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate sin perderse. (Ilustración de la redacción, no una fotografía)",
+         "Ilustración: La Lucerna")
+ # col 2 mini feature
+ f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-otono")
+ f2.head("UNA SEMANA, TRES ESCENARIOS", 25)
+ f2.para("El lunes, el flamenco en la calle; el viernes, el fútbol en casa; y entre medias, la campaña en la tele. Esta semana España vive a la vez su música, su debate y su Liga.", 22.5)
+-f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
++f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+ f2.end_report()
+ # col 3 BREVES
+ bx = COLX[3]
+@@ -154,8 +154,8 @@
+       "Las elecciones generales son el... A. 16 de noviembre · B. 13 de noviembre · C. 29 de noviembre", size=21)
+ qf.ex("A2", "Multiple choice", "B", "The campaign lasts 15 days",
+       "La campaña electoral dura... A. una semana · B. 15 días · C. un mes", size=21)
+-qf.ex("A2", "Multiple choice", "A", "Postal votes must be requested before the 19th",
+-      "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
++qf.ex("A2", "Multiple choice", "A", "Postal votes must be requested by the 19th at the latest",
++      "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+ qf.ex("A2", "Multiple choice", "B", "International Flamenco Day, 16 November",
+       "El Día Internacional del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20", size=21)
+ qf.end_report()
+@@ -172,8 +172,8 @@
+ f.title("La semana, día a día: del lunes 16 al domingo 22", 32)
+ f.byline("De la redacción de La Lucerna　Nivel de lectura: A2")
+ f.para("El lunes 16 de noviembre empieza la primera semana entera de campaña: los partidos recorren España, la tele prepara los debates y los votantes escuchan los programas.")
+-f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un cara a cara entre Sánchez y Feijóo: a 10 de noviembre, el PSOE no lo había confirmado.")
+-f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
++f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un cara a cara entre Sánchez y Feijóo: los dos partidos aceptan la cita, pero no hay hora publicada.")
++f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+ f.para("Y el viernes 20 vuelve el fútbol: la jornada 13 de Liga abre con el Athletic–Espanyol a las 21:00. El sábado, el derbi Sevilla–Betis; el domingo, el Barça–Villarreal y Santa Cecilia, la patrona de los músicos (página 4).")
+ f.box("EL CALENDARIO　This week", [
+     ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo (Monday: International Flamenco Day; the PP proposes the Sánchez–Feijóo face-off)", "serif", False, INK, 21, 1.36),
+@@ -252,7 +252,7 @@
+ e.ex("A2", "Sentence completion", "16", "Monday 16 November",
+      "El Día del Flamenco es el lunes ___ de noviembre.", instr="Fill in", size=20, gap=8)
+ e.ex("A2", "Sentence completion", "19", "Thursday 19 November",
+-     "El voto por correo se pide antes del jueves ___ de noviembre.", instr="Fill in", size=20, gap=8)
++     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Fill in", size=20, gap=8)
+ e.ex("A2", "Sentence completion", "29", "The election is on 29 November",
+      "Las elecciones generales son el ___ de noviembre.", instr="Fill in", size=20, gap=8)
+ e.ex("A2", "Sentence completion", "22", "Sunday 22 November",
+@@ -275,7 +275,7 @@
+ e.bridge("Read the article and choose the answer.")
+ e.ex("A2", "Multiple choice", "B", "International Flamenco Day, Monday 16 November",
+      "El Día del Flamenco es... A. el domingo 22 · B. el lunes 16 · C. el viernes 20", size=20, gap=8)
+-e.ex("A2", "Multiple choice", "A", "Postal votes must be requested before the 19th",
++e.ex("A2", "Multiple choice", "A", "Postal votes must be requested by the 19th at the latest",
+      "El voto por correo se pide hasta... A. el jueves 19 · B. el lunes 16 · C. el domingo 29", size=20, gap=8)
+ e.ex("A2", "Multiple choice", "C", "The League is back on Friday 20 November",
+      "La Liga vuelve el... A. lunes 16 · B. jueves 19 · C. viernes 20", size=20, gap=8)
+===== content56.py =====
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-es/backup-old/2026-w47-es-en/content56.py	2026-11-11 01:59:18.947088321 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-en/content56.py	2026-11-11 11:48:52.159546708 +0000
+@@ -64,7 +64,7 @@
+ e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
+ e.head("A　COMPRENSIÓN", 25)
+ e.bridge("Read the page 5 article and choose the correct answer.")
+-e.ex("B1", "Multiple choice", "B", "Postal votes must be requested before the 19th",
++e.ex("B1", "Multiple choice", "B", "Postal votes must be requested by the 19th at the latest",
+      "El voto por correo se pide hasta... A. el lunes 9 · B. el jueves 19 · C. el domingo 29", size=20, gap=8)
+ e.ex("B1", "Multiple choice", "A", "The papers are sent out from 9 November",
+      "La documentación del voto por correo llega desde... A. el lunes 9 · B. el viernes 13 · C. el sábado 28", size=20, gap=8)
+@@ -121,7 +121,7 @@
+ f.byline("De la redacción de La Lucerna　Nivel de lectura: B2　La política nacional española")
+ f.para("En campaña, no todo lo que se anuncia está cerrado.")
+ f.para("Al cierre de esta edición, el 10 de noviembre, solo hay un debate cerrado: el de portavoces de laSexta, el viernes 13 a las 21:30, con Ana Pastor. Van Carlos Cuerpo (PSOE), Juan Bravo (PP), Pablo Bustinduy (Frente Amplio) y José María Figaredo (Vox), a hablar de economía, con público en el plató.")
+-f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca su propio debate a cuatro para el lunes 23, sin el PSOE confirmado. Un debate «propuesto» no es un debate «cerrado»: la primera lección de esta página es leer el verbo.")
++f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26; el lunes 9, PSOE y PP acuerdan que la Academia de Televisión organice los dos debates, pero las fechas, las horas y los participantes siguen sin cerrarse. Atresmedia convoca su propio debate a cuatro para el lunes 23, sin el PSOE confirmado. RTVE propone un debate a ocho, con los portavoces de los ocho grupos, para el lunes 23. Un debate «propuesto» no es un debate «cerrado»: la primera lección de esta página es leer el verbo.")
+ f.para("Una encuesta es una foto con margen de error, tomada en un día concreto.")
+ f.para("Y ojo con el calendario: del martes 24 al sábado 28 no se pueden publicar encuestas, y el sábado 28 es la jornada de reflexión. Hay poco tiempo de campaña y poco tiempo de silencio: el domingo 29, la única encuesta que no admite error: la votación, con papeletas de verdad.")
+ f.para("Leer un debate es fácil si preguntas tres cosas: ¿quién habla, de qué tema y con qué datos? El que promete sin datos promete humo.")
+@@ -135,8 +135,9 @@
+     "18 NOV. — Debate sobre vivienda en la Cadena SER (Rodríguez–Bravo).",
+     "19 NOV. — Termina el plazo para pedir el voto por correo.",
+     "23 NOV. — Atresmedia convoca un debate a cuatro (sin el PSOE).",
++    "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+     "24–28 NOV. — Prohibido publicar encuestas.",
+-    "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
++    "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+     "27 NOV. — Termina la campaña; el 28, jornada de reflexión.",
+     "29 NOV. — España vota, de 9:00 a 20:00.",
+ ]
+@@ -174,7 +175,7 @@
+     p.rect(bx1 + 430, yy + 6, v * 6.4, 22, fill=OLIVE)
+     p.text(bx1 + 448 + v * 6.4, yy + 24, f"{v} min", 20.5, "serif", False, INK)
+     yy += 31
+-p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", False, GREY, bw_ - 44, 1.3)
++p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", False, GREY, bw_ - 44, 1.3)
+ # right column: the poll ban
+ rx = COLX[2]
+ p.rect(rx, gy + 28, 2 * CW + GUT, bhh, fill="#f0eee5")
+===== content7.py =====
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-es/backup-old/2026-w47-es-en/content7.py	2026-11-11 01:37:24.171121925 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-en/content7.py	2026-11-11 11:48:52.168480103 +0000
+@@ -96,7 +96,7 @@
+ yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+ p.para(bx + 22, yy3 + 20, "debate = debate: a public discussion, taking turns; the election is on the 29th.", 20, "sans", False, GREY, CW - 44, 1.42)
+ ly = wy + wh + 16
+-lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
++lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ ld = "Nota de la redacción: sin cartas reales ni mejores textos al cierre, publicamos este ejemplo; la promesa pasa al VOL.5."
+ ldcn = "Editor's note: no real letters had arrived by press time. This issue prints a sample letter; the promise moves to VOL.5."
+ lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 20, CW - 44)) * 29 + 42
+===== content8.py =====
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-es/backup-old/2026-w47-es-en/content8.py	2026-11-11 01:37:05.171122411 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-en/content8.py	2026-11-11 11:48:52.179147796 +0000
+@@ -20,8 +20,8 @@
+      "La campaña ___ el viernes 13. (A. termina · B. empieza)", size=15.5, gap=1)
+ f.ex("B1", "Cloze choice", "A", "The laSexta debate at 21:30",
+      "El debate de laSexta fue a las ___. (A. 21:30 · B. 9:00)", size=15.5, gap=1)
+-f.ex("B1", "Cloze choice", "A", "el voto por correo se pide antes del jueves 19",
+-     "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
++f.ex("B1", "Cloze choice", "A", "el voto por correo se pide hasta el jueves 19",
++     "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+ f.ex("B1", "Cloze choice", "A", "la Liga vuelve = the League is back",
+      "La Liga ___ el viernes 20. (A. vuelve · B. para)", size=15.5, gap=1)
+ f.ex("B1", "Cloze choice", "B", "The Seville derby is on Saturday",
+@@ -35,7 +35,7 @@
+      "La campaña electoral empieza el... A. viernes 13 · B. lunes 16 · C. domingo 29", size=15.5, gap=1)
+ f.ex("A2", "Multiple choice", "B", "International Flamenco Day, 16 November",
+      "El Día del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20", size=15.5, gap=1)
+-f.ex("A2", "Multiple choice", "A", "Postal votes must be requested before the 19th",
++f.ex("A2", "Multiple choice", "A", "Postal votes must be requested by the 19th at the latest",
+      "El voto por correo se pide hasta... A. jueves 19 · B. viernes 20 · C. sábado 28", size=15.5, gap=1)
+ f.ex("B1", "Multiple choice", "C", "The Seville derby, Saturday 18:30",
+      "El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30", size=15.5, gap=1)
+@@ -71,8 +71,8 @@
+      "El lunes es el Día del Flamenco. → ___", instr="Translate", size=15.5, gap=1)
+ f.ex("A2", "Translation", "On Saturday we watch the Seville derby.", "Compare with the original.",
+      "El sábado vemos el derbi Sevilla–Betis. → ___", instr="Translate", size=15.5, gap=1)
+-f.ex("B1", "Translation", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+-     "The postal vote must be requested before Thursday 19. → ___", instr="Translate", size=15.5, gap=1)
++f.ex("B1", "Translation", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
++     "The postal vote must be requested by Thursday 19 at the latest. → ___", instr="Translate", size=15.5, gap=1)
+ f.ex("B2", "Translation", "Cada promesa tiene que llevar datos.", "tener que = must",
+      "Every promise must be backed by data. → ___", instr="Translate", size=15.5, gap=1)
+ f.head("F　LAS PALABRAS DEL 29N", 22, OLIVE, 5)
+@@ -101,7 +101,7 @@
+ f.ex("B1", "Writing", "(open question — the model text follows)", "See the model text in section H on this page (97 words)",
+      "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="Write", size=15.5, gap=1)
+ MODELO = ("Vivo en Madrid, y el lunes 16 escucho flamenco en la calle: cante, toque y baile, la música de la semana. "
+-          "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
++          "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+           "El viernes 20 vuelve la Liga, y el sábado veo el derbi Sevilla–Betis con mi familia. "
+           "El domingo 22 escucho a la banda de Santa Cecilia. "
+           "Mis amigos de Barcelona no tienen duende en su barrio: el lunes trabajan. Yo, en cambio, leo los programas con calma y preparo mi voto. "

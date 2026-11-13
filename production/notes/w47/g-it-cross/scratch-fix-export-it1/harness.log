@@ -1,0 +1,366 @@
+== Phase 1: fan-out table pass (all 10 langs, core-it sources) ==
+  en: 翻译 replaced=4 labels=[('A2', 'Translate'), ('B1', 'Translate'), ('B1', 'Translate'), ('B2', 'Translate')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE en: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Translate", "For Madonna della Salute, people cross the votive bridge.", "Compare with the original",
+---
+> f.ex("A2", "翻译", "For Madonna della Salute, people cross the votive bridge.", "Compare with the original",
+71c71
+< f.ex("B1", "Translate", "On Sunday evening, Atalanta play Inter.", "si gioca = is played",
+---
+> f.ex("B1", "翻译", "On Sunday evening, Atalanta play Inter.", "si gioca = is played",
+73c73
+< f.ex("B1", "Translate", "On Saturday, Lazio play Lecce at home.", "in casa = at home",
+---
+> f.ex("B1", "翻译", "On Saturday, Lazio play Lecce at home.", "in casa = at home",
+75c75
+< f.ex("B2", "Translate", "Ogni cifra deve essere chiara.", "dovere = must",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = must",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  de: 翻译 replaced=4 labels=[('A2', 'Übersetzen'), ('B1', 'Übersetzen'), ('B1', 'Übersetzen'), ('B2', 'Übersetzen')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE de: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Übersetzen", "Zur Madonna della Salute überqueren die Menschen die Votivbrücke.", "Vergleiche mit dem Original",
+---
+> f.ex("A2", "翻译", "Zur Madonna della Salute überqueren die Menschen die Votivbrücke.", "Vergleiche mit dem Original",
+71c71
+< f.ex("B1", "Übersetzen", "Am Sonntagabend spielt Atalanta gegen Inter.", "wird gespielt",
+---
+> f.ex("B1", "翻译", "Am Sonntagabend spielt Atalanta gegen Inter.", "wird gespielt",
+73c73
+< f.ex("B1", "Übersetzen", "Am Samstag spielt Lazio zu Hause gegen Lecce.", "zu Hause",
+---
+> f.ex("B1", "翻译", "Am Samstag spielt Lazio zu Hause gegen Lecce.", "zu Hause",
+75c75
+< f.ex("B2", "Übersetzen", "Ogni cifra deve essere chiara.", "dovere = müssen",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = müssen",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  fr: 翻译 replaced=4 labels=[('A2', 'Traduire'), ('B1', 'Traduire'), ('B1', 'Traduire'), ('B2', 'Traduire')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE fr: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Traduire", "Pour la Madonna della Salute, on traverse le pont votif.", "Compare avec l'original",
+---
+> f.ex("A2", "翻译", "Pour la Madonna della Salute, on traverse le pont votif.", "Compare avec l'original",
+71c71
+< f.ex("B1", "Traduire", "Dimanche soir, l'Atalanta joue contre l'Inter.", "si gioca = se joue",
+---
+> f.ex("B1", "翻译", "Dimanche soir, l'Atalanta joue contre l'Inter.", "si gioca = se joue",
+73c73
+< f.ex("B1", "Traduire", "Samedi, la Lazio joue à domicile contre Lecce.", "in casa = à domicile",
+---
+> f.ex("B1", "翻译", "Samedi, la Lazio joue à domicile contre Lecce.", "in casa = à domicile",
+75c75
+< f.ex("B2", "Traduire", "Ogni cifra deve essere chiara.", "dovere = devoir",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = devoir",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  es: 翻译 replaced=4 labels=[('A2', 'Traducir'), ('B1', 'Traducir'), ('B1', 'Traducir'), ('B2', 'Traducir')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE es: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Traducir", "Para la Madonna della Salute, la gente cruza el puente votivo.", "Compara con el original",
+---
+> f.ex("A2", "翻译", "Para la Madonna della Salute, la gente cruza el puente votivo.", "Compara con el original",
+71c71
+< f.ex("B1", "Traducir", "El domingo por la noche, el Atalanta juega contra el Inter.", "si gioca = se juega",
+---
+> f.ex("B1", "翻译", "El domingo por la noche, el Atalanta juega contra el Inter.", "si gioca = se juega",
+73c73
+< f.ex("B1", "Traducir", "El sábado, la Lazio juega en casa contra el Lecce.", "in casa = en casa",
+---
+> f.ex("B1", "翻译", "El sábado, la Lazio juega en casa contra el Lecce.", "in casa = en casa",
+75c75
+< f.ex("B2", "Traducir", "Ogni cifra deve essere chiara.", "dovere = deber",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = deber",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  pt: 翻译 replaced=4 labels=[('A2', 'Traduzir'), ('B1', 'Traduzir'), ('B1', 'Traduzir'), ('B2', 'Traduzir')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE pt: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Traduzir", "Para a Madonna della Salute, as pessoas atravessam a ponte votiva.", "Compara com o original",
+---
+> f.ex("A2", "翻译", "Para a Madonna della Salute, as pessoas atravessam a ponte votiva.", "Compara com o original",
+71c71
+< f.ex("B1", "Traduzir", "No domingo à noite, a Atalanta joga contra o Inter.", "si gioca = joga-se",
+---
+> f.ex("B1", "翻译", "No domingo à noite, a Atalanta joga contra o Inter.", "si gioca = joga-se",
+73c73
+< f.ex("B1", "Traduzir", "No sábado, a Lazio joga em casa contra o Lecce.", "in casa = em casa",
+---
+> f.ex("B1", "翻译", "No sábado, a Lazio joga em casa contra o Lecce.", "in casa = em casa",
+75c75
+< f.ex("B2", "Traduzir", "Ogni cifra deve essere chiara.", "dovere = dever",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = dever",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  nl: 翻译 replaced=4 labels=[('A2', 'Vertalen'), ('B1', 'Vertalen'), ('B1', 'Vertalen'), ('B2', 'Vertalen')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE nl: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Vertalen", "Voor de Madonna della Salute steken mensen de geloftebrug over.", "Vergelijk met het origineel",
+---
+> f.ex("A2", "翻译", "Voor de Madonna della Salute steken mensen de geloftebrug over.", "Vergelijk met het origineel",
+71c71
+< f.ex("B1", "Vertalen", "Zondagavond speelt Atalanta tegen Inter.", "si gioca = wordt gespeeld",
+---
+> f.ex("B1", "翻译", "Zondagavond speelt Atalanta tegen Inter.", "si gioca = wordt gespeeld",
+73c73
+< f.ex("B1", "Vertalen", "Zaterdag speelt Lazio thuis tegen Lecce.", "in casa = thuis",
+---
+> f.ex("B1", "翻译", "Zaterdag speelt Lazio thuis tegen Lecce.", "in casa = thuis",
+75c75
+< f.ex("B2", "Vertalen", "Ogni cifra deve essere chiara.", "dovere = moeten",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = moeten",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  ru: 翻译 replaced=4 labels=[('A2', 'Переведите'), ('B1', 'Переведите'), ('B1', 'Переведите'), ('B2', 'Переведите')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE ru: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "Переведите", "В праздник Мадонны делла Салюте люди переходят обетный мост.", "Сравните с оригиналом",
+---
+> f.ex("A2", "翻译", "В праздник Мадонны делла Салюте люди переходят обетный мост.", "Сравните с оригиналом",
+71c71
+< f.ex("B1", "Переведите", "В воскресенье вечером «Аталанта» играет с «Интером».", "si gioca = играется",
+---
+> f.ex("B1", "翻译", "В воскресенье вечером «Аталанта» играет с «Интером».", "si gioca = играется",
+73c73
+< f.ex("B1", "Переведите", "В субботу «Лацио» играет дома с «Лечче».", "in casa = дома",
+---
+> f.ex("B1", "翻译", "В субботу «Лацио» играет дома с «Лечче».", "in casa = дома",
+75c75
+< f.ex("B2", "Переведите", "Ogni cifra deve essere chiara.", "dovere = должен",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = должен",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  ja: 翻译 replaced=4 labels=[('A2', '翻訳'), ('B1', '翻訳'), ('B1', '翻訳'), ('B2', '翻訳')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE ja: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "翻訳", "聖母健康祭では、人々は奉納の橋を渡ります。", "原文と比べなさい",
+---
+> f.ex("A2", "翻译", "聖母健康祭では、人々は奉納の橋を渡ります。", "原文と比べなさい",
+71c71
+< f.ex("B1", "翻訳", "日曜の夜、アタランタがインテルと対戦します。", "si gioca = 試合がある",
+---
+> f.ex("B1", "翻译", "日曜の夜、アタランタがインテルと対戦します。", "si gioca = 試合がある",
+73c73
+< f.ex("B1", "翻訳", "土曜、ラツィオはホームでレッチェと対戦します。", "in casa = ホームで",
+---
+> f.ex("B1", "翻译", "土曜、ラツィオはホームでレッチェと対戦します。", "in casa = ホームで",
+75c75
+< f.ex("B2", "翻訳", "Ogni cifra deve essere chiara.", "dovere = ～しなければならない",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = ～しなければならない",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  ko: 翻译 replaced=4 labels=[('A2', '번역하기'), ('B1', '번역하기'), ('B1', '번역하기'), ('B2', '번역하기')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE ko: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "번역하기", "성모 건강 축일에는 사람들이 서원의 다리를 건넌다.", "원문과 비교하세요",
+---
+> f.ex("A2", "翻译", "성모 건강 축일에는 사람들이 서원의 다리를 건넌다.", "원문과 비교하세요",
+71c71
+< f.ex("B1", "번역하기", "일요일 저녁, 아탈란타가 인터와 경기한다.", "si gioca = 경기가 있다",
+---
+> f.ex("B1", "翻译", "일요일 저녁, 아탈란타가 인터와 경기한다.", "si gioca = 경기가 있다",
+73c73
+< f.ex("B1", "번역하기", "토요일, 라치오는 홈에서 레체와 경기한다.", "in casa = 홈에서",
+---
+> f.ex("B1", "翻译", "토요일, 라치오는 홈에서 레체와 경기한다.", "in casa = 홈에서",
+75c75
+< f.ex("B2", "번역하기", "Ogni cifra deve essere chiara.", "dovere = ~해야 한다",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = ~해야 한다",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+  zh-tw: 翻译 replaced=4 labels=[('A2', '翻譯'), ('B1', '翻譯'), ('B1', '翻譯'), ('B2', '翻譯')] labels_ok=True content8-vs-committed diff-lines=14 type-lines-as-expected=True
+  NOTE zh-tw: 6 extra diff lines = pre-existing post-fan-out drift
+  DIFF:
+69c69
+< f.ex("A2", "翻譯", "聖母健康節人們走過還願橋。", "對照原文",
+---
+> f.ex("A2", "翻译", "聖母健康節人們走過還願橋。", "對照原文",
+71c71
+< f.ex("B1", "翻譯", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
+---
+> f.ex("B1", "翻译", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
+73c73
+< f.ex("B1", "翻譯", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
+---
+> f.ex("B1", "翻译", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
+75c75
+< f.ex("B2", "翻譯", "Ogni cifra deve essere chiara.", "dovere = 必須",
+---
+> f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = 必須",
+80,82c80,82
+<             ["un livello di reddito del sistema fiscale",
+<              "i soldi che pagano una misura",
+<              "la differenza tra spese ed entrate",
+---
+>             ["la parte del sistema fiscale, un livello di reddito",
+>              "i soldi che pagano una misura, la sua fonte",
+>              "la differenza tra spese ed entrate, in rosso",
+
+Phase 1 PASS: all 10 langs, 4/4 labels localized, count assertions green,
+zero residual CJK / zero residual table keys. (Extra content8.py diff lines
+vs committed editions are pre-existing post-fan-out proof patches in the
+edition sources, identical in all 10 editions, unrelated to this fix.)
+== Phase 2: re-export .text.md from COMMITTED edition sources (es, de, ru) ==
+Control = committed sources untouched (type still '翻译').
+Fixed   = committed sources + only the 4 type-label replacements the
+fixed table pass would make on these sources (verified: '翻译' occurs
+exactly 4x, only in content8.py, only as the E-section type arg).
+  es/control: bytes=56259 diff-vs-committed text.md lines=8
+    969c969
+    < 137. [A2 · 翻译] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Para la Madonna della Salute, la gente cruza el puente votivo. (Compara con el original) [Traducir al español]
+    ---
+    > 137. [A2 · Traducir] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Para la Madonna della Salute, la gente cruza el puente votivo. (Compara con el original) [Traducir al español]
+    971c971
+    < 138. [B1 · 翻译] Domenica sera si gioca Atalanta–Inter. → ___ — key: El domingo por la noche, el Atalanta juega contra el Inter. (si gioca = se juega) [Traducir al español]
+    ---
+    > 138. [B1 · Traducir] Domenica sera si gioca Atalanta–Inter. → ___ — key: El domingo por la noche, el Atalanta juega contra el Inter. (si gioca = se juega) [Traducir al español]
+    973c973
+    < 139. [B1 · 翻译] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: El sábado, la Lazio juega en casa contra el Lecce. (in casa = en casa) [Traducir al español]
+    ---
+    > 139. [B1 · Traducir] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: El sábado, la Lazio juega en casa contra el Lecce. (in casa = en casa) [Traducir al español]
+    975c975
+    < 140. [B2 · 翻译] Cada cifra debe ser clara. → ___ — key: Ogni cifra deve essere chiara. (dovere = deber) [Traducir al italiano]
+    ---
+    > 140. [B2 · Traducir] Cada cifra debe ser clara. → ___ — key: Ogni cifra deve essere chiara. (dovere = deber) [Traducir al italiano]
+  es/fixed: bytes=56267 diff-vs-committed text.md lines=0
+  es: control diff = exactly 4 E-label lines; fixed = BYTE-IDENTICAL to fix1 text.md
+  es: fixed re-export vs pre-fix1 .prefixed: diff lines=8
+    969c969
+    < 137. [A2 · Traducir] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Para la Madonna della Salute, la gente cruza el puente votivo. (Compara con el original) [Traducir al español]
+    ---
+    > 137. [A2 · 翻译] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Para la Madonna della Salute, la gente cruza el puente votivo. (Compara con el original) [Traducir al español]
+    971c971
+    < 138. [B1 · Traducir] Domenica sera si gioca Atalanta–Inter. → ___ — key: El domingo por la noche, el Atalanta juega contra el Inter. (si gioca = se juega) [Traducir al español]
+    ---
+    > 138. [B1 · 翻译] Domenica sera si gioca Atalanta–Inter. → ___ — key: El domingo por la noche, el Atalanta juega contra el Inter. (si gioca = se juega) [Traducir al español]
+    973c973
+    < 139. [B1 · Traducir] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: El sábado, la Lazio juega en casa contra el Lecce. (in casa = en casa) [Traducir al español]
+    ---
+    > 139. [B1 · 翻译] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: El sábado, la Lazio juega en casa contra el Lecce. (in casa = en casa) [Traducir al español]
+    975c975
+    < 140. [B2 · Traducir] Cada cifra debe ser clara. → ___ — key: Ogni cifra deve essere chiara. (dovere = deber) [Traducir al italiano]
+    ---
+    > 140. [B2 · 翻译] Cada cifra debe ser clara. → ___ — key: Ogni cifra deve essere chiara. (dovere = deber) [Traducir al italiano]
+  es: fixed re-export vs pre-fix1 text.md = exactly the 4 E-label lines
+  de/control: bytes=56734 diff-vs-committed text.md lines=0
+  de/fixed: bytes=56754 diff-vs-committed text.md lines=8
+    969c969
+    < 137. [A2 · Übersetzen] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Zur Madonna della Salute überqueren die Menschen die Votivbrücke. (Vergleiche mit dem Original) [Ins Deutsche übersetzen]
+    ---
+    > 137. [A2 · 翻译] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: Zur Madonna della Salute überqueren die Menschen die Votivbrücke. (Vergleiche mit dem Original) [Ins Deutsche übersetzen]
+    971c971
+    < 138. [B1 · Übersetzen] Domenica sera si gioca Atalanta–Inter. → ___ — key: Am Sonntagabend spielt Atalanta gegen Inter. (wird gespielt) [Ins Deutsche übersetzen]
+    ---
+    > 138. [B1 · 翻译] Domenica sera si gioca Atalanta–Inter. → ___ — key: Am Sonntagabend spielt Atalanta gegen Inter. (wird gespielt) [Ins Deutsche übersetzen]
+    973c973
+    < 139. [B1 · Übersetzen] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: Am Samstag spielt Lazio zu Hause gegen Lecce. (zu Hause) [Ins Deutsche übersetzen]
+    ---
+    > 139. [B1 · 翻译] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: Am Samstag spielt Lazio zu Hause gegen Lecce. (zu Hause) [Ins Deutsche übersetzen]
+    975c975
+    < 140. [B2 · Übersetzen] Jede Zahl muss klar sein. → ___ — key: Ogni cifra deve essere chiara. (dovere = müssen) [Ins Italienische übersetzen]
+    ---
+    > 140. [B2 · 翻译] Jede Zahl muss klar sein. → ___ — key: Ogni cifra deve essere chiara. (dovere = müssen) [Ins Italienische übersetzen]
+  de: control = BYTE-IDENTICAL (sources in sync); fixed = exactly 4 lines differ (969/971/973/975)
+  ru/control: bytes=67722 diff-vs-committed text.md lines=0
+  ru/fixed: bytes=67778 diff-vs-committed text.md lines=8
+    969c969
+    < 137. [A2 · Переведите] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: В праздник Мадонны делла Салюте люди переходят обетный мост. (Сравните с оригиналом) [Переведите на русский]
+    ---
+    > 137. [A2 · 翻译] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: В праздник Мадонны делла Салюте люди переходят обетный мост. (Сравните с оригиналом) [Переведите на русский]
+    971c971
+    < 138. [B1 · Переведите] Domenica sera si gioca Atalanta–Inter. → ___ — key: В воскресенье вечером «Аталанта» играет с «Интером». (si gioca = играется) [Переведите на русский]
+    ---
+    > 138. [B1 · 翻译] Domenica sera si gioca Atalanta–Inter. → ___ — key: В воскресенье вечером «Аталанта» играет с «Интером». (si gioca = играется) [Переведите на русский]
+    973c973
+    < 139. [B1 · Переведите] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: В субботу «Лацио» играет дома с «Лечче». (in casa = дома) [Переведите на русский]
+    ---
+    > 139. [B1 · 翻译] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: В субботу «Лацио» играет дома с «Лечче». (in casa = дома) [Переведите на русский]
+    975c975
+    < 140. [B2 · Переведите] Каждая цифра должна быть понятной. → ___ — key: Ogni cifra deve essere chiara. (dovere = должен) [Переведите на итальянский]
+    ---
+    > 140. [B2 · 翻译] Каждая цифра должна быть понятной. → ___ — key: Ogni cifra deve essere chiara. (dovere = должен) [Переведите на итальянский]
+  ru: control = BYTE-IDENTICAL (sources in sync); fixed = exactly 4 lines differ (969/971/973/975)
+Phase 2 PASS

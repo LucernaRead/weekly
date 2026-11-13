@@ -1,0 +1,7 @@
+paper fills #fbfaf6 full-page: 8 (expect 8)
+VOL.5 count: 5 (expect 5 = core)
+VOL. 4 (with space) count: 0 (expect 0)
+fills: {'#fbfaf6': 8, '#46581f': 348, '#6f675d': 265, '#302c28': 935, '#4F765D': 1, '#84A283': 1, '#F1E8D4': 4, '#4D72B4': 2, '#7898CD': 2, '#D7B257': 1, '#EDD17F': 1, '#34483A': 3, '#37402f': 37, '#f4efe1': 16, '#cac8ba': 3, '#f6e08e': 9, '#f0eee5': 26, '#5c6e30': 43, '#ffffff': 144}
+fonts: {'Noto Sans CJK SC': 646, 'UnifrakturMaguntia': 1, 'Newsreader': 971, 'Noto Serif CJK SC': 25}
+stroked rects: 0
+core VOL.5 count: 5

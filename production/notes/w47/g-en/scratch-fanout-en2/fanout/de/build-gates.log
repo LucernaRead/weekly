@@ -1,0 +1,194 @@
+===== build de (ED=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de) =====
+== run.py ==
+run RC=0
+0
+  flow[P1-headline] ended col 2/2 y=1723 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+  flow[P2-feature] ended col 2/2 y=1467 (bottom 1540)
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1619 (bottom 2560)
+  flow[P4-main] ended col 2/2 y=2074 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+  flow[P5-main] ended col 2/2 y=597 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+  flow[P6-main] ended col 2/2 y=2016 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1256 (bottom 2560)
+  flow[P7-main] ended col 2/2 y=1786 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2391 (bottom 2560)
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2290 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+== render.py ==
+render RC=0
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/cards/p8-test.png 1248039
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.pdf 29331212
+== dump_reg ==
+dump_reg RC=0
+  flow[P1-headline] ended col 2/2 y=1723 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=1467 (bottom 1540)
+P2 col3 ends 1544.8999999999999
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+P2 saved, exercises so far: 27
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1619 (bottom 2560)
+P3 saved, exercises so far: 45
+  flow[P4-main] ended col 2/2 y=2074 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+P4 saved, exercises so far: 63
+  flow[P5-main] ended col 2/2 y=597 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+P5 saved, exercises so far: 81
+  flow[P6-main] ended col 2/2 y=2016 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1256 (bottom 2560)
+P6 saved, exercises so far: 99
+  flow[P7-main] ended col 2/2 y=1786 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2391 (bottom 2560)
+P7 saved, exercises so far: 111
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2290 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+registry: 150
+by page: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+by level: {'A2': 62, 'B1': 66, 'B2': 22}
+by type: {'Satzergänzung': 34, 'Multiple Choice': 41, 'Umformung': 16, 'Zuordnung': 20, 'Diagrammlesen': 6, 'Goldene Sätze': 1, 'Vergleiche': 1, 'Vergangenheit': 2, 'Zukunft': 1, 'Zeitformen': 1, 'Nebensätze': 1, 'Fehlerkorrektur': 4, 'Lückentext': 8, 'Leseverstehen': 4, 'Übersetzung': 4, 'Dialogergänzung': 5, 'Schreiben': 1}
+registry total 150
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/svg: 0 flags 
+== p8 extract (core + ed) ==
+core extract RC=0
+ed extract RC=0
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+== keycheck (registry vs p8 extract; registry keys vs core) ==
+keycheck RC=0
+registry-vs-p8extract exact 149/150 exc=[150] mismatch=[]
+registry-keys-vs-core: 145/150 match; diff=[(137, 'Die Demokraten haben das Repräsentantenhaus und den Senat gewonnen.', '民主党赢下了众议院和参议院。'), (138, 'Die Auszählung geht weiter.', '计票仍在继续。'), (139, 'Der neue Kongress tagt ab Januar 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Brich das Schweigen.', '打破沉默。'), (150, 'Offene Aufgabe — Stichpunkte im Schreibkasten; Mustertext im Kasten auf Seite 8', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125 key: A expect A; Q46 key: A expect A; Q52: hosted expect hosted; Q55: won expect won
+Q82/83/84 keys: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none
+== freeze baseline ==
+freeze baseline RC=0
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-front.svg core b2be6b6ec3976a8d produced b2be6b6ec3976a8d
+  OK  p2-life.svg core 66f3fd31b48b34a5 produced 66f3fd31b48b34a5
+  OK  p3-culture.svg core 3679e16b396bd69c produced 3679e16b396bd69c
+  OK  p4-sport.svg core 8fb26bf7c3cf75cf produced 8fb26bf7c3cf75cf
+  OK  p5-youth.svg core 25045251378009ab produced 25045251378009ab
+  OK  p6-deep.svg core 074ed84857a0acf2 produced 074ed84857a0acf2
+  OK  p7-lang.svg core a78d6cb197fd87e2 produced a78d6cb197fd87e2
+  OK  p8-test.svg core 6b69156023d24b46 produced 6b69156023d24b46
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze diff ==
+freeze diff RC=0
+p1: +32 strings / -34 strings; CJK core 202 -> edition 22; added CJK chars: 2 {'\u3000': 2}
+p2: +42 strings / -54 strings; CJK core 278 -> edition 18; added CJK chars: 1 {'\u3000': 1}
+p3: +25 strings / -23 strings; CJK core 146 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +24 strings / -22 strings; CJK core 143 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p5: +24 strings / -22 strings; CJK core 132 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +25 strings / -21 strings; CJK core 159 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p7: +64 strings / -55 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+p8: +99 strings / -99 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9
+== webpdf ==
+== webpdf (resumed) ==
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 25944 bytes
+  font LucernaUnifrakturMaguntia-Regular: 33100 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.web.pdf: 2414462 bytes, 48641 text bytes
+== print/web text diff ==
+printweb RC=0
+print chars 47406 web chars 47406
+token multiset diff total: 0
+only in print: []
+only in web: []
+page 1: identical=True print=4783B web=4783B
+page 2: identical=True print=5783B web=5783B
+page 3: identical=True print=5277B web=5277B
+page 4: identical=True print=5731B web=5731B
+page 5: identical=True print=4657B web=4657B
+page 6: identical=True print=5592B web=5592B
+page 7: identical=True print=6081B web=6081B
+page 8: identical=True print=9502B web=9502B
+== text.md ==
+textmd RC=0
+recorded blocks: 498
+stub registry total: 150
+real registry total: 150
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/2026-w47-en-de.text.md 52568
+== check_s11 ==
+check_s11 RC=0
+P8 Q113-120 options line with [A2] tag present
+P8 'Levels: 145-149 [A2]' present
+P8 Q120 [A2] chip OK
+P8 WRITING head present: ['H\u3000WRITING\u3000Schreiben [B1]']
+ALL §1.1/P8 CHECKS PASS
+== boxtitle sweep (source titles, 23pt) ==
+boxtitle RC=0
+box titles measured: 12; over budget: 0
+    389.3 margin   +15.2 [content56.py] 'ODD SOCKS, IN NUMBERS\u3000Zahlen'
+    385.1 margin   +19.4 [content56.py] 'A PRACTICE BALLOT\u3000Stimmzettel'
+    370.2 margin   +34.3 [content7.py] 'THE TOOLBOX\u3000Werkzeugkasten'
+    365.5 margin   +39.0 [content12.py] 'THE WEEK IN NUMBERS\u3000Zahlen'
+    337.6 margin   +66.9 [content12.py] 'THE CALENDAR\u3000Diese Woche'
+    336.5 margin   +68.0 [content12.py] 'SENATE IN NUMBERS\u3000Zahlen'
+    330.0 margin   +74.5 [content34.py] 'SATURDAY, NOV 21\u3000Samstag'
+    328.8 margin   +75.8 [content34.py] 'WHY PERTH?\u3000Warum Perth?'
+boxtitle sweep PASS
+== svg boxtitle sweep (rendered SVGs, advance + ink) ==
+svg boxtitle RC=0
+  p7-lang.svg:   370.2 margin   +34.3 'THE TOOLBOX\u3000Werkzeugkasten'
+  p8-test.svg:   226.1 margin  +624.9 'MODEL\u3000Mustertext'
+box titles checked: 18; overflows: 0
+svg boxtitle sweep PASS
+== creambox canonical scan ==
+creambox RC=0
+  P7-TOOLBOX summary: 7 boxes, min inside clearance +47.7, min desc-clear +41.6
+== edition verify ==
+verify RC=0
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS Q39 key a — a
+PASS Q40 key d — d
+PASS Q39 note mentor=a — 'mentor = Mentor a'
+PASS Q40 note arena=d — 'arena = Arena d'
+PASS Q40 note not estadio/stadio — 'arena = Arena d'
+PASS Q46 key A
+PASS Q46 note 2025 — 'Erster Ashes-Test 2025–26: Freitag, 21. November 2025, in Perth'
+PASS Q52 key hosted
+PASS Q55 key won
+PASS Q125 key A
+PASS Q125 note 4-1 — 'Australien hat die Ashes 2025–26 mit 4–1 gewonnen'
+PASS registry notes: no stale Ashes phrasing — []
+PASS text.md has 150 answers — found 150
+PASS text.md Q39 a — a
+PASS text.md Q40 d — d
+PASS text.md Q125 A — A
+PASS text.md: Arsenal are winning
+PASS text.md: no 'Perth is winning'
+PASS text.md: no 'second week in Perth'
+PASS text.md: Ashes retrospective present
+PASS text.md: no 'Ashes begin'
+PASS P8 min PDF font >= 9.75pt — min 10.12pt
+PASS SVG: zero real CJK (only U+3000 allowed) — []
+VERIFY ALL PASS
+== pdf sha/size ==
+fe02ab1d9ba41e7a22651be02bda3612b66b54f2c521e12ab0ab5ca6797be5e1  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.pdf
+19e166e03f28e813a8418189f20c1ddd31635f6621fbb182268e552c5302e6e5  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.web.pdf
+0aad0d2c8118bd6dab2f08170425f8ada595b5a397ba0d77511cffdd12c1e5e1  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/2026-w47-en-de.text.md
+29331212 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.pdf
+2414462 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/The-Lucerna-VOL4-en-de.web.pdf
+52568 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/2026-w47-en-de.text.md
+DONE de

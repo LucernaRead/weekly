@@ -1,0 +1,28 @@
+text.md answers parsed: 150 numbers: 1 - 150 missing: []
+text.md vs P8-extract diffs: 7
+   (10, 'B（トリノ決勝は22日日曜）', 'B')
+   (43, 'saucisson（ソーセージに合う）', 'saucisson')
+   (61, 'Milan（ミラノはアウェー）', 'Milan')
+   (78, 'deux（チケット2枚）', 'deux')
+   (96, 'connus（結果はまだ不明）', 'connus')
+   (108, 'Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）', 'Le beaujolais nouveau arrive jeudi 19 novembre.')
+   (114, 'A（avoir + 過去分詞（無一致））', 'A')
+core vs P8-extract diffs: 1
+   (150, '开放题', '自由作文')
+core vs text.md diffs: 8
+   (10, 'B', 'B（トリノ決勝は22日日曜）')
+   (43, 'saucisson', 'saucisson（ソーセージに合う）')
+   (61, 'Milan', 'Milan（ミラノはアウェー）')
+   (78, 'deux', 'deux（チケット2枚）')
+   (96, 'connus', 'connus（結果はまだ不明）')
+   (108, 'Le beaujolais nouveau arrive jeudi 19 novembre.', 'Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）')
+   (114, 'A', 'A（avoir + 過去分詞（無一致））')
+   (150, '开放题', '自由作文')
+--- Q148 stem ---
+text.md On se retrouve (148)___ du cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !  H　ÉCRITURE
+p8 svg On se retrouve</text><text x="1439.5" y="1324.68" font-family="Newsreader" font-size="21" 
+core content8.py:176: bf.para(f"— Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris ({gnums[0]})___ ? — Oui, ({gnums[1]})___ billets. — La séance est à ({gnums[2]})___ ? — À 20 heures. — On se retrouve ({gnums[3]})___ du cinéma ? — Oui, à 19 h 30. Bon ({gnums[4]})___ ! — Merci !", 21)
+--- 'On se retrouve' in edition content8.py ---
+es. — Tu as pris ({gnums[0]})___ ? — Oui, ({gnums[1]})___ billets. — La séance est à ({gnums[2]})___ ? — À 20 heures. — On se retrouve ({gnums[3]})___ du cinéma ? — Oui, à 19 h 30. Bon ({gnums[4]})___ ! — Merci !", 21)
+bf.end_report()
+print

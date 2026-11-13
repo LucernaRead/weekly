@@ -1,0 +1,34 @@
+text.md lines: 838 bytes: 64053
+D1 text.md 'УЧЕБНЫЕ ДАННЫЕ' [459]
+D1 text.md 'Три уровня, три темы' [504]
+D1 text.md 'Большой тест недели + все ответы' [596]
+KEEP nl: None
+D2 full phrase ed: 2 core: 2
+D2 short 'День студента' ed count: 11
+  D2 line 74 : 17 ноября — День студента. И Россия — Венесуэла в 19:00.
+  D2 line 89 : ### ЖИЗНЬ · LEVEN — УРОВЕНЬ A2 · День студента, день рождения Деда Мороза и погода · Studentendag, verjaardag van Grootv
+  D2 line 113 : 17 ноября — День студента.
+  D2 line 181 : 23. [A2 · Voltooi de zin] День студента — ___ ноября. — key: 17 (17 november — Studentendag) [Voltooi de zin]
+  D2 line 187 : 25. 17 ноября — День студента (key b · Studentendag b)
+  D2 line 431 : В ноябре 20 рабочих дней и 10 выходных. Профессиональные праздники — День студента, День психолога — не меняют календарь
+  D2 line 443 : 17 ноября — День студента (вторник)
+  D2 line 547 : «Поздравляю с День студента!»
+  D2 line 601 : 114. [B1 · Meerkeuze] День студента — ___ ноября. (A. 17 · B. 18) — key: A (17 november — Studentendag)
+  D2 line 611 : 121. [A2 · Meerkeuze] Когда День студента? A. 16 ноября · B. 17 ноября · C. 18 ноября — key: B (17 november — Studentend
+  D2 line 638 : 137. [A2 · Vertaling] Во вторник, 17 ноября, — День студента. → ___ — key: Dinsdag 17 november, Studentendag. (Zie pagin
+  content12 L133: ("ВТОРНИК", "17 ноября — День студента. И Россия — Венесуэла в 19:00."),
+  content12 L163: p.band("ЖИЗНЬ　LEVEN", "Lucerna", "УРОВЕНЬ A2　День студента, день рождения Деда Мороза и погода　Studentendag, verjaardag van Grootvader Vorst en het weer")
+  content12 L181: "17 ноября — День студента.",
+  content12 L269: "День студента — ___ ноября.", instr="Voltooi de zin", size=19, gap=6)
+  content12 L276: "День студента",  # D2 fix (2026-11-11): was "Международный день студента" —
+D6 желании text.md count: 2 lines: [173, 694]
+D6 желании p2 svg count: 0
+  content12 L174: f.para("Студенту можно пожелать: «С Днём студента! Успехов в учёбе!» А Деду Морозу дети пишут письма: «Дорогой Дед Мороз! Подари мне, пожалуйста…» — и дальше са
+  content12 L176: f.gloss("успехов succes · желание een wens.")
+  content12 L257: e.ex("B1", "Voltooi de zin", "желании", "желание = een wens",
+  content12 L259: # D6 fix (2026-11-11): key was "желание" (nominative) — wrong: "о своём ___"
+  content12 L260: # governs the prepositional, and neuter -ие nouns take -и: о желании.
+  content12 L261: # Stem + note ("желание = 愿望", dictionary form) unchanged; cf. Q38 ноября.
+literal ___ in text.md: 87
+literal ___ in edition svg joined: 87
+literal ___ in core text.md: 87

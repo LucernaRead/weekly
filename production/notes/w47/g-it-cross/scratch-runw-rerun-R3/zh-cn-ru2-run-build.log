@@ -1,0 +1,102 @@
+[01:36:15] build source : /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru
+[01:36:15] production   : /home/hatch/workspace/weekly-git/production
+[01:36:15] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2
+[01:36:15] steps        : run, render
+[01:36:15] build is inside production/
+[01:36:16] snapshot: 39 production files hashed
+[01:36:17] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/svg
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/svg
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/svg
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/svg
+[01:36:17] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/svg
+[01:36:17] repointed files: render.py, content56.py, content7.py, content12.py, content34.py, content8.py
+[01:36:17] verify: copy is clean — no .py references the real production tree
+[01:36:17] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/svg (any literal /svg target)
+[01:36:17] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[01:36:17] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[01:36:17] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1139 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=459 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2560)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=595 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2113 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=804 (bottom 1180)
+P4 col3 ends 1201.9499999999998
+  flow[P4-ex] ended col 2/3 y=2113 (bottom 2560)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=828 (bottom 1560)
+P5 col3 ends 1241.1
+  flow[P5-ex] ended col 2/3 y=2113 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 1/2 y=1149 (bottom 1180)
+P6 col3 ends 1127.0
+  flow[P6-ex] ended col 2/3 y=2053 (bottom 2560)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1148 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1274 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1281 (bottom 1560)
+P7 col3 ends 1648.98
+P7 image ends 1862.7800000000002
+P7 teaser ends 2588.78
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=965 (bottom 1300)
+P8 test flow ends col/y: 3 964.8
+P8 image ends 1270.6
+  flow[P8-keys] ended col 3/3 y=2535 (bottom 2560)
+P8 keys flow ends col/y: 3 2535.1
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 138
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE
+[01:36:45] run.py: exit 0
+[01:36:45] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy)
+card: p1-touiban.png
+card: p2-shenghuo.png
+card: p3-wenhua.png
+card: p4-tiyu.png
+card: p5-qingnian.png
+card: p6-shendu.png
+card: p7-ciyu.png
+card: p8-ceyan.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2/build-copy/Lucerna-VOL4-RU.pdf 33572048
+[01:37:59] render.py: exit 0
+[01:38:00] integrity: production unchanged (39 files re-hashed)
+[01:38:00] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/zh-cn-ru2 (19 svg/png/pdf files)
+[01:38:00]   out: build-copy/Lucerna-VOL4-RU-web.pdf
+[01:38:00]   out: build-copy/Lucerna-VOL4-RU.pdf
+[01:38:00]   out: build-copy/assets/lucerna-moth.svg
+[01:38:00]   out: build-copy/cards/p1-touiban.png
+[01:38:00]   out: build-copy/cards/p2-shenghuo.png
+[01:38:00]   out: build-copy/cards/p3-wenhua.png
+[01:38:00]   out: build-copy/cards/p4-tiyu.png
+[01:38:00]   out: build-copy/cards/p5-qingnian.png
+[01:38:00]   out: build-copy/cards/p6-shendu.png
+[01:38:00]   out: build-copy/cards/p7-ciyu.png
+[01:38:00]   out: build-copy/cards/p8-ceyan.png
+[01:38:00]   out: build-copy/svg/p1-touiban.svg
+[01:38:00]   out: build-copy/svg/p2-shenghuo.svg
+[01:38:00]   out: build-copy/svg/p3-wenhua.svg
+[01:38:00]   out: build-copy/svg/p4-tiyu.svg
+[01:38:00]   out: build-copy/svg/p5-qingnian.svg
+[01:38:00]   out: build-copy/svg/p6-shendu.svg
+[01:38:00]   out: build-copy/svg/p7-ciyu.svg
+[01:38:00]   out: build-copy/svg/p8-ceyan.svg

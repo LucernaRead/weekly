@@ -1,0 +1,9 @@
+colour set: core 19 edition 19 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min font-size: 15.5
+P8 Q113-120 options line present
+P8 Q120 chip OK #37402f (expected #37402f B2, core-identical)
+P8 ÉCRITURE head present: ['H\u3000ÉCRITURE\u3000寫作']
+ALL §1.1/P8 CHECKS PASS

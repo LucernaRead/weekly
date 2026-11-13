@@ -1,0 +1,4 @@
+stdout status line: status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 140]
+OLD regex [Kk]ey diff.* -> []  (count=0)
+NEW parse keydiff=\[...\] -> [137, 138, 140]
+OLD regex on 'Key diff: [137, 138]' -> ['Key diff: [137, 138]']

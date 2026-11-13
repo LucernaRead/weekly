@@ -1,0 +1,101 @@
+[04:09:20] build source : /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ko
+[04:09:20] production   : /home/hatch/workspace/weekly-git/production
+[04:09:20] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build
+[04:09:20] steps        : run, render
+[04:09:20] build is inside production/
+[04:09:20] snapshot: 39 production files hashed
+[04:09:20] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy
+[04:09:21] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-de-ko -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy
+[04:09:21] repointed files: verify.py
+[04:09:21] verify: copy is clean — no .py references the real production tree
+[04:09:21] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/svg (any literal /svg target)
+[04:09:21] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[04:09:21] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[04:09:21] render interpreter: /home/hatch/workspace/weekly-git/tools/venv/bin/python (cairosvg + Pillow 13)
+[04:09:21] render interpreter check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[04:09:21] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1554 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2261 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2523 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=964 (bottom 1540)
+P2 col3 box1 ends 496.65
+P2 col3 box2 ends 849.8299999999999
+P2 col3 box3 ends 1195.9499999999998
+P2 col3 box4 ends 1549.1299999999999
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 2/2 y=886 (bottom 1560)
+P3 image at 906.405 ends 1378.1550000000004
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1070.95
+P3 col3 undsie ends 1417.0700000000002
+P3 col3 ends 1612.66
+  flow[P3-ex] ended col 3/3 y=2519 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=647 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=1032 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1296.48
+P5 col3 image ends 1732.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=747 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1233.71
+  flow[P6-ex] ended col 3/3 y=2496 (bottom 2560)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1310 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1508.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-battery] ended col 3/3 y=1367 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1367.4450000000002 | image ends 1591.2450000000003
+  flow[P8-keys] ended col 3/3 y=2348 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+ALL DONE
+[04:09:33] run.py: exit 0
+[04:09:33] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy)
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p1-front.png 1342347
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p2-leben.png 819213
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p3-kultur.png 1330953
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p4-sport.png 1188455
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p5-jugend.png 1201877
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p6-vertiefung.png 879185
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p7-sprache.png 935906
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/cards/p8-uebungen.png 1516371
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build/build-copy/Die-Lucerna-VOL4-de-ko.pdf 12926102
+[04:09:49] render.py: exit 0
+[04:09:50] integrity: production unchanged (39 files re-hashed)
+[04:09:50] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-minor1/2026-w47-de-ko/build (19 svg/png/pdf files)
+[04:09:50]   out: build-copy/Die-Lucerna-VOL4-de-ko-web.pdf
+[04:09:50]   out: build-copy/Die-Lucerna-VOL4-de-ko.pdf
+[04:09:50]   out: build-copy/assets/lucerna-moth.svg
+[04:09:50]   out: build-copy/cards/p1-front.png
+[04:09:50]   out: build-copy/cards/p2-leben.png
+[04:09:50]   out: build-copy/cards/p3-kultur.png
+[04:09:50]   out: build-copy/cards/p4-sport.png
+[04:09:50]   out: build-copy/cards/p5-jugend.png
+[04:09:50]   out: build-copy/cards/p6-vertiefung.png
+[04:09:50]   out: build-copy/cards/p7-sprache.png
+[04:09:50]   out: build-copy/cards/p8-uebungen.png
+[04:09:50]   out: build-copy/svg/p1-front.svg
+[04:09:50]   out: build-copy/svg/p2-leben.svg
+[04:09:50]   out: build-copy/svg/p3-kultur.svg
+[04:09:50]   out: build-copy/svg/p4-sport.svg
+[04:09:50]   out: build-copy/svg/p5-jugend.svg
+[04:09:50]   out: build-copy/svg/p6-vertiefung.svg
+[04:09:50]   out: build-copy/svg/p7-sprache.svg
+[04:09:50]   out: build-copy/svg/p8-uebungen.svg

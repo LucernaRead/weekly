@@ -1,0 +1,7 @@
+- 孤儿日文句号 。×3 修（均缩短 1–2 字使句号不独行，重扫 0 新增）：
+  (1) P1 g1：`un vin primeur　le beaujolais ボジョレー 新酒。` 删 `新酒`（释义仍存于 g2 与 m_p8d/m_primeur2 `primeur = 新酒`）；
+  (2) P4 bridge_comp4：`比較級（plus / moins）で文を完成させよう。`→`比較級（plus / moins）で文を完成しよう。`（1 行）；
+  (3) P6 bridge_chart：`上のカレンダーを読んで正しい答えを選ぼう。`→`上のカレンダーを読んで答えを選ぼう。`（1 行）。
+  改动页：P1、P4、P6（另 P8 为核心 fix4 之 Q148）。
+- P7 披露框：ja 版原先即 2 行、末基线 2233.3、清除 +24.7，重建后 creambox 重测仍干净；PIL 真墨末行至 svg y=2234.4，间隙零墨。
+- 核心 fix4 落地：Q148 键 `devant`→`devant le`、题干 `On se retrouve ___ du cinéma ?`→`On se retrouve ___ cinéma ?`（仅 P8 哈希变；P8 注记 148 亦随键变为 `devant le`）。

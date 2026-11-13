@@ -1,0 +1,10 @@
+registry entries: 150 p8 extract noted: 150
+extract keys: ['p8', 'total', 'how', 'keys']
+extract keys type: <class 'dict'>
+registry-vs-P8 mismatches: 1
+  Q150 registry='(Open task; model text below)' P8='✓'
+Q20 registry: ['желании'] P8: желании
+Q25 registry: ['b'] P8: b
+Q73 registry: ['заказов'] P8: заказов
+Q137 registry: ["Tuesday 17 November, Students' Day."] P8: Tuesday 17 November, Students' Day.
+Q150 registry: ['(Open task; model text below)'] P8: ✓

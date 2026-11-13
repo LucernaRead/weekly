@@ -1,0 +1,39 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS p1-une.svg: paper rect #fbfaf6
+PASS p1-une.svg: VOL.4 present — count=2
+PASS p1-une.svg: chip rects 10 — got 10
+PASS p1-une.svg: chip colours in LV set — got ['#46581f', '#5c6e30']
+PASS p2-vie.svg: paper rect #fbfaf6
+PASS p2-vie.svg: VOL.4 present — count=1
+PASS p2-vie.svg: chip rects 12 — got 12
+PASS p2-vie.svg: chip colours in LV set — got ['#46581f', '#5c6e30']
+PASS p3-culture.svg: paper rect #fbfaf6
+PASS p3-culture.svg: VOL.4 present — count=1
+PASS p3-culture.svg: chip rects 18 — got 18
+PASS p3-culture.svg: chip colours in LV set — got ['#46581f', '#5c6e30']
+PASS p4-sport.svg: paper rect #fbfaf6
+PASS p4-sport.svg: VOL.4 present — count=1
+PASS p4-sport.svg: chip rects 15 — got 15
+PASS p4-sport.svg: chip colours in LV set — got ['#46581f', '#5c6e30']
+PASS p5-jeunesse.svg: paper rect #fbfaf6
+PASS p5-jeunesse.svg: VOL.4 present — count=1
+PASS p5-jeunesse.svg: chip rects 14 — got 14
+PASS p5-jeunesse.svg: chip colours in LV set — got ['#46581f', '#5c6e30']
+PASS p6-politique.svg: paper rect #fbfaf6
+PASS p6-politique.svg: VOL.4 present — count=1
+PASS p6-politique.svg: chip rects 15 — got 15
+PASS p6-politique.svg: chip colours in LV set — got ['#37402f', '#46581f']
+PASS p7-langue.svg: paper rect #fbfaf6
+PASS p7-langue.svg: VOL.4 present — count=3
+PASS p7-langue.svg: chip rects 12 — got 12
+PASS p7-langue.svg: chip colours in LV set — got ['#37402f', '#46581f', '#5c6e30']
+PASS p8-exercices.svg: paper rect #fbfaf6
+PASS p8-exercices.svg: VOL.4 present — count=1
+PASS p8-exercices.svg: chip rects 38 — got 38
+PASS p8-exercices.svg: chip colours in LV set — got ['#37402f', '#46581f', '#5c6e30']
+PASS no gold #b49a4a in edition
+PASS no old paper #f7f1e2 in edition
+PASS edition colour set == core colour set (no new fills) — ed-only=[] core-only=[]
+PASS P8 min font >= 9.75pt — 11.625pt
+CHECK_S11 PASS

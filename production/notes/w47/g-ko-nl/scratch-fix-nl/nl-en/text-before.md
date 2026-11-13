@@ -1,0 +1,431 @@
+# De Lucerna · Dutch Weekly VOL.4 · 2026-W47
+
+## Pagina 1
+
+## Vanavond in Berlijn: Oranje tegen Duitsland
+Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3. Het is de laatste wedstrijd in de groep — en de beslissing in groep 2.
+Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. De nummers één en twee van de groep gaan naar de kwartfinales in maart 2027.
+Vrijdag speelden Oranje en Duitsland hun vijfde wedstrijd: Oranje thuis tegen Griekenland, in de Johan Cruijff ArenA in Amsterdam, en Duitsland uit in Belgrado tegen Servië. Maandagavond in Berlijn valt de beslissing: wie wint de groep?
+Afgelopen weekend kwam Sinterklaas aan in Nederland. Zaterdag 14 november was de landelijke intocht in Grave, aan de Maas in Noord-Brabant: rond 12:00 uur meerde de stoomboot aan bij de Maaskade, live op NPO 3. Een dag later, op zondag 15 november, was de intocht in Amsterdam: de 88e editie.
+Na de intocht begint de tijd van de schoen: kinderen zetten hun schoen bij de deur, met een wortel voor het paard en een verlanglijstje erin. Pakjesavond, de avond met de grote cadeaus, is dit jaar op zaterdag 5 december — over negentien dagen.
+> de groepswinst group win · de kwartfinale quarter-final · de intocht arrival · het verlanglijstje wish list.
+### DE WEEK IN CIJFERS　IN NUMBERS
+16 — november: Duitsland – Nederland in Berlijn (16 Nov: Germany–Netherlands)
+20:45 — de aftrap (kick-off)
+8 — punten: Nederland en Griekenland bovenaan (8 points each)
+5 — december: pakjesavond, over 19 dagen (5 December, in 19 days)
+## NU JIJ　YOUR TURN
+1. [A2 · complete] Duitsland – Nederland begint maandag om ___ uur. — Correct: 20:45（Germany–Netherlands kicks off Monday at 20:45）
+2. [A2 · complete] Oranje speelt maandag in ___ tegen Duitsland. — Correct: Berlijn（The match is in Berlin）
+3. [A2 · complete] Nederland en Griekenland hebben allebei ___ punten. — Correct: 8（The Netherlands and Greece both have 8 points）
+4. [A2 · complete] De intocht in Amsterdam was op zondag ___ november. — Correct: 15（The Amsterdam arrival is on Sunday 15 November）
+5. [A2 · complete] Pakjesavond is op zaterdag ___ december. — Correct: 5（Pakjesavond is on 5 December）
+6. [B1 · complete] Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — Correct: maakte（The Netherlands scored 7 goals）
+### DEZE WEEK
+## THIS WEEK
+Agenda van de week　THIS WEEK'S EVENTS
+MA 16 Oranje – Duitsland, 20:45
+ZA 21 Eredivisie: NEC – PSV
+ZA 21 Feyenoord – Excelsior
+ZO 22 Ajax – ADO Den Haag
+ZO 22 Robinson, 20:00 uur
+Alle data en tijden staan ook
+in de artikelen op pagina 2–5.
+See pages 2–5 for all dates and times.
+### IN DEZE EDITIE　IN THIS ISSUE
+Pag. 2 De schoen en pakjesavond A2
+Pag. 3 Sinterklaas is er! A2→B1
+Pag. 4 Oranje: de beslissing B1
+Pag. 5 Robinson en surprises B1
+Pag. 6 Oud feest, nieuwe wensen B2
+Pag. 7 Drie gereedschappen A2→B2
+Pag. 8 Oefeningen en antwoorden alle
+## HET WOORD VAN DE WEEK
+«de groepswinst»: de eerste plaats in de groep: als nummer één naar de kwartfinales.
+"Group win": first in the group.
+## NA DE INTOCHT: DE SCHOEN
+Na de intocht mag de schoen: kinderen zetten 's avonds hun schoen bij de deur, met een wortel voor het paard en een verlanglijstje erin. 's Nachts komt Sinterklaas met een klein cadeautje.
+Pakjesavond, de avond met de grote cadeaus — en met surprises en gedichten — is dit jaar op zaterdag 5 december.
+### IN HET KORT　IN BRIEF
+ORANJE · P.4
+Maandag in Berlijn tegen Duitsland, 20:45 uur, NPO 3.
+SINTERKLAAS · P.3
+Zaterdag intocht in Grave; zondag de 88e intocht in Amsterdam.
+EREDIVISIE · P.4
+Zaterdag 21 november: NEC – PSV en Feyenoord – Excelsior.
+## BLIKSEMQUIZ　LIGHTNING QUIZ
+Read page 1, choose the right answer　Answers on page 8
+7. [A2 · choice] Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — Correct: B（Germany–Netherlands kicks off Monday at 20:45）
+8. [A2 · choice] Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — Correct: B（The match is at the Olympiastadion Berlin）
+9. [A2 · choice] Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — Correct: C（The Netherlands and Greece both have 8 points）
+10. [A2 · choice] Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — Correct: B（Pakjesavond is on Saturday 5 December）
+
+## Pagina 2
+
+## De schoen staat klaar: aftellen naar pakjesavond
+Sinterklaas is er! Afgelopen weekend kwam hij aan in Grave en in Amsterdam. Nu begint de tijd van de schoen: kinderen zetten 's avonds hun schoen bij de deur, met een wortel voor het paard en een tekening of een verlanglijstje erin. 's Nachts komt Sinterklaas met een klein cadeautje.
+De wortel is voor het paard van Sinterklaas, Ozosnel. De tekening is voor Sinterklaas zelf. En het verlanglijstje? Dat is een lijst met wensen: wat wil je het liefst hebben? Schrijf het in het Nederlands — Sinterklaas leest Nederlands.
+Vorige week woensdag was het Sint-Maarten: kinderen liepen met lampionnen zingend langs de deuren. Nu is het licht van de lampion doorgegeven aan de schoen: twee feesten van licht en geven, in twee weken.
+Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus. Veel families maken dan een surprise: een cadeau in een gekke verpakking, met een gedicht erbij. Een gedicht is een klein versje — grappig, lief of een beetje plagend. Nog negentien dagen tot pakjesavond: tijd om te knutselen en te dichten.
+En het Sinterklaasjournaal? Dat is er elke dag om 18:00 uur op NPO Zapp. Kinderen volgen hoe Sinterklaas en zijn Pieten zich voorbereiden op pakjesavond.
+## DRIE DINGEN VOOR 5 DECEMBER
+Eén: zet je schoen, met een wortel en een verlanglijstje. Twee: schrijf een gedicht — kort is ook goed. Drie: maak een surprise: verstop het cadeau in iets geks.
+### ZO ONTHOUD JE HET　REMEMBER
+«De schoen staat klaar: een wortel voor het paard, een lijstje voor de Sint.» En pakjesavond is op 5 december.
+> de schoen shoe · de wortel carrot · het verlanglijstje wish list · de surprise disguised present · het gedicht poem.
+### WIST JE DAT?
+Pakjesavond: zaterdag 5 december, over negentien dagen.
+De schoen: 's avonds bij de deur, met een wortel en een verlanglijstje.
+Een surprise is een cadeau in een gekke verpakking, met een gedicht erbij.
+### EN JIJ?　AND YOU?
+En jij? Zet jij je schoen met een wortel en een verlanglijstje, of schrijf je liever een gedicht voor pakjesavond? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie: de mooiste komen in VOL.5 (pagina 7, «Brieven van lezers»).
+Will you put out your shoe with a wish list, or would you rather write a poem for Pakjesavond? Write two sentences in Dutch and send them to the editors.
+## PAKJESAVOND IN VIER WOORDEN　PAKJESAVOND IN FOUR WORDS
+Wat hoort bij pakjesavond?　Which words belong to Pakjesavond?
+### SCHOEN
+de schoen
+Put out at the door in the evening, waiting for Sinterklaas
+### WORTEL
+voor het paard
+The carrot is for Sinterklaas's horse
+### LIJSTJE
+het verlanglijstje
+Wish list: write down what you want most
+### GEDICHT
+het versje
+Little poem: funny, warm, or a little teasing
+Let op: schrijf je gedicht in het Nederlands — Sinterklaas leest Nederlands. Meer over de intocht lees je op pagina 3.
+## OEFENINGEN　EXERCISES ON PAGE 2
+Answers on page 8　Levels are mixed; find your number
+## A　BEGRIJPEN
+Read the article on page 2 and choose the right answer.
+11. [A2 · choice] Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — Correct: B（Sinterklaas arrived in Grave and Amsterdam last weekend）
+12. [A2 · choice] De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — Correct: B（The carrot in the shoe is for the horse）
+13. [A2 · choice] Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — Correct: C（Pakjesavond is on 5 December）
+14. [A2 · choice] Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — Correct: A（A surprise is a present in disguise）
+15. [A2 · choice] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — Correct: B（The Sinterklaas news is on every day at 18:00）
+## B　WOORDEN
+Fill in with words from page 2.
+16. [A2 · complete] Kinderen zetten hun ___ bij de deur. — Correct: schoen（schoen = shoe） [Fill in]
+17. [A2 · complete] In de schoen zit een ___ voor het paard. — Correct: wortel（wortel = carrot） [Fill in]
+18. [A2 · complete] Op het ___ staan drie wensen. — Correct: verlanglijstje（verlanglijstje = wish list） [Fill in]
+19. [A2 · complete] Bij de surprise hoort een ___. — Correct: gedicht（gedicht = poem） [Fill in]
+20. [A2 · complete] Pakjesavond is op ___ december. — Correct: 5（Pakjesavond is on 5 December） [Fill in]
+## C　SCHOEN EN GEDICHT
+Fill in with numbers and names from page 2.
+21. [A2 · complete] Het paard van Sinterklaas heet ___. — Correct: Ozosnel（Sinterklaas's horse is called Ozosnel） [Fill in]
+22. [A2 · complete] Van 16 november tot 5 december: ___ dagen. — Correct: 19（From 16 November to 5 December is 19 days） [Fill in]
+23. [A2 · complete] Het Sinterklaasjournaal is om ___ uur. — Correct: 18:00（The Sinterklaas news at 18:00） [Fill in]
+24. [A2 · complete] Pakjesavond is in ___. — Correct: december（Pakjesavond is in December） [Fill in]
+## D　WOORDEN
+25–28. [A2 · matching] Match word to meaning
+25. de schoen — die staat 's avonds bij de deur (Correct d · schoen = shoe d)
+26. de wortel — eten voor Sinterklaas' paard (Correct c · wortel = carrot c)
+27. het verlanglijstje — een lijst met wensen voor Sinterklaas (Correct a · verlanglijstje = wish list a)
+28. het gedicht — een klein versje bij een cadeau (Correct b · gedicht = poem b)
+
+## Pagina 3
+
+## Sinterklaas is er: Grave, Amsterdam en het journaal
+Op zaterdag 14 november kwam Sinterklaas officieel aan in Nederland. De landelijke intocht was dit jaar in Grave, een vestingstad aan de Maas in Noord-Brabant. Rond 12:00 uur meerde de stoomboot aan bij de Maaskade. Burgemeester Marieke Moorman ontving Sinterklaas. Het programma duurde van 12:00 tot 16:00 uur en was live te zien op NPO 3.
+Een dag later voer Sinterklaas in Amsterdam: de boot vertrok om 10:15 uur bij De Omval en voer over de Amstel naar het Scheepvaartmuseum, waar hij rond 11:30 uur aankwam. Daar kreeg hij de sleutel van de stad. Om 13:00 uur begon de stoet te paard bij de Stopera, via het Rembrandtplein en de Utrechtsestraat naar het Leidseplein. Het was de 88e editie van de Amsterdamse intocht.
+Het Sinterklaasjournaal is er elke dag om 18:00 uur op NPO Zapp. Presentatrice Merel Westrik vertelt hoe de voorbereidingen gaan: de schoen, de verlanglijstjes en — over negentien dagen — pakjesavond op zaterdag 5 december.
+November is ook de maand van Heel Nederland Leest: heel Nederland leest dit jaar Het diner van Herman Koch, uit 2009. Het boek is gratis af te halen in de bibliotheek, ook als je geen lid bent. Er is ook een grootletterboek, een Makkelijk Lezen-editie, een e-book en een luisterboek. In bibliotheken zijn er leeskringen — ook voor mensen die Nederlands leren.
+## LEZEN EN KIJKEN
+Twee dingen in november: 's avonds om 18:00 uur het Sinterklaasjournaal kijken, en overdag een boek lezen. Neem Het diner mee naar huis en praat erover met vrienden: samen lezen is leuker dan alleen lezen.
+En wie zijn schoen zet, kan er een verlanglijstje in doen — of een tekening. Sinterklaas leest alles.
+> de vestingstad fortress town · ontvangen to welcome · de sleutel key · de editie edition · de leeskring reading club.
+### SINTERKLAAS IN CIJFERS
+Landelijke intocht: zaterdag 14 november, Grave, Maaskade, vanaf 12:00 uur op tv.
+Amsterdam: zondag 15 november, boot 10:15 uur, stoet 13:00 uur, 88e editie.
+Sinterklaasjournaal: elke dag 18:00 uur, NPO Zapp, met Merel Westrik.
+Heel Nederland Leest: Het diner, gratis in de bibliotheek, heel november.
+## OEFENINGEN　EXERCISES ON PAGE 3
+Answers on page 8　Levels are mixed; find your number
+## A　BEGRIJPEN
+Read the article on page 3 and choose the right answer.
+29. [A2 · choice] De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — Correct: B（The national arrival is in Grave）
+30. [A2 · choice] De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — Correct: B（The boat docks at the Maaskade around 12:00）
+31. [A2 · choice] De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — Correct: C（The Amsterdam boat leaves De Omval at 10:15）
+32. [A2 · choice] De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — Correct: A（The Amsterdam arrival is the 88th edition）
+33. [A2 · choice] Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — Correct: B（Het diner is free to pick up at the library）
+## B　WOORDEN UIT DE TEKST
+Fill in with the words from the box.
+vestingstad · ontvangen · sleutel · editie · leeskring
+34. [A2 · complete] Grave is een oude ___ aan de Maas. — Correct: vestingstad（vestingstad = fortress town） [Fill in]
+35. [B1 · complete] Burgemeester Moorman ___ Sinterklaas in Grave. — Correct: ontving（ontvangen past tense: ontving） [Fill in]
+36. [B1 · complete] Sinterklaas kreeg de ___ van de stad. — Correct: sleutel（sleutel = key） [Fill in]
+37. [B1 · complete] Het was de 88e ___ van de Amsterdamse intocht. — Correct: editie（editie = edition） [Fill in]
+38. [A2 · complete] In de bibliotheek is er een ___ over Het diner. — Correct: leeskring（leeskring = reading club） [Fill in]
+## C　HET PERFECTUM
+Complete with the present perfect. Watch the auxiliaries hebben/zijn.
+39. [B1 · complete] Sinterklaas ___ (aankomen) in Grave. — Correct: is aangekomen（aankomen takes zijn: is aangekomen） [Fill in]
+40. [B1 · complete] De burgemeester ___ (ontvangen) Sinterklaas. — Correct: heeft ontvangen（ontvangen perfectum: heeft ontvangen） [Fill in]
+41. [B1 · complete] De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — Correct: is gevaren（varen takes zijn: is gevaren） [Fill in]
+42. [B1 · complete] Veel mensen ___ (lezen) Het diner in november. — Correct: hebben gelezen（lezen perfectum: hebben gelezen） [Fill in]
+## D　REKENEN
+Work it out: answer with the numbers from page 3.
+43. [B1 · complete] Van zaterdag 14 tot zondag 15 november: ___ dag. — Correct: 1（From 14 to 15 November is 1 day） [Fill in]
+44. [B1 · complete] Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — Correct: 4（The Grave programme, 12:00–16:00, lasts 4 hours） [Fill in]
+45. [B1 · complete] Van 16 november tot 5 december: ___ dagen. — Correct: 19（From 16 November to 5 December is 19 days） [Fill in]
+46. [B2 · complete] Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — Correct: 17（Het diner is from 2009: 17 years ago in 2026） [Fill in]
+
+## Pagina 4
+
+## Oranje: de beslissing in Berlijn
+Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3. Het is de zesde en laatste wedstrijd in de groepsfase van de Nations League — en de beslissing in groep 2: de nummers één en twee gaan naar de kwartfinales in maart 2027.
+Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. Oranje is nog ongeslagen: 1–1 thuis tegen Duitsland, 2–1 uit bij Servië, 2–2 uit bij Griekenland en 2–1 thuis tegen Servië.
+Duitsland moet winnen in Berlijn. De Duitsers verloren thuis met 0–1 van Griekenland, wonnen met 2–0 van Servië en speelden met 0–0 gelijk in Griekenland. Vrijdag speelde Duitsland in Belgrado tegen Servië; Oranje speelde vrijdag thuis tegen Griekenland. Maandagavond in Berlijn valt de beslissing.
+De Eredivisie begint zaterdag weer: speelronde 13 is op 21 en 22 november. Zaterdag speelt PSV om 16:30 uur uit bij NEC en speelt Feyenoord om 18:45 uur thuis tegen Excelsior. Zondag speelt Ajax om 14:30 uur thuis tegen ADO Den Haag en speelt FC Twente om 12:15 uur thuis tegen Willem II. Vóór de interlandperiode won PSV met 2–5 van Cambuur en werd het 5–3 bij Heerenveen – Feyenoord.
+## DE STAND IN GROEP 2
+Nederland 8 punten, Griekenland 8, Duitsland 5, Servië 0. Twee landen gaan door. Maandag in Berlijn is dus bijna een finale — de laatste wedstrijd van de groep.
+> de groepswinst group win · de kwartfinale quarter-final · ongeslagen unbeaten · de interland international match · de stand the table.
+### HET PROGRAMMA
+Maandag 16 november, 20:45 uur: Duitsland – Nederland, Berlijn, NPO 3.
+Stand na 4 wedstrijden: Nederland 8, Griekenland 8, Duitsland 5, Servië 0 punten.
+Speelronde 12: Heerenveen – Feyenoord 5–3; Cambuur – PSV 2–5; Twente – Ajax 2–2.
+Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+Speelronde 13: zaterdag NEC – PSV 16:30 uur; Feyenoord – Excelsior 18:45 uur.
+## OEFENINGEN　EXERCISES ON PAGE 4
+Answers on page 8　Levels are mixed; find your number
+## A　BEGRIJPEN
+Read the article on page 4 and choose the right answer.
+47. [B1 · choice] Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — Correct: C（Germany–Netherlands, Monday, in Berlin）
+48. [B1 · choice] Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — Correct: B（The Netherlands and Greece both have 8 points）
+49. [B1 · choice] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Correct: B（Germany lost 0–1 at home to Greece）
+50. [B1 · choice] Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — Correct: B（Eredivisie matchday 13 is on 21–22 November）
+51. [B1 · choice] PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — Correct: B（PSV beat Cambuur 2–5）
+## B　WOORDEN UIT DE TEKST
+Fill in with the words from the box. Watch the verb forms.
+groepswinst · kwartfinale · ongeslagen · interland · stand
+52. [B1 · complete] Maandag valt de beslissing om de ___. — Correct: groepswinst（groepswinst = group win） [Fill in]
+53. [B1 · complete] De nummers één en twee gaan naar de ___. — Correct: kwartfinales（kwartfinale plural: kwartfinales） [Fill in]
+54. [B1 · complete] Oranje is nog ___ na vier wedstrijden. — Correct: ongeslagen（ongeslagen = unbeaten） [Fill in]
+55. [B1 · complete] Op de ___ staat Servië onderaan met 0 punten. — Correct: stand（stand = the table） [Fill in]
+56. [B1 · complete] Na maandag is er geen ___ meer tot maart. — Correct: interland（interland = international match） [Fill in]
+## C　VERLEDEN TIJD
+Complete with the past tense or the perfect tense.
+57. [B1 · complete] Oranje ___ (spelen) 1–1 tegen Duitsland. — Correct: speelde（spelen past tense: speelde） [Fill in]
+58. [B1 · complete] PSV ___ (winnen) met 2–5 van Cambuur. — Correct: won（winnen past tense: won） [Fill in]
+59. [B1 · complete] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Correct: verloor（verliezen past tense: verloor） [Fill in]
+60. [B2 · complete] Twente en Ajax ___ (spelen) 2–2 gelijk. — Correct: speelden（spelen past tense plural: speelden） [Fill in]
+## D　WAAR OF NIET WAAR?
+61. [B1 · true or false] Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — Correct: Waar（True: Germany–Netherlands, Monday 20:45） [True or false?]
+62. [B1 · true or false] Servië heeft 8 punten in groep 2. Waar of niet waar? — Correct: Niet waar（False: Serbia are bottom with 0 points） [True or false?]
+63. [B1 · true or false] PSV staat onderaan in de Eredivisie. Waar of niet waar? — Correct: Niet waar（False: PSV top the Eredivisie with 26 points） [True or false?]
+64. [B1 · true or false] Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — Correct: Waar（True: Heerenveen beat Feyenoord 5–3） [True or false?]
+
+## Pagina 5
+
+## Robinson op zondag — en de surprises
+Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4. Negentien bekende Nederlanders en Vlamingen leven 34 dagen op een onbewoond eiland in Maleisië. Nicolette Kluijver en Edson da Graça presenteren het programma, Camille Vanuxem is de verslaggever.
+De kandidaten slapen buiten en moeten alles zelf doen: vuur maken, eten zoeken, proeven winnen. Wie een proef verliest, kan naar huis worden gestemd. Wie het langst blijft, wint de expeditie. Het seizoen begon op zondag 1 november — en elke week wordt het spel harder. Zondag 22 november is er een nieuwe aflevering.
+Zondagavond is ook de avond van de surprises: over dertien dagen is het pakjesavond, op zaterdag 5 december. Jongeren maken een surprise voor een vriend of vriendin: een cadeau in een gekke verpakking, met een gedicht erbij. Een surprise maken is ook Nederlands oefenen: schrijf het gedicht in het Nederlands.
+Een gedicht hoeft niet lang te zijn: vier regels zijn genoeg. Vertel in het gedicht wie het cadeau krijgt, waarom juist die persoon, en wat erin zit — maar verklap de surprise niet te snel. Sinterklaas leest Nederlands, zeggen kinderen — en de redactie ook.
+## JONGEREN EN DE SURPRISE
+Een surprise is niet alleen voor kleine kinderen. Jongeren maken surprises met een wortel voor het paard, een tekening — of een gedicht van vier regels. Klein of groot, een gedicht op papier is het begin van pakjesavond.
+### ZO KIJK JE ROBINSON
+1. Kijk zondag om 20:00 uur op RTL 4 (watch on RTL 4, Sunday 20:00)
+2. Let op de proeven: daar worden de punten verdeeld (watch the trials: points are won there)
+3. Raad met vrienden wie het langst blijft (guess with friends who stays longest)
+4. Schrijf daarna een gedicht voor je surprise (then write a poem for your disguised present)
+> de surprise disguised present · het gedicht poem · de verslaggever reporter · de proef trial, challenge · de aflevering episode.
+### JONGEREN IN CIJFERS
+Expeditie Robinson: 19 kandidaten; elke zondag 20:00 uur, RTL 4.
+34 dagen op een onbewoond eiland in Maleisië; presentatie: Nicolette Kluijver en Edson da Graça.
+Pakjesavond is op zaterdag 5 december — nog 13 dagen vanaf zondag 22 november.
+### EN JIJ?　AND YOU?
+En jij? Kijk jij zondag naar Expeditie Robinson, of maak je liever een surprise met een gedicht? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie.
+On Sunday, do you watch Expeditie Robinson, or would you rather make a disguised present with a little poem? Write two sentences in Dutch and send them in.
+## OEFENINGEN　EXERCISES ON PAGE 5
+Answers on page 8　Levels are mixed; find your number
+## A　BEGRIJPEN
+Read the article on page 5 and choose the right answer.
+65. [B1 · choice] Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — Correct: B（Robinson is on every Sunday at 20:00 on RTL 4）
+66. [B1 · choice] Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — Correct: A（19 contestants）
+67. [B1 · choice] De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — Correct: C（The show is filmed on a desert island in Malaysia）
+68. [B1 · choice] De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — Correct: B（The contestants spend 34 days on the island）
+69. [B1 · choice] Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — Correct: A（A disguised present holds a poem）
+## B　WOORDEN UIT DE TEKST
+Fill in with the words from the box.
+surprise · gedicht · verslaggever · proef · aflevering · kandidaat
+70. [B1 · complete] Ik maak een ___ voor mijn vriendin. — Correct: surprise（surprise = disguised present (de)） [Fill in]
+71. [B1 · complete] Camille Vanuxem is de ___ van het programma. — Correct: verslaggever（verslaggever = reporter (de)） [Fill in]
+72. [B1 · complete] Wie een ___ verliest, kan naar huis gaan. — Correct: proef（proef = trial, challenge (de)） [Fill in]
+73. [B1 · complete] In vier regels schrijf ik een ___. — Correct: gedicht（gedicht = poem (het)） [Fill in]
+74. [B1 · complete] Zondag is er een nieuwe ___ van Robinson. — Correct: aflevering（aflevering = episode） [Fill in]
+75. [B1 · complete] Er zijn 19 ___ op het eiland. — Correct: kandidaten（kandidaat plural: kandidaten） [Fill in]
+## C　DE TOEKOMST MET GAAN
+Use gaan + infinitive to talk about the future.
+76. [B1 · complete] Wie ___ (winnen) Expeditie Robinson, denk je? — Correct: gaat winnen（gaat winnen = will win (just a guess)） [Fill in]
+77. [B1 · complete] Wij ___ (kijken) zondag naar de nieuwe aflevering. — Correct: gaan kijken（wij → gaan + infinitive kijken） [Fill in]
+78. [B1 · complete] Zij ___ (maken) zondag een surprise voor pakjesavond. — Correct: gaat maken（zij → gaat maken） [Fill in]
+79. [B1 · complete] De kinderen ___ (schrijven) een gedicht van vier regels. — Correct: gaan schrijven（zij (plural) → gaan schrijven） [Fill in]
+## D　WAAR OF NIET WAAR?
+80. [B1 · true or false] Expeditie Robinson begon op 1 november. Waar of niet waar? — Correct: Waar（True: the show started on 1 November） [True or false?]
+81. [B1 · true or false] Expeditie Robinson speelt in Spanje. Waar of niet waar? — Correct: Niet waar（False: the show is filmed in Malaysia） [True or false?]
+82. [B2 · true or false] Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — Correct: Niet waar（False: four lines are enough for a poem） [True or false?]
+
+## Pagina 6
+
+## Sinterklaas: oud feest, nieuwe wensen
+Sinterklaas is een oud feest in Nederland. Kinderen zetten al meer dan honderd jaar hun schoen bij de deur. Maar het feest verandert: vroeger zat er een tekening in de schoen, nu steeds vaker een verlanglijstje — soms op papier, soms op een telefoon.
+Ook pakjesavond verandert. Vroeger kreeg je een cadeau in een doos; nu maken veel families een surprise: het cadeau zit verstopt in iets geks, met een gedicht erbij. Het gedicht is vaak het leukste van de avond — grappig, lief of een beetje plagend.
+Deskundigen zien het feest niet verdwijnen. Het Sinterklaasjournaal is elke dag om 18:00 uur op televisie en de landelijke intocht in Grave was live op NPO 3 te zien. Het feest verandert, zeggen zij — het verdwijnt niet.
+De twee weken rond Sinterklaas zijn ook anders dan vroeger. Sint-Maarten was vorige week woensdag: kinderen liepen met lampionnen langs de deuren. Nu staat de schoen klaar. Twee feesten van licht en geven, in twee weken — met twee soorten wensen: een wortel voor het paard, een lijstje voor de Sint.
+Een traditie leeft als mensen haar blijven vieren. Op straat, in de huiskamer of allebei: de schoen staat klaar als het donker wordt, en het gedicht klinkt op pakjesavond bij elk cadeau.
+## VOOR OF TEGEN EEN LIJSTJE?
+Voorstanders van het lijstje zeggen: zo krijgt iedereen wat hij echt wil. Tegenstanders zeggen: een verrassing is leuker dan een lijstje. De krant kiest niet: schrijf wat je wilt — maar schrijf het in het Nederlands.
+> het verlanglijstje wish list · de surprise disguised present · het gedicht poem · veranderen to change · de traditie tradition.
+### DE GRAFIEK　THE CHART
+Een wortel en een tekening 35
+Een verlanglijstje 30
+Een gedicht 20
+Nog niets 15
+OEFENDATA — verzonnen cijfers om mee te oefenen, geen echte enquête. Vraag: wat zet jij in je schoen? (100 jongeren)
+Practice data: made-up numbers, for practice only, not a real survey. Question: what do you put in your shoe? (100 young people)
+### VOOR OF TEGEN?　FOR OR AGAINST?
+Voor een lijstje: zo krijgt iedereen wat hij echt wil.
+Tegen een lijstje: een verrassing is leuker dan een lijstje.
+De krant kiest niet: schrijf wat je wilt. En jij?
+## OEFENINGEN　EXERCISES ON PAGE 6
+Answers on page 8　Levels are mixed; find your number
+## A　LEES DE GRAFIEK
+Answer from the chart on page 6 (practice data).
+83. [B2 · complete] ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — Correct: 35（35 young people put a carrot and a drawing in their shoe） [Fill in]
+84. [B2 · complete] ___ jongeren zetten een verlanglijstje in hun schoen. — Correct: 30（30 people put in a wish list） [Fill in]
+85. [B2 · complete] Wortel en verlanglijstje samen: ___ jongeren. — Correct: 65（35 + 30 = 65） [Fill in]
+86. [B2 · complete] ___ jongeren zetten nog niets in hun schoen. — Correct: 15（15 people put in nothing yet） [Fill in]
+87. [B2 · complete] De grafiek telt in totaal ___ jongeren. — Correct: 100（The chart counts 100 people in total: 35+30+20+15） [Fill in]
+## B　BEGRIJPEN
+Read the article on page 6 and choose the right answer.
+88. [B2 · choice] Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — Correct: B（People used to put a drawing in the shoe; now they often put a wish list）
+89. [B2 · choice] Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — Correct: B（A surprise is a present hidden inside strange packaging）
+90. [B2 · choice] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — Correct: C（The Sinterklaas news is on every day at 18:00）
+91. [B2 · choice] Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — Correct: A（A tradition lives on when people keep celebrating it）
+92. [B2 · choice] Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — Correct: B（St Martin's Day was last Wednesday）
+## C　WOORDEN
+Fill in with the words from the box.
+verlanglijstje · surprise · gedicht · veranderen
+93. [B2 · complete] Op het ___ staan drie wensen. — Correct: verlanglijstje（verlanglijstje = wish list (het)） [Fill in]
+94. [B2 · complete] Het cadeau zit verstopt in een ___. — Correct: surprise（surprise = disguised present (de)） [Fill in]
+95. [B2 · complete] Bij het cadeau hoort een ___ van vier regels. — Correct: gedicht（gedicht = poem (het)） [Fill in]
+96. [B2 · complete] Het feest ___ elk jaar een beetje. — Correct: verandert（veranderen → verandert (singular)） [Fill in]
+## D　MAAK DE ZINNEN
+Put the words in the right order to make sentences.
+97. [B2 · make sentences] sinterklaas / is / een oud feest / in nederland → ___ — Correct: Sinterklaas is een oud feest in Nederland.（Subject + verb + complement + place） [Make the sentence]
+98. [B2 · make sentences] de kinderen / zetten / hun schoen / bij de deur → ___ — Correct: De kinderen zetten hun schoen bij de deur.（Subject + verb + object + place） [Make the sentence]
+99. [B2 · make sentences] een traditie / leeft / als mensen haar blijven vieren → ___ — Correct: Een traditie leeft als mensen haar blijven vieren.（The als-clause comes last） [Make the sentence]
+100. [B2 · make sentences] het feest / verandert / maar het verdwijnt niet → ___ — Correct: Het feest verandert, maar het verdwijnt niet.（veranderen + maar + negation） [Make the sentence]
+
+## Pagina 7
+
+## A2　VOETBALWOORDEN
+De woorden van deze week horen bij het voetbal: de wedstrijd, de groepswinst, de kwartfinale en scoren. De wedstrijd is maandag in Berlijn: Duitsland tegen Nederland. De groepswinst is de eerste plaats in de groep.
+En scoren: wie een doelpunt maakt, scoort. Nederland maakte 7 doelpunten in vier wedstrijden — meer dan Griekenland (5). Daarom staat Oranje bovenaan. Onthoud ook: de schoen staat klaar voor Sinterklaas.
+de wedstrijd match; de groepswinst group win; de kwartfinale quarter-final; scoren to score.
+101. [A2 · complete] Duitsland – Nederland is een belangrijke ___. — Correct: wedstrijd（de wedstrijd = match） [Fill in]
+102. [A2 · complete] Wie pakt de ___ in groep 2? — Correct: groepswinst（de groepswinst = group win） [Fill in]
+103. [A2 · choice] «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — Correct: B（Group win means finishing first in the group）
+104. [A2 · complete] Nederland ___ (scoren) 7 keer in vier wedstrijden. — Correct: scoorde（Past tense of scoren: scoorde） [Fill in]
+## B1　DE VERLEDEN TIJD
+Nederlands vertelt over het verleden met de verleden tijd: spelen wordt speelde, winnen wordt won, verliezen wordt verloor, maken wordt maakte. Voorbeeld: «PSV won met 2–5 van Cambuur.» «Feyenoord verloor met 5–3 bij Heerenveen.»
+Let op: sommige werkwoorden zijn onregelmatig — winnen/won, verliezen/verloor. Andere zijn regelmatig: spelen/speelde, maken/maakte. Oefen met de uitslagen van deze week.
+speelde played; won won; verloor lost; maakte scored. The past tense talks about things that already happened.
+105. [B1 · complete] PSV ___ (winnen) met 2–5 van Cambuur. — Correct: won（winnen past tense: won） [Fill in]
+106. [B1 · complete] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Correct: verloor（verliezen past tense: verloor） [Fill in]
+107. [B1 · complete] Ajax ___ (spelen) 2–2 tegen Twente. — Correct: speelde（spelen past tense: speelde） [Fill in]
+108. [B1 · choice] «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — Correct: B（won is the past tense of winnen）
+## B2　BIJZINNEN MET OMDAT
+Met «omdat» zeg je waarom iets gebeurt: «Oranje staat bovenaan, omdat het meer doelpunten maakte.» «Sinterklaas komt 's nachts, omdat de kinderen dan slapen.» De bijzin met «omdat» staat achteraan; het werkwoord staat dan helemaal achteraan in de bijzin.
+Voorbeeld: «Ik zet mijn schoen, omdat ik een cadeautje wil.» «Het feest verandert, omdat mensen anders vieren.» Een omdat-zin is geen vraag — het is een reden: dit gebeurt, omdat dat.
+omdat because; omdat het meer doelpunten maakte because it scored more goals; omdat ik een cadeautje wil because I want a present.
+109. [B2 · complete] Oranje staat bovenaan, ___ het meer doelpunten maakte. — Correct: omdat（omdat = because） [Fill in]
+110. [B2 · choice] «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — Correct: B（An omdat-clause gives a reason, not a question）
+111. [B2 · complete] Ik zet mijn schoen, omdat ik een cadeautje ___. — Correct: wil（The verb goes at the end of the omdat-clause: wil） [Fill in]
+112. [B2 · complete] Oranje staat bovenaan, omdat het meer doelpunten ___. — Correct: maakte（In the omdat-clause, maakte goes last） [Fill in]
+### PAS OP!　WATCH OUT
+«De Oranje speelt maandag.»
+→ Fout: Oranje is een naam, zonder lidwoord: «Oranje speelt maandag.»
+Oranje is a proper name, so it takes no article.
+«Ik zet een schoen.»
+→ «De schoen zetten» vraagt een bezittelijk woord: «Ik zet mijn schoen.»
+mijn schoen = my shoe.
+«PSV winnen met 2–5.»
+→ De verleden tijd van winnen is won: «PSV won met 2–5.»
+The past tense of winnen is won.
+«Omdat het regent, ik blijf thuis.»
+→ Na de omdat-zin staat het werkwoord vooraan: «... blijf ik thuis.»
+After an omdat-clause, the main-clause verb comes first: blijf ik thuis.
+### HET WOORD　WORD OF THE WEEK
+«de groepswinst» betekent: de eerste plaats in de groep. Wie de groepswinst pakt, gaat als nummer één naar de kwartfinales.
+groepswinst = group win: first in the group, and the winner goes to the quarter-finals.
+### BRIEVEN VAN LEZERS
+«Hallo! Ik ben Anna en ik leer Nederlands. Maandag kijk ik naar Oranje tegen Duitsland — en daarna zet ik mijn schoen!» — Anna (voorbeeldbrief van de redactie)
+Ter perse: nog geen echte brieven of beste pagina-8-teksten binnen — daarom dit voorbeeld; belofte naar VOL.5.
+No letters or best P8 texts yet — an example; VOL.5 next.
+Editor's example, not a real letter. Send yours — we print them in VOL.5!
+## ZINNEN VAN DE WEEK　SENTENCES OF THE WEEK (VERBATIM FROM THIS ISSUE)
+> «Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland» — On Monday 16 November, Oranje play Germany in Berlin. (Pagina 1)
+> «Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten» — After four matches, the Netherlands and Greece top the table together on 8 points. (Pagina 1)
+> «Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus» — Saturday 5 December is Pakjesavond: the evening of the big presents. (Pagina 2)
+> «Op zaterdag 14 november kwam Sinterklaas officieel aan in Nederland» — On Saturday 14 November, Sinterklaas officially arrived in the Netherlands. (Pagina 3)
+> «Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5» — The Netherlands are first because they scored more goals: 7 against 5. (Pagina 4)
+> «Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4» — Every Sunday at 20:00, Expeditie Robinson is on RTL 4. (Pagina 5)
+> «Sinterklaas is een oud feest in Nederland» — Sinterklaas is an old Dutch festival. (Pagina 6)
+> «Een traditie leeft als mensen haar blijven vieren» — A tradition lives on when people keep celebrating it. (Pagina 6)
+### VOLGENDE WEEK　NEXT WEEK (VOL.5)
+Dinsdag 24 november is er Europees voetbal: Real Madrid – PSV en Feyenoord – FC Porto. Zondag 29 november is het Feyenoord – Ajax. En zaterdag 5 december is het pakjesavond. Verder: jullie brieven en de beste teksten van pagina 8. Tot maandag!
+
+## Pagina 8
+
+## A　VUL DE KRONIEK IN
+113. [B1 · cloze choice] Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — Correct: B（Germany–Netherlands, Monday, in Berlin）
+114. [B1 · cloze choice] Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — Correct: B（The Netherlands and Greece both have 8 points）
+115. [B1 · cloze choice] Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — Correct: A（The Netherlands scored 7 goals）
+116. [B1 · cloze choice] Pakjesavond is op ___ december. (A. november · B. december) — Correct: B（Pakjesavond is in December）
+117. [B1 · cloze choice] Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — Correct: B（The Sinterklaas news at 18:00）
+118. [B1 · cloze choice] Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — Correct: B（Robinson is on RTL 4）
+119. [B1 · cloze choice] Bij een surprise hoort een ___. (A. liedje · B. gedicht) — Correct: B（A disguised present holds a poem）
+120. [B1 · cloze choice] «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — Correct: B（groepswinst = group win）
+## B　ALGEMENE VRAGEN
+121. [A2 · choice] Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — Correct: A（The Sinterklaas news is on every day at 18:00）
+122. [A2 · choice] Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — Correct: B（Grave lies on the river Maas）
+123. [A2 · choice] De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — Correct: B（The Amsterdam arrival is the 88th edition）
+124. [B1 · choice] Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — Correct: A（Het diner was published in 2009）
+125. [B1 · choice] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Correct: B（Germany lost 0–1 at home to Greece）
+126. [B1 · choice] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Correct: B（PSV lead the Eredivisie with 26 points）
+127. [B2 · choice] Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — Correct: B（A tradition lives on when people keep celebrating it）
+128. [B1 · choice] Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — Correct: C（Eredivisie matchday 13 is on 21–22 November）
+## C　LEES EN ANTWOORD
+Daan woont in Rotterdam. Op maandag 16 november kijkt hij om 20:45 uur naar Duitsland – Nederland in Berlijn. Elke dag kijkt hij om 18:00 uur naar het Sinterklaasjournaal. Zaterdag 21 november kijkt hij naar NEC – PSV. Zondag zet hij zijn schoen met een wortel en een verlanglijstje. Op zondagavond kijkt hij ook naar Expeditie Robinson.
+129. [A2 · choice] Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — Correct: B（Daan lives in Rotterdam）
+130. [A2 · choice] Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — Correct: B（On Monday he watches Germany–Netherlands）
+131. [A2 · choice] Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — Correct: B（He puts a carrot and a wish list in his shoe）
+132. [B1 · choice] Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — Correct: B（He watches the Sinterklaas news every day at 18:00）
+## D　MAAK DE ZINNEN
+133. [A2 · make sentences] het sinterklaasjournaal / begint / om 18:00 uur → ___ — Correct: Het Sinterklaasjournaal begint om 18:00 uur.（Subject + verb + time） [Make the sentence]
+134. [B1 · make sentences] wij / zetten / onze schoen / bij de deur → ___ — Correct: Wij zetten onze schoen bij de deur.（Subject + verb + object + place） [Make the sentence]
+135. [B1 · make sentences] oranje / speelt / maandag / in berlijn → ___ — Correct: Oranje speelt maandag in Berlijn.（Subject + verb + time + place） [Make the sentence]
+136. [B1 · make sentences] ik / zet / mijn schoen / met een wortel → ___ — Correct: Ik zet mijn schoen met een wortel.（Subject + verb + object + manner） [Make the sentence]
+## E　VERTAAL
+137. [A2 · translate] Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — Correct: The Sinterklaas news is on every day at 18:00.（Compare with the page 3 article） [Translate into English]
+138. [B1 · translate] De nummers één en twee gaan naar de kwartfinales. → ___ — Correct: The top two go through to the quarter-finals.（Original sentence from page 4 · kwartfinale = quarter-final） [Translate into English]
+139. [B1 · translate] The arrival in Amsterdam is the 88th edition. → ___ — Correct: De intocht in Amsterdam was de 88e editie.（Watch the ordinal 88e） [Translate into Dutch]
+140. [B2 · translate] I am making a surprise with a little poem. → ___ — Correct: Ik maak een surprise met een kort gedicht.（surprise is a fixed expression） [Translate into Dutch]
+## F　WOORDEN VAN DE WEEK
+141–144. [B2 · matching] Match word to meaning
+141. het journaal — een dagelijks nieuwsprogramma op televisie (Correct b · journaal = news programme b)
+142. de groepswinst — de eerste plaats in de groep (Correct c · groepswinst = group win c)
+143. de schoen — die staat 's avonds bij de deur (Correct d · schoen = shoe d)
+144. het gedicht — een klein versje bij een cadeau (Correct a · gedicht = poem a)
+## G　DIALOOG BIJ DE SCHOEN
+145. [B1 · cloze choice] — Mama, waar moet mijn ___? (A. schoen · B. boek) — Correct: A（schoen = shoe）
+146. [B1 · cloze choice] — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — Correct: A（wortel = carrot (for the horse)）
+147. [B1 · cloze choice] — En mijn ___ erin? (A. verlanglijstje · B. journaal) — Correct: A（verlanglijstje = wish list）
+148. [B1 · cloze choice] — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — Correct: B（cadeautje = little present）
+149. [B1 · cloze choice] — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — Correct: A（18:00 = the Sinterklaas news time）
+## H　SCHRIJF ZELF
+Writing task (no single answer); model text (81 words) below.
+150. [B1 · writing] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Correct: (open task, model text below)（See the model text in section H (81 words)） [Write]
+Tekstmodel: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedicht voor mijn surprise. Zaterdag kijk ik naar NEC – PSV. Zondag zet ik mijn schoen met een wortel en een verlanglijstje. Zondagavond kijk ik naar Expeditie Robinson. Daarna is het bijna pakjesavond, op zaterdag 5 december. Ik hoop op een boek. Wat een week vol voetbal en licht!

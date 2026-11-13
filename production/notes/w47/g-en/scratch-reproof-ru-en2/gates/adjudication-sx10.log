@@ -1,0 +1,53 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+Counter({'CLEAR': 37, 'OVERLAP': 5})
+ !! ('p1-pervaya.svg', 'TEXTX', 'Краснодар', 'OVERLAP card=0px pdf=1px', "vs '» — ' J=231 lightbg/lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP card=0px pdf=1px', "vs '» ' J=231 lightbg/lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP card=0px pdf=1px', "vs '» — ' J=231 lightbg/lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP card=0px pdf=1px', "vs '»' J=1172 lightbg/lightbg")
+ !! ('p7-yazyk.svg', 'TEXTX', 'Кипренского', 'OVERLAP card=7px pdf=0px', "vs ', 1827 ' J=565 lightbg/darkbg")
+--- all ---
+p1-pervaya.svg TEXTX 'Зенит' CLEAR card=3px pdf=4px vs '» ' J=546 lightbg/lightbg
+p1-pervaya.svg TEXTX 'Динамо' CLEAR card=3px pdf=6px vs '» — ' J=892 lightbg/lightbg
+p1-pervaya.svg TEXTX 'тур' CLEAR card=5px pdf=5px vs ': «' J=321 lightbg/lightbg
+p1-pervaya.svg TEXTX 'пятница' CLEAR card=2px pdf=2px vs '»: ' J=1669 lightbg/lightbg
+p1-pervaya.svg TEXTX 'третий' CLEAR card=6px pdf=6px vs ', ' J=330 lightbg/lightbg
+p1-pervaya.svg TEXTX 'субботу' CLEAR card=6px pdf=6px vs ',' J=500 lightbg/lightbg
+p1-pervaya.svg TEXTX 'Краснодар' OVERLAP card=0px pdf=1px vs '» — ' J=231 lightbg/lightbg
+p1-pervaya.svg TEXTX 'Краснодаре' CLEAR card=5px pdf=5px vs ',' J=502 lightbg/lightbg
+p1-pervaya.svg TEXTX '!' CLEAR card=5px pdf=5px vs 'истории' J=382 lightbg/lightbg
+p1-pervaya.svg TEXTX 'ЦСКА' CLEAR card=2px pdf=1px vs '? A.' J=898 lightbg/lightbg
+p2-zhizn.svg TEXTX 'толерантности' CLEAR card=7px pdf=7px vs '.' J=1819 lightbg/lightbg
+p2-zhizn.svg TEXTX 'студента' CLEAR card=6px pdf=6px vs '.' J=1750 lightbg/lightbg
+p2-zhizn.svg TEXTX 'студента' CLEAR card=6px pdf=6px vs '.' J=475 lightbg/lightbg
+p2-zhizn.svg TEXTX '! ' CLEAR card=5px pdf=5px vs 'студента' J=717 lightbg/lightbg
+p2-zhizn.svg TEXTX 'студенту' CLEAR card=6px pdf=6px vs ', ' J=669 lightbg/lightbg
+p2-zhizn.svg TEXTX 'спасибо' CLEAR card=6px pdf=6px vs '.' J=185 lightbg/lightbg
+p3-kultura.svg TEXTX 'биография' CLEAR card=5px pdf=5px vs ':' J=434 lightbg/lightbg
+p3-kultura.svg TEXTX 'посмотреть' CLEAR card=5px pdf=5px vs ': ' J=230 lightbg/lightbg
+p3-kultura.svg TEXTX ')' CLEAR card=5px pdf=5px vs 'посмотреть' J=664 lightbg/lightbg
+p4-sport.svg TEXTX 'место' CLEAR card=6px pdf=6px vs '.' J=443 lightbg/lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP card=0px pdf=1px vs '» ' J=231 lightbg/lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP card=0px pdf=1px vs '» — ' J=231 lightbg/lightbg
+p4-sport.svg TEXTX 'Россия' CLEAR card=6px pdf=6px vs ', ' J=665 lightbg/lightbg
+p4-sport.svg TEXTX 'истории' CLEAR card=6px pdf=6px vs '; ' J=1210 lightbg/lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP card=0px pdf=1px vs '»' J=1172 lightbg/lightbg
+p4-sport.svg TEXTX 'ЦСКА' CLEAR card=1px pdf=1px vs '? A.' J=471 lightbg/lightbg
+p5-molodezh.svg TEXTX 'пятница' CLEAR card=3px pdf=2px vs '»:' J=384 lightbg/lightbg
+p5-molodezh.svg TEXTX 'смартфоны' CLEAR card=6px pdf=6px vs ',' J=948 lightbg/lightbg
+p6-razbor.svg TEXTX 'студента' CLEAR card=6px pdf=6px vs ', ' J=424 lightbg/lightbg
+p6-razbor.svg TEXTX 'сбивается' CLEAR card=7px pdf=7px vs '.' J=1570 lightbg/lightbg
+p6-razbor.svg TEXTX 'Планируйте' CLEAR card=6px pdf=6px vs ': ' J=349 lightbg/lightbg
+p6-razbor.svg TEXTX '?\u3000' CLEAR card=3px pdf=4px vs 'НЕДЕЛЕ' J=530 lightbg/lightbg
+p7-yazyk.svg TEXTX 'ЯЗЫК' CLEAR card=11px pdf=12px vs '\u3000LANGUAGE' J=251 darkbg/darkbg
+p7-yazyk.svg TEXTX 'прессы' CLEAR card=7px pdf=7px vs ',' J=1394 lightbg/lightbg
+p7-yazyk.svg TEXTX '!»' CLEAR card=4px pdf=2px vs 'студента' J=1800 lightbg/lightbg
+p7-yazyk.svg TEXTX 'пресс' CLEAR card=3px pdf=3px vs '-' J=1236 lightbg/lightbg
+p7-yazyk.svg TEXTX 'пятница' CLEAR card=2px pdf=3px vs '»' J=1817 lightbg/lightbg
+p7-yazyk.svg TEXTX '!» — ' CLEAR card=3px pdf=3px vs 'студента' J=1558 lightbg/lightbg
+p7-yazyk.svg TEXTX 'Кипренского' OVERLAP card=7px pdf=0px vs ', 1827 ' J=565 lightbg/darkbg
+p7-yazyk.svg TEXTX 'поступило' CLEAR card=6px pdf=6px vs ': ' J=1578 lightbg/lightbg
+p8-test.svg TEXTX 'ОТВЕТЫ' CLEAR card=11px pdf=13px vs '\u3000TEST AND ANSWERS' J=472 darkbg/darkbg
+p8-test.svg TEXTX 'ОТВЕТЫ' CLEAR card=12px pdf=12px vs '\u3000ANSWER KEY — ARRANG' J=190 lightbg/lightbg
+min card gap: 1
+min pdf gap: 1

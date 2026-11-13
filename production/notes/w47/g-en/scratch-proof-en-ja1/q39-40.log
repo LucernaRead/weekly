@@ -1,0 +1,21 @@
+38 page 3 key: 'b' | note: 'tribute = 選手 b'
+39 page 3 key: 'a' | note: 'mentor = 指導者 a'
+40 page 3 key: 'd' | note: 'arena = 競技場 d'
+41 page 3 key: 'c' | note: 'campmate = キャンプ仲間 c'
+46 page 4 key: 'A' | note: '2025–26年アッシュズ初戦は2025年11月21日金曜日、パース'
+52 page 4 key: 'hosted' | note: 'host → hosted（過去形）'
+55 page 4 key: 'won' | note: 'win → won（過去形）'
+125 page 8 key: 'A' | note: 'オーストラリアが2025–26年のアッシュズを4–1で制した'
+137 page 8 key: '民主党は下院と上院で勝利した。' | note: 'the House and the Senate = 下院と上院'
+138 page 8 key: '開票はまだ続いている。' | note: 'continues = まだ続いている'
+139 page 8 key: '新議会は2027年1月に開会する。' | note: 'will meet = 開会する'
+140 page 8 key: '沈黙を破れ。' | note: 'Break the silence.'
+150 page 8 key: '自由記述 — 要点は作文の枠内、模範文は8ページの作文枠の中' | note: '要点ごとに採点'
+stem def present: a person who teaches and guides you -> False
+stem def present: a person chosen to take part in the Games -> False
+stem def present: a person who lives with you in the jungle camp -> False
+stem def present: the place where the Games are fought -> False
+P3 word mentor: 3 hits
+P3 word tribute: 5 hits
+P3 word campmate: 3 hits
+P3 word arena: 4 hits

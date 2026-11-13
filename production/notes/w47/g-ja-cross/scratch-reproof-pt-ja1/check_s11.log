@@ -1,0 +1,20 @@
+p1-capa.svg: chip rects core=10 ed=10
+p2-vida.svg: chip rects core=15 ed=15
+p3-cultura.svg: chip rects core=18 ed=18
+p4-esporte.svg: chip rects core=15 ed=15
+p5-jovens.svg: chip rects core=18 ed=18
+p6-aprofundamento.svg: chip rects core=18 ed=18
+p7-lingua.svg: chip rects core=12 ed=12
+p8-avaliacao.svg: chip rects core=35 ed=35
+colour set: core 21 edition 21 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min font-size: 13.5 SVG units = 10.125 pt
+P8 number 113. present at y=243.0
+P8 number 120. present at y=757.7249999999998
+P8 number 145. present at y=1201.1749999999997
+P8 Q120 [B1] chip OK
+P8 'E TRADUZA' section head present
+P8 '訳' tags: 4
+ALL §1.1/P8 CHECKS PASS

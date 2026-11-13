@@ -1,0 +1,38 @@
+D1 P6 kicker: 1 line(s)
+   y=1552.0: 'ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000OEFENGEGEVENS'
+D1 P6 Dutch disclaimer (line join): 1 line(s)
+   y=1582.0: 'Это учебный опрос редакции для упражнений — не настоящая статистика. Dit is een oefenenquête van de redactie — geen echte statistiek.'
+D1 P6 RU disclaimer line: 1 line(s)
+   y=1582.0: 'Это учебный опрос редакции для упражнений — не настоящая статистика. Dit is een oefenenquête van de redactie — geen echte statistiek.'
+D2 P7 subtitle RU: 1 line(s)
+   y=168.0: "Фокус на язык\u3000Три уровня, три темы\u3000Drie niveaus, drie thema's"
+D2 P7 subtitle RU lead: 1 line(s)
+   y=168.0: "Фокус на язык\u3000Три уровня, три темы\u3000Drie niveaus, drie thema's"
+D2 P7 band title: 1 line(s)
+   y=142.0: 'ЯЗЫК\u3000TAALLucerna'
+D2 P8 subtitle: 1 line(s)
+   y=168.0: 'PAGINA 8\u3000Большой тест недели + все ответы'
+D2 P8 subtitle tail: 1 line(s)
+   y=168.0: 'PAGINA 8\u3000Большой тест недели + все ответы'
+Q25 День студента P2: 4 line(s)
+   y=168.0: 'УРОВЕНЬ A2\u3000День студента, день рождения Деда Мороза и погода\u3000Studentendag, verjaardag van Grootvader Vorst en het weer'
+   y=352.5: '17 ноября — День студента.'
+   y=2162.0: 'b. День студента'
+Q25 студента P2 (any): 7 line(s)
+   y=168.0: 'УРОВЕНЬ A2\u3000День студента, день рождения Деда Мороза и погода\u3000Studentendag, verjaardag van Grootvader Vorst en het weer'
+   y=352.5: '17 ноября — День студента.'
+   y=428.7: 'Международный день студента.'
+reg type: list len: 150
+reg[19] (Q20): {"n": 20, "page": 2, "level": "B1", "type": "Voltooi de zin", "key": "желании", "note": "желание = een wens"}
+reg[24] (Q25): {"n": 25, "page": 2, "level": "A2", "type": "Woorden koppelen", "key": "b", "note": "Studentendag b"}
+p8 type: dict
+p8 keys sample: ['p8', 'total', 'how', 'noted_set', 'keys']
+content12.py:18 = 'p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")' double-space=True
+  content12.py:15: 'p.text(RIGHT, 92, "НЕДЕЛЯ С 16 ПО 22 НОЯБРЯ 2026 ГОДА", 17, "sans", False, GREY, anchor="end", spacing=1.7)'
+  content12.py:16: 'p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")'
+  content12.py:17: 'p.text(975, 330, "РУССКАЯ ГАЗЕТА\u3000VOL.4\u3000ФУТБОЛ\u3000РАСПРОДАЖИ\u3000КИНО", 36, "serif", True, OLIVE, anchor="middle", spacing=6)'
+  content12.py:18: 'p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")'
+  content12.py:19: '# D2-kicker fix (2026-11-11, ru-zh-tw proof1 D2): the 9 single spaces in this'
+  content12.py:20: '# kicker were double-spaced. Noto Sans CJK SC space is only 3.58px at 16px'
+  content12.py:21: '# and neighbouring glyphs overhang their advance, so word-ink gaps were'
+  content12.py:22: '# 1.4–2.6px (ГАЗЕТА/ДЛЯ, ИЗУЧАЮЩИХ/РУССКИЙ, НАСТОЯЩАЯ/РОССИЯ); routing the'

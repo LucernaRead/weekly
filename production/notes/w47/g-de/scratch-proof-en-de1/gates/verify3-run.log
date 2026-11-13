@@ -1,0 +1,74 @@
+== 1. three-source keys: text.md answers parsed 150 ==
+  Q150 p8-extract 'Offene Aufgabe' vs registry 'Offene Aufgabe — Stichpunkte im Schreibkasten; Mustertext im Kasten auf Seite 8' — short-label exception (expected)
+  mismatches: 0
+  per-page counts: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+  per-level counts: {'A2': 62, 'B1': 66, 'B2': 22}
+== 2. orphan punctuation (SVG text elements) ==
+  p1-front.svg: 0 []
+  p2-life.svg: 0 []
+  p3-culture.svg: 0 []
+  p4-sport.svg: 0 []
+  p5-youth.svg: 0 []
+  p6-deep.svg: 0 []
+  p7-lang.svg: 0 []
+  p8-test.svg: 0 []
+  TOTAL orphan lines: 0
+== 2b. orphan punctuation (PDF text lines, print) ==
+  lone-punct lines in print text: 0 []
+== 3. P7 D1 regression (golden-sentence source lines) ==
+  source lines: 8
+    x=538.5 y=1432.7599999999995 '—— From page 2 of this issue.'
+    x=538.5 y=1539.2299999999993 '—— From page 1 of this issue.'
+    x=538.5 y=1679.0699999999993 '—— From page 4 of this issue.'
+    x=538.5 y=1818.9099999999992 '—— From page 6 of this issue.'
+    x=538.5 y=1958.749999999999 '—— From page 6 of this issue.'
+    x=538.5 y=2131.959999999999 '—— From page 3 of this issue.'
+    x=538.5 y=2305.169999999999 '—— From page 5 of this issue.'
+    x=538.5 y=2545.119999999999 '—— From page 1 of this issue.'
+  col3 flow top 3 (x=989): [(989.0, 228.0, 'THE DRILLS\u3000Übungen'), (989.0, 274.5, 'Fülle die Lücken mit diesen Wörtern: won /'), (989.0, 304.225, 'more / lost / will / published / whether /')]
+  col2 y 2400-2560: [(2424.009999999999, '435 seats in the House of'), (2457.379999999999, 'Representatives, for 35 seats in the'), (2490.749999999999, 'Senate, and for governor in 36 states.”'), (2545.119999999999, '—— From page 1 of this issue.')]
+  D1 fixed: YES
+== 4. fix1 two gloss strings (proof2-verified wording carried into rebuild) ==
+  new1 'Win ist Gegenwart; won ist Vergangenheit (hat'…: text.md=True svg=True print-text=False
+  new2 'past simple = einfache Vergangenheit; unregel'…: text.md=True svg=True print-text=False
+  old1 '(gewinnt immer wieder)'…: text.md=False svg=False print-text=False
+  old2 'für Geschehenes'…: text.md=False svg=False print-text=False
+== 5. golden sentences verbatim (print text) ==
+  [P1] HIT: On Tuesday, November 3, Americans voted in the midterm elect…
+  [P1] HIT: A “call” is not the official result.…
+  [P2] HIT: The vote is over. The counting is not.…
+  [P3] HIT: Two jungles, one week: a painted jungle in the cinema, and a…
+  [P4] HIT: The Ashes are not a sport for early nights.…
+  [P5] HIT: A small act is not small to the person it helps — and a loud…
+  [P6] HIT: The map is drawn. The work starts in January.…
+  [P6] HIT: A midterm changes Congress, not the President.…
+== 6. ban-word scan (print text) ==
+  (no lines above = zero hits)
+== 7. VOL counts (print text) ==
+  VOL.4: 12
+  VOL.5: 8
+  VOL.3: 3
+  VOL. 4: 1
+== 8. badge rect counts (SVG 60x30 chips) ==
+  p1-front.svg: 60x30 chips edition 10 vs core 10 | LV-fill rects edition 16 vs core 16 OK
+  p2-life.svg: 60x30 chips edition 14 vs core 14 | LV-fill rects edition 15 vs core 15 OK
+  p3-culture.svg: 60x30 chips edition 15 vs core 15 | LV-fill rects edition 16 vs core 16 OK
+  p4-sport.svg: 60x30 chips edition 15 vs core 15 | LV-fill rects edition 16 vs core 16 OK
+  p5-youth.svg: 60x30 chips edition 15 vs core 15 | LV-fill rects edition 16 vs core 16 OK
+  p6-deep.svg: 60x30 chips edition 18 vs core 18 | LV-fill rects edition 19 vs core 19 OK
+  p7-lang.svg: 60x30 chips edition 12 vs core 12 | LV-fill rects edition 13 vs core 13 OK
+  p8-test.svg: 60x30 chips edition 22 vs core 22 | LV-fill rects edition 23 vs core 23 OK
+== 9. U+2019 and real CJK (visible SVG text) ==
+  U+2019 total: 0
+  CJK chars: {'U+3000': 141, '三': 1, '色': 1, '蛾': 1}
+== 10. Q38-41 four-way (stem / options / key / note) ==
+  option a: a person who teaches and guides
+  option b: a person chosen to take part in the
+  option c: a person who lives with you in the
+  option d: the place where the Games are
+  Q38: registry key=b note='tribute = Teilnehmer b' | text.md key=b note='tribute = Teilnehmer b' | p8 key=b | CONSISTENT
+  Q39: registry key=a note='mentor = Mentor a' | text.md key=a note='mentor = Mentor a' | p8 key=a | CONSISTENT
+  Q40: registry key=d note='arena = Arena d' | text.md key=d note='arena = Arena d' | p8 key=d | CONSISTENT
+  Q41: registry key=c note='campmate = Mitbewohner im Camp c' | text.md key=c note='campmate = Mitbewohner im Camp c' | p8 key=c | CONSISTENT
+  semantic: 38 tribute -> b 'chosen to take part' | 39 mentor -> a 'teaches and guides' | 40 arena -> d 'place where Games are fought' | 41 campmate -> c 'lives with you in camp'
+== DONE ==

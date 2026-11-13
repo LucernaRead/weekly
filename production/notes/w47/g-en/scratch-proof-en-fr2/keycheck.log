@@ -1,0 +1,11 @@
+extract keys present: 150
+extract json top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+extract-vs-registry mismatches: [(150, "Tâche ouverte — points dans le cadre d'écriture ; texte modèle dans le cadre de cette page", 'Tâche ouverte')]
+registry total: 150 core total: 150
+registry-vs-core key diffs: [(137, 'Les démocrates ont remporté la Chambre et le Sénat.', '民主党赢下了众议院和参议院。'), (138, 'Le dépouillement continue.', '计票仍在继续。'), (139, 'Le nouveau Congrès se réunira en janvier 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Brisez le silence.', '打破沉默。'), (150, "Tâche ouverte — points dans le cadre d'écriture ; texte modèle dans le cadre de cette page", '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q73 registry: [{'n': 73, 'page': 5, 'level': 'A2', 'type': 'Compléter', 'key': 'up', 'note': 'speak up = parler franchement'}]
+Q38-41: [(38, 'b'), (39, 'a'), (40, 'd'), (41, 'c')]
+Q125: [{'n': 125, 'page': 8, 'level': 'B1', 'type': 'Choix multiple', 'key': 'A', 'note': "L'Australie a remporté les Ashes 2025–26 par 4–1"}] Q46: [{'n': 46, 'page': 4, 'level': 'B1', 'type': 'Choix multiple', 'key': 'A', 'note': 'Premier test des Ashes 2025–26 : vendredi 21 novembre 2025, à Perth'}] Q52: [{'n': 52, 'page': 4, 'level': 'B1', 'type': 'Compléter', 'key': 'hosted', 'note': 'host → hosted (passé)'}] Q55: [{'n': 55, 'page': 4, 'level': 'A2', 'type': 'Compléter', 'key': 'won', 'note': 'win → won (passé)'}]
+Q82/83/84: [(82, 'B'), (83, 'C'), (84, 'A')]
+pages: Counter({8: 39, 3: 18, 4: 18, 5: 18, 6: 18, 2: 17, 7: 12, 1: 10})
+levels: Counter({'B1': 66, 'A2': 62, 'B2': 22})

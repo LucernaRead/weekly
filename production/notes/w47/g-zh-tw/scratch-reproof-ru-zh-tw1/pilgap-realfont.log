@@ -1,0 +1,60 @@
+P8 blank pairs (real Newsreader):
+   y=264.8 '___ ' -> 'ноября' PILgap=-0.10px
+   y=330.6 '— ___ ' -> 'ноября' PILgap=0.10px
+   y=396.4 '— ___ ' -> 'ноября' PILgap=0.10px
+   y=462.2 '___ ' -> 'ноября' PILgap=0.00px
+   y=528.0 '___ ' -> 'ноября' PILgap=-0.10px
+   y=593.8 '___ ' -> 'ноября' PILgap=-0.10px
+   y=659.7 '___ ' -> 'ноября' PILgap=-0.10px
+   y=725.5 '___ ' -> 'ноября' PILgap=-0.10px
+   y=992.0 '___. (A. ' -> 'скидкой' PILgap=0.00px
+   y=1077.9 '___. (A. ' -> 'пятница' PILgap=0.10px
+   y=1143.7 '___, ' -> 'пожалуйста' PILgap=0.05px
+   y=1209.5 '___. (A. ' -> 'целый' PILgap=0.10px
+   y=225.8 '___! (A. ' -> 'скидок' PILgap=0.00px
+   total blank pairs: 13
+Newsreader 13.8 '— ___ ' advance: 129.875  ink r: 32.5
+NotoSerif 13.8 '— ___ ' advance: 159.34375  ink r: 39.75
+flags PILgap with real fonts:
+  # 1 p1-pervaya.svg 'Зенит' old PILgap: 0.05
+  # 2 p1-pervaya.svg 'Динамо' old PILgap: -0.05
+  # 3 p1-pervaya.svg 'тур' old PILgap: -0.1
+  # 4 p1-pervaya.svg 'пятница' old PILgap: 0.05
+  # 5 p1-pervaya.svg 'третий' old PILgap: 0.15
+  # 6 p1-pervaya.svg 'субботу' old PILgap: -0.15
+  # 7 p1-pervaya.svg 'Краснодар' old PILgap: -0.1
+  # 8 p1-pervaya.svg 'Краснодаре' old PILgap: -0.05
+  # 9 p1-pervaya.svg '!' old PILgap: 0.1
+  # 10 p1-pervaya.svg 'ЦСКА' old PILgap: 0.0
+  # 11 p2-zhizn.svg 'толерантности' old PILgap: 0.15
+  # 12 p2-zhizn.svg 'студента' old PILgap: -0.05
+  # 13 p2-zhizn.svg 'студента' old PILgap: -0.1
+  # 14 p2-zhizn.svg '! ' old PILgap: -0.1
+  # 15 p2-zhizn.svg 'студенту' old PILgap: -0.25
+  # 16 p2-zhizn.svg 'спасибо' old PILgap: 0.15
+  # 17 p3-kultura.svg 'биография' old PILgap: 0.0
+  # 18 p3-kultura.svg 'посмотреть' old PILgap: 0.0
+  # 19 p3-kultura.svg ')' old PILgap: 0.05
+  # 20 p4-sport.svg 'место' old PILgap: 0.0
+  # 21 p4-sport.svg 'Краснодар' old PILgap: -0.1
+  # 22 p4-sport.svg 'Краснодар' old PILgap: -0.1
+  # 23 p4-sport.svg 'Россия' old PILgap: -0.1
+  # 24 p4-sport.svg 'истории' old PILgap: 0.1
+  # 25 p4-sport.svg 'Краснодар' old PILgap: -0.1
+  # 26 p4-sport.svg 'ЦСКА' old PILgap: -0.05
+  # 27 p5-molodezh.svg 'пятница' old PILgap: 0.1
+  # 28 p5-molodezh.svg 'смартфоны' old PILgap: 0.0
+  # 29 p6-razbor.svg 'студента' old PILgap: 0.0
+  # 30 p6-razbor.svg 'сбивается' old PILgap: 0.0
+  # 31 p6-razbor.svg 'Планируйте' old PILgap: 0.05
+  # 32 p6-razbor.svg '?\u3000' old PILgap: 0.15
+  # 33 p7-yazyk.svg '\u3000語言' old PILgap: 0.0
+  # 34 p7-yazyk.svg 'прессы' old PILgap: 0.0
+  # 35 p7-yazyk.svg '!»' old PILgap: -0.15
+  # 36 p7-yazyk.svg 'пресс' old PILgap: -0.05
+  # 37 p7-yazyk.svg 'пятница' old PILgap: -0.15
+  # 38 p7-yazyk.svg '!» — ' old PILgap: -0.05
+  # 39 p7-yazyk.svg 'Кипренского' old PILgap: 0.05
+  # 40 p7-yazyk.svg 'поступило' old PILgap: 0.05
+  # 41 p8-test.svg '\u3000練習與答案' old PILgap: 0.05
+  # 42 p8-test.svg '\u3000參考答案 — 按版面分頁排列，找到題號即可' old PILgap: 0.0

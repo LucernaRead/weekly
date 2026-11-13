@@ -1,0 +1,56 @@
+chips: {1: 10, 2: 15, 3: 18, 4: 15, 5: 18, 6: 18, 7: 12, 8: 35} TOTAL 141 P8 levels: {'A2': 22, 'B1': 13}
+U+201C: per-page [5, 0, 0, 0, 6, 0, 21, 3] TOTAL 35
+U+201D: per-page [0, 0, 0, 0, 0, 0, 0, 0] TOTAL 0
+U+201E: per-page [5, 0, 0, 0, 6, 0, 21, 3] TOTAL 35
+U+2019: per-page [0, 0, 0, 0, 0, 0, 0, 0] TOTAL 0
+U+0022: per-page [0, 0, 0, 0, 0, 0, 0, 0] TOTAL 0
+U+0027: per-page [1, 2, 1, 1, 2, 1, 3, 0] TOTAL 11
+core-de U+201C: per-page [5, 0, 0, 0, 6, 0, 21, 1] TOTAL 33
+core-de U+201D: per-page [0, 0, 0, 0, 0, 0, 0, 0] TOTAL 0
+P8 quote string: 'schöne Woche“, sagt Frau Berger.'
+P8 quote string: '“'
+P8 quote string: '“'
+p1 CJK chars in <text>: ['\u3000']
+p2 CJK chars in <text>: ['\u3000']
+p3 CJK chars in <text>: ['\u3000']
+p4 CJK chars in <text>: ['\u3000']
+p5 CJK chars in <text>: ['\u3000']
+p6 CJK chars in <text>: ['\u3000']
+p7 CJK chars in <text>: ['\u3000']
+p8 CJK chars in <text>: ['\u3000']
+forbidden scan done (only hits printed)
+VOL.4 count: 9 | VOL.3: 0 | VOL.2: 0 | VOL.5: 6
+footer exact x8: 8
+Q34 content34.py new/old: 1 0
+Q34 text.md new/old: 1 0
+Q34 P3 SVG new/old: 1 0
+Q34 core content34.py new/old: 1 0
+pdftotext default: print 50433B web 50433B multiset-identical=True
+pdftotext raw: print 49277B web 49277B normalised-identical=True
+Q34 print text layer new/old: 1 0
+Q34 web text layer new/old: 1 0
+page 1: print 4928B web 4928B multiset-identical=True
+page 2: print 4837B web 4837B multiset-identical=True
+page 3: print 6153B web 6153B multiset-identical=True
+page 4: print 5438B web 5438B multiset-identical=True
+page 5: print 5413B web 5413B multiset-identical=True
+page 6: print 5442B web 5442B multiset-identical=True
+page 7: print 5556B web 5556B multiset-identical=True
+page 8: print 12666B web 12666B multiset-identical=True
+P1 frozen intersection: 147 (claimed 147) sha 083e2a2a claimed 083e2a2a match=True
+P2 frozen intersection: 163 (claimed 163) sha 689045ad claimed 689045ad match=True
+P3 frozen intersection: 195 (claimed 195) sha fc88f676 claimed fc88f676 match=True
+P4 frozen intersection: 166 (claimed 166) sha df1bebf7 claimed df1bebf7 match=True
+P5 frozen intersection: 173 (claimed 173) sha 86fa4421 claimed 86fa4421 match=True
+P6 frozen intersection: 175 (claimed 175) sha 2bbe05f9 claimed 2bbe05f9 match=True
+P7 frozen intersection: 150 (claimed 150) sha b7aa0771 claimed b7aa0771 match=True
+P8 frozen intersection: 186 (claimed 186) sha 57e118e7 claimed 57e118e7 match=True
+text.md bytes: 49665 chars: 48034
+text.md U+201D: 0 U+201C: 35 U+201E: 35 U+2019: 0 U+0022: 0
+text.md CJK (excl U+3000): 0 U+3000: 122
+text.md sha: f3f0c08455b647c9b8f2844fbf16c33008e2717f30c584d7a3b835f98cb8a53e
+ABSTRACT bytes: 356 lines: 1 has ASCII quote: False
+ABSTRACT: Die Lucerna German Weekly VOL.4: Bundesliga returns (Bayern vs Cologne at home), Nations League decider against the Netherlands, day of repentance and prayer and Sunday of the Dead, Cologne Christmas markets open, European and Bundesliga results 3–8 November; German text, English explanations, levels A2–B2, 150 exercises based on this week's topics.
+
+P7 cream rects (x,y,w,h): [('88.0', '632.88', '422.5', '178.2'), ('538.5', '632.88', '422.5', '178.2'), ('989.0', '596.4', '422.5', '178.2'), ('1439.5', '330', '422.5', '469.8800000000001'), ('1439.5', '815.8800000000001', '422.5', '552.5'), ('1439.5', '1384.38', '422.5', '150')]
+SCANS3 DONE

@@ -1,0 +1,33 @@
+== D3: P5 ¿Y TÚ? box (content56.py:50 eh +29) ==
+P5 box y=1277.5 bottom=1583.5 x=1440..1862
+  title: '¿Y TÚ?\u3000En jij?' baseline 1319.5 fs=24.0 Noto Sans CJK SC
+  own last baseline 1572.6 fs=19.0 Noto Sans CJK SC bold=False ink-bottom 1577.13 baseline-clear +10.9 TRUE-INK-clear +6.42 | 'impuls? Schrijf twee zinnen en stuur ze in.'
+== D4: P5 EL PLAN DE LA SEMANA box title (boxtitle cross-check) ==
+P5 box y=200.0 bottom=822.4 x=538..961
+  title: 'EL PLAN DE LA SEMANA\u3000Weekplan' baseline 237.0 fs=23.0 Noto Sans CJK SC
+  own last baseline 775.8 fs=21.0 Newsreader bold=False ink-bottom 781.09 baseline-clear +46.6 TRUE-INK-clear +41.31 | 'Barça–Villarreal; Sint-Cecilia)'
+== D5: P7 ERRORES TÍPICOS box ==
+P7 box y=441.4 bottom=1064.0 x=1440..1862
+  title: 'ERRORES TÍPICOS\u3000Fouten' baseline 483.4 fs=23.0 Noto Sans CJK SC
+  own last baseline 1021.5 fs=19.5 Noto Sans CJK SC bold=False ink-bottom 1026.49 baseline-clear +42.5 TRUE-INK-clear +37.52 | 'creo que bevestigt: aantonende wijs es.'
+== P7 col3 CARTAS box (1873.51) ==
+P7 box y=1392.0 bottom=1873.5 x=1440..1862
+  title: 'CARTAS DE LOS LECTORES' baseline 1434.0 fs=23.0 Noto Sans CJK SC
+  own last baseline 1864.1 fs=20.0 Noto Sans CJK SC bold=False ink-bottom 1864.31 baseline-clear +9.4 TRUE-INK-clear +9.20 | 'belofte schuift door naar VOL.5.'
+== D6: P7 banner (CLOTH rect) vs core ==
+  ED rects y>2400: [(88.0, 2464.5, 1774.0, 118.0, '#37402f')]
+    ED footer text baseline 2624.0 fs=17.0 Noto Sans CJK SC | 'La Lucerna\u3000SPAANS WEEKBLAD VOL.4\u3000LUCERNA SPANISH WEEKLY'
+    ED footer text baseline 2624.0 fs=17.0 Noto Sans CJK SC | 'Pagina 7 van 8'
+    ED banner-area baseline 2508.5 | 'LA PRÓXIMA SEMANA\u3000Volgende week (VOL.5)'
+    ED banner-area baseline 2548.5 | 'El domingo 29, España vota: los resultados, el Black Friday y la jorna'
+  CORE rects y>2400: [(88.0, 2464.5, 1774.0, 118.0, '#37402f')]
+    CORE footer text baseline 2624.0 fs=17.0 Noto Sans CJK SC | 'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+    CORE footer text baseline 2624.0 fs=17.0 Noto Sans CJK SC | '第7版／共8版'
+    CORE banner-area baseline 2508.5 | 'LA PRÓXIMA SEMANA\u3000下期预告 (VOL.5)'
+    CORE banner-area baseline 2548.5 | 'El domingo 29, España vota: los resultados, el Black Friday y la jorna'
+== P1 CINCO CLAVES box (C1, 720) ==
+P1 box y=588.0 bottom=1308.0 x=1440..1862
+  title: 'CINCO' baseline 628.0 fs=27.0 Noto Sans CJK SC
+  own last baseline 1300.0 fs=19.0 Noto Sans CJK SC bold=False ink-bottom 1304.75 baseline-clear +8.0 TRUE-INK-clear +3.25 | 'Vijf sleutels — geen verzonnen cijfers.'
+== core P7 banner for D6 comparison (py) ==
+  CORE rects y>2400: [(88.0, 2464.5, 1774.0, 118.0, '#37402f')]

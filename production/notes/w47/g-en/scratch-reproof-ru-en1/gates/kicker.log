@@ -1,0 +1,49 @@
+kicker runs (baseline y=372):
+  x=  586.3 'ЕЖЕНЕДЕЛЬНАЯ' Noto Sans 16.0
+  x=  712.3 '  ' Noto Sans CJK SC 16.0
+  x=  719.5 'ГАЗЕТА' Noto Sans 16.0
+  x=  773.2 '  ' Noto Sans CJK SC 16.0
+  x=  780.4 'ДЛЯ' Noto Sans 16.0
+  x=  813.0 '  ' Noto Sans CJK SC 16.0
+  x=  820.2 'ИЗУЧАЮЩИХ' Noto Sans 16.0
+  x=  928.4 '  ' Noto Sans CJK SC 16.0
+  x=  935.5 'РУССКИЙ' Noto Sans 16.0
+  x= 1009.4 '  ' Noto Sans CJK SC 16.0
+  x= 1016.6 'ЯЗЫК' Noto Sans 16.0
+  x= 1059.8 '  ' Noto Sans CJK SC 16.0
+  x= 1067.0 '—  ' Noto Sans CJK SC 16.0
+  x= 1088.4 'НАСТОЯЩАЯ' Noto Sans 16.0
+  x= 1189.0 '  ' Noto Sans CJK SC 16.0
+  x= 1196.2 'РОССИЯ' Noto Sans 16.0
+  x= 1260.8 ',  ' Noto Sans CJK SC 16.0
+  x= 1272.4 'ПО' Noto Sans 16.0
+  x= 1296.6 '-' Noto Sans CJK SC 16.0
+  x= 1302.1 'РУССКИ' Noto Sans 16.0
+  ink 'ЕЖЕНЕДЕЛЬНАЯ': left=586.3 right=714.5
+  ink 'ГАЗЕТА': left=719.5 right=775.0
+  ink 'ДЛЯ': left=780.4 right=813.9
+  ink 'ИЗУЧАЮЩИХ': left=820.2 right=923.7
+  ink 'РУССКИЙ': left=935.5 right=1008.2
+  ink 'ЯЗЫК': left=1016.6 right=1061.6
+  ink '—': left=1067.0 right=1081.2
+  ink 'НАСТОЯЩАЯ': left=1088.4 right=1186.7
+  ink 'РОССИЯ': left=1196.2 right=1260.2
+  ink ',': left=1260.8 right=1265.3
+  ink 'ПО': left=1272.4 right=1295.9
+  ink '-': left=1296.6 right=1302.1
+  ink 'РУССКИ': left=1302.1 right=1363.1
+gaps between consecutive visible runs:
+    5.0px  'ЕЖЕНЕДЕЛЬНАЯ' -> 'ГАЗЕТА'
+    5.4px  'ГАЗЕТА' -> 'ДЛЯ'
+    6.3px  'ДЛЯ' -> 'ИЗУЧАЮЩИХ'
+   11.8px  'ИЗУЧАЮЩИХ' -> 'РУССКИЙ'
+    8.4px  'РУССКИЙ' -> 'ЯЗЫК'
+    5.4px  'ЯЗЫК' -> '—'
+    7.2px  '—' -> 'НАСТОЯЩАЯ'
+    9.5px  'НАСТОЯЩАЯ' -> 'РОССИЯ'
+    0.6px  'РОССИЯ' -> ','
+    7.1px  ',' -> 'ПО'
+    0.7px  'ПО' -> '-'
+    0.0px  '-' -> 'РУССКИ'
+double-space gaps n=9: [5.0, 5.4, 6.3, 11.8, 8.4, 5.4, 7.2, 9.5, 7.1]
+min=5.0px REQUIRE >=4 -> PASS

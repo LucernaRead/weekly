@@ -1,0 +1,15 @@
+#1 p1-pervaya A='Зенит' x=380.2 size=53 fam=Noto Serif anchor=start adv=171.8 box=[380.2, 641.8, 552.0, 683.0]
+    B='» ' x=546.5 size=53 fam=Newsreader anchor=start adv=44.4 box=[546.5, 657.0, 591.0, 682.0]
+    A.x+adv=552.0  B.x=546.5  detail=ink overlaps '» ' by 5.5x25.0px
+#7 p1-pervaya A='Краснодар' x=101.2 size=24 fam=Noto Serif anchor=start adv=132.4 box=[101.2, 1200.5, 233.7, 1224.8]
+    B='» — ' x=230.6 size=24 fam=Newsreader anchor=start adv=42.0 box=[230.6, 1207.5, 272.6, 1218.5]
+    A.x+adv=233.6  B.x=230.6  detail=ink overlaps '» — ' by 3.1x11.0px
+#33 p7-yazyk A='ЯЗЫК' x=118.0 size=46 fam=Noto Sans anchor=start adv=136.6 box=[118.0, 107.2, 254.8, 142.8]
+    B='\u3000TAAL' x=251.0 size=46 fam=Noto Sans CJK SC anchor=start adv=158.1 box=[251.0, 108.0, 409.0, 142.0]
+    A.x+adv=254.6  B.x=251.0  detail=ink overlaps '\u3000TAAL' by 3.8x34.0px
+#39 p7-yazyk A='Кипренского' x=440.1 size=19 fam=Noto Serif anchor=start adv=128.7 box=[440.1, 1489.8, 568.9, 1509.0]
+    B=', 1827 ' x=565.4 size=19 fam=Newsreader anchor=start adv=59.2 box=[565.4, 1490.2, 624.6, 1507.5]
+    A.x+adv=568.8  B.x=565.4  detail=ink overlaps ', 1827 ' by 3.5x17.2px
+#41 p8-test A='ОТВЕТЫ' x=285.1 size=46 fam=Noto Sans anchor=start adv=194.9 box=[285.1, 107.2, 479.9, 142.8]
+    B='\u3000TEST EN ANTWOORDEN' x=471.9 size=46 fam=Noto Sans CJK SC anchor=start adv=575.5 box=[471.9, 107.2, 1047.4, 142.8]
+    A.x+adv=480.0  B.x=471.9  detail=ink overlaps '\u3000TEST EN ANTWOORDEN' by 8.0x35.5px

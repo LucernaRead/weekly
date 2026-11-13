@@ -1,0 +1,41 @@
+===== 2026-w47-it-fr =====
+  run-2026-w47-it-fr.log: RC=0
+  render-2026-w47-it-fr.log: RC=0
+  export-2026-w47-it-fr.log: RC=0
+  textmd diff: 20 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-fr.log: RC=0
+  print: 13497005 B sha ffb20e7b9620
+  web:   1215747 B sha d08db2eb54b2
+  text:  56524 B sha b4d1ec47ff3a
+===== 2026-w47-it-fr DONE =====
+===== 2026-w47-it-es =====
+  run-2026-w47-it-es.log: RC=0
+  render-2026-w47-it-es.log: RC=0
+  export-2026-w47-it-es.log: RC=0
+  textmd diff: 20 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-es.log: RC=0
+  print: 13497563 B sha 4393ba30bd49
+  web:   1216301 B sha c40c7a0067bd
+  text:  56214 B sha e19cf39d5ef6
+===== 2026-w47-it-es DONE =====
+===== 2026-w47-it-pt =====
+  run-2026-w47-it-pt.log: RC=0
+  render-2026-w47-it-pt.log: RC=0
+  export-2026-w47-it-pt.log: RC=0
+  textmd diff: 20 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-pt.log: RC=0
+  print: 13500238 B sha c4d4fe0f005e
+  web:   1218997 B sha a6e7e8365466
+  text:  55736 B sha 03cc7389d3ed
+===== 2026-w47-it-pt DONE =====
+===== 2026-w47-it-nl =====
+  run-2026-w47-it-nl.log: RC=0
+  render-2026-w47-it-nl.log: RC=0
+  export-2026-w47-it-nl.log: RC=0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-it/rebuild_one.py", line 51, in <module>
+    assert any(m in l for m in MARKERS), f"unexpected changed line: {l!r}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpected changed line: '136. [B1 · Maak zinnen] il torrone / si assaggia / a Cremona → ___ — key: Il torrone si assaggia a Cremona. (Onderwerp + werkwoord) [Maak zinnen]'
+FAILED: 2026-w47-it-nl
+EXIT=1

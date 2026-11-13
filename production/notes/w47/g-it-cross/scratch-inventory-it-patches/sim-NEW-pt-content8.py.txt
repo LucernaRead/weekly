@@ -1,0 +1,30 @@
+--- 
++++ 
+@@ -66,20 +66,20 @@
+ f.ex("B1", "Forma frases", "Il torrone si assaggia a Cremona.", "Sujeito + verbo + lugar",
+      "il torrone / si assaggia / a Cremona → ___", instr="Forma frases", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Traduzir", "Para a Madonna della Salute, as pessoas atravessam a ponte votiva.", "Compara com o original",
++f.ex("A2", "翻译", "Para a Madonna della Salute, as pessoas atravessam a ponte votiva.", "Compara com o original",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Traduzir para português", size=15.5, gap=1)
+-f.ex("B1", "Traduzir", "No domingo à noite, a Atalanta joga contra o Inter.", "si gioca = joga-se",
++f.ex("B1", "翻译", "No domingo à noite, a Atalanta joga contra o Inter.", "si gioca = joga-se",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Traduzir para português", size=15.5, gap=1)
+-f.ex("B1", "Traduzir", "No sábado, a Lazio joga em casa contra o Lecce.", "in casa = em casa",
++f.ex("B1", "翻译", "No sábado, a Lazio joga em casa contra o Lecce.", "in casa = em casa",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Traduzir para português", size=15.5, gap=1)
+-f.ex("B2", "Traduzir", "Ogni cifra deve essere chiara.", "dovere = dever",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = dever",
+      "Cada número deve ser claro. → ___", instr="Traduzir para italiano", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Relaciona as palavras",
+             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
+-            ["un livello di reddito del sistema fiscale",
+-             "i soldi che pagano una misura",
+-             "la differenza tra spese ed entrate",
++            ["la parte del sistema fiscale, un livello di reddito",
++             "i soldi che pagano una misura, la sua fonte",
++             "la differenza tra spese ed entrate, in rosso",
+              "la legge di bilancio, il documento dello Stato"],
+             ["d", "c", "b", "a"],
+             ["manovra = projeto de orçamento, d", "deficit = défice, c", "copertura = financiamento, b", "scaglione = escalão fiscal, a"],

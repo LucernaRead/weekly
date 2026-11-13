@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+image (4063, 5625)  (200 dpi, 0.360 pt/px)
+HBOX closing-guillemet [font=NotoSansCJKsc-Regular size=15.0pt]
+   ink runs (pt): [(452.56, 458.32), (459.4, 466.24), (468.04, 474.52), (476.68, 487.84), (490.36, 497.2), (499.72, 504.04), (505.12, 511.6), (513.4, 518.8), (520.6, 522.4), (528.88, 536.44), (538.96, 540.4), (542.92, 544.0)]
+   prev ink end=511.6 | quote ink=[(513.4, 518.8)] | next ink start=520.6
+   GAP BEFORE quote = 1.8pt = 0.12em | GAP AFTER = 1.8pt
+   verdict vs 0.2em: PASS (<=0.2em)
+Q67 closing-guillemet [font=NotoSansCJKsc-Regular size=9.94pt]
+   ink runs (pt): [(468.27, 472.95), (475.11, 482.31), (483.03, 486.99), (488.07, 488.79), (489.15, 492.03), (492.39, 498.87), (499.59, 502.83), (503.19, 510.03), (512.19, 517.23), (517.95, 522.27), (523.71, 528.03), (528.75, 532.35), (535.23, 537.75), (539.55, 543.15), (544.23, 548.91), (549.63, 555.03), (555.39, 560.07), (560.43, 562.95)]
+   prev ink end=528.03 | quote ink=[(528.75, 532.35)] | next ink start=535.23
+   GAP BEFORE quote = 0.72pt = 0.07em | GAP AFTER = 2.88pt
+   verdict vs 0.2em: PASS (<=0.2em)

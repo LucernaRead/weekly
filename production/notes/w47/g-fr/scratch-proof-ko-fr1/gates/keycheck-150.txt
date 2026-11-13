@@ -1,0 +1,150 @@
+#  1 P1 [Compléter] key='1' svg='1' note='18 nov. = D-1'
+#  2 P1 [Compléter] key='김장' svg='김장' note='La saison du kimchi bat son plein'
+#  3 P1 [Compléter] key='19' svg='19' note="Le CSAT, c'est le jeudi 19 nov."
+#  4 P1 [Compléter] key='3' svg='3' note='16 nov. = D-3'
+#  5 P1 [Compléter] key='4승 1패' svg='4승 1패' note='Samsung a battu kt 4-1'
+#  6 P1 [Compléter] key='11' svg='11' note='Inscriptions sur places libérées dès le 11 nov.'
+#  7 P1 [Choix multiple] key='A' svg='A' note='18 nov. = D-1'
+#  8 P1 [Choix multiple] key='A' svg='A' note="Le kimjang coûte 9,0 % de moins que l'an dernier"
+#  9 P1 [Choix multiple] key='A' svg='A' note="Le Jour du kimchi, c'est le dimanche 22 nov."
+# 10 P1 [Choix multiple] key='A' svg='A' note='Samsung a gagné la Korean Series'
+# 11 P2 [Choix multiple] key='A' svg='A' note='20 choux : 54 980 wons'
+# 12 P2 [Choix multiple] key='A' svg='A' note='Le kimjang a baissé de 9,0 %'
+# 13 P2 [Choix multiple] key='A' svg='A' note="Le Jour du kimchi, c'est le dimanche 22 nov."
+# 14 P2 [Choix multiple] key='A' svg='A' note="L'examen d'histoire, c'est le samedi 28 nov."
+# 15 P2 [Choix multiple] key='A' svg='A' note="Le festival WiKim, c'est le vendredi 20 nov."
+# 16 P2 [Compléter] key='한창' svg='한창' note='La saison du kimchi bat son plein'
+# 17 P2 [Compléter] key='22' svg='22' note="Le Jour du kimchi, c'est le 22 nov."
+# 18 P2 [Compléter] key='54,980' svg='54,980' note='20 choux : 54 980 wons'
+# 19 P2 [Compléter] key='토' svg='토' note="L'examen d'histoire a lieu un samedi"
+# 20 P2 [Compléter] key='배추' svg='배추' note='Les prix ont baissé car le chou est moins cher'
+# 21 P2 [Compléter] key='199,456' svg='199,456' note='Kimjang pour quatre : 199 456 wons'
+# 22 P2 [Compléter] key='54,980' svg='54,980' note='20 choux : 54 980 wons'
+# 23 P2 [Compléter] key='26.5' svg='26.5' note="20 choux, moins 26,5 % par rapport à l'an dernier"
+# 24 P2 [Compléter] key='13' svg='13' note='Places libérées : inscriptions du 11 au 13 nov.'
+# 25 P2 [Apparier] key='d' svg='d' note='김장비용 = kimjang pour quatre, 199 456 wons d'
+# 26 P2 [Apparier] key='a' svg='a' note='김치의 날 = 22 nov. a'
+# 27 P2 [Apparier] key='c' svg='c' note='위킴 페스티벌 = 20 nov. à Séoul c'
+# 28 P2 [Apparier] key='b' svg='b' note="한능검 = abrév. de l'examen d'histoire b"
+# 29 P3 [Choix multiple] key='A' svg='A' note="Le Jour du kimchi, c'est le 22 nov."
+# 30 P3 [Choix multiple] key='B' svg='B' note='22, ce sont les 22 bienfaits du kimchi'
+# 31 P3 [Choix multiple] key='A' svg='A' note="Le festival WiKim, c'est le vendredi 20 nov."
+# 32 P3 [Choix multiple] key='B' svg='B' note="Naejangsan : pic prévu par l'Office des forêts le 4 nov."
+# 33 P3 [Choix multiple] key='A' svg='A' note="L'Office des forêts compte 50 % des feuilles"
+# 34 P3 [Compléter] key='절정' svg='절정' note="Les plus belles feuilles s'appellent 절정"
+# 35 P3 [Compléter] key='예보' svg='예보' note='Les dates prévues diffèrent des dates observées'
+# 36 P3 [Compléter] key='관측' svg='관측' note='Vraiment observé le 16 oct.'
+# 37 P3 [Compléter] key='김치의 날' svg='김치의 날' note="Le 22 nov., c'est le Jour du kimchi"
+# 38 P3 [Compléter] key='발효' svg='발효' note='Le kimchi est un aliment fermenté'
+# 39 P3 [Compléter] key='22' svg='22' note='Le kimchi a 22 bienfaits'
+# 40 P3 [Compléter] key='11' svg='11' note='Naejangsan : prévisions Weatheri, 11 nov.'
+# 41 P3 [Compléter] key='4' svg='4' note="Naejangsan : prévisions de l'Office des forêts, 4 nov."
+# 42 P3 [Compléter] key='20' svg='20' note="Le festival WiKim, c'est le 20 nov."
+# 43 P3 [Apparier] key='b' svg='b' note='내장산 = prévisions Weatheri, 11 nov. b'
+# 44 P3 [Apparier] key='a' svg='a' note="월출산 = prévisions de l'Office des forêts, 9 nov. a"
+# 45 P3 [Apparier] key='d' svg='d' note="두륜산 = prévisions de l'Office des forêts, 11 nov. d"
+# 46 P3 [Apparier] key='c' svg='c' note='설악산 = observé le 16 oct. c'
+# 47 P4 [Choix multiple] key='A' svg='A' note='Samsung a gagné la Korean Series'
+# 48 P4 [Choix multiple] key='C' svg='C' note="La série s'est terminée 4-1"
+# 49 P4 [Choix multiple] key='B' svg='B' note='Match 5, 8 nov. à Daegu : Samsung 12-1'
+# 50 P4 [Choix multiple] key='A' svg='A' note='Match 1 : kt a gagné 8-7'
+# 51 P4 [Choix multiple] key='B' svg='B' note='Premier titre de Samsung depuis 12 ans'
+# 52 P4 [Compléter] key='4승 1패' svg='4승 1패' note='Samsung a battu kt 4-1'
+# 53 P4 [Compléter] key='수원' svg='수원' note='Les matches 1 et 2 ont eu lieu à Suwon'
+# 54 P4 [Compléter] key='12대 1' svg='12대 1' note='Match 5 : Samsung a gagné 12-1'
+# 55 P4 [Compléter] key='12' svg='12' note='Samsung a gagné de nouveau après 12 ans'
+# 56 P4 [Compléter] key='4연승' svg='4연승' note='Samsung a enchaîné quatre victoires après une défaite'
+# 57 P4 [Transformer] key='삼성이 kt wiz를 이겼어요.' svg='삼성이 kt wiz를 이겼어요.' note='이기다 : passé 이겼어요'
+# 58 P4 [Transformer] key='1차전이 수원에서 열렸어요.' svg='1차전이 수원에서 열렸어요.' note='열리다 : passé 열렸어요'
+# 59 P4 [Transformer] key='한국시리즈가 끝났어요.' svg='한국시리즈가 끝났어요.' note='끝나다 : passé 끝났어요'
+# 60 P4 [Transformer] key='삼성이 5차전에서 이겼어요.' svg='삼성이 5차전에서 이겼어요.' note='이기다 : passé 이겼어요'
+# 61 P4 [Apparier] key='c' svg='c' note='준플레이오프 = KIA, trois victoires de suite c'
+# 62 P4 [Apparier] key='d' svg='d' note='플레이오프 = Samsung 3-2 d'
+# 63 P4 [Apparier] key='a' svg='a' note='한국시리즈 = Samsung 4-1 a'
+# 64 P4 [Apparier] key='b' svg='b' note='K리그1 = Séoul, victoire anticipée b'
+# 65 P5 [Choix multiple] key='A' svg='A' note="La convocation préalable, c'est le mercredi 18 nov."
+# 66 P5 [Choix multiple] key='B' svg='B' note='Le CSAT commence à 8 h 40'
+# 67 P5 [Choix multiple] key='A' svg='A' note='Candidats cette année : 551 864'
+# 68 P5 [Choix multiple] key='B' svg='B' note='Les résultats sortent le vendredi 11 déc.'
+# 69 P5 [Choix multiple] key='A' svg='A' note="Soyez dans votre salle avant 8 h 10 le jour de l'examen"
+# 70 P5 [Compléter] key='예비소집' svg='예비소집' note='Retirez votre convocation à la réunion préalable'
+# 71 P5 [Compléter] key='수험표' svg='수험표' note='Retirez votre convocation et vérifiez votre centre'
+# 72 P5 [Compléter] key='2,310' svg='2,310' note="2 310 candidats de moins que l'an dernier"
+# 73 P5 [Compléter] key='성적' svg='성적' note='Les résultats sortent le 11 déc.'
+# 74 P5 [Compléter] key='김치의 날' svg='김치의 날' note="Le 22 nov., c'est le Jour du kimchi"
+# 75 P5 [Compléter] key='551,864' svg='551,864' note='Candidats cette année : 551 864'
+# 76 P5 [Compléter] key='1,312' svg='1,312' note="Centres d'examen dans tout le pays : 1 312"
+# 77 P5 [Compléter] key='85' svg='85' note="85 zones d'examen dans tout le pays"
+# 78 P5 [Compléter] key='10' svg='10' note="Le jour de l'examen, les bureaux ouvrent à 10 h"
+# 79 P5 [Faire des phrases] key='수험생은 열심히 공부해요.' svg='수험생은 열심히 공부해요.' note='Ordre des mots : sujet + adverbe + verbe'
+# 80 P5 [Faire des phrases] key='우리는 수험생을 응원해요.' svg='우리는 수험생을 응원해요.' note='Sujet + objet + verbe'
+# 81 P5 [Faire des phrases] key='비행기는 듣기 시간에 뜨지 않아요.' svg='비행기는 듣기 시간에 뜨지 않아요.' note="Pas de vols pendant l'épreuve d'écoute"
+# 82 P5 [Faire des phrases] key='친구는 김치를 나눠 줘요.' svg='친구는 김치를 나눠 줘요.' note='Un ami partage le kimchi'
+# 83 P6 [Choix multiple] key='B' svg='B' note='Cette semaine, la Korean Series a un résultat'
+# 84 P6 [Choix multiple] key='A' svg='A' note='Enquête du 9 nov. : le kimjang coûte 199 456 wons'
+# 85 P6 [Choix multiple] key='B' svg='B' note='Les dates de feuillages prévues sont passées'
+# 86 P6 [Choix multiple] key='C' svg='C' note='Les résultats du CSAT sortent le 11 déc.'
+# 87 P6 [Choix multiple] key='A' svg='A' note="La semaine dernière, la Series n'était qu'un calendrier"
+# 88 P6 [Choix multiple] key='A' svg='A' note='Match 1 : kt a gagné 8-7'
+# 89 P6 [Choix multiple] key='B' svg='B' note='Le service météo observe environ 80 %'
+# 90 P6 [Choix multiple] key='A' svg='A' note='Un chou, 16 oct. : 5 557 wons'
+# 91 P6 [Choix multiple] key='A' svg='A' note="La date de référence de l'enquête kimjang, c'est le 9 nov."
+# 92 P6 [Choix multiple] key='A' svg='A' note='Candidats cette année : 551 864'
+# 93 P6 [Compléter] key='발표' svg='발표' note='Un calendrier publié peut changer'
+# 94 P6 [Compléter] key='결과' svg='결과' note="Les résultats ne viennent qu'après les matches"
+# 95 P6 [Compléter] key='기준' svg='기준' note='Les dates diffèrent parce que les critères diffèrent'
+# 96 P6 [Compléter] key='날짜' svg='날짜' note="Quand vous lisez les infos, vérifiez d'abord la date"
+# 97 P6 [Vrai ou faux] key='틀리다' svg='틀리다' note='Les mesures spéciales ne valent que le 19 nov.'
+# 98 P6 [Vrai ou faux] key='맞다' svg='맞다' note='Samsung a gagné le titre 4-1'
+# 99 P6 [Vrai ou faux] key='틀리다' svg='틀리다' note='Les dates prévues ne sont pas des dates observées'
+#100 P6 [Vrai ou faux] key='맞다' svg='맞다' note='Les résultats sortent le 11 déc.'
+#101 P7 [Compléter] key='김장' svg='김장' note="Préparer le kimchi d'hiver = 김장"
+#102 P7 [Choix multiple] key='A' svg='A' note="Le Jour du kimchi, c'est le 22 nov."
+#103 P7 [Compléter] key='절임배추' svg='절임배추' note="Chou salé à l'avance"
+#104 P7 [Choix multiple] key='A' svg='A' note="L'assaisonnement contient des crevettes salées"
+#105 P7 [Compléter] key='D-1' svg='D-1' note='18 nov. = D-1'
+#106 P7 [Choix multiple] key='B' svg='B' note='D-3 = 16 nov.'
+#107 P7 [Compléter] key='데이' svg='데이' note='19 nov. = D-day'
+#108 P7 [Choix multiple] key='A' svg='A' note="D-1 : l'examen, c'est demain"
+#109 P7 [Compléter] key='기준' svg='기준' note='Les dates diffèrent parce que les critères diffèrent (p. 3)'
+#110 P7 [Choix multiple] key='A' svg='A' note='Le service météo observe environ 80 %'
+#111 P7 [Compléter] key='결과' svg='결과' note="Les résultats ne viennent qu'après les matches"
+#112 P7 [Choix multiple] key='B' svg='B' note='Distinguer annonces et résultats'
+#113 P8 [Texte à trous] key='A' svg='A' note="Le Jour du kimchi, c'est le dimanche 22 nov."
+#114 P8 [Texte à trous] key='A' svg='A' note="Le CSAT, c'est le jeudi 19 nov."
+#115 P8 [Texte à trous] key='A' svg='A' note="L'examen d'histoire, c'est le samedi 28 nov."
+#116 P8 [Texte à trous] key='A' svg='A' note="Le festival WiKim, c'est le vendredi 20 nov."
+#117 P8 [Texte à trous] key='A' svg='A' note='Samsung a gagné le titre 4-1'
+#118 P8 [Texte à trous] key='A' svg='A' note='Kimjang pour quatre : 199 456 wons'
+#119 P8 [Texte à trous] key='A' svg='A' note='20 choux : 54 980 wons'
+#120 P8 [Texte à trous] key='A' svg='A' note='Candidats cette année : 551 864'
+#121 P8 [Choix multiple] key='A' svg='A' note='Candidats cette année : 551 864'
+#122 P8 [Choix multiple] key='B' svg='B' note="Centres d'examen dans tout le pays : 1 312"
+#123 P8 [Choix multiple] key='A' svg='A' note="Naejangsan : pic prévu par l'Office des forêts le 4 nov."
+#124 P8 [Choix multiple] key='B' svg='B' note='Naejangsan : pic prévu par Weatheri, 11 nov.'
+#125 P8 [Choix multiple] key='B' svg='B' note="Duryunsan : pic prévu par l'Office des forêts, 11 nov."
+#126 P8 [Choix multiple] key='A' svg='A' note='Match 1 : kt a gagné 8-7'
+#127 P8 [Choix multiple] key='A' svg='A' note='Places libérées : inscriptions du 11 au 13 nov.'
+#128 P8 [Choix multiple] key='B' svg='B' note="La vigilance incendie s'arrête le 15 déc."
+#129 P8 [Choix multiple] key='B' svg='B' note='Minjun va à la convocation préalable mercredi'
+#130 P8 [Choix multiple] key='A' svg='A' note='Il passe le CSAT jeudi'
+#131 P8 [Choix multiple] key='B' svg='B' note='Il partage le kimchi en famille dimanche'
+#132 P8 [Choix multiple] key='C' svg='C' note="La semaine prochaine, il prépare l'examen d'histoire"
+#133 P8 [Faire des phrases] key='저는 수요일에 예비소집에 가요.' svg='저는 수요일에 예비소집에 가요.' note='Ordre des mots : sujet + temps + lieu + verbe'
+#134 P8 [Faire des phrases] key='우리는 김치를 나눠 먹어요.' svg='우리는 김치를 나눠 먹어요.' note='Sujet + objet + verbe'
+#135 P8 [Faire des phrases] key='민준이는 한국사를 좋아해요.' svg='민준이는 한국사를 좋아해요.' note='좋아하다 = aimer'
+#136 P8 [Faire des phrases] key='수험생은 도서관에서 공부해요.' svg='수험생은 도서관에서 공부해요.' note="Pour le lieu d'une action, on met 「에서」"
+#137 P8 [Traduire] key="Le 22 nov., c'est le Jour du kimchi." svg="Le 22 nov., c'est le Jour du kimchi." note='Voir p. 2'
+#138 P8 [Traduire] key='Samsung a gagné le titre après 12 ans.' svg='Samsung a gagné le titre après 12 ans.' note='Voir p. 4'
+#139 P8 [Traduire] key='11월 18일은 예비소집이에요.' svg='11월 18일은 예비소집이에요.' note='Voir p. 5'
+#140 P8 [Traduire] key='일요일에는 가족과 김치를 나눠 먹어요.' svg='일요일에는 가족과 김치를 나눠 먹어요.' note='Voir la partie C, p. 8'
+#141 P8 [Apparier] key='b' svg='b' note='예비소집 = convocation préalable b'
+#142 P8 [Apparier] key='c' svg='c' note='김치의 날 = 22 nov. c'
+#143 P8 [Apparier] key='a' svg='a' note='발효 = le processus de fermentation a'
+#144 P8 [Apparier] key='d' svg='d' note='우승 = titre d'
+#145 P8 [Texte à trous] key='A' svg='A' note='Il va à la convocation préalable mercredi'
+#146 P8 [Texte à trous] key='A' svg='A' note="Le Jour du kimchi, c'est le 22 nov."
+#147 P8 [Texte à trous] key='A' svg='A' note="L'examen d'histoire, c'est le 28 nov."
+#148 P8 [Texte à trous] key='A' svg='A' note='Kimjang pour quatre : 199 456 wons'
+#149 P8 [Texte à trous] key='A' svg='A' note='Les résultats sortent le 11 déc.'
+#150 P8 [Écrire] key='(tâche libre — texte modèle ci-dessous)' svg='✓' note='Texte modèle dans la partie H de cette page (169 caractères)'

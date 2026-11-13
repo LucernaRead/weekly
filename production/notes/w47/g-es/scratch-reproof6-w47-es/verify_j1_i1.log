@@ -1,0 +1,251 @@
+== (a) J1 13/13 ==
+  [OK] J1 de L1150 old 'confinal' gone file-count=0
+  [OK] J1 de L1150 new 'con final' on recorded line line-count=1
+  [OK] J1 en L1150 old 'confinal' gone file-count=0
+  [OK] J1 en L1150 new 'con final' on recorded line line-count=1
+  [OK] J1 en L1150 old 'unasondeo' gone file-count=0
+  [OK] J1 en L1150 new 'una sondeo' on recorded line line-count=1
+  [OK] J1 fr L1154 old 'confinal' gone file-count=0
+  [OK] J1 fr L1154 new 'con final' on recorded line line-count=1
+  [OK] J1 fr L1154 old 'unasondeo' gone file-count=0
+  [OK] J1 fr L1154 new 'una sondeo' on recorded line line-count=1
+  [OK] J1 fr L1756 old 'Esjueves 19' gone file-count=0
+  [OK] J1 fr L1756 new 'Es jueves 19' on recorded line line-count=1
+  [OK] J1 it L1152 old 'confinal' gone file-count=0
+  [OK] J1 it L1152 new 'con final' on recorded line line-count=1
+  [OK] J1 it L1152 old 'unasondeo' gone file-count=0
+  [OK] J1 it L1152 new 'una sondeo' on recorded line line-count=1
+  [OK] J1 nl L1170 old 'confinal' gone file-count=0
+  [OK] J1 nl L1170 new 'con final' on recorded line line-count=1
+  [OK] J1 pt L1154 old 'confinal' gone file-count=0
+  [OK] J1 pt L1154 new 'con final' on recorded line line-count=1
+  [OK] J1 pt L1154 old 'unamuestra' gone file-count=0
+  [OK] J1 pt L1154 new 'una muestra' on recorded line line-count=1
+  [OK] J1 ru L1201 old 'confinal' gone file-count=0
+  [OK] J1 ru L1201 new 'con final' on recorded line line-count=1
+  [OK] J1 ru L1201 old 'unamuestra' gone file-count=0
+  [OK] J1 ru L1201 new 'una muestra' on recorded line line-count=1
+J1 applied records checked: 13
+  [OK] print de old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print de old 'confinal' layout=0 count=0
+  [OK] print de old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print de old 'unasondeo' layout=0 count=0
+  [OK] print de old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print de old 'unamuestra' layout=0 count=0
+  [OK] print de old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print de old 'Esjueves' layout=0 count=0
+  [OK] print en old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print en old 'confinal' layout=0 count=0
+  [OK] print en old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print en old 'unasondeo' layout=0 count=0
+  [OK] print en old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print en old 'unamuestra' layout=0 count=0
+  [OK] print en old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print en old 'Esjueves' layout=0 count=0
+  [OK] print fr old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print fr old 'confinal' layout=0 count=0
+  [OK] print fr old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print fr old 'unasondeo' layout=0 count=0
+  [OK] print fr old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print fr old 'unamuestra' layout=0 count=0
+  [OK] print fr old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print fr old 'Esjueves' layout=0 count=0
+  [OK] print it old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print it old 'confinal' layout=0 count=0
+  [OK] print it old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print it old 'unasondeo' layout=0 count=0
+  [OK] print it old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print it old 'unamuestra' layout=0 count=0
+  [OK] print it old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print it old 'Esjueves' layout=0 count=0
+  [OK] print nl old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print nl old 'confinal' layout=0 count=0
+  [OK] print nl old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print nl old 'unasondeo' layout=0 count=0
+  [OK] print nl old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print nl old 'unamuestra' layout=0 count=0
+  [OK] print nl old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print nl old 'Esjueves' layout=0 count=0
+  [OK] print pt old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print pt old 'confinal' layout=0 count=0
+  [OK] print pt old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print pt old 'unasondeo' layout=0 count=0
+  [OK] print pt old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print pt old 'unamuestra' layout=0 count=0
+  [OK] print pt old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print pt old 'Esjueves' layout=0 count=0
+  [OK] print ru old 'confinal' fresh-PyMuPDF=0 count=0
+  [OK] print ru old 'confinal' layout=0 count=0
+  [OK] print ru old 'unasondeo' fresh-PyMuPDF=0 count=0
+  [OK] print ru old 'unasondeo' layout=0 count=0
+  [OK] print ru old 'unamuestra' fresh-PyMuPDF=0 count=0
+  [OK] print ru old 'unamuestra' layout=0 count=0
+  [OK] print ru old 'Esjueves' fresh-PyMuPDF=0 count=0
+  [OK] print ru old 'Esjueves' layout=0 count=0
+  [OK] print de 'con final' in layout 
+  [OK] print de PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print de PyMuPDF 'un resultado final' 
+  [OK] print en 'con final' in layout 
+  [OK] print en PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print en PyMuPDF 'un resultado final' 
+  [OK] print fr 'con final' in layout 
+  [OK] print fr PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print fr PyMuPDF 'un resultado final' 
+  [OK] print it 'con final' in layout 
+  [OK] print it PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print it PyMuPDF 'un resultado final' 
+  [OK] print nl 'con final' in layout 
+  [OK] print nl PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print nl PyMuPDF 'un resultado final' 
+  [OK] print pt 'con final' in layout 
+  [OK] print pt PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print pt PyMuPDF 'un resultado final' 
+  [OK] print ru 'con final' in layout 
+  [OK] print ru PyMuPDF 'solo datos oficiales, con fuente' 
+  [OK] print ru PyMuPDF 'un resultado final' 
+  [OK] print en PyMuPDF 'una promesa' + 'sondeo' 
+  [OK] print en layout 'una sondeo' or split-line pair 
+  [OK] print fr PyMuPDF 'una promesa' + 'sondeo' 
+  [OK] print fr layout 'una sondeo' or split-line pair 
+  [OK] print it PyMuPDF 'una promesa' + 'sondeo' 
+  [OK] print it layout 'una sondeo' or split-line pair 
+  [OK] print pt PyMuPDF 'una promesa' + 'muestra' 
+  [OK] print pt layout 'una muestra' or split-line pair 
+  [OK] print ru PyMuPDF 'una promesa' + 'muestra' 
+  [OK] print ru layout 'una muestra' or split-line pair 
+  [OK] print fr 'Es jueves 19' in layout 
+  [OK] print fr PyMuPDF 'singulier Es' x1 count=1
+  [OK] print fr PyMuPDF 'jueves 19' raw x21 (FIX-LOG-5 count) raw-count=21 (normalised=22: one instance spans a line break in raw text)
+== (b) I1 312/312 still in place ==
+  I1 core: 7/7 in place
+  I1 de: 47/47 in place
+  I1 en: 50/50 in place
+  I1 fr: 41/41 in place
+  I1 it: 39/39 in place
+  I1 ja: 7/7 in place
+  I1 ko: 7/7 in place
+  I1 nl: 46/46 in place
+  I1 pt: 43/43 in place
+  I1 ru: 18/18 in place
+  I1 zh-tw: 7/7 in place
+I1 total checked: 312 (expect 312)
+  [OK] I1 total == 312 
+== (c) spot checks: key lines, H1, G1-G3, F2-F4, TOC ==
+  [OK] de L163 '5, titular' 'La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la'
+  [OK] de L900 'lunes 9 B1' 'El voto por correo se pide hasta... A. el lunes 9 B1'
+  [OK] de L973 'correo. Este' 'vale... A. un billete · B. la aplicación MiDNI · El jueves 19 termina el ___ del voto por '
+  [OK] en L1627 'midnight 39.' '1. 13 — The campaign starts on Friday 13 November at midnight 39. B — UNESCO announced it '
+  [OK] pt L1698 '21h30 128.' '90. A — O debate laSexta, sexta-feira, 13 de novembro, 21h30 128. C — Liga dos Campeões, 5'
+  [OK] TOC core 'Pág. 2 La semana' x1 count=1
+  [OK] TOC de 'Pág. 2 La semana' x1 count=1
+  [OK] TOC en 'Pág. 2 La semana' x1 count=1
+  [OK] TOC fr 'Pág. 2 La semana' x1 count=1
+  [OK] TOC it 'Pág. 2 La semana' x1 count=1
+  [OK] TOC ja 'Pág. 2 La semana' x1 count=1
+  [OK] TOC ko 'Pág. 2 La semana' x1 count=1
+  [OK] TOC nl 'Pág. 2 La semana' x1 count=1
+  [OK] TOC pt 'Pág. 2 La semana' x1 count=1
+  [OK] TOC ru 'Pág. 2 La semana' x1 count=1
+  [OK] TOC zh-tw 'Pág. 2 La semana' x1 count=1
+  [OK] H1 ru L147 'Теперь вы' 'AHORA TÚ\u3000Теперь вы'
+  [OK] H1 ru 'Теперь ты' 0 count=0
+  [OK] H1 ru regex \bты\b 0 
+  [OK] H1 ru 'А вы?' x4 count=4
+  [OK] H1 ru lines 1889 n=1889
+  [OK] G1 ja '世界遺産' 0 
+  [OK] G1 ja '無形文化遺産' x1 L1772 
+  [OK] G2 pt 'você' 0 
+  [OK] G2 pt 'Agora tu' x1 count=1
+  [OK] G2 pt 'E tu?' x4 count=4
+  [OK] G3 ru L300 'пришлите их в редакцию.' 
+  [OK] G3 ru L327 'nunca «en las 21:00».' 
+  [OK] F2 core 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 core old 'sin el PSOE).' 0 
+  [OK] F2 de 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 de old 'sin el PSOE).' 0 
+  [OK] F2 en 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 en old 'sin el PSOE).' 0 
+  [OK] F2 fr 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 fr old 'sin el PSOE).' 0 
+  [OK] F2 it 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 it old 'sin el PSOE).' 0 
+  [OK] F2 ja 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 ja old 'sin el PSOE).' 0 
+  [OK] F2 ko 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 ko old 'sin el PSOE).' 0 
+  [OK] F2 nl 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 nl old 'sin el PSOE).' 0 
+  [OK] F2 pt 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 pt old 'sin el PSOE).' 0 
+  [OK] F2 ru 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 ru old 'sin el PSOE).' 0 
+  [OK] F2 zh-tw 'sin el PSOE confirmado' x1 count=1
+  [OK] F2 zh-tw old 'sin el PSOE).' 0 
+  [OK] F3 core print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 core print 'SPAGNOLISEMANA' 0 
+  [OK] F3 de print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 de print 'SPAGNOLISEMANA' 0 
+  [OK] F3 en print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 en print 'SPAGNOLISEMANA' 0 
+  [OK] F3 fr print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 fr print 'SPAGNOLISEMANA' 0 
+  [OK] F3 it print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 it print 'SPAGNOLISEMANA' 0 
+  [OK] F3 ja print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 ja print 'SPAGNOLISEMANA' 0 
+  [OK] F3 ko print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 ko print 'SPAGNOLISEMANA' 0 
+  [OK] F3 nl print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 nl print 'SPAGNOLISEMANA' 0 
+  [OK] F3 pt print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 pt print 'SPAGNOLISEMANA' 0 
+  [OK] F3 ru print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 ru print 'SPAGNOLISEMANA' 0 
+  [OK] F3 zh-tw print 'ESPAGNOLSSEMANA' 0 
+  [OK] F3 zh-tw print 'SPAGNOLISEMANA' 0 
+  [OK] F4 ru print 'nunca «en las 21:00».' present 
+== (d) KIT checks (7 touched editions) ==
+  [OK] KIT de new text SHA x2 count=2
+  [OK] KIT de old text SHA x2 count=2
+  [OK] KIT de J1 section x1 count=1
+  [OK] KIT de print PDF SHA present & unmoved count=1
+  [OK] KIT de web PDF SHA present & unmoved count=1
+  [OK] KIT de new text bytes 45370 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT en new text SHA x2 count=2
+  [OK] KIT en old text SHA x2 count=2
+  [OK] KIT en J1 section x1 count=1
+  [OK] KIT en print PDF SHA present & unmoved count=1
+  [OK] KIT en web PDF SHA present & unmoved count=1
+  [OK] KIT en new text bytes 45046 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT fr new text SHA x2 count=2
+  [OK] KIT fr old text SHA x2 count=2
+  [OK] KIT fr J1 section x1 count=1
+  [OK] KIT fr print PDF SHA present & unmoved count=1
+  [OK] KIT fr web PDF SHA present & unmoved count=1
+  [OK] KIT fr new text bytes 45834 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT it new text SHA x2 count=2
+  [OK] KIT it old text SHA x2 count=2
+  [OK] KIT it J1 section x1 count=1
+  [OK] KIT it print PDF SHA present & unmoved count=1
+  [OK] KIT it web PDF SHA present & unmoved count=1
+  [OK] KIT it new text bytes 45211 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT nl new text SHA x2 count=2
+  [OK] KIT nl old text SHA x2 count=2
+  [OK] KIT nl J1 section x1 count=1
+  [OK] KIT nl print PDF SHA present & unmoved count=1
+  [OK] KIT nl web PDF SHA present & unmoved count=1
+  [OK] KIT nl new text bytes 45342 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT pt new text SHA x2 count=2
+  [OK] KIT pt old text SHA x2 count=2
+  [OK] KIT pt J1 section x1 count=1
+  [OK] KIT pt print PDF SHA present & unmoved count=1
+  [OK] KIT pt web PDF SHA present & unmoved count=1
+  [OK] KIT pt new text bytes 45576 on current line (KIT writes 45,370 B with comma) 
+  [OK] KIT ru new text SHA x2 count=2
+  [OK] KIT ru old text SHA x3 count=3
+  [OK] KIT ru J1 section x1 count=1
+  [OK] KIT ru print PDF SHA present & unmoved count=1
+  [OK] KIT ru web PDF SHA present & unmoved count=1
+  [OK] KIT ru new text bytes 52367 on current line (KIT writes 45,370 B with comma) 
+
+VERIFY-J1-I1: ALL OK — 0 failures

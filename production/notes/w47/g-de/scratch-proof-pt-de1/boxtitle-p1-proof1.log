@@ -1,0 +1,41 @@
+== horizontal ink scan, all pages (margin 88..1862) ==
+svg/p1-capa.svg OVERFLOW: [(1762.4, 1862.4, 'start', 'Seite 1 von 8')]
+svg/p2-vida.svg OVERFLOW: [(1304.5, 1862.5, 'start', 'Três dias, uma semana\u3000Drei freie Tage, eine Woche geplant'), (1762.4, 1862.4, 'start', 'Seite 2 von 8')]
+svg/p3-cultura.svg OVERFLOW: [(1762.4, 1862.4, 'start', 'Seite 3 von 8')]
+svg/p4-esporte.svg OVERFLOW: [(1762.4, 1862.4, 'start', 'Seite 4 von 8')]
+svg/p5-jovens.svg OVERFLOW: [(87.0, 454.0, 'start', 'janeiro · B. na noite do dia 15, feitos por'), (87.0, 232.0, 'start', 'janeiro de 2027'), (1762.4, 1862.4, 'start', 'Seite 5 von 8')]
+svg/p6-aprofundamento.svg OVERFLOW: [(1762.4, 1862.4, 'start', 'Seite 6 von 8')]
+svg/p7-lingua.svg OVERFLOW: [(1762.4, 1862.4, 'start', 'Seite 7 von 8')]
+svg/p8-avaliacao.svg OVERFLOW: [(1206.2, 1879.2, 'start', 'Eine kurze Anmerkung zu jeder Antwort\u3000✓ kennzeichnet den Mus'), (1762.4, 1862.4, 'start', 'Seite 8 von 8')]
+== boxtitle ink vs own box (all pages) ==
+  svg/p1-capa.svg box y=786: NO title line found
+  svg/p1-capa.svg box y=588: NO title line found
+  svg/p1-capa.svg box y=1238: NO title line found
+  svg/p1-capa.svg box y=1874: NO title line found
+  svg/p2-vida.svg box y=605: NO title line found
+  svg/p2-vida.svg box y=858: NO title line found
+  svg/p2-vida.svg box y=200: NO title line found
+  svg/p2-vida.svg box y=545: NO title line found
+  svg/p2-vida.svg box y=1618: NO title line found
+  svg/p2-vida.svg box y=1618: NO title line found
+  svg/p2-vida.svg box y=1618: NO title line found
+  svg/p2-vida.svg box y=1618: NO title line found
+  svg/p3-cultura.svg box y=200: NO title line found
+  svg/p3-cultura.svg box y=200: NO title line found
+  svg/p3-cultura.svg box y=551: NO title line found
+  svg/p3-cultura.svg box y=909: NO title line found
+  svg/p4-esporte.svg box y=270: NO title line found
+  svg/p4-esporte.svg box y=200: NO title line found
+  svg/p4-esporte.svg box y=602: NO title line found
+  svg/p5-jovens.svg box y=200: NO title line found
+  svg/p5-jovens.svg box y=892: NO title line found
+  svg/p5-jovens.svg box y=200: NO title line found
+  svg/p5-jovens.svg box y=539: NO title line found
+  svg/p6-aprofundamento.svg box y=343: NO title line found
+  svg/p6-aprofundamento.svg box y=200: NO title line found
+  svg/p6-aprofundamento.svg box y=866: NO title line found
+  svg/p6-aprofundamento.svg box y=1594: NO title line found
+  svg/p6-aprofundamento.svg box y=1594: NO title line found
+  svg/p7-lingua.svg box y=200: NO title line found
+  svg/p7-lingua.svg box y=1128: NO title line found
+  svg/p7-lingua.svg box y=1453: NO title line found

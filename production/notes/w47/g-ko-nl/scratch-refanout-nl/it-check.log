@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] D3-P2-short: "c. eten voor Sinterklaas' paard" ink-right(adv)=1790.1 clearance=+71.9
+[PASS] D3-longform-absent: p2 SVG
+[PASS] D5-P4-SVG: p4-sport.svg (wrapped para: two fragments)
+[PASS] D5-textmd: text.md
+[PASS] D4-ex-markers: — Risposta: x142 (want 142)
+[PASS] D4-match-words: (Risposta x) x8 (want 8)
+[PASS] D4-no-Chinese-答案: 答案 residual=0
+[PASS] title-HET WOORD　PAROLA: ink right 1714.5 clearance +147.5
+[PASS] italic-print==web==1: print=1 web=1
+text.md diff vs backup: 11 changed lines (+/- count)
+    -26. de wortel — eten voor het paard van Sinterklaas (Risposta c · wortel = carota c)
+    +26. de wortel — eten voor Sinterklaas' paard (Risposta c · wortel = carota c)
+    +Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+    -### HET WOORD　PAROLA DELLA SETTIMANA
+    +### HET WOORD　PAROLA
+    -> «Sinterklaas is een oud feest in Nederland» — La festa di San Nicola è un’antica festa olandese. (Pagina 6)
+    +> «Sinterklaas is een oud feest in Nederland» — La festa di San Nicola è un'antica festa olandese. (Pagina 6)
+    -126. [B1 · Scelta multipla] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Risposta: B（Il PSV è in testa all’Eredivisie con 26 punti）
+    +126. [B1 · Scelta multipla] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Risposta: B（Il PSV è in testa all'Eredivisie con 26 punti）
+    -140. [B2 · Traduzione] Faccio una surprise con una poesia. → ___ — Risposta: Ik maak een surprise met een gedicht.（surprise è un’espressione fissa） [Traduci in olandese]
+    +140. [B2 · Traduzione] Faccio una surprise con una poesia. → ___ — Risposta: Ik maak een surprise met een gedicht.（surprise è un'espressione fissa） [Traduci in olandese]
+RESULT: ALL PASS

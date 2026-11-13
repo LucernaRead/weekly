@@ -1,0 +1,638 @@
+===== 2026-w47-en-nl 2026-11-12T13:56:10Z =====
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check RC=0
+HEAD CHECK PASS 0 defects
+textmd export RC=0
+P1 saved, exercises so far: 10
+P2 col3 ends 1436.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+paras: 498 answers: 150 bytes: 53736
+REG total: 150
+text.md diff lines: 4
+185c185
+< What happens next? First, the states certify their counts — between November 10 and December 18. If no candidate wins a majority in Georgia's Senate race, there is a runoff on December 1. Mississippi has no runoff: the most votes win. Then the winners are sworn in, and the new Congress meets in January 2027.
+---
+> What happens next? First, the states certify their counts — between November 10 and December 18. Georgia law calls for a runoff on December 1 only if no candidate wins a majority — but Jon Ossoff won reelection with about 59% of the vote, so there is no runoff. Mississippi has no runoff: the most votes win. Then the winners are sworn in, and the new Congress meets in January 2027.
+651c651
+< What does “called” mean? A call is a news organisation's judgement: the maths is clear, and the candidate behind cannot catch up. It is not the official result. The official result comes when each state certifies its count — between November 10 and December 18, with no fixed date in some states. In Georgia, a Senate race with no majority winner goes to a runoff on December 1. Mississippi has no runoff in a regular election: the candidate with the most votes wins.
+---
+> What does “called” mean? A call is a news organisation's judgement: the maths is clear, and the candidate behind cannot catch up. It is not the official result. The official result comes when each state certifies its count — between November 10 and December 18, with no fixed date in some states. In Georgia, a Senate race with no majority winner goes to a runoff on December 1 — but this time Jon Ossoff won reelection with about 59% of the vote, so there was no runoff. Mississippi has no runoff in a regular election: the candidate with the most votes wins.
+registry.json diff lines: 0
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg: 0 flags 
+occlusion --selftest RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+keydiff: [137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 76c23d0c308fc0e7 produced 76c23d0c308fc0e7
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p8: +118 strings / -508 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 104 (unexpected 104)
+TOTAL added CJK characters: 9
+TOTAL added Latin strings: 361 (unexpected 361)
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-nl: 32 boxes, 149 candidates, 0 SPILL, 149 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-nl  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-nl
+BOXTITLE 2026-w47-en-nl: 32 titles, 183 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-nl: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=4 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-test.svg: lines 178->178 slack_footer 35.9->35.9
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=168 curly_in_newsreader=168 noto_sans_elements=0
+CENSUS PASS
+print-vs-web text: BYTE-IDENTICAL
+print text diff vs pre-fix: 423 lines
+301c301,303
+< every seat is on the ballot every two
+---
+> TWO HOUSES, TWO JOBS
+> Why two houses? The House of
+> Representatives has 435 seats, and
+305c307
+< each time. A senator serves for six
+---
+> every seat is on the ballot every two
+307a310,312
+> 
+> years. The Senate has 100 seats, and
+> 
+308a314,316
+> 
+> about a third of them are on the ballot
+> 
+309a318,320
+> 
+> each time. A senator serves for six
+> 
+312,313d322
+< years. The Senate has 100 seats, and
+< about a third of them are on the ballot
+314a324,326
+> 
+> ballots and checking signatures. In
+> 
+316a329,332
+> Alaska and Mississippi, the Senate
+> 
+> changes fast, and the Senate changes
+> 
+318d333
+< What happens next? First, the states
+319a335,337
+> slowly.
+> 
+> THE CALENDAR Kalender
+326,328d343
+< changes fast, and the Senate changes
+< slowly.
+< 
+329a345,348
+> Second story of the week — and it is on
+> your screen. On Friday, November 20,
+> the new Hunger Games film opens in
+> cinemas, and the ATP Finals end in
+331,334c350
+< ballots and checking signatures. In
+< Alaska and Mississippi, the Senate
+< 
+< THE CALENDAR Kalender
+---
+> What happens next? First, the states
+338c354,356
+< Second story of the week — and it is on
+---
+> certify their counts — between
+> 
+> Turin on Sunday, November 22. On
+344,347c362
+< your screen. On Friday, November 20,
+< the new Hunger Games film opens in
+< cinemas, and the ATP Finals end in
+< Turin on Sunday, November 22. On
+---
+> Saturday, November 21, the Premier
+349,350c364,366
+< certify their counts — between
+< November 10 and December 18. If no
+---
+> November 10 and December 18.
+> Georgia law calls for a runoff on
+> December 1 only if no candidate wins
+352c368,369
+< Life goes on around the politics. Next
+---
+> League is back — and page 4 looks
+> back at the Ashes. Page 3 has the film
+354c371,376
+< Saturday, November 21, the Premier
+---
+> A wild turkey, drawn by John James Audubon.
+> The turkey is the bird of Thanksgiving — on
+> Thursday, November 26, it is the centre of the
+> American dinner table.
+> John James Audubon — public domain, via Wikimedia
+> Commons
+356c378,384
+< candidate wins a majority in Georgia's
+---
+> guide, page 4 the sport.
+> 
+> a majority — but Jon Ossoff won
+> 
+> Life goes on around the politics. Next
+> 
+> reelection with about 59% of the vote,
+360c388
+< League is back — and page 4 looks
+---
+> On television, the week is just as full.
+362c390
+< Senate race, there is a runoff on
+---
+> so there is no runoff. Mississippi has
+366c394
+< back at the Ashes. Page 3 has the film
+---
+> I'm a Celebrity opens on Monday
+368c396
+< December 1. Mississippi has no
+---
+> no runoff: the most votes win. Then
+372c400,402
+< runoff: the most votes win. Then the
+---
+> night, and the jungle will be on every
+> 
+> the winners are sworn in, and the new
+376c406,408
+< winners are sworn in, and the new
+---
+> night for weeks. Thanksgiving is a
+> 
+> Congress meets in January 2027.
+380c412
+< Congress meets in January 2027.
+---
+> week away — and the turkey is already
+383c415,416
+< is Black Friday, the biggest shopping
+---
+> 
+> in the shops.
+387c420
+< day of the year.
+---
+> is Black Friday, the biggest shopping
+390,391c423,432
+< House vote on Tuesday, November 10. And in Britain? The week is quieter —
+< but the television is not. On Monday,
+---
+> 
+> day of the year.
+> 
+> House vote on Tuesday, November 10.
+> 
+> DID YOU KNOW?
+> 
+> How do you say the date of the new
+> Congress? “In January 2027.” is the
+> 
+392a434,438
+> 
+> And in Britain? The week is quieter —
+> 
+> sentence of the week. The phrase box
+> 
+395c441,443
+< November 16, at 9 p.m., the jungle
+---
+> but the television is not. On Monday,
+> 
+> below shows three ways to say it.
+399c447
+< opens again: I'm a Celebrity is back
+---
+> November 16, at 9 p.m., the jungle
+403c451
+< on ITV1. Page 3 has the story — and
+---
+> opens again: I'm a Celebrity is back
+407c455
+< the words you need for the jungle.
+---
+> on ITV1. Page 3 has the story — and
+411,418c459
+< John James Audubon — public domain, via Wikimedia
+< Commons
+< 
+< guide, page 4 the sport.
+< 
+< DID YOU KNOW?
+< On television, the week is just as full.
+< I'm a Celebrity opens on Monday
+---
+> the words you need for the jungle.
+422,426d462
+< 
+< night, and the jungle will be on every
+< night for weeks. Thanksgiving is a
+< week away — and the turkey is already
+< 
+429,433d464
+< 
+< in the shops.
+< How do you say the date of the new
+< Congress? “In January 2027.” is the
+< 
+438,439d468
+< sentence of the week. The phrase box
+< 
+441,443d469
+< 
+< below shows three ways to say it.
+< 
+455,461d480
+< A wild turkey, drawn by John James Audubon.
+< The turkey is the bird of Thanksgiving — on
+< Thursday, November 26, it is the centre of the
+< American dinner table.
+< 
+< TWO HOUSES, TWO JOBS
+< 
+466,468d484
+< Why two houses? The House of
+< Representatives has 435 seats, and
+< 
+1462a1479,1483
+> 
+> the two sides must then work — or
+> argue — together. The map is drawn.
+> The work starts in January.
+> 
+1465a1487,1490
+> being drawn. On Tuesday, November
+> 3, Americans voted for the House, for
+> a third of the Senate, and for
+> governor in 36 states. By the Sunday
+1466a1492,1499
+> B2
+> 
+> 87.
+> 
+> The House numbers add up to... A. 218 ·
+> B. 413 · C. 435
+> 
+> B COMPREHENSION
+1474,1475c1507,1508
+< being drawn. On Tuesday, November
+< 3, Americans voted for the House, for
+---
+> after the vote, November 8, the
+> Associated Press had called the big
+1479c1512
+< a third of the Senate, and for
+---
+> question: the Democrats had won
+1483c1516
+< governor in 36 states. By the Sunday
+---
+> both houses of Congress.
+1486,1488d1518
+< 
+< after the vote, November 8, the
+< 
+1491c1521
+< Associated Press had called the big
+---
+> Here is the map, as called on Sunday,
+1495c1525
+< question: the Democrats had won
+---
+> November 8. In the House, the
+1499c1529
+< both houses of Congress.
+---
+> Democrats won 254 seats, the
+1503c1533
+< Here is the map, as called on Sunday,
+---
+> Republicans 162, and 19 races were
+1507,1509d1536
+< November 8. In the House, the
+< Democrats won 254 seats, the
+< Republicans 162, and 19 races were
+1511a1539,1573
+> Lees het artikel op pagina 6 en kies het
+> juiste antwoord.
+> B2
+> 
+> 88.
+> 
+> A “call” is... A. the official result · B. a news A voting booth in the Old State House,
+> Hartford, Connecticut: one voter, one ballot,
+> organisation's judgement · C. a vote in
+> one private moment. On Tuesday, November 3,
+> Congress
+> millions of Americans did the same.
+> 
+> Kenneth C. Zirkel — CC0, via Wikimedia Commons
+> 
+> B2
+> 
+> 89.
+> 
+> The official result comes when... A. the
+> state certifies its count · B. TV calls the
+> race · C. the first votes arrive
+> B2
+> 
+> 90.
+> 
+> The two Senate races still uncalled are
+> in... A. Georgia and Texas · B. Iowa and
+> Ohio · C. Alaska and Mississippi
+> 
+> Democrats won 20 of the 33 races
+> called and the Republicans 13, with
+> Alaska and Mississippi still uncalled.
+> Seven Senate seats changed hands,
+> 
+1517,1519c1579,1581
+< Democrats won 20 of the 33 races
+< called and the Republicans 13, with
+< Alaska and Mississippi still uncalled.
+---
+> and all seven went to the Democrats:
+> Iowa, Kansas, Maine, North Carolina,
+> Ohio, South Carolina and Texas.
+1524c1586,1589
+< and all seven went to the Democrats:
+---
+> What does “called” mean? A call is a
+> news organisation's judgement: the
+> maths is clear, and the candidate
+> behind cannot catch up. It is not the
+1527,1529d1591
+< 
+< Ohio, South Carolina and Texas.
+< 
+1534,1537d1595
+< What does “called” mean? A call is a
+< news organisation's judgement: the
+< maths is clear, and the candidate
+< behind cannot catch up. It is not the
+1540,1546d1597
+< 
+< Senate called: 20 Democrats, 13
+< Republicans, 2 uncalled (Nov 8)
+< Senate flips: 7, all to the Democrats
+< Governors flipped: 5, all to the
+< Democrats
+< 
+1551,1553c1602,1603
+< December 1. Mississippi has no
+< runoff in a regular election: the
+< candidate with the most votes wins.
+---
+> December 1 — but this time Jon
+> Ossoff won reelection with about 59%
+1555,1557c1605
+< Lees het artikel op pagina 6 en kies het
+< juiste antwoord.
+< B2
+---
+> election: the candidate with the most
+1559c1607,1608
+< 88.
+---
+> The Speaker — the leader of the
+> House — is chosen when the new
+1561,1563d1609
+< A “call” is... A. the official result · B. a news
+< organisation's judgement · C. a vote in
+< Congress
+1566c1612,1615
+< 89.
+---
+> States certify: November 10 to
+> December 18
+> Runoff, if needed: December 1 (Georgia
+> only)
+1568,1570d1616
+< The official result comes when... A. the
+< state certifies its count · B. TV calls the
+< race · C. the first votes arrive
+1573c1619
+< 90.
+---
+> 82.
+1575,1577c1621,1623
+< The two Senate races still uncalled are
+< in... A. Georgia and Texas · B. Iowa and
+< Ohio · C. Alaska and Mississippi
+---
+> In the House, as called on November 8,
+> the Democrats won... A. 218 seats · B. 254
+> seats · C. 162 seats
+1580,1584c1626
+< 91.
+< 
+< The House Republicans choose their
+< leader on... A. November 8 · B. November
+< 10 · C. November 18
+---
+> 83.
+1586,1590c1628,1629
+< A voting booth in the Old State House,
+< Hartford, Connecticut: one voter, one ballot,
+< one private moment. On Tuesday, November 3,
+< millions of Americans did the same.
+< Kenneth C. Zirkel — CC0, via Wikimedia Commons
+---
+> In the House, races still uncalled: ... A. 2 ·
+> B. 13 · C. 19
+1592d1630
+< HOW LONG? Duur van de termijn
+1599a1638,1643
+> American election night is a map, not a
+> single number. Learn the map, and the
+> night makes sense.
+> Eén kaart | Vijftig staten, vijftig regels —
+> daarom kijk je op verkiezingsnacht naar een
+> kaart, niet naar één getal.
+1601,1604c1645
+< Seven Senate seats changed hands,
+< Iowa, Kansas, Maine, North Carolina,
+< 
+< B COMPREHENSION
+---
+> 93.
+1606,1609c1647,1648
+< States certify: November 10 to
+< December 18
+< Runoff, if needed: December 1 (Georgia
+< only)
+---
+> The certified results will be reported in...
+> A. VOL.3 · B. this issue · C. VOL.5
+1611,1613c1650,1651
+< A CHART READING
+< Lees de grafiek met de bekendgemaakte
+< cijfers hierboven en kies het juiste antwoord.
+---
+> 94. Vul in
+> Each state must ___ its count.
+1615c1653
+< B2
+---
+> new Congress meets, with a
+1617c1655
+< 92.
+---
+> Democrats on November 18 and 19.
+1621a1660,1676
+> 
+> Governors flipped: 5, all to the
+> Democrats
+> 
+> What changes? In January 2027, the
+> 
+> on November 10, the House
+> 
+> 92.
+> 
+> Vul de zinnen aan met de gegeven woorden.
+> 
+> Lees de grafiek met de bekendgemaakte
+> cijfers hierboven en kies het juiste antwoord.
+> 
+> leaders first: the House Republicans
+> 
+1624c1679
+< 93.
+---
+> Senate flips: 7, all to the Democrats
+1626,1627c1681,1687
+< The certified results will be reported in...
+< A. VOL.3 · B. this issue · C. VOL.5
+---
+> A CHART READING
+> 
+> Senate. The two parties choose their
+> 
+> The House Republicans choose their
+> leader on... A. November 8 · B. November
+> 10 · C. November 18
+1631,1636c1691
+< American election night is a map, not a
+< single number. Learn the map, and the
+< night makes sense.
+< Eén kaart | Vijftig staten, vijftig regels —
+< daarom kijk je op verkiezingsnacht naar een
+< kaart, niet naar één getal.
+---
+> votes wins.
+1638c1693
+< SENTENCES
+---
+> Democratic House and a Democratic
+1640c1695,1707
+< Vul de zinnen aan met de gegeven woorden.
+---
+> 91.
+> 
+> Senate called: 20 Democrats, 13
+> Republicans, 2 uncalled (Nov 8)
+> 
+> of the vote, so there was no runoff.
+> Mississippi has no runoff in a regular
+> 
+> B2
+> 
+> HOW LONG? Duur van de termijn
+> 
+> SENTENCES
+1642,1643d1708
+< 94. Vul in
+< Each state must ___ its count.
+1656,1673d1720
+< What changes? In January 2027, the
+< new Congress meets, with a
+< Democratic House and a Democratic
+< Senate. The two parties choose their
+< leaders first: the House Republicans
+< on November 10, the House
+< Democrats on November 18 and 19.
+< The Speaker — the leader of the
+< 
+< B2
+< 
+< 82.
+< 
+< In the House, as called on November 8,
+< the Democrats won... A. 218 seats · B. 254
+< seats · C. 162 seats
+< B2
+< 
+1682,1686d1728
+< 83.
+< 
+< In the House, races still uncalled: ... A. 2 ·
+< B. 13 · C. 19
+< 
+1691d1732
+< House — is chosen when the new
+1696a1738
+> stays the same, and so does the White
+1711d1752
+< stays the same, and so does the White
+1715,1720d1755
+< 
+< B2
+< 
+< Governors' offices that changed hands: ...
+< A. 5 · B. 7 · C. 2
+< 
+1722,1725d1756
+< the two sides must then work — or
+< argue — together. The map is drawn.
+< 
+< 86.
+1729,1732c1760
+< 87.
+< 
+< The House numbers add up to... A. 218 ·
+< B. 413 · C. 435
+---
+> 86.
+1734c1762,1763
+< The work starts in January.
+---
+> Governors' offices that changed hands: ...
+> A. 5 · B. 7 · C. 2
+OVERALL: ALL-GREEN

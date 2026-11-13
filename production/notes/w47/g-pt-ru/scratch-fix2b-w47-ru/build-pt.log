@@ -1,0 +1,88 @@
+===== pt 2026-11-12T19:18:25Z =====
+run.py rc=0
+TOTAL 150
+render.py rc=0
+print PDF mtime=2026-11-12 19:19:12.082592422 +0000 size=20883686
+34344b82815de7808a0307e9fe6d84aee874a369c298753b6e98fc74dab59992  Lucerna-VOL4-ru-pt.pdf
+ru_textmd.py rc=0
+BACKFILL 2 line(s) at pre L45: ['', '### СМИ · O QUE DIZEM OS MEDIA']
+BACKFILL 2 line(s) at pre L448: ['', '### ЗА И ПРОТИВ · PRÓS E CONTRAS']
+WROTE /tmp/fix2b-final/2026-w47-ru-pt.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -247,7 +247,7 @@
+ 
+ ## B · ГЛАГОЛЫ И ФОРМЫ
+ 
+-*Complete a forma verbal ou o caso correto.*
++*Completa a forma verbal ou o caso correto.*
+ 
+ 34. [B1 · Completar frases] 19 ноября в прокат ___ пять фильмов. (выходить) — key: выходят (выходить → выходят) [Completar frases]
+ 35. [B1 · Completar frases] Фильм ___ о жизни Сталлоне. (рассказывать) — key: рассказывает (рассказывать → рассказывает) [Completar frases]
+@@ -265,7 +265,7 @@
+ 
+ ## D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ
+ 
+-*Forme frases corretas com as palavras.*
++*Forma frases corretas com as palavras.*
+ 
+ 43. [A2 · Construção de frases] пять премьер / выходят / 19 ноября → ___ — key: Пять премьер выходят 19 ноября. (Sujeito + verbo + tempo) [Construção de frases]
+ 44. [A2 · Construção de frases] Питер Фаррелли / снял / этот фильм → ___ — key: Питер Фаррелли снял этот фильм. (Sujeito + verbo + objeto) [Construção de frases]
+@@ -338,7 +338,7 @@
+ 
+ ## D · ВРЕМЯ ГЛАГОЛА
+ 
+-*Complete com o tempo correto do verbo entre parênteses.*
++*Completa com o tempo correto do verbo entre parênteses.*
+ 
+ 61. [B1 · Completar frases] 14-й тур ___ 6–8 ноября. (сыграть) — key: сыграли (сыграть → сыграли) [Completar frases]
+ 62. [B1 · Completar frases] 15-й тур ___ 20–22 ноября. (быть) — key: будет (будет = será) [Completar frases]
+@@ -415,7 +415,7 @@
+ 
+ ## D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ
+ 
+-*Forme frases corretas com as palavras.*
++*Forma frases corretas com as palavras.*
+ 
+ 79. [B1 · Construção de frases] сначала / список, / потом / цены, / потом / промокод → ___ — key: Сначала список, потом цены, потом промокод. (Primeiro a lista, depois os preços, depois o código promocional) [Construção de frases]
+ 80. [A2 · Construção de frases] «чёрная пятница» / начинается / 16 ноября → ___ — key: «Чёрная пятница» начинается 16 ноября. (Sujeito + verbo + tempo) [Construção de frases]
+@@ -492,7 +492,7 @@
+ 
+ ## C · СОЕДИНИТЕ ПРЕДЛОЖЕНИЯ
+ 
+-*Junte as duas frases numa só.*
++*Junta as duas frases numa só.*
+ 
+ 97. [B2 · Transformação de frases] Неделя обычная. Ритм ровный. → ___ (поэтому) — key: Неделя обычная, поэтому ритм ровный. (поэтому = por isso) [Transformação de frases]
+ 98. [B2 · Transformação de frases] В понедельник трудно начать. В пятницу уже почти выходные. → ___ (а) — key: В понедельник трудно начать, а в пятницу уже почти выходные. (а marca um contraste) [Transformação de frases]
+backfill rc=0
+text.md landed:
+00e972b717fb34055f76a435be87ba5fc51acbd9011ab34aba9eba373cbf5532  2026-w47-ru-pt.text.md
+text.md size=65113
+250c250
+< *Complete a forma verbal ou o caso correto.*
+---
+> *Completa a forma verbal ou o caso correto.*
+268c268
+< *Forme frases corretas com as palavras.*
+---
+> *Forma frases corretas com as palavras.*
+341c341
+< *Complete com o tempo correto do verbo entre parênteses.*
+---
+> *Completa com o tempo correto do verbo entre parênteses.*
+418c418
+< *Forme frases corretas com as palavras.*
+---
+> *Forma frases corretas com as palavras.*
+495c495
+< *Junte as duas frases numa só.*
+---
+> *Junta as duas frases numa só.*
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 30532 bytes
+WROTE Lucerna-VOL4-ru-pt-web.pdf: 3337241 bytes, 58389 text bytes
+web PDF mtime=2026-11-12 19:19:57.128390828 +0000 size=3337241
+680702793672437cc43d22e247d0848911ebcd8708bdc682e1021d96def84264  Lucerna-VOL4-ru-pt-web.pdf
+BUILD DONE pt 2026-11-12T19:19:57Z

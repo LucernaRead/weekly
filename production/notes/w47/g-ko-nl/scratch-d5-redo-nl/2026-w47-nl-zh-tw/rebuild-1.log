@@ -1,0 +1,26 @@
+############ REDO REBUILD 2026-w47-nl-zh-tw reader=zh-tw mode=cjk ed=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-zh-tw
+--- install --check ---
+check RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-zh-tw/svglib.py (target=nl reader=zh-tw mode=cjk): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'cjk'; Page.text italic covers sans_noto_i; updated sans comment
+--- install ---
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-zh-tw/svglib.py (target=nl reader=zh-tw mode=cjk): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'cjk'; Page.text italic covers sans_noto_i; updated sans comment
+svglib diff lines: 112
+83c4820e35a1e89c010ae57a230fb958  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-zh-tw/svglib.py
+--- routing assert ---
+routing RC=0
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0
+--- run.py ---
+run RC=0
+  !! HEAD TOO WIDE [P2-feature]: DRIE DINGEN VOOR 5 DECEMBER
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- head_check (hard gate) ---
+head_check RC=1
+DEFECT /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-redo-nl/2026-w47-nl-zh-tw/run.log:6 HEAD TOO WIDE [P2-feature]: DRIE DINGEN VOOR 5 DECEMBER
+HEAD CHECK FAIL 1 defects
+--- render.py ---

@@ -1,0 +1,11 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 close: prev 'r' bbox=(445.29, 1367.1, 451.11, 1388.82) | quote '“' bbox=(451.11, 1367.1, 466.11, 1388.82) | next '.' bbox=(466.11, 1367.1, 470.28, 1388.82)
+D1 quote ink columns (pt, relative to crop x0):
+  [(0.0, 1.44), (3.96, 7.92), (17.64, 19.439999999999998), (20.52, 22.32), (24.48, 25.919999999999998)]
+P5 close (Newsreader): prev 's' bbox=(703.23, 209.49, 711.26, 227.49) | quote '“' bbox=(711.26, 209.49, 719.2, 227.49) | next '.' bbox=(719.2, 209.49, 723.7, 227.49)
+P5 quote ink columns (pt, relative):
+  []
+D2 close: prev 's' bbox=(451.67, 1901.89, 456.33, 1916.28) | quote '“' bbox=(456.33, 1901.89, 466.26, 1916.28) | next ')' bbox=(466.26, 1901.89, 469.62, 1916.28)
+D2 quote ink columns (pt, relative):
+  [(0.0, 9.719999999999999), (11.879999999999999, 12.24), (14.399999999999999, 21.24), (25.56, 25.56)]

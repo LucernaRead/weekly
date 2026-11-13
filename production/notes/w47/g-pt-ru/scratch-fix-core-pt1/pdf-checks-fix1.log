@@ -1,0 +1,13 @@
+print bytes: 44481 words: 7263
+web   bytes: 44481 words: 7263
+word multiset diff (print-web): 0  (web-print): 0
+print pages via pdfinfo-like count: form feeds: 8
+LDQUO U+201C: print=3 web=3
+RDQUO U+201D: print=3 web=3
+RSQUO U+2019: print=0 web=0
+LAQUO U+00AB: print=40 web=40
+RAQUO U+00BB: print=40 web=40
+print-p8 parsed answers: 62
+text.md parsed answers: 0
+common: 0 key diffs: []
+missing in print: [] missing in md: [7, 8, 9, 10, 11, 12, 13, 14, 15, 29]

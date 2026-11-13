@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "文を作りなさい", "Il torrone si assaggia a Cremona.", "主語 + 動詞 + 場所",
+      "il torrone / si assaggia / a Cremona → ___", instr="文を作りなさい", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "翻訳", "聖母健康祭では、人々は奉納の橋を渡ります。", "原文と比べなさい",
++f.ex("A2", "翻译", "聖母健康祭では、人々は奉納の橋を渡ります。", "原文と比べなさい",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="日本語に訳しなさい", size=15.5, gap=1)
+-f.ex("B1", "翻訳", "日曜の夜、アタランタがインテルと対戦します。", "si gioca = 試合がある",
++f.ex("B1", "翻译", "日曜の夜、アタランタがインテルと対戦します。", "si gioca = 試合がある",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="日本語に訳しなさい", size=15.5, gap=1)
+-f.ex("B1", "翻訳", "土曜、ラツィオはホームでレッチェと対戦します。", "in casa = ホームで",
++f.ex("B1", "翻译", "土曜、ラツィオはホームでレッチェと対戦します。", "in casa = ホームで",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="日本語に訳しなさい", size=15.5, gap=1)
+-f.ex("B2", "翻訳", "Ogni cifra deve essere chiara.", "dovere = ～しなければならない",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = ～しなければならない",
+      "すべての数字がはっきりしていなければなりません。→ ___", instr="イタリア語に訳しなさい", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "語彙の組み合わせ",

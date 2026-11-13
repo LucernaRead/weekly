@@ -1,0 +1,61 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== 1. pdftotext print vs web ==
+print chars: 84166 web chars: 84358 | non-space: 22481 22481
+print-only (non-space): {} web-only (non-space): {}
+multiset identical (non-space): True
+== 2. P8 font sizes (print PDF) ==
+pages: 8 size: Rect(0.0, 0.0, 1462.5, 2025.0)
+keys-region spans: 369 min size: 9.975000381469727
+stem-ish spans 12-14pt: 317 sizes: [13.12, 13.5, 13.88]
+P8 min size overall: 9.975000381469727
+== 3. D2 regression: P2 lines ==
+  y=271.5: 1，22天一共揽收139.38亿件，单日最高
+  y=298.9: 7.77亿件。今年的高峰在11、12、13
+  y=326.2: 日三天，包裹还在路上。
+  y=272.5: something).
+  y=332.1: 小雪之后，怎么穿
+  y=284.2: 周六11月21日—电影《试探》上映
+  y=324.1: 秋天的山谷，红叶正当时。天冷了，山里的叶子也
+  y=343.3: 要落了。
+  '11、12、13日' intact in P2 text stream: False
+  split fragments '11、1' / '2、13日' present: False
+== 4. P6 chart rects ==
+  bars (x, w, fill): [(428.0, 529.644, '#46581f'), (428.0, 29.525999999999996, '#37402f')]
+  expected 139.38*3.8=529.6 / 7.77*3.8=29.5
+== 5. margin spans (right edge 1396.5pt) ==
+   (1, 1397.3, 15.0, '答案见第8版')
+   (2, 1397.1, 15.0, '答案见第8版')
+   (3, 1397.1, 15.0, '答案见第8版')
+   (4, 1397.1, 15.0, '答案见第8版')
+   (5, 1397.1, 15.0, '答案见第8版')
+   (6, 1397.1, 15.0, '答案见第8版')
+   (8, 1398.8, 13.88, '一，我的包裹到了，我用取件码打开快递柜，拿到了')
+   (8, 1397.3, 14.62, '✓= the writing task')
+  total over-margin spans: 8
+== 6. section 1.1 spot checks (SVG text) ==
+  paper #fbfaf6 count: 8
+  #fbfaf6: 8
+  #c9a227: 0
+  #d4af37: 0
+  gold: 3
+  #8b4513: 0
+  #7a2e0e: 0
+  #111111: 0
+  #000000: 0
+  '·' occurrences: 138
+  '2003 年' occurrences: 0
+  'waitfor' occurrences: 0
+  'VOL.3' occurrences: 2
+  '7.6亿件': 0  '1.4亿件': 0  '四分之三': 0
+  '三分之二': 1  '撤档': 3  '139.38': 24  '7.77': 20
+  phrase 决赛对阵GEN: 2x
+  phrase 包裹都到了吗: 2x
+  phrase 小雪气寒而将雪矣: 2x
+  phrase 两支中国队进了四强: 2x
+  phrase 先看简介，再决定: 2x
+  phrase 无高峰，全高峰: 2x
+  phrase 先打开看一看，再确认收货: 2x
+  phrase 悦读深圳: 2x
+  TC-only chars: 0
+  '·' in furniture check done via SVG grep separately

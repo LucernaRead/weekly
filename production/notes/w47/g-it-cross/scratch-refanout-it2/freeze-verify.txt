@@ -1,0 +1,122 @@
+== freeze en ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core e1d656c3d69187c9 produced e1d656c3d69187c9
+  OK  p2-vita.svg core ec95d231104a2ebb produced ec95d231104a2ebb
+  OK  p3-cultura.svg core 5a83461fd3680aef produced 5a83461fd3680aef
+  OK  p4-sport.svg core afd30ed1986550f3 produced afd30ed1986550f3
+  OK  p5-giovani.svg core 790cdbbeef7127c7 produced 790cdbbeef7127c7
+  OK  p6-approfondimento.svg core 312036cd1fa8dae3 produced 312036cd1fa8dae3
+  OK  p7-lingua.svg core 997748556488ab74 produced 997748556488ab74
+  OK  p8-valutazione.svg core af25b666b16ea1ef produced af25b666b16ea1ef
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+rc=0
+== freeze de ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core 7112d99e31e34376 produced 7112d99e31e34376
+  OK  p2-vita.svg core 261475e35e4dd345 produced 261475e35e4dd345
+  OK  p3-cultura.svg core f5980291a11b8939 produced f5980291a11b8939
+  OK  p4-sport.svg core f2d5978ae96a8ae2 produced f2d5978ae96a8ae2
+  OK  p5-giovani.svg core 3bd674f2923c1eff produced 3bd674f2923c1eff
+  OK  p6-approfondimento.svg core 46e06ef110a49baa produced 46e06ef110a49baa
+  OK  p7-lingua.svg core 25ffcf90c8beb3af produced 25ffcf90c8beb3af
+  OK  p8-valutazione.svg core 75460c1022356e82 produced 75460c1022356e82
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+rc=0
+== freeze es ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core 6f9e1030db770f1a produced 6f9e1030db770f1a
+  OK  p2-vita.svg core 783afdc2a49f1750 produced 783afdc2a49f1750
+  OK  p3-cultura.svg core 97e25dc16feae335 produced 97e25dc16feae335
+  OK  p4-sport.svg core c4de39016823db0c produced c4de39016823db0c
+  OK  p5-giovani.svg core 21bc0fa5fd19e113 produced 21bc0fa5fd19e113
+  OK  p6-approfondimento.svg core 4c2504d6dbec7d9f produced 4c2504d6dbec7d9f
+  OK  p7-lingua.svg core 54a92472cd009f0b produced 54a92472cd009f0b
+  OK  p8-valutazione.svg core a51ed0f217bbd9ea produced a51ed0f217bbd9ea
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+rc=0
+== freeze fr ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core 874b2129c65fcf94 produced 874b2129c65fcf94
+  OK  p2-vita.svg core 8bfcedced5db6f6f produced 8bfcedced5db6f6f
+  OK  p3-cultura.svg core 617cf7018ae8d3ec produced 617cf7018ae8d3ec
+  OK  p4-sport.svg core b7637046262c6018 produced b7637046262c6018
+  OK  p5-giovani.svg core 9abdc25cc78f6f81 produced 9abdc25cc78f6f81
+  OK  p6-approfondimento.svg core 723d688dabdc3063 produced 723d688dabdc3063
+  OK  p7-lingua.svg core 40b427018a78b37e produced 40b427018a78b37e
+  OK  p8-valutazione.svg core 94b069ae68729795 produced 94b069ae68729795
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze pt ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core 0362f854092ef632 produced 0362f854092ef632
+  OK  p2-vita.svg core decb2052a0f1b027 produced decb2052a0f1b027
+  OK  p3-cultura.svg core c4eb93fb1bb970c1 produced c4eb93fb1bb970c1
+  OK  p4-sport.svg core fe8e81abd24dc9fe produced fe8e81abd24dc9fe
+  OK  p5-giovani.svg core 2f4677ba6c80ace3 produced 2f4677ba6c80ace3
+  OK  p6-approfondimento.svg core c9d02d589eda82aa produced c9d02d589eda82aa
+  OK  p7-lingua.svg core 5014a4c43bfce9a3 produced 5014a4c43bfce9a3
+  OK  p8-valutazione.svg core c7b5373e4a4da707 produced c7b5373e4a4da707
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze nl ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core deedd439431e2025 produced deedd439431e2025
+  OK  p2-vita.svg core 4ed90c7c8bde6045 produced 4ed90c7c8bde6045
+  OK  p3-cultura.svg core 73bc1693b0c60224 produced 73bc1693b0c60224
+  OK  p4-sport.svg core 30d5bf3f23c902e6 produced 30d5bf3f23c902e6
+  OK  p5-giovani.svg core 4164ed9c9983a269 produced 4164ed9c9983a269
+  OK  p6-approfondimento.svg core 299e4607574878cf produced 299e4607574878cf
+  OK  p7-lingua.svg core 190da76bdb96632a produced 190da76bdb96632a
+  OK  p8-valutazione.svg core 3edc2d546f3636dc produced 3edc2d546f3636dc
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze ru ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core dcbe4b97ece54a43 produced dcbe4b97ece54a43
+  OK  p2-vita.svg core 462eb58bd99ac55b produced 462eb58bd99ac55b
+  OK  p3-cultura.svg core 87c35bf2b6edbb83 produced 87c35bf2b6edbb83
+  OK  p4-sport.svg core 8c4910d6ba38878a produced 8c4910d6ba38878a
+  OK  p5-giovani.svg core eedfe6a4a3f47d3c produced eedfe6a4a3f47d3c
+  OK  p6-approfondimento.svg core a36aa3ce1eeab8f1 produced a36aa3ce1eeab8f1
+  OK  p7-lingua.svg core ab64926d3c1d1a1a produced ab64926d3c1d1a1a
+  OK  p8-valutazione.svg core 6faa486ae94a6a51 produced 6faa486ae94a6a51
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze ja ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core deac8b03864a7a11 produced deac8b03864a7a11
+  OK  p2-vita.svg core 84c1ee1eca991a16 produced 84c1ee1eca991a16
+  OK  p3-cultura.svg core 12d90f5a573530d7 produced 12d90f5a573530d7
+  OK  p4-sport.svg core bcdc0a85e86cb32f produced bcdc0a85e86cb32f
+  OK  p5-giovani.svg core da33507d5ae7134d produced da33507d5ae7134d
+  OK  p6-approfondimento.svg core aa94f7a173c29e1b produced aa94f7a173c29e1b
+  OK  p7-lingua.svg core 12f2aeb90f8b9bcf produced 12f2aeb90f8b9bcf
+  OK  p8-valutazione.svg core fa82b32e42fb6262 produced fa82b32e42fb6262
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze ko ==
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core 2a907d7e1426fcf5 produced 2a907d7e1426fcf5
+  OK  p2-vita.svg core a3e09b05d194d374 produced a3e09b05d194d374
+  OK  p3-cultura.svg core 2ae7d820be498009 produced 2ae7d820be498009
+  OK  p4-sport.svg core de86d1667a68a2f4 produced de86d1667a68a2f4
+  OK  p5-giovani.svg core 55ae05f8654188d4 produced 55ae05f8654188d4
+  OK  p6-approfondimento.svg core 2b604c08c643df42 produced 2b604c08c643df42
+  OK  p7-lingua.svg core 5d410ac7cdf726f9 produced 5d410ac7cdf726f9
+  OK  p8-valutazione.svg core 7d5cb2cfe31f5345 produced 7d5cb2cfe31f5345
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+  OK  p1-prima.svg core dffed5facd497f85 produced dffed5facd497f85
+  OK  p2-vita.svg core 87b80fd0ce59d849 produced 87b80fd0ce59d849
+  OK  p3-cultura.svg core c15ed249bbd4681b produced c15ed249bbd4681b
+  OK  p4-sport.svg core a865bb3aaf984257 produced a865bb3aaf984257
+  OK  p5-giovani.svg core 9475a46101b11f3e produced 9475a46101b11f3e
+  OK  p6-approfondimento.svg core 10586f00eafb61f2 produced 10586f00eafb61f2
+  OK  p7-lingua.svg core 795dc61987e7d615 produced 795dc61987e7d615
+  OK  p8-valutazione.svg core fd895f8c7c359dfa produced fd895f8c7c359dfa
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

@@ -1,0 +1,159 @@
+n | page lvl type | REG==EXT | REG==CORE
+  1 | p1 A2 Sätze vervollständigen | OK | OK
+  2 | p1 A2 Sätze vervollständigen | OK | OK
+  3 | p1 A2 Sätze vervollständigen | OK | OK
+  4 | p1 A2 Sätze vervollständigen | OK | OK
+  5 | p1 B1 Sätze vervollständigen | OK | OK
+  6 | p1 B1 Sätze vervollständigen | OK | OK
+  7 | p1 A2 Multiple Choice        | OK | OK
+  8 | p1 A2 Multiple Choice        | OK | OK
+  9 | p1 A2 Multiple Choice        | OK | OK
+ 10 | p1 A2 Multiple Choice        | OK | OK
+ 11 | p2 A2 Sätze vervollständigen | OK | OK
+ 12 | p2 A2 Sätze vervollständigen | OK | OK
+ 13 | p2 A2 Sätze vervollständigen | OK | OK
+ 14 | p2 A2 Sätze vervollständigen | OK | OK
+ 15 | p2 A2 Sätze vervollständigen | OK | OK
+ 16 | p2 A2 Sätze vervollständigen | OK | OK
+ 17 | p2 A2 Sätze vervollständigen | OK | OK
+ 18 | p2 A2 Sätze vervollständigen | OK | OK
+ 19 | p2 B1 Sätze vervollständigen | OK | OK
+ 20 | p2 A2 Sätze vervollständigen | OK | OK
+ 21 | p2 A2 Multiple Choice        | OK | OK
+ 22 | p2 A2 Multiple Choice        | OK | OK
+ 23 | p2 A2 Multiple Choice        | OK | OK
+ 24 | p2 B1 Multiple Choice        | OK | OK
+ 25 | p2 A2 Wörter zuordnen        | OK | OK
+ 26 | p2 A2 Wörter zuordnen        | OK | OK
+ 27 | p2 A2 Wörter zuordnen        | OK | OK
+ 28 | p2 A2 Wörter zuordnen        | OK | OK
+ 29 | p3 A2 Richtig oder falsch    | OK | OK
+ 30 | p3 A2 Richtig oder falsch    | OK | OK
+ 31 | p3 A2 Richtig oder falsch    | OK | OK
+ 32 | p3 B1 Richtig oder falsch    | OK | OK
+ 33 | p3 A2 Richtig oder falsch    | OK | OK
+ 34 | p3 A2 Sätze vervollständigen | OK | OK
+ 35 | p3 A2 Sätze vervollständigen | OK | OK
+ 36 | p3 A2 Sätze vervollständigen | OK | OK
+ 37 | p3 A2 Sätze vervollständigen | OK | OK
+ 38 | p3 B1 Sätze vervollständigen | OK | OK
+ 39 | p3 A2 Multiple Choice        | OK | OK
+ 40 | p3 A2 Multiple Choice        | OK | OK
+ 41 | p3 B1 Multiple Choice        | OK | OK
+ 42 | p3 B1 Multiple Choice        | OK | OK
+ 43 | p3 A2 Sätze bilden           | OK | OK
+ 44 | p3 B1 Sätze bilden           | OK | OK
+ 45 | p3 B1 Sätze bilden           | OK | OK
+ 46 | p3 B1 Sätze umformen         | OK | OK
+ 47 | p4 B1 Multiple Choice        | OK | OK
+ 48 | p4 B1 Multiple Choice        | OK | OK
+ 49 | p4 B1 Multiple Choice        | OK | OK
+ 50 | p4 B1 Multiple Choice        | OK | OK
+ 51 | p4 B1 Multiple Choice        | OK | OK
+ 52 | p4 B1 Wörter zuordnen        | OK | OK
+ 53 | p4 B1 Wörter zuordnen        | OK | OK
+ 54 | p4 B1 Wörter zuordnen        | OK | OK
+ 55 | p4 B1 Wörter zuordnen        | OK | OK
+ 56 | p4 B1 Sätze vervollständigen | OK | OK
+ 57 | p4 B1 Sätze vervollständigen | OK | OK
+ 58 | p4 B1 Sätze vervollständigen | OK | OK
+ 59 | p4 B1 Sätze vervollständigen | OK | OK
+ 60 | p4 B1 Sätze umformen         | OK | OK
+ 61 | p4 B1 Sätze umformen         | OK | OK
+ 62 | p4 B1 Sätze umformen         | OK | OK
+ 63 | p4 B1 Sätze umformen         | OK | OK
+ 64 | p4 B1 Sätze umformen         | OK | OK
+ 65 | p5 B1 Multiple Choice        | OK | OK
+ 66 | p5 B1 Multiple Choice        | OK | OK
+ 67 | p5 B1 Multiple Choice        | OK | OK
+ 68 | p5 B1 Multiple Choice        | OK | OK
+ 69 | p5 B1 Multiple Choice        | OK | OK
+ 70 | p5 B1 Sätze vervollständigen | OK | OK
+ 71 | p5 B1 Sätze vervollständigen | OK | OK
+ 72 | p5 B1 Sätze vervollständigen | OK | OK
+ 73 | p5 B1 Sätze vervollständigen | OK | OK
+ 74 | p5 B1 Sätze vervollständigen | OK | OK
+ 75 | p5 B1 Sätze vervollständigen | OK | OK
+ 76 | p5 B1 Sätze umformen         | OK | OK
+ 77 | p5 B1 Sätze umformen         | OK | OK
+ 78 | p5 B1 Sätze umformen         | OK | OK
+ 79 | p5 B1 Sätze umformen         | OK | OK
+ 80 | p5 B1 Richtig oder falsch    | OK | OK
+ 81 | p5 B1 Richtig oder falsch    | OK | OK
+ 82 | p5 B1 Richtig oder falsch    | OK | OK
+ 83 | p6 B2 Multiple Choice        | OK | OK
+ 84 | p6 B2 Multiple Choice        | OK | OK
+ 85 | p6 B2 Multiple Choice        | OK | OK
+ 86 | p6 B2 Multiple Choice        | OK | OK
+ 87 | p6 B2 Multiple Choice        | OK | OK
+ 88 | p6 B2 Multiple Choice        | OK | OK
+ 89 | p6 B2 Multiple Choice        | OK | OK
+ 90 | p6 B2 Multiple Choice        | OK | OK
+ 91 | p6 B2 Multiple Choice        | OK | OK
+ 92 | p6 B2 Multiple Choice        | OK | OK
+ 93 | p6 B2 Sätze vervollständigen | OK | OK
+ 94 | p6 B2 Sätze vervollständigen | OK | OK
+ 95 | p6 B2 Sätze vervollständigen | OK | OK
+ 96 | p6 B2 Sätze vervollständigen | OK | OK
+ 97 | p6 B2 Sätze vervollständigen | OK | OK
+ 98 | p6 B2 Sätze vervollständigen | OK | OK
+ 99 | p6 B2 Sätze vervollständigen | OK | OK
+100 | p6 B2 Sätze vervollständigen | OK | OK
+101 | p7 A2 Sätze vervollständigen | OK | OK
+102 | p7 A2 Sätze vervollständigen | OK | OK
+103 | p7 A2 Sätze vervollständigen | OK | OK
+104 | p7 A2 Multiple Choice        | OK | OK
+105 | p7 B1 Sätze vervollständigen | OK | OK
+106 | p7 B1 Sätze vervollständigen | OK | OK
+107 | p7 B1 Sätze vervollständigen | OK | OK
+108 | p7 B1 Multiple Choice        | OK | OK
+109 | p7 B2 Sätze vervollständigen | OK | OK
+110 | p7 B2 Sätze vervollständigen | OK | OK
+111 | p7 B2 Sätze vervollständigen | OK | OK
+112 | p7 B2 Multiple Choice        | OK | OK
+113 | p8 B1 Lückentext (Auswahl)   | OK | OK
+114 | p8 B1 Lückentext (Auswahl)   | OK | OK
+115 | p8 B1 Lückentext (Auswahl)   | OK | OK
+116 | p8 B1 Lückentext (Auswahl)   | OK | OK
+117 | p8 B1 Lückentext (Auswahl)   | OK | OK
+118 | p8 B1 Lückentext (Auswahl)   | OK | OK
+119 | p8 B1 Lückentext (Auswahl)   | OK | OK
+120 | p8 B1 Lückentext (Auswahl)   | OK | OK
+121 | p8 A2 Multiple Choice        | OK | OK
+122 | p8 A2 Multiple Choice        | OK | OK
+123 | p8 A2 Multiple Choice        | OK | OK
+124 | p8 B1 Multiple Choice        | OK | OK
+125 | p8 B1 Multiple Choice        | OK | OK
+126 | p8 B1 Multiple Choice        | OK | OK
+127 | p8 B2 Multiple Choice        | OK | OK
+128 | p8 B1 Multiple Choice        | OK | OK
+129 | p8 A2 Multiple Choice        | OK | OK
+130 | p8 A2 Multiple Choice        | OK | OK
+131 | p8 A2 Multiple Choice        | OK | OK
+132 | p8 A2 Multiple Choice        | OK | OK
+133 | p8 A2 Sätze bilden           | OK | OK
+134 | p8 A2 Sätze bilden           | OK | OK
+135 | p8 B1 Sätze bilden           | OK | OK
+136 | p8 B1 Sätze bilden           | OK | OK
+137 | p8 A2 Übersetzen             | OK | DIFF
+      REG : 'Montag ist der Internationale Flamencotag.'
+      CORE: '周一是国际弗拉门戈日。'
+138 | p8 A2 Übersetzen             | OK | DIFF
+      REG : 'Am Samstag sehen wir das Derby von Sevilla.'
+      CORE: '周六我们看塞维利亚德比。'
+139 | p8 B1 Übersetzen             | OK | OK
+140 | p8 B2 Übersetzen             | OK | OK
+141 | p8 B2 Wörter zuordnen        | OK | OK
+142 | p8 B2 Wörter zuordnen        | OK | OK
+143 | p8 B2 Wörter zuordnen        | OK | OK
+144 | p8 B2 Wörter zuordnen        | OK | OK
+145 | p8 B1 Lückentext (Auswahl)   | OK | OK
+146 | p8 B1 Lückentext (Auswahl)   | OK | OK
+147 | p8 B1 Lückentext (Auswahl)   | OK | OK
+148 | p8 B1 Lückentext (Auswahl)   | OK | OK
+149 | p8 B1 Lückentext (Auswahl)   | OK | OK
+150 | p8 B1 Schreiben              | DIFF | DIFF
+      REG : 'Offene Aufgabe — Mustertext unten auf dieser Seite'
+      CORE: '✓'
+REG!=EXT: [150]
+REG!=CORE: [137, 138, 150]

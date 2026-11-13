@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+stats title elements (y=1211):
+  x=556.5 size=23 fam=Noto Sans w=43.0 'ТУР'
+  x=599.5 size=23 fam=Noto Sans CJK SC w=5.2 ' '
+  x=604.7 size=23 fam=Noto Sans w=15.5 'В'
+  x=620.2 size=23 fam=Noto Sans CJK SC w=5.2 ' '
+  x=625.4 size=23 fam=Noto Sans w=101.2 'ЦИФРАХ'
+  x=726.6 size=23 fam=Noto Sans CJK SC w=205.1 '\u3000숫자로 보는 라운드'
+title advance end x: 931.7
+rects containing title point: [(538.5, 1174.01, 422.5, 380.0)]
+numbers box: (538.5, 1174.01, 422.5, 380.0) right: 961.0 advance clearance: 29.3
+title band y 1187-1217: rightmost ink x=928, box right=961.0, PDF clearance=33.0
+kicker word groups: 17 [(588, 616), (620, 628), (632, 711), (721, 746), (750, 776), (780, 811), (822, 929), (937, 996), (1000, 1009), (1017, 1024), (1028, 1048), (1052, 1059), (1068, 1080), (1090, 1150), (1154, 1188), (1198, 1263), (1274, 1363)]
+kicker gaps (gap, prev_end, next_start): [(3, 616, 620), (3, 628, 632), (9, 711, 721), (3, 746, 750), (3, 776, 780), (10, 811, 822), (7, 929, 937), (3, 996, 1000), (7, 1009, 1017), (3, 1024, 1028), (3, 1048, 1052), (8, 1059, 1068), (9, 1080, 1090), (3, 1150, 1154), (9, 1188, 1198), (10, 1263, 1274)]
+kicker min gap: 3
+y=372 SVG elements: [(586.3, 'ЕЖЕНЕДЕЛЬНАЯ'), (712.3, '  '), (719.5, 'ГАЗЕТА'), (773.2, '  '), (780.4, 'ДЛЯ'), (813.0, '  '), (820.2, 'ИЗУЧАЮЩИХ'), (928.4, '  '), (935.5, 'РУССКИЙ'), (1009.4, '  '), (1016.6, 'ЯЗЫК'), (1059.8, '  '), (1067.0, '—  '), (1088.4, 'НАСТОЯЩАЯ'), (1189.0, '  '), (1196.2, 'РОССИЯ'), (1260.8, ',  '), (1272.4, 'ПО'), (1296.6, '-'), (1302.1, 'РУССКИ')]
+P1STATS_DONE

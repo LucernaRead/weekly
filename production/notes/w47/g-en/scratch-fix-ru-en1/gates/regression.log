@@ -1,0 +1,20 @@
+D1 L459: '### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · УЧЕБНЫЕ ДАННЫЕ · PRACTICE' has УЧЕБНЫЕ ДАННЫЕ: True
+D1 L504 has Три уровня, три темы: True
+D1 L596 has Большой тест недели + все ответы: True
+D1 SVG p6-razbor.svg has 'УЧЕБНЫЕ ДАННЫЕ' : True
+D1 SVG p7-yazyk.svg has 'Три уровня, три темы' : True
+D1 SVG p8-test.svg has 'Большой тест недели + все ответы' : True
+D1 disclaimer in P6 SVG (concat): True
+D1 disclaimer absent from text.md: True
+D2 full phrase text.md x2 core x2
+D2 Q25 L187: "25. 17 ноября — День студента (key b · Students' Day b)"
+D6 желании text.md x2 core x2
+D6 text.md L173: '20. [B1 · fill-in] Дети пишут Деду Морозу о своём ___. — key: желании (желание ='
+D6 text.md L694: '20. желании — желание = a wish'
+Q20 p8 key: желании | Q73 p8 key: заказов
+Q73 stem L405: '73. [B1 · fill-in] В прошлом году сделали 14,4 млн ___. — key: заказов (заказ = an order) '
+Q73 key list L753: '73. заказов — заказ = an order'
+kicker words: ['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—  ', 'НАСТОЯЩАЯ', 'РОССИЯ', ',  ', 'ПО', '-', 'РУССКИ']
+kicker ink gaps: [5.0, 5.4, 6.3, 11.8, 8.4, 5.4, -0.1, 9.5, 0.6, 0.1, 0.7, 0.0] min=-0.1 (>=4: False)
+P8 min font (fitz, print PDF): 9.75 pt; spans <10pt: 411
+text.md lines: 839 exercises: 150 (see run log), blocks: 277 (see textmd log)

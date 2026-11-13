@@ -1,0 +1,258 @@
+--- core-ja/content56.py	2026-11-10 21:45:04.095071148 +0000
++++ fanout-ja/2026-w47-ja-en/content56.py	2026-11-11 01:38:59.876670395 +0000
+@@ -3,13 +3,13 @@
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from bslib4 import *
+ 
+-OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/core-ja/svg")
++OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
+ os.makedirs(OUT, exist_ok=True)
+ 
+ # ================= P5　若者・エンタメ (B1) =================
+ CURPAGE[0] = 5
+ p = BSPage4()
+-p.band("若者・エンタメ　青年", "Lucerna", "レベル B1　流行語30と紅葉の写真　流行语30与红叶照片")
++p.band("若者・エンタメ　青年", "Lucerna", "レベル B1　流行語30と紅葉の写真　30 buzzwords and autumn leaves")
+ 
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P5-feature")
+ f.title("今年のことば、30語", 37)
+@@ -17,18 +17,18 @@
+ f.para("「新語・流行語大賞」のノミネート30語が、5日（木よう日）に発表されました。今年の世の中を映すことばが、30語選ばれました。トップテンと大賞は、12月1日（火よう日）に発表されます。")
+ f.para("ノミネートには、『りくりゅう』があります。フィギュアスケートのペア、三浦璃来選手と木原龍一選手のことです。大ヒットした漫画『ちいかわ』も入っています。暑い日を表す『酷暑日』もあります。")
+ f.para("『好きすぎて滅！』は、M!LKの楽曲の名前です。『ボンボンドロップシール（ボンドロ）』は、シールの名前です。『AI暴走』や『NISA貧乏』など、暮らしを映すことばもあります。")
+-f.gloss("暮らし 生活　映す 反映　世の中 社会　楽曲 歌曲。")
++f.gloss("暮らし life　映す to reflect　世の中 society　楽曲 a song.")
+ f.head("紅葉の写真", 25)
+ f.para("秋は、写真の季節でもあります。京都の嵐山では、23日ごろから紅葉が見頃になります。赤いカエデの写真を、SNSに上げる人も多いです。")
+ f.para("ことばと写真で、今年の秋を楽しみましょう。あなたの好きな今年のことばは、何ですか。")
+-f.gloss("上げる 上传　季節 季节。")
++f.gloss("上げる to post　季節 the season.")
+ f.end_report()
+ 
+ # col 3: arashiyama image + words + numbers + あなた
+ ix = COLX[3]
+ image(p, "arashiyama-pond.jpg", ix, 200, CW, 290)
+ cy3 = caption(p, ix, 490, CW, "京都・嵐山、天龍寺の曹源池。紅葉の見頃は23日ごろからです。",
+-              "写真：lumoplank — CC0（Wikimedia Commons）")
++              "Photo: lumoplank — CC0 (Wikimedia Commons)")
+ words5 = ["りくりゅう — 三浦・木原のペア",
+           "ちいかわ — 大ヒットした漫画の名前",
+           "酷暑日 — とても暑い日のこと"]
+@@ -53,65 +53,65 @@
+     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
+ ey3 = ny3 + nh + 26
+ etvous = "あなたは？今年のことば30語の中で、いちばん好きなことばはどれですか。日本語で2文、書いて、送ってください。"
+-eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？今年30个流行语中，最喜欢哪一个？写两句日语寄来。", "sans", False, 20, CW - 44)) * 29 + 20
++eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Which of this year's 30 buzzwords do you like best? Write two sentences in Japanese and send them in.", "sans", False, 20, CW - 44)) * 29 + 20
+ p.rect(ix, ey3, CW, eh, fill=BOX)
+ yy3 = ey3 + 16
+-p.text(ix + 22, yy3 + 26, "あなたは？　说说你自己", 24, "sans", True, OLIVE)
++p.text(ix + 22, yy3 + 26, "あなたは？　Your turn", 24, "sans", True, OLIVE)
+ yy3 += 52
+ yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+-p.para(ix + 22, yy3 + 20, "你呢？今年30个流行语中，最喜欢哪一个？写两句日语寄来。", 20, "sans", False, GREY, CW - 44, 1.42)
++p.para(ix + 22, yy3 + 20, "Which of this year's 30 buzzwords do you like best? Write two sentences in Japanese and send them in.", 20, "sans", False, GREY, CW - 44, 1.42)
+ print("P5 col3 ends", ey3 + eh)
+ 
+ # ---- P5 exercises ----
+ ey = 1580
+ p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+-p.text(MX, ey + 28, "練習　第5版练习", 28, "sans", True, OLIVE)
+-p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
++p.text(MX, ey + 28, "練習　Page 5 exercises", 28, "sans", True, OLIVE)
++p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+ e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
+ e.head("A　理解", 25)
+ e.bridge("第5版の文章を読んで、正しい答えを選んでください。")
+-e.ex("B1", "单选", "A", "提名30词发表于11月5日（周四）",
++e.ex("B1", "multiple choice", "A", "30 nominees were announced Thursday, November 5",
+      "ノミネート30語が発表されたのはいつですか。 A. 11月5日　B. 11月19日　C. 12月1日", size=19, gap=6)
+-e.ex("B1", "单选", "A", "「ryuuryuu」是花样滑冰双人组合",
++e.ex("B1", "multiple choice", "A", "ryuuryuu is a figure-skating pair",
+      "りくりゅうは、何ですか。 A. スケートのペア　B. 映画の名前　C. シールの名前", size=19, gap=6)
+-e.ex("B1", "单选", "A", "「吉伊卡哇」是大热漫画",
++e.ex("B1", "multiple choice", "A", "Chiikawa is a hit manga",
+      "「ちいかわ」は、何ですか。 A. 大ヒットした漫画　B. 相撲の技　C. お酒の名前", size=19, gap=6)
+-e.ex("B1", "单选", "C", "前十名与大奖在12月1日发表",
++e.ex("B1", "multiple choice", "C", "Top 10 and grand prize announced December 1",
+      "トップテンと大賞はいつ発表されますか。 A. 11月5日　B. 11月19日　C. 12月1日", size=19, gap=6)
+-e.ex("B1", "单选", "B", "岚山见赏期从23日前后开始",
++e.ex("B1", "multiple choice", "B", "Arashiyama's leaves peak from around the 23rd",
+      "嵐山の見頃はいつごろからですか。 A. 19日　B. 23日ごろ　C. 12月1日", size=19, gap=6)
+ e.head("B　数字", 25)
+ e.bridge("第5版の数字を入れてください。")
+-e.ex("B1", "完成句子", "30", "提名共30词",
+-     "ノミネートは ___ 語です。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "5", "提名在11月5日发表",
+-     "ノミネートは11月 ___ 日に発表されました。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "1", "前十名在12月1日发表",
+-     "トップテンは12月 ___ 日に発表されます。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "23", "岚山见赏期从11月23日前后开始",
+-     "嵐山の見頃は11月 ___ 日ごろからです。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "暑い", "酷暑日＝非常热的日子",
+-     "『酷暑日』は、とても ___ 日のことです。", instr="填空", size=19, gap=6)
++e.ex("B1", "fill-in", "30", "30 words were nominated",
++     "ノミネートは ___ 語です。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "5", "The nominees were announced November 5",
++     "ノミネートは11月 ___ 日に発表されました。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "1", "The top 10 are announced December 1",
++     "トップテンは12月 ___ 日に発表されます。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "23", "Arashiyama's leaves peak from around November 23",
++     "嵐山の見頃は11月 ___ 日ごろからです。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "暑い", "酷暑日 = a very hot day",
++     "『酷暑日』は、とても ___ 日のことです。", instr="Fill in", size=19, gap=6)
+ e.head("C　正しい・正しくない", 25)
+ e.bridge("正しければ○、正しくなければ×を書いてください。")
+-e.ex("B1", "判断对错", "○", "提名共30个词",
+-     "ノミネートは30語です。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "×", "前十名还没发表",
+-     "トップテンは、もう発表されました。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "×", "「ryuuryuu」不是电影名",
+-     "『りくりゅう』は、映画の名前です。", instr="判断", size=19, gap=6)
+-e.ex("B1", "判断对错", "○", "岚山见赏期从23日前后开始",
+-     "嵐山の見頃は、23日ごろからです。", instr="判断", size=19, gap=6)
++e.ex("B1", "true/false", "○", "30 words were nominated",
++     "ノミネートは30語です。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "×", "The top 10 are not out yet",
++     "トップテンは、もう発表されました。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "×", "ryuuryuu is not a film title",
++     "『りくりゅう』は、映画の名前です。", instr="True or false?", size=19, gap=6)
++e.ex("B1", "true/false", "○", "Arashiyama's leaves peak from around the 23rd",
++     "嵐山の見頃は、23日ごろからです。", instr="True or false?", size=19, gap=6)
+ e.head("D　文を完成しましょう", 25)
+ e.bridge("第5版の文を完成してください。")
+-e.ex("B1", "完成句子", "選ばれ", "反映今年社会的话语选出了30个",
+-     "今年の世の中を映すことばが、30語 ___ ました。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "ペア", "「ryuuryuu」是三浦璃来与木原龙一的组合",
+-     "『りくりゅう』は、三浦璃来選手と木原龍一選手の ___ です。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "上げる", "把红色枫叶照片上传到SNS的人很多",
+-     "赤いカエデの写真を、SNSに ___ 人も多いです。", instr="填空", size=19, gap=6)
+-e.ex("B1", "完成句子", "発表", "前十名在12月1日发表",
+-     "トップテンは、12月1日に ___ されます。", instr="填空", size=19, gap=6)
++e.ex("B1", "fill-in", "選ばれ", "30 words that mirror this year's society were chosen",
++     "今年の世の中を映すことばが、30語 ___ ました。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "ペア", "ryuuryuu is the pair of Miura Riku and Kihara Ryuichi",
++     "『りくりゅう』は、三浦璃来選手と木原龍一選手の ___ です。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "上げる", "Many post red-maple photos on social media",
++     "赤いカエデの写真を、SNSに ___ 人も多いです。", instr="Fill in", size=19, gap=6)
++e.ex("B1", "fill-in", "発表", "The top 10 are announced December 1",
++     "トップテンは、12月1日に ___ されます。", instr="Fill in", size=19, gap=6)
+ e.end_report()
+ p.foot(5)
+ p.save(f"{OUT}/p5-wakamono.svg")
+@@ -120,7 +120,7 @@
+ # ================= P6　深読み (B2) =================
+ CURPAGE[0] = 6
+ p = BSPage4()
+-p.band("深読み　ふかよみ", "Lucerna", "レベル B2　紅葉は京都へ　红叶移向京都")
++p.band("深読み　ふかよみ", "Lucerna", "レベル B2　紅葉は京都へ　Leaves move to Kyoto")
+ 
+ f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P6-feature")
+ f.title("見頃を追いかけて京都へ", 37)
+@@ -130,7 +130,7 @@
+ f.para("日本気象株式会社の9月2日の予想では、東京の紅葉は11月29日ごろ、大阪は12月4日ごろです。どちらも、平年並みの予想です。予報の日にちは、見頃が始まる目安です。")
+ f.para("ただし、予想は会社によってちがいます。日本気象協会の予想では、嵐山の見頃は11月13日からです。見頃の決め方がちがうからです。日にちだけを見て、決めつけないようにしましょう。")
+ f.para("紅葉を見に行く人は、予報の日付と今の様子を、両方確かめましょう。京都の11月下旬は、朝晩が冷えます。暖かい服の準備も大切です。")
+-f.gloss("平地 平地　落葉はじめ 开始落叶　決めつける 断定　確かめる 确认。")
++f.gloss("平地 flat land　落葉はじめ the first leaves falling　決めつける to assume　確かめる to check.")
+ f.end_report()
+ 
+ # col 3: facts + words
+@@ -162,8 +162,8 @@
+ 
+ # ---- practice chart (full width) ----
+ chy = 1500
+-p.text(MX, chy + 26, "グラフを読もう　读图表", 26, "sans", True, OLIVE)
+-p.text(RIGHT, chy + 26, "練習用データ　练习数据", 21, "sans", True, OLIVE, anchor="end")
++p.text(MX, chy + 26, "グラフを読もう　Reading the chart", 26, "sans", True, OLIVE)
++p.text(RIGHT, chy + 26, "練習用データ　Practice data", 21, "sans", True, OLIVE, anchor="end")
+ p.hline(MX, RIGHT, chy + 40, OLIVE, 2)
+ p.text(MX, chy + 78, "秋の休みに、どこへ行きたいですか（練習用データ — 実際の調査ではありません）", 22, "serif", True, INK)
+ chart = [("京都", 38), ("浅草", 24), ("高尾山", 22), ("家", 16)]
+@@ -178,53 +178,53 @@
+ # ---- P6 exercises ----
+ ey = 1900
+ p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+-p.text(MX, ey + 28, "練習　第6版练习", 28, "sans", True, OLIVE)
+-p.text(RIGHT, ey + 28, "答案见第8版　题目可跨级混排，按题号找答案", 20, "sans", False, GREY, anchor="end")
++p.text(MX, ey + 28, "練習　Page 6 exercises", 28, "sans", True, OLIVE)
++p.text(RIGHT, ey + 28, "Answers on page 8　Levels are mixed — find your number", 20, "sans", False, GREY, anchor="end")
+ e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
+ e.head("A　理解", 25)
+ e.bridge("第6版の文章を読んで、正しい答えを選んでください。")
+-e.ex("B2", "单选", "B", "宫岛见赏期从11月21日前后开始",
++e.ex("B2", "multiple choice", "B", "Miyajima's leaves peak from around November 21",
+      "宮島の見頃はいつごろからですか。 A. 11月13日　B. 11月21日ごろ　C. 12月9日", size=19, gap=6)
+-e.ex("B2", "单选", "B", "到11月8日，岚山两成开始变色",
++e.ex("B2", "multiple choice", "B", "By November 8, 20% of Arashiyama had started to colour",
+      "嵐山の今の様子は、11月8日の時点でどうですか。 A. 全体が真っ赤です　B. 2割が色づき始めました　C. もう落葉しています", size=19, gap=6)
+-e.ex("B2", "单选", "B", "岚山开始落叶在12月12日前后",
++e.ex("B2", "multiple choice", "B", "Arashiyama's leaves start falling around December 12",
+      "嵐山の落葉はじめはいつごろからですか。 A. 11月23日　B. 12月12日ごろ　C. 12月4日", size=19, gap=6)
+-e.ex("B2", "单选", "A", "按日本气象协会预报，岚山见赏期从11月13日开始",
++e.ex("B2", "multiple choice", "A", "The Japan Meteorological Association forecast has Arashiyama's best season from November 13",
+      "日本気象協会の予想では、嵐山の見頃はいつからですか。 A. 11月13日から　B. 11月23日から　C. 12月9日から", size=19, gap=6)
+-e.ex("B2", "单选", "A", "预报因公司而异是因为见赏期的定义不同",
++e.ex("B2", "multiple choice", "A", "Forecasts differ: best-season definitions differ",
+      "予想が会社によってちがうのは、どうしてですか。 A. 見頃の決め方がちがうから　B. 嵐山が2つあるから　C. 測る機械が壊れたから", size=19, gap=6)
+ e.head("B　グラフ", 25)
+ e.bridge("練習用データのグラフを見て答えてください。")
+-e.ex("B2", "完成句子", "京都", "图表中最想去的是京都",
+-     "「行きたい場所」で1位は ___ です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "38", "想去京都的人占38%",
+-     "京都と答えた人は ___ %です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "24", "浅草占24%",
+-     "浅草は ___ %です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "14", "京都与浅草之差为14%",
+-     "京都と浅草の差は ___ %です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "62", "38+24=62",
+-     "京都と浅草を合わせると ___ %です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "100", "四项合计100%",
+-     "4つの数字を全部足すと ___ %になります。", instr="填空", size=19, gap=6)
++e.ex("B2", "fill-in", "京都", "Kyoto tops the chart",
++     "「行きたい場所」で1位は ___ です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "38", "38% want to go to Kyoto",
++     "京都と答えた人は ___ %です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "24", "Asakusa: 24%",
++     "浅草は ___ %です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "14", "Kyoto minus Asakusa is 14%",
++     "京都と浅草の差は ___ %です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "62", "38+24=62",
++     "京都と浅草を合わせると ___ %です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "100", "All four add up to 100%",
++     "4つの数字を全部足すと ___ %になります。", instr="Fill in", size=19, gap=6)
+ e.head("C　数字と事実", 25)
+ e.bridge("第6版の数字を入れてください。")
+-e.ex("B2", "完成句子", "13", "高尾山从11月13日前后进入见赏期",
+-     "高尾山は11月 ___ 日ごろから見頃です。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "29", "东京红叶在11月29日前后",
+-     "東京の紅葉は11月 ___ 日ごろです。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "4", "大阪红叶在12月4日前后",
+-     "大阪の紅葉は12月 ___ 日ごろです。", instr="填空", size=19, gap=6)
+-e.ex("B2", "完成句子", "29", "Weathernews预报在10月29日",
+-     "ウェザーニューズの予報は10月 ___ 日でした。", instr="填空", size=19, gap=6)
++e.ex("B2", "fill-in", "13", "Mt. Takao's leaves peak from around November 13",
++     "高尾山は11月 ___ 日ごろから見頃です。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "29", "Tokyo's leaves peak around November 29",
++     "東京の紅葉は11月 ___ 日ごろです。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "4", "Osaka's leaves peak around December 4",
++     "大阪の紅葉は12月 ___ 日ごろです。", instr="Fill in", size=19, gap=6)
++e.ex("B2", "fill-in", "29", "The Weathernews forecast was October 29",
++     "ウェザーニューズの予報は10月 ___ 日でした。", instr="Fill in", size=19, gap=6)
+ e.head("D　正しい・正しくない", 25)
+ e.bridge("正しければ○、正しくなければ×を書いてください。")
+-e.ex("B2", "判断对错", "○", "红叶见赏期从北向南移动",
+-     "紅葉の見頃は、北から南へ移ります。", instr="判断", size=19, gap=6)
+-e.ex("B2", "判断对错", "×", "图表是练习数据，不是真实调查",
+-     "グラフの数字は、本当の調査の結果です。", instr="判断", size=19, gap=6)
+-e.ex("B2", "判断对错", "×", "各公司对岚山见赏期的预报并不相同",
+-     "嵐山の見頃の日にちは、どの会社も同じです。", instr="判断", size=19, gap=6)
++e.ex("B2", "true/false", "○", "The leaf season moves from north to south",
++     "紅葉の見頃は、北から南へ移ります。", instr="True or false?", size=19, gap=6)
++e.ex("B2", "true/false", "×", "The chart is practice data, not a real survey",
++     "グラフの数字は、本当の調査の結果です。", instr="True or false?", size=19, gap=6)
++e.ex("B2", "true/false", "×", "Forecasters disagree on Arashiyama's best season",
++     "嵐山の見頃の日にちは、どの会社も同じです。", instr="True or false?", size=19, gap=6)
+ e.end_report()
+ p.foot(6)
+ p.save(f"{OUT}/p6-fukayomi.svg")

@@ -1,0 +1,64 @@
+    # Space-integrity sweep (W47 de fan-out fix, 2026-11-11): the kinsoku
+    # passes above move single glyphs between lines and can split a Latin
+    # word across a line boundary while ALSO dropping the space that
+    # followed the word's first fragment - the receiving line's head is
+    # itself a fragment (keys "onMonday", "DieBundesliga"), and the
+    # word-integrity cascade above only repairs the junction it sheds,
+    # never the head's own internal glue. Positional proof: walk the final
+    # lines against the input's space-stripped stream; wherever the input
+    # had a space but the lines run two non-space chars together inside
+    # one line, insert the space. A line that then exceeds max_w sheds its
+    # last word forward (junction space from the same positional proof),
+    # cascading. Lines already correct are untouched; if the alignment
+    # ever fails to reproduce the input, bail out silently (no change).
+    if _stripped:
+        _pos_of, _k, _ok = [], 0, True
+        for _ln in lines:
+            _idx = []
+            for _ch in _ln:
+                if _ch == " ":
+                    _idx.append(-1)
+                else:
+                    if _k >= len(_stripped) or _stripped[_k] != _ch:
+                        _ok = False
+                        break
+                    _idx.append(_k)
+                    _k += 1
+            if not _ok:
+                break
+            _pos_of.append(_idx)
+        if _ok and _k == len(_stripped):
+            for _li in range(len(lines)):
+                _ln = lines[_li]
+                _ins = []
+                for _ci in range(1, len(_ln)):
+                    _a, _b = _pos_of[_li][_ci - 1], _pos_of[_li][_ci]
+                    if _a >= 0 and _b == _a + 1 and not _adjacent[_a]:
+                        _ins.append(_ci)
+                if _ins:
+                    _s = _ln
+                    for _ci in reversed(_ins):
+                        _s = _s[:_ci] + " " + _s[_ci:]
+                    lines[_li] = _s
+            _li = 0
+            while _li < len(lines):
+                _guard = 0
+                while (text_w(lines[_li], kind, bold, size, italic) > max_w
+                       and _guard < 100):
+                    _guard += 1
+                    _ln = lines[_li]
+                    _sp = _ln.rfind(" ")
+                    if _sp <= 0:
+                        break
+                    _piece = _ln[_sp + 1:]
+                    _rest = _ln[:_sp].rstrip()
+                    if not _rest:
+                        break
+                    lines[_li] = _rest
+                    if _li + 1 < len(lines):
+                        _hpos = sum(len(_x.replace(" ", "")) for _x in lines[:_li + 1]) + len(_piece.replace(" ", ""))
+                        _sp3 = " " if (0 < _hpos < len(_stripped) and not _adjacent[_hpos - 1]) else ""
+                        lines[_li + 1] = _piece + _sp3 + lines[_li + 1]
+                    else:
+                        lines.append(_piece)
+                _li += 1

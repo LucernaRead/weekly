@@ -1,0 +1,50 @@
+=== p2-zhizn ===
+  rendered a. 'День психолога' hits=0 letter-head-on-baseline=False
+  rendered b. 'День студента' hits=0 letter-head-on-baseline=False
+  rendered c. 'Всемирный день ребёнка' hits=0 letter-head-on-baseline=False
+  rendered d. 'день рождения Деда Мороза' hits=0 letter-head-on-baseline=False
+  stem Q25 '17 ноября' on page: False (key b)
+  stem Q26 '18 ноября' on page: False (key d)
+  stem Q27 '20 ноября' on page: False (key c)
+  stem Q28 '22 ноября' on page: False (key a)
+  keys: {25: 'b', 26: 'd', 27: 'c', 28: 'a'}
+=== p3-kultura ===
+  rendered a. 'человек, который смотрит фильм' hits=0 letter-head-on-baseline=False
+  rendered b. 'фильм о жизни реального человека' hits=0 letter-head-on-baseline=False
+  rendered c. 'показ фильма в кинотеатре' hits=0 letter-head-on-baseline=False
+  rendered d. 'фильм о реальных событиях' hits=0 letter-head-on-baseline=False
+  stem Q39 'биография' on page: True (key b)
+  stem Q40 'документальный' on page: True (key d)
+  stem Q41 'сеанс' on page: True (key c)
+  stem Q42 'зритель' on page: True (key a)
+  keys: {39: 'b', 40: 'd', 41: 'c', 42: 'a'}
+=== p4-sport ===
+  rendered a. 'проиграл «Рубину» 0:1' hits=0 letter-head-on-baseline=False
+  rendered b. 'победил ЦСКА 4:2' hits=0 letter-head-on-baseline=False
+  rendered c. 'победил «Акрон» 2:1' hits=0 letter-head-on-baseline=False
+  rendered d. 'сыграл с «Ростовом» 2:2' hits=0 letter-head-on-baseline=False
+  stem Q57 '«Локомотив»' on page: False (key b)
+  stem Q58 '«Краснодар»' on page: False (key a)
+  stem Q59 '«Спартак»' on page: False (key c)
+  stem Q60 '«Зенит»' on page: False (key d)
+  keys: {57: 'b', 58: 'a', 59: 'c', 60: 'd'}
+=== p5-molodezh ===
+  rendered a. 'код со скидкой' hits=0 letter-head-on-baseline=False
+  rendered b. 'товар возвращают в магазин' hits=0 letter-head-on-baseline=False
+  rendered c. 'цена ниже обычной' hits=0 letter-head-on-baseline=False
+  rendered d. 'большая продажа со скидками' hits=0 letter-head-on-baseline=False
+  stem Q75 'распродажа' on page: True (key d)
+  stem Q76 'возврат' on page: True (key b)
+  stem Q77 'промокод' on page: True (key a)
+  stem Q78 'скидка' on page: True (key c)
+  keys: {75: 'd', 76: 'b', 77: 'a', 78: 'c'}
+=== p8-test ===
+  rendered a. 'тепло зимой: снег тает' hits=0 letter-head-on-baseline=False
+  rendered b. 'большая продажа со скидками' hits=0 letter-head-on-baseline=False
+  rendered c. 'результат матча, например 2:2' hits=0 letter-head-on-baseline=False
+  rendered d. 'лёд на дороге' hits=0 letter-head-on-baseline=False
+  stem Q141 'оттепель' on page: True (key c)
+  stem Q142 'распродажа' on page: True (key d)
+  stem Q143 'счёт' on page: True (key a)
+  stem Q144 'гололедица' on page: True (key b)
+  keys: {141: 'c', 142: 'd', 143: 'a', 144: 'b'}

@@ -1,0 +1,17 @@
+PASS fix2 '“' sans -> news
+PASS fix2 '“' sans bold -> news
+PASS fix2 '”' sans -> news
+PASS fix2 '”' sans bold -> news
+PASS fix2 '’' sans -> news
+PASS fix2 '’' sans bold -> news
+PASS _D5_READER == latin
+PASS latin 'A' sans -> news
+PASS latin 'z' sans -> news
+PASS latin '7' sans -> news
+PASS latin ' ' sans -> news
+PASS latin 'é' sans -> news
+PASS latin 'ß' sans -> news
+PASS cyrillic sans -> sans_noto
+PASS CJK sans -> sans (CJK path kept)
+PASS serif Latin -> news (unchanged)
+ROUTING FAILURES: 0

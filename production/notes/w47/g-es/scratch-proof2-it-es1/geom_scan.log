@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print PDF pages=8
+P1: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P2: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P3: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P4: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P5: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P6: size 1462.5x2025.0 min-font 12.75pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P7: size 1462.5x2025.0 min-font 11.62pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+P8: size 1462.5x2025.0 min-font 9.75pt | edge-overflow chars: 0 [] | below-1977pt non-footer chars: 0 []
+web PDF pages=8
+web P1: min-font 11.62pt
+web P2: min-font 11.62pt
+web P3: min-font 11.62pt
+web P4: min-font 11.62pt
+web P5: min-font 11.62pt
+web P6: min-font 12.75pt
+web P7: min-font 11.62pt
+web P8: min-font 9.75pt
+P8 items: 188; cross-column split items: 40 [('147.', [1, 2, 3]), ('113.', [1, 2, 3]), ('148.', [1, 3]), ('126.', [1, 2, 3]), ('114.', [1, 2, 3]), ('149.', [1, 2, 3]), ('137.', [1, 2]), ('127.', [1, 2, 3]), ('116.', [1, 2]), ('138.', [1, 2, 3])]
+P8 items with internal y-gap > 60: 2 [('146.', 1318.8000000000002, 1382.0), ('37. mandorle — mandorle = las almendras ', 2536.4000000000015, 2624.0)]

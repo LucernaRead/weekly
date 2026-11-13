@@ -1,0 +1,31 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+p1-pervaya.svg italic runs: 5
+    ('1439.5', '1712', 'Newsreader', '21.5', '«')
+    ('1450.7', '1712', 'Noto Serif', '21.5', 'чёрная')
+    ('1525.5', '1712', 'Newsreader', '21.5', ' ')
+    ('1530.8', '1712', 'Noto Serif', '21.5', 'пятница')
+    ('1627.5', '1712', 'Newsreader', '21.5', '»')
+p2-zhizn.svg italic runs: 0
+p3-kultura.svg italic runs: 0
+p4-sport.svg italic runs: 0
+p5-molodezh.svg italic runs: 0
+p6-razbor.svg italic runs: 0
+p7-yazyk.svg italic runs: 0
+p8-test.svg italic runs: 0
+page 1 web fonts: ['BMAEOR+LucernaNotoSans-Bold', 'CKFTUQ+LucernaUnifrakturMaguntia-Regular', 'FYWDTT+LucernaNotoSans-Regular', 'IOJXRK+LucernaNewsreader-Regular', 'PMGRBN+LucernaNotoSansCJKSC-Bold', 'THAHXQ+LucernaNotoSerif-Bold', 'VGDNWC+LucernaNotoSerif-Regular', 'WIZVVC+LucernaNotoSansCJKSC-Regular']
+page 1 print fonts: ['APTHVL+NotoSans-Bold', 'DALBUC+NotoSansCJKsc-Regular', 'EWWBLY+NotoSerif-MediumItalic', 'GJDFII+NotoSansCJKsc-Bold', 'HGZRNG+Newsreader16pt-Italic', 'JHMGPC+NotoSans-Medium', 'LTWRHV+NotoSerif-Medium', 'LULEKL+UnifrakturMaguntia', 'PQEETE+NotoSerif-Bold', 'SXTMPW+Newsreader16pt-Regular', 'YBYKCK+Newsreader16pt-Regular']
+page 2 web fonts: ['AAYNCG+LucernaNotoSans-Regular', 'AWYIDM+LucernaNotoSansCJKSC-Bold', 'ECHCQV+LucernaNotoSansCJKSC-Regular', 'HZWGTI+LucernaNewsreader-Regular', 'OJWKIP+LucernaNotoSerif-Bold', 'RABAZQ+LucernaNewsreader-Regular', 'RWZIFV+LucernaNotoSans-Bold', 'XZWULS+LucernaNotoSerif-Regular']
+page 2 print fonts: ['AUZDDE+NotoSansCJKsc-Regular', 'DAMRPJ+Newsreader16pt-Regular', 'DPKIJO+Newsreader16pt-Regular', 'IJEZJD+NotoSansCJKsc-Bold', 'LRLITO+NotoSans-Bold', 'OWCEDG+NotoSerif-Medium', 'SQVCKZ+NotoSerif-Bold', 'XSWFNH+NotoSans-Medium', 'ZOGDHU+Newsreader16pt-Regular']
+page 3 web fonts: ['COWPCJ+LucernaNotoSerifCJKSC-Regular', 'CWQODG+LucernaNotoSans-Bold', 'FMLHEB+LucernaNotoSerif-Regular', 'HPWPFH+LucernaNotoSansCJKSC-Bold', 'LTTWKZ+LucernaNotoSerif-Bold', 'NIXAQP+LucernaNotoSansCJKSC-Regular', 'QVGJMG+LucernaNotoSans-Regular', 'RMSLYY+LucernaNewsreader-Regular']
+page 3 print fonts: ['CRNGDC+Newsreader16pt-Regular', 'FHUZPN+NotoSerif-Medium', 'ILOFLH+NotoSans-Bold', 'IZYBKQ+NotoSansCJKsc-Regular', 'KXARFT+NotoSerifCJKsc-Regular', 'LQDNVH+NotoSerif-Bold', 'SHBLVK+NotoSans-Medium', 'YHIMOX+Newsreader16pt-Regular', 'ZWYUAF+NotoSansCJKsc-Bold']
+page 4 web fonts: ['AORSIF+LucernaNotoSansCJKSC-Regular', 'AWIDKC+LucernaNotoSans-Bold', 'BCTFSG+LucernaNotoSerif-Bold', 'MIZGCX+LucernaNewsreader-Regular', 'RKLWBU+LucernaNotoSans-Regular', 'RLLMTP+LucernaNotoSansCJKSC-Bold', 'XBDKCD+LucernaNotoSerif-Regular']
+page 4 print fonts: ['EQAQUR+NotoSansCJKsc-Regular', 'FPSUAH+NotoSerif-Bold', 'LMBHER+NotoSerif-Medium', 'NAILRY+Newsreader16pt-Regular', 'QTPEIE+NotoSansCJKsc-Bold', 'STNZVV+NotoSans-Bold', 'TTFKWV+Newsreader16pt-Regular', 'VONFIL+NotoSans-Medium']
+page 5 web fonts: ['COWPCJ+LucernaNotoSerifCJKSC-Regular', 'EDFFSJ+LucernaNotoSerif-Bold', 'ODZKRA+LucernaNotoSans-Bold', 'QGKAAE+LucernaNotoSansCJKSC-Bold', 'RCKMQQ+LucernaNewsreader-Regular', 'SSRUSP+LucernaNotoSans-Regular', 'VHHTTM+LucernaNotoSerif-Regular', 'ZDQLXJ+LucernaNotoSansCJKSC-Regular']
+page 5 print fonts: ['BDMPXA+NotoSans-Bold', 'CINNWT+NotoSansCJKsc-Bold', 'FMDANR+Newsreader16pt-Regular', 'HFGFNM+NotoSans-Medium', 'HQSQHP+Newsreader16pt-Regular', 'KRDDCU+NotoSerif-Medium', 'KXARFT+NotoSerifCJKsc-Regular', 'MOIXUW+NotoSerif-Bold', 'WSHDVV+NotoSansCJKsc-Regular']
+page 6 web fonts: ['COWPCJ+LucernaNotoSerifCJKSC-Regular', 'HMDSID+LucernaNotoSerif-Bold', 'JBQCYG+LucernaNotoSans-Regular', 'PBIZZJ+LucernaNotoSerif-Regular', 'PQXQSE+LucernaNewsreader-Regular', 'TDKMPR+LucernaNotoSansCJKSC-Bold', 'UUDVNG+LucernaNotoSansCJKSC-Regular', 'ZKINIX+LucernaNotoSans-Bold']
+page 6 print fonts: ['BFBOTA+NotoSans-Bold', 'CAUGXU+NotoSansCJKsc-Regular', 'IIPZIQ+NotoSerif-Bold', 'KGWFEU+NotoSerif-Medium', 'KXARFT+NotoSerifCJKsc-Regular', 'TRWMSY+Newsreader16pt-Regular', 'UJYLPN+NotoSansCJKsc-Bold', 'UYCECF+Newsreader16pt-Regular', 'XNVZIJ+NotoSans-Medium']
+page 7 web fonts: ['COWPCJ+LucernaNotoSerifCJKSC-Regular', 'FVAYIL+LucernaNotoSans-Regular', 'MZMYSH+LucernaNotoSansCJKSC-Regular', 'NOFABL+LucernaNotoSans-Bold', 'WRHQZR+LucernaNotoSerif-Regular', 'XFIJBZ+LucernaNewsreader-Regular', 'YPBJTO+LucernaNotoSerif-Bold', 'ZVUBWT+LucernaNotoSansCJKSC-Bold']
+page 7 print fonts: ['EBJNVJ+NotoSans-Bold', 'EERYHP+NotoSansCJKsc-Regular', 'KXARFT+NotoSerifCJKsc-Regular', 'MCFEUY+NotoSerif-Medium', 'OHFCIC+NotoSerif-Bold', 'RZHYDQ+Newsreader16pt-Regular', 'SSNWFY+NotoSans-Medium', 'VACJJN+NotoSansCJKsc-Bold', 'YVHMXC+Newsreader16pt-Regular']
+page 8 web fonts: ['AFFPAX+LucernaNotoSerif-Regular', 'ALUMXM+LucernaNewsreader-Regular', 'JFVYDW+LucernaNotoSans-Bold', 'VNUJGZ+LucernaNotoSansCJKSC-Bold', 'YUYBZE+LucernaNotoSansCJKSC-Regular', 'ZGVZXA+LucernaNotoSerifCJKSC-Regular']
+page 8 print fonts: ['CYNOVS+NotoSansCJKsc-Bold', 'ITXAWG+NotoSansCJKsc-Regular', 'JWWEPR+Newsreader16pt-Regular', 'MMWOTX+Newsreader16pt-Regular', 'QYCZNW+NotoSerifCJKsc-Regular', 'RKJXBM+NotoSans-Bold', 'UBSSWO+NotoSerif-Medium']

@@ -1,0 +1,64 @@
+en bslib4.py:119 KEEP marker 'max_w'
+   OLD:     def para(self, s, size=24, kind="serif", bold=False, fill=INK, lh=1.52, gap=10, split=True, italic=False):
+   NEW:     def para(self, s, size=24, kind="serif", bold=False, fill=INK, lh=1.52, gap=10, split=True, italic=False, max_w=None
+en bslib4.py:119 KEEP block marker 'fix1'
+   NEW:         # max_w (fix1 D7, 2026-11-11): wrap narrower than the column when
+en bslib4.py:119 KEEP block marker 'fix1'
+   NEW:         # the render runs wider than PIL measures (Cairo/Newsreader ≈ +3%
+en bslib4.py:119 KEEP block marker 'fix1'
+   NEW:         # vs PIL getlength — the P8 model text crossed the column edge by
+en bslib4.py:119 KEEP block marker 'fix1'
+   NEW:         # +14px at full width). Default None = column width (unchanged).
+en bslib4.py:119 KEEP block marker 'fix1'
+   NEW:         w = max_w if max_w is not None else self.w
+en bslib4.py:121 KEEP fix1 max_w plumbing (self.w -> w)
+   OLD:             h = self._ph(s, size, kind, bold, self.w, lh, italic)
+   NEW:             h = self._ph(s, size, kind, bold, w, lh, italic)
+en bslib4.py:123 KEEP fix1 max_w plumbing (self.w -> w)
+   OLD:             self.y = self.p.para(self.x, self.y + size, s, size, kind, bold, fill, self.w, lh, italic=italic) + gap
+   NEW:             self.y = self.p.para(self.x, self.y + size, s, size, kind, bold, fill, w, lh, italic=italic) + gap
+en bslib4.py:125 KEEP fix1 max_w plumbing (self.w -> w)
+   OLD:         lines = wrap(s, kind, bold, size, self.w, italic)
+   NEW:         lines = wrap(s, kind, bold, size, w, italic)
+en content12.py:48 KEEP marker 'fix1'
+   OLD: ])
+   NEW: ], tsize=21)  # fix1 D-B1: title was 23pt, true ink right 1434.0 vs box right 1411.5 (-22.5); 21pt -> ink right ~1396.0,
+en content12.py:129 KEEP marker 'fix1'
+   OLD: # col 3 EM POUCAS PALAVRAS
+   NEW: # col 3 EM POUCAS PALAVRAS — fix1 (2026-11-11): box 436->474 (+38).
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # Last line 'em Brasília. (Página 4)' baseline 2327.6 sat 17.6px below the
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # old bottom 2310; pt-es PIL ink run reaches 2342 (ink bottom +33, incl. the quiz
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # rule/title crowding the scan band — the spill line's own glyphs end
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # ~2332, descender 'g' +4px). +38 puts the bottom at 2348: +6px clear of
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # the pt-es ink measure, ~+16px clear of the spill line's own ink bottom.
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # Quiz section below shifts by the same +38 (qy 2312->2350); quiz flow
+en content12.py:129 KEEP block marker 'fix1'
+   NEW: # (max block 138.4px) still fits: top 2404 + 138.4 = 2542.4 <= 2560.
+en content12.py:131 KEEP marker 'CW, 474'
+   OLD: p.rect(bx, 1874, CW, 436, fill=BOX)
+   NEW: p.rect(bx, 1874, CW, 474, fill=BOX)
+en content12.py:143 KEEP marker 'fix1'
+   OLD: # ---- quiz relâmpago ----
+   NEW: # fix1 (2026-11-11): qy 2312->2350, same +38 as the flash box above.
+en content12.py:143 KEEP marker 'qy = 2350'
+   OLD: qy = 2312
+   NEW: qy = 2350
+en content34.py:40 KEEP marker 'fix1'
+   OLD: sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in semana) + 32
+   NEW: sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in semana) + 58  # fix1 (2026-11-11): +26 (w
+en content56.py:132 KEEP marker 'fix1'
+   OLD: p.rect(bx, 200, CW, 640, fill=BOX)
+   NEW: p.rect(bx, 200, CW, 654, fill=BOX)  # fix1 (2026-11-11): 640->654 (+14). Last line 'Página do Participante.' baseline sa
+en content7.py:82 KEEP marker 'fix1'
+   OLD: p.text(bx + 22, yy3 + 26, "ERROS COMUNS　Common mistakes", 23, "sans", True, OLIVE)
+   NEW: p.text(bx + 22, yy3 + 26, "ERROS COMUNS　Common mistakes", 21, "sans", True, OLIVE)  # fix1 D-B2: title was 23pt, true in
+en content8.py:110 KEEP marker 'fix1'
+   OLD: f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False)
+   NEW: f.para("Texto modelo: " + MODELO, 15, lh=1.3, split=False, max_w=395)  # fix1 D7 (2026-11-11): wrap at 395, not the full
+en COUNTS: {'KEEP': 25} apply= False

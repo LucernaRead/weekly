@@ -1,0 +1,35 @@
+=== p1-voorpagina: prod 229 elems, rebuild 229 elems
+  PROD : <text x="1141.9" y="2348" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Lee la primera página y elige la respuesta correcta　Respuestas en la página 8</text>
+  REB  : <text x="1131.9" y="2348" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Lee la primera página y elige la respuesta correcta　Respuestas en la página 8</text>
+  differing elements: 2
+=== p2-leven: prod 222 elems, rebuild 222 elems
+  PROD : <text x="1200.1" y="1594" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Wat hoort bij pakjesavond?　¿Qué palabras pertenecen a Pakjesavond?</text>
+  REB  : <text x="1190.1" y="1594" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Wat hoort bij pakjesavond?　¿Qué palabras pertenecen a Pakjesavond?</text>
+  PROD : <text x="1175.3" y="1876" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  REB  : <text x="1165.3" y="1876" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  differing elements: 4
+=== p3-cultuur: prod 207 elems, rebuild 207 elems
+  PROD : <text x="1175.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  REB  : <text x="1165.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  differing elements: 2
+=== p4-sport: prod 204 elems, rebuild 204 elems
+  PROD : <text x="1175.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  REB  : <text x="1165.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  differing elements: 2
+=== p5-jongeren: prod 213 elems, rebuild 213 elems
+  PROD : <text x="1175.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  REB  : <text x="1165.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  differing elements: 2
+=== p6-verdieping: prod 225 elems, rebuild 225 elems
+  PROD : <text x="1461.5" y="242" font-family="Noto Sans CJK SC" font-size="24" font-weight="700" fill="#46581f" text-anchor="start">DE GRAFIEK　DATOS DE PRÁCTICA</text>
+  REB  : <text x="1461.5" y="242" font-family="Noto Sans CJK SC" font-size="23" font-weight="700" fill="#46581f" text-anchor="start">DE GRAFIEK　DATOS DE PRÁCTICA</text>
+  PROD : <text x="1175.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  REB  : <text x="1165.3" y="1648" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">Respuestas en la página 8　Los niveles están mezclados; busca tu número</text>
+  differing elements: 4
+=== p7-taal: prod 203 elems, rebuild 203 elems
+  differing elements: 0
+=== p8-toets: prod 431 elems, rebuild 431 elems
+  PROD : <text x="1120.8" y="1302" font-family="Noto Sans CJK SC" font-size="19.5" fill="#6f675d" text-anchor="start">Cada respuesta tiene una nota breve en español　✓ marca el ejercicio de escritura</text>
+  REB  : <text x="1110.8" y="1302" font-family="Noto Sans CJK SC" font-size="19.5" fill="#6f675d" text-anchor="start">Cada respuesta tiene una nota breve en español　✓ marca el ejercicio de escritura</text>
+  differing elements: 2
+TOTAL differing elements: 18

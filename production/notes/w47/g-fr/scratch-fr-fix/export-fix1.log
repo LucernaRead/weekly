@@ -1,0 +1,19 @@
+P1 saved, exercises so far: 10
+P2 col3 ends 1043.0
+P2 saved, exercises so far: 25
+P3 saved, exercises so far: 43
+P4 saved, exercises so far: 61
+P5 saved, exercises so far: 78
+P6 saved, exercises so far: 96
+P7 B1 flow ends y= 1000 dore slot y0= 1016
+  !! P7 DORE NOSPACE: y0= 1016
+P7 saved, exercises so far: 108
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fr/export47.py", line 35, in <module>
+    import content12, content34, content56, content7, content8
+  File "/home/hatch/workspace/weekly-git/production/2026-w47/core-fr/content8.py", line 86, in <module>
+    badge_opt(bf, lv, n, opts)
+  File "/home/hatch/workspace/weekly-git/production/2026-w47/core-fr/content8.py", line 23, in badge_opt
+    w = flow.w - 72
+        ^^^^^^
+AttributeError: 'Flow' object has no attribute 'w'

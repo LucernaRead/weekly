@@ -1,0 +1,17 @@
+respostas entries parsed: 143 missing: [11, 29, 47, 65, 83, 101, 113] extra: []
+Q150 REG: '(ejercicio abierto — texto modelo abajo)' | Respostas: '✓ Ver el texto modelo en la sección H de esta página (88 palabras)' | extracted: '✓'
+mismatches (excl Q150): 14
+   (10, 'B', 'B 11. B')
+   (11, 'B', '')
+   (28, 'd', 'd 29. C')
+   (29, 'C', '')
+   (46, 'Palmares foi o maior quilombo do Brasil.', 'Palmares foi o maior quilombo do Brasil. 47. A')
+   (47, 'A', '')
+   (64, 'foram', 'foram 65. B')
+   (65, 'B', '')
+   (82, 'Verdadeiro', 'Verdadeiro 83. B')
+   (83, 'B', '')
+   (100, 'chute', 'chute 101. em')
+   (101, 'em', '')
+   (112, 'B', 'B 113. A')
+   (113, 'A', '')

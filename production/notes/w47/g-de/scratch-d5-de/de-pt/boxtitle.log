@@ -1,0 +1,7 @@
+== 2026-w47-de-pt  core=production/2026-w47/core-de backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-de/scratch-fanout-de/backup/2026-w47-de-pt
+  P1 [BODY] DEFECT over=+23.2px (right) core=-11.7 backup=None | regression vs core (core -11.7px) | 'Em números'
+  P3 [TITLE] DEFECT over=+24.9px (right) core=-14.2 backup=None | regression vs core (core -14.2px) | 'Palavras'
+  P7 [TITLE] DEFECT over=+30.0px (right) core=1.0 backup=None | regression vs core (core +1.0px) | 'Material'
+  P7 [TITLE] DEFECT over=+3.2px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'Cartas dos leitores'
+  P7 [TITLE] DEFECT over=+11.6px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'Mais uma palavra'
+BOXTITLE 2026-w47-de-pt: 46 titles, 246 body lines, 5 DEFECT, 0 OBSERVE, 0 marginal

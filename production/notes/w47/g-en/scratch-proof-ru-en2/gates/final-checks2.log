@@ -1,0 +1,6 @@
+model text words: 97
+model text: Пример: Моя неделя 16–22 ноября начинается в понедельник, 16 ноября. В понедельник я работаю, а вечером читаю книгу. Во  ...
+stem keys parsed: 149 1..150 complete: False
+missing stem numbers: [150]
+stem-vs-answerlist mismatches (1..149): []
+Q150 stem: None | ans: '(Open task; model text below)'

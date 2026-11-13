@@ -1,0 +1,43 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0 (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/logs/2026-w47-it-es-run2.log)
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-es/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: RC=0 core    /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-es/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+== boxtitle: RC=1 BOXTITLE 2026-w47-it-es: 28 titles, 241 body lines, 7 DEFECT, 0 OBSERVE, 0 marginal
+      P1 [TITLE] DEFECT over=+216.6px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | 'LA SEMANA EN CIFRAS'
+      P1 [BODY] DEFECT over=+6.2px (right) core=-21.0 backup=None | regression vs core (core -21.0px) | 'Cosa succede, giorno per giorno'
+      P1 [TITLE] DEFECT over=+22.2px (right) core=-9.8 backup=None | regression vs core (core -9.8px) | 'SUMARIO'
+      P2 [TITLE] DEFECT over=+165.3px (right) core=-3.7 backup=None | regression vs core (core -3.7px) | 'PARA RECORDAR'
+      P4 [BODY] DEFECT over=+16.8px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'DOPO 11 GIORNATE'
+      P7 [TITLE] DEFECT over=+26.8px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'ERRORES TÍPICOS'
+      P7 [TITLE] DEFECT over=+81.5px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'PALABRA DE LA SEMANA'
+    BOXTITLE 2026-w47-it-es: 28 titles, 241 body lines, 7 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP 2026-w47-it-es: 29 boxes, 68 candidates, 0 SPILL, 68 OBSERVE
+== creambox: RC=1 P8 p8-valutazione.svg: lines 213->213 slack_footer 56.6->56.6
+      DEFECT abs box#0 y=1388.475 'LA SEMANA EN CIFRAS' over={'right': 216.6}
+      DEFECT abs box#2 y=1352.0 'SUMARIO' over={'right': 22.2}
+      DEFECT abs box#0 y=1280.75 'PARA RECORDAR' over={'right': 165.3}
+      DEFECT abs box#1 y=471.44999999999993 'DOPO 11 GIORNATE' over={'right': 16.8}
+      DEFECT abs box#0 y=242.0 'ERRORES TÍPICOS' over={'right': 26.8}
+      DEFECT abs box#1 y=1081.5 'PALABRA DE LA SEMANA' over={'right': 81.5}
+== edge: RC=0
+    EDGE_SCAN 2026-w47-it-es: 8 pages, 0 TOUCH, 1 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN 2026-w47-it-es: 8 pages, 0 TOUCH, 1 NEAR
+== freeze-baseline: RC=0 baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+== freeze-diff: RC=0
+    p1: +48 strings / -82 strings; CJK core 197 -> edition 20; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 34 (unexpected 34)
+    p2: +44 strings / -68 strings; CJK core 191 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 36 (unexpected 36)
+    p3: +42 strings / -67 strings; CJK core 180 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 35 (unexpected 35)
+    p4: +39 strings / -64 strings; CJK core 162 -> edition 17; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 31 (unexpected 31)
+    p5: +51 strings / -72 strings; CJK core 227 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 44 (unexpected 44)
+    p6: +39 strings / -59 strings; CJK core 167 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 32 (unexpected 32)
+    p7: +54 strings / -106 strings; CJK core 304 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+    p8: +173 strings / -647 strings; CJK core 1015 -> edition 22; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 166 (unexpected 166)
+    TOTAL added CJK characters: 8
+new-CJK-non-U3000: NONE
+== textlayer-print-vs-web: RC=0 print_chars=44614 web_chars=44614 multiset_diff=0 nonws_diff=0
+== text.md: UNCHANGED 4fd5647e2b7a13812b384963607bd67eda2c2c4fe6bd197b9b08bc08eee21643
+GATES 2026-w47-it-es: FAILURES-PRESENT

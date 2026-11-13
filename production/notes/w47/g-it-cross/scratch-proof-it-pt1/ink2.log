@@ -1,0 +1,19 @@
+=== 1. P1 quiz subhead 'Respostas na página 8' ===
+  quiz-right: y=2348 x=1204.5 anchor=start 'Lê a primeira página e escolhe a resposta certa\u3000Respostas na' ink_right=1867.1 -> OVER +5.1px (=3.8pt)
+  quiz-left-part: y=2348 x=1204.5 anchor=start 'Lê a primeira página e escolhe a resposta certa\u3000Respostas na' ink_right=1867.1 -> OVER +5.1px (=3.8pt)
+=== 2. Exercises subhead 'Os níveis misturam-se' (p2, p6) ===
+  p2-exsub: y=1876 x=1208.5 anchor=start 'Respostas na página 8\u3000Os níveis misturam-se — procura pelo n' ink_right=1865.3 -> OVER +3.3px (=2.5pt)
+  p6-exsub: y=1958 x=1208.5 anchor=start 'Respostas na página 8\u3000Os níveis misturam-se — procura pelo n' ink_right=1865.3 -> OVER +3.3px (=2.5pt)
+=== 3. P2 'Una festa, una giornata verde' ===
+  p2-green: y=1594 x=1589.8 anchor=start 'Una festa, una giornata verde' ink_right=1864.2 -> OVER +2.2px (=1.6pt)
+=== 4. P5 Corot caption line 1 ===
+  p5-caption: y=603 x=1439.5 anchor=start 'Foto: Jean-Baptiste-Camille Corot — Wikimedia Commons,' ink_right=1863.8 -> OVER +1.8px (=1.4pt)
+=== 5. P8 model text lines 1-2 + RISPOSTE subhead ===
+  p8-model-1: y=702 x=1439.5 anchor=start 'Testo modello: Domenica 22 novembre metto la sciarpa e' ink_right=1864.2 -> OVER +2.2px (=1.6pt)
+  p8-model-2: y=723 x=1439.5 anchor=start "vado a Cremona: è l'ultimo giorno della Festa del Torrone" ink_right=1864.3 -> OVER +2.3px (=1.7pt)
+  p8-ans-sub: y=1382 x=1075.1 anchor=start 'Cada resposta tem uma nota de uma linha em português\u3000✓ = tar' ink_right=1867.3 -> OVER +5.3px (=4.0pt)
+=== 6. Footer 'Página N de 8' (p1, p8) ===
+  p1-footer: y=2624 x=1758.0 anchor=start 'Página 1 de 8' ink_right=1862.4 -> OVER +0.4px (=0.3pt)
+  p8-footer: y=2624 x=1758.0 anchor=start 'Página 8 de 8' ink_right=1862.4 -> OVER +0.4px (=0.3pt)
+=== 7. P2 caption 'Foto: Canaletto' (was +0.0pt) ===
+  p2-caption: y=573 x=1439.5 anchor=start 'Foto: Canaletto — Wikimedia Commons, dominio pubblico' ink_right=1861.7 -> inside 0.3px

@@ -1,0 +1,6 @@
+REG entries: 150 pages: [1, 2, 3, 4, 5, 6, 7, 8]
+REG n=150: {'n': 150, 'page': 8, 'level': 'B1', 'type': '쓰기', 'key': '(열린 문제 — 모범 답안은 아래에 있어요)', 'note': '모범 답안은 이 면의 H란(97 단어)'}
+appendix-head vs REG-key mismatches: [(150, '(열린 문제 — 모범 답안은 아래에 있어요)', '✓')]
+MATCH count: 149 /150
+REG-reconstruction mismatches: []
+KEYCHECK_DONE head_match=149 recon_match=150

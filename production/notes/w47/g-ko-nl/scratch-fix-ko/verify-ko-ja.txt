@@ -1,0 +1,77 @@
+===== 2026-w47-ko-ja =====
+-- gate RCs:
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+-- run TOTAL/warnings:
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+-- census:
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+-- quotes:
+GRAND TOTAL defective: 0
+-- head_check findings:
+[]
+-- occlusion:
+flags: 0
+-- p8:
+CLEAN total 150
+extract noted: 150
+-- freeze baseline:
+baseline: 7/8 SVGs byte-identical (repointed files: none)
+-- freeze diff:
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 448 (unexpected 448)
+-- spill:
+SPILL_SWEEP 2026-w47-ko-ja: 49 boxes, 348 candidates, 0 SPILL, 348 OBSERVE
+-- boxtitle:
+BOXTITLE 2026-w47-ko-ja: 63 titles, 1089 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+-- edge:
+EDGE_SCAN 2026-w47-ko-ja: 8 pages, 0 TOUCH, 0 NEAR
+-- creambox:
+p8-siheom.svg: els 323->1882 lines 206->205 diff 120 moved 38 defects 0 observe 0
+CREAMBOX PASS 0 defects
+-- textlayer:
+TEXTLAYER PASS
+-- p8 keys (check_p8keys.py):
+keys found: 150 numbers 1-150
+missing numbers: []
+  12. A — 平年より13.4%安い
+  13. A — 割引で売るキムジャン材料は6種類
+  22. 1.8 — 唐辛子粉は1.8%下がった
+  47. A — サムスン通算9回目の優勝
+  74. 8 — 受験票をなくしたら当日の朝8時までに届け出る
+  102. A — キムチの日は2020年2月に法律で定められた
+  125. B — 頭輪山：山林庁の予想ではピークは11月11日
+stale-key problems: none
+-- print PDF spot checks (pdftotext):
+  [1] 김장비용은 평년보다 어떻게 됐어요
+  [1] 할인 행사에서 김장 재료는 몇 종을 팔아요
+  [2] 고춧가루는
+  [1] 삼성의 우승은 통산 몇 번째예요
+  [1] 수험표를 잃어버리면 당일 아침
+  [1] 김치의 날은 언제 법으로 정해졌어요
+  [2] 다른 날의 조치가 아니에요
+  [old F2 sentence] 0 (want 0)
+-- files:
+  35978 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/2026-w47-ko-ja.text.md
+  4373107 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/Lucerna-VOL4-KO-JA-web.pdf
+  50279548 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/Lucerna-VOL4-KO-JA.pdf
+f9bb1d3a3929  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/Lucerna-VOL4-KO-JA-web.pdf
+f8c7508f9be8  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/Lucerna-VOL4-KO-JA.pdf
+1088c4613b36  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-ja/2026-w47-ko-ja.text.md
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch

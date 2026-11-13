@@ -1,0 +1,51 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P2 title element: ('556.5', '642.02', 'PARA NÃO ERRAR\u3000La regla')
+PIL: x=556.5 advance_right=863.7 trueink_right=863.5 box_right=961.0 clear=+97.5
+PDF-render: rightmost dark px in title band y620..649 = 863 clear vs 961.0: +98
+crop saved: p2-para-title-pdf.png
+slogan current: chars=64 advance=597.7 with-LS(n-1)=704.8 with-LS(n)=706.5 centred span (n-1) = [622.6, 1327.4]
+slogan fixed: chars=73 advance=672.3 with-LS(n-1)=794.7 with-LS(n)=796.4 centred span (n-1) = [577.6, 1372.4]
+centre x=975; page content [88, 1862]; left strip ends ~x=350, right strip starts x=1459.5
+PDF span svg-x0=88.0 svg-x1=132.1 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=132.1 svg-x1=139.3 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=139.3 svg-x1=149.4 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=169.8 svg-x1=248.1 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=248.1 svg-x1=255.3 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=255.3 svg-x1=327.2 size=12.75 font=NotoSansCJKsc-Bold
+PDF span svg-x0=622.6 svg-x1=672.5 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=672.5 svg-x1=679.7 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=679.7 svg-x1=755.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=755.1 svg-x1=762.4 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=762.4 svg-x1=787.9 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=787.9 svg-x1=795.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=795.1 svg-x1=909.4 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=929.8 svg-x1=975.4 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=975.4 svg-x1=982.6 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=982.6 svg-x1=1053.8 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1074.2 svg-x1=1090.7 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1090.7 svg-x1=1097.9 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1097.9 svg-x1=1193.0 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1193.0 svg-x1=1200.2 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1200.2 svg-x1=1233.9 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1233.9 svg-x1=1241.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1241.1 svg-x1=1268.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1268.1 svg-x1=1275.3 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1275.3 svg-x1=1328.6 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1459.5 svg-x1=1534.9 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1534.9 svg-x1=1542.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1542.1 svg-x1=1565.5 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1565.5 svg-x1=1572.7 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1572.7 svg-x1=1593.3 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1593.3 svg-x1=1600.5 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1600.5 svg-x1=1610.9 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1610.9 svg-x1=1618.1 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1618.1 svg-x1=1638.6 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1638.6 svg-x1=1645.8 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1645.8 svg-x1=1669.2 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1669.2 svg-x1=1676.5 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1676.5 svg-x1=1781.4 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1781.4 svg-x1=1788.6 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1788.6 svg-x1=1812.0 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1812.0 svg-x1=1819.3 size=12.75 font=NotoSansCJKsc-Regular
+PDF span svg-x0=1819.3 svg-x1=1862.1 size=12.75 font=NotoSansCJKsc-Regular

@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+=== P6 title, PRINT pdf ===
+P6-print: cream box pt=(1079.62,497.62,1396.50,709.12) right=1396.50pt=1862.0px
+P6-print: title chars in band: 'ЗА И ПРОТИВFOR AND AGAINST'
+P6-print: ink pt left=1096.12 right=1397.64 -> px left=1461.5 right=1863.5 clearance=-1.5px
+=== P6 title, WEB pdf ===
+P6-web: cream box pt=(1079.62,497.62,1396.50,709.12) right=1396.50pt=1862.0px
+P6-web: title chars in band: 'ЗА И ПРОТИВFOR AND AGAINST'
+P6-web: ink pt left=1096.12 right=1397.64 -> px left=1461.5 right=1863.5 clearance=-1.5px
+=== P1 S1 title, PRINT pdf ===
+P1-print: cream box pt=(403.88,902.80,720.75,1187.80) right=720.75pt=961.0px
+P1-print: title chars in band: 'ТУР В ЦИФРАХThe roundПFrоo рmо Rссuиsйsiсaкnи mмСedМiaИ,,  Nнoоvяeбmрьb 2e0r 2260 2г.6'
+P1-print: ink pt left=417.38 right=1342.93 -> px left=556.5 right=1790.6 clearance=-829.6px
+=== P1 S1 title, WEB pdf ===
+P1-web: cream box pt=(403.88,902.80,720.75,1187.80) right=720.75pt=961.0px
+P1-web: title chars in band: 'ТУР В ЦИФРАХThe roundПFrоo рmо Rссuиsйsiсaкnи mмСedМiaИ,,  Nнoоvяeбmрьb 2e0r 2260 2г.6'
+P1-web: ink pt left=417.38 right=1342.93 -> px left=556.5 right=1790.6 clearance=-829.6px
+crop /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-ru-en1/crops/p1-round-crop-print.png: 1335x195 px @zoom 4
+crop /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-ru-en1/crops/p1-round-crop-web.png: 1335x195 px @zoom 4
+crop /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-ru-en1/crops/p6-title-crop-print.png: 1335x180 px @zoom 4
+crop /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-ru-en1/crops/p6-title-crop-web.png: 1335x180 px @zoom 4

@@ -1,0 +1,154 @@
+record rows parsed: 150
+n | pg | type | core-key | nl-key | svg-key | core-note | nl-note | verdict
+1 | 1 | invullen | '1' | '1' | '1' | '11月18日是D-1' | '18 nov. is D-1' | OK | REC-OK
+2 | 1 | invullen | '김장' | '김장' | '김장' | '泡菜季正忙' | 'Het kimchiseizoen is in volle gang' | OK | REC-OK
+3 | 1 | invullen | '19' | '19' | '19' | '高考在11月19日周四' | 'De CSAT is op donderdag 19 nov.' | OK | REC-OK
+4 | 1 | invullen | '3' | '3' | '3' | '11月16日是D-3' | '16 nov. is D-3' | OK | REC-OK
+5 | 1 | invullen | '4승 1패' | '4승 1패' | '4승 1패' | '三星4胜1负胜kt' | 'Samsung versloeg kt met 4-1' | OK | REC-OK
+6 | 1 | invullen | '11' | '11' | '11' | '取消名额报名11月11日起' | 'Inschrijving vrije plaatsen vanaf 11 nov.' | OK | REC-OK
+7 | 1 | meerkeuze | 'A' | 'A' | 'A' | '11月18日是D-1' | '18 nov. is D-1' | OK | REC-OK
+8 | 1 | meerkeuze | 'A' | 'A' | 'A' | '泡菜成本比去年降9.0%' | 'De kimjangkosten zijn 9,0% lager dan vorig jaar' | OK | REC-OK
+9 | 1 | meerkeuze | 'A' | 'A' | 'A' | '泡菜日是11月22日周日' | 'Kimchidag is zondag 22 nov.' | OK | REC-OK
+10 | 1 | meerkeuze | 'A' | 'A' | 'A' | '韩国大赛三星夺冠' | 'Samsung won de Korean Series' | OK | REC-OK
+11 | 2 | meerkeuze | 'A' | 'A' | 'A' | '白菜20棵54,980韩元' | '20 koolkoppen: 54.980 won' | OK | REC-OK
+12 | 2 | meerkeuze | 'A' | 'A' | 'A' | '泡菜成本降了9.0%' | 'De kimjangkosten zijn 9,0% lager' | OK | REC-OK
+13 | 2 | meerkeuze | 'A' | 'A' | 'A' | '泡菜日是11月22日周日' | 'Kimchidag is zondag 22 nov.' | OK | REC-OK
+14 | 2 | meerkeuze | 'A' | 'A' | 'A' | '韩史考试在11月28日周六' | 'Het examen geschiedenis is zaterdag 28 nov.' | OK | REC-OK
+15 | 2 | meerkeuze | 'A' | 'A' | 'A' | '泡菜节11月20日周五' | 'Het WiKim-festival is vrijdag 20 nov.' | OK | REC-OK
+16 | 2 | invullen | '한창' | '한창' | '한창' | '泡菜季正忙' | 'Het kimchiseizoen is in volle gang' | OK | REC-OK
+17 | 2 | invullen | '22' | '22' | '22' | '泡菜日是11月22日' | 'Kimchidag is op 22 nov.' | OK | REC-OK
+18 | 2 | invullen | '54,980' | '54,980' | '54,980' | '白菜20棵54,980韩元' | '20 koolkoppen: 54.980 won' | OK | REC-OK
+19 | 2 | invullen | '토' | '토' | '토' | '韩史考试在周六' | 'Het examen geschiedenis is op zaterdag' | OK | REC-OK
+20 | 2 | invullen | '배추' | '배추' | '배추' | '泡菜成本下降因白菜降价' | 'De kosten daalden omdat kool goedkoper is' | OK | REC-OK
+21 | 2 | invullen | '199,456' | '199,456' | '199,456' | '四口之家泡菜成本199,456韩元' | 'Kimjang voor vier: 199.456 won' | OK | REC-OK
+22 | 2 | invullen | '54,980' | '54,980' | '54,980' | '白菜20棵54,980韩元' | '20 koolkoppen: 54.980 won' | OK | REC-OK
+23 | 2 | invullen | '26.5' | '26.5' | '26.5' | '白菜20棵比去年降26.5%' | '20 koolkoppen, 26,5% minder dan vorig jaar' | OK | REC-OK
+24 | 2 | invullen | '13' | '13' | '13' | '取消名额报名11月11日至13日' | 'Inschrijving vrije plaatsen: 11-13 nov.' | OK | REC-OK
+25 | 2 | combineren | 'd' | 'd' | 'd' | '김장비용=四口之家199,456韩元 d' | '김장비용 = kimjang voor vier, 199.456 won d' | OK | REC-OK
+26 | 2 | combineren | 'a' | 'a' | 'a' | '김치의 날=11月22日 a' | '김치의 날 = 22 nov. a' | OK | REC-OK
+27 | 2 | combineren | 'c' | 'c' | 'c' | '위킴 페스티벌=11月20日首尔 c' | '위킴 페스티벌 = 20 nov. in Seoel c' | OK | REC-OK
+28 | 2 | combineren | 'b' | 'b' | 'b' | '한능검=韩国史考试简称 b' | '한능검 = afkorting van het examen geschiedenis b' | OK | REC-OK
+29 | 3 | meerkeuze | 'A' | 'A' | 'A' | '泡菜日是11月22日' | 'Kimchidag is op 22 nov.' | OK | REC-OK
+30 | 3 | meerkeuze | 'B' | 'B' | 'B' | '22代表泡菜的22种功效' | '22 staat voor de 22 voordelen van kimchi' | OK | REC-OK
+31 | 3 | meerkeuze | 'A' | 'A' | 'A' | '泡菜节11月20日周五' | 'Het WiKim-festival is vrijdag 20 nov.' | OK | REC-OK
+32 | 3 | meerkeuze | 'B' | 'B' | 'B' | '内藏山林业厅预报峰值11月4日' | 'Naejangsan: Bosdienst voorspelt piek op 4 nov.' | OK | REC-OK
+33 | 3 | meerkeuze | 'A' | 'A' | 'A' | '林业厅标准是叶子50%' | 'De Bosdienst telt 50% van de bladeren' | OK | REC-OK
+34 | 3 | invullen | '절정' | '절정' | '절정' | '红叶最美的时候叫절정' | 'De mooiste bladeren heten 절정' | OK | REC-OK
+35 | 3 | invullen | '예보' | '예보' | '예보' | '预报日期和实际观测日期不同' | 'Voorspelde data verschillen van waargenomen data' | OK | REC-OK
+36 | 3 | invullen | '관측' | '관측' | '관측' | '实际观测10月16日' | 'Werkelijk waargenomen op 16 okt.' | OK | REC-OK
+37 | 3 | invullen | '김치의 날' | '김치의 날' | '김치의 날' | '11月22日是泡菜日' | '22 nov. is Kimchidag' | OK | REC-OK
+38 | 3 | invullen | '발효' | '발효' | '발효' | '泡菜是发酵食品' | 'Kimchi is gefermenteerd voedsel' | OK | REC-OK
+39 | 3 | invullen | '22' | '22' | '22' | '泡菜有22种功效' | 'Kimchi heeft 22 voordelen' | OK | REC-OK
+40 | 3 | invullen | '11' | '11' | '11' | '内藏山Weatheri预报11日' | 'Naejangsan: Weatheri voorspelt 11 nov.' | OK | REC-OK
+41 | 3 | invullen | '4' | '4' | '4' | '内藏山林业厅预报4日' | 'Naejangsan: Bosdienst voorspelt 4 nov.' | OK | REC-OK
+42 | 3 | invullen | '20' | '20' | '20' | '泡菜节11月20日' | 'Het WiKim-festival is op 20 nov.' | OK | REC-OK
+43 | 3 | combineren | 'b' | 'b' | 'b' | '내장산=Weatheri预报11日 b' | '내장산 = Weatheri-voorspelling 11 nov. b' | OK | REC-OK
+44 | 3 | combineren | 'a' | 'a' | 'a' | '월출산=林业厅预报9日 a' | '월출산 = Bosdienst-voorspelling 9 nov. a' | OK | REC-OK
+45 | 3 | combineren | 'd' | 'd' | 'd' | '두륜산=林业厅预报11日 d' | '두륜산 = Bosdienst-voorspelling 11 nov. d' | OK | REC-OK
+46 | 3 | combineren | 'c' | 'c' | 'c' | '설악산=实际观测10月16日 c' | '설악산 = werkelijk waargenomen 16 okt. c' | OK | REC-OK
+47 | 4 | meerkeuze | 'A' | 'A' | 'A' | '韩国大赛胜队是三星' | 'Samsung won de Korean Series' | OK | REC-OK
+48 | 4 | meerkeuze | 'C' | 'C' | 'C' | '系列赛比分4胜1负' | 'De serie eindigde met 4-1' | OK | REC-OK
+49 | 4 | meerkeuze | 'B' | 'B' | 'B' | '第5场11月8日大邱三星12比1' | 'Wedstrijd 5, 8 nov. in Daegu: Samsung 12-1' | OK | REC-OK
+50 | 4 | meerkeuze | 'A' | 'A' | 'A' | '第1场kt以8比7获胜' | 'Wedstrijd 1: kt won met 8-7' | OK | REC-OK
+51 | 4 | meerkeuze | 'B' | 'B' | 'B' | '三星时隔12年夺冠' | 'De eerste titel van Samsung in 12 jaar' | OK | REC-OK
+52 | 4 | invullen | '4승 1패' | '4승 1패' | '4승 1패' | '三星4胜1负胜kt' | 'Samsung versloeg kt met 4-1' | OK | REC-OK
+53 | 4 | invullen | '수원' | '수원' | '수원' | '韩国大赛1、2场在水原' | 'Wedstrijd 1 en 2 waren in Suwon' | OK | REC-OK
+54 | 4 | invullen | '12대 1' | '12대 1' | '12대 1' | '第5场三星12比1获胜' | 'Wedstrijd 5: Samsung won met 12-1' | OK | REC-OK
+55 | 4 | invullen | '12' | '12' | '12' | '三星12年后再次夺冠' | 'Samsung won na 12 jaar opnieuw' | OK | REC-OK
+56 | 4 | invullen | '4연승' | '4연승' | '4연승' | '三星1负后4连胜' | 'Samsung won vier keer op rij na één nederlaag' | OK | REC-OK
+57 | 4 | omzetten | '삼성이 kt wiz를 이겼어요.' | '삼성이 kt wiz를 이겼어요.' | '삼성이 kt wiz를 이겼어요.' | '이기다的过去式이겼어요' | '이기다: verleden tijd 이겼어요' | OK | REC-OK
+58 | 4 | omzetten | '1차전이 수원에서 열렸어요.' | '1차전이 수원에서 열렸어요.' | '1차전이 수원에서 열렸어요.' | '열리다的过去式열렸어요' | '열리다: verleden tijd 열렸어요' | OK | REC-OK
+59 | 4 | omzetten | '한국시리즈가 끝났어요.' | '한국시리즈가 끝났어요.' | '한국시리즈가 끝났어요.' | '끝나다的过去式끝났어요' | '끝나다: verleden tijd 끝났어요' | OK | REC-OK
+60 | 4 | omzetten | '삼성이 5차전에서 이겼어요.' | '삼성이 5차전에서 이겼어요.' | '삼성이 5차전에서 이겼어요.' | '이기다的过去式이겼어요' | '이기다: verleden tijd 이겼어요' | OK | REC-OK
+61 | 4 | combineren | 'c' | 'c' | 'c' | '준플레이오프=KIA三连胜 c' | '준플레이오프 = KIA won drie keer op rij c' | OK | REC-OK
+62 | 4 | combineren | 'd' | 'd' | 'd' | '플레이오프=三星3胜2负 d' | '플레이오프 = Samsung won met 3-2 d' | OK | REC-OK
+63 | 4 | combineren | 'a' | 'a' | 'a' | '한국시리즈=三星4胜1负 a' | '한국시리즈 = Samsung won met 4-1 a' | OK | REC-OK
+64 | 4 | combineren | 'b' | 'b' | 'b' | 'K리그1=首尔提前夺冠 b' | 'K리그1 = Seoel won voortijdig b' | OK | REC-OK
+65 | 5 | meerkeuze | 'A' | 'A' | 'A' | '预备召集在11月18日周三' | 'De voorbereidende bijeenkomst is woensdag 18 nov.' | OK | REC-OK
+66 | 5 | meerkeuze | 'B' | 'B' | 'B' | '高考8点40分开始' | 'De CSAT begint om 8.40 uur' | OK | REC-OK
+67 | 5 | meerkeuze | 'A' | 'A' | 'A' | '今年考生551,864人' | 'Kandidaten dit jaar: 551.864' | OK | REC-OK
+68 | 5 | meerkeuze | 'B' | 'B' | 'B' | '成绩12月11日周五公布' | 'De uitslag komt vrijdag 11 dec.' | OK | REC-OK
+69 | 5 | meerkeuze | 'A' | 'A' | 'A' | '考试日8点10分前入场完毕' | 'Wees op de examendag vóór 8.10 uur in je lokaal' | OK | REC-OK
+70 | 5 | invullen | '예비소집' | '예비소집' | '예비소집' | '预备召集领取准考证' | 'Bewijs ophalen bij de voorbereidende bijeenkomst' | OK | REC-OK
+71 | 5 | invullen | '수험표' | '수험표' | '수험표' | '领取准考证、确认考场' | 'Bewijs ophalen, examenlocatie controleren' | OK | REC-OK
+72 | 5 | invullen | '2,310' | '2,310' | '2,310' | '考生比去年少2,310人' | '2.310 kandidaten minder dan vorig jaar' | OK | REC-OK
+73 | 5 | invullen | '성적' | '성적' | '성적' | '成绩12月11日公布' | 'De uitslag komt op 11 dec.' | OK | REC-OK
+74 | 5 | invullen | '김치의 날' | '김치의 날' | '김치의 날' | '11月22日是泡菜日' | '22 nov. is Kimchidag' | OK | REC-OK
+75 | 5 | invullen | '551,864' | '551,864' | '551,864' | '今年考生551,864人' | 'Kandidaten dit jaar: 551.864' | OK | REC-OK
+76 | 5 | invullen | '1,312' | '1,312' | '1,312' | '考场全国1,312处' | 'Examenlocaties in het hele land: 1.312' | OK | REC-OK
+77 | 5 | invullen | '85' | '85' | '85' | '全国有85个考区' | '85 examendistricten in het hele land' | OK | REC-OK
+78 | 5 | invullen | '10' | '10' | '10' | '考试日机关10点上班' | 'Op de examendag beginnen kantoren om 10.00 uur' | OK | REC-OK
+79 | 5 | zinnen bouwen | '수험생은 열심히 공부해요.' | '수험생은 열심히 공부해요.' | '수험생은 열심히 공부해요.' | '语序：主语+副词+动词' | 'Woordvolgorde: onderwerp + bijwoord + werkwoord' | OK | REC-OK
+80 | 5 | zinnen bouwen | '우리는 수험생을 응원해요.' | '우리는 수험생을 응원해요.' | '우리는 수험생을 응원해요.' | '主语+宾语+动词的语序' | 'Onderwerp + lijdend voorwerp + werkwoord' | OK | REC-OK
+81 | 5 | zinnen bouwen | '비행기는 듣기 시간에 뜨지 않아요.' | '비행기는 듣기 시간에 뜨지 않아요.' | '비행기는 듣기 시간에 뜨지 않아요.' | '听力时段飞机不起降' | 'Geen vluchten tijdens de luistertoets' | OK | REC-OK
+82 | 5 | zinnen bouwen | '친구는 김치를 나눠 줘요.' | '친구는 김치를 나눠 줘요.' | '친구는 김치를 나눠 줘요.' | '朋友分享泡菜' | 'Een vriend deelt kimchi' | OK | REC-OK
+83 | 6 | meerkeuze | 'B' | 'B' | 'B' | '本周韩国大赛已有结果' | 'Deze week heeft de Korean Series een uitslag' | OK | REC-OK
+84 | 6 | meerkeuze | 'A' | 'A' | 'A' | '11月9日调查泡菜成本199,456韩元' | 'Onderzoek van 9 nov.: kimjang kost 199.456 won' | OK | REC-OK
+85 | 6 | meerkeuze | 'B' | 'B' | 'B' | '红叶预报日期已过' | 'De voorspelde bladerdata zijn voorbij' | OK | REC-OK
+86 | 6 | meerkeuze | 'C' | 'C' | 'C' | '高考成绩12月11日公布' | 'De CSAT-uitslag komt op 11 dec.' | OK | REC-OK
+87 | 6 | meerkeuze | 'A' | 'A' | 'A' | '上周韩国大赛只是公布的日程' | 'Vorige week was de Series nog maar een schema' | OK | REC-OK
+88 | 6 | meerkeuze | 'A' | 'A' | 'A' | '第1场kt以8比7获胜' | 'Wedstrijd 1: kt won met 8-7' | OK | REC-OK
+89 | 6 | meerkeuze | 'B' | 'B' | 'B' | '气象厅观测标准约80%' | 'De weerdienst neemt ongeveer 80% waar' | OK | REC-OK
+90 | 6 | meerkeuze | 'A' | 'A' | 'A' | '10月16日白菜一棵5,557韩元' | 'Eén koolkop, 16 okt.: 5.557 won' | OK | REC-OK
+91 | 6 | meerkeuze | 'A' | 'A' | 'A' | '泡菜成本调查基准日11月9日' | 'De referentiedatum van het kimjangonderzoek is 9 nov.' | OK | REC-OK
+92 | 6 | meerkeuze | 'A' | 'A' | 'A' | '今年考生551,864人' | 'Kandidaten dit jaar: 551.864' | OK | REC-OK
+93 | 6 | invullen | '발표' | '발표' | '발표' | '公布的日程可能改变' | 'Een gepubliceerd schema kan veranderen' | OK | REC-OK
+94 | 6 | invullen | '결과' | '결과' | '결과' | '结果要等比赛结束' | 'Uitslagen komen pas na de wedstrijden' | OK | REC-OK
+95 | 6 | invullen | '기준' | '기준' | '기준' | '日期不同因标准不同' | 'Data verschillen omdat de criteria verschillen' | OK | REC-OK
+96 | 6 | invullen | '날짜' | '날짜' | '날짜' | '读新闻先看日期' | 'Kijk bij het lezen van het nieuws eerst naar de datum' | OK | REC-OK
+97 | 6 | juist of onjuist | '틀리다' | '틀리다' | '틀리다' | '特别措施只适用于11月19日' | 'De speciale maatregelen gelden alleen op 19 nov.' | OK | REC-OK
+98 | 6 | juist of onjuist | '맞다' | '맞다' | '맞다' | '三星4胜1负夺冠' | 'Samsung won de titel met 4-1' | OK | REC-OK
+99 | 6 | juist of onjuist | '틀리다' | '틀리다' | '틀리다' | '预报日期不等于观测日期' | 'Voorspelde data zijn geen waargenomen data' | OK | REC-OK
+100 | 6 | juist of onjuist | '맞다' | '맞다' | '맞다' | '成绩12月11日公布' | 'De uitslag komt op 11 dec.' | OK | REC-OK
+101 | 7 | invullen | '김장' | '김장' | '김장' | '腌泡菜＝김장' | 'Kimchi maken voor de winter = 김장' | OK | REC-OK
+102 | 7 | meerkeuze | 'A' | 'A' | 'A' | '泡菜日是11月22日' | 'Kimchidag is op 22 nov.' | OK | REC-OK
+103 | 7 | invullen | '절임배추' | '절임배추' | '절임배추' | '提前盐腌好的白菜' | 'Kool vooraf gezouten' | OK | REC-OK
+104 | 7 | meerkeuze | 'A' | 'A' | 'A' | '调料里有虾酱' | 'De kruiden bevatten gezouten garnalen' | OK | REC-OK
+105 | 7 | invullen | 'D-1' | 'D-1' | 'D-1' | '11月18日是D-1' | '18 nov. is D-1' | OK | REC-OK
+106 | 7 | meerkeuze | 'B' | 'B' | 'B' | 'D-3＝11月16日' | 'D-3 = 16 nov.' | OK | REC-OK
+107 | 7 | invullen | '데이' | '데이' | '데이' | '11月19日是D-day' | '19 nov. is D-day' | OK | REC-OK
+108 | 7 | meerkeuze | 'A' | 'A' | 'A' | 'D-1就是明天考试' | 'D-1 betekent dat het examen morgen is' | OK | REC-OK
+109 | 7 | invullen | '기준' | '기준' | '기준' | '日期不同因标准不同（3版）' | 'De data verschillen omdat de criteria verschillen (pagina 3)' | OK | REC-OK
+110 | 7 | meerkeuze | 'A' | 'A' | 'A' | '气象厅观测标准约80%' | 'De weerdienst neemt ongeveer 80% waar' | OK | REC-OK
+111 | 7 | invullen | '결과' | '결과' | '결과' | '结果要等比赛结束' | 'Uitslagen komen pas na de wedstrijden' | OK | REC-OK
+112 | 7 | meerkeuze | 'B' | 'B' | 'B' | '发布和结果要区分' | 'Onderscheid aankondigingen en uitslagen' | OK | REC-OK
+113 | 8 | gatentekst | 'A' | 'A' | 'A' | '泡菜日是11月22日周日' | 'Kimchidag is zondag 22 nov.' | OK | REC-OK
+114 | 8 | gatentekst | 'A' | 'A' | 'A' | '高考在11月19日周四' | 'De CSAT is op donderdag 19 nov.' | OK | REC-OK
+115 | 8 | gatentekst | 'A' | 'A' | 'A' | '韩史考试在11月28日周六' | 'Het examen geschiedenis is zaterdag 28 nov.' | OK | REC-OK
+116 | 8 | gatentekst | 'A' | 'A' | 'A' | '泡菜节在11月20日周五' | 'Het WiKim-festival is vrijdag 20 nov.' | OK | REC-OK
+117 | 8 | gatentekst | 'A' | 'A' | 'A' | '三星4胜1负夺冠' | 'Samsung won de titel met 4-1' | OK | REC-OK
+118 | 8 | gatentekst | 'A' | 'A' | 'A' | '四口之家泡菜成本199,456韩元' | 'Kimjang voor vier: 199.456 won' | OK | REC-OK
+119 | 8 | gatentekst | 'A' | 'A' | 'A' | '白菜20棵54,980韩元' | '20 koolkoppen: 54.980 won' | OK | REC-OK
+120 | 8 | gatentekst | 'A' | 'A' | 'A' | '今年考生551,864人' | 'Kandidaten dit jaar: 551.864' | OK | REC-OK
+121 | 8 | meerkeuze | 'A' | 'A' | 'A' | '今年考生551,864人' | 'Kandidaten dit jaar: 551.864' | OK | REC-OK
+122 | 8 | meerkeuze | 'B' | 'B' | 'B' | '考场全国1,312处' | 'Examenlocaties in het hele land: 1.312' | OK | REC-OK
+123 | 8 | meerkeuze | 'A' | 'A' | 'A' | '内藏山林业厅预报峰值11月4日' | 'Naejangsan: Bosdienst voorspelt piek op 4 nov.' | OK | REC-OK
+124 | 8 | meerkeuze | 'B' | 'B' | 'B' | '内藏山Weatheri预报峰值11月11日' | 'Naejangsan: Weatheri voorspelt piek op 11 nov.' | OK | REC-OK
+125 | 8 | meerkeuze | 'B' | 'B' | 'B' | '杜鹃山林业厅预报峰值11月11日' | 'Duryunsan: Bosdienst voorspelt piek op 11 nov.' | OK | REC-OK
+126 | 8 | meerkeuze | 'A' | 'A' | 'A' | '第1场kt以8比7获胜' | 'Wedstrijd 1: kt won met 8-7' | OK | REC-OK
+127 | 8 | meerkeuze | 'A' | 'A' | 'A' | '取消名额报名11月11日至13日' | 'Inschrijving vrije plaatsen: 11-13 nov.' | OK | REC-OK
+128 | 8 | meerkeuze | 'B' | 'B' | 'B' | '山火注意期到12月15日' | 'De periode van brandpreventie eindigt op 15 dec.' | OK | REC-OK
+129 | 8 | meerkeuze | 'B' | 'B' | 'B' | '民俊周三去预备召集' | 'Minjun gaat woensdag naar de voorbereidende bijeenkomst' | OK | REC-OK
+130 | 8 | meerkeuze | 'A' | 'A' | 'A' | '周四参加高考' | 'Hij doet donderdag de CSAT' | OK | REC-OK
+131 | 8 | meerkeuze | 'B' | 'B' | 'B' | '周日和家人分享泡菜' | 'Hij deelt zondag kimchi met zijn familie' | OK | REC-OK
+132 | 8 | meerkeuze | 'C' | 'C' | 'C' | '下周准备韩史考试' | 'Volgende week bereidt hij zich voor op het examen geschiedenis' | OK | REC-OK
+133 | 8 | zinnen bouwen | '저는 수요일에 예비소집에 가요.' | '저는 수요일에 예비소집에 가요.' | '저는 수요일에 예비소집에 가요.' | '语序：主语+时间+地点+动词' | 'Woordvolgorde: onderwerp + tijd + plaats + werkwoord' | OK | REC-OK
+134 | 8 | zinnen bouwen | '우리는 김치를 나눠 먹어요.' | '우리는 김치를 나눠 먹어요.' | '우리는 김치를 나눠 먹어요.' | '主语+宾语+动词的语序' | 'Onderwerp + lijdend voorwerp + werkwoord' | OK | REC-OK
+135 | 8 | zinnen bouwen | '민준이는 한국사를 좋아해요.' | '민준이는 한국사를 좋아해요.' | '민준이는 한국사를 좋아해요.' | '좋아하다 = 喜欢' | '좋아하다 = leuk vinden' | OK | REC-OK
+136 | 8 | zinnen bouwen | '수험생은 도서관에서 공부해요.' | '수험생은 도서관에서 공부해요.' | '수험생은 도서관에서 공부해요.' | '动作场所用「에서」' | 'Gebruik 「에서」 voor de plaats van een handeling' | OK | REC-OK
+137 | 8 | vertaling | '11月22日是泡菜日。' | '22 nov. is Kimchidag.' | '22 nov. is Kimchidag.' | '对照第2版' | 'Zie pagina 2' | KEY-REAIM(nl-expected) | REC-OK
+138 | 8 | vertaling | '三星时隔12年夺冠。' | 'Samsung won de titel na 12 jaar.' | 'Samsung won de titel na 12 jaar.' | '对照第4版' | 'Zie pagina 4' | KEY-REAIM(nl-expected) | REC-OK
+139 | 8 | vertaling | '11월 18일은 예비소집이에요.' | '11월 18일은 예비소집이에요.' | '11월 18일은 예비소집이에요.' | '对照第5版' | 'Zie pagina 5' | OK | REC-OK
+140 | 8 | vertaling | '일요일에는 가족과 김치를 나눠 먹어요.' | '일요일에는 가족과 김치를 나눠 먹어요.' | '일요일에는 가족과 김치를 나눠 먹어요.' | '对照第8版C区' | 'Zie deel C op pagina 8' | OK | REC-OK
+141 | 8 | combineren | 'b' | 'b' | 'b' | '예비소집=预备召集 b' | '예비소집 = voorbereidende bijeenkomst b' | OK | REC-OK
+142 | 8 | combineren | 'c' | 'c' | 'c' | '김치의 날=11月22日 c' | '김치의 날 = 22 nov. c' | OK | REC-OK
+143 | 8 | combineren | 'a' | 'a' | 'a' | '발효=发酵过程 a' | '발효 = het fermentatieproces a' | OK | REC-OK
+144 | 8 | combineren | 'd' | 'd' | 'd' | '우승=夺冠 d' | '우승 = kampioenschap d' | OK | REC-OK
+145 | 8 | gatentekst | 'A' | 'A' | 'A' | '周三去预备召集' | 'Hij gaat woensdag naar de voorbereidende bijeenkomst' | OK | REC-OK
+146 | 8 | gatentekst | 'A' | 'A' | 'A' | '泡菜日是11月22日' | 'Kimchidag is op 22 nov.' | OK | REC-OK
+147 | 8 | gatentekst | 'A' | 'A' | 'A' | '韩史考试在11月28日' | 'Het examen geschiedenis is op 28 nov.' | OK | REC-OK
+148 | 8 | gatentekst | 'A' | 'A' | 'A' | '四口之家泡菜成本199,456韩元' | 'Kimjang voor vier: 199.456 won' | OK | REC-OK
+149 | 8 | gatentekst | 'A' | 'A' | 'A' | '成绩12月11日公布' | 'De uitslag komt op 11 dec.' | OK | REC-OK
+150 | 8 | schrijven | '(开放题，范文如下)' | '(open opdracht — modeltekst hieronder)' | '✓' | '范文见本版 H 区（169字）' | 'Modeltekst in deel H op deze pagina (169 tekens)' | KEY-STEM-TRANSLATED(expected);SVG-150-checkmark | REC-OK
+three-source key verdicts: BAD 0 / 150 (excluding adjudicated 137/138 re-aim + 150 checkmark)
+record cross-check: BAD 0 / 150

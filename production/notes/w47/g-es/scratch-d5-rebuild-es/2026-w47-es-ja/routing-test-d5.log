@@ -1,0 +1,70 @@
+PASS serif Latin -> news
+PASS serif CJK -> serif
+PASS serif e-acute -> news
+PASS fix2 '“' sans -> news [latin]
+PASS fix2 '“' sans bold -> news [latin]
+PASS fix2 '”' sans -> news [latin]
+PASS fix2 '”' sans bold -> news [latin]
+PASS fix2 '’' sans -> news [latin]
+PASS fix2 '’' sans bold -> news [latin]
+PASS fix2 '“' sans -> news [ru]
+PASS fix2 '“' sans bold -> news [ru]
+PASS fix2 '”' sans -> news [ru]
+PASS fix2 '”' sans bold -> news [ru]
+PASS fix2 '’' sans -> news [ru]
+PASS fix2 '’' sans bold -> news [ru]
+PASS fix2 '“' sans -> news [cjk]
+PASS fix2 '“' sans bold -> news [cjk]
+PASS fix2 '”' sans -> news [cjk]
+PASS fix2 '”' sans bold -> news [cjk]
+PASS fix2 '’' sans -> news [cjk]
+PASS fix2 '’' sans bold -> news [cjk]
+PASS latin sans italic Cyrillic -> sans_noto_i
+PASS latin sans italic Latin -> news (upright-ish, no sans news_i path)
+PASS latin sans 'A' bold=False -> news
+PASS latin sans 'z' bold=False -> news
+PASS latin sans '7' bold=False -> news
+PASS latin sans ' ' bold=False -> news
+PASS latin sans ',' bold=False -> news
+PASS latin sans '—' bold=False -> news
+PASS latin sans 'é' bold=False -> news
+PASS latin sans 'Ç' bold=True -> news
+PASS latin sans 'Ж' bold=False -> sans_noto
+PASS latin sans 'ж' bold=True -> sans_noto
+PASS latin sans '中' bold=False -> sans
+PASS latin sans '。' bold=False -> sans
+PASS latin sans '→' bold=False -> sans
+PASS latin sans 'Ａ' bold=False -> sans
+PASS cjk sans 'A' bold=False -> news
+PASS cjk sans 'z' bold=False -> news
+PASS cjk sans '7' bold=False -> news
+PASS cjk sans ' ' bold=False -> news
+PASS cjk sans ',' bold=False -> news
+PASS cjk sans '—' bold=False -> news
+PASS cjk sans 'é' bold=False -> news
+PASS cjk sans 'Ç' bold=True -> news
+PASS cjk sans 'Ж' bold=False -> sans_noto
+PASS cjk sans 'ж' bold=True -> sans_noto
+PASS cjk sans '中' bold=False -> sans
+PASS cjk sans '。' bold=False -> sans
+PASS cjk sans '→' bold=False -> sans
+PASS cjk sans 'Ａ' bold=False -> sans
+PASS ru sans 'A' bold=False -> sans_noto
+PASS ru sans 'z' bold=True -> sans_noto
+PASS ru sans '7' bold=False -> sans_noto
+PASS ru sans ' ' bold=False -> sans_noto
+PASS ru sans 'Ж' bold=False -> sans_noto
+PASS ru sans 'ж' bold=True -> sans_noto
+PASS ru sans '中' bold=False -> sans
+PASS ru sans '。' bold=False -> sans
+PASS ru sans '→' bold=False -> sans
+PASS ru sans italic Cyrillic -> sans_noto_i
+PASS ru sans italic Latin -> sans_noto (upright)
+PASS _pil resolved all _PATH rows (no KeyError)
+runs latin: [('Vote now! ', 'news'), ('投票吧。', 'sans')]
+PASS latin mixed runs news+sans
+PASS text_w mixed > 0
+runs ru: [('Голосуйте now!', 'sans_noto')]
+PASS ru mixed runs single sans_noto
+
+FAILURES: 0

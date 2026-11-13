@@ -1,0 +1,54 @@
+cream rects: 32  boxes with title: 32  empty: 0
+page           box_y box_right ink_right   clear  title
+p1-pervaya    1203.7     961.0     872.6    88.4  ТУР | В | ЦИФРАХ | 　IN CIJFERS
+p1-pervaya     588.0    1862.0    1657.2   204.8  О | ЧЁМ | ПИШУТ
+p1-pervaya    1296.0    1862.0    1782.7    79.3  В | ЭТОМ | НОМЕРЕ | 　INHOUD
+p1-pervaya    1874.0    1862.0    1667.7   194.3  КОРОТКО | 　KORT
+p2-zhizn       343.4     961.0     884.2    76.8  Uitleg —  | поздравить | feliciteren ·
+p2-zhizn       948.4     961.0     904.7    56.3  Uitleg —  | успехов | succes ·  | желание
+p2-zhizn       200.0    1862.0    1724.6   137.4  ПРАЗДНИКИ | НЕДЕЛИ
+p2-zhizn       795.0    1862.0    1626.2   235.8  А | ВЫ | ?　EN U?
+p2-zhizn      1618.0     510.5     277.0   233.5  оттепель
+p2-zhizn      1618.0     961.0     796.7   164.3  мокрый | снег
+p2-zhizn      1618.0    1411.5    1287.0   124.5  ледяной | дождь
+p2-zhizn      1618.0    1862.0    1675.5   186.5  гололедица
+p3-kultura     200.0     961.0     840.2   120.8  Uitleg —  | биография | biopic ·
+p3-kultura     914.4     961.0     897.5    63.5  Uitleg —  | экранизация | verfilming ·
+p3-kultura     200.0    1862.0    1726.4   135.6  ГЛАВНОЕ | —  | КОРОТКО
+p3-kultura     760.0    1862.0    1730.3   131.7  КАК | ПРОВЕСТИ | ВЕЧЕР
+p4-sport       742.2     961.0     930.4    30.6  Uitleg —  | сравняли | счёт | gelijkmaken ·
+p4-sport       615.2    1862.0    1665.2   196.8  ТАБЛИЦА | :  | ТОП | -5
+p5-molodezh    416.4     961.0     821.1   139.9  Uitleg —  | календарная | дата
+p5-molodezh   1130.8     961.0     920.0    41.0  Uitleg —  | в | прошлом | году | vorig jaar ·
+p5-molodezh    647.2    1862.0    1767.5    94.5  ЧЁРНАЯ | ПЯТНИЦА | :  | ДАТЫ
+p6-razbor      669.3     961.0     942.1    18.9  Uitleg —  | задают | ритм | bepalen het ritme
+p6-razbor      200.0    1862.0    1741.5   120.5  НЕДЕЛЯ | 16–22  | НОЯБРЯ
+p6-razbor      663.5    1862.0    1840.7    21.3  ЗА | И | ПРОТИВ | 　VOOR EN TEGEN
+p6-razbor     1343.4     339.6     233.8   105.8  16
+p6-razbor     1343.4     592.6     486.9   105.8  17
+p6-razbor     1343.4     845.6     739.9   105.8  18
+p6-razbor     1343.4    1098.6     992.9   105.7  19
+p6-razbor     1343.4    1351.6    1245.8   105.8  20
+p7-yazyk       200.0    1862.0    1781.1    80.9  ОШИБКИ | 　FOUTENKLINIEK
+p7-yazyk       992.2    1862.0    1814.2    47.8  СЛОВО | 　WOORD VAN DE WEEK
+p7-yazyk      1226.7    1862.0    1707.0   155.0  ПИСЬМА | ЧИТАТЕЛЕЙ
+
+TIGHT inside lines (clear < 10px):
+
+ABOVE-BOX headers:
+  p1-pervaya box#0 box_y=1203.7 [(1165.0, 'voor het eerst in de geschiedenis.')]
+  p1-pervaya box#1 box_y=588.0 [(568.0, 'Speelronde 15 op 20 november\u3000zie pagina 4')]
+  p1-pervaya box#2 box_y=1296.0 [(1252.0, 'Uit Russische media, november 2026')]
+  p1-pervaya box#3 box_y=1874.0 [(1844.3, 'чёрная'), (1844.3, 'пятница'), (1844.3, '= Black Friday (uitverkoop).')]
+  p2-zhizn box#4 box_y=1618.0 [(1594.0, 'СЛОВА'), (1594.0, 'НЕДЕЛИ')]
+  p2-zhizn box#6 box_y=1618.0 [(1594.0, 'Четыре'), (1594.0, 'слова'), (1594.0, 'о')]
+  p2-zhizn box#7 box_y=1618.0 [(1594.0, '\u3000Vier woorden over het novemberweer')]
+  p3-kultura box#2 box_y=200.0 [(168.0, 'премьер'), (168.0, '\u3000Vijf premières op 19 november')]
+  p4-sport box#1 box_y=615.2 [(573.1, 'достояние'), (573.1, '(Wikimedia Commons)')]
+  p5-molodezh box#2 box_y=647.2 [(603.1, 'достояние'), (603.1, '(Wikimedia Commons)')]
+  p6-razbor box#3 box_y=1343.4 [(1326.0, 'ДЕНЬ'), (1326.0, 'ЗА')]
+  p7-yazyk box#0 box_y=200.0 [(168.0, ', '), (168.0, 'три'), (168.0, 'темы'), (168.0, '\u3000Drie niveaus, drie thema’s')]
+  p7-yazyk box#2 box_y=1226.7 [(1202.8, 'распродажа'), (1202.8, '= grote uitverkoop.')]
+
+NEGATIVE title clears: 0
+min title clear: 18.9

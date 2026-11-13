@@ -1,0 +1,24 @@
+removed distinct: 451 count-sum: 850 added distinct: 298
+removed distinct per-page sum: 484 (fix1's counting)  added distinct per-page sum: 324
+added CJK total: {'\u3000': 8}
+Cyrillic-bearing removed strings: 15
+  P8 'Билибин' x1
+  P8 'Билибина' x1
+  P8 'Зимняя' x1
+  P8 'Иван' x1
+  P8 'Ивана' x1
+  P8 'Иллюстрация' x1
+  P8 'Морозко' x1
+  P8 'год' x1
+  P8 'достояние' x1
+  P8 'иллюстрация' x1
+  P8 'к' x1
+  P8 'можно' x1
+  P8 'ноябрю' x1
+  P8 'общественное' x1
+  P8 'сказка' x1
+added Cyrillic-bearing strings: 0
+P6 added string with short title present: True
+P6 removed string with long title present: False
+P6 added 'FOR & AGAINST' runs: ['\u3000FOR & AGAINST']
+P6 removed 'FOR AND AGAINST' runs: []

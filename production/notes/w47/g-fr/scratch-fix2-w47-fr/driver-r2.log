@@ -1,0 +1,172 @@
+===== 2026-w47-fr-ja r2 18:04:26 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ja/logs-r2/)
+=== SUMMARY 2026-w47-fr-ja/r2 FAILFLAG=0 (rcs above; 0=pass) ===
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+dryrun export rc=0
+dryrun text.md diff lines: 8
+893c893
+< *文法 | en beauté：美しく締めくくる。*
+---
+> *文法 | se terminer en beauté：美しく締めくくる。*
+1079c1079
+< 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（en beauté = 美しく締めくくる）　101. produit（celui que = 関係代名詞）　102. sortent（sortir = 公開される）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 3つの時間）　105. Alcaraz a battu Shelton.（過去分詞：battu）　106. Le Sénat vote mercredi.（一致：Sénat 単数 → vote）　107. Il est prévu que le Sénat examine le texte.（接続法：examine、s なし）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）
+---
+> 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（se terminer en beauté = 美しく締めくくる）　101. produit（celui que = 関係代名詞）　102. sortent（sortir = 公開される）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 3つの時間）　105. Alcaraz a battu Shelton.（過去分詞：battu）　106. Le Sénat vote mercredi.（一致：Sénat 単数 → vote）　107. Il est prévu que le Sénat examine le texte.（接続法：examine、s なし）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）
+real export rc=0
+real text.md diff lines: 8
+893c893
+< *文法 | en beauté：美しく締めくくる。*
+---
+> *文法 | se terminer en beauté：美しく締めくくる。*
+1079c1079
+< 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（en beauté = 美しく締めくくる）　101. produit（celui que = 関係代名詞）　102. sortent（sortir = 公開される）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 3つの時間）　105. Alcaraz a battu Shelton.（過去分詞：battu）　106. Le Sénat vote mercredi.（一致：Sénat 単数 → vote）　107. Il est prévu que le Sénat examine le texte.（接続法：examine、s なし）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）
+---
+> 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（se terminer en beauté = 美しく締めくくる）　101. produit（celui que = 関係代名詞）　102. sortent（sortir = 公開される）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 3つの時間）　105. Alcaraz a battu Shelton.（過去分詞：battu）　106. Le Sénat vote mercredi.（一致：Sénat 単数 → vote）　107. Il est prévu que le Sénat examine le texte.（接続法：examine、s なし）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（事実：ヌーヴォーは19日、20日ではない）
+dryrun==real text.md
+--- post shas 2026-w47-fr-ja ---
+-rw-rw---- 1 root nogroup    47548 Nov 12 18:09 2026-w47-fr-ja.text.md
+-rw-rw---- 1 root nogroup  2019995 Nov 12 18:07 La-Lucerna-VOL4-fr-ja-web.pdf
+-rw-rw---- 1 root nogroup 20149490 Nov 12 18:06 La-Lucerna-VOL4-fr-ja.pdf
+f3f9d526f158111e90611ecec90592b047451bcc5202a802b6a24a821107f44a  La-Lucerna
+a1951960b852759375f1c94bc30177869c034a63b0ad154a7c5914ce4fd7436f  La-Lucerna
+d243033462d46cdda5c87128fba36a70b9f0903b10057c90222faa1f18636683  2026-w47-f
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+===== 2026-w47-fr-ko r2 18:09:44 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ko/logs-r2/)
+=== SUMMARY 2026-w47-fr-ko/r2 FAILFLAG=0 (rcs above; 0=pass) ===
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+dryrun export rc=0
+dryrun text.md diff lines: 8
+893c893
+< *문법 | en beauté: 아름답게 마무리하다.*
+---
+> *문법 | se terminer en beauté: 아름답게 마무리하다.*
+1079c1079
+< 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（en beauté = 아름답게 마무리하다）　101. produit（celui que = 관계대명사）　102. sortent（sortir = 개봉하다）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 세 가지 시간）　105. Alcaraz a battu Shelton.（과거분사: battu）　106. Le Sénat vote mercredi.（일치: Sénat 단수 → vote）　107. Il est prévu que le Sénat examine le texte.（접속법: examine, s 없음）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（사실: 누보는 19일, 20일이 아니다）
+---
+> 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（se terminer en beauté = 아름답게 마무리하다）　101. produit（celui que = 관계대명사）　102. sortent（sortir = 개봉하다）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 세 가지 시간）　105. Alcaraz a battu Shelton.（과거분사: battu）　106. Le Sénat vote mercredi.（일치: Sénat 단수 → vote）　107. Il est prévu que le Sénat examine le texte.（접속법: examine, s 없음）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（사실: 누보는 19일, 20일이 아니다）
+real export rc=0
+real text.md diff lines: 8
+893c893
+< *문법 | en beauté: 아름답게 마무리하다.*
+---
+> *문법 | se terminer en beauté: 아름답게 마무리하다.*
+1079c1079
+< 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（en beauté = 아름답게 마무리하다）　101. produit（celui que = 관계대명사）　102. sortent（sortir = 개봉하다）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 세 가지 시간）　105. Alcaraz a battu Shelton.（과거분사: battu）　106. Le Sénat vote mercredi.（일치: Sénat 단수 → vote）　107. Il est prévu que le Sénat examine le texte.（접속법: examine, s 없음）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（사실: 누보는 19일, 20일이 아니다）
+---
+> 97. battu（battre → battu）　98. est arrivé　99. vote　100. beauté（se terminer en beauté = 아름답게 마무리하다）　101. produit（celui que = 관계대명사）　102. sortent（sortir = 개봉하다）　103. rejetée（rejeter → rejetée）　104. jouer（trois temps = 세 가지 시간）　105. Alcaraz a battu Shelton.（과거분사: battu）　106. Le Sénat vote mercredi.（일치: Sénat 단수 → vote）　107. Il est prévu que le Sénat examine le texte.（접속법: examine, s 없음）　108. Le beaujolais nouveau arrive jeudi 19 novembre.（사실: 누보는 19일, 20일이 아니다）
+dryrun==real text.md
+--- post shas 2026-w47-fr-ko ---
+-rw-rw---- 1 root nogroup    47356 Nov 12 18:18 2026-w47-fr-ko.text.md
+-rw-rw---- 1 root nogroup  1923242 Nov 12 18:14 La-Lucerna-VOL4-fr-ko-web.pdf
+-rw-rw---- 1 root nogroup 20086280 Nov 12 18:12 La-Lucerna-VOL4-fr-ko.pdf
+acb99672c2468b2649bf0bfc8bd303c18cf4712a3477a8259231b3cec4e50cc3  La-Lucerna
+f7341f1a0a4f5781d2a5b4ae295678fdced3de2b51cb70294eda539bfb0c7e4b  La-Lucerna
+4929e183f280c71951d30f84e4234aa3ee28c4345720406039a22534e8cc4b8a  2026-w47-f
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+===== 2026-w47-fr-nl r2 18:18:36 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-nl/logs-r2/)
+=== SUMMARY 2026-w47-fr-nl/r2 FAILFLAG=0 (rcs above; 0=pass) ===
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 1
+dryrun export rc=0
+dryrun text.md diff lines: 12
+465c465
+< > Uitleg — un vainqueur winnaar　le tenant du titre titelverdediger　un tirage au sort loting　valider bevestigen　la trêve pauze　une journée speeldag.
+---
+> > Uitleg — un vainqueur een winnaar　le tenant du titre titelverdediger　un tirage au sort loting　valider bevestigen　la trêve pauze　une journée speeldag.
+893c893
+< *Grammatica | en beauté: mooi eindigen.*
+---
+> *Grammatica | se terminer en beauté: mooi eindigen.*
+1079c1079
+< 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (en beauté = mooi eindigen)　101. produit (celui que = relatief vnw.)　102. sortent (sortir = uitkomen)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = drie tijden)　105. Alcaraz a battu Shelton. (Verleden deelwoord: battu)　106. Le Sénat vote mercredi. (Sénat enkelvoud → vote)　107. Il est prévu que le Sénat examine le texte. (Aanvoegende wijs: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Feit: Nouveau op 19, niet 20)
+---
+> 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (se terminer en beauté = mooi eindigen)　101. produit (celui que = relatief vnw.)　102. sortent (sortir = uitkomen)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = drie tijden)　105. Alcaraz a battu Shelton. (Verleden deelwoord: battu)　106. Le Sénat vote mercredi. (Sénat enkelvoud → vote)　107. Il est prévu que le Sénat examine le texte. (Aanvoegende wijs: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Feit: Nouveau op 19, niet 20)
+real export rc=0
+real text.md diff lines: 12
+465c465
+< > Uitleg — un vainqueur winnaar　le tenant du titre titelverdediger　un tirage au sort loting　valider bevestigen　la trêve pauze　une journée speeldag.
+---
+> > Uitleg — un vainqueur een winnaar　le tenant du titre titelverdediger　un tirage au sort loting　valider bevestigen　la trêve pauze　une journée speeldag.
+893c893
+< *Grammatica | en beauté: mooi eindigen.*
+---
+> *Grammatica | se terminer en beauté: mooi eindigen.*
+1079c1079
+< 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (en beauté = mooi eindigen)　101. produit (celui que = relatief vnw.)　102. sortent (sortir = uitkomen)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = drie tijden)　105. Alcaraz a battu Shelton. (Verleden deelwoord: battu)　106. Le Sénat vote mercredi. (Sénat enkelvoud → vote)　107. Il est prévu que le Sénat examine le texte. (Aanvoegende wijs: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Feit: Nouveau op 19, niet 20)
+---
+> 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (se terminer en beauté = mooi eindigen)　101. produit (celui que = relatief vnw.)　102. sortent (sortir = uitkomen)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = drie tijden)　105. Alcaraz a battu Shelton. (Verleden deelwoord: battu)　106. Le Sénat vote mercredi. (Sénat enkelvoud → vote)　107. Il est prévu que le Sénat examine le texte. (Aanvoegende wijs: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Feit: Nouveau op 19, niet 20)
+dryrun==real text.md
+--- post shas 2026-w47-fr-nl ---
+-rw-rw---- 1 root nogroup    46309 Nov 12 18:25 2026-w47-fr-nl.text.md
+-rw-rw---- 1 root nogroup  1621462 Nov 12 18:22 La-Lucerna-VOL4-fr-nl-web.pdf
+-rw-rw---- 1 root nogroup 17030093 Nov 12 18:21 La-Lucerna-VOL4-fr-nl.pdf
+c7e99156a889019993fe6fc66b74e000e7232c7d5408be3a5cf4e79152cdb212  La-Lucerna
+d846793366f5faf26da2faf9bc848b7adc8aa4fee73086d28060a319107957a4  La-Lucerna
+a5f5c7ebbfc80d6351bed6fc8738222ea6a05777a111ae64b62d3a859be52820  2026-w47-f
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+===== 2026-w47-fr-ru r2 18:25:25 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ru/logs-r2/)
+=== SUMMARY 2026-w47-fr-ru/r2 FAILFLAG=0 (rcs above; 0=pass) ===
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+dryrun export rc=0
+dryrun text.md diff lines: 8
+893c893
+< *Грамматика | en beauté: красивый финал.*
+---
+> *Грамматика | se terminer en beauté: красивый финал.*
+1079c1079
+< 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (en beauté = красиво)　101. produit (celui que = относит. мест.)　102. sortent (sortir = выходить)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = три этапа)　105. Alcaraz a battu Shelton. (Причастие: battu)　106. Le Sénat vote mercredi. (Sénat ед. ч. → vote)　107. Il est prévu que le Sénat examine le texte. (Сослагательное: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Факт: нуво 19-го, а не 20-го)
+---
+> 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (se terminer en beauté = красиво)　101. produit (celui que = относит. мест.)　102. sortent (sortir = выходить)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = три этапа)　105. Alcaraz a battu Shelton. (Причастие: battu)　106. Le Sénat vote mercredi. (Sénat ед. ч. → vote)　107. Il est prévu que le Sénat examine le texte. (Сослагательное: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Факт: нуво 19-го, а не 20-го)
+real export rc=0
+real text.md diff lines: 8
+893c893
+< *Грамматика | en beauté: красивый финал.*
+---
+> *Грамматика | se terminer en beauté: красивый финал.*
+1079c1079
+< 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (en beauté = красиво)　101. produit (celui que = относит. мест.)　102. sortent (sortir = выходить)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = три этапа)　105. Alcaraz a battu Shelton. (Причастие: battu)　106. Le Sénat vote mercredi. (Sénat ед. ч. → vote)　107. Il est prévu que le Sénat examine le texte. (Сослагательное: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Факт: нуво 19-го, а не 20-го)
+---
+> 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (se terminer en beauté = красиво)　101. produit (celui que = относит. мест.)　102. sortent (sortir = выходить)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = три этапа)　105. Alcaraz a battu Shelton. (Причастие: battu)　106. Le Sénat vote mercredi. (Sénat ед. ч. → vote)　107. Il est prévu que le Sénat examine le texte. (Сослагательное: examine)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Факт: нуво 19-го, а не 20-го)
+dryrun==real text.md
+--- post shas 2026-w47-fr-ru ---
+-rw-rw---- 1 root nogroup    50537 Nov 12 18:32 2026-w47-fr-ru.text.md
+-rw-rw---- 1 root nogroup  1882380 Nov 12 18:29 La-Lucerna-VOL4-fr-ru-web.pdf
+-rw-rw---- 1 root nogroup 17332158 Nov 12 18:27 La-Lucerna-VOL4-fr-ru.pdf
+387991e607272a4b546f6e3ff2c855dcce004ba5e67d41aaf0127cf45b4d0192  La-Lucerna
+5fdfbf439848981d842ce9d4a73e2aaadfc35df6404fdaefade393dd42e65aeb  La-Lucerna
+1985e95d9be2482a94b0ef2b58f14640f8f82ed8ede3c091a9e274830140fa6a  2026-w47-f
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+===== 2026-w47-fr-zh-tw r2 18:32:00 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-zh-tw/logs-r2/)
+=== SUMMARY 2026-w47-fr-zh-tw/r2 FAILFLAG=0 (rcs above; 0=pass) ===
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+dryrun export rc=0
+dryrun text.md diff lines: 4
+1075c1075
+< 79. B（10月23日：115–1否決）　80. B（11月4日458–0否決）　81. B（表決在18日）　82. B（預算20日起審議）　83. C（正式表決12月9日）　84. B（50天，至26日）　85. a　86. b　87. c（vote = 表決　c）　88. d　89. plus long（參議院辯論更長）　90. moins simple（預算更複雜）　91. aussi important（同樣重要）　92. examine（參議院審議預算）　93. ont rejeté（眾議員否決收入部分）　94. part（法案送交參議院）　95. peut（行事曆可能變動）　96. connus（結果尚未公布）
+---
+> 79. B（10月23日：115–1否決）　80. B（11月4日458–0否決）　81. B（表決在18日）　82. B（預算20日起審議）　83. C（正式表決12月9日）　84. B（50天，至26日）　85. a　86. b　87. c（vote = 表決　c）　88. d　89. plus long（參議院辯論更長）　90. moins simple（預算更複雜）　91. aussi important（同樣重要）　92. examine（參議院審議預算）　93. ont rejeté（議員否決收入部分）　94. part（法案送交參議院）　95. peut（行事曆可能變動）　96. connus（結果尚未公布）
+real export rc=0
+real text.md diff lines: 4
+1075c1075
+< 79. B（10月23日：115–1否決）　80. B（11月4日458–0否決）　81. B（表決在18日）　82. B（預算20日起審議）　83. C（正式表決12月9日）　84. B（50天，至26日）　85. a　86. b　87. c（vote = 表決　c）　88. d　89. plus long（參議院辯論更長）　90. moins simple（預算更複雜）　91. aussi important（同樣重要）　92. examine（參議院審議預算）　93. ont rejeté（眾議員否決收入部分）　94. part（法案送交參議院）　95. peut（行事曆可能變動）　96. connus（結果尚未公布）
+---
+> 79. B（10月23日：115–1否決）　80. B（11月4日458–0否決）　81. B（表決在18日）　82. B（預算20日起審議）　83. C（正式表決12月9日）　84. B（50天，至26日）　85. a　86. b　87. c（vote = 表決　c）　88. d　89. plus long（參議院辯論更長）　90. moins simple（預算更複雜）　91. aussi important（同樣重要）　92. examine（參議院審議預算）　93. ont rejeté（議員否決收入部分）　94. part（法案送交參議院）　95. peut（行事曆可能變動）　96. connus（結果尚未公布）
+dryrun==real text.md
+--- post shas 2026-w47-fr-zh-tw ---
+-rw-rw---- 1 root nogroup    46008 Nov 12 18:40 2026-w47-fr-zh-tw.text.md
+-rw-rw---- 1 root nogroup  2075855 Nov 12 18:36 La-Lucerna-VOL4-fr-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup 18532749 Nov 12 18:34 La-Lucerna-VOL4-fr-zh-tw.pdf
+e6ef33ce2f62f085001da0320fb5e0684d1d5aff22b735c3521da959517c23e1  La-Lucerna
+0d6b19e48c6908be32dd08555254073afe62fe66b0d6f42a554f8d5255bdc1fe  La-Lucerna
+3dc051e14be04dd404c2f3af0d227e22eef7b7212e608ed1e775ac9dbd5b92fd  2026-w47-f
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+ALL R2 DONE 18:40:25
+DRIVER EXIT rc=0

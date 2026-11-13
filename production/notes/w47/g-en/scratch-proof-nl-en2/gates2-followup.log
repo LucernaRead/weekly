@@ -1,0 +1,10 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P1 n: 798 798
+multiset diff: [] []
+DIFF print (81.25, 394.0, 'De') web (81.25, 393.79, 'De')
+DIFF print (81.25, 609.51, 'Lucerna') web (81.25, 609.29, 'Lucerna')
+print (1131.0390625, 1368.118408203125, 1165.7947998046875, 1388.75244140625, 'win":', 80, 0, 1)
+web (1131.0390625, 1368.118408203125, 1165.7947998046875, 1388.75244140625, 'win":', 80, 0, 1)
+print whitespace tokens p1: 798
+web whitespace tokens p1: 798

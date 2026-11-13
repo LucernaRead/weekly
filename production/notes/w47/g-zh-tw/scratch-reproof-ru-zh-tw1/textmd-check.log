@@ -1,0 +1,26 @@
+edition lines: 838 core lines: 838
+exercise stems: 66 numbers contiguous 1-150: False
+by level: Counter({'A2': 46, 'B2': 20})
+by type: Counter({'完成句子': 30, '單選': 27, '造句': 5, '句型轉換': 2, '翻譯': 2})
+stems missing key: []
+answer lines: 0 numbers contiguous 1-150: False
+stem-vs-answer key mismatches: [] count: 0
+p8extract-vs-answers mismatches: [] count: 0
+non-CJK diff opcodes core->edition: 8
+  replace core: ['# VOL.4 · Russian text · Simplified Chinese explanations'] | ed: ['# VOL.4 · Russian text · Traditional Chinese explanations']
+  replace core: ['*讲解｜зона вылета 降级区 · на момент сдачи 截至交稿时 · в истории 有史以来第一次。*'] | ed: ['*зона вылета 降級區 · на момент сдачи 截至交稿時 · в истории 有史以來第一次。*']
+  replace core: ['46. [B1 · 造句] вечером / можно / посмотреть фильм в кино → ___ — key: Вечером можно посмотреть фильм в кино. (можно + 不定式) [造句]'] | ed: ['46. [B1 · 造句] вечером / можно / посмотреть фильм в кино → ___ — key: Вечером можно посмотреть фильм в кино. (可以 + 不定式) [造句]']
+  replace core: ['*синоптики обещают 据气象学家预报；по данным 据……数据；может быть 可能。*'] | ed: ['*синоптики обещают 氣象學家預報；по данным 官方數據；может быть 可能。*']
+  replace core: ['*写作题（无唯一答案）；范文（97词）见下。*'] | ed: ['*寫作題（無唯一答案）；範文（97 詞）見下。*']
+  replace core: ['150. [B1 · 写作] «Моя неделя 16–22 ноября» Напишите 80–100 слов: что вы будете делать каждый день недели? — key: （开放题，范文如下） (范文见本版 H 区（97词）) [写作]'] | ed: ['150. [B1 · 寫作] «Моя неделя 16–22 ноября» Напишите 80–100 слов: что вы будете делать каждый день недели? — key: （開放題，範文如下） (範文見本版 H 區（97 詞）) [寫作]']
+  replace core: ['46. Вечером можно посмотреть фильм в кино. — можно + 不定式'] | ed: ['46. Вечером можно посмотреть фильм в кино. — 可以 + 不定式']
+  replace core: ['150. ✓ 范文见本版 H 区（97词）'] | ed: ['150. （開放題，範文如下） — 範文見本版 H 區（97 詞）']
+simplified-candidate chars found: {}
+干 count: 1 塔什干 count: 1
+char '“' in text.md: 2
+char '”' in text.md: 2
+char '‘' in text.md: 0
+char '’' in text.md: 0
+char '«' in text.md: 164
+char '»' in text.md: 164
+ABSTRACT bytes: 348 chars: 140 has 150: True

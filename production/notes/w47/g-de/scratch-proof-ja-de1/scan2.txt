@@ -1,0 +1,40 @@
+== Antworten/Übungen in SVGs ==
+svg/p1-hyoushi.svg Antworten= 1 Übungen= 0 Übung= 0 Erklärungen= 1
+svg/p2-kurashi.svg Antworten= 1 Übungen= 1 Übung= 1 Erklärungen= 1
+svg/p3-bunka.svg Antworten= 1 Übungen= 1 Übung= 1 Erklärungen= 1
+svg/p4-supotsu.svg Antworten= 1 Übungen= 1 Übung= 1 Erklärungen= 1
+svg/p5-wakamono.svg Antworten= 1 Übungen= 1 Übung= 1 Erklärungen= 1
+svg/p6-fukayomi.svg Antworten= 1 Übungen= 1 Übung= 2 Erklärungen= 1
+svg/p7-kotoba.svg Antworten= 0 Übungen= 0 Übung= 0 Erklärungen= 1
+svg/p8-tesuto.svg Antworten= 2 Übungen= 1 Übung= 2 Erklärungen= 1
+== badge label texts A2/B1/B2 as >A2< etc ==
+svg/p1-hyoushi.svg A2lbl= 11 B1lbl= 2 B2lbl= 1 sum= 14
+svg/p2-kurashi.svg A2lbl= 15 B1lbl= 0 B2lbl= 0 sum= 15
+svg/p3-bunka.svg A2lbl= 7 B1lbl= 8 B2lbl= 0 sum= 15
+svg/p4-supotsu.svg A2lbl= 0 B1lbl= 18 B2lbl= 0 sum= 18
+svg/p5-wakamono.svg A2lbl= 0 B1lbl= 18 B2lbl= 0 sum= 18
+svg/p6-fukayomi.svg A2lbl= 0 B1lbl= 0 B2lbl= 18 sum= 18
+svg/p7-kotoba.svg A2lbl= 4 B1lbl= 4 B2lbl= 4 sum= 12
+svg/p8-tesuto.svg A2lbl= 9 B1lbl= 22 B2lbl= 4 sum= 35
+== P8 header lines ==
+  テストと答え　Übungen und Antworten
+  答え　Antworten — nach Seiten geordnet; einfach die Nummer suchen
+== section heads P8 ==
+== exercise-type labels per SVG ==
+svg/p1-hyoushi.svg {'Ausfüllen': 0, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 0, 'Satz bilden': 0, 'Richtig/Falsch': 0, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p2-kurashi.svg {'Ausfüllen': 9, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 1, 'Satz bilden': 0, 'Richtig/Falsch': 0, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p3-bunka.svg {'Ausfüllen': 5, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 1, 'Satz bilden': 4, 'Richtig/Falsch': 0, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p4-supotsu.svg {'Ausfüllen': 5, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 0, 'Satz bilden': 0, 'Richtig/Falsch': 4, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p5-wakamono.svg {'Ausfüllen': 9, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 0, 'Satz bilden': 0, 'Richtig/Falsch': 4, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p6-fukayomi.svg {'Ausfüllen': 10, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 0, 'Satz bilden': 0, 'Richtig/Falsch': 3, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p7-kotoba.svg {'Ausfüllen': 6, 'Auswahl': 6, 'Lückentext': 0, 'Zuordnen': 0, 'Satz bilden': 0, 'Richtig/Falsch': 0, 'Übersetzen': 0, 'Schreiben': 0, 'Wörter zuordnen': 0}
+svg/p8-tesuto.svg {'Ausfüllen': 0, 'Auswahl': 0, 'Lückentext': 0, 'Zuordnen': 1, 'Satz bilden': 4, 'Richtig/Falsch': 0, 'Übersetzen': 4, 'Schreiben': 1, 'Wörter zuordnen': 0}
+== frozen JP practice heads (should be Japanese) ==
+svg/p1-hyoushi.svg ['練習', 'テスト', '答え']
+svg/p2-kurashi.svg ['理解', '練習', '答え']
+svg/p3-bunka.svg ['理解', '練習', '答え']
+svg/p4-supotsu.svg ['理解', '練習', '答え']
+svg/p5-wakamono.svg ['理解', '練習', '答え']
+svg/p6-fukayomi.svg ['理解', '練習', '答え']
+svg/p7-kotoba.svg ['練習']
+svg/p8-tesuto.svg ['テスト', '答え']

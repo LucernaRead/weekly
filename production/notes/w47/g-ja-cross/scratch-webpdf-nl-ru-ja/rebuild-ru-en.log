@@ -1,0 +1,33 @@
+=== ru-en  2026-11-11T22:20:36+00:00 ===
+svg: production/2026-w47/2026-w47-ru-en/svg
+web: production/2026-w47/2026-w47-ru-en/Lucerna-VOL4-ru-en-web.pdf
+print: production/2026-w47/2026-w47-ru-en/Lucerna-VOL4-ru-en.pdf
+mem available before: 2632MB
+old_sha=3cd934e01db298f13cd0c492ea14904ce2d5df3860d543818a91b1a4416c1dfe old_bytes=3380903
+8 pages from production/2026-w47/2026-w47-ru-en/svg
+156 distinct chars; families: ['Newsreader', 'Noto Sans', 'Noto Sans CJK SC', 'Noto Serif', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 20952 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 20992 bytes
+  font LucernaNewsreader-Italic: 23156 bytes
+  font LucernaNotoSans-Regular: 31472 bytes
+  font LucernaNotoSans-Bold: 31648 bytes
+  font LucernaNotoSans-Italic: 36288 bytes
+  font LucernaNotoSans-BoldItalic: 36708 bytes
+  font LucernaNotoSansCJKSC-Regular: 30028 bytes
+  font LucernaNotoSansCJKSC-Bold: 30516 bytes
+  font LucernaNotoSerif-Regular: 46888 bytes
+  font LucernaNotoSerif-Bold: 46028 bytes
+  font LucernaNotoSerif-Italic: 54560 bytes
+  font LucernaNotoSerif-BoldItalic: 53532 bytes
+  font LucernaNotoSerifCJKSC-Regular: 36992 bytes
+  font LucernaNotoSerifCJKSC-Bold: 38212 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30552 bytes
+WROTE production/2026-w47/2026-w47-ru-en/Lucerna-VOL4-ru-en-web.pdf: 3380920 bytes, 57316 text bytes
+webpdf rc=0
+new_sha=0778f40076d6579b6699c9508e886186a2c86500e0216c38c6168d4e270127f4 new_bytes=3380920
+web_text_bytes=111873 print_text_bytes=111873
+text layer: BYTE-IDENTICAL to print PDF
+STATUS=OK 
+=== done ru-en status=OK 2026-11-11T22:22:02+00:00 ===

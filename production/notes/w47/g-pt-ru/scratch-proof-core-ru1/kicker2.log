@@ -1,0 +1,17 @@
+SC face index: 2 ('Noto Sans CJK SC', 'Regular')
+font-family per element: [('ЕЖЕНЕДЕЛЬНАЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ГАЗЕТА', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ДЛЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ИЗУЧАЮЩИХ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('РУССКИЙ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ЯЗЫК', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('—  ', 'Noto Sans CJK SC'), ('НАСТОЯЩАЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('РОССИЯ', 'Noto Sans'), (',  ', 'Noto Sans CJK SC'), ('ПО', 'Noto Sans'), ('-', 'Noto Sans CJK SC'), ('РУССКИ', 'Noto Sans')]
+--- Method 1: PIL ink-box gaps ---
+ЕЖЕНЕДЕЛЬНАЯ/ГАЗЕТА: 7.20px  (prev ink right 712.30, next ink left 719.50)
+ГАЗЕТА/ДЛЯ: 5.90px  (prev ink right 774.50, next ink left 780.40)
+ДЛЯ/ИЗУЧАЮЩИХ: 6.80px  (prev ink right 813.40, next ink left 820.20)
+ИЗУЧАЮЩИХ/РУССКИЙ: 6.30px  (prev ink right 929.20, next ink left 935.50)
+РУССКИЙ/ЯЗЫК: 7.10px  (prev ink right 1009.50, next ink left 1016.60)
+ЯЗЫК/—: 7.40px  (prev ink right 1059.60, next ink left 1067.00)
+—/НАСТОЯЩАЯ: 7.40px  (prev ink right 1081.00, next ink left 1088.40)
+НАСТОЯЩАЯ/РОССИЯ: 6.80px  (prev ink right 1189.40, next ink left 1196.20)
+,/ПО: 7.60px  (prev ink right 1264.80, next ink left 1272.40)
+method1 min: 5.90  all>=4: True
+--- Method 2: render closest-approach, band y357..374 ---
+thr<128: [9, 5, 10, 7, 9, 11, 10, 10, 10]  min=5
+thr<150: [9, 4, 10, 7, 8, 11, 10, 10, 10]  min=4
+thr<200: [9, 3, 9, 6, 7, 11, 9, 9, 10]  min=3

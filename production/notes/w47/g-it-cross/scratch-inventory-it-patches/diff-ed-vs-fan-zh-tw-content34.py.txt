@@ -1,0 +1,11 @@
+--- A:fanout-baseline/zh-tw/content34.py -> edition-now/zh-tw/content34.py
++++ B:fanout-baseline/zh-tw/content34.py -> edition-now/zh-tw/content34.py
+@@ -3,7 +3,7 @@
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from bslib4 import *
+ 
+-OUT = os.path.expanduser("/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-it/zh-tw/freeze-baseline/svg")
++OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/2026-w47-it-zh-tw/svg")
+ os.makedirs(OUT, exist_ok=True)
+ 
+ # ================= P3 · CULTURA (A2→B1) =================

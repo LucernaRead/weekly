@@ -1,0 +1,12 @@
+p1: added-latin 51 removed-latin 83 token-diffs: {'dieci': (0, 1), 'prima': (0, 1), 'dopo': (0, 1), "l'ora": (0, 1), 'punti': (0, 1), 'di': (0, 2), 'Torrone': (0, 1), 'domenica': (0, 1), 'della': (0, 1), 'WEEKLY': (0, 1), '22': (0, 1), 'Lazio,': (0, 1), 'in': (0, 2), "dell'11ª": (0, 1), 'gol': (0, 1), 'giornata,': (0, 1), 'oltre': (0, 1), '10': (2, 1), 'corteo': (0, 1), 'classifica': (0, 1), 'figuranti': (0, 1), 'giornate': (0, 1), 'partite': (0, 1), 'ITALIAN': (0, 1), 'chiusura': (0, 1), 'Atalanta–Inter,': (0, 1), 'i': (0, 3), 'LUCERNA': (0, 1), 'novembre': (0, 1), 'del': (0, 2), '11': (4, 3)}
+p2: added-latin 34 removed-latin 37 token-diffs: {'ITALIAN': (0, 1), 'WEEKLY': (0, 1), 'LUCERNA': (0, 1)}
+p3: added-latin 28 removed-latin 31 token-diffs: {'ITALIAN': (0, 1), 'WEEKLY': (0, 1), 'LUCERNA': (0, 1)}
+p4: added-latin 35 removed-latin 38 token-diffs: {'WEEKLY': (0, 1), 'ITALIAN': (0, 1), 'LUCERNA': (0, 1)}
+p5: added-latin 23 removed-latin 26 token-diffs: {'ITALIAN': (0, 1), 'WEEKLY': (0, 1), 'LUCERNA': (0, 1)}
+p6: added-latin 35 removed-latin 38 token-diffs: {'ITALIAN': (0, 1), 'WEEKLY': (0, 1), 'LUCERNA': (0, 1)}
+p7: added-latin 57 removed-latin 60 token-diffs: {'WEEKLY': (0, 1), 'ITALIAN': (0, 1), 'LUCERNA': (0, 1)}
+p8: added-latin 8 removed-latin 11 token-diffs: {'ITALIAN': (0, 1), 'WEEKLY': (0, 1), 'LUCERNA': (0, 1)}
+core p8 text-node '+' total: 20 | nodes equal to '+ ': 8
+core p1 text-node '+' total: 0
+ed p8 text-node '+' total: 16 | nodes equal to '+ ': 4
+ed p1 text-node '+' total: 0

@@ -1,0 +1,14 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P1: word-multiset identical: True (distinct 198 vs 198)
+P2: word-multiset identical: True (distinct 178 vs 178)
+P3: word-multiset identical: True (distinct 220 vs 220)
+P4: word-multiset identical: True (distinct 181 vs 181)
+P5: word-multiset identical: True (distinct 194 vs 194)
+P6: word-multiset identical: True (distinct 202 vs 202)
+P7: word-multiset identical: True (distinct 190 vs 190)
+P8: word-multiset identical: True (distinct 306 vs 306)
+max span displacement print-vs-web: 0.20pt at (1, 'Die Lucerna', (373.9, 196.5, 147.0), (373.7, 196.5, 147.0))
+span-count mismatches: none
+ABUTTING: PASS (all spans within 0.5pt)

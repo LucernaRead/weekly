@@ -1,0 +1,10 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 open (sans) [NotoSansCJKsc-Regular]: prev ' ' | open-quote ink=[(291.85, 293.29), (294.73, 296.17)] | next 'M' ink_start=299.41 | GAP AFTER open-quote = 3.24pt
+Traceback (most recent call last):
+  File "<stdin>", line 40, in <module>
+  File "<stdin>", line 35, in measure_open
+  File "<stdin>", line 21, in runs
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/PIL/Image.py", line 1384, in crop
+    raise ValueError(msg)
+ValueError: Coordinate 'right' is less than 'left'

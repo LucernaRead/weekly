@@ -1,0 +1,5 @@
+extracted block from fixed file: res["gates"]["p8"] = {"extract_noted": noted, "compare": comp.get("status", comp),                       "keydiff": comp.get("keydiff", "?"), "missing": comp.get("missing", "?"),                       "extra": comp.get("extra", "?")}
+fixed file p8 summary: {"extract_noted": 150, "compare": "CLEAN", "keydiff": [], "missing": [], "extra": []}
+ASSERT OK: extra=[] (was '?'), keydiff/missing unchanged
+fixture extra=[150] -> [150]
+ASSERT OK: non-empty extra passes through

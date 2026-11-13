@@ -1,0 +1,6 @@
+run.py rc= 0 log: build2.log
+no overflow in build log
+render.py rc= 0 log: render2.log
+webpdf.py rc= 0 log: webpdf2.log
+2026-w47-it-ja exported .text.md bytes: 58239 exercises: 150
+REBUILD DONE 2026-w47-it-ja

@@ -1,0 +1,129 @@
+===== gates1 start 2026-11-12T02:36:49Z =====
+[webpdf1] rc=0
+  font LucernaUnifrakturMaguntia-Regular: 29004 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf: 1440177 bytes, 53087 text bytes
+5281accd9cf3a9e44f009a92a088fdcc415ad82138216d8a39b9ed25554ad3b7  La-Lucerna-VOL4-RU.pdf
+b8679dceb6bf91072ea2190147893eb30eda26e3bc708e37aa3aed3d0861b87d  La-Lucerna-VOL4-RU-web.pdf
+-rw-rw---- 1 root nogroup  1440177 Nov 12 02:38 La-Lucerna-VOL4-RU-web.pdf
+-rw-rw---- 1 root nogroup 14179824 Nov 12 02:33 La-Lucerna-VOL4-RU.pdf
+[textmd] IDENTICAL
+[boxtitle-after] rc=0
+== build-copy  core=None backup=-
+BOXTITLE build-copy: 37 titles, 492 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[p8-extract] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+[p8-compare] rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+[occlusion] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/svg: 0 flags 
+[freeze-diff] rc=0
+p5: +222 strings / -40 strings; CJK core 227 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 18 (unexpected 18)
+p6: +166 strings / -25 strings; CJK core 167 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 19 (unexpected 19)
+p7: +302 strings / -40 strings; CJK core 304 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 32 (unexpected 32)
+p8: +1013 strings / -402 strings; CJK core 1015 -> edition 22; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 93 (unexpected 93)
+TOTAL added CJK characters: 8
+TOTAL added Latin strings: 223 (unexpected 223)
+[frozen_check] rc=1
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/frozen_check.py", line 41, in <module>
+    core = {i: page_texts(sys.argv[1], i) for i in range(1, 9)}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/frozen_check.py", line 23, in page_texts
+    s = open(os.path.join(svgdir, f'p{i}-{NAMES[i-1]}.svg'),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p1-front.svg'
+[freeze-b1b2] rc=1
+[textlayer] rc=0
+print chars(non-ws): 35582 web: 35582
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS
+[census-BEFORE-print] rc=0
+CENSUS /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ru/La-Lucerna-VOL4-RU.pdf
+pages=8 distinct_join_tokens=15 total_join_boundaries=34
+[census-BEFORE-web] rc=0
+CENSUS /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ru/La-Lucerna-VOL4-RU-web.pdf
+pages=8 distinct_join_tokens=15 total_join_boundaries=34
+[census-AFTER-print] rc=0
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU.pdf
+pages=8 distinct_join_tokens=15 total_join_boundaries=34
+[census-AFTER-web] rc=0
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf
+pages=8 distinct_join_tokens=15 total_join_boundaries=34
+[gaps-print] rc=0
+--- FIXED-JOINS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU.pdf
+  P8 'Imperativ:' | 'не': []
+  P8 '13' | 'ноября': []
+  P4 '20' | 'ноября': []
+  P2 '19' | 'ноября': []
+  P5 '16' | 'ноября': []
+  P4 'A.' | 'на': []
+  P3 'A.' | 'биография': []
+  P7 'A.' | 'снег': []
+  P7 'A.' | 'цена': []
+  P7 'A.' | 'точно': []
+  P7 'Tauwetter;' | 'мокрый': []
+  P7 'Rabattcode;' | 'возврат': []
+  P4 'результатов' | '+': []
+  P8 '—' | 'скидка': []
+  P8 '—' | 'поздравляю': []
+--- BYLINE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU.pdf
+  P1 'редакции' | 'Lucerna': []
+  P2 'редакции' | 'Lucerna': []
+  P3 'редакции' | 'Lucerna': []
+  P4 'редакции' | 'Lucerna': []
+  P5 'редакции' | 'Lucerna': []
+  P6 'редакции' | 'Lucerna': []
+--- ARROW-FPs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU.pdf
+  P7 '→' | 'После': []
+  P7 '→' | 'Родительный': []
+  P8 '→' | 'выходят': []
+  P8 '→' | 'рассказывает': []
+  P8 '→' | 'снял': []
+  P8 '→' | 'сыграли': []
+  P8 '→' | 'играет': []
+  P8 '→' | 'победило': []
+  P8 '→' | 'работаем': []
+  P8 '✓' | 'Mustertext': []
+--- TEXT-LAYER /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU.pdf
+  P8: spaced '13 ноября' present=False | fused '13ноября' present=False
+  P2: spaced '19 ноября' present=False | fused '19ноября' present=False
+  P4: spaced '20 ноября' present=False | fused '20ноября' present=False
+  P5: spaced '16 ноября' present=False | fused '16ноября' present=False
+[gaps-web] rc=0
+--- FIXED-JOINS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf
+  P8 'Imperativ:' | 'не': []
+  P8 '13' | 'ноября': []
+  P4 '20' | 'ноября': []
+  P2 '19' | 'ноября': []
+  P5 '16' | 'ноября': []
+  P4 'A.' | 'на': []
+  P3 'A.' | 'биография': []
+  P7 'A.' | 'снег': []
+  P7 'A.' | 'цена': []
+  P7 'A.' | 'точно': []
+  P7 'Tauwetter;' | 'мокрый': []
+  P7 'Rabattcode;' | 'возврат': []
+  P4 'результатов' | '+': []
+  P8 '—' | 'скидка': []
+  P8 '—' | 'поздравляю': []
+--- BYLINE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf
+  P1 'редакции' | 'Lucerna': []
+  P2 'редакции' | 'Lucerna': []
+  P3 'редакции' | 'Lucerna': []
+  P4 'редакции' | 'Lucerna': []
+  P5 'редакции' | 'Lucerna': []
+  P6 'редакции' | 'Lucerna': []
+--- ARROW-FPs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf
+  P7 '→' | 'После': []
+  P7 '→' | 'Родительный': []
+  P8 '→' | 'выходят': []
+  P8 '→' | 'рассказывает': []
+  P8 '→' | 'снял': []
+  P8 '→' | 'сыграли': []
+  P8 '→' | 'играет': []
+  P8 '→' | 'победило': []
+  P8 '→' | 'работаем': []
+  P8 '✓' | 'Mustertext': []
+--- TEXT-LAYER /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-it-ru/build1/build-copy/La-Lucerna-VOL4-RU-web.pdf
+  P8: spaced '13 ноября' present=False | fused '13ноября' present=False
+  P2: spaced '19 ноября' present=False | fused '19ноября' present=False
+  P4: spaced '20 ноября' present=False | fused '20ноября' present=False
+  P5: spaced '16 ноября' present=False | fused '16ноября' present=False
+===== gates1 done 2026-11-12T02:40:56Z =====

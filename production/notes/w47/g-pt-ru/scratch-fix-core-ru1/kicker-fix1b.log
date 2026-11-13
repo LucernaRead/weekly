@@ -1,0 +1,15 @@
+index 0 name: ('Noto Sans CJK JP', 'Regular')
+index 1 name: ('Noto Sans CJK KR', 'Regular')
+index 2 name: ('Noto Sans CJK SC', 'Regular')
+index 3 name: ('Noto Sans CJK TC', 'Regular')
+index 4 name: ('Noto Sans CJK HK', 'Regular')
+index 5 name: ('Noto Sans Mono CJK JP', 'Regular')
+index 6 name: ('Noto Sans Mono CJK KR', 'Regular')
+index 7 name: ('Noto Sans Mono CJK SC', 'Regular')
+index 8 name: ('Noto Sans Mono CJK TC', 'Regular')
+index 9 name: ('Noto Sans Mono CJK HK', 'Regular')
+index 10 ERR invalid argument
+getbbox dash, idx2: (0, 14, 14, 19) len: 14.296875
+getbbox dash, idx0: (0, 14, 14, 19) len: 14.296875
+getbbox '  ' idx2: (0, 19, 7, 19) len: 7.15625
+getbbox comma+2sp idx2: (0, 16, 12, 23) len: 11.609375

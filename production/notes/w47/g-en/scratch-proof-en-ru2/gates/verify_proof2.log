@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 advance: new w=339.4 ends 1800.9 margin +61.1 px
+D1 advance: old w=409.0 ends 1870.5 margin -8.5 px
+print PDF: 8 pages, size Rect(0.0, 0.0, 1462.5, 2025.0)
+D1 PDF: box_right=1396.5 gloss_spans=[('Относительный интерес, не точные.', [1096.1, 916.5, 1351.3, 937.1], 14.25)]
+D1 PDF ink: right margin +45.2 pt (span x 1096.1..1351.3)
+P8 min font: 10.12 pt (floor 9.75); P1 min: 11.62 pt; all pages: {1: 11.62, 2: 11.62, 3: 11.62, 4: 11.62, 5: 11.62, 6: 11.62, 7: 11.62, 8: 10.12}
+registry total: 150
+text.md answer lines parsed: 150 (n range 1..150)
+Q150 exception check: registry='Открытый вопрос — критерии в рамке сочинения; образец — в рамке на этой странице' extract='Открытый вопрос' text='Открытый вопрос — критерии в рамке сочинения; образец — в рамке на этой странице (Оценка по пунктам)' ok=True
+3-source mismatches: [(150, 'registry-vs-extract', 'Открытый вопрос — критерии в рамке сочинения; образец — в рамке на этой странице', 'Открытый вопрос')]
+text.md 201C=81 201D=81 2019=0 2018=0
+svg total 201C=82 201D=82 2019=0
+banned-word hits in text.md: 0
+orphan visual-line count: 0 
+D5: total <text>=1798 distinct sizes=26
+D5: [('24', 465), ('21.5', 183), ('22', 167), ('20.5', 166), ('19', 162), ('23', 147), ('23.5', 131), ('13.5', 75), ('19.5', 71), ('20', 53), ('17', 34), ('25', 34), ('21', 21), ('46', 15), ('18', 15), ('15.5', 13), ('32', 11), ('28', 11), ('22.5', 9), ('36', 5), ('27', 3), ('18.5', 2), ('26', 2), ('196', 1), ('16', 1), ('53', 1)]
+Q73 registry: key='up' note='speak up = говорить открыто'
+Q73 extract: 'up'
+Q73 text.md:1151: '73. [A2] Дополнить предложения — up (speak up = говорить открыто)'
+Q73 P8 '73. up' present: True; P5 '73. up' present: False
+Q73 P5 stem 'Speak ___: tell a teacher.' present: True
+VERIFY_PROOF2 DONE

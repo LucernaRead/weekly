@@ -1,0 +1,246 @@
+Q  1 [完成句子/A2/p1] KEY='gagné' NOTE='Alcaraz vince'
+     STEM: Dimanche 8 novembre, Alcaraz a ___ le Masters de Paris.
+Q  2 [完成句子/A2/p1] KEY='mercredi' NOTE='Mercoledì 18 nov.'
+     STEM: C'est ___ que le Sénat vote, le 18 novembre.
+Q  3 [完成句子/A2/p1] KEY='jeudi' NOTE='Il Nouveau esce'
+     STEM: C'est ___ que le beaujolais nouveau arrive, le 19 novembre.
+Q  4 [完成句子/B1/p1] KEY='premier' NOTE='Prima vittoria a Parigi'
+     STEM: C'est son ___ titre à Paris.
+Q  5 [完成句子/B1/p1] KEY='12,7' NOTE='Il deficit scende a 12,7 miliardi'
+     STEM: Le déficit de la Sécu doit passer de 21,8 à ___ milliards.
+Q  6 [完成句子/B1/p1] KEY='22' NOTE='Finale di Torino dom. 22'
+     STEM: Les finales de Turin ont lieu dimanche ___ novembre.
+Q  7 [单选/A2/p1] KEY='A' NOTE='Finale domenica 8'
+     STEM: Alcaraz a gagné Paris... A. dimanche 8　B. samedi 7　C. lundi 9
+Q  8 [单选/A2/p1] KEY='B' NOTE='Il voto è mercoledì 18'
+     STEM: Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+Q  9 [单选/A2/p1] KEY='A' NOTE='Il Nouveau giovedì 19'
+     STEM: Le beaujolais nouveau arrive... A. jeudi 19　B. vendredi 20　C. samedi 21
+Q 10 [单选/A2/p1] KEY='B' NOTE='Finale di Torino dom. 22'
+     STEM: Les finales de Turin, c'est... A. samedi 21　B. dimanche 22　C. lundi 23
+Q 11 [完成句子/A2/p2] KEY='mercredi' NOTE='Mercoledì 18 nov.'
+     STEM: Le Sénat vote ___ 18 novembre. [Completa]
+Q 12 [完成句子/A2/p2] KEY='lundi' NOTE='Lunedì 16'
+     STEM: La semaine commence ___ 16 novembre. [Completa]
+Q 13 [完成句子/A2/p2] KEY='jeudi' NOTE='Il Nouveau giovedì 19'
+     STEM: Le beaujolais nouveau arrive ___ 19 novembre. [Completa]
+Q 14 [完成句子/A2/p2] KEY='dimanche' NOTE='Domenica 22'
+     STEM: Les finales de Turin, c'est ___ 22 novembre. [Completa]
+Q 15 [句型转换/A2/p2] KEY='Le Sénat va voter mercredi.' NOTE='aller + infinito'
+     STEM: Mercredi, le Sénat (voter). → ___ [Riscrivi]
+Q 16 [句型转换/A2/p2] KEY='Nous allons goûter le beaujolais jeudi.' NOTE='nous → allons'
+     STEM: Jeudi, nous (goûter) le beaujolais. → ___ [Riscrivi]
+Q 17 [句型转换/A2/p2] KEY='Tu vas raconter ton jeudi 19 novembre.' NOTE='tu → vas'
+     STEM: Tu (raconter) ton jeudi 19 novembre. → ___ [Riscrivi]
+Q 18 [句型转换/B1/p2] KEY='Vous allez regarder les finales dimanche.' NOTE='vous → allez'
+     STEM: Dimanche, vous (regarder) les finales → ___ [Riscrivi]
+Q 19 [单选/A2/p2] KEY='C' NOTE='Festa dei bambini il 20'
+     STEM: La Journée de l'enfance, c'est le... A. 18 nov.　B. 19 nov.　C. 20 nov.
+Q 20 [单选/A2/p2] KEY='B' NOTE='Settimana anti-spreco dal 21'
+     STEM: La Semaine de la réduction des déchets commence... A. le 19 nov.　B. le 21 nov.　C. le 29 nov.
+Q 21 [单选/A2/p2] KEY='A' NOTE='Finale di Torino domenica'
+     STEM: Les finales de Turin, c'est... A. dimanche 22　B. samedi 21　C. lundi 23
+Q 26 [阅读判断/A2/p3] KEY='Vrai' NOTE='Vendita anticipata dal 1951'
+     STEM: En 1951, les vignerons obtiennent le droit de vendre plus tôt. [Vrai ou faux ?]
+Q 27 [阅读判断/A2/p3] KEY='Faux' NOTE='Il Nouveau è il terzo giovedì'
+     STEM: Le beaujolais nouveau sort le deuxième jeudi de novembre. [Vrai ou faux ?]
+Q 28 [阅读判断/A2/p3] KEY='Vrai' NOTE='Il Nouveau esce il 19'
+     STEM: Le beaujolais nouveau est mis en vente le 19 novembre. [Vrai ou faux ?]
+Q 29 [阅读判断/B1/p3] KEY='Faux' NOTE='La festa è nel Beaujolais'
+     STEM: Les Sarmentelles ont lieu à Paris. [Vrai ou faux ?]
+Q 30 [阅读判断/B1/p3] KEY='Vrai' NOTE='Gamay è un vitigno'
+     STEM: Le gamay est le cépage du Beaujolais. [Vrai ou faux ?]
+Q 31 [完成句子/B1/p3] KEY='gamay' NOTE='Uva gamay'
+     STEM: Le cépage du Beaujolais, c'est le ___.
+Q 32 [完成句子/A2/p3] KEY='jeudi' NOTE='Il terzo giovedì'
+     STEM: Le beaujolais nouveau sort le troisième ___ de novembre.
+Q 33 [完成句子/A2/p3] KEY='Beaujeu' NOTE='La festa è nel Beaujolais'
+     STEM: Les Sarmentelles ont lieu à ___.
+Q 34 [完成句子/B1/p3] KEY='1985' NOTE='Il terzo giovedì dal 1985'
+     STEM: La règle du troisième jeudi date de ___.
+Q 35 [句型转换/B1/p3] KEY='Le vin ne se vend jamais avant le troisième jeudi.' NOTE='jamais + ne'
+     STEM: (jamais) Le vin se vend avant le troisième jeudi. → ___ [Riscrivi]
+Q 36 [句型转换/B1/p3] KEY="On ne boit pas d'alcool avant 18 ans." NOTE='ne...pas = non'
+     STEM: (pas) On boit de l'alcool avant 18 ans. → ___ [Riscrivi]
+Q 37 [句型转换/B1/p3] KEY="Le beaujolais n'est pas un vin blanc." NOTE='ne...pas = non'
+     STEM: (pas) Le beaujolais est un vin blanc. → ___ [Riscrivi]
+Q 38 [完成句子/A2/p3] KEY='75 ans' NOTE='75° anniversario'
+     STEM: Cette année, ce sont les ___ du rendez-vous.
+Q 39 [完成句子/B1/p3] KEY='minuit' NOTE='Mezzanotte 0:00'
+     STEM: La mise en perce a lieu à ___.
+Q 40 [完成句子/A2/p3] KEY='troisième' NOTE='Il terzo giovedì'
+     STEM: Le vin sort le ___ jeudi de novembre.
+Q 41 [单选/B1/p3] KEY='B' NOTE='Gamay è un vitigno'
+     STEM: Le gamay est... A. un fromage　B. un cépage　C. un village
+Q 42 [完成句子/B1/p3] KEY='13' NOTE='Vendemmia dal 13 agosto'
+     STEM: Les vendanges 2026 ont commencé le ___ août.
+Q 43 [完成句子/A2/p3] KEY='saucisson' NOTE='Ottimo con la salsiccia'
+     STEM: Pour accompagner le beaujolais : du ___.
+Q 44 [单选/B1/p4] KEY='B' NOTE='Finale domenica 8'
+     STEM: La finale du Masters a eu lieu... A. samedi 7　B. dimanche 8　C. lundi 9
+Q 45 [单选/B1/p4] KEY='A' NOTE='Alcaraz batte Shelton'
+     STEM: Alcaraz a battu en finale... A. Shelton　B. Sinner　C. Zverev
+Q 46 [单选/B1/p4] KEY='C' NOTE='Torino inizia il 15'
+     STEM: Les Masters de Turin commencent... A. le 9 nov.　B. le 12 nov.　C. le 15 nov.
+Q 47 [单选/B1/p4] KEY='A' NOTE='Matricola francese: Fils'
+     STEM: Le Français débutant à Turin, c'est... A. Fils　B. Cobolli　C. Jodar
+Q 48 [单选/B1/p4] KEY='A' NOTE='La Ligue 1 torna il 20'
+     STEM: La 11e journée de Ligue 1 reprend... A. vendredi 20　B. dimanche 15　C. lundi 9
+Q 53 [完成句子/B1/p4] KEY='plus vite' NOTE='Al coperto, più veloce'
+     STEM: En salle, la balle va ___ (vite) qu'en plein air.
+Q 54 [完成句子/B1/p4] KEY='plus grand' NOTE='Torino è più grande'
+     STEM: Turin est ___ (grand) qu'un petit tournoi.
+Q 55 [完成句子/B1/p4] KEY='moins longue' NOTE='La pausa è più corta'
+     STEM: La trêve est ___ (longue) que la saison. (moins)
+Q 56 [完成句子/B1/p4] KEY='forfait' NOTE='Ritiro per infortunio'
+     STEM: Sinner a déclaré ___ : blessé, il n'a pas joué.
+Q 57 [完成句子/B1/p4] KEY='finale' NOTE='Finale dom.'
+     STEM: La ___ du simple a eu lieu dimanche 8.
+Q 58 [完成句子/B1/p4] KEY='groupes' NOTE='Due gruppi'
+     STEM: À Turin, huit joueurs, en deux ___ de quatre.
+Q 59 [完成句子/B1/p4] KEY='tirage' NOTE='Sorteggio giovedì 12'
+     STEM: Le ___ des groupes a eu lieu jeudi 12.
+Q 60 [完成句子/B1/p4] KEY='Bordeaux' NOTE='Bordeaux in casa'
+     STEM: France – Turquie, dimanche 15, à ___.
+Q 61 [完成句子/A2/p4] KEY='Milan' NOTE='Milano in trasferta'
+     STEM: Italie – France, jeudi 12, à ___.
+Q 62 [单选/B1/p5] KEY='B' NOTE='16 film nuovi'
+     STEM: Mercredi 18 novembre, il sort... A. 6 films　B. 16 films　C. 56 films
+Q 63 [单选/B1/p5] KEY='B' NOTE='Il prequel racconta Haymitch'
+     STEM: Haymitch est le héros... A. d'un match　B. du prequel　C. d'une comédie
+Q 64 [单选/B1/p5] KEY='B' NOTE='Les Braves di Dhont'
+     STEM: « Les Braves », c'est un film de... A. Francis Lawrence　B. Lukas Dhont　C. Mipo O
+Q 65 [单选/B1/p5] KEY='A' NOTE='Il presidente è Ménochet'
+     STEM: Dans « Jupiter », le président, c'est... A. Denis Ménochet　B. Johnny Depp　C. Guillermo Guiz
+Q 66 [单选/B1/p5] KEY='A' NOTE='Camembert: un quiz'
+     STEM: « Camembert », c'est l'histoire... A. d'une partie de Trivial Pursuit　B. d'un braquage　C. d'un concert
+Q 67 [完成句子/B1/p5] KEY='mercredi' NOTE='Nuovi film mercoledì'
+     STEM: Les nouveaux films sortent le ___.
+Q 68 [完成句子/B1/p5] KEY='prequel' NOTE='Prequel'
+     STEM: « Hunger Games », c'est un ___.
+Q 69 [完成句子/B1/p5] KEY='Ménochet' NOTE='Ménochet protagonista'
+     STEM: « Jupiter », c'est avec Denis ___.
+Q 70 [完成句子/B1/p5] KEY='21' NOTE='Settimana anti-spreco dal 21'
+     STEM: La Semaine de la réduction des déchets commence le ___ novembre.
+Q 71 [完成句子/B1/p5] KEY='produit' NOTE='Non produrre è il meglio'
+     STEM: Le meilleur déchet est celui qu'on ne ___ pas.
+Q 72 [完成句子/A2/p5] KEY='acheter' NOTE='Usato = seconda mano'
+     STEM: Acheter en seconde main, c'est ___ d'occasion.
+Q 77 [完成句子/B1/p5] KEY='des billets' NOTE='Comprare i biglietti del cinema'
+     STEM: — Tu as pris ___ pour mercredi ? — Oui, pour toi et moi.
+Q 78 [完成句子/B1/p5] KEY='deux' NOTE='Due biglietti'
+     STEM: — Tu as pris combien de billets ? — ___, pour toi et moi.
+Q 79 [图表读数/B2/p6] KEY='B' NOTE='23 ott.: respinto 115–1'
+     STEM: Le 23 octobre : les recettes... A. adoptées　B. rejetées　C. reportées
+Q 80 [图表读数/B2/p6] KEY='B' NOTE='Il 4 nov. bocciato 458–0'
+     STEM: Le 4 novembre, le vote... A. 115–1　B. 458–0　C. 404–1
+Q 81 [图表读数/B2/p6] KEY='B' NOTE='Il voto è il 18'
+     STEM: Le vote sur la Sécu... A. 9 nov.　B. 18 nov.　C. 20 nov.
+Q 82 [图表读数/B2/p6] KEY='B' NOTE='Bilancio in esame dal 20'
+     STEM: Le budget de l'État, dès le... A. 9 nov.　B. 20 nov.　C. 26 nov.
+Q 83 [图表读数/B1/p6] KEY='C' NOTE='Voto solenne il 9 dic.'
+     STEM: Le vote sur le budget... A. 18 nov.　B. 26 nov.　C. 9 déc.
+Q 84 [图表读数/B1/p6] KEY='B' NOTE='50 giorni fino al 26'
+     STEM: Cinquante jours, jusqu'au... A. 9 nov.　B. 26 nov.　C. 18 déc.
+Q 89 [完成句子/B1/p6] KEY='plus long' NOTE='Dibattito più lungo'
+     STEM: Un débat au Sénat est ___ (long) qu'un concert.
+Q 90 [完成句子/B2/p6] KEY='moins simple' NOTE='Il bilancio è più complesso'
+     STEM: Le budget est ___ (simple) qu'un calendrier. (moins)
+Q 91 [完成句子/B2/p6] KEY='aussi important' NOTE='Altrettanto importante'
+     STEM: Le budget de la Sécu est ___ (important) que le budget de l'État. (aussi)
+Q 92 [完成句子/B2/p6] KEY='examine' NOTE='Il Senato esamina'
+     STEM: Cette semaine, le Sénat ___ le budget de la Sécu.
+Q 93 [完成句子/B2/p6] KEY='ont rejeté' NOTE='I deputati respingono'
+     STEM: Le 4 novembre, les députés ___ les recettes du budget.
+Q 94 [完成句子/B2/p6] KEY='part' NOTE='Il testo va al Senato'
+     STEM: Le texte ___ au Sénat.
+Q 95 [完成句子/B1/p6] KEY='peut' NOTE='Il calendario può cambiare'
+     STEM: Le calendrier ___ encore bouger.
+Q 96 [完成句子/B1/p6] KEY='connus' NOTE='Risultati ancora ignoti'
+     STEM: Les résultats du 18 novembre ne sont pas encore ___.
+Q 97 [跟练/A2/p7] KEY='battu' NOTE='battre → battu'
+     STEM: Alcaraz a ___ (battre) Shelton.
+Q 98 [跟练/B1/p7] KEY='est arrivé' NOTE='arriver con être'
+     STEM: Le beaujolais nouveau ___ (arriver) jeudi.
+Q 99 [跟练/A2/p7] KEY='vote' NOTE='voter = votare'
+     STEM: Le Sénat ___ (voter) mercredi.
+Q100 [跟练/A2/p7] KEY='beauté' NOTE='se terminer en beauté = finire in bellezza'
+     STEM: La semaine se termine en ___ (beau).
+Q101 [跟练/B1/p7] KEY='produit' NOTE='celui que = pronome relativo'
+     STEM: Le meilleur déchet est celui qu'on ne ___ (produire) pas.
+Q102 [跟练/A2/p7] KEY='sortent' NOTE='sortir = uscire, in cartellone'
+     STEM: Mercredi, seize films ___ (sortir) dans les salles de cinéma.
+Q103 [跟练/B2/p7] KEY='rejetée' NOTE='rejeter → rejetée'
+     STEM: La première partie est ___ (rejeter).
+Q104 [跟练/A2/p7] KEY='jouer' NOTE='trois temps = tre tempi'
+     STEM: Une semaine en trois temps : voter, fêter et ___.
+Q105 [改错/A2/p7] KEY='Alcaraz a battu Shelton.' NOTE='Participio passato: battu'
+     STEM: ✗ « Alcaraz a battre Shelton. » [Correggi]
+Q106 [改错/B1/p7] KEY='Le Sénat vote mercredi.' NOTE='Accordo: Sénat singolare → vote'
+     STEM: ✗ « Le Sénat votent mercredi. » [Correggi]
+Q107 [改错/B2/p7] KEY='Il est prévu que le Sénat examine le texte.' NOTE='Congiuntivo: examine, senza s'
+     STEM: ✗ « Il est prévu que le Sénat va examiner le texte. » [Correggi]
+Q108 [改错/B1/p7] KEY='Le beaujolais nouveau arrive jeudi 19 novembre.' NOTE='Fatto: il Nouveau è il 19, non il 20'
+     STEM: ✗ « Le beaujolais nouveau arrive vendredi 20 novembre. » [Correggi]
+Q109 [完形填空/A2/p8] KEY='A' NOTE='Il 16 nov. è lunedì'
+     STEM: A. lundi　B. samedi　C. dimanche
+Q110 [完形填空/A2/p8] KEY='B' NOTE='La festa è nel Beaujolais'
+     STEM: A. Paris　B. Beaujeu　C. Turin
+Q111 [完形填空/A2/p8] KEY='A' NOTE='Risultati in VOL.5'
+     STEM: A. résultats　B. finalistes　C. spectateurs
+Q112 [完形填空/A2/p8] KEY='B' NOTE='Contesto assaggio → goûté'
+     STEM: A. acheté　B. goûté　C. vendu
+Q113 [完形填空/B1/p8] KEY='A' NOTE='proposer = proporre, lanciare'
+     STEM: A. propose　B. proposent　C. se tient
+Q114 [完形填空/B1/p8] KEY='A' NOTE='avoir + participio (senza acc.)'
+     STEM: A. aimé　B. aimée　C. aimer
+Q115 [完形填空/B1/p8] KEY='B' NOTE='les Bleus plurale → jouent'
+     STEM: A. joue　B. jouent　C. jouer
+Q116 [完形填空/A2/p8] KEY='A' NOTE='il écrit = lui scrive'
+     STEM: A. écrit　B. écrivent　C. écris
+Q117 [单选/A2/p8] KEY='A' NOTE='Torino inizia il 15'
+     STEM: Turin commence... A. dimanche 15　B. lundi 16　C. mercredi 18
+Q118 [单选/A2/p8] KEY='A' NOTE='Il Nouveau è un primeur'
+     STEM: Le beaujolais nouveau, c'est... A. un vin primeur　B. un fromage　C. un film
+Q119 [单选/B1/p8] KEY='B' NOTE='Il voto è mercoledì 18'
+     STEM: Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+Q120 [单选/B2/p8] KEY='B' NOTE='si + imperfetto → condizionale'
+     STEM: Si j'étais libre dimanche, j'___ à Turin. A. irai　B. irais　C. vais
+Q121 [单选/B2/p8] KEY='A' NOTE='3ª persona singolare → semble'
+     STEM: À mon avis, ce programme ___ très riche. A. semble　B. sembler　C. semblant
+Q122 [单选/B1/p8] KEY='B' NOTE='Francia singolare → reçoit'
+     STEM: Dimanche, la France ___ la Turquie à Bordeaux. A. reçoivent　B. reçoit　C. recevoir
+Q123 [单选/A2/p8] KEY='A' NOTE='Il prequel di Hunger Games'
+     STEM: Hunger Games, c'est... A. un prequel　B. un match　C. une foire
+Q124 [单选/B1/p8] KEY='C' NOTE='Beaujolais Nouveau il 19'
+     STEM: Le beaujolais nouveau arrive... A. le 11 nov.　B. le 15 nov.　C. le 19 nov.
+Q125 [阅读理解/A2/p8] KEY='A' NOTE='Leggere il giornale la mattina'
+     STEM: Le matin, la famille lit... A. le journal　B. un roman　C. une bande-annonce
+Q126 [阅读理解/A2/p8] KEY='A' NOTE='Finale di Torino il pomeriggio'
+     STEM: L'après-midi, la famille regarde... A. les finales de Turin　B. un film　C. les Sarmentelles
+Q127 [阅读理解/B1/p8] KEY='A' NOTE='Marsiglia alle 20:45'
+     STEM: Marseille – Le Mans, c'est à... A. 20 h 45　B. 17 h 15　C. 15 h
+Q128 [阅读理解/B1/p8] KEY='A' NOTE='Lunedì si va a scuola'
+     STEM: Le soir, les enfants dorment tôt parce que... A. lundi, c'est l'école　B. il pleut　C. ils sont malades
+Q129 [阅读理解/B2/p8] KEY='A' NOTE='Ritorno a scuola lunedì'
+     STEM: Lundi, les enfants... A. retournent à l'école　B. restent à la maison　C. vont à Turin
+Q130 [完成句子/A2/p8] KEY='Le Sénat va voter mercredi.' NOTE='aller + infinito'
+     STEM: Futur proche : « Le Sénat vote mercredi. » → ___
+Q131 [完成句子/B2/p8] KEY='Si tu venais dimanche, tu verrais les finales.' NOTE='si + imperfetto'
+     STEM: Hypothèse : « Si tu (venir) dimanche, tu verrais les finales. »
+Q132 [完成句子/B1/p8] KEY='Il a goûté le beaujolais à Beaujeu.' NOTE='passé composé: a + participio'
+     STEM: Passé composé : « Il (goûter) le beaujolais à Beaujeu. »
+Q133 [完成句子/B2/p8] KEY='Selon moi, la semaine est bien remplie.' NOTE='selon moi = secondo me'
+     STEM: Opinion : « ___ moi, la semaine est bien remplie. »
+Q134 [完成句子/B1/p8] KEY='Il est prévu que le Sénat examine le texte mercredi.' NOTE='il est prévu que + congiuntivo'
+     STEM: Subjonctif : « Il est prévu que le Sénat (examiner) le texte mercredi. » → ___
+Q135 [翻译/B2/p8] KEY="Regarder une finale, c'est déjà apprendre le français." NOTE='regarder = guardare una finale'
+     STEM: Vedere una finale è già imparare il francese.
+Q136 [翻译/A2/p8] KEY='Il court plus vite que son frère.' NOTE='Comparativo: plus vite'
+     STEM: Corre più veloce di suo fratello.
+Q137 [翻译/B1/p8] KEY='Nous suivons le vote du Sénat depuis lundi.' NOTE='depuis + giorno della settimana'
+     STEM: Seguiamo il voto del Senato da lunedì.
+Q138 [翻译/B1/p8] KEY='Ce soir, nous allons préparer nos affaires.' NOTE='futur proche + préparer'
+     STEM: Stasera faremo le valigie.
+Q139 [翻译/B2/p8] KEY='On ne connaît pas encore les résultats.' NOTE='ne...pas encore = non ancora'
+     STEM: I risultati non sono ancora noti.

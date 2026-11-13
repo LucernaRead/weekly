@@ -1,0 +1,5 @@
+== 2026-w47-en-ru  core=production/2026-w47/core-en backup=-
+  P1 [TITLE] DEFECT over=+8.5px (right) core=-11.4 backup=None | regression vs core (core -11.4px) | 'Цифры'
+  P5 [TITLE] DEFECT over=+24.3px (right) core=-11.6 backup=None | regression vs core (core -11.6px) | 'Цифры'
+  P6 [TITLE] DEFECT over=+11.4px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | 'Бюллетень'
+BOXTITLE 2026-w47-en-ru: 44 titles, 395 body lines, 3 DEFECT, 0 OBSERVE, 0 marginal

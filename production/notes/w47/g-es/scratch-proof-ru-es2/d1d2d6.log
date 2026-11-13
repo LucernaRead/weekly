@@ -1,0 +1,40 @@
+D1 s1 segment 'УЧЕБНЫЕ ДАННЫЕ' in text.md lines [459]
+D1 s3 segment 'Три уровня, три темы' in text.md lines [504]
+D1 s4 segment 'Большой тест недели + все ответы' in text.md lines [596]
+D1 s2 disclaimer in text.md: False (must be False)
+D1 s1 in p6 SVG: True
+D1 s2 in p6 SVG: True
+D1 s3 in p7 SVG: True
+D1 s4 in p8 SVG: True
+D2 full phrase text.md ed=2 core=2
+D2 short 'День студента' in text.md: 11 (Q25 option + Q11 stem context)
+D2 short in p2 SVG joined: 4; full in p2 SVG: 2
+D6 'желании' text.md x2 (expect 2); p8 svg key 20 check via p8 extract json separately
+D6 'желании' in p2 SVG joined: 0 (expect 0; D6 is key-only)
+kicker elements at y=372: 20
+kicker full: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'
+kicker tokens=['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ']
+kicker gaps=[7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6] min=5.9 (expect 9 gaps, min>=4.0)
+kicker double spaces in full string: 9 (expect 9)
+SVG visible CJK chars: 0 []
+SVG U+3000 count (allowed): 123
+text.md CJK chars: 0 []
+text.md U+201C=1 U+201D=1 U+2019=0
+SVG curly quotes per page (open,close): [('p1-pervaya', 0, 0), ('p2-zhizn', 0, 0), ('p3-kultura', 0, 0), ('p4-sport', 0, 0), ('p5-molodezh', 0, 0), ('p6-razbor', 0, 0), ('p7-yazyk', 1, 1), ('p8-test', 0, 0)]
+'___' literal in text.md: 87 (expect 87, template gap, not a defect)
+D5 font families/sizes used: [(('Newsreader', 13.0), 429), (('Newsreader', 13.8), 292), (('Newsreader', 14.5), 89), (('Newsreader', 15.0), 61), (('Newsreader', 19.0), 164), (('Newsreader', 19.5), 145), (('Newsreader', 20.0), 544), (('Newsreader', 20.5), 206), (('Newsreader', 21.0), 60), (('Newsreader', 21.5), 456), (('Newsreader', 22.5), 30), (('Newsreader', 23.0), 73), (('Newsreader', 24.0), 900), (('Newsreader', 25.0), 28), (('Newsreader', 30.0), 7), (('Newsreader', 32.0), 25), (('Newsreader', 34.0), 2), (('Newsreader', 36.0), 2), (('Newsreader', 46.0), 7), (('Newsreader', 53.0), 9), (('Noto Sans', 13.3), 8), (('Noto Sans', 15.5), 22), (('Noto Sans', 16.0), 10), (('Noto Sans', 17.0), 38), (('Noto Sans', 18.0), 46), (('Noto Sans', 18.5), 5), (('Noto Sans', 19.0), 15), (('Noto Sans', 19.5), 47), (('Noto Sans', 20.0), 9), (('Noto Sans', 20.5), 51), (('Noto Sans', 21.0), 24), (('Noto Sans', 22.0), 2), (('Noto Sans', 23.0), 7), (('Noto Sans', 24.0), 32), (('Noto Sans', 25.0), 52), (('Noto Sans', 26.0), 23), (('Noto Sans', 27.0), 6), (('Noto Sans', 28.0), 7), (('Noto Sans', 46.0), 13), (('Noto Sans CJK SC', 13.3), 24), (('Noto Sans CJK SC', 15.5), 27), (('Noto Sans CJK SC', 16.0), 10), (('Noto Sans CJK SC', 17.0), 61), (('Noto Sans CJK SC', 18.0), 62), (('Noto Sans CJK SC', 18.5), 6), (('Noto Sans CJK SC', 19.0), 148), (('Noto Sans CJK SC', 19.5), 161), (('Noto Sans CJK SC', 20.0), 18), (('Noto Sans CJK SC', 20.5), 113), (('Noto Sans CJK SC', 21.0), 24), (('Noto Sans CJK SC', 21.5), 4), (('Noto Sans CJK SC', 22.0), 2), (('Noto Sans CJK SC', 23.0), 6), (('Noto Sans CJK SC', 24.0), 164), (('Noto Sans CJK SC', 25.0), 53), (('Noto Sans CJK SC', 26.0), 25), (('Noto Sans CJK SC', 27.0), 6), (('Noto Sans CJK SC', 28.0), 7), (('Noto Sans CJK SC', 46.0), 14), (('Noto Serif', 13.0), 192), (('Noto Serif', 13.8), 224), (('Noto Serif', 14.5), 94), (('Noto Serif', 15.0), 64), (('Noto Serif', 19.0), 147), (('Noto Serif', 19.5), 109), (('Noto Serif', 20.0), 422), (('Noto Serif', 20.5), 177), (('Noto Serif', 21.0), 46), (('Noto Serif', 21.5), 410), (('Noto Serif', 22.5), 34), (('Noto Serif', 23.0), 65), (('Noto Serif', 24.0), 863), (('Noto Serif', 25.0), 23), (('Noto Serif', 32.0), 25), (('Noto Serif', 34.0), 6), (('Noto Serif', 36.0), 5), (('Noto Serif', 53.0), 7), (('Noto Serif CJK SC', 13.0), 8), (('Noto Serif CJK SC', 13.8), 8), (('Noto Serif CJK SC', 20.0), 12), (('Noto Serif CJK SC', 20.5), 4), (('Noto Serif CJK SC', 36.0), 4), (('UnifrakturMaguntia', 196.0), 1)]
+print pages=8 web pages=8
+text-layer multiset overall identical: True; per-page: True; non-ws chars: 30838
+print total chars (incl ws): 37321; web total: 37321
+print '«чёрная пятница»' count: 8
+web   '«чёрная пятница»' count: 8
+print italic spans: 3; web italic spans: 3
+  web italic P1 LucernaNewsreader-Italic '«' bbox=(1079.6, 1272.1, 1088.0, 1288.3)
+  web italic P1 LucernaNotoSerif-Italic 'чёрная пятница' bbox=(1088.0, 1266.8, 1222.8, 1288.7)
+  web italic P1 LucernaNewsreader-Italic '»' bbox=(1220.6, 1272.1, 1229.3, 1288.3)
+web P1 'чёрная' italic spans: 1 (expect 1, text 'чёрная пятница')
+print P1 'чёрная' italic spans: 1
+web vs print bbox of чёрная span: (1088.0, 1266.8, 1222.8, 1288.7) vs (1088.0, 1266.8, 1222.8, 1288.7)
+P8 min font (print PDF): 9.75pt (expect >= 9.75)
+whole-book min font (print PDF): 9.75pt
+DONE d1d2d6 (log-close fix: final line appended manually; all checks above ran)

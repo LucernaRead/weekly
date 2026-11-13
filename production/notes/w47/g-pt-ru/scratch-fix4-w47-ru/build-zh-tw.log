@@ -1,0 +1,57 @@
+===== zh-tw 2026-11-12T21:01:26Z =====
+run.py rc=0
+TOTAL 150
+render.py rc=0
+print PDF mtime=2026-11-12 21:04:21.879841994 +0000 size=24763427
+0c4bffc78bdc7aaf8285519d94816124b8ffbc3fe936ae1bc4f0a69a93a1748d  Lucerna-VOL4-ru-zh-tw.pdf
+ru_textmd.py rc=0
+WROTE /tmp/fix4-final/2026-w47-ru-zh-tw.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -410,7 +410,7 @@
+ 75–78. [B1 · 詞彙配對] 把詞和釋義配對
+ 75. распродажа — большая продажа со скидками (key d · 大促銷 d)
+ 76. возврат — товар возвращают в магазин (key b · 退貨 b)
+-77. промокод — код со скидкой (key a · 促銷碼 a)
++77. промокод — код со скидкой (key a · 折扣碼 a)
+ 78. скидка — цена ниже обычной (key c · 折扣 c)
+ 
+ ## D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ
+@@ -754,7 +754,7 @@
+ 74. скидка — скидка = 折扣
+ 75. d — 大促銷 d
+ 76. b — 退貨 b
+-77. a — 促銷碼 a
++77. a — 折扣碼 a
+ 78. c — 折扣 c
+ 79. Сначала список, потом цены, потом промокод. — 先清單，後價格，再折扣碼
+ 80. «Чёрная пятница» начинается 16 ноября. — 主語 + 動詞 + 時間
+backfill rc=0
+text.md landed:
+948538470d3cbfb3b0110300daf89c382ce4f555e08567bd1b961c8fcff52e0e  2026-w47-ru-zh-tw.text.md
+text.md size=60855
+413c413
+< 77. промокод — код со скидкой (key a · 促銷碼 a)
+---
+> 77. промокод — код со скидкой (key a · 折扣碼 a)
+757c757
+< 77. a — 促銷碼 a
+---
+> 77. a — 折扣碼 a
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 19404 bytes
+WROTE Lucerna-VOL4-ru-zh-tw-web.pdf: 3975999 bytes, 56180 text bytes
+web PDF mtime=2026-11-12 21:07:18.054201876 +0000 size=3975999
+cc348ad4ae16b6f3989b6d7c3966e7f543b658838d1ec3a71817793620ecb462  Lucerna-VOL4-ru-zh-tw-web.pdf
+SVG diff vs pre:
+p1-pervaya.svg: OK
+p2-zhizn.svg: OK
+p3-kultura.svg: OK
+p4-sport.svg: OK
+p5-molodezh.svg: OK
+p6-razbor.svg: OK
+p7-yazyk.svg: OK
+p8-test.svg: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match
+BUILD DONE zh-tw 2026-11-12T21:07:18Z

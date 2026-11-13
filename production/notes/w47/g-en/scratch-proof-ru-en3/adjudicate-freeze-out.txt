@@ -1,0 +1,68 @@
+== core P6: УЧЕБНЫЕ ==
+  [p6-razbor.svg] idx=427 x=569.0 y=1552 text='УЧЕБНЫЕ'
+      ctx[424] y=1552 ' '
+      ctx[425] y=1552 'НЕДЕЛЕ'
+      ctx[426] y=1552 '?\u3000'
+      ctx[428] y=1552 ' '
+      ctx[429] y=1552 'ДАННЫЕ'
+      ctx[430] y=1552 '\u3000练习数据'
+
+== core P6: Это учебные (chart note) ==
+== core P7: Три ==
+  [p7-yazyk.svg] idx=9 x=1463.0 y=168 text='Три'
+      ctx[6] y=168 ' '
+      ctx[7] y=168 'язык'
+      ctx[8] y=168 '\u3000'
+      ctx[10] y=168 ' '
+      ctx[11] y=168 'уровня'
+      ctx[12] y=168 ', '
+
+== core P8: Морозко / Билибин ==
+  [p8-test.svg] idx=2090 x=1450.0 y=2486.3900000000017 text='Морозко'
+      ctx[2087] y=2173.2000000000016 '97'
+      ctx[2088] y=2173.2000000000016 '词）'
+      ctx[2089] y=2486.3900000000017 '«'
+      ctx[2091] y=2486.3900000000017 '»: '
+      ctx[2092] y=2486.3900000000017 'иллюстрация'
+      ctx[2093] y=2486.3900000000017 ' '
+
+  [p8-test.svg] idx=2096 x=1755.0 y=2486.3900000000017 text='Билибина'
+      ctx[2093] y=2486.3900000000017 ' '
+      ctx[2094] y=2486.3900000000017 'Ивана'
+      ctx[2095] y=2486.3900000000017 ' '
+      ctx[2097] y=2486.3900000000017 ','
+      ctx[2098] y=2512.040000000002 '1932 '
+      ctx[2099] y=2512.040000000002 'год'
+
+  [p8-test.svg] idx=2114 x=1594.4 y=2539.690000000002 text='Билибин'
+      ctx[2111] y=2539.690000000002 ': '
+      ctx[2112] y=2539.690000000002 'Иван'
+      ctx[2113] y=2539.690000000002 ' '
+      ctx[2115] y=2539.690000000002 ' '
+      ctx[2116] y=2539.690000000002 '— '
+      ctx[2117] y=2539.690000000002 'общественное'
+
+== images: core P8 ==
+  {'x': '1439.5', 'y': '2212.3900000000017', 'w': '422.5', 'h': '250', 'href_head': 'data:image/jpeg;base64,/9j/4AAQSkZJRgABA', 'href_len': 635979}
+== images: en P8 ==
+== images: core P6/P7 vs en P6/P7 (counts) ==
+p6-razbor.svg core images: 0 en images: 0
+p7-yazyk.svg core images: 1 en images: 1
+== en P6 chart label (what replaced УЧЕБНЫЕ ДАННЫЕ?) ==
+  [p6-razbor.svg] idx=427 x=529.7 y=1552 text='?\u3000PRACTICE DATA'
+      ctx[424] y=1552 'ЭТОЙ'
+      ctx[425] y=1552 ' '
+      ctx[426] y=1552 'НЕДЕЛЕ'
+      ctx[428] y=1582 'This is a practice survey made up by the editors for the exercises — not real statistics.'
+      ctx[429] y=1634 'Работа'
+      ctx[430] y=1634 ' '
+
+== en P7 header (what replaced Три темы?) ==
+  [p7-yazyk.svg] idx=8 x=1605.0 y=168 text='\u3000Three levels, three topics'
+      ctx[5] y=168 'на'
+      ctx[6] y=168 ' '
+      ctx[7] y=168 'язык'
+      ctx[9] y=224 'A2\u3000'
+      ctx[10] y=224 'СЛОВА'
+      ctx[11] y=224 ' '
+

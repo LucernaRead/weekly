@@ -1,0 +1,12 @@
+== occlusion selftest ==
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+RC=0
+== occlusion edition ==
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-en-pt/svg: 0 flags 
+core: 0 flags; NEW vs core: 0
+RC=0
+== occlusion core ==
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/core-en/svg: 0 flags 
+RC=0

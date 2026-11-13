@@ -1,0 +1,30 @@
+cream boxes total: 36
+STRADDLE flags: 5
+  STRADDLE {'page': 'p2-life.svg', 'text': '耶誕城小檔\u3000Крисмасленд: коротко', 'ink': [1461.5, 1452.5, 1903.5, 1479.5], 'cream': [1439.5, 1430.0, 1862.0, 1890.0]}
+  STRADDLE {'page': 'p3-culture.svg', 'text': '金馬小表\u3000«Золотая лошадь»: коротко', 'ink': [1461.5, 671.8, 1942.2, 699.1], 'cream': [1439.5, 649.6, 1862.0, 1119.6]}
+  STRADDLE {'page': 'p3-culture.svg', 'text': '鋼雕閉幕行程\u3000Последние выходные', 'ink': [1461.5, 1428.1, 1915.5, 1454.6], 'cream': [1439.5, 1405.6, 1862.0, 1855.6]}
+  STRADDLE {'page': 'p4-sport.svg', 'text': 'занимаетесь спортом?', 'ink': [1461.5, 1346.9, 1683.5, 1366.7], 'cream': [1439.5, 1128.0, 1862.0, 1358.0]}
+  STRADDLE {'page': 'p5-youth.svg', 'text': '迪士尼聖誕小檔\u3000Дисней: коротко', 'ink': [1461.5, 672.1, 1876.2, 699.1], 'cream': [1439.5, 649.6, 1862.0, 1119.6]}
+CREAM-COVER flags: 0
+min bottom clearance per page:
+  p1-front.svg: min bottom clearance 16.8px over 5 boxes
+  p2-life.svg: min bottom clearance 15.6px over 6 boxes
+  p3-culture.svg: min bottom clearance 11.3px over 7 boxes
+  p4-sport.svg: min bottom clearance 17.3px over 4 boxes
+  p5-youth.svg: min bottom clearance 4.4px over 8 boxes
+  p6-deep.svg: min bottom clearance 17.1px over 3 boxes
+  p7-lang.svg: min bottom clearance 7.7px over 3 boxes
+P7 cream boxes (clearance = ink-to-edge px):
+  [1439.5, 200.0, 1862.0, 877.6] inner: 39 clearance: {'left': 22.0, 'right': 24.5, 'top': 22.0, 'bottom': 36.8}
+  [1439.5, 889.6, 1862.0, 1171.6] inner: 27 clearance: {'left': 22.0, 'right': 38.2, 'top': 22.2, 'bottom': 7.7}
+  [1439.5, 1183.6, 1862.0, 1823.3] inner: 24 clearance: {'left': 22.0, 'right': 13.5, 'top': 22.2, 'bottom': 9.5}
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw/gtools/creambox-pil.py", line 82, in <module>
+    (S / "creambox.json").write_text(json.dumps(report, ensure_ascii=False, indent=1))
+  File "/usr/lib/python3.12/pathlib.py", line 1049, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-zh-tw-ru1/gates/old-ru/creambox.json'

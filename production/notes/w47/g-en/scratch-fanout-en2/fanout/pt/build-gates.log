@@ -1,0 +1,195 @@
+===== build pt (ED=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt) =====
+== run.py ==
+run RC=0
+0
+  flow[P1-headline] ended col 2/2 y=1806 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+  flow[P2-feature] ended col 2/2 y=1497 (bottom 1540)
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1649 (bottom 2560)
+  flow[P4-main] ended col 2/2 y=2074 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1655 (bottom 2560)
+  flow[P5-main] ended col 2/2 y=657 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+  flow[P6-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+  flow[P7-main] ended col 2/2 y=1786 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2447 (bottom 2560)
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2443 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+== render.py ==
+render RC=0
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/cards/p8-test.png 1251105
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.pdf 29345708
+== dump_reg ==
+dump_reg RC=0
+  flow[P1-headline] ended col 2/2 y=1806 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=1497 (bottom 1540)
+P2 col3 ends 1544.8999999999999
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+P2 saved, exercises so far: 27
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1649 (bottom 2560)
+P3 saved, exercises so far: 45
+  flow[P4-main] ended col 2/2 y=2074 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1655 (bottom 2560)
+P4 saved, exercises so far: 63
+  flow[P5-main] ended col 2/2 y=657 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+P5 saved, exercises so far: 81
+  flow[P6-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+P6 saved, exercises so far: 99
+  flow[P7-main] ended col 2/2 y=1786 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2447 (bottom 2560)
+P7 saved, exercises so far: 111
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2443 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+registry: 150
+by page: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+by level: {'A2': 62, 'B1': 66, 'B2': 22}
+by type: {'Completar frases': 34, 'Múltipla escolha': 41, 'Transformação': 16, 'Emparelhamento': 20, 'Leitura de gráficos': 6, 'Frases de ouro': 1, 'Comparativos': 1, 'Passado': 2, 'Futuro': 1, 'Tempos verbais': 1, 'Subordinadas': 1, 'Correção': 4, 'Completar o texto': 8, 'Compreensão de leitura': 4, 'Traduzir': 4, 'Diálogo': 5, 'Redação': 1}
+registry total 150
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg: 0 flags 
+== p8 extract (core + ed) ==
+core extract RC=0
+ed extract RC=0
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+== keycheck (registry vs p8 extract; registry keys vs core) ==
+keycheck RC=0
+registry-vs-p8extract exact 149/150 exc=[150] mismatch=[]
+registry-keys-vs-core: 145/150 match; diff=[(137, 'Os democratas venceram a Câmara e o Senado.', '民主党赢下了众议院和参议院。'), (138, 'A apuração continua.', '计票仍在继续。'), (139, 'O novo Congresso se reunirá em janeiro de 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Quebre o silêncio.', '打破沉默。'), (150, 'Questão aberta — veja os pontos no quadro de redação; o modelo está no quadro desta página', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125 key: A expect A; Q46 key: A expect A; Q52: hosted expect hosted; Q55: won expect won
+Q82/83/84 keys: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none
+== freeze baseline ==
+freeze baseline RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-front.svg core 16be1b382d50fce9 produced 16be1b382d50fce9
+  OK  p2-life.svg core 23d1d7c4b25f138f produced 23d1d7c4b25f138f
+  OK  p3-culture.svg core 22aa9881ef4a36f4 produced 22aa9881ef4a36f4
+  OK  p4-sport.svg core 8151afbf5ace1638 produced 8151afbf5ace1638
+  OK  p5-youth.svg core cbecfa6c325f84e8 produced cbecfa6c325f84e8
+  OK  p6-deep.svg core 48167a629af0b2e3 produced 48167a629af0b2e3
+  OK  p7-lang.svg core 61007a0d7731f578 produced 61007a0d7731f578
+  OK  p8-test.svg core 1365ad54d62bd296 produced 1365ad54d62bd296
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze diff ==
+freeze diff RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +34 strings / -33 strings; CJK core 202 -> edition 22; added CJK chars: 2 {'\u3000': 2}
+p2: +43 strings / -54 strings; CJK core 278 -> edition 18; added CJK chars: 1 {'\u3000': 1}
+p3: +27 strings / -23 strings; CJK core 146 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +25 strings / -22 strings; CJK core 143 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p5: +25 strings / -22 strings; CJK core 132 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +25 strings / -21 strings; CJK core 159 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p7: +65 strings / -55 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+p8: +105 strings / -99 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9
+== webpdf ==
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 26428 bytes
+  font LucernaUnifrakturMaguntia-Regular: 32176 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.web.pdf: 2418233 bytes, 49271 text bytes
+== print/web text diff ==
+printweb RC=0
+print chars 47926 web chars 47926
+token multiset diff total: 0
+only in print: []
+only in web: []
+page 1: identical=True print=4890B web=4890B
+page 2: identical=True print=5835B web=5835B
+page 3: identical=True print=5315B web=5315B
+page 4: identical=True print=5760B web=5760B
+page 5: identical=True print=4686B web=4686B
+page 6: identical=True print=5637B web=5637B
+page 7: identical=True print=6036B web=6036B
+page 8: identical=True print=9767B web=9767B
+== text.md ==
+textmd RC=0
+recorded blocks: 498
+stub registry total: 150
+real registry total: 150
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/2026-w47-en-pt.text.md 54123
+== check_s11 ==
+check_s11 RC=0
+P8 Q113-120 options line with [A2] tag present
+P8 'Levels: 145-149 [A2]' present
+P8 Q120 [A2] chip OK
+P8 WRITING head present: ['H\u3000WRITING\u3000Escrita [B1]']
+ALL §1.1/P8 CHECKS PASS
+== boxtitle sweep (source titles, 23pt) ==
+boxtitle RC=0
+box titles measured: 12; over budget: 0
+    395.6 margin    +8.9 [content56.py] 'HOW LONG?\u3000Duração do mandato'
+    390.9 margin   +13.6 [content12.py] 'THE WEEK IN NUMBERS\u3000Números'
+    367.2 margin   +37.3 [content12.py] 'SENATE IN NUMBERS\u3000O Senado'
+    348.1 margin   +56.4 [content34.py] "HAYMITCH'S GAMES\u3000Os Jogos"
+    346.2 margin   +58.2 [content56.py] 'ODD SOCKS, IN NUMBERS\u3000N.º'
+    334.8 margin   +69.7 [content34.py] 'WHY PERTH?\u3000Por que Perth?'
+    327.4 margin   +77.1 [content7.py] 'THE TOOLBOX\u3000Ferramentas'
+    325.7 margin   +78.8 [content56.py] 'A PRACTICE BALLOT\u3000Cédula'
+boxtitle sweep PASS
+== svg boxtitle sweep (rendered SVGs, advance + ink) ==
+svg boxtitle RC=0
+  p7-lang.svg:   327.4 margin   +77.1 'THE TOOLBOX\u3000Ferramentas'
+  p8-test.svg:   188.0 margin  +663.0 'MODEL\u3000Modelo'
+box titles checked: 18; overflows: 0
+svg boxtitle sweep PASS
+== creambox canonical scan ==
+creambox RC=0
+  P7-TOOLBOX summary: 7 boxes, min inside clearance +47.7, min desc-clear +41.6
+== edition verify (Q39/40, Ashes, SAY IT, P8 font, text.md) ==
+verify RC=0
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS Q39 key a — a
+PASS Q40 key d — d
+PASS Q39 note mentor=a — 'mentor = um mentor a'
+PASS Q40 note arena=d — 'arena = a arena d'
+PASS Q40 note not estadio/stadio — 'arena = a arena d'
+PASS Q46 key A
+PASS Q46 note 2025 — 'O primeiro Test das Ashes 2025–26: sexta-feira, 21 de novembro de 2025, em Perth'
+PASS Q52 key hosted
+PASS Q55 key won
+PASS Q125 key A
+PASS Q125 note 4-1 — 'A Austrália venceu as Ashes 2025–26 por 4–1'
+PASS registry notes: no stale Ashes phrasing — []
+PASS text.md has 150 answers — found 150
+PASS text.md Q39 a — a
+PASS text.md Q40 d — d
+PASS text.md Q125 A — A
+PASS text.md: Arsenal are winning
+PASS text.md: no 'Perth is winning'
+PASS text.md: no 'second week in Perth'
+PASS text.md: Ashes retrospective present
+PASS text.md: no 'Ashes begin'
+PASS P8 min PDF font >= 9.75pt — min 10.12pt
+PASS SVG: zero real CJK (only U+3000 allowed) — []
+VERIFY ALL PASS
+== pdf sha/size ==
+3f6b415fa35195ca49605414b5a756a01f0457032cc5c6acc75075e49c221dad  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.pdf
+0252edc42a4981413c25067e8ed60bb5069994f86c10a4d25a0b8483e0846629  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.web.pdf
+12b04ff13b12db5232d3114816f287c2d72a69df164e0273269409ef3148d545  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/2026-w47-en-pt.text.md
+29345708 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.pdf
+2418233 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.web.pdf
+54123 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/2026-w47-en-pt.text.md
+DONE pt

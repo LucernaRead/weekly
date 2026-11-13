@@ -1,0 +1,21 @@
+== gloss occurrence ==
+  gloss fails: 0
+== P7 phrases ==
+  ok p2: 수능까지 3일 남았어요. 오늘이 D-3예요
+  ok p1: 김장비용은 4인 가족 20포기 기준 199,456원이에요
+  ok p4: 삼성이 12년 만에 우승했어요
+  ok p2: 11월 22일은 김치의 날이에요
+  ok p3: 예보 날짜와 실제 관측 날짜는 달라요
+  ok p6: 결과를 점수와 함께 전했어요
+  ok p7: 수능 후에 김치의 날이 와요
+  ok p6: 발표가 결과로 바뀐 것이에요
+  phrases all verbatim: True
+== orphan scan (window 10-45, >=3-syllable tail) ==
+  (4, 'PAREN-FRAG', 2098.225, '신문에 나온 일이에요.)')
+  orphan issues: 1
+== dates ==
+  2026-11-16 Mon -> 3 days = D-3
+  2026-11-18 Wed -> 1 days = D-1
+  2026-11-19 Thu -> 0 days = D-day
+  2026-11-22 Sun -> -3 days = 김치의 날
+  Nov 16 weekday: Monday | Nov 18: Wednesday | Nov 19: Thursday | Nov 22: Sunday | Nov 28: Saturday

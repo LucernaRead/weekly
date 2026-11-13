@@ -1,0 +1,13 @@
+=== registry diff (pre -> post) ===
+583c583
+<   "key": "speak",
+---
+>   "key": "up",
+rc=1
+
+=== text.md diff (pre -> post) ===
+1151c1151
+< 73. [A2] Completar frases — speak (speak up = falar sem medo)
+---
+> 73. [A2] Completar frases — up (speak up = falar sem medo)
+rc=1

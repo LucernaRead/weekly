@@ -1,0 +1,279 @@
+== 0 verify.py (TOTAL + determinism) ==
+verify RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+SOP 1.1 style audit (paper/badges/palette/margins): True | old-style hexes found: []
+== 1a p8 extract edition ==
+edition extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1a2 p8 extract core ==
+core extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1b p8 compare --total 150 vs core-de ==
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+== 2 occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw/svg: 0 flags 
+== 3a boxtitle ==
+boxtitle RC=0
+== 2026-w47-de-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-de backup=-
+BOXTITLE 2026-w47-de-zh-tw: 48 titles, 324 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+== 3b spill ==
+spill RC=0
+== 2026-w47-de-zh-tw  (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw)
+P1 box=(538.5,1410.6,422.5,359.9) bottom=1770.5
+   ABOVE -38.72px x=538.5 y=1371.9 [observe] 'der Totensonntag = '
+P1 box=(538.5,1410.6,422.5,359.9) bottom=1770.5
+   ABOVE -38.72px x=725.9 y=1371.9 [observe] '追思主日。'
+P1 box=(538.5,1410.6,422.5,359.9) bottom=1770.5
+   SIDE x=989.0 y=1418.3 [observe] 'Punkte.'
+P1 box=(538.5,1410.6,422.5,359.9) bottom=1770.5
+   SIDE x=1005.9 y=1483.2 [observe] 'B1'
+P1 box=(538.5,1410.6,422.5,359.9) bottom=1770.5
+   SIDE x=989.0 y=1511.2 [observe] 'Der erste Advent ist am ___.'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1758.4 y=568.0 [observe] '見第'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1798.8 y=568.0 [observe] '4 '
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1814.0 y=568.0 [observe] '頁'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   BELOW +24.00px x=1439.5 y=1676.0 [observe] 'DAS WORT DER WOCHE'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1461.5 y=1274.0 [observe] '德國本週五大熱門問題。'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1498.5 y=2348.0 [observe] '讀第'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1543.4 y=2348.0 [observe] '1 '
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1560.2 y=2348.0 [observe] '頁，選出正確答案\u3000答案在第'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1825.1 y=2348.0 [observe] '8 '
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1842.0 y=2348.0 [observe] '頁'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1439.5 y=1830.2 [observe] '將臨期日曆（'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1553.5 y=1830.2 [observe] '24 '
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1580.9 y=1830.2 [observe] '個小門）。見第'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1718.6 y=1830.2 [observe] '5 '
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1734.6 y=1830.2 [observe] '頁。'
+P2 box=(538.5,776.2,422.5,175.4) bottom=951.6
+   ABOVE -46.48px x=538.5 y=729.8 [observe] 'beieinander.'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1634.0 y=168.0 [observe] '\u3000懺悔祈禱日與日常生活'
+P2 box=(1439.5,522.6,422.5,327.2) bottom=849.8
+   ABOVE -45.53px x=1461.5 y=477.1 [observe] 'freier Tag.'
+P2 box=(1439.5,875.8,422.5,291.1) bottom=1166.9
+   ABOVE -45.53px x=1461.5 y=830.3 [observe] '3 bis 24 Uhr verboten.'
+P2 box=(1439.5,1192.9,422.5,327.2) bottom=1520.1
+   ABOVE -47.60px x=1461.5 y=1145.3 [observe] '麼？用德文寫兩個句子！'
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   ABOVE -46.48px x=989.0 y=622.8 [observe] 'schnell kalt.'
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=672.7 [observe] 'der Weihnachtsmarkt — '
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=736.2 [observe] 'der Glühwein — '
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=799.8 [observe] 'der Lebkuchen — '
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=863.3 [observe] 'der Adventskalender — '
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1634.0 y=168.0 [observe] '\u3000聖誕市集與寧靜的一週'
+P3 box=(1439.5,583.7,422.5,426.2) bottom=1009.9
+   ABOVE -45.53px x=1461.5 y=538.2 [observe] 'Uhr.'
+P3 box=(1439.5,1035.9,422.5,291.1) bottom=1327.0
+   ABOVE -45.53px x=1461.5 y=990.4 [observe] 'die Kerze — '
+P3 box=(1439.5,1035.9,422.5,291.1) bottom=1327.0
+   ABOVE -45.53px x=1579.9 y=990.4 [observe] '蠟燭'
+P3 box=(1439.5,1353.0,422.5,169.6) bottom=1522.6
+   ABOVE -47.60px x=1461.5 y=1305.4 [observe] '什麼？用德文寫兩個句子！'
+P4 box=(989.0,489.4,422.5,145.7) bottom=635.0
+   ABOVE -46.48px x=989.0 y=442.9 [observe] 'Sonntag mit Bremen gegen Hamburg.'
+P4 box=(1439.5,864.9,422.5,291.1) bottom=1156.0
+   ABOVE -46.15px x=1439.5 y=818.7 [observe] 'Florida, 2010) — public domain'
+P5 box=(989.0,815.2,422.5,175.4) bottom=990.6
+   ABOVE -46.48px x=989.0 y=768.7 [observe] 'Köln. Mehr dazu auf Seite 4.'
+P5 box=(989.0,815.2,422.5,175.4) bottom=990.6
+   SIDE x=1461.5 y=832.8 [observe] 'die Schokolade — '
+P5 box=(989.0,815.2,422.5,175.4) bottom=990.6
+   SIDE x=1461.5 y=896.3 [observe] 'die Kerze — '
+P5 box=(989.0,815.2,422.5,175.4) bottom=990.6
+   SIDE x=1461.5 y=959.8 [observe] 'der Stern — '
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1580.0 y=168.0 [observe] '\u3000將臨期日曆、願望清單與學校'
+P5 box=(1439.5,553.2,422.5,426.2) bottom=979.4
+   ABOVE -45.53px x=1461.5 y=507.6 [observe] 'Lande des Christkinds“.'
+P5 box=(1439.5,1005.4,422.5,291.1) bottom=1296.5
+   ABOVE -45.53px x=1461.5 y=959.8 [observe] 'der Stern — '
+P5 box=(1439.5,1005.4,422.5,291.1) bottom=1296.5
+   ABOVE -45.53px x=1579.1 y=959.8 [observe] '星星'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1124.9 [observe] 'Adventskalender? Was steht auf'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1155.4 [observe] 'Ihrem Wunschzettel? Schreiben Sie'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1186.0 [observe] 'zwei Sätze auf Deutsch!'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1246.5 [observe] '你會做將臨期日曆嗎？願望清單上寫了什'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1274.9 [observe] '麼？用德文寫兩個句子！'
+P6 box=(989.0,559.8,422.5,175.4) bottom=735.2
+   ABOVE -46.48px x=989.0 y=513.4 [observe] 'den Advent.'
+P6 box=(989.0,559.8,422.5,175.4) bottom=735.2
+   SIDE x=1461.5 y=643.9 [observe] '27.11.'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1469.6 y=168.0 [observe] 'Stille Woche & Haushalt'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1670.0 y=168.0 [observe] '\u3000寧靜的一週與預算'
+P6 box=(1439.5,861.5,422.5,344.5) bottom=1206.0
+   ABOVE -42.11px x=1569.5 y=819.4 [observe] 'Sachsen ein Feiertag.'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1127.6 [observe] '寧靜的日子：追思需要安靜'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1155.3 [observe] '意。預算：電稅降多少尚未決定。兩者幾乎'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1183.0 [observe] '影響每個家庭。'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=104.2 y=845.1 [observe] 'A2'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=160.0 y=846.1 [observe] '101.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=230.0 y=846.1 [observe] '填入'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=88.0 y=586.4 [observe] 'gespielt.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=669.9 [observe] 'BEISPIELE'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=704.9 [observe] '„Der November ist stiller als der'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=734.3 [observe] 'Oktober.“'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=763.7 [observe] 'spannend ist.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=555.4 y=845.1 [observe] 'B1'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=610.5 y=846.1 [observe] '105.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=680.5 y=846.1 [observe] '填入'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=538.5 y=586.4 [observe] 'des Satzes.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=633.4 [observe] 'BEISPIELE'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=668.4 [observe] '„Meiner Meinung nach braucht das'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=697.8 [observe] 'Gedenken Stille.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=727.2 [observe] 'die Einigung gelingt.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +34.00px x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1061.0 y=809.6 [observe] '109.'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1131.0 y=809.6 [observe] '填入'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   ABOVE -46.48px x=989.0 y=549.9 [observe] 'fraglich, ob ...'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=614.4 [observe] 'Es wird gespielt. = '
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=643.6 [observe] '式）'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=699.2 [observe] 'Meiner Meinung nach = '
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=754.8 [observe] 'Es ist fraglich, ob ... = '
+P7 box=(1439.5,330.0,422.5,444.0) bottom=774.0
+   BELOW +58.00px x=1461.5 y=832.0 [observe] 'LESERBRIEFE'
+P7 box=(1439.5,330.0,422.5,444.0) bottom=774.0
+   BELOW +58.00px x=1634.2 y=832.0 [observe] '\u3000讀者來信'
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   BELOW +56.00px x=1461.5 y=1370.5 [observe] 'NOCH EIN WORT'
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   BELOW +56.00px x=1660.6 y=1370.5 [observe] '\u3000再說一句'
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   ABOVE -35.23px x=1461.5 y=754.8 [observe] 'Es ist fraglich, ob ... = '
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   ABOVE -35.23px x=1664.1 y=754.8 [observe] '是否'
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   ABOVE -35.23px x=1705.1 y=754.8 [observe] '……'
+P7 box=(1439.5,790.0,422.5,524.5) bottom=1314.5
+   ABOVE -35.23px x=1733.1 y=754.8 [observe] '尚未確定'
+P7 box=(1439.5,1330.5,422.5,150.0) bottom=1480.5
+   ABOVE -53.77px x=1461.5 y=1276.7 [observe] '編輯範例：截稿前尚未收到真正的來信。請'
+P7 box=(1439.5,1330.5,422.5,150.0) bottom=1480.5
+   ABOVE -26.08px x=1461.5 y=1304.4 [observe] '將你的習作寄來'
+P7 box=(1439.5,1330.5,422.5,150.0) bottom=1480.5
+   ABOVE -26.08px x=1602.8 y=1304.4 [observe] 'VOL.5'
+P7 box=(1439.5,1330.5,422.5,150.0) bottom=1480.5
+   ABOVE -26.08px x=1661.3 y=1304.4 [observe] '。'
+SPILL_SWEEP 2026-w47-de-zh-tw: 32 boxes, 99 candidates, 0 SPILL, 99 OBSERVE
+== 3c edge ==
+edge RC=0
+  P1: clean min_dist_pt={'top': 58.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.4}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 47.5}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 65.5}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 47.5}
+EDGE_SCAN 2026-w47-de-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+== 3d head_check on run-build log ==
+head RC=0
+HEAD CHECK PASS 0 defects
+== 4 d5 census ==
+d5 RC=0
+p1-front.svg: els=242 news=197 cjk_sans=34 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=5
+p2-leben.svg: els=259 news=204 cjk_sans=50 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p3-kultur.svg: els=306 news=245 cjk_sans=51 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p4-sport.svg: els=241 news=203 cjk_sans=38 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p5-jugend.svg: els=278 news=219 cjk_sans=49 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=6
+p6-vertiefung.svg: els=271 news=221 cjk_sans=50 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-sprache.svg: els=277 news=202 cjk_sans=53 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=21
+p8-uebungen.svg: els=1290 news=878 cjk_sans=401 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=1
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=33 curly_in_newsreader=33 noto_sans_elements=0
+CENSUS PASS
+== 5 freeze diff core-de vs edition ==
+freeze RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +50 strings / -44 strings; CJK core 200 -> edition 204; added CJK chars: 103 {'週': 8, '刊': 3, '德': 1, '國': 4, '讀': 3, '文': 8, '歸': 2, '寧': 1, '靜': 1, '・': 1}; added Latin strings: 3 (unexpected 3)
+p2: +55 strings / -46 strings; CJK core 232 -> edition 202; added CJK chars: 82 {'懺': 2, '禱': 2, '與': 1, '註': 1, '的': 2, '長': 1, '期': 1, '照': 1, '護': 1, '險': 1}; added Latin strings: 7 (unexpected 7)
+p3: +57 strings / -51 strings; CJK core 219 -> edition 227; added CJK chars: 128 {'文': 3, '聖': 6, '誕': 6, '集': 4, '與': 1, '寧': 1, '靜': 1, '週': 2, '註': 1, '屋': 1}; added Latin strings: 6 (unexpected 6)
+p4: +42 strings / -37 strings; CJK core 185 -> edition 161; added CJK chars: 73 {'運': 1, '動': 1, '賽': 6, '與': 2, '聯': 2, '歸': 1, '註': 1, '進': 2, '輪': 1, '次': 1}; added Latin strings: 5 (unexpected 5)
+p5: +57 strings / -52 strings; CJK core 221 -> edition 217; added CJK chars: 121 {'將': 4, '臨': 4, '期': 4, '曆': 3, '願': 4, '清': 4, '單': 4, '與': 1, '學': 1, '註': 1}; added Latin strings: 6 (unexpected 6)
+p6: +57 strings / -50 strings; CJK core 254 -> edition 233; added CJK chars: 103 {'入': 10, '閱': 1, '讀': 3, '寧': 4, '靜': 5, '的': 2, '週': 3, '與': 1, '預': 3, '註': 1}; added Latin strings: 7 (unexpected 7)
+p7: +68 strings / -67 strings; CJK core 445 -> edition 403; added CJK chars: 170 {'語': 3, '週': 9, '佳': 3, '與': 1, '錯': 4, '誤': 4, '診': 3, '這': 2, '一': 1, '頁': 4}; added Latin strings: 4 (unexpected 4)
+p8: +402 strings / -359 strings; CJK core 1445 -> edition 1349; added CJK chars: 504 {'練': 1, '習': 1, '與': 3, '期': 2, '末': 1, '測': 1, '驗': 1, '在': 10, '頁': 12, '選': 2}; added Latin strings: 99 (unexpected 99)
+TOTAL added CJK characters: 1284
+TOTAL added Latin strings: 137 (unexpected 137)
+== 6a FRESH text extraction print vs web (post) ==
+print non-space: 34652 web non-space: 34652
+PRINT==WEB MULTISET: True
+== 6b text multiset pre vs post print (expect only the intended char swaps) ==
+pre non-space chars: 34601; post non-space chars: 34652
+MULTISET DIFFERS
+only-in-pre: {'t': 5, 's': 4, 'i': 2, 'W': 1, 'F': 1, 'b': 1, 'h': 1, 'ü': 1, 'ö': 1}
+only-in-post: {'d': 8, 'r': 6, 'a': 6, 'u': 5, 'o': 5, 'g': 5, 'M': 4, 'e': 4, 'k': 3, 'z': 3, 'w': 3, 'ß': 3, 'E': 2, 'D': 2, 'n': 2, 'l': 2, 'm': 2, 'f': 1, ',': 1, 'ä': 1}
+multiset pre/post RC=1 (1 expected: exactly the intended swaps)
+GATES-DONE-2026-w47-de-zh-tw

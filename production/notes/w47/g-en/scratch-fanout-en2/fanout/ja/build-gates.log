@@ -1,0 +1,194 @@
+===== build ja (ED=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja) =====
+== run.py ==
+run RC=0
+0
+  flow[P1-headline] ended col 2/2 y=1751 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+  flow[P2-feature] ended col 2/2 y=1438 (bottom 1540)
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+  flow[P3-main] ended col 2/2 y=1984 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1619 (bottom 2560)
+  flow[P4-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+  flow[P5-main] ended col 2/2 y=597 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+  flow[P6-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+  flow[P7-main] ended col 2/2 y=1613 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2363 (bottom 2560)
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2205 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+== render.py ==
+render RC=0
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/cards/p8-test.png 1330878
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.pdf 41509391
+== dump_reg ==
+dump_reg RC=0
+  flow[P1-headline] ended col 2/2 y=1751 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=1438 (bottom 1540)
+P2 col3 ends 1544.8999999999999
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+P2 saved, exercises so far: 27
+  flow[P3-main] ended col 2/2 y=1984 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1619 (bottom 2560)
+P3 saved, exercises so far: 45
+  flow[P4-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+P4 saved, exercises so far: 63
+  flow[P5-main] ended col 2/2 y=597 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+P5 saved, exercises so far: 81
+  flow[P6-main] ended col 2/2 y=2045 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+P6 saved, exercises so far: 99
+  flow[P7-main] ended col 2/2 y=1613 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2363 (bottom 2560)
+P7 saved, exercises so far: 111
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2205 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+registry: 150
+by page: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+by level: {'A2': 62, 'B1': 66, 'B2': 22}
+by type: {'文の完成': 34, '選択': 41, '文型変換': 16, '語彙マッチング': 20, 'グラフの読み取り': 6, '名文の空所補充': 1, '比較': 1, '過去形': 2, '未来形': 1, '時制': 1, '従属節': 1, '誤り直し': 4, '空所補充': 8, '読解': 4, '翻訳': 4, '会話補完': 5, '作文': 1}
+registry total 150
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg: 0 flags 
+== p8 extract (core + ed) ==
+core extract RC=0
+ed extract RC=0
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+== keycheck (registry vs p8 extract; registry keys vs core) ==
+keycheck RC=0
+registry-vs-p8extract exact 149/150 exc=[] mismatch=[(150, '自由記述 — 要点は作文の枠内、模範文は8ページの作文枠の中', '自由記述 —要点は作文の枠内、模範文は8ページの作文枠の中 (要点ごとに採点) The Lucerna·英語週刊 VOL.4·本文は英語·解説は日本語8 ページ')]
+registry-keys-vs-core: 145/150 match; diff=[(137, '民主党は下院と上院で勝利した。', '民主党赢下了众议院和参议院。'), (138, '開票はまだ続いている。', '计票仍在继续。'), (139, '新議会は2027年1月に開会する。', '新国会将于 2027 年 1 月开会。'), (140, '沈黙を破れ。', '打破沉默。'), (150, '自由記述 — 要点は作文の枠内、模範文は8ページの作文枠の中', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125 key: A expect A; Q46 key: A expect A; Q52: hosted expect hosted; Q55: won expect won
+Q82/83/84 keys: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none
+== freeze baseline ==
+freeze baseline RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-front.svg core bdd374b7f183acec produced bdd374b7f183acec
+  OK  p2-life.svg core 0a14bc312c92bead produced 0a14bc312c92bead
+  OK  p3-culture.svg core 4c0cfc969050035f produced 4c0cfc969050035f
+  OK  p4-sport.svg core bde94f0964a0481f produced bde94f0964a0481f
+  OK  p5-youth.svg core cacd38b4ccae3014 produced cacd38b4ccae3014
+  OK  p6-deep.svg core 68094e9d0f244a58 produced 68094e9d0f244a58
+  OK  p7-lang.svg core f4c57e13d6f0ef44 produced f4c57e13d6f0ef44
+  OK  p8-test.svg core 11fe11349d8a3ec5 produced 11fe11349d8a3ec5
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze diff ==
+freeze diff RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +24 strings / -25 strings; CJK core 202 -> edition 261; added CJK chars: 182 {'\u3000': 2, '毎': 1, '週': 5, '回': 1, '英': 1, '語': 8, '圏': 1, 'で': 5, '話': 1, '題': 1}
+p2: +72 strings / -51 strings; CJK core 278 -> edition 365; added CJK chars: 273 {'\u3000': 1, '暮': 1, 'ら': 1, 'し': 2, '投': 2, '票': 2, 'の': 8, 'あ': 4, 'と': 6, '上': 1}
+p3: +24 strings / -23 strings; CJK core 146 -> edition 201; added CJK chars: 159 {'\u3000': 1, 'カ': 1, 'ル': 1, 'チ': 2, 'ャ': 2, 'ー': 5, '金': 1, '曜': 1, '日': 3, 'の': 2}
+p4: +23 strings / -22 strings; CJK core 143 -> edition 210; added CJK chars: 168 {'\u3000': 1, 'ス': 3, 'ポ': 1, 'ー': 7, 'ツ': 2, 'な': 3, 'ぜ': 1, 'パ': 1, '解': 1, '説': 2}
+p5: +24 strings / -22 strings; CJK core 132 -> edition 186; added CJK chars: 145 {'\u3000': 1, '若': 1, '者': 1, '沈': 2, '黙': 2, 'を': 7, 'れ': 2, '数': 1, '字': 1, 'で': 4}
+p6: +24 strings / -21 strings; CJK core 159 -> edition 216; added CJK chars: 156 {'\u3000': 1, '読': 4, 'み': 1, '日': 1, '後': 1, 'の': 11, '地': 2, '図': 4, '投': 2, '票': 1}
+p7: +58 strings / -54 strings; CJK core 429 -> edition 560; added CJK chars: 435 {'\u3000': 1, '手': 8, 'に': 7, 'し': 11, 'た': 10, 'こ': 9, 'と': 8, 'ば': 2, '今': 4, '週': 3}
+p8: +98 strings / -103 strings; CJK core 634 -> edition 743; added CJK chars: 566 {'\u3000': 1, '練': 1, '習': 1, 'と': 8, '解': 4, '力': 1, 'だ': 4, 'め': 2, 'し': 9, '所': 1}
+TOTAL added CJK characters: 2084
+== webpdf ==
+webpdf RC=0
+  font LucernaNotoSerifCJKJP-Bold: 264144 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30144 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.web.pdf: 2883877 bytes, 49787 text bytes
+== print/web text diff ==
+printweb RC=0
+print chars 43475 web chars 43475
+token multiset diff total: 0
+only in print: []
+only in web: []
+page 1: identical=True print=4409B web=4409B
+page 2: identical=True print=5339B web=5339B
+page 3: identical=True print=5025B web=5025B
+page 4: identical=True print=5505B web=5505B
+page 5: identical=True print=4434B web=4434B
+page 6: identical=True print=5317B web=5317B
+page 7: identical=True print=5164B web=5164B
+page 8: identical=True print=8282B web=8282B
+== text.md ==
+textmd RC=0
+recorded blocks: 498
+stub registry total: 150
+real registry total: 150
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/2026-w47-en-ja.text.md 53588
+== check_s11 ==
+check_s11 RC=0
+P8 Q113-120 options line with [A2] tag present
+P8 'Levels: 145-149 [A2]' present
+P8 Q120 [A2] chip OK
+P8 WRITING head present: ['H\u3000WRITING\u3000作文 [B1]']
+ALL §1.1/P8 CHECKS PASS
+== boxtitle sweep (source titles, 23pt) ==
+boxtitle RC=0
+box titles measured: 12; over budget: 0
+    403.0 margin    +1.5 [content12.py] 'THE WEEK IN NUMBERS\u3000今週の数字'
+    385.4 margin   +19.1 [content34.py] "HAYMITCH'S GAMES\u3000ヘイミッチ戦"
+    380.9 margin   +23.6 [content56.py] 'ODD SOCKS, IN NUMBERS\u3000数字で'
+    379.2 margin   +25.3 [content12.py] 'THE CALENDAR\u3000今週のカレンダー'
+    338.9 margin   +65.6 [content56.py] 'A PRACTICE BALLOT\u3000投票用紙'
+    305.2 margin   +99.3 [content34.py] 'WHY PERTH?\u3000なぜパース？'
+    305.0 margin   +99.5 [content12.py] 'SENATE IN NUMBERS\u3000上院'
+    301.6 margin  +102.9 [content34.py] 'SATURDAY, NOV 21\u3000土曜日'
+boxtitle sweep PASS
+== svg boxtitle sweep (rendered SVGs, advance + ink) ==
+svg boxtitle RC=0
+  p7-lang.svg:   252.6 margin  +151.9 'THE TOOLBOX\u3000道具箱'
+  p8-test.svg:   173.2 margin  +677.8 'MODEL\u3000模範文'
+box titles checked: 18; overflows: 0
+svg boxtitle sweep PASS
+== creambox canonical scan ==
+creambox RC=0
+  P7-TOOLBOX summary: 7 boxes, min inside clearance +47.7, min desc-clear +41.6
+== edition verify (Q39/40, Ashes, SAY IT, P8 font, text.md) ==
+verify RC=0
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS Q39 key a — a
+PASS Q40 key d — d
+PASS Q39 note mentor=a — 'mentor = 指導者 a'
+PASS Q40 note arena=d — 'arena = 競技場 d'
+PASS Q40 note not estadio/stadio — 'arena = 競技場 d'
+PASS Q46 key A
+PASS Q46 note 2025 — '2025–26年アッシュズ初戦は2025年11月21日金曜日、パース'
+PASS Q52 key hosted
+PASS Q55 key won
+PASS Q125 key A
+PASS Q125 note 4-1 — 'オーストラリアが2025–26年のアッシュズを4–1で制した'
+PASS registry notes: no stale Ashes phrasing — []
+PASS text.md has 150 answers — found 150
+PASS text.md Q39 a — a
+PASS text.md Q40 d — d
+PASS text.md Q125 A — A
+PASS text.md: Arsenal are winning
+PASS text.md: no 'Perth is winning'
+PASS text.md: no 'second week in Perth'
+PASS text.md: Ashes retrospective present
+PASS text.md: no 'Ashes begin'
+PASS P8 min PDF font >= 9.75pt — min 10.12pt
+VERIFY ALL PASS
+== pdf sha/size ==
+9f9faaea18807551394977ef536d142da65cfda78b73aa91d807063c0c4b0428  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.pdf
+25645767641d06f1bfdc25f9437eb5c7f3ce0c319612eaabc9e912353f756f49  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.web.pdf
+219ce22d549887f0ca6895a928206ac18b255686e8f50f07296c54cd33d48aa9  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/2026-w47-en-ja.text.md
+41509391 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.pdf
+2883877 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.web.pdf
+53588 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/2026-w47-en-ja.text.md
+DONE ja

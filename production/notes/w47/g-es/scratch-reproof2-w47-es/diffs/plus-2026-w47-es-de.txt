@@ -1,0 +1,335 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　JEDE WOCHE　SPANISCH, WIE SPANIEN ES LIEST", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "SPANISCHE WOCHENZEITUNG　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=4)
+p.text(975, 614, "SPANISCHER TEXT　DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "ERSTE WAHLKAMPFWOCHE　NOCH 13 TAGE BIS ZUR WAHL", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "TITELTHEMA　SEITEN 2 UND 6", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　SCHLAGZEILE", 17, "sans", True, OLIVE)
+f.bridge("Hinweis · la campaña electoral der Wahlkampf · el debate die Debatte · el cara a cara das Duell zu zweit · el voto por correo die Briefwahl · la jornada de reflexión der Tag der Besinnung.")
+f.box("LA SEMANA EN CIFRAS　ZAHLEN", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29 (noch 13 Tage bis zur Wahl)", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27 (15 Tage)", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo (Donnerstag, 19.: letzter Tag)", "serif", False, INK, 20.5, 1.35),
+], tsize=21)
+f.head("AHORA TÚ　DU BIST DRAN", 25)
+f.ex("A2", "Sätze vervollständigen", "13", "Der Wahlkampf beginnt am Freitag, 13. November, um Mitternacht",
+f.ex("A2", "Sätze vervollständigen", "29", "Die Wahl ist am Sonntag, 29. November",
+f.ex("A2", "Sätze vervollständigen", "19", "Die Briefwahl muss spätestens am 19. beantragt werden",
+f.ex("A2", "Sätze vervollständigen", "16", "Internationaler Flamencotag, Montag, 16. November",
+f.ex("B1", "Sätze vervollständigen", "20", "Spieltag 13 beginnt am Freitag, 20. November",
+f.ex("B1", "Sätze vervollständigen", "15", "Der Wahlkampf dauert 15 Tage",
+p.text(gx + 22, gy + 106, "Fünf Themen　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "Fünf Themen, keine erfundenen Zahlen.", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　INHALT", 24, "sans", True, OLIVE)
+p.para(gx, wy + 10, "„Debatte“: Menschen diskutieren öffentlich.", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　KURZNACHRICHTEN", 24, "sans", True, OLIVE)
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　BLITZQUIZ", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Lies die Titelseite und wähle richtig　Antworten auf Seite 8", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "Multiple Choice", "C", "Die Wahl ist am 29. November",
+qf.ex("A2", "Multiple Choice", "B", "Der Wahlkampf dauert 15 Tage",
+qf.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+qf.ex("A2", "Multiple Choice", "B", "Internationaler Flamencotag, 16. November",
+p.band("VIDA　Leben", "La Lucerna", "NIVEL A2　La semana, día a día　Die Woche, Tag für Tag")
+f.box("EL CALENDARIO　DIE WOCHE", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo (Montag: Internationaler Flamencotag; die PP schlägt das Duell Sánchez–Feijóo vor)", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele (Dienstag: der Wahlkampf zieht durch Spanien)", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP) (Mittwoch: die Wohnungsdebatte im Radio, PSOE gegen PP)", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo (Donnerstag: letzter Tag für den Antrag auf Briefwahl)", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00 (Freitagabend: die Liga ist zurück)", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00 (Samstag: das Derby von Sevilla)", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música (Sonntag: Barça gegen Villarreal; Cäcilientag)", "serif", False, INK, 21, 1.36),
+f.gloss("el debate Debatte · el mitin Wahlkampfveranstaltung · el cartel Plakat · el escaño Parlamentssitz.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Was machst du am Montag, 16. November: Flamenco ansehen, Wahlkampf verfolgen oder Fußball schauen? Was magst du lieber: eine Debatte oder ein Derby? Schreib zwei Sätze auf Spanisch und schick sie an die Redaktion.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　UND DU?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Was machst du am Montag, 16. November: Flamenco ansehen, Wahlkampf verfolgen oder Fußball schauen? Was magst du lieber: eine Debatte oder ein Derby? Schreib zwei Sätze auf Spanisch und schick sie an die Redaktion.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　SO SAGT MAN DAS DATUM", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　Montag, 16. bis Sonntag, 22. November", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　Übungen zu Seite 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　Aufgaben gemischt, nach Nummer suchen", 20, "sans", False, GREY, anchor="end")
+e.bridge("Ergänze die Sätze mit der richtigen Datumsform.")
+e.ex("A2", "Sätze vervollständigen", "16", "Montag, 16. November",
+     "El Día del Flamenco es el lunes ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "19", "Donnerstag, 19. November",
+     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "29", "Die Wahl ist am 29. November",
+     "Las elecciones generales son el ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "22", "Sonntag, 22. November",
+     "Santa Cecilia es el domingo ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "noviembre", "Monate klein",
+     "El lunes 16 de ___ es el Día del Flamenco.", instr="Ausfüllen", size=20, gap=8)
+e.bridge("Ergänze die Verben im Präsens.")
+e.ex("A2", "Sätze vervollständigen", "empieza", "la campaña → empieza",
+     "La campaña ___ el viernes 13.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "dura", "la campaña → dura",
+     "La campaña ___ 15 días.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "vuelve", "la Liga → vuelve",
+     "La Liga ___ el viernes 20.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "recorren", "los partidos → recorren",
+     "Los partidos ___ España en campaña.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "llega", "la documentación → llega",
+     "La documentación del voto por correo ___ desde el lunes 9.", instr="Ausfüllen", size=20, gap=8)
+e.bridge("Lies den Artikel und wähle die Antwort.")
+e.ex("A2", "Multiple Choice", "B", "Internationaler Flamencotag, Montag, 16. November",
+e.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+e.ex("A2", "Multiple Choice", "C", "Die Liga ist am Freitag, 20. November, zurück",
+e.ex("B1", "Multiple Choice", "B", "Keine Umfragen vom 24. bis 28. November",
+e.match_set("A2", "Wörter zuordnen",
+            ["debate = Debatte c", "mitin = Veranstaltung b", "cartel = Plakat d", "escaño = Parlamentssitz a"],
+            instr="Zuordnen")
+p.band("CULTURA　Kultur", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　Flamenco und Santa Cecilia")
+f.gloss("el cante Gesang · el toque Gitarre · el baile Tanz · el compás Rhythmus · el duende die Seele des Flamenco.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Hast du schon Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　UND DU?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Hast du schon Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Übungen zu Seite 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　Aufgaben gemischt, nach Nummer suchen", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lies den Text auf Seite 3: richtig oder falsch?")
+e.ex("A2", "Richtig oder falsch", "Verdadero", "Flamencotag, Montag, 16. November",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("A2", "Richtig oder falsch", "Verdadero", "UNESCO: Flamenco seit 2010 Kulturerbe",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("A2", "Richtig oder falsch", "Falso", "Flamenco: Gesang, Gitarre und Tanz in einem",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("B1", "Richtig oder falsch", "Falso", "Cäcilientag ist der 22. November",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("A2", "Richtig oder falsch", "Verdadero", "Stadtmusik Bilbao, Sonntag, 22., 12:00 Uhr",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.bridge("Fülle die Lücken mit den Wörtern aus dem Kasten.")
+e.ex("A2", "Sätze vervollständigen", "cante", "cante = Gesang",
+     "El flamenco es ___, toque y baile.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "baile", "baile = Tanz",
+     "La bailaora mueve los brazos en el ___.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "guitarra", "guitarra = Gitarre",
+     "El toque es la ___ del flamenco.", instr="Ausfüllen", size=20, gap=8)
+e.ex("A2", "Sätze vervollständigen", "palmas", "palmas = Händeklatschen",
+     "El público marca el ritmo con las ___.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "compás", "compás = Rhythmus",
+     "Sin ___ no hay flamenco.", instr="Ausfüllen", size=20, gap=8)
+e.bridge("Wähle die richtige Antwort.")
+e.ex("A2", "Multiple Choice", "B", "Die UNESCO verkündete es 2010 in Nairobi",
+e.ex("A2", "Multiple Choice", "A", "duende ist der Moment, in dem die Musik dich berührt",
+e.ex("B1", "Multiple Choice", "C", "Flamenco entstand aus vielen Kulturen in Andalusien",
+e.ex("B1", "Multiple Choice", "B", "Nach dem Flamencotag kommt die Wahl am 29. November",
+e.bridge("Bilde aus den Wörtern richtige Sätze.")
+e.ex("A2", "Sätze bilden", "El flamenco es cante, toque y baile.", "Satzbau: Subjekt + Verb",
+     "el flamenco / es / cante, toque y baile → ___", instr="Sätze bilden", size=20, gap=8)
+e.ex("B1", "Sätze bilden", "En noviembre suena la guitarra en España.", "Zeit zuerst, Verb an zweiter Stelle",
+     "en noviembre / suena / la guitarra / en España → ___", instr="Sätze bilden", size=20, gap=8)
+e.ex("B1", "Sätze bilden", "En Bilbao toca la banda el domingo.", "Ort zuerst, dann das Verb",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="Sätze bilden", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "Todos preguntan si hay duende.", "Indirekte Fragen mit si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="Umformen", size=20, gap=8)
+p.band("DEPORTE　SPORT", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　Die Liga ist zurück: Spieltag 13")
+f.gloss("la jornada Spieltag · el derbi Derby · el liderato Tabellenführung · el parón Pause · la fase liga Ligaphase.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Welches Spiel siehst du am Samstag um 18:30 Uhr: das Derby von Sevilla oder Real Madrid–Celta? Wer gewinnt die Liga: Barça oder Real Madrid? Schreib zwei Sätze auf Spanisch und schick sie ein.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　UND DU?", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "Welches Spiel siehst du am Samstag um 18:30 Uhr: das Derby von Sevilla oder Real Madrid–Celta? Wer gewinnt die Liga: Barça oder Real Madrid? Schreib zwei Sätze auf Spanisch und schick sie ein.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　Spieltag 13: die sechs Spiele", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　Übungen zu Seite 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　Aufgaben gemischt, nach Nummer suchen", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lies den Text auf Seite 4 und wähle die richtige Antwort.")
+e.ex("B1", "Multiple Choice", "A", "Barça führt mit 33 Punkten",
+e.ex("B1", "Multiple Choice", "B", "Spieltag 13, 20.–23. November",
+e.ex("B1", "Multiple Choice", "C", "Das Derby von Sevilla, Samstag 18:30 Uhr",
+e.ex("B1", "Multiple Choice", "A", "Barça–Villarreal, Sonntag 14:00 Uhr",
+e.ex("B1", "Multiple Choice", "B", "Champions-League-Spieltag 5, 24.–25. November",
+e.match_set("B1", "Wörter zuordnen",
+            ["jornada = Spieltag c", "derbi = Derby b", "liderato = Tabellenführung a", "fase liga = Ligaphase d"],
+            instr="Zuordnen")
+e.bridge("Ergänze den Komparativ oder die -ísimo-Form des Wortes in Klammern.")
+e.ex("B1", "Sätze vervollständigen", "más importante", "más + importante (der Titelkampf zählt mehr)",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "muchísimos", "muchísimos aficionados = sehr viele Fans",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "peor", "Der Komparativ von malo ist peor",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "mejor", "Der Komparativ von bueno ist mejor",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="Ausfüllen", size=20, gap=8)
+e.bridge("Setze die Sätze ins pretérito indefinido (Vergangenheit).")
+e.ex("B1", "Sätze umformen", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="Umformen", size=20, gap=8)
+p.band("JUVENTUD　Jugend", "La Lucerna", "NIVEL B1　Votar por primera vez　Zum ersten Mal wählen")
+f.box("EL PLAN DE LA SEMANA　Der Plan", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña (Montag: Flamencotag und erster Wahlkampfmontag)", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo (Donnerstag: letzter Tag für den Antrag auf Briefwahl)", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00 (Freitagabend: die Liga ist zurück)", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30 (Samstag: das Derby von Sevilla)", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia (Sonntag: Barça gegen Villarreal; Cäcilientag)", "serif", False, INK, 21, 1.36),
+], tsize=21)
+f.gloss("el sobre Briefumschlag · la papeleta Stimmzettel · el censo Wählerverzeichnis · el plazo Frist · la urna Wahlurne.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Würdest du per Brief oder persönlich wählen? Was kaufst du am Black Friday? Schreib zwei Sätze und schick sie ein.", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　UND DU?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Würdest du per Brief oder persönlich wählen? Was kaufst du am Black Friday? Schreib zwei Sätze und schick sie ein.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Übungen zu Seite 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　Aufgaben gemischt, nach Nummer suchen", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lies den Text auf Seite 5 und wähle die richtige Antwort.")
+e.ex("B1", "Multiple Choice", "B", "Die Briefwahl muss spätestens am 19. beantragt werden",
+e.ex("B1", "Multiple Choice", "A", "Die Unterlagen werden ab 9. November verschickt",
+e.ex("B1", "Multiple Choice", "C", "Die Wahllokale sind von 9:00 bis 20:00 Uhr geöffnet",
+e.ex("B1", "Multiple Choice", "B", "MiDNI ist die neue Art, sich auszuweisen",
+e.ex("B1", "Multiple Choice", "A", "Black Friday, Freitag, 27. November",
+e.bridge("Fülle die Lücken mit den Wörtern aus dem Kasten; konjugiere, wo nötig.")
+e.ex("B1", "Sätze vervollständigen", "correo", "correo = Post / postalisch",
+     "Pido el voto por ___.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "papeleta", "papeleta = Stimmzettel",
+     "En casa, relleno la ___.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "envío", "enviar konjugiert → envío",
+     "Después ___ (Infinitiv: enviar) el sobre.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "identidad", "documento de identidad = Ausweis",
+     "Para votar en persona llevo mi documento de ___.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "censo", "censo = Wählerverzeichnis",
+     "La Oficina del ___ envía la documentación.", instr="Ausfüllen", size=20, gap=8)
+e.ex("B1", "Sätze vervollständigen", "plazo", "plazo = Frist (19.)",
+     "El jueves 19 termina el ___ del voto por correo.", instr="Ausfüllen", size=20, gap=8)
+e.bridge("Forme die Sätze mit ir a + Infinitiv um (nahe Zukunft).")
+e.ex("B1", "Sätze umformen", "Voy a pedir el voto por correo.", "voy a + Infinitiv",
+     "Pido el voto por correo. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "Vas a votar el domingo 29.", "vas a + Infinitiv",
+     "Votas el domingo 29. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "Va a abrirse la urna a las 9:00.", "va a + Infinitiv",
+     "La urna se abre a las 9:00. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Sätze umformen", "Van a comparar precios antes de pagar.", "van a + Infinitiv",
+     "Comparan precios antes de pagar. → ___", instr="Umformen", size=20, gap=8)
+e.ex("B1", "Richtig oder falsch", "Verdadero", "Die Briefwahl kann bei Correos beantragt werden",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("B1", "Richtig oder falsch", "Falso", "Der Tag der Besinnung ist Samstag, 28., nicht Sonntag",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+e.ex("B1", "Richtig oder falsch", "Verdadero", "Mit MiDNI ausweisen und wählen",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="Richtig oder falsch", size=20, gap=8)
+p.band("A FONDO　HINTERGRUND", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Den Wahlkampf lesen: Debatten, Programme und Umfragen")
+p.text(MX, ey + 28, "EJERCICIOS　Übungen zu Seite 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antworten auf Seite 8　Aufgaben gemischt, nach Nummer suchen", 20, "sans", False, GREY, anchor="end")
+e.bridge("Sieh dir die beiden Grafiken oben an und wähle die richtige Antwort.")
+e.ex("B2", "Multiple Choice", "A", "Je 45 Gratisminuten für PSOE und PP",
+e.ex("B2", "Multiple Choice", "B", "Insgesamt 195 Minuten Gratiszeit",
+e.ex("B2", "Multiple Choice", "C", "Podemos: 15 Minuten",
+e.ex("B2", "Multiple Choice", "A", "5 Tage ohne Umfragen (24.–28. November)",
+e.ex("B2", "Multiple Choice", "B", "45 − 30 = 15",
+e.ex("B2", "Multiple Choice", "C", "Nur Gratiszeiten der Wahlleitung, mit Quelle",
+e.ex("B2", "Multiple Choice", "B", "Bis 10. November nur die laSexta-Debatte",
+e.ex("B2", "Multiple Choice", "A", "Die laSexta-Debatte, Freitag, 13. November, 21:30 Uhr",
+e.ex("B2", "Multiple Choice", "C", "„Vorgeschlagen“ ist nicht „beschlossen“",
+e.ex("B2", "Multiple Choice", "B", "Umfrage: Foto mit Fehlermarge, an einem Tag",
+e.ex("B2", "Sätze vervollständigen", "tenga", "es posible que + Subjunktiv: tenga",
+     "Es posible que el debate ___ (tener) cuatro portavoces.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "sea", "es importante que + Subjunktiv: sea",
+     "Es importante que cada dato ___ (ser) claro.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "para que", "para que + Subjunktiv (Zweck)",
+     "Publicamos la fuente ___ todos puedan comprobarla.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "Aunque", "Aunque + Indikativ (bekannte Tatsache)",
+     "___ los debates difieren, ninguno miente.", instr="Ausfüllen", size=18.5, gap=2)
+e.bridge("Fülle die Lücken mit den Wörtern aus dem Kasten: sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "Sätze vervollständigen", "sondeo", "sondeo = Umfrage",
+     "Un ___ pregunta a una muestra de ciudadanos.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "muestra", "muestra = Stichprobe",
+     "El sondeo preguntó a una ___ de ciudadanos.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "indecisos", "indecisos = Unentschlossene",
+     "Los ___ todavía no saben a quién votar.", instr="Ausfüllen", size=18.5, gap=2)
+e.ex("B2", "Sätze vervollständigen", "margen de error", "margen de error = Fehlermarge",
+     "Toda encuesta tiene un ___.", instr="Ausfüllen", size=18.5, gap=2)
+p.band("LENGUA　SPRACHE", "La Lucerna", "Sprachfokus　Tres niveles, tres herramientas　Drei Stufen, drei Werkzeuge")
+a.bridge("Uhrzeit: es la una (Singular), son las dos (Plural); ein Spiel beginnt a las 21:00.")
+a.ex("A2", "Sätze vervollständigen", "Es", "Für 1 Uhr gilt der Singular Es",
+     "___ la una en punto.", instr="Ausfüllen", size=20.5, gap=10)
+a.ex("A2", "Sätze vervollständigen", "Son", "Für mehrere Stunden nimm den Plural Son",
+     "___ las nueve de la noche.", instr="Ausfüllen", size=20.5, gap=10)
+a.ex("A2", "Sätze vervollständigen", "las", "a las 21:00 (mit der Präposition a)",
+     "El derbi es el sábado a ___ 18:30.", instr="Ausfüllen", size=20.5, gap=10)
+a.ex("A2", "Multiple Choice", "B", "1 Uhr heißt Es la una",
+b.bridge("Komparative: más … que, tan … como; bueno → mejor, malo → peor; niemals más mejor.")
+b.ex("B1", "Sätze vervollständigen", "más goles", "más + goles (mehr Tore)",
+     "El Barça marca ___ que el año pasado. (goles)", instr="Ausfüllen", size=20.5, gap=10)
+b.ex("B1", "Sätze vervollständigen", "tan rápido", "tan + rápido + como (genau so schnell)",
+     "El derbi es ___ como siempre. (rápido)", instr="Ausfüllen", size=20.5, gap=10)
+b.ex("B1", "Sätze vervollständigen", "mejor", "Der Komparativ von bueno ist mejor (ohne más)",
+     "Un debate claro es ___ (bueno) que un titular.", instr="Ausfüllen", size=20.5, gap=10)
+b.ex("B1", "Multiple Choice", "B", "más mejor ist falsch",
+c.bridge("es necesario que, para que und ojalá mit Subjunktiv; creo que mit Indikativ.")
+c.ex("B2", "Sätze vervollständigen", "baje", "es necesario que + Subjunktiv: baje",
+     "Es necesario que el precio ___ (bajar).", instr="Ausfüllen", size=20.5, gap=10)
+c.ex("B2", "Sätze vervollständigen", "sea", "para que + Subjunktiv: sea",
+     "Publicamos la fuente para que todo ___ (ser) claro.", instr="Ausfüllen", size=20.5, gap=10)
+c.ex("B2", "Sätze vervollständigen", "es", "creo que + Indikativ: es",
+     "Creo que el debate ___ (ser) útil.", instr="Ausfüllen", size=20.5, gap=10)
+c.ex("B2", "Multiple Choice", "B", "ojalá + Konjunktiv: tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "1 Uhr ist Singular: nimm es."),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor ist schon Komparativ: kein más."),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente ist Singular: Verb im Singular."),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que behauptet: Indikativ es."),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　Fehler", 23, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = Debatte: eine öffentliche Diskussion; die Wahl ist am 29.", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　WORT DER WOCHE", 21, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate = Debatte: eine öffentliche Diskussion; die Wahl ist am 29.", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "Keine echten Leserbriefe bis zum Redaktionsschluss; ein Beispielbrief. Das Versprechen gilt für VOL.5."
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　SÄTZE DER WOCHE (WÖRTLICH AUS DIESER AUSGABE)", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "Der Wahlkampf beginnt am 13. um Mitternacht, dauert 15 Tage, bis zum 27.", "Página 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "Donnerstag, der 19., ist ein Schlüsseltag: letzter Tag für den Antrag auf Briefwahl.", "Página 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "Montag, 16. November, ist der Internationale Flamencotag; Gitarrenmusik erklingt in ganz Spanien.", "Página 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "Flamenco ist nicht nur Tanz: Gesang, Gitarre, Tanz, Händeklatschen, Fersenklopfen und Rhythmus.", "Página 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "Die Liga unterbricht und kehrt zurück: Spieltag 13 läuft von Freitag, 20., bis Montag, 23. November.", "Página 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "Erstmals wählen am 29. November? Zwei Wege: persönlich oder per Brief.", "Página 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "Im Wahlkampf ist nicht alles, was angekündigt wird, schon beschlossen.", "Página 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Eine Umfrage ist ein Foto mit Fehlermarge, an einem bestimmten Tag aufgenommen.", "Página 6"),
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　Nächste Woche (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　ÜBUNGEN UND ANTWORTEN", "La Lucerna", "Seite 8　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "Lückentext (Auswahl)", "A", "el flamenco suena = der Flamenco klingt",
+f.ex("B1", "Lückentext (Auswahl)", "B", "empieza la campaña = der Wahlkampf beginnt",
+f.ex("B1", "Lückentext (Auswahl)", "A", "Die laSexta-Debatte um 21:30 Uhr",
+f.ex("B1", "Lückentext (Auswahl)", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "Lückentext (Auswahl)", "A", "la Liga vuelve = die Liga ist zurück",
+f.ex("B1", "Lückentext (Auswahl)", "B", "Das Derby von Sevilla ist am Samstag",
+f.ex("B1", "Lückentext (Auswahl)", "A", "Santa Cecilia = Schutzpatronin der Musiker",
+f.ex("B1", "Lückentext (Auswahl)", "A", "Spanien wählt am Sonntag, 29.",
+f.ex("A2", "Multiple Choice", "A", "Der Wahlkampf beginnt am Freitag, 13. November",
+f.ex("A2", "Multiple Choice", "B", "Internationaler Flamencotag, 16. November",
+f.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+f.ex("B1", "Multiple Choice", "C", "Das Derby von Sevilla, Samstag 18:30 Uhr",
+f.ex("B1", "Multiple Choice", "B", "Black Friday, Freitag, 27. November",
+f.ex("B1", "Multiple Choice", "C", "MiDNI ist die offizielle Ausweis-App",
+f.ex("B2", "Multiple Choice", "B", "Keine Umfragen vom 24. bis 28. November",
+f.ex("B1", "Multiple Choice", "C", "Champions-League-Spieltag 5, 24.–25. November",
+f.ex("A2", "Multiple Choice", "A", "Lucía sieht am Samstag das Derby in Sevilla",
+f.ex("A2", "Multiple Choice", "A", "Diego sieht am Samstag Real Madrid–Celta",
+f.ex("A2", "Multiple Choice", "A", "Beide lesen vor der Wahl die Programme",
+f.ex("A2", "Multiple Choice", "B", "Der Titel fasst zwei Städte und einen Samstag zusammen",
+f.ex("A2", "Sätze bilden", "El lunes suena el flamenco.", "Zeit zuerst, Verb an zweiter Stelle",
+     "el lunes / suena / el flamenco → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("A2", "Sätze bilden", "El sábado vemos el derbi.", "Zeit zuerst",
+     "el sábado / vemos / el derbi → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("B1", "Sätze bilden", "La campaña dura quince días.", "Subjekt + Verb + Zeit",
+     "la campaña / dura / quince días → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("B1", "Sätze bilden", "¿A qué hora empieza el debate?", "Fragewort am Satzanfang",
+     "¿ / a qué hora / empieza / el debate / ? → ___", instr="Sätze bilden", size=15.5, gap=1)
+f.ex("A2", "Übersetzen", "Montag ist der Internationale Flamencotag.", "Vgl. Original.",
+     "El lunes es el Día del Flamenco. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("A2", "Übersetzen", "Am Samstag sehen wir das Derby von Sevilla.", "Vgl. Original.",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("B1", "Übersetzen", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "Die Briefwahl muss spätestens am Donnerstag, 19., beantragt werden. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.ex("B2", "Übersetzen", "Cada promesa tiene que llevar datos.", "tener que = müssen",
+     "Jedes Versprechen braucht Daten. → ___", instr="Übersetzen", size=15.5, gap=1)
+f.match_set("B2", "Wörter zuordnen",
+            ["sondeo=Umfrage c", "muestra=Stichprobe d", "margen de error=Fehlermarge b", "junta electoral=Wahlausschuss a"],
+            instr="Zuordnen")
+f.ex("B1", "Lückentext (Auswahl)", "A", "vengo a votar = ich komme zum Wählen",
+f.ex("B1", "Lückentext (Auswahl)", "A", "documento de identidad = Personalausweis",
+f.ex("B1", "Lückentext (Auswahl)", "A", "¿dónde está la urna? Wo ist die Wahlurne?",
+f.ex("B1", "Lückentext (Auswahl)", "A", "la papeleta va en el sobre = Stimmzettel in den Umschlag",
+f.ex("B1", "Lückentext (Auswahl)", "A", "¿a qué hora cierra el colegio? Um wie viel Uhr schließt es?",
+f.bridge("Schreibaufgabe (keine einzige richtige Antwort); Mustertext (97 Wörter) unten.")
+f.ex("B1", "Schreiben", "Offene Aufgabe — Mustertext unten auf dieser Seite", "Siehe den Mustertext in Abschnitt H (97 Wörter)",
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="Schreiben", size=15.5, gap=1)
+p.text(MX, 1337, "RESPUESTAS　ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "Zu jeder Aufgabe ein deutscher Kurzhinweis　✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "Schreiben":

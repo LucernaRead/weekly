@@ -1,0 +1,35 @@
+== EDITION es-nl ==
+  p1-portada.svg: segments=173 NotoSansCJKSC-latin-only=46 families=['Newsreader', 'Noto Sans CJK SC', 'UnifrakturMaguntia']
+  p2-vida.svg: segments=194 NotoSansCJKSC-latin-only=50 families=['Newsreader', 'Noto Sans CJK SC']
+  p3-cultura.svg: segments=171 NotoSansCJKSC-latin-only=53 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p4-deporte.svg: segments=172 NotoSansCJKSC-latin-only=49 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p5-juventud.svg: segments=179 NotoSansCJKSC-latin-only=50 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p6-afondo.svg: segments=190 NotoSansCJKSC-latin-only=39 families=['Newsreader', 'Noto Sans CJK SC']
+  p7-lengua.svg: segments=158 NotoSansCJKSC-latin-only=52 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p8-ejercicios.svg: segments=375 NotoSansCJKSC-latin-only=57 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  TOTAL by (family, class):
+    'Newsreader' latin-only: 907
+    'Newsreader' other: 28
+    'Noto Sans CJK SC' cjk: 99
+    'Noto Sans CJK SC' latin-only: 396
+    'Noto Sans CJK SC' other: 142
+    'Noto Serif CJK SC' other: 39
+    'UnifrakturMaguntia' latin-only: 1
+== CORE es ==
+  p1-portada.svg: segments=180 NotoSansCJKSC-latin-only=38 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  p2-vida.svg: segments=195 NotoSansCJKSC-latin-only=24 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p3-cultura.svg: segments=167 NotoSansCJKSC-latin-only=25 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p4-deporte.svg: segments=166 NotoSansCJKSC-latin-only=23 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p5-juventud.svg: segments=181 NotoSansCJKSC-latin-only=23 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p6-afondo.svg: segments=189 NotoSansCJKSC-latin-only=27 families=['Newsreader', 'Noto Sans CJK SC']
+  p7-lengua.svg: segments=156 NotoSansCJKSC-latin-only=14 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  p8-ejercicios.svg: segments=724 NotoSansCJKSC-latin-only=44 families=['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC']
+  TOTAL by (family, class):
+    'Newsreader' latin-only: 905
+    'Newsreader' other: 137
+    'Noto Sans CJK SC' cjk: 249
+    'Noto Sans CJK SC' latin-only: 218
+    'Noto Sans CJK SC' other: 141
+    'Noto Serif CJK SC' cjk: 270
+    'Noto Serif CJK SC' other: 37
+    'UnifrakturMaguntia' latin-only: 1

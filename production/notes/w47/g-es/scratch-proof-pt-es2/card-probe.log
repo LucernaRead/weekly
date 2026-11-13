@@ -1,0 +1,35 @@
+P1 EN BREVE title row y 1892..1918, x 1820..1949:
+  rightmost dark px: 1862  vs box right 1862 -> clear: 0
+  cream right edge on row y=1880: 1861
+  cream right edge on row y=1900: 1861
+  cream right edge on row y=1925: 1861
+  cream right edge on row y=1950: 1861
+P2 PARA NAO ERRAR title row y 620..646, x 800..1000:
+  rightmost dark px: 865  vs box right 961 -> clear: 96
+P7 ERROS title row y 220..246, x 1680..1949:
+  rightmost dark px: 1749  vs box right 1862 -> clear: 113
+P7 PALAVRA title row y 1207..1233, x 1680..1949:
+  rightmost dark px: 1726  vs box right 1862 -> clear: 136
+D1 P1 EM-BREVE box: cream bottom edge col x=1500: 2347
+  dark pixels below y=2348 in box columns 1440..1862:
+  lowest dark y: 2408 count: 3028 xs: [1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447]
+D2 P3 schedule box: cream bottom edge col x=1500: 600
+  dark pixels below y=551 in box columns 1440..1862: lowest: 611 count: 1103 xs: [1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471]
+D3 P6 timeline box: cream bottom edge col x=1500: 896
+  dark pixels below y=854 in box columns 1440..1862: lowest: 907 count: 1820 xs: [1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471]
+D7 P8 model text: scan right edge of dark pixels per row band y 1450..1750, x 1700..1949
+  row~1 y1450..1500: rightmost dark 1856 clear vs 1862: 6
+  row~2 y1500..1550: rightmost dark 1721 clear vs 1862: 141
+  row~3 y1550..1600: rightmost dark 1813 clear vs 1862: 49
+  row~4 y1600..1650: rightmost dark 1820 clear vs 1862: 42
+  row~5 y1650..1700: rightmost dark None clear vs 1862: None
+  row~6 y1700..1750: rightmost dark 1712 clear vs 1862: 150
+P4 E VOCE box: cream bottom edge col x=1500: 875
+  dark pixels below y=876: lowest: None count: 0 xs: []
+P7 word box: cream bottom edge col x=1500: 1500
+  dark pixels below y=1461: lowest: None count: 0 xs: []
+P2 E VOCE box bottom 909: cream bottom col x=1500: 908
+  dark pixels below y=909: lowest: None count: 0 xs: []
+P5 E VOCE box bottom 811.5: cream bottom col x=1500: 810
+  dark pixels below y=811: lowest: 841 count: 1981 xs: [1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447]
+DONE

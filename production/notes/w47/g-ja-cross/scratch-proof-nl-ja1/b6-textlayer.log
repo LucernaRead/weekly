@@ -1,0 +1,40 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print_vs_web_delivered: posdiff_total=1 msdiff_total=0
+  p1 tokens 233/233 posdiff 1 msdiff 0 seq_mismatch 0
+  p2 tokens 200/200 posdiff 0 msdiff 0 seq_mismatch 0
+  p3 tokens 186/186 posdiff 0 msdiff 0 seq_mismatch 0
+  p4 tokens 184/184 posdiff 0 msdiff 0 seq_mismatch 0
+  p5 tokens 199/199 posdiff 0 msdiff 0 seq_mismatch 0
+  p6 tokens 198/198 posdiff 0 msdiff 0 seq_mismatch 0
+  p7 tokens 187/187 posdiff 0 msdiff 0 seq_mismatch 0
+  p8 tokens 760/760 posdiff 0 msdiff 0 seq_mismatch 0
+print_vs_web_rebuilt: posdiff_total=1 msdiff_total=0
+  p1 tokens 233/233 posdiff 1 msdiff 0 seq_mismatch 0
+  p2 tokens 200/200 posdiff 0 msdiff 0 seq_mismatch 0
+  p3 tokens 186/186 posdiff 0 msdiff 0 seq_mismatch 0
+  p4 tokens 184/184 posdiff 0 msdiff 0 seq_mismatch 0
+  p5 tokens 199/199 posdiff 0 msdiff 0 seq_mismatch 0
+  p6 tokens 198/198 posdiff 0 msdiff 0 seq_mismatch 0
+  p7 tokens 187/187 posdiff 0 msdiff 0 seq_mismatch 0
+  p8 tokens 760/760 posdiff 0 msdiff 0 seq_mismatch 0
+web_delivered_vs_web_rebuilt: posdiff_total=0 msdiff_total=0
+  p1 tokens 233/233 posdiff 0 msdiff 0 seq_mismatch 0
+  p2 tokens 200/200 posdiff 0 msdiff 0 seq_mismatch 0
+  p3 tokens 186/186 posdiff 0 msdiff 0 seq_mismatch 0
+  p4 tokens 184/184 posdiff 0 msdiff 0 seq_mismatch 0
+  p5 tokens 199/199 posdiff 0 msdiff 0 seq_mismatch 0
+  p6 tokens 198/198 posdiff 0 msdiff 0 seq_mismatch 0
+  p7 tokens 187/187 posdiff 0 msdiff 0 seq_mismatch 0
+  p8 tokens 760/760 posdiff 0 msdiff 0 seq_mismatch 0
+textbytes print: 46775
+textbytes web: 46775
+textbytes web_rebuilt: 46775
+print: italic spans total=1 per_page={1: 1}
+print: groepswinst spans: [(1, 'NotoSansCJKsc-Regular', 15.38, '解説— de groepswinst グループ優勝· de'), (1, 'Newsreader16pt-Italic', 16.12, '«de groepswinst»'), (4, 'NotoSansCJKsc-Regular', 15.38, '解説— de groepswinst グループ優勝·'), (4, 'NotoSansCJKsc-Bold', 15.0, 'groepswinst · kwartfinale · ongeslagen'), (7, 'Newsreader16pt-Regular', 16.12, 'voetbal: de wedstrijd, de groepswinst, de'), (7, 'Newsreader16pt-Regular', 16.12, 'Nederland. De groepswinst is de eerste'), (7, 'NotoSansCJKsc-Regular', 15.38, 'de wedstrijd 試合；de groepswinst グループ'), (7, 'Newsreader16pt-Regular', 15.38, '«De groepswinst» is... A. een boek · B. de'), (7, 'Newsreader16pt-Regular', 16.12, '«de groepswinst» betekent: de eerste'), (7, 'Newsreader16pt-Regular', 16.12, 'groepswinst pakt, gaat als nummer'), (7, 'NotoSansCJKsc-Regular', 15.0, 'groepswinst = グループ優勝：グループ1'), (8, 'Newsreader16pt-Regular', 10.35, '«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'), (8, 'Newsreader16pt-Regular', 18.0, '142. de groepswinst'), (8, 'Newsreader16pt-Regular', 10.12, '52. groepswinst — groepswinst ='), (8, 'Newsreader16pt-Regular', 10.12, '102. groepswinst — de groepswinst ='), (8, 'Newsreader16pt-Regular', 10.12, '120. B — groepswinst ='), (8, 'Newsreader16pt-Regular', 10.12, '142. c — groepswinst=')]
+print: P8 min size=10.12 median=10.12 n_spans=760
+print: fonts: {'NotoSansCJKsc-Bold': 463, 'NotoSansCJKsc-Regular': 312, 'UnifrakturMaguntia': 1, 'NotoSerifCJKsc-Bold': 1, 'Newsreader16pt-Regular': 1072, 'NotoSerifCJKsc-Regular': 297, 'Newsreader16pt-Italic': 1}
+web: italic spans total=1 per_page={1: 1}
+web: groepswinst spans: [(1, 'LucernaNotoSansCJKSC-Reg', 15.38, '解説— de groepswinst グループ優勝· de'), (1, 'LucernaNewsreader-Italic', 16.12, '«de groepswinst»'), (4, 'LucernaNotoSansCJKSC-Reg', 15.38, '解説— de groepswinst グループ優勝·'), (4, 'LucernaNotoSansCJKSC-Bol', 15.0, 'groepswinst · kwartfinale · ongeslagen'), (7, 'LucernaNewsreader-Regula', 16.12, 'voetbal: de wedstrijd, de groepswinst, de'), (7, 'LucernaNewsreader-Regula', 16.12, 'Nederland. De groepswinst is de eerste'), (7, 'LucernaNotoSansCJKSC-Reg', 15.38, 'de wedstrijd 試合；de groepswinst グループ'), (7, 'LucernaNewsreader-Regula', 15.38, '«De groepswinst» is... A. een boek · B. de'), (7, 'LucernaNewsreader-Regula', 16.12, '«de groepswinst» betekent: de eerste'), (7, 'LucernaNewsreader-Regula', 16.12, 'groepswinst pakt, gaat als nummer'), (7, 'LucernaNotoSansCJKSC-Reg', 15.0, 'groepswinst = グループ優勝：グループ1'), (8, 'LucernaNewsreader-Regula', 10.35, '«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'), (8, 'LucernaNewsreader-Regula', 18.0, '142. de groepswinst'), (8, 'LucernaNewsreader-Regula', 10.12, '52. groepswinst — groepswinst ='), (8, 'LucernaNewsreader-Regula', 10.12, '102. groepswinst — de groepswinst ='), (8, 'LucernaNewsreader-Regula', 10.12, '120. B — groepswinst ='), (8, 'LucernaNewsreader-Regula', 10.12, '142. c — groepswinst=')]
+web: P8 min size=10.12 median=10.12 n_spans=760
+web: fonts: {'LucernaNotoSansCJKSC-Bol': 463, 'LucernaNotoSansCJKSC-Reg': 312, 'LucernaUnifrakturMagunti': 1, 'LucernaNotoSerifCJKSC-Bo': 1, 'LucernaNewsreader-Bold': 40, 'LucernaNewsreader-Regula': 1032, 'LucernaNotoSerifCJKSC-Re': 297, 'LucernaNewsreader-Italic': 1}

@@ -1,0 +1,41 @@
+### [2026-w47-ko-pt] pdf_edge_scan RC=0
+### [2026-w47-ko-pt] d5_creambox_audit RC=1
+### [2026-w47-ko-pt] textlayer RC=0
+### [2026-w47-ko-pt] p1-text-check RC=0
+### [2026-w47-ko-nl] d5_creambox_audit RC=0
+### [2026-w47-ko-nl] textlayer RC=0
+### [2026-w47-ko-nl] p1-text-check RC=0
+### [2026-w47-ko-zh-tw] boxtitle_check RC=0
+### [2026-w47-ko-zh-tw] pdf_edge_scan RC=0
+### [2026-w47-ko-zh-tw] d5_creambox_audit RC=0
+### [2026-w47-ko-zh-tw] textlayer RC=0
+### [2026-w47-ko-zh-tw] p1-text-check RC=0
+=== ALL FINISH-GATES DONE ===
+--- 2026-w47-ko-pt ---
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=1 :: d5_creambox_audit
+RC=0 :: textlayer
+RC=0 :: p1-text-check
+--- 2026-w47-ko-nl ---
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+RC=0 :: p1-text-check
+--- 2026-w47-ko-zh-tw ---
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+RC=0 :: p1-text-check
+/dev/mapper/rv  150G   92G   57G  62% /home/hatch

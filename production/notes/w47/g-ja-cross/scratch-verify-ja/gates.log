@@ -1,0 +1,25 @@
+########## ja-ru ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=2405 news=1341 cjk_sans=17 noto_sans=63 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=666
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-ru
+BOXTITLE 2026-w47-ja-ru: 49 titles, 658 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -23.91px x=1779.8 y=1310.2 [observe] '.'
+SPILL_SWEEP 2026-w47-ja-ru: 35 boxes, 151 candidates, 0 SPILL, 151 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-ru: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+ALL GATES DONE

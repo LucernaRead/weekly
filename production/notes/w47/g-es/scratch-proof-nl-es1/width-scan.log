@@ -1,0 +1,16 @@
+D6: band=329.5-425.5 contiguous=True mid=377.5 shipped=377.5 inside=True at_shipped==target: True
+   target: ['Completa en perfecto. Fíjate en los', 'auxiliares hebben/zijn.']
+   at_ship: ['Completa en perfecto. Fíjate en los', 'auxiliares hebben/zijn.']
+D7: band=414.5-424.5 contiguous=True mid=419.5 shipped=419.5 inside=True at_shipped==target: True
+   target: ['de wedstrijd partido; de groepswinst', 'victoria de grupo; de kwartfinale cuartos de', 'final; scoren marcar.']
+   at_ship: ['de wedstrijd partido; de groepswinst', 'victoria de grupo; de kwartfinale cuartos de', 'final; scoren marcar.']
+D8: band=349.5-392.0 contiguous=True mid=370.75 shipped=370.75 inside=True at_shipped==target: True
+   target: ['Datos de práctica: cifras inventadas, solo', 'para practicar, no una encuesta real.', 'Pregunta: ¿qué pones en tu zapato? (100', 'jóvenes)']
+   at_ship: ['Datos de práctica: cifras inventadas, solo', 'para practicar, no una encuesta real.', 'Pregunta: ¿qué pones en tu zapato? (100', 'jóvenes)']
+D10: band=319.5-405.5 contiguous=True mid=362.5 shipped=362.5 inside=True at_shipped==target: True
+   target: ['Sin cartas reales ni mejores textos:', 'ejemplo; la promesa pasa a VOL.5.']
+   at_ship: ['Sin cartas reales ni mejores textos:', 'ejemplo; la promesa pasa a VOL.5.']
+== D11 facts wrap counts (serif 21.5, CW-44=378.5) ==
+counts: [3, 3, 3, 2, 3] sum lines: 14
+sh old: 611.0 sh new: 638.0 (source content34.py:134)
+sim last-baseline offset from box top: 533.89 margin vs new sh: 104.11 box top 591.6 -> last baseline: 1125.49

@@ -1,0 +1,7 @@
+PDF-extracted keys: 150 missing: []
+expected: 149 | mismatches 1-149: NONE — 149/149 agree
+  Q22: expected '主燈秀' pdf '主燈秀'
+  Q110: expected '主燈秀' pdf '主燈秀'
+  Q135: expected '主燈秀' pdf '主燈秀'
+150 in md: True | 150 in pdf: ✓Open task - the model answer is printed in section F above 
+150 pdf full: '✓Open task - the model answer is printed in section F above (142characters)'

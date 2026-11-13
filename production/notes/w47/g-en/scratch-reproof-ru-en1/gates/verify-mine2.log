@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS page counts 8/8 — (8, 8)
+PASS text multiset identical overall — 30354
+PASS text multiset identical per page
+PASS span-text multisets identical all pages — 0 pages differ
+PASS abutting span-pair |print-web| gap diff <= 0.5pt — max 0.0 at None
+PASS intra-span char-pair |print-web| gap diff <= 0.5pt — max 0.0 at None
+PASS D2 pinned P1 headline 14-: web x1 == print x1 — print x1=133.018 web x1=133.018 diff=0.000
+PASS D2 pinned P4 heading 14-: web x1 == print x1 — print x1=106.464 web x1=106.464 diff=0.000
+PASS D2 pinned P1 contents 1. 14-: web x1 == print x1 — print x1=1138.695 web x1=1138.695 diff=0.000
+PASS D2 pinned P4 band-sub: web x1 == print x1 — print x1=1008.743 web x1=1008.743 diff=0.000
+PASS D2 pinned P1 contents 3. «: web x1 == print x1 — print x1=1122.225 web x1=1122.225 diff=0.000
+PASS D2 pinned P5 title «: web x1 == print x1 — print x1=80.112 web x1=80.112 diff=0.000
+FAIL D3 space 'я'->'п' identical print/web — print None web None
+PASS D3 'а'->'»' gap identical print/web — print -2.1929931640625 web -2.1929931640625
+PASS D3 web embeds LucernaNotoSerif-Italic
+PASS D3 web embeds LucernaNewsreader-Italic
+PASS D3 P1 italic char count print == web — print 16 web 16
+PASS D1 P5 straight quotes in print text
+PASS D1 P5 no curly quotes in print P5 text
+PASS D1 P5 straight quotes in web text
+PASS D1 P5 no curly quotes in web P5 text
+FAILURES: ["D3 space 'я'->'п' identical print/web"]

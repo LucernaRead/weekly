@@ -1,0 +1,20 @@
+=== (1) PIL ink right > 1862 scan ===
+p1-pervaya.svg PIL-right 1863.7 (+1.7) raster-right 1862 (+0.0) text='\u3000O QUE DIZEM OS MEDIA' baseline=664.0
+total PIL-over-limit: 1
+=== (2) box-title clearances ===
+p6-razbor.svg min-clear   11.8 {'left': 114.1, 'right': 113.4, 'top': 69.5, 'bottom': 11.8} 'ср'
+p6-razbor.svg min-clear   15.8 {'left': 114.2, 'right': 113.8, 'top': 64.2, 'bottom': 15.8} 'сб'
+p6-razbor.svg min-clear   15.8 {'left': 114.5, 'right': 114.0, 'top': 69.5, 'bottom': 15.8} 'вс'
+p6-razbor.svg min-clear   16.0 {'left': 112.5, 'right': 112.8, 'top': 69.8, 'bottom': 16.0} 'пн'
+p6-razbor.svg min-clear   16.0 {'left': 114.5, 'right': 114.5, 'top': 69.8, 'bottom': 16.0} 'вт'
+p6-razbor.svg min-clear   16.0 {'left': 114.2, 'right': 114.0, 'top': 69.8, 'bottom': 16.0} 'чт'
+p6-razbor.svg min-clear   16.0 {'left': 114.0, 'right': 113.5, 'top': 69.8, 'bottom': 16.0} 'пт'
+p6-razbor.svg min-clear   26.5 {'left': 105.1, 'right': 105.2, 'top': 26.5, 'bottom': 47.8} '16'
+p6-razbor.svg min-clear   26.5 {'left': 105.1, 'right': 105.1, 'top': 26.5, 'bottom': 48.0} '17'
+p6-razbor.svg min-clear   27.0 {'left': 105.1, 'right': 105.1, 'top': 27.0, 'bottom': 47.8} '18'
+p6-razbor.svg min-clear   27.0 {'left': 105.1, 'right': 105.1, 'top': 27.0, 'bottom': 47.2} '19'
+p6-razbor.svg min-clear   27.0 {'left': 105.1, 'right': 105.2, 'top': 27.0, 'bottom': 47.2} '20'
+p6-razbor.svg min-clear   27.0 {'left': 105.1, 'right': 105.2, 'top': 27.0, 'bottom': 47.2} '21'
+p6-razbor.svg min-clear   27.0 {'left': 105.1, 'right': 105.2, 'top': 27.0, 'bottom': 47.2} '22'
+total box titles: 14
+tightest: 11.8

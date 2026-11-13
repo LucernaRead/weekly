@@ -1,0 +1,1866 @@
+# 2026-w47-es-zh-cn
+
+## Portada
+
+VOL. 4　CUARTA EDICIÓN
+CADA SEMANA EN ESPAÑOL　ИСПАНСКИЙ ГЛАЗАМИ ИСПАНИИ
+SEMANA DEL 16 AL 22 DE NOVIEMBRE DE 2026
+La Lucerna
+
+ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO
+
+EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL, EN ESPAÑOL, DESDE ESPAÑA
+
+¡LA CAMPAÑA ARRANCA!
+ПЕРВАЯ НЕДЕЛЯ КАМПАНИИ　ДО ВЫБОРОВ 13 ДНЕЙ
+
+Faltan 13 días para el 29-N: la primera semana de campaña.
+ГЛАВНАЯ ТЕМА　СМ. СТРАНИЦЫ 2 И 6
+
+LA NOTICIA　Главная новость
+ТЕКСТЫ НА ИСПАНСКОМ　ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ
+
+La campaña arranca: trece días para el 29-N
+De la redacción de La Lucerna　Nivel de lectura: A2
+CINCO
+CLAVES
+Пять главных тем　Para entender la semana
+1. El primer debate
+
+La campaña electoral empezó el
+Flamenco, y el domingo 22, Santa
+A2
+1.
+
+viernes 13, a las 00:00, y dura quince
+días: hasta el viernes 27 de
+noviembre. El sábado 28 es la jornada
+de reflexión: un día de silencio, sin
+Cecilia, la patrona de los músicos
+(página 3).
+El viernes 20 vuelve el fútbol de
+La campaña electoral empieza el viernes ___
+de noviembre.
+A2
+2.
+España vota en elecciones generales el
+2. El cara a cara del lunes
+3. El voto por correo
+
+propaganda ni actos de campaña. El
+verdad: la jornada 13 de Liga, con el
+domingo ___ de noviembre.
+
+domingo 29, España vota en
+elecciones generales.
+derbi Sevilla–Betis el sábado (página
+4).
+A2
+3.
+El voto por correo se pide hasta el jueves ___
+de noviembre.
+4. La Liga vuelve
+
+la campaña electoral = избирательная
+5. Flamenco y Santa Cecilia
+
+El primer debate fue también el
+viernes 13: a las 21:30, en laSexta,
+кампания · el debate = дебаты · el cara a
+cara = дебаты один на один · el voto por
+A2
+4.
+
+cuatro portavoces hablaron de
+El Día Internacional del Flamenco es el
+
+economía. Fue el único debate cerrado
+al cierre de esta edición.
+correo = голосование по почте · la
+jornada de reflexión = день тишины.
+LA SEMANA EN CIFRAS　В цифрах
+lunes ___ de noviembre.
+B1
+5.
+La jornada 13 de Liga vuelve el viernes ___
+Cinco claves, sin números
+inventados: todo está explicado
+en esta edición.
+Пять тем, без выдуманных цифр.
+
+El lunes 16, el PP propone un cara a
+EN ESTA EDICIÓN　В выпуске
+
+cara entre Sánchez y Feijóo. Los dos
+13 — días faltan el lunes 16 para las
+elecciones del domingo 29 (до выборов
+13 дней)
+de noviembre.
+Pág. 2La semana, día a día
+A2
+
+partidos aceptan la cita, pero no hay
+B1
+6.
+
+hora publicada: esta página no da por
+cerrado lo que aún se negocia (página
+6).
+¿Y el que quiera votar por correo?
+Tiene que pedirlo hasta el jueves 19:
+15 — días dura la campaña electoral, del
+viernes 13 al viernes 27 (кампания
+длится 15 дней)
+19 — jueves, último día para pedir el voto
+por correo (четверг, 19-е: последний
+день заявки на голосование по
+почте)
+La campaña electoral dura ___ días.
+Pág. 3Flamenco y música
+A2→B1
+Pág. 4Vuelve la Liga
+B1
+Pág. 5Votar por primera vez
+B1
+Pág. 6Leer la campaña
+B2
+Pág. 7La hora y el debate
+A2→B2
+Pág. 8Ejercicios y respuestas
+todos
+
+la documentación llega a casa desde el
+LA PALABRA DE LA SEMANA
+
+lunes 9 (página 5).
+Y esta semana la música manda: el
+lunes 16 es el Día Internacional del
+AHORA TÚ　Теперь ты
+UNA SEMANA, TRES ESCENARIOS
+El lunes, el flamenco en la calle; el
+viernes, el fútbol en casa; y entre
+medias, la campaña en la tele. Esta
+semana España vive a la vez su música,
+su debate y su Liga.
+Nuestro consejo para esta semana:
+escucha el debate entero, no solo el
+« el debate »
+dos o más personas discuten en público,
+con turnos y preguntas.
+«Дебаты»: люди обсуждают публично.
+BREVES　Коротко
+EL DEBATE
+El viernes 13, debate de portavoces en
+laSexta, 21:30. (Страница 6)
+LA LIGA
+Viernes 20: Athletic–Espanyol abre la
+jornada 13. (Страница 4)
+EL FLAMENCO
+
+La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5,
+titular. En la página 6 te enseñamos
+El lunes 16 es el Día Internacional del
+
+cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate sin perderse.
+Flamenco. (Страница 3)
+
+(Ilustración de la redacción, no una fotografía)
+Ilustración: La Lucerna
+cómo leer un debate sin perderse.
+
+QUIZ RELÁMPAGO　Блиц-викторина
+Прочитайте первую полосу и выберите правильный ответ　Ответы на странице 8
+
+A2
+7.
+A2
+8.
+A2
+9.
+A2
+10.
+
+Las elecciones generales son el... A. 16 de
+La campaña electoral dura... A. una semana
+El voto por correo se pide hasta el... A.
+El Día Internacional del Flamenco es el... A.
+
+noviembre · B. 13 de noviembre · C. 29 de
+· B. 15 días · C. un mes
+jueves 19 · B. lunes 16 · C. domingo 29
+domingo 22 · B. lunes 16 · C. viernes 20
+
+noviembre
+
+## Vida
+
+VIDA　Жизнь
+La Lucerna
+NIVEL A2　La semana, día a día　Неделя день за днём
+La semana, día a día: del
+EL CALENDARIO　Календарь
+Пояснение — el debate = дебаты · el
+¿SABÍAS QUE…?
+
+lunes 16 al domingo 22
+Lunes 16 — Día Internacional del
+mitin = предвыборный митинг · el
+
+De la redacción de La Lucerna　Nivel de lectura: A2
+Flamenco; el PP propone el cara a cara
+Sánchez–Feijóo (понедельник: день
+фламенко; дебаты Санчес —
+cartel = плакат · el escaño = место в
+парламенте.
+La campaña dura 15 días: del viernes
+13 al viernes 27 de noviembre.
+
+Фейхоо)
+El voto por correo se pide hasta el
+
+El lunes 16 de noviembre empieza la
+primera semana entera de campaña:
+los partidos recorren España, la tele
+prepara los debates y los votantes
+Martes 17 — la campaña recorre
+España: mítines y entrevistas en la tele
+(вторник: кампания по Испании)
+jueves 19: en Correos o por internet.
+Del martes 24 al sábado 28 no se
+publican encuestas: así lo manda la
+
+escuchan los programas.
+ley.
+
+Miércoles 18 — debate sobre vivienda
+en la Cadena SER: Isabel Rodríguez
+
+El lunes es también el Día
+(PSOE) y Juan Bravo (PP) (среда:
+¿Y TÚ?　А вы?
+
+Internacional del Flamenco: en 2010,
+la UNESCO declaró el flamenco
+дебаты о жилье на радио)
+¿Y tú? ¿Qué harías el lunes 16: ves el
+
+Jueves 19 — último día para pedir el
+flamenco, sigues la campaña o ves el
+
+Patrimonio Cultural Inmaterial de la
+voto por correo (четверг: последний
+fútbol? ¿Qué te gusta más: un debate
+
+день заявки на голосование)
+o un derbi? Escribe dos frases en
+
+Humanidad (página 3). Y ese mismo
+lunes, el PP propone un cara a cara
+entre Sánchez y Feijóo: los dos
+partidos aceptan la cita, pero no hay
+Viernes 20 — vuelve la Liga:
+Athletic–Espanyol, 21:00 (вечер
+пятницы: Лига возвращается)
+español y envíalas a la redacción: las
+mejores salen en la página 7, «Cartas
+de los lectores».
+
+hora publicada.
+Что вы будете делать в понедельник,
+
+El jueves 19 es un día clave: termina
+el plazo para pedir el voto por correo.
+Sábado 21 — derbi Sevilla–Betis, 18:30;
+Real Madrid–Celta, 21:00 (суббота:
+севильское дерби)
+Domingo 22 — Barça–Villarreal, 14:00;
+16 ноября: смотреть фламенко,
+следить за кампанией или смотреть
+футбол? Что вам нравится больше:
+дебаты или дерби? Напишите два
+
+Quien quiera votar desde casa tiene
+предложения по-испански и
+
+que pedirlo en Correos o por internet
+hasta ese día (página 5).
+Y el viernes 20 vuelve el fútbol: la
+jornada 13 de Liga abre con el
+Athletic–Espanyol a las 21:00. El
+sábado, el derbi Sevilla–Betis; el
+domingo, el Barça–Villarreal y Santa
+Cecilia, la patrona de los músicos
+(página 4).
+Santa Cecilia, patrona de la música
+(воскресенье: «Барса» —
+«Вильярреал»; св. Цецилия)
+DECIR LA HORA
+En español, la hora se dice así: «Son las
+nueve» para las 9:00, pero «Es la una»
+para la 1:00. Para la hora exacta: «Son
+las 20:45» o «las nueve menos cuarto».
+Y para citar un partido: «a las 21:00»,
+nunca «en las 21:00».
+пришлите их в редакцию.
+
+LOS DÍAS DE LA SEMANA　Как называть дату
+lunes 16 – domingo 22 de noviembre　с понедельника, 16 ноября, по воскресенье, 22 ноября
+
+lunes 16
+el lunes 16 — Día del Flamenco
+viernes 20
+el viernes 20 — vuelve la Liga, 21:00
+
+martes 17
+el martes 17 — la campaña en la calle
+sábado 21
+el sábado 21 — derbi Sevilla–Betis, 18:30
+
+miércoles 18
+el miércoles 18 — debate de vivienda en la radio
+domingo 22
+el domingo 22 — Barça–Villarreal, 14:00
+
+jueves 19
+el jueves 19 — último día del voto por correo
+
+Ojo: para la hora, «es la una» en singular y «son las dos» en plural — y el partido se juega «a las 21:00», con la preposición a.
+
+EJERCICIOS　Упражнения страницы 2
+Ответы на странице 8　Уровни перемешаны — ищите по номеру задания
+
+A　LAS FECHAS
+B　EL PRESENTE
+C　COMPRENSIÓN
+A2
+25–28.
+Соотнесите
+
+25. el debate
+
+Дополните предложения правильной
+Дополните глаголы в настоящем
+Прочитайте статью и выберите ответ.
+
+формой даты.
+времени.
+26. el mitin
+
+A2
+21.
+27. el cartel
+
+A2
+11.
+Вставьте
+A2
+16.
+Вставьте
+El Día del Flamenco es... A. el domingo 22 · B.
+
+28. el escaño
+
+El Día del Flamenco es el lunes ___ de
+La campaña ___ el viernes 13.
+el lunes 16 · C. el viernes 20
+
+noviembre.
+a. un asiento en el Parlamento
+
+A2
+17.
+Вставьте
+A2
+22.
+b. una reunión de campaña con
+
+A2
+12.
+Вставьте
+La campaña ___ 15 días.
+El voto por correo se pide hasta... A. el jueves
+
+discursos
+
+El voto por correo se pide hasta el jueves ___
+19 · B. el lunes 16 · C. el domingo 29
+
+de noviembre.
+A2
+18.
+Вставьте
+c. una discusión pública con turnos
+
+La Liga ___ el viernes 20.
+A2
+23.
+d. un papel grande con un mensaje en
+
+A2
+13.
+Вставьте
+La Liga vuelve el... A. lunes 16 · B. jueves 19 ·
+la calle
+
+Las elecciones generales son el ___ de
+B1
+19.
+Вставьте
+C. viernes 20
+
+noviembre.
+Los partidos ___ España en campaña.
+B1
+24.
+
+A2
+14.
+Вставьте
+A2
+20.
+Вставьте
+Del 24 al 28 de noviembre no se publican... A.
+
+Santa Cecilia es el domingo ___ de noviembre.
+La documentación del voto por correo ___
+debates · B. encuestas · C. partidos
+
+desde el lunes 9.
+
+A2
+15.
+Вставьте
+D　LAS PALABRAS
+
+El lunes 16 de ___ es el Día del Flamenco.
+
+## Cultura
+
+CULTURA　Культура
+La Lucerna
+A2 → B1　Flamenco y Santa Cecilia　Фламенко и святая Цецилия
+El flamenco cumple: del 16
+de noviembre a Santa
+Cecilia
+De la redacción de La Lucerna　Nivel de lectura: A2
+→ B1
+El lunes 16 de noviembre es el Día
+Internacional del Flamenco, y en
+España suena la guitarra en todos los
+rincones.
+La fecha recuerda el 16 de noviembre
+de 2010, cuando la UNESCO, en
+Nairobi, inscribió el flamenco en su
+Lista del Patrimonio Cultural
+Пояснение — el cante = пение · el
+toque = гитара · el baile = танец · el
+compás = ритм · el duende = душа
+фламенко.
+LO QUE QUEDA DE NOVIEMBRE
+El otoño sigue: las tardes cortas, la
+música en la calle y, en la agenda, una
+fecha que ya mira toda España: el
+domingo 29 de noviembre, las
+elecciones generales (página 6).
+«Bailaora española», cuadro de John Singer
+Sargent (1880–81): una bailaora con su mantón,
+
+Inmaterial de la Humanidad. No es
+el gesto que el mundo reconoce como flamenco.
+
+solo un baile: es cante, toque y baile,
+con palmas, taconeo y compás.
+El flamenco nació del encuentro de
+Cuadro: John Singer Sargent — dominio público
+(Wikimedia Commons)
+EL FLAMENCO, EN TRES DATOS
+
+muchas culturas en Andalucía:
+El 16 de noviembre de 2010, la
+
+gitanos, andaluces, árabes, judíos. Y su
+palabra mágica es el duende: ese
+momento en que la música te toca por
+dentro y no sabes explicarlo.
+Y la música sigue: el domingo 22 es
+Santa Cecilia, la patrona de los
+músicos. Las bandas municipales y las
+sociedades musicales dan en
+noviembre su concierto del año: en
+Bilbao, la Banda Municipal toca el
+domingo 22 a las 12:00 en el Palacio
+Euskalduna. Noviembre es el mes de
+las bandas.
+UNESCO declaró el flamenco
+Patrimonio Inmaterial de la
+Humanidad.
+El flamenco es cante, toque y baile,
+con palmas, taconeo y compás.
+El 22 de noviembre es Santa Cecilia:
+noviembre es el mes de las bandas de
+música.
+¿Y TÚ?　А вы?
+¿Y tú? ¿Has escuchado flamenco
+alguna vez? ¿Conoces la música de tu
+país que tiene duende? Escribe dos
+frases en español.
+Вы слушали фламенко? Какая музыка
+вашей страны — с дуэнде? Напишите
+два предложения и пришлите их.
+
+EJERCICIOS　Упражнения страницы 3
+Ответы на странице 8　Уровни перемешаны — ищите по номеру задания
+
+A　¿VERDADERO O FALSO?
+A2
+34.
+Вставьте
+B1
+41.
+
+Прочитайте статью на странице 3:
+верно или неверно?
+A2
+29.
+В/НВ
+El Día Internacional del Flamenco es el lunes
+16 de noviembre. ¿Verdadero o falso?
+A2
+30.
+В/НВ
+La UNESCO declaró el flamenco Patrimonio
+El flamenco es ___, toque y baile.
+A2
+35.
+Вставьте
+La bailaora mueve los brazos en el ___.
+A2
+36.
+Вставьте
+El toque es la ___ del flamenco.
+A2
+37.
+Вставьте
+El público marca el ritmo con las ___.
+El flamenco nació del encuentro de culturas
+en... A. Madrid · B. Bilbao · C. Andalucía
+B1
+42.
+Después del Día del Flamenco, la próxima
+gran fecha es... A. el puente · B. las elecciones
+del 29 · C. la Navidad
+D　CONSTRUIR FRASES
+
+Inmaterial en 2010. ¿Verdadero o falso?
+Составьте из слов правильное
+
+A2
+31.
+В/НВ
+B1
+38.
+Вставьте
+Sin ___ no hay flamenco.
+предложение.
+
+El flamenco es solo un baile. ¿Verdadero o
+A2
+43.
+Составьте предложение
+
+falso?
+el flamenco / es / cante, toque y baile → ___
+
+C　COMPRENSIÓN
+
+B1
+32.
+В/НВ
+Выберите правильный ответ.
+B1
+44.
+Составьте предложение
+
+Santa Cecilia, patrona de la música, es el 16
+en noviembre / suena / la guitarra / en España
+
+de noviembre. ¿Verdadero o falso?
+A2
+39.
+→ ___
+
+¿Dónde declaró la UNESCO el flamenco
+
+A2
+33.
+В/НВ
+Patrimonio? A. en Madrid · B. en Nairobi · C.
+B1
+45.
+Составьте предложение
+
+La Banda Municipal de Bilbao toca el
+en Sevilla
+en Bilbao / toca / la banda / el domingo → ___
+
+domingo 22 a las 12:00. ¿Verdadero o falso?
+A2
+40.
+B1
+46.
+Перепишите
+
+B　PALABRAS DEL TEXTO
+¿Qué es el duende? A. el momento en que la
+«¿Hay duende?» (todos preguntan) → ___
+
+Вставьте слова из рамки.
+cante · baile · guitarra · palmas · compás
+música te toca · B. un instrumento · C. un
+baile
+
+## Deporte
+
+DEPORTE　Спорт
+La Lucerna
+NIVEL B1　Vuelve la Liga: la jornada 13　Лига возвращается: 13-й тур
+en el Coliseum.
+Vuelve la Liga: la jornada
+13, del viernes al lunes
+De la redacción deportiva de La Lucerna　Nivel de
+lectura: B1
+Y la semana que viene vuelve Europa:
+la jornada 5 de la Champions, el
+martes 24 y el miércoles 25. El
+LA CHAMPIONS VUELVE
+La semana que viene, la jornada 5:
+martes 24, Real Madrid–PSV, 21:00;
+miércoles 25, Sabah–Barça, 18:45, y
+Atlético–Viking, 21:00. También
+
+Madrid recibe al PSV el martes a las
+juegan el Villarreal y el Betis. En la
+
+La Liga se para y vuelve: después del
+parón de selecciones, la jornada 13 se
+juega del viernes 20 al lunes 23 de
+noviembre.
+El Barça llega líder, con 33 puntos,
+después de ganar 1–2 al Atlético en el
+Metropolitano. El Real Madrid es
+segundo, con 30, y el Atlético tercero,
+con 28. La jornada 13 puede mover el
+liderato: el Barça recibe al Villarreal el
+21:00; el Barça visita al Sabah el
+miércoles a las 18:45 y el Atlético
+recibe al Viking a las 21:00. En la
+jornada 4, el Barça ganó 3–0 al Aston
+Villa, el Madrid 3–2 al AEK y el
+Atlético perdió 0–2 con el Bayern.
+Пояснение — la jornada = тур · el
+derbi = дерби · el liderato = первое
+место · el parón = перерыв · la fase
+liga = этап лиги.
+jornada 4, el Barça ganó 3–0 y el
+Madrid 3–2; el Atlético perdió 0–2.
+¿Y TÚ?　А вы?
+¿Y tú? El sábado a las 18:30, ¿qué
+miras: el derbi sevillano o el
+Madrid–Celta? ¿Quién gana la Liga: el
+Barça o el Madrid? Escribe dos frases
+
+domingo a las 14:00, y el Madrid
+en español.
+
+recibe al Celta el sábado a las 21:00.
+El partido grande del sábado es el
+Какой матч вы будете смотреть в
+субботу в 18:30: севильское дерби
+или «Реал» — «Сельту»? Кто
+
+derbi sevillano, a las 18:30:
+выиграет Лигу: «Барса» или «Реал»?
+
+Sevilla–Betis, un clásico de barrio que
+se juega con el corazón. Y el domingo
+a las 21:00, el Getafe recibe al Atlético
+LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　13-й тур: шесть матчей
+VIE 20 · 21:00
+SÁB 21 · 18:30
+SÁB 21 · 21:00
+DOM 22 · 14:00
+DOM 22 · 21:00
+LUN 23 · 21:00
+Athletic – Espanyol (abre la jornada, en San Mamés)
+Sevilla – Betis (el derbi sevillano)
+Real Madrid – Celta (en el Bernabéu)
+Barcelona – Villarreal (el líder recibe al submarino)
+Getafe – Atlético (el Atlético visita el Coliseum)
+Levante – Elche (cierra la jornada 13)
+Напишите два предложения
+по-испански и пришлите их.
+
+Horarios en hora peninsular. La jornada 13 se juega del viernes 20 al lunes 23: estos son sus seis partidos clave; el resto de la jornada, en la web de LaLiga.
+
+EJERCICIOS　Упражнения страницы 4
+Ответы на странице 8　Уровни перемешаны — ищите по номеру задания
+
+A　COMPRENSIÓN
+B1
+52–55.
+Соотнесите
+B1
+58.
+Вставьте
+
+Прочитайте статью на странице 4 и
+выберите правильный ответ.
+B1
+47.
+El líder de la Liga es el... A. Barça, con 33
+puntos · B. Real Madrid, con 33 · C. Atlético,
+con 28
+52. la jornada
+53. el derbi
+54. el liderato
+55. la fase liga
+a. el primer puesto de la clasificación
+b. un partido entre dos rivales de la
+misma ciudad
+Perder el derbi sería la ___ (malo) noticia de la
+semana.
+B1
+59.
+Вставьте
+Ganar la jornada sería la ___ (bueno) noticia
+del otoño.
+D　EL PRETÉRITO INDEFINIDO
+
+B1
+48.
+Поставьте предложения в прошедшее
+
+c. una fecha del campeonato, con diez
+
+La jornada 13 se juega... A. el fin de semana
+время (pretérito indefinido).
+
+del 8 · B. del viernes 20 al lunes 23 · C. en
+partidos
+
+diciembre
+d. la primera parte de la Champions,
+B1
+60.
+Перепишите
+
+B1
+49.
+en formato liga
+El Barça gana 1–2 al Atlético. → ___
+
+El derbi Sevilla–Betis es el sábado a las... A.
+B1
+61.
+Перепишите
+
+C　COMPARATIVOS
+
+14:00 · B. 21:00 · C. 18:30
+El Madrid recibe al Celta el sábado. → ___
+
+Вставьте сравнительную степень или
+
+B1
+50.
+B1
+62.
+Перепишите
+
+форму на -ísimo слова в скобках.
+
+El Barça–Villarreal se juega el domingo a las...
+El Atlético pierde 0–2 con el Bayern. → ___
+
+A. 14:00 · B. 18:30 · C. 21:00
+B1
+56.
+Вставьте
+El Barça–Villarreal es ___ que un amistoso.
+B1
+63.
+Перепишите
+
+B1
+51.
+La Liga vuelve el viernes 20. → ___
+
+La jornada 5 de la Champions es... A. el 20–21
+(importante)
+
+· B. el 24–25 · C. el 29–30
+B1
+64.
+Перепишите
+
+B　LAS PALABRAS
+B1
+57.
+Вставьте
+El Bernabéu espera a ___ aficionados.
+(muchos)
+La jornada cierra el lunes 23. → ___
+
+## Juventud
+
+JUVENTUD　Молодёжь
+La Lucerna
+NIVEL B1　Votar por primera vez　Голосовать впервые
+Votar por primera vez: el
+jueves 19 se cierra el plazo
+De la redacción de La Lucerna　Nivel de lectura: B1
+¿Votas por primera vez el 29 de
+noviembre? Tienes dos maneras de
+votar: en persona o por correo.
+El voto por correo se pide desde la
+convocatoria y hasta el jueves 19 de
+noviembre, en cualquier oficina de
+Correos o por internet, en la web de
+Correos. La Oficina del Censo
+Electoral envía la documentación a la
+EL PLAN DE LA SEMANA　План
+1. El lunes 16: Día del Flamenco y
+primer lunes de campaña
+(понедельник: День фламенко и
+первый понедельник кампании)
+2. El jueves 19: último día para pedir el
+voto por correo (четверг: последний
+день заявки на голосование по
+почте)
+3. El viernes 20: vuelve la Liga,
+Athletic–Espanyol, 21:00 (вечер
+пятницы: Лига возвращается)
+4. El sábado 21: derbi Sevilla–Betis,
+18:30 (суббота: севильское дерби)
+
+5. El domingo 22: Barça–Villarreal,
+Una urna de votación en bronce, con la
+
+dirección indicada a partir del lunes 9
+de noviembre. Después, votas en casa,
+con calma, y envías el sobre.
+14:00; Santa Cecilia (воскресенье:
+«Барса» — «Вильярреал»; день
+святой Цецилии)
+inscripción «Suffrage universel» (sufragio
+universal). Tu voto va a una urna como esta: por
+correo llega en un sobre y en persona la echas tú
+mismo el domingo 29, de 9:00 a 20:00.
+Foto: Jebulon — CC0 (dominio público, Wikimedia
+
+Y si prefieres votar en persona, el
+Commons)
+
+domingo 29 los colegios electorales
+abren de 9:00 a 20:00, con tu
+documento de identidad. Novedad de
+este año: también vale identificarse
+con la aplicación oficial MiDNI en el
+móvil. La Junta Electoral Central
+Пояснение — el sobre = конверт · la
+papeleta = бюллетень · el censo =
+список избирателей · el plazo = срок ·
+la urna = урна для голосования.
+VOTAR POR PRIMERA VEZ
+El voto por correo se pide hasta el
+jueves 19: en Correos o por internet.
+Para votar en persona vale el DNI y
+
+levantó el 5 de noviembre la
+también la aplicación oficial MiDNI.
+
+suspensión de la aplicación.
+Y el sábado 28, jornada de reflexión,
+no hay propaganda ni actos de
+campaña: un día de silencio antes de
+El Black Friday es el viernes 27:
+compara precios antes de pagar.
+¿Y TÚ?　А вы?
+
+votar. Y el viernes 27, la otra cita
+¿Y tú? ¿Votarías por correo o en
+
+joven de la semana: el Black Friday,
+con ofertas en las tiendas y en
+internet. Compra con cabeza:
+persona? ¿Qué comprarías en el Black
+Friday: algo útil o un capricho?
+Escribe dos frases en español.
+
+compara precios antes de pagar.
+Вы голосовали бы по почте или лично?
+
+Что бы вы купили в «чёрную пятницу»:
+что-то полезное или каприз?
+Напишите два предложения и
+пришлите их.
+
+EJERCICIOS　Упражнения страницы 5
+Ответы на странице 8　Уровни перемешаны — ищите по номеру задания
+
+A　COMPRENSIÓN
+Прочитайте статью на странице 5 и
+выберите правильный ответ.
+B1
+65.
+El voto por correo se pide hasta... A. el lunes 9
+· B. el jueves 19 · C. el domingo 29
+B1
+66.
+La documentación del voto por correo llega
+sobre · papeleta · censo · identidad · plazo
+· urna
+B1
+70.
+Вставьте
+Pido el voto por ___.
+B1
+71.
+Вставьте
+En casa, relleno la ___.
+B1
+72.
+Вставьте
+Después ___ (инфинитив: enviar) el sobre.
+B1
+77.
+Перепишите
+Votas el domingo 29. → ___
+B1
+78.
+Перепишите
+La urna se abre a las 9:00. → ___
+B1
+79.
+Перепишите
+Comparan precios antes de pagar. → ___
+D　¿VERDADERO O FALSO?
+
+desde... A. el lunes 9 · B. el viernes 13 · C. el
+B1
+80.
+В/НВ
+
+sábado 28
+B1
+73.
+Вставьте
+El voto por correo se pide en una oficina de
+
+B1
+67.
+Para votar en persona llevo mi documento de
+___.
+Correos. ¿Verdadero o falso?
+
+El domingo 29, los colegios abren... A. todo el
+B1
+81.
+В/НВ
+
+día · B. de noche · C. de 9:00 a 20:00
+B1
+74.
+Вставьте
+La jornada de reflexión es el domingo 29.
+
+B1
+68.
+La Oficina del ___ envía la documentación.
+¿Verdadero o falso?
+
+Para votar en persona, este año también
+B1
+75.
+Вставьте
+B1
+82.
+В/НВ
+
+vale... A. un billete · B. la aplicación MiDNI ·
+El jueves 19 termina el ___ del voto por correo.
+Este año se puede votar identificándose con
+
+C. una entrada
+MiDNI. ¿Verdadero o falso?
+
+B1
+69.
+El Black Friday es el... A. viernes 27 · B. lunes
+16 · C. domingo 29
+B　PALABRAS DEL TEXTO
+Вставьте слова из рамки. Внимание:
+некоторые слова нужно проспрягать.
+C　IR A + INFINITIVO
+Перепишите предложения с ir a +
+инфинитив (ближайшее будущее).
+B1
+76.
+Перепишите
+Pido el voto por correo. → ___
+
+## A fondo
+
+A FONDO　Разбор
+La Lucerna
+NIVEL B2　Leer la campaña: debates, programas y encuestas　Читать кампанию: дебаты, программы и опросы
+«cerrado»: la primera lección de esta
+Leer la campaña: debates,
+programas y encuestas
+De la redacción de La Lucerna　Nivel de lectura: B2
+　La política nacional española
+página es leer el verbo.
+Una encuesta es una foto con margen
+EL CAMINO AL 29N
+13 NOV. — Empieza la campaña; debate de
+portavoces en laSexta, 21:30.
+
+de error, tomada en un día concreto.
+16 NOV. — El PP propone el cara a cara
+
+En campaña, no todo lo que se
+Y ojo con el calendario: del martes 24
+Sánchez–Feijóo (sin confirmar).
+
+anuncia está cerrado.
+18 NOV. — Debate sobre vivienda en la
+
+al sábado 28 no se pueden publicar
+Cadena SER (Rodríguez–Bravo).
+
+Al cierre de esta edición, el 10 de
+noviembre, solo hay un debate
+cerrado: el de portavoces de laSexta,
+encuestas, y el sábado 28 es la jornada
+de reflexión. Hay poco tiempo de
+campaña y poco tiempo de silencio: el
+domingo 29, la única encuesta que no
+19 NOV. — Termina el plazo para pedir el
+voto por correo.
+23 NOV. — Atresmedia convoca un debate
+
+el viernes 13 a las 21:30, con Ana
+a cuatro (sin el PSOE confirmado).
+
+Pastor. Van Carlos Cuerpo (PSOE),
+Juan Bravo (PP), Pablo Bustinduy
+admite error: la votación, con
+papeletas de verdad.
+23 NOV. — RTVE propone un debate a
+ocho, con los portavoces de los ocho
+
+(Frente Amplio) y José María Figaredo
+grupos.
+
+(Vox), a hablar de economía, con
+público en el plató.
+Leer un debate es fácil si preguntas
+tres cosas: ¿quién habla, de qué tema
+y con qué datos? El que promete sin
+24–28 NOV. — Prohibido publicar
+encuestas.
+
+datos promete humo.
+26 NOV. — El PP propone un debate a
+
+El debate de vivienda en la Cadena
+SER, el miércoles 18, ya está acordado
+cuatro de la Academia (sin fecha pactada).
+
+(Rodríguez–Bravo), pero no se había
+27 NOV. — Termina la campaña; el 28,
+
+publicado la hora al cierre de esta
+edición: acordado no es cerrado. El PP
+propone un cara a cara entre Sánchez
+y Feijóo para el lunes 16, y un debate
+a cuatro para el jueves 26; el lunes 9,
+PSOE y PP acuerdan que la Academia
+de Televisión organice los dos
+debates, pero las fechas, las horas y
+los participantes siguen sin cerrarse.
+Atresmedia convoca su propio debate
+a cuatro para el lunes 23, sin el PSOE
+confirmado. RTVE propone un debate
+a ocho, con los portavoces de los ocho
+grupos, para el lunes 23. Un debate
+«propuesto» no es un debate
+LOS MINUTOS GRATIS EN RTVE　minutos de propaganda por partido
+jornada de reflexión.
+29 NOV. — España vota, de 9:00 a 20:00.
+LEER UN DEBATE
+Para leer cualquier debate, pregunta
+tres cosas: ¿quién habla? ¿De qué
+tema? ¿Con qué datos? Sin esas tres
+respuestas, una promesa no dice casi
+nada.
+
+PROPAGANDA GRATIS EN RTVE　minutos
+¿POR QUÉ NO HAY ENCUESTAS?
+
+PSOE
+45 min
+Prohibido publicar encuestas
+5
+
+PP
+45 min
+Días de campaña en total
+15
+
+Vox
+30 min
+Días de silencio (reflexión)
+1
+
+Frente Amplio
+Podemos
+30 min
+15 min
+
+Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de
+Del martes 24 al sábado 28 de noviembre no se pueden publicar encuestas. El sábado 28 es la
+
+noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.
+jornada de reflexión: sin propaganda ni actos de campaña.
+
+EJERCICIOS　Упражнения страницы 6
+Ответы на странице 8　Уровни перемешаны — ищите по номеру задания
+
+A　LEER LOS GRÁFICOS
+B2
+87.
+B2
+91.
+B2
+96.
+Вставьте
+
+Entre el PSOE y Vox hay... A. 30 minutos · B. 15
+Un debate «propuesto» es... A. cerrado · B. en la
+___ los debates difieren, ninguno miente.
+
+Посмотрите на графики и выберите
+minutos · C. 45 minutos
+tele · C. aún sin confirmar
+
+правильный ответ.
+D　PALABRAS DEL DEBATE
+
+B2
+88.
+B2
+92.
+Вставьте слова из рамки: sondeo ·
+
+La Lucerna publica aquí... A. una media mezclada
+Según el texto, una encuesta es... A. un resultado
+
+B2
+83.
+
+· B. todos los sondeos · C. solo datos oficiales, con
+final · B. una foto con margen de error · C. una
+muestra · indecisos · margen de error
+
+El PSOE y el PP tienen en RTVE... A. 45 minutos ·
+B. 30 minutos · C. 15 minutos
+fuente
+promesa
+B2
+97.
+Вставьте
+
+B2
+B　COMPRENSIÓN
+C　EL SUBJUNTIVO
+
+84.
+Un ___ pregunta a una muestra de ciudadanos.
+
+La propaganda gratuita en RTVE suma... A. 120
+B2
+89.
+B2
+93.
+Вставьте
+
+minutos · B. 195 minutos · C. 45 minutos
+B2
+98.
+Вставьте
+
+B2
+85.
+El único debate cerrado es... A. el cara a cara · B. el
+de laSexta · C. el debate a cuatro
+Es posible que el debate ___ (tener) cuatro
+portavoces.
+El sondeo preguntó a una ___ de ciudadanos.
+
+Podemos tiene en RTVE... A. 45 minutos · B. 30
+B2
+99.
+Вставьте
+
+B2
+90.
+B2
+94.
+Вставьте
+
+minutos · C. 15 minutos
+Los ___ todavía no saben a quién votar.
+
+El debate de portavoces es el... A. viernes 13, a las
+21:30 · B. lunes 16 · C. jueves 26
+Es importante que cada dato ___ (ser) claro.
+
+B2
+86.
+B2
+100.
+Вставьте
+
+B2
+95.
+Вставьте
+
+Prohibido publicar encuestas durante... A. 5 días ·
+Toda encuesta tiene un ___.
+
+B. 15 días · C. 1 día
+Publicamos la fuente ___ todos puedan
+comprobarla.
+
+## Lengua
+
+LENGUA　Язык
+La Lucerna
+Фокус на языке　Tres niveles, tres herramientas　Три уровня, три инструмента
+A2　LA HORA
+B1　COMPARATIVOS
+B2　EL SUBJUNTIVO
+Para decir la hora: «Es la una» en singular,
+Para comparar: más / menos + adjetivo +
+Los debates usan el subjuntivo: «es
+
+«Son las dos» en plural. Para los minutos:
+que; tan + adjetivo + como. Dos irregulares
+necesario que», «para que», «ojalá» van
+
+«Son las 20:45» o «las nueve menos
+para recordar: bueno → mejor, malo →
+con subjuntivo — tenga, sea, baje. Pero
+
+Un libro de horas medieval: letras decoradas
+
+cuarto». Y el partido se juega «a las
+peor. Y nunca «más mejor»: mejor ya es
+«creo que» afirma y va con indicativo: creo
+que abrían la oración.
+
+Manuscrito medieval — dominio público
+
+21:00»: con la preposición a.
+comparativo.
+que es.
+
+Y ojo con la fecha: «el lunes 16 de
+El fútbol de esta semana sirve para
+Es la gramática de la página 6: opinar
+
+ERRORES TÍPICOS　Ошибки
+
+noviembre», con el mes en minúscula y el
+practicar: más goles que, tan rápido como,
+sobre debates y programas sin afirmar más
+
+«Son la una en punto.»
+
+1 como «el uno».
+mejor que, peor que.
+de lo que sabemos.
+
+→ «Es la una.» Es singular.
+
+Время: es la una (единственное число),
+Сравнительная степень: más … que, tan
+es necesario que, para que, ojalá — с
+
+Час — единственное число: es.
+
+son las dos (множественное число); матч
+… como; bueno → mejor, malo → peor;
+сослагательным; creo que — с
+
+начинается в a las 21:00.
+никогда не говорите más mejor.
+изъявительным.
+«El derbi es más mejor.»
+
+→ «Es mejor.» Sin más.
+
+A2
+101.
+Вставьте
+B1
+105.
+Вставьте
+B2
+109.
+Вставьте
+
+___ la una en punto.
+El Barça marca ___ que el año pasado. (goles)
+Es necesario que el precio ___ (bajar).
+mejor уже сравнительная степень.
+
+«La gente votan el 29.»
+
+A2
+102.
+Вставьте
+B1
+106.
+Вставьте
+B2
+110.
+Вставьте
+
+___ las nueve de la noche.
+El derbi es ___ como siempre. (rápido)
+Publicamos la fuente para que todo ___ (ser)
+→ «La gente vota.» Es singular.
+
+A2
+103.
+Вставьте
+B1
+107.
+Вставьте
+claro.
+gente — единственное: глагол — тоже.
+
+El derbi es el sábado a ___ 18:30.
+Un debate claro es ___ (bueno) que un titular.
+B2
+111.
+Вставьте
+«Creo que el debate sea útil.»
+
+A2
+104.
+B1
+108.
+Creo que el debate ___ (ser) útil.
+→ «Creo que el debate es útil.»
+
+¿Cómo se dice la 1:00? A. Son la una · B. Es
+¿Qué forma es correcta? A. más mejor · B.
+B2
+112.
+creo que утверждает: изъявительное.
+
+la una · C. Es las una
+mejor · C. muy mejor
+«Ojalá que el debate...» A. tiene datos · B.
+
+FRASES DE LA SEMANA　Фразы недели (дословно из статей выпуска)
+tenga datos · C. tener datos
+LA PALABRA　Слово недели
+« el debate » es la discusión con
+turnos: cuatro portavoces el viernes
+13; el lunes 16, un cara a cara
+propuesto.
+debate = дебаты: публичное
+обсуждение; выборы — 29-го.
+CARTAS DE LOS LECTORES
+«¡Hola! Soy Marta, estudio español en
+Pekín. El lunes 16 escucho flamenco y
+el sábado veo el derbi. ¡Gracias por el
+periódico!» — Marta (ejemplo, escrito
+por la redacción)
+Nota de la redacción: sin cartas reales ni
+mejores textos al cierre, publicamos este
+ejemplo; la promesa pasa al VOL.5.
+Примечание редакции: к сдаче номера
+настоящих писем и лучших текстов не
+поступило; в этом выпуске —
+письмо-образец. Обещание — на VOL.5.
+
+«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el
+«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del
+
+viernes 27 de noviembre.»
+viernes 20 al lunes 23 de noviembre.»
+
+Кампания начинается 13-го в полночь, длится 15 дней и заканчивается 27-го. (СтраницаЛига прерывается и возвращается: 13-й тур проходит с пятницы, 20 ноября, по
+
+1)
+понедельник, 23 ноября. (Страница 4)
+
+«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»
+«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o
+
+Четверг, 19-е, — ключевой день: последний день заявки на голосование по почте.
+por correo.»
+
+(Страница 2)
+Впервые голосуете 29 ноября? Два способа: лично или по почте. (Страница 5)
+
+«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la
+«En campaña, no todo lo que se anuncia está cerrado.»
+
+guitarra en todos los rincones.»
+Понедельник, 16 ноября, — Международный день фламенко, и гитара звучит по всей
+Испании. (Страница 3)
+Во время кампании не всё объявленное уже решено. (Страница 6)
+
+«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»
+«Una encuesta es una foto con margen de error, tomada en un día concreto.»
+
+Фламенко — не только танец: пение, гитара, танец, хлопки, дробь каблуков и ритм.
+Опрос — это фото с погрешностью, сделанное в конкретный день. (Страница 6)
+
+(Страница 3)
+LA PRÓXIMA SEMANA　На следующей неделе (VOL.5)
+
+El domingo 29, España vota: los resultados, el Black Friday y la jornada 5 de la Champions. Además: tus cartas y los mejores textos de la página 8. ¡Hasta el lunes!
+
+## Ejercicios y respuestas
+
+EJERCICIOS Y RESPUESTAS　Упражнения и ответы
+La Lucerna
+Страница 8　La gran prueba de la semana + todas las respuestas
+A　COMPLETA LA CRÓNICA
+B1
+125.
+B1
+135.
+Составьте предложение
+B1
+146.
+El Black Friday es el... A. domingo 29 · B. viernes 27 · C.
+la campaña / dura / quince días → ___
+— ¿Tiene su documento de ___? (A. identidad · B. puente)
+B1
+113.
+El lunes, el flamenco ___ en la calle. (A. suena · B. duerme)
+lunes 16
+B1
+136.
+Составьте предложение
+B1
+147.
+
+B1
+126.
+¿ / a qué hora / empieza / el debate / ? → ___
+— ¿Dónde está la ___? (A. urna · B. guitarra)
+
+B1
+114.
+La campaña ___ el viernes 13. (A. termina · B. empieza)
+MiDNI es... A. un billete · B. una entrada · C. una aplicación
+
+oficial
+E　TRADUCE
+B1
+148.
+
+— La papeleta va en el ___. (A. sobre · B. derbi)
+
+B1
+115.
+A2
+137.
+Перевод
+
+B2
+127.
+
+El debate de laSexta fue a las ___. (A. 21:30 · B. 9:00)
+El lunes es el Día del Flamenco. → ___
+
+No se publican encuestas del... A. 16 al 19 · B. 24 al 28 · C.
+B1
+149.
+
+13 al 15
+— ¿A qué hora ___ el colegio? (A. cierra · B. canta)
+
+B1
+116.
+A2
+138.
+Перевод
+
+El voto por correo se pide hasta el ___. (A. jueves 19 · B.
+B1
+128.
+El sábado vemos el derbi Sevilla–Betis. → ___
+
+lunes 16)
+La jornada 5 de la Champions es el... A. 20–21 · B. 29–30 ·
+C. 24–25
+B1
+139.
+Перевод
+H　ESCRIBE TÚ
+Задание на письмо (нет единственного
+
+B1
+117.
+Заявку на голосование по почте нужно подать до
+
+ответа); образец текста (97 слов) ниже.
+
+La Liga ___ el viernes 20. (A. vuelve · B. para)
+C　LEE Y RESPONDE
+четверга, 19-го. → ___
+
+Lucía vive en Sevilla: el sábado 21 ve el derbi
+B1
+150.
+Письмо
+
+B1
+118.
+B2
+140.
+Перевод
+
+Sevilla–Betis en el Sánchez-Pizjuán. Diego vive en
+«¿Qué harías tú en la primera semana de campaña?»
+
+El derbi Sevilla–Betis es el ___. (A. domingo · B. sábado)
+Каждое обещание должно опираться на данные. →
+
+B1
+119.
+Madrid: el sábado ve el Real Madrid–Celta en el
+Bernabéu. Los dos escuchan flamenco el lunes 16 y leen
+los programas antes de votar el 29.
+___
+Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu
+voto del 29.
+
+Santa Cecilia es la patrona de los ___. (A. músicos · B.
+F　LAS PALABRAS DEL 29N
+
+futbolistas)
+Texto modelo: Vivo en Madrid, y el lunes 16 escucho
+
+A2
+flamenco en la calle: cante, toque y baile, la música de la
+
+129.
+¿Quién ve el derbi en Sevilla? A. Lucía · B. Diego · C. los dos
+B2
+141–144.
+Соотнесите
+semana. El viernes 13 empezó la campaña, y el domingo
+
+B1
+120.
+29 voto por primera vez: pido el voto por correo hasta el
+
+141. el sondeo
+
+El domingo 29, España ___. (A. vota · B. duerme)
+jueves 19. El viernes 20 vuelve la Liga, y el sábado veo el
+
+A2
+130.
+142. la muestra
+derbi Sevilla–Betis con mi familia. El domingo 22
+
+El sábado, Diego... A. ve el Madrid–Celta · B. ve el derbi · C.
+escucho a la banda de Santa Cecilia. Mis amigos de
+
+B　PREGUNTAS GENERALES
+
+duerme
+143. el margen de error
+Barcelona no tienen duende en su barrio: el lunes
+
+A2
+trabajan. Yo, en cambio, leo los programas con calma y
+
+121.
+144. la junta electoral
+
+A2
+131.
+preparo mi voto. ¡Qué semana!
+
+La campaña electoral empieza el... A. viernes 13 · B. lunes
+
+16 · C. domingo 29
+Antes de votar, los dos... A. leen los programas · B. ven
+
+«Infamia» · C. viajan a Praga
+a. quien organiza las elecciones
+
+A2
+122.
+b. el error posible de un sondeo
+
+El Día del Flamenco es el... A. domingo 22 · B. lunes 16 · C.
+A2
+132.
+c. una encuesta de opinión
+
+viernes 20
+El mejor título es... A. «Una tormenta» · B. «Dos ciudades,
+
+A2
+123.
+El voto por correo se pide hasta... A. jueves 19 · B. viernes
+20 · C. sábado 28
+un sábado» · C. «El Clásico»
+D　CONSTRUYE FRASES
+A2
+133.
+Составьте предложение
+el lunes / suena / el flamenco → ___
+d. las personas entrevistadas
+G　DIÁLOGO EN EL COLEGIO
+
+B1
+124.
+B1
+
+145.
+
+El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00
+— Buenos días, vengo a ___. (A. votar · B. cantar)
+
+· C. 18:30
+A2
+134.
+Составьте предложение
+el sábado / vemos / el derbi → ___
+La pluma del escritor: esta página es para
+escribir. El texto modelo de arriba tiene 97
+palabras: tu texto, entre 80 y 100.
+Pluma de cisne — dominio público (Wikimedia Commons)
+
+RESPUESTAS　Ответы — по страницам, ищите по номеру
+К каждому ответу — короткое пояснение　✓ = задание с образцом
+
+— PÁGINA 1 —
+38. compás — compás = ритм
+76. Voy a pedir el voto por correo. — voy a + инфинитив
+113. A — el flamenco suena = звучит фламенко
+
+1. 13 — Кампания начинается в пятницу, 13 ноября, в
+39. B — ЮНЕСКО объявило об этом в Найроби в 2010 году
+77. Vas a votar el domingo 29. — vas a + инфинитив
+114. B — empieza la campaña = кампания начинается
+
+полночь
+
+40. A — duende — момент, когда музыка трогает душу
+78. Va a abrirse la urna a las 9:00. — va a + инфинитив
+115. A — Дебаты laSexta в 21:30
+
+2. 29 — Выборы — в воскресенье, 29 ноября
+
+41. C — Фламенко родилось из многих культур Андалусии
+79. Van a comparar precios antes de pagar. — van a + инфинитив
+116. A — el voto por correo se pide hasta el jueves 19
+
+3. 19 — Заявка на голосование по почте — до 19-го
+
+42. B — После Дня фламенко — выборы 29 ноября
+80. Verdadero — Голосование по почте — через Correos
+117. A — la Liga vuelve = Лига возвращается
+
+4. 16 — День фламенко: понедельник, 16 ноября
+
+43. El flamenco es cante, toque y baile. — Подлежащее, глагол
+81. Falso — День тишины — суббота, 28-е, а не воскресенье
+118. B — Севильское дерби — в субботу
+
+5. 20 — 13-й тур начинается в пятницу, 20 ноября
+
+44. En noviembre suena la guitarra en España. — Время впереди,
+82. Verdadero — В этом году можно голосовать с MiDNI
+119. A — Santa Cecilia = покровительница музыкантов
+
+6. 15 — Кампания длится 15 дней
+7. C — Выборы — 29 ноября
+8. B — Кампания длится 15 дней
+9. A — Заявка на голосование по почте — до 19-го
+10. B — Международный день фламенко, 16 ноября
+— PÁGINA 2 —
+11. 16 — понедельник, 16 ноября
+12. 19 — четверг, 19 ноября
+13. 29 — Выборы — 29 ноября
+14. 22 — воскресенье, 22 ноября
+15. noviembre — Месяцы пишутся со строчной буквы
+16. empieza — la campaña → empieza
+17. dura — la campaña → dura
+18. vuelve — la Liga → vuelve
+19. recorren — los partidos → recorren
+20. llega — la documentación → llega
+21. B — День фламенко: понедельник, 16 ноября
+22. A — Заявка на голосование по почте — до 19-го
+глагол вторым
+45. En Bilbao toca la banda el domingo. — Место — впереди
+46. Todos preguntan si hay duende. — Косвенные вопросы с si
+— PÁGINA 4 —
+47. A — «Барса» лидирует с 33 очками
+48. B — 13-й тур, 20–23 ноября
+49. C — Севильское дерби, суббота, 18:30
+50. A — «Барса» — «Вильярреал», воскресенье, 14:00
+51. B — Лига чемпионов, 5-й тур, 24–25 ноября
+52. c — jornada = тур c
+53. b — derbi = дерби b
+54. a — liderato = первое место a
+55. d — fase liga = этап лиги d
+56. más importante — más + importante (борьба за титул)
+57. muchísimos — muchísimos = очень много болельщиков
+58. peor — Сравнительная степень от malo — peor
+59. mejor — Сравнительная степень от bueno — mejor
+60. El Barça ganó 1–2 al Atlético. — ganar → ganó
+— PÁGINA 6 —
+83. A — По 45 бесплатных минут у PSOE и PP
+84. B — Всего 195 минут бесплатного эфира
+85. C — Podemos: 15 минут
+86. A — 5 дней без публикации опросов (24–28 ноября)
+87. B — 45 − 30 = 15
+88. C — Только бесплатный эфир, с источником
+89. B — На 10 ноября подтверждены только дебаты laSexta
+90. A — Дебаты laSexta, пятница, 13 ноября, в 21:30
+91. C — «Предложено» — не значит «подтверждено»
+92. B — Опрос: фото с погрешностью на один день
+93. tenga — es posible que + сослагательное: tenga
+94. sea — es importante que + сослагательное: sea
+95. para que — para que + сослагательное (цель)
+96. Aunque — Aunque + изъявительное (известный факт)
+97. sondeo — sondeo = опрос
+98. muestra — muestra = выборка
+99. indecisos — indecisos = неопределившиеся
+120. A — Испания голосует в воскресенье, 29-го
+121. A — Кампания начинается в пятницу, 13 ноября
+122. B — Международный день фламенко, 16 ноября
+123. A — Заявка на голосование по почте — до 19-го
+124. C — Севильское дерби, суббота, 18:30
+125. B — «Чёрная пятница», пятница, 27 ноября
+126. C — MiDNI — официальное приложение
+127. B — Опросы не публикуются с 24 по 28 ноября
+128. C — Лига чемпионов, 5-й тур, 24–25 ноября
+129. A — Лусия смотрит дерби в Севилье в субботу
+130. A — Диего смотрит «Реал» — «Сельту» в субботу
+131. A — Оба читают программы перед голосованием
+132. B — Заголовок описывает два города и одну субботу
+133. El lunes suena el flamenco. — Сначала время, потом глагол
+134. El sábado vemos el derbi. — Время впереди
+135. La campaña dura quince días. — Подлежащее, глагол, время
+136. ¿A qué hora empieza el debate? — Вопрос — в начале
+137. Понедельник — Международный день фламенко. — См.
+
+61. El Madrid recibió al Celta el sábado. — recibir → recibió
+оригинал.
+
+23. C — Лига возвращается в пятницу, 20 ноября
+100. margen de error — margen de error = погрешность
+
+62. El Atlético perdió 0–2 con el Bayern. — perder → perdió
+138. В субботу мы смотрим севильское дерби. — См.
+
+24. B — Опросы не публикуются с 24 по 28 ноября
+25. c — debate = дебаты c
+63. La Liga volvió el viernes 20. — volver → volvió
+— PÁGINA 7 —
+оригинал.
+
+101. Es — Для часа — единственное число Es
+139. El voto por correo se pide hasta el jueves 19. — pedir hasta el
+
+26. b — mitin = митинг b
+64. La jornada cerró el lunes 23. — cerrar → cerró
+jueves 19
+
+102. Son — Для нескольких часов — множественное число Son
+
+27. d — cartel = плакат d
+— PÁGINA 5 —
+140. Cada promesa tiene que llevar datos. — tener que = должен
+
+103. las — a las 21:00 (с предлогом a)
+
+28. a — escaño = место в парламенте a
+65. B — Заявка на голосование по почте — до 19-го
+141. c — sondeo=опрос c
+
+104. B — Час — Es la una
+
+— PÁGINA 3 —
+66. A — Документы отправляются с 9 ноября
+142. d — muestra=выборка d
+
+105. más goles — más + goles (больше голов)
+
+67. C — Избирательные участки работают с 9:00 до 20:00
+143. b — margen de error=погрешность b
+
+29. Verdadero — День фламенко: понедельник, 16 ноября
+106. tan rápido — tan + rápido + como (такой же быстрый)
+
+68. B — MiDNI — новый способ подтвердить личность
+144. a — junta electoral=избирательная комиссия a
+
+30. Verdadero — ЮНЕСКО: фламенко в наследии с 2010 года
+107. mejor — сравнительная степень от bueno — mejor (без más)
+
+69. A — «Чёрная пятница», пятница, 27 ноября
+145. A — vengo a votar = я пришёл голосовать
+
+31. Falso — Фламенко: пение, гитара и танец вместе
+108. B — más mejor — ошибка
+
+70. correo — correo = почта / почтовый
+146. A — documento de identidad = удостоверение личности
+
+32. Falso — День святой Цецилии — 22 ноября
+109. baje — es necesario que + сослагательное: baje
+
+71. papeleta — papeleta = бюллетень
+147. A — ¿dónde está la urna? Где урна для голосования?
+
+33. Verdadero — Оркестр Бильбао: воскресенье, 22-го, 12:00
+110. sea — para que + сослагательное: sea
+
+72. envío — enviar в спряжении → envío
+148. A — la papeleta va en el sobre = бюллетень кладут в конверт
+
+34. cante — cante = пение
+111. es — creo que + изъявительное: es
+
+73. identidad — identidad = удостоверение личности
+149. A — Во сколько закрывается участок?
+
+35. baile — baile = танец
+112. B — ojalá + сослагательное наклонение: tenga
+
+74. censo — censo = список избирателей
+150. ✓ См. образец в разделе H (97 слов)
+
+36. guitarra — guitarra = гитара
+37. palmas — palmas = хлопки
+75. plazo — plazo = срок (19-е)
+— PÁGINA 8 —

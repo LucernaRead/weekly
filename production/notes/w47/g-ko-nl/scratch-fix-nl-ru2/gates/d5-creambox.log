@@ -1,0 +1,3 @@
+usage: d5_creambox_audit.py [-h] [--json JSON_OUT] [--selftest]
+                            [baseline] [patched]
+d5_creambox_audit.py: error: baseline and patched edition dirs are required

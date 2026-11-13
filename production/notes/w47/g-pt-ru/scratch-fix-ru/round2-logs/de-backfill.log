@@ -1,0 +1,33 @@
+BACKFILL 2 line(s) at pre L449: ['### ЗА И ПРОТИВ · PRO UND CONTRA', '']
+BACKFILL 2 line(s) at pre L665: ['', '### ОТВЕТЫ · LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN']
+WROTE /tmp/round2-final/2026-w47-ru-de.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -32,7 +32,7 @@
+ 
+ 20 — ноября возвращается чемпионат: 15-й тур
+ 
+-## СЕЙЧАС ВЫ · JETZT SIE
++## СЕЙЧАС ВЫ · SIE SIND DRAN
+ 
+ 1. [A2 · Ausfüllen] 14-й тур завершился ___ ноября. — key: 8 (Der 14. Spieltag endete am 8. November)
+ 2. [A2 · Ausfüllen] «Зенит» и «Динамо» набрали по ___ очку. — key: 31 (Zenit und Dynamo haben je 31 Punkte)
+@@ -126,7 +126,7 @@
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+-Und du? Schreib zwei Sätze auf Russisch an die Redaktion: einen für einen Studenten, einen für Väterchen Frost.
++Und Sie? Schreiben Sie zwei Sätze auf Russisch an die Redaktion: einen für einen Studenten, einen für Väterchen Frost.
+ 
+ *«Зима. Ростов»: картина Константина Юона. Зима в городе — снег, крыши и дым из труб.*
+ 
+@@ -509,7 +509,7 @@
+ 
+ Гололедица опасна: «На дорогах гололедица, будьте осторожны!» Тёплая одежда и зонт — лучшие друзья ноября.
+ 
+-*оттепель Tauwetter; мокрый снег Schneeregen; ледяной дождь Eisregen.*
++*оттепель Tauwetter; мокрый снег = nasser Schnee; ледяной дождь Eisregen.*
+ 
+ 101. [A2 · Ausfüllen] Сейчас ___: снег тает. — key: оттепель (оттепель = Tauwetter) [Ausfüllen]
+ 102. [A2 · Ausfüllen] Синоптики обещают ___ снег. — key: мокрый (мокрый снег = nasser Schnee) [Ausfüllen]

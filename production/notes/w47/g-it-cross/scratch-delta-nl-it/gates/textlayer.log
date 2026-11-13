@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8 8
+  p1: print 220 web 220 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p2: print 202 web 202 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p3: print 187 web 187 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p4: print 185 web 185 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p5: print 194 web 194 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p6: print 200 web 200 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p7: print 186 web 186 content-multiset-diff 0 positional-diff(0.3pt) 0
+  p8: print 384 web 384 content-multiset-diff 0 positional-diff(0.3pt) 0
+total tokens print 1758 web 1758
+
+== new print vs staging print (content) ==
+  p8: added ['Faccio una surprise con una breve poesia.', '140. Ik maak een surprise met een kort gedicht. — surprise è'] removed ['Faccio una surprise con una poesia.', '140. Ik maak een surprise met een gedicht. — surprise è']
+== new web vs staging web (content) ==
+  p8: added ['Faccio una surprise con una breve poesia.', '140. Ik maak een surprise met een kort gedicht. — surprise è'] removed ['Faccio una surprise con una poesia.', '140. Ik maak een surprise met een gedicht. — surprise è']
+pdftotext bytes: print 46510 web(new) 46510 web(staging) 46500 print(staging) 46500
+print new vs staging: equal=False bytes 46510 vs 46500
+web new vs staging: equal=False bytes 46510 vs 46500
+P8 min font size (print): 10.12 pt; count: 384
+P8 min font size (web): 10.12 pt

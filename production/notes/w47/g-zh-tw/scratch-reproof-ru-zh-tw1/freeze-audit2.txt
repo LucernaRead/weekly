@@ -1,0 +1,26 @@
+PAGE 1 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 19
+  removed sample: [{'text': '11月20日第15轮\u3000详见第4版', 'count': 1}, {'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u3000俄语正文\u3000中文讲解', 'count': 1}, {'text': '\u3000即学即练', 'count': 1}, {'text': '\u3000头条', 'count': 1}]
+PAGE 2 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 23
+  removed sample: [{'text': '?\u3000说说你自己', 'count': 1}, {'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u3000关于十一月天气的四个词', 'count': 1}, {'text': '\u3000学生节、严寒老人生日与天气', 'count': 1}, {'text': '\u3000本周词', 'count': 1}]
+PAGE 3 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 14
+  removed sample: [{'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u300011月19日电影：五部首映', 'count': 1}, {'text': '\u3000第3版练习', 'count': 1}, {'text': '传记片 ·', 'count': 1}, {'text': '刑侦的 · ', 'count': 1}]
+PAGE 4 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 15
+  removed sample: [{'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u3000体育', 'count': 1}, {'text': '\u3000国家队：塔什干与克拉斯诺达尔', 'count': 1}, {'text': '\u3000第14轮赛果', 'count': 1}, {'text': '\u3000第14轮：全部八场赛果 + 国家队', 'count': 1}]
+PAGE 5 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 13
+  removed sample: [{'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u3000“黑色星期五”：11月16日开始打折', 'count': 1}, {'text': '\u3000第5版练习', 'count': 1}, {'text': '合适 · ', 'count': 1}, {'text': '家用电器。', 'count': 1}]
+PAGE 6 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 17
+  removed sample: [{'text': '. 这是编辑部练习数据，不是真实调查。', 'count': 1}, {'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u300011月16–22日这一周：怎么过', 'count': 1}, {'text': '\u3000本周逐日历', 'count': 1}, {'text': '\u3000正反两方', 'count': 1}]
+PAGE 7 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 30
+  removed sample: [{'text': '14轮的八场比赛全部结束。 (', 'count': 1}, {'text': '21 后面用 ', 'count': 1}, {'text': '= 大促销，要计划，不要着', 'count': 1}, {'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': '\u3000三个级别，三个主题', 'count': 1}]
+PAGE 8 keys: ['added_strings', 'removed_strings', 'cjk_core_total', 'cjk_edition_total', 'cjk_added']
+  removed type: list len: 122
+  removed sample: [{'text': '97', 'count': 1}, {'text': 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'count': 1}, {'text': 'можно', 'count': 1}, {'text': '\u3000参考答案 — 按版面分页排列，找到题号即可', 'count': 1}, {'text': '\u3000练习与答案', 'count': 1}]
+TOTAL removed distinct: 0 count-sum: 0
+cjk_added_total count: 743 distinct: 183

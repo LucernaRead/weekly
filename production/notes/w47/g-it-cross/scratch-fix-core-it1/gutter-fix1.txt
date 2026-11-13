@@ -1,0 +1,37 @@
+AT-MARGIN P1 y=92.0 left=88.000 right=346.200 over=-1515.800 :: 'VOL. 4\u3000QUARTA EDIZIONE'
+AT-MARGIN P1 y=92.0 left=657.700 right=1292.328 over=-569.672 :: 'OGNI SETTIMANA IN ITALIANO\u3000每周一期\u3000读意大利人正在读的意大利语'
+AT-MARGIN P1 y=92.0 left=1470.900 right=1862.025 over=+0.025 :: 'SETTIMANA DAL 16 AL 22 NOVEMBRE 2026'
+AT-MARGIN P2 y=1594.0 left=88.000 right=484.312 over=-1377.688 :: 'IL 21 NOVEMBRE\u300011 月 21 日'
+AT-MARGIN P2 y=1594.0 left=1589.800 right=1862.034 over=+0.034 :: 'Una festa, una giornata verde'
+== per-element gutter intrusions (body/exercise text, size<=25) ==
+  P2 y= 1638.0 col1 into-gutter=+1336.8 right= 1847.3 :: 'Il 21 novembre è un giorno con due facce: a Venezia si prega per la sa'
+  P7 y= 2488.0 col1 into-gutter=+1310.1 right= 1820.6 :: 'Lunedì 23 novembre apre BookCity a Milano; la 12ª giornata si chiude c'
+  P4 y= 1492.0 col1 into-gutter=+1308.4 right= 1818.9 :: 'La 12ª giornata si gioca dal 21 al 23 novembre: Atalanta – Inter, ore '
+  P2 y= 1762.0 col1 into-gutter=+1288.4 right= 1798.9 :: 'Attenzione alla parola: «salute» vuol dire salute, stare bene. «La Mad'
+  P2 y= 1670.6 col1 into-gutter=+760.5 right= 1271.0 :: "è una giornata giovane, nata come festa dell'albero nel 1898 e diventa"
+  P1 y=  568.0 col1 into-gutter=+456.0 right=  966.5 :: "Lazio 29 punti, Inter e Roma inseguono: la Serie A racconta l'11ª gior"
+  P6 y= 1862.0 col1 into-gutter=+388.1 right=  898.6 :: "Questi numeri sono inventati per l'esercizio: servono per imparare a l"
+  P1 y= 2218.0 col1 into-gutter=+361.2 right=  871.7 :: "Un vecchio stadio italiano: il calcio si gioca da più di cent'anni, e "
+  P1 y=  372.0 col2 into-gutter=+329.0 right= 1290.0 :: "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DAL"
+  P6 y= 1826.0 col3 into-gutter=+243.8 right= 1655.3 :: 'Le cifre della manovra si aggiornano con il dibattito: controllale pri'
+  P8 y= 1382.0 col1 into-gutter=+209.4 right=  719.9 :: 'RISPOSTE\u3000参考答案 — 按版面分页排列，找到题号即可'
+  P7 y= 1787.0 col3 into-gutter=+178.1 right= 1589.6 :: '«la squadra di Gattuso è ancora imbattuta dopo 11 giornate»'
+  P6 y= 1764.0 col3 into-gutter=+174.8 right= 1586.3 :: "Il testo definitivo si conosce solo alla fine dell'iter in Parlamento."
+  P7 y= 2261.0 col1 into-gutter=+154.6 right=  665.1 :: '«oltre centocinquanta figuranti in costumi rinascimentali»'
+  P7 y= 2448.0 col1 into-gutter=+119.1 right=  629.6 :: 'LA PROSSIMA SETTIMANA\u3000下期预告 (VOL.5)'
+  P4 y= 1444.0 col2 into-gutter=+ 78.5 right= 1039.5 :: 'Fiorentina – Juventus 2–2'
+  P1 y=  762.8 col1 into-gutter=+ 59.5 right=  570.0 :: 'Dalla redazione de La Lucerna\u3000Livello di lettura: A2'
+  P7 y= 2261.0 col3 into-gutter=+ 52.0 right= 1463.5 :: '«approvato dal governo non vuol dire già legge»'
+  P4 y= 1320.0 col2 into-gutter=+ 30.2 right=  991.2 :: 'Roma – Sassuolo 3–0'
+  P6 y= 1634.0 col1 into-gutter=+ 27.8 right=  538.3 :: 'MINIME DI ESEMPIO\u3000gradi, dati inventati'
+  P6 y= 1724.0 col3 into-gutter=+ 27.8 right= 1439.2 :: 'Una cifra raccontata ≠ una cifra votata'
+  P6 y= 1684.0 col3 into-gutter=+ 23.0 right= 1434.5 :: '«Il governo propone» ≠ «la legge dice»'
+  P7 y= 2310.7 col1 into-gutter=+ 22.9 right=  533.4 :: '一百五十多名身着文艺复兴服装的演员。 (Pagina 3)'
+  P8 y=  999.3 col3 into-gutter=+ 18.8 right= 1430.3 :: 'b. i soldi che pagano una misura, la sua'
+  P8 y=  928.3 col3 into-gutter=+ 18.4 right= 1429.9 :: 'a. la parte del sistema fiscale, un livello'
+  P4 y= 1998.0 col2 into-gutter=+ 12.3 right=  973.3 :: 'c. il gruppo di squadre che giocano tra'
+  P4 y= 1258.0 col1 into-gutter=+ 11.1 right=  521.6 :: 'Cagliari – Frosinone 1–0'
+  P4 y= 1382.0 col2 into-gutter=+ 11.0 right=  972.0 :: 'Genoa – Milan 1–2'
+  P4 y= 1258.0 col2 into-gutter=+ 10.2 right=  971.2 :: 'Torino – Lecce 1–1'
+  P8 y= 1070.3 col3 into-gutter=+  8.2 right= 1419.7 :: 'c. la differenza tra spese ed entrate, in'
+  total gutter-intruding body elements: 32; max into-gutter: 1336.8px

@@ -1,0 +1,21 @@
+registry n: 150 core n: 150 p8 keys: 150
+p8 missing numbers: []
+registry vs P8: 149/150 exact; mismatch=[(150, '開放題 — 要點見寫作框，範文在第 8 版寫作框內', '開放題')]
+registry vs core: 146/150 exact; diff=[(137, '民主黨贏下了眾議院和參議院。', '民主党赢下了众议院和参议院。'), (138, '計票仍在繼續。', '计票仍在继续。'), (139, '新國會將於 2027 年 1 月開會。', '新国会将于 2027 年 1 月开会。'), (150, '開放題 — 要點見寫作框，範文在第 8 版寫作框內', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+  Q137: edition='民主黨贏下了眾議院和參議院。' core='民主党赢下了众议院和参议院。'
+    edition note='the House and the Senate = 兩院'
+    core    note='the House and the Senate = 两院'
+  Q138: edition='計票仍在繼續。' core='计票仍在继续。'
+    edition note='continues = 仍在繼續'
+    core    note='continues = 仍在继续'
+  Q139: edition='新國會將於 2027 年 1 月開會。' core='新国会将于 2027 年 1 月开会。'
+    edition note='will meet = 將於……開會'
+    core    note='will meet = 将于……开会'
+  Q150: edition='開放題 — 要點見寫作框，範文在第 8 版寫作框內' core='开放题 — 要点见写作框，范文在第 8 版写作框内'
+    edition note='按要點給分'
+    core    note='按要点给分'
+Q73 registry: {'n': 73, 'page': 5, 'level': 'A2', 'type': '完成句子', 'key': 'up', 'note': 'speak up = 大聲說出來'}
+Q73 P8 extract: up
+Q73 core: {'n': 73, 'page': 5, 'level': 'A2', 'type': '完成句子', 'key': 'up', 'note': 'speak up = 大声说出来'}
+text.md answer lines parsed: 84
+registry vs text.md suspicious: []

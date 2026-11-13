@@ -1,0 +1,11 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print=8 web=8
+words print=8093 web=8093 multiset-diff=0
+diff sample: []
+P8 answer-region span sizes: [9.75, 10.5, 14.625, 18.75]
+P8 answer-region span count: 625 min size: 9.75
+P8 answer-region word count: 1352
+word bbox height: min 9.75 median 9.75 max 27.15
+P8 all span sizes: [9.75, 10.5, 10.875, 11.25, 11.625, 12.75, 13.5, 14.25, 14.625, 15.375, 16.5, 17.25, 18.0, 18.75, 34.5]
+WROTE ru-textdiff.json ru-p8size.json

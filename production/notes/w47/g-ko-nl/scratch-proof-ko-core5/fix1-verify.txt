@@ -1,0 +1,36 @@
+== D2 py ==
+./content12.py:157:      "한국시리즈에서 우승한 팀은 어느 팀이에요? A. 삼성 · B. kt wiz · C. LG", size=21)
+./content34.py:199:     "한국시리즈에서 우승한 팀은 어느 팀이에요? A. 삼성 · B. kt wiz · C. LG", size=20, gap=7)
+== 어디예요 py ==
+NONE
+== D3 py ==
+./content34.py:201:     "한국시리즈 전적은 어떻게 돼요? A. 3승 2패 · B. 3연승 · C. 4승 1패", size=20, gap=7)
+== 시리즈 시리즈 py ==
+NONE
+== D4 new py ==
+./content12.py:39:f.lead_para("11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.", 24)
+./content7.py:80:wt = "「〜 후에」 — '수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.' 나중에 하는 일을 말할 때 쓰는 틀이에요. 물어볼 때는 '〜 후에 뭐 해요?'라고 해요."
+./content7.py:130:    ("「수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요」", "高考之后就是泡菜日。", "1면"),
+== D4 old py ==
+NONE
+== D2 svg counts ==
+svg/p1-pyoji.svg: 1 new, 0 old
+svg/p2-saenghwal.svg: 0 new, 0 old
+svg/p3-munhwa.svg: 0 new, 0 old
+svg/p4-seupocheu.svg: 1 new, 0 old
+svg/p5-cheongnyeon.svg: 0 new, 0 old
+svg/p6-gipi.svg: 0 new, 0 old
+svg/p7-mal.svg: 0 new, 0 old
+svg/p8-siheom.svg: 0 new, 0 old
+== D3 svg ==
+0
+1
+== D4 svg ==
+0
+1
+== text.md counts ==
+0
+0
+0
+0
+2

@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print pages 8 size Rect(0.0, 0.0, 1462.5, 2025.0)
+print P8 span sizes: [9.94, 11.62, 12.0, 12.75, 13.5, 13.88, 14.25, 14.62, 15.0, 15.38, 15.75, 16.12, 17.25, 18.0, 18.75, 19.5, 34.5]
+print P1 chars-nows=3415 words=701
+print P2 chars-nows=3489 words=708
+print P3 chars-nows=4471 words=906
+print P4 chars-nows=3955 words=832
+print P5 chars-nows=3933 words=781
+print P6 chars-nows=3909 words=786
+print P7 chars-nows=3687 words=722
+print P8 chars-nows=8361 words=1502
+web pages 8 size Rect(0.0, 0.0, 1462.5, 2025.0)
+web P8 span sizes: [9.94, 11.62, 12.0, 12.75, 13.5, 13.88, 14.25, 14.62, 15.0, 15.38, 15.75, 16.12, 17.25, 18.0, 18.75, 19.5, 34.5]
+web P1 chars-nows=3415 words=701
+web P2 chars-nows=3489 words=708
+web P3 chars-nows=4471 words=906
+web P4 chars-nows=3955 words=832
+web P5 chars-nows=3933 words=781
+web P6 chars-nows=3909 words=786
+web P7 chars-nows=3687 words=722
+web P8 chars-nows=8361 words=1502

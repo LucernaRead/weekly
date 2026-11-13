@@ -1,0 +1,9 @@
+p8-edition.json top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+p8-core.json top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+edition keys type: dict n= 150
+reg vs printed-edition key mismatches: 1 [(150, '(Open opdracht, modeltekst hieronder)', '✓')]
+core vs edition keydiff: [137, 138, 139, 140]
+  Q137: core='11月17日星期二，大学生节。' edition='Dinsdag 17 november, Studentendag.' reg='Dinsdag 17 november, Studentendag.'
+  Q138: core='包裹要追踪、领取并检查。' edition='Een pakket moet gevolgd, opgehaald en gecontroleerd worden.' reg='Een pakket moet gevolgd, opgehaald en gecontroleerd worden.'
+  Q139: core='星期二俄罗斯队对阵委内瑞拉队。' edition='Op dinsdag speelt Rusland tegen Venezuela.' reg='Op dinsdag speelt Rusland tegen Venezuela.'
+  Q140: core='祝大家大学生节快乐！' edition='Fijne Studentendag allemaal!' reg='Fijne Studentendag allemaal!'

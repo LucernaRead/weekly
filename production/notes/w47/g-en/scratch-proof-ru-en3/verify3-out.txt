@@ -1,0 +1,29 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+page rects print==web: True
+char totals: {'print': {'total_chars': 35198, 'spaces': 4905, 'non_ws': 30293}, 'web': {'total_chars': 35198, 'spaces': 4905, 'non_ws': 30293}}
+italic chars print/web: 16 16
+italic fonts print: {'Newsreader16pt-Italic': 2, 'NotoSerif-MediumItalic': 14}
+italic fonts web: {'LucernaNewsreader-Italic': 2, 'LucernaNotoSerif-Italic': 14}
+D3(a) gap print: None
+D3(a) gap web: None
+D3(b) close print: None
+D3(b) close web: None
+D2 spots:
+   {'label': 'P1 headline', 'page': 1, 'print_x1': 133.018, 'web_x1': 133.018, 'deficit': 0.0, 'print_font': 'Newsreader16pt-Regular', 'web_font': 'LucernaNewsreader-Bold', 'print_text': '14-', 'web_text': '14-'}
+   {'label': 'P4 heading', 'page': 4, 'print_x1': 106.464, 'web_x1': 106.464, 'deficit': 0.0, 'print_font': 'Newsreader16pt-Regular', 'web_font': 'LucernaNewsreader-Bold', 'print_text': '14-', 'web_text': '14-'}
+   {'label': 'P1 contents 1.', 'page': 1, 'print_x1': 1138.695, 'web_x1': 1138.695, 'deficit': 0.0, 'print_font': 'Newsreader16pt-Regular', 'web_font': 'LucernaNewsreader-Bold', 'print_text': '1. 14-', 'web_text': '1. 14-'}
+   {'label': 'P4 band-sub', 'page': 4, 'print_x1': 1008.743, 'web_x1': 1008.743, 'deficit': 0.0, 'print_font': 'NotoSans-Medium', 'web_font': 'LucernaNotoSans-Regular', 'print_text': ' все восемь результатов', 'web_text': ' все восемь результатов'}
+   {'label': 'P1 contents 3.', 'page': 1, 'print_x1': 1122.225, 'web_x1': 1122.225, 'deficit': 0.0, 'print_font': 'Newsreader16pt-Regular', 'web_font': 'LucernaNewsreader-Bold', 'print_text': '3. «', 'web_text': '3. «'}
+   {'label': 'P5 title «', 'page': 5, 'print_x1': 80.112, 'web_x1': 80.112, 'deficit': 0.0, 'print_font': 'Newsreader16pt-Regular', 'web_font': 'LucernaNewsreader-Bold', 'print_text': '«', 'web_text': '«'}
+   {'label': 'P7 « x2 #1', 'page': 7, 'print_x1': 1105.606, 'web_x1': 1105.606, 'deficit': 0.0}
+   {'label': 'P7 « x2 #2', 'page': 7, 'print_x1': 1105.606, 'web_x1': 1105.606, 'deficit': 0.0}
+   {'label': 'P7 « x2 #3', 'page': 7, 'print_x1': 1105.606, 'web_x1': 1105.606, 'deficit': 0.0}
+   {'label': 'P7 « x2 #4', 'page': 7, 'print_x1': 1105.606, 'web_x1': 1105.606, 'deficit': 0.0}
+   {'label': 'P7 « x2 #5', 'page': 7, 'print_x1': 1104.994, 'web_x1': 1104.994, 'deficit': 0.0}
+   {'label': 'P7 « x2 #6', 'page': 7, 'print_x1': 1104.994, 'web_x1': 1104.994, 'deficit': 0.0}
+span_text_diffs: 0
+abutting >0.5: 0 max|diff|: 0.0
+intra >0.5: 0 max|diff|: 0.0
+multiset diffs: []

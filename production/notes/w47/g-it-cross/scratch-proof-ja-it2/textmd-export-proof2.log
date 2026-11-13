@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/weekly-git/production/2026-w47/fanout-ja/2026-w47-ja-it/export-textmd-it.py", line 18, in <module>
+    t = open(os.path.join(BASE, 'svg', name + '.svg'), encoding='utf-8').read()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/ja-it2-textmd-reexport.md/svg/p1-hyoushi.svg'

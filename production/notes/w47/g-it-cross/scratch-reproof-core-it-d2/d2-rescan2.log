@@ -1,0 +1,59 @@
+== new L17/L18 in p7 SVG (grep -o counts only) ==
+L17-new in p7 svg: 0
+L18-new in p7 svg: 0
+L17-old in p7 svg: 0
+L18-old in p7 svg: 0
+L17-new in text.md: 1
+L18-new in text.md: 1
+== KIT history lines mentioning old strings (line numbers only) ==
+89:  18. D-2 FIX (core-level teaching error, 2026-11-11; logs in `hidden_files/w
+89:  18. D-2 FIX (core-level teaching error, 2026-11-11; logs in `hidden_files/w
+== normalized PDF text layers ==
+print-prod L17-new: 0
+print-prod L18-new: 1
+print-prod L17-old: 0
+print-prod L18-old: 0
+print-prod bytes: 43979 words: 6886
+web-prod L17-new: 0
+web-prod L18-new: 1
+web-prod L17-old: 0
+web-prod L18-old: 0
+web-prod bytes: 43979 words: 6886
+== normalized old-vs-new pdftotext word diff ==
+delete OLD: andare → andrò,
+delete NEW: 
+replace OLD: guarderò. leggerò.
+replace NEW: E per la settimana prossima: leggeremo a
+replace OLD: A2
+replace NEW: 101. 填空
+replace OLD: A2 A2
+replace NEW: 102. 填空
+insert OLD: 
+insert NEW: 讲过去用近过去时：partire/finire 等用 essere ，分词配合性数；avere 的分词不变。
+replace OLD: Il corteo ___ (partire) alle 16.
+replace NEW: B1
+delete OLD: Domenica noi ___ (vedere) gli sbandieratori.
+delete NEW: 
+replace OLD: 108. La Festa del Torrone
+replace NEW: I visitatori
+replace OLD: domenica. A. è finita · B. ha finito · C. sono finite
+replace NEW: (comprare) il torrone. A2 103. 填空 B1
+delete OLD: 讲过去用近过去时：partire/finire 等用 essere ，分词配合性数；avere 的分词不变。 B1 103. 填空
+delete NEW: 
+replace OLD: I visitatori ___ (comprare) il torrone.
+replace NEW: B1
+replace OLD: B1 102. 填空
+replace NEW: Domenica noi ___ (vedere) gli sbandieratori. A2
+replace OLD: B1 101. 填空
+replace NEW: Il corteo ___ (partire) alle 16. A2
+replace OLD: irregolare
+replace NEW: regolare
+insert OLD: 
+insert NEW: leggerò.
+replace OLD: E per la settimana prossima: leggeremo a
+replace NEW: guarderò.
+insert OLD: 
+insert NEW: 108. La Festa del Torrone ___ domenica. A. è finita · B. ha finito · C. sono finite 104.
+delete OLD: 104.
+delete NEW: 
+total words old/new: 6890 6887

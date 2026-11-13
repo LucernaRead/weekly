@@ -1,0 +1,11 @@
+[PASS] G1 run.py TOTAL 150, 0 overflow: TOTAL=150 overflow-words=none
+[PASS] G2 census 0 defective, P1 quotes Newsreader: defective=0 p1-newsreader-quotes=2 per-file={'p1-prima.svg': {('U+201C', 'Newsreader'): 1, ('TOTAL', 'Newsreader'): 2, ('U+201D', 'Newsreader'): 1}, 'p2-vita.svg': {}, 'p3-cultura.svg': {}, 'p4-sport.svg': {}, 'p5-giovani.svg': {}, 'p6-approfondimento.svg': {}, 'p7-lingua.svg': {}, 'p8-valutazione.svg': {}}
+[PASS] G3 occlusion 0 flags: rc=0 out-tail=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-it/2026-w47-it-nl/b1/build-copy/svg: 0 flags
+[PASS] G4 p8 extract 150/150 + compare CLEAN: extract rc=0 noted=150/150; compare rc=0 verdict=CLEAN keydiff=[137, 138, 139]
+[PASS] G5 spill 0 SPILL: rc=0 tail=SPILL_SWEEP build-copy: 29 boxes, 62 candidates, 0 SPILL, 62 OBSERVE
+[PASS] G6 boxtitle 0 DEFECT: rc=0 tail=BOXTITLE build-copy: 18 titles, 240 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[PASS] G7 text.md byte-identical: prod=b13ef7a7abe07928 built=b13ef7a7abe07928
+[PASS] G8 only p1 SVG differs vs pre-fix: changed=['p1-prima.svg']
+[PASS] G9 print/web text multiset identical, web<7MB: print-words=7886 web-words=7886 multiset-eq=True web=1291820B
+[PASS] G10 P8 min font 13.0px: min=13.0
+GATES 2026-w47-it-nl/b1: 10/10 PASS

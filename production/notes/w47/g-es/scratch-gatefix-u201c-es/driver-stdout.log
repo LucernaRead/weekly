@@ -1,0 +1,73 @@
+===== 2026-w47-es-de =====
+  run_build A: 0
+  run_build B: 0
+  freeze A-vs-B: 8/8 identical=True bad=None
+  webpdf: 0
+  census after: total=3 defective=0
+  boxtitle: 0
+  spill: 0
+  verify: skipped (no verify.py in es-family editions)
+  p8 extract: 0
+  p8 compare: 0 keydiff=[137, 138] expected=[137, 138]
+  occlusion: 0
+  freeze_diff: 0
+  frozen_check: 0
+  text.md identical: True
+  print=3503173 web=889964 cards_changed=['p1-portada.png']
+  -> GATES GREEN
+===== 2026-w47-es-en =====
+  run_build A: 0
+  run_build B: 0
+  freeze A-vs-B: 8/8 identical=True bad=None
+  webpdf: 0
+  census after: total=6 defective=0
+  boxtitle: 0
+  spill: 0
+  verify: skipped (no verify.py in es-family editions)
+  p8 extract: 0
+  p8 compare: 0 keydiff=[137, 138] expected=[137, 138]
+  occlusion: 0
+  freeze_diff: 0
+  frozen_check: 0
+  text.md identical: True
+  print=3500997 web=886824 cards_changed=['p1-portada.png']
+  -> GATES GREEN
+===== 2026-w47-es-nl =====
+  run_build A: 0
+  run_build B: 0
+  freeze A-vs-B: 8/8 identical=True bad=None
+  webpdf: 0
+  census after: total=4 defective=0
+  boxtitle: 0
+  spill: 0
+  verify: skipped (no verify.py in es-family editions)
+  p8 extract: 0
+  p8 compare: 0 keydiff=[137, 138] expected=[137, 138]
+  occlusion: 0
+  freeze_diff: 0
+  frozen_check: 0
+  text.md identical: True
+  print=3502211 web=888054 cards_changed=['p1-portada.png', 'p6-afondo.png']
+  -> GATES GREEN
+===== core-es =====
+  run_build A: 0
+  run_build B: 0
+  freeze A-vs-B: 8/8 identical=True bad=None
+  webpdf: 0
+  census after: total=10 defective=0
+  boxtitle: 0
+  spill: 0
+  verify: skipped (no verify.py in es-family editions)
+  p8 extract: 0
+  p8 compare: 0 keydiff=[] expected=[]
+  occlusion: 0
+  freeze_diff: 0
+  frozen_check: 1
+  text.md identical: True
+  print=17213128 web=1410706 cards_changed=['p1-portada.png', 'p3-cultura.png', 'p5-juventud.png']
+  -> FAILED steps=['frozen_check'] checks=[True, True, True, True]
+ALL DONE
+2026-w47-es-de: GATES GREEN
+2026-w47-es-en: GATES GREEN
+2026-w47-es-nl: GATES GREEN
+core-es: FAILED steps=['frozen_check'] checks=[True, True, True, True]

@@ -1,0 +1,69 @@
+B parsed: 149 items, range 1..150, missing=[78]
+three-source agree: 147/150; mismatches: [{'n': 48, 'svg': 'C', 'textmd': '78. A', 'core': 'C'}, {'n': 78, 'svg': 'A', 'textmd': None, 'core': 'A'}, {'n': 150, 'svg': '✓', 'textmd': '✓ Open opdracht', 'core': '✓'}]
+SVG CJK edition-only chars: ['荷', '蘭']
+SVG CJK core-only chars: ['英']
+text.md CJK edition-only chars: ['荷', '蘭']
+text.md CJK core-only chars: ['英']
+p1 net CJK delta: {'版': -2, '軍': -1, '蘭': 2, '共': -1, '英': -2, '叫': -1, '第': -1, '冠': -1, '荷': 2, '拿': -1, '總': -1, '下': -1}
+p2 net CJK delta: {'版': -2, '蘭': 1, '共': -1, '英': -1, '第': -1, '荷': 1}
+p3 net CJK delta: {'版': -2, '蘭': 1, '共': -1, '英': -1, '第': -1, '荷': 1}
+p4 net CJK delta: {'版': -2, '蘭': 1, '共': -1, '英': -1, '第': -1, '荷': 1}
+p5 net CJK delta: {'版': -2, '蘭': 1, '共': -1, '英': -1, '第': -1, '荷': 1}
+p6 net CJK delta: {'版': -2, '蘭': 1, '共': -1, '英': -1, '第': -1, '荷': 1}
+p7 net CJK delta: {'共': -1, '版': -2, '蘭': 1, '英': -1, '第': -1, '荷': 1}
+p8 net CJK delta: {'版': -2, '蘭': 1, '第': -1, '荷': 1, '共': -1, '英': -1}
+edition svg U+0022 count: 0 | U+0027 count: 11 | U+201C: 0 | U+201D: 0 | U+2018: 0 | U+2019: 0
+core svg U+0022 count: 0 | U+0027 count: 28 | U+201C: 0 | U+201D: 0 | U+2018: 0 | U+2019: 0
+text.md U+0022 count: 0 | U+0027 count: 11 | U+201C: 0 | U+201D: 0 | U+2018: 0 | U+2019: 0
+  STRAIGHT-APOS in edition svg: ..."tenbad van 10–15\nminuten 's avonds helpt om te sla"...
+  STRAIGHT-APOS in edition svg: ..."n. De\ntoegang is gratis; 's avonds is het er het\nm"...
+  STRAIGHT-APOS in edition svg: ..."y, Minnie en Stitch), en 's\navonds is er de boomve"...
+  STRAIGHT-APOS in edition svg: ..."\n(de titel pakken), \n夜間\n('s nachts) en \n終點\n \n(fini"...
+  STRAIGHT-APOS in edition svg: ..."p\nwinnen. \n夜間\n \nbetekent 's nachts — de\nnachtparad"...
+  STRAIGHT-APOS in edition svg: ...". 夜間 — De nachtparade is 's avonds.\n8. 感謝祭 — Het d"...
+  STRAIGHT-APOS in edition svg: ...".\n57. 帳篷 — Fans kamperen 's nachts op het gras.\n58"...
+  STRAIGHT-APOS in edition svg: ...". 夜間 — De nachtparade is 's avonds.\n131. 點收 — Cont"...
+  STRAIGHT-APOS in edition svg: ..."2 nov.\n139. B — Ze kijkt 's middags in Tianmu naar"...
+  STRAIGHT-APOS in text.md: ..."enbad van 10–15\n\nminuten 's avonds helpt om te sla"...
+  STRAIGHT-APOS in text.md: ...". De\n\ntoegang is gratis; 's avonds is het er het\n\n"...
+  STRAIGHT-APOS in text.md: ..."y, Minnie en Stitch), en 's\n\navonds is er de boomv"...
+  STRAIGHT-APOS in text.md: ..."(de titel pakken),\n\n夜間\n\n('s nachts) en\n\n終點\n\n(finis"...
+  STRAIGHT-APOS in text.md: ..."p\n\nwinnen.\n\n夜間\n\nbetekent 's nachts — de\n\nnachtpara"...
+  STRAIGHT-APOS in text.md: ...". 夜間 — De nachtparade is 's avonds.\n\n8. 感謝祭 — Het "...
+  STRAIGHT-APOS in text.md: ..."\n\n57. 帳篷 — Fans kamperen 's nachts op het gras.\n\n5"...
+  STRAIGHT-APOS in text.md: ...". 夜間 — De nachtparade is 's avonds.\n\n131. 點收 — Con"...
+  STRAIGHT-APOS in text.md: ..." nov.\n\n139. B — Ze kijkt 's middags in Tianmu naar"...
+edition svg 'Sunday': 0 | text.md 'Sunday': 0
+edition svg 'Monday': 0 | text.md 'Monday': 0
+edition svg 'Tuesday': 0 | text.md 'Tuesday': 0
+edition svg 'Wednesday': 0 | text.md 'Wednesday': 0
+edition svg 'Thursday': 0 | text.md 'Thursday': 0
+edition svg 'Friday': 0 | text.md 'Friday': 0
+edition svg 'Saturday': 0 | text.md 'Saturday': 0
+edition svg 'November': 0 | text.md 'November': 0
+edition svg 'December': 0 | text.md 'December': 0
+edition svg 'January': 0 | text.md 'January': 0
+edition svg 'next Sunday': 0 | text.md 'next Sunday': 0
+edition svg 'Next Sunday': 0 | text.md 'Next Sunday': 0
+edition svg 'finish line': 0 | text.md 'finish line': 0
+edition svg 'end point': 0 | text.md 'end point': 0
+edition svg '下週日': 0 | text.md '下週日': 0
+edition svg '下周日': 0 | text.md '下周日': 0
+edition svg 'zondag': 14 | 'Deze zondag': 1 | 'op zondag 22 nov.': 9
+P8 E-context: 'E\u3000情景說話\u3000Zeg het in context' | neighbours: ["'· C.'", "'爵士音樂節開幕'", "'E\\u3000情景說話\\u3000Zeg het in context'", "'B1'", "'144.'"]
+P8 header: '第8版\u3000本週大測驗\u3000全部答案\u3000De grote weektest en alle antwoorden'
+P8 header: 'A\u3000判斷對錯\u3000Waar of niet waar'
+P8 header: 'B\u3000本週大測驗\u3000De grote quiz'
+P8 header: 'C\u3000完成句子\u3000Zinnen aanvullen'
+P8 header: 'D\u3000讀一讀，答一答\u3000Lees en antwoord'
+P8 header: 'E\u3000情景說話\u3000Zeg het in context'
+P8 header: 'F\u3000寫一寫\u3000Schrijven'
+P8 header: 'Schrijven'
+P8 header: '寫一寫《我的一天：'
+model answer: '早上我先列好清單，查好遊行路線和公車時間，才出門。11月22日是星期日，也是小雪。下午2點，我和家人去天母看封王遊行，大家都穿紅色衣服。晚上回家，我和爸爸一起看金馬獎轉播，等得獎名單揭曉。鋼雕藝術節也在這一天閉幕，我想下次去高雄看。一天看了兩件大事，天氣一天比一天冷，出門要記得保暖。'
+len raw chars: 142
+len excl whitespace: 142
+len CJK+digits only: 126
+len excl punctuation (CJK+digits+letters): 126
+within 120-180? True
+wrote keycheck-150.json

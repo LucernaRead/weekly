@@ -1,0 +1,47 @@
+== boxtitle ink vs own box right edge (title = first text line, y-5..y+45) ==
+  svg/p1-capa.svg box y=786 right=1411.5: title 'A SEMANA EM NÚMEROS\u3000In Zahlen' ink-right=1393.0 margin=+18.5
+  svg/p1-capa.svg box y=588 right=1862.0: title 'A SEMANA, DIA A DIA' ink-right=1718.5 margin=+143.5
+  svg/p1-capa.svg box y=1238 right=1862.0: title 'NESTA EDIÇÃO\u3000In dieser Ausgabe' ink-right=1845.5 margin=+16.5
+  svg/p1-capa.svg box y=1874 right=1862.0: title 'EM POUCAS PALAVRAS\u3000IN KÜRZE' ink-right=1843.5 margin=+18.5
+  svg/p2-vida.svg box y=605 right=961.0: title 'PARA NÃO ERRAR\u3000Die Merkregel' ink-right=910.5 margin=+50.5
+  svg/p2-vida.svg box y=858 right=961.0: title 'HINWEIS · o feriadão das dreitägige' ink-right=906.0 margin=+55.0
+  svg/p2-vida.svg box y=200 right=1862.0: title 'VOCÊ SABIA?' ink-right=1604.5 margin=+257.5
+  svg/p2-vida.svg box y=545 right=1862.0: title 'E VOCÊ?\u3000Erzählen Sie von sich' ink-right=1810.5 margin=+51.5
+  svg/p2-vida.svg box y=1618 right=510.5: title 'o feriado começa' ink-right=408.1 margin=+102.4
+  svg/p2-vida.svg box y=1618 right=961.0: title 'Palmeiras × Flamengo, às' ink-right=938.7 margin=+22.3
+  svg/p2-vida.svg box y=1618 right=1411.5: title 'o fim do feriadão' ink-right=1309.1 margin=+102.4
+  svg/p2-vida.svg box y=1618 right=1862.0: title 'tudo volta ao normal' ink-right=1797.7 margin=+64.3
+  svg/p3-cultura.svg box y=200 right=961.0: title 'HINWEIS · o quilombo eine Siedlung' ink-right=914.2 margin=+46.8
+  svg/p3-cultura.svg box y=200 right=1862.0: title 'A SEMANA, DIA A DIA' ink-right=1690.5 margin=+171.5
+  svg/p3-cultura.svg box y=551 right=1862.0: title 'E VOCÊ?\u3000Erzählen Sie von sich' ink-right=1810.5 margin=+51.5
+  svg/p3-cultura.svg box y=909 right=1862.0: title 'PALAVRAS DA MEMÓRIA' ink-right=1703.5 margin=+158.5
+  svg/p4-esporte.svg box y=270 right=1411.5: title 'HINWEIS · o agregado Gesamtergebnis' ink-right=1387.3 margin=+24.2
+  svg/p4-esporte.svg box y=200 right=1862.0: title 'OS FINALISTAS' ink-right=1620.5 margin=+241.5
+  svg/p4-esporte.svg box y=602 right=1862.0: title 'E VOCÊ?\u3000Erzählen Sie von sich' ink-right=1810.5 margin=+51.5
+  svg/p5-jovens.svg box y=200 right=961.0: title 'O PLANO DA ESPERA' ink-right=777.5 margin=+183.5
+  svg/p5-jovens.svg box y=892 right=961.0: title 'HINWEIS · o gabarito Lösungen ·' ink-right=889.6 margin=+71.4
+  svg/p5-jovens.svg box y=200 right=1862.0: title 'OS JOVENS EM NÚMEROS' ink-right=1748.5 margin=+113.5
+  svg/p5-jovens.svg box y=539 right=1862.0: title 'E VOCÊ?\u3000Erzählen Sie von sich' ink-right=1810.5 margin=+51.5
+  svg/p6-aprofundamento.svg box y=343 right=961.0: title 'HINWEIS · o prazo Frist · o dia útil' ink-right=899.9 margin=+61.1
+  svg/p6-aprofundamento.svg box y=200 right=1862.0: title 'O CAMINHO ATÉ O GABARITO' ink-right=1757.5 margin=+104.5
+  svg/p6-aprofundamento.svg box y=866 right=1862.0: title 'LER OS NÚMEROS' ink-right=1662.5 margin=+199.5
+  svg/p6-aprofundamento.svg box y=1594 right=961.0: title 'A CONTAGEM\u3000do dia 16 ao dia 30' ink-right=442.0 margin=+519.0
+  svg/p6-aprofundamento.svg box y=1594 right=1862.0: title 'DOIS GABARITOS\u3000um exame' ink-right=1300.0 margin=+562.0
+  svg/p7-lingua.svg box y=200 right=1862.0: title 'ERROS COMUNS\u3000Häufige Fehler' ink-right=1815.5 margin=+46.5
+  svg/p7-lingua.svg box y=1128 right=1862.0: title 'A PALAVRA\u3000Wort der Woche' ink-right=1769.5 margin=+92.5
+  svg/p7-lingua.svg box y=1453 right=1862.0: title 'CARTAS DOS LEITORES' ink-right=1706.5 margin=+155.5
+== P1 masthead / headline lines (PIL) ==
+  y=92 x=88 Noto Sans CJK SC 17 anchor=start ink 88.0..284.0 | 'VOL. 4\u3000QUARTA EDIÇÃO'
+  y=92 x=582 Noto Sans CJK SC 17 anchor=start ink 581.5..1245.5 | 'TODA SEMANA EM PORTUGUÊS\u3000Jede Woche\u3000Das Portugiesisch, das Brasilien l'
+  y=92 x=1460 Noto Sans CJK SC 17 anchor=start ink 1459.5..1800.5 | 'SEMANA DE 16 A 22 DE NOVEMBRO DE 2026'
+  y=262 x=975 UnifrakturMaguntia 196 anchor=middle ink 561.0..1389.0 | 'A Lucerna'
+  y=330 x=138 Newsreader 28 anchor=start ink 138.3..676.3 | 'PORTUGIESISCHE WOCHENZEITUNG'
+  y=330 x=700 Noto Serif CJK SC 28 anchor=start ink 700.5..728.5 | ''
+  y=330 x=728 Newsreader 28 anchor=start ink 728.5..812.5 | 'VOL.4'
+  y=330 x=817 Noto Serif CJK SC 28 anchor=start ink 817.2..845.2 | ''
+  y=330 x=845 Newsreader 28 anchor=start ink 845.2..1163.2 | 'CONSCIÊNCIA NEGRA'
+  y=330 x=1176 Noto Serif CJK SC 28 anchor=start ink 1176.0..1204.0 | ''
+  y=330 x=1204 Newsreader 28 anchor=start ink 1204.0..1507.0 | 'GABARITO DO ENEM'
+  y=330 x=1521 Noto Serif CJK SC 28 anchor=start ink 1520.8..1548.8 | ''
+  y=330 x=1549 Newsreader 28 anchor=start ink 1548.8..1800.8 | 'A FINAL DA COPA'
+  y=372 x=591 Noto Sans CJK SC 16 anchor=start ink 591.3..1358.3 | 'PORTUGIESISCHER TEXT\u3000DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPR'

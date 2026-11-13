@@ -1,0 +1,56 @@
+=== P1 ink right-edge scan (margin 1862, page 1950) ===
+  ink-right=1862.0 (vs 1862: +0.0) x=1522.5 y=2348.0 size=20.0 text='1면을 읽고 정답을 고르세요\u3000정답은 8면'
+  ink-right=1862.0 (vs 1862: +0.0) x=1751.0 y=2624.0 size=17.0 text='제 1 면 / 총 8 면'
+  ink-right=1860.8 (vs 1862: -1.2) x=1834.5 y=2419.0 size=21.0 text='на'
+  ink-right=1856.3 (vs 1862: -5.7) x=1812.8 y=92.0 size=17.0 text='ГОДА'
+  ink-right=1854.7 (vs 1862: -7.3) x=1849.2 y=2449.45 size=21.0 text='·'
+  ink-right=1848.5 (vs 1862: -13.5) x=1842.5 y=1744.0 size=21.5 text=':'
+  ink-right=1846.5 (vs 1862: -15.5) x=1769.2 y=2449.45 size=21.0 text='ноября'
+  ink-right=1844.8 (vs 1862: -17.2) x=1765.8 y=1744.0 size=21.5 text='ноября'
+=== ALL pages: any ink past 1862? ===
+  p1-pervaya.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 1 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p2-zhizn.svg: 3 out-of-margin ink boxes
+    x=1764.7 y=2162.0 'студента' ink=[1764.7, 2149.8, 1871.2, 2168.2]
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 2 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p3-kultura.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 3 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p4-sport.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 4 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p5-molodezh.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 5 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p6-razbor.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 6 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p7-yazyk.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 7 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+  p8-test.svg: 2 out-of-margin ink boxes
+    x=88.0 y=2624.0 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어' ink=[88.0, 2609.8, 594.8, 2625.5]
+    x=1751.0 y=2624.0 '제 8 면 / 총 8 면' ink=[1751.0, 2609.8, 1862.0, 2627.2]
+=== P3/P5 right-column cream boxes true ink ===
+--- p3-kultura.svg ---
+  box x=1440 y=200 bottom=736.0: last baseline 667.7 'В' ink-bottom=667.7 TRUE-INK clear +68.3
+  box x=1440 y=760 bottom=1105.5: last baseline 1037.1 'после' ink-bottom=1037.4 TRUE-INK clear +68.1
+--- p5-molodezh.svg ---
+  box x=1440 y=647 bottom=1122.2: last baseline 1053.9 '«' ink-bottom=1053.9 TRUE-INK clear +68.4
+=== BOXTITLE true-ink scan, all pages (bordered rects) ===
+  p1-pervaya.svg: no bordered-rect titles found
+  p2-zhizn.svg: no bordered-rect titles found
+  p3-kultura.svg: no bordered-rect titles found
+  p4-sport.svg: no bordered-rect titles found
+  p5-molodezh.svg: no bordered-rect titles found
+  p6-razbor.svg box x=90 y=1344 w=249: title y=1392 '16' right-over -105.2 left-over -105.1 -> ok
+  p6-razbor.svg box x=343 y=1344 w=249: title y=1392 '17' right-over -105.1 left-over -105.1 -> ok
+  p6-razbor.svg box x=596 y=1344 w=249: title y=1392 '18' right-over -105.1 left-over -105.1 -> ok
+  p6-razbor.svg box x=849 y=1344 w=249: title y=1392 '19' right-over -105.1 left-over -105.1 -> ok
+  p6-razbor.svg box x=1102 y=1344 w=249: title y=1392 '20' right-over -105.2 left-over -105.1 -> ok
+  p6-razbor.svg box x=1355 y=1344 w=249: title y=1392 '21' right-over -105.2 left-over -105.1 -> ok
+  p6-razbor.svg box x=1608 y=1344 w=249: title y=1392 '22' right-over -105.2 left-over -105.1 -> ok
+  p7-yazyk.svg: no bordered-rect titles found
+  p8-test.svg: no bordered-rect titles found

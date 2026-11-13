@@ -1,0 +1,24 @@
+=== P8 effective font sizes (Tf size x Tm scale) ===
+Tm entries: 149
+size histogram: [(14.25, 36), (18.0, 36), (11.625, 35), (14.625, 11), (16.5, 8), (10.5, 8), (10.125, 8), (13.5, 1), (12.375, 1), (17.25, 1), (15.375, 1), (12.0, 1), (18.75, 1), (12.75, 1)]
+min effective: 10.125
+=== badges per page (white A2/B1/B2 text) ===
+p1-portada.svg {'A2': 8, 'B1': 2} total 10
+p2-vida.svg {'A2': 13, 'B1': 2} total 15
+p3-cultura.svg {'A2': 11, 'B1': 7} total 18
+p4-deporte.svg {'B1': 15} total 15
+p5-juventud.svg {'B1': 18} total 18
+p6-afondo.svg {'B2': 18} total 18
+p7-lengua.svg {'A2': 4, 'B1': 4, 'B2': 4} total 12
+p8-ejercicios.svg {'B1': 21, 'A2': 11, 'B2': 3} total 35
+=== gloss counts case-insensitive ===
+P5 {'papeleta': 2, 'censo': 3, 'plazo': 3}
+=== MODELO from content8.py ===
+103:MODELO = ("Vivo en Madrid, y el lunes 16 escucho flamenco en la calle: cante, toque y baile, la música de la semana. "
+109:f.para("Texto modelo: " + MODELO, 16, lh=1.3, split=False)
+118:        "La pluma del escritor: esta página es para escribir. El texto modelo de arriba tiene 97 palabras: tu texto, entre 80 y 100.",
+144:print("MODELO words:", len(MODELO.split()))
+MODELO pattern not found; searching...
+ einzige richtige Antwort); Mustertext (97 Wörter) unten.")
+, "Siehe den Mustertext in Abschnitt H (97 Wörter)",
+cribir. El texto modelo de arriba tiene 97 palabras: tu texto,

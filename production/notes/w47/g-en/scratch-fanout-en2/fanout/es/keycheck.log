@@ -1,0 +1,7 @@
+registry-vs-p8extract exact 149/150 exc=[150] mismatch=[]
+registry-keys-vs-core: 145/150 match; diff=[(137, 'Los demócratas ganaron la Cámara y el Senado.', '民主党赢下了众议院和参议院。'), (138, 'El recuento continúa.', '计票仍在继续。'), (139, 'El nuevo Congreso se reunirá en enero de 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Rompe el silencio.', '打破沉默。'), (150, 'Pregunta abierta — véanse los puntos en el recuadro de redacción; el modelo está en el recuadro de esta página', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125 key: A expect A; Q46 key: A expect A; Q52: hosted expect hosted; Q55: won expect won
+Q82/83/84 keys: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none

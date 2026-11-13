@@ -1,0 +1,12 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python tools/freeze.py diff --core-svg /home/hatch/workspace/weekly-git/production/2026-w47/core-es/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es/freeze.json
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +4 strings / -1 strings; CJK core 205 -> edition 205; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p2: +0 strings / -0 strings; CJK core 309 -> edition 309; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p3: +5 strings / -2 strings; CJK core 178 -> edition 178; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p4: +0 strings / -0 strings; CJK core 197 -> edition 197; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p5: +5 strings / -1 strings; CJK core 265 -> edition 265; added CJK chars: 0 ; added Latin strings: 1 (unexpected 1)
+p6: +0 strings / -0 strings; CJK core 93 -> edition 93; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p7: +0 strings / -0 strings; CJK core 399 -> edition 399; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p8: +0 strings / -0 strings; CJK core 1030 -> edition 1030; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 1 (unexpected 1)

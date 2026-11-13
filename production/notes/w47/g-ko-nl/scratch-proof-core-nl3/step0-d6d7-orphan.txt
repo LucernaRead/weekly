@@ -1,0 +1,30 @@
+--- p3-cultuur.svg: fix2 texts=172 fix3 texts=172
+  removed 2: [(538.5, 2250.5, '用现在完成时补全，注意助动词 hebben/zijn'), (538.5, 2280.225, '。')]
+  added   2: [(538.5, 2250.5, '用现在完成时补全，注意助动词'), (538.5, 2280.225, 'hebben/zijn。')]
+  y-values only-in-fix2: []
+  y-values only-in-fix3: []
+--- p7-taal.svg: fix2 texts=175 fix3 texts=175
+  removed 3: [(88.0, 725.6600000000001, 'de wedstrijd 比赛；de groepswinst 小组头名'), (88.0, 755.3850000000001, '；de kwartfinale 四分之一决赛；scoren 进球'), (88.0, 785.1100000000001, '。')]
+  added   3: [(88.0, 725.6600000000001, 'de wedstrijd 比赛；de groepswinst 小组'), (88.0, 755.3850000000001, '头名；de kwartfinale 四分之一决赛；'), (88.0, 785.1100000000001, 'scoren 进球。')]
+  y-values only-in-fix2: []
+  y-values only-in-fix3: []
+D6 p3 bridge zone x=538.5 y2220-2320: [(538.5, 2250.5, '用现在完成时补全，注意助动词'), (538.5, 2280.225, 'hebben/zijn。')]
+D7 p7 bridge zone x=88.0 y700-820: [(88.0, 725.6600000000001, 'de wedstrijd 比赛；de groepswinst 小组'), (88.0, 755.3850000000001, '头名；de kwartfinale 四分之一决赛；'), (88.0, 785.1100000000001, 'scoren 进球。')]
+p3-cultuur.svg lone-。 in bridge zone: 0
+p7-taal.svg lone-。 in bridge zone: 0
+P1 p1-voorpagina: true orphans=[]
+P2 p2-leven: true orphans=[]
+P3 p3-cultuur: true orphans=[]
+P4 p4-sport: true orphans=[]
+P5 p5-jongeren: true orphans=[]
+P6 p6-verdieping: true orphans=[]
+P7 p7-taal: true orphans=[]
+P8 p8-toets: true orphans=[]
+P8 lone-） elements (7):
+    y=1818.64 x=1274.8 siblings_on_baseline=6 :: ['54. ongeslagen — ongeslagen = ', '未尝败绩', '93. verlanglijstje — verlanglijstje = ', '愿望单（', 'het', '）']
+    y=1848.3 x=1225.1 siblings_on_baseline=6 :: ['55. stand — stand = ', '积分榜', '94. surprise — surprise = ', '伪装礼物（', 'de', '）']
+    y=1877.96 x=1180.7 siblings_on_baseline=6 :: ['56. interland — interland = ', '国家队比赛', '95. gedicht — gedicht = ', '诗（', 'het', '）']
+    y=2325.44 x=774.6 siblings_on_baseline=4 :: ['70. surprise — surprise = ', '伪装礼物（', 'de', '）']
+    y=2355.1 x=800.8 siblings_on_baseline=4 :: ['71. verslaggever — verslaggever = ', '记者（', 'de', '）']
+    y=2384.76 x=781.4 siblings_on_baseline=4 :: ['72. proef — proef = ', '比赛项目、考验（', 'de', '）']
+    y=2414.42 x=730.2 siblings_on_baseline=4 :: ['73. gedicht — gedicht = ', '诗（', 'het', '）']

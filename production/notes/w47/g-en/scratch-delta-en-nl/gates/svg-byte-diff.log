@@ -1,0 +1,10 @@
+p1-front: BYTE-IDENTICAL
+p2-life: BYTE-IDENTICAL
+p3-culture: BYTE-IDENTICAL
+p4-sport: BYTE-IDENTICAL
+p5-youth: BYTE-IDENTICAL
+p6-deep: BYTE-IDENTICAL
+p7-lang: BYTE-IDENTICAL
+p8-test: bytes 1238755 vs 1238752; stripped 44614 vs 44611; diff region bytes 34413..34944 (pre) / 34413..34941 (post)
+  PRE : 'SC" font-size="13.5" fill="#302c28" text-anchor="start">sok) · 72. rights (right = een recht) · 73. speak · 74. d · 75. a ·</text><text x="538.5" y="2257.5400000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">76. b (right = een recht b) · 77. c · 78. Schools are wearing odd</text><text x="538.5" y="2274.55" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">socks today. · 79. Children are speaking up this week. · 80. We</text><text x="538.5" y="2291.5600000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">are listening to every child. · 81. She is sitting with a new friend.</text><text x="538.5" y="2333.57" '
+  POST: 'SC" font-size="13.5" fill="#302c28" text-anchor="start">sok) · 72. rights (right = een recht) · 73. up · 74. d · 75. a · 76.</text><text x="538.5" y="2257.5400000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">b (right = een recht b) · 77. c · 78. Schools are wearing odd socks</text><text x="538.5" y="2274.55" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">today. · 79. Children are speaking up this week. · 80. We are</text><text x="538.5" y="2291.5600000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">listening to every child. · 81. She is sitting with a new friend.</text><text x="538.5" y="2333.57" '

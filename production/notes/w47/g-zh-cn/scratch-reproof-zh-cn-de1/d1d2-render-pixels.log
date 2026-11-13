@@ -1,0 +1,6 @@
+P2 title ink rightmost render x: 2300 -> svg px: 1472.0
+P2 box right svg 1411.5 -> render 2205.46875
+P2 overflow dark px in title rows beyond box edge (x>2205.5, y330..380): 2612
+P2 title-band margin render px: -94.53125 -> svg px: -60.5
+P1 line1 y=1339.265: ink rightmost render x 1397 -> svg 894.1; box right svg 961.0; overflow beyond 961 in rows: 0
+P1 line2 y=1366.265: ink rightmost render x 963 -> svg 616.3; box right svg 961.0; overflow beyond 961 in rows: 0

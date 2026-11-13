@@ -1,0 +1,62 @@
+spill sweep hits (BELOW/ABOVE, box-column texts only): 28
+   ('p1-voorpagina.svg', 'ABOVE', 38.7, 'arrivo · het verlanglijstje lista dei de', 'box y=1410.615 h=357.0')
+   ('p1-voorpagina.svg', 'BELOW', 24.0, 'HET WOORD VAN DE WEEK', 'box y=1312.0 h=340.0')
+   ('p1-voorpagina.svg', 'ABOVE', 27.8, '«Vittoria del girone»: primo posto nel g', 'box y=1874.0 h=430.0')
+   ('p1-voorpagina.svg', 'ABOVE', 2.2, 'diretti ai quarti di finale.', 'box y=1874.0 h=430.0')
+   ('p2-leven.svg', 'ABOVE', 46.5, 'iets geks.', 'box y=827.24 h=214.89999999999998')
+   ('p2-leven.svg', 'BELOW', 50.5, 'Nota — de schoen scarpa · de wortel', 'box y=827.24 h=214.89999999999998')
+   ('p2-leven.svg', 'ABOVE', 44.1, 'Foto: Anefo, Nationaal Archief — CC0', 'box y=644.7499999999999 h=351.5')
+   ('p2-leven.svg', 'ABOVE', 39.3, 'erbij.', 'box y=1022.2499999999999 h=423.5')
+   ('p2-leven.svg', 'ABOVE', 24.0, 'PAKJESAVOND IN VIER WOORDEN\u3000PAKJESAVOND ', 'box y=1618.0 h=150.0')
+   ('p2-leven.svg', 'BELOW', 32.0, 'Let op: schrijf je gedicht in het Nederl', 'box y=1618.0 h=150.0')
+   ('p2-leven.svg', 'ABOVE', 24.0, 'Wat hoort bij pakjesavond?\u3000Quali parole ', 'box y=1618.0 h=150.0')
+   ('p3-cultuur.svg', 'ABOVE', 46.5, 'tekening. Sinterklaas leest alles.', 'box y=1153.08 h=179.39999999999998')
+   ('p3-cultuur.svg', 'ABOVE', 44.1, 'Foto: W. Punt / Anefo, Nationaal Archief', 'box y=597.0999999999999 h=509.5')
+   ('p4-sport.svg', 'ABOVE', 46.5, 'van de groep.', 'box y=902.68 h=209.125')
+   ('p4-sport.svg', 'ABOVE', 44.1, 'domein', 'box y=591.5999999999999 h=638.0')
+   ('p5-jongeren.svg', 'ABOVE', 46.5, 'papier is het begin van pakjesavond.', 'box y=647.3199999999999 h=514.72')
+   ('p5-jongeren.svg', 'BELOW', 50.5, 'Nota — de surprise regalo travestito ·', 'box y=647.3199999999999 h=514.72')
+   ('p5-jongeren.svg', 'ABOVE', 58.0, 'De Lucerna', 'box y=200.0 h=406.0')
+   ('p6-verdieping.svg', 'ABOVE', 46.5, 'het in het Nederlands.', 'box y=756.76 h=179.39999999999998')
+   ('p6-verdieping.svg', 'ABOVE', 58.0, 'De Lucerna', 'box y=200.0 h=517.0')
+   ('p6-verdieping.svg', 'ABOVE', 59.1, 'Domanda: che cosa metti nella tua scarpa', 'box y=743.0 h=309.0')
+   ('p6-verdieping.svg', 'ABOVE', 34.7, '(100 giovani)', 'box y=743.0 h=309.0')
+   ('p7-taal.svg', 'ABOVE', 58.0, 'De Lucerna', 'box y=200.0 h=841.0')
+   ('p7-taal.svg', 'BELOW', 60.0, 'HET WOORD\u3000PAROLA', 'box y=200.0 h=841.0')
+   ('p7-taal.svg', 'ABOVE', 38.4, 'blijf ik thuis.', 'box y=1059.0 h=282.0')
+   ('p7-taal.svg', 'BELOW', 60.0, 'BRIEVEN VAN LEZERS', 'box y=1059.0 h=282.0')
+   ('p7-taal.svg', 'ABOVE', 58.9, 'groepswinst = vittoria del girone: primo', 'box y=1359.0 h=568.5')
+   ('p7-taal.svg', 'ABOVE', 30.5, 'nel girone, il primo va ai quarti di fin', 'box y=1359.0 h=568.5')
+
+== 7px strip below each cream-box bottom (card PNGs) ==
+  p1-voorpagina box y=1410.6 h=357.0 bottom=1767.6: strip non-paper px = 0
+  p1-voorpagina box y=588.0 h=700.0 bottom=1288.0: strip non-paper px = 0
+  p1-voorpagina box y=1312.0 h=340.0 bottom=1652.0: strip non-paper px = 0
+  p1-voorpagina box y=1874.0 h=430.0 bottom=2304.0: strip non-paper px = 0
+  p2-leven box y=827.2 h=214.9 bottom=1042.1: strip non-paper px = 0
+  p2-leven box y=1054.1 h=179.4 bottom=1233.5: strip non-paper px = 0
+  p2-leven box y=644.7 h=351.5 bottom=996.2: strip non-paper px = 0
+  p2-leven box y=1022.2 h=423.5 bottom=1445.8: strip non-paper px = 0
+  p2-leven box y=1618.0 h=150.0 bottom=1768.0: strip non-paper px = 0
+  p2-leven box y=1618.0 h=150.0 bottom=1768.0: strip non-paper px = 0
+  p2-leven box y=1618.0 h=150.0 bottom=1768.0: strip non-paper px = 0
+  p2-leven box y=1618.0 h=150.0 bottom=1768.0: strip non-paper px = 0
+  p3-cultuur box y=1153.1 h=179.4 bottom=1332.5: strip non-paper px = 0
+  p3-cultuur box y=597.1 h=509.5 bottom=1106.6: strip non-paper px = 0
+  p4-sport box y=902.7 h=209.1 bottom=1111.8: strip non-paper px = 0
+  p4-sport box y=591.6 h=638.0 bottom=1229.6: strip non-paper px = 0
+    D11 box strip: 0 non-paper pixels in 7px below 1229.6
+  p5-jongeren box y=647.3 h=514.7 bottom=1162.0: strip non-paper px = 0
+  p5-jongeren box y=1174.0 h=179.4 bottom=1353.4: strip non-paper px = 0
+  p5-jongeren box y=200.0 h=406.0 bottom=606.0: strip non-paper px = 0
+  p5-jongeren box y=632.0 h=362.5 bottom=994.5: strip non-paper px = 0
+  p6-verdieping box y=756.8 h=179.4 bottom=936.2: strip non-paper px = 0
+  p6-verdieping box y=200.0 h=517.0 bottom=717.0: strip non-paper px = 0
+  p6-verdieping box y=743.0 h=309.0 bottom=1052.0: strip non-paper px = 0
+  p7-taal box y=200.0 h=841.0 bottom=1041.0: strip non-paper px = 0
+  p7-taal box y=1059.0 h=282.0 bottom=1341.0: strip non-paper px = 0
+  p7-taal box y=1359.0 h=568.5 bottom=1927.5: strip non-paper px = 0
+
+== D11 PIL true ink ==
+  mask bbox: (17, 339, 411, 401); ink bottom below baseline at 1x: 0.25px
+  last baseline 1209.49, ink bottom 1209.74, box bottom 1229.6, ink margin +19.86px

@@ -1,0 +1,139 @@
+===== nl =====
+[nl] file list: 265 files
+[nl] extensions:
+    110 jpg
+     99 py
+     34 md
+     11 txt
+     11 svg
+[nl] fanout-nl staged deletions:
+production/2026-w47/fanout-nl/2026-w47-nl-de/2026-w47-nl-de.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-en/2026-w47-nl-en.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-es/2026-w47-nl-es.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-fr/2026-w47-nl-fr.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-it/2026-w47-nl-it.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-ja/2026-w47-nl-ja.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-ko/2026-w47-nl-ko.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-pt/2026-w47-nl-pt.text.md
+production/2026-w47/fanout-nl/2026-w47-nl-ru/2026-w47-nl-ru.text.md
+[nl] all 11 nl dirs have .text.md on disk
+[nl] staged: 264 files (list: 265)
+[nl] list-not-staged (already in index, unchanged): 1 files
+[nl] committed 136c993074c9c545b684b8cb0e0c68f328c01099
+ production/2026-w47/core-nl/svglib.py              | 441 ++++++++++++++++++
+ 264 files changed, 21756 insertions(+), 214 deletions(-)
+[nl] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-nl total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-de total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-en total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-es total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-fr total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-it total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-ja total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-ko total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-pt total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-ru total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-nl-zh-tw total=24 kit=1 py=5 textmd=1 abstract=1
+[nl] DONE sha=136c993074c9c545b684b8cb0e0c68f328c01099 staged=264 list=265
+===== pt =====
+[pt] file list: 270 files
+[pt] extensions:
+    160 py
+     55 jpg
+     33 md
+     11 txt
+     11 svg
+[pt] staged: 260 files (list: 270)
+[pt] list-not-staged (already in index, unchanged): 10 files
+[pt] committed 3bc564c11a3530358459ee96358c95319fbe50b6
+ production/2026-w47/core-pt/svglib.py              |  96 +++-
+ 260 files changed, 38167 insertions(+), 15 deletions(-)
+[pt] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-pt total=20 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-de total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-en total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-es total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-fr total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-it total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-ja total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-ko total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-nl total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-ru total=25 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-pt-zh-tw total=25 kit=1 py=5 textmd=1 abstract=1
+[pt] DONE sha=3bc564c11a3530358459ee96358c95319fbe50b6 staged=260 list=270
+===== ru =====
+[ru] file list: 267 files
+[ru] extensions:
+    122 py
+     88 jpg
+     34 md
+     11 txt
+     11 svg
+      1 json
+[ru] staged: 247 files (list: 267)
+[ru] list-not-staged (already in index, unchanged): 20 files
+[ru] committed c7e98086d4b60727648448b9dcdef44a28826be7
+ production/2026-w47/core-ru/svglib.py              | 145 +++-
+ 247 files changed, 37947 insertions(+), 23 deletions(-)
+[ru] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-ru total=27 kit=1 py=5 textmd=2 abstract=1
+  production/2026-w47/2026-w47-ru-de total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-en total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-es total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-fr total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-it total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-ja total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-ko total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-nl total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-pt total=24 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-ru-zh-tw total=24 kit=1 py=5 textmd=1 abstract=1
+[ru] DONE sha=c7e98086d4b60727648448b9dcdef44a28826be7 staged=247 list=267
+===== zh-cn =====
+[zh-cn] file list: 231 files
+[zh-cn] extensions:
+     99 py
+     77 jpg
+     33 md
+     11 txt
+     11 svg
+[zh-cn] staged: 231 files (list: 231)
+[zh-cn] committed b48601141a89b54e5d3a024bf81eb6ab3c9b718f
+ production/2026-w47/core-zh-cn/svglib.py           |  666 +++++++
+ 231 files changed, 49560 insertions(+)
+[zh-cn] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-zh-cn total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-de total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-en total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-es total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-fr total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-it total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-ja total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-ko total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-nl total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-pt total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-cn-ru total=21 kit=1 py=5 textmd=1 abstract=1
+[zh-cn] DONE sha=b48601141a89b54e5d3a024bf81eb6ab3c9b718f staged=231 list=231
+===== zh-tw =====
+[zh-tw] file list: 210 files
+[zh-tw] extensions:
+    110 py
+     60 jpg
+     20 md
+     10 txt
+     10 svg
+[zh-tw] staged: 210 files (list: 210)
+[zh-tw] committed 9c51e8bf677e68b38946f57f2a88b48a0abc9c12
+ production/2026-w47/core-zh-tw/svglib.py           |  586 ++
+ 210 files changed, 81263 insertions(+)
+[zh-tw] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-zh-tw total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-de total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-es total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-fr total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-it total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-ja total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-ko total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-nl total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-pt total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-zh-tw-ru total=21 kit=1 py=5 textmd=1 abstract=1
+[zh-tw] DONE sha=9c51e8bf677e68b38946f57f2a88b48a0abc9c12 staged=210 list=210

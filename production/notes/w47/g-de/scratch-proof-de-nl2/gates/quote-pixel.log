@@ -1,0 +1,21 @@
+image (4063, 5625)  (200 dpi, 0.360 pt/px)
+H-DE-1 «Meine Novemberwoche» [font=Newsreader 16.12pt size=16.12pt]
+   ink runs (pt): [(600.0, 604.32), (604.68, 617.28), (618.36, 625.92), (627.36, 633.84), (634.92, 643.92), (645.0, 651.84), (653.64, 660.84), (662.64, 664.8)]
+   prev ink end=651.84 | quote ink=[(653.64, 660.84)] | next ink start=662.64
+   GAP BEFORE quote = 1.8pt = 0.11em | GAP AFTER = 1.8pt
+   verdict vs 0.2em: PASS (<=0.2em)
+H-DE-2 «Leserbriefe» [font=Newsreader 16.12pt size=16.12pt]
+   ink runs (pt): [(270.0, 272.16), (273.24, 279.0), (279.36, 288.0), (289.8, 295.56), (296.64, 300.6), (301.68, 308.52), (309.6, 322.92), (324.72, 331.92), (333.36, 336.96), (338.76, 339.84)]
+   prev ink end=322.92 | quote ink=[(324.72, 331.92)] | next ink start=333.36
+   GAP BEFORE quote = 1.8pt = 0.11em | GAP AFTER = 1.44pt
+   verdict vs 0.2em: PASS (<=0.2em)
+H-NL «Mijn week in november» [font=NotoSansCJKsc 15.0pt size=15.0pt]
+   ink runs (pt): [(440.0, 446.48), (448.28, 454.76), (456.92, 468.08), (470.96, 477.8), (479.6, 486.08), (488.24, 492.56), (494.0, 499.4), (501.2, 503.0), (507.68, 512.0)]
+   prev ink end=492.56 | quote ink=[(494.0, 499.4)] | next ink start=501.2
+   GAP BEFORE quote = 1.44pt = 0.1em | GAP AFTER = 1.8pt
+   verdict vs 0.2em: PASS (<=0.2em)
+Q67-key «Im Lande des Christkinds» [font=NotoSansCJKsc 9.94pt size=9.94pt]
+   ink runs (pt): [(455.0, 459.68), (460.4, 480.2), (480.56, 500.0), (501.44, 505.76), (506.48, 515.48), (515.84, 520.52), (521.24, 524.84)]
+   prev ink end=505.76 | quote ink=[(506.48, 515.48)] | next ink start=515.84
+   GAP BEFORE quote = 0.72pt = 0.07em | GAP AFTER = 0.36pt
+   verdict vs 0.2em: PASS (<=0.2em)

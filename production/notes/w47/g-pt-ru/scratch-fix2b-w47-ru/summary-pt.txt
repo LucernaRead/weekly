@@ -1,0 +1,49 @@
+===== pt 2026-11-12T19:18:25Z =====
+run.py rc=0
+render.py rc=0
+print PDF mtime=2026-11-12 19:19:12.082592422 +0000 size=20883686
+34344b82815de7808a0307e9fe6d84aee874a369c298753b6e98fc74dab59992  Lucerna-VOL4-ru-pt.pdf
+ru_textmd.py rc=0
+backfill rc=0
+text.md landed:
+00e972b717fb34055f76a435be87ba5fc51acbd9011ab34aba9eba373cbf5532  2026-w47-ru-pt.text.md
+text.md size=65113
+250c250
+< *Complete a forma verbal ou o caso correto.*
+---
+> *Completa a forma verbal ou o caso correto.*
+268c268
+< *Forme frases corretas com as palavras.*
+---
+> *Forma frases corretas com as palavras.*
+341c341
+< *Complete com o tempo correto do verbo entre parênteses.*
+---
+> *Completa com o tempo correto do verbo entre parênteses.*
+418c418
+< *Forme frases corretas com as palavras.*
+---
+> *Forma frases corretas com as palavras.*
+495c495
+< *Junte as duas frases numa só.*
+---
+> *Junta as duas frases numa só.*
+webpdf.py rc=0
+web PDF mtime=2026-11-12 19:19:57.128390828 +0000 size=3337241
+680702793672437cc43d22e247d0848911ebcd8708bdc682e1021d96def84264  Lucerna-VOL4-ru-pt-web.pdf
+BUILD DONE pt 2026-11-12T19:19:57Z
+pt pages: 8/8 print, 8/8 web
+pt print/web text identical (normalised)
+pt 'Completa a forma verbal ou o caso correto.': print x1, web x1; old gone
+pt 'Forma frases corretas com as palavras.': print x2, web x2; old gone
+pt 'Completa com o tempo correto do verbo entre parênteses.': print x1, web x1; old gone
+pt 'Junta as duas frases numa só.': print x1, web x1; old gone
+pt untouched marker 'E TU?': print x1
+pt untouched marker 'Responde com a faixa': print x1
+pt untouched marker 'Leia a primeira': print x1
+pt untouched marker 'E tu? Escreve duas frases': print x1
+nl text.md SHA unchanged
+nl Lucerna-VOL4-ru-nl.pdf SHA unchanged (5dedd8ecc30d)
+nl Lucerna-VOL4-ru-nl-web.pdf SHA unchanged (1abee50e0035)
+nl SVG 8/8 unchanged
+VERIFY PT+NL ALL PASS

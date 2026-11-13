@@ -1,0 +1,13 @@
+expl.py:122 = "chiffres_note": "大師賽結果與杜林名單見本版正文。",
+text_w serif 21.5: new=344.0 old=387.0 col=378.5 slack_new=34.5
+P4 note elements: [(1461.5, 520.0, '21.5', '大師賽結果與杜林名單見本版正文。')]
+elements at y=550.53 +-1.0: []
+standalone 。 elements in P4: []
+ORPHAN-PUNCT p4-sport.svg y=623.135 x=1007.0 '—'
+ORPHAN-PUNCT p6-politique.svg y=653.6899999999999 x=1007.0 '—'
+expl.py diff vs pre-fix:
+  -"chiffres_note": "大師賽決賽結果與杜林名單見本版正文。",
+  +"chiffres_note": "大師賽結果與杜林名單見本版正文。",
+決賽 count pre: 16 now: 15
+text.md new: 1 old: 0
+D3 VERDICT: PASS

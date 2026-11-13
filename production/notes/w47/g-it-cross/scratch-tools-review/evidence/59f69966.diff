@@ -1,0 +1,518 @@
+commit 59f699664cecb501f56da5ccd371861061c7e0c6
+Author: Beacon <info@lucernaread.com>
+Date:   Wed Nov 11 22:33:22 2026 +0000
+
+    tools: freeze Latin gate + hidden_files repoint; land style_check badge fix (pre-insert bug B)
+    
+    - freeze.py diff: Latin accounting + --strict-latin (same-slug
+      before/after gate only) with FURNITURE_LANG_NAMES whitelist; the
+      W47 core-it D-2 pure-Latin fix (2 strings) now trips the gate.
+    - freeze.py baseline: repoint regex + guard now cover hidden_files/
+      under both trees; a scratch OUT used to escape --out while baseline
+      self-reported 0/8.
+    - style_check.py: landed as a shared tool (was forked into build
+      dirs); badge check now requires 60x30 rx=2.7 + bare level tag +
+      fill/level match; bands/legend no longer false-flagged (zh-cn-es
+      135, de-en 141).
+    - This commit also carries the pre-existing uncommitted freeze.py
+      runtime-guard/fallback changes (ru builder, 2026-11-10/11); see
+      hidden_files/w47/Reports-preinsert/tools-bugfix-B.md.
+
+diff --git a/tools/README.md b/tools/README.md
+index e38736fd..8e4cd187 100644
+--- a/tools/README.md
++++ b/tools/README.md
+@@ -102,7 +102,10 @@ $PY freeze.py diff --core-svg ../production/<week>/core-<target>/svg \
+ output path in the copy to the scratch tree, **aborts if any copied file still
+ references the real edition dir**, runs the copy (run.py, else imports
+ content12/34/56/7/8 in order), sha256-compares all 8 SVGs, and re-hashes
+-the real core SVGs afterwards to prove they were untouched.
++the real core SVGs afterwards to prove they were untouched. The repoint
++covers `production/`, `files/` and `hidden_files/` under both trees
++(2026-11-11: scratch OUT paths under `hidden_files/` used to escape
++`--out`, baseline self-reporting 0/8 while the files landed elsewhere).
+ 
+ `diff` lists every added/removed text string per page (multiset) plus CJK
+ accounting. **`--strict-cjk` is the gate for zh-cn/zh-tw/ja targets**:
+@@ -110,6 +113,15 @@ added CJK characters must be 0. For ko targets, Hangul syllables cited
+ inside reader-language notes legitimately add counts (see validation) —
+ read the per-char list instead of gating on it.
+ 
++`diff` also carries Latin accounting (2026-11-11): per-page added Latin
++strings and the unexpected subset (added Latin strings that are not a
++bare furniture language name, see `FURNITURE_LANG_NAMES` in the source).
++**`--strict-latin` is a same-slug before/after gate only** — it fails
++when any unexpected Latin string was added (the W47 core-it D-2 fix, two
++pure-Latin strings, now trips it; before the fix the gate was blind to
++Latin entirely). Never use it on a core-vs-edition diff: translation
++adds Latin wholesale (measured 415 added strings core-de -> de-en).
++
+ **Validation:** KO core baseline **8/8 byte-identical**, core untouched.
+ Diff core-vs-itself: all zeros. KO core vs KO×PT: only explanation-layer
+ string churn; added CJK = 8 Hangul syllables (어/요/시/험/수/생/장 — Korean
+@@ -242,6 +254,29 @@ to catch — plus the 144 W45 headline mismatches and 36 missing
+ 
+ ---
+ 
++## 7. `style_check.py` — §1.1 style gate (P8 font size, palette, badges)
++
++```bash
++$PY style_check.py <print-pdf> <svg-dir>
++```
++
++Prints per-page minimum font size from the print PDF, palette / paper /
++VOL counts and visible-text CJK inventory from the SVGs, and the badge
++check: a badge is a 60x30 rect, rx=2.7, filled A2 #5c6e30 / B1 #46581f /
++B2 #37402f and holding exactly one bare A2/B1/B2 tag; fill must match
++the level. Any other olive-filled rect (section bands, chart legend
++blocks) is listed as a non-badge rect, not checked as a badge — the old
++code checked any text falling inside any olive rect and false-flagged
++section titles and headlines (26 false hits on zh-cn-es, 2026-11-11).
++
++**Validation (2026-11-11):** zh-cn-es **135 badges (A2 50 / B1 63 /
++B2 22)**, 0 mismatches, P6 legend block (29.5x30 at 428,1324) excluded;
++de-en **141 badges (A2 66 / B1 61 / B2 14)**, 0 mismatches. Counts
++reconcile with the exercise registry (150 exercises − 15 shared pairing
++badges = 135 for zh-cn-es).
++
++---
++
+ ## Data contradictions found while consolidating (read before reusing)
+ 
+ 1. **Fonts:** the tasking brief named combined files
+diff --git a/tools/freeze.py b/tools/freeze.py
+index 33971d64..0298fc92 100644
+--- a/tools/freeze.py
++++ b/tools/freeze.py
+@@ -12,6 +12,9 @@ Subcommands:
+       Guards: aborts if any copied content file still references the real
+       core svg dir; hashes the real core SVGs before AND after and aborts
+       if they changed. Expect 8/8.
++      Fallback (2026-11-10): builds whose OUT is __file__-relative write
++      into the copy's own svg/ dir; files the run rewrote there (by mtime)
++      are collected too, so a stale copy can never fake a match.
+ 
+   diff --core-svg <dir> --edition-svg <dir> [--json out.json]
+       Per-page text-multiset diff (every added/removed string listed with
+@@ -19,17 +22,147 @@ Subcommands:
+       multiset. For zh/ja editions the added-CJK list must be empty — any
+       added CJK character means new target-language text appeared, which
+       a fan-out must never do.
++      + Latin accounting (2026-11-11): per-page added Latin strings and
++      the unexpected subset (added Latin strings that are not a bare
++      furniture language name, see FURNITURE_LANG_NAMES). --strict-latin
++      fails when any unexpected Latin string was added. It is a
++      same-slug before/after gate ONLY: a core-vs-edition diff always
++      adds Latin wholesale (translation; measured 330 added / 211 removed
++      core-de -> de-en), so --strict-latin must never be used there.
+ 
+ Exit: baseline 0 iff 8/8 identical; diff 0 normally, 1 with --strict-cjk
+ when CJK was added. Run with tools/venv/bin/python.
++
++Runtime guard (2026-11-11): the stack is per family, not one global
++mandate — build == freeze == core within a family. The canonical stack
++is tools/venv (Pillow 13.0.0, pinned in tools/requirements.txt), and
++main() asserts Pillow major version 13 for every path — EXCEPT the ko
++family (core-ko and the 2026-w47-ko-* editions under production/),
++which was built on system python3 (Pillow 10.2.0 / FreeType 2.13.2):
++the venv measures the same Korean strings ~1.1% wider (~+1.11px per
++Korean-space boundary), moving every line break, so a venv freeze of a
++ko edition is 0/8 by construction — a recorded control, not a gate
++failure (core-ko WEEKLY-KIT.md fix #15, Round 10). For ko paths main()
++therefore asserts Pillow major version 10. pt-ko was realigned to the
++venv core; ko stays on the system stack. The guard prints executable /
++Pillow / FreeType versions in every run, so a wrong interpreter fails
++loudly instead of silently producing numbers.
+ """
+-import argparse, hashlib, json, os, re, shutil, subprocess, sys
++import argparse, hashlib, json, os, re, shutil, subprocess, sys, time
+ from collections import Counter
+ 
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
++
++# ---------------- runtime guard (2026-11-11), per family ----------------
++# Stack consistency is per family (build == freeze == core), not a single
++# global venv mandate. The canonical stack is tools/venv (SOP; Pillow
++# pinned 13.0.0 in tools/requirements.txt) — EXCEPT the ko family, whose
++# shipped SVGs were built on system python3 (Pillow 10.2.0 /
++# FreeType 2.13.2): the venv stack measures Korean ~1.1% wider
++# (~+1.11px per space boundary; 40px: 991.3 vs 1002.2) and re-wraps
++# every line, so a venv freeze of a ko edition is 0/8 by construction
++# (core-ko WEEKLY-KIT.md fix #15, Round 10) — a recorded control, not
++# a gate failure. The W47 pt-ko 0/8 freeze was the same mismatch in the
++# other direction (freeze ran venv against system-built SVGs); pt-ko
++# was realigned to the venv core, while ko stays on the system stack.
++# A wrong interpreter must therefore fail loudly, against the family's
++# own required major: ko family paths REQUIRE Pillow 10, all other
++# paths REQUIRE Pillow 13.
++REQUIRED_PILLOW_MAJOR = 13
++KO_REQUIRED_PILLOW_MAJOR = 10
++
++
++def runtime_env():
++    """(executable, Pillow version, FreeType version) of this process."""
++    try:
++        import PIL
++        from PIL import features
++        pillow = PIL.__version__
++        try:
++            freetype = features.version("freetype2")
++        except Exception:
++            freetype = "unknown"
++    except ImportError:
++        pillow, freetype = "MISSING", "unknown"
++    return sys.executable, pillow, freetype
++
++
++def runtime_env_dict():
++    exe, pillow, freetype = runtime_env()
++    return {"executable": exe, "pillow": pillow, "freetype": freetype}
++
++
++def is_ko_family_path(path):
++    """True if path is inside the ko family: the core-ko build dir or a
++    <week>-ko-* edition dir under production/ (any path component
++    == 'core-ko' or matching '<week>-ko-')."""
++    if not path:
++        return False
++    parts = os.path.abspath(path).split(os.sep)
++    return any(p == "core-ko" or re.match(r"^\d{4}-w\d+-ko-", p) for p in parts)
++
++
++def required_pillow_major(args):
++    """Pillow major this run must see, from the paths it touches:
++    10 for the ko family, 13 everywhere else."""
++    paths = ([args.build, args.core_svg] if args.cmd == "baseline"
++             else [args.core_svg, args.edition_svg])
++    return (KO_REQUIRED_PILLOW_MAJOR
++            if any(is_ko_family_path(p) for p in paths)
++            else REQUIRED_PILLOW_MAJOR)
++
++
++def check_runtime_env(required_major=REQUIRED_PILLOW_MAJOR):
++    """Print the runtime line; abort (exit 2) unless the Pillow major
++    matches the family's required stack (10 = ko family, 13 = default).
++    A ko abort cites core-ko WEEKLY-KIT.md fix #15."""
++    exe, pillow, freetype = runtime_env()
++    print(f"runtime: {exe} | Pillow {pillow} | FreeType {freetype}")
++    major = pillow.split(".")[0] if pillow not in ("MISSING", "unknown") else None
++    if major != str(required_major):
++        if required_major == KO_REQUIRED_PILLOW_MAJOR:
++            print(f"ABORT: ko family builds on system python3 (Pillow 10.x) — "
++                  f"core-ko WEEKLY-KIT.md fix #15: the venv (Pillow 13) measures "
++                  f"Korean ~1.1% wider and re-wraps every line, so a venv freeze "
++                  f"of a ko edition is 0/8 by construction. Got Pillow {pillow} "
++                  f"at {exe}; re-run with /usr/bin/python3.", file=sys.stderr)
++        else:
++            print(f"ABORT: canonical stack is tools/venv Pillow {required_major}.x "
++                  f"(got Pillow {pillow} at {exe}); re-run with tools/venv/bin/python. "
++                  f"A wrong interpreter silently re-measures text "
++                  f"(W47 pt-ko freeze 0/8).", file=sys.stderr)
++        return 2
++    return 0
++
+ TEXT_RE = re.compile(r"<text[^>]*>(.*?)</text>", re.S)
+ CJK_RE = re.compile(r"[\u2e80-\u9fff\u3040-\u30ff\uac00-\ud7af\uff00-\uffef]")
++LATIN_RE = re.compile(r"[A-Za-z]")
++# Furniture language names (2026-11-11): the only added Latin strings a
++# same-slug before/after diff may legitimately contain — a deliberate
++# correction of a bare language name in the furniture (masthead pairing
++# band / kicker). Membership is the 12 language names in the spellings
++# attested in W47 furniture; as whole <text> strings only 2 are attested
++# in W47 ('РУССКИЙ' x11, the ru kicker; '中文' x1) — the rest are the
++# same-class prospective forms, so a future bare-name kicker is exempt
++# rather than tripping the gate. Composite band strings (e.g. 'TEXTO
++# CHINO / EXPLICACIONES EN ESPAÑOL', ~200 distinct forms across the
++# grid) are deliberately NOT whitelisted: a change there is a real
++# change and must trip --strict-latin for human review. A core-vs-edition
++# diff can never be whitelisted this way — the whole body is translated.
++FURNITURE_LANG_NAMES = frozenset({
++    "Deutsch", "DEUTSCH", "German", "GERMAN",
++    "English", "ENGLISH",
++    "Français", "FRANÇAIS", "French", "FRENCH",
++    "Español", "ESPAÑOL", "Spanish", "SPANISH",
++    "Italiano", "ITALIANO", "Italian", "ITALIAN",
++    "Português", "PORTUGUÊS", "Portuguese", "PORTUGUESE",
++    "Nederlands", "NEDERLANDS", "Dutch", "DUTCH",
++    "Русский", "РУССКИЙ", "Russian", "RUSSIAN",
++    "日本語", "Japanese", "JAPANESE",
++    "한국어", "Korean", "KOREAN",
++    "中文", "简体中文", "繁體中文", "Chinese", "CHINESE",
++})
+ CONTENT_ORDER = ["content12.py", "content34.py", "content56.py", "content7.py", "content8.py"]
+ 
+ 
+@@ -78,8 +211,17 @@ def cmd_baseline(args):
+     # real files/ tree (legacy goal layout) or the real production/ tree
+     # (repo layout, production/<week>/<slug>/) to the scratch tree, so
+     # the copy can only write under --out.
++    # 2026-11-11: the alternation must also cover hidden_files/ under
++    # both trees — all scratch work now lives there (goals-side
++    # hidden_files/w47/scratch-*/ and the in-repo hidden_files/w47/
++    # scratch dirs fixers actually build in). The old alternation
++    # (files|production only) missed them, so a build whose OUT pointed
++    # at a scratch dir wrote outside --out and baseline self-reported
++    # 0/8 while the files were fine elsewhere (repro in
++    # hidden_files/w47/scratch-tools-bugfix-B/freeze-repro-old.log).
+     pat = re.compile(r"([\"'])(?:~|/home/hatch)?/?workspace/(?:goals/"
+-                     r"lucernaread-social-media-operations/files|weekly-git/production)/[^\"']*\1")
++                     r"lucernaread-social-media-operations/(?:files|hidden_files)"
++                     r"|weekly-git/(?:production|hidden_files))/[^\"']*\1")
+     touched = []
+     for root, _, files in os.walk(copy_dir):
+         for fn in files:
+@@ -102,7 +244,14 @@ def cmd_baseline(args):
+         for fn in files:
+             if fn.endswith(".py"):
+                 s = open(os.path.join(root, fn), encoding="utf-8").read()
+-                if real_core in s and ("files/weekly-report" in s or "weekly-git/production" in s):
++                # The repointed --out destination legitimately contains
++                # real_core as a substring when --out sits under the same
++                # tree (e.g. both under hidden_files/); strip the --out
++                # prefix first so only genuine leftovers can trip this.
++                s_wo_out = s.replace(out, "")
++                if real_core in s_wo_out and ("files/weekly-report" in s_wo_out
++                                              or "weekly-git/production" in s_wo_out
++                                              or "hidden_files" in s_wo_out):
+                     print(f"ABORT: {fn} still references the real edition dir {real_core}; "
+                           "refusing to run (it could write into files/ or production/)", file=sys.stderr)
+                     return 2
+@@ -112,6 +261,7 @@ def cmd_baseline(args):
+     else:
+         cmd = [sys.executable, "-c",
+                "import content12, content34, content56, content7, content8"]
++    run_start = time.time()
+     proc = subprocess.run(cmd, cwd=copy_dir, capture_output=True, text=True)
+     if proc.returncode != 0:
+         print("BUILD FAILED:\n" + proc.stdout[-3000:] + proc.stderr[-3000:], file=sys.stderr)
+@@ -126,6 +276,20 @@ def cmd_baseline(args):
+         for fn in files:
+             if fn.endswith(".svg") and "build-copy" not in root:
+                 produced[fn] = sha256(os.path.join(root, fn))
++    # Fallback (2026-11-10): builds whose OUT is __file__-relative
++    # (content*.py: OUT = <this dir>/svg) ignore the literal-path repoint
++    # above and write into the copy's own svg/ dir. Collect those too —
++    # but ONLY files the run actually rewrote (mtime >= run start),
++    # so a stale copied SVG can never pass as a reproduction.
++    # The repointed <out>/svg wins when a file exists in both places.
++    copy_svg = os.path.join(copy_dir, "svg")
++    if os.path.isdir(copy_svg):
++        for fn in sorted(os.listdir(copy_svg)):
++            if not fn.endswith(".svg") or fn in produced:
++                continue
++            p = os.path.join(copy_svg, fn)
++            if os.path.getmtime(p) >= run_start - 1:
++                produced[fn] = sha256(p)
+     rows, ok = [], 0
+     for fn in sorted(before):
+         match = produced.get(fn) == before[fn]
+@@ -137,7 +301,8 @@ def cmd_baseline(args):
+         print(f"  {'OK ' if r['match'] else 'DIFF'} {r['file']} core {r['core_sha256']} produced {r['produced_sha256']}")
+     print(f"core integrity: shipped core SVGs unchanged by the run ({len(after)} files re-hashed)")
+     if args.json_out:
+-        json.dump({"ok": ok, "rows": rows}, open(args.json_out, "w"), indent=1)
++        json.dump({"ok": ok, "rows": rows, "runtime": runtime_env_dict()},
++                  open(args.json_out, "w"), indent=1)
+     return 0 if ok == 8 else 1
+ 
+ 
+@@ -150,8 +315,11 @@ def cmd_diff(args):
+                 out.setdefault(page_num(fn), Counter()).update(load_texts(os.path.join(d, fn)))
+         return out
+     core, ed = pages(args.core_svg), pages(args.edition_svg)
+-    report = {"core_svg": args.core_svg, "edition_svg": args.edition_svg, "pages": {}}
++    report = {"core_svg": args.core_svg, "edition_svg": args.edition_svg,
++              "runtime": runtime_env_dict(), "pages": {}}
+     total_added_cjk = Counter()
++    total_added_latin = 0
++    total_unexpected_latin = Counter()
+     for pg in sorted(set(core) | set(ed)):
+         c, e = core.get(pg, Counter()), ed.get(pg, Counter())
+         added, removed = e - c, c - e
+@@ -159,23 +327,45 @@ def cmd_diff(args):
+         cjk_e = Counter(ch for s, n in e.items() for ch in s if CJK_RE.match(ch) for _ in range(n))
+         added_cjk = cjk_e - cjk_c
+         total_added_cjk.update(added_cjk)
++        # Latin accounting (2026-11-11): mirror the CJK accounting, so a
++        # pure-Latin change is visible to the gate, not just listed in
++        # added_strings. "Unexpected" = added Latin string that is not a
++        # bare furniture language name (see FURNITURE_LANG_NAMES).
++        latin_added = {s: n for s, n in added.items() if LATIN_RE.search(s)}
++        latin_unexpected = {s: n for s, n in latin_added.items()
++                            if s.strip() not in FURNITURE_LANG_NAMES}
++        total_added_latin += sum(latin_added.values())
++        total_unexpected_latin.update(latin_unexpected)
+         report["pages"][pg] = {
+             "added_strings": [{"text": s, "count": n} for s, n in sorted(added.items())],
+             "removed_strings": [{"text": s, "count": n} for s, n in sorted(removed.items())],
+             "cjk_core_total": sum(cjk_c.values()), "cjk_edition_total": sum(cjk_e.values()),
+             "cjk_added": dict(added_cjk),
++            "latin_added": sum(latin_added.values()),
++            "latin_added_unexpected": [{"text": s, "count": n} for s, n in sorted(latin_unexpected.items())],
+         }
+         print(f"p{pg}: +{sum(added.values())} strings / -{sum(removed.values())} strings; "
+               f"CJK core {sum(cjk_c.values())} -> edition {sum(cjk_e.values())}; "
+-              f"added CJK chars: {sum(added_cjk.values())} {dict(list(added_cjk.items())[:10]) if added_cjk else ''}")
++              f"added CJK chars: {sum(added_cjk.values())} {dict(list(added_cjk.items())[:10]) if added_cjk else ''}; "
++              f"added Latin strings: {sum(latin_added.values())} "
++              f"(unexpected {sum(latin_unexpected.values())})")
+     report["cjk_added_total"] = dict(total_added_cjk)
++    report["latin_added_total"] = total_added_latin
++    report["latin_added_unexpected_total"] = dict(total_unexpected_latin)
+     print(f"TOTAL added CJK characters: {sum(total_added_cjk.values())}")
++    print(f"TOTAL added Latin strings: {total_added_latin} "
++          f"(unexpected {sum(total_unexpected_latin.values())})")
+     if args.json_out:
+         with open(args.json_out, "w", encoding="utf-8") as f:
+             json.dump(report, f, ensure_ascii=False, indent=1)
+     if args.strict_cjk and total_added_cjk:
+         print("STRICT-CJK FAIL: edition adds CJK characters the core does not have", file=sys.stderr)
+         return 1
++    if args.strict_latin and total_unexpected_latin:
++        print("STRICT-LATIN FAIL: edition adds Latin strings the core does not have "
++              f"(unexpected {sum(total_unexpected_latin.values())}; same-slug before/after gate only — "
++              "never use --strict-latin on a core-vs-edition diff)", file=sys.stderr)
++        return 1
+     return 0
+ 
+ 
+@@ -188,7 +378,13 @@ def main(argv=None):
+     p = sub.add_parser("diff")
+     p.add_argument("--core-svg", required=True); p.add_argument("--edition-svg", required=True)
+     p.add_argument("--json", dest="json_out"); p.add_argument("--strict-cjk", action="store_true")
++    p.add_argument("--strict-latin", action="store_true",
++                   help="fail when an unexpected Latin string was added "
++                        "(same-slug before/after diffs only; never on core-vs-edition)")
+     args = ap.parse_args(argv)
++    rc = check_runtime_env(required_pillow_major(args))
++    if rc:
++        return rc
+     return cmd_baseline(args) if args.cmd == "baseline" else cmd_diff(args)
+ 
+ 
+diff --git a/tools/style_check.py b/tools/style_check.py
+new file mode 100644
+index 00000000..167655e6
+--- /dev/null
++++ b/tools/style_check.py
+@@ -0,0 +1,119 @@
++# -*- coding: utf-8 -*-
++"""Post-fix style gates: P8 min font size (PyMuPDF spans), §1.1 palette /
++paper / masthead / VOL counts, badge Latin-only, visible-text CJK inventory.
++Badge rule (2026-11-11 fix): a badge is a 60x30 rect, rx=2.7, filled with
++one of the level colours (A2 #5c6e30 / B1 #46581f / B2 #37402f) and holding
++exactly one bare level tag (A2/B1/B2). Any other olive-filled rect (section
++bands, chart legend blocks) is NOT a badge and its text is not badge text.
++Usage: tools/venv/bin/python style_check.py <print-pdf> <svg-dir>
++"""
++import sys, os, re
++import fitz  # PyMuPDF
++
++PALETTE = {"#fbfaf6", "#302c28", "#3a3631", "#6f675d", "#d8d2c4",
++           "#37402f", "#46581f", "#f6e08e", "#f4efe1", "#5c6e30",
++           "#f0eee5", "#ffffff", "#000000"}
++
++# Level badge geometry (SOP §1.1): 60x30 rect, rx=2.7 (2pt), fill per level.
++LV_FILL = {"A2": "#5c6e30", "B1": "#46581f", "B2": "#37402f"}
++BADGE_FILLS = frozenset(LV_FILL.values())
++BADGE_W, BADGE_H, BADGE_RX = 60.0, 30.0, 2.7
++
++def main(pdf_path, svg_dir):
++    doc = fitz.open(pdf_path)
++    print(f"pages: {len(doc)}")
++    for i, page in enumerate(doc, start=1):
++        sizes = []
++        for b in page.get_text("dict")["blocks"]:
++            for l in b.get("lines", []):
++                for s in l["spans"]:
++                    if s["text"].strip():
++                        sizes.append(round(s["size"], 2))
++        if sizes:
++            print(f"  P{i} min font {min(sizes):.2f}pt (n={len(sizes)})")
++    # SVG checks
++    fills = set()
++    vol4 = vol5 = 0
++    cjk = set()
++    badge_bad = []
++    for name in sorted(os.listdir(svg_dir)):
++        if not name.endswith(".svg"):
++            continue
++        svg = open(os.path.join(svg_dir, name), encoding="utf-8").read()
++        fills |= set(re.findall(r'fill="(#[0-9a-fA-F]{6})"', svg))
++        fills |= set(re.findall(r'stroke="(#[0-9a-fA-F]{6})"', svg))
++        vol4 += len(re.findall(r"VOL\.4", svg))
++        vol5 += len(re.findall(r"VOL\.5", svg))
++        for t in re.findall(r"<text[^>]*>(.*?)</text>", svg, re.S):
++            txt = re.sub(r"<[^>]+>", "", t)
++            for ch in txt:
++                if "\u4e00" <= ch <= "\u9fff" or "\u3040" <= ch <= "\u30ff" or "\uac00" <= ch <= "\ud7a3":
++                    cjk.add(ch)
++    print("paper #fbfaf6 present in fills:", "#fbfaf6" in fills)
++    print("fills outside palette:", sorted(f for f in fills if f.lower() not in PALETTE))
++    print("VOL.4 count:", vol4, " VOL.5 count:", vol5)
++    print("CJK chars in visible text:", len(cjk), "sample:", "".join(sorted(cjk)[:12]))
++    # CJK that is NOT U+3000: report the distinct codepoints that are not the
++    # full-width space (U+3000 is not in the CJK ranges above, so any hit here
++    # would be real target-language text — expected for a zh target edition).
++    # For this edition the correct statement is: no LATIN-script text carries
++    # unexpected CJK; skip — the freeze --strict-cjk gate already proves no
++    # ADDED CJK vs core. Here we only report the count for the log.
++    # Badge check (2026-11-11 fix): the old code treated ANY rect with a
++    # badge fill as a badge, so the big olive section bands (1774x110,
++    # 529x30) and the P6 chart legend block (30x30) all counted, and every
++    # text starting inside them — section titles, headlines, teasers —
++    # was reported as a "badge non-ASCII hit". A badge is only the
++    # 60x30 rx=2.7 rect holding exactly one bare A2/B1/B2 tag, with the
++    # fill matching the level. Everything else olive-filled is listed
++    # separately as a non-badge rect, not checked as a badge.
++    badge_total = 0
++    badge_by_level = {"A2": 0, "B1": 0, "B2": 0}
++    badge_by_page = {}
++    badge_mismatch = []
++    nonbadge_olive = []
++    for name in sorted(os.listdir(svg_dir)):
++        if not name.endswith(".svg"):
++            continue
++        svg = open(os.path.join(svg_dir, name), encoding="utf-8").read()
++        rects = [(float(a), float(b), float(c), float(d),
++                  float(rx) if rx else 0.0, f)
++                 for a, b, c, d, rx, f in
++                 re.findall(r'<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)"(?: rx="([\d.]+)")?[^>]*fill="(#[0-9a-fA-F]{6})"', svg)
++                 if f.lower() in BADGE_FILLS]
++        texts = [(float(x), float(y), t) for x, y, t in
++                 re.findall(r'<text x="([\d.]+)" y="([\d.]+)"[^>]*>(.*?)</text>', svg, re.S)]
++        for (x, y, w, h, rx, f) in rects:
++            is_badge = (abs(w - BADGE_W) <= 0.5 and abs(h - BADGE_H) <= 0.5
++                        and abs(rx - BADGE_RX) <= 0.5)
++            if not is_badge:
++                nonbadge_olive.append((name, x, y, w, h, rx, f.lower()))
++                continue
++            inside = [re.sub(r"<[^>]+>", "", t).strip() for (tx, ty, t) in texts
++                      if x - 1 <= tx <= x + w + 1 and y - 2 <= ty <= y + h + 2]
++            badge_total += 1
++            badge_by_page[name] = badge_by_page.get(name, 0) + 1
++            if len(inside) != 1 or inside[0] not in LV_FILL:
++                badge_mismatch.append((name, x, y, f.lower(),
++                                       f"holds {inside!r}, not one bare level tag"))
++                continue
++            tag = inside[0]
++            badge_by_level[tag] += 1
++            if f.lower() != LV_FILL[tag]:
++                badge_mismatch.append((name, x, y, f.lower(),
++                                       f"tag {tag} but fill should be {LV_FILL[tag]}"))
++            bad = [ch for ch in tag if ord(ch) > 127 and ch != "·"]
++            if bad:
++                badge_bad.append((name, tag, bad))
++    print(f"badges: {badge_total} total "
++          f"(A2 {badge_by_level['A2']} / B1 {badge_by_level['B1']} / B2 {badge_by_level['B2']}); "
++          f"per page: {', '.join(f'{n[:-4]} {c}' for n, c in sorted(badge_by_page.items()))}")
++    print("badge mismatches:", badge_mismatch if badge_mismatch else "none (fill matches level on every badge)")
++    print("olive non-badge rects ignored:",
++          f"{len(nonbadge_olive)} " +
++          (str([(n, x, y, w, h, rx, f) for n, x, y, w, h, rx, f in nonbadge_olive])
++           if nonbadge_olive else "(bands/legend, not badges)"))
++    print("badge non-ASCII hits:", badge_bad if badge_bad else "none (Latin-only OK)")
++
++if __name__ == "__main__":
++    main(sys.argv[1], sys.argv[2])

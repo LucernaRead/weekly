@@ -1,0 +1,15 @@
+translations.py: 2 de values replaced
+translations.py: neighbours (en FIGURES / LEARN) intact
+stage copy built: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-it-de1/stage/2026-w47-it-de
+baseline SVG SHAs recorded in svg-sha-before.txt
+production three SHAs still match pre-fix values
+stage content12.py: lines 44 + 177 replaced
+stage *.py: old strings 0x everywhere
+repointed content12.py -> stage
+repointed content34.py -> stage
+repointed content56.py -> stage
+repointed content7.py -> stage
+repointed content8.py -> stage
+repointed render.py -> stage
+stage *.py: zero weekly-git/production strings — safe to build
+APPLY FIX DONE

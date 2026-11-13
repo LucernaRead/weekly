@@ -1,0 +1,16 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R1/ru-de-1/build-copy/Lucerna-VOL4-ru-de.pdf
+pages=8 distinct_join_tokens=12 total_join_boundaries=15
+    3x '→После' [→После] pages=[7] gap None..None pt
+    1x 'A2→B1' [A2→; →B1] pages=[1] gap 0.0..0.0 pt
+    1x 'A2→B2' [A2→] pages=[1] gap 0.0..0.0 pt
+    1x '→Родительный' [→Родительный] pages=[7] gap None..None pt
+    1x '→выходят' [→выходят] pages=[8] gap 2.4..2.4 pt
+    1x '→рассказывает' [→рассказывает] pages=[8] gap 2.4..2.4 pt
+    1x '→снял' [→снял] pages=[8] gap 2.41..2.41 pt
+    1x '→сыграли' [→сыграли] pages=[8] gap 2.4..2.4 pt
+    1x '→играет' [→играет] pages=[8] gap 2.4..2.4 pt
+    1x '→победило' [→победило] pages=[8] gap 2.4..2.4 pt
+    1x '→работаем' [→работаем] pages=[8] gap 2.4..2.4 pt
+    1x '✓Mustertext' [✓Mustertext] pages=[8] gap 2.41..2.41 pt

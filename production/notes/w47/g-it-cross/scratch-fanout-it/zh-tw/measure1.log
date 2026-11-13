@@ -1,0 +1,88 @@
+== match_set instr (sans 19.5, budget 254.5 px single line) ==
+key: 把词和释义配对
+[instr] 1 line(s), 136.5 px
+    | 把詞和釋義配對
+    width 136.5 px vs budget 254.5
+== P4 E TU (sans 20, w 378.5, budget 2) ==
+key: 周日晚上你看哪场比赛？写两句意大利语寄来。
+[E TU P4] 2 line(s), 420.0 px  OK
+    | 週日晚上你看哪場比賽？寫兩句義大利語
+    | 寄來。
+== P7 error notes (sans 19.5, w 378.5, target 1) ==
+[err:subjunctive] 3 line(s), 849.8 px  <-- OVER
+    | è probabile che / è possibile che / bisogna
+    | che 後用虛擬式；so che、scrivono che 後
+    | 用陳述式。
+[err:subjunctive] 1 line(s), 272.2 px  OK
+    | è probabile che + 虛擬式 piova
+[err:subjunctive] 1 line(s), 281.3 px  OK
+    | è possibile che + 虛擬式 nevichi
+[err:subjunctive] 1 line(s), 291.4 px  OK
+    | bisogna che + 虛擬式 controllino
+[err:subjunctive] 1 line(s), 262.5 px  OK
+    | è importante che + 虛擬式 sia
+[err:subjunctive] 1 line(s), 264.1 px  OK
+    | bisogna che + 虛擬式 leggano
+[err:subjunctive] 1 line(s), 241.7 px  OK
+    | è probabile che 後用虛擬式
+[err:takes essere] 1 line(s), 244.0 px  OK
+    | partire 用 essere：è partito
+[err:takes essere] 1 line(s), 214.8 px  OK
+    | finire 用 essere：è finita
+[err:takes essere] 1 line(s), 232.7 px  OK
+    | andare 用 essere 作助動詞
+[err:takes essere] 1 line(s), 262.0 px  OK
+    | arrivare 用 essere：è arrivato
+[err:takes essere] 1 line(s), 320.6 px  OK
+    | andare 用 essere，複數 sono andati
+[err:takes essere] 1 line(s), 333.0 px  OK
+    | arrivare 用 essere，複數 sono arrivati
+== P7 disclosure (sans 20, w 378.5, target 3) ==
+key: 这是编辑部示例，非真实来信。截稿时未收到真实来信与最佳作文，顺延 VOL.5。
+[disclosure] 2 line(s), 718.1 px  OK
+    | 這是編輯部示例，非真實來信。截稿時未
+    | 收到真實來信與最佳作文，順延 VOL.5。
+== P7 LA PAROLA gloss (sans 20, w 378.5, target 2) ==
+key: vetta = 榜首。本周见第 1 版与第 4 版：拉齐奥 29 分领跑。
+[gloss] 2 line(s), 518.0 px  OK
+    | vetta = 榜首。本週見第 1 版與第 4 版：拉
+    | 齊奧 29 分領跑。
+== P1 cifre (serif 20.5, w 386.5, total <= 8) ==
+key: 29 — i punti della Lazio, prima in classifica dopo 11 giornate（拉齐奥 29 分领跑）
+[cifre 29 —] 3 line(s), 763.1 px
+    | 29 — i punti della Lazio, prima in
+    | classifica dopo 11 giornate（拉齊奧 29
+    | 分領跑）
+key: 24 — i gol dell'11ª giornata, in dieci partite（第 11 轮 10 场比赛共 24 球）
+[cifre 24 —] 2 line(s), 687.2 px
+    | 24 — i gol dell'11ª giornata, in dieci
+    | partite（第 11 輪 10 場比賽共 24 球）
+key: 20.45 — l'ora di Atalanta–Inter, domenica 22 novembre（亚特兰大对国米周日 20:45）
+[cifre 20.45 —] 3 line(s), 800.8 px
+    | 20.45 — l'ora di Atalanta–Inter, domenica
+    | 22 novembre（亞特蘭大對國米週日
+    | 20:45）
+key: oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）
+[cifre over 150 —] 3 line(s), 859.9 px
+    | oltre 150 — i figuranti del corteo di
+    | chiusura del Torrone（牛軋糖節閉幕遊行
+    | 150 多名演員）
+TOTAL cifre lines: 11 (budget <= 8)
+== P8 notes (raw ja values) ==
+  '主语 + 动词 + 地点 + 日期' -> ja '主語 + 動詞 + 地點 + 日期'
+  '主语 + 动词 + 地点' -> ja '主語 + 動詞 + 地點'
+  '先说地点' NOT IN TABLE
+  ru 'воскресный вечер — самый лучший (оценка)' -> 1 hit(s): 'più + bella 周日晚上最好看（主观评价）' ja='più + bella 週日晚上最好看（主觀評價）'
+  ru 'Сравнительная степень bene: meglio' -> 1 hit(s): 'bene 的比较级是不规则的 meglio' ja='bene 的比較級是不規則的 meglio'
+  ru 'Учебные данные, а не прогнозы' -> 1 hit(s): '图表数据是练习用的、不是真实预报' ja='圖表數據是練習用的、不是真實預報'
+  ru 'bisogna che + сослагательное controllino' -> 1 hit(s): 'bisogna che + 虚拟式 controllino' ja='bisogna che + 虛擬式 controllino'
+  ru 'Вопрос — в начале' -> 1 hit(s): '疑问词组在句首' ja='疑問詞組在句首'
+== E-section re-aimed ja keys ==
+  '圣母健康节人们走过还愿桥。' -> ja '聖母健康節人們走過還願橋。'
+  '对照原文' -> ja '對照原文'
+  '周日晚上亚特兰大对国米。' -> ja '週日晚上亞特蘭大對國米。'
+  'si gioca = 进行比赛' -> ja 'si gioca = 進行比賽'
+  '周六，拉齐奥在主场对莱切。' -> ja '週六，拉齊奧在主場對萊切。'
+  'in casa = 在主场' -> ja 'in casa = 在主場'
+  'dovere = 必须' -> ja 'dovere = 必須'
+  '每个数字都必须清楚。→ ___' -> ja '每個數字都必須清楚。→ ___'

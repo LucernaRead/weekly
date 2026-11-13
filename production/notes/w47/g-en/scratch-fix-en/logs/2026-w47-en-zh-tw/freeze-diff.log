@@ -1,0 +1,11 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +31 strings / -32 strings; CJK core 202 -> edition 231; added CJK chars: 98 {'\u3000': 2, '週': 5, '讀': 3, '英': 2, '語': 6, '正': 2, '談': 1, '的': 1, '報': 2, '選': 5}; added Latin strings: 3 (unexpected 3)
+p2: +39 strings / -40 strings; CJK core 278 -> edition 283; added CJK chars: 109 {'\u3000': 1, '投': 2, '票': 2, '後': 2, '參': 1, '議': 3, '數': 1, '週': 2, '日': 1, '曆': 1}; added Latin strings: 2 (unexpected 2)
+p3: +27 strings / -28 strings; CJK core 146 -> edition 154; added CJK chars: 52 {'\u3000': 1, '文': 2, '週': 2, '電': 1, '將': 1, '譯': 1, '選': 2, '中': 1, '參': 1, '賽': 2}; added Latin strings: 4 (unexpected 4)
+p4: +26 strings / -27 strings; CJK core 143 -> edition 151; added CJK chars: 50 {'\u3000': 1, '體': 2, '為': 1, '麼': 1, '譯': 1, '賽': 4, '迴': 1, '傷': 1, '間': 1, '讀': 1}; added Latin strings: 4 (unexpected 4)
+p5: +23 strings / -23 strings; CJK core 132 -> edition 140; added CJK chars: 45 {'\u3000': 1, '襪': 1, '譯': 1, '聲': 2, '說': 2, '來': 2, '權': 3, '讀': 1, '文': 2, '選': 1}; added Latin strings: 4 (unexpected 4)
+p6: +25 strings / -26 strings; CJK core 159 -> edition 161; added CJK chars: 55 {'\u3000': 1, '時': 1, '讀': 4, '後': 1, '圖': 6, '擬': 1, '選': 4, '票': 1, '譯': 1, '佈': 2}; added Latin strings: 4 (unexpected 4)
+p7: +64 strings / -69 strings; CJK core 429 -> edition 422; added CJK chars: 142 {'\u3000': 1, '語': 4, '週': 4, '譯': 6, '現': 3, '時': 8, '贏': 3, '過': 3, '經': 3, '聞': 1}; added Latin strings: 14 (unexpected 14)
+p8: +249 strings / -418 strings; CJK core 634 -> edition 542; added CJK chars: 224 {'\u3000': 1, '練': 1, '習': 1, '與': 3, '測': 1, '選': 6, '項': 1, '：': 4, '單': 3, '閱': 1}; added Latin strings: 97 (unexpected 97)
+TOTAL added CJK characters: 775
+TOTAL added Latin strings: 132 (unexpected 132)

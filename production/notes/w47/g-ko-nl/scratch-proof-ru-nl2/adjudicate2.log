@@ -1,0 +1,48 @@
+Counter({'CLEAR': 38, 'OVERLAP': 4})
+ !! ('p1-pervaya.svg', 'TEXTX', 'Краснодар', 'OVERLAP', "vs '» — ' J=231 lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP', "vs '» ' J=231 lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP', "vs '» — ' J=231 lightbg")
+ !! ('p4-sport.svg', 'TEXTX', 'Краснодар', 'OVERLAP', "vs '»' J=1172 lightbg")
+--- all ---
+p1-pervaya.svg TEXTX 'Зенит' CLEAR gap=3px vs '» ' J=546 lightbg
+p1-pervaya.svg TEXTX 'Динамо' CLEAR gap=3px vs '» — ' J=892 lightbg
+p1-pervaya.svg TEXTX 'тур' CLEAR gap=5px vs ': «' J=321 lightbg
+p1-pervaya.svg TEXTX 'пятница' CLEAR gap=2px vs '»: ' J=1669 lightbg
+p1-pervaya.svg TEXTX 'третий' CLEAR gap=6px vs ', ' J=330 lightbg
+p1-pervaya.svg TEXTX 'субботу' CLEAR gap=6px vs ',' J=500 lightbg
+p1-pervaya.svg TEXTX 'Краснодар' OVERLAP vs '» — ' J=231 lightbg
+p1-pervaya.svg TEXTX 'Краснодаре' CLEAR gap=5px vs ',' J=502 lightbg
+p1-pervaya.svg TEXTX '!' CLEAR gap=5px vs 'истории' J=382 lightbg
+p1-pervaya.svg TEXTX 'ЦСКА' CLEAR gap=2px vs '? A.' J=898 lightbg
+p2-zhizn.svg TEXTX 'толерантности' CLEAR gap=7px vs '.' J=1819 lightbg
+p2-zhizn.svg TEXTX 'студента' CLEAR gap=6px vs '.' J=1750 lightbg
+p2-zhizn.svg TEXTX 'студента' CLEAR gap=6px vs '.' J=475 lightbg
+p2-zhizn.svg TEXTX '! ' CLEAR gap=5px vs 'студента' J=717 lightbg
+p2-zhizn.svg TEXTX 'студенту' CLEAR gap=6px vs ', ' J=669 lightbg
+p2-zhizn.svg TEXTX 'спасибо' CLEAR gap=6px vs '.' J=185 lightbg
+p3-kultura.svg TEXTX 'биография' CLEAR gap=5px vs ':' J=434 lightbg
+p3-kultura.svg TEXTX 'посмотреть' CLEAR gap=5px vs ': ' J=230 lightbg
+p3-kultura.svg TEXTX ')' CLEAR gap=5px vs 'посмотреть' J=664 lightbg
+p4-sport.svg TEXTX 'место' CLEAR gap=6px vs '.' J=443 lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP vs '» ' J=231 lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP vs '» — ' J=231 lightbg
+p4-sport.svg TEXTX 'Россия' CLEAR gap=6px vs ', ' J=665 lightbg
+p4-sport.svg TEXTX 'истории' CLEAR gap=6px vs '; ' J=1210 lightbg
+p4-sport.svg TEXTX 'Краснодар' OVERLAP vs '»' J=1172 lightbg
+p4-sport.svg TEXTX 'ЦСКА' CLEAR gap=1px vs '? A.' J=471 lightbg
+p5-molodezh.svg TEXTX 'пятница' CLEAR gap=3px vs '»:' J=384 lightbg
+p5-molodezh.svg TEXTX 'смартфоны' CLEAR gap=6px vs ',' J=948 lightbg
+p6-razbor.svg TEXTX 'студента' CLEAR gap=6px vs ', ' J=424 lightbg
+p6-razbor.svg TEXTX 'сбивается' CLEAR gap=7px vs '.' J=1570 lightbg
+p6-razbor.svg TEXTX 'Планируйте' CLEAR gap=6px vs ': ' J=349 lightbg
+p6-razbor.svg TEXTX '?\u3000' CLEAR gap=3px vs 'НЕДЕЛЕ' J=530 lightbg
+p7-yazyk.svg TEXTX 'ЯЗЫК' CLEAR gap=11px vs '\u3000TAAL' J=251 darkbg
+p7-yazyk.svg TEXTX 'прессы' CLEAR gap=7px vs ',' J=1394 lightbg
+p7-yazyk.svg TEXTX '!»' CLEAR gap=4px vs 'студента' J=1800 lightbg
+p7-yazyk.svg TEXTX 'пресс' CLEAR gap=3px vs '-' J=1236 lightbg
+p7-yazyk.svg TEXTX 'пятница' CLEAR gap=2px vs '»' J=1817 lightbg
+p7-yazyk.svg TEXTX '!» — ' CLEAR gap=3px vs 'студента' J=1558 lightbg
+p7-yazyk.svg TEXTX 'Кипренского' CLEAR gap=7px vs ', 1827 ' J=565 lightbg
+p7-yazyk.svg TEXTX 'поступило' CLEAR gap=6px vs ': ' J=1578 lightbg
+p8-test.svg TEXTX 'ОТВЕТЫ' CLEAR gap=11px vs '\u3000TEST EN ANTWOORDEN' J=472 darkbg
+p8-test.svg TEXTX 'ОТВЕТЫ' CLEAR gap=12px vs '\u3000ANTWOORDEN — PER PA' J=190 lightbg

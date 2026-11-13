@@ -1,0 +1,25 @@
+PASS D1 tables new slogan
+PASS D1 old slogan absent (all build sources)
+PASS D2 tables 冠军->title
+PASS D2 old value champion absent (tables)
+PASS D2 P4 SVG o título title
+PASS D3 P8 note '3 &gt; 1: mais'
+PASS D3 P8 note '5 &gt; 4: mais'
+PASS D3 P8 note '16:30 &lt; 17:00: mais cedo'
+PASS D3 P8 note 'cair numa sexta-feira: falls'
+PASS D3 old form '1:mais' absent
+PASS D3 old form '4:mais' absent
+PASS D3 old form '17:00:mais' absent
+PASS D3 old form 'sexta-feira:falls' absent
+PASS D-B1 source content12.py:43 tsize=21
+PASS D-B1 P1 SVG title found once — 1
+PASS D-B1 title font-size 21 — fs=21.0
+PASS D-B1 true-ink clear >= +4 — ink_right=1396.0 box_right=1411.5 clear=+15.5
+PASS D-B2 source content7.py:82 size 21
+PASS D-B2 P7 SVG title found once — 1
+PASS D-B2 title font-size 21 — fs=21.0
+PASS D-B2 true-ink clear >= +4 — ink_right=1840.5 box_right=1862.0 clear=+21.5
+PASS text.md SHA unchanged (513326ff…) — 513326ffa497
+PASS text.md 534 lines — 534 lines
+PASS p8 extracted keys unchanged vs proof1 (150) — diff=[]
+ALL pt-en FIX VERIFICATIONS PASS

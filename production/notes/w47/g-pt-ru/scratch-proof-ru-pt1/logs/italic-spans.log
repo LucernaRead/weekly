@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== print P1 spans near y=1712px (=1284pt) ==
+  font=NotoSerif-Medium size=18.0 bbox=[66.0, 1274.0, 76.8, 1298.5] 'в'
+  font=Newsreader16pt-Regular size=18.0 bbox=[76.8, 1280.0, 133.7, 1298.0] ' 19:00.'
+  font=NotoSerif-Medium size=18.0 bbox=[133.7, 1274.0, 324.0, 1298.5] ' Это последний матч'
+  font=NotoSansCJKsc-Bold size=14.2 bbox=[417.6, 1299.4, 435.1, 1320.0] 'A2'
+  font=NotoSansCJKsc-Bold size=18.0 bbox=[457.9, 1295.8, 474.3, 1321.8] '2.'
+  font=Newsreader16pt-Italic size=16.1 bbox=[1079.6, 1272.1, 1088.0, 1288.3] '«'
+  font=Newsreader16pt-Italic size=16.1 bbox=[1220.6, 1272.1, 1229.3, 1288.3] '»'
+  font=NotoSerif-Medium size=16.1 bbox=[1079.6, 1290.8, 1382.9, 1312.7] 'большая распродажав конце ноября'
+  font=Newsreader16pt-Regular size=16.1 bbox=[1381.9, 1296.1, 1386.3, 1312.3] ':'
+  saved print-wordbox.png 953x225
+== web P1 spans near y=1712px (=1284pt) ==
+  font=LucernaNotoSerif-Regular size=18.0 bbox=[66.0, 1274.0, 76.7, 1298.5] 'в'
+  font=LucernaNewsreader-Regula size=18.0 bbox=[76.7, 1280.0, 133.7, 1298.0] ' 19:00.'
+  font=LucernaNotoSerif-Regular size=18.0 bbox=[133.7, 1274.0, 323.2, 1298.5] ' Это последний матч'
+  font=LucernaNotoSansCJKSC-Bol size=14.2 bbox=[417.6, 1299.4, 435.1, 1320.0] 'A2'
+  font=LucernaNotoSansCJKSC-Bol size=18.0 bbox=[457.9, 1295.8, 474.3, 1321.8] '2.'
+  font=LucernaNewsreader-Regula size=16.1 bbox=[1079.6, 1272.1, 1088.5, 1288.3] '«'
+  font=LucernaNewsreader-Regula size=16.1 bbox=[1220.6, 1272.1, 1229.7, 1288.3] '»'
+  font=LucernaNotoSerif-Regular size=16.1 bbox=[1079.6, 1290.8, 1381.9, 1312.7] 'большая распродажа в конце ноября'
+  font=LucernaNewsreader-Regula size=16.1 bbox=[1381.9, 1296.1, 1386.3, 1312.3] ':'
+  saved web-wordbox.png 953x225

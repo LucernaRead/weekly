@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 span: 'Write in German, 80–100 words: „My week in November' bbox: [66.0, 1367.1, 451.11, 1388.82] size: 15.0 font: NotoSansCJKsc-Regular
+400dpi P8: 8125 x 11250 scale px/pt: 5.555555555555555
+D1: span x 66.00..451.11pt, y 1367.10..1388.82pt, font NotoSansCJKsc-Regular 15.00pt
+  ink runs (pt, within span band): [(66.6, 78.48), (80.64, 84.78), (86.22, 87.66), (89.64, 94.32), (95.58, 102.06), (107.64, 109.08), (111.96, 118.08), (124.02, 132.12), (134.28, 140.76), (143.1, 147.24), (149.04, 160.02), (162.36, 168.48), (171.36, 177.48), (180.0, 182.16), (187.2, 193.86), (195.84, 202.32), (203.94, 210.24), (212.76, 218.34), (220.5, 226.98), (228.78, 235.26), (240.12, 250.92), (252.54, 259.74), (262.08, 266.22), (267.48, 274.32), (276.3, 282.06), (283.86, 285.66), (291.6, 293.4), (294.48, 296.28), (299.16, 307.98), (309.96, 316.98), (321.3, 332.1), (333.72, 340.2), (342.0, 348.48), (351.0, 357.3), (362.34, 363.78), (366.66, 372.78), (379.44, 386.82), (389.52, 396.72), (397.98, 405.0), (406.44, 412.92), (415.26, 426.24), (429.12, 435.96), (437.94, 444.42), (446.76, 450.9), (451.26, 453.42), (454.14, 454.5)]
+  quote char idx -1 of 51, est x ~58.45pt
+  QUOTE ink ends 78.48pt, NEXT ink starts 80.64pt -> FOLLOW GAP 1.98pt = 0.132em
+D2 NOT FOUND in P8 spans!
+--- control search: spans containing U+201C on P8 ---
+  span: 'schöne Woche“, sagt Frau Berger.' bbox: [403.88, 825.36, 630.3, 839.99] size: 14.62 font: Newsreader16pt-Regular
+  span: '“' bbox: [450.52, 1373.47, 457.14, 1388.47] size: 15.0 font: Newsreader16pt-Regular
+  span: '“' bbox: [456.08, 1906.11, 460.46, 1916.05] size: 9.94 font: Newsreader16pt-Regular

@@ -1,0 +1,89 @@
+== KIT lines 120-175 ==
+120: D5 gloss (core fix2): core changed P4 gloss `o título 冠军` → `o título 冠军头衔`.
+121: ja value `優勝/タイトル` (new SEG key `冠军头衔`; the old `冠军 → 優勝者`
+122: mapping is untouched). PIL probe of the rendered P4 gloss box: 4 lines,
+123: last line right clear +236.5px, bottom clear +42.7px, no overflow; rendered
+124: `o título 優勝/タイトル`.
+125: 
+126: Kinsoku svglib: the edition's `svglib.py` is the W46 pt-ja kinsoku version
+127: restored from the backup (md5 `f61efb1bdac0e1c0a38fc60b300f238e`), NOT the
+128: core's (`4228b7e7fc52caaec9d690f614755b4a`). The build driver copies it
+129: over the core's file before running transform. Verified by md5 after the
+130: build.
+131: 
+132: Proof1 fixes carried in this rebuild: D4 `数字` → `数字` (P1 numbers-box
+133: title — the value is now the single character, was `数字で見る`);
+134: D5 SÁB 21 whole-sentence key — rendered `土曜日16:30、パルメイラス対フラメンゴ`
+135: (previously `土曜日16日:30`); Q65 whole-sentence key (proof1 miss, same
+136: class) — rendered `65. B — 2日目は自然科学と数学、13:30–18:30` (previously
+137: `65. B — 2日目は自然科学と数学、13:30 18日まで:30`). The fragment keys
+138: `周六 16` and `至 18` were deleted from the tables.
+139: 
+140: text.md changes vs the first-round file (2 lines): L215 D5 gloss
+141: (`o título 優勝者` → `o título 優勝/タイトル`); L433 verbatim line →
+142: `（本号の記事から一字一句）`.
+143: 
+144: Hand-patch inventory (`classify_pt.py ja`): 29 diffs vs the backed-up
+145: first-round sources, ALL classified KEEP — core-fix1 lines + the numbers
+146: title + the two whole-sentence keys + the D5 `優勝/タイトル` line.
+147: (`svglib.py` shows no diff: backup and rebuild carry the same kinsoku
+148: file.) 0 REVERT, 0 lost hand patches.
+149: 
+150: Also fixed in the mechanism (not a ja defect): a core-fix1 comment
+151: (`墨底 +33` in content12.py:131) broke the transform's CJK-0 assertion
+152: for every Latin edition; a SEG key `墨底` was added to all 10 tables
+153: (ja value `インク下端`).
+== content12.py 205-230 ==
+205: p.rect(ix, ey3, CW, eh, fill="#f0eee5")
+206: yy3 = ey3 + 16
+207: p.text(ix + 22, yy3 + 26, "E VOCÊ?　自分のことを話そう", 24, "sans", True, OLIVE)
+208: yy3 += 52
+209: yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+210: p.para(ix + 22, yy3 + 20, "あなたの国には、奴隷制との戦いを記念する祝日がありますか。2 文書いて送ってください。", 20, "sans", False, GREY, CW - 44, 1.42)
+211: print("P2 col3 ends", ey3 + eh)
+212: 
+213: # ---- O feriadão, dia a dia: 4 day boxes ----
+214: dy = 1566
+215: p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+216: p.text(MX, dy + 28, "O FERIADÃO, DIA A DIA　連休の日程", 28, "sans", True, OLIVE)
+217: p.text(RIGHT, dy + 28, "Três dias, uma semana　3連休、1週間の計画", 20, "sans", False, GREY, anchor="end")
+218: times = [
+219:     ("SEX 20", "o feriado começa", "11月20日金曜日、祝日"),
+220:     ("SÁB 21", "Palmeiras × Flamengo, às 16h30", "土曜日16:30、パルメイラス対フラメンゴ"),
+221:     ("DOM 22", "o fim do feriadão", "日曜日、連休が終わります"),
+222:     ("SEG 23", "tudo volta ao normal", "月曜日にはすべて元に戻ります"),
+223: ]
+224: for i, (t, lab, cn) in enumerate(times):
+225:     bx = COLX[i]
+226:     p.rect(bx, dy + 52, CW, 150, fill=BOX)
+227:     p.text(bx + 22, dy + 116, t, 32, "serif", True, OLIVE)
+228:     yy = p.para(bx + 152, dy + 92, lab, 21.5, "serif", False, INK, CW - 174, 1.36)
+229:     p.para(bx + 152, yy + 20, cn, 19, "sans", False, GREY, CW - 174, 1.3)
+230: p.para(MX, dy + 234, "Atenção: o feriado é nacional, mas cada cidade tem as suas regras para o comércio e o transporte. Confira o horário local antes de sair — e aproveite a sexta para descansar.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
+== tables_ja.py 190-215 ==
+190: "被奴役者": "奴隷にされた人",
+191: "计算": "数える",
+192: "记忆": "記憶",
+193: "讲解": "キーワード",
+194: "词汇配对": "語彙の組み合わせ",
+195: "译注": "解説",
+196: "语言": "ことば",
+197: "说了算）": "が決めます）",
+198: "说说你自己": "自分のことを話そう",
+199: "诺里斯赢得圣保罗大奖赛": "ノリスがサンパウロGPで優勝しました",
+200: "诺里斯赢得圣保罗大奖赛，维斯塔潘第二": "ノリスがサンパウロGPで優勝し、フェルスタッペンが2位でした",
+201: "读头版，选出正确答案": "1ページを読んで正しい答えを選ぼう",
+202: "读巴西人正在读的葡萄牙语": "ブラジルが読むポルトガル語",
+203: "读第 2 版文章，选出正确答案": "2ページの記事を読んで正しい答えを選ぼう",
+204: "读第 3 版文章，选出正确答案": "3ページの記事を読んで正しい答えを選ぼう",
+205: "读第 4 版文章，选出正确答案": "4ページの記事を読んで正しい答えを選ぼう",
+206: "读第 5 版文章，选出正确答案": "5ページの記事を読んで正しい答えを選ぼう",
+207: "谢谢": "ありがとう",
+208: "足球周历": "サッカーの1週間",
+209: "过去时复数：": "過去形、複数：",
+210: "过去时：": "過去形：",
+211: "这一天纪念抵抗、历史与非洲裔巴西文化": "この日は抵抗、歴史、アフロブラジル文化を記念します",
+212: "连休 3 天：20、21、22 日": "3連休：20日、21日、22日",
+213: "连休周日结束，周一不补休": "連休は日曜日に終わります。月曜日は休みがありません",
+214: "连休日程": "連休の日程",
+215: "连贯性": "一貫性",

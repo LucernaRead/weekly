@@ -1,0 +1,62 @@
+== zh-tw stats {'KEEP': 23, 'REVERT': 6, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:56 [KEEP] OLD: f.ex("A2", "完成句子", "19", "郵寄投票須在 19 日前申請",
+content12.py:56 [KEEP] NEW: f.ex("A2", "完成句子", "19", "郵寄投票最遲須在 19 日申請",
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "「辯論」：人們公開討論。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "「辯論」：兩人以上公開討論，有輪次、有提問。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:157 [KEEP] OLD: qf.ex("A2", "單選", "A", "郵寄投票須在 19 日前申請",
+content12.py:157 [KEEP] NEW: qf.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="填空", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="填空", size=20, gap=8)
+content12.py:278 [KEEP] OLD: e.ex("A2", "單選", "A", "郵寄投票須在 19 日前申請",
+content12.py:278 [KEEP] NEW: e.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+content56.py:22 [REVERT] OLD: f.box("EL PLAN DE LA SEMANA　本週計劃", [
+content56.py:22 [REVERT] NEW: f.box("EL PLAN DE LA SEMANA　本周计划", [
+content56.py:67 [KEEP] OLD: e.ex("B1", "單選", "B", "郵寄投票須在 19 日前申請",
+content56.py:67 [KEEP] NEW: e.ex("B1", "單選", "B", "郵寄投票最遲須在 19 日申請",
+content56.py:117 [REVERT] OLD: p.band("A FONDO　深讀", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　讀懂競選：辯論、政綱與民調")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　深讀", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　讀懂競選")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content8.py:23 [KEEP] OLD: f.ex("B1", "完形單選", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "完形單選", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:38 [KEEP] OLD: f.ex("A2", "單選", "A", "郵寄投票須在 19 日前申請",
+content8.py:38 [KEEP] NEW: f.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+content8.py:74 [KEEP] OLD: f.ex("B1", "翻譯", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "翻譯", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:75 [KEEP] OLD:      "郵寄投票須在週四 19 日前申請。→ ___", instr="翻譯", size=15.5, gap=1)
+content8.py:75 [KEEP] NEW:      "郵寄投票最遲須在週四 19 日申請。→ ___", instr="翻譯", size=15.5, gap=1)
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "每題附一句中文簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "每題附一句中文簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

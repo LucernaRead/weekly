@@ -1,0 +1,11 @@
+p1-front: structural-identical=True len 30421 vs 30421
+p2-life: structural-identical=True len 34443 vs 34443
+p3-culture: structural-identical=True len 32976 vs 32976
+p4-sport: structural-identical=True len 35066 vs 35066
+p5-youth: structural-identical=True len 30246 vs 30246
+p6-deep: structural-identical=True len 33593 vs 33593
+p7-lang: structural-identical=True len 36423 vs 36423
+p8-test: structural-identical=False len 44523 vs 44520
+    -<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="2700" viewBox="0 0 1950 2700"><rect width="1950" height="2700" fill="#fbfaf6"/><rect x="88" y="72" width="1774" height="110" rx="0" fill="#37402f"/><text x="118.0" y="142" font-family="Noto Sans CJK SC" font-size="46" font-weight="700" fi
+    +<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="2700" viewBox="0 0 1950 2700"><rect width="1950" height="2700" fill="#fbfaf6"/><rect x="88" y="72" width="1774" height="110" rx="0" fill="#37402f"/><text x="118.0" y="142" font-family="Noto Sans CJK SC" font-size="46" font-weight="700" fi
+    total diff lines: 5

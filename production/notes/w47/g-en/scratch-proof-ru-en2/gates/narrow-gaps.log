@@ -1,0 +1,15 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P7 header СЛОВА/ПОКУПОК print: (148.8, 'space char present', 'СЛОВА ПОКУПОК') | web: (148.8, 'space char present', 'СЛОВА ПОКУПОК')
+P1 результата/этого print: None | web: None
+P2 Профессиональные/праздники Q15 print: (927.8, 1.548004150390625, 'JOINED no space char') | web: (927.8, 1.548004150390625, 'JOINED no space char')
+P5 маркетплейсах/скидки print: (439.1, 1.8179931640625, 'JOINED no space char') | web: (439.1, 1.8179931640625, 'JOINED no space char')
+P1 Сборная/играет Q3 print: (647.1, 'space char present', 'Сборная играет') | web: (647.1, 'space char present', 'Сборная играет')
+P6 остаются/дома Q99 print: (1620.5, 'space char present', 'остаются дома') | web: (1620.5, 'space char present', 'остаются дома')
+P7 синоптики/обещают gloss print: (210.9, 'space char present', 'синоптики обещают') | web: (210.9, 'space char present', 'синоптики обещают')
+print P5 subtitle line y= 110.3 quote chars: [(1125.97, 1132.37), (1209.44, 1215.84)]
+print  closing-quote->colon ink gap: 0.0 pt; quote advance: 6.399 pt; size: 19.55
+print  word-space width in line: 2.524
+web P5 subtitle line y= 110.3 quote chars: [(1125.97, 1132.37), (1209.44, 1215.84)]
+web  closing-quote->colon ink gap: 0.0 pt; quote advance: 6.399 pt; size: 19.55
+web  word-space width in line: 2.524

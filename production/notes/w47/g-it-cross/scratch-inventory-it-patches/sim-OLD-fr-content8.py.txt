@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "Forme des phrases", "Il torrone si assaggia a Cremona.", "Sujet + verbe + lieu",
+      "il torrone / si assaggia / a Cremona → ___", instr="Forme des phrases", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Traduire", "Pour la Madonna della Salute, on traverse le pont votif.", "Compare avec l'original",
++f.ex("A2", "翻译", "Pour la Madonna della Salute, on traverse le pont votif.", "Compare avec l'original",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Traduire en français", size=15.5, gap=1)
+-f.ex("B1", "Traduire", "Dimanche soir, l'Atalanta joue contre l'Inter.", "si gioca = se joue",
++f.ex("B1", "翻译", "Dimanche soir, l'Atalanta joue contre l'Inter.", "si gioca = se joue",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Traduire en français", size=15.5, gap=1)
+-f.ex("B1", "Traduire", "Samedi, la Lazio joue à domicile contre Lecce.", "in casa = à domicile",
++f.ex("B1", "翻译", "Samedi, la Lazio joue à domicile contre Lecce.", "in casa = à domicile",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Traduire en français", size=15.5, gap=1)
+-f.ex("B2", "Traduire", "Ogni cifra deve essere chiara.", "dovere = devoir",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = devoir",
+      "Chaque chiffre doit être clair. → ___", instr="Traduire en italien", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Associe les mots",

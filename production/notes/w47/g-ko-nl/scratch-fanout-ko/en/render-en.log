@@ -1,0 +1,56 @@
+card: p1-pyoji.png
+card: p2-saenghwal.png
+card: p3-munhwa.png
+card: p4-seupocheu.png
+card: p5-cheongnyeon.png
+card: p6-gipi.png
+card: p7-mal.png
+card: p8-siheom.png
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1506, in open_local_file
+    stats = os.stat(localfile)
+            ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/svg/p4-seupocheu.svg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/render.py", line 25, in <module>
+    data = cairosvg.svg2pdf(url=s)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/__init__.py", line 66, in svg2pdf
+    return surface.PDFSurface.convert(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/surface.py", line 133, in convert
+    tree = Tree(
+           ^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/parser.py", line 391, in __init__
+    bytestring = self.fetch_url(
+                 ^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/parser.py", line 244, in fetch_url
+    return read_url(url, self.url_fetcher, resource_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/url.py", line 158, in read_url
+    return url_fetcher(url, resource_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/cairosvg/url.py", line 86, in fetch
+    return urlopen(Request(url, headers=HTTP_HEADERS)).read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1484, in file_open
+    return self.open_local_file(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1523, in open_local_file
+    raise URLError(exp)
+urllib.error.URLError: <urlopen error [Errno 2] No such file or directory: '/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/svg/p4-seupocheu.svg'>

@@ -1,0 +1,16 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print chars 43897 web chars 43897 rerender chars 43897
+token multiset diff print-vs-shipped-web: 0
+only in print: []
+only in web: []
+token multiset diff print-vs-rerender: 0
+page 1: print==web True (4766B/4766B) print==rerender True
+page 2: print==web True (5898B/5898B) print==rerender True
+page 3: print==web True (5323B/5323B) print==rerender True
+page 4: print==web True (5802B/5802B) print==rerender True
+page 5: print==web True (4752B/4752B) print==rerender True
+page 6: print==web True (5605B/5605B) print==rerender True
+page 7: print==web True (6195B/6195B) print==rerender True
+page 8: print==web True (9776B/9776B) print==rerender True
+pages print 8 web 8 rerender 8

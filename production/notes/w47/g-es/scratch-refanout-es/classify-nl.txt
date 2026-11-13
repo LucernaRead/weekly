@@ -1,0 +1,112 @@
+== nl stats {'KEEP': 23, 'REVERT': 31, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:56 [KEEP] OLD: f.ex("A2", "Zinnen aanvullen", "19", "Stemmen per post moet vóór de 19e worden aangevraagd",
+content12.py:56 [KEEP] NEW: f.ex("A2", "Zinnen aanvullen", "19", "Stemmen per post moet uiterlijk op de 19e worden aangevraagd",
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "„Debat”: een discussie in het openbaar.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "„Debat”: twee of meer mensen discussiëren in het openbaar, om de beurt en met vragen.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:157 [KEEP] OLD: qf.ex("A2", "Meerkeuze", "A", "Stemmen per post moet vóór de 19e worden aangevraagd",
+content12.py:157 [KEEP] NEW: qf.ex("A2", "Meerkeuze", "A", "Stemmen per post moet uiterlijk op de 19e worden aangevraagd",
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="Vul in", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Vul in", size=20, gap=8)
+content12.py:275 [REVERT] OLD: e.bridge("Lees het artikel en kies het juiste antwoord.")
+content12.py:275 [REVERT] NEW: e.bridge("Lees het artikel op pagina 2 en kies het juiste antwoord.")
+content12.py:278 [KEEP] OLD: e.ex("A2", "Meerkeuze", "A", "Stemmen per post moet vóór de 19e worden aangevraagd",
+content12.py:278 [KEEP] NEW: e.ex("A2", "Meerkeuze", "A", "Stemmen per post moet uiterlijk op de 19e worden aangevraagd",
+content34.py:45 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", "sans", 
+content34.py:45 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", "sans", 
+content34.py:51 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", 19, "sans", False, GREY, CW - 44, 1.42)
+content34.py:51 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:62 [REVERT] OLD: e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Flamencodag, maandag 16 november",
+content34.py:62 [REVERT] NEW: e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Internationale Flamencodag, maandag 16 november",
+content34.py:68 [REVERT] OLD: e.ex("B1", "Lezen: waar/onwaar", "Falso", "Sint-Cecilia is op 22 november",
+content34.py:68 [REVERT] NEW: e.ex("B1", "Lezen: waar/onwaar", "Falso", "Sint-Cecilia is op 22 november; zij is de beschermheilige van de musici",
+content34.py:70 [REVERT] OLD: e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Orkest van Bilbao, zondag 22, 12.00 uur",
+content34.py:70 [REVERT] NEW: e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Het gemeentelijk orkest van Bilbao speelt zondag 22 om 12.00 uur",
+content34.py:91 [REVERT] OLD: e.ex("B1", "Meerkeuze", "C", "Flamenco ontstond uit vele culturen in Andalusië",
+content34.py:91 [REVERT] NEW: e.ex("B1", "Meerkeuze", "C", "Flamenco ontstond uit de ontmoeting van vele culturen in Andalusië",
+content34.py:93 [REVERT] OLD: e.ex("B1", "Meerkeuze", "B", "Na Flamencodag: de verkiezing van 29 november",
+content34.py:93 [REVERT] NEW: e.ex("B1", "Meerkeuze", "B", "Na Flamencodag is de volgende grote datum de verkiezing van 29 november",
+content34.py:97 [REVERT] OLD: e.ex("A2", "Zinnen maken", "El flamenco es cante, toque y baile.", "Onderwerp, werkwoord",
+content34.py:97 [REVERT] NEW: e.ex("A2", "Zinnen maken", "El flamenco es cante, toque y baile.", "Onderwerp + werkwoord + gezegde",
+content34.py:101 [REVERT] OLD: e.ex("B1", "Zinnen maken", "En Bilbao toca la banda el domingo.", "De plaats vooraan",
+content34.py:101 [REVERT] NEW: e.ex("B1", "Zinnen maken", "En Bilbao toca la banda el domingo.", "De plaats vooraan, het werkwoord als tweede",
+content56.py:50 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en 
+content56.py:50 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en 
+content56.py:56 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en stuur ze in.", 19, "sans", False, GREY, CW - 44, 1.42)
+content56.py:56 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en stuur ze in.", 20, "sans", False, GREY, CW - 44, 1.42)
+content56.py:67 [KEEP] OLD: e.ex("B1", "Meerkeuze", "B", "Stemmen per post moet vóór de 19e worden aangevraagd",
+content56.py:67 [KEEP] NEW: e.ex("B1", "Meerkeuze", "B", "Stemmen per post moet uiterlijk op de 19e worden aangevraagd",
+content56.py:73 [REVERT] OLD: e.ex("B1", "Meerkeuze", "B", "MiDNI is de nieuwe manier om je te identificeren",
+content56.py:73 [REVERT] NEW: e.ex("B1", "Meerkeuze", "B", "MiDNI is dit jaar de nieuwe manier om je te identificeren bij het stemmen",
+content56.py:107 [REVERT] OLD: e.ex("B1", "Lezen: waar/onwaar", "Verdadero", "Dit jaar kun je stemmen met MiDNI",
+content56.py:107 [REVERT] NEW: e.ex("B1", "Lezen: waar/onwaar", "Verdadero", "Dit jaar kun je stemmen en je identificeren met MiDNI",
+content56.py:117 [REVERT] OLD: p.band("A FONDO　Achtergrond", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　De campagne lezen: debatten, programma’s en peilingen")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　Achtergrond", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　De campagne lezen")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content56.py:209 [REVERT] OLD: e.ex("B2", "Meerkeuze", "C", "Alleen gratis zendtijd, met bron",
+content56.py:209 [REVERT] NEW: e.ex("B2", "Meerkeuze", "C", "We publiceren alleen de gratis zendtijd die de kiescommissie bekendmaakt, met bron",
+content56.py:218 [REVERT] OLD: e.ex("B2", "Meerkeuze", "B", "Peiling: foto met foutmarge, op één dag",
+content56.py:218 [REVERT] NEW: e.ex("B2", "Meerkeuze", "B", "Een peiling is een foto met foutmarge, genomen op één bepaalde dag",
+content7.py:70 [REVERT] OLD:     ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor is al een vergrotende trap."),
+content7.py:70 [REVERT] NEW:     ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor is al een vergrotende trap: geen más."),
+content7.py:71 [REVERT] OLD:     ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente is enkelvoud: werkwoord dus ook."),
+content7.py:71 [REVERT] NEW:     ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente is enkelvoud: werkwoord in het enkelvoud."),
+content7.py:91 [REVERT] OLD: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = debat: een openbare discussie; de verkiezingen zijn op de 29e.", "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:91 [REVERT] NEW: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = debat: een openbare discussie, om de beurt. Dit is debatweek; de verkiezingen zijn op de 29e.", "sans", False, 2
+content7.py:97 [REVERT] OLD: p.para(bx + 22, yy3 + 20, "debate = debat: een openbare discussie; de verkiezingen zijn op de 29e.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:97 [REVERT] NEW: p.para(bx + 22, yy3 + 20, "debate = debat: een openbare discussie, om de beurt. Dit is debatweek; de verkiezingen zijn op de 29e.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content7.py:101 [REVERT] OLD: ldcn = "Noot van de redactie: bij het sluiten geen echte brieven of beste teksten; dit nummer drukt een voorbeeldbrief. De belofte schuift door naar VOL.5."
+content7.py:101 [REVERT] NEW: ldcn = "Noot van de redactie: er waren bij het sluiten van dit nummer nog geen echte brieven of beste teksten binnen; dit nummer drukt daarom een voorbeeldbrief van de redactie. De belofte schuift doo
+content8.py:23 [KEEP] OLD: f.ex("B1", "Cloze-meerkeuze", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "Cloze-meerkeuze", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:38 [KEEP] OLD: f.ex("A2", "Meerkeuze", "A", "Stemmen per post moet vóór de 19e worden aangevraagd",
+content8.py:38 [KEEP] NEW: f.ex("A2", "Meerkeuze", "A", "Stemmen per post moet uiterlijk op de 19e worden aangevraagd",
+content8.py:61 [REVERT] OLD: f.ex("A2", "Zinnen maken", "El lunes suena el flamenco.", "Eerst de tijd, dan het werkwoord",
+content8.py:61 [REVERT] NEW: f.ex("A2", "Zinnen maken", "El lunes suena el flamenco.", "De tijd vooraan, het werkwoord als tweede",
+content8.py:70 [REVERT] OLD: f.ex("A2", "Vertalen", "Maandag is het Internationale Flamencodag.", "Vgl. origineel.",
+content8.py:70 [REVERT] NEW: f.ex("A2", "Vertalen", "Maandag is het Internationale Flamencodag.", "Vergelijk met het origineel.",
+content8.py:72 [REVERT] OLD: f.ex("A2", "Vertalen", "Zaterdag kijken we naar de derby van Sevilla.", "Vgl. origineel.",
+content8.py:72 [REVERT] NEW: f.ex("A2", "Vertalen", "Zaterdag kijken we naar de derby van Sevilla.", "Vergelijk met het origineel.",
+content8.py:74 [KEEP] OLD: f.ex("B1", "Vertalen", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "Vertalen", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:75 [KEEP] OLD:      "De briefstem moet vóór donderdag 19 worden aangevraagd. → ___", instr="Vertalen", size=15.5, gap=1)
+content8.py:75 [KEEP] NEW:      "De briefstem moet uiterlijk op donderdag 19 worden aangevraagd. → ___", instr="Vertalen", size=15.5, gap=1)
+content8.py:95 [REVERT] OLD: f.ex("B1", "Cloze-meerkeuze", "A", "la papeleta va en el sobre = het stembiljet in de envelop",
+content8.py:95 [REVERT] NEW: f.ex("B1", "Cloze-meerkeuze", "A", "la papeleta va en el sobre = het stembiljet gaat in de envelop",
+content8.py:97 [REVERT] OLD: f.ex("B1", "Cloze-meerkeuze", "A", "¿a qué hora cierra el colegio? Hoe laat sluit het?",
+content8.py:97 [REVERT] NEW: f.ex("B1", "Cloze-meerkeuze", "A", "¿a qué hora cierra el colegio? Hoe laat sluit het stembureau?",
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　Antwoorden — per pagina gerangschikt; zoek op nummer", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　Antwoorden — per pagina gerangschikt; zoek op nummer", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "Bij elk antwoord een korte uitleg in het Nederlands　✓ = met voorbeeldtekst", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "Bij elk antwoord een korte uitleg in het Nederlands　✓ = met voorbeeldtekst", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

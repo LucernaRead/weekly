@@ -1,0 +1,30 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+span counts by font:
+  Newsreader16pt-Regular: 936
+  NotoSansCJKsc-Regular: 518
+  NotoSansCJKsc-Bold: 462
+  NotoSerifCJKsc-Regular: 61
+  DejaVuSans: 4
+  NotoSerifCJKsc-Bold: 2
+  UnifrakturMaguntia: 1
+  Newsreader16pt-Italic: 1
+total spans: 1985
+Latin-only spans in CJK fonts: 576
+  p1 NotoSansCJKsc-Bold 12.8pt 'VOL.'
+  p1 NotoSansCJKsc-Bold 12.8pt '4'
+  p1 NotoSansCJKsc-Regular 12.8pt 'HEBDOMADAIRE'
+  p1 NotoSansCJKsc-Regular 12.8pt 'EN'
+  p1 NotoSansCJKsc-Regular 12.8pt 'FRANÇAIS'
+  p1 NotoSansCJKsc-Regular 12.8pt 'SEMAINE'
+  p1 NotoSansCJKsc-Regular 12.8pt 'DU'
+  p1 NotoSansCJKsc-Regular 12.8pt '16'
+  p1 NotoSansCJKsc-Regular 12.8pt 'AU'
+  p1 NotoSansCJKsc-Regular 12.8pt '22'
+  p1 NotoSansCJKsc-Regular 12.8pt 'NOVEMBRE'
+  p1 NotoSansCJKsc-Regular 12.8pt '2026'
+  p1 NotoSansCJKsc-Regular 12.0pt 'LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS'
+  p1 NotoSansCJKsc-Bold 34.5pt 'ALCARAZ GAGNE PARIS, LE SÉNAT VOTE MERCREDI'
+  p1 NotoSansCJKsc-Bold 12.8pt 'TENNIS'
+by font: Counter({'NotoSansCJKsc-Bold': 400, 'NotoSansCJKsc-Regular': 159, 'NotoSerifCJKsc-Regular': 17})
+by page: Counter({8: 179, 1: 78, 3: 64, 6: 61, 7: 53, 2: 49, 4: 47, 5: 45})

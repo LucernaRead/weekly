@@ -1,0 +1,29 @@
+--- 
++++ 
+@@ -41,7 +41,7 @@
+ f.para("A Torino, domenica 22 novembre, si gioca la finale delle Nitto ATP Finals: otto campioni, una settimana di tennis, e l'Italia con Flavio Cobolli. A Venezia, sabato 21, c'è la Madonna della Salute.")
+ f.para("Questa è la quarta edizione de La Lucerna in italiano. Benvenuti in una settimana di calcio, dolci e musica!")
+ f.bridge("Nota — la vetta, o topo / o cume · imbattuto, invicto · il capolista, o líder · chiudere, encerrar.")
+-f.box("LA SETTIMANA IN CIFRE　DADOS", [
++f.box("LA SETTIMANA IN CIFRE　A SEMANA EM NÚMEROS", [
+     ("29 — os pontos da Lazio, primeira após 11 jornadas (a Lazio lidera)", "serif", False, INK, 20.5, 1.35),
+     ("24 — os golos da 11.ª jornada, em dez jogos (24 golos em 10 jogos)", "serif", False, INK, 20.5, 1.35),
+     ("20.45 — a hora do Atalanta–Inter, domingo 22 de novembro (20:45)", "serif", False, INK, 20.5, 1.35),
+@@ -68,7 +68,7 @@
+ p.rect(gx, gy, gw, 700, fill=BOX)
+ p.text(gx + 22, gy + 40, "LA SETTIMANA", 27, "sans", True, OLIVE)
+ p.text(gx + 22, gy + 76, "GIORNO PER GIORNO", 27, "sans", True, OLIVE)
+-p.text(gx + 22, gy + 106, "Esta sem.　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
++p.text(gx + 22, gy + 106, "Esta semana　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
+ sett = [
+     "LUN 16 — Manovra in Parlamento: emendamenti entro il 17, ore 18.",
+     "MAR 17 — Scade il termine per gli emendamenti.",
+@@ -174,7 +174,7 @@
+ f.para("La settimana scorsa si è chiusa con due feste dolci ancora aperte: la Festa del Torrone a Cremona e Eurochocolate a Perugia, che chiudono domenica 22 novembre. E due grandi appuntamenti di sport: le due notti azzurre della Nazionale e l'inizio delle Nitto ATP Finals a Torino.", 23.5)
+ f.para("Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre le commissioni Bilancio di Camera e Senato hanno ascoltato enti e istituzioni. Al momento di andare in stampa, il testo non era ancora legge: ne parliamo a pagina 6.", 23.5)
+ f.bridge("À hora de fecho, o projeto de orçamento ainda não era lei — ver página 6.")
+-f.box("LA FRASE PER RICORDARE　LEMA", [
++f.box("LA FRASE PER RICORDARE　PARA LEMBRAR", [
+     ("«La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.", "serif", False, INK, 21.5, 1.4),
+ ])
+ f.gloss("la salute, a saúde · il ponte votivo, a ponte votiva · la candela, a vela · la peste, a peste · il voto, o voto · piantare, plantar.")

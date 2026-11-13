@@ -1,0 +1,27 @@
+### [2026-w47-ko-pt] phase=all reader=pt mode=latin print=Lucerna-VOL4-KO-PT.pdf web=Lucerna-VOL4-KO-PT-web.pdf
+### [2026-w47-ko-pt] Phase A: pre-baseline
+### [2026-w47-ko-pt] d5_census production RC=1
+### [2026-w47-ko-pt] census_quotes production svg RC=0
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-pt/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-pt/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-pt/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-pt/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-pt/base': Operation not permitted
+### [2026-w47-ko-pt] base-venv run.py RC=0
+### [2026-w47-ko-pt] Phase B: install template svglib-ko-d5.py
+### [2026-w47-ko-pt] install diff vs template:
+### [2026-w47-ko-pt] Phase C: rebuild production (venv)
+### [2026-w47-ko-pt] run.py RC=0
+### [2026-w47-ko-pt] render.py RC=0
+### [2026-w47-ko-pt] webpdf.py RC=0
+### [2026-w47-ko-pt] Phase D: gates
+### [2026-w47-ko-pt] d5_census patched RC=0
+### [2026-w47-ko-pt] census_quotes patched svg RC=0
+### [2026-w47-ko-pt] head_check RC=0
+### [2026-w47-ko-pt] occlusion_audit RC=0
+### [2026-w47-ko-pt] p8 extract RC=0
+### [2026-w47-ko-pt] p8 compare vs core-ko RC=0
+### [2026-w47-ko-pt] freeze baseline (syspy exception) RC=1
+### [2026-w47-ko-pt] freeze diff patched vs base-venv (syspy exception) RC=0
+### [2026-w47-ko-pt] spill_sweep RC=0
+### [2026-w47-ko-pt] boxtitle_check RC=0

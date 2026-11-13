@@ -1,0 +1,2 @@
+- P7 读者园地奶油盒溢出修：`courrier_disclosure` 删中句 “este número publica un ejemplo editorial marcado.”（该信息已由 P7 法文示例标注句覆盖），3 行→2 行；末基线 2260.6→2233.3、creambox 清除 -2.6→+24.7（desc-clear +18.8）；PIL 真墨实测：披露灰字末行墨至 svg y=2237.3，盒底 2258.0 之下 2258–2270 白纸间隙零墨（仅 P7 哈希变）。
+- 核心 fix4 落地：Q148 键 `devant`→`devant le`、题干 `On se retrouve ___ du cinéma ?`→`On se retrouve ___ cinéma ?`（仅 P8 哈希变；P8 注记 148 亦随键变为 `devant le`）。

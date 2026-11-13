@@ -1,0 +1,25 @@
+registry size: 150 levels: Counter({'B1': 76, 'A2': 50, 'B2': 24})
+per-page counts: Counter({8: 38, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 1: 10})
+P1: chips=10 expected=10 numbers-match=True
+   levels on page: Counter({'A2': 9, 'B1': 1}) expected: Counter({'A2': 9, 'B1': 1})
+P2: chips=14 expected=18 numbers-match=False
+   missing: [25, 26, 27, 28] extra: []
+   levels on page: Counter({'A2': 10, 'B1': 4}) expected: Counter({'A2': 14, 'B1': 4})
+P3: chips=14 expected=18 numbers-match=False
+   missing: [39, 40, 41, 42] extra: []
+   levels on page: Counter({'A2': 7, 'B1': 7}) expected: Counter({'B1': 11, 'A2': 7})
+P4: chips=14 expected=18 numbers-match=False
+   missing: [57, 58, 59, 60] extra: []
+   levels on page: Counter({'B1': 12, 'A2': 2}) expected: Counter({'B1': 16, 'A2': 2})
+P5: chips=14 expected=18 numbers-match=False
+   missing: [75, 76, 77, 78] extra: []
+   levels on page: Counter({'B1': 8, 'A2': 6}) expected: Counter({'B1': 12, 'A2': 6})
+P6: chips=18 expected=18 numbers-match=True
+   levels on page: Counter({'B2': 14, 'B1': 4}) expected: Counter({'B2': 14, 'B1': 4})
+P7: chips=12 expected=12 numbers-match=True
+   levels on page: Counter({'A2': 4, 'B1': 4, 'B2': 4}) expected: Counter({'A2': 4, 'B1': 4, 'B2': 4})
+P8: chips=34 expected=38 numbers-match=False
+   missing: [141, 142, 143, 144] extra: []
+   levels on page: Counter({'B1': 24, 'A2': 8, 'B2': 2}) expected: Counter({'B1': 24, 'A2': 8, 'B2': 6})
+total chips: 130
+level mismatches: []

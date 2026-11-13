@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-zh-cn-ru1/extract_stems.py", line 4, in <module>
+    base = sys.argv[1]
+           ~~~~~~~~^^^
+IndexError: list index out of range

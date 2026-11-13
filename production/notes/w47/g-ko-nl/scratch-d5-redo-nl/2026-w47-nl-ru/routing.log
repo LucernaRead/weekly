@@ -1,0 +1,22 @@
+PASS _D5_READER == 'ru' (got 'ru')
+PASS fix2 U+201C sans -> news (got 'news')
+PASS fix2 U+201C sans bold -> news (got 'news')
+PASS fix2 U+201D sans -> news (got 'news')
+PASS fix2 U+201D sans bold -> news (got 'news')
+PASS fix2 U+2019 sans -> news (got 'news')
+PASS fix2 U+2019 sans bold -> news (got 'news')
+PASS ru-mode Latin A sans -> sans_noto (got 'sans_noto')
+PASS ru-mode Latin z sans -> sans_noto (got 'sans_noto')
+PASS ru-mode e-acute sans -> sans_noto (got 'sans_noto')
+PASS ru-mode digit 5 sans -> sans_noto (got 'sans_noto')
+PASS Cyrillic De sans -> sans_noto (got 'sans_noto')
+PASS Cyrillic ya sans -> sans_noto (got 'sans_noto')
+PASS CJK zhong sans -> sans (got 'sans')
+PASS CJK ri sans -> sans (got 'sans')
+PASS serif Latin -> news
+PASS serif CJK -> serif
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0

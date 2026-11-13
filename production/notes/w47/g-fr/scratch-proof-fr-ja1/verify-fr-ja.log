@@ -1,0 +1,104 @@
+PASS p1-une.svg paper rect
+PASS p1-une.svg VOL.4 count core==ed — core=2 ed=2
+PASS p1-une.svg VOL.5 count core==ed — core=0 ed=0
+PASS p1-une.svg chip count 10 — core=10 ed=10
+PASS p1-une.svg chip colours core==ed
+PASS p2-vie.svg paper rect
+PASS p2-vie.svg VOL.4 count core==ed — core=1 ed=1
+PASS p2-vie.svg VOL.5 count core==ed — core=1 ed=1
+PASS p2-vie.svg chip count 12 — core=12 ed=12
+PASS p2-vie.svg chip colours core==ed
+PASS p3-culture.svg paper rect
+PASS p3-culture.svg VOL.4 count core==ed — core=1 ed=1
+PASS p3-culture.svg VOL.5 count core==ed — core=0 ed=0
+PASS p3-culture.svg chip count 18 — core=18 ed=18
+PASS p3-culture.svg chip colours core==ed
+PASS p4-sport.svg paper rect
+PASS p4-sport.svg VOL.4 count core==ed — core=1 ed=1
+PASS p4-sport.svg VOL.5 count core==ed — core=2 ed=2
+PASS p4-sport.svg chip count 15 — core=15 ed=15
+PASS p4-sport.svg chip colours core==ed
+PASS p5-jeunesse.svg paper rect
+PASS p5-jeunesse.svg VOL.4 count core==ed — core=1 ed=1
+PASS p5-jeunesse.svg VOL.5 count core==ed — core=0 ed=0
+PASS p5-jeunesse.svg chip count 14 — core=14 ed=14
+PASS p5-jeunesse.svg chip colours core==ed
+PASS p6-politique.svg paper rect
+PASS p6-politique.svg VOL.4 count core==ed — core=1 ed=1
+PASS p6-politique.svg VOL.5 count core==ed — core=0 ed=0
+PASS p6-politique.svg chip count 15 — core=15 ed=15
+PASS p6-politique.svg chip colours core==ed
+PASS p7-langue.svg paper rect
+PASS p7-langue.svg VOL.4 count core==ed — core=3 ed=3
+PASS p7-langue.svg VOL.5 count core==ed — core=3 ed=3
+PASS p7-langue.svg chip count 12 — core=12 ed=12
+PASS p7-langue.svg chip colours core==ed
+PASS p8-exercices.svg paper rect
+PASS p8-exercices.svg VOL.4 count core==ed — core=1 ed=1
+PASS p8-exercices.svg VOL.5 count core==ed — core=3 ed=3
+PASS p8-exercices.svg chip count 38 — core=38 ed=38
+PASS p8-exercices.svg chip colours core==ed
+colour set core 19 ed 19 extra none missing none
+PASS colour set core==ed
+PASS P8 min SVG font-size >= 13 (9.75pt) — min attr 15.5
+PASS scan U+2019 == 0 — found 0
+PASS scan U+00B7 middot == 0 — found 0
+PASS scan gold == 0 — found 0
+box-contained texts measured: 474; overflow: 0
+PASS box titles/texts: 0 PIL-ink overflow — 0 overflow
+dark-box titles + chips measured: 165; min margin_R 18.1, min margin_L 17.3
+PASS dark-box titles: min margin_R > 0 — min R 18.1
+disclosure lines: [(2206.0, '編集部注：締切時点でVOL.4の投稿は届いていなかったため、'), (2233.3, 'る。VOL.5で実際の投稿の講評という約束を果たす。')]
+disclosure box: [{'x': 989.0, 'y': 1878.0, 'w': 873.0, 'h': 380.0, 'fill': '#f0eee5'}]
+disclosure last baseline 2233.3, box bottom 2258.0, baseline clearance 24.7, PIL ink bottom 2236.3
+PASS P7 disclosure 2 lines — found 2
+PASS P7 disclosure last baseline 2233.3 — last=2233.3
+PASS P7 disclosure clears box bottom — ink bottom 2236.3 vs 2258.0
+orphan-punctuation lines: []
+PASS orphan punctuation 0 new (excl. core-inherited none expected) — []
+PASS Q36 orphan blank at (538.5,1864.5) — found [(538.5, 1864.6749999999993)]
+PASS Q37 orphan blank at (538.5,1997.5) — found [(538.5, 1997.374999999999)]
+p3-culture.svg: other orphan blank LINES: []
+PASS p3-culture.svg no extra orphan blank lines — []
+PASS Q130 orphan blank at (989.0,843.0) — found [(989.0, 843.0)]
+p8-exercices.svg: other orphan blank LINES: []
+PASS p8-exercices.svg no extra orphan blank lines — []
+PASS Q148 key 'devant le' in content8.py
+PASS Q148 stem has no 'du cinéma'
+PASS Q148 old stem 'du cinéma' gone
+PASS Q148 stem joined in P8 SVG
+Q148 stem nodes: [(1439.5, 1292.76, '(147)___ ? — À 20 heures. — On se retrouve'), (1439.5, 1324.68, '(148)___ cinéma ? — Oui, à 19 h 30. Bon')]
+PASS Q148 'devant le' printed in P8 answers (joined)
+Q148 answer context: []
+added CJK distinct: 359 total: 2329
+kana: 116 kanji: 230 other: [('、', '0x3001'), ('！', '0xff01'), ('〜', '0x301c'), ('（', '0xff08'), ('）', '0xff09'), ('。', '0x3002'), ('？', '0xff1f'), ('＋', '0xff0b'), ('\u3000', '0x3000'), ('『', '0x300e'), ('』', '0x300f'), ('：', '0xff1a'), ('＝', '0xff1d')]
+simplified-only kanji in added set: []
+PASS added CJK: 0 simplified-only kanji — []
+shared-glyph check '国': in added set: False (count 0) — Japanese shinjitai, NOT a simplified-only defect
+shared-glyph check '学': in added set: True (count 1) — Japanese shinjitai, NOT a simplified-only defect
+kanji with no kana context in any added string (info only — pure-kanji Japanese compounds are normal; each reviewed below): [('通', ['VOL. 4\u3000通算第4号']), ('常', ['VIE QUOTIDIENNE\u3000日常生活']), ('欄', ['空欄補充', 'A\u3000TEXTE À TROUS\u3000空欄']), ('充', ['空欄補充']), ('蔵', ['酒蔵']), ('樽', ['樽']), ('回', ['titre 前回優勝者\u3000un tirage au sort 抽選', '上映回']), ('戦', ['対戦相手']), ('相', ['対戦相手']), ('若', ['JEUNESSE & MUSIQUE\u3000若者']), ('俳', ['俳優']), ('監', ['監督']), ('督', ['監督']), ('脚', ['脚本']), ('観', ['観客']), ('客', ['観客']), ('礎', ['NIVEAU A2\u3000基礎']), ('訂', ['訂正']), ('択', ['選択肢：']), ('肢', ['選択肢：']), ('訳', ['E\u3000TRADUCTION\u3000翻訳']), ('致', ['mercredi.（一致：Sénat 単数 → vote）\u3000107. Il est prévu', '過去分詞（無一致））\u3000115. B（les Bleus 複数 → jouent）']), ('無', ['過去分詞（無一致））\u3000115. B（les Bleus 複数 → jouent）']), ('称', ['曜18日）\u3000120. B（si + 半過去 → 条件法）\u3000121. A（3人称'])]
+  通: ['VOL. 4\u3000通算第4号']
+  常: ['VIE QUOTIDIENNE\u3000日常生活']
+  欄: ['空欄補充', 'A\u3000TEXTE À TROUS\u3000空欄']
+  充: ['空欄補充']
+  蔵: ['酒蔵']
+  樽: ['樽']
+  回: ['titre 前回優勝者\u3000un tirage au sort 抽選', '上映回']
+  戦: ['対戦相手']
+  相: ['対戦相手']
+  若: ['JEUNESSE & MUSIQUE\u3000若者']
+  俳: ['俳優']
+  監: ['監督']
+  督: ['監督']
+  脚: ['脚本']
+  観: ['観客']
+  客: ['観客']
+  礎: ['NIVEAU A2\u3000基礎']
+  訂: ['訂正']
+  択: ['選択肢：']
+  肢: ['選択肢：']
+  訳: ['E\u3000TRADUCTION\u3000翻訳']
+  致: ['mercredi.（一致：Sénat 単数 → vote）\u3000107. Il est prévu', '過去分詞（無一致））\u3000115. B（les Bleus 複数 → jouent）']
+  無: ['過去分詞（無一致））\u3000115. B（les Bleus 複数 → jouent）']
+  称: ['曜18日）\u3000120. B（si + 半過去 → 条件法）\u3000121. A（3人称']
+VERIFY_FR_JA ALL PASS

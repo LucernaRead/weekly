@@ -1,0 +1,9 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+V0 D1 orig (expect ~1886): max ink x in rows 1640..1665 = 1886 (margin vs 1862: -24) rows=[(1644, 1881), (1645, 1882), (1646, 1882), (1647, 1882), (1648, 1883)]
+V0 D2 orig (expect ~1865): max ink x in rows 2320..2360 = 1865 (margin vs 1862: -3) rows=[(2331, 1807), (2332, 1807), (2333, 1825), (2334, 1863), (2335, 1864)]
+D2 new advance=623.1 new x=1238.9
+V1 D2 drop-certa: max ink x in rows 2320..2360 = 1864 (margin vs 1862: -2) rows=[(2331, 1806), (2332, 1806), (2333, 1824), (2334, 1862), (2335, 1863)]
+V2 D2 anchor-10: max ink x in rows 2320..2360 = 1855 (margin vs 1862: +7) rows=[(2333, 1815), (2334, 1853), (2335, 1854), (2336, 1854), (2337, 1854)]
+V3 D1 semanal: max ink x in rows 1640..1665 = 1844 (margin vs 1862: +18) rows=[(1644, 1838), (1645, 1838), (1646, 1838), (1647, 1838), (1648, 1838)]
+done

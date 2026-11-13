@@ -1,0 +1,47 @@
+--- p1-prima.svg ---
+  [ok ] box 538.5..961.0 'LA SETTIMANA IN CIFRE\u3000DADOS' size 23 | raster right 922 (over -39.0) | PIL right 924.5 (over -36.5) | spare PIL 36.5px
+  [ok ] box 1439.5..1862.0 'LA SETTIMANA' size 27 | raster right 1653 (over -209.0) | PIL right 1654.5 (over -207.5) | spare PIL 207.5px
+  [ok ] box 1439.5..1862.0 'GIORNO PER GIORNO' size 27 | raster right 1740 (over -122.0) | PIL right 1743.8 (over -118.2) | spare PIL 118.2px
+  [ok ] box 1439.5..1862.0 'IN QUESTO NUMERO\u3000ÍNDICE' size 24 | raster right 1806 (over -56.0) | PIL right 1808.2 (over -53.8) | spare PIL 53.8px
+  [ok ] box 1439.5..1862.0 'Pag. 2' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 3' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 4' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 5' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 6' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 7' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'Pag. 8' size 21 | raster right 1837 (over -25.0) | PIL right 1523.5 (over -338.5) | spare PIL 338.5px
+  [ok ] box 1439.5..1862.0 'IN BREVE\u3000EM RESUMO' size 24 | raster right 1735 (over -127.0) | PIL right 1737.8 (over -124.2) | spare PIL 124.2px
+--- p2-vita.svg ---
+  [ok ] box 538.5..961.0 'LA FRASE PER RICORDARE\u3000LEMA' size 23 | raster right 933 (over -28.0) | PIL right 934.0 (over -27.0) | spare PIL 27.0px
+  [ok ] box 1439.5..1862.0 'LO SAPEVI?' size 24 | raster right 1593 (over -269.0) | PIL right 1594.8 (over -267.2) | spare PIL 267.2px
+  [ok ] box 1439.5..1862.0 'E TU?\u3000E TU?' size 24 | raster right 1614 (over -248.0) | PIL right 1616.5 (over -245.5) | spare PIL 245.5px
+--- p3-cultura.svg ---
+  [ok ] box 1439.5..1862.0 'IL WEEKEND DOLCE' size 24 | raster right 1689 (over -173.0) | PIL right 1691.0 (over -171.0) | spare PIL 171.0px
+  [ok ] box 1439.5..1862.0 'E TU?\u3000E TU?' size 24 | raster right 1614 (over -248.0) | PIL right 1616.5 (over -245.5) | spare PIL 245.5px
+--- p4-sport.svg ---
+  [ok ] box 1439.5..1862.0 'LA CLASSIFICA\u3000DOPO 11 GIORNATE' size 21 | raster right 1832 (over -30.0) | PIL right 1833.0 (over -29.0) | spare PIL 29.0px
+  [ok ] box 1439.5..1862.0 'E TU?\u3000E TU?' size 24 | raster right 1614 (over -248.0) | PIL right 1616.5 (over -245.5) | spare PIL 245.5px
+  [ok ] box 88.0..1862.0 'Venezia – Udinese 2–1' size 21 | raster right 500 (over -1362.0) | PIL right 500.0 (over -1362.0) | spare PIL 1362.0px
+  [ok ] box 88.0..1862.0 'Parma – Bologna 1–2' size 21 | raster right 989 (over -873.0) | PIL right 488.0 (over -1374.0) | spare PIL 1374.0px
+  [ok ] box 88.0..1862.0 'Inter – Como 2–0' size 21 | raster right 1039 (over -823.0) | PIL right 448.8 (over -1413.2) | spare PIL 1413.2px
+--- p5-giovani.svg ---
+  [ok ] box 538.5..961.0 'IL PIANO DELLA SETTIMANA' size 23 | raster right 866 (over -95.0) | PIL right 868.8 (over -92.2) | spare PIL 92.2px
+  [ok ] box 1439.5..1862.0 'I GIOVANI IN NUMERI' size 24 | raster right 1702 (over -160.0) | PIL right 1706.0 (over -156.0) | spare PIL 156.0px
+  [ok ] box 1439.5..1862.0 'E TU?\u3000E TU?' size 24 | raster right 1614 (over -248.0) | PIL right 1616.5 (over -245.5) | spare PIL 245.5px
+--- p6-approfondimento.svg ---
+  [ok ] box 1439.5..1862.0 'LA STRADA DELLA MANOVRA' size 22 | raster right 1766 (over -96.0) | PIL right 1766.0 (over -96.0) | spare PIL 96.0px
+  [ok ] box 1439.5..1862.0 'LEGGERE I NUMERI' size 24 | raster right 1680 (over -182.0) | PIL right 1684.8 (over -177.2) | spare PIL 177.2px
+  [OVERFLOW] box 88.0..961.0 'MINIME DI ESEMPIO\u3000gradi, dati inventati' size 21 | raster right 1111 (over +150.0) | PIL right 538.2 (over -422.8) | spare PIL 422.8px
+  [ok ] box 989.0..1862.0 'PROPOSTA ≠ LEGGE' size 21 | raster right 1221 (over -641.0) | PIL right 1222.5 (over -639.5) | spare PIL 639.5px
+  [ok ] box 989.0..1862.0 '«Il governo propone» ≠ «la legge dice»' size 23 | raster right 1435 (over -427.0) | PIL right 1434.5 (over -427.5) | spare PIL 427.5px
+  [ok ] box 989.0..1862.0 'Una cifra raccontata ≠ una cifra votata' size 23 | raster right 1440 (over -422.0) | PIL right 1439.2 (over -422.8) | spare PIL 422.8px
+--- p7-lingua.svg ---
+  [ok ] box 1439.5..1862.0 'ERRORI TIPICI\u3000ERROS' size 23 | raster right 1719 (over -143.0) | PIL right 1721.5 (over -140.5) | spare PIL 140.5px
+  [ok ] box 1439.5..1862.0 '«La Lazio hanno 29 punti.»' size 22 | raster right 1746 (over -116.0) | PIL right 1748.2 (over -113.8) | spare PIL 113.8px
+  [ok ] box 1439.5..1862.0 '«È probabile che la Lazio vince.»' size 22 | raster right 1800 (over -62.0) | PIL right 1801.5 (over -60.5) | spare PIL 60.5px
+  [ok ] box 1439.5..1862.0 '«Ieri ho andato a Cremona.»' size 22 | raster right 1756 (over -106.0) | PIL right 1757.0 (over -105.0) | spare PIL 105.0px
+  [ok ] box 1439.5..1862.0 '«Il torrone sono dolce.»' size 22 | raster right 1706 (over -156.0) | PIL right 1708.0 (over -154.0) | spare PIL 154.0px
+  [ok ] box 1439.5..1862.0 'LA PAROLA\u3000PALAVRA DA SEMANA' size 23 | raster right 1846 (over -16.0) | PIL right 1845.0 (over -17.0) | spare PIL 17.0px
+  [ok ] box 1439.5..1862.0 'LETTERE DEI LETTORI' size 23 | raster right 1703 (over -159.0) | PIL right 1706.8 (over -155.2) | spare PIL 155.2px
+--- p8-valutazione.svg ---
+TOTAL bold>=21 box titles raster-measured: 38, fit: 37

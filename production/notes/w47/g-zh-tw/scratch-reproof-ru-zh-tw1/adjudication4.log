@@ -1,0 +1,39 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+01 p1-pervaya.s 'Зенит'                    vs '» '         right pixel_gap=3.67px (tool 5.5) -> CLEAR | nearest gap 22 raster px, 6 raster px from separator
+02 p1-pervaya.s 'Динамо'                   vs '» — '       right pixel_gap=5.17px (tool 5.1) -> CLEAR | nearest gap 31 raster px, 2 raster px from separator
+03 p1-pervaya.s 'тур'                      vs ': «'        right pixel_gap=5.67px (tool 4.9) -> CLEAR | nearest gap 34 raster px, 3 raster px from separator
+04 p1-pervaya.s 'пятница'                  vs '»: '        right pixel_gap=1.67px (tool 3.2) -> CLEAR | nearest gap 10 raster px, 3 raster px from separator
+05 p1-pervaya.s 'третий'                   vs ', '         right pixel_gap=0.67px (tool 3.4) -> CLEAR | nearest gap 4 raster px, 4 raster px from separator
+06 p1-pervaya.s 'субботу'                  vs ','          right pixel_gap=0.00px (tool 3.2) -> TOUCH | ink continuous across separator; spanning run [(849, 950)]
+07 p1-pervaya.s 'Краснодар'                vs '» — '       right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator
+08 p1-pervaya.s 'Краснодаре'               vs ','          right pixel_gap=0.00px (tool 3.3) -> TOUCH | ink continuous across separator; spanning run [(1156, 1241)]
+09 p1-pervaya.s '!'                        vs 'истории'    left pixel_gap=1.50px (tool 3.6) -> CLEAR | nearest gap 9 raster px, 8 raster px from separator
+10 p1-pervaya.s 'ЦСКА'                     vs '? A.'       right pixel_gap=0.00px (tool 3.5) -> TOUCH | ink continuous across separator; spanning run [(627, 770)]
+11 p2-zhizn.svg 'толерантности'            vs '.'          right pixel_gap=0.00px (tool 4.1) -> TOUCH | ink continuous across separator; spanning run [(1278, 1378)]
+12 p2-zhizn.svg 'студента'                 vs '.'          right pixel_gap=0.33px (tool 3.0) -> CLEAR | nearest gap 2 raster px, 7 raster px from separator
+13 p2-zhizn.svg 'студента'                 vs '.'          right pixel_gap=0.33px (tool 3.3) -> CLEAR | nearest gap 2 raster px, 8 raster px from separator
+14 p2-zhizn.svg '! '                       vs 'студента'   left pixel_gap=0.67px (tool 3.4) -> CLEAR | nearest gap 4 raster px, 9 raster px from separator
+15 p2-zhizn.svg 'студенту'                 vs ', '         right pixel_gap=0.00px (tool 3.5) -> TOUCH | ink continuous across separator; spanning run [(938, 1037)]
+16 p2-zhizn.svg 'спасибо'                  vs '.'          right pixel_gap=1.33px (tool 3.3) -> CLEAR | nearest gap 8 raster px, 4 raster px from separator
+17 p3-kultura.s 'биография'                vs ':'          right pixel_gap=0.00px (tool 5.0) -> TOUCH | ink continuous across separator; spanning run [(1076, 1173)]
+18 p3-kultura.s 'посмотреть'               vs ': '         right pixel_gap=0.83px (tool 3.8) -> CLEAR | nearest gap 5 raster px, 8 raster px from separator
+19 p3-kultura.s ')'                        vs 'посмотреть' left pixel_gap=0.00px (tool 3.2) -> TOUCH | ink continuous across separator; spanning run [(1015, 1106)]
+20 p4-sport.svg 'место'                    vs '.'          right pixel_gap=1.17px (tool 3.0) -> CLEAR | nearest gap 7 raster px, 6 raster px from separator
+21 p4-sport.svg 'Краснодар'                vs '» '         right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator
+22 p4-sport.svg 'Краснодар'                vs '» — '       right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator
+23 p4-sport.svg 'Россия'                   vs ', '         right pixel_gap=0.00px (tool 3.1) -> TOUCH | ink continuous across separator; spanning run [(718, 804)]
+24 p4-sport.svg 'истории'                  vs '; '         right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator
+25 p4-sport.svg 'Краснодар'                vs '»'          right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator
+26 p4-sport.svg 'ЦСКА'                     vs '? A.'       right pixel_gap=0.00px (tool 3.6) -> TOUCH | ink continuous across separator; spanning run [(607, 738)]
+27 p5-molodezh. 'пятница'                  vs '»:'         right pixel_gap=2.67px (tool 5.1) -> CLEAR | nearest gap 16 raster px, 2 raster px from separator
+28 p5-molodezh. 'смартфоны'                vs ','          right pixel_gap=0.00px (tool 5.2) -> TOUCH | ink continuous across separator; spanning run [(1170, 1225)]
+29 p6-razbor.sv 'студента'                 vs ', '         right pixel_gap=0.00px (tool 3.2) -> TOUCH | ink continuous across separator; spanning run [(944, 1036)]
+30 p6-razbor.sv 'сбивается'                vs '.'          right pixel_gap=0.00px (tool 3.2) -> TOUCH | ink continuous across separator; spanning run [(948, 1036)]
+31 p6-razbor.sv 'Планируйте'               vs ': '         right pixel_gap=1.50px (tool 3.2) -> CLEAR | nearest gap 9 raster px, 6 raster px from separator
+32 p6-razbor.sv '?\u3000'                  vs 'НЕДЕЛЕ'     left pixel_gap=3.00px (tool 3.3) -> CLEAR | nearest gap 18 raster px, 0 raster px from separator
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-ru-zh-tw1/adjudicate4.py", line 68, in <module>
+    dist, gap_raster, gap_mid = best
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object

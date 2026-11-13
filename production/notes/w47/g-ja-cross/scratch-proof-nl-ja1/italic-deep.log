@@ -1,0 +1,17 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+===== De-Lucerna-VOL4-nl-ja.pdf
+  P1 Newsreader16pt-Italic 16.12 '«de groepswinst»'
+  P1 GROUPSWINST-SPAN font=Newsreader16pt-Italic size=16.12 text='«de groepswinst»'
+  P7 GROUPSWINST-SPAN font=Newsreader16pt-Regular size=15.38 text='«De groepswinst» is... A. een boek · B. de'
+  P7 GROUPSWINST-SPAN font=Newsreader16pt-Regular size=16.12 text='«de groepswinst» betekent: de eerste'
+  P8 GROUPSWINST-SPAN font=Newsreader16pt-Regular size=10.35 text='«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'
+  total italic spans: 1
+  embedded fonts P1: ['EBJDIL+NotoSansCJKsc-Bold', 'PCNISY+NotoSansCJKsc-Regular', 'ZMESMJ+UnifrakturMaguntia', 'UTJWST+NotoSerifCJKsc-Bold', 'VCUKXE+Newsreader16pt-Regular', 'PJLYKF+Newsreader16pt-Regular', 'KDMNHP+NotoSerifCJKsc-Regular', 'TLDYJJ+Newsreader16pt-Italic']
+===== De-Lucerna-VOL4-nl-ja-web.pdf
+  P1 GROUPSWINST-SPAN font=LucernaNewsreader-Regula size=16.12 text='«de groepswinst»'
+  P7 GROUPSWINST-SPAN font=LucernaNewsreader-Regula size=15.38 text='«De groepswinst» is... A. een boek · B. de'
+  P7 GROUPSWINST-SPAN font=LucernaNewsreader-Regula size=16.12 text='«de groepswinst» betekent: de eerste'
+  P8 GROUPSWINST-SPAN font=LucernaNewsreader-Regula size=10.35 text='«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'
+  total italic spans: 0
+  embedded fonts P1: ['UCDLXC+LucernaNotoSansCJKSC-Bold', 'WNXUWJ+LucernaNotoSansCJKSC-Regular', 'UGAWXV+LucernaUnifrakturMaguntia-Regular', 'WTXDNU+LucernaNotoSerifCJKSC-Bold', 'BIFJIC+LucernaNewsreader-Regular', 'GKZTWG+LucernaNotoSerifCJKSC-Regular']

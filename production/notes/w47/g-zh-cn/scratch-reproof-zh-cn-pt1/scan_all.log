@@ -1,0 +1,17 @@
+cream_flags: 0
+spill_flags: 0
+deadline lines:
+   {'page': 'p1-touiban.svg', 'text': '本期截稿时是', 'x': 88.0, 'y': 1495.9, 'size': 24.0, 'ink_right': 232.0, 'box': None}
+   {'page': 'p1-touiban.svg', 'text': 'Fecho: 10 nov. A final é a 15 nov. às 03:00', 'x': 1461.5, 'y': 1068.4, 'size': 18.5, 'ink_right': 1809.5, 'box': [{'x': 1439.5, 'y': 588.0, 'edge': 1862.0, 'clear': 52.5}]}
+   {'page': 'p1-touiban.svg', 'text': 'Fecho: 10 nov. — a final ainda não jogada', 'x': 1461.5, 'y': 1252.0, 'size': 19.0, 'ink_right': 1823.5, 'box': [{'x': 1439.5, 'y': 588.0, 'edge': 1862.0, 'clear': 38.5}]}
+   {'page': 'p4-tiyu.svg', 'text': '本期截稿时是', 'x': 538.5, 'y': 294.5, 'size': 24.0, 'ink_right': 682.5, 'box': None}
+   {'page': 'p7-ciyu.svg', 'text': '月10日截稿，仍未收到，继续征集。延期', 'x': 1461.5, 'y': 1550.9, 'size': 20.0, 'ink_right': 1823.5, 'box': [{'x': 1439.5, 'y': 1252.98, 'edge': 1862.0, 'clear': 38.5}]}
+worst cream clearance per page:
+   p1-touiban.svg {'page': 'p1-touiban.svg', 'text': 'B1', 'x': 1817.1, 'y': 1476.0, 'ink_right': 1840.1, 'box_edge': 1862.0, 'clear': 21.9}
+   p2-shenghuo.svg {'page': 'p2-shenghuo.svg', 'text': 'borrego · rètāng 热汤 — sopa quente ·', 'x': 556.5, 'y': 1354.4, 'ink_right': 940.5, 'box_edge': 961.0, 'clear': 20.5}
+   p3-wenhua.svg {'page': 'p3-wenhua.svg', 'text': 'Notas｜hóng 虹 — um arco-íris · bìsè 闭', 'x': 556.5, 'y': 505.9, 'ink_right': 941.5, 'box_edge': 961.0, 'clear': 19.5}
+   p4-tiyu.svg {'page': 'p4-tiyu.svg', 'text': '看比赛的中文\u3000Palavras dos jogos', 'x': 1461.5, 'y': 957.4, 'ink_right': 1846.5, 'box_edge': 1862.0, 'clear': 15.5}
+   p5-qingnian.svg {'page': 'p5-qingnian.svg', 'text': 'desaparecido, sumido · biéshù 别墅 —', 'x': 556.5, 'y': 298.0, 'ink_right': 930.5, 'box_edge': 961.0, 'clear': 30.5}
+   p6-shendu.svg {'page': 'p6-shendu.svg', 'text': 'Notas｜dǎsàn 打散 — espalhar, desfazer', 'x': 556.5, 'y': 668.8, 'ink_right': 935.5, 'box_edge': 961.0, 'clear': 25.5}
+   p7-ciyu.svg {'page': 'p7-ciyu.svg', 'text': '，真好看！', 'x': 1732.7, 'y': 1372.5, 'ink_right': 1840.7, 'box_edge': 1862.0, 'clear': 21.3}
+   p8-ceyan.svg None

@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print pages: 8 page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+print P8 min sizes: [(9.75, 'Newsreader16pt-Regular', ' +'), (9.75, 'Newsreader16pt-Regular', ' + instrumentalis'), (9.75, 'Newsreader16pt-Regular', ' 16:20. — De zon gaat ongeveer'), (9.75, 'Newsreader16pt-Regular', ' 4–7'), (9.75, 'Newsreader16pt-Regular', ' = daarom'), (9.75, 'Newsreader16pt-Regular', ' = de'), (9.75, 'Newsreader16pt-Regular', ' = dooi'), (9.75, 'Newsreader16pt-Regular', ' = dooi')]
+print P8 distinct sizes: [9.75, 9.98, 10.35, 10.88, 11.25, 12.75, 13.5, 14.25, 14.62, 15.38, 15.75, 17.25, 18.0, 18.75, 34.5]
+print   p1 min font: 11.62
+print   p2 min font: 11.62
+print   p3 min font: 12.75
+print   p4 min font: 11.62
+print   p5 min font: 11.62
+print   p6 min font: 12.75
+print   p7 min font: 11.62
+print   p8 min font: 9.75
+web pages: 8 page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+web P8 min sizes: [(9.75, 'LucernaNewsreader-Regula', ' +'), (9.75, 'LucernaNewsreader-Regula', ' + instrumentalis'), (9.75, 'LucernaNewsreader-Regula', ' 16:20. — De zon gaat ongeveer'), (9.75, 'LucernaNewsreader-Regula', ' 4–7'), (9.75, 'LucernaNewsreader-Regula', ' = daarom'), (9.75, 'LucernaNewsreader-Regula', ' = de'), (9.75, 'LucernaNewsreader-Regula', ' = dooi'), (9.75, 'LucernaNewsreader-Regula', ' = dooi')]
+web P8 distinct sizes: [9.75, 9.98, 10.35, 10.88, 11.25, 12.75, 13.5, 14.25, 14.62, 15.38, 15.75, 17.25, 18.0, 18.75, 34.5]
+web   p1 min font: 11.62
+web   p2 min font: 11.62
+web   p3 min font: 12.75
+web   p4 min font: 11.62
+web   p5 min font: 11.62
+web   p6 min font: 12.75
+web   p7 min font: 11.62
+web   p8 min font: 9.75

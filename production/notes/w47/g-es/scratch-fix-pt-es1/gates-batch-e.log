@@ -1,0 +1,36 @@
+===== E1 text layer new print vs new web
+print-new == web-new
+109229 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-es1/print-new.txt
+109229 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-es1/web-new.txt
+218458 total
+===== E2 text layer new print vs OLD print
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-es1/print-new.txt /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-es1/print-old.txt differ: char 9889, line 72
+p1 identical 14129B
+p2 identical 11247B
+p3 identical 9512B
+p4 identical 9333B
+p5 identical 9467B
+p6 identical 12379B
+p7 identical 12301B
+p8 identical 30861B
+===== E3 freeze baseline core
+  OK  p5-jovens.svg core 51629e93b18598ee produced 51629e93b18598ee
+  OK  p6-aprofundamento.svg core a3c3cf38186181fc produced a3c3cf38186181fc
+  OK  p7-lingua.svg core 43b845fcba0c58be produced 43b845fcba0c58be
+  OK  p8-avaliacao.svg core a7b7a6610ed88c5b produced a7b7a6610ed88c5b
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+===== E4 freeze baseline edition (build-copy)
+  OK  p5-jovens.svg core 31241efbd9c6164e produced 31241efbd9c6164e
+  OK  p6-aprofundamento.svg core 61863d5c98965e5c produced 61863d5c98965e5c
+  OK  p7-lingua.svg core 22ce3ac7b7c5b6f0 produced 22ce3ac7b7c5b6f0
+  OK  p8-avaliacao.svg core 0febf48d39e58497 produced 0febf48d39e58497
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+===== E5 freeze diff
+p2: +41 strings / -33 strings; CJK core 210 -> edition 17; added CJK chars: 1 {'\u3000': 1}
+p3: +34 strings / -29 strings; CJK core 166 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +30 strings / -26 strings; CJK core 175 -> edition 15; added CJK chars: 1 {'\u3000': 1}
+p5: +41 strings / -48 strings; CJK core 228 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p6: +25 strings / -22 strings; CJK core 138 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p7: +52 strings / -46 strings; CJK core 401 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p8: +189 strings / -753 strings; CJK core 1285 -> edition 15; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9

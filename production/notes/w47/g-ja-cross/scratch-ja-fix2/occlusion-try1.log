@@ -1,0 +1,64 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/core-ja/svg: 62 flags {'COVER': 12, 'LINEX': 7, 'TEXTX': 43}
+  [COVER] p8-tesuto.svg 'G\u3000酉の市で' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg 'B1' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '145.' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '— 酉の市ですね。— はい、浅草へ ___ ます。' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '(A. 行き\u3000B. 行か)' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg 'B1' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '146.' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '— 熊手を ___ か。 (A. 買います\u3000B. 買った)' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg 'B1' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '147.' — 100% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg '— 二の酉はいつですか。— 11月 ___ 日です。' — 76% of ink covered by later image box [1439.5, 710.0, 1862.0, 1000.0]
+  [COVER] p8-tesuto.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1252.0, 1499.5, 1282.0]
+  [LINEX] p8-tesuto.svg 'B1' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg '149.' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg 'H\u3000書いてみましょう' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg 'B1' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg '150.' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg '写作' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [LINEX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — later line box [87.0, 1263.0, 1863.0, 1265.0] crosses ink
+  [TEXTX] p8-tesuto.svg '京都・嵐山、天龍寺の紅葉。見頃は23日ごろから' — ink overlaps '(A. 19\u3000B. 7)' by 120.2x10.6px
+  [TEXTX] p8-tesuto.svg '写真：lumoplank — CC0（Wikimedia Commons）' — ink overlaps '148.' by 50.2x13.7px
+  [TEXTX] p8-tesuto.svg '写真：lumoplank — CC0（Wikimedia Commons）' — ink overlaps 'B1' by 24.2x10.7px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps 'H\u3000書いてみましょう' by 204.2x13.8px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps '149.' by 50.2x11.5px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps '150.' by 50.2x11.5px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps '写作' by 39.0x10.0px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps 'B1' by 24.2x8.5px
+  [TEXTX] p8-tesuto.svg '例： 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日' — ink overlaps 'B1' by 24.2x8.5px
+  [TEXTX] p8-tesuto.svg 'H\u3000書いてみましょう' — ink overlaps '149.' by 50.2x18.0px
+  [TEXTX] p8-tesuto.svg 'H\u3000書いてみましょう' — ink overlaps '150.' by 50.2x18.0px
+  [TEXTX] p8-tesuto.svg 'H\u3000書いてみましょう' — ink overlaps '写作' by 39.0x16.5px
+  [TEXTX] p8-tesuto.svg 'H\u3000書いてみましょう' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-tesuto.svg 'H\u3000書いてみましょう' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-tesuto.svg '149.' — ink overlaps '150.' by 50.2x18.2px
+  [TEXTX] p8-tesuto.svg '写作' — ink overlaps 'は、酉の市・二の酉です。家族と浅草へ行って、熊手を見ます。' by 39.0x3.9px
+  [TEXTX] p8-tesuto.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-tesuto.svg '每题附一句中文简析\u3000带 ✓ 的为范文题' — ink overlaps '『私の11月の1週間』について、150〜200字' by 314.1x16.8px
+  [TEXTX] p8-tesuto.svg '每题附一句中文简析\u3000带 ✓ 的为范文题' — ink overlaps '— ありがとう。— ___ 。(A. どういたしまし' by 319.6x16.0px
+  [TEXTX] p8-tesuto.svg '每题附一句中文简析\u3000带 ✓ 的为范文题' — ink overlaps '夜の浅草は、明るくにぎやかです。金よう日は、友達と紅葉の写' by 330.8x12.1px
+  [TEXTX] p8-tesuto.svg '每题附一句中文简析\u3000带 ✓ 的为范文题' — ink overlaps '写作题（无唯一答案）；范文（154 字）见' by 298.8x10.0px
+  [TEXTX] p8-tesuto.svg '『私の11月の1週間』について、150〜200字' — ink overlaps '— ありがとう。— ___ 。(A. どういたしまし' by 402.5x19.5px
+  [TEXTX] p8-tesuto.svg '『私の11月の1週間』について、150〜200字' — ink overlaps '夜の浅草は、明るくにぎやかです。金よう日は、友達と紅葉の写' by 402.5x14.2px
+  [TEXTX] p8-tesuto.svg '『私の11月の1週間』について、150〜200字' — ink overlaps '写作题（无唯一答案）；范文（154 字）见' by 387.2x13.5px
+  [TEXTX] p8-tesuto.svg '— ありがとう。— ___ 。(A. どういたしまし' — ink overlaps '夜の浅草は、明るくにぎやかです。金よう日は、友達と紅葉の写' by 408.0x14.2px
+  [TEXTX] p8-tesuto.svg '— ありがとう。— ___ 。(A. どういたしまし' — ink overlaps '写作题（无唯一答案）；范文（154 字）见' by 387.2x15.2px
+  [TEXTX] p8-tesuto.svg '夜の浅草は、明るくにぎやかです。金よう日は、友達と紅葉の写' — ink overlaps '写作题（无唯一答案）；范文（154 字）见' by 387.2x12.2px
+  [TEXTX] p8-tesuto.svg '写作题（无唯一答案）；范文（154 字）见' — ink overlaps '真を上げます。日よう日は、テレビで相撲の千秋楽を見ます。月' by 387.2x3.5px
+  [TEXTX] p8-tesuto.svg '真を上げます。日よう日は、テレビで相撲の千秋楽を見ます。月' — ink overlaps 'で書いてください。酉の市、相撲、紅葉の中' by 410.0x8.3px
+  [TEXTX] p8-tesuto.svg '真を上げます。日よう日は、テレビで相撲の千秋楽を見ます。月' — ink overlaps 'て\u3000B. さようなら)' by 176.0x7.6px
+  [TEXTX] p8-tesuto.svg 'で書いてください。酉の市、相撲、紅葉の中' — ink overlaps 'て\u3000B. さようなら)' by 176.0x18.8px
+  [TEXTX] p8-tesuto.svg 'で書いてください。酉の市、相撲、紅葉の中' — ink overlaps '下。' by 41.0x10.8px
+  [TEXTX] p8-tesuto.svg 'で書いてください。酉の市、相撲、紅葉の中' — ink overlaps 'よう日は、勤労感謝の日で学校が休みです。11月は短いですが、' by 410.0x6.8px
+  [TEXTX] p8-tesuto.svg 'で書いてください。酉の市、相撲、紅葉の中' — ink overlaps '116. A — 丰升龙第三天输给了藤凌驾' by 216.8x6.4px
+  [TEXTX] p8-tesuto.svg 'て\u3000B. さようなら)' — ink overlaps '下。' by 41.0x13.2px
+  [TEXTX] p8-tesuto.svg 'て\u3000B. さようなら)' — ink overlaps 'よう日は、勤労感謝の日で学校が休みです。11月は短いですが、' by 176.0x9.3px
+  [TEXTX] p8-tesuto.svg 'て\u3000B. さようなら)' — ink overlaps '116. A — 丰升龙第三天输给了藤凌驾' by 176.0x8.9px
+  [TEXTX] p8-tesuto.svg '下。' — ink overlaps 'よう日は、勤労感謝の日で学校が休みです。11月は短いですが、' by 41.0x13.8px
+  [TEXTX] p8-tesuto.svg '下。' — ink overlaps '116. A — 丰升龙第三天输给了藤凌驾' by 41.0x12.8px
+  [TEXTX] p8-tesuto.svg 'よう日は、勤労感謝の日で学校が休みです。11月は短いですが、' — ink overlaps '116. A — 丰升龙第三天输给了藤凌驾' by 216.8x12.8px
+  [TEXTX] p8-tesuto.svg 'から一つ選んでください。' — ink overlaps '楽しい季節です。' by 114.8x14.0px
+  [TEXTX] p8-tesuto.svg 'から一つ選んでください。' — ink overlaps '117. A — 岚山见赏期从11月23日（周一）前后开始' by 246.0x6.7px
+  [TEXTX] p8-tesuto.svg '楽しい季節です。' — ink overlaps '117. A — 岚山见赏期从11月23日（周一）前后开始' by 114.8x3.2px

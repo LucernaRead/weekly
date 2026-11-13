@@ -1,0 +1,224 @@
+tools HEAD: b9ac29a6f3c640f408965572823e5a1ccebfd1e5
+== p8 compare (core vs each fan-out, total=150) ==
+--- it-de ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-de/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-en ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-en/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-es ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-es/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-fr ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-fr/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-ja ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-ja/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-ko ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-ko/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-nl ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-nl/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-pt ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-pt/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-ru ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-ru/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+--- it-zh-tw ---
+core    production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition production/2026-w47/2026-w47-it-zh-tw/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+exit=0
+== occlusion audit ==
+--- core-it ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/core-it/svg: 0 flags 
+exit=0
+--- 2026-w47-it-de ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-de/svg: 0 flags 
+exit=0
+--- 2026-w47-it-en ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-en/svg: 0 flags 
+exit=0
+--- 2026-w47-it-es ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-es/svg: 0 flags 
+exit=0
+--- 2026-w47-it-fr ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-fr/svg: 0 flags 
+exit=0
+--- 2026-w47-it-ja ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-ja/svg: 0 flags 
+exit=0
+--- 2026-w47-it-ko ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-ko/svg: 0 flags 
+exit=0
+--- 2026-w47-it-nl ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-nl/svg: 0 flags 
+exit=0
+--- 2026-w47-it-pt ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-pt/svg: 0 flags 
+exit=0
+--- 2026-w47-it-ru ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-ru/svg: 0 flags 
+exit=0
+--- 2026-w47-it-zh-tw ---
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-zh-tw/svg: 0 flags 
+exit=0
+== boxtitle check ==
+== 2026-w47-it-de  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-de: 22 titles, 259 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-en  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-en: 18 titles, 256 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-nl  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-nl: 22 titles, 252 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-ko  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-ko: 36 titles, 493 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-es  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-es: 20 titles, 249 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-fr  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-fr: 20 titles, 248 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-pt  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-pt: 22 titles, 247 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-ru  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-ru: 26 titles, 320 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-ja  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-ja: 24 titles, 341 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== core-it  core=self backup=-
+BOXTITLE core-it: 26 titles, 318 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 2026-w47-it-zh-tw  core=production/2026-w47/core-it backup=-
+BOXTITLE 2026-w47-it-zh-tw: 26 titles, 323 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+exit=0
+== pdf edge scan ==
+  P1: clean min_dist_pt={'top': 58.3, 'bottom': 55.8, 'left': 65.5, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN core-it: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 56.5, 'left': 65.5, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.5, 'right': 64.1}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.1}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.1}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.1}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.5, 'right': 64.1}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.4}
+EDGE_SCAN 2026-w47-it-de: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 53.6, 'left': 6.1, 'right': 5.4}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 52.2}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 62.6}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 62.6}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 62.6}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 62.6}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-en: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 53.6, 'left': 11.5, 'right': 10.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 65.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-es: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 53.6, 'left': 47.5, 'right': 47.5}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 54.0}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.8}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-fr: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 58.3, 'bottom': 55.8, 'left': 65.5, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 61.9}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-ja: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 58.7, 'bottom': 55.8, 'left': 65.5, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-ko: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 53.6, 'left': 9.0, 'right': 7.9}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 65.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-nl: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 59.8, 'bottom': 53.6, 'left': 11.5, 'right': 10.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.8}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-pt: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 57.2, 'bottom': 53.6, 'left': 65.5, 'right': 66.2}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 65.9}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-ru: 8 pages, 0 TOUCH, 0 NEAR
+  P1: clean min_dist_pt={'top': 58.3, 'bottom': 55.8, 'left': 65.5, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 64.4}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-it-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+exit=0
+tools HEAD at end: b9ac29a6f3c640f408965572823e5a1ccebfd1e5
+ALLDONE

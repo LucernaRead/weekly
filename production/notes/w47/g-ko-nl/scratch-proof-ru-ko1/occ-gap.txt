@@ -1,0 +1,43 @@
+#1 p1-pervaya.svg 'Зенит' vs '» ' | overlap 5.5x25.0 rows=14 min-light-gap=4px -> CLEAR
+#2 p1-pervaya.svg 'Динамо' vs '» — ' | overlap 5.1x25.0 rows=10 min-light-gap=4px -> CLEAR
+#3 p1-pervaya.svg 'тур' vs ': «' | overlap 4.9x26.2 rows=15 min-light-gap=4px -> CLEAR
+#4 p1-pervaya.svg 'пятница' vs '»: ' | overlap 3.2x9.8 rows=8 min-light-gap=2px -> CLEAR
+#5 p1-pervaya.svg 'третий' vs ', ' | overlap 3.4x7.5 rows=5 min-light-gap=2px -> CLEAR
+#6 p1-pervaya.svg 'субботу' vs ',' | overlap 3.2x7.5 rows=7 min-light-gap=2px -> CLEAR
+#7 p1-pervaya.svg 'Краснодар' vs '» — ' | overlap 3.1x11.0 rows=10 min-light-gap=1px -> CLEAR
+#8 p1-pervaya.svg 'Краснодаре' vs ',' | overlap 3.3x7.5 rows=7 min-light-gap=1px -> CLEAR
+#9 p1-pervaya.svg '!' vs 'истории' | overlap 3.6x13.3 rows=9 min-light-gap=2px -> CLEAR
+#10 p1-pervaya.svg 'ЦСКА' vs '? A.' | overlap 3.5x14.8 rows=5 min-light-gap=1px -> CLEAR
+#11 p2-zhizn.svg 'толерантности' vs '.' | overlap 4.1x3.0 rows=3 min-light-gap=1px -> CLEAR
+#12 p2-zhizn.svg 'студента' vs '.' | overlap 3.1x3.0 rows=3 TOUCH-ROWS=1 -> REAL-CONTACT?
+#13 p2-zhizn.svg 'студента' vs '.' | overlap 3.3x3.2 rows=3 min-light-gap=1px -> CLEAR
+#14 p2-zhizn.svg '! ' vs 'студента' | overlap 3.4x13.2 rows=11 min-light-gap=2px -> CLEAR
+#15 p2-zhizn.svg 'студенту' vs ', ' | overlap 3.5x7.5 rows=5 min-light-gap=2px -> CLEAR
+#16 p2-zhizn.svg 'спасибо' vs '.' | overlap 3.4x3.2 rows=3 min-light-gap=2px -> CLEAR
+#17 p3-kultura.svg 'биография' vs ':' | overlap 5.0x11.5 rows=12 min-light-gap=1px -> CLEAR
+#18 p3-kultura.svg 'посмотреть' vs ': ' | overlap 3.7x11.5 rows=5 min-light-gap=2px -> CLEAR
+#19 p3-kultura.svg ')' vs 'посмотреть' | overlap 3.2x13.6 rows=6 min-light-gap=2px -> CLEAR
+#20 p4-sport.svg 'место' vs '.' | overlap 3.0x3.2 rows=2 min-light-gap=2px -> CLEAR
+#21 p4-sport.svg 'Краснодар' vs '» ' | overlap 3.1x11.0 rows=11 min-light-gap=1px -> CLEAR
+#22 p4-sport.svg 'Краснодар' vs '» — ' | overlap 3.1x11.0 rows=11 min-light-gap=1px -> CLEAR
+#23 p4-sport.svg 'Россия' vs ', ' | overlap 3.1x3.0 rows=4 min-light-gap=2px -> CLEAR
+#24 p4-sport.svg 'истории' vs '; ' | overlap 3.1x13.2 rows=5 min-light-gap=3px -> CLEAR
+#25 p4-sport.svg 'Краснодар' vs '»' | overlap 3.1x11.0 rows=10 min-light-gap=1px -> CLEAR
+#26 p4-sport.svg 'ЦСКА' vs '? A.' | overlap 3.5x13.8 rows=5 min-light-gap=2px -> CLEAR
+#27 p5-molodezh.svg 'пятница' vs '»:' | overlap 5.2x15.5 rows=12 min-light-gap=3px -> CLEAR
+#28 p5-molodezh.svg 'смартфоны' vs ',' | overlap 5.2x7.5 rows=7 min-light-gap=1px -> CLEAR
+#29 p6-razbor.svg 'студента' vs ', ' | overlap 3.2x7.5 rows=7 min-light-gap=1px -> CLEAR
+#30 p6-razbor.svg 'сбивается' vs '.' | overlap 3.2x3.0 rows=3 TOUCH-ROWS=2 -> REAL-CONTACT?
+#31 p6-razbor.svg 'Планируйте' vs ': ' | overlap 3.2x11.5 rows=8 TOUCH-ROWS=3 -> REAL-CONTACT?
+#32 p6-razbor.svg '?\u3000연습용 자료' vs 'НЕДЕЛЕ' | overlap 3.3x21.8 rows=3 min-light-gap=3px -> CLEAR
+#33 p7-yazyk.svg '\u3000언어' vs 'ЯЗЫК' | overlap 3.8x35.5 rows=36 TOUCH-ROWS=35 -> REAL-CONTACT?
+#34 p7-yazyk.svg 'прессы' vs ',' | overlap 3.0x6.8 rows=4 min-light-gap=2px -> CLEAR
+#35 p7-yazyk.svg '!»' vs 'студента' | overlap 3.4x11.9 rows=9 min-light-gap=3px -> CLEAR
+#36 p7-yazyk.svg 'пресс' vs '-' | overlap 3.0x5.8 rows=2 min-light-gap=2px -> CLEAR
+#37 p7-yazyk.svg 'пятница' vs '»' | overlap 3.6x10.2 rows=6 min-light-gap=3px -> CLEAR
+#38 p7-yazyk.svg '!» — ' vs 'студента' | overlap 3.0x11.7 rows=9 TOUCH-ROWS=1 -> REAL-CONTACT?
+#39 p7-yazyk.svg 'Кипренского' vs ', 1827 ' | overlap 3.5x17.2 rows=1 min-light-gap=3px -> CLEAR
+#40 p7-yazyk.svg 'поступило' vs ': ' | overlap 3.2x10.5 rows=8 min-light-gap=2px -> CLEAR
+#41 p8-test.svg '\u3000테스트와 답' vs 'ОТВЕТЫ' | overlap 8.0x35.5 rows=36 TOUCH-ROWS=36 -> REAL-CONTACT?
+#42 p8-test.svg '\u3000답 — 면별로 정리되었습니다' vs 'ОТВЕТЫ' | overlap 4.5x19.0 rows=0 min-light-gap=1000000000px -> CLEAR
+TOTAL clear=36 real-contact=6 unresolved=0 of 42

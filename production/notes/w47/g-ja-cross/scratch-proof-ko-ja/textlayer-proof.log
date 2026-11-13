@@ -1,0 +1,9 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+print text bytes: 49499 web text bytes: 49499
+byte-identical: True
+sha print: 1ddc2d5f297d4f03 sha web: 1ddc2d5f297d4f03
+P8 spans: 351 min font: 9.975 at-min count: 158
+P8 size histogram: {34.5: 3, 13.5: 2, 15.75: 16, 14.25: 36, 18.0: 39, 10.35: 61, 11.25: 3, 14.625: 12, 17.25: 4, 15.375: 2, 10.875: 7, 11.625: 1, 18.75: 2, 9.975: 158, 12.75: 5}
+sample at-min: ['— 제1면—', '1. 1 — 11月18日はD-1', '2. 김장— キムチの季節も真っ盛り', '3. 19 — 修学能力試験は11月19日（木）です', '4. 3 — 11月16日はD-3']

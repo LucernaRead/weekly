@@ -1,0 +1,5 @@
+post-print chars=22681 post-web chars=22681 pre-print chars=22682
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={',': 1} removed={'и': 2}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK FAIL

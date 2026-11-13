@@ -1,0 +1,36 @@
+=== D1 stem font sizes (SVG units -> PDF pt = units x 0.75) ===
+P1: n=10 found=10 missing=0 stem sizes units=[22.0, 24.0] pt=[16.5, 18.0]
+P2: n=14 found=14 missing=0 stem sizes units=[18.0, 22.0] pt=[13.5, 16.5]
+P3: n=18 found=18 missing=0 stem sizes units=[21.5, 22.0, 24.0] pt=[16.125, 16.5, 18.0]
+P4: n=14 found=14 missing=0 stem sizes units=[20.5, 22.0] pt=[15.375, 16.5]
+P5: n=18 found=18 missing=0 stem sizes units=[22.0, 24.0] pt=[16.5, 18.0]
+P6: n=18 found=18 missing=0 stem sizes units=[22.0, 24.0] pt=[16.5, 18.0]
+P7: n=12 found=12 missing=0 stem sizes units=[22.0] pt=[16.5]
+P8: n=20 found=20 missing=0 stem sizes units=[20.5] pt=[15.375]
+
+=== match_set lefts (bslib4 fixed 24 units = 18.0pt) ===
+P2: match lefts at 24 units: 2
+P4: match lefts at 24 units: 2
+P8: match lefts at 24 units: 4
+
+=== D2: 'Ligaphase' in P4 ===
+  y=577 x=88: Ligaphase. Der FC Bayern gewann in
+  y=558 x=1007: 日 · torreich 进球多的 · die Ligaphase
+  total occurrences in P4 SVG text: 2 (gloss line + article = 2 expected)
+
+=== D3: 'Buße' in P6 ===
+  y=830 x=88: Buße und zum Nachdenken ein: Was
+  y=598 x=1007: 译注｜die Buße 忏悔 · das Kirchenjahr
+  y=2048 x=1440: Buße · Kirchenjahr · Friedhof ·
+  total occurrences in P6 SVG text: 3 (gloss + article + ex-D word box expected = 3)
+
+=== D5: Q42 ===
+  new stem on P3: ['Wie viel früher als der erste Advent']
+  P8 key 42: 42. A（市场比将临期早近两周开市） 
+
+=== D4: P1 lead + P7 toolbox ===
+  P7 toolbox: vor fast leeren Rängen = 
+  'vor fast leeren Rängen' still present P1: False
+  'Am Freitag (20.45 Uhr) trifft Deutschland' present P1 (must be False): False
+  P4 table has 'Serbien' (must be False): False
+  P5 plan has 'Serbien' (must be False): False

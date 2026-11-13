@@ -1,0 +1,32 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+--- flag 6 p1-pervaya.svg TEXTX 'Краснодар' box=[101.2, 1200.5, 233.7, 1224.8] detail="ink overlaps '» — ' by 3.1x11.0px"
+    a-run: [(101.2, 1218.5, 'Краснодар')]
+    b-run: [(230.6, 1218.5, '» — ')]
+    widest all-background column gaps in box x-range: [(2, 203, 204), (2, 188, 189), (2, 175, 176), (2, 146, 147), (2, 132, 133)]
+    ink x-range in band: (102, 234)
+    crop saved: flag6-crop.png
+--- flag 20 p4-sport.svg TEXTX 'Краснодар' box=[101.2, 578.7, 233.7, 602.9] detail="ink overlaps '» ' by 3.1x11.0px"
+    a-run: [(101.2, 596.6800000000001, 'Краснодар')]
+    b-run: [(230.6, 596.6800000000001, '» ')]
+    widest all-background column gaps in box x-range: [(2, 203, 204), (2, 188, 189), (2, 175, 176), (2, 146, 147), (2, 132, 133)]
+    ink x-range in band: (102, 234)
+    crop saved: flag20-crop.png
+--- flag 21 p4-sport.svg TEXTX 'Краснодар' box=[101.2, 685.6, 233.7, 709.9] detail="ink overlaps '» — ' by 3.1x11.0px"
+    a-run: [(101.2, 703.6400000000001, 'Краснодар')]
+    b-run: [(230.6, 703.6400000000001, '» — '), (1721.4, 704.2499999999999, '» — 31')]
+    widest all-background column gaps in box x-range: [(2, 203, 204), (2, 188, 189), (2, 175, 176), (2, 146, 147), (2, 132, 133)]
+    ink x-range in band: (102, 234)
+    crop saved: flag21-crop.png
+--- flag 24 p4-sport.svg TEXTX 'Краснодар' box=[1042.2, 2215.4, 1174.7, 2239.6] detail="ink overlaps '»' by 3.1x11.0px"
+    a-run: [(1042.2, 2233.3799999999997, 'Краснодар')]
+    b-run: [(1171.6, 2233.3799999999997, '»')]
+    widest all-background column gaps in box x-range: [(2, 1144, 1145), (2, 1129, 1130), (2, 1116, 1117), (2, 1087, 1088), (2, 1073, 1074)]
+    ink x-range in band: (1043, 1175)
+    crop saved: flag24-crop.png
+--- flag 38 p7-yazyk.svg TEXTX 'Кипренского' box=[440.1, 1489.8, 568.9, 1509.0] detail="ink overlaps ', 1827 ' by 3.5x17.2px"
+    a-run: [(440.1, 1504.0, 'Кипренского')]
+    b-run: [(565.4, 1504.0, ', 1827 ')]
+    widest all-background column gaps in box x-range: [(2, 523, 524), (2, 514, 515), (2, 490, 491), (1, 569, 569), (1, 556, 556)]
+    ink x-range in band: (441, 568)
+    crop saved: flag38-crop.png

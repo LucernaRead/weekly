@@ -1,0 +1,10 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/frozen_check.py /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-nl/svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-nl/build-copy/svg
+p1: before frozen=147 sha8=083e2a2a | after frozen=147 sha8=083e2a2a OK  
+p2: before frozen=163 sha8=689045ad | after frozen=163 sha8=689045ad OK  
+p3: before frozen=195 sha8=fc88f676 | after frozen=195 sha8=fc88f676 OK  
+p4: before frozen=166 sha8=df1bebf7 | after frozen=166 sha8=df1bebf7 OK  
+p5: before frozen=173 sha8=86fa4421 | after frozen=173 sha8=86fa4421 OK  
+p6: before frozen=175 sha8=2bbe05f9 | after frozen=175 sha8=2bbe05f9 OK  
+p7: before frozen=150 sha8=b7aa0771 | after frozen=150 sha8=b7aa0771 OK  
+p8: before frozen=186 sha8=57e118e7 | after frozen=186 sha8=57e118e7 OK  
+FROZEN-CHECK: PASS 8/8 identical

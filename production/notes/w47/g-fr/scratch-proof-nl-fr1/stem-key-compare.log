@@ -1,0 +1,15 @@
+text.md parsed: core stems=150 answers=150; ed stems=150 answers=150
+REG keys: match 147/150, diff [(137, '圣诞老人新闻每天 18:00 播出。', 'Le journal de Sinterklaas passe chaque jour à 18 h 00.'), (138, '前两名晋级四分之一决赛。', 'Les deux premiers passent en quart de finale.'), (150, '（开放题，范文如下）', '(tâche ouverte, texte modèle ci-dessous)')]
+REG level/page diffs: []
+text.md stems: match 148/150, diffs:
+   (139, '阿姆斯特丹的入城式是第 88 届。', "L'arrivée à Amsterdam est la 88e édition.")
+   (140, '我做一个带小诗的伪装礼物。', 'Je fais une surprise avec un petit poème.')
+text.md answers: match 148/150, diffs:
+   (137, '圣诞老人新闻每天 18:00 播出。', 'Le journal de Sinterklaas passe chaque jour à 18 h 00.')
+   (138, '前两名晋级四分之一决赛。', 'Les deux premiers passent en quart de finale.')
+core: text.md answer vs REG key diffs (excl Q150): []
+ed: text.md answer vs REG key diffs (excl Q150): []
+Q140 ed stem: 'Je fais une surprise avec un petit poème.'
+Q140 ed answer: 'Ik maak een surprise met een kort gedicht.' | core answer: 'Ik maak een surprise met een kort gedicht.'
+Q140 ed REG key: 'Ik maak een surprise met een kort gedicht.' | core REG key: 'Ik maak een surprise met een kort gedicht.'
+Q137/138 ed answers: 'Le journal de Sinterklaas passe chaque jour à 18 h 00.' 'Les deux premiers passent en quart de finale.' | core: '圣诞老人新闻每天 18:00 播出。' '前两名晋级四分之一决赛。'

@@ -1,0 +1,19 @@
+core distinct Cyrillic strings: 1767 edition: 1754
+ADDED Cyrillic strings (edition not in core): 0 distinct 0
+REMOVED Cyrillic strings (core not in edition): 15 distinct 15
+  - ('p8-test.svg', 'Билибин') x 1
+  - ('p8-test.svg', 'Билибина') x 1
+  - ('p8-test.svg', 'Зимняя') x 1
+  - ('p8-test.svg', 'Иван') x 1
+  - ('p8-test.svg', 'Ивана') x 1
+  - ('p8-test.svg', 'Иллюстрация') x 1
+  - ('p8-test.svg', 'Морозко') x 1
+  - ('p8-test.svg', 'год') x 1
+  - ('p8-test.svg', 'достояние') x 1
+  - ('p8-test.svg', 'иллюстрация') x 1
+  - ('p8-test.svg', 'к') x 1
+  - ('p8-test.svg', 'можно') x 1
+  - ('p8-test.svg', 'ноябрю') x 1
+  - ('p8-test.svg', 'общественное') x 1
+  - ('p8-test.svg', 'сказка') x 1
+edition CJK chars in visible SVG text: {'\u3000': 123}

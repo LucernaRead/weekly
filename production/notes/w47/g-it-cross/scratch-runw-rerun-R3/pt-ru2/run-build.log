@@ -1,0 +1,100 @@
+
+=== run_build 2026-11-12 01:30:23 UTC ===
+[01:30:23] build source : /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-ru
+[01:30:23] production   : /home/hatch/workspace/weekly-git/production
+[01:30:23] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2
+[01:30:23] steps        : run, render
+[01:30:23] build is inside production/
+[01:30:24] snapshot: 43 production files hashed
+[01:30:25] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/build-copy
+[01:30:25] repointed files: none
+[01:30:25] repoint: no literal production paths found — OUT/BASE are __file__-relative and resolve inside the copy
+[01:30:25] verify: copy is clean — no .py references the real production tree
+[01:30:25] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/svg (any literal /svg target)
+[01:30:25] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[01:30:25] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[01:30:25] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1826 (bottom 1828)
+P1 col3 semana ends 1212.3500000000001
+P1 col3 ends 1832.55
+  flow[P1-tv] ended col 0/0 y=2249 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2559 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1105 (bottom 1540)
+P2 col3 ends 909.0
+  flow[P2-ex] ended col 3/3 y=2323 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/1 y=714 (bottom 1560)
+P3 col3 ends 1106.0
+  flow[P3-ex] ended col 2/3 y=2408 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=458 (bottom 1080)
+P4 col3 ends 905.0
+  flow[P4-ex] ended col 2/3 y=2368 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1109 (bottom 1560)
+P5 col3 ends 1256.5
+  flow[P5-ex] ended col 2/3 y=2377 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=531 (bottom 1520)
+P6 col3 ends 1066.0
+  flow[P6-ex] ended col 3/3 y=2305 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1121 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1181 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1181 (bottom 1560)
+P7 image ends ~ 1653.4649999999997
+P7 col3 ends 1958.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=976 (bottom 1252)
+P8 exercises end y: 976.1499999999999 col: 3
+P8 image ends ~ 1247.4500000000003
+  flow[P8-keys] ended col 3/3 y=2556 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 88
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 48, 'B1': 71, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Дополни предложение': 61, 'Выбери один ответ': 62, 'Соедините слова': 12, 'Составление предложений': 7, 'Верно или неверно': 3, 'Перевод': 4, 'Письмо': 1}
+ALL DONE
+[01:30:54] run.py: exit 0
+[01:30:54] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/build-copy)
+card: p1-capa.png
+card: p2-vida.png
+card: p3-cultura.png
+card: p4-esporte.png
+card: p5-jovens.png
+card: p6-aprofundamento.png
+card: p7-lingua.png
+card: p8-avaliacao.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2/build-copy/A-Lucerna-VOL4.pdf 12916087
+[01:32:23] render.py: exit 0
+[01:32:24] integrity: production unchanged (43 files re-hashed)
+[01:32:24] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-rerun-R3/pt-ru2 (19 svg/png/pdf files)
+[01:32:24]   out: build-copy/A-Lucerna-VOL4-web.pdf
+[01:32:24]   out: build-copy/A-Lucerna-VOL4.pdf
+[01:32:24]   out: build-copy/assets/lucerna-moth.svg
+[01:32:24]   out: build-copy/cards/p1-capa.png
+[01:32:24]   out: build-copy/cards/p2-vida.png
+[01:32:24]   out: build-copy/cards/p3-cultura.png
+[01:32:24]   out: build-copy/cards/p4-esporte.png
+[01:32:24]   out: build-copy/cards/p5-jovens.png
+[01:32:24]   out: build-copy/cards/p6-aprofundamento.png
+[01:32:24]   out: build-copy/cards/p7-lingua.png
+[01:32:24]   out: build-copy/cards/p8-avaliacao.png
+[01:32:24]   out: build-copy/svg/p1-capa.svg
+[01:32:24]   out: build-copy/svg/p2-vida.svg
+[01:32:24]   out: build-copy/svg/p3-cultura.svg
+[01:32:24]   out: build-copy/svg/p4-esporte.svg
+[01:32:24]   out: build-copy/svg/p5-jovens.svg
+[01:32:24]   out: build-copy/svg/p6-aprofundamento.svg
+[01:32:24]   out: build-copy/svg/p7-lingua.svg
+[01:32:24]   out: build-copy/svg/p8-avaliacao.svg

@@ -1,0 +1,8 @@
+text.md answers parsed: 150 numbers 1..150 all present: True
+print-p8 answers parsed: 150
+common: 150 diffs: [(44, 'O dia 20 de novembro é feriado nacional. —主语 + é + 表语', 'O dia 20 de novembro é feriado nacional.'), (46, 'Palmares foi o maior quilombo do Brasil. —主语 + 动词 + 表语', 'Palmares foi o maior quilombo do Brasil.'), (80, 'Verdadeiro —对：非官方答案只用来估计表现', 'Verdadeiro'), (82, 'Verdadeiro —对：TRI 按答题连贯性与题目难度计分', 'Verdadeiro'), (133, '造句', 'Sexta é feriado nacional.'), (134, '造句', 'O Grêmio empatou por 1 a 1.'), (135, '造句', 'Quando sair o gabarito, confira as respostas.'), (136, '造句', 'O Brasil lembra Zumbi em 20 de novembro.'), (137, '翻译', '11 月 20 日周五是全国假日。'), (138, '翻译', '帕尔梅拉斯在点球大战中 5 比 4 获胜。'), (139, '翻译', 'O gabarito oficial sai até o fim de novembro.'), (140, '翻译', 'Anote as suas respostas e confira quando sair o gabarito oficial.'), (141, 'a consciência', 'c'), (142, 'o gabarito', 'd'), (143, 'o feriadão', 'b'), (144, 'o agregado', 'a'), (150, '写作', '✓ 范文见本版 H 区（88 词）')]
+only in md: []
+only in print: []
+RESPOSTAS-only print answers: 146 all 1..150: False
+key diffs (RESPOSTAS-only): [(133, '造句', 'Sexta é feriado nacional.'), (134, '造句', 'O Grêmio empatou por 1 a 1.'), (135, '造句', 'Quando sair o gabarito, confira as respostas.'), (136, '造句', 'O Brasil lembra Zumbi em 20 de novembro.'), (137, '翻译', '11 月 20 日周五是全国假日。'), (138, '翻译', '帕尔梅拉斯在点球大战中 5 比 4 获胜。'), (139, '翻译', 'O gabarito oficial sai até o fim de novembro.'), (140, '翻译', 'Anote as suas respostas e confira quando sair o gabarito oficial.'), (141, 'a consciência', 'c'), (142, 'o gabarito', 'd'), (143, 'o feriadão', 'b'), (144, 'o agregado', 'a'), (150, '写作', '✓ 范文见本版 H 区（88 词）')]
+keys found as RESPOSTAS lines: 149 /150; missing: [(150, '范文见本版 H 区（88 词）')]

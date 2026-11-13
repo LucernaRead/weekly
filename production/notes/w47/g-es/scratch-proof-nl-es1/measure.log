@@ -1,0 +1,76 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+=== A. full ink-edge scan (LEFT 88 / RIGHT 1862 / page 0-1950 / footer 2596) ===
+p1-voorpagina.svg y=92.0 x=88.0 size=17.0 ink=[87.8,79.2,136.8,92.2] LEFT+0.2 txt='VOL.4'
+p1-voorpagina.svg y=682.0 x=88.0 size=53.0 ink=[87.8,643.5,1229.2,695.5] LEFT+0.2 txt='Vanavond in Berlijn: Oranje tegen Duitsland'
+p1-voorpagina.svg y=1644.3 x=88.0 size=24.0 ink=[87.8,1626.8,415.2,1650.3] LEFT+0.2 txt='beslissing: wie wint de groep?'
+p2-leven.svg y=1929.0 x=88.0 size=25.0 ink=[87.8,1910.2,269.8,1929.2] LEFT+0.2 txt='A\u3000BEGRIJPEN'
+p3-cultuur.svg y=310.1 x=88.0 size=32.0 ink=[87.8,286.8,218.2,318.1] LEFT+0.2 txt='journaal'
+p3-cultuur.svg y=1144.0 x=88.0 size=24.0 ink=[87.8,1126.5,509.5,1150.0] LEFT+0.2 txt='begon de stoet te paard bij de Stopera,'
+p3-cultuur.svg y=1701.0 x=88.0 size=25.0 ink=[87.8,1682.2,269.8,1701.2] LEFT+0.2 txt='A\u3000BEGRIJPEN'
+p3-cultuur.svg y=2368.9 x=88.0 size=20.0 ink=[87.8,2354.4,434.0,2369.2] LEFT+0.2 txt='boekwinkel · B. de bibliotheek · C. het'
+p4-sport.svg y=1082.8 x=88.0 size=24.0 ink=[87.8,1065.3,468.8,1088.8] LEFT+0.2 txt='bij Griekenland en 2–1 thuis tegen'
+p4-sport.svg y=1701.0 x=88.0 size=25.0 ink=[87.8,1682.2,269.8,1701.2] LEFT+0.2 txt='A\u3000BEGRIJPEN'
+p5-jongeren.svg y=1701.0 x=88.0 size=25.0 ink=[87.8,1682.2,269.8,1701.2] LEFT+0.2 txt='A\u3000BEGRIJPEN'
+p5-jongeren.svg y=2368.9 x=88.0 size=20.0 ink=[87.8,2354.4,286.2,2373.7] LEFT+0.2 txt='boek · C. een lampion'
+p6-verdieping.svg y=242.0 x=1461.5 size=24.0 ink=[1461.5,217.8,1862.5,242.2] RIGHT+0.5 txt='DE GRAFIEK\u3000DATOS DE PRÁCTICA'
+p6-verdieping.svg y=1701.0 x=88.0 size=25.0 ink=[87.8,1682.2,340.8,1701.2] LEFT+0.2 txt='A\u3000LEES DE GRAFIEK'
+p7-taal.svg y=224.0 x=88.0 size=24.0 ink=[87.8,206.0,373.5,224.2] LEFT+0.2 txt='A2\u3000VOETBALWOORDEN'
+p8-toets.svg y=201.0 x=88.0 size=21.0 ink=[87.8,185.2,322.8,201.2] LEFT+0.2 txt='A\u3000VUL DE KRONIEK IN'
+p8-toets.svg y=1302.0 x=88.0 size=25.0 ink=[87.8,1278.8,1060.8,1308.2] LEFT+0.2 txt='ANTWOORDEN\u3000SOLUCIONES — ordenadas por página: buscad vuestro'
+p8-toets.svg y=1302.0 x=1120.8 size=19.5 ink=[1120.8,1286.2,1862.0,1306.8] RIGHT+0.0 txt='Cada respuesta tiene una nota breve en español\u3000✓ marca el ej'
+A total flags: 18
+=== B. cream-box titles (ink right vs box right, ink top vs box top) ===
+p1-voorpagina.svg box(x=538 y=1411 right=961): title ink_right=926.0 MARGIN=+35.0px ink_top=1430.4 box_top=1411 OVER_TOP=-19.8px txt='DE WEEK IN CIJFERS\u3000EN CIFRAS'
+p1-voorpagina.svg box(x=1440 y=588 right=1862): title ink_right=1613.2 MARGIN=+248.8px ink_top=608.0 box_top=588 OVER_TOP=-20.0px txt='DEZE WEEK'
+p1-voorpagina.svg box(x=1440 y=1312 right=1862): title ink_right=1831.5 MARGIN=+30.5px ink_top=1327.8 box_top=1312 OVER_TOP=-15.8px txt='IN DEZE EDITIE\u3000ESTE NÚMERO'
+p1-voorpagina.svg box(x=1440 y=1874 right=1862): title ink_right=1750.8 MARGIN=+111.2px ink_top=1896.0 box_top=1874 OVER_TOP=-22.0px txt='IN HET KORT\u3000EN BREVE'
+p2-leven.svg box(x=538 y=827 right=961): title ink_right=940.2 MARGIN=+20.8px ink_top=847.0 box_top=827 OVER_TOP=-19.8px txt='ZO ONTHOUD JE HET\u3000RECUERDA'
+p2-leven.svg box(x=538 y=1054 right=961): title ink_right=915.5 MARGIN=+45.5px ink_top=1076.1 box_top=1054 OVER_TOP=-22.0px txt='Nota — de schoen zapato · de wortel'
+p2-leven.svg box(x=1440 y=645 right=1862): title ink_right=1617.8 MARGIN=+244.2px ink_top=668.0 box_top=645 OVER_TOP=-23.2px txt='WIST JE DAT?'
+p2-leven.svg box(x=1440 y=1022 right=1862): title ink_right=1645.0 MARGIN=+217.0px ink_top=1040.0 box_top=1022 OVER_TOP=-17.8px txt='EN JIJ?\u3000¿Y TÚ?'
+p2-leven.svg box(x=88 y=1618 right=510): title ink_right=257.8 MARGIN=+252.8px ink_top=1652.8 box_top=1618 OVER_TOP=-34.8px txt='SCHOEN'
+p2-leven.svg box(x=538 y=1618 right=961): title ink_right=713.2 MARGIN=+247.8px ink_top=1652.8 box_top=1618 OVER_TOP=-34.8px txt='WORTEL'
+p2-leven.svg box(x=989 y=1618 right=1412): title ink_right=1144.5 MARGIN=+267.0px ink_top=1652.8 box_top=1618 OVER_TOP=-34.8px txt='LIJSTJE'
+p2-leven.svg box(x=1440 y=1618 right=1862): title ink_right=1625.0 MARGIN=+237.0px ink_top=1652.8 box_top=1618 OVER_TOP=-34.8px txt='GEDICHT'
+p3-cultuur.svg box(x=538 y=1153 right=961): title ink_right=940.8 MARGIN=+20.2px ink_top=1174.8 box_top=1153 OVER_TOP=-21.8px txt='Nota — de vestingstad ciudad fortificada'
+p3-cultuur.svg box(x=1440 y=597 right=1862): title ink_right=1758.2 MARGIN=+103.8px ink_top=621.1 box_top=597 OVER_TOP=-24.0px txt='SINTERKLAAS IN CIJFERS'
+p4-sport.svg box(x=538 y=903 right=961): title ink_right=941.5 MARGIN=+19.5px ink_top=924.7 box_top=903 OVER_TOP=-22.0px txt='Nota — de groepswinst victoria de grupo'
+p4-sport.svg box(x=1440 y=592 right=1862): title ink_right=1671.0 MARGIN=+191.0px ink_top=615.6 box_top=592 OVER_TOP=-24.0px txt='HET PROGRAMMA'
+p5-jongeren.svg box(x=538 y=647 right=961): title ink_right=806.0 MARGIN=+155.0px ink_top=667.1 box_top=647 OVER_TOP=-19.8px txt='ZO KIJK JE ROBINSON'
+p5-jongeren.svg box(x=538 y=1145 right=961): title ink_right=929.0 MARGIN=+32.0px ink_top=1167.2 box_top=1145 OVER_TOP=-21.8px txt='Nota — de surprise regalo disfrazado ·'
+p5-jongeren.svg box(x=1440 y=200 right=1862): title ink_right=1726.5 MARGIN=+135.5px ink_top=224.0 box_top=200 OVER_TOP=-24.0px txt='JONGEREN IN CIJFERS'
+p5-jongeren.svg box(x=1440 y=632 right=1862): title ink_right=1645.0 MARGIN=+217.0px ink_top=649.8 box_top=632 OVER_TOP=-17.8px txt='EN JIJ?\u3000¿Y TÚ?'
+p6-verdieping.svg box(x=538 y=757 right=961): title ink_right=932.0 MARGIN=+29.0px ink_top=778.8 box_top=757 OVER_TOP=-22.0px txt='Nota — het verlanglijstje lista de deseos'
+p6-verdieping.svg box(x=1440 y=200 right=1862): title ink_right=1862.5 MARGIN=-0.5px ink_top=217.8 box_top=200 OVER_TOP=-17.8px txt='DE GRAFIEK\u3000DATOS DE PRÁCTICA'
+p6-verdieping.svg box(x=1440 y=743 right=1862): title ink_right=1758.5 MARGIN=+103.5px ink_top=763.8 box_top=743 OVER_TOP=-20.8px txt='VOOR OF TEGEN?\u3000¿SÍ O NO?'
+p7-taal.svg box(x=1440 y=200 right=1862): title ink_right=1813.5 MARGIN=+48.5px ink_top=218.8 box_top=200 OVER_TOP=-18.8px txt='PAS OP!\u3000CLÍNICA DE ERRORES'
+p7-taal.svg box(x=1440 y=1030 right=1862): title ink_right=1840.2 MARGIN=+21.8px ink_top=1054.2 box_top=1030 OVER_TOP=-24.8px txt='HET WOORD\u3000PALABRA SEMANAL'
+p7-taal.svg box(x=1440 y=1358 right=1862): title ink_right=1701.8 MARGIN=+160.2px ink_top=1383.2 box_top=1358 OVER_TOP=-24.8px txt='BRIEVEN VAN LEZERS'
+=== C. cream-box bottom containment (ink bottom vs box bottom) ===
+p2-leven.svg box(x=1440 y=1022 bottom=1447.8): worst ink_bottom=1444.9 CLEAR=+2.8px ok txt='neerlandés y envíalas a la redacción.'
+p5-jongeren.svg box(x=1440 y=632 bottom=996.5): worst ink_bottom=993.6 CLEAR=+2.9px ok txt='neerlandés y envíalas.'
+p6-verdieping.svg box(x=1440 y=200 bottom=717.0): worst ink_bottom=712.8 CLEAR=+4.2px ok txt='jóvenes)'
+C boxes with clearance < 5px: 3 (others >= 5px, not listed)
+=== D. D11 P4 HET PROGRAMMA box ===
+title ink: right=1671.0 box_right=1862.0 MARGIN=+191.0px
+last line ink: x=[1461.5,1563.0] y=[1194.2,1209.7] baseline=1209.4899999999996 box_bottom=1229.6 CLEAR=+19.86px
+--- rendered-card pixel strips (cards from rebuilt 8/8-identical SVGs) ---
+P4 below-box strip y1229.6-1240 (should be 0): dark pixels=0
+P4 inside-box strip y1200-1229.6 (last line ink, sanity): dark pixels=174 rightmost x=1562.0
+P6 title row y700-800 x1440-1950 (VOOR OF TEGEN row): dark pixels=1424 rightmost x=1758.0
+P7 title row y1040-1100 x1440-1950 (HET WOORD row): dark pixels=2057 rightmost x=1840.0
+P2 c-item row y2210-2260 x1440-1950: dark pixels=587 rightmost x=1812.0
+--- delivered print PDF raster (PyMuPDF, 150dpi) ---
+P4 print-PDF below-box strip: dark pixels=0
+P6 print-PDF title row: dark pixels=4318 rightmost x=1758.0
+P7 print-PDF title row: dark pixels=6135 rightmost x=1839.9
+=== E. suspect items verbatim ===
+p6-verdieping.svg y=477.88 size=25.0 fam=Noto Sans CJK SC ink=[538.2,458.4,904.8,478.1] txt='VOOR OF TEGEN EEN LIJSTJE?'
+p6-verdieping.svg y=785.00 size=21.0 fam=Noto Sans CJK SC ink=[1461.2,763.8,1758.5,789.5] txt='VOOR OF TEGEN?\u3000¿SÍ O NO?'
+p7-taal.svg y=1071.50 size=23.0 fam=Noto Sans CJK SC ink=[1461.5,1054.2,1840.2,1071.8] txt='HET WOORD\u3000PALABRA SEMANAL'
+p6-verdieping.svg y=242.00 size=24.0 fam=Noto Sans CJK SC ink=[1461.5,217.8,1862.5,242.2] txt='DE GRAFIEK\u3000DATOS DE PRÁCTICA'
+p6-verdieping.svg y=1701.00 size=25.0 fam=Noto Sans CJK SC ink=[87.8,1682.2,340.8,1701.2] txt='A\u3000LEES DE GRAFIEK'
+p2-leven.svg y=1440.16 size=20.0 fam=Noto Sans CJK SC ink=[1461.5,1422.4,1801.0,1444.9] txt='neerlandés y envíalas a la redacción.'
+p5-jongeren.svg y=988.85 size=20.0 fam=Noto Sans CJK SC ink=[1461.5,971.1,1667.2,993.6] txt='neerlandés y envíalas.'
+p6-verdieping.svg y=708.28 size=18.5 fam=Noto Sans CJK SC ink=[1460.5,692.0,1534.0,712.8] txt='jóvenes)'

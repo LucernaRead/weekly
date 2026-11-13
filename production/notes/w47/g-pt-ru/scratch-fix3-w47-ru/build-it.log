@@ -1,0 +1,44 @@
+===== it 2026-11-12T19:55:23Z =====
+run.py rc=0
+TOTAL 150
+render.py rc=0
+print PDF mtime=2026-11-12 19:58:43.716852910 +0000 size=20877136
+dc1e476168578bd2e595a10df661a9f3b7b52a7aa56f7e79bbc84538567a7240  Lucerna-VOL4-ru-it.pdf
+ru_textmd.py rc=0
+WROTE /tmp/fix3-final/2026-w47-ru-it.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -32,7 +32,7 @@
+ 
+ 20 — ноября возвращается чемпионат: 15-й тур
+ 
+-## СЕЙЧАС ВЫ · TOCCA A VOI
++## СЕЙЧАС ВЫ · TOCCA A TE
+ 
+ 1. [A2 · Completare] 14-й тур завершился ___ ноября. — key: 8 (La 14ª giornata si è conclusa l'8 novembre)
+ 2. [A2 · Completare] «Зенит» и «Динамо» набрали по ___ очку. — key: 31 (Zenit e Dinamo hanno 31 punti ciascuno)
+backfill rc=0
+text.md landed:
+a46c6da6426253c5e52c6124c10976ca5aa955d7f2db438995002b4e933f1434  2026-w47-ru-it.text.md
+text.md size=63970
+35c35
+< ## СЕЙЧАС ВЫ · TOCCA A VOI
+---
+> ## СЕЙЧАС ВЫ · TOCCA A TE
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 29276 bytes
+WROTE Lucerna-VOL4-ru-it-web.pdf: 3330610 bytes, 57850 text bytes
+web PDF mtime=2026-11-12 20:01:37.333855734 +0000 size=3330610
+6ea69cc772a60f6f9a733862f0ce8f2c38836bba2c030208df376f5f5c8f3077  Lucerna-VOL4-ru-it-web.pdf
+SVG diff vs pre:
+p1-pervaya.svg: FAILED
+p2-zhizn.svg: OK
+p3-kultura.svg: OK
+p4-sport.svg: OK
+p5-molodezh.svg: OK
+p6-razbor.svg: OK
+p7-yazyk.svg: OK
+p8-test.svg: OK
+sha256sum: WARNING: 1 computed checksum did NOT match
+BUILD DONE it 2026-11-12T20:01:38Z

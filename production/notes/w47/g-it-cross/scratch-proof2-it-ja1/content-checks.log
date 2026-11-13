@@ -1,0 +1,16 @@
+model words: 99 | in 80-100: True
+FRASI 2x :: La Lazio resta in vetta
+FRASI 2x :: ventiquattro gol in dieci partite
+FRASI 2x :: il ponte votivo sul Canal Grande
+FRASI 2x :: oltre centocinquanta figuranti in costumi rinascimen
+FRASI 2x :: la squadra di Gattuso è ancora imbattuta dopo 11 gio
+FRASI 2x :: sette giorni di libri, ragioni e follie
+FRASI 2x :: il testo può ancora cambiare
+FRASI 2x :: approvato dal governo non vuol dire già legge
+exercise stems numbered: 138 min 1 max 150 continuous 1-150: False
+answers numbered: 150 continuous 1-150: True
+match P2 keys: ['c', 'b', 'd', 'a']
+match P4 keys: ['d', 'b', 'c', 'a']
+match P8 keys: ['d', 'c', 'b', 'a']
+title nodes (font-size>=30px): 52
+font-size histogram: {13.0: 580, 14.0: 8, 15.5: 80, 16.0: 12, 16.5: 8, 17.0: 19, 17.5: 3, 18.0: 47, 18.5: 2, 19.0: 186, 19.5: 88, 20.0: 170, 20.5: 137, 21.0: 71, 21.5: 102, 22.0: 11, 22.5: 10, 23.0: 25, 23.5: 23, 24.0: 167, 25.0: 251, 26.0: 3, 27.0: 4, 28.0: 6, 36.0: 20, 37.0: 15, 44.0: 1, 46.0: 15, 196.0: 1}

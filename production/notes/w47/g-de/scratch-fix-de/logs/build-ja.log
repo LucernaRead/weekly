@@ -1,0 +1,234 @@
+--- build.log: exit 0
+ow[P3-main] ended col 2/2 y=916 (bottom 1560)
+P3 image at 936.13 ends 1407.8800000000006
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1070.95
+P3 col3 undsie ends 1417.0700000000002
+P3 col3 ends 1612.66
+  flow[P3-ex] ended col 3/3 y=2333 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=677 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=996 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1325.48
+P5 col3 image ends 1749.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=747 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1206.02
+  flow[P6-ex] ended col 3/3 y=2496 (bottom 2560)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1342 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1508.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-battery] ended col 3/3 y=1367 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1367.4450000000002 | image ends 1591.2450000000003
+  flow[P8-keys] ended col 3/3 y=2513 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+ALL DONE
+
+[PASS] run.py exit 0 
+[PASS] no FLOW OVERFLOW 
+[PASS] no HEAD TOO WIDE 
+[PASS] P8 battery printed 
+P8 battery ends col3: 1367.4450000000002
+[PASS] P8 image height >= 60 height=140
+[PASS] TOTAL exercises 150 
+--- render.log: exit 0
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p1-front.png 1373271
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p2-leben.png 855055
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p3-kultur.png 1365355
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p4-sport.png 1220493
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p5-jugend.png 1234766
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p6-vertiefung.png 923964
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p7-sprache.png 984330
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/cards/p8-uebungen.png 1614353
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/Die-Lucerna-VOL4-de-ja.pdf 15960325
+
+[PASS] render.py exit 0 
+[PASS] print PDF exists 
+print PDF: 15960325 bytes sha 1b91ff1f9ca06577558328852377cc1928b88c7d501521cbb5c91687f576a0c0
+--- webpdf.log: exit 0
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/Die-Lucerna-VOL4-de-ja-web.pdf: 1935367 bytes, 52977 text bytes
+8 pages from /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg
+483 distinct chars; families: ['Newsreader', 'Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 21560 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 21596 bytes
+  font LucernaNewsreader-Italic: 23908 bytes
+  font LucernaNotoSansCJKJP-Regular: 190776 bytes
+  font LucernaNotoSansCJKJP-Bold: 195196 bytes
+  font LucernaNotoSerifCJKJP-Regular: 276536 bytes
+  font LucernaNotoSerifCJKJP-Bold: 279080 bytes
+  font LucernaUnifrakturMaguntia-Regular: 32852 bytes
+
+[PASS] webpdf exit 0 
+[PASS] web PDF < 7MB 
+web PDF: 1935367 bytes sha dfb0c403f2f458c37d54a23a247dbdce6c4697941d57e24dac9cc1615e67a6a9
+--- verify.log: exit 0
+e stripped chars: 40 (limit 56)
+p1-front.svg footer: 0 pageline: []
+p2-leben.svg footer: 0 pageline: []
+p3-kultur.svg footer: 0 pageline: []
+p4-sport.svg footer: 0 pageline: []
+p5-jugend.svg footer: 0 pageline: []
+p6-vertiefung.svg footer: 0 pageline: []
+p7-sprache.svg footer: 0 pageline: []
+p8-uebungen.svg footer: 0 pageline: []
+P1 masthead: True subtitle slot: True week header: True
+  topband VOL. 4　VIERTE AUSGABE            88..326
+  topband WÖCHENTLICH AUF DEUTSCH　週刊　ドイツ   713..1237
+  topband WOCHE VOM 16. BIS 22. NOVEMBER   1505..1862
+P1 top band: no same-baseline overlap
+P6 olive bars (chart widths, expect 748/561/391): ['748', '561', '391']
+  label 'Bundesliga und Nations League' ink ends x=425 (bars start 558; CN labels at 448)
+  label 'Weihnachtsmärkte' ink ends x=294 (bars start 558; CN labels at 448)
+  label 'Stille Tage' ink ends x=200 (bars start 558; CN labels at 448)
+MUSTER label: MISSING
+MUSTER words (whitespace split): 84
+p1-front.svg min SVG font: 15.5 -> PDF pt: 11.625
+p2-leben.svg min SVG font: 17.0 -> PDF pt: 12.75
+p3-kultur.svg min SVG font: 15.5 -> PDF pt: 11.625
+p4-sport.svg min SVG font: 15.5 -> PDF pt: 11.625
+p5-jugend.svg min SVG font: 15.5 -> PDF pt: 11.625
+p6-vertiefung.svg min SVG font: 17.0 -> PDF pt: 12.75
+p7-sprache.svg min SVG font: 15.5 -> PDF pt: 11.625
+p8-uebungen.svg min SVG font: 13.25 -> PDF pt: 9.9375
+P8 answers floor check (>= 9.75pt): True
+chart sum 44+33+23 = 100
+18 Nov + 11 days = True
+15 Nov + 7 days = True
+16 Nov + 6 days = True
+
+[PASS] verify.py exit 0 
+[PASS] verify TOTAL 150 
+[PASS] verify numbering continuous 
+[PASS] verify SVGs byte-identical after re-run 
+[PASS] verify style audit True 
+[PASS] verify verbatim OK 
+[PASS] verify P8 answers floor 
+[PASS] forbidden Le Lucerna absent stale/forbidden 'Le Lucerna' on pages: []
+[PASS] forbidden The Lucerna absent stale/forbidden 'The Lucerna' on pages: []
+[PASS] forbidden VOL.3 absent stale/forbidden 'VOL.3' on pages: []
+[PASS] forbidden VOL.2 absent stale/forbidden 'VOL.2' on pages: []
+[PASS] forbidden Geisterspiel absent stale/forbidden 'Geisterspiel' on pages: []
+[PASS] forbidden Karneval absent stale/forbidden 'Karneval' on pages: []
+[PASS] forbidden Volkstrauertag absent stale/forbidden 'Volkstrauertag' on pages: []
+[PASS] forbidden NFL absent stale/forbidden 'NFL' on pages: []
+[PASS] forbidden American Football absent stale/forbidden 'American Football' on pages: []
+[PASS] forbidden 11.11 absent stale/forbidden '11.11' on pages: []
+[PASS] forbidden Tankrabatt absent stale/forbidden 'Tankrabatt' on pages: []
+[PASS] forbidden 14,04 absent stale/forbidden '14,04' on pages: []
+[PASS] forbidden Hart aber fair absent stale/forbidden 'Hart aber fair' on pages: []
+[PASS] forbidden Klassiker absent stale/forbidden 'Klassiker' on pages: []
+[PASS] forbidden Allerheiligen absent stale/forbidden 'Allerheiligen' on pages: []
+[PASS] forbidden 8,35 absent stale/forbidden '8,35' on pages: []
+[PASS] forbidden ZEW absent stale/forbidden 'ZEW' on pages: []
+--- occlusion.log: exit 0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg: 0 flags 
+
+[PASS] occlusion exit 0 
+[PASS] occlusion 0 flags selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg: 0 flags 
+
+--- p8extract.log: exit 0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+
+[PASS] p8 extract exit 0 
+[PASS] p8 extract 150/150  111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- p8compare.log: exit 0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+
+[PASS] p8 compare exit 0 
+p8 compare: core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+[PASS] p8 compare CLEAN core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+[PASS] p8 keydiff only translation items [137,138,139,150] core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+--- freeze.log: exit 0
+e 221 -> edition 293; added CJK chars: 229 {'\u3000': 1, 'い': 4, 'め': 2, 'と': 3, 'り': 3, 'の': 7, 'プ': 1, 'ロ': 1, 'テ': 2, 'ス': 2}; added Latin strings: 8 (unexpected 8)
+p3: +62 strings / -59 strings; CJK core 208 -> edition 354; added CJK chars: 312 {'\u3000': 1, '文': 5, 'ク': 7, 'リ': 8, 'ス': 11, 'マ': 5, 'と': 1, 'か': 3, 'な': 2, '週': 2}; added Latin strings: 9 (unexpected 9)
+p4: +38 strings / -41 strings; CJK core 174 -> edition 224; added CJK chars: 180 {'\u3000': 1, 'ス': 3, 'ポ': 1, 'ー': 10, 'ツ': 4, '結': 2, 'と': 3, 'リ': 3, 'グ': 2, '復': 1}; added Latin strings: 5 (unexpected 5)
+p5: +64 strings / -62 strings; CJK core 210 -> edition 323; added CJK chars: 283 {'\u3000': 1, '若': 1, '者': 1, 'ア': 3, 'ド': 6, 'ベ': 4, 'ン': 6, 'ト': 11, 'カ': 3, 'レ': 5}; added Latin strings: 8 (unexpected 8)
+p6: +53 strings / -56 strings; CJK core 243 -> edition 307; added CJK chars: 237 {'\u3000': 1, '掘': 1, 'り': 3, '静': 1, 'か': 6, 'な': 4, '週': 3, '間': 2, 'と': 1, '家': 2}; added Latin strings: 8 (unexpected 8)
+p7: +87 strings / -84 strings; CJK core 434 -> edition 523; added CJK chars: 412 {'\u3000': 1, '言': 1, '語': 5, '今': 5, '週': 7, 'の': 26, '文': 1, 'と': 4, '間': 7, '違': 4}; added Latin strings: 6 (unexpected 6)
+p8: +515 strings / -530 strings; CJK core 1434 -> edition 1709; added CJK chars: 1112 {'\u3000': 1, '練': 1, '習': 1, 'と': 8, 'え': 4, '最': 7, '終': 1, 'テ': 5, 'ス': 19, 'ト': 20}; added Latin strings: 100 (unexpected 100)
+TOTAL added CJK characters: 3008
+TOTAL added Latin strings: 154 (unexpected 154)
+
+[PASS] freeze diff exit 0 
+freeze diff: , 'ド': 6, 'ベ': 4, 'ン': 6, 'ト': 11, 'カ': 3, 'レ': 5}; added Latin strings: 8 (unexpected 8)
+p6: +53 strings / -56 strings; CJK core 243 -> edition 307; added CJK chars: 237 {'\u3000': 1, '掘': 1, 'り': 3, '静': 1, 'か': 6, 'な': 4, '週': 3, '間': 2, 'と': 1, '家': 2}; added Latin strings: 8 (unexpected 8)
+p7: +87 strings / -84 strings; CJK core 434 -> edition 523; added CJK chars: 412 {'\u3000': 1, '言': 1, '語': 5, '今': 5, '週': 7, 'の': 26, '文': 1, 'と': 4, '間': 7, '違': 4}; added Latin strings: 6 (unexpected 6)
+p8: +515 strings / -530 strings; CJK core 1434 -> edition 1709; added CJK chars: 1112 {'\u3000': 1, '練': 1, '習': 1, 'と': 8, 'え': 4, '最': 7, '終': 1, 'テ': 5, 'ス': 19, 'ト': 20}; added Latin strings: 100 (unexpected 100)
+TOTAL added CJK characters: 3008
+TOTAL added Latin strings: 154 (unexpected 154)
+[PASS] web text layer non-empty 52977 bytes
+[PASS] print/web default word multiset identical print 52977B web 52977B
+[PASS] print/web raw normalised identical print 51911B web 51911B
+chips per page: {1: 10, 2: 15, 3: 18, 4: 15, 5: 18, 6: 18, 7: 12, 8: 35} TOTAL: 141 | P8 by level: {'A2': 22, 'B1': 13}
+[PASS] chips per page P1-7 = 10/15/18/15/18/18/12 {1: 10, 2: 15, 3: 18, 4: 15, 5: 18, 6: 18, 7: 12, 8: 35}
+[PASS] P8 chips 35 
+[PASS] P8 chips by level A2 22 / B1 13 / B2 0 {'A2': 22, 'B1': 13}
+[PASS] total chips 141 
+--- export.log: exit 0
+P1 saved, exercises so far: 10
+P2 col3 box1 ends 435.59000000000003
+P2 col3 box2 ends 697.1800000000001
+P2 col3 box3 ends 893.71
+P2 col3 box4 ends 1155.3
+P2 saved, exercises so far: 28
+P3 image at 1020 ends 1443
+P3 col3 facts ends 435.59000000000003
+P3 col3 vocab ends 887.77
+P3 col3 undsie ends 1084.3
+P3 col3 ends 1218.83
+P3 saved, exercises so far: 46
+P4 col3 ends 966.53
+P4 saved, exercises so far: 64
+P5 col3 facts ends 435.59000000000003
+P5 col3 vocab ends 887.77
+P5 col3 undsie ends 1084.3
+P5 col3 image ends 1511.3
+P5 saved, exercises so far: 82
+P6 col3 numbers ends 602.66
+P6 col3 ends 798.48
+P6 saved, exercises so far: 100
+P7 image ends 1266 (A2 flow ended 1000 )
+P7 col3 ends 1215.0
+P7 saved, exercises so far: 112
+P8 image height 140
+P8 battery ends col3 1000 | image ends 1252
+P8 saved, TOTAL exercises: 150
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ja/2026-w47-de-ja.text.md chars: 43113 entries: 591 exercises: 150
+
+[PASS] export exit 0 
+[PASS] text.md exists non-empty 
+text.md: 52118 bytes sha 15aa6bc8921b179c0d1e98201017822d4a6955c5d9ed026587bf5af89dd2912a
+P8 min span size (PyMuPDF): 9.94pt
+[PASS] P8 min font >= 9.75pt 9.94pt
+
+ALL GATES PASS 2026-w47-de-ja

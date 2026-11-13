@@ -1,0 +1,300 @@
+Q  1 [A2] P1 完成句子: 1. 半决赛，BLG 3比1打赢了___。 [Vul de zin in]
+      KEY='T1' NOTE='BLG versloeg T1 met 3-1 in de halve finale.' EXTRACTED='T1' match=True
+Q  2 [A2] P1 完成句子: 2. 决赛在11月___日凌晨3点。 [Vul de zin in]
+      KEY='15' NOTE='De S16-finale is op 15 nov., Peking-tijd.' EXTRACTED='15' match=True
+Q  3 [A2] P1 完成句子: 3. 决赛在纽约___中心打。 [Vul de zin in]
+      KEY='巴克莱' NOTE='De finale is in het Barclays Center, Brooklyn, New York.' EXTRACTED='巴克莱' match=True
+Q  4 [A2] P1 完成句子: 4. BLG一路打赢了___支韩国队。 [Vul de zin in]
+      KEY='三' NOTE='BLG versloeg drie Koreaanse teams op rij.' EXTRACTED='三' match=True
+Q  5 [A2] P1 完成句子: 5. 小雪在11月___日。 [Vul de zin in]
+      KEY='22' NOTE='Kleine Sneeuw (小雪) is op 22 nov.' EXTRACTED='22' match=True
+Q  6 [A2] P1 完成句子: 6. 电影《试探》在11月___日上映。 [Vul de zin in]
+      KEY='21' NOTE='De film 《试探》 gaat in première op 21 nov.' EXTRACTED='21' match=True
+Q  7 [A2] P1 单选: 7. 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. LYON
+      KEY='A' NOTE='BLG versloeg T1 met 3-1 in de halve finale.' EXTRACTED='A' match=True
+Q  8 [A2] P1 单选: 8. 决赛在北京时间几点？ A. 凌晨3点 · B. 早上6点 · C. 晚上8点
+      KEY='A' NOTE='De S16-finale: 15 nov., 03:00 Peking-tijd.' EXTRACTED='A' match=True
+Q  9 [A2] P1 单选: 9. 包裹高峰是哪几天？ A. 11月11日到13日 · B. 11月12日到15日 · C. 11月21日到22日
+      KEY='A' NOTE='De pakketpiek is van 11–13 nov.' EXTRACTED='A' match=True
+Q 10 [A2] P1 单选: 10. 小雪在哪天？ A. 11月21日 · B. 11月22日 · C. 11月15日
+      KEY='B' NOTE='Kleine Sneeuw (小雪) is op 22 nov.' EXTRACTED='B' match=True
+Q 11 [A2] P2 单选: 11. 去年双11，22天一共揽收多少件？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+      KEY='A' NOTE='Double 11 vorig jaar: 139,38 miljard pakketten in 22 dagen.' EXTRACTED='A' match=True
+Q 12 [A2] P2 单选: 12. 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+      KEY='A' NOTE='De bezorgpiek is van 12–15 nov.' EXTRACTED='A' match=True
+Q 13 [A2] P2 单选: 13. 价保是怎么回事？ A. 自动就有 · B. 要先看规则，再自己申请 · C. 只有11月11日有
+      KEY='B' NOTE='Prijsbescherming gaat niet vanzelf: lees de regels en vraag hem aan.' EXTRACTED='B' match=True
+Q 14 [A2] P2 单选: 14. 包裹到了，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+      KEY='B' NOTE='Open het pakket en controleer het vóór de ontvangst.' EXTRACTED='B' match=True
+Q 15 [A2] P2 单选: 15. 高铁急送最快多久？ A. 4小时 · B. 1天 · C. 3天
+      KEY='A' NOTE='Hogesnelheidsexpres: in 4 uur van deur tot deur.' EXTRACTED='A' match=True
+Q 16 [A2] P2 完成句子: 16. 我的___到了，去快递柜拿。 [Vul in]
+      KEY='包裹' NOTE='bāoguǒ — een pakket.' EXTRACTED='包裹' match=True
+Q 17 [A2] P2 完成句子: 17. 东西不合适，可以___。 [Vul in]
+      KEY='退换货' NOTE='tuìhuànhuò — retour en ruil; stuur het snel terug.' EXTRACTED='退换货' match=True
+Q 18 [A2] P2 完成句子: 18. 价保不是自动的，要自己___。 [Vul in]
+      KEY='申请' NOTE='shēnqǐng — prijsbescherming niet vanzelf; vraag hem aan.' EXTRACTED='申请' match=True
+Q 19 [A2] P2 完成句子: 19. 快递员正在___包裹。 [Vul in]
+      KEY='派送' NOTE='pàisòng — de koerier bezorgt het pakket.' EXTRACTED='派送' match=True
+Q 20 [B1] P2 完成句子: 20. 湖南顺丰的人力和运力多了约___%。 [Vul in]
+      KEY='20' NOTE='Hunan SF Express: +20 % personeel en capaciteit.' EXTRACTED='20' match=True
+Q 21 [A2] P2 完成句子: 21. 练习例子里，外套___元。 [Vul in]
+      KEY='320' NOTE='De jas kost in het voorbeeld 320 yuan.' EXTRACTED='320' match=True
+Q 22 [A2] P2 完成句子: 22. 直降以后实付___元。 [Vul in]
+      KEY='240' NOTE='320 − 80 = 240 yuan na de directe korting.' EXTRACTED='240' match=True
+Q 23 [B1] P2 完成句子: 23. 练习例子里直降___元。 [Vul in]
+      KEY='80' NOTE='De directe korting in het voorbeeld is 80 yuan.' EXTRACTED='80' match=True
+Q 24 [B1] P2 完成句子: 24. 去年双11，单日最高___亿件。 [Vul in]
+      KEY='7.77' NOTE='Vorig jaar lag de beste dag op 777 miljoen stuks.' EXTRACTED='7.77' match=True
+Q 25 [A2] P2 词汇配对: 25. 到货  →  a. 东西到了，可以去拿了   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+      KEY='a' NOTE='到货 = het pakket is er, a' EXTRACTED='a' match=True
+Q 26 [A2] P2 词汇配对: 26. 退换货  →  b. 东西不合适，寄回去换   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+      KEY='b' NOTE='退换货 = retour en ruil, b' EXTRACTED='b' match=True
+Q 27 [A2] P2 词汇配对: 27. 价保  →  c. 降价了，补回差价   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+      KEY='c' NOTE='价保 = prijsbescherming, c' EXTRACTED='c' match=True
+Q 28 [A2] P2 词汇配对: 28. 派送  →  d. 快递员把包裹送到你手里   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+      KEY='d' NOTE='派送 = bezorging, d' EXTRACTED='d' match=True
+Q 29 [A2] P3 单选: 29. 小雪在哪天？ A. 11月22日 · B. 11月21日 · C. 11月15日
+      KEY='A' NOTE='Kleine Sneeuw (小雪) is op 22 nov.' EXTRACTED='A' match=True
+Q 30 [A2] P3 单选: 30. 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+      KEY='A' NOTE='小雪 is de 20e zonnetermijn.' EXTRACTED='A' match=True
+Q 31 [A2] P3 单选: 31. 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+      KEY='A' NOTE='De eerste fase is 虹藏不见.' EXTRACTED='A' match=True
+Q 32 [A2] P3 单选: 32. 深圳读书月哪天开始？ A. 11月1日 · B. 11月14日 · C. 11月7日
+      KEY='A' NOTE='Leesmaand: begonnen op 1 nov.' EXTRACTED='A' match=True
+Q 33 [A2] P3 单选: 33. 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+      KEY='B' NOTE='Cultuuravond: 14 november.' EXTRACTED='B' match=True
+Q 34 [A2] P3 完成句子: 34. 11月22日是___。 [Vul in]
+      KEY='小雪' NOTE='xiǎoxuě — Kleine Sneeuw; 22 nov.' EXTRACTED='小雪' match=True
+Q 35 [A2] P3 完成句子: 35. 小雪是二十四节气里的第___个。 [Vul in]
+      KEY='20' NOTE='小雪 is de 20e zonnetermijn.' EXTRACTED='20' match=True
+Q 36 [A2] P3 完成句子: 36. 小雪之后，天气会更___。 [Vul in]
+      KEY='冷' NOTE='Na Kleine Sneeuw wordt het weer kouder.' EXTRACTED='冷' match=True
+Q 37 [B1] P3 完成句子: 37. 读书月有___个场馆一起参加。 [Vul in]
+      KEY='七' NOTE='Zeven locaties doen mee aan de Leesmaand.' EXTRACTED='七' match=True
+Q 38 [B1] P3 完成句子: 38. 文化馆之夜，读者可以亲手摸一摸___的装帧。 [Vul in]
+      KEY='古籍' NOTE='gǔjí — oude boeken; de lezer raakt de binding aan.' EXTRACTED='古籍' match=True
+Q 39 [A2] P3 完成句子: 39. 小雪在11月___日星期日。 [Vul in]
+      KEY='22' NOTE='Kleine Sneeuw is op 22 nov., een zondag.' EXTRACTED='22' match=True
+Q 40 [A2] P3 完成句子: 40. 小雪是冬天第___个节气。 [Vul in]
+      KEY='2' NOTE='小雪 is de 2e zonnetermijn van de winter.' EXTRACTED='2' match=True
+Q 41 [B1] P3 完成句子: 41. 文化馆之夜在11月___日。 [Vul in]
+      KEY='14' NOTE='Cultuuravond: 14 november.' EXTRACTED='14' match=True
+Q 42 [A2] P3 完成句子: 42. 深圳读书月从11月___日开始。 [Vul in]
+      KEY='1' NOTE='Leesmaand: begonnen op 1 nov.' EXTRACTED='1' match=True
+Q 43 [A2] P3 词汇配对: 43. 小雪  →  b. 二十四节气里的一个，11月22日   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+      KEY='b' NOTE='小雪 = Kleine Sneeuw, b' EXTRACTED='b' match=True
+Q 44 [A2] P3 词汇配对: 44. 三候  →  d. 古人看天气的三个变化   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+      KEY='d' NOTE='三候 = de drie fasen, d' EXTRACTED='d' match=True
+Q 45 [A2] P3 词汇配对: 45. 保暖  →  a. 天冷了，多穿衣服，别冻着   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+      KEY='a' NOTE='保暖 = warm blijven, a' EXTRACTED='a' match=True
+Q 46 [A2] P3 词汇配对: 46. 着凉  →  c. 不小心冷到了，身体不舒服   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+      KEY='c' NOTE='着凉 = kou vatten, c' EXTRACTED='c' match=True
+Q 47 [B1] P4 单选: 47. 四分之一决赛，IG打赢了哪个队？ A. TES · B. GEN · C. DK
+      KEY='A' NOTE='IG versloeg TES met 3-1 in de kwartfinale.' EXTRACTED='A' match=True
+Q 48 [B1] P4 单选: 48. 半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C. BLG
+      KEY='B' NOTE='GEN versloeg IG met 3-0 in de halve finale.' EXTRACTED='B' match=True
+Q 49 [B1] P4 单选: 49. 半决赛，BLG打赢了哪个队？ A. LYON · B. KC · C. T1
+      KEY='C' NOTE='BLG versloeg T1 met 3-1 in de halve finale.' EXTRACTED='C' match=True
+Q 50 [B1] P4 单选: 50. 决赛在哪天？ A. 11月15日凌晨3点 · B. 11月14日 · C. 11月8日
+      KEY='A' NOTE='De finale is om 03:00 Peking-tijd, op 15 nov.' EXTRACTED='A' match=True
+Q 51 [B1] P4 单选: 51. 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+      KEY='A' NOTE='De finale is BLG tegen GEN.' EXTRACTED='A' match=True
+Q 52 [B1] P4 完成句子: 52. 四分之一决赛，BLG 3比0打赢了___。 [Vul in]
+      KEY='DK' NOTE='BLG versloeg DK met 3-0 in de kwartfinale.' EXTRACTED='DK' match=True
+Q 53 [B1] P4 完成句子: 53. 半决赛，GEN 3比0打赢了___。 [Vul in]
+      KEY='IG' NOTE='GEN versloeg IG met 3-0 in de halve finale.' EXTRACTED='IG' match=True
+Q 54 [B1] P4 完成句子: 54. 决赛是___对GEN。 [Vul in]
+      KEY='BLG' NOTE='De finale is BLG tegen GEN.' EXTRACTED='BLG' match=True
+Q 55 [B1] P4 完成句子: 55. 决赛在北京时间11月15日凌晨___点。 [Vul in]
+      KEY='3' NOTE='De finale is om 03:00 Peking-tijd.' EXTRACTED='3' match=True
+Q 56 [B1] P4 完成句子: 56. BLG是第一次在全球总决赛的BO5里打赢___。 [Vul in]
+      KEY='T1' NOTE='BLG versloeg T1 voor het eerst in een Worlds-BO5.' EXTRACTED='T1' match=True
+Q 57 [B1] P4 完成句子: 57. IG 3比1打赢TES，在11月___日。 [Vul in]
+      KEY='4' NOTE='IG versloeg TES op 4 nov.' EXTRACTED='4' match=True
+Q 58 [B1] P4 完成句子: 58. GEN 3比0打赢LYON，在11月___日。 [Vul in]
+      KEY='5' NOTE='GEN versloeg LYON op 5 nov.' EXTRACTED='5' match=True
+Q 59 [B1] P4 完成句子: 59. BLG 3比0打赢DK，在11月___日。 [Vul in]
+      KEY='6' NOTE='BLG versloeg DK op 6 nov.' EXTRACTED='6' match=True
+Q 60 [B1] P4 完成句子: 60. T1 3比1打赢KC，在11月___日。 [Vul in]
+      KEY='7' NOTE='T1 versloeg KC op 7 nov.' EXTRACTED='7' match=True
+Q 61 [B1] P4 词汇配对: 61. 四强  →  d. 最后四支队，半决赛的队   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+      KEY='d' NOTE='四强 = de laatste vier teams, d' EXTRACTED='d' match=True
+Q 62 [B1] P4 词汇配对: 62. 止步  →  b. 半决赛输了，就不往前走了   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+      KEY='b' NOTE='止步 = hier stoppen, b' EXTRACTED='b' match=True
+Q 63 [B1] P4 词汇配对: 63. 闹钟  →  c. 到时间会响，叫你起床   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+      KEY='c' NOTE='闹钟 = een wekker, c' EXTRACTED='c' match=True
+Q 64 [B1] P4 词汇配对: 64. 五局三胜  →  a. 先赢三局的队拿冠军   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+      KEY='a' NOTE='五局三胜 = best-of-five, a' EXTRACTED='a' match=True
+Q 65 [B1] P5 单选: 65. 《试探》是哪种电影？ A. 悬疑犯罪片 · B. 动画片 · C. 纪录片
+      KEY='A' NOTE='《试探》 is een suspense-misdaadfilm.' EXTRACTED='A' match=True
+Q 66 [B1] P5 单选: 66. 《试探》在哪天上映？ A. 11月21日 · B. 11月13日 · C. 11月7日
+      KEY='A' NOTE='《试探》 gaat in première op 21 nov.' EXTRACTED='A' match=True
+Q 67 [B1] P5 单选: 67. 《试探》讲的是谁？ A. 钢琴家 · B. 船长 · C. 画家
+      KEY='A' NOTE='Het verhaal gaat over een pianist.' EXTRACTED='A' match=True
+Q 68 [B1] P5 单选: 68. 《白衣逆行者》上映了吗？ A. 没有，上映前撤档了 · B. 上映了，11月6日 · C. 上映了，11月7日
+      KEY='A' NOTE='《白衣逆行者》 vóór de première van 6 nov. teruggetrokken.' EXTRACTED='A' match=True
+Q 69 [B1] P5 单选: 69. 《我们仅有一次的人生》主演是谁？ A. 宋佳、文淇 · B. 刘德华 · C. 冯绍峰
+      KEY='A' NOTE='《我们仅有一次的人生》, met Song Jia en Wen Qi.' EXTRACTED='A' match=True
+Q 70 [B1] P5 完成句子: 70. 《试探》是___犯罪片，11月21日上映。 [Vul in]
+      KEY='悬疑' NOTE='xuányí — 《试探》 is een suspense-misdaadfilm.' EXTRACTED='悬疑' match=True
+Q 71 [B1] P5 完成句子: 71. 钢琴家的女友___了。 [Vul in]
+      KEY='失踪' NOTE='shīzōng — de vriendin van de pianist is vermist.' EXTRACTED='失踪' match=True
+Q 72 [B1] P5 完成句子: 72. 陌生女子走进山间___。 [Vul in]
+      KEY='别墅' NOTE='biéshù — een villa in de heuvels.' EXTRACTED='别墅' match=True
+Q 73 [B1] P5 完成句子: 73. 《白衣逆行者》讲的是___事件里的普通人。 [Vul in]
+      KEY='真实' NOTE='zhēnshí — 《白衣逆行者》 is gebaseerd op echte gebeurtenissen.' EXTRACTED='真实' match=True
+Q 74 [A2] P5 完成句子: 74. 读书月有___个场馆一起参加。 [Vul in]
+      KEY='七' NOTE='Zeven locaties doen mee aan de Leesmaand.' EXTRACTED='七' match=True
+Q 75 [B1] P5 完成句子: 75. 《试探》在11月___日上映。 [Vul in]
+      KEY='21' NOTE='《试探》 gaat in première op 21 nov.' EXTRACTED='21' match=True
+Q 76 [B1] P5 完成句子: 76. 《珠穆朗玛：云中彼岸》在11月___日上映。 [Vul in]
+      KEY='6' NOTE='《珠穆朗玛：云中彼岸》 gaat in première op 6 nov.' EXTRACTED='6' match=True
+Q 77 [B1] P5 完成句子: 77. 《我们仅有一次的人生》在11月___日上映。 [Vul in]
+      KEY='7' NOTE='《我们仅有一次的人生》 gaat in première op 7 nov.' EXTRACTED='7' match=True
+Q 78 [B1] P5 完成句子: 78. 文化馆之夜在11月___日。 [Vul in]
+      KEY='14' NOTE='Cultuuravond: 14 november.' EXTRACTED='14' match=True
+Q 79 [B1] P5 词汇配对: 79. 试探  →  c. 试着问一问，看对方怎么说   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+      KEY='c' NOTE='试探 = de wateren testen, c' EXTRACTED='c' match=True
+Q 80 [B1] P5 词汇配对: 80. 悬疑  →  b. 让人猜不透，心里发紧的故事   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+      KEY='b' NOTE='悬疑 = spanning, b' EXTRACTED='b' match=True
+Q 81 [B1] P5 词汇配对: 81. 失踪  →  d. 人不见了，不知道去了哪里   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+      KEY='d' NOTE='失踪 = vermist, d' EXTRACTED='d' match=True
+Q 82 [B1] P5 词汇配对: 82. 别墅  →  a. 山里的独栋房子   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+      KEY='a' NOTE='别墅 = een villa, a' EXTRACTED='a' match=True
+Q 83 [B2] P6 单选: 83. 今年的双11快递怎么样？ A. 没有一天爆掉 · B. 11月11日一天爆掉 · C. 快递都停了
+      KEY='A' NOTE='Geen enkele dag explodeerde; elke dag was druk.' EXTRACTED='A' match=True
+Q 84 [B2] P6 单选: 84. 22天总数是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+      KEY='A' NOTE='Het totaal over 22 dagen is 139,38 miljard stuks.' EXTRACTED='A' match=True
+Q 85 [B2] P6 单选: 85. 单日最高是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+      KEY='A' NOTE='De beste dag lag op 777 miljoen stuks.' EXTRACTED='A' match=True
+Q 86 [B2] P6 单选: 86. 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+      KEY='A' NOTE='De bezorgpiek is van 12–15 nov.' EXTRACTED='A' match=True
+Q 87 [B2] P6 单选: 87. 包裹到了以后，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+      KEY='B' NOTE='Open het pakket en controleer het vóór de ontvangst.' EXTRACTED='B' match=True
+Q 88 [B2] P6 完成句子: 88. 快递量被___了，没有一天突然爆掉。 [Vul in]
+      KEY='打散' NOTE='dǎsàn — de piek was gespreid, niet op één dag.' EXTRACTED='打散' match=True
+Q 89 [B2] P6 完成句子: 89. 货是分好几___发的。 [Vul in]
+      KEY='批' NOTE='pī — goederen gaan in meerdere delen op pad.' EXTRACTED='批' match=True
+Q 90 [B2] P6 完成句子: 90. 139.38亿件是___天的总数。 [Vul in]
+      KEY='二十二' NOTE='139.38亿件 is het totaal over 22 dagen.' EXTRACTED='二十二' match=True
+Q 91 [B2] P6 完成句子: 91. 单日最高是7.77___件。 [Vul in]
+      KEY='亿' NOTE='yì — 100 miljoen; 7.77亿件 op één dag.' EXTRACTED='亿' match=True
+Q 92 [B2] P6 完成句子: 92. 高铁急送最快___小时门到门。 [Vul in]
+      KEY='4' NOTE='Hogesnelheidsexpres: in 4 uur van deur tot deur.' EXTRACTED='4' match=True
+Q 93 [B2] P6 完成句子: 93. 22天总数是___亿件。 [Vul in]
+      KEY='139.38' NOTE='Het totaal over 22 dagen is 139.38亿件.' EXTRACTED='139.38' match=True
+Q 94 [B2] P6 完成句子: 94. 单日最高是___亿件。 [Vul in]
+      KEY='7.77' NOTE='De beste dag lag op 7.77亿件.' EXTRACTED='7.77' match=True
+Q 95 [B2] P6 完成句子: 95. 图里两根柱子，一个是22天总数，一个是___最高量。 [Vul in]
+      KEY='一天' NOTE='Eén balk: totaal 22 dagen; de andere: dagpiek.' EXTRACTED='一天' match=True
+Q 96 [B2] P6 完成句子: 96. 139.38亿件和7.77亿件，都是邮政局的___，不是广告词。 [Vul in]
+      KEY='数据' NOTE='shùjù — gemeten getallen, geen beweringen.' EXTRACTED='数据' match=True
+Q 97 [B2] P6 词汇配对: 97. 说法  →  c. 别人说的话，不一定是真的   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+      KEY='c' NOTE='说法 = een bewering, c' EXTRACTED='c' match=True
+Q 98 [B2] P6 词汇配对: 98. 数据  →  d. 量出来的数字   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+      KEY='d' NOTE='数据 = gemeten getallen, d' EXTRACTED='d' match=True
+Q 99 [B2] P6 词汇配对: 99. 预报  →  a. 还没发生的事，先猜一猜   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+      KEY='a' NOTE='预报 = een voorspelling, a' EXTRACTED='a' match=True
+Q100 [B2] P6 词汇配对: 100. 预计  →  b. 大概的数字，还没最后数完   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+      KEY='b' NOTE='预计 = een schatting, b' EXTRACTED='b' match=True
+Q101 [A2] P7 完成句子: 101. 我拿了___包裹。 [Vul in]
+      KEY='个' NOTE='包裹 neemt het telwoord 个 gè.' EXTRACTED='个' match=True
+Q102 [A2] P7 单选: 102. 「决赛」是什么意思？ A. 最后一场比赛 · B. 第一场比赛 · C. 练习赛
+      KEY='A' NOTE='决赛 betekent de finale, de laatste wedstrijd.' EXTRACTED='A' match=True
+Q103 [A2] P7 完成句子: 103. 11月15日凌晨3点，BLG和GEN打___。 [Vul in]
+      KEY='决赛' NOTE='juésài — de finale; BLG tegen GEN op 15 nov.' EXTRACTED='决赛' match=True
+Q104 [A2] P7 单选: 104. 哪个说法对？ A. 一个包裹 · B. 一只包裹 · C. 一条包裹
+      KEY='A' NOTE='Pakketten nemen 个 — niet 只 of 条.' EXTRACTED='A' match=True
+Q105 [B1] P7 单选: 105. 「凌晨3点」是什么时候？ A. 下午3点 · B. 半夜3点 · C. 中午12点
+      KEY='B' NOTE='凌晨 língchén — de kleine uurtjes na middernacht.' EXTRACTED='B' match=True
+Q106 [B1] P7 完成句子: 106. 半决赛在北京时间11月8日___6点开始。（不是晚上） [Vul in]
+      KEY='早上' NOTE="06:00 is 早上 — niet 's avonds." EXTRACTED='早上' match=True
+Q107 [B1] P7 单选: 107. 哪个顺序对？ A. 11月22日星期日 · B. 星期日11月22日 · C. 星期日小雪11月22日
+      KEY='A' NOTE='Volgorde van groot naar klein: 22 nov., zondag.' EXTRACTED='A' match=True
+Q108 [B1] P7 完成句子: 108. 11月22日是星期日，也可以说___。小雪在这天。 [Vul in]
+      KEY='周日' NOTE='22 nov. is een zondag — 周日.' EXTRACTED='周日' match=True
+Q109 [B2] P7 单选: 109. 「139.38亿件」在第6版里是什么？ A. 已经数完的事实 · B. 邮政局的预计 · C. 广告词
+      KEY='A' NOTE='「139.38亿件」 is een definitieve telling van de postdienst, al geteld.' EXTRACTED='A' match=True
+Q110 [B2] P7 完成句子: 110. 买东西以前，先看___，再看广告。 [Vul in]
+      KEY='数据' NOTE='shùjù — gemeten getallen, geen beweringen.' EXTRACTED='数据' match=True
+Q111 [B2] P7 单选: 111. 读新闻时，哪个做法最好？ A. 只看标题 · B. 先看数据和结算页 · C. 只看评论
+      KEY='B' NOTE='Data en afrekenpagina eerst, kop het laatst.' EXTRACTED='B' match=True
+Q112 [B2] P7 完成句子: 112. 「第三波是最高峰」是___，还没发生。 [Vul in]
+      KEY='预报' NOTE='yùbào — een voorspelling, nog geen feit.' EXTRACTED='预报' match=True
+Q113 [A2] P8 完形单选: 113. 小雪在11月22日。(A. 对 · B. 错)
+      KEY='A' NOTE='Kleine Sneeuw (小雪) is op 22 nov.' EXTRACTED='A' match=True
+Q114 [A2] P8 完形单选: 114. 今年是第20个小雪节气。(A. 对 · B. 错)
+      KEY='B' NOTE='小雪 is de 20e zonnetermijn, niet de 20e Kleine Sneeuw.' EXTRACTED='B' match=True
+Q115 [A2] P8 完形单选: 115. 快递高峰只有一波。(A. 对 · B. 错)
+      KEY='B' NOTE='De pakketpiek: drie golven, niet één.' EXTRACTED='B' match=True
+Q116 [B1] P8 完形单选: 116. GEN进了决赛。(A. 对 · B. 错)
+      KEY='A' NOTE='GEN haalde de finale, IG niet.' EXTRACTED='A' match=True
+Q117 [B1] P8 完形单选: 117. 半决赛在北京时间早上6点开始。(A. 对 · B. 错)
+      KEY='A' NOTE='De halve finales beginnen om 06:00 Peking-tijd.' EXTRACTED='A' match=True
+Q118 [B1] P8 完形单选: 118. 《试探》是2019年的电影。(A. 对 · B. 错)
+      KEY='B' NOTE='《试探》 in première op 21 nov. 2026; een nieuwe film.' EXTRACTED='B' match=True
+Q119 [B1] P8 完形单选: 119. 《试探》11月21日上映。(A. 对 · B. 错)
+      KEY='A' NOTE='《试探》 gaat in première op 21 nov.' EXTRACTED='A' match=True
+Q120 [B1] P8 完形单选: 120. 深圳读书月11月9日开幕。(A. 对 · B. 错)
+      KEY='B' NOTE='De Leesmaand begon op 1 nov., niet op 9 nov.' EXTRACTED='B' match=True
+Q121 [A2] P8 单选: 121. 决赛在北京时间哪天？ A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点
+      KEY='B' NOTE='De finale begint 15 nov. om 03:00 Peking-tijd.' EXTRACTED='B' match=True
+Q122 [A2] P8 单选: 122. 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. IG
+      KEY='A' NOTE='BLG versloeg T1 met 3-1 in de halve finale.' EXTRACTED='A' match=True
+Q123 [B1] P8 单选: 123. 四分之一决赛，IG打赢了哪个队？ A. GEN · B. TES · C. LYON
+      KEY='B' NOTE='IG versloeg TES met 3-1 in de kwartfinale.' EXTRACTED='B' match=True
+Q124 [B1] P8 单选: 124. 22天快递总数是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+      KEY='B' NOTE='Het totaal over 22 dagen is 139,38 miljard stuks.' EXTRACTED='B' match=True
+Q125 [B1] P8 单选: 125. 单日最高是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+      KEY='B' NOTE='De beste dag lag op 777 miljoen stuks.' EXTRACTED='B' match=True
+Q126 [B1] P8 单选: 126. 《试探》的主演是谁？ A. 冯绍峰 · B. 刘德华 · C. 朱塞佩·托纳托雷
+      KEY='A' NOTE='《试探》, met Feng Shaofeng.' EXTRACTED='A' match=True
+Q127 [B1] P8 单选: 127. 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+      KEY='B' NOTE='Cultuuravond: 14 november.' EXTRACTED='B' match=True
+Q128 [B1] P8 单选: 128. 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+      KEY='A' NOTE='小雪 is de 20e zonnetermijn.' EXTRACTED='A' match=True
+Q129 [B1] P8 单选: 129. 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+      KEY='A' NOTE='De eerste fase is 虹藏不见.' EXTRACTED='A' match=True
+Q130 [B1] P8 单选: 130. 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+      KEY='A' NOTE='De finale is BLG tegen GEN.' EXTRACTED='A' match=True
+Q131 [A2] P8 完成句子: 131. 11月22日是___。 [Vul in]
+      KEY='小雪' NOTE='Kleine Sneeuw (小雪) is op 22 nov.' EXTRACTED='小雪' match=True
+Q132 [A2] P8 完成句子: 132. 决赛在11月___日凌晨3点。 [Vul in]
+      KEY='15' NOTE='De S16-finale is op 15 nov., Peking-tijd.' EXTRACTED='15' match=True
+Q133 [B1] P8 完成句子: 133. 半决赛，BLG 3比1打赢了___。 [Vul in]
+      KEY='T1' NOTE='BLG versloeg T1 met 3-1 in de halve finale.' EXTRACTED='T1' match=True
+Q134 [A2] P8 完成句子: 134. 22天快递总数是___亿件。 [Vul in]
+      KEY='139.38' NOTE='Het totaal over 22 dagen is 139.38亿件.' EXTRACTED='139.38' match=True
+Q135 [B1] P8 完成句子: 135. 《试探》11月___日上映。 [Vul in]
+      KEY='21' NOTE='《试探》 gaat in première op 21 nov.' EXTRACTED='21' match=True
+Q136 [B1] P8 完成句子: 136. 小雪是第___个节气。 [Vul in]
+      KEY='20' NOTE='小雪 is de 20e zonnetermijn.' EXTRACTED='20' match=True
+Q137 [B2] P8 完成句子: 137. 单日最高是___亿件。 [Vul in]
+      KEY='7.77' NOTE='De beste dag lag op 7.77亿件.' EXTRACTED='7.77' match=True
+Q138 [A2] P8 完成句子: 138. 文化馆之夜在11月___日。 [Vul in]
+      KEY='14' NOTE='Cultuuravond: 14 november.' EXTRACTED='14' match=True
+Q139 [B1] P8 完成句子: 139. 决赛是BLG对___。 [Vul in]
+      KEY='GEN' NOTE='De finale is BLG tegen GEN.' EXTRACTED='GEN' match=True
+Q140 [B1] P8 完成句子: 140. 小雪之后，天气会更___。 [Vul in]
+      KEY='冷' NOTE='Na Kleine Sneeuw wordt het weer kouder.' EXTRACTED='冷' match=True
+Q141 [A2] P8 单选: 141. 小林住在哪里？ A. 深圳 · B. 北京 · C. 广州
+      KEY='A' NOTE='Xiao Lin woont in Shenzhen.' EXTRACTED='A' match=True
+Q142 [A2] P8 单选: 142. 11月8日，小林看了什么？ A. 半决赛 · B. 期中考试 · C. 运动会
+      KEY='A' NOTE='Op 8 nov. keek hij naar de halve finale.' EXTRACTED='A' match=True
+Q143 [B1] P8 单选: 143. 他买了什么？ A. 毛衣 · B. 书 · C. 帽子
+      KEY='B' NOTE='Hij kocht online een boek.' EXTRACTED='B' match=True
+Q144 [B1] P8 单选: 144. 他和谁一起去文化馆？ A. 爸爸 · B. 妈妈 · C. 老师
+      KEY='B' NOTE='Hij ging met zijn moeder naar het cultuurcentrum.' EXTRACTED='B' match=True
+Q145 [B2] P8 单选: 145. 这段话的顺序是什么？ A. 先看半决赛，再拿包裹，再去文化馆 · B. 先去文化馆，再看半决赛 · C. 先拿包裹，再看半决赛
+      KEY='A' NOTE='Volgorde: halve finale, dan pakket, dan cultuurcentrum.' EXTRACTED='A' match=True
+Q146 [B1] P8 完成句子: 146. 小林住在___。 [Vul in]
+      KEY='深圳' NOTE='Xiao Lin woont in Shenzhen.' EXTRACTED='深圳' match=True
+Q147 [B1] P8 完形单选: 147. — 包裹到了，怎么办？ — 先看___，再开柜门。(A. 取件码 · B. 电影票)
+      KEY='A' NOTE='Controleer de code en open het kluisje.' EXTRACTED='A' match=True
+Q148 [B1] P8 完形单选: 148. — 小雪之后，怎么办？ — 多穿一件，别___。(A. 着凉 · B. 熬夜)
+      KEY='A' NOTE='Na Kleine Sneeuw: kleed je warmer en vat geen kou.' EXTRACTED='A' match=True
+Q149 [B2] P8 完形单选: 149. — 这条新闻说单日最高7.77亿件，可信吗？ — 先看___，再看广告。(A. 数据 · B. 评论)
+      KEY='A' NOTE='De regel van pagina 6: data eerst, reclame het laatst.' EXTRACTED='A' match=True
+Q150 [B1] P8 写作: 150. 写一写《小雪那一周》：S16决赛、包裹、小雪，这一周你做了什么？写 120~180 字。 [Schrijven]
+      KEY='(开放题，范文如下)' NOTE='Open opdracht — modelantwoord hierboven, sectie F (138 tekens).' EXTRACTED='✓' match=False

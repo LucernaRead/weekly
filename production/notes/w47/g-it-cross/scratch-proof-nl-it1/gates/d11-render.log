@@ -1,0 +1,12 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+card size: (1950, 2700)
+card: lowest ink row in col3 below y=1150: 1209 -> margin vs box bottom 1229.6: 20.59999999999991
+card: non-paper ink rows in 7px strip 1230-1237: []
+card: dark non-paper px in strip: 0
+pdf page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+pix size: 3047 4219
+scale x,y: 1.5625641025641026 1.5625925925925925
+pdf150: lowest ink row (px): 1890 -> SVG y: 1209.528324247452 -> margin: 20.07167575254789
+pdf150: dark non-paper px in strip: 0
+pdf150: lowest ink row full width 1200-1230 (px): 1916

@@ -1,0 +1,2 @@
+ABORT: ko family builds on system python3 (Pillow 10.x) — core-ko WEEKLY-KIT.md fix #15: the venv (Pillow 13) measures Korean ~1.1% wider and re-wraps every line, so a venv freeze of a ko edition is 0/8 by construction. Got Pillow 13.0.0 at /home/hatch/workspace/weekly-git/tools/venv/bin/python; re-run with /usr/bin/python3.
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3

@@ -1,0 +1,14 @@
+content12.py: instr="填空" x9 -> instr="Fill in"
+content34.py: instr="填空" x22 -> instr="Fill in"
+content34.py: instr="判断" x4 -> instr="True or false?"
+content56.py: instr="填空" x19 -> instr="Fill in"
+content56.py: instr="判断" x3 -> instr="True or false?"
+content56.py: instr="造句" x4 -> instr="Make the sentence"
+content7.py: instr="填空" x9 -> instr="Fill in"
+content8.py: instr="造句" x4 -> instr="Make the sentence"
+content12.py: plain-pass subs 91
+content34.py: plain-pass subs 89
+content56.py: plain-pass subs 97
+content7.py: plain-pass subs 50
+content8.py: plain-pass subs 68
+bslib4.py: plain-pass subs 2

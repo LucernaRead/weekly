@@ -1,0 +1,22 @@
+== D2 rescan ==
+-- [Le forme sono regolari: andare]
+content*.py: 0
+  content: 0
+svg:   svg: 0 files
+text.md: 0
+KIT: 1
+-- [irregolare al futuro: leggerò]
+content*.py: 0
+  content: 0
+svg:   svg: 0 files
+text.md: 0
+KIT: 1
+== regolar in content*.py ==
+/home/hatch/workspace/weekly-git/production/2026-w47/core-it/content7.py:17:a.para("Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.", 21.5)
+/home/hatch/workspace/weekly-git/production/2026-w47/core-it/content7.py:18:a.para("E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: leggerò.", 21.5)
+== new L17 positions ==
+/home/hatch/workspace/weekly-git/production/2026-w47/core-it/content7.py:17:a.para("Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.", 21.5)
+/home/hatch/workspace/weekly-git/production/2026-w47/core-it/2026-w47-it-zh-cn.text.md:775:Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: assaggiare → assaggerò, guardare → guarderò.
+== new L18 positions ==
+/home/hatch/workspace/weekly-git/production/2026-w47/core-it/content7.py:18:a.para("E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, regolare al futuro: leggerò.", 21.5)
+[note: line 22 removed — it was a raw grep dump of the whole single-line p7 SVG incl. base64 image; superseded by d2-rescan2.log + d2-svg-pdf-p7.log (XML text-node counts)]

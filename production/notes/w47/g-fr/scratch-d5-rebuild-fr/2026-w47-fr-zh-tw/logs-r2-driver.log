@@ -1,0 +1,95 @@
+[2026-w47-fr-zh-tw/r2] run.py
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+[2026-w47-fr-zh-tw/r2] render.py
+render rc=0
+[2026-w47-fr-zh-tw/r2] webpdf.py
+webpdf rc=0
+  font LucernaNotoSansCJKSC-Bold: 284008 bytes
+  font LucernaNotoSerifCJKSC-Regular: 403368 bytes
+  font LucernaNotoSerifCJKSC-Bold: 410224 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31420 bytes
+WROTE La-Lucerna-VOL4-fr-zh-tw-web.pdf: 2074668 bytes, 46109 text bytes
+[2026-w47-fr-zh-tw/r2] shas
+-rw-rw---- 1 root nogroup  2074668 Nov 12 11:31 La-Lucerna-VOL4-fr-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup 18531943 Nov 12 11:30 La-Lucerna-VOL4-fr-zh-tw.pdf
+de24f2a08c9bbe3636e8b393f4ca85fed627c92b1913c86aadc9561fc66f4e8f  La-Lucerna-VOL4-fr-zh-tw.pdf
+f54db205afbd8991d8995f611fa5243994e08bf049099e39c7fc23e78fa8fb20  La-Lucerna-VOL4-fr-zh-tw-web.pdf
+e5c8c1cd50f04b7a67bf03403f6d0361d6bfd03ad975946895f0477dc8acf3a2  2026-w47-fr-zh-tw.text.md
+[2026-w47-fr-zh-tw/r2] text layers print vs web
+TEXTLAYER print==web BYTE-IDENTICAL
+print chars 93337 web chars 93337
+multiset diff total 0
+only-in-print {} only-in-web {}
+[2026-w47-fr-zh-tw/r2] occlusion
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+[2026-w47-fr-zh-tw/r2] p8 extract
+p8extract rc=0
+svg/p8-exercices.svg: noted set = 121 of 150 (parse: joined)
+  set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[2026-w47-fr-zh-tw/r2] p8 compare vs core-fr
+p8compare-core rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+[2026-w47-fr-zh-tw/r2] p8 compare vs pre-fix baseline
+p8compare-pre rc=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-zh-tw/baseline/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[2026-w47-fr-zh-tw/r2] freeze baseline
+freeze-baseline rc=0
+  OK  p7-langue.svg core 76d84860e49625e5 produced 76d84860e49625e5
+  OK  p8-exercices.svg core a234e5e7fa7990f9 produced a234e5e7fa7990f9
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[2026-w47-fr-zh-tw/r2] freeze diff vs core-fr
+freeze-diff rc=0
+p1: +26 strings / -27 strings; CJK core 224 -> edition 216; added CJK chars: 79 {'總': 1, '週': 8, '一': 1, '讀': 4, '國': 1, '在': 1, '語': 5, '報': 2, '與': 2, '參': 5}; added Latin strings: 0 (unexpected 0)
+p2: +48 strings / -55 strings; CJK core 283 -> edition 282; added CJK chars: 93 {'日': 1, '常': 1, '一': 1, '週': 2, '譯': 1, '酒': 1, '兒': 1, '權': 1, '廢': 1, '棄': 1}; added Latin strings: 2 (unexpected 2)
+p3: +37 strings / -36 strings; CJK core 194 -> edition 187; added CJK chars: 54 {'薄': 3, '酒': 2, '萊': 3, '譯': 1, '採': 1, '種': 1, '開': 1, '儀': 1, '輪': 1, '到': 1}; added Latin strings: 0 (unexpected 0)
+p4: +41 strings / -41 strings; CJK core 236 -> edition 226; added CJK chars: 87 {'體': 2, '杜': 3, '林': 3, '與': 3, '藍': 1, '軍': 3, '譯': 1, '獲': 1, '勝': 1, '衛': 1}; added Latin strings: 1 (unexpected 1)
+p5: +40 strings / -40 strings; CJK core 243 -> edition 244; added CJK chars: 76 {'電': 8, '與': 2, '譯': 1, '傳': 2, '預': 1, '廢': 1, '棄': 1, '輪': 1, '到': 1, '你': 1}; added Latin strings: 0 (unexpected 0)
+p6: +36 strings / -38 strings; CJK core 227 -> edition 193; added CJK chars: 78 {'時': 1, '事': 5, '參': 2, '議': 2, '院': 1, '預': 4, '譯': 1, '員': 1, '會': 1, '兩': 2}; added Latin strings: 4 (unexpected 4)
+p7: +49 strings / -52 strings; CJK core 411 -> edition 381; added CJK chars: 139 {'語': 3, '言': 1, '週': 5, '礎': 1, '中': 1, '級': 2, '進': 1, '階': 1, '口': 1, '袋': 1}; added Latin strings: 1 (unexpected 1)
+p8: +262 strings / -270 strings; CJK core 1220 -> edition 1233; added CJK chars: 364 {'\u3000': 10, '練': 1, '習': 1, '與': 1, '綜': 1, '合': 1, '評': 3, '量': 1, '方': 2, '完': 1}; added Latin strings: 39 (unexpected 39)
+TOTAL added CJK characters: 970
+TOTAL added Latin strings: 47 (unexpected 47)
+p5: +40 strings / -40 strings; CJK core 243 -> edition 244; added CJK chars: 76 {'電': 8, '與': 2, '譯': 1, '傳': 2, '預': 1, '廢': 1, '棄': 1, '輪': 1, '到': 1, '你': 1}; added Latin strings: 0 (unexpected 0)
+p6: +36 strings / -38 strings; CJK core 227 -> edition 193; added CJK chars: 78 {'時': 1, '事': 5, '參': 2, '議': 2, '院': 1, '預': 4, '譯': 1, '員': 1, '會': 1, '兩': 2}; added Latin strings: 4 (unexpected 4)
+p7: +49 strings / -52 strings; CJK core 411 -> edition 381; added CJK chars: 139 {'語': 3, '言': 1, '週': 5, '礎': 1, '中': 1, '級': 2, '進': 1, '階': 1, '口': 1, '袋': 1}; added Latin strings: 1 (unexpected 1)
+p8: +262 strings / -270 strings; CJK core 1220 -> edition 1233; added CJK chars: 364 {'\u3000': 10, '練': 1, '習': 1, '與': 1, '綜': 1, '合': 1, '評': 3, '量': 1, '方': 2, '完': 1}; added Latin strings: 39 (unexpected 39)
+TOTAL added CJK characters: 970
+TOTAL added Latin strings: 47 (unexpected 47)
+[2026-w47-fr-zh-tw/r2] boxtitle
+boxtitle rc=0
+== 2026-w47-fr-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-zh-tw: 40 titles, 380 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[2026-w47-fr-zh-tw/r2] creambox
+creambox rc=0
+p4-sport.svg: els 214->255 lines 158->158 diff 0 moved 25 defects 0 observe 0
+p5-jeunesse.svg: els 199->239 lines 146->146 diff 3 moved 14 defects 0 observe 0
+p6-politique.svg: els 213->253 lines 159->160 diff 59 moved 68 defects 0 observe 0
+p7-langue.svg: els 185->243 lines 107->105 diff 104 moved 44 defects 0 observe 0
+p8-exercices.svg: els 316->902 lines 188->188 diff 42 moved 39 defects 0 observe 0
+ratios: n=486 median=1.017 boldT=1.049 boldF=1.0
+P8 p8-exercices.svg: lines 188->188 slack_footer 36.1->36.1
+CREAMBOX PASS 0 defects
+[2026-w47-fr-zh-tw/r2] spill
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1440.0 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-zh-tw: 33 boxes, 104 candidates, 0 SPILL, 104 OBSERVE
+[2026-w47-fr-zh-tw/r2] edge scan
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+[2026-w47-fr-zh-tw/r2] census
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+=== SUMMARY 2026-w47-fr-zh-tw/r2 FAILFLAG=0 (rcs above; 0=pass) ===

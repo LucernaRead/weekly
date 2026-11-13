@@ -1,0 +1,13 @@
+P1 headline chars: 38 <=56: True
+GOLD verbatim: True | On Tuesday, November 3, Americans voted in the midterm elect
+GOLD verbatim: True | A “call” is not the official result.
+GOLD verbatim: True | The vote is over. The counting is not.
+GOLD verbatim: True | Two jungles, one week: a painted jungle in the cinema, and a
+GOLD verbatim: True | The Ashes are not a sport for early nights.
+GOLD verbatim: True | A small act is not small to the person it helps — and a loud
+GOLD verbatim: True | The map is drawn. The work starts in January.
+GOLD verbatim: True | A midterm changes Congress, not the President.
+MODEL words (alnum-token): 82 in 80-100: True
+MODEL: On Monday, November 16, I wore odd socks to school — one red, one blue. My teacher smiled and said, “Break the silence.” In the evening, we watched the jungle on television together with my family. On Tuesday, we read about the election in class: the Democrats won the House with 254 seats. On Friday, we will watch the new Hunger Games film. It is a busy week of votes, socks and stories — and I am learning to say it all in English.
+registry type: <class 'list'>
+[{"n": 1, "page": 1, "level": "A2", "type": "完成句子", "key": "midterm", "note": "midterm = 中期选举"}, {"n": 2, "page": 1, "level": "A2", "type": "完成句子", "key": "call", "note": "call a race = 宣布竞选结果"}, {"n": 3, "page": 1, "level": "A2", "type": "完成句子", "key": "seats", "note": "seat = 席位"}, {"n": 4, "page": 1, "level": "A2", "type": "完成句子", "key": "majority", "note": "majority = 多数、过半数"}, {"n": 5, "page": 1, "level": "B1", "type": "完成句子", "key": "changed", "note": "change hands = 易手"}, {"n": 6, "page": 1, "level": "B1", "type": "完成句子", "key": "January", "note": "新国会 2027 年 1 月开会"}, {"n": 7, "page": 1, "level": "A2", "type": "单选", "key": "B", "note": "众议院民主党获 254 席（11 月 8 日已确认数）"}, {"n": 8, "page": 1, "level": "A2", "type": "单选", "key": "A", "note": "投票日 11 月 3 日周二"}, {"n": 9, "page": 1, "level": "A2", "type": "单选", "key": "C", "note": "众议院过半数为 218 席"}, {"n": 10, "page": 1, "level": "A2", "type": "单选", "key": "C", "note": "新国会 2027 年 1 月开会"}, {"n": 11, "page": 2, "level": "A2", "type": "完成句子", "key": "November", "note": "11 月 = November"}, {"n": 12, "page": 2, "level": "A2", "type": "完成句子", "key": "January", "note": "新国会 2027 年 1 月开会"}, {"n": 13, "page": 2, "level": "A2", "type": "完成句子", "key": "1", "note": "决胜轮 12 月 1 日"}, {"n": 14, "page": 2, "level": "A2", "type": "完成句子", "key": "Thursday", "note": "感恩节是周四"}, {"n": 15, "page": 2, "level": "A2", "type": "完成句子", "key": "27", "note": "黑色星期五 11 月 27 日"}, {"n": 16, "page": 2, "level": "A2", "type": "句型转换", "key": "The new Congress will

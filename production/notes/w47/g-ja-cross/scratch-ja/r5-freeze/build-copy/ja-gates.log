@@ -1,0 +1,12 @@
+== W47 JA core gates (2026-11-10) ==
+occlusion_audit: 0 flags (ja-core-occlusion.json; selftest OK, all 6 planted classes fired once, clean controls silent)
+p8.py extract --total 150: noted set 150/150 (ja-core-p8.json)
+freeze.py baseline: 8/8 SVGs byte-identical (run twice, 2026-11-10 21:04 and 21:17, identical sha256 both runs; core SVGs unchanged by the runs)
+webpdf: Lucerna-VOL4-web.pdf 4807099 B (< 7 MB), pdftotext 77815 B == print PDF text (byte-identical)
+print PDF: Lucerna-VOL4.pdf 26015974 B, 8 pages
+text.md: 2026-w47-ja-zh-cn.text.md 44628 B, 1329 lines, 1302 text lines
+exercises: 150 (A2 48 / B1 73 / B2 29; by page 10/18/18/18/18/18/12/38; by type 完成句子 50 / 单选 51 / 完形单选 13 / 词汇配对 12 / 判断对错 11 / 造句 8 / 翻译 4 / 写作 1)
+P8 min font: 9.97 pt (answers, 13.3 SVG px; Tm-matrix measurement of the print PDF p.8; next size 10.35 pt = 13.8 px exercises)
+golden phrases: 8x exactly 2 (bare-sentence recount on the whitespace-stripped .text.md; the bracketed form counts 1x = P7 box only, see KIT §5)
+kinsoku line-start hits: 0 (ja-core-checks.py); orphan-line scan: 0 hits
+P6 chart: bar widths 1140/720/660/480 (38/24/22/16%); labels 京都/浅草/高尾山/家 ink ends 109/109/131/87, bars start x=315 — clear

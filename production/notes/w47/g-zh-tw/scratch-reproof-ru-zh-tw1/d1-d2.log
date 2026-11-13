@@ -1,0 +1,26 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P6 has 'Это': True | 'учебный': True | 'статистика': True
+kicker elements: 20
+A gap ЕЖЕНЕДЕЛЬНАЯ -> (sp) : 0.0px  (inkR 712.3 -> inkL 712.3)
+A gap (sp) -> ГАЗЕТА : 0.2px  (inkR 719.3 -> inkL 719.5)
+A gap ГАЗЕТА -> (sp) : -1.3px  (inkR 774.5 -> inkL 773.2)
+A gap (sp) -> ДЛЯ : 0.2px  (inkR 780.2 -> inkL 780.4)
+A gap ДЛЯ -> (sp) : -0.4px  (inkR 813.4 -> inkL 813.0)
+A gap (sp) -> ИЗУЧАЮЩИХ : 0.2px  (inkR 820.0 -> inkL 820.2)
+A gap ИЗУЧАЮЩИХ -> (sp) : -0.8px  (inkR 929.2 -> inkL 928.4)
+A gap (sp) -> РУССКИЙ : 0.1px  (inkR 935.4 -> inkL 935.5)
+A gap РУССКИЙ -> (sp) : -0.1px  (inkR 1009.5 -> inkL 1009.4)
+A gap (sp) -> ЯЗЫК : 0.2px  (inkR 1016.4 -> inkL 1016.6)
+A gap ЯЗЫК -> (sp) : 0.2px  (inkR 1059.6 -> inkL 1059.8)
+A gap (sp) -> — : 0.2px  (inkR 1066.8 -> inkL 1067.0)
+A gap — -> НАСТОЯЩАЯ : 0.4px  (inkR 1088.0 -> inkL 1088.4)
+A gap НАСТОЯЩАЯ -> (sp) : -0.4px  (inkR 1189.4 -> inkL 1189.0)
+A gap (sp) -> РОССИЯ : 0.2px  (inkR 1196.0 -> inkL 1196.2)
+A gap РОССИЯ -> , : -0.4px  (inkR 1261.2 -> inkL 1260.8)
+A gap , -> ПО : -0.4px  (inkR 1272.8 -> inkL 1272.4)
+A gap ПО -> - : 0.2px  (inkR 1296.4 -> inkL 1296.6)
+A gap - -> РУССКИ : -0.5px  (inkR 1302.6 -> inkL 1302.1)
+Traceback (most recent call last):
+  File "<stdin>", line 56, in <module>
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Pixmap'

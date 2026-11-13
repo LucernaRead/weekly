@@ -1,0 +1,60 @@
+SVG p1-hyoushi.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p2-kurashi.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p3-bunka.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p4-supotsu.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p5-wakamono.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p6-fukayomi.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p7-kotoba.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+SVG p8-tesuto.svg: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY content12.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY content34.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY content56.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY content7.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY content8.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY run.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY render.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY bslib4.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PY svglib.py: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+MD 2026-w47-ja-ko.text.md: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+MD ABSTRACT.txt: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+MD WEEKLY-KIT.md: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PDFTEXT print-plain.txt: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PDFTEXT web-plain.txt: {'LDQUO': 0, 'RDQUO': 0, 'RSQUO': 0, 'LSQUO': 0} OK
+PAT 'Fujiryūga': 0 everywhere
+PAT 'Fujiryōga': 0 everywhere
+PAT 'Fujiryuga': 0 everywhere
+PAT 'Fujiryoga': 0 everywhere
+PAT 'Umi-no-umi': 0 everywhere
+PAT '우미노우미': ['p8-tesuto.svg:1', '2026-w47-ja-ko.text.md:1']
+PAT '후지료가': 0 everywhere
+PAT '후지류가': ['p8-tesuto.svg:5', '2026-w47-ja-ko.text.md:5']
+CORE-P8 Fujiry: 0 matches
+CORE-P8 Umi: 0 matches
+CORE-P8 Onosato: 0 matches
+CORE-P8 Hoshoryu: 0 matches
+CORE-P8 Yoshinofuji: 0 matches
+KO-P8 후지: 7 matches
+   47. A — 요시노후지는 1일째에 오노사토를 이겼어요
+   49. A — 후지류가는 3일째에 호쇼류를 이겼어요
+   54. 11 — 후지류가의 긴보시는 데뷔 후 11번째 장소였어요
+   63. ○ — 후지류가는 3일째에 긴보시를 땄어요
+   111. 11 — 후지류가의 긴보시는 데뷔 후 11번째 장소였어요
+   115. A — 오노사토는 1일째에 요시노후지에게 졌어요
+   116. A — 호쇼류는 3일째에 후지류가에게 졌어요
+KO-P8 우미: 1 matches
+   48. B — 우미노우미는 1일째에 호쇼류에게 졌어요
+KO-P8 오노사토: 4 matches
+   47. A — 요시노후지는 1일째에 오노사토를 이겼어요
+   52. 2 — 오노사토는 3일 뒤에 2승을 했어요
+   61. × — 오노사토는 1일째에 졌어요
+   115. A — 오노사토는 1일째에 요시노후지에게 졌어요
+KO-P8 호쇼류: 6 matches
+   48. B — 우미노우미는 1일째에 호쇼류에게 졌어요
+   49. A — 후지류가는 3일째에 호쇼류를 이겼어요
+   53. 2 — 호쇼류도 3일 뒤에 2승을 했어요
+   60. B — 호쇼류는 세 장소를 연속으로 쉬고 돌아온 요코즈나예요
+   62. ○ — 호쇼류는 1일째와 2일째에 이겼어요
+   116. A — 호쇼류는 3일째에 후지류가에게 졌어요
+KO-P8 요시노: 2 matches
+   47. A — 요시노후지는 1일째에 오노사토를 이겼어요
+   115. A — 오노사토는 1일째에 요시노후지에게 졌어요

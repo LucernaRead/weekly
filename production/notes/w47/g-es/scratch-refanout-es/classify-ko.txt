@@ -1,0 +1,70 @@
+== ko stats {'KEEP': 18, 'REVERT': 15, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "“토론”: 사람들이 공개적으로 토론해요.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "“토론”: 두 사람 이상이 차례대로 공개 토론하고 질문해요.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+content34.py:45 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", "sans", False, 19, CW - 44)) * 27 + 20
+content34.py:45 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", "sans", False, 20, CW - 44)) * 29 + 20
+content34.py:51 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", 19, "sans", False, GREY, CW - 44, 1.42)
+content34.py:51 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:68 [REVERT] OLD: e.ex("B1", "읽기 판단", "Falso", "성 체칠리아 축일은 11월 22일이에요.",
+content34.py:68 [REVERT] NEW: e.ex("B1", "읽기 판단", "Falso", "성녀 체칠리아 축일은 11월 22일이에요. 음악가들의 수호성인이에요.",
+content56.py:50 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", "sans", False, 19, CW - 44)) * 27 
+content56.py:50 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", "sans", False, 20, CW - 44)) * 29 
+content56.py:56 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", 19, "sans", False, GREY, CW - 44, 1.42)
+content56.py:56 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", 20, "sans", False, GREY, CW - 44, 1.42)
+content56.py:107 [REVERT] OLD: e.ex("B1", "읽기 판단", "Verdadero", "올해는 MiDNI로 투표할 수 있어요",
+content56.py:107 [REVERT] NEW: e.ex("B1", "읽기 판단", "Verdadero", "올해는 MiDNI 앱으로 신분을 확인하고 투표할 수 있어요",
+content56.py:117 [REVERT] OLD: p.band("A FONDO　심층", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　선거운동 읽기: 토론, 공약, 여론조사")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　심층", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　선거운동 읽기")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content56.py:218 [REVERT] OLD: e.ex("B2", "객관식", "B", "여론조사는 오차 있는 하루의 사진이에요",
+content56.py:218 [REVERT] NEW: e.ex("B2", "객관식", "B", "여론조사는 오차가 있는 사진이에요, 어느 하루에 찍은 사진이에요",
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content7.py:102 [REVERT] OLD: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+content7.py:102 [REVERT] NEW: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:109 [REVERT] OLD: p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+content7.py:109 [REVERT] NEW: p.para(bx + 22, yy3 + 20, ldcn, 20, "sans", False, GREY, CW - 44, 1.42)
+content8.py:23 [KEEP] OLD: f.ex("B1", "빈칸 채우기", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "빈칸 채우기", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:74 [KEEP] OLD: f.ex("B1", "번역", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "번역", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:75 [KEEP] OLD:      "우편 투표는 목요일 19일 전에 신청해야 해요. → ___", instr="번역", size=15.5, gap=1)
+content8.py:75 [KEEP] NEW:      "우편 투표는 목요일 19일까지 신청해야 해요. → ___", instr="번역", size=15.5, gap=1)
+content8.py:76 [REVERT] OLD: f.ex("B2", "번역", "Cada promesa tiene que llevar datos.", "tener que = ~해야 해요",
+content8.py:76 [REVERT] NEW: f.ex("B2", "번역", "Cada promesa tiene que llevar datos.", "tener que = 반드시 ~해야 해요",
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　정답 — 면별로 나누어 실었어요, 번호로 찾으세요", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　정답 — 면별로 나누어 실었어요, 번호로 찾으세요", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "문제마다 한국어 해설 한 줄　✓ 표시는 모범 답안 문제예요", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "문제마다 한국어 해설 한 줄　✓ 표시는 모범 답안 문제예요", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

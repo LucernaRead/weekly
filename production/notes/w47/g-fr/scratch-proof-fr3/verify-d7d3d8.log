@@ -1,0 +1,65 @@
+--- D7 ---
+== p1-une.svg: 5 个浅底框, 190 个 <text> 元素 (body 118 / 框内 72)
+  vainqueur: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=940: nanterre. le vainqueur remporte son
+    [框内] x=556 y=1277: 译注｜le sénat 参议院 un vainqueur 获
+== p4-sport.svg: 6 个浅底框, 215 个 <text> 元素 (body 163 / 框内 52)
+  choc: body=2 (框内=0) -> PASS
+    body-ctx x=88 y=937: deuxième. un choc remporté en deux
+    body-ctx x=989 y=290: 译注｜un choc 强强对决 familier 熟悉的。
+== p6-politique.svg: 4 个浅底框, 215 个 <text> 元素 (body 176 / 框内 39)
+  navette: body=1 (框内=1) -> PASS
+    body-ctx x=1440 y=2131: navette parlementaire, les
+    [框内] x=556 y=1198: une navette 两院往返审议 paritaire 对
+  paritaire: body=1 (框内=1) -> PASS
+    body-ctx x=1440 y=2238: commission mixte paritaire — sept
+    [框内] x=556 y=1198: une navette 两院往返审议 paritaire 对
+--- D3 ---
+== p3-culture.svg: 4 个浅底框, 201 个 <text> 元素 (body 156 / 框内 45)
+  bouteille: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=827: droit de mettre leur vin en bouteille et
+    [框内] x=1462 y=779: une bouteille — 
+  raisin: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=1409: raisin dans les vignes dès le 13 août,
+    [框内] x=1462 y=853: le raisin — 
+  vigne: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=1409: raisin dans les vignes dès le 13 août,
+    [框内] x=1462 y=890: une vigne — 
+== p4-sport.svg: 6 个浅底框, 215 个 <text> 元素 (body 163 / 框内 52)
+  tennis: body=1 (框内=2) -> PASS
+    body-ctx x=88 y=429: tennis de la saison : le rolex paris
+    [框内] x=1462 y=736: les mots du tennis 网球词表
+    [框内] x=1462 y=778: le tennis — 
+  adversaire: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=648: adversaire, ben shelton, tête de série
+    [框内] x=1462 y=1000: un adversaire — 
+== p5-jeunesse.svg: 6 个浅底框, 199 个 <text> 元素 (body 147 / 框内 52)
+  salle: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=429: sortent dans les salles de cinéma en
+    [框内] x=1462 y=1192: une salle — 
+  public: body=2 (框内=1) -> PASS
+    body-ctx x=88 y=538: mercredi-là, le public a l'embarras du
+    body-ctx x=1440 y=567: domaine public
+    [框内] x=1462 y=1451: le public — 
+  réalisateur: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=684: du réalisateur francis lawrence, dont
+    [框内] x=1462 y=1340: un réalisateur — 
+  scénario: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=720: le scénario raconte haymitch, le héros
+    [框内] x=1462 y=1377: un scénario — 
+  écran: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=830: grand écran.
+    [框内] x=1462 y=1229: un écran — 
+  acteur: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=1010: », d'alexandre smia, avec l'acteur
+    [框内] x=1462 y=1266: un acteur — 
+  actrice: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=1229: l'actrice kristin scott thomas et
+    [框内] x=1462 y=1303: une actrice — 
+  séance: body=1 (框内=1) -> PASS
+    body-ctx x=88 y=1484: choisissez votre séance du mercredi
+    [框内] x=1462 y=1414: une séance — 
+--- D8: lieu 元素级计数 P7/P8 ---
+  p7-langue.svg: <text> 元素内 lieu: body=0 框内=0 (base64 不在 <text> 内，已排除)
+  p8-exercices.svg: <text> 元素内 lieu: body=0 框内=0 (base64 不在 <text> 内，已排除)
+OVERALL D7+D3: PASS

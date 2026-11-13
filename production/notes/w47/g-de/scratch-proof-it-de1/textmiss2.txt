@@ -1,0 +1,27 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+md sections: ['Prima', 'Vita', 'Cultura', 'Sport', 'Giovani', 'Approfondimento', 'Lingua', 'Valutazione e risposte']
+--- P1 Prima: md-only tokens 79 | pdf-only tokens 47
+   md-only: ['Prima', 'LA', 'SERIE', 'IL', 'TORRONE', 'VENEZIA', 'Lazio', '29', 'Inter', 'Inter', '11.', 'der', 'führt', 'mit', 'in', 'in', 'in', 'in', 'in', 'con', 'Como', 'Como', 'Sassuolo', 'Sassuolo', "L'11a", 'posto,', 'Juventus', "l'Udinese", '21', 'Cremona']
+   pdf-only: ['4', 'I', 'I', 'I', 'I', 'I', 'I', 'T', 'T', 'A', 'A', 'L', 'L', 'L', 'L', 'E', 'E', 'E', 'E', 'E', 'N', 'N', 'N', 'S', 'S', 'H', 'V', 'V', 'O', 'O']
+--- P2 Vita: md-only tokens 137 | pdf-only tokens 22
+   md-only: ['Vita', 'alberi', 'la', 'la', 'musica', 'Bäume', 'pianta', 'di', 'lettura:', 'della', 'veneziani', 'attraversano', 'ponte', 'ponte', 'ponte', 'votivo', 'per', 'finiva.', 'Baldassarre', 'tra', 'fedeli', 'portano', 'candele', 'salute', 'A', 'A', 'castradina:', 'a', 'a', 'verze.']
+   pdf-only: ['lapianta', 'deilettura:', 'pontela', 'aper', '12finiva.', 'diBaldassarre', 'entitra', 'lettori»).castradina:', 'MERKSATZverze.', 'zweimangia', '2', 'zuordnenA', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen']
+--- P3 Cultura: md-only tokens 188 | pdf-only tokens 27
+   md-only: ['Cultura', '→', '→', '→', '→', '→', 'cioccolato', 'tartufo', 'in', 'in', 'torrone', 'torrone', 'lettura:', '22', 'chiude', 'a', 'a', 'Cremona', 'del', 'al', 'il', 'il', 'il', 'è', 'è', 'è', 'pomeriggio:', 'alle', 'corteo', 'storico,']
+   pdf-only: ['→B1', '→B1', 'cedro,lettura:', 'Iginiopomeriggio:', 'Massari.storico,', 'redazione.alle', 'costruzioni.gran', '3', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'bilden', 'bilden', 'bilden', '→___', 're→___', 'achteLa', 'essere.A.', 'dicembre→___', 'domenica.B']
+--- P4 Sport: md-only tokens 151 | pdf-only tokens 15
+   md-only: ['Sport', 'A', 'A', 'di', 'in', 'a', '29', 'imbattuta', 'Como', '31', 'Il', 'Fiorentina', '5', 'ha', 'ha', 'ha', 'ha', 'sono', 'sono', 'girone', 'numero.', 'Spitzenspiel', 'punti', 'DU?', 'Mehrfachauswahl]', 'Mehrfachauswahl]', 'Mehrfachauswahl]', 'Mehrfachauswahl]', 'Mehrfachauswahl]', 'B']
+   pdf-only: ['numero.di', 'puntiimbattuta', 'DU?Fiorentina', '4', 'EinsetzenA', '→La', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'sconfitte·', 'EinsetzenIl']
+--- P5 Giovani: md-only tokens 148 | pdf-only tokens 21
+   md-only: ['Giovani', 'BookCity', 'Torino', 'Torino', 'lettura:', 'libri', 'della', 'edizione,', 'libri,', '1.360', 'protagonisti', 'in', 'in', 'in', 'in', 'alle', 'Premio', 'alla', 'Film', 'Film', 'incontri', 'A', 'A', 'Filmmaker', 'Filmmaker', 'novembre.', 'Festival', 'Festival', 'Festival', 'eröffnet']
+   pdf-only: ['inlettura:', 'NUMERIlibri,', 'dellalibri', 'Filmmakeralle', 'novembre.Premio', 'DU?alla', 'uns.edizione,', '5', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'falsch', 'falsch', 'falsch']
+--- P6 Approfondimento: md-only tokens 151 | pdf-only tokens 18
+   md-only: ['Approfondimento', 'manovra', 'in', 'in', 'lettura:', 'bilancio', 'che', 'che', 'che', 'che', 'una', 'una', 'deficit', 'commissioni', 'termine', 'finanziario,', 'scaglione', 'più', '«la', 'das', 'noch', 'Ausgabe', 'kein', 'der', 'der', 'devono', '≠', '≠', '≠', 'LEGGE']
+   pdf-only: ['finanziario,lettura:', 'devonouna', 'Ausgabecommissioni', 'diebilancio', 'dertermine', '≠LEGGE', '≠«la', '≠una', '6', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'piùLa']
+--- P7 Lingua: md-only tokens 111 | pdf-only tokens 22
+   md-only: ['Lingua', 'andremo', 'assaggeremo', 'guarderemo', '→', '→', '→', '→', '→', '→', '→', 'andrò,', 'assaggerò,', 'guarderò.', 'BookCity,', 'che', 'che', 'che', 'che', 'è', 'è', 'è', 'leggerò.', 'Pläne', 'Futur', 'assaggeremo,', '(andare,', 'Futur,', 'Futur,', 'Futur,']
+   pdf-only: ['→«La', '→andrò,', '→assaggerò,', '→guarderò.', '→«È', 'vinca.»BookCity,', 'congiuntivo.leggerò.', 'unverändert.Pläne', 'Cremona.»assaggeremo,', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', 'Einsetzen', '→«Ieri', '→«Il', 'WOCHEA', '7']
+--- P8 Valutazione e risposte: md-only tokens 405 | pdf-only tokens 56
+   md-only: ['Valutazione', 'e', 'risposte', 'della', 'della', 'della', '+', '+', '+', '+', '+', 'le', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]', 'Lückentext-Auswahl]']
+   pdf-only: ['bilden', 'bilden', 'bilden', 'bilden', '?→___', '6', 'Cremona→___', 'Ins', 'Ins', 'Ins', 'Ins', 'übersetzen', 'übersetzen', 'übersetzen', 'votivo.→', 'übersetzenLa', 'Atalanta–Inter.→___', '→___', '→___', 'Schreiben', 'parole:La', 'assaggi.B.', 'zuordnenBookCity', 'lenovembre)', 'MadonnaIl', 'allaB', 'redditoLa', 'nessunopunti', "«LaL'Inter", 'FRASIEurochocolate']

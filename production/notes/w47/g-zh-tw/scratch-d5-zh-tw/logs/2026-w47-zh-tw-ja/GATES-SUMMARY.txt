@@ -1,0 +1,69 @@
+===== stage1 2026-w47-zh-tw-ja 2026-11-12T09:50:42Z =====
+/dev/mapper/rv  150G   92G   58G  62% /home/hatch
+install --check (reader=ja) RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/svglib.py (target=zh-tw reader=ja mode=cjk): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK TC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'cjk'; Page.text italic covers sans_noto_i; updated sans comment; CJK index TC -> JP; kinsoku already present (skip port)
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/svglib.py (target=zh-tw reader=ja mode=cjk): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK TC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'cjk'; Page.text italic covers sans_noto_i; updated sans comment; CJK index TC -> JP; kinsoku already present (skip port)
+54:#        _D5_READER: latin/cjk readers — Latin/digits/punct in the Newsreader
+93:# _D5_READER is rewritten by this installer (mechanism/apply_variant.py)
+100:_D5_READER = "cjk"
+140:    # (1) _D5_READER == "ru" routes Latin AND Cyrillic to Noto Sans;
+152:    if _D5_READER == "ru":
+TOTAL 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check (patched run.log) RC=0
+HEAD CHECK PASS 0 defects
+head_check base log RC=0 (record only; pre-existing findings, if any, are fixed by this rebuild)
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/Lucerna-VOL4-JA-web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+freeze baseline RC=0
+  OK  p8-test.svg core b8b1a1f3c15e7599 produced b8b1a1f3c15e7599
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff vs BASE RC=0
+p7: +121 strings / -27 strings; CJK core 1805 -> edition 1805; added CJK chars: 0 ; added Latin strings: 11 (unexpected 11)
+p8: +922 strings / -170 strings; CJK core 3402 -> edition 3402; added CJK chars: 0 ; added Latin strings: 109 (unexpected 109)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 155 (unexpected 155)
+added CJK vs base (excl U+3000): {}
+spill RC=0
+   ABOVE -24.45px x=1461.5 y=1189.7 [observe] 'なる。これで文を作ってみよう。'
+SPILL_SWEEP 2026-w47-zh-tw-ja: 36 boxes, 146 candidates, 0 SPILL, 146 OBSERVE
+boxtitle RC=0
+== 2026-w47-zh-tw-ja  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-zh-tw/scratch-fanout-zh-tw/backup/2026-w47-zh-tw-ja
+BOXTITLE 2026-w47-zh-tw-ja: 25 titles, 897 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-zh-tw-ja: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=506 median=1.006 boldT=1.04 boldF=1.001
+P8 p8-test.svg: lines 126->126 slack_footer 50.3->50.3
+CREAMBOX PASS 0 defects
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes census RC=0 (0 = 0 defects)
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+1f61f431d75eb60ceb7d130f9e1f8498a812a1f0352d4cba6e50100955f81efc  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/Lucerna-VOL4-JA.pdf
+94b53a518bb0954494ef414b57ddbc678e173450d3c91d39ff0deeb8122d968c  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/Lucerna-VOL4-JA-web.pdf
+2447140 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/Lucerna-VOL4-JA-web.pdf
+16365732 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ja/Lucerna-VOL4-JA.pdf
+textcheck RC=0
+post-print chars=18668 post-web chars=18668 pre-print chars=18668
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+P8 lines/slack: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 645, 'last_baselines': [2513.6, 2513.6, 2514.2, 2542.2, 2542.2, 2542.7], 'last_strings': ['38. 鹽埕 — 塩埕は祭りの地区のひとつだ。', '116. B — 鋼雕芸術祭は11月22日に閉幕、15日ではない。', 'だ。', '39. 默片 — 初期の映画は白黒で無声だった。', '117. A — 小雪は11月22日です。', '78. A — 11月17日〜22日は両端を含めて6日間だ。'], 'max_ink_bottom': 2545.7, 'slack_to_footer_rule_2596': 50.3, 'slack_to_page_bottom_2700': 154.3}, 'patch': {'n_flow_elements': 1389, 'last_baselines': [2542.7, 2542.7, 2542.7, 2542.7, 2542.7, 2542.7], 'last_strings': ['17', '日〜', '22', '日は両端を含めて', '6', '日間だ。'], 'max_ink_bottom': 2545.7, 'slack_to_footer_rule_2596': 50.3, 'slack_to_page_bottom_2700': 154.3}, 'lines_base': 126, 'lines_patch': 126}
+OVERALL: ALL-GREEN

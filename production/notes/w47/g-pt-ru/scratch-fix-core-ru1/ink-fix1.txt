@@ -1,0 +1,11 @@
+SVG D rows (new):
+  2124.0 [(1473.5, 'a. '), (1496.0, 'День'), (1553.5, ' '), (1559.1, 'психолога')]
+  2162.0 [(1473.5, 'b. '), (1497.7, 'День'), (1555.2, ' '), (1560.8, 'студента')]
+  2200.0 [(1473.5, 'c. '), (1495.3, 'Всемирный'), (1632.7, ' '), (1638.2, 'день'), (1693.4, ' '), (1699.0, 'ребёнка')]
+  2238.0 [(1473.5, 'd. '), (1498.1, 'день'), (1553.3, ' '), (1558.9, 'рождения'), (1676.6, ' '), (1682.2, 'Деда'), (1736.5, ' '), (1742.1, 'Мороза')]
+b row concatenated: 'b. День студента' advance w=190.8 right edge=1664.2 clearance=+197.8
+PIL true-ink on new card:
+ a baseline 2124: ink right edge x=1681 clearance vs 1862: +181  ink rows 2107..2128
+ b baseline 2162: ink right edge x=1666 clearance vs 1862: +196  ink rows 2145..2167
+ c baseline 2200: ink right edge x=1793 clearance vs 1862: +69  ink rows 2181..2205
+ d baseline 2238: ink right edge x=1828 clearance vs 1862: +34  ink rows 2221..2243

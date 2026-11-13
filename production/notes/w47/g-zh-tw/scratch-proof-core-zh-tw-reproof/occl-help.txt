@@ -1,0 +1,51 @@
+usage: occlusion_audit.py [-h] [--core CORE] [--json JSON_OUT] [--selftest]
+                          [svgdir]
+
+occlusion_audit.py — THE canonical geometric occlusion audit for Lucerna Weekly.
+
+Consolidates the method that a dozen hand-rolled audit scripts re-derived
+(two of them wrongly). Rules baked in from the programme's defect history:
+
+  * Glyph boxes are TRUE INK boxes from PIL/FreeType (font.getbbox), NOT
+    advance width (getlength) and NOT the -0.88em/+0.30em em band. The
+    advance-width method shipped a false pass on zh-TW×IT P7
+    «Struttura della settimana» (ink touched the border at x 1885-1886
+    while advance width cleared it); the em band over-flags the P1
+    masthead/subtitle pair whose real ink has 20+ clear rows.
+  * Line/rect border boxes are EXPANDED by half the stroke width. A
+    zero-height <line> box can never intersect anything — that blind spot
+    shipped a struck-through caption in EN×PT P6.
+  * Bold (font-weight=700) texts are parsed and measured with the Bold
+    face. (An early audit regex silently skipped bold elements.)
+  * Nested <svg> viewports and <g transform="..."> are mapped to page
+    coords before any box is compared. The P1 moth brand mark is a nested
+    <svg viewBox="64 120 384 284"> with a mirrored wing group; its LOCAL
+    coords read as page coords produced a false 89% COVER on W47 IT x JA
+    P1 (the moth body vs the masthead band's リ). The synthetic selftest
+    carries a nested-svg regression case for this.
+  * Footer band rule at y=2596 (page 1950x2700, footer baseline 2624 is
+    exempt — the footers live below the rule by design).
+
+Classes: COVER (later opaque shape covers >=30% of a text's ink),
+LINEX (later line / thin rect crossing a text's ink), FOOTER (ink below
+y=2596, footer texts exempt), EDGE (ink past the page edge), TEXTX
+(text-ink vs text-ink overlap), BOXTITLE (a text's ink crossing the
+borders of the bordered box painted just before it that contains it).
+
+Usage:
+    occlusion_audit.py <svg-dir|edition-dir> [--core <svg-dir>] [--json out.json]
+    occlusion_audit.py --selftest
+Exit: 0 clean · 1 flags found (with --core: NEW flags found) · 2 selftest failed.
+A real run executes the synthetic selftest first and refuses to report
+if it fails. Flags always require pixel adjudication before fixing —
+this tool is the gate, not the verdict.
+Run with tools/venv/bin/python.
+
+positional arguments:
+  svgdir           edition dir (containing svg/) or svg dir
+
+options:
+  -h, --help       show this help message and exit
+  --core CORE      core svg/edition dir: flags also present there are not NEW
+  --json JSON_OUT  write JSON report to this path
+  --selftest       run only the synthetic selftest

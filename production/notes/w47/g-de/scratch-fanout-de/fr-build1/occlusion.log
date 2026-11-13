@@ -1,0 +1,30 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-fr/svg: 28 flags {'COVER': 3, 'EDGE': 2, 'LINEX': 10, 'TEXTX': 13}
+  [COVER] p1-front.svg 'B1' — 100% of ink covered by later rect box [989.0, 1828.0, 1049.0, 1858.0]
+  [LINEX] p1-front.svg 'B1' — later line box [87.4, 1843.4, 1862.6, 1844.6] crosses ink
+  [LINEX] p1-front.svg '5.' — later line box [87.4, 1843.4, 1862.6, 1844.6] crosses ink
+  [LINEX] p1-front.svg 'B1' — later line box [87.4, 1843.4, 1862.6, 1844.6] crosses ink
+  [LINEX] p1-front.svg '6.' — later line box [87.4, 1843.4, 1862.6, 1844.6] crosses ink
+  [EDGE] p1-front.svg 'Les cinq questions brûlantes de la semaine en Allemagne.' — ink box (1461.5, 1258.25, 1969.5, 1278.75) outside page 1950.0x2700.0
+  [LINEX] p1-front.svg 'page 5.' — later line box [87.4, 1843.4, 1862.6, 1844.6] crosses ink
+  [TEXTX] p1-front.svg '6.' — ink overlaps '5.' by 22.0x18.0px
+  [TEXTX] p1-front.svg 'B1' — ink overlaps 'B1' by 24.3x14.0px
+  [TEXTX] p1-front.svg 'Deutschland hat nach vier Spielen ___' — ink overlaps 'Der erste Advent ist am ___.' by 275.8x19.2px
+  [TEXTX] p1-front.svg 'Deutschland hat nach vier Spielen ___' — ink overlaps 'EINE WOCHE, ZWEI STIMMUNGEN' by 379.0x3.0px
+  [TEXTX] p1-front.svg 'EINE WOCHE, ZWEI STIMMUNGEN' — ink overlaps 'Punkte.' by 78.5x10.3px
+  [COVER] p4-sport.svg 'en allemand !' — 43% of ink covered by later rect box [88.0, 1156.0, 1862.0, 1200.0]
+  [LINEX] p5-jugend.svg 'des Christkinds“.' — later line box [87.0, 1743.0, 1863.0, 1745.0] crosses ink
+  [COVER] p5-jugend.svg 'B1' — 100% of ink covered by later rect box [1439.5, 2560.0, 1499.5, 2590.0]
+  [LINEX] p5-jugend.svg 'Hinter jedem Türchen wartet nichts.' — later line box [87.4, 2595.4, 1862.6, 2596.6] crosses ink
+  [LINEX] p5-jugend.svg 'Die Kinder schreiben ihren Wunschzettel' — later line box [87.4, 2595.4, 1862.6, 2596.6] crosses ink
+  [TEXTX] p5-jugend.svg 'Bild: Richard Ernst Kepler, 1903 — public domain' — ink overlaps 'Réponses page 8\u3000Les niveaux se mélangent' by 349.8x8.0px
+  [TEXTX] p5-jugend.svg '81.' — ink overlaps '82.' by 36.0x18.2px
+  [TEXTX] p5-jugend.svg 'Vrai ou faux ?' — ink overlaps 'Vrai ou faux ?' by 118.5x16.0px
+  [TEXTX] p5-jugend.svg 'B1' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p5-jugend.svg 'Hinter jedem Türchen wartet nichts.' — ink overlaps 'Die Kinder schreiben ihren Wunschzettel' by 368.2x16.2px
+  [TEXTX] p5-jugend.svg 'Hinter jedem Türchen wartet nichts.' — ink overlaps 'Page 5 sur 8' by 39.2x4.0px
+  [TEXTX] p5-jugend.svg 'Richtig oder falsch?' — ink overlaps 'an das Christkind. Richtig oder falsch?' by 199.8x21.8px
+  [EDGE] p6-vertiefung.svg "ÜBUNGSDATEN\u3000Données d'exercice — Diese Zahlen sind ein Übung" — ink box (88.0, 1638.25, 2086.25, 1661.0) outside page 1950.0x2700.0
+  [LINEX] p7-sprache.svg "Noël. Calendrier de l'Avent." — later line box [87.0, 1547.0, 1863.0, 1549.0] crosses ink
+  [LINEX] p8-uebungen.svg 'sing.))·148. A (schaue (1re pers. du sing.))·149. A (lese (1' — later line box [87.4, 2595.4, 1862.6, 2596.6] crosses ink
+  [TEXTX] p8-uebungen.svg "sing.))·150. Exercice libre — suivez les points de l'encadré" — ink overlaps 'Page 8 sur 8' by 91.8x8.9px

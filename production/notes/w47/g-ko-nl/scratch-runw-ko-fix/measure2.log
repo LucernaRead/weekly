@@ -1,0 +1,80 @@
+=== Q1. flank table: sans NotoSansCJK, 19.5pt (delta = getlength - sum) ===
+  '가 나'                  gl=  41.33 sum=  40.25 delta=+1.08
+  '가  나'                 gl=  44.62 sum=  44.62 delta=+0.00
+  '가. 나'                 gl=  45.67 sum=  45.67 delta=+0.00
+  '가, 나'                 gl=  45.67 sum=  45.67 delta=+0.00
+  '가: 나'                 gl=  45.67 sum=  45.67 delta=+0.00
+  '가; 나'                 gl=  45.67 sum=  45.67 delta=+0.00
+  '가 1'                  gl=  33.14 sum=  33.14 delta=+0.00
+  '1 나'                  gl=  33.14 sum=  33.14 delta=+0.00
+  '1 2'                  gl=  26.03 sum=  26.03 delta=+0.00
+  '가 A'                  gl=  34.17 sum=  34.17 delta=+0.00
+  'A 나'                  gl=  34.17 sum=  34.17 delta=+0.00
+  'A B'                  gl=  29.05 sum=  29.05 delta=+0.00
+  '가\u3000나'             gl=  55.38 sum=  55.38 delta=+0.00
+  '가 \u3000나'            gl=  59.75 sum=  59.75 delta=+0.00
+  '가\u3000 나'            gl=  59.75 sum=  59.75 delta=+0.00
+  '중 文'                  gl=  41.81 sum=  41.81 delta=+0.00
+  '中文 测试'                gl=  82.38 sum=  82.38 delta=+0.00
+  'あ う'                  gl=  43.38 sum=  43.38 delta=+0.00
+  'あいう うえ'               gl= 101.88 sum= 101.88 delta=+0.00
+  '가 나 다'                gl=  64.72 sum=  62.56 delta=+2.16
+  '나. ('                 gl=  34.33 sum=  34.33 delta=+0.00
+  '가 (나'                 gl=  46.84 sum=  46.84 delta=+0.00
+  '가) 나'                 gl=  46.84 sum=  46.84 delta=+0.00
+  '가\u200b나'             gl=  35.88 sum=  35.88 delta=+0.00
+  '가\xa0나'               gl=  41.33 sum=  40.25 delta=+1.08
+
+=== Q2. serif CJK face (NotoSerifCJK), 19.5pt ===
+  '가 나'          gl=  43.73 sum=  42.67 delta=+1.06
+  '가나'           gl=  37.69 sum=  37.69 delta=+0.00
+  '가\u3000나'     gl=  57.19 sum=  57.19 delta=+0.00
+  '중 文'          gl=  43.33 sum=  43.33 delta=+0.00
+  '가. 나'         gl=  49.05 sum=  49.05 delta=+0.00
+  'Lucerna'      gl=  78.28 sum=  78.84 delta=-0.56
+
+=== Q2b. bold faces, 19.5pt ===
+  sans/sans bold '가 나': gl=41.33 sum=40.30 delta=+1.03
+  serif/serif bold '가 나': gl=43.73 sum=42.56 delta=+1.17
+
+=== Q3. ru-ko: delta distribution over Hangul-containing runs ===
+  Hangul runs: 680, min=+0.00 max=+8.62, negative: 0
+  Hangul+Latin-letter runs: 10, delta range +0.98..+2.08
+    mix +0.98 p7-yazyk.svg 24.0pt '\u3000다음 주 (VOL.5)'
+    mix +2.00 p7-yazyk.svg 20.0pt '집부 예시, VOL.5로 이어집니다.'
+    mix +2.08 p1-pervaya.svg 17.0pt 'Lucerna\u3000러시아어 주간지 VOL.4\u3000텍스트는 러시아어\u3000해설은 한국어'
+
+=== Q3b. ru-ja / ru-zh-tw: Hangul runs? old-vs-new(Hangul predicate)? ===
+  ru-ja: 8196 runs, Hangul-containing: 0, old-vs-new differ: 0
+  ru-zh-tw: 8273 runs, Hangul-containing: 0, old-vs-new differ: 0
+  ru-it: 7818 runs, Hangul-containing: 0, old-vs-new differ: 0
+  ru-pt: 7815 runs, Hangul-containing: 0, old-vs-new differ: 0
+  ru-nl: 7814 runs, Hangul-containing: 0, old-vs-new differ: 0
+
+=== Q4. Hangul in the 14 editions' text.md (does the branch fire elsewhere?) ===
+  2026-w47-de-ko: 2951 Hangul chars in text.md
+  2026-w47-en-ko: 3133 Hangul chars in text.md
+  2026-w47-es-ko: 3369 Hangul chars in text.md
+  2026-w47-fr-ko: 2367 Hangul chars in text.md
+  2026-w47-it-ko: 4813 Hangul chars in text.md
+  2026-w47-ja-ko: 3454 Hangul chars in text.md
+  2026-w47-ko-de: 8020 Hangul chars in text.md
+  2026-w47-ko-en: 8020 Hangul chars in text.md
+  2026-w47-ko-es: 8019 Hangul chars in text.md
+  2026-w47-ko-fr: 8020 Hangul chars in text.md
+  2026-w47-ko-it: 8020 Hangul chars in text.md
+  2026-w47-ko-ja: 8020 Hangul chars in text.md
+  2026-w47-ko-nl: 8020 Hangul chars in text.md
+  2026-w47-ko-pt: 8020 Hangul chars in text.md
+  2026-w47-ko-ru: 8020 Hangul chars in text.md
+  2026-w47-ko-zh-tw: 8020 Hangul chars in text.md
+  2026-w47-nl-ko: 3860 Hangul chars in text.md
+  2026-w47-pt-ko: 1023 Hangul chars in text.md
+  2026-w47-ru-ko: 4112 Hangul chars in text.md
+  2026-w47-zh-cn-ko: 5467 Hangul chars in text.md
+  2026-w47-zh-tw-ko: 4684 Hangul chars in text.md
+  core-ko: 8066 Hangul chars in text.md
+  (editions not listed: 0 Hangul chars)
+
+=== Q5. ru-ko: old-vs-new(Hangul predicate) run count ===
+  8698 runs total, 164 change under the Hangul-predicate fix (== 680 Hangul runs; all changes are Hangul runs)

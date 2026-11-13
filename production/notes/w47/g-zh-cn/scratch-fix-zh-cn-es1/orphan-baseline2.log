@@ -1,0 +1,13 @@
+model-para first-line hits: 1
+  x=1439.5 y=816.2 size=18.5 | 'Respuesta modelo: '
+  baselines at column start: [816.2, 840.2, 864.3, 888.3, 912.4, 936.4, 960.5]
+    y=816.2  | 'Respuesta modelo: 这一周是小雪那一周。星期日'
+    y=840.2  | '凌晨3点，我想早起看S16总决赛，BLG对GEN。星'
+    y=864.3  | '期一，我的包裹到了，我用取件码打开快递柜，拿'
+    y=888.3  | '到了书。星期六，我和妈妈一起去看电影《试探'
+    y=912.4 ORPHAN | '》，故事很有意思。星期日是小雪，天气更冷了，我'
+    y=936.4  | '加了一件厚外套。这一周，又忙又开心，天冷了，'
+    y=960.5  | '我要多穿衣服，不着凉。'
+--- full-page leading-punctuation scan ---
+  ORPHAN y=912.4 | '》，故事很有意思。星期日是小雪，天气更冷了，我'
+  total orphan lines on page: 1

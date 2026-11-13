@@ -1,0 +1,24 @@
+text.md lines: 838
+L459: '### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · УЧЕБНЫЕ ДАННЫЕ · PRACTICE DATA' contains=True
+L504: '### ЯЗЫК · LANGUAGE — Фокус на язык · Три уровня, три темы · Three levels, three' contains=True
+L596: '### ТЕСТ И ОТВЕТЫ · TEST AND ANSWERS — PAGE 8 · Большой тест недели + все ответы' contains=True
+D1 disclaimer in text.md? False
+SVG p6 has 'УЧЕБНЫЕ ДАННЫЕ': False
+SVG p7 has 'Три уровня, три темы': False
+SVG p8 has 'Большой тест недели': False
+P6 svg disclaimer fragment 'не настоящая статистика' or 'учебн': False | has УЧЕБНЫЕ ДАННЫЕ: False
+full phrase 'Международный день студента' in text.md: 2 core: 2
+'День студента' count text.md: 11
+Q25 option check L187: 25. 17 ноября — День студента (key b · Students' Day b)
+'желании' count text.md: 2 core: 2
+p8 key20 ed: желании core: желании
+p8 keys total: 150
+literal ___ in text.md: 87
+p1-pervaya.svg: real CJK chars=0 [] U+3000 x21
+p2-zhizn.svg: real CJK chars=0 [] U+3000 x16
+p3-kultura.svg: real CJK chars=0 [] U+3000 x13
+p4-sport.svg: real CJK chars=0 [] U+3000 x16
+p5-molodezh.svg: real CJK chars=0 [] U+3000 x13
+p6-razbor.svg: real CJK chars=0 [] U+3000 x16
+p7-yazyk.svg: real CJK chars=0 [] U+3000 x13
+p8-test.svg: real CJK chars=0 [] U+3000 x15

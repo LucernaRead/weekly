@@ -1,0 +1,8 @@
+    if _D5_READER == "ru":
+        if cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"
+    else:
+        if cp in _CMAP["news_b" if bold else "news"]:
+            return "news"
+        if cp in _CYR and cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"

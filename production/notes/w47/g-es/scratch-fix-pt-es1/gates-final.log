@@ -1,0 +1,32 @@
+===== F1 gates.py (production)
+[PASS] images embedded + credits 5/5 :: {'P1 capoeira + credit': True, 'P3 zumbi + credit': True, 'P5 estudo + credit': True, 'P7 lusiadas + credit': True, 'P8 garrincha + credit': True}
+[PASS] P7 quotes clear of preview box :: max quote-region baseline 2380.67
+[PASS] P1 headline <= 56 non-space chars :: 41 chars
+FAILURES: none
+gates rc=0
+===== F2 boxtitle trueink (production)
+  box x=1440..1862 y=1874 title y=1914.0 fs=23.0 bold=True trueink_right=1848.5 clear=+13.5 | 'EM POUCAS PALAVRAS\u3000EN BREVE'
+TRUE-INK OVERFLOWS: 0
+===== F3 check_s11_pt (production)
+P8 Escritura head row: ['“Apunta tus respuestas y revísalas cuando salga la clave oficial.”', 'B1', '150.', 'Escritura']
+P8 Escritura [B1] head present
+ALL §1.1/P8 CHECKS PASS
+s11 rc=0
+===== F4 pdftoppm production print PDF + pdf_render_titles
+print-p-1.png
+print-p-2.png
+print-p-3.png
+  box x=1440..1862 title y=1914.0 pdf-ink-right=1848 clear=+14 | 'EM POUCAS PALAVRAS\u3000EN BREVE'
+PDF-RENDER TITLE OVERFLOWS: 0
+D1 P1 EM-BREVE bottom 2348: last ink row <= bottom: 2331; dark rows below bottom: {2349: 422, 2350: 422, 2369: 2, 2370: 4, 2371: 17, 2372: 26, 2373: 15, 2374: 13, 2375: 166, 2376: 214, 2377: 112, 2378: 113, 2379: 132, 2380: 177, 2381: 113, 2382: 105, 2383: 112, 2384: 179, 2385: 192, 2386: 10, 2387: 10, 2388: 10, 2389: 13, 2390: 8}
+D2 P3 schedule bottom 551: last ink row <= bottom: 539; dark rows below bottom: {}
+D3 P6 timeline bottom 854: last ink row <= bottom: 844; dark rows below bottom: {}
+===== F5 p1 render identical to build-copy render
+production p1 render == build-copy p1 render
+===== F6 p8 compare (production svg)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg/p8-avaliacao.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-pt-es/svg/p8-avaliacao.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+===== F7 freeze baseline edition (production dir as build)
+  OK  p8-avaliacao.svg core 0febf48d39e58497 produced 0febf48d39e58497
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

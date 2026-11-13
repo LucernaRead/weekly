@@ -1,0 +1,18 @@
+REG 150 SRC 150 align mismatches: 0
+keycheck ok: 149 /150  fail: 1
+  KEYFAIL {'n': 150, 'key': '(开放题，范文如下)', 'p8': False, 'p8seg': '', 'textmd': False}
+orphans per page:
+  P1 badges=10 reg=10 only_svg=[] only_reg=[]
+  P2 badges=14 reg=18 only_svg=[] only_reg=[25, 26, 27, 28]
+  P3 badges=14 reg=18 only_svg=[] only_reg=[43, 44, 45, 46]
+  P4 badges=14 reg=18 only_svg=[] only_reg=[61, 62, 63, 64]
+  P5 badges=14 reg=18 only_svg=[] only_reg=[79, 80, 81, 82]
+  P6 badges=14 reg=18 only_svg=[] only_reg=[97, 98, 99, 100]
+  P7 badges=12 reg=12 only_svg=[] only_reg=[]
+P8 numbers missing from 'N.' scan: []
+pair groups: 5
+   content12.py:282 n= [25, 26, 27, 28] keys= ['a', 'b', 'c', 'd'] perm_ok= True
+   content34.py:106 n= [43, 44, 45, 46] keys= ['b', 'd', 'a', 'c'] perm_ok= True
+   content34.py:223 n= [61, 62, 63, 64] keys= ['d', 'b', 'c', 'a'] perm_ok= True
+   content56.py:101 n= [79, 80, 81, 82] keys= ['c', 'b', 'd', 'a'] perm_ok= True
+   content56.py:227 n= [97, 98, 99, 100] keys= ['c', 'd', 'a', 'b'] perm_ok= True

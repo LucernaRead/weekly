@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+title node x,y: 1461.5 1474 text: 耶誕城小檔　クリスマスランド案内
+P2 Xmas-file title pixel probe (box right=1862.0): clip-svg x[1439.5,1950] y[1444.0,1484.0] rightmost dark px x=419 (svg coords, clip origin 1439.5) -> abs 1858.5; bottom dark y=1475.0
+   top-5 rightmost dark x: [415, 416, 417, 418, 419]
+P1 note1 node x,y: 106.0 1075.54
+P1 note1 first-line pixel probe (box right=1411.5): clip-svg x[88,1450] y[1045.54,1085.54] rightmost dark px x=1305 (svg coords, clip origin 88) -> abs 1393; bottom dark y=1076.54
+   top-5 rightmost dark x: [1301, 1302, 1303, 1304, 1305]
+P8 lines crossing their column right edge: 10
+   (0, 118.0, 142.0, 159.5, '測驗與答案\u3000テストと解答')
+   (2, 1284.5, 168.0, 420.5, '第8版\u3000本週大測驗\u3000全部答案\u3000今週の大きなテストとすべての解答')
+   (0, 464.0, 1184.0, 393.5, '日你做了什麼？看了哪一件大事？天氣怎麼樣？寫')
+   (1, 944.9, 1184.0, 3.9, '～')
+   (0, 88.0, 1237.0, 72.75, 'モデル解答：早上我先列好清單，查好遊行路線和公車時間，才出門。')
+   (1, 855.2, 1237.0, 438.2, '點，我和家人去天母看封王遊行，大家都穿紅色衣服。晚上回家，我和爸爸一')
+   (0, 88.0, 1258.6, 601.5, '起看金馬獎轉播，等得獎名單揭曉。鋼雕藝術節也在這一天閉幕，我想下次去高雄看。一天看了兩件大事，天氣一天比一天冷，出門要記')
+   (0, 88.0, 1336.1999999999998, 244.5, '答案\u3000解答一覧——ページ順、各問に短い日本語の注釈つき')
+   (0, 88.0, 2624.0, 30.5, 'Lucerna\u3000繁體中文週報 VOL.4\u3000繁體中文正文\u3000日本語講解')
+   (3, 1690.8, 2624.0, 0.05, '第8ページ／全8ページ')
+P8 max ink right: 1862.05 (1690.8, 2624.0, 1862.05, '第8ページ／全8ページ')

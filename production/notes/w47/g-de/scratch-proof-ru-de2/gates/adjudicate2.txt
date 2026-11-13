@@ -1,0 +1,70 @@
+=== PART A v3: TEXTX per-row pixel adjudication (corrected row rule, thr 140) ===
+ 0 p1-pervaya.svg A='Зенит' (box 380,642-552,683) B='» ' (box 546,657-591,682) band y656-683 split_rows=26 touch_rows=0 dark_bg=False -> CLEAR
+ 1 p1-pervaya.svg A='Динамо' (box 671,643-897,694) B='» — ' (box 892,657-985,682) band y656-683 split_rows=28 touch_rows=0 dark_bg=False -> CLEAR
+ 2 p1-pervaya.svg A='тур' (box 226,653-326,696) B=': «' (box 321,656-380,682) band y655-683 split_rows=29 touch_rows=0 dark_bg=False -> CLEAR
+ 3 p1-pervaya.svg A='пятница' (box 1579,898-1672,913) B='»: ' (box 1669,899-1691,909) band y898-909 split_rows=12 touch_rows=0 dark_bg=False -> CLEAR
+ 4 p1-pervaya.svg A='третий' (box 244,1020-334,1045) B=', ' (box 330,1036-342,1043) band y1034-1044 split_rows=10 touch_rows=0 dark_bg=False -> CLEAR
+ 5 p1-pervaya.svg A='субботу' (box 407,1198-503,1225) B=',' (box 500,1216-506,1223) band y1214-1224 split_rows=10 touch_rows=0 dark_bg=False -> CLEAR
+ 6 p1-pervaya.svg A='Краснодар' (box 101,1200-234,1225) B='» — ' (box 231,1208-273,1218) band y1206-1219 split_rows=14 touch_rows=0 dark_bg=False -> CLEAR
+ 7 p1-pervaya.svg A='Краснодаре' (box 360,1670-505,1694) B=',' (box 502,1685-508,1692) band y1683-1693 split_rows=9 touch_rows=2 dark_bg=False -> REAL?
+ 8 p1-pervaya.svg A='!' (box 382,1780-390,1797) B='истории' (box 279,1784-386,1803) band y1783-1798 split_rows=15 touch_rows=1 dark_bg=False -> REAL?
+ 9 p1-pervaya.svg A='ЦСКА' (box 839,2403-901,2424) B='? A.' (box 898,2404-934,2419) band y2403-2420 split_rows=18 touch_rows=0 dark_bg=False -> CLEAR
+10 p2-zhizn.svg A='толерантности' (box 1654,278-1823,294) B='.' (box 1819,286-1824,289) band y285-290 split_rows=6 touch_rows=0 dark_bg=False -> CLEAR
+11 p2-zhizn.svg A='студента' (box 1654,341-1753,359) B='.' (box 1750,350-1756,353) band y348-353 split_rows=4 touch_rows=2 dark_bg=False -> REAL?
+12 p2-zhizn.svg A='студента' (box 367,416-478,435) B='.' (box 475,426-481,429) band y424-429 split_rows=5 touch_rows=1 dark_bg=False -> REAL?
+13 p2-zhizn.svg A='! ' (box 717,566-730,583) B='студента' (box 609,570-720,589) band y568-584 split_rows=17 touch_rows=0 dark_bg=False -> CLEAR
+14 p2-zhizn.svg A='студенту' (box 561,859-673,879) B=', ' (box 669,869-680,877) band y868-877 split_rows=10 touch_rows=0 dark_bg=False -> CLEAR
+15 p2-zhizn.svg A='спасибо' (box 88,1352-189,1372) B='.' (box 185,1369-191,1372) band y1368-1373 split_rows=4 touch_rows=0 dark_bg=False -> CLEAR
+16 p3-kultura.svg A='биография' (box 304,625-440,651) B=':' (box 434,634-441,645) band y632-646 split_rows=15 touch_rows=0 dark_bg=False -> CLEAR
+17 p3-kultura.svg A='посмотреть' (box 88,1211-234,1230) B=': ' (box 230,1212-243,1224) band y1211-1224 split_rows=14 touch_rows=0 dark_bg=False -> CLEAR
+18 p3-kultura.svg A=')' (box 664,2068-670,2085) B='посмотреть' (box 545,2071-667,2087) band y2070-2085 split_rows=16 touch_rows=0 dark_bg=False -> CLEAR
+19 p4-sport.svg A='место' (box 373,511-446,524) B='.' (box 443,521-449,524) band y519-524 split_rows=5 touch_rows=0 dark_bg=False -> CLEAR
+20 p4-sport.svg A='Краснодар' (box 101,579-234,603) B='» ' (box 231,586-250,597) band y584-597 split_rows=13 touch_rows=1 dark_bg=False -> REAL?
+21 p4-sport.svg A='Краснодар' (box 101,686-234,710) B='» — ' (box 231,693-273,704) band y691-704 split_rows=13 touch_rows=1 dark_bg=False -> REAL?
+22 p4-sport.svg A='Россия' (box 595,1435-668,1450) B=', ' (box 665,1447-675,1454) band y1446-1451 split_rows=6 touch_rows=0 dark_bg=False -> CLEAR
+23 p4-sport.svg A='истории' (box 1122,1468-1213,1484) B='; ' (box 1210,1469-1221,1483) band y1468-1483 split_rows=16 touch_rows=0 dark_bg=False -> CLEAR
+24 p4-sport.svg A='Краснодар' (box 1042,2215-1175,2240) B='»' (box 1172,2222-1185,2233) band y2221-2234 split_rows=14 touch_rows=0 dark_bg=False -> CLEAR
+25 p4-sport.svg A='ЦСКА' (box 416,2229-474,2247) B='? A.' (box 471,2230-504,2243) band y2228-2244 split_rows=16 touch_rows=0 dark_bg=False -> CLEAR
+26 p5-molodezh.svg A='пятница' (box 239,214-389,238) B='»:' (box 384,217-412,232) band y215-233 split_rows=19 touch_rows=0 dark_bg=False -> CLEAR
+27 p5-molodezh.svg A='смартфоны' (box 808,812-953,838) B=',' (box 948,828-954,836) band y827-836 split_rows=10 touch_rows=0 dark_bg=False -> CLEAR
+28 p6-razbor.svg A='студента' (box 316,742-427,761) B=', ' (box 424,752-435,759) band y750-760 split_rows=9 touch_rows=1 dark_bg=False -> REAL?
+29 p6-razbor.svg A='сбивается' (box 1462,765-1573,783) B='.' (box 1570,780-1575,783) band y779-784 split_rows=4 touch_rows=0 dark_bg=False -> CLEAR
+30 p6-razbor.svg A='Планируйте' (box 198,1025-352,1050) B=': ' (box 349,1032-362,1044) band y1031-1044 split_rows=10 touch_rows=4 dark_bg=False -> REAL?
+31 p6-razbor.svg A='?\u3000' (box 530,1532-569,1552) B='НЕДЕЛЕ' (box 427,1533-533,1558) band y1531-1553 split_rows=22 touch_rows=0 dark_bg=False -> CLEAR
+32 p7-yazyk.svg A='ЯЗЫК' (box 118,107-255,143) B='\u3000SPRACHE' (box 251,107-510,143) band y106-143 split_rows=36 touch_rows=0 dark_bg=True -> CLEAR
+33 p7-yazyk.svg A='прессы' (box 1316,260-1397,277) B=',' (box 1394,269-1400,276) band y267-276 split_rows=9 touch_rows=0 dark_bg=False -> CLEAR
+34 p7-yazyk.svg A='!»' (box 1800,276-1819,291) B='студента' (box 1699,279-1803,297) band y278-292 split_rows=15 touch_rows=0 dark_bg=False -> CLEAR
+35 p7-yazyk.svg A='пресс' (box 1175,325-1239,342) B='-' (box 1236,331-1244,337) band y330-337 split_rows=8 touch_rows=0 dark_bg=False -> CLEAR
+36 p7-yazyk.svg A='пятница' (box 1720,463-1821,479) B='»' (box 1817,464-1830,475) band y463-475 split_rows=13 touch_rows=0 dark_bg=False -> CLEAR
+37 p7-yazyk.svg A='!» — ' (box 1558,1393-1602,1408) B='студента' (box 1462,1396-1561,1413) band y1394-1408 split_rows=14 touch_rows=1 dark_bg=False -> REAL?
+38 p7-yazyk.svg A='Кипренского' (box 440,1490-569,1509) B=', 1827 ' (box 565,1490-625,1508) band y1489-1508 split_rows=19 touch_rows=0 dark_bg=False -> CLEAR
+39 p7-yazyk.svg A='поступило' (box 1462,1549-1581,1566) B=': ' (box 1578,1550-1589,1561) band y1549-1561 split_rows=13 touch_rows=0 dark_bg=False -> CLEAR
+40 p8-test.svg A='ОТВЕТЫ' (box 285,107-480,143) B='\u3000TEST UND ANTWORTEN' (box 472,107-1046,143) band y106-143 split_rows=36 touch_rows=0 dark_bg=True -> CLEAR
+41 p8-test.svg A='\u3000LÖSUNGEN — NACH SEITEN GE' (box 190,1278-1062,1307) B='ОТВЕТЫ' (box 88,1283-194,1302) band y1282-1303 split_rows=21 touch_rows=0 dark_bg=False -> CLEAR
+PART A v3 totals: CLEAR=33 REAL?=9 UNRESOLVED=0 / 42
+
+=== PART B v2: smallest containing cream box, node x reported ===
+p1-pervaya.svg x=727 y=1241 size=23 '\u3000Der Spieltag in Zahlen' ink_right=997.6 :: past cream-box right 961.0 by +36.6 (box x=538 y=1204 w=422)
+PART B v2 done
+
+=== P1 rects (all) ===
+  rect x=88 y=470 w=1774.0 h=118 fill=#37402f
+  rect x=538.5 y=1203.735 w=422.5 h=380.0 fill=#f0eee5
+  rect x=538.5 y=1646.735 w=60 h=30 fill=#5c6e30
+  rect x=538.5 y=1732.51 w=60 h=30 fill=#5c6e30
+  rect x=989.0 y=832.18 w=60 h=30 fill=#5c6e30
+  rect x=989.0 y=917.9549999999999 w=60 h=30 fill=#5c6e30
+  rect x=989.0 y=1032.0049999999999 w=60 h=30 fill=#5c6e30
+  rect x=989.0 y=1146.055 w=60 h=30 fill=#46581f
+  rect x=1439.5 y=588 w=422.5 h=700 fill=#f0eee5
+  rect x=1439.5 y=1296 w=422.5 h=330 fill=#f0eee5
+  rect x=1439.5 y=1874 w=422.5 h=430 fill=#f0eee5
+  rect x=88.0 y=2366 w=60 h=30 fill=#5c6e30
+  rect x=538.5 y=2366 w=60 h=30 fill=#5c6e30
+  rect x=989.0 y=2366 w=60 h=30 fill=#5c6e30
+  rect x=1439.5 y=2366 w=60 h=30 fill=#5c6e30
+=== P2 y=2162 node detail ===
+  x=1473.5 y=2162 fam=Newsreader size=23 'b. '
+  x=1497.7 y=2162 fam=Noto Serif size=23 'День'
+  x=1555.2 y=2162 fam=Newsreader size=23 ' '
+  x=1560.8 y=2162 fam=Noto Serif size=23 'студента'

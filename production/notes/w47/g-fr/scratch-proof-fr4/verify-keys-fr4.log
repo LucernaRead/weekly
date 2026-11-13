@@ -1,0 +1,24 @@
+===== KIT '28.5pt' occurrences =====
+KIT L102: **未改动、记入此处的两项观察（不在协调员 8 项核对内；与 W46 做法相同）：** 字号阶梯——P1 显示标题 53px=39.75pt（规范头条 40–45pt，下限差 0.25pt），P2–P6 文章标题 `Flow.title` **实测 32px=24pt（规范次级标题 22.5–24pt，恰为上限，合规；KIT 旧称 38px=28.5pt 有误，2026-11-11 第二轮返修按 SVG 实测订正——8 个 SVG 中 `font-size="38"` 为 0
+KIT L124: - 第 5 轮（第二轮校对 D7/D8 返修，2026-11-11，build-fix2）：D7 4 词全部自然写进同页正文，不删译注——P1 头条首段「Premier titre à Paris, neuvième en Masters 1000.」→「Le vainqueur remporte son premier titre à Paris, le neuvième en Masters 1000.」（事实不变：巴黎首冠、第 9 个大师赛冠军，ATP/美联社已核）；P
+KIT L133: 4. **字号阶梯与中文数字空格两项观察**（见 §7）：P1 显示标题 39.75pt（规范下限差 0.25pt）、P2–P6 标题实测 32px=24pt（规范次级标题上限，合规；2026-11-11 第二轮返修已订正 KIT 旧称 28.5pt）、讲解层中文数字带空格，均沿用 W46 引擎既有做法，未动；请裁定是否全刊统一。
+
+===== VOL.4/VOL.5 full lines in .text.md =====
+L1: # Le Lucerna　法语周报 VOL.4
+L15: 法语周报　VOL.4　巴黎与参议院的一周
+L245: Et vous ? Racontez votre jeudi 19 novembre en deux phrases : une sortie, un film, ou une dégustation (pour les adultes) ? Les meilleurs textes paraîtront dans le VOL.5 (page 7).
+L497: Jeudi 12, à Milan, puis dimanche 15, à Bordeaux : deux soirs, deux matches, et une qualification à valider. Les résultats seront dans le VOL.5.
+L537: Les finales de Turin, dimanche 22 : le nom du vainqueur sera dans le VOL.5, avec les résultats des Bleus et de la 11e journée de Ligue 1.
+L939: Note de la rédaction : aucun texte du VOL.4 n'était arrivé au moment de mettre sous presse. Le VOL.5 reprendra la promesse.
+L941: 编辑部说明：截至付印，编辑部尚未收到 VOL.4 的投稿作文，故本期刊登标注明确的编辑部示例；VOL.5 将兑现点评真实投稿的承诺。
+L943: LA SEMAINE PROCHAINE　VOL.5 下周预告
+L957: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+L1043: Écrivez un petit texte (80 à 100 mots) : « Mon dimanche 22 novembre ». Racontez : une finale, une promenade, un film. Les meilleurs textes paraîtront dans le VOL.5 (page 7, « Le courrier des lecteurs »).
+L1083: 109. A（11 月 16 日是星期一）　110. B（庆典在博若莱）　111. A（结果见 VOL.5）　112. B（品尝语境 → goûté）　113. A（proposer 推出）　114. A（avoir + 过去分词（不配合））　115. B（les Bleus 复数 → jouent）　116. A（il écrit 他写）　117. A（都灵 15 日开赛）　118. A（新酒是 primeur）　119. B（投票在周三 18 日）　120. B（si + 半过去时 → 条件式）　121. A（主语三单 → semble）　122. B（法国队主语三单 → reçoit）　123. A（饥饿游戏前传）　124. C（博若莱新酒 19 日）　125. A（早上读报纸）　126. A（下午看都灵决赛）　127. A（马赛比赛 20 点 45）　128. A（周一要上学）　129. A（周一返校）　130. Le Sénat va voter mercredi.（aller + 原形）　131. Si tu venais dimanche, tu verrais les finales.（si + 半过去时）　132. Il a goûté le beaujolais à Beaujeu.（passé composé：a + 过去分词）　133. Selon moi, la semaine est bien remplie.（selon moi = 在我看来）　134. Il est prévu que le Sénat examine le texte mercredi.（il est prévu que + 虚拟式）　135. Regarder une finale, c'est déjà apprendre le français.（regarder une finale = 看决赛）　136. Il court plus vite que son frère.（比较级 plus vite）　137. Nous suivons le vote du Sénat depuis lundi.（depuis + 星期）　138. Ce soir, nous allons préparer nos affaires.（futur proche + préparer）　139. On ne connaît pas encore les résultats.（ne...pas encore = 尚未）　140. a（sénateur=参议员 a）　141. b（vainqueur=获胜者 b）　142. c（tirage=抽签 c）　143. d（primeur=新酒 d）　144. e（déchet=废弃物 e）　145. des billets（买电影票）　146. deux（两张票）　147. quelle heure（几点开场）　148. devant（电影院门口）　149. film（Bon film ! 好电影）　150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）
+
+===== Keys vs RÉPONSES (joined 'N. ' split) =====
+markers found: 150; numbers 1..150
+answers parsed: 150; missing numbers: []
+Q150: key='开放题' md='开放题' OK
+key-vs-textmd mismatches: 0
+noted_set size in final-fr-p8.json: 121

@@ -1,0 +1,91 @@
+== pages: {'p1-front.svg': 183, 'p2-life.svg': 219, 'p3-culture.svg': 208, 'p4-sport.svg': 223, 'p5-youth.svg': 190, 'p6-deep.svg': 212, 'p7-lang.svg': 229, 'p8-test.svg': 260}
+== encore occurrences in VISIBLE svg text ==
+  p7-lang.svg y=2196.9: "figurent, car aucune vraie lettre n'est encore"
+  p8-test.svg y=2178.6: 'continue encore) · 139. Le nouveau Congrès se réunira en janvier'
+== encore in text.md ==
+  line 879: "Cette lettre a été écrite par la rédaction, seulement pour montrer la forme. Ce n'est pas une lettre de lecteur. Ni nom ni ville n'y figurent, car aucune vraie lettre n'est encore arrivée."
+  line 1281: '138. [B2] Traduction — Le dépouillement continue. (continues = continue encore)'
+== encore changer anywhere (svg raw/text.md/content/registry) ==
+  encore changer files: 0
+== orphan punctuation: <text> elements that are ONLY a punct ==
+  orphan counts: {}
+== orphan lines in text.md (line == sole punct) ==
+  text.md orphan lines: 0
+== char counts (visible svg text) ==
+  “ : 82  ” : 82  U+2019: 0  ASCII ': 73  U+00B7: 282  U+3000: 141
+  real CJK in visible text: 0 Counter()
+  CJK in raw svg (incl <title>): {'三': 1, '色': 1, '蛾': 1}
+  Note | Note |: 0
+  banned 'TODO': 0
+  banned 'FIXME': 0
+  banned 'Lorem': 0
+  banned '占位': 0
+  banned 'SOP': 0
+  banned 'proofread': 0
+  banned 'cover': 0
+  banned 'bridge': 0
+  banned 'XXXX': 0
+  banned 'TBD': 0
+== VOL counts per page ==
+  p1-front.svg: VOL.4=3 VOL.5=0 VOL.3=0 VOL.2=0
+  p2-life.svg: VOL.4=1 VOL.5=1 VOL.3=0 VOL.2=0
+  p3-culture.svg: VOL.4=1 VOL.5=1 VOL.3=0 VOL.2=0
+  p4-sport.svg: VOL.4=1 VOL.5=0 VOL.3=0 VOL.2=0
+  p5-youth.svg: VOL.4=1 VOL.5=0 VOL.3=0 VOL.2=0
+  p6-deep.svg: VOL.4=1 VOL.5=2 VOL.3=1 VOL.2=0
+  p7-lang.svg: VOL.4=3 VOL.5=3 VOL.3=2 VOL.2=0
+  p8-test.svg: VOL.4=1 VOL.5=1 VOL.3=0 VOL.2=0
+== forbidden strings in visible text ==
+  'Perth is winning!': 0
+  'second week in Perth': 0
+  'Ashes begin': 0
+  'Arsenal are winning!': 1
+== P8 printed keys 39/40 in print pdf text ==
+  '39. a': 2
+  '39. d': 0
+  '40. a': 0
+  '40. d': 1
+== p8 extract vs registry ==
+  extract json keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+  extracted keys type: <class 'dict'>
+  key mismatches extract-vs-registry: [(150, "Tâche ouverte — points dans le cadre d'écriture ; texte modèle dans le cadre de cette page", 'Tâche ouverte')]
+  noted set size: 0
+== registry counts ==
+  n= 150 pages: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39} levels: {'A2': 62, 'B1': 66, 'B2': 22}
+== text.md ==
+  lines: 1305
+  answer appendix numbers: 158 continuous 1..150: False
+  text.md appendix vs registry mismatches: [(137, 'Les démocrates ont remporté la Chambre et le Sénat.', 'Les démocrates ont remporté la Chambre et le Sénat. (the House and the Senate = les deux chambres)'), (138, 'Le dépouillement continue.', 'Le dépouillement continue. (continues = continue encore)'), (139, 'Le nouveau Congrès se réunira en janvier 2027.', 'Le nouveau Congrès se réunira en janvier 2027. (will meet = se réunira)'), (140, 'Brisez le silence.', 'Brisez le silence. (Break the silence.)')]
+== P3 matching block (from text.md) ==
+  L1081: 38. [A2] Appariement — b (tribute = un tribut b)
+  L1083: 39. [A2] Appariement — a (mentor = un mentor a)
+  L1085: 40. [A2] Appariement — d (arena = l'arène d)
+  L1087: 41. [A2] Appariement — c (campmate = un camarade de camp c)
+== P3 matching block (from svg p3-culture visible text) ==
+  y=759.5: 'arena.'
+  y=975.9: 'Maysilee Donner, his fellow tribute'
+  y=1338.3: 'funny, clever mentor of the later'
+  y=1919.5: 'the campmates yet: the names will'
+  y=1262.1: 'Note | a tribute = un tribut choisi · a'
+  y=1291.8: 'mentor = un mentor · the arena ='
+  y=1321.5: "l'arène · a campmate = un camarade"
+  y=1958.2: 'Quell, sent... A. half as many tributes · B.'
+  y=881.7: '38–41.'
+  y=922.7: '38. a tribute'
+  y=959.7: '39. a mentor'
+  y=996.7: '40. the arena'
+  y=1033.7: '41. a campmate'
+  y=959.0: 'tributes as usual — four from each'
+  y=1352.8: 'Example: “A boy goes to the arena. The'
+== P8 answer block 38-41 (print pdf text) ==
+  40. the arena
+  41. a campmate
+  38. a tribute
+  39. a mentor
+  39. a · 40. d · 41. c · 42. Collins published the novel in 2025. ·
+== min font-size attr in svg ==
+  all pages min attr: 13.5
+  p8 min attr: 13.5
+== ABSTRACT ==
+  bytes: 775 lines: 2 has ASCII quote: False
+  Le Lucerna Hebdomadaire anglais VOL.4 : les résultats annoncés de l'élection américaine de mi-mandat du mardi 3 novembre — les démocrates remportent la Chambre et le Sénat, 254 sièges contre 162, cert

@@ -1,0 +1,15 @@
+ru items 150 core items 150
+stem string mismatches: 0
+--- key samples ru vs core (first 10) ---
+'T1' | 'T1'
+'15' | '15'
+'巴克莱' | '巴克莱'
+'三' | '三'
+'22' | '22'
+'21' | '21'
+'A' | 'A'
+'A' | 'A'
+'A' | 'A'
+'B' | 'B'
+level/type mismatches: 0
+note differs (expected, RU vs EN): 149

@@ -1,0 +1,50 @@
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1051 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=459 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2560)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=595 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2113 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=804 (bottom 1180)
+P4 col3 ends 1171.4499999999998
+  flow[P4-ex] ended col 2/3 y=2113 (bottom 2560)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=828 (bottom 1560)
+P5 col3 ends 1220.9499999999998
+  flow[P5-ex] ended col 2/3 y=2113 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 1/2 y=1149 (bottom 1180)
+P6 col3 ends 1127.0
+  flow[P6-ex] ended col 2/3 y=2053 (bottom 2560)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1180 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1307 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1314 (bottom 1560)
+P7 col3 ends 1675.5
+P7 image ends 1889.3000000000002
+P7 teaser ends 2583.3
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=965 (bottom 1300)
+P8 test flow ends col/y: 3 964.8
+P8 image ends 1270.6
+  flow[P8-keys] ended col 3/3 y=2522 (bottom 2560)
+P8 keys flow ends col/y: 3 2521.9
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 138
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 56, 'B1': 69, 'B2': 25}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 68, '单选': 50, '词汇配对': 20, '完形单选': 11, '写作': 1}
+ALL DONE

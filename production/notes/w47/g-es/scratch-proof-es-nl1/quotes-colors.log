@@ -1,0 +1,51 @@
+=== curly quotes in SVG <text> per page (U+201C/201D/2019) ===
+p1-portada.svg {'«': 1, '»': 1, '„': 1, '”': 1} total CJK-adjacent curly: 1
+p2-vida.svg {'«': 10, '»': 10} total CJK-adjacent curly: 0
+p3-cultura.svg {'«': 2, '»': 2} total CJK-adjacent curly: 0
+p4-deporte.svg {} total CJK-adjacent curly: 0
+p5-juventud.svg {'«': 1, '»': 1} total CJK-adjacent curly: 0
+p6-afondo.svg {'’': 1, '«': 3, '»': 3} total CJK-adjacent curly: 1
+   2019 ctx: 'n, programma’s en peiling'
+p7-lengua.svg {'«': 31, '»': 31} total CJK-adjacent curly: 0
+p8-ejercicios.svg {'«': 5, '»': 5, '„': 2, '”': 2} total CJK-adjacent curly: 2
+
+=== fonts used (font-family attrs) ===
+Counter({'Newsreader': 959, 'Noto Sans CJK SC': 637, 'Noto Serif CJK SC': 43, 'UnifrakturMaguntia': 1})
+
+=== colors used (fill=) ===
+  #302c28: 941
+  #46581f: 348
+  #6f675d: 267
+  #ffffff: 141
+  #5c6e30: 47
+  #37402f: 34
+  #f0eee5: 28
+  #f4efe1: 16
+  #f6e08e: 10
+  #fbfaf6: 8
+  #F1E8D4: 4
+  #34483A: 3
+  #f4efe0: 3
+  #efe8d2: 3
+  #4D72B4: 2
+  #7898CD: 2
+  #cac8ba: 2
+  #4F765D: 1
+  #84A283: 1
+  #D7B257: 1
+  #EDD17F: 1
+
+=== P8 chips ===
+rx=2.7 rects: 35
+chip fills: Counter({'#46581f': 21, '#5c6e30': 11, '#37402f': 3})
+header rects #37402f: 4
+
+=== P7 col3 banner (KIT 6.6) ===
+  col3 text: (989.0, 2153.18, 21.5, 'por correo.»')
+  col3 text: (989.0, 2202.85, 19.5, 'Stem je op 29 november voor het eerst? Twee manieren: in persoon of per post. (Pagina 5)')
+  col3 text: (989.0, 2251.5099999999998, 21.5, '«En campaña, no todo lo que se anuncia está cerrado.»')
+  col3 text: (989.0, 2301.18, 19.5, 'Tijdens de campagne is niet alles wat wordt aangekondigd al beslist. (Pagina 6)')
+  col3 text: (989.0, 2379.5099999999998, 21.5, '«Una encuesta es una foto con margen de error, tomada en un día concreto.»')
+  col3 text: (989.0, 2429.18, 19.5, 'Een peiling is een foto met foutmarge, genomen op één bepaalde dag. (Pagina 6)')
+  dark rects: [('88', '72', '1774', '110'), ('989.0', '693.1149999999999', '60', '30'), ('989.0', '785.3399999999999', '60', '30'), ('989.0', '907.29', '60', '30'), ('989.0', '999.515', '60', '30'), ('88', '2493.5099999999998', '1774.0', '118')]
+  bottom lines: [('88', '2596', '1862.0', '2596')]

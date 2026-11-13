@@ -1,0 +1,128 @@
+== ru stats {'KEEP': 17, 'REVERT': 45, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:58 [REVERT] OLD: f.ex("A2", "Дополните предложение", "16", "День фламенко: понедельник, 16 ноября",
+content12.py:58 [REVERT] NEW: f.ex("A2", "Дополните предложение", "16", "Международный день фламенко, понедельник, 16 ноября",
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "«Дебаты»: люди обсуждают публично.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "«Дебаты»: два человека или больше обсуждают публично, по очереди и с вопросами.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+content12.py:275 [REVERT] OLD: e.bridge("Прочитайте статью и выберите ответ.")
+content12.py:275 [REVERT] NEW: e.bridge("Прочитайте статью на странице 2 и выберите правильный ответ.")
+content12.py:276 [REVERT] OLD: e.ex("A2", "Выбор ответа", "B", "День фламенко: понедельник, 16 ноября",
+content12.py:276 [REVERT] NEW: e.ex("A2", "Выбор ответа", "B", "Международный день фламенко, понедельник, 16 ноября",
+content34.py:45 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы слушали фламенко? Какая музыка вашей страны — с дуэнде? Напишите два предложения и пришлите их.", "sans", False, 1
+content34.py:45 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы когда-нибудь слушали фламенко? Какая музыка вашей страны обладает дуэнде? Напишите два предложения и пришлите их."
+content34.py:51 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Вы слушали фламенко? Какая музыка вашей страны — с дуэнде? Напишите два предложения и пришлите их.", 19, "sans", False, GREY, CW - 44, 1.42)
+content34.py:51 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Вы когда-нибудь слушали фламенко? Какая музыка вашей страны обладает дуэнде? Напишите два предложения и пришлите их.", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:62 [REVERT] OLD: e.ex("A2", "Верно или неверно", "Verdadero", "День фламенко: понедельник, 16 ноября",
+content34.py:62 [REVERT] NEW: e.ex("A2", "Верно или неверно", "Verdadero", "Международный день фламенко, понедельник, 16 ноября",
+content34.py:64 [REVERT] OLD: e.ex("A2", "Верно или неверно", "Verdadero", "ЮНЕСКО: фламенко в наследии с 2010 года",
+content34.py:64 [REVERT] NEW: e.ex("A2", "Верно или неверно", "Verdadero", "В 2010 году ЮНЕСКО включило фламенко в список наследия",
+content34.py:66 [REVERT] OLD: e.ex("A2", "Верно или неверно", "Falso", "Фламенко: пение, гитара и танец вместе",
+content34.py:66 [REVERT] NEW: e.ex("A2", "Верно или неверно", "Falso", "Фламенко — не только танец: пение, гитара и танец вместе",
+content34.py:68 [REVERT] OLD: e.ex("B1", "Верно или неверно", "Falso", "День святой Цецилии — 22 ноября",
+content34.py:68 [REVERT] NEW: e.ex("B1", "Верно или неверно", "Falso", "День святой Цецилии — 22 ноября; она покровительница музыкантов",
+content34.py:70 [REVERT] OLD: e.ex("A2", "Верно или неверно", "Verdadero", "Оркестр Бильбао: воскресенье, 22-го, 12:00",
+content34.py:70 [REVERT] NEW: e.ex("A2", "Верно или неверно", "Verdadero", "Городской оркестр Бильбао играет в воскресенье, 22-го, в 12:00",
+content34.py:91 [REVERT] OLD: e.ex("B1", "Выбор ответа", "C", "Фламенко родилось из многих культур Андалусии",
+content34.py:91 [REVERT] NEW: e.ex("B1", "Выбор ответа", "C", "Фламенко родилось из встречи многих культур в Андалусии",
+content34.py:97 [REVERT] OLD: e.ex("A2", "Составьте предложение", "El flamenco es cante, toque y baile.", "Подлежащее, глагол",
+content34.py:97 [REVERT] NEW: e.ex("A2", "Составьте предложение", "El flamenco es cante, toque y baile.", "Подлежащее + глагол + сказуемое",
+content34.py:101 [REVERT] OLD: e.ex("B1", "Составьте предложение", "En Bilbao toca la banda el domingo.", "Место — впереди",
+content34.py:101 [REVERT] NEW: e.ex("B1", "Составьте предложение", "En Bilbao toca la banda el domingo.", "Место впереди, глагол вторым",
+content34.py:191 [REVERT] OLD: e.ex("B1", "Дополните предложение", "más importante", "más + importante (борьба за титул)",
+content34.py:191 [REVERT] NEW: e.ex("B1", "Дополните предложение", "más importante", "más + importante (борьба за первое место важнее)",
+content34.py:193 [REVERT] OLD: e.ex("B1", "Дополните предложение", "muchísimos", "muchísimos = очень много болельщиков",
+content34.py:193 [REVERT] NEW: e.ex("B1", "Дополните предложение", "muchísimos", "muchísimos aficionados = очень много болельщиков",
+content56.py:50 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два пр
+content56.py:50 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два пр
+content56.py:56 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два предложения и пришлите их.", 19, "sans", False, GREY, CW -
+content56.py:56 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два предложения и пришлите их.", 20, "sans", False, GREY, CW -
+content56.py:73 [REVERT] OLD: e.ex("B1", "Выбор ответа", "B", "MiDNI — новый способ подтвердить личность",
+content56.py:73 [REVERT] NEW: e.ex("B1", "Выбор ответа", "B", "MiDNI — новый способ подтвердить личность на голосовании в этом году",
+content56.py:86 [REVERT] OLD: e.ex("B1", "Дополните предложение", "identidad", "identidad = удостоверение личности",
+content56.py:86 [REVERT] NEW: e.ex("B1", "Дополните предложение", "identidad", "documento de identidad = документ, удостоверяющий личность",
+content56.py:103 [REVERT] OLD: e.ex("B1", "Верно или неверно", "Verdadero", "Голосование по почте — через Correos",
+content56.py:103 [REVERT] NEW: e.ex("B1", "Верно или неверно", "Verdadero", "Голосование по почте запрашивается в Correos",
+content56.py:107 [REVERT] OLD: e.ex("B1", "Верно или неверно", "Verdadero", "В этом году можно голосовать с MiDNI",
+content56.py:107 [REVERT] NEW: e.ex("B1", "Верно или неверно", "Verdadero", "В этом году можно голосовать, подтвердив личность через MiDNI",
+content56.py:117 [REVERT] OLD: p.band("A FONDO　Разбор", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Читать кампанию: дебаты, программы и опросы")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　Разбор", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Читать кампанию")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content56.py:209 [REVERT] OLD: e.ex("B2", "Выбор ответа", "C", "Только бесплатный эфир, с источником",
+content56.py:209 [REVERT] NEW: e.ex("B2", "Выбор ответа", "C", "Мы печатаем только данные о бесплатном эфире, опубликованные избиркомом, с указанием источника",
+content56.py:218 [REVERT] OLD: e.ex("B2", "Выбор ответа", "B", "Опрос: фото с погрешностью на один день",
+content56.py:218 [REVERT] NEW: e.ex("B2", "Выбор ответа", "B", "Опрос — это фото с погрешностью, сделанное в конкретный день",
+content7.py:69 [REVERT] OLD:     ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "Час — единственное число: es."),
+content7.py:69 [REVERT] NEW:     ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "Час — единственное число: употребляется es."),
+content7.py:70 [REVERT] OLD:     ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor уже сравнительная степень."),
+content7.py:70 [REVERT] NEW:     ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor уже сравнительная степень: без más."),
+content7.py:71 [REVERT] OLD:     ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente — единственное: глагол — тоже."),
+content7.py:71 [REVERT] NEW:     ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente — единственное число: глагол в единственном числе."),
+content7.py:72 [REVERT] OLD:     ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que утверждает: изъявительное."),
+content7.py:72 [REVERT] NEW:     ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que утверждает: изъявительное es."),
+content7.py:91 [REVERT] OLD: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = дебаты: публичное обсуждение; выборы — 29-го.", "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:91 [REVERT] NEW: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = дебаты: публичное обсуждение по очереди. Эта неделя — неделя дебатов; выборы — 29-го.", "sans", False, 20, CW - 
+content7.py:97 [REVERT] OLD: p.para(bx + 22, yy3 + 20, "debate = дебаты: публичное обсуждение; выборы — 29-го.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:97 [REVERT] NEW: p.para(bx + 22, yy3 + 20, "debate = дебаты: публичное обсуждение по очереди. Эта неделя — неделя дебатов; выборы — 29-го.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content7.py:101 [REVERT] OLD: ldcn = "Примечание редакции: к сдаче номера настоящих писем и лучших текстов не поступило; в этом выпуске — письмо-образец. Обещание — на VOL.5."
+content7.py:101 [REVERT] NEW: ldcn = "Примечание редакции: к сдачи номера настоящих писем и лучших текстов не поступило, поэтому в этом выпуске — письмо-образец от редакции. Обещание переносится на VOL.5. Пишите нам!"
+content7.py:102 [REVERT] OLD: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+content7.py:102 [REVERT] NEW: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:109 [REVERT] OLD: p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+content7.py:109 [REVERT] NEW: p.para(bx + 22, yy3 + 20, ldcn, 20, "sans", False, GREY, CW - 44, 1.42)
+content8.py:23 [KEEP] OLD: f.ex("B1", "Выбор в тексте", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "Выбор в тексте", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:44 [REVERT] OLD: f.ex("B1", "Выбор ответа", "C", "MiDNI — официальное приложение",
+content8.py:44 [REVERT] NEW: f.ex("B1", "Выбор ответа", "C", "MiDNI — официальное приложение для проверки личности",
+content8.py:61 [REVERT] OLD: f.ex("A2", "Составьте предложение", "El lunes suena el flamenco.", "Сначала время, потом глагол",
+content8.py:61 [REVERT] NEW: f.ex("A2", "Составьте предложение", "El lunes suena el flamenco.", "Время впереди, глагол вторым",
+content8.py:65 [REVERT] OLD: f.ex("B1", "Составьте предложение", "La campaña dura quince días.", "Подлежащее, глагол, время",
+content8.py:65 [REVERT] NEW: f.ex("B1", "Составьте предложение", "La campaña dura quince días.", "Подлежащее + глагол + время",
+content8.py:67 [REVERT] OLD: f.ex("B1", "Составьте предложение", "¿A qué hora empieza el debate?", "Вопрос — в начале",
+content8.py:67 [REVERT] NEW: f.ex("B1", "Составьте предложение", "¿A qué hora empieza el debate?", "Вопросительное слово в начале",
+content8.py:70 [REVERT] OLD: f.ex("A2", "Перевод", "Понедельник — Международный день фламенко.", "См. оригинал.",
+content8.py:70 [REVERT] NEW: f.ex("A2", "Перевод", "Понедельник — Международный день фламенко.", "Сверьтесь с оригиналом.",
+content8.py:72 [REVERT] OLD: f.ex("A2", "Перевод", "В субботу мы смотрим севильское дерби.", "См. оригинал.",
+content8.py:72 [REVERT] NEW: f.ex("A2", "Перевод", "В субботу мы смотрим севильское дерби.", "Сверьтесь с оригиналом.",
+content8.py:74 [KEEP] OLD: f.ex("B1", "Перевод", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "Перевод", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:97 [REVERT] OLD: f.ex("B1", "Выбор в тексте", "A", "Во сколько закрывается участок?",
+content8.py:97 [REVERT] NEW: f.ex("B1", "Выбор в тексте", "A", "¿a qué hora cierra el colegio? Во сколько закрывается избирательный участок?",
+content8.py:101 [REVERT] OLD: f.ex("B1", "Письмо", "(открытый вопрос — образец ниже)", "См. образец в разделе H (97 слов)",
+content8.py:101 [REVERT] NEW: f.ex("B1", "Письмо", "(открытый вопрос — образец ниже)", "См. образец текста в разделе H на этой странице (97 слов)",
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　Ответы — по страницам, ищите по номеру", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　Ответы — по страницам, ищите по номеру", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "К каждому ответу — короткое пояснение　✓ = задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "К каждому ответу — короткое пояснение　✓ = задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

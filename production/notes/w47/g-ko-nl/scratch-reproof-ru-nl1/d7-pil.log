@@ -1,0 +1,9 @@
+SC index: 2
+U+2019 RIGHT SINGLE QUOTATION advance(getlength)=18.00 ink bbox(getbbox)= (0, 5, 18, 21)
+U+0027 APOSTROPHE advance(getlength)=5.00 ink bbox(getbbox)= (0, 7, 5, 21)
+full old advance: 229.77 full new advance: 216.38 delta: 13.39
+advance('thema'): 54.48
+advance("thema’"): 72.48  advance("thema'"): 59.48
+ink width thema: (0, 6, 54, 21)
+ink bbox thema’s: (0, 5, 81, 21)  ink bbox thema's: (0, 6, 68, 21)
+U+3000 advance at 23px: 23.0

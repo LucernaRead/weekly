@@ -1,0 +1,8 @@
+== D1 segments in text.md ==
+  'УЧЕБНЫЕ ДАННЫЕ': lines [459]
+  'Три уровня, три темы': lines [504]
+  'Большой тест недели + все ответы': lines [596]
+  disclaimer (SVG-only string) in text.md? True
+Traceback (most recent call last):
+  File "<stdin>", line 18, in <module>
+ImportError: cannot import name 'KEEP_AS_IS' from 'build_map' (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-ru/build_map.py)

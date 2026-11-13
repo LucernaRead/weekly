@@ -1,0 +1,11 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +72 strings / -49 strings; CJK core 886 -> edition 1243; added CJK chars: 366 {'中': 4, '文': 4, '本': 4, '物': 5, 'の': 12, '国': 5, '語': 6, 'を': 10, '毎': 1, '週': 7}
+p2: +55 strings / -53 strings; CJK core 1065 -> edition 1433; added CJK chars: 371 {'暮': 1, 'ら': 1, 'し': 7, '荷': 5, '物': 7, 'が': 5, '届': 7, 'き': 3, '、': 3, '寒': 1}
+p3: +37 strings / -39 strings; CJK core 864 -> edition 1124; added CJK chars: 263 {'文': 2, '化': 1, '小': 1, '雪': 1, '月': 3, 'と': 3, '読': 6, '書': 3, '間': 3, '冬': 1}
+p4: +63 strings / -46 strings; CJK core 772 -> edition 1100; added CJK chars: 331 {'体': 1, 'ス': 2, 'ポ': 2, 'ー': 11, 'ツ': 2, 'ワ': 1, 'ル': 2, 'ズ': 1, '：': 5, '準': 4}
+p5: +36 strings / -38 strings; CJK core 969 -> edition 1225; added CJK chars: 260 {'若': 1, '者': 1, '新': 1, '月': 2, '作': 1, '映': 3, '画': 3, 'と': 4, 'の': 7, '？': 4}
+p6: +63 strings / -43 strings; CJK core 912 -> edition 1295; added CJK chars: 386 {'深': 1, '読': 7, 'み': 1, '荷': 2, '物': 2, 'の': 9, '爆': 1, '発': 1, 'が': 1, 'な': 5}
+p7: +119 strings / -126 strings; CJK core 753 -> edition 1536; added CJK chars: 787 {'言': 3, '葉': 3, 'の': 27, 'ポ': 1, 'イ': 1, 'ン': 2, 'ト': 1, '主': 4, 'レ': 2, 'ベ': 1}
+p8: +696 strings / -271 strings; CJK core 1125 -> edition 2989; added CJK chars: 1884 {'答': 7, 'テ': 3, 'ス': 17, 'ト': 7, 'と': 16, 'え': 7, '本': 6, '大': 3, '全': 1, '今': 2}
+TOTAL added CJK characters: 4648

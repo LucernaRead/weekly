@@ -1,0 +1,4 @@
+scratch-fanout-en/ru (gates.sh $S): n=150 Q39='a' Q40='d' Q52='hosted' Q55='won' Q73='speak' Q125='A'
+scratch-fanout-en2/fanout/ru (dump_reg target): n=150 Q39='a' Q40='d' Q52='hosted' Q55='won' Q73='up' Q125='A'
+scratch-fix-en-ru2/registry-stale-0439.json: n=150 Q39='d' Q40='a' Q52='hosts' Q55='sold' Q73='speak' Q125='C'
+edition registry.json: n=150 Q39='a' Q40='d' Q52='hosted' Q55='won' Q73='up' Q125='A'

@@ -1,0 +1,337 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ELKE WEEK　HET SPAANS VAN SPANJE", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "SPAANS WEEKBLAD　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=8)
+p.text(975, 614, "TEKSTEN IN HET SPAANS　UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "EERSTE CAMPAGNEWEK　NOG 13 DAGEN TOT DE VERKIEZINGEN", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "Hoofdverhaal　zie pagina 2 en 6", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　Het nieuws", 17, "sans", True, OLIVE)
+f.bridge("la campaña electoral = de verkiezingscampagne · el debate = het debat · el cara a cara = het tweegesprek · el voto por correo = stemmen per post · la jornada de reflexión = de dag van bezinning.")
+f.box("LA SEMANA EN CIFRAS　De cijfers", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29 (nog 13 dagen tot de verkiezingen)", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27 (15 dagen campagne)", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo (donderdag 19: laatste dag om een briefstem aan te vragen)", "serif", False, INK, 20.5, 1.35),
+], tsize=21)
+f.head("AHORA TÚ　Nu jij", 25)
+f.ex("A2", "Zinnen aanvullen", "13", "De campagne begint op vrijdag 13 november om middernacht",
+f.ex("A2", "Zinnen aanvullen", "29", "De verkiezingen zijn zondag 29 november",
+f.ex("A2", "Zinnen aanvullen", "19", "Stemmen per post: uiterlijk op de 19e aanvragen",
+f.ex("A2", "Zinnen aanvullen", "16", "Internationale Flamencodag, maandag 16 november",
+f.ex("B1", "Zinnen aanvullen", "20", "Speelronde 13 begint op vrijdag 20 november",
+f.ex("B1", "Zinnen aanvullen", "15", "De campagne duurt 15 dagen",
+p.text(gx + 22, gy + 106, "Vijf sleutels　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "Vijf sleutels — geen verzonnen cijfers.", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 22, "sans", True, OLIVE)
+p.para(gx, wy + 10, "„Debat”: een discussie in het openbaar.", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　Kort nieuws", 24, "sans", True, OLIVE)
+    ("EL DEBATE", "El viernes 13, debate de portavoces en laSexta, 21:30. (Pagina 6)"),
+    ("LA LIGA", "Viernes 20: Athletic–Espanyol abre la jornada 13. (Pagina 4)"),
+    ("EL FLAMENCO", "El lunes 16 es el Día Internacional del Flamenco. (Pagina 3)"),
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　Bliksemquiz", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Lees de voorpagina en kies　Antwoorden op pagina 8", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "Meerkeuze", "C", "De verkiezingen zijn op 29 november",
+qf.ex("A2", "Meerkeuze", "B", "De campagne duurt 15 dagen",
+qf.ex("A2", "Meerkeuze", "A", "Stemmen per post: uiterlijk op de 19e aanvragen",
+qf.ex("A2", "Meerkeuze", "B", "Internationale Flamencodag, 16 november",
+p.band("VIDA　Leven", "La Lucerna", "NIVEL A2　La semana, día a día　De week, dag na dag")
+f.box("EL CALENDARIO　De kalender", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo (maandag: Internationale Flamencodag; de PP stelt het debat Sánchez–Feijóo voor)", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele (dinsdag: de campagne trekt door Spanje)", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP) (woensdag: het huisvestingsdebat op de radio, PSOE tegen PP)", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo (donderdag: laatste dag om een briefstem aan te vragen)", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00 (vrijdagavond: de competitie is terug)", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00 (zaterdag: de derby van Sevilla)", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música (zondag: Barça–Villarreal; Sint-Cecilia)", "serif", False, INK, 21, 1.36),
+f.gloss("el debate = het debat · el mitin = de campagnebijeenkomst · el cartel = de poster · el escaño = de zetel in het parlement.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Wat doe je op maandag 16 november: flamenco kijken, de campagne volgen of voetbal kijken? Wat vind je leuker: een debat of een derby? Schrijf twee zinnen in het Spaans en stuur ze naar de redactie.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　En jij?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Wat doe je op maandag 16 november: flamenco kijken, de campagne volgen of voetbal kijken? Wat vind je leuker: een debat of een derby? Schrijf twee zinnen in het Spaans en stuur ze naar de redactie.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　Zo zeg je de datum", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　maandag 16 tot zondag 22 november", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　Oefeningen van pagina 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus door elkaar — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+e.bridge("Vul de zinnen aan met de juiste datumvorm.")
+e.ex("A2", "Zinnen aanvullen", "16", "maandag 16 november",
+     "El Día del Flamenco es el lunes ___ de noviembre.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "19", "donderdag 19 november",
+     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "29", "De verkiezingen zijn op 29 november",
+     "Las elecciones generales son el ___ de noviembre.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "22", "zondag 22 november",
+     "Santa Cecilia es el domingo ___ de noviembre.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "noviembre", "Maanden met kleine letters",
+     "El lunes 16 de ___ es el Día del Flamenco.", instr="Vul in", size=20, gap=8)
+e.bridge("Vul de werkwoorden in de tegenwoordige tijd in.")
+e.ex("A2", "Zinnen aanvullen", "empieza", "la campaña → empieza",
+     "La campaña ___ el viernes 13.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "dura", "la campaña → dura",
+     "La campaña ___ 15 días.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "vuelve", "la Liga → vuelve",
+     "La Liga ___ el viernes 20.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "recorren", "los partidos → recorren",
+     "Los partidos ___ España en campaña.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "llega", "la documentación → llega",
+     "La documentación del voto por correo ___ desde el lunes 9.", instr="Vul in", size=20, gap=8)
+e.bridge("Lees het artikel en kies het juiste antwoord.")
+e.ex("A2", "Meerkeuze", "B", "Internationale Flamencodag, maandag 16 november",
+e.ex("A2", "Meerkeuze", "A", "Stemmen per post: uiterlijk op de 19e aanvragen",
+e.ex("A2", "Meerkeuze", "C", "De competitie is terug op vrijdag 20 november",
+e.ex("B1", "Meerkeuze", "B", "Geen peilingen van 24 tot 28 november",
+e.match_set("A2", "Woorden combineren",
+            ["debate = debat c", "mitin = bijeenkomst b", "cartel = poster d", "escaño = zetel in het parlement a"],
+            instr="Combineer")
+p.band("CULTURA　Cultuur", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　Flamenco en Sint-Cecilia")
+f.gloss("el cante = de zang · el toque = het gitaarspel · el baile = de dans · el compás = het ritme · el duende = de ziel van de flamenco.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　En jij?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Heb je ooit flamenco gehoord? Welke muziek uit jouw land heeft duende? Schrijf twee zinnen en stuur ze in.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Oefeningen van pagina 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus door elkaar — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lees het artikel op pagina 3: waar of niet waar?")
+e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Flamencodag, maandag 16 november",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "UNESCO zette flamenco in 2010 op de erfgoedlijst",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("A2", "Lezen: waar/onwaar", "Falso", "Flamenco is niet alleen dans: zang, gitaar en dans samen",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("B1", "Lezen: waar/onwaar", "Falso", "Sint-Cecilia is op 22 november",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("A2", "Lezen: waar/onwaar", "Verdadero", "Orkest van Bilbao, zondag 22, 12.00 uur",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.bridge("Vul in met de woorden uit het kader.")
+e.ex("A2", "Zinnen aanvullen", "cante", "cante = zang",
+     "El flamenco es ___, toque y baile.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "baile", "baile = dans",
+     "La bailaora mueve los brazos en el ___.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "guitarra", "guitarra = gitaar",
+     "El toque es la ___ del flamenco.", instr="Vul in", size=20, gap=8)
+e.ex("A2", "Zinnen aanvullen", "palmas", "palmas = handgeklap",
+     "El público marca el ritmo con las ___.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "compás", "compás = ritme",
+     "Sin ___ no hay flamenco.", instr="Vul in", size=20, gap=8)
+e.bridge("Kies het juiste antwoord.")
+e.ex("A2", "Meerkeuze", "B", "UNESCO kondigde het in 2010 aan in Nairobi",
+e.ex("A2", "Meerkeuze", "A", "duende is het moment waarop de muziek je raakt",
+e.ex("B1", "Meerkeuze", "C", "Flamenco ontstond uit vele culturen in Andalusië",
+e.ex("B1", "Meerkeuze", "B", "Na Flamencodag: de verkiezing van 29 november",
+e.bridge("Zet de woorden in de juiste volgorde voor een correcte zin.")
+e.ex("A2", "Zinnen maken", "El flamenco es cante, toque y baile.", "Onderwerp, werkwoord",
+     "el flamenco / es / cante, toque y baile → ___", instr="Zinnen maken", size=20, gap=8)
+e.ex("B1", "Zinnen maken", "En noviembre suena la guitarra en España.", "De tijd vooraan, het werkwoord als tweede",
+     "en noviembre / suena / la guitarra / en España → ___", instr="Zinnen maken", size=20, gap=8)
+e.ex("B1", "Zinnen maken", "En Bilbao toca la banda el domingo.", "De plaats vooraan",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="Zinnen maken", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "Todos preguntan si hay duende.", "Indirecte vragen met si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="Herschrijf", size=20, gap=8)
+p.band("DEPORTE　Sport", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　De competitie is terug: speelronde 13")
+f.gloss("la jornada = de speelronde · el derbi = de derby · el liderato = de eerste plaats · el parón = de pauze · la fase liga = de competitiefase.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Welke wedstrijd kijk je zaterdag om 18.30 uur: de derby van Sevilla of Real Madrid–Celta? Wie wint de competitie: Barça of Real Madrid? Schrijf twee zinnen in het Spaans en stuur ze in.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　En jij?", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "Welke wedstrijd kijk je zaterdag om 18.30 uur: de derby van Sevilla of Real Madrid–Celta? Wie wint de competitie: Barça of Real Madrid? Schrijf twee zinnen in het Spaans en stuur ze in.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　Speelronde 13: de zes wedstrijden", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　Oefeningen van pagina 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus door elkaar — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lees het artikel op pagina 4 en kies het juiste antwoord.")
+e.ex("B1", "Meerkeuze", "A", "Barça staat bovenaan met 33 punten",
+e.ex("B1", "Meerkeuze", "B", "Speelronde 13, 20–23 november",
+e.ex("B1", "Meerkeuze", "C", "De derby van Sevilla, zaterdag 18.30 uur",
+e.ex("B1", "Meerkeuze", "A", "Barça–Villarreal, zondag 14.00 uur",
+e.ex("B1", "Meerkeuze", "B", "Champions League, speelronde 5, 24–25 november",
+e.match_set("B1", "Woorden combineren",
+            ["jornada = speelronde c", "derbi = derby b", "liderato = eerste plaats a", "fase liga = competitiefase d"],
+            instr="Combineer")
+e.bridge("Vul in met de vergrotende trap of de -ísimo-vorm van het woord tussen haakjes.")
+e.ex("B1", "Zinnen aanvullen", "más importante", "más + importante (de titelstrijd telt meer)",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "muchísimos", "muchísimos aficionados = heel veel supporters",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "peor", "De vergrotende trap van malo is peor",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "mejor", "De vergrotende trap van bueno is mejor",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="Vul in", size=20, gap=8)
+e.bridge("Zet de zinnen in de verleden tijd (pretérito indefinido).")
+e.ex("B1", "Zinnen omvormen", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="Herschrijf", size=20, gap=8)
+p.band("JUVENTUD　Jongeren", "La Lucerna", "NIVEL B1　Votar por primera vez　Voor het eerst stemmen")
+f.box("EL PLAN DE LA SEMANA　Weekplan", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña (maandag: Flamencodag en eerste campagnemaandag)", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo (donderdag: laatste dag om een briefstem aan te vragen)", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00 (vrijdagavond: de competitie is terug)", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30 (zaterdag: de derby van Sevilla)", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia (zondag: Barça–Villarreal; Sint-Cecilia)", "serif", False, INK, 21, 1.36),
+], tsize=20)
+f.gloss("el sobre = de envelop · la papeleta = het stembiljet · el censo = het kiezersregister · el plazo = de termijn · la urna = de stembus.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en stuur ze in.", "sans", False, 19, CW - 44)) * 27 + 29
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　En jij?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Stem je per post of in persoon? Wat zou je kopen op Black Friday: iets nuttigs of een impuls? Schrijf twee zinnen en stuur ze in.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Oefeningen van pagina 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus door elkaar — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+e.bridge("Lees het artikel op pagina 5 en kies het juiste antwoord.")
+e.ex("B1", "Meerkeuze", "B", "Stemmen per post: uiterlijk op de 19e aanvragen",
+e.ex("B1", "Meerkeuze", "A", "De documenten worden verstuurd vanaf 9 november",
+e.ex("B1", "Meerkeuze", "C", "De stembureaus zijn open van 9:00 tot 20:00",
+e.ex("B1", "Meerkeuze", "B", "MiDNI is de nieuwe manier om je te identificeren",
+e.ex("B1", "Meerkeuze", "A", "Black Friday, vrijdag 27 november",
+e.bridge("Vul in met de woorden uit het kader. Let op: sommige woorden moet je vervoegen.")
+e.ex("B1", "Zinnen aanvullen", "correo", "correo = de post / per post",
+     "Pido el voto por ___.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "papeleta", "papeleta = stembiljet",
+     "En casa, relleno la ___.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "envío", "enviar vervoegd → envío",
+     "Después ___ (infinitief: enviar) el sobre.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "identidad", "documento de identidad = identiteitsbewijs",
+     "Para votar en persona llevo mi documento de ___.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "censo", "censo = kiezersregister",
+     "La Oficina del ___ envía la documentación.", instr="Vul in", size=20, gap=8)
+e.ex("B1", "Zinnen aanvullen", "plazo", "plazo = termijn (19e)",
+     "El jueves 19 termina el ___ del voto por correo.", instr="Vul in", size=20, gap=8)
+e.bridge("Herschrijf de zinnen met ir a + infinitief (nabije toekomst).")
+e.ex("B1", "Zinnen omvormen", "Voy a pedir el voto por correo.", "voy a + infinitief",
+     "Pido el voto por correo. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "Vas a votar el domingo 29.", "vas a + infinitief",
+     "Votas el domingo 29. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "Va a abrirse la urna a las 9:00.", "va a + infinitief",
+     "La urna se abre a las 9:00. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Zinnen omvormen", "Van a comparar precios antes de pagar.", "van a + infinitief",
+     "Comparan precios antes de pagar. → ___", instr="Herschrijf", size=20, gap=8)
+e.ex("B1", "Lezen: waar/onwaar", "Verdadero", "Stemmen per post vraag je aan bij Correos",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("B1", "Lezen: waar/onwaar", "Falso", "De dag van bezinning is zaterdag 28, niet zondag",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+e.ex("B1", "Lezen: waar/onwaar", "Verdadero", "Dit jaar kun je stemmen met MiDNI",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="W/NW", size=20, gap=8)
+p.band("A FONDO　Achtergrond", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　De campagne lezen: debatten, programma’s en peilingen")
+p.text(MX, ey + 28, "EJERCICIOS　Oefeningen van pagina 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus door elkaar — zoek op nummer", 20, "sans", False, GREY, anchor="end")
+e.bridge("Kijk naar de twee grafieken en kies het juiste antwoord.")
+e.ex("B2", "Meerkeuze", "A", "45 gratis minuten elk voor de PSOE en de PP",
+e.ex("B2", "Meerkeuze", "B", "195 minuten gratis zendtijd in totaal",
+e.ex("B2", "Meerkeuze", "C", "Podemos: 15 minuten",
+e.ex("B2", "Meerkeuze", "A", "5 dagen geen peilingen (24–28 november)",
+e.ex("B2", "Meerkeuze", "B", "45 − 30 = 15",
+e.ex("B2", "Meerkeuze", "C", "Alleen gratis zendtijd, met bron",
+e.ex("B2", "Meerkeuze", "B", "Tot 10 november is alleen het laSexta-debat bevestigd",
+e.ex("B2", "Meerkeuze", "A", "Het laSexta-debat, vrijdag 13 november, 21.30 uur",
+e.ex("B2", "Meerkeuze", "C", "„Voorgesteld” is niet „bevestigd”",
+e.ex("B2", "Meerkeuze", "B", "Peiling: foto met foutmarge, op één dag",
+e.ex("B2", "Zinnen aanvullen", "tenga", "es posible que + aanvoegende wijs: tenga",
+     "Es posible que el debate ___ (tener) cuatro portavoces.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "sea", "es importante que + aanvoegende wijs: sea",
+     "Es importante que cada dato ___ (ser) claro.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "para que", "para que + aanvoegende wijs (doel)",
+     "Publicamos la fuente ___ todos puedan comprobarla.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "Aunque", "Aunque + aantonende wijs (bekend feit)",
+     "___ los debates difieren, ninguno miente.", instr="Vul in", size=18.5, gap=2)
+e.bridge("Vul in met de woorden: sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "Zinnen aanvullen", "sondeo", "sondeo = peiling",
+     "Un ___ pregunta a una muestra de ciudadanos.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "muestra", "muestra = steekproef",
+     "El sondeo preguntó a una ___ de ciudadanos.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "indecisos", "indecisos = twijfelaars",
+     "Los ___ todavía no saben a quién votar.", instr="Vul in", size=18.5, gap=2)
+e.ex("B2", "Zinnen aanvullen", "margen de error", "margen de error = foutmarge",
+     "Toda encuesta tiene un ___.", instr="Vul in", size=18.5, gap=2)
+p.band("LENGUA　Taal", "La Lucerna", "Tres niveles, tres herramientas　Drie niveaus, drie hulpmiddelen")
+a.bridge("Tijd: es la una (enkelvoud), son las dos (meervoud); een wedstrijd begint om a las 21:00.")
+a.ex("A2", "Zinnen aanvullen", "Es", "Voor 1 uur gebruik je het enkelvoud Es",
+     "___ la una en punto.", instr="Vul in", size=20.5, gap=10)
+a.ex("A2", "Zinnen aanvullen", "Son", "Voor meer dan één uur gebruik je het meervoud Son",
+     "___ las nueve de la noche.", instr="Vul in", size=20.5, gap=10)
+a.ex("A2", "Zinnen aanvullen", "las", "a las 21:00 (met het voorzetsel a)",
+     "El derbi es el sábado a ___ 18:30.", instr="Vul in", size=20.5, gap=10)
+a.ex("A2", "Meerkeuze", "B", "1 uur is Es la una",
+b.bridge("Vergrotende trap: más … que, tan … como; bueno → mejor, malo → peor; zeg nooit más mejor.")
+b.ex("B1", "Zinnen aanvullen", "más goles", "más + goles (meer doelpunten)",
+     "El Barça marca ___ que el año pasado. (goles)", instr="Vul in", size=20.5, gap=10)
+b.ex("B1", "Zinnen aanvullen", "tan rápido", "tan + rápido + como (even snel)",
+     "El derbi es ___ como siempre. (rápido)", instr="Vul in", size=20.5, gap=10)
+b.ex("B1", "Zinnen aanvullen", "mejor", "de vergrotende trap van bueno is mejor (zonder más)",
+     "Un debate claro es ___ (bueno) que un titular.", instr="Vul in", size=20.5, gap=10)
+b.ex("B1", "Meerkeuze", "B", "más mejor is fout",
+c.bridge("es necesario que, para que, ojalá met de aanvoegende wijs; creo que met de aantonende wijs.")
+c.ex("B2", "Zinnen aanvullen", "baje", "es necesario que + aanvoegende wijs: baje",
+     "Es necesario que el precio ___ (bajar).", instr="Vul in", size=20.5, gap=10)
+c.ex("B2", "Zinnen aanvullen", "sea", "para que + aanvoegende wijs: sea",
+     "Publicamos la fuente para que todo ___ (ser) claro.", instr="Vul in", size=20.5, gap=10)
+c.ex("B2", "Zinnen aanvullen", "es", "creo que + aantonende wijs: es",
+     "Creo que el debate ___ (ser) útil.", instr="Vul in", size=20.5, gap=10)
+c.ex("B2", "Meerkeuze", "B", "ojalá + aanvoegende wijs: tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "1 uur is enkelvoud: gebruik es."),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor is al een vergrotende trap."),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente is enkelvoud: werkwoord dus ook."),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que bevestigt: aantonende wijs es."),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　Fouten", 23, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = debat: een openbare discussie; de verkiezingen zijn op de 29e.", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　Woord van de week", 23, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate = debat: een openbare discussie; de verkiezingen zijn op de 29e.", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "Noot van de redactie: bij het sluiten geen echte brieven of beste teksten; dit nummer drukt een voorbeeldbrief. De belofte schuift door naar VOL.5."
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　Zinnen van de week (letterlijk uit dit nummer)", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "De campagne begint op de 13e om middernacht, duurt 15 dagen en eindigt op de 27e.", "Pagina 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "Donderdag 19 is een sleuteldag: laatste dag om een briefstem aan te vragen.", "Pagina 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "Maandag 16 november is de Internationale Flamencodag, en de gitaar klinkt in heel Spanje.", "Pagina 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "Flamenco is niet alleen dans: zang, gitaar, dans, handgeklap, voetwerk en ritme.", "Pagina 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "De competitie stopt en begint weer: speelronde 13 loopt van vrijdag 20 tot maandag 23 november.", "Pagina 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "Stem je op 29 november voor het eerst? Twee manieren: in persoon of per post.", "Pagina 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "Tijdens de campagne is niet alles wat wordt aangekondigd al beslist.", "Pagina 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Een peiling is een foto met foutmarge, genomen op één bepaalde dag.", "Pagina 6"),
+py = fy + 66 + 3 * 128 + 105 + 1  # D6: align banner with core (2464.5); nl fy sits 29 lower, +30 would put the rect over the footer ink
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　Volgende week (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　Oefeningen en antwoorden", "La Lucerna", "Pagina 8　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "Cloze-meerkeuze", "A", "el flamenco suena = de flamenco klinkt",
+f.ex("B1", "Cloze-meerkeuze", "B", "empieza la campaña = de campagne begint",
+f.ex("B1", "Cloze-meerkeuze", "A", "Het laSexta-debat om 21.30 uur",
+f.ex("B1", "Cloze-meerkeuze", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "Cloze-meerkeuze", "A", "la Liga vuelve = de competitie is terug",
+f.ex("B1", "Cloze-meerkeuze", "B", "De derby van Sevilla is op zaterdag",
+f.ex("B1", "Cloze-meerkeuze", "A", "Santa Cecilia = beschermheilige van de musici",
+f.ex("B1", "Cloze-meerkeuze", "A", "Spanje stemt op zondag 29",
+f.ex("A2", "Meerkeuze", "A", "De campagne begint vrijdag 13 november",
+f.ex("A2", "Meerkeuze", "B", "Internationale Flamencodag, 16 november",
+f.ex("A2", "Meerkeuze", "A", "Stemmen per post: uiterlijk op de 19e aanvragen",
+f.ex("B1", "Meerkeuze", "C", "De derby van Sevilla, zaterdag 18.30 uur",
+f.ex("B1", "Meerkeuze", "B", "Black Friday, vrijdag 27 november",
+f.ex("B1", "Meerkeuze", "C", "MiDNI is de officiële identiteitsapp",
+f.ex("B2", "Meerkeuze", "B", "Geen peilingen van 24 tot 28 november",
+f.ex("B1", "Meerkeuze", "C", "Champions League, speelronde 5, 24–25 november",
+f.ex("A2", "Meerkeuze", "A", "Lucía kijkt zaterdag naar de derby in Sevilla",
+f.ex("A2", "Meerkeuze", "A", "Diego kijkt zaterdag naar Real Madrid–Celta",
+f.ex("A2", "Meerkeuze", "A", "Beiden lezen eerst de programma's en stemmen dan",
+f.ex("A2", "Meerkeuze", "B", "De titel vat twee steden en één zaterdag samen",
+f.ex("A2", "Zinnen maken", "El lunes suena el flamenco.", "Eerst de tijd, dan het werkwoord",
+     "el lunes / suena / el flamenco → ___", instr="Zinnen maken", size=15.5, gap=1)
+f.ex("A2", "Zinnen maken", "El sábado vemos el derbi.", "De tijd vooraan",
+     "el sábado / vemos / el derbi → ___", instr="Zinnen maken", size=15.5, gap=1)
+f.ex("B1", "Zinnen maken", "La campaña dura quince días.", "Onderwerp + werkwoord + tijd",
+     "la campaña / dura / quince días → ___", instr="Zinnen maken", size=15.5, gap=1)
+f.ex("B1", "Zinnen maken", "¿A qué hora empieza el debate?", "Het vraagwoord vooraan",
+     "¿ / a qué hora / empieza / el debate / ? → ___", instr="Zinnen maken", size=15.5, gap=1)
+f.ex("A2", "Vertalen", "Maandag is het Internationale Flamencodag.", "Vgl. origineel.",
+     "El lunes es el Día del Flamenco. → ___", instr="Vertalen", size=15.5, gap=1)
+f.ex("A2", "Vertalen", "Zaterdag kijken we naar de derby van Sevilla.", "Vgl. origineel.",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="Vertalen", size=15.5, gap=1)
+f.ex("B1", "Vertalen", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "De briefstem moet uiterlijk op donderdag 19 worden aangevraagd. → ___", instr="Vertalen", size=15.5, gap=1)
+f.ex("B2", "Vertalen", "Cada promesa tiene que llevar datos.", "tener que = moeten",
+     "Elke belofte moet met gegevens worden onderbouwd. → ___", instr="Vertalen", size=15.5, gap=1)
+f.match_set("B2", "Woorden combineren",
+            ["sondeo=peiling c", "muestra=steekproef d", "margen de error=foutmarge b", "junta electoral=verkiezingscommissie a"],
+            instr="Combineer")
+f.ex("B1", "Cloze-meerkeuze", "A", "vengo a votar = ik kom stemmen",
+f.ex("B1", "Cloze-meerkeuze", "A", "documento de identidad = identiteitsbewijs",
+f.ex("B1", "Cloze-meerkeuze", "A", "¿dónde está la urna? Waar is de stembus?",
+f.ex("B1", "Cloze-meerkeuze", "A", "la papeleta va en el sobre = het stembiljet in de envelop",
+f.ex("B1", "Cloze-meerkeuze", "A", "¿a qué hora cierra el colegio? Hoe laat sluit het?",
+f.bridge("Schrijfopdracht (geen enkel juist antwoord); voorbeeldtekst (97 woorden) hieronder.")
+f.ex("B1", "Schrijven", "Open vraag — voorbeeldtekst hieronder op deze pagina", "Zie de voorbeeldtekst in deel H op deze pagina (97 woorden)",
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="Schrijven", size=15.5, gap=1)
+p.text(MX, 1337, "RESPUESTAS　Antwoorden — per pagina gerangschikt; zoek op nummer", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "Bij elk antwoord een korte uitleg in het Nederlands　✓ = met voorbeeldtekst", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "Schrijven":

@@ -1,0 +1,19 @@
+=== (1) registry Q73 ===
+{'n': 73, 'page': 5, 'level': 'A2', 'type': 'Completar frases', 'key': 'up', 'note': 'speak up = hablar sin miedo'}
+=== (2) text.md answer line 1151 ===
+73. [A2] Completar frases — up (speak up = hablar sin miedo)
+=== (2b) text.md P5 exercise stem ===
+589:EXERCISE: Speak ___: tell a teacher.
+=== (3) P8 extract json Q73 ===
+73 -> up
+=== (3b) P8 print PDF text ===
+73. up
+=== (4) P5 SVG stem + note (match-only) ===
+Speak ___: tell a teacher.
+SPEAK UP　Alza la voz
+=== registry vs core keys ===
+key diffs vs core: [(137, 'Los demócratas ganaron la Cámara y el Senado.', '民主党赢下了众议院和参议院。'), (138, 'El recuento continúa.', '计票仍在继续。'), (139, 'El nuevo Congreso se reunirá en enero de 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Rompe el silencio.', '打破沉默。'), (150, 'Pregunta abierta — véanse los puntos en el recuadro de redacción; el modelo está en el recuadro de esta página', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q73 core: up ed: up
+=== D5 counts ===
+pdffonts rows (excl header): 41
+distinct font names: 35

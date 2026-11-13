@@ -1,0 +1,24 @@
+== files ==
+ed py: ['content12.py', 'content34.py', 'content56.py', 'content7.py', 'content8.py']
+co py: ['content12.py', 'content34.py', 'content56.py', 'content7.py', 'content8.py']
+co dir text files: ['2026-w47-ja-zh-cn.text.md', 'ABSTRACT.txt', 'Lucerna-VOL4-web.pdf', 'Lucerna-VOL4.pdf', 'WEEKLY-KIT.md', '__pycache__', 'assets', 'bslib4.py', 'cards', 'content12.py', 'content34.py', 'content56.py', 'content7.py', 'content8.py', 'ja-core-bandscan.py', 'ja-core-checks.py', 'ja-core-occlusion.json', 'ja-core-p8.json', 'ja-gates.log', 'render.py', 'run.py', 'svg', 'svglib.py']
+U+201C: text.md+SVG=0 [] | content*.py=0 [] | PDF layers=0 []
+U+201D: text.md+SVG=0 [] | content*.py=0 [] | PDF layers=0 []
+U+2019: text.md+SVG=0 [] | content*.py=0 [] | PDF layers=0 []
+CJK open 「: text.md+SVG=84 [('2026-w47-ja-zh-tw.text.md', 42), ('p1-hyoushi.svg', 3), ('p2-kurashi.svg', 3), ('p3-bunka.svg', 2), ('p4-supotsu.svg', 2), ('p5-wakamono.svg', 2), ('p6-fukayomi.svg', 2), ('p7-kotoba.svg', 19), ('p8-tesuto.svg', 9)]
+CJK close 」: text.md+SVG=84 [('2026-w47-ja-zh-tw.text.md', 42), ('p1-hyoushi.svg', 3), ('p2-kurashi.svg', 3), ('p3-bunka.svg', 2), ('p4-supotsu.svg', 2), ('p5-wakamono.svg', 2), ('p6-fukayomi.svg', 2), ('p7-kotoba.svg', 19), ('p8-tesuto.svg', 9)]
+'出來栄え': ed(all)=0 [] | print-layer=0 []
+'波亂': ed(all)=0 [] | print-layer=0 []
+'一之富士': ed(all)=0 [] | print-layer=0 []
+'出來': ed(all)=0 [] | print-layer=0 []
+'波亂': ed(all)=0 [] | print-layer=0 []
+'義之富士': ed(all)=6 [('2026-w47-ja-zh-tw.text.md', 2), ('p8-tesuto.svg', 2), ('content34.py', 1), ('content8.py', 1)] | print-layer=2 [('proof2-print.txt', 2)]
+'義ノ富士': ed(all)=8 [('2026-w47-ja-zh-tw.text.md', 2), ('p4-supotsu.svg', 1), ('p8-tesuto.svg', 1), ('content34.py', 3), ('content8.py', 1)] | print-layer=2 [('proof2-print.txt', 2)]
+'参考答案' in text.md = 0 []
+'參考答案' in text.md = 1 [('2026-w47-ja-zh-tw.text.md', 1)]
+'吉伊卡哇' in text.md = 4 [('2026-w47-ja-zh-tw.text.md', 4)]
+--- content34.py: ed glosses=4 core glosses=4
+--- content12.py: ed glosses=3 core glosses=3
+--- content56.py: ed glosses=3 core glosses=3
+--- content7.py: ed glosses=0 core glosses=0
+--- content8.py: ed glosses=0 core glosses=0

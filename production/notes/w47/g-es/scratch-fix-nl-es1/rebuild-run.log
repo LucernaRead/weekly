@@ -1,0 +1,24 @@
+6:OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
+run.py rc=0
+TOTAL 150
+by level {'A2': 46, 'B1': 73, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completar las frases': 65, 'Una opción': 44, 'Emparejar palabras': 8, 'Verdadero o falso': 7, 'Formar frases': 8, 'Texto con huecos': 13, 'Traducción': 4, 'Escritura': 1}
+ALL DONE
+render.py rc=0
+card: p7-taal.png
+card: p8-toets.png
+print PDF: /home/hatch/workspace/weekly-git/hidden_files/w47/scratch-fix-nl-es1/rebuild/De-Lucerna-VOL4-nl-es.pdf 12669546
+-rw-rw---- 1 root nogroup 12669546 Nov 11 18:45 /home/hatch/workspace/weekly-git/hidden_files/w47/scratch-fix-nl-es1/rebuild/De-Lucerna-VOL4-nl-es.pdf
+
+/home/hatch/workspace/weekly-git/hidden_files/w47/scratch-fix-nl-es1/rebuild/svg/:
+total 3156
+-rw-rw---- 1 root nogroup 487666 Nov 11 18:43 p1-voorpagina.svg
+-rw-rw---- 1 root nogroup 376033 Nov 11 18:43 p2-leven.svg
+-rw-rw---- 1 root nogroup 980104 Nov 11 18:43 p3-cultuur.svg
+-rw-rw---- 1 root nogroup 380225 Nov 11 18:43 p4-sport.svg
+-rw-rw---- 1 root nogroup 403282 Nov 11 18:43 p5-jongeren.svg
+-rw-rw---- 1 root nogroup  30313 Nov 11 18:43 p6-verdieping.svg
+-rw-rw---- 1 root nogroup 365184 Nov 11 18:43 p7-taal.svg
+-rw-rw---- 1 root nogroup 189661 Nov 11 18:44 p8-toets.svg
+e6c285668e99e80a4651d2377ee3dd3ccce6c5ea54a288963aa07012e233a8e5  /home/hatch/workspace/weekly-git/hidden_files/w47/scratch-fix-nl-es1/rebuild/De-Lucerna-VOL4-nl-es.pdf

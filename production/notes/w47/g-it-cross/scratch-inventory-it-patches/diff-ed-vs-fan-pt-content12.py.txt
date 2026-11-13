@@ -1,0 +1,11 @@
+--- A:fanout-baseline/pt/content12.py -> edition-now/pt/content12.py
++++ B:fanout-baseline/pt/content12.py -> edition-now/pt/content12.py
+@@ -3,7 +3,7 @@
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from bslib4 import *
+ 
+-OUT = os.path.expanduser("/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-it/pt/freeze-baseline/svg")
++OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/2026-w47-it-pt/svg")
+ os.makedirs(OUT, exist_ok=True)
+ 
+ # ================= P1 · PRIMA PAGINA (A2) =================

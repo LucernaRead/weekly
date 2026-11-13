@@ -1,0 +1,365 @@
+== 0 verify.py (TOTAL + determinism) ==
+verify RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+SOP 1.1 style audit (paper/badges/palette/margins): True | old-style hexes found: []
+== 1a p8 extract edition ==
+edition extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ko/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1a2 p8 extract core ==
+core extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1b p8 compare --total 150 vs core-de ==
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ko/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+== 2 occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ko/svg: 0 flags 
+== 3a boxtitle ==
+boxtitle RC=0
+== 2026-w47-de-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-de backup=-
+BOXTITLE 2026-w47-de-ko: 65 titles, 479 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 3b spill ==
+spill RC=0
+== 2026-w47-de-ko  (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-ko)
+P1 box=(538.5,1440.3,422.5,361.9) bottom=1802.2
+   ABOVE -38.73px x=538.5 y=1401.6 [observe] '의'
+P1 box=(538.5,1440.3,422.5,361.9) bottom=1802.2
+   ABOVE -38.73px x=562.3 y=1401.6 [observe] '주일'
+P1 box=(538.5,1440.3,422.5,361.9) bottom=1802.2
+   ABOVE -38.73px x=600.1 y=1401.6 [observe] '.'
+P1 box=(538.5,1440.3,422.5,361.9) bottom=1802.2
+   SIDE x=1005.9 y=1483.2 [observe] 'B1'
+P1 box=(538.5,1440.3,422.5,361.9) bottom=1802.2
+   SIDE x=989.0 y=1511.2 [observe] 'Der erste Advent ist am ___.'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1767.1 y=568.0 [observe] '4'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1777.9 y=568.0 [observe] '쪽'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1798.9 y=568.0 [observe] '참조'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   BELOW +24.00px x=1439.5 y=1676.0 [observe] 'DAS WORT DER WOCHE'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1461.5 y=1274.0 [observe] '이번'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1501.1 y=1274.0 [observe] '주'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1523.2 y=1274.0 [observe] '독일의'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1580.3 y=1274.0 [observe] '다섯'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1619.9 y=1274.0 [observe] '가지'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1659.5 y=1274.0 [observe] '화제'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1694.4 y=1274.0 [observe] '.'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1522.4 y=2348.0 [observe] '1'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1534.4 y=2348.0 [observe] '쪽을'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1576.1 y=2348.0 [observe] '읽고'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1617.8 y=2348.0 [observe] '정답을'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1677.9 y=2348.0 [observe] '고르세요\u3000정답은'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1831.6 y=2348.0 [observe] '8'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1843.6 y=2348.0 [observe] '쪽'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1439.5 y=1830.2 [observe] '대림절'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1496.6 y=1830.2 [observe] '달력'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1531.5 y=1830.2 [observe] '(24'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1560.3 y=1830.2 [observe] '개의'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1599.9 y=1830.2 [observe] '작은'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1639.5 y=1830.2 [observe] '문'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1657.0 y=1830.2 [observe] '). 5'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1682.8 y=1830.2 [observe] '쪽'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1705.0 y=1830.2 [observe] '참조'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1739.9 y=1830.2 [observe] '.'
+P2 box=(538.5,776.2,422.5,175.4) bottom=951.6
+   ABOVE -46.48px x=538.5 y=729.8 [observe] 'beieinander.'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1635.2 y=168.0 [observe] '\u3000참회와'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1707.3 y=168.0 [observe] '기도의'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1761.4 y=168.0 [observe] '날과'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1798.9 y=168.0 [observe] '일상'
+P2 box=(1439.5,522.6,422.5,327.2) bottom=849.8
+   ABOVE -45.53px x=1461.5 y=477.1 [observe] 'freier Tag.'
+P2 box=(1439.5,875.8,422.5,320.1) bottom=1195.9
+   ABOVE -45.53px x=1461.5 y=830.3 [observe] '3 bis 24 Uhr verboten.'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   BELOW +44.87px x=1526.2 y=1594.0 [observe] 'Die Daten der Woche'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   BELOW +44.87px x=1721.8 y=1594.0 [observe] '\u3000이번'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   BELOW +44.87px x=1783.5 y=1594.0 [observe] '주의'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   BELOW +44.87px x=1825.2 y=1594.0 [observe] '날짜'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   ABOVE -48.20px x=1461.5 y=1173.8 [observe] '보세요'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   ABOVE -48.20px x=1516.7 y=1173.8 [observe] '!'
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   ABOVE -46.48px x=989.0 y=622.8 [observe] 'schnell kalt.'
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=672.7 [observe] 'der Weihnachtsmarkt — '
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=703.2 [observe] '장'
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=766.8 [observe] 'der Glühwein — '
+P3 box=(989.0,669.3,422.5,205.1) bottom=874.4
+   SIDE x=1461.5 y=830.3 [observe] 'der Lebkuchen — '
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1581.1 y=168.0 [observe] '\u3000크리스마스'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1686.3 y=168.0 [observe] '시장과'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1740.4 y=168.0 [observe] '조용한'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1794.5 y=168.0 [observe] '한'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1815.4 y=168.0 [observe] '주'
+P3 box=(1439.5,583.7,422.5,487.2) bottom=1071.0
+   ABOVE -45.53px x=1461.5 y=538.2 [observe] 'Uhr.'
+P3 box=(1439.5,1097.0,422.5,320.1) bottom=1417.1
+   ABOVE -45.53px x=1461.5 y=1051.4 [observe] 'die Kerze — '
+P3 box=(1439.5,1097.0,422.5,320.1) bottom=1417.1
+   ABOVE -45.53px x=1579.9 y=1051.4 [observe] '촛불'
+P3 box=(1439.5,1443.1,422.5,169.6) bottom=1612.7
+   ABOVE -48.20px x=1461.5 y=1394.9 [observe] '써'
+P3 box=(1439.5,1443.1,422.5,169.6) bottom=1612.7
+   ABOVE -48.20px x=1484.8 y=1394.9 [observe] '보세요'
+P3 box=(1439.5,1443.1,422.5,169.6) bottom=1612.7
+   ABOVE -48.20px x=1540.0 y=1394.9 [observe] '!'
+P4 box=(989.0,489.4,422.5,145.7) bottom=635.0
+   ABOVE -46.48px x=989.0 y=442.9 [observe] 'Sonntag mit Bremen gegen Hamburg.'
+P4 box=(1439.5,864.9,422.5,291.1) bottom=1156.0
+   ABOVE -46.15px x=1439.5 y=818.7 [observe] 'Florida, 2010) — public domain'
+P5 box=(989.0,815.2,422.5,205.1) bottom=1020.3
+   ABOVE -46.48px x=989.0 y=768.7 [observe] 'Köln. Mehr dazu auf Seite 4.'
+P5 box=(989.0,815.2,422.5,205.1) bottom=1020.3
+   SIDE x=1461.5 y=832.8 [observe] 'die Schokolade — '
+P5 box=(989.0,815.2,422.5,205.1) bottom=1020.3
+   SIDE x=1461.5 y=896.3 [observe] 'die Kerze — '
+P5 box=(989.0,815.2,422.5,205.1) bottom=1020.3
+   SIDE x=1461.5 y=959.8 [observe] 'der Stern — '
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1593.6 y=168.0 [observe] '\u3000대림절'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1665.7 y=168.0 [observe] '달력'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1698.8 y=168.0 [observe] ', '
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1707.3 y=168.0 [observe] '소원'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1744.8 y=168.0 [observe] '목록과'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1798.9 y=168.0 [observe] '학교'
+P5 box=(1439.5,553.2,422.5,426.2) bottom=979.4
+   ABOVE -45.53px x=1461.5 y=507.6 [observe] 'Lande des Christkinds“.'
+P5 box=(1439.5,1005.4,422.5,291.1) bottom=1296.5
+   ABOVE -45.53px x=1461.5 y=959.8 [observe] 'der Stern — '
+P5 box=(1439.5,1005.4,422.5,291.1) bottom=1296.5
+   ABOVE -45.53px x=1579.1 y=959.8 [observe] '별'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1124.9 [observe] 'Adventskalender? Was steht auf'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1155.4 [observe] 'Ihrem Wunschzettel? Schreiben Sie'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1186.0 [observe] 'zwei Sätze auf Deutsch!'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1246.5 [observe] '대림절'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1274.9 [observe] '이'
+P6 box=(989.0,559.8,422.5,175.4) bottom=735.2
+   ABOVE -46.48px x=989.0 y=513.4 [observe] 'den Advent.'
+P6 box=(989.0,559.8,422.5,175.4) bottom=735.2
+   SIDE x=1461.5 y=643.9 [observe] '27.11.'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1468.0 y=168.0 [observe] 'Stille Woche & Haushalt'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1668.3 y=168.0 [observe] '\u3000조용한'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1740.4 y=168.0 [observe] '한'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1761.4 y=168.0 [observe] '주와'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1798.9 y=168.0 [observe] '예산'
+P6 box=(1439.5,861.5,422.5,372.2) bottom=1233.7
+   ABOVE -42.11px x=1569.5 y=819.4 [observe] 'Sachsen ein Feiertag.'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1127.6 [observe] '조용한'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1155.3 [observe] '의'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1183.0 [observe] '내릴지는'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1210.7 [observe] '에'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=104.2 y=845.1 [observe] 'A2'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=160.0 y=846.1 [observe] '101.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=230.0 y=846.1 [observe] '채우세요'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=88.0 y=586.4 [observe] 'gespielt.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=669.9 [observe] 'BEISPIELE'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=704.9 [observe] '„Der November ist stiller als der'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=734.3 [observe] 'Oktober.“'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=763.7 [observe] 'spannend ist.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=555.4 y=845.1 [observe] 'B1'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=610.5 y=846.1 [observe] '105.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=680.5 y=846.1 [observe] '채우세요'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=538.5 y=586.4 [observe] 'des Satzes.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=633.4 [observe] 'BEISPIELE'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=668.4 [observe] '„Meiner Meinung nach braucht das'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=697.8 [observe] 'Gedenken Stille.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=727.2 [observe] 'die Einigung gelingt.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +34.00px x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1061.0 y=809.6 [observe] '109.'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1131.0 y=809.6 [observe] '채우세요'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   ABOVE -46.48px x=989.0 y=549.9 [observe] 'fraglich, ob ...'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=614.4 [observe] 'Es wird gespielt. = '
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=643.6 [observe] '동태'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=699.2 [observe] 'Meiner Meinung nach = '
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=754.8 [observe] 'Es ist fraglich, ob ... = '
+P7 box=(1439.5,330.0,422.5,444.0) bottom=774.0
+   BELOW +58.00px x=1461.5 y=832.0 [observe] 'LESERBRIEFE'
+P7 box=(1439.5,330.0,422.5,444.0) bottom=774.0
+   BELOW +58.00px x=1634.2 y=832.0 [observe] '\u3000독자의'
+P7 box=(1439.5,330.0,422.5,444.0) bottom=774.0
+   BELOW +58.00px x=1726.1 y=832.0 [observe] '편지'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   BELOW +56.00px x=1461.5 y=1398.5 [observe] 'NOCH EIN WORT'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   BELOW +56.00px x=1660.6 y=1398.5 [observe] '\u3000한'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   BELOW +56.00px x=1708.0 y=1398.5 [observe] '마디'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   BELOW +56.00px x=1753.6 y=1398.5 [observe] '더'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   ABOVE -35.23px x=1461.5 y=754.8 [observe] 'Es ist fraglich, ob ... = '
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   ABOVE -35.23px x=1664.1 y=754.8 [observe] '아직'
+P7 box=(1439.5,790.0,422.5,552.5) bottom=1342.5
+   ABOVE -35.23px x=1708.7 y=754.8 [observe] '미정'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1461.5 y=1304.4 [observe] '않았습니다'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1551.2 y=1304.4 [observe] '. VOL.5'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1618.2 y=1304.4 [observe] '에'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1640.8 y=1304.4 [observe] '여러분의'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1717.3 y=1304.4 [observe] '글을'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1758.0 y=1304.4 [observe] '보내'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -54.08px x=1798.6 y=1304.4 [observe] '주세'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -26.39px x=1461.5 y=1332.1 [observe] '요'
+P7 box=(1439.5,1358.5,422.5,150.0) bottom=1508.5
+   ABOVE -26.39px x=1479.4 y=1332.1 [observe] '.'
+SPILL_SWEEP 2026-w47-de-ko: 32 boxes, 142 candidates, 0 SPILL, 142 OBSERVE
+== 3c edge ==
+edge RC=0
+  P1: clean min_dist_pt={'top': 58.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.4}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 47.5}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 65.5}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.5, 'right': 66.2}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 47.5}
+EDGE_SCAN 2026-w47-de-ko: 8 pages, 0 TOUCH, 0 NEAR
+== 3d head_check on run-build log ==
+head RC=0
+HEAD CHECK PASS 0 defects
+== 4 d5 census ==
+d5 RC=0
+p1-front.svg: els=333 news=242 cjk_sans=69 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=5
+p2-leben.svg: els=352 news=251 cjk_sans=96 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p3-kultur.svg: els=413 news=301 cjk_sans=97 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p4-sport.svg: els=307 news=238 cjk_sans=69 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p5-jugend.svg: els=380 news=274 cjk_sans=93 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=6
+p6-vertiefung.svg: els=381 news=278 cjk_sans=103 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-sprache.svg: els=524 news=331 cjk_sans=157 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=21
+p8-uebungen.svg: els=1754 news=1094 cjk_sans=639 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=1
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=33 curly_in_newsreader=33 noto_sans_elements=0
+CENSUS PASS
+== 5 freeze diff core-de vs edition ==
+freeze RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +151 strings / -54 strings; CJK core 200 -> edition 230; added CJK chars: 206 {'주': 8, '간': 4, '독': 9, '일': 10, '인': 1, '이': 6, '읽': 2, '는': 1, '어': 8, '분': 4}; added Latin strings: 5 (unexpected 5)
+p2: +156 strings / -54 strings; CJK core 232 -> edition 260; added CJK chars: 243 {'생': 1, '활': 1, '참': 2, '회': 2, '와': 2, '기': 3, '도': 3, '의': 5, '날': 6, '과': 1}; added Latin strings: 7 (unexpected 7)
+p3: +172 strings / -59 strings; CJK core 219 -> edition 314; added CJK chars: 298 {'문': 7, '화': 1, '크': 6, '리': 7, '스': 13, '마': 7, '시': 5, '장': 10, '과': 1, '조': 1}; added Latin strings: 7 (unexpected 7)
+p4: +111 strings / -40 strings; CJK core 185 -> edition 188; added CJK chars: 173 {'스': 3, '포': 1, '츠': 1, '결': 2, '과': 2, '와': 3, '리': 3, '그': 2, '복': 1, '귀': 1}; added Latin strings: 5 (unexpected 5)
+p5: +166 strings / -59 strings; CJK core 221 -> edition 265; added CJK chars: 249 {'젊': 1, '은': 5, '이': 4, '대': 4, '림': 4, '절': 4, '달': 3, '력': 3, '소': 4, '원': 4}; added Latin strings: 7 (unexpected 7)
+p6: +173 strings / -56 strings; CJK core 254 -> edition 275; added CJK chars: 258 {'심': 2, '화': 1, '조': 5, '용': 4, '한': 7, '주': 4, '와': 1, '예': 4, '산': 3, '참': 1}; added Latin strings: 8 (unexpected 8)
+p7: +332 strings / -84 strings; CJK core 445 -> edition 490; added CJK chars: 467 {'언': 2, '어': 7, '이': 15, '번': 5, '주': 10, '의': 12, '문': 5, '장': 4, '과': 2, '오': 3}; added Latin strings: 9 (unexpected 9)
+p8: +1001 strings / -494 strings; CJK core 1445 -> edition 1529; added CJK chars: 1205 {'연': 1, '습': 4, '과': 5, '정': 9, '답': 3, '최': 1, '종': 1, '테': 1, '스': 12, '트': 9}; added Latin strings: 104 (unexpected 104)
+TOTAL added CJK characters: 3099
+TOTAL added Latin strings: 152 (unexpected 152)
+== 6a FRESH text extraction print vs web (post) ==
+print non-space: 35411 web non-space: 35411
+PRINT==WEB MULTISET: True
+== 6b text multiset pre vs post print (expect only the intended char swaps) ==
+pre non-space chars: 35362; post non-space chars: 35411
+MULTISET DIFFERS
+only-in-pre: {'t': 5, 's': 4, 'i': 2, 'W': 1, 'F': 1, '어': 1, '트': 1, 'b': 1, 'h': 1, 'ü': 1, 'ö': 1, '드': 1, '벤': 1, '캘': 1, '린': 1, '더': 1}
+only-in-post: {'d': 8, 'r': 6, 'a': 6, 'u': 5, 'o': 5, 'g': 5, 'M': 4, 'e': 4, 'k': 3, 'z': 3, 'w': 3, 'ß': 3, 'E': 2, 'D': 2, 'n': 2, 'l': 2, 'm': 2, 'f': 1, ',': 1, 'ä': 1}
+multiset pre/post RC=1 (1 expected: exactly the intended swaps)
+GATES-DONE-2026-w47-de-ko

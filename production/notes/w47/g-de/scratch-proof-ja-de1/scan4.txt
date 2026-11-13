@@ -1,0 +1,28 @@
+== exercise numbers on P1-P7 stems (SVG text) ==
+page 1 stem/key numbered lines: 8 range: (1, 28) sorted-contiguous: True
+page 2 stem/key numbered lines: 4 range: (43, 46) sorted-contiguous: True
+page 3 stem/key numbered lines: 0 range: None sorted-contiguous: True
+page 4 stem/key numbered lines: 0 range: None sorted-contiguous: True
+page 5 stem/key numbered lines: 0 range: None sorted-contiguous: True
+page 6 stem/key numbered lines: 0 range: None sorted-contiguous: True
+page 7 stem/key numbered lines: 154 range: (1, 150) sorted-contiguous: False
+== all numbered exercise stems 1..150 continuity (excluding P8 key lines) ==
+stems found: 166 min 1 max 150 missing: [] dup: [1, 2, 3, 4, 25, 26, 27, 28, 43, 44, 45, 46, 141, 142, 143, 144]
+== counts by page (stems) ==
+{1: 8, 2: 4, 3: 0, 4: 0, 5: 0, 6: 0, 7: 154} total stems P1-7: 166
+== P7 teaser bottom / P8 keys bottom geometry ==
+P7 max text y overall: (2624.0, 'Lucerna\u3000JAPANISCHE WOCHENZEITUNG VOL.4\u3000Japanischer Text\u3000Deutsche Erklärungen')
+P8 max text y overall: (2624.0, 'Lucerna\u3000JAPANISCHE WOCHENZEITUNG VOL.4\u3000Japanischer Text\u3000Deutsche Erklärungen')
+P8 keys region (y>1500) max y: (2624.0, 'Lucerna\u3000JAPANISCHE WOCHENZEITUNG VOL.4\u3000Japanischer Text\u3000Deutsche Erklärungen')
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p1-hyoushi.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p2-kurashi.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p3-bunka.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p4-supotsu.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p5-wakamono.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p6-fukayomi.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p7-kotoba.svg non-footer text y>2580: []
+production/2026-w47/fanout-ja/2026-w47-ja-de/svg/p8-tesuto.svg non-footer text y>2580: []
+== P2 word-card gloss lines (F3) ==
+  Bambusrechen für florierende Geschäfte
+== P1 word gloss last baseline vs divider ==
+divider y=1884 present: True

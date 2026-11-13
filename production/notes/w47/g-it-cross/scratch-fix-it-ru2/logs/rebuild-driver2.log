@@ -1,0 +1,16 @@
+===== 2026-w47-it-ru (scratch rebuild) =====
+  run.log: RC=0
+  HEAD TOO WIDE lines: ['  !! HEAD TOO WIDE [P6-ex]: D\u3000LE PAROLE DELLA MANOVRA']
+  render.log: RC=0
+  export.log: RC=0
+861c861
+< Пример от редакции, а не настоящее письмо. Писем и лучших сочинений нет; обещание переносится на VOL.5.
+---
+> Пример от редакции, а не письмо. Писем и лучших сочинений нет; обещание переносится на VOL.5.
+
+  textmd diff: exactly 1 changed line (LETTERE disclosure); no dropped lines
+  webpdf.log: RC=0
+  La-Lucerna-VOL4-RU.pdf: 13644359 B sha bca811b034701cbf232b5959d389d6028efe31e760f5fd9d35172444a59f50db
+  La-Lucerna-VOL4-RU-web.pdf: 1361661 B sha ce75a0349c3e62b0631a8beb2c8fa9366608cec4c69d66da56be31cd7b3838af
+  2026-w47-it-ru.text.md: 67662 B sha 28e906435b1f47dbb2f1b6238b49b9c91061a292e458d07cf63cd132cb8fe9f2
+===== 2026-w47-it-ru DONE =====

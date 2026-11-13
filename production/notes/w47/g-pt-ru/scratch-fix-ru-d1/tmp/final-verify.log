@@ -1,0 +1,35 @@
+PASS SVG P6 chart title present in rebuilt p6-razbor.svg at char 1452
+PASS SVG P6 chart disclaimer present in rebuilt p6-razbor.svg at char 1471
+PASS SVG P7 subtitle present in rebuilt p7-yazyk.svg at char 28
+PASS SVG P8 subtitle present in rebuilt p8-test.svg at char 30
+PASS text.md P6 chart title present in rebuilt
+PASS text.md disclaimer absent in CORE too (SVG-only by design)
+PASS text.md disclaimer absent in rebuilt (same as core)
+PASS text.md P7 subtitle present in rebuilt
+PASS text.md P8 subtitle present in rebuilt
+removed strings total: 317 (256 distinct); with Cyrillic: 1
+   removed-cyr p8 x1: 'можно'
+PASS freeze diff: removed Cyrillic all Q46 note (можно) or none 1 item(s), all Q46
+rebuilt removed-Cyrillic (must be Q46 only): [('8', 'можно')]
+text.md shipped-vs-rebuilt changed lines: 12
+   changed-md: '20. [B1 · 完成句子] Дети пишут Деду Морозу о своём ___. — key: желание (желание = 願望) [填空]'
+   changed-md: '25. 17 ноября — Международный день студента (key b · 大學生節 b)'
+   changed-md: '### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · 練習數據'
+   changed-md: '### ЯЗЫК · 語言 — Фокус на язык · 三個級別，三個主題'
+   changed-md: '### ТЕСТ И ОТВЕТЫ · 練習與答案 — 第 8 版 · 本週大測驗 + 所有答案'
+   changed-md: '20. желание — желание = 願望'
+   changed-md: '20. [B1 · 完成句子] Дети пишут Деду Морозу о своём ___. — key: желании (желание = 願望) [填空]'
+   changed-md: '25. 17 ноября — День студента (key b · 大學生節 b)'
+   changed-md: '### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · УЧЕБНЫЕ ДАННЫЕ · 練習數據'
+   changed-md: '### ЯЗЫК · 語言 — Фокус на язык · Три уровня, три темы · 三個級別，三個主題'
+   changed-md: '### ТЕСТ И ОТВЕТЫ · 練習與答案 — 第 8 版 · Большой тест недели + все ответы'
+   changed-md: '20. желании — желание = 願望'
+PASS text.md: only KEEP headings + known D2/D6 core fixes changed 12 lines
+CONTROL shipped edition removed-Cyrillic words (22 non-Q46): ['Большой', 'ДАННЫЕ', 'День', 'Три', 'УЧЕБНЫЕ', 'Это', 'все', 'для', 'желании', 'настоящая', 'не', 'недели', 'опрос', 'ответы', 'редакции', 'статистика', 'темы', 'тест', 'три', 'упражнений', 'уровня', 'учебный']
+PASS control: shipped edition FAILS the Cyrillic audit (bug caught)
+PASS control: shipped edition removed word 'УЧЕБНЫЕ'
+PASS control: shipped edition removed word 'ДАННЫЕ'
+PASS control: shipped edition removed word 'учебный'
+PASS control: shipped edition removed word 'Три'
+PASS control: shipped edition removed word 'Большой'
+FAILURES: none

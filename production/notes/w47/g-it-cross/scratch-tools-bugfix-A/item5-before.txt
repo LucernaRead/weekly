@@ -1,0 +1,4 @@
+p8-compare.json keys: ['core_count', 'core_set', 'edition_count', 'edition_set', 'extra', 'how', 'keydiff', 'missing', 'ref_how', 'status', 'total', 'uncertain']
+comp["extra"] = []
+OLD  comp.get("extra_count", "?") -> '?'
+NEW  comp.get("extra", "?") -> []

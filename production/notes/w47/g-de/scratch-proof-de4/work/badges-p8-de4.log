@@ -1,0 +1,37 @@
+chips: 35
+chip x=  88.0 y=  629.1 level=A2 | badge_opt Q113         | REG=['A2'] OK
+chip x=  88.0 y=  698.5 level=A2 | badge_opt Q114         | REG=['A2'] OK
+chip x=  88.0 y=  743.4 level=A2 | badge_opt Q115         | REG=['A2'] OK
+chip x=  88.0 y=  812.7 level=A2 | badge_opt Q116         | REG=['A2'] OK
+chip x=  88.0 y=  857.6 level=A2 | badge_opt Q117         | REG=['A2'] OK
+chip x=  88.0 y=  927.0 level=A2 | badge_opt Q118         | REG=['A2'] OK
+chip x=  88.0 y=  971.9 level=A2 | badge_opt Q119         | REG=['A2'] OK
+chip x=  88.0 y= 1016.8 level=A2 | badge_opt Q120         | REG=['A2'] OK
+chip x=  88.0 y= 1111.7 level=B1 | badge_opt Q121         | REG=['B1'] OK
+chip x=  88.0 y= 1252.4 level=A2 | badge_opt Q122         | REG=['A2'] OK
+chip x=  88.0 y= 1363.4 level=B1 | badge_opt Q123         | REG=['B1'] OK
+chip x= 538.5 y=  194.0 level=B1 | badge_opt Q124         | REG=['B1'] OK
+chip x= 538.5 y=  334.7 level=A2 | badge_opt Q125         | REG=['A2'] OK
+chip x= 538.5 y=  445.6 level=A2 | badge_opt Q126         | REG=['A2'] OK
+chip x= 538.5 y=  586.3 level=B1 | badge_opt Q127         | REG=['B1'] OK
+chip x= 538.5 y=  697.3 level=A2 | badge_opt Q128         | REG=['A2'] OK
+chip x= 538.5 y= 1154.5 level=B1 | badge_opt Q129         | REG=['B1'] OK
+chip x= 538.5 y= 1295.1 level=A2 | badge_opt Q130         | REG=['A2'] OK
+chip x= 989.0 y=  194.0 level=A2 | badge_opt Q131         | REG=['A2'] OK
+chip x= 989.0 y=  364.4 level=B1 | badge_opt Q132         | REG=['B1'] OK
+chip x= 989.0 y=  584.8 level=A2 | badge_opt Q133         | REG=['A2'] OK
+chip x= 989.0 y=  695.8 level=A2 | badge_opt Q134         | REG=['A2'] OK
+chip x= 989.0 y=  806.7 level=B1 | badge_opt Q135         | REG=['B1'] OK
+chip x= 989.0 y=  917.7 level=B1 | badge_opt Q136         | REG=['B1'] OK
+chip x= 989.0 y= 1078.6 level=A2 | badge_opt Q137         | REG=['A2'] OK
+chip x= 989.0 y= 1189.6 level=A2 | badge_opt Q138         | REG=['A2'] OK
+chip x= 989.0 y= 1300.5 level=B1 | badge_opt Q139         | REG=['B1'] OK
+chip x= 989.0 y= 1411.4 level=B1 | badge_opt Q140         | REG=['B1'] OK
+chip x=1439.5 y=  236.0 level=B1 | match_set Q141-144     | REG=['B1'] OK
+chip x=1439.5 y=  815.0 level=A2 | badge_strip Q145       | REG=['A2'] OK
+chip x=1560.3 y=  815.0 level=A2 | badge_strip Q146       | REG=['A2'] OK
+chip x=1681.2 y=  815.0 level=A2 | badge_opt Q147         | REG=['A2'] OK
+chip x=1439.5 y=  849.0 level=B1 | badge_strip Q148       | REG=['B1'] OK
+chip x=1560.3 y=  849.0 level=A2 | badge_strip Q149       | REG=['A2'] OK
+chip x=  88.0 y= 1650.0 level=B1 | writing Q150           | REG=['B1'] OK
+mismatches: 0

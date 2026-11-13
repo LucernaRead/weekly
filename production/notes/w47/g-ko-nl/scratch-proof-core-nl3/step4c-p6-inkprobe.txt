@@ -1,0 +1,7 @@
+P6 flagged text x=1461.5 y=659.44 :: '。问题：你在鞋里放什么？（100 名年轻人）'
+P6 text advance width=397.8 -> ink span x[1461.5,1859.3]
+P6 containing cream box x=1439.5 y=200.0 w=422.5 h=465.0 bottom=665.0
+card PNG size: 1950x2700
+P6 strip below box y[665,672] x[1439,1862] non-paper pixels=0 -> no ink (false positive)
+P6 tight glyph-band lowest ink svg y=661.0 vs rect bottom 665.0 (clearance +4.0)
+P6 full-width band lowest ink svg y=661.0 (fix3 method; includes box chrome)

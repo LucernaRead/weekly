@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages 8
+P8 spans 748 min size 10.125
+P8 sizes <=11: [10.125, 10.5]
+p1-portada.svg paper #fbfaf6 rects: 1 | VOL.4 count: 2 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#5c6e30': 8, '#46581f': 2} total 10
+   masthead: La Lucerna 196
+p2-vida.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#5c6e30': 13, '#46581f': 2} total 15
+p3-cultura.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#5c6e30': 11, '#46581f': 7} total 18
+p4-deporte.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#46581f': 15} total 15
+p5-juventud.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#46581f': 18} total 18
+p6-afondo.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#37402f': 18} total 18
+p7-lengua.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 3
+   chips rx=2.7 by fill: {'#5c6e30': 4, '#46581f': 4, '#37402f': 4} total 12
+p8-ejercicios.svg paper #fbfaf6 rects: 1 | VOL.4 count: 1 | VOL.5 count: 0
+   chips rx=2.7 by fill: {'#46581f': 21, '#5c6e30': 11, '#37402f': 3} total 35

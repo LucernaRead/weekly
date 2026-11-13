@@ -1,0 +1,32 @@
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/svg: 0 flags 
+== p8 extract ==
+core extract RC=0
+ed extract RC=0
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+== keycheck ==
+keycheck RC=0
+registry-vs-p8extract exact 149/150 exc=[150] mismatch=[]
+registry-keys-vs-core: 145/150 match; diff=[(137, 'Die Demokraten haben das Repräsentantenhaus und den Senat gewonnen.', '民主党赢下了众议院和参议院。'), (138, 'Die Auszählung geht weiter.', '计票仍在继续。'), (139, 'Der neue Kongress tagt ab Januar 2027.', '新国会将于 2027 年 1 月开会。'), (140, 'Brich das Schweigen.', '打破沉默。'), (150, 'Offene Aufgabe — Stichpunkte im Schreibkasten; Mustertext im Kasten auf Seite 8', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125 key: A expect A; Q46 key: A expect A; Q52: hosted expect hosted; Q55: won expect won
+Q82/83/84 keys: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none
+== freeze diff ==
+freeze diff RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +32 strings / -34 strings; CJK core 202 -> edition 22; added CJK chars: 2 {'\u3000': 2}
+p2: +42 strings / -54 strings; CJK core 278 -> edition 18; added CJK chars: 1 {'\u3000': 1}
+p3: +25 strings / -23 strings; CJK core 146 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +24 strings / -22 strings; CJK core 143 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p5: +24 strings / -22 strings; CJK core 132 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +25 strings / -21 strings; CJK core 159 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p7: +64 strings / -55 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+p8: +99 strings / -99 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9

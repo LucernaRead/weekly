@@ -1,0 +1,8 @@
+translate sources: 275
+IDENTICAL (rendering == source, not leaks): 4
+  IDENTICAL: 'Notes｜'
+  IDENTICAL: '文化\u3000Culture'
+  IDENTICAL: '体育\u3000Sport'
+  IDENTICAL: '悬疑 = suspense, b'
+LEAKS: 0
+OVERALL: PASS

@@ -1,0 +1,95 @@
+----- stage2 2026-11-12T08:42:30Z -----
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 8e8c4fe8fe17aec2 produced 8e8c4fe8fe17aec2
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p7: +75 strings / -99 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 66 (unexpected 66)
+p8: +118 strings / -508 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 104 (unexpected 104)
+TOTAL added CJK characters: 9
+TOTAL added Latin strings: 363 (unexpected 363)
+added CJK (excl U+3000): {}
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-pt: 32 boxes, 148 candidates, 0 SPILL, 148 OBSERVE
+boxtitle RC=1
+  P1 [TITLE] DEFECT over=+23.5px (right) core=-11.4 backup=None | regression vs core (core -11.4px) | 'Números'
+  P6 [TITLE] DEFECT over=+4.0px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | 'Duração do mandato'
+BOXTITLE 2026-w47-en-pt: 34 titles, 183 body lines, 2 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-pt: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=1
+ratios: n=467 median=1.003 boldT=1.049 boldF=0.979
+P8 p8-test.svg: lines 192->192 slack_footer 47.8->37.8
+CREAMBOX FAIL 2 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+textcheck RC=0
+post-print chars=38095 post-web chars=38095 pre-print chars=38095
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+OVERALL: HAS-FAILURES
+----- stage2 2026-11-12T08:54:21Z -----
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/The-Lucerna-VOL4-en-pt.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 8e8c4fe8fe17aec2 produced 8e8c4fe8fe17aec2
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p7: +75 strings / -99 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 66 (unexpected 66)
+p8: +118 strings / -508 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 104 (unexpected 104)
+TOTAL added CJK characters: 9
+TOTAL added Latin strings: 363 (unexpected 363)
+added CJK (excl U+3000): {}
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-pt: 32 boxes, 148 candidates, 0 SPILL, 148 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-pt
+BOXTITLE 2026-w47-en-pt: 32 titles, 185 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-pt: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=467 median=1.003 boldT=1.049 boldF=0.979
+P8 p8-test.svg: lines 192->192 slack_footer 47.8->37.8
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+textcheck RC=0
+post-print chars=38095 post-web chars=38095 pre-print chars=38095
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+OVERALL: ALL-GREEN

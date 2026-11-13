@@ -1,0 +1,14 @@
+D6 bridge: current w=422.5 -> 2 lines: ['Complète au passé composé. Attention aux', 'auxiliaires hebben/zijn.']
+  identical-wrap intervals (0.5px steps, 250-450): [(411.0, 450.0)]
+  chosen band [411.0, 450.0] mid=430.5
+D7 gloss: current w=422.5 -> 3 lines: ['de wedstrijd match ; de groepswinst victoire', 'de groupe ; de kwartfinale quart de finale ;', 'scoren marquer.']
+  identical-wrap intervals (0.5px steps, 250-450): [(419.5, 447.5)]
+  chosen band [419.5, 447.5] mid=433.5
+D8 capcn: current w=378.5 -> 4 lines: ["Données d'exercice : des chiffres inventés,", "pour l'exercice seulement, pas une vraie", 'enquête. Question : que mets-tu dans ta', 'chaussure ? (100 jeunes)']
+  identical-wrap intervals (0.5px steps, 250-450): [(360.0, 404.5)]
+  chosen band [360.0, 404.5] mid=382.25
+D10 dt_zh: current w=378.5 -> 2 lines: ['Aucune vraie lettre ni meilleur texte : un', 'exemple ; promesse reportée à VOL.5.']
+  identical-wrap intervals (0.5px steps, 250-450): [(367.5, 450.0)]
+  chosen band [367.5, 450.0] mid=408.75
+D11 facts:
+['# col 3: image + facts box (sequential, measured)', 'facts = ["Landelijke intocht: zaterdag 14 november, Grave, Maaskade, vanaf 12:00 uur op tv.",', 'sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 64', 'for t in facts:', 'facts = ["Maandag 16 november, 20:45 uur: Duitsland – Nederland, Berlijn, NPO 3.",', 'sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32 + 30']

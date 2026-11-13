@@ -1,0 +1,24 @@
+== pixel diff new print render vs proof2 (fix1 build) render, 110dpi ==
+page 1: old (2235, 3094) new (2235, 3094)
+  changed px: 68445 / 6915090 (0.99%), bbox=(616, 633, 2152, 2579)
+page 2: old (2235, 3094) new (2235, 3094)
+  changed px: 113091 / 6915090 (1.64%), bbox=(637, 622, 2134, 2026)
+page 3: old (2235, 3094) new (2235, 3094)
+  changed px: 2505 / 6915090 (0.04%), bbox=(1956, 1001, 2180, 1029)
+page 4: old (2235, 3094) new (2235, 3094)
+  changed px: 1230903 / 6915090 (17.80%), bbox=(100, 229, 2146, 2900)
+page 5: old (2235, 3094) new (2235, 3094)
+  changed px: 12312 / 6915090 (0.18%), bbox=(1649, 1953, 2104, 2056)
+page 6: old (2235, 3094) new (2235, 3094)
+  changed px: 0 / 6915090 (0.00%), bbox=None
+page 7: old (2235, 3094) new (2235, 3094)
+  changed px: 602348 / 6915090 (8.71%), bbox=(100, 236, 2131, 2922)
+page 8: old (2235, 3094) new (2235, 3094)
+  changed px: 26194 / 6915090 (0.38%), bbox=(145, 827, 1606, 2932)
+
+== SVG visible-text diff old(fix1) vs new(rebuild #2) ==
+Traceback (most recent call last):
+  File "<stdin>", line 27, in <module>
+  File "<stdin>", line 25, in texts
+  File "<stdin>", line 25, in <genexpr>
+IndexError: no such group

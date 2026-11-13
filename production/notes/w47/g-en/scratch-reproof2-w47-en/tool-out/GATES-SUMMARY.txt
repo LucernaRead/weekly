@@ -1,0 +1,109 @@
+===== core-en =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+spill RC=0 SPILL_SWEEP core-en: 32 boxes, 140 candidates, 0 SPILL, 140 OBSERVE
+boxtitle RC=0 == core-en  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/core-en BOXTITLE core-en: 30 titles, 250 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN core-en: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 191->191 slack_footer 41.1->41.1 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (48166 bytes)
+===== 2026-w47-en-de =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-de: 32 boxes, 146 candidates, 0 SPILL, 146 OBSERVE
+boxtitle RC=0 == 2026-w47-en-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-de BOXTITLE 2026-w47-en-de: 30 titles, 185 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-de: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 189->189 slack_footer 35.9->35.9 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (48677 bytes)
+===== 2026-w47-en-es =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-es/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-es: 32 boxes, 150 candidates, 0 SPILL, 150 OBSERVE
+boxtitle RC=0 == 2026-w47-en-es  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-es BOXTITLE 2026-w47-en-es: 32 titles, 184 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-es: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 202->202 slack_footer 37.3->37.3 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49599 bytes)
+===== 2026-w47-en-fr =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-fr/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-fr: 32 boxes, 145 candidates, 0 SPILL, 145 OBSERVE
+boxtitle RC=0 == 2026-w47-en-fr  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-fr BOXTITLE 2026-w47-en-fr: 28 titles, 189 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-fr: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 191->191 slack_footer 35.9->35.9 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49463 bytes)
+===== 2026-w47-en-it =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-it/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-it: 32 boxes, 147 candidates, 0 SPILL, 147 OBSERVE
+boxtitle RC=0 == 2026-w47-en-it  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-it BOXTITLE 2026-w47-en-it: 34 titles, 181 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-it: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 192->192 slack_footer 37.8->37.8 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49187 bytes)
+===== 2026-w47-en-ja =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-ja: 32 boxes, 147 candidates, 0 SPILL, 147 OBSERVE
+boxtitle RC=0 == 2026-w47-en-ja  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-ja BOXTITLE 2026-w47-en-ja: 30 titles, 269 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-ja: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 185->185 slack_footer 34.6->34.6 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49871 bytes)
+===== 2026-w47-en-ko =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-ko: 32 boxes, 175 candidates, 0 SPILL, 175 OBSERVE
+boxtitle RC=0 == 2026-w47-en-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-ko BOXTITLE 2026-w47-en-ko: 45 titles, 379 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-ko: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 184->184 slack_footer 37.6->37.6 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49760 bytes)
+===== 2026-w47-en-nl =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-nl: 32 boxes, 149 candidates, 0 SPILL, 149 OBSERVE
+boxtitle RC=0 == 2026-w47-en-nl  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-nl BOXTITLE 2026-w47-en-nl: 32 titles, 183 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-nl: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 178->178 slack_footer 35.9->35.9 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49209 bytes)
+===== 2026-w47-en-pt =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-pt: 32 boxes, 148 candidates, 0 SPILL, 148 OBSERVE
+boxtitle RC=0 == 2026-w47-en-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-pt BOXTITLE 2026-w47-en-pt: 32 titles, 185 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-pt: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 192->192 slack_footer 37.8->37.8 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (49338 bytes)
+===== 2026-w47-en-ru =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-ru: 32 boxes, 152 candidates, 0 SPILL, 152 OBSERVE
+boxtitle RC=0 == 2026-w47-en-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-ru BOXTITLE 2026-w47-en-ru: 34 titles, 238 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-ru: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 203->203 slack_footer 36.3->36.3 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (54799 bytes)
+===== 2026-w47-en-zh-tw =====
+occlusion RC=0 flags=0
+p8 extract RC=0   set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw/svg/p8-test.svg: 60 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150] 
+spill RC=0 SPILL_SWEEP 2026-w47-en-zh-tw: 32 boxes, 138 candidates, 0 SPILL, 138 OBSERVE
+boxtitle RC=0 == 2026-w47-en-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-zh-tw BOXTITLE 2026-w47-en-zh-tw: 30 titles, 251 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+edge RC=0 EDGE_SCAN 2026-w47-en-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 P8 p8-test.svg: lines 182->182 slack_footer 35.6->35.6 CREAMBOX PASS 0 defects 
+census RC=0 CENSUS PASS
+print/web text BYTE-IDENTICAL (47885 bytes)

@@ -1,0 +1,45 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+01 p1-pervaya.s 'Зенит'                    vs '» '         right PILgap=163.16 raster_min=10.33 raster_med=10.92 rows=8 touch_rows=0 (tool 5.5) -> CLEAR
+02 p1-pervaya.s 'Динамо'                   vs '» — '       right PILgap=216.53 raster_min=0.00 raster_med=0.00 rows=7 touch_rows=5 (tool 5.1) -> TOUCH
+03 p1-pervaya.s 'тур'                      vs ': «'        right PILgap=93.11 raster_min=10.17 raster_med=12.25 rows=12 touch_rows=0 (tool 4.9) -> CLEAR
+04 p1-pervaya.s 'пятница'                  vs '»: '        right PILgap=85.79 raster_min=1.67 raster_med=2.25 rows=8 touch_rows=0 (tool 3.2) -> CLEAR
+05 p1-pervaya.s 'третий'                   vs ', '         right PILgap=83.29 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=6 (tool 3.4) -> TOUCH
+06 p1-pervaya.s 'субботу'                  vs ','          right PILgap=89.69 raster_min=4.83 raster_med=6.67 rows=18 touch_rows=0 (tool 3.2) -> CLEAR
+07 p1-pervaya.s 'Краснодар'                vs '» — '       right PILgap=124.00 raster_min=2.00 raster_med=2.17 rows=7 touch_rows=0 (tool 3.1) -> CLEAR
+08 p1-pervaya.s 'Краснодаре'               vs ','          right PILgap=136.27 raster_min=0.00 raster_med=2.17 rows=12 touch_rows=3 (tool 3.3) -> TOUCH
+09 p1-pervaya.s '!'                        vs 'истории'    left PILgap=98.81 raster_min=0.00 raster_med=0.00 rows=10 touch_rows=6 (tool 3.6) -> TOUCH
+10 p1-pervaya.s 'ЦСКА'                     vs '? A.'       right PILgap=55.71 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=6 (tool 3.5) -> TOUCH
+11 p2-zhizn.svg 'толерантности'            vs '.'          right PILgap=157.71 raster_min=0.00 raster_med=0.00 rows=10 touch_rows=7 (tool 4.1) -> TOUCH
+12 p2-zhizn.svg 'студента'                 vs '.'          right PILgap=92.20 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=6 (tool 3.0) -> TOUCH
+13 p2-zhizn.svg 'студента'                 vs '.'          right PILgap=103.40 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=7 (tool 3.3) -> TOUCH
+14 p2-zhizn.svg '! '                       vs 'студента'   left PILgap=103.40 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=7 (tool 3.4) -> TOUCH
+15 p2-zhizn.svg 'студенту'                 vs ', '         right PILgap=103.49 raster_min=4.67 raster_med=6.50 rows=16 touch_rows=0 (tool 3.5) -> CLEAR
+16 p2-zhizn.svg 'спасибо'                  vs '.'          right PILgap=93.35 raster_min=2.50 raster_med=3.67 rows=12 touch_rows=0 (tool 3.3) -> CLEAR
+17 p3-kultura.s 'биография'                vs ':'          right PILgap=125.06 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=10 (tool 5.0) -> TOUCH
+18 p3-kultura.s 'посмотреть'               vs ': '         right PILgap=136.56 raster_min=1.50 raster_med=2.50 rows=10 touch_rows=0 (tool 3.8) -> CLEAR
+19 p3-kultura.s ')'                        vs 'посмотреть' left PILgap=112.86 raster_min=0.00 raster_med=2.83 rows=11 touch_rows=4 (tool 3.2) -> TOUCH
+20 p4-sport.svg 'место'                    vs '.'          right PILgap=67.56 raster_min=2.67 raster_med=3.75 rows=10 touch_rows=0 (tool 3.0) -> CLEAR
+21 p4-sport.svg 'Краснодар'                vs '» '         right PILgap=124.00 raster_min=2.00 raster_med=2.17 rows=7 touch_rows=0 (tool 3.1) -> CLEAR
+22 p4-sport.svg 'Краснодар'                vs '» — '       right PILgap=124.00 raster_min=2.00 raster_med=2.17 rows=7 touch_rows=0 (tool 3.1) -> CLEAR
+23 p4-sport.svg 'Россия'                   vs ', '         right PILgap=66.49 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=6 (tool 3.1) -> TOUCH
+24 p4-sport.svg 'истории'                  vs '; '         right PILgap=83.81 raster_min=0.00 raster_med=0.83 rows=10 touch_rows=5 (tool 3.1) -> TOUCH
+25 p4-sport.svg 'Краснодар'                vs '»'          right PILgap=124.00 raster_min=2.00 raster_med=2.17 rows=7 touch_rows=0 (tool 3.1) -> CLEAR
+26 p4-sport.svg 'ЦСКА'                     vs '? A.'       right PILgap=51.42 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=6 (tool 3.6) -> TOUCH
+27 p5-molodezh. 'пятница'                  vs '»:'         right PILgap=140.08 raster_min=2.67 raster_med=3.42 rows=8 touch_rows=0 (tool 5.1) -> CLEAR
+28 p5-molodezh. 'смартфоны'                vs ','          right PILgap=133.69 raster_min=0.00 raster_med=0.00 rows=12 touch_rows=12 (tool 5.2) -> TOUCH
+29 p6-razbor.sv 'студента'                 vs ', '         right PILgap=103.50 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=7 (tool 3.2) -> TOUCH
+30 p6-razbor.sv 'сбивается'                vs '.'          right PILgap=103.45 raster_min=0.00 raster_med=0.00 rows=11 touch_rows=7 (tool 3.2) -> TOUCH
+31 p6-razbor.sv 'Планируйте'               vs ': '         right PILgap=144.52 raster_min=2.00 raster_med=2.83 rows=12 touch_rows=0 (tool 3.2) -> CLEAR
+32 p6-razbor.sv '?\u3000'                  vs 'НЕДЕЛЕ'     left PILgap=98.95 raster_min=5.67 raster_med=5.83 rows=11 touch_rows=0 (tool 3.3) -> CLEAR
+33 p7-yazyk.svg '\u3000語言'                 vs 'ЯЗЫК'       left PILgap=130.11 raster_min=0.00 raster_med=0.00 rows=0 touch_rows=0 (tool 3.8) -> TOUCH
+34 p7-yazyk.svg 'прессы'                   vs ','          right PILgap=74.37 raster_min=0.00 raster_med=0.00 rows=10 touch_rows=6 (tool 3.0) -> TOUCH
+35 p7-yazyk.svg '!»'                       vs 'студента'   left PILgap=96.39 raster_min=0.00 raster_med=2.08 rows=12 touch_rows=1 (tool 3.4) -> TOUCH
+36 p7-yazyk.svg 'пресс'                    vs '-'          right PILgap=57.40 raster_min=0.00 raster_med=0.00 rows=2 touch_rows=2 (tool 3.0) -> TOUCH
+37 p7-yazyk.svg 'пятница'                  vs '»'          right PILgap=92.58 raster_min=1.83 raster_med=2.58 rows=8 touch_rows=0 (tool 3.6) -> CLEAR
+38 p7-yazyk.svg '!» — '                    vs 'студента'   left PILgap=92.20 raster_min=0.00 raster_med=0.75 rows=12 touch_rows=6 (tool 3.0) -> TOUCH
+39 p7-yazyk.svg 'Кипренского'              vs ', 1827 '    right PILgap=118.71 raster_min=0.00 raster_med=1.92 rows=12 touch_rows=2 (tool 3.5) -> TOUCH
+40 p7-yazyk.svg 'поступило'                vs ': '         right PILgap=110.89 raster_min=2.67 raster_med=3.67 rows=10 touch_rows=0 (tool 3.2) -> CLEAR
+41 p8-test.svg  '\u3000練習與答案'              vs 'ОТВЕТЫ'     left PILgap=182.74 raster_min=0.00 raster_med=0.00 rows=0 touch_rows=0 (tool 8.0) -> TOUCH
+42 p8-test.svg  '\u3000參考答案 — 按版面分頁排列，找到題號即可' vs 'ОТВЕТЫ'     left PILgap=97.44 raster_min=0.00 raster_med=0.00 rows=0 touch_rows=0 (tool 4.5) -> TOUCH
+CLEAR: 17 TOUCH: 25

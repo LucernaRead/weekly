@@ -1,0 +1,4 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-zh-tw-de/svg: 2 flags {'LINEX': 1, 'TEXTX': 1}
+  [LINEX] p7-lang.svg '下期預告\u3000Nächste Woche (VOL.5)' — later line box [87.4, 2595.4, 1862.6, 2596.6] crosses ink
+  [TEXTX] p7-lang.svg '下期預告\u3000Nächste Woche (VOL.5)' — ink overlaps 'Lucerna\u3000繁體中文週報 VOL.4\u3000繁體中文正文\u3000德語講解' by 392.0x11.0px

@@ -1,0 +1,46 @@
+  flow[P1-headline] ended col 2/2 y=1465 (bottom 1828)
+  flow[P1-extra] ended col 0/0 y=2264 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1246 (bottom 1540)
+P2 col3 ends 1445.75
+  flow[P2-ex] ended col 3/3 y=2323 (bottom 2580)
+P2 saved, exercises so far: 28
+  flow[P3-feature] ended col 1/2 y=1344 (bottom 1540)
+P3 col3 ends 1106.6
+  flow[P3-ex] ended col 2/3 y=2495 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=1094 (bottom 1560)
+P4 col3 ends 1229.6
+  flow[P4-ex] ended col 2/3 y=2406 (bottom 2580)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 1/2 y=1337 (bottom 1560)
+P5 col3 boxes end 1023.5
+P5 col3 ends 1422.6000000000004
+  flow[P5-ex] ended col 2/3 y=2435 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=948 (bottom 1560)
+P6 chart ends 717 content to 738.6999999999999
+P6 col3 ends 1052.0
+  flow[P6-ex] ended col 3/3 y=1801 (bottom 2580)
+P6 saved, exercises so far: 100
+  flow[P7-a2] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1252 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1371 (bottom 1560)
+P7 col3 ends 1927.5
+P7 photo ends 1891.8000000000002
+P7 saved, exercises so far: 112
+  flow[P8-ex] ended col 3/3 y=760 (bottom 1252)
+P8-ex flow ended col 3 y 759.6 (bottom 1252)
+P8 photo placed at 1439.5 775.5600000000002 ends 1073.0100000000004
+  flow[P8-keys] ended col 3/3 y=2551 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 46, 'B1': 73, 'B2': 31}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+model words: 81
+REG total: 150
+3-way: MATCH 149 / DIFF 0 / MISSING 0 (+ #150 exception)
+Q140: {"n": 140, "level": "B2", "type": "translate", "page": 8, "reg_key": "Ik maak een surprise met een kort gedicht.", "reg_note": "surprise is a fixed expression", "md_answer": "Ik maak een surprise met een kort gedicht.", "p8_key": "Ik maak een surprise met een kort gedicht.", "md_stem": "I am making a surprise with a little poem. → ___ — Correct: Ik maak een surprise met een kort gedicht.（surprise is a fixed expression） [Translate into Dutch]", "verdict": "MATCH"}
+Q150: {"n": 150, "level": "B1", "type": "writing", "page": 8, "reg_key": "(open task, model text below)", "reg_note": "See the model text in section H (81 words)", "md_answer": "(open task, model text below)", "p8_key": "✓", "md_stem": "«Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Correct: (open task, model text below)（See the model text in section H (81 words)） [Write]", "verdict": "EXCEPTION-OPEN-WRITING", "note": "P8 key should be ✓; text.md carries Tekstmodel; REG key is the open-writing placeholder"}
+match keys 25-28: [(25, 'd'), (26, 'c'), (27, 'a'), (28, 'b')] 141-144: [(141, 'b'), (142, 'c'), (143, 'd'), (144, 'a')]
+wrote keytable-150.txt

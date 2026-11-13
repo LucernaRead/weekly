@@ -1,0 +1,50 @@
+# ---- D5-de fix (W47 fix round 3): level chips for items that Flow.ex() never
+# draws one for — the cloze option lines (Q113-120), the dialogue
+# (Q145-149, one shared paragraph, no option lines) and writing (Q150).
+# Copied from fr core content8.py D5 helpers, with de's own sizes
+# (cloze option lines are 18.5 in de, not 19.5 as in fr).
+# Both helpers DRAW ONLY: they never touch REG, so numbering is unchanged.
+def badge_opt(flow, level, n, opts, size=18.5, lh=1.32, gap=2):
+    """One cloze option line with its own level chip: chip at the row
+    head, the option-line text shifted right by 72px.
+    Under the text-export stubs (no _fit/_ph: export_text.py) this only
+    records the option line, exactly as the old bf.para call did."""
+    body = f"{n}. {opts}"
+    if not hasattr(flow, "_fit"):
+        flow.p.para(flow.x, flow.y + size, body, size, "sans", False, INK, 422.5, lh)
+        return flow.y
+    w = flow.w - 72
+    lines = wrap(body, "sans", False, size, w)
+    h = size + len(lines) * size * lh
+    flow._fit(h + gap)
+    x, y = flow.x, flow.y
+    chip(flow.p, x, y, level)
+    flow.y = flow.p.para(x + 72, y + size, body, size, "sans", False, INK, w, lh) + gap
+    return flow.y
+
+def badge_strip(flow, items, size=19.5, gap=9):
+    """Row(s) of level chips, one per (level, n): chip + 'N.' per item,
+    packed 3 per row. For items that share one paragraph (dialogue).
+    Under the text-export stubs this draws nothing (chips carry no text
+    for the export; the numbers already sit in the dialogue paragraph)."""
+    if not hasattr(flow, "_fit"):
+        return flow.y
+    widths = [60 + 6 + text_w(f"{n}.", "sans", True, size) for _lv, n in items]
+    rows, cur, curw = [], [], 0.0
+    for it, w in zip(items, widths):
+        if cur and curw + 14 + w > flow.w:
+            rows.append(cur); cur, curw = [], 0.0
+        cur.append((it, w)); curw += (14 if cur else 0) + w
+    if cur:
+        rows.append(cur)
+    h = len(rows) * 30 + (len(rows) - 1) * 8
+    flow._fit(h + gap)
+    x0, y0 = flow.x, flow.y
+    for ri, row in enumerate(rows):
+        x = x0; y = y0 + ri * 38
+        for (lv, n), _w in row:
+            chip(flow.p, x, y, lv)
+            flow.p.text(x + 66, y + 22, f"{n}.", size, "sans", True, OLIVE)
+            x += _w + 14
+    flow.y = y0 + h + gap
+    return flow.y

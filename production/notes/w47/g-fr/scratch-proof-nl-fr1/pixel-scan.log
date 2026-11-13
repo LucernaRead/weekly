@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+<stdin>:28: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<stdin>:45: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<stdin>:59: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+P7 size (4388, 6075)
+P7 HET WOORD title: box-right px=4189.5 rightmost ink px=4236 -> ink right svg=1883.1 margin -21.1 svg-px
+P6 VOOR OF TEGEN? title: box-right px=4189.5 rightmost ink px=3863 -> ink right svg=1717.3 margin +144.7 svg-px
+P6 DE GRAFIEK title: box-right px=4189.5 rightmost ink px=4154 -> ink right svg=1846.7 margin +15.3 svg-px
+P1 DE WEEK IN CIJFERS title: box-right px=2162.2 rightmost ink px=4136 -> ink right svg=1838.7 margin -877.7 svg-px
+P1 IN DEZE EDITIE title: box-right px=4189.5 rightmost ink px=4052 -> ink right svg=1801.3 margin +60.7 svg-px
+P1 IN HET KORT title: box-right px=4189.5 rightmost ink px=3903 -> ink right svg=1735.1 margin +126.9 svg-px
+P1 rule strip rows: rule band px 4167.9..4170.6; gloss col px 3238..4189
+  L1 last ink row above rule: 4163 -> svg y=1850.2 clearance to rule top +2.18 svg-px
+  L2 first ink row below rule: 4178 -> svg y=1856.9 clearance to rule bottom +3.29 svg-px
+saved p7-hetwoord-title
+saved p6-voortegen-title
+saved p1-gloss-rule

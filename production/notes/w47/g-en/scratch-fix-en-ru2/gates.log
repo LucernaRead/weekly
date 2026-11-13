@@ -1,0 +1,218 @@
+== dump_reg ==
+dump_reg RC=0
+registry total 150
+per page [(1, 10), (2, 17), (3, 18), (4, 18), (5, 18), (6, 18), (7, 12), (8, 39)]
+levels Counter({'B1': 66, 'A2': 62, 'B2': 22})
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg: 0 flags 
+== p8 extract (core + fr) ==
+core extract RC=0
+fr extract RC=0
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+{
+ "status": "CLEAN",
+ "total": 150,
+ "how": "joined",
+ "ref_how": "joined",
+ "core_count": 60,
+ "edition_count": 60,
+ "core_set": [
+  3,
+  14,
+  36,
+  43,
+  54,
+  57,
+  66,
+  71,
+  72,
+  76,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  89,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150
+ ],
+ "edition_set": [
+  3,
+  14,
+  36,
+  43,
+  54,
+  57,
+  66,
+  71,
+  72,
+  76,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  89,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150
+ ],
+ "missing": [],
+ "extra": [],
+ "uncertain": [],
+ "keydiff": [
+  137,
+  138,
+  139,
+  140,
+  150
+ ]
+}== p8 extract vs registry ==
+extract keys: 150 registry: 150
+missing vs registry: none
+noted set == core noted: True
+== freeze baseline ==
+freeze baseline RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-front.svg core a9a8deaf76e61cb2 produced a9a8deaf76e61cb2
+  OK  p2-life.svg core 979747160de01d67 produced 979747160de01d67
+  OK  p3-culture.svg core efb83ce76688554b produced efb83ce76688554b
+  OK  p4-sport.svg core aa6f395e4932ef8b produced aa6f395e4932ef8b
+  OK  p5-youth.svg core a6a515cd5f734d0d produced a6a515cd5f734d0d
+  OK  p6-deep.svg core 7692256484f26289 produced 7692256484f26289
+  OK  p7-lang.svg core da908af644651793 produced da908af644651793
+  OK  p8-test.svg core 1066c475da8afe7e produced 1066c475da8afe7e
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze direct sha (baseline re-render vs shipped core) ==
+MATCH p1-front.svg
+MATCH p2-life.svg
+MATCH p3-culture.svg
+MATCH p4-sport.svg
+MATCH p5-youth.svg
+MATCH p6-deep.svg
+MATCH p7-lang.svg
+MATCH p8-test.svg
+direct sha256: 8/8
+== freeze diff ==
+freeze diff RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +49 strings / -32 strings; CJK core 202 -> edition 22; added CJK chars: 2 {'\u3000': 2}
+p2: +66 strings / -51 strings; CJK core 278 -> edition 18; added CJK chars: 1 {'\u3000': 1}
+p3: +27 strings / -23 strings; CJK core 146 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +24 strings / -22 strings; CJK core 143 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p5: +25 strings / -22 strings; CJK core 132 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +27 strings / -21 strings; CJK core 159 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p7: +90 strings / -54 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+p8: +110 strings / -99 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9
+== webpdf ==
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 37768 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30600 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/The-Lucerna-VOL4-en-ru.web.pdf: 2452560 bytes, 54729 text bytes
+== print/web text diff ==
+print chars 47649 distinct tokens 2541
+web chars 47649 distinct tokens 2541
+token multiset diff total: 0
+only in print: []
+only in web: []
+== print pdf sha/size ==
+fb849665c691cfb687f50d523a2f551ccc09cef806b942624e2f316395dab994  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/The-Lucerna-VOL4-en-ru.pdf
+29241529
+2452560
+== text.md ==
+textmd RC=1
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/ru/make_textmd_w47.py", line 225, in <module>
+    assert [e["key"] for e in REG] == [e["key"] for e in real], "key mismatch"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: key mismatch
+DONE

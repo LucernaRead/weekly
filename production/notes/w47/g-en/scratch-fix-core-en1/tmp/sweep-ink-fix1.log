@@ -1,0 +1,75 @@
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p1-front.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p2-life.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p3-culture.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p4-sport.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p5-youth.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p6-deep.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p7-lang.png
+png: hidden_files/w47/scratch-fix-core-en1/tmp/png-fix1/p8-test.png
+
+===== p1-front =====
+  box y=786 h=253.4 title 'THE WEEK IN NUMBERS\u3000数字看本周': ink 1007..1406 boxR=1411.5 edge_clear=+5.5 ok
+  box y=588 h=668.0 title 'SEARCHES': ink 1462..1601 boxR=1862.0 edge_clear=+261.0 ok
+  box y=1280 h=372.0 title 'IN THIS ISSUE\u3000本期目录': ink 1463..1743 boxR=1862.0 edge_clear=+119.0 ok
+  box y=1874 h=416.0 title 'IN BRIEF\u3000快讯': ink 1463..1633 boxR=1862.0 edge_clear=+229.0 ok
+  box y=786 bottom=1039.6 last_base=993.9 last_ink_y=995 clearance=+44.6 ok
+  box y=588 bottom=1256.0 last_base=1274.0 last_ink_y=1275 clearance=-19.0 OVERFLOW
+  box y=1280 bottom=1652.0 last_base=1604.0 last_ink_y=1608 clearance=+44.0 ok
+  box y=1874 bottom=2290.0 last_base=2246.0 last_ink_y=2250 clearance=+40.0 ok
+
+===== p2-life =====
+  box y=526 h=180.8 title 'SENATE IN NUMBERS\u3000参议院数字': ink 557..930 boxR=961.0 edge_clear=+31.0 ok
+  box y=200 h=357.8 title 'THE CALENDAR\u3000本周日历': ink 1007..1292 boxR=1411.5 edge_clear=+119.5 ok
+  box y=833 h=352.5 title 'DID YOU KNOW?': ink 1463..1648 boxR=1862.0 edge_clear=+214.0 ok
+  box y=1211 h=304.5 title 'AND YOU?\u3000说说你自己': ink 1461..1721 boxR=1862.0 edge_clear=+141.0 ok
+  box y=526 bottom=706.6 last_base=658.5 last_ink_y=658 clearance=+48.6 ok
+  box y=200 bottom=557.8 last_base=509.7 last_ink_y=512 clearance=+45.8 ok
+  box y=1400 bottom=1515.9 last_base=1468.2 last_ink_y=1469 clearance=+46.9 ok
+  box y=833 bottom=1185.4 last_base=1171.1 last_ink_y=1170 clearance=+15.4 ok
+  box y=1211 bottom=1515.9 last_base=1511.4 last_ink_y=1513 clearance=+2.9 ok
+  box y=1636 bottom=1768.0 last_base=1738.0 last_ink_y=1739 clearance=+29.0 ok
+  box y=1636 bottom=1768.0 last_base=1738.0 last_ink_y=1739 clearance=+29.0 ok
+  box y=1636 bottom=1768.0 last_base=1738.0 last_ink_y=1739 clearance=+29.0 ok
+
+===== p3-culture =====
+  box y=200 h=444.5 title 'COMING SOON\u3000即将上映': ink 557..837 boxR=961.0 edge_clear=+124.0 ok
+  box y=856 h=212.6 title "HAYMITCH'S GAMES\u3000海米奇的比赛": ink 1459..1841 boxR=1862.0 edge_clear=+21.0 ok
+  box y=200 bottom=644.5 last_base=596.4 last_ink_y=596 clearance=+48.5 ok
+  box y=1224 bottom=1369.3 last_base=1321.5 last_ink_y=1326 clearance=+43.3 ok
+  box y=856 bottom=1068.6 last_base=1020.1 last_ink_y=1024 clearance=+44.6 ok
+
+===== p4-sport =====
+  box y=489 h=331.3 title 'WHY PERTH?\u3000为什么去珀斯？52.填空': ink 556..1169 boxR=961.0 edge_clear=-208.0 OVERFLOW
+  box y=856 h=418.3 title 'SATURDAY, NOV 21\u3000周六赛程': ink 1458..1785 boxR=1862.0 edge_clear=+77.0 ok
+  box y=489 bottom=820.7 last_base=772.6 last_ink_y=772 clearance=+48.7 ok
+  box y=1435 bottom=1581.1 last_base=1533.4 last_ink_y=1534 clearance=+47.1 ok
+  box y=856 bottom=1274.3 last_base=1225.7 last_ink_y=1230 clearance=+44.3 ok
+
+===== p5-youth =====
+  box y=2034 h=210.9 title 'ODD SOCKS, IN NUMBERS\u3000奇袜日': ink 107..482 boxR=510.5 edge_clear=+28.5 ok
+  box y=852 h=212.6 title 'SPEAK UP\u3000大声说出来': ink 1458..1705 boxR=1862.0 edge_clear=+157.0 ok
+  box y=2034 bottom=2244.8 last_base=2196.7 last_ink_y=2196 clearance=+48.8 ok
+  box y=200 bottom=315.9 last_base=268.2 last_ink_y=273 clearance=+42.9 ok
+  box y=852 bottom=1064.6 last_base=1016.1 last_ink_y=1020 clearance=+44.6 ok
+
+===== p6-deep =====
+  box y=200 h=241.0 title 'A PRACTICE BALLOT\u3000模拟选票': ink 556..896 boxR=961.0 edge_clear=+65.0 ok
+  box y=666 h=212.6 title 'HOW LONG?\u3000任期多长？': ink 1459..1720 boxR=1862.0 edge_clear=+142.0 ok
+  box y=200 bottom=441.0 last_base=392.9 last_ink_y=396 clearance=+45.0 ok
+  box y=779 bottom=924.5 last_base=876.8 last_ink_y=881 clearance=+43.5 ok
+  box y=666 bottom=878.6 last_base=830.1 last_ink_y=834 clearance=+44.6 ok
+
+===== p7-lang =====
+  box y=651 h=357.2 title 'THE TOOLBOX\u3000句型工具箱': ink 1457..1755 boxR=1862.0 edge_clear=+107.0 ok
+  box y=254 bottom=399.7 last_base=352.0 last_ink_y=353 clearance=+46.7 ok
+  box y=923 bottom=1039.3 last_base=991.6 last_ink_y=993 clearance=+46.3 ok
+  box y=1599 bottom=1714.7 last_base=1667.0 last_ink_y=1670 clearance=+44.7 ok
+  box y=2062 bottom=2178.0 last_base=2130.2 last_ink_y=2133 clearance=+45.0 ok
+  box y=254 bottom=369.9 last_base=322.2 last_ink_y=324 clearance=+45.9 ok
+  box y=684 bottom=799.7 last_base=752.0 last_ink_y=753 clearance=+46.7 ok
+  box y=651 bottom=1008.2 last_base=959.7 last_ink_y=962 clearance=+46.2 ok
+
+===== p8-test =====
+  box y=1720 h=280.0 title 'MODEL\u3000范文': ink 1012..1160 boxR=1862.0 edge_clear=+702.0 ok
+  box y=1720 bottom=2000.0 last_base=1907.6 last_ink_y=1912 clearance=+88.0 ok
+

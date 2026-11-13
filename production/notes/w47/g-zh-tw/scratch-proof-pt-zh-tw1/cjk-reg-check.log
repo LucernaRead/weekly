@@ -1,0 +1,102 @@
+p1: added non-CJK 18 removed non-CJK 18 equal=False
+   only-added: [('A Lucerna VOL.4', 1), ('—', 1), ('， 8', 1)]
+   only-removed: [('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('O JORNAL SEMANAL PARA APRENDER — O BRASIL DE VERDADE, EM PORTUGUÊS, DO BRASIL', 1), ('，8', 1)]
+p2: added non-CJK 17 removed non-CJK 17 equal=False
+   only-added: [('8 ，', 1), ('A Lucerna VOL.4', 1), ('EXERCÍCIOS 2', 1)]
+   only-removed: [('8，', 1), ('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('EXERCÍCIOS2', 1)]
+p3: added non-CJK 10 removed non-CJK 10 equal=False
+   only-added: [('8 ，', 1), ('A Lucerna VOL.4', 1), ('EXERCÍCIOS 3', 1)]
+   only-removed: [('8，', 1), ('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('EXERCÍCIOS3', 1)]
+p4: added non-CJK 13 removed non-CJK 13 equal=False
+   only-added: [('8 ，', 1), ('A Lucerna VOL.4', 1), ('EXERCÍCIOS 4', 1)]
+   only-removed: [('8，', 1), ('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('EXERCÍCIOS4', 1)]
+p5: added non-CJK 15 removed non-CJK 14 equal=False
+   only-added: [('8 ，', 1), ('A Lucerna VOL.4', 1), ('EXERCÍCIOS 5', 1), ('（', 1), ('）', 1)]
+   only-removed: [('8，', 1), ('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('EXERCÍCIOS5', 1), ('（）', 1)]
+p6: added non-CJK 12 removed non-CJK 12 equal=False
+   only-added: [('8 ，', 1), ('A Lucerna VOL.4', 1), ('EXERCÍCIOS 6', 1)]
+   only-removed: [('8，', 1), ('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('EXERCÍCIOS6', 1)]
+p7: added non-CJK 33 removed non-CJK 33 equal=False
+   only-added: [('A Lucerna VOL.4', 1), ('no dia 20；cair ；', 1)]
+   only-removed: [('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('no dia 20；cair “”；', 1)]
+p8: added non-CJK 45 removed non-CJK 46 equal=False
+   only-added: [('A Lucerna VOL.4', 1), ('・', 2), ('，・', 1)]
+   only-removed: [('A Lucerna VOL.4LUCERNA PORTUGUESE WEEKLY', 1), ('·', 3), ('，', 1)]
+cjk_added distinct: 201 total: 948 non-traditional (s2t changes): []
+  NON-CONVERSION diff: 6 note 'decidir 现在时 eles 形式：decidem' -> 'decidir 現在式 eles 形式：decidem'
+  NON-CONVERSION diff: 9 note '决赛：格雷米奥 × 帕尔梅拉斯' -> '決賽：格雷米歐 × 帕爾梅拉斯'
+  NON-CONVERSION diff: 14 note '假日公交可能减班' -> '假日公車可能減班'
+  NON-CONVERSION diff: 16 note 'cair 现在时 ele 形式：cai' -> 'cair 現在式 ele 形式：cai'
+  NON-CONVERSION diff: 17 note 'durar 现在时 ele 形式：dura' -> 'durar 現在式 ele 形式：dura'
+  NON-CONVERSION diff: 18 note 'descansar 现在时 nós 形式：descansamos' -> 'descansar 現在式 nós 形式：descansamos'
+  NON-CONVERSION diff: 19 note 'abrir 现在时 elas 形式：abrem' -> 'abrir 現在式 elas 形式：abrem'
+  NON-CONVERSION diff: 20 note 'aproveitar 现在时 você 形式：aproveita' -> 'aproveitar 現在式 você 形式：aproveita'
+  NON-CONVERSION diff: 23 note '2023 年立法，定为全国假日' -> '2023 年立法，定為全國假日'
+  NON-CONVERSION diff: 25 note 'feriadão=带假日的长周末 a' -> 'feriadão=有假日的長週末 a'
+  NON-CONVERSION diff: 26 note 'folga=不用工作的空闲时间 b' -> 'folga=不用上班的空閒時間 b'
+  NON-CONVERSION diff: 27 note 'programação=一周活动安排 c' -> 'programação=本週活動安排 c'
+  NON-CONVERSION diff: 31 note '2023 年法律将 11 月 20 日定为全国假日' -> '2023 年法律將 11 月 20 日定為全國假日'
+  NON-CONVERSION diff: 40 note 'morrer 过去时 ele 形式：morreu' -> 'morrer 過去式 ele 形式：morreu'
+  NON-CONVERSION diff: 41 note 'nascer 过去时 ele 形式：nasceu' -> 'nascer 過去式 ele 形式：nasceu'
+  NON-CONVERSION diff: 42 note 'defender 过去时 ele 形式：defendeu' -> 'defender 過去式 ele 形式：defendeu'
+  NON-CONVERSION diff: 43 note 'formar 过去时 eles 形式：formaram' -> 'formar 過去式 eles 形式：formaram'
+  NON-CONVERSION diff: 47 note '次回合格雷米奥 1 比 1 战平米内罗竞技，总比分 3 比 1 晋级' -> '次回合格雷米歐 1 比 1 戰平米內羅競技，總比數 3 比 1 晉級'
+  NON-CONVERSION diff: 48 note '瓦斯科 2 比 1 赢了次回合，但总比分 2 比 2，帕尔梅拉斯点球晋级' -> '瓦斯科 2 比 1 贏了次回合，但總比數 2 比 2，帕爾梅拉斯十二碼晉級'
+  NON-CONVERSION diff: 49 note '点球 5 比 4，帕尔梅拉斯晋级' -> '十二碼 5 比 4，帕爾梅拉斯晉級'
+  NON-CONVERSION diff: 50 note '决赛 12 月 6 日单场，在马内·加林查' -> '決賽 12 月 6 日單場，在馬內・加林查'
+  NON-CONVERSION diff: 52 note 'agregado=两回合比分之和 b' -> 'agregado=兩回合比數相加 b'
+  NON-CONVERSION diff: 54 note 'pênaltis=十一米点的对决 d' -> 'pênaltis=十二碼點的對決 d'
+  NON-CONVERSION diff: 60 note 'empatar 过去时 ele 形式：empatou' -> 'empatar 過去式 ele 形式：empatou'
+  NON-CONVERSION diff: 61 note 'vencer 过去时 ele 形式：venceu' -> 'vencer 過去式 ele 形式：venceu'
+  NON-CONVERSION diff: 62 note 'abrir 过去时 ele 形式：abriu' -> 'abrir 過去式 ele 形式：abriu'
+  NON-CONVERSION diff: 63 note 'garantir 过去时 ela 形式：garantiu' -> 'garantir 過去式 ela 形式：garantiu'
+  NON-CONVERSION diff: 64 note 'ser 过去时复数：foram' -> 'ser 過去式複數：foram'
+  NON-CONVERSION diff: 66 note '非官方答案出在考试当晚，由培训机构整理' -> '非官方答案出在考試當晚，由補習班整理'
+  NON-CONVERSION diff: 69 note '个人成绩 2027 年 1 月才公布' -> '個人成績要到 2027 年 1 月才公布'
+  NON-CONVERSION diff: 75 note 'pesar 现在时 ela 形式：pesa' -> 'pesar 現在式 ela 形式：pesa'
+  NON-CONVERSION diff: 76 note 'sair 将来时：sairá' -> 'sair 未來式：sairá'
+  NON-CONVERSION diff: 77 note 'publicar 将来时 eles 形式：publicarão' -> 'publicar 未來式 eles 形式：publicarão'
+  NON-CONVERSION diff: 78 note 'decidir 将来时：decidirá' -> 'decidir 未來式：decidirá'
+  NON-CONVERSION diff: 79 note 'chegar 将来时：chegará' -> 'chegar 未來式：chegará'
+  NON-CONVERSION diff: 81 note '错：官方答案由 Inep 公布，不是培训机构' -> '錯：官方答案由 Inep 公布，不是補習班'
+  NON-CONVERSION diff: 88 note '非官方答案在考试当晚由培训机构整理' -> '非官方答案在考試當晚由補習班整理'
+  NON-CONVERSION diff: 92 note '个人成绩 2027 年 1 月公布' -> '個人成績 2027 年 1 月公布'
+  NON-CONVERSION diff: 93 note '将来时：serão' -> '未來式：serão'
+  NON-CONVERSION diff: 94 note '现在时：contam' -> '現在式：contam'
+  NON-CONVERSION diff: 95 note '现在时：fixa' -> '現在式：fixa'
+  NON-CONVERSION diff: 96 note '现在时：pesa' -> '現在式：pesa'
+  NON-CONVERSION diff: 103 note 'ser 现在时 ele 形式：é' -> 'ser 現在式 ele 形式：é'
+  NON-CONVERSION diff: 105 note 'empatar 过去时：empatou' -> 'empatar 過去式：empatou'
+  NON-CONVERSION diff: 106 note 'vencer 过去时：venceu' -> 'vencer 過去式：venceu'
+  NON-CONVERSION diff: 107 note 'abrir 过去时：abriu' -> 'abrir 過去式：abriu'
+  NON-CONVERSION diff: 108 note 'saíram 是 sair 的过去时复数' -> 'saíram 是 sair 的過去式複數'
+  NON-CONVERSION diff: 109 note 'quando + 虚拟式将来：sair' -> 'quando + 虛擬式未來：sair'
+  NON-CONVERSION diff: 110 note 'se + ser 的虚拟式将来：for' -> 'se + ser 的虛擬式未來：for'
+  NON-CONVERSION diff: 111 note 'quem + 虚拟式将来：tiver' -> 'quem + 虛擬式未來：tiver'
+  NON-CONVERSION diff: 112 note 'quando + 未来 → 虚拟式将来 sair' -> 'quando + 未來 → 虛擬式未來 sair'
+  NON-CONVERSION diff: 114 note '假日纪念祖比·帕尔马雷斯' -> '假日紀念祖比・帕爾馬雷斯'
+  NON-CONVERSION diff: 116 note '巴西杯决赛在 12 月 6 日' -> '巴西盃決賽在 12 月 6 日'
+  NON-CONVERSION diff: 117 note '决赛：格雷米奥 × 帕尔梅拉斯' -> '決賽：格雷米歐 × 帕爾梅拉斯'
+  NON-CONVERSION diff: 121 note '2023 年法律将 11 月 20 日定为全国假日' -> '2023 年法律將 11 月 20 日定為全國假日'
+  NON-CONVERSION diff: 122 note '格雷米奥总比分 3 比 1 晋级' -> '格雷米歐總比數 3 比 1 晉級'
+  NON-CONVERSION diff: 123 note '点球 5 比 4，帕尔梅拉斯晋级' -> '十二碼 5 比 4，帕爾梅拉斯晉級'
+  NON-CONVERSION diff: 125 note '第 36 轮帕尔梅拉斯 × 弗拉门戈在周六 21 日' -> '第 36 輪帕爾梅拉斯 × 佛朗明哥在週六 21 日'
+  NON-CONVERSION diff: 127 note '10 是到官方答案为止的工作日天数' -> '10 是到官方答案為止的工作日天數'
+  NON-CONVERSION diff: 131 note '周六他看帕尔梅拉斯 × 弗拉门戈' -> '週六他看帕爾梅拉斯 × 佛朗明哥'
+  NON-CONVERSION diff: 132 note '周一他核对非官方答案' -> '週一他核對非官方答案'
+  NON-CONVERSION diff: 135 note '时间从句 + 主句' -> '時間子句 + 主要子句'
+  NON-CONVERSION diff: 136 note '主语 + 动词 + 宾语 + 时间' -> '主語 + 動詞 + 受詞 + 時間'
+  NON-CONVERSION diff: 138 key '帕尔梅拉斯在点球大战中 5 比 4 获胜。' -> '帕爾梅拉斯在十二碼大戰中 5 比 4 獲勝。'
+  NON-CONVERSION diff: 138 note 'nos pênaltis = 在点球大战中' -> 'nos pênaltis = 在十二碼大戰中'
+  NON-CONVERSION diff: 140 note '祈使式 anote/confira + quando 从句' -> '祈使式 anote/confira + quando 子句'
+  NON-CONVERSION diff: 142 note 'gabarito=客观题官方答案 d' -> 'gabarito=選擇題官方答案 d'
+  NON-CONVERSION diff: 143 note 'feriadão=带假日的三天周末 b' -> 'feriadão=有假日的三天週末 b'
+  NON-CONVERSION diff: 144 note 'agregado=两回合总比分 a' -> 'agregado=兩回合總比數 a'
+  NON-CONVERSION diff: 145 note '马内·加林查体育场' -> '馬內・加林查體育場'
+  NON-CONVERSION diff: 146 note '格雷米奥冲击第六冠' -> '格雷米歐衝擊第六冠'
+  NON-CONVERSION diff: 148 note '门票在网上出售' -> '門票在網路上出售'
+REG field diffs: 210, non-script-conversion: 72
+p8-extract top keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+keys type: <class 'dict'>
+REG vs P8-printed key mismatches: 1
+   (150, '✓', '（開放題，範文如下）')

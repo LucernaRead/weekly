@@ -1,0 +1,8 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== P1 spans svg-y 1885..1945 (any text):
+  svg-x=989.0 svg-y=1899.0 svg-right=1332.3 size=18.75 font=NotoSansCJKsc-Bold text=''
+  svg-x=1461.5 svg-y=1914.0 svg-right=1728.4 size=18.00 font=NotoSansCJKsc-Bold text=''
+  svg-x=1752.4 svg-y=1914.0 svg-right=1867.7 size=18.00 font=NotoSansCJKsc-Bold text=''
+== P1 total spans: 236
+== P1 empty-text spans: 236

@@ -1,0 +1,9 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+page 6 rect: Rect(0.0, 0.0, 1462.5, 2025.0) (pt)
+title-line chars: 24  text='ЗА И ПРОТИВFOR & AGAINST'
+  last char 'T' bbox=(1361.84, 508.24, 1373.09, 534.31)
+  max char-box right: 1373.09 pt = 1830.8 svg px, box right 1396.50 pt = 1862.0 svg px, margin +31.2 svg px
+clip Rect(1371.5, 507.125, 1406.5, 541.125) -> 292x284 px @ 600dpi
+  rightmost dark pixel col 8 -> 1372.46 pt = 1829.9 svg px, margin +32.1 svg px
+  box right edge at pixmap col 208.3; ink extends -200.3 render px beyond it

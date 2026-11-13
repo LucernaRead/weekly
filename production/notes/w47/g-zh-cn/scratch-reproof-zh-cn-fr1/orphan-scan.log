@@ -1,0 +1,17 @@
+wrap calls logged: 902
+unique wraps: 506
+multi-line wraps: 158
+Category A (Latin lone-word last line): 8
+  A: size=l max_w=i text='U' lines=["Utilise l'exemple d'entraînement de cette", 'page.']
+  A: size=t max_w=o text='E' lines=["Et toi ? Tu aimes l'hiver ? Qu'est-ce que", 'tu lis ce mois-ci ? Écris deux phrases en', 'chinois.']
+  A: size=s max_w=ì text='四' lines=['四强 sìqiáng — les quatre dernières', 'équipes.']
+  A: size=， max_w=G text='半' lines=['半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C.', 'BLG']
+  A: size=t max_w=o text='P' lines=['Photo : Based5290 — Domaine public (Wikimedia', 'Commons)']
+  A: size=s max_w=  text='M' lines=['Mots de la semaine : 决赛 (juésài, la finale),', '冠军 (guànjūn, le champion), 半决赛', '(bànjuésài, la demi-finale), 到货 (dàohuò,', 'arrivé), 退换货 (tuìhuànhuò, retours et', 'échanges), 价保 (jiàbǎo, protection du', 'prix).']
+  A: size=d max_w=e text='地' lines=['地 (de) indique comment une action est', 'faite.']
+  A: size=预 max_w=报 text='「' lines=['「先看预报，再决定穿什么。」La', "structure 先…再… donne l'ordre des", 'actions.']
+Category B (single CJK char last line): 2
+  B: size=》 max_w=讲 text='《' last='家'
+  B: size=逆 max_w=行 text='《' last='日'
+Category C (punctuation-only last line): 0
+D4 wrap: text='21 nov., samedi — le film 《试探》 sort' size=20 max_w=386.5 nlines=1 lines=['21 nov., samedi — le film 《试探》 sort']

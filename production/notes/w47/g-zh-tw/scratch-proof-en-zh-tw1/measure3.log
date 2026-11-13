@@ -1,0 +1,52 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+=== KEYCHECK: registry vs text.md answers ===
+registry type: <class 'list'> len: 150
+text.md answer lines parsed: 150 range: 1 150
+missing in text.md: []
+key mismatches registry-vs-text.md: 0
+
+=== P8 extract --json: printed keys vs registry ===
+  (p8 extract json not yet made; see shell step)
+
+=== PRINT vs WEB text layer, per page (PyMuPDF) ===
+print pages: 8 web pages: 8
+print rect: Rect(0.0, 0.0, 1462.5, 2025.0) web rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+  p1: print tokens 783 web tokens 783 multiset diff 0 chars print 3420 web 3420
+  p2: print tokens 974 web tokens 974 multiset diff 0 chars print 4225 web 4225
+  p3: print tokens 899 web tokens 899 multiset diff 0 chars print 3953 web 3953
+  p4: print tokens 876 web tokens 876 multiset diff 0 chars print 3909 web 3909
+  p5: print tokens 781 web tokens 781 multiset diff 0 chars print 3502 web 3502
+  p6: print tokens 956 web tokens 956 multiset diff 0 chars print 4166 web 4166
+  p7: print tokens 860 web tokens 860 multiset diff 0 chars print 3968 web 3968
+  p8: print tokens 1611 web tokens 1611 multiset diff 0 chars print 6306 web 6306
+
+=== P8 min font (print PDF spans) + all-page min ===
+  p1: min 11.62pt :: 'Noclip — public domain, via Wi' ; count spans 214
+  p2: min 11.62pt :: 'Commons' ; count spans 243
+  p3: min 11.62pt :: 'Commons' ; count spans 216
+  p4: min 11.62pt :: 'Commons' ; count spans 213
+  p5: min 11.62pt :: 'Bain News Service — public dom' ; count spans 197
+  p6: min 11.62pt :: 'Kenneth C. Zirkel — CC0, via W' ; count spans 218
+  p7: min 11.62pt :: 'Commons' ; count spans 236
+  p8: min 10.12pt :: '(Break the silence.) · 141. b ' ; count spans 269
+
+=== §1.1 palette + fonts inventory (SVGs) ===
+fills: {'#fbfaf6': 8, '#46581f': 299, '#6f675d': 247, '#302c28': 1047, '#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#37402f': 30, '#f4efe1': 15, '#cac8ba': 1, '#f6e08e': 9, '#f0eee5': 32, '#5c6e30': 44, '#ffffff': 121, 'stroke:#46581f': 55, 'stroke:#34483a': 2, 'stroke:#d8d2c4': 9}
+off-palette: {'#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#cac8ba': 1, '#ffffff': 121, 'stroke:#34483a': 2}
+fonts: {'Noto Sans CJK TC': 619, 'UnifrakturMaguntia': 1, 'Noto Serif CJK TC': 48, 'Newsreader': 1007, 'DejaVu Sans': 4}
+
+=== OpenCC s2t script gate (registry.json + text.md) ===
+  registry.json: len 16973 s2t diffs 0 []
+  2026-w47-en-zh-tw.text.md: len 43883 s2t diffs 0 []
+  ABSTRACT.txt: len 51 s2t diffs 0 []
+
+=== Matching definition order from SVG document order ===
+Traceback (most recent call last):
+  File "/home/hatch/workspace/weekly-git/hidden_files/w47/scratch-proof-en-zh-tw1/measure3.py", line 106, in <module>
+    ts = svg_texts_in_order(pg)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/hidden_files/w47/scratch-proof-en-zh-tw1/measure3.py", line 101, in svg_texts_in_order
+    return [re.sub(r'<[^>]+>', '', m.group(2)) for m in re.finditer(r'<text[^>]*>(.*?)</text>', svg, re.S)]
+                                   ^^^^^^^^^^
+IndexError: no such group

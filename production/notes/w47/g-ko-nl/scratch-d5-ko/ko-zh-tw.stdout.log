@@ -1,0 +1,26 @@
+### [2026-w47-ko-zh-tw] phase=all reader=zh-tw mode=cjk print=Lucerna-VOL4-KO-ZH-TW.pdf web=Lucerna-VOL4-KO-ZH-TW-web.pdf
+### [2026-w47-ko-zh-tw] Phase A: pre-baseline
+### [2026-w47-ko-zh-tw] d5_census production RC=1
+### [2026-w47-ko-zh-tw] census_quotes production svg RC=0
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-zh-tw/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-zh-tw/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-zh-tw/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-zh-tw/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-zh-tw/base': Operation not permitted
+### [2026-w47-ko-zh-tw] base-venv run.py RC=0
+### [2026-w47-ko-zh-tw] Phase B: install template svglib-ko-d5.py
+### [2026-w47-ko-zh-tw] install diff vs template:
+### [2026-w47-ko-zh-tw] Phase C: rebuild production (venv)
+### [2026-w47-ko-zh-tw] run.py RC=0
+### [2026-w47-ko-zh-tw] render.py RC=0
+### [2026-w47-ko-zh-tw] webpdf.py RC=0
+### [2026-w47-ko-zh-tw] Phase D: gates
+### [2026-w47-ko-zh-tw] d5_census patched RC=0
+### [2026-w47-ko-zh-tw] census_quotes patched svg RC=0
+### [2026-w47-ko-zh-tw] head_check RC=0
+### [2026-w47-ko-zh-tw] occlusion_audit RC=0
+### [2026-w47-ko-zh-tw] p8 extract RC=0
+### [2026-w47-ko-zh-tw] p8 compare vs core-ko RC=0
+### [2026-w47-ko-zh-tw] freeze baseline (syspy exception) RC=1
+### [2026-w47-ko-zh-tw] freeze diff patched vs base-venv (syspy exception) RC=0
+### [2026-w47-ko-zh-tw] spill_sweep RC=0

@@ -1,0 +1,77 @@
+===== 2026-w47-ko-en =====
+-- gate RCs:
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+-- run TOTAL/warnings:
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+-- census:
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+-- quotes:
+GRAND TOTAL defective: 0
+-- head_check findings:
+[]
+-- occlusion:
+flags: 0
+-- p8:
+CLEAN total 150
+extract noted: 150
+-- freeze baseline:
+baseline: 7/8 SVGs byte-identical (repointed files: none)
+-- freeze diff:
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 592 (unexpected 592)
+-- spill:
+SPILL_SWEEP 2026-w47-ko-en: 49 boxes, 352 candidates, 0 SPILL, 352 OBSERVE
+-- boxtitle:
+BOXTITLE 2026-w47-ko-en: 73 titles, 961 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+-- edge:
+EDGE_SCAN 2026-w47-ko-en: 8 pages, 0 TOUCH, 0 NEAR
+-- creambox:
+p8-siheom.svg: els 327->1371 lines 218->238 diff 146 moved 82 defects 0 observe 0
+CREAMBOX PASS 0 defects
+-- textlayer:
+TEXTLAYER PASS
+-- p8 keys (check_p8keys.py):
+keys found: 150 numbers 1-150
+missing numbers: []
+  12. A — 13.4% below the average year
+  13. A — 6 kinds of kimjang ingredients on sale
+  22. 1.8 — Chili powder fell 1.8%
+  47. A — Samsung's 9th title overall
+  74. 8 — Lost ticket: report by 8 a.m. on the day
+  102. A — Kimchi Day was fixed by law in Feb 2020
+  125. B — Duryunsan: Forestry Service forecast peak Nov 11
+stale-key problems: none
+-- print PDF spot checks (pdftotext):
+  [1] 김장비용은 평년보다 어떻게 됐어요
+  [1] 할인 행사에서 김장 재료는 몇 종을 팔아요
+  [2] 고춧가루는
+  [1] 삼성의 우승은 통산 몇 번째예요
+  [1] 수험표를 잃어버리면 당일 아침
+  [1] 김치의 날은 언제 법으로 정해졌어요
+  [2] 다른 날의 조치가 아니에요
+  [old F2 sentence] 0 (want 0)
+-- files:
+  35484 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/2026-w47-ko-en.text.md
+  3951102 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/Lucerna-VOL4-KO-EN-web.pdf
+  43748448 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/Lucerna-VOL4-KO-EN.pdf
+59bb38b0bc77  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/Lucerna-VOL4-KO-EN-web.pdf
+f10c5065bb5b  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/Lucerna-VOL4-KO-EN.pdf
+b94dadb654db  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-en/2026-w47-ko-en.text.md
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch

@@ -1,0 +1,7 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-pt-fr/svg: 5 flags {'COVER': 4, 'TEXTX': 1}
+  [COVER] p7-lingua.svg '«sem memória, não há futuro»' — 38% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg "Sans mémoire, il n'y a pas d'avenir. (Página 3)" — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg '«Confira o transporte, guarde o documento e aproveite o feri' — 42% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg 'Vérifiez les transports, préparez vos papiers, puis profitez' — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [TEXTX] p7-lingua.svg 'A PRÓXIMA SEMANA\u3000La semaine prochaine (VOL.5)' — ink overlaps "Sans mémoire, il n'y a pas d'avenir. (Pá" by 383.8x13.1px

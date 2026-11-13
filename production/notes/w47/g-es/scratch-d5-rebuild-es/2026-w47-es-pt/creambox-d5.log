@@ -1,0 +1,15 @@
+p1-portada.svg: els 177->213 lines 120->120 diff 5 moved 27 defects 1 observe 0
+  DEFECT abs box#0 y=1324.665 'Números' over={'right': 9.5}
+p2-vida.svg: els 195->227 lines 140->140 diff 3 moved 16 defects 0 observe 0
+p3-cultura.svg: els 175->204 lines 114->112 diff 103 moved 24 defects 0 observe 0
+p4-deporte.svg: els 177->207 lines 119->119 diff 12 moved 16 defects 0 observe 0
+p5-juventud.svg: els 183->211 lines 121->121 diff 8 moved 19 defects 1 observe 0
+  DEFECT abs box#0 y=237.0 'O plano' over={'right': 9.7}
+p6-afondo.svg: els 189->218 lines 127->127 diff 3 moved 20 defects 0 observe 0
+p7-lengua.svg: els 162->192 lines 80->80 diff 0 moved 21 defects 2 observe 0
+  DEFECT abs box#0 y=483.44999999999993 'Erros comuns' over={'right': 2.7}
+  DEFECT abs box#1 y=1122.0099999999998 'A palavra da semana' over={'right': 11.5}
+p8-ejercicios.svg: els 395->424 lines 248->248 diff 0 moved 36 defects 0 observe 0
+ratios: n=407 median=1.04 boldT=1.057 boldF=0.986
+P8 p8-ejercicios.svg: lines 248->248 slack_footer 36.4->36.4
+CREAMBOX FAIL 4 defects

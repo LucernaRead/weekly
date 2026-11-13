@@ -1,0 +1,6 @@
+region starts at 4202 len 5060
+printed keys parsed: 150 missing: []
+registry vs PRINT-PDF answers mismatches: [(44, "'O dia 20 de novembro é feriado nacional.'", "'O dia 20 de novembro é feriado nacional. —主语 + é + 表语'"), (46, "'Palmares foi o maior quilombo do Brasil.'", "'Palmares foi o maior quilombo do Brasil. —主语 + 动词 + 表语'"), (80, "'Verdadeiro'", "'Verdadeiro —对：非官方答案只用来估计表现'"), (82, "'Verdadeiro'", "'Verdadeiro —对：TRI 按答题连贯性与题目难度计分'"), (135, "'Quando sair o gabarito, confira as respostas.'", "'Quando sair o gabarito, confira as respostas. —时间从句 + 主句'"), (136, "'O Brasil lembra Zumbi em 20 de novembro.'", "'O Brasil lembra Zumbi em 20 de novembro. —主语 + 动词 + 宾'")]
+Q131 print: 'A'
+140 print: 'Anote as suas respostas e confira quando sair o gabarito oficial.' reg: 'Anote as suas respostas e confira quando sair o gabarito oficial.'
+150 print: '✓ 范文见本版 H 区（88 词）'

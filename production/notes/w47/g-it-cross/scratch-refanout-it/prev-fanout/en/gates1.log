@@ -1,0 +1,15 @@
+FAIL occlusion 0 flags |   [LINEX] p7-lingua.svg 'letter. No real letters or best page-8' — later line box [87.0, 1685.0, 1863.0, 1687.0] crosses ink
+FAIL p8 extract noted count | noted=-1 rc=1
+FAIL p8 compare vs core | verdict=? keydiffs=[]
+PASS freeze diff (no added/removed target text) | added_strings=0
+FAIL freeze strict-cjk (no added CJK) | rc=1 TOTAL added CJK characters: 13
+PASS print/web text multiset identical | print_words=7957 web_words=7957 diff=[] []
+PASS web PDF < 7MB | 1259129 bytes
+PASS print PDF size sane | 14033017 bytes
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-it/gates.py", line 152, in <module>
+    main()
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-it/gates.py", line 85, in main
+    t = open(p8, encoding="utf-8").read()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-en/svg/p8.svg'

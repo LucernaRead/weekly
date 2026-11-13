@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+p1: page width 1462.5pt, max span x1=1397.43 (margin 65.07pt), min x0=66.00
+p2: page width 1462.5pt, max span x1=1406.31 (margin 56.19pt), min x0=66.00
+p3: page width 1462.5pt, max span x1=1398.36 (margin 64.14pt), min x0=66.00
+p4: page width 1462.5pt, max span x1=1398.36 (margin 64.14pt), min x0=66.00
+p5: page width 1462.5pt, max span x1=1398.36 (margin 64.14pt), min x0=66.00
+p6: page width 1462.5pt, max span x1=1398.36 (margin 64.14pt), min x0=66.00
+p7: page width 1462.5pt, max span x1=1413.51 (margin 48.99pt), min x0=66.00
+p8: page width 1462.5pt, max span x1=1399.58 (margin 62.92pt), min x0=66.00
+--- tightest bottom margins (span y1 vs box bottom, pt; positive=clear) ---
+P1 gloss L1 span bbox=(1079.62, 1368.12, 1352.06, 1388.75) rule band 1389.30..1390.20 -> bottom clearance +0.55pt
+P1 gloss L2 span bbox=(1079.62, 1387.36, 1326.78, 1407.99) -> top clearance -2.84pt

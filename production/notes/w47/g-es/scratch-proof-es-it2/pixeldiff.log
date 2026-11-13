@@ -1,0 +1,18 @@
+== print PDF vs SVG render (cairosvg, 96dpi, 1950x2700) ==
+  P1 p1-portada: mean|d|=4.981 max=224
+  P2 p2-vida: mean|d|=5.382 max=215
+  P3 p3-cultura: mean|d|=3.982 max=224
+  P4 p4-deporte: mean|d|=4.615 max=224
+  P5 p5-juventud: mean|d|=4.659 max=224
+  P6 p6-afondo: mean|d|=5.669 max=215
+  P7 p7-lengua: mean|d|=5.595 max=215
+  P8 p8-ejercicios: mean|d|=8.905 max=224
+== print PDF vs web PDF (96dpi) ==
+  P1: mean|d|=0.091
+  P2: mean|d|=0.000
+  P3: mean|d|=0.129
+  P4: mean|d|=0.000
+  P5: mean|d|=0.290
+  P6: mean|d|=0.000
+  P7: mean|d|=0.119
+  P8: mean|d|=0.256

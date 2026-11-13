@@ -1,0 +1,38 @@
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-de/svg ==
+  p1-prima.svg: DEFECTIVE@TOTAL=1, DEFECTIVE@U+201C=1, U+201C@Noto Sans CJK SC=1
+  p8-valutazione.svg: U+201C@Newsreader=1
+  DIR TOTAL: defective=1
+    defective U+201C: 1
+    family Newsreader: 1 quote glyphs
+    family Noto Sans CJK SC: 1 quote glyphs
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-en/svg ==
+  p1-prima.svg: DEFECTIVE@TOTAL=2, DEFECTIVE@U+201C=1, DEFECTIVE@U+201D=1, U+201C@Noto Sans CJK SC=1, U+201D@Noto Sans CJK SC=1
+  p8-valutazione.svg: U+201C@Newsreader=1, U+201D@Newsreader=1
+  DIR TOTAL: defective=2
+    defective U+201C: 1
+    defective U+201D: 1
+    family Newsreader: 2 quote glyphs
+    family Noto Sans CJK SC: 2 quote glyphs
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-nl/svg ==
+  p1-prima.svg: DEFECTIVE@TOTAL=2, DEFECTIVE@U+201C=1, DEFECTIVE@U+201D=1, U+201C@Noto Sans CJK SC=1, U+201D@Noto Sans CJK SC=1
+  DIR TOTAL: defective=2
+    defective U+201C: 1
+    defective U+201D: 1
+    family Noto Sans CJK SC: 2 quote glyphs
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-zh-tw/svg ==
+  p1-prima.svg: DEFECTIVE@TOTAL=2, DEFECTIVE@U+201C=1, DEFECTIVE@U+201D=1, U+201C@Noto Sans CJK TC=1, U+201D@Noto Sans CJK TC=1
+  p8-valutazione.svg: U+201C@Newsreader=1, U+201D@Newsreader=1
+  DIR TOTAL: defective=2
+    defective U+201C: 1
+    defective U+201D: 1
+    family Newsreader: 2 quote glyphs
+    family Noto Sans CJK TC: 2 quote glyphs
+== /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg ==
+  p1-prima.svg: DEFECTIVE@TOTAL=2, DEFECTIVE@U+201C=1, DEFECTIVE@U+201D=1, U+201C@Noto Sans CJK SC=1, U+201D@Noto Sans CJK SC=1
+  p8-valutazione.svg: U+201C@Newsreader=1, U+201D@Newsreader=1
+  DIR TOTAL: defective=2
+    defective U+201C: 1
+    defective U+201D: 1
+    family Newsreader: 2 quote glyphs
+    family Noto Sans CJK SC: 2 quote glyphs
+GRAND defective total: 9

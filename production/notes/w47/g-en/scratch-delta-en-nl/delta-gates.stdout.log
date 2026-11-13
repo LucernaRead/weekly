@@ -1,0 +1,230 @@
+== svg byte/text/img diffs ==
+svg-byte RC=0
+p1-front: BYTE-IDENTICAL
+p2-life: BYTE-IDENTICAL
+p3-culture: BYTE-IDENTICAL
+p4-sport: BYTE-IDENTICAL
+p5-youth: BYTE-IDENTICAL
+p6-deep: BYTE-IDENTICAL
+p7-lang: BYTE-IDENTICAL
+p8-test: bytes 1238755 vs 1238752; stripped 44614 vs 44611; diff region bytes 34413..34944 (pre) / 34413..34941 (post)
+  PRE : 'SC" font-size="13.5" fill="#302c28" text-anchor="start">sok) · 72. rights (right = een recht) · 73. speak · 74. d · 75. a ·</text><text x="538.5" y="2257.5400000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">76. b (right = een recht b) · 77. c · 78. Schools are wearing odd</text><text x="538.5" y="2274.55" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">socks today. · 79. Children are speaking up this week. · 80. We</text><text x="538.5" y="2291.5600000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">are listening to every child. · 81. She is sitting with a new friend.</text><text x="538.5" y="2333.57" '
+  POST: 'SC" font-size="13.5" fill="#302c28" text-anchor="start">sok) · 72. rights (right = een recht) · 73. up · 74. d · 75. a · 76.</text><text x="538.5" y="2257.5400000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">b (right = een recht b) · 77. c · 78. Schools are wearing odd socks</text><text x="538.5" y="2274.55" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">today. · 79. Children are speaking up this week. · 80. We are</text><text x="538.5" y="2291.5600000000004" font-family="Noto Sans CJK SC" font-size="13.5" fill="#302c28" text-anchor="start">listening to every child. · 81. She is sitting with a new friend.</text><text x="538.5" y="2333.57" '
+svg-text RC=0
+p1-front: structural-identical=True len 30421 vs 30421
+p2-life: structural-identical=True len 34443 vs 34443
+p3-culture: structural-identical=True len 32976 vs 32976
+p4-sport: structural-identical=True len 35066 vs 35066
+p5-youth: structural-identical=True len 30246 vs 30246
+p6-deep: structural-identical=True len 33593 vs 33593
+p7-lang: structural-identical=True len 36423 vs 36423
+p8-test: structural-identical=False len 44523 vs 44520
+    -<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="2700" viewBox="0 0 1950 2700"><rect width="1950" height="2700" fill="#fbfaf6"/><rect x="88" y="72" width="1774" height="110" rx="0" fill="#37402f"/><text x="118.0" y="142" font-family="Noto Sans CJK SC" font-size="46" font-weight="700" fi
+    +<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="2700" viewBox="0 0 1950 2700"><rect width="1950" height="2700" fill="#fbfaf6"/><rect x="88" y="72" width="1774" height="110" rx="0" fill="#37402f"/><text x="118.0" y="142" font-family="Noto Sans CJK SC" font-size="46" font-weight="700" fi
+    total diff lines: 5
+svg-img RC=0
+p1-front: images pre=1 post=1
+   img0: SAME tag_same=True data_len 488323 vs 488323 hash 3d20a2d92abfbd4c vs 3d20a2d92abfbd4c
+p2-life: images pre=1 post=1
+   img0: SAME tag_same=True data_len 171447 vs 171447 hash 90129b0ab9286ddc vs 90129b0ab9286ddc
+p3-culture: images pre=1 post=1
+   img0: SAME tag_same=True data_len 1676691 vs 1676691 hash e080ad110c5e4dbf vs e080ad110c5e4dbf
+p4-sport: images pre=1 post=1
+   img0: SAME tag_same=True data_len 480443 vs 480443 hash 9f70a2100d8c514f vs 9f70a2100d8c514f
+p5-youth: images pre=1 post=1
+   img0: SAME tag_same=True data_len 254131 vs 254131 hash bd16333b9baaff28 vs bd16333b9baaff28
+p6-deep: images pre=1 post=1
+   img0: SAME tag_same=True data_len 672891 vs 672891 hash 58010598fb7ee4bb vs 58010598fb7ee4bb
+p7-lang: images pre=1 post=1
+   img0: SAME tag_same=True data_len 517167 vs 517167 hash 9d8542e3ec7c859f vs 9d8542e3ec7c859f
+p8-test: images pre=1 post=1
+   img0: SAME tag_same=True data_len 1193703 vs 1193703 hash 2b6945e8796478cd vs 2b6945e8796478cd
+== occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg: 0 flags 
+== p8 extract core ==
+core extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== p8 extract edition ==
+ed extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== p8 compare ==
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+== Q73 four-source evidence ==
+registry Q73: {'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'up', 'note': 'speak up = je uitspreken'}
+text.md line 1151: 73. [A2] Zinnen aanvullen — up (speak up = je uitspreken)
+P8 extracted Q73: up
+P5 stem present: True
+P5 note present: False
+P5 '73. speak' as key (must be absent): False
+P8 SVG '73. up' present: True
+P8 SVG '73. speak' present (must be absent): False
+registry vs text.md appendix: mismatches: 0/150
+== extract vs registry ==
+extract keys: 150 registry: 150
+missing vs registry: none
+extra vs registry: none
+noted set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+diff count: 1
+  (150, 'Open vraag — punten in het schrijfblok; voorbeeldtekst in het kader op pagina 8', 'Open vraag')
+== freeze baseline (core) ==
+freeze baseline RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-front.svg core a9a8deaf76e61cb2 produced a9a8deaf76e61cb2
+  OK  p2-life.svg core 979747160de01d67 produced 979747160de01d67
+  OK  p3-culture.svg core efb83ce76688554b produced efb83ce76688554b
+  OK  p4-sport.svg core aa6f395e4932ef8b produced aa6f395e4932ef8b
+  OK  p5-youth.svg core a6a515cd5f734d0d produced a6a515cd5f734d0d
+  OK  p6-deep.svg core 7692256484f26289 produced 7692256484f26289
+  OK  p7-lang.svg core da908af644651793 produced da908af644651793
+  OK  p8-test.svg core 1066c475da8afe7e produced 1066c475da8afe7e
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+== freeze direct sha ==
+MATCH p1-front.svg
+MATCH p2-life.svg
+MATCH p3-culture.svg
+MATCH p4-sport.svg
+MATCH p5-youth.svg
+MATCH p6-deep.svg
+MATCH p7-lang.svg
+MATCH p8-test.svg
+direct sha256: 8/8
+== freeze diff ==
+freeze diff RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +33 strings / -34 strings; CJK core 202 -> edition 22; added CJK chars: 2 {'\u3000': 2}
+p2: +41 strings / -54 strings; CJK core 278 -> edition 18; added CJK chars: 1 {'\u3000': 1}
+p3: +27 strings / -23 strings; CJK core 146 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p4: +25 strings / -22 strings; CJK core 143 -> edition 14; added CJK chars: 1 {'\u3000': 1}
+p5: +25 strings / -22 strings; CJK core 132 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p6: +26 strings / -21 strings; CJK core 159 -> edition 13; added CJK chars: 1 {'\u3000': 1}
+p7: +64 strings / -55 strings; CJK core 429 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+p8: +104 strings / -100 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 9
+== print/web text diff ==
+printweb RC=0
+print chars 48041 web chars 48041
+token multiset diff total: 0
+only in print: []
+only in web: []
+page 1: identical=True print=4905B web=4905B
+page 2: identical=True print=5824B web=5824B
+page 3: identical=True print=5305B web=5305B
+page 4: identical=True print=5764B web=5764B
+page 5: identical=True print=4690B web=4690B
+page 6: identical=True print=5638B web=5638B
+page 7: identical=True print=6117B web=6117B
+page 8: identical=True print=9798B web=9798B
+== keycheck ==
+keycheck RC=0
+P1 saved, exercises so far: 10
+P2 col3 ends 1174.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+REG entries: 150; p8extract keys: 150
+exact match: 149/150
+  MISMATCH n=150 page=8 type=Schrijven: key='Open vraag — punten in het schrijfblok; voorbeeldtekst in het kader op pagina 8' extracted='Open vraag'
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-delta-en-nl/gates/keycheck-150.json
+== check_s11 ==
+check_s11 RC=0
+colour set: core 19 edition 19 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min font-size: 13.5
+P8 Q113-120 options line with [A2] tag present
+P8 'Levels: 145-149 [A2]' present
+P8 Q120 [A2] chip OK
+P8 WRITING head present: ['H\u3000WRITING\u3000Schrijven [B1]']
+ALL §1.1/P8 CHECKS PASS
+== boxtitle source ==
+boxtitle-src RC=0
+box titles measured: 12; over budget: 0
+    384.2 margin   +20.3 [content56.py] 'HOW LONG?\u3000Duur van de termijn'
+    383.9 margin   +20.6 [content56.py] 'ODD SOCKS, IN NUMBERS\u3000Cijfers'
+    364.5 margin   +40.0 [content56.py] 'A PRACTICE BALLOT\u3000Stembiljet'
+    360.3 margin   +44.2 [content34.py] "HAYMITCH'S GAMES\u3000De Spelen"
+    360.0 margin   +44.5 [content12.py] 'THE WEEK IN NUMBERS\u3000Cijfers'
+    341.8 margin   +62.7 [content34.py] 'WHY PERTH?\u3000Waarom Perth?'
+    337.9 margin   +66.6 [content12.py] 'SENATE IN NUMBERS\u3000Senaat'
+    334.0 margin   +70.5 [content34.py] 'SATURDAY, NOV 21\u3000Zaterdag'
+boxtitle sweep PASS
+== boxtitle svg ==
+boxtitle-svg RC=0
+  p7-lang.svg:   331.4 margin   +73.1 'THE TOOLBOX\u3000Gereedschap'
+  p8-test.svg:   277.4 margin  +573.6 'MODEL\u3000Voorbeeldtekst'
+box titles checked: 18; overflows: 0
+svg boxtitle sweep PASS
+== creambox raw ==
+creambox RC=0
+0
+== creambox inside-only (strict) ==
+creambox-strict RC=0
+== p1-front.svg
+  box y=786 bottom=1039.6 last 993.9 sz=20.5 clearance +45.7 desc-clear +39.5 | '(Senaatszetels die van partij wisselden)'
+  box y=588 bottom=1256.0 last 1244.0 sz=19.0 clearance +12.0 desc-clear +6.3 | 'Relatieve populariteit, geen exacte zoek'
+  box y=1280 bottom=1652.0 last 1604.0 sz=21.0 clearance +48.0 desc-clear +41.7 | 'p.8'
+  box y=1874 bottom=2290.0 last 2246.0 sz=20.0 clearance +44.0 desc-clear +38.0 | 'in the 2025–26 Ashes. (p. 4)'
+  WORST inside clearance: +12.0
+== p2-life.svg
+  box y=526 bottom=706.6 last 658.5 sz=21.5 clearance +48.1 desc-clear +41.7 | "in a senator's term."
+  box y=200 bottom=467.5 last 419.4 sz=21.5 clearance +48.1 desc-clear +41.6 | 'Thanksgiving · 27 nov. — Black Friday'
+  box y=1310 bottom=1425.6 last 1377.9 sz=20.5 clearance +47.7 desc-clear +41.6 | 'runoff = de tweede ronde.'
+  box y=833 bottom=1185.4 last 1171.1 sz=21.5 clearance +14.3 desc-clear +7.9 | 'November 3.'
+  box y=1211 bottom=1544.9 last 1539.8 sz=20.0 clearance +5.0 desc-clear -1.0 | 'Engels voor de redactie.'  <-- descender heuristic <0
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | 'De telling gaat nog door.'
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | 'Het nieuwe Congres vergadert in januari.'
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | 'Fijne Thanksgiving!'
+  WORST inside clearance: +5.0
+== p3-culture.svg
+  box y=200 bottom=644.5 last 596.4 sz=21.5 clearance +48.1 desc-clear +41.6 | 'launch.'
+  box y=1224 bottom=1399.0 last 1351.3 sz=20.5 clearance +47.7 desc-clear +41.6 | 'een kampgenoot.'
+  box y=856 bottom=1068.6 last 1020.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'sixteen-year-old boy from District 12.'
+  WORST inside clearance: +47.7
+== p4-sport.svg
+  box y=489 bottom=820.7 last 772.6 sz=21.5 clearance +48.1 desc-clear +41.6 | 'later.'
+  box y=1435 bottom=1610.9 last 1563.1 sz=20.5 clearance +47.7 desc-clear +41.6 | 'pauze.'
+  box y=856 bottom=1274.3 last 1225.7 sz=21.5 clearance +48.5 desc-clear +42.1 | 'Vikings–49ers in Mexico City.'
+  WORST inside clearance: +47.7
+== p5-youth.svg
+  box y=2034 bottom=2244.8 last 2196.7 sz=21.5 clearance +48.1 desc-clear +41.7 | 'theme.'
+  box y=200 bottom=345.7 last 298.0 sz=20.5 clearance +47.7 desc-clear +41.6 | 'silence = de stilte'
+  box y=852 bottom=1064.6 last 1016.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'morning in English is yours.'
+  WORST inside clearance: +47.7
+== p6-deep.svg
+  box y=200 bottom=441.0 last 392.9 sz=21.5 clearance +48.1 desc-clear +41.6 | 'how to mark, not whom to choose.'
+  box y=779 bottom=954.2 last 906.5 sz=20.5 clearance +47.7 desc-clear +41.6 | 'ronde · a map = een politieke kaart.'
+  box y=666 bottom=878.6 last 830.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'Governor: usually 4 years.'
+  WORST inside clearance: +47.7
+== p7-lang.svg
+  box y=254 bottom=459.1 last 411.4 sz=20.5 clearance +47.7 desc-clear +41.6 | 'nieuws.'
+  box y=983 bottom=1128.5 last 1080.8 sz=20.5 clearance +47.7 desc-clear +41.6 | 'aantallen en maten.'
+  box y=1688 bottom=1833.6 last 1785.9 sz=20.5 clearance +47.7 desc-clear +41.6 | 'vooraan.'
+  box y=2181 bottom=2326.6 last 2278.9 sz=20.5 clearance +47.7 desc-clear +41.6 | 'werkwoorden moet je onthouden.'
+  box y=395 bottom=570.1 last 522.3 sz=20.5 clearance +47.7 desc-clear +41.6 | 'gebeurd is.'
+  box y=884 bottom=999.8 last 952.1 sz=20.5 clearance +47.7 desc-clear +41.6 | 'wat je niet weet, gebruik je whether.'
+  box y=651 bottom=1008.2 last 959.7 sz=21.5 clearance +48.5 desc-clear +42.1 | 'de telling nog zal veranderen.'
+  WORST inside clearance: +47.7
+== p8-test.svg
+  box y=1720 bottom=2000.0 last 1907.6 sz=20.0 clearance +92.4 desc-clear +86.4 | 'a busy week of votes, socks and stories '
+  WORST inside clearance: +92.4
+== D5 fonts (count only) ==
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
+== P8 extract key 73 from print PDF ==
+334:sok) · 72. rights (right = een recht) · 73. up · 74. d · 75. a · 76.
+DONE-GATES

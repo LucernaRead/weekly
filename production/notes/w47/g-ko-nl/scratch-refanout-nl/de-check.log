@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] D3-P2-short: "c. eten voor Sinterklaas' paard" ink-right(adv)=1790.1 clearance=+71.9
+[PASS] D3-longform-absent: p2 SVG
+[PASS] D5-P4-SVG: p4-sport.svg (wrapped para: two fragments)
+[PASS] D5-textmd: text.md
+[PASS] D4-ex-markers: — Antwort: x142 (want 142)
+[PASS] D4-match-words: (Antwort x) x8 (want 8)
+[PASS] D4-no-Chinese-答案: 答案 residual=0
+[PASS] title-IN DEZE EDITIE　AUS: ink right 1772.5 clearance +89.5
+[PASS] title-ZO ONTHOUD JE HET　: ink width 372.0 vs 404.5 avail, clearance +32.5
+[PASS] title-VOOR OF TEGEN?　DAF: ink right 1848.5 clearance +13.5
+[PASS] italic-print==web==1: print=1 web=1
+text.md diff vs backup: 9 changed lines (+/- count)
+    -### IN DEZE EDITIE　IN DIESER AUSGABE
+    +### IN DEZE EDITIE　AUSGABE
+    -### ZO ONTHOUD JE HET　MERK ES DIR
+    +### ZO ONTHOUD JE HET　MERK DIR
+    -26. de wortel — eten voor het paard van Sinterklaas (Antwort c · wortel = Karotte c)
+    +26. de wortel — eten voor Sinterklaas' paard (Antwort c · wortel = Karotte c)
+    +Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+    -### VOOR OF TEGEN?　DAFÜR ODER DAGEGEN?
+    +### VOOR OF TEGEN?　DAFÜR / DAGEGEN
+RESULT: ALL PASS

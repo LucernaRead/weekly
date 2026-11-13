@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "Forma frases", "Il torrone si assaggia a Cremona.", "Sujeto + verbo + lugar",
+      "il torrone / si assaggia / a Cremona → ___", instr="Forma frases", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Traducir", "Para la Madonna della Salute, la gente cruza el puente votivo.", "Compara con el original",
++f.ex("A2", "翻译", "Para la Madonna della Salute, la gente cruza el puente votivo.", "Compara con el original",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Traducir al español", size=15.5, gap=1)
+-f.ex("B1", "Traducir", "El domingo por la noche, el Atalanta juega contra el Inter.", "si gioca = se juega",
++f.ex("B1", "翻译", "El domingo por la noche, el Atalanta juega contra el Inter.", "si gioca = se juega",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Traducir al español", size=15.5, gap=1)
+-f.ex("B1", "Traducir", "El sábado, la Lazio juega en casa contra el Lecce.", "in casa = en casa",
++f.ex("B1", "翻译", "El sábado, la Lazio juega en casa contra el Lecce.", "in casa = en casa",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Traducir al español", size=15.5, gap=1)
+-f.ex("B2", "Traducir", "Ogni cifra deve essere chiara.", "dovere = deber",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = deber",
+      "Cada cifra debe ser clara. → ___", instr="Traducir al italiano", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Relaciona las palabras",

@@ -1,0 +1,63 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+=== KEYCHECK: registry vs text.md answers ===
+registry type: <class 'list'> len: 150
+text.md answer lines parsed: 150 range: 1 150
+missing in text.md: []
+key mismatches registry-vs-text.md: 0
+
+=== P8 extract --json: printed keys vs registry ===
+  (p8 extract json not yet made; see shell step)
+
+=== PRINT vs WEB text layer, per page (PyMuPDF) ===
+print pages: 8 web pages: 8
+print rect: Rect(0.0, 0.0, 1462.5, 2025.0) web rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+  p1: print tokens 788 web tokens 788 multiset diff 0 chars print 3444 web 3444
+  p2: print tokens 976 web tokens 976 multiset diff 0 chars print 4230 web 4230
+  p3: print tokens 899 web tokens 899 multiset diff 0 chars print 3953 web 3953
+  p4: print tokens 979 web tokens 979 multiset diff 0 chars print 4334 web 4334
+  p5: print tokens 779 web tokens 779 multiset diff 0 chars print 3492 web 3492
+  p6: print tokens 956 web tokens 956 multiset diff 0 chars print 4166 web 4166
+  p7: print tokens 870 web tokens 870 multiset diff 0 chars print 4017 web 4017
+  p8: print tokens 1602 web tokens 1602 multiset diff 0 chars print 6299 web 6299
+
+=== P8 min font (print PDF spans) + all-page min ===
+  p1: min 11.62pt :: 'Noclip — public domain, via Wi' ; count spans 214
+  p2: min 11.62pt :: 'Commons' ; count spans 243
+  p3: min 11.62pt :: 'Commons' ; count spans 216
+  p4: min 11.62pt :: 'Commons' ; count spans 229
+  p5: min 11.62pt :: 'Bain News Service — public dom' ; count spans 197
+  p6: min 11.62pt :: 'Kenneth C. Zirkel — CC0, via W' ; count spans 218
+  p7: min 11.62pt :: 'Commons' ; count spans 238
+  p8: min 10.12pt :: '(film = 電影) · 147. popcorn (po' ; count spans 269
+
+=== §1.1 palette + fonts inventory (SVGs) ===
+fills: {'#fbfaf6': 8, '#46581f': 299, '#6f675d': 247, '#302c28': 1065, '#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#37402f': 30, '#f4efe1': 15, '#cac8ba': 1, '#f6e08e': 9, '#f0eee5': 32, '#5c6e30': 44, '#ffffff': 121, 'stroke:#46581f': 55, 'stroke:#34483a': 2, 'stroke:#d8d2c4': 9}
+off-palette: {'#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#cac8ba': 1, '#ffffff': 121, 'stroke:#34483a': 2}
+fonts: {'Noto Sans CJK TC': 619, 'UnifrakturMaguntia': 1, 'Noto Serif CJK TC': 48, 'Newsreader': 1025, 'DejaVu Sans': 4}
+
+=== OpenCC s2t script gate (registry.json + text.md) ===
+  registry.json: len 16988 s2t diffs 0 []
+  2026-w47-en-zh-tw.text.md: len 44489 s2t diffs 0 []
+  ABSTRACT.txt: len 206 s2t diffs 1 [(38, '布', '佈')]
+
+=== Matching definition order from SVG document order ===
+-- p2-life:
+-- p3-culture:
+-- p4-sport:
+-- p5-youth:
+-- p8-test F section defs:
+
+=== Golden sentences verbatim (P7 quotes vs body text.md) ===
+golden count: 8
+  OK  'The vote is over. The counting is not.'
+  OK  'A “call'
+  OK  'The Ashes are not a sport for early nights.'
+  OK  'A midterm changes Congress, not the President.'
+  OK  'The map is drawn. The work starts in January.'
+  OK  'Two jungles, one week: a painted jungle in the cinema, and a real jung'
+  OK  'A small act is not small to the person it helps — and a loud voice sta'
+  OK  'On Tuesday, November 3, Americans voted in the midterm election — for '
+
+=== MODEL word count (alphanumeric tokens) ===
+  MODEL tokens: 82 text: On Monday, November 16, I wore odd socks to school — one red, one blue. My teacher smiled and said, “Break the silence.”

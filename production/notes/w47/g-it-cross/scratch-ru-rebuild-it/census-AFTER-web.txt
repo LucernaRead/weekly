@@ -1,0 +1,23 @@
+Lucerna-VOL4-ru-it-web.pdf: pages=8 JOIN-CANDIDATES=14 unknown-not-splittable=282
+  P1 'A2→B1' -> ['A2', 'B1'] maxgap=0.0pt
+  P1 'A2→B2' -> ['A2', 'B2'] maxgap=0.0pt
+  P1 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P2 '19ноября' -> ['19', 'ноября'] maxgap=0.0pt
+  P2 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P3 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P4 '20ноября' -> ['20', 'ноября'] maxgap=0.0pt
+  P4 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P5 '16ноября' -> ['16', 'ноября'] maxgap=0.0pt
+  P5 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P6 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P7 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+  P8 '13ноября' -> ['13', 'ноября'] maxgap=0.0pt
+  P8 'SETTIMANALE' -> ['SETTIMANA', 'LE'] maxgap=0.0pt
+BYLINE:
+  P1 От редакции space_char=True gap=2.89pt y=594.3
+  P2 От редакции space_char=True gap=2.89pt y=237.3
+  P3 От редакции space_char=True gap=2.89pt y=237.3
+  P4 От спортивной редакции space_char=True gap=2.82pt y=237.3
+  P5 От редакции space_char=True gap=2.89pt y=237.3
+  P6 От редакции space_char=True gap=2.89pt y=237.3
+UNKNOWN sample: ['VOL.', 'ЧЕТВЁРТЫЙ', 'ВЫПУСК', 'КАЖДУЮ', 'НЕДЕЛЮ', 'ПО-РУССКИ', 'TESTI', 'RUSSO', 'SPIEGAZIONI', 'ITALIANO', 'ГОДА', 'Р', 'У', 'К', 'Г', 'З', 'Е', 'Т', 'V', 'O', 'L', 'Ф', 'У', 'Т', 'Б', 'Л', 'Р', 'П', 'Р', 'Д', 'Ж', 'К', 'Н', 'ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'НАСТОЯЩАЯ', 'РОССИЯ,']

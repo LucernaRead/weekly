@@ -1,0 +1,27 @@
+p3-kultura.svg 'криминальная' x=88.0 inkR=272.25 size=24.0 fam=Noto Serif
+    next: x=272.2 fam=Newsreader text=' ' inkL=272.20 inkR=277.95 gap_from_prev_inkR=-0.05
+    next: x=278.0 fam=Noto Serif text='драма' inkL=278.00 inkR=352.50 gap_from_prev_inkR=+5.75
+    next: x=352.6 fam=Newsreader text=' ' inkL=352.60 inkR=358.35 gap_from_prev_inkR=+80.35
+p4-sport.svg 'возвращается' x=538.5 inkR=708.00 size=24.0 fam=Noto Serif
+    next: x=707.9 fam=Newsreader text=' ' inkL=707.90 inkR=713.65 gap_from_prev_inkR=-0.10
+    next: x=713.8 fam=Newsreader text='20 ' inkL=713.80 inkR=748.55 gap_from_prev_inkR=+5.80
+    next: x=748.4 fam=Noto Serif text='ноября' inkL=748.40 inkR=833.90 gap_from_prev_inkR=+40.40
+p1-pervaya.svg 'редакции' x=113.2 inkR=194.20 size=17.0 fam=Noto Sans
+    next: x=194.3 fam=Noto Sans CJK SC text=' ' inkL=194.30 inkR=198.05 gap_from_prev_inkR=+0.10
+    next: x=198.1 fam=Noto Sans CJK SC text='Lucerna\u3000' inkL=198.10 inkR=278.60 gap_from_prev_inkR=+3.90
+    next: x=278.7 fam=Noto Sans text='Уровень' inkL=278.70 inkR=350.45 gap_from_prev_inkR=+84.50
+word->word gaps, 12 smallest:
+   (-0.2, 'p2-zhizn.svg', '· B. 17 ', 'ноября', 2092.775)
+   (-0.15, 'p1-pervaya.svg', 'Wildberries? A. 16 ', 'ноября', 2449.45)
+   (-0.15, 'p1-pervaya.svg', '· C. 20 ', 'ноября', 2449.45)
+   (-0.1, 'p2-zhizn.svg', 'A2\u3000', 'День', 168.0)
+   (-0.1, 'p2-zhizn.svg', '· B. 25 ', 'января', 2204.8750000000005)
+   (-0.1, 'p2-zhizn.svg', '· C. 18 ', 'ноября', 2092.775)
+   (-0.1, 'p2-zhizn.svg', '· C. 22 ', 'ноября', 2484.1750000000015)
+   (-0.05, 'p2-zhizn.svg', '... A. 17 ', 'ноября', 2204.8750000000005)
+   (-0.05, 'p3-kultura.svg', 'A2 → B1\u3000', 'Кино', 168.0)
+   (-0.05, 'p5-molodezh.svg', 'Ozon ', 'сделали', 728.79)
+   (-0.05, 'p5-molodezh.svg', 'Ozon ', 'шла', 619.3499999999999)
+   (-0.05, 'p5-molodezh.svg', '· B. 25–27 ', 'ноября', 2014.225)
+word->word gaps < 1.0px count: 79 of 91
+median: 0.15

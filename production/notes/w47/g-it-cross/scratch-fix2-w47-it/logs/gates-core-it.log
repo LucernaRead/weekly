@@ -1,0 +1,14 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: core-it: skipped (self)
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+== boxtitle: RC=0 BOXTITLE core-it: 24 titles, 320 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+    BOXTITLE core-it: 24 titles, 320 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP core-it: 29 boxes, 103 candidates, 0 SPILL, 103 OBSERVE
+== edge: RC=0
+    EDGE_SCAN core-it: 8 pages, 0 TOUCH, 0 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN core-it: 8 pages, 0 TOUCH, 0 NEAR
+== textlayer: RC=0 print_chars=38091 web_chars=38091 multiset_diff=0 nonws_diff=0
+GATES core-it: ALL-GREEN

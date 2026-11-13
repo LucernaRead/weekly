@@ -1,0 +1,12 @@
+per-page CJK chars in <text>: {'p1-portada.svg': {'\u3000': 21}, 'p2-vida.svg': {'\u3000': 17}, 'p3-cultura.svg': {'\u3000': 14}, 'p4-deporte.svg': {'\u3000': 16}, 'p5-juventud.svg': {'\u3000': 15}, 'p6-afondo.svg': {'\u3000': 15}, 'p7-lengua.svg': {'\u3000': 12}, 'p8-ejercicios.svg': {'\u3000': 14}}
+TOTAL CJK chars in <text>: {'\u3000': 124} sum: 124
+Noto Sans CJK SC elements containing CJK chars (element count per page): {'p1-portada.svg': 17, 'p2-vida.svg': 17, 'p3-cultura.svg': 14, 'p4-deporte.svg': 16, 'p5-juventud.svg': 15, 'p6-afondo.svg': 15, 'p7-lengua.svg': 12, 'p8-ejercicios.svg': 14} TOTAL 120
+moth title present: True
+p1-portada.svg CJK outside <text>: ['三', '色', '蛾']
+p2-vida.svg CJK outside <text>: []
+p3-cultura.svg CJK outside <text>: []
+p4-deporte.svg CJK outside <text>: []
+p5-juventud.svg CJK outside <text>: []
+p6-afondo.svg CJK outside <text>: []
+p7-lengua.svg CJK outside <text>: []
+p8-ejercicios.svg CJK outside <text>: []

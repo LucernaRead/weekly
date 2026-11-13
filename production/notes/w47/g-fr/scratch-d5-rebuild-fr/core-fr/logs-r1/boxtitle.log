@@ -1,0 +1,6 @@
+== core-fr  core=self backup=-
+  P3 [TITLE] DEFECT over=+7.6px (right) core=None backup=None | core title overflows its box | 'LES DATES EN CHIFFRES'
+  P4 [TITLE] DEFECT over=+36.5px (right) core=None backup=None | core title overflows its box | 'LES PHRASES DU COMMENTATEUR'
+  P5 [TITLE] DEFECT over=+43.3px (right) core=None backup=None | core title overflows its box | '\u3000周三电影'
+  P6 [TITLE] DEFECT over=+24.5px (right) core=None backup=None | core title overflows its box | 'TROIS DATES POUR COMPRENDRE'
+BOXTITLE core-fr: 43 titles, 378 body lines, 4 DEFECT, 0 OBSERVE, 0 marginal

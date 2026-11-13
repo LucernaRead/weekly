@@ -1,0 +1,181 @@
+=== GATE 0: verify.py (cwd=ED) ===
+verify RC=0
+P1 top band: no same-baseline overlap
+P6 olive bars (chart widths, expect 748/561/391): ['748', '561', '391']
+  label 'Bundesliga und Nations League' ink ends x=425 (bars start 558; CN labels at 448)
+  label 'Weihnachtsmärkte' ink ends x=294 (bars start 558; CN labels at 448)
+  label 'Stille Tage' ink ends x=200 (bars start 558; CN labels at 448)
+MUSTER label: MUSTER　Texto modelo (84 palavras)
+MUSTER words (whitespace split): 84
+p1-front.svg min SVG font: 15.5 -> PDF pt: 11.625
+p2-leben.svg min SVG font: 17.0 -> PDF pt: 12.75
+p3-kultur.svg min SVG font: 15.5 -> PDF pt: 11.625
+p4-sport.svg min SVG font: 15.5 -> PDF pt: 11.625
+p5-jugend.svg min SVG font: 15.5 -> PDF pt: 11.625
+p6-vertiefung.svg min SVG font: 17.0 -> PDF pt: 12.75
+p7-sprache.svg min SVG font: 15.5 -> PDF pt: 11.625
+p8-uebungen.svg min SVG font: 13.25 -> PDF pt: 9.9375
+P8 answers floor check (>= 9.75pt): True
+chart sum 44+33+23 = 100
+18 Nov + 11 days = True
+15 Nov + 7 days = True
+16 Nov + 6 days = True
+=== GATE 1: occlusion_audit (formal, NO --selftest) ===
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg: 0 flags 
+=== GATE 2a: p8 extract ===
+p8extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+=== GATE 2b: p8 compare vs core ===
+p8compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+=== GATE 3: freeze diff ===
+freeze RC=0
+p1: +31 strings / -44 strings; CJK core 189 -> edition 18; added CJK chars: 0 
+p2: +33 strings / -31 strings; CJK core 221 -> edition 17; added CJK chars: 1 {'\u3000': 1}
+p3: +45 strings / -46 strings; CJK core 208 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p4: +24 strings / -21 strings; CJK core 174 -> edition 15; added CJK chars: 1 {'\u3000': 1}
+p5: +40 strings / -44 strings; CJK core 210 -> edition 16; added CJK chars: 1 {'\u3000': 1}
+p6: +36 strings / -32 strings; CJK core 243 -> edition 17; added CJK chars: 1 {'\u3000': 1}
+p7: +59 strings / -77 strings; CJK core 434 -> edition 23; added CJK chars: 1 {'\u3000': 1}
+p8: +143 strings / -137 strings; CJK core 1434 -> edition 24; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 7
+=== GATE 4: freeze_direct (source + rendered 8/8) ===
+freeze_direct RC=0
+source files core: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 721, 'verify.py': 167}
+source files edition: {'bslib4.py': 100, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 730, 'verify.py': 167}
+source literals: core=2556 edition=2564 removed=520 added=528
+unaccounted removed: 0; unaccounted added: 0
+  p1: frozen=147 (core 191 / edition 178) sha8=083e2a2a PASS
+  p2: frozen=163 (core 194 / edition 196) sha8=689045ad PASS
+  p3: frozen=195 (core 241 / edition 240) sha8=fc88f676 PASS
+  p4: frozen=166 (core 187 / edition 190) sha8=df1bebf7 PASS
+  p5: frozen=173 (core 217 / edition 213) sha8=86fa4421 PASS
+  p6: frozen=175 (core 207 / edition 211) sha8=2bbe05f9 PASS
+  p7: frozen=150 (core 227 / edition 209) sha8=b7aa0771 PASS
+  p8: frozen=186 (core 323 / edition 329) sha8=57e118e7 PASS
+source level: PASS; rendered: 8/8
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de-pt3/freeze-direct.json
+=== GATE 5: keycheck 150 ===
+keycheck RC=0
+P8 saved, TOTAL exercises: 150
+REG entries: 150; p8extract keys: 150
+exact match: 149/150
+  MISMATCH n=150 page=8 type=escrita: key='Tarefa livre — segue os pontos do quadro de escrita' extracted='Tarefa livre'
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de-pt3/keycheck-150.json
+=== GATE 6: boxtitle 7/7 ===
+boxtitle RC=0
+[PASS] 'DIE STILLE WOCHE\u3000Tranquila' sz=24 w=356.5 budget=400.5
+[PASS] 'WEIHNACHTSWÖRTER\u3000Palavras' sz=24 w=386.0 budget=400.5
+[PASS] 'DER TIPP\u3000Conselho da redação' sz=24 w=378.5 budget=400.5
+[PASS] 'ADVENTSWÖRTER\u3000Advento' sz=24 w=333.9 budget=400.5
+[PASS] 'DER WERKZEUGKASTEN\u3000Material' sz=23 w=386.1 budget=400.5
+[PASS] 'LESERBRIEFE\u3000Cartas dos leitores' sz=23 w=384.8 budget=400.5
+[PASS] 'NOCH EIN WORT\u3000Mais uma palavra' sz=22 w=388.1 budget=400.5
+box titles: 7/7 fit
+=== GATE 6b: measure 24/24 ===
+measure RC=0
+[PASS] P8 writing para <=4 lines 2 lines
+[PASS] P7 toolbox D4 entry <=3 lines 2 lines
+[PASS] exercise head right note fits width 591
+[PASS] BLITZQUIZ right note fits width 560
+
+=== GATE 7: pdftotext print vs web ===
+print bytes: 50684 web bytes: 50684
+word multiset identical: True
+raw normalised identical: True raw bytes: 49500 49500
+=== GATE 8: chips ===
+P8 by level: {'A2': 22, 'B1': 13}
+chips per page: {1: 10, 2: 15, 3: 18, 4: 15, 5: 18, 6: 18, 7: 12, 8: 35} TOTAL: 141
+=== GATE 9: P8 min font (PyMuPDF, print + web) ===
+print P8 min span pt: 9.94 spans: 349
+web P8 min span pt: 9.94 spans: 349
+=== GATE 10: abutting scan (print vs web span geometry, tol 0.5pt) ===
+P1: spans=235 max bbox delta=0.22pt at 'Die Lucerna'
+P2: spans=209 max bbox delta=0.00pt at None
+P3: spans=252 max bbox delta=0.00pt at None
+P4: spans=205 max bbox delta=0.00pt at None
+P5: spans=226 max bbox delta=0.00pt at None
+P6: spans=228 max bbox delta=0.00pt at None
+P7: spans=225 max bbox delta=0.00pt at None
+P8: spans=349 max bbox delta=0.00pt at None
+ABUTTING issues: none
+=== GATE 11: d2scan (web intra-word gaps) ===
+RC=0
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+abutting pairs checked: 60; web gap >0.5pt: 0
+=== GATE 12: creambox full edition ===
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p1-front.svg
+  box y=1470 bottom=1804.3 last baseline 1758.6 clearance +45.7 | 'Bundesliga (30 golos, jornada 9)'
+  box y=588 bottom=1288.0 last baseline 1274.0 clearance +14.0 | 'As cinco perguntas da semana.'
+  box y=1312 bottom=1652.0 last baseline 1676.0 clearance -24.0 | 'DAS WORT DER WOCHE'
+  box y=1874 bottom=2290.0 last baseline 2273.2 clearance +16.8 | 'zu. (Seite 3)'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p2-leben.svg
+  box y=776 bottom=981.4 last baseline 933.6 clearance +47.7 | 'dependência · still = calmo.'
+  box y=200 bottom=496.6 last baseline 477.1 clearance +19.5 | 'freier Tag.'
+  box y=523 bottom=849.8 last baseline 830.3 clearance +19.5 | '3 bis 24 Uhr verboten.'
+  box y=876 bottom=1195.9 last baseline 1173.8 clearance +22.2 | 'em alemão!'
+  box y=1222 bottom=1549.1 last baseline 1594.0 clearance -44.9 | 'Die Daten der Woche\u3000As datas da semana'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p3-kultur.svg
+  box y=669 bottom=904.1 last baseline 856.4 clearance +47.7 | 'gengibre · die Stimmung = ambiente.'
+  box y=200 bottom=557.7 last baseline 538.2 clearance +19.5 | 'Uhr.'
+  box y=584 bottom=1101.5 last baseline 1081.9 clearance +19.5 | 'die Kerze — vela'
+  box y=1127 bottom=1447.6 last baseline 1425.4 clearance +22.2 | 'em alemão!'
+  box y=1474 bottom=1643.2 last baseline 1623.7 clearance +19.5 | 'als am Wochenende.'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p4-sport.svg
+  box y=489 bottom=664.8 last baseline 617.0 clearance +47.7 | 'weiterkommen = apurar-se.'
+  box y=865 bottom=1156.0 last baseline 1134.4 clearance +21.6 | 'Munique? Escreve em alemão!'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p5-jugend.svg
+  box y=779 bottom=1013.6 last baseline 965.8 clearance +47.7 | 'manuais · überkleben = cobrir colando.'
+  box y=200 bottom=527.2 last baseline 507.6 clearance +19.5 | 'Lande des Christkinds“.'
+  box y=553 bottom=979.4 last baseline 959.8 clearance +19.5 | 'der Stern — estrela'
+  box y=1005 bottom=1296.5 last baseline 1274.9 clearance +21.6 | 'em alemão!'
+  box y=1120 bottom=1420.0 last baseline 1388.0 clearance +32.0 | 'Bundesliga: Bayern – Köln (20.30 Uhr).'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p6-vertiefung.svg
+  box y=560 bottom=765.0 last baseline 717.2 clearance +47.7 | '· die Einigung = acordo.'
+  box y=200 bottom=835.5 last baseline 819.4 clearance +16.1 | 'Sachsen ein Feiertag.'
+  box y=862 bottom=1261.4 last baseline 1238.4 clearance +23.0 | 'quase todas as famílias.'
+  box y=1120 bottom=1372.0 last baseline 1337.4 clearance +34.6 | 'die Adventszeit.'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p7-sprache.svg
+  box y=633 bottom=811.1 last baseline 846.1 clearance -35.0 | '101.'
+  box y=633 bottom=811.1 last baseline 846.1 clearance -35.0 | '105.'
+  box y=596 bottom=774.6 last baseline 809.6 clearance -35.0 | '109.'
+  box y=310 bottom=813.0 last baseline 793.0 clearance +20.0 | 'Es ist fraglich, ob ... = ainda duvidoso'
+  box y=829 bottom=1381.5 last baseline 1371.1 clearance +10.4 | 'textos para o VOL.5!'
+  box y=1398 bottom=1547.5 last baseline 1504.6 clearance +42.9 | 'calendário com 24 portinhas.'
+== /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-pt/svg/p8-uebungen.svg
+  box y=1650 bottom=1950.0 last baseline 1902.9 clearance +47.1 | 'bleibe zu Hause. Die Woche macht Spaß!'
+=== GATE 13: descender probe (P7 toolbox last line) ===
+RC=0
+ink bbox (10x): (20, 151, 3478, 351) baseline y=300 -> ink bottom below baseline: 5.2 units
+'g' ink below baseline (units): 5.2
+chars with descenders in last line: ['g']
+=== GATE 14: quotes + Q34 + D1 pess ===
+quotes over 8 SVGs: {'201C': 33, '201D': 0, '2019': 0, '0027': 0, '00AB': 7, '00BB': 7, '201E': 33}
+201C==201E paired: True | 00AB==00BB paired: True
+print new Q34 stem: 1 old stem: 0
+print pess.: 13 pers.: 0
+web new Q34 stem: 1 old stem: 0
+web pess.: 13 pers.: 0
+content8 pess.: 13 pers.: 0
+text.md pess.: 13 pers.: 0
+P8 SVG pess.: 13 pers.: 0
+Q34 source new: 1 old: 0
+Q34 text.md new: 1 old: 0
+Q34 P3 SVG new: 1 old: 0
+=== GATE 15: §1.1 grep (old palette / gold-brown words) ===
+grep-done
+p1-front.svg extra colours: ['#34483A', '#4D72B4', '#4F765D', '#7898CD', '#84A283', '#D7B257', '#EDD17F', '#F1E8D4', '#cac8ba', '#ffffff']
+p2-leben.svg extra colours: ['#ffffff']
+p3-kultur.svg extra colours: ['#ffffff']
+p4-sport.svg extra colours: ['#efe8d2', '#f4efe0', '#ffffff']
+p5-jugend.svg extra colours: ['#ffffff']
+p6-vertiefung.svg extra colours: ['#ffffff']
+p7-sprache.svg extra colours: ['#cac8ba', '#ffffff']
+p8-uebungen.svg extra colours: ['#ffffff']
+FAIL_COUNT=0

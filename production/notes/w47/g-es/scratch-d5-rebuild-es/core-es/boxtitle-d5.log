@@ -1,0 +1,5 @@
+== core-es  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-es/boxtitle-backup/scratch-fanout-d5/backup/core-es
+  P1 [TITLE] DEFECT over=+22.5px (right) core=None backup=None | core title overflows its box | '\u3000数字看本周'
+  P3 [TITLE] DEFECT over=+6.5px (right) core=None backup=None | core title overflows its box | 'EL FLAMENCO, EN TRES DATOS'
+  P5 [TITLE] DEFECT over=+13.7px (right) core=None backup=None | core title overflows its box | '\u3000本周计划'
+BOXTITLE core-es: 30 titles, 330 body lines, 3 DEFECT, 0 OBSERVE, 0 marginal

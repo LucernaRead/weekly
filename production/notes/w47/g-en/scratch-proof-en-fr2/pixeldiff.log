@@ -1,0 +1,18 @@
+P1: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P2: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P3: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P4: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P5: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P6: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P7: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+P8: shapes (2025, 1463, 3) vs (2025, 1463, 3)
+  pixels diff>10: 0  maxdiff=0
+web-vs-print P1: pixels diff>10: 42461 (JPEG recompression expected)
+web-vs-print P8: pixels diff>10: 20945 (JPEG recompression expected)

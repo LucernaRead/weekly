@@ -1,0 +1,275 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+{
+ "p8_json": {
+  "status": "CLEAN",
+  "core_count": 150,
+  "edition_count": 150,
+  "missing": [],
+  "extra_count": null,
+  "keydiff": [
+   137,
+   138,
+   139,
+   140
+  ]
+ },
+ "p8_key_137_140": {
+  "137": "Martedì 17 novembre, Giorno degli studenti.",
+  "138": "Un pacco va tracciato, ritirato e controllato.",
+  "139": "Martedì la Russia gioca contro il Venezuela.",
+  "140": "Buon Giorno degli studenti a tutti!"
+ },
+ "p8_key_73": "заказов",
+ "p8_key_25": "b",
+ "p8_key_20": "желании",
+ "p8_key_46": "Вечером можно посмотреть фильм в кино.",
+ "quotes": {
+  "p1-pervaya.svg": {
+   "guil_open": 25,
+   "guil_close": 25,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p2-zhizn.svg": {
+   "guil_open": 4,
+   "guil_close": 4,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p3-kultura.svg": {
+   "guil_open": 21,
+   "guil_close": 21,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p4-sport.svg": {
+   "guil_open": 73,
+   "guil_close": 73,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p5-molodezh.svg": {
+   "guil_open": 22,
+   "guil_close": 22,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p6-razbor.svg": {
+   "guil_open": 1,
+   "guil_close": 1,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p7-yazyk.svg": {
+   "guil_open": 36,
+   "guil_close": 36,
+   "dq_open": 1,
+   "dq_close": 1,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "p8-test.svg": {
+   "guil_open": 17,
+   "guil_close": 17,
+   "dq_open": 0,
+   "dq_close": 0,
+   "rsquo": 0,
+   "straight_dquote": 0
+  },
+  "ALL": {
+   "guil_open": 199,
+   "guil_close": 199,
+   "dq_open": 1,
+   "dq_close": 1,
+   "rsquo": 0,
+   "straight_dquote": 0
+  }
+ },
+ "banned_visible": {
+  "2026-w47": 0,
+  "ru-it": 0,
+  "W47": 0,
+  "cover": 0,
+  "SOP": 0,
+  "lint": 0,
+  "proofread": 0,
+  "翻譯": 0,
+  "翻译": 0,
+  "github": 0,
+  "VOL.4": 9,
+  "VOL 4": 0
+ },
+ "visible_cjk_chars": [],
+ "straight_apos_n": 9,
+ "textmd_cjk_n": 0,
+ "textmd_guil": [
+  165,
+  165
+ ],
+ "textmd_dq": [
+  1,
+  1
+ ],
+ "textmd_rsq": 0,
+ "textmd_straight_dq": 0,
+ "textmd_banned": {
+  "2026-w47": 0,
+  "ru-it": 0,
+  "翻譯": 0,
+  "翻译": 0
+ },
+ "textmd_lines": 838,
+ "q20_stem_line": [
+  694,
+  "20. желании — желание = un desiderio"
+ ],
+ "q25_stem_line": [
+  699,
+  "25. b — Giorno degli studenti b"
+ ],
+ "q73_stem_line": [
+  753,
+  "73. заказов — заказ = un ordine"
+ ],
+ "p2_day_studenta_nodes": [
+  [
+   891.5,
+   168.0,
+   "студента"
+  ],
+  [
+   366.7,
+   428.6600000000001,
+   "студента"
+  ],
+  [
+   609.0,
+   582.87,
+   "студента"
+  ],
+  [
+   1653.7,
+   352.53,
+   "студента"
+  ],
+  [
+   308.6,
+   2065.225,
+   "студента"
+  ],
+  [
+   1136.2,
+   2094.95,
+   "студента"
+  ],
+  [
+   1041.1,
+   2264.05,
+   "студента"
+  ],
+  [
+   1560.8,
+   2162.0,
+   "студента"
+  ]
+ ],
+ "p1_stat_title_nodes": [
+  [
+   726.6,
+   1240.735,
+   "　IN CIFRE",
+   23.0
+  ]
+ ],
+ "footers": {
+  "p1-pervaya.svg": [
+   "Pagina 1 di 8"
+  ],
+  "p2-zhizn.svg": [
+   "Pagina 2 di 8"
+  ],
+  "p3-kultura.svg": [
+   "Pagina 3 di 8"
+  ],
+  "p4-sport.svg": [
+   "Pagina 4 di 8"
+  ],
+  "p5-molodezh.svg": [
+   "Pagina 5 di 8"
+  ],
+  "p6-razbor.svg": [
+   "Pagina 6 di 8"
+  ],
+  "p7-yazyk.svg": [
+   "Pagina 7 di 8"
+  ],
+  "p8-test.svg": [
+   "Pagina 8 di 8"
+  ]
+ },
+ "fonts_print_nrefs": 73,
+ "fonts_print_italic": [
+  "HGZRNG+Newsreader16pt-Italic",
+  "EWWBLY+NotoSerif-MediumItalic"
+ ],
+ "pages_print": 8,
+ "bytes_print": 21265865,
+ "fonts_web_nrefs": 73,
+ "fonts_web_italic": [
+  "JIIPTX+LucernaNewsreader-Italic",
+  "PDZMGV+LucernaNotoSerif-Italic"
+ ],
+ "pages_web": 8,
+ "bytes_web": 3384095,
+ "p2_matching_block": [
+  [
+   88.0,
+   2065.225,
+   "Международный"
+  ],
+  [
+   253.8,
+   2065.225,
+   " "
+  ],
+  [
+   258.4,
+   2065.225,
+   "день"
+  ],
+  [
+   304.0,
+   2065.225,
+   " "
+  ],
+  [
+   308.6,
+   2065.225,
+   "студента"
+  ],
+  [
+   394.1,
+   2065.225,
+   " "
+  ],
+  [
+   398.7,
+   2065.225,
+   "— "
+  ],
+ 
+FONTS print: 73 ['HGZRNG+Newsreader16pt-Italic', 'EWWBLY+NotoSerif-MediumItalic']
+FONTS web: 73 ['JIIPTX+LucernaNewsreader-Italic', 'PDZMGV+LucernaNotoSerif-Italic']

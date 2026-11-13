@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-zh-tw-toolbox/export_text_lang.py", line 59, in <module>
+    import stub_svg, stub_bslib
+ModuleNotFoundError: No module named 'stub_svg'

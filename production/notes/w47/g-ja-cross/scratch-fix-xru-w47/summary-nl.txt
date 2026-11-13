@@ -1,0 +1,31 @@
+===== nl 2026-11-12T23:43:21Z disk=95G =====
+run.py rc=0
+probe rc=0 : 2026-w47-nl-ru: runs=3282 LAT@NotoSans=0 LAT@Newsreader=23449 CYR@NotoSans=5291 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=590 curly={}
+render.py rc=0
+print PDF mtime=2026-11-12 23:43:54.575316474 +0000 size=12260999
+5541fc59de37cc5186b447e37f317f7f5dd628f862dd1b0701986c6d29e3e19e  De-Lucerna-VOL4-nl-ru.pdf
+pre non-space chars: 36605; post non-space chars: 36605
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (54060 chars)
+webpdf.py rc=0
+web PDF mtime=2026-11-12 23:44:11.697332954 +0000 size=1674515
+5df8b0d6af5b2b94ed9c55222e572df9c8b76fee907b24a07b037b9bbcb4d3b8  De-Lucerna-VOL4-nl-ru-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-voorpagina.svg: No such file or directory
+svg/p1-voorpagina.svg: FAILED open or read
+sha256sum: svg/p2-leven.svg: No such file or directory
+svg/p2-leven.svg: FAILED open or read
+sha256sum: svg/p3-cultuur.svg: No such file or directory
+svg/p3-cultuur.svg: FAILED open or read
+sha256sum: svg/p4-sport.svg: No such file or directory
+svg/p4-sport.svg: FAILED open or read
+sha256sum: svg/p5-jongeren.svg: No such file or directory
+svg/p5-jongeren.svg: FAILED open or read
+sha256sum: svg/p6-verdieping.svg: No such file or directory
+svg/p6-verdieping.svg: FAILED open or read
+sha256sum: svg/p7-taal.svg: No such file or directory
+svg/p7-taal.svg: FAILED open or read
+sha256sum: svg/p8-toets.svg: No such file or directory
+svg/p8-toets.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE nl 2026-11-12T23:44:12Z

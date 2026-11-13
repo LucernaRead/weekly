@@ -1,0 +1,70 @@
+== Q34 (5 places) ==
+content34.py new/old: 1 / 0
+text.md new/old: 1 / 0
+p3 svg new/old: 1 / 0
+print pdf new/old: 1 / 0
+web pdf new/old: 1 / 0
+core content34.py new/old: 1 / 0
+== bent quotes per page (SVG <text>) ==
+P1: U+201D=0 U+201C=5 U+201E=5 U+2019=0
+P2: U+201D=0 U+201C=0 U+201E=0 U+2019=0
+P3: U+201D=0 U+201C=0 U+201E=0 U+2019=0
+P4: U+201D=0 U+201C=0 U+201E=0 U+2019=0
+P5: U+201D=0 U+201C=6 U+201E=6 U+2019=0
+P6: U+201D=0 U+201C=0 U+201E=0 U+2019=0
+P7: U+201D=0 U+201C=21 U+201E=21 U+2019=0
+P8: U+201D=0 U+201C=3 U+201E=3 U+2019=0
+text.md: U+201D=0 U+201C=35 U+201E=35 U+2019=0
+print pdf text layer: U+201D=0 U+201C=35 U+201E=35 U+2019=0
+web pdf text layer: U+201D=0 U+201C=35 U+201E=35 U+2019=0
+== D1/D2 strings present? ==
+D1 german: True | D1 english old: False
+D2 german: True | D2 english old: False
+D2 in content56.py:99 area: True
+content56.py:99 line: e.ex("B1", "multiple choice", "B", "The 1903 calendar: „Im Lande des Christkinds“",
+content8.py:201 line: p.para(wx, wy + 196, "Write in German, 80–100 words: „My week in November“. Say what you make, which games you watch and with whom — and add one sentence about 
+== pairing: U+201C vs U+201E per <text> element ==
+  P5 UNPAIRED: 'Schon 1903 gab es den Kalender „Im' open=1 close=0
+  P5 UNPAIRED: 'Lande des Christkinds“.' open=0 close=1
+  P5 UNPAIRED: 'Adventskalender aus dem Jahr 1903: „Im Lande' open=1 close=0
+  P5 UNPAIRED: 'des Christkinds“.' open=0 close=1
+  P5 UNPAIRED: 'Jahr 1903? A. „Im Lande des' open=1 close=0
+  P5 UNPAIRED: 'Christkinds“ · C. „Im Lande der Engel“' open=1 close=2
+  P7 UNPAIRED: '„Am 18. November ist Buß- und' open=1 close=0
+  P7 UNPAIRED: 'Bettag.“' open=0 close=1
+  P7 UNPAIRED: '„Um 20.30 Uhr wird in' open=1 close=0
+  P7 UNPAIRED: 'München gespielt.“' open=0 close=1
+  P7 UNPAIRED: '„Der November ist stiller als der' open=1 close=0
+  P7 UNPAIRED: 'Oktober.“' open=0 close=1
+  P7 UNPAIRED: '„Ich lese, weil das Buch' open=1 close=0
+  P7 UNPAIRED: 'spannend ist.“' open=0 close=1
+  P7 UNPAIRED: '„Meiner Meinung nach braucht das' open=1 close=0
+  P7 UNPAIRED: 'Gedenken Stille.“' open=0 close=1
+  P7 UNPAIRED: '„Niemand weiß, ob' open=1 close=0
+  P7 UNPAIRED: 'die Einigung gelingt.“' open=0 close=1
+  P7 UNPAIRED: 'sagen: A. „Stille, sofort!“ · B. „Meiner' open=2 close=1
+  P7 UNPAIRED: 'Stille.“ · C. „Die Politik macht alles falsch.“' open=1 close=2
+  P7 UNPAIRED: '„Liebe Lucerna, im November bastle' open=1 close=0
+  P7 UNPAIRED: 'Viele Grüße — die Redaktion“' open=0 close=1
+  P7 UNPAIRED: '„Nach zwei Wochen Pause spielt am' open=1 close=0
+  P7 UNPAIRED: 'FC Köln.“' open=0 close=1
+  P7 UNPAIRED: '„Es geht ums Viertelfinale der Nations' open=1 close=0
+  P7 UNPAIRED: 'League.“' open=0 close=1
+  P7 UNPAIRED: '„Nur in Sachsen ist der Buß- und Bettag' open=1 close=0
+  P7 UNPAIRED: 'ein gesetzlicher Feiertag.“' open=0 close=1
+  P7 UNPAIRED: '„Die Märkte beginnen fast zwei Wochen' open=1 close=0
+  P7 UNPAIRED: 'früher.“' open=0 close=1
+  P7 UNPAIRED: '„Hinter jedem Türchen wartet eine kleine' open=1 close=0
+  P7 UNPAIRED: 'Überraschung.“' open=0 close=1
+  P7 UNPAIRED: '„Der FC Bayern gewann in Mainz mit' open=1 close=0
+  P7 UNPAIRED: '2:1.“' open=0 close=1
+  P7 UNPAIRED: '„Die stille Woche ist der Übergang: vom' open=1 close=0
+  P7 UNPAIRED: 'November in den Advent.“' open=0 close=1
+  P8 UNPAIRED: 'Friedhof und zündet Kerzen an. „Eine stille,' open=1 close=0
+  P8 UNPAIRED: 'schöne Woche“, sagt Frau Berger.' open=0 close=1
+  P8 UNPAIRED: '24 little doors)·67. B (The 1903 calendar: „Im Lande des' open=1 close=0
+  P8 UNPAIRED: 'Christkinds“)·68. B (Wish list: Christ Child or Father' open=0 close=1
+unpaired <text> elements: 40
+Traceback (most recent call last):
+  File "<stdin>", line 47, in <module>
+NameError: name 'S' is not defined

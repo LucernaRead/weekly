@@ -1,0 +1,27 @@
+[PASS] topband no overlap left ends 299, mid 729..1221, right starts 1564
+[PASS] masthead edition line fits 1774 width 1176 (spacing 7.0)
+    masthead w0=973 len=29 suggested max spacing 7.0 (<=7.0)
+[PASS] footer vs pageline gap footer ends 604, pageline starts 1702
+[PASS] P1 band title vs right text title ends 1346, right starts 1612
+[PASS] chart label 'サッカー' clears bar ends 528 (bar 1358)
+[PASS] chart label '市場' clears bar ends 488 (bar 1358)
+[PASS] chart label '静かな日' clears bar ends 528 (bar 1358)
+[PASS] P2 Rechnen note 1 line 1 lines
+[PASS] P7 phrase <=2 lines: '2週間の休み明け、バイエルンは金曜夜にケルンと対戦。' 2 lines
+[PASS] P7 phrase <=2 lines: 'ネーションズリーグ準々決勝の話。' 1 lines
+[PASS] P7 phrase <=2 lines: 'Buß- und Bettag が祝日なのはザクセン州だ' 1 lines
+[PASS] P7 phrase <=2 lines: '市はほぼ2週間早く始まる。' 1 lines
+[PASS] P7 phrase <=2 lines: '小窓の裏には小さな驚きが待つ。' 1 lines
+[PASS] P7 phrase <=2 lines: 'バイエルンはマインツで2-1勝利。' 1 lines
+[PASS] P7 phrase <=2 lines: '静かな一週間は移行期：11月から待降節へ。' 1 lines
+[PASS] P7 phrase <=2 lines: '日曜日、国中が静かになる。' 1 lines
+[PASS] P7 clinic <=2 lines: '動詞は2番目：主語が最初でなくても、動詞は2番目。' 2 lines
+[PASS] P7 clinic <=2 lines: 'halb neun = 8時半（neun の前）。' 1 lines
+[PASS] P7 clinic <=2 lines: 'Perfekt：分詞は最後' 1 lines
+[PASS] P7 clinic <=2 lines: 'ob の文：動詞は最後' 1 lines
+[PASS] P8 writing para <=4 lines 2 lines
+[PASS] P7 toolbox D4 entry <=3 lines 2 lines
+[PASS] exercise head right note fits width 497
+[PASS] BLITZQUIZ right note fits width 480
+    TR total chars: ja 6022 vs en 10469 vs fr 10619
+

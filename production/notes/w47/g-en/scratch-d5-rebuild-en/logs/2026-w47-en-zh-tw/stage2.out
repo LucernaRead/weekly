@@ -1,0 +1,46 @@
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw/The-Lucerna-VOL4-en-zh-tw.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 24179b2be2830e60 produced 24179b2be2830e60
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p7: +64 strings / -69 strings; CJK core 429 -> edition 422; added CJK chars: 142 {'\u3000': 1, '語': 4, '週': 4, '譯': 6, '現': 3, '時': 8, '贏': 3, '過': 3, '經': 3, '聞': 1}; added Latin strings: 14 (unexpected 14)
+p8: +249 strings / -418 strings; CJK core 634 -> edition 542; added CJK chars: 224 {'\u3000': 1, '練': 1, '習': 1, '與': 3, '測': 1, '選': 6, '項': 1, '：': 4, '單': 3, '閱': 1}; added Latin strings: 97 (unexpected 97)
+TOTAL added CJK characters: 775
+TOTAL added Latin strings: 132 (unexpected 132)
+added CJK (excl U+3000): {'週': 24, '讀': 17, '英': 9, '語': 27, '正': 9, '談': 1, '的': 1, '報': 10, '選': 22, '舉': 9, '叢': 2, '電': 6, '文': 19, '繁': 10, '體': 11, '中': 10, '講': 9, '解': 2, '給': 8, '者': 1, '版': 1, '本': 1, '黨': 10, '贏': 6, '兩': 4, '佈': 9, '結': 11, '詳': 1, '見': 4, '頭': 3, '條': 1, '譯': 17, '注': 1, '數': 7, '眾': 11, '議': 18, '過': 7, '參': 9, '學': 1, '練': 5, '熱': 2, '對': 8, '，': 1, '確': 12, '尋': 1, '錄': 1, '：': 5, '約': 1, '訊': 1, '閃': 1, '問': 2, '投': 4, '票': 4, '後': 3, '日': 1, '曆': 1, '領': 2, '兒': 2, '節': 5, '期': 1, '認': 5, '第': 4, '二': 4, '輪': 4, '說': 10, '國': 4, '會': 9, '發': 7, '麼': 5, '寫': 31, '編': 3, '輯': 3, '這': 4, '樣': 2, '話': 3, '計': 3, '還': 2, '繼': 3, '續': 3, '開': 4, '樂': 1, '職': 2, '雞': 1, '習': 3, '題': 6, '級': 3, '號': 1, '據': 1, '與': 6, '時': 19, '間': 2, '補': 6, '動': 4, '詞': 15, '原': 1, '形': 1, '諾': 3, '釋': 4, '義': 4, '將': 8, '賽': 7, '導': 3, '師': 1, '競': 1, '場': 2, '營': 1, '員': 1, '經': 4, '評': 2, '轉': 2, '夠': 1, '為': 2, '迴': 2, '傷': 1, '誰': 2, '襪': 5, '聲': 2, '來': 13, '權': 5, '現': 5, '進': 1, '個': 10, '圖': 6, '擬': 1, '長': 2, '張': 1, '規': 2, '則': 2, '聞': 3, '較': 2, '記': 1, '標': 2, '紙': 1, '賓': 1, '從': 4, '糾': 5, '錯': 6, '門': 1, '診': 1, '沒': 3, '變': 1, '實': 3, '請': 1, '僅': 1, '預': 1, '測': 1, '項': 1, '單': 3, '閱': 1, '換': 1, '翻': 4, '彙': 1, '視': 1, '範': 2, '簡': 1, '區': 1, '歸': 2, '總': 1, '證': 1, '態': 1, '構': 1, '點': 3, '亞': 1, '以': 1, '得': 1, '燼': 1, '盃': 1, '霸': 1, '「': 1, '」': 1, '湯': 3, '徹': 1, '書': 1, '紅': 1, '藍': 1, '隻': 1, '課': 1, '於': 2, '內': 1}
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-zh-tw: 32 boxes, 135 candidates, 0 SPILL, 135 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-zh-tw
+BOXTITLE 2026-w47-en-zh-tw: 30 titles, 251 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=425 median=1.015 boldT=1.057 boldF=0.993
+P8 p8-test.svg: lines 184->182 slack_footer 34.6->35.6
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+textcheck RC=0
+post-print chars=33932 post-web chars=33932 pre-print chars=33932
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+OVERALL: ALL-GREEN

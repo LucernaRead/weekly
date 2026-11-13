@@ -1,0 +1,16 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+V0 D1 orig (expect ~1886): max ink x in rows 1640..1665 = 1886 (margin vs 1862: -24) rows=[(1644, 1881), (1645, 1882), (1646, 1882), (1647, 1882), (1648, 1883)]
+V0 D2 orig (expect ~1865): max ink x in rows 2320..2360 = 1865 (margin vs 1862: -3) rows=[(2331, 1807), (2332, 1807), (2333, 1825), (2334, 1863), (2335, 1864)]
+D2 new advance=623.1 new x=1238.9
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ru-pt1/exp.py", line 55, in <module>
+    v1 = sub_text(p1, d2_old, d2_new, "1187.5", f"{x_new:.1f}")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ru-pt1/exp.py", line 39, in sub_text
+    out, n = pat.subn(lambda m: f'{m.group(1)}{x_new:.1f}"{m.group(2)}>{new}</text>', svg, count=1)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ru-pt1/exp.py", line 39, in <lambda>
+    out, n = pat.subn(lambda m: f'{m.group(1)}{x_new:.1f}"{m.group(2)}>{new}</text>', svg, count=1)
+                                              ^^^^^^^^^^^
+ValueError: Unknown format code 'f' for object of type 'str'

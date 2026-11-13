@@ -1,0 +1,6 @@
+=== P2 box x=1439.5 bottom=1159.0; nodes with baseline 1140..1159 ===
+  x=1461.5 y=1153.98 fam=Noto Sans CJK SC size=20.0 text='즈에게 한 문장.' inkbox=[1461.5, 1137.2, 1588.8, 1156.0] ink-bottom=1156.0 vs box-bottom 1159 -> clear +3.0
+=== P1 ink right-edge scan (margin 1862, page 1950) ===
+Traceback (most recent call last):
+  File "<stdin>", line 27, in <module>
+TypeError: 'NoneType' object is not subscriptable

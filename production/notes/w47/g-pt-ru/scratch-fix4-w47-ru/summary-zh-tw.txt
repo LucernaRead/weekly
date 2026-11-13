@@ -1,0 +1,32 @@
+===== zh-tw 2026-11-12T21:01:26Z =====
+run.py rc=0
+render.py rc=0
+print PDF mtime=2026-11-12 21:04:21.879841994 +0000 size=24763427
+0c4bffc78bdc7aaf8285519d94816124b8ffbc3fe936ae1bc4f0a69a93a1748d  Lucerna-VOL4-ru-zh-tw.pdf
+ru_textmd.py rc=0
+backfill rc=0
+text.md landed:
+948538470d3cbfb3b0110300daf89c382ce4f555e08567bd1b961c8fcff52e0e  2026-w47-ru-zh-tw.text.md
+text.md size=60855
+413c413
+< 77. промокод — код со скидкой (key a · 促銷碼 a)
+---
+> 77. промокод — код со скидкой (key a · 折扣碼 a)
+757c757
+< 77. a — 促銷碼 a
+---
+> 77. a — 折扣碼 a
+webpdf.py rc=0
+web PDF mtime=2026-11-12 21:07:18.054201876 +0000 size=3975999
+cc348ad4ae16b6f3989b6d7c3966e7f543b658838d1ec3a71817793620ecb462  Lucerna-VOL4-ru-zh-tw-web.pdf
+SVG diff vs pre:
+p1-pervaya.svg: OK
+p2-zhizn.svg: OK
+p3-kultura.svg: OK
+p4-sport.svg: OK
+p5-molodezh.svg: OK
+p6-razbor.svg: OK
+p7-yazyk.svg: OK
+p8-test.svg: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match
+BUILD DONE zh-tw 2026-11-12T21:07:18Z

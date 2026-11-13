@@ -1,0 +1,38 @@
+== 2026-w47-nl-fr reader=fr ed=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-fr
+78fdfbb037538b1f8a738434ea90a782  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-fr/svglib.py
+cd1550c89f6c022b1f989a26d9971814f3e08377eee67c561190bbac353a2d04  svg/p1-voorpagina.svg
+c26834d843843f5fbc5e18088e5dc5f338f33da59e873d7ad6325e071e701646  svg/p2-leven.svg
+504320b34a3fd616082d434c4a835e1180e9ed0f3bc690082b3f1eb3ed0b0c93  svg/p3-cultuur.svg
+8519ae1f63b1b95ea94ef0ecec9a4fed956c82b3b4ceb8957881ac4df591b5b0  svg/p4-sport.svg
+d8f3ebf0166dd58d5f824551598c6d21772f1e6fd5a2e1d59e569f226b4e82e7  svg/p5-jongeren.svg
+292017dda0f26fbcc4c79f79917a6dae49f05d2f40dd0a37c196ef566bef2917  svg/p6-verdieping.svg
+dbd85d2b5249e1e511128531401cbbbf8a58a9855c9ad28699afda99b0cbd70e  svg/p7-taal.svg
+b0b06762fd2d99173b1047c2f4bf7591ffbddce95bfedf55eda9a64b89f5e198  svg/p8-toets.svg
+6aedb91fdc857b2ae545795b490c10b95400925ab1f430c658ca34922fd92d47  De-Lucerna-VOL4-nl-fr.pdf
+81d4fc195b008be1ec35d7fe5ec31e4c591fd796d54730c410857843f0c1793b  De-Lucerna-VOL4-nl-fr-web.pdf
+f1d1154442c4ea26fcc71dcf605704ab76a3555a2568bff521f158d974b5bc1a  2026-w47-nl-fr.text.md
+12656006 De-Lucerna-VOL4-nl-fr.pdf
+1612631 De-Lucerna-VOL4-nl-fr-web.pdf
+47744 2026-w47-nl-fr.text.md
+run-pre RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+prerun svg == snapshot: YES
+census-pre RC=1
+TOTAL: D5_latin_in_cjk=500 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS FAIL 500 violations
+occlusion-pre RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-fr/svg: 0 flags 
+spill-pre RC=0
+P7 box=(1439.5,1358.5,422.5,568.5) bottom=1927.0
+   ABOVE -31.08px x=1461.5 y=1327.4 [observe] 'quart de finale.'
+SPILL_SWEEP 2026-w47-nl-fr: 26 boxes, 31 candidates, 0 SPILL, 31 OBSERVE
+boxtitle-pre RC=0
+== 2026-w47-nl-fr  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-nl backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-redo-nl/scratch-fanout-nl/backup/2026-w47-nl-fr
+BOXTITLE 2026-w47-nl-fr: 16 titles, 232 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge-pre RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 62.6}
+EDGE_SCAN 2026-w47-nl-fr: 8 pages, 0 TOUCH, 0 NEAR
+PHASE A DONE 2026-w47-nl-fr

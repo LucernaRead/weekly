@@ -1,0 +1,22 @@
+[PIL-advance] lines=1421 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1421 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 12; leftmost-on-baseline: 0
+  FRAG P1 y=1560.62 x=790.7 leftmost=False first='：' '：柏林奥林匹克'
+  FRAG P8 y=1341.5 x=777.0 leftmost=False first='：' '：'
+  FRAG P8 y=1371.16 x=830.1 leftmost=False first='：' '：'
+  FRAG P8 y=1400.82 x=717.2 leftmost=False first='：' '：'
+  FRAG P8 y=1430.48 x=789.8 leftmost=False first='：' '：'
+  FRAG P8 y=1818.64 x=1274.8 leftmost=False first='）' '）'
+  FRAG P8 y=1848.3 x=1225.1 leftmost=False first='）' '）'
+  FRAG P8 y=1877.96 x=1180.7 leftmost=False first='）' '）'
+  FRAG P8 y=2325.44 x=774.6 leftmost=False first='）' '）'
+  FRAG P8 y=2355.1 x=800.8 leftmost=False first='）' '）'
+  FRAG P8 y=2384.76 x=781.4 leftmost=False first='）' '）'
+  FRAG P8 y=2414.42 x=730.2 leftmost=False first='）' '）'
+[D8 P6 caption lines]
+   {'needle': '练习数据：虚构数字', 'x': 1461.5, 'y': 635.0200000000001, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': '练习数据：虚构数字，仅供练习，非真实调查。'}
+   {'needle': '问题：你在鞋里放什么', 'x': 1461.5, 'y': 659.44, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': '问题：你在鞋里放什么？（100 名年轻人）'}
+[D10 P7 dt_zh lines]
+   {'needle': '截稿时未收到真实来信', 'x': 1461.5, 'y': 1754.2699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': '截稿时未收到真实来信或第 8 版最佳作文，'}
+   {'needle': '刊登示例信', 'x': 1461.5, 'y': 1782.6699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': '刊登示例信，承诺顺延 VOL.5。'}
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

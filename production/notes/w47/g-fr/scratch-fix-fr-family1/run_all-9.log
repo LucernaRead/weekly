@@ -1,0 +1,253 @@
+===== 2026-w47-fr-en 01:42:01 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-en/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-en/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-en-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-en/2026-w47-fr-en.text.md chars: 44220 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Friday 20 November: Children's Day
+> 
+> samedi 21 novembre
+> 
+> Saturday 21 November: Turin semi-finals + Waste Week begins
+--- post shas 2026-w47-fr-en ---
+-rw-rw---- 1 root nogroup    46274 Nov 13 01:42 2026-w47-fr-en.text.md
+-rw-rw---- 1 root nogroup  1623184 Nov 13 01:42 La-Lucerna-VOL4-fr-en-web.pdf
+-rw-rw---- 1 root nogroup 17031841 Nov 13 01:42 La-Lucerna-VOL4-fr-en.pdf
+b227430a9e5418c60c32649d34c237e1676e5c7171a50ab089e26fec1479fca2  La-Lucerna
+167410e0620c01ae1e5c4870eefe57796a61fce17c8fbff897277b5da652b4ad  La-Lucerna
+f03b13d441046b0be8993ee3e41c0454b60bb60655554971625b998d75341680  2026-w47-f
+/dev/mapper/rv  150G   95G   54G  64% /home/hatch
+===== 2026-w47-fr-de 01:42:58 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-de/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-de/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-de-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-de/2026-w47-fr-de.text.md chars: 44537 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Freitag, 20. November: Kindertag
+> 
+> samedi 21 novembre
+> 
+> Samstag, 21. November: Halbfinale in Turin + Abfallwoche beginnt
+--- post shas 2026-w47-fr-de ---
+-rw-rw---- 1 root nogroup    46690 Nov 13 01:43 2026-w47-fr-de.text.md
+-rw-rw---- 1 root nogroup  1626804 Nov 13 01:43 La-Lucerna-VOL4-fr-de-web.pdf
+-rw-rw---- 1 root nogroup 17035455 Nov 13 01:43 La-Lucerna-VOL4-fr-de.pdf
+6c115f6119919c6b9c97e45a9c582ed7c1ab13e6e1b1a05dbd0e0f006c2c7aaf  La-Lucerna
+4eb86abfa6eeb44ec96ad55c557cda2de04cf0132264789688f5d782d4b407cf  La-Lucerna
+67148924c68e4cdecf10f5c7f0ceaf6946bc7a321b191088f7895585ab0d5234  2026-w47-f
+/dev/mapper/rv  150G   95G   54G  64% /home/hatch
+===== 2026-w47-fr-es 01:43:55 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-es/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-es/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-es-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-es/2026-w47-fr-es.text.md chars: 44569 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Viernes 20 de noviembre: Día del Niño
+> 
+> samedi 21 novembre
+> 
+> Sábado 21 de noviembre: semifinales de Turín + comienza la Semana de residuos
+--- post shas 2026-w47-fr-es ---
+-rw-rw---- 1 root nogroup    46808 Nov 13 01:44 2026-w47-fr-es.text.md
+-rw-rw---- 1 root nogroup  1622990 Nov 13 01:44 La-Lucerna-VOL4-fr-es-web.pdf
+-rw-rw---- 1 root nogroup 17031624 Nov 13 01:44 La-Lucerna-VOL4-fr-es.pdf
+b4fb751d748268ab4aa2c1cddd52caec827b050a3bef6572bfc6eb836ea9865d  La-Lucerna
+ec297b7cee22ef22024a3b986150250a52c5513813a6ba4058398f0e2c6316b7  La-Lucerna
+53603c0693ecce198b4c66b3b2b1486c8562f94ec29804bd3f7e635c9be002c6  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-it 01:44:44 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-it/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-it/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-it-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-it/2026-w47-fr-it.text.md chars: 44553 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Venerdì 20 novembre　Festa dei bambini
+> 
+> samedi 21 novembre
+> 
+> Sabato 21 novembre　Semifinali di Torino + inizia la Settimana anti-spreco
+--- post shas 2026-w47-fr-it ---
+-rw-rw---- 1 root nogroup    46687 Nov 13 01:45 2026-w47-fr-it.text.md
+-rw-rw---- 1 root nogroup  1619307 Nov 13 01:45 La-Lucerna-VOL4-fr-it-web.pdf
+-rw-rw---- 1 root nogroup 17027966 Nov 13 01:45 La-Lucerna-VOL4-fr-it.pdf
+a8c23cf15874e861fdbc4ad00b4e43131ea953a2e817c26d9b7e796c3ac50bd6  La-Lucerna
+0e27ccb79bb9c4ef8bd9bb6efc3b3221daeaf224b557b24b2a5f988ab9d2fb88  La-Lucerna
+51f32dd4e288ba7c79f14411234fddb5542480adf5e569128c5b097133627dac  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-ja 01:45:43 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ja/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-ja/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-ja-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/2026-w47-fr-ja.text.md chars: 39677 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> 11月20日金曜日　子どもの日
+> 
+> samedi 21 novembre
+> 
+> 11月21日土曜日　トリノ準決勝＋ごみ減量週間初日
+--- post shas 2026-w47-fr-ja ---
+-rw-rw---- 1 root nogroup    47687 Nov 13 01:46 2026-w47-fr-ja.text.md
+-rw-rw---- 1 root nogroup  2021505 Nov 13 01:46 La-Lucerna-VOL4-fr-ja-web.pdf
+-rw-rw---- 1 root nogroup 20150788 Nov 13 01:46 La-Lucerna-VOL4-fr-ja.pdf
+40fa2fb8bd61497451148f9bedcd16b8b09e080c57f686de09f8078e290201ca  La-Lucerna
+4249702230de8a3448d51aad3fa69fb080087543439688e7b9f2fdcd29d734ef  La-Lucerna
+fdf935955f1e3d6e67f4a4b8b64f4091a016ce59a2ae25959b3bce9645a69573  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-ko 01:46:42 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ko/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-ko/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-ko-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ko/2026-w47-fr-ko.text.md chars: 40140 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> 11월 20일 금요일　어린이의 날
+> 
+> samedi 21 novembre
+> 
+> 11월 21일 토요일　토리노 준결승 + 쓰레기 줄이기 주간 첫날
+--- post shas 2026-w47-fr-ko ---
+-rw-rw---- 1 root nogroup    47510 Nov 13 01:47 2026-w47-fr-ko.text.md
+-rw-rw---- 1 root nogroup  1924132 Nov 13 01:47 La-Lucerna-VOL4-fr-ko-web.pdf
+-rw-rw---- 1 root nogroup 20086951 Nov 13 01:47 La-Lucerna-VOL4-fr-ko.pdf
+827e6bb2d43352e46f369ba89386dcd9d1fd83354e3206c96d162709483438e9  La-Lucerna
+00b0f37c9a4571da76e00cecce776ed05d06c42821567945290accfb0b9a3b9a  La-Lucerna
+b9e6af86a01eb23a1a4bf726d134f29fae80d43da83ff86df88ca079b62f601d  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-nl 01:47:41 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-nl/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-nl/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-nl-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-nl/2026-w47-fr-nl.text.md chars: 44364 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Vrijdag 20 november　Kinderdag
+> 
+> samedi 21 novembre
+> 
+> Zaterdag 21 november　Halve finales in Turijn + Anti-verspillingsweek begint
+--- post shas 2026-w47-fr-nl ---
+-rw-rw---- 1 root nogroup    46452 Nov 13 01:48 2026-w47-fr-nl.text.md
+-rw-rw---- 1 root nogroup  1621651 Nov 13 01:48 La-Lucerna-VOL4-fr-nl-web.pdf
+-rw-rw---- 1 root nogroup 17030275 Nov 13 01:48 La-Lucerna-VOL4-fr-nl.pdf
+bc360a39096c0120c43792c4f6180f666bb068b8e08022a23f9bac22ec24af8a  La-Lucerna
+408379aee3776fbfea9e814e32371d7b459abb3c1f157ee2f2f3e1861eab21c3  La-Lucerna
+c5ce799c2e4e99350e3286054029e4e05e4595bd300f873bd10d3baf5f9ec44f  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-pt 01:48:31 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-pt/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-pt/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-pt-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-pt/2026-w47-fr-pt.text.md chars: 44352 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> Sexta-feira 20 de novembro　Dia das Crianças
+> 
+> samedi 21 novembre
+> 
+> Sábado 21 de novembro　Semifinais de Turim + começa a Semana anti-desperdício
+--- post shas 2026-w47-fr-pt ---
+-rw-rw---- 1 root nogroup    46656 Nov 13 01:49 2026-w47-fr-pt.text.md
+-rw-rw---- 1 root nogroup  1623461 Nov 13 01:49 La-Lucerna-VOL4-fr-pt-web.pdf
+-rw-rw---- 1 root nogroup 17032129 Nov 13 01:49 La-Lucerna-VOL4-fr-pt.pdf
+6aee0967dcfc9e21725948c38fe2bdfbbbb1671f68168a70d2c7e10b936883df  La-Lucerna
+88ece6e886a9c1f3802e0fc06a1b871c35c42136aa424d830fce06cd1a7edba8  La-Lucerna
+b61fe3b3189dbc323b2837389480f10a2a89547e278ce5936426f9f8e1c674f2  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  64% /home/hatch
+===== 2026-w47-fr-zh-tw 01:49:30 =====
+gates rc=0 (detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-zh-tw/logs-fixfam1/)
+=== SUMMARY 2026-w47-fr-zh-tw/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr-family1/logs-2026-w47-fr-zh-tw-export.log)
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-zh-tw/2026-w47-fr-zh-tw.text.md chars: 39087 entries: 546 exercises: 150
+text.md diff lines: 13
+231c231
+< *Châtillon, dans le Beaujolais : les vignes d'automne, au-dessus des caves où dort le vin nouveau.*
+---
+> *Châtillon, dans le Beaujolais : le château au-dessus du village, au cœur du vignoble.*
+267a268,275
+> 
+> vendredi 20 novembre
+> 
+> 11月20日星期五　兒童節
+> 
+> samedi 21 novembre
+> 
+> 11月21日星期六　杜林準決賽＋減廢週首日
+--- post shas 2026-w47-fr-zh-tw ---
+-rw-rw---- 1 root nogroup    46129 Nov 13 01:50 2026-w47-fr-zh-tw.text.md
+-rw-rw---- 1 root nogroup  2077328 Nov 13 01:50 La-Lucerna-VOL4-fr-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup 18534108 Nov 13 01:49 La-Lucerna-VOL4-fr-zh-tw.pdf
+cb5588ff6fcc942c00983313d6b4db5a5751583b346988f57503f4834ec6ec46  La-Lucerna
+3f66ddae87f4d5c726b38d67dff27962761d04a1b02a15c7a3d802476a9e9875  La-Lucerna
+659dc0c5d5afbfbbfda0a2e36867329eaac648d765c39247d0a9e2dd9ee63ff7  2026-w47-f
+/dev/mapper/rv  150G   96G   54G  65% /home/hatch
+ALL DONE 01:50:30

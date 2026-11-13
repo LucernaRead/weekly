@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages=8 size=Rect(0.0, 0.0, 1462.5, 2025.0)
+== spans past page margins (print PDF) ==
+  P1 x1=1396.7 over=+0.2pt size=12.75 :: '2026'
+  P2 x1=1396.5 over=+0.0pt size=11.62 :: 'Foto: Canaletto — Wikimedia Commons, dominio pubblico'
+  P2 x1=1398.1 over=+1.6pt size=15.0 :: 'Una festa, una giornata verde'
+  P5 x1=1398.1 over=+1.6pt size=11.62 :: 'Foto: Jean-Baptiste-Camille Corot — Wikimedia Commons,'
+  P8 x1=1398.3 over=+1.8pt size=12.0 :: 'Testo modello: Domenica 22 novembre metto la sciarpa e'
+  P8 x1=1398.4 over=+1.9pt size=12.0 :: "vado a Cremona: è l'ultimo giorno della Festa del Torrone"
+== P2 matching spans ==
+  x0=1105.1 x1=1359.8 margin=+36.7pt :: 'a. mettere una pianta nella terra'
+  x0=1105.1 x1=1375.1 margin=+21.4pt :: 'b. il ponte di barche per la festa in'
+  x0=1105.1 x1=1356.4 margin=+40.1pt :: 'c. stare bene, la prima ricchezza'
+  x0=1105.1 x1=1367.6 margin=+28.9pt :: 'd. la piccola luce di cera accesa in'
+== P2 option-letter spans (full) ==
+  x0=1105.1 x1=1359.8 margin=+36.7pt :: 'a. mettere una pianta nella terra'
+  x0=1105.1 x1=1375.1 margin=+21.4pt :: 'b. il ponte di barche per la festa in'
+  x0=1105.1 x1=1356.4 margin=+40.1pt :: 'c. stare bene, la prima ricchezza'
+  x0=1105.1 x1=1367.6 margin=+28.9pt :: 'd. la piccola luce di cera accesa in'

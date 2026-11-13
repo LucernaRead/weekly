@@ -1,0 +1,38 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+page rect Rect(0.0, 0.0, 1462.5, 2025.0) content right edge pt 1396.5
+--- P1: spans past content edge: 3
+   x1=1397.9 over=1.4 | 'Answers on page 8'
+   x1=1397.4 over=0.9 | '2026'
+   x1=1397.3 over=0.8 | 'Page 1 of 8'
+    widest: [(1397.9, 'Answers on page 8'), (1397.4, '2026')]
+--- P2: spans past content edge: 4
+   x1=1406.3 over=9.8 | 'c. eten voor het paard van Sinterklaas'
+   x1=1398.6 over=2.1 | 'Which words belong to Pakjesavond?'
+   x1=1397.7 over=1.2 | 'Levels are mixed; find your number'
+   x1=1397.3 over=0.8 | 'Page 2 of 8'
+    widest: [(1406.3, 'c. eten voor het paard van Sinterklaas'), (1398.6, 'Which words belong to Pakjesavond?')]
+--- P3: spans past content edge: 2
+   x1=1397.7 over=1.2 | 'Levels are mixed; find your number'
+   x1=1397.3 over=0.8 | 'Page 3 of 8'
+    widest: [(1397.7, 'Levels are mixed; find your number'), (1397.3, 'Page 3 of 8')]
+--- P4: spans past content edge: 2
+   x1=1397.7 over=1.2 | 'Levels are mixed; find your number'
+   x1=1397.3 over=0.8 | 'Page 4 of 8'
+    widest: [(1397.7, 'Levels are mixed; find your number'), (1397.3, 'Page 4 of 8')]
+--- P5: spans past content edge: 2
+   x1=1397.7 over=1.2 | 'Levels are mixed; find your number'
+   x1=1397.3 over=0.8 | 'Page 5 of 8'
+    widest: [(1397.7, 'Levels are mixed; find your number'), (1397.3, 'Page 5 of 8')]
+--- P6: spans past content edge: 2
+   x1=1397.7 over=1.2 | 'Levels are mixed; find your number'
+   x1=1397.3 over=0.8 | 'Page 6 of 8'
+    widest: [(1397.7, 'Levels are mixed; find your number'), (1397.3, 'Page 6 of 8')]
+--- P7: spans past content edge: 1
+   x1=1397.3 over=0.8 | 'Page 7 of 8'
+    widest: [(1397.3, 'Page 7 of 8'), (1389.7, 'WORD OF THE WEEK')]
+--- P8: spans past content edge: 3
+   x1=1398.6 over=2.1 | '137. The Sinterklaas news is on every day at 18:00. — Compar'
+   x1=1397.3 over=0.8 | 'Page 8 of 8'
+   x1=1397.2 over=0.7 | '✓marks the writing task'
+    widest: [(1398.6, '137. The Sinterklaas news is on every day at 18:00'), (1397.3, 'Page 8 of 8')]

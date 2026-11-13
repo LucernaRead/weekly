@@ -1,0 +1,213 @@
+===== FIX3 ja-es 2026-11-12T19:46:40Z =====
+disk used: 95G
+disk used: 95G
+--- snapshot pre-fix fingerprints ---
+b65f033d7c6f20316ad97a3c79e3ba0c38cfbc9bda6442f57489874ad988e7cf  Lucerna-VOL4-JA-ES.pdf
+a2a294d10d62a820bbf5c1c68f0f92a623d628a9e8f50000f00ef9a1bf9bcdb3  Lucerna-VOL4-JA-ES-web.pdf
+014add82a97a0e19c623a2ad1a3bd4bbc6a098420aa20389474dac1521a73450  2026-w47-ja-es.text.md
+Lucerna-VOL4-JA-ES.pdf 25814012
+Lucerna-VOL4-JA-ES-web.pdf 4387650
+2026-w47-ja-es.text.md 46699
+pre-fix text.md 'tres torneos perdidos': 1 (expect 1); 'tres torneos de ausencia': 0 (expect 0)
+pre-fix py:
+1
+1
+--- snapshot pre-fix sources (base control + boxtitle backup) ---
+--- edit production sources ---
+content34.py replacements: 1 (0 = already fixed)
+post-edit py content34: old=0 (expect 0); new=1 (expect 1)
+--- base rebuild (pre-fix control) ---
+OUT rewritten in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/base: 0 file(s); production content*.py untouched
+base run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+BASELINE CLEAN: 8/8 SVG byte-identical to pre-fix delivered
+--- patched build ---
+OUT rewritten in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es: 0 file(s); production content*.py untouched
+patched run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+render RC=0
+card: p8-tesuto.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES.pdf 25814013
+webpdf RC=0
+  font LucernaUnifrakturMaguntia-Regular: 29572 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES-web.pdf: 4387651 bytes, 46938 text bytes
+43a26e56278f7b7cca4219c18ce508bdc2fe1662e99e2f91584e4ebcb71f09f2  Lucerna-VOL4-JA-ES-web.pdf
+74066b86992080d5de346594ec437f0686932daa2b68d2acc176925d1933bd53  Lucerna-VOL4-JA-ES.pdf
+-rw-rw---- 1 root nogroup  4387651 Nov 12 19:51 Lucerna-VOL4-JA-ES-web.pdf
+-rw-rw---- 1 root nogroup 25814013 Nov 12 19:50 Lucerna-VOL4-JA-ES.pdf
+--- text.md re-export (dry-run) + verify/restore ---
+re-export RC=0
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/dryrun.text.md 3404 lines slug=2026-w47-ja-es
+dry-run diff vs pre-fix text.md: 3783 diff lines (fragmentation, expected large post-D5)
+verify-reexport RC=0
+re-export agreement OK: dry-run == pre-fix text.md + fix only (norm lengths 22219 -> 22221)
+lines not verbatim in dry-run export: 590 (of 1359 non-empty lines)
+  DROPPED/FRAGMENTED: 'VOL.4\u3000第4号'
+  DROPPED/FRAGMENTED: '毎週、日本語で\u3000Semanal\u3000日本人が読んでいる日本語を読む'
+  DROPPED/FRAGMENTED: '2026年11月16日（月）〜22日（日）'
+  DROPPED/FRAGMENTED: '日本語版\u3000VOL.4\u3000酉の市\u3000新酒\u3000相撲\u3000紅葉'
+  DROPPED/FRAGMENTED: '日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で'
+  DROPPED/FRAGMENTED: '11月19日（木）は酉の市・二の酉とボジョレー解禁です。'
+  DROPPED/FRAGMENTED: 'Los dos yokozuna van 2–1\u3000Ver página 4'
+  DROPPED/FRAGMENTED: 'トップニュース\u3000Titular'
+  DROPPED/FRAGMENTED: '二の酉と新酒、19日の木よう日'
+  DROPPED/FRAGMENTED: '夜の浅草と、秋のワイン — 日本の11月の真ん中です'
+  DROPPED/FRAGMENTED: 'Lucerna編集部\u3000読むレベル：A2'
+  DROPPED/FRAGMENTED: '19日（木よう日）は、酉の市・二の'
+all dropped/fragmented lines recoverable from dry-run export (content present, only split)
+text.md pairwise check OK: 1 lines differ (lines [1276]), each only by the fix
+restoration OK: all 590 dropped/fragmented lines restored verbatim in final text.md
+PDF text-layer check: pre-fix missing 64 lines, post-fix missing 64 lines
+newly missing post-fix: 0; no longer missing: 0
+PDF text-layer regression check OK: no newly-missing lines
+fix lines in patched PDF: new 1 present, old 1 absent
+PDF text-layer check OK
+VERIFY-REEXPORT ALL OK
+final text.md diff vs pre-fix:
+1276c1276
+< 60. B — Hōshōryū vuelve tras tres torneos perdidos
+---
+> 60. B — Hōshōryū vuelve tras tres torneos de ausencia
+patched SVG cross-check (joined <text>): 'tres torneos de ausencia'=1 (expect 1), 'tres torneos perdidos'=0 (expect 0)
+############ GATES ja-es ############
+head_check RC=0
+HEAD CHECK PASS 0 defects
+census RC=0
+p8-tesuto.svg: els=848 news=579 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/svg/p8-tesuto.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 keys RC=0
+P8 answers 1-150: all present, no gaps, no duplicates
+freeze-baseline RC=0
+  OK  p7-kotoba.svg core 88d92c9e7faef0ab produced 88d92c9e7faef0ab
+  OK  p8-tesuto.svg core 4c6ebf46e849061a produced 4c6ebf46e849061a
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze-diff-vs-base RC=0
+p6: +0 strings / -0 strings; CJK core 1129 -> edition 1129; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p7: +0 strings / -0 strings; CJK core 1393 -> edition 1393; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p8: +1 strings / -1 strings; CJK core 1422 -> edition 1422; added CJK chars: 0 ; added Latin strings: 1 (unexpected 1)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 1 (unexpected 1)
+freeze-diff RC=0
+p6: +40 strings / -38 strings; CJK core 1212 -> edition 1129; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 29 (unexpected 29)
+p7: +78 strings / -133 strings; CJK core 1778 -> edition 1393; added CJK chars: 0 ; added Latin strings: 54 (unexpected 54)
+p8: +214 strings / -659 strings; CJK core 3013 -> edition 1422; added CJK chars: 7 {'ト': 1, '\u3000': 1, 'ー': 1, 'ノ': 1, 'ミ': 1, 'ネ': 1, '楽': 1}; added Latin strings: 185 (unexpected 185)
+TOTAL added CJK characters: 15
+TOTAL added Latin strings: 430 (unexpected 430)
+spill RC=0
+P7 box=(1439.5,1337.1,422.5,473.0) bottom=1810.1
+   ABOVE -24.51px x=1461.5 y=1312.6 [observe] 'kumade.'
+SPILL_SWEEP 2026-w47-ja-es: 35 boxes, 82 candidates, 0 SPILL, 82 OBSERVE
+boxtitle RC=0
+== 2026-w47-ja-es  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-es
+BOXTITLE 2026-w47-ja-es: 37 titles, 503 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-es: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+p8-tesuto.svg: els 848->848 lines 248->248 diff 1 moved 0 defects 0 observe 0
+ratios: n=178 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-tesuto.svg: lines 248->248 slack_footer 64.2->64.2
+CREAMBOX PASS 0 defects
+--- text layer: print vs web + patched vs pre-fix delivered web ---
+textlayer RC=0
+patched print: 27222 chars; patched web: 27222 chars; delivered web: 27219 chars
+print-vs-web multiset diff: +0 -0 IDENTICAL
+patched-vs-delivered multiset diff: +6 -4 {'e': 1, 'a': 2, 'n': 1, 'u': 1, 'c': 1}
+BYTE-IDENTICAL print-vs-web pdftotext (46938 vs 46938 bytes)
+--- PDF pages + P8 min fontsize ---
+pages RC=0
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print PDF pages: 8
+P8 min fontsize: 9.975pt
+web PDF pages: 8
+PAGES+SIZE OK
+--- U+201C/U+201D census (must be 0) ---
+svg U+201C: 0 (expect 0)
+svg U+201D: 0 (expect 0)
+text.md U+201C: 0 (expect 0)
+text.md U+201D: 0 (expect 0)
+U+201C/U+201D census: 0
+--- PDF text counts for fix strings ---
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES.pdf new-form occurrences: 1
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES.pdf old-form occurrences: 0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES-web.pdf new-form occurrences: 1
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es/2026-w47-ja-es/Lucerna-VOL4-JA-ES-web.pdf old-form occurrences: 0
+PDF text totals: new=2 old=0 (expect new=2 old=0 across print+web)
+36
+--- final cross-check on patched text.md ---
+text.md 'tres torneos de ausencia' lines: 1276 (expect 1276)
+text.md 'tres torneos perdidos' occurrences: 0 (expect 0)
+FINAL-CHECK OK ja-es
+GATES ja-es DONE
+--- sync to production ---
+disk used: 95G
+disk used: 95G
+43a26e56278f7b7cca4219c18ce508bdc2fe1662e99e2f91584e4ebcb71f09f2  Lucerna-VOL4-JA-ES-web.pdf
+74066b86992080d5de346594ec437f0686932daa2b68d2acc176925d1933bd53  Lucerna-VOL4-JA-ES.pdf
+d8e0c3018361cdce75084706e6857e642822992ecab8ac55f5865b861091ebb0  2026-w47-ja-es.text.md
+Lucerna-VOL4-JA-ES-web.pdf 4387651
+Lucerna-VOL4-JA-ES.pdf 25814013
+2026-w47-ja-es.text.md 46702
+freeze-prod RC=0
+  OK  p7-kotoba.svg core 88d92c9e7faef0ab produced 88d92c9e7faef0ab
+  OK  p8-tesuto.svg core 4c6ebf46e849061a produced 4c6ebf46e849061a
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+census-synced RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes-synced RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+--- post-sync production content grep ---
+prod text.md 'tres torneos de ausencia': 1 (expect 1, L1276)
+prod text.md 'tres torneos perdidos': 0 (expect 0)
+prod svg 'tres torneos de ausencia': 1 (expect 1)
+--- KIT update ---
+kit update RC=0
+--- synced fingerprints ---
+43a26e56278f7b7cca4219c18ce508bdc2fe1662e99e2f91584e4ebcb71f09f2  Lucerna-VOL4-JA-ES-web.pdf
+74066b86992080d5de346594ec437f0686932daa2b68d2acc176925d1933bd53  Lucerna-VOL4-JA-ES.pdf
+d8e0c3018361cdce75084706e6857e642822992ecab8ac55f5865b861091ebb0  2026-w47-ja-es.text.md
+Lucerna-VOL4-JA-ES-web.pdf 4387651
+Lucerna-VOL4-JA-ES.pdf 25814013
+2026-w47-ja-es.text.md 46702
+
+--- pre-fix fingerprints ---
+b65f033d7c6f20316ad97a3c79e3ba0c38cfbc9bda6442f57489874ad988e7cf  Lucerna-VOL4-JA-ES.pdf
+a2a294d10d62a820bbf5c1c68f0f92a623d628a9e8f50000f00ef9a1bf9bcdb3  Lucerna-VOL4-JA-ES-web.pdf
+014add82a97a0e19c623a2ad1a3bd4bbc6a098420aa20389474dac1521a73450  2026-w47-ja-es.text.md
+Lucerna-VOL4-JA-ES.pdf 25814012
+Lucerna-VOL4-JA-ES-web.pdf 4387650
+2026-w47-ja-es.text.md 46699
+
+updated Text bytes in §8 head: 46,702
+updated Print sha in §8 head: 74066b869920
+updated Web sha in §8 head: 43a26e56278f
+SVG changed vs pre-fix: ['p8-tesuto.svg']
+SVG unchanged: ['p1-hyoushi.svg', 'p2-kurashi.svg', 'p3-bunka.svg', 'p4-supotsu.svg', 'p5-wakamono.svg', 'p6-fukayomi.svg', 'p7-kotoba.svg']
+KIT updated: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-es/WEEKLY-KIT.md
+print Lucerna-VOL4-JA-ES.pdf 25814013 74066b869920
+web Lucerna-VOL4-JA-ES-web.pdf 4387651 43a26e56278f
+text 2026-w47-ja-es.text.md 46702 d8e0c3018361
+--- clean scratch build copies ---
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+4.7M	/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix3-w47-ja/ja-es
+===== FIX3 ja-es COMPLETE 2026-11-12T19:56:06Z =====

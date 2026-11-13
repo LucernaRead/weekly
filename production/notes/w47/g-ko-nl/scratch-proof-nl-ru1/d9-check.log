@@ -1,0 +1,14 @@
+text.md:415: 140. [B2 · Перевод] Я делаю сюрприз с небольшим стихотворением. → ___ — Ответ： Ik maak een surprise met een kort gedicht.（surprise (фикс.)） [Переведите на голландский]
+text.md lines with 'небольшим стихотворением': [415]
+text.md lines with 'kort gedicht': [415]
+P8 SVG kort node: x=1439.5 y=2173.6400000000012 size=13.5 '140. Ik maak een surprise met een kort gedicht. — surprise ('
+P8 SVG y=2173.64 node: x=1439.5 '140. Ik maak een surprise met een kort gedicht. — surprise ('
+P8 SVG y=2173.64 node: x=1808.5 'фикс'
+P8 SVG y=2173.64 node: x=1843.9 '.)'
+P8 checkmark nodes: [('1470.1', '2470.24')]
+Tekstmodel line 431 words: 81
+Tekstmodel: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedicht voor mijn surprise. Zaterdag kijk ik naar NEC – PSV. Zondag zet ik mijn schoen met een wortel en een verlanglijstje. Zondagavond kijk ik naar Expeditie Robinson. Daarna is het bijna pakjesavond, op zaterdag 5 december. Ik hoop op een boek. Wat een week vol voetbal en licht!
+REG Q140: {"n": 140, "page": 8, "level": "B2", "type": "Перевод", "key": "Ik maak een surprise met een kort gedicht.", "note": "surprise (фикс.)"}
+REG Q150: {"n": 150, "page": 8, "level": "B1", "type": "Сочинение", "key": "(открытое задание, образцовый текст ниже)", "note": "Образцовый текст см. в разделе H (81 слов)"}
+content8.py:75: f.ex("B2", "Перевод", "Ik maak een surprise met een kort gedicht.", "surprise (фикс.)",
+content8.py:76:      "Я делаю сюрприз с небольшим стихотворением. → ___", instr="Переведите на голландский", size=13.8, gap=0)

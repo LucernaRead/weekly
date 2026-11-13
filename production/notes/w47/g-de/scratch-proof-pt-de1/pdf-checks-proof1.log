@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print pages: 8 web pages: 8
+P1 masthead subtitle y330 + tagline y372: 200dpi rightmost ink x=3787px = 1363.3pt = 1817.8 SVG units (content edge 1862, frame 1910)
+P2 schedule title y1594: 200dpi rightmost ink x=3885px = 1398.6pt = 1864.8 SVG units (content edge 1862, frame 1910)
+P8 min font spans (print PDF): [(9.75, ' →'), (9.75, ' ✓'), (9.75, '1. consciência — consciência = Bewusstse'), (9.75, '10. B — Die offiziellen Lösungen kommen '), (9.75, '100. chute — chute = ein Tipp ins Blaue'), (9.75, '101. em — em + Datum: em 20 de novembro'), (9.75, '102. numa — cair numa sexta-feira:fällt '), (9.75, '103. é — ser, Gegenwart, ele-Form: é')]
+P8 span count: 396
+all-pages smallest spans: [(9.75, 8, ' →'), (9.75, 8, ' ✓'), (9.75, 8, '1. consciência — consciência ='), (9.75, 8, '10. B — Die offiziellen Lösung'), (9.75, 8, '100. chute — chute = ein Tipp ')]
+print text bytes: 47015 web text bytes: 47015
+word-multiset diff: 0 (identical)
+print words: 8436 web words: 8436
+print U+201C: 2 U+201D: 2 U+2019: 0 U+00AB: 40 U+00BB: 40
+web U+201C: 2 U+201D: 2 U+2019: 0 U+00AB: 40 U+00BB: 40

@@ -1,0 +1,11 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +214 strings / -39 strings; CJK core 197 -> edition 20; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 15 (unexpected 15)
+p2: +189 strings / -29 strings; CJK core 191 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 17 (unexpected 17)
+p3: +171 strings / -30 strings; CJK core 180 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 15 (unexpected 15)
+p4: +153 strings / -26 strings; CJK core 162 -> edition 17; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 14 (unexpected 14)
+p5: +222 strings / -40 strings; CJK core 227 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 18 (unexpected 18)
+p6: +166 strings / -25 strings; CJK core 167 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 19 (unexpected 19)
+p7: +302 strings / -40 strings; CJK core 304 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 32 (unexpected 32)
+p8: +1013 strings / -402 strings; CJK core 1015 -> edition 22; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 93 (unexpected 93)
+TOTAL added CJK characters: 8
+TOTAL added Latin strings: 223 (unexpected 223)

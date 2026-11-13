@@ -1,0 +1,112 @@
+===== C1 pdf_render_titles (NEW print render)
+== p1-capa.svg
+  box x=989..1412 title y=823.2 pdf-ink-right=1400 clear=+12 | 'A SEMANA EM NÚMEROS\u3000En cifras'
+  box x=1440..1862 title y=628.0 pdf-ink-right=1730 clear=+132 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title y=1278.4 pdf-ink-right=1840 clear=+22 | 'NESTA EDIÇÃO\u3000En este número'
+  box x=1440..1862 title y=1914.0 pdf-ink-right=1848 clear=+14 | 'EM POUCAS PALAVRAS\u3000EN BREVE'
+== p2-vida.svg
+  box x=538..961 title y=642.0 pdf-ink-right=863 clear=+98 | 'PARA NÃO ERRAR\u3000La regla'
+  box x=538..961 title y=896.5 pdf-ink-right=937 clear=+24 | 'Nota — o feriadão tres días de fiesta · a'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1610 clear=+252 | 'VOCÊ SABIA?'
+  box x=1440..1862 title y=587.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+  box x=88..510 title y=1658.0 pdf-ink-right=407 clear=+104 | 'o feriado começa'
+  box x=538..961 title y=1658.0 pdf-ink-right=939 clear=+22 | 'Palmeiras × Flamengo, às'
+  box x=989..1412 title y=1658.0 pdf-ink-right=1309 clear=+102 | 'o fim do feriadão'
+  box x=1440..1862 title y=1658.0 pdf-ink-right=1797 clear=+65 | 'tudo volta ao normal'
+== p3-cultura.svg
+  box x=538..961 title y=238.5 pdf-ink-right=869 clear=+92 | 'Nota — o quilombo un pueblo de'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1701 clear=+161 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title y=619.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+  box x=1440..1862 title y=948.0 pdf-ink-right=1716 clear=+146 | 'PALAVRAS DA MEMÓRIA'
+== p4-esporte.svg
+  box x=989..1412 title y=309.0 pdf-ink-right=1371 clear=+40 | 'Nota — o agregado el marcador global'
+  box x=1440..1862 title y=240.0 pdf-ink-right=1629 clear=+233 | 'OS FINALISTAS'
+  box x=1440..1862 title y=644.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+== p5-jovens.svg
+  box x=538..961 title y=237.0 pdf-ink-right=787 clear=+174 | 'O PLANO DA ESPERA'
+  box x=538..961 title y=872.9 pdf-ink-right=891 clear=+70 | 'Nota — o gabarito la clave · oficial'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1760 clear=+102 | 'OS JOVENS EM NÚMEROS'
+  box x=1440..1862 title y=581.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+== p6-aprofundamento.svg
+  box x=538..961 title y=381.9 pdf-ink-right=925 clear=+36 | 'Nota — o prazo el plazo · o dia útil día'
+  box x=1440..1862 title y=240.0 pdf-ink-right=1771 clear=+91 | 'O CAMINHO ATÉ O GABARITO'
+  box x=1440..1862 title y=908.0 pdf-ink-right=1669 clear=+193 | 'LER OS NÚMEROS'
+  box x=88..961 title y=1634.0 pdf-ink-right=456 clear=+505 | 'A CONTAGEM\u3000do dia 16 ao dia 30'
+  box x=989..1862 title y=1634.0 pdf-ink-right=1313 clear=+549 | 'DOIS GABARITOS\u3000um exame'
+== p7-lingua.svg
+  box x=1440..1862 title y=242.0 pdf-ink-right=1750 clear=+112 | 'ERROS COMUNS\u3000Errores'
+  box x=1440..1862 title y=1229.0 pdf-ink-right=1724 clear=+138 | 'A PALAVRA\u3000La palabra'
+  box x=1440..1862 title y=1525.0 pdf-ink-right=1719 clear=+143 | 'CARTAS DOS LEITORES'
+== p8-avaliacao.svg
+PDF-RENDER TITLE OVERFLOWS: 0
+D1 P1 EM-BREVE bottom 2348: last ink row <= bottom: 2331; dark rows below bottom: {2349: 422, 2350: 422, 2369: 2, 2370: 4, 2371: 17, 2372: 26, 2373: 15, 2374: 13, 2375: 166, 2376: 214, 2377: 112, 2378: 113, 2379: 132, 2380: 177, 2381: 113, 2382: 105, 2383: 112, 2384: 179, 2385: 192, 2386: 10, 2387: 10, 2388: 10, 2389: 13, 2390: 8}
+D2 P3 schedule bottom 551: last ink row <= bottom: 539; dark rows below bottom: {}
+D3 P6 timeline bottom 854: last ink row <= bottom: 844; dark rows below bottom: {}
+DONE
+===== C2 card_probe2 (NEW cards)
+== D1 P1 EM-BREVE box bottom 2348; dark px per row, y 2320..2400, x 1440..1862
+{2320: 77, 2321: 84, 2322: 78, 2323: 64, 2324: 66, 2325: 73, 2326: 127, 2327: 105, 2328: 8, 2329: 7, 2330: 5, 2331: 9, 2332: 5, 2349: 422, 2350: 422, 2369: 1, 2370: 4, 2371: 19, 2372: 29, 2373: 17, 2374: 16, 2375: 187, 2376: 249, 2377: 121, 2378: 116, 2379: 128, 2380: 180, 2381: 115, 2382: 109, 2383: 123, 2384: 243, 2385: 177, 2386: 11, 2387: 9, 2388: 9, 2389: 13, 2390: 12}
+== P1 EN BREVE title: dark px per column, x 1850..1875, y 1892..1918
+{}
+   same columns, thr=245 (any non-white): {1858: 27, 1859: 27, 1860: 27, 1861: 27}
+== D2 P3 schedule box bottom 551; dark px per row, y 530..580, x 1440..1862
+{530: 14, 531: 22, 532: 31, 533: 26, 534: 21, 535: 20, 536: 17, 537: 20, 538: 25, 539: 39, 540: 36}
+== D3 P6 timeline box bottom 854; dark px per row, y 830..880, x 1440..1862
+{830: 27, 831: 130, 832: 113, 833: 90, 834: 89, 835: 86, 836: 82, 837: 80, 838: 82, 839: 134, 840: 128, 841: 8, 842: 8, 843: 7, 844: 12, 845: 12}
+== P5 E VOCE box bottom 811.5; dark px per row, y 795..850, x 1440..1862
+{795: 43, 796: 101, 797: 76, 798: 52, 799: 55, 800: 83, 801: 81, 802: 53, 803: 51, 804: 74, 805: 98, 806: 34, 807: 2, 808: 2, 809: 3, 810: 4, 811: 1, 837: 396, 838: 396, 839: 396, 840: 396, 841: 397, 842: 397, 843: 396, 844: 397, 845: 396, 846: 396, 847: 391, 848: 381, 849: 368, 850: 347}
+== P8 model-text SVG lines (x, y, size, text):
+   x=88 y=1415.9 fs=13.0 '2. feriado — feriado = día festivo'
+   x=88 y=1443.9 fs=13.0 '3. sexta — sexta = viernes'
+   x=88 y=1472.0 fs=13.0 '4. três — Tres días de fiesta: 20, 21 y 22'
+   x=88 y=1500.0 fs=13.0 '5. 6 — La final es el 6 de diciembre'
+   x=88 y=1528.1 fs=13.0 '6. decidem — decidir, presente, forma de eles: decidem'
+   x=88 y=1556.2 fs=13.0 '7. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   x=88 y=1584.2 fs=13.0 '8. B — En 2026, el 20 de noviembre es viernes'
+   x=88 y=1612.3 fs=13.0 '9. C — La final: el Grêmio × Palmeiras'
+   x=88 y=1640.3 fs=13.0 '10. B — La clave oficial se publica antes de finales de noviembre'
+   x=88 y=1669.4 fs=14.0 '— PÁGINA 2 —'
+   x=88 y=1700.6 fs=13.0 '11. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   x=88 y=1728.7 fs=13.0 '12. B — En 2026, el 20 de noviembre es viernes'
+   x=88 y=1756.8 fs=13.0 '13. B — Tres días de fiesta: 20, 21 y 22'
+   x=88 y=1784.8 fs=13.0 '14. B — Los autobuses pueden pasar con menos frecuencia el día'
+   x=88 y=1799.4 fs=13.0 'festivo'
+   x=88 y=1827.4 fs=13.0 '15. B — El Black Friday es el 27 de noviembre'
+== P8 model-text card rightmost-dark per line (band = baseline-24..baseline+8):
+   y=1415.9 rightmost=1833 clear vs 1862: 29 | '2. feriado — feriado = día festivo'
+   y=1443.9 rightmost=1790 clear vs 1862: 72 | '3. sexta — sexta = viernes'
+   y=1472.0 rightmost=1855 clear vs 1862: 7 | '4. três — Tres días de fiesta: 20, 21 y 22'
+   y=1500.0 rightmost=1856 clear vs 1862: 6 | '5. 6 — La final es el 6 de diciembre'
+   y=1528.1 rightmost=1721 clear vs 1862: 141 | '6. decidem — decidir, presente, forma de eles: decidem'
+   y=1556.2 rightmost=1740 clear vs 1862: 122 | '7. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1584.2 rightmost=1812 clear vs 1862: 50 | '8. B — En 2026, el 20 de noviembre es viernes'
+   y=1612.3 rightmost=1820 clear vs 1862: 42 | '9. C — La final: el Grêmio × Palmeiras'
+   y=1640.3 rightmost=1820 clear vs 1862: 42 | '10. B — La clave oficial se publica antes de finales de novi'
+   y=1669.4 rightmost=1788 clear vs 1862: 74 | '— PÁGINA 2 —'
+   y=1700.6 rightmost=1662 clear vs 1862: 200 | '11. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1728.7 rightmost=1712 clear vs 1862: 150 | '12. B — En 2026, el 20 de noviembre es viernes'
+   y=1756.8 rightmost=1722 clear vs 1862: 140 | '13. B — Tres días de fiesta: 20, 21 y 22'
+   y=1784.8 rightmost=1721 clear vs 1862: 141 | '14. B — Los autobuses pueden pasar con menos frecuencia el d'
+   y=1799.4 rightmost=1703 clear vs 1862: 159 | 'festivo'
+   y=1827.4 rightmost=1832 clear vs 1862: 30 | '15. B — El Black Friday es el 27 de noviembre'
+DONE
+===== C3 d7_pdf (NEW print render)
+== D7 P8 model-text PDF-RENDER rightmost-dark per line:
+   y=1415.9 rightmost=1827 clear=+35 | '2. feriado — feriado = día festivo'
+   y=1443.9 rightmost=1785 clear=+77 | '3. sexta — sexta = viernes'
+   y=1472.0 rightmost=1852 clear=+10 | '4. três — Tres días de fiesta: 20, 21 y 22'
+   y=1500.0 rightmost=1853 clear=+9 | '5. 6 — La final es el 6 de diciembre'
+   y=1528.1 rightmost=1719 clear=+143 | '6. decidem — decidir, presente, forma de eles: decidem'
+   y=1556.2 rightmost=1737 clear=+125 | '7. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1584.2 rightmost=1809 clear=+53 | '8. B — En 2026, el 20 de noviembre es viernes'
+   y=1612.3 rightmost=1815 clear=+47 | '9. C — La final: el Grêmio × Palmeiras'
+   y=1640.3 rightmost=1815 clear=+47 | '10. B — La clave oficial se publica antes de finales de novi'
+   y=1669.4 rightmost=1781 clear=+81 | '— PÁGINA 2 —'
+   y=1700.6 rightmost=1658 clear=+204 | '11. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1728.7 rightmost=1708 clear=+154 | '12. B — En 2026, el 20 de noviembre es viernes'
+   y=1756.8 rightmost=1717 clear=+145 | '13. B — Tres días de fiesta: 20, 21 y 22'
+   y=1784.8 rightmost=1716 clear=+146 | '14. B — Los autobuses pueden pasar con menos frecuencia el d'
+   y=1799.4 rightmost=1698 clear=+164 | 'festivo'
+   y=1827.4 rightmost=1826 clear=+36 | '15. B — El Black Friday es el 27 de noviembre'
+D7 PDF-RENDER: worst clear=+9 (rightmost 1853 at y=1500.0)
+DONE

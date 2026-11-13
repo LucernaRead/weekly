@@ -1,0 +1,58 @@
+===== stage2 re-gates core-zh-tw 2026-11-12T08:26:05Z =====
+/dev/mapper/rv  150G   92G   58G  62% /home/hatch
+TOTAL 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/Lucerna-VOL4-web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-zh-tw/scratch-fanout-zh-tw/backup/core-zh-tw/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+freeze baseline RC=0
+  OK  p8-test.svg core a30d457c2e7496f8 produced a30d457c2e7496f8
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff vs BASE RC=0
+p7: +67 strings / -19 strings; CJK core 822 -> edition 822; added CJK chars: 0 ; added Latin strings: 22 (unexpected 22)
+p8: +343 strings / -82 strings; CJK core 1114 -> edition 1114; added CJK chars: 0 ; added Latin strings: 105 (unexpected 105)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 243 (unexpected 243)
+added CJK vs base (excl U+3000): {}
+spill RC=0
+   ABOVE -24.45px x=1461.5 y=1189.7 [observe] 'Make your own sentence with it.'
+SPILL_SWEEP core-zh-tw: 36 boxes, 131 candidates, 0 SPILL, 131 OBSERVE
+boxtitle RC=0
+== core-zh-tw  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-zh-tw/scratch-fanout-zh-tw/backup/core-zh-tw
+BOXTITLE core-zh-tw: 48 titles, 659 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+EDGE_SCAN core-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=523 median=1.007 boldT=1.04 boldF=1.001
+P8 p8-test.svg: lines 123->123 slack_footer 37.3->37.3
+CREAMBOX PASS 0 defects
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes census RC=0 (0 = 0 defects)
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+332ed38d5cd20b125f5246055c987743f1081c1b72d49b165dabf23044a6e3c8  /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/Lucerna-VOL4.pdf
+8fa6efdf1bdcf0c187c988b0d32c5dbdcca6438a3a977729231467d8316b30b8  /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/Lucerna-VOL4-web.pdf
+1897929 /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/Lucerna-VOL4-web.pdf
+11194932 /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/Lucerna-VOL4.pdf
+textcheck RC=0
+post-print chars=23960 post-web chars=23960 pre-print chars=23960
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+P8 lines/slack: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 646, 'last_baselines': [2513.6, 2513.6, 2528.2, 2542.2, 2542.2, 2556.7], 'last_strings': ['38. 鹽埕 — Yancheng is one of the festival', '117. A — Xiaoxue is Nov 22.', '78. A — Nov 17-22 inclusive is 6 days.', '39. 默片 — Early films were black-and-whit', '118. A — Kenny G closes the jazz festiva', '79. a — 市集 — a market.'], 'max_ink_bottom': 2558.7, 'slack_to_footer_rule_2596': 37.3, 'slack_to_page_bottom_2700': 141.3}, 'patch': {'n_flow_elements': 899, 'last_baselines': [2542.2, 2542.2, 2556.7, 2556.7, 2556.7, 2556.7], 'last_strings': ['— Early films were black-and-white and s', '118. A — Kenny G closes the jazz festiva', '79. a — ', '市集', ' ', '— a market.'], 'max_ink_bottom': 2558.7, 'slack_to_footer_rule_2596': 37.3, 'slack_to_page_bottom_2700': 141.3}, 'lines_base': 123, 'lines_patch': 123}
+OVERALL: ALL-GREEN

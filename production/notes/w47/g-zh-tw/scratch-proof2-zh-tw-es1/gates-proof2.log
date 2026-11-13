@@ -1,0 +1,184 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+{
+ "lang": "es",
+ "tag": "proof2",
+ "edition": "2026-w47-zh-tw-es",
+ "gates": {
+  "checks": {
+   "rc": 0,
+   "pass": true,
+   "tail": [
+    "CHART p4 [90.0, 450.0, 900.0] expect [90.0, 450.0, 900.0]",
+    "CHART p6 dots [188.0, 695.21, 948.82, 1033.36, 1202.43] expect [188.0, 695.21, 948.82, 1033.36, 1202.43]",
+    "CHECKS PASS"
+   ]
+  },
+  "occlusion": {
+   "selftest_rc": 0,
+   "flags": 0,
+   "rc": 0
+  },
+  "p8": {
+   "extract_noted": 150,
+   "compare": "CLEAN",
+   "keydiff": [],
+   "missing": [],
+   "extra": []
+  },
+  "creambox_canonical": {
+   "boxes": 36,
+   "negative_inside_clearances": [],
+   "p7_min_inside_clearance": 12.5,
+   "min_inside_clearance_by_page": {
+    "p1-front.svg": 18.8,
+    "p2-life.svg": 15.8,
+    "p3-culture.svg": 15.8,
+    "p4-sport.svg": 9.8,
+    "p5-youth.svg": 6.4,
+    "p6-deep.svg": 19.9,
+    "p7-lang.svg": 12.5
+   },
+   "p7_toolbox_clearances": [
+    [
+     40.5,
+     "hora: 12 veces, de 17:30 a 23:00."
+    ],
+    [
+     12.5,
+     "más Y. Crea tu propia frase con ella."
+    ],
+    [
+     14.0,
+     "abierta."
+    ]
+   ],
+   "rc": 0
+  },
+  "boxtitle": {
+   "boxes": "36",
+   "overruns": 0,
+   "min_right_margin": 9.8,
+   "rc": 0
+  },
+  "creambox_pil": {
+   "straddle": 4,
+   "cream_cover": 0,
+   "p7_min_clearance": 8.0,
+   "rc": 0
+  },
+  "text_layer": {
+   "print_bytes": 108948,
+   "web_bytes": 108948,
+   "multiset_diff_chars": 0,
+   "print_only": 0,
+   "web_only": 0,
+   "counts_print": {
+    "本週日": 11,
+    "下週日": 0,
+    "BABYMONSTER": 0,
+    "取捨": 2,
+    "end point": 0,
+    "小雪": 36
+   },
+   "counts_web": {
+    "本週日": 11,
+    "下週日": 0,
+    "BABYMONSTER": 0,
+    "取捨": 2,
+    "end point": 0,
+    "小雪": 36
+   }
+  },
+  "pdf": {
+   "print": {
+    "pages": 8,
+    "size_pt": [
+     1462.5,
+     2025.0
+    ],
+    "p8_min_pt": 9.75,
+    "p8_max_pt": 34.5,
+    "bytes": 23256381
+   },
+   "web": {
+    "pages": 8,
+    "size_pt": [
+     1462.5,
+     2025.0
+    ],
+    "p8_min_pt": 9.75,
+    "p8_max_pt": 34.5,
+    "bytes": 2529735
+   },
+   "p1_top_sizes": [
+    147.0,
+    45.0,
+    27.0,
+    24.0
+   ]
+  },
+  "keycheck": {
+   "fillin_total": 54,
+   "fillin_missing_lines": [],
+   "keys_continuous_1_150": true,
+   "keys_found": 150
+  },
+  "leak_scan": {
+   "deny_hits": {},
+   "shared_ascii_long": [
+    "A. 12:00 · B. 14:00 · C. 19:00"
+   ]
+  },
+  "abutting": {
+   "p6_1830_1900_ink_gap_px": 0.6,
+   "label1_box": [
+    906.8,
+    955.8,
+    990.8,
+    977.5
+   ],
+   "label2_box": [
+    991.4,
+    955.8,
+    1075.4,
+    976.2
+   ]
+  },
+  "freeze": {
+   "match": "8/8",
+   "rc": 0,
+   "log_tail": [
+    "  OK  p8-test.svg core 28cf028d80a39569 produced 28cf028d80a39569",
+    "core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)"
+   ]
+  }
+ },
+ "files": {
+  "print_pdf": {
+   "name": "Lucerna-VOL4-ES.pdf",
+   "bytes": 23256381,
+   "sha256": "e32c58c489ebb9a79e2d9c6029c3c0c23931c8bcbaea631144489daef3454a2c"
+  },
+  "web_pdf": {
+   "name": "Lucerna-VOL4-ES-web.pdf",
+   "bytes": 2529735,
+   "sha256": "fb90e8270f4bfba8a517c8f81a95dc3814b0d3fd0fa5287d12aceb76767e5b6e"
+  },
+  "text_md": {
+   "name": "2026-w47-zh-tw-es.text.md",
+   "bytes": 52246,
+   "sha256": "59439c7db9e176b8bb6138fafde56e0ee6f720460659a0277d2ed8c42bffc778"
+  },
+  "svg_sha256": {
+   "p1-front.svg": "533a0cb54a395a1a2af4de0fe446a4e76b7adfbbb5baa33244ca0c897d108ee9",
+   "p2-life.svg": "19ea4f694e8099be0fb87633b7263c1e8376cf09a30838504623b0138232c68c",
+   "p3-culture.svg": "b613791e8f29044b8a5c98e794e4b4318abfcc69ef22256bac1de9b9d518296a",
+   "p4-sport.svg": "e49c7e267e3fdfc1ef586d3ad8ad7eac4667633b8e1615dc3a8a05ea110c655b",
+   "p5-youth.svg": "173c11df24addb531a3a865b49b01d8690f33f2da747af436a113f09e210887b",
+   "p6-deep.svg": "2a29e63662ab407580837bfe6c22c71ac11dc5d2b1330e4d0f79045863e22f01",
+   "p7-lang.svg": "e322fa9c418a31f6ba0ae087288e0f802e6b23c495151bc7a20915e30d6ff9ea",
+   "p8-test.svg": "28cf028d80a395691a3a5881011b5100acdb1b3463bb3e1230a566c3dec23c15"
+  }
+ }
+}

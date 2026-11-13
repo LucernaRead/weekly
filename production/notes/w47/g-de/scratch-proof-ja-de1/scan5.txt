@@ -1,0 +1,10 @@
+page : de stems | core stems | equal?
+p1: de n=4 [1, 2, 3, 4]...[2, 3, 4] | core n=4 | equal=True missing-de=[] extra-de=[]
+p2: de n=4 [25, 26, 27, 28]...[26, 27, 28] | core n=4 | equal=True missing-de=[] extra-de=[]
+p3: de n=4 [43, 44, 45, 46]...[44, 45, 46] | core n=4 | equal=True missing-de=[] extra-de=[]
+p4: de n=0 []...[] | core n=0 | equal=True missing-de=[] extra-de=[]
+p5: de n=0 []...[] | core n=0 | equal=True missing-de=[] extra-de=[]
+p6: de n=0 []...[] | core n=0 | equal=True missing-de=[] extra-de=[]
+p7: de n=0 []...[] | core n=0 | equal=True missing-de=[] extra-de=[]
+de P8 numbered lines: 154 range: (1, 150) unique: 150 missing: []
+core P8 numbered lines: 154 range: (1, 150) unique: 150 missing: []

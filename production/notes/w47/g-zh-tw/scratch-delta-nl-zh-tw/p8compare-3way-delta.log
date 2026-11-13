@@ -1,0 +1,3 @@
+3-way MATCH: 149/149 (excluding Q150 exception); DIFF=[] MISSING=[]
+Q140: {"n": 140, "level": "B2", "type": "翻譯", "page": 8, "reg_key": "Ik maak een surprise met een kort gedicht.", "reg_note": "surprise 是固定搭配", "md_answer": "Ik maak een surprise met een kort gedicht.", "p8_key": "Ik maak een surprise met een kort gedicht.", "verdict": "MATCH"}
+Q150: {"n": 150, "level": "B1", "type": "寫作", "page": 8, "reg_key": "（開放題，範文見下）", "reg_note": "範文見 H 部分（81 詞）", "md_answer": null, "p8_key": "✓", "verdict": "EXCEPTION-OPEN-WRITING", "note": "P8 key is '✓'; text.md carries Tekstmodel (81 words) instead of a key; REG key is the open-writing placeholder"}

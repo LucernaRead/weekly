@@ -1,0 +1,42 @@
+CJK text.md: non-U+3000=6 ['｜', '｜', '｜', '｜', '｜'] U+3000=0
+CJK ABSTRACT: non-U+3000=0 [] U+3000=0
+CJK p1-capa: non-U+3000=1 ['｜'] U+3000=20
+CJK p2-vida: non-U+3000=0 [] U+3000=17
+CJK p3-cultura: non-U+3000=0 [] U+3000=13
+CJK p4-esporte: non-U+3000=0 [] U+3000=15
+CJK p5-jovens: non-U+3000=0 [] U+3000=14
+CJK p6-aprofundamento: non-U+3000=0 [] U+3000=16
+CJK p7-lingua: non-U+3000=0 [] U+3000=13
+CJK p8-avaliacao: non-U+3000=0 [] U+3000=15
+quotes text.md: straight-dquote=0 open-curly=2 close-curly=2 straight-apos=22 U+2019=0
+quotes all SVG visible: straight-dquote=0 open-curly=2 close-curly=2 straight-apos=52 U+2019=1
+banned-scan 'verbatim': absent
+banned-scan 'SOP': absent
+banned-scan 'proofread': absent
+banned-scan 'TODO': absent
+banned-scan 'FIXME': absent
+banned-scan 'lorem': absent
+banned-scan 'Lorem': absent
+banned-scan 'cover': absent
+banned-scan 'COVER': absent
+banned-scan 'VOL.3': ['text.md', 'p7-lingua']
+banned-scan '?Écrivez': absent
+banned-scan '?Write': absent
+banned-scan 'novembre..': absent
+double-dot text.md: 45 at [4796, 4883, 4976, 5089, 8043]
+double-dot all SVG visible: 45 at [4633, 4719, 4811, 4923, 8184]
+straight apos in SVG visible: 52
+stems not found in SVG page text: 13
+   (44, 'p3-cultura', 'o dia 20 / é / feriado nacional → O dia 20 de novembro é fer')
+   (45, 'p3-cultura', 'zumbi / foi / o líder / de palmares → Zumbi foi o líder de P')
+   (46, 'p3-cultura', 'palmares / foi / o maior quilombo / do brasil → Palmares foi')
+   (1, 'p1-capa', 'Anote as suas respostas antes de sair da prova')
+   (2, 'p1-capa', 'Confira as respostas extraoficiais na noite do dia 15')
+   (3, 'p1-capa', 'Espere o gabarito oficial no portal do Inep')
+   (4, 'p1-capa', 'Não confunda acertos com nota: a TRI decide')
+   (5, 'p1-capa', 'Descanse no feriado: a cabeça agradece')
+   (133, 'p8-avaliacao', 'sexta / é / feriado nacional → Sexta é feriado nacional.')
+   (134, 'p8-avaliacao', 'o grêmio / empatou / por 1 a 1 → O Grêmio empatou por 1 a 1.')
+   (136, 'p8-avaliacao', 'o brasil / lembra / zumbi / em 20 de novembro → O Brasil lem')
+   (137, 'p8-avaliacao', 'Sexta, 20 de novembro, é feriado nacional. → Le vendredi 20 ')
+   (138, 'p8-avaliacao', 'O Palmeiras venceu nos pênaltis por 5 a 4. → Palmeiras a gag')

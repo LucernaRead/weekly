@@ -1,0 +1,16 @@
+== p1-une.svg (after removing annotation strings)
+  vainqueur: strict=1 plural=0 -> PASS
+    body-ctx: inale du rolex paris masters, à nanterre. le vainqueur remporte son premier titre à paris, le neuvi
+  vainqueur raw total (body+annotation): 2
+== p4-sport.svg (after removing annotation strings)
+  choc: strict=1 plural=0 -> PASS
+    body-ctx: ervice de shelton à 6-5 dans le deuxième. un choc remporté en deux sets, sans tie-break dans l
+  choc raw total (body+annotation): 2
+== p6-politique.svg (after removing annotation strings)
+  navette: strict=1 plural=0 -> PASS
+    body-ctx:  texte repartira vers l'assemblée : c'est la navette parlementaire, les allers-retours entre les 
+  paritaire: strict=1 plural=0 -> PASS
+    body-ctx:  le désaccord persiste, une commission mixte paritaire — sept députés et sept sénateurs — cherchera
+  navette raw total (body+annotation): 2
+  paritaire raw total (body+annotation): 2
+OVERALL: PASS

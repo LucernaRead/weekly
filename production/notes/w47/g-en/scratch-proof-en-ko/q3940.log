@@ -1,0 +1,9 @@
+registry Q38: key=b stem='' note='tribute = 선수 b'
+registry Q39: key=a stem='' note='mentor = 스승 a'
+registry Q40: key=d stem='' note='arena = 경기장 d'
+registry Q41: key=c stem='' note='campmate = 캠프 친구 c'
+p8extract Q38-41: ['b', 'a', 'd', 'c']
+text.md Q38 key: b
+text.md Q39 key: a
+text.md Q40 key: d
+text.md Q41 key: c

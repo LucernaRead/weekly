@@ -1,0 +1,55 @@
+P1 cyr-runs core=444 ed=444 identical=True
+P2 cyr-runs core=420 ed=420 identical=True
+P3 cyr-runs core=327 ed=327 identical=True
+P4 cyr-runs core=381 ed=381 identical=True
+P5 cyr-runs core=356 ed=356 identical=True
+P6 cyr-runs core=350 ed=339 identical=False
+    --- 
+    +++ 
+    @@ -210,11 +209,0 @@
+    -УЧЕБНЫЕ
+    -ДАННЫЕ
+    -Это
+    -учебный
+    -опрос
+    -редакции
+    -для
+    -упражнений
+    -не
+    -настоящая
+    -статистика
+P7 cyr-runs core=427 ed=423 identical=False
+    --- 
+    +++ 
+    @@ -5,4 +4,0 @@
+    -Три
+    -уровня
+    -три
+    -темы
+P8 cyr-runs core=641 ed=621 identical=False
+    --- 
+    +++ 
+    @@ -4,5 +3,0 @@
+    -Большой
+    -тест
+    -недели
+    -все
+    -ответы
+    @@ -475 +469,0 @@
+    -можно
+    @@ -628,14 +621,0 @@
+    -Морозко
+    -иллюстрация
+    -Ивана
+    -Билибина
+    -год
+    -Зимняя
+    -сказка
+    -к
+    -ноябрю
+    -Иллюстрация
+    -Иван
+    -Билибин
+    -общественное
+    -достояние
+done

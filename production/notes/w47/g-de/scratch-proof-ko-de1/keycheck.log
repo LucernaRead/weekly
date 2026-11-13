@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-ko/keycheck-ko.py", line 34, in <module>
+    src = open(os.path.join(ED, fname), encoding="utf-8").read()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-production/2026-w47/2026-w47-ko-de/content12.py'

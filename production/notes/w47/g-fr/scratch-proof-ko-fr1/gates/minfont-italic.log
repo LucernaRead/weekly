@@ -1,0 +1,10 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== Lucerna-VOL4-KO-FR.pdf: pages=8 spans=1703 min size=9.98
+   P8 min size: 9.98
+   P8 answers region spans: 170 min: 9.98 Counter({9.98: 165, 12.75: 5})
+   italic spans: 0
+== Lucerna-VOL4-KO-FR-web.pdf: pages=8 spans=1703 min size=9.98
+   P8 min size: 9.98
+   P8 answers region spans: 170 min: 9.98 Counter({9.98: 165, 12.75: 5})
+   italic spans: 0

@@ -1,0 +1,21 @@
+== gloss occurrence ==
+  gloss fails: 0
+== P7 phrases ==
+  ok p2: 수능까지 3일 남았어요. 오늘이 D-3예요
+  ok p1: 김장비용은 4인 가족 20포기 기준 199,456원이에요
+  ok p4: 삼성이 12년 만에 우승했어요
+  ok p2: 11월 22일은 김치의 날이에요
+  ok p3: 예보 날짜와 실제 관측 날짜는 달라요
+  ok p6: 결과를 점수와 함께 전했어요
+  ok p1: 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요
+  ok p6: 발표가 결과로 바뀐 것이에요
+  phrases all verbatim: True
+== orphan scan (window 10-45, >=3-syllable tail) ==
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-ko-pt/check-copy/check_core.py", line 75, in <module>
+    from svglib import wrap, text_w
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-ko-pt/check-copy/svglib.py", line 130, in <module>
+    with open(_MOTH_PATH, encoding="utf-8") as _f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-ko-pt/check-copy/assets/lucerna-moth.svg'
+rc=1

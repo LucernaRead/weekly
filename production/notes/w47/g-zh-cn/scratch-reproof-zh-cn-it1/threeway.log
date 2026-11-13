@@ -1,0 +1,51 @@
+three-way mismatches: 20
+  (25, False, False, True, '到货 — 东西到了，可以去拿了')
+  (26, False, False, True, '退换货 — 东西不合适，寄回去换')
+  (27, False, False, True, '价保 — 降价了，补回差价')
+  (28, False, False, True, '派送 — 快递员把包裹送到你手里 [Abbina le parole]')
+  (43, False, False, True, '小雪 — 天冷了，多穿衣服，别冻着')
+  (44, False, False, True, '三候 — 二十四节气里的一个，11月22日')
+  (45, False, False, True, '保暖 — 不小心冷到了，身体不舒服')
+  (46, False, False, True, '着凉 — 古人看天气的三个变化 [Abbina le parole]')
+  (61, False, False, True, '四强 — 先赢三局的队拿冠军')
+  (62, False, False, True, '止步 — 半决赛输了，就不往前走了')
+  (63, False, False, True, '闹钟 — 到时间会响，叫你起床')
+  (64, False, False, True, '五局三胜 — 最后四支队，半决赛的队 [Abbina le parole]')
+  (79, False, False, True, '试探 — 山里的独栋房子')
+  (80, False, False, True, '悬疑 — 让人猜不透，心里发紧的故事')
+  (81, False, False, True, '失踪 — 试着问一问，看对方怎么说')
+  (82, False, False, True, '别墅 — 人不见了，不知道去了哪里 [Abbina le parole]')
+  (97, False, False, True, '说法 — 还没发生的事，先猜一猜')
+  (98, False, False, True, '数据 — 大概的数字，还没最后数完')
+  (99, False, False, True, '预报 — 别人说的话，不一定是真的')
+  (100, False, False, True, '预计 — 量出来的数字 [Abbina le parole]')
+D4 全球总决赛的BO5 P4x2: got=2 exp=2 OK
+D4 old 第一次在BO5里打赢T1 (no qualifier): got=0 exp=0 OK
+D4 old EN for the first time in a Worlds BO5: got=0 exp=0 OK
+D5 GEN在S16一场没输: got=2 exp=2 OK
+D5 只丢了一小局: got=2 exp=2 OK
+D5 对LYON 2比1: got=1 exp=1 OK
+D5 retained 淘汰赛一局没输: got=1 exp=1 OK
+D5 old GEN今年一局没输: got=0 exp=0 OK
+D5 old GEN今年 — 一局没输: got=0 exp=0 OK
+D4 Q56 note per la prima volta in un BO5 dei Worlds: got=1 exp=1 OK
+phrase '决赛对阵GEN': 2x (exp 2)
+phrase '包裹都到了吗': 2x (exp 2)
+phrase '小雪气寒而将雪矣': 2x (exp 2)
+phrase '两支中国队进了四强': 2x (exp 2)
+phrase '先看简介，再决定': 2x (exp 2)
+phrase '无高峰，全高峰': 2x (exp 2)
+phrase '先打开看一看，再确认收货': 2x (exp 2)
+phrase '悦读深圳': 2x (exp 2)
+old 'Questa settimana in numeri': 0x (exp 0; P7 header Parole della settimana: is a different element, checked separately)
+old 'Parole della settimana': 1x (exp 0; P7 header Parole della settimana: is a different element, checked separately)
+old 'la finale non ancora giocata': 0x (exp 0; P7 header Parole della settimana: is a different element, checked separately)
+old 'Date della settimana': 0x (exp 0; P7 header Parole della settimana: is a different element, checked separately)
+old 'esce il nuovo film': 0x (exp 0; P7 header Parole della settimana: is a different element, checked separately)
+P7 header Parole della settimana: count: 1
+new strings:
+  'Questa settimana': 2x
+  'Parole chiave': 1x
+  'la finale non giocata': 1x
+  'Date utili': 1x
+  'esce il film': 1x

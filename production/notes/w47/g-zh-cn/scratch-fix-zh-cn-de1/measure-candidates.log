@@ -1,0 +1,10 @@
+D1 '本周生活小日历\u3000Kalender der Woche': advance=411.2 ink_right=1418.0 box_right=1411.5 clearance=-6.5px
+D1 '本周生活小日历\u3000Wochenkalender': advance=375.2 ink_right=1383.0 box_right=1411.5 clearance=+28.5px
+D2 OLD: 2 lines:
+    w= 378.1 '21. Nov., Samstag — der neue Film 《试探'
+    w=  85.5 '》 startet'
+    orphan-》-at-line-start=True split-《试探》=True
+D2 NEW: 2 lines:
+    w= 348.8 '21. Nov., Samstag — der Film 《试探》'
+    w=  60.6 'startet'
+    orphan-》-at-line-start=False split-《试探》=False

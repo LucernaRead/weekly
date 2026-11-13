@@ -1,0 +1,60 @@
+### [2026-w47-ko-zh-tw] phase=all reader=zh-tw mode=cjk print=Lucerna-VOL4-KO-ZH-TW.pdf web=Lucerna-VOL4-KO-ZH-TW-web.pdf
+/dev/mapper/rv  150G   92G   58G  62% /home/hatch
+### [2026-w47-ko-zh-tw] Phase A: pre-baseline
+-rw-rw---- 1 root nogroup  4348626 Nov 11 22:37 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW-web.pdf
+-rw-rw---- 1 root nogroup 46280042 Nov 11 12:27 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW.pdf
+--- d5_census production (RC logged below) ---
+RC=1 :: d5_census production
+--- census_quotes production svg (RC logged below) ---
+RC=0 :: census_quotes production svg
+--- base-venv run.py (RC logged below) ---
+RC=0 :: base-venv run.py
+  !! FLOW OVERFLOW [P2-feature] col 2 y=1179 need 390 bottom 1540
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+### [2026-w47-ko-zh-tw] Phase B: install template svglib-ko-d5.py
+### [2026-w47-ko-zh-tw] install diff vs template:
+122c122
+< _D5_READER = "latin"
+---
+> _D5_READER = "cjk"
+122:_D5_READER = "cjk"
+### [2026-w47-ko-zh-tw] Phase C: rebuild production (venv)
+--- run.py (RC logged below) ---
+RC=0 :: run.py
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- render.py (RC logged below) ---
+RC=0 :: render.py
+--- webpdf.py (RC logged below) ---
+RC=0 :: webpdf.py
+-rw-rw---- 1 root nogroup  4314413 Nov 12 09:25 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW-web.pdf
+-rw-rw---- 1 root nogroup 45215288 Nov 12 09:22 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-zh-tw/Lucerna-VOL4-KO-ZH-TW.pdf
+### [2026-w47-ko-zh-tw] Phase D: gates
+--- d5_census patched (RC logged below) ---
+RC=0 :: d5_census patched
+--- census_quotes patched svg (RC logged below) ---
+RC=0 :: census_quotes patched svg
+--- head_check (RC logged below) ---
+RC=0 :: head_check
+--- occlusion_audit (RC logged below) ---
+RC=0 :: occlusion_audit
+--- p8 extract (RC logged below) ---
+RC=0 :: p8 extract
+--- p8 compare vs core-ko (RC logged below) ---
+RC=0 :: p8 compare vs core-ko
+--- freeze baseline (syspy exception) (RC logged below) ---
+RC=1 :: freeze baseline (syspy exception)
+--- freeze diff patched vs base-venv (syspy exception) (RC logged below) ---
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+--- spill_sweep (RC logged below) ---
+RC=0 :: spill_sweep
+--- boxtitle_check (RC logged below) ---
+--- boxtitle_check (RC logged below) ---
+RC=0 :: boxtitle_check
+--- pdf_edge_scan (RC logged below) ---
+RC=0 :: pdf_edge_scan
+--- d5_creambox_audit (RC logged below) ---
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+RC=0 :: p1-text-check

@@ -1,0 +1,265 @@
+########## core-ja ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=1293 news=716 cjk_sans=54 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== core-ja  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/core-ja
+BOXTITLE core-ja: 29 titles, 459 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -23.91px x=1461.5 y=1230.7 [observe] '句式拆解：用熊手把福气搂进来。'
+SPILL_SWEEP core-ja: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN core-ja: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-de ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-de/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-de/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=846 news=577 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-de
+BOXTITLE 2026-w47-ja-de: 36 titles, 503 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1339.1 [observe] 'hereinharken.'
+SPILL_SWEEP 2026-w47-ja-de: 35 boxes, 80 candidates, 0 SPILL, 80 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-de: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-en ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-en/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-en/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=846 news=577 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-en  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-en
+BOXTITLE 2026-w47-ja-en: 38 titles, 500 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1285.6 [observe] 'a kumade.'
+SPILL_SWEEP 2026-w47-ja-en: 35 boxes, 84 candidates, 0 SPILL, 84 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-en: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-es ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-es/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-es/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=847 news=578 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-es  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-es
+BOXTITLE 2026-w47-ja-es: 37 titles, 503 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1312.6 [observe] 'kumade.'
+SPILL_SWEEP 2026-w47-ja-es: 35 boxes, 82 candidates, 0 SPILL, 82 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-es: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-fr ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-fr/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-fr/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=848 news=579 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-fr  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-fr
+BOXTITLE 2026-w47-ja-fr: 34 titles, 507 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1312.6 [observe] 'un kumade.'
+SPILL_SWEEP 2026-w47-ja-fr: 35 boxes, 78 candidates, 0 SPILL, 78 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-fr: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-it ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-it/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-it/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=850 news=581 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-it  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-it
+BOXTITLE 2026-w47-ja-it: 36 titles, 502 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1312.6 [observe] 'con un kumade.'
+SPILL_SWEEP 2026-w47-ja-it: 35 boxes, 83 candidates, 0 SPILL, 83 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-it: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-ko ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ko/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ko/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=2361 news=1338 cjk_sans=78 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-ko
+BOXTITLE 2026-w47-ja-ko: 48 titles, 601 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -23.91px x=1757.7 y=1230.7 [observe] '.'
+SPILL_SWEEP 2026-w47-ja-ko: 35 boxes, 141 candidates, 0 SPILL, 141 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-ko: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-nl ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-nl/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-nl/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=847 news=578 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-nl  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-nl
+BOXTITLE 2026-w47-ja-nl: 37 titles, 499 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1339.1 [observe] 'kumade.'
+SPILL_SWEEP 2026-w47-ja-nl: 35 boxes, 82 candidates, 0 SPILL, 82 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-nl: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-pt ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-pt/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-pt/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=846 news=577 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-pt
+BOXTITLE 2026-w47-ja-pt: 34 titles, 505 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -24.51px x=1461.5 y=1312.1 [observe] 'um kumade.'
+SPILL_SWEEP 2026-w47-ja-pt: 35 boxes, 82 candidates, 0 SPILL, 82 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-pt: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-ru ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=2303 news=1189 cjk_sans=17 noto_sans=113 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=712
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-ru
+BOXTITLE 2026-w47-ja-ru: 38 titles, 499 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+boxtitle RC=0
+   ABOVE -23.91px x=1461.5 y=1310.2 [observe] 'Разбор: загребать удачу кумадэ.'
+SPILL_SWEEP 2026-w47-ja-ru: 35 boxes, 83 candidates, 0 SPILL, 83 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-ru: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+########## ja-zh-tw ##########
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-zh-tw/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[139, 140]
+p8 RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-zh-tw/svg: 0 flags 
+occlusion RC=0
+p8-tesuto.svg: els=1306 news=728 cjk_sans=55 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+quotes RC=0
+== 2026-w47-ja-zh-tw  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-zh-tw
+BOXTITLE 2026-w47-ja-zh-tw: 29 titles, 450 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+boxtitle RC=0
+   ABOVE -23.91px x=1461.5 y=1230.7 [observe] '句式拆解：用熊手把福氣摟進來。'
+SPILL_SWEEP 2026-w47-ja-zh-tw: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+spill RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+edge RC=0
+ALL GATES DONE

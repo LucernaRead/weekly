@@ -1,0 +1,9 @@
+registry n: 150 p8 keys: 150
+extract json keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+registry keys missing from P8 extract: []
+mismatches: [('150', '(Open task; model text below)', '✓')]
+match count: 149 / 150
+Q20 reg='желании' p8='желании'
+Q73 reg='заказов' p8='заказов'
+Q137 reg="Tuesday 17 November, Students' Day." p8="Tuesday 17 November, Students' Day."
+Q150 reg='(Open task; model text below)' p8='✓'

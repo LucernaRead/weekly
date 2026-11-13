@@ -1,0 +1,45 @@
+== 4th cifre (serif 20.5, w 386.5, target 2) ==
+key: oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）
+[cifre 150] 2 line(s), 763.0 px  OK
+    | 150명 이상 — 토로네 폐막 행렬의 출연자（
+    | 토로네 축제 폐막 행렬 150명 이상 출연자）
+== P7 error notes Lazio/Torrone/andare (sans 19.5, w 378.5, target 1) ==
+key: 拉齐奥是单数，动词用单数 -> '라치오는 단수이므로 동사도 단수입니다.'
+[err:拉齐奥是单数，动] 1 line(s), 326.7 px  OK
+    | 라치오는 단수이므로 동사도 단수입니다.
+key: torrone 是单数，动词用单数 -> '토로네는 단수이므로 동사도 단수입니다.'
+[err:torrone ] 1 line(s), 326.7 px  OK
+    | 토로네는 단수이므로 동사도 단수입니다.
+key: andare 用 essere 作助动词 -> 'andare는 essere를 조동사로 씁니다.'
+[err:andare 用] 1 line(s), 304.2 px  OK
+    | andare는 essere를 조동사로 씁니다.
+key: è probabile che 后用虚拟式 -> 'è probabile che 뒤에는 접속법을 씁니다.'
+[err:probabile] 1 line(s), 339.9 px  OK
+    | è probabile che 뒤에는 접속법을 씁니다.
+== FRASI translations (sans 19.5, colw 873) + quotes (serif 21.5, colw 873) ==
+  quote 1L + trans 1L, slot ~97px (budget 158): '라치오는 선두를 지키고 있다.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '10경기 24골.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '대운하 위의 서원의 다리.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '르네상스 복장의 출연자 150명 이상.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '가투소의 팀은 11라운드가 지나도 무패.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '책, 이성, 광기의 7일.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '문안은 아직 바뀔 수 있습니다.'
+  quote 1L + trans 1L, slot ~97px (budget 158): '정부 승인이 곧 법률이라는 뜻은 아닙니다.'
+== P8 notes (raw ko values) ==
+  '主语 + 动词 + 地点 + 日期' -> ko '주어 + 동사 + 장소 + 날짜'
+  '主语 + 动词 + 地点' -> ko '주어 + 동사 + 장소'
+  ru 'воскресный вечер — самый лучший (оценка)' -> 1 hit(s): 'più + bella 周日晚上最好看（主观评价）' ko='più + bella: 일요일 저녁이 가장 좋다（주관적 평가）'
+  ru 'Сравнительная степень bene: meglio' -> 1 hit(s): 'bene 的比较级是不规则的 meglio' ko='bene의 비교급은 불규칙형 meglio'
+  ru 'Учебные данные, а не прогнозы' -> 1 hit(s): '图表数据是练习用的、不是真实预报' ko='차트 수치는 연습용 자료이며 실제 예보가 아닙니다'
+  ru 'bisogna che + сослагательное controllino' -> 1 hit(s): 'bisogna che + 虚拟式 controllino' ko='bisogna che + 접속법 controllino'
+  ru 'Вопрос — в начале' -> 1 hit(s): '疑问词组在句首' ko='의문어구는 문장 맨 앞에'
+  ru 'Сначала место' -> 1 hit(s): '地点在前，主语在后' ko='장소가 먼저, 주어가 뒤에'
+== E-section re-aimed ko keys ==
+  '圣母健康节人们走过还愿桥。' -> ko '성모 건강 축일에는 사람들이 서원의 다리를 건넌다.'
+  '对照原文' -> ko '원문과 비교하세요'
+  '周日晚上亚特兰大对国米。' -> ko '일요일 저녁, 아탈란타가 인터와 경기한다.'
+  'si gioca = 进行比赛' -> ko 'si gioca = 경기가 있다'
+  '周六，拉齐奥在主场对莱切。' -> ko '토요일, 라치오는 홈에서 레체와 경기한다.'
+  'in casa = 在主场' -> ko 'in casa = 홈에서'
+  'dovere = 必须' -> ko 'dovere = ~해야 한다'
+  '每个数字都必须清楚。→ ___' -> ko '모든 숫자는 분명해야 합니다. → ___'

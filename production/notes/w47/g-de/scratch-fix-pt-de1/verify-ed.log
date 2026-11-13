@@ -1,0 +1,25 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS content12.py:89 NESTA title shortened — Diese Ausgabe in place
+PASS content12.py:89 no residual 'In dieser Ausgabe'
+PASS tables_de.py:139 "本期目录": "Diese Ausgabe"
+PASS tables_de.py:139 no residual long form
+PASS p1 svg title is 'NESTA EDIÇÃO Diese Ausgabe'
+PASS p1 svg has no 'In dieser Ausgabe'
+PASS PIL true ink: NESTA ink right <= 1858 — ink right 1826.5 clear +35.5
+PASS E1 EM POUCAS unchanged at +0.5 — ink right 1861.5
+PASS E2 A SEMANA EM NÚMEROS unchanged at +1.5 — ink right 1410.0
+PASS PDF pixel 200dpi: NESTA ink right <= 1858 — ink right 1826.9 clear +34.6
+PASS D1 content12.py:138 flash box 474
+PASS D2 content34.py:40 schedule +58
+PASS D3 content56.py:132 timeline 654
+PASS D1 creambox ink-clearance +15.4
+PASS D2 creambox ink-clearance +10.1
+PASS D3 creambox ink-clearance +8.0
+PASS Q137 German key — Freitag, 20. November, ist ein nationaler Feiertag.
+PASS Q138 German key — Palmeiras gewann das Elfmeterschießen mit 5:4.
+PASS Q150 open task extracts as ✓ — ✓
+PASS text.md SHA unchanged (519ab0de…)
+PASS A-Lucerna-VOL4.pdf has 8 pages — 8 pages
+PASS A-Lucerna-VOL4-web.pdf has 8 pages — 8 pages
+ALL pt-de fix1 VERIFICATIONS PASS

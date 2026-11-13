@@ -1,0 +1,16 @@
+KEEP values (en):
+  [0] 'Фокус на язык\u3000Три уровня, три темы\u3000Three levels, three topics'
+  [1] 'ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000PRACTICE DATA'
+  [2] 'Это учебный опрос редакции для упражнений — не настоящая статистика. This is a practice survey made up by the editors for the exercises — not real statistics.'
+  [3] 'PAGE 8\u3000Большой тест недели + все ответы'
+svg_p6_s1 (vals[1]): True
+svg_p6_s2 (vals[2]): True
+svg_p7_s3 (vals[0]): True
+svg_p8_s4 (vals[3]): True
+p6 ctx УЧЕБНЫЕ: недели нет.ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?　УЧЕБНЫЕ ДАННЫЕ　PRACTICE DATAЭто учебный опрос редакции для упражнений — не насто
+p6 ctx disclaimer: ТОЙ НЕДЕЛЕ?　УЧЕБНЫЕ ДАННЫЕ　PRACTICE DATAЭто учебный опрос редакции для упражнений — не настоящая статистика. This is a p
+p7 ctx Три: ЯЗЫК　LANGUAGELucernaФокус на язык　Три уровня, три темы　Three levels, three topicsA2　СЛОВА О ПОГОДЕО ноябре говорим
+p8 ctx Большой:  И ОТВЕТЫ　TEST AND ANSWERSLucernaPAGE 8　Большой тест недели + все ответыA　ХРОНИКА НЕДЕЛИB1113.Неделя 16–22 ноября начина
+s2 exact in text.md: False
+s2 fragment 'не является настоящей статистикой' in text.md: False
+s2 fragment in p6 svg: True

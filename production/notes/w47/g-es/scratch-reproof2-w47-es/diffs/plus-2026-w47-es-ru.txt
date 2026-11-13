@@ -1,0 +1,337 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ИСПАНСКИЙ ГЛАЗАМИ ИСПАНИИ", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "ИСПАНСКИЙ ЕЖЕНЕДЕЛЬНИК　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=4)
+p.text(975, 614, "ТЕКСТЫ НА ИСПАНСКОМ　ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "ПЕРВАЯ НЕДЕЛЯ КАМПАНИИ　ДО ВЫБОРОВ 13 ДНЕЙ", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "ГЛАВНАЯ ТЕМА　СМ. СТРАНИЦЫ 2 И 6", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　Главная новость", 17, "sans", True, OLIVE)
+f.bridge("la campaña electoral = избирательная кампания · el debate = дебаты · el cara a cara = дебаты один на один · el voto por correo = голосование по почте · la jornada de reflexión = день тишины.")
+f.box("LA SEMANA EN CIFRAS　В цифрах", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29 (до выборов 13 дней)", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27 (кампания длится 15 дней)", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo (четверг, 19-е: последний день заявки на голосование по почте)", "serif", False, INK, 20.5, 1.35),
+f.head("AHORA TÚ　Теперь ты", 25)
+f.ex("A2", "Дополните предложение", "13", "Кампания начинается в пятницу, 13 ноября, в полночь",
+f.ex("A2", "Дополните предложение", "29", "Выборы — в воскресенье, 29 ноября",
+f.ex("A2", "Дополните предложение", "19", "Заявка на голосование по почте — до 19-го",
+f.ex("A2", "Дополните предложение", "16", "День фламенко: понедельник, 16 ноября",
+f.ex("B1", "Дополните предложение", "20", "13-й тур начинается в пятницу, 20 ноября",
+f.ex("B1", "Дополните предложение", "15", "Кампания длится 15 дней",
+p.text(gx + 22, gy + 106, "Пять главных тем　Para entender la semana", 18, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "Пять тем, без выдуманных цифр.", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　В выпуске", 24, "sans", True, OLIVE)
+p.para(gx, wy + 10, "«Дебаты»: люди обсуждают публично.", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　Коротко", 24, "sans", True, OLIVE)
+    ("EL DEBATE", "El viernes 13, debate de portavoces en laSexta, 21:30. (Страница 6)"),
+    ("LA LIGA", "Viernes 20: Athletic–Espanyol abre la jornada 13. (Страница 4)"),
+    ("EL FLAMENCO", "El lunes 16 es el Día Internacional del Flamenco. (Страница 3)"),
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　Блиц-викторина", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Прочитайте первую полосу и выберите правильный ответ　Ответы на странице 8", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "Выбор ответа", "C", "Выборы — 29 ноября",
+qf.ex("A2", "Выбор ответа", "B", "Кампания длится 15 дней",
+qf.ex("A2", "Выбор ответа", "A", "Заявка на голосование по почте — до 19-го",
+qf.ex("A2", "Выбор ответа", "B", "Международный день фламенко, 16 ноября",
+p.band("VIDA　Жизнь", "La Lucerna", "NIVEL A2　La semana, día a día　Неделя день за днём")
+f.box("EL CALENDARIO　Календарь", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo (понедельник: день фламенко; дебаты Санчес — Фейхоо)", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele (вторник: кампания по Испании)", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP) (среда: дебаты о жилье на радио)", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo (четверг: последний день заявки на голосование)", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00 (вечер пятницы: Лига возвращается)", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00 (суббота: севильское дерби)", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música (воскресенье: «Барса» — «Вильярреал»; св. Цецилия)", "serif", False, INK, 21, 1.36),
+f.gloss("el debate = дебаты · el mitin = предвыборный митинг · el cartel = плакат · el escaño = место в парламенте.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Что вы будете делать в понедельник, 16 ноября: смотреть фламенко, следить за кампанией или смотреть футбол? Что вам нравится больше: дебаты или дерби? Напишите два предложения по-испански и пришлите их в редакцию.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　А вы?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Что вы будете делать в понедельник, 16 ноября: смотреть фламенко, следить за кампанией или смотреть футбол? Что вам нравится больше: дебаты или дерби? Напишите два предложения по-испански и пришлите их в редакцию.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　Как называть дату", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　с понедельника, 16 ноября, по воскресенье, 22 ноября", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　Упражнения страницы 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на странице 8　Уровни перемешаны — ищите по номеру задания", 20, "sans", False, GREY, anchor="end")
+e.bridge("Дополните предложения правильной формой даты.")
+e.ex("A2", "Дополните предложение", "16", "понедельник, 16 ноября",
+     "El Día del Flamenco es el lunes ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "19", "четверг, 19 ноября",
+     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "29", "Выборы — 29 ноября",
+     "Las elecciones generales son el ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "22", "воскресенье, 22 ноября",
+     "Santa Cecilia es el domingo ___ de noviembre.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "noviembre", "Месяцы пишутся со строчной буквы",
+     "El lunes 16 de ___ es el Día del Flamenco.", instr="Вставьте", size=20, gap=8)
+e.bridge("Дополните глаголы в настоящем времени.")
+e.ex("A2", "Дополните предложение", "empieza", "la campaña → empieza",
+     "La campaña ___ el viernes 13.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "dura", "la campaña → dura",
+     "La campaña ___ 15 días.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "vuelve", "la Liga → vuelve",
+     "La Liga ___ el viernes 20.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "recorren", "los partidos → recorren",
+     "Los partidos ___ España en campaña.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "llega", "la documentación → llega",
+     "La documentación del voto por correo ___ desde el lunes 9.", instr="Вставьте", size=20, gap=8)
+e.bridge("Прочитайте статью и выберите ответ.")
+e.ex("A2", "Выбор ответа", "B", "День фламенко: понедельник, 16 ноября",
+e.ex("A2", "Выбор ответа", "A", "Заявка на голосование по почте — до 19-го",
+e.ex("A2", "Выбор ответа", "C", "Лига возвращается в пятницу, 20 ноября",
+e.ex("B1", "Выбор ответа", "B", "Опросы не публикуются с 24 по 28 ноября",
+e.match_set("A2", "Соотнесите слова",
+            ["debate = дебаты c", "mitin = митинг b", "cartel = плакат d", "escaño = место в парламенте a"],
+            instr="Соотнесите")
+p.band("CULTURA　Культура", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　Фламенко и святая Цецилия")
+f.gloss("el cante = пение · el toque = гитара · el baile = танец · el compás = ритм · el duende = душа фламенко.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы слушали фламенко? Какая музыка вашей страны — с дуэнде? Напишите два предложения и пришлите их.", "sans", False, 19, CW - 44)) * 27 + 25
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　А вы?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Вы слушали фламенко? Какая музыка вашей страны — с дуэнде? Напишите два предложения и пришлите их.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Упражнения страницы 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на странице 8　Уровни перемешаны — ищите по номеру задания", 20, "sans", False, GREY, anchor="end")
+e.bridge("Прочитайте статью на странице 3: верно или неверно?")
+e.ex("A2", "Верно или неверно", "Verdadero", "День фламенко: понедельник, 16 ноября",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("A2", "Верно или неверно", "Verdadero", "ЮНЕСКО: фламенко в наследии с 2010 года",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("A2", "Верно или неверно", "Falso", "Фламенко: пение, гитара и танец вместе",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("B1", "Верно или неверно", "Falso", "День святой Цецилии — 22 ноября",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("A2", "Верно или неверно", "Verdadero", "Оркестр Бильбао: воскресенье, 22-го, 12:00",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.bridge("Вставьте слова из рамки.")
+e.ex("A2", "Дополните предложение", "cante", "cante = пение",
+     "El flamenco es ___, toque y baile.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "baile", "baile = танец",
+     "La bailaora mueve los brazos en el ___.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "guitarra", "guitarra = гитара",
+     "El toque es la ___ del flamenco.", instr="Вставьте", size=20, gap=8)
+e.ex("A2", "Дополните предложение", "palmas", "palmas = хлопки",
+     "El público marca el ritmo con las ___.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "compás", "compás = ритм",
+     "Sin ___ no hay flamenco.", instr="Вставьте", size=20, gap=8)
+e.bridge("Выберите правильный ответ.")
+e.ex("A2", "Выбор ответа", "B", "ЮНЕСКО объявило об этом в Найроби в 2010 году",
+e.ex("A2", "Выбор ответа", "A", "duende — момент, когда музыка трогает душу",
+e.ex("B1", "Выбор ответа", "C", "Фламенко родилось из многих культур Андалусии",
+e.ex("B1", "Выбор ответа", "B", "После Дня фламенко — выборы 29 ноября",
+e.bridge("Составьте из слов правильное предложение.")
+e.ex("A2", "Составьте предложение", "El flamenco es cante, toque y baile.", "Подлежащее, глагол",
+     "el flamenco / es / cante, toque y baile → ___", instr="Составьте предложение", size=20, gap=8)
+e.ex("B1", "Составьте предложение", "En noviembre suena la guitarra en España.", "Время впереди, глагол вторым",
+     "en noviembre / suena / la guitarra / en España → ___", instr="Составьте предложение", size=20, gap=8)
+e.ex("B1", "Составьте предложение", "En Bilbao toca la banda el domingo.", "Место — впереди",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="Составьте предложение", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "Todos preguntan si hay duende.", "Косвенные вопросы с si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="Перепишите", size=20, gap=8)
+p.band("DEPORTE　Спорт", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　Лига возвращается: 13-й тур")
+f.gloss("la jornada = тур · el derbi = дерби · el liderato = первое место · el parón = перерыв · la fase liga = этап лиги.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Какой матч вы будете смотреть в субботу в 18:30: севильское дерби или «Реал» — «Сельту»? Кто выиграет Лигу: «Барса» или «Реал»? Напишите два предложения по-испански и пришлите их.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　А вы?", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "Какой матч вы будете смотреть в субботу в 18:30: севильское дерби или «Реал» — «Сельту»? Кто выиграет Лигу: «Барса» или «Реал»? Напишите два предложения по-испански и пришлите их.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　13-й тур: шесть матчей", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　Упражнения страницы 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на странице 8　Уровни перемешаны — ищите по номеру задания", 20, "sans", False, GREY, anchor="end")
+e.bridge("Прочитайте статью на странице 4 и выберите правильный ответ.")
+e.ex("B1", "Выбор ответа", "A", "«Барса» лидирует с 33 очками",
+e.ex("B1", "Выбор ответа", "B", "13-й тур, 20–23 ноября",
+e.ex("B1", "Выбор ответа", "C", "Севильское дерби, суббота, 18:30",
+e.ex("B1", "Выбор ответа", "A", "«Барса» — «Вильярреал», воскресенье, 14:00",
+e.ex("B1", "Выбор ответа", "B", "Лига чемпионов, 5-й тур, 24–25 ноября",
+e.match_set("B1", "Соотнесите слова",
+            ["jornada = тур c", "derbi = дерби b", "liderato = первое место a", "fase liga = этап лиги d"],
+            instr="Соотнесите")
+e.bridge("Вставьте сравнительную степень или форму на -ísimo слова в скобках.")
+e.ex("B1", "Дополните предложение", "más importante", "más + importante (борьба за титул)",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "muchísimos", "muchísimos = очень много болельщиков",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "peor", "Сравнительная степень от malo — peor",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "mejor", "Сравнительная степень от bueno — mejor",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="Вставьте", size=20, gap=8)
+e.bridge("Поставьте предложения в прошедшее время (pretérito indefinido).")
+e.ex("B1", "Преобразуйте предложение", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="Перепишите", size=20, gap=8)
+p.band("JUVENTUD　Молодёжь", "La Lucerna", "NIVEL B1　Votar por primera vez　Голосовать впервые")
+f.box("EL PLAN DE LA SEMANA　План", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña (понедельник: День фламенко и первый понедельник кампании)", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo (четверг: последний день заявки на голосование по почте)", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00 (вечер пятницы: Лига возвращается)", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30 (суббота: севильское дерби)", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia (воскресенье: «Барса» — «Вильярреал»; день святой Цецилии)", "serif", False, INK, 21, 1.36),
+f.gloss("el sobre = конверт · la papeleta = бюллетень · el censo = список избирателей · el plazo = срок · la urna = урна для голосования.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два предложения и пришлите их.", "sans", False, 19, CW - 44)) * 27 + 25
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　А вы?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "Вы голосовали бы по почте или лично? Что бы вы купили в «чёрную пятницу»: что-то полезное или каприз? Напишите два предложения и пришлите их.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　Упражнения страницы 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на странице 8　Уровни перемешаны — ищите по номеру задания", 20, "sans", False, GREY, anchor="end")
+e.bridge("Прочитайте статью на странице 5 и выберите правильный ответ.")
+e.ex("B1", "Выбор ответа", "B", "Заявка на голосование по почте — до 19-го",
+e.ex("B1", "Выбор ответа", "A", "Документы отправляются с 9 ноября",
+e.ex("B1", "Выбор ответа", "C", "Избирательные участки работают с 9:00 до 20:00",
+e.ex("B1", "Выбор ответа", "B", "MiDNI — новый способ подтвердить личность",
+e.ex("B1", "Выбор ответа", "A", "«Чёрная пятница», пятница, 27 ноября",
+e.bridge("Вставьте слова из рамки. Внимание: некоторые слова нужно проспрягать.")
+e.ex("B1", "Дополните предложение", "correo", "correo = почта / почтовый",
+     "Pido el voto por ___.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "papeleta", "papeleta = бюллетень",
+     "En casa, relleno la ___.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "envío", "enviar в спряжении → envío",
+     "Después ___ (инфинитив: enviar) el sobre.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "identidad", "identidad = удостоверение личности",
+     "Para votar en persona llevo mi documento de ___.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "censo", "censo = список избирателей",
+     "La Oficina del ___ envía la documentación.", instr="Вставьте", size=20, gap=8)
+e.ex("B1", "Дополните предложение", "plazo", "plazo = срок (19-е)",
+     "El jueves 19 termina el ___ del voto por correo.", instr="Вставьте", size=20, gap=8)
+e.bridge("Перепишите предложения с ir a + инфинитив (ближайшее будущее).")
+e.ex("B1", "Преобразуйте предложение", "Voy a pedir el voto por correo.", "voy a + инфинитив",
+     "Pido el voto por correo. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "Vas a votar el domingo 29.", "vas a + инфинитив",
+     "Votas el domingo 29. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "Va a abrirse la urna a las 9:00.", "va a + инфинитив",
+     "La urna se abre a las 9:00. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Преобразуйте предложение", "Van a comparar precios antes de pagar.", "van a + инфинитив",
+     "Comparan precios antes de pagar. → ___", instr="Перепишите", size=20, gap=8)
+e.ex("B1", "Верно или неверно", "Verdadero", "Голосование по почте — через Correos",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("B1", "Верно или неверно", "Falso", "День тишины — суббота, 28-е, а не воскресенье",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+e.ex("B1", "Верно или неверно", "Verdadero", "В этом году можно голосовать с MiDNI",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="В/НВ", size=20, gap=8)
+p.band("A FONDO　Разбор", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Читать кампанию: дебаты, программы и опросы")
+p.text(MX, ey + 28, "EJERCICIOS　Упражнения страницы 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на странице 8　Уровни перемешаны — ищите по номеру задания", 20, "sans", False, GREY, anchor="end")
+e.bridge("Посмотрите на графики и выберите правильный ответ.")
+e.ex("B2", "Выбор ответа", "A", "По 45 бесплатных минут у PSOE и PP",
+e.ex("B2", "Выбор ответа", "B", "Всего 195 минут бесплатного эфира",
+e.ex("B2", "Выбор ответа", "C", "Podemos: 15 минут",
+e.ex("B2", "Выбор ответа", "A", "5 дней без публикации опросов (24–28 ноября)",
+e.ex("B2", "Выбор ответа", "B", "45 − 30 = 15",
+e.ex("B2", "Выбор ответа", "C", "Только бесплатный эфир, с источником",
+e.ex("B2", "Выбор ответа", "B", "На 10 ноября подтверждены только дебаты laSexta",
+e.ex("B2", "Выбор ответа", "A", "Дебаты laSexta, пятница, 13 ноября, в 21:30",
+e.ex("B2", "Выбор ответа", "C", "«Предложено» — не значит «подтверждено»",
+e.ex("B2", "Выбор ответа", "B", "Опрос: фото с погрешностью на один день",
+e.ex("B2", "Дополните предложение", "tenga", "es posible que + сослагательное: tenga",
+     "Es posible que el debate ___ (tener) cuatro portavoces.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "sea", "es importante que + сослагательное: sea",
+     "Es importante que cada dato ___ (ser) claro.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "para que", "para que + сослагательное (цель)",
+     "Publicamos la fuente ___ todos puedan comprobarla.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "Aunque", "Aunque + изъявительное (известный факт)",
+     "___ los debates difieren, ninguno miente.", instr="Вставьте", size=18.5, gap=2)
+e.bridge("Вставьте слова из рамки: sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "Дополните предложение", "sondeo", "sondeo = опрос",
+     "Un ___ pregunta a una muestra de ciudadanos.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "muestra", "muestra = выборка",
+     "El sondeo preguntó a una ___ de ciudadanos.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "indecisos", "indecisos = неопределившиеся",
+     "Los ___ todavía no saben a quién votar.", instr="Вставьте", size=18.5, gap=2)
+e.ex("B2", "Дополните предложение", "margen de error", "margen de error = погрешность",
+     "Toda encuesta tiene un ___.", instr="Вставьте", size=18.5, gap=2)
+p.band("LENGUA　Язык", "La Lucerna", "Фокус на языке　Tres niveles, tres herramientas　Три уровня, три инструмента")
+a.bridge("Время: es la una (единственное число), son las dos (множественное число); матч начинается в a las 21:00.")
+a.ex("A2", "Дополните предложение", "Es", "Для часа — единственное число Es",
+     "___ la una en punto.", instr="Вставьте", size=20.5, gap=10)
+a.ex("A2", "Дополните предложение", "Son", "Для нескольких часов — множественное число Son",
+     "___ las nueve de la noche.", instr="Вставьте", size=20.5, gap=10)
+a.ex("A2", "Дополните предложение", "las", "a las 21:00 (с предлогом a)",
+     "El derbi es el sábado a ___ 18:30.", instr="Вставьте", size=20.5, gap=10)
+a.ex("A2", "Выбор ответа", "B", "Час — Es la una",
+b.bridge("Сравнительная степень: más … que, tan … como; bueno → mejor, malo → peor; никогда не говорите más mejor.")
+b.ex("B1", "Дополните предложение", "más goles", "más + goles (больше голов)",
+     "El Barça marca ___ que el año pasado. (goles)", instr="Вставьте", size=20.5, gap=10)
+b.ex("B1", "Дополните предложение", "tan rápido", "tan + rápido + como (такой же быстрый)",
+     "El derbi es ___ como siempre. (rápido)", instr="Вставьте", size=20.5, gap=10)
+b.ex("B1", "Дополните предложение", "mejor", "сравнительная степень от bueno — mejor (без más)",
+     "Un debate claro es ___ (bueno) que un titular.", instr="Вставьте", size=20.5, gap=10)
+b.ex("B1", "Выбор ответа", "B", "más mejor — ошибка",
+c.bridge("es necesario que, para que, ojalá — с сослагательным; creo que — с изъявительным.")
+c.ex("B2", "Дополните предложение", "baje", "es necesario que + сослагательное: baje",
+     "Es necesario que el precio ___ (bajar).", instr="Вставьте", size=20.5, gap=10)
+c.ex("B2", "Дополните предложение", "sea", "para que + сослагательное: sea",
+     "Publicamos la fuente para que todo ___ (ser) claro.", instr="Вставьте", size=20.5, gap=10)
+c.ex("B2", "Дополните предложение", "es", "creo que + изъявительное: es",
+     "Creo que el debate ___ (ser) útil.", instr="Вставьте", size=20.5, gap=10)
+c.ex("B2", "Выбор ответа", "B", "ojalá + сослагательное наклонение: tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "Час — единственное число: es."),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor уже сравнительная степень."),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente — единственное: глагол — тоже."),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que утверждает: изъявительное."),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　Ошибки", 23, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = дебаты: публичное обсуждение; выборы — 29-го.", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　Слово недели", 23, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate = дебаты: публичное обсуждение; выборы — 29-го.", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "Примечание редакции: к сдаче номера настоящих писем и лучших текстов не поступило; в этом выпуске — письмо-образец. Обещание — на VOL.5."
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 18, CW - 44)) * 27 + 42
+p.para(bx + 22, yy3 + 20, ldcn, 18, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　Фразы недели (дословно из статей выпуска)", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "Кампания начинается 13-го в полночь, длится 15 дней и заканчивается 27-го.", "Страница 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "Четверг, 19-е, — ключевой день: последний день заявки на голосование по почте.", "Страница 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "Понедельник, 16 ноября, — Международный день фламенко, и гитара звучит по всей Испании.", "Страница 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "Фламенко — не только танец: пение, гитара, танец, хлопки, дробь каблуков и ритм.", "Страница 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "Лига прерывается и возвращается: 13-й тур проходит с пятницы, 20 ноября, по понедельник, 23 ноября.", "Страница 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "Впервые голосуете 29 ноября? Два способа: лично или по почте.", "Страница 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "Во время кампании не всё объявленное уже решено.", "Страница 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Опрос — это фото с погрешностью, сделанное в конкретный день.", "Страница 6"),
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　На следующей неделе (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　Упражнения и ответы", "La Lucerna", "Страница 8　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "Выбор в тексте", "A", "el flamenco suena = звучит фламенко",
+f.ex("B1", "Выбор в тексте", "B", "empieza la campaña = кампания начинается",
+f.ex("B1", "Выбор в тексте", "A", "Дебаты laSexta в 21:30",
+f.ex("B1", "Выбор в тексте", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "Выбор в тексте", "A", "la Liga vuelve = Лига возвращается",
+f.ex("B1", "Выбор в тексте", "B", "Севильское дерби — в субботу",
+f.ex("B1", "Выбор в тексте", "A", "Santa Cecilia = покровительница музыкантов",
+f.ex("B1", "Выбор в тексте", "A", "Испания голосует в воскресенье, 29-го",
+f.ex("A2", "Выбор ответа", "A", "Кампания начинается в пятницу, 13 ноября",
+f.ex("A2", "Выбор ответа", "B", "Международный день фламенко, 16 ноября",
+f.ex("A2", "Выбор ответа", "A", "Заявка на голосование по почте — до 19-го",
+f.ex("B1", "Выбор ответа", "C", "Севильское дерби, суббота, 18:30",
+f.ex("B1", "Выбор ответа", "B", "«Чёрная пятница», пятница, 27 ноября",
+f.ex("B1", "Выбор ответа", "C", "MiDNI — официальное приложение",
+f.ex("B2", "Выбор ответа", "B", "Опросы не публикуются с 24 по 28 ноября",
+f.ex("B1", "Выбор ответа", "C", "Лига чемпионов, 5-й тур, 24–25 ноября",
+f.ex("A2", "Выбор ответа", "A", "Лусия смотрит дерби в Севилье в субботу",
+f.ex("A2", "Выбор ответа", "A", "Диего смотрит «Реал» — «Сельту» в субботу",
+f.ex("A2", "Выбор ответа", "A", "Оба читают программы перед голосованием",
+f.ex("A2", "Выбор ответа", "B", "Заголовок описывает два города и одну субботу",
+f.ex("A2", "Составьте предложение", "El lunes suena el flamenco.", "Сначала время, потом глагол",
+     "el lunes / suena / el flamenco → ___", instr="Составьте предложение", size=15.5, gap=1)
+f.ex("A2", "Составьте предложение", "El sábado vemos el derbi.", "Время впереди",
+     "el sábado / vemos / el derbi → ___", instr="Составьте предложение", size=15.5, gap=1)
+f.ex("B1", "Составьте предложение", "La campaña dura quince días.", "Подлежащее, глагол, время",
+     "la campaña / dura / quince días → ___", instr="Составьте предложение", size=15.5, gap=1)
+f.ex("B1", "Составьте предложение", "¿A qué hora empieza el debate?", "Вопрос — в начале",
+     "¿ / a qué hora / empieza / el debate / ? → ___", instr="Составьте предложение", size=15.5, gap=1)
+f.ex("A2", "Перевод", "Понедельник — Международный день фламенко.", "См. оригинал.",
+     "El lunes es el Día del Flamenco. → ___", instr="Перевод", size=15.5, gap=1)
+f.ex("A2", "Перевод", "В субботу мы смотрим севильское дерби.", "См. оригинал.",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="Перевод", size=15.5, gap=1)
+f.ex("B1", "Перевод", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "Заявку на голосование по почте нужно подать до четверга, 19-го. → ___", instr="Перевод", size=15.5, gap=1)
+f.ex("B2", "Перевод", "Cada promesa tiene que llevar datos.", "tener que = должен",
+     "Каждое обещание должно опираться на данные. → ___", instr="Перевод", size=15.5, gap=1)
+f.match_set("B2", "Соотнесите слова",
+            ["sondeo=опрос c", "muestra=выборка d", "margen de error=погрешность b", "junta electoral=избирательная комиссия a"],
+            instr="Соотнесите")
+f.ex("B1", "Выбор в тексте", "A", "vengo a votar = я пришёл голосовать",
+f.ex("B1", "Выбор в тексте", "A", "documento de identidad = удостоверение личности",
+f.ex("B1", "Выбор в тексте", "A", "¿dónde está la urna? Где урна для голосования?",
+f.ex("B1", "Выбор в тексте", "A", "la papeleta va en el sobre = бюллетень кладут в конверт",
+f.ex("B1", "Выбор в тексте", "A", "Во сколько закрывается участок?",
+f.bridge("Задание на письмо (нет единственного ответа); образец текста (97 слов) ниже.")
+f.ex("B1", "Письмо", "(открытый вопрос — образец ниже)", "См. образец в разделе H (97 слов)",
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="Письмо", size=15.5, gap=1)
+        "Pluma de cisne — dominio público (Wikimedia Commons)", csize=14.5)
+p.text(MX, 1337, "RESPUESTAS　Ответы — по страницам, ищите по номеру", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "К каждому ответу — короткое пояснение　✓ = задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "Письмо":

@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-it-ru/svg: 1 flags {'LINEX': 1}
+  [LINEX] p7-lingua.svg 'VOL.5.' — later line box [87.0, 1685.0, 1863.0, 1687.0] crosses ink
+core: 0 flags; NEW vs core: 1
+  NEW [LINEX] p7-lingua.svg 'VOL.5.' — later line box [87.0, 1685.0, 1863.0, 1687.0] crosses ink

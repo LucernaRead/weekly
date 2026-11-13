@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS text.md answers parsed == 150 — found 150
+PASS p8 extract keys == 150 — found 150
+PASS keys vs core: only Q150 differs — diff=[150]
+PASS text.md answers vs p8 extract: 0 mismatch (excl Q150) — 150/150 agree (Q150 excluded)
+PASS Q150 writing key Traditional — ed='開放題' core='开放题'
+PASS Q148 key == 'devant le' (content8.py)
+PASS Q148 stem in content8.py has no 'du'
+PASS Q148 stem in P8 SVG, no 'du cinéma' — stem_found=True no_du=True
+PASS Q148 extracted key == 'devant le' — extracted='devant le'
+PASS P8 min font >= 9.75pt — 11.625pt
+ALL verify_ed_fr CHECKS PASS

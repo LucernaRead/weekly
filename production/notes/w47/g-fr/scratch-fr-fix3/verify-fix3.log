@@ -1,0 +1,40 @@
+--- 1) P7 quotes vs P1-P6 ---
+Q97: VERBATIM
+Q98: VERBATIM
+Q99: VERBATIM
+Q100: VERBATIM
+Q101: VERBATIM
+Q102: VERBATIM
+Q103: VERBATIM
+Q104: VERBATIM
+quotes verbatim: 8/8
+--- 5) D9 P7 SVG ---
+quote present: True
+stem present: True
+old wording count: 0 | sortent au cinéma: 0
+--- 2) keys vs .text.md REPONSES ---
+parsed from text.md: 149 numbers; keys in p8 json: 150
+mismatches: 0
+Q102 key: sortent | text.md 102: sortent
+--- 3) badges ---
+  p1-une: 10
+  p2-vie: 12
+  p3-culture: 18
+  p4-sport: 15
+  p5-jeunesse: 14
+  p6-politique: 15
+  p7-langue: 12
+  p8-exercices: 38
+total badges: 134 colours: {'#5c6e30': 50, '#46581f': 65, '#37402f': 19}
+--- 4) S1.1 spots ---
+  p1-une: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=35
+  p2-vie: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=33
+  p3-culture: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=19
+  p4-sport: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=29
+  p5-jeunesse: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=23
+  p6-politique: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=24
+  p7-langue: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=15
+  p8-exercices: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=182
+  text.md: dot·= 0 fullspace　= 390
+  ABSTRACT: dot·= 0
+OVERALL: PASS

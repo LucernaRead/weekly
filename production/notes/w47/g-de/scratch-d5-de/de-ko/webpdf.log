@@ -1,0 +1,13 @@
+8 pages from svg/
+425 distinct chars; families: ['Newsreader', 'Noto Sans CJK KR', 'Noto Serif CJK KR', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 21560 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 21596 bytes
+  font LucernaNewsreader-Italic: 23908 bytes
+  font LucernaNotoSansCJKKR-Regular: 63768 bytes
+  font LucernaNotoSansCJKKR-Bold: 64580 bytes
+  font LucernaNotoSerifCJKKR-Regular: 135904 bytes
+  font LucernaNotoSerifCJKKR-Bold: 137064 bytes
+  font LucernaUnifrakturMaguntia-Regular: 32852 bytes
+WROTE Die-Lucerna-VOL4-de-ko-web.pdf: 1789607 bytes, 52246 text bytes

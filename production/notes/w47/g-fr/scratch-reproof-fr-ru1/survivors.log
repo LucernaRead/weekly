@@ -1,0 +1,17 @@
+== S1 P7 disclosure ==
+  baseline 2206.0 ink-bottom 2211.0 'Заметка редакции: к сдаче номера текстов VOL.4 не поступило; VOL.5 выполнит'
+  baseline 2233.3 ink-bottom 2238.3 'обещание разобрать настоящие письма.'
+  LAST disclosure baseline 2233.3 ink bottom 2238.3 (expect 2233.3 / 2238.3)
+== S2 Q148 ==
+  'devant le' elements: [(1439.5, 1956.1, '147. quelle heure (Во сколько?)\u3000148. devant le (У')]
+  stem el y=1188.0 x=1505.5 '148.'
+  standalone 'du' in stem elements: False
+  source content8.py around 'devant le': ...'   [E["m_p8a"], E["m_p8b"], E["m_p8c"], E["m_p8d"], E["m_p8e"]],\n             instr=E["instr_match"])\n\n# ---- G. dialogue ----\ndlg_defs = [\n    ("A2", "des billets", E["n_g1"]),\n    ("A2", "deux", E["n_g2"]),\n    ("B1", "quelle heure", E["n_g3"]),\n    ("A2", "devant le", E["n_g4"]),\n    ("A2", "film'...
+== S3 Q130 coord ==
+  elements at (989.0, 843.0): [('Newsreader', 20.0, '___')]
+== S4 Q36/Q37 offsets vs core P3 ==
+  Q36. new y=1829.0 core y=1799.3 offset=+29.7 (expect +29.7)
+  Q37. new y=1961.7 core y=1932.0 offset=+29.7 (expect +29.7)
+== S5 Q150 full key on P8 ==
+  y=1996.4 '\u3000150. Открытый вопрос — баллы в рамке; образец в'
+  'баллы в рамке' elements: [(1996.4, '\u3000150. Открытый вопрос — баллы в рамке; о')]

@@ -1,0 +1,30 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print pages: 8
+  print p1: min font 11.625pt spans=227
+  print p2: min font 11.625pt spans=259
+  print p3: min font 11.625pt spans=216
+  print p4: min font 11.625pt spans=229
+  print p5: min font 11.625pt spans=197
+  print p6: min font 11.625pt spans=218
+  print p7: min font 11.625pt spans=242
+  print p8: min font 10.125pt spans=273
+  rendered print-p1.png 1950x2700
+  rendered print-p2.png 1950x2700
+  rendered print-p3.png 1950x2700
+  rendered print-p4.png 1950x2700
+  rendered print-p5.png 1950x2700
+  rendered print-p6.png 1950x2700
+  rendered print-p7.png 1950x2700
+  rendered print-p8.png 1950x2700
+web pages: 8
+  web p1: min font 11.625pt spans=227
+  web p2: min font 11.625pt spans=259
+  web p3: min font 11.625pt spans=216
+  web p4: min font 11.625pt spans=229
+  web p5: min font 11.625pt spans=197
+  web p6: min font 11.625pt spans=218
+  web p7: min font 11.625pt spans=242
+  web p8: min font 10.125pt spans=273
+  rendered web-p1.png 1950x2700
+  rendered web-p8.png 1950x2700

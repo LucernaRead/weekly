@@ -1,0 +1,10 @@
+text_w old 387.0 (col 378.5, over +8.5)
+text_w new 344.0 (col 378.5, margin +34.5) single-line=True
+note-related <text> elements:
+  x=1461.5 y=520.0 size=21.5 text='大師賽結果與杜林名單見本版正文。'
+elements on baseline y=550.53 (+-1.0): 0
+lone 。 elements inside the chiffres box region: 0
+card size 1950x2700
+PIL ink in old-orphan band (x 1440-1862, y 530-575): 0 px
+PIL ink in new-note band (x 1440-1862, y 495-528): 2370 px, x 1462..1798, y 501..522 (col right edge 1862)
+D3 VERDICT: PASS

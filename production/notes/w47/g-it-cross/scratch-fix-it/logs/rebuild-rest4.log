@@ -1,0 +1,52 @@
+===== 2026-w47-it-ru =====
+  run-2026-w47-it-ru.log: RC=0
+  render-2026-w47-it-ru.log: RC=0
+  export-2026-w47-it-ru.log: RC=0
+  textmd diff: 26 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-ru.log: RC=0
+  print: 13752697 B sha af296c0525ea
+  web:   1465756 B sha 597e400ffcec
+  text:  67681 B sha 298c2cd79bb8
+===== 2026-w47-it-ru DONE =====
+===== 2026-w47-it-ja =====
+  run-2026-w47-it-ja.log: RC=0
+  render-2026-w47-it-ja.log: RC=0
+  export-2026-w47-it-ja.log: RC=0
+  textmd diff: 18 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-ja.log: RC=0
+  print: 21050187 B sha 38a236a3d0ca
+  web:   1697338 B sha e035db45098e
+  text:  58209 B sha 3dafa38c8b40
+===== 2026-w47-it-ja DONE =====
+===== 2026-w47-it-ko =====
+  run-2026-w47-it-ko.log: RC=0
+  render-2026-w47-it-ko.log: RC=0
+  export-2026-w47-it-ko.log: RC=0
+  textmd diff: 20 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-ko.log: RC=0
+  print: 15803899 B sha 66dffb4ebd5c
+  web:   1484256 B sha 7419a5a624e5
+  text:  57349 B sha c37668224de7
+===== 2026-w47-it-ko DONE =====
+===== 2026-w47-it-zh-tw =====
+  run-2026-w47-it-zh-tw.log: RC=0
+  render-2026-w47-it-zh-tw.log: RC=0
+  export-2026-w47-it-zh-tw.log: RC=0
+  textmd diff: 19 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-zh-tw.log: RC=0
+  print: 14907350 B sha 45abf7bfc8a7
+  web:   1640994 B sha 6d7a1efc737c
+  text:  52541 B sha cf5a828688a3
+===== 2026-w47-it-zh-tw DONE =====
+===== 2026-w47-it-zh-cn =====
+  run-2026-w47-it-zh-cn.log: RC=0
+  render-2026-w47-it-zh-cn.log: RC=0
+  export-2026-w47-it-zh-cn.log: RC=0
+  textmd diff: 15 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-zh-cn.log: RC=0
+  print: 14839774 B sha 77d33bf8c581
+  web:   1546123 B sha 7680a0ea63ac
+  text:  52630 B sha c6e9ef6c9f0a
+===== 2026-w47-it-zh-cn DONE =====
+ALL-REBUILDS-DONE
+EXIT=0

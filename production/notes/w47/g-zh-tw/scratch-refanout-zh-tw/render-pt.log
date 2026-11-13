@@ -1,0 +1,10 @@
+card: p1-front.png 805113
+card: p2-life.png 1276330
+card: p3-culture.png 1348937
+card: p4-sport.png 961338
+card: p5-youth.png 1232896
+card: p6-deep.png 782691
+card: p7-lang.png 1032258
+card: p8-test.png 1122642
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-pt/Lucerna-VOL4-PT.pdf 20944900
+web PDF: build separately with tools/webpdf.py -> Lucerna-VOL4-web.pdf

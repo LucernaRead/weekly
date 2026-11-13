@@ -1,0 +1,41 @@
+p1-une.svg: paper_rects=0 VOL.4=2 VOL.5=0
+  fills_out_of_palette={'#4F765D': 1, '#84A283': 1, '#F1E8D4': 4, '#4D72B4': 2, '#7898CD': 2, '#D7B257': 1, '#EDD17F': 1, '#34483A': 3} banned={}
+  text_fills={'#46581f': 54, '#6f675d': 20, '#302c28': 109, '#f4efe1': 1, '#cac8ba': 1, '#f6e08e': 2, '#ffffff': 10}
+  families={'Noto Sans CJK SC': 77, 'UnifrakturMaguntia': 1, 'Noto Serif CJK SC': 13, 'Newsreader': 106}
+  visible_CJK={'\u3000': 33} total=33
+  masthead 'Le Lucerna': True  'THE BIG STORY' sep full-width space: True
+p2-vie.svg: paper_rects=0 VOL.4=1 VOL.5=1
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 111, '#6f675d': 43, '#46581f': 26, '#ffffff': 12}
+  families={'Noto Sans CJK SC': 71, 'Newsreader': 114, 'Noto Serif CJK SC': 10}
+  visible_CJK={'\u3000': 33} total=33
+p3-culture.svg: paper_rects=0 VOL.4=1 VOL.5=0
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 124, '#6f675d': 28, '#46581f': 28, '#ffffff': 18}
+  families={'Noto Sans CJK SC': 74, 'Newsreader': 112, 'Noto Serif CJK SC': 15}
+  visible_CJK={'\u3000': 20} total=20
+p4-sport.svg: paper_rects=0 VOL.4=1 VOL.5=2
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 178, '#6f675d': 27, '#46581f': 24, '#ffffff': 15}
+  families={'Noto Sans CJK SC': 63, 'Newsreader': 151, 'Noto Serif CJK SC': 33}
+  visible_CJK={'\u3000': 29} total=29
+p5-jeunesse.svg: paper_rects=0 VOL.4=1 VOL.5=0
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 152, '#6f675d': 34, '#46581f': 20, '#ffffff': 14}
+  families={'Noto Sans CJK SC': 63, 'Newsreader': 135, 'Noto Serif CJK SC': 25}
+  visible_CJK={'\u3000': 21} total=21
+p6-politique.svg: paper_rects=0 VOL.4=1 VOL.5=0
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#302c28': 156, '#6f675d': 26, '#46581f': 33, '#ffffff': 15}
+  families={'Noto Sans CJK SC': 72, 'Newsreader': 140, 'Noto Serif CJK SC': 21}
+  visible_CJK={'\u3000': 23} total=23
+p7-langue.svg: paper_rects=0 VOL.4=3 VOL.5=3
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 3, '#f6e08e': 3, '#46581f': 35, '#302c28': 104, '#6f675d': 29, '#ffffff': 12, '#cac8ba': 3}
+  families={'Noto Sans CJK SC': 73, 'Newsreader': 107, 'Noto Serif CJK SC': 5, 'DejaVu Sans': 4}
+  visible_CJK={'\u3000': 14} total=14
+p8-exercices.svg: paper_rects=0 VOL.4=1 VOL.5=3
+  fills_out_of_palette={} banned={}
+  text_fills={'#f4efe1': 2, '#f6e08e': 1, '#46581f': 47, '#302c28': 253, '#6f675d': 15, '#ffffff': 38}
+  families={'Noto Sans CJK SC': 193, 'Newsreader': 124, 'Noto Serif CJK SC': 39}
+  visible_CJK={'\u3000': 196} total=196

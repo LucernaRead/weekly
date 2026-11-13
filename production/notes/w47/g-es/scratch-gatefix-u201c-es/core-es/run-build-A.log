@@ -1,0 +1,112 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python tools/run_build.py --build production/2026-w47/core-es --out /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A --steps run,render
+[03:18:54] build source : /home/hatch/workspace/weekly-git/production/2026-w47/core-es
+[03:18:54] production   : /home/hatch/workspace/weekly-git/production
+[03:18:54] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A
+[03:18:54] steps        : run, render
+[03:18:54] build is inside production/
+[03:18:55] snapshot: 35 production files hashed
+[03:18:55] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy
+[03:18:55] repointed files: none
+[03:18:55] repoint: no literal production paths found — OUT/BASE are __file__-relative and resolve inside the copy
+[03:18:55] verify: copy is clean — no .py references the real production tree
+[03:18:55] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/svg (any literal /svg target)
+[03:18:55] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[03:18:55] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[03:18:55] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1371 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1537 (bottom 1540)
+P2 col3 ends 964.0
+  flow[P2-ex] ended col 3/3 y=2356 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=625 (bottom 1560)
+P3 col3 ends 1571.75
+  flow[P3-ex] ended col 2/3 y=2436 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=827 (bottom 1080)
+P4 col3 ends 935.5
+  flow[P4-ex] ended col 2/3 y=2309 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=964 (bottom 1560)
+P5 col3 ends 1580.5499999999997
+  flow[P5-ex] ended col 2/3 y=2259 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=920 (bottom 1540)
+P6 col3 ends 1347.5 timeline box height 891.0000000000001
+  flow[P6-ex] ended col 3/3 y=2533 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1062 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1092 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1092 (bottom 1560)
+P7 col3 ends 1844.5099999999998
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=842 (bottom 1252)
+P8-ex flow ended y= 842.0749999999997
+P8 image bottom approx 1196.0749999999998
+  flow[P8-keys] ended col 3/3 y=2382 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+MODELO words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'完成句子': 48, '单选': 47, '词汇配对': 12, '判断对错': 8, '造句': 7, '句型转换': 10, '完形单选': 13, '翻译': 4, '写作': 1}
+ALL DONE
+[03:19:16] run.py: exit 0
+[03:19:16] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy)
+8 pages from /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/svg
+555 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 22244 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 22284 bytes
+  font LucernaNewsreader-Italic: 24540 bytes
+  font LucernaNotoSansCJKSC-Regular: 183204 bytes
+  font LucernaNotoSansCJKSC-Bold: 187160 bytes
+  font LucernaNotoSerifCJKSC-Regular: 260688 bytes
+  font LucernaNotoSerifCJKSC-Bold: 264244 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30832 bytes
+
+rendered p1-portada
+rendered p2-vida
+rendered p3-cultura
+rendered p4-deporte
+rendered p5-juventud
+rendered p6-afondo
+rendered p7-lengua
+rendered p8-ejercicios
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/La-Lucerna-VOL4.pdf 17213128
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/La-Lucerna-VOL4-web.pdf: 1410706 bytes, 44707 text bytes
+
+web PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/La-Lucerna-VOL4-web.pdf 1410706
+[03:21:00] render.py: exit 0
+[03:21:00] integrity: production unchanged (35 files re-hashed)
+[03:21:00] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A (19 svg/png/pdf files)
+[03:21:00]   out: build-copy/La-Lucerna-VOL4-web.pdf
+[03:21:00]   out: build-copy/La-Lucerna-VOL4.pdf
+[03:21:00]   out: build-copy/assets/lucerna-moth.svg
+[03:21:00]   out: build-copy/cards/p1-portada.png
+[03:21:00]   out: build-copy/cards/p2-vida.png
+[03:21:00]   out: build-copy/cards/p3-cultura.png
+[03:21:00]   out: build-copy/cards/p4-deporte.png
+[03:21:00]   out: build-copy/cards/p5-juventud.png
+[03:21:00]   out: build-copy/cards/p6-afondo.png
+[03:21:00]   out: build-copy/cards/p7-lengua.png
+[03:21:00]   out: build-copy/cards/p8-ejercicios.png
+[03:21:00]   out: build-copy/svg/p1-portada.svg
+[03:21:00]   out: build-copy/svg/p2-vida.svg
+[03:21:00]   out: build-copy/svg/p3-cultura.svg
+[03:21:00]   out: build-copy/svg/p4-deporte.svg
+[03:21:00]   out: build-copy/svg/p5-juventud.svg
+[03:21:00]   out: build-copy/svg/p6-afondo.svg
+[03:21:00]   out: build-copy/svg/p7-lengua.svg
+[03:21:00]   out: build-copy/svg/p8-ejercicios.svg

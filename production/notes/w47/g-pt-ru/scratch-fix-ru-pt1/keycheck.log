@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P8 keys in extract JSON: 150
+Answers entries in text.md: 150
+mismatches: 1
+  Q150: P8='✓' text.md='(Pergunta aberta, texto modelo abaixo)'
+KEYCHECK: 149/150 agree (Q150 open-question form difference is the known core-consistent exception)
+PRINT P2 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+PRINT P3 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+PRINT P4 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+PRINT P5 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+PRINT P6 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+WEB P2 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+WEB P3 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+WEB P4 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+WEB P5 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+WEB P6 D3 tail span x1=1856.3 :: 'rar-se; procure pelo número do exercício'
+done

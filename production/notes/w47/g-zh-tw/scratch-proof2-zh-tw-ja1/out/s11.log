@@ -1,0 +1,146 @@
+edition fills: {'#fbfaf6': 8, '#46581f': 277, '#6f675d': 303, '#302c28': 2363, '#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#f0eee5': 36, '#5c6e30': 41, '#ffffff': 138, '#37402f': 40, '#f4efe1': 18, '#f6e08e': 7}
+core fills: {'#fbfaf6': 8, '#46581f': 277, '#6f675d': 321, '#302c28': 2419, '#4f765d': 1, '#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#34483a': 3, '#f0eee5': 36, '#5c6e30': 41, '#ffffff': 138, '#37402f': 40, '#f4efe1': 18, '#f6e08e': 7}
+fills in edition not in core: {}
+fills in core not in edition: {}
+p1-front.svg paper rect: 1 | first rect: #fbfaf6
+p2-life.svg paper rect: 1 | first rect: #fbfaf6
+p3-culture.svg paper rect: 1 | first rect: #fbfaf6
+p4-sport.svg paper rect: 1 | first rect: #fbfaf6
+p5-youth.svg paper rect: 1 | first rect: #fbfaf6
+p6-deep.svg paper rect: 1 | first rect: #fbfaf6
+p7-lang.svg paper rect: 1 | first rect: #fbfaf6
+p8-test.svg paper rect: 1 | first rect: #fbfaf6
+ED U+00B7 text nodes: 58
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p6-deep.svg '· 17:00'
+    p6-deep.svg '· 18:30'
+    p6-deep.svg '· 19:00'
+    p6-deep.svg '· 20:00'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '·'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. 3'
+    p8-test.svg '· C. 5'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 1'
+    p8-test.svg '· B. 57'
+    p8-test.svg '· C. 587'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· C. 12'
+    p8-test.svg '· B. 38'
+    p8-test.svg '· C. 58'
+    p8-test.svg '· B. 6'
+    p8-test.svg '· C. 7'
+    p8-test.svg '· B. 50'
+    p8-test.svg '· C. 10'
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 7'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg 'A. 12:00 · B. 14:00 · C. 19:00'
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 8'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. '
+    p8-test.svg '· C.'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. 30'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+CORE U+00B7 text nodes: 58
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p5-youth.svg '·'
+    p6-deep.svg '· 17:00'
+    p6-deep.svg '· 18:30'
+    p6-deep.svg '· 19:00'
+    p6-deep.svg '· 20:00'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '·'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. 3'
+    p8-test.svg '· C. 5'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 1'
+    p8-test.svg '· B. 57'
+    p8-test.svg '· C. 587'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· C. 12'
+    p8-test.svg '· B. 38'
+    p8-test.svg '· C. 58'
+    p8-test.svg '· B. 6'
+    p8-test.svg '· C. 7'
+    p8-test.svg '· B. 50'
+    p8-test.svg '· C. 10'
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 7'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg 'A. 12:00 · B. 14:00 · C. 19:00'
+    p8-test.svg '· B. 5'
+    p8-test.svg '· C. 8'
+    p8-test.svg '· B. '
+    p8-test.svg '· C. '
+    p8-test.svg '· B. '
+    p8-test.svg '· C.'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. 30'
+    p8-test.svg '· B. 11'
+    p8-test.svg '· B. '
+    p8-test.svg '· B. '
+p1-front.svg VOL.4: 3 VOL.5: 0 | footer present: True
+p2-life.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p3-culture.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p4-sport.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p5-youth.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p6-deep.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p7-lang.svg VOL.4: 1 VOL.5: 1 | footer present: True
+p8-test.svg VOL.4: 1 VOL.5: 0 | footer present: True
+p1-front.svg strokes: {'#46581f': 3, '#34483A': 2, '#d8d2c4': 1}
+p2-life.svg strokes: {'#46581f': 3, '#d8d2c4': 1}
+p3-culture.svg strokes: {'#46581f': 3, '#d8d2c4': 1}
+p4-sport.svg strokes: {'#46581f': 4, '#d8d2c4': 1}
+p5-youth.svg strokes: {'#46581f': 3, '#d8d2c4': 1}
+p6-deep.svg strokes: {'#46581f': 4, '#302c28': 14, '#d8d2c4': 1}
+p7-lang.svg strokes: {'#46581f': 4, '#d8d2c4': 1}
+p8-test.svg strokes: {'#46581f': 7, '#d8d2c4': 1}

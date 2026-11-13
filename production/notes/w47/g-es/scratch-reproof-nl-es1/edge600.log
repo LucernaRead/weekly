@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D2 P1 bridge row: 1856.16
+page 1 whole excl footer = 1862.24
+D2 P2 col-title row: 1855.68
+D3 P2 furniture: 1853.92
+page 2 whole excl footer = 1861.92
+D3 P3 furniture: 1853.92
+page 3 whole excl footer = 1861.92
+D3 P4 furniture: 1853.92
+page 4 whole excl footer = 1861.92
+D3 P5 furniture: 1853.92
+page 5 whole excl footer = 1861.92
+D1 P6 chart title: 1849.44
+D3 P6 furniture: 1853.92
+page 6 whole excl footer = 1861.92
+page 7 whole excl footer = 1861.92
+D3 P8 header row: 1854.08
+page 8 whole excl footer = 1861.92
+whole-page (excl footer): {'page1': 1862.24, 'page2': 1861.92, 'page3': 1861.92, 'page4': 1861.92, 'page5': 1861.92, 'page6': 1861.92, 'page7': 1861.92, 'page8': 1861.92}

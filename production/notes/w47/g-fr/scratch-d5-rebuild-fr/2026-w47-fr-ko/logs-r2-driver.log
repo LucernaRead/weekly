@@ -1,0 +1,95 @@
+[2026-w47-fr-ko/r2] run.py
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+[2026-w47-fr-ko/r2] render.py
+render rc=0
+[2026-w47-fr-ko/r2] webpdf.py
+webpdf rc=0
+  font LucernaNotoSansCJKKR-Bold: 64976 bytes
+  font LucernaNotoSerifCJKKR-Regular: 137036 bytes
+  font LucernaNotoSerifCJKKR-Bold: 138040 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31412 bytes
+WROTE La-Lucerna-VOL4-fr-ko-web.pdf: 1923039 bytes, 47559 text bytes
+[2026-w47-fr-ko/r2] shas
+-rw-rw---- 1 root nogroup  1923039 Nov 12 11:15 La-Lucerna-VOL4-fr-ko-web.pdf
+-rw-rw---- 1 root nogroup 20086049 Nov 12 11:13 La-Lucerna-VOL4-fr-ko.pdf
+9aeba6cc400ec0b8e10c27534ccff048d3e03a3511ffe0beb86ceefc0f0a9e0f  La-Lucerna-VOL4-fr-ko.pdf
+98170fbd21aedaf92f58508b1cbecde24fd3b3551824f46acde8399f5b667f5f  La-Lucerna-VOL4-fr-ko-web.pdf
+f5474d61eeadf9fdb2fe6a5fb3e2e15ff9088201aa8989e986ed064f46ba5c37  2026-w47-fr-ko.text.md
+[2026-w47-fr-ko/r2] text layers print vs web
+TEXTLAYER print==web BYTE-IDENTICAL
+print chars 94860 web chars 94860
+multiset diff total 0
+only-in-print {} only-in-web {}
+[2026-w47-fr-ko/r2] occlusion
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+[2026-w47-fr-ko/r2] p8 extract
+p8extract rc=0
+svg/p8-exercices.svg: noted set = 121 of 150 (parse: joined)
+  set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[2026-w47-fr-ko/r2] p8 compare vs core-fr
+p8compare-core rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+[2026-w47-fr-ko/r2] p8 compare vs pre-fix baseline
+p8compare-pre rc=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ko/baseline/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[2026-w47-fr-ko/r2] freeze baseline
+freeze-baseline rc=0
+  OK  p7-langue.svg core 82f171746279fa4a produced 82f171746279fa4a
+  OK  p8-exercices.svg core 788f7c60f8318dfc produced 788f7c60f8318dfc
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[2026-w47-fr-ko/r2] freeze diff vs core-fr
+freeze-diff rc=0
+p1: +127 strings / -45 strings; CJK core 224 -> edition 223; added CJK chars: 188 {'제': 2, '호': 2, '매': 1, '주': 4, '발': 1, '행': 1, '프': 6, '랑': 6, '스': 9, '가': 1}; added Latin strings: 1 (unexpected 1)
+p2: +215 strings / -77 strings; CJK core 283 -> edition 333; added CJK chars: 300 {'\u3000': 1, '일': 18, '상': 4, '생': 1, '활': 1, '세': 8, '가': 1, '지': 2, '시': 2, '간': 2}; added Latin strings: 4 (unexpected 4)
+p3: +122 strings / -63 strings; CJK core 194 -> edition 187; added CJK chars: 168 {'문': 2, '화': 1, '보': 5, '졸': 2, '레': 2, '누': 2, '해': 2, '설': 2, '수': 1, '확': 1}; added Latin strings: 6 (unexpected 6)
+p4: +138 strings / -58 strings; CJK core 236 -> edition 237; added CJK chars: 208 {'스': 9, '포': 2, '츠': 1, '토': 5, '리': 4, '노': 3, '와': 3, '블': 1, '루': 1, '군': 1}; added Latin strings: 10 (unexpected 10)
+p5: +151 strings / -54 strings; CJK core 243 -> edition 238; added CJK chars: 216 {'젊': 1, '은': 4, '이': 1, '영': 10, '화': 10, '와': 2, '중': 2, '고': 6, '해': 2, '설': 2}; added Latin strings: 3 (unexpected 3)
+p6: +127 strings / -51 strings; CJK core 227 -> edition 196; added CJK chars: 171 {'시': 1, '사': 1, '상': 3, '원': 4, '의': 1, '예': 4, '산': 1, '해': 2, '설': 2, '법': 2}; added Latin strings: 8 (unexpected 8)
+p7: +265 strings / -77 strings; CJK core 411 -> edition 383; added CJK chars: 368 {'언': 1, '어': 4, '이': 8, '번': 3, '주': 6, '의': 5, '문': 15, '장': 5, '기': 7, '초': 1}; added Latin strings: 14 (unexpected 14)
+p8: +696 strings / -343 strings; CJK core 1220 -> edition 1365; added CJK chars: 941 {'\u3000': 11, '연': 2, '습': 1, '문': 5, '제': 13, '와': 3, '정': 6, '답': 5, '종': 3, '합': 1}; added Latin strings: 44 (unexpected 44)
+TOTAL added CJK characters: 2560
+TOTAL added Latin strings: 90 (unexpected 90)
+p5: +151 strings / -54 strings; CJK core 243 -> edition 238; added CJK chars: 216 {'젊': 1, '은': 4, '이': 1, '영': 10, '화': 10, '와': 2, '중': 2, '고': 6, '해': 2, '설': 2}; added Latin strings: 3 (unexpected 3)
+p6: +127 strings / -51 strings; CJK core 227 -> edition 196; added CJK chars: 171 {'시': 1, '사': 1, '상': 3, '원': 4, '의': 1, '예': 4, '산': 1, '해': 2, '설': 2, '법': 2}; added Latin strings: 8 (unexpected 8)
+p7: +265 strings / -77 strings; CJK core 411 -> edition 383; added CJK chars: 368 {'언': 1, '어': 4, '이': 8, '번': 3, '주': 6, '의': 5, '문': 15, '장': 5, '기': 7, '초': 1}; added Latin strings: 14 (unexpected 14)
+p8: +696 strings / -343 strings; CJK core 1220 -> edition 1365; added CJK chars: 941 {'\u3000': 11, '연': 2, '습': 1, '문': 5, '제': 13, '와': 3, '정': 6, '답': 5, '종': 3, '합': 1}; added Latin strings: 44 (unexpected 44)
+TOTAL added CJK characters: 2560
+TOTAL added Latin strings: 90 (unexpected 90)
+[2026-w47-fr-ko/r2] boxtitle
+boxtitle rc=0
+== 2026-w47-fr-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-ko: 47 titles, 546 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[2026-w47-fr-ko/r2] creambox
+creambox rc=0
+p4-sport.svg: els 232->335 lines 159->159 diff 4 moved 33 defects 0 observe 0
+p5-jeunesse.svg: els 212->336 lines 146->146 diff 3 moved 14 defects 0 observe 0
+p6-politique.svg: els 230->331 lines 159->160 diff 59 moved 66 defects 0 observe 0
+p7-langue.svg: els 186->434 lines 108->106 diff 105 moved 43 defects 0 observe 0
+p8-exercices.svg: els 356->1263 lines 189->189 diff 52 moved 40 defects 0 observe 0
+ratios: n=493 median=1.014 boldT=1.053 boldF=0.999
+P8 p8-exercices.svg: lines 189->189 slack_footer 45.7->45.7
+CREAMBOX PASS 0 defects
+[2026-w47-fr-ko/r2] spill
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1463.8 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-ko: 33 boxes, 136 candidates, 0 SPILL, 136 OBSERVE
+[2026-w47-fr-ko/r2] edge scan
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-ko: 8 pages, 0 TOUCH, 0 NEAR
+[2026-w47-fr-ko/r2] census
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+=== SUMMARY 2026-w47-fr-ko/r2 FAILFLAG=0 (rcs above; 0=pass) ===

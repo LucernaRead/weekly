@@ -1,0 +1,300 @@
+Q  1 key='gagné' core='gagné'
+      stem: Dimanche 8 novembre, Alcaraz a ___ le Masters de Paris.
+Q  2 key='mercredi' core='mercredi'
+      stem: C'est ___ que le Sénat vote, le 18 novembre.
+Q  3 key='jeudi' core='jeudi'
+      stem: C'est ___ que le beaujolais nouveau arrive, le 19 novembre.
+Q  4 key='premier' core='premier'
+      stem: C'est son ___ titre à Paris.
+Q  5 key='12,7' core='12,7'
+      stem: Le déficit de la Sécu doit passer de 21,8 à ___ milliards.
+Q  6 key='22' core='22'
+      stem: Les finales de Turin ont lieu dimanche ___ novembre.
+Q  7 key='A' core='A'
+      stem: Alcaraz a gagné Paris... A. dimanche 8　B. samedi 7　C. lundi 9
+Q  8 key='B' core='B'
+      stem: Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+Q  9 key='A' core='A'
+      stem: Le beaujolais nouveau arrive... A. jeudi 19　B. vendredi 20　C. samedi 21
+Q 10 key='B' core='B'
+      stem: Les finales de Turin, c'est... A. samedi 21　B. dimanche 22　C. lundi 23
+Q 11 key='mercredi' core='mercredi'
+      stem: Le Sénat vote ___ 18 novembre. [빈칸 채우기]
+Q 12 key='lundi' core='lundi'
+      stem: La semaine commence ___ 16 novembre. [빈칸 채우기]
+Q 13 key='jeudi' core='jeudi'
+      stem: Le beaujolais nouveau arrive ___ 19 novembre. [빈칸 채우기]
+Q 14 key='dimanche' core='dimanche'
+      stem: Les finales de Turin, c'est ___ 22 novembre. [빈칸 채우기]
+Q 15 key='Le Sénat va voter mercredi.' core='Le Sénat va voter mercredi.'
+      stem: Mercredi, le Sénat (voter). → ___ [바꿔 쓰기]
+Q 16 key='Nous allons goûter le beaujolais jeudi.' core='Nous allons goûter le beaujolais jeudi.'
+      stem: Jeudi, nous (goûter) le beaujolais. → ___ [바꿔 쓰기]
+Q 17 key='Tu vas raconter ton jeudi 19 novembre.' core='Tu vas raconter ton jeudi 19 novembre.'
+      stem: Tu (raconter) ton jeudi 19 novembre. → ___ [바꿔 쓰기]
+Q 18 key='Vous allez regarder les finales dimanche.' core='Vous allez regarder les finales dimanche.'
+      stem: Dimanche, vous (regarder) les finales → ___ [바꿔 쓰기]
+Q 19 key='C' core='C'
+      stem: La Journée de l'enfance, c'est le... A. 18 nov.　B. 19 nov.　C. 20 nov.
+Q 20 key='B' core='B'
+      stem: La Semaine de la réduction des déchets commence... A. le 19 nov.　B. le 21 nov.　C. le 29 nov.
+Q 21 key='A' core='A'
+      stem: Les finales de Turin, c'est... A. dimanche 22　B. samedi 21　C. lundi 23
+Q 22 key='a' core='a'
+      stem: <NO STEM>
+Q 23 key='b' core='b'
+      stem: <NO STEM>
+Q 24 key='c' core='c'
+      stem: <NO STEM>
+Q 25 key='d' core='d'
+      stem: <NO STEM>
+Q 26 key='Vrai' core='Vrai'
+      stem: En 1951, les vignerons obtiennent le droit de vendre plus tôt. [Vrai ou faux ?]
+Q 27 key='Faux' core='Faux'
+      stem: Le beaujolais nouveau sort le deuxième jeudi de novembre. [Vrai ou faux ?]
+Q 28 key='Vrai' core='Vrai'
+      stem: Le beaujolais nouveau est mis en vente le 19 novembre. [Vrai ou faux ?]
+Q 29 key='Faux' core='Faux'
+      stem: Les Sarmentelles ont lieu à Paris. [Vrai ou faux ?]
+Q 30 key='Vrai' core='Vrai'
+      stem: Le gamay est le cépage du Beaujolais. [Vrai ou faux ?]
+Q 31 key='gamay' core='gamay'
+      stem: Le cépage du Beaujolais, c'est le ___.
+Q 32 key='jeudi' core='jeudi'
+      stem: Le beaujolais nouveau sort le troisième ___ de novembre.
+Q 33 key='Beaujeu' core='Beaujeu'
+      stem: Les Sarmentelles ont lieu à ___.
+Q 34 key='1985' core='1985'
+      stem: La règle du troisième jeudi date de ___.
+Q 35 key='Le vin ne se vend jamais avant le troisième jeudi.' core='Le vin ne se vend jamais avant le troisième jeudi.'
+      stem: (jamais) Le vin se vend avant le troisième jeudi. → ___ [바꿔 쓰기]
+Q 36 key="On ne boit pas d'alcool avant 18 ans." core="On ne boit pas d'alcool avant 18 ans."
+      stem: (pas) On boit de l'alcool avant 18 ans. → ___ [바꿔 쓰기]
+Q 37 key="Le beaujolais n'est pas un vin blanc." core="Le beaujolais n'est pas un vin blanc."
+      stem: (pas) Le beaujolais est un vin blanc. → ___ [바꿔 쓰기]
+Q 38 key='75 ans' core='75 ans'
+      stem: Cette année, ce sont les ___ du rendez-vous.
+Q 39 key='minuit' core='minuit'
+      stem: La mise en perce a lieu à ___.
+Q 40 key='troisième' core='troisième'
+      stem: Le vin sort le ___ jeudi de novembre.
+Q 41 key='B' core='B'
+      stem: Le gamay est... A. un fromage　B. un cépage　C. un village
+Q 42 key='13' core='13'
+      stem: Les vendanges 2026 ont commencé le ___ août.
+Q 43 key='saucisson' core='saucisson'
+      stem: Pour accompagner le beaujolais : du ___.
+Q 44 key='B' core='B'
+      stem: La finale du Masters a eu lieu... A. samedi 7　B. dimanche 8　C. lundi 9
+Q 45 key='A' core='A'
+      stem: Alcaraz a battu en finale... A. Shelton　B. Sinner　C. Zverev
+Q 46 key='C' core='C'
+      stem: Les Masters de Turin commencent... A. le 9 nov.　B. le 12 nov.　C. le 15 nov.
+Q 47 key='A' core='A'
+      stem: Le Français débutant à Turin, c'est... A. Fils　B. Cobolli　C. Jodar
+Q 48 key='A' core='A'
+      stem: La 11e journée de Ligue 1 reprend... A. vendredi 20　B. dimanche 15　C. lundi 9
+Q 49 key='a' core='a'
+      stem: <NO STEM>
+Q 50 key='b' core='b'
+      stem: <NO STEM>
+Q 51 key='c' core='c'
+      stem: <NO STEM>
+Q 52 key='d' core='d'
+      stem: <NO STEM>
+Q 53 key='plus vite' core='plus vite'
+      stem: En salle, la balle va ___ (vite) qu'en plein air.
+Q 54 key='plus grand' core='plus grand'
+      stem: Turin est ___ (grand) qu'un petit tournoi.
+Q 55 key='moins longue' core='moins longue'
+      stem: La trêve est ___ (longue) que la saison. (moins)
+Q 56 key='forfait' core='forfait'
+      stem: Sinner a déclaré ___ : blessé, il n'a pas joué.
+Q 57 key='finale' core='finale'
+      stem: La ___ du simple a eu lieu dimanche 8.
+Q 58 key='groupes' core='groupes'
+      stem: À Turin, huit joueurs, en deux ___ de quatre.
+Q 59 key='tirage' core='tirage'
+      stem: Le ___ des groupes a eu lieu jeudi 12.
+Q 60 key='Bordeaux' core='Bordeaux'
+      stem: France – Turquie, dimanche 15, à ___.
+Q 61 key='Milan' core='Milan'
+      stem: Italie – France, jeudi 12, à ___.
+Q 62 key='B' core='B'
+      stem: Mercredi 18 novembre, il sort... A. 6 films　B. 16 films　C. 56 films
+Q 63 key='B' core='B'
+      stem: Haymitch est le héros... A. d'un match　B. du prequel　C. d'une comédie
+Q 64 key='B' core='B'
+      stem: « Les Braves », c'est un film de... A. Francis Lawrence　B. Lukas Dhont　C. Mipo O
+Q 65 key='A' core='A'
+      stem: Dans « Jupiter », le président, c'est... A. Denis Ménochet　B. Johnny Depp　C. Guillermo Guiz
+Q 66 key='A' core='A'
+      stem: « Camembert », c'est l'histoire... A. d'une partie de Trivial Pursuit　B. d'un braquage　C. d'un concert
+Q 67 key='mercredi' core='mercredi'
+      stem: Les nouveaux films sortent le ___.
+Q 68 key='prequel' core='prequel'
+      stem: « Hunger Games », c'est un ___.
+Q 69 key='Ménochet' core='Ménochet'
+      stem: « Jupiter », c'est avec Denis ___.
+Q 70 key='21' core='21'
+      stem: La Semaine de la réduction des déchets commence le ___ novembre.
+Q 71 key='produit' core='produit'
+      stem: Le meilleur déchet est celui qu'on ne ___ pas.
+Q 72 key='acheter' core='acheter'
+      stem: Acheter en seconde main, c'est ___ d'occasion.
+Q 73 key='a' core='a'
+      stem: <NO STEM>
+Q 74 key='b' core='b'
+      stem: <NO STEM>
+Q 75 key='c' core='c'
+      stem: <NO STEM>
+Q 76 key='d' core='d'
+      stem: <NO STEM>
+Q 77 key='des billets' core='des billets'
+      stem: — Tu as pris ___ pour mercredi ? — Oui, pour toi et moi.
+Q 78 key='deux' core='deux'
+      stem: — Tu as pris combien de billets ? — ___, pour toi et moi.
+Q 79 key='B' core='B'
+      stem: Le 23 octobre : les recettes... A. adoptées　B. rejetées　C. reportées
+Q 80 key='B' core='B'
+      stem: Le 4 novembre, le vote... A. 115–1　B. 458–0　C. 404–1
+Q 81 key='B' core='B'
+      stem: Le vote sur la Sécu... A. 9 nov.　B. 18 nov.　C. 20 nov.
+Q 82 key='B' core='B'
+      stem: Le budget de l'État, dès le... A. 9 nov.　B. 20 nov.　C. 26 nov.
+Q 83 key='C' core='C'
+      stem: Le vote sur le budget... A. 18 nov.　B. 26 nov.　C. 9 déc.
+Q 84 key='B' core='B'
+      stem: Cinquante jours, jusqu'au... A. 9 nov.　B. 26 nov.　C. 18 déc.
+Q 85 key='a' core='a'
+      stem: <NO STEM>
+Q 86 key='b' core='b'
+      stem: <NO STEM>
+Q 87 key='c' core='c'
+      stem: <NO STEM>
+Q 88 key='d' core='d'
+      stem: <NO STEM>
+Q 89 key='plus long' core='plus long'
+      stem: Un débat au Sénat est ___ (long) qu'un concert.
+Q 90 key='moins simple' core='moins simple'
+      stem: Le budget est ___ (simple) qu'un calendrier. (moins)
+Q 91 key='aussi important' core='aussi important'
+      stem: Le budget de la Sécu est ___ (important) que le budget de l'État. (aussi)
+Q 92 key='examine' core='examine'
+      stem: Cette semaine, le Sénat ___ le budget de la Sécu.
+Q 93 key='ont rejeté' core='ont rejeté'
+      stem: Le 4 novembre, les députés ___ les recettes du budget.
+Q 94 key='part' core='part'
+      stem: Le texte ___ au Sénat.
+Q 95 key='peut' core='peut'
+      stem: Le calendrier ___ encore bouger.
+Q 96 key='connus' core='connus'
+      stem: Les résultats du 18 novembre ne sont pas encore ___.
+Q 97 key='battu' core='battu'
+      stem: Alcaraz a ___ (battre) Shelton.
+Q 98 key='est arrivé' core='est arrivé'
+      stem: Le beaujolais nouveau ___ (arriver) jeudi.
+Q 99 key='vote' core='vote'
+      stem: Le Sénat ___ (voter) mercredi.
+Q100 key='beauté' core='beauté'
+      stem: La semaine se termine en ___ (beau).
+Q101 key='produit' core='produit'
+      stem: Le meilleur déchet est celui qu'on ne ___ (produire) pas.
+Q102 key='sortent' core='sortent'
+      stem: Mercredi, seize films ___ (sortir) dans les salles de cinéma.
+Q103 key='rejetée' core='rejetée'
+      stem: La première partie est ___ (rejeter).
+Q104 key='jouer' core='jouer'
+      stem: Une semaine en trois temps : voter, fêter et ___.
+Q105 key='Alcaraz a battu Shelton.' core='Alcaraz a battu Shelton.'
+      stem: ✗ « Alcaraz a battre Shelton. » [고치기]
+Q106 key='Le Sénat vote mercredi.' core='Le Sénat vote mercredi.'
+      stem: ✗ « Le Sénat votent mercredi. » [고치기]
+Q107 key='Il est prévu que le Sénat examine le texte.' core='Il est prévu que le Sénat examine le texte.'
+      stem: ✗ « Il est prévu que le Sénat va examiner le texte. » [고치기]
+Q108 key='Le beaujolais nouveau arrive jeudi 19 novembre.' core='Le beaujolais nouveau arrive jeudi 19 novembre.'
+      stem: ✗ « Le beaujolais nouveau arrive vendredi 20 novembre. » [고치기]
+Q109 key='A' core='A'
+      stem: A. lundi　B. samedi　C. dimanche
+Q110 key='B' core='B'
+      stem: A. Paris　B. Beaujeu　C. Turin
+Q111 key='A' core='A'
+      stem: A. résultats　B. finalistes　C. spectateurs
+Q112 key='B' core='B'
+      stem: A. acheté　B. goûté　C. vendu
+Q113 key='A' core='A'
+      stem: A. propose　B. proposent　C. se tient
+Q114 key='A' core='A'
+      stem: A. aimé　B. aimée　C. aimer
+Q115 key='B' core='B'
+      stem: A. joue　B. jouent　C. jouer
+Q116 key='A' core='A'
+      stem: A. écrit　B. écrivent　C. écris
+Q117 key='A' core='A'
+      stem: Turin commence... A. dimanche 15　B. lundi 16　C. mercredi 18
+Q118 key='A' core='A'
+      stem: Le beaujolais nouveau, c'est... A. un vin primeur　B. un fromage　C. un film
+Q119 key='B' core='B'
+      stem: Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+Q120 key='B' core='B'
+      stem: Si j'étais libre dimanche, j'___ à Turin. A. irai　B. irais　C. vais
+Q121 key='A' core='A'
+      stem: À mon avis, ce programme ___ très riche. A. semble　B. sembler　C. semblant
+Q122 key='B' core='B'
+      stem: Dimanche, la France ___ la Turquie à Bordeaux. A. reçoivent　B. reçoit　C. recevoir
+Q123 key='A' core='A'
+      stem: Hunger Games, c'est... A. un prequel　B. un match　C. une foire
+Q124 key='C' core='C'
+      stem: Le beaujolais nouveau arrive... A. le 11 nov.　B. le 15 nov.　C. le 19 nov.
+Q125 key='A' core='A'
+      stem: Le matin, la famille lit... A. le journal　B. un roman　C. une bande-annonce
+Q126 key='A' core='A'
+      stem: L'après-midi, la famille regarde... A. les finales de Turin　B. un film　C. les Sarmentelles
+Q127 key='A' core='A'
+      stem: Marseille – Le Mans, c'est à... A. 20 h 45　B. 17 h 15　C. 15 h
+Q128 key='A' core='A'
+      stem: Le soir, les enfants dorment tôt parce que... A. lundi, c'est l'école　B. il pleut　C. ils sont malades
+Q129 key='A' core='A'
+      stem: Lundi, les enfants... A. retournent à l'école　B. restent à la maison　C. vont à Turin
+Q130 key='Le Sénat va voter mercredi.' core='Le Sénat va voter mercredi.'
+      stem: Futur proche : « Le Sénat vote mercredi. » → ___
+Q131 key='Si tu venais dimanche, tu verrais les finales.' core='Si tu venais dimanche, tu verrais les finales.'
+      stem: Hypothèse : « Si tu (venir) dimanche, tu verrais les finales. »
+Q132 key='Il a goûté le beaujolais à Beaujeu.' core='Il a goûté le beaujolais à Beaujeu.'
+      stem: Passé composé : « Il (goûter) le beaujolais à Beaujeu. »
+Q133 key='Selon moi, la semaine est bien remplie.' core='Selon moi, la semaine est bien remplie.'
+      stem: Opinion : « ___ moi, la semaine est bien remplie. »
+Q134 key='Il est prévu que le Sénat examine le texte mercredi.' core='Il est prévu que le Sénat examine le texte mercredi.'
+      stem: Subjonctif : « Il est prévu que le Sénat (examiner) le texte mercredi. » → ___
+Q135 key="Regarder une finale, c'est déjà apprendre le français." core="Regarder une finale, c'est déjà apprendre le français."
+      stem: 결승을 보면, 프랑스어를 배우는 것이다.
+Q136 key='Il court plus vite que son frère.' core='Il court plus vite que son frère.'
+      stem: 형보다 빨리 달린다.
+Q137 key='Nous suivons le vote du Sénat depuis lundi.' core='Nous suivons le vote du Sénat depuis lundi.'
+      stem: 월요일부터 상원 표결을 지켜보고 있다.
+Q138 key='Ce soir, nous allons préparer nos affaires.' core='Ce soir, nous allons préparer nos affaires.'
+      stem: 오늘 밤 짐을 쌀 것이다.
+Q139 key='On ne connaît pas encore les résultats.' core='On ne connaît pas encore les résultats.'
+      stem: 결과는 아직 모른다.
+Q140 key='a' core='a'
+      stem: <NO STEM>
+Q141 key='b' core='b'
+      stem: <NO STEM>
+Q142 key='c' core='c'
+      stem: <NO STEM>
+Q143 key='d' core='d'
+      stem: <NO STEM>
+Q144 key='e' core='e'
+      stem: <NO STEM>
+Q145 key='des billets' core='des billets'
+      stem: <NO STEM>
+Q146 key='deux' core='deux'
+      stem: <NO STEM>
+Q147 key='quelle heure' core='quelle heure'
+      stem: <NO STEM>
+Q148 key='devant le' core='devant le'
+      stem: <NO STEM>
+Q149 key='film' core='film'
+      stem: <NO STEM>
+Q150 key='자유 작문' core='开放题'  <-- KEY DIFFERS FROM CORE
+      stem: <NO STEM>

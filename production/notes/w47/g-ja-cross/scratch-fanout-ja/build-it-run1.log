@@ -1,0 +1,26 @@
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=921 (bottom 1828)
+  flow[P1-ryukougo] ended col 0/0 y=2197 (bottom 2290)
+  flow[P1-quiz] ended col 3/3 y=2525 (bottom 2540)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=477 (bottom 1540)
+P2 col3 ends 1157.0
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=477 (bottom 1500)
+P3 col3 ends 1372.1
+  flow[P3-ex] ended col 2/3 y=2022 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=1230 (bottom 1440)
+P4 col3 ends 1068.5
+  flow[P4-ex] ended col 3/3 y=2234 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+Traceback (most recent call last):
+  File "/home/hatch/workspace/weekly-git/production/2026-w47/fanout-ja/2026-w47-ja-it/run.py", line 11, in <module>
+    runpy.run_path(f, run_name="__main__")
+  File "<frozen runpy>", line 285, in run_path
+  File "<frozen runpy>", line 253, in _get_code_from_file
+  File "<frozen posixpath>", line 420, in abspath
+FileNotFoundError: [Errno 2] No such file or directory

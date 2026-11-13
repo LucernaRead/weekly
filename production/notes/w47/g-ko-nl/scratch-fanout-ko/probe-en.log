@@ -1,0 +1,11 @@
+P8-keys sim: end col 3 y=2411.1 (bottom 2540, headroom 128.9) overflows=0
+  2-line entries: 4
+    #79 (2 lines): 79. 수험생은 열심히 공부해요. — Word order: subject + adverb + verb
+    #81 (2 lines): 81. 비행기는 듣기 시간에 뜨지 않아요. — No flights during the listening test
+    #133 (2 lines): 133. 저는 수요일에 예비소집에 가요. — Word order: subject + time + place + verb
+    #136 (2 lines): 136. 수험생은 도서관에서 공부해요. — Use 「에서」 for the place of an action
+P7 sim: clinic eh=780.2 frame wh=253.0 letters lh=455.5 col3_end=1712.7 (core 1805.7) teaser_end=2454.7 (footer 2580)
+  disclosure lines: 7
+P2 and-you box: prompt 2 -> 3 lines (delta +1); box end 1169.0 -> 1198.0 (limit 1554)
+P3 and-you box: prompt 2 -> 3 lines (delta +1); box end 1479.7 -> 1508.7 (limit 1608)
+P5 and-you box: prompt 2 -> 3 lines (delta +1); box end 795.0 -> 824.0 (limit 1608)

@@ -1,0 +1,57 @@
+svglib font map keys: n/a
+Newsreader regular candidates: ['/home/hatch/workspace/weekly-git/tools/fonts/Newsreader-Regular.ttf']
+D3 TRUE-INK 'a. een lijst m' inkbox=(0, 0, 291, 23) ink_right=1764.5 clearance=+97.5
+D3 TRUE-INK 'b. een klein v' inkbox=(0, 0, 344, 23) ink_right=1817.5 clearance=+44.5
+D3 TRUE-INK 'c. eten voor S' inkbox=(0, 0, 317, 22) ink_right=1790.5 clearance=+71.5
+D3 TRUE-INK "d. die staat '" inkbox=(0, 0, 333, 23) ink_right=1806.5 clearance=+55.5
+D3 TRUE-INK left y=1968 ink_right=1583.5 clearance=+278.5 :: 25. de schoen
+D3 TRUE-INK left y=2005 ink_right=1576.5 clearance=+285.5 :: 26. de wortel
+D3 TRUE-INK left y=2042 ink_right=1653.5 clearance=+208.5 :: 27. het verlanglijstje
+D3 TRUE-INK left y=2079 ink_right=1596.5 clearance=+265.5 :: 28. het gedicht
+p8 extract rc=0
+p8 extract stdout:   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 noted set size=150 complete=True
+p8 missing=[] extra=[]
+text.md exercise numbers: n=150 set==1..150: True min=1 max=150 dup=[]
+P8 right-option lines: []
+MATCH-ITEM 25. de schoen — die staat 's avonds bij de deur (答案 d · schoen=鞋子 d)
+MATCH-ITEM 26. de wortel — eten voor Sinterklaas' paard (答案 c · wortel=胡萝卜 c)
+MATCH-ITEM 27. het verlanglijstje — een lijst met wensen voor Sinterklaas (答案 a · verlanglijstje=愿望单 a)
+MATCH-ITEM 28. het gedicht — een klein versje bij een cadeau (答案 b · gedicht=诗 b)
+MATCH-ITEM 141. het journaal — een dagelijks nieuwsprogramma op televisie (答案 b · journaal=新闻节目 b)
+MATCH-ITEM 142. de groepswinst — de eerste plaats in de groep (答案 c · groepswinst=小组头名 c)
+MATCH-ITEM 143. de schoen — die staat 's avonds bij de deur (答案 d · schoen=鞋子 d)
+MATCH-ITEM 144. het gedicht — een klein versje bij een cadeau (答案 a · gedicht=诗 a)
+P8 span-size histogram (print PDF): [(10.12, 561), (10.35, 65), (10.5, 8), (10.88, 9), (11.25, 6), (11.62, 1), (12.75, 4), (13.5, 2), (14.25, 37), (14.62, 12), (15.38, 1), (15.75, 16), (17.25, 5), (18.0, 39), (18.75, 2), (34.5, 3)]
+P8 spans <10.5pt: [10.12, 10.35] (expect none below 9.75)
+P8 min span size overall: 10.12
+textlayer P1: tokens print=760 web=760 positional-diff=0 multiset-diff=0
+textlayer P2: tokens print=715 web=715 positional-diff=0 multiset-diff=0
+textlayer P3: tokens print=673 web=673 positional-diff=0 multiset-diff=0
+textlayer P4: tokens print=671 web=671 positional-diff=0 multiset-diff=0
+textlayer P5: tokens print=700 web=700 positional-diff=0 multiset-diff=0
+textlayer P6: tokens print=659 web=659 positional-diff=0 multiset-diff=0
+textlayer P7: tokens print=738 web=738 positional-diff=0 multiset-diff=0
+textlayer P8: tokens print=1686 web=1686 positional-diff=0 multiset-diff=0
+pdftotext bytes print=44197 web=44197
+quotes P1: ASCII-doublequote=0 backtick=0 left-dquote=1 right-dquote=1 guillemet-open=1 guillemet-close=1 single-curly=0 straight-apos=2
+quotes P2: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=2 guillemet-close=2 single-curly=0 straight-apos=5
+quotes P3: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=0 guillemet-close=0 single-curly=0 straight-apos=1
+quotes P4: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=0 guillemet-close=0 single-curly=0 straight-apos=0
+quotes P5: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=0 guillemet-close=0 single-curly=0 straight-apos=0
+quotes P6: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=0 guillemet-close=0 single-curly=0 straight-apos=0
+quotes P7: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=30 guillemet-close=30 single-curly=0 straight-apos=1
+quotes P8: ASCII-doublequote=0 backtick=0 left-dquote=0 right-dquote=0 guillemet-open=2 guillemet-close=2 single-curly=0 straight-apos=2
+quotes text.md: ASCII-dquote=0 backtick=0 “=1 ”=1 «=35 »=35
+Q150 model words (split)=81 (excl. standalone dash)=80 ; claim=81
+golden lines found: 8
+  golden verbatim-in-body: True :: Op maandag 16 november speelt Oranje in Berlijn tegen Duitsl
+  golden verbatim-in-body: True :: Na vier wedstrijden staan Nederland en Griekenland samen bov
+  golden verbatim-in-body: True :: Op zaterdag 5 december is het pakjesavond: de avond met de g
+  golden verbatim-in-body: True :: Op zaterdag 14 november kwam Sinterklaas officieel aan in Ne
+  golden verbatim-in-body: True :: Nederland staat eerste, omdat het meer doelpunten maakte: 7 
+  golden verbatim-in-body: True :: Elke zondag om 20:00 uur is Expeditie Robinson te zien op RT
+  golden verbatim-in-body: True :: Sinterklaas is een oud feest in Nederland
+  golden verbatim-in-body: True :: Een traditie leeft als mensen haar blijven vieren
+level counts: {'A2': 43, 'B1': 73, 'B2': 28} (expect A2 46 / B1 73 / B2 31; match items counted via range headers? check)
+exercises by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38} total=150 (expect 10/18/18/18/18/18/12/38)

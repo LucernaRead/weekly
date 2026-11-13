@@ -1,0 +1,20 @@
+PASS Q68 key B — B
+PASS Q65 key B — B
+PASS P8 Q68 line ', TRI '
+PASS P8 Q65 line full
+PASS Q137 key — '11월 20일 금요일은 전국 공휴일이에요.'
+PASS Q138 key — '파우메이라스는 승부차기에서 5–4로 이겼어요.'
+PASS content7:52 bridge fixed
+PASS content12:45 numbers item fixed
+PASS content12:266 ex key untouched
+PASS content56:25 plan item fixed
+PASS content56:74 Q68 comma space
+PASS text.md 534 lines — splitlines=534
+PASS text.md L38 F2
+PASS text.md L280 F3b
+PASS text.md L393 F1
+PASS text.md: no ',TRI'
+PASS core-pt: no file newer than session start — []
+PASS core-pt: git diff empty (tracked)
+PASS freeze-core: core SVGs unchanged by the run
+ALL FIX1 VERIFICATIONS PASS

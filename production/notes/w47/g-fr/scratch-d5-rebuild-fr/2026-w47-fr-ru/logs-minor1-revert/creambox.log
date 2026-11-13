@@ -1,0 +1,14 @@
+p1-une.svg: els 197->357 lines 116->116 diff 2 moved 17 defects 0 observe 0
+p2-vie.svg: els 195->441 lines 131->136 diff 108 moved 97 defects 0 observe 0
+p3-culture.svg: els 201->324 lines 145->146 diff 96 moved 68 defects 0 observe 0
+p4-sport.svg: els 247->372 lines 166->170 diff 147 moved 75 defects 0 observe 0
+p5-jeunesse.svg: els 223->375 lines 147->147 diff 10 moved 14 defects 3 observe 0
+  DEFECT spill box#1 'Кино или дома? Старая вещь обретёт' {'box': 1, 's': 'Кино или дома? Старая вещь обретёт', 'issue': 'spilled below box', 'y_base': 780.6, 'y_patch': 2326.6, 'box_bottom': 887.9}
+  DEFECT spill box#1 'нового хозяина — или попадёт в' {'box': 1, 's': 'нового хозяина — или попадёт в', 'issue': 'spilled below box', 'y_base': 811.0, 'y_patch': 2354.6, 'box_bottom': 887.9}
+  DEFECT spill box#1 'мусор?' {'box': 1, 's': 'мусор?', 'issue': 'spilled below box', 'y_base': 841.5, 'y_patch': 2382.6, 'box_bottom': 887.9}
+p6-politique.svg: els 233->346 lines 165->161 diff 103 moved 45 defects 0 observe 0
+p7-langue.svg: els 189->428 lines 110->118 diff 116 moved 59 defects 0 observe 0
+p8-exercices.svg: els 356->1294 lines 194->196 diff 74 moved 42 defects 0 observe 0
+ratios: n=515 median=1.029 boldT=1.049 boldF=1.016
+P8 p8-exercices.svg: lines 194->196 slack_footer 32.7->32.7
+CREAMBOX FAIL 3 defects

@@ -1,0 +1,143 @@
+## en  (PDF The-Lucerna-VOL4-en-zh-cn.web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False] :: On Tuesday, November 3, Americans voted in the midterm election — for all 435 seats in the House of Representatives, for
+  more[0]: shortened? words-in-order p[2] (json page=2) :: The Week After the Vote: What Happens Now?
+  more[1]: shortened? words-in-order p[3] (json page=3) :: Friday at the Movies: Haymitch Goes Back to the Arena
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Perth, One Year On: How Australia Kept the Ashes
+  more[3]: shortened? words-in-order p[5] (json page=5) :: Break the Silence: Odd Socks and Loud Voices
+  more[4]: shortened? words-in-order p[6] (json page=6) :: The Map After November 3: Reading the Results
+  more[5]: OK verbatim p[1, 7] :: Phrases of the week
+  word: term 'midterm' found p[1, 6, 7, 8] (json page=1)
+  pages: ['Life', 'Culture', 'Sport', 'Youth', 'Deep Read', 'Language in Hand', 'Exercises']
+
+## de  (PDF Die-Lucerna-VOL4-de-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, True, False, False] :: Diese Woche ist die Bundesliga zurück: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern gegen den 1. FC Köln.
+  more[0]: shortened? words-in-order p[2] (json page=2) :: Ein Mittwoch, der fast frei ist: Der Buß- und Bettag
+  more[1]: shortened? words-in-order p[3] (json page=3) :: Weihnachtsmärkte öffnen — aber am Sonntag bleiben sie zu
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Die Woche der Ergebnisse — und die Rückkehr der Liga
+  more[3]: shortened? words-in-order p[5] (json page=5) :: Adventskalender basteln: 24 Türchen bis Weihnachten
+  more[4]: shortened? words-in-order p[6] (json page=6) :: Eine stille Woche: Was bedeuten Buß- und Bettag und Totensonntag?
+  more[5]: OK verbatim p[7] :: Sätze der Woche & Fehlerklinik
+  word: term 'Totensonntag' found p[1, 2, 3, 6, 8] (json page=6)
+  pages: ['Leben', 'Kultur', 'Sport', 'Jugend', 'Vertiefung', 'Sprache', 'Übungen']
+
+## fr  (PDF La-Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False] :: Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5, en finale du Rolex Paris Masters, à Nanterre.
+  more[0]: shortened? words-in-order p[2] (json page=2) :: Lundi 16 novembre : une semaine en trois temps
+  more[1]: shortened? words-in-order p[1, 2, 3] (json page=3) :: Le beaujolais nouveau a 75 ans
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Alcaraz gagne Paris, Turin commence
+  more[3]: shortened? words-in-order p[5] (json page=5) :: Mercredi 18 novembre : le cinéma, et la seconde main
+  more[4]: shortened? words-in-order p[6] (json page=6) :: Au Sénat, mercredi 18 : le vote du budget de la Sécu
+  more[5]: OK verbatim p[1, 7] :: Les phrases de la semaine
+  word: term 'trancher' found p[1] (json page=1)
+  pages: ['Vie quotidienne', 'Culture', 'Sport', 'Jeunesse & Musique', 'Politique', 'Langue en main', 'Exercices']
+
+## es  (PDF La-Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False] :: La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.
+  more[0]: shortened? words-in-order p[2] (json page=2) :: La semana, día a día: del lunes 16 al domingo 22
+  more[1]: shortened? words-in-order p[3] (json page=3) :: El flamenco cumple: del 16 de noviembre a Santa Cecilia
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Vuelve la Liga: la jornada 13, del viernes al lunes
+  more[3]: shortened? words-in-order p[5] (json page=5) :: Votar por primera vez: el jueves 19 se cierra el plazo
+  more[4]: OK verbatim p[6] :: Leer la campaña: debates, programas y encuestas
+  more[5]: NOT FOUND !! (json page=7) :: Frases de la semana
+  word: term 'el debate' found p[1, 2, 6, 7, 8] (json page=1)
+  pages: ['Vida', 'Cultura', 'Deporte', 'Juventud', 'A fondo', 'Lengua', 'Ejercicios']
+
+## it  (PDF La-Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False] :: La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta.
+  more[0]: shortened? words-in-order p[2] (json page=2) :: Venezia prega, l'Italia pianta alberi: il 21 novembre
+  more[1]: shortened? words-in-order p[3] (json page=3) :: Due feste dolci chiudono in bellezza: torrone e cioccolato
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata
+  more[3]: shortened? words-in-order p[5] (json page=5) :: I giovani leggono: BookCity arriva, il cinema torna a Torino
+  more[4]: shortened? words-in-order p[6] (json page=6) :: La manovra va in Parlamento: audizioni, emendamenti, voto
+  more[5]: PAGE MISMATCH (json=7 found=[1]) verbatim p[1] :: Frasi della settimana
+  word: term 'la vetta' found p[1, 4, 7] (json page=1)
+  pages: ['Vita', 'Cultura', 'Sport', 'Giovani', 'Approfondimento', 'Lingua', 'Valutazione']
+
+## pt  (PDF A-Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, False] :: Sexta, 20 de novembro, é feriado nacional: o Dia Nacional de Zumbi e da Consciência Negra. A data lembra a morte de Zumb
+  more[0]: shortened? words-in-order p[1, 2] (json page=2) :: Sexta, 20 de novembro: o feriado e o feriadão
+  more[1]: OK verbatim p[3] :: Zumbi e Palmares: a história do 20 de novembro
+  more[2]: shortened? words-in-order p[4] (json page=4) :: Grêmio e Palmeiras decidem a Copa do Brasil
+  more[3]: OK verbatim p[5] :: Depois do Enem: a espera começa
+  more[4]: shortened? words-in-order p[6] (json page=6) :: O gabarito explicado: como funciona a espera
+  more[5]: PAGE MISMATCH (json=7 found=[1]) verbatim p[1] :: Frases da semana
+  word: term 'consciência' found p[1, 3, 7, 8] (json page=1)
+  pages: ['Vida', 'Cultura', 'Esporte', 'Jovens', 'Aprofundamento', 'Língua', 'Avaliação']
+
+## nl  (PDF De-Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, False] :: Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion 
+  more[0]: shortened? words-in-order p[2] (json page=2) :: De schoen staat klaar: aftellen naar pakjesavond
+  more[1]: shortened? words-in-order p[3] (json page=3) :: Sinterklaas is er: Grave, Amsterdam en het journaal
+  more[2]: shortened? words-in-order p[1, 4] (json page=4) :: Oranje: de beslissing in Berlijn
+  more[3]: shortened? words-in-order p[5] (json page=5) :: Robinson op zondag — en de surprises
+  more[4]: OK verbatim p[6] :: Sinterklaas: oud feest, nieuwe wensen
+  more[5]: NOT FOUND !! (json page=7) :: Zinnen van de week
+  word: term 'de groepswinst' found p[1, 4, 7, 8] (json page=1)
+  pages: ['Leven', 'Cultuur', 'Sport', 'Jongeren', 'Verdieping', 'Taal', 'Toets']
+
+## ru  (PDF Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, False] :: Все восемь матчей 14-го тура завершены: тур сыграли 6–8 ноября. «Зенит» и «Динамо» набрали по 31 очку и делят первое мес
+  more[0]: OK verbatim p[2] :: День студента, день рождения Деда Мороза
+  more[1]: OK verbatim p[1, 3] :: Кино 19 ноября: пять премьер
+  more[2]: OK verbatim p[4] :: 14-й тур: все восемь результатов
+  more[3]: OK verbatim p[1, 5] :: «Чёрная пятница»: скидки с 16 ноября
+  more[4]: OK verbatim p[6] :: Неделя 16–22 ноября: как её прожить
+  more[5]: PAGE MISMATCH (json=7 found=[1]) verbatim p[1] :: Фразы недели
+  word: term 'оттепель' found p[1, 2, 7, 8] (json page=1)
+  pages: ['Жизнь', 'Культура', 'Спорт', 'Молодёжь', 'Разбор', 'Язык', 'Тест']
+
+## ja  (PDF Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, False, True, False] :: 19日（木よう日）は、酉の市・二の酉です。浅草の鷲神社では、午前0時の一番太鼓から、24時まで市が開きます。熊手を買う人の夜です。同じ19日（木よう日）は、ボジョレー・ヌーヴォーの解禁日です。
+  more[0]: OK verbatim p[2] :: 19日 — 夜通しの酉の市
+  more[1]: OK verbatim p[3] :: 新酒の夜 — 19日の0時
+  more[2]: OK verbatim p[4] :: 波乱の3日間 — 九州場所
+  more[3]: OK verbatim p[5] :: 今年のことば、30語
+  more[4]: OK verbatim p[6] :: 見頃を追いかけて京都へ
+  more[5]: OK verbatim p[7] :: 今週のフレーズ
+  word: term '熊手' found p[1, 2, 3, 7, 8] (json page=1)
+  pages: ['生活', '文化', 'スポーツ', '若者・エンタメ', '深読み', 'ことば', 'テストと答え']
+
+## ko  (PDF Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [False, False, False] :: 11월 16일 월요일부터 22일 일요일까지, 이번 주는 수능 주간이에요. 수요일 11월 18일에는 예비소집이 있고, 목요일 11월 19일에는 수능이 있어요. 수능이 끝나면 일요일 11월 22일에는 김치의 날이 와요.
+  more[0]: shortened? words-in-order p[2] (json page=2) :: 김장비용이 내렸어요 — 김치의 날에는 김치를 나눠요
+  more[1]: shortened? words-in-order p[3] (json page=3) :: 김치의 날이 와요 — 늦가을 단풍은 마무리에요
+  more[2]: shortened? words-in-order p[4] (json page=4) :: 삼성이 12년 만에 우승했어요 — kt wiz를 4승 1패로 이겼어요
+  more[3]: shortened? words-in-order p[5] (json page=5) :: 수능 주간 — 예비소집부터 시험 날까지
+  more[4]: OK verbatim p[6] :: 예보에서 결과로 — 뉴스를 다시 읽는 법
+  more[5]: OK verbatim p[7] :: 실수 병원
+  word: term '예비소집' found p[1, 5, 6, 7, 8] (json page=1)
+  pages: ['생활', '문화', '스포츠', '청년', '깊이 읽기', '말 공부', '시험과 답']
+
+## zh-cn  (PDF Lucerna-VOL4-web.pdf, 8 pages)
+  headline: NOT FOUND in PDF !! :: BLG赢了，决赛对阵GEN
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [True, False, False, False] :: S16的半决赛打完了。11月8日星期日，GEN 3比0打赢了IG。11月9日星期一，BLG 3比1打赢了T1。决赛是BLG对GEN，北京时间11月15日星期日凌晨3点，在纽约的巴克莱中心打。
+  more[0]: OK verbatim p[2] :: 包裹到了吗？收、退、查
+  more[1]: OK verbatim p[1, 3] :: 小雪到了，冬天真的来了
+  more[2]: PAGE MISMATCH (json=4 found=[1]) verbatim p[1] :: S16：四强打完，决赛见
+  more[3]: OK verbatim p[5] :: 新电影《试探》，你去看吗？
+  more[4]: NOT FOUND !! (json page=6) :: 今年的包裹，为什么没有爆掉？
+  more[5]: OK verbatim p[7] :: 易错诊所
+  word: term '决赛' found p[1, 2, 4, 7, 8] (json page=1)
+  pages: ['生活', '文化', '体育', '青年', '深读', '词语', '测验与答案']
+
+## zh-tw  (PDF Lucerna-VOL4-web.pdf, 8 pages)
+  headline: OK verbatim on P1
+  excerpt: NOT verbatim on P1; per-sentence P1 match: [True, False] :: 味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。
+  more[0]: OK verbatim p[2] :: 小雪快到了，保暖先做好
+  more[1]: NOT FOUND !! (json page=3) :: 金馬獎本週日頒獎，誰會得獎？
+  more[2]: OK verbatim p[4] :: 本週日，封王遊行天母出發！
+  more[3]: NOT FOUND !! (json page=5) :: 香港迪士尼聖誕，11月17日開始
+  more[4]: OK verbatim p[6] :: 11月22日，一天四件大事
+  more[5]: OK verbatim p[7] :: 易錯診所
+  word: term '封王' found p[1, 4, 6, 7, 8] (json page=1)
+  pages: ['生活', '文化', '體育', '青年', '深讀', '語言', '測驗與答案']

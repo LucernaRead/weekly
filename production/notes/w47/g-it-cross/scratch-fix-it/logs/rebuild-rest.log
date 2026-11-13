@@ -1,0 +1,10 @@
+===== 2026-w47-it-de =====
+  run-2026-w47-it-de.log: RC=0
+  render-2026-w47-it-de.log: RC=0
+  export-2026-w47-it-de.log: RC=0
+  textmd diff: 14 changed lines, all in allowed classes; no dropped lines
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-it/rebuild_one.py", line 51, in <module>
+    os.replace(dry, os.path.join(ED, f"{slug}.text.md"))
+OSError: [Errno 18] Invalid cross-device link: '/tmp/fix-it-dryrun/2026-w47-it-de.text.md' -> '/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-de/2026-w47-it-de.text.md'
+FAILED: 2026-w47-it-de

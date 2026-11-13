@@ -1,0 +1,9 @@
+REG keys: 150, P8 keys: 150, text.md keys: 150
+missing in text.md: []
+missing in P8: []
+3-way diffs (excl Q150): 0
+Q140: Ik maak een surprise met een kort gedicht. | Ik maak een surprise met een kort gedicht. | Ik maak een surprise met een kort gedicht.
+Q150 REG: '(tarefa aberta, texto modelo abaixo)' P8: '✓' md: '(tarefa aberta, texto modelo abaixo)'
+matching 25-28 REG: ['d', 'c', 'a', 'b'] md: ['d', 'c', 'a', 'b']
+matching 141-144 REG: ['b', 'c', 'd', 'a'] md: ['b', 'c', 'd', 'a']
+text.md lines: 431

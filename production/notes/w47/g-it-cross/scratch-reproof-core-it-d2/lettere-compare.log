@@ -1,0 +1,35 @@
+pre cream rects: 3 cur cream rects: 3
+pre boxes: [(1439.5, 200.0, 422.5, 813.5), (1439.5, 1039.5, 422.5, 304.5), (1439.5, 1370.0, 422.5, 274.0)]
+cur boxes: [(1439.5, 200.0, 422.5, 813.5), (1439.5, 1039.5, 422.5, 304.5), (1439.5, 1370.0, 422.5, 274.0)]
+pre disclosure node: <text x="1461.5" y="1639.52" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">收到真实来信与最佳作文，顺延 VOL.5。</text>
+pre example node: <text x="1461.5" y="1611.12" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">这是编辑部示例，非真实来信。截稿时未</text>
+cur disclosure node: <text x="1461.5" y="1639.52" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">收到真实来信与最佳作文，顺延 VOL.5。</text>
+cur example node: <text x="1461.5" y="1611.12" font-family="Noto Sans CJK SC" font-size="20" fill="#6f675d" text-anchor="start">这是编辑部示例，非真实来信。截稿时未</text>
+text nodes pre/cur: 166 160
+--- 
++++ 
+@@ -6,21 +6,15 @@
+ semplice: andremo a Cremona,
+ assaggeremo il torrone, guarderemo
+ Atalanta–Inter. Le forme sono regolari:
+-andare 
++assaggiare 
+ →
+  
+-andrò, assaggiare 
++assaggerò, guardare 
+ →
+- 
+-assaggerò,
+-guardare 
+-→
+- 
+ guarderò.
+ E per la settimana prossima: leggeremo a
+ BookCity, che apre lunedì 23 novembre. Il
+-verbo è leggere, irregolare al futuro:
+-leggerò.
++verbo è leggere, regolare al futuro: leggerò.
+ 用将来时说计划：andremo、assaggeremo、
+ guarderemo、leggeremo。
+ A2

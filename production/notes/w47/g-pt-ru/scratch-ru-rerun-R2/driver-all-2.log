@@ -1,0 +1,123 @@
+===== ru-ja start 2026-11-12T00:42:41Z =====
+[build1] reusing completed build
+[webpdf1] rc=0
+  font LucernaUnifrakturMaguntia-Regular: 19768 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ja/build1/build-copy/Lucerna-VOL4-ru-ja-web.pdf: 3719047 bytes, 58627 text bytes
+[memgate] available=2485MB waited=0s
+[build2] 2026-11-12T00:44:50Z free: free=206 avail=2480
+[build2] rc=0 2026-11-12T00:47:23Z
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[00:47:23] integrity: production unchanged (42 files re-hashed)
+[textmd] IDENTICAL
+38a6efb07df58c7cffba459ffe2e65c28a98fbb92c1bc2ccf5bf93ccd7ee878c  Lucerna-VOL4-ru-ja.pdf
+89973dd75d8242d03880dcb0b509f02bb6a070b86fdef3e4b11e5e171f97e880  Lucerna-VOL4-ru-ja-web.pdf
+-rw-rw---- 1 root nogroup  3719047 Nov 12 00:44 Lucerna-VOL4-ru-ja-web.pdf
+-rw-rw---- 1 root nogroup 27407117 Nov 12 00:40 Lucerna-VOL4-ru-ja.pdf
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ja/build1/build-copy/Lucerna-VOL4-ru-ja.pdf
+pages=8 distinct_join_tokens=25 total_join_boundaries=38
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ja/build1/build-copy/Lucerna-VOL4-ru-ja-web.pdf
+pages=8 distinct_join_tokens=25 total_join_boundaries=38
+[p8-extract] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ja/build1/build-copy/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+[p8-compare] rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+[check_core] rc=0 golden BAD: 0 gloss fails: 0 orphan line-starts: [('p7-yazyk.svg', 553, '”».'), ('p7-yazyk.svg', 784, '：'), ('p7-yazyk.svg', 784, '。'), ('p7-yazyk.svg', 968, '。')] same-baseline collisions: [] total 0 
+[occlusion] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ja/build1/build-copy/svg: 0 flags 
+freeze SVG match: 8/8
+print PDF byte-identical: True (38a6efb07df5 vs 38a6efb07df5)
+FREEZE PASS
+print chars(non-ws): 26630 web: 26630
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS
+P8 keys end col 3 y 2203.0800000000017
+P8 morozko SKIPPED: no room (col 3 y 2203.0800000000017 )
+images total=5 per_page=[1, 1, 0, 1, 1, 0, 1, 0]
+P8 SVG 'Морозко' hits=0 'Билибин' hits=0
+P8 SVG text chars approx=8139
+===== ru-ja done 2026-11-12T00:49:35Z =====
+===== ru-ko start 2026-11-12T00:49:35Z =====
+[memgate] available=1631MB waited=0s
+[build1] 2026-11-12T00:49:35Z free: free=279 avail=1595
+[build1] rc=0 2026-11-12T00:51:24Z
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[00:51:24] integrity: production unchanged (42 files re-hashed)
+[webpdf1] rc=0
+  font LucernaUnifrakturMaguntia-Regular: 19836 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko-web.pdf: 3510639 bytes, 58744 text bytes
+[memgate] available=1582MB waited=0s
+[build2] 2026-11-12T00:52:20Z free: free=166 avail=1566
+[build2] rc=0 2026-11-12T00:53:52Z
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[00:53:52] integrity: production unchanged (42 files re-hashed)
+[textmd] IDENTICAL
+2fd2389ccc1e48a55f76b44826470d735ee47a9e5058969cfe1d0ef862c66573  Lucerna-VOL4-ru-ko.pdf
+9403c38c8dcc349672508ea520534b2c24591f05b59189df87be67fa763be44f  Lucerna-VOL4-ru-ko-web.pdf
+-rw-rw---- 1 root nogroup  3510639 Nov 12 00:52 Lucerna-VOL4-ru-ko-web.pdf
+-rw-rw---- 1 root nogroup 22005216 Nov 12 00:51 Lucerna-VOL4-ru-ko.pdf
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko.pdf
+pages=8 distinct_join_tokens=95 total_join_boundaries=223
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko-web.pdf
+pages=8 distinct_join_tokens=95 total_join_boundaries=223
+[p8-extract] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ko/build1/build-copy/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+[p8-compare] rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+[check_core] rc=0 golden BAD: 0 gloss fails: 0 orphan line-starts: [('p7-yazyk.svg', 553, '”».')] same-baseline collisions: [('p1-pervaya.svg', 1206, '고 마감 시점 · ', 'в'), ('p7-yazyk.svg', 968, '는 출발점으로 생격: ', 'с'), ('p7-yazyk.svg', 1953, '제14라운드의 여덟 경기가 모두 끝났습니다. (', 'Страница'), ('p7-yazyk.svg', 1953, '휴식기 후 리그는 11월 20일에 돌아옵니다. (', 'Страница'), ('p7-yazyk.svg', 2093, '이것이 2026년 국가대표의 마지막 경기입니다. (', 'Страница'), ('p7-yazyk.svg', 2093, '똑똑한 구매자는 서두르지 않는다. (', 'Страница'), ('p7-yazyk.svg', 2233, '직업 기념일은 휴일이 아니다. (', 'Страница'), ('p7-yazyk.svg', 2233, '이런 주는 일 년에 가장 흔합니다. (', 'Страница'), ('p7-yazyk.svg', 2373, '11월의 밤은 어둡고 길다. (', 'Страница'), ('p7-yazyk.svg', 2373, '11월에는 근무일 20일과 휴일 10일이 있다. (', 'Страница')] total 10 
+[occlusion] rc=1 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-ko/build1/build-copy/svg: 8 flags {'TEXTX': 8}
+freeze SVG match: 8/8
+print PDF byte-identical: True (2fd2389ccc1e vs 2fd2389ccc1e)
+FREEZE PASS
+print chars(non-ws): 26535 web: 26535
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+images total=5 per_page=[1, 1, 0, 1, 1, 0, 1, 0]
+P8 SVG 'Морозко' hits=0 'Билибин' hits=0
+P8 SVG text chars approx=8404
+===== ru-ko done 2026-11-12T00:54:53Z =====
+===== ru-zh-tw start 2026-11-12T00:54:53Z =====
+[memgate] available=1084MB waited=0s
+[build1] 2026-11-12T00:54:53Z free: free=205 avail=1127
+[build1] rc=0 2026-11-12T00:56:21Z
+P8 keys end col 3 y 2188.3900000000017
+P8 morozko ends 2579.990000000002
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[00:56:21] integrity: production unchanged (42 files re-hashed)
+[webpdf1] rc=0
+  font LucernaUnifrakturMaguntia-Regular: 19404 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-zh-tw/build1/build-copy/Lucerna-VOL4-ru-zh-tw-web.pdf: 3992096 bytes, 56176 text bytes
+[memgate] available=1364MB waited=0s
+[build2] 2026-11-12T00:57:39Z free: free=173 avail=1351
+[build2] rc=0 2026-11-12T00:59:27Z
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[00:59:27] integrity: production unchanged (42 files re-hashed)
+[textmd] IDENTICAL
+dbd7a52a0f8e532f094ff8f9e276d7ca523ec52987316e2e2576f841850828d6  Lucerna-VOL4-ru-zh-tw.pdf
+d7787a5e49e98ab2eb6a774e64730cc33587b18c9612434b8434ef6c29e85184  Lucerna-VOL4-ru-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup  3992096 Nov 12 00:57 Lucerna-VOL4-ru-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup 24781766 Nov 12 00:56 Lucerna-VOL4-ru-zh-tw.pdf
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-zh-tw/build1/build-copy/Lucerna-VOL4-ru-zh-tw.pdf
+pages=8 distinct_join_tokens=41 total_join_boundaries=57
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-zh-tw/build1/build-copy/Lucerna-VOL4-ru-zh-tw-web.pdf
+pages=8 distinct_join_tokens=41 total_join_boundaries=57
+[p8-extract] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-zh-tw/build1/build-copy/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+[p8-compare] rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+[check_core] rc=0 golden BAD: 0 gloss fails: 0 orphan line-starts: [('p7-yazyk.svg', 417, '。'), ('p7-yazyk.svg', 553, '”».'), ('p7-yazyk.svg', 784, '：'), ('p7-yazyk.svg', 784, '。'), ('p7-yazyk.svg', 968, '。')] same-baseline collisions: [] total 0 
+[occlusion] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R2/ru-zh-tw/build1/build-copy/svg: 0 flags 
+freeze SVG match: 8/8
+print PDF byte-identical: True (dbd7a52a0f8e vs dbd7a52a0f8e)
+FREEZE PASS
+print chars(non-ws): 25844 web: 25844
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS
+P8 keys end col 3 y 2188.3900000000017
+P8 morozko ends 2579.990000000002
+images total=6 per_page=[1, 1, 0, 1, 1, 0, 1, 1]
+P8 SVG 'Морозко' hits=1 'Билибин' hits=2
+P8 SVG text chars approx=7842
+===== ru-zh-tw done 2026-11-12T01:00:57Z =====
+ALL DONE 2026-11-12T01:00:57Z

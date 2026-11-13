@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "Sätze bilden", "Il torrone si assaggia a Cremona.", "Subjekt + Verb + Ort",
+      "il torrone / si assaggia / a Cremona → ___", instr="Sätze bilden", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Übersetzen", "Zur Madonna della Salute überqueren die Menschen die Votivbrücke.", "Vergleiche mit dem Original",
++f.ex("A2", "翻译", "Zur Madonna della Salute überqueren die Menschen die Votivbrücke.", "Vergleiche mit dem Original",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Ins Deutsche übersetzen", size=15.5, gap=1)
+-f.ex("B1", "Übersetzen", "Am Sonntagabend spielt Atalanta gegen Inter.", "wird gespielt",
++f.ex("B1", "翻译", "Am Sonntagabend spielt Atalanta gegen Inter.", "wird gespielt",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Ins Deutsche übersetzen", size=15.5, gap=1)
+-f.ex("B1", "Übersetzen", "Am Samstag spielt Lazio zu Hause gegen Lecce.", "zu Hause",
++f.ex("B1", "翻译", "Am Samstag spielt Lazio zu Hause gegen Lecce.", "zu Hause",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Ins Deutsche übersetzen", size=15.5, gap=1)
+-f.ex("B2", "Übersetzen", "Ogni cifra deve essere chiara.", "dovere = müssen",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = müssen",
+      "Jede Zahl muss klar sein. → ___", instr="Ins Italienische übersetzen", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Wörter zuordnen",

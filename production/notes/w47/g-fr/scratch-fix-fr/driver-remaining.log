@@ -1,0 +1,153 @@
+===== 2026-w47-fr-it 13:18:34 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-it-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-it/logs-fix1/)
+=== SUMMARY 2026-w47-fr-it/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-it-export.log)
+text.md diff lines: 4
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　ERRORI
+--- post shas 2026-w47-fr-it ---
+-rw-rw---- 1 root nogroup    46537 Nov 12 13:23 2026-w47-fr-it.text.md
+-rw-rw---- 1 root nogroup  1619126 Nov 12 13:21 La-Lucerna-VOL4-fr-it-web.pdf
+-rw-rw---- 1 root nogroup 17027797 Nov 12 13:20 La-Lucerna-VOL4-fr-it.pdf
+179461e905ff78271558dd9746c030daafb428bdaf219db97bc0789f5f61697f  La-Lucerna
+be09601e1dcffb3f261db53e8cf2edd18674881846cf39981a962fdf0419dfa6  La-Lucerna
+0ca8ff5439bf8fe901e5f9cf8f724ba6004d23ff2f0162bc6f67550024f0e03a  2026-w47-f
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch
+===== 2026-w47-fr-ja 13:23:38 =====
+===== 2026-w47-fr-ja 13:30:44 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ja-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ja/logs-fix1/)
+=== SUMMARY 2026-w47-fr-ja/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ja-export.log)
+text.md diff lines: 8
+45c45
+< > 解説 — le Sénat 上院　un vainqueur 勝者　trancher 決める、裁く　un vin primeur　le beaujolais ボジョレー。
+---
+> > 解説 — le Sénat 上院　un vainqueur 勝者　trancher 決める、裁く　un vin primeur 新酒　le beaujolais ボジョレー。
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　誤り
+--- post shas 2026-w47-fr-ja ---
+-rw-rw---- 1 root nogroup    47524 Nov 12 13:38 2026-w47-fr-ja.text.md
+-rw-rw---- 1 root nogroup  2019912 Nov 12 13:35 La-Lucerna-VOL4-fr-ja-web.pdf
+-rw-rw---- 1 root nogroup 20149418 Nov 12 13:33 La-Lucerna-VOL4-fr-ja.pdf
+3121d66228dd38c6f50f1b690a9ccb31abb6e2a8b012cb54804d80be633f4735  La-Lucerna
+8c52331f7ce662055e0dcb5b619de98a1efc6a7512c6edf5aca9720558bd50d5  La-Lucerna
+354f6b094247897ec5515b103bbbe440e86f199e3b461018454581cd72d7c63c  2026-w47-f
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch
+===== 2026-w47-fr-ko 13:38:04 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ko-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ko/logs-fix1/)
+=== SUMMARY 2026-w47-fr-ko/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ko-export.log)
+text.md diff lines: 4
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　오류
+--- post shas 2026-w47-fr-ko ---
+-rw-rw---- 1 root nogroup    47332 Nov 12 13:43 2026-w47-fr-ko.text.md
+-rw-rw---- 1 root nogroup  1923201 Nov 12 13:40 La-Lucerna-VOL4-fr-ko-web.pdf
+-rw-rw---- 1 root nogroup 20086243 Nov 12 13:40 La-Lucerna-VOL4-fr-ko.pdf
+bfeb8970f59f0c828ed60befd7feeb539bf7b9c5176a30410315e37a6ea2aaa0  La-Lucerna
+d972b7cbc1044ba9921e1b1094bd42ee5cf7fc43eb3ea065b4f83d6c6bc4f910  La-Lucerna
+fd2dfe488c05e37369385ad49189e80b2a25f7e10f391e05660adc79d16ac544  2026-w47-f
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch
+===== 2026-w47-fr-nl 13:43:16 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-nl-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-nl/logs-fix1/)
+=== SUMMARY 2026-w47-fr-nl/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-nl-export.log)
+text.md diff lines: 12
+655c655
+< LE CINÉMA DU MERCREDI
+---
+> LE CINÉMA DU MERCREDI　FILMS
+855c855
+< ### BOÎTE À OUTILS
+---
+> ### BOÎTE À OUTILS　GEREEDSCHAPSKIST
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　FOUTEN
+--- post shas 2026-w47-fr-nl ---
+-rw-rw---- 1 root nogroup    46286 Nov 12 13:51 2026-w47-fr-nl.text.md
+-rw-rw---- 1 root nogroup  1621426 Nov 12 13:47 La-Lucerna-VOL4-fr-nl-web.pdf
+-rw-rw---- 1 root nogroup 17030063 Nov 12 13:45 La-Lucerna-VOL4-fr-nl.pdf
+fd27e3531c5d1de3f8663627bd4883efb36dd2beaa08ea5cf8f8907d44ad07f5  La-Lucerna
+07f95a03437d1aa7beabed2ef39e07aa4b042141ca4f42b9a246fa0628de684b  La-Lucerna
+fa15949b3227e795d4cd6730da4c947e08d508977282ef85dc0e78129c71236c  2026-w47-f
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch
+===== 2026-w47-fr-pt 13:51:11 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-pt-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-pt/logs-fix1/)
+=== SUMMARY 2026-w47-fr-pt/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-pt-export.log)
+text.md diff lines: 4
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　ERROS
+--- post shas 2026-w47-fr-pt ---
+-rw-rw---- 1 root nogroup    46494 Nov 12 14:04 2026-w47-fr-pt.text.md
+-rw-rw---- 1 root nogroup  1623288 Nov 12 13:58 La-Lucerna-VOL4-fr-pt-web.pdf
+-rw-rw---- 1 root nogroup 17031948 Nov 12 13:55 La-Lucerna-VOL4-fr-pt.pdf
+4a76ddaca94deef159c9fb5064d3014c42808ea20296df3fab2e991c7c85a00c  La-Lucerna
+302da684a631b2e6397c3924432d3341faab701e5320b8fb5549b6eba4c339ef  La-Lucerna
+c7a3f3244476dde4ea8a89a3b96acba65a3966bf7cbf8df7412090ced94303ca  2026-w47-f
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch
+===== 2026-w47-fr-ru 14:04:29 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ru-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-ru/logs-fix1/)
+=== SUMMARY 2026-w47-fr-ru/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-ru-export.log)
+text.md diff lines: 20
+109c109
+< DANS CE NUMÉRO
+---
+> DANS CE NUMÉRO　СОДЕРЖАНИЕ
+655c655
+< LE CINÉMA DU MERCREDI
+---
+> LE CINÉMA DU MERCREDI　КИНО
+723c723
+< ### LIRE LE CALENDRIER
+---
+> ### LIRE LE CALENDRIER　КАЛЕНДАРЬ
+855c855
+< ### BOÎTE À OUTILS
+---
+> ### BOÎTE À OUTILS　ИНСТРУМЕНТЫ
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　ОШИБКИ
+--- post shas 2026-w47-fr-ru ---
+-rw-rw---- 1 root nogroup    50513 Nov 12 14:19 2026-w47-fr-ru.text.md
+-rw-rw---- 1 root nogroup  1882253 Nov 12 14:12 La-Lucerna-VOL4-fr-ru-web.pdf
+-rw-rw---- 1 root nogroup 17332058 Nov 12 14:09 La-Lucerna-VOL4-fr-ru.pdf
+639c9ceb8b4e81d8d723d45c4950e6664e2b3637d71fb34b4f14a06f5bf0cebe  La-Lucerna
+1b87dd00cad3a65fb229681d6ad4b211a31b0b7a3e5b36c7ef53f1e9a6cf6845  La-Lucerna
+3b6f2cf61934190ecbc5028cc7ea66a6a927aa45a55fa8922e59f2463cfc2350  2026-w47-f
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch
+===== 2026-w47-fr-zh-tw 14:19:01 =====
+gates rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-zh-tw-gates.log ; detail logs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-zh-tw/logs-fix1/)
+=== SUMMARY 2026-w47-fr-zh-tw/fix1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0 (see /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-fr/logs-2026-w47-fr-zh-tw-export.log)
+text.md diff lines: 8
+229c229
+< *註｜virgule 逗號　voter 投票　fêter 慶祝。*
+---
+> *註｜une virgule 逗號　voter 投票　fêter 慶祝。*
+921c921
+< ### CLINIQUE DES ERREURS
+---
+> ### CLINIQUE DES ERREURS　易錯診所
+--- post shas 2026-w47-fr-zh-tw ---
+-rw-rw---- 1 root nogroup    46011 Nov 12 14:39 2026-w47-fr-zh-tw.text.md
+-rw-rw---- 1 root nogroup  2076083 Nov 12 14:32 La-Lucerna-VOL4-fr-zh-tw-web.pdf
+-rw-rw---- 1 root nogroup 18532970 Nov 12 14:26 La-Lucerna-VOL4-fr-zh-tw.pdf
+3f4f58df81c38dac545a848b077f2b434fe91b9554a2e2a4185a1dbafa982d07  La-Lucerna
+6972666e0e7247ce0f7408bf07a12b78f18e29b3c9d37d338e853165e3255820  La-Lucerna
+e257f1023046d3897d8e881f65dda913858501f055323fbbe4a6b681e9c02da7  2026-w47-f
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch
+ALL REMAINING DONE 14:39:29

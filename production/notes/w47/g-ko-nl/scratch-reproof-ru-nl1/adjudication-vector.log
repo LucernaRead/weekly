@@ -1,0 +1,45 @@
+flags: 42
+ 1 p1-pervaya  'Зенит'          vs '» '             gap=0.08 ('т'/noto -> '»'/news) CLEAR
+ 2 p1-pervaya  'Динамо'         vs '» — '           gap=0.43 ('о'/noto -> '»'/news) CLEAR
+ 3 p1-pervaya  'тур'            vs ': «'            gap=0.17 ('р'/noto -> ':'/news) CLEAR
+ 4 p1-pervaya  'пятница'        vs '»: '            gap=-0.07 ('а'/noto -> '»'/news) OVERLAP
+ 5 p1-pervaya  'третий'         vs ', '             gap=-0.44 ('й'/noto -> ','/news) OVERLAP
+ 6 p1-pervaya  'субботу'        vs ','              gap=-0.4 ('у'/noto -> ','/news) OVERLAP
+ 7 p1-pervaya  'Краснодар'      vs '» — '           gap=-0.27 ('р'/noto -> '»'/news) OVERLAP
+ 8 p1-pervaya  'Краснодаре'     vs ','              gap=-0.21 ('е'/noto -> ','/news) OVERLAP
+ 9 p1-pervaya  'истории'        vs '!'              gap=-0.45 ('и'/noto -> '!'/news) OVERLAP
+10 p1-pervaya  'ЦСКА'           vs '? A.'           gap=-0.11 ('А'/noto -> '?'/news) OVERLAP
+11 p2-zhizn    'толерантност'   vs '.'              gap=-0.19 ('и'/noto -> '.'/news) OVERLAP
+12 p2-zhizn    'студента'       vs '.'              gap=-0.33 ('а'/noto -> '.'/news) OVERLAP
+13 p2-zhizn    'студента'       vs '.'              gap=-1.02 ('а'/noto -> '.'/news) OVERLAP
+14 p2-zhizn    'студента'       vs '! '             gap=-1.02 ('а'/noto -> '!'/news) OVERLAP
+15 p2-zhizn    'студенту'       vs ', '             gap=-0.92 ('у'/noto -> ','/news) OVERLAP
+16 p2-zhizn    'спасибо'        vs '.'              gap=-0.12 ('о'/noto -> '.'/news) OVERLAP
+17 p3-kultura  'биография'      vs ':'              gap=-0.64 ('я'/noto -> ':'/news) OVERLAP
+18 p3-kultura  'посмотреть'     vs ': '             gap=0.25 ('ь'/noto -> ':'/news) CLEAR
+19 p3-kultura  'посмотреть'     vs ')'              gap=-0.09 ('ь'/noto -> ')'/news) OVERLAP
+20 p4-sport    'место'          vs '.'              gap=-0.17 ('о'/noto -> '.'/news) OVERLAP
+21 p4-sport    'Краснодар'      vs '» '             gap=-0.27 ('р'/noto -> '»'/news) OVERLAP
+22 p4-sport    'Краснодар'      vs '» — '           gap=-0.27 ('р'/noto -> '»'/news) OVERLAP
+23 p4-sport    'Россия'         vs ', '             gap=-0.6 ('я'/noto -> ','/news) OVERLAP
+24 p4-sport    'истории'        vs '; '             gap=0.15 ('и'/noto -> ';'/news) CLEAR
+25 p4-sport    'Краснодар'      vs '»'              gap=-0.27 ('р'/noto -> '»'/news) OVERLAP
+26 p4-sport    'ЦСКА'           vs '? A.'           gap=-0.3 ('А'/noto -> '?'/news) OVERLAP
+27 p5-molodezh 'пятница'        vs '»:'             gap=0.21 ('а'/noto -> '»'/news) CLEAR
+28 p5-molodezh 'смартфоны'      vs ','              gap=-0.14 ('ы'/noto -> ','/news) OVERLAP
+29 p6-razbor   'студента'       vs ', '             gap=-0.92 ('а'/noto -> ','/news) OVERLAP
+30 p6-razbor   'сбивается'      vs '.'              gap=-0.02 ('я'/noto -> '.'/news) OVERLAP
+31 p6-razbor   'Планируйте'     vs ': '             gap=-0.07 ('е'/noto -> ':'/news) OVERLAP
+32 p6-razbor   'НЕДЕЛЕ'         vs '?\u3000'        gap=-0.35 ('Е'/sans_noto -> '?'/sans) OVERLAP
+33 p7-yazyk    'ЯЗЫК'           vs '\u3000TAAL'     gap=45.92 ('К'/sans_noto -> 'T'/sans) CLEAR
+34 p7-yazyk    'прессы'         vs ','              gap=-0.22 ('ы'/noto -> ','/news) OVERLAP
+35 p7-yazyk    'студента'       vs '!»'             gap=-0.63 ('а'/noto -> '!'/news) OVERLAP
+36 p7-yazyk    'пресс'          vs '-'              gap=-0.44 ('с'/noto -> '-'/news) OVERLAP
+37 p7-yazyk    'пятница'        vs '»'              gap=-0.15 ('а'/noto -> '»'/news) OVERLAP
+38 p7-yazyk    'студента'       vs '!» — '          gap=-0.33 ('а'/noto -> '!'/news) OVERLAP
+39 p7-yazyk    'Кипренского'    vs ', 1827 '        gap=-0.39 ('о'/noto -> ','/news) OVERLAP
+40 p7-yazyk    'поступило'      vs ': '             gap=0.39 ('о'/noto -> ':'/news) CLEAR
+41 p8-test     'ОТВЕТЫ'         vs '\u3000TEST EN ANT' gap=44.24 ('Ы'/sans_noto -> 'T'/sans) CLEAR
+42 p8-test     'ОТВЕТЫ'         vs '\u3000ANTWOORDEN ' gap=22.86 ('Ы'/sans_noto -> 'A'/sans) CLEAR
+{'CLEAR': 10, 'OVERLAP': 32}
+gaps sorted: [-1.02, -1.02, -0.92, -0.92, -0.64, -0.63, -0.6, -0.45, -0.44, -0.44, -0.4, -0.39]

@@ -1,0 +1,115 @@
+  flow[P1-headline] ended col 2/2 y=1554 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2261 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2523 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=993 (bottom 1540)
+P2 col3 box1 ends 496.65
+P2 col3 box2 ends 849.8299999999999
+P2 col3 box3 ends 1195.9499999999998
+P2 col3 box4 ends 1549.1299999999999
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 2/2 y=916 (bottom 1560)
+P3 image at 936.13 ends 1407.8800000000006
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1101.48
+P3 col3 undsie ends 1447.6
+P3 col3 ends 1643.1899999999998
+  flow[P3-ex] ended col 3/3 y=2549 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=677 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=1032 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1296.48
+P5 col3 image ends 1732.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=777 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1233.71
+  flow[P6-ex] ended col 3/3 y=2496 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1342 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1534.38
+P7 saved, exercises so far: 112
+  flow[P8-battery] ended col 3/3 y=1367 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1367.4450000000002 | image ends 1591.2450000000003
+  flow[P8-keys] ended col 3/3 y=2481 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by level: {'A2': 69, 'B1': 67, 'B2': 14}
+by type: {'cloze': 8, 'dialogue completion': 5, 'fill-in': 41, 'matching': 12, 'multiple choice': 52, 'sentence building': 8, 'transformation': 11, 'translation': 4, 'true/false': 8, 'writing': 1}
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+SOP 1.1 style audit (paper/badges/palette/margins): True | old-style hexes found: []
+text volume (chars, no separators): 46552
+P7 verbatim check (expect exactly 2 each):
+  2x :: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern 
+  2x :: Es geht ums Viertelfinale der Nations League.
+  2x :: Nur in Sachsen ist der Buß- und Bettag ein gesetzlicher Feie
+  2x :: Die Märkte beginnen fast zwei Wochen früher.
+  2x :: Hinter jedem Türchen wartet eine kleine Überraschung.
+  2x :: Der FC Bayern gewann in Mainz mit 2:1.
+  2x :: Die stille Woche ist der Übergang: vom November in den Adven
+  2x :: Am Sonntag ist es still im Land.
+verbatim OK: True
+stale/forbidden '桥接' on pages: []
+stale/forbidden 'Le Lucerna' on pages: []
+stale/forbidden 'The Lucerna' on pages: []
+stale/forbidden 'VOL.3' on pages: []
+stale/forbidden 'VOL.2' on pages: []
+stale/forbidden 'Geisterspiel' on pages: []
+stale/forbidden 'Karneval' on pages: []
+stale/forbidden 'Volkstrauertag' on pages: []
+stale/forbidden 'NFL' on pages: []
+stale/forbidden 'American Football' on pages: []
+stale/forbidden '11.11' on pages: []
+stale/forbidden 'Tankrabatt' on pages: []
+stale/forbidden '14,04' on pages: []
+stale/forbidden 'Hart aber fair' on pages: []
+stale/forbidden 'Klassiker' on pages: []
+stale/forbidden 'Allerheiligen' on pages: []
+stale/forbidden '8,35' on pages: []
+stale/forbidden 'ZEW' on pages: []
+P1 headline stripped chars: 40 (limit 56)
+p1-front.svg footer: 0 pageline: ['Page 1 of 8']
+p2-leben.svg footer: 0 pageline: ['Page 2 of 8']
+p3-kultur.svg footer: 0 pageline: ['Page 3 of 8']
+p4-sport.svg footer: 0 pageline: ['Page 4 of 8']
+p5-jugend.svg footer: 0 pageline: ['Page 5 of 8']
+p6-vertiefung.svg footer: 0 pageline: ['Page 6 of 8']
+p7-sprache.svg footer: 0 pageline: ['Page 7 of 8']
+p8-uebungen.svg footer: 0 pageline: ['Page 8 of 8']
+P1 masthead: True subtitle slot: True week header: True
+  topband VOL. 4　VIERTE AUSGABE            88..326
+  topband WÖCHENTLICH AUF DEUTSCH　ONE IS   577..1373
+  topband WOCHE VOM 16. BIS 22. NOVEMBER   1505..1862
+P1 top band: no same-baseline overlap
+P6 olive bars (chart widths, expect 748/561/391): ['748', '561', '391']
+  label 'Bundesliga und Nations League' ink ends x=425 (bars start 558; CN labels at 448)
+  label 'Weihnachtsmärkte' ink ends x=294 (bars start 558; CN labels at 448)
+  label 'Stille Tage' ink ends x=200 (bars start 558; CN labels at 448)
+MUSTER label: MISSING
+MUSTER words (whitespace split): 84
+p1-front.svg min SVG font: 15.5 -> PDF pt: 11.625
+p2-leben.svg min SVG font: 17.0 -> PDF pt: 12.75
+p3-kultur.svg min SVG font: 15.5 -> PDF pt: 11.625
+p4-sport.svg min SVG font: 15.5 -> PDF pt: 11.625
+p5-jugend.svg min SVG font: 15.5 -> PDF pt: 11.625
+p6-vertiefung.svg min SVG font: 17.0 -> PDF pt: 12.75
+p7-sprache.svg min SVG font: 15.5 -> PDF pt: 11.625
+p8-uebungen.svg min SVG font: 13.25 -> PDF pt: 9.9375
+P8 answers floor check (>= 9.75pt): True
+chart sum 44+33+23 = 100
+18 Nov + 11 days = True
+15 Nov + 7 days = True
+16 Nov + 6 days = True

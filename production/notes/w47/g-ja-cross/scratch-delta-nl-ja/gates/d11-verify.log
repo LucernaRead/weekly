@@ -1,0 +1,25 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+1. PIL 4x: ascent=64 descent=23 mask bbox=(7, 0, 401, 62)
+   true ink bottom = baseline + -0.75px -> y=1208.74
+   baseline margin to box bottom: +20.11px
+   TRUE-INK margin to box bottom: +20.86px (>= 20 required)
+2. card PNG: 1950x2700
+   7px strip below box bottom (y 1229..1235): 422 non-paper pixels
+   lowest non-paper row in last-line band: y=1229 -> ink margin +0.60px
+3. print PDF p4 @150dpi: 3047x4219 (scale 1.5626)
+   7px strip below box bottom: 0 non-paper pixels
+   lowest non-paper row in last-line band: y=1228.73 (svg px) -> ink margin +0.87px
+   exercises hline y=1608; box bottom 1229.6; clearance 378.40px
+card row y=1228: 422 non-paper px
+card row y=1229: 422 non-paper px
+card row y=1230: 0 non-paper px
+card row y=1231: 0 non-paper px
+card row y=1232: 0 non-paper px
+card row y=1233: 0 non-paper px
+card row y=1234: 0 non-paper px
+card row y=1235: 0 non-paper px
+card row y=1236: 0 non-paper px
+card row y=1237: 0 non-paper px
+card strip y=1230..1236 (fully below box bottom): 0 non-paper px
+text-ink (non-paper, non-cream) rows in last-line x-span 1461..1620, y 1200..1229: {1200: 63, 1201: 55, 1202: 45, 1203: 49, 1204: 47, 1205: 46, 1206: 45, 1207: 59, 1208: 73, 1209: 60}

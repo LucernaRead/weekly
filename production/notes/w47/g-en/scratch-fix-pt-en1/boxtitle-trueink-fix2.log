@@ -1,0 +1,10 @@
+p1-capa.svg :: 'A SEMANA EM NÚMEROS\u3000In numbers'
+  el x=1007.0 y=821.18 fs=21 bold=True kind=sans advance=389.5 adv-right=1396.5
+  TRUE INK x0=1006.0 x1=1396.0 y0=799.2 y1=821.2
+  box x=989.0..1411.5 y=786.18 bottom=1218.2 | ink-right clear=+15.5 adv clear=+15.0
+  VERDICT ink-overflows-right-edge: no
+p7-lingua.svg :: 'ERROS COMUNS\u3000Common mistakes'
+  el x=1461.5 y=242 fs=21 bold=True kind=sans advance=379.0 adv-right=1840.5
+  TRUE INK x0=1461.5 x1=1840.5 y0=224.0 y1=242.0
+  box x=1439.5..1862.0 y=200.0 bottom=1135.5 | ink-right clear=+21.5 adv clear=+21.5
+  VERDICT ink-overflows-right-edge: no

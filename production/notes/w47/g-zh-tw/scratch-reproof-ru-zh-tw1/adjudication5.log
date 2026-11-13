@@ -1,0 +1,46 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+01 p1-pervaya.s 'Зенит'                    vs '» '         right pixel_gap=3.67px (tool 5.5) -> CLEAR | nearest gap 22 raster px, 6 raster px from separator; rows 655.0..683.0
+02 p1-pervaya.s 'Динамо'                   vs '» — '       right pixel_gap=5.17px (tool 5.1) -> CLEAR | nearest gap 31 raster px, 2 raster px from separator; rows 655.0..683.0
+03 p1-pervaya.s 'тур'                      vs ': «'        right pixel_gap=5.67px (tool 4.9) -> CLEAR | nearest gap 34 raster px, 3 raster px from separator; rows 655.0..684.0
+04 p1-pervaya.s 'пятница'                  vs '»: '        right pixel_gap=1.67px (tool 3.2) -> CLEAR | nearest gap 10 raster px, 3 raster px from separator; rows 897.8..909.8
+05 p1-pervaya.s 'третий'                   vs ', '         right pixel_gap=0.67px (tool 3.4) -> CLEAR | nearest gap 4 raster px, 4 raster px from separator; rows 1034.6..1044.6
+06 p1-pervaya.s 'субботу'                  vs ','          right pixel_gap=3.67px (tool 3.2) -> CLEAR | nearest gap 22 raster px, 5 raster px from separator; rows 1214.5..1224.5
+07 p1-pervaya.s 'Краснодар'                vs '» — '       right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator; rows 1205.5..1219.5
+08 p1-pervaya.s 'Краснодаре'               vs ','          right pixel_gap=0.33px (tool 3.3) -> CLEAR | nearest gap 2 raster px, 4 raster px from separator; rows 1683.8..1693.8
+09 p1-pervaya.s '!'                        vs 'истории'    left pixel_gap=1.50px (tool 3.6) -> CLEAR | nearest gap 9 raster px, 8 raster px from separator; rows 1783.2..1798.2
+10 p1-pervaya.s 'ЦСКА'                     vs '? A.'       right pixel_gap=0.00px (tool 3.5) -> TOUCH | no empty gap within 3 SVG px of separator; rows 2403.0..2420.0; spanning run [(627, 770)]
+11 p2-zhizn.svg 'толерантности'            vs '.'          right pixel_gap=0.00px (tool 4.1) -> TOUCH | no empty gap within 3 SVG px of separator; rows 285.0..290.0; spanning run [(1324, 1378)]
+12 p2-zhizn.svg 'студента'                 vs '.'          right pixel_gap=0.33px (tool 3.0) -> CLEAR | nearest gap 2 raster px, 7 raster px from separator; rows 348.5..353.5
+13 p2-zhizn.svg 'студента'                 vs '.'          right pixel_gap=0.33px (tool 3.3) -> CLEAR | nearest gap 2 raster px, 8 raster px from separator; rows 424.7..429.7
+14 p2-zhizn.svg '! '                       vs 'студента'   left pixel_gap=0.67px (tool 3.4) -> CLEAR | nearest gap 4 raster px, 9 raster px from separator; rows 568.9..583.9
+15 p2-zhizn.svg 'студенту'                 vs ', '         right pixel_gap=3.33px (tool 3.5) -> CLEAR | nearest gap 20 raster px, 4 raster px from separator; rows 868.2..878.2
+16 p2-zhizn.svg 'спасибо'                  vs '.'          right pixel_gap=1.67px (tool 3.3) -> CLEAR | nearest gap 10 raster px, 3 raster px from separator; rows 1368.2..1373.2
+17 p3-kultura.s 'биография'                vs ':'          right pixel_gap=0.00px (tool 5.0) -> TOUCH | no empty gap within 3 SVG px of separator; rows 632.1..646.1; spanning run [(1076, 1173)]
+18 p3-kultura.s 'посмотреть'               vs ': '         right pixel_gap=0.83px (tool 3.8) -> CLEAR | nearest gap 5 raster px, 8 raster px from separator; rows 1210.8..1224.8
+19 p3-kultura.s ')'                        vs 'посмотреть' left pixel_gap=0.00px (tool 3.2) -> TOUCH | no empty gap within 3 SVG px of separator; rows 2070.0..2086.0; spanning run [(1015, 1106)]
+20 p4-sport.svg 'место'                    vs '.'          right pixel_gap=1.50px (tool 3.0) -> CLEAR | nearest gap 9 raster px, 4 raster px from separator; rows 519.7..524.7
+21 p4-sport.svg 'Краснодар'                vs '» '         right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator; rows 583.7..597.7
+22 p4-sport.svg 'Краснодар'                vs '» — '       right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator; rows 690.6..704.6
+23 p4-sport.svg 'Россия'                   vs ', '         right pixel_gap=0.17px (tool 3.1) -> CLEAR | nearest gap 1 raster px, 8 raster px from separator; rows 1446.0..1451.0
+24 p4-sport.svg 'истории'                  vs '; '         right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator; rows 1468.1..1484.1
+25 p4-sport.svg 'Краснодар'                vs '»'          right pixel_gap=0.83px (tool 3.1) -> CLEAR | nearest gap 5 raster px, 6 raster px from separator; rows 2220.4..2234.4
+26 p4-sport.svg 'ЦСКА'                     vs '? A.'       right pixel_gap=0.00px (tool 3.6) -> TOUCH | no empty gap within 3 SVG px of separator; rows 2228.1..2244.1; spanning run [(607, 738)]
+27 p5-molodezh. 'пятница'                  vs '»:'         right pixel_gap=2.67px (tool 5.1) -> CLEAR | nearest gap 16 raster px, 2 raster px from separator; rows 215.0..233.0
+28 p5-molodezh. 'смартфоны'                vs ','          right pixel_gap=0.00px (tool 5.2) -> TOUCH | no empty gap within 3 SVG px of separator; rows 797.7..807.7; spanning run [(1170, 1225)]
+29 p6-razbor.sv 'студента'                 vs ', '         right pixel_gap=0.00px (tool 3.2) -> TOUCH | no empty gap within 3 SVG px of separator; rows 750.5..760.5; spanning run [(944, 1036)]
+30 p6-razbor.sv 'сбивается'                vs '.'          right pixel_gap=0.00px (tool 3.2) -> TOUCH | no empty gap within 3 SVG px of separator; rows 779.0..784.0; spanning run [(981, 1036)]
+31 p6-razbor.sv 'Планируйте'               vs ': '         right pixel_gap=1.50px (tool 3.2) -> CLEAR | nearest gap 9 raster px, 6 raster px from separator; rows 1030.9..1044.9
+32 p6-razbor.sv '?\u3000'                  vs 'НЕДЕЛЕ'     left pixel_gap=3.00px (tool 3.3) -> CLEAR | nearest gap 18 raster px, 0 raster px from separator; rows 1532.0..1553.0
+33 p7-yazyk.svg '\u3000語言'                 vs 'ЯЗЫК'       left pixel_gap=0.00px (tool 3.8) -> TOUCH | no empty gap within 3 SVG px of separator; rows 108.0..143.0; spanning run [(180, 2346)]
+34 p7-yazyk.svg 'прессы'                   vs ','          right pixel_gap=0.00px (tool 3.0) -> TOUCH | no empty gap within 3 SVG px of separator; rows 267.5..277.5; spanning run [(797, 853)]
+35 p7-yazyk.svg '!»'                       vs 'студента'   left pixel_gap=1.67px (tool 3.4) -> CLEAR | nearest gap 10 raster px, 5 raster px from separator; rows 278.0..292.0
+36 p7-yazyk.svg 'пресс'                    vs '-'          right pixel_gap=1.33px (tool 3.0) -> CLEAR | nearest gap 8 raster px, 6 raster px from separator; rows 328.9..337.9
+37 p7-yazyk.svg 'пятница'                  vs '»'          right pixel_gap=1.83px (tool 3.6) -> CLEAR | nearest gap 11 raster px, 2 raster px from separator; rows 462.5..475.5
+38 p7-yazyk.svg '!» — '                    vs 'студента'   left pixel_gap=0.67px (tool 3.0) -> CLEAR | nearest gap 4 raster px, 8 raster px from separator; rows 1394.3..1408.3
+39 p7-yazyk.svg 'Кипренского'              vs ', 1827 '    right pixel_gap=0.00px (tool 3.5) -> TOUCH | no empty gap within 3 SVG px of separator; rows 1490.0..1509.0; spanning run [(1063, 1134)]
+40 p7-yazyk.svg 'поступило'                vs ': '         right pixel_gap=1.50px (tool 3.2) -> CLEAR | nearest gap 9 raster px, 6 raster px from separator; rows 1548.4..1561.4
+41 p8-test.svg  '\u3000練習與答案'              vs 'ОТВЕТЫ'     left pixel_gap=0.00px (tool 8.0) -> TOUCH | no empty gap within 3 SVG px of separator; rows 107.0..143.0; spanning run [(0, 1929)]
+42 p8-test.svg  '\u3000參考答案 — 按版面分頁排列，找到題號即可' vs 'ОТВЕТЫ'     left pixel_gap=0.00px (tool 4.5) -> TOUCH | no empty gap within 3 SVG px of separator; rows 1283.0..1303.0; spanning run []
+CLEAR: 29 TOUCH: 13
+gaps sorted: [0.17, 0.33, 0.33, 0.33, 0.67, 0.67, 0.67, 0.83, 0.83, 0.83, 0.83, 0.83, 0.83, 1.33, 1.5, 1.5, 1.5, 1.5, 1.67, 1.67, 1.67, 1.83, 2.67, 3.0, 3.33, 3.67, 3.67, 5.17, 5.67]

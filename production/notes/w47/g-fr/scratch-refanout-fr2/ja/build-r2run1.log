@@ -1,0 +1,101 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1556 (bottom 1812)
+  flow[P1-budget] ended col 0/0 y=2242 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=289 (bottom 1540)
+P2 col3 ends 1308.6
+  flow[P2-ex] ended col 3/3 y=2383 (bottom 2560)
+P2 saved, exercises so far: 25
+======================== content34.py
+  flow[P3-main] ended col 2/2 y=565 (bottom 2560)
+P3 saved, exercises so far: 43
+  flow[P4-main] ended col 2/2 y=801 (bottom 2560)
+  flow[P4-micro] ended col 0/0 y=2188 (bottom 2560)
+P4 saved, exercises so far: 61
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=735 (bottom 2560)
+P5 saved, exercises so far: 78
+  flow[P6-deep] ended col 1/1 y=1258 (bottom 1300)
+  flow[P6-ex] ended col 1/1 y=2402 (bottom 2560)
+  flow[P6-opinion] ended col 0/1 y=1160 (bottom 1300)
+  flow[P6-micro] ended col 1/1 y=2355 (bottom 2560)
+P6 saved, exercises so far: 96
+======================== content7.py
+  flow[P7-A2] ended col 0/0 y=950 (bottom 1150)
+  flow[P7-B1] ended col 0/0 y=855 (bottom 1150)
+P7 B1 flow ends y= 855.1599999999999 dore slot y0= 871.1599999999999
+  flow[P7-B2] ended col 0/1 y=1019 (bottom 1150)
+  flow[P7-outils] ended col 0/0 y=949 (bottom 1150)
+  flow[P7-phrases] ended col 3/3 y=1718 (bottom 1830)
+  flow[P7-clinic] ended col 1/1 y=2140 (bottom 2268)
+P7 saved, exercises so far: 108
+======================== content8.py
+  flow[P8-battery] ended col 3/3 y=1399 (bottom 1485)
+P8 battery flow ends col 3 y= 1398.52
+  flow[P8-keys] ended col 3/3 y=2106 (bottom 2560)
+P8 keys flow ends col 3 y= 2106.15
+P8 hiroshige image placed at y= 2116.15
+P8 saved, TOTAL exercises: 150
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 53, 'B1': 75, 'B2': 22}
+by page {1: 10, 2: 15, 3: 18, 4: 18, 5: 17, 6: 18, 7: 12, 8: 42}
+by type {'完成句子': 49, '单选': 26, '句型转换': 7, '词汇配对': 21, '阅读判断': 5, '图表读数': 6, '跟练': 8, '改错': 4, '完形填空': 8, '阅读理解': 5, '翻译': 5, '对话补全': 5, '写作': 1}
+ALL DONE
+[exit 0]
+run.py exit 0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py
+card: p1-une.png
+card: p2-vie.png
+card: p3-culture.png
+card: p4-sport.png
+card: p5-jeunesse.png
+card: p6-politique.png
+card: p7-langue.png
+card: p8-exercices.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/La-Lucerna-VOL4-fr-ja.pdf 30565630
+web PDF: build separately with tools/webpdf.py
+
+[exit 0]
+render.py exit 0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/webpdf.py svg /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/La-Lucerna-VOL4-fr-ja-web.pdf
+8 pages from svg
+537 distinct chars; families: ['DejaVu Sans', 'Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+FFTM NOT subset; don't know how to subset; dropped
+  font LucernaDejaVuSans-Regular: 26404 bytes
+FFTM NOT subset; don't know how to subset; dropped
+  font LucernaDejaVuSans-Bold: 23592 bytes
+  font LucernaNewsreader-Regular: 21968 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 22012 bytes
+  font LucernaNewsreader-Italic: 24392 bytes
+  font LucernaNotoSansCJKSC-Regular: 214272 bytes
+  font LucernaNotoSansCJKSC-Bold: 219056 bytes
+  font LucernaNotoSerifCJKSC-Regular: 310960 bytes
+  font LucernaNotoSerifCJKSC-Bold: 313884 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31344 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/La-Lucerna-VOL4-fr-ja-web.pdf: 2309603 bytes, 48005 text bytes
+[exit 0]
+webpdf.py exit 0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-fr2/export_lang.py ja
+P1 saved, exercises so far: 10
+P2 col3 ends 1043.0
+P2 saved, exercises so far: 25
+P3 saved, exercises so far: 43
+P4 saved, exercises so far: 61
+P5 saved, exercises so far: 78
+P6 saved, exercises so far: 96
+P7 B1 flow ends y= 1000 dore slot y0= 1016
+  !! P7 DORE NOSPACE: y0= 1016
+P7 saved, exercises so far: 108
+P8 battery flow ends col 0 y= 1000
+P8 keys flow ends col 0 y= 1000
+P8 hiroshige image placed at y= 1010
+P8 saved, TOTAL exercises: 150
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja/2026-w47-fr-ja.text.md chars: 39581 entries: 542 exercises: 150
+[exit 0]
+export_lang.py exit 0

@@ -1,0 +1,19 @@
+D-1 M1 PIL ink: x 556.5 y 1388.475 size 23.0 bold=True fam=Noto Sans CJK SC
+D-1 M1 ink 556.5..944.0 vs box 538.5..961.0 -> spare +17.0 px
+D-1 M2 pixels: band y 1356..1400, darkest ink right x=942 vs box 961.0 -> spare +19 px
+D-1 M3 print: words ['LA', 'SETTIMANA', 'IN', 'CIFRE', 'FIGURES'] x 556.5..944.1 vs box 961.0 -> spare +16.9 px
+D-1 M3 web: words ['LA', 'SETTIMANA', 'IN', 'CIFRE', 'FIGURES'] x 556.5..944.1 vs box 961.0 -> spare +16.9 px
+
+D-2 M1 PIL ink: x 556.5 y 1280.75 size 23.0 bold=True fam=Noto Sans CJK SC
+D-2 M1 ink 556.5..947.2 vs box 538.5..961.0 -> spare +13.8 px
+D-2 M2 pixels: band y 1248..1292, darkest ink right x=945 vs box 961.0 -> spare +16 px
+D-2 M3 print: words ['LA', 'FRASE', 'PER', 'RICORDARE', 'LEARN'] x 556.5..948.6 vs box 961.0 -> spare +12.4 px
+D-2 M3 web: words ['LA', 'FRASE', 'PER', 'RICORDARE', 'LEARN'] x 556.5..948.6 vs box 961.0 -> spare +12.4 px
+
+D-3 M1 PIL ink: x 1461.5 y 242.0 size 23.0 bold=True fam=Noto Sans CJK SC
+D-3 M1 ink 1461.5..1835.2 vs box 1439.5..1862.0 -> spare +26.8 px
+D-3 M2 pixels: band y 210..254, darkest ink right x=1834 vs box 1862.0 -> spare +28 px
+D-3 M3 print: words ['ERRORI', 'TIPICI', 'TYPICAL', 'ERRORS'] x 1461.5..1836.1 vs box 1862.0 -> spare +25.9 px
+D-3 M3 web: words ['ERRORI', 'TIPICI', 'TYPICAL', 'ERRORS'] x 1461.5..1836.1 vs box 1862.0 -> spare +25.9 px
+
+DONE

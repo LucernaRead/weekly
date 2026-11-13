@@ -1,0 +1,58 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS REG total 150/150 — 150/150
+PASS REG keys: only Q150 differs — keydiff=[150]
+PASS Q150 key is reader-language writing key — 'Открытый вопрос — баллы в рамке; образец в рамке на с. 8'
+PASS Q148 key 'devant le' — 'devant le'
+PASS Q148 note 'У кинотеатра' — 'У кинотеатра'
+PASS REG pages identical — []
+PASS REG levels identical — []
+PASS REG types identical — []
+REG note diffs (zh->ru translations): 143
+PASS REG notes: all numbers/dates preserved — []
+text.md answer entries: 150 missing: [] extra: []
+PASS text.md has 150 answers — n=150 missing=[]
+PASS text.md keys == REG keys (all 150) — diff=[]
+PASS text.md notes == REG notes — diff=[]
+text.md notes present: 121 (REG PRINT_NOTES = 121)
+PASS text.md note count == 121 — n=121
+PASS text.md Q148 'devant le' — 'devant le'
+PASS Q148 stem identical to core — ed=['(148)___ cinéma ? — Oui, à 19 h 30. Bon'] core=['(148)___ cinéma ? — Oui, à 19 h 30. Bon']
+PASS Q148 stem has no 'du' — ['(148)___ cinéma ? — Oui, à 19 h 30. Bon']
+PASS P8 'du cinéma' count 0 (ed) — 0
+PASS P8 'du cinéma' count 0 (core)
+Q130 @ (989.0,843.0) ed: [(989.0, 843.0, '___')] core: [(989.0, 843.0, '___')]
+PASS Q130 position matches core — ed=[(989.0, 843.0, '___')] core=[(989.0, 843.0, '___')]
+P3 x=538.5 ed ys: [442.1, 488.6, 582.4, 615.7, 715.1, 748.4, 847.8, 881.1, 980.5, 1079.8, 1144.7, 1238.4, 1337.7, 1371.1, 1470.4, 1569.8, 1634.6, 1728.3, 1761.7, 1861.0]
+P3 x=538.5 core ys: [412.4, 458.9, 552.6, 586.0, 685.3, 718.7, 818.0, 851.4, 950.7, 1050.1, 1114.9, 1208.7, 1308.0, 1341.3, 1440.7, 1540.0, 1604.9, 1698.6, 1732.0, 1831.3]
+P3 blank-ish elements ed: [(538.5, 1238.375), (538.5, 1371.0749999999998), (538.5, 1470.4249999999997), (538.5, 1569.7749999999996), (729.8, 1761.6999999999994), (538.5, 1894.3999999999992)] core: [(538.5, 1208.65), (538.5, 1341.35), (538.5, 1440.6999999999998), (538.5, 1540.0499999999997), (729.8, 1731.9749999999995), (538.5, 1864.6749999999993)]
+P3 x=538.5 count ed/core: 29 29 offsets: [29.7]
+PASS Q36/Q37 tier: ru P3 col-2 offset +30 — n=29 offsets=[29.7]
+P7 disclosure last-line elements: [(1013.0, 2233.3, 'обещание разобрать настоящие письма.')]
+P7 cream boxes (x,y,w,h): [(88.0, 725.8, 422.5, 212.62), (538.5, 691.5999999999999, 422.5, 151.56), (989.0, 794.2, 422.5, 212.62), (989.0, 1878.0, 873.0, 380.0)]
+PASS P7 disclosure box at y=1878 h=380 — [(989.0, 1878.0, 873.0, 380.0)]
+PASS P7 disclosure last baseline 2233.3 — last_y=2233.3
+PASS P7 disclosure last baseline < box bottom 2258 — clearance=24.7
+ED punct-only baselines: {}
+CORE punct-only baselines: {}
+ED single-letter baselines: {}
+CORE single-letter baselines: {}
+PASS orphan scan: 0 NEW punctuation-only baselines — []
+new single-letter baselines vs core: []
+PASS orphan scan: 0 NEW single-letter baselines — []
+PASS orphan detector control: lone 。 flagged — [(130.0, '。')]
+PASS orphan detector control: shared-baseline '.' NOT flagged — []
+string freeze: missing=0 exempt(translated E)=1 survivors=0 bad_cjk=0
+PASS string freeze: 0 missing core strings — []
+PASS string freeze: 0 core-E survivors — []
+PASS string freeze: 0 unaccounted CJK — []
+PIL ink: texts inside a rect checked=517, violations=1
+  VIOL: ('p3-culture.svg', 'BOX #f0eee5 x1440 y1640 w422 h330', 1461.5, 1675.5, 1952.2, 1971.2, 'вечером в среду 18-го.')
+FAIL PIL ink: 0 page-edge / box overflows — [('p3-culture.svg', 'BOX #f0eee5 x1440 y1640 w422 h330', 1461.5, 1675.5, 1952.2, 1971.2, 'вечером в среду 18-го.')]
+delivered-PDF outer-3px non-paper pixels per page: all 0
+PASS delivered PDF: 0 edge ink on all 8 pages — []
+P7 gap rows px 4705-4728 (svg y 2258.5-2269.5): dark pixels = 0
+PASS P7 disclosure gap 2258-2270: 0 ink pixels in delivered PDF — gap_n=0
+width budgets: 31 singles + 4 pairs, over=[]
+PASS width budgets: all single-line strings within budget — []
+VERIFY_ED_RU FAILURES: ['PIL ink: 0 page-edge / box overflows']

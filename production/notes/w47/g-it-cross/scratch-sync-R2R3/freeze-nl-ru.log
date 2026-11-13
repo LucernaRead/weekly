@@ -1,0 +1,11 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 0/8 SVGs byte-identical (repointed files: none)
+  DIFF p1-voorpagina.svg core 1d10b5d97d75678f produced 0e5a82e2a123446e
+  DIFF p2-leven.svg core b02f479f121091a0 produced 16aca666b0fef9d7
+  DIFF p3-cultuur.svg core 4498ec96884b2f2b produced 1903259fbf8eb70c
+  DIFF p4-sport.svg core 005fe86991881bad produced 79e8a6996ab03d3d
+  DIFF p5-jongeren.svg core c417fd0cb9cba08e produced fab8dff76c7e035a
+  DIFF p6-verdieping.svg core f258d5e5f3b56523 produced d0c6f8642646a4cb
+  DIFF p7-taal.svg core de0d5e09df010121 produced 5e8b98cc0bf92c48
+  DIFF p8-toets.svg core 596058af544bd9ca produced 312cf451409c0c29
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

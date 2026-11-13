@@ -1,0 +1,144 @@
+f.ex calls parsed: 99
+Q  1 [A2] Completar frases key='midterm' note='midterm = as eleições de meio mandato'
+      stem: Americans voted in the ___ election on November 3.
+      filled: Americans voted in the [midterm] election on November 3.
+Q  2 [A2] Completar frases key='call' note='call a race = anunciar o resultado da eleição'
+      stem: News organisations ___ a race when the maths is clear.
+      filled: News organisations [call] a race when the maths is clear.
+Q  3 [A2] Completar frases key='seats' note='seat = um assento'
+      stem: All 435 ___ in the House were on the ballot.
+      filled: All 435 [seats] in the House were on the ballot.
+Q  4 [A2] Completar frases key='majority' note='majority = a maioria'
+      stem: The ___ in the House is 218 seats.
+      filled: The [majority] in the House is 218 seats.
+Q  5 [B1] Completar frases key='changed' note='change hands = mudar de lado'
+      stem: Seven Senate seats ___ hands on election night.
+      filled: Seven Senate seats [changed] hands on election night.
+Q  6 [B1] Completar frases key='January' note='O novo Congresso se reunirá em janeiro de 2027'
+      stem: The new Congress meets in ___ 2027.
+      filled: The new Congress meets in [January] 2027.
+Q 11 [A2] Completar frases key='November' note='O mês 11 = November'
+      stem: The vote was on Tuesday, ___ 3.
+      filled: The vote was on Tuesday, [November] 3.
+Q 12 [A2] Completar frases key='January' note='O novo Congresso se reunirá em janeiro de 2027'
+      stem: The new Congress meets in ___ 2027.
+      filled: The new Congress meets in [January] 2027.
+Q 13 [A2] Completar frases key='1' note='Segunda volta a 1 de dezembro'
+      stem: A runoff, if needed, is on December ___.
+      filled: A runoff, if needed, is on December [1].
+Q 14 [A2] Completar frases key='Thursday' note='O Dia de Ação de Graças é uma quinta-feira'
+      stem: Thanksgiving is on ___, November 26.
+      filled: Thanksgiving is on [Thursday], November 26.
+Q 15 [A2] Completar frases key='27' note='A Black Friday é em 27 de novembro'
+      stem: Black Friday is on November ___.
+      filled: Black Friday is on November [27].
+Q 16 [A2] Transformação key='The new Congress will meet in January.' note='meet → will meet'
+      stem: The new Congress (meet) in January. → ___
+      filled: The new Congress (meet) in January. → [The new Congress will meet in January.]
+Q 17 [A2] Transformação key='States will certify their counts.' note='certify → will certify'
+      stem: States (certify) their counts. → ___
+      filled: States (certify) their counts. → [States will certify their counts.]
+Q 18 [A2] Transformação key='Families will travel home.' note='travel → will travel'
+      stem: Families (travel) home for Thanksgiving. → ___
+      filled: Families (travel) home for Thanksgiving. → [Families will travel home.]
+Q 19 [B1] Transformação key='Will they watch the jungle on Monday?' note='Pergunta: will vai para o início'
+      stem: They (watch) the jungle on Monday? → ___
+      filled: They (watch) the jungle on Monday? → [Will they watch the jungle on Monday?]
+Q 30 [A2] Completar frases key='opens' note='open = estrear (terceira pessoa do singular com s)'
+      stem: The film ___ on Friday, November 20.
+      filled: The film [opens] on Friday, November 20.
+Q 31 [A2] Completar frases key='mentor' note='mentor = um mentor'
+      stem: Haymitch becomes the ___ of the later stories.
+      filled: Haymitch becomes the [mentor] of the later stories.
+Q 32 [B1] Completar frases key='twice' note='twice = o dobro'
+      stem: The 50th Games sent ___ as many young people.
+      filled: The 50th Games sent [twice] as many young people.
+Q 33 [B1] Completar frases key='jungle' note='jungle = a selva'
+      stem: Ant and Dec are back in the Australian ___.
+      filled: Ant and Dec are back in the Australian [jungle].
+Q 34 [A2] Transformação key='Collins published the novel in 2025.' note='publish → published'
+      stem: Collins (publish) the novel in 2025. → ___
+      filled: Collins (publish) the novel in 2025. → [Collins published the novel in 2025.]
+Q 35 [A2] Transformação key='Haymitch won the 50th Games.' note='win → won'
+      stem: Haymitch (win) the 50th Games. → ___
+      filled: Haymitch (win) the 50th Games. → [Haymitch won the 50th Games.]
+Q 36 [B1] Transformação key='Rousseau painted jungles he never saw.' note='paint → painted'
+      stem: Rousseau (paint) jungles he never saw. → ___
+      filled: Rousseau (paint) jungles he never saw. → [Rousseau painted jungles he never saw.]
+Q 37 [B1] Transformação key='ITV chose Monday for the launch.' note='choose → chose'
+      stem: ITV (choose) Monday for the launch. → ___
+      filled: ITV (choose) Monday for the launch. → [ITV chose Monday for the launch.]
+Q 44 [B1] Completar frases key='hosted' note='host → hosted (passado)'
+      stem: Perth Stadium ___ its first Ashes Test in November 2025.
+      filled: Perth Stadium [hosted] its first Ashes Test in November 2025.
+Q 45 [B1] Completar frases key='lasts' note='Com he/she/it, last vira lasts'
+      stem: One Test ___ up to five days.
+      filled: One Test [lasts] up to five days.
+Q 46 [A2] Completar frases key='eight' note='oito = eight'
+      stem: ___ singles players play in Turin.
+      filled: [eight] singles players play in Turin.
+Q 47 [A2] Completar frases key='won' note='win → won (passado)'
+      stem: Australia ___ the first Test by eight wickets.
+      filled: Australia [won] the first Test by eight wickets.
+Q 48 [B1] Transformação key='England lost 4–0 in 2021–22.' note='lose → lost'
+      stem: England (lose) 4–0 in 2021–22. → ___
+      filled: England (lose) 4–0 in 2021–22. → [England lost 4–0 in 2021–22.]
+Q 49 [B1] Transformação key='Australia lost their first Test at the ground.' note='lose → lost'
+      stem: Australia (lose) their first Test at the ground. → ___
+      filled: Australia (lose) their first Test at the ground. → [Australia lost their first Test at the ground.]
+Q 50 [B1] Transformação key='The last series ended in a draw in 2023.' note='end → ended'
+      stem: The last series (end) in a draw in 2023. → ___
+      filled: The last series (end) in a draw in 2023. → [The last series ended in a draw in 2023.]
+Q 51 [B1] Transformação key='India beat Australia by 295 runs.' note='beat → beat (verbo irregular)'
+      stem: India (beat) Australia by 295 runs in November 2024. → ___
+      filled: India (beat) Australia by 295 runs in November 2024. → [India beat Australia by 295 runs.]
+Q 58 [B1] Completar frases key='silence' note='silence = o silêncio'
+      stem: Break the ___: speak up about bullying.
+      filled: Break the [silence]: speak up about bullying.
+Q 59 [B1] Completar frases key='socks' note='sock = uma meia'
+      stem: On Monday, children wear odd ___.
+      filled: On Monday, children wear odd [socks].
+Q 60 [A2] Completar frases key='rights' note='right = um direito'
+      stem: Every child has ___.
+      filled: Every child has [rights].
+Q 61 [A2] Completar frases key='up' note='speak up = falar sem medo'
+      stem: Speak ___: tell a teacher.
+      filled: Speak [up]: tell a teacher.
+Q 62 [B1] Transformação key='Schools are wearing odd socks today.' note='wear → are wearing'
+      stem: Schools (wear) odd socks today. → ___
+      filled: Schools (wear) odd socks today. → [Schools are wearing odd socks today.]
+Q 63 [B1] Transformação key='Children are speaking up this week.' note='speak → are speaking'
+      stem: Children (speak) up this week. → ___
+      filled: Children (speak) up this week. → [Children are speaking up this week.]
+Q 64 [B1] Transformação key='We are listening to every child.' note='listen → are listening'
+      stem: We (listen) to every child. → ___
+      filled: We (listen) to every child. → [We are listening to every child.]
+Q 65 [B1] Transformação key='She is sitting with a new friend.' note='sit → is sitting'
+      stem: She (sit) with a new friend. → ___
+      filled: She (sit) with a new friend. → [She is sitting with a new friend.]
+Q 78 [B2] Completar frases key='certify' note='certify = certificar'
+      stem: Each state must ___ its count.
+      filled: Each state must [certify] its count.
+Q 79 [B2] Completar frases key='call' note='call a race = anunciar o resultado da eleição'
+      stem: News organisations ___ a race when the maths is clear.
+      filled: News organisations [call] a race when the maths is clear.
+Q 80 [B2] Completar frases key='changed' note='change hands = mudar de lado'
+      stem: Seven Senate seats ___ hands on election night.
+      filled: Seven Senate seats [changed] hands on election night.
+Q 81 [B1] Completar frases key='takes' note='take time = levar tempo'
+      stem: Counting ___ time in every state.
+      filled: Counting [takes] time in every state.
+Q 82 [B1] Completar frases key='differs' note='differ, terceira pessoa do singular: differs'
+      stem: The rule ___ from state to state.
+      filled: The rule [differs] from state to state.
+Q 83 [B1] Completar frases key='official' note='official = oficial'
+      stem: A call is not the ___ result.
+      filled: A call is not the [official] result.
+Q 91 [A2] Completar frases key='win' note='Com o sujeito no plural, usa-se win (o presente dos títulos)'
+      stem: “Democrats ___ the House” is a headline.
+      filled: “Democrats [win] the House” is a headline.
+Q 98 [<expr>] Completar frases key='<expr>' note='<expr>'
+      stem: <expr>
+      filled: <expr>
+---- counts ----
+Counter({'Múltipla escolha': 41, 'Completar frases': 34, 'Emparelhamento': 20, 'Transformação': 16, 'Completar o texto': 8, 'Leitura de gráficos': 6, 'Diálogo': 5, 'Correção': 4, 'Compreensão de leitura': 4, 'Traduzir': 4, 'Passado': 2, 'Frases de ouro': 1, 'Comparativos': 1, 'Futuro': 1, 'Tempos verbais': 1, 'Subordinadas': 1, 'Redação': 1})

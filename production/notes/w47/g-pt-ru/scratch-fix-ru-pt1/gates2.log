@@ -1,0 +1,17 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print text bytes=57122 chars=37639
+web   text bytes=57122 chars=37639
+print==web literal: True
+stripped multiset equal: True
+stripped char multiset equal: True
+P8 min font print: (9.75, [9.75, 9.98, 10.35, 10.88, 11.25, 12.75])
+P8 min font web:   (9.75, [9.75, 9.98, 10.35, 10.88, 11.25, 12.75])
+text.md Q20: желании
+text.md Q25: b
+text.md Q73: заказов
+P8 print Q20 pattern '20\\.\\s*желании': True
+P8 print Q25 pattern '25\\.\\s*b': True
+P8 print Q73 pattern '73\\.\\s*заказов': True
+P8 web Q20: True
+done

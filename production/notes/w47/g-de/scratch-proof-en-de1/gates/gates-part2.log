@@ -1,0 +1,89 @@
+== print/web text diff ==
+printweb RC=0
+print chars 47406 web chars 47406
+token multiset diff total: 0
+only in print: []
+only in web: []
+page 1: identical=True print=4783B web=4783B
+page 2: identical=True print=5783B web=5783B
+page 3: identical=True print=5277B web=5277B
+page 4: identical=True print=5731B web=5731B
+page 5: identical=True print=4657B web=4657B
+page 6: identical=True print=5592B web=5592B
+page 7: identical=True print=6081B web=6081B
+page 8: identical=True print=9502B web=9502B
+== check_s11 ==
+check_s11 RC=0
+colour set: core 19 edition 19 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min font-size: 13.5
+P8 Q113-120 options line with [A2] tag present
+P8 'Levels: 145-149 [A2]' present
+P8 Q120 [A2] chip OK
+P8 WRITING head present: ['H\u3000WRITING\u3000Schreiben [B1]']
+ALL §1.1/P8 CHECKS PASS
+== boxtitle source ==
+boxtitle RC=0
+box titles measured: 12; over budget: 0
+    389.3 margin   +15.2 [content56.py] 'ODD SOCKS, IN NUMBERS\u3000Zahlen'
+    385.1 margin   +19.4 [content56.py] 'A PRACTICE BALLOT\u3000Stimmzettel'
+    370.2 margin   +34.3 [content7.py] 'THE TOOLBOX\u3000Werkzeugkasten'
+    365.5 margin   +39.0 [content12.py] 'THE WEEK IN NUMBERS\u3000Zahlen'
+    337.6 margin   +66.9 [content12.py] 'THE CALENDAR\u3000Diese Woche'
+    336.5 margin   +68.0 [content12.py] 'SENATE IN NUMBERS\u3000Zahlen'
+    330.0 margin   +74.5 [content34.py] 'SATURDAY, NOV 21\u3000Samstag'
+    328.8 margin   +75.8 [content34.py] 'WHY PERTH?\u3000Warum Perth?'
+boxtitle sweep PASS
+== boxtitle svg ==
+svg boxtitle RC=0
+  p1-front.svg:   365.5 margin   +39.0 'THE WEEK IN NUMBERS\u3000Zahlen'
+  p1-front.svg:   140.8 margin  +259.7 'SEARCHES'
+  p1-front.svg:   257.5 margin  +143.0 'IN THIS ISSUE\u3000Inhalt'
+  p1-front.svg:   295.9 margin  +104.6 'IN BRIEF\u3000Kurz gemeldet'
+  p2-life.svg:   336.5 margin   +68.0 'SENATE IN NUMBERS\u3000Zahlen'
+  p2-life.svg:   337.6 margin   +66.9 'THE CALENDAR\u3000Diese Woche'
+  p2-life.svg:   190.2 margin  +210.3 'DID YOU KNOW?'
+  p2-life.svg:   239.5 margin  +161.0 'AND YOU?\u3000Und du?'
+  p3-culture.svg:   315.8 margin   +88.8 'COMING SOON\u3000Demnächst'
+  p3-culture.svg:   317.5 margin   +87.0 "HAYMITCH'S GAMES\u3000Spiele"
+  p4-sport.svg:   328.8 margin   +75.8 'WHY PERTH?\u3000Warum Perth?'
+  p4-sport.svg:   330.0 margin   +74.5 'SATURDAY, NOV 21\u3000Samstag'
+  p5-youth.svg:   389.3 margin   +15.2 'ODD SOCKS, IN NUMBERS\u3000Zahlen'
+  p5-youth.svg:   283.0 margin  +121.5 'SPEAK UP\u3000Sprich es aus'
+  p6-deep.svg:   385.1 margin   +19.4 'A PRACTICE BALLOT\u3000Stimmzettel'
+  p6-deep.svg:   280.3 margin  +124.2 'HOW LONG?\u3000Wie lange?'
+  p7-lang.svg:   370.2 margin   +34.3 'THE TOOLBOX\u3000Werkzeugkasten'
+  p8-test.svg:   226.1 margin  +624.9 'MODEL\u3000Mustertext'
+box titles checked: 18; overflows: 0
+svg boxtitle sweep PASS
+== creambox ==
+creambox RC=0
+  P7-TOOLBOX summary: 7 boxes, min inside clearance +47.7, min desc-clear +41.6
+== verify_ed ==
+verify RC=0
+PASS Q39 key a — a
+PASS Q40 key d — d
+PASS Q39 note mentor=a — 'mentor = Mentor a'
+PASS Q40 note arena=d — 'arena = Arena d'
+PASS Q40 note not estadio/stadio — 'arena = Arena d'
+PASS Q46 key A
+PASS Q46 note 2025 — 'Erster Ashes-Test 2025–26: Freitag, 21. November 2025, in Perth'
+PASS Q52 key hosted
+PASS Q55 key won
+PASS Q125 key A
+PASS Q125 note 4-1 — 'Australien hat die Ashes 2025–26 mit 4–1 gewonnen'
+PASS registry notes: no stale Ashes phrasing — []
+PASS text.md has 150 answers — found 150
+PASS text.md Q39 a — a
+PASS text.md Q40 d — d
+PASS text.md Q125 A — A
+PASS text.md: Arsenal are winning
+PASS text.md: no 'Perth is winning'
+PASS text.md: no 'second week in Perth'
+PASS text.md: Ashes retrospective present
+PASS text.md: no 'Ashes begin'
+PASS P8 min PDF font >= 9.75pt — min 10.12pt
+PASS SVG: zero real CJK (only U+3000 allowed) — []
+VERIFY ALL PASS

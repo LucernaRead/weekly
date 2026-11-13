@@ -1,0 +1,7 @@
+'Краснодар' x0=101.2: ink_left=101.2 ink_right=229.2 advance=129.4
+'» — ' x0=230.6: ink_left=231.6 ink_right=263.6 advance=42.0
+'»' x0=1171.6: ink_left=1172.6 ink_right=1183.6 advance=13.6
+'» ' x0=230.6: ink_left=231.6 ink_right=242.6 advance=19.4
+JUNCTION P1/P4a/b: Krasnodar ink_right=229.2 vs quote ink_left=231.6 -> overlap=-2.4px
+JUNCTION P4c: Krasnodar ink_right=1170.2 vs quote ink_left=1172.6 -> overlap=-2.4px
+'Кипренского' ink_right=563.1 vs ', 1827' ink_left=565.4 -> overlap=-2.3px

@@ -1,0 +1,140 @@
+items extracted: 138 (expect 150)
+missing numbers: [25, 26, 27, 28, 52, 53, 54, 55, 141, 142, 143, 144]
+  1 [p1|1|Completar frases] key='13' extracted='13' :: La campaña electoral empieza el viernes ___ de noviembre.
+  2 [p1|1|Completar frases] key='29' extracted='29' :: España vota en elecciones generales el domingo ___ de noviembre.
+  3 [p1|1|Completar frases] key='19' extracted='19' :: El voto por correo se pide hasta el jueves ___ de noviembre.
+  4 [p1|1|Completar frases] key='16' extracted='16' :: El Día Internacional del Flamenco es el lunes ___ de noviembre.
+  5 [p1|1|Completar frases] key='20' extracted='20' :: La jornada 13 de Liga vuelve el viernes ___ de noviembre.
+  6 [p1|1|Completar frases] key='15' extracted='15' :: La campaña electoral dura ___ días. UNA SEMANA, TRES ESCENARIOS El lunes, el flamenco en la calle; el viernes, el fútbol en casa; y entre medias, la c
+  7 [p1|1|Escolha múltipla] key='C' extracted='C' :: Las elecciones generales son el... A. 16 de noviembre · B. 13 de noviembre · C. 29 de noviembre La Lucerna　SEMANÁRIO ESPANHOL VOL.4　LUCERNA SPANISH WE
+  8 [p1|1|Escolha múltipla] key='B' extracted='B' :: La campaña electoral dura... A. una semana · B. 15 días · C. un mes
+  9 [p1|1|Escolha múltipla] key='A' extracted='A' :: El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29
+ 10 [p1|1|Escolha múltipla] key='B' extracted='B' :: El Día Internacional del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20 Página 1 de 8
+ 11 [p2|2|Completar frases] key='16' extracted='16' :: El Día del Flamenco es el lunes ___ de noviembre.
+ 12 [p2|2|Completar frases] key='19' extracted='19' :: El voto por correo se pide hasta el jueves ___ de noviembre.
+ 13 [p2|2|Completar frases] key='29' extracted='29' :: Las elecciones generales son el ___ de noviembre.
+ 14 [p2|2|Completar frases] key='22' extracted='22' :: Santa Cecilia es el domingo ___ de noviembre.
+ 15 [p2|2|Completar frases] key='noviembre' extracted='noviembre' :: El lunes 16 de ___ es el Día del Flamenco. La Lucerna　SEMANÁRIO ESPANHOL VOL.4　LUCERNA SPANISH WEEKLY
+ 16 [p2|2|Completar frases] key='empieza' extracted='empieza' :: La campaña ___ el viernes 13.
+ 17 [p2|2|Completar frases] key='dura' extracted='dura' :: La campaña ___ 15 días.
+ 18 [p2|2|Completar frases] key='vuelve' extracted='vuelve' :: La Liga ___ el viernes 20.
+ 19 [p2|2|Completar frases] key='recorren' extracted='recorren' :: Los partidos ___ España en campaña.
+ 20 [p2|2|Completar frases] key='llega' extracted='llega' :: La documentación del voto por correo ___ desde el lunes 9. C　COMPRENSIÓN Leia o artigo e escolha a resposta certa.
+ 21 [p2|2|Escolha múltipla] key='B' extracted='B' :: El Día del Flamenco es... A. el domingo 22 · B. el lunes 16 · C. el viernes 20
+ 22 [p2|2|Escolha múltipla] key='A' extracted='A' :: El voto por correo se pide hasta... A. el jueves 19 · B. el lunes 16 · C. el domingo 29
+ 23 [p2|2|Escolha múltipla] key='C' extracted='C' :: La Liga vuelve el... A. lunes 16 · B. jueves 19 · C. viernes 20
+ 24 [p2|2|Escolha múltipla] key='B' extracted='B' :: Del 24 al 28 de noviembre no se publican... A. debates · B. encuestas · C. partidos D　LAS PALABRAS
+ 29 [p3|3|Verdadeiro ou falso] key='Verdadero' extracted='Verdadero' :: El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?
+ 30 [p3|3|Verdadeiro ou falso] key='Verdadero' extracted='Verdadero' :: La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?
+ 31 [p3|3|Verdadeiro ou falso] key='Falso' extracted='Falso' :: El flamenco es solo un baile. ¿Verdadero o falso?
+ 32 [p3|3|Verdadeiro ou falso] key='Falso' extracted='Falso' :: Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?
+ 33 [p3|3|Verdadeiro ou falso] key='Verdadero' extracted='Verdadero' :: La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso? B　PALABRAS DEL TEXTO Complete com as palavras do quadro. cante · bail
+ 34 [p3|3|Completar frases] key='cante' extracted='cante' :: El flamenco es ___, toque y baile.
+ 35 [p3|3|Completar frases] key='baile' extracted='baile' :: La bailaora mueve los brazos en el ___.
+ 36 [p3|3|Completar frases] key='guitarra' extracted='guitarra' :: El toque es la ___ del flamenco.
+ 37 [p3|3|Completar frases] key='palmas' extracted='palmas' :: El público marca el ritmo con las ___.
+ 38 [p3|3|Completar frases] key='compás' extracted='compás' :: Sin ___ no hay flamenco. C　COMPRENSIÓN Escolha a resposta certa.
+ 39 [p3|3|Escolha múltipla] key='B' extracted='B' :: ¿Dónde declaró la UNESCO el flamenco Patrimonio? A. en Madrid · B. en Nairobi · C. en Sevilla
+ 40 [p3|3|Escolha múltipla] key='A' extracted='A' :: ¿Qué es el duende? A. el momento en que la música te toca · B. un instrumento · C. un baile
+ 41 [p3|3|Escolha múltipla] key='C' extracted='C' :: El flamenco nació del encuentro de culturas en... A. Madrid · B. Bilbao · C. Andalucía
+ 42 [p3|3|Escolha múltipla] key='B' extracted='B' :: Después del Día del Flamenco, la próxima gran fecha es... A. el puente · B. las elecciones del 29 · C. la Navidad D　CONSTRUIR FRASES Ordene as palavra
+ 43 [p3|3|Formar frases] key='El flamenco es cante, toque y baile.' extracted='El flamenco es cante, toque y baile.' :: el flamenco / es / cante, toque y baile → ___
+ 44 [p3|3|Formar frases] key='En noviembre suena la guitarra en España.' extracted='En noviembre suena la guitarra en España.' :: en noviembre / suena / la guitarra / en España → ___
+ 45 [p3|3|Formar frases] key='En Bilbao toca la banda el domingo.' extracted='En Bilbao toca la banda el domingo.' :: en Bilbao / toca / la banda / el domingo → ___
+ 46 [p3|3|Reescrever frases] key='Todos preguntan si hay duende.' extracted='Todos preguntan si hay duende.' :: «¿Hay duende?» (todos preguntan) → ___
+ 47 [p4|4|Escolha múltipla] key='A' extracted='A' :: El líder de la Liga es el... A. Barça, con 33 puntos · B. Real Madrid, con 33 · C. Atlético, con 28
+ 48 [p4|4|Escolha múltipla] key='B' extracted='B' :: La jornada 13 se juega... A. el fin de semana del 8 · B. del viernes 20 al lunes 23 · C. en diciembre
+ 49 [p4|4|Escolha múltipla] key='C' extracted='C' :: El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30
+ 50 [p4|4|Escolha múltipla] key='A' extracted='A' :: El Barça–Villarreal se juega el domingo a las... A. 14:00 · B. 18:30 · C. 21:00
+ 51 [p4|4|Escolha múltipla] key='B' extracted='B' :: La jornada 5 de la Champions es... A. el 20–21 · B. el 24–25 · C. el 29–30 B　LAS PALABRAS La Lucerna　SEMANÁRIO ESPANHOL VOL.4　LUCERNA SPANISH WEEKLY
+ 56 [p4|4|Completar frases] key='más importante' extracted='más importante' :: El Barça–Villarreal es ___ que un amistoso. (importante)
+ 57 [p4|4|Completar frases] key='muchísimos' extracted='muchísimos' :: El Bernabéu espera a ___ aficionados. (muchos)
+ 58 [p4|4|Completar frases] key='peor' extracted='peor' :: Perder el derbi sería la ___ (malo) noticia de la semana.
+ 59 [p4|4|Completar frases] key='mejor' extracted='mejor' :: Ganar la jornada sería la ___ (bueno) noticia del otoño. D　EL PRETÉRITO INDEFINIDO Passe as frases para o passado (pretérito indefinido).
+ 60 [p4|4|Reescrever frases] key='El Barça ganó 1–2 al Atlético.' extracted='El Barça ganó 1–2 al Atlético.' :: El Barça gana 1–2 al Atlético. → ___
+ 61 [p4|4|Reescrever frases] key='El Madrid recibió al Celta el sábado.' extracted='El Madrid recibió al Celta el sábado.' :: El Madrid recibe al Celta el sábado. → ___
+ 62 [p4|4|Reescrever frases] key='El Atlético perdió 0–2 con el Bayern.' extracted='El Atlético perdió 0–2 con el Bayern.' :: El Atlético pierde 0–2 con el Bayern. → ___
+ 63 [p4|4|Reescrever frases] key='La Liga volvió el viernes 20.' extracted='La Liga volvió el viernes 20.' :: La Liga vuelve el viernes 20. → ___
+ 64 [p4|4|Reescrever frases] key='La jornada cerró el lunes 23.' extracted='La jornada cerró el lunes 23.' :: La jornada cierra el lunes 23. → ___
+ 65 [p5|5|Escolha múltipla] key='B' extracted='B' :: El voto por correo se pide hasta... A. el lunes 9 · B. el jueves 19 · C. el domingo 29
+ 66 [p5|5|Escolha múltipla] key='A' extracted='A' :: La documentación del voto por correo llega desde... A. el lunes 9 · B. el viernes 13 · C. el sábado 28
+ 67 [p5|5|Escolha múltipla] key='C' extracted='C' :: El domingo 29, los colegios abren... A. todo el día · B. de noche · C. de 9:00 a 20:00
+ 68 [p5|5|Escolha múltipla] key='B' extracted='B' :: Para votar en persona, este año también vale... A. un billete · B. la aplicación MiDNI · C. una entrada
+ 69 [p5|5|Escolha múltipla] key='A' extracted='A' :: El Black Friday es el... A. viernes 27 · B. lunes 16 · C. domingo 29 B　PALABRAS DEL TEXTO Complete com as palavras do quadro; conjuga se necessário. L
+ 70 [p5|5|Completar frases] key='correo' extracted='correo' :: Pido el voto por ___.
+ 71 [p5|5|Completar frases] key='papeleta' extracted='papeleta' :: En casa, relleno la ___.
+ 72 [p5|5|Completar frases] key='envío' extracted='envío' :: Después ___ (infinitivo: enviar) el sobre.
+ 73 [p5|5|Completar frases] key='identidad' extracted='identidad' :: Para votar en persona llevo mi documento de ___.
+ 74 [p5|5|Completar frases] key='censo' extracted='censo' :: La Oficina del ___ envía la documentación.
+ 75 [p5|5|Completar frases] key='plazo' extracted='plazo' :: El jueves 19 termina el ___ del voto por correo. C　IR A + INFINITIVO Reescreva as frases com ir a + infinitivo (futuro próximo).
+ 76 [p5|5|Reescrever frases] key='Voy a pedir el voto por correo.' extracted='Voy a pedir el voto por correo.' :: Pido el voto por correo. → ___
+ 77 [p5|5|Reescrever frases] key='Vas a votar el domingo 29.' extracted='Vas a votar el domingo 29.' :: Votas el domingo 29. → ___
+ 78 [p5|5|Reescrever frases] key='Va a abrirse la urna a las 9:00.' extracted='Va a abrirse la urna a las 9:00.' :: La urna se abre a las 9:00. → ___
+ 79 [p5|5|Reescrever frases] key='Van a comparar precios antes de pagar.' extracted='Van a comparar precios antes de pagar.' :: Comparan precios antes de pagar. → ___ D　¿VERDADERO O FALSO?
+ 80 [p5|5|Verdadeiro ou falso] key='Verdadero' extracted='Verdadero' :: El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?
+ 81 [p5|5|Verdadeiro ou falso] key='Falso' extracted='Falso' :: La jornada de reflexión es el domingo 29. ¿Verdadero o falso?
+ 82 [p5|5|Verdadeiro ou falso] key='Verdadero' extracted='Verdadero' :: Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?
+ 83 [p6|6|Escolha múltipla] key='A' extracted='A' :: El PSOE y el PP tienen en RTVE... A. 45 minutos · B. 30 minutos · C. 15 minutos
+ 84 [p6|6|Escolha múltipla] key='B' extracted='B' :: La propaganda gratuita en RTVE suma... A. 120 minutos · B. 195 minutos · C. 45 minutos
+ 85 [p6|6|Escolha múltipla] key='C' extracted='C' :: Podemos tiene en RTVE... A. 45 minutos · B. 30 minutos · C. 15 minutos
+ 86 [p6|6|Escolha múltipla] key='A' extracted='A' :: Prohibido publicar encuestas durante... A. 5 días · B. 15 días · C. 1 día La Lucerna　SEMANÁRIO ESPANHOL VOL.4　LUCERNA SPANISH WEEKLY
+ 87 [p6|6|Escolha múltipla] key='B' extracted='B' :: Entre el PSOE y Vox hay... A. 30 minutos · B. 15 minutos · C. 45 minutos
+ 88 [p6|6|Escolha múltipla] key='C' extracted='C' :: La Lucerna publica aquí... A. una media mezclada · B. todos los sondeos · C. solo datos oficiales, con fuente B　COMPRENSIÓN
+ 89 [p6|6|Escolha múltipla] key='B' extracted='B' :: El único debate cerrado es... A. el cara a cara · B. el de laSexta · C. el debate a cuatro
+ 90 [p6|6|Escolha múltipla] key='A' extracted='A' :: El debate de portavoces es el... A. viernes 13, a las 21:30 · B. lunes 16 · C. jueves 26
+ 91 [p6|6|Escolha múltipla] key='C' extracted='C' :: Un debate «propuesto» es... A. cerrado · B. en la tele · C. aún sin confirmar
+ 92 [p6|6|Escolha múltipla] key='B' extracted='B' :: Según el texto, una encuesta es... A. un resultado final · B. una foto con margen de error · C. una promesa C　EL SUBJUNTIVO
+ 93 [p6|6|Completar frases] key='tenga' extracted='tenga' :: Es posible que el debate ___ (tener) cuatro portavoces.
+ 94 [p6|6|Completar frases] key='sea' extracted='sea' :: Es importante que cada dato ___ (ser) claro.
+ 95 [p6|6|Completar frases] key='para que' extracted='para que' :: Publicamos la fuente ___ todos puedan comprobarla.
+ 96 [p6|6|Completar frases] key='Aunque' extracted='Aunque' :: ___ los debates difieren, ninguno miente. D　PALABRAS DEL DEBATE Complete com as palavras: sondeo · muestra · indecisos · margen de error
+ 97 [p6|6|Completar frases] key='sondeo' extracted='sondeo' :: Un ___ pregunta a una muestra de ciudadanos.
+ 98 [p6|6|Completar frases] key='muestra' extracted='muestra' :: El sondeo preguntó a una ___ de ciudadanos.
+ 99 [p6|6|Completar frases] key='indecisos' extracted='indecisos' :: Los ___ todavía no saben a quién votar.
+100 [p6|6|Completar frases] key='margen de error' extracted='margen de error' :: Toda encuesta tiene un ___. Página 6 de 8
+101 [p7|7|Completar frases] key='Es' extracted='Es' :: ___ la una en punto.
+102 [p7|7|Completar frases] key='Son' extracted='Son' :: ___ las nueve de la noche.
+103 [p7|7|Completar frases] key='las' extracted='las' :: El derbi es el sábado a ___ 18:30.
+104 [p7|7|Escolha múltipla] key='B' extracted='B' :: ¿Cómo se dice la 1:00? A. Son la una · B. Es la una · C. Es las una FRASES DE LA SEMANA　Frases da semana (ipsis litteris, desta edição) «La campaña el
+105 [p7|7|Completar frases] key='más goles' extracted='más goles' :: El Barça marca ___ que el año pasado. (goles)
+106 [p7|7|Completar frases] key='tan rápido' extracted='tan rápido' :: El derbi es ___ como siempre. (rápido)
+107 [p7|7|Completar frases] key='mejor' extracted='mejor' :: Un debate claro es ___ (bueno) que un titular.
+108 [p7|7|Escolha múltipla] key='B' extracted='B' :: ¿Qué forma es correcta? A. más mejor · B. mejor · C. muy mejor
+109 [p7|7|Completar frases] key='baje' extracted='baje' :: Es necesario que el precio ___ (bajar).
+110 [p7|7|Completar frases] key='sea' extracted='sea' :: Publicamos la fuente para que todo ___ (ser) claro.
+111 [p7|7|Completar frases] key='es' extracted='es' :: Creo que el debate ___ (ser) útil.
+112 [p7|7|Escolha múltipla] key='B' extracted='B' :: «Ojalá que el debate...» A. tiene datos · B. tenga datos · C. tener datos «La Liga se para y vuelve: después del parón de selecciones, la jornada 13 s
+113 [p8|8|Escolha no texto] key='A' extracted='A' :: El lunes, el flamenco ___ en la calle. (A. suena · B. duerme)
+114 [p8|8|Escolha no texto] key='B' extracted='B' :: La campaña ___ el viernes 13. (A. termina · B. empieza)
+115 [p8|8|Escolha no texto] key='A' extracted='A' :: El debate de laSexta fue a las ___. (A. 21:30 · B. 9:00)
+116 [p8|8|Escolha no texto] key='A' extracted='A' :: El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)
+117 [p8|8|Escolha no texto] key='A' extracted='A' :: La Liga ___ el viernes 20. (A. vuelve · B. para)
+118 [p8|8|Escolha no texto] key='B' extracted='B' :: El derbi Sevilla–Betis es el ___. (A. domingo · B. sábado)
+119 [p8|8|Escolha no texto] key='A' extracted='A' :: Santa Cecilia es la patrona de los ___. (A. músicos · B. futbolistas)
+120 [p8|8|Escolha no texto] key='A' extracted='A' :: El domingo 29, España ___. (A. vota · B. duerme) B　PREGUNTAS GENERALES
+121 [p8|8|Escolha múltipla] key='A' extracted='A' :: La campaña electoral empieza el... A. viernes 13 · B. lunes 16 · C. domingo 29
+122 [p8|8|Escolha múltipla] key='B' extracted='B' :: El Día del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20
+123 [p8|8|Escolha múltipla] key='A' extracted='A' :: El voto por correo se pide hasta... A. jueves 19 · B. viernes 20 · C. sábado 28
+124 [p8|8|Escolha múltipla] key='C' extracted='C' :: El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30 RESPUESTAS　Respostas — por página, procure pelo número — PÁGINA 1 — 1. 13 
+125 [p8|8|Escolha múltipla] key='B' extracted='B' :: El Black Friday es el... A. domingo 29 · B. viernes 27 · C. lunes 16
+126 [p8|8|Escolha múltipla] key='C' extracted='C' :: MiDNI es... A. un billete · B. una entrada · C. una aplicación oficial
+127 [p8|8|Escolha múltipla] key='B' extracted='B' :: No se publican encuestas del... A. 16 al 19 · B. 24 al 28 · C. 13 al 15
+128 [p8|8|Escolha múltipla] key='C' extracted='C' :: La jornada 5 de la Champions es el... A. 20–21 · B. 29–30 · C. 24–25 C　LEE Y RESPONDE Lucía vive en Sevilla: el sábado 21 ve el derbi Sevilla–Betis en
+129 [p8|8|Escolha múltipla] key='A' extracted='A' :: ¿Quién ve el derbi en Sevilla? A. Lucía · B. Diego · C. los dos
+130 [p8|8|Escolha múltipla] key='A' extracted='A' :: El sábado, Diego... A. ve el Madrid–Celta · B. ve el derbi · C. duerme
+131 [p8|8|Escolha múltipla] key='A' extracted='A' :: Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga
+132 [p8|8|Escolha múltipla] key='B' extracted='B' :: El mejor título es... A. «Una tormenta» · B. «Dos ciudades, un sábado» · C. «El Clásico» D　CONSTRUYE FRASES
+133 [p8|8|Formar frases] key='El lunes suena el flamenco.' extracted='El lunes suena el flamenco.' :: el lunes / suena / el flamenco → ___
+134 [p8|8|Formar frases] key='El sábado vemos el derbi.' extracted='El sábado vemos el derbi.' :: el sábado / vemos / el derbi → ___ 38. compás — compás = ritmo 39. B — A UNESCO anunciou-o em Nairobi em 2010 40. A — duende é o momento em que a músi
+135 [p8|8|Formar frases] key='La campaña dura quince días.' extracted='La campaña dura quince días.' :: la campaña / dura / quince días → ___
+136 [p8|8|Formar frases] key='¿A qué hora empieza el debate?' extracted='¿A qué hora empieza el debate?' :: ¿ / a qué hora / empieza / el debate / ? → ___ E　TRADUCE
+137 [p8|8|Tradução] key='Segunda-feira é o Dia Internacional do Flamenco.' extracted='Segunda-feira é o Dia Internacional do Flamenco.' :: El lunes es el Día del Flamenco. → ___
+138 [p8|8|Tradução] key='No sábado, vemos o dérbi de Sevilha.' extracted='No sábado, vemos o dérbi de Sevilha.' :: El sábado vemos el derbi Sevilla–Betis. → ___
+139 [p8|8|Tradução] key='El voto por correo se pide hasta el jueves 19.' extracted='El voto por correo se pide hasta el jueves 19.' :: O voto pelo correio tem de ser pedido até quinta-feira, 19. → ___
+140 [p8|8|Tradução] key='Cada promesa tiene que llevar datos.' extracted='Cada promesa tiene que llevar datos.' :: Cada promessa tem de ter dados. → ___ F　LAS PALABRAS DEL 29N 141–144. 141. el sondeo 142. la muestra 143. el margen de error 144. la junta electoral a
+145 [p8|8|Escolha no texto] key='A' extracted='A' :: — Buenos días, vengo a ___. (A. votar · B. cantar) Cada resposta traz uma breve nota　✓ marca a questão de redação 76. Voy a pedir el voto por correo. 
+146 [p8|8|Escolha no texto] key='A' extracted='A' :: — ¿Tiene su documento de ___? (A. identidad · B. puente)
+147 [p8|8|Escolha no texto] key='A' extracted='A' :: — ¿Dónde está la ___? (A. urna · B. guitarra)
+148 [p8|8|Escolha no texto] key='A' extracted='A' :: — La papeleta va en el ___. (A. sobre · B. derbi)
+149 [p8|8|Escolha no texto] key='A' extracted='A' :: — ¿A qué hora ___ el colegio? (A. cierra · B. canta) H　ESCRIBE TÚ Questão de redação (sem resposta única); texto modelo (97 palavras) abaixo.
+150 [p8|8|Escrita] key='Questão aberta — texto modelo abaixo, nesta página' extracted='✓' :: «¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29. Texto modelo: Vivo en Madrid, 

@@ -1,0 +1,220 @@
+{
+ "totals": {
+  "elements_base": 1619,
+  "elements_patch": 1869,
+  "lines_base": 1043,
+  "lines_patch": 1042,
+  "lines_diff": 98,
+  "moved": 156
+ },
+ "advance_ratios": {
+  "n_strings": 408,
+  "longer": 267,
+  "shorter": 109,
+  "same": 32,
+  "median_ratio": 1.04,
+  "mean_ratio": 1.032,
+  "min_ratio": 0.802,
+  "max_ratio": 1.184,
+  "widest": [
+   {
+    "s": "A2",
+    "bold": true,
+    "size": 19.0,
+    "w_base": 23.4,
+    "w_patch": 27.7,
+    "ratio": 1.184
+   },
+   {
+    "s": "A2",
+    "bold": true,
+    "size": 18.0,
+    "w_base": 22.2,
+    "w_patch": 26.2,
+    "ratio": 1.184
+   },
+   {
+    "s": "A PALAVRA DA SEMANA",
+    "bold": true,
+    "size": 22.0,
+    "w_base": 245.8,
+    "w_patch": 287.4,
+    "ratio": 1.169
+   },
+   {
+    "s": "PALAVRAS DA MEMÓRIA",
+    "bold": true,
+    "size": 22.0,
+    "w_base": 254.1,
+    "w_patch": 296.8,
+    "ratio": 1.168
+   },
+   {
+    "s": "A SEMANA, DIA A DIA",
+    "bold": true,
+    "size": 27.0,
+    "w_base": 270.2,
+    "w_patch": 313.1,
+    "ratio": 1.159
+   },
+   {
+    "s": "A SEMANA, DIA A DIA",
+    "bold": true,
+    "size": 24.0,
+    "w_base": 240.2,
+    "w_patch": 278.3,
+    "ratio": 1.159
+   },
+   {
+    "s": "O CAMINHO ATÉ O GABARITO",
+    "bold": true,
+    "size": 22.0,
+    "w_base": 309.3,
+    "w_patch": 355.0,
+    "ratio": 1.148
+   },
+   {
+    "s": "F　AS PALAVRAS DA SEMANA",
+    "bold": true,
+    "size": 22.0,
+    "w_base": 308.1,
+    "w_patch": 352.9,
+    "ratio": 1.145
+   }
+  ],
+  "narrowest": [
+   {
+    "s": "· nota · pesar",
+    "bold": true,
+    "size": 20.0,
+    "w_base": 153.1,
+    "w_patch": 122.8,
+    "ratio": 0.802
+   },
+   {
+    "s": "prazo · dia útil · coerência · chute",
+    "bold": false,
+    "size": 20.5,
+    "w_base": 355.9,
+    "w_patch": 308.1,
+    "ratio": 0.866
+   },
+   {
+    "s": "quilombo · resistência · escravizado ·",
+    "bold": true,
+    "size": 20.0,
+    "w_base": 401.0,
+    "w_patch": 352.7,
+    "ratio": 0.879
+   },
+   {
+    "s": "líder · memória · combate",
+    "bold": true,
+    "size": 20.0,
+    "w_base": 278.5,
+    "w_patch": 245.7,
+    "ratio": 0.882
+   },
+   {
+    "s": "gabarito · oficial · extraoficial · espera",
+    "bold": true,
+    "size": 20.0,
+    "w_base": 407.9,
+    "w_patch": 360.0,
+    "ratio": 0.883
+   },
+   {
+    "s": "espera l'attente · a nota la note ·",
+    "bold": false,
+    "size": 20.5,
+    "w_base": 332.8,
+    "w_patch": 296.3,
+    "ratio": 0.89
+   },
+   {
+    "s": "jour ouvré · contar compter · a",
+    "bold": false,
+    "size": 20.5,
+    "w_base": 315.3,
+    "w_patch": 282.9,
+    "ratio": 0.897
+   },
+   {
+    "s": "le chef · a memória la mémoire · o",
+    "bold": false,
+    "size": 20.5,
+    "w_base": 350.6,
+    "w_patch": 316.0,
+    "ratio": 0.901
+   }
+  ],
+  "bold_True": {
+   "n": 257,
+   "median": 1.057,
+   "mean": 1.059,
+   "longer": 234
+  },
+  "bold_False": {
+   "n": 151,
+   "median": 0.987,
+   "mean": 0.986,
+   "longer": 33
+  }
+ },
+ "p8": {
+  "base": {
+   "n_flow_elements": 383,
+   "last_baselines": [
+    2505.1,
+    2507.2,
+    2517.6,
+    2533.1,
+    2535.2,
+    2545.6
+   ],
+   "last_strings": [
+    "38. memória — memória = la mémoire",
+    "113. A — Le vendredi 20 novembre est un ",
+    "76. sairá — sair futur : sairá",
+    "39. combate — combate = la lutte",
+    "114. A — Le jour férié commémore Zumbi d",
+    "77. publicarão — publicar, futur, forme "
+   ],
+   "max_ink_bottom": 2548.6,
+   "slack_to_footer_rule_2596": 47.4,
+   "slack_to_page_bottom_2700": 151.4
+  },
+  "patch": {
+   "n_flow_elements": 408,
+   "last_baselines": [
+    2505.1,
+    2507.2,
+    2517.6,
+    2533.1,
+    2535.2,
+    2545.6
+   ],
+   "last_strings": [
+    "38. memória — memória = la mémoire",
+    "113. A — Le vendredi 20 novembre est un ",
+    "76. sairá — sair futur : sairá",
+    "39. combate — combate = la lutte",
+    "114. A — Le jour férié commémore Zumbi d",
+    "77. publicarão — publicar, futur, forme "
+   ],
+   "max_ink_bottom": 2548.6,
+   "slack_to_footer_rule_2596": 47.4,
+   "slack_to_page_bottom_2700": 151.4
+  },
+  "lines_base": 245,
+  "lines_patch": 245
+ }
+}
+p1-capa: els 188->226 lines 122->122 diff_lines 4 moved 18 boxes 4 cream_abs 3 cream_diff 0 maxR 1865.9->1899.4
+p2-vida: els 173->207 lines 119->119 diff_lines 5 moved 16 boxes 8 cream_abs 1 cream_diff 5 maxR 1862.3->1862.3
+p3-cultura: els 173->205 lines 117->117 diff_lines 7 moved 19 boxes 4 cream_abs 0 cream_diff 3 maxR 1862.3->1861.9
+p4-esporte: els 176->206 lines 116->116 diff_lines 4 moved 16 boxes 3 cream_abs 0 cream_diff 2 maxR 1862.3->1861.9
+p5-jovens: els 168->195 lines 122->121 diff_lines 73 moved 19 boxes 4 cream_abs 0 cream_diff 3 maxR 1862.3->1861.9
+p6-aprofundamento: els 170->202 lines 116->116 diff_lines 5 moved 19 boxes 5 cream_abs 0 cream_diff 3 maxR 1862.3->1861.9
+p7-lingua: els 186->212 lines 86->86 diff_lines 0 moved 13 boxes 3 cream_abs 1 cream_diff 0 maxR 1879.5->1899.7
+p8-avaliacao: els 385->416 lines 245->245 diff_lines 0 moved 36 boxes 0 cream_abs 0 cream_diff 0 maxR 1862.3->1861.9

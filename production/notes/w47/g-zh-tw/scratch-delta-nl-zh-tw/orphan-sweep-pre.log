@@ -1,0 +1,20 @@
+[PIL-advance] lines=1415 class-a=1 class-b=3 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 1, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 1}, 7: {'a': 0, 'b': 2}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1415 class-a=1 class-b=3 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 1, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 1}, 7: {'a': 0, 'b': 2}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 12; leftmost-on-baseline: 3
+  FRAG P1 y=1560.62 x=790.7 leftmost=False first='：' '：柏林奧林匹克'
+  FRAG P3 y=2280.22 x=538.5 leftmost=False first='。' '。'
+  FRAG P6 y=659.44 x=1461.5 leftmost=True first='。' '。問題：你在鞋裡放什麼？（100 名年輕人）'
+  FRAG P7 y=755.39 x=88.0 leftmost=True first='；' '；de kwartfinale 八強賽；scoren 進球。'
+  FRAG P7 y=1782.67 x=1461.5 leftmost=True first='，' '，刊登示例信，承諾順延 VOL.5。'
+  FRAG P8 y=1341.5 x=777.0 leftmost=False first='：' '：'
+  FRAG P8 y=1400.82 x=717.2 leftmost=False first='：' '：'
+  FRAG P8 y=1489.8 x=748.7 leftmost=False first='，' '，持續'
+  FRAG P8 y=1848.3 x=1225.1 leftmost=False first='）' '）'
+  FRAG P8 y=1877.96 x=1180.7 leftmost=False first='）' '）'
+  FRAG P8 y=2325.44 x=774.6 leftmost=False first='）' '）'
+  FRAG P8 y=2414.42 x=730.2 leftmost=False first='）' '）'
+[D8 P6 caption lines]
+[D10 P7 dt_zh lines]
+[D6 P3 bridge lines]
+[D7 P7 bridge lines]
+counts: {'a_pil': 1, 'b_pil': 3, 'a_svglib': 1, 'b_svglib': 3, 'brute_leftmost': 3}

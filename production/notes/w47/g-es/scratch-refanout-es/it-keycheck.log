@@ -1,0 +1,52 @@
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1494 (bottom 1828)
+  flow[P1-otono] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=358 (bottom 1540)
+P2 col3 ends 1022.0
+  flow[P2-ex] ended col 3/3 y=2356 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 1/2 y=655 (bottom 1560)
+P3 col3 ends 1594.75
+  flow[P3-ex] ended col 2/3 y=2466 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=857 (bottom 1080)
+P4 col3 ends 993.5
+  flow[P4-ex] ended col 2/3 y=2457 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 1/2 y=1022 (bottom 1560)
+P5 col3 ends 1574.5499999999997
+  flow[P5-ex] ended col 2/3 y=2348 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=920 (bottom 1540)
+P6 col3 ends 1347.5 timeline box height 891.0000000000001
+  flow[P6-ex] ended col 3/3 y=2562 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1062 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1092 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1092 (bottom 1560)
+P7 col3 ends 1865.5099999999998
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=872 (bottom 1252)
+P8-ex flow ended y= 871.7999999999997
+P8 image bottom approx 1225.7999999999997
+  flow[P8-keys] ended col 3/3 y=2521 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+MODELO words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 72, 'B2': 28}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Completare frasi': 48, 'Scelta multipla': 47, 'Abbinare parole': 12, 'Vero o falso': 8, 'Formare frasi': 7, 'Trasformare frasi': 10, 'Cloze (scelta)': 13, 'Traduci': 4, 'Scrivi': 1}
+ALL DONE
+REG entries: 150; p8extract keys: 150
+exact match: 149/150
+  MISMATCH n=150 page=8 type=Scrivi: key='Domanda aperta — testo modello sotto in questa pagina' extracted='✓'
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-es/keycheck-150.json

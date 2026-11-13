@@ -1,0 +1,18 @@
+== D-B1 box_right=1411.5 title_x=1007.0 ==
+  as-is 23pt   'A SEMANA EM NÚMEROS\u3000In numbers' ink_right=1434.0 adv_right=1433.5 clear=-22.5 FAIL
+  21pt         'A SEMANA EM NÚMEROS\u3000In numbers' ink_right=1396.0 adv_right=1396.5 clear=+15.5 PASS>=+4
+  20pt         'A SEMANA EM NÚMEROS\u3000In numbers' ink_right=1378.0 adv_right=1377.8 clear=+33.5 PASS>=+4
+  22pt         'A SEMANA EM NÚMEROS\u3000In numbers' ink_right=1415.0 adv_right=1415.0 clear=-3.5 FAIL
+  short23      'A SEMANA EM NÚMEROS\u3000Numbers' ink_right=1408.0 adv_right=1408.5 clear=+3.5 FAIL
+  short23      'A SEMANA EM NÚMEROS\u3000In figures' ink_right=1411.0 adv_right=1411.0 clear=+0.5 FAIL
+  short23      'A SEMANA EM NÚMEROS\u3000Stats' ink_right=1362.0 adv_right=1361.7 clear=+49.5 PASS>=+4
+  short23      'A SEMANA EM NÚMEROS\u3000By the numbers' ink_right=1483.0 adv_right=1482.6 clear=-71.5 FAIL
+== D-B2 box_right=1862.0 title_x=1461.5 ==
+  as-is 23pt   'ERROS COMUNS\u3000Common mistakes' ink_right=1876.5 adv_right=1876.5 clear=-14.5 FAIL
+  21pt         'ERROS COMUNS\u3000Common mistakes' ink_right=1840.5 adv_right=1840.5 clear=+21.5 PASS>=+4
+  20pt         'ERROS COMUNS\u3000Common mistakes' ink_right=1822.5 adv_right=1822.5 clear=+39.5 PASS>=+4
+  22pt         'ERROS COMUNS\u3000Common mistakes' ink_right=1858.5 adv_right=1858.5 clear=+3.5 FAIL
+  short23      'ERROS COMUNS\u3000Mistakes' ink_right=1765.5 adv_right=1765.8 clear=+96.5 PASS>=+4
+  short23      'ERROS COMUNS\u3000Errors' ink_right=1737.5 adv_right=1737.2 clear=+124.5 PASS>=+4
+  short23      'ERROS COMUNS\u3000Watch out' ink_right=1781.5 adv_right=1781.5 clear=+80.5 PASS>=+4
+  short23      'ERROS COMUNS\u3000Common errors' ink_right=1844.5 adv_right=1844.6 clear=+17.5 PASS>=+4

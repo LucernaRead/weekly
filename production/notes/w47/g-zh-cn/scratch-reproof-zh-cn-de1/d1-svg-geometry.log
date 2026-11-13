@@ -1,0 +1,5 @@
+TEXT x=1007.0 y=237 fs=23 fam=Noto Sans CJK SC bold? fill=#46581f | '本周生活小日历\u3000Wochenkalender'
+TEXT x=1163.6 y=402.0 fs=20 fam=Noto Serif CJK SC bold? fill=#302c28 | '电影《试探》上映'
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+TypeError: float() argument must be a string or a real number, not 'NoneType'

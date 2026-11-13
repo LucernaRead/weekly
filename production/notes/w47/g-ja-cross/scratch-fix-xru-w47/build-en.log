@@ -1,0 +1,30 @@
+===== en 2026-11-12T21:45:02Z disk=95G =====
+run.py rc=0
+  !! HEAD TOO WIDE [P7-col3]: AN EXAMPLE LETTER　Пример
+  !! HEAD TOO WIDE [P8-battery]: C　READING　Понимание текста
+probe rc=0 : 2026-w47-en-ru: runs=2853 LAT@NotoSans=0 LAT@Newsreader=26984 CYR@NotoSans=5600 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=49 curly={'Newsreader': 164}
+render.py rc=0
+print PDF mtime=2026-11-12 21:46:31.986812629 +0000 size=28991750
+dde756cbb1a1f535b763f40e255dec15ab7a9eb3114377695faa4b4acddac21c  The-Lucerna-VOL4-en-ru.pdf
+TEXT-LAYER DIFFERS pre/post!
+1c1
+< VOL. 4 WEEKLY IN ENGLISH Кажд ую н еде лю О чём говорит англоязычный мир WEEK OF NOVEMBER 16 TO 22, 2026 The Lucerna АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК
+---
+> VOL. 4 WEEKLY IN ENGLISH Кажд ую неделю О чём го вори т англоязычный мир WEEK OF NOVEMBER 16 TO 22, 2026 The Lucerna АНГЛИЙСКИЙ ЕЖЕНЕДЕЛЬНИК
+3,14c3,14
+< ATS WIN BOTH HOUSES! Голосование 3 ноября Демократы выиграли обе палаты Промежуточные выборы Объявленные итоги См. ст�
+< �аницу 6 Tuesday, November 3: America voted. By Sunday, November 8, the count was clear. THE BIG STORY Главная тема Democrats Win the House and the Senate On Tuesday, November 3, Ameri
+< cans changed hands too: Georgia, Iowa, voted in the midterm election — for all Nevada, Ohio and Texas. Google Trends THE WEEK IN NUMBERS Цифры Nov 3 — the vote (день голосовани�
+< �) · 254–162 — the House, as called on Nov 8 (Палата представителей) 435 seats in the House of Representatives, for 35 seats in the A “call” is not the official result. Ne
+< ws Senate, and for governor in 36 states. organisations call a race when the By Sunday, November 8, the count maths is clear. The official result was clear enough to call: the comes later, when each s
+< tate checks Democrats won the House, and the its count and certifies it — between Democrats won the Senate. November 10 and December 18. Until then, the numbers can still move a The numbers, as call
+< ed by the little. Page 6 explains how to read Associated Press on Sunday, them. 218 — the majority (большинство) · 7 — Senate seats that changed hands (места в Сенате, пе
+< решедшие к другой партии) TRY IT NOW Попробуй сразу A2 1. Americans voted in the ___ election on November 3. November 8: in the House, 254 seats for the Democrats and
+<  162 for the The new Congress meets in January Republicans, with 19 races still 2027. Until then, the old Congress uncalled. The majority is 218. In the finishes its work — and the winners Senate, t
+< he Democrats won 20 of the plan theirs. This week also brings the 33 races called, and the Republicans jungle back to television, a look back 13, with two races — in Alaska and at last year's Ashes,
+<  and a new Hunger Mississippi — still uncalled. Games film to the cinema. Welcome back to VOL.4! Before the vote, the Republicans held Senate, 53 to 47. On election night, Поиски недели 
+< 1. midterm results By The Lucerna newsroom Reading level: A2 the House, 218 seats to 214, and the SEARCHES OF THE WEEK Пояснение — a midterm = промежуточные выборы · to 
+---
+> ATS WIN BOTH HOUSES! Голосование 3 ноября Демократы выиграли обе палаты Промежуточные выборы Tuesday, November 3: America voted. By Sunday
+> , November 8, the count was clear. THE BIG STORY Главная тема Democrats Win the House and the Senate On Tuesday, November 3, Americans changed hands too: Georgia, Iowa, voted in the midterm
+FAIL en text-layer differs

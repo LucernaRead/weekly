@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-es/svg: 3 flags {'EDGE': 1, 'TEXTX': 2}
+  [EDGE] p2-saenghwal.svg 'Relacionar las palabras con las notas' — ink box (1635.5, 1930.25, 1967.75, 1950.5) outside page 1950.0x2700.0
+  [TEXTX] p8-siheom.svg '배추와 양념을 사요. 점심에는 가족과 김치를 담가요. 양념을' — ink overlaps 'Relacionar la palabra con su significado' by 103.5x5.4px
+  [TEXTX] p8-siheom.svg 'Relacionar la palabra con su significado' — ink overlaps '버무리면 손이 차가워지지만 마음은 따뜻해져요. 오후에는 친구에게' by 103.5x11.0px

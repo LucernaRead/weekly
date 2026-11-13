@@ -1,0 +1,16 @@
+===== CORE-P2
+  x=1473.5 y=2124.0 sz=23.0 'a. mettere una pianta nella terra'
+  x=1473.5 y=2162.0 sz=23.0 'b. il ponte di barche per la festa in'
+  x=1473.5 y=2233.0 sz=23.0 'c. stare bene, la prima ricchezza'
+  x=1473.5 y=2271.0 sz=23.0 'd. la piccola luce di cera accesa in'
+  --- texts x>1500:
+  x=1580.1 y=142.0 sz=46.0 'La Lucerna'
+  x=1589.8 y=1594.0 sz=20.0 'Una festa, una giornata verde'
+  x=1511.5 y=1927.0 sz=24.0 '25–28.'
+  x=1635.5 y=1927.0 sz=19.5 '把词和释义配对'
+  x=1758.1 y=2624.0 sz=17.0 '第2版／共8版'
+  --- cream rects: [(538.5, 1214.0, 422.5, 210.9), (989.0, 200.0, 422.5, 145.7), (1439.5, 617.1, 422.5, 343.5), (1439.5, 986.6, 422.5, 335.0)]
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+  File "<stdin>", line 3, in texts
+FileNotFoundError: [Errno 2] No such file or directory: '/svg/p2-vita.svg'

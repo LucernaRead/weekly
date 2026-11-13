@@ -1,0 +1,16 @@
+  flow[P1-headline] ended col 2/2 y=1723 (bottom 1828)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-en-de1/gates/rebuild/dump_reg.py", line 6, in <module>
+    runpy.run_path(f, run_name="__main__")
+  File "<frozen runpy>", line 286, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "content12.py", line 119, in <module>
+    image(p, "capitol.jpg", ix, iy, iw, 320)
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-en-de1/gates/rebuild/bslib4.py", line 36, in image
+    f'preserveAspectRatio="xMidYMid slice" href="{img_uri(path)}"/>')
+                                                  ^^^^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-en-de1/gates/rebuild/bslib4.py", line 30, in img_uri
+    with open(path, "rb") as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-en-de1/gates/rebuild/assets/capitol.jpg'

@@ -1,0 +1,485 @@
+Q1 [P1 A2 完成句子] KEY='gagné' NOTE='Alcaraz vence'
+    STEM: 1. Dimanche 8 novembre, Alcaraz a ___ le Masters de Paris.
+    STEM: 1. gagné　2. mercredi　3. jeudi (O Nouveau sai a 19 nov.)　4. premier (Primeiro título em Paris)　5. 12,7 (Défice cai para 12,7 mil milhões)　6. 22 (Final de Turim dom. 22)　7. A (Final domingo 8)　8. B (A votação é quarta 18)　9. A (O Nouveau é quinta-feira 19)　10. B (Final de Turim dom. 22)
+
+Q2 [P1 A2 完成句子] KEY='mercredi' NOTE='Quarta-feira 18 nov.'
+    STEM: 2. C'est ___ que le Sénat vote, le 18 novembre.
+
+Q3 [P1 A2 完成句子] KEY='jeudi' NOTE='O Nouveau sai a 19 nov.'
+    STEM: 3. C'est ___ que le beaujolais nouveau arrive, le 19 novembre.
+
+Q4 [P1 B1 完成句子] KEY='premier' NOTE='Primeiro título em Paris'
+    STEM: 4. C'est son ___ titre à Paris.
+
+Q5 [P1 B1 完成句子] KEY='12,7' NOTE='Défice cai para 12,7 mil milhões'
+    STEM: 5. Le déficit de la Sécu doit passer de 21,8 à ___ milliards.
+
+Q6 [P1 B1 完成句子] KEY='22' NOTE='Final de Turim dom. 22'
+    STEM: 6. Les finales de Turin ont lieu dimanche ___ novembre.
+
+Q7 [P1 A2 单选] KEY='A' NOTE='Final domingo 8'
+    STEM: 7. Alcaraz a gagné Paris... A. dimanche 8　B. samedi 7　C. lundi 9
+
+Q8 [P1 A2 单选] KEY='B' NOTE='A votação é quarta 18'
+    STEM: 8. Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+
+Q9 [P1 A2 单选] KEY='A' NOTE='O Nouveau é quinta-feira 19'
+    STEM: 9. Le beaujolais nouveau arrive... A. jeudi 19　B. vendredi 20　C. samedi 21
+
+Q10 [P1 A2 单选] KEY='B' NOTE='Final de Turim dom. 22'
+    STEM: 10. Les finales de Turin, c'est... A. samedi 21　B. dimanche 22　C. lundi 23
+
+Q11 [P2 A2 完成句子] KEY='mercredi' NOTE='Quarta-feira 18 nov.'
+    STEM: 11. Le Sénat vote ___ 18 novembre. [Completa]
+    STEM: 11. mercredi　12. lundi (Segunda 16)　13. jeudi (O Nouveau quinta 19)　14. dimanche (Domingo 22)　15. Le Sénat va voter mercredi. (aller + infinitivo)　16. Nous allons goûter le beaujolais jeudi.　17. Tu vas raconter ton jeudi 19 novembre. (tu → vas)　18. Vous allez regarder les finales dimanche.　19. C (Dia das Crianças a 20)　20. B (Semana anti-desperdício 21)　21. A (Final de Turim no domingo)　22. a (vote = voto　a)　23. b　24. c　25. d
+
+Q12 [P2 A2 完成句子] KEY='lundi' NOTE='Segunda 16'
+    STEM: 12. La semaine commence ___ 16 novembre. [Completa]
+
+Q13 [P2 A2 完成句子] KEY='jeudi' NOTE='O Nouveau quinta 19'
+    STEM: 13. Le beaujolais nouveau arrive ___ 19 novembre. [Completa]
+
+Q14 [P2 A2 完成句子] KEY='dimanche' NOTE='Domingo 22'
+    STEM: 14. Les finales de Turin, c'est ___ 22 novembre. [Completa]
+
+Q15 [P2 A2 句型转换] KEY='Le Sénat va voter mercredi.' NOTE='aller + infinitivo'
+    STEM: 15. Mercredi, le Sénat (voter). → ___ [Reescreve]
+
+Q16 [P2 A2 句型转换] KEY='Nous allons goûter le beaujolais jeudi.' NOTE='nous → allons'
+    STEM: 16. Jeudi, nous (goûter) le beaujolais. → ___ [Reescreve]
+
+Q17 [P2 A2 句型转换] KEY='Tu vas raconter ton jeudi 19 novembre.' NOTE='tu → vas'
+    STEM: 17. Tu (raconter) ton jeudi 19 novembre. → ___ [Reescreve]
+
+Q18 [P2 B1 句型转换] KEY='Vous allez regarder les finales dimanche.' NOTE='vous → allez'
+    STEM: 18. Dimanche, vous (regarder) les finales → ___ [Reescreve]
+
+Q19 [P2 A2 单选] KEY='C' NOTE='Dia das Crianças a 20'
+    STEM: 19. La Journée de l'enfance, c'est le... A. 18 nov.　B. 19 nov.　C. 20 nov.
+
+Q20 [P2 A2 单选] KEY='B' NOTE='Semana anti-desperdício 21'
+    STEM: 20. La Semaine de la réduction des déchets commence... A. le 19 nov.　B. le 21 nov.　C. le 29 nov.
+
+Q21 [P2 A2 单选] KEY='A' NOTE='Final de Turim no domingo'
+    STEM: 21. Les finales de Turin, c'est... A. dimanche 22　B. samedi 21　C. lundi 23
+
+Q22 [P2 A2 词汇配对] KEY='a' NOTE='vote = voto\u3000a'
+    PAIR-L: ['un vote', 'un vin primeur', 'un déchet', 'une finale']
+    PAIR-R: ['la décision ensemble', "un vin de l'année, très jeune", "ce qu'on jette", "le dernier match d'un tournoi", 'a', 'b', 'c', 'd', 'm_vote2', 'm_primeur2', 'm_dechet2', 'm_finale2', 'instr_match']
+
+Q23 [P2 A2 词汇配对] KEY='b' NOTE='primeur = vinho novo\u3000b'
+    PAIR-L: ['un vote', 'un vin primeur', 'un déchet', 'une finale']
+    PAIR-R: ['la décision ensemble', "un vin de l'année, très jeune", "ce qu'on jette", "le dernier match d'un tournoi", 'a', 'b', 'c', 'd', 'm_vote2', 'm_primeur2', 'm_dechet2', 'm_finale2', 'instr_match']
+
+Q24 [P2 A2 词汇配对] KEY='c' NOTE='déchet = resíduo\u3000c'
+    PAIR-L: ['un vote', 'un vin primeur', 'un déchet', 'une finale']
+    PAIR-R: ['la décision ensemble', "un vin de l'année, très jeune", "ce qu'on jette", "le dernier match d'un tournoi", 'a', 'b', 'c', 'd', 'm_vote2', 'm_primeur2', 'm_dechet2', 'm_finale2', 'instr_match']
+
+Q25 [P2 A2 词汇配对] KEY='d' NOTE='finale = final\u3000d'
+    PAIR-L: ['un vote', 'un vin primeur', 'un déchet', 'une finale']
+    PAIR-R: ['la décision ensemble', "un vin de l'année, très jeune", "ce qu'on jette", "le dernier match d'un tournoi", 'a', 'b', 'c', 'd', 'm_vote2', 'm_primeur2', 'm_dechet2', 'm_finale2', 'instr_match']
+
+Q26 [P3 A2 阅读判断] KEY='Vrai' NOTE='Venda antecipada em 1951'
+    STEM: 26. En 1951, les vignerons obtiennent le droit de vendre plus tôt. [Vrai ou faux ?]
+    STEM: 26. Vrai (Venda antecipada em 1951)　27. Faux　28. Vrai (O Nouveau sai a 19)　29. Faux　30. Vrai (Gamay é uma casta)　31. gamay (Uva gamay)　32. jeudi (A 3.ª quinta-feira)　33. Beaujeu (Festa no Beaujolais)　34. 1985 (3.ª quinta-feira desde 1985)　35. Le vin ne se vend jamais avant le troisième jeudi.　36. On ne boit pas d'alcool avant 18 ans.　37. Le beaujolais n'est pas un vin blanc.　38. 75 ans (75.º aniversário)　39. minuit　40. troisième (A 3.ª quinta-feira)　41. B (Gamay é uma casta)　42. 13 (Vindima a 13 de agosto)　43. saucisson (Ótimo com salsicha)
+
+Q27 [P3 A2 阅读判断] KEY='Faux' NOTE='O Nouveau é a terceira quinta-feira'
+    STEM: 27. Le beaujolais nouveau sort le deuxième jeudi de novembre. [Vrai ou faux ?]
+
+Q28 [P3 A2 阅读判断] KEY='Vrai' NOTE='O Nouveau sai a 19'
+    STEM: 28. Le beaujolais nouveau est mis en vente le 19 novembre. [Vrai ou faux ?]
+
+Q29 [P3 B1 阅读判断] KEY='Faux' NOTE='Festa no Beaujolais'
+    STEM: 29. Les Sarmentelles ont lieu à Paris. [Vrai ou faux ?]
+
+Q30 [P3 B1 阅读判断] KEY='Vrai' NOTE='Gamay é uma casta'
+    STEM: 30. Le gamay est le cépage du Beaujolais. [Vrai ou faux ?]
+
+Q31 [P3 B1 完成句子] KEY='gamay' NOTE='Uva gamay'
+    STEM: 31. Le cépage du Beaujolais, c'est le ___.
+
+Q32 [P3 A2 完成句子] KEY='jeudi' NOTE='A 3.ª quinta-feira'
+    STEM: 32. Le beaujolais nouveau sort le troisième ___ de novembre.
+
+Q33 [P3 A2 完成句子] KEY='Beaujeu' NOTE='Festa no Beaujolais'
+    STEM: 33. Les Sarmentelles ont lieu à ___.
+
+Q34 [P3 B1 完成句子] KEY='1985' NOTE='3.ª quinta-feira desde 1985'
+    STEM: 34. La règle du troisième jeudi date de ___.
+
+Q35 [P3 B1 句型转换] KEY='Le vin ne se vend jamais avant le troisième jeudi.' NOTE='jamais + ne'
+    STEM: 35. (jamais) Le vin se vend avant le troisième jeudi. → ___ [Reescreve]
+
+Q36 [P3 B1 句型转换] KEY="On ne boit pas d'alcool avant 18 ans." NOTE='ne...pas = não'
+    STEM: 36. (pas) On boit de l'alcool avant 18 ans. → ___ [Reescreve]
+
+Q37 [P3 B1 句型转换] KEY="Le beaujolais n'est pas un vin blanc." NOTE='ne...pas = não'
+    STEM: 37. (pas) Le beaujolais est un vin blanc. → ___ [Reescreve]
+
+Q38 [P3 A2 完成句子] KEY='75 ans' NOTE='75.º aniversário'
+    STEM: 38. Cette année, ce sont les ___ du rendez-vous.
+
+Q39 [P3 B1 完成句子] KEY='minuit' NOTE='Meia-noite 0:00'
+    STEM: 39. La mise en perce a lieu à ___.
+
+Q40 [P3 A2 完成句子] KEY='troisième' NOTE='A 3.ª quinta-feira'
+    STEM: 40. Le vin sort le ___ jeudi de novembre.
+
+Q41 [P3 B1 单选] KEY='B' NOTE='Gamay é uma casta'
+    STEM: 41. Le gamay est... A. un fromage　B. un cépage　C. un village
+
+Q42 [P3 B1 完成句子] KEY='13' NOTE='Vindima a 13 de agosto'
+    STEM: 42. Les vendanges 2026 ont commencé le ___ août.
+
+Q43 [P3 A2 完成句子] KEY='saucisson' NOTE='Ótimo com salsicha'
+    STEM: 43. Pour accompagner le beaujolais : du ___.
+
+Q44 [P4 B1 单选] KEY='B' NOTE='Final domingo 8'
+    STEM: 44. La finale du Masters a eu lieu... A. samedi 7　B. dimanche 8　C. lundi 9
+    STEM: 44. B (Final domingo 8)　45. A (Alcaraz bate Shelton)　46. C (Turim começa a 15)　47. A (O francês é Fils)　48. A　49. a　50. b　51. c　52. d　53. plus vite (Recinto coberto, mais rápido)　54. plus grand (Turim maior)　55. moins longue (A pausa mais curta)　56. forfait (Desistido por lesão)　57. finale (Final singular dom.)　58. groupes (Dois grupos de 4)　59. tirage (O sorteio é quinta 12)　60. Bordeaux (Bordéus em casa)　61. Milan (Milão fora)
+
+Q45 [P4 B1 单选] KEY='A' NOTE='Alcaraz bate Shelton'
+    STEM: 45. Alcaraz a battu en finale... A. Shelton　B. Sinner　C. Zverev
+
+Q46 [P4 B1 单选] KEY='C' NOTE='Turim começa a 15'
+    STEM: 46. Les Masters de Turin commencent... A. le 9 nov.　B. le 12 nov.　C. le 15 nov.
+
+Q47 [P4 B1 单选] KEY='A' NOTE='O francês é Fils'
+    STEM: 47. Le Français débutant à Turin, c'est... A. Fils　B. Cobolli　C. Jodar
+
+Q48 [P4 B1 单选] KEY='A' NOTE='A Ligue 1 regressa a 20'
+    STEM: 48. La 11e journée de Ligue 1 reprend... A. vendredi 20　B. dimanche 15　C. lundi 9
+
+Q49 [P4 B1 词汇配对] KEY='a' NOTE='forfait = desistência\u3000a'
+    PAIR-L: ['un forfait', 'un tableau', 'un tirage', 'la trêve']
+    PAIR-R: ["ne pas jouer, à cause d'une blessure", "la liste des matches d'un tournoi", 'le sort qui fait les groupes', 'la pause entre deux séries de matches', 'a', 'b', 'c', 'd', 'm_forfait', 'm_tableau', 'm_tirage3', 'm_treve', 'instr_match']
+
+Q50 [P4 B1 词汇配对] KEY='b' NOTE='tableau = quadro\u3000b'
+    PAIR-L: ['un forfait', 'un tableau', 'un tirage', 'la trêve']
+    PAIR-R: ["ne pas jouer, à cause d'une blessure", "la liste des matches d'un tournoi", 'le sort qui fait les groupes', 'la pause entre deux séries de matches', 'a', 'b', 'c', 'd', 'm_forfait', 'm_tableau', 'm_tirage3', 'm_treve', 'instr_match']
+
+Q51 [P4 B1 词汇配对] KEY='c' NOTE='tirage = sorteio\u3000c'
+    PAIR-L: ['un forfait', 'un tableau', 'un tirage', 'la trêve']
+    PAIR-R: ["ne pas jouer, à cause d'une blessure", "la liste des matches d'un tournoi", 'le sort qui fait les groupes', 'la pause entre deux séries de matches', 'a', 'b', 'c', 'd', 'm_forfait', 'm_tableau', 'm_tirage3', 'm_treve', 'instr_match']
+
+Q52 [P4 B1 词汇配对] KEY='d' NOTE='trêve = pausa\u3000d'
+    PAIR-L: ['un forfait', 'un tableau', 'un tirage', 'la trêve']
+    PAIR-R: ["ne pas jouer, à cause d'une blessure", "la liste des matches d'un tournoi", 'le sort qui fait les groupes', 'la pause entre deux séries de matches', 'a', 'b', 'c', 'd', 'm_forfait', 'm_tableau', 'm_tirage3', 'm_treve', 'instr_match']
+
+Q53 [P4 B1 完成句子] KEY='plus vite' NOTE='Recinto coberto, mais rápido'
+    STEM: 53. En salle, la balle va ___ (vite) qu'en plein air.
+
+Q54 [P4 B1 完成句子] KEY='plus grand' NOTE='Turim maior'
+    STEM: 54. Turin est ___ (grand) qu'un petit tournoi.
+
+Q55 [P4 B1 完成句子] KEY='moins longue' NOTE='A pausa mais curta'
+    STEM: 55. La trêve est ___ (longue) que la saison. (moins)
+
+Q56 [P4 B1 完成句子] KEY='forfait' NOTE='Desistido por lesão'
+    STEM: 56. Sinner a déclaré ___ : blessé, il n'a pas joué.
+
+Q57 [P4 B1 完成句子] KEY='finale' NOTE='Final singular dom.'
+    STEM: 57. La ___ du simple a eu lieu dimanche 8.
+
+Q58 [P4 B1 完成句子] KEY='groupes' NOTE='Dois grupos de 4'
+    STEM: 58. À Turin, huit joueurs, en deux ___ de quatre.
+
+Q59 [P4 B1 完成句子] KEY='tirage' NOTE='O sorteio é quinta 12'
+    STEM: 59. Le ___ des groupes a eu lieu jeudi 12.
+
+Q60 [P4 B1 完成句子] KEY='Bordeaux' NOTE='Bordéus em casa'
+    STEM: 60. France – Turquie, dimanche 15, à ___.
+
+Q61 [P4 A2 完成句子] KEY='Milan' NOTE='Milão fora'
+    STEM: 61. Italie – France, jeudi 12, à ___.
+
+Q62 [P5 B1 单选] KEY='B' NOTE='16 filmes novos'
+    STEM: 62. Mercredi 18 novembre, il sort... A. 6 films　B. 16 films　C. 56 films
+    STEM: 62. B (16 filmes novos)　63. B　64. B (Les Braves de Dhont)　65. A (Presidente é Ménochet)　66. A (Camembert: quiz)　67. mercredi (Estreias quarta)　68. prequel (Prequel)　69. Ménochet (Ménochet protagonista)　70. 21 (Semana anti-desperdício 21)　71. produit (Não produzir é melhor)　72. acheter (Segunda mão = usado)　73. a　74. b　75. c　76. d　77. des billets (Comprar bilhetes)　78. deux (Dois bilhetes)
+
+Q63 [P5 B1 单选] KEY='B' NOTE='O prequel conta a história de Haymitch'
+    STEM: 63. Haymitch est le héros... A. d'un match　B. du prequel　C. d'une comédie
+
+Q64 [P5 B1 单选] KEY='B' NOTE='Les Braves de Dhont'
+    STEM: 64. « Les Braves », c'est un film de... A. Francis Lawrence　B. Lukas Dhont　C. Mipo O
+
+Q65 [P5 B1 单选] KEY='A' NOTE='Presidente é Ménochet'
+    STEM: 65. Dans « Jupiter », le président, c'est... A. Denis Ménochet　B. Johnny Depp　C. Guillermo Guiz
+
+Q66 [P5 B1 单选] KEY='A' NOTE='Camembert: quiz'
+    STEM: 66. « Camembert », c'est l'histoire... A. d'une partie de Trivial Pursuit　B. d'un braquage　C. d'un concert
+
+Q67 [P5 B1 完成句子] KEY='mercredi' NOTE='Estreias quarta'
+    STEM: 67. Les nouveaux films sortent le ___.
+
+Q68 [P5 B1 完成句子] KEY='prequel' NOTE='Prequel'
+    STEM: 68. « Hunger Games », c'est un ___.
+
+Q69 [P5 B1 完成句子] KEY='Ménochet' NOTE='Ménochet protagonista'
+    STEM: 69. « Jupiter », c'est avec Denis ___.
+
+Q70 [P5 B1 完成句子] KEY='21' NOTE='Semana anti-desperdício 21'
+    STEM: 70. La Semaine de la réduction des déchets commence le ___ novembre.
+
+Q71 [P5 B1 完成句子] KEY='produit' NOTE='Não produzir é melhor'
+    STEM: 71. Le meilleur déchet est celui qu'on ne ___ pas.
+
+Q72 [P5 A2 完成句子] KEY='acheter' NOTE='Segunda mão = usado'
+    STEM: 72. Acheter en seconde main, c'est ___ d'occasion.
+
+Q73 [P5 B1 词汇配对] KEY='a' NOTE='prequel = prequel\u3000a'
+    PAIR-L: ['un prequel', 'une bande-annonce', 'la seconde main', 'un atelier']
+    PAIR-R: ["un film qui raconte l'avant d'une histoire", 'la courte vidéo qui présente un film', 'acheter des objets déjà utilisés', "le lieu où l'on répare ensemble", 'a', 'b', 'c', 'd', 'm_prequel', 'm_bande', 'm_seconde', 'm_atelier', 'instr_match']
+
+Q74 [P5 B1 词汇配对] KEY='b' NOTE='bande-annonce = trailer\u3000b'
+    PAIR-L: ['un prequel', 'une bande-annonce', 'la seconde main', 'un atelier']
+    PAIR-R: ["un film qui raconte l'avant d'une histoire", 'la courte vidéo qui présente un film', 'acheter des objets déjà utilisés', "le lieu où l'on répare ensemble", 'a', 'b', 'c', 'd', 'm_prequel', 'm_bande', 'm_seconde', 'm_atelier', 'instr_match']
+
+Q75 [P5 B1 词汇配对] KEY='c' NOTE='seconde main = segunda mão\u3000c'
+    PAIR-L: ['un prequel', 'une bande-annonce', 'la seconde main', 'un atelier']
+    PAIR-R: ["un film qui raconte l'avant d'une histoire", 'la courte vidéo qui présente un film', 'acheter des objets déjà utilisés', "le lieu où l'on répare ensemble", 'a', 'b', 'c', 'd', 'm_prequel', 'm_bande', 'm_seconde', 'm_atelier', 'instr_match']
+
+Q76 [P5 B1 词汇配对] KEY='d' NOTE='atelier = ateliê\u3000d'
+    PAIR-L: ['un prequel', 'une bande-annonce', 'la seconde main', 'un atelier']
+    PAIR-R: ["un film qui raconte l'avant d'une histoire", 'la courte vidéo qui présente un film', 'acheter des objets déjà utilisés', "le lieu où l'on répare ensemble", 'a', 'b', 'c', 'd', 'm_prequel', 'm_bande', 'm_seconde', 'm_atelier', 'instr_match']
+
+Q77 [P5 B1 完成句子] KEY='des billets' NOTE='Comprar bilhetes'
+    STEM: 77. — Tu as pris ___ pour mercredi ? — Oui, pour toi et moi.
+
+Q78 [P5 B1 完成句子] KEY='deux' NOTE='Dois bilhetes'
+    STEM: 78. — Tu as pris combien de billets ? — ___, pour toi et moi.
+
+Q79 [P6 B2 图表读数] KEY='B' NOTE='23 out. rejeitado 115–1'
+    STEM: 79. Le 23 octobre : les recettes... A. adoptées　B. rejetées　C. reportées
+    STEM: 79. B (23 out. rejeitado 115–1)　80. B (4 nov. rejeitado 458–0)　81. B (A votação é a 18)　82. B (Orçamento em debate desde dia 20)　83. C (Votação solene 9 dez.)　84. B (50 dias até 26)　85. a　86. b　87. c (vote = votação　c)　88. d　89. plus long (Debate no Senado mais longo)　90. moins simple (Orçamento mais complexo)　91. aussi important (Igualmente importante)　92. examine (O Senado examina)　93. ont rejeté (Os deputados rejeitam)　94. part (Texto vai ao Senado)　95. peut (O calendário muda)　96. connus (Resultados desconhecidos)
+
+Q80 [P6 B2 图表读数] KEY='B' NOTE='4 nov. rejeitado 458–0'
+    STEM: 80. Le 4 novembre, le vote... A. 115–1　B. 458–0　C. 404–1
+
+Q81 [P6 B2 图表读数] KEY='B' NOTE='A votação é a 18'
+    STEM: 81. Le vote sur la Sécu... A. 9 nov.　B. 18 nov.　C. 20 nov.
+
+Q82 [P6 B2 图表读数] KEY='B' NOTE='Orçamento em debate desde dia 20'
+    STEM: 82. Le budget de l'État, dès le... A. 9 nov.　B. 20 nov.　C. 26 nov.
+
+Q83 [P6 B1 图表读数] KEY='C' NOTE='Votação solene 9 dez.'
+    STEM: 83. Le vote sur le budget... A. 18 nov.　B. 26 nov.　C. 9 déc.
+
+Q84 [P6 B1 图表读数] KEY='B' NOTE='50 dias até 26'
+    STEM: 84. Cinquante jours, jusqu'au... A. 9 nov.　B. 26 nov.　C. 18 déc.
+
+Q85 [P6 B2 词汇配对] KEY='a' NOTE='sénateur = senador\u3000a'
+    PAIR-L: ['un sénateur', 'rejeter', 'un vote', 'une commission']
+    PAIR-R: ['un élu du Sénat', 'dire non à un texte', 'la décision ensemble', 'le groupe qui prépare', 'a', 'b', 'c', 'd', 'm_senateur', 'm_rejeter', 'm_vote', 'm_commission', 'instr_match']
+
+Q86 [P6 B2 词汇配对] KEY='b' NOTE='rejeter = rejeitar\u3000b'
+    PAIR-L: ['un sénateur', 'rejeter', 'un vote', 'une commission']
+    PAIR-R: ['un élu du Sénat', 'dire non à un texte', 'la décision ensemble', 'le groupe qui prépare', 'a', 'b', 'c', 'd', 'm_senateur', 'm_rejeter', 'm_vote', 'm_commission', 'instr_match']
+
+Q87 [P6 B2 词汇配对] KEY='c' NOTE='vote = votação\u3000c'
+    PAIR-L: ['un sénateur', 'rejeter', 'un vote', 'une commission']
+    PAIR-R: ['un élu du Sénat', 'dire non à un texte', 'la décision ensemble', 'le groupe qui prépare', 'a', 'b', 'c', 'd', 'm_senateur', 'm_rejeter', 'm_vote', 'm_commission', 'instr_match']
+
+Q88 [P6 B2 词汇配对] KEY='d' NOTE='commission = comissão\u3000d'
+    PAIR-L: ['un sénateur', 'rejeter', 'un vote', 'une commission']
+    PAIR-R: ['un élu du Sénat', 'dire non à un texte', 'la décision ensemble', 'le groupe qui prépare', 'a', 'b', 'c', 'd', 'm_senateur', 'm_rejeter', 'm_vote', 'm_commission', 'instr_match']
+
+Q89 [P6 B1 完成句子] KEY='plus long' NOTE='Debate no Senado mais longo'
+    STEM: 89. Un débat au Sénat est ___ (long) qu'un concert.
+
+Q90 [P6 B2 完成句子] KEY='moins simple' NOTE='Orçamento mais complexo'
+    STEM: 90. Le budget est ___ (simple) qu'un calendrier. (moins)
+
+Q91 [P6 B2 完成句子] KEY='aussi important' NOTE='Igualmente importante'
+    STEM: 91. Le budget de la Sécu est ___ (important) que le budget de l'État. (aussi)
+
+Q92 [P6 B2 完成句子] KEY='examine' NOTE='O Senado examina'
+    STEM: 92. Cette semaine, le Sénat ___ le budget de la Sécu.
+
+Q93 [P6 B2 完成句子] KEY='ont rejeté' NOTE='Os deputados rejeitam'
+    STEM: 93. Le 4 novembre, les députés ___ les recettes du budget.
+
+Q94 [P6 B2 完成句子] KEY='part' NOTE='Texto vai ao Senado'
+    STEM: 94. Le texte ___ au Sénat.
+
+Q95 [P6 B1 完成句子] KEY='peut' NOTE='O calendário muda'
+    STEM: 95. Le calendrier ___ encore bouger.
+
+Q96 [P6 B1 完成句子] KEY='connus' NOTE='Resultados desconhecidos'
+    STEM: 96. Les résultats du 18 novembre ne sont pas encore ___.
+
+Q97 [P7 A2 跟练] KEY='battu' NOTE='battre → battu'
+    STEM: 97. Alcaraz a ___ (battre) Shelton.
+    STEM: 97. battu (battre → battu)　98. est arrivé　99. vote　100. beauté (se terminer en beauté = terminar em beleza)　101. produit (celui que = pronome relativo)　102. sortent (sortir = estrear, sair)　103. rejetée (rejeter → rejetée)　104. jouer (trois temps = três tempos)　105. Alcaraz a battu Shelton. (Particípio passado: battu)　106. Le Sénat vote mercredi. (Concordância: Sénat singular → vote)　107. Il est prévu que le Sénat examine le texte. (Subjuntivo: examine, sem s)　108. Le beaujolais nouveau arrive jeudi 19 novembre. (Facto: o Nouveau é a 19, não a 20)
+
+Q98 [P7 B1 跟练] KEY='est arrivé' NOTE='arriver com être'
+    STEM: 98. Le beaujolais nouveau ___ (arriver) jeudi.
+
+Q99 [P7 A2 跟练] KEY='vote' NOTE='voter = votar'
+    STEM: 99. Le Sénat ___ (voter) mercredi.
+
+Q100 [P7 A2 跟练] KEY='beauté' NOTE='se terminer en beauté = terminar em beleza'
+    STEM: 100. La semaine se termine en ___ (beau).
+
+Q101 [P7 B1 跟练] KEY='produit' NOTE='celui que = pronome relativo'
+    STEM: 101. Le meilleur déchet est celui qu'on ne ___ (produire) pas.
+
+Q102 [P7 A2 跟练] KEY='sortent' NOTE='sortir = estrear, sair'
+    STEM: 102. Mercredi, seize films ___ (sortir) dans les salles de cinéma.
+
+Q103 [P7 B2 跟练] KEY='rejetée' NOTE='rejeter → rejetée'
+    STEM: 103. La première partie est ___ (rejeter).
+
+Q104 [P7 A2 跟练] KEY='jouer' NOTE='trois temps = três tempos'
+    STEM: 104. Une semaine en trois temps : voter, fêter et ___.
+
+Q105 [P7 A2 改错] KEY='Alcaraz a battu Shelton.' NOTE='Particípio passado: battu'
+    STEM: 105. ✗ « Alcaraz a battre Shelton. » [Corrige]
+
+Q106 [P7 B1 改错] KEY='Le Sénat vote mercredi.' NOTE='Concordância: Sénat singular → vote'
+    STEM: 106. ✗ « Le Sénat votent mercredi. » [Corrige]
+
+Q107 [P7 B2 改错] KEY='Il est prévu que le Sénat examine le texte.' NOTE='Subjuntivo: examine, sem s'
+    STEM: 107. ✗ « Il est prévu que le Sénat va examiner le texte. » [Corrige]
+
+Q108 [P7 B1 改错] KEY='Le beaujolais nouveau arrive jeudi 19 novembre.' NOTE='Facto: o Nouveau é a 19, não a 20'
+    STEM: 108. ✗ « Le beaujolais nouveau arrive vendredi 20 novembre. » [Corrige]
+
+Q109 [P8 A2 完形填空] KEY='A' NOTE='16 nov. é segunda'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 109. A. lundi　B. samedi　C. dimanche
+    STEM: 109. A (16 nov. é segunda)　110. B (Festa no Beaujolais)　111. A (Resultados em VOL.5)　112. B (Contexto → goûté)　113. A (proposer = propor)　114. A (avoir + particípio (sem conc.))　115. B (les Bleus plur. → jouent)　116. A (il écrit = ele escreve)　117. A (Turim começa a 15)　118. A (O Nouveau é primeur)　119. B (A votação é quarta 18)　120. B (si + imperfeito → condic.)　121. A (3.ª pess. singular → semble)　122. B (França sing. → reçoit)　123. A (Prequel de Hunger Games)　124. C (Beaujolais Nouveau 19)　125. A (Ler o jornal)　126. A (Final de Turim à tarde)　127. A (Marselha 20:45)　128. A (Segunda há aulas)　129. A (Volta às aulas segunda)　130. Le Sénat va voter mercredi. (aller + infinitivo)　131. Si tu venais dimanche, tu verrais les finales. (si + imperfeito)　132. Il a goûté le beaujolais à Beaujeu. (passé composé: a + part.)　133. Selon moi, la semaine est bien remplie. (selon moi = a meu ver)　134. Il est prévu que le Sénat examine le texte mercredi. (il est prévu que + subj.)　135. Regarder une finale, c'est déjà apprendre le français. (regarder = ver uma final)　136. Il court plus vite que son frère. (Comparativo: plus vite)　137. Nous suivons le vote du Sénat depuis lundi. (depuis + dia da semana)　138. Ce soir, nous allons préparer nos affaires. (futur proche + préparer)　139. On ne connaît pas encore les résultats. (ne...pas encore = ainda não)　140. a (sénateur = senador　a)　141. b (vainqueur = vencedor　b)　142. c (tirage = sorteio　c)　143. d (primeur = vinho novo　d)　144. e (déchet = resíduo　e)　145. des billets (Comprar bilhetes)　146. deux (Dois bilhetes)　147. quelle heure (A que horas começa)　148. devant le (À porta do cinema)　149. film (Bon film! Bom filme!)　150. Pergunta aberta — pontos no quadro; modelo no quadro da página 8 (Avaliação por pontos)
+
+Q110 [P8 A2 完形填空] KEY='B' NOTE='Festa no Beaujolais'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 110. A. Paris　B. Beaujeu　C. Turin
+
+Q111 [P8 A2 完形填空] KEY='A' NOTE='Resultados em VOL.5'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 111. A. résultats　B. finalistes　C. spectateurs
+
+Q112 [P8 A2 完形填空] KEY='B' NOTE='Contexto → goûté'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 112. A. acheté　B. goûté　C. vendu
+
+Q113 [P8 B1 完形填空] KEY='A' NOTE='proposer = propor'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 113. A. propose　B. proposent　C. se tient
+
+Q114 [P8 B1 完形填空] KEY='A' NOTE='avoir + particípio (sem conc.)'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 114. A. aimé　B. aimée　C. aimer
+
+Q115 [P8 B1 完形填空] KEY='B' NOTE='les Bleus plur. → jouent'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 115. A. joue　B. jouent　C. jouer
+
+Q116 [P8 A2 完形填空] KEY='A' NOTE='il écrit = ele escreve'
+    STEM: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouveau. « Les (111)___ de Turin seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Beaujeu, on a (112)___ le vin primeur, un régal ! » Le cinéma (113)___ seize films mercredi. Théo a (114)___ les bandes-annonces. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
+    STEM: 116. A. écrit　B. écrivent　C. écris
+
+Q117 [P8 A2 单选] KEY='A' NOTE='Turim começa a 15'
+    STEM: 117. Turin commence... A. dimanche 15　B. lundi 16　C. mercredi 18
+
+Q118 [P8 A2 单选] KEY='A' NOTE='O Nouveau é primeur'
+    STEM: 118. Le beaujolais nouveau, c'est... A. un vin primeur　B. un fromage　C. un film
+
+Q119 [P8 B1 单选] KEY='B' NOTE='A votação é quarta 18'
+    STEM: 119. Le Sénat vote sur la Sécu... A. lundi 16　B. mercredi 18　C. jeudi 19
+
+Q120 [P8 B2 单选] KEY='B' NOTE='si + imperfeito → condic.'
+    STEM: 120. Si j'étais libre dimanche, j'___ à Turin. A. irai　B. irais　C. vais
+
+Q121 [P8 B2 单选] KEY='A' NOTE='3.ª pess. singular → semble'
+    STEM: 121. À mon avis, ce programme ___ très riche. A. semble　B. sembler　C. semblant
+
+Q122 [P8 B1 单选] KEY='B' NOTE='França sing. → reçoit'
+    STEM: 122. Dimanche, la France ___ la Turquie à Bordeaux. A. reçoivent　B. reçoit　C. recevoir
+
+Q123 [P8 A2 单选] KEY='A' NOTE='Prequel de Hunger Games'
+    STEM: 123. Hunger Games, c'est... A. un prequel　B. un match　C. une foire
+
+Q124 [P8 B1 单选] KEY='C' NOTE='Beaujolais Nouveau 19'
+    STEM: 124. Le beaujolais nouveau arrive... A. le 11 nov.　B. le 15 nov.　C. le 19 nov.
+
+Q125 [P8 A2 阅读理解] KEY='A' NOTE='Ler o jornal'
+    STEM: 125. Le matin, la famille lit... A. le journal　B. un roman　C. une bande-annonce
+
+Q126 [P8 A2 阅读理解] KEY='A' NOTE='Final de Turim à tarde'
+    STEM: 126. L'après-midi, la famille regarde... A. les finales de Turin　B. un film　C. les Sarmentelles
+
+Q127 [P8 B1 阅读理解] KEY='A' NOTE='Marselha 20:45'
+    STEM: 127. Marseille – Le Mans, c'est à... A. 20 h 45　B. 17 h 15　C. 15 h
+
+Q128 [P8 B1 阅读理解] KEY='A' NOTE='Segunda há aulas'
+    STEM: 128. Le soir, les enfants dorment tôt parce que... A. lundi, c'est l'école　B. il pleut　C. ils sont malades
+
+Q129 [P8 B2 阅读理解] KEY='A' NOTE='Volta às aulas segunda'
+    STEM: 129. Lundi, les enfants... A. retournent à l'école　B. restent à la maison　C. vont à Turin
+
+Q130 [P8 A2 完成句子] KEY='Le Sénat va voter mercredi.' NOTE='aller + infinitivo'
+    STEM: 130. Futur proche : « Le Sénat vote mercredi. » → ___
+
+Q131 [P8 B2 完成句子] KEY='Si tu venais dimanche, tu verrais les finales.' NOTE='si + imperfeito'
+    STEM: 131. Hypothèse : « Si tu (venir) dimanche, tu verrais les finales. »
+
+Q132 [P8 B1 完成句子] KEY='Il a goûté le beaujolais à Beaujeu.' NOTE='passé composé: a + part.'
+    STEM: 132. Passé composé : « Il (goûter) le beaujolais à Beaujeu. »
+
+Q133 [P8 B2 完成句子] KEY='Selon moi, la semaine est bien remplie.' NOTE='selon moi = a meu ver'
+    STEM: 133. Opinion : « ___ moi, la semaine est bien remplie. »
+
+Q134 [P8 B1 完成句子] KEY='Il est prévu que le Sénat examine le texte mercredi.' NOTE='il est prévu que + subj.'
+    STEM: 134. Subjonctif : « Il est prévu que le Sénat (examiner) le texte mercredi. » → ___
+
+Q135 [P8 B2 翻译] KEY="Regarder une finale, c'est déjà apprendre le français." NOTE='regarder = ver uma final'
+    STEM: 135. Ver uma final é já aprender francês.
+
+Q136 [P8 A2 翻译] KEY='Il court plus vite que son frère.' NOTE='Comparativo: plus vite'
+    STEM: 136. Corre mais depressa que o irmão.
+
+Q137 [P8 B1 翻译] KEY='Nous suivons le vote du Sénat depuis lundi.' NOTE='depuis + dia da semana'
+    STEM: 137. Seguimos a votação do Senado desde segunda-feira.
+
+Q138 [P8 B1 翻译] KEY='Ce soir, nous allons préparer nos affaires.' NOTE='futur proche + préparer'
+    STEM: 138. Esta noite vamos fazer as malas.
+
+Q139 [P8 B2 翻译] KEY='On ne connaît pas encore les résultats.' NOTE='ne...pas encore = ainda não'
+    STEM: 139. Os resultados ainda não são conhecidos.
+
+Q140 [P8 B1 词汇配对] KEY='a' NOTE='sénateur = senador\u3000a'
+    PAIR-L: ['un sénateur', 'un vainqueur', 'un tirage', 'un vin primeur', 'un déchet']
+    PAIR-R: ['un élu du Sénat', 'le joueur qui a gagné le tournoi', 'le sort qui fait les groupes', "un vin de l'année, très jeune", "ce qu'on jette", 'a', 'b', 'c', 'd', 'e', 'm_p8a', 'm_p8b', 'm_p8c', 'm_p8d', 'm_p8e', 'instr_match']
+
+Q141 [P8 B1 词汇配对] KEY='b' NOTE='vainqueur = vencedor\u3000b'
+    PAIR-L: ['un sénateur', 'un vainqueur', 'un tirage', 'un vin primeur', 'un déchet']
+    PAIR-R: ['un élu du Sénat', 'le joueur qui a gagné le tournoi', 'le sort qui fait les groupes', "un vin de l'année, très jeune", "ce qu'on jette", 'a', 'b', 'c', 'd', 'e', 'm_p8a', 'm_p8b', 'm_p8c', 'm_p8d', 'm_p8e', 'instr_match']
+
+Q142 [P8 B1 词汇配对] KEY='c' NOTE='tirage = sorteio\u3000c'
+    PAIR-L: ['un sénateur', 'un vainqueur', 'un tirage', 'un vin primeur', 'un déchet']
+    PAIR-R: ['un élu du Sénat', 'le joueur qui a gagné le tournoi', 'le sort qui fait les groupes', "un vin de l'année, très jeune", "ce qu'on jette", 'a', 'b', 'c', 'd', 'e', 'm_p8a', 'm_p8b', 'm_p8c', 'm_p8d', 'm_p8e', 'instr_match']
+
+Q143 [P8 B1 词汇配对] KEY='d' NOTE='primeur = vinho novo\u3000d'
+    PAIR-L: ['un sénateur', 'un vainqueur', 'un tirage', 'un vin primeur', 'un déchet']
+    PAIR-R: ['un élu du Sénat', 'le joueur qui a gagné le tournoi', 'le sort qui fait les groupes', "un vin de l'année, très jeune", "ce qu'on jette", 'a', 'b', 'c', 'd', 'e', 'm_p8a', 'm_p8b', 'm_p8c', 'm_p8d', 'm_p8e', 'instr_match']
+
+Q144 [P8 B1 词汇配对] KEY='e' NOTE='déchet = resíduo\u3000e'
+    PAIR-L: ['un sénateur', 'un vainqueur', 'un tirage', 'un vin primeur', 'un déchet']
+    PAIR-R: ['un élu du Sénat', 'le joueur qui a gagné le tournoi', 'le sort qui fait les groupes', "un vin de l'année, très jeune", "ce qu'on jette", 'a', 'b', 'c', 'd', 'e', 'm_p8a', 'm_p8b', 'm_p8c', 'm_p8d', 'm_p8e', 'instr_match']
+
+Q145 [P8 A2 对话补全] KEY='des billets' NOTE='Comprar bilhetes'
+    STEM: — Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris (145)___ ? — Oui, (146)___ billets. — La séance est à (147)___ ? — À 20 heures. — On se retrouve (148)___ cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !
+
+Q146 [P8 A2 对话补全] KEY='deux' NOTE='Dois bilhetes'
+    STEM: — Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris (145)___ ? — Oui, (146)___ billets. — La séance est à (147)___ ? — À 20 heures. — On se retrouve (148)___ cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !
+
+Q147 [P8 B1 对话补全] KEY='quelle heure' NOTE='A que horas começa'
+    STEM: — Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris (145)___ ? — Oui, (146)___ billets. — La séance est à (147)___ ? — À 20 heures. — On se retrouve (148)___ cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !
+
+Q148 [P8 A2 对话补全] KEY='devant le' NOTE='À porta do cinema'
+    STEM: — Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris (145)___ ? — Oui, (146)___ billets. — La séance est à (147)___ ? — À 20 heures. — On se retrouve (148)___ cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !
+
+Q149 [P8 A2 对话补全] KEY='film' NOTE='Bon film! Bom filme!'
+    STEM: — Tu vas au cinéma mercredi ? — Oui, pour voir Hunger Games. — Tu as pris (145)___ ? — Oui, (146)___ billets. — La séance est à (147)___ ? — À 20 heures. — On se retrouve (148)___ cinéma ? — Oui, à 19 h 30. Bon (149)___ ! — Merci !
+
+Q150 [P8 B1 写作] KEY='Pergunta aberta — pontos no quadro; modelo no quadro da página 8' NOTE='Avaliação por pontos'

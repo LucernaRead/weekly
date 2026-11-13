@@ -1,0 +1,16 @@
+old nodes: 168 new nodes: 162
+replace old[8:9]= ['andare ']
+replace new[8:9]= ['assaggiare ']
+replace old[11:12]= ['andrò, assaggiare ']
+replace new[11:12]= ['assaggerò, guardare ']
+delete old[13:18]= [' ', 'assaggerò,', 'guardare ', '→', ' ']
+delete new[13:13]= []
+replace old[21:23]= ['verbo è leggere, irregolare al futuro:', 'leggerò.']
+replace new[16:17]= ['verbo è leggere, regolare al futuro: leggerò.']
+ERRORI TIPICI old: 1 new: 1
+LA PAROLA old: 1 new: 1
+LETTERE DEI LETTORI old: 1 new: 1
+FRASI DELLA SETTIMANA old: 1 new: 1
+LA PROSSIMA SETTIMANA old: 1 new: 1
+A2 old: 5 new: 5
+IL FUTURO old: 1 new: 1

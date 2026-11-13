@@ -1,0 +1,10 @@
+baseline: 8/8 SVGs byte-identical (repointed files: content12.py, content34.py, content56.py, content7.py, content8.py, check_gloss.py, render.py, check_core.py)
+  OK  p1-pyoji.svg core 00227ca12f0319be produced 00227ca12f0319be
+  OK  p2-saenghwal.svg core faf9e3c530f200b1 produced faf9e3c530f200b1
+  OK  p3-munhwa.svg core b447a559c6f8d61d produced b447a559c6f8d61d
+  OK  p4-seupocheu.svg core d997631ea586a9c8 produced d997631ea586a9c8
+  OK  p5-cheongnyeon.svg core 09f7fc23850a1deb produced 09f7fc23850a1deb
+  OK  p6-gipi.svg core d45b03557f02f47a produced d45b03557f02f47a
+  OK  p7-mal.svg core 14b7cf136254b1cd produced 14b7cf136254b1cd
+  OK  p8-siheom.svg core e88f7d421d621f92 produced e88f7d421d621f92
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

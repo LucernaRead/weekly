@@ -1,0 +1,57 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages 8 size Rect(0.0, 0.0, 1462.5, 2025.0)
+== PDF page 2
+  x1=1375.1 x0=1105.1 y0=1608.8 size=17.25 :: 'b. il ponte di barche per la festa in'
+  x1=1367.6 x0=1105.1 y0=1690.6 size=17.25 :: 'd. la piccola luce di cera accesa in'
+  x1=1356.5 x0=66.0 y0=1309.9 size=15.75 :: 'Attenzione alla parola: «salute» vuol dire salute,'
+  x1=1359.8 x0=1105.1 y0=1580.3 size=17.25 :: 'a. mettere una pianta nella terra'
+  x1=1356.4 x0=1105.1 y0=1662.1 size=17.25 :: 'c. stare bene, la prima ricchezza'
+  x1=203.4 x0=66.0 y0=225.1 size=27.75 :: 'novembre'
+  x1=385.8 x0=66.0 y0=349.8 size=18.75 :: 'Sabato 21 novembre Venezia celebra'
+  x1=323.9 x0=66.0 y0=775.1 size=18.75 :: '21 novembre, i fedeli portano'
+  x1=350.7 x0=66.0 y0=1029.3 size=18.75 :: 'novembre, in famiglia. È il piatto'
+  x1=374.5 x0=66.0 y0=1112.6 size=18.75 :: 'Lo stesso giorno, il 21 novembre, in'
+  x1=676.5 x0=403.9 y0=269.0 size=18.75 :: 'domenica 22 novembre è Santa'
+  x1=719.4 x0=403.9 y0=525.8 size=17.625 :: 'novembre. E due grandi appuntamenti'
+  x1=704.3 x0=403.9 y0=711.7 size=17.625 :: 'novembre le commissioni Bilancio di'
+  x1=669.8 x0=417.4 y0=975.6 size=16.125 :: 'Venezia, il 21 novembre, la parola'
+  x1=1362.8 x0=1079.6 y0=379.3 size=14.25 :: 'novembre i veneziani attraversano il ponte'
+  x1=1378.2 x0=1096.1 y0=517.7 size=16.125 :: '21 novembre: Madonna della Salute a'
+  x1=1345.7 x0=1096.1 y0=611.2 size=16.125 :: '21 novembre: Giornata nazionale'
+  x1=1367.6 x0=1096.1 y0=681.7 size=16.125 :: '22 novembre: Santa Cecilia, patrona'
+  x1=1393.8 x0=66.0 y0=1216.1 size=16.875 :: 'Il 21 novembre è un giorno con due facce: a Venezi'
+  x1=345.9 x0=66.0 y0=1538.6 size=15.0 :: 'A Venezia il 21 novembre è la festa della'
+  x1=367.8 x0=66.0 y0=1782.4 size=15.0 :: 'Il 21 novembre in tutta Italia si piantano gli'
+  x1=1055.8 x0=741.8 y0=1654.7 size=15.0 :: 'novembre · B. 20 novembre · C. 21 novembre'
+  x1=1186.5 x0=1105.1 y0=1633.6 size=17.25 :: 'novembre'
+  x1=372.8 x0=66.0 y0=661.1 size=18.75 :: 'una chiesa alla Madonna se la peste'
+  x1=1154.6 x0=1105.1 y0=1715.3 size=17.25 :: 'chiesa'
+== PDF page 4
+  x1=617.2 x0=429.4 y0=1432.6 size=17.25 :: 'b. che non ha mai perso'
+  x1=708.6 x0=429.4 y0=1461.1 size=17.25 :: 'c. il gruppo di squadre in un torneo'
+  x1=721.7 x0=429.4 y0=1489.6 size=17.25 :: 'd. il primo posto in classifica, la cima'
+  NOT FOUND span: 'la prima volta in un torneo importante'
+== PDF page 8
+  x1=1034.9 x0=767.2 y0=683.6 size=17.25 :: 'a. un livello di reddito del sistema'
+  x1=1021.1 x0=767.2 y0=736.8 size=17.25 :: 'b. i soldi che pagano una misura'
+  x1=1043.9 x0=767.2 y0=765.3 size=17.25 :: 'c. la differenza tra spese ed entrate'
+  x1=1046.6 x0=767.2 y0=793.8 size=17.25 :: 'd. la legge di bilancio, il documento'
+  x1=817.9 x0=767.2 y0=708.3 size=17.25 :: 'fiscale'
+== full-page span scan (x1 > 1396.5pt)
+  p2 x1=1398.12 y0=1178.1 size=15.00 :: 'Una festa, una giornata verde'
+  p5 x1=1398.09 y0=438.7 size=11.62 :: 'Foto: Jean-Baptiste-Camille Corot — Wikimedia Commons,'
+  p8 x1=1398.34 y0=442.4 size=12.00 :: 'Testo modello: Domenica 22 novembre metto la sciarpa e'
+  p8 x1=1398.43 y0=458.0 size=12.00 :: "vado a Cremona: è l'ultimo giorno della Festa del Torrone"
+== masthead spans p1
+  (404.76953125, 81.25200653076172, 1058.03759765625, 233.25) size=147.0 font=UnifrakturMaguntia :: 'La Lucerna'
+== min font sizes
+  p1 min=11.62 n=270
+  p2 min=11.62 n=190
+  p3 min=11.62 n=188
+  p4 min=11.62 n=185
+  p5 min=11.62 n=181
+  p6 min=12.75 n=205
+  p7 min=11.62 n=171
+  p8 min=9.75 n=747
+P8 min: 9.75 count at min: 534

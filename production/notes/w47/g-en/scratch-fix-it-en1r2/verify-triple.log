@@ -1,0 +1,21 @@
+== METHOD 1: PIL true ink (stage SVGs) ==
+D-1 'LA SETTIMANA IN CIFRE\u3000FIGURES' ink 556.5..944.0 vs box right 961.0 spare +17.0px FIT>=+5
+D-2 'LA FRASE PER RICORDARE\u3000LEARN' ink 556.5..947.2 vs box right 961.0 spare +13.8px FIT>=+5
+D-3 'ERRORI TIPICI\u3000TYPICAL ERRORS' ink 1461.5..1835.2 vs box right 1862.0 spare +26.8px FIT>=+5
+== METHOD 2: pixels on 96dpi render of stage print PDF ==
+D-1 render 1950x2700 darkest-pixel right x=941 vs box right 961 spare +20px FIT>=+5
+D-2 render 1950x2700 darkest-pixel right x=945 vs box right 961 spare +16px FIT>=+5
+D-3 render 1950x2700 darkest-pixel right x=1833 vs box right 1862 spare +29px FIT>=+5
+== METHOD 3: text-layer bbox (pdftotext -bbox) ==
+D-1 La-Lucerna-VOL4-EN.pdf: gloss 'FIGURES' bbox xMax=708.1 (page units)
+D-2 La-Lucerna-VOL4-EN.pdf: gloss 'LEARN' bbox xMax=711.5 (page units)
+D-3 La-Lucerna-VOL4-EN.pdf: gloss 'TYPICAL ERRORS' NOT FOUND in text layer!
+D-1 La-Lucerna-VOL4-EN.pdf: full title in text layer: False
+D-2 La-Lucerna-VOL4-EN.pdf: full title in text layer: False
+D-3 La-Lucerna-VOL4-EN.pdf: full title in text layer: False
+D-1 La-Lucerna-VOL4-EN-web.pdf: gloss 'FIGURES' bbox xMax=708.1 (page units)
+D-2 La-Lucerna-VOL4-EN-web.pdf: gloss 'LEARN' bbox xMax=711.5 (page units)
+D-3 La-Lucerna-VOL4-EN-web.pdf: gloss 'TYPICAL ERRORS' NOT FOUND in text layer!
+D-1 La-Lucerna-VOL4-EN-web.pdf: full title in text layer: False
+D-2 La-Lucerna-VOL4-EN-web.pdf: full title in text layer: False
+D-3 La-Lucerna-VOL4-EN-web.pdf: full title in text layer: False

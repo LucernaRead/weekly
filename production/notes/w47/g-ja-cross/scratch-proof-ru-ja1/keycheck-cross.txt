@@ -1,0 +1,27 @@
+inline keys: 150 answers keys: 150
+inline numbers missing: []
+answers numbers missing: []
+inline-vs-answers mismatches: 20
+   (25, '25', 'b')
+   (26, '26', 'd')
+   (27, '27', 'c')
+   (28, '28', 'a')
+   (39, '39', 'b')
+   (40, '40', 'd')
+   (41, '41', 'c')
+   (42, '42', 'a')
+   (57, '57', 'b')
+   (58, '58', 'a')
+   (59, '59', 'c')
+   (60, '60', 'd')
+   (75, '75', 'd')
+   (76, '76', 'b')
+   (77, '77', 'a')
+   (78, '78', 'c')
+   (141, '141', 'c')
+   (142, '142', 'd')
+   (143, '143', 'a')
+   (144, '144', 'b')
+Traceback (most recent call last):
+  File "<stdin>", line 39, in <module>
+NameError: name 'S' is not defined

@@ -1,0 +1,18 @@
+P2 y=1383.36 box_bottom=1387.8 text='写首诗？写两句荷兰语寄给编辑部。'
+   strip below box (7px): non-paper pixels=7
+   lowest true-ink svg y=1386.36 clearance=1.4px -> no ink (artifact)
+P5 y=932.05 box_bottom=936.5 text='礼物加小诗？写两句荷兰语寄来。'
+   strip below box (7px): non-paper pixels=7
+   lowest true-ink svg y=935.05 clearance=1.5px -> no ink (artifact)
+P6 y=659.44 box_bottom=665.0 text='问题：你在鞋里放什么？（100 名年轻人）'
+   strip below box (7px): non-paper pixels=7
+   lowest true-ink svg y=664.44 clearance=0.6px -> no ink (artifact)
+P7 golden-box candidate rects: []
+  P7 golden frag x=88.0 y=2038.0 size=21.5 inside_box=n/a '«Op maandag 16 november speelt Oranje in Berlijn tegen Duits'
+  P7 golden frag x=88.0 y=2128.0 size=21.5 inside_box=n/a '«Na vier wedstrijden staan Nederland en Griekenland samen bo'
+  P7 golden frag x=88.0 y=2218.0 size=21.5 inside_box=n/a '«Op zaterdag 5 december is het pakjesavond: de avond met de '
+  P7 golden frag x=88.0 y=2324.0 size=21.5 inside_box=n/a '«Op zaterdag 14 november kwam Sinterklaas officieel aan in N'
+  P7 golden frag x=989.0 y=2038.0 size=21.5 inside_box=n/a '«Nederland staat eerste, omdat het meer doelpunten maakte: 7'
+  P7 golden frag x=989.0 y=2128.0 size=21.5 inside_box=n/a '«Elke zondag om 20:00 uur is Expeditie Robinson te zien op R'
+  P7 golden frag x=989.0 y=2218.0 size=21.5 inside_box=n/a '«Sinterklaas is een oud feest in Nederland»'
+  P7 golden frag x=989.0 y=2324.0 size=21.5 inside_box=n/a '«Een traditie leeft als mensen haar blijven vieren»'

@@ -1,0 +1,51 @@
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=2 curly_in_newsreader=2 noto_sans_elements=417
+CENSUS PASS
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-en/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ru/svg/p8-test.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-en/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+  OK  p7-yazyk.svg core 3baf09730f8e1e2b produced 3baf09730f8e1e2b
+  OK  p8-test.svg core 6528ce7be527f495 produced 6528ce7be527f495
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+p1: +45 strings / -18 strings; CJK core 21 -> edition 21; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+p2: +37 strings / -16 strings; CJK core 16 -> edition 16; added CJK chars: 0 ; added Latin strings: 20 (unexpected 20)
+p3: +35 strings / -12 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 18 (unexpected 18)
+p4: +38 strings / -15 strings; CJK core 16 -> edition 16; added CJK chars: 0 ; added Latin strings: 20 (unexpected 20)
+p5: +29 strings / -11 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 15 (unexpected 15)
+p6: +34 strings / -14 strings; CJK core 16 -> edition 16; added CJK chars: 0 ; added Latin strings: 17 (unexpected 17)
+p7: +25 strings / -10 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 13 (unexpected 13)
+p8: +33 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 17 (unexpected 17)
+TOTAL added CJK characters: 0
+freeze-diff added-CJK total: {}
+freeze-diff added-CJK excl U+3000: {}
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-en/svg: 0 flags 
+occlusion: 0 flags
+boxtitle RC=0
+== 2026-w47-ru-en  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-ru backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-ru/scratch-fanout-ru/backup/2026-w47-ru-en
+BOXTITLE 2026-w47-ru-en: 57 titles, 685 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+creambox RC=0
+p1-pervaya.svg: els 968->995 lines 113->113 diff 2 moved 88 defects 0 observe 0
+p2-zhizn.svg: els 922->943 lines 124->124 diff 4 moved 77 defects 0 observe 0
+p3-kultura.svg: els 753->776 lines 122->122 diff 0 moved 49 defects 0 observe 0
+p4-sport.svg: els 914->937 lines 115->115 diff 2 moved 103 defects 0 observe 0
+p5-molodezh.svg: els 840->858 lines 119->119 diff 0 moved 62 defects 0 observe 0
+p6-razbor.svg: els 787->807 lines 100->100 diff 0 moved 72 defects 0 observe 0
+p7-yazyk.svg: els 968->983 lines 93->93 diff 0 moved 90 defects 0 observe 0
+p8-test.svg: els 1668->1688 lines 244->244 diff 0 moved 93 defects 0 observe 0
+ratios: n=402 median=1.04 boldT=1.049 boldF=0.999
+P8 p8-test.svg: lines 244->244 slack_footer 47.5->47.5
+CREAMBOX PASS 0 defects
+spill RC=0
+P7 box=(1439.5,1281.1,422.5,507.0) bottom=1788.1
+   ABOVE -23.91px x=1588.1 y=1257.2 [observe] "= big sale: plan, don't rush."
+SPILL_SWEEP 2026-w47-ru-en: 32 boxes, 172 candidates, 0 SPILL, 172 OBSERVE
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-ru-en: 8 pages, 0 TOUCH, 0 NEAR
+b0eec41814f02530b92294ac2bd02851  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-en/2026-w47-ru-en.text.md
+print chars=38166 web chars=38166 byte-identical=True
+word-multiset diff: {}
+char-multiset diff: {}
+text-layer multiset consistent: True
+GATES_OVERALL_FAIL=0

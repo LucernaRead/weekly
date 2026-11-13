@@ -1,0 +1,52 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== A. PIL true-ink widths (budget = advance-gate budget) ==
+  head_mots_fetes: p3 ink 304.8 vs budget 400.5 [ok] (span 308.6)
+  head_mots_photo: p5 ink 304.3 vs budget 400.5 [ok] (span 308.2)
+  head_mots_tennis: p4 ink 380.1 vs budget 400.5 [ok] (span 383.6)
+  head_zoom: p3 ink 363.8 vs budget 400.5 [ok] (span 366.2)
+  head_dates3: p3 ink 307.2 vs budget 400.5 [ok] (span 310.3)
+  head_chiffres: p4 ink 276.4 vs budget 400.5 [ok] (span 279.7)
+  head_cine: p5 ink 356.6 vs budget 400.5 [ok] (span 360.6)
+  head_sortir: p5 ink 306.7 vs budget 400.5 [ok] (span 309.9)
+  head_debat: p4 ink 235.7 vs budget 400.5 [ok] (span 239.7)
+  head_asuivre: p4 ink 277.4 vs budget 400.5 [ok] (span 277.8)
+  head_enbref: p1 ink 235.2 vs budget 400.5 [ok] (span 239.0)
+  head_chart: p6 ink 681.5 vs budget 829.0 [ok] (span 685.7)
+  head_3dates: p6 ink 384.0 vs budget 386.5 [ok] (span 386.4)
+  dates_box_title: p1 ink 293.7 vs budget 386.5 [ok] (span 297.0)
+  agenda_note: p1 ink 301.9 vs budget 378.5 [ok] (span 303.7)
+  agenda_sub: p1 ink 289.4 vs budget 378.5 [ok] (span 293.3)
+  chart_note: p6 ink 621.0 vs budget 829.0 [ok] (span 623.7)
+  footer_left: p1 ink 745.8 vs budget 1150.0 [ok] (span 748.7)
+  vol_line: p1 ink 126.7 vs budget 500.0 [ok] (span 127.8)
+  subtitle: p1 ink 1621.2 vs budget 1797.0 [ok] (span 1625.4)
+  strapline_mid: p1 ink 815.4 vs budget 1797.0 [ok] (span 818.5)
+  badge: p1 ink 818.8 vs budget 1797.0 [ok] (span 820.8)
+  band_r1: p1 ink 521.7 vs budget 1797.0 [ok] (span 516.0)
+  band_r2: p1 ink 367.6 vs budget 1797.0 [ok] (span 361.5)
+  kicker: p1 ink 525.5 vs budget 1797.0 [ok] (span 528.0)
+  date_sub: p2 ink 603.8 vs budget 900.0 [ok] (span 607.3)
+  quiz_sub: p1 ink 653.7 vs budget 900.0 [ok] (span 657.4)
+  p2ex_sub: p2 ink 785.2 vs budget 900.0 [ok] (span 789.0)
+  head_keys: p8 ink 928.2 vs budget 1797.0 [ok] (span 933.0)
+  head_courrier: p7 ink 619.6 vs budget 800.0 [ok] (span 622.8)
+  head_teaser: p7 ink 659.0 vs budget 800.0 [ok] (span 653.2)
+== A2. shared-row pairs (PIL ink) ==
+  head_quiz+quiz_sub: PIL gap 707.9 (head ink right 503.5 -> sub ink left 1211.4) [ok]
+  head_date+date_sub: PIL gap 735.7 (head ink right 522.2 -> sub ink left 1257.9) [ok]
+  head_p2ex+p2ex_sub: PIL gap 514.0 (head ink right 563.5 -> sub ink left 1077.5) [ok]
+  head_phrases+phrases_sub: PIL gap 431.0 (head ink right 857.2 -> sub ink left 1288.2) [ok]
+== B. cream-box horizontal ink spill ==
+  p1: 5 cream boxes scanned, 0 horizontal overflows
+  p2: 3 cream boxes scanned, 0 horizontal overflows
+  p3: 4 cream boxes scanned, 0 horizontal overflows
+  p4: 6 cream boxes scanned, 0 horizontal overflows
+  p5: 6 cream boxes scanned, 0 horizontal overflows
+  p6: 4 cream boxes scanned, 0 horizontal overflows
+  p7: 4 cream boxes scanned, 0 horizontal overflows
+  p8: 1 cream boxes scanned, 0 horizontal overflows
+== C. tight-box vertical true ink ==
+  P1 agenda last line: ink bottom 1247.5 vs box bottom 1256.0 (-8.5)
+  P2 ET VOUS last line: ink bottom 1308.5 vs box bottom 1308.6 (-0.1)
+PIL SPILL SWEEP: ALL CLEAN

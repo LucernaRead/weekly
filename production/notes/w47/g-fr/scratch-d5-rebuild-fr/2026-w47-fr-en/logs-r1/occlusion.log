@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 3 flags {'TEXTX': 3}
+  [TEXTX] p1-une.svg 'ALCARAZ GAGNE PARIS, LE SÉNAT VOTE MERCREDI' — ink overlaps 'ALCARAZ CHAMPION' by 222.2x20.8px
+  [TEXTX] p6-politique.svg 'TIMETABLE' — ink overlaps 'B1' by 12.6x13.2px
+  [TEXTX] p7-langue.svg "THE WEEK'S SENTENCES (ALL FROM THIS ISSUE)" — ink overlaps 'One grammar point + one mini-exercise pe' by 86.3x18.2px

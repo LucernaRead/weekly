@@ -1,0 +1,20 @@
+copied core -> replica
+table-pass count mismatches: none
+content12.py residual CJK lines: 0 
+content34.py residual CJK lines: 0 
+content56.py residual CJK lines: 0 
+content7.py residual CJK lines: 0 
+content8.py residual CJK lines: 0 
+bslib4.py residual CJK lines: 0 
+=== replica vs production ===
+content12.py IDENTICAL
+content34.py IDENTICAL
+content56.py IDENTICAL
+content7.py IDENTICAL
+content8.py IDENTICAL
+bslib4.py IDENTICAL
+render.py IDENTICAL
+run.py IDENTICAL
+svglib.py IDENTICAL
+ABSTRACT.txt IDENTICAL
+files differing: 0

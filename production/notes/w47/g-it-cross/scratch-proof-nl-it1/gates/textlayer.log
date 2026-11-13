@@ -1,0 +1,75 @@
+== delivered print vs delivered web: pages 8 vs 8
+  P1: tokens 817/817 msdiff=0 posdiff(tol 0.3pt)=0
+  P2: tokens 826/826 msdiff=0 posdiff(tol 0.3pt)=0
+  P3: tokens 730/730 msdiff=0 posdiff(tol 0.3pt)=0
+  P4: tokens 737/737 msdiff=0 posdiff(tol 0.3pt)=0
+  P5: tokens 806/806 msdiff=0 posdiff(tol 0.3pt)=0
+  P6: tokens 754/754 msdiff=0 posdiff(tol 0.3pt)=0
+  P7: tokens 922/922 msdiff=0 posdiff(tol 0.3pt)=0
+  P8: tokens 2380/2380 msdiff=0 posdiff(tol 0.3pt)=0
+== delivered print vs rebuilt web: pages 8 vs 8
+  P1: tokens 817/817 msdiff=0 posdiff(tol 0.3pt)=0
+  P2: tokens 826/826 msdiff=0 posdiff(tol 0.3pt)=0
+  P3: tokens 730/730 msdiff=0 posdiff(tol 0.3pt)=0
+  P4: tokens 737/737 msdiff=0 posdiff(tol 0.3pt)=0
+  P5: tokens 806/806 msdiff=0 posdiff(tol 0.3pt)=0
+  P6: tokens 754/754 msdiff=0 posdiff(tol 0.3pt)=0
+  P7: tokens 922/922 msdiff=0 posdiff(tol 0.3pt)=0
+  P8: tokens 2380/2380 msdiff=0 posdiff(tol 0.3pt)=0
+P8 span-size histogram (size: chars):
+  10.12pt: 7452 chars
+  10.35pt: 2367 chars
+  10.5pt: 96 chars
+  10.88pt: 468 chars
+  11.25pt: 332 chars
+  11.62pt: 35 chars
+  12.75pt: 89 chars
+  13.5pt: 52 chars
+  14.25pt: 149 chars
+  14.62pt: 233 chars
+  15.38pt: 76 chars
+  15.75pt: 129 chars
+  17.25pt: 143 chars
+  18.0pt: 210 chars
+  18.75pt: 62 chars
+  34.5pt: 44 chars
+P8 min font: 10.12
+web P8 min font: 10.12
+print embedded font families: ['BQWJMJ+NotoSansCJKsc-Bold', 'CNHJCE+NotoSansCJKsc-Regular', 'CVKQIU+Newsreader16pt-Regular', 'EPUFOY+NotoSansCJKsc-Bold', 'FOTJAL+NotoSansCJKsc-Regular', 'GTFVSI+Newsreader16pt-Regular', 'IETTPV+NotoSansCJKsc-Regular', 'KXARFT+NotoSerifCJKsc-Regular', 'LOKQZC+NotoSansCJKsc-Bold', 'NDPCWX+NotoSansCJKsc-Regular', 'NJSECO+NotoSansCJKsc-Bold', 'NWQZIF+Newsreader16pt-Regular', 'OMOCLN+Newsreader16pt-Regular', 'QMRNFD+NotoSansCJKsc-Regular', 'QQUGZT+Newsreader16pt-Regular', 'QYCZNW+NotoSerifCJKsc-Regular', 'RCOXGF+Newsreader16pt-Regular', 'RMPQJO+Newsreader16pt-Regular', 'ROJCSY+Newsreader16pt-Regular', 'SFKAVP+NotoSansCJKsc-Regular', 'SVRHTD+NotoSansCJKsc-Bold', 'SYDEMJ+NotoSansCJKsc-Bold', 'THOLTA+Newsreader16pt-Regular', 'TLDYJJ+Newsreader16pt-Italic', 'TOQKUE+Newsreader16pt-Regular', 'UJXJSR+NotoSansCJKsc-Bold', 'UQYDOS+NotoSansCJKsc-Regular', 'VRZETV+Newsreader16pt-Regular', 'WBQYEP+NotoSansCJKsc-Bold', 'WETGRK+Newsreader16pt-Regular', 'YBYAOM+Newsreader16pt-Regular', 'YFYZMB+Newsreader16pt-Regular', 'YUXDOY+NotoSansCJKsc-Regular', 'ZJFZVW+Newsreader16pt-Regular', 'ZMESMJ+UnifrakturMaguntia', 'ZWIVOJ+Newsreader16pt-Regular']
+print has Italic face: True
+  print P1 groepswinst span: font=NotoSansCJKsc-Regular size=15.38 text='Nota — de groepswinst vittoria del girone ·'
+  print P1 groepswinst span: font=Newsreader16pt-Italic size=16.12 text='«de groepswinst»'
+  print P4 groepswinst span: font=NotoSansCJKsc-Regular size=15.38 text='Nota — de groepswinst vittoria del'
+  print P4 groepswinst span: font=NotoSansCJKsc-Bold size=15.0 text='groepswinst · kwartfinale · ongeslagen'
+  print P7 groepswinst span: font=Newsreader16pt-Regular size=16.12 text='voetbal: de wedstrijd, de groepswinst, de'
+  print P7 groepswinst span: font=Newsreader16pt-Regular size=16.12 text='Nederland. De groepswinst is de eerste'
+  print P7 groepswinst span: font=NotoSansCJKsc-Regular size=15.38 text='de wedstrijd partita; de groepswinst vittoria'
+  print P7 groepswinst span: font=Newsreader16pt-Regular size=15.38 text='«De groepswinst» is... A. een boek · B. de'
+  print P7 groepswinst span: font=Newsreader16pt-Regular size=16.12 text='«de groepswinst» betekent: de eerste'
+  print P7 groepswinst span: font=Newsreader16pt-Regular size=16.12 text='groepswinst pakt, gaat als nummer'
+  print P7 groepswinst span: font=NotoSansCJKsc-Regular size=15.0 text='groepswinst = vittoria del girone: primo'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=10.35 text='«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=18.0 text='142. de groepswinst'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=10.12 text='52. groepswinst — groepswinst = vittoria del girone'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=10.12 text='102. groepswinst — de groepswinst = vittoria del girone'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=10.12 text='120. B — groepswinst = vittoria del girone'
+  print P8 groepswinst span: font=Newsreader16pt-Regular size=10.12 text='142. c — groepswinst=vittoria del girone c'
+web embedded font families: ['BDHFWZ+LucernaNewsreader-Bold', 'CFTKWZ+LucernaNewsreader-Bold', 'CUPSZH+LucernaNewsreader-Regular', 'CWMOKA+LucernaNotoSansCJKSC-Bold', 'FZCTNC+LucernaNotoSerifCJKSC-Regular', 'GOKKKZ+LucernaNotoSansCJKSC-Bold', 'HCQDDN+LucernaNotoSansCJKSC-Regular', 'HWSZDJ+LucernaNewsreader-Regular', 'IJDDDI+LucernaNewsreader-Regular', 'ISCQQI+LucernaNewsreader-Regular', 'IYLACI+LucernaNewsreader-Bold', 'KBSFRI+LucernaNewsreader-Regular', 'KOKYEH+LucernaNotoSansCJKSC-Regular', 'LFLFXE+LucernaUnifrakturMaguntia-Regular', 'MGGRFB+LucernaNotoSansCJKSC-Bold', 'MHMHUC+LucernaNewsreader-Bold', 'OVZDSL+LucernaNotoSansCJKSC-Bold', 'OZAGBL+LucernaNewsreader-Regular', 'PFIZOI+LucernaNotoSansCJKSC-Bold', 'PNBYVD+LucernaNewsreader-Bold', 'QURDHD+LucernaNotoSansCJKSC-Regular', 'QYUVSA+LucernaNotoSerifCJKSC-Regular', 'SLWIYV+LucernaNotoSansCJKSC-Regular', 'TTLHKW+LucernaNewsreader-Regular', 'TUZKQU+LucernaNotoSansCJKSC-Regular', 'VCSORC+LucernaNotoSansCJKSC-Regular', 'VEKNBR+LucernaNotoSansCJKSC-Regular', 'VKPGUZ+LucernaNewsreader-Bold', 'VRWHGD+LucernaNotoSansCJKSC-Regular', 'VSKPHS+LucernaNotoSansCJKSC-Bold', 'WWTDHX+LucernaNewsreader-Regular', 'WXRHTF+LucernaNewsreader-Bold', 'YBPRNS+LucernaNotoSansCJKSC-Bold', 'YCNQPM+LucernaNewsreader-Italic', 'YTFYZO+LucernaNewsreader-Bold', 'ZQJESE+LucernaNotoSansCJKSC-Bold']
+web has Italic face: True
+  web P1 groepswinst span: font=LucernaNotoSansCJKSC-Reg size=15.38 text='Nota — de groepswinst vittoria del girone ·'
+  web P1 groepswinst span: font=LucernaNewsreader-Italic size=16.12 text='«de groepswinst»'
+  web P4 groepswinst span: font=LucernaNotoSansCJKSC-Reg size=15.38 text='Nota — de groepswinst vittoria del'
+  web P4 groepswinst span: font=LucernaNotoSansCJKSC-Bol size=15.0 text='groepswinst · kwartfinale · ongeslagen'
+  web P7 groepswinst span: font=LucernaNewsreader-Regula size=16.12 text='voetbal: de wedstrijd, de groepswinst, de'
+  web P7 groepswinst span: font=LucernaNewsreader-Regula size=16.12 text='Nederland. De groepswinst is de eerste'
+  web P7 groepswinst span: font=LucernaNotoSansCJKSC-Reg size=15.38 text='de wedstrijd partita; de groepswinst vittoria'
+  web P7 groepswinst span: font=LucernaNewsreader-Regula size=15.38 text='«De groepswinst» is... A. een boek · B. de'
+  web P7 groepswinst span: font=LucernaNewsreader-Regula size=16.12 text='«de groepswinst» betekent: de eerste'
+  web P7 groepswinst span: font=LucernaNewsreader-Regula size=16.12 text='groepswinst pakt, gaat als nummer'
+  web P7 groepswinst span: font=LucernaNotoSansCJKSC-Reg size=15.0 text='groepswinst = vittoria del girone: primo'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=10.35 text='«De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=18.0 text='142. de groepswinst'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=10.12 text='52. groepswinst — groepswinst = vittoria del girone'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=10.12 text='102. groepswinst — de groepswinst = vittoria del girone'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=10.12 text='120. B — groepswinst = vittoria del girone'
+  web P8 groepswinst span: font=LucernaNewsreader-Regula size=10.12 text='142. c — groepswinst=vittoria del girone c'

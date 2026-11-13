@@ -1,0 +1,25 @@
+routing assertions: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-nl/svglib.py (latin->news, _D5_READER='latin')
+  fix2 sans U+201C: 'news' (want 'news') OK
+  fix2 sans-bold U+201C: 'news' (want 'news') OK
+  fix2 sans U+201D: 'news' (want 'news') OK
+  fix2 sans-bold U+201D: 'news' (want 'news') OK
+  fix2 sans U+2019: 'news' (want 'news') OK
+  fix2 sans-bold U+2019: 'news' (want 'news') OK
+  D5 sans Latin A: 'news' (want 'news') OK
+  D5 sans-bold Latin A: 'news' (want 'news') OK
+  D5 sans Latin z: 'news' (want 'news') OK
+  D5 sans-bold Latin z: 'news' (want 'news') OK
+  D5 sans digit 1: 'news' (want 'news') OK
+  D5 sans-bold digit 1: 'news' (want 'news') OK
+  D5 sans period: 'news' (want 'news') OK
+  D5 sans-bold period: 'news' (want 'news') OK
+  D5 sans space U+0020: 'news' (want 'news') OK
+  D5 sans-bold space U+0020: 'news' (want 'news') OK
+  D5 sans Cyrillic: 'sans_noto' (want 'sans_noto') OK
+  D5 sans-bold Cyrillic: 'sans_noto' (want 'sans_noto') OK
+  D5 sans-italic Cyrillic: 'sans_noto_i' (want 'sans_noto_i') OK
+  D5 sans CJK: 'sans' (want 'sans') OK
+  serif Latin: 'news' (want 'news') OK
+  serif Cyrillic: 'noto' (want 'noto') OK
+  serif CJK: 'serif' (want 'serif') OK
+ROUTING OK: all assertions pass

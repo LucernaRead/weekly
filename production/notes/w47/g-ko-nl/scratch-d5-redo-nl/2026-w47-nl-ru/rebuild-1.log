@@ -1,0 +1,118 @@
+############ REDO REBUILD 2026-w47-nl-ru reader=ru mode=ru ed=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru
+--- install --check ---
+check RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svglib.py (target=nl reader=ru mode=ru): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'ru'; Page.text italic covers sans_noto_i; updated sans comment
+--- install ---
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svglib.py (target=nl reader=ru mode=ru): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'ru'; Page.text italic covers sans_noto_i; updated sans comment
+svglib diff lines: 112
+dbf4aa780f7ebc9043b29c7025d84032  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svglib.py
+--- routing assert ---
+routing RC=0
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0
+--- run.py ---
+run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- head_check (hard gate) ---
+head_check RC=0
+HEAD CHECK PASS 0 defects
+--- render.py ---
+render RC=0
+card: p8-toets.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/De-Lucerna-VOL4-nl-ru.pdf 12367658
+--- webpdf.py ---
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 34896 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28944 bytes
+WROTE De-Lucerna-VOL4-nl-ru-web.pdf: 1779860 bytes, 54983 text bytes
+--- occlusion ---
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svg: 0 flags 
+--- p8 extract ---
+extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svg/p8-toets.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- p8 compare vs core-nl ---
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svg/p8-toets.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-nl-ru/svg/p8-toets.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+--- freeze baseline ---
+freeze-baseline RC=0
+  OK  p7-taal.svg core f5688d779eff8508 produced f5688d779eff8508
+  OK  p8-toets.svg core a22fe79d713b3eb0 produced a22fe79d713b3eb0
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+--- freeze diff vs core-nl ---
+freeze-diff(core) RC=0
+p6: +48 strings / -63 strings; CJK core 205 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 6 (unexpected 6)
+p7: +61 strings / -132 strings; CJK core 387 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 27 (unexpected 27)
+p8: +1025 strings / -428 strings; CJK core 1074 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 73 (unexpected 73)
+TOTAL added CJK characters: 7
+TOTAL added Latin strings: 149 (unexpected 149)
+--- freeze diff vs pre-D5 baseline (D5对照) ---
+freeze-diff(base) RC=0
+p6: +46 strings / -16 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 20 (unexpected 20)
+p7: +44 strings / -17 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 19 (unexpected 19)
+p8: +44 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 21 (unexpected 21)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 165 (unexpected 165)
+--- spill ---
+spill RC=0
+P7 box=(1439.5,1358.5,422.5,597.5) bottom=1956.0
+   ABOVE -31.08px x=1461.5 y=1327.4 [observe] 'выходит в четвертьфинал.'
+SPILL_SWEEP 2026-w47-nl-ru: 26 boxes, 36 candidates, 0 SPILL, 36 OBSERVE
+--- boxtitle (backup-root=redo scratch) ---
+boxtitle RC=0
+== 2026-w47-nl-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-nl backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-redo-nl/scratch-fanout-nl/backup/2026-w47-nl-ru
+BOXTITLE 2026-w47-nl-ru: 25 titles, 296 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+--- edge scan ---
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-nl-ru: 8 pages, 0 TOUCH, 0 NEAR
+--- creambox audit (tools version, baseline=pre-D5 top-level snapshot) ---
+creambox RC=0
+p8-toets.svg: els 1483->1514 lines 248->248 diff 0 moved 1 defects 0 observe 0
+ratios: n=414 median=0.998 boldT=0.956 boldF=1.03
+P8 p8-toets.svg: lines 248->248 slack_footer 39.0->39.0
+CREAMBOX PASS 0 defects
+--- census (patched) ---
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=780
+CENSUS PASS
+--- U+201C quotes census (SC/TC/HK defective only; must be 0) ---
+census-quotes RC=0
+  p8-toets.svg: defective=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+--- text layer + orphan sweep ---
+textlayer RC=0
+pdftotext bytes: print=54983 web=54983
+word multiset diff: 0 (print-only 0, web-only 0)
+print-only words sample: []
+web-only words sample: []
+de-whitespaced char stream: print=36587 web=36587 equal=True
+orphan class (a) lone 。: 0 []
+orphan class (b) line-initial closer candidates: 0
+--- post SHAs ---
+1b1bf7913aae3bafdfccea39e20608cd93f106f67ea95d90fbb22c5de3232a57  svg/p1-voorpagina.svg
+3e9f63aa529177cbd0487544fd62ba62eacb27aae0c583c3de3ad00314622742  svg/p2-leven.svg
+a61f06039f3c4a933afc6812e66e0c84dc8af0c655362376ee4acf970d8ad700  svg/p3-cultuur.svg
+64aaf1a09c590459090ad119ca013ce18704228321bfecb0fa62c08aff040c67  svg/p4-sport.svg
+d5218dfcb91f82acc533e2d63eac62cc0932edb5fda61c306bbc60545108a767  svg/p5-jongeren.svg
+da05d0346e95710c92dfaa798bdbcfac049befaae3d83f9cf4cd054816b34c20  svg/p6-verdieping.svg
+f5688d779eff85082b31901845309f84b30f938ccc7bbbdba5d2d820cef7163e  svg/p7-taal.svg
+a22fe79d713b3eb01c455afc36a842f704a7c2e5d2ab5b8ae02349464aa42150  svg/p8-toets.svg
+8fa079cbd094b7b0863fcc526cd5a4f6d719cdadc7a41cdc97a261adbb3d1227  De-Lucerna-VOL4-nl-ru.pdf
+e025daa39ff503cb06938cd05877a0e98951daaf8bcb3523e6535de1a942221f  De-Lucerna-VOL4-nl-ru-web.pdf
+f23da475ff54bcfe86bbe6794473eafc65b42dbd5f015766924ce3e83cefb984  2026-w47-nl-ru.text.md
+12367658 De-Lucerna-VOL4-nl-ru.pdf
+1779860 De-Lucerna-VOL4-nl-ru-web.pdf
+57870 2026-w47-nl-ru.text.md
+REDO REBUILD DONE 2026-w47-nl-ru

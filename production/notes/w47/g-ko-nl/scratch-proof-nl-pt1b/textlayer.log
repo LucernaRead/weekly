@@ -1,0 +1,16 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P1: tokens 822/822 posdiff 2 msdiff 0
+P2: tokens 826/826 posdiff 0 msdiff 0
+P3: tokens 729/729 posdiff 0 msdiff 0
+P4: tokens 739/739 posdiff 0 msdiff 0
+P5: tokens 805/805 posdiff 0 msdiff 0
+P6: tokens 756/756 posdiff 0 msdiff 0
+P7: tokens 915/915 posdiff 0 msdiff 0
+P8: tokens 2393/2393 posdiff 0 msdiff 0
+TOTAL tokens print/web: 7985 7985
+P8 spans: 387 min size: 10.12 median: 10.35
+P8 size histogram: [(10.12, 175), (10.35, 65), (18.0, 39), (14.25, 37), (15.75, 16), (14.62, 12), (10.88, 9), (10.5, 8)]
+print italic spans: 1 [(1, 16.12, 'Newsreader16pt-Italic', '«de groepswinst»')]
+web italic spans: 1 [(1, 16.12, 'LucernaNewsreader-Italic', '«de groepswinst»')]

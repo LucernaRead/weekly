@@ -1,0 +1,76 @@
+== ja stats {'KEEP': 17, 'REVERT': 19, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "「討論」：人々が公開で話し合う。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "「討論」：2人以上が公開で話し合い、順番に発言し質問する。", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="空所補充", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="空所補充", size=20, gap=8)
+content12.py:275 [REVERT] OLD: e.bridge("記事を読んで正しい答えを選ぼう。")
+content12.py:275 [REVERT] NEW: e.bridge("2ページの記事を読んで、正しい答えを選ぼう。")
+content34.py:45 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", "sans", False, 19, CW - 44)) * 27 + 20
+content34.py:45 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", "sans", False, 20, CW - 44)) * 29 + 20
+content34.py:51 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", 19, "sans", False, GREY, CW - 44, 1.42)
+content34.py:51 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:168 [REVERT] OLD: e.bridge("記事を読んで正しい答えを選ぼう。")
+content34.py:168 [REVERT] NEW: e.bridge("4ページの記事を読んで、正しい答えを選ぼう。")
+content34.py:190 [REVERT] OLD: e.bridge("比較級か -ísimo 形で補おう。")
+content34.py:190 [REVERT] NEW: e.bridge("かっこ内の言葉の比較級か -ísimo 形で補おう。")
+content34.py:200 [REVERT] OLD: e.bridge("過去形（pretérito indefinido）に直そう。")
+content34.py:200 [REVERT] NEW: e.bridge("文を過去形（pretérito indefinido）に直そう。")
+content56.py:50 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", "sans", False, 19, CW - 44)) * 27 + 20
+content56.py:50 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", "sans", False, 20, CW - 44)) * 29 + 20
+content56.py:56 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", 19, "sans", False, GREY, CW - 44, 1.42)
+content56.py:56 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", 20, "sans", False, GREY, CW - 44, 1.42)
+content56.py:66 [REVERT] OLD: e.bridge("記事を読んで正しい答えを選ぼう。")
+content56.py:66 [REVERT] NEW: e.bridge("5ページの記事を読んで、正しい答えを選ぼう。")
+content56.py:93 [REVERT] OLD: e.bridge("ir a + 不定詞で書きかえよう。")
+content56.py:93 [REVERT] NEW: e.bridge("ir a + 不定詞で文を書きかえよう（近い未来）。")
+content56.py:117 [REVERT] OLD: p.band("A FONDO　深掘り", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　選挙戦を読む：討論・政策・世論調査")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　深掘り", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　選挙戦の読み方")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content56.py:198 [REVERT] OLD: e.bridge("グラフを見て正しい答えを選ぼう。")
+content56.py:198 [REVERT] NEW: e.bridge("上の2つのグラフを見て、正しい答えを選ぼう。")
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content7.py:101 [REVERT] OLD: ldcn = "編集部より：締め切りまでに本物の手紙も最優秀作文も届かなかったため、今号は編集部の見本の手紙を掲載します。約束は VOL.5 に持ち越しです。"
+content7.py:101 [REVERT] NEW: ldcn = "編集部より：締め切りまでに本物の手紙も最優秀作文も届かなかったため、今号は編集部の見本の手紙を掲載します。約束は VOL.5 に持ち越しです。お便りをお待ちしています！"
+content7.py:102 [REVERT] OLD: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+content7.py:102 [REVERT] NEW: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:109 [REVERT] OLD: p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+content7.py:109 [REVERT] NEW: p.para(bx + 22, yy3 + 20, ldcn, 20, "sans", False, GREY, CW - 44, 1.42)
+content8.py:23 [KEEP] OLD: f.ex("B1", "穴埋め選択", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "穴埋め選択", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:74 [KEEP] OLD: f.ex("B1", "翻訳", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "翻訳", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　全解答と解説（1–8ページ）", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　全解答と解説（1–8ページ）", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "各問に日本語の解説つき　✓ は模範文のある問題", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "各問に日本語の解説つき　✓ は模範文のある問題", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

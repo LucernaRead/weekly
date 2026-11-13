@@ -1,0 +1,39 @@
+PASS occlusion 0 flags | /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-es/svg: 0 flags rc=0
+PASS p8 extract 150/150 | noted=150 rc=0
+PASS p8 compare vs core | verdict=CLEAN keydiff=[137, 138, 139] (measured; expected [137,138,139])
+PASS freeze diff present (8 pages) | pages=['1', '2', '3', '4', '5', '6', '7', '8']
+PASS freeze strict-cjk: no added CJK except U+3000 | rc=1 added_cjk={'\u3000': 8}
+INFO freeze diff fragments: added=342 removed=526
+PASS print/web text multiset identical (chars) | print_words=8001 web_words=8001 chars_equal=True
+PASS web PDF < 7MB | 1291428 bytes
+PASS print PDF size sane | 14033641 bytes
+PASS print PDF 8 pages | pdftotext pages marker
+PASS P8 min font >= 13px (9.75pt) | min=13.0
+INFO p1-prima.svg min font-size 15.5 px
+INFO p2-vita.svg min font-size 15.5 px
+INFO p3-cultura.svg min font-size 15.5 px
+INFO p4-sport.svg min font-size 15.5 px
+INFO p5-giovani.svg min font-size 15.5 px
+INFO p6-approfondimento.svg min font-size 17.0 px
+INFO p7-lingua.svg min font-size 15.5 px
+INFO p8-valutazione.svg min font-size 13.0 px
+PASS paper #fbfaf6 present
+PASS no gold/brick/near-black | hits=[]
+PASS VOL.4 present x>=9 | count=9
+INFO VOL.5 text nodes=3: ['VOL.5 (pagina 7, «Lettere dei', 'redacciones; la promesa pasa al VOL.5.', 'LA PROSSIMA SETTIMANA\u3000LA PRÓXIMA SEMANA (VOL.5)']
+PASS badge colours A2/B1/B2
+PASS no double outer frame | full-page rects=0
+INFO '·' total in SVGs: 148
+INFO non-Latin chars in SVGs: {'\u3000': 125, '：': 7}
+PASS no residual CJK except U+3000 + fullwidth colon | chars={'\u3000': 125, '：': 7}
+PASS textmd validate 0/0 | 2026-w47-it-es forward-miss: 0 reverse-miss: 0
+PASS answers count 150 | edition=150 core=150
+PASS keys 1-150 match core (except 137-139, writing) | mismatches=[]
+PASS notes match translations.py (except 137-140 + writing) | mismatches=[] table_gaps=[]
+INFO La-Lucerna-VOL4-ES.pdf: disk 8b7547d315a50de4... kit-present=True match=True
+INFO La-Lucerna-VOL4-ES-web.pdf: disk efc1404b8797a8b1... kit-present=True match=True
+INFO 2026-w47-it-es.text.md: disk 64a8ac2fce4e7063... kit-present=True match=True
+PASS KIT three SHA match disk
+INFO all-uppercase text nodes in SVGs: 116
+INFO uppercase nodes: ['VOL. 4\u3000QUARTA EDIZIONE', 'OGNI SETTIMANA IN ITALIANO\u3000CADA SEMANA\u3000EL ITALIANO QUE LEE ITALIA', 'SETTIMANA DAL 16 AL 22 NOVEMBRE 2026', 'SEMANARIO ITALIANO', 'VOL.4', 'LA SERIE A', 'IL TORRONE', 'VENEZIA', "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 'LA LAZIO RESTA PRIMA!', 'LA NOTIZIA\u3000LA NOTICIA', 'LA SETTIMANA IN CIFRE\u3000LA SEMANA EN CIFRAS', 'ADESSO TU\u3000AHORA TE TOCA A TI', 'LA SETTIMANA', 'GIORNO PER GIORNO', 'IN QUESTO NUMERO\u3000SUMARIO', 'A2→B1', 'A2→B2', 'LA PAROLA DELLA SETTIMANA', 'LA DOMENICA DEL 22', 'IN BREVE\u3000EN BREVE', 'TORRONE', 'MANOVRA', 'TENNIS', 'QUIZ LAMPO\u3000QUIZ RELÁMPAGO', 'VITA\u3000VIDA COTIDIANA', 'E LA SETTIMANA SCORSA?', 'LA FRASE PER RICORDARE\u3000PARA RECORDAR', 'LO SAPEVI?', 'E TU?\u3000¿Y TÚ?', 'IL 21 NOVEMBRE\u300021 DE NOVIEMBRE', 'ESERCIZI\u3000EJERCICIOS PÁGINA 2', 'A\u3000CHE COSA SERVE?', 'B\u3000IL PRESENTE', 'C\u3000COMPRENSIONE', '1687 · C. 1898', 'D\u3000LE PAROLE DI VENEZIA', 'CULTURA\u3000CULTURA', 'IL TORRAZZO E IL TORRONE', 'IL WEEKEND DOLCE', 'E TU?\u3000¿Y TÚ?', 'ESERCIZI\u3000EJERCICIOS PÁGINA 3', 'A\u3000COMPRENSIONE', 'B\u3000LE PAROLE DEL TESTO', 'C\u3000IL PASSATO PROSSIMO', 'D\u3000COSTRUISCI LE FRASI', 'SPORT\u3000DEPORTE', 'LA CLASSIFICA\u3000DOPO 11 GIORNATE', 'E TU?\u3000¿Y TÚ?', 'VEN 6.11', 'SAB 7.11', 'SAB 7.11', 'DOM 8.11', 'DOM 8.11', 'ESERCIZI\u3000EJERCICIOS PÁGINA 4', 'A\u3000COMPRENSIONE', 'B\u3000LE PAROLE', 'C\u3000I COMPARATIVI', 'D\u3000IL PASSATO DELLO SPORT', 'GIOVANI\u3000JÓVENES', 'IL PIANO DELLA SETTIMANA', 'I GIOVANI IN NUMERI', 'E TU?\u3000¿Y TÚ?', 'ESERCIZI\u3000EJERCICIOS PÁGINA 5', 'A\u3000COMPRENSIONE', 'B\u3000LE PAROLE DEL TESTO', 'C\u3000IL FUTURO', 'D\u3000VERO O FALSO?', 'APPROFONDIMENTO\u3000EN PROFUNDIDAD', 'LA STRADA DELLA MANOVRA', '28 OTT.', '9–12 NOV.', 'MAR 17 NOV.', '31 DIC.', 'LEGGERE I NUMERI', "LE MINIME DI ESEMPIO\u3000MÍNIMAS DE EJEMPLO (DATI INVENTATI PER L'ESERCIZIO)", 'PROPOSTA ≠ LEGGE', 'ESERCIZI\u3000EJERCICIOS PÁGINA 6', 'A\u3000LEGGERE IL GRAFICO', '· B. 2° · C. 4°', 'B. 12° · C. 14°', 'B\u3000COMPRENSIONE', '+0,8% · C. +5%', 'C\u3000IL CONGIUNTIVO', 'D\u3000LE PAROLE DELLA MANOVRA', 'LINGUA\u3000LENGUA', 'A2\u3000IL FUTURO', 'B1\u3000IL PASSATO PROSSIMO', 'B2\u3000IL CONGIUNTIVO', 'ERRORI TIPICI\u3000ERRORES TÍPICOS', 'LA PAROLA\u3000PALABRA DE LA SEMANA', 'LETTERE DEI LETTORI', 'FRASI DELLA SETTIMANA\u3000FRASES DE LA SEMANA (TOMADAS DE ESTE NÚMERO)', 'LA PROSSIMA SETTIMANA\u3000LA PRÓXIMA SEMANA (VOL.5)', 'VALUTAZIONE E RISPOSTE\u3000EJERCICIOS Y RESPUESTAS', 'A\u3000COMPLETA LA CRONACA', 'B. 21)', 'B\u3000DOMANDE GENERALI', '1630 · C. 1898', 'C\u3000LEGGI E RISPONDI', 'D\u3000COSTRUISCI LE FRASI', 'E\u3000TRADUCI', 'F\u3000LE PAROLE DELLA MANOVRA', 'G\u3000DIALOGO ALLA SAGRA', 'H\u3000SCRIVI TU', 'RISPOSTE\u3000RESPUESTAS — POR PÁGINA: BUSCA TU NÚMERO', '— PAGINA 1 —', '— PAGINA 2 —', '— PAGINA 3 —', '— PAGINA 4 —', '— PAGINA 5 —', '— PAGINA 6 —', '85. B — 13 − 11 = 2', '86. A — 6 + 7 = 13', '— PAGINA 7 —', '— PAGINA 8 —']
+GATES2 ALL PASS

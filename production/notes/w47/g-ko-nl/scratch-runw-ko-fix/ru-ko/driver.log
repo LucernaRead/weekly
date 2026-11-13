@@ -1,0 +1,240 @@
+===== ru-ko ko-fix start 2026-11-12T02:07:55Z =====
+[src] md5 svglib: 27f11789af7c828e47ca14eb00c1dded (production ee3211298f274e02ade2d4ca318ce354)
+[memgate] available=1911MB waited=0s
+[build1] 2026-11-12T02:07:55Z free: free=659 avail=1910 df: 99G used
+[02:07:56] build source : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/src-edition/2026-w47-ru-ko
+[02:07:56] production   : /home/hatch/workspace/weekly-git/production
+[02:07:56] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1
+[02:07:56] steps        : run, render
+[02:07:56] build is outside production/
+[02:07:57] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy
+[02:07:57] repointed files: none
+[02:07:57] repoint: no literal production paths found — OUT/BASE are __file__-relative and resolve inside the copy
+[02:07:57] verify: copy is clean — no .py references the real production tree
+[02:07:57] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/svg (any literal /svg target)
+[02:07:57] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[02:07:58] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[02:07:58] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1318 (bottom 1828)
+  flow[P1-snow] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1053 (bottom 1540)
+P2 col3 ends 1159.0
+P2 winter ends 1566.2500000000005
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=1042 (bottom 1540)
+P3 col3 ends 1136.0
+  flow[P3-ex] ended col 3/3 y=1794 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=907 (bottom 1020)
+P4 col3 ends 1024.25
+P4 tables end 1867.3299999999997
+  flow[P4-ex] ended col 3/3 y=2449 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=1266 (bottom 1540)
+P5 col3 ends 1152.75
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=797 (bottom 1180)
+P6 col3 ends 976.0
+P6 chart ends 1794
+  flow[P6-ex] ended col 3/3 y=2366 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1160 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1157 (bottom 1560)
+P7 pushkin ends 1577.4500000000003
+P7 col3 ends 1761.58
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=710 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2231 (bottom 2560)
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'문장 완성': 54, '객관식': 55, '단어 짝짓기': 20, '문장 만들기': 12, '문장 바꾸기': 4, '번역': 4, '쓰기': 1}
+model words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'문장 완성': 54, '객관식': 55, '단어 짝짓기': 20, '문장 만들기': 12, '문장 바꾸기': 4, '번역': 4, '쓰기': 1}
+ALL DONE
+[02:09:15] run.py: exit 0
+[02:09:15] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy)
+card: p1-pervaya.png
+card: p2-zhizn.png
+card: p3-kultura.png
+card: p4-sport.png
+card: p5-molodezh.png
+card: p6-razbor.png
+card: p7-yazyk.png
+card: p8-test.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko.pdf 22005230
+[02:11:08] render.py: exit 0
+[02:11:08] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1 (19 svg/png/pdf files)
+[02:11:08]   out: build-copy/Lucerna-VOL4-ru-ko-web.pdf
+[02:11:08]   out: build-copy/Lucerna-VOL4-ru-ko.pdf
+[02:11:08]   out: build-copy/assets/lucerna-moth.svg
+[02:11:08]   out: build-copy/cards/p1-pervaya.png
+[02:11:08]   out: build-copy/cards/p2-zhizn.png
+[02:11:08]   out: build-copy/cards/p3-kultura.png
+[02:11:08]   out: build-copy/cards/p4-sport.png
+[02:11:08]   out: build-copy/cards/p5-molodezh.png
+[02:11:08]   out: build-copy/cards/p6-razbor.png
+[02:11:08]   out: build-copy/cards/p7-yazyk.png
+[02:11:08]   out: build-copy/cards/p8-test.png
+[02:11:08]   out: build-copy/svg/p1-pervaya.svg
+[02:11:08]   out: build-copy/svg/p2-zhizn.svg
+[02:11:08]   out: build-copy/svg/p3-kultura.svg
+[02:11:08]   out: build-copy/svg/p4-sport.svg
+[02:11:08]   out: build-copy/svg/p5-molodezh.svg
+[02:11:08]   out: build-copy/svg/p6-razbor.svg
+[02:11:08]   out: build-copy/svg/p7-yazyk.svg
+[02:11:08]   out: build-copy/svg/p8-test.svg
+[build1] rc=0 2026-11-12T02:11:08Z
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[memgate] available=1967MB waited=0s
+[build2] 2026-11-12T02:11:08Z free: free=441 avail=1969 df: 99G used
+[02:11:09] build source : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/src-edition/2026-w47-ru-ko
+[02:11:09] production   : /home/hatch/workspace/weekly-git/production
+[02:11:09] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2
+[02:11:09] steps        : run, render
+[02:11:09] build is outside production/
+[02:11:10] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/build-copy
+[02:11:10] repointed files: none
+[02:11:10] repoint: no literal production paths found — OUT/BASE are __file__-relative and resolve inside the copy
+[02:11:10] verify: copy is clean — no .py references the real production tree
+[02:11:10] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/svg (any literal /svg target)
+[02:11:10] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[02:11:10] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[02:11:10] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1318 (bottom 1828)
+  flow[P1-snow] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1053 (bottom 1540)
+P2 col3 ends 1159.0
+P2 winter ends 1566.2500000000005
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=1042 (bottom 1540)
+P3 col3 ends 1136.0
+  flow[P3-ex] ended col 3/3 y=1794 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=907 (bottom 1020)
+P4 col3 ends 1024.25
+P4 tables end 1867.3299999999997
+  flow[P4-ex] ended col 3/3 y=2449 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=1266 (bottom 1540)
+P5 col3 ends 1152.75
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=797 (bottom 1180)
+P6 col3 ends 976.0
+P6 chart ends 1794
+  flow[P6-ex] ended col 3/3 y=2366 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1160 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1157 (bottom 1560)
+P7 pushkin ends 1577.4500000000003
+P7 col3 ends 1761.58
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=710 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2231 (bottom 2560)
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'문장 완성': 54, '객관식': 55, '단어 짝짓기': 20, '문장 만들기': 12, '문장 바꾸기': 4, '번역': 4, '쓰기': 1}
+model words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'문장 완성': 54, '객관식': 55, '단어 짝짓기': 20, '문장 만들기': 12, '문장 바꾸기': 4, '번역': 4, '쓰기': 1}
+ALL DONE
+[02:12:12] run.py: exit 0
+[02:12:12] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/build-copy)
+card: p1-pervaya.png
+card: p2-zhizn.png
+card: p3-kultura.png
+card: p4-sport.png
+card: p5-molodezh.png
+card: p6-razbor.png
+card: p7-yazyk.png
+card: p8-test.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2/build-copy/Lucerna-VOL4-ru-ko.pdf 22005230
+[02:14:15] render.py: exit 0
+[02:14:15] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build2 (19 svg/png/pdf files)
+[02:14:15]   out: build-copy/Lucerna-VOL4-ru-ko-web.pdf
+[02:14:15]   out: build-copy/Lucerna-VOL4-ru-ko.pdf
+[02:14:15]   out: build-copy/assets/lucerna-moth.svg
+[02:14:15]   out: build-copy/cards/p1-pervaya.png
+[02:14:15]   out: build-copy/cards/p2-zhizn.png
+[02:14:15]   out: build-copy/cards/p3-kultura.png
+[02:14:15]   out: build-copy/cards/p4-sport.png
+[02:14:15]   out: build-copy/cards/p5-molodezh.png
+[02:14:15]   out: build-copy/cards/p6-razbor.png
+[02:14:15]   out: build-copy/cards/p7-yazyk.png
+[02:14:15]   out: build-copy/cards/p8-test.png
+[02:14:15]   out: build-copy/svg/p1-pervaya.svg
+[02:14:15]   out: build-copy/svg/p2-zhizn.svg
+[02:14:15]   out: build-copy/svg/p3-kultura.svg
+[02:14:15]   out: build-copy/svg/p4-sport.svg
+[02:14:15]   out: build-copy/svg/p5-molodezh.svg
+[02:14:15]   out: build-copy/svg/p6-razbor.svg
+[02:14:15]   out: build-copy/svg/p7-yazyk.svg
+[02:14:15]   out: build-copy/svg/p8-test.svg
+[build2] rc=0 2026-11-12T02:14:15Z
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+[webpdf1] rc=0
+  font LucernaUnifrakturMaguntia-Regular: 19836 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko-web.pdf: 3510692 bytes, 58756 text bytes
+[textmd] IDENTICAL
+62538d215e2ef0cbe440faa23cb4e147dc78e9116e1b6db02fc07ca704635b27  Lucerna-VOL4-ru-ko.pdf
+da80b1730f33dd03e935a911fed6578457fab71543a8da4c220e432b575e7cb5  Lucerna-VOL4-ru-ko-web.pdf
+-rw-rw---- 1 root nogroup  3510692 Nov 12 02:15 Lucerna-VOL4-ru-ko-web.pdf
+-rw-rw---- 1 root nogroup 22005230 Nov 12 02:11 Lucerna-VOL4-ru-ko.pdf
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko.pdf
+pages=8 distinct_join_tokens=95 total_join_boundaries=223
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/Lucerna-VOL4-ru-ko-web.pdf
+pages=8 distinct_join_tokens=95 total_join_boundaries=223
+[p8-extract] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+[p8-compare] rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+[check_core] rc=0 golden BAD: 0 gloss fails: 0 orphan line-starts: [('p7-yazyk.svg', 553, '”».')] same-baseline collisions: [] total 0 
+[occlusion] rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-runw-ko-fix/ru-ko/build1/build-copy/svg: 0 flags 
+freeze SVG match: 8/8
+print PDF byte-identical: True (62538d215e2e vs 62538d215e2e)
+FREEZE PASS
+print chars(non-ws): 26535 web: 26535
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS
+P8 keys end col 3 y 2231.270000000002
+P8 morozko SKIPPED: no room (col 3 y 2231.270000000002 )
+images total=5 per_page=[1, 1, 0, 1, 1, 0, 1, 0]
+P8 SVG 'Морозко' hits=0 'Билибин' hits=0
+P8 SVG text chars approx=8404
+===== ru-ko ko-fix done 2026-11-12T02:17:30Z =====

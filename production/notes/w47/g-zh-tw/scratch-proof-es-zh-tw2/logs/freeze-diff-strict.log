@@ -1,0 +1,11 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +24 strings / -23 strings; CJK core 205 -> edition 220; added CJK chars: 89 {'\u3000': 1, '週': 7, '讀': 4, '西': 1, '班': 1, '牙': 1, '正': 1, '的': 1, '語': 4, '報': 2}
+p2: +30 strings / -30 strings; CJK core 309 -> edition 308; added CJK chars: 101 {'這': 2, '週': 13, '曆': 1, '國': 1, '際': 1, '佛': 2, '朗': 2, '明': 2, '哥': 2, '議': 2}
+p3: +20 strings / -20 strings; CJK core 178 -> edition 180; added CJK chars: 60 {'佛': 3, '朗': 3, '明': 3, '哥': 3, '與': 1, '聖': 1, '亞': 1, '譯': 1, '彈': 1, '節': 1}
+p4: +22 strings / -22 strings; CJK core 197 -> edition 196; added CJK chars: 65 {'體': 1, '聯': 3, '賽': 4, '歸': 1, '輪': 3, '譯': 1, '階': 1, '說': 2, '週': 2, '場': 2}
+p5: +28 strings / -28 strings; CJK core 265 -> edition 266; added CJK chars: 80 {'週': 8, '計': 1, '劃': 1, '佛': 1, '朗': 1, '明': 1, '哥': 1, '競': 1, '選': 4, '郵': 2}
+p6: +7 strings / -7 strings; CJK core 93 -> edition 102; added CJK chars: 30 {'讀': 2, '競': 1, '選': 2, '：': 1, '辯': 1, '論': 1, '、': 1, '政': 1, '綱': 1, '與': 1}
+p7: +32 strings / -35 strings; CJK core 399 -> edition 397; added CJK chars: 119 {'語': 3, '個': 1, '級': 3, '別': 1, '時': 2, '間': 2, '單': 4, '數': 5, '複': 1, '賽': 2}
+p8: +174 strings / -179 strings; CJK core 1030 -> edition 1022; added CJK chars: 408 {'練': 1, '習': 1, '與': 3, '第': 1, '譯': 4, '郵': 9, '遲': 6, '須': 8, '週': 28, '請': 7}
+TOTAL added CJK characters: 952

@@ -1,0 +1,28 @@
+== substring matches (context) ==
+WEEKLY-KIT.md:found P3 exercise B Q34 stem "Am Montag öffnen in Köln die ersten ___." paired with key `Weihnachtsmarkt`
+WEEKLY-KIT.md:e plural ("Am Montag, dem 16. November, öffnen in Köln die ersten Weihnachtsmärkte"), and Q43 correctly 
+== full old stem with blank, all svg ==
+svg/p1-front.svg 0
+svg/p2-leben.svg 0
+svg/p3-kultur.svg 0
+svg/p4-sport.svg 0
+svg/p5-jugend.svg 0
+svg/p6-vertiefung.svg 0
+svg/p7-sprache.svg 0
+svg/p8-uebungen.svg 0
+== new stem in print/web text ==
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/print15.txt:1
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/web15.txt:1
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/print15.txt:0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/web15.txt:0
+== raw text bytes ==
+111693 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/print15.txt
+111695 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/web15.txt
+ 50498 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/print15-raw.txt
+ 50498 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-de5/work/web15-raw.txt
+324384 total
+== word multiset compare (default mode) ==
+print tokens 7235 web tokens 7235 multiset equal True
+symdiff sample [] []
+== raw normalised identical? ==
+raw bytes equal False normalised equal False

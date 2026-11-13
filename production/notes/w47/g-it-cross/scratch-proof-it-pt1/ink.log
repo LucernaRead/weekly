@@ -1,0 +1,58 @@
+=== A. P2 matching rows b/d (Newsreader 23, x=1473.5) ===
+  y=2124 'a. mettere una pianta nella terra' ink_right=1813.1 vs margin 1862 -> ok 48.9
+  y=2162 'b. il ponte di barche per la festa del 21' ink_right=1877.6 vs margin 1862 -> OVER +15.6
+  y=2195 'novembre' ink_right=1582.3 vs margin 1862 -> ok 279.7
+  y=2233 'c. stare bene, la prima ricchezza' ink_right=1808.5 vs margin 1862 -> ok 53.5
+  y=2271 'd. la piccola luce di cera che si accende' ink_right=1879.7 vs margin 1862 -> OVER +17.7
+  y=2304 'in chiesa' ink_right=1566.5 vs margin 1862 -> ok 295.5
+=== B. P1 LA SETTIMANA subtitle (sans 19, y=694) ===
+  box x=1439.5 w=422.5 right=1862.0
+  'Esta semana\u3000Cosa succede, giorno per giorno' x=1461.5 ink_right=1876.9 vs box_right 1862.0 -> OVER +14.9; vs margin -> OVER +14.9
+=== C. Tight creambox last lines: true ink bottom vs box bottom ===
+  E TU last 'frases em italiano para a redação.': 'frases em italiano para a redação.' ink_bottom=1350.6 vs box_bottom 1350.6 -> inside 0.0
+  LA PAROLA last 'semana: a Lazio lidera com 29 pontos.': 'semana: a Lazio lidera com 29 pontos.' ink_bottom=1344.5 vs box_bottom 1344.0 -> OVER +0.5
+  LETTERE last 'redações; a promessa passa ao VOL.5.': 'redações; a promessa passa ao VOL.5.' ink_bottom=1672.9 vs box_bottom 1673.0 -> inside 0.1
+  ERRORI last 'Torrone é singular, e o verbo também.': 'Atalanta–Inter.' ink_bottom=995.4 vs box_bottom 1013.5 -> inside 18.1
+  ERRORI last 'Torrone é singular, e o verbo também.': 'Torrone é singular, e o verbo também.' ink_bottom=1000.4 vs box_bottom 1013.5 -> inside 13.1
+  P3 E TU last: 'duas frases e envia-as.' ink_bottom=1286.1 vs box_bottom 1290.6 -> inside 4.5
+  P4 E TU last: 'Escreve duas frases em italiano.' ink_bottom=1135.9 vs box_bottom 1140.4 -> inside 4.5
+  P5 E TU last: 'Escreve duas frases e envia-as.' ink_bottom=1245.2 vs box_bottom 1249.8 -> inside 4.6
+  P2 LO SAPEVI last: 'della musica e dei musicisti.' ink_bottom=955.3 vs box_bottom 960.6 -> inside 5.3
+  P3 WEEKEND last: 'continua fino al 6 dicembre.' ink_bottom=1015.8 vs box_bottom 1021.1 -> inside 5.3
+  P5 NUMERI last: 'domenica 22 novembre.' ink_bottom=1005.4 vs box_bottom 1010.7 -> inside 5.3
+=== D. BOXTITLE true ink vs own cream rect (all pages) ===
+  p1-prima.svg y=1388 'LA SETTIMANA IN CIFRE\u3000A SEMANA EM NÚMEROS' ink=[556.5,1119.8] rect=[538.5,961.0] *** OVER/OUT ***
+  p1-prima.svg y=628 'LA SETTIMANA' ink=[1461.5,1655.2] rect=[1439.5,1862.0] OK
+  p1-prima.svg y=1352 'IN QUESTO NUMERO\u3000ÍNDICE' ink=[1461.5,1809.7] rect=[1439.5,1862.0] OK
+  p1-prima.svg y=1914 'IN BREVE\u3000EM RESUMO' ink=[1461.5,1737.2] rect=[1439.5,1862.0] OK
+  p2-vita.svg y=1281 'LA FRASE PER RICORDARE\u3000PARA LEMBRAR' ink=[556.5,1048.4] rect=[538.5,961.0] *** OVER/OUT ***
+  p2-vita.svg y=659 'LO SAPEVI?' ink=[1461.5,1595.2] rect=[1439.5,1862.0] OK
+  p2-vita.svg y=1029 'E TU?\u3000E TU?' ink=[1461.5,1616.2] rect=[1439.5,1862.0] OK
+  p3-cultura.svg y=689 'IL WEEKEND DOLCE' ink=[1461.5,1692.3] rect=[1439.5,1862.0] OK
+  p3-cultura.svg y=1089 'E TU?\u3000E TU?' ink=[1461.5,1616.2] rect=[1439.5,1862.0] OK
+  p4-sport.svg y=471 'LA CLASSIFICA\u3000DOPO 11 GIORNATE' ink=[1461.5,1835.4] rect=[1439.5,1862.0] OK
+  p4-sport.svg y=969 'E TU?\u3000E TU?' ink=[1461.5,1616.2] rect=[1439.5,1862.0] OK
+  p4-sport.svg y=1185 'VEN 6.11' ink=[105.0,192.3] rect=[88.0,1862.0] OK
+  p4-sport.svg y=1309 'SAB 7.11' ink=[106.0,191.6] rect=[88.0,1862.0] OK
+  p4-sport.svg y=1433 'DOM 8.11' ink=[106.0,199.4] rect=[88.0,1862.0] OK
+  p5-giovani.svg y=576 'IL PIANO DELLA SETTIMANA' ink=[556.5,869.0] rect=[538.5,961.0] OK
+  p5-giovani.svg y=709 'I GIOVANI IN NUMERI' ink=[1461.5,1707.0] rect=[1439.5,1862.0] OK
+  p5-giovani.svg y=1079 'E TU?\u3000E TU?' ink=[1461.5,1616.2] rect=[1439.5,1862.0] OK
+  p6-approfondimento.svg y=240 'LA STRADA DELLA MANOVRA' ink=[1461.5,1768.4] rect=[1439.5,1862.0] OK
+  p6-approfondimento.svg y=908 'LEGGERE I NUMERI' ink=[1461.5,1684.8] rect=[1439.5,1862.0] OK
+  p6-approfondimento.svg y=1634 'MINIME DI ESEMPIO\u3000gradi, dati inventati' ink=[110.0,540.0] rect=[88.0,961.0] OK
+  p6-approfondimento.svg y=1634 'PROPOSTA ≠ LEGGE' ink=[1011.0,1224.1] rect=[989.0,1862.0] OK
+  p7-lingua.svg y=242 'ERRORI TIPICI\u3000ERROS FREQUENTES' ink=[1461.5,1878.7] rect=[1439.5,1862.0] *** OVER/OUT ***
+  p7-lingua.svg y=1082 'LA PAROLA\u3000PALAVRA DA SEMANA' ink=[1461.5,1848.8] rect=[1439.5,1862.0] OK
+  p7-lingua.svg y=1412 'LETTERE DEI LETTORI' ink=[1461.5,1707.8] rect=[1439.5,1862.0] OK
+=== E. P1 masthead band (y=330, serif bold 36, spacing 11.5, anchor middle x=975) ===
+  run x=0.0 'SEMANÁRIO ITALIANO' ink=[0.0,650.3]
+  run x=656.6 '\u3000' ink=[656.6,692.6]
+  run x=704.1 'VOL.4' ink=[704.1,866.1]
+  run x=875.7 '\u3000' ink=[875.7,911.7]
+  run x=923.2 'LA SERIE A' ink=[923.2,1242.6]
+  run x=1251.9 '\u3000' ink=[1251.9,1287.9]
+  run x=1299.4 'IL TORRONE' ink=[1299.4,1646.8]
+  run x=1654.7 '\u3000' ink=[1654.7,1690.7]
+  run x=1702.2 'VENEZIA' ink=[1702.2,1949.9]
+  BAND total ink [0.0,1949.9] page [0,1950] -> left margin 0.0, right edge exceed -0.1

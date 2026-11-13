@@ -1,0 +1,100 @@
+===== core-es 15:51:28 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+boxtitle rc=0 BOXTITLE core-es: 30 titles, 330 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP core-es: 27 boxes, 85 candidates, 0 SPILL, 85 OBSERVE
+edge rc=0 EDGE_SCAN core-es: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK core-es
+===== 2026-w47-es-de 15:53:55 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-de: 24 titles, 264 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-de: 27 boxes, 67 candidates, 0 SPILL, 67 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-de: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-de
+===== 2026-w47-es-en 15:55:26 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-en: 26 titles, 261 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-en: 27 boxes, 70 candidates, 0 SPILL, 70 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-en: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-en
+===== 2026-w47-es-fr 15:57:55 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-fr: 24 titles, 269 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-fr: 27 boxes, 71 candidates, 0 SPILL, 71 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-fr: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-fr
+===== 2026-w47-es-it 15:58:55 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-it: 22 titles, 266 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-it: 27 boxes, 71 candidates, 0 SPILL, 71 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-it: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-it
+===== 2026-w47-es-ja 16:00:19 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-ja: 26 titles, 346 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-ja: 27 boxes, 84 candidates, 0 SPILL, 84 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-ja: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-ja
+===== 2026-w47-es-ko 16:01:45 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-ko: 38 titles, 604 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-ko: 27 boxes, 149 candidates, 0 SPILL, 149 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-ko: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-ko
+===== 2026-w47-es-nl 16:03:12 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-nl: 26 titles, 264 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-nl: 27 boxes, 71 candidates, 0 SPILL, 71 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-nl: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-nl
+===== 2026-w47-es-pt 16:05:21 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-pt: 24 titles, 266 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-pt: 27 boxes, 69 candidates, 0 SPILL, 69 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-pt: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-pt
+===== 2026-w47-es-ru 16:07:09 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-ru: 30 titles, 372 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-ru: 27 boxes, 72 candidates, 0 SPILL, 72 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-ru: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-ru
+===== 2026-w47-es-zh-tw 16:09:11 =====
+occlusion rc=0 svg/: 0 flags 
+p8-extract rc=0 svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines)
+p8-compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+boxtitle rc=0 BOXTITLE 2026-w47-es-zh-tw: 26 titles, 328 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill rc=0 SPILL_SWEEP 2026-w47-es-zh-tw: 27 boxes, 82 candidates, 0 SPILL, 82 OBSERVE
+edge rc=0 EDGE_SCAN 2026-w47-es-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+census rc=0 CENSUS PASS
+OK 2026-w47-es-zh-tw
+GATES2 DONE 16:11:07
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch

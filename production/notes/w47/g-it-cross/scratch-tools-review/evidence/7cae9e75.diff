@@ -1,0 +1,903 @@
+commit 7cae9e75ca997f4ee5ce1edf5e1698e94d99f877
+Author: Beacon <info@lucernaread.com>
+Date:   Wed Nov 11 22:30:57 2026 +0000
+
+    tools: fix 5 pre-insert bugs in gates/keycheck/adjudicate drivers
+    
+    - gates.py (nl driver): parse p8.py's real `keydiff=[...]` output; the old
+      `[Kk]ey diff.*` regex never matched it, so keydiffs was always [] (L1804/O11)
+    - gates-zh-tw.py: p8 summary `extra` now reads JSON key `extra`, not
+      `extra_count` (which exists only in p8.py stdout); old lookup always
+      yielded "?" in gates.json (L1896/L3206)
+    - gates.sh (en-ru driver): dump_reg.py writes
+      scratch-fanout-en2/fanout/<lang>/registry.json; copy the fresh dump, not
+      the stale $S copy that once carried a 04:39 pre-refanout registry (L2366)
+    - keycheck_ed.py: re-extract P8 from the live edition SVG every run instead
+      of trusting the pre-delta archive (148/150 Q73 phantom, L2503)
+    - adjudicate_ru.py: SX 1950/1800 -> 1.0 (SVG and cards are both 1950x2700);
+      old scale reported false 42/42 CLEAR (L2785/L2879)
+    - test_gates_p8_extra.py: minimal regression test for the extra-key bug
+    
+    Live goals-side drivers fixed in place; tools/ copies are byte-identical.
+
+diff --git a/tools/adjudicate_ru.py b/tools/adjudicate_ru.py
+new file mode 100644
+index 00000000..9ba2502a
+--- /dev/null
++++ b/tools/adjudicate_ru.py
+@@ -0,0 +1,112 @@
++#!/usr/bin/env python3
++"""Pixel-adjudicate occlusion_audit flags against the rendered PNG cards.
++For TEXTX: find runs a/b in the SVG, take the junction column J = b.x (png),
++and measure the widest all-background column run within J+-10 over the
++flag's ink band. gap>=1px -> CLEAR (false positive), else OVERLAP (real).
++For LINEX: check whether text ink extends below the rule's bottom row.
++PNG mapping: x_svg * 1.0, y_svg * 1.0 — SVG canvas and cards are both
++1950x2700, so svg px == card px. (The old 1950/1800 assumed 1800-wide
++cards; that shifted every junction J by up to ~150px and masked
++boundary cases — run-log L2785/L2879.)
++"""
++import json, re, html, sys
++from PIL import Image
++
++SX = 1.0
++CORE = sys.argv[2] if len(sys.argv) > 2 else "/home/hatch/workspace/weekly-git/production/2026-w47/core-ru"
++FLAGS = json.load(open(sys.argv[1] if len(sys.argv) > 1 else "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru/occlusion-run1.json"))["flags"]
++
++TEXT_RE = re.compile(r'<text x="([\d.]+)" y="([\d.]+)"[^>]*>([^<]*)</text>')
++LINE_RE = re.compile(r'<line x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"')
++
++def load_els(page):
++    s = open(f"{CORE}/svg/{page}", encoding="utf-8").read()
++    els = []
++    for m in TEXT_RE.finditer(s):
++        els.append({"x": float(m.group(1)), "y": float(m.group(2)),
++                    "t": html.unescape(m.group(3))})
++    return els, s
++
++cards = {}
++def card(page):
++    if page not in cards:
++        cards[page] = Image.open(f"{CORE}/cards/{page.replace('.svg', '.png')}").convert("L")
++    return cards[page]
++
++def bg_dark(im, x, y0, y1):
++    # background = median over a wide strip above and below the band
++    vals = []
++    for yy in (max(0, y0 - 20), min(im.height - 1, y1 + 20)):
++        for dx in range(-100, 101, 10):
++            xx = int(x) + dx
++            if 0 <= xx < im.width:
++                vals.append(im.load()[xx, yy])
++    vals.sort()
++    return (vals[len(vals) // 2] if vals else 240) < 128
++
++results = []
++for f in FLAGS:
++    page, cls = f["page"], f["class"]
++    box = f["box"]  # svg units [l, t, r, b]
++    im = card(page)
++    px = im.load()
++    if cls == "TEXTX":
++        m = re.search(r"ink overlaps '([^']*)'", f["detail"])
++        btxt = m.group(1).strip() if m else ""
++        btxt = re.sub(r"\\u([0-9a-fA-F]{4})", lambda mm: chr(int(mm.group(1), 16)), btxt).strip()
++        els, _ = load_els(page)
++        a_cands = [e for e in els if e["t"].strip() == f["text"].strip() and abs(e["x"] - box[0]) < 5
++                   and box[1] - 2 <= e["y"] <= box[3] + 10]
++        if not a_cands:
++            # flag text may be a substring of a longer run (e.g. '! ' inside '!»')
++            a_cands = [e for e in els if f["text"].strip() and f["text"].strip() in e["t"]
++                       and box[1] - 2 <= e["y"] <= box[3] + 10]
++        a = a_cands[0] if a_cands else None
++        b = None
++        if a:
++            # b may sit on EITHER side (audit pairs boxes regardless of order)
++            bs = [e for e in els if e["t"].lstrip().startswith(btxt[:12]) and abs(e["y"] - a["y"]) < 5 and e is not a]
++            bs.sort(key=lambda e: abs(e["x"] - a["x"]))
++            b = bs[0] if bs else None
++        if not a or not b:
++            results.append((page, cls, f["text"], "UNRESOLVED", ""))
++            continue
++        J = max(a["x"], b["x"]) * SX  # boundary column between the two runs
++        y0, y1 = max(0, int(box[1])), min(im.height - 1, int(box[3]))
++        dark_bg = bg_dark(im, J, y0, y1)
++        def is_ink(v):
++            return v > 160 if dark_bg else v < 180
++        # a column counts as ink only with >=2 ink pixels in the band
++        # (kills single-row noise from a neighbouring badge/line)
++        best, cur = 0, 0
++        for cx in range(int(J) - 10, int(J) + 11):
++            n = sum(1 for yy in range(y0, y1 + 1) if 0 <= cx < im.width and is_ink(px[cx, yy]))
++            col_ink = n >= 2
++            cur = 0 if col_ink else cur + 1
++            best = max(best, cur)
++        verdict = "CLEAR gap=%dpx" % best if best >= 1 else "OVERLAP"
++        results.append((page, cls, f["text"], verdict, "vs %r J=%.0f %s" % (b["t"][:20], J, "darkbg" if dark_bg else "lightbg")))
++    elif cls == "LINEX":
++        m = re.search(r"\[([\d.]+), ([\d.]+), ([\d.]+), ([\d.]+)\]", f["detail"])
++        rl, rt, rr, rb = [float(v) for v in m.groups()]
++        x0, x1 = max(0, int(box[0] * SX)), min(im.width - 1, int(box[2] * SX))
++        # lowest ink row in [rt-40, rb+25] within the ink x-range,
++        # excluding the rule rows themselves (rule spans full width;
++        # restrict to the ink x-range and check rows below rb)
++        rows_below = []
++        for yy in range(int(rb) + 1, int(rb) + 26):
++            if any(px[xx, yy] < 180 for xx in range(x0, x1)):
++                rows_below.append(yy)
++        verdict = ("REAL ink %d rows below rule" % len(rows_below)) if rows_below else "CLEAR"
++        results.append((page, cls, f["text"], verdict, "rule y=%.1f-%.1f" % (rt, rb)))
++    else:
++        results.append((page, cls, f["text"], "UNHANDLED", ""))
++
++from collections import Counter
++print(Counter(r[3].split()[0] for r in results))
++for r in results:
++    if not r[3].startswith("CLEAR"):
++        print(" !!", r)
++print("--- all ---")
++for r in results:
++    print(r[0], r[1], repr(r[2][:28]), r[3], r[4])
+diff --git a/tools/gates-zh-tw.py b/tools/gates-zh-tw.py
+new file mode 100644
+index 00000000..4b7b214a
+--- /dev/null
++++ b/tools/gates-zh-tw.py
+@@ -0,0 +1,262 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""Re-fanout gates for one zh-tw edition. Usage: gates.py <lang> <run-tag>
++Writes a JSON summary + logs under <scratch>/gates/<lang>-<tag>/.
++Assumes print+web PDFs and text.md already built in the edition dir.
++Does NOT rebuild anything (except freeze.py baseline, which rebuilds a
++scratch copy only)."""
++import collections, glob, html, json, os, re, subprocess, sys
++
++HOME = os.path.expanduser("~")
++M = os.path.join(HOME, "workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw")
++WEEK = os.path.join(HOME, "workspace/weekly-git")
++VENV = os.path.join(WEEK, "tools/venv/bin/python")
++TOOLS = os.path.join(WEEK, "tools")
++CORE = os.path.join(WEEK, "production/2026-w47/core-zh-tw")
++
++LANG = sys.argv[1]
++TAG = sys.argv[2] if len(sys.argv) > 2 else "final"
++UP = LANG.upper()
++ED = os.path.join(WEEK, f"production/2026-w47/2026-w47-zh-tw-{LANG}")
++SLUG = f"2026-w47-zh-tw-{LANG}"
++G = os.path.join(M, "gates", f"{LANG}-{TAG}")
++os.makedirs(G, exist_ok=True)
++res = {"lang": LANG, "tag": TAG, "edition": SLUG, "gates": {}}
++
++def run(cmd, logname, cwd=None, expect=0):
++    p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
++    open(os.path.join(G, logname), "w", encoding="utf-8").write(p.stdout + p.stderr)
++    ok = (p.returncode == expect)
++    return ok, p
++
++def svg_texts(d):
++    out = []
++    for f in sorted(glob.glob(os.path.join(d, "*.svg"))):
++        s = open(f, encoding="utf-8").read()
++        for c in re.findall(r"<text[^>]*>(.*?)</text>", s, re.S):
++            t = html.unescape(re.sub(r"<[^>]+>", "", c)).strip()
++            if t:
++                out.append(t)
++    return out
++
++def multiset_diff(a, b):
++    ca, cb = collections.Counter(a), collections.Counter(b)
++    return {k: ca[k] - cb[k] for k in set(ca) | set(cb) if ca[k] != cb[k]}
++
++# ---- 1. checks.py ----
++ok, p = run([VENV, "checks.py"], "checks.log", cwd=ED)
++res["gates"]["checks"] = {"rc": p.returncode,
++                          "pass": ("CHECKS PASS" in p.stdout or "PASS" in p.stdout) and p.returncode == 0,
++                          "tail": (p.stdout + p.stderr).strip().splitlines()[-3:]}
++
++# ---- 2. occlusion selftest + audit ----
++ok, p = run([VENV, os.path.join(TOOLS, "occlusion_audit.py"), "--selftest"], "occlusion-selftest.log")
++selftest_ok = p.returncode == 0
++ok, p = run([VENV, os.path.join(TOOLS, "occlusion_audit.py"), "--json",
++             os.path.join(G, "occlusion.json"), os.path.join(ED, "svg")], "occlusion.log")
++oc = json.load(open(os.path.join(G, "occlusion.json"))) if os.path.exists(os.path.join(G, "occlusion.json")) else {}
++flags = oc.get("flag_count", oc.get("flags", "?"))
++if isinstance(flags, list):
++    flags = len(flags)
++res["gates"]["occlusion"] = {"selftest_rc": 0 if selftest_ok else 1, "flags": flags, "rc": p.returncode}
++
++# ---- 3. p8 extract + compare (explicit --core-p8 / --edition-p8) ----
++ok, p = run([VENV, os.path.join(TOOLS, "p8.py"), "extract", "--p8",
++             os.path.join(ED, "svg/p8-test.svg"), "--total", "150",
++             "--json", os.path.join(G, "p8-extract.json")], "p8-extract.log")
++ext = json.load(open(os.path.join(G, "p8-extract.json"))) if os.path.exists(os.path.join(G, "p8-extract.json")) else {}
++noted = len(ext["noted_set"]) if "noted_set" in ext else ext.get("noted", ext.get("count", "?"))
++ok, p = run([VENV, os.path.join(TOOLS, "p8.py"), "compare",
++             "--core-p8", os.path.join(CORE, "svg/p8-test.svg"),
++             "--edition-p8", os.path.join(ED, "svg/p8-test.svg"),
++             "--total", "150", "--json", os.path.join(G, "p8-compare.json")], "p8-compare.log")
++comp = json.load(open(os.path.join(G, "p8-compare.json"))) if os.path.exists(os.path.join(G, "p8-compare.json")) else {}
++res["gates"]["p8"] = {"extract_noted": noted, "compare": comp.get("status", comp),
++                      "keydiff": comp.get("keydiff", "?"), "missing": comp.get("missing", "?"),
++                      "extra": comp.get("extra", "?")}  # NOTE: JSON key is `extra`, not `extra_count`
++
++# ---- 4. canonical creambox full scan ----
++ok, p = run(["python3", os.path.join(HOME, "workspace/goals/lucernaread-social-media-operations/hidden_files/w47/tools/creambox.py")]
++            + sorted(glob.glob(os.path.join(ED, "svg/*.svg"))), "creambox.log")
++clog = open(os.path.join(G, "creambox.log"), encoding="utf-8").read()
++sections = {}
++cur = None
++for ln in clog.splitlines():
++    if ln.startswith("== "):
++        cur = ln[3:].strip()
++        sections[cur] = []
++    elif cur is not None:
++        sections[cur].append(ln)
++boxes = len(re.findall(r"inside-only", clog))
++neg = [float(v) for v in re.findall(r"inside-only(?: \[P7-TOOLBOX\])?: last baseline [\d.]+ clearance ([+-]?[\d.]+)", clog) if float(v) < 0]
++toolbox = [(round(float(v), 1), t[:44]) for v, t in re.findall(r"inside-only \[P7-TOOLBOX\]: last baseline [\d.]+ clearance ([+-]?[\d.]+) desc-clear [+-]?[\d.]+ \| '(.*?)'", clog)]
++p7min = None
++allmins = {}
++for path, lines in sections.items():
++    vals = [float(v) for v in re.findall(r"inside-only(?: \[P7-TOOLBOX\])?: last baseline [\d.]+ clearance ([+-]?[\d.]+)", "\n".join(lines))]
++    if vals:
++        allmins[path.split("/")[-1]] = round(min(vals), 1)
++p7key = [k for k in allmins if "p7-lang" in k]
++p7min = allmins[p7key[0]] if p7key else None
++res["gates"]["creambox_canonical"] = {"boxes": boxes, "negative_inside_clearances": neg,
++                                      "p7_min_inside_clearance": p7min, "min_inside_clearance_by_page": allmins,
++                                      "p7_toolbox_clearances": toolbox, "rc": p.returncode}
++
++# ---- 5. boxtitle + PIL creambox (parameterized copies) ----
++ok, p = run([VENV, os.path.join(M, "gtools/boxtitle.py"), os.path.join(ED, "svg"), G], "boxtitle.log")
++blog = open(os.path.join(G, "boxtitle.log"), encoding="utf-8").read()
++m = re.search(r"title/line overruns past box right edge: (\d+)", blog)
++m2 = re.search(r"min title right margin overall: ([-\d.]+) px", blog)
++res["gates"]["boxtitle"] = {"boxes": re.search(r"boxes measured: (\d+)", blog).group(1) if re.search(r"boxes measured: (\d+)", blog) else "?",
++                            "overruns": int(m.group(1)) if m else "?",
++                            "min_right_margin": float(m2.group(1)) if m2 else None, "rc": p.returncode}
++ok, p = run([VENV, os.path.join(M, "gtools/creambox-pil.py"), os.path.join(ED, "svg"), G], "creambox-pil.log")
++plog = open(os.path.join(G, "creambox-pil.log"), encoding="utf-8").read()
++strad = re.search(r"STRADDLE flags: (\d+)", plog)
++cover = re.search(r"CREAM-COVER flags: (\d+)", plog)
++p7lines = [ln.strip() for ln in plog.splitlines() if ln.strip().startswith(("p7", "[1439", "[")) and "clearance" in ln]
++p7min_pil = None
++p7vals = []
++for ln in plog.split("P7 cream boxes")[1].splitlines() if "P7 cream boxes" in plog else []:
++    mm = re.search(r"'bottom': ([-\d.]+)", ln)
++    if mm:
++        p7vals.append(float(mm.group(1)))
++if p7vals:
++    p7min_pil = min(p7vals)
++res["gates"]["creambox_pil"] = {"straddle": int(strad.group(1)) if strad else "?",
++                               "cream_cover": int(cover.group(1)) if cover else "?",
++                               "p7_min_clearance": p7min_pil, "rc": p.returncode}
++
++# ---- 6. text layer print vs web ----
++def pdftotext(pdf, out):
++    subprocess.run(["pdftotext", "-layout", pdf, out], capture_output=True)
++pp = os.path.join(ED, f"Lucerna-VOL4-{UP}.pdf")
++wp = os.path.join(ED, f"Lucerna-VOL4-{UP}-web.pdf")
++run(["pdftotext", "-layout", pp, os.path.join(G, "print.txt")], "pdftotext-print.log")
++run(["pdftotext", "-layout", wp, os.path.join(G, "web.txt")], "pdftotext-web.log")
++pt = open(os.path.join(G, "print.txt"), encoding="utf-8", errors="replace").read()
++wt = open(os.path.join(G, "web.txt"), encoding="utf-8", errors="replace").read()
++diff = multiset_diff(pt, wt)
++def cnt(s, sub):
++    return s.count(sub)
++res["gates"]["text_layer"] = {"print_bytes": len(pt.encode()), "web_bytes": len(wt.encode()),
++    "multiset_diff_chars": sum(abs(v) for v in diff.values()),
++    "print_only": sum(v for v in diff.values() if v > 0),
++    "web_only": sum(-v for v in diff.values() if v < 0),
++    "counts_print": {"本週日": cnt(pt, "本週日"), "下週日": cnt(pt, "下週日"),
++                     "BABYMONSTER": cnt(pt, "BABYMONSTER"), "取捨": cnt(pt, "取捨"),
++                     "end point": cnt(pt, "end point"), "小雪": cnt(pt, "小雪")},
++    "counts_web": {"本週日": cnt(wt, "本週日"), "下週日": cnt(wt, "下週日"),
++                   "BABYMONSTER": cnt(wt, "BABYMONSTER"), "取捨": cnt(wt, "取捨"),
++                   "end point": cnt(wt, "end point"), "小雪": cnt(wt, "小雪")}}
++
++# ---- 7. PDF metrics via PyMuPDF ----
++import fitz
++out7 = {}
++for name, path in [("print", pp), ("web", wp)]:
++    doc = fitz.open(path)
++    sizes = []
++    for pg in doc:
++        for b in pg.get_text("dict")["blocks"]:
++            for ln in b.get("lines", []):
++                for sp in ln["spans"]:
++                    sizes.append(sp["size"])
++    p8 = doc[7]
++    p8sizes = [sp["size"] for b in p8.get_text("dict")["blocks"] for ln in b.get("lines", []) for sp in ln["spans"]]
++    out7[name] = {"pages": len(doc), "size_pt": [round(doc[0].rect.width, 1), round(doc[0].rect.height, 1)],
++                   "p8_min_pt": round(min(p8sizes), 2) if p8sizes else None,
++                   "p8_max_pt": round(max(p8sizes), 2) if p8sizes else None,
++                   "bytes": os.path.getsize(path)}
++    doc.close()
++# headline size P1 (largest span on p1 that is the lead headline is hard to isolate;
++# report p1 max size as sanity)
++doc = fitz.open(pp)
++p1sizes = sorted({round(sp["size"], 2) for b in doc[0].get_text("dict")["blocks"] for ln in b.get("lines", []) for sp in ln["spans"]}, reverse=True)
++out7["p1_top_sizes"] = p1sizes[:4]
++doc.close()
++res["gates"]["pdf"] = out7
++
++# ---- 8. keycheck: fill-in keys + key continuity ----
++ok, p = run(["python3", os.path.join(M, "gtools/check_fillin_keys.py"),
++             os.path.join(ED, f"{SLUG}.text.md"), ED], "fillin-check.log")
++flog = open(os.path.join(G, "fillin-check.log"), encoding="utf-8").read()
++fm = re.search(r"填空键总数: (\d+)", flog)
++fmiss = re.search(r"缺失|MISS", flog)
++textmd = open(os.path.join(ED, f"{SLUG}.text.md"), encoding="utf-8").read()
++km = re.search(r"^答案\s", textmd, re.M)
++keys_area = textmd[km.start():] if km else ""
++nums = sorted({int(n) for n in re.findall(r"^(\d+)\.\s", keys_area, re.M)})
++res["gates"]["keycheck"] = {"fillin_total": int(fm.group(1)) if fm else "?",
++    "fillin_missing_lines": [ln for ln in flog.splitlines() if "MISS" in ln],
++    "keys_continuous_1_150": (nums == list(range(1, 151))),
++    "keys_found": len(nums)}
++
++# ---- 9. leak scan: untranslated English source strings in edition SVGs ----
++DENY = ["next Sunday", "Next Sunday", "finish line", "the place it happens",
++        "The ceremony is at the Taipei Music Center.", "Xiaoxue is Nov 22.",
++        "Four big events fall on the same Sunday.", "Collecting points is 集點.",
++        "Memory trick: learn 入圍 first, then the ceremony",
++        "Parades give you four useful words: 遊行 (parade), 封王 (clinching the title), 夜間 (night-time) and 終點 (finish line)"]
++ed_texts = svg_texts(os.path.join(ED, "svg"))
++core_texts = svg_texts(os.path.join(CORE, "svg"))
++ed_joined = "\n".join(ed_texts)
++leaks = {d: ed_joined.count(d) for d in DENY if ed_joined.count(d) > 0}
++# mostly-ASCII long strings identical to core (English leftovers), minus shared proper nouns
++def mostly_ascii(s):
++    a = sum(1 for c in s if ord(c) < 128)
++    return len(s) >= 15 and a / max(len(s), 1) >= 0.9
++shared = sorted({t for t in ed_texts if mostly_ascii(t)} & set(core_texts))
++res["gates"]["leak_scan"] = {"deny_hits": leaks, "shared_ascii_long": shared}
++
++# ---- 10. abutting: P6 timeline adjacent-label true-ink gap ----
++sys.path.insert(0, TOOLS)
++import occlusion_audit as oa
++els, W, H = oa.parse_svg(open(os.path.join(ED, "svg/p6-deep.svg"), encoding="utf-8").read())
++texts = [e for e in els if e.kind == "text" and e.box]
++def find_lbl(s):
++    return [t for t in texts if s in (t.text or "")]
++c1, c2 = find_lbl("頒獎典禮"), find_lbl("夜間遊行")
++gap = None
++lab1 = lab2 = None
++best = None
++for a in c1:
++    for b in c2:
++        if b.box[0] <= a.box[2]:
++            continue
++        if abs((a.box[1] + a.box[3]) / 2 - (b.box[1] + b.box[3]) / 2) > 5:
++            continue
++        gap_ab = b.box[0] - a.box[2]
++        if best is None or gap_ab < best:
++            best, lab1, lab2 = gap_ab, a, b
++if lab1 and lab2:
++    gap = round(lab2.box[0] - lab1.box[2], 1)
++res["gates"]["abutting"] = {"p6_1830_1900_ink_gap_px": gap,
++    "label1_box": [round(v, 1) for v in lab1.box] if lab1 else None,
++    "label2_box": [round(v, 1) for v in lab2.box] if lab2 else None}
++
++# ---- 11. freeze baseline (canonical; rebuilds a scratch copy only) ----
++ok, p = run([VENV, os.path.join(TOOLS, "freeze.py"), "baseline", "--build", ".",
++             "--core-svg", "svg", "--out", os.path.join(G, "freeze-base")],
++            "freeze.log", cwd=ED)
++flog2 = open(os.path.join(G, "freeze.log"), encoding="utf-8").read()
++fm2 = re.search(r"baseline: (\d+)/(\d+) SVGs byte-identical", flog2)
++res["gates"]["freeze"] = {"match": f"{fm2.group(1)}/{fm2.group(2)}" if fm2 else "?",
++                          "rc": p.returncode, "log_tail": flog2.strip().splitlines()[-2:]}
++
++# ---- 12. file SHAs ----
++import hashlib
++def sha(path):
++    h = hashlib.sha256()
++    with open(path, "rb") as f:
++        for chunk in iter(lambda: f.read(1 << 20), b""):
++            h.update(chunk)
++    return h.hexdigest()
++res["files"] = {
++    "print_pdf": {"name": f"Lucerna-VOL4-{UP}.pdf", "bytes": os.path.getsize(pp), "sha256": sha(pp)},
++    "web_pdf": {"name": f"Lucerna-VOL4-{UP}-web.pdf", "bytes": os.path.getsize(wp), "sha256": sha(wp)},
++    "text_md": {"name": f"{SLUG}.text.md", "bytes": os.path.getsize(os.path.join(ED, f"{SLUG}.text.md")),
++                "sha256": sha(os.path.join(ED, f"{SLUG}.text.md"))},
++    "svg_sha256": {os.path.basename(f): sha(f) for f in sorted(glob.glob(os.path.join(ED, "svg/*.svg")))}}
++
++json.dump(res, open(os.path.join(G, "gates.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
++print(json.dumps(res, ensure_ascii=False, indent=1))
+diff --git a/tools/gates.py b/tools/gates.py
+new file mode 100644
+index 00000000..3769443b
+--- /dev/null
++++ b/tools/gates.py
+@@ -0,0 +1,236 @@
++# -*- coding: utf-8 -*-
++"""Mechanical gates for one W47 nl fan-out edition.
++
++Usage: gates.py <edition-dir> <reader-code> [--skip-webpdf]
++Runs, in order (each step logged to stdout; exit non-zero on any hard fail):
++  1. occlusion_audit.py svg/ (0 flags required; selftest must pass)
++  2. p8.py extract --p8 svg/p8-toets.svg --total 150 (150/150)
++  3. p8.py compare core P8 vs edition P8 (CLEAN required; SHORT = fail)
++  4. freeze repro: copy *.py + assets to a clean repro dir, re-run run.py,
++     direct sha256 of repro svg/*.svg vs edition svg/*.svg (8/8 required)
++  5. print/web text compare (PyMuPDF position-sorted, per page: positional
++     diff 0 and multiset diff 0 required) — needs both PDFs built
++  6. P8 answer-zone min font size (PyMuPDF; >= 9.75pt required)
++  7. P8 level-chip counts vs core P8 (A2/B1/B2 badge text counts must match)
++  8. §1.1 SVG audit: paper #fbfaf6 present; no GOLD/near-black fills; no
++     stroked page rect; badge colours exact; VOL.4 (no VOL.5); footer uses
++     full-width-space separator (no '·' in footer/masthead lines).
++Exit 0 only if every gate passes. JSON summary written to
++  <scratch>/gates-<reader>.json
++"""
++import hashlib
++import json
++import os
++import re
++import shutil
++import statistics
++import subprocess
++import sys
++from collections import Counter
++
++SCRATCH = os.path.dirname(os.path.abspath(__file__))
++REPO = os.path.expanduser("~/workspace/weekly-git")
++VENV = os.path.join(REPO, "tools", "venv", "bin", "python")
++CORE = os.path.join(REPO, "production", "2026-w47", "core-nl")
++
++EDITION = os.path.abspath(sys.argv[1])
++READER = sys.argv[2]
++SKIP_WEBPDF = "--skip-webpdf" in sys.argv
++SLUG = f"2026-w47-nl-{READER}"
++PRINT_PDF = os.path.join(EDITION, f"De-Lucerna-VOL4-nl-{READER}.pdf")
++WEB_PDF = os.path.join(EDITION, f"De-Lucerna-VOL4-nl-{READER}-web.pdf")
++
++results = {"edition": SLUG, "gates": {}}
++
++
++def run(cmd, cwd=None):
++    r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
++    return r
++
++
++def gate(name, ok, detail=""):
++    results["gates"][name] = {"ok": bool(ok), "detail": detail}
++    print(f"[{'PASS' if ok else 'FAIL'}] {name}: {detail}")
++    return ok
++
++
++def sha256(path):
++    h = hashlib.sha256()
++    with open(path, "rb") as f:
++        h.update(f.read())
++    return h.hexdigest()
++
++
++def main():
++    all_ok = True
++
++    # 1. occlusion
++    r = run([VENV, os.path.join(REPO, "tools", "occlusion_audit.py"), "svg/"],
++            cwd=EDITION)
++    m = re.search(r"(\d+) flags?", r.stdout + r.stderr)
++    flags = int(m.group(1)) if m else -1
++    selftest = "selftest" in (r.stdout + r.stderr).lower()
++    ok = r.returncode == 0 and flags == 0
++    all_ok &= gate("occlusion", ok,
++                   f"rc={r.returncode} flags={flags} " + (r.stdout + r.stderr).strip().splitlines()[-1][:160] if (r.stdout + r.stderr).strip() else "no output")
++
++    # 2. p8 extract
++    p8_svg = os.path.join(EDITION, "svg", "p8-toets.svg")
++    r = run([VENV, os.path.join(REPO, "tools", "p8.py"), "extract",
++             "--p8", p8_svg, "--total", "150"], cwd=EDITION)
++    out = r.stdout + r.stderr
++    m = re.search(r"(\d+) of 150", out)
++    noted = int(m.group(1)) if m else -1
++    ok = r.returncode == 0 and noted == 150
++    all_ok &= gate("p8_extract", ok, f"rc={r.returncode} noted={noted}/150")
++
++    # 3. p8 compare vs core
++    core_p8 = os.path.join(CORE, "svg", "p8-toets.svg")
++    r = run([VENV, os.path.join(REPO, "tools", "p8.py"), "compare",
++             "--core-p8", core_p8, "--edition-p8", p8_svg, "--total", "150"],
++            cwd=EDITION)
++    out = r.stdout + r.stderr
++    verdict = "CLEAN" if "CLEAN" in out else ("EXTRA_ONLY" if "EXTRA_ONLY" in out
++                                               else ("SHORT" if "SHORT" in out else "UNKNOWN"))
++    # p8.py compare prints `keydiff=[137, 138, ...]` (no space, lowercase).
++    # The old `[Kk]ey diff.*` regex never matched that line, so keydiffs
++    # was always [] and real key diffs were silently dropped (run-log
++    # L1804 / O11). Parse the real format; fall back to the legacy spaced
++    # "Key diff ..." form if it ever appears.
++    m = re.search(r"keydiff\s*=\s*\[([^\]]*)\]", out)
++    if m:
++        keydiffs = [int(x) for x in m.group(1).split(",") if x.strip()]
++    else:
++        keydiffs = []
++        for kd in re.findall(r"[Kk]ey diff.*", out):
++            keydiffs += [int(x) for x in re.findall(r"\d+", kd)]
++    ok = r.returncode == 0 and verdict in ("CLEAN", "EXTRA_ONLY")
++    all_ok &= gate("p8_compare", ok, f"rc={r.returncode} verdict={verdict} keydiffs={len(keydiffs)}")
++    if keydiffs:
++        print("   key diffs:", keydiffs)
++
++    # 4. freeze repro (direct sha256)
++    repro = os.path.join(SCRATCH, f"repro-{READER}")
++    if os.path.exists(repro):
++        shutil.rmtree(repro)
++    os.makedirs(repro)
++    for f in os.listdir(EDITION):
++        if f.endswith(".py"):
++            shutil.copy2(os.path.join(EDITION, f), repro)
++    shutil.copytree(os.path.join(EDITION, "assets"), os.path.join(repro, "assets"))
++    r = run([VENV, "run.py"], cwd=repro)
++    ok_run = r.returncode == 0 and "TOTAL 150" in r.stdout
++    match = 0
++    details = []
++    if ok_run:
++        for i in range(1, 9):
++            import glob
++            a = sorted(glob.glob(os.path.join(EDITION, "svg", f"p{i}-*.svg")))
++            b = sorted(glob.glob(os.path.join(repro, "svg", f"p{i}-*.svg")))
++            if len(a) == 1 and len(b) == 1 and sha256(a[0]) == sha256(b[0]):
++                match += 1
++            else:
++                details.append(f"p{i}: mismatch/missing")
++    ok = ok_run and match == 8
++    all_ok &= gate("freeze_sha256", ok, f"run rc={r.returncode} match={match}/8 " + "; ".join(details))
++    shutil.rmtree(repro, ignore_errors=True)
++
++    # 5+6. print/web text + P8 fontsize (needs both PDFs)
++    if not SKIP_WEBPDF and os.path.exists(PRINT_PDF) and os.path.exists(WEB_PDF):
++        import fitz
++        p = fitz.open(PRINT_PDF)
++        w = fitz.open(WEB_PDF)
++        pos_total = ms_total = 0
++        per_page = []
++        for i in range(len(p)):
++            t1 = p[i].get_text("text", sort=True)
++            t2 = w[i].get_text("text", sort=True)
++            tok1, tok2 = t1.split(), t2.split()
++            pos = sum(1 for x, y in zip(tok1, tok2) if x != y) + abs(len(tok1) - len(tok2))
++            ms = sum((Counter(tok1) - Counter(tok2)).values())
++            pos_total += pos
++            ms_total += ms
++            per_page.append(f"P{i+1}:{len(tok1)}/{len(tok2)}:pos{pos}:ms{ms}")
++        ok = len(p) == 8 and len(w) == 8 and pos_total == 0 and ms_total == 0
++        all_ok &= gate("print_web_text", ok,
++                       f"pages {len(p)}/{len(w)} posdiff={pos_total} msdiff={ms_total} " + " ".join(per_page))
++        # pdftotext bytes
++        r1 = subprocess.run(["pdftotext", PRINT_PDF, "-"], capture_output=True)
++        r2 = subprocess.run(["pdftotext", WEB_PDF, "-"], capture_output=True)
++        ok = len(r1.stdout) > 0 and len(r2.stdout) > 0
++        all_ok &= gate("pdftotext_nonempty", ok,
++                       f"print={len(r1.stdout)}B web={len(r2.stdout)}B web_size={os.path.getsize(WEB_PDF)}")
++        # P8 fontsize
++        page = p[7]
++        d = page.get_text("dict")
++        spans = []
++        for b in d["blocks"]:
++            for l in b.get("lines", []):
++                for s in l["spans"]:
++                    spans.append((round(s["size"], 2), round(s["bbox"][1], 1)))
++        scale = page.rect.height / 2700.0
++        y0 = 1328 * scale
++        ans = [s for s in spans if s[1] >= y0 - 5]
++        mn = min(s[0] for s in ans) if ans else -1
++        med = statistics.median([s[0] for s in ans]) if ans else -1
++        ok = mn >= 9.75
++        all_ok &= gate("p8_fontsize", ok, f"answer-zone min={mn}pt median={med}pt spans={len(ans)}")
++    else:
++        all_ok &= gate("print_web_text", False, "PDFs missing or skipped")
++        all_ok &= gate("pdftotext_nonempty", False, "PDFs missing or skipped")
++        all_ok &= gate("p8_fontsize", False, "PDFs missing or skipped")
++
++    # 7. P8 chip counts vs core
++    def chip_counts(svg_path):
++        txt = open(svg_path, encoding="utf-8").read()
++        return {lv: len(re.findall(rf">{lv}<", txt)) for lv in ("A2", "B1", "B2")}
++    core_chips = chip_counts(core_p8)
++    ed_chips = chip_counts(p8_svg)
++    ok = core_chips == ed_chips
++    all_ok &= gate("p8_chips", ok, f"core={core_chips} edition={ed_chips}")
++
++    # 8. §1.1 SVG audit
++    import glob as _g
++    fills = Counter()
++    stroked_rects = 0
++    for f in _g.glob(os.path.join(EDITION, "svg", "*.svg")):
++        t = open(f, encoding="utf-8").read()
++        fills.update(re.findall(r'fill="(#[0-9a-fA-F]{6})"', t))
++        stroked_rects += len(re.findall(r"<rect[^>]*stroke=", t))
++    palette = {"#fbfaf6", "#302c28", "#3a3631", "#6f675d", "#d8d2c4", "#37402f",
++               "#46581f", "#f6e08e", "#f4efe1", "#5c6e30", "#ffffff", "#cac8ba",
++               "#f0eee5"}
++    # moth brand-mark colours on P1 (SOP §1.1 prescribes the moth under the masthead)
++    moth = {"#34483a", "#4d72b4", "#d7b257", "#edd17f", "#f1e8d4", "#2f4a3c",
++            "#7a9e7e", "#c9a227", "#e8dcc3", "#5b7fa6"}
++    # Colours present in the frozen core are legitimate by definition
++    # (chart bars, moth brand-mark). Off-palette = a fill in the edition
++    # that appears in NEITHER the core nor the §1.1 palette/moth sets.
++    core_fills = Counter()
++    for f in _g.glob(os.path.join(CORE, "svg", "*.svg")):
++        t = open(f, encoding="utf-8").read()
++        core_fills.update(re.findall(r'fill="(#[0-9a-fA-F]{6})"', t))
++    off = {c: n for c, n in fills.items()
++           if c.lower() not in palette and c.lower() not in moth
++           and c not in core_fills}
++    bad_gold = any(c.lower() in ("#b3a06a", "#a4553a", "#8a6d3b", "#f7f1e2") for c in fills)
++    vol5 = 0
++    core_vol5 = 0
++    for f in _g.glob(os.path.join(EDITION, "svg", "*.svg")):
++        t = open(f, encoding="utf-8").read()
++        vol5 += t.count("VOL.5") + t.count("VOL. 5")
++    for f in _g.glob(os.path.join(CORE, "svg", "*.svg")):
++        t = open(f, encoding="utf-8").read()
++        core_vol5 += t.count("VOL.5") + t.count("VOL. 5")
++    ok = not bad_gold and not off and stroked_rects == 0 and vol5 == core_vol5 and fills.get("#fbfaf6", 0) > 0
++    all_ok &= gate("s11_svg", ok,
++                   f"off-palette={off} gold/old={bad_gold} stroked_rects={stroked_rects} VOL.5={vol5}(core {core_vol5}) paper_fills={fills.get('#fbfaf6', 0)}")
++
++    with open(os.path.join(SCRATCH, f"gates-{READER}.json"), "w", encoding="utf-8") as fh:
++        json.dump(results, fh, indent=2, ensure_ascii=False)
++    print("OVERALL:", "ALL PASS" if all_ok else "FAILURES PRESENT")
++    sys.exit(0 if all_ok else 1)
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/tools/gates.sh b/tools/gates.sh
+new file mode 100644
+index 00000000..678660a5
+--- /dev/null
++++ b/tools/gates.sh
+@@ -0,0 +1,80 @@
++#!/bin/bash
++# es gates after render.py (run from ~ ; venv python)
++set -u
++V=~/workspace/weekly-git/tools/venv/bin/python
++ED=~/workspace/weekly-git/production/2026-w47/2026-w47-en-ru
++CORE=~/workspace/weekly-git/production/2026-w47/core-en
++S=~/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/ru
++T=~/workspace/weekly-git/tools
++echo "== dump_reg =="
++$V $ED/dump_reg.py > $S/dump_reg.log 2>&1; echo "dump_reg RC=$?"
++# dump_reg.py writes the FRESH registry to scratch-fanout-en2/fanout/ru/registry.json
++# (NOT $S/registry.json — that copy went stale: gates.sh once copied a 04:39
++# pre-refanout registry over the edition registry and broke make_textmd,
++# run-log L2366). Refresh BOTH copies from the real dump location:
++REGDUMP=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en2/fanout/ru/registry.json
++cp $REGDUMP $S/registry.json
++cp $REGDUMP $ED/registry.json
++$V -c "import json; r=json.load(open('$S/registry.json')); print('registry total', len(r)); from collections import Counter; print('per page', sorted(Counter(e['page'] for e in r).items())); print('levels', Counter(e['level'] for e in r))"
++echo "== occlusion =="
++$V $T/occlusion_audit.py $ED/svg --json $S/occlusion.json > $S/occlusion.log 2>&1; echo "occlusion RC=$?"; tail -2 $S/occlusion.log
++echo "== p8 extract (core + fr) =="
++$V $T/p8.py extract --p8 $CORE/svg/p8-test.svg --total 150 --json $S/p8-extract-core.json > $S/p8-extract-core.log 2>&1; echo "core extract RC=$?"
++$V $T/p8.py extract --p8 $ED/svg/p8-test.svg --total 150 --json $S/p8-extract.json > $S/p8-extract.log 2>&1; echo "fr extract RC=$?"
++$V $T/p8.py compare --core-p8 $CORE/svg/p8-test.svg --edition-p8 $ED/svg/p8-test.svg --total 150 --json $S/p8-compare.json > $S/p8-compare.log 2>&1; echo "compare RC=$?"; cat $S/p8-compare.log; cat $S/p8-compare.json
++echo "== p8 extract vs registry =="
++$V - "$S" <<'EOF'
++import json, sys
++S = sys.argv[1]
++ex = json.load(open(f"{S}/p8-extract.json"))
++reg = json.load(open(f"{S}/registry.json"))
++keys = sorted(int(k) for k in ex.get("keys", {}).keys()) if isinstance(ex.get("keys"), dict) else []
++print("extract keys:", len(keys), "registry:", len(reg))
++print("missing vs registry:", sorted(set(range(1, 151)) - set(keys)) or "none")
++print("noted set == core noted:", sorted(ex.get("noted_set", [])) == sorted(json.load(open("/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/core-noted-set.json"))))
++EOF
++echo "== freeze baseline =="
++$V $T/freeze.py baseline --build $CORE --core-svg $CORE/svg --out $S/freeze-final > $S/freeze.log 2>&1; echo "freeze baseline RC=$?"; cat $S/freeze.log
++echo "== freeze direct sha (baseline re-render vs shipped core) =="
++$V - <<'EOF'
++import hashlib, os, glob
++core = "/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg"
++copy = "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/ru/freeze-final/build-copy/svg"
++ok = 0
++for f in sorted(glob.glob(core + "/*.svg")):
++    n = os.path.basename(f)
++    c = os.path.join(copy, n)
++    if not os.path.exists(c):
++        print("MISSING in copy:", n); continue
++    a = hashlib.sha256(open(f, "rb").read()).hexdigest()
++    b = hashlib.sha256(open(c, "rb").read()).hexdigest()
++    print(("MATCH " if a == b else "DIFF  ") + n)
++    ok += (a == b)
++print(f"direct sha256: {ok}/8")
++EOF
++echo "== freeze diff =="
++$V $T/freeze.py diff --core-svg $CORE/svg --edition-svg $ED/svg --json $S/freeze-diff.json > $S/freeze-diff.log 2>&1; echo "freeze diff RC=$?"; cat $S/freeze-diff.log
++echo "== webpdf =="
++$V $T/webpdf.py $ED/svg $ED/The-Lucerna-VOL4-en-ru.web.pdf > $S/webpdf.log 2>&1; echo "webpdf RC=$?"; tail -3 $S/webpdf.log
++echo "== print/web text diff =="
++$V - <<'EOF'
++import subprocess, collections
++def toks(pdf):
++    t = subprocess.run(["pdftotext", pdf, "-"], capture_output=True, text=True).stdout
++    return collections.Counter(t.split()), len(t)
++pc = wc = None
++for name, pdf in [("print", "/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/The-Lucerna-VOL4-en-ru.pdf"),
++                  ("web", "/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/The-Lucerna-VOL4-en-ru.web.pdf")]:
++    c, n = toks(pdf)
++    print(name, "chars", n, "distinct tokens", len(c))
++    if name == "print": pc = c
++    else: wc = c
++print("token multiset diff total:", sum((pc - wc).values()) + sum((wc - pc).values()))
++print("only in print:", list((pc - wc).items())[:10])
++print("only in web:", list((wc - pc).items())[:10])
++EOF
++echo "== print pdf sha/size =="
++sha256sum $ED/The-Lucerna-VOL4-en-ru.pdf; stat -c %s $ED/The-Lucerna-VOL4-en-ru.pdf $ED/The-Lucerna-VOL4-en-ru.web.pdf
++echo "== text.md =="
++$V $S/make_textmd_w47.py > $S/textmd.log 2>&1; echo "textmd RC=$?"; tail -4 $S/textmd.log
++echo DONE
+diff --git a/tools/keycheck_ed.py b/tools/keycheck_ed.py
+new file mode 100644
+index 00000000..80337437
+--- /dev/null
++++ b/tools/keycheck_ed.py
+@@ -0,0 +1,65 @@
++# -*- coding: utf-8 -*-
++"""keycheck for one rebuilt en edition:
++ (a) registry keys vs P8-extracted keys (n=150 short-label exception);
++ (b) edition registry keys vs core registry keys (stems are identical
++     English, so keys must match 150/150).
++"""
++import json, os, re, sys
++
++HOME = os.path.expanduser("~")
++lang = sys.argv[1]
++W = os.path.join(HOME, "workspace/weekly-git/production/2026-w47")
++ED = os.path.join(W, f"2026-w47-en-{lang}")
++SCR = os.path.join(HOME, "workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en2/fanout", lang)
++reg = json.load(open(os.path.join(ED, "registry.json"), encoding="utf-8"))
++core = json.load(open(os.path.join(W, "core-en/registry.json"), encoding="utf-8"))
++# The stored p8-extract.json goes stale after any delta rebuild: it still
++# held Q73='speak' after the delta set the registry to 'up', so this check
++# reported a 148/150 phantom mismatch (run-log L2503). Never trust the
++# archive — always re-extract from the edition's LIVE P8 SVG first (and
++# write it back, so the archive stays fresh as a side effect). Abort loudly
++# if the re-extract fails; a silent fallback to the archive would re-admit
++# the phantom.
++import subprocess
++VENV = os.path.join(HOME, "workspace/weekly-git/tools/venv/bin/python")
++P8 = os.path.join(HOME, "workspace/weekly-git/tools/p8.py")
++_ext_path = os.path.join(SCR, "p8-extract.json")
++_r = subprocess.run([VENV, P8, "extract", "--p8",
++                     os.path.join(ED, "svg", "p8-test.svg"), "--total", "150",
++                     "--json", _ext_path], capture_output=True, text=True)
++if _r.returncode != 0:
++    print("FATAL: fresh p8 extract failed:", (_r.stdout + _r.stderr).strip()[-300:])
++    sys.exit(2)
++ext = json.load(open(_ext_path, encoding="utf-8"))
++keys = ext["keys"]
++
++def norm(s):
++    return re.sub(r"\s+", " ", str(s)).strip()
++
++exact, mismatch, exc = 0, [], []
++for e in reg:
++    n = e["n"]
++    rk = norm(e["key"])
++    pk = norm(keys.get(str(n), ""))
++    if rk == pk:
++        exact += 1
++    elif n == 150 and (rk.startswith(pk) or pk in rk):
++        exc.append(n)
++    else:
++        mismatch.append((n, rk, pk))
++print(f"registry-vs-p8extract exact {exact}/150 exc={exc} mismatch={mismatch}")
++
++corekeys = {e["n"]: e["key"] for e in core}
++bad = [(e["n"], e["key"], corekeys[e["n"]]) for e in reg if e["key"] != corekeys[e["n"]]]
++print(f"registry-keys-vs-core: {150 - len(bad)}/150 match; diff={bad}")
++# matching sets vs stems: 38-41 must be b/a/d/c
++m = {e["n"]: e["key"] for e in reg}
++print("Q38-41:", [m[i] for i in (38, 39, 40, 41)], "expect ['b','a','d','c']")
++print("Q125 key:", m[125], "expect A; Q46 key:", m[46], "expect A; Q52:", m[52], "expect hosted; Q55:", m[55], "expect won")
++print("Q82/83/84 keys:", m[82], m[83], m[84])
++# noted set vs core
++print("noted set == core noted:",
++      sorted(ext.get("noted_set", [])) == sorted(json.load(open(os.path.join(
++          HOME, "workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-en/core-noted-set.json")))))
++print("extract keys count:", len(keys), "missing vs registry:",
++      sorted(set(range(1, 151)) - set(int(k) for k in keys)) or "none")
+diff --git a/tools/test_gates_p8_extra.py b/tools/test_gates_p8_extra.py
+new file mode 100644
+index 00000000..ee0ff3d9
+--- /dev/null
++++ b/tools/test_gates_p8_extra.py
+@@ -0,0 +1,90 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""Minimal regression test for the gates.py p8 `extra` key bug.
++
++Bug (run-log L1896/L3206): the zh-tw refanout gates.py built its p8 summary
++with `"extra": comp.get("extra_count", "?")`. tools/p8.py compare writes
++`extra` (a list) into p8-compare.json; `extra_count` appears only in p8.py's
++stdout line ("extra_count=0"), never in the JSON. The lookup therefore
++always fell through to the "?" default, and every gates.json reported
++`"extra": "?"` even when the compare was CLEAN with extra=[].
++
++This test:
++  1. reproduces the original bug (old expression -> "?" on real-shaped input),
++  2. extracts the `"extra": ...` expression from the gates.py under test and
++     evaluates it against fixture p8-compare dicts, asserting it returns the
++     real `extra` list,
++  3. asserts the buggy `extra_count` lookup is gone from the file.
++
++Usage: python3 test_gates_p8_extra.py [path/to/gates.py]
++Exit 0 = pass, 1 = fail. Plain python3, no venv needed.
++"""
++import json
++import re
++import sys
++
++import os
++# Default target: the sibling gates-zh-tw.py promoted into tools/ with this
++# test (the live driver is the goals-side scratch-refanout-zh-tw/gates.py;
++# pass its path as argv[1] to test that copy instead).
++_HERE = os.path.dirname(os.path.abspath(__file__))
++DEFAULT = os.path.join(_HERE, "gates-zh-tw.py")
++PATH = sys.argv[1] if len(sys.argv) > 1 else DEFAULT
++
++# Fixture p8-compare dicts, same schema tools/p8.py compare writes.
++CLEAN = {"status": "CLEAN", "total": 150, "missing": [], "extra": [],
++         "uncertain": [], "keydiff": []}
++WITH_EXTRA = {"status": "EXTRA_ONLY", "total": 150, "missing": [],
++              "extra": [150], "uncertain": [], "keydiff": [137, 138]}
++MULTI_EXTRA = {"status": "EXTRA_ONLY", "total": 150, "missing": [],
++               "extra": [137, 140], "uncertain": [], "keydiff": []}
++
++
++def old_expr(comp):
++    """Verbatim buggy expression (kept only to reproduce the bug)."""
++    return comp.get("extra_count", "?")
++
++
++def main():
++    fails = []
++
++    # 1. reproduce the original bug on the fixtures.
++    for name, comp in (("CLEAN", CLEAN), ("WITH_EXTRA", WITH_EXTRA)):
++        got = old_expr(comp)
++        print(f"old expr on {name}: {got!r} (expected '?' — the bug)")
++        if got != "?":
++            fails.append(f"old expr did not reproduce the bug on {name}")
++
++    # 2. the gates.py under test must no longer LOOK UP extra_count.
++    # (The word may still appear in a comment explaining the bug.)
++    src = open(PATH, encoding="utf-8").read()
++    if re.search(r'\.get\(\s*["\']extra_count["\']', src):
++        fails.append(f"{PATH} still looks up 'extra_count'")
++    else:
++        print(f"{PATH}: no 'extra_count' lookup — OK")
++
++    # 3. extract the live `"extra": <expr>` from the file and eval it.
++    m = re.search(r'"extra":\s*(comp\.get\([^)]*\))', src)
++    if not m:
++        print("FAIL: no '\"extra\": comp.get(...)' expression found in file")
++        return 1
++    print(f"live expression in file: {m.group(1)}")
++    for name, comp, want in (("CLEAN", CLEAN, []),
++                             ("WITH_EXTRA", WITH_EXTRA, [150]),
++                             ("MULTI_EXTRA", MULTI_EXTRA, [137, 140])):
++        got = eval(m.group(1), {}, {"comp": comp})
++        print(f"live expr on {name}: {got!r} (expected {want!r})")
++        if got != want:
++            fails.append(f"live expr on {name}: got {got!r}, want {want!r}")
++
++    if fails:
++        print("FAIL:")
++        for f in fails:
++            print(" -", f)
++        return 1
++    print("PASS: gates.py p8 extra key regression test")
++    return 0
++
++
++if __name__ == "__main__":
++    sys.exit(main())

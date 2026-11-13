@@ -1,0 +1,28 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+page: print-tokens web-tokens myweb-tokens posdiff(web) msdiff(web) posdiff(myweb)
+P1: 820 820 820 0 same-set 0
+P2: 829 829 829 0 same-set 0
+P3: 735 735 735 0 same-set 0
+P4: 742 742 742 0 same-set 0
+P5: 807 807 807 0 same-set 0
+P6: 762 762 762 0 same-set 0
+P7: 919 919 919 0 same-set 0
+P8: 2431 2431 2431 0 same-set 0
+print==web token lists (ordered): True
+print==myweb token lists (ordered): True
+pdftotext bytes: print=106419 web=106419 stage-print=106419
+print==web bytes: True
+print==stage-print bytes (expect identical, delta changed layout only): True
+P8 page min font: 10.12pt; answers-region min: 10.12pt; answers-region median: 10.12pt; n_spans=184
+=== italic (D7 re-check) ===
+print P1 fonts: ['QHIDHA+NotoSansCJKsc-Bold', 'FNCLSM+NotoSansCJKsc-Regular', 'ZMESMJ+UnifrakturMaguntia', 'COYABG+Newsreader16pt-Regular', 'OLLKZR+Newsreader16pt-Regular', 'TLDYJJ+Newsreader16pt-Italic']
+print any Italic face on P1: True
+print: span 'Nota — de groepswinst victoria' font=NotoSansCJKsc-Regular size=15.38
+print: span '«de groepswinst»' font=Newsreader16pt-Italic size=16.12
+web P1 fonts: ['NFPUBL+LucernaNotoSansCJKSC-Bold', 'BOZWAE+LucernaNotoSansCJKSC-Regular', 'OCZYBK+LucernaUnifrakturMaguntia-Regular', 'BUGHJG+LucernaNewsreader-Bold', 'NEFLXQ+LucernaNewsreader-Regular', 'SDDFKV+LucernaNewsreader-Italic']
+web any Italic face on P1: True
+web: span 'Nota — de groepswinst victoria' font=LucernaNotoSansCJKSC-Reg size=15.38
+web: span '«de groepswinst»' font=LucernaNewsreader-Italic size=16.12
+web PDF all fonts: ['BOZWAE+LucernaNotoSansCJKSC-Regular', 'BUGHJG+LucernaNewsreader-Bold', 'CPGHKU+LucernaNotoSansCJKSC-Bold', 'DYCVUQ+LucernaNotoSansCJKSC-Bold', 'EEAVPB+LucernaNewsreader-Regular', 'EKEMRO+LucernaNotoSansCJKSC-Regular', 'FZLVVO+LucernaNewsreader-Regular', 'ISISND+LucernaNewsreader-Bold', 'JJRIIH+LucernaNotoSansCJKSC-Regular', 'KWYGBA+LucernaNewsreader-Bold', 'LFPRLT+LucernaNotoSansCJKSC-Regular', 'LIKTQM+LucernaNewsreader-Bold', 'LKIOLP+LucernaNotoSerifCJKSC-Regular', 'LOKFIZ+LucernaNotoSansCJKSC-Bold', 'MNBLIS+LucernaNewsreader-Regular', 'MPFJLH+LucernaNotoSansCJKSC-Bold', 'NCEBTR+LucernaNotoSerifCJKSC-Regular', 'NEFLXQ+LucernaNewsreader-Regular', 'NFPUBL+LucernaNotoSansCJKSC-Bold', 'OAODGJ+LucernaNewsreader-Regular', 'OCZYBK+LucernaUnifrakturMaguntia-Regular', 'OFGBCY+LucernaNewsreader-Bold', 'QATSNO+LucernaNotoSansCJKSC-Regular', 'RKIMEG+LucernaNewsreader-Regular', 'SDDFKV+LucernaNewsreader-Italic', 'TLQJJR+LucernaNewsreader-Bold', 'TMDCDJ+LucernaNotoSansCJKSC-Bold', 'TPIHBQ+LucernaNewsreader-Bold', 'TPWXAJ+LucernaNewsreader-Bold', 'UBTRLL+LucernaNotoSansCJKSC-Bold', 'USCUFZ+LucernaNotoSansCJKSC-Regular', 'VQFXQH+LucernaNewsreader-Regular', 'WIVDCI+LucernaNotoSansCJKSC-Regular', 'WOGGZM+LucernaNotoSansCJKSC-Bold', 'XTPCRP+LucernaNotoSansCJKSC-Regular', 'XYTLQX+LucernaNewsreader-Regular']
+web any Italic: True

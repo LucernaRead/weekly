@@ -1,0 +1,26 @@
+== A. U+2019 ==
+  ja SVGs U+2019: 0
+  core SVGs U+2019: 0
+  ja text.md U+2019: 0, U+201C: 0, U+201D: 0
+  ja text.md curly-scan done
+  core text.md U+2019: 0, U+201C: 0, U+201D: 0
+  core text.md curly-scan done
+== B. isolated punctuation ==
+[ja] isolated-punctuation lines: 0
+[core] isolated-punctuation lines: 0
+[ja-textmd] isolated-punctuation lines: 0
+[core-textmd] isolated-punctuation lines: 0
+== C. §1.1 per-page counts (core vs ja) ==
+  p1 core={'paper': 0, 'VOL.4': 2, 'VOL.5': 0, '·': 13, 'hanzi': 82, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 2, 'VOL.5': 0, '·': 13, 'hanzi': 62, 'U+2019': 0}
+  p2 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 21, 'hanzi': 187, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 21, 'hanzi': 133, 'U+2019': 0}
+  p3 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 20, 'hanzi': 138, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 20, 'hanzi': 100, 'U+2019': 0}
+  p4 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 14, 'hanzi': 104, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 14, 'hanzi': 76, 'U+2019': 0}
+  p5 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 20, 'hanzi': 137, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 20, 'hanzi': 116, 'U+2019': 0}
+  p6 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 31, 'hanzi': 81, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 31, 'hanzi': 66, 'U+2019': 0}
+  p7 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 3, '·': 17, 'hanzi': 212, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 2, '·': 17, 'hanzi': 154, 'U+2019': 0}
+  p8 core={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 38, 'hanzi': 1122, 'U+2019': 0} ja={'paper': 0, 'VOL.4': 1, 'VOL.5': 0, '·': 38, 'hanzi': 825, 'U+2019': 0}
+== D. font-family distribution (ja SVGs) ==
+  Noto Serif CJK KR: 873
+  Noto Sans CJK KR: 611
+  UnifrakturMaguntia: 1
+  Latin-only spans per family: {'UnifrakturMaguntia': 1, 'Noto Serif CJK KR': 13, 'Noto Sans CJK KR': 278}

@@ -1,0 +1,16 @@
+production snapshot: 41 files (excl __pycache__)
+production content12.py diff lines: ['--- ', '+++ ', '@@ -41,7 +41,7 @@', ' f.para("A Torino, domenica 22 novembre, si gioca la finale delle Nitto ATP Finals: otto campioni, una settimana di tennis, e l\'Italia con Flavio Cobolli. A Venezia, sabato 21, c\'è la Madonna della Salute.")', ' f.para("Questa è la quarta edizione de La Lucerna in italiano. Benvenuti in una settimana di calcio, dolci e musica!")', ' f.bridge("HINWEIS · la vetta, die Spitze / der Gipfel · imbattuto, ungeschlagen · il capolista, der Tabellenführer · chiudere, schließen.")', '-f.box("LA SETTIMANA IN CIFRE\u3000DIE WOCHE IN ZAHLEN", [', '+f.box("LA SETTIMANA IN CIFRE\u3000ZAHLEN", [', '     ("29 — Lazios Punkte, Erster nach 11 Spieltagen (Lazio führt mit 29 Punkten)", "serif", False, INK, 20.5, 1.35),', '     ("24 — die Tore des 11. Spieltags, in zehn Spielen (24 Tore in 10 Spielen)", "serif", False, INK, 20.5, 1.35),', '     ("20.45 — Anstoß Atalanta–Inter, Sonntag, 22. November (Sonntag 20:45 Uhr)", "serif", False, INK, 20.5, 1.35),', '@@ -174,7 +174,7 @@', ' f.para("La settimana scorsa si è chiusa con due feste dolci ancora aperte: la Festa del Torrone a Cremona e Eurochocolate a Perugia, che chiudono domenica 22 novembre. E due grandi appuntamenti di sport: le due notti azzurre della Nazionale e l\'inizio delle Nitto ATP Finals a Torino.", 23.5)', ' f.para("Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre le commissioni Bilancio di Camera e Senato hanno ascoltato enti e istituzioni. Al momento di andare in stampa, il testo non era ancora legge: ne parliamo a pagina 6.", 23.5)', ' f.bridge("Bei Redaktionsschluss war der Haushaltsentwurf noch kein Gesetz — siehe Seite 6.")', '-f.box("LA FRASE PER RICORDARE\u3000MERKSATZ", [', '+f.box("LA FRASE PER RICORDARE\u3000MERKE", [', '     ("«La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.", "serif", False, INK, 21.5, 1.4),', ' ])', ' f.gloss("la salute, die Gesundheit · il ponte votivo, die Votivbrücke · la candela, die Kerze · la peste, die Pest · il voto, das Gelübde · piantare, pflanzen.")']
+production *.py OUT/BASE still point at production
+copied svg/p1-prima.svg
+copied svg/p2-vita.svg
+copied La-Lucerna-VOL4-DE.pdf
+copied La-Lucerna-VOL4-DE-web.pdf
+copied 2026-w47-it-de.text.md
+copied 8 cards/*.png
+changed files: ['2026-w47-it-de.text.md', 'La-Lucerna-VOL4-DE-web.pdf', 'La-Lucerna-VOL4-DE.pdf', 'cards/p1-prima.png', 'cards/p2-vita.png', 'content12.py', 'svg/p1-prima.svg', 'svg/p2-vita.svg']
+added: [] removed: []
+production svg/ 8/8 identical to stage
+NEW La-Lucerna-VOL4-DE.pdf: 14037237 bytes sha256 527b38ce33f20765b211d7191623d76c6fbb3a56f3a19aa5167d7a0f32211457
+NEW La-Lucerna-VOL4-DE-web.pdf: 1297272 bytes sha256 f9f4343bdcec894854e3362a9f46b6c17d3b992076096c9970b13e1cc27a4d3a
+NEW 2026-w47-it-de.text.md: 56683 bytes sha256 36a11a8f2b58452374b7211434b78e4526c2f584f21764f98a4c2ca9fc302ed4
+DELIVERY DONE

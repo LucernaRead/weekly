@@ -1,0 +1,820 @@
+md answer keys found: 38 missing: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112]
+core svg keys: 124 ed svg keys: 127
+md-answers vs p8-extract: exact 0/150
+  n=1
+    extract: '13'
+    text.md : ''
+  n=2
+    extract: '29'
+    text.md : ''
+  n=3
+    extract: '19'
+    text.md : ''
+  n=4
+    extract: '16'
+    text.md : ''
+  n=5
+    extract: '20'
+    text.md : ''
+  n=6
+    extract: '15'
+    text.md : ''
+  n=7
+    extract: 'C'
+    text.md : ''
+  n=8
+    extract: 'B'
+    text.md : ''
+  n=9
+    extract: 'A'
+    text.md : ''
+  n=10
+    extract: 'B'
+    text.md : ''
+  n=11
+    extract: '16'
+    text.md : ''
+  n=12
+    extract: '19'
+    text.md : ''
+  n=13
+    extract: '29'
+    text.md : ''
+  n=14
+    extract: '22'
+    text.md : ''
+  n=15
+    extract: 'noviembre'
+    text.md : ''
+  n=16
+    extract: 'empieza'
+    text.md : ''
+  n=17
+    extract: 'dura'
+    text.md : ''
+  n=18
+    extract: 'vuelve'
+    text.md : ''
+  n=19
+    extract: 'recorren'
+    text.md : ''
+  n=20
+    extract: 'llega'
+    text.md : ''
+  n=21
+    extract: 'B'
+    text.md : ''
+  n=22
+    extract: 'A'
+    text.md : ''
+  n=23
+    extract: 'C'
+    text.md : ''
+  n=24
+    extract: 'B'
+    text.md : ''
+  n=25
+    extract: 'c'
+    text.md : ''
+  n=26
+    extract: 'b'
+    text.md : ''
+  n=27
+    extract: 'd'
+    text.md : ''
+  n=28
+    extract: 'a'
+    text.md : ''
+  n=29
+    extract: 'Verdadero'
+    text.md : ''
+  n=30
+    extract: 'Verdadero'
+    text.md : ''
+  n=31
+    extract: 'Falso'
+    text.md : ''
+  n=32
+    extract: 'Falso'
+    text.md : ''
+  n=33
+    extract: 'Verdadero'
+    text.md : ''
+  n=34
+    extract: 'cante'
+    text.md : ''
+  n=35
+    extract: 'baile'
+    text.md : ''
+  n=36
+    extract: 'guitarra'
+    text.md : ''
+  n=37
+    extract: 'palmas'
+    text.md : ''
+  n=38
+    extract: 'compás'
+    text.md : ''
+  n=39
+    extract: 'B'
+    text.md : ''
+  n=40
+    extract: 'A'
+    text.md : ''
+  n=41
+    extract: 'C'
+    text.md : ''
+  n=42
+    extract: 'B'
+    text.md : ''
+  n=43
+    extract: 'El flamenco es cante, toque y baile.'
+    text.md : ''
+  n=44
+    extract: 'En noviembre suena la guitarra en España.'
+    text.md : ''
+  n=45
+    extract: 'En Bilbao toca la banda el domingo.'
+    text.md : ''
+  n=46
+    extract: 'Todos preguntan si hay duende.'
+    text.md : ''
+  n=47
+    extract: 'A'
+    text.md : ''
+  n=48
+    extract: 'B'
+    text.md : ''
+  n=49
+    extract: 'C'
+    text.md : ''
+  n=50
+    extract: 'A'
+    text.md : ''
+  n=51
+    extract: 'B'
+    text.md : ''
+  n=52
+    extract: 'c'
+    text.md : ''
+  n=53
+    extract: 'b'
+    text.md : ''
+  n=54
+    extract: 'a'
+    text.md : ''
+  n=55
+    extract: 'd'
+    text.md : ''
+  n=56
+    extract: 'más importante'
+    text.md : ''
+  n=57
+    extract: 'muchísimos'
+    text.md : ''
+  n=58
+    extract: 'peor'
+    text.md : ''
+  n=59
+    extract: 'mejor'
+    text.md : ''
+  n=60
+    extract: 'El Barça ganó 1–2 al Atlético.'
+    text.md : ''
+  n=61
+    extract: 'El Madrid recibió al Celta el sábado.'
+    text.md : ''
+  n=62
+    extract: 'El Atlético perdió 0–2 con el Bayern.'
+    text.md : ''
+  n=63
+    extract: 'La Liga volvió el viernes 20.'
+    text.md : ''
+  n=64
+    extract: 'La jornada cerró el lunes 23.'
+    text.md : ''
+  n=65
+    extract: 'B'
+    text.md : ''
+  n=66
+    extract: 'A'
+    text.md : ''
+  n=67
+    extract: 'C'
+    text.md : ''
+  n=68
+    extract: 'B'
+    text.md : ''
+  n=69
+    extract: 'A'
+    text.md : ''
+  n=70
+    extract: 'correo'
+    text.md : ''
+  n=71
+    extract: 'papeleta'
+    text.md : ''
+  n=72
+    extract: 'envío'
+    text.md : ''
+  n=73
+    extract: 'identidad'
+    text.md : ''
+  n=74
+    extract: 'censo'
+    text.md : ''
+  n=75
+    extract: 'plazo'
+    text.md : ''
+  n=76
+    extract: 'Voy a pedir el voto por correo.'
+    text.md : ''
+  n=77
+    extract: 'Vas a votar el domingo 29.'
+    text.md : ''
+  n=78
+    extract: 'Va a abrirse la urna a las 9:00.'
+    text.md : ''
+  n=79
+    extract: 'Van a comparar precios antes de pagar.'
+    text.md : ''
+  n=80
+    extract: 'Verdadero'
+    text.md : ''
+  n=81
+    extract: 'Falso'
+    text.md : ''
+  n=82
+    extract: 'Verdadero'
+    text.md : ''
+  n=83
+    extract: 'A'
+    text.md : ''
+  n=84
+    extract: 'B'
+    text.md : ''
+  n=85
+    extract: 'C'
+    text.md : ''
+  n=86
+    extract: 'A'
+    text.md : ''
+  n=87
+    extract: 'B'
+    text.md : ''
+  n=88
+    extract: 'C'
+    text.md : ''
+  n=89
+    extract: 'B'
+    text.md : ''
+  n=90
+    extract: 'A'
+    text.md : ''
+  n=91
+    extract: 'C'
+    text.md : ''
+  n=92
+    extract: 'B'
+    text.md : ''
+  n=93
+    extract: 'tenga'
+    text.md : ''
+  n=94
+    extract: 'sea'
+    text.md : ''
+  n=95
+    extract: 'para que'
+    text.md : ''
+  n=96
+    extract: 'Aunque'
+    text.md : ''
+  n=97
+    extract: 'sondeo'
+    text.md : ''
+  n=98
+    extract: 'muestra'
+    text.md : ''
+  n=99
+    extract: 'indecisos'
+    text.md : ''
+  n=100
+    extract: 'margen de error'
+    text.md : ''
+  n=101
+    extract: 'Es'
+    text.md : ''
+  n=102
+    extract: 'Son'
+    text.md : ''
+  n=103
+    extract: 'las'
+    text.md : ''
+  n=104
+    extract: 'B'
+    text.md : ''
+  n=105
+    extract: 'más goles'
+    text.md : ''
+  n=106
+    extract: 'tan rápido'
+    text.md : ''
+  n=107
+    extract: 'mejor'
+    text.md : ''
+  n=108
+    extract: 'B'
+    text.md : ''
+  n=109
+    extract: 'baje'
+    text.md : ''
+  n=110
+    extract: 'sea'
+    text.md : ''
+  n=111
+    extract: 'es'
+    text.md : ''
+  n=112
+    extract: 'B'
+    text.md : ''
+  n=113
+    extract: 'A'
+    text.md : 'El lunes, el flamenco ___ en la calle. (A. suena · B. duerme) lunes 16 B1'
+  n=114
+    extract: 'B'
+    text.md : 'La campaña ___ el viernes 13. (A. termina · B. empieza) MiDNI es... A. un billete · B. una entrada · C. una aplicación oficial E TRADUCE B1'
+  n=115
+    extract: 'A'
+    text.md : 'A2'
+  n=116
+    extract: 'A'
+    text.md : 'A2'
+  n=117
+    extract: 'A'
+    text.md : 'Il voto per posta va chiesto entro giovedì 19. → ___ La Liga ___ el viernes 20. (A. vuelve · B. para)C LEE Y RESPONDE Lucía vive en Sevilla: el sábado 21 ve el '
+  n=118
+    extract: 'B'
+    text.md : 'Ogni promessa deve avere dei dati. → ___ El derbi Sevilla–Betis es el ___. (A. domingo · B. sábado) Sevilla–Betis en el Sánchez-Pizjuán. Diego vive en Madrid: e'
+  n=119
+    extract: 'A'
+    text.md : 'los programas antes de votar el 29. semana. El viernes 13 empezó la campaña, y el domingo B2 141–144. Abbina le parole Santa Cecilia es la patrona de los ___. ('
+  n=120
+    extract: 'A'
+    text.md : ''
+  n=121
+    extract: 'A'
+    text.md : 'La campaña electoral empieza el... A. viernes 13 · B. lunes El sábado, Diego... A. ve el Madrid–Celta · B. ve el derbi · C. duerme A2'
+  n=122
+    extract: 'B'
+    text.md : 'El Día del Flamenco es el... A. domingo 22 · B. lunes 16 · C. «Infamia» · C. viajan a Praga A2'
+  n=123
+    extract: 'A'
+    text.md : 'El voto por correo se pide hasta... A. jueves 19 · B. viernes 20 · C. sábado 28 B1'
+  n=124
+    extract: 'C'
+    text.md : 'El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 un sábado» · C. «El Clásico» D CONSTRUYE FRASES A2'
+  n=125
+    extract: 'B'
+    text.md : 'B1'
+  n=126
+    extract: 'C'
+    text.md : '¿ / a qué hora / empieza / el debate / ? → ___ — La papeleta va en el ___. (A. sobre · B. derbi) B1'
+  n=127
+    extract: 'B'
+    text.md : 'El debate de laSexta fue a las ___. (A. 21:30 · B. 9:00) El lunes es el Día del Flamenco. → ___ No se publican encuestas del... A. 16 al 19 · B. 24 al 28 · C. H'
+  n=128
+    extract: 'C'
+    text.md : 'El sábado vemos el derbi Sevilla–Betis. → ___ giusta); testo modello (97 parole) qui sotto. lunes 16) La jornada 5 de la Champions es el... A. 20–21 · B. 29–30 '
+  n=129
+    extract: 'A'
+    text.md : ''
+  n=130
+    extract: 'A'
+    text.md : ''
+  n=131
+    extract: 'A'
+    text.md : ''
+  n=132
+    extract: 'B'
+    text.md : 'b. el error posible de un sondeo c. una encuesta de opinión d. las personas entrevistadas viernes 20 El mejor título es... A. «Una tormenta» · B. «Dos ciudades,'
+  n=133
+    extract: 'El lunes suena el flamenco.'
+    text.md : 'Costruisci el lunes / suena / el flamenco → ___ G DIÁLOGO EN EL COLEGIO B1'
+  n=134
+    extract: 'El sábado vemos el derbi.'
+    text.md : 'Costruisci palabras: tu texto, entre 80 y 100. · C. 18:30 — ¿Tiene su documento de ___? (A. identidad · B. puente) el sábado / vemos / el derbi → ___ Pluma de c'
+  n=135
+    extract: 'La campaña dura quince días.'
+    text.md : 'Costruisci B1'
+  n=136
+    extract: '¿A qué hora empieza el debate?'
+    text.md : 'Costruisci B1'
+  n=137
+    extract: 'Lunedì è la Giornata internazionale del flamenco.'
+    text.md : 'Traduci B2'
+  n=138
+    extract: 'Sabato guardiamo il derby di Siviglia.'
+    text.md : "Traduci Prova di scrittura (senza un'unica risposta El voto por correo se pide hasta el ___. (A. jueves 19 · B.B1"
+  n=139
+    extract: 'El voto por correo se pide hasta el jueves 19.'
+    text.md : 'Traduci B1'
+  n=140
+    extract: 'Cada promesa tiene que llevar datos.'
+    text.md : 'Traduci «¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29. B1'
+  n=141
+    extract: 'c'
+    text.md : 'el sondeo derbi Sevilla–Betis con mi familia. El domingo 22 ¿Quién ve el derbi en Sevilla? A. Lucía · B. Diego · C. los dos escucho a la banda de Santa Cecilia.'
+  n=142
+    extract: 'd'
+    text.md : 'la muestra El domingo 29, España ___. (A. vota · B. duerme) Barcelona no tienen duende en su barrio: el lunes A2'
+  n=143
+    extract: 'b'
+    text.md : 'el margen de error trabajan. Yo, en cambio, leo los programas con calma y B PREGUNTAS GENERALES A2'
+  n=144
+    extract: 'a'
+    text.md : 'la junta electoral a. quien organiza las elecciones preparo mi voto. ¡Qué semana! 16 · C. domingo 29 Antes de votar, los dos... A. leen los programas · B. ven A'
+  n=145
+    extract: 'A'
+    text.md : '— Buenos días, vengo a ___. (A. votar · B. cantar)La pluma del escritor: esta página es para B1'
+  n=146
+    extract: 'A'
+    text.md : 'escribir. El texto modelo de arriba tiene 97 A2'
+  n=147
+    extract: 'A'
+    text.md : 'El Black Friday es el... A. domingo 29 · B. viernes 27 · C.la campaña / dura / quince días → ___ — ¿Dónde está la ___? (A. urna · B. guitarra) B1'
+  n=148
+    extract: 'A'
+    text.md : 'B1'
+  n=149
+    extract: 'A'
+    text.md : '— ¿A qué hora ___ el colegio? (A. cierra · B. canta) B1'
+  n=150
+    extract: '✓'
+    text.md : 'Scrivi B1'
+core-vs-ed svg keys differing: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 61, 62, 63, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 105, 106, 107, 108, 109, 110, 111, 112, 116, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+  n=1
+    core: '13 — 竞选 11 月 13 日周五零点开始'
+    ed  : '13 — La campagna inizia venerdì 13 novembre a mezzanotte'
+  n=2
+    core: '29 — 大选在 11 月 29 日周日'
+    ed  : '29 — Le elezioni sono domenica 29 novembre'
+  n=3
+    core: '19 — 邮寄投票最迟须在 19 日申请'
+    ed  : '19 — Il voto per corrispondenza va chiesto entro il 19'
+  n=4
+    core: '16 — 国际弗拉门戈日 11 月 16 日周一'
+    ed  : '16 — Giornata internazionale del flamenco, lunedì 16 novembre'
+  n=5
+    core: '20 — 联赛第 13 轮 11 月 20 日周五开战 二'
+    ed  : '20 — La 13ª giornata inizia venerdì 20 novembre'
+  n=6
+    core: '15 — 竞选持续 15 天83. A — PSOE 与 PP 各 45 分钟免费宣传'
+    ed  : '15 — La campagna dura 15 giorni verbo secondo — PÁGINA 6 —120. A — La Spagna vota domenica 29'
+  n=7
+    core: 'C — 大选在 11 月 29 日84. B — 免费宣传共 195 分钟'
+    ed  : 'C — Le elezioni sono il 29 novembre'
+  n=8
+    core: 'B — 竞选持续 15 天85. C — Podemos 15 分钟 — PÁGINA 4 —'
+    ed  : 'B — La campagna dura 15 giorni83. A — 45 minuti gratis ciascuno per PSOE e PP'
+  n=9
+    core: 'A — 邮寄投票最迟须在 19 日申请86. A — 禁发民调共 5 天（11 月 24–28 日）'
+    ed  : 'A — Il voto per corrispondenza va chiesto entro il 1984. B — 195 minuti gratis in tutto — PÁGINA 4 —'
+  n=10
+    core: 'B — 国际弗拉门戈日 11 月 16 日87. B — 45 − 30 = 15'
+    ed  : 'B — Giornata internazionale del flamenco, 16 novembre85. C — Podemos: 15 minuti'
+  n=11
+    core: '16 — 11 月 16 日周一'
+    ed  : '16 — lunedì 16 novembre'
+  n=12
+    core: '19 — 11 月 19 日周四'
+    ed  : '19 — giovedì 19 novembre'
+  n=13
+    core: '29 — 大选在 11 月 29 日'
+    ed  : '29 — Le elezioni sono il 29 novembre'
+  n=14
+    core: '22 — 11 月 22 日周日'
+    ed  : '22 — domenica 22 novembre'
+  n=15
+    core: 'noviembre — 月份小写'
+    ed  : 'noviembre — I mesi in minuscolo'
+  n=21
+    core: 'B — 国际弗拉门戈日 11 月 16 日周一'
+    ed  : 'B — Giornata internazionale del flamenco, lunedì 16 novembre'
+  n=22
+    core: 'A — 邮寄投票最迟须在 19 日申请 jueves 19'
+    ed  : 'A — Il voto per corrispondenza va chiesto entro il 19'
+  n=23
+    core: 'C — 联赛 11 月 20 日周五回归'
+    ed  : "C — La Liga torna venerdì 20 novembre l'originale."
+  n=24
+    core: 'B — 11 月 24–28 日不公布民调101. Es — 1 点用单数 Es'
+    ed  : 'B — Nessun sondaggio pubblicato dal 24 al 28 novembre'
+  n=25
+    core: 'c — debate=辩论 c102. Son — 多点用复数 Son'
+    ed  : 'c — debate = dibattito c'
+  n=26
+    core: 'b — mitin=集会 b103. las — a las 21:00（介词 a）'
+    ed  : "b — mitin = comizio b101. Es — Per l'una si usa il singolare Es"
+  n=27
+    core: 'd — cartel=海报 d104. B — 1 点说 Es la una'
+    ed  : 'd — cartel = cartellone d102. Son — Per più ore si usa il plurale Son — PÁGINA 5 —'
+  n=28
+    core: 'a — escaño=议席 a105. más goles — más + goles（进球更多）'
+    ed  : 'a — escaño = seggio in Parlamento a103. las — a las 21:00 (con la preposizione a)'
+  n=29
+    core: 'Verdadero — 国际弗拉门戈日 11 月 16 日周一'
+    ed  : 'Verdadero — Giornata del flamenco, lunedì 16 novembre'
+  n=30
+    core: 'Verdadero — UNESCO 2010 年将弗拉门戈列入非遗'
+    ed  : 'Verdadero — UNESCO: flamenco nel patrimonio dal 2010'
+  n=31
+    core: 'Falso — 弗拉门戈不只是舞蹈：歌、琴、舞三位一体'
+    ed  : 'Falso — Il flamenco: canto, chitarra e danza insieme'
+  n=32
+    core: 'Falso — 圣塞西莉亚 11 月 22 日，是音乐守护神'
+    ed  : 'Falso — Santa Cecilia è il 22 novembre; è la patrona dei musicisti'
+  n=33
+    core: 'Verdadero — 毕尔巴鄂市乐队 11 月 22 日 12:00 演出'
+    ed  : 'Verdadero — Banda di Bilbao, domenica 22, 12:00'
+  n=34
+    core: 'cante — cante = 歌唱'
+    ed  : 'cante — cante = canto'
+  n=35
+    core: 'baile — baile = 舞蹈'
+    ed  : 'baile — baile = danza'
+  n=36
+    core: 'guitarra — guitarra = 吉他113. A — el flamenco suena = 弗拉门戈奏响'
+    ed  : 'guitarra — guitarra = chitarra'
+  n=37
+    core: 'palmas — palmas = 击掌114. B — empieza la campaña = 竞选开始'
+    ed  : 'palmas — palmas = battimani'
+  n=38
+    core: 'compás — compás = 节拍115. A — laSexta 辩论 21:30'
+    ed  : 'None'
+  n=39
+    core: 'None'
+    ed  : "B — L'UNESCO lo annunciò a Nairobi nel 201077. Vas a votar el domingo 29. — vas a + infinito114. B — empieza la campaña = inizia la campagna"
+  n=40
+    core: 'A — duende 是音乐打动人心的时刻79. Van a comparar precios antes de pagar. — van a + 原形117. A — la Liga vuelve = 联赛回归'
+    ed  : 'A — duende è il momento in cui la musica ti commuove78. Va a abrirse la urna a las 9:00. — va a + infinito115. A — Il dibattito laSexta alle 21:30'
+  n=41
+    core: 'C — 弗拉门戈源于安达卢西亚多文化交融80. Verdadero — 邮寄投票可在 Correos 申请118. B — 塞维利亚德比在周六'
+    ed  : 'C — Il flamenco è nato da molte culture in Andalusia79. Van a comparar precios antes de pagar. — van a + infinito116. A — el voto por correo se pide h'
+  n=42
+    core: 'B — 弗拉门戈日之后大选在 11 月 29 日81. Falso — 静默日是周六 28 日，不是周日119. A — Santa Cecilia = 音乐守护神'
+    ed  : "B — Dopo il flamenco: l'elezione del 29 novembre80. Verdadero — Il voto per corrispondenza si chiede a Correos117. A — la Liga vuelve = la Liga torna"
+  n=43
+    core: 'El flamenco es cante, toque y baile. — 主语 + 动词 + 表语82. Verdadero — 今年可用 MiDNI 应用验证身份投票120. A — 周日 29 日西班牙投票'
+    ed  : 'El flamenco es cante, toque y baile. — Soggetto, verbo, predicato81. Falso — La giornata di riflessione è sabato 28, non domenica118. B — Il derby di '
+  n=44
+    core: 'En noviembre suena la guitarra en España. — 时间在前，动词第— PÁGINA 6 —121. A — 竞选 11 月 13 日周五开始'
+    ed  : "En noviembre suena la guitarra en España. — Il tempo prima, il82. Verdadero — Quest'anno si può votare con MiDNI119. A — Santa Cecilia = patrona dei m"
+  n=45
+    core: 'En Bilbao toca la banda el domingo. — 地点在前，动词第二'
+    ed  : 'En Bilbao toca la banda el domingo. — Il luogo prima'
+  n=46
+    core: 'Todos preguntan si hay duende. — 间接疑问用 si'
+    ed  : 'Todos preguntan si hay duende. — Le domande indirette con si'
+  n=47
+    core: 'A — 巴萨 33 分领跑'
+    ed  : 'A — Il Barça guida con 33 punti'
+  n=48
+    core: 'B — 第 13 轮 11 月 20–23 日'
+    ed  : 'B — 13ª giornata, 20–23 novembre'
+  n=49
+    core: 'C — 塞维利亚德比周六 18:30'
+    ed  : 'C — Il derby di Siviglia, sabato ore 18:30'
+  n=50
+    core: 'A — 巴萨–黄潜周日 14:00'
+    ed  : 'A — Barça–Villarreal, domenica ore 14:00'
+  n=51
+    core: 'B — 欧冠第 5 轮 11 月 24–25 日'
+    ed  : 'B — Champions League, 5ª giornata, 24–25 novembre'
+  n=52
+    core: 'c — jornada=轮次 c'
+    ed  : 'c — jornada = giornata c'
+  n=53
+    core: 'b — derbi=德比 b'
+    ed  : 'b — derbi = derby b'
+  n=54
+    core: 'a — liderato=榜首 a'
+    ed  : 'a — liderato = primo posto a'
+  n=55
+    core: 'd — fase liga=联赛阶段 d'
+    ed  : 'd — fase liga = fase a girone d'
+  n=56
+    core: 'más importante — más + importante（榜首之争更重要）'
+    ed  : 'más importante — más + importante (la corsa al titolo)'
+  n=57
+    core: 'muchísimos — muchísimos aficionados 球迷很多'
+    ed  : 'muchísimos — muchísimos aficionados = moltissimi tifosi'
+  n=58
+    core: 'peor — malo 的比较级是 peor'
+    ed  : 'peor — Il comparativo di malo è peor'
+  n=59
+    core: 'mejor — bueno 的比较级是 mejor'
+    ed  : 'mejor — Il comparativo di bueno è mejor'
+  n=61
+    core: 'El Madrid recibió al Celta el sábado. — recibir → recibió — PÁGINA 7 —'
+    ed  : 'El Madrid recibió al Celta el sábado. — recibir → recibió'
+  n=62
+    core: 'El Atlético perdió 0–2 con el Bayern. — perder → perdió'
+    ed  : 'El Atlético perdió 0–2 con el Bayern. — perder → perdió — PÁGINA 7 —'
+  n=63
+    core: 'La Liga volvió el viernes 20. — volver → volvió'
+    ed  : 'La Liga volvió el viernes 20. — volver → volvió jueves 19'
+  n=65
+    core: 'B — 邮寄投票最迟须在 19 日申请'
+    ed  : 'B — Il voto per corrispondenza va chiesto entro il 19'
+  n=66
+    core: 'A — 材料从 11 月 9 日起寄出 — PÁGINA 3 —106. tan rápido — tan + rápido + como（同样快）'
+    ed  : 'A — I documenti partono dal 9 novembre'
+  n=67
+    core: 'C — 投票站 9:00–20:00 开放'
+    ed  : 'C — I seggi sono aperti dalle 9:00 alle 20:00'
+  n=68
+    core: 'B — MiDNI 是今年投票身份验证的新方式'
+    ed  : 'B — MiDNI è il nuovo modo di identificarsi'
+  n=69
+    core: 'A — 黑色星期五 11 月 27 日周五'
+    ed  : 'A — Black Friday, venerdì 27 novembre'
+  n=70
+    core: 'correo — correo = 邮局/邮寄'
+    ed  : 'correo — correo = la posta / postale'
+  n=71
+    core: 'papeleta — papeleta = 选票'
+    ed  : 'papeleta — papeleta = scheda elettorale'
+  n=72
+    core: 'envío — enviar 变位 → envío'
+    ed  : 'envío — enviar coniugato → envío'
+  n=73
+    core: 'identidad — documento de identidad 身份证件 — PÁGINA 8 —'
+    ed  : "identidad — documento de identidad = documento d'identità"
+  n=74
+    core: 'censo — censo = 选民名册'
+    ed  : 'censo — censo = registro elettorale — PÁGINA 8 —'
+  n=75
+    core: 'plazo — plazo = 期限（19 日截止）'
+    ed  : 'plazo — plazo = scadenza (il 19) La Lucerna\u3000SETTIMANALE SPAGNOLO VOL.4\u3000LUCERNA SPANISH WEEKLYPagina 8 di 8'
+  n=76
+    core: 'Voy a pedir el voto por correo. — voy a + 原形'
+    ed  : 'None'
+  n=77
+    core: 'Vas a votar el domingo 29. — vas a + 原形 La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY第8版／共8版'
+    ed  : 'None'
+  n=87
+    core: 'None'
+    ed  : 'B — 45 − 30 = 15'
+  n=88
+    core: 'None'
+    ed  : 'C — Solo i minuti gratuiti, con la fonte'
+  n=89
+    core: 'B — 截至 11 月 10 日只有 laSexta 辩论已确定'
+    ed  : 'B — Al 10 novembre, solo il dibattito laSexta è confermato'
+  n=90
+    core: 'A — laSexta 辩论 11 月 13 日周五 21:30'
+    ed  : 'A — Il dibattito laSexta, venerdì 13 novembre, ore 21:30'
+  n=91
+    core: 'C — “提议的”不等于“确定的”'
+    ed  : 'C — «Proposto» non è «confermato»'
+  n=92
+    core: 'B — 民调是带误差的具体某天的照片'
+    ed  : "B — Sondaggio: foto con margine d'errore, un giorno preciso"
+  n=93
+    core: 'tenga — es posible que + 虚拟式 tenga'
+    ed  : 'tenga — es posible que + congiuntivo: tenga'
+  n=94
+    core: 'sea — es importante que + 虚拟式 sea'
+    ed  : 'sea — es importante que + congiuntivo: sea'
+  n=95
+    core: 'para que — para que + 虚拟式（目的）'
+    ed  : 'para que — para que + congiuntivo (scopo)'
+  n=96
+    core: 'Aunque — Aunque 后接陈述式（已知事实）'
+    ed  : 'Aunque — Aunque + indicativo (fatto noto)'
+  n=97
+    core: 'sondeo — sondeo = 民调'
+    ed  : 'sondeo — sondeo = sondaggio'
+  n=98
+    core: 'muestra — muestra = 样本'
+    ed  : 'muestra — muestra = campione'
+  n=99
+    core: 'indecisos — indecisos = 未决定者'
+    ed  : 'indecisos — indecisos = indecisi'
+  n=100
+    core: 'margen de error — margen de error = 误差范围'
+    ed  : "margen de error — margen de error = margine d'errore"
+  n=105
+    core: 'None'
+    ed  : 'más goles — más + goles (più gol)'
+  n=106
+    core: 'None'
+    ed  : 'tan rápido — tan + rápido + como (altrettanto veloce)'
+  n=107
+    core: 'mejor — bueno 的比较级是 mejor（不用 más）'
+    ed  : 'mejor — il comparativo di bueno è mejor (senza más)'
+  n=108
+    core: 'B — más mejor 是错误说法'
+    ed  : 'B — más mejor è sbagliato'
+  n=109
+    core: 'baje — es necesario que + 虚拟式 baje'
+    ed  : 'baje — es necesario que + congiuntivo: baje'
+  n=110
+    core: 'sea — para que + 虚拟式 sea'
+    ed  : 'sea — para que + congiuntivo: sea'
+  n=111
+    core: 'es — creo que + 陈述式 es'
+    ed  : 'es — creo que + indicativo: es'
+  n=112
+    core: 'B — ojalá + 虚拟式：tenga'
+    ed  : 'B — ojalá + congiuntivo: tenga'
+  n=116
+    core: '138.翻译 El voto por correo se pide hasta el ___. (A. jueves 19 · B.B1El sábado vemos el derbi Sevilla–Betis. → ___'
+    ed  : '138.Traduci El voto por correo se pide hasta el ___. (A. jueves 19 · B.B1El sábado vemos el derbi Sevilla–Betis. → ___'
+  n=121
+    core: 'None'
+    ed  : 'A — La campagna inizia venerdì 13 novembre'
+  n=122
+    core: 'B — 国际弗拉门戈日 11 月 16 日'
+    ed  : 'B — Giornata internazionale del flamenco, 16 novembre'
+  n=123
+    core: 'A — 邮寄投票最迟须在 19 日申请'
+    ed  : 'A — Il voto per corrispondenza va chiesto entro il 19'
+  n=124
+    core: 'C — 塞维利亚德比周六 18:30'
+    ed  : 'C — Il derby di Siviglia, sabato ore 18:30 — PÁGINA 2 —86. A — Nessun sondaggio per 5 giorni (24–28 novembre)'
+  n=125
+    core: 'B — 黑色星期五 11 月 27 日周五'
+    ed  : 'B — Black Friday, venerdì 27 novembre'
+  n=126
+    core: 'C — MiDNI 是官方身份验证应用'
+    ed  : "C — MiDNI è l'app ufficiale di identificazione"
+  n=127
+    core: 'B — 11 月 24–28 日禁发民调 — PÁGINA 2 —88. C — 本报只刊登选管会公布的免费时段数据并注明来源'
+    ed  : 'B — Nessun sondaggio pubblicato dal 24 al 28 novembre'
+  n=128
+    core: 'C — 欧冠第 5 轮 11 月 24–25 日'
+    ed  : 'C — Champions League, 5ª giornata, 24–25 novembre'
+  n=129
+    core: 'A — Lucía 周六在塞维利亚看德比'
+    ed  : 'A — Lucía guarda il derby a Siviglia sabato'
+  n=130
+    core: 'A — Diego 周六看皇马–塞尔塔'
+    ed  : 'A — Diego guarda Real Madrid–Celta sabato'
+  n=131
+    core: 'A — 两人都读纲领再投票'
+    ed  : 'A — Tutti e due leggono i programmi prima di votare'
+  n=132
+    core: 'B — 标题概括两个城市、一个周六'
+    ed  : 'B — Il titolo riassume due città e un sabato'
+  n=133
+    core: 'El lunes suena el flamenco. — 时间在前，动词第二'
+    ed  : 'El lunes suena el flamenco. — Il tempo prima, il verbo secondo'
+  n=134
+    core: 'El sábado vemos el derbi. — 时间在前'
+    ed  : 'El sábado vemos el derbi. — Il tempo prima'
+  n=135
+    core: 'La campaña dura quince días. — 主语 + 动词 + 时间'
+    ed  : 'La campaña dura quince días. — Soggetto + verbo + tempo'
+  n=136
+    core: '¿A qué hora empieza el debate? — 疑问词在句首'
+    ed  : "¿A qué hora empieza el debate? — Parola interrogativa all'inizio"
+  n=137
+    core: '周一是国际弗拉门戈日。 — 对照原文'
+    ed  : 'Lunedì è la Giornata internazionale del flamenco. — Cfr.'
+  n=138
+    core: '周六我们看塞维利亚德比。 — 对照原文'
+    ed  : "Sabato guardiamo il derby di Siviglia. — Cfr. l'originale."
+  n=140
+    core: 'Cada promesa tiene que llevar datos. — tener que = 必须'
+    ed  : 'Cada promesa tiene que llevar datos. — tener que = dovere'
+  n=141
+    core: 'c — sondeo=民调 c'
+    ed  : 'c — sondeo=sondaggio c'
+  n=142
+    core: 'd — muestra=样本 d'
+    ed  : "d — muestra=campione d — PÁGINA 3 —104. B — L'una si dice Es la una"
+  n=143
+    core: 'b — margen de error=误差范围 b — PÁGINA 5 —'
+    ed  : "b — margen de error=margine d'errore b"
+  n=144
+    core: 'a — junta electoral=选举委员会 a'
+    ed  : 'a — junta electoral=commissione elettorale a'
+  n=145
+    core: 'A — vengo a votar = 我来投票'
+    ed  : 'A — vengo a votar = vengo a votare'
+  n=146
+    core: 'A — documento de identidad = 身份证件'
+    ed  : "A — documento de identidad = carta d'identità"
+  n=147
+    core: 'A — ¿dónde está la urna? 投票箱在哪'
+    ed  : "A — ¿dónde está la urna? Dov'è l'urna?"
+  n=148
+    core: 'A — la papeleta va en el sobre = 选票装进信封'
+    ed  : 'A — la papeleta va en el sobre = la scheda va nella busta'
+  n=149
+    core: 'A — ¿a qué hora cierra el colegio? 几点关门'
+    ed  : 'A — ¿a qué hora cierra el colegio? A che ora chiude il seggio?'
+  n=150
+    core: '✓ 范文见本版 H 区（97 词）'
+    ed  : '✓ Vedi il modello, sezione H (97 parole)'

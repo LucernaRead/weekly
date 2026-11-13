@@ -1,0 +1,6 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P2 box rect cands: [(1439.5, 795.0, 422.5, 335.0, '<rect x="1439.5" y="795.0" width="422.5" height="335.0" rx="0" fill="#f0eee5"/>')]
+box svg: 1439.5 795.0 422.5 335.0 raster: 8637 4770 11172 6780
+lowest ink raster row (rel to band top): 1994 -> svg y: 1127.3333333333333 box bottom svg y: 1130.0 clearance svg px: 2.6666666666667425
+last ink rows svg y: [np.int64(1122), np.int64(1123), np.int64(1124), np.int64(1125), np.int64(1126), np.int64(1127)]

@@ -1,0 +1,11 @@
+font: Noto Sans CJK SC (sans), size 19.5, lh 1.4, width 378.5, box bottom 1969.6
+shipped note (reassembled from SVG): 'Внимание: нуво выходит в четверг 19-го; праздник начинается уже вечером в среду 18-го.'
+  lines=3 widths=[332.8, 307.4, 214.9]
+    L1 base=1911.6 ink-desc=5.00 'Внимание: нуво выходит в четверг'
+    L2 base=1938.9 ink-desc=5.00 '19-го; праздник начинается уже'
+    L3 base=1966.2 ink-desc=5.00 'вечером в среду 18-го.'
+  last baseline 1966.2  true-ink descent 5.00  ink bottom 1971.2  box bottom 1969.6  margin -1.6px
+--- all texts inside the dates box (x 1439.5-1862, y 1639.6-1969.6) ---
+  OVERFLOW y=1966.2 size=19.5 ink=1971.2 'вечером в среду 18-го.'
+  deepest ink in box: 1971.2 at baseline 1966.2 size 19.5 'вечером в среду 18-го.'
+  box bottom 1969.6 -> worst margin -1.6px

@@ -1,0 +1,12 @@
+p1-prima.svg: 175 text nodes, 4 cream rects
+p2-vita.svg: 179 text nodes, 4 cream rects
+p3-cultura.svg: 178 text nodes, 3 cream rects
+p4-sport.svg: 173 text nodes, 6 cream rects
+p5-giovani.svg: 168 text nodes, 4 cream rects
+p6-approfondimento.svg: 191 text nodes, 5 cream rects
+p7-lingua.svg: 157 text nodes, 3 cream rects
+p8-valutazione.svg: 380 text nodes, 0 cream rects
+FLAGS: 3
+FLAG ('p6-approfondimento.svg', 'ORPHAN?', 'emendamenti, alle ore / 18.', "last line single word '18.' after 3-line paragraph")
+FLAG ('p8-valutazione.svg', 'ORPHAN?', 'Chi va alla Madonna della Salute? A. Paolo · B. Giulia · C. i / due', "last line single word 'due' after 2-line paragraph")
+FLAG ('p8-valutazione.svg', 'ORPHAN?', 'Per la Madonna della Salute si attraversa il ponte votivo. / ___', "last line single word '___' after 2-line paragraph")

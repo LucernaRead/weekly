@@ -1,0 +1,11 @@
+image (4063, 5625)  (200 dpi, 0.360 pt/px)
+P8-H-box [font=Newsreader16pt-Regular size=16.12pt]
+   ink runs (pt): [(614.89, 617.41), (618.49, 626.05), (627.49, 633.97), (635.05, 644.05), (645.13, 651.97), (653.77, 660.97), (662.77, 664.93)]
+   prev ink end=651.97 | quote ink=[(653.77, 660.97)] | next ink start=662.77
+   GAP BEFORE quote = 1.8pt = 0.11em | GAP AFTER = 1.8pt
+   verdict vs 0.2em: PASS (<=0.2em)
+P8-Q67-key [font=NotoSansCJKsc-Regular size=9.94pt]
+   ink runs (pt): [(471.16, 480.88), (481.6, 486.28), (486.64, 487.72), (488.08, 494.2), (495.64, 500.68), (501.4, 510.04), (512.92, 516.52), (516.88, 525.52)]
+   prev ink end=None | quote ink=[] | next ink start=None
+   GAP BEFORE quote = Nonept = Noneem | GAP AFTER = Nonept
+   verdict vs 0.2em: PASS (<=0.2em)

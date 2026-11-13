@@ -1,0 +1,23 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages print/web: 8 8
+P1: tokens print=798 web=798 posdiff=2 msdiff=0
+P2: tokens print=837 web=837 posdiff=0 msdiff=0
+P3: tokens print=746 web=746 posdiff=0 msdiff=0
+P4: tokens print=747 web=747 posdiff=0 msdiff=0
+P5: tokens print=820 web=820 posdiff=0 msdiff=0
+P6: tokens print=763 web=763 posdiff=0 msdiff=0
+P7: tokens print=916 web=916 posdiff=0 msdiff=0
+P8: tokens print=2320 web=2320 posdiff=0 msdiff=0
+TOTAL posdiff 2 msdiff 0
+pdftotext print: 45434 bytes rc=0
+pdftotext web: 45434 bytes rc=0
+P8 all-span min size: 10.12 median: 10.35 nspans: 386
+P8 answer-like spans: 188 min: 10.12 median: 10.12
+chips edition: {'A2': 8, 'B1': 24, 'B2': 3} core: {'A2': 8, 'B1': 24, 'B2': 3}
+text.md '— Correct:': 142  '(Correct ': 8
+p8 svg '— Correct:': 0  '(Correct ': 0
+italic spans print: 1 web: 1
+off-palette fills: {'#84a283': 1, '#f1e8d4': 4, '#4d72b4': 2, '#7898cd': 2, '#d7b257': 1, '#edd17f': 1, '#cac8ba': 3} gold: True stroked rects: 0 VOL.5: 5 paper-fill refs: 8
+core VOL.5: 5
+wrote gates2.json

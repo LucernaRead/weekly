@@ -1,0 +1,18 @@
+source files core: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 721, 'verify.py': 167}
+source files edition: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 730, 'verify.py': 167}
+source literals: core=2556 edition=2565 removed=450 added=459
+unaccounted removed: 1; unaccounted added: 3
+  REMOVED x1: 'Noto Serif CJK SC'
+  ADDED x1: 'Noto Sans CJK TC'
+  ADDED x1: 'Noto Serif CJK TC'
+  ADDED x1: 'TC'
+  p1: frozen=151 (core 191 / edition 184) sha8=54c9b51e PASS
+  p2: frozen=164 (core 194 / edition 194) sha8=2db0dd83 PASS
+  p3: frozen=206 (core 241 / edition 241) sha8=ad74f280 PASS
+  p4: frozen=166 (core 187 / edition 187) sha8=df1bebf7 PASS
+  p5: frozen=182 (core 217 / edition 218) sha8=b42a8c3d PASS
+  p6: frozen=176 (core 207 / edition 207) sha8=babfe417 PASS
+  p7: frozen=170 (core 227 / edition 226) sha8=9dc31873 PASS
+  p8: frozen=191 (core 323 / edition 332) sha8=961dd98a PASS
+source level: FAIL; rendered: 8/8
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-de-zh-tw-toolbox/freeze-direct.json

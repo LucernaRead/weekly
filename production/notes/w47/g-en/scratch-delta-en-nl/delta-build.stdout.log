@@ -1,0 +1,109 @@
+===== delta build nl (ED=/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl) =====
+== run.py ==
+run RC=0
+0
+  flow[P1-headline] ended col 2/2 y=1751 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+  flow[P2-feature] ended col 2/2 y=1438 (bottom 1540)
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1649 (bottom 2560)
+  flow[P4-main] ended col 2/2 y=2235 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+  flow[P5-main] ended col 2/2 y=657 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+  flow[P6-main] ended col 2/2 y=2174 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+  flow[P7-main] ended col 2/2 y=1756 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2419 (bottom 2560)
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2375 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+== render.py ==
+render RC=0
+card: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/cards/p8-test.png 1245610
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.pdf 29341267
+== dump_reg (own) ==
+dump_reg RC=0
+  flow[P1-headline] ended col 2/2 y=1751 (bottom 1828)
+  flow[P1-countries] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=1438 (bottom 1540)
+P2 col3 ends 1544.8999999999999
+  flow[P2-ex] ended col 3/3 y=2532 (bottom 2560)
+P2 saved, exercises so far: 27
+  flow[P3-main] ended col 2/2 y=2014 (bottom 2560)
+  flow[P3-col3] ended col 0/0 y=1649 (bottom 2560)
+P3 saved, exercises so far: 45
+  flow[P4-main] ended col 2/2 y=2235 (bottom 2560)
+  flow[P4-col3] ended col 0/0 y=1625 (bottom 2560)
+P4 saved, exercises so far: 63
+  flow[P5-main] ended col 2/2 y=657 (bottom 2560)
+  flow[P5-col3] ended col 0/0 y=1832 (bottom 2560)
+P5 saved, exercises so far: 81
+  flow[P6-main] ended col 2/2 y=2174 (bottom 2560)
+  flow[P6-col3] ended col 0/0 y=1226 (bottom 2560)
+P6 saved, exercises so far: 99
+  flow[P7-main] ended col 2/2 y=1756 (bottom 2560)
+  flow[P7-col3] ended col 0/0 y=2419 (bottom 2560)
+P7 saved, exercises so far: 111
+  flow[P8-battery] ended col 3/3 y=1418 (bottom 1555)
+MODEL words: 82
+  flow[P8-keys] ended col 3/3 y=2375 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+registry: 150
+by page: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39}
+by level: {'A2': 62, 'B1': 66, 'B2': 22}
+by type: {'Zinnen aanvullen': 34, 'Meerkeuze': 41, 'Zinnen omvormen': 16, 'Woorden combineren': 20, 'Grafieken lezen': 6, 'Gouden zinnen': 1, 'Vergelijkingen': 1, 'Verleden tijd': 2, 'Toekomst': 1, 'Werkwoordstijden': 1, 'Bijzinnen': 1, 'Correctie': 4, 'Gatentekst': 8, 'Begrijpend lezen': 4, 'Vertalen': 4, 'Dialoog aanvullen': 5, 'Schrijven': 1}
+== registry diff vs pre ==
+pre: 150 new: 150
+entry diffs: 1
+ PRE: {'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'speak', 'note': 'speak up = je uitspreken'}
+ NEW: {'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'up', 'note': 'speak up = je uitspreken'}
+== text.md ==
+textmd RC=0
+stub registry total: 150
+real registry total: 150
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/2026-w47-en-nl.text.md 53565
+== text.md diff vs pre ==
+1151c1151
+< 73. [A2] Zinnen aanvullen — speak (speak up = je uitspreken)
+---
+> 73. [A2] Zinnen aanvullen — up (speak up = je uitspreken)
+text diff lines: 4
+== webpdf ==
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 23960 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30528 bytes
+WROTE /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.web.pdf: 2411546 bytes, 49156 text bytes
+== new SHAs ==
+f1e1e511bd780243878f767c73d92f22ff6407718fbde7dbe209068938e87dca  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.pdf
+c1a0828865d9a293b7e2be1e3f6cec674f7b1f1ca8193049c2c43906e1c509a8  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.web.pdf
+30bfb6f93860fae5ae58707c28c4f2e3a18ebcc07e272681e67688451d12c0be  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/2026-w47-en-nl.text.md
+29341267 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.pdf
+2411546 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/The-Lucerna-VOL4-en-nl.web.pdf
+53565 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl/2026-w47-en-nl.text.md
+== SVG byte compare vs pre ==
+1,8c1,8
+< 1e0a6034d4a83a50f13187aa145b0c66f662c85c001c068241b290c4be3ecf6b  svg/p1-front.svg
+< 409bdb397472f3a75897c6019b28ba899bdbe9b7fe5429435a5f5642171f9731  svg/p2-life.svg
+< a775d0d60f78cb84d5f074757e01ee427db74d5d6fcfb2436a7ffbf8d6d4b8f0  svg/p3-culture.svg
+< 5cbe35f97108b83737f561265335332e63647aa275d9556393a6e8a8c9320999  svg/p4-sport.svg
+< 829fea251cec739dcd869fd4470cf49d0c0f678c5d5f0a724896d95655a67236  svg/p5-youth.svg
+< 86c67386942f18c33d341161367bb25ada72e96eaa45b1a0e425cd5a680b3778  svg/p6-deep.svg
+< e568e5c92ad5692799f7dc3684444d05c761a66cb5506393db720c0ce620bd73  svg/p7-lang.svg
+< 530c9d35018db74164ab0d587d2ebdbdf3a3e581845e127d76a284c5b24ed1e8  svg/p8-test.svg
+---
+> 1e0a6034d4a83a50f13187aa145b0c66f662c85c001c068241b290c4be3ecf6b  p1-front.svg
+> 409bdb397472f3a75897c6019b28ba899bdbe9b7fe5429435a5f5642171f9731  p2-life.svg
+> a775d0d60f78cb84d5f074757e01ee427db74d5d6fcfb2436a7ffbf8d6d4b8f0  p3-culture.svg
+> 5cbe35f97108b83737f561265335332e63647aa275d9556393a6e8a8c9320999  p4-sport.svg
+> 829fea251cec739dcd869fd4470cf49d0c0f678c5d5f0a724896d95655a67236  p5-youth.svg
+> 86c67386942f18c33d341161367bb25ada72e96eaa45b1a0e425cd5a680b3778  p6-deep.svg
+> e568e5c92ad5692799f7dc3684444d05c761a66cb5506393db720c0ce620bd73  p7-lang.svg
+> ee35fc689701a6a8515d18612f306fe13a1bc7062bd7973293557f8f3fbbaa22  p8-test.svg
+svg diff done
+DONE-BUILD nl

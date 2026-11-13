@@ -1,0 +1,33 @@
+== match lines, x-windowed (render ink) ==
+P2-a: ink=1359.4pt (1812.5px) right=1396.50pt margin=+37.1pt ok
+P2-b: ink=1374.1pt (1832.2px) right=1396.50pt margin=+22.4pt ok
+P2-c: ink=1355.8pt (1807.7px) right=1396.50pt margin=+40.7pt ok
+P2-d: ink=1366.6pt (1822.1px) right=1396.50pt margin=+29.9pt ok
+P4-a: ink=658.4pt (877.9px) right=720.75pt margin=+62.3pt ok
+P4-b: ink=615.6pt (820.8px) right=720.75pt margin=+105.1pt ok
+P4-c: ink=707.0pt (942.7px) right=720.75pt margin=+13.7pt ok
+P4-d: ink=720.7pt (961.0px) right=720.75pt margin=+0.0pt ok
+P8-a: ink=1034.3pt (1379.0px) right=1058.62pt margin=+24.3pt ok
+P8-b: ink=1020.6pt (1360.8px) right=1058.62pt margin=+38.0pt ok
+P8-c: ink=1042.2pt (1389.6px) right=1058.62pt margin=+16.4pt ok
+P8-d: ink=1045.1pt (1393.4px) right=1058.62pt margin=+13.5pt ok
+== box bottoms (desc-clear negatives) ==
+  P2 LO SAPEVI: bottom=960.6px lowest_ink=955.2px clear=+5.4px inside
+  P2 E TU: bottom=1321.6px lowest_ink=1318.6px clear=+3.0px inside
+  P3 IL WEEKEND DOLCE: bottom=1021.1px lowest_ink=1015.7px clear=+5.4px inside
+  P3 E TU: bottom=1261.6px lowest_ink=1259.0px clear=+2.6px inside
+  P4 E TU: bottom=1140.4px lowest_ink=1137.1px clear=+3.3px inside
+  P5 I GIOVANI IN NUMERI: bottom=1010.7px lowest_ink=1005.1px clear=+5.6px inside
+  P5 E TU: bottom=1220.8px lowest_ink=1218.2px clear=+2.6px inside
+  P7 ERRORI TIPICI [toolbox]: bottom=1013.5px lowest_ink=996.5px clear=+17.0px inside
+  P7 LA PAROLA [toolbox]: bottom=1344.0px lowest_ink=1340.6px clear=+3.4px inside
+  P7 LETTERE [toolbox]: bottom=1644.0px lowest_ink=1640.6px clear=+3.4px inside
+== row scan: ink past 1396.5pt ==
+  p1: clean
+  p2: 1 bands: 1189-1191pt
+  p3: clean
+  p4: clean
+  p5: 1 bands: 451-453pt
+  p6: clean
+  p7: clean
+  p8: 4 bands: 446-448pt; 450-450pt; 461-463pt; 465-466pt

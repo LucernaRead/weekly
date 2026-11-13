@@ -1,0 +1,22 @@
+removed count-sum: 850 distinct: 451
+added count-sum: 398 distinct: 298
+Cyrillic-bearing removed (distinct): 15
+  - 'Билибин'
+  - 'Билибина'
+  - 'Зимняя'
+  - 'Иван'
+  - 'Ивана'
+  - 'Иллюстрация'
+  - 'Морозко'
+  - 'год'
+  - 'достояние'
+  - 'иллюстрация'
+  - 'к'
+  - 'можно'
+  - 'ноябрю'
+  - 'общественное'
+  - 'сказка'
+Cyrillic-bearing added (distinct): 0 []
+added CJK total: {'\u3000': 8}
+P1 added contains 'The round': ['\u3000The round']
+P1 removed contains 'numbers': []

@@ -1,0 +1,50 @@
+=== D1 P1 EM POUCAS PALAVRAS box (current bottom) ===
+box x=1439.5 y=1874.0 w=422.5 h=474.0 bottom=2348.0
+line 'em Brasília. (Página 4)' baseline=2327.599999999999 ink=(1461.5, 2311.6, 1665.5, 2332.6) ink_bottom-bottom=-15.4 ink_top-bottom=-36.4
+=== D2 P3 schedule box (current bottom) ===
+box bottom=551.0
+line '16h30.' baseline=540.6499999999999 ink=(1461.5, 524.6, 1531.5, 540.6) ink_bottom-bottom=-10.4
+=== D3 P6 timeline box (current bottom) ===
+box bottom=854.0
+line 'Página do Participante.' baseline=840.7999999999997 ink=(1603.5, 825.8, 1828.5, 845.8) ink_bottom-bottom=-8.2
+=== D4 P1 numbers-box title ===
+box x=989.0..1411.5 bottom=1220.2
+title 'A SEMANA EM NÚMEROS\u3000数字' baseline=823.18 ink=(1006.0, 799.2, 1351.0, 826.2) ink_right-box_right=-60.5
+=== D5 SÁB 21 gloss: SVG vs text.md vs source ===
+SVG y=1736.5: '土曜日16:30、パルメイラス'
+SVG y=1761.2: '対フラメンゴ'
+text.md L118: 'Três dias, uma semana（3連休、1週間の計画）: SEX 20 — o feriado começa（11月20日金曜日、祝日）· SÁB 21 — Palmeiras × Flamengo, às 16h30（土曜日16:30、パルメイラス対フラメンゴ）· DOM 22 — o fim do fe'
+text.md count '16日:30': 0
+SVG all count '16日:30': 0 | count '土曜日16:30': 1
+content12.py count '16日:30': 0 | '土曜日16:30': 1
+=== Q65 three-way ===
+P8 SVG: '65. B — 2'
+text.md L297: '65. No domingo 15, a prova tem... A. redação · B. Natureza e Matemática, das 13h30 às 18h30 · C. só Linguagens (B)'
+tables '周六 16' / '至 18' present in tables_ja.py: 1 1
+SVG all count '18日まで': 0 | '13:30 18' : 0
+text.md count '18日まで': 0
+=== Slogan ブラジルが読むポルトガル語: where rendered ===
+p1-capa.svg x=673.2 y=92.0 size=17.0 'TODA SEMANA EM PORTUGUÊS\u3000毎週\u3000ブラジルが読むポルトガル語'
+tables_ja.py:202 check: ['"读巴西人正在读的葡萄牙语": "ブラジルが読むポルトガル語",']
+=== ALL 31 box titles: PIL ink right vs box right ===
+margin +18.5 p2-vida.svg box x=538..961 y=858 title y=896.5 | '解説 — o feriadão 3連休 · a folga 休み ·'
+margin +18.5 p5-jovens.svg box x=538..961 y=834 title y=872.9 | '解説 — o gabarito 模範解答 · oficial 公式'
+margin +20.5 p6-aprofundamento.svg box x=538..961 y=343 title y=381.9 | '解説 — o prazo 締め切り · o dia útil 平日'
+margin +21.9 p1-capa.svg box x=1440..1862 y=1238 WIDEST y=1402.4 | 'B1'
+margin +22.5 p1-capa.svg box x=1440..1862 y=1874 WIDEST y=2048.4 | 'um fim de semana de três dias. (Página 3'
+margin +22.5 p2-vida.svg box x=538..961 y=1618 title y=1658.0 | 'Palmeiras × Flamengo, às'
+margin +22.5 p3-cultura.svg box x=1440..1862 y=577 WIDEST y=696.5 | 'uma heroína que lutou pela liberdade?'
+margin +22.5 p7-lingua.svg box x=1440..1862 y=1454 WIDEST y=1664.1 | '編集部の作例です。本物の手紙ではありま'
+margin +22.5 p7-lingua.svg box x=1440..1862 y=200 WIDEST y=501.0 | '«O feriado dá folga na segunda, 23.»'
+margin +22.9 p5-jovens.svg box x=538..961 y=200 WIDEST y=523.9 | 'のサイトで公式の解答を待と'
+margin +23.5 p2-vida.svg box x=1440..1862 y=545 WIDEST y=664.5 | 'que lembra a luta contra a escravidão?'
+margin +24.5 p4-esporte.svg box x=1440..1862 y=200 WIDEST y=434.6 | 'pênaltis 5 × 4). Final — 6 de dezembro,'
+total title/widest rows: 58; min margin +18.5; count margin<5: 0
+=== PDF pixel scans (200dpi PNG, 4063x5625; SVG 1950x2700; scale 2.0836/2.0833) ===
+D1 col x=1700: last cream SVG-y = 2347 (box bottom 2348)
+D2 col x=1700: last cream SVG-y = 580 (box bottom 551)
+D3 col x=1700: last cream SVG-y = 870 (box bottom 854)
+D4 row y=823.2: last cream SVG-x = 1449 (box right 1411.5; title ink right PIL 1351.0)
+D1 PDF ink rows in band 2305..2345: 2313..2332 (box bottom 2348)
+D2 PDF ink rows in band 525..560: 525..540 (box bottom 551)
+D3 PDF ink rows in band 825..860: 826..845 (box bottom 854; ink bottom PIL 845.8)

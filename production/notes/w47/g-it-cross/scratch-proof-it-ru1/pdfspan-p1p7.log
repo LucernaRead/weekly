@@ -1,0 +1,12 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P1 span 'Cosa succede, giorno per giorno' bbox pt=(1216.4,504.0)-(1429.1,524.6) size=14.25 -> svg right=1905.5 (vs 1862: +43.5px; vs 1950: -44.5px)
+P1 span 'СОДЕРЖАНИЕ' bbox pt=(1295.0,994.8)-(1424.0,1019.3) size=18.00 -> svg right=1898.7 (vs 1862: +36.7px; vs 1950: -51.3px)
+P7 span 'ERRORI TIPICI' bbox pt=(1096.1,161.5)-(1215.6,186.5) size=17.25 -> svg right=1620.8 (vs 1862: -241.2px; vs 1950: -329.2px)
+P7 span 'ТИПИЧНЫЕ ОШИБКИ' bbox pt=(1232.8,163.1)-(1422.4,186.6) size=17.25 -> svg right=1896.5 (vs 1862: +34.5px; vs 1950: -53.5px)
+== CORE P1 y=694 runs:
+   x=1461.5 Noto Sans CJK SC 19.0 '本周日程\u3000Cosa succede, giorno per giorno'
+== CORE P1 y=1352 runs:
+   x=1461.5 Noto Sans CJK SC 24.0 'IN QUESTO NUMERO\u3000本期目录'
+== CORE P7 y=242 runs:
+   x=1461.5 Noto Sans CJK SC 23.0 'ERRORI TIPICI\u3000常见错误'

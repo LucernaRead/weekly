@@ -1,0 +1,42 @@
+===== reproof2 core-zh-tw 2026-11-12T17:38:44Z =====
+/dev/mapper/rv  150G   94G   55G  64% /home/hatch
+checks.py RC=0
+CHART p4 [90.0, 450.0, 900.0] expect [90.0, 450.0, 900.0]
+CHART p6 dots [188.0, 695.21, 948.82, 1033.36, 1202.43] expect [188.0, 695.21, 948.82, 1033.36, 1202.43]
+CHECKS PASS
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+spill RC=0
+   ABOVE -24.45px x=1461.5 y=1189.7 [observe] 'Make your own sentence with it.'
+SPILL_SWEEP core-zh-tw: 36 boxes, 131 candidates, 0 SPILL, 131 OBSERVE
+boxtitle RC=0
+== core-zh-tw  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw/scratch-fanout-fix/backup/core-zh-tw
+BOXTITLE core-zh-tw: 48 titles, 659 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+EDGE_SCAN core-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+freeze diff RC=0
+p7: +1 strings / -1 strings; CJK core 822 -> edition 824; added CJK chars: 2 {'港': 1, '香': 1}; added Latin strings: 0 (unexpected 0)
+p8: +0 strings / -0 strings; CJK core 1114 -> edition 1114; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+TOTAL added CJK characters: 2
+TOTAL added Latin strings: 0 (unexpected 0)
+added CJK vs pre-fix: {'港': 1, '香': 1}
+textcheck-adapted RC=0
+print-vs-web added={} removed={}
+pre-vs-post-print added={'香': 1, '港': 1} removed={}
+TEXTCHECK-ADAPTED PASS
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8
+P8 min font: 9.75 max: 34.5
+OVERALL: ALL-GREEN

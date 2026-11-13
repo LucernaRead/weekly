@@ -1,0 +1,6 @@
+extracted: 119 registry: 150
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-delta-en-zh-tw/extract_exercises.py", line 38, in <module>
+    assert len(rows) == len(reg) == 150
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,36 @@
+answer region starts at char: 35983
+text.md answers vs p8-extract key-part: match 123/150; mismatches: [39, 41, 42, 43, 63, 64, 77, 78, 79, 80, 81, 82, 113, 114, 115, 116, 117, 118, 119, 121, 127, 128, 130, 131, 139, 147, 150]
+  n=39 want='B' candidates=[]
+  n=41 want='C' candidates=[]
+  n=42 want='B' candidates=[]
+  n=43 want='El flamenco es cante, toque y baile.' candidates=[]
+  n=63 want='La Liga volvió el viernes 20.' candidates=['La Liga volvió el viernes']
+  n=64 want='La jornada cerró el lunes 23.' candidates=['La jornada cerró el lunes']
+  n=77 want='Vas a votar el domingo 29.' candidates=[]
+  n=78 want='Va a abrirse la urna a las 9:00.' candidates=[]
+  n=79 want='Van a comparar precios antes de pagar.' candidates=[]
+  n=80 want='Verdadero' candidates=[]
+  n=81 want='Falso' candidates=[]
+  n=82 want='Verdadero' candidates=[]
+  n=113 want='A' candidates=[]
+  n=114 want='B' candidates=[]
+  n=115 want='A' candidates=[]
+  n=116 want='A' candidates=[]
+  n=117 want='A' candidates=[]
+  n=118 want='B' candidates=[]
+  n=119 want='A' candidates=[]
+  n=121 want='A' candidates=[]
+  n=127 want='B' candidates=[]
+  n=128 want='C' candidates=[]
+  n=130 want='A' candidates=[]
+  n=131 want='A' candidates=[]
+  n=139 want='El voto por correo se pide hasta el jueves 19.' candidates=['El voto por correo se pide hasta el jueves']
+  n=147 want='A' candidates=[]
+  n=150 want='✓' candidates=['✓ Vedi il modello, sezione H (97 parole)']
+no candidate at all: [39, 41, 42, 43, 77, 78, 79, 80, 81, 82, 113, 114, 115, 116, 117, 118, 119, 121, 127, 128, 130, 131, 147]
+  n=137: ['Lunedì è la Giornata internazionale del flamenco.'] want='Lunedì è la Giornata internazionale del flamenco.' ok=True
+  n=138: ['Sabato guardiamo il derby di Siviglia.'] want='Sabato guardiamo il derby di Siviglia.' ok=True
+  n=150: ['✓ Vedi il modello, sezione H (97 parole)'] want='✓' ok=False
+  n=43: [] want='El flamenco es cante, toque y baile.' ok=False
+  n=76: ['Voy a pedir el voto por correo.'] want='Voy a pedir el voto por correo.' ok=True
+  n=147: [] want='A' ok=False

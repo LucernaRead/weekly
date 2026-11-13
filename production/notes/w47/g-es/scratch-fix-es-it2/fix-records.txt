@@ -1,0 +1,81 @@
+content12.py:21
+  BEFORE: p.text(975, 614, "TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI", 16, "sans", False, GREY, anchor="middle")
+  AFTER : p.text(975, 614, "TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L’EDIZIONE PER I LETTORI ITALIANI", 16, "sans", False, GREY, anchor="middle")
+content12.py:275
+  BEFORE: e.bridge("Leggi l'articolo e scegli la risposta giusta.")
+  AFTER : e.bridge("Leggi l’articolo e scegli la risposta giusta.")
+content34.py:22
+  BEFORE: f.gloss("el cante = il canto · el toque = la chitarra · el baile = la danza · el compás = il ritmo · el duende = l'anima del flamenco.")
+  AFTER : f.gloss("el cante = il canto · el toque = la chitarra · el baile = la danza · el compás = il ritmo · el duende = l’anima del flamenco.")
+content34.py:61
+  BEFORE: e.bridge("Leggi l'articolo di pagina 3: vero o falso?")
+  AFTER : e.bridge("Leggi l’articolo di pagina 3: vero o falso?")
+content34.py:87
+  BEFORE: e.ex("A2", "Scelta multipla", "B", "L'UNESCO lo annunciò a Nairobi nel 2010",
+  AFTER : e.ex("A2", "Scelta multipla", "B", "L’UNESCO lo annunciò a Nairobi nel 2010",
+content34.py:93
+  BEFORE: e.ex("B1", "Scelta multipla", "B", "Dopo il flamenco: l'elezione del 29 novembre",
+  AFTER : e.ex("B1", "Scelta multipla", "B", "Dopo il flamenco: l’elezione del 29 novembre",
+content34.py:168
+  BEFORE: e.bridge("Leggi l'articolo di pagina 4 e scegli la risposta giusta.")
+  AFTER : e.bridge("Leggi l’articolo di pagina 4 e scegli la risposta giusta.")
+content56.py:29
+  BEFORE: f.gloss("el sobre = la busta · la papeleta = la scheda · el censo = il registro elettorale · el plazo = la scadenza · la urna = l'urna.")
+  AFTER : f.gloss("el sobre = la busta · la papeleta = la scheda · el censo = il registro elettorale · el plazo = la scadenza · la urna = l’urna.")
+content56.py:66
+  BEFORE: e.bridge("Leggi l'articolo di pagina 5 e scegli la risposta giusta.")
+  AFTER : e.bridge("Leggi l’articolo di pagina 5 e scegli la risposta giusta.")
+content56.py:86
+  BEFORE: e.ex("B1", "Completare frasi", "identidad", "documento de identidad = documento d'identità",
+  AFTER : e.ex("B1", "Completare frasi", "identidad", "documento de identidad = documento d’identità",
+content56.py:107
+  BEFORE: e.ex("B1", "Vero o falso", "Verdadero", "Quest'anno si può votare con MiDNI",
+  AFTER : e.ex("B1", "Vero o falso", "Verdadero", "Quest’anno si può votare con MiDNI",
+content56.py:218
+  BEFORE: e.ex("B2", "Scelta multipla", "B", "Sondaggio: foto con margine d'errore, un giorno preciso",
+  AFTER : e.ex("B2", "Scelta multipla", "B", "Sondaggio: foto con margine d’errore, un giorno preciso",
+content56.py:237
+  BEFORE: e.ex("B2", "Completare frasi", "margen de error", "margen de error = margine d'errore",
+  AFTER : e.ex("B2", "Completare frasi", "margen de error", "margen de error = margine d’errore",
+content7.py:20
+  BEFORE: a.bridge("L'ora: es la una (singolare), son las dos (plurale); una partita inizia a las 21:00.")
+  AFTER : a.bridge("L’ora: es la una (singolare), son las dos (plurale); una partita inizia a las 21:00.")
+content7.py:21
+  BEFORE: a.ex("A2", "Completare frasi", "Es", "Per l'una si usa il singolare Es",
+  AFTER : a.ex("A2", "Completare frasi", "Es", "Per l’una si usa il singolare Es",
+content7.py:27
+  BEFORE: a.ex("A2", "Scelta multipla", "B", "L'una si dice Es la una",
+  AFTER : a.ex("A2", "Scelta multipla", "B", "L’una si dice Es la una",
+content7.py:52
+  BEFORE: c.bridge("es necesario que, para que, ojalá con il congiuntivo; creo que con l'indicativo.")
+  AFTER : c.bridge("es necesario que, para que, ojalá con il congiuntivo; creo que con l’indicativo.")
+content7.py:69
+  BEFORE:     ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "L'una è singolare: si usa es."),
+  AFTER :     ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "L’una è singolare: si usa es."),
+content7.py:124
+  BEFORE:     ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Un sondaggio è una foto con margine d'errore, scattata un giorno preciso.", "Página 6"),
+  AFTER :     ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "Un sondaggio è una foto con margine d’errore, scattata un giorno preciso.", "Página 6"),
+content8.py:44
+  BEFORE: f.ex("B1", "Scelta multipla", "C", "MiDNI è l'app ufficiale di identificazione",
+  AFTER : f.ex("B1", "Scelta multipla", "C", "MiDNI è l’app ufficiale di identificazione",
+content8.py:67
+  BEFORE: f.ex("B1", "Formare frasi", "¿A qué hora empieza el debate?", "Parola interrogativa all'inizio",
+  AFTER : f.ex("B1", "Formare frasi", "¿A qué hora empieza el debate?", "Parola interrogativa all’inizio",
+content8.py:70
+  BEFORE: f.ex("A2", "Traduci", "Lunedì è la Giornata internazionale del flamenco.", "Cfr. l'originale.",
+  AFTER : f.ex("A2", "Traduci", "Lunedì è la Giornata internazionale del flamenco.", "Cfr. l’originale.",
+content8.py:72
+  BEFORE: f.ex("A2", "Traduci", "Sabato guardiamo il derby di Siviglia.", "Cfr. l'originale.",
+  AFTER : f.ex("A2", "Traduci", "Sabato guardiamo il derby di Siviglia.", "Cfr. l’originale.",
+content8.py:86
+  BEFORE:             ["sondeo=sondaggio c", "muestra=campione d", "margen de error=margine d'errore b", "junta electoral=commissione elettorale a"],
+  AFTER :             ["sondeo=sondaggio c", "muestra=campione d", "margen de error=margine d’errore b", "junta electoral=commissione elettorale a"],
+content8.py:91
+  BEFORE: f.ex("B1", "Cloze (scelta)", "A", "documento de identidad = carta d'identità",
+  AFTER : f.ex("B1", "Cloze (scelta)", "A", "documento de identidad = carta d’identità",
+content8.py:93
+  BEFORE: f.ex("B1", "Cloze (scelta)", "A", "¿dónde está la urna? Dov'è l'urna?",
+  AFTER : f.ex("B1", "Cloze (scelta)", "A", "¿dónde está la urna? Dov’è l’urna?",
+content8.py:100
+  BEFORE: f.bridge("Prova di scrittura (senza un'unica risposta giusta); testo modello (97 parole) qui sotto.")
+  AFTER : f.bridge("Prova di scrittura (senza un’unica risposta giusta); testo modello (97 parole) qui sotto.")

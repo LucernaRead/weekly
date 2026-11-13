@@ -1,0 +1,63 @@
+===== de 2026-11-12T18:14:51Z =====
+SHA de Lucerna-VOL4-ru-de.pdf 20880741B 730501b2763b full=730501b2763b6c51a01351660b05ec6c6b6a20fa587166a2206b0ee0b11ab6e0
+SHA de Lucerna-VOL4-ru-de-web.pdf 3334246B c0febc37287c full=c0febc37287c1257ec58869868e1cdb5e3e60bf175499fc66ea95c75bc5845fb
+SHA de 2026-w47-ru-de.text.md 63486B ffa8a21ec0be full=ffa8a21ec0be5dee4cb08b9245c8ee2d15a4910819e14aa328806f39fb64cba0
+NOTE de: SVG changed exactly as expected: ['p1-pervaya.svg', 'p2-zhizn.svg', 'p7-yazyk.svg']
+NOTE de: print-text word-diff lines: 12
+PASS de: verify OK
+DONE de
+===== fr 2026-11-12T18:22:01Z =====
+SHA fr Lucerna-VOL4-ru-fr.pdf 20880950B 0c38972146f9 full=0c38972146f9160c4e3f911efa09653144eb9d85f8a77e874fd446a8856234e0
+SHA fr Lucerna-VOL4-ru-fr-web.pdf 3334407B b36ecf778e27 full=b36ecf778e2707687bc19e48c941297190bb2423f3dd969451388c780aea0f09
+SHA fr 2026-w47-ru-fr.text.md 63364B 445daf81541a full=445daf81541af4f0f822d096e664428bd2f1e0dd23386d26809a1dcaa11a8e08
+NOTE fr: SVG changed exactly as expected: ['p2-zhizn.svg']
+NOTE fr: print-text word-diff lines: 4
+PASS fr: verify OK
+DONE fr
+===== it 2026-11-12T18:27:18Z =====
+SHA it Lucerna-VOL4-ru-it.pdf 20877138B b83c981d399f full=b83c981d399f25b647643d48ce2f70625e1b26f5ba3660d8e042f2144331d91a
+SHA it Lucerna-VOL4-ru-it-web.pdf 3330609B 47201c0d411c full=47201c0d411cc281ef974cce62004491890674dc0ac93b622b60708e4092e77f
+SHA it 2026-w47-ru-it.text.md 63971B ba59c4ff2368 full=ba59c4ff23683e51c5eeab362e190873eec03291c20b9b5ff291f9b8d614184e
+NOTE it: SVG changed exactly as expected: ['p2-zhizn.svg']
+NOTE it: print-text word-diff lines: 2
+PASS it: verify OK
+DONE it
+===== pt 2026-11-12T18:32:13Z =====
+SHA pt Lucerna-VOL4-ru-pt.pdf 20883685B 0c119e4a6afa full=0c119e4a6afa9748a81ea5e20af553a887756c070415a1b46ee9c474efc420e3
+SHA pt Lucerna-VOL4-ru-pt-web.pdf 3337224B 853af83ca0ff full=853af83ca0ff2c275fa995ee8a33b961b2de3042c8d66f48fd3a9689b47c65b0
+SHA pt 2026-w47-ru-pt.text.md 65113B 0920202237b2 full=0920202237b2c2bea8e244c06bce2ccb5d50f6ceeb5f42ca4318f5f790de8bf5
+NOTE pt: SVG changed exactly as expected: ['p2-zhizn.svg', 'p6-razbor.svg']
+NOTE pt: print-text word-diff lines: 4
+PASS pt: verify OK
+DONE pt
+===== nl 2026-11-12T18:37:54Z =====
+SHA nl Lucerna-VOL4-ru-nl.pdf 20876260B 5dedd8ecc30d full=5dedd8ecc30dae8a5a39ae1ed2e2066afc6c0e173d6b3dd5ae2056e2cd341e88
+SHA nl Lucerna-VOL4-ru-nl-web.pdf 3329737B 1abee50e0035 full=1abee50e00351cd4d9663bae1f2fd188f45a83a9f0bd1378c883bef97aba9622
+SHA nl 2026-w47-ru-nl.text.md 64011B b600944e5e5f full=b600944e5e5faacf6127e0a892c87519286bd2cd5429bbc070dafaf63fab184b
+NOTE nl: SVG changed exactly as expected: ['p2-zhizn.svg']
+NOTE nl: print-text word-diff lines: 4
+PASS nl: verify OK
+DONE nl
+===== ko 2026-11-12T18:44:53Z =====
+SHA ko Lucerna-VOL4-ru-ko.pdf 21975345B d97e04c036d6 full=d97e04c036d6c6d6007619565ce12d94b3cce4812b0310c4a3566ff0c1a82c9d
+SHA ko Lucerna-VOL4-ru-ko-web.pdf 3494537B 90059d0d6f40 full=90059d0d6f401faf3c05ccc68e3076c21beed4c2f4dc0689ec20251d7ee1c025
+SHA ko 2026-w47-ru-ko.text.md 65015B 5e34a2c5d29e full=5e34a2c5d29e1e858b6043f6f52ccb457a2a100171180c043518936a2a8279b5
+NOTE ko: SVG changed exactly as expected: ['p2-zhizn.svg']
+NOTE ko: print-text word-diff lines: 2
+PASS ko: verify OK
+DONE ko
+===== zh-tw 2026-11-12T18:48:59Z =====
+SHA zh-tw Lucerna-VOL4-ru-zh-tw.pdf 24763429B 7db5bece16d6 full=7db5bece16d64a47984db6babcf58a65ffbd5206334281f9f53afd84a157a069
+SHA zh-tw Lucerna-VOL4-ru-zh-tw-web.pdf 3976005B 31a07aa54b5a full=31a07aa54b5aef2b874ca2b37b4234749fc0135691c44390368c133e89d132c8
+SHA zh-tw 2026-w47-ru-zh-tw.text.md 60855B bc0a26a5267f full=bc0a26a5267ffe9e247d8a52c62e825a80437d986cfc0a529d48ee999d1d8a7b
+NOTE zh-tw: SVG changed exactly as expected: ['p7-yazyk.svg']
+NOTE zh-tw: print-text word-diff lines: 3
+PASS zh-tw: verify OK
+DONE zh-tw
+DRIVER DONE 2026-11-12T18:53:32Z
+SHA de Lucerna-VOL4-ru-de.pdf 20880736B 36d4cb6795ae full=36d4cb6795ae59ed2cf946b2d4f3be6fb844be8ef3edc2ae76d69d86d4c95d93
+SHA de Lucerna-VOL4-ru-de-web.pdf 3334229B acc21d4dd4a6 full=acc21d4dd4a69aab6fc60bcf8b5d52263309e9cceea9376528e9303f5a1d0fcc
+SHA de 2026-w47-ru-de.text.md 63483B 31d3eb3eb223 full=31d3eb3eb22309d9bc432abb5ab7f755844e43c9de4bdfd8cfd0677a630ea235
+NOTE de: SVG changed exactly as expected: ['p1-pervaya.svg', 'p2-zhizn.svg', 'p7-yazyk.svg']
+NOTE de: print-text word-diff lines: 15
+PASS de: verify OK

@@ -1,0 +1,37 @@
+===== de 2026-11-12T23:45:32Z disk=95G =====
+run.py rc=0
+  !! HEAD TOO WIDE [P1-fussball]: EINE WOCHE, ZWEI STIMMUNGEN
+  !! HEAD TOO WIDE [P8-battery]: B　WISSENSFRAGEN　Викторина
+  !! HEAD TOO WIDE [P8-battery]: D　SÄTZE BAUEN　Предложения
+  !! HEAD TOO WIDE [P8-battery]: F　WÖRTER PAAREN　Подбор слов
+probe rc=0 : 2026-w47-de-ru: runs=3398 LAT@NotoSans=0 LAT@Newsreader=26665 CYR@NotoSans=6954 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=84 curly={'Newsreader': 33}
+render.py rc=0
+print PDF mtime=2026-11-12 23:46:03.111932030 +0000 size=10506776
+ca76ee92a88b1687798051a4439b3714886a48693c674a8138d5f3d991f31c09  Die-Lucerna-VOL4-de-ru.pdf
+pre non-space chars: 39897; post non-space chars: 39897
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (56981 chars)
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 32920 bytes
+WROTE Die-Lucerna-VOL4-de-ru-web.pdf: 1654528 bytes, 57997 text bytes
+web PDF mtime=2026-11-12 23:46:25.689518784 +0000 size=1654528
+8cd1342d91f4098476fc3be48cd82ab9f5365fd232f2b47c9a3de4eb1b259b9c  Die-Lucerna-VOL4-de-ru-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-front.svg: No such file or directory
+svg/p1-front.svg: FAILED open or read
+sha256sum: svg/p2-leben.svg: No such file or directory
+svg/p2-leben.svg: FAILED open or read
+sha256sum: svg/p3-kultur.svg: No such file or directory
+svg/p3-kultur.svg: FAILED open or read
+sha256sum: svg/p4-sport.svg: No such file or directory
+svg/p4-sport.svg: FAILED open or read
+sha256sum: svg/p5-jugend.svg: No such file or directory
+svg/p5-jugend.svg: FAILED open or read
+sha256sum: svg/p6-vertiefung.svg: No such file or directory
+svg/p6-vertiefung.svg: FAILED open or read
+sha256sum: svg/p7-sprache.svg: No such file or directory
+svg/p7-sprache.svg: FAILED open or read
+sha256sum: svg/p8-uebungen.svg: No such file or directory
+svg/p8-uebungen.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE de 2026-11-12T23:46:26Z

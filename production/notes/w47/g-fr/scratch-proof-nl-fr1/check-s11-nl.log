@@ -1,0 +1,18 @@
+p1-voorpagina.svg: VOL.4 core=3 ed=3 | VOL.5 core=0 ed=0 | chips core=10 ed=10
+p2-leven.svg: VOL.4 core=1 ed=1 | VOL.5 core=1 ed=1 | chips core=15 ed=15
+p3-cultuur.svg: VOL.4 core=1 ed=1 | VOL.5 core=0 ed=0 | chips core=18 ed=18
+p4-sport.svg: VOL.4 core=1 ed=1 | VOL.5 core=0 ed=0 | chips core=18 ed=18
+p5-jongeren.svg: VOL.4 core=1 ed=1 | VOL.5 core=0 ed=0 | chips core=18 ed=18
+p6-verdieping.svg: VOL.4 core=1 ed=1 | VOL.5 core=0 ed=0 | chips core=18 ed=18
+p7-taal.svg: VOL.4 core=1 ed=1 | VOL.5 core=4 ed=4 | chips core=12 ed=12
+p8-toets.svg: VOL.4 core=1 ed=1 | VOL.5 core=0 ed=0 | chips core=35 ed=35
+colour set: core 19 edition 19 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min SVG font-size: 13.5
+P8 chips: edition=35 core=35
+P8 numbered heads checked: chip-colour match failures: []
+range head '25–28.' present: True
+range head '141–144.' present: True
+ALL §1.1/P8 CHECKS PASS

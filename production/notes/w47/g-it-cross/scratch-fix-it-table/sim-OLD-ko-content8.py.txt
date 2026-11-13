@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "문장 만들기", "Il torrone si assaggia a Cremona.", "주어 + 동사 + 장소",
+      "il torrone / si assaggia / a Cremona → ___", instr="문장 만들기", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "번역하기", "성모 건강 축일에는 사람들이 서원의 다리를 건넌다.", "원문과 비교하세요",
++f.ex("A2", "翻译", "성모 건강 축일에는 사람들이 서원의 다리를 건넌다.", "원문과 비교하세요",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="한국어로 번역하세요", size=15.5, gap=1)
+-f.ex("B1", "번역하기", "일요일 저녁, 아탈란타가 인터와 경기한다.", "si gioca = 경기가 있다",
++f.ex("B1", "翻译", "일요일 저녁, 아탈란타가 인터와 경기한다.", "si gioca = 경기가 있다",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="한국어로 번역하세요", size=15.5, gap=1)
+-f.ex("B1", "번역하기", "토요일, 라치오는 홈에서 레체와 경기한다.", "in casa = 홈에서",
++f.ex("B1", "翻译", "토요일, 라치오는 홈에서 레체와 경기한다.", "in casa = 홈에서",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="한국어로 번역하세요", size=15.5, gap=1)
+-f.ex("B2", "번역하기", "Ogni cifra deve essere chiara.", "dovere = ~해야 한다",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = ~해야 한다",
+      "모든 숫자는 분명해야 합니다. → ___", instr="이탈리아어로 번역하세요", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "단어 짝짓기",

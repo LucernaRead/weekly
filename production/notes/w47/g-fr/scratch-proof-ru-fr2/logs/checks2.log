@@ -1,0 +1,41 @@
+D1 fr KEEP values: ['Фокус на язык\u3000Три уровня, три темы\u3000Trois niveaux, trois sujets', 'ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000DONNÉES D’EXERCICE', 'Это учебный опрос редакции для упражнений — не настоящая статистика. Ceci est un sondage d’exercice de la rédaction — pas de vraies statistiques.', 'PAGE 8\u3000Большой тест недели + все ответы']
+D1 s1 in p6 SVG: True; s2 in p6 SVG: True
+D1 s3 in p7 SVG: True; s4 in p8 SVG: True
+D1 s2 in text.md (must be False): False
+D1 text.md 'УЧЕБНЫЕ ДАННЫЕ' lines=[459] (expect [459])
+D1 text.md 'Три уровня, три темы' lines=[504] (expect [504])
+D1 text.md 'Большой тест недели + все ответы' lines=[596] (expect [596])
+D2 full phrase 'Международный день студента' ed=2 core=2 (expect equal)
+D2 short 'День студента' in text.md: 11x; Q25 line: ['25. 17 ноября — День студента (key b · Journée des étudiants b)', '25. b — Journée des étudiants b']
+D6 'желании' text.md=2x (expect 2); p2 svg=0x
+D6 Q20 key line: ['20. [B1 · Compléter] Дети пишут Деду Морозу о своём ___. — key: желании (желание = un vœu) [Compléter]', '20. желании — желание = un vœu']
+literal '___' occurrences in text.md: 87 (task: 87, core-inherited template gap, not a defect)
+SVG real CJK (excl U+3000): 0 []
+U+3000 count in SVGs: 123
+text.md CJK chars: [] count=0; U+3000=0
+ABSTRACT.txt CJK chars: [] count=0; U+3000=0
+kicker tokens=['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ'] gaps=[7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6] min=5.9 (expect 9 gaps, min 5.9)
+kicker full raw: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'
+kicker core P1 row identical: True
+pages print=8 web=8
+text multiset identical overall: True; per-page: [True, True, True, True, True, True, True, True]; chars=30771
+space/newline diff computed below
+spaces print=4880 web=4880 (diff 0); newlines print=1599 web=1599 (diff 0)
+print fonts italic: ['EWWBLY+NotoSerif-MediumItalic', 'HGZRNG+Newsreader16pt-Italic']
+web fonts italic: ['AJXUPU+LucernaNotoSerif-Italic', 'IEMHBC+LucernaNewsreader-Italic']
+web fonts total: 69; print fonts total: 69
+P1 term spans print: [('NotoSerif-Medium', 18.75, 'чёрная пятница'), ('NotoSerif-Medium', 18.0, 'чёрная пятница'), ('NotoSerif-Medium', 14.62, 'Чёрная пятница'), ('NotoSerif-Bold', 15.0, 'Чёрная пятница'), ('NotoSerif-Medium', 15.0, 'Чёрная пятница'), ('NotoSerif-MediumItalic', 16.12, 'чёрная пятница'), ('NotoSans-Medium', 14.25, 'чёрная пятница'), ('NotoSerif-Medium', 15.75, 'чёрная пятница')]
+P1 term spans web: [('LucernaNotoSerif-Regular', 18.75, 'чёрная пятница'), ('LucernaNotoSerif-Regular', 18.0, 'чёрная пятница'), ('LucernaNotoSerif-Regular', 14.62, 'Чёрная пятница'), ('LucernaNotoSerif-Bold', 15.0, 'Чёрная пятница'), ('LucernaNotoSerif-Regular', 15.0, 'Чёрная пятница'), ('LucernaNotoSerif-Italic', 16.12, 'чёрная пятница'), ('LucernaNotoSans-Regular', 14.25, 'чёрная пятница'), ('LucernaNotoSerif-Regular', 15.75, 'чёрная пятница')]
+web P1 'чёрнаяпятница' (no-space) spans: []
+print P1 'чёрнаяпятница': []
+count ' »' print: 1 web: 1
+P8-page min font print: 9.75 overall min=9.75; P8-only min=9.75
+P8-page min font web: 9.75 overall min=9.75; P8-only min=9.75
+web-p1 render exists: check visually in report
+H model text words: 6 (expect 97)
+H model text first 60 chars: '«Проверьте срок: промокод действует 4–7 дней».'
+core p8 caption runs (y>=2450): [' ', '(Wikimedia Commons)', '+ ', ',', ', ', '.', '. ', '. — ', '11', '118. A — ', '119. A — ', '120. A — ', '15', '16', '16 ', '1932 ', '20', '30', '38. ', '39. b — ', '40. d — ', '4–7 ', '79. ', '80. «', '81. ', ': ', 'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY', 'b', 'd', '«', '» ', '»: ', 'Билибин', 'Билибина', 'Зимняя', 'Иван', 'Ивана', 'Иллюстрация', 'Морозко', 'Промокод', 'Сначала', 'Чёрная', 'год', 'действует', 'дней', 'достояние', 'иллюстрация', 'к', 'начинается', 'ноябрю', 'ноября', 'общественное', 'потом', 'промокод', 'пятница', 'сказка', 'список', 'цены', '— ', '— 19 + ', '主语', '价格，再折扣码', '传记片', '先清单，后', '动词', '属格：', '日', '日开始', '时间', '月', '第', '第8版／共8版', '纪录片', '网络星期一', '轮', '黑五']
+freeze Cyrillic removed: [('8', 'Билибин', 1), ('8', 'Билибина', 1), ('8', 'Зимняя', 1), ('8', 'Иван', 1), ('8', 'Ивана', 1), ('8', 'Иллюстрация', 1), ('8', 'Морозко', 1), ('8', 'год', 1), ('8', 'достояние', 1), ('8', 'иллюстрация', 1), ('8', 'к', 1), ('8', 'можно', 1), ('8', 'ноябрю', 1), ('8', 'общественное', 1), ('8', 'сказка', 1)]
+freeze Cyrillic unexplained (must be []): []
+Morozko present in edition p8 (must be False): False
+checks2 DONE

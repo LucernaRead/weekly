@@ -1,0 +1,17 @@
+p1-une.svg: els 192->245 lines 115->115 diff 0 moved 18 defects 1 observe 0
+  DEFECT abs box#3 y=1320.0 'SOMMARIO' over={'right': 16.9}
+p2-vie.svg: els 193->249 lines 130->131 diff 41 moved 66 defects 0 observe 0
+p3-culture.svg: els 192->232 lines 147->147 diff 4 moved 19 defects 1 observe 0
+  DEFECT abs box#2 y=1177.6 'LES DATES EN CHIFFRES' over={'right': 7.6}
+p4-sport.svg: els 210->248 lines 165->165 diff 0 moved 16 defects 1 observe 0
+  DEFECT abs box#1 y=693.9899999999999 'LES PHRASES DU COMMENTATEUR' over={'right': 36.5}
+p5-jeunesse.svg: els 196->228 lines 152->152 diff 2 moved 15 defects 1 observe 0
+  DEFECT abs box#4 y=1575.6 'CINEMA' over={'right': 57.3}
+p6-politique.svg: els 214->245 lines 164->164 diff 0 moved 16 defects 2 observe 0
+  DEFECT abs box#1 y=1370.0 'CALENDARIO DEL BILANCIO (VOTO MERCOLEDÌ)' over={'right': 18.7}
+  DEFECT abs box#3 y=1367.0 'TROIS DATES POUR COMPRENDRE' over={'right': 24.5}
+p7-langue.svg: els 192->224 lines 120->120 diff 2 moved 13 defects 0 observe 0
+p8-exercices.svg: els 324->685 lines 196->200 diff 84 moved 48 defects 0 observe 0
+ratios: n=520 median=1.017 boldT=1.056 boldF=0.998
+P8 p8-exercices.svg: lines 196->200 slack_footer 38.1->44.3
+CREAMBOX FAIL 6 defects

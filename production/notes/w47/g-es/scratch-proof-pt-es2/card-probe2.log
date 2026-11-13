@@ -1,0 +1,46 @@
+== D1 P1 EM-BREVE box bottom 2348; dark px per row, y 2320..2400, x 1440..1862
+{2320: 77, 2321: 84, 2322: 78, 2323: 64, 2324: 66, 2325: 73, 2326: 127, 2327: 105, 2328: 8, 2329: 7, 2330: 5, 2331: 9, 2332: 5, 2349: 422, 2350: 422, 2369: 1, 2370: 4, 2371: 19, 2372: 29, 2373: 17, 2374: 16, 2375: 187, 2376: 249, 2377: 121, 2378: 116, 2379: 128, 2380: 180, 2381: 115, 2382: 109, 2383: 123, 2384: 243, 2385: 177, 2386: 11, 2387: 9, 2388: 9, 2389: 13, 2390: 12}
+== P1 EN BREVE title: dark px per column, x 1850..1875, y 1892..1918
+{1852: 18, 1853: 18, 1854: 18, 1855: 18, 1856: 9, 1857: 9, 1858: 9, 1859: 9, 1860: 9, 1861: 9, 1862: 6}
+   same columns, thr=245 (any non-white): {1858: 27, 1859: 27, 1860: 27, 1861: 27, 1862: 6, 1863: 3}
+== D2 P3 schedule box bottom 551; dark px per row, y 530..580, x 1440..1862
+{530: 14, 531: 22, 532: 31, 533: 26, 534: 21, 535: 20, 536: 17, 537: 20, 538: 25, 539: 39, 540: 36}
+== D3 P6 timeline box bottom 854; dark px per row, y 830..880, x 1440..1862
+{830: 27, 831: 130, 832: 113, 833: 90, 834: 89, 835: 86, 836: 82, 837: 80, 838: 82, 839: 134, 840: 128, 841: 8, 842: 8, 843: 7, 844: 12, 845: 12}
+== P5 E VOCE box bottom 811.5; dark px per row, y 795..850, x 1440..1862
+{795: 43, 796: 101, 797: 76, 798: 52, 799: 55, 800: 83, 801: 81, 802: 53, 803: 51, 804: 74, 805: 98, 806: 34, 807: 2, 808: 2, 809: 3, 810: 4, 811: 1, 837: 396, 838: 396, 839: 396, 840: 396, 841: 397, 842: 397, 843: 396, 844: 397, 845: 396, 846: 396, 847: 391, 848: 381, 849: 368, 850: 347}
+== P8 model-text SVG lines (x, y, size, text):
+   x=88 y=1415.9 fs=13.0 '2. feriado — feriado = día festivo'
+   x=88 y=1443.9 fs=13.0 '3. sexta — sexta = viernes'
+   x=88 y=1472.0 fs=13.0 '4. três — Tres días de fiesta: 20, 21 y 22'
+   x=88 y=1500.0 fs=13.0 '5. 6 — La final es el 6 de diciembre'
+   x=88 y=1528.1 fs=13.0 '6. decidem — decidir, presente, forma de eles: decidem'
+   x=88 y=1556.2 fs=13.0 '7. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   x=88 y=1584.2 fs=13.0 '8. B — En 2026, el 20 de noviembre es viernes'
+   x=88 y=1612.3 fs=13.0 '9. C — La final: el Grêmio × Palmeiras'
+   x=88 y=1640.3 fs=13.0 '10. B — La clave oficial se publica antes de finales de noviembre'
+   x=88 y=1669.4 fs=14.0 '— PÁGINA 2 —'
+   x=88 y=1700.6 fs=13.0 '11. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   x=88 y=1728.7 fs=13.0 '12. B — En 2026, el 20 de noviembre es viernes'
+   x=88 y=1756.8 fs=13.0 '13. B — Tres días de fiesta: 20, 21 y 22'
+   x=88 y=1784.8 fs=13.0 '14. B — Los autobuses pueden pasar con menos frecuencia el día'
+   x=88 y=1799.4 fs=13.0 'festivo'
+   x=88 y=1827.4 fs=13.0 '15. B — El Black Friday es el 27 de noviembre'
+== P8 model-text card rightmost-dark per line (band = baseline-24..baseline+8):
+   y=1415.9 rightmost=1833 clear vs 1862: 29 | '2. feriado — feriado = día festivo'
+   y=1443.9 rightmost=1790 clear vs 1862: 72 | '3. sexta — sexta = viernes'
+   y=1472.0 rightmost=1855 clear vs 1862: 7 | '4. três — Tres días de fiesta: 20, 21 y 22'
+   y=1500.0 rightmost=1856 clear vs 1862: 6 | '5. 6 — La final es el 6 de diciembre'
+   y=1528.1 rightmost=1721 clear vs 1862: 141 | '6. decidem — decidir, presente, forma de eles: decidem'
+   y=1556.2 rightmost=1740 clear vs 1862: 122 | '7. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1584.2 rightmost=1812 clear vs 1862: 50 | '8. B — En 2026, el 20 de noviembre es viernes'
+   y=1612.3 rightmost=1820 clear vs 1862: 42 | '9. C — La final: el Grêmio × Palmeiras'
+   y=1640.3 rightmost=1820 clear vs 1862: 42 | '10. B — La clave oficial se publica antes de finales de novi'
+   y=1669.4 rightmost=1788 clear vs 1862: 74 | '— PÁGINA 2 —'
+   y=1700.6 rightmost=1662 clear vs 1862: 200 | '11. B — El Día de la Conciencia Negra es el 20 de noviembre'
+   y=1728.7 rightmost=1712 clear vs 1862: 150 | '12. B — En 2026, el 20 de noviembre es viernes'
+   y=1756.8 rightmost=1722 clear vs 1862: 140 | '13. B — Tres días de fiesta: 20, 21 y 22'
+   y=1784.8 rightmost=1721 clear vs 1862: 141 | '14. B — Los autobuses pueden pasar con menos frecuencia el d'
+   y=1799.4 rightmost=1703 clear vs 1862: 159 | 'festivo'
+   y=1827.4 rightmost=1832 clear vs 1862: 30 | '15. B — El Black Friday es el 27 de noviembre'
+DONE

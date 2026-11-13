@@ -1,0 +1,5 @@
+[P2 cards 1x] strip below bottom: non-paper=0 | lowest true-ink y=1439.16 (baseline 1440.16) margin to bottom: +6.64px -> 0 ink: FALSE POSITIVE
+[P2 print-PDF 150dpi] strip below bottom: non-paper=0 | lowest true-ink y=1440.24 (baseline 1440.16) margin to bottom: +5.56px -> 0 ink: FALSE POSITIVE
+[P5 cards 1x] strip below bottom: non-paper=0 | lowest true-ink y=1016.25 (baseline 1017.25) margin to bottom: +7.25px -> 0 ink: FALSE POSITIVE
+[P5 print-PDF 150dpi] strip below bottom: non-paper=0 | lowest true-ink y=1017.33 (baseline 1017.25) margin to bottom: +6.17px -> 0 ink: FALSE POSITIVE
+done

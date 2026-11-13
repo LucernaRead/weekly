@@ -1,0 +1,20 @@
+D4 nl-de: lines=430 marker'— Antwort:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-en: lines=430 marker'— Correct:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-es: lines=430 marker'— Respuesta:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-fr: lines=430 marker'— Réponse:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-it: lines=430 marker'— Risposta:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-ja: lines=430 marker'— 答え：'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-ko: lines=430 marker'— 정답：'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-pt: lines=430 marker'— Resposta:'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 nl-ru: lines=430 marker'— Ответ：'=142 bare-match=8 答案residual=0 foreign-marks=[]
+D4 CONTROL core-nl zh-cn: lines=432 答案-lines=162 答案-occ=168 '— 答案：'=142
+D4 CONTROL nl-zh-tw: lines=430 答案-lines=162 答案-occ=168 '— 答案：'=142
+D5 SVG line y=1054.3699999999997 x=1461.5 size=21.5 :: Stand Eredivisie na 12 ronden: PSV
+D5 SVG line y=1084.8999999999996 x=1461.5 size=21.5 :: 26, Feyenoord 25, Ajax 25 punten.
+D5 cream rects P4: [('538.5', '902.68', '422.5', '179.39999999999998'), ('1439.5', '591.5999999999999', '422.5', '611.0')]
+PDF print: pages=8
+PDF print P2 has new-c-option: True old: False
+PDF print P4 has standings: True full-line: False
+PDF web: pages=8
+PDF web P2 has new-c-option: True old: False
+PDF web P4 has standings: True full-line: False

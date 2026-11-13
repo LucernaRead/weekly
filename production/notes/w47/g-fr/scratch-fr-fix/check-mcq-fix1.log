@@ -1,0 +1,6 @@
+bodies: 46  rendered lines: 1437
+
+DEFECTS: 0
+
+UNLOCATED: 1
+  [content8.py] "One cloze option line with its own level chip: chip at the row\n    head, the 'N. A. ... B. ... C. ...' text shifted right by 72px.\n    Under the text-export stubs (no _fit/_ph: export47.py) this only\n    records the option line, exactly as the old bf.para call did."

@@ -1,0 +1,264 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　每週一期　讀西班牙人正在讀的西班牙語", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "西班牙語週報　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 614, "西班牙語正文　繁體中文講解 — 給繁體中文讀者的版本", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "競選首週　距大選13天", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "本期頭條　詳見第2、6版", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　頭條", 17, "sans", True, OLIVE)
+f.bridge("譯注｜la campaña electoral 競選活動 · el debate 辯論 · el cara a cara 兩人正面辯論 · el voto por correo 郵寄投票 · la jornada de reflexión 投票前靜默日。")
+f.box("LA SEMANA EN CIFRAS　數字看本週", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29（距 29 日大選 13 天）", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27（競選共 15 天）", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo（週四 19 日是郵寄投票申請截止日）", "serif", False, INK, 20.5, 1.35),
+], tsize=21)
+f.head("AHORA TÚ　即學即練", 25)
+f.ex("A2", "完成句子", "13", "競選 11 月 13 日週五零點開始",
+f.ex("A2", "完成句子", "29", "大選在 11 月 29 日週日",
+f.ex("A2", "完成句子", "19", "郵寄投票最遲須在 19 日申請",
+f.ex("A2", "完成句子", "16", "國際佛朗明哥日 11 月 16 日週一",
+f.ex("B1", "完成句子", "20", "聯賽第 13 輪 11 月 20 日週五開戰",
+f.ex("B1", "完成句子", "15", "競選持續 15 天",
+p.text(gx + 22, gy + 106, "本週五大看點　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "五大看點，不編數字：全在本期裡講清。", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　本期目錄", 24, "sans", True, OLIVE)
+p.para(gx, wy + 10, "「辯論」：人們公開討論。", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　快訊", 24, "sans", True, OLIVE)
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　閃電問答", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "讀頭版，選出正確答案　答案見第8版", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "單選", "B", "競選持續 15 天",
+qf.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+qf.ex("A2", "單選", "B", "國際佛朗明哥日 11 月 16 日",
+p.band("VIDA　生活", "La Lucerna", "NIVEL A2　La semana, día a día　這一週，一天一天看")
+f.box("EL CALENDARIO　本週日曆", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo（週一：國際佛朗明哥日；提議舉行雙雄辯論）", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele（週二：競選走遍西班牙）", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP)（週三：電台住房辯論，PSOE 對 PP）", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo（週四：郵寄投票申請截止）", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00（週五晚：聯賽回歸）", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00（週六：塞維亞德比）", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música（週日：巴薩對黃潛；聖塞西莉亞節）", "serif", False, INK, 21, 1.36),
+f.gloss("el debate 辯論 · el mitin 競選集會 · el cartel 海報 · el escaño 議席。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("11 月 16 日週一你做什麼：看佛朗明哥、跟競選還是看足球？你更喜歡什麼：辯論還是德比？寫兩句西班牙語寄給編輯部。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　說說你自己", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "11 月 16 日週一你做什麼：看佛朗明哥、跟競選還是看足球？你更喜歡什麼：辯論還是德比？寫兩句西班牙語寄給編輯部。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　這樣說日期", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　11月16日週一至22日週日", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　第2版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e.bridge("用正確的日期形式補全句子。")
+e.ex("A2", "完成句子", "16", "11 月 16 日週一",
+e.ex("A2", "完成句子", "19", "11 月 19 日週四",
+e.ex("A2", "完成句子", "29", "大選在 11 月 29 日",
+e.ex("A2", "完成句子", "22", "11 月 22 日週日",
+e.ex("A2", "完成句子", "noviembre", "月份小寫",
+e.bridge("補全動詞的現在時形式。")
+e.bridge("讀第 2 版文章，選出正確答案。")
+e.ex("A2", "單選", "B", "國際佛朗明哥日 11 月 16 日週一",
+e.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+e.ex("A2", "單選", "C", "聯賽 11 月 20 日週五回歸",
+e.ex("B1", "單選", "B", "11 月 24–28 日不公布民調",
+e.match_set("A2", "詞彙配對",
+            ["debate=辯論 c", "mitin=集會 b", "cartel=海報 d", "escaño=議席 a"],
+            instr="把詞和釋義配對")
+p.band("CULTURA　文化", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　佛朗明哥與聖塞西莉亞")
+f.gloss("el cante 歌唱 · el toque 吉他彈奏 · el baile 舞蹈 · el compás 節拍 · el duende 佛朗明哥的靈魂。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你聽過佛朗明哥嗎？你的國家有什麼帶「魂」的音樂？寫兩句寄來。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　說說你自己", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "你聽過佛朗明哥嗎？你的國家有什麼帶「魂」的音樂？寫兩句寄來。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　第3版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e.bridge("讀第 3 版文章，判斷對錯。")
+e.ex("A2", "判斷對錯", "Verdadero", "國際佛朗明哥日 11 月 16 日週一",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("A2", "判斷對錯", "Verdadero", "UNESCO 2010 年將佛朗明哥列入非遺",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("A2", "判斷對錯", "Falso", "佛朗明哥不只是舞蹈：歌、琴、舞三位一體",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("B1", "判斷對錯", "Falso", "聖塞西莉亞 11 月 22 日，是音樂守護神",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("A2", "判斷對錯", "Verdadero", "畢爾巴鄂市樂隊 11 月 22 日 12:00 演出",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.bridge("用方框裡的詞填空。")
+e.ex("A2", "完成句子", "palmas", "palmas = 擊掌",
+e.ex("B1", "完成句子", "compás", "compás = 節拍",
+e.bridge("選出正確答案。")
+e.ex("A2", "單選", "B", "UNESCO 2010 年內羅畢宣布",
+e.ex("A2", "單選", "A", "duende 是音樂打動人心的時刻",
+e.ex("B1", "單選", "C", "佛朗明哥源於安達魯西亞多文化交融",
+e.ex("B1", "單選", "B", "佛朗明哥日之後大選在 11 月 29 日",
+e.bridge("把詞組成正確的句子。")
+e.ex("A2", "造句", "El flamenco es cante, toque y baile.", "主語 + 動詞 + 表語",
+e.ex("B1", "造句", "En noviembre suena la guitarra en España.", "時間在前，動詞第二",
+e.ex("B1", "造句", "En Bilbao toca la banda el domingo.", "地點在前，動詞第二",
+e.ex("B1", "句型轉換", "Todos preguntan si hay duende.", "間接疑問用 si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="改寫", size=20, gap=8)
+p.band("DEPORTE　體育", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　聯賽回歸：第13輪")
+f.gloss("la jornada 輪次 · el derbi 德比 · el liderato 榜首 · el parón 休賽期 · la fase liga 聯賽階段。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("週六 18:30 你看哪一場：塞維亞德比還是皇馬對塞爾塔？聯賽誰奪冠：巴薩還是皇馬？寫兩句西班牙語寄來。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　說說你自己", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "週六 18:30 你看哪一場：塞維亞德比還是皇馬對塞爾塔？聯賽誰奪冠：巴薩還是皇馬？寫兩句西班牙語寄來。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　第13輪六場焦點戰", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　第4版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e.bridge("讀第 4 版文章，選出正確答案。")
+e.ex("B1", "單選", "C", "塞維亞德比週六 18:30",
+e.ex("B1", "單選", "A", "巴薩–黃潛週日 14:00",
+e.match_set("B1", "詞彙配對",
+            ["jornada=輪次 c", "derbi=德比 b", "liderato=榜首 a", "fase liga=聯賽階段 d"],
+            instr="把詞和釋義配對")
+e.bridge("用括號裡詞的比較級或 -ísimo 形式填空。")
+e.ex("B1", "完成句子", "más importante", "más + importante（榜首之爭更重要）",
+e.ex("B1", "完成句子", "peor", "malo 的比較級是 peor",
+e.ex("B1", "完成句子", "mejor", "bueno 的比較級是 mejor",
+e.bridge("把句子改成過去時（pretérito indefinido）。")
+e.ex("B1", "句型轉換", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="改寫", size=20, gap=8)
+f.box("EL PLAN DE LA SEMANA　本週計劃", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña（週一：佛朗明哥日＋競選首週）", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo（週四：郵寄投票申請截止）", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00（週五晚：聯賽回歸）", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30（週六：塞維亞德比）", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia（週日：巴薩對黃潛；聖塞西莉亞節）", "serif", False, INK, 21, 1.36),
+], tsize=21)
+f.gloss("el sobre 信封 · la papeleta 選票 · el censo 選民名冊 · el plazo 期限 · la urna 投票箱。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你會郵寄投票還是親自去投票？黑色星期五你會買什麼：實用的東西還是一時興起？寫兩句寄來。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　說說你自己", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "你會郵寄投票還是親自去投票？黑色星期五你會買什麼：實用的東西還是一時興起？寫兩句寄來。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　第5版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e.bridge("讀第 5 版文章，選出正確答案。")
+e.ex("B1", "單選", "B", "郵寄投票最遲須在 19 日申請",
+e.ex("B1", "單選", "A", "材料從 11 月 9 日起寄出",
+e.ex("B1", "單選", "B", "MiDNI 是今年投票身分驗證的新方式",
+e.ex("B1", "單選", "A", "黑色星期五 11 月 27 日週五",
+e.bridge("用方框裡的詞填空。注意：有的詞要變位。")
+e.ex("B1", "完成句子", "correo", "correo = 郵局/郵寄",
+e.ex("B1", "完成句子", "papeleta", "papeleta = 選票",
+e.ex("B1", "完成句子", "envío", "enviar 變位 → envío",
+e.ex("B1", "完成句子", "identidad", "documento de identidad 身分證件",
+e.ex("B1", "完成句子", "censo", "censo = 選民名冊",
+e.bridge("用 ir a + 原形動詞改寫句子，表示「將要」。")
+e.ex("B1", "句型轉換", "Voy a pedir el voto por correo.", "voy a + 原形",
+     "Pido el voto por correo. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "Vas a votar el domingo 29.", "vas a + 原形",
+     "Votas el domingo 29. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "Va a abrirse la urna a las 9:00.", "va a + 原形",
+     "La urna se abre a las 9:00. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "句型轉換", "Van a comparar precios antes de pagar.", "van a + 原形",
+     "Comparan precios antes de pagar. → ___", instr="改寫", size=20, gap=8)
+e.ex("B1", "判斷對錯", "Verdadero", "郵寄投票可在 Correos 申請",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("B1", "判斷對錯", "Falso", "靜默日是週六 28 日，不是週日",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+e.ex("B1", "判斷對錯", "Verdadero", "今年可用 MiDNI 應用驗證身分投票",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="判斷", size=20, gap=8)
+p.band("A FONDO　深讀", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　讀懂競選：辯論、政綱與民調")
+p.text(MX, ey + 28, "EJERCICIOS　第6版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+e.bridge("看上面兩張圖，選出正確答案。")
+e.ex("B2", "單選", "A", "PSOE 與 PP 各 45 分鐘免費宣傳",
+e.ex("B2", "單選", "B", "免費宣傳共 195 分鐘",
+e.ex("B2", "單選", "C", "Podemos 15 分鐘",
+e.ex("B2", "單選", "A", "禁發民調共 5 天（11 月 24–28 日）",
+e.ex("B2", "單選", "C", "本報只刊登選管會公布的免費時段數據並註明來源",
+e.ex("B2", "單選", "B", "截至 11 月 10 日只有 laSexta 辯論已確定",
+e.ex("B2", "單選", "A", "laSexta 辯論 11 月 13 日週五 21:30",
+e.ex("B2", "單選", "B", "民調是帶誤差的具體某天的照片",
+e.ex("B2", "完成句子", "tenga", "es posible que + 虛擬式 tenga",
+e.ex("B2", "完成句子", "sea", "es importante que + 虛擬式 sea",
+e.ex("B2", "完成句子", "para que", "para que + 虛擬式（目的）",
+e.ex("B2", "完成句子", "Aunque", "Aunque 後接陳述式（已知事實）",
+e.bridge("用方框裡的詞填空：sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "完成句子", "sondeo", "sondeo = 民調",
+e.ex("B2", "完成句子", "muestra", "muestra = 樣本",
+e.ex("B2", "完成句子", "indecisos", "indecisos = 未決定者",
+e.ex("B2", "完成句子", "margen de error", "margen de error = 誤差範圍",
+p.band("LENGUA　語言", "La Lucerna", "語言聚焦　Tres niveles, tres herramientas　三個級別，三件工具")
+a.bridge("時間：es la una（單數）、son las dos（複數）；比賽在 a las 21:00 開球。")
+a.ex("A2", "完成句子", "Es", "1 點用單數 Es",
+a.ex("A2", "完成句子", "Son", "多點用複數 Son",
+a.ex("A2", "完成句子", "las", "a las 21:00（介詞 a）",
+b.bridge("比較級 más…que、tan…como；bueno→mejor、malo→peor；絕不說 más mejor。")
+b.ex("B1", "完成句子", "más goles", "más + goles（進球更多）",
+b.ex("B1", "完成句子", "tan rápido", "tan + rápido + como（同樣快）",
+b.ex("B1", "完成句子", "mejor", "bueno 的比較級是 mejor（不用 más）",
+b.ex("B1", "單選", "B", "más mejor 是錯誤說法",
+c.bridge("es necesario que、para que、ojalá 後用虛擬式；creo que 後用陳述式。")
+c.ex("B2", "完成句子", "baje", "es necesario que + 虛擬式 baje",
+c.ex("B2", "完成句子", "sea", "para que + 虛擬式 sea",
+c.ex("B2", "完成句子", "es", "creo que + 陳述式 es",
+c.ex("B2", "單選", "B", "ojalá + 虛擬式：tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "一點是單數，動詞用 es。"),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor 本身就是比較級，不加 más。"),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente 是單數集合名詞，動詞用單數。"),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que 表肯定，用陳述式 es。"),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　常見錯誤", 23, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = 辯論：公開討論，有輪次。本期是辯論週；大選 29 日。", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　本週生詞", 23, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate = 辯論：公開討論，有輪次。本期是辯論週；大選 29 日。", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "編輯部說明：截稿時未收到真實來信與最佳作文，本期登載編輯部示例信，承諾順延至 VOL.5。歡迎來信！"
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　本週金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "競選 13 日零點開始，持續 15 天，到 27 日。", "Página 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "週四 19 日是關鍵日：郵寄投票申請截止。", "Página 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "11 月 16 日週一是國際佛朗明哥日，吉他聲響遍西班牙。", "Página 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "佛朗明哥不只是舞蹈：歌、琴、舞、擊掌、踏腳與節拍。", "Página 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "聯賽停擺又回歸：第 13 輪 11 月 20 日週五踢到 23 日週一。", "Página 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "11 月 29 日你第一次投票嗎？兩種方式：親自去或郵寄。", "Página 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "競選期間，不是所有宣布的事都已確定。", "Página 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "一次民調就是一張帶誤差的照片，拍於某一天。", "Página 6"),
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　下期預告 (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　練習與答案", "La Lucerna", "第8版　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "完形單選", "A", "el flamenco suena = 佛朗明哥奏響",
+f.ex("B1", "完形單選", "B", "empieza la campaña = 競選開始",
+f.ex("B1", "完形單選", "A", "laSexta 辯論 21:30",
+f.ex("B1", "完形單選", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "完形單選", "A", "la Liga vuelve = 聯賽回歸",
+f.ex("B1", "完形單選", "B", "塞維亞德比在週六",
+f.ex("B1", "完形單選", "A", "Santa Cecilia = 音樂守護神",
+f.ex("B1", "完形單選", "A", "週日 29 日西班牙投票",
+f.ex("A2", "單選", "A", "競選 11 月 13 日週五開始",
+f.ex("A2", "單選", "B", "國際佛朗明哥日 11 月 16 日",
+f.ex("A2", "單選", "A", "郵寄投票最遲須在 19 日申請",
+f.ex("B1", "單選", "C", "塞維亞德比週六 18:30",
+f.ex("B1", "單選", "B", "黑色星期五 11 月 27 日週五",
+f.ex("B1", "單選", "C", "MiDNI 是官方身分驗證應用",
+f.ex("B2", "單選", "B", "11 月 24–28 日禁發民調",
+f.ex("A2", "單選", "A", "Lucía 週六在塞維亞看德比",
+f.ex("A2", "單選", "A", "Diego 週六看皇馬–塞爾塔",
+f.ex("A2", "單選", "A", "兩人都讀綱領再投票",
+f.ex("A2", "單選", "B", "標題概括兩個城市、一個週六",
+f.ex("A2", "造句", "El lunes suena el flamenco.", "時間在前，動詞第二",
+f.ex("A2", "造句", "El sábado vemos el derbi.", "時間在前",
+f.ex("B1", "造句", "La campaña dura quince días.", "主語 + 動詞 + 時間",
+f.ex("B1", "造句", "¿A qué hora empieza el debate?", "疑問詞在句首",
+f.ex("A2", "翻譯", "週一是國際佛朗明哥日。", "對照原文",
+     "El lunes es el Día del Flamenco. → ___", instr="翻譯", size=15.5, gap=1)
+f.ex("A2", "翻譯", "週六我們看塞維亞德比。", "對照原文",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="翻譯", size=15.5, gap=1)
+f.ex("B1", "翻譯", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "郵寄投票最遲須在週四 19 日申請。→ ___", instr="翻譯", size=15.5, gap=1)
+f.ex("B2", "翻譯", "Cada promesa tiene que llevar datos.", "tener que = 必須",
+     "每個承諾都必須有數據支撐。→ ___", instr="翻譯", size=15.5, gap=1)
+f.match_set("B2", "詞彙配對",
+            ["sondeo=民調 c", "muestra=樣本 d", "margen de error=誤差範圍 b", "junta electoral=選舉委員會 a"],
+            instr="把詞和釋義配對")
+f.ex("B1", "完形單選", "A", "vengo a votar = 我來投票",
+f.ex("B1", "完形單選", "A", "documento de identidad = 身分證件",
+f.ex("B1", "完形單選", "A", "¿dónde está la urna? 投票箱在哪",
+f.ex("B1", "完形單選", "A", "la papeleta va en el sobre = 選票裝進信封",
+f.ex("B1", "完形單選", "A", "¿a qué hora cierra el colegio? 幾點關門",
+f.bridge("寫作題（無唯一答案）；範文（97 詞）見下。")
+f.ex("B1", "寫作", "（開放題，範本如下）", "範文見本版 H 區（97 詞）",
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="寫作", size=15.5, gap=1)
+p.text(MX, 1337, "RESPUESTAS　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "每題附一句中文簡析　帶 ✓ 的為範本題", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "寫作":

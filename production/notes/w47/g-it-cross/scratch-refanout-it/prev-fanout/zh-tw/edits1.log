@@ -1,0 +1,25 @@
+zh-tw bridge reconstructed: '講解｜la vetta 榜首/頂峰 · imbattuto 不敗的 · il capolista 領頭羊 · chiudere 結束。'
+[bridge] 2 line(s), 795.3 px
+    | 講解｜la vetta 榜首/頂峰 · imbattuto 不敗的
+    | · il capolista 領頭羊 · chiudere 結束。
+== CANDIDATES: cifre rewrites (serif 20.5, w 386.5, target 2 each) ==
+[cifre 29] 2 line(s), 467.1 px  OK
+    | 29 — 拉齊奧積分，11輪後居首（拉齊奧29
+    | 分領跑）
+[cifre 24] 2 line(s), 458.8 px  OK
+    | 24 — 第11輪進球，10場比賽（11輪10場
+    | 共24球）
+[cifre 20.45] 1 line(s), 379.4 px  OK
+    | 20.45 — 亞特蘭大對國米，週日（20:45）
+[cifre 150] 1 line(s), 385.1 px  OK
+    | 150人以上 — 閉幕遊行演員（150名以上）
+TOTAL cifre lines: 6 (budget <= 8)
+== 44/134 note shortened (serif 13, w 422.5, target 1) ==
+[Q44/134] 1 line(s), 365.1 px  OK
+    | Eurochocolate chiude a Perugia il 22 novembre. — 主語 + 動詞
+EDIT OK: '29 — i punti della Lazio, pr' -> '29 — 拉齊奧積分，11輪後居首（拉齊奧29分領跑）'
+EDIT OK: "24 — i gol dell'11ª giornata" -> '24 — 第11輪進球，10場比賽（11輪10場共24球）'
+EDIT OK: "20.45 — l'ora di Atalanta–In" -> '20.45 — 亞特蘭大對國米，週日（20:45）'
+EDIT OK: 'oltre 150 — i figuranti del ' -> '150人以上 — 閉幕遊行演員（150名以上）'
+EDIT OK: '主语 + 动词 + 地点 + 日期' -> '主語 + 動詞'
+translations.py updated, 5 edits applied

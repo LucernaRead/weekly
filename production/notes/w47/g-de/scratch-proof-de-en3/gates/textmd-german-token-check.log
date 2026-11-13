@@ -1,0 +1,5 @@
+MISSING-GERMAN core: 'DIE WOCHENZEITUNG FÜR LERNENDE — DAS ECHTE LEBEN, AUF DEUTSCH, AUS DEUTSCHLAND'
+              ed  : 'TEXT IN GERMAN · EXPLANATIONS IN ENGLISH — THE EDITION FOR ENGLISH-SPEAKING READERS'  missing=['AUF', 'AUS', 'DAS', 'DIE', 'FÜR']
+MISSING-GERMAN core: '«der Adventskalender»（Seite 5）: ein Kalender mit 24 Türchen bis Weihnachten. 降临节日历。'
+              ed  : '«der Adventskalender» (page 5): a calendar with 24 little doors until Christmas. Advent calendar.'  missing=['Türchen', 'ein', 'mit']
+pairs checked: 235, pairs with German tokens lost: 2

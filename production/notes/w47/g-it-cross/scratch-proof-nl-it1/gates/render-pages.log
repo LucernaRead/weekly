@@ -1,0 +1,23 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+p1.png 3047x4219
+p2.png 3047x4219
+p3.png 3047x4219
+p4.png 3047x4219
+p5.png 3047x4219
+p6.png 3047x4219
+p7.png 3047x4219
+p8.png 3047x4219
+Traceback (most recent call last):
+  File "<stdin>", line 18, in <module>
+  File "<stdin>", line 16, in crop
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/pymupdf/__init__.py", line 14679, in save
+    return self._writeIMG(filename, idx, jpg_quality)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/pymupdf/__init__.py", line 14264, in _writeIMG
+    if   format_ == 1:  mupdf.fz_save_pixmap_as_png(pm, filename)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/pymupdf/mupdf.py", line 55331, in fz_save_pixmap_as_png
+    return _mupdf.fz_save_pixmap_as_png(pixmap, filename)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymupdf.mupdf.FzErrorArgument: code=4: Invalid bandwriter header dimensions/setup

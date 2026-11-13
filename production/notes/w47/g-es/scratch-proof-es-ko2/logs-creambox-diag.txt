@@ -1,0 +1,48 @@
+== p1-portada.svg
+  box x=538 y=1288 bottom=1649.6 first='LA SEMANA EN CIFRAS\u3000이번 주 숫자' last_in=1603.9 STRICT clearance=+45.7 last='감일'
+      below +37.0: 'AHORA TÚ\u3000바로 연습해요' (size 25.0)
+  box x=1440 y=588 bottom=1308.0 first='CINCO' last_in=1300.0 STRICT clearance=+8.0 last='다섯 가지 핵심, 숫자는 지어내지 않았어요.'
+      below +44.0: 'EN ESTA EDICIÓN\u3000이번 호 차례' (size 24.0)
+  box x=1440 y=1312 bottom=1652.0 first='EN ESTA EDICIÓN\u3000이번 호 차례' last_in=1636.0 STRICT clearance=+16.0 last='Pág. 8'
+      below +24.0: 'LA PALABRA DE LA SEMANA' (size 22.0)
+  box x=88 y=1874 bottom=2194.0 first='(empty)' last_in=-1.0 STRICT clearance=-999.0 last=''
+      below +24.0: 'La urna y el sobre: votar por correo o en persona,' (size 19.0)
+      below +49.7: 'cómo pedir el voto por correo hasta el jueves 19, ' (size 19.0)
+  box x=362 y=1999 bottom=2142.0 first='(empty)' last_in=-1.0 STRICT clearance=-999.0 last=''
+  box x=1440 y=1874 bottom=2290.0 first='BREVES\u3000단신' last_in=2246.0 STRICT clearance=+44.0 last='Flamenco. (Página 3)'
+      below +58.0: '1면을 읽고 정답을 고르세요\u3000답은 8면에' (size 20.0)
+== p2-vida.svg
+  box x=538 y=200 bottom=1160.0 first='EL CALENDARIO\u3000이번 주 일정' last_in=1113.4 STRICT clearance=+46.6 last='일'
+      below +37.0: 'DECIR LA HORA' (size 25.0)
+  box x=989 y=200 bottom=345.7 first='해설 — el debate는 토론이에요 · el mitin' last_in=298.0 STRICT clearance=+47.7 last='· el escaño는 의회 의석이에요.'
+  box x=1440 y=200 bottom=543.5 first='¿SABÍAS QUE…?' last_in=538.2 STRICT clearance=+5.3 last='ley.'
+  box x=1440 y=570 bottom=993.0 first='¿Y TÚ?\u3000당신은요?' last_in=987.4 STRICT clearance=+5.6 last='어로 두 문장을 써서 편집부에 보내세요.'
+== p3-cultura.svg
+  box x=538 y=200 bottom=375.4 first='해설 — el cante는 노래예요 · el toque는' last_in=327.7 STRICT clearance=+47.7 last='멩코의 영혼이에요.'
+      below +37.0: 'LO QUE QUEDA DE NOVIEMBRE' (size 25.0)
+  box x=1440 y=867 bottom=1271.8 first='EL FLAMENCO, EN TRES DATOS' last_in=1266.5 STRICT clearance=+5.3 last='música.'
+  box x=1440 y=1298 bottom=1594.8 first='¿Y TÚ?\u3000당신은요?' last_in=1592.8 STRICT clearance=+1.9 last='문장을 써서 보내세요.'
+== p4-deporte.svg
+  box x=538 y=669 bottom=844.7 first='해설 — la jornada는 라운드예요 · el derbi' last_in=797.0 STRICT clearance=+47.7 last='단계예요.'
+  box x=1440 y=200 bottom=576.0 first='LA CHAMPIONS VUELVE' last_in=465.2 STRICT clearance=+110.8 last='Madrid 3–2; el Atlético perdió 0–2.'
+  box x=1440 y=602 bottom=964.5 first='¿Y TÚ?\u3000당신은요?' last_in=958.8 STRICT clearance=+5.7 last='일까요? 스페인어로 두 문장을 써서 보내세요.'
+== p5-juventud.svg
+  box x=538 y=200 bottom=793.8 first='EL PLAN DE LA SEMANA\u3000이번 주 계획' last_in=747.3 STRICT clearance=+46.6 last='축일'
+      below +50.5: '해설 — el sobre는 봉투예요 · la papeleta' (size 20.5)
+  box x=538 y=806 bottom=981.2 first='해설 — el sobre는 봉투예요 · la papeleta' last_in=933.5 STRICT clearance=+47.7 last='투표함이에요.'
+  box x=1440 y=939 bottom=1251.5 first='VOTAR POR PRIMERA VEZ' last_in=1246.2 STRICT clearance=+5.4 last='compara precios antes de pagar.'
+  box x=1440 y=1278 bottom=1574.5 first='¿Y TÚ?\u3000당신은요?' last_in=1572.6 STRICT clearance=+1.9 last='아니면 충동적인 것? 두 문장을 써서 보내세요.'
+== p6-afondo.svg
+  box x=1440 y=200 bottom=1091.0 first='EL CAMINO AL 29N' last_in=1035.3 STRICT clearance=+55.7 last='29 NOV. — España vota, de 9:00 a 20:00.'
+  box x=1440 y=1117 bottom=1347.5 first='LEER UN DEBATE' last_in=1328.1 STRICT clearance=+19.4 last='nada.'
+  box x=88 y=1594 bottom=1916.0 first='PROPAGANDA GRATIS EN RTVE\u3000minutos' last_in=1880.8 STRICT clearance=+35.2 last='noviembre. Tres formaciones más tienen 1'
+      below +52.0: 'EJERCICIOS\u30006면 연습' (size 28.0)
+  box x=989 y=1594 bottom=1916.0 first='¿POR QUÉ NO HAY ENCUESTAS?' last_in=1880.8 STRICT clearance=+35.2 last='de reflexión: sin propaganda ni actos de'
+      below +52.0: '답은 8면에\u3000문제는 급이 섞여 있어요, 번호로 찾으세요' (size 20.0)
+== p7-lengua.svg
+  box x=1440 y=441 bottom=1064.0 first='ERRORES TÍPICOS\u3000자주 하는 실수' last_in=1021.5 STRICT clearance=+42.5 last='creo que는 확신해요. 직설법 es를 써요.'
+      below +58.0: 'LA PALABRA\u3000이번 주 단어' (size 23.0)
+  box x=1440 y=1080 bottom=1376.0 first='LA PALABRA\u3000이번 주 단어' last_in=1349.5 STRICT clearance=+26.5 last='번 주는 토론 주간; 선거는 29일이에요.'
+      below +58.0: 'CARTAS DE LOS LECTORES' (size 23.0)
+  box x=1440 y=1392 bottom=1865.5 first='CARTAS DE LOS LECTORES' last_in=1859.8 STRICT clearance=+5.7 last='편지를 보내 주세요!'
+== p8-ejercicios.svg

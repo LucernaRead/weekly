@@ -1,0 +1,14 @@
+p1-front.svg: els 202->326 lines 111->111 diff 2 moved 24 defects 1 observe 0
+  DEFECT abs box#2 y=1352.0 '내용' over={'right': 9.0}
+p2-leben.svg: els 196->352 lines 141->140 diff 96 moved 15 defects 0 observe 0
+p3-kultur.svg: els 250->411 lines 160->160 diff 4 moved 18 defects 1 observe 0
+  DEFECT abs box#2 y=625.71 '\u3000크리스마스' over={'right': 34.9}
+p4-sport.svg: els 187->307 lines 123->123 diff 3 moved 15 defects 0 observe 0
+p5-jugend.svg: els 224->373 lines 135->135 diff 5 moved 18 defects 0 observe 0
+p6-vertiefung.svg: els 208->381 lines 139->137 diff 39 moved 32 defects 0 observe 0
+p7-sprache.svg: els 256->524 lines 108->108 diff 0 moved 12 defects 1 observe 0
+  DEFECT abs box#3 y=372.0 '상자' over={'right': 21.7}
+p8-uebungen.svg: els 352->1754 lines 232->233 diff 217 moved 193 defects 0 observe 0
+ratios: n=526 median=1.009 boldT=1.049 boldF=0.987
+P8 p8-uebungen.svg: lines 232->233 slack_footer 34.6->34.6
+CREAMBOX FAIL 3 defects

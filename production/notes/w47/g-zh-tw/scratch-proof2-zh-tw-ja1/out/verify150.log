@@ -1,0 +1,33 @@
+pages: [1, 2, 3, 4, 5, 6, 7, 8]
+question numbers found: 316 min 1 max 150 continuous 1-150: False dups: 166
+missing: []
+page 1: questions 10 1-10
+page 2: questions 22 11-28
+page 3: questions 22 29-46
+page 4: questions 22 47-64
+page 5: questions 22 65-82
+page 6: questions 18 83-100
+page 7: questions 12 101-112
+page 8: questions 188 1-150
+key numbers: 188 continuous 1-150: False missing: []
+model essay raw: '早上我先列好清單，查好遊行路線和公車時間，才出門。\n\n11\n\n月\n\n22\n\n日是星期日，也是小雪。下午\n\n2\n\n點，我和家人去天母看封王遊行，大家都穿紅色衣服。晚上回家，我和爸爸一\n\n起看金馬獎轉播，等得獎名單揭曉。鋼雕藝術節也在這一天閉幕' ...
+model essay chars (no whitespace): 142
+fill-in style keys (word answers): 150
+fill-in questions (穴埋め stems): 54 [5, 6, 7, 8, 9, 10, 17, 18] ...
+fill-in key words NOT found on their page: [(129, '封王', 8), (130, '夜間', 8), (131, '點收', 8), (132, '入圍', 8), (133, '遊行', 8), (134, '集點', 8), (135, '主燈秀', 8), (136, '市集', 8), (137, '時間軸', 8), (138, '小雪', 8)]
+match key 25: ('a', '小雪')
+match key 26: ('b', '點收')
+match key 27: ('c', '鑑賞期')
+match key 28: ('d', '主燈秀')
+match key 43: ('a', '入圍')
+match key 44: ('b', '頒獎')
+match key 45: ('c', '鋼雕')
+match key 46: ('d', '默片')
+match key 61: ('a', '遊行')
+match key 62: ('b', '感謝祭')
+match key 63: ('c', '集點')
+match key 64: ('d', '封王')
+match key 79: ('a', '市集')
+match key 80: ('b', '亮燈禮')
+match key 81: ('c', '爵士')
+match key 82: ('d', '打卡')

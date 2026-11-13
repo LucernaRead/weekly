@@ -1,0 +1,11 @@
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw/backup/2026-w47-zh-tw-es/content8.py	2026-11-11 02:27:06.649655252 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content8.py	2026-11-11 10:43:28.214848857 +0000
+@@ -83,7 +83,7 @@
+      "11月22日還是哪兩個日子？ A. 鋼雕閉幕和小雪 · B. 雙11和旅展 · C. 爵士音樂節開幕", size=13.8, gap=0)
+ f.head("E　情景說話　Decirlo en contexto", 21, OLIVE, 5)
+ f.ex("B1", "完形單選", "A", "El desfile es el domingo 22 nov.",
+-     "— 封王遊行哪天出發？ — 下週日___出發。(A. 11月22日 · B. 11月15日)", size=13.8, gap=0)
++     "— 封王遊行哪天出發？ — 本週日___出發。(A. 11月22日 · B. 11月15日)", size=13.8, gap=0)
+ f.ex("B1", "完形單選", "A", "El desfile nocturno empieza a las 19:00.",
+      "— 夜間遊行晚上幾點？ — ___(A. 晚上7點 · B. 下午2點)", size=13.8, gap=0)
+ f.ex("B1", "完形單選", "A", "El espectáculo de luces principal dura 5 minutos cada vez.",

@@ -1,0 +1,13 @@
+8 pages from svg/
+725 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 23332 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 23372 bytes
+  font LucernaNewsreader-Italic: 25740 bytes
+  font LucernaNotoSansCJKSC-Regular: 245320 bytes
+  font LucernaNotoSansCJKSC-Bold: 250740 bytes
+  font LucernaNotoSerifCJKSC-Regular: 349416 bytes
+  font LucernaNotoSerifCJKSC-Bold: 356268 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31588 bytes
+WROTE Lucerna-VOL4-PT-web.pdf: 2647093 bytes, 44820 text bytes

@@ -1,0 +1,844 @@
+--- #1 [1p A2 完成句子] content12.py:52 key='13'
+    A2
+    完成句子
+    13
+    競選 11 月 13 日週五零點開始
+    La campaña electoral empieza el viernes ___ de noviembre.
+--- #2 [1p A2 完成句子] content12.py:54 key='29'
+    A2
+    完成句子
+    29
+    大選在 11 月 29 日週日
+    España vota en elecciones generales el domingo ___ de noviembre.
+--- #3 [1p A2 完成句子] content12.py:56 key='19'
+    A2
+    完成句子
+    19
+    郵寄投票最遲須在 19 日申請
+    El voto por correo se pide hasta el jueves ___ de noviembre.
+--- #4 [1p A2 完成句子] content12.py:58 key='16'
+    A2
+    完成句子
+    16
+    國際佛朗明哥日 11 月 16 日週一
+    El Día Internacional del Flamenco es el lunes ___ de noviembre.
+--- #5 [1p B1 完成句子] content12.py:60 key='20'
+    B1
+    完成句子
+    20
+    聯賽第 13 輪 11 月 20 日週五開戰
+    La jornada 13 de Liga vuelve el viernes ___ de noviembre.
+--- #6 [1p B1 完成句子] content12.py:62 key='15'
+    B1
+    完成句子
+    15
+    競選持續 15 天
+    La campaña electoral dura ___ días.
+--- #7 [1p A2 單選] content12.py:153 key='C'
+    A2
+    單選
+    C
+    大選在 11 月 29 日
+    Las elecciones generales son el... A. 16 de noviembre · B. 13 de noviembre · C. 29 de noviembre
+--- #8 [1p A2 單選] content12.py:155 key='B'
+    A2
+    單選
+    B
+    競選持續 15 天
+    La campaña electoral dura... A. una semana · B. 15 días · C. un mes
+--- #9 [1p A2 單選] content12.py:157 key='A'
+    A2
+    單選
+    A
+    郵寄投票最遲須在 19 日申請
+    El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29
+--- #10 [1p A2 單選] content12.py:159 key='B'
+    A2
+    單選
+    B
+    國際佛朗明哥日 11 月 16 日
+    El Día Internacional del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20
+--- #11 [2p A2 完成句子] content12.py:252 key='16'
+    A2
+    完成句子
+    16
+    11 月 16 日週一
+    El Día del Flamenco es el lunes ___ de noviembre.
+--- #12 [2p A2 完成句子] content12.py:254 key='19'
+    A2
+    完成句子
+    19
+    11 月 19 日週四
+    El voto por correo se pide hasta el jueves ___ de noviembre.
+--- #13 [2p A2 完成句子] content12.py:256 key='29'
+    A2
+    完成句子
+    29
+    大選在 11 月 29 日
+    Las elecciones generales son el ___ de noviembre.
+--- #14 [2p A2 完成句子] content12.py:258 key='22'
+    A2
+    完成句子
+    22
+    11 月 22 日週日
+    Santa Cecilia es el domingo ___ de noviembre.
+--- #15 [2p A2 完成句子] content12.py:260 key='noviembre'
+    A2
+    完成句子
+    noviembre
+    月份小寫
+    El lunes 16 de ___ es el Día del Flamenco.
+--- #16 [2p A2 完成句子] content12.py:264 key='empieza'
+    A2
+    完成句子
+    empieza
+    la campaña → empieza
+    La campaña ___ el viernes 13.
+--- #17 [2p A2 完成句子] content12.py:266 key='dura'
+    A2
+    完成句子
+    dura
+    la campaña → dura
+    La campaña ___ 15 días.
+--- #18 [2p A2 完成句子] content12.py:268 key='vuelve'
+    A2
+    完成句子
+    vuelve
+    la Liga → vuelve
+    La Liga ___ el viernes 20.
+--- #19 [2p B1 完成句子] content12.py:270 key='recorren'
+    B1
+    完成句子
+    recorren
+    los partidos → recorren
+    Los partidos ___ España en campaña.
+--- #20 [2p A2 完成句子] content12.py:272 key='llega'
+    A2
+    完成句子
+    llega
+    la documentación → llega
+    La documentación del voto por correo ___ desde el lunes 9.
+--- #21 [2p A2 單選] content12.py:276 key='B'
+    A2
+    單選
+    B
+    國際佛朗明哥日 11 月 16 日週一
+    El Día del Flamenco es... A. el domingo 22 · B. el lunes 16 · C. el viernes 20
+--- #22 [2p A2 單選] content12.py:278 key='A'
+    A2
+    單選
+    A
+    郵寄投票最遲須在 19 日申請
+    El voto por correo se pide hasta... A. el jueves 19 · B. el lunes 16 · C. el domingo 29
+--- #23 [2p A2 單選] content12.py:280 key='C'
+    A2
+    單選
+    C
+    聯賽 11 月 20 日週五回歸
+    La Liga vuelve el... A. lunes 16 · B. jueves 19 · C. viernes 20
+--- #24 [2p B1 單選] content12.py:282 key='B'
+    B1
+    單選
+    B
+    11 月 24–28 日不公布民調
+    Del 24 al 28 de noviembre no se publican... A. debates · B. encuestas · C. partidos
+--- MATCH_SET content12.py:285 args=['A2', '詞彙配對', ['el debate', 'el mitin', 'el cartel', 'el escaño'], ['un asiento en el Parlamento', 'una reunión de campaña con discursos', 'una discusión pública con turnos', 'un papel grande con un mensaje en la calle'], ['c', 'b', 'd', 'a'], ['debate=辯論 c', 'mitin=集會 b', 'cartel=海報 d', 'escaño=議席 a']]
+    #25 [2p A2 詞彙配對] key='c'
+    #26 [2p A2 詞彙配對] key='b'
+    #27 [2p A2 詞彙配對] key='d'
+    #28 [2p A2 詞彙配對] key='a'
+--- #29 [3p A2 判斷對錯] content34.py:62 key='Verdadero'
+    A2
+    判斷對錯
+    Verdadero
+    國際佛朗明哥日 11 月 16 日週一
+    El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?
+--- #30 [3p A2 判斷對錯] content34.py:64 key='Verdadero'
+    A2
+    判斷對錯
+    Verdadero
+    UNESCO 2010 年將佛朗明哥列入非遺
+    La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?
+--- #31 [3p A2 判斷對錯] content34.py:66 key='Falso'
+    A2
+    判斷對錯
+    Falso
+    佛朗明哥不只是舞蹈：歌、琴、舞三位一體
+    El flamenco es solo un baile. ¿Verdadero o falso?
+--- #32 [3p B1 判斷對錯] content34.py:68 key='Falso'
+    B1
+    判斷對錯
+    Falso
+    聖塞西莉亞 11 月 22 日，是音樂守護神
+    Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?
+--- #33 [3p A2 判斷對錯] content34.py:70 key='Verdadero'
+    A2
+    判斷對錯
+    Verdadero
+    畢爾巴鄂市樂隊 11 月 22 日 12:00 演出
+    La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?
+--- #34 [3p A2 完成句子] content34.py:75 key='cante'
+    A2
+    完成句子
+    cante
+    cante = 歌唱
+    El flamenco es ___, toque y baile.
+--- #35 [3p A2 完成句子] content34.py:77 key='baile'
+    A2
+    完成句子
+    baile
+    baile = 舞蹈
+    La bailaora mueve los brazos en el ___.
+--- #36 [3p A2 完成句子] content34.py:79 key='guitarra'
+    A2
+    完成句子
+    guitarra
+    guitarra = 吉他
+    El toque es la ___ del flamenco.
+--- #37 [3p A2 完成句子] content34.py:81 key='palmas'
+    A2
+    完成句子
+    palmas
+    palmas = 擊掌
+    El público marca el ritmo con las ___.
+--- #38 [3p B1 完成句子] content34.py:83 key='compás'
+    B1
+    完成句子
+    compás
+    compás = 節拍
+    Sin ___ no hay flamenco.
+--- #39 [3p A2 單選] content34.py:87 key='B'
+    A2
+    單選
+    B
+    UNESCO 2010 年內羅畢宣布
+    ¿Dónde declaró la UNESCO el flamenco Patrimonio? A. en Madrid · B. en Nairobi · C. en Sevilla
+--- #40 [3p A2 單選] content34.py:89 key='A'
+    A2
+    單選
+    A
+    duende 是音樂打動人心的時刻
+    ¿Qué es el duende? A. el momento en que la música te toca · B. un instrumento · C. un baile
+--- #41 [3p B1 單選] content34.py:91 key='C'
+    B1
+    單選
+    C
+    佛朗明哥源於安達魯西亞多文化交融
+    El flamenco nació del encuentro de culturas en... A. Madrid · B. Bilbao · C. Andalucía
+--- #42 [3p B1 單選] content34.py:93 key='B'
+    B1
+    單選
+    B
+    佛朗明哥日之後大選在 11 月 29 日
+    Después del Día del Flamenco, la próxima gran fecha es... A. el puente · B. las elecciones del 29 · C. la Navidad
+--- #43 [3p A2 造句] content34.py:97 key='El flamenco es cante, toque y baile.'
+    A2
+    造句
+    El flamenco es cante, toque y baile.
+    主語 + 動詞 + 表語
+    el flamenco / es / cante, toque y baile → ___
+--- #44 [3p B1 造句] content34.py:99 key='En noviembre suena la guitarra en España.'
+    B1
+    造句
+    En noviembre suena la guitarra en España.
+    時間在前，動詞第二
+    en noviembre / suena / la guitarra / en España → ___
+--- #45 [3p B1 造句] content34.py:101 key='En Bilbao toca la banda el domingo.'
+    B1
+    造句
+    En Bilbao toca la banda el domingo.
+    地點在前，動詞第二
+    en Bilbao / toca / la banda / el domingo → ___
+--- #46 [3p B1 句型轉換] content34.py:103 key='Todos preguntan si hay duende.'
+    B1
+    句型轉換
+    Todos preguntan si hay duende.
+    間接疑問用 si
+    «¿Hay duende?» (todos preguntan) → ___
+--- #47 [4p B1 單選] content34.py:169 key='A'
+    B1
+    單選
+    A
+    巴薩 33 分領跑
+    El líder de la Liga es el... A. Barça, con 33 puntos · B. Real Madrid, con 33 · C. Atlético, con 28
+--- #48 [4p B1 單選] content34.py:171 key='B'
+    B1
+    單選
+    B
+    第 13 輪 11 月 20–23 日
+    La jornada 13 se juega... A. el fin de semana del 8 · B. del viernes 20 al lunes 23 · C. en diciembre
+--- #49 [4p B1 單選] content34.py:173 key='C'
+    B1
+    單選
+    C
+    塞維亞德比週六 18:30
+    El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30
+--- #50 [4p B1 單選] content34.py:175 key='A'
+    B1
+    單選
+    A
+    巴薩–黃潛週日 14:00
+    El Barça–Villarreal se juega el domingo a las... A. 14:00 · B. 18:30 · C. 21:00
+--- #51 [4p B1 單選] content34.py:177 key='B'
+    B1
+    單選
+    B
+    歐冠第 5 輪 11 月 24–25 日
+    La jornada 5 de la Champions es... A. el 20–21 · B. el 24–25 · C. el 29–30
+--- MATCH_SET content34.py:180 args=['B1', '詞彙配對', ['la jornada', 'el derbi', 'el liderato', 'la fase liga'], ['el primer puesto de la clasificación', 'un partido entre dos rivales de la misma ciudad', 'una fecha del campeonato, con diez partidos', 'la primera parte de la Champions, en formato liga'], ['c', 'b', 'a', 'd'], ['jornada=輪次 c', 'derbi=德比 b', 'liderato=榜首 a', 'fase liga=聯賽階段 d']]
+    #52 [4p B1 詞彙配對] key='c'
+    #53 [4p B1 詞彙配對] key='b'
+    #54 [4p B1 詞彙配對] key='a'
+    #55 [4p B1 詞彙配對] key='d'
+--- #56 [4p B1 完成句子] content34.py:191 key='más importante'
+    B1
+    完成句子
+    más importante
+    más + importante（榜首之爭更重要）
+    El Barça–Villarreal es ___ que un amistoso. (importante)
+--- #57 [4p B1 完成句子] content34.py:193 key='muchísimos'
+    B1
+    完成句子
+    muchísimos
+    muchísimos aficionados 球迷很多
+    El Bernabéu espera a ___ aficionados. (muchos)
+--- #58 [4p B1 完成句子] content34.py:195 key='peor'
+    B1
+    完成句子
+    peor
+    malo 的比較級是 peor
+    Perder el derbi sería la ___ (malo) noticia de la semana.
+--- #59 [4p B1 完成句子] content34.py:197 key='mejor'
+    B1
+    完成句子
+    mejor
+    bueno 的比較級是 mejor
+    Ganar la jornada sería la ___ (bueno) noticia del otoño.
+--- #60 [4p B1 句型轉換] content34.py:201 key='El Barça ganó 1–2 al Atlético.'
+    B1
+    句型轉換
+    El Barça ganó 1–2 al Atlético.
+    ganar → ganó
+    El Barça gana 1–2 al Atlético. → ___
+--- #61 [4p B1 句型轉換] content34.py:203 key='El Madrid recibió al Celta el sábado.'
+    B1
+    句型轉換
+    El Madrid recibió al Celta el sábado.
+    recibir → recibió
+    El Madrid recibe al Celta el sábado. → ___
+--- #62 [4p B1 句型轉換] content34.py:205 key='El Atlético perdió 0–2 con el Bayern.'
+    B1
+    句型轉換
+    El Atlético perdió 0–2 con el Bayern.
+    perder → perdió
+    El Atlético pierde 0–2 con el Bayern. → ___
+--- #63 [4p B1 句型轉換] content34.py:207 key='La Liga volvió el viernes 20.'
+    B1
+    句型轉換
+    La Liga volvió el viernes 20.
+    volver → volvió
+    La Liga vuelve el viernes 20. → ___
+--- #64 [4p B1 句型轉換] content34.py:209 key='La jornada cerró el lunes 23.'
+    B1
+    句型轉換
+    La jornada cerró el lunes 23.
+    cerrar → cerró
+    La jornada cierra el lunes 23. → ___
+--- #65 [5p B1 單選] content56.py:67 key='B'
+    B1
+    單選
+    B
+    郵寄投票最遲須在 19 日申請
+    El voto por correo se pide hasta... A. el lunes 9 · B. el jueves 19 · C. el domingo 29
+--- #66 [5p B1 單選] content56.py:69 key='A'
+    B1
+    單選
+    A
+    材料從 11 月 9 日起寄出
+    La documentación del voto por correo llega desde... A. el lunes 9 · B. el viernes 13 · C. el sábado 28
+--- #67 [5p B1 單選] content56.py:71 key='C'
+    B1
+    單選
+    C
+    投票站 9:00–20:00 開放
+    El domingo 29, los colegios abren... A. todo el día · B. de noche · C. de 9:00 a 20:00
+--- #68 [5p B1 單選] content56.py:73 key='B'
+    B1
+    單選
+    B
+    MiDNI 是今年投票身分驗證的新方式
+    Para votar en persona, este año también vale... A. un billete · B. la aplicación MiDNI · C. una entrada
+--- #69 [5p B1 單選] content56.py:75 key='A'
+    B1
+    單選
+    A
+    黑色星期五 11 月 27 日週五
+    El Black Friday es el... A. viernes 27 · B. lunes 16 · C. domingo 29
+--- #70 [5p B1 完成句子] content56.py:80 key='correo'
+    B1
+    完成句子
+    correo
+    correo = 郵局/郵寄
+    Pido el voto por ___.
+--- #71 [5p B1 完成句子] content56.py:82 key='papeleta'
+    B1
+    完成句子
+    papeleta
+    papeleta = 選票
+    En casa, relleno la ___.
+--- #72 [5p B1 完成句子] content56.py:84 key='envío'
+    B1
+    完成句子
+    envío
+    enviar 變位 → envío
+    Después ___ (原形 enviar) el sobre.
+--- #73 [5p B1 完成句子] content56.py:86 key='identidad'
+    B1
+    完成句子
+    identidad
+    documento de identidad 身分證件
+    Para votar en persona llevo mi documento de ___.
+--- #74 [5p B1 完成句子] content56.py:88 key='censo'
+    B1
+    完成句子
+    censo
+    censo = 選民名冊
+    La Oficina del ___ envía la documentación.
+--- #75 [5p B1 完成句子] content56.py:90 key='plazo'
+    B1
+    完成句子
+    plazo
+    plazo = 期限（19 日截止）
+    El jueves 19 termina el ___ del voto por correo.
+--- #76 [5p B1 句型轉換] content56.py:94 key='Voy a pedir el voto por correo.'
+    B1
+    句型轉換
+    Voy a pedir el voto por correo.
+    voy a + 原形
+    Pido el voto por correo. → ___
+--- #77 [5p B1 句型轉換] content56.py:96 key='Vas a votar el domingo 29.'
+    B1
+    句型轉換
+    Vas a votar el domingo 29.
+    vas a + 原形
+    Votas el domingo 29. → ___
+--- #78 [5p B1 句型轉換] content56.py:98 key='Va a abrirse la urna a las 9:00.'
+    B1
+    句型轉換
+    Va a abrirse la urna a las 9:00.
+    va a + 原形
+    La urna se abre a las 9:00. → ___
+--- #79 [5p B1 句型轉換] content56.py:100 key='Van a comparar precios antes de pagar.'
+    B1
+    句型轉換
+    Van a comparar precios antes de pagar.
+    van a + 原形
+    Comparan precios antes de pagar. → ___
+--- #80 [5p B1 判斷對錯] content56.py:103 key='Verdadero'
+    B1
+    判斷對錯
+    Verdadero
+    郵寄投票可在 Correos 申請
+    El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?
+--- #81 [5p B1 判斷對錯] content56.py:105 key='Falso'
+    B1
+    判斷對錯
+    Falso
+    靜默日是週六 28 日，不是週日
+    La jornada de reflexión es el domingo 29. ¿Verdadero o falso?
+--- #82 [5p B1 判斷對錯] content56.py:107 key='Verdadero'
+    B1
+    判斷對錯
+    Verdadero
+    今年可用 MiDNI 應用驗證身分投票
+    Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?
+--- #83 [6p B2 單選] content56.py:199 key='A'
+    B2
+    單選
+    A
+    PSOE 與 PP 各 45 分鐘免費宣傳
+    El PSOE y el PP tienen en RTVE... A. 45 minutos · B. 30 minutos · C. 15 minutos
+--- #84 [6p B2 單選] content56.py:201 key='B'
+    B2
+    單選
+    B
+    免費宣傳共 195 分鐘
+    La propaganda gratuita en RTVE suma... A. 120 minutos · B. 195 minutos · C. 45 minutos
+--- #85 [6p B2 單選] content56.py:203 key='C'
+    B2
+    單選
+    C
+    Podemos 15 分鐘
+    Podemos tiene en RTVE... A. 45 minutos · B. 30 minutos · C. 15 minutos
+--- #86 [6p B2 單選] content56.py:205 key='A'
+    B2
+    單選
+    A
+    禁發民調共 5 天（11 月 24–28 日）
+    Prohibido publicar encuestas durante... A. 5 días · B. 15 días · C. 1 día
+--- #87 [6p B2 單選] content56.py:207 key='B'
+    B2
+    單選
+    B
+    45 − 30 = 15
+    Entre el PSOE y Vox hay... A. 30 minutos · B. 15 minutos · C. 45 minutos
+--- #88 [6p B2 單選] content56.py:209 key='C'
+    B2
+    單選
+    C
+    本報只刊登選管會公布的免費時段數據並註明來源
+    La Lucerna publica aquí... A. una media mezclada · B. todos los sondeos · C. solo datos oficiales, con fuente
+--- #89 [6p B2 單選] content56.py:212 key='B'
+    B2
+    單選
+    B
+    截至 11 月 10 日只有 laSexta 辯論已確定
+    El único debate cerrado es... A. el cara a cara · B. el de laSexta · C. el debate a cuatro
+--- #90 [6p B2 單選] content56.py:214 key='A'
+    B2
+    單選
+    A
+    laSexta 辯論 11 月 13 日週五 21:30
+    El debate de portavoces es el... A. viernes 13, a las 21:30 · B. lunes 16 · C. jueves 26
+--- #91 [6p B2 單選] content56.py:216 key='C'
+    B2
+    單選
+    C
+    「提議的」不等於「確定的」
+    Un debate «propuesto» es... A. cerrado · B. en la tele · C. aún sin confirmar
+--- #92 [6p B2 單選] content56.py:218 key='B'
+    B2
+    單選
+    B
+    民調是帶誤差的具體某天的照片
+    Según el texto, una encuesta es... A. un resultado final · B. una foto con margen de error · C. una promesa
+--- #93 [6p B2 完成句子] content56.py:221 key='tenga'
+    B2
+    完成句子
+    tenga
+    es posible que + 虛擬式 tenga
+    Es posible que el debate ___ (tener) cuatro portavoces.
+--- #94 [6p B2 完成句子] content56.py:223 key='sea'
+    B2
+    完成句子
+    sea
+    es importante que + 虛擬式 sea
+    Es importante que cada dato ___ (ser) claro.
+--- #95 [6p B2 完成句子] content56.py:225 key='para que'
+    B2
+    完成句子
+    para que
+    para que + 虛擬式（目的）
+    Publicamos la fuente ___ todos puedan comprobarla.
+--- #96 [6p B2 完成句子] content56.py:227 key='Aunque'
+    B2
+    完成句子
+    Aunque
+    Aunque 後接陳述式（已知事實）
+    ___ los debates difieren, ninguno miente.
+--- #97 [6p B2 完成句子] content56.py:231 key='sondeo'
+    B2
+    完成句子
+    sondeo
+    sondeo = 民調
+    Un ___ pregunta a una muestra de ciudadanos.
+--- #98 [6p B2 完成句子] content56.py:233 key='muestra'
+    B2
+    完成句子
+    muestra
+    muestra = 樣本
+    El sondeo preguntó a una ___ de ciudadanos.
+--- #99 [6p B2 完成句子] content56.py:235 key='indecisos'
+    B2
+    完成句子
+    indecisos
+    indecisos = 未決定者
+    Los ___ todavía no saben a quién votar.
+--- #100 [6p B2 完成句子] content56.py:237 key='margen de error'
+    B2
+    完成句子
+    margen de error
+    margen de error = 誤差範圍
+    Toda encuesta tiene un ___.
+--- #101 [7p A2 完成句子] content7.py:21 key='Es'
+    A2
+    完成句子
+    Es
+    1 點用單數 Es
+    ___ la una en punto.
+--- #102 [7p A2 完成句子] content7.py:23 key='Son'
+    A2
+    完成句子
+    Son
+    多點用複數 Son
+    ___ las nueve de la noche.
+--- #103 [7p A2 完成句子] content7.py:25 key='las'
+    A2
+    完成句子
+    las
+    a las 21:00（介詞 a）
+    El derbi es el sábado a ___ 18:30.
+--- #104 [7p A2 單選] content7.py:27 key='B'
+    A2
+    單選
+    B
+    1 點說 Es la una
+    ¿Cómo se dice la 1:00? A. Son la una · B. Es la una · C. Es las una
+--- #105 [7p B1 完成句子] content7.py:37 key='más goles'
+    B1
+    完成句子
+    más goles
+    más + goles（進球更多）
+    El Barça marca ___ que el año pasado. (goles)
+--- #106 [7p B1 完成句子] content7.py:39 key='tan rápido'
+    B1
+    完成句子
+    tan rápido
+    tan + rápido + como（同樣快）
+    El derbi es ___ como siempre. (rápido)
+--- #107 [7p B1 完成句子] content7.py:41 key='mejor'
+    B1
+    完成句子
+    mejor
+    bueno 的比較級是 mejor（不用 más）
+    Un debate claro es ___ (bueno) que un titular.
+--- #108 [7p B1 單選] content7.py:43 key='B'
+    B1
+    單選
+    B
+    más mejor 是錯誤說法
+    ¿Qué forma es correcta? A. más mejor · B. mejor · C. muy mejor
+--- #109 [7p B2 完成句子] content7.py:53 key='baje'
+    B2
+    完成句子
+    baje
+    es necesario que + 虛擬式 baje
+    Es necesario que el precio ___ (bajar).
+--- #110 [7p B2 完成句子] content7.py:55 key='sea'
+    B2
+    完成句子
+    sea
+    para que + 虛擬式 sea
+    Publicamos la fuente para que todo ___ (ser) claro.
+--- #111 [7p B2 完成句子] content7.py:57 key='es'
+    B2
+    完成句子
+    es
+    creo que + 陳述式 es
+    Creo que el debate ___ (ser) útil.
+--- #112 [7p B2 單選] content7.py:59 key='B'
+    B2
+    單選
+    B
+    ojalá + 虛擬式：tenga
+    «Ojalá que el debate...» A. tiene datos · B. tenga datos · C. tener datos
+--- #113 [8p B1 完形單選] content8.py:17 key='A'
+    B1
+    完形單選
+    A
+    el flamenco suena = 佛朗明哥奏響
+    El lunes, el flamenco ___ en la calle. (A. suena · B. duerme)
+--- #114 [8p B1 完形單選] content8.py:19 key='B'
+    B1
+    完形單選
+    B
+    empieza la campaña = 競選開始
+    La campaña ___ el viernes 13. (A. termina · B. empieza)
+--- #115 [8p B1 完形單選] content8.py:21 key='A'
+    B1
+    完形單選
+    A
+    laSexta 辯論 21:30
+    El debate de laSexta fue a las ___. (A. 21:30 · B. 9:00)
+--- #116 [8p B1 完形單選] content8.py:23 key='A'
+    B1
+    完形單選
+    A
+    el voto por correo se pide hasta el jueves 19
+    El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)
+--- #117 [8p B1 完形單選] content8.py:25 key='A'
+    B1
+    完形單選
+    A
+    la Liga vuelve = 聯賽回歸
+    La Liga ___ el viernes 20. (A. vuelve · B. para)
+--- #118 [8p B1 完形單選] content8.py:27 key='B'
+    B1
+    完形單選
+    B
+    塞維亞德比在週六
+    El derbi Sevilla–Betis es el ___. (A. domingo · B. sábado)
+--- #119 [8p B1 完形單選] content8.py:29 key='A'
+    B1
+    完形單選
+    A
+    Santa Cecilia = 音樂守護神
+    Santa Cecilia es la patrona de los ___. (A. músicos · B. futbolistas)
+--- #120 [8p B1 完形單選] content8.py:31 key='A'
+    B1
+    完形單選
+    A
+    週日 29 日西班牙投票
+    El domingo 29, España ___. (A. vota · B. duerme)
+--- #121 [8p A2 單選] content8.py:34 key='A'
+    A2
+    單選
+    A
+    競選 11 月 13 日週五開始
+    La campaña electoral empieza el... A. viernes 13 · B. lunes 16 · C. domingo 29
+--- #122 [8p A2 單選] content8.py:36 key='B'
+    A2
+    單選
+    B
+    國際佛朗明哥日 11 月 16 日
+    El Día del Flamenco es el... A. domingo 22 · B. lunes 16 · C. viernes 20
+--- #123 [8p A2 單選] content8.py:38 key='A'
+    A2
+    單選
+    A
+    郵寄投票最遲須在 19 日申請
+    El voto por correo se pide hasta... A. jueves 19 · B. viernes 20 · C. sábado 28
+--- #124 [8p B1 單選] content8.py:40 key='C'
+    B1
+    單選
+    C
+    塞維亞德比週六 18:30
+    El derbi Sevilla–Betis es el sábado a las... A. 14:00 · B. 21:00 · C. 18:30
+--- #125 [8p B1 單選] content8.py:42 key='B'
+    B1
+    單選
+    B
+    黑色星期五 11 月 27 日週五
+    El Black Friday es el... A. domingo 29 · B. viernes 27 · C. lunes 16
+--- #126 [8p B1 單選] content8.py:44 key='C'
+    B1
+    單選
+    C
+    MiDNI 是官方身分驗證應用
+    MiDNI es... A. un billete · B. una entrada · C. una aplicación oficial
+--- #127 [8p B2 單選] content8.py:46 key='B'
+    B2
+    單選
+    B
+    11 月 24–28 日禁發民調
+    No se publican encuestas del... A. 16 al 19 · B. 24 al 28 · C. 13 al 15
+--- #128 [8p B1 單選] content8.py:48 key='C'
+    B1
+    單選
+    C
+    歐冠第 5 輪 11 月 24–25 日
+    La jornada 5 de la Champions es el... A. 20–21 · B. 29–30 · C. 24–25
+--- #129 [8p A2 單選] content8.py:52 key='A'
+    A2
+    單選
+    A
+    Lucía 週六在塞維亞看德比
+    ¿Quién ve el derbi en Sevilla? A. Lucía · B. Diego · C. los dos
+--- #130 [8p A2 單選] content8.py:54 key='A'
+    A2
+    單選
+    A
+    Diego 週六看皇馬–塞爾塔
+    El sábado, Diego... A. ve el Madrid–Celta · B. ve el derbi · C. duerme
+--- #131 [8p A2 單選] content8.py:56 key='A'
+    A2
+    單選
+    A
+    兩人都讀綱領再投票
+    Antes de votar, los dos... A. leen los programas · B. ven «Infamia» · C. viajan a Praga
+--- #132 [8p A2 單選] content8.py:58 key='B'
+    A2
+    單選
+    B
+    標題概括兩個城市、一個週六
+    El mejor título es... A. «Una tormenta» · B. «Dos ciudades, un sábado» · C. «El Clásico»
+--- #133 [8p A2 造句] content8.py:61 key='El lunes suena el flamenco.'
+    A2
+    造句
+    El lunes suena el flamenco.
+    時間在前，動詞第二
+    el lunes / suena / el flamenco → ___
+--- #134 [8p A2 造句] content8.py:63 key='El sábado vemos el derbi.'
+    A2
+    造句
+    El sábado vemos el derbi.
+    時間在前
+    el sábado / vemos / el derbi → ___
+--- #135 [8p B1 造句] content8.py:65 key='La campaña dura quince días.'
+    B1
+    造句
+    La campaña dura quince días.
+    主語 + 動詞 + 時間
+    la campaña / dura / quince días → ___
+--- #136 [8p B1 造句] content8.py:67 key='¿A qué hora empieza el debate?'
+    B1
+    造句
+    ¿A qué hora empieza el debate?
+    疑問詞在句首
+    ¿ / a qué hora / empieza / el debate / ? → ___
+--- #137 [8p A2 翻譯] content8.py:70 key='週一是國際佛朗明哥日。'
+    A2
+    翻譯
+    週一是國際佛朗明哥日。
+    對照原文
+    El lunes es el Día del Flamenco. → ___
+--- #138 [8p A2 翻譯] content8.py:72 key='週六我們看塞維亞德比。'
+    A2
+    翻譯
+    週六我們看塞維亞德比。
+    對照原文
+    El sábado vemos el derbi Sevilla–Betis. → ___
+--- #139 [8p B1 翻譯] content8.py:74 key='El voto por correo se pide hasta el jueves 19.'
+    B1
+    翻譯
+    El voto por correo se pide hasta el jueves 19.
+    pedir hasta el jueves 19
+    郵寄投票最遲須在週四 19 日申請。→ ___
+--- #140 [8p B2 翻譯] content8.py:76 key='Cada promesa tiene que llevar datos.'
+    B2
+    翻譯
+    Cada promesa tiene que llevar datos.
+    tener que = 必須
+    每個承諾都必須有數據支撐。→ ___
+--- MATCH_SET content8.py:79 args=['B2', '詞彙配對', ['el sondeo', 'la muestra', 'el margen de error', 'la junta electoral'], ['quien organiza las elecciones', 'el error posible de un sondeo', 'una encuesta de opinión', 'las personas entrevistadas'], ['c', 'd', 'b', 'a'], ['sondeo=民調 c', 'muestra=樣本 d', 'margen de error=誤差範圍 b', 'junta electoral=選舉委員會 a']]
+    #141 [8p B2 詞彙配對] key='c'
+    #142 [8p B2 詞彙配對] key='d'
+    #143 [8p B2 詞彙配對] key='b'
+    #144 [8p B2 詞彙配對] key='a'
+--- #145 [8p B1 完形單選] content8.py:89 key='A'
+    B1
+    完形單選
+    A
+    vengo a votar = 我來投票
+    — Buenos días, vengo a ___. (A. votar · B. cantar)
+--- #146 [8p B1 完形單選] content8.py:91 key='A'
+    B1
+    完形單選
+    A
+    documento de identidad = 身分證件
+    — ¿Tiene su documento de ___? (A. identidad · B. puente)
+--- #147 [8p B1 完形單選] content8.py:93 key='A'
+    B1
+    完形單選
+    A
+    ¿dónde está la urna? 投票箱在哪
+    — ¿Dónde está la ___? (A. urna · B. guitarra)
+--- #148 [8p B1 完形單選] content8.py:95 key='A'
+    B1
+    完形單選
+    A
+    la papeleta va en el sobre = 選票裝進信封
+    — La papeleta va en el ___. (A. sobre · B. derbi)
+--- #149 [8p B1 完形單選] content8.py:97 key='A'
+    B1
+    完形單選
+    A
+    ¿a qué hora cierra el colegio? 幾點關門
+    — ¿A qué hora ___ el colegio? (A. cierra · B. canta)
+--- #150 [8p B1 寫作] content8.py:101 key='（開放題，範本如下）'
+    B1
+    寫作
+    （開放題，範本如下）
+    範文見本版 H 區（97 詞）
+    «¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.
+total REG paired: 150

@@ -1,0 +1,15 @@
+parsed answers: 150 missing: []
+level tags in text.md: {'A2': 43, 'B1': 73, 'B2': 28} total 144
+model text words: 82
+model: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedicht voor mijn surprise. Zaterdag kijk ik naar NEC – PSV. Zondag zet ik mijn schoen met een wortel en een verlanglijstje. Zondagavond kijk ik naar Expeditie Robinson. Daarna is het bijna pakjesavond, op zaterdag 5 december. Ik hoop op een boek. Wat een week vol voetbal en licht!
+p8 keys: 150
+text.md vs p8 printed key mismatches (excluding match items): 1
+   (150, '(tâche ouverte, texte modèle ci-dessous)', '✓')
+  match 25: textmd=match:d p8='d'
+  match 26: textmd=match:c p8='c'
+  match 27: textmd=match:a p8='a'
+  match 28: textmd=match:b p8='b'
+  match 141: textmd=match:b p8='b'
+  match 142: textmd=match:c p8='c'
+  match 143: textmd=match:d p8='d'
+  match 144: textmd=match:a p8='a'

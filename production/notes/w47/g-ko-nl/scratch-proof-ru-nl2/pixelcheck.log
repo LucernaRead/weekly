@@ -1,0 +1,17 @@
+tightest 5 titles, PDF-pixel cross-check on production cards/ PNGs
+(png x = svg x * 1950/1800; scan title band for pixels with L<200)
+p6-razbor box_y=669.3 baseline=707.8 title='Uitleg —  | задают | ритм | bepalen het ritme'
+   PIL ink_right=942.1 box_right=961.0 clear=18.9
+   PIXEL rightmost dark x=943 -> svg 870.5 ; pixel clear vs box right = 90.5px ; box right in png = 1041.1
+p6-razbor box_y=663.5 baseline=705.5 title='ЗА | И | ПРОТИВ | \u3000VOOR EN TEGEN'
+   PIL ink_right=1840.7 box_right=1862.0 clear=21.3
+   PIXEL rightmost dark x=1837 -> svg 1695.7 ; pixel clear vs box right = 166.3px ; box right in png = 2017.2
+p4-sport box_y=742.2 baseline=780.7 title='Uitleg —  | сравняли | счёт | gelijkmaken ·'
+   PIL ink_right=930.4 box_right=961.0 clear=30.6
+   PIXEL rightmost dark x=924 -> svg 852.9 ; pixel clear vs box right = 108.1px ; box right in png = 1041.1
+p5-molodezh box_y=1130.8 baseline=1169.3 title='Uitleg —  | в | прошлом | году | vorig jaar ·'
+   PIL ink_right=920.0 box_right=961.0 clear=41.0
+   PIXEL rightmost dark x=914 -> svg 843.7 ; pixel clear vs box right = 117.3px ; box right in png = 1041.1
+p7-yazyk box_y=992.2 baseline=1034.2 title='СЛОВО | \u3000WOORD VAN DE WEEK'
+   PIL ink_right=1814.2 box_right=1862.0 clear=47.8
+   PIXEL rightmost dark x=1812 -> svg 1672.6 ; pixel clear vs box right = 189.4px ; box right in png = 2017.2

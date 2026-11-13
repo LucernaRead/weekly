@@ -1,0 +1,78 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+--- 1) P7 quotes vs P1-P6 ---
+Q97: VERBATIM
+Q98: VERBATIM
+Q99: VERBATIM
+Q100: VERBATIM
+Q101: VERBATIM
+Q102: VERBATIM
+Q103: VERBATIM
+Q104: VERBATIM
+quotes verbatim: 8/8
+--- 5) fix4 Q148 ---
+source key "devant le": True | old "devant" key 0: True
+source stem "___ cinéma ?": True | old "___ du cinéma ?" absent: True
+text.md stem: True | old stem absent: True
+text.md key: devant le（电影院门口）
+P8 SVG stem: True | old stem absent: True
+P8 SVG key "148. devant le": True | old key "148. devant（" absent: True
+filled sentence: True
+dialogue stem in source: True
+--- 6) fix4 P4 ---
+note single line present: True | old note absent: True
+text.md note: True | old note absent: True
+p4-sport: old 215 new 214 removed 2 added 1
+  removed: ('1461.5', '520', '大师赛决赛结果与都灵名单见本版正文')
+  removed: ('1461.5', '550.53', '。')
+  added: ('1461.5', '520', '大师赛结果与都灵名单见本版正文。')
+p8-exercices: old 323 new 323 removed 4 added 4
+  removed: ('1439.5', '1353.68', '(148)___ du cinéma ? — Oui, à 19 h 30. Bon')
+  removed: ('1439.5', '1976.25', '）\u3000148. devant（电影院门口）\u3000149. film（Bon film ! 好电')
+  removed: ('1439.5', '1996.4', '影）\u3000150. 开放题 — 要点见写作框，范文在第 8 版写作框内')
+  removed: ('1439.5', '2016.55', '（按要点给分）')
+  added: ('1439.5', '1353.68', '(148)___ cinéma ? — Oui, à 19 h 30. Bon')
+  added: ('1439.5', '1976.25', '）\u3000148. devant le（电影院门口）\u3000149. film（Bon film ! 好')
+  added: ('1439.5', '1996.4', '电影）\u3000150. 开放题 — 要点见写作框，范文在第 8 版写作框')
+  added: ('1439.5', '2016.55', '内（按要点给分）')
+--- 7) orphan punctuation sweep ---
+  p1-une: 0 
+  p2-vie: 0 
+  p3-culture: 0 
+  p4-sport: 0 
+  p5-jeunesse: 0 
+  p6-politique: 0 
+  p7-langue: 0 
+  p8-exercices: 0 
+orphan lone-punct lines total (task scope): 0
+lone em-dash lines (pre-existing, see note): [('p4-sport', '— '), ('p6-politique', '— ')]
+--- 2) keys vs .text.md REPONSES ---
+parsed from text.md: 149 numbers; keys in p8 json: 150
+mismatches: 0
+Q148 key: devant le | text.md 148: devant le
+--- 3) badges ---
+  p1-une: 10
+  p2-vie: 12
+  p3-culture: 18
+  p4-sport: 15
+  p5-jeunesse: 14
+  p6-politique: 15
+  p7-langue: 12
+  p8-exercices: 38
+total badges: 134 colours: {'#5c6e30': 50, '#46581f': 65, '#37402f': 19}
+--- 4) S1.1 spots ---
+  p1-une: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=35
+  p2-vie: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=33
+  p3-culture: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=19
+  p4-sport: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=29
+  p5-jeunesse: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=23
+  p6-politique: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=24
+  p7-langue: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=15
+  p8-exercices: paper #fbfaf6=True old #f7f1e2=False gold=0 dot·=0 font38=0 fullspace　=182
+  text.md: dot·= 0 fullspace　= 390
+  ABSTRACT: dot·= 0
+--- 8) creambox ---
+creambox violations: 0
+--- 9) P8 min font (print PDF) ---
+spans: 469 min size: 11.62pt (>= 9.75pt: True)
+OVERALL: PASS

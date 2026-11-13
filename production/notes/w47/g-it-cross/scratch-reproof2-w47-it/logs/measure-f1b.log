@@ -1,0 +1,21 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== F-1 redo: slogan span 'OGNI SETTIMANA...' x1 vs date span 'SETTIMANA DAL...' x0 (pt) ==
+core-it: date_x0=None slogan_x1=None gap=None slogan=None
+it-en: date_x0=None slogan_x1=None gap=None slogan=None
+it-de: date_x0=None slogan_x1=None gap=None slogan=None
+it-fr: date_x0=None slogan_x1=None gap=None slogan=None
+it-es: date_x0=None slogan_x1=None gap=None slogan=None
+it-pt: date_x0=None slogan_x1=None gap=None slogan=None
+it-nl: date_x0=None slogan_x1=None gap=None slogan=None
+it-ru: date_x0=None slogan_x1=None gap=None slogan=None
+it-ja: date_x0=None slogan_x1=None gap=None slogan=None
+it-ko: date_x0=None slogan_x1=None gap=None slogan=None
+it-zh-tw: date_x0=None slogan_x1=None gap=None slogan=None
+== ru P6 raw text around NOV/Scade ==
+'e Bilancio:\nsi chiude giovedì 12 con\nGiorgetti.\nMAR 17 NOV.\nScade il termine per gli\nemendamenti, al'
+== core-it footer full lines (print, P1 and P8) ==
+P1: ['讲解｜la vetta 榜首/顶峰· imbattuto 不败的·', '意大利语周报VOL.4', '正文意大利语', '讲解简体中文']
+P8: ['意大利语周报VOL.4', '正文意大利语', '讲解简体中文']
+== core-it footer web P1 ==
+['讲解｜la vetta 榜首/顶峰· imbattuto 不败的·', '正文意大利语', '讲解简体中文']

@@ -1,0 +1,18 @@
+p1-portada.svg: DIFFERS after normalisation (old 230 elems, new 230 elems)
+  elem #15:
+    OLD: <text x="650.9" y="614" font-family="Noto Sans CJK SC" font-size="16" fill="#6f675d" text-anchor="start">TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L’EDIZIONE PER I LETTORI ITALIANI</text>
+    NEW: <text x="657.5" y="614" font-family="Noto Sans CJK SC" font-size="16" fill="#6f675d" text-anchor="start">TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI</text>
+p2-vida.svg: IDENTICAL after apostrophe normalisation
+p3-cultura.svg: DIFFERS after normalisation (old 205 elems, new 205 elems)
+  elem #39:
+    OLD: <text x="556.5" y="297.95000000000005" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">compás = il ritmo · el duende =</text>
+    NEW: <text x="556.5" y="297.95000000000005" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">compás = il ritmo · el duende = l'anima</text>
+  elem #40:
+    OLD: <text x="556.5" y="327.67500000000007" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">l’anima del flamenco.</text>
+    NEW: <text x="556.5" y="327.67500000000007" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">del flamenco.</text>
+p4-deporte.svg: IDENTICAL after apostrophe normalisation
+p5-juventud.svg: IDENTICAL after apostrophe normalisation
+p6-afondo.svg: IDENTICAL after apostrophe normalisation
+p7-lengua.svg: IDENTICAL after apostrophe normalisation
+p8-ejercicios.svg: IDENTICAL after apostrophe normalisation
+DONE

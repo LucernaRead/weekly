@@ -1,0 +1,24 @@
+PALETTE off-palette per page:
+  p1-touiban.svg: off=['#34483a', '#4d72b4', '#4f765d', '#7898cd', '#84a283', '#cac8ba', '#d7b257', '#edd17f', '#f1e8d4']
+  p2-shenghuo.svg: off=[]
+  p3-wenhua.svg: off=[]
+  p4-tiyu.svg: off=[]
+  p5-qingnian.svg: off=[]
+  p6-shendu.svg: off=[]
+  p7-ciyu.svg: off=[]
+  p8-ceyan.svg: off=[]
+PAPER #fbfaf6 counts: {'p1-touiban.svg': 1, 'p2-shenghuo.svg': 1, 'p3-wenhua.svg': 1, 'p4-tiyu.svg': 1, 'p5-qingnian.svg': 1, 'p6-shendu.svg': 1, 'p7-ciyu.svg': 1, 'p8-ceyan.svg': 1}
+VOL counts: {'p1-touiban.svg': {'VOL.4': 2, 'VOL.5': 0, 'VOL.3': 0}, 'p2-shenghuo.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}, 'p3-wenhua.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}, 'p4-tiyu.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}, 'p5-qingnian.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}, 'p6-shendu.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}, 'p7-ciyu.svg': {'VOL.4': 1, 'VOL.5': 1, 'VOL.3': 2}, 'p8-ceyan.svg': {'VOL.4': 1, 'VOL.5': 0, 'VOL.3': 0}}
+STROKED rects: 0
+BOX TITLES: 35 boxes with text
+  title clear   13.50px  p4-tiyu.svg box=[1439.5, 915.4, 1862.0, 1171.4]  '看比赛的中文\u3000Wedstrijdwoorden'
+  title clear   28.00px  p3-wenhua.svg box=[88.0, 1265.2, 510.5, 1470.3]  'Notities｜jiéqì 节气 — een zonnetermijn'
+  title clear   28.25px  p6-shendu.svg box=[538.5, 990.9, 961.0, 1106.8]  'Notities｜yùjì 预计 — een schatting, wat'
+  title clear   34.25px  p4-tiyu.svg box=[538.5, 557.4, 961.0, 792.2]  'Notities｜sìqiáng 四强 — de laatste vier'
+  title clear   39.50px  p5-qingnian.svg box=[538.5, 200.0, 961.0, 405.1]  'Notities｜xuányí 悬疑 — spanning, een'
+  title clear   40.00px  p3-wenhua.svg box=[538.5, 467.4, 961.0, 583.3]  'Notities｜hóng 虹 — een regenboog ·'
+  negative titles: 0
+VERTICAL straddles: 0
+SPILL texts: 0
+P1 green band: {'box': [88.0, 470.0, 1862.0, 588.0], 'texts': 11, 'min_clear': 29.95, 'tightest': [('S16决赛×包裹', 29.95), ("De finale ontmoet de pakketten\u3000zie pagina's ", 30.15), ('决出冠军。', 1141.9)]}
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-zh-cn-nl1/sweep2.json

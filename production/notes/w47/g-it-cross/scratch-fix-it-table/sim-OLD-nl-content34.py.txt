@@ -1,0 +1,11 @@
+--- 
++++ 
+@@ -64,7 +64,7 @@
+      "Eurochocolate è alla sua... A. 29ª edizione · B. 67ª edizione · C. 32ª edizione", size=20, gap=8)
+ e.ex("A2", "Meerkeuze", "B", "De heropvoering is om 17.00 uur op de Piazza del Comune",
+      "La rievocazione del matrimonio è... A. alle 11 · B. alle 17 · C. alle 20", size=20, gap=8)
+-e.ex("B1", "Meerkeuze", "A", "Het thema van Eurochocolate dit jaar is «Fate dolci»",
++e.ex("B1", "Meerkeuze", "A", "Het thema van Eurochocolate dit jaar is “Fate dolci”",
+      "Il titolo di Eurochocolate 2026 è... A. «Fate dolci» · B. «Il Confine» · C. «Finestrini»", size=20, gap=8)
+ e.ex("B1", "Meerkeuze", "B", "De truffelbeurs in Alba duurt tot 6 december",
+      "La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. il 6 dicembre · C. l'8 novembre", size=20, gap=8)

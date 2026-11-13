@@ -1,0 +1,95 @@
+[2026-w47-fr-pt/fixfam1] run.py
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 0
+[2026-w47-fr-pt/fixfam1] render.py
+render rc=0
+[2026-w47-fr-pt/fixfam1] webpdf.py
+webpdf rc=0
+  font LucernaNotoSansCJKSC-Bold: 18948 bytes
+  font LucernaNotoSerifCJKSC-Regular: 24384 bytes
+  font LucernaNotoSerifCJKSC-Bold: 25076 bytes
+  font LucernaUnifrakturMaguntia-Regular: 32508 bytes
+WROTE La-Lucerna-VOL4-fr-pt-web.pdf: 1623461 bytes, 46802 text bytes
+[2026-w47-fr-pt/fixfam1] shas
+-rw-rw---- 1 root nogroup  1623461 Nov 13 01:49 La-Lucerna-VOL4-fr-pt-web.pdf
+-rw-rw---- 1 root nogroup 17032129 Nov 13 01:49 La-Lucerna-VOL4-fr-pt.pdf
+6aee0967dcfc9e21725948c38fe2bdfbbbb1671f68168a70d2c7e10b936883df  La-Lucerna-VOL4-fr-pt.pdf
+88ece6e886a9c1f3802e0fc06a1b871c35c42136aa424d830fce06cd1a7edba8  La-Lucerna-VOL4-fr-pt-web.pdf
+c7a3f3244476dde4ea8a89a3b96acba65a3966bf7cbf8df7412090ced94303ca  2026-w47-fr-pt.text.md
+[2026-w47-fr-pt/fixfam1] text layers print vs web
+TEXTLAYER print==web BYTE-IDENTICAL
+print chars 99502 web chars 99502
+multiset diff total 0
+only-in-print {} only-in-web {}
+[2026-w47-fr-pt/fixfam1] occlusion
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+[2026-w47-fr-pt/fixfam1] p8 extract
+p8extract rc=0
+svg/p8-exercices.svg: noted set = 121 of 150 (parse: joined)
+  set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[2026-w47-fr-pt/fixfam1] p8 compare vs core-fr
+p8compare-core rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+[2026-w47-fr-pt/fixfam1] p8 compare vs pre-fix baseline
+p8compare-pre rc=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-pt/baseline/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[2026-w47-fr-pt/fixfam1] freeze baseline
+freeze-baseline rc=0
+  OK  p7-langue.svg core 4ede33d7ee0c279f produced 4ede33d7ee0c279f
+  OK  p8-exercices.svg core 1da787776e2d6f07 produced 1da787776e2d6f07
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[2026-w47-fr-pt/fixfam1] freeze diff vs core-fr
+freeze-diff rc=0
+p1: +54 strings / -55 strings; CJK core 225 -> edition 33; added CJK chars: 0 ; added Latin strings: 33 (unexpected 33)
+p2: +81 strings / -101 strings; CJK core 308 -> edition 37; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 57 (unexpected 57)
+p3: +56 strings / -77 strings; CJK core 198 -> edition 19; added CJK chars: 0 ; added Latin strings: 41 (unexpected 41)
+p4: +69 strings / -76 strings; CJK core 236 -> edition 29; added CJK chars: 0 ; added Latin strings: 51 (unexpected 51)
+p5: +59 strings / -70 strings; CJK core 244 -> edition 22; added CJK chars: 0 ; added Latin strings: 46 (unexpected 46)
+p6: +47 strings / -57 strings; CJK core 226 -> edition 22; added CJK chars: 0 ; added Latin strings: 35 (unexpected 35)
+p7: +59 strings / -79 strings; CJK core 411 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+p8: +359 strings / -568 strings; CJK core 1222 -> edition 192; added CJK chars: 12 {'\u3000': 12}; added Latin strings: 224 (unexpected 224)
+TOTAL added CJK characters: 15
+TOTAL added Latin strings: 532 (unexpected 532)
+p5: +59 strings / -70 strings; CJK core 244 -> edition 22; added CJK chars: 0 ; added Latin strings: 46 (unexpected 46)
+p6: +47 strings / -57 strings; CJK core 226 -> edition 22; added CJK chars: 0 ; added Latin strings: 35 (unexpected 35)
+p7: +59 strings / -79 strings; CJK core 411 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+p8: +359 strings / -568 strings; CJK core 1222 -> edition 192; added CJK chars: 12 {'\u3000': 12}; added Latin strings: 224 (unexpected 224)
+TOTAL added CJK characters: 15
+TOTAL added Latin strings: 532 (unexpected 532)
+[2026-w47-fr-pt/fixfam1] boxtitle
+boxtitle rc=0
+== 2026-w47-fr-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-fr backup=-
+BOXTITLE 2026-w47-fr-pt: 36 titles, 289 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+[2026-w47-fr-pt/fixfam1] creambox
+creambox rc=0
+p4-sport.svg: els 210->248 lines 165->163 diff 116 moved 24 defects 0 observe 0
+p5-jeunesse.svg: els 198->228 lines 148->148 diff 2 moved 15 defects 0 observe 0
+p6-politique.svg: els 215->245 lines 165->165 diff 41 moved 95 defects 0 observe 0
+p7-langue.svg: els 192->226 lines 118->122 diff 120 moved 62 defects 0 observe 0
+p8-exercices.svg: els 323->691 lines 196->196 diff 62 moved 43 defects 0 observe 0
+ratios: n=519 median=1.008 boldT=1.056 boldF=0.995
+P8 p8-exercices.svg: lines 196->196 slack_footer 34.1->32.6
+CREAMBOX PASS 0 defects
+[2026-w47-fr-pt/fixfam1] spill
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1665.8 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-pt: 33 boxes, 103 candidates, 0 SPILL, 103 OBSERVE
+[2026-w47-fr-pt/fixfam1] edge scan
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w47-fr-pt: 8 pages, 0 TOUCH, 0 NEAR
+[2026-w47-fr-pt/fixfam1] census
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+=== SUMMARY 2026-w47-fr-pt/fixfam1 FAILFLAG=0 (rcs above; 0=pass) ===

@@ -1,0 +1,12 @@
+p1-pyoji.svg: els 163->1116 lines 116->116 diff 2 moved 18 defects 0 observe 0
+p2-saenghwal.svg: els 196->1169 lines 142->142 diff 26 moved 18 defects 0 observe 0
+p3-munhwa.svg: els 183->1137 lines 138->138 diff 16 moved 18 defects 0 observe 0
+p4-seupocheu.svg: els 158->934 lines 112->112 diff 11 moved 21 defects 0 observe 0
+p5-cheongnyeon.svg: els 169->957 lines 118->119 diff 58 moved 20 defects 0 observe 0
+p6-gipi.svg: els 158->1030 lines 104->110 diff 105 moved 24 defects 1 observe 0
+  DEFECT spill box#2 '확정 = подтверждено · 믿다 = верить' {'box': 2, 's': '확정 = подтверждено · 믿다 = верить', 'issue': 'spilled below box', 'y_base': 455.2, 'y_patch': 528.2, 'box_bottom': 502.9}
+p7-mal.svg: els 150->1039 lines 100->100 diff 24 moved 18 defects 0 observe 0
+p8-siheom.svg: els 333->2609 lines 236->244 diff 132 moved 43 defects 0 observe 0
+ratios: n=404 median=0.998 boldT=0.956 boldF=1.019
+P8 p8-siheom.svg: lines 236->244 slack_footer 60.0->60.0
+CREAMBOX FAIL 1 defects

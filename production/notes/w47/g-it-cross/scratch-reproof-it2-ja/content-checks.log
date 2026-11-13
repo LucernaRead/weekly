@@ -1,0 +1,19 @@
+model essay words: 99 (expect 99)
+gold P1: 2x 'La Lazio resta in vetta'
+gold P1: 2x 'ventiquattro gol in dieci partite'
+gold P2: 2x 'il ponte votivo sul Canal Grande'
+gold P3: 2x 'oltre centocinquanta figuranti in costum'
+gold P4: 2x 'la squadra di Gattuso è ancora imbattuta'
+gold P5: 2x 'sette giorni di libri, ragioni e follie'
+gold P6: 2x 'il testo può ancora cambiare'
+gold P6: 2x 'approvato dal governo non vuol dire già '
+Serie A goals sum: 24 (expect 24); matches: 10
+Ucraina|Russia|Putin: 0
+國/学 in text.md: 0 0  翻譯: 0  翻訳: 4
+SVG 国/学: 0 0  SVG 翻譯: 0
+VOL.5 nodes in SVG (expect 3): 3
+VOL.4 nodes in SVG (expect 9): 9
+fonts: Counter({'Newsreader': 1136, 'Noto Sans CJK JP': 627, 'Noto Serif CJK JP': 295, 'UnifrakturMaguntia': 1})
+titles font-size>=30 nodes: 51
+exercise stems numbered: 138 min 1 max 150 continuous 1-150: False
+answers listed: 150 continuous 1-150: True

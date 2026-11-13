@@ -1,0 +1,33 @@
+import sys
+sys.path.insert(0, "production/2026-w47/2026-w47-nl-it")
+from svglib import wrap, text_w
+# Analytic band: current split holds iff for every line i,
+#   w >= width(line_i)  and  w < width(line_i + " " + first-word-of-line_{i+1})
+# (greedy wrap). Upper edge (0.1px grid) = min_i(...) - 0.1 ; lower = max_i width(line_i).
+def band(name, lines, kind, size, lo_scan):
+    widths = [text_w(ln, kind, False, size) for ln in lines]
+    upper = min(text_w(lines[i] + " " + lines[i+1].split(" ")[0], kind, False, size) for i in range(len(lines)-1))
+    lo = max(widths)
+    print(f"{name}: line widths {[round(x,2) for x in widths]}; analytic lo={lo:.2f} (scan lo {lo_scan}); upper={upper:.2f} -> grid upper {upper-0.1:.1f}")
+    hi = round(upper - 0.1, 1)
+    mid = round((lo_scan + hi) / 2, 2)
+    print(f"   band {lo_scan}–{hi}, mid {mid}")
+    return mid
+D6 = ['Completa al passato prossimo. Attenzione', 'agli ausiliari hebben/zijn.']
+D7 = ['de wedstrijd partita; de groepswinst vittoria', 'del girone; de kwartfinale quarti di finale;', 'scoren segnare.']
+D8 = ["Dati per l'esercizio: numeri inventati, solo", 'per esercitarsi, non un vero sondaggio.', 'Domanda: che cosa metti nella tua scarpa?', '(100 giovani)']
+D10 = ['Nessuna vera lettera né migliori testi:', 'esempio; promessa passata a VOL.5.']
+m6 = band("D6", D6, "sans", 20.5, 399.9)
+m7 = band("D7", D7, "sans", 20.5, 415.5)
+m8 = band("D8", D8, "sans", 18.5, 367.4)
+m10 = band("D10", D10, "sans", 20, 343.7)
+print("\n== verify mids reproduce current lines ==")
+checks = [("D6", "Completa al passato prossimo. Attenzione agli ausiliari hebben/zijn.", "sans", 20.5, m6, D6),
+          ("D7", "de wedstrijd partita; de groepswinst vittoria del girone; de kwartfinale quarti di finale; scoren segnare.", "sans", 20.5, m7, D7),
+          ("D8", "Dati per l'esercizio: numeri inventati, solo per esercitarsi, non un vero sondaggio. Domanda: che cosa metti nella tua scarpa? (100 giovani)", "sans", 18.5, m8, D8),
+          ("D10", "Nessuna vera lettera né migliori testi: esempio; promessa passata a VOL.5.", "sans", 20, m10, D10)]
+for name, text, kind, size, mid, cur in checks:
+    got = wrap(text, kind, False, size, mid)
+    print(f"{name} w={mid}: {'OK' if got == cur else 'MISMATCH ' + repr(got)}")
+    # also verify band edges hold (lo and hi reproduce; lo-0.1 and hi+0.1 differ)
+print("\nMIDS: D6", m6, "D7", m7, "D8", m8, "D10", m10)

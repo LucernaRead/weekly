@@ -1,0 +1,122 @@
+== de stats {'KEEP': 23, 'REVERT': 36, 'MERGE': 1, 'INSERT': 1, 'DELETE': 0} ==
+content12.py:41 [KEEP] OLD: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. El PSOE no lo había confirmado el 10 de noviembre: esta página no da por cerrado lo que aún se negocia (página 6).")
+content12.py:41 [KEEP] NEW: f.para("El lunes 16, el PP propone un cara a cara entre Sánchez y Feijóo. Los dos partidos aceptan la cita, pero no hay hora publicada: esta página no da por cerrado lo que aún se negocia (página 6)."
+content12.py:42 [KEEP] OLD: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo antes del jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:42 [KEEP] NEW: f.para("¿Y el que quiera votar por correo? Tiene que pedirlo hasta el jueves 19: la documentación llega a casa desde el lunes 9 (página 5).")
+content12.py:48 [REVERT] OLD:     ("15 — días dura la campaña electoral, del viernes 13 al viernes 27 (15 Tage)", "serif", False, INK, 20.5, 1.35),
+content12.py:48 [REVERT] NEW:     ("15 — días dura la campaña electoral, del viernes 13 al viernes 27 (15 Tage Wahlkampf)", "serif", False, INK, 20.5, 1.35),
+content12.py:49 [REVERT] OLD:     ("19 — jueves, último día para pedir el voto por correo (Donnerstag, 19.: letzter Tag)", "serif", False, INK, 20.5, 1.35),
+content12.py:49 [REVERT] NEW:     ("19 — jueves, último día para pedir el voto por correo (Donnerstag, 19.: letzter Tag für den Antrag auf Briefwahl)", "serif", False, INK, 20.5, 1.35),
+content12.py:56 [KEEP] OLD: f.ex("A2", "Sätze vervollständigen", "19", "Die Briefwahl muss vor dem 19. beantragt werden",
+content12.py:56 [KEEP] NEW: f.ex("A2", "Sätze vervollständigen", "19", "Die Briefwahl muss spätestens am 19. beantragt werden",
+content12.py:57 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", size=20.5)
+content12.py:57 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", size=20.5)
+content12.py:69 [KEEP] OLD: p.rect(gx, gy, gw, 700, fill=BOX)
+content12.py:69 [KEEP] NEW: p.rect(gx, gy, gw, 720, fill=BOX)
+content12.py:116 [REVERT] OLD: p.para(gx, wy + 10, "„Debatte“: Menschen diskutieren öffentlich.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:116 [REVERT] NEW: p.para(gx, wy + 10, "„Debatte“: Zwei oder mehr Menschen diskutieren öffentlich, mit Redeanteilen und Fragen.", 19, "sans", False, GREY, gw, 1.35)
+content12.py:125 [KEEP] OLD:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo antes del jueves 19, y en la página 6, cómo leer un debate s
+content12.py:125 [KEEP] NEW:         "La urna y el sobre: votar por correo o en persona, el 29 de noviembre España decide. En la página 5, cómo pedir el voto por correo hasta el jueves 19, y en la página 6, cómo leer un debate si
+content12.py:131 [KEEP] OLD: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo.", 22.5)
+content12.py:131 [KEEP] NEW: f2.para("Nuestro consejo para esta semana: escucha el debate entero, no solo el titular. En la página 6 te enseñamos cómo leer un debate sin perderse.", 22.5)
+content12.py:157 [KEEP] OLD: qf.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss vor dem 19. beantragt werden",
+content12.py:157 [KEEP] NEW: qf.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+content12.py:158 [KEEP] OLD:       "El voto por correo se pide antes del... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:158 [KEEP] NEW:       "El voto por correo se pide hasta el... A. jueves 19 · B. lunes 16 · C. domingo 29", size=21)
+content12.py:175 [KEEP] OLD: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:175 [KEEP] NEW: f.para("El lunes es también el Día Internacional del Flamenco: en 2010, la UNESCO declaró el flamenco Patrimonio Cultural Inmaterial de la Humanidad (página 3). Y ese mismo lunes, el PP propone un car
+content12.py:176 [KEEP] OLD: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet antes de ese día (página 5).")
+content12.py:176 [KEEP] NEW: f.para("El jueves 19 es un día clave: termina el plazo para pedir el voto por correo. Quien quiera votar desde casa tiene que pedirlo en Correos o por internet hasta ese día (página 5).")
+content12.py:255 [KEEP] OLD:      "El voto por correo se pide antes del jueves ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+content12.py:255 [KEEP] NEW:      "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="Ausfüllen", size=20, gap=8)
+content12.py:275 [REVERT] OLD: e.bridge("Lies den Artikel und wähle die Antwort.")
+content12.py:275 [REVERT] NEW: e.bridge("Lies den Text auf Seite 2 und wähle die richtige Antwort.")
+content12.py:278 [KEEP] OLD: e.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss vor dem 19. beantragt werden",
+content12.py:278 [KEEP] NEW: e.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+content34.py:45 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Hast du schon Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.", "san
+content34.py:45 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Hast du schon einmal Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.
+content34.py:51 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Hast du schon Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.", 19, "sans", False, GREY, CW - 44, 1.42)
+content34.py:51 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Hast du schon einmal Flamenco gehört? Welche Musik aus deinem Land hat duende? Schreib zwei Sätze und schick sie ein.", 20, "sans", False, GREY, CW - 44, 1.42)
+content34.py:62 [REVERT] OLD: e.ex("A2", "Richtig oder falsch", "Verdadero", "Flamencotag, Montag, 16. November",
+content34.py:62 [REVERT] NEW: e.ex("A2", "Richtig oder falsch", "Verdadero", "Internationaler Flamencotag, Montag, 16. November",
+content34.py:64 [REVERT] OLD: e.ex("A2", "Richtig oder falsch", "Verdadero", "UNESCO: Flamenco seit 2010 Kulturerbe",
+content34.py:64 [REVERT] NEW: e.ex("A2", "Richtig oder falsch", "Verdadero", "Die UNESCO nahm Flamenco 2010 ins Kulturerbe auf",
+content34.py:66 [REVERT] OLD: e.ex("A2", "Richtig oder falsch", "Falso", "Flamenco: Gesang, Gitarre und Tanz in einem",
+content34.py:66 [REVERT] NEW: e.ex("A2", "Richtig oder falsch", "Falso", "Flamenco ist nicht nur Tanz: Gesang, Gitarre und Tanz in einem",
+content34.py:68 [REVERT] OLD: e.ex("B1", "Richtig oder falsch", "Falso", "Cäcilientag ist der 22. November",
+content34.py:68 [REVERT] NEW: e.ex("B1", "Richtig oder falsch", "Falso", "Cäcilientag ist der 22. November; sie ist die Schutzpatronin der Musiker",
+content34.py:70 [REVERT] OLD: e.ex("A2", "Richtig oder falsch", "Verdadero", "Stadtmusik Bilbao, Sonntag, 22., 12:00 Uhr",
+content34.py:70 [REVERT] NEW: e.ex("A2", "Richtig oder falsch", "Verdadero", "Die Stadtmusik von Bilbao spielt am Sonntag, 22., um 12:00 Uhr",
+content34.py:97 [REVERT] OLD: e.ex("A2", "Sätze bilden", "El flamenco es cante, toque y baile.", "Satzbau: Subjekt + Verb",
+content34.py:97 [REVERT] NEW: e.ex("A2", "Sätze bilden", "El flamenco es cante, toque y baile.", "Subjekt + Verb + Beschreibung",
+content34.py:101 [REVERT] OLD: e.ex("B1", "Sätze bilden", "En Bilbao toca la banda el domingo.", "Ort zuerst, dann das Verb",
+content34.py:101 [REVERT] NEW: e.ex("B1", "Sätze bilden", "En Bilbao toca la banda el domingo.", "Ort zuerst, Verb an zweiter Stelle",
+content56.py:50 [REVERT] OLD: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Würdest du per Brief oder persönlich wählen? Was kaufst du am Black Friday? Schreib zwei Sätze und schick sie ein.", 
+content56.py:50 [REVERT] NEW: eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Würdest du per Brief oder persönlich wählen? Was würdest du am Black Friday kaufen: etwas Nützliches oder eine Laune?
+content56.py:56 [REVERT] OLD: p.para(ix + 22, yy3 + 20, "Würdest du per Brief oder persönlich wählen? Was kaufst du am Black Friday? Schreib zwei Sätze und schick sie ein.", 19, "sans", False, GREY, CW - 44, 1.42)
+content56.py:56 [REVERT] NEW: p.para(ix + 22, yy3 + 20, "Würdest du per Brief oder persönlich wählen? Was würdest du am Black Friday kaufen: etwas Nützliches oder eine Laune? Schreib zwei Sätze und schick sie ein.", 20, "sans", Fa
+content56.py:67 [KEEP] OLD: e.ex("B1", "Multiple Choice", "B", "Die Briefwahl muss vor dem 19. beantragt werden",
+content56.py:67 [KEEP] NEW: e.ex("B1", "Multiple Choice", "B", "Die Briefwahl muss spätestens am 19. beantragt werden",
+content56.py:73 [REVERT] OLD: e.ex("B1", "Multiple Choice", "B", "MiDNI ist die neue Art, sich auszuweisen",
+content56.py:73 [REVERT] NEW: e.ex("B1", "Multiple Choice", "B", "MiDNI ist die neue Art, sich dieses Jahr bei der Wahl auszuweisen",
+content56.py:78 [REVERT] OLD: e.bridge("Fülle die Lücken mit den Wörtern aus dem Kasten; konjugiere, wo nötig.")
+content56.py:78 [REVERT] NEW: e.bridge("Fülle die Lücken mit den Wörtern aus dem Kasten. Achtung: Manche Wörter müssen konjugiert werden.")
+content56.py:107 [REVERT] OLD: e.ex("B1", "Richtig oder falsch", "Verdadero", "Mit MiDNI ausweisen und wählen",
+content56.py:107 [REVERT] NEW: e.ex("B1", "Richtig oder falsch", "Verdadero", "Dieses Jahr kann man sich mit MiDNI ausweisen und wählen",
+content56.py:117 [REVERT] OLD: p.band("A FONDO　HINTERGRUND", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Den Wahlkampf lesen: Debatten, Programme und Umfragen")
+content56.py:117 [REVERT] NEW: p.band("A FONDO　HINTERGRUND", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　Den Wahlkampf lesen")
+content56.py:124 [KEEP] OLD: f.para("El PP propone un cara a cara entre Sánchez y Feijóo para el lunes 16, y un debate a cuatro para el jueves 26. El PSOE no había confirmado ninguna fecha el 10 de noviembre. Atresmedia convoca s
+content56.py:124 [KEEP] NEW: f.para("El debate de vivienda en la Cadena SER, el miércoles 18, ya está acordado (Rodríguez–Bravo), pero no se había publicado la hora al cierre de esta edición: acordado no es cerrado. El PP propone
+content56.py: INSERT fresh-only lines 138-138:     "23 NOV. — RTVE propone un debate a ocho, con los portavoces de los ocho grupos.",
+content56.py:140 [KEEP] OLD:     "26 NOV. — El PP propone un debate a cuatro (sin fecha pactada).",
+content56.py:140 [KEEP] NEW:     "26 NOV. — El PP propone un debate a cuatro de la Academia (sin fecha pactada).",
+content56.py:178 [KEEP] OLD: p.para(bx1 + 22, gy + bhh - 30, "Junta Electoral Central: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obrero, PCTE y SALF.", 17.5, "sans", 
+content56.py:178 [KEEP] NEW: p.para(bx1 + 22, gy + bhh - 30, "Acuerdo de la Junta Electoral Central del 4 de noviembre: 195 minutos en total, del 13 al 27 de noviembre. Tres formaciones más tienen 10 minutos cada una: Frente Obre
+content56.py:209 [REVERT] OLD: e.ex("B2", "Multiple Choice", "C", "Nur Gratiszeiten der Wahlleitung, mit Quelle",
+content56.py:209 [REVERT] NEW: e.ex("B2", "Multiple Choice", "C", "Wir drucken nur die Gratiszeiten, die die Wahlleitung veröffentlicht, mit Quelle",
+content56.py:212 [REVERT] OLD: e.ex("B2", "Multiple Choice", "B", "Bis 10. November nur die laSexta-Debatte",
+content56.py:212 [REVERT] NEW: e.ex("B2", "Multiple Choice", "B", "Bis zum 10. November ist nur die laSexta-Debatte beschlossen",
+content56.py:218 [REVERT] OLD: e.ex("B2", "Multiple Choice", "B", "Umfrage: Foto mit Fehlermarge, an einem Tag",
+content56.py:218 [REVERT] NEW: e.ex("B2", "Multiple Choice", "B", "Eine Umfrage ist ein Foto mit Fehler, an einem bestimmten Tag aufgenommen",
+content7.py:91 [REVERT] OLD: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = Debatte: eine öffentliche Diskussion; die Wahl ist am 29.", "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:91 [REVERT] NEW: wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = Debatte: eine öffentliche Diskussion mit Redeanteilen. Diese Woche ist Debattenwoche; die Wahl ist am 29.", "san
+content7.py:97 [REVERT] OLD: p.para(bx + 22, yy3 + 20, "debate = Debatte: eine öffentliche Diskussion; die Wahl ist am 29.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:97 [REVERT] NEW: p.para(bx + 22, yy3 + 20, "debate = Debatte: eine öffentliche Diskussion mit Redeanteilen. Diese Woche ist Debattenwoche; die Wahl ist am 29.", 20, "sans", False, GREY, CW - 44, 1.42)
+content7.py:99 [MERGE] OLD: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el viernes veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+content7.py:99 [MERGE] NEW: lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta （ejemplo, escrito por la redacción）"
+content7.py:101 [REVERT] OLD: ldcn = "Keine echten Leserbriefe bis zum Redaktionsschluss; ein Beispielbrief. Das Versprechen gilt für VOL.5."
+content7.py:101 [REVERT] NEW: ldcn = "Anmerkung der Redaktion: Bis zum Redaktionsschluss gab es keine echten Leserbriefe und keine besten Texte; diese Ausgabe druckt einen Beispielbrief der Redaktion. Das Versprechen gilt für VOL.
+content7.py:102 [REVERT] OLD: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+content7.py:102 [REVERT] NEW: lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 20, CW - 44)) * 29 + 42
+content7.py:109 [REVERT] OLD: p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+content7.py:109 [REVERT] NEW: p.para(bx + 22, yy3 + 20, ldcn, 20, "sans", False, GREY, CW - 44, 1.42)
+content8.py:23 [KEEP] OLD: f.ex("B1", "Lückentext (Auswahl)", "A", "el voto por correo se pide antes del jueves 19",
+content8.py:23 [KEEP] NEW: f.ex("B1", "Lückentext (Auswahl)", "A", "el voto por correo se pide hasta el jueves 19",
+content8.py:24 [KEEP] OLD:      "El voto por correo se pide antes del ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:24 [KEEP] NEW:      "El voto por correo se pide hasta el ___. (A. jueves 19 · B. lunes 16)", size=15.5, gap=1)
+content8.py:38 [KEEP] OLD: f.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss vor dem 19. beantragt werden",
+content8.py:38 [KEEP] NEW: f.ex("A2", "Multiple Choice", "A", "Die Briefwahl muss spätestens am 19. beantragt werden",
+content8.py:67 [REVERT] OLD: f.ex("B1", "Sätze bilden", "¿A qué hora empieza el debate?", "Fragewort am Satzanfang",
+content8.py:67 [REVERT] NEW: f.ex("B1", "Sätze bilden", "¿A qué hora empieza el debate?", "Das Fragewort steht am Satzanfang",
+content8.py:70 [REVERT] OLD: f.ex("A2", "Übersetzen", "Montag ist der Internationale Flamencotag.", "Vgl. Original.",
+content8.py:70 [REVERT] NEW: f.ex("A2", "Übersetzen", "Montag ist der Internationale Flamencotag.", "Mit dem Original vergleichen.",
+content8.py:72 [REVERT] OLD: f.ex("A2", "Übersetzen", "Am Samstag sehen wir das Derby von Sevilla.", "Vgl. Original.",
+content8.py:72 [REVERT] NEW: f.ex("A2", "Übersetzen", "Am Samstag sehen wir das Derby von Sevilla.", "Mit dem Original vergleichen.",
+content8.py:74 [KEEP] OLD: f.ex("B1", "Übersetzen", "El voto por correo se pide antes del jueves 19.", "pedir antes del jueves 19",
+content8.py:74 [KEEP] NEW: f.ex("B1", "Übersetzen", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+content8.py:75 [KEEP] OLD:      "Die Briefwahl muss vor Donnerstag, 19., beantragt werden. → ___", instr="Übersetzen", size=15.5, gap=1)
+content8.py:75 [KEEP] NEW:      "Die Briefwahl muss spätestens am Donnerstag, 19., beantragt werden. → ___", instr="Übersetzen", size=15.5, gap=1)
+content8.py:95 [REVERT] OLD: f.ex("B1", "Lückentext (Auswahl)", "A", "la papeleta va en el sobre = Stimmzettel in den Umschlag",
+content8.py:95 [REVERT] NEW: f.ex("B1", "Lückentext (Auswahl)", "A", "la papeleta va en el sobre = der Stimmzettel kommt in den Umschlag",
+content8.py:97 [REVERT] OLD: f.ex("B1", "Lückentext (Auswahl)", "A", "¿a qué hora cierra el colegio? Um wie viel Uhr schließt es?",
+content8.py:97 [REVERT] NEW: f.ex("B1", "Lückentext (Auswahl)", "A", "¿a qué hora cierra el colegio? Um wie viel Uhr schließt das Wahllokal?",
+content8.py:101 [REVERT] OLD: f.ex("B1", "Schreiben", "Offene Aufgabe — Mustertext unten auf dieser Seite", "Siehe den Mustertext in Abschnitt H (97 Wörter)",
+content8.py:101 [REVERT] NEW: f.ex("B1", "Schreiben", "Offene Aufgabe — Mustertext unten auf dieser Seite", "Siehe den Mustertext in Abschnitt H auf dieser Seite (97 Wörter)",
+content8.py:104 [KEEP] OLD:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo antes del jueves 19. "
+content8.py:104 [KEEP] NEW:           "El viernes 13 empezó la campaña, y el domingo 29 voto por primera vez: pido el voto por correo hasta el jueves 19. "
+content8.py:124 [REVERT] OLD: p.text(MX, 1337, "RESPUESTAS　ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
+content8.py:124 [REVERT] NEW: p.text(MX, 1302, "RESPUESTAS　ANTWORTEN — nach Seiten geordnet", 25, "sans", True, OLIVE)
+content8.py:125 [REVERT] OLD: p.text(RIGHT, 1337, "Zu jeder Aufgabe ein deutscher Kurzhinweis　✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+content8.py:125 [REVERT] NEW: p.text(RIGHT, 1302, "Zu jeder Aufgabe ein deutscher Kurzhinweis　✓ = Schreibaufgabe", 19.5, "sans", False, GREY, anchor="end")
+content8.py:129 [REVERT] OLD: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+content8.py:129 [REVERT] NEW: af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")

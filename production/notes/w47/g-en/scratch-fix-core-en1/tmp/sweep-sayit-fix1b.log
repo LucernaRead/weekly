@@ -1,0 +1,19 @@
+SAY IT panels (label serif bold 20, sub sans 20):
+  cx=299 label 'The counting continues.': advance=236.1 ink_w=239 panel=280 over/side(advance)=-22.0 over/side(ink)=-20.5 ink 181..419 panel 159..439
+  cx=299 sub '计票还在继续。': advance=140.0 ink_w=128 panel=280 over/side(advance)=-70.0 over/side(ink)=-76.0 ink 229..356 panel 159..439
+  cx=750 label 'The new Congress meets in January.': advance=352.1 ink_w=358 panel=380 over/side(advance)=-14.0 over/side(ink)=-11.0 ink 574..931 panel 560..940
+  cx=750 sub '新国会在一月开会。': advance=180.0 ink_w=168 panel=380 over/side(advance)=-100.0 over/side(ink)=-106.0 ink 660..827 panel 560..940
+  cx=1200 label 'Happy Thanksgiving!': advance=210.2 ink_w=213 panel=280 over/side(advance)=-34.9 over/side(ink)=-33.5 ink 1095..1307 panel 1060..1340
+  cx=1200 sub '感恩节快乐！': advance=120.0 ink_w=107 panel=280 over/side(advance)=-80.0 over/side(ink)=-86.5 ink 1140..1246 panel 1060..1340
+
+Right-hand vocab list (lx=1370, term 24 serif bold + gloss 21 sans):
+  'to certify': term_adv=109.1 gloss_adv=243.3 gloss_end=1753.3 ink=(np.int64(1370), np.int64(1741)) RIGHT=1862 over=-121.0
+  'a runoff': term_adv=93.2 gloss_adv=255.2 gloss_end=1765.2 ink=(np.int64(1370), np.int64(1755)) RIGHT=1862 over=-107.0
+  'sworn in': term_adv=101.6 gloss_adv=295.7 gloss_end=1805.7 ink=(np.int64(1371), np.int64(1797)) RIGHT=1862 over=-65.0
+  'a turkey': term_adv=96.5 gloss_adv=336.4 gloss_end=1846.4 ink=(np.int64(1370), np.int64(1837)) RIGHT=1862 over=-25.0
+
+Note paragraph under the list (x=1370, w=515, 19pt serif, lh 1.42):
+  line 0: ink=(np.int64(1370), np.int64(1856)) over_RIGHT=-6.0
+  line 1: ink=(np.int64(1370), np.int64(1794)) over_RIGHT=-68.0
+  line 2: ink=(np.int64(1370), np.int64(1728)) over_RIGHT=-134.0
+  line 3: ink=(np.int64(1370), np.int64(1861)) over_RIGHT=-1.0

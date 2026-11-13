@@ -1,0 +1,16 @@
+D1 P1 title: solid-ink right=932 spare=29 | AA-edge right=933 spare=28
+D1 cream check row y=1450: gray@955=238 @960=238 @965=250 @1000=250
+D2 P2 title: solid-ink right=950 spare=11 | AA-edge right=950 spare=11
+D2 cream check row y=1400: gray@955=238 @960=238 @965=250 @1000=250
+P1 subtitle y=694: solid-ink right=1855 spare vs 1862=7 | AA=1855 spare=7
+P7 LETTERE rect x=1439.5 y=1370.0 w=422.5 h=303.0 bottom=1673.0 ink_bottom(PIL)=1672.92
+P7 LETTERE lowest ink row: solid=1671 spare vs box bottom=2.0 | AA=1671 spare=2.0
+P1 rightmost solid ink x=1861 (margin 1862, over=-1) at y=419..2345
+P2 rightmost solid ink x=1862 (margin 1862, over=0) at y=1585..1588
+P3 rightmost solid ink x=1861 (margin 1862, over=-1) at y=72..1647
+P4 rightmost solid ink x=1861 (margin 1862, over=-1) at y=72..1607
+P5 rightmost solid ink x=1862 (margin 1862, over=0) at y=600..603
+P6 rightmost solid ink x=1861 (margin 1862, over=-1) at y=72..2024
+P7 rightmost solid ink x=1861 (margin 1862, over=-1) at y=72..2521
+P8 rightmost solid ink x=1864 (margin 1862, over=2) at y=1374..1376
+wrote out/pixel-verify.json

@@ -1,0 +1,50 @@
+### [2026-w47-ko-ja] phase=all reader=ja mode=cjk print=Lucerna-VOL4-KO-JA.pdf web=Lucerna-VOL4-KO-JA-web.pdf
+### [2026-w47-ko-ja] Phase A: pre-baseline
+### [2026-w47-ko-ja] d5_census production RC=1
+### [2026-w47-ko-ja] census_quotes production svg RC=0
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-ja/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-ja/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-ja/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-ja/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-ja/base': Operation not permitted
+### [2026-w47-ko-ja] base-venv run.py RC=0
+### [2026-w47-ko-ja] Phase B: install template svglib-ko-d5.py
+### [2026-w47-ko-ja] install diff vs template:
+### [2026-w47-ko-ja] Phase C: rebuild production (venv)
+### [2026-w47-ko-ja] run.py RC=0
+### [2026-w47-ko-ja] render.py RC=0
+### [2026-w47-ko-ja] webpdf.py RC=0
+### [2026-w47-ko-ja] Phase D: gates
+### [2026-w47-ko-ja] d5_census patched RC=0
+### [2026-w47-ko-ja] census_quotes patched svg RC=0
+### [2026-w47-ko-ja] head_check RC=0
+### [2026-w47-ko-ja] occlusion_audit RC=0
+### [2026-w47-ko-ja] p8 extract RC=0
+### [2026-w47-ko-ja] p8 compare vs core-ko RC=0
+### [2026-w47-ko-ja] freeze baseline (syspy exception) RC=1
+### [2026-w47-ko-ja] freeze diff patched vs base-venv (syspy exception) RC=0
+### [2026-w47-ko-ja] spill_sweep RC=0
+### [2026-w47-ko-ja] boxtitle_check RC=0
+### [2026-w47-ko-ja] pdf_edge_scan RC=0
+### [2026-w47-ko-ja] d5_creambox_audit RC=0
+### [2026-w47-ko-ja] gates done; summary RCs above
+RC=1 :: d5_census production
+RC=0 :: census_quotes production svg
+RC=0 :: base-venv run.py
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+/dev/mapper/rv  150G   93G   57G  63% /home/hatch

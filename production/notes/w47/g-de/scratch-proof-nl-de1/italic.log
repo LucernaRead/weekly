@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+===== print: italic spans in ALL pages:
+  p1 font=Newsreader16pt-Italic size=16.12 bbox=[1079.6, 1284.1, 1201.8, 1300.3] text='«de groepswinst»'
+  TOTAL italic spans: 1
+  -- P1 spans containing 'groepswinst' (any font):
+    font=NotoSansCJKsc-Regular size=15.38 bbox=[403.9, 966.5, 719.4, 988.8] text='Erklärung · de groepswinst Gruppensieg ·' origin=(403.875, 984.328125)
+    font=Newsreader16pt-Italic size=16.12 bbox=[1079.6, 1284.1, 1201.8, 1300.3] text='«de groepswinst»' origin=(1079.625, 1296.0)
+===== web: italic spans in ALL pages:
+  TOTAL italic spans: 0
+  -- P1 spans containing 'groepswinst' (any font):
+    font=LucernaNotoSansCJKSC-Reg size=15.38 bbox=[403.9, 966.5, 719.4, 988.8] text='Erklärung · de groepswinst Gruppensieg ·' origin=(403.875, 984.328125)
+    font=LucernaNewsreader-Regula size=16.12 bbox=[1079.6, 1284.1, 1210.7, 1300.3] text='«de groepswinst»' origin=(1079.625, 1296.0)

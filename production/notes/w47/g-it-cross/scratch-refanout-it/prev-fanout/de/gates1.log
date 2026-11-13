@@ -1,0 +1,22 @@
+FAIL occlusion 0 flags |   [TEXTX] p8-valutazione.svg '149. B — Das Torrone-Fest dauert bis zum 22. November' — ink overlaps 'Modelltext in Abschnitt H unten (99 Wört' by 268.0x10.0px
+FAIL p8 extract noted count | noted=-1 rc=2
+FAIL p8 compare vs core | verdict=PARSE_FAIL keydiffs=[]
+PASS freeze diff fragments explained by translations/furniture (P1-7) | unexplained_add=[] unexplained_rem=[]
+PASS freeze diff report present | pages=['1', '2', '3', '4', '5', '6', '7', '8']
+PASS freeze strict-cjk (no added CJK except U+3000) | rc=1 added_cjk={'\u3000': 13} non_space={}
+PASS print/web text multiset identical | print_words=7869 web_words=7869 diff=[] []
+PASS web PDF < 7MB | 1265389 bytes
+PASS print PDF size sane | 14037583 bytes
+PASS P8 min font >= 13px (9.75pt) | min=13.0
+PASS paper #fbfaf6 present
+PASS no gold/brick/near-black | hits=[]
+PASS no VOL.5 in furniture (only preview/disclosure) | VOL.5 text nodes=3
+PASS VOL.4 present | count=9
+PASS badge colours A2/B1/B2
+PASS no double outer frame | full-page rects=0
+INFO '·' total occurrences in SVGs: 149 (core had them only in options/gloss lists)
+PASS textmd validate | 2026-w47-it-de forward-miss: 0 reverse-miss: 0
+PASS answers count 150 | edition=150 core=150
+PASS keys 1-150 match core (except 137-139 re-aimed, writing) | mismatches=[]
+PASS notes match translations.py (except 137-140 + writing) | mismatches=[] table_gaps=[]
+GATES FAILED: ['occlusion 0 flags', 'p8 extract noted count', 'p8 compare vs core']

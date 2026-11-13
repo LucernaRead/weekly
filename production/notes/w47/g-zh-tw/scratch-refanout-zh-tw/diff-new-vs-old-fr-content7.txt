@@ -1,0 +1,20 @@
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw/backup/2026-w47-zh-tw-fr/content7.py	2026-11-11 02:14:48.945580446 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-fr/content7.py	2026-11-11 10:43:23.733761726 +0000
+@@ -49,7 +49,7 @@
+      "用鋼鐵做的藝術，叫___。", instr="Compléter", size=22, gap=10)
+ b.ex("B1", "單選", "A", "Le festival de l'acier se termine le 22 nov.",
+      "鋼雕藝術節展到哪天？", opts=["A. 11月22日", "B. 11月15日", "C. 11月9日"], size=22, gap=10)
+-b.para("Astuce mémoire : apprenez d'abord 入圍, puis la cérémonie （頒獎）, puis le lieu où elle a lieu （星光大道）.", 22)
++b.para("Astuce mémoire : apprenez d'abord 入圍, puis 星光大道 (le tapis rouge à 17:00, avant la cérémonie), puis la cérémonie （頒獎） à 18:30.", 22)
+ b.end_report()
+ 
+ # ---- B2 column ----
+@@ -96,7 +96,7 @@
+ yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+ p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
+ ly = wy + wh + 12
+-lt = "「編輯好：下週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
++lt = "「編輯好：本週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
+ lcn = "Lettre d'exemple de la rédaction, pas une vraie lettre : VOL.3 avait promis de vraies lettres et les meilleurs textes de la page 8 dès ce numéro ; aucune lettre publiable n'était arrivée au bouclage. L'exemple reste, l'invitation reste ouverte."
+ lt2 = "延期披露：VOL.3曾預告本期起刊登真實讀者來信和第8版最佳作文；截至截稿，本報未收到可刊登的真實來信與投稿，因此本期仍刊登編輯範例，並繼續公開徵集。你的來信，下一期見。"
+ lh = 164 + (len(wrap(lt, "serif", False, 21.5, CW - 44)) + len(wrap(lt2, "serif", False, 21.5, CW - 44))) * 30.53 + (len(wrap(lcn, "sans", False, 20, CW - 44)) - 1) * 28.4

@@ -1,0 +1,4 @@
+patched print: 27222 chars; patched web: 27222 chars; delivered web: 27219 chars
+print-vs-web multiset diff: +0 -0 IDENTICAL
+patched-vs-delivered multiset diff: +6 -4 {'e': 1, 'a': 2, 'n': 1, 'u': 1, 'c': 1}
+BYTE-IDENTICAL print-vs-web pdftotext (46938 vs 46938 bytes)

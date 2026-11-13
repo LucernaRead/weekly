@@ -1,0 +1,24 @@
+re-export agreement OK: dry-run == pre-fix text.md + fix only (norm lengths 22414 -> 22425)
+lines not verbatim in dry-run export: 595 (of 1361 non-empty lines)
+  DROPPED/FRAGMENTED: 'VOL.4\u3000第4号'
+  DROPPED/FRAGMENTED: '毎週、日本語で\u3000Settimanale\u3000日本人が読んでいる日本語を読む'
+  DROPPED/FRAGMENTED: '2026年11月16日（月）〜22日（日）'
+  DROPPED/FRAGMENTED: '日本語版\u3000VOL.4\u3000酉の市\u3000新酒\u3000相撲\u3000紅葉'
+  DROPPED/FRAGMENTED: '日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で'
+  DROPPED/FRAGMENTED: '11月19日（木）は酉の市・二の酉とボジョレー解禁です。'
+  DROPPED/FRAGMENTED: 'I due yokozuna sono 2–1\u3000Vedi pagina 4'
+  DROPPED/FRAGMENTED: 'トップニュース\u3000Titolo'
+  DROPPED/FRAGMENTED: '二の酉と新酒、19日の木よう日'
+  DROPPED/FRAGMENTED: '夜の浅草と、秋のワイン — 日本の11月の真ん中です'
+  DROPPED/FRAGMENTED: 'Lucerna編集部\u3000読むレベル：A2'
+  DROPPED/FRAGMENTED: '19日（木よう日）は、酉の市・二の'
+all dropped/fragmented lines recoverable from dry-run export (content present, only split)
+text.md pairwise check OK: 1 lines differ (lines [1355]), each only by the fix
+restoration OK: all 595 dropped/fragmented lines restored verbatim in final text.md
+PDF text-layer check: pre-fix missing 65 lines, post-fix missing 65 lines
+newly missing post-fix: 0; no longer missing: 0
+PDF text-layer regression check OK: no newly-missing lines
+patched PDF phrase counts: short=1 full=1 (expect short == full == 1: Q132 only)
+fix lines in patched PDF: new 1 present, old 1 absent
+PDF text-layer check OK
+VERIFY-REEXPORT ALL OK

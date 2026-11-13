@@ -1,0 +1,335 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　毎週一号　スペイン人が読んでいるスペイン語を読む", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "スペイン語週刊　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 614, "スペイン語テキスト　日本語の解説 — 日本語読者のための版", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "選挙戦の初週　選挙まであと13日", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "今号のトップ　詳しくは2・6ページ", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　トップ記事", 17, "sans", True, OLIVE)
+f.bridge("la campaña electoral＝選挙戦 · el debate＝討論 · el cara a cara＝一対一の討論 · el voto por correo＝郵便投票 · la jornada de reflexión＝投票前日（静粛日）。")
+f.box("LA SEMANA EN CIFRAS　今週の数字", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29（選挙まであと13日）", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27（選挙戦は15日間）", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo（木曜19日：郵便投票の申請締め切り）", "serif", False, INK, 20.5, 1.35),
+], tsize=21)
+f.head("AHORA TÚ　すぐ練習", 25)
+f.ex("A2", "文の完成", "13", "選挙戦は11月13日（金）午前0時に始まる",
+f.ex("A2", "文の完成", "29", "総選挙は11月29日（日）",
+f.ex("A2", "文の完成", "19", "郵便投票は19日までに申請する",
+f.ex("A2", "文の完成", "16", "国際フラメンコの日、11月16日（月）",
+f.ex("B1", "文の完成", "20", "第13節は11月20日（金）に開幕",
+f.ex("B1", "文の完成", "15", "選挙戦は15日間",
+p.text(gx + 22, gy + 106, "五大見どころ　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "五つのポイント。数字のねつ造なし。", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　今号の目次", 24, "sans", True, OLIVE)
+p.para(gx, wy + 10, "「討論」：人々が公開で話し合う。", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　短報", 24, "sans", True, OLIVE)
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　クイズ", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "トップ記事を読んで、正しい答えを選ぼう　答えは8ページ", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "選択問題", "C", "総選挙は11月29日",
+qf.ex("A2", "選択問題", "B", "選挙戦は15日間",
+qf.ex("A2", "選択問題", "A", "郵便投票は19日までに申請する",
+qf.ex("A2", "選択問題", "B", "国際フラメンコの日、11月16日",
+p.band("VIDA　生活", "La Lucerna", "NIVEL A2　La semana, día a día　一週間を一日ずつ")
+f.box("EL CALENDARIO　今週の予定", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo（月曜：国際フラメンコの日；国民党がサンチェス対フェイホー直接討論を提案）", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele（火曜：選挙戦がスペインを回る）", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP)（水曜：ラジオの住宅討論、PSOE対PP）", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo（木曜：郵便投票の申請締め切り）", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00（金曜夜：リーガ再開）", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00（土曜：セビージャ・ダービー）", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música（日曜：バルサ対ビジャレアル；聖セシリアの日）", "serif", False, INK, 21, 1.36),
+f.gloss("el debate＝討論 · el mitin＝選挙集会 · el cartel＝ポスター · el escaño＝議席。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("11月16日（月）は何をしますか。フラメンコを見る、選挙戦を追う、サッカーを見る？　討論とダービー、どちらが好きですか。スペイン語で2文書いて編集部に送ろう。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　あなたは？", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "11月16日（月）は何をしますか。フラメンコを見る、選挙戦を追う、サッカーを見る？　討論とダービー、どちらが好きですか。スペイン語で2文書いて編集部に送ろう。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　日付の言い方", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　11月16日（月）〜22日（日）", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　2ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　レベル混合の問題もあります。番号で探してください", 20, "sans", False, GREY, anchor="end")
+e.bridge("正しい日付の形で文を完成させよう。")
+e.ex("A2", "文の完成", "16", "11月16日（月）",
+     "El Día del Flamenco es el lunes ___ de noviembre.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "19", "11月19日（木）",
+     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "29", "総選挙は11月29日",
+     "Las elecciones generales son el ___ de noviembre.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "22", "11月22日（日）",
+     "Santa Cecilia es el domingo ___ de noviembre.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "noviembre", "月は小文字で書く",
+     "El lunes 16 de ___ es el Día del Flamenco.", instr="空所補充", size=20, gap=8)
+e.bridge("動詞を現在形で補おう。")
+e.ex("A2", "文の完成", "empieza", "la campaña → empieza",
+     "La campaña ___ el viernes 13.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "dura", "la campaña → dura",
+     "La campaña ___ 15 días.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "vuelve", "la Liga → vuelve",
+     "La Liga ___ el viernes 20.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "recorren", "los partidos → recorren",
+     "Los partidos ___ España en campaña.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "llega", "la documentación → llega",
+     "La documentación del voto por correo ___ desde el lunes 9.", instr="空所補充", size=20, gap=8)
+e.bridge("記事を読んで正しい答えを選ぼう。")
+e.ex("A2", "選択問題", "B", "国際フラメンコの日、11月16日（月）",
+e.ex("A2", "選択問題", "A", "郵便投票は19日までに申請する",
+e.ex("A2", "選択問題", "C", "リーガは11月20日（金）に再開",
+e.ex("B1", "選択問題", "B", "11月24〜28日は世論調査の発表なし",
+e.match_set("A2", "単語のペア",
+            ["debate＝討論 c", "mitin＝集会 b", "cartel＝ポスター d", "escaño＝議席 a"],
+            instr="語と意味を結ぶ")
+p.band("CULTURA　文化", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　フラメンコと聖セシリア")
+f.gloss("el cante＝歌 · el toque＝ギター演奏 · el baile＝踊り · el compás＝リズム · el duende＝フラメンコの魂。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　あなたは？", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "フラメンコを聞いたことがある？　あなたの国の音楽で、魂を感じるものは？　2文書いて送ろう。", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　3ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　レベル混合の問題もあります。番号で探してください", 20, "sans", False, GREY, anchor="end")
+e.bridge("3ページの記事を読んで、正しいか間違いか正誤しよう。")
+e.ex("A2", "正誤正誤", "Verdadero", "国際フラメンコの日、11月16日（月）",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("A2", "正誤正誤", "Verdadero", "ユネスコが2010年にフラメンコを世界遺産に登録",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("A2", "正誤正誤", "Falso", "フラメンコは踊りだけじゃない。歌とギターと踊りの三位一体。",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("B1", "正誤正誤", "Falso", "聖セシリアの日は11月22日。音楽の守護聖人。",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("A2", "正誤正誤", "Verdadero", "ビルバオ市立楽団は22日（日）12:00に演奏",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.bridge("枠の中の言葉で空所を補おう。")
+e.ex("A2", "文の完成", "cante", "cante＝歌",
+     "El flamenco es ___, toque y baile.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "baile", "baile＝踊り",
+     "La bailaora mueve los brazos en el ___.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "guitarra", "guitarra＝ギター",
+     "El toque es la ___ del flamenco.", instr="空所補充", size=20, gap=8)
+e.ex("A2", "文の完成", "palmas", "palmas＝手拍子",
+     "El público marca el ritmo con las ___.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "compás", "compás＝リズム",
+     "Sin ___ no hay flamenco.", instr="空所補充", size=20, gap=8)
+e.bridge("正しい答えを選ぼう。")
+e.ex("A2", "選択問題", "B", "ユネスコが2010年にナイロビで宣言",
+e.ex("A2", "選択問題", "A", "duendeは音楽が心に響く瞬間",
+e.ex("B1", "選択問題", "C", "フラメンコはアンダルシアの多文化の出会いから生まれた",
+e.ex("B1", "選択問題", "B", "フラメンコの日の次は11月29日の選挙",
+e.bridge("言葉を並べて正しい文を作ろう。")
+e.ex("A2", "文を作る", "El flamenco es cante, toque y baile.", "主語＋動詞＋叙述",
+     "el flamenco / es / cante, toque y baile → ___", instr="文を作る", size=20, gap=8)
+e.ex("B1", "文を作る", "En noviembre suena la guitarra en España.", "時間が先、動詞は2番目",
+     "en noviembre / suena / la guitarra / en España → ___", instr="文を作る", size=20, gap=8)
+e.ex("B1", "文を作る", "En Bilbao toca la banda el domingo.", "場所が先、動詞は2番目",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="文を作る", size=20, gap=8)
+e.ex("B1", "文の書き換え", "Todos preguntan si hay duende.", "間接疑問文には si",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="書きかえ", size=20, gap=8)
+p.band("DEPORTE　スポーツ", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　リーガ再開：第13節")
+f.gloss("la jornada＝節 · el derbi＝ダービー · el liderato＝首位 · el parón＝中断期間 · la fase liga＝リーグ戦。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("土曜18:30はどの試合を見る？　セビージャ・ダービーとレアル・マドリー対セルタ。リーガ優勝はバルサとレアル、どちら？　スペイン語で2文書いて送ろう。", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　あなたは？", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "土曜18:30はどの試合を見る？　セビージャ・ダービーとレアル・マドリー対セルタ。リーガ優勝はバルサとレアル、どちら？　スペイン語で2文書いて送ろう。", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　第13節の6試合", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　4ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　レベル混合の問題もあります。番号で探してください", 20, "sans", False, GREY, anchor="end")
+e.bridge("記事を読んで正しい答えを選ぼう。")
+e.ex("B1", "選択問題", "A", "バルサが33ポイントで首位",
+e.ex("B1", "選択問題", "B", "第13節、11月20〜23日",
+e.ex("B1", "選択問題", "C", "セビージャ・ダービー、土曜18:30",
+e.ex("B1", "選択問題", "A", "バルサ対ビジャレアル、日曜14:00",
+e.ex("B1", "選択問題", "B", "チャンピオンズリーグ第5節、11月24〜25日",
+e.match_set("B1", "単語のペア",
+            ["jornada＝節 c", "derbi＝ダービー b", "liderato＝首位 a", "fase liga＝リーグ戦 d"],
+            instr="語と意味を結ぶ")
+e.bridge("比較級か -ísimo 形で補おう。")
+e.ex("B1", "文の完成", "más importante", "más + importante（首位争いがより重要）",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "muchísimos", "muchísimos aficionados＝とても多くのファン",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "peor", "malo の比較級は peor",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "mejor", "bueno の比較級は mejor",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="空所補充", size=20, gap=8)
+e.bridge("過去形（pretérito indefinido）に直そう。")
+e.ex("B1", "文の書き換え", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="書きかえ", size=20, gap=8)
+p.band("JUVENTUD　若者", "La Lucerna", "NIVEL B1　Votar por primera vez　初めての投票")
+f.box("EL PLAN DE LA SEMANA　今週の計画", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña（月曜：フラメンコの日と選挙戦最初の月曜）", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo（木曜：郵便投票の申請締め切り）", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00（金曜夜：リーガ再開）", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30（土曜：セビージャ・ダービー）", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia（日曜：バルサ対ビジャレアル；聖セシリアの日）", "serif", False, INK, 21, 1.36),
+], tsize=20)
+f.gloss("el sobre＝封筒 · la papeleta＝投票用紙 · el censo＝選挙人名簿 · el plazo＝期限 · la urna＝投票箱。")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　あなたは？", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "郵便投票にする？　それとも直接行く？　ブラックフライデーでは何を買う？　実用的なもの、それとも衝動買い？　2文書いて送ろう。", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　5ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　レベル混合の問題もあります。番号で探してください", 20, "sans", False, GREY, anchor="end")
+e.bridge("記事を読んで正しい答えを選ぼう。")
+e.ex("B1", "選択問題", "B", "郵便投票は19日までに申請する",
+e.ex("B1", "選択問題", "A", "書類は11月9日から届く",
+e.ex("B1", "選択問題", "C", "投票所は9:00から20:00まで開いている",
+e.ex("B1", "選択問題", "B", "MiDNIは今年から投票時の身分証明に使える新しい方法",
+e.ex("B1", "選択問題", "A", "ブラックフライデー、11月27日（金）",
+e.bridge("枠の中の言葉で空所を補おう。注意：活用が必要な言葉もある。")
+e.ex("B1", "文の完成", "correo", "correo = 郵便局／郵便の",
+     "Pido el voto por ___.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "papeleta", "papeleta = 投票用紙",
+     "En casa, relleno la ___.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "envío", "enviar の活用 → envío",
+     "Después ___（不定形：enviar）el sobre.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "identidad", "documento de identidad = 身分証明書",
+     "Para votar en persona llevo mi documento de ___.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "censo", "censo = 選挙人名簿",
+     "La Oficina del ___ envía la documentación.", instr="空所補充", size=20, gap=8)
+e.ex("B1", "文の完成", "plazo", "plazo＝期限（19日締め切り）",
+     "El jueves 19 termina el ___ del voto por correo.", instr="空所補充", size=20, gap=8)
+e.bridge("ir a + 不定詞で書きかえよう。")
+e.ex("B1", "文の書き換え", "Voy a pedir el voto por correo.", "voy a＋不定形",
+     "Pido el voto por correo. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "Vas a votar el domingo 29.", "vas a＋不定形",
+     "Votas el domingo 29. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "Va a abrirse la urna a las 9:00.", "va a＋不定形",
+     "La urna se abre a las 9:00. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "文の書き換え", "Van a comparar precios antes de pagar.", "van a＋不定形",
+     "Comparan precios antes de pagar. → ___", instr="書きかえ", size=20, gap=8)
+e.ex("B1", "正誤正誤", "Verdadero", "郵便投票は Correos で申請する",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("B1", "正誤正誤", "Falso", "静粛日は土曜28日で、日曜ではない",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+e.ex("B1", "正誤正誤", "Verdadero", "今年はMiDNIで身分確認して投票できる",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="正誤", size=20, gap=8)
+p.band("A FONDO　深掘り", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　選挙戦を読む：討論・政策・世論調査")
+p.text(MX, ey + 28, "EJERCICIOS　6ページの練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答えは8ページ　レベル混合の問題もあります。番号で探してください", 20, "sans", False, GREY, anchor="end")
+e.bridge("グラフを見て正しい答えを選ぼう。")
+e.ex("B2", "選択問題", "A", "PSOEとPPに無料45分ずつ",
+e.ex("B2", "選択問題", "B", "無料放送は合計195分",
+e.ex("B2", "選択問題", "C", "Podemos：15分",
+e.ex("B2", "選択問題", "A", "世論調査の発表禁止は5日間（11月24〜28日）",
+e.ex("B2", "選択問題", "B", "45 − 30 = 15",
+e.ex("B2", "選択問題", "C", "選挙管理委員会が公表した無料放送時間だけを出典付きで載せる",
+e.ex("B2", "選択問題", "B", "11月10日時点で確定しているのは laSexta の討論だけ",
+e.ex("B2", "選択問題", "A", "laSextaの討論、11月13日（金）21:30",
+e.ex("B2", "選択問題", "C", "「提案された」は「確定した」とは違う",
+e.ex("B2", "選択問題", "B", "世論調査は誤差のある写真で、ある一日に撮られたもの",
+e.ex("B2", "文の完成", "tenga", "es posible que + 接続法：tenga",
+     "Es posible que el debate ___ (tener) cuatro portavoces.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "sea", "es importante que + 接続法：sea",
+     "Es importante que cada dato ___ (ser) claro.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "para que", "para que + 接続法（目的）",
+     "Publicamos la fuente ___ todos puedan comprobarla.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "Aunque", "Aunque + 直説法（知っている事実）",
+     "___ los debates difieren, ninguno miente.", instr="空所補充", size=18.5, gap=2)
+e.bridge("枠の中の言葉で補おう：sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "文の完成", "sondeo", "sondeo = 世論調査",
+     "Un ___ pregunta a una muestra de ciudadanos.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "muestra", "muestra＝標本",
+     "El sondeo preguntó a una ___ de ciudadanos.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "indecisos", "indecisos = 未定の人",
+     "Los ___ todavía no saben a quién votar.", instr="空所補充", size=18.5, gap=2)
+e.ex("B2", "文の完成", "margen de error", "margen de error = 誤差の範囲",
+     "Toda encuesta tiene un ___.", instr="空所補充", size=18.5, gap=2)
+p.band("LENGUA　ことば", "La Lucerna", "ことば特集　Tres niveles, tres herramientas　三つのレベル、三つの道具")
+a.bridge("時間：es la una（単数）、son las dos（複数）。試合は a las 21:00 に始まる。")
+a.ex("A2", "文の完成", "Es", "1時は単数 Es",
+     "___ la una en punto.", instr="空所補充", size=20.5, gap=10)
+a.ex("A2", "文の完成", "Son", "複数時間は Son",
+     "___ las nueve de la noche.", instr="空所補充", size=20.5, gap=10)
+a.ex("A2", "文の完成", "las", "a las 21:00（前置詞 a）",
+     "El derbi es el sábado a ___ 18:30.", instr="空所補充", size=20.5, gap=10)
+a.ex("A2", "選択問題", "B", "1時は Es la una",
+b.bridge("比較級は más…que、tan…como。bueno→mejor、malo→peor。más mejor とは絶対に言わない。")
+b.ex("B1", "文の完成", "más goles", "más + goles（多くのゴール）",
+     "El Barça marca ___ que el año pasado. (goles)", instr="空所補充", size=20.5, gap=10)
+b.ex("B1", "文の完成", "tan rápido", "tan + rápido + como（同じくらい速い）",
+     "El derbi es ___ como siempre. (rápido)", instr="空所補充", size=20.5, gap=10)
+b.ex("B1", "文の完成", "mejor", "bueno の比較級は mejor（más は不要）",
+     "Un debate claro es ___ (bueno) que un titular.", instr="空所補充", size=20.5, gap=10)
+b.ex("B1", "選択問題", "B", "más mejor は誤り",
+c.bridge("es necesario que、para que、ojalá の後は接続法。creo que の後は直説法。")
+c.ex("B2", "文の完成", "baje", "es necesario que + 接続法：baje",
+     "Es necesario que el precio ___ (bajar).", instr="空所補充", size=20.5, gap=10)
+c.ex("B2", "文の完成", "sea", "para que + 接続法：sea",
+     "Publicamos la fuente para que todo ___ (ser) claro.", instr="空所補充", size=20.5, gap=10)
+c.ex("B2", "文の完成", "es", "creo que + 直説法：es",
+     "Creo que el debate ___ (ser) útil.", instr="空所補充", size=20.5, gap=10)
+c.ex("B2", "選択問題", "B", "ojalá＋接続法：tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "1時は単数。動詞は es。"),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor 自体が比較級。más は不要。"),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente は単数の集合名詞。動詞も単数。"),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que は断定。直説法の es。"),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　よくある間違い", 22, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate＝討論：順番に話す公開討論。今週は討論の週；選挙は29日。", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　今週の単語", 23, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate＝討論：順番に話す公開討論。今週は討論の週；選挙は29日。", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "編集部より：締め切りまでに本物の手紙も最優秀作文も届かなかったため、今号は編集部の見本の手紙を掲載します。約束は VOL.5 に持ち越しです。"
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　今週の文（今号の記事から一字一句そのまま）", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "選挙戦は13日午前0時に始まり、15日間続き、27日に終わる。", "Página 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "木曜19日は大事な日：郵便投票の申請締め切り。", "Página 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "11月16日（月）は国際フラメンコの日。ギターの音がスペイン中に響く。", "Página 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "フラメンコは踊りだけじゃない。歌、ギター、踊り、手拍子、足踏みとリズム。", "Página 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "リーガは中断して再開。第13節は11月20日（金）から23日（月）まで。", "Página 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "11月29日に初めて投票する？　2つの方法：直接行くか郵便で。", "Página 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "選挙戦では、発表されたことがすべて決まったわけではない。", "Página 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "世論調査は誤差のある写真で、ある一日に撮られたもの。", "Página 6"),
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　来週の予告 (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　練習と答え", "La Lucerna", "8ページ　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "穴埋め選択", "A", "el flamenco suena＝フラメンコが鳴る",
+f.ex("B1", "穴埋め選択", "B", "empieza la campaña = 選挙戦が始まる",
+f.ex("B1", "穴埋め選択", "A", "laSextaの討論 21:30",
+f.ex("B1", "穴埋め選択", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "穴埋め選択", "A", "la Liga vuelve＝リーガが再開",
+f.ex("B1", "穴埋め選択", "B", "セビージャ・ダービーは土曜日",
+f.ex("B1", "穴埋め選択", "A", "Santa Cecilia＝音楽の守護聖人",
+f.ex("B1", "穴埋め選択", "A", "スペインが投票する29日（日）",
+f.ex("A2", "選択問題", "A", "選挙戦は11月13日（金）に始まる",
+f.ex("A2", "選択問題", "B", "国際フラメンコの日、11月16日",
+f.ex("A2", "選択問題", "A", "郵便投票は19日までに申請する",
+f.ex("B1", "選択問題", "C", "セビージャ・ダービー、土曜18:30",
+f.ex("B1", "選択問題", "B", "ブラックフライデー、11月27日（金）",
+f.ex("B1", "選択問題", "C", "MiDNIは公式の身分確認アプリ",
+f.ex("B2", "選択問題", "B", "11月24〜28日は世論調査の発表なし",
+f.ex("B1", "選択問題", "C", "チャンピオンズリーグ第5節、11月24〜25日",
+f.ex("A2", "選択問題", "A", "ルシアは土曜にセビージャでダービーを見る",
+f.ex("A2", "選択問題", "A", "ディエゴは土曜にレアル・マドリー対セルタを見る",
+f.ex("A2", "選択問題", "A", "2人とも綱領を読んでから投票する",
+f.ex("A2", "選択問題", "B", "タイトルは2つの都市と1つの土曜日をまとめる",
+f.ex("A2", "文を作る", "El lunes suena el flamenco.", "時間が先、動詞は2番目",
+     "el lunes / suena / el flamenco → ___", instr="文を作る", size=15.5, gap=1)
+f.ex("A2", "文を作る", "El sábado vemos el derbi.", "時間が先",
+     "el sábado / vemos / el derbi → ___", instr="文を作る", size=15.5, gap=1)
+f.ex("B1", "文を作る", "La campaña dura quince días.", "主語＋動詞＋時間",
+     "la campaña / dura / quince días → ___", instr="文を作る", size=15.5, gap=1)
+f.ex("B1", "文を作る", "¿A qué hora empieza el debate?", "疑問詞は文頭に",
+     "¿ / a qué hora / empieza / el debate / ? → ___", instr="文を作る", size=15.5, gap=1)
+f.ex("A2", "翻訳", "月曜日は国際フラメンコの日。", "原文と比べよう。",
+     "El lunes es el Día del Flamenco. → ___", instr="翻訳", size=15.5, gap=1)
+f.ex("A2", "翻訳", "土曜日にセビージャ・ダービーを見る。", "原文と比べよう。",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="翻訳", size=15.5, gap=1)
+f.ex("B1", "翻訳", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "郵便投票は木曜19日までに申請しなければならない。→ ___", instr="翻訳", size=15.5, gap=1)
+f.ex("B2", "翻訳", "Cada promesa tiene que llevar datos.", "tener que = 〜しなければならない",
+     "約束はすべてデータに裏づけられなければならない。→ ___", instr="翻訳", size=15.5, gap=1)
+f.match_set("B2", "単語のペア",
+            ["sondeo=世論調査 c", "muestra=標本 d", "margen de error=誤差の範囲 b", "junta electoral=選挙管理委員会 a"],
+            instr="語と意味を結ぶ")
+f.ex("B1", "穴埋め選択", "A", "vengo a votar＝投票しに来た",
+f.ex("B1", "穴埋め選択", "A", "documento de identidad＝身分証明書",
+f.ex("B1", "穴埋め選択", "A", "¿dónde está la urna? 投票箱はどこ？",
+f.ex("B1", "穴埋め選択", "A", "la papeleta va en el sobre＝投票用紙は封筒に入れる",
+f.ex("B1", "穴埋め選択", "A", "¿a qué hora cierra el colegio? 投票所は何時に閉まる？",
+f.bridge("作文問題（正解は一つではない）。模範文（97語）は下。")
+f.ex("B1", "作文", "（自由な問題。模範文は下）", "模範文はこのページのHを参照（97語）",
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="作文", size=15.5, gap=1)
+p.text(MX, 1337, "RESPUESTAS　全解答と解説（1–8ページ）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "各問に日本語の解説つき　✓ は模範文のある問題", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "作文":

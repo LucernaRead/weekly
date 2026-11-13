@@ -1,0 +1,37 @@
+== new stem ==
+content34.py:1
+2026-w47-de-zh-cn.text.md:1
+svg/p3-kultur.svg:1
+== old stem (expect 0 each) ==
+content34.py:0
+2026-w47-de-zh-cn.text.md:0
+svg/p3-kultur.svg:0
+svg/p8-uebungen.svg:0
+== old stem repo-wide in core-de py/md (expect none) ==
+./2026-w47-de-zh-cn.text.md
+./WEEKLY-KIT.md
+./content34.py
+./content56.py
+== P8 key line ==
+1165:29. Richtig（科隆大教堂市场 11 月 16 日开市） · 30. Falsch（亡灵主日市场关闭） · 31. Richtig（首个将临期 11 月 29 日） · 32. Falsch（1930 年的画是纽伦堡市场） · 33. Richtig（正式开幕 11 月 17 日 19 点） · 34. Weihnachtsmarkt（圣诞市场） · 35. Glühwein（热红酒） · 36. Lebkuchen（姜饼） · 37. Advent（将临期） · 38. Weihnachtsbaum（圣诞树） · 39. B（港口圣诞市场 11 月 13 日已开） · 40. B（市场开到 12 月 23 日） · 41. A（画作 1930 年纽伦堡） · 42. A（市场比将临期早近两周开市） · 43. Am 16. November öffnen die Weihnachtsmärkte in Köln.（时间状语开头，动词第二位） · 44. Am Totensonntag bleiben die Märkte geschlossen.（时间状语开头，动词第二位） · 45. Vor dem Dom steht ein großer Weihnachtsbaum.（地点开头，动词第二位） · 46. Die Lichter leuchten schon vor dem ersten Advent.（主谓结构）
+== text.md line 389 ==
+34. Am Montag öffnet in Köln der erste ___. [填空]
+== old-text SHA ==
+1c219c84864ababa52c7a63985614f7cd54bb780913ccae43fff6890b393ce86  /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-de-fix4/old-text-build14.md
+== diff old vs new text ==
+389c389
+< 34. Am Montag öffnen in Köln die ersten ___. [填空]
+---
+> 34. Am Montag öffnet in Köln der erste ___. [填空]
+diff rc=1
+== Q34 in source ==
+19:f.para("Was gibt es auf einem Weihnachtsmarkt? Kleine Holzbuden mit Kunsthandwerk, Kerzen und Spielzeug. Dazu Glühwein für die Erwachsenen, Kinderpunsch für die Kinder — und überall der Duft von gebrannten Mandeln und Lebkuchen. Vor dem Dom steht ein großer, geschmückter Weihnachtsbaum.")
+20:f.para("Ein Blick zurück: Vor fast 100 Jahren sah ein Weihnachtsmarkt noch ganz anders aus. Ein Gemälde von Wilhelm Ritter aus dem Jahr 1930 zeigt einen Weihnachtsmarkt in Nürnberg — auf der vorderen Insel Schütt: Holzbuden, Menschen, Lichter — und doch schon dieselbe Stimmung wie heute. Mehr dazu beim Bild auf dieser Seite.")
+23:f.para("Auch Aachen feiert: Der Aachener Weihnachtsmarkt öffnet am 20. November und bleibt bis zum 23. Dezember geöffnet. Wer in Nordrhein-Westfalen wohnt, hat die Wahl zwischen Köln und Aachen — beide Märkte sind berühmt für ihre Lichter und ihre Stimmung.")
+26:f.gloss("der Weihnachtsmarkt 圣诞市场 · die Holzbude 木棚摊位 · der Glühwein 热红酒 · gebrannte Mandeln 糖烤杏仁 · der Lebkuchen 姜饼 · die Stimmung 气氛。")
+34:        "Weihnachtsmarkt in Nürnberg im Jahr 1930 — Gemälde von Wilhelm Ritter. Holzbuden, Menschen, Lichter: Die Stimmung ist heute noch dieselbe.",
+52:words = ["der Weihnachtsmarkt — 圣诞市场", "der Glühwein — 热红酒", "der Lebkuchen — 姜饼",
+64:etvous = "Und Sie? Gehen Sie gern auf einen Weihnachtsmarkt? Was trinken und essen Sie dort? Schreiben Sie zwei Sätze auf Deutsch!"
+103:e.para("Weihnachtsmarkt · Glühwein · Lebkuchen · Advent · Weihnachtsbaum", 20, "sans", True, OLIVE, 1.35, 6)
+== P3 SVG new stem context ==
+Am Montag öffnet in Köln der erste ___.

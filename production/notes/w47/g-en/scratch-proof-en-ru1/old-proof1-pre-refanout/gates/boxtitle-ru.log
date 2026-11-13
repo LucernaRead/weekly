@@ -1,0 +1,14 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+col3 box titles (rect x0~1079.6pt): width vs budget = rect.x1 - title x0
+ P1 rect y[441,942] title 'SEARCHES OF THE WEEK' width 134.4pt budget 300.4pt PASS
+ P1 rect y[960,1239] title 'IN THIS ISSUE В этом номере' width 273.8pt budget 300.4pt PASS
+ P1 rect y[1406,1718] title 'IN BRIEF Коротко' width 172.2pt budget 300.4pt PASS
+ P2 rect y[625,869] title 'DID YOU KNOW?' width 143.0pt budget 300.4pt PASS
+ P2 rect y[888,1138] title 'AND YOU? А ты?' width 156.5pt budget 300.4pt PASS
+ P3 rect y[642,801] title "HAYMITCH'S GAMES Игры Хеймитча" width 323.8pt budget 303.4pt OVER by 20.4pt
+ P4 rect y[642,1021] title 'SATURDAY, NOVEMBER 21 Суббота' width 311.5pt budget 303.4pt OVER by 8.1pt
+ P5 rect y[639,798] title 'SPEAK UP Говори громко' width 233.8pt budget 303.4pt PASS
+ P6 rect y[500,659] title 'HOW LONG? Срок полномочий' width 280.1pt budget 303.4pt PASS
+ P7 rect y[488,779] title 'THE TOOLBOX Инструменты' width 260.4pt budget 303.4pt PASS
+titles: 8 pass / 2 over

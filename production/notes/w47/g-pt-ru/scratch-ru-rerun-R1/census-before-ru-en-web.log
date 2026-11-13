@@ -1,0 +1,33 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+CENSUS /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-en/Lucerna-VOL4-ru-en-web.pdf
+pages=8 distinct_join_tokens=29 total_join_boundaries=32
+    3x '→После' [→После] pages=[7] gap None..None pt
+    1x 'A2→B1' [A2→; →B1] pages=[1] gap 0.0..0.0 pt
+    1x 'A2→B2' [A2→] pages=[1] gap 0.0..0.0 pt
+    1x '19ноября' [19+ноября] pages=[2] gap None..None pt
+    1x 'A.биография' [.биография] pages=[3] gap 2.2..2.2 pt
+    1x 'результатов+' [результатов+] pages=[4] gap 1.89..1.89 pt
+    1x 'A.на' [.на] pages=[4] gap None..None pt
+    1x '20ноября' [20+ноября] pages=[4] gap None..None pt
+    1x '16ноября' [16+ноября] pages=[5] gap None..None pt
+    1x '·середина' [·середина] pages=[6] gap 1.91..1.91 pt
+    1x 'A.снег' [.снег] pages=[7] gap 2.28..2.28 pt
+    1x 'A.цена' [.цена] pages=[7] gap 2.29..2.29 pt
+    1x 'to;может' [;может] pages=[7] gap 2.26..2.26 pt
+    1x 'A.точно' [.точно] pages=[7] gap 2.29..2.29 pt
+    1x '→Родительный' [→Родительный] pages=[7] gap None..None pt
+    1x '13ноября' [13+ноября] pages=[8] gap 1.43..1.43 pt
+    1x '→выходят' [→выходят] pages=[8] gap 2.33..2.33 pt
+    1x '→рассказывает' [→рассказывает] pages=[8] gap 2.32..2.32 pt
+    1x '→снял' [→снял] pages=[8] gap 2.4..2.4 pt
+    1x '→сыграли' [→сыграли] pages=[8] gap 2.41..2.41 pt
+    1x '→играет' [→играет] pages=[8] gap 2.4..2.4 pt
+    1x '→победило' [→победило] pages=[8] gap 2.4..2.4 pt
+    1x 'imperative:не' [:не] pages=[8] gap 0.92..0.92 pt
+    1x 'row:пять' [:пять] pages=[8] gap 0.54..0.54 pt
+    1x '→работаем' [→работаем] pages=[8] gap 2.4..2.4 pt
+    1x '—скидка' [—скидка] pages=[8] gap 1.44..1.44 pt
+    1x 'Note:играть' [:играть] pages=[8] gap -1.21..-1.21 pt
+    1x '—поздравляю' [—поздравляю] pages=[8] gap -0.21..-0.21 pt
+    1x '✓See' [✓See] pages=[8] gap 2.33..2.33 pt

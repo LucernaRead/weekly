@@ -1,0 +1,17 @@
+2026-11-13 07:47:44 UTC inventory: 12 core + 118 direct = 130 editions
+2026-11-13 07:48:06 UTC pass 1: stale/pending spill:130, boxtitle:130, edge:130
+2026-11-13 07:48:06 UTC GATE spill: 130 editions
+2026-11-13 07:48:24 UTC GATE spill: rc=0 in 19s
+2026-11-13 07:48:24 UTC GATE boxtitle: 130 editions
+2026-11-13 07:53:22 UTC GATE boxtitle: rc=0 in 298s
+2026-11-13 07:53:22 UTC GATE edge: 130 editions
+2026-11-13 09:01:29 UTC inventory: 12 core + 118 direct = 130 editions
+2026-11-13 09:01:47 UTC pass 1: stale/pending edge:130
+2026-11-13 09:01:47 UTC GATE edge: 130 editions
+2026-11-13 10:59:57 UTC inventory: 12 core + 118 direct = 130 editions
+2026-11-13 11:00:14 UTC pass 1: stale/pending edge:11
+2026-11-13 11:00:14 UTC GATE edge: 11 editions
+2026-11-13 11:01:24 UTC GATE edge: rc=0 in 70s
+2026-11-13 11:01:25 UTC pass 2: all gate JSONs fresh
+2026-11-13 11:01:25 UTC aggregate: 0 defects, 17286 observations, 0 missing gate results
+2026-11-13 11:01:26 UTC report written: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/Reports-preinsert/new-gates-130.md

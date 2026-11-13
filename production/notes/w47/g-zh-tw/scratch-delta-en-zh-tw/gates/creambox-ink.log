@@ -1,0 +1,21 @@
+cream boxes total: 32
+STRADDLE flags: 0
+CREAM-COVER flags: 0
+min bottom clearance per page:
+  p1-front.svg: min bottom clearance 10.0px over 4 boxes
+  p2-life.svg: min bottom clearance 2.5px over 8 boxes
+  p3-culture.svg: min bottom clearance 43.0px over 3 boxes
+  p4-sport.svg: min bottom clearance 43.3px over 3 boxes
+  p5-youth.svg: min bottom clearance 43.3px over 3 boxes
+  p6-deep.svg: min bottom clearance 43.0px over 3 boxes
+  p7-lang.svg: min bottom clearance 45.2px over 7 boxes
+  p8-test.svg: min bottom clearance 87.4px over 1 boxes
+P7 cream boxes (clearance = ink-to-edge px):
+  [88.0, 254.0, 510.5, 399.7] inner: 3 clearance: {'left': 18.0, 'right': 19.5, 'top': 20.5, 'bottom': 46.0}
+  [88.0, 923.4, 510.5, 1039.3] inner: 2 clearance: {'left': 18.0, 'right': 50.2, 'top': 20.5, 'bottom': 45.7}
+  [88.0, 1598.7, 510.5, 1714.7] inner: 2 clearance: {'left': 18.0, 'right': 22.2, 'top': 20.5, 'bottom': 45.7}
+  [88.0, 2062.0, 510.5, 2178.0] inner: 2 clearance: {'left': 18.0, 'right': 28.5, 'top': 20.5, 'bottom': 45.2}
+  [538.5, 254.0, 961.0, 369.9] inner: 2 clearance: {'left': 18.0, 'right': 18.2, 'top': 20.5, 'bottom': 45.7}
+  [538.5, 683.8, 961.0, 799.7] inner: 2 clearance: {'left': 18.0, 'right': 38.0, 'top': 20.5, 'bottom': 45.7}
+  [1439.5, 651.0, 1862.0, 1008.2] inner: 11 clearance: {'left': 18.0, 'right': 21.0, 'top': 17.0, 'bottom': 46.5}
+CREAMBOX DONE

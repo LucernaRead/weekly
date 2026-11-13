@@ -1,0 +1,31 @@
+== orphan-punctuation sweep ==
+  p1-portada.svg: texts=178 pure-punct=0 lead-close=0
+  p2-vida.svg: texts=193 pure-punct=0 lead-close=0
+  p3-cultura.svg: texts=174 pure-punct=0 lead-close=0
+  p4-deporte.svg: texts=177 pure-punct=0 lead-close=0
+  p5-juventud.svg: texts=183 pure-punct=0 lead-close=0
+  p6-afondo.svg: texts=190 pure-punct=0 lead-close=0
+  p7-lengua.svg: texts=160 pure-punct=0 lead-close=0
+  p8-ejercicios.svg: texts=394 pure-punct=0 lead-close=0
+SVG TOTAL: texts=1649 pure-punct=0 lead-close=0
+text.md punctuation-only lines: 0 []
+== element-wise SVG diff (old=fix1 curly, new=fix2 straight) ==
+p1-portada.svg: DIFFERS after normalisation (old 230 elems, new 230 elems)
+  elem #15:
+    OLD: <text x="650.9" y="614" font-family="Noto Sans CJK SC" font-size="16" fill="#6f675d" text-anchor="start">TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L’EDIZIONE PER I LETTORI ITALIANI</text>
+    NEW: <text x="657.5" y="614" font-family="Noto Sans CJK SC" font-size="16" fill="#6f675d" text-anchor="start">TESTI IN SPAGNOLO　SPIEGAZIONI IN ITALIANO — L'EDIZIONE PER I LETTORI ITALIANI</text>
+p2-vida.svg: IDENTICAL after apostrophe normalisation
+p3-cultura.svg: DIFFERS after normalisation (old 205 elems, new 205 elems)
+  elem #39:
+    OLD: <text x="556.5" y="297.95000000000005" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">compás = il ritmo · el duende =</text>
+    NEW: <text x="556.5" y="297.95000000000005" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">compás = il ritmo · el duende = l'anima</text>
+  elem #40:
+    OLD: <text x="556.5" y="327.67500000000007" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">l’anima del flamenco.</text>
+    NEW: <text x="556.5" y="327.67500000000007" font-family="Noto Sans CJK SC" font-size="20.5" fill="#6f675d" text-anchor="start">del flamenco.</text>
+p4-deporte.svg: IDENTICAL after apostrophe normalisation
+p5-juventud.svg: IDENTICAL after apostrophe normalisation
+p6-afondo.svg: IDENTICAL after apostrophe normalisation
+p7-lengua.svg: IDENTICAL after apostrophe normalisation
+p8-ejercicios.svg: IDENTICAL after apostrophe normalisation
+DONE
+

@@ -1,0 +1,300 @@
+Q1 P1 A2 完成句子 key='T1' note='BLG versloeg T1 met 3-1 in de halve finale.'
+    STEM: 1. 半决赛，BLG 3比1打赢了___。 [Vul de zin in]
+Q2 P1 A2 完成句子 key='15' note='De S16-finale is op 15 nov., Peking-tijd.'
+    STEM: 2. 决赛在11月___日凌晨3点。 [Vul de zin in]
+Q3 P1 A2 完成句子 key='巴克莱' note='De finale is in het Barclays Center, Brooklyn, New York.'
+    STEM: 3. 决赛在纽约___中心打。 [Vul de zin in]
+Q4 P1 A2 完成句子 key='三' note='BLG versloeg drie Koreaanse teams op rij.'
+    STEM: 4. BLG一路打赢了___支韩国队。 [Vul de zin in]
+Q5 P1 A2 完成句子 key='22' note='Kleine Sneeuw (小雪) is op 22 nov.'
+    STEM: 5. 小雪在11月___日。 [Vul de zin in]
+Q6 P1 A2 完成句子 key='21' note='De film 《试探》 gaat in première op 21 nov.'
+    STEM: 6. 电影《试探》在11月___日上映。 [Vul de zin in]
+Q7 P1 A2 单选 key='A' note='BLG versloeg T1 met 3-1 in de halve finale.'
+    STEM: 7. 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. LYON
+Q8 P1 A2 单选 key='A' note='De S16-finale: 15 nov., 03:00 Peking-tijd.'
+    STEM: 8. 决赛在北京时间几点？ A. 凌晨3点 · B. 早上6点 · C. 晚上8点
+Q9 P1 A2 单选 key='A' note='De pakketpiek is van 11–13 nov.'
+    STEM: 9. 包裹高峰是哪几天？ A. 11月11日到13日 · B. 11月12日到15日 · C. 11月21日到22日
+Q10 P1 A2 单选 key='B' note='Kleine Sneeuw (小雪) is op 22 nov.'
+    STEM: 10. 小雪在哪天？ A. 11月21日 · B. 11月22日 · C. 11月15日
+Q11 P2 A2 单选 key='A' note='Double 11 vorig jaar: 139,38 miljard pakketten in 22 dagen.'
+    STEM: 11. 去年双11，22天一共揽收多少件？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+Q12 P2 A2 单选 key='A' note='De bezorgpiek is van 12–15 nov.'
+    STEM: 12. 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+Q13 P2 A2 单选 key='B' note='Prijsbescherming gaat niet vanzelf: lees de regels en vraag hem aan.'
+    STEM: 13. 价保是怎么回事？ A. 自动就有 · B. 要先看规则，再自己申请 · C. 只有11月11日有
+Q14 P2 A2 单选 key='B' note='Open het pakket en controleer het vóór de ontvangst.'
+    STEM: 14. 包裹到了，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+Q15 P2 A2 单选 key='A' note='Hogesnelheidsexpres: in 4 uur van deur tot deur.'
+    STEM: 15. 高铁急送最快多久？ A. 4小时 · B. 1天 · C. 3天
+Q16 P2 A2 完成句子 key='包裹' note='bāoguǒ — een pakket.'
+    STEM: 16. 我的___到了，去快递柜拿。 [Vul in]
+Q17 P2 A2 完成句子 key='退换货' note='tuìhuànhuò — retour en ruil; stuur het snel terug.'
+    STEM: 17. 东西不合适，可以___。 [Vul in]
+Q18 P2 A2 完成句子 key='申请' note='shēnqǐng — prijsbescherming niet vanzelf; vraag hem aan.'
+    STEM: 18. 价保不是自动的，要自己___。 [Vul in]
+Q19 P2 A2 完成句子 key='派送' note='pàisòng — de koerier bezorgt het pakket.'
+    STEM: 19. 快递员正在___包裹。 [Vul in]
+Q20 P2 B1 完成句子 key='20' note='Hunan SF Express: +20 % personeel en capaciteit.'
+    STEM: 20. 湖南顺丰的人力和运力多了约___%。 [Vul in]
+Q21 P2 A2 完成句子 key='320' note='De jas kost in het voorbeeld 320 yuan.'
+    STEM: 21. 练习例子里，外套___元。 [Vul in]
+Q22 P2 A2 完成句子 key='240' note='320 − 80 = 240 yuan na de directe korting.'
+    STEM: 22. 直降以后实付___元。 [Vul in]
+Q23 P2 B1 完成句子 key='80' note='De directe korting in het voorbeeld is 80 yuan.'
+    STEM: 23. 练习例子里直降___元。 [Vul in]
+Q24 P2 B1 完成句子 key='7.77' note='Vorig jaar lag de beste dag op 777 miljoen stuks.'
+    STEM: 24. 去年双11，单日最高___亿件。 [Vul in]
+Q25 P2 A2 词汇配对 key='a' note='到货 = het pakket is er, a'
+    STEM: 25. 到货  →  a. 东西到了，可以去拿了   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+Q26 P2 A2 词汇配对 key='b' note='退换货 = retour en ruil, b'
+    STEM: 26. 退换货  →  b. 东西不合适，寄回去换   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+Q27 P2 A2 词汇配对 key='c' note='价保 = prijsbescherming, c'
+    STEM: 27. 价保  →  c. 降价了，补回差价   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+Q28 P2 A2 词汇配对 key='d' note='派送 = bezorging, d'
+    STEM: 28. 派送  →  d. 快递员把包裹送到你手里   (opties: a. 东西到了，可以去拿了 / b. 东西不合适，寄回去换 / c. 降价了，补回差价 / d. 快递员把包裹送到你手里)
+Q29 P3 A2 单选 key='A' note='Kleine Sneeuw (小雪) is op 22 nov.'
+    STEM: 29. 小雪在哪天？ A. 11月22日 · B. 11月21日 · C. 11月15日
+Q30 P3 A2 单选 key='A' note='小雪 is de 20e zonnetermijn.'
+    STEM: 30. 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+Q31 P3 A2 单选 key='A' note='De eerste fase is 虹藏不见.'
+    STEM: 31. 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+Q32 P3 A2 单选 key='A' note='Leesmaand: begonnen op 1 nov.'
+    STEM: 32. 深圳读书月哪天开始？ A. 11月1日 · B. 11月14日 · C. 11月7日
+Q33 P3 A2 单选 key='B' note='Cultuuravond: 14 november.'
+    STEM: 33. 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+Q34 P3 A2 完成句子 key='小雪' note='xiǎoxuě — Kleine Sneeuw; 22 nov.'
+    STEM: 34. 11月22日是___。 [Vul in]
+Q35 P3 A2 完成句子 key='20' note='小雪 is de 20e zonnetermijn.'
+    STEM: 35. 小雪是二十四节气里的第___个。 [Vul in]
+Q36 P3 A2 完成句子 key='冷' note='Na Kleine Sneeuw wordt het weer kouder.'
+    STEM: 36. 小雪之后，天气会更___。 [Vul in]
+Q37 P3 B1 完成句子 key='七' note='Zeven locaties doen mee aan de Leesmaand.'
+    STEM: 37. 读书月有___个场馆一起参加。 [Vul in]
+Q38 P3 B1 完成句子 key='古籍' note='gǔjí — oude boeken; de lezer raakt de binding aan.'
+    STEM: 38. 文化馆之夜，读者可以亲手摸一摸___的装帧。 [Vul in]
+Q39 P3 A2 完成句子 key='22' note='Kleine Sneeuw is op 22 nov., een zondag.'
+    STEM: 39. 小雪在11月___日星期日。 [Vul in]
+Q40 P3 A2 完成句子 key='2' note='小雪 is de 2e zonnetermijn van de winter.'
+    STEM: 40. 小雪是冬天第___个节气。 [Vul in]
+Q41 P3 B1 完成句子 key='14' note='Cultuuravond: 14 november.'
+    STEM: 41. 文化馆之夜在11月___日。 [Vul in]
+Q42 P3 A2 完成句子 key='1' note='Leesmaand: begonnen op 1 nov.'
+    STEM: 42. 深圳读书月从11月___日开始。 [Vul in]
+Q43 P3 A2 词汇配对 key='b' note='小雪 = Kleine Sneeuw, b'
+    STEM: 43. 小雪  →  b. 二十四节气里的一个，11月22日   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+Q44 P3 A2 词汇配对 key='d' note='三候 = de drie fasen, d'
+    STEM: 44. 三候  →  d. 古人看天气的三个变化   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+Q45 P3 A2 词汇配对 key='a' note='保暖 = warm blijven, a'
+    STEM: 45. 保暖  →  a. 天冷了，多穿衣服，别冻着   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+Q46 P3 A2 词汇配对 key='c' note='着凉 = kou vatten, c'
+    STEM: 46. 着凉  →  c. 不小心冷到了，身体不舒服   (opties: a. 天冷了，多穿衣服，别冻着 / b. 二十四节气里的一个，11月22日 / c. 不小心冷到了，身体不舒服 / d. 古人看天气的三个变化)
+Q47 P4 B1 单选 key='A' note='IG versloeg TES met 3-1 in de kwartfinale.'
+    STEM: 47. 四分之一决赛，IG打赢了哪个队？ A. TES · B. GEN · C. DK
+Q48 P4 B1 单选 key='B' note='GEN versloeg IG met 3-0 in de halve finale.'
+    STEM: 48. 半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C. BLG
+Q49 P4 B1 单选 key='C' note='BLG versloeg T1 met 3-1 in de halve finale.'
+    STEM: 49. 半决赛，BLG打赢了哪个队？ A. LYON · B. KC · C. T1
+Q50 P4 B1 单选 key='A' note='De finale is om 03:00 Peking-tijd, op 15 nov.'
+    STEM: 50. 决赛在哪天？ A. 11月15日凌晨3点 · B. 11月14日 · C. 11月8日
+Q51 P4 B1 单选 key='A' note='De finale is BLG tegen GEN.'
+    STEM: 51. 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+Q52 P4 B1 完成句子 key='DK' note='BLG versloeg DK met 3-0 in de kwartfinale.'
+    STEM: 52. 四分之一决赛，BLG 3比0打赢了___。 [Vul in]
+Q53 P4 B1 完成句子 key='IG' note='GEN versloeg IG met 3-0 in de halve finale.'
+    STEM: 53. 半决赛，GEN 3比0打赢了___。 [Vul in]
+Q54 P4 B1 完成句子 key='BLG' note='De finale is BLG tegen GEN.'
+    STEM: 54. 决赛是___对GEN。 [Vul in]
+Q55 P4 B1 完成句子 key='3' note='De finale is om 03:00 Peking-tijd.'
+    STEM: 55. 决赛在北京时间11月15日凌晨___点。 [Vul in]
+Q56 P4 B1 完成句子 key='T1' note='BLG versloeg T1 voor het eerst in een Worlds-BO5.'
+    STEM: 56. BLG是第一次在全球总决赛的BO5里打赢___。 [Vul in]
+Q57 P4 B1 完成句子 key='4' note='IG versloeg TES op 4 nov.'
+    STEM: 57. IG 3比1打赢TES，在11月___日。 [Vul in]
+Q58 P4 B1 完成句子 key='5' note='GEN versloeg LYON op 5 nov.'
+    STEM: 58. GEN 3比0打赢LYON，在11月___日。 [Vul in]
+Q59 P4 B1 完成句子 key='6' note='BLG versloeg DK op 6 nov.'
+    STEM: 59. BLG 3比0打赢DK，在11月___日。 [Vul in]
+Q60 P4 B1 完成句子 key='7' note='T1 versloeg KC op 7 nov.'
+    STEM: 60. T1 3比1打赢KC，在11月___日。 [Vul in]
+Q61 P4 B1 词汇配对 key='d' note='四强 = de laatste vier teams, d'
+    STEM: 61. 四强  →  d. 最后四支队，半决赛的队   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+Q62 P4 B1 词汇配对 key='b' note='止步 = hier stoppen, b'
+    STEM: 62. 止步  →  b. 半决赛输了，就不往前走了   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+Q63 P4 B1 词汇配对 key='c' note='闹钟 = een wekker, c'
+    STEM: 63. 闹钟  →  c. 到时间会响，叫你起床   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+Q64 P4 B1 词汇配对 key='a' note='五局三胜 = best-of-five, a'
+    STEM: 64. 五局三胜  →  a. 先赢三局的队拿冠军   (opties: a. 先赢三局的队拿冠军 / b. 半决赛输了，就不往前走了 / c. 到时间会响，叫你起床 / d. 最后四支队，半决赛的队)
+Q65 P5 B1 单选 key='A' note='《试探》 is een suspense-misdaadfilm.'
+    STEM: 65. 《试探》是哪种电影？ A. 悬疑犯罪片 · B. 动画片 · C. 纪录片
+Q66 P5 B1 单选 key='A' note='《试探》 gaat in première op 21 nov.'
+    STEM: 66. 《试探》在哪天上映？ A. 11月21日 · B. 11月13日 · C. 11月7日
+Q67 P5 B1 单选 key='A' note='Het verhaal gaat over een pianist.'
+    STEM: 67. 《试探》讲的是谁？ A. 钢琴家 · B. 船长 · C. 画家
+Q68 P5 B1 单选 key='A' note='《白衣逆行者》 vóór de première van 6 nov. teruggetrokken.'
+    STEM: 68. 《白衣逆行者》上映了吗？ A. 没有，上映前撤档了 · B. 上映了，11月6日 · C. 上映了，11月7日
+Q69 P5 B1 单选 key='A' note='《我们仅有一次的人生》, met Song Jia en Wen Qi.'
+    STEM: 69. 《我们仅有一次的人生》主演是谁？ A. 宋佳、文淇 · B. 刘德华 · C. 冯绍峰
+Q70 P5 B1 完成句子 key='悬疑' note='xuányí — 《试探》 is een suspense-misdaadfilm.'
+    STEM: 70. 《试探》是___犯罪片，11月21日上映。 [Vul in]
+Q71 P5 B1 完成句子 key='失踪' note='shīzōng — de vriendin van de pianist is vermist.'
+    STEM: 71. 钢琴家的女友___了。 [Vul in]
+Q72 P5 B1 完成句子 key='别墅' note='biéshù — een villa in de heuvels.'
+    STEM: 72. 陌生女子走进山间___。 [Vul in]
+Q73 P5 B1 完成句子 key='真实' note='zhēnshí — 《白衣逆行者》 is gebaseerd op echte gebeurtenissen.'
+    STEM: 73. 《白衣逆行者》讲的是___事件里的普通人。 [Vul in]
+Q74 P5 A2 完成句子 key='七' note='Zeven locaties doen mee aan de Leesmaand.'
+    STEM: 74. 读书月有___个场馆一起参加。 [Vul in]
+Q75 P5 B1 完成句子 key='21' note='《试探》 gaat in première op 21 nov.'
+    STEM: 75. 《试探》在11月___日上映。 [Vul in]
+Q76 P5 B1 完成句子 key='6' note='《珠穆朗玛：云中彼岸》 gaat in première op 6 nov.'
+    STEM: 76. 《珠穆朗玛：云中彼岸》在11月___日上映。 [Vul in]
+Q77 P5 B1 完成句子 key='7' note='《我们仅有一次的人生》 gaat in première op 7 nov.'
+    STEM: 77. 《我们仅有一次的人生》在11月___日上映。 [Vul in]
+Q78 P5 B1 完成句子 key='14' note='Cultuuravond: 14 november.'
+    STEM: 78. 文化馆之夜在11月___日。 [Vul in]
+Q79 P5 B1 词汇配对 key='c' note='试探 = de wateren testen, c'
+    STEM: 79. 试探  →  c. 试着问一问，看对方怎么说   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+Q80 P5 B1 词汇配对 key='b' note='悬疑 = spanning, b'
+    STEM: 80. 悬疑  →  b. 让人猜不透，心里发紧的故事   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+Q81 P5 B1 词汇配对 key='d' note='失踪 = vermist, d'
+    STEM: 81. 失踪  →  d. 人不见了，不知道去了哪里   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+Q82 P5 B1 词汇配对 key='a' note='别墅 = een villa, a'
+    STEM: 82. 别墅  →  a. 山里的独栋房子   (opties: a. 山里的独栋房子 / b. 让人猜不透，心里发紧的故事 / c. 试着问一问，看对方怎么说 / d. 人不见了，不知道去了哪里)
+Q83 P6 B2 单选 key='A' note='Geen enkele dag explodeerde; elke dag was druk.'
+    STEM: 83. 今年的双11快递怎么样？ A. 没有一天爆掉 · B. 11月11日一天爆掉 · C. 快递都停了
+Q84 P6 B2 单选 key='A' note='Het totaal over 22 dagen is 139,38 miljard stuks.'
+    STEM: 84. 22天总数是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+Q85 P6 B2 单选 key='A' note='De beste dag lag op 777 miljoen stuks.'
+    STEM: 85. 单日最高是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+Q86 P6 B2 单选 key='A' note='De bezorgpiek is van 12–15 nov.'
+    STEM: 86. 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+Q87 P6 B2 单选 key='B' note='Open het pakket en controleer het vóór de ontvangst.'
+    STEM: 87. 包裹到了以后，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+Q88 P6 B2 完成句子 key='打散' note='dǎsàn — de piek was gespreid, niet op één dag.'
+    STEM: 88. 快递量被___了，没有一天突然爆掉。 [Vul in]
+Q89 P6 B2 完成句子 key='批' note='pī — goederen gaan in meerdere delen op pad.'
+    STEM: 89. 货是分好几___发的。 [Vul in]
+Q90 P6 B2 完成句子 key='二十二' note='139.38亿件 is het totaal over 22 dagen.'
+    STEM: 90. 139.38亿件是___天的总数。 [Vul in]
+Q91 P6 B2 完成句子 key='亿' note='yì — 100 miljoen; 7.77亿件 op één dag.'
+    STEM: 91. 单日最高是7.77___件。 [Vul in]
+Q92 P6 B2 完成句子 key='4' note='Hogesnelheidsexpres: in 4 uur van deur tot deur.'
+    STEM: 92. 高铁急送最快___小时门到门。 [Vul in]
+Q93 P6 B2 完成句子 key='139.38' note='Het totaal over 22 dagen is 139.38亿件.'
+    STEM: 93. 22天总数是___亿件。 [Vul in]
+Q94 P6 B2 完成句子 key='7.77' note='De beste dag lag op 7.77亿件.'
+    STEM: 94. 单日最高是___亿件。 [Vul in]
+Q95 P6 B2 完成句子 key='一天' note='Eén balk: totaal 22 dagen; de andere: dagpiek.'
+    STEM: 95. 图里两根柱子，一个是22天总数，一个是___最高量。 [Vul in]
+Q96 P6 B2 完成句子 key='数据' note='shùjù — gemeten getallen, geen beweringen.'
+    STEM: 96. 139.38亿件和7.77亿件，都是邮政局的___，不是广告词。 [Vul in]
+Q97 P6 B2 词汇配对 key='c' note='说法 = een bewering, c'
+    STEM: 97. 说法  →  c. 别人说的话，不一定是真的   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+Q98 P6 B2 词汇配对 key='d' note='数据 = gemeten getallen, d'
+    STEM: 98. 数据  →  d. 量出来的数字   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+Q99 P6 B2 词汇配对 key='a' note='预报 = een voorspelling, a'
+    STEM: 99. 预报  →  a. 还没发生的事，先猜一猜   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+Q100 P6 B2 词汇配对 key='b' note='预计 = een schatting, b'
+    STEM: 100. 预计  →  b. 大概的数字，还没最后数完   (opties: a. 还没发生的事，先猜一猜 / b. 大概的数字，还没最后数完 / c. 别人说的话，不一定是真的 / d. 量出来的数字)
+Q101 P7 A2 完成句子 key='个' note='包裹 neemt het telwoord 个 gè.'
+    STEM: 101. 我拿了___包裹。 [Vul in]
+Q102 P7 A2 单选 key='A' note='决赛 betekent de finale, de laatste wedstrijd.'
+    STEM: 102. 「决赛」是什么意思？ A. 最后一场比赛 · B. 第一场比赛 · C. 练习赛
+Q103 P7 A2 完成句子 key='决赛' note='juésài — de finale; BLG tegen GEN op 15 nov.'
+    STEM: 103. 11月15日凌晨3点，BLG和GEN打___。 [Vul in]
+Q104 P7 A2 单选 key='A' note='Pakketten nemen 个 — niet 只 of 条.'
+    STEM: 104. 哪个说法对？ A. 一个包裹 · B. 一只包裹 · C. 一条包裹
+Q105 P7 B1 单选 key='B' note='凌晨 língchén — de kleine uurtjes na middernacht.'
+    STEM: 105. 「凌晨3点」是什么时候？ A. 下午3点 · B. 半夜3点 · C. 中午12点
+Q106 P7 B1 完成句子 key='早上' note="06:00 is 早上 — niet 's avonds."
+    STEM: 106. 半决赛在北京时间11月8日___6点开始。（不是晚上） [Vul in]
+Q107 P7 B1 单选 key='A' note='Volgorde van groot naar klein: 22 nov., zondag.'
+    STEM: 107. 哪个顺序对？ A. 11月22日星期日 · B. 星期日11月22日 · C. 星期日小雪11月22日
+Q108 P7 B1 完成句子 key='周日' note='22 nov. is een zondag — 周日.'
+    STEM: 108. 11月22日是星期日，也可以说___。小雪在这天。 [Vul in]
+Q109 P7 B2 单选 key='A' note='「139.38亿件」 is een definitieve telling van de postdienst, al geteld.'
+    STEM: 109. 「139.38亿件」在第6版里是什么？ A. 已经数完的事实 · B. 邮政局的预计 · C. 广告词
+Q110 P7 B2 完成句子 key='数据' note='shùjù — gemeten getallen, geen beweringen.'
+    STEM: 110. 买东西以前，先看___，再看广告。 [Vul in]
+Q111 P7 B2 单选 key='B' note='Data en afrekenpagina eerst, kop het laatst.'
+    STEM: 111. 读新闻时，哪个做法最好？ A. 只看标题 · B. 先看数据和结算页 · C. 只看评论
+Q112 P7 B2 完成句子 key='预报' note='yùbào — een voorspelling, nog geen feit.'
+    STEM: 112. 「第三波是最高峰」是___，还没发生。 [Vul in]
+Q113 P8 A2 完形单选 key='A' note='Kleine Sneeuw (小雪) is op 22 nov.'
+    STEM: 113. 小雪在11月22日。(A. 对 · B. 错)
+Q114 P8 A2 完形单选 key='B' note='小雪 is de 20e zonnetermijn, niet de 20e Kleine Sneeuw.'
+    STEM: 114. 今年是第20个小雪节气。(A. 对 · B. 错)
+Q115 P8 A2 完形单选 key='B' note='De pakketpiek: drie golven, niet één.'
+    STEM: 115. 快递高峰只有一波。(A. 对 · B. 错)
+Q116 P8 B1 完形单选 key='A' note='GEN haalde de finale, IG niet.'
+    STEM: 116. GEN进了决赛。(A. 对 · B. 错)
+Q117 P8 B1 完形单选 key='A' note='De halve finales beginnen om 06:00 Peking-tijd.'
+    STEM: 117. 半决赛在北京时间早上6点开始。(A. 对 · B. 错)
+Q118 P8 B1 完形单选 key='B' note='《试探》 in première op 21 nov. 2026; een nieuwe film.'
+    STEM: 118. 《试探》是2019年的电影。(A. 对 · B. 错)
+Q119 P8 B1 完形单选 key='A' note='《试探》 gaat in première op 21 nov.'
+    STEM: 119. 《试探》11月21日上映。(A. 对 · B. 错)
+Q120 P8 B1 完形单选 key='B' note='De Leesmaand begon op 1 nov., niet op 9 nov.'
+    STEM: 120. 深圳读书月11月9日开幕。(A. 对 · B. 错)
+Q121 P8 A2 单选 key='B' note='De finale begint 15 nov. om 03:00 Peking-tijd.'
+    STEM: 121. 决赛在北京时间哪天？ A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点
+Q122 P8 A2 单选 key='A' note='BLG versloeg T1 met 3-1 in de halve finale.'
+    STEM: 122. 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. IG
+Q123 P8 B1 单选 key='B' note='IG versloeg TES met 3-1 in de kwartfinale.'
+    STEM: 123. 四分之一决赛，IG打赢了哪个队？ A. GEN · B. TES · C. LYON
+Q124 P8 B1 单选 key='B' note='Het totaal over 22 dagen is 139,38 miljard stuks.'
+    STEM: 124. 22天快递总数是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+Q125 P8 B1 单选 key='B' note='De beste dag lag op 777 miljoen stuks.'
+    STEM: 125. 单日最高是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+Q126 P8 B1 单选 key='A' note='《试探》, met Feng Shaofeng.'
+    STEM: 126. 《试探》的主演是谁？ A. 冯绍峰 · B. 刘德华 · C. 朱塞佩·托纳托雷
+Q127 P8 B1 单选 key='B' note='Cultuuravond: 14 november.'
+    STEM: 127. 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+Q128 P8 B1 单选 key='A' note='小雪 is de 20e zonnetermijn.'
+    STEM: 128. 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+Q129 P8 B1 单选 key='A' note='De eerste fase is 虹藏不见.'
+    STEM: 129. 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+Q130 P8 B1 单选 key='A' note='De finale is BLG tegen GEN.'
+    STEM: 130. 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+Q131 P8 A2 完成句子 key='小雪' note='Kleine Sneeuw (小雪) is op 22 nov.'
+    STEM: 131. 11月22日是___。 [Vul in]
+Q132 P8 A2 完成句子 key='15' note='De S16-finale is op 15 nov., Peking-tijd.'
+    STEM: 132. 决赛在11月___日凌晨3点。 [Vul in]
+Q133 P8 B1 完成句子 key='T1' note='BLG versloeg T1 met 3-1 in de halve finale.'
+    STEM: 133. 半决赛，BLG 3比1打赢了___。 [Vul in]
+Q134 P8 A2 完成句子 key='139.38' note='Het totaal over 22 dagen is 139.38亿件.'
+    STEM: 134. 22天快递总数是___亿件。 [Vul in]
+Q135 P8 B1 完成句子 key='21' note='《试探》 gaat in première op 21 nov.'
+    STEM: 135. 《试探》11月___日上映。 [Vul in]
+Q136 P8 B1 完成句子 key='20' note='小雪 is de 20e zonnetermijn.'
+    STEM: 136. 小雪是第___个节气。 [Vul in]
+Q137 P8 B2 完成句子 key='7.77' note='De beste dag lag op 7.77亿件.'
+    STEM: 137. 单日最高是___亿件。 [Vul in]
+Q138 P8 A2 完成句子 key='14' note='Cultuuravond: 14 november.'
+    STEM: 138. 文化馆之夜在11月___日。 [Vul in]
+Q139 P8 B1 完成句子 key='GEN' note='De finale is BLG tegen GEN.'
+    STEM: 139. 决赛是BLG对___。 [Vul in]
+Q140 P8 B1 完成句子 key='冷' note='Na Kleine Sneeuw wordt het weer kouder.'
+    STEM: 140. 小雪之后，天气会更___。 [Vul in]
+Q141 P8 A2 单选 key='A' note='Xiao Lin woont in Shenzhen.'
+    STEM: 141. 小林住在哪里？ A. 深圳 · B. 北京 · C. 广州
+Q142 P8 A2 单选 key='A' note='Op 8 nov. keek hij naar de halve finale.'
+    STEM: 142. 11月8日，小林看了什么？ A. 半决赛 · B. 期中考试 · C. 运动会
+Q143 P8 B1 单选 key='B' note='Hij kocht online een boek.'
+    STEM: 143. 他买了什么？ A. 毛衣 · B. 书 · C. 帽子
+Q144 P8 B1 单选 key='B' note='Hij ging met zijn moeder naar het cultuurcentrum.'
+    STEM: 144. 他和谁一起去文化馆？ A. 爸爸 · B. 妈妈 · C. 老师
+Q145 P8 B2 单选 key='A' note='Volgorde: halve finale, dan pakket, dan cultuurcentrum.'
+    STEM: 145. 这段话的顺序是什么？ A. 先看半决赛，再拿包裹，再去文化馆 · B. 先去文化馆，再看半决赛 · C. 先拿包裹，再看半决赛
+Q146 P8 B1 完成句子 key='深圳' note='Xiao Lin woont in Shenzhen.'
+    STEM: 146. 小林住在___。 [Vul in]
+Q147 P8 B1 完形单选 key='A' note='Controleer de code en open het kluisje.'
+    STEM: 147. — 包裹到了，怎么办？ — 先看___，再开柜门。(A. 取件码 · B. 电影票)
+Q148 P8 B1 完形单选 key='A' note='Na Kleine Sneeuw: kleed je warmer en vat geen kou.'
+    STEM: 148. — 小雪之后，怎么办？ — 多穿一件，别___。(A. 着凉 · B. 熬夜)
+Q149 P8 B2 完形单选 key='A' note='De regel van pagina 6: data eerst, reclame het laatst.'
+    STEM: 149. — 这条新闻说单日最高7.77亿件，可信吗？ — 先看___，再看广告。(A. 数据 · B. 评论)
+Q150 P8 B1 写作 key='(开放题，范文如下)' note='Open opdracht — modelantwoord hierboven, sectie F (138 tekens).'
+    STEM: 150. 写一写《小雪那一周》：S16决赛、包裹、小雪，这一周你做了什么？写 120~180 字。 [Schrijven]

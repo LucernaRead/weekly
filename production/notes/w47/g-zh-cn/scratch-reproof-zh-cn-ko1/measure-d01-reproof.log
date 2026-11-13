@@ -1,0 +1,12 @@
+SVG box: x=538.5 y=618.3199999999999 w=422.5 h=168.0 right=961.0
+SVG title: x=556.5 y=655.3199999999999 size=23.0 weight=700 fill=#46581f family='Noto Sans CJK SC'
+SVG title text: '这一周的高频词\u3000이번 주 고빈도 단어'
+A PIL: bbox=(0, 7, 373, 31) advance=372.6 ink_left=556.5 ink_right=929.5 box_right=961.0 CLEAR=31.5px
+A control (old string): advance=421.3 ink_right=977.5 CLEAR=-16.5px
+PDF page5 rect: Rect(0.0, 0.0, 1462.5, 2025.0) (svg 1950x2700 -> scale 1.3333)
+B cream edge @y=700svg: run px 842..1500 -> right svg=960.0 (box_right 961.0)
+B title ink right: px=1441 -> svg=922.2 CLEAR vs cream edge 37.8 svg units; vs box_right 38.8
+crop saved: crop-p5-head-reproof.png
+C span: '이번주고빈도단어' x0=555.4 x1=471.5 size=17.25 font=NotoSansCJKsc-Bold
+   -> svg units: x1=925.4 CLEAR=35.6
+JSON saved: measure-d01-reproof.json

@@ -1,0 +1,16 @@
+D6: line widths [399.84, 239.84]; analytic lo=399.84 (scan lo 399.9); upper=439.02 -> grid hi 438.9
+   band 399.9–438.9, mid 419.4
+D7: line widths [415.5, 392.33, 149.31]; analytic lo=415.50 (scan lo 415.5); upper=449.98 -> grid hi 449.9
+   band 415.5–449.9, mid 432.7
+D8: line widths [355.05, 332.66, 367.33, 110.14]; analytic lo=367.33 (scan lo 367.4); upper=388.08 -> grid hi 388.0
+   band 367.4–388.0, mid 377.7
+D10: line widths [343.67, 337.06]; analytic lo=343.67 (scan lo 343.7); upper=433.78 -> grid hi 433.7
+   band 343.7–433.7, mid 388.7
+
+== verify mids reproduce current lines ==
+D6 w=419.4: OK
+D7 w=432.7: OK
+D8 w=377.7: OK
+D10 w=388.7: OK
+
+MIDS: D6 419.4 D7 432.7 D8 377.7 D10 388.7

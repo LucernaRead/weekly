@@ -1,0 +1,20 @@
+text.md answers parsed: 150 numbers: 1 - 150 missing: none
+text.md vs registry mismatches: [(16, 'The', 'The new Congress will meet in January.'), (17, 'States', 'States will certify their counts.'), (18, 'Families', 'Families will travel home.'), (19, 'Will', 'Will they watch the jungle on Monday?'), (42, 'Collins', 'Collins published the novel in 2025.'), (43, 'Haymitch', 'Haymitch won the 50th Games.'), (44, 'Rousseau', 'Rousseau painted jungles he never saw.'), (45, 'ITV', 'ITV chose Monday for the launch.'), (60, 'England', 'England lost 4–0 in 2021–22.'), (61, 'Australia', 'Australia lost their first Test at the ground.'), (62, 'The', 'The last series ended in a draw in 2023.'), (63, 'India', 'India beat Australia by 295 runs.'), (78, 'Schools', 'Schools are wearing odd socks today.'), (79, 'Children', 'Children are speaking up this week.'), (80, 'We', 'We are listening to every child.'), (81, 'She', 'She is sitting with a new friend.'), (108, 'Correct:', 'Correct: The Democrats won the House.'), (109, 'Correct:', 'Correct: The count continued after the vote.'), (110, 'Correct:', 'Correct: 254 is more than 218.'), (111, 'Correct:', 'Correct: Nobody knows whether it will change.'), (115, 'will', 'will meet'), (117, 'will', 'will certify'), (119, 'will', 'will watch'), (133, 'will', 'will meet'), (137, '민주당은', '민주당은 하원과 상원에서 승리했다.'), (138, '개표가', '개표가 계속되고 있다.'), (139, '새', '새 의회는 2027년 1월에 개회한다.'), (140, '침묵을', '침묵을 깨라.'), (150, '열린', '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에')]
+text.md vs p8extract mismatches (excl 150): [(16, 'The', 'The new Congress will meet in January.'), (17, 'States', 'States will certify their counts.'), (18, 'Families', 'Families will travel home.'), (19, 'Will', 'Will they watch the jungle on Monday?'), (42, 'Collins', 'Collins published the novel in 2025.'), (43, 'Haymitch', 'Haymitch won the 50th Games.'), (44, 'Rousseau', 'Rousseau painted jungles he never saw.'), (45, 'ITV', 'ITV chose Monday for the launch.'), (60, 'England', 'England lost 4–0 in 2021–22.'), (61, 'Australia', 'Australia lost their first Test at the ground.'), (62, 'The', 'The last series ended in a draw in 2023.'), (63, 'India', 'India beat Australia by 295 runs.'), (78, 'Schools', 'Schools are wearing odd socks today.'), (79, 'Children', 'Children are speaking up this week.'), (80, 'We', 'We are listening to every child.'), (81, 'She', 'She is sitting with a new friend.'), (108, 'Correct:', 'Correct: The Democrats won the House.'), (109, 'Correct:', 'Correct: The count continued after the vote.'), (110, 'Correct:', 'Correct: 254 is more than 218.'), (111, 'Correct:', 'Correct: Nobody knows whether it will change.'), (115, 'will', 'will meet'), (117, 'will', 'will certify'), (119, 'will', 'will watch'), (133, 'will', 'will meet'), (137, '민주당은', '민주당은 하원과 상원에서 승리했다.'), (138, '개표가', '개표가 계속되고 있다.'), (139, '새', '새 의회는 2027년 1월에 개회한다.'), (140, '침묵을', '침묵을 깨라.')]
+per-page: [(1, 10), (2, 17), (3, 18), (4, 18), (5, 18), (6, 18), (7, 12), (8, 39)]
+'4–1': text.md 6x | registry-notes 1x
+'Perth is winning': text.md 0x | registry-notes 0x
+'Arsenal are winning': text.md 1x | registry-notes 0x
+'Ashes begin': text.md 0x | registry-notes 0x
+'second week in Perth': text.md 0x | registry-notes 0x
+'2025년 11월 21일': text.md 1x | registry-notes 1x
+'2027': text.md 16x | registry-notes 3x
+'One Year On': text.md 1x | registry-notes 0x
+'last year': text.md 2x | registry-notes 0x
+'회고': text.md 0x | registry-notes 0x
+P4 SVG '4–1': 2x
+P4 SVG '2025': 6x
+P4 SVG '2027': 0x
+P4 SVG 'Perth is winning': 0x
+P4 SVG 'Ashes begin': 0x
+P1 SVG 'ASHES' count: 1

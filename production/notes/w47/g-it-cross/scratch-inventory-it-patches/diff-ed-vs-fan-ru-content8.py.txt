@@ -1,0 +1,11 @@
+--- A:fanout-baseline/ru/content8.py -> edition-now/ru/content8.py
++++ B:fanout-baseline/ru/content8.py -> edition-now/ru/content8.py
+@@ -3,7 +3,7 @@
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ from bslib4 import *
+ 
+-OUT = os.path.expanduser("/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-it/ru/freeze-baseline/svg")
++OUT = os.path.expanduser("~/workspace/weekly-git/production/2026-w47/2026-w47-it-ru/svg")
+ os.makedirs(OUT, exist_ok=True)
+ 
+ # ================= P8 · VALUTAZIONE E RISPOSTE =================

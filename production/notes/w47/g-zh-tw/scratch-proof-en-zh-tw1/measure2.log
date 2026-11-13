@@ -1,0 +1,104 @@
+=== PART 1b: in-box last baseline (REAL clearance) + band lines ===
+p1-front box x=989 y=786 bottom=1039.6 inboxLast=993.9 clearance=+45.7 :: '院易手席位）'
+    BAND +37.0px x0=989.0 sz=25.0 [head/next] 'TRY IT NOW\u3000即學即練'
+p1-front box x=1440 y=588 bottom=1256.0 inboxLast=1240.0 clearance=+16.0 :: 'search interest changes during the day.'
+    BAND +18.0px x0=1461.5 sz=19.0 [head/next] '相對熱度示意，非精確搜尋量。'
+p1-front box x=1440 y=1280 bottom=1652.0 inboxLast=1604.0 clearance=+48.0 :: 'p.8'
+    BAND +24.0px x0=1439.5 sz=22.0 [head/next] 'THE WORD OF THE WEEK'
+p1-front box x=1440 y=1874 bottom=2290.0 inboxLast=2246.0 clearance=+44.0 :: 'Test, Perth. (p. 4)'
+p2-life box x=538 y=526 bottom=706.6 inboxLast=658.5 clearance=+48.1 :: "in a senator's term."
+    BAND +36.0px x0=538.5 sz=24.0 [head/next] 'Life goes on around the politics. Next'
+p2-life box x=989 y=200 bottom=557.8 inboxLast=509.7 clearance=+48.1 :: '星期五）'
+    BAND +37.0px x0=989.0 sz=25.0 [head/next] 'WHAT IS ON THIS WEEK?'
+p2-life box x=989 y=1400 bottom=1515.9 inboxLast=1468.2 clearance=+47.7 :: '第二輪投票。'
+p2-life box x=1440 y=833 bottom=1158.4 inboxLast=1140.5 clearance=+17.9 :: 'one of them was on the ballot on'
+    BAND +12.7px x0=1461.5 sz=21.5 [head/next] 'November 3.'
+p2-life box x=1440 y=1184 bottom=1488.9 inboxLast=1484.4 clearance=+4.5 :: '句英語寄給編輯部。'
+p2-life box x=159 y=1636 bottom=1768.0 inboxLast=1738.0 clearance=+30.0 :: '計票還在繼續。'
+p2-life box x=610 y=1636 bottom=1768.0 inboxLast=1738.0 clearance=+30.0 :: '新國會在一月開會。'
+p2-life box x=1060 y=1636 bottom=1768.0 inboxLast=1738.0 clearance=+30.0 :: '感恩節快樂！'
+p3-culture box x=538 y=200 bottom=644.5 inboxLast=596.4 clearance=+48.1 :: 'launch.'
+    BAND +35.5px x0=538.5 sz=23.5 [head/next] 'A film is not only a story — it is also'
+p3-culture box x=538 y=1224 bottom=1369.3 inboxLast=1321.5 clearance=+47.7 :: 'campmate = 營地成員。'
+    BAND +37.0px x0=538.5 sz=25.0 [head/next] 'A\u3000COMPREHENSION'
+p3-culture box x=1440 y=856 bottom=1068.6 inboxLast=1020.1 clearance=+48.5 :: 'sixteen-year-old boy from District 12.'
+    BAND +37.0px x0=1439.5 sz=25.0 [head/next] 'FIVE SENTENCES'
+p4-sport box x=538 y=200 bottom=471.1 inboxLast=423.0 clearance=+48.1 :: 'November 2024, by 295 runs to India.'
+    BAND +35.5px x0=538.5 sz=23.5 [head/next] 'How do you follow three sports in one'
+p4-sport box x=538 y=1086 bottom=1231.6 inboxLast=1183.8 clearance=+47.7 :: '期。'
+    BAND +37.0px x0=538.5 sz=25.0 [head/next] 'A\u3000COMPREHENSION'
+p4-sport box x=1440 y=856 bottom=1361.8 inboxLast=1313.3 clearance=+48.5 :: 'Vikings–49ers in Mexico City.'
+    BAND +37.0px x0=1439.5 sz=25.0 [head/next] 'ONE SCREEN, TWO SCREENS'
+p5-youth box x=88 y=2034 bottom=2244.8 inboxLast=2196.7 clearance=+48.1 :: 'theme.'
+    BAND +35.5px x0=88.0 sz=23.5 [head/next] 'If you want to practise'
+p5-youth box x=538 y=200 bottom=345.7 inboxLast=298.0 clearance=+47.7 :: '默'
+    BAND +37.0px x0=538.5 sz=25.0 [head/next] 'A\u3000COMPREHENSION'
+p5-youth box x=1440 y=852 bottom=1064.6 inboxLast=1016.1 clearance=+48.5 :: 'morning in English is yours.'
+    BAND +37.0px x0=1439.5 sz=25.0 [head/next] "FRIDAY'S WORDS"
+p6-deep box x=538 y=200 bottom=441.0 inboxLast=392.9 clearance=+48.1 :: 'how to mark, not whom to choose.'
+    BAND +36.0px x0=538.5 sz=24.0 [head/next] 'A note on numbers in this issue: this'
+p6-deep box x=538 y=779 bottom=924.5 inboxLast=876.8 clearance=+47.7 :: '票 · a map = 政治版圖。'
+    BAND +37.0px x0=538.5 sz=25.0 [head/next] 'READ THE CHART\u3000讀圖表'
+p6-deep box x=1440 y=666 bottom=878.6 inboxLast=830.1 clearance=+48.5 :: 'Governor: usually 4 years.'
+    BAND +37.0px x0=1439.5 sz=25.0 [head/next] 'FIFTY ELECTIONS'
+p7-lang box x=88 y=254 bottom=399.7 inboxLast=352.0 clearance=+47.7 :: '時。'
+    BAND +35.5px x0=88.0 sz=23.5 [head/next] 'win = to get first place. won = the past'
+p7-lang box x=88 y=888 bottom=1003.6 inboxLast=955.9 clearance=+47.7 :: 'than說數量和大小。'
+    BAND +35.5px x0=88.0 sz=23.5 [head/next] 'more than = a bigger number than. In'
+p7-lang box x=88 y=1563 bottom=1679.0 inboxLast=1631.3 clearance=+47.7 :: '疑問句will提前。'
+    BAND +35.5px x0=88.0 sz=23.5 [head/next] 'The counting will continue. The new'
+p7-lang box x=88 y=2026 bottom=2142.2 inboxLast=2094.5 clearance=+47.7 :: '生的事；不規則動詞要記住。'
+    BAND +35.5px x0=88.0 sz=23.5 [head/next] 'Use the past for the past: Collins'
+p7-lang box x=538 y=254 bottom=369.9 inboxLast=322.2 clearance=+47.7 :: '紙標題用現在時說已經發生的事。'
+    BAND +35.5px x0=538.5 sz=23.5 [head/next] 'Newspapers use the present in'
+p7-lang box x=538 y=684 bottom=799.7 inboxLast=752.0 clearance=+47.7 :: '果的事，用whether。'
+    BAND +35.5px x0=538.5 sz=23.5 [head/next] 'Nobody knows whether the count will'
+p7-lang box x=1440 y=651 bottom=1008.2 inboxLast=959.7 clearance=+48.5 :: '會不會變。'
+    BAND +37.0px x0=1439.5 sz=25.0 [head/next] "READERS' CORNER\u3000讀者來信"
+p8-test box x=989 y=1720 bottom=2000.0 inboxLast=1907.6 clearance=+92.4 :: 'a busy week of votes, socks and stories — and'
+
+=== PART 4b: curly quotes by font-family ===
+  ('p1-front', 'Newsreader', False, '“') 1
+  ('p1-front', 'Newsreader', False, '”') 1
+  ('p1-front', 'Newsreader', True, '“') 1
+  ('p1-front', 'Newsreader', True, '”') 1
+  ('p2-life', 'Newsreader', False, '“') 1
+  ('p2-life', 'Newsreader', False, '”') 1
+  ('p3-culture', 'Newsreader', False, '“') 10
+  ('p3-culture', 'Newsreader', False, '”') 10
+  ('p4-sport', 'Newsreader', False, '“') 3
+  ('p4-sport', 'Newsreader', False, '”') 3
+  ('p5-youth', 'Newsreader', False, '“') 11
+  ('p5-youth', 'Newsreader', False, '”') 11
+  ('p6-deep', 'Newsreader', False, '“') 2
+  ('p6-deep', 'Newsreader', False, '”') 2
+  ('p7-lang', 'Newsreader', False, '“') 29
+  ('p7-lang', 'Newsreader', False, '”') 29
+  ('p8-test', 'Newsreader', False, '“') 24
+  ('p8-test', 'Newsreader', False, '”') 24
+
+=== PART 2b: core-en P4 SATURDAY title advance (same method) ===
+  core-en: x0=1457.5 x1=1861.3 size=23.0 bold=True fam=Noto Sans CJK SC :: 'SATURDAY, NOVEMBER 21\u3000周六赛程'
+  core-en P2: x0=556.5 x1=989.1 :: 'THE SENATE, IN NUMBERS\u3000参议院数字'
+  zh-tw: x0=1457.5 x1=1861.3 size=23.0 bold=True fam=Noto Sans CJK TC :: 'SATURDAY, NOVEMBER 21\u3000週六賽程'
+  zh-tw P2: x0=556.5 x1=989.1 :: 'THE SENATE, IN NUMBERS\u3000參議院數字'
+
+=== PART 2c: TRUE INK extents from card PNGs (title rows) ===
+  p1-front THE WEEK IN NUMBERS: ink 1007..1407 vs box right 1412 -> margin +5.0px (left inset +18.0)
+  p2-life THE SENATE, IN NUMBERS: ink 557..960 vs box right 961 -> margin +1.0px (left inset +18.5)
+  p3-culture HAYMITCH'S GAMES: ink 1459..1841 vs box right 1862 -> margin +21.0px (left inset +19.0)
+  p4-sport SATURDAY, NOVEMBER 21: ink 1458..1861 vs box right 1862 -> margin +1.0px (left inset +18.0)
+  p5-youth ODD SOCKS, IN NUMBERS: ink 107..482 vs box right 510 -> margin +28.0px (left inset +19.0)
+  p6-deep HOW LONG?: ink 1459..1726 vs box right 1862 -> margin +136.0px (left inset +19.0)
+  p7-lang THE TOOLBOX: ink 1458..1755 vs box right 1862 -> margin +107.0px (left inset +18.0)
+
+=== PART 1c: P7 TOOLBOX ink vs box bottom (descenders) ===
+  col x=1500: cream/paper transition at y=1008 (cream=True -> False)
+  col x=1700: cream/paper transition at y=1008 (cream=True -> False)
+  col x=1700: cream/paper transition at y=1038 (cream=False -> True)
+  col x=1700: cream/paper transition at y=1039 (cream=True -> False)
+  toolbox region lowest ink row y=961 vs box bottom 1008.2 -> clearance +47.2px
+  toolbox svg y=898.6 :: 'B2 — “Nobody knows whether the'
+  toolbox svg y=929.1 :: 'count will change.” '
+  toolbox svg y=929.1 :: '沒人知道計票結果還'
+  toolbox svg y=959.7 :: '會不會變。'

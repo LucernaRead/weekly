@@ -1,0 +1,78 @@
+  flow[P1-headline] ended col 2/2 y=1051 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=459 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-feature] ended col 1/2 y=595 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2113 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=834 (bottom 1180)
+P4 col3 ends 1201.9499999999998
+  !! HEAD TOO WIDE [P4-ex]: C　读赛程　Travail sur le calendrier
+  flow[P4-ex] ended col 2/3 y=2113 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-feature] ended col 1/2 y=828 (bottom 1560)
+P5 col3 ends 1241.1
+  !! HEAD TOO WIDE [P5-ex]: C　时间与数字　Heures et nombres
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 1/2 y=1119 (bottom 1180)
+P6 col3 ends 1098.0
+  flow[P6-ex] ended col 2/3 y=2053 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-a2] ended col 0/0 y=1180 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1274 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1314 (bottom 1560)
+P7 col3 ends 1648.98
+P7 image ends 1862.7800000000002
+P7 teaser ends 2588.78
+P7 saved, exercises so far: 112
+  !! HEAD TOO WIDE [P8-ex]: D　读一读，答一答　Lire et répondre
+  flow[P8-ex] ended col 3/3 y=965 (bottom 1300)
+P8 test flow ends col/y: 3 964.8
+P8 image ends 1270.6
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2522 need 44 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2604 need 44 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2604 need 44 bottom 2560
+  flow[P8-keys] ended col 3/3 y=2604 (bottom 2560)
+P8 keys flow ends col/y: 3 2604.2
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 138
+  2L Q11: "11. A — Double 11 de l'an dernier : 139,38 milliards de colis en 22 jours."  note="Double 11 de l'an dernier : 139,38 milliards de colis en 22 jours."
+  2L Q13: "13. B — La protection du prix n'est pas automatique : lis le règlement, puis fais ta demande."  note="La protection du prix n'est pas automatique : lis le règlement, puis fais ta demande."
+  2L Q15: '15. A — Express ferroviaire à grande vitesse : 4 heures de porte à porte.'  note='Express ferroviaire à grande vitesse : 4 heures de porte à porte.'
+  2L Q18: "18. 申请 — shēnqǐng — la protection du prix n'est pas automatique ; fais ta demande."  note="shēnqǐng — la protection du prix n'est pas automatique ; fais ta demande."
+  2L Q20: '20. 20 — SF Express du Hunan a ajouté environ 20 % de personnel et de capacité.'  note='SF Express du Hunan a ajouté environ 20 % de personnel et de capacité.'
+  2L Q24: "24. 7.77 — L'an dernier, le meilleur jour a atteint 777 millions d'articles."  note="L'an dernier, le meilleur jour a atteint 777 millions d'articles."
+  2L Q56: '56. T1 — BLG a battu T1 pour la première fois dans un BO5 des Worlds.'  note='BLG a battu T1 pour la première fois dans un BO5 des Worlds.'
+  2L Q92: '92. 4 — Express ferroviaire à grande vitesse : 4 heures de porte à porte.'  note='Express ferroviaire à grande vitesse : 4 heures de porte à porte.'
+  2L Q109: "109. A — « 139.38亿件 » est un chiffre définitif de l'administration postale, déjà compté."  note="« 139.38亿件 » est un chiffre définitif de l'administration postale, déjà compté."
+  2L Q121: '121. B — La finale commence à 03:00 heure de Pékin, le 15 novembre.'  note='La finale commence à 03:00 heure de Pékin, le 15 novembre.'
+  2L Q148: '148. A — Après la Petite Neige, habille-toi plus chaudement et ne prends pas froid.'  note='Après la Petite Neige, habille-toi plus chaudement et ne prends pas froid.'
+  2L Q149: "149. A — La règle de la page 6 : les données d'abord, la pub en dernier."  note="La règle de la page 6 : les données d'abord, la pub en dernier."
+  2L Q150: '150. ✓ Tâche ouverte — la réponse modèle est imprimée plus haut, section F (138 caractères)'  note='Tâche ouverte — la réponse modèle est imprimée plus haut, section F (138 caractères)'
+  OVERFLOW Q148 (2L) p8 完形单选 h=44.2 at y=2521.8
+  OVERFLOW Q149 (2L) p8 完形单选 h=44.2 at y=2604.2
+  OVERFLOW Q150 (2L) p8 写作 h=44.2 at y=2604.2
+keys flow ends col 3 y=2604.2 (bottom 2560)
+overflow paras: 3
+total paras: 158  total height: 4755.6  capacity: 4704
+--- 2+ line keys ---
+  Q 11 (2L) p2 单选 h=44.2
+  Q 13 (2L) p2 单选 h=44.2
+  Q 15 (2L) p2 单选 h=44.2
+  Q 18 (2L) p2 完成句子 h=44.2
+  Q 20 (2L) p2 完成句子 h=44.2
+  Q 24 (2L) p2 完成句子 h=44.2
+  Q 56 (2L) p4 完成句子 h=44.2
+  Q 92 (2L) p6 完成句子 h=44.2
+  Q109 (2L) p7 单选 h=44.2
+  Q121 (2L) p8 单选 h=44.2
+  Q148 (2L) p8 完形单选 h=44.2
+  Q149 (2L) p8 完形单选 h=44.2
+  Q150 (2L) p8 写作 h=44.2

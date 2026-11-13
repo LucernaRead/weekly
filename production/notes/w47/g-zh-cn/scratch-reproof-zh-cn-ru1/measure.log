@@ -1,0 +1,14 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PIL OLD: advance=430.2 ink_right=1891.5 box_right=1862.0 clear=-29.5
+PIL NEW: advance=388.8 ink_right=1850.5 box_right=1862.0 clear=11.5
+SVG p1 y=1252.0 runs: [{'x': 1461.5, 'y': 1252.0, 'size': '19', 'family': 'Noto Sans CJK SC', 'weight': '', 'text': 'Время сдачи: 10 нояб. — финал не сыгран'}]
+print PDF p1 rect (pt): Rect(0.0, 0.0, 1462.5, 2025.0)
+render size px: 3047 x 4219
+scale units/px: 0.63997
+line band rightmost dark px: 2888 -> units: 1848.2 clear vs 1862.0: 13.8
+box right edge at y=650u: px 2909 -> units: 1861.7
+control para rightmost dark px: 2870 -> units: 1836.7
+crop saved: (1720, 2250)
+Lucerna-VOL4-RU.pdf per-page min pt: [10.5, 11.62, 11.62, 11.62, 11.62, 12.75, 11.62, 9.98] P8 min: 9.98
+Lucerna-VOL4-RU-web.pdf per-page min pt: [10.5, 11.62, 11.62, 11.62, 11.62, 12.75, 11.62, 9.98] P8 min: 9.98

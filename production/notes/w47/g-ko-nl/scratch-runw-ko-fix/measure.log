@@ -1,0 +1,105 @@
+=== 0. module sanity: kind of the P7 flagged lines ===
+  sans runs : [('제14라운드의 여덟 경기가 모두 끝났습니다. (', 'sans')]
+  serif runs: [('제', 'serif'), ('14', 'news'), ('라운드의', 'serif'), (' ', 'news'), ('여덟', 'serif'), (' ', 'news'), ('경기가', 'serif'), (' ', 'news'), ('모두', 'serif'), (' ', 'news'), ('끝났습니다', 'serif'), ('. (', 'news')]
+  space class sans : sans | serif: news | '(' sans: sans
+
+=== A. the 8 flagged P7 lines + 2 extra collisions ===
+  [p7 y1953 19.5pt sans nsp=5] 제14라운드의 여덟 경기가 모두 끝났습니다. (…
+    next-run x: R2=448.5 waveC=452.8 shift=4.3 | getlength=364.80 _run_w=360.48 delta=4.31 delta/space=0.863 | new_run_w=364.80 == getlength: True | shift-delta=-0.01
+  [p7 y1953 19.5pt sans nsp=6] 휴식기 후 리그는 11월 20일에 돌아옵니다. (…
+    next-run x: R2=1339.6 waveC=1342.9 shift=3.3 | getlength=353.88 _run_w=350.64 delta=3.23 delta/space=0.539 | new_run_w=353.88 == getlength: True | shift-delta=+0.07
+  [p7 y2093 19.5pt sans nsp=5] 이것이 2026년 국가대표의 마지막 경기입니다. (…
+    next-run x: R2=470.1 waveC=473.4 shift=3.3 | getlength=385.38 _run_w=382.14 delta=3.23 delta/space=0.647 | new_run_w=385.38 == getlength: True | shift-delta=+0.07
+  [p7 y2093 19.5pt sans nsp=4] 똑똑한 구매자는 서두르지 않는다. (…
+    next-run x: R2=1269.6 waveC=1272.9 shift=3.3 | getlength=283.88 _run_w=280.64 delta=3.23 delta/space=0.809 | new_run_w=283.88 == getlength: True | shift-delta=+0.07
+  [p7 y2233 19.5pt sans nsp=4] 직업 기념일은 휴일이 아니다. (…
+    next-run x: R2=332.8 waveC=336.0 shift=3.2 | getlength=248.00 _run_w=244.77 delta=3.23 delta/space=0.809 | new_run_w=248.00 == getlength: True | shift-delta=-0.03
+  [p7 y2233 19.5pt sans nsp=6] 이런 주는 일 년에 가장 흔합니다. (…
+    next-run x: R2=1260.5 waveC=1265.8 shift=5.3 | getlength=276.84 _run_w=271.45 delta=5.39 delta/space=0.898 | new_run_w=276.84 == getlength: True | shift-delta=-0.09
+  [p7 y2373 19.5pt sans nsp=4] 11월의 밤은 어둡고 길다. (…
+    next-run x: R2=300.6 waveC=303.8 shift=3.2 | getlength=215.84 _run_w=212.61 delta=3.23 delta/space=0.809 | new_run_w=215.84 == getlength: True | shift-delta=-0.03
+  [p7 y2373 19.5pt sans nsp=6] 11월에는 근무일 20일과 휴일 10일이 있다. (…
+    next-run x: R2=1343.4 waveC=1346.6 shift=3.2 | getlength=357.59 _run_w=354.36 delta=3.23 delta/space=0.539 | new_run_w=357.59 == getlength: True | shift-delta=-0.03
+  [p1 y1206 20.5pt sans nsp=4] 고 마감 시점 · …
+    next-run x: R2=671.7 waveC=674.0 shift=2.3 | getlength=135.45 _run_w=133.17 delta=2.28 delta/space=0.570 | new_run_w=135.45 == getlength: True | shift-delta=+0.02
+  [p7 y968 19.5pt sans nsp=3] 는 출발점으로 생격: …
+    next-run x: R2=1637.5 waveC=1639.6 shift=2.1 | getlength=164.20 _run_w=162.05 delta=2.16 delta/space=0.719 | new_run_w=164.20 == getlength: True | shift-delta=-0.06
+
+=== B. per-space delta across every P7 size ===
+  size 17.0: 2 spaced Hangul runs, delta/space min=0.000 max=0.520 mean=0.260 | total delta=2.08
+  size 18.0: 1 spaced Hangul runs, delta/space min=0.677 max=0.677 mean=0.677 | total delta=2.03
+  size 19.5: 21 spaced Hangul runs, delta/space min=0.000 max=1.078 mean=0.778 | total delta=40.97
+  size 20.0: 3 spaced Hangul runs, delta/space min=0.000 max=0.887 mean=0.518 | total delta=6.44
+  size 20.5: 6 spaced Hangul runs, delta/space min=0.000 max=1.141 mean=0.380 | total delta=3.42
+  size 23.0: 2 spaced Hangul runs, delta/space min=1.219 max=1.219 mean=1.219 | total delta=3.66
+  size 24.0: 1 spaced Hangul runs, delta/space min=0.492 max=0.492 mean=0.492 | total delta=0.98
+  size 27.0: 1 spaced Hangul runs, delta/space min=1.438 max=1.438 mean=1.438 | total delta=7.19
+  cross-size table for the first flagged line (4 spaces):
+    17pt: getlength=318.11 _run_w=314.30 delta=3.81 per-space=0.953 (delta/pt=0.2243)
+    18pt: getlength=336.83 _run_w=332.77 delta=4.06 per-space=1.016 (delta/pt=0.2257)
+    19.5pt: getlength=364.80 _run_w=360.48 delta=4.31 per-space=1.078 (delta/pt=0.2212)
+    20pt: getlength=374.28 _run_w=369.84 delta=4.44 per-space=1.109 (delta/pt=0.2219)
+    20.5pt: getlength=383.52 _run_w=378.95 delta=4.56 per-space=1.141 (delta/pt=0.2226)
+    23pt: getlength=430.27 _run_w=425.14 delta=5.12 per-space=1.281 (delta/pt=0.2228)
+    24pt: getlength=448.98 _run_w=443.61 delta=5.38 per-space=1.344 (delta/pt=0.2240)
+    27pt: getlength=505.23 _run_w=499.17 delta=6.06 per-space=1.516 (delta/pt=0.2245)
+    46pt: getlength=860.50 _run_w=850.19 delta=10.31 per-space=2.578 (delta/pt=0.2242)
+
+=== C1. single-char decomposition of the space effect (sans, 36px PIL / 19.5pt) ===
+  36: '가 나'                    getlength=76.33 sum=74.31 delta=+2.02
+  36: '여덟 경기가 모두'              getlength=252.03 sum=248.00 delta=+4.03
+  36: '가나'                     getlength=66.25 sum=66.25 delta=+0.00
+  36: '14'                     getlength=39.97 sum=39.97 delta=+0.00
+  36: '. ('                    getlength=30.25 sum=30.25 delta=+0.00
+  36: '다.'                     getlength=43.14 sum=43.14 delta=+0.00
+  36: '가. 나'                   getlength=84.33 sum=84.33 delta=+0.00
+  36: lone ' ' getlength=8.06 (sum identical by construction)
+  19.5: '가 나'                    getlength=41.33 sum=40.25 delta=+1.08
+  19.5: '여덟 경기가 모두'              getlength=136.47 sum=134.31 delta=+2.16
+  19.5: '가나'                     getlength=35.88 sum=35.88 delta=+0.00
+  19.5: '14'                     getlength=21.66 sum=21.66 delta=+0.00
+  19.5: '. ('                    getlength=16.39 sum=16.39 delta=+0.00
+  19.5: '다.'                     getlength=23.36 sum=23.36 delta=+0.00
+  19.5: '가. 나'                   getlength=45.67 sum=45.67 delta=+0.00
+  19.5: lone ' ' getlength=4.38 (sum identical by construction)
+
+=== C2. Latin kerned runs: old _run_w vs new _run_w (must be IDENTICAL) ===
+  serif 13pt cls=news       '69. A — Filmmaker Festival'     getlength=161.03 _run_w=164.22 new=164.22 kern(gl-rw)=-3.19 old==new: True
+  serif 19.5pt cls=news       'Festival'                       getlength=70.12 _run_w=71.53 new=71.53 kern(gl-rw)=-1.41 old==new: True
+  serif 19.5pt cls=news       'Lucerna'                        getlength=73.48 _run_w=73.66 new=73.66 kern(gl-rw)=-0.17 old==new: True
+  serif 19.5pt cls=news       'A. 13 '                         getlength=51.97 _run_w=52.50 new=52.50 kern(gl-rw)=-0.53 old==new: True
+  serif 19.5pt cls=noto       'ноября'                         getlength=70.78 _run_w=70.78 new=70.78 kern(gl-rw)=+0.00 old==new: True
+  sans 19.5pt cls=sans       'Tauwetter; '                    getlength=101.77 _run_w=103.80 new=101.77 kern(gl-rw)=-2.03 old==new: False
+  sans 19.5pt cls=sans_noto  'мокрый'                         getlength=78.48 _run_w=78.48 new=78.48 kern(gl-rw)=+0.00 old==new: True
+  serif 19.5pt cls=noto       'ГЛАГОЛЫ'                        getlength=98.17 _run_w=100.70 new=100.70 kern(gl-rw)=-2.53 old==new: True
+
+=== C3. Cyrillic runs: getlength vs sum (kern should be 0.00) ===
+  serif 19.5pt cls=noto       'Гаттузо'                    getlength=74.97 _run_w=75.94 new=75.94 diff=-0.97
+  serif 19.5pt cls=noto       'Текст'                      getlength=54.52 _run_w=55.48 new=55.48 diff=-0.97
+  serif 19.5pt cls=noto       'редакции'                   getlength=97.78 _run_w=97.78 new=97.78 diff=+0.00
+  serif 19.5pt cls=noto       'Страница'                   getlength=97.69 _run_w=97.69 new=97.69 diff=+0.00
+  serif 19.5pt cls=noto       'ноября'                     getlength=70.78 _run_w=70.78 new=70.78 diff=+0.00
+  serif 19.5pt cls=noto       'От'                         getlength=25.48 _run_w=25.48 new=25.48 diff=+0.00
+  serif 19.5pt cls=noto       'спортивной'                 getlength=120.72 _run_w=120.72 new=120.72 diff=+0.00
+  serif 19.5pt cls=noto       'редакции'                   getlength=97.78 _run_w=97.78 new=97.78 diff=+0.00
+  serif 19.5pt cls=noto       'Профессиональные'           getlength=197.62 _run_w=197.62 new=197.62 diff=+0.00
+  serif 19.5pt cls=noto       'праздники'                  getlength=109.94 _run_w=109.94 new=109.94 diff=+0.00
+  serif 19.5pt cls=noto       'Результатов'                getlength=121.86 _run_w=123.22 new=123.22 diff=-1.36
+  serif 19.5pt cls=noto       'скидка'                     getlength=69.81 _run_w=70.20 new=70.20 diff=-0.39
+  serif 19.5pt cls=noto       'А'                          getlength=14.00 _run_w=14.00 new=14.00 diff=+0.00
+  serif 19.5pt cls=noto       'биография'                  getlength=107.98 _run_w=107.98 new=107.98 diff=+0.00
+  sans  19.5pt cls=sans_noto  'Страница'                   getlength=94.75 _run_w=94.75 diff=+0.00
+  sans  19.5pt cls=sans_noto  'редакции'                   getlength=95.70 _run_w=95.70 diff=+0.00
+  sans  19.5pt cls=sans_noto  'ноября'                     getlength=70.53 _run_w=70.53 diff=+0.00
+
+=== C4. spaceless CJK runs (real ja/zh-tw strings from R2 builds) ===
+  ru-ja: 942 CJK runs examined, 129 contain a space, 125 with getlength!=sum; worst diff=-5.750 ('p8-test.svg', 25.0, 'sans', 'sans', '\u3000解答 — ページごとに並んでいます。番号で探してください')
+  ru-zh-tw: 943 CJK runs examined, 126 contain a space, 20 with getlength!=sum; worst diff=-1.734 ('p1-pervaya.svg', 15.5, 'sans', 'sans', ': Toxer427 — ')
+
+=== C5. ru-ko: ALL CJK runs in R2 build, spaced vs spaceless ===
+  spaced CJK runs: 281, worst delta=+8.625 ('p8-test.svg', 19.5, 'sans', '각 문제에 한국어 해설 한 줄\u3000✓는 모범 답안 문제', 8)
+  spaceless CJK runs: 867, worst delta=-0.594 ('p1-pervaya.svg', 17.0, 'sans', 'Lucerna\u3000')
+  serif-kind CJK runs containing a space: 0 []
+
+=== C6. old _run_w vs new _run_w over EVERY run of every R2 ru-ko text node ===
+  CJK-family nodes: 1148 runs, 174 differ old-vs-new (all must be spaced CJK runs)

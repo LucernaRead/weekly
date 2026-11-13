@@ -1,0 +1,24 @@
+[PIL-advance] lines=1419 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1419 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 8; leftmost-on-baseline: 0
+  FRAG P1 y=1560.62 x=790.7 leftmost=False first='：' '：柏林奧林匹克'
+  FRAG P8 y=1341.5 x=777.0 leftmost=False first='：' '：'
+  FRAG P8 y=1400.82 x=717.2 leftmost=False first='：' '：'
+  FRAG P8 y=1489.8 x=748.7 leftmost=False first='，' '，持續'
+  FRAG P8 y=1848.3 x=1225.1 leftmost=False first='）' '）'
+  FRAG P8 y=1877.96 x=1180.7 leftmost=False first='）' '）'
+  FRAG P8 y=2325.44 x=774.6 leftmost=False first='）' '）'
+  FRAG P8 y=2414.42 x=730.2 leftmost=False first='）' '）'
+[D8 P6 caption lines]
+   {'needle': '練習數據：虛構數字', 'x': 1461.5, 'y': 635.0200000000001, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': '練習數據：虛構數字，僅供練習，非真實調查。'}
+   {'needle': '你在鞋裡放什麼', 'x': 1461.5, 'y': 659.44, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': '問題：你在鞋裡放什麼？（100 名年輕人）'}
+[D10 P7 dt_zh lines]
+   {'needle': '截稿時未收到真實來信', 'x': 1461.5, 'y': 1754.2699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': '截稿時未收到真實來信或第 8 版最佳作文，'}
+   {'needle': '刊登示例信', 'x': 1461.5, 'y': 1782.6699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': '刊登示例信，承諾順延 VOL.5。'}
+[D6 P3 bridge lines]
+   {'needle': '用現在完成式填空', 'x': 538.5, 'y': 2250.5, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': '用現在完成式填空。注意助動詞'}
+   {'needle': 'hebben/zijn', 'x': 538.5, 'y': 2280.225, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'hebben/zijn。'}
+[D7 P7 bridge lines]
+   {'needle': 'de wedstrijd 比賽', 'x': 88.0, 'y': 725.6600000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'de wedstrijd 比賽；de groepswinst'}
+   {'needle': 'scoren 進球', 'x': 88.0, 'y': 785.1100000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'scoren 進球。'}
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

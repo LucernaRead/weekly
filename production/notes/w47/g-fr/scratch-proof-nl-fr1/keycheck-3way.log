@@ -1,0 +1,7 @@
+3-way MATCH: 149/149 (excl Q150 exception); DIFF=[] MISSING=[]
+Q140: {"n": 140, "level": "B2", "type": "Traduction", "page": 8, "reg_key": "Ik maak een surprise met een kort gedicht.", "md_answer": "Ik maak een surprise met een kort gedicht.", "p8_key": "Ik maak een surprise met een kort gedicht.", "verdict": "MATCH"}
+Q150: {"n": 150, "level": "B1", "type": "Écriture", "page": 8, "reg_key": "(tâche ouverte, texte modèle ci-dessous)", "md_answer": null, "p8_key": "✓", "verdict": "EXCEPTION-OPEN-WRITING", "note": "P8 key is '✓'; text.md carries Tekstmodel (81 words); REG key is the reader-language placeholder"}
+Q137: {"n": 137, "level": "A2", "type": "Traduction", "page": 8, "reg_key": "Le journal de Sinterklaas passe chaque jour à 18 h 00.", "md_answer": "Le journal de Sinterklaas passe chaque jour à 18 h 00.", "p8_key": "Le journal de Sinterklaas passe chaque jour à 18 h 00.", "verdict": "MATCH"}
+Q138: {"n": 138, "level": "B1", "type": "Traduction", "page": 8, "reg_key": "Les deux premiers passent en quart de finale.", "md_answer": "Les deux premiers passent en quart de finale.", "p8_key": "Les deux premiers passent en quart de finale.", "verdict": "MATCH"}
+match keys 25-28: ['d', 'c', 'a', 'b']
+match keys 141-144: ['b', 'c', 'd', 'a']

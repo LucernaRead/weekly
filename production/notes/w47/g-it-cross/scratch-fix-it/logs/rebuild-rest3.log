@@ -1,0 +1,19 @@
+===== 2026-w47-it-nl =====
+  run-2026-w47-it-nl.log: RC=0
+  render-2026-w47-it-nl.log: RC=0
+  export-2026-w47-it-nl.log: RC=0
+  textmd diff: 22 changed lines, all in allowed classes; no dropped lines
+  webpdf-2026-w47-it-nl.log: RC=0
+  print: 13495268 B sha b5a24a8f4234
+  web:   1213994 B sha 8fc2d76c044a
+  text:  55535 B sha 92ddd5838d6f
+===== 2026-w47-it-nl DONE =====
+===== 2026-w47-it-ru =====
+  run-2026-w47-it-ru.log: RC=0
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-it/rebuild_one.py", line 31, in <module>
+    assert bad not in blog, f"{bad} in run log"
+           ^^^^^^^^^^^^^^^
+AssertionError: FLOW OVERFLOW in run log
+FAILED: 2026-w47-it-ru
+EXIT=1

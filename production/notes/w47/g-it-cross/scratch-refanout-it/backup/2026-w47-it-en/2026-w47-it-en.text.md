@@ -1,0 +1,1317 @@
+# 2026-w47-it-en
+
+## Prima
+
+VOL. 4　QUARTA EDIZIONE
+
+OGNI SETTIMANA IN ITALIANO　EVERY WEEK　THE ITALIAN THAT ITALIANS ARE READING
+
+SETTIMANA DAL 16 AL 22 NOVEMBRE 2026
+
+La Lucerna
+
+THE ITALIAN WEEKLY　VOL.4　LA SERIE A　IL TORRONE　VENEZIA
+
+IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA
+
+LA LAZIO RESTA PRIMA!
+
+Lazio 29 punti, Inter e Roma inseguono: la Serie A racconta l'11ª giornata.
+
+Serie A matchday 11 this week
+
+Lazio lead with 29 points　See page 4
+
+LA NOTIZIA　THE TOP STORY
+
+La Lazio resta in vetta: Inter e Roma inseguono
+
+Dalla redazione de La Lucerna　Livello di lettura: A2
+
+La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta. L'Inter vince 2–0 con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 27.
+
+L'11ª giornata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in dieci partite. Il Milan vince 2–1 a Genova e prende il quarto posto, con 24 punti; Fiorentina e Juventus chiudono 2–2. In coda, l'Udinese è ultima, con 5 punti.
+
+Domenica 22 novembre torna la Serie A con la 12ª giornata: la sera, a Bergamo, c'è Atalanta–Inter. Sabato 21 la Lazio capolista gioca in casa con il Lecce.
+
+E domenica 22 novembre è anche il giorno dei dolci: a Cremona chiude la Festa del Torrone, con il corteo storico e la rievocazione del matrimonio Sforza–Visconti; a Perugia chiude Eurochocolate, con il maestro Iginio Massari.
+
+A Torino, domenica 22 novembre, si gioca la finale delle Nitto ATP Finals: otto campioni, una settimana di tennis, e l'Italia con Flavio Cobolli. A Venezia, sabato 21, c'è la Madonna della Salute.
+
+Questa è la quarta edizione de La Lucerna in italiano. Benvenuti in una settimana di calcio, dolci e musica!
+
+NOTE · la vetta, the top / the summit · imbattuto, unbeaten · il capolista, the league leaders · chiudere, to close.
+
+LA SETTIMANA IN CIFRE　THIS WEEK IN NUMBERS
+
+29 — Lazio's points, top of the table after 11 matchdays (Lazio top with 29 points)
+
+24 — the goals of matchday 11, in ten matches (24 goals in 10 matches)
+
+20.45 — kick-off for Atalanta–Inter, Sunday 22 November (Atalanta v Inter, Sunday 20:45)
+
+over 150 — the performers in the Torrone closing parade (over 150 performers in the parade)
+
+ADESSO TU　NOW YOU TRY
+
+1. [A2 · Complete the sentence] La prima in classifica è la ___. — key: Lazio (Lazio are top)
+
+2. [A2 · Complete the sentence] La Lazio pareggia 1–1 a ___. — key: Napoli (Lazio drew in Naples)
+
+3. [A2 · Complete the sentence] L'Inter vince 2–0 con il ___. — key: Como (Inter beat Como 2–0)
+
+4. [A2 · Complete the sentence] La Roma batte 3–0 il ___. — key: Sassuolo (Roma beat Sassuolo 3–0)
+
+5. [A2 · Complete the sentence] Atalanta–Inter si gioca a ___. — key: Bergamo (Atalanta v Inter is in Bergamo)
+
+6. [B1 · Complete the sentence] La Festa del Torrone chiude a ___. — key: Cremona (The torrone festival closes in Cremona)
+
+LA SETTIMANA
+
+GIORNO PER GIORNO
+
+This week　Cosa succede, giorno per giorno
+
+LUN 16 — Manovra in Parlamento: emendamenti entro il 17, ore 18.
+
+MAR 17 — Scade il termine per gli emendamenti.
+
+GIO 19 — A Torino proseguono le Nitto ATP Finals.
+
+VEN 20 — A Perugia, Eurochocolate: «I tesori della Calabria Straordinaria», ore 18.15.
+
+SAB 21 — Madonna della Salute a Venezia; torna la Serie A.
+
+DOM 22 — Chiudono Torrone ed Eurochocolate; finale ATP; Atalanta–Inter.
+
+Le date sono quelle degli eventi; gli orari possono cambiare.
+
+Dates follow each event's calendar; times may change.
+
+IN QUESTO NUMERO　CONTENTS
+
+Pag. 2
+
+Venezia e gli alberi
+
+A2
+
+Pag. 3
+
+Torrone e cioccolato
+
+A2→B1
+
+Pag. 4
+
+La Serie A e il tennis
+
+B1
+
+Pag. 5
+
+I giovani leggono
+
+B1
+
+Pag. 6
+
+La manovra in Parlamento
+
+B2
+
+Pag. 7
+
+Frasi della settimana
+
+A2→B2
+
+Pag. 8
+
+Esercizi e risposte
+
+tutti
+
+LA PAROLA DELLA SETTIMANA
+
+« la vetta » : il primo posto in classifica. La Lazio è in vetta con 29 punti.
+
+“la vetta”: the top of the table. Lazio are top with 29 points.
+
+Un vecchio stadio italiano: il calcio si gioca da più di cent'anni, e ogni domenica gli stadi si riempiono di tifosi. (Pagina 4)
+
+Foto: Wikimedia Commons — dominio pubblico
+
+LA DOMENICA DEL 22
+
+Domenica 22 novembre è una giornata da ricordare: a Cremona il corteo del Torrone, a Perugia il cioccolato, a Torino la finale del tennis e a Bergamo la grande partita della sera.
+
+Il consiglio della redazione: scegliete una festa, guardate una partita — e continuate a leggere a pagina 2!
+
+IN BREVE　IN BRIEF
+
+TORRONE
+
+La Festa del Torrone chiude domenica 22 novembre a Cremona. (Pagina 3)
+
+MANOVRA
+
+Audizioni in Parlamento dal 9 al 12 novembre; emendamenti entro martedì 17. (Pagina 6)
+
+TENNIS
+
+Nitto ATP Finals a Torino, dal 15 al 22 novembre. (Pagina 4)
+
+QUIZ LAMPO　LIGHTNING QUIZ
+
+Read page 1, choose the right answer　Answers on page 8
+
+7. [A2 · Multiple choice] La prima in classifica è... A. la Lazio · B. l'Inter · C. la Roma — key: A (Lazio are top with 29 points)
+
+8. [A2 · Multiple choice] L'11ª giornata ha portato... A. 10 gol · B. 24 gol · C. 31 gol — key: B (24 goals on matchday 11)
+
+9. [A2 · Multiple choice] Atalanta–Inter si gioca... A. a Torino · B. a Milano · C. a Bergamo — key: C (Atalanta v Inter is in Bergamo)
+
+10. [A2 · Multiple choice] La Festa del Torrone chiude... A. a Perugia · B. a Cremona · C. ad Alba — key: B (The torrone festival closes in Cremona)
+
+## Vita
+
+VITA　DAILY LIFE
+
+La Lucerna
+
+LIVELLO A2　Venezia, gli alberi e la musica　Venice, trees and music
+
+Venezia prega, l'Italia pianta alberi: il 21 novembre
+
+Dalla redazione de La Lucerna　Livello di lettura: A2
+
+Sabato 21 novembre Venezia celebra la festa della Madonna della Salute. I veneziani attraversano il ponte votivo sul Canal Grande per arrivare alla Basilica di Santa Maria della Salute: un ponte di barche, costruito per un giorno, per una festa che dura da quasi quattrocento anni.
+
+La festa nasce da un voto del 1630, durante la peste: la città promise una chiesa alla Madonna se la peste finiva. La basilica, disegnata da Baldassarre Longhena, fu costruita tra il 1631 e il 1687. Ancora oggi, il 21 novembre, i fedeli portano candele accese e pregano per la salute della famiglia.
+
+A tavola, il piatto della festa è la castradina: carne di montone salata e affumicata, cotta a lungo con le verze. La tradizione dice che si mangia la sera prima, il 20 novembre, in famiglia. È il piatto della tradizione veneziana.
+
+Lo stesso giorno, il 21 novembre, in tutta Italia è la Giornata nazionale degli alberi: una festa nata nel 1898 come festa dell'albero, oggi una giornata per piantare alberi e per pensare al verde delle città. E domenica 22 novembre è Santa Cecilia, la patrona della musica e dei musicisti.
+
+E LA SETTIMANA SCORSA?
+
+La settimana scorsa si è chiusa con due feste dolci ancora aperte: la Festa del Torrone a Cremona e Eurochocolate a Perugia, che chiudono domenica 22 novembre. E due grandi appuntamenti di sport: le due notti azzurre della Nazionale e l'inizio delle Nitto ATP Finals a Torino.
+
+Anche la manovra, la legge di bilancio, ha fatto un passo: dal 9 al 12 novembre le commissioni Bilancio di Camera e Senato hanno ascoltato enti e istituzioni. Al momento di andare in stampa, il testo non era ancora legge: ne parliamo a pagina 6.
+
+At press time the budget bill was not yet law — see page 6.
+
+LA FRASE PER RICORDARE　REMEMBER
+
+«La salute è la prima ricchezza.» A Venezia, il 21 novembre, la parola «salute» vuol dire salute del corpo e della famiglia.
+
+NOTE　la salute, health · il ponte votivo, the votive bridge · la candela, candle · la peste, the plague · il voto, the vow · piantare, to plant.
+
+Venezia, il Molo e la Basilica della Salute: il 21 novembre i veneziani attraversano il ponte votivo per pregare.
+
+Foto: Canaletto — Wikimedia Commons, dominio pubblico
+
+LO SAPEVI?
+
+21 novembre: Madonna della Salute a Venezia, con il ponte di barche sul Canal Grande.
+
+21 novembre: Giornata nazionale degli alberi in tutta Italia.
+
+22 novembre: Santa Cecilia, patrona della musica e dei musicisti.
+
+E TU?　OVER TO YOU
+
+E tu? Hai mai attraversato un ponte votivo o piantato un albero? Scrivi due frasi in italiano e mandale alla redazione: le migliori escono nel VOL.5 (pagina 7, «Lettere dei lettori»).
+
+Have you ever crossed a votive bridge or planted a tree? Write two sentences in Italian and send them to the editors.
+
+IL 21 NOVEMBRE　21 NOVEMBER
+
+Una festa, una giornata verde
+
+Il 21 novembre è un giorno con due facce: a Venezia si prega per la salute, in tutta Italia si piantano alberi. La prima è una festa antica, nata da un voto del 1630; la seconda è una giornata giovane, nata come festa dell'albero nel 1898 e diventata giornata nazionale con una legge del 2013.
+
+Attenzione alla parola: «salute» vuol dire salute, stare bene. «La Madonna della Salute» è la Madonna che protegge la salute. E «piantare» vuol dire mettere una pianta nella terra.
+
+ESERCIZI　PAGE 2 EXERCISES
+
+Answers on page 8　Levels are mixed — find answers by number
+
+A　CHE COSA SERVE?
+
+Complete the sentences in Italian.
+
+11. [A2 · Complete the sentence] A Venezia il 21 novembre è la festa della Madonna della ___. — key: Salute (Madonna della Salute) [Fill in]
+
+12. [A2 · Complete the sentence] I veneziani attraversano il ___ votivo sul Canal Grande. — key: ponte (the votive bridge) [Fill in]
+
+13. [A2 · Complete the sentence] I fedeli portano ___ accese in basilica. — key: candele (candles (plural)) [Fill in]
+
+14. [A2 · Complete the sentence] Il 21 novembre in tutta Italia si piantano gli ___. — key: alberi (trees (plural)) [Fill in]
+
+15. [A2 · Complete the sentence] Santa Cecilia è la patrona della ___. — key: musica (Santa Cecilia is the patron of music) [Fill in]
+
+B　IL PRESENTE
+
+Complete with the present tense.
+
+16. [A2 · Complete the sentence] I veneziani ___ il ponte votivo. — key: attraversano (attraversare：i veneziani → attraversano) [Fill in]
+
+17. [A2 · Complete the sentence] I fedeli ___ candele accese. — key: portano (portare：i fedeli → portano) [Fill in]
+
+18. [A2 · Complete the sentence] Noi ___ un albero nel giardino della scuola. — key: piantiamo (piantare：noi → piantiamo) [Fill in]
+
+19. [A2 · Complete the sentence] La famiglia ___ per la salute. — key: prega (pregare：la famiglia → prega) [Fill in]
+
+20. [A2 · Complete the sentence] La famiglia ___ la castradina la sera prima. — key: mangia (mangiare：la famiglia → mangia) [Fill in]
+
+C　COMPRENSIONE
+
+Read the page 2 article and choose the right answer.
+
+21. [A2 · Multiple choice] Il ponte votivo è... A. di pietra · B. sul Canal Grande · C. in montagna — key: B (The votive bridge is over the canal)
+
+22. [A2 · Multiple choice] La festa nasce da un voto del... A. 1630 · B. 1687 · C. 1898 — key: A (Madonna della Salute comes from a vow of 1630)
+
+23. [A2 · Multiple choice] La Giornata nazionale degli alberi è il... A. 22 novembre · B. 20 novembre · C. 21 novembre — key: C (The tree-planting day is 21 November)
+
+24. [B1 · Multiple choice] Santa Cecilia è la patrona... A. dei marinai · B. della musica · C. degli alberi — key: B (Santa Cecilia is the patron of music)
+
+D　LE PAROLE DI VENEZIA
+
+25–28. [A2 · Match words] Match words to definitions
+
+25. la salute — stare bene, la prima ricchezza (key c · salute = health, c)
+
+26. il ponte votivo — il ponte di barche per la festa del 21 novembre (key b · ponte votivo = votive bridge, b)
+
+27. la candela — la piccola luce di cera che si accende in chiesa (key d · candela = candle, d)
+
+28. piantare — mettere una pianta nella terra (key a · piantare = to plant, a)
+
+## Cultura
+
+CULTURA　CULTURE
+
+La Lucerna
+
+A2 → B1　Torrone, cioccolato e tartufo　Torrone, chocolate and truffles
+
+Due feste dolci chiudono in bellezza: torrone e cioccolato
+
+Dalla redazione de La Lucerna　Livello di lettura: A2 → B1
+
+Domenica 22 novembre chiude a Cremona la Festa del Torrone, la 29ª edizione, dal 7 al 22 novembre, con il tema «Il Confine»: sedici giorni, tre weekend, un solo dolce protagonista. Alle 11, al Palatorrone, il Torrone d'Oro va al produttore musicale Davide Simonetta, nato a Cremona.
+
+Il momento più atteso è il pomeriggio: alle 16 parte il corteo storico, con oltre centocinquanta figuranti in costumi rinascimentali, e alle 17, in piazza del Comune, arriva la rievocazione del matrimonio tra Bianca Maria Visconti e Francesco Sforza. Poi sbandieratori e giochi di fuoco, fino alle 18, quando al Palatorrone c'è il gran finale: «Il torrone va in brodo».
+
+La leggenda dice che il torrone nacque proprio per quelle nozze, il 25 ottobre 1441, con la forma del Torrazzo, la torre di Cremona: un dolce di albumi, zucchero, mandorle e miele.
+
+Lo stesso giorno, domenica 22 novembre, chiude a Perugia Eurochocolate, la 32ª edizione, dal 13 al 22 novembre, con il titolo «Fate dolci». La Regione ospite è la Calabria, con bergamotto, cedro, peperoncino e fichi; l'ospite del gran finale è il maestro Iginio Massari. E il tartufo bianco non va in vacanza: ad Alba, in Piemonte, la Fiera del Tartufo Bianco continua fino al 6 dicembre.
+
+NOTE　il torrone, nougat · il corteo, the parade · il figurante, performer / extra · la rievocazione, historical re-enactment · lo sbandieratore, flag-thrower.
+
+IL TORRAZZO E IL TORRONE
+
+Il Torrazzo di Cremona è il campanile più alto d'Italia. La leggenda lo lega al torrone: un dolce nato da un matrimonio e diventato il simbolo della città. A Cremona, per sedici giorni, il torrone è dappertutto: nelle piazze, nei laboratori, nelle maxi costruzioni.
+
+Il Torrazzo di Cremona: secondo la leggenda, il torrone ha la forma di questa torre — ed è nato per un matrimonio del 1441.
+
+Foto: Wikimedia Commons — CC0
+
+IL WEEKEND DOLCE
+
+Cremona, dom 22 novembre: corteo alle 16, rievocazione alle 17, gran finale alle 18.
+
+Perugia, dom 22 novembre: Eurochocolate chiude con Iginio Massari.
+
+Alba: la Fiera del Tartufo Bianco continua fino al 6 dicembre.
+
+E TU?　OVER TO YOU
+
+E tu? Preferisci il torrone o il cioccolato? Scrivi due frasi in italiano e mandale alla redazione.
+
+Do you prefer torrone or chocolate? Write two sentences and send them in.
+
+ESERCIZI　PAGE 3 EXERCISES
+
+Answers on page 8　Levels are mixed — find answers by number
+
+A　COMPRENSIONE
+
+Read the page 3 article and choose the right answer.
+
+29. [A2 · Multiple choice] La Festa del Torrone chiude... A. il 15 novembre · B. il 22 novembre · C. il 6 dicembre — key: B (The torrone festival closes on Sunday 22 November)
+
+30. [A2 · Multiple choice] Eurochocolate è alla sua... A. 29ª edizione · B. 67ª edizione · C. 32ª edizione — key: C (The chocolate festival is in its 32nd edition)
+
+31. [A2 · Multiple choice] La rievocazione del matrimonio è... A. alle 11 · B. alle 17 · C. alle 20 — key: B (The re-enactment is at 17:00 in Piazza del Comune)
+
+32. [B1 · Multiple choice] Il titolo di Eurochocolate 2026 è... A. «Fate dolci» · B. «Il Confine» · C. «Finestrini» — key: A (This year's Eurochocolate theme is “Fate dolci”)
+
+33. [B1 · Multiple choice] La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. il 6 dicembre · C. l'8 novembre — key: B (The Alba truffle fair runs to 6 December)
+
+B　LE PAROLE DEL TESTO
+
+Fill in with the words in the box.
+
+torrone · cioccolato · corteo · rievocazione · tartufo · mandorle
+
+34. [A2 · Complete the sentence] A Cremona si festeggia il ___. — key: torrone (torrone = nougat) [Fill in]
+
+35. [A2 · Complete the sentence] A Perugia si festeggia il ___. — key: cioccolato (cioccolato = chocolate) [Fill in]
+
+36. [B1 · Complete the sentence] Alle 16 parte il ___ storico in centro. — key: corteo (corteo = parade) [Fill in]
+
+37. [A2 · Complete the sentence] Il torrone è fatto di ___ e miele. — key: mandorle (mandorle = almonds (plural)) [Fill in]
+
+38. [B1 · Complete the sentence] Alle 17 c'è la ___ del matrimonio del 1441. — key: rievocazione (rievocazione = historical re-enactment) [Fill in]
+
+39. [A2 · Complete the sentence] Il ___ bianco è il fungo più prezioso d'Italia. — key: tartufo (tartufo = truffle) [Fill in]
+
+C　IL PASSATO PROSSIMO
+
+Complete with the passato prossimo — watch the auxiliaries avere / essere.
+
+40. [B1 · Complete the sentence] Il corteo ___ (arrivare) in piazza domenica. — key: è arrivato (arrivare takes essere: è arrivato) [Fill in]
+
+41. [B1 · Complete the sentence] Noi ___ (assaggiare) il torrone a Cremona. — key: abbiamo assaggiato (assaggiare takes avere: abbiamo assaggiato) [Fill in]
+
+42. [B1 · Complete the sentence] I visitatori ___ (andare) a Perugia per Eurochocolate. — key: sono andati (andare takes essere, plural sono andati) [Fill in]
+
+43. [B1 · Complete the sentence] Perugia ___ (chiudere) Eurochocolate domenica. — key: ha chiuso (chiudere takes avere: ha chiuso) [Fill in]
+
+D　COSTRUISCI LE FRASI
+
+Put the words in the right order.
+
+44. [B1 · Make sentences] Eurochocolate / chiude / a Perugia / il 22 novembre → ___ — key: Eurochocolate chiude a Perugia il 22 novembre. (Subject + verb + place + date) [Make sentences]
+
+45. [A2 · Make sentences] a Cremona / il torrone / è il re → ___ — key: A Cremona il torrone è il re. (Place first, subject after) [Make sentences]
+
+46. [B1 · Make sentences] la fiera / dura / fino al 6 dicembre → ___ — key: La fiera dura fino al 6 dicembre. (dura fino a = lasts until) [Make sentences]
+
+## Sport
+
+SPORT　SPORT
+
+La Lucerna
+
+LIVELLO B1　La Serie A e il tennis　Serie A and tennis
+
+Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornata
+
+Dalla redazione sportiva de La Lucerna　Livello di lettura: B1
+
+La Lazio è ancora prima in Serie A: il pareggio 1–1 a Napoli vale 29 punti, e la squadra di Gattuso è ancora imbattuta dopo 11 giornate. L'Inter vince 2–0 con il Como e sale a 28 punti, a un punto dalla vetta; la Roma batte 3–0 il Sassuolo e arriva a 27, con il miglior attacco del torneo, 31 gol.
+
+Il Milan vince 2–1 a Genova e prende il quarto posto, con 24 punti, davanti al Como, fermo a 23. Fiorentina e Juventus chiudono 2–2 al Franchi: i viola restano a 9 punti. In coda, l'Udinese perde 2–1 a Venezia ed è ultima, con 5 punti.
+
+La Serie A riparte sabato 21 novembre con la 12ª giornata, che si chiude lunedì 23: sabato la Lazio capolista gioca in casa con il Lecce, domenica sera, alle 20.45, c'è il big match Atalanta–Inter, a Bergamo. Lunedì sera, alle 20.45, Monza–Fiorentina chiude la giornata.
+
+Domenica 22 novembre si gioca anche la finale delle Nitto ATP Finals a Torino: otto campioni, due gironi e poi le semifinali. Il numero uno è Alexander Zverev, con Carlos Alcaraz tra i favoriti; l'Italia ha Flavio Cobolli, al debutto. Jannik Sinner, vincitore del 2025, non gioca: è fuori per infortunio.
+
+E la Nazionale? Le due notti azzurre — giovedì 12 novembre con la Francia e domenica 15 novembre con il Belgio — si sono giocate prima di questa edizione: i risultati e la classifica finale del girone saranno nel prossimo numero.
+
+NOTE　la vetta, the top · imbattuto, unbeaten · il big match, the big match · il girone, the group · il debutto, the debut.
+
+Il tennis di cent'anni fa: oggi le Finals si giocano a Torino, all'Inalpi Arena.
+
+Foto: Wikimedia Commons — dominio pubblico
+
+LA CLASSIFICA　DOPO 11 GIORNATE
+
+1. Lazio — 29 punti
+
+2. Inter — 28 punti
+
+3. Roma — 27 punti
+
+4. Milan — 24 punti
+
+5. Como — 23 punti
+
+20. Udinese — 5 punti
+
+La Lazio è ancora imbattuta; la Roma ha il miglior attacco, 31 gol.
+
+E TU?　OVER TO YOU
+
+E tu? Quale partita guardi domenica sera? Scrivi due frasi in italiano.
+
+Which match will you watch on Sunday evening? Write two sentences in Italian.
+
+I RISULTATI DELL'11ª GIORNATA　MATCHDAY 11 RESULTS (6–8 November)
+
+VEN 6.11
+
+Venezia – Udinese 2–1
+
+SAB 7.11
+
+Cagliari – Frosinone 1–0
+
+Torino – Lecce 1–1
+
+SAB 7.11
+
+Parma – Bologna 1–2
+
+Roma – Sassuolo 3–0
+
+DOM 8.11
+
+Napoli – Lazio 1–1
+
+Genoa – Milan 1–2　Monza – Atalanta 0–1
+
+DOM 8.11
+
+Inter – Como 2–0
+
+Fiorentina – Juventus 2–2
+
+La 12ª giornata si gioca dal 21 al 23 novembre: Atalanta – Inter, ore 20.45, domenica 22 novembre, a Bergamo. I risultati delle due notti azzurre di Nations League saranno nel prossimo numero.
+
+ESERCIZI　PAGE 4 EXERCISES
+
+Answers on page 8　Levels are mixed — find answers by number
+
+A　COMPRENSIONE
+
+Read the page 4 article and choose the right answer.
+
+47. [B1 · Multiple choice] La prima in classifica ha... A. 28 punti · B. 29 punti · C. 27 punti — key: B (Lazio lead with 29 points)
+
+48. [B1 · Multiple choice] L'Inter vince 2–0 con... A. la Roma · B. il Como · C. il Milan — key: B (Inter beat Como 2–0)
+
+49. [B1 · Multiple choice] Il miglior attacco del torneo è... A. della Roma · B. della Lazio · C. del Milan — key: A (Roma have the best attack, 31 goals)
+
+50. [B1 · Multiple choice] L'ultima in classifica è... A. il Monza · B. il Venezia · C. l'Udinese — key: C (Udinese are bottom with 5 points)
+
+51. [B1 · Multiple choice] Atalanta–Inter si gioca... A. sabato · B. domenica sera · C. lunedì — key: B (The big match is in Bergamo on Sunday evening)
+
+B　LE PAROLE
+
+52–55. [B1 · Match words] Match words to definitions
+
+52. la vetta — il primo posto in classifica, la cima (key d · vetta = the top, d)
+
+53. imbattuto — che non ha mai perso, ancora senza sconfitte (key b · imbattuto = unbeaten, b)
+
+54. il girone — il gruppo di squadre che giocano tra loro (key c · girone = group, c)
+
+55. il debutto — la prima volta in un torneo importante (key a · debutto = debut, a)
+
+C　I COMPARATIVI
+
+Fill in with the comparative (see the league table).
+
+56. [B1 · Complete the sentence] La Lazio ha ___ punti dell'Inter. (molti) — key: più (Lazio have more points than Inter: più) [Fill in]
+
+57. [B1 · Complete the sentence] L'Udinese ha ___ punti della Lazio. (pochi) — key: meno (Udinese have fewer points than Lazio: meno) [Fill in]
+
+58. [B1 · Complete the sentence] Per i tifosi, la serata di domenica è la serata ___ del weekend. (bella) — key: più bella (più + bella: Sunday evening is the finest (a judgement)) [Fill in]
+
+59. [B2 · Sentence patterns] La Lazio gioca bene. → La Lazio gioca ___ (bene). — key: meglio (The comparative of bene is the irregular meglio) [Fill in]
+
+D　IL PASSATO DELLO SPORT
+
+Complete with the passato prossimo.
+
+60. [B1 · Complete the sentence] L'Inter ___ (vincere) 2–0 con il Como. — key: ha vinto (vincere：ha vinto) [Fill in]
+
+61. [B1 · Complete the sentence] La Lazio ___ (pareggiare) 1–1 a Napoli. — key: ha pareggiato (pareggiare：ha pareggiato) [Fill in]
+
+62. [B2 · Complete the sentence] I tifosi ___ (arrivare) allo stadio alle cinque. — key: sono arrivati (arrivare takes essere, plural sono arrivati) [Fill in]
+
+63. [B1 · Complete the sentence] Noi ___ (guardare) la partita in televisione. — key: abbiamo guardato (guardare takes avere: abbiamo guardato) [Fill in]
+
+64. [B1 · Complete the sentence] Il portiere ___ (prendere) un gol al 90°. — key: ha preso (The participle of prendere is preso: ha preso) [Fill in]
+
+## Giovani
+
+GIOVANI　YOUTH
+
+La Lucerna
+
+LIVELLO B1　Leggere, guardare, giocare　Reading, watching, playing
+
+I giovani leggono: BookCity arriva, il cinema torna a Torino
+
+Dalla redazione de La Lucerna　Livello di lettura: B1
+
+Dal 23 al 29 novembre, a Milano, torna BookCity, la festa dei libri e della lettura: la quindicesima edizione, con il tema «Il senno sulla Luna», ispirato all'Orlando furioso di Ludovico Ariosto: sette giorni di libri, ragioni e follie, con 1.360 eventi, 2.487 protagonisti e 1.164 libri presentati, in 443 sedi.
+
+L'apertura è lunedì 23 novembre, alle 20, al Teatro Dal Verme, con lo scrittore statunitense Colson Whitehead, due volte vincitore del Premio Pulitzer. Ma l'anteprima è già domenica 22 novembre, alle 16, alla Fondazione Luigi Rovati, con Edmund de Waal.
+
+E martedì 24 novembre, a Torino, apre il Torino Film Festival, la 44ª edizione, fino al 2 dicembre: nove giorni di film, incontri e anteprime per chi ama il cinema. A Milano, invece, domenica 22 novembre si chiude il Filmmaker Festival, il festival del cinema indipendente, aperto dal 14 novembre.
+
+Nel weekend, poi, la scelta è dolce e azzurra: Eurochocolate a Perugia e la Festa del Torrone a Cremona (pagina 3), e domenica sera Atalanta–Inter (pagina 4). Il consiglio della redazione: un libro in mano, un film negli occhi — e domenica sera, la grande partita.
+
+IL PIANO DELLA SETTIMANA
+
+1. Venerdì: a Perugia, «I tesori della Calabria» a Eurochocolate (Friday: the Calabria special at Eurochocolate in Perugia)
+
+2. Sabato: Madonna della Salute a Venezia (Saturday: Madonna della Salute in Venice)
+
+3. Domenica: chiude il Filmmaker Festival (Sunday: the Filmmaker Festival closes)
+
+4. Domenica: Atalanta–Inter, ore 20.45 (Sunday 20:45: Atalanta v Inter)
+
+5. Lunedì: apre BookCity a Milano (Monday: BookCity opens in Milan)
+
+NOTE　l'anteprima, preview · il protagonista, protagonist / guest · la sede, venue · l'incontro, meeting · indipendente, independent.
+
+Una giovane lettrice, in un quadro del 1868: leggere è il primo passo per imparare una lingua — e BookCity è la festa dei lettori.
+
+Foto: Jean-Baptiste-Camille Corot — Wikimedia Commons, dominio pubblico
+
+I GIOVANI IN NUMERI
+
+BookCity, Milano: dal 23 al 29 novembre, 15ª edizione, tema «Il senno sulla Luna».
+
+Torino Film Festival: dal 24 novembre al 2 dicembre, 44ª edizione.
+
+Filmmaker Festival, Milano: chiude domenica 22 novembre.
+
+E TU?　OVER TO YOU
+
+E tu? Preferisci un libro, un film o una partita? Scrivi due frasi in italiano.
+
+Do you prefer a book, a film or a match? Write two sentences and send them in.
+
+ESERCIZI　PAGE 5 EXERCISES
+
+Answers on page 8　Levels are mixed — find answers by number
+
+A　COMPRENSIONE
+
+Read the page 5 article and choose the right answer.
+
+65. [B1 · Multiple choice] BookCity è alla sua... A. 14ª edizione · B. 15ª edizione · C. 32ª edizione — key: B (BookCity is in its 15th edition)
+
+66. [B1 · Multiple choice] BookCity comincia... A. il 20 novembre · B. il 23 novembre · C. il 29 novembre — key: B (BookCity starts on 23 November)
+
+67. [B1 · Multiple choice] Il tema «Il senno sulla Luna» viene da... A. Dante · B. Manzoni · C. Ariosto — key: C (This year's theme comes from Ariosto)
+
+68. [B1 · Multiple choice] Il Torino Film Festival è alla sua... A. 44ª edizione · B. 15ª edizione · C. 29ª edizione — key: A (The Torino Film Festival is in its 44th edition)
+
+69. [B1 · Multiple choice] Il Filmmaker Festival chiude... A. a Milano · B. a Torino · C. a Cuneo — key: A (The Filmmaker Festival closes in Milan)
+
+B　LE PAROLE DEL TESTO
+
+Fill in with the words in the box. Note: some words need the plural.
+
+anteprima · protagonista · sede · incontro · indipendente · lettrice
+
+70. [B1 · Complete the sentence] BookCity ha 2.487 ___. — key: protagonisti (protagonisti = guests (plural)) [Fill in]
+
+71. [B1 · Complete the sentence] Il Filmmaker Festival è un festival del cinema ___. — key: indipendente (indipendente = independent) [Fill in]
+
+72. [B1 · Complete the sentence] Domenica c'è l'___ di BookCity a Milano. — key: anteprima (anteprima = preview) [Fill in]
+
+73. [B1 · Complete the sentence] BookCity ha 443 ___ a Milano e dintorni. — key: sedi (sedi = venues (plural)) [Fill in]
+
+74. [B1 · Complete the sentence] La giovane ___ del quadro legge in silenzio. — key: lettrice (lettrice = woman reader) [Fill in]
+
+75. [B1 · Complete the sentence] Al festival ci sono tanti ___ con gli autori. — key: incontri (incontri = meetings (plural)) [Fill in]
+
+C　IL FUTURO
+
+Complete with the futuro semplice.
+
+76. [B1 · Complete the sentence] Lunedì noi ___ (andare) a BookCity a Milano. — key: andremo (andare, future, noi: andremo) [Fill in]
+
+77. [B2 · Complete the sentence] A Milano ___ (esserci) tanto cinema giovane. — key: ci sarà (esserci, future: ci sarà (there will be)) [Fill in]
+
+78. [B1 · Complete the sentence] Domenica noi ___ (guardare) Atalanta–Inter. — key: guarderemo (guardare, future, noi: guarderemo) [Fill in]
+
+79. [B2 · Complete the sentence] BookCity ___ (durare) fino al 29 novembre. — key: durerà (durare, future: durerà) [Fill in]
+
+D　VERO O FALSO?
+
+80. [B1 · True or false] BookCity ha 1.360 eventi. Vero o falso? — key: Vero (BookCity has 1,360 events) [True or false]
+
+81. [B1 · True or false] Il Torino Film Festival apre il 24 novembre. Vero o falso? — key: Vero (The Torino Film Festival opens on 24 November) [True or false]
+
+82. [B2 · True or false] BookCity apre il 22 novembre. Vero o falso? — key: Falso (BookCity opening on 22 November is false) [True or false]
+
+## Approfondimento
+
+APPROFONDIMENTO　IN DEPTH
+
+La Lucerna
+
+LIVELLO B2　La manovra in Parlamento　The budget bill in Parliament
+
+La manovra va in Parlamento: audizioni, emendamenti, voto
+
+Dalla redazione de La Lucerna　Livello di lettura: B2　La legge di bilancio e i numeri
+
+La manovra è la legge di bilancio: il documento che dice come lo Stato spende e dove trova i soldi. Il Documento programmatico di bilancio (DPB), mandato a Bruxelles il 15 ottobre, prevede per il 2027 una crescita del +0,8% e un deficit del 3,4% del PIL. Il 28 ottobre il Consiglio dei ministri ha approvato il disegno di legge: circa 26 miliardi di euro, secondo le ricostruzioni dei giornali.
+
+Dal 9 al 12 novembre, le commissioni Bilancio di Camera e Senato ascoltano enti e istituzioni: quattro giorni di audizioni, fino a giovedì 12 novembre, con la Banca d'Italia, l'Ufficio parlamentare di bilancio e il ministro Giorgetti. Il termine per presentare gli emendamenti è martedì 17 novembre, alle 18.
+
+Attenzione, però: approvato dal governo non vuol dire già legge. Il Parlamento decide, non il governo da solo. Il testo, alla Camera con il numero C. 3174-bis, deve essere discusso e votato dalle Camere entro il 31 dicembre, e il testo può ancora cambiare. Chi legge i giornali trova cifre diverse per le coperture — circa 5 miliardi dal settore finanziario, banche e assicurazioni, secondo le prime ricostruzioni — perché il testo definitivo si conosce solo alla fine dell'iter.
+
+Tra le misure raccontate dai giornali: l'allargamento del secondo scaglione Irpef al 33%, da 50 mila a 55 mila euro, e più soldi per la sanità. Sono misure raccontate, non ancora votate: il lettore saggio distingue tra «il governo propone» e «la legge dice».
+
+At press time Parliament had not yet voted: this issue gives only dates, DPB figures and reported measures, no vote outcome.
+
+NOTE　la manovra, the budget bill · l'audizione, hearing · l'emendamento, amendment · il deficit, deficit · la copertura, funding · lo scaglione, tax bracket · l'iter, parliamentary process.
+
+LA STRADA DELLA MANOVRA
+
+28 OTT.
+
+Il Consiglio dei ministri approva il disegno di legge, circa 26 miliardi.
+
+9–12 NOV.
+
+Audizioni in commissione Bilancio: si chiude giovedì 12 con Giorgetti.
+
+MAR 17 NOV.
+
+Scade il termine per gli emendamenti, alle ore 18.
+
+31 DIC.
+
+Le Camere devono votare il testo: può ancora cambiare.
+
+LEGGERE I NUMERI
+
+Davanti a una cifra della manovra, fai tre domande: chi la pubblica? Quando? È una proposta del governo o una legge votata? Senza queste tre risposte, un numero dice poco.
+
+LE MINIME DI ESEMPIO　PRACTICE MINIMA (DATI INVENTATI PER L'ESERCIZIO)
+
+MINIME DI ESEMPIO　gradi, dati inventati
+
+Torino 5°
+
+Milano 6°
+
+Bologna 7°
+
+Roma 11°
+
+Napoli 13°
+
+Questi numeri sono inventati per l'esercizio: servono per imparare a leggere un grafico, NON sono previsioni reali.
+
+PROPOSTA ≠ LEGGE
+
+«Il governo propone» ≠ «la legge dice»
+
+Una cifra raccontata ≠ una cifra votata
+
+Il testo definitivo si conosce solo alla fine dell'iter in Parlamento.
+
+Le cifre della manovra si aggiornano con il dibattito: controllale prima di citarle.
+
+ESERCIZI　PAGE 6 EXERCISES
+
+Answers on page 8　Levels are mixed — find answers by number
+
+A　LEGGERE IL GRAFICO
+
+Look at the practice chart above and choose the right answer.
+
+83. [B2 · Multiple choice] La città più fredda del grafico è... A. Milano · B. Torino · C. Napoli — key: B (The coldest in the sample data is Turin, 5°)
+
+84. [B2 · Multiple choice] La città più calda del grafico è... A. Napoli · B. Roma · C. Bologna — key: A (The warmest in the sample data is Naples, 13°)
+
+85. [B2 · Multiple choice] La differenza tra Napoli (13°) e Roma (11°) è... A. 3° · B. 2° · C. 4° — key: B (13 − 11 = 2)
+
+86. [B2 · Multiple choice] Milano (6°) e Bologna (7°) insieme fanno... A. 13° · B. 12° · C. 14° — key: A (6 + 7 = 13)
+
+87. [B2 · Multiple choice] I numeri del grafico sono... A. previsioni reali · B. dati inventati per l'esercizio · C. temperature di ieri — key: B (The chart figures are practice data, not real forecasts)
+
+88. [B2 · Multiple choice] «Il governo propone»... A. non è ancora legge · B. è già legge · C. è un errore — key: A (A government proposal is not yet law)
+
+B　COMPRENSIONE
+
+89. [B2 · Multiple choice] La manovra è... A. una festa · B. la legge di bilancio · C. un film — key: B (The bill is the budget law)
+
+90. [B2 · Multiple choice] Il termine per gli emendamenti è... A. il 17 novembre · B. il 9 novembre · C. il 31 dicembre — key: A (The amendment deadline is 17 November, 18:00)
+
+91. [B2 · Multiple choice] Il DPB è stato mandato a Bruxelles... A. il 15 ottobre · B. il 19 ottobre · C. il 28 ottobre — key: A (The DPB went to Brussels on 15 October)
+
+92. [B2 · Multiple choice] La crescita prevista per il 2027 è... A. +3,4% · B. +0,8% · C. +5% — key: B (Growth forecast for 2027: +0.8%)
+
+C　IL CONGIUNTIVO
+
+93. [B2 · Complete the sentence] È probabile che domani ___ (piovere) in pianura. — key: piova (è probabile che + subjunctive piova) [Fill in]
+
+94. [B2 · Complete the sentence] È possibile che in montagna ___ (nevicare) nel weekend. — key: nevichi (è possibile che + subjunctive nevichi) [Fill in]
+
+95. [B2 · Complete the sentence] Bisogna che i lettori ___ (controllare) il testo più recente. — key: controllino (bisogna che + subjunctive controllino) [Fill in]
+
+96. [B2 · Complete the sentence] È importante che la cifra ___ (essere) chiara per tutti. — key: sia (è importante che + subjunctive sia) [Fill in]
+
+D　LE PAROLE DELLA MANOVRA
+
+Fill in with the words in the box: manovra · deficit · copertura · scaglione
+
+97. [B2 · Complete the sentence] La ___ è la legge di bilancio. — key: manovra (manovra = budget bill) [Fill in]
+
+98. [B2 · Complete the sentence] Il ___ previsto per il 2027 è del 3,4% del PIL. — key: deficit (deficit = deficit) [Fill in]
+
+99. [B2 · Complete the sentence] Ogni misura deve avere la sua ___. — key: copertura (copertura = funding) [Fill in]
+
+100. [B2 · Complete the sentence] Il secondo ___ Irpef si allarga, secondo le ricostruzioni. — key: scaglione (scaglione = tax bracket) [Fill in]
+
+## Lingua
+
+LINGUA　LANGUAGE
+
+La Lucerna
+
+Language focus　Tre livelli, tre strumenti　Three levels, three tools
+
+A2　IL FUTURO
+
+Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il torrone, guarderemo Atalanta–Inter. Le forme sono regolari: andare → andrò, assaggiare → assaggerò, guardare → guarderò.
+
+E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è leggere, irregolare al futuro: leggerò.
+
+Talk about plans in the future: andremo, assaggeremo, guarderemo, leggeremo.
+
+101. [A2 · Complete the sentence] Domenica noi ___ (andare) a Cremona. — key: andremo (andare, future, noi: andremo) [Fill in]
+
+102. [A2 · Complete the sentence] Noi ___ (assaggiare) il torrone. — key: assaggeremo (assaggiare, future, noi: assaggeremo) [Fill in]
+
+103. [A2 · Complete the sentence] Domenica sera noi ___ (guardare) Atalanta–Inter. — key: guarderemo (guardare, future, noi: guarderemo) [Fill in]
+
+104. [A2 · Multiple choice] A BookCity io... A. leggo ora · B. leggerò lunedì · C. leggevo ieri — key: B (leggerò is the future of leggere)
+
+B1　IL PASSATO PROSSIMO
+
+Per raccontare il weekend usiamo il passato prossimo: ausiliare + participio. Con essere il participio cambia: è partito (il corteo), è finita (la festa).
+
+Con avere: abbiamo visto, hanno comprato. Il participio con avere non cambia.
+
+For the past use the passato prossimo: partire/finire take essere, and the participle agrees; with avere it never changes.
+
+105. [B1 · Complete the sentence] Il corteo ___ (partire) alle 16. — key: è partito (partire takes essere: è partito) [Fill in]
+
+106. [B1 · Complete the sentence] Domenica noi ___ (vedere) gli sbandieratori. — key: abbiamo visto (vedere takes avere: abbiamo visto) [Fill in]
+
+107. [B1 · Complete the sentence] I visitatori ___ (comprare) il torrone. — key: hanno comprato (comprare takes avere: hanno comprato) [Fill in]
+
+108. [B1 · Multiple choice] La Festa del Torrone ___ domenica. A. è finita · B. ha finito · C. sono finite — key: A (finire takes essere: è finita)
+
+B2　IL CONGIUNTIVO
+
+Con «è probabile che», «è possibile che» e «bisogna che» usiamo il congiuntivo: piova (piovere), nevichi (nevicare), leggano (leggere). È la grammatica della probabilità, la stessa di pagina 6.
+
+Ma dopo «so che» e «i giornali scrivono che» resta l'indicativo: il sole torna, la Festa del Torrone è a Cremona. Opinioni sì, fatti con l'indicativo.
+
+After è probabile che / è possibile che / bisogna che use the subjunctive; after so che / scrivono che use the indicative.
+
+109. [B2 · Complete the sentence] È probabile che domenica ___ (piovere) a Bergamo. — key: piova (è probabile che + subjunctive piova) [Fill in]
+
+110. [B2 · Complete the sentence] È possibile che stasera ___ (nevicare) sulle Alpi. — key: nevichi (è possibile che + subjunctive nevichi) [Fill in]
+
+111. [B2 · Complete the sentence] Bisogna che i lettori ___ (leggere) il testo finale. — key: leggano (bisogna che + subjunctive leggano) [Fill in]
+
+112. [B2 · Multiple choice] «So che il sole...» A. torni · B. torna · C. tornare — key: B (so che + indicative torna)
+
+Dante Alighieri, il padre della lingua italiana.
+
+Foto: Met Museum — CC0
+
+ERRORI TIPICI　COMMON MISTAKES
+
+«La Lazio hanno 29 punti.»
+
+→ «La Lazio ha 29 punti.» La Lazio è singolare, il verbo è singolare.
+
+La Lazio is singular, so is the verb.
+
+«È probabile che la Lazio vince.»
+
+→ «È probabile che la Lazio vinca.» Dopo è probabile che serve il congiuntivo.
+
+Use the subjunctive after è probabile che.
+
+«Ieri ho andato a Cremona.»
+
+→ «Ieri sono andato a Cremona.» Andare vuole essere, non avere.
+
+andare takes essere as auxiliary.
+
+«Il torrone sono dolce.»
+
+→ «Il torrone è dolce.» Torrone è singolare, il verbo è singolare.
+
+Torrone is singular, so is the verb.
+
+LA PAROLA　WORD OF THE WEEK
+
+« la vetta » è il primo posto in classifica: la Lazio è in vetta con 29 punti, l'Inter e la Roma inseguono. Questa settimana vive a pagina 1 e a pagina 4.
+
+vetta = the top. See pages 1 and 4 this week: Lazio lead with 29 points.
+
+LETTERE DEI LETTORI
+
+«Ciao! Questa settimana assaggio il torrone e guardo Atalanta–Inter. E voi? Scriveteci!» — esempio della redazione
+
+Editor's sample, not a real letter. No real letters or best page-8 writing had arrived; the promise carries to VOL.5.
+
+FRASI DELLA SETTIMANA　PHRASES OF THE WEEK (VERBATIM FROM THIS ISSUE)
+
+«La Lazio resta in vetta»
+
+Lazio stay top of the table. (Pagina 1)
+
+«ventiquattro gol in dieci partite»
+
+Twenty-four goals in ten matches. (Pagina 1)
+
+«il ponte votivo sul Canal Grande»
+
+The votive bridge over the Grand Canal. (Pagina 2)
+
+«oltre centocinquanta figuranti in costumi rinascimentali»
+
+Over 150 performers in Renaissance dress. (Pagina 3)
+
+«la squadra di Gattuso è ancora imbattuta dopo 11 giornate»
+
+Gattuso's team are still unbeaten after 11 matchdays. (Pagina 4)
+
+«sette giorni di libri, ragioni e follie»
+
+Seven days of books, reason and madness. (Pagina 5)
+
+«il testo può ancora cambiare»
+
+The text may still change. (Pagina 6)
+
+«approvato dal governo non vuol dire già legge»
+
+Government approval does not mean it is already law. (Pagina 6)
+
+LA PROSSIMA SETTIMANA　NEXT WEEK (VOL.5)
+
+Lunedì 23 novembre apre BookCity a Milano; la 12ª giornata si chiude con i risultati; le due notti azzurre si raccontano con i risultati. E poi: le vostre lettere vere e i testi migliori della pagina 8. A lunedì!
+
+## Valutazione e risposte
+
+VALUTAZIONE E RISPOSTE　TEST AND ANSWERS
+
+La Lucerna
+
+Page 8　La grande prova della settimana + tutte le risposte
+
+A　COMPLETA LA CRONACA
+
+113. [B1 · Cloze choice] La prima in classifica è la ___. (A. Roma · B. Lazio) — key: B (Lazio)
+
+114. [B1 · Cloze choice] L'11ª giornata ha portato ___ gol. (A. 24 · B. 31) — key: A (24 goals on matchday 11)
+
+115. [B1 · Cloze choice] Atalanta–Inter si gioca a ___. (A. Bergamo · B. Torino) — key: A (Atalanta v Inter is in Bergamo)
+
+116. [B1 · Cloze choice] La Festa del Torrone chiude domenica a ___. (A. Cremona · B. Perugia) — key: A (The torrone festival closes on Sunday)
+
+117. [B1 · Cloze choice] Eurochocolate chiude a ___. (A. Cremona · B. Perugia) — key: B (The chocolate festival is in Perugia)
+
+118. [B1 · Cloze choice] La Madonna della Salute si celebra il ___ novembre. (A. 20 · B. 21) — key: B (Madonna della Salute is on 21 November)
+
+119. [B1 · Cloze choice] BookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre) — key: A (BookCity opens on 23 November)
+
+120. [B1 · Cloze choice] Il Torino Film Festival apre... A. il 20 novembre · B. il 24 novembre — key: B (The Torino Film Festival opens on 24 November)
+
+B　DOMANDE GENERALI
+
+121. [A2 · Multiple choice] La prima in classifica ha... A. 28 punti · B. 29 punti · C. 27 punti — key: B (Lazio are top with 29 points)
+
+122. [A2 · Multiple choice] L'Inter vince 2–0 con... A. la Roma · B. il Como · C. il Milan — key: B (Inter beat Como 2–0)
+
+123. [A2 · Multiple choice] Eurochocolate è alla sua... A. 32ª edizione · B. 29ª edizione · C. 15ª edizione — key: A (The chocolate festival is in its 32nd edition)
+
+124. [B1 · Multiple choice] L'ultima in classifica è... A. il Monza · B. il Venezia · C. l'Udinese — key: C (Udinese are bottom with 5 points)
+
+125. [B1 · Multiple choice] La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. l'8 novembre · C. il 6 dicembre — key: C (The Alba truffle fair runs to 6 December)
+
+126. [B1 · Multiple choice] Il termine per gli emendamenti è... A. il 17 novembre · B. il 9 novembre · C. il 31 dicembre — key: A (The amendment deadline is 17 November, 18:00)
+
+127. [B2 · Multiple choice] «Il governo propone»... A. è già legge · B. non è ancora legge · C. è un errore — key: B (A government proposal is not yet law)
+
+128. [B1 · Multiple choice] La festa della Salute nasce da un voto del... A. 1687 · B. 1630 · C. 1898 — key: B (Madonna della Salute comes from a vow of 1630)
+
+C　LEGGI E RISPONDI
+
+Giulia vive a Venezia: sabato 21 novembre attraversa il ponte votivo e porta una candela in basilica. Paolo vive a Cremona: domenica 22 novembre guarda il corteo del Torrone e assaggia il dolce con la sua famiglia. Domenica sera, Giulia e Paolo guardano Atalanta–Inter: è la festa del torrone, ma il calcio non si ferma.
+
+129. [A2 · Multiple choice] Chi va alla Madonna della Salute? A. Paolo · B. Giulia · C. i due — key: B (Giulia goes to Madonna della Salute on Saturday)
+
+130. [A2 · Multiple choice] Paolo, domenica, guarda... A. il corteo del Torrone · B. il ponte votivo · C. lo stadio — key: A (Paolo watches the torrone parade on Sunday)
+
+131. [A2 · Multiple choice] La candela è portata da... A. Paolo · B. Giulia · C. nessuno — key: B (The candle is brought by Giulia)
+
+132. [A2 · Multiple choice] Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo» — key: A (The title sums up two cities, two festivals)
+
+D　COSTRUISCI LE FRASI
+
+133. [A2 · Make sentences] domenica / è / il 22 novembre → ___ — key: Domenica è il 22 novembre. (Time word first) [Make sentences]
+
+134. [B1 · Make sentences] Eurochocolate / chiude / a Perugia / il 22 novembre → ___ — key: Eurochocolate chiude a Perugia il 22 novembre. (Subject + verb + place + date) [Make sentences]
+
+135. [B1 · Make sentences] a che ora / gioca / la Lazio / ? → ___ — key: A che ora gioca la Lazio? (Question phrase first) [Make sentences]
+
+136. [B1 · Make sentences] il torrone / si assaggia / a Cremona → ___ — key: Il torrone si assaggia a Cremona. (Subject + verb + place) [Make sentences]
+
+E　TRADUCI
+
+137. [A2 · Translate] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: For Madonna della Salute, people cross the votive bridge. (Compare with the original) [Translate into English]
+
+138. [B1 · Translate] Domenica sera si gioca Atalanta–Inter. → ___ — key: On Sunday evening, Atalanta play Inter. (si gioca = is played) [Translate into English]
+
+139. [B1 · Translate] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: On Saturday, Lazio play Lecce at home. (in casa = at home) [Translate into English]
+
+140. [B2 · Translate] Every figure must be clear. → ___ — key: Ogni cifra deve essere chiara. (dovere = must) [Translate into Italian]
+
+F　LE PAROLE DELLA MANOVRA
+
+141–144. [B2 · Match words] Match words to definitions
+
+141. la manovra — la legge di bilancio, il documento dello Stato (key d · manovra = budget bill, d)
+
+142. il deficit — la differenza tra spese ed entrate, in rosso (key c · deficit = deficit, c)
+
+143. la copertura — i soldi che pagano una misura, la sua fonte (key b · copertura = funding, b)
+
+144. lo scaglione — la parte del sistema fiscale, un livello di reddito (key a · scaglione = tax bracket, a)
+
+G　DIALOGO ALLA SAGRA
+
+145. [B1 · Cloze choice] — Cerco il ___ di Cremona. (A. biglietto · B. torrone) — key: B (torrone = nougat)
+
+146. [B1 · Cloze choice] — È fatto di ___ e miele. (A. mandorle · B. patate) — key: A (mandorle = almonds)
+
+147. [B1 · Cloze choice] — Quanto ___ tutto? (A. dorme · B. costa) — key: B (quanto costa? = how much does it cost?)
+
+148. [B1 · Cloze choice] — Pago con ___. (A. carta · B. cosplay) — key: A (pagare con carta = to pay by card)
+
+149. [B1 · Cloze choice] — La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre) — key: B (The torrone festival runs to 22 November)
+
+H　SCRIVI TU
+
+Writing task (no single right answer); model text (99 words) below.
+
+150. [B1 · Writing] «La tua domenica del 22 novembre» Scrivi 80–100 parole: una festa, una partita, cosa assaggi. — key: (Open task — model text below) (Model text in section H below (99 words)) [Write]
+
+Testo modello: Domenica 22 novembre metto la sciarpa e vado a Cremona: è l'ultimo giorno della Festa del Torrone e il corteo passa in piazza del Comune. Assaggio il torrone con la mia famiglia: preferisco quello con le mandorle e il miele, a forma di Torrazzo. La sera guardiamo Atalanta–Inter, alle 20.45, e la Lazio è ancora prima con 29 punti. Sabato, a Venezia, c'era la Madonna della Salute: il ponte votivo e le candele accese. La settimana è dolce e azzurra: torrone, cioccolato e calcio, come nel giornale. Lunedì prossimo racconto tutto alla classe, con le parole nuove della settimana.
+
+Una donna scrive una lettera: la scrittura è l'ultimo esercizio della settimana.
+
+Foto: Johannes Vermeer — Wikimedia Commons, dominio pubblico
+
+RISPOSTE　ANSWER KEY — GROUPED BY PAGE: FIND YOUR EXERCISE NUMBER
+
+Each answer has a one-line note in English　✓ = model-text task
+
+### Risposte
+
+1. Lazio — Lazio are top
+
+2. Napoli — Lazio drew in Naples
+
+3. Como — Inter beat Como 2–0
+
+4. Sassuolo — Roma beat Sassuolo 3–0
+
+5. Bergamo — Atalanta v Inter is in Bergamo
+
+6. Cremona — The torrone festival closes in Cremona
+
+7. A — Lazio are top with 29 points
+
+8. B — 24 goals on matchday 11
+
+9. C — Atalanta v Inter is in Bergamo
+
+10. B — The torrone festival closes in Cremona
+
+11. Salute — Madonna della Salute
+
+12. ponte — the votive bridge
+
+13. candele — candles (plural)
+
+14. alberi — trees (plural)
+
+15. musica — Santa Cecilia is the patron of music
+
+16. attraversano — attraversare：i veneziani → attraversano
+
+17. portano — portare：i fedeli → portano
+
+18. piantiamo — piantare：noi → piantiamo
+
+19. prega — pregare：la famiglia → prega
+
+20. mangia — mangiare：la famiglia → mangia
+
+21. B — The votive bridge is over the canal
+
+22. A — Madonna della Salute comes from a vow of 1630
+
+23. C — The tree-planting day is 21 November
+
+24. B — Santa Cecilia is the patron of music
+
+25. c — salute = health, c
+
+26. b — ponte votivo = votive bridge, b
+
+27. d — candela = candle, d
+
+28. a — piantare = to plant, a
+
+29. B — The torrone festival closes on Sunday 22 November
+
+30. C — The chocolate festival is in its 32nd edition
+
+31. B — The re-enactment is at 17:00 in Piazza del Comune
+
+32. A — This year's Eurochocolate theme is “Fate dolci”
+
+33. B — The Alba truffle fair runs to 6 December
+
+34. torrone — torrone = nougat
+
+35. cioccolato — cioccolato = chocolate
+
+36. corteo — corteo = parade
+
+37. mandorle — mandorle = almonds (plural)
+
+38. rievocazione — rievocazione = historical re-enactment
+
+39. tartufo — tartufo = truffle
+
+40. è arrivato — arrivare takes essere: è arrivato
+
+41. abbiamo assaggiato — assaggiare takes avere: abbiamo assaggiato
+
+42. sono andati — andare takes essere, plural sono andati
+
+43. ha chiuso — chiudere takes avere: ha chiuso
+
+44. Eurochocolate chiude a Perugia il 22 novembre. — Subject + verb + place + date
+
+45. A Cremona il torrone è il re. — Place first, subject after
+
+46. La fiera dura fino al 6 dicembre. — dura fino a = lasts until
+
+47. B — Lazio lead with 29 points
+
+48. B — Inter beat Como 2–0
+
+49. A — Roma have the best attack, 31 goals
+
+50. C — Udinese are bottom with 5 points
+
+51. B — The big match is in Bergamo on Sunday evening
+
+52. d — vetta = the top, d
+
+53. b — imbattuto = unbeaten, b
+
+54. c — girone = group, c
+
+55. a — debutto = debut, a
+
+56. più — Lazio have more points than Inter: più
+
+57. meno — Udinese have fewer points than Lazio: meno
+
+58. più bella — più + bella: Sunday evening is the finest (a judgement)
+
+59. meglio — The comparative of bene is the irregular meglio
+
+60. ha vinto — vincere：ha vinto
+
+61. ha pareggiato — pareggiare：ha pareggiato
+
+62. sono arrivati — arrivare takes essere, plural sono arrivati
+
+63. abbiamo guardato — guardare takes avere: abbiamo guardato
+
+64. ha preso — The participle of prendere is preso: ha preso
+
+65. B — BookCity is in its 15th edition
+
+66. B — BookCity starts on 23 November
+
+67. C — This year's theme comes from Ariosto
+
+68. A — The Torino Film Festival is in its 44th edition
+
+69. A — The Filmmaker Festival closes in Milan
+
+70. protagonisti — protagonisti = guests (plural)
+
+71. indipendente — indipendente = independent
+
+72. anteprima — anteprima = preview
+
+73. sedi — sedi = venues (plural)
+
+74. lettrice — lettrice = woman reader
+
+75. incontri — incontri = meetings (plural)
+
+76. andremo — andare, future, noi: andremo
+
+77. ci sarà — esserci, future: ci sarà (there will be)
+
+78. guarderemo — guardare, future, noi: guarderemo
+
+79. durerà — durare, future: durerà
+
+80. Vero — BookCity has 1,360 events
+
+81. Vero — The Torino Film Festival opens on 24 November
+
+82. Falso — BookCity opening on 22 November is false
+
+83. B — The coldest in the sample data is Turin, 5°
+
+84. A — The warmest in the sample data is Naples, 13°
+
+85. B — 13 − 11 = 2
+
+86. A — 6 + 7 = 13
+
+87. B — The chart figures are practice data, not real forecasts
+
+88. A — A government proposal is not yet law
+
+89. B — The bill is the budget law
+
+90. A — The amendment deadline is 17 November, 18:00
+
+91. A — The DPB went to Brussels on 15 October
+
+92. B — Growth forecast for 2027: +0.8%
+
+93. piova — è probabile che + subjunctive piova
+
+94. nevichi — è possibile che + subjunctive nevichi
+
+95. controllino — bisogna che + subjunctive controllino
+
+96. sia — è importante che + subjunctive sia
+
+97. manovra — manovra = budget bill
+
+98. deficit — deficit = deficit
+
+99. copertura — copertura = funding
+
+100. scaglione — scaglione = tax bracket
+
+101. andremo — andare, future, noi: andremo
+
+102. assaggeremo — assaggiare, future, noi: assaggeremo
+
+103. guarderemo — guardare, future, noi: guarderemo
+
+104. B — leggerò is the future of leggere
+
+105. è partito — partire takes essere: è partito
+
+106. abbiamo visto — vedere takes avere: abbiamo visto
+
+107. hanno comprato — comprare takes avere: hanno comprato
+
+108. A — finire takes essere: è finita
+
+109. piova — è probabile che + subjunctive piova
+
+110. nevichi — è possibile che + subjunctive nevichi
+
+111. leggano — bisogna che + subjunctive leggano
+
+112. B — so che + indicative torna
+
+113. B — Lazio
+
+114. A — 24 goals on matchday 11
+
+115. A — Atalanta v Inter is in Bergamo
+
+116. A — The torrone festival closes on Sunday
+
+117. B — The chocolate festival is in Perugia
+
+118. B — Madonna della Salute is on 21 November
+
+119. A — BookCity opens on 23 November
+
+120. B — The Torino Film Festival opens on 24 November
+
+121. B — Lazio are top with 29 points
+
+122. B — Inter beat Como 2–0
+
+123. A — The chocolate festival is in its 32nd edition
+
+124. C — Udinese are bottom with 5 points
+
+125. C — The Alba truffle fair runs to 6 December
+
+126. A — The amendment deadline is 17 November, 18:00
+
+127. B — A government proposal is not yet law
+
+128. B — Madonna della Salute comes from a vow of 1630
+
+129. B — Giulia goes to Madonna della Salute on Saturday
+
+130. A — Paolo watches the torrone parade on Sunday
+
+131. B — The candle is brought by Giulia
+
+132. A — The title sums up two cities, two festivals
+
+133. Domenica è il 22 novembre. — Time word first
+
+134. Eurochocolate chiude a Perugia il 22 novembre. — Subject + verb + place + date
+
+135. A che ora gioca la Lazio? — Question phrase first
+
+136. Il torrone si assaggia a Cremona. — Subject + verb + place
+
+137. For Madonna della Salute, people cross the votive bridge. — Compare with the original
+
+138. On Sunday evening, Atalanta play Inter. — si gioca = is played
+
+139. On Saturday, Lazio play Lecce at home. — in casa = at home
+
+140. Ogni cifra deve essere chiara. — dovere = must
+
+141. d — manovra = budget bill, d
+
+142. c — deficit = deficit, c
+
+143. b — copertura = funding, b
+
+144. a — scaglione = tax bracket, a
+
+145. B — torrone = nougat
+
+146. A — mandorle = almonds
+
+147. B — quanto costa? = how much does it cost?
+
+148. A — pagare con carta = to pay by card
+
+149. B — The torrone festival runs to 22 November
+
+150. ✓ Model text in section H below (99 words)

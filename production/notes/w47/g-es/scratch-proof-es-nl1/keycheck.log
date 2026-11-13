@@ -1,0 +1,7 @@
+REG lines: 150 numbers: 1 - 150 contiguous: True
+extract total: 150 keys in extract: 150
+sample extract keys: {'1': '13', '2': '29', '3': '19'}
+missing in extract: []
+mismatches: [(150, 'Open vraag — voorbeeldtekst hieronder op deze pagina', '✓')]
+level counts REG: Counter({'B1': 72, 'A2': 50, 'B2': 28})
+noted_set type: <class 'list'> len: 150

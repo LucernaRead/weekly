@@ -1,0 +1,31 @@
+MATCH lines total: 40
+--- Q24-27 ---
+  24. a runoff -> key 'b' (note: runoff = второй тур b)
+  25. to certify -> key 'c' (note: certify = официально утвердить c)
+  26. a turkey -> key 'a' (note: turkey = индейка a)
+  27. Thanksgiving -> key 'd' (note: Thanksgiving = День благодарения d)
+  defs: [('a', 'the bird of the Thanksgiving dinner'), ('b', 'a second vote, when nobody wins'), ('c', 'to confirm a count officially'), ('d', 'the American family holiday')]
+--- Q38-41 ---
+  38. a tribute -> key 'b' (note: tribute = участник Игр b)
+  39. a mentor -> key 'd' (note: mentor = наставник d)
+  40. the arena -> key 'a' (note: arena = арена a)
+  41. a campmate -> key 'c' (note: campmate = сосед по лагерю c)
+  defs: [('a', 'a person who teaches and guides you'), ('b', 'a person chosen to take part in the Games'), ('c', 'a person who lives with you in the jungle camp'), ('d', 'the place where the Games are fought')]
+--- Q56-59 ---
+  56. a Test -> key 'b' (note: Test = крикетный матч на пять дней b)
+  57. a tour -> key 'c' (note: tour = турне c)
+  58. an injury -> key 'd' (note: injury = травма d)
+  59. a break -> key 'a' (note: break = перерыв a)
+  defs: [('a', 'a pause between parts of a season'), ('b', 'a five-day cricket match'), ('c', 'a series of games away from home'), ('d', 'damage to the body that stops you playing')]
+--- Q74-77 ---
+  74. bullying -> key 'd' (note: bullying = травля d)
+  75. to speak up -> key 'a' (note: speak up = говорить открыто a)
+  76. a right -> key 'b' (note: right = право b)
+  77. silence -> key 'c' (note: silence = молчание c)
+  defs: [('a', 'saying what you think, loudly and clearly'), ('b', 'something every child has, by law'), ('c', 'saying nothing at all'), ('d', 'hurting or frightening someone again and again')]
+--- Q141-144 ---
+  141. a call -> key 'b' (note: call = объявить результат b)
+  142. a runoff -> key 'c' (note: runoff = второй тур c)
+  143. to certify -> key 'd' (note: certify = официально утвердить d)
+  144. a midterm -> key 'a' (note: midterm = промежуточные выборы a)
+  defs: [('a', "an election in the middle of a President's term"), ('b', "a news organisation's judgement on a race"), ('c', 'a second vote, when nobody wins'), ('d', 'to confirm a count officially')]

@@ -1,0 +1,12 @@
+[apply] rc=1
+[restore] ABSTRACT.txt from backup-old
+[restore] WEEKLY-KIT.md from backup-old
+[run.py] rc=0
+[render.py] rc=0
+[render] print PDF 21278615 bytes
+[webpdf.py] rc=0
+[webpdf] web PDF 3387465 bytes
+[ru_textmd.py] rc=0
+[textmd] 64215 bytes, 150 exercises, 277 blocks
+[check_core.py] rc=0
+BUILD OK

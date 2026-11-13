@@ -1,0 +1,102 @@
+----- stage2 2026-11-12T09:43:59Z -----
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/The-Lucerna-VOL4-en-ko.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 368d1ab5f51e37df produced 368d1ab5f51e37df
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p7: +349 strings / -90 strings; CJK core 429 -> edition 499; added CJK chars: 471 {'\u3000': 1, '손': 1, '안': 1, '의': 9, '언': 1, '어': 10, '이': 16, '번': 4, '주': 5, '표': 2}; added Latin strings: 15 (unexpected 15)
+p8: +514 strings / -375 strings; CJK core 634 -> edition 671; added CJK chars: 642 {'\u3000': 1, '연': 1, '습': 1, '과': 10, '정': 7, '답': 4, '실': 1, '력': 1, '테': 1, '스': 5}; added Latin strings: 99 (unexpected 99)
+TOTAL added CJK characters: 2323
+TOTAL added Latin strings: 139 (unexpected 139)
+added CJK (excl U+3000): {'매': 2, '주': 35, '한': 23, '번': 15, '영': 31, '어': 63, '권': 7, '에': 36, '서': 19, '지': 39, '금': 5, '화': 10, '제': 23, '가': 22, '되': 5, '는': 34, '일': 44, '읽': 12, '기': 85, '간': 18, '선': 20, '거': 19, '정': 21, '글': 2, '텍': 9, '스': 17, '트': 10, '국': 10, '해': 26, '설': 22, '독': 4, '자': 10, '를': 25, '위': 2, '판': 1, '월': 18, '투': 13, '표': 26, '민': 9, '당': 18, '이': 41, '양': 6, '원': 22, '승': 3, '리': 12, '중': 6, '발': 8, '된': 1, '결': 13, '과': 23, '면': 39, '참': 1, '조': 2, '헤': 2, '드': 1, '라': 8, '인': 11, '하': 27, '다': 53, '의': 35, '석': 14, '숫': 3, '반': 5, '수': 14, '바': 26, '뀐': 1, '상': 13, '로': 24, '연': 6, '습': 8, '검': 1, '색': 1, '대': 6, '적': 1, '시': 8, '예': 3, '요': 45, '확': 5, '치': 7, '아': 13, '니': 7, '호': 4, '목': 8, '차': 1, '은': 37, '전': 3, '분': 1, '단': 16, '신': 9, '개': 14, '퀴': 1, '즈': 1, '을': 31, '고': 28, '답': 14, '르': 8, '세': 28, '총': 9, '생': 2, '활': 1, '뒤': 2, '달': 2, '력': 2, '공': 6, '뽑': 2, '계': 7, '동': 7, '날': 6, '추': 4, '감': 6, '사': 15, '절': 6, '블': 1, '랙': 1, '프': 4, '데': 1, '식': 8, '나': 7, '무': 5, '슨': 2, '문': 24, '장': 17, '써': 1, '편': 11, '집': 3, '부': 6, '보': 7, '내': 4, '짜': 5, '말': 9, '법': 1, '새': 3, '회': 6, '으': 10, '직': 4, '속': 8, '있': 8, '잘': 1, '칠': 1, '넘': 1, '들': 1, '찾': 1, '와': 7, '따': 3, '완': 7, '성': 7, '빈': 33, '칸': 35, '채': 34, '우': 33, '꿔': 20, '쓰': 25, '약': 3, '뜻': 4, '짝': 10, '짓': 6, '곧': 1, '봉': 2, '힌': 1, '경': 5, '캠': 1, '친': 2, '구': 3, '진': 8, '형': 17, '미': 8, '난': 4, '섯': 3, '평': 1, '돼': 1, '포': 1, '츠': 1, '왜': 1, '퍼': 1, '까': 2, '크': 2, '켓': 1, '휴': 1, '끝': 1, '토': 1, '점': 3, '누': 2, '득': 1, '했': 3, '앞': 3, '짧': 1, '청': 1, '년': 3, '침': 4, '묵': 4, '깨': 3, '왕': 2, '소': 2, '현': 6, '재': 5, '행': 1, '높': 1, '모': 9, '든': 3, '게': 3, '심': 1, '층': 1, '후': 1, '도': 10, '용': 1, '그': 4, '래': 5, '임': 1, '길': 1, '쉰': 2, '규': 2, '칙': 2, '밤': 2, '건': 1, '손': 1, '안': 4, '언': 1, '긴': 1, '겼': 3, '뉴': 2, '많': 2, '비': 2, '교': 2, '급': 2, '온': 1, '불': 1, '외': 2, '워': 2, '야': 1, '쓴': 3, '종': 2, '끈': 2, '때': 3, '명': 3, '본': 1, '두': 4, '음': 2, '렇': 1, '쓸': 1, '오': 8, '류': 6, '질': 1, '른': 1, '터': 3, '싣': 2, '겠': 1, '마': 1, '않': 2, '았': 1, '만': 2, '여': 2, '히': 1, '유': 1, '효': 1, '실': 2, '립': 1, '름': 2, '할': 1, '것': 1, '입': 1, '닙': 1, '없': 1, '테': 1, '택': 1, '객': 1, '관': 1, '꾸': 1, '역': 5, '：': 1, '「': 2, '」': 2, '었': 2, '저': 1, '녁': 1, '엇': 2, '봤': 1, '범': 2, '배': 1, '덟': 1, '됐': 1, '꿨': 3, '각': 1, '증': 1, '칭': 2, '작': 1, '램': 1, '애': 1, '방': 1, '톰': 3, '맨': 1, '체': 1, '빨': 1, '파': 1, '란': 1, '줄': 1, '좌': 1, '팝': 1, '콘': 1, '열': 1, '린': 1, '준': 2, '항': 1}
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-ko: 32 boxes, 175 candidates, 0 SPILL, 175 OBSERVE
+boxtitle RC=1
+== 2026-w47-en-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=-
+  P3 [TITLE] DEFECT over=+32.9px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | '경기'
+BOXTITLE 2026-w47-en-ko: 48 titles, 376 body lines, 1 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-ko: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=2
+BLOCKED: no svg/ dir: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-ko/svg
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+textcheck RC=1
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/textcheck.py", line 21, in <module>
+    a, b, c = chars(pp), chars(pw), chars(pre)
+                                    ^^^^^^^^^^
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/textcheck.py", line 16, in chars
+    with open(path, encoding="utf-8", errors="replace") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/logs/2026-w47-en-ko-The-Lucerna-VOL4-en-ko-pre.txt'
+text.md: CHANGED (see diff)
+OVERALL: HAS-FAILURES
+----- stage2 2026-11-12T10:10:27Z -----
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/The-Lucerna-VOL4-en-ko.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 368d1ab5f51e37df produced 368d1ab5f51e37df
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p7: +349 strings / -90 strings; CJK core 429 -> edition 499; added CJK chars: 471 {'\u3000': 1, '손': 1, '안': 1, '의': 9, '언': 1, '어': 10, '이': 16, '번': 4, '주': 5, '표': 2}; added Latin strings: 15 (unexpected 15)
+p8: +514 strings / -375 strings; CJK core 634 -> edition 671; added CJK chars: 642 {'\u3000': 1, '연': 1, '습': 1, '과': 10, '정': 7, '답': 4, '실': 1, '력': 1, '테': 1, '스': 5}; added Latin strings: 99 (unexpected 99)
+TOTAL added CJK characters: 2323
+TOTAL added Latin strings: 139 (unexpected 139)
+added CJK (excl U+3000): {'매': 2, '주': 35, '한': 23, '번': 15, '영': 31, '어': 63, '권': 7, '에': 36, '서': 19, '지': 39, '금': 5, '화': 10, '제': 23, '가': 22, '되': 5, '는': 34, '일': 44, '읽': 12, '기': 85, '간': 18, '선': 20, '거': 19, '정': 21, '글': 2, '텍': 9, '스': 17, '트': 10, '국': 10, '해': 26, '설': 22, '독': 4, '자': 10, '를': 25, '위': 2, '판': 1, '월': 18, '투': 13, '표': 26, '민': 9, '당': 18, '이': 41, '양': 6, '원': 22, '승': 3, '리': 12, '중': 6, '발': 8, '된': 1, '결': 13, '과': 23, '면': 39, '참': 1, '조': 2, '헤': 2, '드': 1, '라': 8, '인': 11, '하': 27, '다': 53, '의': 35, '석': 14, '숫': 3, '반': 5, '수': 14, '바': 26, '뀐': 1, '상': 13, '로': 24, '연': 6, '습': 8, '검': 1, '색': 1, '대': 6, '적': 1, '시': 8, '예': 3, '요': 45, '확': 5, '치': 7, '아': 13, '니': 7, '호': 4, '목': 8, '차': 1, '은': 37, '전': 3, '분': 1, '단': 16, '신': 9, '개': 14, '퀴': 1, '즈': 1, '을': 31, '고': 28, '답': 14, '르': 8, '세': 28, '총': 9, '생': 2, '활': 1, '뒤': 2, '달': 2, '력': 2, '공': 6, '뽑': 2, '계': 7, '동': 7, '날': 6, '추': 4, '감': 6, '사': 15, '절': 6, '블': 1, '랙': 1, '프': 4, '데': 1, '식': 8, '나': 7, '무': 5, '슨': 2, '문': 24, '장': 17, '써': 1, '편': 11, '집': 3, '부': 6, '보': 7, '내': 4, '짜': 5, '말': 9, '법': 1, '새': 3, '회': 6, '으': 10, '직': 4, '속': 8, '있': 8, '잘': 1, '칠': 1, '넘': 1, '들': 1, '찾': 1, '와': 7, '따': 3, '완': 7, '성': 7, '빈': 33, '칸': 35, '채': 34, '우': 33, '꿔': 20, '쓰': 25, '약': 3, '뜻': 4, '짝': 10, '짓': 6, '곧': 1, '봉': 2, '힌': 1, '경': 5, '캠': 1, '친': 2, '구': 3, '진': 8, '형': 17, '미': 8, '난': 4, '섯': 3, '평': 1, '돼': 1, '포': 1, '츠': 1, '왜': 1, '퍼': 1, '까': 2, '크': 2, '켓': 1, '휴': 1, '끝': 1, '토': 1, '점': 3, '누': 2, '득': 1, '했': 3, '앞': 3, '짧': 1, '청': 1, '년': 3, '침': 4, '묵': 4, '깨': 3, '왕': 2, '소': 2, '현': 6, '재': 5, '행': 1, '높': 1, '모': 9, '든': 3, '게': 3, '심': 1, '층': 1, '후': 1, '도': 10, '용': 1, '그': 4, '래': 5, '임': 1, '길': 1, '쉰': 2, '규': 2, '칙': 2, '밤': 2, '건': 1, '손': 1, '안': 4, '언': 1, '긴': 1, '겼': 3, '뉴': 2, '많': 2, '비': 2, '교': 2, '급': 2, '온': 1, '불': 1, '외': 2, '워': 2, '야': 1, '쓴': 3, '종': 2, '끈': 2, '때': 3, '명': 3, '본': 1, '두': 4, '음': 2, '렇': 1, '쓸': 1, '오': 8, '류': 6, '질': 1, '른': 1, '터': 3, '싣': 2, '겠': 1, '마': 1, '않': 2, '았': 1, '만': 2, '여': 2, '히': 1, '유': 1, '효': 1, '실': 2, '립': 1, '름': 2, '할': 1, '것': 1, '입': 1, '닙': 1, '없': 1, '테': 1, '택': 1, '객': 1, '관': 1, '꾸': 1, '역': 5, '：': 1, '「': 2, '」': 2, '었': 2, '저': 1, '녁': 1, '엇': 2, '봤': 1, '범': 2, '배': 1, '덟': 1, '됐': 1, '꿨': 3, '각': 1, '증': 1, '칭': 2, '작': 1, '램': 1, '애': 1, '방': 1, '톰': 3, '맨': 1, '체': 1, '빨': 1, '파': 1, '란': 1, '줄': 1, '좌': 1, '팝': 1, '콘': 1, '열': 1, '린': 1, '준': 2, '항': 1}
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-ko: 32 boxes, 175 candidates, 0 SPILL, 175 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-ko
+BOXTITLE 2026-w47-en-ko: 45 titles, 379 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-ko: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=1
+  File "<frozen importlib._bootstrap_external>", line 1128, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1186, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-en/scratch-fanout-en/backup/2026-w47-en-ko/svglib.py'
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+textcheck RC=0
+post-print chars=34372 post-web chars=34372 pre-print chars=34372
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+OVERALL: HAS-FAILURES
+----- creambox rerun 2026-11-12T10:27:35Z -----
+creambox RC=0 (rerun after adding baseline svglib.py + assets/ to backup dir; first run failed to load baseline module, not a defect)
+ratios: n=430 median=1.025 boldT=1.053 boldF=0.987
+P8 p8-test.svg: lines 185->184 slack_footer 44.0->37.6
+CREAMBOX PASS 0 defects
+OVERALL: ALL-GREEN (corrected: all gates green incl. creambox rerun)

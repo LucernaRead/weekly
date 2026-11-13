@@ -1,0 +1,23 @@
+== p3-culture.svg
+  bouteille: strict=1 plural=0 -> PASS
+  raisin: strict=1 plural=0 -> PASS
+  vigne: strict=0 plural=1 -> PASS
+== p4-sport.svg
+  tennis: strict=2 plural=0 -> PASS
+  adversaire: strict=1 plural=0 -> PASS
+== p5-jeunesse.svg
+  salle: strict=0 plural=1 -> PASS
+  public: strict=1 plural=0 -> PASS
+  réalisateur: strict=1 plural=0 -> PASS
+  scénario: strict=1 plural=0 -> PASS
+  écran: strict=1 plural=0 -> PASS
+  acteur: strict=1 plural=0 -> PASS
+  actrice: strict=1 plural=0 -> PASS
+  séance: strict=1 plural=0 -> PASS
+OVERALL: PASS
+Note: PROOF-NOTE-fr2's d3-verify2.py run on this build reports public FAIL,
+but that is a script artifact: its REMOVE list contains the bare term
+'le public', which is also a substring of the body sentence
+'le public a l'embarras du choix', so the removal erases the body hit.
+Removing only the exact box line 'le public — 观众' leaves the body hit.
+P5 SVG is byte-identical to fix1 (fff2a8d3d7ac), so nothing regressed.

@@ -1,0 +1,19 @@
+D1 P6 kicker УЧЕБНЫЕ ДАННЫЕ: 0 hit(s) in svg/p6-razbor.svg
+D1 P6 Dutch disclaimer: 1 hit(s) in svg/p6-razbor.svg
+   x=798.2 y=1582 size=19.5 text='. Dit is een oefenenquête van de redactie — geen echte statistiek.'
+D1 P6 RU keyword 'опрос': 1 hit(s) in svg/p6-razbor.svg
+   x=214.7 y=1582 size=19.5 text='опрос'
+D1 P6 RU keyword 'статистик': 1 hit(s) in svg/p6-razbor.svg
+   x=694.4 y=1582 size=19.5 text='статистика'
+D1 P6 RU keyword 'данные': 0 hit(s) in svg/p6-razbor.svg
+D1 P6 RU keyword 'редакци': 2 hit(s) in svg/p6-razbor.svg
+   x=113.2 y=336.08000000000004 size=17 text='редакции'
+   x=276.2 y=1582 size=19.5 text='редакции'
+D2 P7 subtitle RU: 0 hit(s) in svg/p7-yazyk.svg
+D2 P7 subtitle NL (D7 fixed form): 1 hit(s) in svg/p7-yazyk.svg
+   x=1597.6 y=168 size=18 text="\u3000Drie niveaus, drie thema's"
+D2 P8 subtitle: 0 hit(s) in svg/p8-test.svg
+D2/D6 Q25 option День студента (P2): 0 hit(s) in svg/p2-zhizn.svg
+Traceback (most recent call last):
+  File "<stdin>", line 32, in <module>
+AttributeError: 'list' object has no attribute 'get'

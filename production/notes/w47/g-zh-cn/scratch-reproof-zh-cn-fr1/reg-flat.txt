@@ -1,0 +1,530 @@
+--- Q1 P1 [A2] 完成句子 key='T1'
+    body: 半决赛，BLG 3比1打赢了___。
+    note: BLG a battu T1 3-1 en demi-finale.
+--- Q2 P1 [A2] 完成句子 key='15'
+    body: 决赛在11月___日凌晨3点。
+    note: La finale S16, c'est le 15 novembre, heure de Pékin.
+--- Q3 P1 [A2] 完成句子 key='巴克莱'
+    body: 决赛在纽约___中心打。
+    note: La finale a lieu au Barclays Center, à Brooklyn, New York.
+--- Q4 P1 [A2] 完成句子 key='三'
+    body: BLG一路打赢了___支韩国队。
+    note: BLG a battu trois équipes coréennes d'affilée.
+--- Q5 P1 [A2] 完成句子 key='22'
+    body: 小雪在11月___日。
+    note: La Petite Neige (小雪) est le 22 nov.
+--- Q6 P1 [A2] 完成句子 key='21'
+    body: 电影《试探》在11月___日上映。
+    note: Le film 《试探》 sort le 21 nov.
+--- Q7 P1 [A2] 单选 key='A'
+    body: 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. LYON
+    note: BLG a battu T1 3-1 en demi-finale.
+--- Q8 P1 [A2] 单选 key='A'
+    body: 决赛在北京时间几点？ A. 凌晨3点 · B. 早上6点 · C. 晚上8点
+    note: La finale S16, c'est à 03:00 heure de Pékin, le 15 novembre.
+--- Q9 P1 [A2] 单选 key='A'
+    body: 包裹高峰是哪几天？ A. 11月11日到13日 · B. 11月12日到15日 · C. 11月21日到22日
+    note: Le pic des colis est du 11 au 13 nov.
+--- Q10 P1 [A2] 单选 key='B'
+    body: 小雪在哪天？ A. 11月21日 · B. 11月22日 · C. 11月15日
+    note: La Petite Neige (小雪) est le 22 nov.
+--- Q11 P2 [A2] 单选 key='A'
+    body: 去年双11，22天一共揽收多少件？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+    note: Double 11 l'an dernier : 139,38 milliards de colis en 22 jours.
+--- Q12 P2 [A2] 单选 key='A'
+    body: 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+    note: Le pic de livraison est du 12 au 15 nov.
+--- Q13 P2 [A2] 单选 key='B'
+    body: 价保是怎么回事？ A. 自动就有 · B. 要先看规则，再自己申请 · C. 只有11月11日有
+    note: La protection du prix n'est pas automatique : lis le règlement, puis fais ta demande.
+--- Q14 P2 [A2] 单选 key='B'
+    body: 包裹到了，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+    note: Ouvre le colis et vérifie avant de confirmer la réception.
+--- Q15 P2 [A2] 单选 key='A'
+    body: 高铁急送最快多久？ A. 4小时 · B. 1天 · C. 3天
+    note: Express ferroviaire : 4 heures de porte à porte.
+--- Q16 P2 [A2] 完成句子 key='包裹'
+    body: 我的___到了，去快递柜拿。
+    note: bāoguǒ — un colis.
+--- Q17 P2 [A2] 完成句子 key='退换货'
+    body: 东西不合适，可以___。
+    note: tuìhuànhuò — retours et échanges ; renvoie-le tôt.
+--- Q18 P2 [A2] 完成句子 key='申请'
+    body: 价保不是自动的，要自己___。
+    note: shēnqǐng — la protection du prix n'est pas automatique ; fais ta demande.
+--- Q19 P2 [A2] 完成句子 key='派送'
+    body: 快递员正在___包裹。
+    note: pàisòng — le livreur apporte le colis.
+--- Q20 P2 [B1] 完成句子 key='20'
+    body: 湖南顺丰的人力和运力多了约___%。
+    note: Hunan SF Express : +20 % de personnel et de capacité.
+--- Q21 P2 [A2] 完成句子 key='320'
+    body: 练习例子里，外套___元。
+    note: Le manteau coûte 320 yuans dans l'exemple.
+--- Q22 P2 [A2] 完成句子 key='240'
+    body: 直降以后实付___元。
+    note: 320 − 80 = 240 yuans après la remise directe.
+--- Q23 P2 [B1] 完成句子 key='80'
+    body: 练习例子里直降___元。
+    note: La remise directe de l'exemple est de 80 yuans.
+--- Q24 P2 [B1] 完成句子 key='7.77'
+    body: 去年双11，单日最高___亿件。
+    note: L'an dernier, meilleur jour : 777 millions d'articles.
+--- Q25 P2 [A2] 词汇配对 key='a'
+    body: MATCH left: 到货
+    opt: 东西到了，可以去拿了
+    opt: 东西不合适，寄回去换
+    opt: 降价了，补回差价
+    opt: 快递员把包裹送到你手里
+    note: 到货 = le colis est arrivé, a
+--- Q26 P2 [A2] 词汇配对 key='b'
+    body: MATCH left: 退换货
+    opt: 东西到了，可以去拿了
+    opt: 东西不合适，寄回去换
+    opt: 降价了，补回差价
+    opt: 快递员把包裹送到你手里
+    note: 退换货 = retours et échanges, b
+--- Q27 P2 [A2] 词汇配对 key='c'
+    body: MATCH left: 价保
+    opt: 东西到了，可以去拿了
+    opt: 东西不合适，寄回去换
+    opt: 降价了，补回差价
+    opt: 快递员把包裹送到你手里
+    note: 价保 = protection du prix, c
+--- Q28 P2 [A2] 词汇配对 key='d'
+    body: MATCH left: 派送
+    opt: 东西到了，可以去拿了
+    opt: 东西不合适，寄回去换
+    opt: 降价了，补回差价
+    opt: 快递员把包裹送到你手里
+    note: 派送 = livraison, d
+--- Q29 P3 [A2] 单选 key='A'
+    body: 小雪在哪天？ A. 11月22日 · B. 11月21日 · C. 11月15日
+    note: La Petite Neige (小雪) est le 22 nov.
+--- Q30 P3 [A2] 单选 key='A'
+    body: 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+    note: 小雪 est le 20e terme solaire.
+--- Q31 P3 [A2] 单选 key='A'
+    body: 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+    note: La première phase est 虹藏不见.
+--- Q32 P3 [A2] 单选 key='A'
+    body: 深圳读书月哪天开始？ A. 11月1日 · B. 11月14日 · C. 11月7日
+    note: Le Mois de la lecture a commencé le 1er novembre.
+--- Q33 P3 [A2] 单选 key='B'
+    body: 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+    note: La nuit culturelle, c'est le 14 novembre.
+--- Q34 P3 [A2] 完成句子 key='小雪'
+    body: 11月22日是___。
+    note: xiǎoxuě — Petite Neige ; 22 nov.
+--- Q35 P3 [A2] 完成句子 key='20'
+    body: 小雪是二十四节气里的第___个。
+    note: 小雪 est le 20e terme solaire.
+--- Q36 P3 [A2] 完成句子 key='冷'
+    body: 小雪之后，天气会更___。
+    note: Après la Petite Neige, le temps devient plus froid.
+--- Q37 P3 [B1] 完成句子 key='七'
+    body: 读书月有___个场馆一起参加。
+    note: Sept lieux participent au Mois de la lecture.
+--- Q38 P3 [B1] 完成句子 key='古籍'
+    body: 文化馆之夜，读者可以亲手摸一摸___的装帧。
+    note: gǔjí — vieux livres ; on peut toucher la reliure.
+--- Q39 P3 [A2] 完成句子 key='22'
+    body: 小雪在11月___日星期日。
+    note: La Petite Neige est le 22 nov., un dimanche.
+--- Q40 P3 [A2] 完成句子 key='2'
+    body: 小雪是冬天第___个节气。
+    note: 小雪 est le 2e terme solaire de l'hiver.
+--- Q41 P3 [B1] 完成句子 key='14'
+    body: 文化馆之夜在11月___日。
+    note: La nuit culturelle, c'est le 14 novembre.
+--- Q42 P3 [A2] 完成句子 key='1'
+    body: 深圳读书月从11月___日开始。
+    note: Le Mois de la lecture a commencé le 1er novembre.
+--- Q43 P3 [A2] 词汇配对 key='b'
+    body: MATCH left: 小雪
+    opt: 天冷了，多穿衣服，别冻着
+    opt: 二十四节气里的一个，11月22日
+    opt: 不小心冷到了，身体不舒服
+    opt: 古人看天气的三个变化
+    note: 小雪 = Petite Neige, b
+--- Q44 P3 [A2] 词汇配对 key='d'
+    body: MATCH left: 三候
+    opt: 天冷了，多穿衣服，别冻着
+    opt: 二十四节气里的一个，11月22日
+    opt: 不小心冷到了，身体不舒服
+    opt: 古人看天气的三个变化
+    note: 三候 = les trois phases, d
+--- Q45 P3 [A2] 词汇配对 key='a'
+    body: MATCH left: 保暖
+    opt: 天冷了，多穿衣服，别冻着
+    opt: 二十四节气里的一个，11月22日
+    opt: 不小心冷到了，身体不舒服
+    opt: 古人看天气的三个变化
+    note: 保暖 = se tenir chaud, a
+--- Q46 P3 [A2] 词汇配对 key='c'
+    body: MATCH left: 着凉
+    opt: 天冷了，多穿衣服，别冻着
+    opt: 二十四节气里的一个，11月22日
+    opt: 不小心冷到了，身体不舒服
+    opt: 古人看天气的三个变化
+    note: 着凉 = prendre froid, c
+--- Q47 P4 [B1] 单选 key='A'
+    body: 四分之一决赛，IG打赢了哪个队？ A. TES · B. GEN · C. DK
+    note: IG a battu TES 3-1 en quart de finale.
+--- Q48 P4 [B1] 单选 key='B'
+    body: 半决赛，GEN打赢了哪个队？ A. T1 · B. IG · C. BLG
+    note: GEN a battu IG 3-0 en demi-finale.
+--- Q49 P4 [B1] 单选 key='C'
+    body: 半决赛，BLG打赢了哪个队？ A. LYON · B. KC · C. T1
+    note: BLG a battu T1 3-1 en demi-finale.
+--- Q50 P4 [B1] 单选 key='A'
+    body: 决赛在哪天？ A. 11月15日凌晨3点 · B. 11月14日 · C. 11月8日
+    note: La finale est à 03:00 heure de Pékin, le 15 nov.
+--- Q51 P4 [B1] 单选 key='A'
+    body: 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+    note: La finale est BLG contre GEN.
+--- Q52 P4 [B1] 完成句子 key='DK'
+    body: 四分之一决赛，BLG 3比0打赢了___。
+    note: BLG a battu DK 3-0 en quart de finale.
+--- Q53 P4 [B1] 完成句子 key='IG'
+    body: 半决赛，GEN 3比0打赢了___。
+    note: GEN a battu IG 3-0 en demi-finale.
+--- Q54 P4 [B1] 完成句子 key='BLG'
+    body: 决赛是___对GEN。
+    note: La finale est BLG contre GEN.
+--- Q55 P4 [B1] 完成句子 key='3'
+    body: 决赛在北京时间11月15日凌晨___点。
+    note: La finale est à 03:00 heure de Pékin.
+--- Q56 P4 [B1] 完成句子 key='T1'
+    body: BLG是第一次在全球总决赛的BO5里打赢___。
+    note: BLG a battu T1, une première en BO5 des Worlds.
+--- Q57 P4 [B1] 完成句子 key='4'
+    body: IG 3比1打赢TES，在11月___日。
+    note: IG a battu TES le 4 nov.
+--- Q58 P4 [B1] 完成句子 key='5'
+    body: GEN 3比0打赢LYON，在11月___日。
+    note: GEN a battu LYON le 5 nov.
+--- Q59 P4 [B1] 完成句子 key='6'
+    body: BLG 3比0打赢DK，在11月___日。
+    note: BLG a battu DK le 6 nov.
+--- Q60 P4 [B1] 完成句子 key='7'
+    body: T1 3比1打赢KC，在11月___日。
+    note: T1 a battu KC le 7 nov.
+--- Q61 P4 [B1] 词汇配对 key='d'
+    body: MATCH left: 四强
+    opt: 先赢三局的队拿冠军
+    opt: 半决赛输了，就不往前走了
+    opt: 到时间会响，叫你起床
+    opt: 最后四支队，半决赛的队
+    note: 四强 = les quatre dernières équipes, d
+--- Q62 P4 [B1] 词汇配对 key='b'
+    body: MATCH left: 止步
+    opt: 先赢三局的队拿冠军
+    opt: 半决赛输了，就不往前走了
+    opt: 到时间会响，叫你起床
+    opt: 最后四支队，半决赛的队
+    note: 止步 = s'arrêter ici, b
+--- Q63 P4 [B1] 词汇配对 key='c'
+    body: MATCH left: 闹钟
+    opt: 先赢三局的队拿冠军
+    opt: 半决赛输了，就不往前走了
+    opt: 到时间会响，叫你起床
+    opt: 最后四支队，半决赛的队
+    note: 闹钟 = un réveil, c
+--- Q64 P4 [B1] 词汇配对 key='a'
+    body: MATCH left: 五局三胜
+    opt: 先赢三局的队拿冠军
+    opt: 半决赛输了，就不往前走了
+    opt: 到时间会响，叫你起床
+    opt: 最后四支队，半决赛的队
+    note: 五局三胜 = au meilleur des cinq, a
+--- Q65 P5 [B1] 单选 key='A'
+    body: 《试探》是哪种电影？ A. 悬疑犯罪片 · B. 动画片 · C. 纪录片
+    note: 《试探》 est un film policier à suspense.
+--- Q66 P5 [B1] 单选 key='A'
+    body: 《试探》在哪天上映？ A. 11月21日 · B. 11月13日 · C. 11月7日
+    note: 《试探》 sort le 21 nov.
+--- Q67 P5 [B1] 单选 key='A'
+    body: 《试探》讲的是谁？ A. 钢琴家 · B. 船长 · C. 画家
+    note: L'histoire parle d'un pianiste.
+--- Q68 P5 [B1] 单选 key='A'
+    body: 《白衣逆行者》上映了吗？ A. 没有，上映前撤档了 · B. 上映了，11月6日 · C. 上映了，11月7日
+    note: 《白衣逆行者》 a été retiré avant sa sortie du 6 nov.
+--- Q69 P5 [B1] 单选 key='A'
+    body: 《我们仅有一次的人生》主演是谁？ A. 宋佳、文淇 · B. 刘德华 · C. 冯绍峰
+    note: 《我们仅有一次的人生》, avec Song Jia et Wen Qi.
+--- Q70 P5 [B1] 完成句子 key='悬疑'
+    body: 《试探》是___犯罪片，11月21日上映。
+    note: xuányí — 《试探》 est un film policier à suspense.
+--- Q71 P5 [B1] 完成句子 key='失踪'
+    body: 钢琴家的女友___了。
+    note: shīzōng — la petite amie du pianiste a disparu.
+--- Q72 P5 [B1] 完成句子 key='别墅'
+    body: 陌生女子走进山间___。
+    note: biéshù — une villa dans les collines.
+--- Q73 P5 [B1] 完成句子 key='真实'
+    body: 《白衣逆行者》讲的是___事件里的普通人。
+    note: zhēnshí — 《白衣逆行者》 s'inspire de faits réels.
+--- Q74 P5 [A2] 完成句子 key='七'
+    body: 读书月有___个场馆一起参加。
+    note: Sept lieux participent au Mois de la lecture.
+--- Q75 P5 [B1] 完成句子 key='21'
+    body: 《试探》在11月___日上映。
+    note: 《试探》 sort le 21 nov.
+--- Q76 P5 [B1] 完成句子 key='6'
+    body: 《珠穆朗玛：云中彼岸》在11月___日上映。
+    note: 《珠穆朗玛：云中彼岸》 sort le 6 nov.
+--- Q77 P5 [B1] 完成句子 key='7'
+    body: 《我们仅有一次的人生》在11月___日上映。
+    note: 《我们仅有一次的人生》 sort le 7 nov.
+--- Q78 P5 [B1] 完成句子 key='14'
+    body: 文化馆之夜在11月___日。
+    note: La nuit culturelle, c'est le 14 novembre.
+--- Q79 P5 [B1] 词汇配对 key='c'
+    body: MATCH left: 试探
+    opt: 山里的独栋房子
+    opt: 让人猜不透，心里发紧的故事
+    opt: 试着问一问，看对方怎么说
+    opt: 人不见了，不知道去了哪里
+    note: 试探 = tâter le terrain, c
+--- Q80 P5 [B1] 词汇配对 key='b'
+    body: MATCH left: 悬疑
+    opt: 山里的独栋房子
+    opt: 让人猜不透，心里发紧的故事
+    opt: 试着问一问，看对方怎么说
+    opt: 人不见了，不知道去了哪里
+    note: 悬疑 = suspense, b
+--- Q81 P5 [B1] 词汇配对 key='d'
+    body: MATCH left: 失踪
+    opt: 山里的独栋房子
+    opt: 让人猜不透，心里发紧的故事
+    opt: 试着问一问，看对方怎么说
+    opt: 人不见了，不知道去了哪里
+    note: 失踪 = disparu, d
+--- Q82 P5 [B1] 词汇配对 key='a'
+    body: MATCH left: 别墅
+    opt: 山里的独栋房子
+    opt: 让人猜不透，心里发紧的故事
+    opt: 试着问一问，看对方怎么说
+    opt: 人不见了，不知道去了哪里
+    note: 别墅 = une villa, a
+--- Q83 P6 [B2] 单选 key='A'
+    body: 今年的双11快递怎么样？ A. 没有一天爆掉 · B. 11月11日一天爆掉 · C. 快递都停了
+    note: Aucun jour n'a explosé ; chaque jour était chargé.
+--- Q84 P6 [B2] 单选 key='A'
+    body: 22天总数是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+    note: Le total sur 22 jours est de 139,38 milliards d'articles.
+--- Q85 P6 [B2] 单选 key='A'
+    body: 单日最高是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+    note: Le meilleur jour a atteint 777 millions d'articles.
+--- Q86 P6 [B2] 单选 key='A'
+    body: 配送高峰在哪几天？ A. 11月12日到15日 · B. 11月9日到11日 · C. 10月20日到21日
+    note: Le pic de livraison est du 12 au 15 nov.
+--- Q87 P6 [B2] 单选 key='B'
+    body: 包裹到了以后，先做什么？ A. 直接确认收货 · B. 先打开看一看 · C. 先放一个月
+    note: Ouvre le colis et vérifie avant de confirmer la réception.
+--- Q88 P6 [B2] 完成句子 key='打散'
+    body: 快递量被___了，没有一天突然爆掉。
+    note: dǎsàn — le pic a été étalé, pas en un jour.
+--- Q89 P6 [B2] 完成句子 key='批'
+    body: 货是分好几___发的。
+    note: pī — les marchandises partent en plusieurs lots.
+--- Q90 P6 [B2] 完成句子 key='二十二'
+    body: 139.38亿件是___天的总数。
+    note: 139.38亿件 est le total de 22 jours.
+--- Q91 P6 [B2] 完成句子 key='亿'
+    body: 单日最高是7.77___件。
+    note: yì — 100 millions ; 7.77亿件 en un jour.
+--- Q92 P6 [B2] 完成句子 key='4'
+    body: 高铁急送最快___小时门到门。
+    note: Express ferroviaire : 4 heures de porte à porte.
+--- Q93 P6 [B2] 完成句子 key='139.38'
+    body: 22天总数是___亿件。
+    note: Le total sur 22 jours est de 139.38亿件.
+--- Q94 P6 [B2] 完成句子 key='7.77'
+    body: 单日最高是___亿件。
+    note: Le meilleur jour a atteint 7.77亿件.
+--- Q95 P6 [B2] 完成句子 key='一天'
+    body: 图里两根柱子，一个是22天总数，一个是___最高量。
+    note: Une barre est un total sur 22 jours, l'autre le pic d'un jour.
+--- Q96 P6 [B2] 完成句子 key='数据'
+    body: 139.38亿件和7.77亿件，都是邮政局的___，不是广告词。
+    note: shùjù — des chiffres mesurés, pas des affirmations.
+--- Q97 P6 [B2] 词汇配对 key='c'
+    body: MATCH left: 说法
+    opt: 还没发生的事，先猜一猜
+    opt: 大概的数字，还没最后数完
+    opt: 别人说的话，不一定是真的
+    opt: 量出来的数字
+    note: 说法 = une affirmation, c
+--- Q98 P6 [B2] 词汇配对 key='d'
+    body: MATCH left: 数据
+    opt: 还没发生的事，先猜一猜
+    opt: 大概的数字，还没最后数完
+    opt: 别人说的话，不一定是真的
+    opt: 量出来的数字
+    note: 数据 = des chiffres mesurés, d
+--- Q99 P6 [B2] 词汇配对 key='a'
+    body: MATCH left: 预报
+    opt: 还没发生的事，先猜一猜
+    opt: 大概的数字，还没最后数完
+    opt: 别人说的话，不一定是真的
+    opt: 量出来的数字
+    note: 预报 = une prévision, a
+--- Q100 P6 [B2] 词汇配对 key='b'
+    body: MATCH left: 预计
+    opt: 还没发生的事，先猜一猜
+    opt: 大概的数字，还没最后数完
+    opt: 别人说的话，不一定是真的
+    opt: 量出来的数字
+    note: 预计 = une estimation, b
+--- Q101 P7 [A2] 完成句子 key='个'
+    body: 我拿了___包裹。
+    note: 包裹 prend le classificateur 个 gè.
+--- Q102 P7 [A2] 单选 key='A'
+    body: 「决赛」是什么意思？ A. 最后一场比赛 · B. 第一场比赛 · C. 练习赛
+    note: 决赛 veut dire la finale, le dernier match.
+--- Q103 P7 [A2] 完成句子 key='决赛'
+    body: 11月15日凌晨3点，BLG和GEN打___。
+    note: juésài — la finale ; BLG contre GEN le 15 nov.
+--- Q104 P7 [A2] 单选 key='A'
+    body: 哪个说法对？ A. 一个包裹 · B. 一只包裹 · C. 一条包裹
+    note: Les colis prennent 个 — pas 只 ni 条.
+--- Q105 P7 [B1] 单选 key='B'
+    body: 「凌晨3点」是什么时候？ A. 下午3点 · B. 半夜3点 · C. 中午12点
+    note: 凌晨 língchén — les petites heures après minuit.
+--- Q106 P7 [B1] 完成句子 key='早上'
+    body: 半决赛在北京时间11月8日___6点开始。（不是晚上）
+    note: 06:00, c'est 早上 — pas le soir.
+--- Q107 P7 [B1] 单选 key='A'
+    body: 哪个顺序对？ A. 11月22日星期日 · B. 星期日11月22日 · C. 星期日小雪11月22日
+    note: Ordre du grand au petit : 22 nov., dimanche.
+--- Q108 P7 [B1] 完成句子 key='周日'
+    body: 11月22日是星期日，也可以说___。小雪在这天。
+    note: Le 22 nov. est un dimanche — 周日.
+--- Q109 P7 [B2] 单选 key='A'
+    body: 「139.38亿件」在第6版里是什么？ A. 已经数完的事实 · B. 邮政局的预计 · C. 广告词
+    note: « 139.38亿件 » : chiffre définitif de la poste, déjà compté.
+--- Q110 P7 [B2] 完成句子 key='数据'
+    body: 买东西以前，先看___，再看广告。
+    note: shùjù — des chiffres mesurés, pas des affirmations.
+--- Q111 P7 [B2] 单选 key='B'
+    body: 读新闻时，哪个做法最好？ A. 只看标题 · B. 先看数据和结算页 · C. 只看评论
+    note: Données et caisse d'abord, titre en dernier.
+--- Q112 P7 [B2] 完成句子 key='预报'
+    body: 「第三波是最高峰」是___，还没发生。
+    note: yùbào — une prévision est prédite, pas encore un fait.
+--- Q113 P8 [A2] 完形单选 key='A'
+    body: 小雪在11月22日。(A. 对 · B. 错)
+    note: La Petite Neige (小雪) est le 22 nov.
+--- Q114 P8 [A2] 完形单选 key='B'
+    body: 今年是第20个小雪节气。(A. 对 · B. 错)
+    note: 小雪 est le 20e terme solaire, pas la 20e Petite Neige.
+--- Q115 P8 [A2] 完形单选 key='B'
+    body: 快递高峰只有一波。(A. 对 · B. 错)
+    note: Le pic des colis vient en trois vagues, pas en une seule.
+--- Q116 P8 [B1] 完形单选 key='A'
+    body: GEN进了决赛。(A. 对 · B. 错)
+    note: GEN a atteint la finale, pas IG.
+--- Q117 P8 [B1] 完形单选 key='A'
+    body: 半决赛在北京时间早上6点开始。(A. 对 · B. 错)
+    note: Les demi-finales commencent à 06:00 heure de Pékin.
+--- Q118 P8 [B1] 完形单选 key='B'
+    body: 《试探》是2019年的电影。(A. 对 · B. 错)
+    note: 《试探》 sort le 21 nov. 2026 ; c'est un nouveau film.
+--- Q119 P8 [B1] 完形单选 key='A'
+    body: 《试探》11月21日上映。(A. 对 · B. 错)
+    note: 《试探》 sort le 21 nov.
+--- Q120 P8 [B1] 完形单选 key='B'
+    body: 深圳读书月11月9日开幕。(A. 对 · B. 错)
+    note: Mois de la lecture : 1er nov., pas le 9.
+--- Q121 P8 [A2] 单选 key='B'
+    body: 决赛在北京时间哪天？ A. 11月14日凌晨3点 · B. 11月15日凌晨3点 · C. 11月8日早上6点
+    note: Finale : 15 nov., 03:00 heure de Pékin.
+--- Q122 P8 [A2] 单选 key='A'
+    body: 半决赛，BLG打赢了哪个队？ A. T1 · B. DK · C. IG
+    note: BLG a battu T1 3-1 en demi-finale.
+--- Q123 P8 [B1] 单选 key='B'
+    body: 四分之一决赛，IG打赢了哪个队？ A. GEN · B. TES · C. LYON
+    note: IG a battu TES 3-1 en quart de finale.
+--- Q124 P8 [B1] 单选 key='B'
+    body: 22天快递总数是多少？ A. 7.77亿件 · B. 139.38亿件 · C. 6.34亿件
+    note: Le total sur 22 jours est de 139,38 milliards d'articles.
+--- Q125 P8 [B1] 单选 key='B'
+    body: 单日最高是多少？ A. 139.38亿件 · B. 7.77亿件 · C. 6.34亿件
+    note: Le meilleur jour a atteint 777 millions d'articles.
+--- Q126 P8 [B1] 单选 key='A'
+    body: 《试探》的主演是谁？ A. 冯绍峰 · B. 刘德华 · C. 朱塞佩·托纳托雷
+    note: 《试探》, avec Feng Shaofeng.
+--- Q127 P8 [B1] 单选 key='B'
+    body: 文化馆之夜在哪天？ A. 11月7日 · B. 11月14日 · C. 11月1日
+    note: La nuit culturelle, c'est le 14 novembre.
+--- Q128 P8 [B1] 单选 key='A'
+    body: 小雪是第几个节气？ A. 第20个 · B. 第24个 · C. 第2个
+    note: 小雪 est le 20e terme solaire.
+--- Q129 P8 [B1] 单选 key='A'
+    body: 小雪三候的第一候是什么？ A. 虹藏不见 · B. 天气上升 · C. 闭塞而成冬
+    note: La première phase est 虹藏不见.
+--- Q130 P8 [B1] 单选 key='A'
+    body: 决赛的两个队是？ A. BLG和GEN · B. IG和T1 · C. TES和DK
+    note: La finale est BLG contre GEN.
+--- Q131 P8 [A2] 完成句子 key='小雪'
+    body: 11月22日是___。
+    note: La Petite Neige (小雪) est le 22 nov.
+--- Q132 P8 [A2] 完成句子 key='15'
+    body: 决赛在11月___日凌晨3点。
+    note: La finale S16, c'est le 15 novembre, heure de Pékin.
+--- Q133 P8 [B1] 完成句子 key='T1'
+    body: 半决赛，BLG 3比1打赢了___。
+    note: BLG a battu T1 3-1 en demi-finale.
+--- Q134 P8 [A2] 完成句子 key='139.38'
+    body: 22天快递总数是___亿件。
+    note: Le total sur 22 jours est de 139.38亿件.
+--- Q135 P8 [B1] 完成句子 key='21'
+    body: 《试探》11月___日上映。
+    note: 《试探》 sort le 21 nov.
+--- Q136 P8 [B1] 完成句子 key='20'
+    body: 小雪是第___个节气。
+    note: 小雪 est le 20e terme solaire.
+--- Q137 P8 [B2] 完成句子 key='7.77'
+    body: 单日最高是___亿件。
+    note: Le meilleur jour a atteint 7.77亿件.
+--- Q138 P8 [A2] 完成句子 key='14'
+    body: 文化馆之夜在11月___日。
+    note: La nuit culturelle, c'est le 14 novembre.
+--- Q139 P8 [B1] 完成句子 key='GEN'
+    body: 决赛是BLG对___。
+    note: La finale est BLG contre GEN.
+--- Q140 P8 [B1] 完成句子 key='冷'
+    body: 小雪之后，天气会更___。
+    note: Après la Petite Neige, le temps devient plus froid.
+--- Q141 P8 [A2] 单选 key='A'
+    body: 小林住在哪里？ A. 深圳 · B. 北京 · C. 广州
+    note: Xiao Lin vit à Shenzhen.
+--- Q142 P8 [A2] 单选 key='A'
+    body: 11月8日，小林看了什么？ A. 半决赛 · B. 期中考试 · C. 运动会
+    note: Le 8 nov., il a regardé la demi-finale.
+--- Q143 P8 [B1] 单选 key='B'
+    body: 他买了什么？ A. 毛衣 · B. 书 · C. 帽子
+    note: Il a acheté un livre en ligne.
+--- Q144 P8 [B1] 单选 key='B'
+    body: 他和谁一起去文化馆？ A. 爸爸 · B. 妈妈 · C. 老师
+    note: Il est allé au centre culturel avec sa mère.
+--- Q145 P8 [B2] 单选 key='A'
+    body: 这段话的顺序是什么？ A. 先看半决赛，再拿包裹，再去文化馆 · B. 先去文化馆，再看半决赛 · C. 先拿包裹，再看半决赛
+    note: Ordre : demi-finale, puis colis, puis centre culturel.
+--- Q146 P8 [B1] 完成句子 key='深圳'
+    body: 小林住在___。
+    note: Xiao Lin vit à Shenzhen.
+--- Q147 P8 [B1] 完形单选 key='A'
+    body: — 包裹到了，怎么办？ — 先看___，再开柜门。(A. 取件码 · B. 电影票)
+    note: Vérifie le code de retrait, puis ouvre le casier.
+--- Q148 P8 [B1] 完形单选 key='A'
+    body: — 小雪之后，怎么办？ — 多穿一件，别___。(A. 着凉 · B. 熬夜)
+    note: Après la Petite Neige, habille-toi plus chaudement et ne prends pas froid.
+--- Q149 P8 [B2] 完形单选 key='A'
+    body: — 这条新闻说单日最高7.77亿件，可信吗？ — 先看___，再看广告。(A. 数据 · B. 评论)
+    note: Règle p. 6 : données d'abord, pub en dernier.
+--- Q150 P8 [B1] 写作 key='(开放题，范文如下)'
+    body: 写一写《小雪那一周》：S16决赛、包裹、小雪，这一周你做了什么？写 120~180 字。
+    note: Tâche ouverte — la réponse modèle est imprimée plus haut, section F (138 caractères)

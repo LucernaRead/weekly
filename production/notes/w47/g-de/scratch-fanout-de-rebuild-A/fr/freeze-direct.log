@@ -1,0 +1,14 @@
+source files core: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 721, 'verify.py': 167}
+source files edition: {'bslib4.py': 100, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 730, 'verify.py': 167}
+source literals: core=2556 edition=2564 removed=520 added=528
+unaccounted removed: 0; unaccounted added: 0
+  p1: frozen=147 (core 191 / edition 177) sha8=083e2a2a PASS
+  p2: frozen=163 (core 194 / edition 198) sha8=689045ad PASS
+  p3: frozen=195 (core 241 / edition 239) sha8=fc88f676 PASS
+  p4: frozen=166 (core 187 / edition 191) sha8=df1bebf7 PASS
+  p5: frozen=173 (core 217 / edition 213) sha8=86fa4421 PASS
+  p6: frozen=175 (core 207 / edition 212) sha8=2bbe05f9 PASS
+  p7: frozen=150 (core 227 / edition 212) sha8=b7aa0771 PASS
+  p8: frozen=186 (core 323 / edition 329) sha8=57e118e7 PASS
+source level: PASS; rendered: 8/8
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-de-rebuild-A/fr/freeze-direct.json

@@ -1,0 +1,26 @@
+===== pt 2026-11-12T19:24:42Z =====
+run.py rc=0
+TOTAL 150
+render.py rc=0
+print PDF mtime=2026-11-12 19:25:19.422906084 +0000 size=20883753
+6ed8d2b9ba49798121b81ce1944e9f37c5e9f0c5152763ce813f1a1b69d04117  Lucerna-VOL4-ru-pt.pdf
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 30532 bytes
+WROTE Lucerna-VOL4-ru-pt-web.pdf: 3337277 bytes, 58388 text bytes
+web PDF mtime=2026-11-12 19:25:40.662330654 +0000 size=3337277
+f71d4e50cf40b4babc836acc5b2d12bb1b0230d2621d8107d3daedb0f139a9a8  Lucerna-VOL4-ru-pt-web.pdf
+text.md (must be unchanged):
+00e972b717fb34055f76a435be87ba5fc51acbd9011ab34aba9eba373cbf5532  2026-w47-ru-pt.text.md
+text.md size=65113
+text.md diff: 0 lines
+SVG diff vs pre:
+p1-pervaya.svg: FAILED
+p2-zhizn.svg: OK
+p3-kultura.svg: OK
+p4-sport.svg: OK
+p5-molodezh.svg: OK
+p6-razbor.svg: OK
+p7-yazyk.svg: OK
+p8-test.svg: OK
+sha256sum: WARNING: 1 computed checksum did NOT match
+BUILD DONE pt 2026-11-12T19:25:40Z

@@ -1,0 +1,14 @@
+p1-une.svg: els 189->244 lines 114->114 diff 0 moved 17 defects 0 observe 0
+p2-vie.svg: els 191->265 lines 132->132 diff 0 moved 12 defects 0 observe 0
+p3-culture.svg: els 200->252 lines 142->142 diff 4 moved 18 defects 1 observe 0
+  DEFECT abs box#2 y=1177.6 'LES DATES EN CHIFFRES' over={'right': 7.6}
+p4-sport.svg: els 216->257 lines 158->158 diff 0 moved 15 defects 1 observe 0
+  DEFECT abs box#1 y=586.83 'LES PHRASES DU COMMENTATEUR' over={'right': 36.5}
+p5-jeunesse.svg: els 202->241 lines 146->146 diff 3 moved 14 defects 0 observe 0
+p6-politique.svg: els 213->253 lines 159->159 diff 2 moved 15 defects 1 observe 0
+  DEFECT abs box#3 y=1367.0 'TROIS DATES POUR COMPRENDRE' over={'right': 24.5}
+p7-langue.svg: els 185->254 lines 107->107 diff 6 moved 12 defects 0 observe 0
+p8-exercices.svg: els 321->915 lines 191->191 diff 44 moved 39 defects 0 observe 0
+ratios: n=495 median=1.014 boldT=1.049 boldF=1.002
+P8 p8-exercices.svg: lines 191->191 slack_footer 37.1->37.1
+CREAMBOX FAIL 3 defects

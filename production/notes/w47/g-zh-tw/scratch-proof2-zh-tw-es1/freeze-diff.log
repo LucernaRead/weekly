@@ -1,0 +1,11 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +25 strings / -25 strings; CJK core 892 -> edition 883; added CJK chars: 6 {'西': 2, '班': 2, '牙': 2}
+p2: +43 strings / -39 strings; CJK core 1111 -> edition 1108; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p3: +49 strings / -47 strings; CJK core 1198 -> edition 1195; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p4: +41 strings / -38 strings; CJK core 810 -> edition 807; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p5: +51 strings / -45 strings; CJK core 1220 -> edition 1217; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p6: +34 strings / -33 strings; CJK core 884 -> edition 881; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p7: +111 strings / -106 strings; CJK core 822 -> edition 819; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+p8: +191 strings / -187 strings; CJK core 1114 -> edition 1111; added CJK chars: 3 {'西': 1, '班': 1, '牙': 1}
+TOTAL added CJK characters: 27

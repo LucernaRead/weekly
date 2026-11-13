@@ -1,0 +1,57 @@
+== post-fix rescan (current text.md) ==
+core: text.md 757 types, print 757 types, candidates 3
+   'cn' x1  lines [1]
+   'portada' x1  lines [3]
+   'zh' x1  lines [1]
+de: text.md 1142 types, print 1144 types, candidates 1
+   'portada' x1  lines [3]
+en: text.md 1110 types, print 1113 types, candidates 1
+   'portada' x1  lines [3]
+fr: text.md 1108 types, print 1112 types, candidates 2
+   'fr' x1  lines [1, 29, 97, 100, 267, 501]
+   'portada' x1  lines [3]
+it: text.md 1068 types, print 1069 types, candidates 2
+   'it' x1  lines [1, 29, 77, 110, 162, 172]
+   'portada' x1  lines [3]
+ja: text.md 756 types, print 757 types, candidates 2
+   'ja' x1  lines [1, 1231, 1270, 1294, 1347, 1553]
+   'portada' x1  lines [3]
+ko: text.md 756 types, print 759 types, candidates 2
+   'ko' x1  lines [1]
+   'portada' x1  lines [3]
+nl: text.md 1102 types, print 1106 types, candidates 2
+   'nl' x1  lines [1]
+   'portada' x1  lines [3]
+pt: text.md 1014 types, print 1015 types, candidates 2
+   'portada' x1  lines [3]
+   'pt' x1  lines [1, 110, 269, 1722]
+ru: text.md 1186 types, print 1188 types, candidates 2
+   'portada' x1  lines [3]
+   'ru' x1  lines [1, 575, 643, 1095, 1128, 1470]
+zh-tw: text.md 757 types, print 757 types, candidates 3
+   'portada' x1  lines [3]
+   'tw' x1  lines [1]
+   'zh' x1  lines [1]
+
+== method self-check: pre-J1-fix backups (must surface the 4 glue words) ==
+de: glue words found in pre-fix diff: ['confinal'] (expect per FIX-LOG-5 §5)
+en: glue words found in pre-fix diff: ['confinal', 'unasondeo'] (expect per FIX-LOG-5 §5)
+fr: glue words found in pre-fix diff: ['confinal', 'esjueves', 'unasondeo'] (expect per FIX-LOG-5 §5)
+it: glue words found in pre-fix diff: ['confinal', 'unasondeo'] (expect per FIX-LOG-5 §5)
+nl: glue words found in pre-fix diff: ['confinal'] (expect per FIX-LOG-5 §5)
+pt: glue words found in pre-fix diff: ['confinal', 'unamuestra'] (expect per FIX-LOG-5 §5)
+ru: glue words found in pre-fix diff: ['confinal', 'unamuestra'] (expect per FIX-LOG-5 §5)
+
+== secondary 9-class pattern sweep (all 11 text.md) ==
+core: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+de: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+en: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+fr: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+it: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+ja: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+ko: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+nl: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+pt: {'digit-glue [a-z][0-9]': {'w4': 1, 'h3': 5, 'h0': 2}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+ru: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+zh-tw: {'digit-glue [a-z][0-9]': {'w4': 1}, 'digit->cap [0-9][A-ZÀ-Þ]': {'9N': 2}, 'camel [a-z][A-Z]': {'aS': 9, 'aL': 1, 'iD': 8}}
+RESCAN6 DONE

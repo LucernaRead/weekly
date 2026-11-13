@@ -1,0 +1,62 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== print: 8 pages, /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-pt/Lucerna-VOL4-ru-pt.pdf
+  p1: W=1462.5 H=2025.0 min-font=11.62 max-x1=1415.6 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p1 x0=1359.6 x1=1397.7 size=12.8 'ГОДА'
+    OVERFLOW p1 x0=1165.1 x1=1397.6 size=20.2 'O QUE DIZEM OS MEDIA'
+    OVERFLOW p1 x0=1229.6 x1=1415.6 size=16.5 'A PALAVRA DA SEMANA'
+    OVERFLOW p1 x0=1244.9 x1=1400.2 size=15.0 'Respostas na página 8'
+    OVERFLOW p1 x0=1318.5 x1=1397.1 size=12.8 'Página 1 de 8'
+  p2: W=1462.5 H=2025.0 min-font=11.62 max-x1=1402.5 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p2 x0=1084.3 x1=1398.1 size=15.0 'Quatro palavras sobre o tempo de novembro'
+    OVERFLOW p2 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p2 x0=1119.7 x1=1402.5 size=17.2 ' Международныйдень студента'
+    OVERFLOW p2 x0=1318.5 x1=1397.1 size=12.8 'Página 2 de 8'
+  p3: W=1462.5 H=2025.0 min-font=12.75 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p3 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p3 x0=1318.5 x1=1397.1 size=12.8 'Página 3 de 8'
+  p4: W=1462.5 H=2025.0 min-font=11.62 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p4 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p4 x0=1318.5 x1=1397.1 size=12.8 'Página 4 de 8'
+  p5: W=1462.5 H=2025.0 min-font=11.62 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p5 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p5 x0=1318.5 x1=1397.1 size=12.8 'Página 5 de 8'
+  p6: W=1462.5 H=2025.0 min-font=12.75 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p6 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p6 x0=1318.5 x1=1397.1 size=12.8 'Página 6 de 8'
+  p7: W=1462.5 H=2025.0 min-font=11.62 max-x1=1397.1 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p7 x0=1318.5 x1=1397.1 size=12.8 'Página 7 de 8'
+  p8: W=1462.5 H=2025.0 min-font=9.75 max-x1=1399.4 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p8 x0=1283.6 x1=1399.4 size=14.6 '✓= texto modelo'
+    OVERFLOW p8 x0=1318.5 x1=1397.1 size=12.8 'Página 8 de 8'
+  P8 font-size histogram: [(9.75, 386), (9.98, 24), (10.35, 255), (10.88, 64), (11.25, 37), (12.75, 5), (13.5, 2), (14.25, 35), (14.62, 12), (15.38, 2), (15.75, 16), (17.25, 13), (18.0, 43), (18.75, 2), (34.5, 3)]
+== web: 8 pages, /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-pt/Lucerna-VOL4-ru-pt-web.pdf
+  p1: W=1462.5 H=2025.0 min-font=11.62 max-x1=1415.6 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p1 x0=1359.6 x1=1397.0 size=12.8 'ГОДА'
+    OVERFLOW p1 x0=1165.1 x1=1397.6 size=20.2 'O QUE DIZEM OS MEDIA'
+    OVERFLOW p1 x0=1229.6 x1=1415.6 size=16.5 'A PALAVRA DA SEMANA'
+    OVERFLOW p1 x0=1244.9 x1=1400.2 size=15.0 'Respostas na página 8'
+    OVERFLOW p1 x0=1318.5 x1=1397.1 size=12.8 'Página 1 de 8'
+  p2: W=1462.5 H=2025.0 min-font=11.62 max-x1=1401.5 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p2 x0=1084.3 x1=1398.1 size=15.0 'Quatro palavras sobre o tempo de novembro'
+    OVERFLOW p2 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p2 x0=1119.7 x1=1401.5 size=17.2 ' Международный день студента'
+    OVERFLOW p2 x0=1318.5 x1=1397.1 size=12.8 'Página 2 de 8'
+  p3: W=1462.5 H=2025.0 min-font=12.75 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p3 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p3 x0=1318.5 x1=1397.1 size=12.8 'Página 3 de 8'
+  p4: W=1462.5 H=2025.0 min-font=11.62 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p4 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p4 x0=1318.5 x1=1397.1 size=12.8 'Página 4 de 8'
+  p5: W=1462.5 H=2025.0 min-font=11.62 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p5 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p5 x0=1318.5 x1=1397.1 size=12.8 'Página 5 de 8'
+  p6: W=1462.5 H=2025.0 min-font=12.75 max-x1=1399.7 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p6 x0=957.3 x1=1399.7 size=15.0 'Os níveis podem misturar-se; procure pelo número do exercíci'
+    OVERFLOW p6 x0=1318.5 x1=1397.1 size=12.8 'Página 6 de 8'
+  p7: W=1462.5 H=2025.0 min-font=11.62 max-x1=1397.1 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p7 x0=1318.5 x1=1397.1 size=12.8 'Página 7 de 8'
+  p8: W=1462.5 H=2025.0 min-font=9.75 max-x1=1399.4 (right margin 1396.5) min-x0=66.0 (left margin 66)
+    OVERFLOW p8 x0=1283.6 x1=1399.4 size=14.6 '✓= texto modelo'
+    OVERFLOW p8 x0=1318.5 x1=1397.1 size=12.8 'Página 8 de 8'
+  P8 font-size histogram: [(9.75, 386), (9.98, 24), (10.35, 255), (10.88, 64), (11.25, 37), (12.75, 5), (13.5, 2), (14.25, 35), (14.62, 12), (15.38, 2), (15.75, 16), (17.25, 13), (18.0, 43), (18.75, 2), (34.5, 3)]

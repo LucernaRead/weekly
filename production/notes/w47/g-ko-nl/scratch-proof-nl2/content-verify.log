@@ -1,0 +1,61 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print tokens: 6591 web tokens: 6591
+page 1: print 760 web 760 positional-diff 0 multiset-diff 0
+page 2: print 717 web 717 positional-diff 0 multiset-diff 0
+page 3: print 673 web 673 positional-diff 0 multiset-diff 0
+page 4: print 659 web 659 positional-diff 0 multiset-diff 0
+page 5: print 700 web 700 positional-diff 0 multiset-diff 0
+page 6: print 659 web 659 positional-diff 0 multiset-diff 0
+page 7: print 738 web 738 positional-diff 0 multiset-diff 0
+page 8: print 1685 web 1685 positional-diff 0 multiset-diff 0
+headline non-ws chars: 38
+golden sentences: 8
+  p1 OK: Op maandag 16 november speelt Oranje in Berlijn tegen Duitsl
+  p1 OK: Na vier wedstrijden staan Nederland en Griekenland samen bov
+  p2 OK: Op zaterdag 5 december is het pakjesavond: de avond met de g
+  p3 OK: Op zaterdag 14 november kwam Sinterklaas officieel aan in Ne
+  p4 OK: Nederland staat eerste, omdat het meer doelpunten maakte: 7 
+  p5 OK: Elke zondag om 20:00 uur is Expeditie Robinson te zien op RT
+  p6 OK: Sinterklaas is een oud feest in Nederland
+  p6 OK: Een traditie leeft als mensen haar blijven vieren
+gloss lines: 14
+  gloss 'de groepswinst': OK
+  gloss 'de kwartfinale': OK
+  gloss 'de intocht': OK
+  gloss 'het verlanglijstje': OK
+  gloss 'de schoen': OK
+  gloss 'de wortel': OK
+  gloss 'het verlanglijstje': OK
+  gloss 'de surprise': OK
+  gloss 'het gedicht': OK
+  gloss 'de vestingstad': OK
+  gloss 'ontvangen': OK
+  gloss 'de sleutel': OK
+  gloss 'de editie': OK
+  gloss 'de leeskring': OK
+  gloss 'de groepswinst': OK
+  gloss 'de kwartfinale': OK
+  gloss 'ongeslagen': OK
+  gloss 'de interland': OK
+  gloss 'de stand': OK
+  gloss 'de surprise': OK
+  gloss 'het gedicht': OK
+  gloss 'de verslaggever': OK
+  gloss 'de proef': OK
+  gloss 'de aflevering': OK
+  gloss 'het verlanglijstje': OK
+  gloss 'de surprise': OK
+  gloss 'het gedicht': OK
+  gloss 'veranderen': OK
+  gloss 'de traditie': OK
+  gloss 'Op': OK
+  gloss 'Na': OK
+  gloss 'Op': OK
+  gloss 'Op': OK
+  gloss 'Nederland': OK
+  gloss 'Elke': OK
+  gloss 'Sinterklaas': OK
+  gloss 'Een': OK
+exercise numbers: 150 continuous 1-150: True
+abstract bytes: 324 lines: 2 has ASCII quote: False

@@ -1,0 +1,121 @@
+appendix entries: 150 range: 1 150 continuous: True
+registry-vs-appendix key mismatches: 0
+levels registry: {'A2': 62, 'B1': 66, 'B2': 22}
+levels appendix: {'A2': 62, 'B1': 66, 'B2': 22}
+per-page counts: {1: 10, 2: 17, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 39} total: 150
+text.md '“' x85
+text.md '”' x85
+text.md '«' x0
+text.md '»' x0
+straight ' x 44  U+2019 x 0
+banned tokens in text.md (excl line 1 header):
+   W47 [1] count 1
+   2026-W47 [1] count 1
+   cover [] count 0
+   SOP [] count 0
+   proofread [] count 0
+   VOL. [1, 9, 17, 43, 227, 355, 661, 711, 869, 871] count 13
+  Ashes-2027 line 43 : The new Congress meets in January 2027. Until then, the old Congress finishes its work — and the winners plan theirs. This week also brings the jungle back to t
+  Ashes-2027 line 753 : Try it: win / won — ask “Will England win the next Ashes?” about the future: the next series is in England, in June 2027. About last year: “Australia won the fi
+  Ashes-2027 line 883 : Thanksgiving in America. The Ashes: England's rematch waits until June 2027. More certified results of the midterm election. And your letters — the first real o
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 8: text=Sunday real=Sunday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 16: text=Monday real=Monday
+  Nov 9: text=Monday real=Monday
+  Nov 10: text=Tuesday real=Tuesday
+  Nov 26: text=Thursday real=Thursday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 22: text=Sunday real=Sunday
+  Nov 21: text=Saturday real=Saturday
+  Nov 9: text=Monday real=Monday
+  Nov 8: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 15: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 21: text=Friday real=Saturday  <<< MISMATCH
+  Nov 21: text=Saturday real=Saturday
+  Nov 22: text=Sunday real=Sunday
+  Nov 19: text=Thursday real=Thursday
+  Nov 22: text=Sunday real=Sunday
+  Nov 15: text=Sunday real=Sunday
+  Nov 22: text=Sunday real=Sunday
+  Nov 21: text=Friday real=Saturday  <<< MISMATCH
+  Nov 21: text=Saturday real=Saturday
+  Nov 19: text=Thursday real=Thursday
+  Nov 21: text=Saturday real=Saturday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 26: text=Thursday real=Thursday
+  Nov 20: text=Friday real=Friday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 8: text=Sunday real=Sunday
+  Nov 8: text=Sunday real=Sunday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 26: text=Thursday real=Thursday
+  Nov 27: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 19: text=Thursday real=Thursday
+  Nov 22: text=Sunday real=Sunday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 20: text=Friday real=Friday
+  Nov 26: text=Thursday real=Thursday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 27: text=Friday real=Friday
+  Nov 26: text=Thursday real=Thursday
+  Nov 16: text=Monday real=Monday
+  Nov 26: text=Thursday real=Thursday
+  Nov 27: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 3: text=Tuesday real=Tuesday
+  Nov 8: text=Sunday real=Sunday
+  Nov 16: text=Monday real=Monday
+  Nov 20: text=Friday real=Friday
+  Nov 16: text=Monday real=Monday
+  Nov 15: text=Sunday real=Sunday
+  Nov 20: text=Friday real=Friday
+  Nov 20: text=Friday real=Friday
+  Nov 26: text=Thursday real=Thursday
+  Nov 16: text=Monday real=Monday
+  Nov 16: text=Monday real=Monday
+  Nov 27: text=Friday real=Friday
+  Nov 26: text=Thursday real=Thursday
+check done

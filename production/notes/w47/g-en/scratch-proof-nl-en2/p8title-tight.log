@@ -1,0 +1,20 @@
+edition tight band y[185,201] x[88,510.5]: dark n=14538 rightmost x=320.63 leftmost x=88.00 bottom row y=201.00 top row y=185.00
+   -> title ink right ~320.63; col1 right edge 510.5; margin 189.87px
+   row y=185.0: rightmost x=237.75
+   row y=187.8: rightmost x=320.63
+   row y=190.7: rightmost x=320.63
+   row y=193.6: rightmost x=320.63
+   row y=196.5: rightmost x=320.63
+   row y=199.4: rightmost x=320.63
+   col2 badge zone x[530,610] same rows: leftmost dark x=538.64 (badge rect left edge 538.5; AA bleed -0.14px)
+   naive full-row scan would report title reaching 538.64 = 510.5+28.14px past col1 edge (the ko -26.5 artifact class)
+core tight band y[185,201] x[88,510.5]: dark n=14538 rightmost x=320.63 leftmost x=88.00 bottom row y=201.00 top row y=185.00
+   -> title ink right ~320.63; col1 right edge 510.5; margin 189.87px
+   row y=185.0: rightmost x=237.75
+   row y=187.8: rightmost x=320.63
+   row y=190.7: rightmost x=320.63
+   row y=193.6: rightmost x=320.63
+   row y=196.5: rightmost x=320.63
+   row y=199.4: rightmost x=320.63
+   col2 badge zone x[530,610] same rows: leftmost dark x=538.64 (badge rect left edge 538.5; AA bleed -0.14px)
+   naive full-row scan would report title reaching 538.64 = 510.5+28.14px past col1 edge (the ko -26.5 artifact class)

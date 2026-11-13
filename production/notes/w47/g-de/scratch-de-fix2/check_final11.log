@@ -1,0 +1,38 @@
+=== D1: stem sizes (ex() renders bodies only at 22 P1-P7 / 20.5 P8) ===
+P1: stems at 22.0 units (16.5pt): 10/10
+P2: stems at 22.0 units (16.5pt): 14/14
+P3: stems at 22.0 units (16.5pt): 18/18
+P4: stems at 22.0 units (16.5pt): 14/14
+P5: stems at 22.0 units (16.5pt): 18/18
+P6: stems at 22.0 units (16.5pt): 18/18
+P7: stems at 22.0 units (16.5pt): 12/12
+P8: stems at 20.5 units (15.375pt): 20/20
+
+=== D2: 'Ligaphase' occurrences in P4 (joined text) ===
+  count: 2 | article has 'Spieltag der Ligaphase': True | gloss has it: True
+
+=== D3: 'Buße' occurrences in P6 (joined text) ===
+  count: 3 | article has 'lädt zur Buße': True
+
+=== D5: Q42 (joined P3 text) ===
+  new stem present: True
+  old stem present (must be False): False
+  option A present: True
+  P8 key 42: 42. A（市场比将临期早近两周开市） 
+
+=== D4: P1 lead (joined text) ===
+  '13. November' present: True
+  'Deutschland traf in Belgrad auf Serbien' present: True
+  'nur Kinder und 50 deutsche Fans' present: True
+  'vor fast leeren Rängen' present: True
+  old 'trifft Deutschland in Belgrad' present (must be False): False
+  old 'Am Freitag (20.45 Uhr)' present (must be False): False
+  P7 toolbox updated: False
+  P4 joined has 'Serbien' (must be False): False
+  P5 joined has 'Serbien' (must be False): False
+
+=== .text.md ===
+  new P1 sentence in md: True
+  old P1 sentence in md (must be False): False
+  new Q42 stem in md: True
+  'der Ligaphase' in md: True | 'zur Buße' in md: True

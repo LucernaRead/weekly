@@ -1,0 +1,10 @@
+baseline: 0/8 SVGs byte-identical (repointed files: verify.py)
+  DIFF p1-front.svg core 922d9eb7a535f471 produced 
+  DIFF p2-leben.svg core 778c1d3cd035cd56 produced 
+  DIFF p3-kultur.svg core 5af9a66f47321c83 produced 
+  DIFF p4-sport.svg core 1874d75a42b1ae26 produced 
+  DIFF p5-jugend.svg core 6f1e41fe502e7ba4 produced 
+  DIFF p6-vertiefung.svg core 8e5cc4e07624c87a produced 
+  DIFF p7-sprache.svg core a8d85e1e3e5e677e produced 
+  DIFF p8-uebungen.svg core 9960deff48a749c3 produced 
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)

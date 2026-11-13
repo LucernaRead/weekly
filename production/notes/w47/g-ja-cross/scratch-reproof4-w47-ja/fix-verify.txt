@@ -1,0 +1,80 @@
+== 1. FINGERPRINTS (33 files) ==
+core-ja: OK print 25973509/0ce5e4b872ae web 4654731/0f9098ff3bf0 text 44432/55c570f1bd0e
+ja-de: OK print 25813856/4283e8a74ff9 web 4387416/c24dfb09d7d0 text 46520/0d8d1de78a06
+ja-en: OK print 25806211/c6a15edb8a6c web 4379966/0560f0e4ea85 text 45706/fb5a4700d3c9
+ja-es: OK print 25814013/74066b869920 web 4387651/43a26e56278f text 46702/d8e0c3018361
+ja-fr: OK print 25812296/9d4c6114fb31 web 4386312/ef073db3df37 text 46882/badb0a6e7d00
+ja-it: OK print 25807665/e44a8fcba1ba web 4381291/3cb1e9559b3a text 46692/91224d88a55d
+ja-ko: OK print 28141037/b78a3f6d5a39 web 4552025/bdf5074b3698 text 47722/b1736ccf46f8
+ja-nl: OK print 25805479/d6f14754f22c web 4379026/97ee26ba1616 text 45627/7f8f6638e635
+ja-pt: OK print 25814751/3cca426dcbec web 4388490/a573debf0755 text 46696/9c9609378189
+ja-ru: OK print 25970343/04b2f315e267 web 4540808/0726eda64903 text 53004/f934bcf1d9f4
+ja-zh-tw: OK print 25988418/4b09db1088b8 web 4789292/649ac196e81a text 44361/77fb0f36c75b
+fingerprints all match: True
+
+== 2. L1 ja-ko ==
+L1022: 단풍 절정은 교토로 이동하고 있어요. (1면)
+L1299: 98. ○ — 단풍 절정은 북쪽에서 남쪽으로 이동해요
+L188:  해설 — 二十四節気 24절기　働く 일하다
+text.md count 단풍 절정은: 2 (expect 2)
+text.md count 단풍 절기는: 0 (expect 0)
+text.md count 절기: 1 (expect 1, only L188)
+  절기 at L188: 해설 — 二十四節気 24절기　働く 일하다
+py count 단풍 절정은: 2, 단풍 절기는: 0, 절기: 1
+svg raw count 단풍절정은: 0, 단풍절기는: 0, 절기: 1
+PDF print: 단풍절정은=2 단풍절기는=0 절기=1 24절기=1
+PDF web: 단풍절정은=2 단풍절기는=0 절기=1 24절기=1
+
+== 3. L2 ja-es ==
+L1233: 20. 勤労感謝の日 — Lun. 23 nov.: Día de Acción de Gracias por el Trabajo
+L1354: 132. A — Lunes sin clase: Día de Acción de Gracias por el Trabajo
+text.md full count: 2 (expect 2: L1233 + L1354)
+text.md bare short count: 0 (expect 0)
+text.md short-as-substring count: 2 (expect 2)
+py full: 2, bare short: 0
+svg de-whitespace full: 1, bare short: 1
+PDF print: full=2 bare=0 (expect full 2, bare 0)
+PDF web: full=2 bare=0 (expect full 2, bare 0)
+
+== 4. D1 ryuuryuu / rikuryuu, all editions, all layers ==
+core-ja: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-de: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-en: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-es: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-fr: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-it: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-ko: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-nl: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-pt: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-ru: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+ja-zh-tw: py ryuu=0/riku=5 | text ryuu=0/riku=5 | svg ryuu=0/riku=5 | printPDF ryuu=0/riku=5 | webPDF ryuu=0/riku=5
+
+== 5. D2 ja-ko 츄라노우미 / 우미노우미 ==
+text.md 츄라노우미=1 우미노우미=0
+py 츄라노우미=1 우미노우미=0
+svg 츄라노우미=1 우미노우미=0
+PDF print: 츄라노우미=1 우미노우미=0
+PDF web: 츄라노우미=1 우미노우미=0
+
+== 6. L3 ja-es (fix3) ==
+L1276: 60. B — Hōshōryū vuelve tras tres torneos de ausencia
+text.md 'tres torneos perdidos'=0 (expect 0)
+text.md 'tres torneos de ausencia'=1 (expect 1, L1276)
+text.md 'torneos perdidos'=0 (expect 0)
+PDF print (de-whitespace): 'trestorneosperdidos'=0 'trestorneosdeausencia'=1 (expect 0 / 1)
+PDF web (de-whitespace): 'trestorneosperdidos'=0 'trestorneosdeausencia'=1 (expect 0 / 1)
+svg de-whitespace: perdidos=0 ausencia=1
+py 'tres torneos perdidos'=0 'tres torneos de ausencia'=1
+Q132 untouched check, L1354: 132. A — Lunes sin clase: Día de Acción de Gracias por el Trabajo
+text.md full Día de Acción de Gracias por el Trabajo=2 (expect 2)
+
+== 7. L4 ja-it (fix3) ==
+L1355: 132. A — Lunedì niente scuola: Festa del ringraziamento per il lavoro
+L1231 (ans 20): 20. 勤労感謝の日 — 23 nov. (lun.): ringraziamento per il lavoro
+text.md full 'Festa del ringraziamento per il lavoro'=1 (expect 1, L1355)
+text.md bare 'Festa del ringraziamento'=0 (expect 0)
+text.md 'ringraziamento per il lavoro'=2 (expect 2: L1231 + L1355)
+py full=1 bare=0
+svg de-whitespace full=1 bare=0
+PDF print: full=1 bare=0 (expect full 1, bare 0)
+PDF web: full=1 bare=0 (expect full 1, bare 0)

@@ -1,0 +1,10 @@
+registry answers: 150
+printed keys: 150
+text.md risposte: 150
+missing in any source: []
+key diffs: []
+note diffs (reg vs text): []
+Q101-104 registry: {101: ('andremo', 'andare 将来时 noi：andremo', '完成句子'), 102: ('assaggeremo', 'assaggiare 将来时 noi：assaggeremo', '完成句子'), 103: ('guarderemo', 'guardare 将来时 noi：guarderemo', '完成句子'), 104: ('B', 'leggerò 是 leggere 的将来时', '单选')}
+Q101-104 printed: {101: 'andremo', 102: 'assaggeremo', 103: 'guarderemo', 104: 'B'}
+Q101-104 text: {101: ('andremo', 'andare 将来时 noi：andremo'), 102: ('assaggeremo', 'assaggiare 将来时 noi：assaggeremo'), 103: ('guarderemo', 'guardare 将来时 noi：guarderemo'), 104: ('B', 'leggerò 是 leggere 的将来时')}
+writing items: [(150, ('（开放题，范文如下）', '范文见本版 H 区（99 词）', '写作'))]

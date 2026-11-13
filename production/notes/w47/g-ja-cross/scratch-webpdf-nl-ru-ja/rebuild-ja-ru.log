@@ -1,0 +1,35 @@
+=== ja-ru  2026-11-11T23:10:43+00:00 ===
+svg: production/2026-w47/2026-w47-ja-ru/svg
+web: production/2026-w47/2026-w47-ja-ru/Lucerna-VOL4-JA-RU-web.pdf
+print: production/2026-w47/2026-w47-ja-ru/Lucerna-VOL4-JA-RU.pdf
+mem available before: 1460MB
+waiting mem... waited 30s avail 1497MB
+waiting mem... waited 60s avail 1244MB
+waiting mem... waited 90s avail 1192MB
+waiting mem... waited 120s avail 1152MB
+waiting mem... waited 150s avail 1088MB
+waiting mem... waited 180s avail 1054MB
+waiting mem... waited 210s avail 1009MB
+waiting mem... waited 240s avail 1092MB
+waiting mem... waited 270s avail 1053MB
+waiting mem... waited 300s avail 1415MB
+waiting mem... waited 330s avail 1294MB
+waiting mem... waited 360s avail 1239MB
+waiting mem... waited 390s avail 1182MB
+waiting mem... waited 420s avail 938MB
+waiting mem... waited 450s avail 1819MB
+old_sha=dd5fdc63020f5365c714937ac5835c057cd5b42a56005011ce35c6e8db86ef57 old_bytes=4396966
+8 pages from production/2026-w47/2026-w47-ja-ru/svg
+636 distinct chars; families: ['Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKJP-Regular: 254592 bytes
+  font LucernaNotoSansCJKJP-Bold: 260952 bytes
+  font LucernaNotoSerifCJKJP-Regular: 368380 bytes
+  font LucernaNotoSerifCJKJP-Bold: 372824 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22188 bytes
+WROTE production/2026-w47/2026-w47-ja-ru/Lucerna-VOL4-JA-RU-web.pdf: 4396966 bytes, 53363 text bytes
+webpdf rc=0
+new_sha=386c9328162d1c6ebfd1f729b9c9d6f29166b368f0f8e94ffe805db2823e2926 new_bytes=4396966
+web_text_bytes=106357 print_text_bytes=106357
+text layer: BYTE-IDENTICAL to print PDF
+STATUS=OK 
+=== done ja-ru status=OK 2026-11-11T23:19:19+00:00 ===

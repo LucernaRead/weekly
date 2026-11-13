@@ -1,0 +1,14 @@
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Все восемь матчей 14-го тура завершены
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Это последний матч сборной в 2026 году
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Профессиональные праздники не дают выходных
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После паузы чемпионат возвращается 20 ноября
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Умный покупатель не спешит
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 10572
+orphan line-starts: [('p7-yazyk.svg', 579, '”».')]
+same-baseline collisions: [('p1-pervaya.svg', 1712, 'чёрная', ' ')] total 1

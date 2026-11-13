@@ -1,0 +1,17 @@
+GATES3 START 2026-11-12T20:07:49Z
+p8 it rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ it rc=0 : production/2026-w47/2026-w47-ru-it/svg: 0 flags 
+boxtitle it rc=0 : BOXTITLE 2026-w47-ru-it: 55 titles, 684 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill it rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grande vendita.'
+edge it rc=0 : EDGE_SCAN 2026-w47-ru-it: 8 pages, 0 TOUCH, 0 NEAR
+head it rc=0 : HEAD CHECK PASS 0 defects
+quotes it rc=0 :   TOTAL defective: 0
+p8 pt rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ pt rc=0 : production/2026-w47/2026-w47-ru-pt/svg: 0 flags 
+boxtitle pt rc=0 : BOXTITLE 2026-w47-ru-pt: 57 titles, 683 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill pt rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grande saldo.'
+edge pt rc=0 : EDGE_SCAN 2026-w47-ru-pt: 8 pages, 0 TOUCH, 0 NEAR
+head pt rc=0 : HEAD CHECK PASS 0 defects
+quotes pt rc=0 :   TOTAL defective: 0
+d5-census rc=0
+GATES3 DONE 2026-11-12T20:11:32Z

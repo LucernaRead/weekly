@@ -1,0 +1,38 @@
+cream-match fraction by row:
+  y=1225: 1.00
+  y=1260: 1.00
+  y=1291: 0.44
+  y=1300: 0.53
+  y=1350: 0.92
+  y=1400: 1.00
+  y=1450: 1.00
+  y=1500: 0.57
+  y=1530: 0.61
+  y=1539: 0.64
+  y=1540: 0.99
+  y=1544: 0.98
+  y=1545: 0.00
+  y=1550: 0.00
+  y=1560: 0.00
+  y=1583: 0.01
+rows where fraction < 0.5 (1240..1560):
+   [1291, 1299, 1321, 1322, 1323, 1329, 1330, 1352, 1353, 1359, 1360, 1382, 1383, 1390, 1391, 1473, 1501, 1502, 1509, 1510, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1558, 1559, 1560] ... total 36
+dark ink rows in band y=1530..1550, x in box:
+  y=1530: x 1464..1696 count 46
+  y=1531: x 1464..1696 count 33
+  y=1532: x 1464..1697 count 36
+  y=1533: x 1464..1697 count 38
+  y=1534: x 1464..1697 count 36
+  y=1535: x 1464..1697 count 32
+  y=1536: x 1464..1697 count 32
+  y=1537: x 1464..1702 count 36
+  y=1538: x 1464..1702 count 56
+  y=1539: x 1488..1495 count 3
+  y=1540: x 1495..1495 count 1
+  y=1541: x 1487..1495 count 2
+  y=1542: x 1487..1495 count 2
+  y=1543: x 1488..1493 count 2
+what is at (1557, 1583)? pixel: (129, 105, 93)  neighbours row 1583 dark x-range:
+   (1557, 1813, 14)
+  SVG text y=1598.0 x=88.0 size=28 'SAY IT: IN JANUARY 2027\u3000So sagt man das Datum'
+  SVG text y=1598.0 x=1188.8 size=20 'The new Congress, in three sentences\u3000Der neue Kongress in drei Sätzen'

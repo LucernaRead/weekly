@@ -1,0 +1,12 @@
+pages: 8  flags: 3  title-rows: 179
+  p1-touiban.svg: texts=439 containers=16 images=1 flags=0
+  p2-shenghuo.svg: texts=337 containers=26 images=1 flags=1
+  p3-wenhua.svg: texts=278 containers=21 images=1 flags=0
+  p4-tiyu.svg: texts=488 containers=19 images=1 flags=1
+  p5-qingnian.svg: texts=282 containers=20 images=1 flags=1
+  p6-shendu.svg: texts=308 containers=23 images=0 flags=0
+  p7-ciyu.svg: texts=337 containers=17 images=1 flags=0
+  p8-ceyan.svg: texts=815 containers=39 images=1 flags=0
+FLAG BOX_OVERFLOW p2-shenghuo.svg '本周生活小日历\u3000Fechas de la semana' right ink 1422.8 > edge 1411.5
+FLAG BOX_OVERFLOW p4-tiyu.svg '看比赛的中文\u3000Palabras de los partidos' right ink 1911.2 > edge 1862.0
+FLAG BOX_OVERFLOW p5-qingnian.svg '这一周的高频词\u3000Palabras de la semana' right ink 992.0 > edge 961.0

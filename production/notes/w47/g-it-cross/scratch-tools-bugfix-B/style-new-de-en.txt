@@ -1,0 +1,19 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8
+  P1 min font 11.62pt (n=210)
+  P2 min font 12.75pt (n=209)
+  P3 min font 11.62pt (n=254)
+  P4 min font 11.62pt (n=205)
+  P5 min font 11.62pt (n=226)
+  P6 min font 12.75pt (n=227)
+  P7 min font 11.62pt (n=224)
+  P8 min font 9.94pt (n=358)
+paper #fbfaf6 present in fills: True
+fills outside palette: ['#34483A', '#4D72B4', '#4F765D', '#7898CD', '#84A283', '#D7B257', '#EDD17F', '#F1E8D4', '#cac8ba', '#efe8d2', '#f4efe0']
+VOL.4 count: 9  VOL.5 count: 6
+CJK chars in visible text: 0 sample: 
+badges: 141 total (A2 66 / B1 61 / B2 14); per page: p1-front 10, p2-leben 15, p3-kultur 18, p4-sport 15, p5-jugend 18, p6-vertiefung 18, p7-sprache 12, p8-uebungen 35
+badge mismatches: none (fill matches level on every badge)
+olive non-badge rects ignored: 17 [('p1-front.svg', 88.0, 470.0, 1774.0, 118.0, 0.0, '#37402f'), ('p1-front.svg', 1461.5, 772.0, 250.0, 22.0, 0.0, '#46581f'), ('p1-front.svg', 1461.5, 864.0, 226.0, 22.0, 0.0, '#46581f'), ('p1-front.svg', 1461.5, 956.0, 196.0, 22.0, 0.0, '#46581f'), ('p1-front.svg', 1461.5, 1048.0, 158.0, 22.0, 0.0, '#46581f'), ('p1-front.svg', 1461.5, 1140.0, 122.0, 22.0, 0.0, '#46581f'), ('p2-leben.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p3-kultur.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p4-sport.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p5-jugend.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p6-vertiefung.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p6-vertiefung.svg', 558.0, 1482.0, 748.0, 30.0, 0.0, '#46581f'), ('p6-vertiefung.svg', 558.0, 1534.0, 561.0, 30.0, 0.0, '#46581f'), ('p6-vertiefung.svg', 558.0, 1586.0, 391.0, 30.0, 0.0, '#46581f'), ('p7-sprache.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f'), ('p7-sprache.svg', 88.0, 2400.0, 1774.0, 130.0, 0.0, '#37402f'), ('p8-uebungen.svg', 88.0, 72.0, 1774.0, 110.0, 0.0, '#37402f')]
+badge non-ASCII hits: none (Latin-only OK)

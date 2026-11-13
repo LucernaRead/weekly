@@ -1,0 +1,50 @@
+p8 noted_set n=150 ==1..150: True
+p8 keys n=150; key[150]='✓' key[26]='c' key[141]='b'
+text.md parsed answers n=141 (expect 150 incl. match items; 150 is open-writing)
+p8-keys vs text.md answers: mismatches=8
+  (25, 'MISSING', "p8='d' md=None")
+  (26, 'MISSING', "p8='c' md=None")
+  (27, 'MISSING', "p8='a' md=None")
+  (28, 'MISSING', "p8='b' md=None")
+  (141, 'MISSING', "p8='b' md=None")
+  (142, 'MISSING', "p8='c' md=None")
+  (143, 'MISSING', "p8='d' md=None")
+  (144, 'MISSING', "p8='a' md=None")
+  match 25: p8='d' md=None
+  match 26: p8='c' md=None
+  match 27: p8='a' md=None
+  match 28: p8='b' md=None
+  match 141: p8='b' md=None
+  match 142: p8='c' md=None
+  match 143: p8='d' md=None
+  match 144: p8='a' md=None
+P8 right-option lines n=4:
+   x=1023.0 y=807.05 a. een klein versje bij een cadeau
+   x=1023.0 y=845.05 b. een dagelijks nieuwsprogramma op
+   x=1023.0 y=916.05 c. de eerste plaats in de groep
+   x=1023.0 y=954.05 d. die staat 's avonds bij de deur
+P2 right-option lines n=4: ['a. een lijst met wensen voor', 'b. een klein versje bij een cadeau', "c. eten voor Sinterklaas' paard", "d. die staat 's avonds bij de deur"]
+apos P1: "zetten 's avonds hun schoen bij de deur,"
+apos P1: "verlanglijstje erin. 's Nachts komt"
+apos P2: "schoen: kinderen zetten 's avonds hun"
+apos P2: "verlanglijstje erin. 's Nachts komt"
+apos P2: "De schoen: 's avonds bij de deur, met"
+apos P2: "c. eten voor Sinterklaas' paard"
+apos P2: "d. die staat 's avonds bij de deur"
+apos P3: "Twee dingen in november: 's avonds"
+apos P7: "doelpunten maakte.» «Sinterklaas komt 's"
+apos P8: "d. die staat 's avonds bij de deur"
+apos P8: "— Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje)"
+text.md curly-quote line 46: “小组头名”：小组第一，晋级四分之一决赛。
+golden lines n=8
+  golden verbatim-in-articles: True :: Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland
+  golden verbatim-in-articles: True :: Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 
+  golden verbatim-in-articles: True :: Op zaterdag 5 december is het pakjesavond: de avond met de grote cadea
+  golden verbatim-in-articles: True :: Op zaterdag 14 november kwam Sinterklaas officieel aan in Nederland
+  golden verbatim-in-articles: True :: Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5
+  golden verbatim-in-articles: True :: Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4
+  golden verbatim-in-articles: True :: Sinterklaas is een oud feest in Nederland
+  golden verbatim-in-articles: True :: Een traditie leeft als mensen haar blijven vieren
+level counts (single-exercise headers): {'A2': 43, 'B1': 73, 'B2': 28}
+level counts incl. match items: A2=47 B1=73 B2=32 (expect 46/73/31)
+exercises by page: {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38} total=150 (expect 10/18/18/18/18/18/12/38)

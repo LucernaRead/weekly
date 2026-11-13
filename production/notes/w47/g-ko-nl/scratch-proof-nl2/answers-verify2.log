@@ -1,0 +1,27 @@
+registry parsed: 150 missing: []
+printed keys: 150
+150 registry='' printed='✓'
+MISMATCHES: 11
+(70, 'surprise（surprise = 伪装礼物（de））', 'surprise')
+(71, 'verslaggever（verslaggever = 记者（de））', 'verslaggever')
+(72, 'proef（proef = 比赛项目、考验（de））', 'proef')
+(73, 'gedicht（gedicht = 诗（het））', 'gedicht')
+(74, 'aflevering（aflevering = （一）集）', 'aflevering')
+(76, 'gaat winnen（gaat winnen = 会赢（只是猜测））', 'gaat winnen')
+(93, 'verlanglijstje（verlanglijstje = 愿望单（het））', 'verlanglijstje')
+(94, 'surprise（surprise = 伪装礼物（de））', 'surprise')
+(95, 'gedicht（gedicht = 诗（het））', 'gedicht')
+(96, 'verandert（veranderen → verandert（单数））', 'verandert')
+(146, 'A（wortel = 胡萝卜（给马））', 'A')
+43 reg= 1 printed= 1
+44 reg= 4 printed= 4
+45 reg= 19 printed= 19
+46 reg= 17 printed= 17
+85 reg= 65 printed= 65
+87 reg= 100 printed= 100
+126 reg= B printed= B
+131 reg= B printed= B
+141 reg= b printed= b
+142 reg= c printed= c
+143 reg= d printed= d
+144 reg= a printed= a

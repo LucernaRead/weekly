@@ -1,0 +1,33 @@
+  flow[P1-lead] ended col 0/0 y=1659 (bottom 1935)
+  flow[P1-quiz] ended col 3/3 y=2130 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-main] ended col 2/2 y=1293 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 2/2 y=1516 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=1002 (bottom 1020)
+  flow[P4-ex] ended col 2/2 y=1973 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=1674 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=535 (bottom 860)
+  flow[P6-ex] ended col 2/2 y=1852 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-a2] ended col 0/0 y=1343 (bottom 1560)
+P7 image ends 1570.8600000000006 (A2 flow ended 1343.0600000000004 )
+  flow[P7-b1] ended col 0/0 y=1602 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1535 (bottom 1560)
+P7 col3 ends 1849.82
+P7 teaser ends 2589.8199999999997
+P7 saved, exercises so far: 112
+  !! HEAD TOO WIDE [P8-ex]: D　讀一讀，答一答　Lesen und antworten
+  flow[P8-ex] ended col 3/3 y=529 (bottom 1050)
+MODEL chars: 142
+P8 writing strip ends 1280.1999999999998 (flow ended 529.05 )
+  flow[P8-keys] ended col 3/3 y=2373 (bottom 2560)
+P8 saved, exercises total: 150
+REG total: 150
+text.md answer lines parsed: 150
+mismatches: 0
+types: {'單選': 67, '完成句子': 54, '配對': 16, '完形單選': 12, '寫作': 1}
+levels: {'A2': 44, 'B1': 74, 'B2': 32}

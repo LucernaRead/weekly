@@ -1,0 +1,47 @@
+p1-capa texts: 223 223 identical
+   numeric attrs: 542 542
+   differing numerics: 5 max delta: 4.400000000000091
+     attr# 6 ed 695.1 rerun 694.1
+     attr# 32 ed 785.4 rerun 783.2
+     attr# 50 ed 1735.4 rerun 1734.0
+     attr# 52 ed 1479.9 rerun 1475.8
+     attr# 477 ed 1502.9 rerun 1498.5
+p2-vida texts: 167 167 TEXT-DIFF
+   numeric attrs: 466 466
+   differing numerics: 3 max delta: 4.400000000000091
+     attr# 13 ed 1408.0 rerun 1407.0
+     attr# 173 ed 1452.6 rerun 1450.3
+     attr# 230 ed 1393.5 rerun 1389.1
+p3-cultura texts: 169 169 TEXT-DIFF
+   numeric attrs: 468 468
+   differing numerics: 1 max delta: 4.400000000000091
+     attr# 173 ed 1393.5 rerun 1389.1
+p4-esporte texts: 173 173 TEXT-DIFF
+   numeric attrs: 481 481
+   differing numerics: 2 max delta: 4.400000000000091
+     attr# 13 ed 1254.7 rerun 1250.7
+     attr# 229 ed 1393.5 rerun 1389.1
+p5-jovens texts: 218 218 identical
+   numeric attrs: 565 565
+   differing numerics: 2 max delta: 4.400000000000091
+     attr# 13 ed 1236.9 rerun 1234.8
+     attr# 286 ed 1393.5 rerun 1389.1
+p6-aprofundamento texts: 167 167 identical
+   numeric attrs: 475 475
+   differing numerics: 2 max delta: 4.400000000000091
+     attr# 13 ed 1440.8 rerun 1438.7
+     attr# 210 ed 1393.5 rerun 1389.1
+p7-lingua texts: 182 183 TEXT-DIFF
+   numeric attrs: 462 464
+   differing numerics: 161 max delta: 2622.8
+     attr# 13 ed 1284.0 rerun 1278.9
+     attr# 233 ed 663.3900000000001 rerun 654.3900000000001
+     attr# 234 ed 60.0 rerun 989.0
+     attr# 235 ed 30.0 rerun 693.115
+     attr# 236 ed 2.7 rerun 60.0
+     attr# 237 ed 1006.9 rerun 30.0
+p8-avaliacao texts: 1391 1391 identical
+   numeric attrs: 2980 2980
+   differing numerics: 2 max delta: 5.399999999999864
+     attr# 13 ed 1571.1 rerun 1567.0
+     attr# 645 ed 1462.1 rerun 1456.7

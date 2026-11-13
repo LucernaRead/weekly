@@ -1,0 +1,21 @@
+cream boxes total: 36
+STRADDLE flags: 5
+  STRADDLE {'page': 'p2-life.svg', 'text': '耶誕城小檔\u3000Ficha de Christmasland', 'ink': [1461.5, 1452.5, 1899.0, 1476.5], 'cream': [1439.5, 1430.0, 1862.0, 1890.0]}
+  STRADDLE {'page': 'p3-culture.svg', 'text': '金馬小表\u3000Ficha de los Golden Horse', 'ink': [1461.5, 671.8, 1902.0, 696.1], 'cream': [1439.5, 649.6, 1862.0, 1119.6]}
+  STRADDLE {'page': 'p3-culture.svg', 'text': '鋼雕閉幕行程\u3000Último fin de semana', 'ink': [1461.5, 1424.3, 1898.0, 1452.1], 'cream': [1439.5, 1405.6, 1862.0, 1855.6]}
+  STRADDLE {'page': 'p4-sport.svg', 'text': 'deporte?', 'ink': [1461.5, 1345.9, 1545.0, 1366.7], 'cream': [1439.5, 1128.0, 1862.0, 1358.0]}
+  STRADDLE {'page': 'p5-youth.svg', 'text': '爵士音樂節時間表\u3000Fechas del jazz', 'ink': [1461.5, 1925.8, 1869.2, 1953.3], 'cream': [1439.5, 1903.6, 1862.0, 2333.6]}
+CREAM-COVER flags: 0
+min bottom clearance per page:
+  p1-front.svg: min bottom clearance 16.8px over 5 boxes
+  p2-life.svg: min bottom clearance 15.6px over 6 boxes
+  p3-culture.svg: min bottom clearance 14.1px over 7 boxes
+  p4-sport.svg: min bottom clearance 17.3px over 4 boxes
+  p5-youth.svg: min bottom clearance 4.4px over 8 boxes
+  p6-deep.svg: min bottom clearance 17.1px over 3 boxes
+  p7-lang.svg: min bottom clearance 8.0px over 3 boxes
+P7 cream boxes (clearance = ink-to-edge px):
+  [1439.5, 200.0, 1862.0, 877.6] inner: 39 clearance: {'left': 22.0, 'right': 24.5, 'top': 20.5, 'bottom': 36.8}
+  [1439.5, 889.6, 1862.0, 1171.6] inner: 14 clearance: {'left': 22.0, 'right': 44.5, 'top': 22.2, 'bottom': 8.0}
+  [1439.5, 1183.6, 1862.0, 1823.3] inner: 24 clearance: {'left': 22.0, 'right': 13.5, 'top': 20.5, 'bottom': 13.7}
+CREAMBOX DONE

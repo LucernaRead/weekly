@@ -1,0 +1,1054 @@
+commit 45ca73fcfa3f6ba8b45a7301bd3b6928a096da21
+Author: Beacon <info@lucernaread.com>
+Date:   Thu Nov 12 02:01:03 2026 +0000
+
+    tools: add three standing pre-insert gates (spill sweep, boxtitle check, PDF edge scan)
+    
+    W47 proofread found three blind spots in the existing gates
+    (run-log 2026-11-11): check_creambox only inspects texts whose
+    baseline falls inside a cream rect; box titles had no width check
+    (it-de P1 cifre title overran its box by +138.5px); delivered PDFs
+    had no raster edge scan. These three read-only scripts close them:
+    
+    - tools/spill_sweep.py: whole-line cream-box spill sweep (60px
+      neighbourhood, same-flow adjudication: same size + same x +
+      line-advance match; nominal advance 1.40x size when a box holds
+      a single line of that size).
+    - tools/boxtitle_check.py: per-title PIL true-ink width vs box
+      width, with core + backup adjudication (STRADDLE rule); falls
+      back to the single-CJK-font model for the old-generation
+      core-ja / core-ko svglib.
+    - tools/pdf_edge_scan.py: delivered print PDF rendered at
+      200dpi (MuPDF), 3px outer band must be ink-free.
+    
+    All three validated on the full 130-edition W47 set; results in
+    hidden_files/w47/Reports-preinsert/new-gates-130.md (21 defects:
+    spill 1, boxtitle 18, edge 2).
+
+diff --git a/tools/boxtitle_check.py b/tools/boxtitle_check.py
+new file mode 100644
+index 00000000..52127ff9
+--- /dev/null
++++ b/tools/boxtitle_check.py
+@@ -0,0 +1,540 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""boxtitle_check.py — standing gate: horizontal box-title true-ink check (W47).
++
++Promoted 2026-11-11 from two proven measurements:
++  * ``hidden_files/w47/scratch-proof-pt-en2/boxtitle_trueink.py`` — PIL
++    true-ink bbox of a title via the edition's own svglib (per-character
++    font runs, anchor + letter-spacing aware);
++  * ``hidden_files/w47/scratch-proof2-it-de1/h-overflow-proof2.py`` — the
++    same ink math applied to every <text> node of a page.
++
++Blind spot it closes (run-log 2026-11-11 20:58 UTC, it-de proof2): box
++titles are drawn single-line, start-anchored (``bslib4.py:186``) with NO
++width check against their cream box, so a long reader-language gloss can
++run past the box onto white paper — e.g. it-de P1 cifre +138.5 px, P2
++frase +30.5 px — while all 20 existing gates stay green (occlusion only
++counts stroked boxes; cream boxes have no border).
++
++What it does: for every cream (``#f0eee5``) rect on every page, measure the
++PIL true-ink left/right edge of every text element whose baseline sits
++inside the box, and flag ink running past either box edge. Title lines
++(the box's first line when bold and >= 22 pt, or any line whose text
++matches an ``f.box("TITLE", ...)`` call in the edition's content files)
++are reported as TITLE; other lines as BODY. The same ink math also catches
++body-line horizontal overflow (en-it SAY IT +36 px class).
++
++Adjudication follows the proof1 STRADDLE rule (run-log L1836/L1940):
++a past-the-edge line is a DEFECT iff it is clipped (ink crosses the page
++edge), overlaps another element, or is a regression — i.e. it overflows
++where the old version (``--backup-root`` backup copy, when one exists) or
++the core edition's same box (same target family) does not. The same
++overflow in the old version / core is an OBSERVATION, not a defect.
++Overflow of 1.0 px or less is MARGINAL (measurement tolerance).
++
++Read-only wrt the edition dir. Writes nothing except the optional JSON
++report (--json-dir) and stdout. Fonts come from the edition's own
++``svglib.py`` (loaded once per distinct file hash, so family-specific
++font variants are always honoured).
++
++Usage:
++  python3 tools/boxtitle_check.py <edition-dir> [<edition-dir> ...]
++      [--json-dir DIR] [--backup-root DIR]
++Exit 0 iff no DEFECT in any edition; exit 1 if any DEFECT found.
++Run with the repo venv (tools/venv/bin/python) for PIL + fontTools.
++"""
++import ast
++import gc
++import glob
++import hashlib
++import html
++import importlib.util
++import json
++import os
++import re
++import sys
++import xml.etree.ElementTree as ET
++
++PAGE_W = 1950.0
++TOL = 0.5            # px: ink past the box edge beyond this counts as over
++MARGINAL = 1.0       # px: over at or below this is measurement tolerance
++TITLE_MIN_SIZE = 22.0
++NS = "{http://www.w3.org/2000/svg}"
++TARGETS = ["zh-cn", "zh-tw", "de", "en", "es", "fr", "it", "ja", "ko",
++           "nl", "pt", "ru"]
++NEWS_DIR = "/home/hatch/.local/share/fonts"
++UNI_PATH = os.path.join(NEWS_DIR, "UnifrakturMaguntia-Book.ttf")
++
++_sg_cache = {}
++_SG_MAX = 4   # max live svglib variants (see load_svglib)
++_uni_cache = {}
++
++
++def parse_slug(slug):
++    """-> (target, reader, is_core)"""
++    if slug.startswith("core-"):
++        return slug[5:], None, True
++    rest = slug[len("2026-w47-"):] if slug.startswith("2026-w47-") else slug
++    for t in TARGETS:
++        if rest == t or rest.startswith(t + "-"):
++            return t, rest[len(t) + 1:] or None, False
++    return None, None, False
++
++
++def md5_file(path):
++    h = hashlib.md5()
++    with open(path, "rb") as f:
++        for chunk in iter(lambda: f.read(1 << 20), b""):
++            h.update(chunk)
++    return h.hexdigest()
++
++
++def load_svglib(ed_dir):
++    """Load the edition's svglib.py, keyed by file hash (LRU, max 4 live
++    copies — each holds 9 font cmaps; editions are processed grouped by
++    variant so reloads are rare). A byte change in svglib.py loads as a
++    different variant, so family-specific fonts are always honoured."""
++    path = os.path.join(ed_dir, "svglib.py")
++    key = md5_file(path)
++    if key in _sg_cache:
++        return _sg_cache[key]
++    while len(_sg_cache) >= _SG_MAX:
++        old_key = next(iter(_sg_cache))
++        old_mod = _sg_cache.pop(old_key)
++        sys.modules.pop(getattr(old_mod, "__name__", ""), None)
++    gc.collect()
++    name = "edition_svglib_" + key[:12]
++    spec = importlib.util.spec_from_file_location(name, path)
++    mod = importlib.util.module_from_spec(spec)
++    sys.modules[name] = mod
++    spec.loader.exec_module(mod)
++    _sg_cache[key] = mod
++    return mod
++
++
++def uni_font(size):
++    from PIL import ImageFont
++    key = int(round(size))
++    if key not in _uni_cache:
++        _uni_cache[key] = ImageFont.truetype(UNI_PATH, key)
++    return _uni_cache[key]
++
++
++def kind_of(family):
++    if "Serif" in family or "Newsreader" in family:
++        return "serif"
++    if "Sans" in family:
++        return "sans"
++    return "serif"
++
++
++def ink_bbox(sg, family, size, bold, italic, anchor, spacing, x, txt):
++    """True-ink bbox (left, right, top, bottom) in SVG coords, baseline = y.
++    Mirrors the build's svglib.text(): one <text> per font run, x positions
++    already include letter-spacing advances; the attr adds spacing inside
++    each run. Returns None for whitespace-only text (no ink).
++    Old-generation svglib (core-ja / core-ko) has no _runs/_pil: one CJK
++    font per kind, so the whole string is measured in _font(kind,...)."""
++    if not txt.strip():
++        return None
++    sp = spacing or 0.0
++    if family == "UnifrakturMaguntia":
++        f = uni_font(size)
++        total = f.getlength(txt) + sp * max(0, len(txt) - 1)
++        x0 = x - total / 2.0 if anchor == "middle" else (
++            x - total if anchor == "end" else x)
++        l, t, r, b = f.getbbox(txt) if txt.strip() else (0, 0, 0, 0)
++        return (x0 + l, x0 + sp * max(0, len(txt) - 1) + r, t, b)
++    kind = kind_of(family)
++    if hasattr(sg, "_runs"):
++        runs = sg._runs(txt, kind, bold, italic)
++        pil = lambda cls: sg._pil(kind, bold, cls, size)
++    else:
++        # Old-generation svglib (W47 core-ja / core-ko, 305-line build):
++        # no per-character runs — one CJK font per kind, _font(kind, bold,
++        # size). The builder laid out with that font, so measure the whole
++        # string in it. _font ignores italic.
++        f0 = sg._font(kind, bold, size)
++        runs = [(txt, None)]
++        pil = lambda cls: f0
++    total = sum(pil(cls).getlength(t)
++                for t, cls in runs) + sp * max(0, len(txt) - 1)
++    x0 = x - total / 2.0 if anchor == "middle" else (
++        x - total if anchor == "end" else x)
++    il, ir, itop, ibot = None, None, None, None
++    cx = x0
++    for i, (t, cls) in enumerate(runs):
++        f = pil(cls)
++        if t.strip():
++            bx0, by0, bx1, by1 = f.getbbox(t, anchor="ls")
++            cand_l = cx + bx0
++            cand_r = cx + sp * max(0, len(t) - 1) + bx1
++            il = cand_l if il is None else min(il, cand_l)
++            ir = cand_r if ir is None else max(ir, cand_r)
++            itop = by0 if itop is None else min(itop, by0)
++            ibot = by1 if ibot is None else max(ibot, by1)
++        w = f.getlength(t)
++        cx += w + (sp * len(t) if i < len(runs) - 1 else 0)
++    if il is None:
++        return None
++    return (il, ir, itop, ibot)
++
++
++def parse_page(path, sg):
++    """-> (cream_rects, elements, obstacles)
++    elements: dicts with x, y, fs, bold, text, ink (l, r, top, bot rel. y).
++    obstacles: geometry of images / stroked rects / rules, for overlap."""
++    root = ET.parse(path).getroot()
++    rects = []
++    obstacles = []
++    for r in root.iter(NS + "rect"):
++        try:
++            x, y, w, h = (float(r.get(a)) for a in ("x", "y", "width", "height"))
++        except (TypeError, ValueError):
++            continue
++        if (r.get("fill") or "").lower() == "#f0eee5":
++            rects.append((x, y, w, h))
++        if r.get("stroke"):
++            obstacles.append(("rect", x, y, x + w, y + h))
++    for im in root.iter(NS + "image"):
++        try:
++            x, y, w, h = (float(im.get(a)) for a in ("x", "y", "width", "height"))
++        except (TypeError, ValueError):
++            continue
++        obstacles.append(("image", x, y, x + w, y + h))
++    for ln in root.iter(NS + "line"):
++        try:
++            x1, y1, x2, y2 = (float(ln.get(a)) for a in ("x1", "y1", "x2", "y2"))
++        except (TypeError, ValueError):
++            continue
++        obstacles.append(("line", min(x1, x2) - 0.6, min(y1, y2) - 0.6,
++                          max(x1, x2) + 0.6, max(y1, y2) + 0.6))
++    els = []
++    for t in root.iter(NS + "text"):
++        try:
++            x, y, fs = (float(t.get(a)) for a in ("x", "y", "font-size"))
++        except (TypeError, ValueError):
++            continue
++        txt = html.unescape("".join(t.itertext()))
++        if not txt.strip():
++            continue
++        fam = (t.get("font-family") or "Newsreader").split(",")[0].strip()
++        wt = t.get("font-weight") or ""
++        bold = wt.isdigit() and int(wt) >= 600
++        italic = (t.get("font-style") or "") == "italic"
++        anchor = t.get("text-anchor") or "start"
++        try:
++            spacing = float(t.get("letter-spacing"))
++        except (TypeError, ValueError):
++            spacing = 0.0
++        ink = ink_bbox(sg, fam, fs, bold, italic, anchor, spacing, x, txt)
++        if ink is None:
++            continue
++        els.append({"x": x, "y": y, "fs": fs, "bold": bold, "family": fam,
++                    "text": txt, "il": ink[0], "ir": ink[1],
++                    "itop": ink[2], "ibot": ink[3]})
++    # register text ink as obstacles for the overlap test (excluding self
++    # at check time by identity)
++    for e in els:
++        obstacles.append(("text", e["il"], e["y"] + e["itop"],
++                          e["ir"], e["y"] + e["ibot"], id(e)))
++    return rects, els, obstacles
++
++
++def page_no(fname):
++    m = re.match(r"p(\d+)-", fname)
++    return int(m.group(1)) if m else None
++
++
++def box_titles(ed_dir):
++    """Titles from f.box("TITLE", ...) calls in the edition's content files."""
++    titles = set()
++    for path in sorted(glob.glob(os.path.join(ed_dir, "content*.py"))):
++        try:
++            src = open(path, encoding="utf-8").read()
++        except OSError:
++            continue
++        for m in re.finditer(r"""f\.box\(\s*("([^"\\]|\\.)*"|'([^'\\]|\\.)*')""", src):
++            try:
++                val = ast.literal_eval(m.group(1))
++            except (ValueError, SyntaxError):
++                continue
++            if val.strip():
++                titles.add(val)
++    return titles
++
++
++def find_backup(backup_root, slug):
++    """Newest backup copy of this edition under backup-root, or None."""
++    if not backup_root:
++        return None
++    cands = []
++    for pat in ("scratch-refanout-*/backup*/" + slug,
++                "scratch-refanout-*/backup-old/" + slug,
++                "scratch-fanout-*/backup*/" + slug):
++        for d in glob.glob(os.path.join(backup_root, pat)):
++            if os.path.isdir(os.path.join(d, "svg")):
++                cands.append(d)
++    if not cands:
++        return None
++    return max(cands, key=lambda d: os.path.getmtime(d))
++
++
++def _enclosing(rects, e):
++    """Cream rect enclosing element e, or None."""
++    for (rx, ry, rw, rh) in rects:
++        if rx - 1 <= e["x"] <= rx + rw + 1 and ry <= e["y"] <= ry + rh:
++            return (rx, ry, rw, rh)
++    return None
++
++
++def _over_in(e, box):
++    rx, _, rw, _ = box
++    return max(e["ir"] - (rx + rw), rx - e["il"])
++
++
++def core_baseline(core_parsed, text, is_title, rx, ry, rw):
++    """Core edition's over for the corresponding title/box (same page).
++    Matches by title head (target-language part before U+3000 — the gloss
++    differs per reader), else by the nearest same-column box. The core's
++    boxes sit at different y than the fan-out's, so y is never matched."""
++    if core_parsed is None:
++        return None
++    crects, cels = core_parsed
++    head = text.split("　")[0]
++    if is_title and head:
++        for ce in cels:
++            if ce["bold"] and ce["fs"] >= TITLE_MIN_SIZE and (
++                    ce["text"] == head
++                    or ce["text"].startswith(head + "　")):
++                box = _enclosing(crects, ce)
++                if box:
++                    return _over_in(ce, box)
++    cands = [(abs(cry - ry), crx, cry, crw, crh)
++             for (crx, cry, crw, crh) in crects
++             if abs(crx - rx) <= 1.0 and abs(crw - rw) <= 1.0]
++    if not cands:
++        return None
++    _, crx, cry, crw, crh = min(cands)
++    cins = [ce for ce in cels
++            if crx - 1 <= ce["x"] <= crx + crw + 1 and cry <= ce["y"] <= cry + crh]
++    if not cins:
++        return None
++    if is_title:
++        cmin = min(ce["y"] for ce in cins)
++        ct = [ce for ce in cins if abs(ce["y"] - cmin) <= 0.5 and ce["bold"]
++              and ce["fs"] >= TITLE_MIN_SIZE]
++        pool = ct if ct else cins
++    else:
++        pool = cins
++    return max(_over_in(ce, (crx, cry, crw, crh)) for ce in pool)
++
++
++def backup_baseline(backup_parsed, text):
++    """Old version's over for the same text (exact match), or None."""
++    if backup_parsed is None:
++        return None
++    brects, bels = backup_parsed
++    for be in bels:
++        if be["text"] == text:
++            box = _enclosing(brects, be)
++            if box:
++                return _over_in(be, box)
++            return None
++    return None
++
++
++def _parse_cached(cache, base_dir, fn):
++    if fn not in cache:
++        path = os.path.join(base_dir, "svg", fn)
++        if not os.path.exists(path):
++            cache[fn] = None
++        else:
++            try:
++                cache[fn] = parse_page(path, load_svglib(base_dir))[:2]
++            except Exception:
++                cache[fn] = None
++    return cache[fn]
++
++
++def _overlaps(seg, obstacles, self_id):
++    """seg: (x0, y0, x1, y1). True if it overlaps any obstacle by > 0.5 px
++    in both dimensions."""
++    sx0, sy0, sx1, sy1 = seg
++    for ob in obstacles:
++        if len(ob) == 6 and ob[5] == self_id:
++            continue
++        _, ox0, oy0, ox1, oy1 = ob[:5]
++        if (min(sx1, ox1) - max(sx0, ox0) > 0.5
++                and min(sy1, oy1) - max(sy0, oy0) > 0.5):
++            return True, ob[0]
++    return False, None
++
++
++def scan_edition(ed_dir, week_dir, backup_root):
++    slug = os.path.basename(os.path.normpath(ed_dir))
++    target, reader, is_core = parse_slug(slug)
++    sg = load_svglib(ed_dir)
++    titles = box_titles(ed_dir)
++    core_dir = ed_dir if is_core else os.path.join(week_dir, "core-" + target) \
++        if target else None
++    core_ok = core_dir and os.path.isdir(core_dir) and not is_core
++    backup_dir = find_backup(backup_root, slug) if backup_root else None
++    svg_dir = os.path.join(ed_dir, "svg")
++    files = sorted(f for f in os.listdir(svg_dir) if f.endswith(".svg"))
++    res = {"edition": slug, "target": target, "reader": reader,
++           "is_core": is_core, "core_dir": core_dir,
++           "backup_dir": backup_dir, "titles": 0, "body_lines": 0,
++           "flags": [], "marginal": [], "defects": 0, "observes": 0}
++    core_pages, backup_pages = {}, {}
++    for i, fn in enumerate(files):
++        pg = page_no(fn) or (i + 1)
++        rects, els, obstacles = parse_page(os.path.join(svg_dir, fn), sg)
++        # elements per box
++        for (rx, ry, rw, rh) in rects:
++            bot = ry + rh
++            inside = [e for e in els
++                      if rx - 1 <= e["x"] <= rx + rw + 1 and ry <= e["y"] <= bot]
++            if not inside:
++                continue
++            min_y = min(e["y"] for e in inside)
++            for e in inside:
++                is_title = (e["text"] in titles) or (
++                    abs(e["y"] - min_y) <= 0.5 and e["bold"]
++                    and e["fs"] >= TITLE_MIN_SIZE)
++                if is_title:
++                    res["titles"] += 1
++                else:
++                    res["body_lines"] += 1
++                over_r = e["ir"] - (rx + rw)
++                over_l = rx - e["il"]
++                over = max(over_r, over_l)
++                if over <= TOL:
++                    continue
++                side = "right" if over_r >= over_l else "left"
++                # --- baselines for adjudication
++                core_over = None
++                if core_ok:
++                    core_over = core_baseline(
++                        _parse_cached(core_pages, core_dir, fn),
++                        e["text"], is_title, rx, ry, rw)
++                backup_over = None
++                if backup_dir:
++                    backup_over = backup_baseline(
++                        _parse_cached(backup_pages, backup_dir, fn),
++                        e["text"])
++                # --- overlap / clip
++                if side == "right":
++                    seg = (rx + rw, e["y"] + e["itop"], e["ir"], e["y"] + e["ibot"])
++                else:
++                    seg = (e["il"], e["y"] + e["itop"], rx, e["y"] + e["ibot"])
++                hit, hit_kind = _overlaps(seg, obstacles, id(e))
++                clip = e["ir"] > PAGE_W or e["il"] < 0
++                if over <= MARGINAL:
++                    verdict, why = "MARGINAL", "within 1.0px tolerance"
++                elif clip or hit:
++                    verdict = "DEFECT"
++                    why = ("ink crosses page edge" if clip else
++                           f"overflowing ink overlaps {hit_kind}")
++                elif backup_over is not None:
++                    if over - backup_over > 1.0:
++                        verdict, why = "DEFECT", (
++                            f"regression vs backup ({backup_over:+.1f}px)")
++                    else:
++                        verdict, why = "OBSERVE", (
++                            f"same as backup ({backup_over:+.1f}px)")
++                elif core_over is not None:
++                    if core_over <= MARGINAL:
++                        verdict, why = "DEFECT", (
++                            f"regression vs core (core {core_over:+.1f}px)")
++                    else:
++                        verdict, why = "OBSERVE", (
++                            f"inherited from core ({core_over:+.1f}px)")
++                elif is_core:
++                    verdict, why = "DEFECT", "core title overflows its box"
++                else:
++                    verdict, why = "DEFECT", "no baseline; overflow is new"
++                rec = {"page": pg, "role": "TITLE" if is_title else "BODY",
++                       "text": e["text"][:80], "x": round(e["x"], 1),
++                       "y": round(e["y"], 1), "fs": e["fs"],
++                       "box": [round(rx, 1), round(ry, 1), round(rw, 1),
++                               round(rh, 1)],
++                       "ink_l": round(e["il"], 1), "ink_r": round(e["ir"], 1),
++                       "over": round(over, 1), "side": side,
++                       "core_over": (None if core_over is None
++                                     else round(core_over, 1)),
++                       "backup_over": (None if backup_over is None
++                                       else round(backup_over, 1)),
++                       "overlap": hit_kind if hit else None,
++                       "clip": clip, "verdict": verdict, "why": why}
++                if verdict == "MARGINAL":
++                    res["marginal"].append(rec)
++                else:
++                    res["flags"].append(rec)
++                    if verdict == "DEFECT":
++                        res["defects"] += 1
++                    else:
++                        res["observes"] += 1
++    return res
++
++
++def print_edition(res, out=sys.stdout):
++    print(f"== {res['edition']}  core={'self' if res['is_core'] else res['core_dir']} "
++          f"backup={res['backup_dir'] or '-'}", file=out)
++    for f in res["flags"]:
++        tag = "DEFECT" if f["verdict"] == "DEFECT" else "observe"
++        print(f"  P{f['page']} [{f['role']}] {tag} over={f['over']:+.1f}px "
++              f"({f['side']}) core={f['core_over']} backup={f['backup_over']} "
++              f"| {f['why']} | {f['text'][:60]!r}", file=out)
++    print(f"BOXTITLE {res['edition']}: {res['titles']} titles, "
++          f"{res['body_lines']} body lines, {res['defects']} DEFECT, "
++          f"{res['observes']} OBSERVE, {len(res['marginal'])} marginal",
++          file=out)
++
++
++def main(argv):
++    args, json_dir, backup_root = [], None, None
++    i = 0
++    while i < len(argv):
++        a = argv[i]
++        if a == "--json-dir" and i + 1 < len(argv):
++            json_dir = argv[i + 1]
++            i += 2
++        elif a == "--backup-root" and i + 1 < len(argv):
++            backup_root = argv[i + 1]
++            i += 2
++        elif a.startswith("--"):
++            print(f"unknown option: {a}", file=sys.stderr)
++            return 2
++        else:
++            args.append(a)
++            i += 1
++    if not args:
++        print("usage: boxtitle_check.py <edition-dir> [...] [--json-dir DIR] "
++              "[--backup-root DIR]", file=sys.stderr)
++        return 2
++    if json_dir:
++        os.makedirs(json_dir, exist_ok=True)
++    # process editions grouped by svglib variant so the font cache stays hot
++    def _variant(ed):
++        try:
++            return md5_file(os.path.join(ed, "svglib.py"))
++        except OSError:
++            return ""
++    args = sorted(args, key=lambda ed: (_variant(ed), ed))
++    rc = 0
++    for ed in args:
++        week_dir = os.path.dirname(os.path.normpath(ed))
++        res = scan_edition(ed, week_dir, backup_root)
++        print_edition(res)
++        if json_dir:
++            with open(os.path.join(json_dir, res["edition"] + ".json"),
++                      "w", encoding="utf-8") as f:
++                json.dump(res, f, ensure_ascii=False, indent=1)
++        if res["defects"]:
++            rc = 1
++    return rc
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tools/pdf_edge_scan.py b/tools/pdf_edge_scan.py
+new file mode 100644
+index 00000000..b5f09961
+--- /dev/null
++++ b/tools/pdf_edge_scan.py
+@@ -0,0 +1,211 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""pdf_edge_scan.py — standing gate: delivered print-PDF raster edge scan (W47).
++
++New gate, added 2026-11-11 (pre-insert): no existing gate rendered the
++delivered print PDF and checked whether any ink touches the page edge.
++A line, rule or glyph running off the page is invisible to the SVG-side
++gates (they measure against margins and boxes, never the sheet edge).
++
++What it does: for each edition, render the delivered print PDF at 200 dpi
++(grayscale, MuPDF) and scan the outer 3 px band of all four page edges for
++ink (gray < 200; paper is ~251, cream ~240). It also records, per page,
++the minimum ink distance to each edge, so a near miss is visible even
++when nothing touches. Any ink inside the 3 px band is a TOUCH (defect —
++ink must not reach the sheet edge); ink within 10 px is reported NEAR.
++
++Which PDF: the print PDF in the edition dir — the ``*.pdf`` that is NOT a
++web PDF (any name containing ``web.pdf``, covering both ``-web.pdf`` and
++``.web.pdf`` spellings). Exactly one must exist.
++
++Memory guard (per the pre-insert task): before rendering each edition,
++check MemAvailable; below 1500 MB, wait 60 s and retry (up to 10 times)
++before rendering anyway. Renders are serial, one edition at a time, and
++pixmaps are freed after each page — nothing is kept on disk except the
++optional JSON report (--json-dir) and, for TOUCH pages only, a small crop
++of the touched edge as evidence (--json-dir/crops/).
++
++Usage:
++  python3 tools/pdf_edge_scan.py <edition-dir> [<edition-dir> ...]
++      [--dpi 200] [--json-dir DIR]
++Exit 0 iff no TOUCH in any edition; exit 1 if any TOUCH; exit 2 if an
++edition is BLOCKED (no / ambiguous print PDF, render failure).
++Run with the repo venv (tools/venv/bin/python) for PyMuPDF + PIL + numpy.
++"""
++import json
++import os
++import sys
++import time
++
++try:
++    import pymupdf as fitz
++except ImportError:  # pragma: no cover - old bindings
++    import fitz
++import numpy as np
++from PIL import Image
++
++INK = 200            # gray value below this counts as ink
++BAND = 3             # px: outer band that must stay ink-free
++NEAR = 10            # px: report ink this close to an edge as NEAR
++MEM_MIN_MB = 1500
++MEM_WAIT_S = 60
++MEM_RETRIES = 1   # check before each render; if below threshold, wait 60 s
++# once ("wait a bit") and then render: one 200 dpi page needs ~150 MB
++# peak, safe well below the threshold; the wait is a courtesy to the
++# contended machine, not a hard gate.
++
++
++def mem_available_mb():
++    try:
++        with open("/proc/meminfo", encoding="utf-8") as f:
++            for line in f:
++                if line.startswith("MemAvailable:"):
++                    return int(line.split()[1]) // 1024
++    except OSError:
++        pass
++    return 10 ** 9
++
++
++def wait_for_memory(log):
++    for attempt in range(MEM_RETRIES):
++        avail = mem_available_mb()
++        if avail >= MEM_MIN_MB:
++            return avail
++        log.append(f"memory wait: available {avail}MB < {MEM_MIN_MB}MB, "
++                   f"sleep {MEM_WAIT_S}s (try {attempt + 1}/{MEM_RETRIES})")
++        time.sleep(MEM_WAIT_S)
++    return mem_available_mb()
++
++
++def find_print_pdf(ed_dir):
++    pdfs = [f for f in os.listdir(ed_dir) if f.lower().endswith(".pdf")]
++    prints = [f for f in pdfs if "web.pdf" not in f.lower()]
++    if len(prints) != 1:
++        return None, f"expected exactly 1 print PDF, found {prints}"
++    return os.path.join(ed_dir, prints[0]), None
++
++
++def scan_edition(ed_dir, dpi, json_dir):
++    slug = os.path.basename(os.path.normpath(ed_dir))
++    res = {"edition": slug, "dir": ed_dir, "status": "ok", "pages": [],
++           "touches": 0, "nears": 0, "log": []}
++    pdf, err = find_print_pdf(ed_dir)
++    if err:
++        res["status"] = "BLOCKED: " + err
++        return res
++    res["pdf"] = os.path.basename(pdf)
++    avail = wait_for_memory(res["log"])
++    res["mem_available_mb_at_start"] = avail
++    doc = fitz.open(pdf)
++    res["page_count"] = doc.page_count
++    px_per_pt = dpi / 72.0
++    for pi in range(doc.page_count):
++        page = doc[pi]
++        pix = page.get_pixmap(dpi=dpi, colorspace=fitz.csGRAY)
++        a = np.frombuffer(pix.samples, dtype=np.uint8).reshape(
++            pix.height, pix.width)
++        ink = a < INK
++        H, W = a.shape
++        bands = {
++            "top": ink[:BAND, :],
++            "bottom": ink[H - BAND:, :],
++            "left": ink[:, :BAND],
++            "right": ink[:, W - BAND:],
++        }
++        touch = {e: int(b.sum()) for e, b in bands.items()}
++        # minimum ink distance to each edge (px; -1 if the page has no ink)
++        rows = np.where(ink.any(axis=1))[0]
++        cols = np.where(ink.any(axis=0))[0]
++        if len(rows):
++            dist = {"top": int(rows.min()), "bottom": int(H - 1 - rows.max()),
++                    "left": int(cols.min()), "right": int(W - 1 - cols.max())}
++        else:
++            dist = {"top": -1, "bottom": -1, "left": -1, "right": -1}
++        near = [e for e in ("top", "bottom", "left", "right")
++                if 0 <= dist[e] <= NEAR]
++        prec = {"page": pi + 1, "size_px": [W, H], "touch": touch,
++                "min_dist_px": dist,
++                "min_dist_pt": {e: (round(v / px_per_pt, 1) if v >= 0 else -1)
++                                for e, v in dist.items()},
++                "near": near}
++        res["pages"].append(prec)
++        for e, n in touch.items():
++            if n:
++                res["touches"] += 1
++                if json_dir:
++                    crop = _crop(a, e, W, H)
++                    cdir = os.path.join(json_dir, "crops")
++                    os.makedirs(cdir, exist_ok=True)
++                    Image.fromarray(crop).save(
++                        os.path.join(cdir, f"{slug}-p{pi + 1}-{e}.png"))
++        res["nears"] += len(near)
++        del pix, a, ink
++    doc.close()
++    return res
++
++
++def _crop(a, edge, W, H):
++    if edge == "top":
++        return a[:80, :]
++    if edge == "bottom":
++        return a[H - 80:, :]
++    if edge == "left":
++        return a[:, :80]
++    return a[:, W - 80:]
++
++
++def print_edition(res, out=sys.stdout):
++    if res["status"] != "ok":
++        print(f"EDGE_SCAN {res['edition']}: {res['status']}", file=out)
++        return
++    for p in res["pages"]:
++        t = {e: n for e, n in p["touch"].items() if n}
++        tag = "TOUCH " + str(t) if t else "clean"
++        near = f" near={p['near']}" if p["near"] else ""
++        print(f"  P{p['page']}: {tag} min_dist_pt={p['min_dist_pt']}{near}",
++              file=out)
++    print(f"EDGE_SCAN {res['edition']}: {res['page_count']} pages, "
++          f"{res['touches']} TOUCH, {res['nears']} NEAR", file=out)
++
++
++def main(argv):
++    args, json_dir = [], None
++    dpi = 200
++    i = 0
++    while i < len(argv):
++        a = argv[i]
++        if a == "--json-dir" and i + 1 < len(argv):
++            json_dir = argv[i + 1]
++            i += 2
++        elif a == "--dpi" and i + 1 < len(argv):
++            dpi = int(argv[i + 1])
++            i += 2
++        elif a.startswith("--"):
++            print(f"unknown option: {a}", file=sys.stderr)
++            return 2
++        else:
++            args.append(a)
++            i += 1
++    if not args:
++        print("usage: pdf_edge_scan.py <edition-dir> [...] [--dpi 200] "
++              "[--json-dir DIR]", file=sys.stderr)
++        return 2
++    if json_dir:
++        os.makedirs(json_dir, exist_ok=True)
++    rc = 0
++    for ed in args:
++        res = scan_edition(ed, dpi, json_dir)
++        print_edition(res)
++        if json_dir:
++            with open(os.path.join(json_dir, res["edition"] + ".json"),
++                      "w", encoding="utf-8") as f:
++                json.dump(res, f, ensure_ascii=False, indent=1)
++        if res["status"] != "ok":
++            rc = 2
++        elif res["touches"]:
++            rc = 1
++    return rc
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))
+diff --git a/tools/spill_sweep.py b/tools/spill_sweep.py
+new file mode 100644
+index 00000000..2e1e9874
+--- /dev/null
++++ b/tools/spill_sweep.py
+@@ -0,0 +1,258 @@
++#!/usr/bin/env python3
++# -*- coding: utf-8 -*-
++"""spill_sweep.py — standing gate: cream-box whole-line spill sweep (W47).
++
++Promoted 2026-11-11 from the core-nl fix5 re-proof script
++``hidden_files/w47/scratch-fix-nl5b/spill_sweep_reproof.py`` (unchanged
++detection logic; generalised to any edition dir, plus auto-adjudication).
++
++Blind spot it closes (run-log 2026-11-11 ~16:15 UTC): ``check_creambox.py``
++only inspects texts whose baseline falls inside a cream rect, so a whole
++line sitting entirely OUTSIDE its box is skipped; and the occlusion audit's
++BOXTITLE class only counts stroked boxes, so borderless (pure-fill) cream
++boxes are invisible to it. This sweep looks at the 60 px neighbourhood of
++every cream (``#f0eee5``) rect:
++
++  BELOW — baseline 0..60 px below the box bottom, x-start inside the box
++  ABOVE — baseline 0..60 px above the box top, x-start inside the box
++  SIDE  — baseline inside the box y-range, x-start 0..60 px outside its
++          x-range on either side
++
++Every candidate is adjudicated by the same-flow test (the rule the nl fix5
++re-proof used by hand): a candidate is a real SPILL only if it continues
++the box's own line flow — same font-size as the box's last (BELOW) / first
++(ABOVE) inside line, same x-start (within 1 px), and the vertical gap to
++that line matches the expected line advance for that size (within 3 px).
++The expected advance is the median gap between consecutive inside lines
++of the same size, or, when the box holds only one line of that size, the
++nominal advance 1.40 x font-size (measured across all 12 W47 cores and
++fan-outs: same-size medians run 1.30–1.45 x size). The box-wide median
++advance is deliberately NOT used: in a mixed-size box it mixes title/body
++transitions and misstates the advance of any one size (W47 ko-it P2:
++a 19 pt gloss wraps at 24.7 px while the box median is 40.0 px, and the
++spilled 'kimchi' line was missed). A single-line box's near-above hit is
++a table header row, not spilled content (W47 core-ko P6: labels 17 px
++above the lower cells, 35 px below the upper cells, same size and column
++— deliberately placed headers; their 52 px gap fails the 29.4 px nominal
++advance). Next-section headings (+20/+24/+26/+28 px below a box), photo
++credits, gloss lines and neighbouring boxes' own titles all fail the
++same-flow test and are reported as OBSERVE, never as defects. SIDE hits
++are always OBSERVE (a line starting outside the box belongs to another
++column; horizontal ink running past a box edge is boxtitle_check.py's
++job).
++
++Read-only wrt the edition dir. Writes nothing except the optional JSON
++report (--json-dir) and stdout.
++
++Usage:
++  python3 tools/spill_sweep.py <edition-dir> [<edition-dir> ...]
++      [--json-dir DIR]
++Exit 0 iff no SPILL in any edition; exit 1 if any SPILL found.
++Requires only the Python 3 standard library.
++"""
++import collections
++import json
++import os
++import re
++import sys
++import xml.etree.ElementTree as ET
++
++WINDOW = 60.0       # px neighbourhood around each cream rect
++ADV_TOL = 3.0       # px tolerance on the line-advance match
++X_TOL = 1.0         # px tolerance on the x-start match
++NOMINAL_ADV = 1.40  # x font-size: nominal line advance when a box holds
++# only one line of the candidate's size (measured 1.30-1.45 across W47)
++NS = "{http://www.w3.org/2000/svg}"
++
++
++def _num(el, attr, default=None):
++    v = el.get(attr)
++    if v is None:
++        return default
++    try:
++        return float(v)
++    except ValueError:
++        return default
++
++
++def _page_no(fname):
++    m = re.match(r"p(\d+)-", fname)
++    return int(m.group(1)) if m else None
++
++
++def _median(vals):
++    s = sorted(vals)
++    n = len(s)
++    if n == 0:
++        return None
++    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2.0
++
++
++def _flow(inside):
++    """inside: [(baseline, size, x, text)] sorted by baseline.
++    Returns (modal_x, last_line, first_line)."""
++    if not inside:
++        return None, None, None
++    xs = collections.Counter(round(x, 1) for (_, _, x, _) in inside)
++    modal_x = xs.most_common(1)[0][0]
++    return modal_x, inside[-1], inside[0]
++
++
++def _expected_advance(inside, size):
++    """Line advance to expect for a line of `size` in this box: the median
++    gap between consecutive inside lines of the same size, else the
++    nominal advance NOMINAL_ADV x size."""
++    gaps = [b[0] - a[0] for a, b in zip(inside, inside[1:])
++            if abs(a[1] - size) < 0.01 and abs(b[1] - size) < 0.01
++            and b[0] - a[0] > 1.0]
++    if gaps:
++        return _median(gaps)
++    return NOMINAL_ADV * size
++
++
++def _is_spill(kind, cand, modal_x, ref_line, inside):
++    """cand: (baseline, size, x, text). ref_line: last (BELOW) / first
++    (ABOVE) inside line. A candidate is a SPILL iff it continues the
++    box's own line flow: same font-size and same x-start as the reference
++    line, and the vertical gap to it matches the expected advance for
++    that size (within ADV_TOL)."""
++    if ref_line is None or modal_x is None:
++        return False
++    cy, csz, cx, _ = cand
++    ry, rsz, _, _ = ref_line
++    if abs(csz - rsz) > 0.01 or abs(cx - modal_x) > X_TOL:
++        return False
++    gap = abs(cy - ry)
++    return abs(gap - _expected_advance(inside, csz)) <= ADV_TOL
++
++
++def scan_edition(ed):
++    slug = os.path.basename(os.path.normpath(ed))
++    svg_dir = os.path.join(ed, "svg")
++    files = sorted(f for f in os.listdir(svg_dir) if f.endswith(".svg"))
++    result = {"edition": slug, "dir": ed, "pages": {}, "spills": [],
++              "observes": [], "boxes": 0, "candidates": 0}
++    for i, fn in enumerate(files):
++        pg = _page_no(fn) or (i + 1)
++        path = os.path.join(svg_dir, fn)
++        root = ET.parse(path).getroot()
++        rects = []
++        for r in root.iter(NS + "rect"):
++            if (r.get("fill") or "").lower() == "#f0eee5":
++                x, y, w, h = (_num(r, a) for a in ("x", "y", "width", "height"))
++                if None not in (x, y, w, h):
++                    rects.append((x, y, w, h))
++        texts = []
++        for t in root.iter(NS + "text"):
++            x, y, sz = (_num(t, a) for a in ("x", "y", "font-size"))
++            if None in (x, y, sz):
++                continue
++            txt = "".join(t.itertext())
++            if txt.strip():
++                texts.append((x, y, sz, txt))
++        result["boxes"] += len(rects)
++        page_cands = []
++        for (rx, ry, rw, rh) in rects:
++            bot = ry + rh
++            inside = sorted([(y, sz, x, s) for (x, y, sz, s) in texts
++                             if rx - 1 <= x <= rx + rw + 1 and ry - 5 <= y <= bot])
++            modal_x, last_line, first_line = _flow(inside)
++            below = [(y, sz, x, s) for (x, y, sz, s) in texts
++                     if rx <= x <= rx + rw and bot < y <= bot + WINDOW]
++            above = [(y, sz, x, s) for (x, y, sz, s) in texts
++                     if rx <= x <= rx + rw and ry - WINDOW <= y < ry]
++            side = [(y, sz, x, s) for (x, y, sz, s) in texts
++                    if ry <= y <= bot and (rx - WINDOW <= x < rx
++                                           or rx + rw < x <= rx + rw + WINDOW)]
++            for kind, cands in (("BELOW", below), ("ABOVE", above),
++                                ("SIDE", side)):
++                for cand in cands:
++                    cy, csz, cx, ctext = cand
++                    if kind == "BELOW":
++                        dist = cy - bot
++                        spill = _is_spill(kind, cand, modal_x, last_line,
++                                          inside)
++                    elif kind == "ABOVE":
++                        dist = cy - ry
++                        spill = _is_spill(kind, cand, modal_x, first_line,
++                                          inside)
++                    else:
++                        dist = min(abs(cx - rx), abs(cx - (rx + rw)))
++                        spill = False
++                    rec = {"page": pg, "kind": kind, "distance": round(dist, 2),
++                           "x": round(cx, 1), "y": round(cy, 1),
++                           "size": csz, "text": ctext[:80],
++                           "box": [round(rx, 1), round(ry, 1),
++                                   round(rw, 1), round(rh, 1)],
++                           "box_bottom": round(bot, 1),
++                           "verdict": "SPILL" if spill else "OBSERVE"}
++                    page_cands.append(rec)
++                    (result["spills"] if spill else result["observes"]).append(rec)
++        result["pages"][str(pg)] = {"file": fn, "boxes": len(rects),
++                                    "candidates": page_cands}
++        result["candidates"] += len(page_cands)
++    return result
++
++
++def print_edition(res, out=sys.stdout):
++    print(f"== {res['edition']}  ({res['dir']})", file=out)
++    for pg in sorted(res["pages"], key=lambda p: int(p)):
++        info = res["pages"][pg]
++        for c in info["candidates"]:
++            x, y, w, h = c["box"]
++            tag = "SPILL" if c["verdict"] == "SPILL" else "observe"
++            if c["kind"] == "BELOW":
++                print(f"P{pg} box=({x},{y},{w},{h}) bottom={c['box_bottom']:.1f}",
++                      file=out)
++                print(f"   BELOW +{c['distance']:.2f}px x={c['x']} y={c['y']} "
++                      f"[{tag}] {c['text'][:60]!r}", file=out)
++            elif c["kind"] == "ABOVE":
++                print(f"P{pg} box=({x},{y},{w},{h}) bottom={c['box_bottom']:.1f}",
++                      file=out)
++                print(f"   ABOVE {c['distance']:.2f}px x={c['x']} y={c['y']} "
++                      f"[{tag}] {c['text'][:60]!r}", file=out)
++            else:
++                print(f"P{pg} box=({x},{y},{w},{h}) bottom={c['box_bottom']:.1f}",
++                      file=out)
++                print(f"   SIDE x={c['x']} y={c['y']} [{tag}] {c['text'][:60]!r}",
++                      file=out)
++    print(f"SPILL_SWEEP {res['edition']}: {res['boxes']} boxes, "
++          f"{res['candidates']} candidates, {len(res['spills'])} SPILL, "
++          f"{len(res['observes'])} OBSERVE", file=out)
++
++
++def main(argv):
++    args, json_dir = [], None
++    i = 0
++    while i < len(argv):
++        a = argv[i]
++        if a == "--json-dir" and i + 1 < len(argv):
++            json_dir = argv[i + 1]
++            i += 2
++        elif a.startswith("--"):
++            print(f"unknown option: {a}", file=sys.stderr)
++            return 2
++        else:
++            args.append(a)
++            i += 1
++    if not args:
++        print("usage: spill_sweep.py <edition-dir> [...] [--json-dir DIR]",
++              file=sys.stderr)
++        return 2
++    if json_dir:
++        os.makedirs(json_dir, exist_ok=True)
++    rc = 0
++    for ed in args:
++        res = scan_edition(ed)
++        print_edition(res)
++        if json_dir:
++            with open(os.path.join(json_dir, res["edition"] + ".json"),
++                      "w", encoding="utf-8") as f:
++                json.dump(res, f, ensure_ascii=False, indent=1)
++        if res["spills"]:
++            rc = 1
++    return rc
++
++
++if __name__ == "__main__":
++    sys.exit(main(sys.argv[1:]))

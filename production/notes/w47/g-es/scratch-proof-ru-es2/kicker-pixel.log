@@ -1,0 +1,36 @@
+kicker band ink runs: 111  total columns with ink: 426
+9 largest pixel gaps (should be the 9 word gaps):
+  gap 12px ink 1044 -> 1057
+  gap 11px ink 1263 -> 1275
+  gap 11px ink 1187 -> 1199
+  gap 11px ink 1079 -> 1091
+  gap 11px ink 811 -> 823
+  gap 11px ink 710 -> 722
+  gap 10px ink 1058 -> 1069
+  gap 9px ink 1008 -> 1018
+  gap 9px ink 972 -> 982
+PIL ink-box gaps (gate method): [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6]
+kicker row x-extent: first ink 589 last ink 1361 centre 975.0 (design centre 975)
+all gaps >=5px in x order:
+  gap 5px at x~606-612
+  gap 5px at x~627-633
+  gap 5px at x~668-674
+  gap 11px at x~710-722
+  gap 5px at x~775-781
+  gap 11px at x~811-823
+  gap 5px at x~830-836
+  gap 8px at x~929-938
+  gap 9px at x~972-982
+  gap 5px at x~995-1001
+  gap 9px at x~1008-1018
+  gap 12px at x~1044-1057
+  gap 10px at x~1058-1069
+  gap 11px at x~1079-1091
+  gap 11px at x~1187-1199
+  gap 5px at x~1225-1231
+  gap 6px at x~1235-1242
+  gap 11px at x~1263-1275
+  gap 5px at x~1328-1334
+  gap 5px at x~1338-1344
+  gap 5px at x~1348-1354
+DONE kicker-pixel (log written)

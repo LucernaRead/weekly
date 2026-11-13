@@ -1,0 +1,17 @@
+[PASS] P1 VOL.4 + week dates :: top strip
+[PASS] P1 subtitle topics :: subtitle line
+[PASS] footer+page line 8/8 :: VOL.4 DE footer + page line on all pages
+[PASS] no VOL.3 edition label residue :: VOL.3 may appear only as the cited promising issue in the P7 disclosure
+[PASS] press-time note + final named :: P4 press-time note present; final date named
+[PASS] P1 masthead lines fit 1820 :: {330: 262.9, 372: 767.3}
+[PASS] same-baseline ink collisions = 0 :: 0 collisions
+[PASS] page-frame ink crossings = 0 :: 0 crossings | min margins L/R/T/B = [47.0, 47.5, 35.0, 36.0]
+[PASS] P6 chart-label coverage <30% :: [('dias úteis', 0.0), ('10 dias', 0.0), ('fins de semana e feriado', 0.0), ('5 dias', 0.0)]
+[PASS] gloss items enumerated :: {2: 6, 3: 6, 4: 6, 5: 6, 6: 5} total 29
+[PASS] gloss headwords survive in render :: 0 missing
+[PASS] P7 quotes 2x + page tag + DE on P7 :: 8 quotes; [('Consciência Negra: sexta é fer', 2, True, True), ('o feriado abre um fim de seman', 2, True, True), ('Zumbi nasceu em Palmares', 2, True, True), ('sem memória, não há futuro', 2, True, True), ('o agregado ficou em 2 a 2', 2, True, True), ('a espera pelo gabarito', 2, True, True), ('primeiro as fáceis, depois as ', 2, True, True), ('Confira o transporte, guarde o', 2, True, True)]
+[PASS] readers corner disclosure :: {'PT example verbatim': True, 'PT disclosure verbatim': True, 'DE disclosure verbatim': True, 'DE example label': True, 'VOL.5 carry': True}
+[PASS] images embedded + credits 5/5 :: {'P1 capoeira + credit': True, 'P3 zumbi + credit': True, 'P5 estudo + credit': True, 'P7 lusiadas + credit': True, 'P8 garrincha + credit': True}
+[PASS] P7 quotes clear of preview box :: max quote-region baseline 2393.995
+[PASS] P1 headline <= 56 non-space chars :: 41 chars
+FAILURES: none

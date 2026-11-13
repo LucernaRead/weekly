@@ -1,0 +1,65 @@
+== D1 P1 EM POUCAS PALAVRAS box (bottom 2348) ==
+ink row runs 2280-2360: [(2283, 2303), (2312, 2332), (2349, 2350)]
+last ink row <=2348: 2332 -> clearance +16
+== D2 P3 schedule box (bottom 551, col x 1439.5-1862) ==
+ink row runs 500-575: [(500, 514), (526, 540)]
+last ink row <=551: 540 -> clearance +11
+== D3 P6 timeline box (bottom 854, col x 1439.5-1862) ==
+ink row runs 790-880: [(796, 811), (825, 845)]
+last ink row <=854: 845 -> clearance +9
+== D7 P8 model text, 10 lines, col right edge 1862 ==
+model lines found: 10
+words in model lines: 90 (+ 'Texto modelo:' counted once in line1 already)
+  y=  673.9 ink-right=1797 slack=+65px | Texto modelo: Sexta, 20 de novembro, acordo sem
+  y=  693.4 ink-right=1814 slack=+48px | despertador: é feriado nacional. De manhã, leio sobr
+  y=  712.9 ink-right=1840 slack=+22px | Zumbi e Palmares e escrevo duas frases em português.
+  y=  732.4 ink-right=1797 slack=+65px | tarde, vou a uma roda de capoeira no bairro e ouço
+  y=  751.9 ink-right=1838 slack=+24px | histórias de resistência. No sábado, assisto a Palme
+  y=  771.4 ink-right=1801 slack=+61px | Flamengo na televisão, com a família. No domingo,
+  y=  790.9 ink-right=1778 slack=+84px | descanso, preparo a semana e confiro o gabarito
+  y=  810.4 ink-right=1838 slack=+24px | extraoficial do Enem. Na segunda, volto ao trabalho 
+  y=  829.9 ink-right=1839 slack=+23px | calma: o feriadão foi curto, mas a memória fica. O d
+  y=  849.4 ink-right=1723 slack=+139px | lembra a luta e a cultura afro-brasileiras.
+tightest slack: +22px
+== D5 P4 gloss box (rect x989 y270.48 w422.5 h145.675 -> right 1411.5 bottom 416.15) ==
+gloss lines found: 3
+  y= 308.98 [Noto Sans CJK SC] 译注｜o agregado 总比分 · os pênaltis
+  y= 338.71 [Noto Sans CJK SC] 点球大战 · a decisão 决赛 · o título 冠
+  y= 368.43 [Noto Sans CJK SC] 军头衔 · a pausa 休整期 · a taça 奖杯。
+gloss-box ink row runs: [(291, 313), (321, 339), (351, 373)]
+last ink row in box: 373 -> vertical clearance vs 416.15: +43.1px
+  line y= 308.98 ink-left=1008 ink-right=1382 slack-to-box-right=+29.5px
+  line y= 338.71 ink-left=1008 ink-right=1384 slack-to-box-right=+27.5px
+  line y= 368.43 ink-left=1009 ink-right=1388 slack-to-box-right=+23.5px
+== all-cream-box sweep: last ink row inside each cream rect (PNG truth) ==
+  p1-capa box y=  786.2 bottom= 1166.2 last-ink=1122 clearance=44.2 OK 
+  p1-capa box y=  588.0 bottom= 1212.4 last-ink=1165 clearance=47.4 OK 
+  p1-capa box y= 1238.4 bottom= 1578.4 last-ink=1566 clearance=12.4 OK 
+  p1-capa box y= 1874.0 bottom= 2348.0 last-ink=2332 clearance=16.0 OK 
+  p2-vida box y=  605.0 bottom=  846.0 last-ink=797 clearance=49.0 OK 
+  p2-vida box y=  858.0 bottom= 1033.4 last-ink=990 clearance=43.4 OK 
+  p2-vida box y=  200.0 bottom=  519.0 last-ink=507 clearance=12.0 OK 
+  p2-vida box y=  545.0 bottom=  880.0 last-ink=876 clearance=4.0 OK 
+  p2-vida box y= 1618.0 bottom= 1768.0 last-ink=1708 clearance=60.0 OK 
+  p2-vida box y= 1618.0 bottom= 1768.0 last-ink=1737 clearance=31.0 OK 
+  p2-vida box y= 1618.0 bottom= 1768.0 last-ink=1708 clearance=60.0 OK 
+  p2-vida box y= 1618.0 bottom= 1768.0 last-ink=1708 clearance=60.0 OK 
+  p3-cultura box y=  200.0 bottom=  375.4 last-ink=329 clearance=46.4 OK 
+  p3-cultura box y=  200.0 bottom=  551.0 last-ink=540 clearance=11.0 OK 
+  p3-cultura box y=  577.0 bottom=  851.0 last-ink=847 clearance=4.0 OK 
+  p3-cultura box y=  877.0 bottom= 1077.0 last-ink=1057 clearance=20.0 OK 
+  p4-esporte box y=  270.5 bottom=  416.2 last-ink=373 clearance=43.2 OK 
+  p4-esporte box y=  200.0 bottom=  576.0 last-ink=467 clearance=109.0 OK 
+  p4-esporte box y=  602.0 bottom=  876.0 last-ink=872 clearance=4.0 OK 
+  p5-jovens box y=  200.0 bottom=  765.3 last-ink=720 clearance=45.3 OK 
+  p5-jovens box y=  777.3 bottom=  923.0 last-ink=879 clearance=44.0 OK 
+  p5-jovens box y=  200.0 bottom=  513.0 last-ink=507 clearance=6.0 OK 
+  p5-jovens box y=  539.0 bottom=  782.5 last-ink=779 clearance=3.5 OK 
+  p6-aprofundamento box y=  343.4 bottom=  489.1 last-ink=442 clearance=47.1 OK 
+  p6-aprofundamento box y=  200.0 bottom=  854.0 last-ink=845 clearance=9.0 OK 
+  p6-aprofundamento box y=  866.0 bottom= 1066.0 last-ink=1051 clearance=15.0 OK 
+  p6-aprofundamento box y= 1594.0 bottom= 1916.0 last-ink=1879 clearance=37.0 OK 
+  p6-aprofundamento box y= 1594.0 bottom= 1916.0 last-ink=1857 clearance=59.0 OK 
+  p7-lingua box y=  200.0 bottom= 1076.5 last-ink=1051 clearance=25.5 OK 
+  p7-lingua box y= 1098.5 bottom= 1372.5 last-ink=1369 clearance=3.5 OK 
+  p7-lingua box y= 1394.5 bottom= 1912.5 last-ink=1891 clearance=21.5 OK 

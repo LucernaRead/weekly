@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[p8-extract-core] rc=0
+[p8-extract] rc=0
+[p8-compare] rc=0
+[occlusion-selftest] rc=0
+[occlusion-audit] rc=1
+[occlusion] {'TEXTX': 42} total 42
+[adjudicate] rc=0
+[freeze-baseline] rc=0
+[freeze-diff] rc=0
+[freeze-diff] removed total 850 (distinct 484); Cyrillic-bearing removed: [('8', 'Билибин', 1), ('8', 'Билибина', 1), ('8', 'Зимняя', 1), ('8', 'Иван', 1), ('8', 'Ивана', 1), ('8', 'Иллюстрация', 1), ('8', 'Морозко', 1), ('8', 'год', 1), ('8', 'достояние', 1), ('8', 'иллюстрация', 1), ('8', 'к', 1), ('8', 'можно', 1), ('8', 'ноябрю', 1), ('8', 'общественное', 1), ('8', 'сказка', 1)]
+[text-layer] multiset identical True per-page True chars 30771
+[s11_check] rc=0
+[creambox] rc=0
+[creambox] negative inside-only: []; BELOW-WINDOW: 95 lines
+[creambox-vs-backup] diff content lines: 0
+[kicker] 11 tokens ['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ'], gaps [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6], min 5.9
+[D1] {"s1": {"in_textmd": true, "lines": [459]}, "s3": {"in_textmd": true, "lines": [504]}, "s4": {"in_textmd": true, "lines": [596]}, "s2_in_textmd": false, "svg_p6_s1": true, "svg_p6_s2": true, "svg_p7_s3": true, "svg_p8_s4": true}
+GATES ALL PASS

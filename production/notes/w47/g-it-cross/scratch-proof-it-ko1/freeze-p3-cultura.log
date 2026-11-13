@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/hatch/workspace/weekly-git/tools/freeze.py", line 214, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/freeze.py", line 210, in main
+    return cmd_baseline(args) if args.cmd == "baseline" else cmd_diff(args)
+                                                             ^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/freeze.py", line 170, in cmd_diff
+    core, ed = pages(args.core_svg), pages(args.edition_svg)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/weekly-git/tools/freeze.py", line 166, in pages
+    for fn in sorted(os.listdir(d)):
+                     ^^^^^^^^^^^^^
+NotADirectoryError: [Errno 20] Not a directory: 'production/2026-w47/core-it/svg/p3-cultura.svg'

@@ -1,0 +1,43 @@
+#01 p1-pervaya.s 'Зенит' vs '» ' right PILgap=4.05 tool=5.5x25.0px raster_med=5.0
+#02 p1-pervaya.s 'Динамо' vs '» — ' right PILgap=9.45 tool=5.1x25.0px raster_med=7.67
+#03 p1-pervaya.s 'тур' vs ': «' right PILgap=3.40 tool=4.9x26.2px raster_med=7.67
+#04 p1-pervaya.s 'пятница' vs '»: ' right PILgap=2.55 tool=3.2x9.8px raster_med=3.92
+#05 p1-pervaya.s 'третий' vs ', ' right PILgap=0.15 tool=3.4x7.5px raster_med=3.0
+#06 p1-pervaya.s 'субботу' vs ',' left PILgap=-99.60 tool=3.2x7.5px raster_med=6.0
+#07 p1-pervaya.s 'Краснодар' vs '» — ' left PILgap=-171.40 tool=3.1x11.0px raster_med=0.0
+#08 p1-pervaya.s 'Краснодаре' vs ',' left PILgap=-148.20 tool=3.3x7.5px raster_med=1.33
+#09 p1-pervaya.s '!' vs 'истории' left PILgap=0.10 tool=3.6x13.2px raster_med=4.5
+#10 p1-pervaya.s 'ЦСКА' vs '? A.' right PILgap=0.00 tool=3.5x14.8px raster_med=5.67
+#11 p2-zhizn.svg 'толерантности' vs '.' right PILgap=0.15 tool=4.1x3.0px raster_med=1.5
+#12 p2-zhizn.svg 'студента' vs '.' left PILgap=-101.95 tool=3.0x3.0px raster_med=1.58
+#13 p2-zhizn.svg 'студента' vs '.' left PILgap=-113.90 tool=3.3x3.2px raster_med=1.75
+#14 p2-zhizn.svg '! ' vs 'студента' left PILgap=-0.10 tool=3.4x13.2px raster_med=3.33
+#15 p2-zhizn.svg 'студенту' vs ', ' left PILgap=-119.25 tool=3.5x7.5px raster_med=6.0
+#16 p2-zhizn.svg 'спасибо' vs '.' right PILgap=0.15 tool=3.3x3.2px raster_med=2.92
+#17 p3-kultura.s 'биография' vs ':' right PILgap=0.00 tool=5.0x11.5px raster_med=1.83
+#18 p3-kultura.s 'посмотреть' vs ': ' right PILgap=0.00 tool=3.8x11.5px raster_med=0.0
+#19 p3-kultura.s ')' vs 'посмотреть' left PILgap=0.05 tool=3.2x13.5px raster_med=4.33
+#20 p4-sport.svg 'место' vs '.' right PILgap=0.00 tool=3.0x3.2px raster_med=2.75
+#21 p4-sport.svg 'Краснодар' vs '» ' left PILgap=-148.90 tool=3.1x11.0px raster_med=0.0
+#22 p4-sport.svg 'Краснодар' vs '» — ' left PILgap=-171.40 tool=3.1x11.0px raster_med=0.0
+#23 p4-sport.svg 'Россия' vs ', ' left PILgap=-79.65 tool=3.1x3.0px raster_med=1.75
+#24 p4-sport.svg 'истории' vs '; ' right PILgap=0.10 tool=3.1x13.2px raster_med=3.0
+#25 p4-sport.svg 'Краснодар' vs '»' left PILgap=-142.90 tool=3.1x11.0px raster_med=0.0
+#26 p4-sport.svg 'ЦСКА' vs '? A.' left PILgap=-87.70 tool=3.6x13.8px raster_med=5.67
+#27 p5-molodezh. 'пятница' vs '»:' right PILgap=4.10 tool=5.1x15.5px raster_med=6.5
+#28 p5-molodezh. 'смартфоны' vs ',' right PILgap=0.00 tool=5.2x7.5px raster_med=0.0
+#29 p6-razbor.sv 'студента' vs ', ' right PILgap=0.00 tool=3.2x7.5px raster_med=1.75
+#30 p6-razbor.sv 'сбивается' vs '.' right PILgap=0.00 tool=3.2x3.0px raster_med=1.5
+#31 p6-razbor.sv 'Планируйте' vs ': ' right PILgap=0.05 tool=3.2x11.5px raster_med=1.92
+#32 p6-razbor.sv '?　' vs 'НЕДЕЛЕ' left PILgap=3.90 tool=3.3x19.5px raster_med=7.25
+#33 p7-yazyk.svg '　語言' vs 'ЯЗЫК' left PILgap=8.50 tool=3.8x35.5px raster_med=0.0
+#34 p7-yazyk.svg 'прессы' vs ',' right PILgap=0.00 tool=3.0x6.8px raster_med=2.0
+#35 p7-yazyk.svg '!»' vs 'студента' left PILgap=4.35 tool=3.4x12.0px raster_med=3.83
+#36 p7-yazyk.svg 'пресс' vs '-' left PILgap=-68.20 tool=3.0x5.8px raster_med=0.0
+#37 p7-yazyk.svg 'пятница' vs '»' right PILgap=2.85 tool=3.6x10.2px raster_med=4.33
+#38 p7-yazyk.svg '!» — ' vs 'студента' left PILgap=-0.05 tool=3.0x11.8px raster_med=3.0
+#39 p7-yazyk.svg 'Кипренского' vs ', 1827 ' right PILgap=0.05 tool=3.5x17.2px raster_med=0.0
+#40 p7-yazyk.svg 'поступило' vs ': ' right PILgap=0.05 tool=3.2x10.5px raster_med=2.25
+#41 p8-test.svg '　練習與答案' vs 'ОТВЕТЫ' left PILgap=6.05 tool=8.0x35.5px raster_med=0.0
+#42 p8-test.svg '　參考答案 — 按版面分頁排列，找到題號即可' vs 'ОТВЕТЫ' left PILgap=3.25 tool=4.5x19.0px raster_med=0.0
+FINAL: 42 all CLEAR: True PILgap min: -171.4 max: 9.45 negatives: [(6, -99.6), (7, -171.4), (8, -148.2), (12, -101.95), (13, -113.9), (14, -0.1), (15, -119.25), (21, -148.9), (22, -171.4), (23, -79.65), (25, -142.9), (26, -87.7), (36, -68.2), (38, -0.05)]

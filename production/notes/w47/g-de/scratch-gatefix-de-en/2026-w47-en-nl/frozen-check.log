@@ -1,0 +1,9 @@
+p1: before frozen=149 sha8=d5121c4f | after frozen=149 sha8=d5121c4f OK  
+p2: before frozen=176 sha8=82502ec3 | after frozen=176 sha8=82502ec3 OK  
+p3: before frozen=182 sha8=8fe58c5a | after frozen=182 sha8=8fe58c5a OK  
+p4: before frozen=197 sha8=84e7605f | after frozen=197 sha8=84e7605f OK  
+p5: before frozen=165 sha8=81de2066 | after frozen=165 sha8=81de2066 OK  
+p6: before frozen=186 sha8=854fc7ac | after frozen=186 sha8=854fc7ac OK  
+p7: before frozen=163 sha8=efc7ee7b | after frozen=163 sha8=efc7ee7b OK  
+p8: before frozen=155 sha8=5cd82c31 | after frozen=155 sha8=5cd82c31 OK  
+FROZEN-CHECK: PASS 8/8 identical

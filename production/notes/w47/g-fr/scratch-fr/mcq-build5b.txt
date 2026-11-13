@@ -1,0 +1,104 @@
+bodies: 45  rendered lines: 1414
+
+DEFECTS: 33
+  [content12.py] option B split: 'B. samedi 7'
+      body: 'Alcaraz a gagné Paris... A. dimanche 8\u3000B. samedi 7\u3000C. lundi 9'
+      rendered lines: ['Alcaraz a gagné Paris... A. dimanche 8 B.', 'samedi 7 C. lundi 9']
+  [content12.py] option B split: 'B. mercredi 18'
+      body: 'Le Sénat vote sur la Sécu... A. lundi 16\u3000B. mercredi 18\u3000C. jeudi 19'
+      rendered lines: ['Le Sénat vote sur la Sécu... A. lundi 16 B.', 'mercredi 18 C. jeudi 19']
+  [content12.py] option A split: 'A. 18 nov.'
+      body: "La Journée de l'enfance, c'est le... A. 18 nov.\u3000B. 19 nov.\u3000C. 20 nov."
+      rendered lines: ["La Journée de l'enfance, c'est le... A. 18", 'nov. B. 19 nov. C. 20 nov.']
+  [content12.py] option A split: 'A. dimanche 22'
+      body: "Les finales de Turin, c'est... A. dimanche 22\u3000B. samedi 21\u3000C. lundi 23"
+      rendered lines: ["Les finales de Turin, c'est... A. dimanche", '22 B. samedi 21 C. lundi 23']
+  [content34.py] option B split: 'B. un cépage'
+      body: 'Le gamay est... A. un fromage\u3000B. un cépage\u3000C. un village'
+      rendered lines: ['Le gamay est... A. un fromage B. un', 'cépage C. un village']
+  [content34.py] option A split: 'A. samedi 7'
+      body: 'La finale du Masters a eu lieu... A. samedi 7\u3000B. dimanche 8\u3000C. lundi 9'
+      rendered lines: ['La finale du Masters a eu lieu... A.', 'samedi 7 B. dimanche 8 C. lundi 9']
+  [content34.py] option A split: 'A. le 9 nov.'
+      body: 'Les Masters de Turin commencent... A. le 9 nov.\u3000B. le 12 nov.\u3000C. le 15 nov.'
+      rendered lines: ['Les Masters de Turin commencent... A.', 'le 9 nov. B. le 12 nov. C. le 15 nov.']
+  [content34.py] option A split: 'A. Fils'
+      body: "Le Français débutant à Turin, c'est... A. Fils\u3000B. Cobolli\u3000C. Jodar"
+      rendered lines: ["Le Français débutant à Turin, c'est... A.", 'Fils B. Cobolli C. Jodar']
+  [content34.py] option A split: 'A. vendredi 20'
+      body: 'La 11e journée de Ligue 1 reprend... A. vendredi 20\u3000B. dimanche 15\u3000C. lundi 9'
+      rendered lines: ['La 11e journée de Ligue 1 reprend... A.', 'vendredi 20 B. dimanche 15 C. lundi', '9']
+  [content34.py] option C split: 'C. lundi 9'
+      body: 'La 11e journée de Ligue 1 reprend... A. vendredi 20\u3000B. dimanche 15\u3000C. lundi 9'
+      rendered lines: ['La 11e journée de Ligue 1 reprend... A.', 'vendredi 20 B. dimanche 15 C. lundi', '9']
+  [content56.py] option A split: 'A. 6 films'
+      body: 'Mercredi 18 novembre, il sort... A. 6 films\u3000B. 16 films\u3000C. 56 films'
+      rendered lines: ['Mercredi 18 novembre, il sort... A. 6', 'films B. 16 films C. 56 films']
+  [content56.py] option A split: 'A. Francis Lawrence'
+      body: "« Les Braves », c'est un film de... A. Francis Lawrence\u3000B. Lukas Dhont\u3000C. Mipo O"
+      rendered lines: ["« Les Braves », c'est un film de... A.", 'Francis Lawrence B. Lukas Dhont C.', 'Mipo O']
+  [content56.py] option C split: 'C. Mipo O'
+      body: "« Les Braves », c'est un film de... A. Francis Lawrence\u3000B. Lukas Dhont\u3000C. Mipo O"
+      rendered lines: ["« Les Braves », c'est un film de... A.", 'Francis Lawrence B. Lukas Dhont C.', 'Mipo O']
+  [content56.py] option A split: 'A. Denis Ménochet'
+      body: "Dans « Jupiter », le président, c'est... A. Denis Ménochet\u3000B. Johnny Depp\u3000C. Guillermo Guiz"
+      rendered lines: ["Dans « Jupiter », le président, c'est... A.", 'Denis Ménochet B. Johnny Depp C.', 'Guillermo Guiz']
+  [content56.py] option C split: 'C. Guillermo Guiz'
+      body: "Dans « Jupiter », le président, c'est... A. Denis Ménochet\u3000B. Johnny Depp\u3000C. Guillermo Guiz"
+      rendered lines: ["Dans « Jupiter », le président, c'est... A.", 'Denis Ménochet B. Johnny Depp C.', 'Guillermo Guiz']
+  [content56.py] option A split: "A. d'une partie de Trivial Pursuit"
+      body: "« Camembert », c'est l'histoire... A. d'une partie de Trivial Pursuit\u3000B. d'un braquage\u3000C. d'un concert"
+      rendered lines: ["« Camembert », c'est l'histoire... A.", "d'une partie de Trivial Pursuit B. d'un", "braquage C. d'un concert"]
+  [content56.py] option B split: "B. d'un braquage"
+      body: "« Camembert », c'est l'histoire... A. d'une partie de Trivial Pursuit\u3000B. d'un braquage\u3000C. d'un concert"
+      rendered lines: ["« Camembert », c'est l'histoire... A.", "d'une partie de Trivial Pursuit B. d'un", "braquage C. d'un concert"]
+  [content56.py] option B split: 'B. 458–0'
+      body: 'Le 4 novembre, le vote... A. 115–1\u3000B. 458–0\u3000C. 404–1'
+      rendered lines: ['Le 4 novembre, le vote... A. 115–1 B.', '458–0 C. 404–1']
+  [content56.py] option B split: 'B. 20 nov.'
+      body: "Le budget de l'État, dès le... A. 9 nov.\u3000B. 20 nov.\u3000C. 26 nov."
+      rendered lines: ["Le budget de l'État, dès le... A. 9 nov. B. 20", 'nov. C. 26 nov.']
+  [content56.py] option B split: 'B. 26 nov.'
+      body: 'Le vote sur le budget... A. 18 nov.\u3000B. 26 nov.\u3000C. 9 déc.'
+      rendered lines: ['Le vote sur le budget... A. 18 nov. B. 26', 'nov. C. 9 déc.']
+  [content56.py] option B split: 'B. 26 nov.'
+      body: "Cinquante jours, jusqu'au... A. 9 nov.\u3000B. 26 nov.\u3000C. 18 déc."
+      rendered lines: ["Cinquante jours, jusqu'au... A. 9 nov. B. 26", 'nov. C. 18 déc.']
+  [content8.py] option B split: 'B. lundi 16'
+      body: 'Turin commence... A. dimanche 15\u3000B. lundi 16\u3000C. mercredi 18'
+      rendered lines: ['Turin commence... A. dimanche 15 B. lundi', '16 C. mercredi 18']
+  [content8.py] option A split: 'A. un vin primeur'
+      body: "Le beaujolais nouveau, c'est... A. un vin primeur\u3000B. un fromage\u3000C. un film"
+      rendered lines: ["Le beaujolais nouveau, c'est... A. un vin", 'primeur B. un fromage C. un film']
+  [content8.py] option B split: 'B. mercredi 18'
+      body: 'Le Sénat vote sur la Sécu... A. lundi 16\u3000B. mercredi 18\u3000C. jeudi 19'
+      rendered lines: ['Le Sénat vote sur la Sécu... A. lundi 16 B.', 'mercredi 18 C. jeudi 19']
+  [content8.py] option A split: 'A. semble'
+      body: 'À mon avis, ce programme ___ très riche. A. semble\u3000B. sembler\u3000C. semblant'
+      rendered lines: ['À mon avis, ce programme ___ très riche. A.', 'semble B. sembler C. semblant']
+  [content8.py] option C split: 'C. recevoir'
+      body: 'Dimanche, la France ___ la Turquie à Bordeaux. A. reçoivent\u3000B. reçoit\u3000C. recevoir'
+      rendered lines: ['Dimanche, la France ___ la Turquie à', 'Bordeaux. A. reçoivent B. reçoit C.', 'recevoir']
+  [content8.py] option B split: 'B. un match'
+      body: "Hunger Games, c'est... A. un prequel\u3000B. un match\u3000C. une foire"
+      rendered lines: ["Hunger Games, c'est... A. un prequel B. un", 'match C. une foire']
+  [content8.py] option B split: 'B. un roman'
+      body: 'Le matin, la famille lit... A. le journal\u3000B. un roman\u3000C. une bande-annonce'
+      rendered lines: ['Le matin, la famille lit... A. le journal B. un', 'roman C. une bande-annonce']
+  [content8.py] option A split: 'A. les finales de Turin'
+      body: "L'après-midi, la famille regarde... A. les finales de Turin\u3000B. un film\u3000C. les Sarmentelles"
+      rendered lines: ["L'après-midi, la famille regarde... A. les finales", 'de Turin B. un film C. les Sarmentelles']
+  [content8.py] option B split: 'B. 17 h 15'
+      body: "Marseille – Le Mans, c'est à... A. 20 h 45\u3000B. 17 h 15\u3000C. 15 h"
+      rendered lines: ["Marseille – Le Mans, c'est à... A. 20 h 45 B.", '17 h 15 C. 15 h']
+  [content8.py] option A split: "A. lundi, c'est l'école"
+      body: "Le soir, les enfants dorment tôt parce que... A. lundi, c'est l'école\u3000B. il pleut\u3000C. ils sont malades"
+      rendered lines: ['Le soir, les enfants dorment tôt parce que... A.', "lundi, c'est l'école B. il pleut C. ils sont", 'malades']
+  [content8.py] option C split: 'C. ils sont malades'
+      body: "Le soir, les enfants dorment tôt parce que... A. lundi, c'est l'école\u3000B. il pleut\u3000C. ils sont malades"
+      rendered lines: ['Le soir, les enfants dorment tôt parce que... A.', "lundi, c'est l'école B. il pleut C. ils sont", 'malades']
+  [content8.py] option B split: 'B. restent à la maison'
+      body: "Lundi, les enfants... A. retournent à l'école\u3000B. restent à la maison\u3000C. vont à Turin"
+      rendered lines: ["Lundi, les enfants... A. retournent à l'école B.", 'restent à la maison C. vont à Turin']
+
+UNLOCATED: 0

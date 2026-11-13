@@ -1,0 +1,251 @@
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/p8.py extract --p8 svg/p8-avaliacao.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/p8-extract.json =====
+svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/p8.py compare --core-p8 /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg/p8-avaliacao.svg --edition-p8 svg/p8-avaliacao.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/p8-compare.json =====
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg/p8-avaliacao.svg: 150 noted
+edition svg/p8-avaliacao.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/occlusion_audit.py svg/ --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/occlusion.json =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 0 flags 
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/occlusion_audit.py /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg/ --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/occlusion-core.json =====
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg/: 0 flags 
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/spill_sweep.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de --json-dir /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/spill =====
+== 2026-w47-pt-de  (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de)
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   BELOW +35.00px x=989.0 y=1252.2 [observe] 'AGORA VOCÊ'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   BELOW +35.00px x=1176.9 y=1252.2 [observe] 'Jetzt sind Sie dran'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=801.1 [observe] 'amistoso da Seleção.'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=844.1 [observe] 'Qua 18 — Brasileirão: Cruzeiro ×'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=873.1 [observe] 'Palmeiras, às 20h30.'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=916.1 [observe] 'Qui 19 — Brasileirão: São Paulo ×'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=945.2 [observe] 'Fluminense, às 21h30.'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=988.2 [observe] 'Sex 20 — Consciência Negra: feriado'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=1017.2 [observe] 'nacional.'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=1060.2 [observe] 'Sáb 21 — Palmeiras × Flamengo, às'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=1089.3 [observe] '16h30: o jogo do título.'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=1132.3 [observe] 'Dom 22 — fim do feriadão; a Black'
+P1 box=(989.0,786.2,422.5,431.0) bottom=1217.2
+   SIDE x=1461.5 y=1161.3 [observe] 'Friday chega na sexta, 27.'
+P1 box=(1439.5,1238.4,422.5,340.0) bottom=1578.4
+   BELOW +50.00px x=1439.5 y=1628.4 [observe] 'A PALAVRA DA SEMANA'
+P1 box=(1439.5,1874.0,422.5,474.0) bottom=2348.0
+   BELOW +38.00px x=1669.1 y=2386.0 [observe] 'Lösungen auf Seite 8'
+P2 box=(538.5,605.0,422.5,240.0) bottom=845.0
+   BELOW +50.50px x=556.5 y=895.5 [observe] 'HINWEIS · o feriadão das dreitägige'
+P2 box=(538.5,605.0,422.5,240.0) bottom=845.0
+   ABOVE -45.72px x=538.5 y=559.3 [observe] 'propaganda, não na etiqueta.'
+P2 box=(1439.5,200.0,422.5,319.0) bottom=519.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P2 box=(1439.5,200.0,422.5,319.0) bottom=519.0
+   ABOVE -32.00px x=1460.3 y=168.0 [observe] 'Der Feiertag und das dreitägige Wochenende'
+P2 box=(1439.5,545.0,422.5,393.0) bottom=938.0
+   ABOVE -37.35px x=1461.5 y=507.6 [observe] 'feriadão de três dias.'
+P2 box=(88.0,1618.0,422.5,150.0) bottom=1768.0
+   BELOW +32.00px x=88.0 y=1800.0 [observe] 'Atenção: o feriado é nacional, mas cada cidade tem as suas r'
+P2 box=(88.0,1618.0,422.5,150.0) bottom=1768.0
+   ABOVE -24.00px x=88.0 y=1594.0 [observe] 'O FERIADÃO, DIA A DIA'
+P2 box=(88.0,1618.0,422.5,150.0) bottom=1768.0
+   ABOVE -24.00px x=465.4 y=1594.0 [observe] 'Das lange Wochenende, Tag für Tag'
+P2 box=(88.0,1618.0,422.5,150.0) bottom=1768.0
+   SIDE x=560.5 y=1682.0 [observe] 'SÁB 21'
+P2 box=(538.5,1618.0,422.5,150.0) bottom=1768.0
+   SIDE x=1011.0 y=1682.0 [observe] 'DOM 22'
+P2 box=(989.0,1618.0,422.5,150.0) bottom=1768.0
+   ABOVE -24.00px x=1309.6 y=1594.0 [observe] 'Três dias, uma semana'
+P2 box=(989.0,1618.0,422.5,150.0) bottom=1768.0
+   SIDE x=1461.5 y=1682.0 [observe] 'SEG 23'
+P2 box=(1439.5,1618.0,422.5,150.0) bottom=1768.0
+   ABOVE -24.00px x=1537.0 y=1594.0 [observe] 'Drei freie Tage, eine Woche geplant'
+P3 box=(538.5,200.0,422.5,205.1) bottom=405.1
+   BELOW +37.00px x=538.5 y=442.1 [observe] 'UM DIA, DOIS SENTIDOS'
+P3 box=(1439.5,200.0,422.5,351.0) bottom=551.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P3 box=(1439.5,577.0,422.5,332.0) bottom=909.0
+   ABOVE -36.35px x=1461.5 y=540.6 [observe] '16h30.'
+P3 box=(1439.5,935.0,422.5,200.0) bottom=1135.0
+   ABOVE -31.68px x=1461.5 y=903.3 [observe] 'zwei Sätze und schicken Sie sie ein.'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   ABOVE -46.48px x=989.0 y=224.0 [observe] 'construtores.'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=282.0 [observe] 'Ida, dom 1º — Grêmio 2 × 0'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=312.5 [observe] 'Atlético-MG; Palmeiras 1 × 0 Vasco.'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=343.1 [observe] 'Volta, sáb 7 — Atlético-MG 1 × 1'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=373.6 [observe] 'Grêmio (total 3 × 1). Volta, dom 8 —'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=404.1 [observe] 'Vasco 2 × 1 Palmeiras (total 2 × 2;'
+P4 box=(989.0,270.5,422.5,175.4) bottom=445.9
+   SIDE x=1461.5 y=434.6 [observe] 'pênaltis 5 × 4). Final — 6 de dezembro,'
+P4 box=(1439.5,200.0,422.5,376.0) bottom=576.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P4 box=(1439.5,200.0,422.5,376.0) bottom=576.0
+   ABOVE -32.00px x=1506.1 y=168.0 [observe] 'Das Finale der Copa do Brasil steht fest'
+P5 box=(538.5,200.0,422.5,679.5) bottom=879.5
+   BELOW +50.50px x=556.5 y=930.0 [observe] 'HINWEIS · o gabarito Lösungen · oficial'
+P5 box=(538.5,891.5,422.5,145.7) bottom=1037.2
+   ABOVE -58.56px x=556.5 y=833.0 [observe] 'gut aus: Ihr Kopf wird es Ihnen danken)'
+P5 box=(1439.5,200.0,422.5,313.0) bottom=513.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P5 box=(1439.5,200.0,422.5,313.0) bottom=513.0
+   ABOVE -32.00px x=1509.8 y=168.0 [observe] 'Nach der Prüfung: Das Warten beginnt'
+P5 box=(1439.5,539.0,422.5,301.5) bottom=840.5
+   ABOVE -31.35px x=1461.5 y=507.6 [observe] '2027.'
+P6 box=(538.5,343.4,422.5,145.7) bottom=489.1
+   ABOVE -46.48px x=538.5 y=297.0 [observe] 'revisar no fim.'
+P6 box=(1439.5,200.0,422.5,654.0) bottom=854.0
+   BELOW +54.00px x=1461.5 y=908.0 [observe] 'LER OS NÚMEROS'
+P6 box=(1439.5,200.0,422.5,654.0) bottom=854.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P6 box=(1439.5,200.0,422.5,654.0) bottom=854.0
+   ABOVE -32.00px x=1567.2 y=168.0 [observe] 'Die offiziellen Lösungen, erklärt'
+P6 box=(1439.5,866.0,422.5,200.0) bottom=1066.0
+   ABOVE -54.60px x=1461.5 y=811.4 [observe] 'JAN. 2027'
+P6 box=(1439.5,866.0,422.5,200.0) bottom=1066.0
+   ABOVE -54.60px x=1603.5 y=811.4 [observe] 'A nota individual sai na'
+P6 box=(1439.5,866.0,422.5,200.0) bottom=1066.0
+   ABOVE -25.20px x=1603.5 y=840.8 [observe] 'Página do Participante.'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   BELOW +42.00px x=88.0 y=1958.0 [observe] 'EXERCÍCIOS'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   BELOW +42.00px x=304.9 y=1958.0 [observe] 'SEITE 6 ÜBUNGEN'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   ABOVE -18.00px x=88.0 y=1576.0 [observe] 'O FIM DE NOVEMBRO EM NÚMEROS'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   ABOVE -18.00px x=624.7 y=1576.0 [observe] 'Das Ende des Novembers in Zahlen (Edital nº 64/2026 do Inep)'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1634.0 [observe] 'DOIS GABARITOS'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1690.0 [observe] 'Extraoficial — na noite do dia 15, feito por cursinhos.'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1730.0 [observe] 'Extraoficial — estima o desempenho, não vale como correção.'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1770.0 [observe] 'Oficial — do Inep, até o fim de novembro.'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1810.0 [observe] 'Oficial — é a base da correção das objetivas.'
+P6 box=(88.0,1594.0,873.0,322.0) bottom=1916.0
+   SIDE x=1011.0 y=1854.0 [observe] 'Fonte: Inep — o resultado individual sai em janeiro de 2027.'
+P6 box=(989.0,1594.0,873.0,322.0) bottom=1916.0
+   BELOW +42.00px x=1005.9 y=1958.0 [observe] 'Lösungen auf Seite 8'
+P6 box=(989.0,1594.0,873.0,322.0) bottom=1916.0
+   BELOW +42.00px x=1218.8 y=1958.0 [observe] 'Die Niveaus sind gemischt — suchen Sie die Lösungen nach Num'
+P7 box=(1439.5,200.0,422.5,906.0) bottom=1106.0
+   ABOVE -58.00px x=1600.9 y=142.0 [observe] 'A Lucerna'
+P7 box=(1439.5,200.0,422.5,906.0) bottom=1106.0
+   ABOVE -32.00px x=1587.6 y=168.0 [observe] 'Drei Niveaus, drei Werkzeuge'
+P7 box=(1439.5,1128.0,422.5,303.0) bottom=1431.0
+   ABOVE -51.64px x=1461.5 y=1076.4 [observe] 'Wochenende geht bis Sonntag, den 22.'
+P7 box=(1439.5,1453.0,422.5,534.0) bottom=1987.0
+   ABOVE -55.48px x=1461.5 y=1397.5 [observe] 'Erinnerung an den Kampf und die'
+P7 box=(1439.5,1453.0,422.5,534.0) bottom=1987.0
+   ABOVE -27.08px x=1461.5 y=1425.9 [observe] 'Kultur.'
+SPILL_SWEEP 2026-w47-pt-de: 31 boxes, 70 candidates, 0 SPILL, 70 OBSERVE
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/boxtitle_check.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de --backup-root /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47 --json-dir /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/boxtitle =====
+== 2026-w47-pt-de  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/core-pt backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-pt/backup-old/2026-w47-pt-de
+BOXTITLE 2026-w47-pt-de: 26 titles, 270 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/pdf_edge_scan.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de --json-dir /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/edge =====
+  P1: clean min_dist_pt={'top': 57.6, 'bottom': 56.5, 'left': 65.9, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 62.3}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.8}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.8}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.8}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 64.8}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 56.5, 'left': 65.9, 'right': 65.2}
+EDGE_SCAN 2026-w47-pt-de: 8 pages, 0 TOUCH, 0 NEAR
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-plan/mechanism/d5_census.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/census.json =====
+p1-capa.svg: els=227 news=203 cjk_sans=19 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p2-vida.svg: els=208 news=191 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p3-cultura.svg: els=207 news=189 cjk_sans=15 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p4-esporte.svg: els=206 news=191 cjk_sans=15 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p5-jovens.svg: els=198 news=184 cjk_sans=14 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p6-aprofundamento.svg: els=201 news=185 cjk_sans=16 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-lingua.svg: els=216 news=193 cjk_sans=13 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p8-avaliacao.svg: els=422 news=397 cjk_sans=15 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=4
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+CENSUS PASS
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-xru-w47/probe_xru.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/probe-post.json =====
+2026-w47-de-ru: runs=3396 LAT@NotoSans=0 LAT@Newsreader=26648 CYR@NotoSans=6946 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=84 curly={'Newsreader': 33}
+2026-w47-en-ru: runs=2853 LAT@NotoSans=0 LAT@Newsreader=26984 CYR@NotoSans=5600 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=49 curly={'Newsreader': 164}
+2026-w47-es-ru: runs=3184 LAT@NotoSans=0 LAT@Newsreader=21934 CYR@NotoSans=4300 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=555 curly={}
+2026-w47-fr-ru: runs=3142 LAT@NotoSans=0 LAT@Newsreader=23916 CYR@NotoSans=5327 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=89 curly={}
+2026-w47-it-ru: runs=3135 LAT@NotoSans=0 LAT@Newsreader=23164 CYR@NotoSans=4427 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=0 curly={}
+2026-w47-ja-ru: runs=4556 LAT@NotoSans=0 LAT@Newsreader=897 CYR@NotoSans=3925 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=732 curly={}
+2026-w47-ko-ru: runs=7543 LAT@NotoSans=0 LAT@Newsreader=1188 CYR@NotoSans=3907 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=623 curly={}
+2026-w47-nl-ru: runs=3282 LAT@NotoSans=0 LAT@Newsreader=23449 CYR@NotoSans=5291 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=590 curly={}
+2026-w47-pt-ru: runs=3205 LAT@NotoSans=0 LAT@Newsreader=21000 CYR@NotoSans=4728 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=649 curly={'Newsreader': 4}
+2026-w47-zh-cn-ru: runs=5529 LAT@NotoSans=0 LAT@Newsreader=1811 CYR@NotoSans=4851 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=801 curly={'Newsreader': 4}
+2026-w47-zh-tw-ru: runs=5705 LAT@NotoSans=0 LAT@Newsreader=861 CYR@NotoSans=10623 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=151 curly={'Newsreader': 5}
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python gates.py =====
+[PASS] P1 VOL.4 + week dates :: top strip
+[PASS] P1 subtitle topics :: subtitle line
+[PASS] footer+page line 8/8 :: VOL.4 DE footer + page line on all pages
+[PASS] no VOL.3 edition label residue :: VOL.3 may appear only as the cited promising issue in the P7 disclosure
+[PASS] press-time note + final named :: P4 press-time note present; final date named
+[PASS] P1 masthead lines fit 1820 :: {330: 262.9, 372: 636.4}
+[PASS] same-baseline ink collisions = 0 :: 0 collisions
+[PASS] page-frame ink crossings = 0 :: 0 crossings | min margins L/R/T/B = [47.0, 47.6, 36.0, 36.0]
+[PASS] P6 chart-label coverage <30% :: [('dias úteis', 0.0), ('10 dias', 0.0), ('fins de semana e feriado', 0.0), ('5 dias', 0.0)]
+[PASS] gloss items enumerated :: {2: 6, 3: 6, 4: 6, 5: 6, 6: 5} total 29
+[PASS] gloss headwords survive in render :: 0 missing
+[PASS] P7 quotes 2x + page tag + DE on P7 :: 8 quotes; [('Consciência Negra: sexta é fer', 2, True, True), ('o feriado abre um fim de seman', 2, True, True), ('Zumbi nasceu em Palmares', 2, True, True), ('sem memória, não há futuro', 2, True, True), ('o agregado ficou em 2 a 2', 2, True, True), ('a espera pelo gabarito', 2, True, True), ('primeiro as fáceis, depois as ', 2, True, True), ('Confira o transporte, guarde o', 2, True, True)]
+[PASS] readers corner disclosure :: {'PT example verbatim': True, 'PT disclosure verbatim': True, 'DE disclosure verbatim': True, 'DE example label': True, 'VOL.5 carry': True}
+[PASS] images embedded + credits 5/5 :: {'P1 capoeira + credit': True, 'P3 zumbi + credit': True, 'P5 estudo + credit': True, 'P7 lusiadas + credit': True, 'P8 garrincha + credit': True}
+[PASS] P7 quotes clear of preview box :: max quote-region baseline 2393.995
+[PASS] P1 headline <= 56 non-space chars :: 41 chars
+FAILURES: none
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/freeze.py baseline --build /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de --core-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de/svg --out /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/freeze-pt-de =====
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+baseline: 8/8 SVGs byte-identical (repointed files: none)
+  OK  p1-capa.svg core 96e8e6fc3de7da3f produced 96e8e6fc3de7da3f
+  OK  p2-vida.svg core c8280377043c138f produced c8280377043c138f
+  OK  p3-cultura.svg core 721be3cd5939d3a9 produced 721be3cd5939d3a9
+  OK  p4-esporte.svg core 471ca39b955dc347 produced 471ca39b955dc347
+  OK  p5-jovens.svg core 7e0b92bba5c0a45d produced 7e0b92bba5c0a45d
+  OK  p6-aprofundamento.svg core 38d6db1752b4a145 produced 38d6db1752b4a145
+  OK  p7-lingua.svg core 8add9d433deba8b9 produced 8add9d433deba8b9
+  OK  p8-avaliacao.svg core 6e972e0380fec369 produced 6e972e0380fec369
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/freeze.py diff --core-svg /home/hatch/workspace/weekly-git/production/2026-w47/core-pt/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/2026-w47-pt-de/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/freeze-diff.json =====
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +48 strings / -62 strings; CJK core 167 -> edition 21; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 33 (unexpected 33)
+p2: +55 strings / -75 strings; CJK core 210 -> edition 17; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+p3: +44 strings / -61 strings; CJK core 166 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 38 (unexpected 38)
+p4: +42 strings / -57 strings; CJK core 175 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 34 (unexpected 34)
+p5: +54 strings / -79 strings; CJK core 228 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 46 (unexpected 46)
+p6: +33 strings / -50 strings; CJK core 138 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 27 (unexpected 27)
+p7: +68 strings / -136 strings; CJK core 401 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 59 (unexpected 59)
+p8: +206 strings / -770 strings; CJK core 1285 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 200 (unexpected 200)
+TOTAL added CJK characters: 9
+TOTAL added Latin strings: 482 (unexpected 482)
+rc=0
+===== /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-xru-w47/textcheck_multiset.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/post-print.txt /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-pt-minor1/gates-de/post-web.txt =====
+pre non-space chars: 36668; post non-space chars: 36668
+MULTISET IDENTICAL
+rc=0
+GATE RUN DONE de 2026-11-13T02:41:42Z

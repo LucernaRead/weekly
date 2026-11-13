@@ -1,0 +1,647 @@
+===== 2026-w47-en-ja 2026-11-12T13:13:02Z =====
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check RC=0
+HEAD CHECK PASS 0 defects
+textmd export RC=0
+P1 saved, exercises so far: 10
+P2 col3 ends 1436.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+paras: 498 answers: 150 bytes: 53756
+REG total: 150
+text.md diff lines: 4
+185c185
+< What happens next? First, the states certify their counts — between November 10 and December 18. If no candidate wins a majority in Georgia's Senate race, there is a runoff on December 1. Mississippi has no runoff: the most votes win. Then the winners are sworn in, and the new Congress meets in January 2027.
+---
+> What happens next? First, the states certify their counts — between November 10 and December 18. Georgia law calls for a runoff on December 1 only if no candidate wins a majority — but Jon Ossoff won reelection with about 59% of the vote, so there is no runoff. Mississippi has no runoff: the most votes win. Then the winners are sworn in, and the new Congress meets in January 2027.
+651c651
+< What does “called” mean? A call is a news organisation's judgement: the maths is clear, and the candidate behind cannot catch up. It is not the official result. The official result comes when each state certifies its count — between November 10 and December 18, with no fixed date in some states. In Georgia, a Senate race with no majority winner goes to a runoff on December 1. Mississippi has no runoff in a regular election: the candidate with the most votes wins.
+---
+> What does “called” mean? A call is a news organisation's judgement: the maths is clear, and the candidate behind cannot catch up. It is not the official result. The official result comes when each state certifies its count — between November 10 and December 18, with no fixed date in some states. In Georgia, a Senate race with no majority winner goes to a runoff on December 1 — but this time Jon Ossoff won reelection with about 59% of the vote, so there was no runoff. Mississippi has no runoff in a regular election: the candidate with the most votes wins.
+registry.json diff lines: 0
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/The-Lucerna-VOL4-en-ja.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg: 0 flags 
+occlusion --selftest RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+keydiff: [137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core e201210404cf3198 produced e201210404cf3198
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p8: +272 strings / -460 strings; CJK core 634 -> edition 743; added CJK chars: 566 {'\u3000': 1, '練': 1, '習': 1, 'と': 8, '解': 4, '力': 1, 'だ': 4, 'め': 2, 'し': 9, '所': 1}; added Latin strings: 95 (unexpected 95)
+TOTAL added CJK characters: 2084
+TOTAL added Latin strings: 138 (unexpected 138)
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-ja: 32 boxes, 147 candidates, 0 SPILL, 147 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-ja  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-ja
+BOXTITLE 2026-w47-en-ja: 30 titles, 269 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-ja: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=272 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-test.svg: lines 185->185 slack_footer 34.6->34.6
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=0
+CENSUS PASS
+print-vs-web text: BYTE-IDENTICAL
+print text diff vs pre-fix: 393 lines
+320c320
+< every seat is on the ballot every two
+---
+> TWO HOUSES, TWO JOBS
+324c324
+< years. The Senate has 100 seats, and
+---
+> Why two houses? The House of
+328a329
+> Representatives has 435 seats, and
+331c332
+< each time. A senator serves for six
+---
+> every seat is on the ballot every two
+333a335,337
+> 
+> years. The Senate has 100 seats, and
+> 
+334a339,341
+> 
+> about a third of them are on the ballot
+> 
+335a343,345
+> 
+> each time. A senator serves for six
+> 
+338d347
+< about a third of them are on the ballot
+339a349,351
+> 
+> ballots and checking signatures. In
+> 
+342,344c354
+< 11月20日 — 世界子どもの日 · 11月26日
+< — 感謝祭 · 11月27日 — ブラックフライ
+< デー
+---
+> Alaska and Mississippi, the Senate
+347,349d356
+< slowly.
+< 
+< ballots and checking signatures. In
+351c358
+< WHAT IS ON THIS WEEK?
+---
+> races were still too close to call.
+352a360
+> slowly.
+355c363
+< Alaska and Mississippi, the Senate
+---
+> certify their counts — between
+361,362c369
+< races were still too close to call.
+< What happens next? First, the states
+---
+> Georgia law calls for a runoff on
+363a371
+> WHAT IS ON THIS WEEK?
+366a375,384
+> 
+> What happens next? First, the states
+> November 10 and December 18.
+> 
+> 11月20日 — 世界子どもの日 · 11月26日
+> — 感謝祭 · 11月27日 — ブラックフライ
+> デー
+> 
+> December 1 only if no candidate wins
+> 
+368a387,389
+> Saturday, November 21, the Premier
+> League is back — and page 4 looks
+> back at the Ashes. Page 3 has the film
+370,371c391,396
+< certify their counts — between
+< November 10 and December 18. If no
+---
+> A wild turkey, drawn by John James Audubon.
+> The turkey is the bird of Thanksgiving — on
+> Thursday, November 26, it is the centre of the
+> American dinner table.
+> John James Audubon — public domain, via Wikimedia
+> Commons
+373c398
+< Life goes on around the politics. Next
+---
+> guide, page 4 the sport.
+375c400,402
+< Saturday, November 21, the Premier
+---
+> a majority — but Jon Ossoff won
+> 
+> Life goes on around the politics. Next
+377c404
+< candidate wins a majority in Georgia's
+---
+> reelection with about 59% of the vote,
+381c408
+< League is back — and page 4 looks
+---
+> On television, the week is just as full.
+383c410
+< Senate race, there is a runoff on
+---
+> so there is no runoff. Mississippi has
+387c414,416
+< December 1. Mississippi has no
+---
+> I'm a Celebrity opens on Monday
+> 
+> no runoff: the most votes win. Then
+391c420,422
+< runoff: the most votes win. Then the
+---
+> night, and the jungle will be on every
+> 
+> the winners are sworn in, and the new
+395c426,428
+< winners are sworn in, and the new
+---
+> night for weeks. Thanksgiving is a
+> 
+> Congress meets in January 2027.
+399c432
+< Congress meets in January 2027.
+---
+> week away — and the turkey is already
+402c435,436
+< is Black Friday, the biggest shopping
+---
+> 
+> in the shops.
+406c440
+< day of the year.
+---
+> is Black Friday, the biggest shopping
+409,412d442
+< House vote on Tuesday, November 10. And in Britain? The week is quieter —
+< but the television is not. On Monday,
+< The Democrats in the House vote on
+< November 18 and 19. The Speaker —
+414c444
+< November 16, at 9 p.m., the jungle
+---
+> day of the year.
+416c446
+< the leader of the House — is chosen
+---
+> House vote on Tuesday, November 10.
+418c448,455
+< opens again: I'm a Celebrity is back
+---
+> DID YOU KNOW?
+> The new Congress meets in January
+> 2027 — two months after the vote.
+> Thanksgiving is always the fourth
+> Thursday of November.
+> The House has 435 seats — and every
+> one of them was on the ballot on
+> November 3.
+420c457,458
+< when the new Congress meets in
+---
+> How do you say the date of the new
+> Congress? “In January 2027.” is the
+422c460
+< on ITV1. Page 3 has the story — and
+---
+> The Democrats in the House vote on
+424c462
+< January. The Speaker, Mike Johnson,
+---
+> And in Britain? The week is quieter —
+426c464
+< the words you need for the jungle.
+---
+> sentence of the week. The phrase box
+428c466
+< has said he will not run to lead the
+---
+> November 18 and 19. The Speaker —
+430c468
+< back at the Ashes. Page 3 has the film
+---
+> but the television is not. On Monday,
+432,433c470
+< John James Audubon — public domain, via Wikimedia
+< Commons
+---
+> below shows three ways to say it.
+435c472
+< guide, page 4 the sport.
+---
+> the leader of the House — is chosen
+437,439c474
+< DID YOU KNOW?
+< On television, the week is just as full.
+< I'm a Celebrity opens on Monday
+---
+> November 16, at 9 p.m., the jungle
+441,442c476
+< The new Congress meets in January
+< 2027 — two months after the vote.
+---
+> when the new Congress meets in
+444,446c478
+< night, and the jungle will be on every
+< night for weeks. Thanksgiving is a
+< week away — and the turkey is already
+---
+> opens again: I'm a Celebrity is back
+448,449c480
+< Thanksgiving is always the fourth
+< Thursday of November.
+---
+> January. The Speaker, Mike Johnson,
+451,454c482
+< in the shops.
+< The House has 435 seats — and every
+< one of them was on the ballot on
+< November 3.
+---
+> on ITV1. Page 3 has the story — and
+456,459c484,486
+< How do you say the date of the new
+< Congress? “In January 2027.” is the
+< sentence of the week. The phrase box
+< below shows three ways to say it.
+---
+> has said he will not run to lead the
+> 
+> the words you need for the jungle.
+473,479d499
+< A wild turkey, drawn by John James Audubon.
+< The turkey is the bird of Thanksgiving — on
+< Thursday, November 26, it is the centre of the
+< American dinner table.
+< 
+< TWO HOUSES, TWO JOBS
+< 
+484,486d503
+< Why two houses? The House of
+< Representatives has 435 seats, and
+< 
+1505,1507d1521
+< By The Lucerna newsroom Reading level: B2
+< 
+< The vote is counted. The map is still
+1511a1526,1531
+> the two sides must then work — or
+> argue — together. The map is drawn.
+> The work starts in January.
+> 
+> By The Lucerna newsroom Reading level: B2
+> 
+1514c1534
+< B COMPREHENSION
+---
+> The vote is counted. The map is still
+1522,1524d1541
+< 6ページの記事を読んで、正しい答えを選びな
+< さい。
+< 
+1526a1544,1547
+> a third of the Senate, and for
+> governor in 36 states. By the Sunday
+> after the vote, November 8, the
+> Associated Press had called the big
+1530c1551
+< a third of the Senate, and for
+---
+> question: the Democrats had won
+1534c1555
+< governor in 36 states. By the Sunday
+---
+> both houses of Congress.
+1537,1539d1557
+< 
+< after the vote, November 8, the
+< 
+1542c1560
+< Associated Press had called the big
+---
+> Here is the map, as called on Sunday,
+1546c1564
+< question: the Democrats had won
+---
+> November 8. In the House, the
+1550c1568
+< both houses of Congress.
+---
+> Democrats won 254 seats, the
+1554c1572
+< Here is the map, as called on Sunday,
+---
+> Republicans 162, and 19 races were
+1558c1576,1577
+< November 8. In the House, the
+---
+> still uncalled. In the Senate, the
+> Democrats won 20 of the 33 races
+1564,1567d1582
+< Democrats won 254 seats, the
+< Republicans 162, and 19 races were
+< still uncalled. In the Senate, the
+< Democrats won 20 of the 33 races
+1569,1571d1583
+< 
+< READ THE CHART グラフを読む
+< 
+1573,1575d1584
+< 
+< How big was the change? The chart is the
+< 
+1577,1579d1585
+< 
+< calls of Sunday, November 8 — not the
+< 
+1581,1583d1586
+< 
+< certified results, and not a prediction.
+< 
+1586,1588d1588
+< What does “called” mean? A call is a
+< news organisation's judgement: the
+< maths is clear, and the candidate
+1590,1594c1590
+< House called: 254 Democrats, 162
+< Republicans, 19 uncalled (Nov 8)
+< Senate called: 20 Democrats, 13
+< Republicans, 2 uncalled (Nov 8)
+< Senate flips: 7, all to the Democrats
+---
+> 87.
+1595a1592,1597
+> The House numbers add up to... A. 218 ·
+> B. 413 · C. 435
+> 
+> B COMPREHENSION
+> 6ページの記事を読んで、正しい答えを選びな
+> さい。
+1600c1602,1603
+< A “call” is... A. the official result · B. a news
+---
+> A “call” is... A. the official result · B. a news A voting booth in the Old State House,
+> Hartford, Connecticut: one voter, one ballot,
+1601a1605
+> one private moment. On Tuesday, November 3,
+1602a1607,1610
+> millions of Americans did the same.
+> 
+> Kenneth C. Zirkel — CC0, via Wikimedia Commons
+> 
+1624d1631
+< B2
+1626,1633c1633,1635
+< 92.
+< 
+< A midterm changes... A. Congress, not the
+< President · B. the President, not Congress
+< · C. the courts
+< B2
+< 
+< 93.
+---
+> READ THE CHART グラフを読む
+> How big was the change? The chart is the
+> calls of Sunday, November 8 — not the
+1635,1636c1637
+< The certified results will be reported in...
+< A. VOL.3 · B. this issue · C. VOL.5
+---
+> What does “called” mean? A call is a
+1638c1639
+< C
+---
+> B2
+1640c1641
+< when each state certifies its count —
+---
+> certified results, and not a prediction.
+1642,1643c1643
+< 94. 空所補充
+< Each state must ___ its count.
+---
+> B2
+1645,1648c1645
+< 18, with no fixed date in some states.
+< In Georgia, a Senate race with no
+< majority winner goes to a runoff on
+< December 1. Mississippi has no
+---
+> 92.
+1650,1653c1647,1649
+< States certify: November 10 to
+< December 18
+< Runoff, if needed: December 1 (Georgia
+< only)
+---
+> A midterm changes... A. Congress, not the
+> President · B. the President, not Congress
+> · C. the courts
+1661a1658
+> One country, fifty systems: that is why
+1669c1666,1668
+< SENTENCES
+---
+> news organisation's judgement: the
+> maths is clear, and the candidate
+> behind cannot catch up. It is not the
+1671c1670,1671
+< 与えられた語で文を完成させなさい。
+---
+> House called: 254 Democrats, 162
+> Republicans, 19 uncalled (Nov 8)
+1672a1673,1674
+> official result. The official result comes Senate called: 20 Democrats, 13
+> when each state certifies its count —
+1673a1676,1677
+> 18, with no fixed date in some states.
+> In Georgia, a Senate race with no
+1675,1679c1679,1680
+< Kenneth C. Zirkel — CC0, via Wikimedia Commons
+< 
+< One country, fifty systems: that is why
+< 
+< behind cannot catch up. It is not the
+---
+> Ossoff won reelection with about 59%
+> of the vote, so there was no runoff.
+1680a1682
+> Senate flips: 7, all to the Democrats
+1682d1683
+< official result. The official result comes
+1683a1685,1686
+> States certify: November 10 to
+> December 18
+1685,1695c1688,1689
+< A voting booth in the Old State House,
+< Hartford, Connecticut: one voter, one ballot,
+< one private moment. On Tuesday, November 3,
+< millions of Americans did the same.
+< 
+< B2
+< 
+< 95. 空所補充
+< News organisations ___ a race when the
+< maths is clear.
+< B2
+---
+> Mississippi has no runoff in a regular
+> election: the candidate with the most
+1699,1700c1693
+< runoff in a regular election: the
+< candidate with the most votes wins.
+---
+> What changes? In January 2027, the
+1705d1697
+< What changes? In January 2027, the
+1706a1699,1701
+> 
+> B2
+> 
+1708a1704
+> leaders first: the House Republicans
+1710c1706,1708
+< B2
+---
+> The Speaker — the leader of the
+> 
+> 82.
+1715d1712
+< B2
+1716a1714
+> on November 10, the House
+1718a1717,1718
+> B2
+> 
+1724d1723
+< The Speaker — the leader of the
+1726a1726,1728
+> 
+> B2
+> 
+1727a1730
+> will not run to lead the Republicans in
+1730a1734,1743
+> stays the same, and so does the White
+> 
+> American system: the voters speak in
+> 
+> SENTENCES
+> 
+> 与えられた語で文を完成させなさい。
+> 
+> 94. 空所補充
+> Each state must ___ its count.
+1733c1746,1752
+< What does not change? The President
+---
+> 95. 空所補充
+> News organisations ___ a race when the
+> maths is clear.
+> 96. 空所補充
+> Seven Senate seats ___ hands on
+> election night.
+> B2
+1735c1754,1760
+< not the President. That is the
+---
+> 97. 空所補充
+> Counting ___ time in every state.
+> B1
+> 
+> 98. 空所補充
+> The rule ___ from state to state.
+> B1
+1748d1772
+< stays the same, and so does the White
+1749a1774
+> not the President. That is the
+1751,1752c1776
+< 98. 空所補充
+< The rule ___ from state to state.
+---
+> C
+1757d1780
+< will not run to lead the Republicans in
+1758a1782
+> What does not change? The President
+1760,1762c1784,1785
+< 97. 空所補充
+< Counting ___ time in every state.
+< B1
+---
+> The certified results will be reported in...
+> A. VOL.3 · B. this issue · C. VOL.5
+1764c1787
+< B1
+---
+> B2
+1766,1767c1789,1790
+< leaders first: the House Republicans
+< on November 10, the House
+---
+> Runoff, if needed: December 1 (Georgia
+> only)
+1769c1792,1799
+< 82.
+---
+> votes wins.
+> 
+> 93.
+> 
+> Republicans, 2 uncalled (Nov 8)
+> 
+> majority winner goes to a runoff on
+> December 1 — but this time Jon
+1771,1773d1800
+< 96. 空所補充
+< Seven Senate seats ___ hands on
+< election night.
+1783,1785d1809
+< American system: the voters speak in
+< B2
+< 
+1787,1795d1810
+< the two sides must then work — or
+< argue — together. The map is drawn.
+< 
+< 87.
+< 
+< The House numbers add up to... A. 218 ·
+< B. 413 · C. 435
+< 
+< The work starts in January.
+OVERALL: ALL-GREEN

@@ -1,0 +1,39 @@
+appendix entries parsed: 150 continuous 1-150: True
+registry vs appendix mismatches: 0
+per-page: [10, 17, 18, 18, 18, 18, 12, 39]
+levels: Counter({'B1': 66, 'A2': 62, 'B2': 22})
+svg orphan-start <text> lines: 0
+text.md orphan-start lines: 0 []
+text.md curly open/close: 85 85 guillemets: 0 0
+p1-front.svg open 2 close 2 guillemets 0
+p2-life.svg open 1 close 1 guillemets 0
+p3-culture.svg open 10 close 10 guillemets 0
+p4-sport.svg open 3 close 3 guillemets 0
+p5-youth.svg open 11 close 11 guillemets 0
+p6-deep.svg open 2 close 2 guillemets 0
+p7-lang.svg open 29 close 29 guillemets 0
+p8-test.svg open 26 close 26 guillemets 0
+p1-front.svg banned hits: []
+p2-life.svg banned hits: []
+p3-culture.svg banned hits: []
+p4-sport.svg banned hits: []
+p5-youth.svg banned hits: []
+p6-deep.svg banned hits: []
+p7-lang.svg banned hits: []
+p8-test.svg banned hits: []
+text.md W47/2026-W47 lines: [1]
+text.md cover/SOP/proofread hits: [('cover', 0), ('SOP', 0), ('proofread', 0)]
+VOL. occurrences in text.md: 18
+p1-front.svg real CJK: 0 U+3000: 22 []
+p2-life.svg real CJK: 0 U+3000: 18 []
+p3-culture.svg real CJK: 0 U+3000: 13 []
+p4-sport.svg real CJK: 0 U+3000: 14 []
+p5-youth.svg real CJK: 0 U+3000: 13 []
+p6-deep.svg real CJK: 0 U+3000: 13 []
+p7-lang.svg real CJK: 0 U+3000: 24 []
+p8-test.svg real CJK: 0 U+3000: 24 []
+font-family counts: {'Noto Sans CJK SC': 663, 'UnifrakturMaguntia': 1, 'Newsreader': 1023, 'Noto Serif CJK SC': 27, 'DejaVu Sans': 4}
+Q73 registry: [{'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'up', 'note': 'speak up = je uitspreken'}]
+Q73 text line 1151: 73. [A2] Zinnen aanvullen — up (speak up = je uitspreken)
+P8 has '73. up': True | '73. speak' in P8: False
+P5 stem present: True | P5 'to speak up' present: True

@@ -1,0 +1,113 @@
+############ REBUILD 2026-w47-nl-pt reader=pt mode=latin
+--- install --check ---
+check RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svglib.py (target=nl reader=pt mode=latin): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'latin'; Page.text italic covers sans_noto_i; updated sans comment
+--- install ---
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svglib.py (target=nl reader=pt mode=latin): added Noto Sans faces; added sans_noto cmaps; added _CYR + sans_noto family (CJK SC); added sans_noto _PATH rows (Medium/Bold); added _QUOTE_CLS _PATH rows; added fix2 block; added D5 sans block; added _D5_READER = 'latin'; Page.text italic covers sans_noto_i; updated sans comment
+svglib diff lines: 112
+9e44d3e443063634d5dd8570d4af10b7  /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svglib.py
+--- routing assert ---
+routing RC=0
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0
+--- run.py ---
+run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- head_check (hard gate) ---
+head_check RC=0
+HEAD CHECK PASS 0 defects
+--- render.py ---
+render RC=0
+card: p8-toets.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/De-Lucerna-VOL4-nl-pt.pdf 12110778
+--- webpdf.py ---
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 23800 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30556 bytes
+WROTE De-Lucerna-VOL4-nl-pt-web.pdf: 1542917 bytes, 46592 text bytes
+--- occlusion ---
+occlusion RC=1
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svg: 1 flags {'TEXTX': 1}
+  [TEXTX] p2-leven.svg 'PAKJESAVOND EM QUATRO PALAVRAS' — ink overlaps 'Wat hoort bij pakjesavond?' by 11.8x19.5px
+--- p8 extract ---
+extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svg/p8-toets.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- p8 compare vs core-nl ---
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svg/p8-toets.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-pt/svg/p8-toets.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 140]
+--- freeze baseline ---
+freeze-baseline RC=0
+  OK  p7-taal.svg core 0b3ccc5a05f82d6d produced 0b3ccc5a05f82d6d
+  OK  p8-toets.svg core ed59c29b74058edd produced ed59c29b74058edd
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+--- freeze diff ---
+freeze-diff RC=0
+p6: +47 strings / -63 strings; CJK core 205 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 39 (unexpected 39)
+p7: +58 strings / -132 strings; CJK core 387 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 49 (unexpected 49)
+p8: +192 strings / -693 strings; CJK core 1074 -> edition 15; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 183 (unexpected 183)
+TOTAL added CJK characters: 7
+TOTAL added Latin strings: 450 (unexpected 450)
+--- spill ---
+spill RC=0
+P7 box=(1439.5,1358.5,422.5,568.5) bottom=1927.0
+   ABOVE -31.08px x=1461.5 y=1327.4 [observe] 'de final.'
+SPILL_SWEEP 2026-w47-nl-pt: 26 boxes, 39 candidates, 0 SPILL, 39 OBSERVE
+--- boxtitle (backup-root=scratch) ---
+boxtitle RC=1
+  P6 [BODY] DEFECT over=+32.1px (right) core=None backup=None | no baseline; overflow is new | 'A FAVOR / CONTRA'
+  P7 [TITLE] DEFECT over=+57.1px (right) core=None backup=None | no baseline; overflow is new | 'PALAVRA DA SEMANA'
+BOXTITLE 2026-w47-nl-pt: 25 titles, 234 body lines, 6 DEFECT, 0 OBSERVE, 0 marginal
+--- edge scan ---
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 18.7}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+EDGE_SCAN 2026-w47-nl-pt: 8 pages, 0 TOUCH, 0 NEAR
+--- creambox audit (tools version, baseline=pre-D5 snapshot) ---
+creambox RC=1
+p8-toets.svg: els 385->416 lines 240->240 diff 0 moved 36 defects 0 observe 0
+ratios: n=404 median=1.04 boldT=1.057 boldF=0.988
+P8 p8-toets.svg: lines 240->240 slack_footer 38.3->38.3
+CREAMBOX FAIL 6 defects
+--- census (patched) ---
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+--- U+201C quotes census (SC/TC/HK defective only; must be 0) ---
+census-quotes RC=0
+  p8-toets.svg: defective=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+--- text layer + orphan sweep ---
+textlayer RC=0
+pdftotext bytes: print=46592 web=46592
+word multiset diff: 0 (print-only 0, web-only 0)
+print-only words sample: []
+web-only words sample: []
+de-whitespaced char stream: print=36369 web=36369 equal=True
+orphan class (a) lone 。: 0 []
+orphan class (b) line-initial closer candidates: 0
+--- post SHAs ---
+1d5783954ce77e897cbe78b69c57df6f2fbcce8c4a960e0c604a5272e5d040c7  svg/p1-voorpagina.svg
+3adc75e4c0c3d79d3f94d04eb73f25e75e0c835b6af67c4266e9274330b0de13  svg/p2-leven.svg
+08beb0db4da765a2aa829ec88cbce90fa36b1fd65e22bea62bde3ff8c5d2617b  svg/p3-cultuur.svg
+f726cdfd459f99c8b6a1b4593ec6e0852543f155a91e20df0f940f1a2cecfec9  svg/p4-sport.svg
+ac07f57fd3c601335fccee07b3876cd652cb9f4862432b326693881b8836f9fd  svg/p5-jongeren.svg
+e57852a6804d83fa228b9aef5a1193a1d598e18762a9a2c8acee762a2d5c6f89  svg/p6-verdieping.svg
+0b3ccc5a05f82d6d4b28bd23a0d78543bc2f83908d3e78c94601151005c02599  svg/p7-taal.svg
+ed59c29b74058edda464651e727edc5c0c29acc3bb533755869136f6b2358dec  svg/p8-toets.svg
+2902107f691ff49981772c4a7cd1249d2b66f9ae3c5ba486317301fabb271e55  De-Lucerna-VOL4-nl-pt.pdf
+c0e24c33a1f2fbd1cdfc79607d3645723d8f748a3404f62641d62c8b04881dd6  De-Lucerna-VOL4-nl-pt-web.pdf
+865e659fc2d4a9b1639c3513cd8e3326536feac8ae5fed14dca411d0cc137efc  2026-w47-nl-pt.text.md
+12110778 De-Lucerna-VOL4-nl-pt.pdf
+1542917 De-Lucerna-VOL4-nl-pt-web.pdf
+47204 2026-w47-nl-pt.text.md
+REBUILD DONE 2026-w47-nl-pt

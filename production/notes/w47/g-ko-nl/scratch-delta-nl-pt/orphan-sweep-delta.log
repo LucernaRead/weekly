@@ -1,0 +1,10 @@
+[PIL-advance] lines=1453 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1453 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 0; leftmost-on-baseline: 0
+[D8 P6 caption lines]
+[D10 P7 dt_zh lines]
+[D6 P3 bridge lines]
+   {'needle': 'auxiliares hebben', 'x': 538.5, 'y': 2333.225, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'auxiliares hebben/zijn.'}
+[D7 P7 bridge lines]
+   {'needle': 'scoren marcar', 'x': 88.0, 'y': 785.1100000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'scoren marcar.'}
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

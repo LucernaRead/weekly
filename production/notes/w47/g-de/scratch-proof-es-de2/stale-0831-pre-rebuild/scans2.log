@@ -1,0 +1,30 @@
+=== P8 min font (pypdf Tm, print PDF p8) ===
+Tm entries: 0
+min font size: None
+=== badges per page (rect fills A2/B1/B2 colours in SVG) ===
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+KeyError: 'B2'
+=== golden sentences x2 ===
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "/usr/lib/python3.12/re/__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+=== gloss-word counts ===
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "<stdin>", line 5, in page
+  File "/usr/lib/python3.12/re/__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'list'
+=== MODELO word count (from text.md H section) ===
+modelo words: 8 | Vivo en Madrid, y el lunes 16 escucho
+=== fix1 strings present ===
+1
+1
+1
+0
+Anmerkung: 0 (expected - removed)

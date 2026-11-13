@@ -1,0 +1,55 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+print PDF pages: 8
+P1 raster (1950, 2700)
+P2 raster (1950, 2700)
+P3 raster (1950, 2700)
+P4 raster (1950, 2700)
+P5 raster (1950, 2700)
+P6 raster (1950, 2700)
+P7 raster (1950, 2700)
+P8 raster (1950, 2700)
+
+== D1 P1 title band rows 1640..1665 ==
+ max ink: (1844, 1657) -> margin 18
+== D2 P1 quiz bridge rows 2320..2360 ==
+ max ink: (1855, 2344) -> margin 7
+== D3 per page ==
+ P2 y~1860..1885: max ink (1854, 1868) -> margin +8
+ P3 y~1632..1655: max ink (1854, 1640) -> margin +8
+ P4 y~1923..1945: max ink (1854, 1931) -> margin +8
+ P5 y~1632..1655: max ink (1854, 1640) -> margin +8
+ P6 y~1850..1875: max ink (1854, 1858) -> margin +8
+
+== GLOBAL scan: rows with ink x>1862 (expect only D4 P2 ~2162, D5 P8 ~1302) ==
+ P1: 0 group(s) []
+ P2: 0 group(s) []
+ P3: 0 group(s) []
+ P4: 0 group(s) []
+ P5: 0 group(s) []
+ P6: 0 group(s) []
+ P7: 0 group(s) []
+ P8: 1 group(s) [(1293, 1299, 1863)]
+
+== PIL cross-check (SVG elements) ==
+ D1: (1617.5, 1660.0, 22.0, True, 'Noto Sans CJK SC', 1842.5, 1844.359375) margin 19.5
+ D2: (1177.5, 2348.0, 20.0, False, 'Noto Sans CJK SC', 1849.5, 1852.0) margin 12.5
+ D3 P2: (1039.3, 1876.0, 20.0, False, 'Noto Sans CJK SC', 1850.3, 1851.9875) margin 11.700000000000045
+ D3 P3: (1039.3, 1648.0, 20.0, False, 'Noto Sans CJK SC', 1850.3, 1851.9875) margin 11.700000000000045
+ D3 P4: (1039.3, 1939.3299999999997, 20.0, False, 'Noto Sans CJK SC', 1850.3, 1851.9875) margin 11.700000000000045
+ D3 P5: (1039.3, 1648.0, 20.0, False, 'Noto Sans CJK SC', 1850.3, 1851.9875) margin 11.700000000000045
+ D3 P6: (1039.3, 1866.0, 20.0, False, 'Noto Sans CJK SC', 1850.3, 1851.9875) margin 11.700000000000045
+
+== PDF span cross-check (print PDF, x1 in px = pt*4/3) ==
+ P1 span x1=1846.2 text='PALAVRA SEMANAL'
+ P1 span x1=1629.9 text='Leia a primeira página e escolha a resposta certa'
+ P1 span x1=1857.0 text='Respostas na página 8'
+ P2 span x1=1246.4 text='Respostas na página 8'
+ P3 span x1=1246.4 text='Respostas na página 8'
+ P4 span x1=1246.4 text='Respostas na página 8'
+ P5 span x1=1246.4 text='Respostas na página 8'
+ P6 span x1=1246.4 text='Respostas na página 8'
+saved crop-p1-palavra-fix1.png
+saved crop-p1-bridge-fix1.png
+saved crop-p2-note-fix1.png
+done

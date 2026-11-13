@@ -1,0 +1,9 @@
+p2-leven bottom=1387.8 flagged baseline=1383.36 '夜寫首詩？寫兩句荷蘭語寄…'
+   7px strip below bottom: non-paper pixels=0 -> false positive (0 ink)
+   PIL true-ink bottom=1379.86 margin to box bottom=+7.94px
+p5-jongeren bottom=936.5 flagged baseline=932.05 '禮物加小詩？寫兩句荷蘭語…'
+   7px strip below bottom: non-paper pixels=0 -> false positive (0 ink)
+   PIL true-ink bottom=928.55 margin to box bottom=+7.95px
+p6-verdieping bottom=665.0 flagged baseline=659.44 '問題：你在鞋裡放什麼？（…'
+   7px strip below bottom: non-paper pixels=0 -> false positive (0 ink)
+   PIL true-ink bottom=656.19 margin to box bottom=+8.81px

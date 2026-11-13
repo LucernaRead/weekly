@@ -1,0 +1,14 @@
+parsed answers: 150
+text.md vs registry mismatches: [(34, 'opens (open = 개봉하다(3인칭 단수는 s 추가))', 'opens')]
+text.md vs p8extract mismatches (excl 150): [(34, 'opens (open = 개봉하다(3인칭 단수는 s 추가))', 'opens')]
+Q150 text.md: '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에'  vs registry: '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에'  vs p8x: '열린 문제'
+P4 node: 'Australia played England in the first'
+P4 node: 'England won the fourth Test, in'
+P4 node: "England's team was more settled. Ben"
+P4 node: 'batter England needed most, was in'
+P4 node: 'Wood to bowl fast. England had not'
+P4 node: 'The last series, in England in 2023,'
+P4 node: 'England'
+P4 node: 'England last won a Test series in'
+P4 node: 'England (lose) 4–0 in 2021–22.'
+P4 '2027' raw count: 0 | '2025' raw: 6

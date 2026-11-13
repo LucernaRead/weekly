@@ -1,0 +1,29 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PyMuPDF PyMuPDF 2.1: Python bindings for the MuPDF 1.28.6 library.
+Python 3.12 running on linux (64-bit).
+
+pages print/web: 8 8
+P8 smallest 12 spans (size, font, text):
+   (10.12, 'Newsreader16pt-Regular', '+ Zeit')
+   (10.12, 'Newsreader16pt-Regular', '1. 20:45 — Deutschland–Niederlande: Anpf')
+   (10.12, 'Newsreader16pt-Regular', '10. B — Pakjesavond ist am Samstag, 5. D')
+   (10.12, 'Newsreader16pt-Regular', '100. Het feest verandert, maar het verdw')
+   (10.12, 'Newsreader16pt-Regular', '101. wedstrijd — de wedstrijd = Spiel')
+   (10.12, 'Newsreader16pt-Regular', '102. groepswinst — de groepswinst = Grup')
+   (10.12, 'Newsreader16pt-Regular', '103. B — Gruppensieg heißt: Erster in de')
+   (10.12, 'Newsreader16pt-Regular', '104. scoorde — Vergangenheit von scoren:')
+   (10.12, 'Newsreader16pt-Regular', '105. won — winnen im Präteritum: won')
+   (10.12, 'Newsreader16pt-Regular', '106. verloor — verliezen Vergangenheit: ')
+   (10.12, 'Newsreader16pt-Regular', '107. speelde — spelen im Präteritum: spe')
+   (10.12, 'Newsreader16pt-Regular', '108. B — won ist die Vergangenheit von w')
+P8 size histogram: [(10.12, 174), (10.35, 65), (18.0, 39), (14.25, 37), (15.75, 16), (14.62, 12), (10.88, 9), (10.5, 8)]
+print P1 italic spans: 1
+    Newsreader16pt-Italic '«de groepswinst»'
+web P1 italic spans: 0
+print P1 line: 'Erklärung · de groepswinst Gruppensieg ·'
+print P1 line: '«de groepswinst»'
+print P1 line: '„Gruppensieg“: erster Platz in der Gruppe,'
+web P1 line: 'Erklärung · de groepswinst Gruppensieg ·'
+web P1 line: '«de groepswinst»'
+web P1 line: '„Gruppensieg“: erster Platz in der Gruppe,'

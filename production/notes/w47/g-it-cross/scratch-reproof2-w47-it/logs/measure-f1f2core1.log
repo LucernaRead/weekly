@@ -1,0 +1,61 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== F-1 P1 slogan right edge vs date left edge (pt) ==
+core-it: date_x0=523.9035034179688 slogan_right=1399.386474609375 gap=-875.5
+it-en: date_x0=555.1681518554688 slogan_right=1399.3973388671875 gap=-844.2
+it-de: date_x0=447.16802978515625 slogan_right=1399.4053955078125 gap=-952.2
+it-fr: date_x0=532.3673095703125 slogan_right=1399.3973388671875 gap=-867.0
+it-es: date_x0=472.96881103515625 slogan_right=1399.3983154296875 gap=-926.4
+it-pt: date_x0=539.204345703125 slogan_right=1399.3973388671875 gap=-860.2
+it-nl: date_x0=532.0792846679688 slogan_right=1399.3973388671875 gap=-867.3
+it-ru: date_x0=524.64892578125 slogan_right=1396.4979248046875 gap=-871.8
+it-ja: date_x0=482.6534423828125 slogan_right=1399.4439697265625 gap=-916.8
+it-ko: date_x0=541.153564453125 slogan_right=1399.3802490234375 gap=-858.2
+it-zh-tw: date_x0=523.9035034179688 slogan_right=1399.386474609375 gap=-875.5
+== F-2 P6 NOV. Scade ==
+core-it: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-en: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-de: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-fr: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-es: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-pt: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-nl: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-ru: 'NOV. Scade' in P6 text: False | 'NOV.Scade' present: False
+it-ja: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-ko: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+it-zh-tw: 'NOV. Scade' in P6 text: True | 'NOV.Scade' present: False
+== core-1 footer (core-it print PDF, all 8 pages) ==
+P1: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P2: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P3: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P4: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P5: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P6: ['La Lucerna', 'La Lucerna', 'La Lucerna']
+P7: ['La Lucerna', 'La Lucerna']
+P8: ['La Lucerna', 'La Lucerna']
+LUCERNA ITALIAN WEEKLY occurrences print: 0
+LUCERNA ITALIAN WEEKLY occurrences web: 0
+== F-4 P2 boxtitles (PDF text) ==
+core-it: ['LA FRASE PER RICORDARE']
+it-en: ['LA FRASE PER RICORDARE']
+it-de: ['LA FRASE PER RICORDARE']
+it-fr: ['LA FRASE PER RICORDARE']
+it-es: ['LA FRASE PER RICORDARE']
+it-pt: ['LA FRASE PER RICORDARE']
+it-nl: ['LA FRASE PER RICORDARE']
+it-ru: ['LA FRASE PER RICORDARE']
+it-ja: ['LA FRASE PER RICORDARE']
+it-ko: ['LA FRASE PER RICORDARE']
+it-zh-tw: ['LA FRASE PER RICORDARE']
+== old F-4 words anywhere in print PDFs ==
+core-it: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-en: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-de: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-fr: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-es: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-pt: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-nl: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-ru: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-ja: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-ko: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0
+it-zh-tw: DEVISE=0 LEMA=0 LEUS=0 口訣=0 口诀=0

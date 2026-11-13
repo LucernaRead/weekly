@@ -1,0 +1,24 @@
+P4 caption: fr lines=2 credit lines=2 cy3=567.60 sy3=591.60
+P4 fact wrap counts: [3, 3, 3, 2, 3] total lines: 14
+   3 lines: ['Maandag 16 november, 20:45 uur:', 'Duitsland – Nederland, Berlijn, NPO', '3.']
+   3 lines: ['Stand na 4 wedstrijden: Nederland 8,', 'Griekenland 8, Duitsland 5, Servië 0', 'punten.']
+   3 lines: ['Speelronde 12: Heerenveen –', 'Feyenoord 5–3; Cambuur – PSV 2–5;', 'Twente – Ajax 2–2.']
+   2 lines: ['Stand Eredivisie na 12 ronden: PSV', '26, Feyenoord 25, Ajax 25 punten.']
+   3 lines: ['Speelronde 13: zaterdag NEC – PSV', '16:30 uur; Feyenoord – Excelsior', '18:45 uur.']
+title baseline offset from sy3: 42.00 (sy3+16 pad, +26)
+first fact baseline offset from sy3: 89.00  (expect 16+52+21=89)
+last baseline abs y=1209.49  offset from sy3: 617.89
+all baselines: ['680.60', '711.13', '741.66', '805.19', '835.72', '866.25', '929.78', '960.31', '990.84', '1054.37', '1084.90', '1148.43', '1178.96', '1209.49']
+para-end yy3 after last fact: 1252.02 (offset 660.42); render loop ends at last_base+LH+12
+OLD sh=611 (62 top): box=(591.60..1202.60) last_base margin=-6.89px
+   formula recompute: 611.0 (== sh? True)
+NEW sh=638 (89 top): box=(591.60..1229.60) last_base margin=+20.11px
+   formula recompute: 638.0 (== sh? True)
+last line text: '18:45 uur.'
+4x font ascent=64 descent=23; mask bbox=(7, 0, 401, 62)
+true ink bottom = last_baseline + -0.75px (glyphs end 0.75px above baseline)
+NEW box: ink bottom y=1208.74, margin to box bottom = 20.86px
+OLD box: ink bottom margin = -6.14px (negative = spill)
+exercises hline y=1608; new box bottom 1229.60; clearance 378.40px; P4 col3 ends 1229.60
+bottom pad after last baseline (new): 20.11px (top pad 16px; title block 52px)
+P3 cross-check: counts=[3, 3, 2, 3] sy3=597.10 sh=509.5 last_base=1090.40 box_bottom=1106.60 margin=+16.20px -> OK inside

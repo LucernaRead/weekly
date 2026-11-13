@@ -1,0 +1,4 @@
+REG entries: 150; p8extract keys: 150
+exact match: 149/150
+  MISMATCH n=150 file=content8.py type=쓰기: key='(열린 문제 — 모범 답안은 아래에 있어요)' extracted='✓'
+expected-only-Q150-checkmark: True

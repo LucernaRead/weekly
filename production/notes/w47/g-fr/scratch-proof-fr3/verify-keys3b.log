@@ -1,0 +1,12 @@
+parsed answers: 150 missing: []
+Q10 MISMATCH: p8='B' md='B（都灵决赛在周日 22 日） — 第2版 —'
+Q25 MISMATCH: p8='d' md='d — 第3版 —'
+Q43 MISMATCH: p8='saucisson' md='saucisson（配香肠最佳） — 第4版 —'
+Q61 MISMATCH: p8='Milan' md='Milan（米兰客场） — 第5版 —'
+Q78 MISMATCH: p8='deux' md='deux（买两张票） — 第6版 —'
+Q96 MISMATCH: p8='connus' md='connus（结果尚未揭晓） — 第7版 —'
+Q108 MISMATCH: p8='Le beaujolais nouveau arrive jeudi 19 novembre.' md='Le beaujolais nouveau arrive jeudi 19 novembre.（事实：新酒在 19 日，不是 20 日） — 第8版 —'
+Q114 MISMATCH: p8='A' md='A（avoir + 过去分词（不配合））'
+Q150: p8='开放题' md='开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分） *Novemb' -> OK
+mismatches: [10, 25, 43, 61, 78, 96, 108, 114]
+Q100 key: beauté | md: beauté

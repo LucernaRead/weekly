@@ -1,0 +1,18 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+page rect: Rect(0.0, 0.0, 1462.5, 2025.0) mediabox: Rect(0.0, 0.0, 1462.5, 2025.0)
+pixmap: 11700 16200 n: 3
+im shape: (16200, 11700) mean gray top band rows 0-1000: 245.67355145299146
+dark px in top 200 svg px: 534498
+dark rows range (raster): 455 1199 -> svg y: 75.83333333333333 199.83333333333334
+wordmark region mean gray: 249.0 min: 249 dark px: 0 light-on-dark px>180: 395280
+row 700 mean: 249.0 row 850 mean: 245.31752136752138
+P1 whole-page dark ink: rightmost col svg x: 1863.3333333333333 leftmost: 88.0 bottom row svg y: 2625.1666666666665
+P1: rightmost ink svg x 1863.3 (edge 1950: +86.7) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P2: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P3: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P4: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P5: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P6: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P7: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)
+P8: rightmost ink svg x 1861.8 (edge 1950: +88.2) leftmost 88.0 bottom svg y 2625.2 (page 2700: +74.8)

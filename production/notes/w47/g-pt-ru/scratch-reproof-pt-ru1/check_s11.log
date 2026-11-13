@@ -1,0 +1,65 @@
+  p1-capa.svg: VOL.4 core=2 ed=2
+  p1-capa.svg: VOL.5 core=0 ed=0
+  p1-capa.svg: VOL.3 core=0 ed=0
+  p1-capa.svg: chip rects core=10 ed=10
+  p2-vida.svg: VOL.4 core=1 ed=1
+  p2-vida.svg: VOL.5 core=0 ed=0
+  p2-vida.svg: VOL.3 core=0 ed=0
+  p2-vida.svg: chip rects core=15 ed=15
+  p3-cultura.svg: VOL.4 core=1 ed=1
+  p3-cultura.svg: VOL.5 core=0 ed=0
+  p3-cultura.svg: VOL.3 core=0 ed=0
+  p3-cultura.svg: chip rects core=18 ed=18
+  p4-esporte.svg: VOL.4 core=1 ed=1
+  p4-esporte.svg: VOL.5 core=0 ed=0
+  p4-esporte.svg: VOL.3 core=0 ed=0
+  p4-esporte.svg: chip rects core=15 ed=15
+  p5-jovens.svg: VOL.4 core=1 ed=1
+  p5-jovens.svg: VOL.5 core=0 ed=0
+  p5-jovens.svg: VOL.3 core=0 ed=0
+  p5-jovens.svg: chip rects core=18 ed=18
+  p6-aprofundamento.svg: VOL.4 core=1 ed=1
+  p6-aprofundamento.svg: VOL.5 core=0 ed=0
+  p6-aprofundamento.svg: VOL.3 core=0 ed=0
+  p6-aprofundamento.svg: chip rects core=18 ed=18
+  p7-lingua.svg: VOL.4 core=1 ed=1
+  p7-lingua.svg: VOL.5 core=3 ed=3
+  p7-lingua.svg: VOL.3 core=2 ed=2
+  p7-lingua.svg: chip rects core=12 ed=12
+  p8-avaliacao.svg: VOL.4 core=1 ed=1
+  p8-avaliacao.svg: VOL.5 core=0 ed=0
+  p8-avaliacao.svg: VOL.3 core=0 ed=0
+  p8-avaliacao.svg: chip rects core=35 ed=35
+colour set: core 21 edition 21 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+forbidden #f7f1e2 absent: True
+forbidden #c9a227 absent: True
+forbidden #8b4513 absent: True
+forbidden #000000 absent: True
+masthead font-size 196 present: True
+band title font-size 46 present: True
+leftmost text x: 88.0
+visible-SVG CJK chars (non-U+3000): none
+foot has VOL.4 + full-width space (all 8 pages): True
+VOL counts total: VOL.4=9 VOL.5=3 VOL.3=2
+P8 min font-size (SVG units): 13.0 = 9.75 pt
+P8 answers-region min font: 13.0 units = 9.75 pt; n = 1339
+P8 Q113 [B1] chip OK (ntext x=160 y=243)
+P8 Q114 [B1] chip OK (ntext x=160 y=332)
+P8 Q115 [B1] chip OK (ntext x=160 y=420)
+P8 Q116 [B1] chip OK (ntext x=160 y=488)
+P8 Q117 [B1] chip OK (ntext x=160 y=555)
+P8 Q118 [B1] chip OK (ntext x=160 y=623)
+P8 Q119 [B1] chip OK (ntext x=160 y=690)
+P8 Q120 [B1] chip OK (ntext x=160 y=758)
+P8 Q145 [B1] chip OK (ntext x=1512 y=203)
+P8 Q146 [B1] chip OK (ntext x=1512 y=271)
+P8 Q147 [B1] chip OK (ntext x=1512 y=338)
+P8 Q148 [B1] chip OK (ntext x=1512 y=406)
+P8 Q149 [B1] chip OK (ntext x=1512 y=473)
+P8 Q150 [B1] chip OK (ntext x=1512 y=670)
+P8 H ESCREVA VOCÊ present: True
+P8 bridge present: True | lines: [(578.1249999999999, 'Письменное задание; образец текста (88'), (607.8499999999999, 'слов) — ниже.')]
+ALL §1.1/P8 CHECKS PASS

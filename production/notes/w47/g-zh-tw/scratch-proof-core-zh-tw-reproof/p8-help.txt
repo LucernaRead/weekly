@@ -1,0 +1,34 @@
+usage: p8.py [-h] {extract,compare} ...
+
+p8.py — the P8 printed-note gate, generalized from the programme audit
+(hidden_files/audit-p8-notes/audit.py, whose anchors this tool reproduces).
+
+What it does: from a shipped P8 SVG, extract the SET of exercise numbers
+that carry a PRINTED note, plus the printed key per number. Extraction is
+wrap-aware and handles both answer typographies — paren style
+`key (note)` and dash style `key — note`, including families that re-laid
+answers in the other style than their core, and the page separators
+(— SEITE n — / — PÁGINA n — / — СТРАНИЦА n — / — 제N면 — …).
+
+Commands:
+  extract --p8 <svg> --total N [--json out]
+  compare --core-p8 <svg> --edition-p8 <svg> --total N [--json out]
+  compare --core-dir <files dir> --edition-dir <files dir> --target <code> [--json out]
+
+Verdicts (per hidden_files/audit-p8-notes/DECISION.md):
+  CLEAN       sets equal
+  EXTRA_ONLY  edition prints notes the core filters out — ADJUDICATED
+              ACCEPTANCE (en-de/en-fr print all 149 vs the core's 62);
+              reported, listed, exit 0
+  SHORT       edition is missing notes the core prints — GATE FAILURE, exit 1
+  UNCERTAIN   a missing candidate whose segment is not a bare key — exit 1
+Key diffs (same noted set, different printed key) are listed; translation
+items legitimately re-aim at the reader's language, so key diffs are
+informational, not a failure by themselves.
+Run with tools/venv/bin/python (any python3 works).
+
+positional arguments:
+  {extract,compare}
+
+options:
+  -h, --help         show this help message and exit

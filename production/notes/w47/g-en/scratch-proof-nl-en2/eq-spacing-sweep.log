@@ -1,0 +1,11 @@
+--- content*.py string literals with unspaced '=' ---
+content8.py 'groepswinst=group win c'
+content8.py 'gedicht=poem a'
+--- text.md lines with unspaced '=' ---
+'142. de groepswinst — de eerste plaats in de groep (Correct c · groepswinst=group win c)'
+'144. het gedicht — een klein versje bij een cadeau (Correct a · gedicht=poem a)'
+--- SVG text runs with unspaced '=' ---
+p8-toets.svg '142. c — groepswinst=group win c'
+p8-toets.svg '144. a — gedicht=poem a'
+--- spaced ' = ' matching-note count in text.md (D+F sets) ---
+spaced: 39  unspaced: 2

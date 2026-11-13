@@ -1,0 +1,68 @@
+PASS D2 content7.py:17 new string | new=1 old_present=False
+PASS D2 content7.py:18 new string | new=1 old_present=False
+PASS D2 old strings 0 in all content*.py
+PASS D2 text.md:775 new sentence | Per i piani della settimana usiamo il futuro semplice: andremo a Cremona, assaggeremo il t
+PASS D2 text.md:777 new sentence | E per la settimana prossima: leggeremo a BookCity, che apre lunedì 23 novembre. Il verbo è
+PASS D2 old strings 0 in text.md | old17=False old18=False
+PASS D2 new strings 1x each in text.md | new17=1 new18=1
+PASS text.md 1317 lines | lines=1317
+PASS D2 new strings in p7 SVG (flat, norm) | new17=1 new18=1
+PASS D2 old strings 0 in p7 SVG
+PASS D2 print PDF P7 text layer has new strings | new17_arrownorm=1 new18=1
+PASS D2 print PDF P7 text layer old strings 0 | old17=False old18=False
+PASS D2 web PDF P7 text layer has new strings | new17_arrownorm=1 new18=1
+PASS D2 web PDF P7 text layer old strings 0 | old17=False old18=False
+PASS fix3 new in content12.py: Sabato 21 novembre torna la Serie A co… | count=1
+PASS fix3 new in content12.py: il ponte di barche per la festa in nov… | count=1
+PASS fix3 new in content12.py: la piccola luce di cera accesa in chie… | count=1
+PASS fix3 new in content34.py: Il Torrazzo di Cremona è il campanile … | count=1
+PASS fix3 new in content34.py: "che non ha mai perso"… | count=1
+PASS fix3 new in content34.py: "il gruppo di squadre in un torneo"… | count=1
+PASS fix3 new in content8.py: "un livello di reddito del sistema fis… | count=1
+PASS fix3 new in content8.py: "i soldi che pagano una misura"… | count=1
+PASS fix3 new in content8.py: "la differenza tra spese ed entrate"… | count=1
+PASS fix3 old absent content12.py: Domenica 22 novembre torna la Serie A… | present=False
+PASS fix3 old absent content12.py: il ponte di barche per la festa del 21… | present=False
+PASS fix3 old absent content12.py: la piccola luce di cera che si accende… | present=False
+PASS fix3 old absent content34.py: è il campanile più alto d'Italia.… | present=False
+PASS fix3 old absent content34.py: che non ha mai perso, ancora senza sco… | present=False
+PASS fix3 old absent content34.py: il gruppo di squadre che giocano tra l… | present=False
+PASS fix3 old absent content8.py: la parte del sistema fiscale, un livel… | present=False
+PASS fix3 old absent content8.py: i soldi che pagano una misura, la sua … | present=False
+PASS fix3 old absent content8.py: la differenza tra spese ed entrate, in… | present=False
+PASS E label content8.py:69 | f.ex("A2", "翻譯", "聖母健康節人們走過還願橋。", "對照原文",
+PASS E label content8.py:71 | f.ex("B1", "翻譯", "週日晚上亞特蘭大對國米。", "si gioca = 進行比賽",
+PASS E label content8.py:73 | f.ex("B1", "翻譯", "週六，拉齊奧在主場對萊切。", "in casa = 在主場",
+PASS E label content8.py:75 | f.ex("B2", "翻譯", "Ogni cifra deve essere chiara.", "dovere = 必須",
+PASS E label text.md:969 | 137. [A2 · 翻譯] Per la Madonna della Salute si attraversa il ponte votivo. → ___ 
+PASS E label text.md:971 | 138. [B1 · 翻譯] Domenica sera si gioca Atalanta–Inter. → ___ — key: 週日晚上亞特蘭大對國米。 
+PASS E label text.md:973 | 139. [B1 · 翻譯] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: 週六，拉齊奧在主
+PASS E label text.md:975 | 140. [B2 · 翻譯] 每個數字都必須清楚。→ ___ — key: Ogni cifra deve essere chiara. (dovere = 必
+PASS text.md no residual 翻译/翻譯 type | hits=4
+PASS content diff vs backup content12.py == 0 | actual=0
+PASS content diff vs backup content34.py == 0 | actual=0
+PASS content diff vs backup content56.py == 0 | actual=0
+PASS content diff vs backup content7.py == 4 | actual=4
+PASS content7 diff lines are exactly the 2 D-2 lines | ops=[('replace', 16, 18, 16, 18)] rem=2 add=2
+PASS content diff vs backup content8.py == 0 | actual=0
+PASS SVG p1-prima.svg byte-identical to backup
+PASS SVG p2-vita.svg byte-identical to backup
+PASS SVG p3-cultura.svg byte-identical to backup
+PASS SVG p4-sport.svg byte-identical to backup
+PASS SVG p5-giovani.svg byte-identical to backup
+PASS SVG p6-approfondimento.svg byte-identical to backup
+PASS SVG p7-lingua.svg DIFFERS (p7 only)
+PASS SVG p8-valutazione.svg byte-identical to backup
+PASS card p1-prima.png byte-identical to backup
+PASS card p2-vita.png byte-identical to backup
+PASS card p3-cultura.png byte-identical to backup
+PASS card p4-sport.png byte-identical to backup
+PASS card p5-giovani.png byte-identical to backup
+PASS card p6-approfondimento.png byte-identical to backup
+PASS card p7-lingua.png DIFFERS (p7 only)
+PASS card p8-valutazione.png byte-identical to backup
+PASS p7 SVG node diff confined to D-2 sentences | old_nodes_changed=9 new_nodes_changed=3 old_confined=True new_confined=True
+PASS text.md diff vs backup is exactly :775/:777 | ops=[('replace', 774, 775, 774, 775), ('replace', 776, 777, 776, 777)]
+PASS PDF La-Lucerna-VOL4-ZH-TW.pdf differs from backup (P7 rebuild)
+PASS PDF La-Lucerna-VOL4-ZH-TW-web.pdf differs from backup (P7 rebuild)
+CHECKS ALL PASS

@@ -1,0 +1,5 @@
+STRICT-LATIN FAIL: edition adds Latin strings the core does not have (unexpected 1; same-slug before/after gate only — never use --strict-latin on a core-vs-edition diff)
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +1 strings / -1 strings; CJK core 197 -> edition 197; added CJK chars: 0 ; added Latin strings: 1 (unexpected 1)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 1 (unexpected 1)

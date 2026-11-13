@@ -1,0 +1,27 @@
+[PASS] topband no overlap left ends 299, mid 609..1341, right starts 1564
+[PASS] masthead edition line fits 1774 width 1491 (spacing 4.0)
+    masthead w0=1291 len=50 suggested max spacing 7.0 (<=7.0)
+[PASS] footer vs pageline gap footer ends 665, pageline starts 1772
+[PASS] P1 band title vs right text title ends 1346, right starts 1585
+[PASS] chart label 'voetbal' clears bar ends 518 (bar 1358)
+[PASS] chart label 'markten' clears bar ends 527 (bar 1358)
+[PASS] chart label 'rust' clears bar ends 484 (bar 1358)
+[PASS] P2 Rechnen note 1 line 1 lines
+[PASS] P7 phrase <=2 lines: 'Na twee weken pauze speelt B' 2 lines
+[PASS] P7 phrase <=2 lines: 'Het gaat om de kwartfinale v' 2 lines
+[PASS] P7 phrase <=2 lines: 'Alleen in Saksen is de Buß- ' 2 lines
+[PASS] P7 phrase <=2 lines: 'De markten openen bijna twee' 1 lines
+[PASS] P7 phrase <=2 lines: 'Achter elk deurtje wacht een' 1 lines
+[PASS] P7 phrase <=2 lines: 'Bayern won met 2–1 in Mainz.' 1 lines
+[PASS] P7 phrase <=2 lines: 'De stille week is de overgan' 2 lines
+[PASS] P7 phrase <=2 lines: 'Op zondag is het hele land s' 1 lines
+[PASS] P7 clinic <=2 lines: 'Werkwoord op 2: het werkwoor' 2 lines
+[PASS] P7 clinic <=2 lines: 'halb neun = half negen (vóór' 1 lines
+[PASS] P7 clinic <=2 lines: 'In de Perfekt staat het deel' 1 lines
+[PASS] P7 clinic <=2 lines: 'In de bijzin met ob staat he' 2 lines
+[PASS] P8 writing para <=4 lines 2 lines
+[PASS] P7 toolbox D4 entry <=3 lines 2 lines
+[PASS] exercise head right note fits width 613
+[PASS] BLITZQUIZ right note fits width 583
+    TR total chars: nl 10208 vs en 10469 vs fr 10619
+

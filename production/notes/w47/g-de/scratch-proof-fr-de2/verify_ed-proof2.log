@@ -1,0 +1,24 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PASS core final-fr-p8.json has 150 keys — found 150
+PASS text.md has 150 answers — found 150
+PASS text.md Q39 == 'minuit' — got 'minuit' core='minuit'
+PASS core key Q39 == 'minuit' — got 'minuit'
+PASS text.md Q40 == 'troisième' — got 'troisième' core='troisième'
+PASS core key Q40 == 'troisième' — got 'troisième'
+PASS text.md Q46 == 'C' — got 'C' core='C'
+PASS core key Q46 == 'C' — got 'C'
+PASS text.md Q52 == 'd' — got 'd' core='d'
+PASS core key Q52 == 'd' — got 'd'
+PASS text.md Q55 == 'moins longue' — got 'moins longue' core='moins longue'
+PASS core key Q55 == 'moins longue' — got 'moins longue'
+PASS text.md Q125 == 'A' — got 'A' core='A'
+PASS core key Q125 == 'A' — got 'A'
+PASS text.md Q148 == 'devant le' — got 'devant le' core='devant le'
+PASS core key Q148 == 'devant le' — got 'devant le'
+PASS text.md Q150 open task — 150. Offene Aufgabe — Punkte siehe Schreibbox; Mustertext in der Schreibbox auf Seite 8
+PASS text.md Q64 Dhont
+PASS text.md: no 'du cinéma' in Q148 stem
+PASS P8 min PDF font >= 9.75pt — min 11.62pt
+PASS SVG: zero real CJK (only U+3000 allowed) — []
+VERIFY ALL PASS

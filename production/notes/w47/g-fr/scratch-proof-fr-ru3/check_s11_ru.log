@@ -1,0 +1,63 @@
+PASS p1-une.svg: paper rect #fbfaf6
+PASS p1-une.svg: VOL.4 count core==ed — core=2 ed=2
+PASS p1-une.svg: VOL.5 count core==ed — core=0 ed=0
+PASS p1-une.svg: chip rects core==ed — core=10 ed=10
+PASS p1-une.svg: chip colour multiset
+PASS p2-vie.svg: paper rect #fbfaf6
+PASS p2-vie.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p2-vie.svg: VOL.5 count core==ed — core=1 ed=1
+PASS p2-vie.svg: chip rects core==ed — core=12 ed=12
+PASS p2-vie.svg: chip colour multiset
+PASS p3-culture.svg: paper rect #fbfaf6
+PASS p3-culture.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p3-culture.svg: VOL.5 count core==ed — core=0 ed=0
+PASS p3-culture.svg: chip rects core==ed — core=18 ed=18
+PASS p3-culture.svg: chip colour multiset
+PASS p4-sport.svg: paper rect #fbfaf6
+PASS p4-sport.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p4-sport.svg: VOL.5 count core==ed — core=2 ed=2
+PASS p4-sport.svg: chip rects core==ed — core=15 ed=15
+PASS p4-sport.svg: chip colour multiset
+PASS p5-jeunesse.svg: paper rect #fbfaf6
+PASS p5-jeunesse.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p5-jeunesse.svg: VOL.5 count core==ed — core=0 ed=0
+PASS p5-jeunesse.svg: chip rects core==ed — core=14 ed=14
+PASS p5-jeunesse.svg: chip colour multiset
+PASS p6-politique.svg: paper rect #fbfaf6
+PASS p6-politique.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p6-politique.svg: VOL.5 count core==ed — core=0 ed=0
+PASS p6-politique.svg: chip rects core==ed — core=15 ed=15
+PASS p6-politique.svg: chip colour multiset
+PASS p7-langue.svg: paper rect #fbfaf6
+PASS p7-langue.svg: VOL.4 count core==ed — core=3 ed=3
+PASS p7-langue.svg: VOL.5 count core==ed — core=3 ed=3
+PASS p7-langue.svg: chip rects core==ed — core=12 ed=12
+PASS p7-langue.svg: chip colour multiset
+PASS p8-exercices.svg: paper rect #fbfaf6
+PASS p8-exercices.svg: VOL.4 count core==ed — core=1 ed=1
+PASS p8-exercices.svg: VOL.5 count core==ed — core=3 ed=3
+PASS p8-exercices.svg: chip rects core==ed — core=38 ed=38
+PASS p8-exercices.svg: chip colour multiset
+colour set: core 19 edition 19 extra: none missing: none
+PASS colour set identical
+badge colour A2 #5c6e30 present in edition: True
+PASS badge colour A2 present
+badge colour B1 #46581f present in edition: True
+PASS badge colour B1 present
+badge colour B2 #37402f present in edition: True
+PASS badge colour B2 present
+P8 min font-size attr: 15.5
+PASS P8 min font-size attr >= 9.75 — min 15.5
+chips per page ed: [10, 12, 18, 15, 14, 15, 12, 38] total 134 | core: [10, 12, 18, 15, 14, 15, 12, 38] total 134
+PASS chips total == core total — 134 vs 134
+PASS chips per page == core — [10, 12, 18, 15, 14, 15, 12, 38]
+U+2019 count: 0 | U+00B7: 0 | gold #b49a4a: 0 | old paper #f7f1e2: 0 | #fbfaf6: 8
+PASS no U+2019
+PASS no U+00B7
+PASS no gold #b49a4a
+PASS no old paper #f7f1e2
+PASS paper #fbfaf6 x>=8
+real CJK chars in edition SVG text: 0 []
+PASS SVG: zero real CJK chars
+U+3000 count in edition SVGs: 369
+VERIFY_S11 ALL PASS

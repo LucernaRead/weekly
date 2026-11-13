@@ -1,0 +1,52 @@
+resume editions: 7
+=== 2026-w47-fr-ja (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja)
+  old: 031684fd076ba8e1b3c64ae4f3df17330e10d838650ca2577cd110bc04ab44d3 2309603 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-ja-web.pdf
+  mem available 1927MB at render start
+  webpdf.py rc=0
+  new: f5b3b504369d80896942eb1b741500bc7b723e49e91c6f4d89c41d46b834f55e 2309608 bytes, text bytes: 48005, text vs print: MATCH, status: OK
+=== 2026-w47-fr-ko (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ko)
+  old: 0862b544eb337d4061cf762a9f40932ae40fc5d0107cfd9bac2bb31e4349ebd5 2048869 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-ko-web.pdf
+  mem available 2067MB at render start
+  webpdf.py rc=0
+  new: a2a0082c07d9cfb651990d7efe56833dca5337fc1272598d1c3170afcf06c339 2048863 bytes, text bytes: 47658, text vs print: MATCH, status: OK
+=== 2026-w47-fr-nl (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-nl)
+  old: 5217c87ac893a6b0bd89a7066d1c28acf0ff1aa780c4522114fa5360309b18b7 1699714 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-nl-web.pdf
+  mem available 1706MB at render start
+  webpdf.py rc=0
+  new: c1f47e208af524af84ebe284ff4858d133447eca43186daee1e49974650c331b 1699714 bytes, text bytes: 46515, text vs print: MATCH, status: OK
+=== 2026-w47-fr-pt (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-pt)
+  old: fb88ae09d19a9b66906df2865ec15529c9f09429de22e690fbcc252ac5eff6b1 1702371 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-pt-web.pdf
+  mem available 1199MB <1500, waiting 60s (1/15)
+  mem available 1138MB <1500, waiting 60s (2/15)
+  mem available 1742MB at render start
+  webpdf.py rc=0
+  new: cb952fb84d3f0caf4cf67b1a294a4af2a3ea5e93522e75f79afa85c2d7bd0f81 1702364 bytes, text bytes: 46817, text vs print: MATCH, status: OK
+=== 2026-w47-fr-ru (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ru)
+  old: 9373b750bc266644cf634f2d65bfc9d9930a9df658486409544775d8e62931e3 1759960 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-ru-web.pdf
+  mem available 1783MB at render start
+  webpdf.py rc=0
+  new: ce5e93f713f97545743bdc273f9b51f52250b0794c26790d3e501f832cffdd3a 1759951 bytes, text bytes: 51246, text vs print: MATCH, status: OK
+=== 2026-w47-fr-zh-tw (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-zh-tw)
+  old: 2766f3ed492f84349159ad3fb33f87c48291256495ca997e4b7518187d48d212 2552857 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-zh-tw-web.pdf
+  mem available 1270MB <1500, waiting 60s (1/15)
+  mem available 1364MB <1500, waiting 60s (2/15)
+  mem available 1413MB <1500, waiting 60s (3/15)
+  mem available 1032MB <1500, waiting 60s (4/15)
+  mem available 959MB <1500, waiting 60s (5/15)
+  mem available 1545MB at render start
+  webpdf.py rc=0
+  new: 720868065b6c6d6213b3feec48e4e595bc9005af77cf70d437547b083616969f 2552863 bytes, text bytes: 46235, text vs print: MATCH, status: OK
+=== 2026-w47-fr-zh-cn (/home/hatch/workspace/weekly-git/production/2026-w47/core-fr)
+  old: 56f50ca8ab7ec912408bb4eda77c5a1a36eb7cc2639f09400584a6166d58e141 2241835 bytes, svg pages: 8, web: La-Lucerna-VOL4-web.pdf
+  mem available 1756MB at render start
+  webpdf.py rc=0
+  new: e5b1992a8611ebbf8539a5680c70de0d2000b8a657af1770b2c571a80924470a 2241835 bytes, text bytes: 46725, text vs print: MATCH, status: OK
+=== RESUME DONE ===
+edition	old_sha256	old_bytes	new_sha256	new_bytes	text_bytes	status
+2026-w47-fr-ja	031684fd076ba8e1b3c64ae4f3df17330e10d838650ca2577cd110bc04ab44d3	2309603	f5b3b504369d80896942eb1b741500bc7b723e49e91c6f4d89c41d46b834f55e	2309608	48005	OK
+2026-w47-fr-ko	0862b544eb337d4061cf762a9f40932ae40fc5d0107cfd9bac2bb31e4349ebd5	2048869	a2a0082c07d9cfb651990d7efe56833dca5337fc1272598d1c3170afcf06c339	2048863	47658	OK
+2026-w47-fr-nl	5217c87ac893a6b0bd89a7066d1c28acf0ff1aa780c4522114fa5360309b18b7	1699714	c1f47e208af524af84ebe284ff4858d133447eca43186daee1e49974650c331b	1699714	46515	OK
+2026-w47-fr-pt	fb88ae09d19a9b66906df2865ec15529c9f09429de22e690fbcc252ac5eff6b1	1702371	cb952fb84d3f0caf4cf67b1a294a4af2a3ea5e93522e75f79afa85c2d7bd0f81	1702364	46817	OK
+2026-w47-fr-ru	9373b750bc266644cf634f2d65bfc9d9930a9df658486409544775d8e62931e3	1759960	ce5e93f713f97545743bdc273f9b51f52250b0794c26790d3e501f832cffdd3a	1759951	51246	OK
+2026-w47-fr-zh-tw	2766f3ed492f84349159ad3fb33f87c48291256495ca997e4b7518187d48d212	2552857	720868065b6c6d6213b3feec48e4e595bc9005af77cf70d437547b083616969f	2552863	46235	OK
+2026-w47-fr-zh-cn	56f50ca8ab7ec912408bb4eda77c5a1a36eb7cc2639f09400584a6166d58e141	2241835	e5b1992a8611ebbf8539a5680c70de0d2000b8a657af1770b2c571a80924470a	2241835	46725	OK

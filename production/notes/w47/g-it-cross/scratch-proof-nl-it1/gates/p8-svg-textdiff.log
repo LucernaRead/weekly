@@ -1,0 +1,12 @@
+staging p8 text nodes: 382 build6: 382
+only in staging:
+   'Faccio una surprise con una poesia. '
+   '140. Ik maak een surprise met een gedicht. — surprise è'
+only in build6:
+   'Faccio una surprise con una breve poesia. '
+   '140. Ik maak een surprise met een kort gedicht. — surprise è'
+staging U+2019: 0 U+0027: 23
+build6 U+2019: 0 U+0027: 23
+p4 staging nodes: 172 build6: 172
+p4 only-staging: []
+p4 only-build6: []

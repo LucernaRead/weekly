@@ -1,0 +1,9 @@
+registry entries: 150 rerun: 150
+registry == rerun registry: True
+registry-vs-p8extract exact 149/150 exc=[150] mismatch=[]
+registry-keys-vs-core: 145/150 match; diff=[(137, '민주당은 하원과 상원에서 승리했다.', '民主党赢下了众议院和参议院。'), (138, '개표가 계속되고 있다.', '计票仍在继续。'), (139, '새 의회는 2027년 1월에 개회한다.', '新国会将于 2027 年 1 月开会。'), (140, '침묵을 깨라.', '打破沉默。'), (150, '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에', '开放题 — 要点见写作框，范文在第 8 版写作框内')]
+Q38-41: ['b', 'a', 'd', 'c'] expect ['b','a','d','c']
+Q125: A Q46: A Q52: hosted Q55: won
+Q82/83/84: B C A
+noted set == core noted: True
+extract keys count: 150 missing vs registry: none

@@ -1,0 +1,17 @@
+STATS BOX: x=538.5 y=1203.735 w=422.5 h=380.0 right=961.0 fill=#f0eee5
+  RUN 'ТУР' fam=Noto Sans size=23.0 bold=True x=556.5 ink=(556.5,1223.7,600.5,1241.0)
+  RUN ' ' fam=Noto Sans CJK SC size=23.0 bold=True x=599.5 ink=None (whitespace-only run, no ink)
+  RUN 'В' fam=Noto Sans size=23.0 bold=True x=604.7 ink=(604.7,1223.7,620.5,1240.7)
+  RUN ' ' fam=Noto Sans CJK SC size=23.0 bold=True x=620.2 ink=None (whitespace-only run, no ink)
+  RUN 'ЦИФРАХ' fam=Noto Sans size=23.0 bold=True x=625.4 ink=(625.4,1223.5,722.9,1245.7)
+  RUN '\u3000The round' fam=Noto Sans CJK SC size=23.0 bold=True x=726.6 ink=(726.6,1222.2,865.6,1241.0)
+TITLE ink left=556.5 ink right=865.6 box right=961.0 clearance=95.4px  REQUIRE ink right <= 957.0 -> PASS
+--- 32 cream titles, sorted by right clearance (tightest first) ---
+  clearance   -0.2px  p6-razbor.svg 'ЗА' ink-right=1862.2 box-right=1862.0
+  clearance   14.1px  p1-pervaya.svg 'В' ink-right=1847.9 box-right=1862.0
+  clearance   24.5px  p3-kultura.svg 'Note — ' ink-right=936.5 box-right=961.0
+  clearance   35.1px  p6-razbor.svg 'Note — ' ink-right=925.9 box-right=961.0
+  clearance   38.0px  p2-zhizn.svg 'Note — ' ink-right=923.0 box-right=961.0
+  clearance   41.5px  p2-zhizn.svg 'Note — ' ink-right=919.5 box-right=961.0
+32 titles measured; min clearance -0.2px; negative clearances: 1
+--- kicker double-space ink gaps (P1) ---

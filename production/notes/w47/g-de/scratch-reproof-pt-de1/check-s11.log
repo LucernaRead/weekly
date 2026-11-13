@@ -1,0 +1,15 @@
+colour set: core 21 edition 21 extra: none missing: none
+badge colour A2 #5c6e30 present in edition: True
+badge colour B1 #46581f present in edition: True
+badge colour B2 #37402f present in edition: True
+P8 min font-size (SVG units): 13.0
+P8 chip count/colours identical to core: 35
+P8 chip position diffs vs core (pre-existing flow shifts): 8
+  ed-only chip: (989.0, 578.6499999999999, '#37402f')
+  ed-only chip: (989.0, 707.1999999999998, '#37402f')
+  ed-only chip: (1439.5, 450.0999999999999, '#46581f')
+  ed-only chip: (1439.5, 646.5749999999999, '#46581f')
+P8 number texts 113-119 + 145-149 present
+P8 number text 120. present
+P8 writing head 'ESCREVA VOCÊ' present
+ALL §1.1/P8 CHECKS PASS

@@ -1,0 +1,14 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] occlusion: rc=0 flags=0 svg/: 0 flags
+[PASS] img_overlap: hits=0 
+[PASS] p8_extract: rc=0 noted=150/150
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=0
+[PASS] freeze_sha256: run rc=0 match=8/8 
+[PASS] print_web_text: pages 8/8 posdiff=0 msdiff=0 P1:355/355:pos0:ms0 P2:350/350:pos0:ms0 P3:259/259:pos0:ms0 P4:336/336:pos0:ms0 P5:267/267:pos0:ms0 P6:315/315:pos0:ms0 P7:478/478:pos0:ms0 P8:1566/1566:pos0:ms0
+[PASS] pdftotext_nonempty: print=52554B web=52554B web_size=2486423
+[PASS] p8_fontsize: answer-zone min=9.98pt median=9.98pt spans=906
+[PASS] p8_chips: core={'A2': 11, 'B1': 24, 'B2': 3} edition={'A2': 11, 'B1': 24, 'B2': 3}
+[PASS] u2019: files_with_U+2019=[]
+[PASS] s11_svg: off-palette={} gold/old=False stroked_rects=0 VOL.5=1(core 1) paper_fills=8
+OVERALL: ALL PASS

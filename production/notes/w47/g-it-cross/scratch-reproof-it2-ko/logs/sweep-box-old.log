@@ -1,0 +1,4 @@
+FLAG p1-prima.svg box x=538.5..961.0 y=1321.75..1709.15 line y=1358.8 inkR=1033.5 over=+72.5 :: LA SETTIMANA IN CIFRE　숫자로 보는 이번 주
+tight p1-prima.svg boxR=1862.0 line y=694.0 inkR=1861.5 margin=0.5 :: 이번 주 일정　Cosa succede, giorno per giorno
+FLAG p2-vita.svg box x=538.5..961.0 y=1243.75..1454.65 line y=1280.8 inkR=1005.5 over=+44.5 :: LA FRASE PER RICORDARE　기억해 두세요
+TOTAL box-overflow flags(>+0.5px): 2

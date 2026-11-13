@@ -1,0 +1,22 @@
+removed distinct: 484 count-sum: 850 added distinct: 324
+added CJK total: {'\u3000': 8}
+Cyrillic-bearing removed strings: 15
+  P8 'Билибин' x1
+  P8 'Билибина' x1
+  P8 'Зимняя' x1
+  P8 'Иван' x1
+  P8 'Ивана' x1
+  P8 'Иллюстрация' x1
+  P8 'Морозко' x1
+  P8 'год' x1
+  P8 'достояние' x1
+  P8 'иллюстрация' x1
+  P8 'к' x1
+  P8 'можно' x1
+  P8 'ноябрю' x1
+  P8 'общественное' x1
+  P8 'сказка' x1
+added Cyrillic-bearing strings: 0
+P1 title added string present: True
+P1 removed string with long title present: False
+{'1': 21, '2': 27, '3': 20, '4': 20, '5': 19, '6': 19, '7': 39, '8': 319}

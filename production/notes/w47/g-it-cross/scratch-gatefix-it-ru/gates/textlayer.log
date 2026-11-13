@@ -1,0 +1,14 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages 8 8
+page 1: print=3753 web=3753 multiset_identical=True byte_identical=True
+page 2: print=4145 web=4145 multiset_identical=True byte_identical=True
+page 3: print=3569 web=3569 multiset_identical=True byte_identical=True
+page 4: print=3463 web=3463 multiset_identical=True byte_identical=True
+page 5: print=3585 web=3585 multiset_identical=True byte_identical=True
+page 6: print=4012 web=4012 multiset_identical=True byte_identical=True
+page 7: print=3702 web=3702 multiset_identical=True byte_identical=True
+page 8: print=9353 web=9353 multiset_identical=True byte_identical=True
+print chars(non-ws): 35582 web: 35582
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS

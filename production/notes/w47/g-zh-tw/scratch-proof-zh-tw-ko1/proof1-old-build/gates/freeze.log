@@ -1,0 +1,3 @@
+usage: freeze.py baseline [-h] --build BUILD --core-svg CORE_SVG --out OUT
+                          [--json JSON_OUT]
+freeze.py baseline: error: the following arguments are required: --build, --core-svg, --out

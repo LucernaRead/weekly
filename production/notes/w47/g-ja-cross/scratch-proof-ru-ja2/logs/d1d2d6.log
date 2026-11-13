@@ -1,0 +1,19 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+D1 K1 (chart title) in p6 SVG: True | 'ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000練習用データ'
+D1 K2 (disclaimer) in p6 SVG: True
+D1 K3 (P7 subtitle) in p7 SVG: True | 'Фокус на язык\u3000Три уровня, три темы\u30003レベル、3テーマ'
+D1 K4 (P8 subtitle) in p8 SVG: True | '8ページ\u3000Большой тест недели + все ответы'
+D1 K2 in text.md (must be False): False
+D1 segment 'УЧЕБНЫЕ ДАННЫЕ' in text.md lines: [459]
+D1 segment 'Три уровня, три темы' in text.md lines: [504]
+D1 segment 'Большой тест недели + все ответы' in text.md lines: [596]
+D2 full phrase count ed: 2 core: 2
+D2 short 'День студента' count in text.md: 11
+D2 Q25 option lines: ['17 ноября — День студента. И Россия — Венесуэла в 19:00.', '### ЖИЗНЬ · 生活 — УРОВЕНЬ A2 · День студента, день рождения Деда Мороза и погода · 学生の日、ジェド・マロースの誕生日と天気', '17 ноября — День студента.', '23. [A2 · 空所補充] День студента — ___ ноября. — key: 17 (11月17日 — 学生の日) [空所補充]']
+D6 'желании' in text.md: 2 lines: [173, 694]
+D6 'желании' in p2 SVG: 0
+PyMuPDF non-ws chars print: 26630 web: 26630 multiset equal: True
+web fonts incl italic: ['UGYISX+LucernaNotoSerif-Italic', 'USKPKN+LucernaNewsreader-Italic']
+web P1 has 'чёрная пятница': True
+web P1 has 'чёрнаяпятница' (no space): False

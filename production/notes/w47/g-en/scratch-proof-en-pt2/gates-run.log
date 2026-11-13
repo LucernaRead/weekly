@@ -1,0 +1,33 @@
+== G1 occlusion (real audit, no --selftest)
+occlusion rc=0
+== G2 p8 extract + compare
+extract-ed rc=0
+extract-core rc=0
+compare rc=0
+== G3 freeze core baseline (standard)
+freeze-core rc=0
+== G3b freeze edition baseline (corrected wording: --build = edition dir)
+freeze-edition rc=0
+== G3c core readonly sha check
+core-sha rc=0
+== G3d freeze diff core vs edition
+freeze-diff rc=0
+== G4 keycheck
+keycheck rc=0
+== G5 check_s11 + verify_ed
+check_s11 rc=0
+verify_ed rc=0
+== G6 boxtitle sweeps
+sweep-src rc=0
+sweep-svg rc=0
+== G7 creambox canonical + v2
+creambox rc=0
+creambox2 rc=0
+== G8 print/web text layer
+printweb rc=0
+== G8b web re-render in scratch copy
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-en-pt2/ed-copy/svg': Operation not permitted
+== G9 p8 font + D5 fonts
+== G10 CJK scan + sweeps
+== G11 Q73 four sources
+== ALL GATES DONE

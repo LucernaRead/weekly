@@ -1,0 +1,750 @@
+### Q1 [A2 · 完成句子] p1 verdict=MATCH
+  STEM: Duitsland – Nederland begint maandag om ___ uur. — 答案：20:45（德国–荷兰周一 20:45 开球）
+  REG : key='20:45' note='德国–荷兰周一 20:45 开球'
+  MD  : ans='20:45'
+  P8  : key='20:45'
+### Q2 [A2 · 完成句子] p1 verdict=MATCH
+  STEM: Oranje speelt maandag in ___ tegen Duitsland. — 答案：Berlijn（比赛在柏林）
+  REG : key='Berlijn' note='比赛在柏林'
+  MD  : ans='Berlijn'
+  P8  : key='Berlijn'
+### Q3 [A2 · 完成句子] p1 verdict=MATCH
+  STEM: Nederland en Griekenland hebben allebei ___ punten. — 答案：8（荷兰与希腊同积 8 分）
+  REG : key='8' note='荷兰与希腊同积 8 分'
+  MD  : ans='8'
+  P8  : key='8'
+### Q4 [A2 · 完成句子] p1 verdict=MATCH
+  STEM: De intocht in Amsterdam was op zondag ___ november. — 答案：15（阿姆斯特丹入城式在 11 月 15 日周日）
+  REG : key='15' note='阿姆斯特丹入城式在 11 月 15 日周日'
+  MD  : ans='15'
+  P8  : key='15'
+### Q5 [A2 · 完成句子] p1 verdict=MATCH
+  STEM: Pakjesavond is op zaterdag ___ december. — 答案：5（收礼夜在 12 月 5 日）
+  REG : key='5' note='收礼夜在 12 月 5 日'
+  MD  : ans='5'
+  P8  : key='5'
+### Q6 [B1 · 完成句子] p1 verdict=MATCH
+  STEM: Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — 答案：maakte（Nederland maakte 7 球）
+  REG : key='maakte' note='Nederland maakte 7 球'
+  MD  : ans='maakte'
+  P8  : key='maakte'
+### Q7 [A2 · 单选] p1 verdict=MATCH
+  STEM: Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — 答案：B（德国–荷兰周一 20:45 开球）
+  REG : key='B' note='德国–荷兰周一 20:45 开球'
+  MD  : ans='B'
+  P8  : key='B'
+### Q8 [A2 · 单选] p1 verdict=MATCH
+  STEM: Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — 答案：B（比赛在柏林奥林匹克体育场）
+  REG : key='B' note='比赛在柏林奥林匹克体育场'
+  MD  : ans='B'
+  P8  : key='B'
+### Q9 [A2 · 单选] p1 verdict=MATCH
+  STEM: Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — 答案：C（荷兰与希腊同积 8 分）
+  REG : key='C' note='荷兰与希腊同积 8 分'
+  MD  : ans='C'
+  P8  : key='C'
+### Q10 [A2 · 单选] p1 verdict=MATCH
+  STEM: Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — 答案：B（收礼夜在 12 月 5 日周六）
+  REG : key='B' note='收礼夜在 12 月 5 日周六'
+  MD  : ans='B'
+  P8  : key='B'
+### Q11 [A2 · 单选] p2 verdict=MATCH
+  STEM: Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — 答案：B（圣诞老人上周末抵达赫拉弗和阿姆斯特丹）
+  REG : key='B' note='圣诞老人上周末抵达赫拉弗和阿姆斯特丹'
+  MD  : ans='B'
+  P8  : key='B'
+### Q12 [A2 · 单选] p2 verdict=MATCH
+  STEM: De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — 答案：B（鞋里放胡萝卜是给马的）
+  REG : key='B' note='鞋里放胡萝卜是给马的'
+  MD  : ans='B'
+  P8  : key='B'
+### Q13 [A2 · 单选] p2 verdict=MATCH
+  STEM: Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — 答案：C（收礼夜在 12 月 5 日）
+  REG : key='C' note='收礼夜在 12 月 5 日'
+  MD  : ans='C'
+  P8  : key='C'
+### Q14 [A2 · 单选] p2 verdict=MATCH
+  STEM: Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — 答案：A（surprise 是伪装起来的礼物）
+  REG : key='A' note='surprise 是伪装起来的礼物'
+  MD  : ans='A'
+  P8  : key='A'
+### Q15 [A2 · 单选] p2 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — 答案：B（圣诞老人新闻每天 18:00）
+  REG : key='B' note='圣诞老人新闻每天 18:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q16 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Kinderen zetten hun ___ bij de deur. — 答案：schoen（schoen = 鞋子） [填空]
+  REG : key='schoen' note='schoen = 鞋子'
+  MD  : ans='schoen'
+  P8  : key='schoen'
+### Q17 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: In de schoen zit een ___ voor het paard. — 答案：wortel（wortel = 胡萝卜） [填空]
+  REG : key='wortel' note='wortel = 胡萝卜'
+  MD  : ans='wortel'
+  P8  : key='wortel'
+### Q18 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Op het ___ staan drie wensen. — 答案：verlanglijstje（verlanglijstje = 愿望单） [填空]
+  REG : key='verlanglijstje' note='verlanglijstje = 愿望单'
+  MD  : ans='verlanglijstje'
+  P8  : key='verlanglijstje'
+### Q19 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Bij de surprise hoort een ___. — 答案：gedicht（gedicht = 诗） [填空]
+  REG : key='gedicht' note='gedicht = 诗'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q20 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Pakjesavond is op ___ december. — 答案：5（收礼夜在 12 月 5 日） [填空]
+  REG : key='5' note='收礼夜在 12 月 5 日'
+  MD  : ans='5'
+  P8  : key='5'
+### Q21 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Het paard van Sinterklaas heet ___. — 答案：Ozosnel（圣诞老人的马叫 Ozosnel） [填空]
+  REG : key='Ozosnel' note='圣诞老人的马叫 Ozosnel'
+  MD  : ans='Ozosnel'
+  P8  : key='Ozosnel'
+### Q22 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Van 16 november tot 5 december: ___ dagen. — 答案：19（11 月 16 日到 12 月 5 日是 19 天） [填空]
+  REG : key='19' note='11 月 16 日到 12 月 5 日是 19 天'
+  MD  : ans='19'
+  P8  : key='19'
+### Q23 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is om ___ uur. — 答案：18:00（圣诞老人新闻 18:00） [填空]
+  REG : key='18:00' note='圣诞老人新闻 18:00'
+  MD  : ans='18:00'
+  P8  : key='18:00'
+### Q24 [A2 · 完成句子] p2 verdict=MATCH
+  STEM: Pakjesavond is in ___. — 答案：december（收礼夜在 12 月） [填空]
+  REG : key='december' note='收礼夜在 12 月'
+  MD  : ans='december'
+  P8  : key='december'
+### Q25 [A2 · 词汇配对] p2 verdict=MATCH
+  STEM: None
+  REG : key='d' note='schoen=鞋子 d'
+  MD  : ans='d'
+  P8  : key='d'
+### Q26 [A2 · 词汇配对] p2 verdict=MATCH
+  STEM: None
+  REG : key='c' note='wortel=胡萝卜 c'
+  MD  : ans='c'
+  P8  : key='c'
+### Q27 [A2 · 词汇配对] p2 verdict=MATCH
+  STEM: None
+  REG : key='a' note='verlanglijstje=愿望单 a'
+  MD  : ans='a'
+  P8  : key='a'
+### Q28 [A2 · 词汇配对] p2 verdict=MATCH
+  STEM: None
+  REG : key='b' note='gedicht=诗 b'
+  MD  : ans='b'
+  P8  : key='b'
+### Q29 [A2 · 单选] p3 verdict=MATCH
+  STEM: De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — 答案：B（全国入城式在赫拉弗）
+  REG : key='B' note='全国入城式在赫拉弗'
+  MD  : ans='B'
+  P8  : key='B'
+### Q30 [A2 · 单选] p3 verdict=MATCH
+  STEM: De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — 答案：B（船 12:00 左右在 Maaskade 靠岸）
+  REG : key='B' note='船 12:00 左右在 Maaskade 靠岸'
+  MD  : ans='B'
+  P8  : key='B'
+### Q31 [A2 · 单选] p3 verdict=MATCH
+  STEM: De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — 答案：C（阿姆斯特丹的船 10:15 从 Omval 出发）
+  REG : key='C' note='阿姆斯特丹的船 10:15 从 Omval 出发'
+  MD  : ans='C'
+  P8  : key='C'
+### Q32 [A2 · 单选] p3 verdict=MATCH
+  STEM: De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — 答案：A（阿姆斯特丹入城式是第 88 届）
+  REG : key='A' note='阿姆斯特丹入城式是第 88 届'
+  MD  : ans='A'
+  P8  : key='A'
+### Q33 [A2 · 单选] p3 verdict=MATCH
+  STEM: Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — 答案：B（《晚餐》在图书馆免费领取）
+  REG : key='B' note='《晚餐》在图书馆免费领取'
+  MD  : ans='B'
+  P8  : key='B'
+### Q34 [A2 · 完成句子] p3 verdict=MATCH
+  STEM: Grave is een oude ___ aan de Maas. — 答案：vestingstad（vestingstad = 要塞城市） [填空]
+  REG : key='vestingstad' note='vestingstad = 要塞城市'
+  MD  : ans='vestingstad'
+  P8  : key='vestingstad'
+### Q35 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Burgemeester Moorman ___ Sinterklaas in Grave. — 答案：ontving（ontvangen 的过去时：ontving） [填空]
+  REG : key='ontving' note='ontvangen 的过去时：ontving'
+  MD  : ans='ontving'
+  P8  : key='ontving'
+### Q36 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Sinterklaas kreeg de ___ van de stad. — 答案：sleutel（sleutel = 钥匙） [填空]
+  REG : key='sleutel' note='sleutel = 钥匙'
+  MD  : ans='sleutel'
+  P8  : key='sleutel'
+### Q37 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Het was de 88e ___ van de Amsterdamse intocht. — 答案：editie（editie = 届） [填空]
+  REG : key='editie' note='editie = 届'
+  MD  : ans='editie'
+  P8  : key='editie'
+### Q38 [A2 · 完成句子] p3 verdict=MATCH
+  STEM: In de bibliotheek is er een ___ over Het diner. — 答案：leeskring（leeskring = 读书会） [填空]
+  REG : key='leeskring' note='leeskring = 读书会'
+  MD  : ans='leeskring'
+  P8  : key='leeskring'
+### Q39 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Sinterklaas ___ (aankomen) in Grave. — 答案：is aangekomen（aankomen 用 zijn：is aangekomen） [填空]
+  REG : key='is aangekomen' note='aankomen 用 zijn：is aangekomen'
+  MD  : ans='is aangekomen'
+  P8  : key='is aangekomen'
+### Q40 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: De burgemeester ___ (ontvangen) Sinterklaas. — 答案：heeft ontvangen（ontvangen 的 perfectum：heeft ontvangen） [填空]
+  REG : key='heeft ontvangen' note='ontvangen 的 perfectum：heeft ontvangen'
+  MD  : ans='heeft ontvangen'
+  P8  : key='heeft ontvangen'
+### Q41 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — 答案：is gevaren（varen 用 zijn：is gevaren） [填空]
+  REG : key='is gevaren' note='varen 用 zijn：is gevaren'
+  MD  : ans='is gevaren'
+  P8  : key='is gevaren'
+### Q42 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Veel mensen ___ (lezen) Het diner in november. — 答案：hebben gelezen（lezen 的 perfectum：hebben gelezen） [填空]
+  REG : key='hebben gelezen' note='lezen 的 perfectum：hebben gelezen'
+  MD  : ans='hebben gelezen'
+  P8  : key='hebben gelezen'
+### Q43 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Van zaterdag 14 tot zondag 15 november: ___ dag. — 答案：1（11 月 14 日到 15 日相隔 1 天） [填空]
+  REG : key='1' note='11 月 14 日到 15 日相隔 1 天'
+  MD  : ans='1'
+  P8  : key='1'
+### Q44 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — 答案：4（赫拉弗活动 12:00–16:00 共 4 小时） [填空]
+  REG : key='4' note='赫拉弗活动 12:00–16:00 共 4 小时'
+  MD  : ans='4'
+  P8  : key='4'
+### Q45 [B1 · 完成句子] p3 verdict=MATCH
+  STEM: Van 16 november tot 5 december: ___ dagen. — 答案：19（11 月 16 日到 12 月 5 日相隔 19 天） [填空]
+  REG : key='19' note='11 月 16 日到 12 月 5 日相隔 19 天'
+  MD  : ans='19'
+  P8  : key='19'
+### Q46 [B2 · 完成句子] p3 verdict=MATCH
+  STEM: Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — 答案：17（《晚餐》2009 年出版，到 2026 年 17 年） [填空]
+  REG : key='17' note='《晚餐》2009 年出版，到 2026 年 17 年'
+  MD  : ans='17'
+  P8  : key='17'
+### Q47 [B1 · 单选] p4 verdict=MATCH
+  STEM: Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — 答案：C（德国–荷兰周一在柏林）
+  REG : key='C' note='德国–荷兰周一在柏林'
+  MD  : ans='C'
+  P8  : key='C'
+### Q48 [B1 · 单选] p4 verdict=MATCH
+  STEM: Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — 答案：B（荷兰与希腊同积 8 分）
+  REG : key='B' note='荷兰与希腊同积 8 分'
+  MD  : ans='B'
+  P8  : key='B'
+### Q49 [B1 · 单选] p4 verdict=MATCH
+  STEM: Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — 答案：B（德国主场 0–1 输给了希腊）
+  REG : key='B' note='德国主场 0–1 输给了希腊'
+  MD  : ans='B'
+  P8  : key='B'
+### Q50 [B1 · 单选] p4 verdict=MATCH
+  STEM: Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — 答案：B（荷甲第 13 轮在 11 月 21–22 日）
+  REG : key='B' note='荷甲第 13 轮在 11 月 21–22 日'
+  MD  : ans='B'
+  P8  : key='B'
+### Q51 [B1 · 单选] p4 verdict=MATCH
+  STEM: PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — 答案：B（PSV 2–5 赢了 Cambuur）
+  REG : key='B' note='PSV 2–5 赢了 Cambuur'
+  MD  : ans='B'
+  P8  : key='B'
+### Q52 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Maandag valt de beslissing om de ___. — 答案：groepswinst（groepswinst = 小组头名） [填空]
+  REG : key='groepswinst' note='groepswinst = 小组头名'
+  MD  : ans='groepswinst'
+  P8  : key='groepswinst'
+### Q53 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: De nummers één en twee gaan naar de ___. — 答案：kwartfinales（kwartfinale 复数：kwartfinales） [填空]
+  REG : key='kwartfinales' note='kwartfinale 复数：kwartfinales'
+  MD  : ans='kwartfinales'
+  P8  : key='kwartfinales'
+### Q54 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Oranje is nog ___ na vier wedstrijden. — 答案：ongeslagen（ongeslagen = 未尝败绩） [填空]
+  REG : key='ongeslagen' note='ongeslagen = 未尝败绩'
+  MD  : ans='ongeslagen'
+  P8  : key='ongeslagen'
+### Q55 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Op de ___ staat Servië onderaan met 0 punten. — 答案：stand（stand = 积分榜） [填空]
+  REG : key='stand' note='stand = 积分榜'
+  MD  : ans='stand'
+  P8  : key='stand'
+### Q56 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Na maandag is er geen ___ meer tot maart. — 答案：interland（interland = 国家队比赛） [填空]
+  REG : key='interland' note='interland = 国家队比赛'
+  MD  : ans='interland'
+  P8  : key='interland'
+### Q57 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Oranje ___ (spelen) 1–1 tegen Duitsland. — 答案：speelde（spelen 过去时：speelde） [填空]
+  REG : key='speelde' note='spelen 过去时：speelde'
+  MD  : ans='speelde'
+  P8  : key='speelde'
+### Q58 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: PSV ___ (winnen) met 2–5 van Cambuur. — 答案：won（winnen 过去时：won） [填空]
+  REG : key='won' note='winnen 过去时：won'
+  MD  : ans='won'
+  P8  : key='won'
+### Q59 [B1 · 完成句子] p4 verdict=MATCH
+  STEM: Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — 答案：verloor（verliezen 过去时：verloor） [填空]
+  REG : key='verloor' note='verliezen 过去时：verloor'
+  MD  : ans='verloor'
+  P8  : key='verloor'
+### Q60 [B2 · 完成句子] p4 verdict=MATCH
+  STEM: Twente en Ajax ___ (spelen) 2–2 gelijk. — 答案：speelden（spelen 过去时复数：speelden） [填空]
+  REG : key='speelden' note='spelen 过去时复数：speelden'
+  MD  : ans='speelden'
+  P8  : key='speelden'
+### Q61 [B1 · 判断对错] p4 verdict=MATCH
+  STEM: Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — 答案：Waar（对：德国–荷兰周一 20:45） [判断]
+  REG : key='Waar' note='对：德国–荷兰周一 20:45'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q62 [B1 · 判断对错] p4 verdict=MATCH
+  STEM: Servië heeft 8 punten in groep 2. Waar of niet waar? — 答案：Niet waar（错：塞尔维亚 0 分垫底） [判断]
+  REG : key='Niet waar' note='错：塞尔维亚 0 分垫底'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q63 [B1 · 判断对错] p4 verdict=MATCH
+  STEM: PSV staat onderaan in de Eredivisie. Waar of niet waar? — 答案：Niet waar（错：PSV 26 分领跑荷甲） [判断]
+  REG : key='Niet waar' note='错：PSV 26 分领跑荷甲'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q64 [B1 · 判断对错] p4 verdict=MATCH
+  STEM: Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — 答案：Waar（对：海伦芬 5–3 赢费耶诺德） [判断]
+  REG : key='Waar' note='对：海伦芬 5–3 赢费耶诺德'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q65 [B1 · 单选] p5 verdict=MATCH
+  STEM: Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — 答案：B（Robinson 每周日 20:00 在 RTL 4 播出）
+  REG : key='B' note='Robinson 每周日 20:00 在 RTL 4 播出'
+  MD  : ans='B'
+  P8  : key='B'
+### Q66 [B1 · 单选] p5 verdict=MATCH
+  STEM: Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — 答案：A（19 位参赛者）
+  REG : key='A' note='19 位参赛者'
+  MD  : ans='A'
+  P8  : key='A'
+### Q67 [B1 · 单选] p5 verdict=MATCH
+  STEM: De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — 答案：C（节目在马来西亚的荒岛上拍摄）
+  REG : key='C' note='节目在马来西亚的荒岛上拍摄'
+  MD  : ans='C'
+  P8  : key='C'
+### Q68 [B1 · 单选] p5 verdict=MATCH
+  STEM: De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — 答案：B（参赛者在岛上待 34 天）
+  REG : key='B' note='参赛者在岛上待 34 天'
+  MD  : ans='B'
+  P8  : key='B'
+### Q69 [B1 · 单选] p5 verdict=MATCH
+  STEM: Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — 答案：A（surprise 里有诗）
+  REG : key='A' note='surprise 里有诗'
+  MD  : ans='A'
+  P8  : key='A'
+### Q70 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Ik maak een ___ voor mijn vriendin. — 答案：surprise（surprise = 伪装礼物（de）） [填空]
+  REG : key='surprise' note='surprise = 伪装礼物（de）'
+  MD  : ans='surprise'
+  P8  : key='surprise'
+### Q71 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Camille Vanuxem is de ___ van het programma. — 答案：verslaggever（verslaggever = 记者（de）） [填空]
+  REG : key='verslaggever' note='verslaggever = 记者（de）'
+  MD  : ans='verslaggever'
+  P8  : key='verslaggever'
+### Q72 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Wie een ___ verliest, kan naar huis gaan. — 答案：proef（proef = 比赛项目、考验（de）） [填空]
+  REG : key='proef' note='proef = 比赛项目、考验（de）'
+  MD  : ans='proef'
+  P8  : key='proef'
+### Q73 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: In vier regels schrijf ik een ___. — 答案：gedicht（gedicht = 诗（het）） [填空]
+  REG : key='gedicht' note='gedicht = 诗（het）'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q74 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Zondag is er een nieuwe ___ van Robinson. — 答案：aflevering（aflevering = （一）集） [填空]
+  REG : key='aflevering' note='aflevering = （一）集'
+  MD  : ans='aflevering'
+  P8  : key='aflevering'
+### Q75 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Er zijn 19 ___ op het eiland. — 答案：kandidaten（kandidaat 复数：kandidaten） [填空]
+  REG : key='kandidaten' note='kandidaat 复数：kandidaten'
+  MD  : ans='kandidaten'
+  P8  : key='kandidaten'
+### Q76 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Wie ___ (winnen) Expeditie Robinson, denk je? — 答案：gaat winnen（gaat winnen = 会赢（只是猜测）） [填空]
+  REG : key='gaat winnen' note='gaat winnen = 会赢（只是猜测）'
+  MD  : ans='gaat winnen'
+  P8  : key='gaat winnen'
+### Q77 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Wij ___ (kijken) zondag naar de nieuwe aflevering. — 答案：gaan kijken（wij → gaan + 不定式 kijken） [填空]
+  REG : key='gaan kijken' note='wij → gaan + 不定式 kijken'
+  MD  : ans='gaan kijken'
+  P8  : key='gaan kijken'
+### Q78 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: Zij ___ (maken) zondag een surprise voor pakjesavond. — 答案：gaat maken（zij → gaat maken） [填空]
+  REG : key='gaat maken' note='zij → gaat maken'
+  MD  : ans='gaat maken'
+  P8  : key='gaat maken'
+### Q79 [B1 · 完成句子] p5 verdict=MATCH
+  STEM: De kinderen ___ (schrijven) een gedicht van vier regels. — 答案：gaan schrijven（zij (复数) → gaan schrijven） [填空]
+  REG : key='gaan schrijven' note='zij (复数) → gaan schrijven'
+  MD  : ans='gaan schrijven'
+  P8  : key='gaan schrijven'
+### Q80 [B1 · 判断对错] p5 verdict=MATCH
+  STEM: Expeditie Robinson begon op 1 november. Waar of niet waar? — 答案：Waar（对：节目 11 月 1 日开始） [判断]
+  REG : key='Waar' note='对：节目 11 月 1 日开始'
+  MD  : ans='Waar'
+  P8  : key='Waar'
+### Q81 [B1 · 判断对错] p5 verdict=MATCH
+  STEM: Expeditie Robinson speelt in Spanje. Waar of niet waar? — 答案：Niet waar（错：节目在马来西亚拍摄） [判断]
+  REG : key='Niet waar' note='错：节目在马来西亚拍摄'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q82 [B2 · 判断对错] p5 verdict=MATCH
+  STEM: Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — 答案：Niet waar（错：四行诗就够了） [判断]
+  REG : key='Niet waar' note='错：四行诗就够了'
+  MD  : ans='Niet waar'
+  P8  : key='Niet waar'
+### Q83 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — 答案：35（35 名年轻人放胡萝卜和图画） [填空]
+  REG : key='35' note='35 名年轻人放胡萝卜和图画'
+  MD  : ans='35'
+  P8  : key='35'
+### Q84 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: ___ jongeren zetten een verlanglijstje in hun schoen. — 答案：30（30 人放愿望单） [填空]
+  REG : key='30' note='30 人放愿望单'
+  MD  : ans='30'
+  P8  : key='30'
+### Q85 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: Wortel en verlanglijstje samen: ___ jongeren. — 答案：65（35 + 30 = 65） [填空]
+  REG : key='65' note='35 + 30 = 65'
+  MD  : ans='65'
+  P8  : key='65'
+### Q86 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: ___ jongeren zetten nog niets in hun schoen. — 答案：15（15 人什么都没放） [填空]
+  REG : key='15' note='15 人什么都没放'
+  MD  : ans='15'
+  P8  : key='15'
+### Q87 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: De grafiek telt in totaal ___ jongeren. — 答案：100（图表共 100 人：35+30+20+15） [填空]
+  REG : key='100' note='图表共 100 人：35+30+20+15'
+  MD  : ans='100'
+  P8  : key='100'
+### Q88 [B2 · 单选] p6 verdict=MATCH
+  STEM: Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — 答案：B（以前鞋里放图画，现在常放愿望单）
+  REG : key='B' note='以前鞋里放图画，现在常放愿望单'
+  MD  : ans='B'
+  P8  : key='B'
+### Q89 [B2 · 单选] p6 verdict=MATCH
+  STEM: Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — 答案：B（surprise 是藏在古怪包装里的礼物）
+  REG : key='B' note='surprise 是藏在古怪包装里的礼物'
+  MD  : ans='B'
+  P8  : key='B'
+### Q90 [B2 · 单选] p6 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — 答案：C（圣诞老人新闻每天 18:00）
+  REG : key='C' note='圣诞老人新闻每天 18:00'
+  MD  : ans='C'
+  P8  : key='C'
+### Q91 [B2 · 单选] p6 verdict=MATCH
+  STEM: Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — 答案：A（传统靠人们继续庆祝而活着）
+  REG : key='A' note='传统靠人们继续庆祝而活着'
+  MD  : ans='A'
+  P8  : key='A'
+### Q92 [B2 · 单选] p6 verdict=MATCH
+  STEM: Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — 答案：B（圣马丁节在上周三）
+  REG : key='B' note='圣马丁节在上周三'
+  MD  : ans='B'
+  P8  : key='B'
+### Q93 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: Op het ___ staan drie wensen. — 答案：verlanglijstje（verlanglijstje = 愿望单（het）） [填空]
+  REG : key='verlanglijstje' note='verlanglijstje = 愿望单（het）'
+  MD  : ans='verlanglijstje'
+  P8  : key='verlanglijstje'
+### Q94 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: Het cadeau zit verstopt in een ___. — 答案：surprise（surprise = 伪装礼物（de）） [填空]
+  REG : key='surprise' note='surprise = 伪装礼物（de）'
+  MD  : ans='surprise'
+  P8  : key='surprise'
+### Q95 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: Bij het cadeau hoort een ___ van vier regels. — 答案：gedicht（gedicht = 诗（het）） [填空]
+  REG : key='gedicht' note='gedicht = 诗（het）'
+  MD  : ans='gedicht'
+  P8  : key='gedicht'
+### Q96 [B2 · 完成句子] p6 verdict=MATCH
+  STEM: Het feest ___ elk jaar een beetje. — 答案：verandert（veranderen → verandert（单数）） [填空]
+  REG : key='verandert' note='veranderen → verandert（单数）'
+  MD  : ans='verandert'
+  P8  : key='verandert'
+### Q97 [B2 · 造句] p6 verdict=MATCH
+  STEM: sinterklaas / is / een oud feest / in nederland → ___ — 答案：Sinterklaas is een oud feest in Nederland.（主语 + 动词 + 表语 + 地点） [造句]
+  REG : key='Sinterklaas is een oud feest in Nederland.' note='主语 + 动词 + 表语 + 地点'
+  MD  : ans='Sinterklaas is een oud feest in Nederland.'
+  P8  : key='Sinterklaas is een oud feest in Nederland.'
+### Q98 [B2 · 造句] p6 verdict=MATCH
+  STEM: de kinderen / zetten / hun schoen / bij de deur → ___ — 答案：De kinderen zetten hun schoen bij de deur.（主语 + 动词 + 宾语 + 地点） [造句]
+  REG : key='De kinderen zetten hun schoen bij de deur.' note='主语 + 动词 + 宾语 + 地点'
+  MD  : ans='De kinderen zetten hun schoen bij de deur.'
+  P8  : key='De kinderen zetten hun schoen bij de deur.'
+### Q99 [B2 · 造句] p6 verdict=MATCH
+  STEM: een traditie / leeft / als mensen haar blijven vieren → ___ — 答案：Een traditie leeft als mensen haar blijven vieren.（als 从句在句末） [造句]
+  REG : key='Een traditie leeft als mensen haar blijven vieren.' note='als 从句在句末'
+  MD  : ans='Een traditie leeft als mensen haar blijven vieren.'
+  P8  : key='Een traditie leeft als mensen haar blijven vieren.'
+### Q100 [B2 · 造句] p6 verdict=MATCH
+  STEM: het feest / verandert / maar het verdwijnt niet → ___ — 答案：Het feest verandert, maar het verdwijnt niet.（veranderen + maar + 否定） [造句]
+  REG : key='Het feest verandert, maar het verdwijnt niet.' note='veranderen + maar + 否定'
+  MD  : ans='Het feest verandert, maar het verdwijnt niet.'
+  P8  : key='Het feest verandert, maar het verdwijnt niet.'
+### Q101 [A2 · 完成句子] p7 verdict=MATCH
+  STEM: Duitsland – Nederland is een belangrijke ___. — 答案：wedstrijd（de wedstrijd = 比赛） [填空]
+  REG : key='wedstrijd' note='de wedstrijd = 比赛'
+  MD  : ans='wedstrijd'
+  P8  : key='wedstrijd'
+### Q102 [A2 · 完成句子] p7 verdict=MATCH
+  STEM: Wie pakt de ___ in groep 2? — 答案：groepswinst（de groepswinst = 小组头名） [填空]
+  REG : key='groepswinst' note='de groepswinst = 小组头名'
+  MD  : ans='groepswinst'
+  P8  : key='groepswinst'
+### Q103 [A2 · 单选] p7 verdict=MATCH
+  STEM: «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — 答案：B（小组头名指小组第一）
+  REG : key='B' note='小组头名指小组第一'
+  MD  : ans='B'
+  P8  : key='B'
+### Q104 [A2 · 完成句子] p7 verdict=MATCH
+  STEM: Nederland ___ (scoren) 7 keer in vier wedstrijden. — 答案：scoorde（scoren 的过去时：scoorde） [填空]
+  REG : key='scoorde' note='scoren 的过去时：scoorde'
+  MD  : ans='scoorde'
+  P8  : key='scoorde'
+### Q105 [B1 · 完成句子] p7 verdict=MATCH
+  STEM: PSV ___ (winnen) met 2–5 van Cambuur. — 答案：won（winnen 过去时：won） [填空]
+  REG : key='won' note='winnen 过去时：won'
+  MD  : ans='won'
+  P8  : key='won'
+### Q106 [B1 · 完成句子] p7 verdict=MATCH
+  STEM: Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — 答案：verloor（verliezen 过去时：verloor） [填空]
+  REG : key='verloor' note='verliezen 过去时：verloor'
+  MD  : ans='verloor'
+  P8  : key='verloor'
+### Q107 [B1 · 完成句子] p7 verdict=MATCH
+  STEM: Ajax ___ (spelen) 2–2 tegen Twente. — 答案：speelde（spelen 过去时：speelde） [填空]
+  REG : key='speelde' note='spelen 过去时：speelde'
+  MD  : ans='speelde'
+  P8  : key='speelde'
+### Q108 [B1 · 单选] p7 verdict=MATCH
+  STEM: «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — 答案：B（won 是 winnen 的过去时）
+  REG : key='B' note='won 是 winnen 的过去时'
+  MD  : ans='B'
+  P8  : key='B'
+### Q109 [B2 · 完成句子] p7 verdict=MATCH
+  STEM: Oranje staat bovenaan, ___ het meer doelpunten maakte. — 答案：omdat（omdat = 因为） [填空]
+  REG : key='omdat' note='omdat = 因为'
+  MD  : ans='omdat'
+  P8  : key='omdat'
+### Q110 [B2 · 单选] p7 verdict=MATCH
+  STEM: «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — 答案：B（omdat 从句表原因，不是疑问）
+  REG : key='B' note='omdat 从句表原因，不是疑问'
+  MD  : ans='B'
+  P8  : key='B'
+### Q111 [B2 · 完成句子] p7 verdict=MATCH
+  STEM: Ik zet mijn schoen, omdat ik een cadeautje ___. — 答案：wil（动词在 omdat 从句末尾：wil） [填空]
+  REG : key='wil' note='动词在 omdat 从句末尾：wil'
+  MD  : ans='wil'
+  P8  : key='wil'
+### Q112 [B2 · 完成句子] p7 verdict=MATCH
+  STEM: Oranje staat bovenaan, omdat het meer doelpunten ___. — 答案：maakte（omdat 从句：maakte 在句末） [填空]
+  REG : key='maakte' note='omdat 从句：maakte 在句末'
+  MD  : ans='maakte'
+  P8  : key='maakte'
+### Q113 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — 答案：B（德国–荷兰周一在柏林）
+  REG : key='B' note='德国–荷兰周一在柏林'
+  MD  : ans='B'
+  P8  : key='B'
+### Q114 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — 答案：B（荷兰与希腊同积 8 分）
+  REG : key='B' note='荷兰与希腊同积 8 分'
+  MD  : ans='B'
+  P8  : key='B'
+### Q115 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — 答案：A（荷兰进球 7 个）
+  REG : key='A' note='荷兰进球 7 个'
+  MD  : ans='A'
+  P8  : key='A'
+### Q116 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Pakjesavond is op ___ december. (A. november · B. december) — 答案：B（收礼夜在 12 月）
+  REG : key='B' note='收礼夜在 12 月'
+  MD  : ans='B'
+  P8  : key='B'
+### Q117 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — 答案：B（圣诞老人新闻 18:00）
+  REG : key='B' note='圣诞老人新闻 18:00'
+  MD  : ans='B'
+  P8  : key='B'
+### Q118 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — 答案：B（Robinson 在 RTL 4）
+  REG : key='B' note='Robinson 在 RTL 4'
+  MD  : ans='B'
+  P8  : key='B'
+### Q119 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: Bij een surprise hoort een ___. (A. liedje · B. gedicht) — 答案：B（surprise 里有诗）
+  REG : key='B' note='surprise 里有诗'
+  MD  : ans='B'
+  P8  : key='B'
+### Q120 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — 答案：B（groepswinst = 小组头名）
+  REG : key='B' note='groepswinst = 小组头名'
+  MD  : ans='B'
+  P8  : key='B'
+### Q121 [A2 · 单选] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — 答案：A（圣诞老人新闻每天 18:00 播出）
+  REG : key='A' note='圣诞老人新闻每天 18:00 播出'
+  MD  : ans='A'
+  P8  : key='A'
+### Q122 [A2 · 单选] p8 verdict=MATCH
+  STEM: Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — 答案：B（赫拉弗在马斯河畔）
+  REG : key='B' note='赫拉弗在马斯河畔'
+  MD  : ans='B'
+  P8  : key='B'
+### Q123 [A2 · 单选] p8 verdict=MATCH
+  STEM: De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — 答案：B（阿姆斯特丹入城式是第 88 届）
+  REG : key='B' note='阿姆斯特丹入城式是第 88 届'
+  MD  : ans='B'
+  P8  : key='B'
+### Q124 [B1 · 单选] p8 verdict=MATCH
+  STEM: Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — 答案：A（《晚餐》2009 年出版）
+  REG : key='A' note='《晚餐》2009 年出版'
+  MD  : ans='A'
+  P8  : key='A'
+### Q125 [B1 · 单选] p8 verdict=MATCH
+  STEM: Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — 答案：B（德国主场 0–1 输给希腊）
+  REG : key='B' note='德国主场 0–1 输给希腊'
+  MD  : ans='B'
+  P8  : key='B'
+### Q126 [B1 · 单选] p8 verdict=MATCH
+  STEM: PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — 答案：B（PSV 以 26 分领跑荷甲）
+  REG : key='B' note='PSV 以 26 分领跑荷甲'
+  MD  : ans='B'
+  P8  : key='B'
+### Q127 [B2 · 单选] p8 verdict=MATCH
+  STEM: Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — 答案：B（传统靠人们继续庆祝而活着）
+  REG : key='B' note='传统靠人们继续庆祝而活着'
+  MD  : ans='B'
+  P8  : key='B'
+### Q128 [B1 · 单选] p8 verdict=MATCH
+  STEM: Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — 答案：C（荷甲第 13 轮在 11 月 21–22 日）
+  REG : key='C' note='荷甲第 13 轮在 11 月 21–22 日'
+  MD  : ans='C'
+  P8  : key='C'
+### Q129 [A2 · 单选] p8 verdict=MATCH
+  STEM: Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — 答案：B（Daan 住在鹿特丹）
+  REG : key='B' note='Daan 住在鹿特丹'
+  MD  : ans='B'
+  P8  : key='B'
+### Q130 [A2 · 单选] p8 verdict=MATCH
+  STEM: Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — 答案：B（他周一看德国–荷兰）
+  REG : key='B' note='他周一看德国–荷兰'
+  MD  : ans='B'
+  P8  : key='B'
+### Q131 [A2 · 单选] p8 verdict=MATCH
+  STEM: Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — 答案：B（他鞋里放胡萝卜和愿望单）
+  REG : key='B' note='他鞋里放胡萝卜和愿望单'
+  MD  : ans='B'
+  P8  : key='B'
+### Q132 [B1 · 单选] p8 verdict=MATCH
+  STEM: Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — 答案：B（他每天 18:00 看圣诞老人新闻）
+  REG : key='B' note='他每天 18:00 看圣诞老人新闻'
+  MD  : ans='B'
+  P8  : key='B'
+### Q133 [A2 · 造句] p8 verdict=MATCH
+  STEM: het sinterklaasjournaal / begint / om 18:00 uur → ___ — 答案：Het Sinterklaasjournaal begint om 18:00 uur.（主语 + 动词 + 时间） [造句]
+  REG : key='Het Sinterklaasjournaal begint om 18:00 uur.' note='主语 + 动词 + 时间'
+  MD  : ans='Het Sinterklaasjournaal begint om 18:00 uur.'
+  P8  : key='Het Sinterklaasjournaal begint om 18:00 uur.'
+### Q134 [B1 · 造句] p8 verdict=MATCH
+  STEM: wij / zetten / onze schoen / bij de deur → ___ — 答案：Wij zetten onze schoen bij de deur.（主语 + 动词 + 宾语 + 地点） [造句]
+  REG : key='Wij zetten onze schoen bij de deur.' note='主语 + 动词 + 宾语 + 地点'
+  MD  : ans='Wij zetten onze schoen bij de deur.'
+  P8  : key='Wij zetten onze schoen bij de deur.'
+### Q135 [B1 · 造句] p8 verdict=MATCH
+  STEM: oranje / speelt / maandag / in berlijn → ___ — 答案：Oranje speelt maandag in Berlijn.（主语 + 动词 + 时间 + 地点） [造句]
+  REG : key='Oranje speelt maandag in Berlijn.' note='主语 + 动词 + 时间 + 地点'
+  MD  : ans='Oranje speelt maandag in Berlijn.'
+  P8  : key='Oranje speelt maandag in Berlijn.'
+### Q136 [B1 · 造句] p8 verdict=MATCH
+  STEM: ik / zet / mijn schoen / met een wortel → ___ — 答案：Ik zet mijn schoen met een wortel.（主语 + 动词 + 宾语 + 方式） [造句]
+  REG : key='Ik zet mijn schoen met een wortel.' note='主语 + 动词 + 宾语 + 方式'
+  MD  : ans='Ik zet mijn schoen met een wortel.'
+  P8  : key='Ik zet mijn schoen met een wortel.'
+### Q137 [A2 · 翻译] p8 verdict=MATCH
+  STEM: Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — 答案：圣诞老人新闻每天 18:00 播出。（对照第 3 版文章） [翻译]
+  REG : key='圣诞老人新闻每天 18:00 播出。' note='对照第 3 版文章'
+  MD  : ans='圣诞老人新闻每天 18:00 播出。'
+  P8  : key='圣诞老人新闻每天 18:00 播出。'
+### Q138 [B1 · 翻译] p8 verdict=MATCH
+  STEM: De nummers één en twee gaan naar de kwartfinales. → ___ — 答案：前两名晋级四分之一决赛。（第 4 版原句 · kwartfinale 四分之一决赛） [翻译]
+  REG : key='前两名晋级四分之一决赛。' note='第 4 版原句 · kwartfinale 四分之一决赛'
+  MD  : ans='前两名晋级四分之一决赛。'
+  P8  : key='前两名晋级四分之一决赛。'
+### Q139 [B1 · 翻译] p8 verdict=MATCH
+  STEM: 阿姆斯特丹的入城式是第 88 届。→ ___ — 答案：De intocht in Amsterdam was de 88e editie.（注意序数词 88e） [翻译]
+  REG : key='De intocht in Amsterdam was de 88e editie.' note='注意序数词 88e'
+  MD  : ans='De intocht in Amsterdam was de 88e editie.'
+  P8  : key='De intocht in Amsterdam was de 88e editie.'
+### Q140 [B2 · 翻译] p8 verdict=MATCH
+  STEM: 我做一个带小诗的伪装礼物。→ ___ — 答案：Ik maak een surprise met een kort gedicht.（surprise 是固定搭配） [翻译]
+  REG : key='Ik maak een surprise met een kort gedicht.' note='surprise 是固定搭配'
+  MD  : ans='Ik maak een surprise met een kort gedicht.'
+  P8  : key='Ik maak een surprise met een kort gedicht.'
+### Q141 [B2 · 词汇配对] p8 verdict=MATCH
+  STEM: None
+  REG : key='b' note='journaal=新闻节目 b'
+  MD  : ans='b'
+  P8  : key='b'
+### Q142 [B2 · 词汇配对] p8 verdict=MATCH
+  STEM: None
+  REG : key='c' note='groepswinst=小组头名 c'
+  MD  : ans='c'
+  P8  : key='c'
+### Q143 [B2 · 词汇配对] p8 verdict=MATCH
+  STEM: None
+  REG : key='d' note='schoen=鞋子 d'
+  MD  : ans='d'
+  P8  : key='d'
+### Q144 [B2 · 词汇配对] p8 verdict=MATCH
+  STEM: None
+  REG : key='a' note='gedicht=诗 a'
+  MD  : ans='a'
+  P8  : key='a'
+### Q145 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: — Mama, waar moet mijn ___? (A. schoen · B. boek) — 答案：A（schoen = 鞋）
+  REG : key='A' note='schoen = 鞋'
+  MD  : ans='A'
+  P8  : key='A'
+### Q146 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — 答案：A（wortel = 胡萝卜（给马））
+  REG : key='A' note='wortel = 胡萝卜（给马）'
+  MD  : ans='A'
+  P8  : key='A'
+### Q147 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: — En mijn ___ erin? (A. verlanglijstje · B. journaal) — 答案：A（verlanglijstje = 愿望单）
+  REG : key='A' note='verlanglijstje = 愿望单'
+  MD  : ans='A'
+  P8  : key='A'
+### Q148 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — 答案：B（cadeautje = 小礼物）
+  REG : key='B' note='cadeautje = 小礼物'
+  MD  : ans='B'
+  P8  : key='B'
+### Q149 [B1 · 完形单选] p8 verdict=MATCH
+  STEM: — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — 答案：A（18:00 = 圣诞老人新闻时间）
+  REG : key='A' note='18:00 = 圣诞老人新闻时间'
+  MD  : ans='A'
+  P8  : key='A'
+### Q150 [B1 · 写作] p8 verdict=EXCEPTION-OPEN-WRITING
+  STEM: «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — 答案：（开放题，范文如下） [写作]
+  REG : key='（开放题，范文如下）' note='范文见本版 H 区（81 词）'
+  MD  : ans=None
+  P8  : key='✓'

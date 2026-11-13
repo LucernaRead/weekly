@@ -1,0 +1,51 @@
+#2 tsize=22 w=434.4 ink_r=994.9 margin=-33.9
+#2 tsize=21 w=414.6 ink_r=975.1 margin=-14.1
+#2 tsize=20 w=394.8 ink_r=955.3 margin=5.7
+#2 tsize=19.5 w=385.0 ink_r=945.5 margin=15.5
+#2 tsize=19 w=375.1 ink_r=935.6 margin=25.4
+#2b drop-V tsize=22 w=414.4 ink_r=974.9 margin=-13.9
+#2b drop-V tsize=21 w=395.6 ink_r=956.1 margin=4.9
+#2b drop-V tsize=20 w=376.7 ink_r=937.2 margin=23.8
+#3 tsize=24 w=403.6 ink_r=1865.1 margin=-3.1
+#3 tsize=23 w=386.9 ink_r=1848.4 margin=13.6
+#3 tsize=22 w=370.0 ink_r=1831.5 margin=30.5
+#3b drop-dot tsize=24 w=397.1 ink_r=1858.6 margin=3.4
+#3b drop-dot tsize=23 w=380.7 ink_r=1842.2 margin=19.8
+#4 tsize=19.5 w=428.5 ink_r=989.0 margin=-28.0
+#4 tsize=19 w=417.5 ink_r=978.0 margin=-17.0
+#4 tsize=18.5 w=406.4 ink_r=966.9 margin=-5.9
+#4 tsize=18 w=395.5 ink_r=956.0 margin=5.0
+#4 tsize=17.5 w=384.6 ink_r=945.1 margin=15.9
+#4 tsize=17 w=373.5 ink_r=934.0 margin=27.0
+#4b ZAPOMNI tsize=19.5 w=406.2 margin=-5.7
+#4b ZAPOMNI tsize=18 w=375.0 margin=25.5
+#5 size=21 w=417.5 ink_r=1879.0 margin=-17.0
+#5 size=20.5 w=407.6 ink_r=1869.1 margin=-7.1
+#5 size=20 w=397.7 ink_r=1859.2 margin=2.8
+#5 size=19.5 w=387.7 ink_r=1849.2 margin=12.8
+#5 size=19 w=377.8 ink_r=1839.2 margin=22.8
+#1 orig: nlines=4
+   | Пример от редакции, а не настоящее
+   | письмо. Писем и лучших сочинений
+   | нет; обещание переносится на
+   | VOL.5.
+#1 drop-luchshikh: nlines=3
+   | Пример от редакции, а не настоящее
+   | письмо. Писем и сочинений нет;
+   | обещание переносится на VOL.5.
+#1 drop-nastoyashchee: nlines=3
+   | Пример от редакции, а не письмо.
+   | Писем и лучших сочинений нет;
+   | обещание переносится на VOL.5.
+#1 drop-i-luchshikh-sochinenii: nlines=3
+   | Пример от редакции, а не настоящее
+   | письмо. Писем нет; обещание
+   | переносится на VOL.5.
+#1 drop-a-ne-nastoyashchee-pismo: nlines=3
+   | Пример от редакции. Писем и
+   | лучших сочинений нет; обещание
+   | переносится на VOL.5.
+#1 drop-luchshikh+nast: nlines=3
+   | Пример от редакции, а не письмо.
+   | Писем и сочинений нет; обещание
+   | переносится на VOL.5.

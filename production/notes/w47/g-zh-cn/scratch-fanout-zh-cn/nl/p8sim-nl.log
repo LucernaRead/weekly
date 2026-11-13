@@ -1,0 +1,75 @@
+  flow[P1-headline] ended col 2/2 y=1051 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=459 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-feature] ended col 1/2 y=595 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2113 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=804 (bottom 1180)
+P4 col3 ends 1171.4499999999998
+  !! HEAD TOO WIDE [P4-ex]: C　读赛程　Werken met het programma
+  flow[P4-ex] ended col 2/3 y=2113 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-feature] ended col 1/2 y=828 (bottom 1560)
+P5 col3 ends 1220.9499999999998
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 1/2 y=1119 (bottom 1180)
+P6 col3 ends 1127.0
+  flow[P6-ex] ended col 2/3 y=2053 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-a2] ended col 0/0 y=1180 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1241 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1281 (bottom 1560)
+P7 col3 ends 1702.02
+P7 image ends 1915.8200000000002
+P7 teaser ends 2641.82
+P7 saved, exercises so far: 112
+  !! HEAD TOO WIDE [P8-ex]: D　读一读，答一答　Lezen en antwoorden
+  flow[P8-ex] ended col 3/3 y=965 (bottom 1300)
+P8 test flow ends col/y: 3 964.8
+P8 image ends 1270.6
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2537 need 29 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2589 need 29 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2589 need 29 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2589 need 44 bottom 2560
+  flow[P8-keys] ended col 3/3 y=2604 (bottom 2560)
+P8 keys flow ends col/y: 3 2604.2
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 138
+  2L Q13: '13. B — Prijsbescherming gaat niet vanzelf: lees de regels en vraag hem aan.'  note='Prijsbescherming gaat niet vanzelf: lees de regels en vraag hem aan.'
+  2L Q14: '14. B — Open het pakket en controleer het voordat je de ontvangst bevestigt.'  note='Open het pakket en controleer het voordat je de ontvangst bevestigt.'
+  2L Q18: '18. 申请 — shēnqǐng — prijsbescherming gaat niet vanzelf; vraag hem aan.'  note='shēnqǐng — prijsbescherming gaat niet vanzelf; vraag hem aan.'
+  2L Q20: "20. 20 — Hunan SF Express voegde zo'n 20 % personeel en capaciteit toe."  note="Hunan SF Express voegde zo'n 20 % personeel en capaciteit toe."
+  2L Q68: '68. A — 《白衣逆行者》 werd vóór de première van 6 nov. teruggetrokken.'  note='《白衣逆行者》 werd vóór de première van 6 nov. teruggetrokken.'
+  2L Q73: '73. 真实 — zhēnshí — 《白衣逆行者》 is gebaseerd op echte gebeurtenissen.'  note='zhēnshí — 《白衣逆行者》 is gebaseerd op echte gebeurtenissen.'
+  2L Q87: '87. B — Open het pakket en controleer het voordat je de ontvangst bevestigt.'  note='Open het pakket en controleer het voordat je de ontvangst bevestigt.'
+  2L Q95: '95. 一天 — Eén balk is een totaal over 22 dagen, de andere een dagpiek.'  note='Eén balk is een totaal over 22 dagen, de andere een dagpiek.'
+  2L Q109: '109. A — 「139.38亿件」 is een definitieve telling van de postdienst, al geteld.'  note='「139.38亿件」 is een definitieve telling van de postdienst, al geteld.'
+  2L Q118: '118. B — 《试探》 gaat in première op 21 nov. 2026; het is een nieuwe film.'  note='《试探》 gaat in première op 21 nov. 2026; het is een nieuwe film.'
+  2L Q150: '150. ✓ Open opdracht — het modelantwoord staat hierboven in sectie F (138 tekens)'  note='Open opdracht — het modelantwoord staat hierboven in sectie F (138 tekens)'
+  OVERFLOW Q147 (1L) p8 完形单选 h=28.7 at y=2537.2
+  OVERFLOW Q148 (1L) p8 完形单选 h=28.7 at y=2588.7
+  OVERFLOW Q149 (1L) p8 完形单选 h=28.7 at y=2588.7
+  OVERFLOW Q150 (2L) p8 写作 h=44.2 at y=2588.7
+keys flow ends col 3 y=2604.2 (bottom 2560)
+overflow paras: 4
+total paras: 158  total height: 4724.7  capacity: 4704
+--- 2+ line keys ---
+  Q 13 (2L) p2 单选 h=44.2
+  Q 14 (2L) p2 单选 h=44.2
+  Q 18 (2L) p2 完成句子 h=44.2
+  Q 20 (2L) p2 完成句子 h=44.2
+  Q 68 (2L) p5 单选 h=44.2
+  Q 73 (2L) p5 完成句子 h=44.2
+  Q 87 (2L) p6 单选 h=44.2
+  Q 95 (2L) p6 完成句子 h=44.2
+  Q109 (2L) p7 单选 h=44.2
+  Q118 (2L) p8 完形单选 h=44.2
+  Q150 (2L) p8 写作 h=44.2

@@ -1,0 +1,34 @@
+visible runs: [('ЕЖЕНЕДЕЛЬНАЯ', (0, 6, 126, 21)), ('ГАЗЕТА', (0, 6, 55, 18)), ('ДЛЯ', (0, 6, 33, 21)), ('ИЗУЧАЮЩИХ', (0, 6, 109, 21)), ('РУССКИЙ', (0, 2, 74, 18)), ('ЯЗЫК', (0, 6, 43, 18)), ('—  ', (0, 14, 14, 19)), ('НАСТОЯЩАЯ', (0, 6, 101, 21)), ('РОССИЯ', (0, 6, 65, 18)), (',  ', (0, 16, 4, 23)), ('ПО', (0, 6, 24, 18)), ('-', (0, 14, 6, 19)), ('РУССКИ', (0, 6, 62, 18))]
+Method 1 (PIL ink-box, trailing spaces stripped — 9 space gaps):
+  ЕЖЕНЕДЕЛЬНАЯ / ГАЗЕТА     gap=7.20 OK
+  ГАЗЕТА       / ДЛЯ        gap=5.90 OK
+  ДЛЯ          / ИЗУЧАЮЩИХ  gap=6.80 OK
+  ИЗУЧАЮЩИХ    / РУССКИЙ    gap=6.30 OK
+  РУССКИЙ      / ЯЗЫК       gap=7.10 OK
+  ЯЗЫК         / —          gap=7.40 OK
+  —            / НАСТОЯЩАЯ  gap=7.40 OK
+  НАСТОЯЩАЯ    / РОССИЯ     gap=6.80 OK
+  РОССИЯ       / ,          (attached punctuation, not a word gap)
+  ,            / ПО         gap=7.60 OK
+  ПО           / -          (attached punctuation, not a word gap)
+  -            / РУССКИ     (attached punctuation, not a word gap)
+  worst of 9: 5.90
+Method 2 (rendered PNG, band y357-374):
+  ЕЖЕНЕДЕЛЬНАЯ / ГАЗЕТА     thr<128 strict-channel=7px
+  ЕЖЕНЕДЕЛЬНАЯ / ГАЗЕТА     thr<200 strict-channel=7px
+  ГАЗЕТА       / ДЛЯ        thr<128 strict-channel=4px
+  ГАЗЕТА       / ДЛЯ        thr<200 strict-channel=3px
+  ДЛЯ          / ИЗУЧАЮЩИХ  thr<128 strict-channel=7px
+  ДЛЯ          / ИЗУЧАЮЩИХ  thr<200 strict-channel=7px
+  ИЗУЧАЮЩИХ    / РУССКИЙ    thr<128 strict-channel=5px
+  ИЗУЧАЮЩИХ    / РУССКИЙ    thr<200 strict-channel=4px
+  РУССКИЙ      / ЯЗЫК       thr<128 strict-channel=7px
+  РУССКИЙ      / ЯЗЫК       thr<200 strict-channel=6px
+  ЯЗЫК         / —          thr<128 strict-channel=7px
+  ЯЗЫК         / —          thr<200 strict-channel=7px
+  —            / НАСТОЯЩАЯ  thr<128 strict-channel=7px
+  —            / НАСТОЯЩАЯ  thr<200 strict-channel=7px
+  НАСТОЯЩАЯ    / РОССИЯ     thr<128 strict-channel=7px
+  НАСТОЯЩАЯ    / РОССИЯ     thr<200 strict-channel=7px
+  ,            / ПО         thr<128 strict-channel=8px
+  ,            / ПО         thr<200 strict-channel=8px

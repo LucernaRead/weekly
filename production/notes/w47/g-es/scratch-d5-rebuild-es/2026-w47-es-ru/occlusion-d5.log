@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+./svg: 3 flags {'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}
+  [FOOTER] p7-lengua.svg 'El domingo 29, España vota: los resultados, el Black Friday ' — ink bottom 2601.8 below footer rule 2596 (baseline 2596.5099999999998)
+  [LINEX] p7-lengua.svg 'El domingo 29, España vota: los resultados, el Black Friday ' — later line box [87.4, 2595.4, 1862.6, 2596.6] crosses ink
+  [TEXTX] p8-ejercicios.svg 'Commons)' — ink overlaps 'К каждому ответу — короткое пояснение' by 79.2x9.4px

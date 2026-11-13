@@ -1,0 +1,324 @@
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　매주 발행　스페인이 읽는 스페인어", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 330, "스페인어 주간지　VOL.4　LA CAMPAÑA　LA LIGA　EL FLAMENCO", 36, "serif", True, OLIVE, anchor="middle", spacing=8)
+p.text(975, 614, "스페인어 텍스트　한국어 해설 — 한국어 독자를 위한 판", 16, "sans", False, GREY, anchor="middle")
+p.text(RIGHT - 30, 524, "선거운동 첫 주　선거까지 13일", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "이번 호 헤드라인　2, 6면 참조", 18, "sans", False, GOOSE, anchor="end")
+p.text(MX, hy + 26, "LA NOTICIA　헤드라인", 17, "sans", True, OLIVE)
+f.bridge("la campaña electoral은 선거 운동이에요 · el debate은 토론이에요 · el cara a cara은 일대일 토론이에요 · el voto por correo은 우편 투표예요 · la jornada de reflexión은 투표 전 묵상의 날이에요.")
+f.box("LA SEMANA EN CIFRAS　이번 주 숫자", [
+    ("13 — días faltan el lunes 16 para las elecciones del domingo 29(선거 13일)", "serif", False, INK, 20.5, 1.35),
+    ("15 — días dura la campaña electoral, del viernes 13 al viernes 27(선거운동 15일)", "serif", False, INK, 20.5, 1.35),
+    ("19 — jueves, último día para pedir el voto por correo(목요일 19일: 우편 투표 신청 마감일)", "serif", False, INK, 20.5, 1.35),
+], tsize=21)
+f.head("AHORA TÚ　바로 연습해요", 25)
+f.ex("A2", "문장 완성", "13", "선거운동은 11월 13일 금요일 자정에 시작해요",
+f.ex("A2", "문장 완성", "29", "총선거는 11월 29일 일요일이에요",
+f.ex("A2", "문장 완성", "19", "우편 투표는 19일까지 신청해야 해요",
+f.ex("A2", "문장 완성", "16", "세계 플라멩코의 날, 11월 16일 월요일",
+f.ex("B1", "문장 완성", "20", "13라운드는 11월 20일 금요일에 시작해요",
+f.ex("B1", "문장 완성", "15", "선거 운동은 15일간 계속돼요",
+p.text(gx + 22, gy + 106, "다섯 가지 핵심　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 102, "다섯 가지 핵심, 숫자는 지어내지 않았어요.", 19, "sans", False, GREY)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　이번 호 차례", 24, "sans", True, OLIVE)
+p.para(gx, wy + 10, "\"토론\": 사람들이 공개적으로 토론해요.", 19, "sans", False, GREY, gw, 1.35)
+p.text(bx + 22, 1914, "BREVES　단신", 24, "sans", True, OLIVE)
+p.text(MX, qy + 36, "QUIZ RELÁMPAGO　번개 퀴즈", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "1면을 읽고 정답을 고르세요　답은 8면에", 20, "sans", False, GREY, anchor="end")
+qf.ex("A2", "객관식", "C", "총선거는 11월 29일이에요",
+qf.ex("A2", "객관식", "B", "선거 운동은 15일간 계속돼요",
+qf.ex("A2", "객관식", "A", "우편 투표는 19일까지 신청해야 해요",
+qf.ex("A2", "객관식", "B", "세계 플라멩코의 날, 11월 16일",
+p.band("VIDA　생활", "La Lucerna", "NIVEL A2　La semana, día a día　일주일을 하루하루")
+f.box("EL CALENDARIO　이번 주 일정", [
+    ("Lunes 16 — Día Internacional del Flamenco; el PP propone el cara a cara Sánchez–Feijóo(월요일: 세계 플라멩코의 날; 국민당이 산체스-페이호 일대일 토론을 제안)", "serif", False, INK, 21, 1.36),
+    ("Martes 17 — la campaña recorre España: mítines y entrevistas en la tele(화요일: 선거운동이 스페인을 돌아요)", "serif", False, INK, 21, 1.36),
+    ("Miércoles 18 — debate sobre vivienda en la Cadena SER: Isabel Rodríguez (PSOE) y Juan Bravo (PP)(수요일: 라디오 주택 토론, PSOE 대 PP)", "serif", False, INK, 21, 1.36),
+    ("Jueves 19 — último día para pedir el voto por correo(목요일: 우편 투표 신청 마감일)", "serif", False, INK, 21, 1.36),
+    ("Viernes 20 — vuelve la Liga: Athletic–Espanyol, 21:00(금요일 저녁: 리그가 돌아와요)", "serif", False, INK, 21, 1.36),
+    ("Sábado 21 — derbi Sevilla–Betis, 18:30; Real Madrid–Celta, 21:00(토요일: 세비야 더비)", "serif", False, INK, 21, 1.36),
+    ("Domingo 22 — Barça–Villarreal, 14:00; Santa Cecilia, patrona de la música(일요일: 바르사 대 비야레알; 성 체칠리아 축일)", "serif", False, INK, 21, 1.36),
+f.gloss("el debate는 토론이에요 · el mitin은 선거 유세예요 · el cartel은 포스터예요 · el escaño는 의회 의석이에요.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("11월 16일 월요일에는 무엇을 할 거예요? 플라멩코 보기, 선거운동 지켜보기, 축구 보기? 토론과 더비 중 어느 쪽이 더 좋아요? 스페인어로 두 문장을 써서 편집부에 보내세요.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　당신은요?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "11월 16일 월요일에는 무엇을 할 거예요? 플라멩코 보기, 선거운동 지켜보기, 축구 보기? 토론과 더비 중 어느 쪽이 더 좋아요? 스페인어로 두 문장을 써서 편집부에 보내세요.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, dy + 28, "LOS DÍAS DE LA SEMANA　날짜 말하기", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "lunes 16 – domingo 22 de noviembre　11월 16일 월요일부터 22일 일요일까지", 20, "sans", False, GREY, anchor="end")
+p.text(MX, ey + 28, "EJERCICIOS　2면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면에　문제는 급이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e.bridge("올바른 날짜 형태로 문장을 완성하세요.")
+     "El Día del Flamenco es el lunes ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+     "El voto por correo se pide hasta el jueves ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "29", "총선거는 11월 29일이에요",
+     "Las elecciones generales son el ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+     "Santa Cecilia es el domingo ___ de noviembre.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "noviembre", "월은 소문자로 써요",
+     "El lunes 16 de ___ es el Día del Flamenco.", instr="빈칸 채우기", size=20, gap=8)
+e.bridge("동사를 현재형으로 완성하세요.")
+e.ex("A2", "문장 완성", "empieza", "la campaña → empieza",
+     "La campaña ___ el viernes 13.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "dura", "la campaña → dura",
+     "La campaña ___ 15 días.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "vuelve", "la Liga → vuelve",
+     "La Liga ___ el viernes 20.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "recorren", "los partidos → recorren",
+     "Los partidos ___ España en campaña.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "llega", "la documentación → llega",
+     "La documentación del voto por correo ___ desde el lunes 9.", instr="빈칸 채우기", size=20, gap=8)
+e.bridge("2면 글을 읽고 정답을 고르세요.")
+e.ex("A2", "객관식", "B", "세계 플라멩코의 날, 11월 16일 월요일",
+e.ex("A2", "객관식", "A", "우편 투표는 19일까지 신청해야 해요",
+e.ex("A2", "객관식", "C", "리그는 11월 20일 금요일에 돌아와요",
+e.ex("B1", "객관식", "B", "11월 24~28일에는 여론조사를 발표하지 않아요",
+e.match_set("A2", "단어 짝짓기",
+            ["debate = 토론 c", "mitin = 유세 b", "cartel = 포스터 d", "escaño = 의회 의석 a"],
+            instr="단어와 뜻 짝짓기")
+p.band("CULTURA　문화", "La Lucerna", "A2 → B1　Flamenco y Santa Cecilia　플라멩코와 성녀 체칠리아")
+f.gloss("el cante는 노래예요 · el toque는 기타 연주예요 · el baile는 춤이에요 · el compás는 리듬이에요 · el duende는 플라멩코의 영혼이에요.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　당신은요?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "플라멩코를 들어 본 적 있어요? 여러분 나라 음악 중에 두엔데가 느껴지는 음악은 무엇인가요? 두 문장을 써서 보내세요.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　3면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면에　문제는 급이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e.bridge("3면 글을 읽고 맞는지 틀린지 판단하세요.")
+e.ex("A2", "읽기 판단", "Verdadero", "세계 플라멩코의 날, 11월 16일 월요일",
+     "El Día Internacional del Flamenco es el lunes 16 de noviembre. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("A2", "읽기 판단", "Verdadero", "유네스코가 2010년에 플라멩코를 유산으로 등재했어요",
+     "La UNESCO declaró el flamenco Patrimonio Inmaterial en 2010. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("A2", "읽기 판단", "Falso", "플라멩코는 춤만이 아니에요. 노래, 기타, 춤이 함께해요.",
+     "El flamenco es solo un baile. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("B1", "읽기 판단", "Falso", "성 체칠리아 축일은 11월 22일이에요.",
+     "Santa Cecilia, patrona de la música, es el 16 de noviembre. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("A2", "읽기 판단", "Verdadero", "빌바오 시립 밴드는 22일 일요일 12:00에 연주해요",
+     "La Banda Municipal de Bilbao toca el domingo 22 a las 12:00. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.bridge("네모 안의 단어로 빈칸을 채우세요.")
+e.ex("A2", "문장 완성", "cante", "cante = 노래",
+     "El flamenco es ___, toque y baile.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "baile", "baile = 춤",
+     "La bailaora mueve los brazos en el ___.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "guitarra", "guitarra = 기타",
+     "El toque es la ___ del flamenco.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("A2", "문장 완성", "palmas", "palmas = 박수",
+     "El público marca el ritmo con las ___.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "compás", "compás = 리듬",
+     "Sin ___ no hay flamenco.", instr="빈칸 채우기", size=20, gap=8)
+e.bridge("정답을 고르세요.")
+e.ex("A2", "객관식", "B", "유네스코가 2010년 나이로비에서 발표했어요",
+e.ex("A2", "객관식", "A", "duende는 음악이 마음을 울리는 순간이에요",
+e.ex("B1", "객관식", "C", "플라멩코는 안달루시아에서 여러 문화가 만나 태어났어요",
+e.ex("B1", "객관식", "B", "플라멩코의 날 다음 큰 날짜는 11월 29일 선거예요",
+e.bridge("단어를 모아 올바른 문장을 만드세요.")
+e.ex("A2", "문장 만들기", "El flamenco es cante, toque y baile.", "주어 + 동사 + 서술어",
+     "el flamenco / es / cante, toque y baile → ___", instr="문장 만들기", size=20, gap=8)
+e.ex("B1", "문장 만들기", "En noviembre suena la guitarra en España.", "시간이 앞에, 동사는 두 번째예요",
+     "en noviembre / suena / la guitarra / en España → ___", instr="문장 만들기", size=20, gap=8)
+e.ex("B1", "문장 만들기", "En Bilbao toca la banda el domingo.", "장소가 앞에, 동사는 두 번째예요",
+     "en Bilbao / toca / la banda / el domingo → ___", instr="문장 만들기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "Todos preguntan si hay duende.", "간접 의문문에는 si를 써요",
+     "«¿Hay duende?» (todos preguntan) → ___", instr="바꿔 쓰기", size=20, gap=8)
+p.band("DEPORTE　스포츠", "La Lucerna", "NIVEL B1　Vuelve la Liga: la jornada 13　리그가 돌아왔어요: 13라운드")
+f.gloss("la jornada는 라운드예요 · el derbi는 더비예요 · el liderato는 1위예요 · el parón은 휴식기예요 · la fase liga는 리그 단계예요.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("토요일 18:30에는 어느 경기를 볼 거예요? 세비야 더비와 레알 마드리드 대 셀타 경기? 리그 우승은 바르사와 레알 마드리드 중 어느 팀일까요? 스페인어로 두 문장을 써서 보내세요.", "sans", False, 20, CW - 44)) * 29 + 20
+p.text(bx + 22, yy3 + 26, "¿Y TÚ?　당신은요?", 24, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "토요일 18:30에는 어느 경기를 볼 거예요? 세비야 더비와 레알 마드리드 대 셀타 경기? 리그 우승은 바르사와 레알 마드리드 중 어느 팀일까요? 스페인어로 두 문장을 써서 보내세요.", 20, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ty, "LA JORNADA 13　LOS SEIS PARTIDOS DE LA SEMANA　13라운드: 여섯 경기", 26, "sans", True, OLIVE)
+p.text(MX, ey + 28, "EJERCICIOS　4면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면에　문제는 급이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e.bridge("4면 글을 읽고 정답을 고르세요.")
+e.ex("B1", "객관식", "A", "바르사가 33점으로 선두예요",
+e.ex("B1", "객관식", "A", "바르사 대 비야레알, 일요일 14:00",
+e.ex("B1", "객관식", "B", "챔피언스리그 5라운드, 11월 24~25일",
+e.match_set("B1", "단어 짝짓기",
+            ["jornada = 라운드 c", "derbi = 더비 b", "liderato = 1위 a", "fase liga = 리그 단계 d"],
+            instr="단어와 뜻 짝짓기")
+e.bridge("빈칸을 채우세요. 괄호 안 단어의 비교급이나 -ísimo 형태를 쓰세요.")
+e.ex("B1", "문장 완성", "más importante", "más + importante(선두 경쟁이 더 중요해요)",
+     "El Barça–Villarreal es ___ que un amistoso. (importante)", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "muchísimos", "muchísimos aficionados = 아주 많은 팬들",
+     "El Bernabéu espera a ___ aficionados. (muchos)", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "peor", "malo의 비교급은 peor예요",
+     "Perder el derbi sería la ___ (malo) noticia de la semana.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "mejor", "bueno의 비교급은 mejor예요",
+     "Ganar la jornada sería la ___ (bueno) noticia del otoño.", instr="빈칸 채우기", size=20, gap=8)
+e.bridge("과거형(pretérito indefinido)으로 바꾸세요.")
+e.ex("B1", "문장 바꾸기", "El Barça ganó 1–2 al Atlético.", "ganar → ganó",
+     "El Barça gana 1–2 al Atlético. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "El Madrid recibió al Celta el sábado.", "recibir → recibió",
+     "El Madrid recibe al Celta el sábado. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "El Atlético perdió 0–2 con el Bayern.", "perder → perdió",
+     "El Atlético pierde 0–2 con el Bayern. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "La Liga volvió el viernes 20.", "volver → volvió",
+     "La Liga vuelve el viernes 20. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "La jornada cerró el lunes 23.", "cerrar → cerró",
+     "La jornada cierra el lunes 23. → ___", instr="바꿔 쓰기", size=20, gap=8)
+p.band("JUVENTUD　청년", "La Lucerna", "NIVEL B1　Votar por primera vez　처음 투표하기")
+f.box("EL PLAN DE LA SEMANA　이번 주 계획", [
+    ("1. El lunes 16: Día del Flamenco y primer lunes de campaña(월요일: 플라멩코의 날과 선거운동 첫 주 월요일)", "serif", False, INK, 21, 1.36),
+    ("2. El jueves 19: último día para pedir el voto por correo(목요일: 우편 투표 신청 마감일)", "serif", False, INK, 21, 1.36),
+    ("3. El viernes 20: vuelve la Liga, Athletic–Espanyol, 21:00(금요일 저녁: 리그가 돌아와요)", "serif", False, INK, 21, 1.36),
+    ("4. El sábado 21: derbi Sevilla–Betis, 18:30(토요일: 세비야 더비)", "serif", False, INK, 21, 1.36),
+    ("5. El domingo 22: Barça–Villarreal, 14:00; Santa Cecilia(일요일: 바르사 대 비야레알; 성녀 체칠리아 축일)", "serif", False, INK, 21, 1.36),
+], tsize=20)
+f.gloss("el sobre는 봉투예요 · la papeleta는 투표 용지예요 · el censo는 선거인 명부예요 · el plazo는 기한이에요 · la urna는 투표함이에요.")
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", "sans", False, 19, CW - 44)) * 27 + 20
+p.text(ix + 22, yy3 + 26, "¿Y TÚ?　당신은요?", 24, "sans", True, OLIVE)
+p.para(ix + 22, yy3 + 20, "우편 투표를 할까요, 직접 가서 투표할까요? 블랙프라이데이에는 무엇을 살 거예요? 실용적인 것, 아니면 충동적인 것? 두 문장을 써서 보내세요.", 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, ey + 28, "EJERCICIOS　5면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면에　문제는 급이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e.bridge("5면 글을 읽고 정답을 고르세요.")
+e.ex("B1", "객관식", "B", "우편 투표는 19일까지 신청해야 해요",
+e.ex("B1", "객관식", "A", "서류는 11월 9일부터 발송돼요",
+e.ex("B1", "객관식", "C", "투표소는 9:00부터 20:00까지 열려요",
+e.ex("B1", "객관식", "B", "MiDNI는 올해 투표할 때 신분을 확인하는 새로운 방법이에요",
+e.ex("B1", "객관식", "A", "블랙프라이데이, 11월 27일 금요일",
+e.bridge("네모 안의 단어로 빈칸을 채우세요. 주의: 활용이 필요한 단어가 있어요.")
+e.ex("B1", "문장 완성", "correo", "correo = 우체국 / 우편",
+     "Pido el voto por ___.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "papeleta", "papeleta = 투표용지",
+     "En casa, relleno la ___.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "envío", "enviar 활용 → envío",
+     "Después ___(원형: enviar) el sobre.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "identidad", "documento de identidad = 신분증",
+     "Para votar en persona llevo mi documento de ___.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "censo", "censo = 유권자 명부",
+     "La Oficina del ___ envía la documentación.", instr="빈칸 채우기", size=20, gap=8)
+e.ex("B1", "문장 완성", "plazo", "plazo = 기한(19일 마감)",
+     "El jueves 19 termina el ___ del voto por correo.", instr="빈칸 채우기", size=20, gap=8)
+e.bridge("ir a + 동사 원형으로 문장을 바꿔 '~할 것'이라는 뜻을 나타내세요.")
+e.ex("B1", "문장 바꾸기", "Voy a pedir el voto por correo.", "voy a + 원형",
+     "Pido el voto por correo. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "Vas a votar el domingo 29.", "vas a + 원형",
+     "Votas el domingo 29. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "Va a abrirse la urna a las 9:00.", "va a + 원형",
+     "La urna se abre a las 9:00. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "문장 바꾸기", "Van a comparar precios antes de pagar.", "van a + 원형",
+     "Comparan precios antes de pagar. → ___", instr="바꿔 쓰기", size=20, gap=8)
+e.ex("B1", "읽기 판단", "Verdadero", "우편 투표는 Correos에서 신청해요",
+     "El voto por correo se pide en una oficina de Correos. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("B1", "읽기 판단", "Falso", "묵상의 날은 토요일 28일이에요, 일요일이 아니에요",
+     "La jornada de reflexión es el domingo 29. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+e.ex("B1", "읽기 판단", "Verdadero", "올해는 MiDNI로 투표할 수 있어요",
+     "Este año se puede votar identificándose con MiDNI. ¿Verdadero o falso?", instr="참 / 거짓", size=20, gap=8)
+p.band("A FONDO　심층", "La Lucerna", "NIVEL B2　Leer la campaña: debates, programas y encuestas　선거운동 읽기: 토론, 공약, 여론조사")
+p.text(MX, ey + 28, "EJERCICIOS　6면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "답은 8면에　문제는 급이 섞여 있어요, 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e.bridge("위 두 그래프를 보고 정답을 고르세요.")
+e.ex("B2", "객관식", "A", "PSOE와 PP에 각각 무료 45분",
+e.ex("B2", "객관식", "C", "Podemos: 15분",
+e.ex("B2", "객관식", "A", "여론조사 발표 금지 5일(11월 24~28일)",
+e.ex("B2", "객관식", "C", "선거관리위원회가 발표한 무료 방송 시간만 출처와 함께 실어요",
+e.ex("B2", "객관식", "B", "11월 10일 기준으로 확정된 토론은 laSexta 토론뿐이에요",
+e.ex("B2", "객관식", "A", "laSexta 토론, 11월 13일 금요일 21:30",
+e.ex("B2", "객관식", "B", "여론조사는 오차 있는 하루의 사진이에요",
+e.ex("B2", "문장 완성", "tenga", "es posible que + 접속법: tenga",
+     "Es posible que el debate ___ (tener) cuatro portavoces.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "sea", "es importante que + 접속법: sea",
+     "Es importante que cada dato ___ (ser) claro.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "para que", "para que + 접속법 (목적)",
+     "Publicamos la fuente ___ todos puedan comprobarla.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "Aunque", "Aunque + 직설법 (이미 아는 사실)",
+     "___ los debates difieren, ninguno miente.", instr="빈칸 채우기", size=18.5, gap=2)
+e.bridge("네모 안의 단어로 빈칸을 채우세요: sondeo · muestra · indecisos · margen de error")
+e.ex("B2", "문장 완성", "sondeo", "sondeo = 여론조사",
+     "Un ___ pregunta a una muestra de ciudadanos.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "muestra", "muestra = 표본",
+     "El sondeo preguntó a una ___ de ciudadanos.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "indecisos", "indecisos = 아직 못 정한 사람",
+     "Los ___ todavía no saben a quién votar.", instr="빈칸 채우기", size=18.5, gap=2)
+e.ex("B2", "문장 완성", "margen de error", "margen de error = 오차 범위",
+     "Toda encuesta tiene un ___.", instr="빈칸 채우기", size=18.5, gap=2)
+p.band("LENGUA　언어", "La Lucerna", "언어 특집　Tres niveles, tres herramientas　세 단계, 세 가지 도구")
+a.bridge("시간: es la una(단수), son las dos(복수). 경기는 a las 21:00에 시작해요.")
+     "___ la una en punto.", instr="빈칸 채우기", size=20.5, gap=10)
+a.ex("A2", "문장 완성", "Son", "여러 시에는 복수 Son을 써요",
+     "___ las nueve de la noche.", instr="빈칸 채우기", size=20.5, gap=10)
+a.ex("A2", "문장 완성", "las", "a las 21:00(a 전치사와 함께)",
+     "El derbi es el sábado a ___ 18:30.", instr="빈칸 채우기", size=20.5, gap=10)
+a.ex("A2", "객관식", "B", "1시는 Es la una예요",
+b.bridge("비교급은 más…que, tan…como예요. bueno→mejor, malo→peor예요. más mejor라고 절대 말하지 마세요.")
+b.ex("B1", "문장 완성", "más goles", "más + goles(더 많은 골)",
+     "El Barça marca ___ que el año pasado. (goles)", instr="빈칸 채우기", size=20.5, gap=10)
+b.ex("B1", "문장 완성", "tan rápido", "tan + rápido + como(똑같이 빨라요)",
+     "El derbi es ___ como siempre. (rápido)", instr="빈칸 채우기", size=20.5, gap=10)
+b.ex("B1", "문장 완성", "mejor", "bueno의 비교급은 mejor예요 (más는 없어요)",
+     "Un debate claro es ___ (bueno) que un titular.", instr="빈칸 채우기", size=20.5, gap=10)
+b.ex("B1", "객관식", "B", "más mejor는 틀린 말이에요",
+c.bridge("es necesario que, para que, ojalá — 뒤에는 접속법. creo que — 뒤에는 직설법.")
+c.ex("B2", "문장 완성", "baje", "es necesario que + 접속법: baje",
+     "Es necesario que el precio ___ (bajar).", instr="빈칸 채우기", size=20.5, gap=10)
+c.ex("B2", "문장 완성", "sea", "para que + 접속법: sea",
+     "Publicamos la fuente para que todo ___ (ser) claro.", instr="빈칸 채우기", size=20.5, gap=10)
+c.ex("B2", "문장 완성", "es", "creo que + 직설법: es",
+     "Creo que el debate ___ (ser) útil.", instr="빈칸 채우기", size=20.5, gap=10)
+c.ex("B2", "객관식", "B", "ojalá + 접속법: tenga",
+    ("«Son la una en punto.»", "→ «Es la una.» Es singular.", "1시는 단수라서 동사는 es를 써요."),
+    ("«El derbi es más mejor.»", "→ «Es mejor.» Sin más.", "mejor 자체가 비교급이에요. más는 없어요."),
+    ("«La gente votan el 29.»", "→ «La gente vota.» Es singular.", "gente는 단수 집합 명사예요. 동사도 단수예요."),
+    ("«Creo que el debate sea útil.»", "→ «Creo que el debate es útil.»", "creo que는 확신해요. 직설법 es를 써요."),
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　자주 하는 실수", 23, "sans", True, OLIVE)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("debate = 토론: 차례대로 하는 공개 토론. 이번 주는 토론 주간; 선거는 29일이에요.", "sans", False, 20, CW - 44)) * 29 + 42
+p.text(bx + 22, yy3 + 26, "LA PALABRA　이번 주 단어", 23, "sans", True, OLIVE)
+p.para(bx + 22, yy3 + 20, "debate = 토론: 차례대로 하는 공개 토론. 이번 주는 토론 주간; 선거는 29일이에요.", 20, "sans", False, GREY, CW - 44, 1.42)
+lt = "«¡Hola! Soy Marta, estudio español en Pekín. El lunes 16 escucho flamenco y el sábado veo el derbi. ¡Gracias por el periódico!» — Marta (ejemplo, escrito por la redacción)"
+ldcn = "편집부 알림: 마감 때까지 실제 독자 편지와 우수 작문이 도착하지 않아서, 이번 호에는 편집부가 쓴 예시 편지를 실어요. 약속은 VOL.5로 미뤄요. 편지를 보내 주세요!"
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20, CW - 44)) * 29 + 10 + len(wrap(ldcn, "sans", False, 19, CW - 44)) * 27 + 42
+p.para(bx + 22, yy3 + 20, ldcn, 19, "sans", False, GREY, CW - 44, 1.42)
+p.text(MX, fy + 24, "FRASES DE LA SEMANA　이번 주 문장 (이번 호 글에서 그대로 뽑았어요)", 27, "sans", True, OLIVE)
+    ("«La campaña electoral empezó el viernes 13, a las 00:00, y dura quince días: hasta el viernes 27 de noviembre.»", "선거운동은 13일 자정에 시작해 15일간 이어지고 27일에 끝나요.", "Página 1"),
+    ("«El jueves 19 es un día clave: termina el plazo para pedir el voto por correo.»", "목요일 19일은 중요한 날이에요. 우편 투표 신청 마감일이에요.", "Página 2"),
+    ("«El lunes 16 de noviembre es el Día Internacional del Flamenco, y en España suena la guitarra en todos los rincones.»", "11월 16일 월요일은 세계 플라멩코의 날이고, 기타 소리가 스페인 전역에 울려요.", "Página 3"),
+    ("«No es solo un baile: es cante, toque y baile, con palmas, taconeo y compás.»", "플라멩코는 춤만이 아니에요. 노래, 기타, 춤, 박수, 발구름과 리듬이에요.", "Página 3"),
+    ("«La Liga se para y vuelve: después del parón de selecciones, la jornada 13 se juega del viernes 20 al lunes 23 de noviembre.»", "리그가 멈췄다가 다시 시작해요. 13라운드는 11월 20일 금요일부터 23일 월요일까지예요.", "Página 4"),
+    ("«¿Votas por primera vez el 29 de noviembre? Tienes dos maneras de votar: en persona o por correo.»", "11월 29일에 처음 투표해요? 두 가지 방법: 직접 가거나 우편으로.", "Página 5"),
+    ("«En campaña, no todo lo que se anuncia está cerrado.»", "선거운동 기간에는 발표된 모든 것이 확정된 것은 아니에요.", "Página 6"),
+    ("«Una encuesta es una foto con margen de error, tomada en un día concreto.»", "여론조사는 오차가 있는 사진이에요, 어느 하루에 찍은 사진이에요.", "Página 6"),
+p.text(MX + 28, py + 44, "LA PRÓXIMA SEMANA　다음 주 예고 (VOL.5)", 24, "sans", True, ONCLOTH)
+p.band("EJERCICIOS Y RESPUESTAS　연습과 답", "La Lucerna", "8면　La gran prueba de la semana + todas las respuestas")
+f.ex("B1", "빈칸 채우기", "A", "el flamenco suena = 플라멩코가 울려요",
+f.ex("B1", "빈칸 채우기", "B", "empieza la campaña = 선거 운동이 시작해요",
+f.ex("B1", "빈칸 채우기", "A", "laSexta 토론 21:30",
+f.ex("B1", "빈칸 채우기", "A", "el voto por correo se pide hasta el jueves 19",
+f.ex("B1", "빈칸 채우기", "A", "la Liga vuelve = 리그가 돌아와요",
+f.ex("B1", "빈칸 채우기", "B", "세비야 더비는 토요일이에요",
+f.ex("B1", "빈칸 채우기", "A", "Santa Cecilia = 음악가들의 수호성인",
+f.ex("B1", "빈칸 채우기", "A", "스페인이 29일 일요일에 투표해요",
+f.ex("A2", "객관식", "A", "선거 운동은 11월 13일 금요일에 시작해요",
+f.ex("A2", "객관식", "B", "세계 플라멩코의 날, 11월 16일",
+f.ex("A2", "객관식", "A", "우편 투표는 19일까지 신청해야 해요",
+f.ex("B1", "객관식", "B", "블랙프라이데이, 11월 27일 금요일",
+f.ex("B1", "객관식", "C", "MiDNI는 공식 신분 확인 앱이에요",
+f.ex("B2", "객관식", "B", "11월 24~28일에는 여론조사를 발표하지 않아요",
+f.ex("B1", "객관식", "C", "챔피언스리그 5라운드, 11월 24~25일",
+f.ex("A2", "객관식", "A", "루시아는 토요일에 세비야에서 더비를 봐요",
+f.ex("A2", "객관식", "A", "디에고는 토요일에 레알 마드리드 대 셀타 경기를 봐요",
+f.ex("A2", "객관식", "A", "두 사람 모두 강령을 읽고 투표해요",
+f.ex("A2", "객관식", "B", "제목은 두 도시와 하나의 토요일을 요약해요",
+f.ex("A2", "문장 만들기", "El lunes suena el flamenco.", "시간이 앞에, 동사는 두 번째예요",
+     "el lunes / suena / el flamenco → ___", instr="문장 만들기", size=15.5, gap=1)
+f.ex("A2", "문장 만들기", "El sábado vemos el derbi.", "시간이 앞에 있어요",
+     "el sábado / vemos / el derbi → ___", instr="문장 만들기", size=15.5, gap=1)
+f.ex("B1", "문장 만들기", "La campaña dura quince días.", "주어 + 동사 + 시간",
+     "la campaña / dura / quince días → ___", instr="문장 만들기", size=15.5, gap=1)
+f.ex("B1", "문장 만들기", "¿A qué hora empieza el debate?", "의문사는 문장 맨 앞에 있어요",
+     "¿ / a qué hora / empieza / el debate / ? → ___", instr="문장 만들기", size=15.5, gap=1)
+f.ex("A2", "번역", "월요일은 세계 플라멩코의 날이에요.", "원문과 대조해 보세요.",
+     "El lunes es el Día del Flamenco. → ___", instr="번역", size=15.5, gap=1)
+f.ex("A2", "번역", "토요일에 세비야 더비를 봐요.", "원문과 대조해 보세요.",
+     "El sábado vemos el derbi Sevilla–Betis. → ___", instr="번역", size=15.5, gap=1)
+f.ex("B1", "번역", "El voto por correo se pide hasta el jueves 19.", "pedir hasta el jueves 19",
+     "우편 투표는 목요일 19일까지 신청해야 해요. → ___", instr="번역", size=15.5, gap=1)
+f.ex("B2", "번역", "Cada promesa tiene que llevar datos.", "tener que = ~해야 해요",
+     "모든 약속에는 근거 자료가 있어야 해요. → ___", instr="번역", size=15.5, gap=1)
+f.match_set("B2", "단어 짝짓기",
+            ["sondeo=여론조사 c", "muestra=표본 d", "margen de error=오차 범위 b", "junta electoral=선거관리위원회 a"],
+            instr="단어와 뜻 짝짓기")
+f.ex("B1", "빈칸 채우기", "A", "vengo a votar = 투표하러 왔어요",
+f.ex("B1", "빈칸 채우기", "A", "documento de identidad = 신분증",
+f.ex("B1", "빈칸 채우기", "A", "¿dónde está la urna? 투표함은 어디에 있어요?",
+f.ex("B1", "빈칸 채우기", "A", "la papeleta va en el sobre = 투표 용지는 봉투에 넣어요",
+f.ex("B1", "빈칸 채우기", "A", "¿a qué hora cierra el colegio? 투표소는 몇 시에 닫아요?",
+f.bridge("쓰기 문제(정답이 하나가 아니에요). 모범 답안(97단어)은 아래에 있어요.")
+     "«¿Qué harías tú en la primera semana de campaña?» Escribe 80–100 palabras: tu lunes 16, tu viernes 20 y tu voto del 29.", instr="쓰기", size=15.5, gap=1)
+p.text(MX, 1337, "RESPUESTAS　정답 — 면별로 나누어 실었어요, 번호로 찾으세요", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1337, "문제마다 한국어 해설 한 줄　✓ 표시는 모범 답안 문제예요", 19.5, "sans", False, GREY, anchor="end")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1363, 2560, tag="P8-keys")
+        if e_["type"] == "쓰기":

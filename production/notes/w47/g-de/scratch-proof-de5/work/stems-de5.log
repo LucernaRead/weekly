@@ -1,0 +1,32 @@
+{
+ "total_ex": 124,
+ "matched": 124,
+ "unmatched": [],
+ "below_floor": [
+  {
+   "file": "content12.py",
+   "i": 10,
+   "body": "Der Buß- und Bettag ist am ___.",
+   "svg": "p2-leben.svg",
+   "size": 18.0,
+   "floor": 22.0
+  },
+  {
+   "file": "content12.py",
+   "i": 15,
+   "body": "Der Buß- und Bettag (abschaffen) fast überall. → _",
+   "svg": "p2-leben.svg",
+   "size": 18.0,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 4,
+   "body": "Die offizielle Eröffnung am Dom ist am 17. Novembe",
+   "svg": "p3-kultur.svg",
+   "size": 21.5,
+   "floor": 22.0
+  }
+ ]
+}
+sizes per page: {'p1-front.svg': [22.0, 24.0], 'p2-leben.svg': [18.0, 22.0], 'p3-kultur.svg': [21.5, 22.0, 24.0], 'p4-sport.svg': [22.0], 'p5-jugend.svg': [22.0, 24.0], 'p6-vertiefung.svg': [22.0, 24.0], 'p7-sprache.svg': [22.0], 'p8-uebungen.svg': [20.5]}

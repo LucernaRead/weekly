@@ -1,0 +1,22 @@
+FAIL occlusion 0 flags |   [LINEX] p7-lingua.svg 'VOL.5.' — later line box [87.0, 1685.0, 1863.0, 1687.0] crosses ink
+PASS p8 extract noted count | noted=150 rc=0
+PASS p8 compare vs core | verdict=CLEAN keydiffs=[137, 138, 139]
+FAIL freeze diff fragments explained by translations/furniture (P1-7) | unexplained_add=[('1', 'Страница'), ('2', 'Страница'), ('2', '— la salute, '), ('3', 'Страница'), ('3', '— il torrone, ')] unexplained_rem=[]
+PASS freeze diff report present | pages=['1', '2', '3', '4', '5', '6', '7', '8']
+PASS freeze strict-cjk (no added CJK except U+3000) | rc=1 added_cjk={'\u3000': 8} non_space={}
+FAIL print/web text multiset identical | print_words=7605 web_words=7712 diff=[('КАЖД', 1), ('УЮ', 1), ('НЕ', 1)] [('КАЖДУЮ', 1), ('НЕДЕЛ', 1), ('Ю', 1)]
+PASS web PDF < 7MB | 1407827 bytes
+PASS print PDF size sane | 14181187 bytes
+PASS P8 min font >= 13px (9.75pt) | min=13.0
+PASS paper #fbfaf6 present
+PASS no gold/brick/near-black | hits=[]
+PASS no VOL.5 in furniture (only preview/disclosure) | VOL.5 text nodes=3
+PASS VOL.4 present | count=9
+PASS badge colours A2/B1/B2
+PASS no double outer frame | full-page rects=0
+INFO '·' total occurrences in SVGs: 148 (core had them only in options/gloss lists)
+FAIL textmd validate |   REV 'Страница'
+PASS answers count 150 | edition=150 core=150
+PASS keys 1-150 match core (except 137-139 re-aimed, writing) | mismatches=[]
+PASS notes match translations.py (except 137-140 + writing) | mismatches=[] table_gaps=[]
+GATES FAILED: ['occlusion 0 flags', 'freeze diff fragments explained by translations/furniture (P1-7)', 'print/web text multiset identical', 'textmd validate']

@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P1: no ink past margin
+P2: OVER ink to x=1397.2pt (+0.7pt) in 1 row band(s):
+    rows y=1189-1191pt max-x=1397.2pt npx=11
+    P2 row svg_y=2124: ink right=1359.4pt (margin 1396.5)
+    P2 row svg_y=2162: ink right=1374.5pt (margin 1396.5)
+    P2 row svg_y=2195: ink right=1185.5pt (margin 1396.5)
+    P2 row svg_y=2233: ink right=1355.8pt (margin 1396.5)
+    P2 row svg_y=2271: ink right=1366.9pt (margin 1396.5)
+    P2 row svg_y=2304: ink right=1154.2pt (margin 1396.5)
+P3: no ink past margin
+P4: no ink past margin
+P5: OVER ink to x=1397.2pt (+0.7pt) in 1 row band(s):
+    rows y=451-453pt max-x=1397.2pt npx=7
+P6: no ink past margin
+P7: no ink past margin
+P8: OVER ink to x=1397.5pt (+1.0pt) in 4 row band(s):
+    rows y=446-448pt max-x=1397.5pt npx=16
+    rows y=450-450pt max-x=1397.5pt npx=5
+    rows y=462-464pt max-x=1397.5pt npx=16
+    rows y=466-466pt max-x=1397.5pt npx=5

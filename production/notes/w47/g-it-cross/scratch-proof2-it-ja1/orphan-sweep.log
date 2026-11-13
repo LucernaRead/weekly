@@ -1,0 +1,26 @@
+[PIL-advance] lines=1439 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1439 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 17; leftmost-on-baseline: 0
+  FRAG P1 y=1612.35 x=676.9 leftmost=False first='）' '）'
+  FRAG P5 y=1003.16 x=675.6 leftmost=False first='：' '：アタランタ対インテル）'
+  FRAG P8 y=1449.32 x=1185.8 leftmost=False first='：' '：'
+  FRAG P8 y=1505.96 x=1216.0 leftmost=False first='：' '：'
+  FRAG P8 y=1909.72 x=272.4 leftmost=False first='：' '：'
+  FRAG P8 y=1938.04 x=217.5 leftmost=False first='：' '：'
+  FRAG P8 y=1966.36 x=236.8 leftmost=False first='：' '：'
+  FRAG P8 y=1994.68 x=203.7 leftmost=False first='：' '：'
+  FRAG P8 y=2023.0 x=225.4 leftmost=False first='：' '：'
+  FRAG P8 y=2034.18 x=688.4 leftmost=False first='：' '：日曜の夜が一番すばらしい（主観的な評'
+  FRAG P8 y=2105.64 x=669.2 leftmost=False first='：' '：'
+  FRAG P8 y=2133.96 x=719.8 leftmost=False first='：' '：'
+  FRAG P8 y=2218.92 x=772.0 leftmost=False first='：' '：'
+  FRAG P8 y=2221.24 x=1193.6 leftmost=False first='：' '：'
+  FRAG P8 y=2249.56 x=1236.5 leftmost=False first='：' '：'
+  FRAG P8 y=2277.88 x=1223.8 leftmost=False first='：' '：'
+  FRAG P8 y=2394.8 x=425.9 leftmost=False first='」' '」'
+[E labels in text.md: 翻訳=4 翻譯=0 (expect 4 / 0)]
+   L969: 137. [A2 · 翻訳] Per la Madonna della Salute si attraversa il ponte votivo. → ___ — key: 聖母健
+   L971: 138. [B1 · 翻訳] Domenica sera si gioca Atalanta–Inter. → ___ — key: 日曜の夜、アタランタがインテルと対戦します。 
+   L973: 139. [B1 · 翻訳] Sabato la Lazio gioca in casa con il Lecce. → ___ — key: 土曜、ラツィオはホームでレッチェと対
+   L975: 140. [B2 · 翻訳] すべての数字がはっきりしていなければなりません。→ ___ — key: Ogni cifra deve essere chiara. (dovere
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

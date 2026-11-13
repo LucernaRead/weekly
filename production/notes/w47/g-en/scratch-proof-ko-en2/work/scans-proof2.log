@@ -1,0 +1,62 @@
+fonts dir: ['Newsreader-Regular.ttf', 'Newsreader-SemiBold.ttf']
+A. curly total U+201C/U+201D/U+2019 = 0 / 0 / 0 -> PASS 0/0/0
+B. hanzi total = 0 -> PASS
+C. orphan punctuation hits = 0
+D. p1-pyoji.svg: 5 cream rects
+   box x=538.5 y=1357.1200000000001 w=422.5 h=175.39999999999998 fill=#f0eee5 last-baseline y=1484.7949999999998 ink-bottom=1494.8 box-bottom=1532.5 headroom=37.7px PASS :: 'cancellation'
+   box x=989.0 y=817.36 w=422.5 h=432.0 fill=#f0eee5 last-baseline y=1204.3600000000001 ink-bottom=1214.4 box-bottom=1249.4 headroom=35.0px PASS :: '우승했어요'
+   box x=1439.5 y=580.0 w=422.5 h=700.0 fill=#f0eee5 last-baseline y=1244.0 ink-bottom=1255.0 box-bottom=1280.0 headroom=25.0px PASS :: 'KBO 한국시리즈 결과 (11월 8일)'
+   box x=1439.5 y=1296.0 w=422.5 h=330.0 fill=#f0eee5 last-baseline y=1600.0 ink-bottom=1610.0 box-bottom=1626.0 headroom=16.0px PASS :: '8면'
+   box x=1439.5 y=1874.0 w=422.5 h=430.0 fill=#f0eee5 last-baseline y=2218.7999999999997 ink-bottom=2229.8 box-bottom=2304.0 headroom=74.2px PASS :: '우승했어요. (4면)'
+D. p2-saenghwal.svg: 12 cream rects
+   box x=88.0 y=1333.52 w=422.5 h=145.675 fill=#f0eee5 last-baseline y=1431.4699999999998 ink-bottom=1441.5 box-bottom=1479.2 headroom=37.7px PASS :: 'discount'
+   box x=538.5 y=777.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=845.225 ink-bottom=855.2 box-bottom=893.0 headroom=37.7px PASS :: 'listed · 발효 = fermentation'
+   box x=538.5 y=904.95 w=422.5 h=405.0 fill=#f0eee5 last-baseline y=1264.95 ink-bottom=1275.0 box-bottom=1310.0 headroom=35.0px PASS :: '환불은 11월 17일 17시까지'
+   box x=989.0 y=498.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=566.225 ink-bottom=578.2 box-bottom=614.0 headroom=35.7px PASS :: 'neighbour · 따뜻하다 = warm'
+   box x=989.0 y=1012.95 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=1081.175 ink-bottom=1091.2 box-bottom=1128.9 headroom=37.7px PASS :: '김 = steam'
+   box x=989.0 y=1140.9 w=422.5 h=378.0 fill=#f0eee5 last-baseline y=1473.9 ink-bottom=1484.9 box-bottom=1518.9 headroom=34.0px PASS :: '199,456원)'
+   box x=1439.5 y=551.4499999999999 w=422.5 h=348.0 fill=#f0eee5 last-baseline y=831.0399999999998 ink-bottom=841.0 box-bottom=899.4 headroom=58.4px PASS :: '한능검 시험: 11월 28일 토요일'
+   box x=1439.5 y=925.4499999999999 w=422.5 h=272.5 fill=#f0eee5 last-baseline y=1192.8400000000001 ink-bottom=1202.8 box-bottom=1197.9 headroom=-4.9px FAIL overflow :: 'sentences in Korean and send them in.'
+   box x=88.0 y=1618.0 w=422.5 h=150.0 fill=#f0eee5 last-baseline y=1752.06 ink-bottom=1764.1 box-bottom=1768.0 headroom=3.9px PASS :: 'Nov 16 — 3 days to go'
+   box x=538.5 y=1618.0 w=422.5 h=150.0 fill=#f0eee5 last-baseline y=1752.06 ink-bottom=1764.1 box-bottom=1768.0 headroom=3.9px PASS :: 'Nov 18 — 1 day to go'
+   box x=989.0 y=1618.0 w=422.5 h=150.0 fill=#f0eee5 last-baseline y=1752.06 ink-bottom=1764.1 box-bottom=1768.0 headroom=3.9px PASS :: 'Nov 19 — today is the day'
+   box x=1439.5 y=1618.0 w=422.5 h=150.0 fill=#f0eee5 last-baseline y=1752.06 ink-bottom=1764.1 box-bottom=1768.0 headroom=3.9px PASS :: 'Nov 22 — the day for sharing kimchi'
+D. p3-munhwa.svg: 7 cream rects
+   box x=538.5 y=612.0 w=422.5 h=145.675 fill=#f0eee5 last-baseline y=709.95 ink-bottom=720.0 box-bottom=757.7 headroom=37.7px PASS :: 'to fall'
+   box x=538.5 y=1083.675 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=1151.8999999999999 ink-bottom=1161.9 box-bottom=1199.6 headroom=37.7px PASS :: '버무리다 = to mix · 차갑다 = cold'
+   box x=989.0 y=200.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=268.225 ink-bottom=278.2 box-bottom=315.9 headroom=37.7px PASS :: '· 볶음밥 = fried rice'
+   box x=989.0 y=676.95 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=745.1750000000001 ink-bottom=757.2 box-bottom=792.9 headroom=35.7px PASS :: '미끄러지다 = to slip · 돌 = stone'
+   box x=989.0 y=804.9000000000001 w=422.5 h=351.0 fill=#f0eee5 last-baseline y=1110.9 ink-bottom=1121.9 box-bottom=1155.9 headroom=34.0px PASS :: '11은 재료, 22는 효능'
+   box x=1439.5 y=526.5999999999999 w=422.5 h=348.0 fill=#f0eee5 last-baseline y=806.1899999999998 ink-bottom=816.2 box-bottom=874.6 headroom=58.4px PASS :: '김치의 날: 11월 22일 일요일'
+   box x=1439.5 y=1236.2000000000003 w=422.5 h=272.5 fill=#f0eee5 last-baseline y=1503.5900000000004 ink-bottom=1513.6 box-bottom=1508.7 headroom=-4.9px FAIL overflow :: 'in Korean and send them in.'
+D. p4-seupocheu.svg: 5 cream rects
+   box x=538.5 y=764.0 w=422.5 h=145.675 fill=#f0eee5 last-baseline y=861.95 ink-bottom=872.0 box-bottom=909.7 headroom=37.7px PASS :: 'confirm'
+   box x=989.0 y=200.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=268.225 ink-bottom=278.2 box-bottom=315.9 headroom=37.7px PASS :: 'become one'
+   box x=989.0 y=641.95 w=422.5 h=86.225 fill=#f0eee5 last-baseline y=680.45 ink-bottom=692.5 box-bottom=728.2 headroom=35.7px PASS :: 'Note — 전하다 = to report'
+   box x=762.0 y=1268.0 w=312.0 h=118.0 fill=#f0eee5 last-baseline y=1372.0 ink-bottom=1382.0 box-bottom=1386.0 headroom=4.0px PASS :: '3승 2패로 승리'
+   box x=1439.5 y=555.9499999999999 w=422.5 h=348.0 fill=#f0eee5 last-baseline y=835.5399999999998 ink-bottom=845.5 box-bottom=903.9 headroom=58.4px PASS :: '우승: 2014년 이후 12년 만'
+D. p5-cheongnyeon.svg: 6 cream rects
+   box x=538.5 y=200.0 w=422.5 h=145.675 fill=#f0eee5 last-baseline y=297.95000000000005 ink-bottom=308.0 box-bottom=345.7 headroom=37.7px PASS :: 'test-site office'
+   box x=538.5 y=357.675 w=422.5 h=309.5 fill=#f0eee5 last-baseline y=620.4750000000001 ink-bottom=631.5 box-bottom=667.2 headroom=35.7px PASS :: '12월 11일 — 성적 통지일 (금요일)'
+   box x=538.5 y=993.175 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=1061.3999999999999 ink-bottom=1073.4 box-bottom=1109.1 headroom=35.7px PASS :: 'fully · 쉬다 = to rest'
+   box x=989.0 y=200.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=268.225 ink-bottom=278.2 box-bottom=315.9 headroom=37.7px PASS :: 'future · 나누다 = to share'
+   box x=989.0 y=752.95 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=821.1750000000001 ink-bottom=833.2 box-bottom=868.9 headroom=35.7px PASS :: '· 평소 = usually'
+   box x=1439.5 y=551.4499999999999 w=422.5 h=272.5 fill=#f0eee5 last-baseline y=818.8399999999998 ink-bottom=828.8 box-bottom=823.9 headroom=-4.9px FAIL overflow :: 'Korean and send them in.'
+D. p6-gipi.svg: 11 cream rects
+   box x=538.5 y=463.0 w=422.5 h=145.675 fill=#f0eee5 last-baseline y=560.95 ink-bottom=571.0 box-bottom=608.7 headroom=37.7px PASS :: '아직 = still'
+   box x=538.5 y=896.675 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=964.9 ink-bottom=976.9 box-bottom=1012.6 headroom=35.7px PASS :: 'report'
+   box x=989.0 y=387.0 w=422.5 h=115.94999999999999 fill=#f0eee5 last-baseline y=455.225 ink-bottom=465.2 box-bottom=502.9 headroom=37.7px PASS :: 'confirmed · 믿다 = to believe'
+   box x=88.0 y=1320.0 w=300.0 h=52.0 fill=#f0eee5 last-baseline y=1355.0 ink-bottom=1365.0 box-bottom=1372.0 headroom=7.0px PASS :: '한국시리즈'
+   box x=388.0 y=1320.0 w=512.0 h=52.0 fill=#f0eee5 last-baseline y=1355.0 ink-bottom=1365.0 box-bottom=1372.0 headroom=7.0px PASS :: '발표된 일정'
+   box x=900.0 y=1320.0 w=511.5 h=52.0 fill=#f0eee5 last-baseline y=1355.0 ink-bottom=1366.0 box-bottom=1372.0 headroom=6.0px PASS :: '결과 나왔어요 (삼성 4–1)'
+   box x=88.0 y=1424.0 w=300.0 h=52.0 fill=#f0eee5 last-baseline y=1459.0 ink-bottom=1469.0 box-bottom=1476.0 headroom=7.0px PASS :: '김장비용'
+   box x=388.0 y=1424.0 w=512.0 h=52.0 fill=#f0eee5 last-baseline y=1459.0 ink-bottom=1469.0 box-bottom=1476.0 headroom=7.0px PASS :: '10월 16일 가격'
+   box x=900.0 y=1424.0 w=511.5 h=52.0 fill=#f0eee5 last-baseline y=1459.0 ink-bottom=1470.0 box-bottom=1476.0 headroom=6.0px PASS :: '11월 9일 조사 199,456원'
+   box x=1439.5 y=224.0 w=422.5 h=284.5 fill=#f0eee5 last-baseline y=440.05999999999995 ink-bottom=450.1 box-bottom=508.5 headroom=58.4px PASS :: '③ 결과를 봐요'
+   box x=1439.5 y=534.5 w=422.5 h=348.0 fill=#f0eee5 last-baseline y=814.0899999999999 ink-bottom=824.1 box-bottom=882.5 headroom=58.4px PASS :: '김치의 날 — 11월 22일'
+D. p7-mal.svg: 3 cream rects
+   box x=1439.5 y=200.0 w=422.5 h=780.2 fill=#f0eee5 last-baseline y=939.68 ink-bottom=950.7 box-bottom=980.2 headroom=29.5px PASS :: 'With a final consonant, use 「이에요」.'
+   box x=1439.5 y=992.2 w=422.5 h=253.0 fill=#f0eee5 last-baseline y=1233.32 ink-bottom=1243.3 box-bottom=1245.2 headroom=1.9px PASS :: 'Frame: "after ~". Ask: "〜 후에 뭐 해요?"'
+   box x=1439.5 y=1257.2 w=422.5 h=455.5 fill=#f0eee5 last-baseline y=1699.2500000000005 ink-bottom=1709.3 box-bottom=1712.7 headroom=3.4px PASS :: 'in Korean!'
+D. p8-siheom.svg: 0 cream rects
+scans done

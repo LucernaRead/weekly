@@ -1,0 +1,32 @@
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw/backup/2026-w47-zh-tw-pt/content56.py	2026-11-11 02:56:29.341000646 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-pt/content56.py	2026-11-11 10:43:37.980597818 +0000
+@@ -93,7 +93,7 @@
+ yy = p.para(rx + 22, yy + 24, "你最想看迪士尼聖誕，還是爵士音樂節？", 22.5, "serif", False, INK, CW - 44, 1.36) + 4
+ p.para(rx + 22, yy + 21, "Você preferiria ver o Natal na Disneyland ou o festival de jazz?", 20, "sans", False, GREY, CW - 44, 1.3)
+ by3 = by + 488 + 250 + 18
+-p.rect(rx, by3, CW, 480, fill=BOX)
++p.rect(rx, by3, CW, 418, fill=BOX)
+ yy = by3 + 18
+ p.text(rx + 22, yy + 26, "香港11月節目　Hong Kong", 25, "sans", True, OLIVE); yy += 56
+ for t in [
+@@ -102,10 +102,9 @@
+     "寶可夢30週年：11月11日起，又一城",
+     "圓方體能競技場：11月13到15日",
+     "迪士尼聖誕音樂會：11月21、22日",
+-    "BABYMONSTER台北演唱會：11月21、22日（台北小巨蛋）",
+ ]:
+     yy = p.para(rx + 22, yy + 24, t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
+-by4 = by3 + 498
++by4 = by3 + 436  # fix2: HK box shrank 480->418 (one 61.7px row removed); keeps the 18px gap
+ p.rect(rx, by4, CW, 430, fill=BOX)
+ yy = by4 + 18
+ p.text(rx + 22, yy + 26, "爵士音樂節時間表　Datas do jazz", 25, "sans", True, OLIVE); yy += 56
+@@ -129,7 +128,7 @@
+ f.title("11月22日，一天四件大事", 32)
+ f.byline("Reportagem da redação　Fonte: anúncios dos eventos, compilados em 10 nov.")
+ f.para("11月22日（週日）是今年最忙的一天：下午2點，封王遊行從天母出發；下午5點，金馬獎星光大道；晚上6點30分，金馬獎頒獎典禮；晚上7點，六福村夜間遊行最後一場；同一天，高雄鋼雕藝術節閉幕，晚上8點閉館，小雪也在這一天。四件大事，同一天，一個人看不完。")
+-f.para("怎麼辦？先選一件，再看轉播。遊行在街上，去現場最熱鬧；金馬獎在家看轉播，得獎名單一樣看得到；鋼雕在高雄、夜間遊行在新竹，去不了就留到下次。")
++f.para("怎麼辦？先選一件，再看轉播——四件事只能取捨。遊行在街上，去現場最熱鬧；金馬獎在家看轉播，得獎名單一樣看得到；鋼雕在高雄、夜間遊行在新竹，去不了就留到下次。")
+ f.gloss("Domingo, 22 nov., é o dia mais cheio do ano: o desfile do título às 14:00, o tapete vermelho dos Golden Horse às 17:00, a cerimônia às 18:30, a última parada noturna às 19:00 — e o festival do aço fecha às 20:00, no próprio dia de Xiaoxue. Uma pessoa não consegue ver os quatro. Escolha um para ir, assista ao resto na tela e confira os horários antes de sair.")
+ f.end_report()
+ 

@@ -1,0 +1,14 @@
+D1 rows 2280-2360: [[2285, 2303], [2312, 2332], [2349, 2350]]
+D1 ink rows <=2348 end at 2332; rows 2349-2360 (quiz rule zone): [2349, 2350]
+D1: box bottom=2348 last ink row=2332 ink clearance=+16px PASS >=+5 
+D2 rows 500-570: [[500, 514], [526, 540]]
+D2 ink rows 552-570 (below box): []
+D2: box bottom=551 last ink row=540 ink clearance=+11px PASS >=+5 
+D3 rows 790-875: [[796, 811], [825, 845]]
+D3 ink rows 855-875 (below box, next box top 866): []
+D3: box bottom=854 last ink row=845 ink clearance=+9px PASS >=+5 
+D7 'Texto modelo' SVG elements: [(1439.5, 673.8999999999999, 'Texto modelo: Sexta, 20 de novembro, acordo sem')]
+  col3 y=790.9 x=1439.5 'descanso, preparo a semana e confiro o gabarito'
+  col3 y=810.4 x=1439.5 'extraoficial do Enem. Na segunda, volto ao trabalho com'
+  col3 y=829.9 x=1439.5 'calma: o feriadão foi curto, mas a memória fica. O dia 20'
+  col3 y=849.4 x=1439.5 'lembra a luta e a cultura afro-brasileiras.'

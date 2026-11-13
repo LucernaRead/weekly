@@ -1,0 +1,29 @@
+registry pre 150 cur 150
+registry entry diffs: 1
+ PRE {'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'speak', 'note': 'speak up = je uitspreken'}
+ CUR {'n': 73, 'page': 5, 'level': 'A2', 'type': 'Zinnen aanvullen', 'key': 'up', 'note': 'speak up = je uitspreken'}
+text diff lines: 11
+--- 
++++ 
+@@ -1148,7 +1148,7 @@
+ 
+ 72. [A2] Zinnen aanvullen — rights (right = een recht)
+ 
+-73. [A2] Zinnen aanvullen — speak (speak up = je uitspreken)
++73. [A2] Zinnen aanvullen — up (speak up = je uitspreken)
+ 
+ 74. [B1] Woorden combineren — d (bullying = pesten d)
+ 
+pre svg files: ['p1-front.svg', 'p2-life.svg', 'p3-culture.svg', 'p4-sport.svg', 'p5-youth.svg', 'p6-deep.svg', 'p7-lang.svg', 'p8-test.svg']
+p1-front.svg IDENTICAL
+p2-life.svg IDENTICAL
+p3-culture.svg IDENTICAL
+p4-sport.svg IDENTICAL
+p5-youth.svg IDENTICAL
+p6-deep.svg IDENTICAL
+p7-lang.svg IDENTICAL
+p8-test.svg DIFF pre=1238755 cur=1238752 sha_pre=530c9d35018d sha_cur=ee35fc689701
+text line 1151: 73. [A2] Zinnen aanvullen — up (speak up = je uitspreken)
+p8 svg has '73. speak': False
+p8 svg has '73. up': True
+p5 svg stem: True

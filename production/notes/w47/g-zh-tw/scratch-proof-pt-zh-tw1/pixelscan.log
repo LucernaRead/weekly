@@ -1,0 +1,13 @@
+D1 P1 cream bottom at x=1650: svg 2347.68
+D1 ink rows below box bottom 2348 (to 2420): [(2349.1, 881), (2349.6, 881), (2350.1, 881), (2350.6, 881), (2409.1, 13), (2409.6, 19), (2410.1, 25), (2410.6, 29), (2411.0, 31), (2411.5, 27), (2412.0, 26), (2412.5, 20)] total_rows=26
+D1 separator line y=2350 green px across page: 3696 (expect ~4900 = full width)
+D2 P3 cream bottom at x=1650: svg 599.52
+D2 ink rows below box bottom 551 (to 600): [(596.2, 9), (596.6, 11), (597.1, 12), (597.6, 10), (598.1, 10), (598.6, 24), (599.0, 46), (599.5, 48)] total_rows=8
+D3 P6 cream bottom at x=1650: svg 899.52
+D3 ink rows below box bottom 854 (to 900): [(884.2, 3), (884.6, 5), (885.1, 7), (885.6, 8), (886.1, 8), (886.6, 8), (887.0, 8), (887.5, 5), (888.0, 3), (889.9, 167), (890.4, 194), (890.9, 213), (891.4, 225), (891.8, 233), (892.3, 219), (892.8, 158), (893.3, 151), (893.8, 144), (894.2, 143), (894.7, 139), (895.2, 145), (895.7, 145), (896.2, 147), (896.6, 153), (897.1, 182), (897.6, 188), (898.1, 194), (898.6, 204), (899.0, 200), (899.5, 195)] total_rows=30
+D5 P4 gloss cream bottom at x=1200: svg 445.43999999999994
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-pt-zh-tw1/pixelscan.py", line 52, in <module>
+    print(f"D5 gloss last ink row svg_y={rows[-1][0]:.1f} count={rows[-1][1]} (box bottom 445.88, clear={445.88-rows[-1][0]:.1f})")
+                                         ~~~~^^^^
+IndexError: list index out of range

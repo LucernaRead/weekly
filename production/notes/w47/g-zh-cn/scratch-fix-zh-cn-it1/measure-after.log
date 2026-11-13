@@ -1,0 +1,11 @@
+D-01 AFTER: {'text': '数字看本周\u3000Questa settimana', 'x': 556.5, 'y': 1147.3, 'size': '23', 'anchor': 'start', 'box_right': 961.0, 'ink_right': 893.5, 'clear': 67.5, 'PASS': True}
+D-02 AFTER: {'text': '这一周的高频词\u3000Parole chiave', 'x': 556.5, 'y': 685.0, 'size': '23', 'anchor': 'start', 'box_right': 961.0, 'ink_right': 892.5, 'clear': 68.5, 'PASS': True}
+D-03 AFTER: {'text': 'Chiusura: 10 nov. — la finale non giocata', 'x': 1461.5, 'y': 1252.0, 'size': '19', 'anchor': 'start', 'box_right': 1862.0, 'ink_right': 1815.5, 'clear': 46.5, 'PASS': True}
+D-04 AFTER: {'text': '本周生活小日历\u3000Date utili', 'x': 1007.0, 'y': 237.0, 'size': '23', 'anchor': 'start', 'box_right': 1411.5, 'ink_right': 1294.0, 'clear': 117.5, 'PASS': True}
+D-05 item: '21 nov., sabato — esce il film ' at 556.5 1339.3
+D-05 AFTER: {'item': '21 nov., sabato — esce il film ', 'item_lines': 1, 'lone_close_quote_elements': 0, 'PASS': False}
+  NOTE old phrase survives on p7-ciyu.svg : 'Parole della settimana: ' x 88.0 y 271.5
+CREAM SWEEP: 521 texts inside cream rects; OVERFLOW: 0; tight (<8px): 1
+  TIGHT: {'page': 'p4-tiyu.svg', 'x': 1461.5, 'y': 957.4, 'text': '看比赛的中文\u3000Parole delle partite', 'box_right': 1862.0, 'ink_right': 1855.5, 'clear': 6.5}
+LINE-START CLOSING PUNCT: 0 orphan(s)
+wrote measure-after.json

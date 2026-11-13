@@ -1,0 +1,30 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0 (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/logs/2026-w47-it-ko-run3.log)
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ko/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: RC=0 core    /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ko/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+== boxtitle: RC=0 BOXTITLE 2026-w47-it-ko: 36 titles, 493 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+    BOXTITLE 2026-w47-it-ko: 36 titles, 493 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP 2026-w47-it-ko: 29 boxes, 177 candidates, 0 SPILL, 177 OBSERVE
+== creambox: RC=0 P8 p8-valutazione.svg: lines 246->246 slack_footer 45.4->45.4
+== edge: RC=0
+    EDGE_SCAN 2026-w47-it-ko: 8 pages, 0 TOUCH, 0 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN 2026-w47-it-ko: 8 pages, 0 TOUCH, 0 NEAR
+== freeze-baseline: RC=0 baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+== freeze-diff: RC=0 ref=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/baselines/2026-w47-it-ko/svg
+    p1: +150 strings / -22 strings; CJK core 281 -> edition 278; added CJK chars: 0 ; added Latin strings: 25 (unexpected 25)
+    p2: +205 strings / -36 strings; CJK core 271 -> edition 268; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+    p3: +201 strings / -39 strings; CJK core 250 -> edition 250; added CJK chars: 0 ; added Latin strings: 30 (unexpected 30)
+    p4: +180 strings / -32 strings; CJK core 228 -> edition 228; added CJK chars: 0 ; added Latin strings: 28 (unexpected 28)
+    p5: +194 strings / -36 strings; CJK core 307 -> edition 307; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+    p6: +194 strings / -31 strings; CJK core 230 -> edition 230; added CJK chars: 0 ; added Latin strings: 31 (unexpected 31)
+    p7: +311 strings / -43 strings; CJK core 409 -> edition 409; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+    p8: +184 strings / -33 strings; CJK core 1341 -> edition 1341; added CJK chars: 0 ; added Latin strings: 21 (unexpected 21)
+    TOTAL added CJK characters: 0
+new-CJK-non-U3000: NONE
+== textlayer-print-vs-web: RC=0 print_chars=39300 web_chars=39299 multiset_diff=1 nonws_diff=0
+== text.md: UNCHANGED d4d0c6c1a0048b9f2fa3248c0b5868058a3599bf75d253188301f3ad0a5a8fa1
+GATES 2026-w47-it-ko: ALL-GREEN

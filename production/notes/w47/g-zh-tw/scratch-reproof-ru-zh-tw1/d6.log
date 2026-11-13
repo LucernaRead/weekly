@@ -1,0 +1,22 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+p8-extract keys type: <class 'dict'> ['p8', 'total', 'how', 'noted_set', 'keys']
+key 20 ctx: 7", "4": "16", "5": "20", "6": "21", "7": "A", "8": "A", "9": "B", "10": "A", "11": "B", "12": "B", "13": "B", "14": "C", "15": "B", "16": "
+key 25 ctx: : "17", "24": "18", "25": "b", "26": "d", "27": "c", "28": "a", "29": "B", "30": "A", "31": "B", "32": "C", "33": "A", "34": "выходят", "35"
+text.md lines: 838
+L173: 20. [B1 · 完成句子] Дети пишут Деду Морозу о своём ___. — key: желании (желание = 願望) [填空]
+L187: 25. 17 ноября — День студента (key b · 大學生節 b)
+L694: 20. желании — желание = 願望
+Международный день студента in text.md count: 2
+Международный день студента in P2 SVG count: 0
+print P8 has 'желании': True
+print P2 has 'День студента' (joined): True
+p1.png 2641 3657
+p2.png 2641 3657
+p3.png 2641 3657
+p4.png 2641 3657
+p5.png 2641 3657
+p6.png 2641 3657
+p7.png 2641 3657
+p8.png 2641 3657
+p6 chart crop 5520 600

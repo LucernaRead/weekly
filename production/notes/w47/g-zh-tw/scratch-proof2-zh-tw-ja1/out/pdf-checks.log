@@ -1,0 +1,31 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+Lucerna-VOL4-JA.pdf pages: 8 size: Rect(0.0, 0.0, 1462.5, 2025.0)
+  P8 min font: 9.75 max: 34.5 n spans: 606
+  p1 chars=1656
+  p2 chars=2172
+  p3 chars=2388
+  p4 chars=1807
+  p5 chars=2561
+  p6 chars=1903
+  p7 chars=2364
+  p8 chars=6179
+Lucerna-VOL4-JA-web.pdf pages: 8 size: Rect(0.0, 0.0, 1462.5, 2025.0)
+  P8 min font: 9.75 max: 34.5 n spans: 606
+  p1 chars=1656
+  p2 chars=2172
+  p3 chars=2388
+  p4 chars=1807
+  p5 chars=2561
+  p6 chars=1903
+  p7 chars=2364
+  p8 chars=6179
+--- per-page print vs web multiset diff ---
+  page 1: multiset diff 0; only-print [] only-web []
+  page 2: multiset diff 0; only-print [] only-web []
+  page 3: multiset diff 0; only-print [] only-web []
+  page 4: multiset diff 0; only-print [] only-web []
+  page 5: multiset diff 0; only-print [] only-web []
+  page 6: multiset diff 0; only-print [] only-web []
+  page 7: multiset diff 0; only-print [] only-web []
+  page 8: multiset diff 0; only-print [] only-web []

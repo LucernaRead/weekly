@@ -1,0 +1,11 @@
+p1-front.svg: els 200->240 lines 124->124 diff 2 moved 4 defects 0 observe 0
+p2-life.svg: els 245->281 lines 158->158 diff 0 moved 4 defects 0 observe 0
+p3-culture.svg: els 209->241 lines 166->166 diff 5 moved 1 defects 0 observe 0
+p4-sport.svg: els 221->249 lines 172->172 diff 0 moved 1 defects 0 observe 0
+p5-youth.svg: els 190->217 lines 147->148 diff 45 moved 7 defects 0 observe 0
+p6-deep.svg: els 213->240 lines 169->169 diff 70 moved 39 defects 0 observe 0
+p7-lang.svg: els 254->305 lines 180->180 diff 12 moved 1 defects 0 observe 0
+p8-test.svg: els 266->316 lines 192->203 diff 107 moved 30 defects 0 observe 0
+ratios: n=472 median=1.008 boldT=0.956 boldF=1.026
+P8 p8-test.svg: lines 192->203 slack_footer 47.8->36.3
+CREAMBOX PASS 0 defects

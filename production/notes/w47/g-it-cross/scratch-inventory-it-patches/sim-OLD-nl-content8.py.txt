@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "Maak zinnen", "Il torrone si assaggia a Cremona.", "Onderwerp + werkwoord",
+      "il torrone / si assaggia / a Cremona → ___", instr="Maak zinnen", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Vertalen", "Voor de Madonna della Salute steken mensen de geloftebrug over.", "Vergelijk met het origineel",
++f.ex("A2", "翻译", "Voor de Madonna della Salute steken mensen de geloftebrug over.", "Vergelijk met het origineel",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Vertaal in het Nederlands", size=15.5, gap=1)
+-f.ex("B1", "Vertalen", "Zondagavond speelt Atalanta tegen Inter.", "si gioca = wordt gespeeld",
++f.ex("B1", "翻译", "Zondagavond speelt Atalanta tegen Inter.", "si gioca = wordt gespeeld",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Vertaal in het Nederlands", size=15.5, gap=1)
+-f.ex("B1", "Vertalen", "Zaterdag speelt Lazio thuis tegen Lecce.", "in casa = thuis",
++f.ex("B1", "翻译", "Zaterdag speelt Lazio thuis tegen Lecce.", "in casa = thuis",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Vertaal in het Nederlands", size=15.5, gap=1)
+-f.ex("B2", "Vertalen", "Ogni cifra deve essere chiara.", "dovere = moeten",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = moeten",
+      "Elk getal moet duidelijk zijn. → ___", instr="Vertaal in het Italiaans", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Koppel de woorden",

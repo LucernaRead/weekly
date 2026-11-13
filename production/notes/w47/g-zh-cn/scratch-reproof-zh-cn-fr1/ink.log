@@ -1,0 +1,75 @@
+--- D-1 P1 numbers-box title (tsize 21) ---
+  svg: p1-touiban.svg  needle: '数字看本周'  baselines found: 1
+  baseline y=1145.3  joined='数字看本周\u3000Cette semaine en chiffres'
+  runs: [(556.5, 21.0, 'Noto Sans CJK SC', True, '数字看本周\u3000Cette semaine en chiffres')]
+  PIL true-ink right edge: 942.5 px
+  box rect: x=538.5 y=1110.2649999999999 w=422.5 h=324.0 -> right=961.0
+  MARGIN (box right - ink right): +18.5 px
+--- D-2 P1 bouclage line (size 18) ---
+  svg: p1-touiban.svg  needle: 'Bouclage : 10 nov. — la finale pas encore jouée'  baselines found: 1
+  baseline y=1252.0  joined='Bouclage : 10 nov. — la finale pas encore jouée'
+  runs: [(1461.5, 18.0, 'Noto Sans CJK SC', False, 'Bouclage : 10 nov. — la finale pas encore jouée')]
+  PIL true-ink right edge: 1848.5 px
+  box rect: x=1439.5 y=588.0 w=422.5 h=700.0 -> right=1862.0
+  MARGIN (box right - ink right): +13.5 px
+--- D-3 P2 calendar-box title (tsize 22) ---
+  svg: p2-shenghuo.svg  needle: 'Dates de la semaine'  baselines found: 1
+  baseline y=236.0  joined='本周生活小日历\u3000Dates de la semaine'
+  runs: [(1007.0, 22.0, 'Noto Sans CJK SC', True, '本周生活小日历\u3000Dates de la semaine')]
+  PIL true-ink right edge: 1397.0 px
+  box rect: x=989.0 y=200.0 w=422.5 h=246.0 -> right=1411.5
+  MARGIN (box right - ink right): +14.5 px
+--- D-4 P1 film line single-line check ---
+  baselines containing the film line: 1
+  baseline y=1337.3 joined='21 nov., samedi — le film 《试探》 sort'
+  PIL advance of full line @20pt serif: 349.9 px
+  box rect: x=538.5 y=1110.2649999999999 w=422.5 h=324.0 -> inner width 386.5 px
+  SINGLE-LINE: advance 349.9 <= inner 386.5 -> slack +36.6 px
+  PIL true-ink right edge: 907.0 vs box right 961.0 -> margin +54.0 px
+--- Survivor P4 gloss box (sìqiáng 四强) ---
+  baselines containing gloss: 1
+  baseline y=595.9 box y=557.36 h=234.85 bottom=792.2 ink bottom=600.9 margin=+191.4 joined='Notes｜sìqiáng 四强 — les quatre'...
+  deepest gloss ink bottom 600.9 vs box bottom 792.2 -> margin +191.4 px
+{
+ "D1": {
+  "label": "D-1 P1 numbers-box title (tsize 21)",
+  "ink_right": 942.5,
+  "box_right": 961.0,
+  "margin": 18.5,
+  "baseline_y": 1145.3,
+  "font_size": 21.0,
+  "bold": true
+ },
+ "D2": {
+  "label": "D-2 P1 bouclage line (size 18)",
+  "ink_right": 1848.5,
+  "box_right": 1862.0,
+  "margin": 13.5,
+  "baseline_y": 1252.0,
+  "font_size": 18.0,
+  "bold": false
+ },
+ "D3": {
+  "label": "D-3 P2 calendar-box title (tsize 22)",
+  "ink_right": 1397.0,
+  "box_right": 1411.5,
+  "margin": 14.5,
+  "baseline_y": 236.0,
+  "font_size": 22.0,
+  "bold": true
+ },
+ "D4": {
+  "baselines": 1,
+  "advance": 349.9,
+  "inner_width": 386.5,
+  "slack": 36.6,
+  "ink_right": 907.0,
+  "box_right": 961.0,
+  "ink_margin": 54.0
+ },
+ "P4_gloss": {
+  "ink_bottom": 600.9,
+  "box_bottom": 792.2,
+  "margin": 191.4
+ }
+}

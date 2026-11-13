@@ -1,0 +1,77 @@
+===== 2026-w47-ko-de =====
+-- gate RCs:
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+-- run TOTAL/warnings:
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+-- census:
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+-- quotes:
+GRAND TOTAL defective: 0
+-- head_check findings:
+[]
+-- occlusion:
+flags: 0
+-- p8:
+CLEAN total 150
+extract noted: 150
+-- freeze baseline:
+baseline: 7/8 SVGs byte-identical (repointed files: none)
+-- freeze diff:
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 590 (unexpected 590)
+-- spill:
+SPILL_SWEEP 2026-w47-ko-de: 49 boxes, 358 candidates, 0 SPILL, 358 OBSERVE
+-- boxtitle:
+BOXTITLE 2026-w47-ko-de: 73 titles, 968 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+-- edge:
+EDGE_SCAN 2026-w47-ko-de: 8 pages, 0 TOUCH, 0 NEAR
+-- creambox:
+p8-siheom.svg: els 333->1373 lines 231->215 diff 145 moved 77 defects 0 observe 0
+CREAMBOX PASS 0 defects
+-- textlayer:
+TEXTLAYER PASS
+-- p8 keys (check_p8keys.py):
+keys found: 150 numbers 1-150
+missing numbers: []
+  12. A — 13,4 % unter dem Durchschnitt der Vorjahre
+  13. A — 6 Sorten Kimjang-Zutaten im Angebot
+  22. 1.8 — Chilipulver wurde 1,8 % billiger
+  47. A — Samsungs neunter Titel insgesamt
+  74. 8 — Verlorener Ausweis: bis 8 Uhr am Tag melden
+  102. A — Der Kimchi-Tag wurde im Feb. 2020 gesetzlich festgelegt
+  125. B — Duryunsan: Forstbehörde-Prognose, Höhepunkt 11. Nov.
+stale-key problems: none
+-- print PDF spot checks (pdftotext):
+  [1] 김장비용은 평년보다 어떻게 됐어요
+  [1] 할인 행사에서 김장 재료는 몇 종을 팔아요
+  [2] 고춧가루는
+  [1] 삼성의 우승은 통산 몇 번째예요
+  [1] 수험표를 잃어버리면 당일 아침
+  [1] 김치의 날은 언제 법으로 정해졌어요
+  [2] 다른 날의 조치가 아니에요
+  [old F2 sentence] 0 (want 0)
+-- files:
+  35717 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/2026-w47-ko-de.text.md
+  3956937 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/Lucerna-VOL4-KO-DE-web.pdf
+  43754319 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/Lucerna-VOL4-KO-DE.pdf
+4b1a54ce3040  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/Lucerna-VOL4-KO-DE-web.pdf
+8d217beb86ae  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/Lucerna-VOL4-KO-DE.pdf
+3dfdf675b4f6  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ko-de/2026-w47-ko-de.text.md
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch

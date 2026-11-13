@@ -1,0 +1,9 @@
+- D1 簡體殘留「准」→「準」（翻譯映射 准→準；`zoom_note` 與 `n_vf1` 各一處，現 expl.py 准 0 個、準 2 個；核心本身正確簡體，未動核心）。
+- D2 孤兒 。×3 修（均縮短使句號不獨行，重掃 0 新增）：
+  (1) P2 gloss 框 `bridge_valise`：`註｜virgule 逗號　voter 投票　fêter 慶祝　une valise 行李箱。` 刪 `une `（1 行）；
+  (2) P2 ET VOUS 框 `etvous_note`：`說說話你的11月19日：用法語寫兩句寄來。` 刪 `話`（1 行）；
+  (3) P3 ZOOM 框 `zoom_note`：刪 `這場約會的`（2 行，句號落於第 2 行行末）。
+  改動頁：P2、P3（另 P8 為核心 fix4 之 Q148）。
+- P4 殘留（只記錄，不修）：`chiffres_note` 繁體釋義 `大師賽決賽結果與杜林名單見本版正文。` 仍 387.0px、折 2 行，句號獨行於 P4 y=550.53（該基線僅此一元素，確為視覺孤兒）。核心 fix4 刪的是法文注裡的「決賽」，讀者語釋義未同步——按任務“只記錄”留給 proof2 定奪。
+- P7 披露框：zh-tw 版原先即 2 行、末基線 2233.3、清除 +24.7，重建後 creambox 重測仍干净；PIL 真墨末行至 svg y=2235.4，間隙零墨。
+- 核心 fix4 落地：Q148 键 `devant`→`devant le`、题干 `On se retrouve ___ du cinéma ?`→`On se retrouve ___ cinéma ?`（仅 P8 哈希变；P8 注记 148 亦随键变为 `devant le`）。

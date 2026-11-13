@@ -1,0 +1,24 @@
+== Q73 four-source ==
+registry: up | note: speak up = говорить открыто
+text.md:1151: 73. [A2] Дополнить предложения — up (speak up = говорить открыто)
+p8 extract key 73: 'up'
+P5 stem present: True
+P5 'speak up = говорить открыто' gloss present: True
+P8 'up' key segment present: True
+== D1 triple ==
+content12.py:85: p.text(gx + 22, byy + 76, "Относительный интерес, не точные.", 19, "sans", False, GREY)
+map-ru.json:228: "相对热度示意，非精确搜索量。": "Относительный интерес, не точные.",
+map value for key: Относительный интерес, не точные.
+P1 SVG gloss present: True | old gloss absent: True
+== 3-source 150 ==
+answers parsed: 150
+3-source mismatches: NONE (150/150, #150 short-label exception noted)
+== quotes / banned ==
+text.md 201C/201D/2019: 81 81 0
+svg 201C/201D/2019: 82 82 0
+banned words in text.md: 0
+== orphan visual-line scan (group <text> by y, check line head/tail punct) ==
+orphan visual-line count: 0
+== D5 font inventory (record only) ==
+total <text>: 1798 distinct sizes: 26
+[('24', 465), ('21.5', 183), ('22', 167), ('20.5', 166), ('19', 162), ('23', 147), ('23.5', 131), ('13.5', 75), ('19.5', 71), ('20', 53), ('17', 34), ('25', 34), ('21', 21), ('46', 15), ('18', 15), ('15.5', 13), ('32', 11), ('28', 11), ('22.5', 9), ('36', 5), ('27', 3), ('18.5', 2), ('26', 2), ('196', 1), ('16', 1), ('53', 1)]

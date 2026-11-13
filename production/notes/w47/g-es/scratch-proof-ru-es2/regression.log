@@ -1,0 +1,98 @@
+=== REGRESSION: text.md backup-old vs new (expect exactly 6 line pairs) ===
+173c173
+< 20. [B1 · Completar] Дети пишут Деду Морозу о своём ___. — key: желание (желание = un deseo) [Completar]
+---
+> 20. [B1 · Completar] Дети пишут Деду Морозу о своём ___. — key: желании (желание = un deseo) [Completar]
+187c187
+< 25. 17 ноября — Международный день студента (key b · Día del Estudiante b)
+---
+> 25. 17 ноября — День студента (key b · Día del Estudiante b)
+459c459
+< ### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · DATOS DE PRÁCTICA
+---
+> ### ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ? · УЧЕБНЫЕ ДАННЫЕ · DATOS DE PRÁCTICA
+504c504
+< ### ЯЗЫК · LENGUA — Фокус на язык · Tres niveles, tres temas
+---
+> ### ЯЗЫК · LENGUA — Фокус на язык · Три уровня, три темы · Tres niveles, tres temas
+596c596
+< ### ТЕСТ И ОТВЕТЫ · TEST Y RESPUESTAS — PÁGINA 8 · El gran test de la semana + todas las respuestas
+---
+> ### ТЕСТ И ОТВЕТЫ · TEST Y RESPUESTAS — PÁGINA 8 · Большой тест недели + все ответы
+694c694
+< 20. желание — желание = un deseo
+---
+> 20. желании — желание = un deseo
+--- diff line count: 12
+
+=== REGRESSION: content*.py backup vs new ===
+content12.py: DIFFERS
+content34.py: IDENTICAL
+content56.py: DIFFERS
+content7.py: DIFFERS
+content8.py: DIFFERS
+run.py: IDENTICAL
+render.py: IDENTICAL
+ru_textmd.py: IDENTICAL
+svglib.py: IDENTICAL
+bslib4.py: IDENTICAL
+check_core.py: IDENTICAL
+
+=== REGRESSION: ABSTRACT.txt backup vs new ===
+IDENTICAL
+
+=== REGRESSION: SVG <text> multiset diff backup vs new (per page) ===
+--- p1-pervaya.svg: changed runs: 18 distinct 6
+    x7 '  '
+    x7 ' '
+    x1 '—  '
+    x1 ',  '
+    x1 '— '
+    x1 ', '
+--- p2-zhizn.svg: changed runs: 4 distinct 4
+    x1 'День'
+    x1 ' '
+    x1 'день'
+    x1 'Международный'
+--- p3-kultura.svg: changed runs: 0 distinct 0
+--- p4-sport.svg: changed runs: 0 distinct 0
+--- p5-molodezh.svg: changed runs: 0 distinct 0
+--- p6-razbor.svg: changed runs: 26 distinct 18
+    x9 ' '
+    x1 'редакции'
+    x1 '— '
+    x1 'не'
+    x1 '?\u3000'
+    x1 'УЧЕБНЫЕ'
+    x1 'ДАННЫЕ'
+    x1 '\u3000DATOS DE PRÁCTICA'
+    x1 'Это'
+    x1 'учебный'
+    x1 'опрос'
+    x1 'для'
+    x1 'упражнений'
+    x1 'настоящая'
+    x1 'статистика'
+    x1 '. Esta es una encuesta de práctica de la redacción — no son estadísticas reales.'
+    x1 '?\u3000DATOS DE PRÁCTICA'
+    x1 'Esta es una encuesta de práctica de la redacción — no son estadísticas reales.'
+--- p7-yazyk.svg: changed runs: 8 distinct 7
+    x2 ' '
+    x1 '\u3000'
+    x1 'Три'
+    x1 'уровня'
+    x1 ', '
+    x1 'три'
+    x1 'темы'
+--- p8-test.svg: changed runs: 14 distinct 11
+    x4 ' '
+    x1 'PÁGINA 8\u3000'
+    x1 'Большой'
+    x1 'тест'
+    x1 'недели'
+    x1 '+ '
+    x1 'все'
+    x1 'ответы'
+    x1 'желании'
+    x1 'PÁGINA 8\u3000El gran test de la semana + todas las respuestas'
+    x1 'желание'

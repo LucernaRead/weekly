@@ -1,0 +1,16 @@
+[PIL-advance] lines=1462 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[svglib-advance] lines=1462 class-a=0 class-b=0 per-page={1: {'a': 0, 'b': 0}, 2: {'a': 0, 'b': 0}, 3: {'a': 0, 'b': 0}, 4: {'a': 0, 'b': 0}, 5: {'a': 0, 'b': 0}, 6: {'a': 0, 'b': 0}, 7: {'a': 0, 'b': 0}, 8: {'a': 0, 'b': 0}}
+[brute-force] <text> elements starting with a closer: 0; leftmost-on-baseline: 0
+[D8 P6 caption lines]
+   {'needle': 'Übungsdaten: erfundene Zahlen', 'x': 1461.5, 'y': 635.0200000000001, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': 'Übungsdaten: erfundene Zahlen, nur zum'}
+   {'needle': 'steckst du in deinen Schuh', 'x': 1461.5, 'y': 683.86, 'size': 18.5, 'fam': 'Noto Sans CJK SC', 'text': 'steckst du in deinen Schuh? (100 junge'}
+[D10 P7 dt_zh lines]
+   {'needle': 'Keine echten Briefe', 'x': 1461.5, 'y': 1783.7699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': 'Keine echten Briefe — Beispiel;'}
+   {'needle': 'Versprechen für VOL.5', 'x': 1461.5, 'y': 1812.1699999999998, 'size': 20.0, 'fam': 'Noto Sans CJK SC', 'text': 'Versprechen für VOL.5.'}
+[D6 P3 bridge lines]
+   {'needle': 'Ergänze im Perfekt', 'x': 538.5, 'y': 2303.5, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'Ergänze im Perfekt. Achte auf die'}
+   {'needle': 'Hilfsverben hebben', 'x': 538.5, 'y': 2333.225, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'Hilfsverben hebben/zijn.'}
+[D7 P7 bridge lines]
+   {'needle': 'de wedstrijd Spiel', 'x': 88.0, 'y': 725.6600000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'de wedstrijd Spiel; de groepswinst'}
+   {'needle': 'scoren treffen', 'x': 88.0, 'y': 785.1100000000001, 'size': 20.5, 'fam': 'Noto Sans CJK SC', 'text': 'scoren treffen.'}
+counts: {'a_pil': 0, 'b_pil': 0, 'a_svglib': 0, 'b_svglib': 0, 'brute_leftmost': 0}

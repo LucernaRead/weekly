@@ -1,0 +1,915 @@
+== core SVG badge labels (same method) ==
+production/2026-w47/core-ja/svg/p1-hyoushi.svg A2= 11 B1= 2 B2= 1 sum= 14
+production/2026-w47/core-ja/svg/p2-kurashi.svg A2= 15 B1= 0 B2= 0 sum= 15
+production/2026-w47/core-ja/svg/p3-bunka.svg A2= 7 B1= 8 B2= 0 sum= 15
+production/2026-w47/core-ja/svg/p4-supotsu.svg A2= 0 B1= 18 B2= 0 sum= 18
+production/2026-w47/core-ja/svg/p5-wakamono.svg A2= 0 B1= 18 B2= 0 sum= 18
+production/2026-w47/core-ja/svg/p6-fukayomi.svg A2= 0 B1= 0 B2= 18 sum= 18
+production/2026-w47/core-ja/svg/p7-kotoba.svg A2= 4 B1= 4 B2= 4 sum= 12
+production/2026-w47/core-ja/svg/p8-tesuto.svg A2= 9 B1= 22 B2= 4 sum= 35
+== de vs core P1 >A2< contexts ==
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="1378.035" font-family="Noto Sans CJK JP" font-size="24"
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="1463.8100000000002" font-family="Noto Sans CJK JP" font
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="1549.5850000000003" font-family="Noto Sans CJK JP" font
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="1635.3600000000004" font-family="Noto Sans CJK JP" font
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="1721.1350000000004" font-family="Noto Sans CJK JP" font
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="1061.0" y="858.36" font-family="Noto Sans CJK JP" font-size="24" 
+  ...o Sans CJK JP" font-size="18" font-weight="700" fill="#46581f" text-anchor="end">A2</text><text x="1461.5" y="1425" font-family="Noto Sans CJK JP" font-size="21" fo
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="160.0" y="2423" font-family="Noto Sans CJK JP" font-size="24" fon
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="610.5" y="2423" font-family="Noto Sans CJK JP" font-size="24" fon
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="1061.0" y="2423" font-family="Noto Sans CJK JP" font-size="24" fo
+  ...ans CJK JP" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">A2</text><text x="1511.5" y="2423" font-family="Noto Sans CJK JP" font-size="24" fo
+== text.md Antworten check ==
+production/2026-w47/fanout-ja/2026-w47-ja-de/2026-w47-ja-de.text.md Antworten= 8 参考答案= 0 Übungen= 6 练习= 0 答え= 14
+production/2026-w47/core-ja/2026-w47-ja-zh-cn.text.md Antworten= 0 参考答案= 1 Übungen= 0 练习= 8 答え= 14
+== diff core-text vs de-text: changed line pairs ==
+core lines: 1356 de lines: 1376
+--- replace core[0:1] de[0:1] ---
+  C: # 2026-w47-ja-zh-cn
+  D: # 2026-w47-ja-de
+--- replace core[7:8] de[7:8] ---
+  C: 毎週、日本語で　每周一期　日本人が読んでいる日本語を読む
+  D: 毎週、日本語で　Wöchentlich　日本人が読んでいる日本語を読む
+--- replace core[14:17] de[14:17] ---
+  C: 周四是二之酉
+  C: 两位横纲2胜1负　详见第4版
+  C: トップニュース　头条
+  D: Donnerstag ist Ni-no-tori
+  D: Beide Yokozuna stehen 2–1　Siehe Seite 4
+  D: トップニュース　Topmeldung
+--- replace core[42:46] de[42:46] ---
+  C: 译注｜解禁 解禁（开始发售）　一番太鼓
+  C: 第一声鼓　千秋楽 最后一天（闭幕日）
+  C: 見頃 最佳观赏期。
+  C: 数字で見る今週　数字看本周
+  D: Anm. — 解禁 der Verkaufsstart　一番太
+  D: 鼓 die erste Trommel　千秋楽 der letzte
+  D: Tag　見頃 die beste Besichtigungszeit.
+  D: 数字で見る今週　Die Woche in Zahlen
+--- replace core[51:52] de[51:52] ---
+  C: 今すぐ練習　即学即练
+  D: 今すぐ練習　Jetzt üben
+--- replace core[84:86] de[84:86] ---
+  C: 来源与日期见各篇文章，非精确统计
+  C: この号の内容　本期目录
+  D: Quellen und Daten in den Artikeln
+  D: この号の内容　In dieser Ausgabe
+--- replace core[106:108] de[106:108] ---
+  C: 全部
+  C: 今週のことば　本周单词
+  D: Alle Stufen
+  D: 今週のことば　Wort der Woche
+--- replace core[111:113] de[111:113] ---
+  C: 熊手＝ 酉之市买的竹耙，祈求生意兴隆、把福气搂
+  C: 进来。
+  D: 熊手 = der Bambusrechen vom Tori-no-ichi, ein
+  D: Glücksbringer für florierende Geschäfte.
+--- replace core[114:115] de[114:115] ---
+  C: 写真：Poliphilo — CC0（Wikimedia Commons）
+  D: Foto: Poliphilo — CC0 (Wikimedia Commons)
+--- replace core[122:123] de[122:123] ---
+  C: 短いニュース　快讯
+  D: 短いニュース　Kurzmeldungen
+--- replace core[131:133] de[131:133] ---
+  C: クイズ　闪电问答
+  C: 读头版，选出正确答案　答案见第8版
+  D: クイズ　Blitzquiz
+  D: Lies die Titelseite und wähle die richtige Antwort　Antworten auf Seite 8
+--- replace core[149:151] de[149:151] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第1版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 1 von 8
+--- replace core[156:157] de[156:157] ---
+  C: レベル A2　酉の市と熊手　酉之市与熊手
+  D: レベル A2　酉の市と熊手　Tori-no-ichi und kumade
+--- replace core[174:176] de[174:177] ---
+  C: 译注｜夜通し 整夜　露店 摊位　威勢よく
+  C: 精神抖擞地　かき込む 搂进来。
+  D: Anm. — 夜通し die ganze Nacht　露店
+  D: Stände　威勢よく laut und fröhlich　か
+  D: き込む hereinharken.
+--- replace core[187:189] de[188:190] ---
+  C: 译注｜二十四節気 二十四节气　働く 工作
+  C: 　年末 年底。
+  D: Anm. — 二十四節気 die 24 Jahreszeiten
+  D: 　働く arbeiten　年末 das Jahresende.
+--- replace core[198:199] de[199:200] ---
+  C: あなたは？　说说你自己
+  D: あなたは？　Jetzt du
+--- replace core[202:206] de[203:208] ---
+  C: 你呢？二之酉想买什么样的熊手？写两句
+  C: 日语寄来。
+  C: 11月のことば　11月词语
+  C: 酉の市と秋の4つの言葉　关于酉之市与秋天的四个词
+  D: Welche kumade möchtest du dir bei
+  D: Ni-no-tori kaufen? Schreib zwei Sätze
+  D: auf Japanisch und schick sie uns.
+  D: 11月のことば　Wörter im November
+  D: 酉の市と秋の4つの言葉　Vier Wörter zu Tori-no-ichi und Herbst
+--- replace core[208:209] de[210:211] ---
+  C: 祈求生意兴隆的竹耙
+  D: Bambusrechen für florierende Geschäfte
+--- replace core[211:212] de[213:214] ---
+  C: 用拍手庆祝
+  D: mit Händeklatschen feiern
+--- replace core[214:215] de[216:217] ---
+  C: 开始发售的日子
+  D: der Tag des Verkaufsstarts
+--- replace core[217:218] de[219:220] ---
+  C: 雪开始下一点的时候
+  D: wenn ein wenig Schnee zu fallen beginnt
+--- replace core[219:221] de[221:223] ---
+  C: 練習　第2版练习
+  C: 答案见第8版　题目可跨级混排，按题号找答案
+  D: 練習　Übungen Seite 2
+  D: Antworten auf Seite 8　Die Stufen sind gemischt — nach der Nummer suchen
+--- replace core[247:248] de[249:250] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[251:252] de[253:254] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[255:256] de[257:258] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[259:260] de[261:262] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[263:264] de[265:266] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[269:270] de[271:272] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[273:274] de[275:276] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[277:278] de[279:280] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[281:282] de[283:284] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[286:287] de[288:289] ---
+  C: 把词和释义配对
+  D: Zuordnen
+--- replace core[295:297] de[297:299] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第2版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 2 von 8
+--- replace core[302:303] de[304:305] ---
+  C: レベル A2→B1　ボジョレーと秋の味　博若莱与秋味
+  D: レベル A2→B1　ボジョレーと秋の味　Beaujolais und Herbstgeschmack
+--- replace core[322:324] de[324:327] ---
+  C: 译注｜収穫 收获　解禁日 解禁日　出来栄
+  C: え 今年的品质　味覚 味觉。
+  D: Anm. — 収穫 die Ernte　解禁日 der
+  D: Freigabetag　出来栄え die diesjährige
+  D: Qualität　味覚 der Geschmack.
+--- replace core[333:335] de[336:338] ---
+  C: 译注｜屋台 路边摊　にぎやか 热闹　味わ
+  C: う 品味。
+  D: Anm. — 屋台 Essensstände　にぎやか
+  D: lebhaft　味わう genießen.
+--- replace core[337:339] de[340:341] ---
+  C: 写真：Alainauzas — パブリックドメイン（Wikimedia
+  C: Commons）
+  D: Foto: Alainauzas — gemeinfrei (Wikimedia Commons)
+--- replace core[346:347] de[348:349] ---
+  C: あなたは？　说说你自己
+  D: あなたは？　Jetzt du
+--- replace core[350:354] de[352:358] ---
+  C: 你呢？新酒与秋味中想享受什么？写两句
+  C: 日语寄来。
+  C: 練習　第3版练习
+  C: 答案见第8版　题目可跨级混排，按题号找答案
+  D: Was möchtest du vom neuen Wein und
+  D: den Herbstgeschmäcken genießen?
+  D: Schreib zwei Sätze auf Japanisch und
+  D: schick sie uns.
+  D: 練習　Übungen Seite 3
+  D: Antworten auf Seite 8　Die Stufen sind gemischt — nach der Nummer suchen
+--- replace core[382:383] de[386:387] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[386:387] de[390:391] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[390:391] de[394:395] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[394:395] de[398:399] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[398:399] de[402:403] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[404:405] de[408:409] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[409:410] de[413:414] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[413:414] de[417:418] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[417:418] de[421:422] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[422:423] de[426:427] ---
+  C: 把词和释义配对
+  D: Zuordnen
+--- replace core[431:433] de[435:437] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第3版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 3 von 8
+--- replace core[438:439] de[442:443] ---
+  C: レベル B1　相撲3日目まで　相扑前三天
+  D: レベル B1　相撲3日目まで　Sumo: die ersten drei Tage
+--- replace core[467:469] de[471:474] ---
+  C: 译注｜波乱 出乎意料　ねらう 瞄准　金星
+  C: 打败横纲的胜利　初土俵 首次登场。
+  D: Anm. — 波乱 eine Überraschung　ねらう
+  D: anvisieren　金星 ein Sieg über einen
+  D: Yokozuna　初土俵 ein Debüt.
+--- replace core[484:485] de[489:491] ---
+  C: 译注｜前号 上一期　星取 战绩。
+  D: Anm. — 前号 die letzte Ausgabe　星取
+  D: die Sieg-Niederlage-Bilanz.
+--- replace core[501:503] de[507:509] ---
+  C: 練習　第4版练习
+  C: 答案见第8版　题目可跨级混排，按题号找答案
+  D: 練習　Übungen Seite 4
+  D: Antworten auf Seite 8　Die Stufen sind gemischt — nach der Nummer suchen
+--- replace core[530:531] de[536:537] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[534:535] de[540:541] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[538:539] de[544:545] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[542:543] de[548:549] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[546:547] de[552:553] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[571:572] de[577:578] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[575:576] de[581:582] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[579:580] de[585:586] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[583:584] de[589:590] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[585:587] de[591:593] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第4版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 4 von 8
+--- replace core[592:593] de[598:599] ---
+  C: レベル B1　流行語30と紅葉の写真　流行语30与红叶照片
+  D: レベル B1　流行語30と紅葉の写真　30 Schlagwörter und Herbstlaub
+--- replace core[613:615] de[619:622] ---
+  C: 译注｜暮らし 生活　映す 反映　世の中 社
+  C: 会　楽曲 歌曲。
+  D: Anm. — 暮らし das Leben　映す
+  D: spiegeln　世の中 die Gesellschaft　楽曲
+  D: ein Lied.
+--- replace core[623:624] de[630:632] ---
+  C: 译注｜上げる 上传　季節 季节。
+  D: Anm. — 上げる hochladen　季節 die
+  D: Jahreszeit.
+--- replace core[626:627] de[634:635] ---
+  C: 写真：lumoplank — CC0（Wikimedia Commons）
+  D: Foto: lumoplank — CC0 (Wikimedia Commons)
+--- replace core[635:636] de[643:644] ---
+  C: あなたは？　说说你自己
+  D: あなたは？　Jetzt du
+--- replace core[640:644] de[648:654] ---
+  C: 你呢？今年30个流行语中，最喜欢哪一
+  C: 个？写两句日语寄来。
+  C: 練習　第5版练习
+  C: 答案见第8版　题目可跨级混排，按题号找答案
+  D: Welches der 30 Schlagwörter dieses
+  D: Jahres gefällt dir am besten? Schreib
+  D: zwei Sätze auf Japanisch und schick sie
+  D: uns.
+  D: 練習　Übungen Seite 5
+  D: Antworten auf Seite 8　Die Stufen sind gemischt — nach der Nummer suchen
+--- replace core[671:672] de[681:682] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[675:676] de[685:686] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[679:680] de[689:690] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[683:684] de[693:694] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[687:688] de[697:698] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[694:695] de[704:705] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[698:699] de[708:709] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[702:703] de[712:713] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[706:707] de[716:717] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[712:713] de[722:723] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[717:718] de[727:728] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[722:723] de[732:733] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[726:727] de[736:737] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[728:730] de[738:740] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第5版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 5 von 8
+--- replace core[735:736] de[745:746] ---
+  C: レベル B2　紅葉は京都へ　红叶移向京都
+  D: レベル B2　紅葉は京都へ　Herbstlaub zieht nach Kyoto
+--- replace core[766:768] de[776:779] ---
+  C: 译注｜平地 平地　落葉はじめ 开始落叶
+  C: 決めつける 断定　確かめる 确认。
+  D: Anm. — 平地 Flachland　落葉はじめ die
+  D: ersten fallenden Blätter　決めつける
+  D: behaupten　確かめる prüfen.
+--- replace core[777:779] de[788:790] ---
+  C: グラフを読もう　读图表
+  C: 練習用データ　练习数据
+  D: グラフを読もう　Diagramm lesen
+  D: 練習用データ　Übungsdaten
+--- replace core[789:791] de[800:802] ---
+  C: 練習　第6版练习
+  C: 答案见第8版　题目可跨级混排，按题号找答案
+  D: 練習　Übungen Seite 6
+  D: Antworten auf Seite 8　Die Stufen sind gemischt — nach der Nummer suchen
+--- replace core[822:823] de[833:834] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[826:827] de[837:838] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[830:831] de[841:842] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[834:835] de[845:846] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[838:839] de[849:850] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[842:843] de[853:854] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[848:849] de[859:860] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[852:853] de[863:864] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[856:857] de[867:868] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[860:861] de[871:872] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[867:868] de[878:879] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[871:872] de[882:883] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[875:876] de[886:887] ---
+  C: 判断
+  D: Richtig/Falsch
+--- replace core[877:879] de[888:890] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第6版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 6 von 8
+--- replace core[882:883] de[893:894] ---
+  C: ことば　语言
+  D: ことば　Sprache
+--- replace core[884:885] de[895:896] ---
+  C: 言語フォーカス　三つのレベル、三つのテーマ　三个级别，三个主题
+  D: 言語フォーカス　三つのレベル、三つのテーマ　Drei Stufen, drei Themen
+--- replace core[893:894] de[904:906] ---
+  C: 酉の市 酉之市　熊手 熊手　手締め 拍手
+  D: 酉の市 Tori-no-ichi　熊手 kumade　手締め
+  D: Händeklatschen
+--- replace core[896:897] de[908:909] ---
+  C: 单选
+  D: Auswahl
+--- replace core[901:902] de[913:914] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[905:906] de[917:918] ---
+  C: 单选
+  D: Auswahl
+--- replace core[910:911] de[922:923] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[921:923] de[933:936] ---
+  C: りくりゅう 双人滑　ちいかわ 吉伊卡哇
+  C: ノミネート 提名
+  D: りくりゅう Eiskunstlauf-Paar　ちいかわ
+  D: Chiikawa
+  D: ノミネート Nominierung
+--- replace core[925:926] de[938:939] ---
+  C: 单选
+  D: Auswahl
+--- replace core[930:931] de[943:944] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[934:935] de[947:948] ---
+  C: 单选
+  D: Auswahl
+--- replace core[939:940] de[952:953] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[950:951] de[963:965] ---
+  C: 〜勝〜敗 胜负　金星 金星　〜番目 第〜
+  D: 〜勝〜敗 Sieg–Niederlage　金星 kinboshi
+  D: 〜番目 Nr. 〜
+--- replace core[953:954] de[967:968] ---
+  C: 单选
+  D: Auswahl
+--- replace core[958:959] de[972:973] ---
+  C: 单选
+  D: Auswahl
+--- replace core[963:964] de[977:978] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[968:969] de[982:983] ---
+  C: 填空
+  D: Ausfüllen
+--- replace core[971:972] de[985:986] ---
+  C: まちがい診療所　易错诊所
+  D: まちがい診療所　Fehlerklinik
+--- replace core[975:976] de[989:991] ---
+  C: 有「昨日」时要用过去式。
+  D: Mit 「昨日」 steht das Verb in der
+  D: Vergangenheit.
+--- replace core[979:980] de[994:996] ---
+  C: 动词名词化时要加「こと」。
+  D: Zum Substantivieren eines Verbs 「こと」
+  D: anhängen.
+--- replace core[983:984] de[999:1000] ---
+  C: 买东西的场所用「で」。
+  D: Für den Ort des Kaufens steht 「で」.
+--- replace core[987:989] de[1003:1005] ---
+  C: 动词要用ます形结尾。
+  C: 今週のフレーム　本周句式
+  D: Das Verb im ます-Form beenden.
+  D: 今週のフレーム　Satzmuster der Woche
+--- replace core[992:994] de[1008:1011] ---
+  C: 句式拆解：用熊手把福气搂进来。
+  C: 読者の手紙　读者园地
+  D: Zerlegung: Glück mit einem kumade
+  D: hereinharken.
+  D: 読者の手紙　Leserecke
+--- replace core[1000:1007] de[1017:1022] ---
+  C: ※この手紙は編集部の例です。締め切り
+  C: までに、本当の読者の手紙と第8版の作
+  C: 文の優秀作は届きませんでした。VOL.5
+  C: に載せます。
+  C: 编辑部示例信，非真实来信。截至截稿，
+  C: 未收到真实来信与第8版最佳作文；VOL.5
+  C: 将刊登收到的来信与佳作。
+  D: Beispiel der Redaktion — kein echter
+  D: Brief. Bis zum Redaktionsschluss kamen
+  D: keine echten Briefe und keine besten
+  D: Aufsätze an; beides erscheint in VOL.5.
+  D: Schickt uns euren Brief auf Japanisch!
+--- replace core[1008:1010] de[1023:1025] ---
+  C: 写真：Mozzucu — CC0（Wikimedia Commons）
+  C: 今週のフレーズ　本周金句（逐字摘自本期文章）
+  D: Foto: Mozzucu — CC0 (Wikimedia Commons)
+  D: 今週のフレーズ　Sätze der Woche (wörtlich aus dieser Ausgabe)
+--- replace core[1011:1012] de[1026:1027] ---
+  C: 11月19日星期四是酉之市二之酉。 (第1面)
+  D: Donnerstag, 19. November: Ni-no-tori bei Tori-no-ichi. (S. 1)
+--- replace core[1013:1014] de[1028:1029] ---
+  C: 同一个11月19日星期四也是博若莱新酒的解禁日。 (第1面)
+  D: Derselbe Donnerstag, 19. November, ist auch der Tag der Beaujolais-Freigabe. (S. 1)
+--- replace core[1015:1016] de[1030:1031] ---
+  C: 熊手是祈求生意兴隆的吉祥物。 (第2面)
+  D: Ein kumade ist ein Glücksbringer für florierende Geschäfte. (S. 2)
+--- replace core[1017:1018] de[1032:1033] ---
+  C: 博若莱新酒是法国博若莱地区的新酒。 (第3面)
+  D: Beaujolais Nouveau ist der neue Wein aus Frankreichs Beaujolais-Region. (S. 3)
+--- replace core[1019:1020] de[1034:1035] ---
+  C: 到第三天，大之里和丰升龙都是2胜1负。 (第4面)
+  D: Nach drei Tagen stehen Ōnosato und Hōshōryū beide 2–1. (S. 4)
+--- replace core[1021:1022] de[1036:1037] ---
+  C: 「ryuuryuu」是花样滑冰双人组合。 (第7面)
+  D: ryuuryuu ist ein Eiskunstlauf-Paar. (S. 7)
+--- replace core[1023:1024] de[1038:1039] ---
+  C: 红叶的最佳观赏期正移向京都。 (第1面)
+  D: Die beste Herbstlaubzeit zieht gerade nach Kyoto. (S. 1)
+--- replace core[1025:1027] de[1040:1042] ---
+  C: 酉之市是在11月酉日举行的祭典。 (第2面)
+  C: 来週　下期预告 (VOL.5)
+  D: Tori-no-ichi ist ein Fest an den Hahntagen im November. (S. 2)
+  D: 来週　Nächste Ausgabe (VOL.5)
+--- replace core[1029:1031] de[1044:1046] ---
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第7版／共8版
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 7 von 8
+--- replace core[1034:1035] de[1049:1050] ---
+  C: テストと答え　练习与答案
+  D: テストと答え　Übungen und Antworten
+--- replace core[1116:1117] de[1131:1132] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[1120:1121] de[1135:1136] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[1124:1125] de[1139:1140] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[1128:1129] de[1143:1144] ---
+  C: 造句
+  D: Satz bilden
+--- replace core[1133:1134] de[1148:1149] ---
+  C: 翻译
+  D: Übersetzen
+--- replace core[1137:1138] de[1152:1153] ---
+  C: 翻译
+  D: Übersetzen
+--- replace core[1141:1142] de[1156:1157] ---
+  C: 翻译
+  D: Übersetzen
+--- replace core[1145:1146] de[1160:1161] ---
+  C: 翻译
+  D: Übersetzen
+--- replace core[1151:1152] de[1166:1167] ---
+  C: 把词和释义配对
+  D: Zuordnen
+--- replace core[1178:1180] de[1193:1196] ---
+  C: 写作题（无唯一答案）；范文（154 字）见
+  C: 下。
+  D: Schreibaufgabe (keine einzige richtige
+  D: Antwort); der Mustertext (154 Zeichen) steht
+  D: unten.
+--- replace core[1182:1183] de[1198:1199] ---
+  C: 写作
+  D: Schreiben
+--- replace core[1193:1293] de[1209:1311] ---
+  C: 写真：lumoplank — CC0（Wikimedia Commons）
+  C: 答え　参考答案 — 按版面分页排列，找到题号即可
+  C: 每题附一句中文简析　带 ✓ 的为范文题
+  C: — 第1面 —
+  C: 1. 19 — 二の酉与新酒的解禁日在11月19日（周四）
+  C: 2. 22 — 相扑千秋乐在11月22日（周日）
+  C: 3. 23 — 岚山红叶从11月23日（周一）前后进入见赏期
+  C: 4. 2 — 两位横纲到第3天都是2胜1负
+  C: 5. 19 — 博若莱新酒解禁日在11月19日（周四）
+  C: 6. 熊手 — 熊手是酉之市买的吉祥物
+  C: 7. B — 二の酉在11月19日（周四）
+  C: 8. A — 博若莱新酒解禁日在11月19日（周四）
+  C: 9. B — 到第3天两位横纲都是2胜1负
+  C: 10. C — 岚山红叶从11月23日（周一）前后进入见赏期
+  C: — 第2面 —
+  C: 11. B — 二の酉在11月19日（周四）
+  C: 12. B — 2026年酉之市共2次
+  C: 13. A — 酉之市从0点到24点
+  C: 14. B — 熊手是祈求生意兴隆的吉祥物
+  C: 15. B — 小雪在11月22日（周日）
+  C: 16. 熊手 — 熊手＝祈求生意兴隆的竹耙
+  C: 17. 手締め — 手締め＝买下熊手时打的拍手
+  C: 18. 19 — 二の酉在11月19日（周四）
+  C: 19. 7 — 一之酉在11月7日（周六）
+  C: 20. 勤労感謝の日 — 11月23日（周一）是劳动感谢日
+  C: 21. 0 — 酉之市从0点开始
+  C: 22. 24 — 酉之市开到24点
+  C: 23. 2 — 2026年酉之市共2次
+  C: 24. 22 — 小雪在11月22日（周日）
+  C: 25. b — 熊手＝祈求生意兴隆的竹耙 b
+  C: 26. d — 手締め＝买下熊手时打的拍手 d
+  C: 27. c — 一番太鼓＝0点的鼓 c
+  C: 28. a — 小雪＝雪开始下一点的时候 a
+  C: — 第3面 —
+  C: 29. A — 博若莱新酒是法国的新酒
+  C: 30. B — 解禁日是11月第3个周四
+  C: 31. A — 新酒的葡萄在9月前后收获
+  C: 32. A — 因时差日本最早喝到新酒
+  C: 33. B — 阪神梅田卖约40种新酒
+  C: 34. 解禁 — 解禁＝开始发售的日子
+  C: 35. 収穫 — 収穫＝收获
+  C: 36. 19 — 今年解禁日在11月19日（周四）
+  C: 37. 40 — 阪神梅田卖约40种新酒
+  C: 38. 0 — 解禁从0点开始
+  C: 39. ボジョレー・ヌーヴォーはフランスの新酒です。 — 主语＋说明
+  C: 40. 新酒は11月19日から売られます。 — 时间＋动词
+  C: 41. 屋台で食べ物を買います。 — 场所＋宾语＋动词
+  C: 42. 秋の味覚を味わいます。 — 宾语＋动词
+  C: 43. b — ボジョレー・ヌーヴォー＝法国新酒 b
+  C: 44. d — 解禁＝开始发售 d
+  C: 45. a — 収穫＝收获 a
+  C: 46. c — 屋台＝节日卖食物的摊子 c
+  C: — 第4面 —
+  C: 47. A — 首日战胜大之里的是一之富士
+  C: 48. B — 首日败给丰升龙的是美之海
+  C: 49. A — 第三天战胜丰升龙的是藤凌驾
+  C: 50. B — 到第三天，两位横纲都是2胜1负
+  C: 51. C — 千秋乐在11月22日（周日）
+  C: 52. 2 — 到第三天，大之里赢了2场
+  C: 53. 2 — 丰升龙到第三天也赢了2场
+  C: 54. 11 — 藤凌驾的金星是初登场后第11个场所
+  C: 55. 7 — 金星速度是年6场所制以来第7快
+  C: 56. 8 — 九州场所在11月8日（周日）开幕
+  C: 57. A — 金星＝前头力士战胜横纲
+  C: 58. B — 千秋乐＝场所最后一天
+  C: 59. A — 九州场所在福冈国际中心
+  C: 60. B — 休场3个场所后复出的是丰升龙
+  C: 61. × — 大之里首日输了
+  C: 62. ○ — 丰升龙首日和次日都赢了
+  C: 63. ○ — 藤凌驾第三天拿到金星
+  C: 64. × — 优胜还没决定
+  C: — 第5面 —
+  C: 65. A — 提名30词发表于11月5日（周四）
+  C: 66. A — 「ryuuryuu」是花样滑冰双人组合
+  C: 67. A — 「吉伊卡哇」是大热漫画
+  C: 68. C — 前十名与大奖在12月1日发表
+  C: 69. B — 岚山见赏期从23日前后开始
+  C: 70. 30 — 提名共30词
+  C: 71. 5 — 提名在11月5日发表
+  C: 72. 1 — 前十名在12月1日发表
+  C: 73. 23 — 岚山见赏期从11月23日前后开始
+  C: 74. 暑い — 酷暑日＝非常热的日子
+  C: 75. ○ — 提名共30个词
+  C: 76. × — 前十名还没发表
+  C: 77. × — 「ryuuryuu」不是电影名
+  C: 78. ○ — 岚山见赏期从23日前后开始
+  C: 79. 選ばれ — 反映今年社会的话语选出了30个
+  C: 80. ペア — 「ryuuryuu」是三浦璃来与木原龙一的组合
+  C: 81. 上げる — 把红色枫叶照片上传到SNS的人很多
+  C: 82. 発表 — 前十名在12月1日发表
+  C: — 第6面 —
+  C: 83. B — 宫岛见赏期从11月21日前后开始
+  C: 84. B — 到11月8日，岚山两成开始变色
+  C: 85. B — 岚山开始落叶在12月12日前后
+  C: 86. A — 按日本气象协会预报，岚山见赏期从11月13日开始
+  C: 87. A — 预报因公司而异是因为见赏期的定义不同
+  C: 88. 京都 — 图表中最想去的是京都
+  C: 89. 38 — 想去京都的人占38%
+  C: 90. 24 — 浅草占24%
+  C: 91. 14 — 京都与浅草之差为14%
+  D: Foto: lumoplank — CC0 (Wikimedia Commons)
+  D: 答え　Antworten — nach Seiten geordnet; einfach die Nummer suchen
+  D: Eine kurze deutsche Notiz zu jeder Antwort　✓ = die Aufgabe mit dem Mustertext
+  D: — Seite 1 —
+  D: 1. 19 — Ni-no-tori und Beaujolais-Freigabe: 19. November (Do.)
+  D: 2. 22 — Das Sumo-Turnier endet am 22. November (Sonntag)
+  D: 3. 23 — Arashiyamas Herbstlaub ab etwa 23. November (Montag)
+  D: 4. 2 — Beide Yokozuna stehen nach Tag 3 bei 2–1
+  D: 5. 19 — Beaujolais Nouveau: 19. November (Do.)
+  D: 6. 熊手 — Ein kumade ist der Glücksbringer vom Tori-no-ichi
+  D: 7. B — Ni-no-tori ist am 19. November (Donnerstag)
+  D: 8. A — Beaujolais Nouveau: 19. November (Do.)
+  D: 9. B — Nach Tag 3 stehen beide Yokozuna 2–1
+  D: 10. C — Arashiyamas Herbstlaub ab etwa 23. November (Montag)
+  D: — Seite 2 —
+  D: 11. B — Ni-no-tori ist am 19. November (Donnerstag)
+  D: 12. B — 2026 gibt es zwei Tori-no-ichi-Feste
+  D: 13. A — Tori-no-ichi läuft von Mitternacht bis Mitternacht
+  D: 14. B — Ein kumade: Glücksbringer für florierende Geschäfte
+  D: 15. B — Shōsetsu ist am 22. November (Sonntag)
+  D: 16. 熊手 — 熊手 = ein Bambusrechen für florierende Geschäfte
+  D: 17. 手締め — 手締め = Händeklatschen beim Kauf eines kumade
+  D: 18. 19 — Ni-no-tori ist am 19. November (Donnerstag)
+  D: 19. 7 — Ichi-no-tori war am 7. November (Samstag)
+  D: 20. 勤労感謝の日 — 23. Nov. (Mo.): Tag des Dankes für die Arbeit
+  D: 21. 0 — Tori-no-ichi beginnt um Mitternacht
+  D: 22. 24 — Tori-no-ichi läuft bis Mitternacht
+  D: 23. 2 — 2026 gibt es zwei Tori-no-ichi-Feste
+  D: 24. 22 — Shōsetsu ist am 22. November (Sonntag)
+  D: 25. b — 熊手 = ein Bambusrechen für florierende Geschäfte b
+  D: 26. d — 手締め = das Händeklatschen beim Kauf eines kumade d
+  D: 27. c — 一番太鼓 = die Mitternachtstrommel c
+  D: 28. a — 小雪 = wenn ein wenig Schnee zu fallen beginnt a
+  D: — Seite 3 —
+  D: 29. A — Beaujolais Nouveau ist ein französischer neuer Wein
+  D: 30. B — Die Freigabe ist der dritte Donnerstag im November
+  D: 31. A — Trauben für den neuen Wein: Ernte etwa im September
+  D: 32. A — Japan trinkt den neuen Wein zuerst (Zeitverschiebung)
+  D: 33. B — Hanshin Umeda verkauft etwa 40 Sorten neuen Wein
+  D: 34. 解禁 — 解禁 = der Tag des Verkaufsstarts
+  D: 35. 収穫 — 収穫 = die Ernte
+  D: 36. 19 — Freigabe dieses Jahr: 19. November (Do.)
+  D: 37. 40 — Hanshin Umeda verkauft etwa 40 Sorten neuen Wein
+  D: 38. 0 — Die Freigabe beginnt um Mitternacht
+  D: 39. ボジョレー・ヌーヴォーはフランスの新酒です。 — Subjekt +
+  D: Beschreibung
+  D: 40. 新酒は11月19日から売られます。 — Zeit + Verb
+  D: 41. 屋台で食べ物を買います。 — Ort + Objekt + Verb
+  D: 42. 秋の味覚を味わいます。 — Objekt + Verb
+  D: 43. b — ボジョレー・ヌーヴォー = französischer Neuer Wein b
+  D: 44. d — 解禁 = der Tag des Verkaufsstarts d
+  D: 45. a — 収穫 = die Ernte a
+  D: 46. c — 屋台 = ein Feststand mit Essen c
+  D: — Seite 4 —
+  D: 47. A — Yoshinofuji schlug Ōnosato an Tag 1
+  D: 48. B — Umi-no-umi verlor an Tag 1 gegen Hōshōryū
+  D: 49. A — Fujiryūga schlug Hōshōryū an Tag 3
+  D: 50. B — Nach drei Tagen stehen beide Yokozuna 2–1
+  D: 51. C — Der letzte Tag ist am 22. November (Sonntag)
+  D: 52. 2 — Ōnosato hat nach drei Tagen zwei Siege
+  D: 53. 2 — Auch Hōshōryū hat nach Tag 3 zwei Siege
+  D: 54. 11 — Fujiryūgas kinboshi: 11. Turnier seit dem Debüt
+  D: 55. 7 — 7.-schnellster kinboshi seit der Sechs-Turniere-Ära
+  D: 56. 8 — Das Kyushu-Turnier begann am 8. November (Sonntag)
+  D: 57. A — 金星 = ein unterer Ringer schlägt einen Yokozuna
+  D: 58. B — 千秋楽 = der letzte Tag des Turniers
+  D: 59. A — Das Kyushu-Turnier ist im Fukuoka Kokusai Center
+  D: 60. B — Hōshōryū kehrt nach drei verpassten Turnieren zurück
+  D: 61. × — Ōnosato verlor an Tag 1
+  D: 62. ○ — Hōshōryū gewann an den Tagen 1 und 2
+  D: 63. ○ — Fujiryūga holte an Tag 3 einen kinboshi
+  D: 64. × — Der Sieger steht noch nicht fest
+  D: — Seite 5 —
+  D: 65. A — 30 Nominierungen am Donnerstag, 5. November
+  D: 66. A — ryuuryuu ist ein Eiskunstlauf-Paar
+  D: 67. A — Chiikawa ist ein Hit-Manga
+  D: 68. C — Top 10 und Hauptpreis: 1. Dezember
+  D: 69. B — Arashiyamas Herbstlaub ab etwa dem 23.
+  D: 70. 30 — 30 Wörter wurden nominiert
+  D: 71. 5 — Nominierungen: 5. November
+  D: 72. 1 — Top 10 am 1. Dezember
+  D: 73. 23 — Arashiyamas Herbstlaub ab etwa 23. November
+  D: 74. 暑い — 酷暑日 = ein sehr heißer Tag
+  D: 75. ○ — 30 Wörter wurden nominiert
+  D: 76. × — Die Top 10 sind noch nicht da
+  D: 77. × — ryuuryuu ist kein Filmtitel
+  D: 78. ○ — Arashiyamas Herbstlaub ab etwa dem 23.
+  D: 79. 選ばれ — 30 Wörter spiegeln die Gesellschaft dieses Jahres
+  D: 80. ペア — ryuuryuu ist das Paar Miura Riku und Kihara Ryuichi
+  D: 81. 上げる — Viele posten Ahornfotos in sozialen Medien
+  D: 82. 発表 — Top 10 am 1. Dezember
+  D: — Seite 6 —
+  D: 83. B — Miyajimas Herbstlaub ab etwa 21. November
+  D: 84. B — Bis 8. November: 20 % in Arashiyama verfärbt
+  D: 85. B — In Arashiyama fallen die Blätter ab etwa 12. Dezember
+  D: 86. A — Nach der Prognose der Japan Meteorological Association
+  D: beginnt Arashiyamas beste Zeit am 13. November
+  D: 87. A — Prognosen weichen ab: Definitionen der besten Zeit
+  D: 88. 京都 — Kyoto führt das Diagramm an
+  D: 89. 38 — 38 % wollen nach Kyoto
+  D: 90. 24 — Asakusa: 24 %
+  D: 91. 14 — Kyoto minus Asakusa: 14 %
+--- replace core[1294:1356] de[1312:1376] ---
+  C: 93. 100 — 四项合计100%
+  C: 94. 13 — 高尾山从11月13日前后进入见赏期
+  C: 95. 29 — 东京红叶在11月29日前后
+  C: 96. 4 — 大阪红叶在12月4日前后
+  C: 97. 29 — Weathernews预报在10月29日
+  C: 98. ○ — 红叶见赏期从北向南移动
+  C: 99. × — 图表是练习数据，不是真实调查
+  C: 100. × — 各公司对岚山见赏期的预报并不相同
+  C: — 第7面 —
+  C: 101. B — 熊手＝祈求生意兴隆的吉祥物
+  C: 102. 一番太鼓 — 一番太鼓＝0点的鼓
+  C: 103. C — 手締め＝买下时打的拍手
+  C: 104. 2 — 2026年酉之市共2次
+  C: 105. B — 「ryuuryuu」是花样滑冰双人组合
+  C: 106. ちいかわ — 大热漫画的名字是「吉伊卡哇」
+  C: 107. C — 提名＝被选为候选
+  C: 108. 30 — 提名共30词
+  C: 109. B — 2胜1负＝赢2场输1场
+  C: 110. A — 金星＝前头力士战胜横纲
+  C: 111. 11 — 藤凌驾的金星是初登场后第11个场所
+  C: 112. 7 — 金星速度是年6场所制以来第7快
+  C: — 第8面 —
+  C: 113. A — 二之酉在11月19日（周四）
+  C: 114. A — 博若莱新酒解禁日在11月19日（周四）
+  C: 115. A — 大之里首日输给了义之富士
+  C: 116. A — 丰升龙第三天输给了藤凌驾
+  C: 117. A — 岚山见赏期从11月23日（周一）前后开始
+  C: 118. A — 小雪在11月22日（周日）
+  C: 119. A — 流行语提名在11月5日（周四）发表
+  C: 120. A — 相扑千秋乐在11月22日（周日）
+  C: 121. A — 酉之市在11月的酉日举行
+  C: 122. B — 2026年酉之市共2次
+  C: 123. A — 新酒的葡萄在9月前后收获
+  C: 124. A — 到第三天，两位横纲都是2胜1负
+  C: 125. B — 熊手是祈求生意兴隆的吉祥物
+  C: 126. A — 预报因公司而异是因为见赏期的定义不同
+  C: 127. A — 岚山开始落叶在12月12日前后
+  C: 128. A — 「吉伊卡哇」是大热漫画
+  C: 129. A — 周四和家人去浅草
+  C: 130. A — 周五把红叶照片上传
+  C: 131. B — 周日看相扑千秋乐
+  C: 132. A — 周一因劳动感谢日放假
+  C: 133. 私は木よう日に浅草へ行きます。 — 主语＋时间＋地点＋动词
+  C: 134. 酉の市は11月の酉の日に開きます。 — 主语＋时间＋动词
+  C: 135. 新酒は11月19日から売られます。 — 时间＋动词
+  C: 136. 大の里は3日目まで2勝1敗です。 — 3天为止2胜1负
+  C: 137. 二之酉在11月19日。 — 对照第2版
+  C: 138. 新酒在11月19日解禁。 — 对照第3版
+  C: 139. 流行语提名在11月5日发表。 — 对照第5版
+  C: 140. 去看红叶的人应该同时确认预报日期和现在的状况。 — 对照第6版
+  C: 141. c — 熊手＝祈求生意兴隆的竹耙 c
+  C: 142. a — 解禁＝开始发售的日子 a
+  C: 143. d — 金星＝前头力士战胜横纲 d
+  C: 144. b — 見頃＝最佳观赏期 b
+  C: 145. A — 去浅草
+  C: 146. A — 买熊手
+  C: 147. A — 二之酉在11月19日（见第2版）
+  C: 148. A — 推荐「熊手」
+  C: 149. A — 不客气
+  C: 150. ✓ 范文见本版 H 区（154 字）
+  C: Lucerna　日语周报 VOL.4　LUCERNA JAPANESE WEEKLY
+  C: 第8版／共8版
+  D: 93. 100 — Alle vier zusammen: 100 %
+  D: 94. 13 — Der Mt. Takao ab etwa 13. November
+  D: 95. 29 — Tokios Herbstlaub um den 29. November
+  D: 96. 4 — Osakas Herbstlaub um den 4. Dezember
+  D: 97. 29 — Die Weathernews-Prognose war vom 29. Oktober
+  D: 98. ○ — Die Herbstlaubzeit zieht von Norden nach Süden
+  D: 99. × — Das Diagramm ist Übungsmaterial, keine echte Umfrage
+  D: 100. × — Prognosen für Arashiyamas beste Zeit: unterschiedlich
+  D: — Seite 7 —
+  D: 101. B — 熊手 = ein Glücksbringer für florierende Geschäfte
+  D: 102. 一番太鼓 — 一番太鼓 = die Mitternachtstrommel
+  D: 103. C — 手締め = das Händeklatschen beim Kauf
+  D: 104. 2 — 2026 gibt es zwei Tori-no-ichi-Feste
+  D: 105. B — ryuuryuu ist ein Eiskunstlauf-Paar
+  D: 106. ちいかわ — Der Hit-Manga heißt Chiikawa
+  D: 107. C — ノミネート = nominiert werden
+  D: 108. 30 — 30 Wörter wurden nominiert
+  D: 109. B — 2–1 = 2 Siege, 1 Niederlage
+  D: 110. A — 金星 = ein unterer Ringer schlägt einen Yokozuna
+  D: 111. 11 — Fujiryūgas kinboshi: 11. Turnier seit dem Debüt
+  D: 112. 7 — 7.-schnellster kinboshi seit der Sechs-Turniere-Ära
+  D: — Seite 8 —
+  D: 113. A — Ni-no-tori ist am 19. November (Donnerstag)
+  D: 114. A — Beaujolais Nouveau: 19. November (Do.)
+  D: 115. A — Ōnosato verlor an Tag 1 gegen Yoshinofuji
+  D: 116. A — Hōshōryū verlor an Tag 3 gegen Fujiryūga
+  D: 117. A — Arashiyamas Herbstlaub ab etwa Montag, 23. November
+  D: 118. A — Shōsetsu ist am 22. November (Sonntag)
+  D: 119. A — Schlagwort-Nominierungen: Do., 5. November
+  D: 120. A — Das Sumo-Turnier endet am 22. November (Sonntag)
+  D: 121. A — Tori-no-ichi: Hahntage im November
+  D: 122. B — 2026 gibt es zwei Tori-no-ichi-Feste
+  D: 123. A — Trauben für den neuen Wein: Ernte etwa im September
+  D: 124. A — Nach drei Tagen stehen beide Yokozuna 2–1
+  D: 125. B — Ein kumade: Glücksbringer für florierende Geschäfte
+  D: 126. A — Prognosen weichen ab: Definitionen der besten Zeit
+  D: 127. A — In Arashiyama fallen die Blätter ab etwa 12. Dezember
+  D: 128. A — Chiikawa ist ein Hit-Manga
+  D: 129. A — Donnerstag mit der Familie nach Asakusa
+  D: 130. A — Freitag Herbstlaubfotos hochladen
+  D: 131. B — Sonntag das Sumo-Finale sehen
+  D: 132. A — Montag schulfrei: Tag des Dankes für die Arbeit
+  D: 133. 私は木よう日に浅草へ行きます。 — Subjekt + Zeit + Ort + Verb
+  D: 134. 酉の市は11月の酉の日に開きます。 — Subjekt + Zeit + Verb
+  D: 135. 新酒は11月19日から売られます。 — Zeit + Verb
+  D: 136. 大の里は3日目まで2勝1敗です。 — 2–1 nach drei Tagen
+  D: 137. Ni-no-tori ist am 19. November. — Siehe Seite 2
+  D: 138. Der neue Wein erscheint am 19. November. — Siehe Seite 3
+  D: 139. Die Schlagwort-Nominierungen wurden am 5. November
+  D: bekannt gegeben. — Siehe Seite 5
+  D: 140. Wer das Herbstlaub sehen will, sollte sowohl die
+  D: Prognosedaten als auch die aktuelle Lage prüfen. — Siehe Seite 6
+  D: 141. c — 熊手 = ein Bambusrechen für florierende Geschäfte c
+  D: 142. a — 解禁 = der Tag des Verkaufsstarts a
+  D: 143. d — 金星 = ein unterer Ringer schlägt einen Yokozuna d
+  D: 144. b — 見頃 = die beste Besichtigungszeit b
+  D: 145. A — Nach Asakusa gehen
+  D: 146. A — Einen kumade kaufen
+  D: 147. A — Ni-no-tori ist am 19. November (siehe Seite 2)
+  D: 148. A — Einen kumade empfehlen
+  D: 149. A — Gern geschehen
+  D: 150. ✓ Mustertext in Abschnitt H auf dieser Seite (154 Zeichen)
+  D: Lucerna　JAPANISCHE WOCHENZEITUNG VOL.4　Japanischer Text　Deutsche Erklärungen
+  D: Seite 8 von 8
+total change hunks: 150

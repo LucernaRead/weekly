@@ -1,0 +1,29 @@
+D6 P3 bridge: band=(410.8, 512.4) chosen_w=430.4 inside=True wrap(chosen)==target:True longest-line-advance=410.72
+  target lines: ['Complète au passé composé. Attention aux', 'auxiliaires hebben/zijn.']
+  SVG lines   : ['Complète au passé composé. Attention aux', 'auxiliaires hebben/zijn.']
+  SVG baselines: [(2303.5, 20.5), (2333.22, 20.5)]
+  svg==target: True
+D7 P7 bridge: band=(419.2, 447.7) chosen_w=433.45 inside=True wrap(chosen)==target:True longest-line-advance=419.12
+  target lines: ['de wedstrijd match ; de groepswinst victoire', 'de groupe ; de kwartfinale quart de finale ;', 'scoren marquer.']
+  SVG lines   : ['de wedstrijd match ; de groepswinst victoire', 'de groupe ; de kwartfinale quart de finale ;', 'scoren marquer.']
+  SVG baselines: [(725.66, 20.5), (755.39, 20.5), (785.11, 20.5)]
+  svg==target: True
+D8 P6 caption: band=(359.7, 404.8) chosen_w=382.25 inside=True wrap(chosen)==target:True longest-line-advance=359.61
+  target lines: ["Données d'exercice : des chiffres inventés,", "pour l'exercice seulement, pas une vraie", 'enquête. Question : que mets-tu dans ta', 'chaussure ? (100 jeunes)']
+  SVG lines   : ["Données d'exercice : des chiffres inventés,", "pour l'exercice seulement, pas une vraie", 'enquête. Question : que mets-tu dans ta', 'chaussure ? (100 jeunes)']
+  SVG baselines: [(635.02, 18.5), (659.44, 18.5), (683.86, 18.5), (708.28, 18.5)]
+  svg==target: True
+D10 P7 dt_zh: band=(367.5, 451.2) chosen_w=408.75 inside=True wrap(chosen)==target:True longest-line-advance=367.45
+  target lines: ['Aucune vraie lettre ni meilleur texte : un', 'exemple ; promesse reportée à VOL.5.']
+  SVG lines   : ['Aucune vraie lettre ni meilleur texte : un', 'exemple ; promesse reportée à VOL.5.']
+  SVG baselines: [(1783.27, 20.0), (1811.67, 20.0)]
+  svg==target: True
+PASS content34.py D6 w=430.4
+PASS content7.py D7 w=433.45
+PASS content56.py capcn_w=382.25
+PASS content7.py dt_zh_w=408.75
+PASS bslib4.py para(w=None) mechanism
+PASS bslib4.py bridge(w=None) mechanism
+PASS content56.py capcn_w used in ch + para
+PASS content7.py dt_zh_w used in lh + para
+WIDTH-SCAN: ALL PASS

@@ -1,0 +1,11 @@
+===== SHIPPED =====
+  p1-pervaya: box x=538..961 (w=422) y=1204..1584
+    title 'ТУР В ЦИФРАХ\u3000EM NÚMEROS'
+    runs: [('ТУР', 556.5), (' ', 599.5), ('В', 604.7), (' ', 620.2), ('ЦИФРАХ', 625.4), ('\u3000EM NÚMEROS', 726.6)]
+    ink left=556.5 ink right=881.6 box right=961 margin=+79.4px  -> inside
+  p1-pervaya: [supplement] bold 27.0pt 'О' ink_right=1482.5 box_right=1862 margin=+379.5
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-ru-pt2/boxtitle.py", line 107, in <module>
+    print(f"  {pg}: [supplement] bold {t['size']}pt {t['s'][:40]!r} ink_right={ir:.1f} "
+                                                                              ^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__

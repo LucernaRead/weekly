@@ -1,0 +1,98 @@
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-freeze-guard/freeze.py.before-guard	2026-11-11 11:59:08.700478176 +0000
++++ /home/hatch/workspace/weekly-git/tools/freeze.py	2026-11-11 12:00:00.494739177 +0000
+@@ -25,12 +25,65 @@
+ 
+ Exit: baseline 0 iff 8/8 identical; diff 0 normally, 1 with --strict-cjk
+ when CJK was added. Run with tools/venv/bin/python.
++
++Runtime guard (2026-11-11): the canonical stack is tools/venv
++(Pillow 13.0.0, pinned in tools/requirements.txt). W47 pt-ko froze 0/8
++because its shipped SVGs were built by system python3 (Pillow 10.2.0 /
++FreeType 2.13.2), whose whole-string measurement differs from the venv
++stack by ~+1.11px per Korean-space boundary. main() therefore asserts
++Pillow major version 13 before doing anything, and prints executable /
++Pillow / FreeType versions in every run, so a wrong interpreter fails
++loudly instead of silently producing numbers.
+ """
+ import argparse, hashlib, json, os, re, shutil, subprocess, sys, time
+ from collections import Counter
+ 
+ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+ 
++
++# ---------------- canonical-runtime guard (2026-11-11) ------------------
++# Canonical stack is tools/venv (SOP; Pillow pinned 13.0.0 in
++# tools/requirements.txt). A wrong interpreter must fail loudly: the
++# W47 pt-ko 0/8 freeze was a silent dual-stack drift (system python3
++# Pillow 10.2.0 / FreeType 2.13.2 built the shipped SVGs; the venv
++# Pillow 13.0.0 / FreeType 2.14.3 re-measured Korean word spacing
++# ~+1.11px wider per space boundary and re-wrapped 4 lines).
++REQUIRED_PILLOW_MAJOR = 13
++
++
++def runtime_env():
++    """(executable, Pillow version, FreeType version) of this process."""
++    try:
++        import PIL
++        from PIL import features
++        pillow = PIL.__version__
++        try:
++            freetype = features.version("freetype2")
++        except Exception:
++            freetype = "unknown"
++    except ImportError:
++        pillow, freetype = "MISSING", "unknown"
++    return sys.executable, pillow, freetype
++
++
++def runtime_env_dict():
++    exe, pillow, freetype = runtime_env()
++    return {"executable": exe, "pillow": pillow, "freetype": freetype}
++
++
++def check_runtime_env():
++    """Print the runtime line; abort (exit 2) unless Pillow major == 13."""
++    exe, pillow, freetype = runtime_env()
++    print(f"runtime: {exe} | Pillow {pillow} | FreeType {freetype}")
++    major = pillow.split(".")[0] if pillow not in ("MISSING", "unknown") else None
++    if major != str(REQUIRED_PILLOW_MAJOR):
++        print(f"ABORT: canonical stack is tools/venv Pillow {REQUIRED_PILLOW_MAJOR}.x "
++              f"(got Pillow {pillow} at {exe}); re-run with tools/venv/bin/python. "
++              f"A wrong interpreter silently re-measures text "
++              f"(W47 pt-ko freeze 0/8).", file=sys.stderr)
++        return 2
++    return 0
++
+ TEXT_RE = re.compile(r"<text[^>]*>(.*?)</text>", re.S)
+ CJK_RE = re.compile(r"[\u2e80-\u9fff\u3040-\u30ff\uac00-\ud7af\uff00-\uffef]")
+ CONTENT_ORDER = ["content12.py", "content34.py", "content56.py", "content7.py", "content8.py"]
+@@ -155,7 +208,8 @@
+         print(f"  {'OK ' if r['match'] else 'DIFF'} {r['file']} core {r['core_sha256']} produced {r['produced_sha256']}")
+     print(f"core integrity: shipped core SVGs unchanged by the run ({len(after)} files re-hashed)")
+     if args.json_out:
+-        json.dump({"ok": ok, "rows": rows}, open(args.json_out, "w"), indent=1)
++        json.dump({"ok": ok, "rows": rows, "runtime": runtime_env_dict()},
++                  open(args.json_out, "w"), indent=1)
+     return 0 if ok == 8 else 1
+ 
+ 
+@@ -168,7 +222,8 @@
+                 out.setdefault(page_num(fn), Counter()).update(load_texts(os.path.join(d, fn)))
+         return out
+     core, ed = pages(args.core_svg), pages(args.edition_svg)
+-    report = {"core_svg": args.core_svg, "edition_svg": args.edition_svg, "pages": {}}
++    report = {"core_svg": args.core_svg, "edition_svg": args.edition_svg,
++              "runtime": runtime_env_dict(), "pages": {}}
+     total_added_cjk = Counter()
+     for pg in sorted(set(core) | set(ed)):
+         c, e = core.get(pg, Counter()), ed.get(pg, Counter())
+@@ -207,6 +262,9 @@
+     p.add_argument("--core-svg", required=True); p.add_argument("--edition-svg", required=True)
+     p.add_argument("--json", dest="json_out"); p.add_argument("--strict-cjk", action="store_true")
+     args = ap.parse_args(argv)
++    rc = check_runtime_env()
++    if rc:
++        return rc
+     return cmd_baseline(args) if args.cmd == "baseline" else cmd_diff(args)
+ 
+ 

@@ -1,0 +1,22 @@
+--- 
++++ 
+@@ -20,7 +20,7 @@
+ f.para("Lo stesso giorno, domenica 22 novembre, chiude a Perugia Eurochocolate, la 32ª edizione, dal 13 al 22 novembre, con il titolo «Fate dolci». La Regione ospite è la Calabria, con bergamotto, cedro, peperoncino e fichi; l'ospite del gran finale è il maestro Iginio Massari. E il tartufo bianco non va in vacanza: ad Alba, in Piemonte, la Fiera del Tartufo Bianco continua fino al 6 dicembre.")
+ f.gloss("il torrone, le nougat · il corteo, le cortège · il figurante, figurant · la rievocazione, la reconstitution historique · lo sbandieratore, le lanceur de drapeaux.")
+ f.head("IL TORRAZZO E IL TORRONE", 25)
+-f.para("Il Torrazzo di Cremona è il campanile medievale in mattoni più alto d'Italia. La leggenda lo lega al torrone: un dolce nato da un matrimonio e diventato il simbolo della città. A Cremona, per sedici giorni, il torrone è dappertutto: nelle piazze, nei laboratori, nelle maxi costruzioni.", 23.5)
++f.para("Il Torrazzo di Cremona è il campanile più alto d'Italia. La leggenda lo lega al torrone: un dolce nato da un matrimonio e diventato il simbolo della città. A Cremona, per sedici giorni, il torrone è dappertutto: nelle piazze, nei laboratori, nelle maxi costruzioni.", 23.5)
+ f.end_report()
+ 
+ # col 3: torrazzo image + facts + e tu? (sequential)
+@@ -194,8 +194,8 @@
+ e.match_set("B1", "Associe les mots",
+             ["la vetta", "imbattuto", "il girone", "il debutto"],
+             ["la prima volta in un torneo importante",
+-             "che non ha mai perso",
+-             "il gruppo di squadre in un torneo",
++             "che non ha mai perso, ancora senza sconfitte",
++             "il gruppo di squadre che giocano tra loro",
+              "il primo posto in classifica, la cima"],
+             ["d", "b", "c", "a"],
+             ["vetta = la tête, d", "imbattuto = invaincu, b", "girone = groupe, c", "debutto = débuts, a"],

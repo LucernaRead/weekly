@@ -1,0 +1,10 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+edition P1 date-line strip: thr=128 rightmost raster col -> svg x 1863.33
+edition P1 date-line strip: thr=160 rightmost raster col -> svg x 1863.33
+   strip shape (320, 900), clip origin pt (1350,60)
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/pymupdf/__init__.py", line 3022, in __init__
+    raise FileNotFoundError(f"no such file: '{filename}'")
+pymupdf.FileNotFoundError: no such file: '/home/hatch/workspace/weekly-git/production/2026-w47/core-ru/Lucerna-VOL4-ru-core.pdf'

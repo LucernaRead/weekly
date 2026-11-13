@@ -1,0 +1,99 @@
+############ REBUILD core-nl reader=zh-cn mode=cjk
+--- install --check ---
+check RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svglib.py (target=nl reader=zh-cn mode=cjk): D5 block already present (skip)
+--- install ---
+install RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svglib.py (target=nl reader=zh-cn mode=cjk): D5 block already present (skip)
+svglib diff lines: 84
+44a000db7b2e4fe344770e7cbac182ba  /home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svglib.py
+--- routing assert ---
+routing RC=0
+PASS italic Cyrillic sans -> sans_noto_i (got 'sans_noto_i')
+PASS _PATH has ('sans', False, 'sans_noto')
+PASS _PATH has ('sans', True, 'sans_noto')
+PASS _PATH has ('sans', False, 'sans_noto_i')
+FAILURES: 0
+--- run.py ---
+run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+--- render.py ---
+render RC=0
+card: p8-toets.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/core-nl/De-Lucerna-VOL4.pdf 13830540
+--- webpdf.py ---
+webpdf RC=0
+  font LucernaNotoSerifCJKSC-Bold: 254148 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29660 bytes
+WROTE De-Lucerna-VOL4-web.pdf: 1874709 bytes, 44127 text bytes
+--- occlusion ---
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svg: 0 flags 
+--- p8 extract ---
+extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-nl/svg/p8-toets.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+--- freeze baseline ---
+freeze-baseline RC=0
+  OK  p7-taal.svg core 632d600568dd4951 produced 632d600568dd4951
+  OK  p8-toets.svg core e07aa8fadac56c8d produced e07aa8fadac56c8d
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+--- freeze diff ---
+freeze-diff RC=0
+p6: +71 strings / -19 strings; CJK core 205 -> edition 205; added CJK chars: 0 ; added Latin strings: 25 (unexpected 25)
+p7: +137 strings / -35 strings; CJK core 387 -> edition 387; added CJK chars: 0 ; added Latin strings: 47 (unexpected 47)
+p8: +54 strings / -15 strings; CJK core 1074 -> edition 1074; added CJK chars: 0 ; added Latin strings: 22 (unexpected 22)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 222 (unexpected 222)
+--- spill ---
+spill RC=0
+P7 box=(1439.5,1329.5,422.5,568.5) bottom=1898.0
+   ABOVE -30.48px x=1461.5 y=1299.0 [observe] '晋级四分之一决赛。'
+SPILL_SWEEP core-nl: 26 boxes, 58 candidates, 0 SPILL, 58 OBSERVE
+--- boxtitle (backup-root=scratch) ---
+boxtitle RC=0
+== core-nl  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-nl/scratch-fanout-nl/backup/core-nl
+BOXTITLE core-nl: 25 titles, 316 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+--- edge scan ---
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN core-nl: 8 pages, 0 TOUCH, 0 NEAR
+--- creambox audit (baseline=pre-D5 snapshot) ---
+creambox RC=0
+p8-toets.svg: els 878->917 lines 220->220 diff 0 moved 35 defects 0 observe 0
+ratios: n=381 median=1.04 boldT=1.042 boldF=1.0
+P8 p8-toets.svg: lines 220->220 slack_footer 54.0->54.0
+CREAMBOX PASS 0 defects
+--- census (patched) ---
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=2 curly_in_newsreader=2 noto_sans_elements=0
+CENSUS PASS
+--- text layer + orphan sweep ---
+textlayer RC=0
+pdftotext bytes: print=44127 web=44127
+word multiset diff: 0 (print-only 0, web-only 0)
+print-only words sample: []
+web-only words sample: []
+de-whitespaced char stream: print=30380 web=30380 equal=True
+orphan class (a) lone 。: 0 []
+orphan class (b) line-initial closer candidates: 1
+  (b) ('p5-jongeren.svg', 1216.0349999999996, '）集。', 1)
+--- post SHAs ---
+b1a8a37f0faca8c78eaaa578ba7a2f1499fdea3e7c07a8982097f31c6d2e2b84  svg/p1-voorpagina.svg
+7d5b82aab0047a9db96a28dee0d7fd8b13629be9ddc7602f3c8988677d97c786  svg/p2-leven.svg
+642ba0b3b31963e65be9ac9ed6bb8d3700731ce321cb704a2eba6c41f21f7413  svg/p3-cultuur.svg
+aae8744ba37a5db2b89fef2e3ba81863ab3c1565c95ef6085c82ef2d587849e4  svg/p4-sport.svg
+6ca0e8198cf93f2e577d32cf734a4b7f29847ed1d45532e092b2112d0cff370c  svg/p5-jongeren.svg
+d0aad7e9aa2d82ce43bb3bef8d59aa40d45c1d6c23178c3ec13791a4779c0f81  svg/p6-verdieping.svg
+632d600568dd495111ad373284acf5a530328e0dbdbfdbad2a73fca9adf3e1be  svg/p7-taal.svg
+e07aa8fadac56c8d6ef56df7851fada6469e610940a70e962800d1c6ea5ed58c  svg/p8-toets.svg
+0c5d63b942d2a024694e87ba27b85b3eff0b3d411e78f9956094b5f2a4383be4  De-Lucerna-VOL4.pdf
+2b6f223eaff9afa7445c54b385213e8131eeddf11b9ae9a139388b32da7f940d  De-Lucerna-VOL4-web.pdf
+0b97a48dc248c9cf3dc28f21b55e06a1e0dc7dea7db5f6e46e55f2f2fed7050c  2026-w47-nl-zh-cn.text.md
+13830540 De-Lucerna-VOL4.pdf
+1874709 De-Lucerna-VOL4-web.pdf
+44093 2026-w47-nl-zh-cn.text.md
+REBUILD DONE core-nl

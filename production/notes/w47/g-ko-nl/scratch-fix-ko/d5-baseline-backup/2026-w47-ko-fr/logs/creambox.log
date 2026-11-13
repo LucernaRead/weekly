@@ -1,0 +1,12 @@
+p1-pyoji.svg: els 162->1112 lines 115->115 diff 5 moved 18 defects 0 observe 0
+p2-saenghwal.svg: els 196->1171 lines 142->142 diff 21 moved 18 defects 0 observe 0
+p3-munhwa.svg: els 181->1131 lines 143->143 diff 24 moved 18 defects 0 observe 0
+p4-seupocheu.svg: els 158->939 lines 112->112 diff 13 moved 21 defects 0 observe 0
+p5-cheongnyeon.svg: els 167->957 lines 115->116 diff 53 moved 20 defects 0 observe 0
+p6-gipi.svg: els 158->1030 lines 104->110 diff 105 moved 24 defects 1 observe 0
+  DEFECT spill box#2 '믿다 = croire' {'box': 2, 's': '믿다 = croire', 'issue': 'spilled below box', 'y_base': 455.2, 'y_patch': 528.2, 'box_bottom': 502.9}
+p7-mal.svg: els 151->1037 lines 102->101 diff 53 moved 18 defects 0 observe 0
+p8-siheom.svg: els 330->1378 lines 234->217 diff 148 moved 51 defects 0 observe 0
+ratios: n=398 median=1.007 boldT=1.04 boldF=0.989
+P8 p8-siheom.svg: lines 234->217 slack_footer 60.0->75.5
+CREAMBOX FAIL 1 defects

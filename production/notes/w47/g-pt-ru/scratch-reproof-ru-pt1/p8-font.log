@@ -1,0 +1,13 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+P8 span count: 901
+min 10: [(9.75, 'Newsreader16pt-Regular', ' +'), (9.75, 'Newsreader16pt-Regular', ' + instrumental'), (9.75, 'Newsreader16pt-Regular', ' + instrumental'), (9.75, 'Newsreader16pt-Regular', ' 16:20. — O sol põe-se por volta'), (9.75, 'Newsreader16pt-Regular', ' 4–7'), (9.75, 'Newsreader16pt-Regular', ' = a neve molhada'), (9.75, 'Newsreader16pt-Regular', ' = a neve molhada'), (9.75, 'Newsreader16pt-Regular', ' = chuva gelada'), (9.75, 'Newsreader16pt-Regular', ' = chuva gelada'), (9.75, 'Newsreader16pt-Regular', ' = degelo')]
+size histogram: Counter({9.75: 386, 10.35: 255, 10.88: 64, 18.0: 43, 11.25: 37, 14.25: 35, 9.98: 24, 15.75: 16, 17.25: 13, 14.62: 12, 12.75: 5, 13.5: 4, 34.5: 3, 15.38: 2, 18.75: 2})
+page 1: min 11.62 max 147.00 spans 547
+page 2: min 11.62 max 34.50 spans 439
+page 3: min 12.75 max 34.50 spans 409
+page 4: min 11.62 max 34.50 spans 579
+page 5: min 11.62 max 34.50 spans 480
+page 6: min 12.75 max 34.50 spans 401
+page 7: min 11.62 max 34.50 spans 510
+page 8: min 9.75 max 34.50 spans 901

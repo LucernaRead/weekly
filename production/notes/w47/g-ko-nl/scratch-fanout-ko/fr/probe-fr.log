@@ -1,0 +1,14 @@
+P8-keys sim: end col 3 y=2426.5 (bottom 2540, headroom 113.5) overflows=0
+  2-line entries: 7
+    #56 (2 lines): 56. 4연승 — Samsung a enchaîné quatre victoires après une défaite
+    #79 (2 lines): 79. 수험생은 열심히 공부해요. — Ordre des mots : sujet + adverbe + verbe
+    #81 (2 lines): 81. 비행기는 듣기 시간에 뜨지 않아요. — Pas de vols pendant l'épreuve d'écoute
+    #109 (2 lines): 109. 기준 — Les dates diffèrent parce que les critères diffèrent (p. 3)
+    #133 (2 lines): 133. 저는 수요일에 예비소집에 가요. — Ordre des mots : sujet + temps + lieu + verbe
+    #136 (2 lines): 136. 수험생은 도서관에서 공부해요. — Pour le lieu d'une action, on met 「에서」
+    #150 (2 lines): 150. ✓ Texte modèle dans la partie H de cette page (169 caractères)
+P7 sim: clinic eh=806.7 frame wh=282.0 letters lh=455.5 col3_end=1768.2 (core 1805.7) teaser_end=2510.2 (footer 2580)
+  disclosure lines: 7
+P2 and-you box: prompt 2 -> 4 lines (delta +2); box end 1169.0 -> 1227.0 (limit 1554)
+P3 and-you box: prompt 2 -> 4 lines (delta +2); box end 1479.7 -> 1537.7 (limit 1608)
+P5 and-you box: prompt 2 -> 4 lines (delta +2); box end 795.0 -> 853.0 (limit 1608)

@@ -1,0 +1,38 @@
+--- /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-zh-tw/backup/2026-w47-zh-tw-it/content7.py	2026-11-11 02:44:45.943146195 +0000
++++ /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-it/content7.py	2026-11-11 10:43:32.619872728 +0000
+@@ -49,7 +49,7 @@
+      "用鋼鐵做的藝術，叫___。", instr="Completare", size=22, gap=10)
+ b.ex("B1", "單選", "A", "Il festival dell'acciaio chiude il 22 nov.",
+      "鋼雕藝術節展到哪天？", opts=["A. 11月22日", "B. 11月15日", "C. 11月9日"], size=22, gap=10)
+-b.para("Trucco per ricordare: impara prima 入圍, poi la cerimonia （頒獎）, poi il luogo dove si svolge （星光大道）.", 22)
++b.para("Trucco per ricordare: impara prima 入圍, poi 星光大道 (il red carpet alle 17:00, prima della cerimonia), poi la cerimonia （頒獎） alle 18:30.", 22)
+ b.end_report()
+ 
+ # ---- B2 column ----
+@@ -57,7 +57,7 @@
+ c.head("B2　節氣與耶誕　Stagioni", 25)
+ c.para("L'inverno porta le sue parole. Questa settimana: 小雪 (Neve Minore), 節氣 (termine solare), 燈秀 (spettacolo di luci) e 市集 (mercato).", 22)
+ c.expl("Quattro parole d'inverno da questo numero: 小雪, 節氣, 燈秀, 市集.")
+-c.para("小雪 è il 20° termine solare, dopo 立冬. 節氣 significa termine solare — 24 all'anno. 燈秀 è uno spettacolo di luci: lo spettacolo principale è ogni mezz'ora. 市集 è un mercato — il mercatino invernale di World of Frozen.", 22)
++c.para("小雪 è il 20° termine solare, dopo 立冬. 節氣 significa termine solare — 24 all'anno. 燈秀 è uno spettacolo di luci: lo spettacolo principale si ripete ogni mezz'ora. 市集 è un mercato — il mercatino invernale di World of Frozen.", 22)
+ c.ex("B2", "單選", "A", "Xiaoxue è il 20° termine solare.",
+      "「小雪」是二十四節氣的第幾個？", opts=["A. 第20個", "B. 第2個", "C. 第24個"], size=22, gap=10)
+ c.ex("B2", "完成句子", "主燈秀", "Lo spettacolo di luci principale si ripete ogni mezz'ora.",
+@@ -74,7 +74,7 @@
+ errs = [
+     ("「金馬獎11月15日頒獎」", "→「金馬獎11月22日頒獎，11月15日是爵士之夜」", "La cerimonia è il 22 nov.; il 15 nov. è una serata jazz."),
+     ("「封王遊行上午2點出發」", "→「封王遊行下午2點出發，上午沒有遊行」", "La parata parte alle 14:00, non alle 02:00."),
+-    ("「主燈秀每小時一次」", "→「主燈秀每半小時一次，17:30到23:00一共12場」", "Lo spettacolo principale è ogni mezz'ora: 12 volte, dalle 17:30 alle 23:00."),
++    ("「主燈秀每小時一次」", "→「主燈秀每半小時一次，17:30到23:00一共12場」", "Lo spettacolo principale si ripete ogni mezz'ora: 12 volte, dalle 17:30 alle 23:00."),
+ ]
+ eh = 74 + sum(72 + len(wrap("✗ " + r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
+ p.rect(bx, 200, CW, eh, fill=BOX)
+@@ -96,7 +96,7 @@
+ yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
+ p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
+ ly = wy + wh + 12
+-lt = "「編輯好：下週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
++lt = "「編輯好：本週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
+ lcn = "Lettera di esempio della redazione, non una vera lettera: VOL.3 aveva promesso vere lettere dei lettori e i migliori testi di pagina 8 da questo numero; entro la chiusura non ne era arrivata nessuna pubblicabile. L'esempio resta e l'invito resta aperto."
+ lt2 = "延期披露：VOL.3曾預告本期起刊登真實讀者來信和第8版最佳作文；截至截稿，本報未收到可刊登的真實來信與投稿，因此本期仍刊登編輯範例，並繼續公開徵集。你的來信，下一期見。"
+ lh = 164 + (len(wrap(lt, "serif", False, 21.5, CW - 44)) + len(wrap(lt2, "serif", False, 21.5, CW - 44))) * 30.53 + (len(wrap(lcn, "sans", False, 20, CW - 44)) - 1) * 28.4

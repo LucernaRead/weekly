@@ -1,0 +1,101 @@
+[06:29:55] build source : /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw
+[06:29:55] production   : /home/hatch/workspace/weekly-git/production
+[06:29:55] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build
+[06:29:55] steps        : run, render
+[06:29:55] build is inside production/
+[06:29:55] snapshot: 39 production files hashed
+[06:29:55] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy
+[06:29:55] repoint: ~/workspace/weekly-git/production/2026-w47/2026-w47-de-zh-tw -> /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy
+[06:29:55] repointed files: verify.py
+[06:29:56] verify: copy is clean — no .py references the real production tree
+[06:29:56] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/svg (any literal /svg target)
+[06:29:56] interpreter: default stack -> /home/hatch/workspace/weekly-git/tools/venv/bin/python (Pillow 13)
+[06:29:56] interpreter Pillow check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[06:29:56] render interpreter: /home/hatch/workspace/weekly-git/tools/venv/bin/python (cairosvg + Pillow 13)
+[06:29:56] render interpreter check OK: /home/hatch/workspace/weekly-git/tools/venv/bin/python
+[06:29:56] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python run.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1554 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2261 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2523 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=964 (bottom 1540)
+P2 col3 box1 ends 496.65
+P2 col3 box2 ends 849.8299999999999
+P2 col3 box3 ends 1166.9499999999998
+P2 col3 box4 ends 1520.1299999999999
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-main] ended col 2/2 y=886 (bottom 1560)
+P3 image at 906.405 ends 1378.1550000000004
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1009.8900000000001
+P3 col3 undsie ends 1327.0100000000002
+P3 col3 ends 1522.6000000000001
+  flow[P3-ex] ended col 3/3 y=2519 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=647 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-main] ended col 2/2 y=1003 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1296.48
+P5 col3 image ends 1732.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=747 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1206.02
+  flow[P6-ex] ended col 3/3 y=2496 (bottom 2560)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1310 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1480.5
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-battery] ended col 3/3 y=1367 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1367.4450000000002 | image ends 1591.2450000000003
+  flow[P8-keys] ended col 3/3 y=2364 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+ALL DONE
+[06:30:14] run.py: exit 0
+[06:30:14] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy)
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p1-front.png 1357970
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p2-leben.png 826348
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p3-kultur.png 1345467
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p4-sport.png 1207469
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p5-jugend.png 1214015
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p6-vertiefung.png 904313
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p7-sprache.png 950432
+card: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/cards/p8-uebungen.png 1584569
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build/build-copy/Die-Lucerna-VOL4-de-zh-tw.pdf 11835999
+[06:30:40] render.py: exit 0
+[06:30:40] integrity: production unchanged (39 files re-hashed)
+[06:30:40] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-reproof-de-round3/2026-w47-de-zh-tw/fix-round3/build (19 svg/png/pdf files)
+[06:30:40]   out: build-copy/Die-Lucerna-VOL4-de-zh-tw-web.pdf
+[06:30:40]   out: build-copy/Die-Lucerna-VOL4-de-zh-tw.pdf
+[06:30:40]   out: build-copy/assets/lucerna-moth.svg
+[06:30:40]   out: build-copy/cards/p1-front.png
+[06:30:40]   out: build-copy/cards/p2-leben.png
+[06:30:40]   out: build-copy/cards/p3-kultur.png
+[06:30:40]   out: build-copy/cards/p4-sport.png
+[06:30:40]   out: build-copy/cards/p5-jugend.png
+[06:30:40]   out: build-copy/cards/p6-vertiefung.png
+[06:30:40]   out: build-copy/cards/p7-sprache.png
+[06:30:40]   out: build-copy/cards/p8-uebungen.png
+[06:30:40]   out: build-copy/svg/p1-front.svg
+[06:30:40]   out: build-copy/svg/p2-leben.svg
+[06:30:40]   out: build-copy/svg/p3-kultur.svg
+[06:30:40]   out: build-copy/svg/p4-sport.svg
+[06:30:40]   out: build-copy/svg/p5-jugend.svg
+[06:30:40]   out: build-copy/svg/p6-vertiefung.svg
+[06:30:40]   out: build-copy/svg/p7-sprache.svg
+[06:30:40]   out: build-copy/svg/p8-uebungen.svg

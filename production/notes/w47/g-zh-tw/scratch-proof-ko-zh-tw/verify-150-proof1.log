@@ -1,0 +1,32 @@
+REG rows parsed: 150 (expect 150)
+SVG answer lines parsed: 150 (expect 150)
+SVG missing #: []
+three-source mismatches: 0
+anchor #10 'A' -> content12.py
+anchor #20 '배추' -> content12.py
+anchor #30 'B' -> content12.py
+anchor #40 '11' -> content12.py
+anchor #50 'A' -> content12.py
+anchor #60 '삼성이 5차전에서 이겼어요.' -> content34.py
+anchor #70 '예비소집' -> content12.py
+anchor #80 '우리는 수험생을 응원해요.' -> content56.py
+anchor #90 'A' -> content12.py
+anchor #100 '맞다' -> content56.py
+anchor #110 'A' -> content12.py
+anchor #120 'A' -> content12.py
+anchor #130 'A' -> content12.py
+anchor #137 '11月22日是泡菜日。' -> content7.py
+anchor #138 '三星時隔12年奪冠。' -> content7.py
+anchor #139 '11월 18일은 예비소집이에요.' -> content8.py
+anchor #140 '일요일에는 가족과 김치를 나눠 먹어요.' -> content7.py
+anchor #141 'b' -> content12.py
+anchor #142 'c' -> content12.py
+anchor #143 'a' -> content12.py
+anchor #144 'd' -> content12.py
+anchor #145 'A' -> content12.py
+anchor #146 'A' -> content12.py
+anchor #147 'A' -> content12.py
+anchor #148 'A' -> content12.py
+anchor #149 'A' -> content12.py
+anchor #150 '（開放題，範文如下）' -> H-note
+anchoring sample: 27 keys, unanchored: 0 []

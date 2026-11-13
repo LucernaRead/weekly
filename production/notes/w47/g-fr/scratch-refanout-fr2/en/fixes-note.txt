@@ -1,0 +1,3 @@
+- P8 Q64 注记人名拼错修：`n_photo3` “Les Braves by Dont”→“Les Braves by Dhont”（P5 正文与 Q64 选项 B 均为 Lukas Dhont；仅 P8 哈希变）。
+- 核心 fix4 落地：Q148 键 `devant`→`devant le`、题干 `On se retrouve ___ du cinéma ?`→`On se retrouve ___ cinéma ?`（仅 P8 哈希变；P8 注记 148 亦随键变为 `devant le`）。
+- P7 披露框：en 版披露段原先即 2 行、末基线 2233.3、清除 +24.7，重建后 creambox 重测仍干净（末行 `…labelled editorial example; VOL.5 will honou…`）。

@@ -1,0 +1,31 @@
+===== ja 2026-11-12T23:49:29Z disk=95G =====
+run.py rc=0
+probe rc=0 : 2026-w47-ja-ru: runs=4556 LAT@NotoSans=0 LAT@Newsreader=897 CYR@NotoSans=3925 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=732 curly={}
+render.py rc=0
+print PDF mtime=2026-11-12 23:50:49.231614965 +0000 size=25898158
+44d884ac6b543a6be3f4186ffe8ce22899a5ba90bc1f951539e0a3176af822a4  Lucerna-VOL4-JA-RU.pdf
+pre non-space chars: 21342; post non-space chars: 21342
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (52330 chars)
+webpdf.py rc=0
+web PDF mtime=2026-11-12 23:51:16.833614879 +0000 size=4469712
+d130ae325fedb8325a724aef3ee3889b1db01c9ee0d5091b74644a9ab388dbd5  Lucerna-VOL4-JA-RU-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-hyoushi.svg: No such file or directory
+svg/p1-hyoushi.svg: FAILED open or read
+sha256sum: svg/p2-kurashi.svg: No such file or directory
+svg/p2-kurashi.svg: FAILED open or read
+sha256sum: svg/p3-bunka.svg: No such file or directory
+svg/p3-bunka.svg: FAILED open or read
+sha256sum: svg/p4-supotsu.svg: No such file or directory
+svg/p4-supotsu.svg: FAILED open or read
+sha256sum: svg/p5-wakamono.svg: No such file or directory
+svg/p5-wakamono.svg: FAILED open or read
+sha256sum: svg/p6-fukayomi.svg: No such file or directory
+svg/p6-fukayomi.svg: FAILED open or read
+sha256sum: svg/p7-kotoba.svg: No such file or directory
+svg/p7-kotoba.svg: FAILED open or read
+sha256sum: svg/p8-tesuto.svg: No such file or directory
+svg/p8-tesuto.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE ja 2026-11-12T23:51:17Z

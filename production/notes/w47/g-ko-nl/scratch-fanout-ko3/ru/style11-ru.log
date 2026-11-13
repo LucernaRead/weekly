@@ -1,0 +1,19 @@
+== core ==
+  p1-pyoji.svg: paper=1 VOL.4=2 VOL.5=0 ·=13 hanzi=82 U+2019=0 unknown-colors={'#34483a': 5, '#4d72b4': 2, '#4f765d': 1, '#7898cd': 2, '#84a283': 1, '#d7b257': 1, '#edd17f': 1, '#f1e8d4': 4}
+  p2-saenghwal.svg: paper=1 VOL.4=1 VOL.5=0 ·=21 hanzi=187 U+2019=0 unknown-colors=none
+  p3-munhwa.svg: paper=1 VOL.4=1 VOL.5=0 ·=20 hanzi=138 U+2019=0 unknown-colors=none
+  p4-seupocheu.svg: paper=4 VOL.4=1 VOL.5=0 ·=14 hanzi=104 U+2019=0 unknown-colors=none
+  p5-cheongnyeon.svg: paper=1 VOL.4=1 VOL.5=0 ·=20 hanzi=137 U+2019=0 unknown-colors=none
+  p6-gipi.svg: paper=4 VOL.4=1 VOL.5=0 ·=31 hanzi=81 U+2019=0 unknown-colors=none
+  p7-mal.svg: paper=1 VOL.4=1 VOL.5=3 ·=17 hanzi=212 U+2019=0 unknown-colors=none
+  p8-siheom.svg: paper=1 VOL.4=1 VOL.5=0 ·=38 hanzi=1122 U+2019=0 unknown-colors=none
+== ru ==
+  p1-pyoji.svg: paper=1 VOL.4=2 VOL.5=0 ·=13 hanzi=0 U+2019=0 unknown-colors={'#34483a': 5, '#4d72b4': 2, '#4f765d': 1, '#7898cd': 2, '#84a283': 1, '#d7b257': 1, '#edd17f': 1, '#f1e8d4': 4}
+  p2-saenghwal.svg: paper=1 VOL.4=1 VOL.5=0 ·=21 hanzi=0 U+2019=0 unknown-colors=none
+  p3-munhwa.svg: paper=1 VOL.4=1 VOL.5=0 ·=20 hanzi=0 U+2019=0 unknown-colors=none
+  p4-seupocheu.svg: paper=4 VOL.4=1 VOL.5=0 ·=14 hanzi=0 U+2019=0 unknown-colors=none
+  p5-cheongnyeon.svg: paper=1 VOL.4=1 VOL.5=0 ·=20 hanzi=0 U+2019=0 unknown-colors=none
+  p6-gipi.svg: paper=4 VOL.4=1 VOL.5=0 ·=31 hanzi=0 U+2019=0 unknown-colors=none
+  p7-mal.svg: paper=1 VOL.4=1 VOL.5=2 ·=17 hanzi=0 U+2019=0 unknown-colors=none
+  p8-siheom.svg: paper=1 VOL.4=1 VOL.5=0 ·=38 hanzi=0 U+2019=0 unknown-colors=none
+style11: OK (paper/VOL.4/middot/colours identical to core; hanzi 0; U+2019 0; P7 VOL.5 3->2 by design)

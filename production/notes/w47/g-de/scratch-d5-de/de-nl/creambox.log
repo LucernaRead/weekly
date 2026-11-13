@@ -1,0 +1,15 @@
+p1-front.svg: els 178->212 lines 114->114 diff 2 moved 20 defects 2 observe 0
+  DEFECT abs box#0 y=1507.065 'In cijfers' over={'right': 9.8}
+  DEFECT abs box#2 y=1352.0 'In dit nummer' over={'right': 19.5}
+p2-leben.svg: els 197->231 lines 142->142 diff 3 moved 16 defects 1 observe 0
+  DEFECT abs box#4 y=1263.9499999999998 'Stille week' over={'right': 3.1}
+p3-kultur.svg: els 238->276 lines 161->161 diff 4 moved 19 defects 0 observe 0
+p4-sport.svg: els 191->220 lines 126->125 diff 103 moved 16 defects 0 observe 0
+p5-jugend.svg: els 213->244 lines 136->135 diff 84 moved 19 defects 0 observe 0
+p6-vertiefung.svg: els 210->243 lines 143->141 diff 41 moved 33 defects 0 observe 0
+p7-sprache.svg: els 211->254 lines 113->113 diff 0 moved 13 defects 1 observe 0
+  DEFECT abs box#3 y=352.0 'Werktuig' over={'right': 39.0}
+p8-uebungen.svg: els 331->405 lines 230->229 diff 218 moved 198 defects 0 observe 0
+ratios: n=546 median=1.011 boldT=1.04 boldF=0.98
+P8 p8-uebungen.svg: lines 230->229 slack_footer 33.6->33.6
+CREAMBOX FAIL 4 defects

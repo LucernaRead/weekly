@@ -1,0 +1,6 @@
+keys: ['core_svg', 'edition_svg', 'runtime', 'pages', 'cjk_added_total']
+ core_svg str 64
+ edition_svg str 74
+ runtime dict 3
+ pages dict 8
+ cjk_added_total dict 183

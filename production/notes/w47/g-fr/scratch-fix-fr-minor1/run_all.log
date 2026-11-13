@@ -1,0 +1,62 @@
+===== core-fr 03:47:21 =====
+gates rc=0
+=== SUMMARY core-fr/minor1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/2026-w47-fr-zh-cn.text.md chars: 39351 entries: 546 exercises: 150
+text.md diff lines: 4
+383c383
+< *博若莱新酒小测　博若莱新酒小题。*
+---
+> *微练习　博若莱新酒小测。*
+--- post shas core-fr ---
+-rw-rw---- 1 root nogroup    46553 Nov 13 03:49 2026-w47-fr-zh-cn.text.md
+-rw-rw---- 1 root nogroup  1989709 Nov 13 03:48 La-Lucerna-VOL4-web.pdf
+-rw-rw---- 1 root nogroup 18488886 Nov 13 03:47 La-Lucerna-VOL4.pdf
+8809c4bae4b679d3fec2039982a30d033dfc53f40fbeea0f3c93bf2a289d3eb2  La-Lucerna-VOL4.pdf
+c024e0ad6061ad5a4c16f01e9acf71632dacbc8d30febe2cdf7d4d7a6f2c315a  La-Lucerna-VOL4-web.pdf
+5416a602158f7904da6bd2546eaac890ec8a8a2214e2e5772e2dcd59318aa56f  2026-w47-fr-zh-cn.text.md
+/dev/mapper/rv  150G   96G   54G  65% /home/hatch
+===== 2026-w47-fr-en 03:49:37 =====
+gates rc=0
+=== SUMMARY 2026-w47-fr-en/minor1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-en/2026-w47-fr-en.text.md chars: 44226 entries: 546 exercises: 150
+text.md diff lines: 8
+633c633
+< Cinema or home? An old coat's new owner — or the bin?
+---
+> Cinema or home? An old garment's new owner — or the bin?
+673c673
+< Cinema or home? An old coat's new owner — or the bin?
+---
+> Cinema or home? An old garment's new owner — or the bin?
+--- post shas 2026-w47-fr-en ---
+-rw-rw---- 1 root nogroup    46280 Nov 13 03:51 2026-w47-fr-en.text.md
+-rw-rw---- 1 root nogroup  1623186 Nov 13 03:50 La-Lucerna-VOL4-fr-en-web.pdf
+-rw-rw---- 1 root nogroup 17031843 Nov 13 03:50 La-Lucerna-VOL4-fr-en.pdf
+8ffde4f87863b0a027b662e13f89375f2dd399bdc7dd4b1deed35c5e6008f674  La-Lucerna-VOL4-fr-en.pdf
+271926332039bd32fec073a891d363864dff14bda76acd57e95c026596944a54  La-Lucerna-VOL4-fr-en-web.pdf
+4029e89a87ecb4a7e8e010fecfb20fb39645c319d72eb8001fbd6bb1c51dbf9e  2026-w47-fr-en.text.md
+/dev/mapper/rv  150G   96G   54G  65% /home/hatch
+===== 2026-w47-fr-ru 03:51:40 =====
+gates rc=0
+=== SUMMARY 2026-w47-fr-ru/minor1 FAILFLAG=0 (rcs above; 0=pass) ===
+export rc=0
+inserted P7 Dore caption after B1 example box
+wrote /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ru/2026-w47-fr-ru.text.md chars: 43262 entries: 546 exercises: 150
+text.md diff lines: 4
+19c19
+< ALCARAZ GAGNE PARIS, LE SÉNAT VOTE
+---
+> ALCARAZ GAGNE PARIS, LE SÉNAT VOTE MERCREDI
+--- post shas 2026-w47-fr-ru ---
+-rw-rw---- 1 root nogroup    50702 Nov 13 03:53 2026-w47-fr-ru.text.md
+-rw-rw---- 1 root nogroup  1774111 Nov 13 03:52 La-Lucerna-VOL4-fr-ru-web.pdf
+-rw-rw---- 1 root nogroup 17222519 Nov 13 03:52 La-Lucerna-VOL4-fr-ru.pdf
+f415b89bd708c3d4838e2086eba30d682fdec8061ac952c54e2a9a6c8bc4d1e4  La-Lucerna-VOL4-fr-ru.pdf
+cc8d46847690b70ad3da1a8808da97bf3e546ffc20c274c50cd7134fdbcebd03  La-Lucerna-VOL4-fr-ru-web.pdf
+b435423835af52013f1052f3919991a698bd4f4e1c85646f89e1923732d50bd1  2026-w47-fr-ru.text.md
+/dev/mapper/rv  150G   96G   54G  65% /home/hatch
+ALL DONE 03:53:52

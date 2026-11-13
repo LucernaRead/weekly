@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+<stdin>:24: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+span x0=66.0 x1=300.0 y0=488.5 size=18.00 font=NotoSerifCJKsc-Regular text='跟着故事猜一猜，才有意思。'
+span x0=417.4 x1=538.1 y0=471.5 size=17.25 font=NotoSansCJKsc-Bold text='这一周的高频词'
+span x0=555.4 x1=729.7 y0=471.5 size=17.25 font=NotoSansCJKsc-Bold text='이번주자주나오는단어'
+span x0=417.4 x1=447.4 y0=499.7 size=15.00 font=NotoSerifCJKsc-Regular text='试探'
+span x0=451.0 x1=461.5 y0=506.0 size=15.00 font=Newsreader16pt-Regular text='—'
+span x0=461.5 x1=660.1 y0=499.7 size=15.00 font=NotoSerifCJKsc-Regular text=' 试着问一问，看对方怎么说。'
+span x0=1096.1 x1=1115.5 y0=508.6 size=16.12 font=Newsreader16pt-Regular text='11'
+span x0=1115.5 x1=1131.6 y0=501.9 size=16.12 font=NotoSerifCJKsc-Regular text='月'
+span x0=1131.6 x1=1141.3 y0=508.6 size=16.12 font=Newsreader16pt-Regular text='6'
+span x0=1141.3 x1=1157.4 y0=501.9 size=16.12 font=NotoSerifCJKsc-Regular text='日'
+span x0=1161.4 x1=1172.7 y0=508.6 size=16.12 font=Newsreader16pt-Regular text='—'
+span x0=1172.7 x1=1273.3 y0=501.9 size=16.12 font=NotoSerifCJKsc-Regular text=' 《珠穆朗玛》'
+---pixel colors in box region (render px, svg-coord grid)---
+y=640svg top colors: [((239, 237, 228), 54), ((70, 87, 31), 22), ((159, 166, 135), 4), ((181, 186, 161), 1)]
+y=700svg top colors: [((239, 237, 228), 92)]
+y=780svg top colors: [((239, 237, 228), 92)]
+band top colors: [((239, 237, 228), 150215), ((251, 249, 246), 15170), ((70, 87, 31), 5627), ((47, 43, 40), 1814), ((244, 242, 236), 235), ((142, 139, 133), 187)]

@@ -1,0 +1,18 @@
+freeze svg/p1-hyoushi.svg: MATCH
+freeze svg/p2-kurashi.svg: MATCH
+freeze svg/p3-bunka.svg: MATCH
+freeze svg/p4-supotsu.svg: MATCH
+freeze svg/p5-wakamono.svg: MATCH
+freeze svg/p6-fukayomi.svg: MATCH
+freeze svg/p7-kotoba.svg: MATCH
+freeze svg/p8-tesuto.svg: MATCH
+freeze current vs fix2-run2: 8/8 match
+model text len(no spaces, incl punct)=154 raw-len=154
+model text: 私の11月の1週間は、秋の楽しみが多い1週間です。木よう日は、酉の市・二の酉です。家族と浅草へ行って、熊手を見ます。夜の浅草は、明るくにぎやかです。金よう日は、友達と紅葉の写真を上げます。日よう日は、テレビで相撲の千秋楽を見ます。月よう日は、勤労感謝の日で学校が休みです。11月は短いですが、楽しい季節です。
+model chars excl all whitespace=154
+print PDF pages=8
+P8 print spans=371 min size=9.975 next=9.975 count<9.75=0
+== print: adjacent span pairs=1 internal-boundary pairs=1 internal gaps>0.5pt=1 max internal gap=7.785
+   p1 y=1162.5 gap=7.79pt L='酉の市と流行語のことば' R='A2→B2'
+== web: adjacent span pairs=1 internal-boundary pairs=1 internal gaps>0.5pt=1 max internal gap=7.785
+   p1 y=1162.5 gap=7.79pt L='酉の市と流行語のことば' R='A2→B2'

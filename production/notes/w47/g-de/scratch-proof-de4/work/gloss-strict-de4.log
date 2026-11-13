@@ -1,0 +1,15 @@
+P1 strict-article: {'Bundesliga': 6, 'Viertelfinale': 3, 'Buß- und Bettag': 6, 'Totensonntag': 4} -> OK
+P2 strict-article: {'Buß- und Bettag': 4, 'evangelisch': 1, 'Feiertag': 3, 'Pflegeversicherung': 2, 'still': 2} -> OK
+P3 strict-article: {'Weihnachtsmarkt': 4, 'Holzbude': 2, 'Glühwein': 2, 'gebrannt': 1, 'Lebkuchen': 1, 'Stimmung': 2} -> OK
+P4 strict-article: {'Tor': 2, 'Spieltag': 3, 'torreich': 1, 'Ligaphase': 1, 'kommen weiter': 1} -> OK
+P5 strict-article: {'Adventskalender': 4, 'Türchen': 3, 'Wunschzettel': 3, 'Christkind': 2, 'basteln': 2, 'überkleben': 1} -> OK
+P6 strict-article: {'Buße': 1, 'Kirchenjahr': 2, 'Verstorbene': 1, 'Friedhof': 1, 'Haushalt': 2, 'Einigung': 1} -> OK
+ALL GLOSS IN STRICT ARTICLE: True
+1x :: Nach zwei Wochen Pause spielt am Freitagabend der FC Bayern 
+1x :: Es geht ums Viertelfinale der Nations League.
+1x :: Nur in Sachsen ist der Buß- und Bettag ein gesetzlicher Feie
+1x :: Die Märkte beginnen fast zwei Wochen früher.
+2x :: Hinter jedem Türchen wartet eine kleine Überraschung.
+1x :: Der FC Bayern gewann in Mainz mit 2:1.
+1x :: Die stille Woche ist der Übergang: vom November in den Adven
+2x :: Am Sonntag ist es still im Land.

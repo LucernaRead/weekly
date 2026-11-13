@@ -1,0 +1,20 @@
+=== A. cream-box last lines: true ink bottom vs box bottom ===
+P2 E VOCE box: y=904.0 box_bottom=909.0 ink=(1461.5, 887.0, 1561.5, 906.0) ink_bottom-box_bottom=-3.0 | 'ください。' size=20.0
+P3 E VOCE box: y=848.9 box_bottom=854.0 ink=(1461.5, 833.9, 1501.5, 850.9) ink_bottom-box_bottom=-3.1 | 'い。' size=20.0
+P4 E VOCE box: y=899.9 box_bottom=905.0 ink=(1461.5, 882.9, 1521.5, 901.9) ink_bottom-box_bottom=-3.1 | 'さい。' size=20.0
+P5 numbers box: y=507.6 box_bottom=513.0 ink=(1461.5, 492.6, 1518.5, 507.6) ink_bottom-box_bottom=-5.4 | '2027.' size=21.5
+P5 E VOCE box: y=806.4 box_bottom=811.5 ink=(1461.5, 789.4, 1561.5, 808.4) ink_bottom-box_bottom=-3.1 | 'ください。' size=20.0
+P7 A PALAVRA box: y=1427.0 box_bottom=1431.5 ink=(1461.5, 1409.0, 1521.5, 1429.0) ink_bottom-box_bottom=-2.5 | '記憶。' size=20.0
+P2 SAB21 box: y=1761.2 box_bottom=1768.0 ink=(690.5, 1744.2, 803.5, 1763.2) ink_bottom-box_bottom=-4.8 | '対フラメンゴ' size=19.0
+=== B. P1 LINEX graze: rule line y=2312 vs 'em Brasilia' ink top ===
+LINE: <line x1="88" y1="2312" x2="1862.0" y2="2312" stroke="#46581f" stroke-width="2"/>
+'em Brasilia' ink top=2311.6 baseline=2327.599999999999 size=20.0 | line y=2312 vs ink top gap=-0.4px
+=== C. P6 timeline last line vs box bottom 840.0 (ja + core) ===
+ja: ink=(1603.5, 825.8, 1828.5, 845.8) ink_bottom-840=+5.8 ink_top=825.8 | 'Página do Participante.'
+core: ink=(1603.5, 825.8, 1828.5, 845.8) ink_bottom-840=+5.8 ink_top=825.8 | 'Página do Participante.'
+=== D. P1 box titles: ink right edge vs cream-box right edge ===
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-proof-pt-ja1/ink.py", line 83, in <module>
+    inside = sorted([(e['y'], e) for e in els if x-1 <= e['x'] <= x+w+1 and y-5 <= e['y'] <= bot])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'dict' and 'dict'

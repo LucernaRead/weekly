@@ -1,0 +1,170 @@
+===== de 2026-11-12T18:14:51Z =====
+TOTAL 150
+BACKFILL 2 line(s) at pre L449: ['### ЗА И ПРОТИВ · PRO UND CONTRA', '']
+BACKFILL 2 line(s) at pre L665: ['', '### ОТВЕТЫ · LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN']
+WROTE /tmp/round2-final/2026-w47-ru-de.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -32,7 +32,7 @@
+ 
+ 20 — ноября возвращается чемпионат: 15-й тур
+ 
+-## СЕЙЧАС ВЫ · JETZT SIE
++## СЕЙЧАС ВЫ · SIE SIND DRAN
+ 
+ 1. [A2 · Ausfüllen] 14-й тур завершился ___ ноября. — key: 8 (Der 14. Spieltag endete am 8. November)
+ 2. [A2 · Ausfüllen] «Зенит» и «Динамо» набрали по ___ очку. — key: 31 (Zenit und Dynamo haben je 31 Punkte)
+@@ -126,7 +126,7 @@
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+-Und du? Schreib zwei Sätze auf Russisch an die Redaktion: einen für einen Studenten, einen für Väterchen Frost.
++Und Sie? Schreiben Sie zwei Sätze auf Russisch an die Redaktion: einen für einen Studenten, einen für Väterchen Frost.
+ 
+ *«Зима. Ростов»: картина Константина Юона. Зима в городе — снег, крыши и дым из труб.*
+ 
+@@ -509,7 +509,7 @@
+ 
+ Гололедица опасна: «На дорогах гололедица, будьте осторожны!» Тёплая одежда и зонт — лучшие друзья ноября.
+ 
+-*оттепель Tauwetter; мокрый снег Schneeregen; ледяной дождь Eisregen.*
++*оттепель Tauwetter; мокрый снег = nasser Schnee; ледяной дождь Eisregen.*
+ 
+ 101. [A2 · Ausfüllen] Сейчас ___: снег тает. — key: оттепель (оттепель = Tauwetter) [Ausfüllen]
+ 102. [A2 · Ausfüllen] Синоптики обещают ___ снег. — key: мокрый (мокрый снег = nasser Schnee) [Ausfüllen]
+  font LucernaUnifrakturMaguntia-Regular: 31836 bytes
+WROTE Lucerna-VOL4-ru-de-web.pdf: 3334246 bytes, 57848 text bytes
+DONE de
+===== fr 2026-11-12T18:22:01Z =====
+TOTAL 150
+BACKFILL 2 line(s) at pre L57: ['', '### В ЭТОМ НОМЕРЕ · AU SOMMAIRE']
+BACKFILL 2 line(s) at pre L448: ['', '### ЗА И ПРОТИВ · POUR ET CONTRE']
+WROTE /tmp/round2-final/2026-w47-ru-fr.text.md (837 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -126,7 +126,7 @@
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+-Et toi ? Écris deux phrases en russe à la rédaction : une pour un étudiant, une pour le Père Gel.
++Et vous ? Écrivez deux phrases en russe à la rédaction : une pour un étudiant, une pour le Père Gel.
+ 
+ *«Зима. Ростов»: картина Константина Юона. Зима в городе — снег, крыши и дым из труб.*
+ 
+  font LucernaUnifrakturMaguntia-Regular: 30048 bytes
+WROTE Lucerna-VOL4-ru-fr-web.pdf: 3334407 bytes, 58028 text bytes
+DONE fr
+===== it 2026-11-12T18:27:18Z =====
+TOTAL 150
+WROTE /tmp/round2-final/2026-w47-ru-it.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -122,7 +122,7 @@
+ 
+ 22 ноября — День психолога.
+ 
+-### А ВЫ? · E VOI?
++### А ВЫ? · E TU?
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+  font LucernaUnifrakturMaguntia-Regular: 29276 bytes
+WROTE Lucerna-VOL4-ru-it-web.pdf: 3330609 bytes, 57851 text bytes
+DONE it
+===== pt 2026-11-12T18:32:13Z =====
+TOTAL 150
+BACKFILL 2 line(s) at pre L45: ['', '### СМИ · O QUE DIZEM OS MEDIA']
+BACKFILL 2 line(s) at pre L449: ['### ЗА И ПРОТИВ · PRÓS E CONTRAS', '']
+WROTE /tmp/round2-final/2026-w47-ru-pt.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -122,7 +122,7 @@
+ 
+ 22 ноября — День психолога.
+ 
+-### А ВЫ? · E VOCÊ?
++### А ВЫ? · E TU?
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+@@ -468,7 +468,7 @@
+ 
+ ## A · КАЛЕНДАРЬ И ДИАГРАММА
+ 
+-*Responda com a faixa-calendário e o gráfico de prática.*
++*Responde com a faixa-calendário e o gráfico de prática.*
+ 
+ 83. [B2 · Escolha múltipla] Сколько выходных дней в неделе 16–22 ноября? A. 0 · B. 2 · C. 5 — key: B (2 dias de folga na semana (sábado e domingo))
+ 84. [B2 · Completar frases] На этой неделе ___ рабочих дней. — key: 5 (5 dias úteis na semana) [Completar frases]
+  font LucernaUnifrakturMaguntia-Regular: 30532 bytes
+WROTE Lucerna-VOL4-ru-pt-web.pdf: 3337224 bytes, 58389 text bytes
+DONE pt
+===== nl 2026-11-12T18:37:54Z =====
+TOTAL 150
+BACKFILL 2 line(s) at pre L448: ['', '### ЗА И ПРОТИВ · VOOR EN TEGEN']
+WROTE /tmp/round2-final/2026-w47-ru-nl.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -126,7 +126,7 @@
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+-En jij? Schrijf twee zinnen in het Russisch naar de redactie: één voor een student, één voor Grootvader Vorst.
++En u? Schrijf twee zinnen in het Russisch naar de redactie: één voor een student, één voor Grootvader Vorst.
+ 
+ *«Зима. Ростов»: картина Константина Юона. Зима в городе — снег, крыши и дым из труб.*
+ 
+@@ -142,7 +142,7 @@
+ 
+ дождь, который замерзает
+ 
+-IJzel
++ijzel
+ 
+ лёд на дороге
+ 
+  font LucernaUnifrakturMaguntia-Regular: 29348 bytes
+WROTE Lucerna-VOL4-ru-nl-web.pdf: 3329737 bytes, 57991 text bytes
+DONE nl
+===== ko 2026-11-12T18:44:53Z =====
+TOTAL 150
+WROTE /tmp/round2-final/2026-w47-ru-ko.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -122,7 +122,7 @@
+ 
+ 22 ноября — День психолога.
+ 
+-### А ВЫ? · 당신은요?
++### А ВЫ? · 여러분은요?
+ 
+ А вы? Что вы пожелаете студенту и Деду Морозу? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.5 (страница 7, «Письма читателей»).
+ 
+  font LucernaUnifrakturMaguntia-Regular: 19836 bytes
+WROTE Lucerna-VOL4-ru-ko-web.pdf: 3494537 bytes, 58752 text bytes
+DONE ko
+===== zh-tw 2026-11-12T18:48:59Z =====
+TOTAL 150
+WROTE /tmp/round2-final/2026-w47-ru-zh-tw.text.md (839 lines)
+FINAL DIFF pre vs out:
+--- 
++++ 
+@@ -535,7 +535,7 @@
+ 
+ Неуверенность — тоже по-русски: «может быть» — возможно; «снег может выпасть, а может и не выпасть» — оговорка, а не обещание. Говорить «может быть» — признак хорошего уровня!
+ 
+-*синоптики обещают 氣象學家預報；по данным 官方數據；может быть 可能。*
++*синоптики обещают 氣象學家預報；по данным = 據……數據；может быть 可能。*
+ 
+ 109. [B2 · 完成句子] ___ дождь с мокрым снегом. — key: Синоптики обещают (синоптики обещают = 氣象學家預報) [填空]
+ 110. [B2 · 完成句子] Снег ___ выпасть, а может и не выпасть. — key: может (может быть = 可能) [填空]
+  font LucernaUnifrakturMaguntia-Regular: 19404 bytes
+WROTE Lucerna-VOL4-ru-zh-tw-web.pdf: 3976005 bytes, 56180 text bytes
+DONE zh-tw
+DRIVER DONE 2026-11-12T18:53:32Z

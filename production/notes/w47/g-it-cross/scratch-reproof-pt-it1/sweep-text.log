@@ -1,0 +1,51 @@
+== p1-capa: U+201C=0 U+201D=0 U+2018=0 U+2019=1 «=1 »=1 ASCII"=0
+   CJK chars: {'\u3000': 20}
+   text nodes starting/ending with U+3000: 4 (separators, expected)
+   CJK punct set: Counter({'·': 11})
+== p2-vida: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=2 »=2 ASCII"=0
+   CJK chars: {'\u3000': 17}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 15})
+== p3-cultura: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=1 »=1 ASCII"=0
+   CJK chars: {'\u3000': 13}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 25})
+== p4-esporte: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=0 »=0 ASCII"=0
+   CJK chars: {'\u3000': 15}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 15})
+== p5-jovens: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=0 »=0 ASCII"=0
+   CJK chars: {'\u3000': 14}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 20})
+== p6-aprofundamento: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=2 »=2 ASCII"=0
+   CJK chars: {'\u3000': 16}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 27})
+== p7-lingua: U+201C=0 U+201D=0 U+2018=0 U+2019=0 «=33 »=33 ASCII"=0
+   CJK chars: {'\u3000': 13}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 6})
+== p8-avaliacao: U+201C=2 U+201D=2 U+2018=0 U+2019=0 «=1 »=1 ASCII"=0
+   CJK chars: {'\u3000': 15}
+   text nodes starting/ending with U+3000: 0 (separators, expected)
+   CJK punct set: Counter({'·': 37})
+== text.md: U+201C=2 U+201D=2 U+2019=0 ASCII"=0
+   «=40 »=40
+   CJK chars in text.md: none
+   '翻译' present: False | '中文' present: False
+== print.txt: U+201C=2 U+201D=2 U+2019=1 «=40 »=40
+   CJK chars: none
+== web.txt: U+201C=2 U+201D=2 U+2019=1 «=40 »=40
+   CJK chars: none
+== banned-word scan (SVG + text.md):
+   'SOP': 19
+   'XXX': 10
+   'EUA': 16
+   (only listed hits above; absence = 0)
+== simplified-only char hits: none
+== text.md double dot: 45
+== text.md double ?: 0
+== text.md double space in text: 0
+== text.md space before colon-quote: 0
+== text.md ?Scrivi merge: 0

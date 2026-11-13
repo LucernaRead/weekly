@@ -1,0 +1,63 @@
+P1 saved, exercises so far: 10
+P2 col3 ends 1376.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+pairs: 116 reg: 150
+key mismatches vs registry.json: []
+fill/rewrite items: 50
+Q  1 P1 A2 Satzer key='midterm' stem='Americans voted in the ___ election on November 3.' note='midterm = Zwischenwahl'
+Q  2 P1 A2 Satzer key='call' stem='News organisations ___ a race when the maths is clear.' note='call a race = das Ergebnis verkünden'
+Q  3 P1 A2 Satzer key='seats' stem='All 435 ___ in the House were on the ballot.' note='seat = Sitz'
+Q  4 P1 A2 Satzer key='majority' stem='The ___ in the House is 218 seats.' note='majority = Mehrheit'
+Q  5 P1 B1 Satzer key='changed' stem='Seven Senate seats ___ hands on election night.' note='change hands = den Besitzer wechseln'
+Q  6 P1 B1 Satzer key='January' stem='The new Congress meets in ___ 2027.' note='Der neue Kongress tagt ab Januar 2027'
+Q 11 P2 A2 Satzer key='November' stem='The vote was on Tuesday, ___ 3.' note='11. Monat = November'
+Q 12 P2 A2 Satzer key='January' stem='The new Congress meets in ___ 2027.' note='Der neue Kongress tagt ab Januar 2027'
+Q 13 P2 A2 Satzer key='1' stem='A runoff, if needed, is on December ___.' note='Stichwahl am 1. Dezember'
+Q 14 P2 A2 Satzer key='Thursday' stem='Thanksgiving is on ___, November 26.' note='Thanksgiving ist ein Donnerstag'
+Q 15 P2 A2 Satzer key='27' stem='Black Friday is on November ___.' note='Black Friday: 27. November'
+Q 16 P2 A2 Umform key='The new Congress will meet in January.' stem='The new Congress (meet) in January. → ___' note='meet → will meet'
+Q 17 P2 A2 Umform key='States will certify their counts.' stem='States (certify) their counts. → ___' note='certify → will certify'
+Q 18 P2 A2 Umform key='Families will travel home.' stem='Families (travel) home for Thanksgiving. → ___' note='travel → will travel'
+Q 19 P2 B1 Umform key='Will they watch the jungle on Monday?' stem='They (watch) the jungle on Monday? → ___' note='Fragesatz: will steht vorn'
+Q 34 P3 A2 Satzer key='opens' stem='The film ___ on Friday, November 20.' note='open = anlaufen (3. Person Singular mit -s)'
+Q 35 P3 A2 Satzer key='mentor' stem='Haymitch becomes the ___ of the later stories.' note='mentor = Mentor'
+Q 36 P3 B1 Satzer key='twice' stem='The 50th Games sent ___ as many young people.' note='twice = doppelt'
+Q 37 P3 B1 Satzer key='jungle' stem='Ant and Dec are back in the Australian ___.' note='jungle = Dschungel'
+Q 42 P3 A2 Umform key='Collins published the novel in 2025.' stem='Collins (publish) the novel in 2025. → ___' note='publish → published'
+Q 43 P3 A2 Umform key='Haymitch won the 50th Games.' stem='Haymitch (win) the 50th Games. → ___' note='win → won'
+Q 44 P3 B1 Umform key='Rousseau painted jungles he never saw.' stem='Rousseau (paint) jungles he never saw. → ___' note='paint → painted'
+Q 45 P3 B1 Umform key='ITV chose Monday for the launch.' stem='ITV (choose) Monday for the launch. → ___' note='choose → chose'
+Q 52 P4 B1 Satzer key='hosted' stem='Perth Stadium ___ its first Ashes Test in November 2025.' note='host → hosted (Vergangenheit)'
+Q 53 P4 B1 Satzer key='lasts' stem='One Test ___ up to five days.' note='last, 3. Person Singular: lasts'
+Q 54 P4 A2 Satzer key='eight' stem='___ singles players play in Turin.' note='acht = eight'
+Q 55 P4 A2 Satzer key='won' stem='Australia ___ the first Test by eight wickets.' note='win → won (Vergangenheit)'
+Q 60 P4 B1 Umform key='England lost 4–0 in 2021–22.' stem='England (lose) 4–0 in 2021–22. → ___' note='lose → lost'
+Q 61 P4 B1 Umform key='Australia lost their first Test at the ground.' stem='Australia (lose) their first Test at the ground. → ___' note='lose → lost'
+Q 62 P4 B1 Umform key='The last series ended in a draw in 2023.' stem='The last series (end) in a draw in 2023. → ___' note='end → ended'
+Q 63 P4 B1 Umform key='India beat Australia by 295 runs.' stem='India (beat) Australia by 295 runs in November 2024. → ___' note='beat → beat (unregelmäßig)'
+Q 70 P5 B1 Satzer key='silence' stem='Break the ___: speak up about bullying.' note='silence = Schweigen'
+Q 71 P5 B1 Satzer key='socks' stem='On Monday, children wear odd ___.' note='sock = Socke'
+Q 72 P5 A2 Satzer key='rights' stem='Every child has ___.' note='right = Recht'
+Q 73 P5 A2 Satzer key='up' stem='Speak ___: tell a teacher.' note='speak up = laut sagen'
+Q 78 P5 B1 Umform key='Schools are wearing odd socks today.' stem='Schools (wear) odd socks today. → ___' note='wear → are wearing'
+Q 79 P5 B1 Umform key='Children are speaking up this week.' stem='Children (speak) up this week. → ___' note='speak → are speaking'
+Q 80 P5 B1 Umform key='We are listening to every child.' stem='We (listen) to every child. → ___' note='listen → are listening'
+Q 81 P5 B1 Umform key='She is sitting with a new friend.' stem='She (sit) with a new friend. → ___' note='sit → is sitting'
+Q 94 P6 B2 Satzer key='certify' stem='Each state must ___ its count.' note='certify = offiziell bestätigen'
+Q 95 P6 B2 Satzer key='call' stem='News organisations ___ a race when the maths is clear.' note='call a race = das Ergebnis verkünden'
+Q 96 P6 B2 Satzer key='changed' stem='Seven Senate seats ___ hands on election night.' note='change hands = den Besitzer wechseln'
+Q 97 P6 B1 Satzer key='takes' stem='Counting ___ time in every state.' note='take time = Zeit brauchen'
+Q 98 P6 B1 Satzer key='differs' stem='The rule ___ from state to state.' note='differ, 3. Person Singular: differs'
+Q 99 P6 B1 Satzer key='official' stem='A call is not the ___ result.' note='official = offiziell'
+Q107 P7 A2 Satzer key='win' stem='“Democrats ___ the House” is a headline.' note='Pluralsubjekt: win (Präsens der Schlagzeile)'
+Q133 P8 B1 Satzer key='will meet' stem='Will future: “The new Congress (meet) in January.” → ___' note='will + Grundform'
+Q134 P8 B1 Satzer key='won' stem='Past simple: “The Democrats (win) the House.” → ___' note='win → won'
+Q135 P8 B1 Satzer key='more' stem='Comparative: “254 is ___ than 218.”' note='more than: Komparativ'
+Q136 P8 B2 Satzer key='whether' stem='Whether: “Nobody knows ___ the count will change.”' note='whether = ob'

@@ -1,0 +1,15 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+PRINT: italic spans = 1
+    (1, 1079.6, 1201.8, 'Newsreader16pt-Italic', 16.12, '«de groepswinst»')
+PRINT: min font overall 10.12pt (8, '1. 20:45 —')
+PRINT: min font P8 10.12pt (8, '1. 20:45 —', 'Newsreader16pt-Regular')
+   P8-NOTE span right=714.1pt=952.2px size=34.50 :: '시험과정답'
+   P8-NOTE span right=1388.4pt=1851.2px size=15.38 :: '쓰기과제(정답이하나가아니에요); 모범글(81단'
+   P8-NOTE span right=558.0pt=744.0px size=18.75 :: '정답— 면별로정리했어요: 번호를찾으세요'
+   P8-NOTE span right=1266.3pt=1688.4px size=14.62 :: '모든정답에는한국어해설이있어요'
+   P8-NOTE span right=486.6pt=648.8px size=12.75 :: '해설은한국어'
+   P8 max span right overall 1396.5pt=1861.9px :: '제8 면/ 총8 면'
+WEB: italic spans = 0
+WEB: min font overall 10.12pt (8, '1. 20:45 —')
+WEB: min font P8 10.12pt (8, '1. 20:45 —', 'LucernaNewsreader-Regula')

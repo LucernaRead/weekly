@@ -1,0 +1,48 @@
+### [core-ko] base-prep (fixed sources + pre-D5 svglib)
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/core-ko/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/core-ko/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/core-ko/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/core-ko/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/core-ko/base': Operation not permitted
+### [core-ko] base-venv run RC=0
+  !! FLOW OVERFLOW [P2-feature] col 2 y=1179 need 390 bottom 1540
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+### [core-ko] phase=rebuild-gates reader=zh-cn mode=cjk print=Lucerna-VOL4.pdf web=Lucerna-VOL4-web.pdf
+### [core-ko] Phase C: rebuild production (venv)
+### [core-ko] run.py RC=0
+### [core-ko] render.py RC=0
+### [core-ko] webpdf.py RC=0
+### [core-ko] Phase D: gates
+### [core-ko] d5_census patched RC=0
+### [core-ko] census_quotes patched svg RC=0
+### [core-ko] head_check RC=0
+### [core-ko] occlusion_audit RC=0
+### [core-ko] p8 extract RC=0
+### [core-ko] p8 compare vs core-ko RC=0
+### [core-ko] freeze baseline (syspy exception) RC=1
+### [core-ko] freeze diff patched vs base-venv (syspy exception) RC=0
+### [core-ko] spill_sweep RC=0
+### [core-ko] boxtitle_check RC=0
+### [core-ko] pdf_edge_scan RC=0
+### [core-ko] d5_creambox_audit RC=0
+### [core-ko] gates done; summary RCs above
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch
+### [core-ko] run_edition.sh RC=0
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch

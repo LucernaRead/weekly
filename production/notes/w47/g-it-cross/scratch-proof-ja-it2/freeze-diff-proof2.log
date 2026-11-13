@@ -1,0 +1,10 @@
+STRICT-CJK FAIL: edition adds CJK characters the core does not have
+p1: +21 strings / -21 strings; CJK core 1405 -> edition 1262; added CJK chars: 2 {'\u3000': 2}
+p2: +30 strings / -28 strings; CJK core 1174 -> edition 1010; added CJK chars: 1 {'\u3000': 1}
+p3: +26 strings / -24 strings; CJK core 1177 -> edition 1046; added CJK chars: 1 {'\u3000': 1}
+p4: +19 strings / -17 strings; CJK core 1433 -> edition 1349; added CJK chars: 1 {'\u3000': 1}
+p5: +27 strings / -25 strings; CJK core 1174 -> edition 1053; added CJK chars: 1 {'\u3000': 1}
+p6: +23 strings / -22 strings; CJK core 1213 -> edition 1130; added CJK chars: 2 {'\u3000': 2}
+p7: +49 strings / -46 strings; CJK core 1776 -> edition 1390; added CJK chars: 0 
+p8: +185 strings / -175 strings; CJK core 3014 -> edition 1423; added CJK chars: 7 {'ト': 1, '\u3000': 1, 'ー': 1, 'ノ': 1, 'ミ': 1, 'ネ': 1, '楽': 1}
+TOTAL added CJK characters: 15

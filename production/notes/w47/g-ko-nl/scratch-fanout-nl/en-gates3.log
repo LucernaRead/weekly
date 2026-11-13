@@ -1,0 +1,12 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[FAIL] occlusion: rc=1 flags=1   [EDGE] p6-verdieping.svg 'DE GRAFIEK\u3000THE CHART (PRACTICE DATA)' — ink box (1461.5, 222.0, 1963.25, 247.0) outside page 1950.0x2700.0
+[FAIL] p8_extract: rc=0 noted=-1/150
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=0
+[PASS] freeze_sha256: run rc=0 match=8/8 
+[PASS] print_web_text: pages 8/8 posdiff=0 msdiff=0 P1:795/795:pos0:ms0 P2:833/833:pos0:ms0 P3:738/738:pos0:ms0 P4:724/724:pos0:ms0 P5:807/807:pos0:ms0 P6:750/750:pos0:ms0 P7:935/935:pos0:ms0 P8:2318/2318:pos0:ms0
+[PASS] pdftotext_nonempty: print=45545B web=45550B web_size=1577176
+[PASS] p8_fontsize: answer-zone min=10.12pt median=10.12pt spans=187
+[PASS] p8_chips: core={'A2': 8, 'B1': 24, 'B2': 3} edition={'A2': 8, 'B1': 24, 'B2': 3}
+[FAIL] s11_svg: off-palette={'#4F765D': 1, '#84A283': 1, '#7898CD': 2} gold/old=False stroked_rects=0 VOL.5=5 paper_fills=8
+OVERALL: FAILURES PRESENT

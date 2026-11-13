@@ -1,0 +1,11 @@
+PASS _D5_READER == 'cjk' (got 'cjk')
+PASS latin 'A' sans regular -> news
+PASS latin 'A' sans bold -> news
+PASS digit sans -> news
+PASS fix2 U+201C sans -> news (serif branch)
+PASS fix2 U+201D sans -> news
+PASS fix2 U+2019 sans -> news
+PASS CJK sans stays sans
+PASS latin: Cyrillic sans -> sans_noto
+PASS serif latin untouched -> news
+FAILURES: 0

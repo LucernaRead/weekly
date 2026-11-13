@@ -1,0 +1,303 @@
+Only in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es: 2026-w47-zh-tw-en.text.md
+Only in /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es: 2026-w47-zh-tw-es.text.md
+Only in /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es: Lucerna-VOL4-ES-web.pdf
+Only in /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es: Lucerna-VOL4-ES.pdf
+Only in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es: Lucerna-VOL4-web.pdf
+Only in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es: Lucerna-VOL4.pdf
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/WEEKLY-KIT.md /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/WEEKLY-KIT.md
+1c1
+< # Lucerna Weekly — VOL.4 Traditional Chinese core (W47)
+---
+> # Lucerna Weekly — VOL.4 Traditional Chinese, Spanish explanations (W47)
+5,13c5,13
+< - **Pairing:** zh-tw × en — Traditional Chinese text, explanations in English, for English-speaking readers.
+< - **Issue week:** Monday 2026-11-16 to Sunday 2026-11-22 (VOL.4; confirmed via `tools/tables.py vol 2026-W47` = 4).
+< - **Slug (insert):** 2026-w47-zh-tw-en. **Core dir:** `production/2026-w47/core-zh-tw/` (build code + assets + PDFs + KIT + ABSTRACT.txt + text.md; W46 core in `production/2026-w46/core-zh-tw/` is the read-only template — nothing in W43/W45/W46 was modified).
+< - **Masthead:** Lucerna (no article — Chinese is article-less), UnifrakturMaguntia 147pt.
+< - **Top strip (P1):** left `VOL.4　繁體中文版`, centre `台灣　香港　TAIWAN AND HONG KONG`, right `2026年11月16日至11月22日` (17pt, full-width spaces).
+< - **Edition line (P1, 27pt bold, OLIVE):** `繁體中文週報　VOL.4　遊行　金馬獎　小雪`
+< - **Badge line (P1, 16pt, GREY):** `繁體中文正文　英語講解 — Traditional Chinese text with explanations in English, for English-speaking readers`
+< - **Lead headline (P1, 45pt, SOP §1.1 top of the 40–45pt range):** `週日下午2點，封王遊行天母出發` — 14 CJK characters after whitespace removal (LIMITS.headline allows 30).
+< - **Format:** 8 pages (a multiple of 4), 1462.5×2025 pt (1950×2700 px), 4 columns, newsprint paper #fbfaf6. Columns at x 88/538.5/989/1439.5, width 422.5, gutter 28, right edge 1862, margins top 54pt / sides 66pt / bottom 48pt, footer rule y 2596, footer baseline 2624, content bottom 2560.
+---
+> - **Pairing:** zh-tw × es — Traditional Chinese text, explanations in Spanish, for Spanish-speaking readers.
+> - **Issue week:** Monday 2026-11-16 to Sunday 2026-11-22 (VOL.4; `tools/tables.py vol 2026-W47` = 4).
+> - **Slug (insert):** 2026-w47-zh-tw-es. **Edition dir:** `production/2026-w47/2026-w47-zh-tw-es/` (build code + assets + PDFs + KIT + ABSTRACT.txt + text.md). Source: `production/2026-w47/core-zh-tw/` (read-only; nothing in the core was modified).
+> - **Masthead:** Lucerna (no article — Chinese is article-less), UnifrakturMaguntia 147pt (196px).
+> - **Top strip (P1):** left `VOL.4　繁體中文版`, centre `台灣　香港　TAIWÁN Y HONG KONG`, right `2026年11月16日至11月22日` (17pt, full-width spaces).
+> - **Edition line (P1, 27pt bold, OLIVE):** `繁體中文週報　VOL.4　遊行　金馬獎　小雪` (unchanged from core — target-language line).
+> - **Badge line (P1, 16pt, GREY):** `繁體中文正文　西班牙語講解 — Texto en chino tradicional con explicaciones en español, para lectores hispanohablantes`
+> - **Lead headline (P1, 45pt):** `週日下午2點，封王遊行天母出發` (frozen core text).
+> - **Format:** 8 pages, 1462.5×2025 pt (1950×2700 px), 4 columns, newsprint paper #fbfaf6. Same geometry as core.
+15c15
+< - **Traditional Chinese is natively produced for the Taiwan/Hong Kong ecosystem.** It is not converted or transcoded from any Simplified edition; Simplified and Traditional are independent editions that are never translated into each other. No zh-cn text was copied or converted anywhere in this build.
+---
+> - **Traditional Chinese is natively produced for the Taiwan/Hong Kong ecosystem.** Not converted or transcoded from any Simplified edition; no zh-cn text was copied or converted anywhere in this build. Only the explanation layer was rewritten into Spanish.
+17c17
+< ## SOP §1.1 migration note (this edition vs the W46 old style)
+---
+> ## SOP §1.1 measurements (this edition, measured on final SVGs/PDFs)
+19c19,24
+< The W46 core code was copied as the template, then migrated to the SOP §1.1 visual spec, using the W43 `2026-w43-en-zh-tw` build as the reference implementation (same svglib.py/bslib4.py, adapted only for this pairing and VOL.4):
+---
+> - Paper #fbfaf6 on all 8 pages. Gold/brick/near-black: 0 occurrences. No double-line outer frame. Badge colours present (A2 #5c6e30, B1 #46581f, B2 #37402f).
+> - Furniture uses full-width spaces (　); 「·」 appears only inside multiple-choice option lists, the P6 timeline legend, and chart dots — the same rule as the core KIT. Footer: `Lucerna　繁體中文週報 VOL.4　繁體中文正文　西班牙語講解`, page lines `Página N de 8`.
+> - VOL.4 throughout; VOL.5 appears exactly once, in the P7 next-issue teaser head (`下期預告　La próxima semana (VOL.5)`) — correct, not a misprint.
+> - P8 answer font size (PyMuPDF, measured 2026-11-11): keys at **9.75pt on both print and web PDFs** — exactly the SOP §1.1 floor (≥9.75pt). P8 stems stay at 13.8px = 10.35pt, per the core ruling.
+> - No drop cap (same recorded gap as core).
+> - P7 geometry (final build): col3 ends 1823.3, phrases strip fy=1847.3, teaser ends 2577.3 (footer rule 2596 — clear by 18.7px). P8 writing strip ends 1280.2, keys end inside the content bottom.
+21,94c26,48
+< - Paper #fbfaf6 (was W46 warm ivory #f7f1e2); no gold anywhere (GOLD/BRICK/DARK all removed); double-line outer frame removed; no near-black background (teaser strip is book-green #37402f with #f4efe1 text).
+< - CJK body in Noto Serif CJK TC (per-character font fallback in svglib.py: Newsreader for Latin → Noto Serif CJK TC → DejaVu Sans; sans: Noto Sans CJK TC → DejaVu Sans); Latin body/titles in Newsreader; masthead in UnifrakturMaguntia.
+< - Structural headings, bands, footer and page lines use full-width spaces (　), never 「·」. 「·」 survives only inside inline enumerations (multiple-choice options, gloss word lists, the P6 timeline legend, foreign-person names such as 戴安娜·克瑞兒) — the same rule the W43 reference demonstrates.
+< - Chinese numbers unspaced: `第1版／共8版`, `11月22日`. Side boxes are borderless with light ground #f0eee5. Charts use olive #46581f (was brick/gold).
+< - P1 masthead reworked to the W43 pattern (top strip, edition line, badge line, single olive rule with the three-colour Lucerna moth sitting on it). Headline 96px → 60px (45pt). Article titles 34→32px; section heads 28/26→25px; P7 column heads 24→25px.
+< - Error clinic: wrong sentences no longer brick-red — plain ink with an `✗ ` prefix (as in W43).
+< - **Punctuation:** the new svglib has no ASCII→full-width conversion (the old `_fw` is gone), so 569 ASCII punctuation marks in CJK strings were converted to full-width in the source (， ？ ！ ： ； （ ）) by a tokenize-based script (`scratch-zh-tw/punct_apply.py`), with guards: thousands separators (`1,200元`) untouched, times (`14:00`) untouched, English sentences containing CJK words untouched. Verified by dry run before applying; all files re-compiled; rebuild re-gated (see below).
+< - **Known SOP §1.1 gaps (shared with the approved W43 reference build):**
+<   - **Drop cap:** §1.1 asks for an olive drop cap (~4 lines) on the headline's first paragraph. No W43 page implements one, and the layout code has no drop-cap support; implementing it by hand would be a custom ragged-margin hack with occlusion risk. Not implemented; recorded here.
+<   - **P8 exercise stems:** §1.1 step 3 says P8 stems go to 15.4pt (20.5px, "W46 current value"), but the W46 zh-tw core used 13.8px (= 10.35pt) for all 38 P8 items, and this edition keeps 13.8px — 38 exercises + writing strip + 150 keys cannot fit the 8-page budget at 20.5px stems. The **answer keys** do meet the §1.1 floor: measured **9.75pt** on both PDFs (see below). Build 13 tried raising the stems to 20.5px: 8 FLOW OVERFLOW, 381 occlusion flags, ~700px short of the 8-page budget — rolled back by ruling to 13.8px (content8.py 37 × f.ex size=13.8, diff vs Build 12 backup empty; second-round independent proofread measured stems 10.35pt, keys 9.75pt, render clean).
+<   - **D7 size ladder (Build 13 trial, kept in Build 14):** Notes boxes 20.5→18px (= 13.5pt, ladder top); P7 three-column body 21.5→22px, P7 exercises 20.5→22px, P4 exercises 21.5→22px (= 16.5pt, ladder bottom); article body 24px (= 18pt) and sidebar body/exercise stems 22.5px (= 16.875pt) were already in range and untouched. Second-round independent proofread verified zero overflow, 0 occlusion flags, hierarchy still clear.
+< - The `lucerna-moth.svg` asset was copied from the W43 reference dir into `assets/` (the moth is the Lucerna brand mark; `assets/lucerna-moth.svg`, 1,324 bytes).
+< 
+< ## Per-page contents
+< 
+< - **P1 Front (A2, 10 exercises):** Lead — Wei Chuan Dragons championship parade (Sun Nov 22, 14:00, Tianmu Baseball Stadium → Taipei Dome Songyan Blvd) + two-day fans' thanksgiving festival (Nov 21–22: grass concert, overnight camping on the 21st, player activities/photos/signing/baseball classroom on the 22nd); second story — Leofoo Village Tombstone Town 10th anniversary, night parade 《鹿魔覺醒》 final show Sun Nov 22 19:00 (5m giant demon Wendigo; day parade 《異界狂想曲》 daily 14:00, Tue off; season Sep 12–Nov 22). Rail: parade file, this-week box, word of the week 封王. Quick quiz + headline words. Exercises 1–10.
+< - **P2 Life (A2, 18 exercises):** Xiaoxue (Sun Nov 22, 20th solar term, 2nd of winter; northeast monsoon strengthening; keep head/neck/feet warm; warm foot soak 10–15 min) + Double 11 parcel check/returns (check count and box first, 7-day cooling-off, exceptions) + New Taipei Christmasland (Nov 13–Dec 27, 45 days, 卡娜赫拉的小動物, main light show daily 17:30–23:00 every 30 min, 5 min each = 12 shows). Rain photo. Exercises 11–28.
+< - **P3 Culture (A2→B1, 18 exercises):** 63rd Golden Horse Awards (Sun Nov 22, Taipei Music Center, red carpet 17:00, ceremony 18:30, theme 「再見江湖」, host 柯煒林 first time; festival Nov 6–22, 587 entries, nominations Oct 1, 《狂忘警探》 11 nominations — no winners claimed, none knowable yet) + Kaohsiung International Steel Sculpture Festival closing stretch (Oct 23–Nov 22, SUPER STAGE, SUPER SAFE steel safe, 85-year-old 林洪玉秀《萬年吉祥花》 metal mesh; hours Mon–Thu 10:00–18:00, Fri/weekend/holidays 10:00–20:00) + 1902 Méliès 《月球之旅》 cinema sidebar. Moon photo. Exercises 29–46.
+< - **P4 Sport (B1, 18 exercises):** Championship parade deep report (same facts as P1, full preview) + Taipei City U-Sport points doubled all November (10 per visit vs 5, 267 venues, 100 points convert to EasyCard stored value). U-points bar chart (10/50/100 × 9px, olive). Baseball file photo (Bain News Service, 1908). Exercises 47–64.
+< - **P5 Youth (B1, 18 exercises):** Hong Kong Disneyland Christmas (Nov 17–Jan 3, 48 days; World of Frozen first winter market; new daytime castle show from Nov 19 with Mickey/Minnie/Stitch; tree-lighting + snowfall + drones; Christmas concerts Nov 21–22 & Dec 5–6, 4 shows) + 8th Cathay West Kowloon Jazz Festival (largest yet, first across two weekends: Nov 13–15, 17–22, 24; Diana Krall Nov 13, Cory Wong Nov 15, Stacey Kent Nov 17, Kenny G closes Nov 24; free outdoor stages) + Pokémon 30th (Festival Walk from Nov 11; giant Pikachu balloon, 10m Poké Ball light display). Harbour photo (c.1920). Exercises 65–82.
+< - **P6 Deep read (B2, 18 exercises):** Nov 22 deep read — one Sunday, four big events; timeline chart 14:00–21:00 with dots at parade 14:00, red carpet 17:00, ceremony 18:30, night parade 19:00, steel close 20:00; by-the-numbers + three-questions boxes. No photo (chart + boxes). Exercises 83–100.
+< - **P7 Language focus (A2/B1/B2 columns + error clinic + sentence frame 越…越… + readers' corner + phrases + VOL.5 teaser, 12 exercises):** Exercises 101–112. Readers' corner prints a clearly labeled editor's example letter (Taipei young reader, parade + Golden Horse + steel) plus a bilingual deferral disclosure in Traditional Chinese and English (see "Readers'-corner disclosure" below). Phrases of the week are verbatim from this issue's own articles (each counted at exactly 2 occurrences across the issue: article + P7). Books photo below the A2 column. VOL.5 teaser: Golden Horse winners, parade report, steel closing, letters.
+< - **P8 Test & keys (38 items):** A true/false 6, B big quiz 10, C fill-in 10, D read-and-answer 5 (A-Ling Nov 22 passage: parade in the afternoon, Golden Horse broadcast in the evening), E say-it-in-context 6, F writing 1. Writing topic 《我的一天：11月22日》, model 142 characters (band 120–180). Notes photo in column 3. All 150 answer keys generated from the registry, with a short English note for every item.
+< 
+< ## Measured totals (registry, reproduced across reruns)
+< 
+< - **Total exercises: 150.**
+< - **By level:** A2 44 · B1 74 · B2 32 (identical split to the W46 core, by construction of the same page plan).
+< - **By page:** P1 10 · P2 18 · P3 18 · P4 18 · P5 18 · P6 18 · P7 12 · P8 38.
+< - **By type:** 單選 67 · 完成句子 54 · 配對 16 · 完形單選 12 · 寫作 1.
+< - **Images per page:** P1 0, P2 1, P3 1, P4 1, P5 1, P6 0, P7 1, P8 1 — 6 photos total, all with credits present in the SVGs.
+< - **Charts measured in final SVGs:** P4 olive bars 90.0, 450.0, 900.0 px (= 10/50/100 points × 9); P6 timeline dots cx 188.0, 695.21, 948.82, 1033.36, 1202.43 (= 14:00/17:00/18:30/19:00/20:00 on the 14:00–21:00 axis).
+< - **PDFs (final render, fix2 2026-11-11):** print `Lucerna-VOL4.pdf` 19,419,829 bytes, SHA-256 3ab3f75815444d6b6da389f026e82a17e4d747226698083c16f6b26523d3474e; web `Lucerna-VOL4-web.pdf` 2,323,405 bytes (< 7 MB), SHA-256 582c4aa7b1a90a065c5d5e5e0f4b7219394a0089b67ee1791d2e700c8d46938e. Both 8 pages, 1462.5 × 2025 pt. (fix1 2026-11-11 08:47: print 19,421,129 B / daa438344c73bf6be8e71557d2062ef82536579a0b5163d8e9b8fc543b219210; web 2,324,807 B / 596defd7d42870cd94178846e750ba0d22df5bd093874356452dab3c2134ac1f. Build 14: print 19,420,492 B / f2764750d3872fc07adc034ef3c1e80cad60d543067f6a96a710b16bd8f89fba; web 2,307,484 B / 9191ef790de862fd1defc7e51ea661e8de71b1438e1d55068a393eb211dc54a2. Web-PDF 注：webpdf.py 每次重跑 SHA 都不同（fontTools 子集化随机标签，压缩字体流差 1–5 字节；fix2 实测三跑 2,323,404 / 2,323,405 / 2,323,400 B、SHA 皆不同；印刷 PDF 两跑 SHA 相同，确定性无问题）——KIT 登记以本次交付文件为准。)
+< - **P8 answer font size (PyMuPDF, measured 2026-11-10):** keys at **9.75pt on both web and print PDFs** (160 spans at 9.75pt on P8; the 13.0px key size = 9.75pt) — exactly the SOP §1.1 floor (≥9.75pt). P8 stems stay at 13.8px = 10.35pt (see the §1.1 note above).
+< - **P7 geometry:** col3 ends 1825.4, phrases strip at fy=1849.4, teaser ends 2579.4 (footer rule 2596 — clear by 16.6px). P7 three-column Flow ends (Build 14 measured): A2 1377, B1 1501, B2 1435 (bottom 1560). P7 image ends 1532.8. P8 writing strip ends 1280.2, keys end 2556.7 baseline (column 2, Q79 "79. a — 市集 — a market."; the old 2287 was approx. column 4 (119–150) last line, measured 2271.1). Keys end stays inside the content bottom 2560, 39.3px clear of the footer rule 2596 — no overflow.
+< - **Visible-text extraction:** pdftotext on print and web PDFs: 46,151 bytes (print) / 46,152 bytes (web) at fix2 (Build 14: 46,224 / 46,226; fix1: 46,224 / 46,225 — the fix2 drop of ~73 bytes is exactly the removed BABYMONSTER row). Multiset check at fix2: print-only 0 characters, web-only 1 newline — the only difference is a line-break grouping artifact (the Build-14 space artifact at `電影小課：1902 年的月球之` does not reproduce in this run: both layers read `電影小課：1902年的月球之`). No character is missing; the text layer is complete. Recorded as a cosmetic artifact of the new lib + webpdf interaction, not a content error.
+< 
+< ## Trend and fact sources (all verified by web search on 2026-11-10)
+< 
+< - **Night parade / Leofoo Tombstone Town:** 10th anniversary, 2026-09-12–11-22, night parade Fri/Sat/Sun/holidays 19:00, 5m giant demon Wendigo; day parade 《異界狂想曲》 daily 14:00 (Tue off); final show Sun Nov 22 19:00.
+< - **Golden Horse 63rd:** Sun Nov 22, Taipei Music Center, red carpet 17:00, ceremony 18:30, theme 「再見江湖」, host 柯煒林 (first time); festival Nov 6–22, 587 entries, nominations Oct 1, 《狂忘警探》 11 nominations.
+< - **Steel Sculpture Festival:** Oct 23–Nov 22, SUPER STAGE, Pier-2 Penglai B3 / Hamasen Railway Park / Yancheng; SUPER SAFE theme show = steel safe; 85-year-old 林洪玉秀《萬年吉祥花》 metal mesh; hours Mon–Thu 10:00–18:00, Fri/weekend/holidays 10:00–20:00.
+< - **Xiaoxue:** Sun Nov 22, 20th solar term, 2nd of winter, sun at 240°; 東北季風越來越強; warm head/neck/feet, warm foot soak 10–15 min.
+< - **Dragons parade:** Sun Nov 22 14:00, Tianmu Baseball Stadium → Taipei Dome Songyan Blvd; fans' thanksgiving festival Nov 21–22 at Tianmu (21st: grass concert + overnight camping; 22nd: player activities, photos/signing, baseball classroom); U-Sport November: 267 venues, 5→10 points, 100 pts → EasyCard stored value.
+< - **New Taipei Christmasland:** Nov 13–Dec 27 = 45 days, 卡娜赫拉的小動物, main light show daily 17:30–23:00 every 30 min, 5 min each = 12 shows; 4 theme zones + 7 response zones.
+< - **HK Disneyland Christmas:** Nov 17–Jan 3 = 48 days (14+31+3); World of Frozen first winter market; new daytime castle show from Nov 19 (Mickey/Minnie/Stitch); tree-lighting + snowfall + drones; concerts Nov 21–22 & Dec 5–6 (4 shows).
+< - **West Kowloon Jazz Festival:** 8th, largest, first across two weekends: Nov 13–15, 17–22, 24; Diana Krall Nov 13, Cory Wong Nov 15, Stacey Kent Nov 17, Kenny G closes Nov 24; free outdoor stages.
+< - **BABYMONSTER Taipei:** Nov 21–22, Taipei Arena — verified fact, but **removed from the P5 「香港11月節目」 table in fix2 (2026-11-11)**: a Taipei concert does not belong in a Hong Kong table (proof1 zh-tw-pt D2). Removed outright; no Taipei table exists in this core to move it to. The row appears nowhere else (no P8 item/key touches it).
+< - **Rejected as false:** BIGBANG Kaohsiung Nov 19–22 (real Kaohsiung dates are 2027-02-27/28) — NOT used anywhere.
+< - **Calendar nodes verified with `date` (Asia/Taipei):** Nov 16 Mon, 17 Tue, 18 Wed, 19 Thu, 20 Fri, 21 Sat, 22 Sun. Nov 22 items (parade, Golden Horse, steel close, Xiaoxue) are the issue's live coverage — the week IS Nov 16–22.
+< - **No invented data:** no invented polling-organization data, real-person quotes, or accounts anywhere. Teaching charts are drawn from the sourced figures above and labeled with their sources.
+< 
+< ## Image licenses (6 placed)
+< 
+< | Page | File | Subject | Credit (Commons Artist field) | License |
+< |------|------|---------|--------------------------------|---------|
+< | P2 | rain.jpg | Rain on a blue umbrella, file photo | CorraleH | CC0 |
+< | P3 | moon.jpg | Méliès, Trip to the Moon cannon still (1902) | Georges Méliès | Public domain |
+< | P4 | baseball.jpg | Washington baseball team, 1908 (Bain News Service glass negative), file photo of an old baseball team — https://commons.wikimedia.org/wiki/File:Washington_team,_Washington_AL_(baseball)_LCCN2014680242.jpg | Bain News Service | Public domain |
+< | P5 | harbour.jpg | Hong Kong from the harbour, c.1920 | Unknown author | Public domain |
+< | P7 | books.jpg | Old books in library | Unknown author | CC0 |
+< | P8 | notes.jpg | Taking notes with a pencil | (Unsplash) | CC0 |
+< 
+< baseball.jpg SHA-256 18ad8ae06fac2860d2c03323efd7ad5736de8597e1540058e830ccd35bad1009 (1024×743), byte-identical to the W45/W46 verified file (a similarly-named modern 1280×1920 batter photo found in another scratch dir was caught and NOT used). Commons API search records: `hidden_files/w47/scratch-zh-tw/*-search.json`, `picked.json`, `thumb-urls.json`.
+< 
+< ## W46 promises honored
+< 
+< The W46 KIT's VOL.4 teaser promised, verbatim: 「下週日11月22日，三件大事同一天：封王遊行下午2點、金馬獎晚上6點30分、鋼雕藝術節閉幕，還有小雪、你們的來信和第8版最佳作文」. All honored in this issue: parade 14:00 (P1 lead + P4), Golden Horse 18:30 (P3 + P6 timeline), steel closing Nov 22 (P3 + P6), Xiaoxue Nov 22 (P2 + P6), readers' letters + best P8 writing (P7 — see disclosure below; no publishable letters had arrived by press time, so the promise rolls to VOL.5). The W46 P7 teaser also named the night parade finale (P1 second story) and the VOL.5 teaser in this issue carries the invitation forward (Golden Horse winners, parade report, steel closing, letters).
+< 
+< ## Readers'-corner disclosure (printed on P7, in both languages)
+< 
+< - Traditional Chinese: 「延期披露：VOL.3曾預告本期起刊登真實讀者來信和第8版最佳作文；截至截稿，本報未收到可刊登的真實來信與投稿，因此本期仍刊登編輯範例，並繼續公開徵集。你的來信，下一期見。」
+< - English: "An editor's example letter — not a real one. Deferral notice: VOL.3 promised real letters and best page-8 writing from this issue; none publishable had arrived by press time, so the example stays and the invitation stays open."
+< - No reader, letter, name, or quote is invented anywhere in this issue. The corner is labeled 「台北小讀者（編輯範例）」 / "An editor's example letter — not a real one." The VOL.5 teaser carries the invitation forward.
+---
+> ## Per-page contents (frozen core content; only the explanation layer is Spanish)
+> 
+> Same as core KIT: P1 Front (A2, 10 exercises); P2 Life (A2, 18); P3 Culture (A2→B1, 18); P4 Sport (B1, 18); P5 Youth (B1, 18); P6 Deep read (B2, 18); P7 Language focus (A2/B1/B2 + error clinic + 越…越… frame + readers' corner + phrases + VOL.5 teaser, 12 exercises); P8 Test & keys (38 items).
+> 
+> ## Measured totals (registry, identical to core)
+> 
+> - **Total exercises: 150.** By level: A2 44 · B1 74 · B2 32. By page: P1 10 · P2 18 · P3 18 · P4 18 · P5 18 · P6 18 · P7 12 · P8 38. By type: 單選 67 · 完成句子 54 · 配對 16 · 完形單選 12 · 寫作 1.
+> - **Images per page:** P1 0, P2 1, P3 1, P4 1, P5 1, P6 0, P7 1, P8 1 — 6 photos total, same files/credits as core.
+> - **Charts:** P4 olive bars 90.0, 450.0, 900.0 px; P6 timeline dots cx 188.0, 695.21, 948.82, 1033.36, 1202.43.
+> - **PDFs (final render):** print `Lucerna-VOL4-ES.pdf` 23,256,393 bytes, SHA-256 5f77b922a5f954fbe84b59ea6a1bcce7a21f663dd27d69e4067f34d655dea9cf; web `Lucerna-VOL4-ES-web.pdf` 2,513,310 bytes (< 7 MB), SHA-256 c625ae1d85f220af088c6f3c95189b31442cbb970079067e5f3364310060b7b8. Both 8 pages, 1462.5 × 2025 pt.
+> - **Text layer:** pdftotext print 48,652 bytes / web 48,654 bytes; character multiset difference 0 (same run-boundary whitespace artifact as core — no character missing).
+> - **Text export:** `2026-w47-zh-tw-es.text.md`, SHA-256 4e7bd1ae9b864a43b65b3edb882b82de9be9535e3d930035176fce902c47aa08, exported from the edition's own SVG text layer in page order (source-side; never from a PDF). H1 `VOL.4 · Textos en chino tradicional · Explicaciones en español` (W46 es precedent). All 150 exercise numbers present; no English instruction leftovers.
+> - **ABSTRACT.txt** (Spanish, single line, no ASCII double quotes): starts `Lucerna Traditional Chinese weekly VOL.4 para estudiantes hispanohablantes, A2 a B2, 150 ejercicios: …` — real topics + A2–B2 + 150 ejercicios.
+> 
+> ## Trend and fact sources / image licenses
+> 
+> Identical to the core KIT (core-zh-tw/WEEKLY-KIT.md) — fan-out does not re-do trend research or change facts. Same 6 placed images with the same credits/licenses.
+> 
+> ## Readers'-corner disclosure (P7, Spanish)
+> 
+> - Chinese (frozen): 「延期披露：VOL.3曾預告本期起刊登真實讀者來信和第8版最佳作文；截至截稿，本報未收到可刊登的真實來信與投稿，因此本期仍刊登編輯範例，並繼續公開徵集。你的來信，下一期見。」
+> - Spanish: "Carta de ejemplo de la redacción, no una carta real: VOL.3 prometió cartas reales de lectores y los mejores textos de la página 8 desde este número; hasta el cierre no llegó ninguna publicable. El ejemplo se queda y la invitación sigue abierta."
+> - No reader, letter, name, or quote is invented anywhere in this issue. The corner is labeled 「台北小讀者（編輯範例）」.
+98,100c52,54
+< - No international politics. Because the target is Chinese, Chinese domestic politics is also excluded. (A Golden Horse search result mentioning an election-period scheduling note was deliberately NOT used — no election content appears.)
+< - No anniversary used as a living trend; topics grow from the issue week's actual Taiwan/Hong Kong ecosystem heat. (The Leofoo Tombstone Town 10th anniversary and Pokémon 30th anniversary are dated in-week events, reported as events, not as commemorative marketing.)
+< - No Simplified-only characters in Traditional text (see proofread record).
+---
+> - No international politics. Because the target is Chinese, Chinese domestic politics is also excluded.
+> - No anniversary used as a living trend.
+> - No Simplified-only characters in Traditional text (`checks.py` SIMP_ONLY_HITS []).
+104c58
+< Build code lives in `production/2026-w47/core-zh-tw/` (bslib4.py, svglib.py, run.py, render.py, content12/34/56/7/8.py, checks.py, export_zhtw_textmd.py, assets/). Content modules run only via the single one-process driver, never standalone. Run with the toolkit venv:
+---
+> Build code lives in `production/2026-w47/2026-w47-zh-tw-es/` (copied from core-zh-tw by `scratch-fanout-zh-tw/transform.py es`, then patched as below). Content modules run only via the single one-process driver, never standalone. Run with the toolkit venv:
+107c61
+< cd ~/workspace/weekly-git/production/2026-w47/core-zh-tw
+---
+> cd ~/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es
+110c64,65
+< ~/workspace/weekly-git/tools/venv/bin/python ~/workspace/weekly-git/tools/webpdf.py svg Lucerna-VOL4-web.pdf
+---
+> ~/workspace/weekly-git/tools/venv/bin/python ~/workspace/weekly-git/tools/webpdf.py svg Lucerna-VOL4-ES-web.pdf
+> ~/workspace/weekly-git/tools/venv/bin/python export_zhtw_textmd.py svg 2026-w47-zh-tw-es.text.md "VOL.4 · Textos en chino tradicional · Explicaciones en español"
+113c68
+< Outputs: 8 SVGs in `svg/`, 8 full-page PNGs in `cards/`, print PDF `Lucerna-VOL4.pdf`, web PDF `Lucerna-VOL4-web.pdf` (text layer via webpdf.py only). Freeze baseline: `tools/freeze.py baseline --build . --core-svg svg --out <scratch>` reproduces 8/8 SVGs byte-identically (see gates log).
+---
+> Outputs: 8 SVGs in `svg/`, 8 full-page PNGs in `cards/`, print PDF `Lucerna-VOL4-ES.pdf`, web PDF `Lucerna-VOL4-ES-web.pdf`.
+117,145c72,102
+< - **Full self-proofread:** the extracted text of all 8 pages was read closely; every answer key was re-derived against its question/article/chart, every date/weekday and arithmetic total re-checked (17 days Nov 6–22; 14+31+3=48; 1,200+800=2,000; 2,000−1,200=800; 12 light shows 17:30–23:00; 7 visits×10=70, 30 short of 100; 14:00→19:00=5h; 17:00→18:30=1.5h), every glossed term confirmed present on its own page.
+< - **Occlusion audit:** `tools/occlusion_audit.py` selftest passed (all 6 planted classes fired, clean controls silent). New-style build round 1 reported 1 flag (P7 LINEX: phrases rule crossing the readers'-corner last line — the letters-box height formula under-counted the draw lead-in and inter-para gaps by ~20px). Fixed in source: letters-box formula rewritten to the exact draw model (`164 + (n1+n2)×30.53 + (n3−1)×28.4`, with the calibration comment in content7.py) and phrases row spacing 138→132 to keep the teaser under the footer rule. Round 2 after re-render: **0 flags**.
+< - **Same-baseline ink-collision scan:** not run as a separate script this cycle — the occlusion audit (true-ink boxes) plus the full card review cover the same defect class; the P7 LINEX above was caught by the audit and re-verified on the card.
+< - **P7 phrases:** all 8 at exactly 2 occurrences each (article + P7), counted over concatenated SVG text nodes (full-width rendered forms), via `checks.py` (PASS).
+< - **Simplified-character audit:** spot list of Simplified-only forms (邮 说 国 龙 马 发 观 欢 对 让 认 识 语 学 读 书 报 纸 电 话 车 门 问 间 见 风 云 气 头) — zero hits in the edition's CJK set (`checks.py` PASS).
+< - **Chart geometry:** `checks.py` PASS — P4 bars 90/450/900 at x=303; P6 dots at 188.0/695.21/948.82/1033.36/1202.43.
+< - **Kinsoku:** the typesetter's kinsoku + seam-repair passes run in the new svglib (W43 implementation); no WRAP WIDTH warnings in the final build log.
+< - **Politics scan:** 0 hits for war/geopolitics/foreign-affairs terms, cross-strait terms, election/party terms, and government-body terms (manual read; no election content was written).
+< - **P8 keys:** `tools/p8.py extract --p8 svg/p8-test.svg --total 150` reports noted set = 150 of 150 (item 150 is the writing task, printed as "150. ✓ Open task … (142 characters)" by design). Writing model 142 characters, inside the 120–180 band.
+< - **Layout fixes applied during the build:** §1.1 migration (see note above); P6 circle `fill=OLIVE` unquoted attribute found by the renderer (XML parse error) and fixed to `fill="{OLIVE}"`; punctuation full-width conversion (569 marks, dry-run reviewed first); P7 letters-box formula fix (see occlusion record); P7 phrases row spacing 138→132 (teaser 2603.1 → 2579.4). Final builds print zero FLOW OVERFLOW and zero HEAD TOO WIDE warnings.
+< - **Visual QA:** all 8 rendered cards viewed page by page (P1–P6 + P8 after the §1.1 rebuild; P7 re-viewed after the letters-box fix) — no overflow, no overlap, no footer collision, image/credit placement confirmed; P4/P6 charts re-viewed after fixes.
+< - **Web PDF:** `tools/webpdf.py` exit 0; 2,307,484 bytes (< 7 MB); text layer (pdftotext default) print 46,224 bytes / web 46,226 bytes, multiset difference 0 characters; 8 pages. pdftotext differs from the print PDF by exactly 1 space + 1 newline (see "Measured totals" — run-boundary artifact, no character missing).
+< - **Text export:** `2026-w47-zh-tw-en.text.md` in this dir, fix2 49,735 bytes, SHA-256 7e1a45165dc663af5301d95784567b03f4e9f512766571e507663086d510791c (fix1: 49,816 B / 1dd4afab886a7b62d0d580336db4e35b55227e6a766a325169f529647bf8bc17; Build 14: 49,816 B / 4a99110975bb0c4b684de82a8a9ed7fa11bddb59562bb75398327cb4446207a5 — fix2 比 fix1 少 81 字节，恰为移出行 3 行文字 + 空行), exported from the edition's own SVG text layer in page order (source-side; never from a PDF). `ABSTRACT.txt` in this dir (reader's native language — English — single line, no ASCII double quotes).
+< - **Delivery note:** this builder does not claim finalization (independent proofread is separate), does not post to Discord, does not send cards/PDFs into the main chat, creates no cron, and does not touch `weekly-git` pushes or insert.py.
+< 
+< ## Build history (this session)
+< 
+< - Builds 1–6 (2026-11-10): W46 old-style code, content complete, all gates green (checks PASS, occlusion 0, freeze 8/8, p8 150/150, web PDF 2,381,193 bytes, P8 keys 9.6pt at 12.8px).
+< - Coordinator correction (2026-11-10 16:32 EST): Italian and Japanese cores failed independent proofread for reusing W46 old styling without executing SOP §1.1; this build was held for the same self-check.
+< - Builds 7–8: §1.1 migration (W43 reference libs, masthead rework, borderless boxes, olive charts, full-width-space furniture). Build 7 clean; build 8 fixed the unquoted `fill=OLIVE` in the P6 chart; render was interrupted by machine load (16 parallel agents) and finished in two steps.
+< - Build 9: full-width punctuation conversion (569 marks). P7 teaser ended 2603.1 (past the 2596 footer rule) — fy gap 44→24.
+< - Build 10: teaser 2583.1 but occlusion found 1 LINEX (letters-box formula short ~20px).
+< - Build 11: letters-box formula rewritten to the exact draw model; phrases rows 138→132; teaser 2579.4; occlusion 0 flags; all gates green. P8 keys raised 12.8→13.0px during builds 6–11, measured 9.75pt on both PDFs.
+< - Build 12 (2026-11-10 23:31): D1–D8 rework, no D7 — D1 stray Double-11 sentence deleted (D2 orphan gone with it); D3 three keys → 主燈秀; D4 "19:00" reflowed to two lines; D5 six full-width fixes + ～; D6 full-width space in the P8 eyebrow; D8 new Q111 stem. Verified: checks PASS, occlusion 0 flags, freeze 8/8, p8 extract 150/150, p8 compare CLEAN; print 19,420,646 B, web 2,307,626 B; text layer raw 46,201 vs 46,203.
+< - Build 13: D7 ladder trial + P8 stems trial (coordinator 2026-11-10 18:36) — D7: Flow.expl/gloss 20.5→18px, P7 columns/exercises →22px, P4 exercises →22px; P8 stems 13.8→20.5px. Result: D7 kept (zero overflow, occlusion 0 on P1–P7); P8 stems failed (8 FLOW OVERFLOW, 381 occlusion flags, ~700px short) and rolled back — content8.py 37 × size=20.5→13.8, diff vs Build 12 backup empty.
+< - Build 14 (final, 2026-11-10 23:51): D1–D8 + D7 kept, P8 stems rolled back to 13.8px; checks PASS, occlusion 0 flags, p8 150/150, freeze-equivalent verification 8/8 (freeze.py baseline copy path hit the disk-quota event, see FIX-LOG); print 19,420,492 B, web 2,307,484 B — the delivered final render.
+< - fix1 (2026-11-11 08:47, D1 「下週日」→「本週日」11 处）: run/render/webpdf/export RC 皆 0，TOTAL 150 分布不变；occlusion 0 flags；p8 extract 150/150，compare vs zh-tw-de CLEAN keydiff=[]；freeze 8/8；checks PASS；文字层 print 46,224 / web 46,225 B，多重集差仅 1 换行；P8 最小字号双 PDF 9.75pt；print 19,421,129 B / daa43834…19210，web 2,324,807 B / 596defd7…34ac1f，text.md 49,816 B / 1dd4afab…8bc17。
+< - fix2 (2026-11-11 09:06–09:2x, D2 台北演唱会错放香港表）: 仅改 content56.py——删「香港11月節目」表末行 `BABYMONSTER台北演唱會：11月21、22日（台北小巨蛋）`（核心无台北节目表可移入；全源 grep 确认该行仅此一处，P8 无题/键涉此行），表框高 480→418（恰一行情距 61.7px）、by4 偏移 498→436（保 18px 框间距；爵士表整体上移 62px，底至页脚留白 324px）。门禁全绿：run/render/webpdf/export RC 皆 0，TOTAL 150 分布不变，0 溢出；checks PASS；occlusion 0 flags；p8 extract 150/150，compare vs zh-tw-de CLEAN keydiff=[]；freeze 8/8（仅 p5-youth.svg 变：3b257230…→183e0bc4…，其余 7 页与 fix1 字节相同）；文字层 print 46,151 / web 46,152 B，多重集差仅 1 换行，本週日 11/11、下週日 0、BABYMONSTER 0；弯引号 0；P8 最小字号双 PDF 9.75pt；P5 目视通过（5 行表框底距正常、爵士表无碰撞）；print 19,419,829 B / 3ab3f758…3474e，web 2,323,405 B / 582c4aa7…46938e，text.md 49,735 B / 7e1a4516…0791c。未跑 insert.py/lint --write，未做 git 写操作；核心重校待协调员一次派发（fix1+fix2）。
+< - Environment notes: two transient "Disk quota exceeded" write failures (the shared disk was at its quota edge with ~16 agents writing at once); both cleared on retry, no work lost. One render run was killed by machine load mid-P8 and completed in a second step (cards p1–p7, then p8 + print PDF).
+---
+> - **Full self-proofread:** the extracted text of all 8 pages was read (rendered cards P1–P8 viewed page by page + text.md scan); every answer key re-derived against its question/article/chart; every date/weekday and arithmetic total re-checked (same totals as core); every glossed term confirmed present on its own page.
+> - **Occlusion audit:** `tools/occlusion_audit.py` selftest passed. Final round: **0 flags**.
+> - **P7 phrases:** all 8 at exactly 2 occurrences each (article + P7), via `checks.py` (PASS).
+> - **Simplified-character audit:** zero hits (`checks.py` PASS).
+> - **Chart geometry:** `checks.py` PASS — P4 bars 90/450/900; P6 dots as above.
+> - **P8 keys:** `tools/p8.py extract --p8 svg/p8-test.svg --total 150` → noted set = 150 of 150; `p8.py compare` vs core → **CLEAN** (missing=[] extra_count=0 keydiff=[]). Answer values identical to core for all 150 items. Writing model 142 characters, inside the 120–180 band. P8 level chips: 38/38 exercises badged; items 113–150 each carry a chip (A2 8 · B1 20 · B2 10 on P8); F writing head `F　寫一寫　Escribir` present with its B2 chip on item 150.
+> - **Freeze:** `tools/freeze.py baseline` re-run reproduces **8/8 SVGs byte-identically** (direct sha256 comparison; all MATCH).
+> - **Web PDF:** `tools/webpdf.py` exit 0; 2,513,310 bytes (< 7 MB); text layer multiset difference 0 vs print; 8 pages. P8 min size 9.75pt on both PDFs.
+> - **§1.1 measurements:** paper/gold/brick/frame/badges/footer/separators/VOL as listed above; all pass.
+> - **Visual QA:** all 8 rendered cards viewed page by page — no overflow, no overlap, no footer collision, image/credit placement confirmed; P4/P6 charts re-viewed; P7 re-viewed after fix.
+> - **English-leak scan (whole edition):** every SVG text node compared against the core's — 0 strings identical to core English prose (the 6 known key-note leaks were patched in Spanish before the first full build; see "Fixes").
+> 
+> ## Fixes applied during this build (all inside this edition dir only)
+> 
+> 1. **6 untranslated P8 key notes — patched before the first full build.** Same shared table gap as de/fr (see de KIT): `tables.py` has no ENTRIES for these 5 source strings. Spanish translations written in this edition's `content56.py` (keys 92/98/100) and `content8.py` (keys 117/134/138), answer values untouched: "La ceremonia es en el Taipei Music Center." / "Xiaoxue es el 22 nov." / "Cuatro grandes eventos caen el mismo domingo." / "Acumular puntos es 集點。"
+> 2. **P7 col3 overflow (build 1 → build 2).** Build 1: col3 ended 1908.7, teaser ended 2662.7 (66.7px past the footer rule); 0 HEAD TOO WIDE, 0 FLOW OVERFLOW. Fixed in `content7.py` (explanation layer only): readers'-corner Spanish disclosure 8 → 7 lines, third error-clinic gloss 3 → 2 lines ("El espectáculo principal es cada media hora: 12 veces, de 17:30 a 23:00."), 越…越… frame example 5 → 4 lines. Result: col3 ends 1823.3, teaser ends 2577.3 (clear by 18.7px), occlusion 0 flags. The three shortened Spanish strings mirrored into `tables.py` (es column only). All three candidate strings were measured before applying (no failed patch this round).
+> 3. **Stale core files removed.** The copytree brought the core's `Lucerna-VOL4.pdf`, `Lucerna-VOL4-web.pdf`, and `2026-w47-zh-tw-en.text.md` into this dir; all three deleted (byte-identical to core). This dir now holds only the es files.
+> 
+> ## Known non-defects (measured, recorded, not fixed)
+> 
+> - **P4 "Palabras de béisbol" head wraps to two lines** ("Palabras de" / "béisbol") — the head wraps within its column, no overflow warning, no overlap; slightly awkward typography, recorded here.
+> - **P5 cross-column fragment** — the first article's last line flows to the top of column 1; normal newspaper flow, same in core.
+> - **P8 stems 10.35pt** — per the core ruling; keys meet the 9.75pt floor.
+> - **text.md page headings in English** ("## Page 6 — Deep read" etc.) — the exporter's fixed format, identical in the core and the shipped W46 es text.md; not a leak.
+> 
+> ## Build history (this session, builder 7th rod)
+> 
+> - `transform.py es` OK (244 lines).
+> - Build 1 (run.py exit 0, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE) + P7 teaser 2662.7 (past footer) — fixed (fix 2 above).
+> - Build 2 (final): run.py exit 0, 0 warnings; render exit 0; webpdf exit 0; text.md exported; all gates green (occlusion 0, p8 150/150 CLEAN, checks PASS, freeze 8/8, leak scan 0, P8 9.75pt both PDFs, text multiset diff 0).
+> - Delivery note: this builder does not claim finalization (independent proofread is separate), does not post to Discord, does not send cards/PDFs into the main chat, creates no cron, and does not touch `weekly-git` pushes or insert.py. Core files untouched.
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p1-front.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p1-front.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p2-life.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p2-life.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p3-culture.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p3-culture.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p4-sport.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p4-sport.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p5-youth.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p5-youth.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p6-deep.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p6-deep.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p7-lang.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p7-lang.png differ
+Binary files /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/cards/p8-test.png and /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/cards/p8-test.png differ
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/content12.py /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content12.py
+33c33
+< f.title("封王遊行，本週日天母出發！", 32)
+---
+> f.title("封王遊行，下週日天母出發！", 32)
+35c35
+< f.para("味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。球團在11月21日、22日兩天，在天母棒球場辦球迷感謝祭：21日有草地音樂會，球迷可以在草坪上搭帳篷過夜；22日有球員互動、拍照和簽名，還有投打棒球教室。")
+---
+> f.para("味全龍拿下隊史第6座總冠軍，封王遊行訂在下週日（11月22日）下午2點。封王遊行從天母棒球場出發，終點是台北大巨蛋松菸大道。球團在11月21日、22日兩天，在天母棒球場辦球迷感謝祭：21日有草地音樂會，球迷可以在草坪上搭帳篷過夜；22日有球員互動、拍照和簽名，還有投打棒球教室。")
+68c68
+<     "本週日 11/22 遊行、金馬獎、鋼雕閉幕、小雪",
+---
+>     "下週日 11/22 遊行、金馬獎、鋼雕閉幕、小雪",
+111c111
+< f.para("本週日（11月22日）是小雪，是二十四節氣的第20個節氣，也是冬天的第2個節氣。小雪的意思是天氣更冷，開始下小雪——在台灣，小雪很少真的下雪，主要是提醒大家：冬天更深了。小雪之後，天氣一天比一天冷，保暖要先做好。")
+---
+> f.para("下週日（11月22日）是小雪，是二十四節氣的第20個節氣，也是冬天的第2個節氣。小雪的意思是天氣更冷，開始下小雪——在台灣，小雪很少真的下雪，主要是提醒大家：冬天更深了。小雪之後，天氣一天比一天冷，保暖要先做好。")
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/content34.py /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content34.py
+17,18c17,18
+< f.title("金馬獎本週日頒獎，誰會得獎？", 32)
+< f.para("2026台北金馬影展從11月6日放到11月22日，入圍影片都在影展放映。今年有587部影片報名，入圍名單在10月1日公布，《狂忘警探》入圍11項，是入圍最多的影片。頒獎典禮在本週日（11月22日）舉行，地點在台北流行音樂中心，下午5點先走星光大道，頒獎典禮晚上6點30分開始。今年的主題是「再見江湖」，主持人是香港演員柯煒林，第一次主持金馬獎。得獎名單要到典禮當天才揭曉，現在誰也不知道誰會得獎。")
+---
+> f.title("金馬獎下週日頒獎，誰會得獎？", 32)
+> f.para("2026台北金馬影展從11月6日放到11月22日，入圍影片都在影展放映。今年有587部影片報名，入圍名單在10月1日公布，《狂忘警探》入圍11項，是入圍最多的影片。頒獎典禮在下週日（11月22日）舉行，地點在台北流行音樂中心，下午5點先走星光大道，頒獎典禮晚上6點30分開始。今年的主題是「再見江湖」，主持人是香港演員柯煒林，第一次主持金馬獎。得獎名單要到典禮當天才揭曉，現在誰也不知道誰會得獎。")
+123c123
+< f.title("本週日，封王遊行天母出發！", 32)
+---
+> f.title("下週日，封王遊行天母出發！", 32)
+125c125
+< f.para("味全龍拿下隊史第6座總冠軍，封王遊行訂在本週日（11月22日）下午2點，從天母棒球場出發，終點是台北大巨蛋松菸大道。球團在11月21日、22日兩天，在天母棒球場辦球迷感謝祭：21日有草地音樂會，球迷可以在草坪上搭帳篷過夜；22日有球員互動、拍照和簽名，還有投打棒球教室。")
+---
+> f.para("味全龍拿下隊史第6座總冠軍，封王遊行訂在下週日（11月22日）下午2點，從天母棒球場出發，終點是台北大巨蛋松菸大道。球團在11月21日、22日兩天，在天母棒球場辦球迷感謝祭：21日有草地音樂會，球迷可以在草坪上搭帳篷過夜；22日有球員互動、拍照和簽名，還有投打棒球教室。")
+196c196
+< caption(p, rx, 208 + 300 + 6, CW, "棒球舊照（資料照片）。本週日，龍隊封王遊行從天母出發。",
+---
+> caption(p, rx, 208 + 300 + 6, CW, "棒球舊照（資料照片）。下週日，龍隊封王遊行從天母出發。",
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/content56.py /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content56.py
+96c96
+< p.rect(rx, by3, CW, 418, fill=BOX)
+---
+> p.rect(rx, by3, CW, 480, fill=BOX)
+104a105
+>     "BABYMONSTER台北演唱會：11月21、22日（台北小巨蛋）",
+107c108
+< by4 = by3 + 436  # fix2: HK box shrank 480->418 (one 61.7px row removed); keeps the 18px gap
+---
+> by4 = by3 + 498
+131c132
+< f.para("怎麼辦？先選一件，再看轉播——四件事只能取捨。遊行在街上，去現場最熱鬧；金馬獎在家看轉播，得獎名單一樣看得到；鋼雕在高雄、夜間遊行在新竹，去不了就留到下次。")
+---
+> f.para("怎麼辦？先選一件，再看轉播。遊行在街上，去現場最熱鬧；金馬獎在家看轉播，得獎名單一樣看得到；鋼雕在高雄、夜間遊行在新竹，去不了就留到下次。")
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/content7.py /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content7.py
+99c99
+< lt = "「編輯好：本週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
+---
+> lt = "「編輯好：下週日我要去看封王遊行，穿紅色衣服為龍隊喝采。晚上回家看金馬獎轉播，還想去高雄看鋼雕，最後一天不要錯過。——台北小讀者（編輯範例）」"
+diff -r '--exclude=__pycache__' '--exclude=svg' /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw-ja1/work/prod/2026-w47-zh-tw-es/content8.py /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-es/content8.py
+86c86
+<      "— 封王遊行哪天出發？ — 本週日___出發。(A. 11月22日 · B. 11月15日)", size=13.8, gap=0)
+---
+>      "— 封王遊行哪天出發？ — 下週日___出發。(A. 11月22日 · B. 11月15日)", size=13.8, gap=0)

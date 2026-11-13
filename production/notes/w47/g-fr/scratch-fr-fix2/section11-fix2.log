@@ -1,0 +1,23 @@
+=== §1.1 recheck (fixed build) ===
+svg/p1-une.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=35
+   fonts: {'Noto Sans CJK SC': 76, 'UnifrakturMaguntia': 1, 'Noto Serif CJK SC': 10, 'Newsreader': 103}
+svg/p2-vie.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=33
+   fonts: {'Noto Sans CJK SC': 65, 'Newsreader': 114, 'Noto Serif CJK SC': 10}
+svg/p3-culture.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=19
+   fonts: {'Noto Sans CJK SC': 74, 'Newsreader': 112, 'Noto Serif CJK SC': 15}
+svg/p4-sport.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=29
+   fonts: {'Noto Sans CJK SC': 57, 'Newsreader': 136, 'Noto Serif CJK SC': 22}
+svg/p5-jeunesse.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=23
+   fonts: {'Noto Sans CJK SC': 57, 'Newsreader': 125, 'Noto Serif CJK SC': 17}
+svg/p6-politique.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=24
+   fonts: {'Noto Sans CJK SC': 70, 'Newsreader': 131, 'Noto Serif CJK SC': 14}
+svg/p7-langue.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=15
+   fonts: {'Noto Sans CJK SC': 69, 'Newsreader': 106, 'Noto Serif CJK SC': 5, 'DejaVu Sans': 4}
+svg/p8-exercices.svg: paper=1 gold=0 oldpaper=0 dark=0 edge-stroke>=2:0 dot=0 fwsp=182
+   fonts: {'Noto Sans CJK SC': 192, 'Newsreader': 108, 'Noto Serif CJK SC': 23}
+P2 band rect y=72 present: True
+footer line 2596: True
+svg 1950x2700 all: True
+.text.md dot: 0 fwsp: 390
+ABSTRACT dot: 0
+VOL.4 in print text: 11 | VOL.5 in print text: 9

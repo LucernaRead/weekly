@@ -1,0 +1,174 @@
+editions: 33
+=== 2026-w47-en-de (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-de)
+  SKIP: smoke-tested already (row appended manually from smoke-test-en-de.txt)
+=== 2026-w47-en-es (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-es)
+  old: 2bc163a375007387e0e09c0ef2395459688dd2d19aea2f6946ced68c5c1eb79c 2414439 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-es.web.pdf
+  mem available 2141MB at render start
+  webpdf.py rc=0
+  new: 062f197279be7d94998a93ee89ec107812a96c77733e4edc1b5dee325dd72c67 2414451 bytes, text bytes: 49552, text vs print: MATCH, status: OK
+=== 2026-w47-en-fr (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-fr)
+  old: 2d20b93df8f88596e1eec7915b7a2ea3d103176061cc35e7b24009c32e95a733 2413667 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-fr.web.pdf
+  mem available 1789MB at render start
+  webpdf.py rc=0
+  new: bc56eabd68ee1e62739d60dfc15952ad154429c09de109f36d809ee8430beb1b 2413669 bytes, text bytes: 49436, text vs print: MATCH, status: OK
+=== 2026-w47-en-it (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-it)
+  old: 570eef4fb1174edb33e3e46c324d96231dac086140a34e1e7376929a41525239 2408879 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-it.web.pdf
+  mem available 1596MB at render start
+  webpdf.py rc=0
+  new: 510a03ad52c246a4e4f9b0535197ee96b3c9ab447a79587c1d147793457f78e5 2408878 bytes, text bytes: 49133, text vs print: MATCH, status: OK
+=== 2026-w47-en-ja (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ja)
+  old: fb903b2b1da9be8abc04ad40e6387cb6050eaa41bc4c3c63b0eddb07150f48f0 2883888 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-ja.web.pdf
+  mem available 1600MB at render start
+  webpdf.py rc=0
+  new: 24452dbf1611a6c4cbc28169e19e0ba533d1da82eb8660f875da3e3af2577ee5 2883886 bytes, text bytes: 49784, text vs print: MATCH, status: OK
+=== 2026-w47-en-ko (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ko)
+  old: e8f6f94a8ed493cbd4d0016ae6cbf0294a392af17d1337749b0897e6d3544a31 2629430 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-ko.web.pdf
+  mem available 2058MB at render start
+  webpdf.py rc=0
+  new: f4d545ab6367e8e3ea2b21480fb2b17bf3f791db269687bb05fea9ea58236e69 2629434 bytes, text bytes: 49708, text vs print: MATCH, status: OK
+=== 2026-w47-en-nl (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-nl)
+  old: c1a0828865d9a293b7e2be1e3f6cec674f7b1f1ca8193049c2c43906e1c509a8 2411546 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-nl.web.pdf
+  mem available 1650MB at render start
+  webpdf.py rc=0
+  new: e73f9bcec5b3d3c42302c748b0bbc1bd9b52befce69ea86d397e329bb8dc678c 2411542 bytes, text bytes: 49156, text vs print: MATCH, status: OK
+=== 2026-w47-en-pt (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-pt)
+  old: 467068e289700e570c5e2c55a9f6c372dc618a0fb4e8d49ccf277429151b7128 2418222 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-pt.web.pdf
+  mem available 1508MB at render start
+  webpdf.py rc=0
+  new: b787bd7dcf88dcb148e7e6469b77f76c5206191115f28d7e4ec470ae5db6ade8 2418221 bytes, text bytes: 49268, text vs print: MATCH, status: OK
+=== 2026-w47-en-ru (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru)
+  old: 9e636240016e11c0b3738f9389d66f7b6f6729f1385c2cb0a379fe9f3f873a09 2452562 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-ru.web.pdf
+  mem available 1456MB <1500, waiting 60s (1/15)
+  mem available 1308MB <1500, waiting 60s (2/15)
+  mem available 1393MB <1500, waiting 60s (3/15)
+  mem available 1138MB <1500, waiting 60s (4/15)
+  mem available 809MB <1500, waiting 60s (5/15)
+  mem available 1096MB <1500, waiting 60s (6/15)
+  mem available 1338MB <1500, waiting 60s (7/15)
+  mem available 1326MB <1500, waiting 60s (8/15)
+  mem available 1475MB <1500, waiting 60s (9/15)
+  mem available 1542MB at render start
+  webpdf.py rc=0
+  new: 588002ff286f0648db8951e08f31a8b0fc4eca56fc20190bf7a32d71ad0b389a 2452552 bytes, text bytes: 54726, text vs print: MATCH, status: OK
+=== 2026-w47-en-zh-tw (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-zh-tw)
+  old: e6e9f8596f14d431c7805b0ad630c91669317b2a99f3d4557ac08903526a41bb 2965206 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-zh-tw.web.pdf
+  mem available 1498MB <1500, waiting 60s (1/15)
+  mem available 1315MB <1500, waiting 60s (2/15)
+  mem available 993MB <1500, waiting 60s (3/15)
+  mem available 2119MB at render start
+  webpdf.py rc=0
+  new: 09121c22b92825030144b14409802681dedd96491eac3cf02b8b00770bee8085 2965195 bytes, text bytes: 47829, text vs print: MATCH, status: OK
+=== 2026-w47-en-zh-cn (/home/hatch/workspace/weekly-git/production/2026-w47/core-en)
+  old: d7927eaad14531a9aee71331d4e27abbf951a296f6b6ee5fb1c770f8c7f7e444 2804281 bytes, svg pages: 8, web: The-Lucerna-VOL4-en-zh-cn.web.pdf
+  mem available 1672MB at render start
+  webpdf.py rc=0
+  new: 723c29c574c2692863857b2fabad0078470c6c0efe8104b0bdca7176288a5d1b 2804275 bytes, text bytes: 48135, text vs print: MATCH, status: OK
+=== 2026-w47-es-de (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-de)
+  old: 2e39306ddd4424e8309aed9efe9e580920c75a826e5821c5e67f401f91c7ec9b 889914 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-de-web.pdf
+  mem available 1643MB at render start
+  webpdf.py rc=0
+  new: 3c69c11834ec1d008925f829bf1cf772ced6404b81242fbccfe9f8604e2e8453 889913 bytes, text bytes: 46352, text vs print: MATCH, status: OK
+=== 2026-w47-es-en (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-en)
+  old: f03047b1631fba034e3e65d2804a95c4c4ea40ba6af36a46e312921a7a70b5b0 886730 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-en-web.pdf
+  mem available 1596MB at render start
+  webpdf.py rc=0
+  new: 7f37168ccad12f524c39ba0fa783126b62015cb5c6b8709e54776026af3e9065 886730 bytes, text bytes: 45946, text vs print: MATCH, status: OK
+=== 2026-w47-es-fr (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-fr)
+  old: 3c2d60696561278323150dafabe922bc77df682946e3266e89adfb9180a3016c 884225 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-fr-web.pdf
+  mem available 1513MB at render start
+  webpdf.py rc=0
+  new: 9d4bca4a0e550776da1383f6bfc2b28add3e35b07a106a98f84918a2de3707b3 884215 bytes, text bytes: 46790, text vs print: MATCH, status: OK
+=== 2026-w47-es-it (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-it)
+  old: 626e7588389b3c835eec0c8eebde974332ab27a90bca7a0dd2c5ffbdce19f6bd 882084 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-it-web.pdf
+  mem available 1579MB at render start
+  webpdf.py rc=0
+  new: e4e14eb125461eabccc7a27f08e6dbf1ee9aa7dd58912efa1fae7f1bbc43f7e1 882083 bytes, text bytes: 46183, text vs print: MATCH, status: OK
+=== 2026-w47-es-ja (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-ja)
+  old: 5895fce90fffd07cccf1909f8de1aa481572751e8caa9bc3a0d80be00845f71f 1540831 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-ja-web.pdf
+  mem available 1533MB at render start
+  webpdf.py rc=0
+  new: 6c6a273d6d3bd6d61679b983ec73e7018f2cffd02a33846e4ab2051e25f5ca77 1540820 bytes, text bytes: 47600, text vs print: MATCH, status: OK
+=== 2026-w47-es-ko (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-ko)
+  old: 2c9a90e05f99fe3a4ed024878bb229fac46042644e1bf57fef4d06e11ec0f008 1236860 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-ko-web.pdf
+  mem available 1225MB <1500, waiting 60s (1/15)
+  mem available 1413MB <1500, waiting 60s (2/15)
+  mem available 1076MB <1500, waiting 60s (3/15)
+  mem available 1062MB <1500, waiting 60s (4/15)
+  mem available 1199MB <1500, waiting 60s (5/15)
+  mem available 1295MB <1500, waiting 60s (6/15)
+  mem available 1032MB <1500, waiting 60s (7/15)
+  mem available 1567MB at render start
+  webpdf.py rc=0
+  new: 39f6a7e99578bc4d1745bd17e413d898008ce9aa6496f363066d46019f38e5ee 1236854 bytes, text bytes: 48365, text vs print: MATCH, status: OK
+=== 2026-w47-es-nl (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-nl)
+  old: 54fbf35e4f3a0694d1922b5ef158d7ab9212d8908d1cedbecbf23f4465f6a763 887959 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-nl-web.pdf
+  mem available 1556MB at render start
+  webpdf.py rc=0
+  new: d51b8135c7f6aaa0c75af52e003063d8d0e7da12c254e639bf771e27ed48ace1 887958 bytes, text bytes: 46229, text vs print: MATCH, status: OK
+=== 2026-w47-es-pt (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-pt)
+  old: 427e9c26d0b055f94e27e06fb659738e7250363e8a0eaf88fe5086f70e099e38 885039 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-pt-web.pdf
+  mem available 1663MB at render start
+  webpdf.py rc=0
+  new: c4d420b70ad5270e5cf3836b97121050e930640b9347adbdac46378045caac1a 885043 bytes, text bytes: 46551, text vs print: MATCH, status: OK
+=== 2026-w47-es-ru (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-ru)
+  old: e6281174237fe2bd31fb749fe7bc9bd76055933a632ec8b20d3081556171aaab 941922 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-ru-web.pdf
+  mem available 1631MB at render start
+  webpdf.py rc=0
+  new: d6d156670439fe944a73d91d71e30ea9f586a3c522afcf936d1255aa612b31dc 941912 bytes, text bytes: 53657, text vs print: MATCH, status: OK
+=== 2026-w47-es-zh-tw (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-es-zh-tw)
+  old: 5b7d87967332783dd0314d54ab2b8483e7d0036b4bdc8609ae3226f2c5de6500 1725936 bytes, svg pages: 8, web: La-Lucerna-VOL4-es-zh-tw-web.pdf
+  mem available 1682MB at render start
+  webpdf.py rc=0
+  new: 9208bd357337910fbb11e409465ed64a408cc40792b7289402034e553af606e0 1725941 bytes, text bytes: 44733, text vs print: MATCH, status: OK
+=== 2026-w47-es-zh-cn (/home/hatch/workspace/weekly-git/production/2026-w47/core-es)
+  old: c2473211d3fb4b930dceb3668237138dd24a2be363fc026b08251ac22185e235 1410471 bytes, svg pages: 8, web: La-Lucerna-VOL4-web.pdf
+  mem available 1684MB at render start
+  webpdf.py rc=0
+  new: 1663138c32d3869f78008819560ceb06f54537bb8f0b9fb325da0f876f07f75c 1410463 bytes, text bytes: 44707, text vs print: MATCH, status: OK
+=== 2026-w47-fr-de (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-de)
+  old: df62f6ee61ae8cc6cd57c837a4a2da74187f855b0d71d2c5a07751ebfb9fdf37 1706936 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-de-web.pdf
+  mem available 1631MB at render start
+  webpdf.py rc=0
+  new: 79461b9f43b29dff6b4fe3f9772c46b4b1c1214896973be94f850cc08c0585e7 1706938 bytes, text bytes: 46956, text vs print: MATCH, status: OK
+=== 2026-w47-fr-en (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-en)
+  old: ca7f8ae3a76fdbb70f8af1724f92bdb6269f8bbc48b41348457e3d6ddbf551a2 1700436 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-en-web.pdf
+  mem available 1387MB <1500, waiting 60s (1/15)
+  mem available 1324MB <1500, waiting 60s (2/15)
+  mem available 1113MB <1500, waiting 60s (3/15)
+  mem available 1198MB <1500, waiting 60s (4/15)
+  mem available 1368MB <1500, waiting 60s (5/15)
+  mem available 1417MB <1500, waiting 60s (6/15)
+  mem available 1622MB at render start
+  webpdf.py rc=0
+  new: bf9e595e5ad364337cc79866096796e4eedcd1ccf15b2587c0c5ef91cbe6fdbf 1700437 bytes, text bytes: 46350, text vs print: MATCH, status: OK
+=== 2026-w47-fr-es (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-es)
+  old: 2e56003e9353fb3de400b27d9e6700e5ad834007e6be07b0dbe758442efbf0b3 1701681 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-es-web.pdf
+  mem available 1473MB <1500, waiting 60s (1/15)
+  mem available 1379MB <1500, waiting 60s (2/15)
+  mem available 1208MB <1500, waiting 60s (3/15)
+  mem available 1020MB <1500, waiting 60s (4/15)
+  mem available 1032MB <1500, waiting 60s (5/15)
+  mem available 1079MB <1500, waiting 60s (6/15)
+  mem available 1382MB <1500, waiting 60s (7/15)
+  mem available 1262MB <1500, waiting 60s (8/15)
+  mem available 960MB <1500, waiting 60s (9/15)
+  mem available 1336MB <1500, waiting 60s (10/15)
+  mem available 1333MB <1500, waiting 60s (11/15)
+  mem available 1155MB <1500, waiting 60s (12/15)
+  mem available 983MB <1500, waiting 60s (13/15)
+  mem available 1095MB <1500, waiting 60s (14/15)
+  mem available 841MB <1500, waiting 60s (15/15)
+  mem available 805MB at render start
+  webpdf.py rc=0
+  new: c3b8d5092122b9231013cb4376615b466cdf6588986beefba5974b047fb4c905 1701670 bytes, text bytes: 46935, text vs print: MATCH, status: OK
+=== 2026-w47-fr-it (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-it)
+  old: 8957acb69bb9342957c0c20a2f61412f0386beb721cdb076fbfa493bcd58b3ab 1696726 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-it-web.pdf
+  mem available 1307MB <1500, waiting 60s (1/15)
+  mem available 1508MB at render start
+  webpdf.py rc=0
+  new: 8b956ff5a22d42bff2b7ff8b36e7988eb16fe57f610dc4883cf253a901cf1d31 1696725 bytes, text bytes: 46915, text vs print: MATCH, status: OK
+=== 2026-w47-fr-ja (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-fr-ja)
+  old: 031684fd076ba8e1b3c64ae4f3df17330e10d838650ca2577cd110bc04ab44d3 2309603 bytes, svg pages: 8, web: La-Lucerna-VOL4-fr-ja-web.pdf
+  mem available 1356MB <1500, waiting 60s (1/15)
+  mem available 1426MB <1500, waiting 60s (2/15)
+  mem available 1577MB at render start

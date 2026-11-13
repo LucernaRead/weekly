@@ -1,0 +1,8 @@
+card: 1950x2700 (expect 1950x2700)
+baselines: [2267.6, 2297.26, 2326.92, 2356.58, 2386.24] gaps: [29.66, 29.66, 29.66, 29.66] (uniform 29.66 = no wrapped line inserted)
+y= 2267.60 adv= 238.5px ink=[1441,1675] ink_w=235px right_margin=187.0px :: 141. b — journaal = news programme b
+y= 2297.26 adv= 215.5px ink=[1441,1652] ink_w=212px right_margin=210.0px :: 142. c — groepswinst = group win c
+y= 2326.92 adv= 152.4px ink=[1441,1588] ink_w=148px right_margin=274.0px :: 143. d — schoen = shoe d
+y= 2356.58 adv= 158.6px ink=[1441,1595] ink_w=155px right_margin=267.0px :: 144. a — gedicht = poem a
+y= 2386.24 adv= 142.0px ink=[1441,1579] ink_w=139px right_margin=283.0px :: 145. A — schoen = shoe
+ALL P8 F-GROUP LINES 141-145: single line, inside column [1439.5, 1862.0], no wrap

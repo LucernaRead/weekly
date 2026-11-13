@@ -1,0 +1,5 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg/: 3 flags {'LINEX': 1, 'TEXTX': 2}
+  [TEXTX] p1-une.svg 'ALCARAZ GAGNE PARIS, LE SÉNAT VOTE MERCREDI' — ink overlaps 'ALCARAZ VENCE' by 198.0x20.8px
+  [LINEX] p6-politique.svg 'CALENDÁRIO DO ORÇAMENTO (VOTO QUARTA-FEIRA)' — later line box [988.0, 1367.0, 1412.5, 1369.0] crosses ink
+  [TEXTX] p6-politique.svg 'LE COMPARATIF EN POLITIQUE' — ink overlaps 'CALENDÁRIO DO ORÇAMENTO (VOTO QUARTA-FEI' by 60.7x12.5px

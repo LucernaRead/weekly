@@ -1,0 +1,21 @@
+== METHOD 1: PIL true ink (production SVGs) ==
+D-1 ink 556.5..944.0 vs box 961.0 spare +17.0px FIT>=+5
+D-2 ink 556.5..947.2 vs box 961.0 spare +13.8px FIT>=+5
+D-3 ink 1461.5..1835.2 vs box 1862.0 spare +26.8px FIT>=+5
+== METHOD 2: pixels on 96dpi render of production print PDF ==
+D-1 darkest-pixel right x=941 vs box 961 spare +20px FIT>=+5
+D-2 darkest-pixel right x=945 vs box 961 spare +16px FIT>=+5
+D-3 darkest-pixel right x=1833 vs box 1862 spare +29px FIT>=+5
+== METHOD 3: text layer (production print + web PDFs) ==
+D-1 La-Lucerna-VOL4-EN.pdf: title in text layer: True
+D-1 La-Lucerna-VOL4-EN.pdf: bbox xMax=708.1pt=944.1px vs box 961.0px spare +16.9px FIT>=+5
+D-2 La-Lucerna-VOL4-EN.pdf: title in text layer: True
+D-2 La-Lucerna-VOL4-EN.pdf: bbox xMax=711.5pt=948.6px vs box 961.0px spare +12.4px FIT>=+5
+D-3 La-Lucerna-VOL4-EN.pdf: title in text layer: True
+D-3 La-Lucerna-VOL4-EN.pdf: bbox xMax=1377.0pt=1836.1px vs box 1862.0px spare +25.9px FIT>=+5
+D-1 La-Lucerna-VOL4-EN-web.pdf: title in text layer: True
+D-1 La-Lucerna-VOL4-EN-web.pdf: bbox xMax=708.1pt=944.1px vs box 961.0px spare +16.9px FIT>=+5
+D-2 La-Lucerna-VOL4-EN-web.pdf: title in text layer: True
+D-2 La-Lucerna-VOL4-EN-web.pdf: bbox xMax=711.5pt=948.6px vs box 961.0px spare +12.4px FIT>=+5
+D-3 La-Lucerna-VOL4-EN-web.pdf: title in text layer: True
+D-3 La-Lucerna-VOL4-EN-web.pdf: bbox xMax=1377.0pt=1836.1px vs box 1862.0px spare +25.9px FIT>=+5

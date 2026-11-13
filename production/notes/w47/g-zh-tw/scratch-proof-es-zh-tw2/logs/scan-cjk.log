@@ -1,0 +1,48 @@
+== simplified-only chars (s2t(c)!=c) per file ==
+2026-w47-es-zh-tw.text.md: 1 hits {'台': 1}
+ABSTRACT.txt: 0 hits 
+content12.py: 1 hits {'台': 1}
+content34.py: 0 hits 
+content56.py: 0 hits 
+content7.py: 0 hits 
+content8.py: 0 hits 
+print.txt: 1 hits {'台': 1}
+svg/p1-portada.svg: 0 hits 
+svg/p2-vida.svg: 1 hits {'台': 1}
+svg/p3-cultura.svg: 0 hits 
+svg/p4-deporte.svg: 0 hits 
+svg/p5-juventud.svg: 0 hits 
+svg/p6-afondo.svg: 0 hits 
+svg/p7-lengua.svg: 0 hits 
+svg/p8-ejercicios.svg: 0 hits 
+
+== traditional-only chars present (t2s(c)!=c), distinct count per file ==
+2026-w47-es-zh-tw.text.md: 170 distinct traditional-only chars
+ABSTRACT.txt: 26 distinct traditional-only chars
+content12.py: 80 distinct traditional-only chars
+content34.py: 79 distinct traditional-only chars
+content56.py: 87 distinct traditional-only chars
+content7.py: 67 distinct traditional-only chars
+content8.py: 77 distinct traditional-only chars
+print.txt: 170 distinct traditional-only chars
+svg/p1-portada.svg: 36 distinct traditional-only chars
+svg/p2-vida.svg: 55 distinct traditional-only chars
+svg/p3-cultura.svg: 36 distinct traditional-only chars
+svg/p4-deporte.svg: 42 distinct traditional-only chars
+svg/p5-juventud.svg: 49 distinct traditional-only chars
+svg/p6-afondo.svg: 23 distinct traditional-only chars
+svg/p7-lengua.svg: 66 distinct traditional-only chars
+svg/p8-ejercicios.svg: 119 distinct traditional-only chars
+
+== orphan punctuation: SVG <text> elements ==
+  LONE p8-ejercicios.svg x=613.2 y=1780.320000000001 '–'
+  LONE p8-ejercicios.svg x=1602.5 y=1880.7200000000014 '–'
+  LONE p8-ejercicios.svg x=1621.9 y=2088.340000000002 '—'
+  LONE p8-ejercicios.svg x=1621.9 y=2118.000000000002 '—'
+orphan SVG hits: 4
+
+== orphan punctuation: text.md lines ==
+orphan text.md lines: 0
+
+== orphan punctuation: pdftotext -layout lines ==
+orphan print.txt lines: 0

@@ -1,0 +1,24 @@
+=== ja-nl  2026-11-11T23:08:48+00:00 ===
+svg: production/2026-w47/2026-w47-ja-nl/svg
+web: production/2026-w47/2026-w47-ja-nl/Lucerna-VOL4-JA-NL-web.pdf
+print: production/2026-w47/2026-w47-ja-nl/Lucerna-VOL4-JA-NL.pdf
+mem available before: 1594MB
+old_sha=7a7f5fc96730e82ba8c6697a9accd10387d6aa84a731f81fe3083310df0f97b8 old_bytes=4476527
+8 pages from production/2026-w47/2026-w47-ja-nl/svg
+590 distinct chars; families: ['Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKJP-Regular: 248464 bytes
+  font LucernaNotoSansCJKJP-Bold: 254624 bytes
+  font LucernaNotoSerifCJKJP-Regular: 361208 bytes
+  font LucernaNotoSerifCJKJP-Bold: 365024 bytes
+  font LucernaUnifrakturMaguntia-Regular: 28116 bytes
+WROTE production/2026-w47/2026-w47-ja-nl/Lucerna-VOL4-JA-NL-web.pdf: 4476526 bytes, 45931 text bytes
+webpdf rc=0
+new_sha=f68fbcfeba676f0c2f16b26162fcc723ee389f2a63478f9b1c348b1159b144bc new_bytes=4476526
+web_text_bytes=101713 print_text_bytes=101713
+text layer: MISMATCH vs print PDF
+7c7
+<                                                                         Lucerna    VOL.4         酉の市           新酒    相撲           紅葉
+---
+>                                                                          Lucerna   VOL.4         酉の市           新酒    相撲           紅葉
+STATUS=FAIL-TEXT-MISMATCH 
+=== done ja-nl status=FAIL-TEXT-MISMATCH 2026-11-11T23:09:49+00:00 ===

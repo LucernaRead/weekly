@@ -1,0 +1,69 @@
+  flow[P1-headline] ended col 2/2 y=1139 (bottom 1828)
+  flow[P1-week] ended col 0/0 y=2060 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2491 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 2/2 y=459 (bottom 1540)
+P2 col3 ends 1167.4499999999998
+  flow[P2-ex] ended col 3/3 y=2258 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-feature] ended col 1/2 y=595 (bottom 1560)
+P3 col3 ends 1326.9499999999998
+  flow[P3-ex] ended col 2/3 y=2113 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-feature] ended col 1/2 y=834 (bottom 1180)
+P4 col3 ends 1201.9499999999998
+  flow[P4-ex] ended col 2/3 y=2113 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-feature] ended col 1/2 y=828 (bottom 1560)
+P5 col3 ends 1241.1
+  flow[P5-ex] ended col 2/3 y=2113 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-feature] ended col 1/2 y=1149 (bottom 1180)
+P6 col3 ends 1127.0
+  flow[P6-ex] ended col 2/3 y=2053 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-a2] ended col 0/0 y=1148 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1274 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1281 (bottom 1560)
+P7 col3 ends 1648.98
+P7 image ends 1862.7800000000002
+P7 teaser ends 2588.78
+P7 saved, exercises so far: 112
+  flow[P8-ex] ended col 3/3 y=965 (bottom 1300)
+P8 test flow ends col/y: 3 964.8
+P8 image ends 1270.6
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2522 need 44 bottom 2560
+  !! FLOW OVERFLOW [P8-keys] col 3 y=2604 need 44 bottom 2560
+  flow[P8-keys] ended col 3/3 y=2604 (bottom 2560)
+P8 keys flow ends col/y: 3 2604.2
+P8 saved, exercises total: 150
+levels: Counter({'B1': 69, 'A2': 56, 'B2': 25})
+writing model chars: 138
+  2L Q11: '11. A — Прошлогодний Double 11: 139,38 миллиарда посылок за 22 дня.'  note='Прошлогодний Double 11: 139,38 миллиарда посылок за 22 дня.'
+  2L Q13: '13. B — Защита цены не действует сама: прочти правила и подай заявление.'  note='Защита цены не действует сама: прочти правила и подай заявление.'
+  2L Q14: '14. B — Открой посылку и проверь, прежде чем подтвердить получение.'  note='Открой посылку и проверь, прежде чем подтвердить получение.'
+  2L Q24: '24. 7.77 — В прошлом году лучший день дал 777 миллионов отправлений.'  note='В прошлом году лучший день дал 777 миллионов отправлений.'
+  2L Q73: '73. 真实 — zhēnshí — 《白衣逆行者》 основан на реальных событиях.'  note='zhēnshí — 《白衣逆行者》 основан на реальных событиях.'
+  2L Q87: '87. B — Открой посылку и проверь, прежде чем подтвердить получение.'  note='Открой посылку и проверь, прежде чем подтвердить получение.'
+  2L Q88: '88. 打散 — dǎsàn — пик распределился, а не пришёлся на один день.'  note='dǎsàn — пик распределился, а не пришёлся на один день.'
+  2L Q107: '107. A — Порядок от большего к меньшему: 22 нояб., воскресенье.'  note='Порядок от большего к меньшему: 22 нояб., воскресенье.'
+  2L Q145: '145. A — Порядок: полуфинал, потом посылка, потом культурный центр.'  note='Порядок: полуфинал, потом посылка, потом культурный центр.'
+  2L Q149: '149. A — Правило страницы 6: данные сначала, реклама — последней.'  note='Правило страницы 6: данные сначала, реклама — последней.'
+  2L Q150: '150. ✓ Открытое задание — образец ответа напечатан выше, в разделе F (138 знаков)'  note='Открытое задание — образец ответа напечатан выше, в разделе F (138 знаков)'
+  OVERFLOW Q149 (2L) p8 完形单选 h=44.2 at y=2521.8
+  OVERFLOW Q150 (2L) p8 写作 h=44.2 at y=2604.2
+keys flow ends col 3 y=2604.2 (bottom 2560)
+overflow paras: 2
+total paras: 158  total height: 4724.7  capacity: 4704
+--- 2+ line keys ---
+  Q 11 (2L) p2 单选 h=44.2
+  Q 13 (2L) p2 单选 h=44.2
+  Q 14 (2L) p2 单选 h=44.2
+  Q 24 (2L) p2 完成句子 h=44.2
+  Q 73 (2L) p5 完成句子 h=44.2
+  Q 87 (2L) p6 单选 h=44.2
+  Q 88 (2L) p6 完成句子 h=44.2
+  Q107 (2L) p7 单选 h=44.2
+  Q145 (2L) p8 单选 h=44.2
+  Q149 (2L) p8 完形单选 h=44.2
+  Q150 (2L) p8 写作 h=44.2

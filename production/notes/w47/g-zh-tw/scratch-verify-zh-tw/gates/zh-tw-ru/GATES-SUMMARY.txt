@@ -1,0 +1,31 @@
+===== verify zh-tw-ru 2026-11-13T05:04:49Z =====
+/dev/mapper/rv  150G   96G   54G  65% /home/hatch
+checks.py RC=0
+CHART p4 [90.0, 450.0, 900.0] expect [90.0, 450.0, 900.0]
+CHART p6 dots [188.0, 695.21, 948.82, 1033.36, 1202.43] expect [188.0, 695.21, 948.82, 1033.36, 1202.43]
+CHECKS PASS
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/svg: 0 flags 
+p8 compare RC=0
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+spill RC=0
+   ABOVE -24.48px x=1772.9 y=1159.1 [observe] '.'
+SPILL_SWEEP 2026-w47-zh-tw-ru: 36 boxes, 219 candidates, 0 SPILL, 219 OBSERVE
+boxtitle RC=0
+== 2026-w47-zh-tw-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw backup=-
+BOXTITLE 2026-w47-zh-tw-ru: 72 titles, 1493 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-zh-tw-ru: 8 pages, 0 TOUCH, 0 NEAR
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=5 curly_in_newsreader=5 noto_sans_elements=1790
+CENSUS PASS
+quotes census RC=0
+    Newsreader (ok): U+201Cx5
+GRAND TOTAL defective: 0
+head_check RC=2
+BLOCKED: no such log: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru
+print/web text layer: DIFFER
+GATES OVERALL FAIL=1

@@ -1,0 +1,15 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+ink cols beyond 1860 svg: [np.float64(1860.0), np.float64(1860.1666666666667), np.float64(1860.3333333333333), np.float64(1860.5), np.float64(1860.6666666666667), np.float64(1860.8333333333333), np.float64(1861.0), np.float64(1861.1666666666667), np.float64(1861.3333333333333), np.float64(1861.5), np.float64(1861.6666666666667), np.float64(1861.8333333333333), np.float64(1862.0), np.float64(1862.1666666666667), np.float64(1862.3333333333333), np.float64(1862.5), np.float64(1862.6666666666667), np.float64(1862.8333333333333), np.float64(1863.0), np.float64(1863.1666666666667), np.float64(1863.3333333333333)]
+rows with ink past svg 1862: raster 528 551 -> svg y 88.0 91.83333333333333
+  x=1812.8 y=92 size=17 fam=Noto Sans text='ГОДА'
+  x=1817.8 y=1378 size=18 fam=Noto Sans CJK SC text='A2'
+  x=1817.1 y=1452 size=18 fam=Noto Sans CJK SC text='B1'
+  x=1817.1 y=1489 size=18 fam=Noto Sans CJK SC text='B1'
+  x=1817.1 y=1526 size=18 fam=Noto Sans CJK SC text='B2'
+  x=1808.8 y=1600 size=18 fam=Noto Sans text='все'
+  x=1842.5 y=1744 size=21.5 fam=Newsreader text=':'
+  x=1817.6 y=2419 size=21 fam=Newsreader text='» '
+  x=1834.5 y=2419 size=21 fam=Noto Serif text='на'
+  x=1844.1 y=2449.45 size=21 fam=Newsreader text=' '
+  x=1849.2 y=2449.45 size=21 fam=Newsreader text='·'

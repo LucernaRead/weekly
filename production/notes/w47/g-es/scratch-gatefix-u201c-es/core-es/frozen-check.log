@@ -1,0 +1,10 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/frozen_check.py /home/hatch/workspace/weekly-git/production/2026-w47/core-es/svg /home/hatch/workspace/weekly-git/production/2026-w47/core-es/svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-es/core-es-A/build-copy/svg
+p1: before frozen=186 sha8=3eff378f | after frozen=185 sha8=64ecd364 DIFF
+p2: before frozen=196 sha8=6d4eae3f | after frozen=196 sha8=6d4eae3f OK  
+p3: before frozen=171 sha8=77b4354b | after frozen=169 sha8=99cee2fb DIFF
+p4: before frozen=171 sha8=0b9781bc | after frozen=171 sha8=0b9781bc OK  
+p5: before frozen=186 sha8=689fd0ec | after frozen=185 sha8=790e4c6f DIFF
+p6: before frozen=189 sha8=3f769296 | after frozen=189 sha8=3f769296 OK  
+p7: before frozen=161 sha8=59a900e3 | after frozen=161 sha8=59a900e3 OK  
+p8: before frozen=859 sha8=b4fce9b9 | after frozen=859 sha8=b4fce9b9 OK  
+FROZEN-CHECK: FAIL — frozen content changed

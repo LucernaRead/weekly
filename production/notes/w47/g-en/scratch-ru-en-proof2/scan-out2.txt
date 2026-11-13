@@ -1,0 +1,15 @@
+span_text_diffs: 1
+   {'page': 1, 'line': 126, 'span': 1, 'kind': 'TEXT', 'y0': 1266.76, 'x0': 1088.04, 'print': "'чёрная пятница'", 'web': "'чёрнаяпятница'", 'print_font': 'NotoSerif-MediumItalic', 'web_font': 'LucernaNotoSerif-Regular', 'print_x1': 1222.815, 'web_x1': 1219.461, 'x1_deficit': 3.354}
+abutting (web-print gap diff > 0.5): 1
+   {'page': 1, 'line': 126, 'a': "'чёрная пятница'", 'b': "'»'", 'print_gap': -2.193, 'web_gap': 1.161, 'diff': 3.354, 'a_x1_deficit': 3.354, 'a_font': 'NotoSerif-MediumItalic', 'wa_font': 'LucernaNotoSerif-Regular'}
+intra_char diffs > 0.5: 1
+   {'page': 1, 'line': 126, 'span': 1, 'pair': 'я|п', 'print_gap': 2.532, 'web_gap': 1.177, 'diff': -1.354, 'ctx': "'чёрная пятница'"}
+multiset diffs per page:
+  page 1 {"' '": (496, 495)}
+  page 2 {}
+  page 3 {}
+  page 4 {}
+  page 5 {}
+  page 6 {}
+  page 7 {}
+  page 8 {}

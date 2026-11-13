@@ -1,0 +1,2 @@
+respostas parsed: 142 missing: [1, 11, 29, 47, 65, 83, 101, 113]
+printed-vs-respostas mismatches: 15 [(1, 'consciência', ''), (10, 'B', 'B\n\n 11. B'), (11, 'B', ''), (28, 'd', 'd\n\n 29. C'), (29, 'C', ''), (46, 'Palmares foi o maior quilombo do Brasil.', 'Palmares foi o maior quilombo do Brasil.\n\n 47. A'), (47, 'A', ''), (64, 'foram', 'foram\n\n 65. B'), (65, 'B', ''), (82, 'Verdadeiro', 'Verdadeiro\n\n 83. B'), (83, 'B', ''), (100, 'chute', 'chute\n\n 101. em'), (101, 'em', ''), (112, 'B', 'B\n\n 113. A'), (113, 'A', '')]

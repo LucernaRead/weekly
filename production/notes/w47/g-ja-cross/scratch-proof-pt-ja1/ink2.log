@@ -1,0 +1,33 @@
+=== A. cream-box last lines: true ink bottom vs box bottom ===
+P2 E VOCE box: y=904.0 box_bottom=909.0 ink=(1461.5, 887.0, 1561.5, 906.0) ink_bottom-box_bottom=-3.0 | 'ください。' size=20.0
+P3 E VOCE box: y=848.9 box_bottom=854.0 ink=(1461.5, 833.9, 1501.5, 850.9) ink_bottom-box_bottom=-3.1 | 'い。' size=20.0
+P4 E VOCE box: y=899.9 box_bottom=905.0 ink=(1461.5, 882.9, 1521.5, 901.9) ink_bottom-box_bottom=-3.1 | 'さい。' size=20.0
+P5 numbers box: y=507.6 box_bottom=513.0 ink=(1461.5, 492.6, 1518.5, 507.6) ink_bottom-box_bottom=-5.4 | '2027.' size=21.5
+P5 E VOCE box: y=806.4 box_bottom=811.5 ink=(1461.5, 789.4, 1561.5, 808.4) ink_bottom-box_bottom=-3.1 | 'ください。' size=20.0
+P7 A PALAVRA box: y=1427.0 box_bottom=1431.5 ink=(1461.5, 1409.0, 1521.5, 1429.0) ink_bottom-box_bottom=-2.5 | '記憶。' size=20.0
+P2 SAB21 box: y=1761.2 box_bottom=1768.0 ink=(690.5, 1744.2, 803.5, 1763.2) ink_bottom-box_bottom=-4.8 | '対フラメンゴ' size=19.0
+=== B. P1 LINEX graze: rule line y=2312 vs 'em Brasilia' ink top ===
+LINE: <line x1="88" y1="2312" x2="1862.0" y2="2312" stroke="#46581f" stroke-width="2"/>
+'em Brasilia' ink top=2311.6 baseline=2327.599999999999 size=20.0 | line y=2312 vs ink top gap=-0.4px
+=== C. P6 timeline last line vs box bottom 840.0 (ja + core) ===
+ja: ink=(1603.5, 825.8, 1828.5, 845.8) ink_bottom-840=+5.8 ink_top=825.8 | 'Página do Participante.'
+core: ink=(1603.5, 825.8, 1828.5, 845.8) ink_bottom-840=+5.8 ink_top=825.8 | 'Página do Participante.'
+=== D. P1 box titles: ink right edge vs cream-box right edge ===
+box x=989..1412 y=786 title y=823.2 ink_right=1420.0 box_right=1411.5 margin=-8.5 | 'A SEMANA EM NÚMEROS\u3000数字で見る'
+   widest ink right in box: 1420.0 vs box right 1411.5 margin -8.5 | 'A SEMANA EM NÚMEROS\u3000数字で見る' y=823.2
+box x=1440..1862 y=588 title y=628.0 ink_right=1732.5 box_right=1862.0 margin=+129.5 | 'A SEMANA, DIA A DIA'
+   widest ink right in box: 1831.5 vs box right 1862.0 margin +30.5 | 'Seg 16 — começa a semana do feriado' y=700.0
+box x=1440..1862 y=1238 title y=1278.4 ink_right=1776.5 box_right=1862.0 margin=+85.5 | 'NESTA EDIÇÃO\u3000今号の内容'
+   widest ink right in box: 1840.1 vs box right 1862.0 margin +21.9 | 'B1' y=1402.4
+box x=1440..1862 y=1874 title y=1914.0 ink_right=1798.5 box_right=1862.0 margin=+63.5 | 'EM POUCAS PALAVRAS\u3000短報'
+   widest ink right in box: 1839.5 vs box right 1862.0 margin +22.5 | 'um fim de semana de três dias. (Página 3' y=2048.4
+=== E. P1 all texts: ink right vs page right margin 1910 ===
+ink_right=1861.8 margin_to_1910=+48.2 y=2624.0 | '1ページ（全8ページ）'
+ink_right=1861.6 margin_to_1910=+48.4 y=2348.0 | '1ページを読んで正しい答えを選ぼう\u3000解答は8ページ'
+ink_right=1850.5 margin_to_1910=+59.5 y=2449.45 | 'da prova · B. até o fim de novembro · C. em'
+ink_right=1846.5 margin_to_1910=+63.5 y=1782.55 | 'consciência = 意識、良心：知り、覚えること。'
+ink_right=1840.1 margin_to_1910=+69.9 y=1482.3500000000001 | 'B2'
+ink_right=1840.1 margin_to_1910=+69.9 y=1442.3500000000001 | 'B1'
+ink_right=1840.1 margin_to_1910=+69.9 y=1402.3500000000001 | 'B1'
+ink_right=1840.0 margin_to_1910=+70.0 y=1522.3500000000001 | 'A2→B2'
+=== F. all pages: any ink right > 1900 or ink left < 50 (excl footer/masthead other-kind) ===

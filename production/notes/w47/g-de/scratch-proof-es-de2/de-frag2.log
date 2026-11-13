@@ -1,0 +1,37 @@
+== ADDED strings with true CJK ideographs (expect 0) ==
+  p1: 0 []
+  p2: 0 []
+  p3: 0 []
+  p4: 0 []
+  p5: 0 []
+  p6: 0 []
+  p7: 0 []
+  p8: 0 []
+== REMOVED no-CJK strings: word-level survival in edition page ==
+  p1: removed-no-CJK-Latin=3 not-substring=0
+  p2: removed-no-CJK-Latin=6 not-substring=0
+  p3: removed-no-CJK-Latin=0 not-substring=0
+  p4: removed-no-CJK-Latin=0 not-substring=0
+  p5: removed-no-CJK-Latin=5 not-substring=0
+  p6: removed-no-CJK-Latin=1 not-substring=0
+  p7: removed-no-CJK-Latin=4 not-substring=1
+      'mejor。' lost-words=[]
+  p8: removed-no-CJK-Latin=101 not-substring=18
+      '101. Es — 1 ' lost-words=[]
+      '107. mejor — bueno ' lost-words=[]
+      '115. A — laSexta ' lost-words=[]
+      '25. c — debate=' lost-words=[]
+      '26. b — mitin=' lost-words=[]
+      '27. d — cartel=' lost-words=[]
+      '28. a — escaño=' lost-words=[]
+      '30. Verdadero — UNESCO 2010 ' lost-words=[]
+      '39. B — UNESCO 2010 ' lost-words=[]
+      '52. c — jornada=' lost-words=[]
+      '53. b — derbi=' lost-words=[]
+      '54. a — liderato=' lost-words=[]
+      '55. d — fase liga=' lost-words=[]
+      '58. peor — malo ' lost-words=[]
+      '59. mejor — bueno ' lost-words=[]
+      '83. A — PSOE ' lost-words=[]
+      '85. C — Podemos 15 ' lost-words=[]
+      '90. A — laSexta ' lost-words=[]

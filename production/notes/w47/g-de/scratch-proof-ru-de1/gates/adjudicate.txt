@@ -1,0 +1,87 @@
+=== PART A: TEXTX pixel adjudication (42 flags) ===
+ 0 p1-pervaya.svg A='Зенит' B='и' gap=+0px audit_right=552.0 true_A_end=701 overest=-149.0 dark_bg=False -> REAL?
+ 1 p1-pervaya.svg A='Динамо' B=' ' gap=+0px audit_right=896.9 true_A_end=844 overest=+52.9 dark_bg=False -> REAL?
+ 2 p1-pervaya.svg A='тур' B='тур' gap=+0px audit_right=326.1 true_A_end=651 overest=-324.9 dark_bg=False -> REAL?
+ 3 p1-pervaya.svg A='пятница' B='2026 ' gap=+0px audit_right=1672.1 true_A_end=1725 overest=-52.9 dark_bg=False -> REAL?
+ 4 p1-pervaya.svg A='третий' B='яркий': UNRESOLVED (left=0 right=23 dark_bg=False)
+ 5 p1-pervaya.svg A='субботу' B=' ': UNRESOLVED (left=0 right=0 dark_bg=False)
+ 6 p1-pervaya.svg A='Краснодар' B=' ' gap=+1px audit_right=233.7 true_A_end=117 overest=+116.7 dark_bg=False -> CLEAR
+ 7 p1-pervaya.svg A='Краснодаре' B='истории': UNRESOLVED (left=0 right=8 dark_bg=False)
+ 8 p1-pervaya.svg A='!' B='— 15-' gap=+3px audit_right=389.5 true_A_end=677 overest=-287.5 dark_bg=False -> CLEAR
+ 9 p1-pervaya.svg A='ЦСКА' B='Lucerna\u3000RUSSISCHE WOCHENZEITUNG VOL.4\u3000TEXT AUF RUSSISCH\u3000ERKLÄRUNGEN AUF DEUTSCH': UNRESOLVED (left=0 right=0 dark_bg=False)
+10 p2-zhizn.svg A='толерантности' B='студента' gap=+5px audit_right=1823.2 true_A_end=1648 overest=+175.2 dark_bg=False -> CLEAR
+11 p2-zhizn.svg A='студента' B='рождения' gap=+6px audit_right=1753.5 true_A_end=1648 overest=+105.5 dark_bg=False -> CLEAR
+12 p2-zhizn.svg A='студента' B='праздник': UNRESOLVED (left=0 right=0 dark_bg=False)
+13 p2-zhizn.svg A='! ' B=' ' gap=+9px audit_right=729.6 true_A_end=845 overest=-115.4 dark_bg=False -> CLEAR
+14 p2-zhizn.svg A='студенту' B=' ' gap=+9px audit_right=672.6 true_A_end=822 overest=-149.4 dark_bg=False -> CLEAR
+15 p2-zhizn.svg A='спасибо' B='погода' gap=+0px audit_right=188.8 true_A_end=110 overest=+78.8 dark_bg=False -> REAL?
+16 p3-kultura.svg A='биография' B='Сильвестра': UNRESOLVED (left=0 right=0 dark_bg=False)
+17 p3-kultura.svg A='посмотреть' B='комедия' gap=+8px audit_right=234.2 true_A_end=325 overest=-90.8 dark_bg=False -> CLEAR
+18 p3-kultura.svg A=')' B='документальный' gap=+4px audit_right=669.9 true_A_end=1027 overest=-357.1 dark_bg=False -> CLEAR
+19 p4-sport.svg A='место' B='» — ': UNRESOLVED (left=0 right=0 dark_bg=False)
+20 p4-sport.svg A='Краснодар' B='ЦСКА' gap=+10px audit_right=233.7 true_A_end=264 overest=-30.3 dark_bg=False -> CLEAR
+21 p4-sport.svg A='Краснодар' B='4:2. «' gap=+7px audit_right=233.7 true_A_end=338 overest=-104.3 dark_bg=False -> CLEAR
+22 p4-sport.svg A='Россия' B='сдачи' gap=+8px audit_right=667.9 true_A_end=1211 overest=-543.1 dark_bg=False -> CLEAR
+23 p4-sport.svg A='истории' B=' ': UNRESOLVED (left=0 right=0 dark_bg=False)
+24 p4-sport.svg A='Краснодар' B='Füllen Sie die Lücken mit de' gap=+0px audit_right=1174.7 true_A_end=1439 overest=-264.3 dark_bg=False -> REAL?
+25 p4-sport.svg A='ЦСКА' B='й': UNRESOLVED (left=0 right=0 dark_bg=False)
+26 p5-molodezh.svg A='пятница' B='с': UNRESOLVED (left=0 right=67 dark_bg=False)
+27 p5-molodezh.svg A='смартфоны' B='крупную': UNRESOLVED (left=0 right=0 dark_bg=False)
+28 p6-razbor.svg A='студента' B=' ': UNRESOLVED (left=0 right=0 dark_bg=False)
+29 p6-razbor.svg A='сбивается' B=' ': UNRESOLVED (left=87 right=0 dark_bg=False)
+30 p6-razbor.svg A='Планируйте' B=' ' gap=+0px audit_right=352.2 true_A_end=250 overest=+102.2 dark_bg=False -> REAL?
+31 p6-razbor.svg A='?\u3000ÜBUNGSDATEN' B='скидки': UNRESOLVED (left=0 right=0 dark_bg=False)
+32 p7-yazyk.svg A='ЯЗЫК' B=' ': UNRESOLVED (left=261 right=0 dark_bg=True)
+33 p7-yazyk.svg A='прессы' B='данным': UNRESOLVED (left=0 right=0 dark_bg=False)
+34 p7-yazyk.svg A='!»' B='Nach ': UNRESOLVED (left=0 right=0 dark_bg=False)
+35 p7-yazyk.svg A='пресс' B='Неуверенность': UNRESOLVED (left=0 right=0 dark_bg=False)
+36 p7-yazyk.svg A='пятница' B='на': UNRESOLVED (left=0 right=0 dark_bg=False)
+37 p7-yazyk.svg A='!» — ' B='сдачи' gap=+1px audit_right=1602.2 true_A_end=1672 overest=-69.8 dark_bg=False -> CLEAR
+38 p7-yazyk.svg A='Кипренского' B='Кипренский': UNRESOLVED (left=0 right=0 dark_bg=False)
+39 p7-yazyk.svg A='поступило' B=' ': UNRESOLVED (left=0 right=0 dark_bg=False)
+40 p8-test.svg A='ОТВЕТЫ' B='A\u3000': UNRESOLVED (left=0 right=0 dark_bg=True)
+41 p8-test.svg A='\u3000LÖSUNGEN — NACH SEITEN GEOR' B=' ' gap=+0px audit_right=1062.2 true_A_end=235 overest=+827.2 dark_bg=False -> REAL?
+PART A totals: CLEAR=12 REAL?=8 UNRESOLVED=22 / 42
+
+=== PART B: true-ink right edge vs content edge 1862 / page edge 1950 ===
+p1-pervaya.svg y=1241 size=23.0 '\u3000Der Spieltag in Zahlen' ink_right=997.6 :: past cream-box right 961.0 by +36.6 (box y=1204)
+p2-zhizn.svg y=1594 size=20.0 '\u3000Vier Wörter zum Novemberwetter' ink_right=1862.1 :: past content edge 1862 by +0.1
+p2-zhizn.svg y=2162 size=23.0 'студента' ink_right=1871.2 :: past content edge 1862 by +9.2
+p6-razbor.svg y=706 size=24.0 '\u3000PRO UND CONTRA' ink_right=1862.2 :: past content edge 1862 by +0.2
+p8-test.svg y=1302 size=19.5 'Jede Lösung mit einer kurzen deutschen Erläuterung\u3000✓' ink_right=1862.1 :: past content edge 1862 by +0.1
+PART B done (only lines above = violations)
+
+=== PART C: cream-box last-inside-line true ink bottom vs box bottom ===
+p1-pervaya.svg box y=1204 bottom=1583.7 last baseline 1538.7 true ink bottom 1544.2 clearance +39.5 | 'чемпионат'
+p1-pervaya.svg box y=588 bottom=1288.0 last baseline 1252.0 true ink bottom 1255.8 clearance +32.2 | 'Aus russischen Medien, November 2026'
+p1-pervaya.svg box y=1296 bottom=1626.0 last baseline 1600.0 true ink bottom 1604.5 clearance +21.5 | 'Стр'
+p1-pervaya.svg box y=1874 bottom=2304.0 last baseline 2246.0 true ink bottom 2251.5 clearance +52.5 | 'чемпионат'
+p2-zhizn.svg box y=343 bottom=459.4 last baseline 411.7 true ink bottom 416.4 clearance +43.0 | 'родина'
+p2-zhizn.svg box y=919 bottom=1034.7 last baseline 986.9 true ink bottom 987.2 clearance +47.5 | 'ein Wunsch.'
+p2-zhizn.svg box y=200 bottom=769.0 last baseline 700.7 true ink bottom 706.2 clearance +62.8 | '22 '
+p2-zhizn.svg box y=795 bottom=1159.0 last baseline 1154.0 true ink bottom 1158.0 clearance +1.0 | 'Studenten, einen für Väterchen Frost.'
+p2-zhizn.svg box y=1618 bottom=1768.0 last baseline 1752.1 true ink bottom 1752.3 clearance +15.7 | 'Tauwetter'
+p2-zhizn.svg box y=1618 bottom=1768.0 last baseline 1752.1 true ink bottom 1752.3 clearance +15.7 | 'nasser Schnee'
+p2-zhizn.svg box y=1618 bottom=1768.0 last baseline 1752.1 true ink bottom 1756.8 clearance +11.2 | 'Eisregen'
+p2-zhizn.svg box y=1618 bottom=1768.0 last baseline 1752.1 true ink bottom 1752.3 clearance +15.7 | 'Glatteis'
+p3-kultura.svg box y=200 bottom=345.7 last baseline 298.0 true ink bottom 298.2 clearance +47.5 | 'Märchen-.'
+p3-kultura.svg box y=914 bottom=1030.4 last baseline 982.7 true ink bottom 987.4 clearance +43.0 | 'кинозрителя'
+p3-kultura.svg box y=200 bottom=736.0 last baseline 667.7 true ink bottom 668.2 clearance +67.8 | 'В'
+p3-kultura.svg box y=760 bottom=1105.5 last baseline 1037.1 true ink bottom 1037.4 clearance +68.1 | 'после'
+p4-sport.svg box y=742 bottom=887.9 last baseline 840.2 true ink bottom 845.4 clearance +42.5 | '· '
+p4-sport.svg box y=615 bottom=1024.2 last baseline 955.9 true ink bottom 956.1 clearance +68.1 | '15. «'
+p5-molodezh.svg box y=416 bottom=562.1 last baseline 514.4 true ink bottom 519.1 clearance +43.0 | 'примерки'
+p5-molodezh.svg box y=1131 bottom=1276.5 last baseline 1228.8 true ink bottom 1234.0 clearance +42.5 | 'Haushaltsgeräte.'
+p5-molodezh.svg box y=647 bottom=1122.2 last baseline 1053.9 true ink bottom 1059.4 clearance +62.9 | '«'
+p6-razbor.svg box y=669 bottom=815.0 last baseline 767.2 true ink bottom 772.0 clearance +43.0 | 'echte · '
+p6-razbor.svg box y=200 bottom=639.5 last baseline 571.2 true ink bottom 577.2 clearance +62.3 | 'тур'
+p6-razbor.svg box y=664 bottom=945.5 last baseline 877.1 true ink bottom 882.6 clearance +62.9 | 'посреди'
+p6-razbor.svg box y=1344 bottom=1440.0 last baseline 1424.0 true ink bottom 1424.0 clearance +16.0 | 'пн'
+p6-razbor.svg box y=1344 bottom=1440.0 last baseline 1424.0 true ink bottom 1424.0 clearance +16.0 | 'вт'
+p6-razbor.svg box y=1344 bottom=1440.0 last baseline 1424.0 true ink bottom 1428.2 clearance +11.8 | 'ср'
+p6-razbor.svg box y=1344 bottom=1440.0 last baseline 1424.0 true ink bottom 1424.0 clearance +16.0 | 'чт'
+p6-razbor.svg box y=1344 bottom=1440.0 last baseline 1424.0 true ink bottom 1424.0 clearance +16.0 | 'пт'
+p7-yazyk.svg box y=200 bottom=980.2 last baseline 939.7 true ink bottom 944.2 clearance +36.0 | 'с'
+p7-yazyk.svg box y=992 bottom=1214.7 last baseline 1202.8 true ink bottom 1207.8 clearance +6.9 | 'распродажа'
+p7-yazyk.svg box y=1227 bottom=1733.7 last baseline 1710.4 true ink bottom 1715.4 clearance +18.3 | 'Beispiel der Redaktion; gilt für VOL.5.'
+PART C done

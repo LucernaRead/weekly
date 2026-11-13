@@ -1,0 +1,12 @@
+P1: spans=235 max bbox delta=0.22pt at 'Die Lucerna'
+P2: spans=209 max bbox delta=0.00pt at None
+P3: spans=252 max bbox delta=0.00pt at None
+P4: spans=205 max bbox delta=0.00pt at None
+P5: spans=226 max bbox delta=0.00pt at None
+P6: spans=228 max bbox delta=0.00pt at None
+P7: spans=225 max bbox delta=0.00pt at None
+P8: spans=349 max bbox delta=0.00pt at None
+ABUTTING issues: none
+print P1 Adventskalender spans: [('Adventskalender & Kinder', 'Newsreader16pt-Regular'), ('« der Adventskalender »', 'Newsreader16pt-Italic')]
+web P1 Adventskalender spans: [('Adventskalender & Kinder', 'LucernaNewsreader-Regula'), ('« der Adventskalender »', 'LucernaNewsreader-Italic')]
+intra-word gaps >0.5pt (web): 0

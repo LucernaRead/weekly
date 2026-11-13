@@ -1,0 +1,8 @@
+content34.py: instr="判断" x4 -> instr="判斷"
+content56.py: instr="判断" x3 -> instr="判斷"
+content12.py: plain-pass subs 91
+content34.py: plain-pass subs 89
+content56.py: plain-pass subs 101
+content7.py: plain-pass subs 50
+content8.py: plain-pass subs 73
+bslib4.py: plain-pass subs 2

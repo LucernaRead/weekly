@@ -1,0 +1,30 @@
+=== nl-zh-cn  2026-11-12T00:00:19+00:00 ===
+svg: production/2026-w47/core-nl/svg
+web: production/2026-w47/core-nl/De-Lucerna-VOL4-web.pdf
+print: production/2026-w47/core-nl/De-Lucerna-VOL4.pdf
+mem available before: 1291MB
+waiting mem... waited 30s avail 1290MB
+waiting mem... waited 60s avail 1320MB
+waiting mem... waited 90s avail 1312MB
+waiting mem... waited 120s avail 1118MB
+waiting mem... waited 150s avail 1510MB
+old_sha=5a47449cdff7d5847aee81c1c5b0f1af54cfeda873c5b55058a6d18f0e10404c old_bytes=2104000
+8 pages from production/2026-w47/core-nl/svg
+518 distinct chars; families: ['Newsreader', 'Noto Sans CJK SC', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 20460 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 20500 bytes
+  font LucernaNewsreader-Italic: 22544 bytes
+  font LucernaNotoSansCJKSC-Regular: 179312 bytes
+  font LucernaNotoSansCJKSC-Bold: 183144 bytes
+  font LucernaNotoSerifCJKSC-Regular: 250112 bytes
+  font LucernaNotoSerifCJKSC-Bold: 254148 bytes
+  font LucernaUnifrakturMaguntia-Regular: 29660 bytes
+WROTE production/2026-w47/core-nl/De-Lucerna-VOL4-web.pdf: 2103997 bytes, 44197 text bytes
+webpdf rc=0
+new_sha=3fcd4248dea465d838ff4dedfba7a121e843bb06bbfa5e93a8f6cc5bf06e0035 new_bytes=2103997
+web_text_bytes=102307 print_text_bytes=102307
+text layer: BYTE-IDENTICAL to print PDF
+STATUS=OK 
+=== done nl-zh-cn status=OK 2026-11-12T00:03:49+00:00 ===

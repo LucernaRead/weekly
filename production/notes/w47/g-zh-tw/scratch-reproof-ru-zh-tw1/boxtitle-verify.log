@@ -1,0 +1,45 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== p1-pervaya.svg y~330.0: elements on this row:
+   x=290.2 size=36 'РУССКАЯ'
+   x=505.3 size=36 ' '
+   x=519.7 size=36 'ГАЗЕТА'
+   x=696.1 size=36 '　'
+   x=738.1 size=36 'VOL.4'
+   x=882.3 size=36 '　'
+   x=924.3 size=36 'ФУТБОЛ'
+   x=1114.8 size=36 '　'
+   x=1156.8 size=36 'РАСПРОДАЖИ'
+   x=1486.5 size=36 '　'
+   x=1528.5 size=36 'КИНО'
+== p1-pervaya.svg y~682.0: elements on this row:
+   x=88.0 size=53 '14-'
+   x=177.3 size=53 'й'
+   x=213.9 size=53 ' '
+   x=226.3 size=53 'тур'
+   x=321.2 size=53 ': «'
+   x=380.2 size=53 'Зенит'
+   x=546.5 size=53 '» '
+   x=590.9 size=53 'и'
+   x=627.5 size=53 ' '
+   x=639.9 size=53 '«'
+   x=671.1 size=53 'Динамо'
+   x=891.8 size=53 '» — '
+   x=985.2 size=53 'по'
+   x=1053.2 size=53 ' '
+   x=1065.6 size=53 '31 '
+   x=1146.6 size=53 'очку'
+== p6-razbor.svg y~1392.0: elements on this row:
+   x=195.1 size=30 '16'
+   x=448.1 size=30 '17'
+   x=701.1 size=30 '18'
+   x=954.1 size=30 '19'
+   x=1207.1 size=30 '20'
+   x=1460.1 size=30 '21'
+   x=1713.1 size=30 '22'
+Traceback (most recent call last):
+  File "<stdin>", line 31, in <module>
+  File "/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/numpy/_core/_methods.py", line 41, in _amax
+    return umr_maximum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity

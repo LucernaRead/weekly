@@ -1,0 +1,10 @@
+PIL P7 title 23pt x4: bbox=(0, 38, 1599, 108) width_px=1599.00 (at 4x, /4 = 399.75); x0=1461.5 ink_right=1861.25?? raw; getbbox origin: left bearing=0.00
+  -> ink_right from x=1461.5: 1861.25, margin vs 1862: +0.75px; advance len=399.58
+D11 P4 HET PROGRAMMA box: rect y=591.6 h=638.0 bottom=1229.6; last line '18:45 uur.' baseline 1209.49
+  lowest ink in box x-span y1150..1236.6: y=1209.60 -> margin vs bottom 1229.6: +20.00px
+  7px strip below bottom (1229.6..1236.6) non-paper px: 0
+  ink right of last line band y1195..1215: 1562.24
+P2 option-c node: ('1473.5', '2233', '23', "c. eten voor Sinterklaas' paard")
+  option c baseline y=2233.0 ink_right=1793.92 margin vs 1862: +68.08px  text="c. eten voor Sinterklaas' paard"
+P8 A-head glyph x-span (y183..212, excl masthead band): 87.7..320.6 svg px; underline at y=214, glyph bottom below 212? check y212..216 ink in x88..511:
+  ink px y212..216: 1983 (underline row is y~214, stroke 2: expected line ink across 88..510.5)

@@ -1,0 +1,13 @@
+Lucerna-VOL4-ru-en.pdf gloss band text: 'в 19:00. Это последний матч14-___.«чёрная пятница»большая распродажав конце ноября'
+  space bbox: [1145.576, 1266.762, 1148.108, 1288.725] width: 2.532
+Lucerna-VOL4-ru-en-web.pdf gloss band text: 'в 19:00. Это последний матч14-___.«чёрная пятница»большая распродажав конце ноября'
+  space bbox: [1145.576, 1266.762, 1148.108, 1288.725] width: 2.532
+D3 gloss space bbox identical print/web: True | proof2 pinned: [1145.576, 1266.762, 1148.108, 1288.725]
+run x=556.5 'ТУР' Noto Sans 23pt -> ink [556.5, 1223.7, 600.5, 1241.0]
+run x=599.5 ' ' Noto Sans CJK SC 23pt -> ink None
+run x=604.7 'В' Noto Sans 23pt -> ink [604.7, 1223.7, 620.5, 1240.7]
+run x=620.2 ' ' Noto Sans CJK SC 23pt -> ink None
+run x=625.4 'ЦИФРАХ' Noto Sans 23pt -> ink [625.4, 1223.5, 722.9, 1245.7]
+run x=726.6 '\u3000The round' Noto Sans CJK SC 23pt -> ink [726.6, 1222.2, 865.6, 1241.0]
+TITLE ink left=556.5 right=865.6 | box right=961.0 | clearance=95.4 px | PASS(<=957): True
+TITLE full text: 'ТУР В ЦИФРАХ\u3000The round'

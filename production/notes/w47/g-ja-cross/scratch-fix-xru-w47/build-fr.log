@@ -1,0 +1,41 @@
+===== fr 2026-11-12T23:49:28Z disk=95G =====
+run.py rc=0
+  !! HEAD TOO WIDE [P6-ex]: LIRE LE CALENDRIER　КАЛЕНДАРЬ
+  !! HEAD TOO WIDE [P6-opinion]: IL EST PRÉVU QUE + SUBJONCTIF
+  !! HEAD TOO WIDE [P6-micro]: LE COMPARATIF EN POLITIQUE
+  !! HEAD TOO WIDE [P6-micro]: MICRO-DRILLS　МИНИ-ДРИЛЛЫ
+  !! HEAD TOO WIDE [P7-B2]: IL EST PRÉVU QUE + SUBJONCTIF
+  !! HEAD TOO WIDE [P7-outils]: BOÎTE À OUTILS　ИНСТРУМЕНТЫ
+  !! HEAD TOO WIDE [P7-clinic]: CLINIQUE DES ERREURS　ОШИБКИ
+TOTAL 150
+probe rc=0 : 2026-w47-fr-ru: runs=3126 LAT@NotoSans=0 LAT@Newsreader=23931 CYR@NotoSans=5256 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=89 curly={}
+render.py rc=0
+print PDF mtime=2026-11-12 23:50:34.894615010 +0000 size=17222455
+e2c48b75df809f736ebe7b2c0da82f8ef7a08f5f19c6c4a93ad1a18d4456a7fd  La-Lucerna-VOL4-fr-ru.pdf
+pre non-space chars: 35438; post non-space chars: 35438
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (50294 chars)
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 31344 bytes
+WROTE La-Lucerna-VOL4-fr-ru-web.pdf: 1774012 bytes, 51091 text bytes
+web PDF mtime=2026-11-12 23:51:02.697614923 +0000 size=1774012
+5387c82a986126fb70713880279fd49ed817b30a85f64c40e7d34bed77a6908f  La-Lucerna-VOL4-fr-ru-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-une.svg: No such file or directory
+svg/p1-une.svg: FAILED open or read
+sha256sum: svg/p2-vie.svg: No such file or directory
+svg/p2-vie.svg: FAILED open or read
+sha256sum: svg/p3-culture.svg: No such file or directory
+svg/p3-culture.svg: FAILED open or read
+sha256sum: svg/p4-sport.svg: No such file or directory
+svg/p4-sport.svg: FAILED open or read
+sha256sum: svg/p5-jeunesse.svg: No such file or directory
+svg/p5-jeunesse.svg: FAILED open or read
+sha256sum: svg/p6-politique.svg: No such file or directory
+svg/p6-politique.svg: FAILED open or read
+sha256sum: svg/p7-langue.svg: No such file or directory
+svg/p7-langue.svg: FAILED open or read
+sha256sum: svg/p8-exercices.svg: No such file or directory
+svg/p8-exercices.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE fr 2026-11-12T23:51:03Z

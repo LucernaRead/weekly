@@ -1,0 +1,31 @@
+--- 
++++ 
+@@ -20,7 +20,7 @@
+ f.para("Lo stesso giorno, domenica 22 novembre, chiude a Perugia Eurochocolate, la 32ª edizione, dal 13 al 22 novembre, con il titolo «Fate dolci». La Regione ospite è la Calabria, con bergamotto, cedro, peperoncino e fichi; l'ospite del gran finale è il maestro Iginio Massari. E il tartufo bianco non va in vacanza: ad Alba, in Piemonte, la Fiera del Tartufo Bianco continua fino al 6 dicembre.")
+ f.gloss("il torrone, noga · il corteo, de stoet · il figurante, figurant · la rievocazione, de historische heropvoering · lo sbandieratore, de vaandeldrager.")
+ f.head("IL TORRAZZO E IL TORRONE", 25)
+-f.para("Il Torrazzo di Cremona è il campanile medievale in mattoni più alto d'Italia. La leggenda lo lega al torrone: un dolce nato da un matrimonio e diventato il simbolo della città. A Cremona, per sedici giorni, il torrone è dappertutto: nelle piazze, nei laboratori, nelle maxi costruzioni.", 23.5)
++f.para("Il Torrazzo di Cremona è il campanile più alto d'Italia. La leggenda lo lega al torrone: un dolce nato da un matrimonio e diventato il simbolo della città. A Cremona, per sedici giorni, il torrone è dappertutto: nelle piazze, nei laboratori, nelle maxi costruzioni.", 23.5)
+ f.end_report()
+ 
+ # col 3: torrazzo image + facts + e tu? (sequential)
+@@ -64,7 +64,7 @@
+      "Eurochocolate è alla sua... A. 29ª edizione · B. 67ª edizione · C. 32ª edizione", size=20, gap=8)
+ e.ex("A2", "Meerkeuze", "B", "De heropvoering is om 17.00 uur op de Piazza del Comune",
+      "La rievocazione del matrimonio è... A. alle 11 · B. alle 17 · C. alle 20", size=20, gap=8)
+-e.ex("B1", "Meerkeuze", "A", "Het thema van Eurochocolate dit jaar is «Fate dolci»",
++e.ex("B1", "Meerkeuze", "A", "Het thema van Eurochocolate dit jaar is “Fate dolci”",
+      "Il titolo di Eurochocolate 2026 è... A. «Fate dolci» · B. «Il Confine» · C. «Finestrini»", size=20, gap=8)
+ e.ex("B1", "Meerkeuze", "B", "De truffelbeurs in Alba duurt tot 6 december",
+      "La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. il 6 dicembre · C. l'8 novembre", size=20, gap=8)
+@@ -194,8 +194,8 @@
+ e.match_set("B1", "Koppel de woorden",
+             ["la vetta", "imbattuto", "il girone", "il debutto"],
+             ["la prima volta in un torneo importante",
+-             "che non ha mai perso",
+-             "il gruppo di squadre in un torneo",
++             "che non ha mai perso, ancora senza sconfitte",
++             "il gruppo di squadre che giocano tra loro",
+              "il primo posto in classifica, la cima"],
+             ["d", "b", "c", "a"],
+             ["vetta = de kop, d", "imbattuto = ongeslagen, b", "girone = groep, c", "debutto = debuut, a"],

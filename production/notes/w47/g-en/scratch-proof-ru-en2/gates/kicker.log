@@ -1,0 +1,7 @@
+kicker-row elements: [('ЕЖЕНЕДЕЛЬНАЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ГАЗЕТА', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ДЛЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ИЗУЧАЮЩИХ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('РУССКИЙ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('ЯЗЫК', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('—  ', 'Noto Sans CJK SC'), ('НАСТОЯЩАЯ', 'Noto Sans'), ('  ', 'Noto Sans CJK SC'), ('РОССИЯ', 'Noto Sans'), (',  ', 'Noto Sans CJK SC'), ('ПО', 'Noto Sans'), ('-', 'Noto Sans CJK SC'), ('РУССКИ', 'Noto Sans')]
+full: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'
+tokens: ['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ']
+gaps: [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6] min: 5.9 count: 9
+content12 kicker lines: ['p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")']
+core kicker elements identical to ed: True
+core full: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'

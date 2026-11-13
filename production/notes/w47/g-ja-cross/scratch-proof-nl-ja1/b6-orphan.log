@@ -1,0 +1,23 @@
+P1: lines=210 (a) lone-punct=1 (b) line-start=0
+P2: lines=183 (a) lone-punct=0 (b) line-start=0
+P3: lines=173 (a) lone-punct=0 (b) line-start=0
+P4: lines=171 (a) lone-punct=0 (b) line-start=0
+P5: lines=185 (a) lone-punct=0 (b) line-start=0
+P6: lines=187 (a) lone-punct=0 (b) line-start=0
+P7: lines=178 (a) lone-punct=0 (b) line-start=0
+P8: lines=782 (a) lone-punct=11 (b) line-start=0
+TOTAL lines=2069 (a)=12 (b)=0
+brute-force punct-leading fragments: 13; leftmost among them: 0
+  P1 y=1560.615 x=790.7 leftmost=556.5 left=False '：キックオフ）'
+  P8 y=2403.0 x=208.8 leftmost=88.0 left=False '』は図書館で無料でもらえる'
+  P8 y=1549.1200000000006 x=666.3 leftmost=538.5 left=False '』は'
+  P8 y=1788.9800000000012 x=724.6 leftmost=538.5 left=False '、複数形：'
+  P8 y=2341.1000000000004 x=815.1 leftmost=538.5 left=False '）'
+  P8 y=2370.76 x=841.3 leftmost=538.5 left=False '）'
+  P8 y=2400.42 x=792.5 leftmost=538.5 left=False '）'
+  P8 y=2430.08 x=730.2 leftmost=538.5 left=False '）'
+  P8 y=2489.3999999999996 x=710.3 leftmost=538.5 left=False '、複数形：'
+  P8 y=1834.3000000000013 x=1315.0 leftmost=989.0 left=False '）'
+  P8 y=1863.9600000000014 x=1265.6 leftmost=989.0 left=False '）'
+  P8 y=1893.6200000000015 x=1180.7 leftmost=989.0 left=False '）'
+  P8 y=1638.1000000000008 x=1568.4 leftmost=1439.5 left=False '』は'

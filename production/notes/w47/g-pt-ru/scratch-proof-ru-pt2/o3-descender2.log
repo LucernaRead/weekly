@@ -1,0 +1,8 @@
+font metrics (ascent, descent): (24, 6)
+anchor 'ls': getbbox=(0, -17, 150, 5)
+anchor 'la': getbbox=(0, 7, 150, 29)
+ink bottom (baseline-relative) = 1154.0 + 5 = 1159.00; box bottom 1159.0; margin +0.00px
+la-anchor bottom 29 - ascent 24 = 5.00 below baseline -> ink bottom 1159.00
+  'p' ls-bbox=(0, -11, 12, 5) ink_bottom=1159.00
+  'para o Avô Gelo.' ls-bbox=(0, -17, 150, 5) ink_bottom=1159.00
+  'Gelo.' ls-bbox=(0, -17, 48, 0) ink_bottom=1154.00

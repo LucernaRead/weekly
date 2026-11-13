@@ -1,0 +1,251 @@
+== 0 verify.py (TOTAL + determinism) ==
+verify RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL: 150
+numbering continuous 1..N: True
+SVGs byte-identical after verify run: True
+SOP 1.1 style audit (paper/badges/palette/margins): True | old-style hexes found: []
+== 1a p8 extract edition ==
+edition extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-it/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1a2 p8 extract core ==
+core extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+== 1b p8 compare --total 150 vs core-de ==
+compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-it/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+== 2 occlusion ==
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-it/svg: 0 flags 
+== 3a boxtitle ==
+boxtitle RC=0
+== 2026-w47-de-it  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-de backup=-
+BOXTITLE 2026-w47-de-it: 44 titles, 249 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+== 3b spill ==
+spill RC=0
+== 2026-w47-de-it  (/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-de-it)
+P1 box=(538.5,1440.3,422.5,334.2) bottom=1774.6
+   ABOVE -38.73px x=538.5 y=1401.6 [observe] 'der Totensonntag = domenica dei morti.'
+P1 box=(538.5,1440.3,422.5,334.2) bottom=1774.6
+   SIDE x=1005.9 y=1483.2 [observe] 'B1'
+P1 box=(538.5,1440.3,422.5,334.2) bottom=1774.6
+   SIDE x=989.0 y=1511.2 [observe] 'Der erste Advent ist am ___.'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1719.0 y=568.0 [observe] 'Vedi pagina 4'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   BELOW +24.00px x=1439.5 y=1676.0 [observe] 'DAS WORT DER WOCHE'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1461.5 y=1274.0 [observe] 'Le cinque domande della settimana.'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1729.5 y=2348.0 [observe] 'Risposte a p. 8'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1439.5 y=1830.2 [observe] "Calendario d'Avvento (24 porte). Vedi p. 5."
+P2 box=(538.5,776.2,422.5,234.8) bottom=1011.1
+   ABOVE -46.48px x=538.5 y=729.8 [observe] 'beieinander.'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P2 box=(1439.5,200.0,422.5,296.6) bottom=496.6
+   ABOVE -32.00px x=1506.4 y=168.0 [observe] 'Giorno di pentimento e vita quotidiana'
+P2 box=(1439.5,522.6,422.5,327.2) bottom=849.8
+   ABOVE -45.53px x=1461.5 y=477.1 [observe] 'freier Tag.'
+P2 box=(1439.5,875.8,422.5,320.1) bottom=1195.9
+   ABOVE -45.53px x=1461.5 y=830.3 [observe] '3 bis 24 Uhr verboten.'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   BELOW +44.87px x=1648.6 y=1594.0 [observe] 'Le date della settimana'
+P2 box=(1439.5,1221.9,422.5,327.2) bottom=1549.1
+   ABOVE -48.20px x=1461.5 y=1173.8 [observe] 'tedesco!'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   ABOVE -46.48px x=989.0 y=622.8 [observe] 'schnell kalt.'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   SIDE x=1461.5 y=672.7 [observe] 'der Weihnachtsmarkt — mercatino'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   SIDE x=1461.5 y=703.2 [observe] 'natalizio'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   SIDE x=1461.5 y=766.8 [observe] 'der Glühwein — vin brulé'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   SIDE x=1461.5 y=830.3 [observe] 'der Lebkuchen — pan di zenzero'
+P3 box=(989.0,669.3,422.5,234.8) bottom=904.1
+   SIDE x=1461.5 y=893.8 [observe] 'der Adventskalender — calendario'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P3 box=(1439.5,200.0,422.5,357.7) bottom=557.7
+   ABOVE -32.00px x=1498.6 y=168.0 [observe] 'Mercatini natalizi e settimana tranquilla'
+P3 box=(1439.5,583.7,422.5,517.8) bottom=1101.5
+   ABOVE -45.53px x=1461.5 y=538.2 [observe] 'Uhr.'
+P3 box=(1439.5,1127.5,422.5,320.1) bottom=1447.6
+   ABOVE -45.53px x=1461.5 y=1081.9 [observe] 'die Kerze — candela'
+P3 box=(1439.5,1473.6,422.5,169.6) bottom=1643.2
+   ABOVE -48.20px x=1461.5 y=1425.4 [observe] 'tedesco!'
+P4 box=(989.0,489.4,422.5,175.4) bottom=664.8
+   ABOVE -46.48px x=989.0 y=442.9 [observe] 'Sonntag mit Bremen gegen Hamburg.'
+P4 box=(1439.5,864.9,422.5,291.1) bottom=1156.0
+   ABOVE -46.15px x=1439.5 y=818.7 [observe] 'Florida, 2010) — public domain'
+P5 box=(989.0,815.2,422.5,234.8) bottom=1050.0
+   ABOVE -46.48px x=989.0 y=768.7 [observe] 'Köln. Mehr dazu auf Seite 4.'
+P5 box=(989.0,815.2,422.5,234.8) bottom=1050.0
+   SIDE x=1461.5 y=832.8 [observe] 'die Schokolade — cioccolato'
+P5 box=(989.0,815.2,422.5,234.8) bottom=1050.0
+   SIDE x=1461.5 y=896.3 [observe] 'die Kerze — candela'
+P5 box=(989.0,815.2,422.5,234.8) bottom=1050.0
+   SIDE x=1461.5 y=959.8 [observe] 'der Stern — stella'
+P5 box=(989.0,815.2,422.5,234.8) bottom=1050.0
+   SIDE x=1461.5 y=1047.4 [observe] 'UND SIE?'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P5 box=(1439.5,553.2,422.5,426.2) bottom=979.4
+   ABOVE -45.53px x=1461.5 y=507.6 [observe] 'Lande des Christkinds“.'
+P5 box=(1439.5,1005.4,422.5,320.1) bottom=1325.5
+   ABOVE -45.53px x=1461.5 y=959.8 [observe] 'der Stern — stella'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1124.9 [observe] 'Adventskalender? Was steht auf'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1155.4 [observe] 'Ihrem Wunschzettel? Schreiben Sie'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1186.0 [observe] 'zwei Sätze auf Deutsch!'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1246.5 [observe] "Costruisci un calendario dell'Avvento?"
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1274.9 [observe] "Cosa c'è nella tua lista dei desideri?"
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1303.3 [observe] 'Scrivi in tedesco!'
+P6 box=(989.0,559.8,422.5,205.1) bottom=765.0
+   ABOVE -46.48px x=989.0 y=513.4 [observe] 'den Advent.'
+P6 box=(989.0,559.8,422.5,205.1) bottom=765.0
+   SIDE x=1461.5 y=643.9 [observe] '27.11.'
+P6 box=(989.0,559.8,422.5,205.1) bottom=765.0
+   SIDE x=1461.5 y=761.7 [observe] '1995'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -32.00px x=1576.9 y=168.0 [observe] 'Settimana tranquilla e bilancio'
+P6 box=(1439.5,861.5,422.5,399.9) bottom=1261.4
+   ABOVE -42.11px x=1569.5 y=819.4 [observe] 'Sachsen ein Feiertag.'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1127.6 [observe] 'Giorni tranquilli: il ricordo ha bisogno di'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1155.3 [observe] "calma, quasi tutti sono d'accordo."
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1183.0 [observe] 'Bilancio: non si sa ancora di quanto'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1210.7 [observe] 'scende la tassa elettrica. Entrambi'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1238.4 [observe] 'riguardano quasi ogni famiglia.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=104.2 y=845.1 [observe] 'A2'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=160.0 y=846.1 [observe] '101.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=230.0 y=846.1 [observe] 'Completa'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=88.0 y=586.4 [observe] 'gespielt.'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=669.9 [observe] 'BEISPIELE'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=704.9 [observe] '„Der November ist stiller als der'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=734.3 [observe] 'Oktober.“'
+P7 box=(88.0,632.9,422.5,178.2) bottom=811.1
+   SIDE x=556.5 y=763.7 [observe] 'spannend ist.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +34.00px x=555.4 y=845.1 [observe] 'B1'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=610.5 y=846.1 [observe] '105.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   BELOW +35.00px x=680.5 y=846.1 [observe] 'Completa'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   ABOVE -46.48px x=538.5 y=586.4 [observe] 'des Satzes.'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=633.4 [observe] 'BEISPIELE'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=668.4 [observe] '„Meiner Meinung nach braucht das'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=697.8 [observe] 'Gedenken Stille.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1007.0 y=727.2 [observe] 'die Einigung gelingt.“'
+P7 box=(538.5,632.9,422.5,178.2) bottom=811.1
+   SIDE x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +34.00px x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1061.0 y=809.6 [observe] '109.'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1131.0 y=809.6 [observe] 'Completa'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   ABOVE -46.48px x=989.0 y=549.9 [observe] 'fraglich, ob ...'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=643.6 [observe] 'Es wird gespielt. = La partita si giocherà'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=672.7 [observe] '(passivo)'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=728.3 [observe] 'Meiner Meinung nach = Secondo me'
+P7 box=(1439.5,330.0,422.5,473.5) bottom=803.5
+   BELOW +58.00px x=1461.5 y=861.5 [observe] 'LESERBRIEFE'
+P7 box=(1439.5,330.0,422.5,473.5) bottom=803.5
+   BELOW +58.00px x=1657.2 y=861.5 [observe] 'Lettere dei lettori'
+P7 box=(1439.5,819.5,422.5,552.5) bottom=1372.0
+   BELOW +56.00px x=1461.5 y=1428.0 [observe] 'NOCH EIN WORT'
+P7 box=(1439.5,819.5,422.5,552.5) bottom=1372.0
+   BELOW +56.00px x=1662.5 y=1428.0 [observe] 'Ancora una parola'
+P7 box=(1439.5,819.5,422.5,552.5) bottom=1372.0
+   ABOVE -35.62px x=1461.5 y=783.9 [observe] 'Es ist fraglich, ob ... = ancora dubbio'
+P7 box=(1439.5,1388.0,422.5,150.0) bottom=1538.0
+   BELOW +50.00px x=1686.9 y=1588.0 [observe] 'Fonte tra parentesi'
+P7 box=(1439.5,1388.0,422.5,150.0) bottom=1538.0
+   ABOVE -54.08px x=1461.5 y=1333.9 [observe] 'vera era arrivata prima della chiusura.'
+P7 box=(1439.5,1388.0,422.5,150.0) bottom=1538.0
+   ABOVE -26.39px x=1461.5 y=1361.6 [observe] 'Inviate i vostri testi per il VOL.5!'
+SPILL_SWEEP 2026-w47-de-it: 32 boxes, 85 candidates, 0 SPILL, 85 OBSERVE
+== 3c edge ==
+edge RC=0
+  P1: clean min_dist_pt={'top': 58.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.1}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 47.5}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.8}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.8}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 47.5}
+EDGE_SCAN 2026-w47-de-it: 8 pages, 0 TOUCH, 0 NEAR
+== 3d head_check on run-build log ==
+head RC=0
+HEAD CHECK PASS 0 defects
+== 4 d5 census ==
+d5 RC=0
+p1-front.svg: els=211 news=190 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=5
+p2-leben.svg: els=231 news=209 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p3-kultur.svg: els=280 news=258 cjk_sans=18 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p4-sport.svg: els=220 news=205 cjk_sans=15 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p5-jugend.svg: els=247 news=227 cjk_sans=16 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=6
+p6-vertiefung.svg: els=244 news=227 cjk_sans=17 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-sprache.svg: els=251 news=225 cjk_sans=21 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=21
+p8-uebungen.svg: els=404 news=364 cjk_sans=36 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=1
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=33 curly_in_newsreader=33 noto_sans_elements=0
+CENSUS PASS
+== 5 freeze diff core-de vs edition ==
+freeze RC=0
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +47 strings / -72 strings; CJK core 200 -> edition 18; added CJK chars: 0 ; added Latin strings: 31 (unexpected 31)
+p2: +48 strings / -67 strings; CJK core 232 -> edition 17; added CJK chars: 0 ; added Latin strings: 37 (unexpected 37)
+p3: +58 strings / -78 strings; CJK core 219 -> edition 16; added CJK chars: 0 ; added Latin strings: 48 (unexpected 48)
+p4: +36 strings / -52 strings; CJK core 185 -> edition 15; added CJK chars: 0 ; added Latin strings: 27 (unexpected 27)
+p5: +54 strings / -80 strings; CJK core 221 -> edition 16; added CJK chars: 0 ; added Latin strings: 44 (unexpected 44)
+p6: +50 strings / -70 strings; CJK core 254 -> edition 17; added CJK chars: 0 ; added Latin strings: 39 (unexpected 39)
+p7: +78 strings / -103 strings; CJK core 445 -> edition 23; added CJK chars: 0 ; added Latin strings: 62 (unexpected 62)
+p8: +170 strings / -1013 strings; CJK core 1445 -> edition 24; added CJK chars: 0 ; added Latin strings: 154 (unexpected 154)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 442 (unexpected 442)
+== 6a FRESH text extraction print vs web (post) ==
+print non-space: 40064 web non-space: 40064
+PRINT==WEB MULTISET: True
+== 6b text multiset pre vs post print (expect only the intended char swaps) ==
+pre non-space chars: 40013; post non-space chars: 40064
+MULTISET DIFFERS
+only-in-pre: {'t': 5, 's': 4, 'i': 2, 'W': 1, 'F': 1, 'b': 1, 'h': 1, 'ü': 1, 'ö': 1}
+only-in-post: {'d': 8, 'r': 6, 'a': 6, 'u': 5, 'o': 5, 'g': 5, 'M': 4, 'e': 4, 'k': 3, 'z': 3, 'w': 3, 'ß': 3, 'E': 2, 'D': 2, 'n': 2, 'l': 2, 'm': 2, 'f': 1, ',': 1, 'ä': 1}
+multiset pre/post RC=1 (1 expected: exactly the intended swaps)
+GATES-DONE-2026-w47-de-it

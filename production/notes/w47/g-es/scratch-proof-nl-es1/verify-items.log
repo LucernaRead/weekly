@@ -1,0 +1,9 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+ED c-item y=2233.0 ink=[1473.5,2216.2,1790.0,2238.5] RIGHT margin=+72.0px txt="c. eten voor Sinterklaas' paard"
+CORE c-item y=2233.0 ink=[1473.5,2216.2,1790.0,2238.5] RIGHT margin=+72.0px txt="c. eten voor Sinterklaas' paard"
+CORE VOL.4 ink_left=87.8 (ed was 87.8)
+CORE VOL.4 ink_left=489.1 (ed was 87.8)
+Traceback (most recent call last):
+  File "<stdin>", line 44, in <module>
+NameError: name 'S' is not defined

@@ -1,0 +1,14 @@
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Все восемь матчей 14-го тура завершены
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Это последний матч сборной в 2026 году
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Профессиональные праздники не дают выходных
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После паузы чемпионат возвращается 20 ноября
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Умный покупатель не спешит
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 8740
+orphan line-starts: [('p7-yazyk.svg', 553, '”».')]
+same-baseline collisions: [('p1-pervaya.svg', 1206, '고 마감 시점 · ', 'в'), ('p7-yazyk.svg', 968, '는 출발점으로 생격: ', 'с'), ('p7-yazyk.svg', 1953, '제14라운드의 여덟 경기가 모두 끝났습니다. (', 'Страница'), ('p7-yazyk.svg', 1953, '휴식기 후 리그는 11월 20일에 돌아옵니다. (', 'Страница'), ('p7-yazyk.svg', 2093, '이것이 2026년 국가대표의 마지막 경기입니다. (', 'Страница'), ('p7-yazyk.svg', 2093, '똑똑한 구매자는 서두르지 않는다. (', 'Страница'), ('p7-yazyk.svg', 2233, '직업 기념일은 휴일이 아니다. (', 'Страница'), ('p7-yazyk.svg', 2233, '이런 주는 일 년에 가장 흔합니다. (', 'Страница'), ('p7-yazyk.svg', 2373, '11월의 밤은 어둡고 길다. (', 'Страница'), ('p7-yazyk.svg', 2373, '11월에는 근무일 20일과 휴일 10일이 있다. (', 'Страница')] total 10

@@ -1,0 +1,383 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+svg: 381 flags {'COVER': 21, 'LINEX': 15, 'TEXTX': 345}
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'B2' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '143.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'B1' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '144.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'B1' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '145.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'B1' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '146.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [COVER] p8-test.svg 'B1' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'B1' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '147.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [COVER] p8-test.svg 'A2' — 100% of ink covered by later rect box [1439.5, 1050.0, 1499.5, 1080.0]
+  [LINEX] p8-test.svg 'A2' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '148.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg 'B2' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [LINEX] p8-test.svg '149.' — later line box [87.0, 1063.0, 1863.0, 1065.0] crosses ink
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '143.' by 50.2x18.2px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '146.' by 50.2x18.2px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '148.' by 50.2x18.2px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '149.' by 50.2x18.2px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '144.' by 50.2x18.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'E\u3000情景說話\u3000Say it in context' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '146.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '148.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '149.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '144.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '143.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '146.' — ink overlaps '148.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '146.' — ink overlaps '149.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '146.' — ink overlaps '144.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '146.' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '146.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '148.' — ink overlaps '149.' by 50.2x18.2px
+  [TEXTX] p8-test.svg '148.' — ink overlaps '144.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '148.' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '148.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '149.' — ink overlaps '144.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '149.' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '149.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '144.' — ink overlaps '145.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '144.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg '145.' — ink overlaps '147.' by 50.2x18.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'B2' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B1' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'A2' by 23.8x14.0px
+  [TEXTX] p8-test.svg 'B1' — ink overlaps 'B2' by 24.2x14.0px
+  [TEXTX] p8-test.svg 'A2' — ink overlaps 'B2' by 23.8x14.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '下週日' by 5.4x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '出發。' by 61.5x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '分鐘' by 41.0x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '第' by 20.5x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '第' by 19.0x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '保暖' by 41.0x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '開窗' by 38.9x19.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '晚上' by 41.0x19.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '點' by 20.5x19.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '分' by 6.7x19.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '個' by 20.5x19.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '下' by 10.8x18.8px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '日' by 20.5x18.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '(A.' by 27.0x17.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '— ___(A. 5' by 12.3x17.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '— ___(A. 11' by 4.1x17.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '— ___(A. ' by 4.8x17.0px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '7' by 12.2x14.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '· B. 30' by 58.5x14.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '· B. 11' by 48.8x14.5px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '20' by 24.5x14.8px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '鋼雕閉幕和小' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '夜間遊行晚上幾點？' by 184.5x19.5px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '主燈秀每次幾分鐘？' by 184.5x19.5px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '金馬獎哪天頒獎？' by 164.0x19.5px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '小雪是第幾個節氣？' by 184.5x19.5px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '天氣越冷，越要' by 143.5x19.5px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '日還是哪兩個日子？' by 134.1x19.2px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '？' by 15.8x16.2px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '— ___(A. 11' by 15.5x17.0px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '封王遊行哪天出發？' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '第' by 5.4x19.5px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '日還是哪兩個日子？' by 26.1x19.2px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '晚上' by 5.4x19.2px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '— ___(A. ' by 56.2x17.0px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '— ___(A. 5' by 61.5x17.0px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '— ___(A. 11' by 60.2x17.0px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '— ___(A. ' by 56.2x17.0px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps '— ___(A. ' by 60.9x17.0px
+  [TEXTX] p8-test.svg '下週日' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '分鐘' by 22.7x19.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '保暖' by 15.1x19.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '開窗' by 7.5x19.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '晚上' by 10.4x19.2px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '點' by 20.5x19.2px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '個' by 20.5x19.0px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '日' by 20.5x18.0px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '7' by 12.2x14.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '· B. 30' by 33.8x14.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '22' by 18.5x14.8px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '· B. 11' by 17.4x14.5px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '20' by 14.4x14.8px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '· B. ' by 13.3x14.2px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '· B. ' by 21.5x14.2px
+  [TEXTX] p8-test.svg '出發。' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '主燈秀每次幾分鐘？' by 184.5x19.8px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '金馬獎哪天頒獎？' by 164.0x19.8px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '小雪是第幾個節氣？' by 184.5x19.8px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '天氣越冷，越要' by 143.5x19.8px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '日還是哪兩個日子？' by 134.1x19.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '？' by 15.8x16.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '— ___(A. 11' by 15.5x17.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '夜間遊行晚上幾點？' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '金馬獎哪天頒獎？' by 164.0x19.8px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '小雪是第幾個節氣？' by 184.5x19.8px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '天氣越冷，越要' by 143.5x19.8px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '日還是哪兩個日子？' by 134.1x19.2px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '？' by 15.8x16.2px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '— ___(A. 11' by 15.5x17.2px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '主燈秀每次幾分鐘？' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '第' by 8.2x19.5px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '保暖' by 33.4x19.5px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '晚上' by 28.7x19.2px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '個' by 8.2x19.0px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '月' by 12.3x18.2px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '日' by 4.1x18.0px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '7' by 12.2x14.5px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '分鐘' — ink overlaps '20' by 24.5x14.8px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '小雪是第幾個節氣？' by 164.0x19.8px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '天氣越冷，越要' by 143.5x20.0px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '日還是哪兩個日子？' by 113.6x19.2px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '金馬獎哪天頒獎？' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '天氣越冷，越要' by 143.5x19.8px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '日還是哪兩個日子？' by 134.1x19.2px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '？' by 15.8x16.2px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '— ___(A. 11' by 15.5x17.2px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '小雪是第幾個節氣？' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '第' — ink overlaps '保暖' by 15.8x19.5px
+  [TEXTX] p8-test.svg '第' — ink overlaps '晚上' by 20.5x19.2px
+  [TEXTX] p8-test.svg '第' — ink overlaps '月' by 16.4x18.2px
+  [TEXTX] p8-test.svg '第' — ink overlaps '— ___(A. 5' by 12.3x17.0px
+  [TEXTX] p8-test.svg '第' — ink overlaps '— ___(A. 11' by 4.1x17.0px
+  [TEXTX] p8-test.svg '第' — ink overlaps '— ___(A. ' by 4.8x17.0px
+  [TEXTX] p8-test.svg '第' — ink overlaps '開窗' by 20.5x19.5px
+  [TEXTX] p8-test.svg '第' — ink overlaps '分' by 8.2x19.2px
+  [TEXTX] p8-test.svg '第' — ink overlaps '下' by 12.3x18.8px
+  [TEXTX] p8-test.svg '第' — ink overlaps '(A.' by 14.6x17.0px
+  [TEXTX] p8-test.svg '第' — ink overlaps '· B. 30' by 12.3x14.5px
+  [TEXTX] p8-test.svg '第' — ink overlaps '· B. 11' by 20.5x14.5px
+  [TEXTX] p8-test.svg '第' — ink overlaps '· B. ' by 8.3x14.2px
+  [TEXTX] p8-test.svg '天氣越冷，越要' — ink overlaps '日還是哪兩個日子？' by 93.1x19.2px
+  [TEXTX] p8-test.svg '天氣越冷，越要' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '天氣越冷，越要' — ink overlaps '11' by 5.2x14.2px
+  [TEXTX] p8-test.svg '天氣越冷，越要' — ink overlaps '22' by 24.5x14.8px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '晚上' by 36.3x19.2px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '月' by 19.9x18.2px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '— ___(A. 5' by 7.6x17.0px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '7' by 4.7x14.5px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '22' by 21.1x14.8px
+  [TEXTX] p8-test.svg '保暖' — ink overlaps '20' by 24.5x14.8px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '分' by 8.8x19.2px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '下' by 12.9x18.8px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '(A.' by 27.0x17.0px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '· B. 30' by 32.2x14.5px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '· B. 11' by 41.0x14.5px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '· B. ' by 28.2x14.2px
+  [TEXTX] p8-test.svg '開窗' — ink overlaps '· B. ' by 20.0x14.2px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '？' by 20.5x16.2px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ___(A. ' by 45.4x17.0px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ___(A. 5' by 45.4x17.0px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ___(A. 11' by 65.9x17.0px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ___(A. ' by 45.4x17.0px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ___(A. ' by 40.7x17.0px
+  [TEXTX] p8-test.svg '日還是哪兩個日子？' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '— ___(A. 5' by 12.3x17.0px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '— ___(A. 11' by 4.1x17.0px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '— ___(A. ' by 4.8x17.0px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '22' by 16.4x14.8px
+  [TEXTX] p8-test.svg '晚上' — ink overlaps '20' by 20.5x14.8px
+  [TEXTX] p8-test.svg '點' — ink overlaps '個' by 12.3x19.0px
+  [TEXTX] p8-test.svg '點' — ink overlaps '日' by 16.4x18.0px
+  [TEXTX] p8-test.svg '點' — ink overlaps '· B. 30' by 15.5x14.5px
+  [TEXTX] p8-test.svg '點' — ink overlaps '· B. ' by 3.2x14.2px
+  [TEXTX] p8-test.svg '點' — ink overlaps '· B. ' by 20.5x14.2px
+  [TEXTX] p8-test.svg '分' — ink overlaps '下' by 16.4x18.8px
+  [TEXTX] p8-test.svg '分' — ink overlaps ')' by 6.5x17.0px
+  [TEXTX] p8-test.svg '分' — ink overlaps '· B. 11' by 16.4x14.5px
+  [TEXTX] p8-test.svg '分' — ink overlaps '2' by 12.2x14.8px
+  [TEXTX] p8-test.svg '個' — ink overlaps '日' by 16.4x18.0px
+  [TEXTX] p8-test.svg '個' — ink overlaps '7' by 8.2x14.5px
+  [TEXTX] p8-test.svg '個' — ink overlaps '· B. 30' by 7.3x14.5px
+  [TEXTX] p8-test.svg '個' — ink overlaps '22' by 4.0x14.8px
+  [TEXTX] p8-test.svg '個' — ink overlaps '· B. ' by 14.9x14.2px
+  [TEXTX] p8-test.svg '下' — ink overlaps '(A.' by 6.4x16.8px
+  [TEXTX] p8-test.svg '下' — ink overlaps ')' by 6.5x16.8px
+  [TEXTX] p8-test.svg '下' — ink overlaps '· B. 30' by 4.1x14.5px
+  [TEXTX] p8-test.svg '下' — ink overlaps '· B. 11' by 20.5x14.5px
+  [TEXTX] p8-test.svg '下' — ink overlaps '2' by 8.2x14.8px
+  [TEXTX] p8-test.svg '月' — ink overlaps '— ___(A. 5' by 8.2x16.8px
+  [TEXTX] p8-test.svg '月' — ink overlaps '20' by 4.1x14.8px
+  [TEXTX] p8-test.svg '日' — ink overlaps '7' by 4.0x14.5px
+  [TEXTX] p8-test.svg '日' — ink overlaps '· B. 30' by 11.4x14.5px
+  [TEXTX] p8-test.svg '日' — ink overlaps '· B. ' by 19.0x14.2px
+  [TEXTX] p8-test.svg '？' — ink overlaps '— ___(A. 11' by 20.2x15.5px
+  [TEXTX] p8-test.svg '(A.' — ink overlaps '· B. 30' by 24.7x14.5px
+  [TEXTX] p8-test.svg '(A.' — ink overlaps '· B. 11' by 27.0x14.5px
+  [TEXTX] p8-test.svg '(A.' — ink overlaps '· B. ' by 20.7x14.2px
+  [TEXTX] p8-test.svg '(A.' — ink overlaps '· B. ' by 12.5x14.2px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ___(A. 5' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ___(A. 11' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ___(A. ' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ___(A. ' by 70.8x18.0px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps '— ___(A. 11' by 79.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps '— ___(A. ' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps '— ___(A. ' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ___(A. 5' — ink overlaps '___' by 7.0x3.0px
+  [TEXTX] p8-test.svg '— ___(A. 11' — ink overlaps '— ___(A. ' by 75.5x18.0px
+  [TEXTX] p8-test.svg '— ___(A. 11' — ink overlaps '— ___(A. ' by 74.8x18.0px
+  [TEXTX] p8-test.svg '— ___(A. 11' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '— ___(A. 11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ___(A. ' by 70.8x18.0px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps 'A. ' by 25.0x14.5px
+  [TEXTX] p8-test.svg '— ___(A. ' — ink overlaps '— ' by 14.5x5.5px
+  [TEXTX] p8-test.svg ')' — ink overlaps '· B. 11' by 6.5x14.5px
+  [TEXTX] p8-test.svg ')' — ink overlaps '2' by 6.5x14.8px
+  [TEXTX] p8-test.svg '7' — ink overlaps '22' by 8.1x14.2px
+  [TEXTX] p8-test.svg '7' — ink overlaps '20' by 4.0x14.2px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '11' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '· B. 30' — ink overlaps '· B. 11' by 42.1x14.5px
+  [TEXTX] p8-test.svg '· B. 30' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '· B. 30' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '· B. 30' — ink overlaps '· B. ' by 26.4x14.2px
+  [TEXTX] p8-test.svg '22' — ink overlaps '20' by 20.4x14.8px
+  [TEXTX] p8-test.svg '· B. 11' — ink overlaps '2' by 8.2x14.5px
+  [TEXTX] p8-test.svg '· B. 11' — ink overlaps '· B. ' by 34.0x14.2px
+  [TEXTX] p8-test.svg '· B. 11' — ink overlaps '· B. ' by 29.9x14.2px
+  [TEXTX] p8-test.svg '· B. 11' — ink overlaps '· B. ' by 10.0x14.2px
+  [TEXTX] p8-test.svg '· B. ' — ink overlaps '· B. ' by 25.8x14.2px
+  [TEXTX] p8-test.svg '· B. ' — ink overlaps '· B. ' by 5.9x14.2px
+  [TEXTX] p8-test.svg '· B. ' — ink overlaps '· B. ' by 14.1x14.2px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '— ' — ink overlaps '— ' by 19.2x5.5px
+  [TEXTX] p8-test.svg '雙' — ink overlaps '日' by 10.2x18.0px
+  [TEXTX] p8-test.svg '雙' — ink overlaps '日' by 6.2x18.0px
+  [TEXTX] p8-test.svg '雙' — ink overlaps ')' by 6.5x16.8px
+  [TEXTX] p8-test.svg '雙' — ink overlaps '22' by 10.2x14.8px
+  [TEXTX] p8-test.svg '爵士音樂節開幕' — ink overlaps '日' by 13.3x18.0px
+  [TEXTX] p8-test.svg '爵士音樂節開幕' — ink overlaps ')' by 6.5x17.0px
+  [TEXTX] p8-test.svg '午' — ink overlaps '鐘' by 20.5x19.2px
+  [TEXTX] p8-test.svg '午' — ink overlaps '雪' by 20.5x19.0px
+  [TEXTX] p8-test.svg '午' — ink overlaps '個' by 20.5x19.0px
+  [TEXTX] p8-test.svg '午' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '午' — ink overlaps '11' by 20.5x14.2px
+  [TEXTX] p8-test.svg '鐘' — ink overlaps '雪' by 20.5x19.0px
+  [TEXTX] p8-test.svg '鐘' — ink overlaps '個' by 20.5x19.0px
+  [TEXTX] p8-test.svg '鐘' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '鐘' — ink overlaps '11' by 20.5x14.2px
+  [TEXTX] p8-test.svg '雪' — ink overlaps '個' by 20.5x19.0px
+  [TEXTX] p8-test.svg '雪' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '雪' — ink overlaps '11' by 20.5x14.2px
+  [TEXTX] p8-test.svg '和旅展' — ink overlaps '月' by 12.3x18.2px
+  [TEXTX] p8-test.svg '和旅展' — ink overlaps '· B. 11' by 49.2x14.5px
+  [TEXTX] p8-test.svg '點' — ink overlaps '月' by 12.3x18.2px
+  [TEXTX] p8-test.svg '點' — ink overlaps '日' by 8.2x18.0px
+  [TEXTX] p8-test.svg '點' — ink overlaps '15' by 12.2x14.8px
+  [TEXTX] p8-test.svg '點' — ink overlaps '22' by 8.2x14.8px
+  [TEXTX] p8-test.svg '點' — ink overlaps '· B. ' by 20.5x14.2px
+  [TEXTX] p8-test.svg '個' — ink overlaps '月' by 20.5x18.2px
+  [TEXTX] p8-test.svg '個' — ink overlaps '11' by 20.5x14.2px
+  [TEXTX] p8-test.svg '月' — ink overlaps '15' by 20.4x14.8px
+  [TEXTX] p8-test.svg '月' — ink overlaps '2' by 8.2x14.8px
+  [TEXTX] p8-test.svg '月' — ink overlaps '· B. ' by 19.6x14.2px
+  [TEXTX] p8-test.svg '月' — ink overlaps '· C. ' by 3.2x15.0px
+  [TEXTX] p8-test.svg '月' — ink overlaps '11' by 20.5x14.2px
+  [TEXTX] p8-test.svg '日' — ink overlaps '11' by 10.3x14.2px
+  [TEXTX] p8-test.svg '日' — ink overlaps '· C. ' by 7.2x15.0px
+  [TEXTX] p8-test.svg '日' — ink overlaps ')' by 6.5x16.8px
+  [TEXTX] p8-test.svg '日' — ink overlaps '22' by 20.5x14.8px
+  [TEXTX] p8-test.svg '日' — ink overlaps '· B. ' by 14.4x14.2px
+  [TEXTX] p8-test.svg ')' — ink overlaps '22' by 6.5x14.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '· B. ' by 6.2x14.2px
+  [TEXTX] p8-test.svg ')' — ink overlaps ')' by 6.5x17.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '15' by 6.5x14.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '11' by 4.0x14.2px
+  [TEXTX] p8-test.svg ')' — ink overlaps '2' by 6.5x14.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '22' by 4.0x14.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '15' by 6.5x14.8px
+  [TEXTX] p8-test.svg ')' — ink overlaps '11' by 4.0x14.2px
+  [TEXTX] p8-test.svg ')' — ink overlaps '2' by 6.5x14.8px
+  [TEXTX] p8-test.svg '· C. ' — ink overlaps '15' by 24.5x14.8px
+  [TEXTX] p8-test.svg '15' — ink overlaps '11' by 4.0x14.2px
+  [TEXTX] p8-test.svg '15' — ink overlaps '2' by 12.2x14.5px
+  [TEXTX] p8-test.svg '15' — ink overlaps '· B. ' by 19.5x14.2px
+  [TEXTX] p8-test.svg '11' — ink overlaps '· B. 11' by 9.2x14.2px
+  [TEXTX] p8-test.svg '11' — ink overlaps '2' by 4.0x14.2px
+  [TEXTX] p8-test.svg '22' — ink overlaps '· B. ' by 14.4x14.2px
+  [TEXTX] p8-test.svg '2' — ink overlaps '· B. ' by 7.2x14.2px
+  [TEXTX] p8-test.svg '寫下來，才記得住（資料照片）。' — ink overlaps '120. C — The giant demon is 5 metres tal' by 250.5x5.2px
+  [TEXTX] p8-test.svg 'Photo: Taking notes with a pencil — CC0 (Unsplash)' — ink overlaps '121. A — Xiaoxue is the 20th solar term.' by 235.0x5.6px

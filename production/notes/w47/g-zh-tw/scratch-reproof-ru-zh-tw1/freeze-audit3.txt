@@ -1,0 +1,28 @@
+per-page (removed distinct, removed count, added distinct, added count): {'1': (19, 19, 19, 19), '2': (23, 24, 23, 24), '3': (14, 15, 14, 15), '4': (15, 15, 15, 15), '5': (13, 14, 13, 14), '6': (17, 20, 17, 20), '7': (30, 30, 29, 29), '8': (122, 171, 123, 171)}
+TOTAL removed distinct (union): 231 count-sum: 308
+Cyrillic-bearing removed strings:
+  ('8', 'можно', 1)
+Added strings with Cyrillic:
+УЧЕБНЫЕ in removed: False | in added: False
+ДАННЫЕ in removed: False | in added: False
+Три уровня in removed: False | in added: False
+Большой тест in removed: False | in added: False
+Это учебный in removed: False | in added: False
+P6 removed full list:
+   '. 这是编辑部练习数据，不是真实调查。'
+   'Lucerna\u3000俄语周报 VOL.4\u3000LUCERNA RUSSIAN WEEKLY'
+   '\u300011月16–22日这一周：怎么过'
+   '\u3000本周逐日历'
+   '\u3000正反两方'
+   '\u3000深读'
+   '\u3000第6版练习'
+   '\u3000练习数据'
+   '中间。'
+   '名副其实的 · '
+   '奠定节奏 ·'
+   '把两个句子合成一个。'
+   '改写'
+   '用第6版的词填空。'
+   '看日历条和练习图表回答。'
+   '答案见第8版\u3000题目可跨级混排，按题号找答案'
+   '译注｜'

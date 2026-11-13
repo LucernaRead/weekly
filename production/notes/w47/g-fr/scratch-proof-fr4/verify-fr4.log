@@ -1,0 +1,297 @@
+===== 1. D9: 8 quotes verbatim vs P1-P6 (own parse of content7.py) =====
+quotes parsed from content7.py: 8
+Q97 p1: VERBATIM-in-page=True in-all=True :: « Dimanche 8 novembre, Carlos Alcaraz a battu Ben Shelton 7-6(5), 7-5,
+Q98 p3: VERBATIM-in-page=True in-all=True :: « Jeudi 19 novembre, à 0 heure, le beaujolais nouveau est arrivé ! »
+Q99 p2: VERBATIM-in-page=True in-all=True :: « C'est le mercredi des sorties en France : un jour pour voter le mati
+Q100 p2: VERBATIM-in-page=True in-all=True :: « Et dimanche 22 novembre, la semaine se termine en beauté : les final
+Q101 p5: VERBATIM-in-page=True in-all=True :: « Comme dit l'ADEME : le meilleur déchet est celui qu'on ne produit pa
+Q102 p5: VERBATIM-in-page=True in-all=True :: « Mercredi 18 novembre, seize films sortent dans les salles de cinéma 
+Q103 p6: VERBATIM-in-page=True in-all=True :: « La première partie est rejetée, et tout le texte tombe en première l
+Q104 p1: VERBATIM-in-page=True in-all=True :: « Une semaine en trois temps : voter, fêter, jouer. »
+
+===== 1b. D9: P7 SVG + P5 source sentence =====
+P7 <text> 'dans les salles de cinéma' count: 2
+P7 <text> 'sortent au cinéma' count: 0
+P7 raw 'au cinéma' count: 0
+P7 raw 'dans les salles de cinéma' count: 1
+P5 <text> has source sentence: True
+P5 <text> 'seize films sortent dans les salles de cinéma' count: 1
+content56.py P5 source line has 'dans les salles de cinéma': True
+content7.py key line:  ['("« Mercredi 18 novembre, seize films sortent dans les salles de cinéma en France. » (page 5)",', 'E["gp6"], "A2", "Mercredi, seize films ___ (sortir) dans les salles de cinéma.", "sortent", E["n_gp6"]),']
+
+===== 2. D7 (geometric body-only, own classifier) =====
+p1-une.svg vainqueur: body hits=1
+    ctx: Nanterre. Le vainqueur remporte son
+p4-sport.svg choc: body hits=1
+    ctx: deuxième. Un choc remporté en deux
+p6-politique.svg navette: body hits=1
+    ctx: navette parlementaire, les
+p6-politique.svg paritaire: body hits=1
+    ctx: commission mixte paritaire — sept
+
+===== 3. D3 (geometric body-only, own classifier) =====
+p3-culture.svg bouteille: body hits=1 PASS
+    ctx: droit de mettre leur vin en bouteille et
+p3-culture.svg raisin: body hits=1 PASS
+    ctx: raisin dans les vignes dès le 13 août,
+p3-culture.svg vigne: body hits=3 PASS
+    ctx: vignerons du Beaujolais obtiennent le
+    ctx: raisin dans les vignes dès le 13 août,
+    ctx: En 1951, les vignerons obtiennent le
+p4-sport.svg tennis: body hits=1 PASS
+    ctx: tennis de la saison : le Rolex Paris
+p4-sport.svg adversaire: body hits=1 PASS
+    ctx: adversaire, Ben Shelton, tête de série
+p5-jeunesse.svg salle: body hits=1 PASS
+    ctx: sortent dans les salles de cinéma en
+p5-jeunesse.svg écran: body hits=1 PASS
+    ctx: grand écran.
+p5-jeunesse.svg acteur: body hits=1 PASS
+    ctx: », d'Alexandre Smia, avec l'acteur
+p5-jeunesse.svg actrice: body hits=1 PASS
+    ctx: l'actrice Kristin Scott Thomas et
+p5-jeunesse.svg réalisateur: body hits=1 PASS
+    ctx: du réalisateur Francis Lawrence, dont
+p5-jeunesse.svg scénario: body hits=1 PASS
+    ctx: le scénario raconte Haymitch, le héros
+p5-jeunesse.svg séance: body hits=1 PASS
+    ctx: choisissez votre séance du mercredi
+p5-jeunesse.svg public: body hits=2 PASS
+    ctx: mercredi-là, le public a l'embarras du
+    ctx: domaine public
+D3 total: 13/13
+
+===== 4. D8 =====
+expl.py gp4 = 语法点｜se terminer en beauté：圆满收尾。
+expl.py n_gp4 = se terminer en beauté 圆满收尾
+p7-langue.svg: <text> 'lieu' count=0, raw file 'lieu' count=0
+p8-exercices.svg: <text> 'lieu' count=0, raw file 'lieu' count=0
+Q100 key check in final-fr-p8.json: beauté
+
+===== 5. Badges (rx=2.7 rects by fill) =====
+p1-une.svg: A2=7 B1=3 B2=0 total=10
+p2-vie.svg: A2=11 B1=1 B2=0 total=12
+p3-culture.svg: A2=8 B1=10 B2=0 total=18
+p4-sport.svg: A2=1 B1=14 B2=0 total=15
+p5-jeunesse.svg: A2=1 B1=13 B2=0 total=14
+p6-politique.svg: A2=0 B1=5 B2=10 total=15
+p7-langue.svg: A2=6 B1=4 B2=2 total=12
+p8-exercices.svg: A2=16 B1=15 B2=7 total=38
+TOTAL badges: 134 (expect 134)
+
+===== 6. §1.1 spot checks =====
+p1-une.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=35 fs38=0 fs32=0
+p2-vie.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=33 fs38=0 fs32=2
+p3-culture.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=19 fs38=0 fs32=2
+p4-sport.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=29 fs38=0 fs32=2
+p5-jeunesse.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=23 fs38=0 fs32=2
+p6-politique.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=24 fs38=0 fs32=2
+p7-langue.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=15 fs38=0 fs32=0
+p8-exercices.svg: #fbfaf6=True #f7f1e2=0 gold#b49a4a=0 '·'=0 '　'=182 fs38=0 fs32=0
+.text.md: '·'=0 '　'=390 len=46477B
+ABSTRACT: '·'=0 '　'=0 len=280B
+
+===== 7. VOL.4 / VOL.5 =====
+.text.md L1: # Le Lucerna　法语周报 VOL.4
+.text.md L15: 法语周报　VOL.4　巴黎与参议院的一周
+.text.md L245: Et vous ? Racontez votre jeudi 19 novembre en deux phrases : une sortie, un film, ou une dégustation (pour les adultes) ? Les meilleurs textes paraîtront dans l
+.text.md L497: Jeudi 12, à Milan, puis dimanche 15, à Bordeaux : deux soirs, deux matches, et une qualification à valider. Les résultats seront dans le VOL.5.
+.text.md L537: Les finales de Turin, dimanche 22 : le nom du vainqueur sera dans le VOL.5, avec les résultats des Bleus et de la 11e journée de Ligue 1.
+.text.md L939: Note de la rédaction : aucun texte du VOL.4 n'était arrivé au moment de mettre sous presse. Le VOL.5 reprendra la promesse.
+.text.md L941: 编辑部说明：截至付印，编辑部尚未收到 VOL.4 的投稿作文，故本期刊登标注明确的编辑部示例；VOL.5 将兑现点评真实投稿的承诺。
+.text.md L943: LA SEMAINE PROCHAINE　VOL.5 下周预告
+.text.md L957: Théo a dix-sept ans. Le (109)___ 16 novembre, il se lève tôt : les finales de Turin approchent. Avec sa classe, il va à (110)___ pour la fête du beaujolais nouv
+.text.md L1043: Écrivez un petit texte (80 à 100 mots) : « Mon dimanche 22 novembre ». Racontez : une finale, une promenade, un film. Les meilleurs textes paraîtront dans le VO
+.text.md L1083: 109. A（11 月 16 日是星期一）　110. B（庆典在博若莱）　111. A（结果见 VOL.5）　112. B（品尝语境 → goûté）　113. A（proposer 推出）　114. A（avoir + 过去分词（不配合））　115. B（les Bleus 复数 → jouent）　116. A（i
+p1-une.svg: VOL.4=2 VOL.5=0 VOL. 4=1
+p2-vie.svg: VOL.4=1 VOL.5=1 VOL. 4=0
+p3-culture.svg: VOL.4=1 VOL.5=0 VOL. 4=0
+p4-sport.svg: VOL.4=1 VOL.5=2 VOL. 4=0
+p5-jeunesse.svg: VOL.4=1 VOL.5=0 VOL. 4=0
+p6-politique.svg: VOL.4=1 VOL.5=0 VOL. 4=0
+p7-langue.svg: VOL.4=3 VOL.5=3 VOL. 4=0
+p8-exercices.svg: VOL.4=1 VOL.5=3 VOL. 4=0
+
+===== 8. Banned-token scan (SVG <text> + .text.md) =====
+'SOP': svg=0 textmd=0
+'proofread': svg=0 textmd=0
+'校对': svg=0 textmd=0
+'geometry': svg=0 textmd=0
+'occlusion': svg=0 textmd=0
+'lint': svg=0 textmd=0
+'TODO': svg=0 textmd=0
+'FIXME': svg=0 textmd=0
+'XXX': svg=0 textmd=0
+'占位': svg=0 textmd=0
+'待写': svg=0 textmd=0
+'lorem': svg=0 textmd=0
+'Lorem': svg=0 textmd=0
+'乌克兰': svg=0 textmd=0
+'俄乌': svg=0 textmd=0
+'加沙': svg=0 textmd=0
+'以色列': svg=0 textmd=0
+'台海': svg=0 textmd=0
+'战争': svg=0 textmd=0
+'cover': svg=0 textmd=0
+'Cover': svg=0 textmd=0
+'2026-w47': svg=0 textmd=0
+'2026-W47': svg=0 textmd=0
+'·': svg=0 textmd=0
+
+===== 9. KIT text corrections =====
+KIT has '32px=24pt': True
+KIT has '38px=28.5pt' as current claim (not historical): True
+KIT F-MAIL line(s):
+    4. **真实来信**：未收到，沿用 W46 做法。截至 11 月 10 日付印，编辑部未收到 VOL.4 投稿（见 P7 法语说明 + 简体中文说明，标注明确的编辑部示例）。**F-MAIL 规则（2026-11-11 第二轮返修订正）**：投稿只认用户直接发来的；用户未直接发来投稿即无来信，**不查邮箱、不核实邮箱状态**。承诺顺延至 VOL.5。
+    - 第 5 轮（第二轮校对 D7/D8 返修，2026-11-11，build-fix2）：D7 4 词全部自然写进同页正文，不删译注——P1 头条首段「Premier titre à Paris, neuvième en Masters 1000.」→「Le vainqueur remporte son premier titre à Paris, le neuvième en Masters 
+    1. **读者来信（F-MAIL 规则）**：投稿只认用户直接发来的；用户未直接发来投稿即无来信，**不查邮箱、不核实邮箱状态**。本期 P7 读者园地为标注明确的编辑部示例（见 §二.4）；入仓前不核查邮箱。
+
+===== 10. Keys (final-fr-p8.json) vs .text.md RÉPONSES (own splitter) =====
+keys total: 150; noted: 121
+RÉPONSES section at line: 1051
+answers parsed from .text.md: 8 (numbers 1..109)
+Q1: MISMATCH key='gagné' md-token='gagné\u30002. mercredi\u30003. jeudi' full='gagné\u30002. mercredi\u30003. jeudi（11 月 19 日新酒上市）\u30004. premier（巴黎首冠）\u30005. 12,7（赤字从 21.8 降到 12.7 亿）\u30006. 22（都灵决赛在周日'
+Q2: MISSING in .text.md (key='mercredi')
+Q3: MISSING in .text.md (key='jeudi')
+Q4: MISSING in .text.md (key='premier')
+Q5: MISSING in .text.md (key='12,7')
+Q6: MISSING in .text.md (key='22')
+Q7: MISSING in .text.md (key='A')
+Q8: MISSING in .text.md (key='B')
+Q9: MISSING in .text.md (key='A')
+Q10: MISSING in .text.md (key='B')
+Q11: MISMATCH key='mercredi' md-token='mercredi\u300012. lundi' full='mercredi\u300012. lundi（周一 16 日）\u300013. jeudi（新酒在周四 19 日）\u300014. dimanche（周日 22 日）\u300015. Le Sénat va voter mercre'
+Q12: MISSING in .text.md (key='lundi')
+Q13: MISSING in .text.md (key='jeudi')
+Q14: MISSING in .text.md (key='dimanche')
+Q15: MISSING in .text.md (key='Le Sénat va voter mercredi.')
+Q16: MISSING in .text.md (key='Nous allons goûter le beaujolais jeudi.')
+Q17: MISSING in .text.md (key='Tu vas raconter ton jeudi 19 novembre.')
+Q18: MISSING in .text.md (key='Vous allez regarder les finales dimanche.')
+Q19: MISSING in .text.md (key='C')
+Q20: MISSING in .text.md (key='B')
+Q21: MISSING in .text.md (key='A')
+Q22: MISSING in .text.md (key='a')
+Q23: MISSING in .text.md (key='b')
+Q24: MISSING in .text.md (key='c')
+Q25: MISSING in .text.md (key='d')
+Q27: MISSING in .text.md (key='Faux')
+Q28: MISSING in .text.md (key='Vrai')
+Q29: MISSING in .text.md (key='Faux')
+Q30: MISSING in .text.md (key='Vrai')
+Q31: MISSING in .text.md (key='gamay')
+Q32: MISSING in .text.md (key='jeudi')
+Q33: MISSING in .text.md (key='Beaujeu')
+Q34: MISSING in .text.md (key='1985')
+Q35: MISSING in .text.md (key='Le vin ne se vend jamais avant le troisième jeudi.')
+Q36: MISSING in .text.md (key="On ne boit pas d'alcool avant 18 ans.")
+Q37: MISSING in .text.md (key="Le beaujolais n'est pas un vin blanc.")
+Q38: MISSING in .text.md (key='75 ans')
+Q39: MISSING in .text.md (key='minuit')
+Q40: MISSING in .text.md (key='troisième')
+Q41: MISSING in .text.md (key='B')
+Q42: MISSING in .text.md (key='13')
+Q43: MISSING in .text.md (key='saucisson')
+Q45: MISSING in .text.md (key='A')
+Q46: MISSING in .text.md (key='C')
+Q47: MISSING in .text.md (key='A')
+Q48: MISSING in .text.md (key='A')
+Q49: MISSING in .text.md (key='a')
+Q50: MISSING in .text.md (key='b')
+Q51: MISSING in .text.md (key='c')
+Q52: MISSING in .text.md (key='d')
+Q53: MISSING in .text.md (key='plus vite')
+Q54: MISSING in .text.md (key='plus grand')
+Q55: MISSING in .text.md (key='moins longue')
+Q56: MISSING in .text.md (key='forfait')
+Q57: MISSING in .text.md (key='finale')
+Q58: MISSING in .text.md (key='groupes')
+Q59: MISSING in .text.md (key='tirage')
+Q60: MISSING in .text.md (key='Bordeaux')
+Q61: MISSING in .text.md (key='Milan')
+Q63: MISSING in .text.md (key='B')
+Q64: MISSING in .text.md (key='B')
+Q65: MISSING in .text.md (key='A')
+Q66: MISSING in .text.md (key='A')
+Q67: MISSING in .text.md (key='mercredi')
+Q68: MISSING in .text.md (key='prequel')
+Q69: MISSING in .text.md (key='Ménochet')
+Q70: MISSING in .text.md (key='21')
+Q71: MISSING in .text.md (key='produit')
+Q72: MISSING in .text.md (key='acheter')
+Q73: MISSING in .text.md (key='a')
+Q74: MISSING in .text.md (key='b')
+Q75: MISSING in .text.md (key='c')
+Q76: MISSING in .text.md (key='d')
+Q77: MISSING in .text.md (key='des billets')
+Q78: MISSING in .text.md (key='deux')
+Q80: MISSING in .text.md (key='B')
+Q81: MISSING in .text.md (key='B')
+Q82: MISSING in .text.md (key='B')
+Q83: MISSING in .text.md (key='C')
+Q84: MISSING in .text.md (key='B')
+Q85: MISSING in .text.md (key='a')
+Q86: MISSING in .text.md (key='b')
+Q87: MISSING in .text.md (key='c')
+Q88: MISSING in .text.md (key='d')
+Q89: MISSING in .text.md (key='plus long')
+Q90: MISSING in .text.md (key='moins simple')
+Q91: MISSING in .text.md (key='aussi important')
+Q92: MISSING in .text.md (key='examine')
+Q93: MISSING in .text.md (key='ont rejeté')
+Q94: MISSING in .text.md (key='part')
+Q95: MISSING in .text.md (key='peut')
+Q96: MISSING in .text.md (key='connus')
+Q98: MISSING in .text.md (key='est arrivé')
+Q99: MISSING in .text.md (key='vote')
+Q100: MISSING in .text.md (key='beauté')
+Q101: MISSING in .text.md (key='produit')
+Q102: MISSING in .text.md (key='sortent')
+Q103: MISSING in .text.md (key='rejetée')
+Q104: MISSING in .text.md (key='jouer')
+Q105: MISSING in .text.md (key='Alcaraz a battu Shelton.')
+Q106: MISSING in .text.md (key='Le Sénat vote mercredi.')
+Q107: MISSING in .text.md (key='Il est prévu que le Sénat examine le texte.')
+Q108: MISSING in .text.md (key='Le beaujolais nouveau arrive jeudi 19 novembre.')
+Q110: MISSING in .text.md (key='B')
+Q111: MISSING in .text.md (key='A')
+Q112: MISSING in .text.md (key='B')
+Q113: MISSING in .text.md (key='A')
+Q114: MISSING in .text.md (key='A')
+Q115: MISSING in .text.md (key='B')
+Q116: MISSING in .text.md (key='A')
+Q117: MISSING in .text.md (key='A')
+Q118: MISSING in .text.md (key='A')
+Q119: MISSING in .text.md (key='B')
+Q120: MISSING in .text.md (key='B')
+Q121: MISSING in .text.md (key='A')
+Q122: MISSING in .text.md (key='B')
+Q123: MISSING in .text.md (key='A')
+Q124: MISSING in .text.md (key='C')
+Q125: MISSING in .text.md (key='A')
+Q126: MISSING in .text.md (key='A')
+Q127: MISSING in .text.md (key='A')
+Q128: MISSING in .text.md (key='A')
+Q129: MISSING in .text.md (key='A')
+Q130: MISSING in .text.md (key='Le Sénat va voter mercredi.')
+Q131: MISSING in .text.md (key='Si tu venais dimanche, tu verrais les finales.')
+Q132: MISSING in .text.md (key='Il a goûté le beaujolais à Beaujeu.')
+Q133: MISSING in .text.md (key='Selon moi, la semaine est bien remplie.')
+Q134: MISSING in .text.md (key='Il est prévu que le Sénat examine le texte mercredi.')
+Q135: MISSING in .text.md (key="Regarder une finale, c'est déjà apprendre le français.")
+Q136: MISSING in .text.md (key='Il court plus vite que son frère.')
+Q137: MISSING in .text.md (key='Nous suivons le vote du Sénat depuis lundi.')
+Q138: MISSING in .text.md (key='Ce soir, nous allons préparer nos affaires.')
+Q139: MISSING in .text.md (key='On ne connaît pas encore les résultats.')
+Q140: MISSING in .text.md (key='a')
+Q141: MISSING in .text.md (key='b')
+Q142: MISSING in .text.md (key='c')
+Q143: MISSING in .text.md (key='d')
+Q144: MISSING in .text.md (key='e')
+Q145: MISSING in .text.md (key='des billets')
+Q146: MISSING in .text.md (key='deux')
+Q147: MISSING in .text.md (key='quelle heure')
+Q148: MISSING in .text.md (key='devant')
+Q149: MISSING in .text.md (key='film')
+Q150: MISSING in .text.md (key='开放题')
+key-vs-textmd mismatches: 144

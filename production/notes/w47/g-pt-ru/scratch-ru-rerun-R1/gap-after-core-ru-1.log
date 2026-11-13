@@ -1,0 +1,41 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+--- FIXED-JOINS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R1/core-ru-1/build-copy/Lucerna-VOL4.pdf
+  P8 'Imperativ:' | 'не': []
+  P8 '13' | 'ноября': [(2.47, "'ная пятница» на Ozon? A. 13 ноября – 2 декабря ·'")]
+  P4 '20' | 'ноября': [(4.43, "'возвращается 20 ноября: 15-й тур'"), (3.52, "'15-й тур начнётся... A. 20 ноября · B. 8'")]
+  P2 '19' | 'ноября': [(4.41, "'даты: 19 ноября — День'"), (3.9, "'19 ноября — День преподавателя.'"), (3.48, "'нь психолога — это... A. 19 ноября · B. 21'")]
+  P5 '16' | 'ноября': [(3.01, "'ёрная пятница»: скидки с 16 ноября'"), (5.62, "'скидки с 16 ноября'"), (3.68, "'2026 году — это... A. 16 ноября · B. 27'")]
+  P4 'A.' | 'на': [(3.48, "'внял счёт с «Зенитом»... A. на'")]
+  P3 'A.' | 'биография': [(3.63, "'«Рокки — это я» — это... A. биография'")]
+  P7 'A.' | 'снег': [(3.71, "'«Гололедица» значит... A. снег с дождём'")]
+  P7 'A.' | 'цена': [(3.72, "'«Скидка» значит... A. цена ниже'")]
+  P7 'A.' | 'точно': [(3.71, "'«Может быть» значит... A. точно да · B.'")]
+  P7 'Tauwetter;' | 'мокрый': []
+  P7 'Rabattcode;' | 'возврат': []
+  P4 'результатов' | '+': [(3.01, "'14-й тур: все восемь результатов + сборная'")]
+  P8 '—' | 'скидка': [(2.42, "'74. скидка — скидка = 折扣'"), (2.41, "'107. A — скидка = 价格低于平常'")]
+  P8 '—' | 'поздравляю': [(2.34, "'140. 祝大家大学生节快乐！— поздравляю + с + 工具格'")]
+--- BYLINE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R1/core-ru-1/build-copy/Lucerna-VOL4.pdf
+  P1 'редакции' | 'Lucerna': [(2.89, "'От редакции Lucerna'")]
+  P2 'редакции' | 'Lucerna': [(2.89, "'От редакции Lucerna'")]
+  P3 'редакции' | 'Lucerna': [(2.89, "'От редакции Lucerna'")]
+  P4 'редакции' | 'Lucerna': [(2.82, "'От спортивной редакции Lucerna'")]
+  P5 'редакции' | 'Lucerna': [(2.89, "'От редакции Lucerna'")]
+  P6 'редакции' | 'Lucerna': [(2.89, "'От редакции Lucerna'")]
+--- ARROW-FPs /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R1/core-ru-1/build-copy/Lucerna-VOL4.pdf
+  P7 '→' | 'После': [(3.75, "'→После «с» нужен творительный'"), (3.75, "'→После «на» — предложный'"), (3.75, "'→После 21 — «гол»: «забили 21'")]
+  P7 '→' | 'Родительный': [(3.75, "'→Родительный падеж: «с 19'")]
+  P8 '→' | 'выходят': [(2.4, "'34. выходят — выходить →выходят'")]
+  P8 '→' | 'рассказывает': [(2.4, "'сказывает — рассказывать →рассказывает'")]
+  P8 '→' | 'снял': [(2.41, "'36. снял — снять →снял'")]
+  P8 '→' | 'сыграли': [(2.4, "'61. сыграли — сыграть →сыграли'")]
+  P8 '→' | 'играет': [(2.4, "'63. играет — играть →играет'")]
+  P8 '→' | 'победило': [(2.4, "'64. победило — победить →победило'")]
+  P8 '→' | 'работаем': [(2.4, "'96. работаем — работать →работаем'")]
+  P8 '✓' | 'Mustertext': []
+--- TEXT-LAYER /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-ru-rerun-R1/core-ru-1/build-copy/Lucerna-VOL4.pdf
+  P8: spaced '13 ноября' present=True | fused '13ноября' present=False
+  P2: spaced '19 ноября' present=True | fused '19ноября' present=False
+  P4: spaced '20 ноября' present=True | fused '20ноября' present=False
+  P5: spaced '16 ноября' present=True | fused '16ноября' present=False

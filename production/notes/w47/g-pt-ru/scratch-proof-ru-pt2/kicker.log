@@ -1,0 +1,26 @@
+kicker row elements: 20
+  x=586.3 y=372.0 fam='Noto Sans' size=16.0 text='ЕЖЕНЕДЕЛЬНАЯ'
+  x=712.3 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=719.5 y=372.0 fam='Noto Sans' size=16.0 text='ГАЗЕТА'
+  x=773.2 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=780.4 y=372.0 fam='Noto Sans' size=16.0 text='ДЛЯ'
+  x=813.0 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=820.2 y=372.0 fam='Noto Sans' size=16.0 text='ИЗУЧАЮЩИХ'
+  x=928.4 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=935.5 y=372.0 fam='Noto Sans' size=16.0 text='РУССКИЙ'
+  x=1009.4 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=1016.6 y=372.0 fam='Noto Sans' size=16.0 text='ЯЗЫК'
+  x=1059.8 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=1067.0 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='—  '
+  x=1088.4 y=372.0 fam='Noto Sans' size=16.0 text='НАСТОЯЩАЯ'
+  x=1189.0 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='  '
+  x=1196.2 y=372.0 fam='Noto Sans' size=16.0 text='РОССИЯ'
+  x=1260.8 y=372.0 fam='Noto Sans CJK SC' size=16.0 text=',  '
+  x=1272.4 y=372.0 fam='Noto Sans' size=16.0 text='ПО'
+  x=1296.6 y=372.0 fam='Noto Sans CJK SC' size=16.0 text='-'
+  x=1302.1 y=372.0 fam='Noto Sans' size=16.0 text='РУССКИ'
+full row text: 'ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ'
+tokens: ['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ']
+gaps: [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6]
+num gaps: 9 min gap: 5.9
+KICKER PASS min>=4

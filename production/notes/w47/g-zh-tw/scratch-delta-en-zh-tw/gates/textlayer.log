@@ -1,0 +1,11 @@
+print pages: 8 web pages: 8
+per-page byte-identical: 8 / 8
+  page 1: print 11657 chars, web 11657 chars, identical=True
+  page 2: print 12448 chars, web 12448 chars, identical=True
+  page 3: print 10671 chars, web 10671 chars, identical=True
+  page 4: print 11698 chars, web 11698 chars, identical=True
+  page 5: print 10138 chars, web 10138 chars, identical=True
+  page 6: print 10592 chars, web 10592 chars, identical=True
+  page 7: print 12250 chars, web 12250 chars, identical=True
+  page 8: print 19489 chars, web 19489 chars, identical=True
+token-multiset diff: 0 total chars print/web: 98943 98943

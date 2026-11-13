@@ -1,0 +1,309 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] D3-P2-short: "c. eten voor Sinterklaas' paard" ink-right(adv)=1790.1 clearance=+71.9
+[PASS] D3-longform-absent: p2 SVG
+[PASS] D5-P4-SVG: p4-sport.svg (wrapped para: two fragments)
+[PASS] D5-textmd: text.md
+[PASS] D4-ex-markers: — Resposta: x142 (want 142)
+[PASS] D4-match-words: (Resposta x) x8 (want 8)
+[PASS] D4-no-Chinese-答案: 答案 residual=0
+[PASS] pt-types-textmd-EN0: English type words in type brackets: []
+[PASS] pt-types-print-EN0: English instr phrases in print PDF: []
+    pt type counts in text.md: {'Completa a frase': 65, 'Escolha múltipla': 44, 'Cloze': 13, 'Relaciona as palavras': 2, 'Verdadeiro ou falso': 7, 'Forma frases': 8, 'Traduzir': 4, 'Escrita': 1}
+[PASS] title-VOOR OF TEGEN?　A F: ink right 1850.5 clearance +11.5
+[PASS] italic-print==web==1: print=1 web=1
+text.md diff vs backup: 293 changed lines (+/- count)
+    -1. [A2 · complete] Duitsland – Nederland begint maandag om ___ uur. — Resposta: 20:45（Alemanha–Países Baixos: pontapé inicial segunda-feira às 20:45）
+    -2. [A2 · complete] Oranje speelt maandag in ___ tegen Duitsland. — Resposta: Berlijn（O jogo é em Berlim）
+    -3. [A2 · complete] Nederland en Griekenland hebben allebei ___ punten. — Resposta: 8（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    -4. [A2 · complete] De intocht in Amsterdam was op zondag ___ november. — Resposta: 15（A chegada a Amesterdão é no domingo, 15 de novembro）
+    -5. [A2 · complete] Pakjesavond is op zaterdag ___ december. — Resposta: 5（O Pakjesavond é a 5 de dezembro）
+    -6. [B1 · complete] Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — Resposta: maakte（Os Países Baixos marcaram 7 golos）
+    +1. [A2 · Completa a frase] Duitsland – Nederland begint maandag om ___ uur. — Resposta: 20:45（Alemanha–Países Baixos: pontapé inicial segunda-feira às 20:45）
+    +2. [A2 · Completa a frase] Oranje speelt maandag in ___ tegen Duitsland. — Resposta: Berlijn（O jogo é em Berlim）
+    +3. [A2 · Completa a frase] Nederland en Griekenland hebben allebei ___ punten. — Resposta: 8（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    +4. [A2 · Completa a frase] De intocht in Amsterdam was op zondag ___ november. — Resposta: 15（A chegada a Amesterdão é no domingo, 15 de novembro）
+    +5. [A2 · Completa a frase] Pakjesavond is op zaterdag ___ december. — Resposta: 5（O Pakjesavond é a 5 de dezembro）
+    +6. [B1 · Completa a frase] Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — Resposta: maakte（Os Países Baixos marcaram 7 golos）
+    -7. [A2 · choice] Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — Resposta: B（Alemanha–Países Baixos: pontapé inicial segunda-feira às 20:45）
+    -8. [A2 · choice] Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — Resposta: B（O jogo é no Olympiastadion de Berlim）
+    -9. [A2 · choice] Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — Resposta: C（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    -10. [A2 · choice] Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — Resposta: B（O Pakjesavond é no sábado, 5 de dezembro）
+    +7. [A2 · Escolha múltipla] Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — Resposta: B（Alemanha–Países Baixos: pontapé inicial segunda-feira às 20:45）
+    +8. [A2 · Escolha múltipla] Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — Resposta: B（O jogo é no Olympiastadion de Berlim）
+    +9. [A2 · Escolha múltipla] Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — Resposta: C（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    +10. [A2 · Escolha múltipla] Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — Resposta: B（O Pakjesavond é no sábado, 5 de dezembro）
+    -11. [A2 · choice] Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — Resposta: B（Sinterklaas chegou a Grave e a Amesterdão no fim de semana passado）
+    -12. [A2 · choice] De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — Resposta: B（A cenoura no sapato é para o cavalo）
+    -13. [A2 · choice] Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — Resposta: C（O Pakjesavond é a 5 de dezembro）
+    -14. [A2 · choice] Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — Resposta: A（Um surprise é um presente disfarçado）
+    -15. [A2 · choice] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — Resposta: B（O noticiário de Sinterklaas é todos os dias às 18:00）
+    +11. [A2 · Escolha múltipla] Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — Resposta: B（Sinterklaas chegou a Grave e a Amesterdão no fim de semana passado）
+    +12. [A2 · Escolha múltipla] De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — Resposta: B（A cenoura no sapato é para o cavalo）
+    +13. [A2 · Escolha múltipla] Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — Resposta: C（O Pakjesavond é a 5 de dezembro）
+    +14. [A2 · Escolha múltipla] Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — Resposta: A（Um surprise é um presente disfarçado）
+    +15. [A2 · Escolha múltipla] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — Resposta: B（O noticiário de Sinterklaas é todos os dias às 18:00）
+    -16. [A2 · complete] Kinderen zetten hun ___ bij de deur. — Resposta: schoen（schoen = sapato） [Complete]
+    -17. [A2 · complete] In de schoen zit een ___ voor het paard. — Resposta: wortel（wortel = cenoura） [Complete]
+    -18. [A2 · complete] Op het ___ staan drie wensen. — Resposta: verlanglijstje（verlanglijstje = lista de desejos） [Complete]
+    -19. [A2 · complete] Bij de surprise hoort een ___. — Resposta: gedicht（gedicht = poema） [Complete]
+    -20. [A2 · complete] Pakjesavond is op ___ december. — Resposta: 5（O Pakjesavond é a 5 de dezembro） [Complete]
+    +16. [A2 · Completa a frase] Kinderen zetten hun ___ bij de deur. — Resposta: schoen（schoen = sapato） [Complete]
+    +17. [A2 · Completa a frase] In de schoen zit een ___ voor het paard. — Resposta: wortel（wortel = cenoura） [Complete]
+    +18. [A2 · Completa a frase] Op het ___ staan drie wensen. — Resposta: verlanglijstje（verlanglijstje = lista de desejos） [Complete]
+    +19. [A2 · Completa a frase] Bij de surprise hoort een ___. — Resposta: gedicht（gedicht = poema） [Complete]
+    +20. [A2 · Completa a frase] Pakjesavond is op ___ december. — Resposta: 5（O Pakjesavond é a 5 de dezembro） [Complete]
+    -21. [A2 · complete] Het paard van Sinterklaas heet ___. — Resposta: Ozosnel（O cavalo de Sinterklaas chama-se Ozosnel） [Complete]
+    -22. [A2 · complete] Van 16 november tot 5 december: ___ dagen. — Resposta: 19（De 16 de novembro a 5 de dezembro são 19 dias） [Complete]
+    -23. [A2 · complete] Het Sinterklaasjournaal is om ___ uur. — Resposta: 18:00（O noticiário de Sinterklaas às 18:00） [Complete]
+    -24. [A2 · complete] Pakjesavond is in ___. — Resposta: december（O Pakjesavond é em dezembro） [Complete]
+    +21. [A2 · Completa a frase] Het paard van Sinterklaas heet ___. — Resposta: Ozosnel（O cavalo de Sinterklaas chama-se Ozosnel） [Complete]
+    +22. [A2 · Completa a frase] Van 16 november tot 5 december: ___ dagen. — Resposta: 19（De 16 de novembro a 5 de dezembro são 19 dias） [Complete]
+    +23. [A2 · Completa a frase] Het Sinterklaasjournaal is om ___ uur. — Resposta: 18:00（O noticiário de Sinterklaas às 18:00） [Complete]
+    +24. [A2 · Completa a frase] Pakjesavond is in ___. — Resposta: december（O Pakjesavond é em dezembro） [Complete]
+    -25–28. [A2 · matching] Ligue palavra-significado
+    +25–28. [A2 · Relaciona as palavras] Ligue palavra-significado
+    -26. de wortel — eten voor het paard van Sinterklaas (Resposta c · wortel = cenoura c)
+    +26. de wortel — eten voor Sinterklaas' paard (Resposta c · wortel = cenoura c)
+    -29. [A2 · choice] De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — Resposta: B（A chegada nacional é em Grave）
+    -30. [A2 · choice] De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — Resposta: B（O barco atraca na Maaskade por volta das 12:00）
+    -31. [A2 · choice] De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — Resposta: C（O barco de Amesterdão parte de De Omval às 10:15）
+    -32. [A2 · choice] De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — Resposta: A（A chegada a Amesterdão é a 88.ª edição）
+    -33. [A2 · choice] Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — Resposta: B（Het diner levanta-se grátis na biblioteca）
+    +29. [A2 · Escolha múltipla] De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — Resposta: B（A chegada nacional é em Grave）
+    +30. [A2 · Escolha múltipla] De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — Resposta: B（O barco atraca na Maaskade por volta das 12:00）
+    +31. [A2 · Escolha múltipla] De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — Resposta: C（O barco de Amesterdão parte de De Omval às 10:15）
+    +32. [A2 · Escolha múltipla] De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — Resposta: A（A chegada a Amesterdão é a 88.ª edição）
+    +33. [A2 · Escolha múltipla] Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — Resposta: B（Het diner levanta-se grátis na biblioteca）
+    -34. [A2 · complete] Grave is een oude ___ aan de Maas. — Resposta: vestingstad（vestingstad = cidade fortificada） [Complete]
+    -35. [B1 · complete] Burgemeester Moorman ___ Sinterklaas in Grave. — Resposta: ontving（ontvangen no passado: ontving） [Complete]
+    -36. [B1 · complete] Sinterklaas kreeg de ___ van de stad. — Resposta: sleutel（sleutel = chave） [Complete]
+    -37. [B1 · complete] Het was de 88e ___ van de Amsterdamse intocht. — Resposta: editie（editie = edição） [Complete]
+    -38. [A2 · complete] In de bibliotheek is er een ___ over Het diner. — Resposta: leeskring（leeskring = círculo de leitura） [Complete]
+    +34. [A2 · Completa a frase] Grave is een oude ___ aan de Maas. — Resposta: vestingstad（vestingstad = cidade fortificada） [Complete]
+    +35. [B1 · Completa a frase] Burgemeester Moorman ___ Sinterklaas in Grave. — Resposta: ontving（ontvangen no passado: ontving） [Complete]
+    +36. [B1 · Completa a frase] Sinterklaas kreeg de ___ van de stad. — Resposta: sleutel（sleutel = chave） [Complete]
+    +37. [B1 · Completa a frase] Het was de 88e ___ van de Amsterdamse intocht. — Resposta: editie（editie = edição） [Complete]
+    +38. [A2 · Completa a frase] In de bibliotheek is er een ___ over Het diner. — Resposta: leeskring（leeskring = círculo de leitura） [Complete]
+    -39. [B1 · complete] Sinterklaas ___ (aankomen) in Grave. — Resposta: is aangekomen（aankomen leva zijn: is aangekomen） [Complete]
+    -40. [B1 · complete] De burgemeester ___ (ontvangen) Sinterklaas. — Resposta: heeft ontvangen（ontvangen no perfeito: heeft ontvangen） [Complete]
+    -41. [B1 · complete] De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — Resposta: is gevaren（varen com zijn: is gevaren） [Complete]
+    -42. [B1 · complete] Veel mensen ___ (lezen) Het diner in november. — Resposta: hebben gelezen（lezen no perfeito: hebben gelezen） [Complete]
+    +39. [B1 · Completa a frase] Sinterklaas ___ (aankomen) in Grave. — Resposta: is aangekomen（aankomen leva zijn: is aangekomen） [Complete]
+    +40. [B1 · Completa a frase] De burgemeester ___ (ontvangen) Sinterklaas. — Resposta: heeft ontvangen（ontvangen no perfeito: heeft ontvangen） [Complete]
+    +41. [B1 · Completa a frase] De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — Resposta: is gevaren（varen com zijn: is gevaren） [Complete]
+    +42. [B1 · Completa a frase] Veel mensen ___ (lezen) Het diner in november. — Resposta: hebben gelezen（lezen no perfeito: hebben gelezen） [Complete]
+    -43. [B1 · complete] Van zaterdag 14 tot zondag 15 november: ___ dag. — Resposta: 1（De 14 a 15 de novembro é 1 dia） [Complete]
+    -44. [B1 · complete] Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — Resposta: 4（O programa de Grave, 12:00–16:00, dura 4 horas） [Complete]
+    -45. [B1 · complete] Van 16 november tot 5 december: ___ dagen. — Resposta: 19（De 16 de novembro a 5 de dezembro são 19 dias） [Complete]
+    -46. [B2 · complete] Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — Resposta: 17（Het diner é de 2009: há 17 anos em 2026） [Complete]
+    +43. [B1 · Completa a frase] Van zaterdag 14 tot zondag 15 november: ___ dag. — Resposta: 1（De 14 a 15 de novembro é 1 dia） [Complete]
+    +44. [B1 · Completa a frase] Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — Resposta: 4（O programa de Grave, 12:00–16:00, dura 4 horas） [Complete]
+    +45. [B1 · Completa a frase] Van 16 november tot 5 december: ___ dagen. — Resposta: 19（De 16 de novembro a 5 de dezembro são 19 dias） [Complete]
+    +46. [B2 · Completa a frase] Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — Resposta: 17（Het diner é de 2009: há 17 anos em 2026） [Complete]
+    +Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+    -47. [B1 · choice] Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — Resposta: C（Alemanha–Países Baixos, segunda-feira, em Berlim）
+    -48. [B1 · choice] Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — Resposta: B（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    -49. [B1 · choice] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Resposta: B（A Alemanha perdeu 0–1 em casa contra a Grécia）
+    -50. [B1 · choice] Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — Resposta: B（A 13.ª jornada da Eredivisie é a 21–22 de novembro）
+    -51. [B1 · choice] PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — Resposta: B（O PSV ganhou 2–5 ao Cambuur）
+    +47. [B1 · Escolha múltipla] Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — Resposta: C（Alemanha–Países Baixos, segunda-feira, em Berlim）
+    +48. [B1 · Escolha múltipla] Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — Resposta: B（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    +49. [B1 · Escolha múltipla] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Resposta: B（A Alemanha perdeu 0–1 em casa contra a Grécia）
+    +50. [B1 · Escolha múltipla] Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — Resposta: B（A 13.ª jornada da Eredivisie é a 21–22 de novembro）
+    +51. [B1 · Escolha múltipla] PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — Resposta: B（O PSV ganhou 2–5 ao Cambuur）
+    -52. [B1 · complete] Maandag valt de beslissing om de ___. — Resposta: groepswinst（groepswinst = vitória do grupo） [Complete]
+    -53. [B1 · complete] De nummers één en twee gaan naar de ___. — Resposta: kwartfinales（kwartfinale, plural: kwartfinales） [Complete]
+    -54. [B1 · complete] Oranje is nog ___ na vier wedstrijden. — Resposta: ongeslagen（ongeslagen = invicto） [Complete]
+    -55. [B1 · complete] Op de ___ staat Servië onderaan met 0 punten. — Resposta: stand（stand = classificação） [Complete]
+    -56. [B1 · complete] Na maandag is er geen ___ meer tot maart. — Resposta: interland（interland = jogo internacional） [Complete]
+    +52. [B1 · Completa a frase] Maandag valt de beslissing om de ___. — Resposta: groepswinst（groepswinst = vitória do grupo） [Complete]
+    +53. [B1 · Completa a frase] De nummers één en twee gaan naar de ___. — Resposta: kwartfinales（kwartfinale, plural: kwartfinales） [Complete]
+    +54. [B1 · Completa a frase] Oranje is nog ___ na vier wedstrijden. — Resposta: ongeslagen（ongeslagen = invicto） [Complete]
+    +55. [B1 · Completa a frase] Op de ___ staat Servië onderaan met 0 punten. — Resposta: stand（stand = classificação） [Complete]
+    +56. [B1 · Completa a frase] Na maandag is er geen ___ meer tot maart. — Resposta: interland（interland = jogo internacional） [Complete]
+    -57. [B1 · complete] Oranje ___ (spelen) 1–1 tegen Duitsland. — Resposta: speelde（spelen no passado: speelde） [Complete]
+    -58. [B1 · complete] PSV ___ (winnen) met 2–5 van Cambuur. — Resposta: won（winnen no passado: won） [Complete]
+    -59. [B1 · complete] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Resposta: verloor（verliezen no passado: verloor） [Complete]
+    -60. [B2 · complete] Twente en Ajax ___ (spelen) 2–2 gelijk. — Resposta: speelden（spelen no passado, plural: speelden） [Complete]
+    +57. [B1 · Completa a frase] Oranje ___ (spelen) 1–1 tegen Duitsland. — Resposta: speelde（spelen no passado: speelde） [Complete]
+    +58. [B1 · Completa a frase] PSV ___ (winnen) met 2–5 van Cambuur. — Resposta: won（winnen no passado: won） [Complete]
+    +59. [B1 · Completa a frase] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Resposta: verloor（verliezen no passado: verloor） [Complete]
+    +60. [B2 · Completa a frase] Twente en Ajax ___ (spelen) 2–2 gelijk. — Resposta: speelden（spelen no passado, plural: speelden） [Complete]
+    -61. [B1 · true or false] Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — Resposta: Waar（Verdadeiro: Alemanha–Países Baixos, segunda-feira às 20:45） [Verdadeiro ou falso?]
+    -62. [B1 · true or false] Servië heeft 8 punten in groep 2. Waar of niet waar? — Resposta: Niet waar（Falso: a Sérvia é última com 0 pontos） [Verdadeiro ou falso?]
+    -63. [B1 · true or false] PSV staat onderaan in de Eredivisie. Waar of niet waar? — Resposta: Niet waar（Falso: o PSV lidera a Eredivisie com 26 pontos） [Verdadeiro ou falso?]
+    -64. [B1 · true or false] Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — Resposta: Waar（Verdadeiro: o Heerenveen ganhou 5–3 ao Feyenoord） [Verdadeiro ou falso?]
+    +61. [B1 · Verdadeiro ou falso] Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — Resposta: Waar（Verdadeiro: Alemanha–Países Baixos, segunda-feira às 20:45） [Verdadeiro ou falso?]
+    +62. [B1 · Verdadeiro ou falso] Servië heeft 8 punten in groep 2. Waar of niet waar? — Resposta: Niet waar（Falso: a Sérvia é última com 0 pontos） [Verdadeiro ou falso?]
+    +63. [B1 · Verdadeiro ou falso] PSV staat onderaan in de Eredivisie. Waar of niet waar? — Resposta: Niet waar（Falso: o PSV lidera a Eredivisie com 26 pontos） [Verdadeiro ou falso?]
+    +64. [B1 · Verdadeiro ou falso] Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — Resposta: Waar（Verdadeiro: o Heerenveen ganhou 5–3 ao Feyenoord） [Verdadeiro ou falso?]
+    -65. [B1 · choice] Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — Resposta: B（O Robinson passa todos os domingos às 20:00 na RTL 4）
+    -66. [B1 · choice] Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — Resposta: A（19 concorrentes）
+    -67. [B1 · choice] De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — Resposta: C（O programa é filmado numa ilha deserta na Malásia）
+    -68. [B1 · choice] De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — Resposta: B（Os concorrentes passam 34 dias na ilha）
+    -69. [B1 · choice] Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — Resposta: A（Um presente disfarçado traz um poema）
+    +65. [B1 · Escolha múltipla] Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — Resposta: B（O Robinson passa todos os domingos às 20:00 na RTL 4）
+    +66. [B1 · Escolha múltipla] Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — Resposta: A（19 concorrentes）
+    +67. [B1 · Escolha múltipla] De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — Resposta: C（O programa é filmado numa ilha deserta na Malásia）
+    +68. [B1 · Escolha múltipla] De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — Resposta: B（Os concorrentes passam 34 dias na ilha）
+    +69. [B1 · Escolha múltipla] Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — Resposta: A（Um presente disfarçado traz um poema）
+    -70. [B1 · complete] Ik maak een ___ voor mijn vriendin. — Resposta: surprise（surprise = presente disfarçado (de)） [Complete]
+    -71. [B1 · complete] Camille Vanuxem is de ___ van het programma. — Resposta: verslaggever（verslaggever = repórter (de)） [Complete]
+    -72. [B1 · complete] Wie een ___ verliest, kan naar huis gaan. — Resposta: proef（proef = prova, desafio (de)） [Complete]
+    -73. [B1 · complete] In vier regels schrijf ik een ___. — Resposta: gedicht（gedicht = poema (het)） [Complete]
+    -74. [B1 · complete] Zondag is er een nieuwe ___ van Robinson. — Resposta: aflevering（aflevering = episódio） [Complete]
+    -75. [B1 · complete] Er zijn 19 ___ op het eiland. — Resposta: kandidaten（kandidaat, plural: kandidaten） [Complete]
+    +70. [B1 · Completa a frase] Ik maak een ___ voor mijn vriendin. — Resposta: surprise（surprise = presente disfarçado (de)） [Complete]
+    +71. [B1 · Completa a frase] Camille Vanuxem is de ___ van het programma. — Resposta: verslaggever（verslaggever = repórter (de)） [Complete]
+    +72. [B1 · Completa a frase] Wie een ___ verliest, kan naar huis gaan. — Resposta: proef（proef = prova, desafio (de)） [Complete]
+    +73. [B1 · Completa a frase] In vier regels schrijf ik een ___. — Resposta: gedicht（gedicht = poema (het)） [Complete]
+    +74. [B1 · Completa a frase] Zondag is er een nieuwe ___ van Robinson. — Resposta: aflevering（aflevering = episódio） [Complete]
+    +75. [B1 · Completa a frase] Er zijn 19 ___ op het eiland. — Resposta: kandidaten（kandidaat, plural: kandidaten） [Complete]
+    -76. [B1 · complete] Wie ___ (winnen) Expeditie Robinson, denk je? — Resposta: gaat winnen（gaat winnen = vai ganhar (só um palpite)） [Complete]
+    -77. [B1 · complete] Wij ___ (kijken) zondag naar de nieuwe aflevering. — Resposta: gaan kijken（wij → gaan + infinitivo kijken） [Complete]
+    -78. [B1 · complete] Zij ___ (maken) zondag een surprise voor pakjesavond. — Resposta: gaat maken（zij → gaat maken） [Complete]
+    -79. [B1 · complete] De kinderen ___ (schrijven) een gedicht van vier regels. — Resposta: gaan schrijven（zij (plural) → gaan schrijven） [Complete]
+    +76. [B1 · Completa a frase] Wie ___ (winnen) Expeditie Robinson, denk je? — Resposta: gaat winnen（gaat winnen = vai ganhar (só um palpite)） [Complete]
+    +77. [B1 · Completa a frase] Wij ___ (kijken) zondag naar de nieuwe aflevering. — Resposta: gaan kijken（wij → gaan + infinitivo kijken） [Complete]
+    +78. [B1 · Completa a frase] Zij ___ (maken) zondag een surprise voor pakjesavond. — Resposta: gaat maken（zij → gaat maken） [Complete]
+    +79. [B1 · Completa a frase] De kinderen ___ (schrijven) een gedicht van vier regels. — Resposta: gaan schrijven（zij (plural) → gaan schrijven） [Complete]
+    -80. [B1 · true or false] Expeditie Robinson begon op 1 november. Waar of niet waar? — Resposta: Waar（Verdadeiro: o programa começou a 1 de novembro） [Verdadeiro ou falso?]
+    -81. [B1 · true or false] Expeditie Robinson speelt in Spanje. Waar of niet waar? — Resposta: Niet waar（Falso: o programa é filmado na Malásia） [Verdadeiro ou falso?]
+    -82. [B2 · true or false] Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — Resposta: Niet waar（Falso: quatro versos chegam para um poema） [Verdadeiro ou falso?]
+    +80. [B1 · Verdadeiro ou falso] Expeditie Robinson begon op 1 november. Waar of niet waar? — Resposta: Waar（Verdadeiro: o programa começou a 1 de novembro） [Verdadeiro ou falso?]
+    +81. [B1 · Verdadeiro ou falso] Expeditie Robinson speelt in Spanje. Waar of niet waar? — Resposta: Niet waar（Falso: o programa é filmado na Malásia） [Verdadeiro ou falso?]
+    +82. [B2 · Verdadeiro ou falso] Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — Resposta: Niet waar（Falso: quatro versos chegam para um poema） [Verdadeiro ou falso?]
+    -### VOOR OF TEGEN?　A FAVOR OU CONTRA?
+    +### VOOR OF TEGEN?　A FAVOR / CONTRA
+    -83. [B2 · complete] ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — Resposta: 35（35 jovens põem uma cenoura e um desenho no sapato） [Complete]
+    -84. [B2 · complete] ___ jongeren zetten een verlanglijstje in hun schoen. — Resposta: 30（30 pessoas põem uma lista de desejos） [Complete]
+    -85. [B2 · complete] Wortel en verlanglijstje samen: ___ jongeren. — Resposta: 65（35 + 30 = 65） [Complete]
+    -86. [B2 · complete] ___ jongeren zetten nog niets in hun schoen. — Resposta: 15（15 pessoas ainda não põem nada） [Complete]
+    -87. [B2 · complete] De grafiek telt in totaal ___ jongeren. — Resposta: 100（O gráfico conta 100 pessoas no total: 35+30+20+15） [Complete]
+    +83. [B2 · Completa a frase] ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — Resposta: 35（35 jovens põem uma cenoura e um desenho no sapato） [Complete]
+    +84. [B2 · Completa a frase] ___ jongeren zetten een verlanglijstje in hun schoen. — Resposta: 30（30 pessoas põem uma lista de desejos） [Complete]
+    +85. [B2 · Completa a frase] Wortel en verlanglijstje samen: ___ jongeren. — Resposta: 65（35 + 30 = 65） [Complete]
+    +86. [B2 · Completa a frase] ___ jongeren zetten nog niets in hun schoen. — Resposta: 15（15 pessoas ainda não põem nada） [Complete]
+    +87. [B2 · Completa a frase] De grafiek telt in totaal ___ jongeren. — Resposta: 100（O gráfico conta 100 pessoas no total: 35+30+20+15） [Complete]
+    -88. [B2 · choice] Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — Resposta: B（Antes punha-se um desenho no sapato; agora, muitas vezes uma lista de des
+    -89. [B2 · choice] Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — Resposta: B（Um surprise é um presente escondido numa embalagem estranha）
+    -90. [B2 · choice] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — Resposta: C（O noticiário de Sinterklaas é todos os dias às 18:00）
+    -91. [B2 · choice] Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — Resposta: A（Uma tradição vive quando as pessoas continuam a celebrá-la）
+    -92. [B2 · choice] Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — Resposta: B（O dia de São Martinho foi na quarta-feira passada）
+    +88. [B2 · Escolha múltipla] Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — Resposta: B（Antes punha-se um desenho no sapato; agora, muitas vezes uma li
+    +89. [B2 · Escolha múltipla] Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — Resposta: B（Um surprise é um presente escondido numa embalagem estranha）
+    +90. [B2 · Escolha múltipla] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — Resposta: C（O noticiário de Sinterklaas é todos os dias às 18:00）
+    +91. [B2 · Escolha múltipla] Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — Resposta: A（Uma tradição vive quando as pessoas continuam a celebrá-la）
+    +92. [B2 · Escolha múltipla] Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — Resposta: B（O dia de São Martinho foi na quarta-feira passada）
+    -93. [B2 · complete] Op het ___ staan drie wensen. — Resposta: verlanglijstje（verlanglijstje = lista de desejos (het)） [Complete]
+    -94. [B2 · complete] Het cadeau zit verstopt in een ___. — Resposta: surprise（surprise = presente disfarçado (de)） [Complete]
+    -95. [B2 · complete] Bij het cadeau hoort een ___ van vier regels. — Resposta: gedicht（gedicht = poema (het)） [Complete]
+    -96. [B2 · complete] Het feest ___ elk jaar een beetje. — Resposta: verandert（veranderen → verandert (singular)） [Complete]
+    +93. [B2 · Completa a frase] Op het ___ staan drie wensen. — Resposta: verlanglijstje（verlanglijstje = lista de desejos (het)） [Complete]
+    +94. [B2 · Completa a frase] Het cadeau zit verstopt in een ___. — Resposta: surprise（surprise = presente disfarçado (de)） [Complete]
+    +95. [B2 · Completa a frase] Bij het cadeau hoort een ___ van vier regels. — Resposta: gedicht（gedicht = poema (het)） [Complete]
+    +96. [B2 · Completa a frase] Het feest ___ elk jaar een beetje. — Resposta: verandert（veranderen → verandert (singular)） [Complete]
+    -97. [B2 · make sentences] sinterklaas / is / een oud feest / in nederland → ___ — Resposta: Sinterklaas is een oud feest in Nederland.（Sujeito + verbo + complemento + lugar） [Forme a frase]
+    -98. [B2 · make sentences] de kinderen / zetten / hun schoen / bij de deur → ___ — Resposta: De kinderen zetten hun schoen bij de deur.（Sujeito + verbo + objeto + lugar） [Forme a frase]
+    -99. [B2 · make sentences] een traditie / leeft / als mensen haar blijven vieren → ___ — Resposta: Een traditie leeft als mensen haar blijven vieren.（A oração com als vem no fim） [Forme a frase]
+    -100. [B2 · make sentences] het feest / verandert / maar het verdwijnt niet → ___ — Resposta: Het feest verandert, maar het verdwijnt niet.（veranderen + maar + negação） [Forme a frase]
+    +97. [B2 · Forma frases] sinterklaas / is / een oud feest / in nederland → ___ — Resposta: Sinterklaas is een oud feest in Nederland.（Sujeito + verbo + complemento + lugar） [Forme a frase]
+    +98. [B2 · Forma frases] de kinderen / zetten / hun schoen / bij de deur → ___ — Resposta: De kinderen zetten hun schoen bij de deur.（Sujeito + verbo + objeto + lugar） [Forme a frase]
+    +99. [B2 · Forma frases] een traditie / leeft / als mensen haar blijven vieren → ___ — Resposta: Een traditie leeft als mensen haar blijven vieren.（A oração com als vem no fim） [Forme a frase]
+    +100. [B2 · Forma frases] het feest / verandert / maar het verdwijnt niet → ___ — Resposta: Het feest verandert, maar het verdwijnt niet.（veranderen + maar + negação） [Forme a frase]
+    -101. [A2 · complete] Duitsland – Nederland is een belangrijke ___. — Resposta: wedstrijd（de wedstrijd = jogo） [Complete]
+    -102. [A2 · complete] Wie pakt de ___ in groep 2? — Resposta: groepswinst（de groepswinst = vitória do grupo） [Complete]
+    -103. [A2 · choice] «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — Resposta: B（Vitória do grupo: terminar em primeiro no grupo）
+    -104. [A2 · complete] Nederland ___ (scoren) 7 keer in vier wedstrijden. — Resposta: scoorde（Passado de scoren: scoorde） [Complete]
+    +101. [A2 · Completa a frase] Duitsland – Nederland is een belangrijke ___. — Resposta: wedstrijd（de wedstrijd = jogo） [Complete]
+    +102. [A2 · Completa a frase] Wie pakt de ___ in groep 2? — Resposta: groepswinst（de groepswinst = vitória do grupo） [Complete]
+    +103. [A2 · Escolha múltipla] «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — Resposta: B（Vitória do grupo: terminar em primeiro no grupo）
+    +104. [A2 · Completa a frase] Nederland ___ (scoren) 7 keer in vier wedstrijden. — Resposta: scoorde（Passado de scoren: scoorde） [Complete]
+    -105. [B1 · complete] PSV ___ (winnen) met 2–5 van Cambuur. — Resposta: won（winnen no passado: won） [Complete]
+    -106. [B1 · complete] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Resposta: verloor（verliezen no passado: verloor） [Complete]
+    -107. [B1 · complete] Ajax ___ (spelen) 2–2 tegen Twente. — Resposta: speelde（spelen no passado: speelde） [Complete]
+    -108. [B1 · choice] «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — Resposta: B（won é o passado de winnen）
+    +105. [B1 · Completa a frase] PSV ___ (winnen) met 2–5 van Cambuur. — Resposta: won（winnen no passado: won） [Complete]
+    +106. [B1 · Completa a frase] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — Resposta: verloor（verliezen no passado: verloor） [Complete]
+    +107. [B1 · Completa a frase] Ajax ___ (spelen) 2–2 tegen Twente. — Resposta: speelde（spelen no passado: speelde） [Complete]
+    +108. [B1 · Escolha múltipla] «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — Resposta: B（won é o passado de winnen）
+    -109. [B2 · complete] Oranje staat bovenaan, ___ het meer doelpunten maakte. — Resposta: omdat（omdat = porque） [Complete]
+    -110. [B2 · choice] «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — Resposta: B（Uma oração com omdat dá um motivo, não uma pergunta）
+    -111. [B2 · complete] Ik zet mijn schoen, omdat ik een cadeautje ___. — Resposta: wil（O verbo vai para o fim da oração com omdat: wil） [Complete]
+    -112. [B2 · complete] Oranje staat bovenaan, omdat het meer doelpunten ___. — Resposta: maakte（Na oração com omdat, maakte fica no fim） [Complete]
+    +109. [B2 · Completa a frase] Oranje staat bovenaan, ___ het meer doelpunten maakte. — Resposta: omdat（omdat = porque） [Complete]
+    +110. [B2 · Escolha múltipla] «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — Resposta: B（Uma oração com omdat dá um motivo, não uma pergunta）
+    +111. [B2 · Completa a frase] Ik zet mijn schoen, omdat ik een cadeautje ___. — Resposta: wil（O verbo vai para o fim da oração com omdat: wil） [Complete]
+    +112. [B2 · Completa a frase] Oranje staat bovenaan, omdat het meer doelpunten ___. — Resposta: maakte（Na oração com omdat, maakte fica no fim） [Complete]
+    -113. [B1 · cloze choice] Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — Resposta: B（Alemanha–Países Baixos, segunda-feira, em Berlim）
+    -114. [B1 · cloze choice] Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — Resposta: B（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    -115. [B1 · cloze choice] Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — Resposta: A（Os Países Baixos marcaram 7 golos）
+    -116. [B1 · cloze choice] Pakjesavond is op ___ december. (A. november · B. december) — Resposta: B（O Pakjesavond é em dezembro）
+    -117. [B1 · cloze choice] Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — Resposta: B（O noticiário de Sinterklaas às 18:00）
+    -118. [B1 · cloze choice] Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — Resposta: B（Robinson passa na RTL 4）
+    -119. [B1 · cloze choice] Bij een surprise hoort een ___. (A. liedje · B. gedicht) — Resposta: B（Um presente disfarçado traz um poema）
+    -120. [B1 · cloze choice] «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — Resposta: B（groepswinst = vitória do grupo）
+    +113. [B1 · Cloze] Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — Resposta: B（Alemanha–Países Baixos, segunda-feira, em Berlim）
+    +114. [B1 · Cloze] Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — Resposta: B（Os Países Baixos e a Grécia têm ambos 8 pontos）
+    +115. [B1 · Cloze] Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — Resposta: A（Os Países Baixos marcaram 7 golos）
+    +116. [B1 · Cloze] Pakjesavond is op ___ december. (A. november · B. december) — Resposta: B（O Pakjesavond é em dezembro）
+    +117. [B1 · Cloze] Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — Resposta: B（O noticiário de Sinterklaas às 18:00）
+    +118. [B1 · Cloze] Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — Resposta: B（Robinson passa na RTL 4）
+    +119. [B1 · Cloze] Bij een surprise hoort een ___. (A. liedje · B. gedicht) — Resposta: B（Um presente disfarçado traz um poema）
+    +120. [B1 · Cloze] «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — Resposta: B（groepswinst = vitória do grupo）
+    -121. [A2 · choice] Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — Resposta: A（As notícias do Sinterklaas passam todos os dias às 18:00）
+    -122. [A2 · choice] Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — Resposta: B（Grave fica no rio Maas）
+    -123. [A2 · choice] De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — Resposta: B（A chegada a Amesterdão é a 88.ª edição）
+    -124. [B1 · choice] Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — Resposta: A（Het diner foi publicado em 2009）
+    -125. [B1 · choice] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Resposta: B（A Alemanha perdeu 0–1 em casa contra a Grécia）
+    -126. [B1 · choice] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Resposta: B（O PSV lidera a Eredivisie com 26 pontos）
+    -127. [B2 · choice] Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — Resposta: B（Uma tradição vive quando as pessoas continuam a celebrá-la）
+    -128. [B1 · choice] Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — Resposta: C（A 13.ª jornada da Eredivisie é a 21–22 de novembro）
+    +121. [A2 · Escolha múltipla] Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — Resposta: A（As notícias do Sinterklaas passam todos os dias às 18:00）
+    +122. [A2 · Escolha múltipla] Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — Resposta: B（Grave fica no rio Maas）
+    +123. [A2 · Escolha múltipla] De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — Resposta: B（A chegada a Amesterdão é a 88.ª edição）
+    +124. [B1 · Escolha múltipla] Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — Resposta: A（Het diner foi publicado em 2009）
+    +125. [B1 · Escolha múltipla] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Resposta: B（A Alemanha perdeu 0–1 em casa contra a Grécia）
+    +126. [B1 · Escolha múltipla] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Resposta: B（O PSV lidera a Eredivisie com 26 pontos）
+    +127. [B2 · Escolha múltipla] Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — Resposta: B（Uma tradição vive quando as pessoas continuam a celebrá-la）
+    +128. [B1 · Escolha múltipla] Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — Resposta: C（A 13.ª jornada da Eredivisie é a 21–22 de novembro）
+    -129. [A2 · choice] Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — Resposta: B（Daan vive em Roterdão）
+    -130. [A2 · choice] Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — Resposta: B（Na segunda-feira vê Alemanha–Países Baixos）
+    -131. [A2 · choice] Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — Resposta: B（Põe uma cenoura e uma lista de desejos no sapato）
+    -132. [B1 · choice] Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — Resposta: B（Vê as notícias do Sinterklaas todos os dias às 18:00）
+    +129. [A2 · Escolha múltipla] Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — Resposta: B（Daan vive em Roterdão）
+    +130. [A2 · Escolha múltipla] Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — Resposta: B（Na segunda-feira vê Alemanha–Países Baixos）
+    +131. [A2 · Escolha múltipla] Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — Resposta: B（Põe uma cenoura e uma lista de desejos no sapato）
+    +132. [B1 · Escolha múltipla] Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — Resposta: B（Vê as notícias do Sinterklaas todos os dias às 18:00）
+    -133. [A2 · make sentences] het sinterklaasjournaal / begint / om 18:00 uur → ___ — Resposta: Het Sinterklaasjournaal begint om 18:00 uur.（S + V + tempo） [Forme a frase]
+    -134. [B1 · make sentences] wij / zetten / onze schoen / bij de deur → ___ — Resposta: Wij zetten onze schoen bij de deur.（S + V + O + lugar） [Forme a frase]
+    -135. [B1 · make sentences] oranje / speelt / maandag / in berlijn → ___ — Resposta: Oranje speelt maandag in Berlijn.（S + V + tempo + lugar） [Forme a frase]
+    -136. [B1 · make sentences] ik / zet / mijn schoen / met een wortel → ___ — Resposta: Ik zet mijn schoen met een wortel.（S + V + O + modo） [Forme a frase]
+    +133. [A2 · Forma frases] het sinterklaasjournaal / begint / om 18:00 uur → ___ — Resposta: Het Sinterklaasjournaal begint om 18:00 uur.（S + V + tempo） [Forme a frase]
+    +134. [B1 · Forma frases] wij / zetten / onze schoen / bij de deur → ___ — Resposta: Wij zetten onze schoen bij de deur.（S + V + O + lugar） [Forme a frase]
+    +135. [B1 · Forma frases] oranje / speelt / maandag / in berlijn → ___ — Resposta: Oranje speelt maandag in Berlijn.（S + V + tempo + lugar） [Forme a frase]
+    +136. [B1 · Forma frases] ik / zet / mijn schoen / met een wortel → ___ — Resposta: Ik zet mijn schoen met een wortel.（S + V + O + modo） [Forme a frase]
+    -137. [A2 · translate] Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — Resposta: As notícias do Sinterklaas passam todos os dias às 18:00.（Compara com o artigo da página 3） [Traduzir para português]
+    -138. [B1 · translate] De nummers één en twee gaan naar de kwartfinales. → ___ — Resposta: Os dois primeiros passam aos quartos de final.（Frase original da página 4 · kwartfinale = quartos de final） [Traduzir para portug
+    -139. [B1 · translate] A chegada a Amesterdão é a 88.ª edição. → ___ — Resposta: De intocht in Amsterdam was de 88e editie.（Ordinal 88e） [Traduzir para neerlandês]
+    -140. [B2 · translate] Faço uma surprise com um poema curto. → ___ — Resposta: Ik maak een surprise met een gedicht.（surprise é uma expressão fixa） [Traduzir para neerlandês]
+    +137. [A2 · Traduzir] Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — Resposta: As notícias do Sinterklaas passam todos os dias às 18:00.（Compara com o artigo da página 3） [Traduzir para português]
+    +138. [B1 · Traduzir] De nummers één en twee gaan naar de kwartfinales. → ___ — Resposta: Os dois primeiros passam aos quartos de final.（Frase original da página 4 · kwartfinale = quartos de final） [Traduzir para portugu
+    +139. [B1 · Traduzir] A chegada a Amesterdão é a 88.ª edição. → ___ — Resposta: De intocht in Amsterdam was de 88e editie.（Ordinal 88e） [Traduzir para neerlandês]
+    +140. [B2 · Traduzir] Faço uma surprise com um poema curto. → ___ — Resposta: Ik maak een surprise met een gedicht.（surprise é uma expressão fixa） [Traduzir para neerlandês]
+    -141–144. [B2 · matching] Palavra e significado
+    +141–144. [B2 · Relaciona as palavras] Palavra e significado
+    -145. [B1 · cloze choice] — Mama, waar moet mijn ___? (A. schoen · B. boek) — Resposta: A（schoen = sapato）
+    -146. [B1 · cloze choice] — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — Resposta: A（wortel = cenoura (para o cavalo)）
+    -147. [B1 · cloze choice] — En mijn ___ erin? (A. verlanglijstje · B. journaal) — Resposta: A（verlanglijstje = lista de desejos）
+    -148. [B1 · cloze choice] — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — Resposta: B（cadeautje = presentinho）
+    -149. [B1 · cloze choice] — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — Resposta: A（18:00 = a hora das notícias do Sinterklaas）
+    +145. [B1 · Cloze] — Mama, waar moet mijn ___? (A. schoen · B. boek) — Resposta: A（schoen = sapato）
+    +146. [B1 · Cloze] — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — Resposta: A（wortel = cenoura (para o cavalo)）
+    +147. [B1 · Cloze] — En mijn ___ erin? (A. verlanglijstje · B. journaal) — Resposta: A（verlanglijstje = lista de desejos）
+    +148. [B1 · Cloze] — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — Resposta: B（cadeautje = presentinho）
+    +149. [B1 · Cloze] — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — Resposta: A（18:00 = a hora das notícias do Sinterklaas）
+    -150. [B1 · writing] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Resposta: (tarefa aberta, texto modelo abaixo)（Vê o t
+    +150. [B1 · Escrita] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Resposta: (tarefa aberta, texto modelo abaixo)（Vê o t
+RESULT: ALL PASS

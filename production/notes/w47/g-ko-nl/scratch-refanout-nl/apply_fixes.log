@@ -1,0 +1,69 @@
+[de] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[en] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[es] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[fr] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[it] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[ja] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[ko] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[pt] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[ru] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[zh-tw] core D3+D5
+  content12.py: '"eten voor het paard van Sinterklaas"' -> '"eten voor Sinterklaas\' paard"' (1x)
+  content34.py: inserted D5 standings line after Speelronde 12
+[en] proof2 D1: shorten P1 word note to one line
+  content12.py: '\'"Group win": first place in the group, stra' -> '\'"Group win": first in the group.\'' (1x)
+[de] proof1 D1/D2 + O2 box-title shortenings
+  content12.py: '"IN DEZE EDITIE\u3000IN DIESER AUSGABE"' -> '"IN DEZE EDITIE\u3000AUSGABE"' (1x)
+  content12.py: '"ZO ONTHOUD JE HET\u3000MERK ES DIR"' -> '"ZO ONTHOUD JE HET\u3000MERK DIR"' (1x)
+  content56.py: '"VOOR OF TEGEN?\u3000DAFÜR ODER DAGEGEN?"' -> '"VOOR OF TEGEN?\u3000DAFÜR / DAGEGEN"' (1x)
+[fr] proof1 D1/D2 box titles + D4 curly quotes -> straight
+  content7.py: '"HET WOORD\u3000LE MOT DE LA SEMAINE"' -> '"HET WOORD\u3000MOT DE LA SEMAINE"' (1x)
+  content56.py: '"VOOR OF TEGEN?\u3000POUR OU CONTRE ?"' -> '"VOOR OF TEGEN?\u3000POUR OU CONTRE"' (1x)
+  content7.py: U+2019 -> U+0027 (4x)
+  content8.py: U+2019 -> U+0027 (4x)
+[es] proof1 D1/D2 box titles + D6 Q140 key + O2 EN JIJ pads
+  content56.py: '"VOOR OF TEGEN?\u3000¿A FAVOR O EN CONTRA?"' -> '"VOOR OF TEGEN?\u3000¿SÍ O NO?"' (1x)
+  content7.py: '"HET WOORD\u3000PALABRA DE LA SEMANA"' -> '"HET WOORD\u3000PALABRA SEMANAL"' (1x)
+  content8.py: '"Ik maak een surprise met een gedicht.", "su' -> '"Ik maak een surprise met een kort gedicht."' (1x)
+  content12.py: EN JIJ box bottom pad +20 -> +22
+  content56.py: EN JIJ box bottom pad +20 -> +22
+[it] proof1 D1 box title + D3 curly quotes -> straight
+  content7.py: '"HET WOORD\u3000PAROLA DELLA SETTIMANA"' -> '"HET WOORD\u3000PAROLA"' (1x)
+  content7.py: U+2019 -> U+0027 (1x)
+  content8.py: U+2019 -> U+0027 (3x)
+[pt] proof1 D1 box title + D4 type-name localization + O1 EN JIJ pad
+  content56.py: '"VOOR OF TEGEN?\u3000A FAVOR OU CONTRA?"' -> '"VOOR OF TEGEN?\u3000A FAVOR / CONTRA"' (1x)
+  content12.py: EN JIJ box bottom pad +20 -> +22
+[mechanism] trans_table.py pt TYPES row -> Portuguese (it-pt aligned)
+  trans_table.py: ' "pt": {"完成句子": "complete", "单选": "choice", ' -> ' "pt": {"完成句子": "Completa a frase", "单选": "E' (1x)
+  content12.py: localized 25 English type tokens
+  content34.py: localized 36 English type tokens
+  content56.py: localized 36 English type tokens
+  content7.py: localized 12 English type tokens
+  content8.py: localized 36 English type tokens
+[ko] proof1 D7: reflow EN JIJ gloss (drop '함께' so '.' follows 보내세요)
+Traceback (most recent call last):
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-nl/apply_fixes.py", line 168, in <module>
+    rep(os.path.join(ed("ko"), "content12.py"),
+  File "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-refanout-nl/apply_fixes.py", line 41, in rep
+    assert n == expect, f"{path}: expected {expect}x {old!r}, found {n}"
+           ^^^^^^^^^^^
+AssertionError: /home/hatch/workspace/weekly-git/production/2026-w47/fanout-nl/2026-w47-nl-ko/content12.py: expected 1x '소원 목록과 함께 신발을 내놓을 건가요, 아니면 Pakjesavond를 위해 시를 쓸 건가요? 네덜란드어로 두 문장을 써서 편집부에 보내세요.', found 2

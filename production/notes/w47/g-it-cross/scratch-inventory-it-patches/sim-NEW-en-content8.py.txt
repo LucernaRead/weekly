@@ -1,0 +1,30 @@
+--- 
++++ 
+@@ -66,20 +66,20 @@
+ f.ex("B1", "Make sentences", "Il torrone si assaggia a Cremona.", "Subject + verb + place",
+      "il torrone / si assaggia / a Cremona → ___", instr="Make sentences", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Translate", "For Madonna della Salute, people cross the votive bridge.", "Compare with the original",
++f.ex("A2", "翻译", "For Madonna della Salute, people cross the votive bridge.", "Compare with the original",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Translate into English", size=15.5, gap=1)
+-f.ex("B1", "Translate", "On Sunday evening, Atalanta play Inter.", "si gioca = is played",
++f.ex("B1", "翻译", "On Sunday evening, Atalanta play Inter.", "si gioca = is played",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Translate into English", size=15.5, gap=1)
+-f.ex("B1", "Translate", "On Saturday, Lazio play Lecce at home.", "in casa = at home",
++f.ex("B1", "翻译", "On Saturday, Lazio play Lecce at home.", "in casa = at home",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Translate into English", size=15.5, gap=1)
+-f.ex("B2", "Translate", "Ogni cifra deve essere chiara.", "dovere = must",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = must",
+      "Every figure must be clear. → ___", instr="Translate into Italian", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Match words",
+             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
+-            ["un livello di reddito del sistema fiscale",
+-             "i soldi che pagano una misura",
+-             "la differenza tra spese ed entrate",
++            ["la parte del sistema fiscale, un livello di reddito",
++             "i soldi che pagano una misura, la sua fonte",
++             "la differenza tra spese ed entrate, in rosso",
+              "la legge di bilancio, il documento dello Stato"],
+             ["d", "c", "b", "a"],
+             ["manovra = budget bill, d", "deficit = deficit, c", "copertura = funding, b", "scaglione = tax bracket, a"],

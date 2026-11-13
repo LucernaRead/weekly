@@ -1,0 +1,21 @@
+PASS occlusion 0 flags | /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ko/svg: 0 flags
+PASS p8 extract noted count | noted=150 rc=0
+PASS p8 compare vs core | verdict=CLEAN keydiffs=[137, 138, 139]
+PASS freeze diff fragments explained by translations/furniture (P1-7) | unexplained_add=[] unexplained_rem=[]
+PASS freeze diff report present | pages=['1', '2', '3', '4', '5', '6', '7', '8']
+PASS print/web text multiset identical | print_words=7414 web_words=7414 chars_equal=True word_diff=[] []
+PASS web PDF < 7MB | 1607490 bytes
+PASS print PDF size sane | 19296912 bytes
+PASS P8 min font >= 13px (9.75pt) | min=13.0
+PASS paper #fbfaf6 present
+PASS no gold/brick/near-black | hits=[]
+PASS no VOL.5 in furniture (only preview/disclosure) | VOL.5 text nodes=3
+PASS VOL.4 present | count=9
+PASS badge colours A2/B1/B2
+PASS no double outer frame | full-page rects=0
+INFO '·' total occurrences in SVGs: 151 (core had them only in options/gloss lists)
+PASS textmd validate | 2026-w47-it-ko forward-miss: 0 reverse-miss: 0
+PASS answers count 150 | edition=150 core=150
+PASS keys 1-150 match core (except 137-139 re-aimed, writing) | mismatches=[]
+PASS notes match translations.py (except 137-140 + writing) | mismatches=[] table_gaps=[]
+GATES ALL PASS

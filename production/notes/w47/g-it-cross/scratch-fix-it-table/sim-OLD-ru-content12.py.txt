@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -68,7 +68,7 @@
+ p.rect(gx, gy, gw, 700, fill=BOX)
+ p.text(gx + 22, gy + 40, "LA SETTIMANA", 27, "sans", True, OLIVE)
+ p.text(gx + 22, gy + 76, "GIORNO PER GIORNO", 27, "sans", True, OLIVE)
+-p.text(gx + 22, gy + 106, "Неделя　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
++p.text(gx + 22, gy + 106, "На этой неделе　Cosa succede, giorno per giorno", 19, "sans", False, GREY)
+ sett = [
+     "LUN 16 — Manovra in Parlamento: emendamenti entro il 17, ore 18.",
+     "MAR 17 — Scade il termine per gli emendamenti.",
+@@ -87,7 +87,7 @@
+ # ---- sommario (col 3) ----
+ sy = 1312
+ p.rect(gx, sy, gw, 340, fill=BOX)
+-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　СОДЕРЖ.", 24, "sans", True, OLIVE)
++p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　СОДЕРЖАНИЕ", 24, "sans", True, OLIVE)
+ som = [
+     ("Pag. 2", "Venezia e gli alberi", "A2"),
+     ("Pag. 3", "Torrone e cioccolato", "A2→B1"),

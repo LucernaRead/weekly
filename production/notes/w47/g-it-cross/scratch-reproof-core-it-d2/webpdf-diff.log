@@ -1,0 +1,8 @@
+lens: 1790600 1790596
+n differing bytes in overlap: 1304736 first: 219038 last: 1790595
+mine ctx : b" 20 0 R\n>>\nendobj\n20 0 obj\n<<\n/Filter /FlateDecode\n/Length1 3096\n/Length 1975\n>>\nstream\nx\x9c\xddVkl\x1cW\x15>w\xe6\xce\x9d\x99}x\xdf;k\xaf\xd7\x99\xf5c'^\xaf\xbd~\xaf\xed\xf8\x19\xaf\x9d\xc4vR\xbbnSoJb\xbb\x8e\x1d\xdb\xd4\xe08\x0e2\x81\xa4\x0e\x02T6%}\xb8-M\x14\x8a\x03\x82RH\xe9"
+ship ctx : b" 20 0 R\n>>\nendobj\n20 0 obj\n<<\n/Filter /FlateDecode\n/Length1 3096\n/Length 1975\n>>\nstream\nx\x9c\xddVkl\x1cW\x15>w\xe6\xce\x9d\x99}x\xdf;k\xaf\xd7\x99\xf5c'^\xaf\xbd~\xaf\xed\xd8\x8e\x1d\xaf\x9d\xc4vR\xbb\xee\xc3\x1bpl\xd7\xb1c\x9b\x1a\x1c\xc7A&\x90\xd4\xa9\x00\x85M\xdfnK\x13\x85\xe2\x80\xa0\x14R\xba"
+mine last obj before diff: b'20 0 obj'
+mine tail before diff: b"cAngle 0\n/Ascent 784\n/Descent -250\n/CapHeight 908\n/StemV 80\n/StemH 80\n/FontFile2 20 0 R\n>>\nendobj\n20 0 obj\n<<\n/Filter /FlateDecode\n/Length1 3096\n/Length 1975\n>>\nstream\nx\x9c\xddVkl\x1cW\x15>w\xe6\xce\x9d\x99}x\xdf;k\xaf\xd7\x99\xf5c'^\xaf\xbd~\xaf\xed"
+ship last obj before diff: b'20 0 obj'
+ship tail before diff: b"cAngle 0\n/Ascent 784\n/Descent -250\n/CapHeight 908\n/StemV 80\n/StemH 80\n/FontFile2 20 0 R\n>>\nendobj\n20 0 obj\n<<\n/Filter /FlateDecode\n/Length1 3096\n/Length 1975\n>>\nstream\nx\x9c\xddVkl\x1cW\x15>w\xe6\xce\x9d\x99}x\xdf;k\xaf\xd7\x99\xf5c'^\xaf\xbd~\xaf\xed"

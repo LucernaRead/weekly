@@ -1,0 +1,44 @@
+== p1-capa.svg
+  box x=989..1412 title y=823.2 pdf-ink-right=1400 clear=+12 | 'A SEMANA EM NÚMEROS\u3000En cifras'
+  box x=1440..1862 title y=628.0 pdf-ink-right=1730 clear=+132 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title y=1278.4 pdf-ink-right=1840 clear=+22 | 'NESTA EDIÇÃO\u3000En este número'
+  box x=1440..1862 title y=1914.0 pdf-ink-right=1865 clear=-3  <<<< PDF-RENDER OVERFLOW | 'EM POUCAS PALAVRAS\u3000EN BREVE'
+== p2-vida.svg
+  box x=538..961 title y=642.0 pdf-ink-right=863 clear=+98 | 'PARA NÃO ERRAR\u3000La regla'
+  box x=538..961 title y=896.5 pdf-ink-right=937 clear=+24 | 'Nota — o feriadão tres días de fiesta · a'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1610 clear=+252 | 'VOCÊ SABIA?'
+  box x=1440..1862 title y=587.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+  box x=88..510 title y=1658.0 pdf-ink-right=407 clear=+104 | 'o feriado começa'
+  box x=538..961 title y=1658.0 pdf-ink-right=939 clear=+22 | 'Palmeiras × Flamengo, às'
+  box x=989..1412 title y=1658.0 pdf-ink-right=1309 clear=+102 | 'o fim do feriadão'
+  box x=1440..1862 title y=1658.0 pdf-ink-right=1797 clear=+65 | 'tudo volta ao normal'
+== p3-cultura.svg
+  box x=538..961 title y=238.5 pdf-ink-right=869 clear=+92 | 'Nota — o quilombo un pueblo de'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1701 clear=+161 | 'A SEMANA, DIA A DIA'
+  box x=1440..1862 title y=619.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+  box x=1440..1862 title y=948.0 pdf-ink-right=1716 clear=+146 | 'PALAVRAS DA MEMÓRIA'
+== p4-esporte.svg
+  box x=989..1412 title y=309.0 pdf-ink-right=1371 clear=+40 | 'Nota — o agregado el marcador global'
+  box x=1440..1862 title y=240.0 pdf-ink-right=1629 clear=+233 | 'OS FINALISTAS'
+  box x=1440..1862 title y=644.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+== p5-jovens.svg
+  box x=538..961 title y=237.0 pdf-ink-right=787 clear=+174 | 'O PLANO DA ESPERA'
+  box x=538..961 title y=872.9 pdf-ink-right=891 clear=+70 | 'Nota — o gabarito la clave · oficial'
+  box x=1440..1862 title y=242.0 pdf-ink-right=1760 clear=+102 | 'OS JOVENS EM NÚMEROS'
+  box x=1440..1862 title y=581.0 pdf-ink-right=1706 clear=+156 | 'E VOCÊ?\u3000Habla de ti'
+== p6-aprofundamento.svg
+  box x=538..961 title y=381.9 pdf-ink-right=925 clear=+36 | 'Nota — o prazo el plazo · o dia útil día'
+  box x=1440..1862 title y=240.0 pdf-ink-right=1771 clear=+91 | 'O CAMINHO ATÉ O GABARITO'
+  box x=1440..1862 title y=908.0 pdf-ink-right=1669 clear=+193 | 'LER OS NÚMEROS'
+  box x=88..961 title y=1634.0 pdf-ink-right=456 clear=+505 | 'A CONTAGEM\u3000do dia 16 ao dia 30'
+  box x=989..1862 title y=1634.0 pdf-ink-right=1313 clear=+549 | 'DOIS GABARITOS\u3000um exame'
+== p7-lingua.svg
+  box x=1440..1862 title y=242.0 pdf-ink-right=1750 clear=+112 | 'ERROS COMUNS\u3000Errores'
+  box x=1440..1862 title y=1229.0 pdf-ink-right=1724 clear=+138 | 'A PALAVRA\u3000La palabra'
+  box x=1440..1862 title y=1525.0 pdf-ink-right=1719 clear=+143 | 'CARTAS DOS LEITORES'
+== p8-avaliacao.svg
+PDF-RENDER TITLE OVERFLOWS: 1
+D1 P1 EM-BREVE bottom 2348: last ink row <= bottom: 2331; dark rows below bottom: {2349: 422, 2350: 422, 2369: 2, 2370: 4, 2371: 17, 2372: 26, 2373: 15, 2374: 13, 2375: 166, 2376: 214, 2377: 112, 2378: 113, 2379: 132, 2380: 177, 2381: 113, 2382: 105, 2383: 112, 2384: 179, 2385: 192, 2386: 10, 2387: 10, 2388: 10, 2389: 13, 2390: 8}
+D2 P3 schedule bottom 551: last ink row <= bottom: 539; dark rows below bottom: {}
+D3 P6 timeline bottom 854: last ink row <= bottom: 844; dark rows below bottom: {}
+DONE

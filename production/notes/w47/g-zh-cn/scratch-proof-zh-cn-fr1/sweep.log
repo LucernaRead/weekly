@@ -1,0 +1,12 @@
+pages: 8  flags: 3  title-rows: 179
+  p1-touiban.svg: texts=441 containers=16 images=1 flags=2
+  p2-shenghuo.svg: texts=337 containers=26 images=1 flags=1
+  p3-wenhua.svg: texts=278 containers=21 images=1 flags=0
+  p4-tiyu.svg: texts=488 containers=19 images=1 flags=0
+  p5-qingnian.svg: texts=281 containers=20 images=1 flags=0
+  p6-shendu.svg: texts=308 containers=23 images=0 flags=0
+  p7-ciyu.svg: texts=336 containers=17 images=1 flags=0
+  p8-ceyan.svg: texts=817 containers=39 images=1 flags=0
+FLAG BOX_OVERFLOW p1-touiban.svg '数字看本周\u3000Cette semaine en chiffres' right ink 978.8 > edge 961.0
+FLAG BOX_OVERFLOW p1-touiban.svg 'Bouclage : 10 nov. — la finale pas encore jouée' right ink 1869.5 > edge 1862.0
+FLAG BOX_OVERFLOW p2-shenghuo.svg '本周生活小日历\u3000Dates de la semaine' right ink 1414.8 > edge 1411.5

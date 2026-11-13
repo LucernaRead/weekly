@@ -1,0 +1,48 @@
+CJK font exists: False
+[]
+[]
+runs:
+  x=586.3 fam=Noto Sans 'ЕЖЕНЕДЕЛЬНАЯ'
+  x=712.3 fam=Noto Sans CJK SC '  '
+  x=719.5 fam=Noto Sans 'ГАЗЕТА'
+  x=773.2 fam=Noto Sans CJK SC '  '
+  x=780.4 fam=Noto Sans 'ДЛЯ'
+  x=813.0 fam=Noto Sans CJK SC '  '
+  x=820.2 fam=Noto Sans 'ИЗУЧАЮЩИХ'
+  x=928.4 fam=Noto Sans CJK SC '  '
+  x=935.5 fam=Noto Sans 'РУССКИЙ'
+  x=1009.4 fam=Noto Sans CJK SC '  '
+  x=1016.6 fam=Noto Sans 'ЯЗЫК'
+  x=1059.8 fam=Noto Sans CJK SC '  '
+  x=1067.0 fam=Noto Sans CJK SC '—  '
+  x=1088.4 fam=Noto Sans 'НАСТОЯЩАЯ'
+  x=1189.0 fam=Noto Sans CJK SC '  '
+  x=1196.2 fam=Noto Sans 'РОССИЯ'
+  x=1260.8 fam=Noto Sans CJK SC ',  '
+  x=1272.4 fam=Noto Sans 'ПО'
+  x=1296.6 fam=Noto Sans CJK SC '-'
+  x=1302.1 fam=Noto Sans 'РУССКИ'
+letter-spacing attrs: {None}
+run 'ЕЖЕНЕДЕЛЬНАЯ': svg_x=586.3 pred_x=586.3 (diff 0.0) ink=[586.3, 712.3] adv=126.0
+run '  ': svg_x=712.3 pred_x=712.3 (diff 0.0) ink=[712.3, 720.3] adv=8.3
+run 'ГАЗЕТА': svg_x=719.5 pred_x=720.6 (diff 1.1) ink=[720.6, 775.6] adv=53.8
+run '  ': svg_x=773.2 pred_x=774.4 (diff 1.2) ink=[774.4, 782.4] adv=8.3
+run 'ДЛЯ': svg_x=780.4 pred_x=782.7 (diff 2.3) ink=[782.7, 815.7] adv=32.6
+run '  ': svg_x=813.0 pred_x=815.3 (diff 2.3) ink=[815.3, 823.3] adv=8.3
+run 'ИЗУЧАЮЩИХ': svg_x=820.2 pred_x=823.6 (diff 3.4) ink=[823.6, 932.6] adv=108.2
+run '  ': svg_x=928.4 pred_x=931.8 (diff 3.4) ink=[931.8, 939.8] adv=8.3
+run 'РУССКИЙ': svg_x=935.5 pred_x=940.2 (diff 4.7) ink=[940.2, 1014.2] adv=73.9
+run '  ': svg_x=1009.4 pred_x=1014.0 (diff 4.6) ink=[1014.0, 1022.0] adv=8.3
+run 'ЯЗЫК': svg_x=1016.6 pred_x=1022.3 (diff 5.7) ink=[1022.3, 1065.3] adv=43.2
+run '  ': svg_x=1059.8 pred_x=1065.6 (diff 5.8) ink=[1065.6, 1073.6] adv=8.3
+run '—  ': svg_x=1067.0 pred_x=1073.9 (diff 6.9) ink=[1073.9, 1097.9] adv=24.3
+run 'НАСТОЯЩАЯ': svg_x=1088.4 pred_x=1098.2 (diff 9.8) ink=[1098.2, 1199.2] adv=100.6
+run '  ': svg_x=1189.0 pred_x=1198.8 (diff 9.8) ink=[1198.8, 1206.8] adv=8.3
+run 'РОССИЯ': svg_x=1196.2 pred_x=1207.1 (diff 10.9) ink=[1207.1, 1272.1] adv=64.6
+run ',  ': svg_x=1260.8 pred_x=1271.7 (diff 10.9) ink=[1271.7, 1284.7] adv=12.6
+run 'ПО': svg_x=1272.4 pred_x=1284.3 (diff 11.9) ink=[1284.3, 1308.3] adv=24.2
+run '-': svg_x=1296.6 pred_x=1308.5 (diff 11.9) ink=[1308.5, 1313.5] adv=5.2
+run 'РУССКИ': svg_x=1302.1 pred_x=1313.7 (diff 11.6) ink=[1313.7, 1375.7] adv=61.6
+gaps (prev, next, gap): [('ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 8.3), ('ГАЗЕТА', 'ДЛЯ', 8.3), ('ДЛЯ', 'ИЗУЧАЮЩИХ', 8.3), ('ИЗУЧАЮЩИХ', 'РУССКИЙ', 8.3), ('РУССКИЙ', 'ЯЗЫК', 8.3), ('ЯЗЫК', '—  ', 8.3), ('—  ', 'НАСТОЯЩАЯ', 0.0), ('НАСТОЯЩАЯ', 'РОССИЯ', 8.3), ('РОССИЯ', ',  ', 0.0), (',  ', 'ПО', 0.0), ('ПО', '-', 0.0), ('-', 'РУССКИ', 0.0)]
+min gap: 0.0 n gaps: 12
+KICKER FAIL

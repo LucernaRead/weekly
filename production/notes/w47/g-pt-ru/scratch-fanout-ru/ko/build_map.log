@@ -1,0 +1,5 @@
+ko: map lit 303 type 8 instr 9 key 8
+PROBLEMS:
+   OVERRIDE lit 'гололедица = 路面结冰': TM 'гололедица = 노면 결빙' vs authored 'гололедица = 도로 결빙'
+   OVERRIDE lit 'мокрый снег = 湿雪': TM 'мокрый снег = 젖은 눈' vs authored 'мокрый снег = 진눈깨비'
+   OVERRIDE lit '答案见第8版\u3000题目可跨级混排，按题号找答案': TM '답은 8면\u3000수준이 섞일 수 있으니 번호로 찾으세요' vs authored '정답은 8면\u3000난이도가 섞여 있을 수 있으니 번호로 찾으세요'

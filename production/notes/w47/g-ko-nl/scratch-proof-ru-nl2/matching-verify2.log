@@ -1,0 +1,50 @@
+=== p2-zhizn ===
+  right a. 'День психолога' -> rendered on lines y=[2124.0]
+  right b. 'День студента' -> rendered on lines y=[2162.0]
+  right c. 'Всемирный день ребёнка' -> rendered on lines y=[2200.0]
+  right d. 'день рождения Деда Мороза' -> rendered on lines y=[2238.0]
+  stem Q25 '17 ноября' key=b rendered: y=[1968.0]
+  stem Q26 '18 ноября' key=d rendered: y=[2005.0]
+  stem Q27 '20 ноября' key=c rendered: y=[2042.0]
+  stem Q28 '22 ноября' key=a rendered: y=[2079.0]
+  expected pairing (stem->right letter): Q25:b, Q26:d, Q27:c, Q28:a
+=== p3-kultura ===
+  right a. 'человек, который смотрит фильм' -> rendered on lines y=[1896.0]
+  right b. 'фильм о жизни реального человека' -> rendered on lines y=[1967.0]
+  right c. 'показ фильма в кинотеатре' -> rendered on lines y=[2038.0]
+  right d. 'фильм о реальных событиях' -> rendered on lines y=[2076.0]
+  stem Q39 'биография' key=b rendered: y=[1740.0]
+  stem Q40 'документальный' key=d rendered: y=[1777.0]
+  stem Q41 'сеанс' key=c rendered: y=[1814.0]
+  stem Q42 'зритель' key=a rendered: y=[1851.0]
+  expected pairing (stem->right letter): Q39:b, Q40:d, Q41:c, Q42:a
+=== p4-sport ===
+  right a. 'проиграл «Рубину» 0:1' -> rendered on lines y=[]
+  right b. 'победил ЦСКА 4:2' -> rendered on lines y=[]
+  right c. 'победил «Акрон» 2:1' -> rendered on lines y=[2428.4]
+  right d. 'сыграл с «Ростовом» 2:2' -> rendered on lines y=[2466.4]
+  stem Q57 '«Локомотив»' key=b rendered: y=[2196.4]
+  stem Q58 '«Краснодар»' key=a rendered: y=[2233.4]
+  stem Q59 '«Спартак»' key=c rendered: y=[2270.4]
+  stem Q60 '«Зенит»' key=d rendered: y=[2307.4]
+  expected pairing (stem->right letter): Q57:b, Q58:a, Q59:c, Q60:d
+=== p5-molodezh ===
+  right a. 'код со скидкой' -> rendered on lines y=[2421.0]
+  right b. 'товар возвращают в магазин' -> rendered on lines y=[2459.0]
+  right c. 'цена ниже обычной' -> rendered on lines y=[2497.0]
+  right d. 'большая продажа со скидками' -> rendered on lines y=[2535.0]
+  stem Q75 'распродажа' key=d rendered: y=[2265.0]
+  stem Q76 'возврат' key=b rendered: y=[2302.0]
+  stem Q77 'промокод' key=a rendered: y=[2339.0]
+  stem Q78 'скидка' key=c rendered: y=[2376.0]
+  expected pairing (stem->right letter): Q75:d, Q76:b, Q77:a, Q78:c
+=== p8-test ===
+  right a. 'тепло зимой: снег тает' -> rendered on lines y=[]
+  right b. 'большая продажа со скидками' -> rendered on lines y=[]
+  right c. 'результат матча' -> rendered on lines y=[]
+  right d. 'лёд на дороге' -> rendered on lines y=[]
+  stem Q141 'оттепель' key=c rendered: y=[585.2]
+  stem Q142 'распродажа' key=d rendered: y=[622.2]
+  stem Q143 'счёт' key=a rendered: y=[659.2]
+  stem Q144 'гололедица' key=b rendered: y=[696.2]
+  expected pairing (stem->right letter): Q141:c, Q142:d, Q143:a, Q144:b

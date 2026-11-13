@@ -1,0 +1,15 @@
+answers parsed from text.md: 84 numbers: 1 - 149 missing: [5, 6, 19, 31, 32, 33, 36, 37, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 74, 75, 76, 77, 78, 79, 80, 81, 97, 98, 99, 101, 102, 104, 110, 116, 117, 118, 119, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 140, 150]
+registry-vs-textmd mismatches: [(5, 'changed', ''), (6, 'January', ''), (19, 'Will they watch the jungle on Monday?', ''), (31, 'B', ''), (32, 'A', ''), (33, 'C', ''), (36, 'twice', ''), (37, 'jungle', ''), (44, 'Rousseau painted jungles he never saw.', ''), (45, 'ITV chose Monday for the launch.', ''), (46, 'A', ''), (47, 'C', ''), (48, 'B', ''), (49, 'A', ''), (50, 'C', ''), (51, 'B', ''), (52, 'hosted', ''), (53, 'lasts', ''), (56, 'b', ''), (57, 'c', ''), (58, 'd', ''), (59, 'a', ''), (60, 'England lost 4–0 in 2021–22.', ''), (61, 'Australia lost their first Test at the ground.', ''), (62, 'The last series ended in a draw in 2023.', ''), (63, 'India beat Australia by 295 runs.', ''), (64, 'B', ''), (65, 'A', ''), (66, 'C', ''), (67, 'B', ''), (68, 'A', ''), (69, 'C', ''), (70, 'silence', ''), (71, 'socks', ''), (74, 'd', ''), (75, 'a', ''), (76, 'b', ''), (77, 'c', ''), (78, 'Schools are wearing odd socks today.', ''), (79, 'Children are speaking up this week.', ''), (80, 'We are listening to every child.', ''), (81, 'She is sitting with a new friend.', ''), (97, 'takes', ''), (98, 'differs', ''), (99, 'official', ''), (101, 'more', ''), (102, 'lost', ''), (104, 'published', ''), (110, 'Correct: 254 is more than 218.', ''), (116, 'writes', ''), (117, 'will certify', ''), (118, 'wears', ''), (119, 'will watch', ''), (125, 'A', ''), (126, 'B', ''), (127, 'A', ''), (128, 'C', ''), (129, 'B', ''), (130, 'A', ''), (131, 'C', ''), (132, 'B', ''), (133, 'will meet', ''), (134, 'won', ''), (135, 'more', ''), (140, '침묵을 깨라.', ''), (150, '열린 문제 — 기준은 쓰기 칸에, 모범 답안은 8면 쓰기 칸 안에', '')]
+hanja chars in text.md: 0 []
+SVG orphan-line-start hits: 0
+text.md orphan-line-start hits: 0 []
+  banned 'SOP': 0
+  banned 'proofread': 0
+  banned 'cover': 0
+  banned 'lint': 0
+  banned 'github': 0
+  banned 'TODO': 0
+  banned 'placeholder': 0
+  banned '占位': 0
+  banned 'bridge': 0
+curly double open: 81 close: 81 ascii apostrophe: 40 U+2019: 0

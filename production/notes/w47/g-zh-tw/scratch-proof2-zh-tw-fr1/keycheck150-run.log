@@ -1,0 +1,4 @@
+parsed counts: ed-svg=150 core-svg=150 textmd=150
+mismatches: [150]
+150 {'ed': '✓ Tâche ouverte|', 'core': '✓ Open task - the model answer is printed in section F above (142|', 'md': '✓ Tâche ouverte|', 'ed_note': 'la réponse modèle est imprimée ci-dessus, section F (142 caractères) Lucerna\u3000繁體中文週報 VOL.4\u3000繁體中文正文\u3000法語講解 Page 8 sur 8', 'md_note': 'la réponse modèle est imprimée ci-dessus, section F (142 caractères) Lucerna\u3000繁體中文週報 VOL.4\u3000繁體中文正文\u3000法語講解 Page 8 sur 8', 'status': 'ANS-ed-vs-core:✓ Tâche ouverte/✓ Open task - the model answer is printed in section F above (142;ANS-core-vs-md:✓ Open task - the model answer is printed in section F above (142/✓ Tâche ouverte'}
+wrote keycheck-150.json

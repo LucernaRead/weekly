@@ -1,0 +1,35 @@
+PASS p1-voorpagina.svg paper rect
+PASS p1-voorpagina.svg level chips in LV set (10 chips)
+  p1-voorpagina.svg VOL.4: 3
+  p1-voorpagina.svg VOL.5: 0
+PASS p2-leven.svg paper rect
+PASS p2-leven.svg level chips in LV set (15 chips)
+  p2-leven.svg VOL.4: 1
+  p2-leven.svg VOL.5: 1
+PASS p3-cultuur.svg paper rect
+PASS p3-cultuur.svg level chips in LV set (18 chips)
+  p3-cultuur.svg VOL.4: 1
+  p3-cultuur.svg VOL.5: 0
+PASS p4-sport.svg paper rect
+PASS p4-sport.svg level chips in LV set (18 chips)
+  p4-sport.svg VOL.4: 1
+  p4-sport.svg VOL.5: 0
+PASS p5-jongeren.svg paper rect
+PASS p5-jongeren.svg level chips in LV set (18 chips)
+  p5-jongeren.svg VOL.4: 1
+  p5-jongeren.svg VOL.5: 0
+PASS p6-verdieping.svg paper rect
+PASS p6-verdieping.svg level chips in LV set (18 chips)
+  p6-verdieping.svg VOL.4: 1
+  p6-verdieping.svg VOL.5: 0
+PASS p7-taal.svg paper rect
+PASS p7-taal.svg level chips in LV set (12 chips)
+  p7-taal.svg VOL.4: 1
+  p7-taal.svg VOL.5: 4
+PASS p8-toets.svg paper rect
+PASS p8-toets.svg level chips in LV set (35 chips)
+  p8-toets.svg VOL.4: 1
+  p8-toets.svg VOL.5: 0
+fill colours used: ['#302c28', '#34483A', '#37402f', '#46581f', '#4D72B4', '#4F765D', '#5c6e30', '#6f675d', '#7898CD', '#84A283', '#D7B257', '#EDD17F', '#F1E8D4', '#cac8ba', '#f0eee5', '#f4efe1', '#f6e08e', '#fbfaf6', '#ffffff']
+PASS p4 introduces no new fill colour (fix5 scope) — []
+FAILURES: none

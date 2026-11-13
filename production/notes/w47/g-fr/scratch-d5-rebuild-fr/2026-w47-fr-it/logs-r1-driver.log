@@ -1,0 +1,102 @@
+[2026-w47-fr-it/r1] run.py
+  !! HEAD TOO WIDE [P6-ex]: LIRE LE CALENDRIER　ORARIO
+  !! HEAD TOO WIDE [P6-opinion]: IL EST PRÉVU QUE + SUBJONCTIF
+  !! HEAD TOO WIDE [P6-micro]: LE COMPARATIF EN POLITIQUE
+  !! HEAD TOO WIDE [P7-B2]: IL EST PRÉVU QUE + SUBJONCTIF
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+FLOW_OVERFLOW count: 0
+HEAD_TOO_WIDE count: 4
+[2026-w47-fr-it/r1] render.py
+render rc=0
+[2026-w47-fr-it/r1] webpdf.py
+webpdf rc=0
+  font LucernaNotoSansCJKSC-Bold: 18304 bytes
+  font LucernaNotoSerifCJKSC-Regular: 23444 bytes
+  font LucernaNotoSerifCJKSC-Bold: 24092 bytes
+  font LucernaUnifrakturMaguntia-Regular: 31912 bytes
+WROTE La-Lucerna-VOL4-fr-it-web.pdf: 1316445 bytes, 46618 text bytes
+[2026-w47-fr-it/r1] shas
+-rw-rw---- 1 root nogroup  1316445 Nov 12 09:31 La-Lucerna-VOL4-fr-it-web.pdf
+-rw-rw---- 1 root nogroup 11958423 Nov 12 09:30 La-Lucerna-VOL4-fr-it.pdf
+797f6a38467ba5611d31c7877bfe477192c23189d9a32af34d787a5dfb6cf12e  La-Lucerna-VOL4-fr-it.pdf
+1d93721ce2334aa27ddc418194141df76cf75cb61036635e642b4f2f9ae08537  La-Lucerna-VOL4-fr-it-web.pdf
+fac32b0bbf28a1b1a7a7365620de5348501fa49b7295816414522bd85ca25919  2026-w47-fr-it.text.md
+[2026-w47-fr-it/r1] text layers print vs web
+TEXTLAYER print==web BYTE-IDENTICAL
+print chars 101384 web chars 101384
+multiset diff total 0
+only-in-print {} only-in-web {}
+[2026-w47-fr-it/r1] occlusion
+occlusion rc=1
+svg/: 1 flags {'TEXTX': 1}
+  [TEXTX] p1-une.svg 'ALCARAZ GAGNE PARIS, LE SÉNAT VOTE MERCREDI' — ink overlaps 'ALCARAZ VINCE' by 156.8x20.8px
+[2026-w47-fr-it/r1] p8 extract
+p8extract rc=0
+svg/p8-exercices.svg: noted set = 121 of 150 (parse: joined)
+  set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+[2026-w47-fr-it/r1] p8 compare vs core-fr
+p8compare-core rc=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-fr/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150]
+[2026-w47-fr-it/r1] p8 compare vs pre-fix baseline
+p8compare-pre rc=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-fr/2026-w47-fr-it/baseline/svg/p8-exercices.svg: 121 noted
+edition svg/p8-exercices.svg: 121 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+[2026-w47-fr-it/r1] freeze baseline
+freeze-baseline rc=0
+  OK  p7-langue.svg core 028ba3cc0641a199 produced 028ba3cc0641a199
+  OK  p8-exercices.svg core 0f0623e815fd6683 produced 0f0623e815fd6683
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+[2026-w47-fr-it/r1] freeze diff vs core-fr
+freeze-diff rc=0
+p1: +57 strings / -55 strings; CJK core 224 -> edition 35; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+p2: +74 strings / -92 strings; CJK core 283 -> edition 34; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 53 (unexpected 53)
+p3: +57 strings / -77 strings; CJK core 194 -> edition 20; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 40 (unexpected 40)
+p4: +70 strings / -77 strings; CJK core 236 -> edition 29; added CJK chars: 0 ; added Latin strings: 52 (unexpected 52)
+p5: +59 strings / -70 strings; CJK core 243 -> edition 23; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+p6: +47 strings / -57 strings; CJK core 227 -> edition 23; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+p7: +57 strings / -79 strings; CJK core 411 -> edition 15; added CJK chars: 0 ; added Latin strings: 44 (unexpected 44)
+p8: +344 strings / -569 strings; CJK core 1220 -> edition 192; added CJK chars: 10 {'\u3000': 10}; added Latin strings: 215 (unexpected 215)
+TOTAL added CJK characters: 13
+TOTAL added Latin strings: 517 (unexpected 517)
+p5: +59 strings / -70 strings; CJK core 243 -> edition 23; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 45 (unexpected 45)
+p6: +47 strings / -57 strings; CJK core 227 -> edition 23; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+p7: +57 strings / -79 strings; CJK core 411 -> edition 15; added CJK chars: 0 ; added Latin strings: 44 (unexpected 44)
+p8: +344 strings / -569 strings; CJK core 1220 -> edition 192; added CJK chars: 10 {'\u3000': 10}; added Latin strings: 215 (unexpected 215)
+TOTAL added CJK characters: 13
+TOTAL added Latin strings: 517 (unexpected 517)
+[2026-w47-fr-it/r1] boxtitle
+boxtitle rc=1
+  P4 [TITLE] DEFECT over=+36.5px (right) core=-1.5 backup=None | regression vs core (core -1.5px) | 'LES PHRASES DU COMMENTATEUR'
+  P5 [TITLE] DEFECT over=+57.3px (right) core=-14.6 backup=None | regression vs core (core -14.6px) | 'CINEMA'
+  P6 [TITLE] DEFECT over=+18.7px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'CALENDARIO DEL BILANCIO (VOTO MERCOLEDÌ)'
+  P6 [TITLE] DEFECT over=+24.5px (right) core=-12.5 backup=None | regression vs core (core -12.5px) | 'TROIS DATES POUR COMPRENDRE'
+BOXTITLE 2026-w47-fr-it: 43 titles, 281 body lines, 6 DEFECT, 0 OBSERVE, 0 marginal
+[2026-w47-fr-it/r1] creambox
+creambox rc=1
+p6-politique.svg: els 214->245 lines 164->164 diff 0 moved 16 defects 2 observe 0
+  DEFECT abs box#1 y=1370.0 'CALENDARIO DEL BILANCIO (VOTO MERCOLEDÌ)' over={'right': 18.7}
+  DEFECT abs box#3 y=1367.0 'TROIS DATES POUR COMPRENDRE' over={'right': 24.5}
+p7-langue.svg: els 192->224 lines 120->120 diff 2 moved 13 defects 0 observe 0
+p8-exercices.svg: els 324->685 lines 196->200 diff 84 moved 48 defects 0 observe 0
+ratios: n=520 median=1.017 boldT=1.056 boldF=0.998
+P8 p8-exercices.svg: lines 196->200 slack_footer 38.1->44.3
+CREAMBOX FAIL 6 defects
+[2026-w47-fr-it/r1] spill
+spill rc=0
+P7 box=(989.0,1878.0,873.0,380.0) bottom=2258.0
+   BELOW +58.00px x=1739.7 y=2316.0 [observe] 'VOL.5'
+SPILL_SWEEP 2026-w47-fr-it: 33 boxes, 107 candidates, 0 SPILL, 107 OBSERVE
+[2026-w47-fr-it/r1] edge scan
+edge rc=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-fr-it: 8 pages, 0 TOUCH, 0 NEAR
+[2026-w47-fr-it/r1] census
+census rc=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+=== SUMMARY 2026-w47-fr-it/r1 FAILFLAG=0 (rcs above; 0=pass) ===

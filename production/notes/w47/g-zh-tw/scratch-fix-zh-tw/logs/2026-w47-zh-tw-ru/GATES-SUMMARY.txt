@@ -1,0 +1,81 @@
+===== fix 2026-w47-zh-tw-ru 2026-11-12T16:08:13Z =====
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch
+TOTAL 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check RC=0
+HEAD CHECK PASS 0 defects
+checks.py RC=0
+CHART p4 [90.0, 450.0, 900.0] expect [90.0, 450.0, 900.0]
+CHART p6 dots [188.0, 695.21, 948.82, 1033.36, 1202.43] expect [188.0, 695.21, 948.82, 1033.36, 1202.43]
+CHECKS PASS
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/Lucerna-VOL4-RU-web.pdf
+text.md restored from D5 backup, pre-fix SHA12=2fb4b97ef37d
+text.md patch RC=0
+text.md patched: 1 line
+text.md diff vs shipped pre-fix:
+5205c5205
+< 「迪士尼聖誕，從
+---
+> 「香港迪士尼聖誕，從
+fresh-export pre-vs-post diff:
+5559c5559
+< 「迪士尼聖誕，從
+---
+> 「香港迪士尼聖誕，從
+quote-check RC=0
+fixed-quote total=2 (expect 2) p7=1 (expect 1) p5=1 (expect 1) bare=0 (expect 0)
+svg changed vs pre-fix: p7-lang.svg  (expect only p7-lang.svg)
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw/svg/p8-test.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+freeze baseline RC=0
+  OK  p8-test.svg core 4506ae922b1fe7e5 produced 4506ae922b1fe7e5
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff vs pre-fix RC=0
+p7: +1 strings / -1 strings; CJK core 817 -> edition 819; added CJK chars: 2 {'港': 1, '香': 1}; added Latin strings: 0 (unexpected 0)
+p8: +0 strings / -0 strings; CJK core 1109 -> edition 1109; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+TOTAL added CJK characters: 2
+TOTAL added Latin strings: 0 (unexpected 0)
+added CJK vs pre-fix: {'港': 1, '香': 1}
+spill RC=0
+   ABOVE -24.48px x=1461.5 y=1159.1 [observe] 'X, тем больше Y. Составьте фразу.'
+SPILL_SWEEP 2026-w47-zh-tw-ru: 36 boxes, 146 candidates, 0 SPILL, 146 OBSERVE
+boxtitle RC=0
+== 2026-w47-zh-tw-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw/scratch-fanout-fix/backup/2026-w47-zh-tw-ru
+BOXTITLE 2026-w47-zh-tw-ru: 42 titles, 703 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-zh-tw-ru: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=127 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-test.svg: lines 172->172 slack_footer 35.7->35.7
+CREAMBOX PASS 0 defects
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=5 curly_in_newsreader=5 noto_sans_elements=1014
+CENSUS PASS
+quotes census RC=0 (0 = 0 defects)
+    Newsreader (ok): U+201Cx5
+GRAND TOTAL defective: 0
+eb3fd9aae5e20a23cec347bee2830e8a867cf2eaaa63fa29a9752b88bdecabb7  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/Lucerna-VOL4-RU.pdf
+16a6d20a755eec2e5a39587085469df55bb8d1455234b0203b9121955d7c1c3e  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/Lucerna-VOL4-RU-web.pdf
+2070994 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/Lucerna-VOL4-RU-web.pdf
+11366471 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/Lucerna-VOL4-RU.pdf
+post-print chars=24962 post-web chars=24962 pre-print chars=24960
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={'香': 1, '港': 1} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK FAIL
+textcheck-adapted RC=0
+print-vs-web added={} removed={}
+pre-vs-post-print added={'香': 1, '港': 1} removed={}
+TEXTCHECK-ADAPTED PASS
+ea9c1514df967cd8e8a324d2037c6c15460a33b451318bc07b09d7e764a81c32  /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-ru/2026-w47-zh-tw-ru.text.md
+P8 lines/slack: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 926, 'last_baselines': [2529.8, 2529.8, 2557.3, 2557.3, 2557.3, 2557.3], 'last_strings': ['市集', '.', '38. ', '鹽埕', ' ', '— Яньчэн — один из районов фестиваля.'], 'max_ink_bottom': 2560.3, 'slack_to_footer_rule_2596': 35.7, 'slack_to_page_bottom_2700': 139.7}, 'patch': {'n_flow_elements': 926, 'last_baselines': [2529.8, 2529.8, 2557.3, 2557.3, 2557.3, 2557.3], 'last_strings': ['市集', '.', '38. ', '鹽埕', ' ', '— Яньчэн — один из районов фестиваля.'], 'max_ink_bottom': 2560.3, 'slack_to_footer_rule_2596': 35.7, 'slack_to_page_bottom_2700': 139.7}, 'lines_base': 172, 'lines_patch': 172}
+OVERALL: ALL-GREEN

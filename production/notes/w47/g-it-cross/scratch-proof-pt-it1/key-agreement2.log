@@ -1,0 +1,21 @@
+inline parsed: 150 missing: []
+respostas parsed: 143 missing: [11, 29, 47, 65, 83, 101, 113]
+Q150 printed='✓' respostas='✓ Vedi il testo modello nella sezione H di questa pagina (88 parole)' ok=True
+mismatches: 14
+(10, 'printed-vs-respostas', 'B', 'B\n\n**Página 2** — 11. B')
+(11, 'printed-vs-respostas', 'B', '')
+(28, 'printed-vs-respostas', 'd', 'd\n\n**Página 3** — 29. C')
+(29, 'printed-vs-respostas', 'C', '')
+(46, 'printed-vs-respostas', 'Palmares foi o maior quilombo do Brasil.', 'Palmares foi o maior quilombo do Brasil.\n\n**Página 4** — 47. A')
+(47, 'printed-vs-respostas', 'A', '')
+(64, 'printed-vs-respostas', 'foram', 'foram\n\n**Página 5** — 65. B')
+(65, 'printed-vs-respostas', 'B', '')
+(82, 'printed-vs-respostas', 'Verdadeiro', 'Verdadeiro\n\n**Página 6** — 83. B')
+(83, 'printed-vs-respostas', 'B', '')
+(100, 'printed-vs-respostas', 'chute', 'chute\n\n**Página 7** — 101. em')
+(101, 'printed-vs-respostas', 'em', '')
+(112, 'printed-vs-respostas', 'B', 'B\n\n**Página 8** — 113. A')
+(113, 'printed-vs-respostas', 'A', '')
+model words (whitespace split): 88
+model words (excl ×): 87
+model: Sexta, 20 de novembro, acordo sem despertador: é feriado nacional. De manhã, leio sobre Zumbi e Palmares e escrevo duas  ...

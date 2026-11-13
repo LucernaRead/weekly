@@ -1,0 +1,46 @@
+== 4th cifre (serif 20.5, w 386.5, target 2) ==
+key: oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）
+[cifre 150] 3 line(s), 859.9 px  <-- OVER
+    | oltre 150 — i figuranti del corteo di
+    | chiusura del Torrone（牛軋糖節閉幕遊行
+    | 150 多名演員）
+== P7 error notes Lazio/Torrone/andare (sans 19.5, w 378.5, target 1) ==
+key: 拉齐奥是单数，动词用单数 -> '拉齊奧是單數，動詞用單數'
+[err:拉齐奥是单数，动] 1 line(s), 234.0 px  OK
+    | 拉齊奧是單數，動詞用單數
+key: torrone 是单数，动词用单数 -> 'torrone 是單數，動詞用單數'
+[err:torrone ] 1 line(s), 248.1 px  OK
+    | torrone 是單數，動詞用單數
+key: andare 用 essere 作助动词 -> 'andare 用 essere 作助動詞'
+[err:andare 用] 1 line(s), 232.7 px  OK
+    | andare 用 essere 作助動詞
+key: è probabile che 后用虚拟式 -> 'è probabile che 後用虛擬式'
+[err:probabile] 1 line(s), 241.7 px  OK
+    | è probabile che 後用虛擬式
+== FRASI translations (sans 19.5, colw 873) + quotes (serif 21.5, colw 873) ==
+  quote 1L + trans 1L, slot ~97px (budget 158): '拉齊奧穩居榜首。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '十場比賽二十四球。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '大運河上的還願橋。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '一百五十多名身著文藝復興服裝的演員。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '加圖索的球隊 11 輪過後仍不敗。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '七天，書、理性與瘋狂。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '文本仍可能改變。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '政府批准不等於已經是法律。'
+== P8 notes (raw ko values) ==
+  '主语 + 动词 + 地点 + 日期' -> ko '主語 + 動詞 + 地點 + 日期'
+  '主语 + 动词 + 地点' -> ko '主語 + 動詞 + 地點'
+  ru 'воскресный вечер — самый лучший (оценка)' -> 1 hit(s): 'più + bella 周日晚上最好看（主观评价）' ko='più + bella 週日晚上最好看（主觀評價）'
+  ru 'Сравнительная степень bene: meglio' -> 1 hit(s): 'bene 的比较级是不规则的 meglio' ko='bene 的比較級是不規則的 meglio'
+  ru 'Учебные данные, а не прогнозы' -> 1 hit(s): '图表数据是练习用的、不是真实预报' ko='圖表數據是練習用的、不是真實預報'
+  ru 'bisogna che + сослагательное controllino' -> 1 hit(s): 'bisogna che + 虚拟式 controllino' ko='bisogna che + 虛擬式 controllino'
+  ru 'Вопрос — в начале' -> 1 hit(s): '疑问词组在句首' ko='疑問詞組在句首'
+  ru 'Сначала место' -> 1 hit(s): '地点在前，主语在后' ko='地點在前，主語在後'
+== E-section re-aimed ko keys ==
+  '圣母健康节人们走过还愿桥。' -> ko '聖母健康節人們走過還願橋。'
+  '对照原文' -> ko '對照原文'
+  '周日晚上亚特兰大对国米。' -> ko '週日晚上亞特蘭大對國米。'
+  'si gioca = 进行比赛' -> ko 'si gioca = 進行比賽'
+  '周六，拉齐奥在主场对莱切。' -> ko '週六，拉齊奧在主場對萊切。'
+  'in casa = 在主场' -> ko 'in casa = 在主場'
+  'dovere = 必须' -> ko 'dovere = 必須'
+  '每个数字都必须清楚。→ ___' -> ko '每個數字都必須清楚。→ ___'

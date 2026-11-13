@@ -1,0 +1,9 @@
+p1-front.svg: {'elements': (238, 242), 'newsreader_elements': (194, 197)}  (run-split deltas only)
+p2-leben.svg: identical
+p3-kultur.svg: identical
+p4-sport.svg: identical
+p5-jugend.svg: {'curly_total': (6, 5), 'curly_in_newsreader': (6, 5)}  (run-split deltas only)
+p6-vertiefung.svg: identical
+p7-sprache.svg: {'curly_total': (21, 20), 'curly_in_newsreader': (21, 20)}  (run-split deltas only)
+p8-uebungen.svg: {'elements': (1288, 1290), 'newsreader_elements': (876, 878)}  (run-split deltas only)
+census-patched PASS (de-zh-tw): no routing regression

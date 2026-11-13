@@ -1,0 +1,21 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8 page rect: Rect(0.0, 0.0, 1462.5, 2025.0)
+P2 'c. eten voor het paard van Sinterklaas': rects=[(1105.1, 1662.1, 1406.3, 1679.3)] margin=1396.5 over=[9.8]
+P4 'Foto: Spaarnestad Photo': rects=[(1079.6, 382.0, 1214.7, 398.8)] margin=1396.5 over=[-181.8]
+P8 'wat doe jij deze week': rects=[(1079.6, 364.1, 1180.0, 374.5)] margin=1396.5 over=[-216.5]
+P8 '帶': rects=[(783.1, 384.1, 793.5, 399.0), (1292.2, 959.5, 1306.8, 980.7)] margin=1396.5 over=[-603.0, -89.7]
+P8 '範文題': rects=[(1352.6, 959.5, 1396.5, 980.7)] margin=1396.5 over=[-0.0]
+P2 boxbottom=1040.8pt frag='夜寫首詩': rects=[(1096.1, 1020.1, 1156.1, 1041.8)] spanbottom-boxbottom=[1.0]
+P5 boxbottom=702.4pt frag='禮物加小詩': rects=[(1096.1, 681.6, 1171.1, 703.4)] spanbottom-boxbottom=[1.0]
+P6 boxbottom=498.8pt frag='你在鞋裡放什麼': rects=[(1151.6, 478.5, 1248.8, 498.6)] spanbottom-boxbottom=[-0.2]
+P1 spans beyond margin+0.3pt: 1; worst5=[(0.9, 1397.4, 12.75, '2026')]
+P2 spans beyond margin+0.3pt: 2; worst5=[(9.8, 1406.3, 17.25, 'c. eten voor het paard van Sinterklaas'), (0.9, 1397.4, 15.0, '哪些詞屬於收禮夜')]
+P3 spans beyond margin+0.3pt: 0; worst5=[]
+P4 spans beyond margin+0.3pt: 0; worst5=[]
+P5 spans beyond margin+0.3pt: 0; worst5=[]
+P6 spans beyond margin+0.3pt: 0; worst5=[]
+P7 spans beyond margin+0.3pt: 0; worst5=[]
+P8 spans beyond margin+0.3pt: 0; worst5=[]
+PRINT italic spans: [(1, 16.12, '«de groepswinst»')]
+P8 distinct sizes (smallest 8): [10.12, 10.35, 10.5, 10.88, 11.25, 11.62, 12.75, 13.5]

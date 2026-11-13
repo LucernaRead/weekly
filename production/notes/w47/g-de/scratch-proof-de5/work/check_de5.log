@@ -1,0 +1,961 @@
+  flow[P1-headline] ended col 2/2 y=1554 (bottom 1828)
+  flow[P1-fussball] ended col 0/0 y=2264 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2523 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=964 (bottom 1540)
+P2 col3 box1 ends 496.65
+P2 col3 box2 ends 849.8299999999999
+P2 col3 box3 ends 1166.9499999999998
+P2 col3 box4 ends 1520.1299999999999
+  flow[P2-ex] ended col 3/3 y=2332 (bottom 2560)
+P2 saved, exercises so far: 28
+  flow[P3-main] ended col 2/2 y=886 (bottom 1560)
+P3 image at 906.405 ends 1378.1550000000004
+P3 col3 facts ends 557.71
+P3 col3 vocab ends 1009.8900000000001
+P3 col3 undsie ends 1327.0100000000002
+P3 col3 ends 1522.6000000000001
+  flow[P3-ex] ended col 3/3 y=2041 (bottom 2560)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 2/2 y=647 (bottom 1080)
+P4 col3 ends 1156.02
+  flow[P4-ex] ended col 3/3 y=2315 (bottom 2560)
+P4 saved, exercises so far: 64
+  flow[P5-main] ended col 2/2 y=966 (bottom 1080)
+P5 col3 facts ends 527.1800000000001
+P5 col3 vocab ends 979.3600000000001
+P5 col3 undsie ends 1296.48
+P5 col3 image ends 1732.9300000000003
+  flow[P5-ex] ended col 3/3 y=2441 (bottom 2560)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 2/2 y=747 (bottom 1080)
+P6 col3 numbers ends 835.54
+P6 col3 ends 1206.02
+  flow[P6-ex] ended col 3/3 y=2523 (bottom 2560)
+P6 saved, exercises so far: 100
+  flow[P7-A2] ended col 0/0 y=1278 (bottom 1480)
+P7 image ends 1541.8300000000006 (A2 flow ended 1278.3800000000003 )
+  flow[P7-B1] ended col 0/0 y=1310 (bottom 1480)
+  flow[P7-B2] ended col 0/0 y=1306 (bottom 1480)
+P7 col3 ends 1479.0
+P7 saved, exercises so far: 112
+  flow[P8-battery] ended col 3/3 y=1409 (bottom 1555)
+P8 image height 140
+P8 battery ends col3 1409.4450000000002 | image ends 1633.2450000000003
+  flow[P8-keys] ended col 3/3 y=2504 (bottom 2560)
+P8 saved, TOTAL exercises: 150
+{
+ "reg_total": 150,
+ "reg_by_page": {
+  "1": 10,
+  "2": 18,
+  "3": 18,
+  "4": 18,
+  "5": 18,
+  "6": 18,
+  "7": 12,
+  "8": 38
+ },
+ "reg_by_level": {
+  "A2": 69,
+  "B1": 67,
+  "B2": 14
+ },
+ "reg_by_type": {
+  "完成句子": 41,
+  "单选": 52,
+  "句型转换": 11,
+  "词汇配对": 12,
+  "判断对错": 8,
+  "造句": 8,
+  "完形填空": 8,
+  "翻译": 4,
+  "对话补全": 5,
+  "写作": 1
+ },
+ "reg_numbering_continuous": true,
+ "reg_q34": [
+  {
+   "n": 34,
+   "page": 3,
+   "level": "A2",
+   "type": "完成句子",
+   "key": "Weihnachtsmarkt",
+   "note": "圣诞市场"
+  }
+ ],
+ "reg_q34_key_ok": true,
+ "gloss_files": {
+  "content12.py": {
+   "heads": [
+    "Buß",
+    "evangelisch",
+    "Feiertag",
+    "Pflegeversicherung",
+    "still"
+   ],
+   "counts": {
+    "Buß": 5,
+    "evangelisch": 1,
+    "Feiertag": 3,
+    "Pflegeversicherung": 2,
+    "still": 5
+   },
+   "para_chars": 3247
+  },
+  "content34.py": {
+   "heads": [
+    "Weihnachtsmarkt",
+    "Holzbude",
+    "Glühwein",
+    "gebrannte",
+    "Lebkuchen",
+    "Stimmung",
+    "Tor",
+    "Spieltag",
+    "torreich",
+    "Ligaphase",
+    "weiterkommen"
+   ],
+   "counts": {
+    "Weihnachtsmarkt": 5,
+    "Holzbude": 2,
+    "Glühwein": 3,
+    "gebrannte": 1,
+    "Lebkuchen": 2,
+    "Stimmung": 2,
+    "Tor": 2,
+    "Spieltag": 3,
+    "torreich": 1,
+    "Ligaphase": 1,
+    "weiterkommen": 0
+   },
+   "para_chars": 3927
+  },
+  "content56.py": {
+   "heads": [
+    "Adventskalender",
+    "Türchen",
+    "Wunschzettel",
+    "Christkind",
+    "basteln",
+    "überkleben",
+    "Buße",
+    "Kirchenjahr",
+    "Verstorbene",
+    "Friedhof",
+    "Haushalt",
+    "Einigung"
+   ],
+   "counts": {
+    "Adventskalender": 5,
+    "Türchen": 5,
+    "Wunschzettel": 4,
+    "Christkind": 3,
+    "basteln": 2,
+    "überkleben": 1,
+    "Buße": 2,
+    "Kirchenjahr": 3,
+    "Verstorbene": 1,
+    "Friedhof": 2,
+    "Haushalt": 2,
+    "Einigung": 2
+   },
+   "para_chars": 3402
+  }
+ },
+ "d6_p3_sentence": true,
+ "d6_p5_sentence": true,
+ "ex_calls_total": 124,
+ "ex_calls_by_file": {
+  "content12.py": 24,
+  "content34.py": 32,
+  "content56.py": 36,
+  "content7.py": 12,
+  "content8.py": 20
+ },
+ "stem_below_floor": [
+  {
+   "file": "content34.py",
+   "i": 0,
+   "body": "判断对错",
+   "svg": "p3-kultur.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 1,
+   "body": "判断对错",
+   "svg": "p3-kultur.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 2,
+   "body": "判断对错",
+   "svg": "p3-kultur.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 3,
+   "body": "判断对错",
+   "svg": "p3-kultur.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 4,
+   "body": "判断对错",
+   "svg": "p3-kultur.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 23,
+   "body": "完成句子",
+   "svg": "p4-sport.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 24,
+   "body": "完成句子",
+   "svg": "p4-sport.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 25,
+   "body": "完成句子",
+   "svg": "p4-sport.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content34.py",
+   "i": 26,
+   "body": "完成句子",
+   "svg": "p4-sport.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content56.py",
+   "i": 15,
+   "body": "判断对错",
+   "svg": "p5-jugend.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content56.py",
+   "i": 16,
+   "body": "判断对错",
+   "svg": "p5-jugend.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content56.py",
+   "i": 17,
+   "body": "判断对错",
+   "svg": "p5-jugend.svg",
+   "size": 20.5,
+   "floor": 22.0
+  },
+  {
+   "file": "content8.py",
+   "i": 1,
+   "body": "拜仁–科隆 20:30 开球",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 3,
+   "body": "忏悔祈祷日仅萨克森放假",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 4,
+   "body": "亡灵主日 11 月 22 日",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 5,
+   "body": "科隆市场 11 月 16 日开市",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 6,
+   "body": "家庭电力税 2.05 欧分",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 7,
+   "body": "将临期第一主日 11 月 29 日",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 9,
+   "body": "周三做降临节日历",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 11,
+   "body": "周日去墓地、点蜡烛",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 14,
+   "body": "Am Sonntag sind die Weihnachtsmärkte ges",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 15,
+   "body": "Die Familie geht am Sonntag auf den Frie",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 16,
+   "body": "德甲周五回归。",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  },
+  {
+   "file": "content8.py",
+   "i": 17,
+   "body": "市场周日关闭。",
+   "svg": "p8-uebungen.svg",
+   "size": 13.5,
+   "floor": 20.5
+  }
+ ],
+ "stem_unmatched": [
+  {
+   "file": "content12.py",
+   "i": 0,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 1,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 2,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 3,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 4,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 5,
+   "body": "完成句子",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 6,
+   "body": "周一对阵荷兰",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 7,
+   "body": "拜仁–科隆周五 20:30",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 8,
+   "body": "仅萨克森放假",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 9,
+   "body": "科隆圣诞市场 11 月 16 日开市",
+   "svg": "p1-front.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 10,
+   "body": "完成句子",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 11,
+   "body": "完成句子",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 12,
+   "body": "完成句子",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 13,
+   "body": "完成句子",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 14,
+   "body": "完成句子",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 15,
+   "body": "句型转换",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 16,
+   "body": "句型转换",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 17,
+   "body": "句型转换",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 18,
+   "body": "句型转换",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 19,
+   "body": "句型转换",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 20,
+   "body": "巴伐利亚学校停课",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 21,
+   "body": "1995 年废除",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 22,
+   "body": "萨克森跳舞禁令 3 点到 24 点",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content12.py",
+   "i": 23,
+   "body": "亡灵主日是教会年最后一个周日",
+   "svg": "p2-leben.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 5,
+   "body": "完成句子",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 6,
+   "body": "完成句子",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 7,
+   "body": "完成句子",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 8,
+   "body": "完成句子",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 9,
+   "body": "完成句子",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 10,
+   "body": "港口圣诞市场 11 月 13 日已开",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 11,
+   "body": "市场开到 12 月 23 日",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 12,
+   "body": "画作 1930 年纽伦堡",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 13,
+   "body": "市场比将临期早近两周开市",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 14,
+   "body": "Am 16. November öffnen die Weihnachtsmär",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 15,
+   "body": "Am Totensonntag bleiben die Märkte gesch",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 17,
+   "body": "Die Lichter leuchten schon vor dem erste",
+   "svg": "p3-kultur.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 18,
+   "body": "拜仁客场 2:0 胜马竞",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 19,
+   "body": "莱比锡 2:3 负曼城",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 20,
+   "body": "弗赖堡客场 1:0 胜特拉布宗",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 21,
+   "body": "第 9 轮共 30 球",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 22,
+   "body": "荷兰 8 分，德国 5 分",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 27,
+   "body": "德国–荷兰周一 20:45",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 28,
+   "body": "拜仁–科隆周五 20:30",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 29,
+   "body": "沙尔克–斯图加特周六 18:30",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 30,
+   "body": "不来梅–汉堡周日 17:30",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content34.py",
+   "i": 31,
+   "body": "汉堡–门兴周五 3:1",
+   "svg": "p4-sport.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 0,
+   "body": "第一扇小门 12 月 1 日打开",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 1,
+   "body": "日历有 24 扇小门",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 2,
+   "body": "1903 年的日历叫《圣婴之国》",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 3,
+   "body": "愿望单寄给圣婴或圣诞老人",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 4,
+   "body": "周一国家队比赛",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 5,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 6,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 7,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 8,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 9,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 10,
+   "body": "完成句子",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 11,
+   "body": "句型转换",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 12,
+   "body": "句型转换",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 13,
+   "body": "句型转换",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 14,
+   "body": "句型转换",
+   "svg": "p5-jugend.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 18,
+   "body": "44% 足球最受关注",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 19,
+   "body": "市场 33% 第二",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 20,
+   "body": "44+33=77",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 21,
+   "body": "安静 23% 最小",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 22,
+   "body": "安静 23%",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 23,
+   "body": "44+33+23=100",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 24,
+   "body": "忏悔祈祷日 11 月 18 日",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 25,
+   "body": "亡灵主日是教会年最后一个周日",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 26,
+   "body": "家庭电力税 2.05 欧分",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 27,
+   "body": "2027 年预算 11 月 27 日表决",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 28,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 29,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 30,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 31,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 32,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 33,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 34,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content56.py",
+   "i": 35,
+   "body": "完成句子",
+   "svg": "p6-vertiefung.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 0,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 1,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 2,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 3,
+   "body": "被动语态",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 4,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 5,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 6,
+   "body": "句型转换",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 7,
+   "body": "stiller als = 比……更安静",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 8,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 9,
+   "body": "完成句子",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 10,
+   "body": "句型转换",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content7.py",
+   "i": 11,
+   "body": "礼貌表达观点",
+   "svg": "p7-sprache.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 0,
+   "body": "德甲 11 月 20 日回归",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 2,
+   "body": "对荷兰 11 月 16 日",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 8,
+   "body": "周一看德国对荷兰",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 10,
+   "body": "周五看拜仁对科隆",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 13,
+   "body": "Wir basteln im November einen Adventskal",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 18,
+   "body": "我做一个降临节日历。",
+   "svg": "p8-uebungen.svg"
+  },
+  {
+   "file": "content8.py",
+   "i": 19,
+   "body": "Am Montag schaue ich zu Hause Deutschlan",
+   "svg": "p8-uebungen.svg"
+  }
+ ]
+}

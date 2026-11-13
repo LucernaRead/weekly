@@ -1,0 +1,48 @@
+== p1-front.svg
+  box y=786 bottom=1039.6 last 993.9 sz=20.5 clearance +45.7 desc-clear +39.5 | 'が変わった上院議席）'
+  box y=588 bottom=1256.0 last 1244.0 sz=19.0 clearance +12.0 desc-clear +6.3 | '人気の目安で、正確な検索数ではありません。'
+  box y=1280 bottom=1652.0 last 1604.0 sz=21.0 clearance +48.0 desc-clear +41.7 | 'p.8'
+  box y=1874 bottom=2290.0 last 2246.0 sz=20.0 clearance +44.0 desc-clear +38.0 | 'in the 2025–26 Ashes. (p. 4)'
+  WORST inside clearance: +12.0
+== p2-life.svg
+  box y=526 bottom=706.6 last 658.5 sz=21.5 clearance +48.1 desc-clear +41.7 | "in a senator's term."
+  box y=200 bottom=467.5 last 419.4 sz=21.5 clearance +48.1 desc-clear +41.6 | 'デー'
+  box y=1310 bottom=1425.6 last 1377.9 sz=20.5 clearance +47.7 desc-clear +41.6 | 'runoff = 決選投票。'
+  box y=833 bottom=1185.4 last 1171.1 sz=21.5 clearance +14.3 desc-clear +7.9 | 'November 3.'
+  box y=1211 bottom=1544.9 last 1539.8 sz=20.0 clearance +5.0 desc-clear -1.0 | 'ださい。'  <-- descender heuristic <0
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | '開票はまだ続いている。'
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | '新議会は1月に開会する。'
+  box y=1636 bottom=1768.0 last 1738.0 sz=20.0 clearance +30.0 desc-clear +24.0 | '感謝祭おめでとう！'
+  WORST inside clearance: +5.0
+== p3-culture.svg
+  box y=200 bottom=644.5 last 596.4 sz=21.5 clearance +48.1 desc-clear +41.6 | 'launch.'
+  box y=1224 bottom=1369.3 last 1321.5 sz=20.5 clearance +47.7 desc-clear +41.6 | 'campmate = キャンプ仲間。'
+  box y=856 bottom=1068.6 last 1020.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'sixteen-year-old boy from District 12.'
+  WORST inside clearance: +47.7
+== p4-sport.svg
+  box y=489 bottom=820.7 last 772.6 sz=21.5 clearance +48.1 desc-clear +41.6 | 'later.'
+  box y=1435 bottom=1581.1 last 1533.4 sz=20.5 clearance +47.7 desc-clear +41.6 | 'break = 休憩期間。'
+  box y=856 bottom=1274.3 last 1225.7 sz=21.5 clearance +48.5 desc-clear +42.1 | 'Vikings–49ers in Mexico City.'
+  WORST inside clearance: +47.7
+== p5-youth.svg
+  box y=2034 bottom=2244.8 last 2196.7 sz=21.5 clearance +48.1 desc-clear +41.7 | 'theme.'
+  box y=200 bottom=345.7 last 298.0 sz=20.5 clearance +47.7 desc-clear +41.6 | '黙'
+  box y=852 bottom=1064.6 last 1016.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'morning in English is yours.'
+  WORST inside clearance: +47.7
+== p6-deep.svg
+  box y=200 bottom=441.0 last 392.9 sz=21.5 clearance +48.1 desc-clear +41.6 | 'how to mark, not whom to choose.'
+  box y=779 bottom=924.5 last 876.8 sz=20.5 clearance +47.7 desc-clear +41.6 | '投票 · a map = 政治地図。'
+  box y=666 bottom=878.6 last 830.1 sz=21.5 clearance +48.5 desc-clear +42.1 | 'Governor: usually 4 years.'
+  WORST inside clearance: +47.7
+== p7-lang.svg
+  box y=254 bottom=399.7 last 352.0 sz=20.5 clearance +47.7 desc-clear +41.6 | 'ュースは過去形が多い。'
+  box y=923 bottom=1039.3 last 991.6 sz=20.5 clearance +47.7 desc-clear +41.6 | 'thanで数や大きさを言う。'
+  box y=1599 bottom=1714.7 last 1667.0 sz=20.5 clearance +47.7 desc-clear +41.6 | 'ること。疑問文ではwillが前に来る。'
+  box y=2062 bottom=2178.0 last 2130.2 sz=20.5 clearance +47.7 desc-clear +41.6 | 'たこと。不規則動詞は覚えること。'
+  box y=254 bottom=399.7 last 352.0 sz=20.5 clearance +47.7 desc-clear +41.6 | 'で言う。'
+  box y=713 bottom=829.4 last 781.7 sz=20.5 clearance +47.7 desc-clear +41.6 | 'わからないときにwhetherを使う。'
+  box y=651 bottom=1008.2 last 959.7 sz=21.5 clearance +48.5 desc-clear +42.1 | 'どうかはだれにもわからない。'
+  WORST inside clearance: +47.7
+== p8-test.svg
+  box y=1720 bottom=2000.0 last 1907.6 sz=20.0 clearance +92.4 desc-clear +86.4 | 'a busy week of votes, socks and stories '
+  WORST inside clearance: +92.4

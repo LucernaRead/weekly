@@ -1,0 +1,9 @@
+parsed from text.md: 150 numbers 1 - 150
+missing numbers: []
+extra numbers: []
+mismatches: 0
+dup/bad: []
+OVERALL: PASS
+(Q150 counts via prefix match: p8.py extract truncates the long writing key
+to '开放题'; text.md has the full '开放题 — 要点见写作框，范文在第 8 版写作框内'.
+Pre-existing extract artifact, identical in final-fr-p8.json.)

@@ -1,0 +1,83 @@
+TEXTLAYER bytes print/web: 101461 101461
+TEXTLAYER multiset print-only: 0 web-only: 0
+  print 本週日=11 下週日=0 BABYMONSTER=0 取捨=2 小雪=36 夜間遊行=25 finish line=0 end point=1
+  web 本週日=11 下週日=0 BABYMONSTER=0 取捨=2 小雪=36 夜間遊行=25 finish line=0 end point=1
+TEXTMD 本週日: total=11 body=11 keys=0
+TEXTMD 下週日: total=0 body=0 keys=0
+TEXTMD BABYMONSTER: total=0 body=0 keys=0
+TEXTMD 取捨: total=2 body=1 keys=1
+TEXTMD 小雪: total=36 body=32 keys=4
+TEXTMD 夜間遊行: total=25 body=25 keys=0
+TEXTMD finish line: total=0 body=0 keys=0
+TEXTMD end point: total=1 body=1 keys=0
+TEXTMD 松菸: total=5 body=5 keys=0
+TEXTMD 松煙: total=0 body=0 keys=0
+TEXTMD U+201C: 0
+TEXTMD U+201D: 0
+TEXTMD U+2019: 0
+TEXTMD U+2018: 0
+TEXTMD lines: 6024 bytes: 49798
+MODEL chars (no whitespace): 142
+MODEL chars (no punct/space): 126
+SRC 本週日: 11
+SRC 下週日: 0
+SRC BABYMONSTER: 0
+SRC 取捨: 2
+SRC 小雪: 36
+SRC U+201C: 0
+SRC U+201D: 0
+SRC U+2019: 0
+SRC U+2018: 0
+SVG 本週日: 11
+SVG 下週日: 0
+SVG BABYMONSTER: 0
+SVG 取捨: 2
+SVG U+201C: 0
+SVG U+201D: 0
+SVG U+2019: 0
+SVG U+2018: 0
+PDF Lucerna-VOL4.pdf: pages=8 size=Rect(0.0, 0.0, 1462.5, 2025.0)
+  fonts used: {('NotoSansCJKtc-Bold', 12.75): 4, ('NotoSansCJKtc-Regular', 12.75): 58, ('CairoFont-2-0', 147.0): 1, ('NotoSerifCJKtc-Bold', 27.0): 4, ('Newsreader16pt-Regular', 27.0): 9, ('NotoSansCJKtc-Regular', 12.0): 2, ('NotoSerifCJKtc-Bold', 45.0): 2, ('Newsreader16pt-Regular', 45.0): 1, ('NotoSerifCJKtc-Regular', 20.25): 10, ('Newsreader16pt-Regular', 20.25): 6, ('NotoSerifCJKtc-Bold', 24.0): 28, ('NotoSerifCJKtc-Regular', 18.0): 278, ('Newsreader16pt-Regular', 18.0): 158, ('NotoSansCJKtc-Regular', 13.5): 121, ('NotoSansCJKtc-Bold', 18.75): 82, ('NotoSerifCJKtc-Regular', 16.88): 377, ('Newsreader16pt-Regular', 16.88): 219, ('NotoSansCJKtc-Regular', 15.0): 22, ('NotoSansCJKtc-Bold', 14.25): 138, ('NotoSansCJKtc-Bold', 18.0): 142, ('Newsreader16pt-Regular', 16.12): 183, ('NotoSerifCJKtc-Regular', 16.12): 196, ('NotoSansCJKtc-Regular', 14.62): 85, ('NotoSansCJKtc-Bold', 34.5): 14, ('Newsreader16pt-Regular', 34.5): 7, ('Newsreader16pt-Regular', 24.0): 9, ('NotoSansCJKtc-Bold', 17.25): 10, ('NotoSerifCJKtc-Regular', 16.5): 118, ('Newsreader16pt-Regular', 16.5): 100, ('Newsreader16pt-Regular', 17.25): 16, ('NotoSerifCJKtc-Regular', 17.25): 16, ('NotoSerifCJKtc-Regular', 14.25): 10, ('NotoSansCJKtc-Regular', 11.62): 9, ('Newsreader16pt-Regular', 14.25): 1, ('NotoSansCJKtc-Bold', 20.25): 6, ('Newsreader16pt-Regular', 15.75): 83, ('NotoSerifCJKtc-Regular', 15.75): 84, ('Newsreader16pt-Regular', 15.0): 14, ('NotoSerifCJKtc-Bold', 15.75): 4, ('DejaVuSans-Bold', 16.12): 3, ('NotoSerifCJKtc-Bold', 16.12): 6, ('NotoSerifCJKtc-Regular', 15.38): 13, ('Newsreader16pt-Regular', 15.38): 8, ('NotoSansCJKtc-Bold', 15.75): 15, ('NotoSerifCJKtc-Regular', 10.35): 153, ('Newsreader16pt-Regular', 10.35): 135, ('NotoSerifCJKtc-Regular', 11.25): 9, ('Newsreader16pt-Regular', 11.25): 5, ('NotoSerifCJKtc-Regular', 15.0): 7, ('Newsreader16pt-Regular', 12.0): 4, ('NotoSerifCJKtc-Regular', 12.0): 5, ('NotoSansCJKtc-Bold', 9.75): 8, ('NotoSansCJKtc-Regular', 9.75): 152}
+  P8 min size=9.75pt max=34.50pt paper(#fbfaf6) pages=0/8
+PDF Lucerna-VOL4-web.pdf: pages=8 size=Rect(0.0, 0.0, 1462.5, 2025.0)
+  fonts used: {('LucernaNotoSansCJKTC-Bol', 12.75): 4, ('LucernaNotoSansCJKTC-Reg', 12.75): 58, ('LucernaUnifrakturMagunti', 147.0): 1, ('LucernaNotoSerifCJKTC-Bo', 27.0): 4, ('LucernaNewsreader-Bold', 27.0): 9, ('LucernaNotoSansCJKTC-Reg', 12.0): 2, ('LucernaNotoSerifCJKTC-Bo', 45.0): 2, ('LucernaNewsreader-Bold', 45.0): 1, ('LucernaNotoSerifCJKTC-Re', 20.25): 10, ('LucernaNewsreader-Regula', 20.25): 6, ('LucernaNotoSerifCJKTC-Bo', 24.0): 28, ('LucernaNotoSerifCJKTC-Re', 18.0): 278, ('LucernaNewsreader-Regula', 18.0): 158, ('LucernaNotoSansCJKTC-Reg', 13.5): 121, ('LucernaNotoSansCJKTC-Bol', 18.75): 82, ('LucernaNotoSerifCJKTC-Re', 16.88): 377, ('LucernaNewsreader-Regula', 16.88): 219, ('LucernaNotoSansCJKTC-Reg', 15.0): 22, ('LucernaNotoSansCJKTC-Bol', 14.25): 138, ('LucernaNotoSansCJKTC-Bol', 18.0): 142, ('LucernaNewsreader-Regula', 16.12): 180, ('LucernaNotoSerifCJKTC-Re', 16.12): 196, ('LucernaNotoSansCJKTC-Reg', 14.62): 85, ('LucernaNotoSansCJKTC-Bol', 34.5): 14, ('LucernaNewsreader-Bold', 34.5): 7, ('LucernaNewsreader-Bold', 24.0): 9, ('LucernaNotoSansCJKTC-Bol', 17.25): 10, ('LucernaNotoSerifCJKTC-Re', 16.5): 118, ('LucernaNewsreader-Regula', 16.5): 97, ('LucernaNewsreader-Regula', 17.25): 16, ('LucernaNotoSerifCJKTC-Re', 17.25): 16, ('LucernaNotoSerifCJKTC-Re', 14.25): 10, ('LucernaNotoSansCJKTC-Reg', 11.62): 9, ('LucernaNewsreader-Regula', 14.25): 1, ('LucernaNotoSansCJKTC-Bol', 20.25): 6, ('LucernaNewsreader-Bold', 16.5): 3, ('LucernaNewsreader-Regula', 15.75): 83, ('LucernaNotoSerifCJKTC-Re', 15.75): 84, ('LucernaNewsreader-Regula', 15.0): 14, ('LucernaNotoSerifCJKTC-Bo', 15.75): 4, ('LucernaDejaVuSans-Bold', 16.12): 3, ('LucernaNotoSerifCJKTC-Bo', 16.12): 6, ('LucernaNewsreader-Bold', 16.12): 3, ('LucernaNotoSerifCJKTC-Re', 15.38): 13, ('LucernaNewsreader-Regula', 15.38): 8, ('LucernaNotoSansCJKTC-Bol', 15.75): 15, ('LucernaNotoSerifCJKTC-Re', 10.35): 153, ('LucernaNewsreader-Regula', 10.35): 135, ('LucernaNotoSerifCJKTC-Re', 11.25): 9, ('LucernaNewsreader-Regula', 11.25): 5, ('LucernaNotoSerifCJKTC-Re', 15.0): 7, ('LucernaNewsreader-Regula', 12.0): 4, ('LucernaNotoSerifCJKTC-Re', 12.0): 5, ('LucernaNotoSansCJKTC-Bol', 9.75): 8, ('LucernaNotoSansCJKTC-Reg', 9.75): 152}
+  P8 min size=9.75pt max=34.50pt paper(#fbfaf6) pages=0/8
+SVG gold/brick fills: {'#b8860b': 0, '#d4af37': 0, '#c9a227': 0, '#8b4513': 0, '#a52a2a': 0, 'gold': 9}
+SVG cream #f0eee5 rects: 36
+  cream: ('p1-front.svg', 88.0, 1039.54, 1323.5, 132.3)
+  cream: ('p1-front.svg', 88.0, 1514.28, 1323.5, 132.3)
+  cream: ('p1-front.svg', 1439.5, 660.0, 422.5, 470.0)
+  cream: ('p1-front.svg', 1439.5, 1148.0, 422.5, 580.0)
+  cream: ('p1-front.svg', 1439.5, 1746.0, 422.5, 250.0)
+  cream: ('p2-life.svg', 88.0, 757.32, 422.5, 262.79999999999995)
+  cream: ('p2-life.svg', 88.0, 1440.56, 422.5, 405.59999999999997)
+  cream: ('p2-life.svg', 538.5, 208.0, 422.5, 210.6)
+  cream: ('p2-life.svg', 1439.5, 604.0, 422.5, 540.0)
+  cream: ('p2-life.svg', 1439.5, 1162.0, 422.5, 250.0)
+  cream: ('p2-life.svg', 1439.5, 1430.0, 422.5, 460.0)
+  cream: ('p3-culture.svg', 88.0, 942.2800000000002, 422.5, 288.9)
+  cream: ('p3-culture.svg', 88.0, 1977.4600000000005, 422.5, 288.9)
+  cream: ('p3-culture.svg', 538.5, 351.44, 422.5, 236.7)
+  cream: ('p3-culture.svg', 1439.5, 649.5999999999999, 422.5, 470.0)
+  cream: ('p3-culture.svg', 1439.5, 1137.6, 422.5, 250.0)
+  cream: ('p3-culture.svg', 1439.5, 1405.6, 422.5, 450.0)
+  cream: ('p3-culture.svg', 1439.5, 1873.6, 422.5, 430.0)
+  cream: ('p4-sport.svg', 538.5, 208.0, 422.5, 315.0)
+  cream: ('p4-sport.svg', 538.5, 831.4399999999999, 422.5, 132.3)
+  cream: ('p4-sport.svg', 1439.5, 640.0, 422.5, 470.0)
+  cream: ('p4-sport.svg', 1439.5, 1128.0, 422.5, 244.0)
+  cream: ('p5-youth.svg', 88.0, 832.84, 422.5, 262.79999999999995)
+  cream: ('p5-youth.svg', 88.0, 1768.96, 422.5, 236.7)
+  cream: ('p5-youth.svg', 538.5, 208.0, 422.5, 210.6)
+  cream: ('p5-youth.svg', 538.5, 430.6, 422.5, 348.475)
+  cream: ('p5-youth.svg', 1439.5, 649.5999999999999, 422.5, 470.0)
+  cream: ('p5-youth.svg', 1439.5, 1137.6, 422.5, 250.0)
+  cream: ('p5-youth.svg', 1439.5, 1405.6, 422.5, 418.0)
+  cream: ('p5-youth.svg', 1439.5, 1841.6, 422.5, 430.0)
+  cream: ('p6-deep.svg', 538.5, 208.0, 422.5, 262.79999999999995)
+  cream: ('p6-deep.svg', 1439.5, 208.0, 422.5, 760.0)
+  cream: ('p6-deep.svg', 1439.5, 986.0, 422.5, 504.0)
+  cream: ('p7-lang.svg', 1439.5, 200.0, 422.5, 677.6)
+  cream: ('p7-lang.svg', 1439.5, 889.6, 422.5, 312.5)
+  cream: ('p7-lang.svg', 1439.5, 1214.1, 422.5, 611.3)
+SVG paper #fbfaf6 rects: 8

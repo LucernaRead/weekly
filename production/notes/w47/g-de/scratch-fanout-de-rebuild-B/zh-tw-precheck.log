@@ -1,0 +1,27 @@
+[PASS] topband no overlap left ends 299, mid 746..1204, right starts 1564
+[PASS] masthead edition line fits 1774 width 837 (spacing 7.0)
+    masthead w0=690 len=21 suggested max spacing 7.0 (<=7.0)
+[PASS] footer vs pageline gap footer ends 520, pageline starts 1781
+[PASS] P1 band title vs right text title ends 1346, right starts 1747
+[PASS] chart label '足球' clears bar ends 488 (bar 1358)
+[PASS] chart label '市集' clears bar ends 488 (bar 1358)
+[PASS] chart label '寧靜的日子' clears bar ends 548 (bar 1358)
+[PASS] P2 Rechnen note 1 line 1 lines
+[PASS] P7 phrase <=2 lines: '休整兩週後，拜仁週五晚對科隆。' 1 lines
+[PASS] P7 phrase <=2 lines: '這是關於歐國聯八強賽。' 1 lines
+[PASS] P7 phrase <=2 lines: '只有薩克森把 Buß- und Bettag 列為假日。' 1 lines
+[PASS] P7 phrase <=2 lines: '市集提早近兩週開市。' 1 lines
+[PASS] P7 phrase <=2 lines: '每扇小門後都有一個小驚喜。' 1 lines
+[PASS] P7 phrase <=2 lines: '拜仁在美因茲 2-1 獲勝。' 1 lines
+[PASS] P7 phrase <=2 lines: '寧靜的一週是過渡：從十一月進入將臨期。' 1 lines
+[PASS] P7 phrase <=2 lines: '週日，全國一片安靜。' 1 lines
+[PASS] P7 clinic <=2 lines: '動詞第二：即使主語不在首位，動詞仍在第二位。' 1 lines
+[PASS] P7 clinic <=2 lines: 'halb neun = 八點半（neun 之前）。' 1 lines
+[PASS] P7 clinic <=2 lines: 'Perfekt：分詞在最後' 1 lines
+[PASS] P7 clinic <=2 lines: 'ob 子句：動詞在最後' 1 lines
+[PASS] P8 writing para <=4 lines 2 lines
+[PASS] P7 toolbox D4 entry <=3 lines 2 lines
+[PASS] exercise head right note fits width 347
+[PASS] BLITZQUIZ right note fits width 360
+    TR total chars: zh-tw 5430 vs en 10469 vs fr 10619
+

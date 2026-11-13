@@ -1,0 +1,5 @@
+post-print chars=24962 post-web chars=24962 pre-print chars=24960
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={'香': 1, '港': 1} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK FAIL

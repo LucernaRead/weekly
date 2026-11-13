@@ -1,0 +1,31 @@
+SHA print: c69b7bdf3165ed24f05be8004559e0102c0c8e38f15e395bc32360094628359b 21265865B
+SHA web: 91028029155a32dab67c77d4fa0d69e6373ce790730f296cfd3a29d46ae60afd 3384095B
+SHA textmd: ac9636b971959d9f9c25e253aff6ff35f575512b5be70088240f365fb3ac10d1 64014B
+[p8-extract-core] rc=0
+[p8-extract-ed] rc=0
+[p8-compare] rc=0
+p8 extract 150/150 compare CLEAN keydiff [137, 138, 139, 140] vs-core-json ['137', '138', '139', '140'] key20='желании'
+keycheck: text.md answers=150 mismatch(excl 150)=[] Q150 printed='✓'
+[check_core] rc=0
+check_core tail: same-baseline collisions: [('p1-pervaya.svg', 1712, 'чёрная', ' ')] total 1
+[s11_check] rc=0
+s11 FAIL lines: ['FAILURES: none']
+[occlusion-audit] rc=1
+occlusion: {'TEXTX': 42} total 42
+[freeze-baseline] rc=0
+[freeze-diff] rc=0
+freeze baseline 8/8; diff removed 848 distinct 482; cyrillic n=15 [('8', 'Билибин', 1), ('8', 'Билибина', 1), ('8', 'Зимняя', 1), ('8', 'Иван', 1), ('8', 'Ивана', 1), ('8', 'Иллюстрация', 1), ('8', 'Морозко', 1), ('8', 'год', 1), ('8', 'достояние', 1), ('8', 'иллюстрация', 1), ('8', 'к', 1), ('8', 'можно', 1), ('8', 'ноябрю', 1), ('8', 'общественное', 1), ('8', 'сказка', 1)]; cjk_added={'\u3000': 8}
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+text layer: identical=True per_page=[True, True, True, True, True, True, True, True] chars=30923
+italic spans: print=3 [(1, 'Newsreader16pt-Italic', '«'), (1, 'NotoSerif-MediumItalic', 'чёрная пятница'), (1, 'Newsreader16pt-Italic', '»')]; web=3 [(1, 'LucernaNewsreader-Italic', '«'), (1, 'LucernaNotoSerif-Italic', 'чёрная пятница'), (1, 'LucernaNewsreader-Italic', '»')]
+min font: P8=9.75pt all=9.75pt
+[creambox] rc=0
+creambox: negative-inside=[] BELOW-WINDOW=95 unclassified=[]
+creambox vs backup diff lines: 0; first: []
+SVG real CJK: []; U+3000 x123; fonts=['Newsreader', 'Noto Sans', 'Noto Sans CJK SC', 'Noto Serif', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+D1={"s1": {"in_textmd": true, "lines": [459]}, "s3": {"in_textmd": true, "lines": [504]}, "s4": {"in_textmd": true, "lines": [596]}, "s2_in_textmd": false, "svg_p6_s1": true, "svg_p6_s2": true, "svg_p7_s3": true, "svg_p8_s4": true}
+D2 full ed/core=2/2 short=11; D6 textmd=2 p2svg=0; ___ x87
+kicker tokens=['ЕЖЕНЕДЕЛЬНАЯ', 'ГАЗЕТА', 'ДЛЯ', 'ИЗУЧАЮЩИХ', 'РУССКИЙ', 'ЯЗЫК', '—', 'НАСТОЯЩАЯ', 'РОССИЯ', ',', 'ПО-РУССКИ'] gaps=[7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6] min=5.9
+text.md vs backup diff lines: 12
+GATES DONE; fails: []

@@ -1,0 +1,9 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+node: {'x': '538.5', 'y': '2499.5999999999976', 'font-family': 'Noto Sans CJK TC', 'font-size': '13.0', 'fill': '#302c28', 'text-anchor': 'start'}
+text: 77. B — 11月17日〜30日は14日、12月は31日、1月は3日、合わせて48日
+PIL ink box: [538.5, 2488.35, 960.75, 2500.85]
+rendered-pixel probe: clip svg x[989,1417.5] y[2477.5999999999976,2507.5999999999976]; rightmost dark px svg-x=1314; col right=1411.5; margin=97.5px
+dark pixels in gutter (x>1411.5) on this line band: 0 []
+--- key 77 answer check vs registry ---
+content8 mentions 77: 0

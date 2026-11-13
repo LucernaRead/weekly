@@ -1,0 +1,48 @@
+### [2026-w47-ko-nl] base-prep (fixed sources + pre-D5 svglib)
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-nl/base/svg': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-nl/base/assets': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-nl/base/__pycache__': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-nl/base/cards': Operation not permitted
+cp: failed to preserve ownership for '/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-ko/2026-w47-ko-nl/base': Operation not permitted
+### [2026-w47-ko-nl] base-venv run RC=0
+  !! FLOW OVERFLOW [P2-feature] col 2 y=1179 need 390 bottom 1540
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+### [2026-w47-ko-nl] phase=rebuild-gates reader=nl mode=latin print=Lucerna-VOL4-KO-NL.pdf web=Lucerna-VOL4-KO-NL-web.pdf
+### [2026-w47-ko-nl] Phase C: rebuild production (venv)
+### [2026-w47-ko-nl] run.py RC=0
+### [2026-w47-ko-nl] render.py RC=0
+### [2026-w47-ko-nl] webpdf.py RC=0
+### [2026-w47-ko-nl] Phase D: gates
+### [2026-w47-ko-nl] d5_census patched RC=0
+### [2026-w47-ko-nl] census_quotes patched svg RC=0
+### [2026-w47-ko-nl] head_check RC=0
+### [2026-w47-ko-nl] occlusion_audit RC=0
+### [2026-w47-ko-nl] p8 extract RC=0
+### [2026-w47-ko-nl] p8 compare vs core-ko RC=0
+### [2026-w47-ko-nl] freeze baseline (syspy exception) RC=1
+### [2026-w47-ko-nl] freeze diff patched vs base-venv (syspy exception) RC=0
+### [2026-w47-ko-nl] spill_sweep RC=0
+### [2026-w47-ko-nl] boxtitle_check RC=0
+### [2026-w47-ko-nl] pdf_edge_scan RC=0
+### [2026-w47-ko-nl] d5_creambox_audit RC=0
+### [2026-w47-ko-nl] gates done; summary RCs above
+RC=0 :: run.py
+RC=0 :: render.py
+RC=0 :: webpdf.py
+RC=0 :: d5_census patched
+RC=0 :: census_quotes patched svg
+RC=0 :: head_check
+RC=0 :: occlusion_audit
+RC=0 :: p8 extract
+RC=0 :: p8 compare vs core-ko
+RC=1 :: freeze baseline (syspy exception)
+RC=0 :: freeze diff patched vs base-venv (syspy exception)
+RC=0 :: spill_sweep
+RC=0 :: boxtitle_check
+RC=0 :: pdf_edge_scan
+RC=0 :: d5_creambox_audit
+RC=0 :: textlayer
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch
+### [2026-w47-ko-nl] run_edition.sh RC=0
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch

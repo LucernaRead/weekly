@@ -1,0 +1,20 @@
+=== ja-zh-cn  2026-11-11T23:38:36+00:00 ===
+svg: production/2026-w47/core-ja/svg
+web: production/2026-w47/core-ja/Lucerna-VOL4-web.pdf
+print: production/2026-w47/core-ja/Lucerna-VOL4.pdf
+mem available before: 1538MB
+old_sha=8722bdfbcec0478a7a60fc86ab0ee7cc9333f957253959476d4f608eed82d5b0 old_bytes=4652763
+8 pages from production/2026-w47/core-ja/svg
+844 distinct chars; families: ['Noto Sans CJK JP', 'Noto Serif CJK JP', 'UnifrakturMaguntia']
+  font LucernaNotoSansCJKJP-Regular: 333816 bytes
+  font LucernaNotoSansCJKJP-Bold: 341448 bytes
+  font LucernaNotoSerifCJKJP-Regular: 475932 bytes
+  font LucernaNotoSerifCJKJP-Bold: 481644 bytes
+  font LucernaUnifrakturMaguntia-Regular: 22484 bytes
+WROTE production/2026-w47/core-ja/Lucerna-VOL4-web.pdf: 4652763 bytes, 44818 text bytes
+webpdf rc=0
+new_sha=496499e10d01002a1e48ffaf2c8fd0c9d1ecc9602cff49f85755a55d597a71b2 new_bytes=4652763
+web_text_bytes=85061 print_text_bytes=85061
+text layer: BYTE-IDENTICAL to print PDF
+STATUS=OK 
+=== done ja-zh-cn status=OK 2026-11-11T23:40:58+00:00 ===

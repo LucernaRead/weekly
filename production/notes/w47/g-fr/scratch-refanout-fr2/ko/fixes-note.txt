@@ -1,0 +1,4 @@
+- 本版无 proof1 遗留修复项；仅核心 fix4 变化落地（Q148，见下）。
+- P7 披露框：ko 版原先即 2 行、末基线 2233.3、清除 +24.7，重建后 creambox 重测仍干净；PIL 真墨末行至 svg y=2234.4，间隙零墨。
+- 核心 fix4 落地：Q148 键 `devant`→`devant le`、题干 `On se retrouve ___ du cinéma ?`→`On se retrouve ___ cinéma ?`（仅 P8 哈希变；P8 注记 148 亦随键变为 `devant le`）。
+- 孤儿扫：2 处字体分拆同基线标点（P8 `.` 与 `）`，与同行词共享基线，非视觉孤儿，记为 shared_baseline；新增真孤儿 0。

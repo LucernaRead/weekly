@@ -1,0 +1,180 @@
+===== FIX ja-ru 2026-11-12T16:47:14Z =====
+disk used: 94G
+disk used: 94G
+--- snapshot pre-fix fingerprints ---
+2ab6a7d2d740f34834b36ee753c62eafb2e09785c1e212f08f8c2f3c5752268a  Lucerna-VOL4-JA-RU.pdf
+f70444a63e48b76298fb40493203a4b3f83a43f6ef559e0026a2fd7a9d7d525f  Lucerna-VOL4-JA-RU-web.pdf
+88e3680b5d3194c88cfb07fb3cf536b9cba83d338398c4ebdab4995efcd716b0  2026-w47-ja-ru.text.md
+Lucerna-VOL4-JA-RU.pdf 25970245
+Lucerna-VOL4-JA-RU-web.pdf 4540692
+2026-w47-ja-ru.text.md 53004
+5
+pre-fix py counts:
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/content7.py:2
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/content56.py:3
+--- snapshot pre-fix sources (base control + boxtitle backup) ---
+--- edit production sources ---
+post-edit py: ryuuryuu=0 rikuryuu=5
+--- base rebuild (pre-fix control) ---
+OUT rewritten in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/base: 0 file(s); production content*.py untouched
+base run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+BASELINE CLEAN: 8/8 SVG byte-identical to pre-fix delivered
+--- patched build ---
+OUT rewritten in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru: 0 file(s); production content*.py untouched
+patched run RC=0
+P8 saved, TOTAL exercises: 150
+TOTAL 150
+render RC=0
+card: p8-tesuto.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU.pdf 25970343
+webpdf RC=0
+  font LucernaUnifrakturMaguntia-Regular: 22188 bytes
+WROTE /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU-web.pdf: 4540808 bytes, 53256 text bytes
+0726eda64903e4b765ef25b3d759b96e806fed13b076e4b13e89108e4c957f8d  Lucerna-VOL4-JA-RU-web.pdf
+04b2f315e267d8cf665f07da2c45cf64b80e3ae9f17e8bd8babff6c714636510  Lucerna-VOL4-JA-RU.pdf
+-rw-rw---- 1 root nogroup  4540808 Nov 12 16:52 Lucerna-VOL4-JA-RU-web.pdf
+-rw-rw---- 1 root nogroup 25970343 Nov 12 16:50 Lucerna-VOL4-JA-RU.pdf
+--- text.md surgical update ---
+text.md diff:
+1040c1040
+< ryuuryuu — пара фигуристов. (с. 7)
+---
+> rikuryuu — пара фигуристов. (с. 7)
+1287c1287
+< 66. A — ryuuryuu — пара фигуристов
+---
+> 66. A — rikuryuu — пара фигуристов
+1298c1298
+< 77. × — ryuuryuu — не название фильма
+---
+> 77. × — rikuryuu — не название фильма
+1301c1301
+< 80. ペア — ryuuryuu — пара Миура Рику и Кихара Рюити
+---
+> 80. ペア — rikuryuu — пара Миура Рику и Кихара Рюити
+1329c1329
+< 105. B — ryuuryuu — пара фигуристов
+---
+> 105. B — rikuryuu — пара фигуристов
+text-diff-check RC=0
+text.md pairwise check OK: 5 lines differ, each only by the fix substitution
+patched SVG cross-check: rikuryuu=5 (expect 5), ryuuryuu=0 (expect 0)
+############ GATES ja-ru ############
+head_check RC=0
+HEAD CHECK PASS 0 defects
+census RC=0
+p8-tesuto.svg: els=2303 news=1189 cjk_sans=17 noto_sans=113 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=712
+CENSUS PASS
+quotes RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/svg/p8-tesuto.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ja/svg/p8-tesuto.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/svg/p8-tesuto.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+freeze-baseline RC=0
+  OK  p7-kotoba.svg core cd954d1ca4139ad4 produced cd954d1ca4139ad4
+  OK  p8-tesuto.svg core 0238494029003256 produced 0238494029003256
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze-diff-vs-base RC=0
+p6: +0 strings / -0 strings; CJK core 1129 -> edition 1129; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+p7: +1 strings / -1 strings; CJK core 1394 -> edition 1394; added CJK chars: 0 ; added Latin strings: 1 (unexpected 1)
+p8: +4 strings / -4 strings; CJK core 1422 -> edition 1422; added CJK chars: 0 ; added Latin strings: 4 (unexpected 4)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 5 (unexpected 5)
+freeze-diff RC=0
+p6: +42 strings / -37 strings; CJK core 1212 -> edition 1129; added CJK chars: 2 {'\u3000': 2}; added Latin strings: 1 (unexpected 1)
+p7: +75 strings / -135 strings; CJK core 1778 -> edition 1394; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 5 (unexpected 5)
+p8: +1532 strings / -522 strings; CJK core 3013 -> edition 1422; added CJK chars: 7 {'ト': 1, '\u3000': 1, 'ー': 1, 'ノ': 1, 'ミ': 1, 'ネ': 1, '楽': 1}; added Latin strings: 14 (unexpected 14)
+TOTAL added CJK characters: 13
+TOTAL added Latin strings: 29 (unexpected 29)
+spill RC=0
+P7 box=(1439.5,1334.1,422.5,444.0) bottom=1778.1
+   ABOVE -23.91px x=1461.5 y=1310.2 [observe] 'Разбор: загребать удачу кумадэ.'
+SPILL_SWEEP 2026-w47-ja-ru: 35 boxes, 83 candidates, 0 SPILL, 83 OBSERVE
+boxtitle RC=0
+== 2026-w47-ja-ru  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/core-ja backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/backup-root/scratch-fanout-ja/backup/2026-w47-ja-ru
+BOXTITLE 2026-w47-ja-ru: 38 titles, 499 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+edge RC=0
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 58.0}
+EDGE_SCAN 2026-w47-ja-ru: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+p8-tesuto.svg: els 2303->2303 lines 217->217 diff 3 moved 22 defects 0 observe 0
+ratios: n=177 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-tesuto.svg: lines 217->217 slack_footer 61.7->61.7
+CREAMBOX PASS 0 defects
+--- text layer: print vs web + patched vs pre-fix delivered web ---
+textlayer RC=0
+patched print: 26114 chars; patched web: 26114 chars; delivered web: 26114 chars
+print-vs-web multiset diff: +0 -0 IDENTICAL
+patched-vs-delivered multiset diff: +10 -10 {'i': 5, 'k': 5}
+--- PDF text checks: ryuuryuu 0 / rikuryuu 5 in print+web ---
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU.pdf ryuuryuu: 0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU.pdf rikuryuu: 5
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU-web.pdf ryuuryuu: 0
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru/2026-w47-ja-ru/Lucerna-VOL4-JA-RU-web.pdf rikuryuu: 5
+32
+GATES ja-ru DONE
+--- sync to production ---
+disk used: 94G
+disk used: 94G
+0726eda64903e4b765ef25b3d759b96e806fed13b076e4b13e89108e4c957f8d  Lucerna-VOL4-JA-RU-web.pdf
+04b2f315e267d8cf665f07da2c45cf64b80e3ae9f17e8bd8babff6c714636510  Lucerna-VOL4-JA-RU.pdf
+f934bcf1d9f4611d094ed6f55a1f76fc8da74663cfe647c9fed17025af3d4eec  2026-w47-ja-ru.text.md
+Lucerna-VOL4-JA-RU-web.pdf 4540808
+Lucerna-VOL4-JA-RU.pdf 25970343
+2026-w47-ja-ru.text.md 53004
+freeze-prod RC=0
+  OK  p7-kotoba.svg core cd954d1ca4139ad4 produced cd954d1ca4139ad4
+  OK  p8-tesuto.svg core 0238494029003256 produced 0238494029003256
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+census-synced RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=712
+CENSUS PASS
+quotes-synced RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+--- post-sync production content grep ---
+prod svg ryuuryuu: 0 (expect 0)
+prod text.md ryuuryuu: 0 (expect 0)
+prod text.md rikuryuu: 5 (expect 5)
+--- KIT update ---
+kit update RC=0
+--- synced fingerprints ---
+0726eda64903e4b765ef25b3d759b96e806fed13b076e4b13e89108e4c957f8d  Lucerna-VOL4-JA-RU-web.pdf
+04b2f315e267d8cf665f07da2c45cf64b80e3ae9f17e8bd8babff6c714636510  Lucerna-VOL4-JA-RU.pdf
+f934bcf1d9f4611d094ed6f55a1f76fc8da74663cfe647c9fed17025af3d4eec  2026-w47-ja-ru.text.md
+Lucerna-VOL4-JA-RU-web.pdf 4540808
+Lucerna-VOL4-JA-RU.pdf 25970343
+2026-w47-ja-ru.text.md 53004
+
+--- pre-fix fingerprints ---
+2ab6a7d2d740f34834b36ee753c62eafb2e09785c1e212f08f8c2f3c5752268a  Lucerna-VOL4-JA-RU.pdf
+f70444a63e48b76298fb40493203a4b3f83a43f6ef559e0026a2fd7a9d7d525f  Lucerna-VOL4-JA-RU-web.pdf
+88e3680b5d3194c88cfb07fb3cf536b9cba83d338398c4ebdab4995efcd716b0  2026-w47-ja-ru.text.md
+Lucerna-VOL4-JA-RU.pdf 25970245
+Lucerna-VOL4-JA-RU-web.pdf 4540692
+2026-w47-ja-ru.text.md 53004
+
+updated Print sha in §8 head: 04b2f315e267
+updated Web sha in §8 head: 0726eda64903
+SVG changed vs pre-fix: ['p7-kotoba.svg', 'p8-tesuto.svg']
+SVG unchanged: ['p1-hyoushi.svg', 'p2-kurashi.svg', 'p3-bunka.svg', 'p4-supotsu.svg', 'p5-wakamono.svg', 'p6-fukayomi.svg']
+KIT updated: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ja-ru/WEEKLY-KIT.md
+print Lucerna-VOL4-JA-RU.pdf 25970343 04b2f315e267
+web Lucerna-VOL4-JA-RU-web.pdf 4540808 0726eda64903
+text 2026-w47-ja-ru.text.md 53004 f934bcf1d9f4
+--- clean scratch build copies ---
+/dev/mapper/rv  150G   94G   56G  64% /home/hatch
+4.7M	/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-ja/ja-ru
+===== FIX ja-ru COMPLETE 2026-11-12T16:55:12Z =====

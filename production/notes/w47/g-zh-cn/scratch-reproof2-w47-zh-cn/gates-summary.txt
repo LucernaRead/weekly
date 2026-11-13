@@ -1,0 +1,110 @@
+===== core-zh-cn =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn/svg: 0 flags 
+spill RC=0 SPILL_SWEEP core-zh-cn: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+boxtitle RC=0 == core-zh-cn  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/core-zh-cn
+edge RC=0 EDGE_SCAN core-zh-cn: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-en =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-en/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-en: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-en  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-en
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-en: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-de =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-de/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-de: 35 boxes, 83 candidates, 0 SPILL, 83 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-de  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-de
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-de: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-fr =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-fr/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-fr: 35 boxes, 85 candidates, 0 SPILL, 85 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-fr  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-fr
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-fr: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-es =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-es/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-es: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-es  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-es
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-es: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-it =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-it/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-it: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-it  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-it
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-it: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-pt =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-pt/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-pt: 35 boxes, 84 candidates, 0 SPILL, 84 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-pt  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-pt
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-pt: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-nl =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-nl/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-nl: 35 boxes, 84 candidates, 0 SPILL, 84 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-nl  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-nl
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-nl: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-ru =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ru/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-ru: 35 boxes, 90 candidates, 0 SPILL, 90 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-ru
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-ru: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-ja =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ja/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-ja: 35 boxes, 107 candidates, 0 SPILL, 107 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-ja  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-ja
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-ja: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0
+===== 2026-w47-zh-cn-ko =====
+p8 compare RC=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+p8 extract RC=0   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+occlusion RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-cn-ko/svg: 0 flags 
+spill RC=0 SPILL_SWEEP 2026-w47-zh-cn-ko: 35 boxes, 140 candidates, 0 SPILL, 140 OBSERVE
+boxtitle RC=0 == 2026-w47-zh-cn-ko  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-cn/scratch-fanout-zh-cn/backup/2026-w47-zh-cn-ko
+edge RC=0 EDGE_SCAN 2026-w47-zh-cn-ko: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0 CREAMBOX PASS 0 defects
+census RC=0 CENSUS PASS
+quotes RC=0 GRAND TOTAL defective: 0

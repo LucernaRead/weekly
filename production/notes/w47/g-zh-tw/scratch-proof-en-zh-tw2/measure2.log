@@ -1,0 +1,45 @@
+=== PART A2: cream-box titles — advance + TRUE INK capped at box_right+10 ===
+p1-front box 989..1412 title y=823.2 adv 1007.0..1410.0 margin=+1.5 | ink 1008..1407 margin=+4.5 [ok] :: 'THE WEEK IN NUMBERS\u3000數字看本週'
+p1-front box 1440..1862 title y=628.0 adv 1461.5..1602.3 margin=+259.7 | ink 1464..1600 margin=+262.0 [ok] :: 'SEARCHES'
+p1-front box 1440..1862 title y=1320.0 adv 1461.5..1744.5 margin=+117.5 | ink 1464..1742 margin=+120.0 [ok] :: 'IN THIS ISSUE\u3000本期目錄'
+p1-front box 1440..1862 title y=1914.0 adv 1461.5..1634.3 margin=+227.7 | ink 1464..1632 margin=+230.0 [ok] :: 'IN BRIEF\u3000快訊'
+p2-life box 538..961 title y=562.8 adv 556.5..930.5 margin=+30.5 | ink 558..929 margin=+32.0 [ok] :: 'SENATE IN NUMBERS\u3000參議院數字'
+p2-life box 989..1412 title y=237.0 adv 1007.0..1294.2 margin=+117.3 | ink 1008..1291 margin=+120.5 [ok] :: 'THE CALENDAR\u3000本週日曆'
+p2-life box 989..1412 title y=1438.5 adv 1007.0..1375.8 margin=+35.7 | ink 1009..1382 margin=+29.5 [ok] :: '譯注｜to certify = 正式確認 · a runoff ='
+p2-life box 1440..1862 title y=874.9 adv 1461.5..1651.7 margin=+210.3 | ink 1464..1647 margin=+215.0 [ok] :: 'DID YOU KNOW?'
+p2-life box 1440..1862 title y=1253.4 adv 1461.5..1723.7 margin=+138.3 | ink 1462..1720 margin=+142.0 [ok] :: 'AND YOU?\u3000說說你自己'
+p3-culture box 538..961 title y=237.0 adv 556.5..836.6 margin=+124.4 | ink 558..835 margin=+126.0 [ok] :: 'COMING SOON\u3000即將上映'
+p3-culture box 538..961 title y=1262.1 adv 556.5..904.7 margin=+56.3 | ink 558..910 margin=+51.0 [ok] :: '譯注｜a tribute = 被選中的參賽者 · a'
+p3-culture box 1440..1862 title y=893.0 adv 1457.5..1842.9 margin=+19.1 | ink 1460..1840 margin=+22.0 [ok] :: "HAYMITCH'S GAMES\u3000海米奇的比賽"
+p4-sport box 538..961 title y=526.4 adv 556.5..885.9 margin=+75.1 | ink 557..878 margin=+83.0 [ok] :: 'WHY PERTH?\u3000為什麼去珀斯？'
+p4-sport box 538..961 title y=1474.0 adv 556.5..923.3 margin=+37.7 | ink 558..931 margin=+30.0 [ok] :: '譯注｜a Test = 五日板球賽 · a tour = 巡'
+p4-sport box 1440..1862 title y=893.0 adv 1457.5..1782.1 margin=+79.9 | ink 1459..1784 margin=+78.0 [ok] :: 'SATURDAY, NOV 21\u3000週六賽程'
+p5-youth box 88..510 title y=2070.9 adv 106.0..486.9 margin=+23.6 | ink 108..481 margin=+29.5 [ok] :: 'ODD SOCKS, IN NUMBERS\u3000奇襪日'
+p5-youth box 538..961 title y=238.5 adv 556.5..937.8 margin=+23.2 | ink 559..943 margin=+18.0 [ok] :: '譯注｜bullying = 欺凌 · to speak up = 大'
+p5-youth box 1440..1862 title y=889.0 adv 1457.5..1707.6 margin=+154.4 | ink 1459..1704 margin=+158.0 [ok] :: 'SPEAK UP\u3000大聲說出來'
+p6-deep box 538..961 title y=237.0 adv 556.5..895.4 margin=+65.6 | ink 557..895 margin=+66.0 [ok] :: 'A PRACTICE BALLOT\u3000模擬選票'
+p6-deep box 538..961 title y=817.3 adv 556.5..889.0 margin=+72.0 | ink 559..895 margin=+66.0 [ok] :: '譯注｜to call a race = 宣佈結果 · to'
+p6-deep box 1440..1862 title y=703.0 adv 1457.5..1732.5 margin=+129.5 | ink 1460..1726 margin=+136.0 [ok] :: 'HOW LONG?\u3000任期多長？'
+p7-lang box 88..510 title y=292.5 adv 106.0..490.9 margin=+19.6 | ink 108..496 margin=+14.5 [ok] :: '譯注｜Win是現在時（每次都贏）；won是'
+p7-lang box 88..510 title y=961.9 adv 106.0..460.3 margin=+50.2 | ink 107..465 margin=+45.5 [ok] :: '譯注｜comparative = 比較級：用more'
+p7-lang box 88..510 title y=1637.2 adv 106.0..488.3 margin=+22.2 | ink 108..487 margin=+23.5 [ok] :: '譯注｜will + 動詞原形：說將要發生的事；'
+p7-lang box 88..510 title y=2100.5 adv 106.0..482.1 margin=+28.4 | ink 108..488 margin=+22.5 [ok] :: '譯注｜past simple = 一般過去時：已經發'
+p7-lang box 538..961 title y=292.5 adv 556.5..942.7 margin=+18.3 | ink 559..948 margin=+13.0 [ok] :: '譯注｜headline present = 標題現在時：報'
+p7-lang box 538..961 title y=722.3 adv 556.5..923.0 margin=+38.0 | ink 559..924 margin=+37.0 [ok] :: '譯注｜whether引導賓語從句：不知道結'
+p7-lang box 1440..1862 title y=688.0 adv 1457.5..1756.1 margin=+105.9 | ink 1459..1754 margin=+108.0 [ok] :: 'THE TOOLBOX\u3000句型工具箱'
+p8-test box 989..1862 title y=1758.0 adv 1011.0..1161.2 margin=+700.8 | ink 1013..1159 margin=+703.0 [ok] :: 'MODEL\u3000範文'
+
+=== PART B2: P2 cream rects near y 1600-1800 (SAY IT strip) ===
+-- rect x=159..439 y=1636..1768 w=280 h=132
+   y=1696.0 adv 181.0..417.1 overR=-21.9 underL=+22.0 ink=(182, 418) :: 'The counting continues.'
+   y=1738.0 adv 229.0..369.0 overR=-70.0 underL=+70.0 ink=(231, 359) :: '計票還在繼續。'
+-- rect x=560..940 y=1636..1768 w=380 h=132
+   y=1696.0 adv 574.0..926.1 overR=-13.9 underL=+14.0 ink=(575, 930) :: 'The new Congress meets in January.'
+   y=1738.0 adv 660.0..840.0 overR=-100.0 underL=+100.0 ink=(661, 830) :: '新國會在一月開會。'
+-- rect x=1060..1340 y=1636..1768 w=280 h=132
+   y=1696.0 adv 1094.9..1305.1 overR=-34.9 underL=+34.9 ink=(1096, 1306) :: 'Happy Thanksgiving!'
+   y=1738.0 adv 1140.0..1260.0 overR=-80.0 underL=+80.0 ink=(1141, 1250) :: '感恩節快樂！'
+   y=1700.0 adv 1370.0..1463.2 overR=+123.2 underL=+310.0 ink=(1371, 1467) :: 'a runoff'
+
+=== PART C2: AND YOU? box (find by title text) true-ink bottom ===
+AND YOU? box x=1440..1862 y=1211 bottom=1515.9 lastBaseline=1511.4 clearance=+4.5 last='句英語寄給編輯部。' trueInkBottom=1512 inkClearance=+3.9

@@ -1,0 +1,14 @@
+=== P2 AND YOU? last line (true ink) ===
+text x=1461.5 baseline y=1539.85 size=20.0; box x=1439.5 y=832.8999999999999 w=422.5 h=352.5 bottom=1185.4
+cream-match fraction y=1543 0.98 y=1544 0.98 y=1545 0.00; edge row=1545 (box bottom edge between 1544 and 1545)
+  [dark lum<120] lowest ink row=1543 (1488, 1493, 2); clearance vs SVG bottom 1185.4: -357.6 px; vs pixel edge 1545: 1 px
+    rows near tail: {1538: (1464, 1702, 56), 1539: (1488, 1495, 3), 1540: (1495, 1495, 1), 1541: (1487, 1495, 2), 1542: (1487, 1495, 2), 1543: (1488, 1493, 2)}
+  [off-cream |lum diff|>25] lowest ink row=1544 (1488, 1493, 6); clearance vs SVG bottom 1185.4: -358.6 px; vs pixel edge 1545: 0 px
+    rows near tail: {1538: (1463, 1703, 141), 1539: (1463, 1702, 117), 1540: (1487, 1496, 5), 1541: (1486, 1496, 6), 1542: (1486, 1495, 5), 1543: (1487, 1495, 9), 1544: (1488, 1493, 6)}
+crop saved: render/crop-p2-andyou.png
+
+=== P3 HAYMITCH title (true ink) ===
+title "HAYMITCH'S GAMES\u3000Spiele" x=1457.5 baseline y=893.0 size=23.0; box x=1439.5 y=856.0 w=422.5 h=212.62 right=1862.0
+rightmost dark ink x=1772 (y=884); clearance vs box right 1862.0: 90.0 px
+topmost ink row: 875 box top y: 856.0 -> top clearance: 19.0
+crop saved: render/crop-p3-haymitch.png

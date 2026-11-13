@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -66,13 +66,13 @@
+ f.ex("B1", "Составьте предложения", "Il torrone si assaggia a Cremona.", "Подлежащее + глагол",
+      "il torrone / si assaggia / a Cremona → ___", instr="Составьте предложения", size=15.5, gap=1)
+ f.head("E　TRADUCI", 22, OLIVE, 5)
+-f.ex("A2", "Переведите", "В праздник Мадонны делла Салюте люди переходят обетный мост.", "Сравните с оригиналом",
++f.ex("A2", "翻译", "В праздник Мадонны делла Салюте люди переходят обетный мост.", "Сравните с оригиналом",
+      "Per la Madonna della Salute si attraversa il ponte votivo. → ___", instr="Переведите на русский", size=15.5, gap=1)
+-f.ex("B1", "Переведите", "В воскресенье вечером «Аталанта» играет с «Интером».", "si gioca = играется",
++f.ex("B1", "翻译", "В воскресенье вечером «Аталанта» играет с «Интером».", "si gioca = играется",
+      "Domenica sera si gioca Atalanta–Inter. → ___", instr="Переведите на русский", size=15.5, gap=1)
+-f.ex("B1", "Переведите", "В субботу «Лацио» играет дома с «Лечче».", "in casa = дома",
++f.ex("B1", "翻译", "В субботу «Лацио» играет дома с «Лечче».", "in casa = дома",
+      "Sabato la Lazio gioca in casa con il Lecce. → ___", instr="Переведите на русский", size=15.5, gap=1)
+-f.ex("B2", "Переведите", "Ogni cifra deve essere chiara.", "dovere = должен",
++f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = должен",
+      "Каждая цифра должна быть понятной. → ___", instr="Переведите на итальянский", size=15.5, gap=1)
+ f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+ f.match_set("B2", "Подберите слова",

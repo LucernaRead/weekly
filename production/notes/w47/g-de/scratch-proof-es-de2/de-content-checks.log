@@ -1,0 +1,148 @@
+== golden sentences (expect 2 each) ==
+  2x  La campaña electoral empezó el viernes 13, a las 00:00, y du...
+  2x  La Liga se para y vuelve: después del parón de selecciones, ...
+  2x  El jueves 19 es un día clave: termina el plazo para pedir el...
+  2x  ¿Votas por primera vez el 29 de noviembre? Tienes dos manera...
+  2x  El lunes 16 de noviembre es el Día Internacional del Flamenc...
+  2x  En campaña, no todo lo que se anuncia está cerrado....
+  2x  No es solo un baile: es cante, toque y baile, con palmas, ta...
+  2x  Una encuesta es una foto con margen de error, tomada en un d...
+== badge-ish tokens per page ==
+  p1-portada.svg Counter({'A2': 12, 'B1': 5, 'B2': 2}) total 19
+  p2-vida.svg Counter({'A2': 15, 'B1': 2}) total 17
+  p3-cultura.svg Counter({'A2': 13, 'B1': 9}) total 22
+  p4-deporte.svg Counter({'B1': 17}) total 17
+  p5-juventud.svg Counter({'B1': 20}) total 20
+  p6-afondo.svg Counter({'B2': 20}) total 20
+  p7-lengua.svg Counter({'A2': 5, 'B1': 5, 'B2': 5}) total 15
+  p8-ejercicios.svg Counter({'B1': 21, 'A2': 11, 'B2': 3}) total 35
+== text.md counts ==
+  'hasta el jueves': text.md=7 svg=11
+  'antes del jueves': text.md=0 svg=0
+  'sábado veo el derbi': text.md=1 svg=2
+  'VOL.4': text.md=1 svg=9
+  'VOL.5': text.md=3 svg=3
+  'VOL.3': text.md=0 svg=0
+  '12 de noviembre': text.md=0 svg=0
+  'Ucrania': text.md=0 svg=0
+  'Rusia': text.md=0 svg=0
+  'guerra': text.md=0 svg=0
+  'Trump': text.md=0 svg=0
+  'Putin': text.md=0 svg=0
+  'OTAN': text.md=0 svg=0
+  'Israel': text.md=0 svg=0
+  'Gaza': text.md=0 svg=0
+  'Palestina': text.md=0 svg=0
+  'next Sunday': text.md=0 svg=0
+  'hasta el jueves 19': text.md=5 svg=9
+== D5: Noto Sans CJK SC text runs ==
+  total NotoSansCJKSC runs: 636, Latin-only runs: 537
+   e.g. 'SEMANA DEL 16 AL 22 DE NOVIEMBRE DE 2026'
+   e.g. 'EL PERIÓDICO SEMANAL PARA APRENDER — LA VIDA REAL,'
+   e.g. '¡LA CAMPAÑA ARRANCA!'
+   e.g. 'Hinweis · la campaña electoral der'
+   e.g. 'Wahlkampf · el debate die Debatte · el'
+   e.g. 'cara a cara das Duell zu zweit · el voto por'
+   e.g. 'correo die Briefwahl · la jornada de'
+   e.g. 'reflexión der Tag der Besinnung.'
+== freeze removed strings containing Latin letters beyond single chars ==
+  p1: removed n=35 with Latin>=3chars: 16
+      'AHORA TÚ\u3000即学即练'
+      'BREVES\u3000快讯'
+      'CADA SEMANA EN ESPAÑOL\u3000每周一期\u3000读西班牙人正在读的西班牙语'
+      'EN ESTA EDICIÓN\u3000本期目录'
+      'LA NOTICIA\u3000头条'
+      'LA SEMANA EN CIFRAS\u3000数字看本周'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'QUIZ RELÁMPAGO\u3000闪电问答'
+      'debate 辩论 · el cara a cara 两人正面辩论 ·'
+      'el voto por correo 邮寄投票 · la jornada de'
+      'elecciones del domingo 29'
+      'por correo'
+  p2: removed n=42 with Latin>=3chars: 14
+      '(PSOE) y Juan Bravo (PP)'
+      'EJERCICIOS\u3000第2版练习'
+      'EL CALENDARIO\u3000本周日历'
+      'LOS DÍAS DE LA SEMANA\u3000这样说日期'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'NIVEL A2\u3000La semana, día a día\u3000这一周，一天一天看'
+      'PSOE '
+      'Real Madrid–Celta, 21:00'
+      'Sánchez–Feijóo'
+      'VIDA\u3000生活'
+      'lunes 16 – domingo 22 de noviembre\u300011月16日周一至22日周日'
+      'voto por correo'
+  p3: removed n=20 with Latin>=3chars: 7
+      'A2 → B1\u3000Flamenco y Santa Cecilia\u3000弗拉门戈与圣塞西莉亚'
+      'CULTURA\u3000文化'
+      'EJERCICIOS\u3000第3版练习'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'duende 弗拉门戈的灵魂。'
+      '· el baile 舞蹈 · el compás 节拍 · el'
+      '译注｜el cante 歌唱 · el toque 吉他弹奏'
+  p4: removed n=20 with Latin>=3chars: 10
+      'DEPORTE\u3000体育'
+      'EJERCICIOS\u3000第4版练习'
+      'LA JORNADA 13\u3000LOS SEIS PARTIDOS DE LA SEMANA\u3000第13轮六场焦点战'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'NIVEL B1\u3000Vuelve la Liga: la jornada 13\u3000联赛回归：第13轮'
+      'el liderato 榜首 · el parón 休赛期 · la'
+      'fase liga 联赛阶段。'
+      '把句子改成过去时（pretérito indefinido）。'
+      '用括号里词的比较级或 -ísimo 形式填空。'
+      '译注｜la jornada 轮次 · el derbi 德比 ·'
+  p5: removed n=37 with Latin>=3chars: 13
+      '14:00; Santa Cecilia'
+      'Después ___ ('
+      'EJERCICIOS\u3000第5版练习'
+      'EL PLAN DE LA SEMANA\u3000本周计划'
+      'JUVENTUD\u3000青年'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'NIVEL B1\u3000Votar por primera vez\u3000第一次投票'
+      'enviar) el sobre.'
+      'primer lunes de campaña'
+      'urna 投票箱。'
+      'voto por correo'
+      '· el censo 选民名册 · el plazo 期限 · la'
+  p6: removed n=10 with Latin>=3chars: 6
+      'A FONDO\u3000深读'
+      'EJERCICIOS\u3000第6版练习'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'NIVEL B2\u3000Leer la campaña: debates, programas y encuestas\u3000读懂竞选'
+      'indecisos · margen de error'
+      '用方框里的词填空：sondeo · muestra ·'
+  p7: removed n=38 with Latin>=3chars: 30
+      '11 月 16 日周一是国际弗拉门戈日，吉他声响遍西班牙。 (Página 3)'
+      '11 月 29 日你第一次投票吗？两种方式：亲自去或邮寄。 (Página 5)'
+      'ERRORES TÍPICOS\u3000常见错误'
+      'FRASES DE LA SEMANA\u3000本周金句（逐字摘自本期文章）'
+      'LA PALABRA\u3000本周生词'
+      'LA PRÓXIMA SEMANA\u3000下期预告 (VOL.5)'
+      'LENGUA\u3000语言'
+      'La Lucerna\u3000西班牙语周报 VOL.4\u3000LUCERNA SPANISH WEEKLY'
+      'bueno→mejor、malo→peor；绝不说 más'
+      'creo que 表肯定，用陈述式 es。'
+      'debate = 辩论：公开讨论，有轮次。本期'
+      'ejemplo,'
+  p8: removed n=348 with Latin>=3chars: 100
+      '100. margen de error — margen de error = '
+      '102. Son — '
+      '103. las — a las 21:00'
+      '105. más goles — más + goles'
+      '106. tan rápido — tan + rápido + como'
+      '107. mejor — bueno '
+      '108. B — más mejor '
+      '109. baje — es necesario que + '
+      '110. sea — para que + '
+      '111. es — creo que + '
+      '112. B — ojalá + '
+      '113. A — el flamenco suena = '
+== content8.py section headers ==
+   'A\u3000COMPLETA LA CRÓNICA'
+   'B\u3000PREGUNTAS GENERALES'
+   'C\u3000LEE Y RESPONDE'
+   'D\u3000CONSTRUYE FRASES'
+   'E\u3000TRADUCE'
+   'F\u3000LAS PALABRAS DEL 29N'
+   'G\u3000DIÁLOGO EN EL COLEGIO'
+   'H\u3000ESCRIBE TÚ'

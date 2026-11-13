@@ -1,0 +1,17 @@
+=== P2 AND YOU? last line ===
+SVG text element: [(1461.5, 1539.85, 20.0, 'Englisch an die Redaktion.')]
+box rect(s) near y=1211: [(1439.5, 1211.3999999999999, 422.5, 333.5, '#f0eee5')]
+card size: (1950, 2700)
+box x=1439.5 y=1211.3999999999999 w=422.5 h=333.5 bottom=1544.8999999999999 fill=#f0eee5
+cream sample: (240, 238, 229) paper-below sample: (251, 250, 246)
+detected cream bottom edge row (majority of box width): 1291
+last-line baseline y=1539.85; lowest ink row=1583 (x=1557); clearance vs SVG box bottom 1544.8999999999999: -38.100000000000136 px
+clearance vs detected cream edge 1291: -292 px
+crop saved: render/crop-p2-andyou.png
+
+=== P3 HAYMITCH title ===
+SVG title element: [(1457.5, 893.0, 23.0, "HAYMITCH'S GAMES\u3000Spiele")]
+box rect(s) near y=856: [(989.0, 858.6750000000002, 60.0, 30.0, '#5c6e30'), (1439.5, 856.0, 422.5, 212.62, '#f0eee5')]
+title baseline y=893.0 size=23.0; box right edge x=1049.0; rightmost ink x=None (y=None); clearance None px
+topmost ink row of title band: None box top y: 858.6750000000002
+crop saved: render/crop-p3-haymitch.png

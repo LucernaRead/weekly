@@ -1,0 +1,10 @@
+runtime: /usr/bin/python3 | Pillow 10.2.0 | FreeType 2.13.2
+p1: +18 strings / -17 strings; CJK core 1365 -> edition 1277; added CJK chars: 0 
+p2: +38 strings / -35 strings; CJK core 1604 -> edition 1398; added CJK chars: 1 {'\u3000': 1}
+p3: +31 strings / -28 strings; CJK core 1501 -> edition 1349; added CJK chars: 1 {'\u3000': 1}
+p4: +23 strings / -22 strings; CJK core 1178 -> edition 1064; added CJK chars: 1 {'\u3000': 1}
+p5: +34 strings / -31 strings; CJK core 1257 -> edition 1108; added CJK chars: 1 {'\u3000': 1}
+p6: +18 strings / -15 strings; CJK core 1199 -> edition 1111; added CJK chars: 1 {'\u3000': 1}
+p7: +42 strings / -39 strings; CJK core 1507 -> edition 1220; added CJK chars: 1 {'\u3000': 1}
+p8: +177 strings / -167 strings; CJK core 2443 -> edition 1306; added CJK chars: 1 {'\u3000': 1}
+TOTAL added CJK characters: 7

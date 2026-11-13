@@ -1,0 +1,51 @@
+===== core-zh-cn 2026-11-12T08:11:35Z =====
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=0
+head_check RC=0
+HEAD CHECK PASS 0 defects
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn/Lucerna-VOL4-web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn/svg: 0 flags 
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn/svg/p8-ceyan.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-zh-cn/scratch-fanout-zh-cn/backup/core-zh-cn/svg/p8-ceyan.svg)
+edition /home/hatch/workspace/weekly-git/production/2026-w47/core-zh-cn/svg/p8-ceyan.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+freeze baseline RC=0
+  OK  p8-ceyan.svg core 8726003611f54a63 produced 8726003611f54a63
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff-vs-base RC=0
+p7: +82 strings / -26 strings; CJK core 753 -> edition 753; added CJK chars: 0 ; added Latin strings: 33 (unexpected 33)
+p8: +44 strings / -12 strings; CJK core 1125 -> edition 1125; added CJK chars: 0 ; added Latin strings: 20 (unexpected 20)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 276 (unexpected 276)
+added CJK vs base (excl U+3000): {}
+spill RC=0
+   ABOVE -23.91px x=1598.4 y=1147.0 [observe] '… — first X, then Y.'
+SPILL_SWEEP core-zh-cn: 35 boxes, 86 candidates, 0 SPILL, 86 OBSERVE
+boxtitle RC=0
+== core-zh-cn  core=self backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-zh-cn/scratch-fanout-zh-cn/backup/core-zh-cn
+BOXTITLE core-zh-cn: 48 titles, 589 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.2}
+EDGE_SCAN core-zh-cn: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=368 median=1.015 boldT=1.04 boldF=0.994
+P8 p8-ceyan.svg: lines 246->246 slack_footer 55.9->55.9
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+CENSUS PASS
+quotes RC=0
+    Newsreader (ok): U+201Cx2,U+201Dx2
+GRAND TOTAL defective: 0
+textcheck RC=0
+post-print chars=22523 post-web chars=22523 pre-print chars=22523
+print-vs-web: added={} removed={}
+pre-vs-post-print: added={} removed={}
+print-vs-web quirk-only-or-clean: True
+TEXTCHECK PASS
+text.md: BYTE-IDENTICAL to pre-fix
+OVERALL: ALL-GREEN

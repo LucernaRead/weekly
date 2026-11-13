@@ -1,0 +1,17 @@
+cream boxes total: 36
+STRADDLE flags: 1
+  STRADDLE {'page': 'p4-sport.svg', 'text': 'exercise?', 'ink': [1461.5, 1346.7, 1546.0, 1362.4], 'cream': [1439.5, 1128.0, 1862.0, 1358.0]}
+CREAM-COVER flags: 0
+min bottom clearance per page:
+  p1-front.svg: min bottom clearance 16.5px over 5 boxes
+  p2-life.svg: min bottom clearance 37.1px over 6 boxes
+  p3-culture.svg: min bottom clearance 14.1px over 7 boxes
+  p4-sport.svg: min bottom clearance 17.1px over 4 boxes
+  p5-youth.svg: min bottom clearance 4.4px over 8 boxes
+  p6-deep.svg: min bottom clearance 17.1px over 3 boxes
+  p7-lang.svg: min bottom clearance 7.7px over 3 boxes
+P7 cream boxes (clearance = ink-to-edge px):
+  [1439.5, 200.0, 1862.0, 877.6] inner: 39 clearance: {'left': 22.0, 'right': 24.5, 'top': 22.0, 'bottom': 40.3}
+  [1439.5, 889.6, 1862.0, 1202.1] inner: 15 clearance: {'left': 21.8, 'right': 27.0, 'top': 22.2, 'bottom': 7.7}
+  [1439.5, 1214.1, 1862.0, 1825.4] inner: 23 clearance: {'left': 22.0, 'right': 13.5, 'top': 22.2, 'bottom': 9.2}
+CREAMBOX DONE

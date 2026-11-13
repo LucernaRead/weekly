@@ -1,0 +1,108 @@
+===== 2026-w47-en-ru 2026-11-13T01:21:58Z =====
+  !! HEAD TOO WIDE [P7-col3]: AN EXAMPLE LETTER　Пример
+  !! HEAD TOO WIDE [P8-battery]: C　READING　Понимание текста
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+run.py RC=0 TOTAL=150 OVERFLOW=0 HEAD_TOO_WIDE=2
+head_check RC=1
+DEFECT /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en-ru2/gates2/run.log:30 HEAD TOO WIDE [P8-battery]: C　READING　Понимание текста
+HEAD CHECK FAIL 2 defects
+textmd export RC=0
+P1 saved, exercises so far: 10
+P2 col3 ends 1436.0
+P2 saved, exercises so far: 27
+P3 saved, exercises so far: 45
+P4 saved, exercises so far: 63
+P5 saved, exercises so far: 81
+P6 saved, exercises so far: 99
+P7 saved, exercises so far: 111
+MODEL words: 82
+P8 saved, TOTAL exercises: 150
+paras: 498 answers: 150 bytes: 62552
+REG total: 150
+text.md diff lines: 0
+registry.json diff lines: 0
+render.py RC=0
+webpdf.py RC=0 -> /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/The-Lucerna-VOL4-en-ru.web.pdf
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg: 0 flags 
+occlusion --selftest RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+p8 extract RC=0
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg/p8-test.svg: noted set = 60 of 150 (parse: joined)
+  set: [3, 14, 36, 43, 54, 57, 66, 71, 72, 76, 82, 83, 84, 85, 86, 87, 89, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+p8 compare RC=0 (core-p8=/home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-en/svg/p8-test.svg: 60 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-en-ru/svg/p8-test.svg: 60 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+keydiff: [137, 138, 139, 140, 150]
+freeze baseline RC=0
+  OK  p8-test.svg core 1812befa76aa0d2f produced 1812befa76aa0d2f
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+freeze diff RC=0
+p8: +567 strings / -381 strings; CJK core 634 -> edition 24; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 95 (unexpected 95)
+TOTAL added CJK characters: 9
+TOTAL added Latin strings: 145 (unexpected 145)
+spill RC=0
+   ABOVE -22.00px x=989.0 y=1698.0 [observe] 'The Main Reading Room, Library of Congress — Carol M. Highsm'
+SPILL_SWEEP 2026-w47-en-ru: 32 boxes, 176 candidates, 0 SPILL, 176 OBSERVE
+boxtitle RC=0
+== 2026-w47-en-ru  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-en/scratch-fanout-en/backup/2026-w47-en-ru
+BOXTITLE 2026-w47-en-ru: 42 titles, 397 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 55.1}
+EDGE_SCAN 2026-w47-en-ru: 8 pages, 0 TOUCH, 0 NEAR
+creambox RC=0
+ratios: n=4 median=1.0 boldT=1.0 boldF=1.0
+P8 p8-test.svg: lines 203->203 slack_footer 36.3->36.3
+CREAMBOX PASS 0 defects
+census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=164 curly_in_newsreader=164 noto_sans_elements=935
+CENSUS PASS
+print-vs-web text: BYTE-IDENTICAL
+print text diff vs pre-fix: 27 lines
+40a41,42
+> THE WEEK IN NUMBERS Цифры
+> 
+45,49d46
+< Поиски недели
+< 
+< Google Trends
+< 
+< THE WEEK IN NUMBERS Цифры
+135a133,135
+> Поиски недели
+> 
+> Google Trends
+1428a1429
+> 
+1504a1506,1507
+> A PRACTICE BALLOT Бюллетень
+> For Governor: ☐ Candidate A · ☐
+1514,1515d1516
+< Associated Press had called the big
+< 
+1540a1542
+> called and the Republicans 13, with
+1709c1711
+< called and the Republicans 13, with
+---
+> Democrats won 20 of the 33 races
+1718,1719c1720
+< 
+< Democrats won 20 of the 33 races
+---
+> Here is the map, as called on Sunday,
+1723c1724
+< A PRACTICE BALLOT Бюллетень The House numbers add up to... A. 218 ·
+---
+> The House numbers add up to... A. 218 ·
+1725d1725
+< For Governor: ☐ Candidate A · ☐
+1728,1729c1728
+< 
+< Here is the map, as called on Sunday,
+---
+> Associated Press had called the big
+OVERALL: HAS-FAILURES

@@ -1,0 +1,20 @@
+D6 bridge: cur_w=422.5 band=304.3..427.8 mid=366.05 n_good=1236
+  target=['Заполни в перфекте. Следи за', 'вспомогательными глаголами', 'hebben/zijn.']
+  at mid: ['Заполни в перфекте. Следи за', 'вспомогательными глаголами', 'hebben/zijn.']
+D7 bridge: cur_w=422.5 band=419.8..451.9 mid=435.85 n_good=322
+  target=['de wedstrijd матч; de groepswinst победа в', 'группе; de kwartfinale четвертьфинал;', 'scoren забивать.']
+  at mid: ['de wedstrijd матч; de groepswinst победа в', 'группе; de kwartfinale четвертьфинал;', 'scoren забивать.']
+D8 capcn: cur_w=378.5 band=353.1..385.5 mid=369.3 n_good=325
+  target=['Учебные данные: выдуманные числа,', 'только для упражнения, не настоящий', 'опрос. Вопрос: что ты кладёшь в', 'ботинок? (100 молодых людей)']
+  at mid: ['Учебные данные: выдуманные числа,', 'только для упражнения, не настоящий', 'опрос. Вопрос: что ты кладёшь в', 'ботинок? (100 молодых людей)']
+D10 dt_zh: cur_w=378.5 band=373.2..395.4 mid=384.3 n_good=223
+  target=['Писем и лучших текстов не поступило', '— образец; обещание на VOL.5.']
+  at mid: ['Писем и лучших текстов не поступило', '— образец; обещание на VOL.5.']
+D11 facts wrap counts: [3, 3, 3, 2, 3] total lines: 14
+D11 sh old=611.0 new=638.0 (top reserve 62 -> 89)
+   ['Maandag 16 november, 20:45 uur:', 'Duitsland – Nederland, Berlijn, NPO', '3.']
+   ['Stand na 4 wedstrijden: Nederland 8,', 'Griekenland 8, Duitsland 5, Servië 0', 'punten.']
+   ['Speelronde 12: Heerenveen –', 'Feyenoord 5–3; Cambuur – PSV 2–5;', 'Twente – Ajax 2–2.']
+   ['Stand Eredivisie na 12 ronden: PSV', '26, Feyenoord 25, Ajax 25 punten.']
+   ['Speelronde 13: zaterdag NEC – PSV', '16:30 uur; Feyenoord – Excelsior', '18:45 uur.']
+sim last baseline offset from box top: 533.89 margin vs new sh 638: 104.11 margin vs old sh 611: 77.11

@@ -1,0 +1,31 @@
+===== ko 2026-11-12T23:52:09Z disk=95G =====
+run.py rc=0
+probe rc=0 : 2026-w47-ko-ru: runs=7543 LAT@NotoSans=0 LAT@Newsreader=1188 CYR@NotoSans=3907 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=623 curly={}
+render.py rc=0
+print PDF mtime=2026-11-12 23:53:27.168526323 +0000 size=43846114
+9bf5c43082b6d4e36c8cc7c62a9507fc3ff588616f4fe3e048ae2ce5019d1c48  Lucerna-VOL4-KO-RU.pdf
+pre non-space chars: 23540; post non-space chars: 23540
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (58158 chars)
+webpdf.py rc=0
+web PDF mtime=2026-11-12 23:53:48.118547368 +0000 size=4047903
+5fc509995df17bee4d98e9483a1861157efebece886c535f3a031b9131cbd2fa  Lucerna-VOL4-KO-RU-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-pyoji.svg: No such file or directory
+svg/p1-pyoji.svg: FAILED open or read
+sha256sum: svg/p2-saenghwal.svg: No such file or directory
+svg/p2-saenghwal.svg: FAILED open or read
+sha256sum: svg/p3-munhwa.svg: No such file or directory
+svg/p3-munhwa.svg: FAILED open or read
+sha256sum: svg/p4-seupocheu.svg: No such file or directory
+svg/p4-seupocheu.svg: FAILED open or read
+sha256sum: svg/p5-cheongnyeon.svg: No such file or directory
+svg/p5-cheongnyeon.svg: FAILED open or read
+sha256sum: svg/p6-gipi.svg: No such file or directory
+svg/p6-gipi.svg: FAILED open or read
+sha256sum: svg/p7-mal.svg: No such file or directory
+svg/p7-mal.svg: FAILED open or read
+sha256sum: svg/p8-siheom.svg: No such file or directory
+svg/p8-siheom.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE ko 2026-11-12T23:53:48Z

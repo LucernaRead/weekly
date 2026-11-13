@@ -1,0 +1,18 @@
+reg type: <class 'list'> keys: 150
+ext keys: ['p8', 'total', 'how', 'noted_set', 'keys']
+builder keycheck type: <class 'list'> keys: 150
+reg entries: 150 sample: {'n': 1, 'page': 1, 'level': 'A2', 'type': 'fill-in', 'key': 'Bundesliga', 'note': 'The Bundesliga is back'}
+extract keys type: <class 'dict'> n: 150
+builder sample: {'n': 1, 'page': 1, 'level': 'A2', 'type': 'fill-in', 'key': 'Bundesliga', 'extracted': 'Bundesliga'}
+REG-mine vs builder keycheck-150: diffs = 0 []
+REG vs P8-extract: exact 149/150; non-exact: [(150, 'Open task — follow the points in the writing box', 'Open task')]
+Q8: REG key='A' extracted='A' builder='A'
+Q67: REG key='B' extracted='B' builder='B'
+Q56: REG key='mehr' extracted='mehr' builder='mehr'
+Q137: REG key='The Bundesliga returns on Friday.' extracted='The Bundesliga returns on Friday.' builder='The Bundesliga returns on Friday.'
+Q138: REG key='The markets are shut on Sunday.' extracted='The markets are shut on Sunday.' builder='The markets are shut on Sunday.'
+Q139: REG key='I am making an Advent calendar.' extracted='I am making an Advent calendar.' builder='I am making an Advent calendar.'
+Q140: REG key='Am Montag schaue ich zu Hause Deutschland gegen die Niederlande.' extracted='Am Montag schaue ich zu Hause Deutschland gegen die Niederlande.' builder='Am Montag schaue ich zu Hause Deutschland gegen die Niederlande.'
+Q150: REG key='Open task — follow the points in the writing box' extracted='Open task' builder='Open task — follow the points in the writing box'
+numbering 1..150 continuous: True
+noted_set == 1..150: True

@@ -1,0 +1,14 @@
+CJK getbbox dash+2sp: (0, 55, 86, 75) dash alone: (0, 55, 57, 75) len dash+2sp: 85.90625
+sans getlength ЕЖЕНЕДЕЛЬНАЯ: 513.484375 bbox: (0, 27, 513, 89)
+SCALE: 4
+--- advance-based gaps (next_x - (prev_x+prev_adv)) ---
+0 'ЕЖЕНЕДЕЛЬНАЯ' -> 'ГАЗЕТА' adv-gap=4.8  ink-gap=5.0
+1 'ГАЗЕТА' -> 'ДЛЯ' adv-gap=5.4  ink-gap=5.4
+2 'ДЛЯ' -> 'ИЗУЧАЮЩИХ' adv-gap=6.3  ink-gap=6.3
+3 'ИЗУЧАЮЩИХ' -> 'РУССКИЙ' adv-gap=11.7  ink-gap=11.8
+4 'РУССКИЙ' -> 'ЯЗЫК' adv-gap=8.3  ink-gap=8.4
+5 'ЯЗЫК' -> '—' adv-gap=5.5  ink-gap=5.4
+6 '—' -> 'НАСТОЯЩАЯ' adv-gap=7.1  ink-gap=7.2
+7 'НАСТОЯЩАЯ' -> 'РОССИЯ' adv-gap=9.5  ink-gap=9.5
+8 'РОССИЯ' -> 'ПО-РУССКИ' adv-gap=12.2  ink-gap=12.2
+proof: [7.2, 5.9, 6.8, 6.3, 7.1, 7.4, 7.4, 6.8, 7.6]

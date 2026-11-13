@@ -1,0 +1,14 @@
+p1-front.svg: els 181->229 lines 113->113 diff 0 moved 16 defects 1 observe 0
+  DEFECT abs box#2 y=1352.0 '\u3000今号の内容' over={'right': 7.5}
+p2-leben.svg: els 196->252 lines 141->141 diff 2 moved 15 defects 1 observe 0
+  DEFECT abs box#4 y=1263.9499999999998 '\u3000静かな一週間' over={'right': 19.1}
+p3-kultur.svg: els 245->302 lines 163->163 diff 2 moved 18 defects 0 observe 0
+p4-sport.svg: els 188->234 lines 124->124 diff 4 moved 15 defects 0 observe 0
+p5-jugend.svg: els 218->273 lines 135->135 diff 2 moved 18 defects 1 observe 0
+  DEFECT abs box#2 y=595.1800000000001 '\u3000待降節の言葉' over={'right': 11.4}
+p6-vertiefung.svg: els 206->262 lines 137->137 diff 0 moved 18 defects 0 observe 0
+p7-sprache.svg: els 225->280 lines 109->109 diff 0 moved 12 defects 0 observe 0
+p8-uebungen.svg: els 340->1235 lines 234->232 diff 214 moved 185 defects 0 observe 0
+ratios: n=532 median=1.009 boldT=1.049 boldF=1.0
+P8 p8-uebungen.svg: lines 234->232 slack_footer 33.6->33.6
+CREAMBOX FAIL 3 defects

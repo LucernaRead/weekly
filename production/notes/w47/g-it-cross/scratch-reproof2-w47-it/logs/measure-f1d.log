@@ -1,0 +1,20 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== F-1 final: P1 y=69 line, slogan max x1 (300<x0<1069) vs date x0=1069.3 ==
+core-it: date_x0=1069.3238525390625 slogan_x1=983.5 last='读意大利人正在读的意大利语' gap=85.8
+it-en: date_x0=1069.2734375 slogan_x1=955.1 last='ITALIAN' gap=114.1
+it-de: date_x0=1069.281494140625 slogan_x1=1069.3 last=' ' gap=0.0
+it-fr: date_x0=1069.2734375 slogan_x1=976.9 last='ITALIEN' gap=92.4
+it-es: date_x0=1069.2744140625 slogan_x1=1037.6 last='ITALIA' gap=31.7
+it-pt: date_x0=1069.2734375 slogan_x1=971.5 last='ITALIANO' gap=97.8
+it-nl: date_x0=1069.2734375 slogan_x1=977.7 last='ITALIAANS' gap=91.6
+it-ru: date_x0=1092.5982666015625 slogan_x1=981.2 last='ПО-ИТАЛЬЯНСКИ' gap=111.4
+it-ja: date_x0=1069.320068359375 slogan_x1=1026.4 last='イタリア人が読んでいるイタリア語を読む' gap=42.9
+it-ko: date_x0=1069.3226318359375 slogan_x1=966.3 last='이탈리아인이읽는이탈리아어' gap=103.0
+it-zh-tw: date_x0=1069.3238525390625 slogan_x1=983.5 last='讀義大利人正在讀的義大利語' gap=85.8
+== F-2 SVG: MAR row label x vs body x (core-it p6 svg) ==
+x= 1461.5 'LA STRADA DELLA MANOVRA'
+x= 1461.5 '9–12 NOV.'
+x= 1461.5 'MAR 17 NOV.'
+x= 1611.5 'Scade il termine per gli'
+x= 1481.4 'LE PAROLE DELLA MANOVRA'

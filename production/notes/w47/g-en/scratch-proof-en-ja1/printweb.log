@@ -1,0 +1,15 @@
+print chars 43475 distinct tokens 2252
+web chars 43475 distinct tokens 2252
+token multiset diff total: 0
+only in print: []
+only in web: []
+pages print 9 web 9
+page 1: identical=True print=12210B web=12210B
+page 2: identical=True print=14062B web=14062B
+page 3: identical=True print=11321B web=11321B
+page 4: identical=True print=12197B web=12197B
+page 5: identical=True print=10400B web=10400B
+page 6: identical=True print=11093B web=11093B
+page 7: identical=True print=13750B web=13750B
+page 8: identical=True print=22336B web=22336B
+page 9: identical=True print=0B web=0B

@@ -1,0 +1,14 @@
+=== 1. occlusion audit ===
+occlusion rc=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-es-de/svg: 0 flags 
+=== 2. p8 extract/compare ===
+extract rc=0
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+compare rc=2
+usage: p8.py compare [-h] [--core-p8 CORE_P8] [--edition-p8 EDITION_P8]
+                     [--core-dir CORE_DIR] [--edition-dir EDITION_DIR]
+                     [--target TARGET] [--total TOTAL] [--json JSON_OUT]
+p8.py compare: error: ambiguous option: --core could match --core-p8, --core-dir

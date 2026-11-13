@@ -1,0 +1,6 @@
+== 2026-w47-it-ru  core=production/2026-w47/core-it backup=-
+  P1 [TITLE] DEFECT over=+31.8px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | 'ЦИФРАХ'
+  P1 [TITLE] DEFECT over=+4.8px (right) core=-9.8 backup=None | regression vs core (core -9.8px) | '.'
+  P2 [BODY] DEFECT over=+26.5px (right) core=-8.3 backup=None | regression vs core (core -8.3px) | 'ЗАПОМНИТЕ'
+  P4 [BODY] DEFECT over=+18.1px (right) core=-22.0 backup=None | regression vs core (core -22.0px) | 'DOPO 11 GIORNATE'
+BOXTITLE 2026-w47-it-ru: 37 titles, 498 body lines, 4 DEFECT, 0 OBSERVE, 0 marginal

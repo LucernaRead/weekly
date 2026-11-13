@@ -1,0 +1,14 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+production/2026-w47/2026-w47-pt-de/svg: 12 flags {'COVER': 6, 'TEXTX': 6}
+  [COVER] p7-lingua.svg 'Der Feiertag eröffnet ein dreitägiges Wochenende. (Página 1)' — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg '«Zumbi nasceu em Palmares»' — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg 'Zumbi wurde in Palmares geboren. (Página 3)' — 38% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg 'Warten auf die offiziellen Lösungen. (Página 5)' — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg '«primeiro as fáceis, depois as difíceis»' — 100% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [COVER] p7-lingua.svg 'Erst die leichten Aufgaben, dann die schweren. (Página 6)' — 38% of ink covered by later rect box [88.0, 2404.0, 1862.0, 2522.0]
+  [TEXTX] p7-lingua.svg 'A PRÓXIMA SEMANA\u3000Nächste Woche (VOL.5)' — ink overlaps 'Der Feiertag eröffnet ein dreitägiges Wo' by 519.5x22.0px
+  [TEXTX] p7-lingua.svg '«Zumbi nasceu em Palmares»' — ink overlaps 'Sexta, 27 de novembro: a Black Friday. E' by 265.8x8.8px
+  [TEXTX] p7-lingua.svg '«primeiro as fáceis, depois as difíceis»' — ink overlaps 'Sexta, 27 de novembro: a Black Friday. E' by 376.8x13.2px
+  [TEXTX] p7-lingua.svg 'Ohne Erinnerung gibt es keine Zukunft. (Página 3)' — ink overlaps 'A Lucerna\u3000PORTUGIESISCHE WOCHENZEITUNG V' by 447.5x13.2px
+  [TEXTX] p7-lingua.svg 'Prüfen Sie den Verkehr, halten Sie Ihr Dokument bereit und g' — ink overlaps 'A Lucerna\u3000PORTUGIESISCHE WOCHENZEITUNG V' by 14.5x13.2px
+  [TEXTX] p7-lingua.svg 'Prüfen Sie den Verkehr, halten Sie Ihr Dokument bereit und g' — ink overlaps 'Seite 7 von 8' by 22.6x10.9px

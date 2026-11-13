@@ -1,0 +1,88 @@
+== match_set instr (sans 19.5, budget 254.5 px single line) ==
+key: 把词和释义配对
+[instr] 1 line(s), 190.3 px
+    | 단어와 뜻을 연결하세요
+    width 190.3 px vs budget 254.5
+== P4 E TU (sans 20, w 378.5, budget 2) ==
+key: 周日晚上你看哪场比赛？写两句意大利语寄来。
+[E TU P4] 2 line(s), 640.5 px  OK
+    | 일요일 저녁에 어느 경기를 볼 건가요? 이탈리
+    | 아어로 두 문장을 써서 보내세요.
+== P7 error notes (sans 19.5, w 378.5, target 1) ==
+[err:subjunctive] 3 line(s), 931.3 px  <-- OVER
+    | è probabile che / è possibile che / bisogna
+    | che 뒤에는 접속법, so che / scrivono che 뒤
+    | 에는 직설법을 씁니다.
+[err:subjunctive] 1 line(s), 267.5 px  OK
+    | è probabile che + 접속법 piova
+[err:subjunctive] 1 line(s), 276.6 px  OK
+    | è possibile che + 접속법 nevichi
+[err:subjunctive] 1 line(s), 286.7 px  OK
+    | bisogna che + 접속법 controllino
+[err:subjunctive] 1 line(s), 257.8 px  OK
+    | è importante che + 접속법 sia
+[err:subjunctive] 1 line(s), 259.4 px  OK
+    | bisogna che + 접속법 leggano
+[err:subjunctive] 1 line(s), 339.9 px  OK
+    | è probabile che 뒤에는 접속법을 씁니다.
+[err:takes essere] 1 line(s), 287.6 px  OK
+    | partire는 essere와 함께: è partito
+[err:takes essere] 1 line(s), 258.4 px  OK
+    | finire는 essere와 함께: è finita
+[err:takes essere] 1 line(s), 304.2 px  OK
+    | andare는 essere를 조동사로 씁니다.
+[err:takes essere] 1 line(s), 305.6 px  OK
+    | arrivare는 essere와 함께: è arrivato
+[err:takes essere] 1 line(s), 361.1 px  OK
+    | andare는 essere와 함께, 복수 sono andati
+[err:takes essere] 1 line(s), 373.5 px  OK
+    | arrivare는 essere와 함께, 복수 sono arrivati
+== P7 disclosure (sans 20, w 378.5, target 3) ==
+key: 这是编辑部示例，非真实来信。截稿时未收到真实来信与最佳作文，顺延 VOL.5。
+[disclosure] 4 line(s), 1202.8 px  <-- OVER
+    | 이것은 편집부의 예시이며 실제 편지가 아닙니
+    | 다. 마감 시점까지 실제 편지와 8면 최우수 작
+    | 문이 도착하지 않았습니다. 약속은 VOL.5로
+    | 이어집니다.
+== P7 LA PAROLA gloss (sans 20, w 378.5, target 2) ==
+key: vetta = 榜首。本周见第 1 版与第 4 版：拉齐奥 29 分领跑。
+[gloss] 2 line(s), 553.5 px  OK
+    | vetta = 선두. 이번 주 1면과 4면을 보세요: 라
+    | 치오가 29점으로 선두.
+== P1 cifre (serif 20.5, w 386.5, total <= 8) ==
+key: 29 — i punti della Lazio, prima in classifica dopo 11 giornate（拉齐奥 29 分领跑）
+[cifre 29 —] 2 line(s), 569.6 px
+    | 29 — 라치오의 승점, 11라운드 후 선두（라
+    | 치오 29점으로 선두）
+key: 24 — i gol dell'11ª giornata, in dieci partite（第 11 轮 10 场比赛共 24 球）
+[cifre 24 —] 2 line(s), 539.4 px
+    | 24 — 11라운드 골 수, 10경기에서（11라운
+    | 드 10경기 24골）
+key: 20.45 — l'ora di Atalanta–Inter, domenica 22 novembre（亚特兰大对国米周日 20:45）
+[cifre 20.45 —] 3 line(s), 755.7 px
+    | 20.45 — 아탈란타-인터 킥오프, 일요일 11
+    | 월 22일（아탈란타 대 인터, 일요일 20:45
+    | ）
+key: oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）
+[cifre over 150 —] 2 line(s), 763.0 px
+    | 150명 이상 — 토로네 폐막 행렬의 출연자（
+    | 토로네 축제 폐막 행렬 150명 이상 출연자）
+TOTAL cifre lines: 9 (budget <= 8)
+== P8 notes (raw ja values) ==
+  '主语 + 动词 + 地点 + 日期' -> ja '주어 + 동사 + 장소 + 날짜'
+  '主语 + 动词 + 地点' -> ja '주어 + 동사 + 장소'
+  '先说地点' NOT IN TABLE
+  ru 'воскресный вечер — самый лучший (оценка)' -> 1 hit(s): 'più + bella 周日晚上最好看（主观评价）' ja='più + bella: 일요일 저녁이 가장 좋다（주관적 평가）'
+  ru 'Сравнительная степень bene: meglio' -> 1 hit(s): 'bene 的比较级是不规则的 meglio' ja='bene의 비교급은 불규칙형 meglio'
+  ru 'Учебные данные, а не прогнозы' -> 1 hit(s): '图表数据是练习用的、不是真实预报' ja='차트 수치는 연습용 자료이며 실제 예보가 아닙니다'
+  ru 'bisogna che + сослагательное controllino' -> 1 hit(s): 'bisogna che + 虚拟式 controllino' ja='bisogna che + 접속법 controllino'
+  ru 'Вопрос — в начале' -> 1 hit(s): '疑问词组在句首' ja='의문어구는 문장 맨 앞에'
+== E-section re-aimed ja keys ==
+  '圣母健康节人们走过还愿桥。' -> ja '성모 건강 축일에는 사람들이 서원의 다리를 건넌다.'
+  '对照原文' -> ja '원문과 비교하세요'
+  '周日晚上亚特兰大对国米。' -> ja '일요일 저녁, 아탈란타가 인터와 경기한다.'
+  'si gioca = 进行比赛' -> ja 'si gioca = 경기가 있다'
+  '周六，拉齐奥在主场对莱切。' -> ja '토요일, 라치오는 홈에서 레체와 경기한다.'
+  'in casa = 在主场' -> ja 'in casa = 홈에서'
+  'dovere = 必须' -> ja 'dovere = ~해야 한다'
+  '每个数字都必须清楚。→ ___' -> ja '모든 숫자는 분명해야 합니다. → ___'

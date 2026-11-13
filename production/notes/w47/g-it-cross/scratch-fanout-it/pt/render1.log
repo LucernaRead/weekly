@@ -1,0 +1,11 @@
+card: p1-prima.png
+card: p2-vita.png
+card: p3-cultura.png
+card: p4-sport.png
+card: p5-giovani.png
+card: p6-approfondimento.png
+card: p7-lingua.png
+card: p8-valutazione.png
+print PDF: /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-pt/La-Lucerna-VOL4-PT.pdf 14036607
+web PDF: build separately with tools/webpdf.py
+

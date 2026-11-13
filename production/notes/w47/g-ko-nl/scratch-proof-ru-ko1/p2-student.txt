@@ -1,0 +1,17 @@
+=== P2 nodes y=2162 row ===
+  x=1473.5 ink=[1473.2, 2145.2, 1497.8, 2162.5] 'b. '
+  x=1497.7 ink=[1497.7, 2144.0, 1700.2, 2168.2] 'Международный'
+  x=1698.3 ink=None ' '
+  x=1703.9 ink=[1703.9, 2149.8, 1759.2, 2166.0] 'день'
+  x=1759.1 ink=None ' '
+  x=1764.7 ink=[1764.7, 2149.8, 1871.2, 2168.2] 'студента'
+=== P2 D-section option rows: ink-right per row (y 2080-2260, x>1400) ===
+  y=2124.0: max ink-right=1681.1 text='a. День психолога'
+  y=2162.0: max ink-right=1871.2 text='b. Международный день студента'
+  y=2200.0: max ink-right=1794.5 text='c. Всемирный день ребёнка'
+  y=2238.0: max ink-right=1829.3 text='d. день рождения Деда Мороза'
+=== P1 cream-box title horizontal check ===
+  box x=538 y=1174 w=422 right=961: first-line 'ТУР' ink-right=600.5 clear +360.5 | max-inside-right=942.8 ('они') clear +18.2
+  box x=1440 y=588 w=422 right=1862: first-line 'О' ink-right=1482.2 clear +379.8 | max-inside-right=1838.3 ('Венесуэла') clear +23.7
+  box x=1440 y=1296 w=422 right=1862: first-line 'В' ink-right=1477.8 clear +384.2 | max-inside-right=1840.1 ('B1') clear +21.9
+  box x=1440 y=1874 w=422 right=1862: first-line 'КОРОТКО' ink-right=1580.0 clear +282.0 | max-inside-right=1831.8 ('Россия') clear +30.2

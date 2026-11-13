@@ -1,0 +1,37 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+===== De-Lucerna-VOL4-nl-ja.pdf pages 8
+P8 smallest 12 spans:
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '+')
+   (10.12, 'Newsreader16pt-Regular', '0')
+   (10.12, 'Newsreader16pt-Regular', '0–1')
+   (10.12, 'Newsreader16pt-Regular', '0–1')
+   (10.12, 'Newsreader16pt-Regular', '1')
+   (10.12, 'Newsreader16pt-Regular', '1')
+   (10.12, 'Newsreader16pt-Regular', '1')
+P1 italic spans:
+   16.12 Newsreader16pt-Italic '«de groepswinst»'
+  CTX: '解説— de groepswinst グループ優勝· de'
+  CTX: '«de groepswinst»'
+===== De-Lucerna-VOL4-nl-ja-web.pdf pages 8
+P8 smallest 12 spans:
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '+')
+   (10.12, 'LucernaNewsreader-Regula', '0')
+   (10.12, 'LucernaNewsreader-Regula', '0–1')
+   (10.12, 'LucernaNewsreader-Regula', '0–1')
+   (10.12, 'LucernaNewsreader-Regula', '1')
+   (10.12, 'LucernaNewsreader-Regula', '1')
+   (10.12, 'LucernaNewsreader-Regula', '1')
+P1 italic spans:
+  CTX: '解説— de groepswinst グループ優勝· de'
+  CTX: '«de groepswinst»'

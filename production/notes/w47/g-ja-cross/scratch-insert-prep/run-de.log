@@ -1,0 +1,242 @@
+[de] file list: 231 files
+[de] extensions:
+    110 py
+     66 jpg
+     33 md
+     11 txt
+     11 svg
+[de] staged: 224 files (list: 231)
+[de] list-not-staged (already in index, unchanged): 7 files
+[main 8d7281e7] W47 de production sources (VOL.4)
+ 224 files changed, 38375 insertions(+), 50 deletions(-)
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-en/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/2026-w47-de-es.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-es/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-es/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-es/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-es/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-es/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/2026-w47-de-fr.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-fr/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-fr/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-fr/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-fr/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/2026-w47-de-it.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-it/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-it/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-it/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-it/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-it/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/2026-w47-de-ja.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-ja/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-ja/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ja/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-ja/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/2026-w47-de-ko.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-ko/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-ko/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ko/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-ko/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/2026-w47-de-nl.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-nl/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-nl/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-nl/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-nl/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/2026-w47-de-pt.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-pt/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-pt/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-pt/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-pt/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/2026-w47-de-ru.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-ru/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-ru/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-ru/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-ru/verify.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/2026-w47-de-zh-tw.text.md
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/ABSTRACT.txt
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/CREDITS.md
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/christkind.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/fussball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/bslib4.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/content12.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/content34.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/content56.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/content7.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/content8.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/render.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/run.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/svglib.py
+ create mode 100644 production/2026-w47/2026-w47-de-zh-tw/verify.py
+ create mode 100644 production/2026-w47/core-de/2026-w47-de-zh-cn.text.md
+ create mode 100644 production/2026-w47/core-de/ABSTRACT.txt
+ create mode 100644 production/2026-w47/core-de/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/core-de/assets/CREDITS.md
+ create mode 100644 production/2026-w47/core-de/assets/christkind.jpg
+ create mode 100644 production/2026-w47/core-de/assets/fussball.jpg
+ create mode 100644 production/2026-w47/core-de/assets/fussball1905.jpg
+ create mode 100644 production/2026-w47/core-de/assets/kopfball.jpg
+ create mode 100644 production/2026-w47/core-de/assets/lesesaal.jpg
+ create mode 100644 production/2026-w47/core-de/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/core-de/assets/weihnachtsmarkt1930.jpg
+ create mode 100644 production/2026-w47/core-de/bslib4.py
+ create mode 100644 production/2026-w47/core-de/content12.py
+ create mode 100644 production/2026-w47/core-de/content34.py
+ create mode 100644 production/2026-w47/core-de/content56.py
+ create mode 100644 production/2026-w47/core-de/content7.py
+ create mode 100644 production/2026-w47/core-de/content8.py
+ create mode 100644 production/2026-w47/core-de/render.py
+ create mode 100644 production/2026-w47/core-de/run.py
+ create mode 100644 production/2026-w47/core-de/verify.py
+[de] committed 8d7281e7f07951658a0d17646a27b4a72832ce80
+ production/2026-w47/core-de/verify.py              |  153 +++
+ 224 files changed, 38375 insertions(+), 50 deletions(-)
+[de] per-edition index check (dir: kit/py/textmd/abstract):
+  production/2026-w47/core-de total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-en total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-es total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-fr total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-it total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-ja total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-ko total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-nl total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-pt total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-ru total=21 kit=1 py=5 textmd=1 abstract=1
+  production/2026-w47/2026-w47-de-zh-tw total=21 kit=1 py=5 textmd=1 abstract=1
+[de] DONE sha=8d7281e7f07951658a0d17646a27b4a72832ce80 staged=224 list=231

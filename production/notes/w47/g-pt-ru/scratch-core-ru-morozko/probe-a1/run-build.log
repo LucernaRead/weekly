@@ -1,0 +1,14 @@
+
+=== run_build 2026-11-11 23:56:14 UTC ===
+[23:56:14] build source : /home/hatch/workspace/weekly-git/production/2026-w47/core-ru
+[23:56:14] production   : /home/hatch/workspace/weekly-git/production
+[23:56:14] scratch out  : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-core-ru-morozko/probe-a1
+[23:56:14] steps        : run, render
+[23:56:14] build is inside production/
+[23:56:16] snapshot: 45 production files hashed
+[23:56:17] copied to    : /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-core-ru-morozko/probe-a1/build-copy
+[23:56:17] repointed files: none
+[23:56:17] repoint: no literal production paths found — OUT/BASE are __file__-relative and resolve inside the copy
+[23:56:17] verify: copy is clean — no .py references the real production tree
+[23:56:17] effective OUT/BASE resolve inside: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-core-ru-morozko/probe-a1/build-copy (run) and /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-core-ru-morozko/probe-a1/svg (any literal /svg target)
+[23:56:17] dry-run: stopping before execution

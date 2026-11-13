@@ -1,0 +1,17 @@
+== P1: 4 cream boxes
+   box x=538.5 y=1351.5 w=422.5 h=387.4 right=961.0 bottom=1738.9
+   box x=1439.5 y=588.0 w=422.5 h=700.0 right=1862.0 bottom=1288.0
+   box x=1439.5 y=1312.0 w=422.5 h=340.0 right=1862.0 bottom=1652.0
+   box x=1439.5 y=1874.0 w=422.5 h=430.0 right=1862.0 bottom=2304.0
+   FLAG P1 text-in-box '\u3000Cosa succede, giorno per giorno' ink right=1904.5 vs box right=1862.0 (++42.5); ink bottom=698.8 vs box bottom=1288.0 (+-589.2)
+   FLAG P1 text '\u3000Cosa succede, giorno per giorno' ink right=1904.5 vs 版心 1862 (++42.5)
+   FLAG P1 text-in-box 'СОДЕРЖАНИЕ' ink right=1898.0 vs box right=1862.0 (++36.0); ink bottom=1357.2 vs box bottom=1652.0 (+-294.8)
+   FLAG P1 text 'СОДЕРЖАНИЕ' ink right=1898.0 vs 版心 1862 (++36.0)
+   P1 flags: 4
+== P7: 3 cream boxes
+   box x=1439.5 y=200.0 w=422.5 h=813.5 right=1862.0 bottom=1013.5
+   box x=1439.5 y=1039.5 w=422.5 h=304.5 right=1862.0 bottom=1344.0
+   box x=1439.5 y=1370.0 w=422.5 h=303.0 right=1862.0 bottom=1673.0
+   FLAG P7 text-in-box 'ОШИБКИ' ink right=1892.9 vs box right=1862.0 (++30.9); ink bottom=242.2 vs box bottom=1013.5 (+-771.2)
+   FLAG P7 text 'ОШИБКИ' ink right=1892.9 vs 版心 1862 (++30.9)
+   P7 flags: 2

@@ -1,0 +1,80 @@
+== 4th cifre (serif 20.5, w 386.5, target 2) ==
+key: oltre 150 — i figuranti del corteo di chiusura del Torrone（牛轧糖节闭幕游行 150 多名演员）
+[cifre 150] 3 line(s), 894.3 px  <-- OVER
+    | 150人超 — トッローネ閉幕パレードの出
+    | 演者（トッローネ祭閉幕パレードに150人
+    | 以上の出演者）
+== P7 error notes Lazio/Torrone (sans 19.5, w 378.5, target 1) ==
+key: 拉齐奥是单数，动词用单数 -> 'ラツィオは単数なので、動詞も単数です。'
+[err:拉齐奥是单数，动] 1 line(s), 367.8 px  OK
+    | ラツィオは単数なので、動詞も単数です。
+key: torrone 是单数，动词用单数 -> 'トッローネは単数なので、動詞も単数です。'
+[err:torrone ] 2 line(s), 387.3 px  <-- OVER
+    | トッローネは単数なので、動詞も単数で
+    | す。
+key: andare 用 essere 作助动词 -> 'andare は essere を助動詞に使います。'
+[err:andare 用] 1 line(s), 347.8 px  OK
+    | andare は essere を助動詞に使います。
+== CANDIDATES: match_set instr (sans 19.5, budget 254.5 px) ==
+  '単語と意味を合わせなさい' -> 234.0 px
+  '単語と意味を結びなさい' -> 214.5 px
+  '単語と意味を組み合わせよう' -> 253.5 px
+== CANDIDATES: disclosure (sans 20, w 378.5, target 3) ==
+[disclosure?] 4 line(s), 1259.3 px  <-- OVER
+    | これは編集部の見本で、本物の手紙では
+    | ありません。本物の手紙も8ページの最優
+    | 秀作文も届きませんでした。約束はVOL.5
+    | に持ち越します。
+[disclosure?] 3 line(s), 1008.8 px  OK
+    | 編集部の見本で、本物の手紙ではありま
+    | せん。本物の手紙も最優秀作文も届か
+    | ず、約束はVOL.5に持ち越します。
+[disclosure?] 4 line(s), 1168.7 px  <-- OVER
+    | これは編集部の見本で、本物の手紙では
+    | ありません。本物の手紙も最優秀作文も
+    | 届きませんでした。約束はVOL.5に持ち越
+    | します。
+== CANDIDATES: cifre 20.45 (serif 20.5, w 386.5, target 2) ==
+[20.45?] 2 line(s), 526.2 px  OK
+    | 20.45 — アタランタ対インテル、日曜11月
+    | 22日（20:45）
+[20.45?] 2 line(s), 689.1 px  OK
+    | 20.45 — アタランタ対インテルのキックオ
+    | フ、日曜11月22日（日曜20:45）
+== CANDIDATES: cifre 150 (serif 20.5, w 386.5, target 2) ==
+[150?] 2 line(s), 690.9 px  OK
+    | 150人超 — トッローネ閉幕パレードの出
+    | 演者（閉幕パレードに150人以上）
+[150?] 2 line(s), 446.6 px  OK
+    | 150人超 — 閉幕パレードの出演者（150人
+    | 以上）
+[150?] 2 line(s), 547.4 px  OK
+    | 150人超 — トッローネ閉幕パレードの出
+    | 演者（150人以上）
+== FRASI translations (sans 19.5, colw 873) + quotes (serif 21.5, colw 873) ==
+  quote 1L + trans 1L, slot ~97px (budget 158): 'ラツィオは首位を守っている。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '10試合で24ゴール。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '大運河にかかる奉納の橋。'
+  quote 1L + trans 1L, slot ~97px (budget 158): 'ルネサンス衣装の出演者150人超。'
+  quote 1L + trans 1L, slot ~97px (budget 158): 'ガットゥーゾのチームは11節を終えても無敗。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '七日間、本と理性と狂気。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '条文はまだ変わる可能性があります。'
+  quote 1L + trans 1L, slot ~97px (budget 158): '政府の承認は、すでに法律だという意味ではありません。'
+== P8 notes (raw ja values) ==
+  '主语 + 动词 + 地点 + 日期' -> ja '主語 + 動詞 + 場所 + 日付'
+  '主语 + 动词 + 地点' -> ja '主語 + 動詞 + 場所'
+  '先说地点' NOT IN TABLE
+  ru 'воскресный вечер — самый лучший (оценка)' -> 1 hit(s): 'più + bella 周日晚上最好看（主观评价）' ja='più + bella：日曜の夜が一番すばらしい（主観的な評価）'
+  ru 'Сравнительная степень bene: meglio' -> 1 hit(s): 'bene 的比较级是不规则的 meglio' ja='bene の比較級は不規則で meglio'
+  ru 'Учебные данные, а не прогнозы' -> 1 hit(s): '图表数据是练习用的、不是真实预报' ja='グラフの数字は練習用のデータで、本物の予報ではありません'
+  ru 'bisogna che + сослагательное controllino' -> 1 hit(s): 'bisogna che + 虚拟式 controllino' ja='bisogna che + 接続法 controllino'
+  ru 'Вопрос — в начале' -> 1 hit(s): '疑问词组在句首' ja='疑問句は文頭に'
+== E-section re-aimed ja keys ==
+  '圣母健康节人们走过还愿桥。' -> ja '聖母健康祭では、人々は奉納の橋を渡ります。'
+  '对照原文' -> ja '原文と比べなさい'
+  '周日晚上亚特兰大对国米。' -> ja '日曜の夜、アタランタがインテルと対戦します。'
+  'si gioca = 进行比赛' -> ja 'si gioca = 試合がある'
+  '周六，拉齐奥在主场对莱切。' -> ja '土曜、ラツィオはホームでレッチェと対戦します。'
+  'in casa = 在主场' -> ja 'in casa = ホームで'
+  'dovere = 必须' -> ja 'dovere = ～しなければならない'
+  '每个数字都必须清楚。→ ___' -> ja 'すべての数字がはっきりしていなければなりません。→ ___'

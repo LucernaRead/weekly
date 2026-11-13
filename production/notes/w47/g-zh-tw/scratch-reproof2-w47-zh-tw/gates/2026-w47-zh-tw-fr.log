@@ -1,0 +1,41 @@
+/dev/mapper/rv  150G   95G   55G  64% /home/hatch
+checks.py RC=0
+CHART p4 [90.0, 450.0, 900.0] expect [90.0, 450.0, 900.0]
+CHART p6 dots [188.0, 695.21, 948.82, 1033.36, 1202.43] expect [188.0, 695.21, 948.82, 1033.36, 1202.43]
+CHECKS PASS
+occlusion RC=0
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-fr/svg: 0 flags 
+p8 compare RC=0
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-zh-tw-fr/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[]
+spill RC=0
+   ABOVE -24.48px x=1461.5 y=1159.1 [observe] 'Faites votre propre phrase avec.'
+SPILL_SWEEP 2026-w47-zh-tw-fr: 36 boxes, 146 candidates, 0 SPILL, 146 OBSERVE
+boxtitle RC=0
+== 2026-w47-zh-tw-fr  core=/home/hatch/workspace/weekly-git/production/2026-w47/core-zh-tw backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fix-zh-tw/scratch-fanout-fix/backup/2026-w47-zh-tw-fr
+BOXTITLE 2026-w47-zh-tw-fr: 48 titles, 672 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+edge RC=0
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 65.9}
+EDGE_SCAN 2026-w47-zh-tw-fr: 8 pages, 0 TOUCH, 0 NEAR
+d5 census RC=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+quotes census RC=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+freeze diff RC=0
+p7: +1 strings / -1 strings; CJK core 817 -> edition 819; added CJK chars: 2 {'港': 1, '香': 1}; added Latin strings: 0 (unexpected 0)
+p8: +0 strings / -0 strings; CJK core 1109 -> edition 1109; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0)
+TOTAL added CJK characters: 2
+TOTAL added Latin strings: 0 (unexpected 0)
+added CJK vs pre-fix: {'港': 1, '香': 1}
+textcheck-adapted RC=0
+print-vs-web added={} removed={}
+pre-vs-post-print added={'香': 1, '港': 1} removed={}
+TEXTCHECK-ADAPTED PASS
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+pages: 8
+P8 min font: 9.75 max: 34.5
+OVERALL: ALL-GREEN

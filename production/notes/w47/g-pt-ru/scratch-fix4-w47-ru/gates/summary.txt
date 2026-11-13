@@ -1,0 +1,39 @@
+GATES4 START 2026-11-12T21:10:36Z
+p8 pt rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ pt rc=0 : production/2026-w47/2026-w47-ru-pt/svg: 0 flags 
+boxtitle pt rc=0 : BOXTITLE 2026-w47-ru-pt: 57 titles, 683 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill pt rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grande saldo.'
+edge pt rc=0 : EDGE_SCAN 2026-w47-ru-pt: 8 pages, 0 TOUCH, 0 NEAR
+head pt rc=0 : HEAD CHECK PASS 0 defects
+quotes pt rc=0 :   TOTAL defective: 0
+p8 ja rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ ja rc=0 : production/2026-w47/2026-w47-ru-ja/svg: 0 flags 
+boxtitle ja rc=0 : BOXTITLE 2026-w47-ru-ja: 57 titles, 716 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill ja rc=0 :    ABOVE -23.91px x=1603.7 y=1230.7 [observe] '大セール。'
+edge ja rc=0 : EDGE_SCAN 2026-w47-ru-ja: 8 pages, 0 TOUCH, 0 NEAR
+head ja rc=0 : HEAD CHECK PASS 0 defects
+quotes ja rc=0 :   TOTAL defective: 0
+p8 ko rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ ko rc=0 : production/2026-w47/2026-w47-ru-ko/svg: 0 flags 
+boxtitle ko rc=0 : BOXTITLE 2026-w47-ru-ko: 67 titles, 759 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill ko rc=0 :    ABOVE -23.91px x=1658.9 y=1230.7 [observe] '.'
+edge ko rc=0 : EDGE_SCAN 2026-w47-ru-ko: 8 pages, 0 TOUCH, 0 NEAR
+head ko rc=0 : HEAD CHECK PASS 0 defects
+quotes ko rc=0 :   TOTAL defective: 0
+p8 zh-tw rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ zh-tw rc=0 : production/2026-w47/2026-w47-ru-zh-tw/svg: 0 flags 
+boxtitle zh-tw rc=0 : BOXTITLE 2026-w47-ru-zh-tw: 57 titles, 703 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill zh-tw rc=0 :    ABOVE -23.91px x=1603.7 y=1230.7 [observe] '大促銷，要計劃，別急。'
+edge zh-tw rc=0 : EDGE_SCAN 2026-w47-ru-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+head zh-tw rc=0 : HEAD CHECK PASS 0 defects
+quotes zh-tw rc=0 :   TOTAL defective: 0
+p8-extract core rc=0 :   set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+core p8 keys equal: True
+occ core rc=0 : production/2026-w47/core-ru/svg: 0 flags 
+boxtitle core rc=0 : BOXTITLE core-ru: 57 titles, 704 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill core rc=0 :    ABOVE -24.51px x=1461.5 y=1259.1 [observe] '急。'
+edge core rc=0 : EDGE_SCAN core-ru: 8 pages, 0 TOUCH, 0 NEAR
+head core rc=0 : HEAD CHECK PASS 0 defects
+quotes core rc=0 :   TOTAL defective: 0
+d5-census rc=0
+GATES4 DONE 2026-11-12T21:13:36Z

@@ -1,0 +1,16 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-fanout-de/freeze_direct.py ko /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-ko/build-copy /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-ko
+source files core: {'bslib4.py': 101, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 727, 'verify.py': 167}
+source files edition: {'bslib4.py': 100, 'content12.py': 359, 'content34.py': 351, 'content56.py': 370, 'content7.py': 201, 'content8.py': 264, 'render.py': 13, 'run.py': 9, 'svglib.py': 730, 'verify.py': 167}
+source literals: core=2562 edition=2564 removed=523 added=525
+unaccounted removed: 1; unaccounted added: 0
+  REMOVED x2: 'sans'
+  p1: frozen=149 (core 191 / edition 202) sha8=73347f49 PASS
+  p2: frozen=163 (core 194 / edition 196) sha8=689045ad PASS
+  p3: frozen=201 (core 241 / edition 250) sha8=8b2e9eba PASS
+  p4: frozen=166 (core 187 / edition 187) sha8=df1bebf7 PASS
+  p5: frozen=179 (core 217 / edition 224) sha8=e7b235f9 PASS
+  p6: frozen=175 (core 207 / edition 208) sha8=2bbe05f9 PASS
+  p7: frozen=160 (core 227 / edition 256) sha8=591dc064 PASS
+  p8: frozen=185 (core 323 / edition 352) sha8=f6dd4a15 PASS
+source level: FAIL; rendered: 8/8
+wrote /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-ko/freeze-direct.json

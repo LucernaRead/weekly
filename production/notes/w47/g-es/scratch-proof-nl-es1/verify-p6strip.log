@@ -1,0 +1,7 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+ED print: n=72 xrange=1861.7-1865.5 y-bands=[(229, 1), (230, 2), (231, 2), (232, 4), (233, 3), (234, 6), (235, 4), (236, 8), (237, 10), (238, 5), (239, 11), (240, 5)]
+   min-lum profile x1855-1875: {1854.6: 62, 1855.3: 62, 1855.9: 62, 1856.6: 62, 1857.2: 62, 1857.8: 62, 1858.5: 62, 1859.1: 62, 1859.8: 62, 1860.4: 62, 1861.0: 62, 1861.7: 62, 1862.3: 62, 1863.0: 62, 1863.6: 62, 1864.2: 62, 1864.9: 62, 1865.5: 67, 1866.2: 238, 1866.8: 248, 1867.4: 248, 1868.1: 248, 1868.7: 248, 1869.4: 248, 1870.0: 248, 1870.6: 248, 1871.3: 248, 1871.9: 248, 1872.6: 248, 1873.2: 248, 1873.8: 248, 1874.5: 248}
+Traceback (most recent call last):
+  File "<stdin>", line 18, in <module>
+ValueError: min() iterable argument is empty

@@ -1,0 +1,21 @@
+BADGE? 434.0 '중국어 간체 텍스트\u3000한국어 해설 — 한국어 독자를 위한 판' hanzi: 0
+p1-touiban.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p2-shenghuo.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p3-wenhua.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p4-tiyu.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p5-qingnian.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p6-shendu.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p7-ciyu.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+p8-ceyan.svg FOOTER 'Lucerna\u3000简体中文周报 VOL.4\u3000LUCERNA — 간체 중국어 주간지'
+KO F-head hits: [(599.25, '작문에는 단 하나의 정답이 없습니다. 138자 모범'), (2460.2360000000026, '모범')]
+CORE F-head hits: [(786.45, 'Model answer: ')]
+golden '决赛对阵GEN': ko=2 core=2
+golden '包裹都到了吗': ko=2 core=2
+golden '小雪气寒而将雪矣': ko=2 core=2
+golden '两支中国队进了四强': ko=2 core=2
+golden '先看简介，再决定': ko=2 core=2
+golden '无高峰，全高峰': ko=2 core=2
+golden '先打开看一看，再确认收货': ko=2 core=2
+golden '悦读深圳': ko=2 core=2
+KO F-model lines: ['。星期一，我', '星期六，我和妈妈一起去看电影《试探》，故事很']
+CORE F-model lines: ['书。星期六，我和妈妈一起去看电影《试探》，故']

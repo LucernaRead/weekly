@@ -1,0 +1,29 @@
+fatal: could not open '/dev/null' for reading and writing: No such file or directory
+[main f11854bf] W47 core-ru fix1: D2 option b shorten + D6 prepositional key + kicker double-space (proof1 rounds)
+ 26 files changed, 3905 insertions(+)
+ create mode 100644 production/2026-w47/core-ru/2026-w47-ru-zh-cn.text.md
+ create mode 100644 production/2026-w47/core-ru/ABSTRACT.txt
+ create mode 100644 production/2026-w47/core-ru/WEEKLY-KIT.md
+ create mode 100644 production/2026-w47/core-ru/assets/CREDITS.md
+ create mode 100644 production/2026-w47/core-ru/assets/autumn_path.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/football1912.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/lucerna-moth.svg
+ create mode 100644 production/2026-w47/core-ru/assets/market.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/morozko.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/pumpkins.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/pushkin.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/snowflake.jpg
+ create mode 100644 production/2026-w47/core-ru/assets/yuon_winter.jpg
+ create mode 100644 production/2026-w47/core-ru/bslib4.py
+ create mode 100644 production/2026-w47/core-ru/check_core.py
+ create mode 100644 production/2026-w47/core-ru/content12.py
+ create mode 100644 production/2026-w47/core-ru/content34.py
+ create mode 100644 production/2026-w47/core-ru/content56.py
+ create mode 100644 production/2026-w47/core-ru/content7.py
+ create mode 100644 production/2026-w47/core-ru/content8.py
+ create mode 100644 production/2026-w47/core-ru/dump_cjk.py
+ create mode 100644 production/2026-w47/core-ru/render.py
+ create mode 100644 production/2026-w47/core-ru/ru-p8.json
+ create mode 100644 production/2026-w47/core-ru/ru_textmd.py
+ create mode 100644 production/2026-w47/core-ru/run.py
+ create mode 100644 production/2026-w47/core-ru/svglib.py

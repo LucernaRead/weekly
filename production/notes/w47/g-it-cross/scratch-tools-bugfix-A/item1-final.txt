@@ -1,0 +1,3 @@
+[PASS] p8_compare: rc=0 verdict=CLEAN keydiffs=3
+   key diffs: [137, 138, 140]
+ORIGINAL nl gates.py: keydiffs = [137, 138, 140] (was [] before fix)

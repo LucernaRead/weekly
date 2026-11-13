@@ -1,0 +1,18 @@
+text.md bytes: 55274 lines: 1317
+U+2019 in text.md: 0
+CJK ideographs U+4E00-U+9FFF in text.md: 0
+U+3000 in text.md: 106
+U+FF1A in text.md: 14
+翻译 occurrences: 0
+· Translate] occurrences: 4
+exercises 137-140 labels: ['137. [A2 · Translate]', '138. [B1 · Translate]', '139. [B1 · Translate]', '140. [B2 · Translate]']
+Traceback (most recent call last):
+  File "<stdin>", line 13, in <module>
+  File "<stdin>", line 13, in <genexpr>
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'svg/p1.svg'

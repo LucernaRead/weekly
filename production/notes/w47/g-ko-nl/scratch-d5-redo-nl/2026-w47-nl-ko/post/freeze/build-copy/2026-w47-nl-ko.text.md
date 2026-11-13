@@ -1,0 +1,431 @@
+# De Lucerna · 네덜란드어 주간지 VOL.4 · 2026-W47
+
+## Pagina 1
+
+## Vanavond in Berlijn: Oranje tegen Duitsland
+Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3. Het is de laatste wedstrijd in de groep — en de beslissing in groep 2.
+Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. De nummers één en twee van de groep gaan naar de kwartfinales in maart 2027.
+Vrijdag speelden Oranje en Duitsland hun vijfde wedstrijd: Oranje thuis tegen Griekenland, in de Johan Cruijff ArenA in Amsterdam, en Duitsland uit in Belgrado tegen Servië. Maandagavond in Berlijn valt de beslissing: wie wint de groep?
+Afgelopen weekend kwam Sinterklaas aan in Nederland. Zaterdag 14 november was de landelijke intocht in Grave, aan de Maas in Noord-Brabant: rond 12:00 uur meerde de stoomboot aan bij de Maaskade, live op NPO 3. Een dag later, op zondag 15 november, was de intocht in Amsterdam: de 88e editie.
+Na de intocht begint de tijd van de schoen: kinderen zetten hun schoen bij de deur, met een wortel voor het paard en een verlanglijstje erin. Pakjesavond, de avond met de grote cadeaus, is dit jaar op zaterdag 5 december — over negentien dagen.
+> de groepswinst 조 우승 · de kwartfinale 8강전 · de intocht 도착 · het verlanglijstje 소원 목록.
+### DE WEEK IN CIJFERS　이번 주 숫자
+16 — november: Duitsland – Nederland in Berlijn(11월 16일: 독일–네덜란드)
+20:45 — de aftrap(20:45: 킥오프)
+8 — punten: Nederland en Griekenland bovenaan(8점: 공동 선두)
+5 — december: pakjesavond, over 19 dagen(12월 5일: 19일 남음)
+## NU JIJ　이제 당신 차례
+1. [A2 · 문장 완성] Duitsland – Nederland begint maandag om ___ uur. — 정답： 20:45（독일–네덜란드 월요일 20:45 킥오프）
+2. [A2 · 문장 완성] Oranje speelt maandag in ___ tegen Duitsland. — 정답： Berlijn（경기는 베를린에서）
+3. [A2 · 문장 완성] Nederland en Griekenland hebben allebei ___ punten. — 정답： 8（네덜란드와 그리스는 둘 다 승점 8점이에요）
+4. [A2 · 문장 완성] De intocht in Amsterdam was op zondag ___ november. — 정답： 15（암스테르담 도착은 11월 15일 일요일이에요）
+5. [A2 · 문장 완성] Pakjesavond is op zaterdag ___ december. — 정답： 5（팍예스아폰트는 12월 5일이에요）
+6. [B1 · 문장 완성] Nederland ___ (maken) 7 doelpunten in vier wedstrijden. — 정답： maakte（네덜란드는 7골을 넣었다）
+### DEZE WEEK
+## 이번 주 일정
+Agenda van de week　이번 주 주요 일정
+MA 16 Oranje – Duitsland, 20:45
+ZA 21 Eredivisie: NEC – PSV
+ZA 21 Feyenoord – Excelsior
+ZO 22 Ajax – ADO Den Haag
+ZO 22 Robinson, 20:00 uur
+Alle data en tijden staan ook
+in de artikelen op pagina 2–5.
+모든 날짜와 시간은 2~5면 기사 참조.
+### IN DEZE EDITIE　이번 호 내용
+Pag. 2 De schoen en pakjesavond A2
+Pag. 3 Sinterklaas is er! A2→B1
+Pag. 4 Oranje: de beslissing B1
+Pag. 5 Robinson en surprises B1
+Pag. 6 Oud feest, nieuwe wensen B2
+Pag. 7 Drie gereedschappen A2→B2
+Pag. 8 Oefeningen en antwoorden alle
+## HET WOORD VAN DE WEEK
+«de groepswinst»: de eerste plaats in de groep: als nummer één naar de kwartfinales.
+「조 우승」: 조 1위, 8강전 직행.
+## NA DE INTOCHT: DE SCHOEN
+Na de intocht mag de schoen: kinderen zetten 's avonds hun schoen bij de deur, met een wortel voor het paard en een verlanglijstje erin. 's Nachts komt Sinterklaas met een klein cadeautje.
+Pakjesavond, de avond met de grote cadeaus — en met surprises en gedichten — is dit jaar op zaterdag 5 december.
+### IN HET KORT　간략 소식
+ORANJE · P.4
+Maandag in Berlijn tegen Duitsland, 20:45 uur, NPO 3.
+SINTERKLAAS · P.3
+Zaterdag intocht in Grave; zondag de 88e intocht in Amsterdam.
+EREDIVISIE · P.4
+Zaterdag 21 november: NEC – PSV en Feyenoord – Excelsior.
+## BLIKSEMQUIZ　순간 퀴즈
+1면을 읽고 정답을 고르세요　정답은 8면에
+7. [A2 · 객관식] Duitsland – Nederland begint om... A. 18:00 uur · B. 20:45 uur · C. 12:00 uur — 정답： B（독일–네덜란드 월요일 20:45 킥오프）
+8. [A2 · 객관식] Oranje speelt maandag in... A. Amsterdam · B. Berlijn · C. Zeist — 정답： B（경기는 베를린 올림픽 스타디움에서）
+9. [A2 · 객관식] Nederland en Griekenland hebben... A. 5 punten · B. 7 punten · C. 8 punten — 정답： C（네덜란드와 그리스는 둘 다 승점 8점이에요）
+10. [A2 · 객관식] Pakjesavond is op... A. 11 november · B. 5 december · C. 15 november — 정답： B（팍예스아폰트는 12월 5일 토요일이에요）
+
+## Pagina 2
+
+## De schoen staat klaar: aftellen naar pakjesavond
+Sinterklaas is er! Afgelopen weekend kwam hij aan in Grave en in Amsterdam. Nu begint de tijd van de schoen: kinderen zetten 's avonds hun schoen bij de deur, met een wortel voor het paard en een tekening of een verlanglijstje erin. 's Nachts komt Sinterklaas met een klein cadeautje.
+De wortel is voor het paard van Sinterklaas, Ozosnel. De tekening is voor Sinterklaas zelf. En het verlanglijstje? Dat is een lijst met wensen: wat wil je het liefst hebben? Schrijf het in het Nederlands — Sinterklaas leest Nederlands.
+Vorige week woensdag was het Sint-Maarten: kinderen liepen met lampionnen zingend langs de deuren. Nu is het licht van de lampion doorgegeven aan de schoen: twee feesten van licht en geven, in twee weken.
+Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus. Veel families maken dan een surprise: een cadeau in een gekke verpakking, met een gedicht erbij. Een gedicht is een klein versje — grappig, lief of een beetje plagend. Nog negentien dagen tot pakjesavond: tijd om te knutselen en te dichten.
+En het Sinterklaasjournaal? Dat is er elke dag om 18:00 uur op NPO Zapp. Kinderen volgen hoe Sinterklaas en zijn Pieten zich voorbereiden op pakjesavond.
+## DRIE DINGEN VOOR 5 DECEMBER
+Eén: zet je schoen, met een wortel en een verlanglijstje. Twee: schrijf een gedicht — kort is ook goed. Drie: maak een surprise: verstop het cadeau in iets geks.
+### ZO ONTHOUD JE HET　기억해요
+«De schoen staat klaar: een wortel voor het paard, een lijstje voor de Sint.» En pakjesavond is op 5 december.
+> de schoen 신발 · de wortel 당근 · het verlanglijstje 소원 목록 · de surprise 변장 선물 · het gedicht 시.
+### WIST JE DAT?
+Pakjesavond: zaterdag 5 december, over negentien dagen.
+De schoen: 's avonds bij de deur, met een wortel en een verlanglijstje.
+Een surprise is een cadeau in een gekke verpakking, met een gedicht erbij.
+### EN JIJ?　당신은요?
+En jij? Zet jij je schoen met een wortel en een verlanglijstje, of schrijf je liever een gedicht voor pakjesavond? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie: de mooiste komen in VOL.5 (pagina 7, «Brieven van lezers»).
+소원 목록과 신발을 내놓을 건가요, 아니면 Pakjesavond를 위해 시를 쓸 건가요? 네덜란드어로 두 문장을 써서 편집부에 보내세요.
+## PAKJESAVOND IN VIER WOORDEN　네 단어로 보는 Pakjesavond
+Wat hoort bij pakjesavond?　Pakjesavond에 속한 단어는?
+### SCHOEN
+de schoen
+저녁에 문 앞에 내놓고 신터클라스를 기다림
+### WORTEL
+voor het paard
+당근은 신터클라스의 말을 위한 것
+### LIJSTJE
+het verlanglijstje
+소원 목록: 가장 원하는 것을 적기
+### GEDICHT
+het versje
+짧은 시: 유머러스하고, 따뜻하고, 살짝 놀리는
+Let op: schrijf je gedicht in het Nederlands — Sinterklaas leest Nederlands. Meer over de intocht lees je op pagina 3.
+## OEFENINGEN　2면 연습
+정답은 8면에　수준이 섞여 있으니 번호로 찾으세요
+## A　BEGRIJPEN
+2면 기사를 읽고 정답을 고르세요.
+11. [A2 · 객관식] Sinterklaas kwam afgelopen weekend aan in... A. Utrecht · B. Grave en Amsterdam · C. Spanje — 정답： B（신터클라스는 지난 주말 흐라버와 암스테르담에 도착했다）
+12. [A2 · 객관식] De wortel in de schoen is voor... A. Sinterklaas · B. het paard · C. de Piet — 정답： B（신발 속 당근은 말을 위한 것）
+13. [A2 · 객관식] Pakjesavond is op... A. 11 november · B. 15 november · C. 5 december — 정답： C（팍예스아폰트는 12월 5일이에요）
+14. [A2 · 객관식] Een surprise is... A. een cadeau in een gekke verpakking · B. een liedje · C. een lampion — 정답： A（서프리즈는 변장한 선물）
+15. [A2 · 객관식] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 18:00 uur · C. 20:00 uur — 정답： B（신터클라스 뉴스는 매일 18:00）
+## B　WOORDEN
+2면 단어로 채우세요.
+16. [A2 · 문장 완성] Kinderen zetten hun ___ bij de deur. — 정답： schoen（schoen = 신발） [빈칸 채우기]
+17. [A2 · 문장 완성] In de schoen zit een ___ voor het paard. — 정답： wortel（wortel = 당근） [빈칸 채우기]
+18. [A2 · 문장 완성] Op het ___ staan drie wensen. — 정답： verlanglijstje（verlanglijstje = 소원 목록） [빈칸 채우기]
+19. [A2 · 문장 완성] Bij de surprise hoort een ___. — 정답： gedicht（gedicht = 시） [빈칸 채우기]
+20. [A2 · 문장 완성] Pakjesavond is op ___ december. — 정답： 5（팍예스아폰트는 12월 5일이에요） [빈칸 채우기]
+## C　SCHOEN EN GEDICHT
+2면의 숫자와 이름으로 빈칸을 채우세요.
+21. [A2 · 문장 완성] Het paard van Sinterklaas heet ___. — 정답： Ozosnel（신터클라스의 말 이름은 오조스넬） [빈칸 채우기]
+22. [A2 · 문장 완성] Van 16 november tot 5 december: ___ dagen. — 정답： 19（11월 16일부터 12월 5일까지는 19일） [빈칸 채우기]
+23. [A2 · 문장 완성] Het Sinterklaasjournaal is om ___ uur. — 정답： 18:00（신터클라스 뉴스 18:00） [빈칸 채우기]
+24. [A2 · 문장 완성] Pakjesavond is in ___. — 정답： december（Pakjesavond는 12월） [빈칸 채우기]
+## D　WOORDEN
+25–28. [A2 · 단어 짝짓기] 단어와 뜻 짝짓기
+25. de schoen — die staat 's avonds bij de deur (정답 d · schoen = 신발 d)
+26. de wortel — eten voor Sinterklaas' paard (정답 c · wortel = 당근 c)
+27. het verlanglijstje — een lijst met wensen voor Sinterklaas (정답 a · verlanglijstje = 소원 목록 a)
+28. het gedicht — een klein versje bij een cadeau (정답 b · gedicht = 시 b)
+
+## Pagina 3
+
+## Sinterklaas is er: Grave, Amsterdam en het journaal
+Op zaterdag 14 november kwam Sinterklaas officieel aan in Nederland. De landelijke intocht was dit jaar in Grave, een vestingstad aan de Maas in Noord-Brabant. Rond 12:00 uur meerde de stoomboot aan bij de Maaskade. Burgemeester Marieke Moorman ontving Sinterklaas. Het programma duurde van 12:00 tot 16:00 uur en was live te zien op NPO 3.
+Een dag later voer Sinterklaas in Amsterdam: de boot vertrok om 10:15 uur bij De Omval en voer over de Amstel naar het Scheepvaartmuseum, waar hij rond 11:30 uur aankwam. Daar kreeg hij de sleutel van de stad. Om 13:00 uur begon de stoet te paard bij de Stopera, via het Rembrandtplein en de Utrechtsestraat naar het Leidseplein. Het was de 88e editie van de Amsterdamse intocht.
+Het Sinterklaasjournaal is er elke dag om 18:00 uur op NPO Zapp. Presentatrice Merel Westrik vertelt hoe de voorbereidingen gaan: de schoen, de verlanglijstjes en — over negentien dagen — pakjesavond op zaterdag 5 december.
+November is ook de maand van Heel Nederland Leest: heel Nederland leest dit jaar Het diner van Herman Koch, uit 2009. Het boek is gratis af te halen in de bibliotheek, ook als je geen lid bent. Er is ook een grootletterboek, een Makkelijk Lezen-editie, een e-book en een luisterboek. In bibliotheken zijn er leeskringen — ook voor mensen die Nederlands leren.
+## LEZEN EN KIJKEN
+Twee dingen in november: 's avonds om 18:00 uur het Sinterklaasjournaal kijken, en overdag een boek lezen. Neem Het diner mee naar huis en praat erover met vrienden: samen lezen is leuker dan alleen lezen.
+En wie zijn schoen zet, kan er een verlanglijstje in doen — of een tekening. Sinterklaas leest alles.
+> de vestingstad 요새 도시 · ontvangen 맞이하다 · de sleutel 열쇠 · de editie 회 · de leeskring 독서 모임.
+### SINTERKLAAS IN CIJFERS
+Landelijke intocht: zaterdag 14 november, Grave, Maaskade, vanaf 12:00 uur op tv.
+Amsterdam: zondag 15 november, boot 10:15 uur, stoet 13:00 uur, 88e editie.
+Sinterklaasjournaal: elke dag 18:00 uur, NPO Zapp, met Merel Westrik.
+Heel Nederland Leest: Het diner, gratis in de bibliotheek, heel november.
+## OEFENINGEN　3면 연습
+정답은 8면에　수준이 섞여 있으니 번호로 찾으세요
+## A　BEGRIJPEN
+3면 기사를 읽고 정답을 고르세요.
+29. [A2 · 객관식] De landelijke intocht was in... A. Amsterdam · B. Grave · C. Utrecht — 정답： B（전국 도착은 흐라버에서 열려요）
+30. [A2 · 객관식] De stoomboot meerde aan om... A. 18:00 uur · B. 12:00 uur · C. 20:45 uur — 정답： B（배는 12:00경 마스카더에 도착한다）
+31. [A2 · 객관식] De boot in Amsterdam vertrok om... A. 12:00 uur · B. 13:00 uur · C. 10:15 uur — 정답： C（암스테르담 배는 10:15에 더 옴팔을 떠나요）
+32. [A2 · 객관식] De intocht in Amsterdam was de... A. 88e editie · B. 26e editie · C. 30e editie — 정답： A（암스테르담 도착은 88회째예요）
+33. [A2 · 객관식] Het diner is gratis af te halen in... A. de boekwinkel · B. de bibliotheek · C. het museum — 정답： B（『Het diner』는 도서관에서 무료로 가져갈 수 있어요）
+## B　WOORDEN UIT DE TEKST
+상자 속 단어로 채우세요.
+vestingstad · ontvangen · sleutel · editie · leeskring
+34. [A2 · 문장 완성] Grave is een oude ___ aan de Maas. — 정답： vestingstad（vestingstad = 요새 도시） [빈칸 채우기]
+35. [B1 · 문장 완성] Burgemeester Moorman ___ Sinterklaas in Grave. — 정답： ontving（ontvangen의 과거형: ontving） [빈칸 채우기]
+36. [B1 · 문장 완성] Sinterklaas kreeg de ___ van de stad. — 정답： sleutel（sleutel = 열쇠） [빈칸 채우기]
+37. [B1 · 문장 완성] Het was de 88e ___ van de Amsterdamse intocht. — 정답： editie（editie = 회） [빈칸 채우기]
+38. [A2 · 문장 완성] In de bibliotheek is er een ___ over Het diner. — 정답： leeskring（leeskring = 독서 모임） [빈칸 채우기]
+## C　HET PERFECTUM
+현재완료로 채우세요. 조동사 hebben/zijn에 주의하세요.
+39. [B1 · 문장 완성] Sinterklaas ___ (aankomen) in Grave. — 정답： is aangekomen（aankomen은 zijn을 써요: is aangekomen） [빈칸 채우기]
+40. [B1 · 문장 완성] De burgemeester ___ (ontvangen) Sinterklaas. — 정답： heeft ontvangen（ontvangen의 완료형: heeft ontvangen） [빈칸 채우기]
+41. [B1 · 문장 완성] De boot ___ (varen) van De Omval naar het Scheepvaartmuseum. — 정답： is gevaren（varen은 zijn과 함께: is gevaren） [빈칸 채우기]
+42. [B1 · 문장 완성] Veel mensen ___ (lezen) Het diner in november. — 정답： hebben gelezen（lezen 완료형: hebben gelezen） [빈칸 채우기]
+## D　REKENEN
+계산해 보세요: 3면 숫자로 답하세요.
+43. [B1 · 문장 완성] Van zaterdag 14 tot zondag 15 november: ___ dag. — 정답： 1（11월 14일부터 15일까지는 1일） [빈칸 채우기]
+44. [B1 · 문장 완성] Het programma in Grave duurde van 12:00 tot 16:00 uur: ___ uur. — 정답： 4（흐라버 프로그램 12:00–16:00은 4시간이에요） [빈칸 채우기]
+45. [B1 · 문장 완성] Van 16 november tot 5 december: ___ dagen. — 정답： 19（11월 16일부터 12월 5일까지는 19일） [빈칸 채우기]
+46. [B2 · 문장 완성] Het diner is uit 2009; in 2026 is dat ___ jaar geleden. — 정답： 17（『Het diner』는 2009년 작품: 2026년이면 17년 전이에요） [빈칸 채우기]
+
+## Pagina 4
+
+## Oranje: de beslissing in Berlijn
+Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland. De wedstrijd begint om 20:45 uur in het Olympiastadion en is live te zien op NPO 3. Het is de zesde en laatste wedstrijd in de groepsfase van de Nations League — en de beslissing in groep 2: de nummers één en twee gaan naar de kwartfinales in maart 2027.
+Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten. Duitsland heeft 5 punten, Servië heeft 0 punten. Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5. Oranje is nog ongeslagen: 1–1 thuis tegen Duitsland, 2–1 uit bij Servië, 2–2 uit bij Griekenland en 2–1 thuis tegen Servië.
+Duitsland moet winnen in Berlijn. De Duitsers verloren thuis met 0–1 van Griekenland, wonnen met 2–0 van Servië en speelden met 0–0 gelijk in Griekenland. Vrijdag speelde Duitsland in Belgrado tegen Servië; Oranje speelde vrijdag thuis tegen Griekenland. Maandagavond in Berlijn valt de beslissing.
+De Eredivisie begint zaterdag weer: speelronde 13 is op 21 en 22 november. Zaterdag speelt PSV om 16:30 uur uit bij NEC en speelt Feyenoord om 18:45 uur thuis tegen Excelsior. Zondag speelt Ajax om 14:30 uur thuis tegen ADO Den Haag en speelt FC Twente om 12:15 uur thuis tegen Willem II. Vóór de interlandperiode won PSV met 2–5 van Cambuur en werd het 5–3 bij Heerenveen – Feyenoord.
+## DE STAND IN GROEP 2
+Nederland 8 punten, Griekenland 8, Duitsland 5, Servië 0. Twee landen gaan door. Maandag in Berlijn is dus bijna een finale — de laatste wedstrijd van de groep.
+> de groepswinst 조 우승 · de kwartfinale 8강전 · ongeslagen 무패 · de interland 국가대표 경기 · de stand 순위표.
+### HET PROGRAMMA
+Maandag 16 november, 20:45 uur: Duitsland – Nederland, Berlijn, NPO 3.
+Stand na 4 wedstrijden: Nederland 8, Griekenland 8, Duitsland 5, Servië 0 punten.
+Speelronde 12: Heerenveen – Feyenoord 5–3; Cambuur – PSV 2–5; Twente – Ajax 2–2.
+Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+Speelronde 13: zaterdag NEC – PSV 16:30 uur; Feyenoord – Excelsior 18:45 uur.
+## OEFENINGEN　4면 연습
+정답은 8면에　수준이 섞여 있으니 번호로 찾으세요
+## A　BEGRIJPEN
+4면 기사를 읽고 정답을 고르세요.
+47. [B1 · 객관식] Duitsland – Nederland is op... A. vrijdag 13 november · B. zaterdag 14 november · C. maandag 16 november — 정답： C（독일–네덜란드, 월요일, 베를린）
+48. [B1 · 객관식] Na vier wedstrijden hebben Nederland en Griekenland... A. 5 punten · B. 8 punten · C. 0 punten — 정답： B（네덜란드와 그리스는 둘 다 승점 8점이에요）
+49. [B1 · 객관식] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — 정답： B（독일은 홈에서 그리스에 0–1로 졌다）
+50. [B1 · 객관식] Speelronde 13 is op... A. 13 en 14 november · B. 21 en 22 november · C. 9 en 10 november — 정답： B（에레디비시 13라운드는 11월 21–22일이에요）
+51. [B1 · 객관식] PSV won met 2–5 van... A. Feyenoord · B. Cambuur · C. Ajax — 정답： B（PSV는 캄뷔르에 2–5로 이겼다）
+## B　WOORDEN UIT DE TEKST
+상자 속 단어로 채우세요. 동사 형태에 주의하세요.
+groepswinst · kwartfinale · ongeslagen · interland · stand
+52. [B1 · 문장 완성] Maandag valt de beslissing om de ___. — 정답： groepswinst（groepswinst = 조 우승） [빈칸 채우기]
+53. [B1 · 문장 완성] De nummers één en twee gaan naar de ___. — 정답： kwartfinales（kwartfinale 복수형: kwartfinales） [빈칸 채우기]
+54. [B1 · 문장 완성] Oranje is nog ___ na vier wedstrijden. — 정답： ongeslagen（ongeslagen = 무패） [빈칸 채우기]
+55. [B1 · 문장 완성] Op de ___ staat Servië onderaan met 0 punten. — 정답： stand（stand = 순위표） [빈칸 채우기]
+56. [B1 · 문장 완성] Na maandag is er geen ___ meer tot maart. — 정답： interland（interland = 국가대표 경기） [빈칸 채우기]
+## C　VERLEDEN TIJD
+과거형이나 완료형으로 채우세요.
+57. [B1 · 문장 완성] Oranje ___ (spelen) 1–1 tegen Duitsland. — 정답： speelde（spelen 과거형: speelde） [빈칸 채우기]
+58. [B1 · 문장 완성] PSV ___ (winnen) met 2–5 van Cambuur. — 정답： won（winnen 과거형: won） [빈칸 채우기]
+59. [B1 · 문장 완성] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — 정답： verloor（verliezen의 과거형: verloor） [빈칸 채우기]
+60. [B2 · 문장 완성] Twente en Ajax ___ (spelen) 2–2 gelijk. — 정답： speelden（spelen의 과거형 복수: speelden） [빈칸 채우기]
+## D　WAAR OF NIET WAAR?
+61. [B1 · 참/거짓 판단] Duitsland – Nederland begint maandag om 20:45 uur. Waar of niet waar? — 정답： Waar（참: 독일–네덜란드, 월요일 20:45） [참 / 거짓]
+62. [B1 · 참/거짓 판단] Servië heeft 8 punten in groep 2. Waar of niet waar? — 정답： Niet waar（거짓: 세르비아는 승점 0점으로 최하위예요） [참 / 거짓]
+63. [B1 · 참/거짓 판단] PSV staat onderaan in de Eredivisie. Waar of niet waar? — 정답： Niet waar（거짓: PSV는 26점으로 에레디비시 선두） [참 / 거짓]
+64. [B1 · 참/거짓 판단] Heerenveen won met 5–3 van Feyenoord. Waar of niet waar? — 정답： Waar（참: 헤렌베인은 페예노르트에 5–3으로 이겼다） [참 / 거짓]
+
+## Pagina 5
+
+## Robinson op zondag — en de surprises
+Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4. Negentien bekende Nederlanders en Vlamingen leven 34 dagen op een onbewoond eiland in Maleisië. Nicolette Kluijver en Edson da Graça presenteren het programma, Camille Vanuxem is de verslaggever.
+De kandidaten slapen buiten en moeten alles zelf doen: vuur maken, eten zoeken, proeven winnen. Wie een proef verliest, kan naar huis worden gestemd. Wie het langst blijft, wint de expeditie. Het seizoen begon op zondag 1 november — en elke week wordt het spel harder. Zondag 22 november is er een nieuwe aflevering.
+Zondagavond is ook de avond van de surprises: over dertien dagen is het pakjesavond, op zaterdag 5 december. Jongeren maken een surprise voor een vriend of vriendin: een cadeau in een gekke verpakking, met een gedicht erbij. Een surprise maken is ook Nederlands oefenen: schrijf het gedicht in het Nederlands.
+Een gedicht hoeft niet lang te zijn: vier regels zijn genoeg. Vertel in het gedicht wie het cadeau krijgt, waarom juist die persoon, en wat erin zit — maar verklap de surprise niet te snel. Sinterklaas leest Nederlands, zeggen kinderen — en de redactie ook.
+## JONGEREN EN DE SURPRISE
+Een surprise is niet alleen voor kleine kinderen. Jongeren maken surprises met een wortel voor het paard, een tekening — of een gedicht van vier regels. Klein of groot, een gedicht op papier is het begin van pakjesavond.
+### ZO KIJK JE ROBINSON
+1. Kijk zondag om 20:00 uur op RTL 4(일요일 20:00에 RTL 4에서 보기)
+2. Let op de proeven: daar worden de punten verdeeld(경기에 주목: 점수는 거기서 결정된다)
+3. Raad met vrienden wie het langst blijft(친구들과 누가 가장 오래 남을지 맞춰 보세요)
+4. Schrijf daarna een gedicht voor je surprise(그리고 변장 선물에 시를 써 보세요)
+> de surprise 변장 선물 · het gedicht 시 · de verslaggever 리포터 · de proef 트라이얼, 도전 · de aflevering 회차.
+### JONGEREN IN CIJFERS
+Expeditie Robinson: 19 kandidaten; elke zondag 20:00 uur, RTL 4.
+34 dagen op een onbewoond eiland in Maleisië; presentatie: Nicolette Kluijver en Edson da Graça.
+Pakjesavond is op zaterdag 5 december — nog 13 dagen vanaf zondag 22 november.
+### EN JIJ?　당신은요?
+En jij? Kijk jij zondag naar Expeditie Robinson, of maak je liever een surprise met een gedicht? Schrijf twee zinnen in het Nederlands en stuur ze naar de redactie.
+일요일에 '익스페디티 로빈슨'을 볼 건가요, 아니면 변장 선물과 짧은 시를 만들 건가요? 네덜란드어로 두 문장을 써서 보내세요.
+## OEFENINGEN　5면 연습
+정답은 8면에　수준이 섞여 있으니 번호로 찾으세요
+## A　BEGRIJPEN
+5면 기사를 읽고 정답을 고르세요.
+65. [B1 · 객관식] Expeditie Robinson is elke zondag om... A. 18:00 uur · B. 20:00 uur · C. 12:00 uur — 정답： B（로빈슨은 매주 일요일 20:00에 RTL 4에서 방송해요）
+66. [B1 · 객관식] Expeditie Robinson heeft ___ kandidaten. A. 19 · B. 34 · C. 88 — 정답： A（참가자 19명）
+67. [B1 · 객관식] De kandidaten leven op een eiland in... A. Spanje · B. Grave · C. Maleisië — 정답： C（이 프로그램은 말레이시아의 무인도에서 촬영해요）
+68. [B1 · 객관식] De kandidaten blijven ___ dagen op het eiland. A. 19 · B. 34 · C. 88 — 정답： B（참가자들은 섬에서 34일을 보내요）
+69. [B1 · 객관식] Bij een surprise hoort... A. een gedicht · B. een boek · C. een lampion — 정답： A（서프리즈 안에는 시가 있다）
+## B　WOORDEN UIT DE TEKST
+상자 속 단어로 채우세요.
+surprise · gedicht · verslaggever · proef · aflevering · kandidaat
+70. [B1 · 문장 완성] Ik maak een ___ voor mijn vriendin. — 정답： surprise（surprise = 변장 선물(de)） [빈칸 채우기]
+71. [B1 · 문장 완성] Camille Vanuxem is de ___ van het programma. — 정답： verslaggever（verslaggever = 리포터 (de)） [빈칸 채우기]
+72. [B1 · 문장 완성] Wie een ___ verliest, kan naar huis gaan. — 정답： proef（proef = 트라이얼, 도전 (de)） [빈칸 채우기]
+73. [B1 · 문장 완성] In vier regels schrijf ik een ___. — 정답： gedicht（gedicht = 시(het)） [빈칸 채우기]
+74. [B1 · 문장 완성] Zondag is er een nieuwe ___ van Robinson. — 정답： aflevering（aflevering = 회차） [빈칸 채우기]
+75. [B1 · 문장 완성] Er zijn 19 ___ op het eiland. — 정답： kandidaten（kandidaat 복수형: kandidaten） [빈칸 채우기]
+## C　DE TOEKOMST MET GAAN
+gaan + 부정사로 미래에 대해 말해 보세요.
+76. [B1 · 문장 완성] Wie ___ (winnen) Expeditie Robinson, denk je? — 정답： gaat winnen（gaat winnen = 이길 거예요(그냥 추측)） [빈칸 채우기]
+77. [B1 · 문장 완성] Wij ___ (kijken) zondag naar de nieuwe aflevering. — 정답： gaan kijken（wij → gaan + 부정사 kijken） [빈칸 채우기]
+78. [B1 · 문장 완성] Zij ___ (maken) zondag een surprise voor pakjesavond. — 정답： gaat maken（zij → gaat maken） [빈칸 채우기]
+79. [B1 · 문장 완성] De kinderen ___ (schrijven) een gedicht van vier regels. — 정답： gaan schrijven（zij (복수) → gaan schrijven） [빈칸 채우기]
+## D　WAAR OF NIET WAAR?
+80. [B1 · 참/거짓 판단] Expeditie Robinson begon op 1 november. Waar of niet waar? — 정답： Waar（참: 이 프로그램은 11월 1일에 시작했어요） [참 / 거짓]
+81. [B1 · 참/거짓 판단] Expeditie Robinson speelt in Spanje. Waar of niet waar? — 정답： Niet waar（거짓: 이 프로그램은 말레이시아에서 촬영해요） [참 / 거짓]
+82. [B2 · 참/거짓 판단] Een gedicht voor een surprise moet minstens twintig regels hebben. Waar of niet waar? — 정답： Niet waar（거짓: 시는 네 줄이면 충분하다） [참 / 거짓]
+
+## Pagina 6
+
+## Sinterklaas: oud feest, nieuwe wensen
+Sinterklaas is een oud feest in Nederland. Kinderen zetten al meer dan honderd jaar hun schoen bij de deur. Maar het feest verandert: vroeger zat er een tekening in de schoen, nu steeds vaker een verlanglijstje — soms op papier, soms op een telefoon.
+Ook pakjesavond verandert. Vroeger kreeg je een cadeau in een doos; nu maken veel families een surprise: het cadeau zit verstopt in iets geks, met een gedicht erbij. Het gedicht is vaak het leukste van de avond — grappig, lief of een beetje plagend.
+Deskundigen zien het feest niet verdwijnen. Het Sinterklaasjournaal is elke dag om 18:00 uur op televisie en de landelijke intocht in Grave was live op NPO 3 te zien. Het feest verandert, zeggen zij — het verdwijnt niet.
+De twee weken rond Sinterklaas zijn ook anders dan vroeger. Sint-Maarten was vorige week woensdag: kinderen liepen met lampionnen langs de deuren. Nu staat de schoen klaar. Twee feesten van licht en geven, in twee weken — met twee soorten wensen: een wortel voor het paard, een lijstje voor de Sint.
+Een traditie leeft als mensen haar blijven vieren. Op straat, in de huiskamer of allebei: de schoen staat klaar als het donker wordt, en het gedicht klinkt op pakjesavond bij elk cadeau.
+## VOOR OF TEGEN EEN LIJSTJE?
+Voorstanders van het lijstje zeggen: zo krijgt iedereen wat hij echt wil. Tegenstanders zeggen: een verrassing is leuker dan een lijstje. De krant kiest niet: schrijf wat je wilt — maar schrijf het in het Nederlands.
+> het verlanglijstje 소원 목록 · de surprise 변장 선물 · het gedicht 시 · veranderen 변하다 · de traditie 전통.
+### DE GRAFIEK　그래프(연습 데이터)
+Een wortel en een tekening 35
+Een verlanglijstje 30
+Een gedicht 20
+Nog niets 15
+OEFENDATA — verzonnen cijfers om mee te oefenen, geen echte enquête. Vraag: wat zet jij in je schoen? (100 jongeren)
+연습 데이터: 가상의 숫자이며, 연습용일 뿐 실제 조사가 아닙니다. 질문: 신발에 무엇을 넣나요? (젊은이 100명)
+### VOOR OF TEGEN?　찬성? 반대?
+Voor een lijstje: zo krijgt iedereen wat hij echt wil.
+Tegen een lijstje: een verrassing is leuker dan een lijstje.
+De krant kiest niet: schrijf wat je wilt. En jij?
+## OEFENINGEN　6면 연습
+정답은 8면에　수준이 섞여 있으니 번호로 찾으세요
+## A　LEES DE GRAFIEK
+6면 그래프(연습용 데이터)에서 답하세요.
+83. [B2 · 문장 완성] ___ van de 100 jongeren zetten een wortel en een tekening in hun schoen. — 정답： 35（젊은이 35명은 당근과 그림을 신발에 넣는다） [빈칸 채우기]
+84. [B2 · 문장 완성] ___ jongeren zetten een verlanglijstje in hun schoen. — 정답： 30（30명은 소원 목록을 넣는다） [빈칸 채우기]
+85. [B2 · 문장 완성] Wortel en verlanglijstje samen: ___ jongeren. — 정답： 65（35 + 30 = 65） [빈칸 채우기]
+86. [B2 · 문장 완성] ___ jongeren zetten nog niets in hun schoen. — 정답： 15（15명은 아직 아무것도 넣지 않았다） [빈칸 채우기]
+87. [B2 · 문장 완성] De grafiek telt in totaal ___ jongeren. — 정답： 100（그래프는 총 100명: 35+30+20+15） [빈칸 채우기]
+## B　BEGRIJPEN
+6면 기사를 읽고 정답을 고르세요.
+88. [B2 · 객관식] Vroeger zat er een tekening in de schoen; nu steeds vaker... A. een lampion · B. een verlanglijstje · C. een boek — 정답： B（예전에는 신발에 그림을 넣었는데, 요즘은 소원 목록을 넣는 경우가 많다）
+89. [B2 · 객관식] Een surprise is een cadeau... A. in een doos van de winkel · B. verstopt in iets geks · C. zonder gedicht — 정답： B（서프리즈는 이상한 포장 속에 숨긴 선물）
+90. [B2 · 객관식] Het Sinterklaasjournaal is elke dag om... A. 12:00 uur · B. 20:00 uur · C. 18:00 uur — 정답： C（신터클라스 뉴스는 매일 18:00）
+91. [B2 · 객관식] Een traditie leeft als... A. mensen haar blijven vieren · B. ze oud is · C. ze op televisie is — 정답： A（전통은 사람들이 계속 기념할 때 살아남아요）
+92. [B2 · 객관식] Sint-Maarten was... A. gisteren · B. vorige week woensdag · C. volgende week — 정답： B（성 마르틴의 날은 지난 수요일이었다）
+## C　WOORDEN
+상자 속 단어로 채우세요.
+verlanglijstje · surprise · gedicht · veranderen
+93. [B2 · 문장 완성] Op het ___ staan drie wensen. — 정답： verlanglijstje（verlanglijstje = 소원 목록 (het)） [빈칸 채우기]
+94. [B2 · 문장 완성] Het cadeau zit verstopt in een ___. — 정답： surprise（surprise = 변장 선물(de)） [빈칸 채우기]
+95. [B2 · 문장 완성] Bij het cadeau hoort een ___ van vier regels. — 정답： gedicht（gedicht = 시(het)） [빈칸 채우기]
+96. [B2 · 문장 완성] Het feest ___ elk jaar een beetje. — 정답： verandert（veranderen → verandert(단수)） [빈칸 채우기]
+## D　MAAK DE ZINNEN
+단어를 올바른 순서로 배열해 문장을 만드세요.
+97. [B2 · 문장 만들기] sinterklaas / is / een oud feest / in nederland → ___ — 정답： Sinterklaas is een oud feest in Nederland.（주어·동사·보어·장소） [문장 만들기]
+98. [B2 · 문장 만들기] de kinderen / zetten / hun schoen / bij de deur → ___ — 정답： De kinderen zetten hun schoen bij de deur.（주어·동사·목적어·장소） [문장 만들기]
+99. [B2 · 문장 만들기] een traditie / leeft / als mensen haar blijven vieren → ___ — 정답： Een traditie leeft als mensen haar blijven vieren.（als 절은 마지막에 와요） [문장 만들기]
+100. [B2 · 문장 만들기] het feest / verandert / maar het verdwijnt niet → ___ — 정답： Het feest verandert, maar het verdwijnt niet.（veranderen + maar + 부정） [문장 만들기]
+
+## Pagina 7
+
+## A2　VOETBALWOORDEN
+De woorden van deze week horen bij het voetbal: de wedstrijd, de groepswinst, de kwartfinale en scoren. De wedstrijd is maandag in Berlijn: Duitsland tegen Nederland. De groepswinst is de eerste plaats in de groep.
+En scoren: wie een doelpunt maakt, scoort. Nederland maakte 7 doelpunten in vier wedstrijden — meer dan Griekenland (5). Daarom staat Oranje bovenaan. Onthoud ook: de schoen staat klaar voor Sinterklaas.
+de wedstrijd 경기; de groepswinst 조 우승; de kwartfinale 8강전; scoren 골을 넣다.
+101. [A2 · 문장 완성] Duitsland – Nederland is een belangrijke ___. — 정답： wedstrijd（de wedstrijd = 경기） [빈칸 채우기]
+102. [A2 · 문장 완성] Wie pakt de ___ in groep 2? — 정답： groepswinst（de groepswinst = 조 우승） [빈칸 채우기]
+103. [A2 · 객관식] «De groepswinst» is... A. een boek · B. de eerste plaats in de groep · C. een liedje — 정답： B（조 우승은 조 1위를 뜻해요）
+104. [A2 · 문장 완성] Nederland ___ (scoren) 7 keer in vier wedstrijden. — 정답： scoorde（scoren의 과거형: scoorde） [빈칸 채우기]
+## B1　DE VERLEDEN TIJD
+Nederlands vertelt over het verleden met de verleden tijd: spelen wordt speelde, winnen wordt won, verliezen wordt verloor, maken wordt maakte. Voorbeeld: «PSV won met 2–5 van Cambuur.» «Feyenoord verloor met 5–3 bij Heerenveen.»
+Let op: sommige werkwoorden zijn onregelmatig — winnen/won, verliezen/verloor. Andere zijn regelmatig: spelen/speelde, maken/maakte. Oefen met de uitslagen van deze week.
+speelde 경기를 했다; won 이겼다; verloor 졌다; maakte 골을 넣었다. 과거형은 이미 일어난 일을 말한다.
+105. [B1 · 문장 완성] PSV ___ (winnen) met 2–5 van Cambuur. — 정답： won（winnen 과거형: won） [빈칸 채우기]
+106. [B1 · 문장 완성] Feyenoord ___ (verliezen) met 5–3 bij Heerenveen. — 정답： verloor（verliezen의 과거형: verloor） [빈칸 채우기]
+107. [B1 · 문장 완성] Ajax ___ (spelen) 2–2 tegen Twente. — 정답： speelde（spelen 과거형: speelde） [빈칸 채우기]
+108. [B1 · 객관식] «Won» is de verleden tijd van... A. spelen · B. winnen · C. verliezen — 정답： B（won은 winnen의 과거형이에요）
+## B2　BIJZINNEN MET OMDAT
+Met «omdat» zeg je waarom iets gebeurt: «Oranje staat bovenaan, omdat het meer doelpunten maakte.» «Sinterklaas komt 's nachts, omdat de kinderen dan slapen.» De bijzin met «omdat» staat achteraan; het werkwoord staat dan helemaal achteraan in de bijzin.
+Voorbeeld: «Ik zet mijn schoen, omdat ik een cadeautje wil.» «Het feest verandert, omdat mensen anders vieren.» Een omdat-zin is geen vraag — het is een reden: dit gebeurt, omdat dat.
+omdat ~이기 때문에; omdat het meer doelpunten maakte 골을 더 많이 넣었기 때문에; omdat ik een cadeautje wil 선물을 받고 싶기 때문에.
+109. [B2 · 문장 완성] Oranje staat bovenaan, ___ het meer doelpunten maakte. — 정답： omdat（omdat = ~이기 때문에） [빈칸 채우기]
+110. [B2 · 객관식] «Ik zet mijn schoen, omdat ik een cadeautje wil» is... A. een vraag · B. een reden · C. een bevel — 정답： B（omdat 절은 이유를 나타내지, 의문이 아니에요）
+111. [B2 · 문장 완성] Ik zet mijn schoen, omdat ik een cadeautje ___. — 정답： wil（동사는 omdat 절 끝에 와요: wil） [빈칸 채우기]
+112. [B2 · 문장 완성] Oranje staat bovenaan, omdat het meer doelpunten ___. — 정답： maakte（omdat 절에서 maakte가 맨 끝에 와요） [빈칸 채우기]
+### PAS OP!　실수 클리닉
+«De Oranje speelt maandag.»
+→ Fout: Oranje is een naam, zonder lidwoord: «Oranje speelt maandag.»
+오라녜는 고유명사라서 관사가 붙지 않아요.
+«Ik zet een schoen.»
+→ «De schoen zetten» vraagt een bezittelijk woord: «Ik zet mijn schoen.»
+mijn schoen = 내 신발이에요.
+«PSV winnen met 2–5.»
+→ De verleden tijd van winnen is won: «PSV won met 2–5.»
+winnen의 과거형은 won이에요.
+«Omdat het regent, ik blijf thuis.»
+→ Na de omdat-zin staat het werkwoord vooraan: «... blijf ik thuis.»
+omdat 절 뒤에서는 본절 동사가 맨 앞에 와요: blijf ik thuis.
+### HET WOORD　이번 주 단어
+«de groepswinst» betekent: de eerste plaats in de groep. Wie de groepswinst pakt, gaat als nummer één naar de kwartfinales.
+groepswinst = 조 우승: 조 1위, 1위가 8강전에 진출해요.
+### BRIEVEN VAN LEZERS
+«Hallo! Ik ben Anna en ik leer Nederlands. Maandag kijk ik naar Oranje tegen Duitsland — en daarna zet ik mijn schoen!» — Anna (voorbeeldbrief van de redactie)
+Ter perse: nog geen echte brieven of beste pagina-8-teksten binnen — daarom dit voorbeeld; belofte naar VOL.5.
+마감까지 편지나 작문이 없어 예시를 실어요. 약속은 VOL.5로 이어져요.
+편집부 예시 편지이며, 실제 편지가 아니에요. 여러분의 편지와 작문을 보내 주세요. VOL.5에 싣겠습니다!
+## ZINNEN VAN DE WEEK　이번 주 명문장(이번 호 기사에서 그대로)
+> «Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland» — 11월 16일 월요일, 오라녜는 베를린에서 독일과 맞붙어요. (Pagina 1)
+> «Na vier wedstrijden staan Nederland en Griekenland samen bovenaan met 8 punten» — 네 경기를 마친 뒤 네덜란드와 그리스는 승점 8점으로 공동 선두에 있어요. (Pagina 1)
+> «Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus» — 12월 5일 토요일은 파크예스아본트, 큰 선물의 밤이에요. (Pagina 2)
+> «Op zaterdag 14 november kwam Sinterklaas officieel aan in Nederland» — 11월 14일 토요일, 신터클라스가 공식적으로 네덜란드에 도착했어요. (Pagina 3)
+> «Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5» — 네덜란드가 1위인 것은 골을 더 많이 넣었기 때문이에요: 7 대 5. (Pagina 4)
+> «Elke zondag om 20:00 uur is Expeditie Robinson te zien op RTL 4» — 매주 일요일 20:00에 Expeditie Robinson은 RTL 4에서 방송해요. (Pagina 5)
+> «Sinterklaas is een oud feest in Nederland» — 신터클라스 축제는 네덜란드의 오래된 축제예요. (Pagina 6)
+> «Een traditie leeft als mensen haar blijven vieren» — 전통은 사람들이 계속 기념할 때 살아남아요. (Pagina 6)
+### VOLGENDE WEEK　다음 주 예고(VOL.5)
+Dinsdag 24 november is er Europees voetbal: Real Madrid – PSV en Feyenoord – FC Porto. Zondag 29 november is het Feyenoord – Ajax. En zaterdag 5 december is het pakjesavond. Verder: jullie brieven en de beste teksten van pagina 8. Tot maandag!
+
+## Pagina 8
+
+## A　VUL DE KRONIEK IN
+113. [B1 · 객관식] Duitsland – Nederland is op maandag in ___. (A. Amsterdam · B. Berlijn) — 정답： B（독일–네덜란드, 월요일, 베를린）
+114. [B1 · 객관식] Nederland en Griekenland hebben allebei ___ punten. (A. 5 · B. 8) — 정답： B（네덜란드와 그리스는 둘 다 승점 8점이에요）
+115. [B1 · 객관식] Nederland maakte ___ doelpunten in vier wedstrijden. (A. 7 · B. 5) — 정답： A（네덜란드는 7골을 넣었어요）
+116. [B1 · 객관식] Pakjesavond is op ___ december. (A. november · B. december) — 정답： B（Pakjesavond는 12월）
+117. [B1 · 객관식] Het Sinterklaasjournaal is elke dag om ___ uur. (A. 12:00 · B. 18:00) — 정답： B（신터클라스 뉴스 18:00）
+118. [B1 · 객관식] Expeditie Robinson is te zien op ___. (A. NPO 3 · B. RTL 4) — 정답： B（로빈슨은 RTL 4에서 방송해요）
+119. [B1 · 객관식] Bij een surprise hoort een ___. (A. liedje · B. gedicht) — 정답： B（서프리즈 안에는 시가 있다）
+120. [B1 · 객관식] «De groepswinst» betekent ___. (A. de laatste plaats · B. de eerste plaats in de groep) — 정답： B（groepswinst = 조 우승）
+## B　ALGEMENE VRAGEN
+121. [A2 · 객관식] Het Sinterklaasjournaal is elke dag om... A. 18:00 uur · B. 12:00 uur · C. 20:00 uur — 정답： A（신터클라스 뉴스는 매일 18:00에 방송해요）
+122. [A2 · 객관식] Grave ligt aan... A. de Amstel · B. de Maas · C. de Rijn — 정답： B（흐라버는 마스 강가에 있어요）
+123. [A2 · 객관식] De intocht in Amsterdam was de... A. 26e editie · B. 88e editie · C. 30e editie — 정답： B（암스테르담 도착은 88회째예요）
+124. [B1 · 객관식] Het diner van Herman Koch is uit... A. 2009 · B. 2026 · C. 2017 — 정답： A（『Het diner』는 2009년에 출판됐어요）
+125. [B1 · 객관식] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — 정답： B（독일은 홈에서 그리스에 0–1로 졌어요）
+126. [B1 · 객관식] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — 정답： B（PSV는 승점 26점으로 에레디비시 선두예요）
+127. [B2 · 객관식] Een traditie leeft als... A. ze oud is · B. mensen haar blijven vieren · C. ze op televisie is — 정답： B（전통은 사람들이 계속 기념할 때 살아남아요）
+128. [B1 · 객관식] Speelronde 13 is op... A. 13 en 14 november · B. 16 november · C. 21 en 22 november — 정답： C（에레디비시 13라운드는 11월 21–22일이에요）
+## C　LEES EN ANTWOORD
+Daan woont in Rotterdam. Op maandag 16 november kijkt hij om 20:45 uur naar Duitsland – Nederland in Berlijn. Elke dag kijkt hij om 18:00 uur naar het Sinterklaasjournaal. Zaterdag 21 november kijkt hij naar NEC – PSV. Zondag zet hij zijn schoen met een wortel en een verlanglijstje. Op zondagavond kijkt hij ook naar Expeditie Robinson.
+129. [A2 · 객관식] Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam — 정답： B（단은 로테르담에 살아요）
+130. [A2 · 객관식] Wat doet Daan op maandag 16 november? A. Hij kijkt naar Robinson · B. Hij kijkt naar Duitsland – Nederland · C. Hij leest Het diner — 정답： B（그는 월요일에 독일–네덜란드 경기를 봐요）
+131. [A2 · 객관식] Wat zit er in de schoen van Daan? A. een boek · B. een wortel en een verlanglijstje · C. een lampion — 정답： B（그는 신발에 당근과 소원 목록을 넣어요）
+132. [B1 · 객관식] Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur · B. om 18:00 uur · C. om 20:00 uur — 정답： B（그는 매일 18시에 신터클라스 뉴스를 봐요）
+## D　MAAK DE ZINNEN
+133. [A2 · 문장 만들기] het sinterklaasjournaal / begint / om 18:00 uur → ___ — 정답： Het Sinterklaasjournaal begint om 18:00 uur.（주어·동사·시간） [문장 만들기]
+134. [B1 · 문장 만들기] wij / zetten / onze schoen / bij de deur → ___ — 정답： Wij zetten onze schoen bij de deur.（주어·동사·목적어·장소） [문장 만들기]
+135. [B1 · 문장 만들기] oranje / speelt / maandag / in berlijn → ___ — 정답： Oranje speelt maandag in Berlijn.（주어 + 동사 + 시간 + 장소） [문장 만들기]
+136. [B1 · 문장 만들기] ik / zet / mijn schoen / met een wortel → ___ — 정답： Ik zet mijn schoen met een wortel.（주어 + 동사 + 목적어 + 방식） [문장 만들기]
+## E　VERTAAL
+137. [A2 · 번역] Het Sinterklaasjournaal is elke dag om 18:00 uur te zien. → ___ — 정답： 신터클라스 뉴스는 매일 18:00에 방송해요.（3면 기사와 비교해 보세요） [한국어로 번역하기]
+138. [B1 · 번역] De nummers één en twee gaan naar de kwartfinales. → ___ — 정답： 상위 두 팀이 8강전에 진출해요.（4면 원문 · kwartfinale = 8강전） [한국어로 번역하기]
+139. [B1 · 번역] 암스테르담 도착은 88회째예요. → ___ — 정답： De intocht in Amsterdam was de 88e editie.（서수 88e에 주의하세요） [네덜란드어로 번역하기]
+140. [B2 · 번역] 작은 시가 담긴 깜짝 선물을 만들어요. → ___ — 정답： Ik maak een surprise met een kort gedicht.（surprise는 고정 표현이에요） [네덜란드어로 번역하기]
+## F　WOORDEN VAN DE WEEK
+141–144. [B2 · 단어 짝짓기] 단어와 뜻 짝짓기
+141. het journaal — een dagelijks nieuwsprogramma op televisie (정답 b · journaal = 뉴스 프로그램 b)
+142. de groepswinst — de eerste plaats in de groep (정답 c · groepswinst=조 우승 c)
+143. de schoen — die staat 's avonds bij de deur (정답 d · schoen = 신발 d)
+144. het gedicht — een klein versje bij een cadeau (정답 a · gedicht=시 a)
+## G　DIALOOG BIJ DE SCHOEN
+145. [B1 · 객관식] — Mama, waar moet mijn ___? (A. schoen · B. boek) — 정답： A（schoen = 신발）
+146. [B1 · 객관식] — Bij de deur, met een ___ voor het paard. (A. wortel · B. lampion) — 정답： A（wortel = 당근 (말을 위한 거예요)）
+147. [B1 · 객관식] — En mijn ___ erin? (A. verlanglijstje · B. journaal) — 정답： A（verlanglijstje = 소원 목록）
+148. [B1 · 객관식] — Ja. Sinterklaas brengt 's nachts een ___. (A. mantel · B. cadeautje) — 정답： B（cadeautje = 작은 선물）
+149. [B1 · 객관식] — Eerst kijken we om ___ uur naar het Sinterklaasjournaal. (A. 18:00 · B. 20:45) — 정답： A（18:00 = 신터클라스 뉴스 시간）
+## H　SCHRIJF ZELF
+쓰기 과제(정답이 하나가 아니에요); 모범 글(81단어)은 아래에 있어요.
+150. [B1 · 쓰기] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — 정답： (열린 문제, 모범 답안은 아래에 있어요)（모범 답안은 H 부분에서 보세요(81단어)） [쓰기]
+Tekstmodel: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedicht voor mijn surprise. Zaterdag kijk ik naar NEC – PSV. Zondag zet ik mijn schoen met een wortel en een verlanglijstje. Zondagavond kijk ik naar Expeditie Robinson. Daarna is het bijna pakjesavond, op zaterdag 5 december. Ik hoop op een boek. Wat een week vol voetbal en licht!

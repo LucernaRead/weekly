@@ -1,0 +1,8 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+image (4063, 5625)  (200 dpi, 0.360 pt/px)
+P7 NOCH EIN WORT close » (Newsreader control) [font=Newsreader16pt-Regular size=15.38pt]
+   ink runs (pt): [(1242.0, 1247.04), (1248.48, 1253.88), (1255.32, 1262.16), (1263.6, 1267.2), (1269.0, 1275.12)]
+   prev ink end=1253.88 | quote ink=[(1255.32, 1262.16)] | next ink start=1263.6
+   GAP BEFORE quote = 1.44pt = 0.09em | GAP AFTER = 1.44pt
+   verdict vs 0.2em: PASS (<=0.2em)

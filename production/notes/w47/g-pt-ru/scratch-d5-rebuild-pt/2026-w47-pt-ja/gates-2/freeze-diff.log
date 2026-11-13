@@ -1,0 +1,11 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +41 strings / -35 strings; CJK core 167 -> edition 254; added CJK chars: 185 {'\u3000': 2, '毎': 1, '週': 3, 'ブ': 1, 'ラ': 1, 'ジ': 5, 'ル': 11, 'が': 1, '読': 3, 'む': 1}; added Latin strings: 4 (unexpected 4)
+p2: +59 strings / -54 strings; CJK core 210 -> edition 306; added CJK chars: 253 {'\u3000': 1, '暮': 1, 'ら': 1, 'し': 2, '祝': 3, '日': 6, 'と': 4, '連': 5, '覚': 1, 'え': 3}; added Latin strings: 3 (unexpected 3)
+p3: +43 strings / -42 strings; CJK core 166 -> edition 253; added CJK chars: 208 {'\u3000': 1, '文': 4, '解': 3, '説': 2, '隷': 2, 'の': 8, '集': 1, '落': 1, 'に': 4, 'さ': 2}; added Latin strings: 4 (unexpected 4)
+p4: +49 strings / -41 strings; CJK core 175 -> edition 268; added CJK chars: 231 {'\u3000': 1, 'ス': 3, 'ポ': 3, 'ー': 7, 'ツ': 1, 'コ': 2, 'パ': 2, '・': 2, 'ド': 1, 'ブ': 1}; added Latin strings: 3 (unexpected 3)
+p5: +56 strings / -57 strings; CJK core 228 -> edition 367; added CJK chars: 304 {'\u3000': 1, '若': 1, '者': 1, '試': 3, '験': 3, 'の': 16, '後': 1, '待': 2, 'ち': 1, '時': 1}; added Latin strings: 3 (unexpected 3)
+p6: +33 strings / -31 strings; CJK core 138 -> edition 194; added CJK chars: 155 {'\u3000': 1, '読': 1, 'み': 1, '公': 1, 'の': 11, '解': 4, '答': 1, '説': 3, '締': 1, 'め': 2}; added Latin strings: 3 (unexpected 3)
+p7: +93 strings / -95 strings; CJK core 401 -> edition 588; added CJK chars: 463 {'\u3000': 1, 'こ': 3, 'と': 8, 'ば': 3, 'に': 8, '注': 2, '目': 1, 'つ': 5, 'の': 25, 'レ': 2}; added Latin strings: 13 (unexpected 13)
+p8: +412 strings / -500 strings; CJK core 1285 -> edition 1851; added CJK chars: 1447 {'\u3000': 1, '練': 1, '習': 1, 'と': 18, '解': 21, '答': 1, 'ペ': 8, 'ー': 10, 'ジ': 10, '今': 2}; added Latin strings: 64 (unexpected 64)
+TOTAL added CJK characters: 3246
+TOTAL added Latin strings: 97 (unexpected 97)

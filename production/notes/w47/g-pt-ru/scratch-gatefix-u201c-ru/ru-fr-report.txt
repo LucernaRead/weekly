@@ -1,0 +1,411 @@
+mem gate open: 1548332 kB available
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/run_build.py --build production/2026-w47/2026-w47-ru-fr --out /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1 --steps run,render (cwd=/home/hatch/workspace/weekly-git)
+u201c-ru/ru-fr-1/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1318 (bottom 1828)
+  flow[P1-snow] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1083 (bottom 1540)
+P2 col3 ends 1159.0
+P2 winter ends 1566.2500000000005
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=1042 (bottom 1540)
+P3 col3 ends 1136.0
+  flow[P3-ex] ended col 3/3 y=1794 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=936 (bottom 1020)
+P4 col3 ends 1024.25
+P4 tables end 1867.3299999999997
+  flow[P4-ex] ended col 3/3 y=2479 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=1295 (bottom 1540)
+P5 col3 ends 1152.75
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=827 (bottom 1180)
+P6 col3 ends 976.0
+P6 chart ends 1794
+  flow[P6-ex] ended col 3/3 y=2366 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1187 (bottom 1560)
+P7 pushkin ends 1577.4500000000003
+P7 col3 ends 1788.1
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=710 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2317 (bottom 2560)
+P8 keys end col 3 y 2317.030000000002
+P8 morozko SKIPPED: no room (col 3 y 2317.030000000002 )
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Compléter': 54, 'Choix': 55, 'Appariement': 20, 'Phrases': 12, 'Transformer': 4, 'Traduction': 4, 'Rédaction': 1}
+model words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Compléter': 54, 'Choix': 55, 'Appariement': 20, 'Phrases': 12, 'Transformer': 4, 'Traduction': 4, 'Rédaction': 1}
+ALL DONE
+[03:30:11] run.py: exit 0
+[03:30:11] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy)
+card: p1-pervaya.png
+card: p2-zhizn.png
+card: p3-kultura.png
+card: p4-sport.png
+card: p5-molodezh.png
+card: p6-razbor.png
+card: p7-yazyk.png
+card: p8-test.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr.pdf 21264368
+[03:31:11] render.py: exit 0
+[03:31:12] integrity: production unchanged (42 files re-hashed)
+[03:31:12] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1 (19 svg/png/pdf files)
+[03:31:12]   out: build-copy/Lucerna-VOL4-ru-fr-web.pdf
+[03:31:12]   out: build-copy/Lucerna-VOL4-ru-fr.pdf
+[03:31:12]   out: build-copy/assets/lucerna-moth.svg
+[03:31:12]   out: build-copy/cards/p1-pervaya.png
+[03:31:12]   out: build-copy/cards/p2-zhizn.png
+[03:31:12]   out: build-copy/cards/p3-kultura.png
+[03:31:12]   out: build-copy/cards/p4-sport.png
+[03:31:12]   out: build-copy/cards/p5-molodezh.png
+[03:31:12]   out: build-copy/cards/p6-razbor.png
+[03:31:12]   out: build-copy/cards/p7-yazyk.png
+[03:31:12]   out: build-copy/cards/p8-test.png
+[03:31:12]   out: build-copy/svg/p1-pervaya.svg
+[03:31:12]   out: build-copy/svg/p2-zhizn.svg
+[03:31:12]   out: build-copy/svg/p3-kultura.svg
+[03:31:12]   out: build-copy/svg/p4-sport.svg
+[03:31:12]   out: build-copy/svg/p5-molodezh.svg
+[03:31:12]   out: build-copy/svg/p6-razbor.svg
+[03:31:12]   out: build-copy/svg/p7-yazyk.svg
+[03:31:12]   out: build-copy/svg/p8-test.svg
+
+rc=0
+GATE run_build_1: PASS rc=0 TOTAL150=True
+GATE keys_end: PASS got 2317.030000000002, expect 2317.03
+mem gate open: 2066876 kB available
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/run_build.py --build production/2026-w47/2026-w47-ru-fr --out /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-2 --steps run,render (cwd=/home/hatch/workspace/weekly-git)
+u201c-ru/ru-fr-2/build-copy)
+======================== content12.py
+  flow[P1-headline] ended col 2/2 y=1318 (bottom 1828)
+  flow[P1-snow] ended col 0/0 y=2298 (bottom 2300)
+  flow[P1-quiz] ended col 3/3 y=2521 (bottom 2560)
+P1 saved, exercises so far: 10
+  flow[P2-feature] ended col 1/2 y=1083 (bottom 1540)
+P2 col3 ends 1159.0
+P2 winter ends 1566.2500000000005
+  flow[P2-ex] ended col 3/3 y=2290 (bottom 2580)
+P2 saved, exercises so far: 28
+======================== content34.py
+  flow[P3-feature] ended col 1/2 y=1042 (bottom 1540)
+P3 col3 ends 1136.0
+  flow[P3-ex] ended col 3/3 y=1794 (bottom 2580)
+P3 saved, exercises so far: 46
+  flow[P4-main] ended col 1/2 y=936 (bottom 1020)
+P4 col3 ends 1024.25
+P4 tables end 1867.3299999999997
+  flow[P4-ex] ended col 3/3 y=2479 (bottom 2580)
+P4 saved, exercises so far: 64
+======================== content56.py
+  flow[P5-feature] ended col 1/2 y=1295 (bottom 1540)
+P5 col3 ends 1152.75
+  flow[P5-ex] ended col 2/3 y=2200 (bottom 2580)
+P5 saved, exercises so far: 82
+  flow[P6-main] ended col 1/2 y=827 (bottom 1180)
+P6 col3 ends 976.0
+P6 chart ends 1794
+  flow[P6-ex] ended col 3/3 y=2366 (bottom 2580)
+P6 saved, exercises so far: 100
+======================== content7.py
+  flow[P7-a2] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b1] ended col 0/0 y=1190 (bottom 1560)
+  flow[P7-b2] ended col 0/0 y=1187 (bottom 1560)
+P7 pushkin ends 1577.4500000000003
+P7 col3 ends 1788.1
+P7 saved, exercises so far: 112
+======================== content8.py
+  flow[P8-ex] ended col 3/3 y=710 (bottom 1252)
+  flow[P8-keys] ended col 3/3 y=2317 (bottom 2560)
+P8 keys end col 3 y 2317.030000000002
+P8 morozko SKIPPED: no room (col 3 y 2317.030000000002 )
+P8 saved, TOTAL exercises: 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Compléter': 54, 'Choix': 55, 'Appariement': 20, 'Phrases': 12, 'Transformer': 4, 'Traduction': 4, 'Rédaction': 1}
+model words: 97
+======================== REGISTRY STATS
+TOTAL 150
+by level {'A2': 50, 'B1': 76, 'B2': 24}
+by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}
+by type {'Compléter': 54, 'Choix': 55, 'Appariement': 20, 'Phrases': 12, 'Transformer': 4, 'Traduction': 4, 'Rédaction': 1}
+ALL DONE
+[03:31:37] run.py: exit 0
+[03:31:37] run: /home/hatch/workspace/weekly-git/tools/venv/bin/python render.py (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-2/build-copy)
+card: p1-pervaya.png
+card: p2-zhizn.png
+card: p3-kultura.png
+card: p4-sport.png
+card: p5-molodezh.png
+card: p6-razbor.png
+card: p7-yazyk.png
+card: p8-test.png
+print PDF: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-2/build-copy/Lucerna-VOL4-ru-fr.pdf 21264368
+[03:32:27] render.py: exit 0
+[03:32:27] integrity: production unchanged (42 files re-hashed)
+[03:32:27] done: outputs under /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-2 (19 svg/png/pdf files)
+[03:32:27]   out: build-copy/Lucerna-VOL4-ru-fr-web.pdf
+[03:32:27]   out: build-copy/Lucerna-VOL4-ru-fr.pdf
+[03:32:27]   out: build-copy/assets/lucerna-moth.svg
+[03:32:27]   out: build-copy/cards/p1-pervaya.png
+[03:32:27]   out: build-copy/cards/p2-zhizn.png
+[03:32:27]   out: build-copy/cards/p3-kultura.png
+[03:32:27]   out: build-copy/cards/p4-sport.png
+[03:32:27]   out: build-copy/cards/p5-molodezh.png
+[03:32:27]   out: build-copy/cards/p6-razbor.png
+[03:32:27]   out: build-copy/cards/p7-yazyk.png
+[03:32:27]   out: build-copy/cards/p8-test.png
+[03:32:27]   out: build-copy/svg/p1-pervaya.svg
+[03:32:27]   out: build-copy/svg/p2-zhizn.svg
+[03:32:27]   out: build-copy/svg/p3-kultura.svg
+[03:32:27]   out: build-copy/svg/p4-sport.svg
+[03:32:27]   out: build-copy/svg/p5-molodezh.svg
+[03:32:27]   out: build-copy/svg/p6-razbor.svg
+[03:32:27]   out: build-copy/svg/p7-yazyk.svg
+[03:32:27]   out: build-copy/svg/p8-test.svg
+
+rc=0
+GATE run_build_2: PASS rc=0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/webpdf.py svg Lucerna-VOL4-ru-fr-web.pdf (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy)
+WROTE Lucerna-VOL4-ru-fr-web.pdf: 3383213 bytes, 58056 text bytes
+
+STDERR: 8 pages from svg
+163 distinct chars; families: ['Newsreader', 'Noto Sans', 'Noto Sans CJK SC', 'Noto Serif', 'Noto Serif CJK SC', 'UnifrakturMaguntia']
+  font LucernaNewsreader-Regular: 21392 bytes
+fsSelection bit 5 (bold) and head table macStyle bit 0 (bold) should match
+fsSelection bit 6 (regular) is set, bits 0 (italic) and 5 (bold) must be clear
+  font LucernaNewsreader-Bold: 21436 bytes
+  font LucernaNewsreader-Italic: 23488 bytes
+  font LucernaNotoSans-Regular: 31868 bytes
+  font LucernaNotoSans-Bold: 32112 bytes
+  font LucernaNotoSans-Italic: 36652 bytes
+  font LucernaNotoSans-BoldItalic: 37148 bytes
+  font LucernaNotoSansCJKSC-Regular: 29944 bytes
+  font LucernaNotoSansCJKSC-Bold: 30424 bytes
+  font LucernaNotoSerif-Regular: 46896 bytes
+  font LucernaNotoSerif-Bold: 46056 bytes
+  font LucernaNotoSerif-Italic: 54388 bytes
+  font LucernaNotoSerif-BoldItalic: 53400 bytes
+  font LucernaNotoSerifCJKSC-Regular: 37156 bytes
+  font LucernaNotoSerifCJKSC-Bold: 38328 bytes
+  font LucernaUnifrakturMaguntia-Regular: 30048 bytes
+
+rc=0
+GATE webpdf: PASS rc=0
+GATE freeze: PASS svg 8/8, print byte-identical=True
+$ python3 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/census_quotes.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+== /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg ==
+  p1-pervaya.svg: defective=0
+  p2-zhizn.svg: defective=0
+  p3-kultura.svg: defective=0
+  p4-sport.svg: defective=0
+  p5-molodezh.svg: defective=0
+  p6-razbor.svg: defective=0  [Newsreader: U+2019x2]
+  p7-yazyk.svg: defective=0  [Newsreader: U+201Cx1,U+201Dx1]
+  p8-test.svg: defective=0
+  TOTAL defective: 0
+    Newsreader (ok): U+2019x2,U+201Cx1,U+201Dx1
+GRAND TOTAL defective: 0
+
+rc=0
+GATE quote_census: PASS 0 defective glyphs
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/census.py --pdf /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr.pdf --textmd /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-fr/2026-w47-ru-fr.text.md --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/census-after-ru-fr-print.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr.pdf
+pages=8 distinct_join_tokens=14 total_join_boundaries=17
+    3x '→После' [→После] pages=[7] gap None..None pt
+    1x 'A2→B1' [A2→; →B1] pages=[1] gap 0.0..0.0 pt
+    1x 'A2→B2' [A2→] pages=[1] gap 0.0..0.0 pt
+    1x 'Ozon:' [Ozon:] pages=[5] gap None..None pt
+    1x 'Wildberries:' [Wildberries:] pages=[5] gap None..None pt
+    1x '→Родительный' [→Родительный] pages=[7] gap None..None pt
+    1x '→выходят' [→выходят] pages=[8] gap 2.4..2.4 pt
+    1x '→рассказывает' [→рассказывает] pages=[8] gap 2.4..2.4 pt
+    1x '→снял' [→снял] pages=[8] gap 2.41..2.41 pt
+    1x '→сыграли' [→сыграли] pages=[8] gap 2.4..2.4 pt
+    1x '→играет' [→играет] pages=[8] gap 2.4..2.4 pt
+    1x '→победило' [→победило] pages=[8] gap 2.4..2.4 pt
+    1x '→работаем' [→работаем] pages=[8] gap 2.4..2.4 pt
+    1x '✓Voir' [✓Voir] pages=[8] gap 2.41..2.41 pt
+
+STDERR: /home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+
+rc=0
+GATE census_print: PASS 14/17 (expect 14/17) token-set identical to R1 after-JSON: True
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/census.py --pdf /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr-web.pdf --textmd /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-fr/2026-w47-ru-fr.text.md --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/census-after-ru-fr-web.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+CENSUS /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr-web.pdf
+pages=8 distinct_join_tokens=14 total_join_boundaries=17
+    3x '→После' [→После] pages=[7] gap None..None pt
+    1x 'A2→B1' [A2→; →B1] pages=[1] gap 0.0..0.0 pt
+    1x 'A2→B2' [A2→] pages=[1] gap 0.0..0.0 pt
+    1x 'Ozon:' [Ozon:] pages=[5] gap None..None pt
+    1x 'Wildberries:' [Wildberries:] pages=[5] gap None..None pt
+    1x '→Родительный' [→Родительный] pages=[7] gap None..None pt
+    1x '→выходят' [→выходят] pages=[8] gap 2.4..2.4 pt
+    1x '→рассказывает' [→рассказывает] pages=[8] gap 2.4..2.4 pt
+    1x '→снял' [→снял] pages=[8] gap 2.41..2.41 pt
+    1x '→сыграли' [→сыграли] pages=[8] gap 2.4..2.4 pt
+    1x '→играет' [→играет] pages=[8] gap 2.4..2.4 pt
+    1x '→победило' [→победило] pages=[8] gap 2.4..2.4 pt
+    1x '→работаем' [→работаем] pages=[8] gap 2.4..2.4 pt
+    1x '✓Voir' [✓Voir] pages=[8] gap 2.41..2.41 pt
+
+STDERR: /home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+
+rc=0
+GATE census_web: PASS 14/17 (expect 14/17) token-set identical to R1 after-JSON: True
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/p8.py extract --p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg/p8-test.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-gates/p8-extract.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+
+rc=0
+GATE p8_extract: PASS rc=0 noted=150/150 total=150
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/p8.py compare --core-p8 /home/hatch/workspace/weekly-git/production/2026-w47/core-ru/svg/p8-test.svg --edition-p8 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg/p8-test.svg --total 150 --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-gates/p8-compare.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+core    /home/hatch/workspace/weekly-git/production/2026-w47/core-ru/svg/p8-test.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+
+rc=0
+GATE p8_compare: PASS verdict=CLEAN keydiff=[137, 138, 139, 140] expect=[137, 138, 139, 140] rc=0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/check_core.py . (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy)
+GOLDEN: 8
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Все восемь матчей 14-го тура завершены
+  x2 pages=['p1-pervaya.svg', 'p7-yazyk.svg'] Это последний матч сборной в 2026 году
+  x2 pages=['p2-zhizn.svg', 'p7-yazyk.svg'] Профессиональные праздники не дают выходных
+  x2 pages=['p3-kultura.svg', 'p7-yazyk.svg'] В ноябре вечера тёмные и долгие
+  x2 pages=['p4-sport.svg', 'p7-yazyk.svg'] После паузы чемпионат возвращается 20 ноября
+  x2 pages=['p5-molodezh.svg', 'p7-yazyk.svg'] Умный покупатель не спешит
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] Такие недели — самые частые в году
+  x2 pages=['p6-razbor.svg', 'p7-yazyk.svg'] В ноябре 20 рабочих дней и 10 выходных
+golden BAD: 0
+gloss fails: 0
+P8 svg text chars: 10993
+orphan line-starts: [('p6-razbor.svg', 1552, '’'), ('p6-razbor.svg', 1582, '’'), ('p7-yazyk.svg', 579, '”».')]
+same-baseline collisions: [] total 0
+
+rc=0
+GATE check_core: PASS rc=0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/occlusion_audit.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-gates/occlusion.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/svg: 0 flags 
+
+rc=0
+GATE occlusion: PASS rc=0 flag_count=0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/spill_sweep.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy --json-dir /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-gates (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+440.0
+   ABOVE -18.00px x=276.3 y=1326.0 [observe] 'ЗА'
+P6 box=(90.0,1344.0,249.0,96.0) bottom=1440.0
+   ABOVE -18.00px x=317.0 y=1326.0 [observe] 'ДНЁМ'
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=397.7 y=1468.0 [observe] 'ноября'
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=470.3 y=1468.0 [observe] ') · '
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=491.6 y=1468.0 [observe] 'жёлтое'
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=571.7 y=1468.0 [observe] '— '
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=590.5 y=1468.0 [observe] 'выходные'
+P6 box=(343.0,1344.0,249.0,96.0) bottom=1440.0
+   ABOVE -18.00px x=395.8 y=1326.0 [observe] '\u3000LA SEMAINE JOUR APRÈS JOUR'
+P6 box=(596.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=701.6 y=1468.0 [observe] '(21–22 '
+P6 box=(596.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=771.4 y=1468.0 [observe] 'ноября'
+P6 box=(596.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=844.0 y=1468.0 [observe] ') · '
+P6 box=(849.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=865.3 y=1468.0 [observe] 'праздников'
+P6 box=(849.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=992.9 y=1468.0 [observe] 'посреди'
+P6 box=(849.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=1081.9 y=1468.0 [observe] 'недели'
+P6 box=(1102.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=1160.8 y=1468.0 [observe] 'нет'
+P6 box=(1102.0,1344.0,249.0,96.0) bottom=1440.0
+   BELOW +28.00px x=1196.5 y=1468.0 [observe] '.'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   BELOW +54.00px x=1461.5 y=1088.6 [observe] 'СЛОВО'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   BELOW +54.00px x=1545.4 y=1088.6 [observe] '\u3000LE MOT DE LA SEMAINE'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -58.00px x=1647.0 y=142.0 [observe] 'Lucerna'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -32.00px x=1445.1 y=168.0 [observe] 'уровня'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -32.00px x=1509.2 y=168.0 [observe] ', '
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -32.00px x=1518.3 y=168.0 [observe] 'три'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -32.00px x=1554.4 y=168.0 [observe] 'темы'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   ABOVE -32.00px x=1602.0 y=168.0 [observe] '\u3000Trois niveaux, trois sujets'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   SIDE x=1400.9 y=271.5 [observe] ','
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   SIDE x=1383.2 y=304.2 [observe] '»'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   SIDE x=1390.4 y=369.5 [observe] '.'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   SIDE x=1391.4 y=531.8 [observe] '.'
+P7 box=(1439.5,200.0,422.5,834.6) bottom=1034.6
+   SIDE x=1400.9 y=903.2 [observe] '.'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   BELOW +54.00px x=1461.5 y=1323.1 [observe] 'ПИСЬМА'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   BELOW +54.00px x=1569.7 y=1323.1 [observe] 'ЧИТАТЕЛЕЙ'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1461.5 y=994.1 [observe] 'с'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1475.4 y=994.1 [observe] '= depuis : génitif — '
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1650.4 y=994.1 [observe] 'с'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1664.3 y=994.1 [observe] '19 '
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1690.4 y=994.1 [observe] 'ноября'
+P7 box=(1439.5,1046.6,422.5,222.5) bottom=1269.1
+   ABOVE -52.52px x=1760.9 y=994.1 [observe] '.'
+P7 box=(1439.5,1281.1,422.5,507.0) bottom=1788.1
+   ABOVE -23.91px x=1461.5 y=1257.2 [observe] 'распродажа'
+P7 box=(1439.5,1281.1,422.5,507.0) bottom=1788.1
+   ABOVE -23.91px x=1587.7 y=1257.2 [observe] '= grande vente.'
+SPILL_SWEEP build-copy: 32 boxes, 171 candidates, 0 SPILL, 171 OBSERVE
+
+rc=0
+GATE spill: PASS rc=0
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/weekly-git/tools/boxtitle_check.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/bt/2026-w47-ru-fr --json-dir /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-gates --backup-root /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/bt-backup (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+== 2026-w47-ru-fr  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/bt/core-ru backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/bt-backup/scratch-refanout-pre/backup/2026-w47-ru-fr
+BOXTITLE 2026-w47-ru-fr: 56 titles, 678 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+
+rc=0
+GATE boxtitle: PASS rc=0 (backup=production pre-fix build)
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/textlayer.py /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr.pdf /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/ru-fr-1/build-copy/Lucerna-VOL4-ru-fr-web.pdf /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru/textlayer-ru-fr.json (cwd=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-u201c-ru)
+TOTAL print=37505 web=37505 pages_identical=True
+
+STDERR: /home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+
+rc=0
+GATE textlayer: PASS rc=0 chars=37505
+GATE textmd_unchanged: PASS prod=e4cc50fd4195 build=e4cc50fd4195
+GATE morozko_skipped: PASS P8 morozko SKIPPED: no room (col 3 y 2317.030000000002 )
+deleted build2 build-copy (freeze copy)

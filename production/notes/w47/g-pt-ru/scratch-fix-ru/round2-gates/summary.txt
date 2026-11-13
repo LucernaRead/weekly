@@ -1,0 +1,65 @@
+GATES START 2026-11-12T18:56:55Z
+en run.py re-run rc=0
+en svg recheck rc=0
+8
+===== gates en 18:57:43Z =====
+p8 en rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ en rc=0 : production/2026-w47/2026-w47-ru-en/svg: 0 flags 
+boxtitle en rc=0 : BOXTITLE 2026-w47-ru-en: 57 titles, 685 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill en rc=0 :    ABOVE -23.91px x=1588.1 y=1257.2 [observe] "= big sale: plan, don't rush."
+edge en rc=0 : EDGE_SCAN 2026-w47-ru-en: 8 pages, 0 TOUCH, 0 NEAR
+head en rc=0 : HEAD CHECK PASS 0 defects
+===== gates de 18:58:43Z =====
+p8 de rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ de rc=1 :   [LINEX] p2-zhizn.svg 'достояние' — later line box [87.0, 1553.0, 1863.0, 1555.0] crosses ink
+boxtitle de rc=0 : BOXTITLE 2026-w47-ru-de: 57 titles, 683 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill de rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= großer Ausverkauf.'
+edge de rc=0 : EDGE_SCAN 2026-w47-ru-de: 8 pages, 0 TOUCH, 0 NEAR
+head de rc=0 : HEAD CHECK PASS 0 defects
+===== gates fr 18:59:38Z =====
+p8 fr rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ fr rc=0 : production/2026-w47/2026-w47-ru-fr/svg: 0 flags 
+boxtitle fr rc=0 : BOXTITLE 2026-w47-ru-fr: 57 titles, 682 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill fr rc=0 :    ABOVE -23.91px x=1588.1 y=1257.2 [observe] '= grande vente.'
+edge fr rc=0 : EDGE_SCAN 2026-w47-ru-fr: 8 pages, 0 TOUCH, 0 NEAR
+head fr rc=0 : HEAD CHECK PASS 0 defects
+===== gates it 19:00:40Z =====
+p8 it rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ it rc=0 : production/2026-w47/2026-w47-ru-it/svg: 0 flags 
+boxtitle it rc=0 : BOXTITLE 2026-w47-ru-it: 55 titles, 684 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill it rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grande vendita.'
+edge it rc=0 : EDGE_SCAN 2026-w47-ru-it: 8 pages, 0 TOUCH, 0 NEAR
+head it rc=0 : HEAD CHECK PASS 0 defects
+===== gates pt 19:01:48Z =====
+p8 pt rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ pt rc=0 : production/2026-w47/2026-w47-ru-pt/svg: 0 flags 
+boxtitle pt rc=0 : BOXTITLE 2026-w47-ru-pt: 57 titles, 683 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill pt rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grande saldo.'
+edge pt rc=0 : EDGE_SCAN 2026-w47-ru-pt: 8 pages, 0 TOUCH, 0 NEAR
+head pt rc=0 : HEAD CHECK PASS 0 defects
+===== gates nl 19:02:34Z =====
+p8 nl rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ nl rc=0 : production/2026-w47/2026-w47-ru-nl/svg: 0 flags 
+boxtitle nl rc=0 : BOXTITLE 2026-w47-ru-nl: 57 titles, 681 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill nl rc=0 :    ABOVE -23.91px x=1588.1 y=1230.7 [observe] '= grote uitverkoop.'
+edge nl rc=0 : EDGE_SCAN 2026-w47-ru-nl: 8 pages, 0 TOUCH, 0 NEAR
+head nl rc=0 : HEAD CHECK PASS 0 defects
+===== gates ko 19:03:22Z =====
+p8 ko rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ ko rc=0 : production/2026-w47/2026-w47-ru-ko/svg: 0 flags 
+boxtitle ko rc=0 : BOXTITLE 2026-w47-ru-ko: 67 titles, 759 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill ko rc=0 :    ABOVE -23.91px x=1658.9 y=1230.7 [observe] '.'
+edge ko rc=0 : EDGE_SCAN 2026-w47-ru-ko: 8 pages, 0 TOUCH, 0 NEAR
+head ko rc=0 : HEAD CHECK PASS 0 defects
+===== gates zh-tw 19:03:54Z =====
+p8 zh-tw rc=0 : status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140]
+occ zh-tw rc=0 : production/2026-w47/2026-w47-ru-zh-tw/svg: 0 flags 
+boxtitle zh-tw rc=0 : BOXTITLE 2026-w47-ru-zh-tw: 57 titles, 703 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+spill zh-tw rc=0 :    ABOVE -23.91px x=1603.7 y=1230.7 [observe] '大促銷，要計劃，別急。'
+edge zh-tw rc=0 : EDGE_SCAN 2026-w47-ru-zh-tw: 8 pages, 0 TOUCH, 0 NEAR
+head zh-tw rc=0 : HEAD CHECK PASS 0 defects
+d5-census rc=0
+quotes rc=0 :   TOTAL defective: 0
+    Newsreader (ok): U+201Cx2,U+201Dx2
+GRAND TOTAL defective: 0
+GATES DONE 2026-11-12T19:04:34Z

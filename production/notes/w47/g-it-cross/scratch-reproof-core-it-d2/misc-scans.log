@@ -1,0 +1,32 @@
+== golden sentences (expect 2x each in text.md) ==
+P1 2 | La Lazio resta in vetta
+P1 2 | ventiquattro gol in dieci partite
+P2 2 | il ponte votivo sul Canal Grande
+P3 2 | oltre centocinquanta figuranti in costumi rinascimentali
+P4 2 | la squadra di Gattuso è ancora imbattuta dopo 11 giornate
+P5 2 | sette giorni di libri, ragioni e follie
+P6 2 | il testo può ancora cambiare
+P6 2 | approvato dal governo non vuol dire già legge
+== banned terms ==
+Ucraina text.md: 0
+Russia text.md: 0
+Putin text.md: 0
+ucraina text.md: 0
+russia text.md: 0
+== date/weekday spot strings ==
+16 novembre 0
+17 novembre 3
+21 novembre 15
+22 novembre 39
+23 novembre 6
+24 novembre 4
+2 dicembre 2
+31 dicembre 3
+8 dicembre 0
+== 20 novembre occurrences ==
+  e verze. La tradizione dice che si mangia la sera prima, il 20 novembre, in famiglia. È il piatto della tradizi
+  Giornata nazionale degli alberi è il... A. 22 novembre · B. 20 novembre · C. 21 novembre — key: C (植树节在 11 月 21
+  : B (米兰书城是第 15 届) /  / 66. [B1 · 单选] BookCity comincia... A. il 20 novembre · B. il 23 novembre · C. il 29 novembre
+  开幕) /  / 120. [B1 · 完形单选] Il Torino Film Festival apre... A. il 20 novembre · B. il 24 novembre — key: B (都灵电影节 11 
+== model text word count (H section) ==
+model ctx: posto, con 24 punti; Fiorentina e Juventus chiudono 2–2. In coda, l'Udinese è ultima, con 5 punti. /  / Sabato 21 novembre torna la Serie A con la 12ª giornata: domenica sera, a Bergamo, c'è Atalanta–Inter. Sabato 21 la Lazio capolista gioca in casa con il Lecce. /  / E domenica 22 novembre è anche il giorno dei dolci: a Cremona chiude la Festa del Torrone, con il corteo storico e la rievocazione del matrimonio Sforza–Visconti; a Perugia chiude Eurochocolate, con il maestro Iginio Massari. /  / A Torino, domenica 22 novembre, si gioca la finale delle Nitto ATP Finals: otto campioni, una settimana di tennis, e l'Italia con Flavio Cobolli. A Venezia, sabato 21, c'è la Madonna della Salute. /  

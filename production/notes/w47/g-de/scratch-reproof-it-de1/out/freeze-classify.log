@@ -1,0 +1,170 @@
+P1: core nodes 193 unexplained 106 | edition nodes 177 unexplained 98 | italian-concat EQUAL: False
+P2: core nodes 175 unexplained 106 | edition nodes 182 unexplained 107 | italian-concat EQUAL: False
+P3: core nodes 178 unexplained 95 | edition nodes 183 unexplained 100 | italian-concat EQUAL: False
+P4: core nodes 172 unexplained 104 | edition nodes 175 unexplained 97 | italian-concat EQUAL: False
+P5: core nodes 169 unexplained 79 | edition nodes 172 unexplained 83 | italian-concat EQUAL: False
+P6: core nodes 189 unexplained 113 | edition nodes 195 unexplained 116 | italian-concat EQUAL: False
+P7: core nodes 166 unexplained 82 | edition nodes 169 unexplained 76 | italian-concat EQUAL: False
+P8: core nodes 858 unexplained 245 | edition nodes 393 unexplained 111 | italian-concat EQUAL: False
+total unexplained nodes: core 930, edition 788
+pages with italian-concat mismatch: [1, 2, 3, 4, 5, 6, 7, 8]
+ P1 insert: core[0:0]='SETTIMANA DAL 16 AL 22 NOVEMBRE 2026 IL ' edition[0:23]='VOL. 4 QUARTA EDIZIONE SETTIMANA DAL 16 AL 22 NOVEMBRE 2026 IL '
+ P1 replace: core[138:143]="IANO, DALL'ITALIA LA LAZIO RESTA PRIMA! Lazio 29 punti, Inter e Roma inseguono: la Se" edition[161:208]="IANO, DALL'ITALIA LA LAZIO RESTA PRIMA! pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta. L'Inter"
+ P1 insert: core[152:152]='LIA LA LAZIO RESTA PRIMA! Lazio 29 punti, Inter e Roma inseguono: la Serie A rac' edition[217:288]="apoli, la prima della classe ha 29 punti ed è ancora imbattuta. L'Inter vince 2–0 con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva"
+ P1 replace: core[154:161]="A LA LAZIO RESTA PRIMA! Lazio 29 punti, Inter e Roma inseguono: la Serie A racconta l'1" edition[290:292]='ince 2–0 con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 2'
+ P1 replace: core[167:180]="STA PRIMA! Lazio 29 punti, Inter e Roma inseguono: la Serie A racconta l'11ª giornata. La Laz" edition[298:310]=" con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 27. L'11ª giornata,"
+ P1 replace: core[182:199]="o 29 punti, Inter e Roma inseguono: la Serie A racconta l'11ª giornata. La Lazio resta in vetta: " edition[312:336]=" sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 27. L'11ª giornata, giocata dal 6 all'8 novem"
+ P1 replace: core[212:232]="uono: la Serie A racconta l'11ª giornata. La Lazio resta in vetta: Inter e Roma inseguono La Lazio è" edition[349:373]="l Sassuolo e arriva a 27. L'11ª giornata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in d"
+ P1 replace: core[234:278]="nta l'11ª giornata. La Lazio resta in vetta: Inter e Roma inseguono La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, " edition[375:382]="L'11ª giornata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in dieci part"
+ P1 replace: core[281:289]='ter e Roma inseguono La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima de' edition[385:418]="nata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in dieci partite. Il Milan vince 2–1 a Genova e p"
+ P1 replace: core[290:305]='a inseguono La Lazio è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29' edition[419:443]=', ha portato ventiquattro gol in dieci partite. Il Milan vince 2–1 a Genova e prende il quarto posto, co'
+ P1 delete: core[310:582]=" è ancora prima: dopo il pareggio 1–1 a Napoli, la prima della classe ha 29 punti ed è ancora imbattuta. L'Inter vince 2–0 con il Como e sale a 28 punti, la Roma batte 3–0 il Sassuolo e arriva a 27. L'11ª giornata, giocata dal 6 all'8 novembre, ha portato ventiquattro gol in dieci partite. Il Milan vince 2–1 a Genova e prende il quarto posto, con 24 " edition[448:448]=' in dieci partite. Il Milan vince 2–1 a Genova e prende il quarto posto, con 24 '
+ P1 delete: core[817:853]=", a Bergamo, c'è Atalanta–Inter. Sabato 21 la Lazio capolista gioca in casa con il Lecce. E domenica 22 novembre è a" edition[683:683]=", a Bergamo, c'è Atalanta–Inter. Sabato con il Lecce. E domenica 22 novembre è a"
+ P1 delete: core[1268:1290]="o Cobolli. A Venezia, sabato 21, c'è la Madonna della Salute. Questa è la quarta edizione de La Lucern" edition[1098:1098]="o Cobolli. A Venezia, sabato 21, c'è la Questa è la quarta edizione de La Lucern"
+ P1 delete: core[1425:1454]="lci e musica! La prima in classifica è la ___. La Lazio pareggia 1–1 a ___. L'Inter vince 2–0 con il ___. La " edition[1233:1233]="lci e musica! La prima in classifica è la ___. L'Inter vince 2–0 con il ___. La "
+ P1 delete: core[1843:1884]='sori della Calabria Straordinaria», ore SAB 21 — Madonna della Salute a Venezia; torna la Serie A. DOM 22 — Chiudono Torr' edition[1622:1622]='sori della Calabria Straordinaria», ore torna la Serie A. DOM 22 — Chiudono Torr'
+ P1 delete: core[2266:2297]='tta » : il primo posto in classifica. La Lazio è in vetta con 29 punti. Un vecchio stadio italiano: il calcio s' edition[2004:2004]='tta » : il primo posto in classifica. La Un vecchio stadio italiano: il calcio s'
+ P1 delete: core[3012:3057]="rino, dal 15 al 22 novembre. (Pagina 4) La prima in classifica è... A. la Lazio · B. l'Inter · C. la Roma L'11ª giornata ha p" edition[2719:2719]="rino, dal 15 al 22 novembre. (Pagina 4) l'Inter · C. la Roma L'11ª giornata ha p"
+ P2 insert: core[45:45]="ia prega, l'Italia pianta alberi: il 21 Sabato 21 novembre Venezia celebra la fe" edition[45:54]="ia prega, l'Italia pianta alberi: il 21 novembre Sabato 21 novembre Venezia celebra venez"
+ P2 delete: core[79:118]='il 21 Sabato 21 novembre Venezia celebra la festa della Madonna della Salute. I veneziani attraversano il ponte votivo ' edition[88:88]='embre Sabato 21 novembre Venezia celebra veneziani attraversano il ponte votivo '
+ P2 delete: core[2000:2036]='ia Commons, dominio pubblico LO SAPEVI? 21 novembre: Madonna della Salute a Venezia, con il ponte di barche sul Cana' edition[1970:1970]='ia Commons, dominio pubblico LO SAPEVI? Venezia, con il ponte di barche sul 21 n'
+ P2 delete: core[2071:2085]='te a Venezia, con il ponte di barche sul Canal Grande. 21 novembre: Giornata nazionale degli a' edition[2005:2005]='EVI? Venezia, con il ponte di barche sul 21 novembre: Giornata nazionale degli a'
+ P2 replace: core[2723:2803]='nata nazionale con una legge del 2013. Attenzione alla parola: «salute» vuol dire salute, stare bene. «La Madonna della Salute» è la Madonna che protegge la sal' edition[2643:2650]='nata nazionale con una legge del 2013. A CHE COSA SERVE? A Venezia il 21 novembre è la '
+ P2 replace: core[2804:2848]=' salute, stare bene. «La Madonna della Salute» è la Madonna che protegge la salute. E «piantare» vuol dire mettere una piant' edition[2651:2654]='ionale con una legge del 2013. A CHE COSA SERVE? A Venezia il 21 novembre è la fest'
+ P2 replace: core[2849:2902]='» è la Madonna che protegge la salute. E «piantare» vuol dire mettere una pianta nella terra. A Venezia il 21 novembre è la festa del' edition[2655:2659]='le con una legge del 2013. A CHE COSA SERVE? A Venezia il 21 novembre è la festa del'
+ P2 delete: core[3013:3021]='ni attraversano il ___ votivo sul Canal Grande. I fedeli portano ___ accese in basilica.' edition[2770:2770]='ni attraversano il ___ votivo sul Canal I fedeli portano ___ accese in basilica.'
+ P2 insert: core[3147:3147]='i Santa Cecilia è la patrona della ___. I veneziani ___ il ponte votivo. I fedel' edition[2896:2910]='i Santa Cecilia è la patrona della ___. B IL PRESENTE I veneziani ___ il ponte votivo. I fedel'
+ P2 insert: core[3329:3329]='amiglia ___ la castradina la sera prima. Il ponte votivo è... A. di pietra · B. ' edition[3092:3107]='amiglia ___ la castradina la sera prima. C COMPRENSIONE Il ponte votivo è... A. di pietra · B. '
+ P2 insert: core[3637:3637]='nai · B. della musica · C. degli alberi 25. la salute 26. il ponte votivo 27. la' edition[3415:3438]='nai · B. della musica · C. degli alberi D LE PAROLE DI VENEZIA 25. la salute 26. il ponte votivo 27. la'
+ P2 insert: core[3771:3771]='a b. il ponte di barche per la festa in c. stare bene, la prima ricchezza d. la ' edition[3572:3581]='a b. il ponte di barche per la festa in novembre c. stare bene, la prima ricchezza d. la '
+ P3 insert: core[2080:2080]='i in italiano e mandale alla redazione. La Festa del Torrone chiude... A. il 15 ' edition[2080:2095]='i in italiano e mandale alla redazione. A COMPRENSIONE La Festa del Torrone chiude... A. il 15 '
+ P3 insert: core[2502:2502]="22 novembre · B. il 6 dicembre · C. l'8 torrone · cioccolato · corteo · rievocaz" edition[2517:2548]="22 novembre · B. il 6 dicembre · C. l'8 novembre B LE PAROLE DEL TESTO torrone · cioccolato · corteo · rievocaz"
+ P3 insert: core[2797:2797]="ianco è il fungo più prezioso d'Italia. Il corteo ___ (arrivare) in piazza domen" edition[2843:2865]="ianco è il fungo più prezioso d'Italia. C IL PASSATO PROSSIMO Il corteo ___ (arrivare) in piazza domen"
+ P3 insert: core[2987:2987]=' ___ (chiudere) Eurochocolate domenica. Eurochocolate / chiude / a Perugia / il ' edition[3055:3077]=' ___ (chiudere) Eurochocolate domenica. D COSTRUISCI LE FRASI Eurochocolate / chiude / a Perugia / il '
+ P4 delete: core[0:21]="Lazio prima, Inter e Roma inseguono: i conti dell'11ª giornat" edition[0:0]="Roma inseguono: i conti dell'11ª giornat"
+ P4 delete: core[62:101]="oma inseguono: i conti dell'11ª giornata La Lazio è ancora prima in Serie A: il pareggio 1–1 a Napoli vale 29 punti, e " edition[41:41]="oma inseguono: i conti dell'11ª giornata pareggio 1–1 a Napoli vale 29 punti, e "
+ P4 delete: core[664:698]='1 novembre con la 12ª giornata, che si chiude lunedì 23: sabato la Lazio capolista gioca in casa con il Lecce, dom' edition[604:604]='1 novembre con la 12ª giornata, che si capolista gioca in casa con il Lecce, dom'
+ P4 delete: core[1527:1530]='o: Wikimedia Commons — dominio pubblico 1. Lazio — 29 punti 2. Inter — 28 punti 3. ' edition[1433:1433]='o: Wikimedia Commons — dominio pubblico LA CLASSIFICA DOPO 11 GIORNATE 2. Inter '
+ P4 replace: core[1531:1535]='ikimedia Commons — dominio pubblico 1. Lazio — 29 punti 2. Inter — 28 punti 3. Roma ' edition[1434:1472]=': Wikimedia Commons — dominio pubblico LA CLASSIFICA DOPO 11 GIORNATE 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan '
+ P4 replace: core[1539:1555]=' Commons — dominio pubblico 1. Lazio — 29 punti 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan ' edition[1476:1491]='CLASSIFICA DOPO 11 GIORNATE 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan — 24 punti 5. Como '
+ P4 replace: core[1559:1567]='ubblico 1. Lazio — 29 punti 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan — 24 punti 5' edition[1495:1534]='GIORNATE 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan — 24 punti 5. Como — 23 punti 20. Udinese — 5 punti miglior at'
+ P4 replace: core[1568:1574]='. Lazio — 29 punti 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan — 24 punti 5. Como ' edition[1535:1553]='7 punti 4. Milan — 24 punti 5. Como — 23 punti 20. Udinese — 5 punti miglior attacco, 31 gol. E tu'
+ P4 delete: core[1577:1606]=' 29 punti 2. Inter — 28 punti 3. Roma — 27 punti 4. Milan — 24 punti 5. Como — 23 punti 20. Udinese — 5 punti' edition[1556:1556]=' punti 5. Como — 23 punti 20. Udinese — 5 punti miglior attacco, 31 gol. E tu? Q'
+ P4 replace: core[1607:1689]='3. Roma — 27 punti 4. Milan — 24 punti 5. Como — 23 punti 20. Udinese — 5 punti La Lazio è ancora imbattuta; la Roma ha il miglior attacco, 31 gol. E tu? Quale pa' edition[1557:1563]='punti 5. Como — 23 punti 20. Udinese — 5 punti miglior attacco, 31 gol. E tu? Quale pa'
+ P4 delete: core[1929:1948]='ologna 1–2 Roma – Sassuolo 3–0 DOM 8.11 Napoli – Lazio 1–1 Genoa – Milan 1–2 Monza – Atalanta 0–1 D' edition[1803:1803]='ologna 1–2 Roma – Sassuolo 3–0 DOM 8.11 Genoa – Milan 1–2 Monza – Atalanta 0–1 D'
+ P4 insert: core[2232:2232]='ons League saranno nel prossimo numero. La prima in classifica ha... A. 28 punti' edition[2087:2102]='ons League saranno nel prossimo numero. A COMPRENSIONE La prima in classifica ha... A. 28 punti'
+ P4 delete: core[2413:2445]="r attacco del torneo è... A. della Roma · B. della Lazio · C. del Milan L'ultima in classifica è... A. il Monza " edition[2283:2283]="r attacco del torneo è... A. della Roma L'ultima in classifica è... A. il Monza "
+ P4 insert: core[2584:2584]='. sabato · B. domenica sera · C. lunedì 52. la vetta 53. imbattuto 54. il girone' edition[2422:2434]='. sabato · B. domenica sera · C. lunedì B LE PAROLE 52. la vetta 53. imbattuto 54. il girone'
+ P4 replace: core[2773:2783]=". il primo posto in classifica, la cima La Lazio ha ___ punti dell'Inter. (molti) L'Udines" edition[2623:2685]='. il primo posto in classifica, la cima C I COMPARATIVI Per i tifosi, la serata di domenica è la serata ___ del weekend. (bella) (bene). D IL '
+ P4 replace: core[2789:2799]=" in classifica, la cima La Lazio ha ___ punti dell'Inter. (molti) L'Udinese ha ___ punti d" edition[2691:2746]=", la serata di domenica è la serata ___ del weekend. (bella) (bene). D IL PASSATO DELLO SPORT L'Inter ___ (vincere) 2–0 con il Como. I "
+ P4 delete: core[2805:2827]="la cima La Lazio ha ___ punti dell'Inter. (molti) L'Udinese ha ___ punti della Lazio. (pochi) Per i ti" edition[2752:2752]="(bene). D IL PASSATO DELLO SPORT L'Inter ___ (vincere) 2–0 con il Como. I tifosi"
+ P4 delete: core[2832:2851]="ti dell'Inter. (molti) L'Udinese ha ___ punti della Lazio. (pochi) Per i tifosi, la serata di domen" edition[2757:2757]="). D IL PASSATO DELLO SPORT L'Inter ___ (vincere) 2–0 con il Como. I tifosi ___ "
+ P4 replace: core[2852:2857]="i) L'Udinese ha ___ punti della Lazio. (pochi) Per i tifosi, la serata di domenica è " edition[2758:2765]=". D IL PASSATO DELLO SPORT L'Inter ___ (vincere) 2–0 con il Como. I tifosi ___ (arrivar"
+ P4 replace: core[2859:2864]='inese ha ___ punti della Lazio. (pochi) Per i tifosi, la serata di domenica è la sera' edition[2767:2785]="SSATO DELLO SPORT L'Inter ___ (vincere) 2–0 con il Como. I tifosi ___ (arrivare) allo stadio alle "
+ P4 delete: core[2871:2906]=' punti della Lazio. (pochi) Per i tifosi, la serata di domenica è la serata ___ del weekend. (bella) La Lazio gioca' edition[2792:2792]=' ___ (vincere) 2–0 con il Como. I tifosi ___ (arrivare) allo stadio alle cinque.'
+ P4 delete: core[2911:2924]=', la serata di domenica è la serata ___ del weekend. (bella) La Lazio gioca bene. La Lazio gi' edition[2797:2797]='(vincere) 2–0 con il Como. I tifosi ___ (arrivare) allo stadio alle cinque. Noi '
+ P4 replace: core[2925:2930]=' domenica è la serata ___ del weekend. (bella) La Lazio gioca bene. La Lazio gioca __' edition[2798:2806]='vincere) 2–0 con il Como. I tifosi ___ (arrivare) allo stadio alle cinque. Noi ___ (guar'
+ P4 replace: core[2932:2967]="ca è la serata ___ del weekend. (bella) La Lazio gioca bene. La Lazio gioca ___ (bene). L'Inter ___ (vincere) 2–0 c" edition[2808:2836]='–0 con il Como. I tifosi ___ (arrivare) allo stadio alle cinque. Noi ___ (guardare) la partita in television'
+ P4 replace: core[2973:2976]="a Lazio gioca bene. La Lazio gioca ___ (bene). L'Inter ___ (vincere) 2–0 con il Com" edition[2842:2849]='vare) allo stadio alle cinque. Noi ___ (guardare) la partita in televisione. Il portier'
+ P4 replace: core[2978:2982]="io gioca bene. La Lazio gioca ___ (bene). L'Inter ___ (vincere) 2–0 con il Como. La " edition[2851:2879]='o stadio alle cinque. Noi ___ (guardare) la partita in televisione. Il portiere ___ (prendere) un gol al 90°'
+ P4 replace: core[2983:2987]="oca bene. La Lazio gioca ___ (bene). L'Inter ___ (vincere) 2–0 con il Como. La Lazio" edition[2880:2890]=' (guardare) la partita in televisione. Il portiere ___ (prendere) un gol al 90°.'
+ P4 delete: core[2993:3171]="La Lazio gioca ___ (bene). L'Inter ___ (vincere) 2–0 con il Como. La Lazio ___ (pareggiare) 1–1 a Napoli. I tifosi ___ (arrivare) allo stadio alle cinque. Noi ___ (guardare) la partita in televisione. Il portiere ___ (prendere) un gol al 90°." edition[2896:2896]='artita in televisione. Il portiere ___ (prendere) un gol al 90°.'
+ P5 insert: core[1726:1726]=' partita? Scrivi due frasi in italiano. BookCity è alla sua... A. 14ª edizione ·' edition[1726:1741]=' partita? Scrivi due frasi in italiano. A COMPRENSIONE BookCity è alla sua... A. 14ª edizione ·'
+ P5 insert: core[2117:2117]='. A. a Milano · B. a Torino · C. a Cuneo anteprima · protagonista · sede · incon' edition[2132:2154]='. A. a Milano · B. a Torino · C. a Cuneo B LE PAROLE DEL TESTO anteprima · protagonista · sede · incon'
+ P5 insert: core[2430:2430]='tival ci sono tanti ___ con gli autori. Lunedì noi ___ (andare) a BookCity a Mil' edition[2467:2479]='tival ci sono tanti ___ con gli autori. C IL FUTURO Lunedì noi ___ (andare) a BookCity a Mil'
+ P5 insert: core[2607:2607]='kCity ___ (durare) fino al 29 novembre. BookCity ha 1.360 eventi. Vero o falso? ' edition[2656:2672]='kCity ___ (durare) fino al 29 novembre. D VERO O FALSO? BookCity ha 1.360 eventi. Vero o falso? '
+ P6 replace: core[1999:2005]='este tre risposte, un numero dice poco. Torino Bologna Roma Napoli Questi numeri sono ' edition[1999:2038]='este tre risposte, un numero dice poco. MINIME DI ESEMPIO gradi, dati inventati Bologna Napoli Questi numeri sono inven'
+ P6 delete: core[2012:2017]='oste, un numero dice poco. Torino Bologna Roma Napoli Questi numeri sono inventati pe' edition[2045:2045]=' DI ESEMPIO gradi, dati inventati Bologna Napoli Questi numeri sono inventati pe'
+ P6 insert: core[2394:2394]='ibattito: controllale prima di citarle. La città più fredda del grafico è... A. ' edition[2422:2443]='ibattito: controllale prima di citarle. A LEGGERE IL GRAFICO La città più fredda del grafico è... A. '
+ P6 insert: core[2864:2864]='legge · B. è già legge · C. è un errore La manovra è... A. una festa · B. la leg' edition[2913:2928]='legge · B. è già legge · C. è un errore B COMPRENSIONE La manovra è... A. una festa · B. la leg'
+ P6 insert: core[3185:3185]=' 2027 è... A. +3,4% · B. +0,8% · C. +5% È probabile che domani ___ (piovere) in ' edition[3249:3266]=' 2027 è... A. +3,4% · B. +0,8% · C. +5% C IL CONGIUNTIVO È probabile che domani ___ (piovere) in '
+ P6 insert: core[3408:3408]=' la cifra ___ (essere) chiara per tutti. La ___ è la legge di bilancio. Il ___ p' edition[3489:3515]=' la cifra ___ (essere) chiara per tutti. D LE PAROLE DELLA MANOVRA La ___ è la legge di bilancio. Il ___ p'
+ P7 replace: core[1560:1618]='lingua italiana. Foto: Met Museum — CC0 «La Lazio hanno 29 punti.» «La Lazio ha 29 punti.» La Lazio è singolare, il verbo è singolare. «È ' edition[1560:1578]='lingua italiana. Foto: Met Museum — CC0 singolare, il verbo è singolare. Dopo è probabile che serv'
+ P7 replace: core[1631:1722]='Lazio ha 29 punti.» La Lazio è singolare, il verbo è singolare. «È probabile che la Lazio vince.» «È probabile che la Lazio vinca.» Dopo è probabile che serve il congiunti' edition[1591:1592]='um — CC0 singolare, il verbo è singolare. Dopo è probabile che serve il congiunti'
+ P7 delete: core[1978:2017]="golare. « la vetta » è il primo posto in classifica: la Lazio è in vetta con 29 punti, l'Inter e la Roma inseguono. Que" edition[1848:1848]="golare. « la vetta » è il primo posto in punti, l'Inter e la Roma inseguono. Que"
+ P7 delete: core[2237:2263]='Scriveteci!» — esempio della redazione «La Lazio resta in vetta» «ventiquattro gol in dieci partite» «il p' edition[2068:2068]='Scriveteci!» — esempio della redazione «ventiquattro gol in dieci partite» «il p'
+ P8 insert: core[0:0]='La prima in classifica è la ___. (A. Rom' edition[0:6]="A COMPLETA LA CRONACA L'11ª giornata ha portat"
+ P8 replace: core[1:37]="La prima in classifica è la ___. (A. Roma · B. Lazio) L'11ª giornata ha porta" edition[7:15]="A COMPLETA LA CRONACA L'11ª giornata ha portato ___ gol"
+ P8 replace: core[38:53]="La prima in classifica è la ___. (A. Roma · B. Lazio) L'11ª giornata ha portato ___ gol. (A. " edition[16:21]="A COMPLETA LA CRONACA L'11ª giornata ha portato ___ gol. (A. "
+ P8 replace: core[285:322]='chiude a ___. (A. Cremona · B. Perugia) La Madonna della Salute si celebra il ___ novembre. (A. 20 · B. 21) BookCity ' edition[253:280]='chiude a ___. (A. Cremona · B. Perugia) B. 21) BookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre) '
+ P8 insert: core[326:326]='a Madonna della Salute si celebra il ___ novembre. (A. 20 · B. 21) BookCity apre' edition[284:292]='Perugia) B. 21) BookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre) Il Torino Fi'
+ P8 replace: core[335:340]=' della Salute si celebra il ___ novembre. (A. 20 · B. 21) BookCity apre lunedì ___. (' edition[301:357]='ookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre) Il Torino Film Festival apre... A. il 20 novembre · B. il 24 novembre B DOMAN'
+ P8 delete: core[344:454]='lute si celebra il ___ novembre. (A. 20 · B. 21) BookCity apre lunedì ___. (A. 23 novembre · B. 22 novembre) Il Torino Film Festival apre... A. il 20 novembre · B. il 24 La prima in classifi' edition[361:361]='l Torino Film Festival apre... A. il 20 novembre · B. il 24 novembre B DOMANDE G'
+ P8 insert: core[474:474]='al apre... A. il 20 novembre · B. il 24 La prima in classifica ha... A. 28 punti' edition[381:409]='al apre... A. il 20 novembre · B. il 24 novembre B DOMANDE GENERALI La prima in classifica ha... A. 28 punti'
+ P8 insert: core[536:536]=" ha... A. 28 punti · B. 29 punti · C. 27 L'Inter vince 2–0 con... A. la Roma · B" edition[471:477]=" ha... A. 28 punti · B. 29 punti · C. 27 punti L'Inter vince 2–0 con... A. la Roma · B"
+ P8 insert: core[1099:1099]='voto del... A. 1687 · B. 1630 · C. 1898 Giulia vive a Venezia: sabato 21 novembr' edition[1040:1059]='voto del... A. 1687 · B. 1630 · C. 1898 C LEGGI E RISPONDI Giulia vive a Venezia: sabato 21 novembr'
+ P8 delete: core[1420:1482]='del torrone, ma il calcio non si ferma. Chi va alla Madonna della Salute? A. Paolo · B. Giulia · C. i due Paolo, domenica, guarda... A. il cor' edition[1380:1380]='del torrone, ma il calcio non si ferma. due Paolo, domenica, guarda... A. il cor'
+ P8 insert: core[1719:1719]='este» · B. «La manovra» · C. «Il meteo» domenica / è / il 22 novembre Eurochocol' edition[1617:1639]='este» · B. «La manovra» · C. «Il meteo» D COSTRUISCI LE FRASI domenica / è / il 22 novembre Eurochocol'
+ P8 replace: core[1801:1810]='e / chiude / a Perugia / il 22 novembre a che ora / gioca / la Lazio / ? il torrone / si ' edition[1721:1731]='e / chiude / a Perugia / il 22 novembre il torrone / si assaggia / a Cremona E TRADUCI Dom'
+ P8 replace: core[1813:1817]=' a Perugia / il 22 novembre a che ora / gioca / la Lazio / ? il torrone / si assaggi' edition[1734:1744]='a Perugia / il 22 novembre il torrone / si assaggia / a Cremona E TRADUCI Domenica sera si'
+ P8 delete: core[1821:1861]='ia / il 22 novembre a che ora / gioca / la Lazio / ? il torrone / si assaggia / a Cremona Per la Madonna della Salute si' edition[1748:1748]=' 22 novembre il torrone / si assaggia / a Cremona E TRADUCI Domenica sera si gio'
+ P8 replace: core[1871:1929]=' ? il torrone / si assaggia / a Cremona Per la Madonna della Salute si attraversa il ponte votivo. Domenica sera si gioca Atalanta–Inter. ' edition[1758:1767]='re il torrone / si assaggia / a Cremona E TRADUCI Domenica sera si gioca Atalanta–Inter. '
+ P8 replace: core[1969:1978]=' Domenica sera si gioca Atalanta–Inter. Sabato la Lazio gioca in casa con il Lecce. 141. ' edition[1807:1808]=' Domenica sera si gioca Atalanta–Inter. F LE PAROLE DELLA MANOVRA 141. la manovra'
+ P8 replace: core[1980:2006]='era si gioca Atalanta–Inter. Sabato la Lazio gioca in casa con il Lecce. 141. la manovra 142. il deficit 1' edition[1810:1816]='menica sera si gioca Atalanta–Inter. F LE PAROLE DELLA MANOVRA 141. la manovra 142. il'
+ P8 replace: core[2007:2012]='. Sabato la Lazio gioca in casa con il Lecce. 141. la manovra 142. il deficit 143. la' edition[1817:1832]='sera si gioca Atalanta–Inter. F LE PAROLE DELLA MANOVRA 141. la manovra 142. il deficit 143. la'
+ P8 insert: core[2247:2247]='e di bilancio, il documento dello Stato — Cerco il ___ di Cremona. (A. biglietto' edition[2067:2088]='e di bilancio, il documento dello Stato G DIALOGO ALLA SAGRA — Cerco il ___ di Cremona. (A. biglietto'
+ P8 insert: core[2497:2497]='al ___. (A. 6 dicembre · B. 22 novembre) «La tua domenica del 22 novembre» Scriv' edition[2338:2350]='al ___. (A. 6 dicembre · B. 22 novembre) H SCRIVI TU «La tua domenica del 22 novembre» Scriv'
+ P8 delete: core[2861:2919]=' il miele, a forma di Torrazzo. La sera guardiamo Atalanta–Inter, alle 20.45, e la Lazio è ancora prima con 29 punti. Sabato, a Venezia, c' edition[2714:2714]=' il miele, a forma di Torrazzo. La sera prima con 29 punti. Sabato, a Venezia, c'
+ P8 delete: core[3343:3445]=' Commons, dominio pubblico — PAGINA 1 — 1. Lazio — 2. Napoli — 3. Como — 4. Sassuolo — 5. Bergamo — 6. Cremona — 7. A — 8. B — 9. C — 10. B — — PAGINA 2 — 11. Salute — 12. ponte — 13' edition[3138:3138]=' Commons, dominio pubblico — PAGINA 1 — — PAGINA 2 — 16. attraversano — attraver'
+ P8 delete: core[3459:3524]='A — 8. B — 9. C — 10. B — — PAGINA 2 — 11. Salute — 12. ponte — 13. candele — 14. alberi — 15. musica — 16. attraversano — attraversare i venezia' edition[3152:3152]='nio pubblico — PAGINA 1 — — PAGINA 2 — 16. attraversano — attraversare i venezia'
+ P8 delete: core[3736:3841]='20. mangia — mangiare la famiglia mangia 21. B — 22. A — 23. C — 24. B — 25. c — salute= 26. b — ponte votivo= 27. d — candela= 28. a — piantare= — PAGINA 3 — 29. B — 30. C — 31. B — 32' edition[3364:3364]='20. mangia — mangiare la famiglia mangia — PAGINA 3 — 44. Eurochocolate chiude a'
+ P8 delete: core[3855:4167]='candela= 28. a — piantare= — PAGINA 3 — 29. B — 30. C — 31. B — 32. A — 33. B — 34. torrone — torrone = 35. cioccolato — cioccolato = 36. corteo — corteo = 37. mandorle — mandorle = 38. rievocazione — rievocazione = 39. tartufo — tartufo = 40. è arrivato — arrivare 41. abbiamo assaggiato — assaggiare 42. sono andati — andare 43. ha chiuso — chiudere 44. Eurochocolate chiude a Perugia il 22' edition[3378:3378]='angiare la famiglia mangia — PAGINA 3 — 44. Eurochocolate chiude a Perugia il 22'
+ P8 replace: core[4220:4289]='late chiude a Perugia il 22 novembre. — 45. A Cremona il torrone è il re. — 46. La fiera dura fino al 6 dicembre. — dura fino a = — PAGINA 4 — 47. B ' edition[3431:3433]='late chiude a Perugia il 22 novembre. — Subjekt + Verb + — PAGINA 4 — 60. ha vinto'
+ P8 replace: core[4290:4309]='re. — 46. La fiera dura fino al 6 dicembre. — dura fino a = — PAGINA 4 — 47. B — 48. B — 49. A — 50' edition[3434:3447]='e chiude a Perugia il 22 novembre. — Subjekt + Verb + — PAGINA 4 — 60. ha vinto — vincere ha '
+ P8 delete: core[4323:4497]=' dicembre. — dura fino a = — PAGINA 4 — 47. B — 48. B — 49. A — 50. C — 51. B — 52. d — vetta= 53. b — imbattuto= 54. c — girone= 55. a — debutto= 56. più — 57. meno — 58. più bella — più + bella 59. meglio — bene 60. ha vinto — vincere ha vinto 61. ha p' edition[3461:3461]='vembre. — Subjekt + Verb + — PAGINA 4 — 60. ha vinto — vincere ha vinto 61. ha p'
+ P8 delete: core[4573:4658]='ha pareggiato — pareggiare ha pareggiato 62. sono arrivati — arrivare 63. abbiamo guardato — guardare 64. ha preso — prendere — PAGINA 5 — 65. B — 66. B — 67. C — 68' edition[3537:3537]='ha pareggiato — pareggiare ha pareggiato — PAGINA 5 — — PAGINA 6 — 85. B — 13 − '
+ P8 delete: core[4672:5001]='re 64. ha preso — prendere — PAGINA 5 — 65. B — 66. B — 67. C — 68. A — 69. A — 70. protagonisti — protagonisti = 71. indipendente — indipendente = 72. anteprima — anteprima = 73. sedi — sedi = 74. lettrice — lettrice = 75. incontri — incontri = 76. andremo — andare 77. ci sarà — esserci 78. guarderemo — guardare 79. durerà — durare 80. Vero — 81. Vero — 82. Falso — — PAGINA 6 — 83. B — 84. A — 85. B — 13 ' edition[3551:3551]='— pareggiare ha pareggiato — PAGINA 5 — — PAGINA 6 — 85. B — 13 − 11 = 2 86. A —'
+ P8 delete: core[5015:5031]=' — 81. Vero — 82. Falso — — PAGINA 6 — 83. B — 84. A — 85. B — 13 − 11 = 2 86. A — 6 + 7 = 13 87' edition[3565:3565]='a pareggiato — PAGINA 5 — — PAGINA 6 — 85. B — 13 − 11 = 2 86. A — 6 + 7 = 13 — '
+ P8 delete: core[5068:5353]='— 85. B — 13 − 11 = 2 86. A — 6 + 7 = 13 87. B — 88. A — 89. B — 90. A — 91. A — DPB 92. B — 2027 93. piova — è probabile che + 94. nevichi — è possibile che + 95. controllino — bisogna che + 96. sia — è importante che + 97. manovra — manovra = 98. deficit — deficit = 99. copertura — copertura = 100. scaglione — scaglione = — PAGINA 7 — 101. andremo — andare 102.' edition[3602:3602]='— 85. B — 13 − 11 = 2 86. A — 6 + 7 = 13 — PAGINA 7 — — PAGINA 8 — 134. Eurochoc'
+ P8 delete: core[5367:5674]='0. scaglione — scaglione = — PAGINA 7 — 101. andremo — andare 102. assaggeremo — assaggiare 103. guarderemo — guardare 104. B — leggerò 105. è partito — partire 106. abbiamo visto — vedere 107. hanno comprato — comprare 108. A — finire 109. piova — è probabile che + 110. nevichi — è possibile che + 111. leggano — bisogna che + 112. B — so che + — PAGINA 8 — 113. B — 114. A — 115. A — ' edition[3616:3616]=' 11 = 2 86. A — 6 + 7 = 13 — PAGINA 7 — — PAGINA 8 — 134. Eurochocolate chiude a'
+ P8 delete: core[5688:5689]='a che + 112. B — so che + — PAGINA 8 — 113. B — 114. A — 115. A — 116. A — 117. B' edition[3630:3630]='— 6 + 7 = 13 — PAGINA 7 — — PAGINA 8 — 134. Eurochocolate chiude a Perugia il 22'
+ P8 delete: core[5690:5698]='che + 112. B — so che + — PAGINA 8 — 113. B — 114. A — 115. A — 116. A — 117. B — 118. B' edition[3631:3631]=' 6 + 7 = 13 — PAGINA 7 — — PAGINA 8 — 134. Eurochocolate chiude a Perugia il 22 '
+ P8 replace: core[5701:5769]='B — so che + — PAGINA 8 — 113. B — 114. A — 115. A — 116. A — 117. B — 118. B — 119. A — 120. B — 121. B — 122. B — 123. A — 124. C — 125. C — 126. ' edition[3634:3668]='+ 7 = 13 — PAGINA 7 — — PAGINA 8 — 134. Eurochocolate chiude a Perugia il 22 novembre. — Subjekt + Verb'
+ P8 replace: core[5771:5774]=' 118. B — 119. A — 120. B — 121. B — 122. B — 123. A — 124. C — 125. C — 126. A — 1' edition[3670:3680]='34. Eurochocolate chiude a Perugia il 22 novembre. — Subjekt + Verb'
+ P8 replace: core[5777:5907]='B — 119. A — 120. B — 121. B — 122. B — 123. A — 124. C — 125. C — 126. A — 127. B — 128. B — 129. B — Giulia 130. A — Paolo 131. B — 132. A — 133. Domenica è il 22 novembre. — 134. Eurochocolate chiude a Perug' edition[3683:3685]='late chiude a Perugia il 22 novembre. — Subjekt + Verb'
+ P8 replace: core[5908:5961]=' — 132. A — 133. Domenica è il 22 novembre. — 134. Eurochocolate chiude a Perugia il 22 novembre. — 135. A che ora gioca la Lazio? — ' edition[3686:3696]='e chiude a Perugia il 22 novembre. — Subjekt + Verb'
+ P8 delete: core[5962:6290]='ochocolate chiude a Perugia il 22 novembre. — 135. A che ora gioca la Lazio? — 136. Il torrone si assaggia a Cremona. — — si gioca = — in casa = 140. Ogni cifra deve essere chiara. — dovere = 141. d — manovra= 142. c — deficit= 143. b — copertura= 144. a — scaglione= 145. B — torrone = 146. A — mandorle = 147. B — quanto costa? = 148. A — pagare con carta = 149. B —' edition[3697:3697]='Perugia il 22 novembre. — Subjekt + Verb'
+freeze-diff fragments unexplained: added 2, removed 139
+  ADD P8: '134. Eurochocolate chiude a Perugia il 22 novembre. — Subjekt + Verb'
+  ADD P8: '44. Eurochocolate chiude a Perugia il 22 novembre. — Subjekt + Verb +'
+  REM P8: '1. Lazio — '
+  REM P8: '10. B — '
+  REM P8: '100. scaglione — scaglione = '
+  REM P8: '101. andremo — andare '
+  REM P8: '102. assaggeremo — assaggiare '
+  REM P8: '103. guarderemo — guardare '
+  REM P8: '104. B — leggerò '
+  REM P8: '105. è partito — partire '
+  REM P8: '106. abbiamo visto — vedere '
+  REM P8: '107. hanno comprato — comprare '
+  REM P8: '108. A — finire '
+  REM P8: '109. piova — è probabile che + '
+  REM P8: '11. Salute — '
+  REM P8: '110. nevichi — è possibile che + '
+  REM P8: '111. leggano — bisogna che + '
+  REM P8: '112. B — so che + '
+  REM P8: '113. B — '
+  REM P8: '114. A — '
+  REM P8: '115. A — '
+  REM P8: '116. A — '
+  REM P8: '117. B — '
+  REM P8: '118. B — '
+  REM P8: '119. A — '
+  REM P8: '12. ponte — '
+  REM P8: '120. B — '
+  REM P8: '121. B — '
+  REM P8: '122. B — '
+  REM P8: '123. A — '
+  REM P8: '124. C — '
+  REM P8: '125. C — '
+  REM P8: '126. A — '
+  REM P8: '127. B — '
+  REM P8: '128. B — '
+  REM P8: '129. B — Giulia '
+  REM P8: '13. candele — '
+  REM P8: '130. A — Paolo '
+  REM P8: '131. B — '
+  REM P8: '132. A — '
+  REM P8: '133. Domenica è il 22 novembre. — '
+  REM P8: '134. Eurochocolate chiude a Perugia il 22 novembre. — '
+wrote out/freeze-classify.json

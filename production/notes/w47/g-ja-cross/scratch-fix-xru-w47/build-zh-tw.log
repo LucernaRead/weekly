@@ -1,0 +1,34 @@
+===== zh-tw 2026-11-12T23:51:36Z disk=95G =====
+run.py rc=0
+TOTAL 150
+probe rc=0 : 2026-w47-zh-tw-ru: runs=5705 LAT@NotoSans=0 LAT@Newsreader=861 CYR@NotoSans=10623 CYR@Newsreader=0 CJK+LAT=0 CJK+CYR=151 curly={'Newsreader': 5}
+render.py rc=0
+print PDF mtime=2026-11-12 23:52:11.323063601 +0000 size=11291943
+8c3aca16ea41ed1cd8f5eb6174861c30ce4db1536cbf14427a8bd08aa901e2f5  Lucerna-VOL4-RU.pdf
+pre non-space chars: 24962; post non-space chars: 24962
+MULTISET IDENTICAL
+TEXT-LAYER MULTISET IDENTICAL pre/post (57457 chars)
+webpdf.py rc=0
+  font LucernaUnifrakturMaguntia-Regular: 23700 bytes
+WROTE Lucerna-VOL4-RU-web.pdf: 1997666 bytes, 58543 text bytes
+web PDF mtime=2026-11-12 23:52:58.288226567 +0000 size=1997666
+04606730a740e008fe427e69859c1e90a911f2872ec6079b8df75a135421afa1  Lucerna-VOL4-RU-web.pdf
+SVG diff vs pre:
+sha256sum: svg/p1-front.svg: No such file or directory
+svg/p1-front.svg: FAILED open or read
+sha256sum: svg/p2-life.svg: No such file or directory
+svg/p2-life.svg: FAILED open or read
+sha256sum: svg/p3-culture.svg: No such file or directory
+svg/p3-culture.svg: FAILED open or read
+sha256sum: svg/p4-sport.svg: No such file or directory
+svg/p4-sport.svg: FAILED open or read
+sha256sum: svg/p5-youth.svg: No such file or directory
+svg/p5-youth.svg: FAILED open or read
+sha256sum: svg/p6-deep.svg: No such file or directory
+svg/p6-deep.svg: FAILED open or read
+sha256sum: svg/p7-lang.svg: No such file or directory
+svg/p7-lang.svg: FAILED open or read
+sha256sum: svg/p8-test.svg: No such file or directory
+svg/p8-test.svg: FAILED open or read
+sha256sum: WARNING: 8 listed files could not be read
+BUILD DONE zh-tw 2026-11-12T23:52:58Z

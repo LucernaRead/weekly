@@ -1,0 +1,33 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] D3-P2-short: "c. eten voor Sinterklaas' paard" ink-right(adv)=1790.1 clearance=+71.9
+[PASS] D3-longform-absent: p2 SVG
+[PASS] D5-P4-SVG: p4-sport.svg (wrapped para: two fragments)
+[PASS] D5-textmd: text.md
+[PASS] D4-ex-markers: — Réponse: x142 (want 142)
+[PASS] D4-match-words: (Réponse x) x8 (want 8)
+[PASS] D4-no-Chinese-答案: 答案 residual=0
+[PASS] title-HET WOORD　MOT DE L: ink right 1851.5 clearance +10.5
+[PASS] title-VOOR OF TEGEN?　POU: ink right 1847.5 clearance +14.5
+[PASS] italic-print==web==1: print=1 web=1
+text.md diff vs backup: 19 changed lines (+/- count)
+    -26. de wortel — eten voor het paard van Sinterklaas (Réponse c · wortel = carotte c)
+    +26. de wortel — eten voor Sinterklaas' paard (Réponse c · wortel = carotte c)
+    +Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+    -### VOOR OF TEGEN?　POUR OU CONTRE ?
+    +### VOOR OF TEGEN?　POUR OU CONTRE
+    -omdat parce que ; omdat het meer doelpunten maakte parce qu’il a marqué plus de buts ; omdat ik een cadeautje wil parce que je veux un cadeau.
+    +omdat parce que ; omdat het meer doelpunten maakte parce qu'il a marqué plus de buts ; omdat ik een cadeautje wil parce que je veux un cadeau.
+    -### HET WOORD　LE MOT DE LA SEMAINE
+    +### HET WOORD　MOT DE LA SEMAINE
+    -> «Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland» — Le lundi 16 novembre, Oranje affronte l’Allemagne à Berlin. (Pagina 1)
+    +> «Op maandag 16 november speelt Oranje in Berlijn tegen Duitsland» — Le lundi 16 novembre, Oranje affronte l'Allemagne à Berlin. (Pagina 1)
+    -> «Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus» — Le samedi 5 décembre, c’est Pakjesavond : la soirée des grands cadeaux. (Pagina 2)
+    +> «Op zaterdag 5 december is het pakjesavond: de avond met de grote cadeaus» — Le samedi 5 décembre, c'est Pakjesavond : la soirée des grands cadeaux. (Pagina 2)
+    -> «Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5» — Les Pays-Bas sont premiers parce qu’ils ont marqué plus de buts : 7 contre 5. (Pagina 4)
+    +> «Nederland staat eerste, omdat het meer doelpunten maakte: 7 tegen 5» — Les Pays-Bas sont premiers parce qu'ils ont marqué plus de buts : 7 contre 5. (Pagina 4)
+    -125. [B1 · Choix unique] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Réponse: B（L’Allemagne a perdu 0–1 à domicile contre la Grèce）
+    -126. [B1 · Choix unique] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Réponse: B（Le PSV est en tête de l’Eredivisie avec 26 points）
+    +125. [B1 · Choix unique] Duitsland verloor thuis met 0–1 van... A. Servië · B. Griekenland · C. Nederland — Réponse: B（L'Allemagne a perdu 0–1 à domicile contre la Grèce）
+    +126. [B1 · Choix unique] PSV staat bovenaan in de Eredivisie met ___ punten. A. 25 · B. 26 · C. 8 — Réponse: B（Le PSV est en tête de l'Eredivisie avec 26 points）
+RESULT: ALL PASS

@@ -1,0 +1,8 @@
+registry n: 150 p8 keys: 150
+registry keys missing from P8 extract: []
+registry-vs-P8extract mismatches: [('150', '(Open task; model text below)', '✓')]
+match count: 149 /150
+Q137 reg: [{'n': 137, 'page': 8, 'level': 'A2', 'type': 'translation', 'key': "Tuesday 17 November, Students' Day.", 'note': 'See page 2'}]
+Q150 reg: [{'n': 150, 'page': 8, 'level': 'B1', 'type': 'writing', 'key': '(Open task; model text below)', 'note': 'See the model text in section H of this page (97 words)'}]
+Q150 p8: ✓
+p8 vs core ru-p8.json diffs: [('137', '11月17日星期二，大学生节。', "Tuesday 17 November, Students' Day."), ('138', '包裹要追踪、领取并检查。', 'A parcel must be tracked, collected and checked.'), ('139', '星期二俄罗斯队对阵委内瑞拉队。', 'On Tuesday Russia play Venezuela.'), ('140', '祝大家大学生节快乐！', "Happy Students' Day to everyone!")]

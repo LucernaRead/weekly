@@ -1,0 +1,17 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[PASS] D3-P2-short: "c. eten voor Sinterklaas' paard" ink-right(adv)=1790.1 clearance=+71.9
+[PASS] D3-longform-absent: p2 SVG
+[PASS] D5-P4-SVG: p4-sport.svg (wrapped para: two fragments)
+[PASS] D5-textmd: text.md
+[PASS] D4-ex-markers: — 정답： x142 (want 142)
+[PASS] D4-match-words: (정답 x) x8 (want 8)
+[PASS] D4-no-Chinese-答案: 答案 residual=0
+[PASS] italic-print==web==1: print=1 web=1
+text.md diff vs backup: 5 changed lines (+/- count)
+    -소원 목록과 함께 신발을 내놓을 건가요, 아니면 Pakjesavond를 위해 시를 쓸 건가요? 네덜란드어로 두 문장을 써서 편집부에 보내세요.
+    +소원 목록과 신발을 내놓을 건가요, 아니면 Pakjesavond를 위해 시를 쓸 건가요? 네덜란드어로 두 문장을 써서 편집부에 보내세요.
+    -26. de wortel — eten voor het paard van Sinterklaas (정답 c · wortel = 당근 c)
+    +26. de wortel — eten voor Sinterklaas' paard (정답 c · wortel = 당근 c)
+    +Stand Eredivisie na 12 ronden: PSV 26, Feyenoord 25, Ajax 25 punten.
+RESULT: ALL PASS

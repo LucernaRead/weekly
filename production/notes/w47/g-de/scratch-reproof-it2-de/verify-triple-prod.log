@@ -1,0 +1,14 @@
+== METHOD 1: PIL true ink (SVGs) ==
+D-1 'LA SETTIMANA IN CIFRE\u3000ZAHLEN' ink 556.5..936.0 vs box right 961.0 spare +25.0px FIT>=+5
+D-2 'LA FRASE PER RICORDARE\u3000MERKE' ink 556.5..951.5 vs box right 961.0 spare +9.5px FIT>=+5
+== METHOD 2: pixels on 96dpi render of print PDF ==
+D-1 render 1950x2700 darkest-pixel right x=933 vs box right 961 spare +28px FIT>=+5
+D-2 render 1950x2700 darkest-pixel right x=950 vs box right 961 spare +11px FIT>=+5
+== METHOD 3: text-layer bbox (pdftotext -bbox, pt -> SVG px x4/3) ==
+D-1 La-Lucerna-VOL4-DE.pdf: gloss 'ZAHLEN' bbox xMax=702.1pt = 936.1px spare +24.9px FIT>=+5
+D-2 La-Lucerna-VOL4-DE.pdf: gloss 'MERKE' bbox xMax=714.7pt = 952.9px spare +8.1px FIT>=+5
+D-1 La-Lucerna-VOL4-DE-web.pdf: gloss 'ZAHLEN' bbox xMax=702.1pt = 936.1px spare +24.9px FIT>=+5
+D-2 La-Lucerna-VOL4-DE-web.pdf: gloss 'MERKE' bbox xMax=714.7pt = 952.9px spare +8.1px FIT>=+5
+== SUMMARY (tightest of the three methods governs) ==
+D-1 'LA SETTIMANA IN CIFRE\u3000ZAHLEN': PIL +25.0 / pixels +28.0 / textlayer ['+24.9', '+24.9'] -> tightest +24.9 ALL FIT>=+5
+D-2 'LA FRASE PER RICORDARE\u3000MERKE': PIL +9.5 / pixels +11.0 / textlayer ['+8.1', '+8.1'] -> tightest +8.1 ALL FIT>=+5

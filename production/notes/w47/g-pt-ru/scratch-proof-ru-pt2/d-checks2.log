@@ -1,0 +1,45 @@
+KEEP keys: ['Фокус на язык\u3000Три уровня, три темы\u3000三个级别，三个主题', 'ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000练习数据', 'Это учебный опрос редакции для упражнений — не настоящая статистика. 这是编辑部练习数据，不是真实调查。', '第8版\u3000Большой тест недели + все ответы']
+  K1 pt='Фокус на язык\u3000Три уровня, три темы\u3000Três níveis, três temas'
+  K2 pt='ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?\u3000УЧЕБНЫЕ ДАННЫЕ\u3000DADOS DE PRÁTICA'
+  K3 pt='Это учебный опрос редакции для упражнений — не настоящая статистика. Este é um inquérito de prática da redação — não são estatísticas reais.'
+  K4 pt='PÁGINA 8\u3000Большой тест недели + все ответы'
+K1 in p6 svg: True | K2 in p6 svg: True | K2 in text.md: False
+K3 in p7 svg: True | K4 in p8 svg: True
+D2 full phrase ed: 2 core: 2
+D2 short 'День студента' count in text.md: 11
+content12.py lines with 'День студента': [(133, '("ВТОРНИК", "17 ноября — День студента. И Россия — Венесуэла в 19:00."),'), (163, 'p.band("ЖИЗНЬ\u3000VIDA", "Lucerna", "УРОВЕНЬ A2\u3000День студента, день рождения Деда Мороза и погода\u3000Dia do'), (181, '"17 ноября — День студента.",'), (269, '"День студента — ___ ноября.", instr="Completar frases", size=19, gap=6)'), (276, '"День студента",  # D2 fix (2026-11-11): was "Международный день студента" —')]
+content12.py lines with 'желании': [(257, 'e.ex("B1", "Completar frases", "желании", "желание = um desejo",'), (260, '# governs the prepositional, and neuter -ие nouns take -и: о желании.')]
+'желании' text.md: 2 p2 svg: 0
+  content56.py:158: p.text(MX, chy + 26, "ЧЕМ ЗАЙМУТСЯ НА ЭТОЙ НЕДЕЛЕ?　УЧЕБНЫЕ ДАННЫЕ　DADOS DE PRÁTICA", 26, "sans", True, OLIVE)
+  content7.py:12: p.band("ЯЗЫК　LÍNGUA", "Lucerna", "Фокус на язык　Три уровня, три темы　Três níveis, três temas")
+  content8.py:12: p.band("ТЕСТ И ОТВЕТЫ　TESTE E RESPOSTAS", "Lucerna", "PÁGINA 8　Большой тест недели + все ответы")
+  content12.py:1: # -*- coding: utf-8 -*-
+  content12.py:2: import sys, os
+  content12.py:3: sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+  content12.py:4: from bslib4 import *
+  content12.py:5: 
+  content12.py:6: OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
+  content12.py:7: os.makedirs(OUT, exist_ok=True)
+  content12.py:8: 
+  content12.py:9: # ================= P1 · ПЕРВАЯ ПОЛОСА (A2) =================
+  content12.py:10: CURPAGE[0] = 1
+  content12.py:11: p = BSPage4()
+  content12.py:12: 
+  content12.py:13: p.text(MX, 92, "VOL. 4　ЧЕТВЁРТЫЙ ВЫПУСК", 17, "sans", True, OLIVE, spacing=1.7)
+  content12.py:14: p.text(975, 92, "КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ　TEXTOS EM RUSSO　EXPLICAÇÕES EM PORTUGUÊS", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+  content12.py:15: p.text(RIGHT, 92, "НЕДЕЛЯ С 16 ПО 22 НОЯБРЯ 2026 ГОДА", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+  content12.py:16: p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+  content12.py:17: p.text(975, 330, "РУССКАЯ ГАЗЕТА　VOL.4　ФУТБОЛ　РАСПРОДАЖИ　КИНО", 36, "serif", True, OLIVE, anchor="middle", spacing=6)
+  content12.py:18: p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ  ГАЗЕТА  ДЛЯ  ИЗУЧАЮЩИХ  РУССКИЙ  ЯЗЫК  —  НАСТОЯЩАЯ  РОССИЯ,  ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")
+  content12.py:19: # D2-kicker fix (2026-11-11, ru-zh-tw proof1 D2): the 9 single spaces in this
+  content12.py:20: # kicker were double-spaced. Noto Sans CJK SC space is only 3.58px at 16px
+  content12.py:21: # and neighbouring glyphs overhang their advance, so word-ink gaps were
+  content12.py:22: # 1.4–2.6px (ГАЗЕТА/ДЛЯ, ИЗУЧАЮЩИХ/РУССКИЙ, НАСТОЯЩАЯ/РОССИЯ); routing the
+  content12.py:23: # space to Noto Sans gains only +0.58px and reflows the whole book, so the
+  content12.py:24: # data-only fix is used instead. Row widens +32.2px, stays centred on 975.
+  content12.py:25: p.hline(MX, RIGHT, 420, OLIVE, 2)
+  content12.py:26: moth(p, 975, 420)
+  content12.py:27: 
+  content12.py:28: p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+  content12.py:29: p.text(MX + 30, 524, "14-Й ТУР СЫГРАН!", 46, "sans", True, ONCLOTH)
+  content12.py:30: p.text(MX + 30, 568, "«Зенит» и «Динамо» — по 31 очку. А впереди — «чёрная пятница» и 15-й тур.", 25, "serif", False, "#cac8ba")

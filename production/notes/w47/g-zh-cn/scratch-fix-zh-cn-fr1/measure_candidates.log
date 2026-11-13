@@ -1,0 +1,30 @@
+== D-1: box title, x=556.5, box right 961.0, sans bold 23pt ==
+orig: advance=422.2 ink_right=978.5 box_right=961.0 clearance=-17.5  [数字看本周　Cette semaine en chiffres]
+cand Cette semaine: advance=298.8 ink_right=855.5 box_right=961.0 clearance=+105.5  [数字看本周　Cette semaine]
+cand En chiffres: advance=257.0 ink_right=813.5 box_right=961.0 clearance=+147.5  [数字看本周　En chiffres]
+cand Chiffres: advance=225.9 ink_right=782.5 box_right=961.0 clearance=+178.5  [数字看本周　Chiffres]
+orig@20pt: advance=367.2 ink_right=923.5 box_right=961.0 clearance=+37.5  [数字看本周　Cette semaine en chiffres]
+orig@21pt: advance=385.5 ink_right=942.5 box_right=961.0 clearance=+18.5  [数字看本周　Cette semaine en chiffres]
+== D-2: press line, x=1461.5, box right 1862.0, sans regular 19pt ==
+orig: advance=408.1 ink_right=1869.5 box_right=1862.0 clearance=-7.5  [Bouclage : 10 nov. — la finale pas encore jouée]
+cand drop la: advance=387.8 ink_right=1849.5 box_right=1862.0 clearance=+12.5  [Bouclage : 10 nov. — finale pas encore jouée]
+cand a venir: advance=318.1 ink_right=1780.5 box_right=1862.0 clearance=+81.5  [Bouclage : 10 nov. — la finale à venir]
+orig@18pt: advance=386.6 ink_right=1848.5 box_right=1862.0 clearance=+13.5  [Bouclage : 10 nov. — la finale pas encore jouée]
+== D-3: box title, x=1007.0, box right 1411.5, sans bold 23pt ==
+orig: advance=407.9 ink_right=1415.0 box_right=1411.5 clearance=-3.5  [本周生活小日历　Dates de la semaine]
+cand drop la: advance=381.8 ink_right=1389.0 box_right=1411.5 clearance=+22.5  [本周生活小日历　Dates de semaine]
+cand La semaine: advance=311.7 ink_right=1319.0 box_right=1411.5 clearance=+92.5  [本周生活小日历　La semaine]
+cand Dates cles: advance=296.9 ink_right=1304.0 box_right=1411.5 clearance=+107.5  [本周生活小日历　Dates clés]
+orig@22pt: advance=390.1 ink_right=1397.0 box_right=1411.5 clearance=+14.5  [本周生活小日历　Dates de la semaine]
+orig@21pt: advance=372.4 ink_right=1379.0 box_right=1411.5 clearance=+32.5  [本周生活小日历　Dates de la semaine]
+== D-4: box item wrap, inner width 386.5, serif 20pt ==
+orig: 2 lines ['21 nov., samedi — le nouveau film 《试探', '》 sort']
+    line advance=372.2 '21 nov., samedi — le nouveau film 《试探'
+    line advance=61.3 '》 sort'
+cand le film: 1 lines ['21 nov., samedi — le film 《试探》 sort']
+    line advance=349.9 '21 nov., samedi — le film 《试探》 sort'
+cand sortie: 1 lines ['21 nov., samedi — sortie du film 《试探》']
+    line advance=374.0 '21 nov., samedi — sortie du film 《试探》'
+cand sam.: 2 lines ['21 nov., sam. — le nouveau film 《试探》', 'sort']
+    line advance=368.3 '21 nov., sam. — le nouveau film 《试探》'
+    line advance=36.5 'sort'

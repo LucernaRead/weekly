@@ -1,0 +1,29 @@
+--- p1: removed 22 added 19 | removed-CYR 0 added-CYR 0
+--- p2: removed 28 added 27 | removed-CYR 0 added-CYR 0
+--- p3: removed 20 added 18 | removed-CYR 0 added-CYR 0
+--- p4: removed 20 added 20 | removed-CYR 0 added-CYR 0
+--- p5: removed 19 added 19 | removed-CYR 0 added-CYR 0
+--- p6: removed 20 added 21 | removed-CYR 0 added-CYR 0
+--- p7: removed 39 added 38 | removed-CYR 0 added-CYR 0
+--- p8: removed 319 added 159 | removed-CYR 15 added-CYR 0
+=== ALL removed strings containing Cyrillic (15):
+  p8 x1: 'Билибин'
+  p8 x1: 'Билибина'
+  p8 x1: 'Зимняя'
+  p8 x1: 'Иван'
+  p8 x1: 'Ивана'
+  p8 x1: 'Иллюстрация'
+  p8 x1: 'Морозко'
+  p8 x1: 'год'
+  p8 x1: 'достояние'
+  p8 x1: 'иллюстрация'
+  p8 x1: 'к'
+  p8 x1: 'можно'
+  p8 x1: 'ноябрю'
+  p8 x1: 'общественное'
+  p8 x1: 'сказка'
+=== ALL added strings containing Cyrillic (0):
+=== D7 pair check on p7:
+  added:   "\u3000Drie niveaus, drie thema's"
+=== total removed distinct: 487
+=== total added distinct: 321

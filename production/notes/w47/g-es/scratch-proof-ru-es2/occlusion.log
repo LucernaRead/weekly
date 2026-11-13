@@ -1,0 +1,44 @@
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-ru-es/svg: 42 flags {'TEXTX': 42}
+  [TEXTX] p1-pervaya.svg 'Зенит' — ink overlaps '» ' by 5.5x25.0px
+  [TEXTX] p1-pervaya.svg 'Динамо' — ink overlaps '» — ' by 5.1x25.0px
+  [TEXTX] p1-pervaya.svg 'тур' — ink overlaps ': «' by 4.9x26.2px
+  [TEXTX] p1-pervaya.svg 'пятница' — ink overlaps '»: ' by 3.2x9.8px
+  [TEXTX] p1-pervaya.svg 'третий' — ink overlaps ', ' by 3.4x7.5px
+  [TEXTX] p1-pervaya.svg 'субботу' — ink overlaps ',' by 3.2x7.5px
+  [TEXTX] p1-pervaya.svg 'Краснодар' — ink overlaps '» — ' by 3.1x11.0px
+  [TEXTX] p1-pervaya.svg 'Краснодаре' — ink overlaps ',' by 3.3x7.5px
+  [TEXTX] p1-pervaya.svg '!' — ink overlaps 'истории' by 3.6x13.2px
+  [TEXTX] p1-pervaya.svg 'ЦСКА' — ink overlaps '? A.' by 3.5x14.8px
+  [TEXTX] p2-zhizn.svg 'толерантности' — ink overlaps '.' by 4.1x3.0px
+  [TEXTX] p2-zhizn.svg 'студента' — ink overlaps '.' by 3.0x3.0px
+  [TEXTX] p2-zhizn.svg 'студента' — ink overlaps '.' by 3.3x3.2px
+  [TEXTX] p2-zhizn.svg '! ' — ink overlaps 'студента' by 3.4x13.2px
+  [TEXTX] p2-zhizn.svg 'студенту' — ink overlaps ', ' by 3.5x7.5px
+  [TEXTX] p2-zhizn.svg 'спасибо' — ink overlaps '.' by 3.3x3.2px
+  [TEXTX] p3-kultura.svg 'биография' — ink overlaps ':' by 5.0x11.5px
+  [TEXTX] p3-kultura.svg 'посмотреть' — ink overlaps ': ' by 3.8x11.5px
+  [TEXTX] p3-kultura.svg ')' — ink overlaps 'посмотреть' by 3.2x13.5px
+  [TEXTX] p4-sport.svg 'место' — ink overlaps '.' by 3.0x3.2px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '» ' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '» — ' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'Россия' — ink overlaps ', ' by 3.1x3.0px
+  [TEXTX] p4-sport.svg 'истории' — ink overlaps '; ' by 3.1x13.2px
+  [TEXTX] p4-sport.svg 'Краснодар' — ink overlaps '»' by 3.1x11.0px
+  [TEXTX] p4-sport.svg 'ЦСКА' — ink overlaps '? A.' by 3.6x13.8px
+  [TEXTX] p5-molodezh.svg 'пятница' — ink overlaps '»:' by 5.1x15.5px
+  [TEXTX] p5-molodezh.svg 'смартфоны' — ink overlaps ',' by 5.2x7.5px
+  [TEXTX] p6-razbor.svg 'студента' — ink overlaps ', ' by 3.2x7.5px
+  [TEXTX] p6-razbor.svg 'сбивается' — ink overlaps '.' by 3.2x3.0px
+  [TEXTX] p6-razbor.svg 'Планируйте' — ink overlaps ': ' by 3.2x11.5px
+  [TEXTX] p6-razbor.svg '?\u3000' — ink overlaps 'НЕДЕЛЕ' by 3.3x19.5px
+  [TEXTX] p7-yazyk.svg 'ЯЗЫК' — ink overlaps '\u3000LENGUA' by 3.8x35.5px
+  [TEXTX] p7-yazyk.svg 'прессы' — ink overlaps ',' by 3.0x6.8px
+  [TEXTX] p7-yazyk.svg '!»' — ink overlaps 'студента' by 3.4x12.0px
+  [TEXTX] p7-yazyk.svg 'пресс' — ink overlaps '-' by 3.0x5.8px
+  [TEXTX] p7-yazyk.svg 'пятница' — ink overlaps '»' by 3.6x10.2px
+  [TEXTX] p7-yazyk.svg '!» — ' — ink overlaps 'студента' by 3.0x11.8px
+  [TEXTX] p7-yazyk.svg 'Кипренского' — ink overlaps ', 1827 ' by 3.5x17.2px
+  [TEXTX] p7-yazyk.svg 'поступило' — ink overlaps ': ' by 3.2x10.5px
+  [TEXTX] p8-test.svg 'ОТВЕТЫ' — ink overlaps '\u3000TEST Y RESPUESTAS' by 8.0x35.5px
+  [TEXTX] p8-test.svg '\u3000SOLUCIONES — ORDENADAS POR PÁGINA; BUSCA EL NÚMERO DE EJERC' — ink overlaps 'ОТВЕТЫ' by 4.5x19.0px

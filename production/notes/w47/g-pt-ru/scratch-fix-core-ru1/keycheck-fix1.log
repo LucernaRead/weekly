@@ -1,0 +1,19 @@
+json keys: 150 total field: 150
+text.md appendix parsed: 150
+text.md appendix mismatches vs ru-p8.json: [(150, '[B1 · 写作] «Моя неделя 16–22 ноября» Напишите 80–100 слов: что вы будете делать каждый день недели?', '✓')]
+print-PDF answers-region misses: []
+web-PDF answers-region misses: []
+Q20 witnesses:
+  json keys[20] = 'желании'
+  text.md ex line: 20. [B1 · 完成句子] Дети пишут Деду Морозу о своём ___. — key: желании (желание = 愿望) [填空]
+  text.md appendix: 20. желании — желание = 愿望
+  print line: 20. желании — желание = 愿望
+  web  line: 20. желании — желание = 愿望
+Q20 stem (print): ['Дети пишут Деду Морозу о своём ___.']
+spot keys 44/97/98/99/100/150:
+  44 'Питер Фаррелли снял этот фильм.' | in print: True
+  97 'Неделя обычная, поэтому ритм ровный.' | in print: True
+  98 'В понедельник трудно начать, а в пятницу уже почти выходные.' | in print: True
+  99 'Одни идут в кино, а другие остаются дома.' | in print: True
+  100 'Люди проверяют посылки или возвращают покупки.' | in print: True
+  150 '✓' | in print: True

@@ -1,0 +1,38 @@
+== P2 D-section lines (match terms/options) ==
+  y=1479.1400000000003 x=88.0 'Een gedicht is een klein versje —'
+  y=2395.225 x=989.0 'D\u3000WOORDEN'
+  y=1927.0 x=1511.5 '25–28.'
+  y=2124.0 x=1473.5 'a. een lijst met wensen voor'
+  y=2195.0 x=1473.5 'b. een klein versje bij een cadeau'
+  y=2233.0 x=1473.5 "c. eten voor Sinterklaas' paard"
+  y=2271.0 x=1473.5 "d. die staat 's avonds bij de deur"
+  OPT y=2124.0 x=1473.5 'a. een lijst met wensen voor'
+  OPT y=2195.0 x=1473.5 'b. een klein versje bij een cadeau'
+  OPT y=2233.0 x=1473.5 "c. eten voor Sinterklaas' paard"
+  OPT y=2271.0 x=1473.5 "d. die staat 's avonds bij de deur"
+== P8 F-section (141-144) ==
+  y=569.05 x=989.0 'F\u3000WOORDEN VAN DE WEEK'
+  y=807.05 x=1023.0 'a. een klein versje bij een cadeau'
+  y=845.05 x=1023.0 'b. een dagelijks nieuwsprogramma op'
+  y=916.05 x=1023.0 'c. de eerste plaats in de groep'
+  y=954.05 x=1023.0 "d. die staat 's avonds bij de deur"
+  KEY y=651.05 '141. het journaal'
+  KEY y=688.05 '142. de groepswinst'
+  KEY y=725.05 '143. de schoen'
+  KEY y=762.05 '144. het gedicht'
+  KEY y=2250.2800000000007 '141. b — journaal = notiziario b'
+  KEY y=2279.9400000000005 '142. c — groepswinst=vittoria del girone c'
+  KEY y=2309.6000000000004 '143. d — schoen = scarpa d'
+  KEY y=2339.26 '144. a — gedicht=poesia a'
+== P8 G dialogue (Daan) ==
+  y=491.46 x=538.5 'Daan woont in Rotterdam. Op maandag 16 november kijkt'
+  y=664.26 x=538.5 'Waar woont Daan? A. in Grave · B. in Rotterdam · C. in Amsterdam'
+  y=730.0699999999999 x=538.5 'Wat doet Daan op maandag 16 november? A. Hij kijkt naar'
+  y=835.8999999999999 x=538.5 'Wat zit er in de schoen van Daan? A. een boek · B. een wortel en'
+  y=921.7199999999998 x=538.5 'Wanneer kijkt Daan naar het Sinterklaasjournaal? A. om 12:00 uur'
+  y=1847.3800000000015 x=1439.5 '129. B — Daan abita a Rotterdam'
+== Q150 model word count (text.md) ==
+  line 430: '150. [B1 · Scrittura] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Risposta: (compito aperto, testo'
+  line 431: 'Tekstmodel: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedich'
+  Q150 line: 150. [B1 · Scrittura] «Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen? — Risposta: (compito aperto, testo modello sotto)（Vedi il testo modello nella sezione H (81 parole)） [Scrivi]
+   +1: 'Tekstmodel: Maandag 16 november speelt Oranje in Berlijn tegen Duitsland. Ik kijk om 20:45 uur naar NPO 3. Elke dag kijk ik om 18:00 uur naar het Sinterklaasjournaal. Op woensdag schrijf ik een gedicht voor mijn surprise. Zaterdag kijk ik naar NEC – PSV. Zondag zet ik mijn schoen met een wortel en e'

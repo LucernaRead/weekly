@@ -1,0 +1,7 @@
+rows=150 with any flag: 1
+Q150: ['REG!=P8', 'MD!=P8'] REG='(自由課題、モデル文は下)' MD='(自由課題、モデル文は下)' P8='✓' stem='«Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden'
+missing md keys: []
+missing p8 keys: []
+missing reg keys: []
+Q140: [{'n': 140, 'level': 'B2', 'type': '翻訳', 'stem': '小さな詩つきのプレゼントを作ります。→ ___', 'reg_key': 'Ik maak een surprise met een kort gedicht.', 'md_key': 'Ik maak een surprise met een kort gedicht.', 'p8_key': 'Ik maak een surprise met een kort gedicht.', 'flags': []}]
+Q150: [{'n': 150, 'level': 'B1', 'type': '作文', 'stem': '«Mijn week met Oranje en Sinterklaas» Schrijf 80–100 woorden: wat doe jij deze week, kijk jij naar Duitsland – Nederland, en zet jij je schoen?', 'reg_key': '(自由課題、モデル文は下)', 'md_key': '(自由課題、モデル文は下)', 'p8_key': '✓', 'flags': ['REG!=P8', 'MD!=P8']}]

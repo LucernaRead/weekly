@@ -1,0 +1,30 @@
+stem keys: 130 answer-list keys: 150
+stem-key vs answer-list-key diffs: 1
+  Q150 stem='' ans='(Open task; model text below)'
+numbers without a stem key (matching/open): [25, 26, 27, 28, 39, 40, 41, 42, 57, 58, 59, 60, 75, 76, 77, 78, 141, 142, 143, 144]
+model text words: 97 (claimed 97)
+___ occurrences: 87
+ABSTRACT bytes: 355 lines: 1 has double-quote: False
+ABSTRACT: Lucerna Russian Weekly VOL.4: all eight round 14 results, Zenit and Dynamo level on 31 points, Russia away to Uzbekistan on 12 November and at home to Venezuela on 17 November, Black Friday, five film
+==== matching-group inline keys vs answer list ====
+  Q25 inline key 'b' == answer list OK
+  Q26 inline key 'd' == answer list OK
+  Q27 inline key 'c' == answer list OK
+  Q28 inline key 'a' == answer list OK
+  Q39 inline key 'b' == answer list OK
+  Q40 inline key 'd' == answer list OK
+  Q41 inline key 'c' == answer list OK
+  Q42 inline key 'a' == answer list OK
+  Q57 inline key 'b' == answer list OK
+  Q58 inline key 'a' == answer list OK
+  Q59 inline key 'c' == answer list OK
+  Q60 inline key 'd' == answer list OK
+  Q75 inline key 'd' == answer list OK
+  Q76 inline key 'b' == answer list OK
+  Q77 inline key 'a' == answer list OK
+  Q78 inline key 'c' == answer list OK
+  Q141 inline key 'c' == answer list OK
+  Q142 inline key 'd' == answer list OK
+  Q143 inline key 'a' == answer list OK
+  Q144 inline key 'b' == answer list OK
+matching inline-key mismatches: 0

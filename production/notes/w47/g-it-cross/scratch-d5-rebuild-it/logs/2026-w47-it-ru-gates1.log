@@ -1,0 +1,33 @@
+== run.py: TOTAL=150 FLOW_OVERFLOW=0 HEAD_TOO_WIDE=0 (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-d5-rebuild-it/logs/2026-w47-it-ru-run1.log)
+== occlusion: RC=0 0 flags
+== p8-extract: RC=0 /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ru/svg/p8-valutazione.svg: noted set = 150 of 150 (parse: lines)
+== p8-compare: RC=0 core    /home/hatch/workspace/weekly-git/production/2026-w47/core-it/svg/p8-valutazione.svg: 150 noted
+edition /home/hatch/workspace/weekly-git/production/2026-w47/2026-w47-it-ru/svg/p8-valutazione.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139]
+== census: RC=0 TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=778
+== boxtitle: RC=1 BOXTITLE 2026-w47-it-ru: 26 titles, 320 body lines, 1 DEFECT, 0 OBSERVE, 0 marginal
+      P1 [TITLE] DEFECT over=+113.5px (right) core=-18.0 backup=None | regression vs core (core -18.0px) | 'НЕДЕЛЯ В ЦИФРАХ'
+    BOXTITLE 2026-w47-it-ru: 26 titles, 320 body lines, 1 DEFECT, 0 OBSERVE, 0 marginal
+== spill: RC=0 SPILL_SWEEP 2026-w47-it-ru: 29 boxes, 69 candidates, 0 SPILL, 69 OBSERVE
+== creambox: RC=1 P8 p8-valutazione.svg: lines 222->222 slack_footer 45.4->45.4
+      DEFECT abs box#0 y=1388.475 'НЕДЕЛЯ В ЦИФРАХ' over={'right': 113.5}
+      DEFECT spill box#3 'по-итальянски в редакцию.' {'box': 3, 's': 'по-итальянски в редакцию.', 'issue': 'spilled below box', 'y_base': 1374.0, 'y_patch': 1394.1, 'box_bottom': 1379.6}
+== edge: RC=0
+    EDGE_SCAN 2026-w47-it-ru: 8 pages, 0 TOUCH, 0 NEAR
+      P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.8}
+    EDGE_SCAN 2026-w47-it-ru: 8 pages, 0 TOUCH, 0 NEAR
+== freeze-baseline: RC=0 baseline: 8/8 SVGs byte-identical (repointed files: render.py, content12.py, content34.py, content56.py, content7.py, content8.py)
+== freeze-diff: RC=0
+    p1: +84 strings / -66 strings; CJK core 197 -> edition 20; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 5 (unexpected 5)
+    p2: +49 strings / -69 strings; CJK core 191 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 7 (unexpected 7)
+    p3: +48 strings / -69 strings; CJK core 180 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 10 (unexpected 10)
+    p4: +40 strings / -66 strings; CJK core 162 -> edition 16; added CJK chars: 0 ; added Latin strings: 7 (unexpected 7)
+    p5: +87 strings / -67 strings; CJK core 227 -> edition 14; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 16 (unexpected 16)
+    p6: +45 strings / -59 strings; CJK core 167 -> edition 16; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 13 (unexpected 13)
+    p7: +56 strings / -106 strings; CJK core 304 -> edition 13; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 23 (unexpected 23)
+    p8: +894 strings / -417 strings; CJK core 1015 -> edition 22; added CJK chars: 1 {'\u3000': 1}; added Latin strings: 91 (unexpected 91)
+    TOTAL added CJK characters: 7
+new-CJK-non-U3000: NONE
+== textlayer-print-vs-web: RC=0 print_chars=44274 web_chars=44274 multiset_diff=0 nonws_diff=0
+== text.md: UNCHANGED 47c0471515d3b249855e33a290d0c4259ecce431995db45ac0ce926cf5a52b1d
+GATES 2026-w47-it-ru: FAILURES-PRESENT

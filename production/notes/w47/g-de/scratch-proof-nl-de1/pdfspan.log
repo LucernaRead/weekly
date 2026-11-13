@@ -1,0 +1,39 @@
+/home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+== P1 p1-voorpagina.svg rects=4
+  box x=403.9 y=1058.0 w=316.9 right=720.8 bottom=1346.0 | max span right=706.3 ('16 — november: Duitsland – Nederland in' Newsreader16pt-Regular 15.0pt) | max span bottom=1313.2
+  box x=1079.6 y=441.0 w=316.9 right=1396.5 bottom=966.0 | max span right=1391.0 ('TERMINE DER WOCHE' NotoSansCJKsc-Regular 14.2pt) | max span bottom=847.1
+  box x=1079.6 y=984.0 w=316.9 right=1396.5 bottom=1239.0 | max span right=1421.9 ('IN DIESER AUSGABE' NotoSansCJKsc-Bold 18.0pt) | max span bottom=1231.5
+    *** RIGHT OVERFLOW by 25.4pt = 33.9px :: 'IN DIESER AUSGABE'
+  box x=1079.6 y=1405.5 w=316.9 right=1396.5 bottom=1728.0 | max span right=1376.6 ('KURZ GEMELDET' NotoSansCJKsc-Bold 18.0pt) | max span bottom=1688.5
+== P2 p2-leven.svg rects=8
+  box x=403.9 y=620.4 w=316.9 right=720.8 bottom=781.6 | max span right=721.5 ('MERK ES DIR' NotoSansCJKsc-Bold 17.2pt) | max span bottom=746.8
+    *** RIGHT OVERFLOW by 0.8pt = 1.0px :: 'MERK ES DIR'
+  box x=403.9 y=790.6 w=316.9 right=720.8 bottom=925.2 | max span right=707.0 ('Wunschzettel · de surprise verkleidetes' NotoSansCJKsc-Regular 15.4pt) | max span bottom=890.8
+  box x=1079.6 y=483.6 w=316.9 right=1396.5 bottom=747.2 | max span right=1369.9 ("De schoen: 's avonds bij de deur, met" Newsreader16pt-Regular 16.1pt) | max span bottom=741.5
+  box x=1079.6 y=766.7 w=316.9 right=1396.5 bottom=1106.1 | max span right=1377.1 ('En jij? Zet jij je schoen met een wortel' Newsreader16pt-Regular 16.1pt) | max span bottom=1105.7
+  box x=66.0 y=1213.5 w=316.9 right=382.9 bottom=1326.0 | max span right=340.5 ('gestellt, wartend auf' NotoSansCJKsc-Regular 14.2pt) | max span bottom=1321.6
+  box x=403.9 y=1213.5 w=316.9 right=720.8 bottom=1326.0 | max span right=688.2 ('Die Karotte ist für das' NotoSansCJKsc-Regular 14.2pt) | max span bottom=1303.1
+  box x=741.8 y=1213.5 w=316.9 right=1058.6 bottom=1326.0 | max span right=1043.0 ('Wunschzettel: schreib auf,' NotoSansCJKsc-Regular 14.2pt) | max span bottom=1321.6
+  box x=1079.6 y=1213.5 w=316.9 right=1396.5 bottom=1326.0 | max span right=1372.9 ('ein bisschen neckisch' NotoSansCJKsc-Regular 14.2pt) | max span bottom=1321.6
+== P3 p3-cultuur.svg rects=2
+  box x=403.9 y=864.8 w=316.9 right=720.8 bottom=999.4 | max span right=706.2 ('Hinweis · de vestingstad Festungsstadt' NotoSansCJKsc-Regular 15.4pt) | max span bottom=965.0
+  box x=1079.6 y=447.8 w=316.9 right=1396.5 bottom=829.9 | max span right=1364.2 ('boot 10:15 uur, stoet 13:00 uur, 88e' Newsreader16pt-Regular 16.1pt) | max span bottom=822.1
+== P4 p4-sport.svg rects=2
+  box x=403.9 y=677.0 w=316.9 right=720.8 bottom=833.9 | max span right=701.2 ('Hinweis · de groepswinst Gruppensieg' NotoSansCJKsc-Regular 15.4pt) | max span bottom=799.5
+  box x=1079.6 y=443.7 w=316.9 right=1396.5 bottom=847.2 | max span right=1373.2 ('Stand na 4 wedstrijden: Nederland 8,' Newsreader16pt-Regular 16.1pt) | max span bottom=840.8
+== P5 p5-jongeren.svg rects=4
+  box x=403.9 y=485.5 w=316.9 right=720.8 bottom=892.9 | max span right=695.3 ('1. Kijk zondag om 20:00 uur op RTL 4' Newsreader16pt-Regular 15.8pt) | max span bottom=859.2
+  box x=403.9 y=901.9 w=316.9 right=720.8 bottom=1036.5 | max span right=690.1 ('Geschenk · het gedicht Gedicht · de' NotoSansCJKsc-Regular 15.4pt) | max span bottom=1002.1
+  box x=1079.6 y=150.0 w=316.9 right=1396.5 bottom=454.5 | max span right=1378.4 ('34 dagen op een onbewoond eiland in' Newsreader16pt-Regular 16.1pt) | max span bottom=430.8
+  box x=1079.6 y=474.0 w=316.9 right=1396.5 bottom=767.6 | max span right=1380.2 ('surprise met een gedicht? Schrijf twee' Newsreader16pt-Regular 16.1pt) | max span bottom=767.3
+== P6 p6-verdieping.svg rects=3
+  box x=403.9 y=567.6 w=316.9 right=720.8 bottom=724.4 | max span right=707.0 ('Wunschzettel · de surprise verkleidetes' NotoSansCJKsc-Regular 15.4pt) | max span bottom=690.0
+  box x=1079.6 y=150.0 w=316.9 right=1396.5 bottom=537.8 | max span right=1380.0 ('35' NotoSansCJKsc-Bold 14.6pt) | max span bottom=535.2
+  box x=1079.6 y=557.2 w=316.9 right=1396.5 bottom=789.0 | max span right=1432.7 ('DAFÜR ODER DAGEGEN?' NotoSansCJKsc-Bold 15.8pt) | max span bottom=781.9
+    *** RIGHT OVERFLOW by 36.2pt = 48.3px :: 'DAFÜR ODER DAGEGEN?'
+== P7 p7-taal.svg rects=3
+  box x=1079.6 y=150.0 w=316.9 right=1396.5 bottom=780.8 | max span right=1374.6 ('bezittelijk woord: «Ik zet mijn schoen.»' Newsreader16pt-Regular 15.4pt) | max span bottom=769.7
+  box x=1079.6 y=794.2 w=316.9 right=1396.5 bottom=1005.8 | max span right=1376.4 ('WORT DER WOCHE' NotoSansCJKsc-Bold 17.2pt) | max span bottom=1000.7
+  box x=1079.6 y=1019.2 w=316.9 right=1396.5 bottom=1445.6 | max span right=1373.4 ('Beispielbrief der Redaktion. Schickt uns' NotoSansCJKsc-Regular 15.0pt) | max span bottom=1428.5
+== P8 p8-toets.svg rects=0

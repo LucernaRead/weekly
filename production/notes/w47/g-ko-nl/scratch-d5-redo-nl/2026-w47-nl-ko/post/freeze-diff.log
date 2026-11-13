@@ -1,0 +1,11 @@
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +167 strings / -66 strings; CJK core 217 -> edition 228; added CJK chars: 209 {'매': 1, '주': 8, '발': 1, '행': 2, '네': 7, '덜': 7, '란': 7, '드': 7, '인': 1, '이': 7}; added Latin strings: 6 (unexpected 6)
+p2: +201 strings / -52 strings; CJK core 237 -> edition 305; added CJK chars: 289 {'\u3000': 1, '생': 1, '활': 1, '신': 6, '발': 3, '과': 2, '기': 14, '억': 1, '해': 4, '요': 9}; added Latin strings: 5 (unexpected 5)
+p3: +125 strings / -40 strings; CJK core 146 -> edition 210; added CJK chars: 198 {'\u3000': 1, '문': 1, '화': 1, '신': 1, '터': 1, '클': 1, '라': 1, '스': 2, '가': 1, '왔': 1}; added Latin strings: 1 (unexpected 1)
+p4: +123 strings / -40 strings; CJK core 148 -> edition 198; added CJK chars: 186 {'\u3000': 1, '스': 3, '포': 1, '츠': 1, '오': 1, '라': 1, '녜': 1, '와': 1, '네': 3, '이': 3}; added Latin strings: 4 (unexpected 4)
+p5: +214 strings / -56 strings; CJK core 230 -> edition 301; added CJK chars: 288 {'\u3000': 1, '청': 1, '소': 1, '년': 1, '로': 6, '빈': 12, '슨': 2, '변': 4, '장': 6, '선': 4}; added Latin strings: 7 (unexpected 7)
+p6: +177 strings / -45 strings; CJK core 205 -> edition 276; added CJK chars: 262 {'\u3000': 1, '심': 1, '층': 1, '읽': 2, '기': 15, '신': 2, '터': 4, '클': 1, '라': 1, '스': 2}; added Latin strings: 1 (unexpected 1)
+p7: +347 strings / -99 strings; CJK core 387 -> edition 494; added CJK chars: 482 {'\u3000': 1, '언': 2, '어': 13, '에': 19, '집': 2, '중': 1, '세': 3, '단': 2, '계': 2, '가': 7}; added Latin strings: 24 (unexpected 24)
+p8: +1004 strings / -433 strings; CJK core 1074 -> edition 1547; added CJK chars: 1533 {'\u3000': 1, '시': 23, '험': 1, '과': 16, '정': 8, '답': 5, '면': 8, '문': 7, '장': 12, '만': 5}; added Latin strings: 62 (unexpected 62)
+TOTAL added CJK characters: 3447
+TOTAL added Latin strings: 110 (unexpected 110)

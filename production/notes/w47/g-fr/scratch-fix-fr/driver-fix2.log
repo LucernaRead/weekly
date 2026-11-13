@@ -1,0 +1,33 @@
+===== 2026-w47-fr-nl fix2 14:40:08 =====
+gates rc=0
+=== SUMMARY 2026-w47-fr-nl/fix2 FAILFLAG=0 (rcs above; 0=pass) ===
+  !! HEAD TOO WIDE [P7-clinic]: CLINIQUE DES ERREURS　FOUTEN
+export rc=0
+text.md diff vs fix1: 4 lines (expect 0)
+855c855
+< ### BOÎTE À OUTILS　GEREEDSCHAPSKIST
+---
+> ### BOÎTE À OUTILS　GEREEDSCHAP
+--- post shas 2026-w47-fr-nl fix2 ---
+-rw-rw---- 1 root nogroup    46281 Nov 12 14:54 2026-w47-fr-nl.text.md
+-rw-rw---- 1 root nogroup  1621399 Nov 12 14:48 La-Lucerna-VOL4-fr-nl-web.pdf
+-rw-rw---- 1 root nogroup 17030024 Nov 12 14:46 La-Lucerna-VOL4-fr-nl.pdf
+45c0b11e87a71eeb71324081b502e739e12ad607971060067dc946e3c497b8a4  La-Lucerna
+fb98be3aa29271c5c741ca3684891e27a495db7ab756e929bea8a0174124ffe4  La-Lucerna
+ad506a8525192ead28eeab7b38d9b4950780a09e5b412b5dcf9ef6d1ab8e4d6d  2026-w47-f
+/dev/mapper/rv  150G   93G   56G  63% /home/hatch
+===== 2026-w47-fr-ru fix2 14:54:38 =====
+gates rc=0
+=== SUMMARY 2026-w47-fr-ru/fix2 FAILFLAG=0 (rcs above; 0=pass) ===
+run.log: 0 HEAD TOO WIDE / 0 FLOW OVERFLOW
+export rc=0
+text.md diff vs fix1: 0 lines (expect 0)
+--- post shas 2026-w47-fr-ru fix2 ---
+-rw-rw---- 1 root nogroup    50513 Nov 12 15:11 2026-w47-fr-ru.text.md
+-rw-rw---- 1 root nogroup  1882292 Nov 12 15:06 La-Lucerna-VOL4-fr-ru-web.pdf
+-rw-rw---- 1 root nogroup 17332080 Nov 12 15:01 La-Lucerna-VOL4-fr-ru.pdf
+038ee398d1173ea3f496d688ccfb2d53bfabecdaeb0150f7572542e873fc19c4  La-Lucerna
+f0e9d27b393412dc4869aeb95348a6b740fdf7ae8203f7c9f5fbbcc6fd53fb88  La-Lucerna
+3b6f2cf61934190ecbc5028cc7ea66a6a927aa45a55fa8922e59f2463cfc2350  2026-w47-f
+/dev/mapper/rv  150G   94G   56G  63% /home/hatch
+FIX2 DONE 15:12:01

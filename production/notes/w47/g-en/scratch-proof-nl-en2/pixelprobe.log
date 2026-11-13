@@ -1,0 +1,9 @@
+<stdin>:35: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+P2 EN-JIJ bottom: non-paper px in strip y[1445.75,1452.75] = 422 darkest=(243, 241, 233)
+P5 bottom: non-paper px in strip y[1023.5,1030.5] = 0 darkest=None
+P7 BRIEVEN bottom: non-paper px in strip y[1927.5,1934.5] = 0 darkest=None
+P4 HET-PROGRAMMA bottom (D11): non-paper px in strip y[1229.6,1236.6] = 0 darkest=None
+P3 col3 bottom (D11 x-check): non-paper px in strip y[1106.6,1113.6] = 0 darkest=None
+P1 word-box top strip (note above rule y=1853): non-paper px in strip y[1853,1860] = 423 darkest=(229, 226, 215)
+D11 lowest ink y (cards1x): 1228 px -> 1228.00 in SVG coords; box bottom 1229.6; margin 1.60px
+D11 lowest ink y (delivered150dpi): 1920 px -> 1228.75 in SVG coords; box bottom 1229.6; margin 0.85px

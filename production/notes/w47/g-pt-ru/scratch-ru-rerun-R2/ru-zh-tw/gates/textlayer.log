@@ -1,0 +1,12 @@
+pages 8 8
+page 1: print=2864 web=2864 multiset_identical=True byte_identical=True
+page 2: print=2934 web=2934 multiset_identical=True byte_identical=True
+page 3: print=2401 web=2401 multiset_identical=True byte_identical=True
+page 4: print=3009 web=3009 multiset_identical=True byte_identical=True
+page 5: print=2619 web=2619 multiset_identical=True byte_identical=True
+page 6: print=2413 web=2413 multiset_identical=True byte_identical=True
+page 7: print=3089 web=3089 multiset_identical=True byte_identical=True
+page 8: print=6515 web=6515 multiset_identical=True byte_identical=True
+print chars(non-ws): 25844 web: 25844
+multiset identical: True (per-page byte-identical also True)
+TEXTLAYER PASS

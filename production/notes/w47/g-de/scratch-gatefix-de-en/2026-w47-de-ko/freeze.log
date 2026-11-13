@@ -1,0 +1,12 @@
+$ /home/hatch/workspace/weekly-git/tools/venv/bin/python tools/freeze.py diff --core-svg /home/hatch/workspace/weekly-git/production/2026-w47/core-de/svg --edition-svg /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-ko/build-copy/svg --json /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/w47/scratch-gatefix-de-en/2026-w47-de-ko/freeze.json
+runtime: /home/hatch/workspace/weekly-git/tools/venv/bin/python | Pillow 13.0.0 | FreeType 2.14.3
+p1: +53 strings / -42 strings; CJK core 189 -> edition 224; added CJK chars: 206 {'주': 8, '간': 4, '독': 9, '일': 10, '인': 1, '이': 6, '읽': 2, '는': 1, '어': 8, '분': 4}; added Latin strings: 12 (unexpected 12)
+p2: +33 strings / -31 strings; CJK core 221 -> edition 260; added CJK chars: 244 {'\u3000': 1, '생': 1, '활': 1, '참': 2, '회': 2, '와': 2, '기': 3, '도': 3, '의': 5, '날': 6}; added Latin strings: 14 (unexpected 14)
+p3: +49 strings / -40 strings; CJK core 208 -> edition 314; added CJK chars: 299 {'\u3000': 1, '문': 7, '화': 1, '크': 6, '리': 7, '스': 13, '마': 7, '시': 5, '장': 10, '과': 1}; added Latin strings: 12 (unexpected 12)
+p4: +21 strings / -21 strings; CJK core 174 -> edition 188; added CJK chars: 174 {'\u3000': 1, '스': 3, '포': 1, '츠': 1, '결': 2, '과': 2, '와': 3, '리': 3, '그': 2, '복': 1}; added Latin strings: 9 (unexpected 9)
+p5: +45 strings / -38 strings; CJK core 210 -> edition 255; added CJK chars: 240 {'\u3000': 1, '젊': 1, '은': 5, '이': 4, '대': 3, '림': 3, '절': 3, '달': 2, '력': 2, '소': 4}; added Latin strings: 13 (unexpected 13)
+p6: +33 strings / -32 strings; CJK core 243 -> edition 275; added CJK chars: 259 {'\u3000': 1, '심': 2, '화': 1, '조': 5, '용': 4, '한': 7, '주': 4, '와': 1, '가': 9, '계': 3}; added Latin strings: 12 (unexpected 12)
+p7: +96 strings / -67 strings; CJK core 434 -> edition 490; added CJK chars: 468 {'\u3000': 1, '언': 2, '어': 7, '이': 15, '번': 5, '주': 10, '의': 12, '문': 5, '장': 4, '과': 2}; added Latin strings: 20 (unexpected 20)
+p8: +167 strings / -138 strings; CJK core 1434 -> edition 1529; added CJK chars: 1206 {'\u3000': 1, '연': 1, '습': 4, '과': 5, '정': 9, '답': 3, '최': 1, '종': 1, '테': 1, '스': 12}; added Latin strings: 110 (unexpected 110)
+TOTAL added CJK characters: 3096
+TOTAL added Latin strings: 202 (unexpected 202)
