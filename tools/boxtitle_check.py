@@ -74,7 +74,13 @@ def parse_slug(slug):
     """-> (target, reader, is_core)"""
     if slug.startswith("core-"):
         return slug[5:], None, True
-    rest = slug[len("2026-w47-"):] if slug.startswith("2026-w47-") else slug
+    # D17 (2026-11-13): accept W43/W45/W46 slugs too, not just W47 —
+    # otherwise target=None and the core对照 stays silently off.
+    rest = slug
+    for wk in ("2026-w43-", "2026-w45-", "2026-w46-", "2026-w47-"):
+        if slug.startswith(wk):
+            rest = slug[len(wk):]
+            break
     for t in TARGETS:
         if rest == t or rest.startswith(t + "-"):
             return t, rest[len(t) + 1:] or None, False
