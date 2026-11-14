@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　PALAVRAS", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　PALAVRAS", 20, "sans", True, OLIVE)
 mots5 = [
     "un écran — uma tela", "un réseau social — uma rede social", "viral — viral",
     "un abonné — um seguidor", "partager — compartilhar", "un commentaire — um comentário",
@@ -150,7 +150,7 @@ for lab, val, col in bars:
     byy += 52
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE　O GRÁFICO", 25)
+e6.head("LIRE LE GRAPHIQUE　O GRÁFICO", 23)
 e6.expl("Responda olhando a pesquisa de treino acima.")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A está em primeiro com 28 %",
       "Qui est en tête du sondage ?", size=23)
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　PALAVRAS", [
     ("devancer — ultrapassar · creuser l'écart — abrir vantagem", "serif", False, INK, 21.5, 1.42),
     ("stagner — estagnar · un échantillon — uma amostra", "serif", False, INK, 21.5, 1.42),
     ("un parti — um partido · se qualifier — avançar ao turno seguinte", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=20)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl("Complete com o comparativo.")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("Três reformas que moldaram a eleição francesa de hoje.", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

@@ -46,7 +46,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head("BOÎTE À OUTILS　STRUMENTI", 27)
+cD.head("BOÎTE À OUTILS　STRUMENTI", 25)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Il est dix heures moins le quart. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Les vacances commencent depuis samedi... » Non ! « Je suis en vacances depuis samedi. »", 22.5)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　CLINICA", 25)
+cf.head("CLINIQUE DES ERREURS　CLINICA", 22)
 cf.expl("Ogni frase ha un errore: trovalo e correggilo.")
 cf.ex("A2", "改错", "J'ai vingt ans.", "l'età si dice con avoir, non con être",
       "✗ « Je suis vingt ans. »", instr="Correggi", size=22.5)

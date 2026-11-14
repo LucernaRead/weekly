@@ -24,7 +24,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit = sie schreibt"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A　TEXTE À TROUS　LÜCKENTEXT", 24)
+bf.head("A　TEXTE À TROUS　LÜCKENTEXT", 22)
 bf.para(f"Léa a quinze ans. Le ({cnums[0]})___ 1er novembre, elle se lève tôt : c'est la Toussaint. Avec sa famille, elle va au ({cnums[1]})___. Sa grand-mère porte un bouquet de ({cnums[2]})___, les fleurs du souvenir. « On les pose sur la ({cnums[3]})___ de ton grand-père », dit sa mère. L'après-midi, Léa se ({cnums[4]})___ et lit un roman en français avec un dictionnaire. Le soir, elle pense : « J'ai pensé aux morts, mais j'ai aussi ({cnums[5]})___ ma famille vivante. » Demain, les cours ({cnums[6]})___ : les vacances sont finies. Mais Léa garde une phrase de son roman et elle l'({cnums[7]})___ dans son cahier.", 21.5)
 bf.bridge("Auswahl:")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　CHOIX MULTIPLE　ANKREUZEN", 24)
+bf.head("B　CHOIX MULTIPLE　ANKREUZEN", 21)
 mcq = [
     ("A2", "B", "7 h 30 = et demie", "Il est sept heures ___. (7 h 30) A. et quart · B. et demie · C. moins le quart"),
     ("A2", "A", "nous → allons", "Dimanche, nous ___ reculer les horloges. A. allons · B. allez · C. vont"),
@@ -81,7 +81,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20.5)
 
 # ---- E. translation ----
-bf.head("E　TRADUCTION　ÜBERSETZUNG", 24)
+bf.head("E　TRADUCTION　ÜBERSETZUNG", 22)
 e_items = [
     ("B2", "Eine Umfrage zu lesen ist schon eine Form politischer Beteiligung.", "lire un sondage = eine Umfrage lesen",
      "Übersetzen Sie ins Deutsche: « Lire un sondage, c'est déjà faire de la politique. »"),
@@ -114,7 +114,7 @@ dlg_defs = [
     ("A2", "voyage", "Bon voyage ! = Gute Reise!"),
 ]
 gnums = [reg_ex(lv, "对话补全", k, nt) for lv, k, nt in dlg_defs]
-bf.head("G　DIALOGUE　DIALOG ERGÄNZEN", 24)
+bf.head("G　DIALOGUE　DIALOG ERGÄNZEN", 21)
 bf.para(f"— Bonjour madame, un billet pour Lyon, s'il vous plaît. — Pour quel jour ? — Pour ({gnums[0]})___, le 24 octobre : je pars chez mes grands-parents pour la Toussaint. Je dois aussi acheter des ({gnums[1]})___ pour le cimetière. — Les chrysanthèmes sont à gauche. Vous ({gnums[2]})___ le train de 9 h 15 ? — Oui. Il arrive à quelle heure à Lyon ? — À 11 h 30. — Ah oui, cette nuit, on ({gnums[3]})___ les horloges d'une heure. Je vais dormir plus ! Voici vos billets. Bon ({gnums[4]})___ ! — Merci, au revoir !", 21.5)
 bf.end_report()
 

@@ -12,6 +12,8 @@
 | 每版页脚 | 左：`Le Lucerna · FRENCH WEEKLY VOL.2 · TEXT IN FRENCH · EXPLANATIONS IN ENGLISH`；右：`Page N of 8` |
 | 讲解层 | 全部译注（NOTE · 前缀）、词表注释、题干说明（Fill in / Rewrite / Match / Correct it）、栏目说明、易错诊所说明、读者园地小墨点评、下期预告附注、第 8 版全部答案简析——**100% 英语** |
 | 栏目头 | 法语 + 英语双语（与中文版法语 + 中文的体例一致），如 `À VOUS ! · YOUR TURN`、`DIRE L'HEURE · TELLING THE TIME` |
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-en.pdf` **8,679,538 字节**（SHA-256 `118eab90ff0ef4f62335b86ad642de1b4968d3f482e42cd33689cd4a47784bb2`）；网 `2026-w43-fr-en.web.pdf` **1,704,244 字节**（SHA-256 `f1f63cc2376ac864cadcd644cef633b4c47462dba5c25bae4421c16861b5933b`，< 7 MB）；text.md 与已发版 12-line gloss-leak diff（SHA-256 `67adbf9c9b4425b7cd9594837884e8f0f339dc2fa80428bf710131f641b30a0a`）。D5 前值：印 9,778,091 B（KIT 未记 SHA）、网 1,739,849 字节（`16cc9b66…`，issues 已发版）。
+
 
 ## 二、实测量化（与核心 KIT 同一口径：8 个 SVG 全部文本节点实测）
 
@@ -67,3 +69,35 @@
 **标记保留（未改，说明理由）**：① 第 7 版金句栏题注英文作 « PHRASES OF THE WEEK »，未直译核心题注中「（全部出自本期文章）」一语——该声明在本版同页工具箱附注中以英文完整出现（« Every phrase of the week comes from an article in this issue »），信息无缺失，属讲解层版面适配。② P2 « ET VOUS ? » 框英语附注为两行摘要（构建方第五节裁定 3 已披露，周日起床时间一问保留在法语正文内），与核心版附注体例一致。
 
 **最终结论：修正后完整一轮全量校对零问题，本版定稿。** 交付物：`files/weekly-report-fr-en/`（svg/ 8 · cards/ 8 · Le-Lucerna-VOL2-EN.pdf 9,778,091 字节 · Le-Lucerna-VOL2-EN-web.pdf 7,170,373 字节 · 本文件）。
+
+## 七、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-en/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-en.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader en --week 2026-w43`，装后 `_D5_READER = "latin"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-en/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 545、西里尔 0、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 8 项（共用 5 + chart 25→22、B2 27→25、battE 24→23）；箱标题 7 处（COMMENTATEUR 20、TROIS DATES 21、scrutin 22（run3，boxtitle 独报 +1.5px）、CONTENTS 24→23、zoom 21、dates 22、écrans 22）；spill ×2；run2 P2 LINEX → run3 消除。
+
+P8：199→196 行，距页脚线余量 33.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,704,244 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（42 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 107,681 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-en.pdf` 8,679,538 字节（`118eab90…`）；
+网 `2026-w43-fr-en.web.pdf` 1,704,244 字节（`f1f63cc2…`）；text.md 12-line gloss-leak diff
+（`67adbf9c…`）。练习仍为 145 题。

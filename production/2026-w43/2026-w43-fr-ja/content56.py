@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　画面の言葉", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　画面の言葉", 21, "sans", True, OLIVE)
 mots5 = [
     "un écran — 画面", "un réseau social — SNS", "viral — バズった",
     "un abonné — フォロワー、登録者", "partager — シェアする", "un commentaire — コメント",
@@ -150,7 +150,7 @@ for lab, val, col in bars:
     byy += 52
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE　グラフを読む", 25)
+e6.head("LIRE LE GRAPHIQUE　グラフを読む", 23)
 e6.expl("上の練習用グラフを見て答えなさい。")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A が 28 % で首位",
       "Qui est en tête du sondage ?", size=23)
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　選挙の言葉", [
     ("devancer — 追い抜く · creuser l'écart — 差を広げる", "serif", False, INK, 21.5, 1.42),
     ("stagner — 停滞 · un échantillon — サンプル", "serif", False, INK, 21.5, 1.42),
     ("un parti — 政党 · se qualifier — 次のラウンドへ進む", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=21)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl("比較級で文を完成させなさい。")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("3つの改革が今日のフランスの選挙を作りました。", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

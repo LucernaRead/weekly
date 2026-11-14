@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　WÖRTER", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　WÖRTER", 21, "sans", True, OLIVE)
 mots5 = [
     "un écran — ein Bildschirm", "un réseau social — soziales Netzwerk", "viral — viral gegangen",
     "un abonné — ein Abonnent", "partager — teilen", "un commentaire — ein Kommentar",
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　WÖRTER", [
     ("devancer — überholen · creuser l'écart — den Abstand ausbauen", "serif", False, INK, 21.5, 1.42),
     ("stagner — stagnieren · un échantillon — eine Stichprobe", "serif", False, INK, 21.5, 1.42),
     ("un parti — eine Partei · se qualifier — weiterkommen", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=21)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.bridge("Ergänzen Sie mit dem Komparativ.")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("Drei Reformen, die Frankreichs Wahlen bis heute prägen.", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

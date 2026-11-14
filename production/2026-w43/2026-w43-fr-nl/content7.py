@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head('CLINIQUE DES ERREURS　PAS OP!', 25)
+cf.head('CLINIQUE DES ERREURS　PAS OP!', 22)
 cf.expl('Elke zin heeft een fout: vind hem en verbeter hem.')
 cf.ex("A2", "改错", "J'ai vingt ans.", 'leeftijd zeg je met avoir, niet met être',
       "✗ « Je suis vingt ans. »", instr='Corrigeer', size=22.5)

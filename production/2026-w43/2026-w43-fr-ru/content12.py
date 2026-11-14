@@ -131,7 +131,7 @@ f2.para("Ce numéro suit le rythme de la saison : les vacances, la Toussaint, le
 f2.end_report()
 # col 3 EN BREF
 bx = COLX[3]
-p.rect(bx, 1874, CW, 416, fill=BOX)
+p.rect(bx, 1874, CW, 434, fill=BOX)
 p.text(bx + 22, 1914, 'EN BREF　КОРОТКО', 24, "sans", True, OLIVE)
 brefs = [
     ("VACANCES", "Les vacances de la Toussaint ont commencé samedi 17. Les cours reprennent le lundi 2 novembre."),
@@ -194,14 +194,14 @@ sav = ["Le changement d'heure existe en France depuis 1976, après le choc pétr
        "Dans toute l'Union européenne, on change d'heure le même week-end.",
        "Dimanche matin, vous gagnez une heure de sommeil. Profitez-en pour lire !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
-ey3 = sy3 + sh + 26
+ey3 = sy3 + sh + 10
 etvous = "Dans votre pays, change-t-on d'heure ? Le dimanche, à quelle heure vous levez-vous ? Écrivez deux phrases en français et envoyez-les à la rédaction : les meilleures paraîtront dans le prochain numéro (page 7, « Le courrier des lecteurs »)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap('У вас переводят часы? Во сколько вы встаёте в воскресенье? Пишите нам.', "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")

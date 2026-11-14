@@ -115,6 +115,8 @@ p8.py compare keydiff = **{71, 72, 73, 132, 145}**，與 FR 家族既定模式�
 | Le-Lucerna-VOL2-ZHTW-web.pdf（網頁，8 版，1950×2700 pt，JPEG q85） | 6,970,676 | 998919f94f3519eee48908e5f1dbcaeef3b39dd098a0fb9d1d735cf876ecc15f |
 
 （針腳為獨立校對修復後終值，2026-10-22 自磁碟實測，見 §9。建造者原針腳：印刷 25,233,749 / 35ae4ceb…、網頁 5,736,759 / 0c426ca2…。）
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-zh-tw.pdf` **10,246,221 字节**（SHA-256 `30a5c631e291dc4e2422736381ff0f4f49abe53c617b5c47f025f440074dd274`）；网 `2026-w43-fr-zh-tw.web.pdf` **2,203,628 字节**（SHA-256 `cd40d961d75f6029b1bf75745655a832942803e9bf3603eac79ab39d2033a80f`，< 7 MB）；text.md 与已发版 BYTE-IDENTICAL（SHA-256 `96cc6f49f6191cff6862bf772d4e6d3afc1b5432ed1856fffebf6046dac0e35a`）。D5 前值：印 25,233,671 B（SHA-256 `74c6c657cb718bc8f08440517baedb4795e7b10ff68b0e2d74ee8f96cb1b6074`）、网 2,667,349 字节（`feb8d187…`，issues 已发版）。
+
 
 SVG sha256（前 16 位）：p1 e48b82fd72f8e469 · p2 0beb66d82f7c0692 · p3 940f1723a03638e4 · p4 6c18cf92b8f3ad5b · p5 504d4bed0ca251bd · p6 a89521af5668cda8 · p7 9135fa6b68c5aa49 · p8 d133d33b85d960a5（校對修復後；修復前 708672f46d3d4cde）。
 
@@ -136,3 +138,35 @@ SVG sha256（前 16 位）：p1 e48b82fd72f8e469 · p2 0beb66d82f7c0692 · p3 94
 **禁則與幾何兜底**：標點感知口徑復掃 — 標點孤行元素 核心 7 → 本版 0；建造者 7 處修復逐項在版實證；行首收尾標點除 13 處 «·» 分隔符起行（核心同式，裁定保留）外 = 0；行尾開括弧 2 處為 P8 答案流折行（核心同式 3 處），非缺陷。同行墨跡對（P2 «Il est dix heures et quart.» × «Exemples…»）：建造者 58×21 為 advance 框口徑，校對員 PIL 真墨盒 + 卡面像元復核 — 兩串間有清晰白隙，真墨不交疊，且幾何與核心逐位相同（凍結正文），occlusion TEXTX = 0 為準。P6 圖表：rect/line 幾何與核心全等（33+7），標籤 28/24/17/11/9/11 凍結，卡面肉眼核條長成比例、標籤無遮擋。其餘頁 rect/line 差異僅為級別籤/金線隨講解折行位移（遮擋審計 0 旗）。P4 «HEAD TOO WIDE» 為核心自帶凍結項，復核保留。雜散引號：《 》「」'» 逐版計數與核心全等。
 **其餘**：svglib 與核心逐行 diff 恰登記 4 行（TC 面，_IDX=3）；P7 金句 7 句 sent 字段與核心逐字全等、頁標籤 9=9 分佈全等、gloss 逐條點數同數同序 [6,7,6,7,6,5]；日曆 Europe/Paris 對照真實 2026 全合（10/24 六、10/25 日撥鐘、10/31 六、11/1 日、11/2 一；#109/#140 鍵與模型文 «Le dimanche 25 octobre» 均合）；VOL.3 預告凍結在位（P7 同座標）；bridge 于 operative code = 0（transform.py 內核心原串僅作搜索模式，confined 於 scratch 且已披露）；他列家具 = 0。備份：修復前 SVG/PDF/P8 卡存 hidden_files/proof-fr-zh-tw/prefix-backup/（§8 所記 fr-zh-tw-final-render-backup 路徑不存在，併此更正）。
 **終值針腳**：印刷 25,233,671 B / 74c6c657cb718bc8f08440517baedb4795e7b10ff68b0e2d74ee8f96cb1b6074（1462.5×2025 pt）；網頁 6,970,676 B / 998919f94f3519eee48908e5f1dbcaeef3b39dd098a0fb9d1d735cf876ecc15f（1950×2700 pt，全幅卡 JPEG q85 重建 — 建造者 5,736,759 B 之壓縮管線未留存於 build 目錄，版面幾何與內容全等）。
+
+## §10 D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-zh-tw/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-zh-tw.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader zh-tw --week 2026-w43`，装后 `_D5_READER = "cjk"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-zh-tw/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 413、西里尔 0、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 6 项（共用 5 + clinic 25→23）；箱标题 3 处（COMMENTATEUR 20、TROIS DATES 21、P5 螢幕詞表 22）；spill ×2；run2 P2 LINEX → run3 消除。
+
+P8：203→197 行，距页脚线余量 32.7→53.8 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（2,203,628 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（44 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 102,508 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-zh-tw.pdf` 10,246,221 字节（`30a5c631…`）；
+网 `2026-w43-fr-zh-tw.web.pdf` 2,203,628 字节（`cd40d961…`）；text.md BYTE-IDENTICAL
+（`96cc6f49…`）。练习仍为 145 题。

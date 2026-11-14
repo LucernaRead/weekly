@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, 'LES MOTS DES ÉCRANS　화면 단어장', 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, 'LES MOTS DES ÉCRANS　화면 단어장', 21, "sans", True, OLIVE)
 mots5 = [
     'un écran — 화면', 'un réseau social — 소셜 네트워크', 'viral — 입소문이 난',
     'un abonné — 구독자, 팔로워', 'partager — 공유하다', 'un commentaire — 댓글',
@@ -173,8 +173,8 @@ g.box('LES MOTS DU SCRUTIN　선거 단어장', [
     ("devancer — 추월하다 · creuser l'écart — 격차를 벌리다", "serif", False, INK, 21.5, 1.42),
     ('stagner — 정체하다 · un échantillon — 표본', "serif", False, INK, 21.5, 1.42),
     ('un parti — 정당 · se qualifier — 다음 단계에 진출하다', "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=21)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl('비교급으로 문장을 완성하세요.')
 g.ex("B2", '문장 완성', "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ('세 번의 개혁이 오늘의 프랑스 대선을 만들었어요.', "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

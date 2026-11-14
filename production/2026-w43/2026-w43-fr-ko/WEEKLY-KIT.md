@@ -12,6 +12,8 @@
 | cards ×8（cards/，1950×2700 PNG） | — | — |
 | Le-Lucerna-VOL2-KO.pdf（印刷） | 16,642,695 | e4e5b0e627e7d13ff7d5ed6111030997342be6dbb5b04b6ddc87fdbee5eb8c77 |
 | Le-Lucerna-VOL2-KO-web.pdf（网页，JPEG q85） | 5,782,068（<10 MB ✓） | 780fc874c22df11132ebbd07326087db788b663da69248297f3a6c3e11dff2e6 |
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-ko.pdf` **12,023,580 字节**（SHA-256 `57bdc389e06e9e610f14e5455aa8844470e70e805b476635ccd96afde1b71f31`）；网 `2026-w43-fr-ko.web.pdf` **2,071,490 字节**（SHA-256 `93121c7ee6b69f47f39a5843d7e6461e7e0d92435ab612bac782143fce15b2e5`，< 7 MB）；text.md 与已发版 BYTE-IDENTICAL（SHA-256 `b075a5cc9ac05fe361b1b203e3bb1c17ae151d2daacf281bf24c723ca45c9bad`）。D5 前值：印 16,642,695 B（SHA-256 `e4e5b0e627e7d13ff7d5ed6111030997342be6dbb5b04b6ddc87fdbee5eb8c77`）、网 2,168,416 字节（`5d3de9d1…`，issues 已发版）。
+
 
 建造目录：hidden_files/weekly-report-fr-ko-build/（核心 build 的改道副本，OUT 指向 files/weekly-report-fr-ko/；scratch/ 内含 mapping_ko.py 331 条映射、transform_ko.py、build.py 单进程驱动、render.py、linescan.py、注册表 dump 两份）。
 
@@ -116,3 +118,35 @@
 - **最终针脚（磁盘实测，与建造者自报逐字全合）**：网页版 Le-Lucerna-VOL2-KO-web.pdf **5,782,068 B**、sha256 `780fc874c22df11132ebbd07326087db788b663da69248297f3a6c3e11dff2e6`（<10 MB）、8 页；印刷版 Le-Lucerna-VOL2-KO.pdf **16,642,695 B**、sha256 `e4e5b0e627e7d13ff7d5ed6111030997342be6dbb5b04b6ddc87fdbee5eb8c77`、8 页；cards ×8。
 
 **结论：PASS，可由主线以 slug `2026-w43-fr-ko` 经 tools/insert.py 入仓。**
+
+## §9 D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-ko/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-ko.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader ko --week 2026-w43`，装后 `_D5_READER = "cjk"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-ko/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 419、西里尔 0、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 5 项（共用 5）；箱标题 5 处（COMMENTATEUR 20、TROIS DATES 21、scrutin 21、sport 22、écrans 21）；spill ×2；run2 P2 LINEX ×5 → run3 消除。
+
+P8：200→198 行，距页脚线余量 32.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（2,071,490 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（54 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 102,633 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-ko.pdf` 12,023,580 字节（`57bdc389…`）；
+网 `2026-w43-fr-ko.web.pdf` 2,071,490 字节（`93121c7e…`）；text.md BYTE-IDENTICAL
+（`b075a5cc…`）。练习仍为 145 题。

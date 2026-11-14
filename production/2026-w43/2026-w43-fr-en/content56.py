@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　WORDS", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　WORDS", 22, "sans", True, OLIVE)
 mots5 = [
     "un écran — a screen", "un réseau social — a social network", "viral — viral, gone viral",
     "un abonné — a subscriber", "partager — to share", "un commentaire — a comment",
@@ -150,7 +150,7 @@ for lab, val, col in bars:
     byy += 52
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE　THE CHART", 25)
+e6.head("LIRE LE GRAPHIQUE　THE CHART", 22)
 e6.bridge("Answer from the practice poll chart above.")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A leads with 28 %",
       "Qui est en tête du sondage ?", size=23)
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　WORDS", [
     ("devancer — to move ahead · creuser l'écart — to widen the gap", "serif", False, INK, 21.5, 1.42),
     ("stagner — to flatline · un échantillon — a sample", "serif", False, INK, 21.5, 1.42),
     ("un parti — a party · se qualifier — to go through", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=22)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.bridge("Complete with the comparative.")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("Three reforms that shaped today's French elections.", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

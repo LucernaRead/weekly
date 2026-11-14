@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　易错诊所", 25)
+cf.head("CLINIQUE DES ERREURS　易错诊所", 23)
 cf.bridge("每句有一处错误：找出来并改正。")
 cf.ex("A2", "改错", "J'ai vingt ans.", "年龄用 avoir，不用 être",
       "✗ « Je suis vingt ans. »", instr="改错", size=22.5)

@@ -35,7 +35,7 @@ cB.box("LA PHRASE EXEMPLE", [
 cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
-cC.head("NIVEAU B2　THE CHALLENGE", 27)
+cC.head("NIVEAU B2　THE CHALLENGE", 25)
 cC.head("EXPRIMER UNE OPINION", 24)
 cC.para("À mon avis, ... · Selon les chiffres, ... · D'après ce sondage, ... Pour commencer une phrase d'opinion, ces trois portes sont toujours ouvertes.", 22.5)
 cC.head("IL SEMBLE QUE + SUBJONCTIF", 24)

@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　間違い", 25)
+cf.head("CLINIQUE DES ERREURS　間違い", 24)
 cf.expl("各文に1か所ずつ間違いがあります。見つけて直しなさい。")
 cf.ex("A2", "改错", "J'ai vingt ans.", "年齢の表現では avoir を使い、être は使いません",
       "✗ « Je suis vingt ans. »", instr="誤り直し", size=22.5)

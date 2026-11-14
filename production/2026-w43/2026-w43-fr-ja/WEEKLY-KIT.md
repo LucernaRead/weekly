@@ -18,7 +18,9 @@
 
 - 练习总量 **145**（A2 55 · B1 65 · B2 25，核心继承；分级/页码/题型字段未动；分页 10/16/18/18/17/18/11/37）。
 - 印刷 PDF `Le-Lucerna-VOL2-JA.pdf`：**26,037,458 B**，sha256 `53012f0e202cfb3e585abb48bc58d2969f7dfdee8be08a72972849af6116e298`（校对修复后终值，见 §9；建造者原值 26,037,083 B / 28bd9a61… 已被取代）
-- 网页 PDF `Le-Lucerna-VOL2-JA-web.pdf`：**4,296,118 B**（< 10 MB），sha256 `8cff6207cddb5be8e3c40ee2b93093b4cc0b20376b72201e995d23879fac9542`（校对修复后终值，见 §9；建造者原值 4,295,402 B / cd82846c… 已被取代）
+- 网页 PDF `Le-Lucerna-VOL2-JA-web.pdf`：**4,296,118 B**（< 10 MB），sha256 `8cff6207cddb5be8e3c40ee2b93093b4cc0b20376b72201e995d23879fac9542`
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-ja.pdf` **16,059,529 字节**（SHA-256 `57c0023f64e72d0f5c75e3e4aaabfc6b29f2c65f3d372fb20afa84bed174a825`）；网 `2026-w43-fr-ja.web.pdf` **2,266,162 字节**（SHA-256 `c363c66fc5534ab40dc2687fbbf4e4b86d30d2ca82791729080420c3557428e9`，< 7 MB）；text.md 与已发版 12-line gloss-leak diff（SHA-256 `ef95d224c8663206a20783e0f6dbfc250e3826f59ffb1c26338d5e2e1a5436ee`）。D5 前值：印 26,037,458 B（SHA-256 `53012f0e202cfb3e585abb48bc58d2969f7dfdee8be08a72972849af6116e298`）、网 2,481,636 字节（`5f2bf709…`，issues 已发版）。
+（校对修复后终值，见 §9；建造者原值 4,295,402 B / cd82846c… 已被取代）
 - 渲染配方与 EN×JA 一致（`render.py`）：CairoSVG 卡片 1950×2700 → pypdf 印刷本；网页本 = 卡片缩至 1400 宽 JPEG q85。
 - 文件名照 FR 家族扇出先例（FR×RU：`Le-Lucerna-VOL2-RU.pdf` / `-web.pdf`）。
 
@@ -115,3 +117,35 @@
 - **P7**：页标签分布 {(1)×1,(2)×3,(3)×1,(4)×1,(5)×1,(6)×2} 与核心全合；7 短语各带 «文法｜» 语法行（核心 7 条 «语法点｜» 逐条对应，无掉条）；VOL.3 预告日语完整（Halloween 10-31 土曜、諸聖人 11-01 日曜、冬時間第一週——日历 Europe/Paris 实测 2026-10-31 Sat、11-01 Sun、10-25 Sun、10-24 Sat（#140）、10-17 Sat 全部吻合）。
 - **残留全扫**：中文讲解残留 0（同形 7 串均日语固有表记，见 §8）；荷/俄家具 0；禁用术语 paper/KIT/operative code = 0（scratch 转换脚本内的核心原串引用按 FR×RU 先例属披露例外）。
 - **终值针脚（实测，取代 §2 建造者原值）**：印刷 PDF 26,037,458 B / sha256 `53012f0e…6e298`；网页 PDF 4,296,118 B / sha256 `8cff6207…ac9542`；两 PDF 均 8 页；cards 8 张；SVGs 8。
+
+## 10、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-ja/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-ja.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader ja --week 2026-w43`，装后 `_D5_READER = "cjk"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-ja/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 423、西里尔 0、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 7 项（共用 5 + chart 25→23、clinic 25→24）；箱标题 6 处（COMMENTATEUR 20、TROIS DATES 21、scrutin 21、fêtes 22、sport 21、écrans 21）；spill ×2；run2 P2 LINEX ×3 → run3 消除。
+
+P8：199→196 行，距页脚线余量 32.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（2,266,162 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（38 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 102,452 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-ja.pdf` 16,059,529 字节（`57c0023f…`）；
+网 `2026-w43-fr-ja.web.pdf` 2,266,162 字节（`c363c66f…`）；text.md 12-line gloss-leak diff
+（`ef95d224…`）。练习仍为 145 题。

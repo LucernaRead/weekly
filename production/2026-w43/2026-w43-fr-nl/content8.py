@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head('B　CHOIX MULTIPLE　MEERKEUZE', 24)
+bf.head('B　CHOIX MULTIPLE　MEERKEUZE', 21)
 mcq = [
     ("A2", "B", "7 h 30 = et demie", "Il est sept heures ___. (7 h 30) A. et quart · B. et demie · C. moins le quart"),
     ("A2", "A", "nous → allons", "Dimanche, nous ___ reculer les horloges. A. allons · B. allez · C. vont"),
@@ -96,7 +96,7 @@ for lv, k, nt, body in e_items:
     bf.ex(lv, "翻译", k, nt, body, size=20.5)
 
 # ---- F. matching ----
-bf.head('F　LES MOTS　WOORDENSCHAT', 24)
+bf.head('F　LES MOTS　WOORDENSCHAT', 23)
 bf.match_set("B1", "词汇配对",
              ["un scrutin", "devancer", "un cimetière", "une console"],
              ["un vote organisé", "passer devant quelqu'un", "le lieu où sont les tombes",

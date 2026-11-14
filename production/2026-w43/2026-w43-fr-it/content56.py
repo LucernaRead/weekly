@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　LESSICO", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　LESSICO", 21, "sans", True, OLIVE)
 mots5 = [
     "un écran — uno schermo", "un réseau social — un social network", "viral — virale",
     "un abonné — un follower", "partager — condividere", "un commentaire — un commento",
@@ -150,7 +150,7 @@ for lab, val, col in bars:
     byy += 52
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE　IL GRAFICO", 25)
+e6.head("LIRE LE GRAPHIQUE　IL GRAFICO", 22)
 e6.expl("Rispondi guardando il sondaggio di prova qui sopra.")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A è primo con il 28 %",
       "Qui est en tête du sondage ?", size=23)
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　LESSICO", [
     ("devancer — superare · creuser l'écart — allargare il distacco", "serif", False, INK, 21.5, 1.42),
     ("stagner — ristagnare · un échantillon — un campione", "serif", False, INK, 21.5, 1.42),
     ("un parti — un partito · se qualifier — passare al turno successivo", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=22)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl("Completa con il comparativo.")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -204,7 +204,7 @@ g.end_report()
 
 # right half, col 3: micro-drills + history box + big number + débat
 g2 = Flow(p, [(COLX[3], CW)], 200, 2560, tag="P6-right3")
-g2.head("MICRO-DRILLS　ALLENAMENTO", 25)
+g2.head("MICRO-DRILLS　ALLENAMENTO", 23)
 g2.expl("Completa le frasi sull'elezione.")
 g2.ex("B2", "完成句子", "universel", "suffrage universel = suffragio universale diretto",
       "Le président est élu au suffrage ___ direct.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("Tre riforme che hanno dato forma all'elezione francese di oggi.", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　LÉXICO", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　LÉXICO", 22, "sans", True, OLIVE)
 mots5 = [
     "un écran — una pantalla", "un réseau social — una red social", "viral — viral",
     "un abonné — un seguidor", "partager — compartir", "un commentaire — un comentario",
@@ -150,7 +150,7 @@ for lab, val, col in bars:
     byy += 52
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], 1990, 2560, tag="P6-chart-ex")
-e6.head("LIRE LE GRAPHIQUE　EL GRÁFICO", 25)
+e6.head("LIRE LE GRAPHIQUE　EL GRÁFICO", 22)
 e6.expl("Responde mirando la encuesta de práctica de arriba.")
 e6.ex("B2", "图表读数", "Le candidat A, avec 28 %", "A va primero con el 28 %",
       "Qui est en tête du sondage ?", size=23)
@@ -173,8 +173,8 @@ g.box("LES MOTS DU SCRUTIN　LÉXICO", [
     ("devancer — adelantar · creuser l'écart — abrir brecha", "serif", False, INK, 21.5, 1.42),
     ("stagner — estancarse · un échantillon — una muestra", "serif", False, INK, 21.5, 1.42),
     ("un parti — un partido · se qualifier — pasar a la siguiente vuelta", "serif", False, INK, 21.5, 1.42),
-])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+], tsize=22)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl("Completa con el comparativo.")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("Tres reformas que dieron forma a la elección francesa de hoy.", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

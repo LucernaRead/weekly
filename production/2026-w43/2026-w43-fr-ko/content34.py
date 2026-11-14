@@ -47,7 +47,7 @@ f.ex("B1", '문장 바꾸기', "Les feuilles ne sont plus vertes en automne.", '
      "(plus) Les feuilles sont vertes en automne. → ___", instr='바꿔 쓰기')
 f.ex("B1", '문장 바꾸기', "Le 1er novembre n'est pas un jour de travail pour tous.", "n'est pas = ~가 아니다",
      "(pas) Le 1er novembre est un jour de travail pour tous. → ___", instr='바꿔 쓰기')
-f.head("HALLOWEEN : LA FÊTE QUI DIVISE", 25)
+f.head("HALLOWEEN : LA FÊTE QUI DIVISE", 22)
 f.para("Le 31 octobre, c'est Halloween. Les enfants se déguisent — sorcières, fantômes, super-héros — et ils frappent aux portes : « Des bonbons ou un sort ! » On leur donne des bonbons, et tout le monde rit.", 23.5)
 f.para("En France, la fête vient des États-Unis. Certains l'adorent : c'est joyeux, coloré, parfait pour les enfants. D'autres disent : « Ce n'est pas notre tradition, c'est du commerce. » Mais dans les écoles et les villages, les citrouilles orange sont de plus en plus nombreuses. Cette année, Halloween tombe un samedi, pendant les vacances : les familles auront le temps de préparer la fête. Et vous, pour ou contre ?", 23.5)
 f.expl('바로 연습 · Halloween 작은 문제.')
@@ -63,7 +63,7 @@ f.ex("B1", '객관식', "B", 'diviser = 의견이 갈리다',
      "« La fête divise » signifie... A. tout le monde est d'accord · B. les avis sont partagés · C. personne ne vient")
 f.ex("B1", '문장 완성', "déguisements", '사탕과 분장 의상을 사요',
      "Pour la fête, on achète des bonbons et des ___.")
-f.head("LA TOUSSAINT DANS LE MONDE", 25)
+f.head("LA TOUSSAINT DANS LE MONDE", 24)
 f.para("Le 1er novembre n'est pas férié qu'en France : la Belgique fête aussi la Toussaint, et les familles y visitent les cimetières avec des chrysanthèmes. Le mot « Toussaint » signifie « tous les saints » : la fête honore tous les saints, connus et inconnus.", 23.5)
 f.para("Le 2 novembre, au Mexique, c'est le Día de los Muertos, le Jour des Morts : les familles préparent des autels avec des photos, des fleurs orange et les plats préférés des disparus. L'ambiance est très différente : musique, couleurs et fête — mais l'idée est la même : ne pas oublier ceux qu'on aime.", 23.5)
 f.para("Et le 31 octobre au soir, pendant que les enfants français demandent des bonbons, beaucoup de familles pensent déjà au lendemain : acheter les fleurs, préparer le voyage, téléphoner aux grands-parents. L'automne est la saison du souvenir — et des retrouvailles.", 23.5)
@@ -173,7 +173,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ('« Allez ! » — 힘내라! · « Quelle action ! » — 멋진 플레이!', "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — 골을 넣었어요! · « C'est gagné ! » — 이겼어요!", "serif", False, INK, 21.5, 1.42),
     ('« Quelle ambiance dans la salle ! » — 경기장 분위기가 뜨거워요!', "serif", False, INK, 21.5, 1.42),
-])
+], tsize=20)
 f.para("Exercice d'écoute de la rédaction : regardez dix minutes de match en français et notez trois phrases nouvelles. La semaine prochaine, comparez vos listes en classe — ou envoyez-les à la rédaction (page 8).", 23.5)
 f.head("LA NUIT DES MATCHS", 25)
 f.para("Il y a un rituel, les soirs de match : on prépare un thé ou un chocolat, on ouvre un carnet, et on regarde le match en famille ou entre amis, parfois très tard. Le lendemain, à l'école ou au bureau, tout le monde raconte la même action — avec les mêmes mots français.", 23.5)
@@ -192,7 +192,7 @@ p.para(ix + 22, 278, "Avant Wemby, il y a Tony Parker. Arrivé à San Antonio à
 p.para(ix + 22, 520, "Cette semaine, son nom est aussi dans les recherches Google : la France du basket a la mémoire longue.", 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
 p.rect(ix, vy, CW, 416, fill="#f0eee5")
-p.text(ix + 22, vy + 40, 'LES MOTS DU SPORT　스포츠 단어장', 23, "sans", True, OLIVE)
+p.text(ix + 22, vy + 40, 'LES MOTS DU SPORT　스포츠 단어장', 22, "sans", True, OLIVE)
 mots4 = [
     'le basket — 농구', 'un match — 경기', 'un panier — 골대; 골',
     'un terrain — 경기장', 'un champion — 챔피언', "s'entraîner — 훈련하다",

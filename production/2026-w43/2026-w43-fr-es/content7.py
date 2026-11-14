@@ -24,7 +24,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("NIVEAU B1　NIVEL INTERMEDIO", 27)
+cB.head("NIVEAU B1　NIVEL INTERMEDIO", 23)
 cB.head("LE COMPARATIF", 24)
 cB.para("plus / moins / aussi + adjectif + que : « Wemby est plus grand que les autres. » « Ce sondage est meilleur que le précédent » — bon devient meilleur, jamais « plus bon ».", 22.5)
 cB.head("DEPUIS + PRÉSENT", 24)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　CLÍNICA", 25)
+cf.head("CLINIQUE DES ERREURS　CLÍNICA", 22)
 cf.expl("Cada frase tiene un error: encuéntralo y corrígelo.")
 cf.ex("A2", "改错", "J'ai vingt ans.", "la edad se dice con avoir, no con être",
       "✗ « Je suis vingt ans. »", instr="Corrige", size=22.5)

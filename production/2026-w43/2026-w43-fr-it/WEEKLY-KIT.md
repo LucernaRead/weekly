@@ -166,6 +166,8 @@ Sun 1 Nov Toussaint (#109 key C = dimanche) · chart 28+24+17+11+9+11 = 100 ·
 - `svg/` ×8, `cards/` ×8 PNG (1950×2700)
 - Print PDF: `lucerna-fr-it-print.pdf` — 9,775,979 B — sha256 7ea801ffabd35dd9714f094e65feaa61aec827c109645ed7f9860a3871138bfd
 - Web PDF: `lucerna-fr-it-web.pdf` — 7,219,575 B (< 10 MB) — sha256 5aab71bd68c3c3c5b1f35b79cd53c6427bd8835de1ba98740960e628c86f30a7
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-it.pdf` **8,677,829 字节**（SHA-256 `588dce478806ca4181f45e68141f2c30b94304807f4307341e01430ca60ad7f2`）；网 `2026-w43-fr-it.web.pdf` **1,702,536 字节**（SHA-256 `05bb309177acf3a4f6d2a89172de995ddc630dc412d765623c2577092953973a`，< 7 MB）；text.md 与已发版 12-line gloss-leak diff（SHA-256 `b9e5b439817a86a229874afe26e2d713a67b8e339c34132eeab649f47d29d727`）。D5 前值：印 9,775,979 B（SHA-256 `7ea801ffabd35dd9714f094e65feaa61aec827c109645ed7f9860a3871138bfd`）、网 1,738,513 字节（`fe1e8412…`，issues 已发版）。
+
 - VOL.3 teaser carried in Italian, substance unchanged (Halloween Sat 31 Oct,
   Toussaint Sun 1 Nov, first week of winter time).
 
@@ -235,3 +237,35 @@ Sun 1 Nov Toussaint (#109 key C = dimanche) · chart 28+24+17+11+9+11 = 100 ·
     the word is a transparent cognate, and page 1 itself renders the phrase
     in Italian («i sondaggi sulle presidenziali 2027» in the trends line;
     «il mandato presidenziale» inside the same gloss). No paper change.
+
+## 13、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-it/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-it.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader it --week 2026-w43`，装后 `_D5_READER = "latin"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-it/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 549、西里尔 0、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 12 项（共用 5 + micro 两处 24→23/25→23、chart 25→22、outils 27→25、clinic 25→22、battA 24→23、D 24→23）；箱标题 5 处（COMMENTATEUR 20、TROIS DATES 21、scrutin 22、SOMMARIO 24→22、écrans 21）；spill ×2；run2 P2 LINEX → run3 消除。
+
+P8：209→194 行，距页脚线余量 32.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,702,536 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（42 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 108,676 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-it.pdf` 8,677,829 字节（`588dce47…`）；
+网 `2026-w43-fr-it.web.pdf` 1,702,536 字节（`05bb3091…`）；text.md 12-line gloss-leak diff
+（`b9e5b439…`）。练习仍为 145 题。

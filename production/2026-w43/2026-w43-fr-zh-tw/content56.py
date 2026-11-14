@@ -74,7 +74,7 @@ f.end_report()
 # col 3 boxes
 ix = COLX[3]
 p.rect(ix, 200, CW, 470, fill=BOX)
-p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　螢幕詞表", 23, "sans", True, OLIVE)
+p.text(ix + 22, 240, "LES MOTS DES ÉCRANS　螢幕詞表", 22, "sans", True, OLIVE)
 mots5 = [
     "un écran — 螢幕", "un réseau social — 社交網路", "viral — 爆紅的",
     "un abonné — 粉絲、訂閱者", "partager — 分享", "un commentaire — 評論",
@@ -174,7 +174,7 @@ g.box("LES MOTS DU SCRUTIN　選舉詞表", [
     ("stagner — 停滯 · un échantillon — 抽樣樣本", "serif", False, INK, 21.5, 1.42),
     ("un parti — 政黨 · se qualifier — 晉級下一輪", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("LE COMPARATIF EN CAMPAGNE", 25)
+g.head("LE COMPARATIF EN CAMPAGNE", 24)
 g.expl("用比較級完成句子。")
 g.ex("B2", "完成句子", "plus populaire", "A 28 % > B 24 %",
      "Dans ce sondage, A est ___ (populaire) que B.", size=23)
@@ -219,7 +219,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("1974 — on peut voter dès 18 ans.", "serif", False, INK, 21.5, 1.42),
     ("2000 — le mandat passe de sept ans à cinq ans : c'est le quinquennat.", "serif", False, INK, 21.5, 1.42),
     ("三場改革定型了今天的法國大選。", "sans", False, GREY, 20, 1.4),
-])
+], tsize=21)
 g2.head("LE CHIFFRE DE LA SEMAINE", 25)
 g2.para("5 000 +", 54, "serif", True, OLIVE, 1.1, 4)
 g2.para("C'est le nombre de recherches quotidiennes, en France, pour « sondage présidentielle 2027 » — la recherche numéro un du pays cette semaine (Google Trends).", 22)

@@ -89,7 +89,7 @@ p.text(gx + 22, byy + 76, "France's top search: the 2027 polls.", 19, "sans", Fa
 # ---- sommaire (col 3) ----
 sy = 1280
 p.rect(gx, sy, gw, 372, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "DANS CE NUMÉRO　CONTENTS", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "DANS CE NUMÉRO　CONTENTS", 23, "sans", True, OLIVE)
 som = [
     ("p.2", "L'heure d'hiver arrive", "A2"),
     ("p.3", "La Toussaint des fleurs", "A2→B1"),
@@ -124,14 +124,14 @@ caption(p, ix, iy + 320, iw,
         "Utagawa Hiroshige (1797-1858), estampe, domaine public · LACMA")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-automne")
-f2.head("L'AUTOMNE, SAISON DES LIVRES", 25)
+f2.head("L'AUTOMNE, SAISON DES LIVRES", 23)
 f2.para("En France, l'automne est la saison des livres : c'est la « rentrée littéraire », des centaines de romans nouveaux arrivent en librairie.", 22.5)
 f2.para("Ce numéro suit le rythme de la saison : les vacances, la Toussaint, le basket de la nuit, les chiffres de la politique. Bonne lecture !", 22.5)
 
 f2.end_report()
 # col 3 EN BREF
 bx = COLX[3]
-p.rect(bx, 1874, CW, 416, fill=BOX)
+p.rect(bx, 1874, CW, 434, fill=BOX)
 p.text(bx + 22, 1914, "EN BREF　IN BRIEF", 24, "sans", True, OLIVE)
 brefs = [
     ("VACANCES", "Les vacances de la Toussaint ont commencé samedi 17. Les cours reprennent le lundi 2 novembre."),
@@ -178,7 +178,7 @@ f.para("Et les animaux ? Les vaches, les chiens et les chats ne regardent pas l'
 f.para("Une heure de plus : qu'en faire ? Dormir, bien sûr. Mais aussi : préparer un bon petit déjeuner, téléphoner à ses grands-parents, ou lire un roman. Une heure gagnée, c'est vingt pages de lecture !")
 f.para("Le dimanche matin, tout est calme : les boulangeries ouvrent, les marchés s'installent. Un café, un croissant, un bon livre : c'est le programme préféré des lecteurs.")
 f.gloss("reculer to go back, to put (a clock) back · avancer to put (a clock) forward · régler to adjust, to set · le choc pétrolier the oil crisis · économiser to save · un réveil an alarm clock · la lumière du jour daylight.")
-f.head("LES VACANCES DE LA TOUSSAINT", 25)
+f.head("LES VACANCES DE LA TOUSSAINT", 23)
 f.para("Depuis samedi 17 octobre, les élèves français sont en vacances. Les cours reprennent le lundi 2 novembre, au matin. C'est la première pause de l'année scolaire : deux semaines pour se reposer.", 23.5)
 f.para("Dans les gares, les trains sont pleins : les familles partent chez les grands-parents, à la campagne ou au bord de la mer. Les valises sont pleines de livres : pendant les vacances, on lit pour le plaisir. La fête de la Toussaint arrive au milieu des vacances — rendez-vous en page 3.", 23.5)
 f.para("Petit conseil de la rédaction : réservez vos billets de train tôt, et gardez un livre pour le voyage — le train est la plus belle salle de lecture du monde.", 23.5)
@@ -194,14 +194,14 @@ sav = ["Le changement d'heure existe en France depuis 1976, après le choc pétr
        "Dans toute l'Union européenne, on change d'heure le même week-end.",
        "Dimanche matin, vous gagnez une heure de sommeil. Profitez-en pour lire !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
-ey3 = sy3 + sh + 26
+ey3 = sy3 + sh + 10
 etvous = "Dans votre pays, change-t-on d'heure ? Le dimanche, à quelle heure vous levez-vous ? Écrivez deux phrases en français et envoyez-les à la rédaction : les meilleures paraîtront dans le prochain numéro (page 7, « Le courrier des lecteurs »)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Does your country change the clocks? Tell us in two sentences of French.", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")

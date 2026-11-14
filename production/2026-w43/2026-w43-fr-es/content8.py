@@ -24,7 +24,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit = ella escribe"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A　TEXTE À TROUS　COMPLETAR", 24)
+bf.head("A　TEXTE À TROUS　COMPLETAR", 22)
 bf.para(f"Léa a quinze ans. Le ({cnums[0]})___ 1er novembre, elle se lève tôt : c'est la Toussaint. Avec sa famille, elle va au ({cnums[1]})___. Sa grand-mère porte un bouquet de ({cnums[2]})___, les fleurs du souvenir. « On les pose sur la ({cnums[3]})___ de ton grand-père », dit sa mère. L'après-midi, Léa se ({cnums[4]})___ et lit un roman en français avec un dictionnaire. Le soir, elle pense : « J'ai pensé aux morts, mais j'ai aussi ({cnums[5]})___ ma famille vivante. » Demain, les cours ({cnums[6]})___ : les vacances sont finies. Mais Léa garde une phrase de son roman et elle l'({cnums[7]})___ dans son cahier.", 21.5)
 bf.expl("Opciones:")
 for n, opts in zip(cnums, [
@@ -40,7 +40,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　CHOIX MULTIPLE　OPCIONES", 24)
+bf.head("B　CHOIX MULTIPLE　OPCIONES", 23)
 mcq = [
     ("A2", "B", "7 h 30 = et demie", "Il est sept heures ___. (7 h 30) A. et quart · B. et demie · C. moins le quart"),
     ("A2", "A", "nous → allons", "Dimanche, nous ___ reculer les horloges. A. allons · B. allez · C. vont"),
@@ -66,7 +66,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "阅读理解", k, nt, body, size=20.5)
 
 # ---- D. sentence building ----
-bf.head("D　PHRASES　CONSTRUIR FRASES", 24)
+bf.head("D　PHRASES　CONSTRUIR FRASES", 22)
 d_items = [
     ("A2", "Les Français vont reculer les horloges dimanche.", "aller + infinitivo (futur proche)",
      "Futur proche : « Les Français reculent les horloges dimanche. » → ___"),
@@ -81,7 +81,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20.5)
 
 # ---- E. translation ----
-bf.head("E　TRADUCTION　TRADUCCIÓN", 24)
+bf.head("E　TRADUCTION　TRADUCCIÓN", 23)
 e_items = [
     ("B2", "Leer una encuesta ya es participar en política.", "lire un sondage = leer una encuesta",
      "Traduce al español: « Lire un sondage, c'est déjà faire de la politique. »"),

@@ -24,7 +24,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("NIVEAU B1　INTERMEDIÁRIO", 27)
+cB.head("NIVEAU B1　INTERMEDIÁRIO", 25)
 cB.head("LE COMPARATIF", 24)
 cB.para("plus / moins / aussi + adjectif + que : « Wemby est plus grand que les autres. » « Ce sondage est meilleur que le précédent » — bon devient meilleur, jamais « plus bon ».", 22.5)
 cB.head("DEPUIS + PRÉSENT", 24)
@@ -46,7 +46,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head("BOÎTE À OUTILS　PARA LEVAR", 27)
+cD.head("BOÎTE À OUTILS　PARA LEVAR", 25)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Il est dix heures moins le quart. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Les vacances commencent depuis samedi... » Non ! « Je suis en vacances depuis samedi. »", 22.5)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　CLÍNICA", 25)
+cf.head("CLINIQUE DES ERREURS　CLÍNICA", 22)
 cf.expl("Cada frase tem um erro: encontre-o e corrija-o.")
 cf.ex("A2", "改错", "J'ai vingt ans.", "a idade se diz com avoir, não com être",
       "✗ « Je suis vingt ans. »", instr="Corrija", size=22.5)

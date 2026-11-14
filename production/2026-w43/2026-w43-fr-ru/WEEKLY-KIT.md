@@ -92,6 +92,8 @@
 - cards ×8：1950×2700 PNG（同目录 cards/）
 - 印刷 PDF：Le-Lucerna-VOL2-RU.pdf — 9,783,685 B，sha256 c8f8e21bd66999617c079e8c54a14b6520fe1a7fee16d69f7d8cdd29a30d8718
 - 网页 PDF：Le-Lucerna-VOL2-RU-web.pdf — 5,982,188 B（< 10 MB），sha256 3a106ff3b7b0a24f063c87b6c5795dd747ea996915075327c2f6a3a39910b0eb
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-ru.pdf` **9,033,989 字节**（SHA-256 `df80755b444a4efd6811346dc9fac6b4ece0c473244f17cf08e0dad5106b4103`）；网 `2026-w43-fr-ru.web.pdf` **1,968,635 字节**（SHA-256 `5992c782b1f7b1307c4530ecd2133999c3e15cbd61f1aabb3217d845c8d4af1c`，< 7 MB）；text.md 与已发版 BYTE-IDENTICAL（SHA-256 `02e10cd09e7af51737861a3599ad03eabf978002861247668f1563df4c895502`）。D5 前值：印 9,783,685 B（SHA-256 `c8f8e21bd66999617c079e8c54a14b6520fe1a7fee16d69f7d8cdd29a30d8718`）、网 1,809,364 字节（`e0688ed4…`，issues 已发版）。
+
 - 渲染：一进程 driver（scratch/build.py 顺序导入 content12/34/56/7/8）；渲染用 tools/venv（CairoSVG + PIL + pypdf）。
 
 ## 11. 纪律声明
@@ -221,3 +223,35 @@ unchanged (§2 table).
 **Verdict: PASS — one complete independent pass, ZERO problems.**
 No fixes were needed, so no re-pass was required. Ready for repo
 insert as slug `2026-w43-fr-ru`.
+
+## 13、D5 重建记录（2026-11-13，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-ru/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-ru.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader ru --week 2026-w43`，装后 `_D5_READER = "ru"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-ru/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 442、西里尔 310、弯引号在 CJK 0；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 0 项（D5 后 head/boxtitle/creambox 全过，无读者专属修复）；仅 spill ×2（共用）与 run3 sav 补偿；run2 P2 LINEX → run3 消除。
+
+P8：208→198 行，距页脚线余量 32.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,968,635 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（45 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 106,829 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-ru.pdf` 9,033,989 字节（`df80755b…`）；
+网 `2026-w43-fr-ru.web.pdf` 1,968,635 字节（`5992c782…`）；text.md BYTE-IDENTICAL
+（`02e10cd0…`）。练习仍为 145 题。

@@ -29,6 +29,8 @@ FR × EN sibling edition's method.
   proofread record at the end of this file.)
 - PDFs: print `Le-Lucerna-VOL2-DE.pdf` 9,783,030 B · web `Le-Lucerna-VOL2-DE-web.pdf`
   **7,278,643 B < 10 MB** (Discord-safe).
+- D5 重建（2026-11-13，见文末 D5 节）：印 `The-Lucerna-VOL1-fr-de.pdf` **8,684,191 字节**（SHA-256 `d35301927a619f5870ae1125c1793776c9ac2060b9963739c1579608c78c8252`）；网 `2026-w43-fr-de.web.pdf` **1,708,945 字节**（SHA-256 `9b87e27cc8d45b1ae2ecfb57523cfca344f116030f7a418537554d230a5ec63c`，< 7 MB）；text.md 与已发版 12-line gloss-leak diff（SHA-256 `d9daf60ed041666657b2e51a3ac0dfdfd75c0d4c576bfcd88c7e978575851ac0`）。D5 前值：印 9,782,922 B（KIT "Final sizes"，L241；L30 的 9,783,030 B 为校对修复前值）（KIT 未记 SHA）、网 1,749,852 字节（`86fe6bec…`，issues 已发版）。
+
 - Images (public domain, unchanged from the core; credits unchanged): P1 Hiroshige
   maple (LACMA) · P2 Atget Paris street · P3 Blanco chrysanthemum plate.
 
@@ -243,3 +245,35 @@ web PDF 7,274,783 B (< 10 MB Discord limit).
 
 **Verdict: FINAL — passes the SOP gate (one complete independent pass with
 zero problems). Not posted to Discord (per instructions).**
+
+## D5 REBUILD RECORD (2026-11-13)
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（SemiBold）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-fr/logs/2026-w43-fr-de/`；
+逐版报告：`production/notes/2026-w43/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w43-fr-de.md`。
+
+**装机**：core 落盘 `apply_variant.py --patch-core fr --week 2026-w43`（core-fr
+`svglib.py` +95/−3 行，`_D5_READER = "latin"`）；本版 `--svglib patched/…/svglib.py
+--target fr --reader de --week 2026-w43`，装后 `_D5_READER = "latin"`；路由单元测试 FAILURES: 0；fix2 块保留。
+D1 组装先于安装：patched svglib 取本地 fanout D1 版，组装后与生产版 svglib 的 diff 恰为 D1 hunk 一处（28 行）。
+
+**基线**（修前生产版）：run TOTAL 145，0 警告；印 PDF 与 `d1-fix/work/2026-w43-fr-de/RESULT.txt`
+的 shipped SHA/字节逐字节一致；印/网文字层差 0；自建网 vs issues 已发 web 非空字符差 0（仅空格差）；
+修前普查 D5 拉丁 554、西里尔 0、弯引号在 CJK 2；基线 P8 noted 67/145。
+
+**缺陷与修法**（run1 → run2 → run3；修法只动字号、盒高与间距，未动文字）：
+head 11 项（共用 5 + outils 27→26、clinic 25→23、battery A 24→22、B 24→21、E 24→22、G 24→21）；箱标题 6 处（COMMENTATEUR 20、TROIS DATES 21、scrutin 21、fêtes 22、zoom 22、écrans 21）；spill ×2；run2 P2 LINEX → run3 消除。
+
+P8：198→199 行，距页脚线余量 33.7→32.7 px。
+
+**门禁 run3（全套 16 门 ALL-GREEN）**：run TOTAL 145、0 警告；head_check 0；
+d5 census 0/0/0；render RC=0；webpdf RC=0（1,708,945 B < 7 MB）；occlusion 0 flags；
+p8 extract noted 67/145；p8 compare **CLEAN**（keydiff=[71, 72, 73, 132, 145]）；freeze baseline 8/8；
+freeze diff 新增 CJK 字符 0；spill 0；boxtitle 0 DEFECT（40 titles）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 105,859 字符）；census_quotes
+0 defective；fr 家无 gates.py。
+
+**新交付物**：印 `The-Lucerna-VOL1-fr-de.pdf` 8,684,191 字节（`d3530192…`）；
+网 `2026-w43-fr-de.web.pdf` 1,708,945 字节（`9b87e27c…`）；text.md 12-line gloss-leak diff
+（`d9daf60e…`）。练习仍为 145 题。

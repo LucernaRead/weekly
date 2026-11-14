@@ -47,7 +47,7 @@ f.ex("B1", "句型转换", "Les feuilles ne sont plus vertes en automne.", "ne..
      "(plus) Les feuilles sont vertes en automne. → ___", instr="Rewrite")
 f.ex("B1", "句型转换", "Le 1er novembre n'est pas un jour de travail pour tous.", "n'est pas = is not",
      "(pas) Le 1er novembre est un jour de travail pour tous. → ___", instr="Rewrite")
-f.head("HALLOWEEN : LA FÊTE QUI DIVISE", 25)
+f.head("HALLOWEEN : LA FÊTE QUI DIVISE", 22)
 f.para("Le 31 octobre, c'est Halloween. Les enfants se déguisent — sorcières, fantômes, super-héros — et ils frappent aux portes : « Des bonbons ou un sort ! » On leur donne des bonbons, et tout le monde rit.", 23.5)
 f.para("En France, la fête vient des États-Unis. Certains l'adorent : c'est joyeux, coloré, parfait pour les enfants. D'autres disent : « Ce n'est pas notre tradition, c'est du commerce. » Mais dans les écoles et les villages, les citrouilles orange sont de plus en plus nombreuses. Cette année, Halloween tombe un samedi, pendant les vacances : les familles auront le temps de préparer la fête. Et vous, pour ou contre ?", 23.5)
 f.bridge("Practice now · Halloween questions.")
@@ -63,7 +63,7 @@ f.ex("B1", "单选", "B", "diviser = opinions are divided",
      "« La fête divise » signifie... A. tout le monde est d'accord · B. les avis sont partagés · C. personne ne vient")
 f.ex("B1", "完成句子", "déguisements", "buying sweets and costumes",
      "Pour la fête, on achète des bonbons et des ___.")
-f.head("LA TOUSSAINT DANS LE MONDE", 25)
+f.head("LA TOUSSAINT DANS LE MONDE", 24)
 f.para("Le 1er novembre n'est pas férié qu'en France : la Belgique fête aussi la Toussaint, et les familles y visitent les cimetières avec des chrysanthèmes. Le mot « Toussaint » signifie « tous les saints » : la fête honore tous les saints, connus et inconnus.", 23.5)
 f.para("Le 2 novembre, au Mexique, c'est le Día de los Muertos, le Jour des Morts : les familles préparent des autels avec des photos, des fleurs orange et les plats préférés des disparus. L'ambiance est très différente : musique, couleurs et fête — mais l'idée est la même : ne pas oublier ceux qu'on aime.", 23.5)
 f.para("Et le 31 octobre au soir, pendant que les enfants français demandent des bonbons, beaucoup de familles pensent déjà au lendemain : acheter les fleurs, préparer le voyage, téléphoner aux grands-parents. L'automne est la saison du souvenir — et des retrouvailles.", 23.5)
@@ -95,12 +95,12 @@ for m in mots:
     yy3 += 37
 zy3 = by3 + 452 + 26
 p.rect(ix, zy3, CW, 476, fill="#f0eee5")
-p.text(ix + 22, zy3 + 40, "ZOOM　THE WRITERS' CEMETERY", 23, "sans", True, OLIVE)
+p.text(ix + 22, zy3 + 40, "ZOOM　THE WRITERS' CEMETERY", 21, "sans", True, OLIVE)
 p.para(ix + 22, zy3 + 78, "À Paris, le cimetière du Père-Lachaise est le plus visité du monde. On y trouve les tombes de Balzac, d'Oscar Wilde et de Marcel Proust. Le 1er novembre, des lecteurs y déposent des fleurs... et parfois un livre.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, zy3 + 340, "Balzac, Wilde and Proust are buried at Père-Lachaise. On All Saints' Day, readers bring the writers a flower.", 20, "sans", False, GREY, CW - 44, 1.4)
 dy3 = zy3 + 476 + 26
 p.rect(ix, dy3, CW, 330, fill=BOX)
-p.text(ix + 22, dy3 + 40, "DATES À RETENIR　THIS MONTH", 23, "sans", True, OLIVE)
+p.text(ix + 22, dy3 + 40, "DATES À RETENIR　THIS MONTH", 22, "sans", True, OLIVE)
 dates3 = [
     ("dim. 25 oct.", "changement d'heure !"),
     ("sam. 31 oct.", "Halloween"),
@@ -173,7 +173,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — Come on! · « Quelle action ! » — What a play!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — He scores! · « C'est gagné ! » — We've won!", "serif", False, INK, 21.5, 1.42),
     ("« Quelle ambiance dans la salle ! » — What an atmosphere!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=20)
 f.para("Exercice d'écoute de la rédaction : regardez dix minutes de match en français et notez trois phrases nouvelles. La semaine prochaine, comparez vos listes en classe — ou envoyez-les à la rédaction (page 8).", 23.5)
 f.head("LA NUIT DES MATCHS", 25)
 f.para("Il y a un rituel, les soirs de match : on prépare un thé ou un chocolat, on ouvre un carnet, et on regarde le match en famille ou entre amis, parfois très tard. Le lendemain, à l'école ou au bureau, tout le monde raconte la même action — avec les mêmes mots français.", 23.5)
