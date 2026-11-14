@@ -67,7 +67,7 @@ p.para(ix + 22, 278, "Lundi 2 : ouverture à l'Élysée Montmartre. Jeudi 5 – 
 p.para(ix + 22, 520, "Le festival, c'est toute la semaine du numéro : du lundi de la rentrée au dimanche des finales.", 21.5, "serif", False, INK, CW - 44, 1.42)
 qy5 = 696
 p.rect(ix, qy5, CW, 400, fill="#f0eee5")
-p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　PALAVRAS", 23, "sans", True, OLIVE)
+p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　PALAVRAS", 20, "sans", True, OLIVE)
 mots5 = [
     "un festival — festival", "un concert — concerto",
     "une chanson — canção", "un chanteur — cantor",
@@ -80,7 +80,7 @@ for m in mots5:
     yy5 += 37
 dy5 = qy5 + 400 + 26
 p.rect(ix, dy5, CW, 440, fill=BOX)
-p.text(ix + 22, dy5 + 40, "PARIS CREATOR WEEK　CRIADORES", 23, "sans", True, OLIVE)
+p.text(ix + 22, dy5 + 40, "PARIS CREATOR WEEK　CRIADORES", 20, "sans", True, OLIVE)
 p.para(ix + 22, dy5 + 78, "Mercredi 4 et jeudi 5 novembre, à La Villette, c'est la Paris Creator Week : deux jours pour les créateurs en ligne — vidéos, podcasts, réseaux sociaux. Les jeunes créateurs y rencontrent leur public, en vrai.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 300, "4–5 de novembro, La Villette: semana dos criadores, criadores em linha encontram o público ao vivo.", 20, "sans", False, GREY, CW - 44, 1.4)
 ty5 = dy5 + 440 + 26
@@ -111,7 +111,7 @@ f.end_report()
 chx, chw = COLX[0], 2 * CW + GUT
 chy = 1330
 p.rect(chx, chy, chw, 470, fill=BOX)
-p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　CALENDÁRIO PREVISTO (SEM RESULTADOS)", 24, "sans", True, OLIVE)
+p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　CALENDÁRIO PREVISTO (SEM RESULTADOS)", 22, "sans", True, OLIVE)
 p.text(chx + 22, chy + 74, "Programme prévu, susceptible de changer — ne pas confondre avec des résultats.", 19, "sans", False, GREY)
 rows6 = [
     ("mar. 3 nov.", "Culture · Médias, livre", OLIVE),
@@ -128,7 +128,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du 20 octobre (nosparlementai
 p.text(chx + 22, byy + 44, "Este calendário é um programa previsto; os resultados ainda não saíram.", 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470 + 30, 2560, tag="P6-ex")
-e6.head("LIRE LE CALENDRIER　CALENDÁRIO", 24)
+e6.head("LIRE LE CALENDRIER　CALENDÁRIO", 21)
 e6.bridge("Leiam o calendário acima e escolham a resposta certa.")
 e6.ex("B2", "Leitura de gráficos", "B", "Terça, dia 3: Cultura e Média",
       "Mardi 3, on vote... A. l'Agriculture · B. la Culture · C. l'Économie", size=22)
@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — O calendário ainda pode mudar.", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — Os resultados ainda não são conhecidos.", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("Nota — prévu previsto, planeado · réaliser realizar, concretizar · distinguer distinguir.")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("Completem as frases com o comparativo.")
 g2.ex("B1", "Completar frases", "plus long", "Um debate sobre o orçamento é mais longo que um concerto",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　O DEBATE", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("Debate — Quando os resultados ainda não saíram, deve-se anunciar o programa? Distinguir prévu (previsto) de décidé (decidido).")

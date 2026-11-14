@@ -73,7 +73,7 @@ cy3 = caption(p, ix, 740, CW,
               "Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public")
 by3 = cy3 + 22
 p.rect(ix, by3, CW, 452, fill=BOX)
-p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　FESTIVAL", 23, "sans", True, OLIVE)
+p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　FESTIVAL", 22, "sans", True, OLIVE)
 mots = [
     "un saint — a saint", "un cimetière — a cemetery", "une tombe — a grave",
     "un jour férié — a public holiday", "se souvenir — to remember",
@@ -91,7 +91,7 @@ p.para(ix + 22, zy3 + 78, "Du 3 octobre au 8 novembre : 12 soirées nocturnes, d
 p.para(ix + 22, zy3 + 340, "From 3 October to 8 November: 12 night events; the last one on 7 November; open 10 a.m. to 7 p.m. in the daytime.", 20, "sans", False, GREY, CW - 44, 1.4)
 dy3 = zy3 + 476 + 26
 p.rect(ix, dy3, CW, 330, fill=BOX)
-p.text(ix + 22, dy3 + 40, "DATES À RETENIR　TO REMEMBER", 23, "sans", True, OLIVE)
+p.text(ix + 22, dy3 + 40, "DATES À RETENIR　TO REMEMBER", 20, "sans", True, OLIVE)
 dates3 = [
     ("lun. 2 nov.", "rentrée + jour des morts"),
     ("sam. 7 nov.", "dernière nocturne à Plailly"),
@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — Come on! · « Quelle action ! » — What a play!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — He scores! · « C'est gagné ! » — It's won!", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — What a point! (tennis) · « Balle de match ! » — Match point!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]
@@ -188,7 +188,7 @@ p.rect(ix, sy4, CW, 218, fill=BOX)
 p.text(ix + 22, sy4 + 40, "À SUIVRE　TO BE CONTINUED", 23, "sans", True, OLIVE)
 p.para(ix + 22, sy4 + 80, "Les finalistes seront connus samedi soir, après les demi-finales. Les résultats du week-end seront dans le VOL.4.", 21.5, "serif", False, INK, CW - 44, 1.42)
 mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2560, tag="P4-micro")
-mf.head("MICRO-DRILLS　QUICK PRACTICE", 24)
+mf.head("MICRO-DRILLS　QUICK PRACTICE", 22)
 mf.bridge("Fill in with finale / quarts / demi-finales / tableau / fauteuil / choc.")
 mf.ex("B1", "完成句子", "quarts", "the quarter-finals are on Friday",
       "Les ___ de finale ont lieu vendredi 6.", size=23)

@@ -35,7 +35,7 @@ cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
 cC.head("NIVEAU B2　VERTIEFUNG", 27)
-cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 24)
+cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 cC.para("« Il est prévu que l'Assemblée examine la Culture mardi. » Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. (page 6)", 22.5)
 cC.head("EXPRIMER L'ATTENTE", 24)
 cC.para("« On ne connaît pas encore les finalistes. » « Les résultats seront connus samedi soir. » Pour parler d'un avenir incertain, on distingue le programme prévu et le résultat connu — jamais l'inverse.", 22.5)
@@ -45,7 +45,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head("BOÎTE À OUTILS　WERKZEUG", 27)
+cD.head("BOÎTE À OUTILS　WERKZEUG", 26)
 cD.para("Trois phrases à garder dans la poche, une pour chaque niveau :", 22.5)
 cD.para("A2 — « Le lundi 2 novembre, on reprend les cours. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? »", 22.5, "serif", True, OLIVE)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　KLINIK", 25)
+cf.head("CLINIQUE DES ERREURS　KLINIK", 23)
 cf.bridge("Jeder Satz enthält einen Fehler: Finden und korrigieren Sie ihn.")
 cf.ex("A2", "Fehlerkorrektur", "On n'offre jamais de chrysanthèmes pour un anniversaire.", "jamais + de: In der Verneinung wird des zu de",
       "✗ « On offre des chrysanthèmes pour un anniversaire. »", instr="Fehlerkorrektur", size=22.5)

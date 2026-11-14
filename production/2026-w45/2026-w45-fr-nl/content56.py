@@ -67,7 +67,7 @@ p.para(ix + 22, 278, "Lundi 2 : ouverture à l'Élysée Montmartre. Jeudi 5 – 
 p.para(ix + 22, 520, "Le festival, c'est toute la semaine du numéro : du lundi de la rentrée au dimanche des finales.", 21.5, "serif", False, INK, CW - 44, 1.42)
 qy5 = 696
 p.rect(ix, qy5, CW, 400, fill="#f0eee5")
-p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　WOORDEN", 23, "sans", True, OLIVE)
+p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　WOORDEN", 20, "sans", True, OLIVE)
 mots5 = [
     "un festival — een festival", "un concert — een concert",
     "une chanson — een lied", "un chanteur — een zanger",
@@ -111,7 +111,7 @@ f.end_report()
 chx, chw = COLX[0], 2 * CW + GUT
 chy = 1330
 p.rect(chx, chy, chw, 470, fill=BOX)
-p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　GEPLANDE KALENDER (NOG GEEN RESULTATEN)", 24, "sans", True, OLIVE)
+p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　GEPLANDE KALENDER (NOG GEEN RESULTATEN)", 21, "sans", True, OLIVE)
 p.text(chx + 22, chy + 74, "Programme prévu, susceptible de changer — ne pas confondre avec des résultats.", 19, "sans", False, GREY)
 rows6 = [
     ("mar. 3 nov.", "Culture · Médias, livre", OLIVE),
@@ -128,7 +128,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du 20 octobre (nosparlementai
 p.text(chx + 22, byy + 44, "Deze kalender is de planning; nog geen resultaten — vervolg in het volgende nummer.", 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470 + 30, 2560, tag="P6-ex")
-e6.head("LIRE LE CALENDRIER　KALENDER", 25)
+e6.head("LIRE LE CALENDRIER　KALENDER", 22)
 e6.bridge("Lees de kalender hierboven en kies het juiste antwoord.")
 e6.ex("B2", "图表读数", "B", "dinsdag 3 november: Cultuur en Media",
       "Mardi 3, on vote... A. l'Agriculture · B. la Culture · C. l'Économie", size=22)
@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — De kalender kan nog veranderen.", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — De resultaten zijn nog niet bekend.", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("Uitleg — prévu gepland · réaliser uitvoeren · distinguer onderscheiden.")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("Vul in met de comparatief.")
 g2.ex("B1", "完成句子", "plus long", "een begrotingsdebat is langer dan een concert",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　HET DEBAT", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("Debat · Moet een planning worden aangekondigd vóór de resultaten? Onderscheid prévu (gepland) van décidé (beslist).")

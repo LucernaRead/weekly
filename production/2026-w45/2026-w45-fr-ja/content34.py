@@ -73,7 +73,7 @@ cy3 = caption(p, ix, 740, CW,
               "Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public")
 by3 = cy3 + 22
 p.rect(ix, by3, CW, 452, fill=BOX)
-p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　祭りの単語", 23, "sans", True, OLIVE)
+p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　祭りの単語", 22, "sans", True, OLIVE)
 mots = [
     "un saint — 聖人", "un cimetière — 墓地", "une tombe — 墓",
     "un jour férié — 祝日", "se souvenir — 記念する、思い出す",
@@ -91,7 +91,7 @@ p.para(ix + 22, zy3 + 78, "Du 3 octobre au 8 novembre : 12 soirées nocturnes, d
 p.para(ix + 22, zy3 + 340, "10月3日から11月8日まで、12回のナイトイベント。最終は11月7日。昼間は10時から19時まで開園。", 20, "sans", False, GREY, CW - 44, 1.4)
 dy3 = zy3 + 476 + 26
 p.rect(ix, dy3, CW, 330, fill=BOX)
-p.text(ix + 22, dy3 + 40, "DATES À RETENIR　今週のカレンダー", 23, "sans", True, OLIVE)
+p.text(ix + 22, dy3 + 40, "DATES À RETENIR　今週のカレンダー", 21, "sans", True, OLIVE)
 dates3 = [
     ("lun. 2 nov.", "rentrée + jour des morts"),
     ("sam. 7 nov.", "dernière nocturne à Plailly"),
@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — がんばれ！ · « Quelle action ! » — すごいプレー！", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — 決めた！ · « C'est gagné ! » — 勝った！", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — すごいポイント！（テニス） · « Balle de match ! » — マッチポイント！", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]
@@ -173,7 +173,7 @@ p.para(ix + 22, 278, "41e édition en 2026 (40e anniversaire). Dernier Masters 1
 p.para(ix + 22, 520, "Le tournoi en fauteuil se joue du 6 au 8 novembre, avec sa finale simple dimanche à midi.", 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
 p.rect(ix, vy, CW, 416, fill="#f0eee5")
-p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　テニス用語", 23, "sans", True, OLIVE)
+p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　テニス用語", 22, "sans", True, OLIVE)
 mots4 = [
     "le tennis — テニス", "une balle — ボール", "un set — 1セット",
     "un match — 試合", "un point — 1ポイント", "la finale — 決勝",

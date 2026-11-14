@@ -23,7 +23,7 @@ cA.box("LA PHRASE EXEMPLE", [
 cA.end_report()
 
 cB = Flow(p, [(COLX[1], CW)], 200, 1150, tag="P7-B1")
-cB.head("NIVEAU B1　NIVEL INTERMEDIO", 27)
+cB.head("NIVEAU B1　NIVEL INTERMEDIO", 23)
 cB.head("LE PASSÉ COMPOSÉ", 24)
 cB.para("« Les enfants se sont déguisés samedi. » « Les cimetières se sont remplis de fleurs. » Avec se + être + participe passé : attention à l'accord avec le sujet : déguisés, remplis. (page 3)", 22.5)
 cB.head("LE COMPARATIF", 24)
@@ -35,7 +35,7 @@ cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
 cC.head("NIVEAU B2　DESAFÍO", 27)
-cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 24)
+cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 cC.para("« Il est prévu que l'Assemblée examine la Culture mardi. » Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. (page 6)", 22.5)
 cC.head("EXPRIMER L'ATTENTE", 24)
 cC.para("« On ne connaît pas encore les finalistes. » « Les résultats seront connus samedi soir. » Pour parler d'un avenir incertain, on distingue le programme prévu et le résultat connu — jamais l'inverse.", 22.5)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　CLÍNICA", 25)
+cf.head("CLINIQUE DES ERREURS　CLÍNICA", 22)
 cf.bridge("Cada frase tiene un error: encuéntralo y corrígelo.")
 cf.ex("A2", "Corregir", "On n'offre jamais de chrysanthèmes pour un anniversaire.", "jamais + de: en la negación, des pasa a de",
       "✗ « On offre des chrysanthèmes pour un anniversaire. »", instr="Corregir", size=22.5)

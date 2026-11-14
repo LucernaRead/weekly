@@ -145,3 +145,16 @@ TRANSFORM_ROUND=4 ../../tools/venv/bin/python transform.py
   - 未改动文件比对（vs `pre-fix-webpdf-round5.sha`）：SVG×8 全部 OK、卡片×8 全部 OK、印刷 PDF OK（SHA-256 `e9fb978109ddfea4874083bc210f1e34fc378d7845b09b1c6bf248d713a7e45b` 不变）、ABSTRACT OK；仅网页版 PDF 一项变化（预期内替换）。
 - **根因结论（未查明，如实记录）**：构建树（`hidden_files/weekly-report-w45-fr-en-build/`、核心构建树）与 `tools/` 均无网页版 PDF 生成脚本，构建日志（`build1/2.log`）只记录 SVG 流，KIT 第八节仅一句话描述方法，故原始生成命令与输入无法从产物反推。已证实：旧文件头为 Pillow 产物、嵌入 JPEG 量化表确为 q75、p1 流与新鲜卡片 q75 编码公共前缀 1,124 字节（头部 + 约 500 扫描字节）后即分叉；旧 p8 虽像素干净、其流字节数（855,389）亦不同于新鲜编码（888,639），即旧文件各页流普遍非新鲜卡片编码。p1–p7 流为何不是卡片编码，未查明——不编造原因；重建自卡片为本次修复，不依赖根因查明。另：校对报告 O7 指出 FR 核心网页版同患此缺陷，本修复不重开核心，仅提请主线复查。
 - **状态**：本构建仍为 **builder-complete，NOT finalized**——修复完成 ≠ 定稿；定稿须由独立校对做 SOP §8.4 全新完整二轮校对，本构建不宣布上架、不派发校对。
+
+
+## 十四、D5 重建（2026-11-14，builder run；非校对轮）
+
+- 方式：pre-D1 新样式——D1 修复 + D5 一次渲完（W47 版 run.py + 本地 fanout 版 render.py；`apply_variant.py --week 2026-w45` 装机；core-fr svglib 先行落盘）。只动字号 / 盒高，不动一字文案。
+- 修复 17 项：头 8（MICRO-DRILLS、LIRE LE CALENDRIER SCHEDULE 25→22、IL EST PRÉVU 25→23、COMPARATIF 25→24、NIVEAU B2 27→25、E TRADUCTION 24→23 等）；盒标题 6（IN THIS ISSUE 24→21、FESTIVAL 23→22、TO REMEMBER 23→20、COMMENTATEUR tsize 23→21、PLANNED SCHEDULE 24→23、TROIS DATES tsize 23→21）；P1 标题 46→44 + 副标题 27→24；spill +14→+30。
+- 终门禁（run2，2026-11-14）：16 门全绿 + D18 + D37，OVERALL ALL-GREEN。d5 census 拉丁 0 / 西里尔 0 / 弯引号 0；p8 extract 97/150，compare vs core CLEAN（keydiff [135, 150]，预期读者语键）；freeze baseline 8/8，freeze diff vs baseline CJK 新增 0（Latin 新增 365，预期 D5 run-split）；spill 0、boxtitle 0、edge 0 TOUCH 0 NEAR、creambox 0 defects；文字层 print = web（多重集差 0）；D18 刊头间距 70.2px；D37 副刊头行余量 116.8pt；P8 行数 207→209，距页脚线余量 37.5px。
+- text.md：与已发版仅差 24 行 = 6 条 gloss 行（已修 `", [("` 泄漏；其余 BYTE-IDENTICAL）（导出器 `scratch-prep-p3b/export_w45_fanout_fixed.py`）。
+- 最终 D5 pins（builder 原件；网 PDF 字节跨次运行不确定——closer 须拷 builder 原件，绝不重跑 webpdf）：
+  - 印刷 `The-Lucerna-VOL2-fr-en.pdf`：8,678,350 字节，SHA-256 `02f17b26c6ec4a96c4b2740b876d490bdd48426a4b852c076d9711023d383898`。
+  - 网络 `2026-w45-fr-en.web.pdf`：1,204,395 字节，SHA-256 `04f9cedd6c71bf1afcd7c7415a06d49107b792db93a709877425651b07f237e6`。
+  - text.md `2026-w45-fr-en.text.md`：45,847 字节，SHA-256 `e87df7684388369bc48394c9a33f3d95dc037875c99f5eda0e7f232541fc9bc0`。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-en/`；每版 D5 报告 `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-en.md`。

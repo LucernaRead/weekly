@@ -356,3 +356,16 @@ run `TRANSFORM_ROUND=1`, then `2`, `3`, `4` sequentially in that dir
 single-process driver `import content12, content34, content56,
 content7, content8` → `render.py` (venv) → 8/8 SVG byte-identical to
 §8; cards + PDFs regenerate from those SVGs.
+
+
+## 14. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Method: pre-D1 new style — D1 fix + D5 in a single render (W47 run.py + local fanout render.py; installed with `apply_variant.py --week 2026-w45`; core-fr svglib landed first). Font sizes / box heights only; no wording changed.
+- Fixes: 2 fixes: spill +14→+30; run3: ET VOUS Russian gloss 20→19 (4 lines → 3; the +30 spill fix had pushed the box bottom to 1612.6, crossing the dy hline at 1598 — LINEX; gloss shrink pulls the box bottom back to 1583.6, 14.4px clear). No head/box-title defects in this edition (0 heads, 0 boxtitle).
+- Final gates (run3, 2026-11-14): 16/16 PASS + D18 + D37, OVERALL ALL-GREEN. d5 census Latin 0 / Cyrillic 0 / curly 0; p8 extract 97/150, compare vs core CLEAN (keydiff [135, 150], expected reader-language keys); freeze baseline 8/8, freeze diff vs baseline CJK added 0 (Latin added 228, expected D5 run-splits); spill 0, boxtitle 0, edge 0 TOUCH 0 NEAR, creambox 0 defects; text layer print = web (multiset diff 0); D18 masthead gap 151.5px; D37 sub-masthead margin 37.7pt; P8 lines 206→207, footer slack 38.5px.
+- text.md: BYTE-IDENTICAL vs issued (no gloss-leak lines in this edition) (exporter `scratch-prep-p3b/export_w45_fanout_fixed.py`).
+- Final D5 pins (builder originals; web PDF bytes are non-deterministic across runs — the closer must copy the builder's file, never re-run webpdf):
+  - print `The-Lucerna-VOL2-fr-ru.pdf`: 9,039,620 bytes, SHA-256 `5c2bfa231e1076b08ecc9945861713fc74bb31ed1712f99052571231ffd1af5a`.
+  - web `2026-w45-fr-ru.web.pdf`: 1,467,372 bytes, SHA-256 `90c8cf32e55fde99f7188d330682d6d71dfafa69133b9c2ba63f6c234921e80e`.
+  - text.md `2026-w45-fr-ru.text.md`: 51,877 bytes, SHA-256 `3631ca0354bd65b4c554c6f15b572572815dcae2e040928d827023c999f3b320`.
+- Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-ru/`; per-edition D5 report `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-ru.md`.

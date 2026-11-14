@@ -158,7 +158,7 @@ for pg, grp in groupby(REG, key=lambda e: e["page"]):
         if e["note"] and e["n"] in PRINT_NOTES:
             s += f" ({e['note']})"
         parts.append(s)
-    kf.para(" · ".join(parts), 15.5, "sans", False, INK, 1.3, 9)
+    kf.para(" · ".join(parts), 15, "sans", False, INK, 1.3, 9)  # D5 fix run3: 15.5 broke "36." across lines (p8 PARSE_FAIL)
 kf.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-exercices.svg")

@@ -113,7 +113,7 @@ p.text(gx, my + 24, "LE MOT DE LA SEMAINE", 22, "sans", True, OLIVE)
 p.hline(gx, gx + gw, my + 38, OLIVE, 2)
 p.text(gx, my + 76, "« se jouer »", 21.5, "serif", False, INK, italic=True)
 wy = p.para(gx, my + 108, "se décider. Ce week-end, tout se joue : les finales, la fête, la saison.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, wy + 10, "決まる、行われる。今週末はすべてが決まります。", 19, "sans", False, GREY, gw, 1.35)
+p.para(gx, wy + 10, "決まる、行われる。今週末はすべてが決まります。", 18, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -189,7 +189,7 @@ sav = ["Les vacances de la Toussaint : du samedi 17 octobre au lundi 2 novembre.
        "Reprise le lundi 2 novembre au matin, zones A, B et C ensemble.",
        "Deuxième semaine à l'heure d'hiver : la nuit tombe tôt, lisez le soir !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)

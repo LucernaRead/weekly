@@ -189,7 +189,7 @@ sav = ["Les vacances de la Toussaint : du samedi 17 octobre au lundi 2 novembre.
        "Reprise le lundi 2 novembre au matin, zones A, B et C ensemble.",
        "Deuxième semaine à l'heure d'hiver : la nuit tombe tôt, lisez le soir !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)

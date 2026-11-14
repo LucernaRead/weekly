@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — 日程仍可能变动。", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — 结果尚未揭晓。", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("译注｜prévu 预定的、计划的 · réaliser 实现、完成 · distinguer 区分。")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("用比较级完成句子。")
 g2.ex("B1", "完成句子", "plus long", "预算辩论比一场音乐会长",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　讨论", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("讨论｜结果未出时，该不该先公布日程？区分 prévu（计划）与 décidé（已定）。")

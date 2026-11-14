@@ -197,3 +197,16 @@ cards/p8-exercices.png       67922cdedf692b5f466aebb504754b260a68a8830c85f6017c8
 4. P5 正文流止于第 1 栏（末基线 2486.1，墨迹底约 2493.3 < 2540）；第 3 栏较核心多 2 行（y=1478 `o público ao vivo.`、y=1929 `música ouvem para aprender francês?`）均为葡萄牙语本地化换行，非正文溢出，遮挡审计 0 旗。
 5. P8 `--target fr` 调用形式与显式路径形式的注记计数差异（92 vs 97，见 §4）——工具路径备查，不影响显式路径 + extract + keycompare 三方一致的门结论。
 6. 本版未做项：独立校对、GitHub 入库、Discord 投递（投递暂停令仍有效，须主线另行决定）。
+
+
+## 19. D5 重建（2026-11-14）
+
+- 方式：pre-D1 新样式——D1 修复 + D5 一次渲完（W47 版 run.py + 本地 fanout 版 render.py；`apply_variant.py --week 2026-w45` 装机；core-fr svglib 先行落盘）。只动字号 / 盒高，不动一字文案。
+- 修复 19 项：头 8（LIRE LE CALENDRIER CALENDÁRIO 24→21、IL EST PRÉVU 25→23、COMPARATIF 25→24、NIVEAU B1 27→25、BOÎTE À OUTILS 27→25、CLINIQUE 25→22、B 24→23）；盒标题 7（PALAVRAS 23→21/21/20、COMMENTATEUR tsize 23→21、CRIADORES 23→20、CALENDÁRIO PREVISTO 24→22、TROIS DATES tsize 23→21）；P1 标题 46→44 + 副标题 27→24；D37 副刊头行 16→15（run1 margin −6.5pt，修后 +15.7pt）；spill +14→+30。
+- 终门禁（run2，2026-11-14）：16 门全绿 + D18 + D37，OVERALL ALL-GREEN。d5 census 拉丁 0 / 西里尔 0 / 弯引号 0；p8 extract 97/150，compare vs core CLEAN（keydiff [135, 150]，预期读者语键）；freeze baseline 8/8，freeze diff vs baseline CJK 新增 0（Latin 新增 343，预期 D5 run-split）；spill 0、boxtitle 0、edge 0 TOUCH 0 NEAR、creambox 0 defects；文字层 print = web（多重集差 0）；D18 刊头间距 64.7px；D37 副刊头行余量 15.7pt；P8 行数 211→206，距页脚线余量 46.0px。
+- text.md：与已发版 BYTE-IDENTICAL（导出器 `scratch-prep-p3b/export_w45_fanout_fixed.py`）。
+- 最终 D5 pins（builder 原件；网 PDF 字节跨次运行不确定——closer 须拷 builder 原件，绝不重跑 webpdf）：
+  - 印刷 `The-Lucerna-VOL2-fr-pt.pdf`：8,680,533 字节，SHA-256 `e2e572cbae639d64645f956ae83a58331a45c7672d871344c1f245b0d5ec02d8`。
+  - 网络 `2026-w45-fr-pt.web.pdf`：1,206,572 字节，SHA-256 `4632805e381e2909bd018f120160bd31f757c35e0a1eca3de0e7aea910cf23c6`。
+  - text.md `2026-w45-fr-pt.text.md`：47,097 字节，SHA-256 `92fc8372bf0cff13e623678288c4d04e8e6819121e7db0b6b64a35ba4795e226`。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-pt/`；每版 D5 报告 `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-pt.md`。

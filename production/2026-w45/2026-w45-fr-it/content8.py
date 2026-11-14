@@ -25,7 +25,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit = lei scrive"),
 ]
 cnums = [reg_ex(lv, "Completamento testo", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A　TEXTE À TROUS　COMPLETA", 24)
+bf.head("A　TEXTE À TROUS　COMPLETA", 23)
 bf.para(f"Léa a seize ans. Le ({cnums[0]})___ 8 novembre, elle se lève tôt : c'est le jour des finales. Avec son frère, elle va à ({cnums[1]})___ pour voir le tennis. « On ne connaît pas encore les ({cnums[2]})___ », dit son frère. Le soir, Léa raconte : « À Port-en-Bessin, on a ({cnums[3]})___ des coquilles, un régal ! » Le festival ({cnums[4]})___ dans Paris. Léa a ({cnums[5]})___ la musique. Les finales ({cnums[6]})___ dimanche, et elle l'({cnums[7]})___ dans son cahier.", 20)
 bf.bridge("Opzioni:")
 for n, opts in zip(cnums, [
@@ -69,7 +69,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "Comprensione", k, nt, body, size=20, gap=6)
 
 # ---- D. sentence building ----
-bf.head("D　PHRASES　COSTRUISCI FRASI", 24)
+bf.head("D　PHRASES　COSTRUISCI FRASI", 23)
 d_items = [
     ("A2", "Les élèves vont reprendre les cours lundi.", "aller + infinito (futur proche)",
      "Futur proche : « Les élèves reprennent les cours lundi. » → ___"),

@@ -35,7 +35,7 @@ cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
 cC.head("NIVEAU B2　挑戰", 27)
-cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 24)
+cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 cC.para("« Il est prévu que l'Assemblée examine la Culture mardi. » Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. (page 6)", 22.5)
 cC.head("EXPRIMER L'ATTENTE", 24)
 cC.para("« On ne connaît pas encore les finalistes. » « Les résultats seront connus samedi soir. » Pour parler d'un avenir incertain, on distingue le programme prévu et le résultat connu — jamais l'inverse.", 22.5)
@@ -94,7 +94,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("CLINIQUE DES ERREURS　易錯診所", 25)
+cf.head("CLINIQUE DES ERREURS　易錯診所", 23)
 cf.bridge("每句有一處錯誤：找出來並改正。")
 cf.ex("A2", "改錯", "On n'offre jamais de chrysanthèmes pour un anniversaire.", "jamais + de：否定句中 des 變 de",
       "✗ « On offre des chrysanthèmes pour un anniversaire. »", instr="改錯", size=22.5)

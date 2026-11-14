@@ -111,7 +111,7 @@ f.end_report()
 chx, chw = COLX[0], 2 * CW + GUT
 chy = 1330
 p.rect(chx, chy, chw, 470, fill=BOX)
-p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　PLANNED SCHEDULE (NO RESULTS YET)", 24, "sans", True, OLIVE)
+p.text(chx + 22, chy + 40, "LE CALENDRIER PRÉVU　PLANNED SCHEDULE (NO RESULTS YET)", 23, "sans", True, OLIVE)
 p.text(chx + 22, chy + 74, "Programme prévu, susceptible de changer — ne pas confondre avec des résultats.", 19, "sans", False, GREY)
 rows6 = [
     ("mar. 3 nov.", "Culture · Médias, livre", OLIVE),
@@ -128,7 +128,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du 20 octobre (nosparlementai
 p.text(chx + 22, byy + 44, "This schedule is the plan; no results yet — follow-up next issue.", 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470 + 30, 2560, tag="P6-ex")
-e6.head("LIRE LE CALENDRIER　SCHEDULE", 25)
+e6.head("LIRE LE CALENDRIER　SCHEDULE", 22)
 e6.bridge("Read the schedule above and choose the right answer.")
 e6.ex("B2", "图表读数", "B", "Tuesday 3rd: Culture and Media",
       "Mardi 3, on vote... A. l'Agriculture · B. la Culture · C. l'Économie", size=22)
@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — The schedule may still change.", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — The results are not known yet.", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("NOTE · prévu planned · réaliser to carry out · distinguer to distinguish.")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("Complete with the comparative.")
 g2.ex("B1", "完成句子", "plus long", "a budget debate is longer than a concert",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -175,7 +175,7 @@ g2.ex("B2", "完成句子", "moins simple", "the budget is more complex than a s
       "Le budget est ___ (simple) qu'un calendrier. (moins)", size=21.5)
 g2.ex("B2", "完成句子", "aussi important", "Culture budget = Agriculture budget",
       "Le budget de la Culture est ___ (important) que celui de l'Agriculture. (aussi)", size=21.5)
-g2.head("MICRO-DRILLS　QUICK PRACTICE", 25)
+g2.head("MICRO-DRILLS　QUICK PRACTICE", 22)
 g2.bridge("Fill in with examine / ont rejeté / part / peut / connus.")
 g2.ex("B2", "完成句子", "examine", "the National Assembly debates the budget",
       "Cette semaine, l'Assemblée ___ le budget.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　DEBATE", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("Debate: should a schedule be announced before the results? Distinguish prévu (planned) from décidé (decided).")

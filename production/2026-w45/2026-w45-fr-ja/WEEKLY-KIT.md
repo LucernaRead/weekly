@@ -312,3 +312,16 @@ shipped `transform.py` + `render.py` in
 - The P7 grammar bridges and clinic bridge were shortened for line
   geometry only; all French sentences in those blocks are frozen core
   text.
+
+
+## D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Method: pre-D1 new style — D1 fix + D5 in a single render (W47 run.py + local fanout render.py; installed with `apply_variant.py --week 2026-w45`; core-fr svglib landed first). Font sizes / box heights only; no wording changed.
+- Fixes: 13 fixes: 5 heads (LIRE LE CALENDRIER 25→23, IL EST PRÉVU 25→23, COMPARATIF 25→24, CLINIQUE 25→24); 5 box titles (祭りの単語 23→22, 今週のカレンダー 23→21, COMMENTATEUR tsize 23→21, テニス用語 23→22, TROIS DATES tsize 23→21); spill +14→+30; P1 gloss para 19→18 (LINEX vs the y=1844 rule); run3: keys para 15.5→15 (p8 PARSE_FAIL: D5 widening split "36." across lines; wrap simulation 15/14.5/14/13.5 all parse 150/150, took 15).
+- Final gates (run3, 2026-11-14): 16/16 PASS + D18 + D37, OVERALL ALL-GREEN. d5 census Latin 0 / Cyrillic 0 / curly 0; p8 extract 97/150, compare vs core CLEAN (keydiff [135, 150], expected reader-language keys); freeze baseline 8/8, freeze diff vs baseline CJK added 0 (Latin added 372, expected D5 run-splits); spill 0, boxtitle 0, edge 0 TOUCH 0 NEAR, creambox 0 defects; text layer print = web (multiset diff 0); D18 masthead gap 121.0px; D37 sub-masthead margin 185.5pt; P8 lines 204→202, footer slack 32.2px.
+- text.md: differs from issued by exactly 24 lines = 6 gloss lines (the fixed `", [("` leak; rest BYTE-IDENTICAL) (exporter `scratch-prep-p3b/export_w45_fanout_fixed.py`).
+- Final D5 pins (builder originals; web PDF bytes are non-deterministic across runs — the closer must copy the builder's file, never re-run webpdf):
+  - print `The-Lucerna-VOL2-fr-ja.pdf`: 14,313,092 bytes, SHA-256 `c0a986e69e74f2a48cf32a9654969388c4fa08fca11f8acce6c0154b624d8198`.
+  - web `2026-w45-fr-ja.web.pdf`: 1,691,163 bytes, SHA-256 `25413f11638ef6008ffa8606c3eb3e8de156e7f3bcb17ce1e2e4cf696bdebb08`.
+  - text.md `2026-w45-fr-ja.text.md`: 47,804 bytes, SHA-256 `9749487b424beccbd6ba8933ff3e7b0e5f56d54a47a4839016aa07f65effc97a`.
+- Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-ja/`; per-edition D5 report `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-ja.md`.

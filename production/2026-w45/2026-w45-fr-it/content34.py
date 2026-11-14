@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — Forza! · « Quelle action ! » — Che azione!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — Segna! · « C'est gagné ! » — Vinto!", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — Che punto! (tennis) · « Balle de match ! » — Match point!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]
@@ -188,7 +188,7 @@ p.rect(ix, sy4, CW, 218, fill=BOX)
 p.text(ix + 22, sy4 + 40, "À SUIVRE　CONTINUA", 23, "sans", True, OLIVE)
 p.para(ix + 22, sy4 + 80, "Les finalistes seront connus samedi soir, après les demi-finales. Les résultats du week-end seront dans le VOL.4.", 21.5, "serif", False, INK, CW - 44, 1.42)
 mf = Flow(p, [(ix, CW)], sy4 + 218 + 30, 2560, tag="P4-micro")
-mf.head("MICRO-DRILLS　ALLENAMENTO", 24)
+mf.head("MICRO-DRILLS　ALLENAMENTO", 23)
 mf.bridge("Completa con finale / quarts / demi-finales / tableau / fauteuil / choc.")
 mf.ex("B1", "Completamento", "quarts", "Quarti di finale venerdì",
       "Les ___ de finale ont lieu vendredi 6.", size=23)

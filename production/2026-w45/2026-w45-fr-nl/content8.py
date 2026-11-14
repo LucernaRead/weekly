@@ -25,7 +25,7 @@ cloze_defs = [
     ("A2", "A", "elle écrit = zij schrijft"),
 ]
 cnums = [reg_ex(lv, "完形填空", k, nt) for lv, k, nt in cloze_defs]
-bf.head("A　TEXTE À TROUS　GATENTEKST", 24)
+bf.head("A　TEXTE À TROUS　GATENTEKST", 22)
 bf.para(f"Léa a seize ans. Le ({cnums[0]})___ 8 novembre, elle se lève tôt : c'est le jour des finales. Avec son frère, elle va à ({cnums[1]})___ pour voir le tennis. « On ne connaît pas encore les ({cnums[2]})___ », dit son frère. Le soir, Léa raconte : « À Port-en-Bessin, on a ({cnums[3]})___ des coquilles, un régal ! » Le festival ({cnums[4]})___ dans Paris. Léa a ({cnums[5]})___ la musique. Les finales ({cnums[6]})___ dimanche, et elle l'({cnums[7]})___ dans son cahier.", 21)
 bf.bridge("Opties:")
 for n, opts in zip(cnums, [
@@ -41,7 +41,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　CHOIX MULTIPLE　MEERKEUZE", 24)
+bf.head("B　CHOIX MULTIPLE　MEERKEUZE", 21)
 mcq = [
     ("A2", "B", "7 nov. = zaterdag (laatste nachtevent)", "La dernière nocturne a lieu... A. vendredi 6 · B. samedi 7 · C. dimanche 8"),
     ("A2", "A", "nous → allons", "Lundi, nous ___ reprendre les cours. A. allons · B. allez · C. vont"),

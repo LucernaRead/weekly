@@ -22,9 +22,9 @@ moth(p, 975, 420)
 
 # rentrée band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LUNDI 2 NOVEMBRE : LA FRANCE REPREND !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LUNDI 2 NOVEMBRE : LA FRANCE REPREND !", 44, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.", 25, "serif", False, "#cac8ba")
-p.text(RIGHT - 30, 524, "MAANDAG　TERUG NAAR SCHOOL IN HEEL FRANKRIJK", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 524, "MAANDAG　TERUG NAAR SCHOOL IN HEEL FRANKRIJK", 21, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Masters begint　Pitchfork opent　zie pagina 2", 18, "sans", False, GOOSE, anchor="end")
 
 # pairing badge — FR-family shipped precedent (FR×ZH-TW): inserted at y=574, 22pt BRICK, centred, reader-language form
@@ -196,7 +196,7 @@ sav = ["Les vacances de la Toussaint : du samedi 17 octobre au lundi 2 novembre.
        "Reprise le lundi 2 novembre au matin, zones A, B et C ensemble.",
        "Deuxième semaine à l'heure d'hiver : la nuit tombe tôt, lisez le soir !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)

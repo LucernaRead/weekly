@@ -176,3 +176,16 @@ cards/p8-exercices.png       57b396222dada41eac4c013e5da76284aa7c3afd4261ae243b6
 3. P1 hiver 末 2298、P6 习题末 2557 为核心继承的紧贴值，P6 观点栏末 1316 为本版自有值（核心重跑光标 1225；几何合格，距图表顶 1330 有 14px），遮挡审计 0 旗。
 4. P5 正文第 2 栏溢 3 个节点至第 3 栏顶部，符合核心填充模式，目视无重叠。
 5. 本版未做项：独立校对、GitHub 入库、Discord 投递（投递暂停令仍有效，须主线另行决定）。
+
+
+## 18. D5 重建（2026-11-14）
+
+- 方式：pre-D1 新样式——D1 修复 + D5 一次渲完（W47 版 run.py + 本地 fanout 版 render.py；`apply_variant.py --week 2026-w45` 装机；core-fr svglib 先行落盘）。只动字号 / 盒高，不动一字文案。
+- 修复 16 项：头 6（IL EST PRÉVU 25→23、COMPARATIF 25→24、BOÎTE À OUTILS 27→26、CLINIQUE 25→23、B 24→23 等）；盒标题 7（LES DATES FINALWOCHENENDE tsize 23→21、FÊTES/TENNIS/MUSIQUE 23→22、CREATOR 23→21、COMMENTATEUR tsize 23→21、TROIS DATES tsize 23→21）；P1 标题 46→44 + 副标题 27→24；spill +14→+30。
+- 终门禁（run2，2026-11-14）：16 门全绿 + D18 + D37，OVERALL ALL-GREEN。d5 census 拉丁 0 / 西里尔 0 / 弯引号 0；p8 extract 97/150，compare vs core CLEAN（keydiff [135, 150]，预期读者语键）；freeze baseline 8/8，freeze diff vs baseline CJK 新增 0（Latin 新增 354，预期 D5 run-split）；spill 0、boxtitle 0、edge 0 TOUCH 0 NEAR、creambox 0 defects；文字层 print = web（多重集差 0）；D18 刊头间距 50.5px；D37 副刊头行余量 29.4pt；P8 行数 207→201，距页脚线余量 34.0px。
+- text.md：与已发版仅差 24 行 = 6 条 gloss 行（已修 `", [("` 泄漏；其余 BYTE-IDENTICAL）（导出器 `scratch-prep-p3b/export_w45_fanout_fixed.py`）。
+- 最终 D5 pins（builder 原件；网 PDF 字节跨次运行不确定——closer 须拷 builder 原件，绝不重跑 webpdf）：
+  - 印刷 `The-Lucerna-VOL2-fr-de.pdf`：8,681,621 字节，SHA-256 `f8ce7eca24b5a900df86ce92635d9d066afb481c94c48ec3d79dc81e24b92125`。
+  - 网络 `2026-w45-fr-de.web.pdf`：1,207,660 字节，SHA-256 `169c98706a7ccf67477f66f79b7af825880cc559657f7669535353c0ecb801c7`。
+  - text.md `2026-w45-fr-de.text.md`：46,559 字节，SHA-256 `05136a8bb33b4a5b3cee0635ad75ab8b4302d8dc34228f490434065cb9550610`。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-de/`；每版 D5 报告 `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-de.md`。

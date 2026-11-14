@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — ¡Vamos! · « Quelle action ! » — ¡Qué jugada!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — ¡Marca! · « C'est gagné ! » — ¡Ganado!", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — ¡Qué punto! (Tenis) · « Balle de match ! » — ¡Punto de partido!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]

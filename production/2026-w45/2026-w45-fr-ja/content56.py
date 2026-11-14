@@ -128,7 +128,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du 20 octobre (nosparlementai
 p.text(chx + 22, byy + 44, "このページの日程は予定であり、結果はまだ出ていません。次号で追います。", 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470 + 30, 2560, tag="P6-ex")
-e6.head("LIRE LE CALENDRIER　日程を読む", 25)
+e6.head("LIRE LE CALENDRIER　日程を読む", 23)
 e6.bridge("上の日程を読んで正解を選びましょう。")
 e6.ex("B2", "图表读数", "B", "火曜3日：文化とメディア",
       "Mardi 3, on vote... A. l'Agriculture · B. la Culture · C. l'Économie", size=22)
@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — 日程はまだ変わる可能性があります。", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — 結果はまだ分かっていません。", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("解説 — prévu 予定された、計画された · réaliser 実現する、成し遂げる · distinguer 区別する。")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("比較級で文を完成させましょう。")
 g2.ex("B1", "完成句子", "plus long", "予算の議論はコンサートより長い",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　討論", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("議論｜結果が出ていないとき、日程を先に公表すべきでしょうか。prévu（予定）と décidé（決定済み）を区別しましょう。")

@@ -282,3 +282,16 @@ per the family's own fan-out precedents (FR×JA/FR×KO/IT×JA).
 - The FR core's own web-PDF noise issue is explicitly out of scope for
   this edition (parent decision pending); this edition's web PDF was
   freshly generated and verified as above.
+
+
+## D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Method: pre-D1 new style — D1 fix + D5 in a single render (W47 run.py + local fanout render.py; installed with `apply_variant.py --week 2026-w45`; core-fr svglib landed first). Font sizes / box heights only; no wording changed.
+- Fixes: 7 fixes: 3 heads (IL EST PRÉVU 25→23, COMPARATIF 25→24); 3 box titles (COMMENTATEUR tsize 23→21, 테니스 단어 23→22, TROIS DATES tsize 23→21); spill +14→+30.
+- Final gates (run2, 2026-11-14): 16/16 PASS + D18 + D37, OVERALL ALL-GREEN. d5 census Latin 0 / Cyrillic 0 / curly 0; p8 extract 97/150, compare vs core CLEAN (keydiff [135, 150], expected reader-language keys); freeze baseline 8/8, freeze diff vs baseline CJK added 0 (Latin added 364, expected D5 run-splits); spill 0, boxtitle 0, edge 0 TOUCH 0 NEAR, creambox 0 defects; text layer print = web (multiset diff 0); D18 masthead gap 205.2px; D37 sub-masthead margin 212.1pt; P8 lines 199→201, footer slack 32.7px.
+- text.md: BYTE-IDENTICAL vs issued (no gloss-leak lines in this edition) (exporter `scratch-prep-p3b/export_w45_fanout_fixed.py`).
+- Final D5 pins (builder originals; web PDF bytes are non-deterministic across runs — the closer must copy the builder's file, never re-run webpdf):
+  - print `The-Lucerna-VOL2-fr-ko.pdf`: 10,756,090 bytes, SHA-256 `db894fd97570611b32c9b2892887e7a002c208191157c407617dc904828bb321`.
+  - web `2026-w45-fr-ko.web.pdf`: 1,485,819 bytes, SHA-256 `1146e8e6da5f91420f2cdaff0b2826f02dd71bd2d42a7762564b378570cdf277`.
+  - text.md `2026-w45-fr-ko.text.md`: 46,905 bytes, SHA-256 `ad7c9b8c0119917aaeca2e5e9099b14e66aeb51685bce224613513c13f40a6a7`.
+- Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-ko/`; per-edition D5 report `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-ko.md`.

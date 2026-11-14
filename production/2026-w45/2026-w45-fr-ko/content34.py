@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — 힘내! · « Quelle action ! » — 멋진 플레이!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — 득점했어요! · « C'est gagné ! » — 이겼어요!", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — 멋진 포인트!(테니스) · « Balle de match ! » — 매치 포인트!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]
@@ -173,7 +173,7 @@ p.para(ix + 22, 278, "41e édition en 2026 (40e anniversaire). Dernier Masters 1
 p.para(ix + 22, 520, "Le tournoi en fauteuil se joue du 6 au 8 novembre, avec sa finale simple dimanche à midi.", 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
 p.rect(ix, vy, CW, 416, fill="#f0eee5")
-p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　테니스 단어", 23, "sans", True, OLIVE)
+p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　테니스 단어", 22, "sans", True, OLIVE)
 mots4 = [
     "le tennis — 테니스", "une balle — 공", "un set — 한 세트",
     "un match — 경기", "un point — 1점", "la finale — 결승",

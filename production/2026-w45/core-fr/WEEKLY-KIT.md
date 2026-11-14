@@ -231,3 +231,16 @@ EOF
 - 本版不推送 git、不发 Discord、不私信任何人（任务指令）。入仓由主线串行执行；当前入仓通道有无关推送故障，本核心排队等待插入。
 - 入仓 slug：2026-w45-fr-zh-cn；周次 2026-W45；VOL.3；页数 8；题数 150；ABSTRACT.txt 已随版交付（简体中文单行，无 ASCII 双引号）；网页版 PDF（`法语周报VOL3-网页版.pdf`）为 pdfBytes/pdfSha256 实测来源，须在插入时重新实测（本 KIT 不预填哈希，避免渲染后漂移）。
 - 已知待主线确认：W43 核心本身无徽章，本期徽章形式取自 FR×ZH-TW shipped 先例（见第三节）；若主线要求与 W43 核心页脚逐字一致（“LUCERNA FRENCH WEEKLY”），需另行裁定——本期按 fan-out 页脚惯例处理并已在此明示。
+
+
+## 十、D5 重建（2026-11-14）
+
+- 方式：pre-D1 新样式——D1 修复 + D5 一次渲完（W47 版 run.py + 本地 fanout 版 render.py；`apply_variant.py --week 2026-w45` 装机；core-fr svglib 先行落盘）。只动字号 / 盒高，不动一字文案。
+- 修复 7 项：头 4（IL EST PRÉVU 25→23、COMPARATIF 25→24、CLINIQUE 易错诊所 25→23）；盒标题 2（COMMENTATEUR tsize 23→21、TROIS DATES tsize 23→21）；spill +14→+30。本版即 core-fr 目录（(fr, zh-cn) 版）；core-fr svglib 常驻 `_D5_READER` 落盘时为 `"latin"`，本版安装后终值为 `"cjk"`（D24：patched 原样同步，不特殊处理）。
+- 终门禁（run2，2026-11-14）：16 门全绿 + D18 + D37，OVERALL ALL-GREEN。d5 census 拉丁 0 / 西里尔 0 / 弯引号 0；p8 extract 97/150，compare vs core CLEAN（keydiff [135, 150]，预期读者语键）；freeze baseline 8/8，freeze diff vs baseline CJK 新增 0（Latin 新增 407，预期 D5 run-split）；spill 0、boxtitle 0、edge 0 TOUCH 0 NEAR、creambox 0 defects；文字层 print = web（多重集差 0）；D18 刊头间距 204.4px；D37 副刊头行余量 215.2pt；P8 行数 201→202，距页脚线余量 32.7px。
+- text.md：与已发版 BYTE-IDENTICAL（导出器 `scratch-prep-p3b/export_w45_fanout_fixed.py`）。
+- 最终 D5 pins（builder 原件；网 PDF 字节跨次运行不确定——closer 须拷 builder 原件，绝不重跑 webpdf）：
+  - 印刷 `The-Lucerna-VOL2-fr.pdf`：10,114,229 字节，SHA-256 `5bfe7dd2263512d2e61cb2c62953973cab8d732814b4cb444419a11c0570a0d7`。
+  - 网络 `2026-w45-fr-zh-cn.web.pdf`：1,569,165 字节，SHA-256 `1b665ddf6588a3da3eada8acb3d0ee2a4bebcb660c4996ea736b8248d7a54aa0`。
+  - text.md `2026-w45-fr-zh-cn.text.md`：45,357 字节，SHA-256 `88a2a3adafdfa57961f8585dd1b88d169499ecab582b710caf6046a14f666db2`。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-zh-cn/`；每版 D5 报告 `production/notes/2026-w45/g-fr/scratch-d5-rebuild-fr/D5-REPORT-2026-w45-fr-zh-cn.md`。

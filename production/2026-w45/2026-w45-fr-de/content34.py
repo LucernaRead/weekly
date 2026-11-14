@@ -73,7 +73,7 @@ cy3 = caption(p, ix, 740, CW,
               "Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public")
 by3 = cy3 + 22
 p.rect(ix, by3, CW, 452, fill=BOX)
-p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　WÖRTER", 23, "sans", True, OLIVE)
+p.text(ix + 22, by3 + 40, "LES MOTS DES FÊTES　WÖRTER", 22, "sans", True, OLIVE)
 mots = [
     "un saint — Heiliger", "un cimetière — Friedhof", "une tombe — Grab",
     "un jour férié — Feiertag", "se souvenir — sich erinnern, gedenken",
@@ -163,7 +163,7 @@ f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — Auf geht's! · « Quelle action ! » — Was für eine Aktion!", "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — Er trifft! · « C'est gagné ! » — Gewonnen!", "serif", False, INK, 21.5, 1.42),
     ("« Quel point ! » — Was für ein Punkt! (Tennis) · « Balle de match ! » — Matchball!", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 f.end_report()
 
 ix = COLX[3]
@@ -173,7 +173,7 @@ p.para(ix + 22, 278, "41e édition en 2026 (40e anniversaire). Dernier Masters 1
 p.para(ix + 22, 520, "Le tournoi en fauteuil se joue du 6 au 8 novembre, avec sa finale simple dimanche à midi.", 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
 p.rect(ix, vy, CW, 416, fill="#f0eee5")
-p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　WÖRTER", 23, "sans", True, OLIVE)
+p.text(ix + 22, vy + 40, "LES MOTS DU TENNIS　WÖRTER", 22, "sans", True, OLIVE)
 mots4 = [
     "le tennis — Tennis", "une balle — Ball", "un set — Satz",
     "un match — Spiel", "un point — Punkt", "la finale — Finale",

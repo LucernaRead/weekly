@@ -1,0 +1,38 @@
+== 2026-w45-fr-nl tag=run2 Sat Nov 14 18:52:37 UTC 2026 ==
+g1 run: PASS (TOTAL 150 FLOW=0 HEAD=0)
+g2 head_check: PASS (rc=0 0 defects)
+g3 d5_census: PASS (rc=0; {
+ "pages": {
+  "p1-une.svg": {
+   "elements": 228,
+   "newsreader_elements": 201,
+   "curly_total": 0,
+   "curly_in_newsreader": 0,
+   "cjk_sans_elements": 24
+  },
+  "p2-vie.svg": {
+   "elements": 214,
+   "newsreader_elements": 194,
+   "curly_total": 0,
+   "curly_in_newsreader": 0,
+   "cjk_sans_ele)
+g4 render: PASS
+g5 webpdf: PASS (1204304B <7MB)
+g6 occlusion: PASS (rc=0; /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-nl/svg: 0 flags )
+g7 p8 extract: rc=0 edition noted set = 97 of 150 core noted set = 97 of 150
+g8 p8 compare: PASS (CLEAN keydiff=[135, rc=0)
+g9 freeze baseline: PASS (rc=0 8/8)
+g10 freeze diff vs base: PASS (cjk_added_total=0 latin_added=364; rc=0; CJK 1 must be located before acceptance)
+g11 spill: PASS (rc=0; 0 SPILL)
+g12 boxtitle: PASS (rc=0; backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-fr/scratch-fanout-fr/backup/2026-w45-fr-nl 0 DEFECT )
+g13 edge: PASS (rc=0;   P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 63.7} EDGE_SCAN 2026-w45-fr-nl: 8 pages, 0 TOUCH, 0 NEAR )
+g14 creambox: PASS (rc=0; ratios: n=539 median=1.0 boldT=1.057 boldF=0.969 P8 p8-exercices.svg: lines 221->215 slack_footer 34.1->34.1 )
+g15 print-vs-web (0, 0) web-vs-issues (0, 3935) web-vs-issues-nonspace (0, 0)
+g15 text.md: BYTE-IDENTICAL
+g15 RESULT: PASS
+g15 textlayer+textmd: PASS (rc=0)
+g16 census_quotes: PASS (rc=0;   p8-exercices.svg: defective=0   TOTAL defective: 0 GRAND TOTAL defective: 0 )
+D18 masthead: PASS (2026-w45-fr-nl: D18 gap=89.0px (slogan_x=553.2 date_x=1485.8) PASS)
+D37 sub-masthead: PASS (2026-w45-fr-nl: D37 pdf_end=1059.3pt margin=20.3pt PASS (box 1079.6pt; tail: ...LEG IN HET NEDERLANDS DE EDITIE VOOR NEDERLANDSTALIGE LEZERS) | svg_end=1408.1px margin=31.4px PASS)
+P8 lines base->patch: 221 -> 215 slack_footer 34.1 -> 34.1
+OVERALL: ALL-GREEN (run2)

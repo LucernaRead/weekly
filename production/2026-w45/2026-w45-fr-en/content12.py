@@ -22,9 +22,9 @@ moth(p, 975, 420)
 
 # rentrée band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LUNDI 2 NOVEMBRE : LA FRANCE REPREND !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LUNDI 2 NOVEMBRE : LA FRANCE REPREND !", 44, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Ce matin, les élèves reprennent les cours. Le Masters commence, Pitchfork ouvre.", 25, "serif", False, "#cac8ba")
-p.text(RIGHT - 30, 524, "MONDAY　BACK TO SCHOOL ALL OVER FRANCE", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 524, "MONDAY　BACK TO SCHOOL ALL OVER FRANCE", 24, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Masters begins　Pitchfork opens　see page 2", 18, "sans", False, GOOSE, anchor="end")
 
 # pairing badge — FR-family shipped precedent (FR×ZH-TW): inserted at y=574, 22pt BRICK, centred, reader-language form
@@ -90,7 +90,7 @@ p.text(gx + 22, byy + 76, "Results out Saturday night and Sunday.", 19, "sans", 
 # ---- sommaire (col 3) ----
 sy = 1280
 p.rect(gx, sy, gw, 372, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "DANS CE NUMÉRO　IN THIS ISSUE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "DANS CE NUMÉRO　IN THIS ISSUE", 21, "sans", True, OLIVE)
 som = [
     ("p.2", "La rentrée et les lectures", "A2"),
     ("p.3", "Halloween, Toussaint, Parc", "A2→B1"),
@@ -189,7 +189,7 @@ sav = ["Les vacances de la Toussaint : du samedi 17 octobre au lundi 2 novembre.
        "Reprise le lundi 2 novembre au matin, zones A, B et C ensemble.",
        "Deuxième semaine à l'heure d'hiver : la nuit tombe tôt, lisez le soir !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)

@@ -86,7 +86,7 @@ for lv, k, nt, body in d_items:
     bf.ex(lv, "完成句子", k, nt, body, size=20)
 
 # ---- E. translation ----
-bf.head("E　TRADUCTION　TRANSLATION", 24)
+bf.head("E　TRADUCTION　TRANSLATION", 23)
 e_items = [
     ("B2", "Reading a programme is already a way of understanding France.", "lire un programme = to read a programme",
      "Translate into English: « Lire un programme, c'est déjà comprendre la France. »"),

@@ -1,0 +1,94 @@
+== 2026-w45-fr-ja tag=run3 Sat Nov 14 18:38:25 UTC 2026 ==
+g1 run: PASS (TOTAL 150 FLOW=0 HEAD=0)
+g2 head_check: PASS (rc=0 0 defects)
+g3 d5_census: PASS (rc=0; {
+ "pages": {
+  "p1-une.svg": {
+   "elements": 239,
+   "newsreader_elements": 195,
+   "curly_total": 0,
+   "curly_in_newsreader": 0,
+   "cjk_sans_elements": 41
+  },
+  "p2-vie.svg": {
+   "elements": 270,
+   "newsreader_elements": 206,
+   "curly_total": 0,
+   "curly_in_newsreader": 0,
+   "cjk_sans_ele)
+g4 render: PASS
+g5 webpdf: PASS (1691163B <7MB)
+g6 occlusion: PASS (rc=0; /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-fr/patched/2026-w45-fr-ja/svg: 0 flags )
+g7 p8 extract: rc=0 edition noted set = 97 of 150 core noted set = 97 of 150
+g8 p8 compare: PASS (CLEAN keydiff=[135, rc=0)
+g9 freeze baseline: PASS (rc=0 8/8)
+g10 freeze diff vs base: PASS (cjk_added_total=0 latin_added=372; rc=0; CJK 1 must be located before acceptance)
+g11 spill: PASS (rc=0; 0 SPILL)
+g12 boxtitle: PASS (rc=0; backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-fr/scratch-fanout-fr/backup/2026-w45-fr-ja 0 DEFECT )
+g13 edge: PASS (rc=0;   P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 65.9} EDGE_SCAN 2026-w45-fr-ja: 8 pages, 0 TOUCH, 0 NEAR )
+g14 creambox: PASS (rc=0; ratios: n=516 median=1.002 boldT=1.049 boldF=0.982 P8 p8-exercices.svg: lines 204->202 slack_footer 37.1->32.2 )
+g15 print-vs-web (0, 0) web-vs-issues (2, 616) web-vs-issues-nonspace (0, 0)
+g15 text.md: diff 56 lines, changed 12 (removed 6 / added 6); gloss-leak-only=True
+   --- 
+   +++ 
+   @@ -42,7 +42,7 @@
+    
+    Trois villes, trois finales, un seul week-end : Paris pour le tennis, Plailly pour les frissons, Port-en-Bessin pour les saveurs. Suite en pages 3 et 4.
+    
+   -> ", [("解説 — se jouer 決まる、行われる · une finale 決勝 · une demi-finale 準決勝 · un quart de finale 準々決勝 · une nocturne 夜のイベント · un frisson ぞくぞくする興奮 · la coquille Saint-
+   +> 解説 — se jouer 決まる、行われる · une finale 決勝 · une demi-finale 準決勝 · un quart de finale 準々決勝 · une nocturne 夜のイベント · un frisson ぞくぞくする興奮 · la coquille Saint-Jacque
+    
+    ### LES DATES　決勝週末の日程
+    
+   @@ -214,7 +214,7 @@
+    
+    Bonne rentrée à tous ! Que vous soyez élève, étudiant ou lecteur du soir, cette semaine recommence avec vous — et elle se terminera en beauté, dimanche 8 novem
+    
+   -> ", [("解説 — la rentrée 新学期の始まり、再開 · reprendre 再開する、再び始める · un cartable 学校かばん · un décalage ずれ、時差 · en revanche それに対して、反対に · un rituel 習慣、儀式。
+   +> 解説 — la rentrée 新学期の始まり、再開 · reprendre 再開する、再び始める · un cartable 学校かばん · un décalage ずれ、時差 · en revanche それに対して、反対に · un rituel 習慣、儀式。
+    
+    ### LES VACANCES, EN CHIFFRES
+    
+   @@ -328,7 +328,7 @@
+    
+    Et lundi 2 novembre ? C'est le jour des morts : un jour de souvenir en famille, plus discret que la Toussaint, souvent confondu avec elle. La Toussaint honore 
+    
+   -> ", [("解説 — se déguiser 仮装する、変装する · un sort 魔法、いたずら · une ambiance 雰囲気 · le souvenir 思い出、記念 · confondre 混同する · discret 控えめな、静かな。
+   +> 解説 — se déguiser 仮装する、変装する · un sort 魔法、いたずら · une ambiance 雰囲気 · le souvenir 思い出、記念 · confondre 混同する · discret 控えめな、静かな。
+    
+    ### À VOUS !　さあ練習
+    
+   @@ -458,7 +458,7 @@
+    
+    Et après le tennis ? Le football continue : la 10e journée de Ligue 1 se joue du vendredi 6 au dimanche 8 novembre. Le grand match du week-end, c'est Lens – Ma
+    
+   -> ", [("解説 — un tournoi 大会、トーナメント · sur dur ハードコート · en salle 室内 · un tableau principal 本戦の組み合わせ表 · le tenant du titre 前回優勝者 · basculer 逆転する、傾く · les tribunes 
+   +> 解説 — un tournoi 大会、トーナメント · sur dur ハードコート · en salle 室内 · un tableau principal 本戦の組み合わせ表 · le tenant du titre 前回優勝者 · basculer 逆転する、傾く · les tribunes 観客席。
+    
+    ### À VOUS !　さあ練習
+    
+   @@ -574,7 +574,7 @@
+    
+    Le festival tombe pile pendant la semaine de la rentrée : après les vacances, les étudiants retrouvent Paris, et Paris leur offre de la musique. Et le dimanche
+    
+   -> ", [("解説 — un lieu 場所、会場 · une affiche ポスター · les paroles 歌詞 · donner le ton 雰囲気を決める · se promener 散歩する、ぶらつく · pile ちょうど、ぴったり。
+   +> 解説 — un lieu 場所、会場 · une affiche ポスター · les paroles 歌詞 · donner le ton 雰囲気を決める · se promener 散歩する、ぶらつく · pile ちょうど、ぴったり。
+    
+    ### À VOUS !　さあ練習
+    
+   @@ -668,7 +668,7 @@
+    
+    Pourquoi le budget compte-t-il pour un apprenant de français ? Parce que c'est le vocabulaire de la vie publique : une mission, un crédit, un vote, un amendeme
+    
+   -> ", [("解説 — un budget 予算 · une mission （予算の）項目 · un député 国民議会議員 · rejeter 否決する · à l'unanimité 全会一致で · un amendement 修正案。
+   +> 解説 — un budget 予算 · une mission （予算の）項目 · un député 国民議会議員 · rejeter 否決する · à l'unanimité 全会一致で · un amendement 修正案。
+    
+    LE CALENDRIER PRÉVU　予定の投票日程（結果は未定）
+    
+g15 RESULT: PASS
+g15 textlayer+textmd: PASS (rc=0)
+g16 census_quotes: PASS (rc=0;   p8-exercices.svg: defective=0   TOTAL defective: 0 GRAND TOTAL defective: 0 )
+D18 masthead: PASS (2026-w45-fr-ja: D18 gap=121.0px (slogan_x=585.2 date_x=1485.8) PASS)
+D37 sub-masthead: PASS (2026-w45-fr-ja: D37 pdf_end=894.1pt margin=185.5pt PASS (box 1079.6pt; tail: ...フランス語テキスト 日本語の解説 日本語読者のための版) | svg_end=1192.1px margin=247.4px PASS)
+P8 lines base->patch: 204 -> 202 slack_footer 37.1 -> 32.2
+OVERALL: ALL-GREEN (run3)

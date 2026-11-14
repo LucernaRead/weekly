@@ -41,7 +41,7 @@ for n, opts in zip(cnums, [
     bf.para(f"{n}. {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　CHOIX MULTIPLE　ESCOLHA", 24)
+bf.head("B　CHOIX MULTIPLE　ESCOLHA", 23)
 mcq = [
     ("A2", "B", "7 nov. = samedi (última noite)", "La dernière nocturne a lieu... A. vendredi 6 · B. samedi 7 · C. dimanche 8"),
     ("A2", "A", "nous → allons", "Lundi, nous ___ reprendre les cours. A. allons · B. allez · C. vont"),

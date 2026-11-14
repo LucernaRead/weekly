@@ -201,7 +201,7 @@ sav = ["Les vacances de la Toussaint : du samedi 17 octobre au lundi 2 novembre.
        "Reprise le lundi 2 novembre au matin, zones A, B et C ensemble.",
        "Deuxième semaine à l'heure d'hiver : la nuit tombe tôt, lisez le soir !"]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 30
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAVIEZ-VOUS ?", 24, "sans", True, OLIVE)
@@ -210,13 +210,13 @@ for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "Et vous ? Racontez votre rentrée en deux phrases en français : où étiez-vous lundi matin, et quel livre avez-vous lu pendant les vacances ? Les meilleurs textes paraîtront dans le VOL.4 (page 7, « Le courrier des lecteurs »)."
-eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Расскажите о возвращении: где вы были в понедельник утром, что читали? Пришлите два предложения!", "sans", False, 20, CW - 44)) * 29 + 20
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Расскажите о возвращении: где вы были в понедельник утром, что читали? Пришлите два предложения!", "sans", False, 19, CW - 44)) * 29 + 20  # D5 fix run3: gloss 20->19 (4 lines -> 3; box bottom clears the dy hline)
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
 p.text(ix + 22, yy3 + 26, "ET VOUS ?　РАССКАЖИТЕ О СЕБЕ", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(ix + 22, yy3 + 20, "Расскажите о возвращении: где вы были в понедельник утром, что читали? Пришлите два предложения!", 20, "sans", False, GREY, CW - 44, 1.42)
+p.para(ix + 22, yy3 + 20, "Расскажите о возвращении: где вы были в понедельник утром, что читали? Пришлите два предложения!", 19, "sans", False, GREY, CW - 44, 1.42)  # D5 fix run3: gloss 20->19
 print("P2 col3 ends", ey3 + eh)
 
 # ---- Dire la date wide box ----

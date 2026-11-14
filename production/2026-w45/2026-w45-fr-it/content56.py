@@ -67,7 +67,7 @@ p.para(ix + 22, 278, "Lundi 2 : ouverture à l'Élysée Montmartre. Jeudi 5 – 
 p.para(ix + 22, 520, "Le festival, c'est toute la semaine du numéro : du lundi de la rentrée au dimanche des finales.", 21.5, "serif", False, INK, CW - 44, 1.42)
 qy5 = 696
 p.rect(ix, qy5, CW, 400, fill="#f0eee5")
-p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　LESSICO", 23, "sans", True, OLIVE)
+p.text(ix + 22, qy5 + 40, "MOTS DE LA MUSIQUE　LESSICO", 22, "sans", True, OLIVE)
 mots5 = [
     "un festival — festival", "un concert — concerto",
     "une chanson — canzone", "un chanteur — cantante",
@@ -80,7 +80,7 @@ for m in mots5:
     yy5 += 37
 dy5 = qy5 + 400 + 26
 p.rect(ix, dy5, CW, 440, fill=BOX)
-p.text(ix + 22, dy5 + 40, "PARIS CREATOR WEEK　CREATOR", 23, "sans", True, OLIVE)
+p.text(ix + 22, dy5 + 40, "PARIS CREATOR WEEK　CREATOR", 21, "sans", True, OLIVE)
 p.para(ix + 22, dy5 + 78, "Mercredi 4 et jeudi 5 novembre, à La Villette, c'est la Paris Creator Week : deux jours pour les créateurs en ligne — vidéos, podcasts, réseaux sociaux. Les jeunes créateurs y rencontrent leur public, en vrai.", 21.5, "serif", False, INK, CW - 44, 1.42)
 p.para(ix + 22, dy5 + 300, "4–5 novembre a La Villette: Creator Week — i creator online incontrano il pubblico dal vivo.", 20, "sans", False, GREY, CW - 44, 1.4)
 ty5 = dy5 + 440 + 26
@@ -128,7 +128,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du 20 octobre (nosparlementai
 p.text(chx + 22, byy + 44, "Questo calendario è provvisorio; i risultati seguiranno nel prossimo numero.", 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 470 + 30, 2560, tag="P6-ex")
-e6.head("LIRE LE CALENDRIER　LEGGERE", 25)
+e6.head("LIRE LE CALENDRIER　LEGGERE", 23)
 e6.bridge("Leggi il calendario sopra e scegli la risposta giusta.")
 e6.ex("B2", "Lettura dati", "B", "Martedì 3: cultura e media",
       "Mardi 3, on vote... A. l'Agriculture · B. la Culture · C. l'Économie", size=22)
@@ -161,13 +161,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — Il calendario può ancora cambiare.", "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — I risultati non sono ancora noti.", "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge("Nota — prévu previsto, programmato · réaliser realizzare, attuare · distinguer distinguere.")
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head("LE COMPARATIF EN POLITIQUE", 25)
+g2.head("LE COMPARATIF EN POLITIQUE", 24)
 g2.bridge("Completa con il comparativo.")
 g2.ex("B1", "Completamento", "plus long", "Un dibattito sul bilancio è più lungo di un concerto",
       "Un débat sur le budget est ___ (long) qu'un concert.", size=21.5)
@@ -175,7 +175,7 @@ g2.ex("B2", "Completamento", "moins simple", "Il bilancio è più complesso di u
       "Le budget est ___ (simple) qu'un calendrier. (moins)", size=21.5)
 g2.ex("B2", "Completamento", "aussi important", "Il bilancio della cultura e quello dell'agricoltura sono ugualmente importanti",
       "Le budget de la Culture est ___ (important) que celui de l'Agriculture. (aussi)", size=21.5)
-g2.head("MICRO-DRILLS　ALLENAMENTO", 25)
+g2.head("MICRO-DRILLS　ALLENAMENTO", 23)
 g2.bridge("Completa con examine / ont rejeté / part / peut / connus.")
 g2.ex("B2", "Completamento", "examine", "L'Assemblea nazionale esamina il bilancio",
       "Cette semaine, l'Assemblée ___ le budget.", size=21.5)
@@ -191,7 +191,7 @@ g2.box("TROIS DATES POUR COMPRENDRE", [
     ("23 oct. — rejet 115–1 des recettes de la Sécurité sociale.", "serif", False, INK, 21.5, 1.42),
     ("3–6 nov. — votes par mission, programme prévu.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat examine le texte.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5 fix run2
 g2.head("LE DÉBAT　IL DIBATTITO", 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge("Discussione: si deve annunciare un calendario prima dei risultati? Distingui prévu (previsto) e décidé (deciso).")
