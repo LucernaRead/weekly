@@ -46,7 +46,7 @@ f.box("LA SETTIMANA IN CIFRE　IN CIJFERS", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre(50+ Forum Cultura-evenementen in Milaan)", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano(landen bij de Panettone-finale in Milaan)", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana(speelronde 11 dit weekend)", "serif", False, INK, 20.5, 1.35),
-], tsize=20)
+], tsize=19)
 f.head("ADESSO TU　NU JIJ", 25)
 f.ex("A2", "Voltooi de zin", "freddo", "il primo freddo = de eerste kou",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)
@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "Data per kalender; tijden kunnen wijzigen.", 16.5, "s
 # ---- sommario (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　INHOUD", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　INHOUD", 23, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Il freddo e il 2 novembre", "A2"),
     ("Pag. 3", "Panettone e torrone", "A2→B1"),
@@ -178,7 +178,7 @@ f.para("Anche la manovra, la legge di bilancio, era attesa al voto intorno al 28
 f.bridge("Bij het ter perse gaan was de uitslag nog niet bevestigd — zie pagina 6.")
 f.box("LA FRASE PER RICORDARE　EZELSBRUG", [
     ("«Fa freddo, copriti bene!» Così dicono le nonne italiane: quando arriva il primo freddo, il consiglio è uno solo — vestirsi bene, a strati.", "serif", False, INK, 21.5, 1.4),
-], tsize=20)
+], tsize=18)
 f.gloss("il cappotto = jas · la sciarpa = sjaal · i guanti = handschoenen · a strati = in laagjes · il termosifone = radiator · il crisantemo = chrysant")
 f.end_report()
 

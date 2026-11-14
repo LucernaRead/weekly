@@ -66,13 +66,13 @@ f.ex("B1", "Make sentences", "A che ora apre il Forum Cultura?", "Question phras
 f.ex("B1", "Make sentences", "Il freddo arriva lunedì.", "Subject + verb + time",
      "il freddo / arriva / lunedì → ___", instr="Reorder", size=15.5, gap=1)
 f.head("E　TRADUCI", 22, OLIVE, 5)
-f.ex("A2", "翻译", "On Monday the first cold arrives.", "Compare with the original.",
+f.ex("A2", "Translation", "On Monday the first cold arrives.", "Compare with the original.",
      "Lunedì arriva il primo freddo. → ___", instr="Translate into English", size=15.5, gap=1)
-f.ex("B1", "翻译", "The public can taste for free.", "assaggiare gratis = taste free",
+f.ex("B1", "Translation", "The public can taste for free.", "assaggiare gratis = taste free",
      "Il pubblico può assaggiare gratis. → ___", instr="Translate into English", size=15.5, gap=1)
-f.ex("B1", "翻译", "Sunday evening: Fiorentina play Juventus.", "si gioca = is played",
+f.ex("B1", "Translation", "Sunday evening: Fiorentina play Juventus.", "si gioca = is played",
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Translate into English", size=15.5, gap=1)
-f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = must",
+f.ex("B2", "Translation", "Ogni previsione deve essere chiara.", "dovere = must",
      "Every forecast must be clear. → ___", instr="Translate into Italian", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
 f.match_set("B2", "Match words",

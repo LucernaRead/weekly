@@ -49,7 +49,7 @@ f.box("LA SETTIMANA IN CIFRE　數字看本週", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre（米蘭文化論壇 50 多場活動）", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano（參加米蘭潘妮託尼決賽的國家數）", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana（本週末意甲第 11 輪）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=20)
 f.head("ADESSO TU　即學即練", 25)
 f.ex("A2", "完成句子", "freddo", "il primo freddo = 第一場寒冷",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)

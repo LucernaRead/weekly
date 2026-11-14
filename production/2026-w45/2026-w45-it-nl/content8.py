@@ -70,8 +70,8 @@ f.ex("A2", "Vertaling", "Op maandag komt de eerste kou.", "zie de originele zin"
      "Lunedì arriva il primo freddo. → ___", instr="Vertaal", size=15.5, gap=1)
 f.ex("B1", "Vertaling", "Het publiek kan gratis proeven.", "assaggiare gratis = proeven",
      "Il pubblico può assaggiare gratis. → ___", instr="Vertaal", size=15.5, gap=1)
-f.ex("B1", "Vertaling", "Domenica sera si gioca Fiorentina–Juventus.", "si gioca = er wordt gespeeld",
-     "Op zondagavond speelt Fiorentina tegen Juventus. → ___", instr="Vertaal", size=15.5, gap=1)
+f.ex("B1", "Vertaling", "Op zondagavond speelt Fiorentina tegen Juventus.", "si gioca = er wordt gespeeld",
+     "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Vertaal", size=15.5, gap=1)
 f.ex("B2", "Vertaling", "Ogni previsione deve essere chiara.", "dovere = moeten",
      "Elke voorspelling moet duidelijk zijn. → ___", instr="Vertaal", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)

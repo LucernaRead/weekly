@@ -66,13 +66,13 @@ f.ex("B1", "Составить предложения", "A che ora apre il Forum
 f.ex("B1", "Составить предложения", "Il freddo arriva lunedì.", "Подлежащее + глагол + время",
      "il freddo / arriva / lunedì → ___", instr="Составьте предложение", size=15.5, gap=1)
 f.head("E　TRADUCI", 22, OLIVE, 5)
-f.ex("A2", "翻译", "В понедельник приходит первый холод.", "См. оригинал",
+f.ex("A2", "Перевод", "В понедельник приходит первый холод.", "См. оригинал",
      "Lunedì arriva il primo freddo. → ___", instr="Переведите", size=15.5, gap=1)
-f.ex("B1", "翻译", "Публика может пробовать бесплатно.", "gratis = бесплатно",
+f.ex("B1", "Перевод", "Публика может пробовать бесплатно.", "gratis = бесплатно",
      "Il pubblico può assaggiare gratis. → ___", instr="Переведите", size=15.5, gap=1)
-f.ex("B1", "翻译", "«Фиорентина» — «Ювентус» в воскр. веч.", "si gioca = играют",
+f.ex("B1", "Перевод", "«Фиорентина» — «Ювентус» в воскресенье вечером", "si gioca = играют",
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Переведите", size=15.5, gap=1)
-f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = должен, нужно",
+f.ex("B2", "Перевод", "Ogni previsione deve essere chiara.", "dovere = должен, нужно",
      "Каждый прогноз должен быть понятным. → ___", instr="Переведите", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
 f.match_set("B2", "Слова и значения",

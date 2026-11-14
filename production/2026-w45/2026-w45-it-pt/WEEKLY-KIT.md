@@ -297,10 +297,10 @@ Supplementary geometric checks (same-core-family scripts, EN sibling's
   no overflow, overlap, footer strike, or frame touch on any page; P1
   badge/subtitle/day-box/parola, P6 chart + caption, P7 col3 vs FRASI
   rule, P8 answers bottom vs footer all confirmed by eye).
-- Print PDF `La-Lucerna-VOL2-PT.pdf`: **7,137,176 bytes**,
-  sha256 ed151a3987d527f88ee54409f7337417759810b929b796715cf222ec9086acd4
-- Web PDF `La-Lucerna-VOL2-PT-web.pdf`: **3,622,395 bytes** (< 10 MB),
-  sha256 ff156593b4646f0864edde12b762577a5393c6cdde898e772fcb9043627149ca
+- Print PDF `La-Lucerna-VOL2-PT.pdf`: **6,093,415 bytes**,
+  sha256 7701f8f6505a064cfe4b8fcabff7b923f58349e6d59ab7af78926c4c8b1ee7d5
+- Web PDF `La-Lucerna-VOL2-PT-web.pdf`: **563,824 bytes** (< 10 MB),
+  sha256 83880dc68332d33f0caafe6832ecf64fe612b5aaf037e019a50c0f55c0c6379e
 
 ## 12. Build / reproduce
 
@@ -361,3 +361,13 @@ final, Festa del Torrone Cremona, Serie A matchday 11), the learner
 search phrase («aprender italiano»), the target language (italiano),
 levels (A2 a B2) and the exercise count (150 com respostas). Facts taken
 only from this edition.
+
+## 14. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-pt/svglib.py --target it --reader pt --week 2026-w45` (after `--check` dry-run); `_D5_READER = "latin"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 488 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:50 box-title tsize 20→18 (`EM NÚMEROS`, P1, over +38.2px). The same overflow caused the run1 occlusion flag (ink overlapped the P1 body text by 10.2×7.3px); shrinking the title cleared it.
+- run1 verdict: FAILURES: ['6-occlusion', '12-boxtitle', '14-creambox'] (occlusion 1 flag, boxtitle 1 defect, creambox 1 defect). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 247, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 211->211, slack to footer 57.6->57.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 17.0px PASS. fix2 verdict (F-G1, D37): FAILURES: ['15a-textmd'] — only 15a red, expected (text.md diff vs shipped = 4 F1 label lines); all other 17 gates + D18 green (print 6,093,415 B sha `7701f8f6505a…`, web 563,824 B sha `83880dc68332…`, P1 subtitle line-end x1=1056.7pt, 22.9pt inside the cream-box edge).
+- New deliverables (fix2, originals in `scratch-2026-w45-it/fix2/2026-w45-it-pt/`): print PDF 6,093,415 bytes, sha256 `7701f8f6505a064cfe4b8fcabff7b923f58349e6d59ab7af78926c4c8b1ee7d5`; web PDF 563,824 bytes, sha256 `83880dc68332d33f0caafe6832ecf64fe612b5aaf037e019a50c0f55c0c6379e`; text.md 55,673 bytes, sha256 `c3d13e9d3572d0b0bca0c6efb07c04bdf302ed232f55f2a22564716a50868143` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). NOTE: the text.md pin in this line was the run2 old value (55,657 bytes, sha256 `97caf5b7303fbd247fea1aef00c9f6beadcfc6c4992b404c5772caa0c517c35a`, F-K6, reproof v2 §7) — fixed at landing to the fix2 value above; the fix2 text.md deliverable is `fix2/2026-w45-it-pt/2026-w45-it-pt.text.md.new`, byte-identical to the fix1 file. Pin lines above updated to the fix2 print/web values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the fix2 original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-pt.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-pt/GATES-SUMMARY.txt` (copy of the scratch fix2 summary).

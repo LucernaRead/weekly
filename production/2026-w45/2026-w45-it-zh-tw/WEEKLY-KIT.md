@@ -90,8 +90,8 @@
 
 ## 8. 針腳（實測，本輪結束時再測，與 round-0 一致，未重渲染）
 
-- 印刷 PDF：`La-Lucerna-VOL2-ZHTW.pdf` **19,412,405 B** · sha256 `392b5d28da9ef19bebca02a4acdd966b0a6b276db071207f38b7bf14781835ce`
-- 網頁 PDF：`La-Lucerna-VOL2-ZHTW-web.pdf` **3,450,084 B** · sha256 `fbb6e0a99b857adf1128dd8f112d3e11337255ad87a77e66c0d8a99191cb4acd`（<10 MB ✓）
+- 印刷 PDF：`La-Lucerna-VOL2-ZHTW.pdf` **7,491,805 B** · sha256 `da50f82f50f72d165773fba867812cad7d6f4b795bd0405418cf6a1c8750a898`
+- 網頁 PDF：`La-Lucerna-VOL2-ZHTW-web.pdf` **985,372 B** · sha256 `d2eef98438182e0a40fe86f5eee2c4b2303caf86495155f11bac7edd17955325`（<10 MB ✓）
 - SVG：p1 26255475 · p2 f66b946b · p3 f9d7ff55 · p4 8ef6b3ed · p5 22a1f879 · p6 ca108696 · p7 78e22a1f · p8 79e52148（前 8 位，完整值見 build 目錄 sha256-r0.txt，本輪再測一致）
 - Cards：p1 d3bb2267 · p2 5dd4b4de · p3 aee5f4a5 · p4 8e944cac · p5 f9bcf22d · p6 070f3b80 · p7 ec8a9bed · p8 43377291（前 8 位，本輪再測一致）
 - 雙 PDF 皆 8 頁。
@@ -117,3 +117,13 @@
   - `cd tools && ./venv/bin/python p8.py compare --core-dir ../files/weekly-report-w45-it-core --edition-dir ../files/weekly-report-w45-it-zh-tw --target it`
   - 本輪補充審計腳本：`hidden_files/weekly-report-w45-it-zh-tw-build/audit-r1.py`（輸出 `audit-r1.txt`；唯讀，不 import content 模組、不寫 files/）。
 - 摘要檔：`ABSTRACT.txt`（繁體中文單行、無 ASCII 雙引號；insert.py 門檻用；tables.json zh-tw `abstract_heading` = «摘要»）。
+
+## 12. D5 重建（2026-11-14）
+
+- 範圍：D5-only（新樣式已在倉，無 §1.1 port 組裝）。安裝：`apply_variant.py --svglib patched/2026-w45-it-zh-tw/svglib.py --target it --reader zh-tw --week 2026-w45`（先 `--check` dry-run）；`_D5_READER = "cjk"`；路由單元測試 `test_d5_routing.py` FAILURES: 0；fix2 塊保留（5 處）。
+- Core（全家共用一次）：`apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 行，`_D5_READER = "latin"`（D24：closer 按 patched 原樣同步）。
+- 基線（修前生產版，裝機前全部乾淨）：run TOTAL 150，0 警告；印/網文字層 vs 已發網 PDF 字符多重集差 0；text.md 匯出與 issues 已發版 BYTE-IDENTICAL；修前普查 D5 違規 336（>0）。
+- run1 → run2 修法（只動字號，零文字改動）：content12.py:52 框標題 tsize →20（`　數字看本週`，P1，右溢 +42.6px）。同一溢出亦造成 run1 occlusion 旗標（墨跡與 P1 正文重疊 14.6×12.0px）；縮小字號後清除。
+- run1：FAILURES: ['6-occlusion', '12-boxtitle', '14-creambox']（occlusion 1 旗標、boxtitle 1 缺陷、creambox 1 缺陷）。run2：**ALL-GREEN**（17 門 + D18 刊頭）。run TOTAL 150 / head_check 0 缺陷 / d5 census 0 / render RC=0 / webpdf RC=0（<7 MB）/ occlusion 0 / p8 抽取 150/150，compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base 新增 CJK 0（新增拉丁 217，run 拆分所致）/ spill 0 / boxtitle 0 / edge 0 touch 0 near / creambox 0（P8 行數 210->210，頁腳餘量 57.6->57.6）/ 文字層 print=web=issues 差 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / 刊頭 slogan–date 間隙 127.3px PASS。
+- 新交付物（run2，builder 原件在 `scratch-2026-w45-it/patched/2026-w45-it-zh-tw/`）：印 PDF 7,491,805 bytes，sha256 `da50f82f50f72d165773fba867812cad7d6f4b795bd0405418cf6a1c8750a898`；網 PDF 985,372 bytes，sha256 `d2eef98438182e0a40fe86f5eee2c4b2303caf86495155f11bac7edd17955325`；text.md 52,532 bytes，sha256 `3c9f6caf403a9a678081914fabb081f251a54eb6a4468864cd8b630a652ae25f`（與已發 issues text.md BYTE-IDENTICAL）。上方 §8 針腳行已更新為此值。網 PDF 字節跨次運行不確定（子集字體時間戳）；closer 須拷 builder 原件，絕不重跑 webpdf。
+- D5 報告：`production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-zh-tw.md`；門禁總表：`production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-zh-tw/GATES-SUMMARY.txt`（scratch run2 總表複本）。

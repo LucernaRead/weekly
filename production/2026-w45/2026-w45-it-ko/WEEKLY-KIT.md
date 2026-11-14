@@ -325,11 +325,11 @@ bare separator, never on the spaced form):
 - files/weekly-report-w45-it-ko/ (svg/ 8 SVGs, cards/ 8 PNGs,
   La-Lucerna-VOL2-KO.pdf, La-Lucerna-VOL2-KO-web.pdf, WEEKLY-KIT.md,
   ABSTRACT.txt).
-- Print PDF: La-Lucerna-VOL2-KO.pdf — 11,643,953 bytes, sha256
-  9a47b3027d918e2ccf88f5f54c3e72197399eb338383049d0da1258f11c8a2a5,
+- Print PDF: La-Lucerna-VOL2-KO.pdf — 7,858,684 bytes, sha256
+  60298464bf9498d272e33149de6937ea54de4a39f5d4f6cbeee3b196149a5a38,
   8 pages.
-- Web PDF: La-Lucerna-VOL2-KO-web.pdf — 3,515,696 bytes, sha256
-  b1e03e77e1dc38c349c67e0bda48c27cd060a69e448a01afa9fead1700f945ca,
+- Web PDF: La-Lucerna-VOL2-KO-web.pdf — 814,520 bytes, sha256
+  26b87dff3c25567a392c55b943042fa08078a05a33f247ffd1d90d8ea7adc92d,
   8 pages, under the 10 MB Discord ceiling.
 - SVG sha256 (final R2): p1 19cec1889ed5b3e1ef1d65b2a0e2ef5ad27d3b0eefde25152c1532788a8afabb,
   p2 1f14d5bbc12edf768c84beab3463692d768d3d2a158c9e3c6e37b9a15c0c6521,
@@ -354,3 +354,13 @@ bare separator, never on the spaced form):
   Delivery to the LucernaRead/weekly repo is the main line's job.
 - NOT self-certified as finalized: a fresh full independent proof round
   is still required before delivery.
+
+## 14. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-ko/svglib.py --target it --reader ko --week 2026-w45` (after `--check` dry-run); `_D5_READER = "cjk"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 337 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:90 `IN QUESTO NUMERO　이번 호 차례` header 24→22pt (P1 `차례` box, over +15.7px); content12.py:181 box-title tsize →20 (`LA FRASE PER RICORDARE　암기문장`, P2, over +35.3px).
+- run1 verdict: FAILURES: ['12-boxtitle', '14-creambox'] (boxtitle 2 defects, creambox 2 defects). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 215, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 245->245, slack to footer 45.4->45.4) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 195.7px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-ko/`): print PDF 7,858,684 bytes, sha256 `60298464bf9498d272e33149de6937ea54de4a39f5d4f6cbeee3b196149a5a38`; web PDF 814,520 bytes, sha256 `26b87dff3c25567a392c55b943042fa08078a05a33f247ffd1d90d8ea7adc92d`; text.md 57,272 bytes, sha256 `14f60dc1cce7da3e5d91125d491f887dd0a5032c6301cbb84300f272753775f8` (BYTE-IDENTICAL vs shipped issues text.md). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-ko.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-ko/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

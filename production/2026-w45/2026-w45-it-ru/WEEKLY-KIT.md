@@ -318,8 +318,8 @@ Without it, `insert.py` aborts — the edition is not complete without it.
 
 | file | bytes | sha256 |
 |---|---|---|
-| `La-Lucerna-VOL2-RU.pdf` (print) | 7,094,801 | `4de5a0668e071dff344a68edba8cf5c6b0df56b5ab740b043273385459826b04` |
-| `La-Lucerna-VOL2-RU-web.pdf` (web) | 3,655,383 | `59ce56805a236fbacc900d146dba42cf0dd8d36dff141842fae4cd9600e914c9` |
+| `La-Lucerna-VOL2-RU.pdf` (print) | 6,405,908 | `5f8f738b63c721918ba5bfd9a284b32f162d936b32d676d9e5fa57cfc5589c0d` |
+| `La-Lucerna-VOL2-RU-web.pdf` (web) | 799,413 | `600811a1fab914cde7e7a966d575062d02abb0c814dccdbbac8223d903c0ae4f` |
 | `svg/p1-prima.svg` | — | `074cd9302c92c87160379329b0e9e511388f8b6ea64e2d12eff757fa8671aee0` |
 | `svg/p2-vita.svg` | — | `73b7691fff5f280994ff44545f4b46c8ca90ad57879fe902321cc1f98a41c377` |
 | `svg/p3-cultura.svg` | — | `1977aceb8b99291c5a2fef7b99baf4a4e819ed2be863bf7c6169871a70229214` |
@@ -350,3 +350,13 @@ delivery to the LucernaRead/weekly repo. Per standing rules: no Discord post
 (delivery paused by the user's 2026-10-21 decision), no card/PDF dump into the main
 chat, no cron created, weekly-git untouched, W45 IT core and W43 directories untouched
 (core re-hash verified 8/8 at the end of this build).
+
+## 17. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-ru/svglib.py --target it --reader ru --week 2026-w45` (after `--check` dry-run); `_D5_READER = "ru"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 593 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): None — run1 was already ALL-GREEN (no title overflow; D5 widening stayed inside all boxes).
+- run1 verdict: ALL-GREEN (no fixes needed). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 169, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 209->213, slack to footer 56.6->56.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 103.4px PASS. fix1 (2026-11-14, F1+F3)：除 15/15a（F3 全式致 web-vs-issues +10/-2、text.md diff = 4 行，均为预期内）外 17 门 + D18 全绿；p8 150/150 CLEAN；P8 行数 209->214，页脚余量仍 56.6px；新交付物见下条。Noto Sans elements 769 (>0, required for ru readers). P8 lines moved 209→213 in the D5 reflow (wider Noto Sans wraps more answer lines); footer slack unchanged at 56.6px, still positive — no overflow.
+- New deliverables (fix1, fix originals in `scratch-2026-w45-it/fix/2026-w45-it-ru/`; supersedes run2): print PDF 6,405,908 bytes, sha256 `5f8f738b63c721918ba5bfd9a284b32f162d936b32d676d9e5fa57cfc5589c0d`; web PDF 799,413 bytes, sha256 `600811a1fab914cde7e7a966d575062d02abb0c814dccdbbac8223d903c0ae4f`; text.md 66,641 bytes, sha256 `b9a211a93e748d0ed0d80e267e9323a40956fe809ae5f00039d07d8cce638e54` (diff = 4 行：137/138/140 标签 + 139 标签与答案全式，F1+F3 修复，D33；其余逐字节相同). Run2 values were print 6,405,907 B `825f0b9c5828…`, web 799,370 B `4d1677735f8a…`, text.md 66,573 B `011d08206e8e…`. Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the fix original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-ru.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-ru/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

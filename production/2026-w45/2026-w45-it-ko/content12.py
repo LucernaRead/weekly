@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "일정은 각 행사 달력 기준이에요. 시간�
 # ---- sommario (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　이번 호 차례", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　이번 호 차례", 22, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Il freddo e il 2 novembre", "A2"),
     ("Pag. 3", "Panettone e torrone", "A2→B1"),
@@ -178,7 +178,7 @@ f.para("Anche la manovra, la legge di bilancio, era attesa al voto intorno al 28
 f.bridge("인쇄할 때 표결 결과는 아직 확인되지 않았어요. 6면을 보세요.")
 f.box("LA FRASE PER RICORDARE　암기문장", [
     ("«Fa freddo, copriti bene!» Così dicono le nonne italiane: quando arriva il primo freddo, il consiglio è uno solo — vestirsi bene, a strati.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=20)
 f.gloss("il cappotto 외투 · la sciarpa 목도리 · i guanti 장갑 · a strati 겹쳐 입기 · il termosifone 난방기 · il crisantemo 국화")
 f.end_report()
 

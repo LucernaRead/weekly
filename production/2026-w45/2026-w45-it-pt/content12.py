@@ -26,7 +26,7 @@ p.text(MX + 30, 524, "ARRIVA IL PRIMO FREDDO!", 46, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "La settimana in cui l'Italia si copre: freddo, piogge e la prima neve in montagna.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "A SEMANA DO PRIMEIRO FRIO", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "A semana do primeiro frio　ver página 2", 18, "sans", False, GOOSE, anchor="end")
-p.text(975, 612, "TEXTOS EM ITALIANO　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 16, "sans", True, GREY, anchor="middle")
+p.text(975, 612, "TEXTOS EM ITALIANO　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 14, "sans", True, GREY, anchor="middle")
 
 # ---- headline (span cols 0-2) ----
 hy = 610
@@ -47,7 +47,7 @@ f.box("LA SETTIMANA IN CIFRE　EM NÚMEROS", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre(mais de 50 eventos do Forum Cultura em Milão)", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano(países na final do Panettone em Milão)", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana(a jornada da Serie A deste fim de semana)", "serif", False, INK, 20.5, 1.35),
-], tsize=20)
+], tsize=18)
 f.head("ADESSO TU　Agora tu", 25)
 f.ex("A2", "Completar as frases", "freddo", "il primo freddo = o primeiro frio",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)

@@ -46,7 +46,7 @@ f.box("LA SETTIMANA IN CIFRE　EN CIFRAS", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre(más de 50 eventos del Forum Cultura de Milán)", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano(países en la final del Panettone en Milán)", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana(11.ª jornada)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=19)
 f.head("ADESSO TU　AHORA TÚ", 25)
 f.ex("A2", "Completar las frases", "freddo", "il primo freddo = el primer frío",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)
@@ -178,7 +178,7 @@ f.para("Anche la manovra, la legge di bilancio, era attesa al voto intorno al 28
 f.bridge("Al cierre, el resultado de la votación aún no estaba confirmado: ver página 6.")
 f.box("FRASE PER RICORDARE　LA CLAVE", [
     ("«Fa freddo, copriti bene!» Così dicono le nonne italiane: quando arriva il primo freddo, il consiglio è uno solo — vestirsi bene, a strati.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=20)
 f.gloss("il cappotto = abrigo · la sciarpa = bufanda · i guanti = guantes · a strati = en capas · il termosifone = radiador · il crisantemo = crisantemo")
 f.end_report()
 

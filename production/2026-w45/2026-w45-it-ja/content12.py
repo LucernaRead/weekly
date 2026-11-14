@@ -46,7 +46,7 @@ f.box("LA SETTIMANA IN CIFRE　数字で今週", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre（ミラノ文化フォーラム50超の催し）", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano（ミラノのパネットーネ決勝参加国数）", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana（今週末のセリエA第11節）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=20)
 f.head("ADESSO TU　さあ練習", 25)
 f.ex("A2", "文を完成させる", "freddo", "il primo freddo = 初寒",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)

@@ -307,8 +307,8 @@ bare separator, never on the spaced form):
 - files/weekly-report-w45-it-de/ (svg/ 8 SVGs, cards/ 8 PNGs,
   La-Lucerna-VOL2-DE.pdf, La-Lucerna-VOL2-DE-web.pdf, WEEKLY-KIT.md,
   ABSTRACT.txt).
-- Print PDF: La-Lucerna-VOL2-DE.pdf — 7,174,780 bytes, sha256
-  a9f74664ee9952487fc79345ba550e6292a3c725276222fe1aaf0887ac4775da,
+- Print PDF: La-Lucerna-VOL2-DE.pdf — 6,094,436 bytes, sha256
+  6182d725576e72120cdf057723e589ca1f4c90e2c21e06755b4d5033a5abf500,
   8 pages, mediabox identical to the core's print PDF (0/0/1462.5/
   2025), same embedded image dimensions (P3 1280×862). Observation
   (not a defect): it is smaller than the core's print PDF (21,037,777
@@ -316,8 +316,8 @@ bare separator, never on the spaced form):
   web PDF below is the size-constrained deliverable and both PDFs
   render the same 8 pages (verified: footer + badge text extractable
   from print PDF p1).
-- Web PDF: La-Lucerna-VOL2-DE-web.pdf — 3,643,700 bytes, sha256
-  aa4b340ecabf85f50ba92d8b48f30b02a6ef5aae0ad6dfd3f04cac2dcf8facaa,
+- Web PDF: La-Lucerna-VOL2-DE-web.pdf — 564,841 bytes, sha256
+  fd3f6cd1b9a5d80486f71983bb3478a1e056d41e1637e2a6e1fa547701bfe2f6,
   8 pages, under the 10 MB Discord ceiling.
 - SVG sha256 (final R2): p1 e01b89b8ab6903fabeabddaed6276c9d4b65d4117930b40b01df33fa59554c19,
   p2 a07c5cc17c1ee33b6004d1f86570dec40df3dcbd89e11b4ab77cb021da2b605a,
@@ -342,3 +342,13 @@ bare separator, never on the spaced form):
   Delivery to the LucernaRead/weekly repo is the main line's job.
 - NOT self-certified as finalized: a fresh full independent proof round
   is still required before delivery.
+
+## 14. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-de/svglib.py --target it --reader de --week 2026-w45` (after `--check` dry-run); `_D5_READER = "latin"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 496 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:52 box-title tsize →21 (`ZAHLEN`, P1, over +33.6px); content12.py:185 tsize →20 (`MERKE`, P2, over +45.3px); content7.py:73 `ERRORI TIPICI　TYPISCHE FEHLER` 23→20pt (P7, over +37.8px); content7.py:84 `LA PAROLA　WORT DER WOCHE` 23→22pt (P7, over +2.5px). The P1 `ZAHLEN` overflow also caused the run1 occlusion flag (ink overlapped the P1 body text by 5.6×10.5px); shrinking the title cleared it.
+- run1 verdict: FAILURES: ['6-occlusion', '12-boxtitle', '14-creambox'] (occlusion 1 flag, boxtitle 4 defects, creambox 4 defects). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 244, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 244->244, slack to footer 45.4->45.4) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 109.9px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-de/`): print PDF 6,094,436 bytes, sha256 `6182d725576e72120cdf057723e589ca1f4c90e2c21e06755b4d5033a5abf500`; web PDF 564,841 bytes, sha256 `fd3f6cd1b9a5d80486f71983bb3478a1e056d41e1637e2a6e1fa547701bfe2f6`; text.md 56,176 bytes, sha256 `9c99c586fc9c137930605d11aae1545bd2d7081618d9ff34f3c7b5ff0707f3b3` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-de.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-de/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

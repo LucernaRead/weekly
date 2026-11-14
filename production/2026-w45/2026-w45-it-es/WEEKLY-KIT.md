@@ -360,12 +360,12 @@ bare separator, never on the spaced form):
 - files/weekly-report-w45-it-es/ (svg/ 8 SVGs, cards/ 8 PNGs,
   La-Lucerna-VOL2-ES.pdf, La-Lucerna-VOL2-ES-web.pdf, WEEKLY-KIT.md,
   ABSTRACT.txt).
-- Print PDF: La-Lucerna-VOL2-ES.pdf — 7,170,661 bytes, sha256
-  66be437a4076c29ea4322cce60f5aecf4a2ab1384381ecf915e37651d7179e9e,
+- Print PDF: La-Lucerna-VOL2-ES.pdf — 6,092,999 bytes, sha256
+  707bcdfe6eb21186f83ef983817a6d720722b0f5e8aea97785342c001f44df7a,
   8 pages, mediabox identical to the core's print PDF (0/0/1462.5/
   2025), same embedded image dimensions (P3 1280×862, P5 1280×960).
-- Web PDF: La-Lucerna-VOL2-ES-web.pdf — 3,614,384 bytes, sha256
-  a1e2a8a9dcf446d4ac4ce3c68578322f76a6c3fae38255b2f908059458495e53,
+- Web PDF: La-Lucerna-VOL2-ES-web.pdf — 563,359 bytes, sha256
+  fab84a2ec4f5adeee3c0e1ddd17d76b60c7ea028a32b963f9a1afdfa052680b3,
   8 pages, under the 10 MB Discord ceiling.
 - SVG sha256 (final R2): p1 56573951f9bee3d2ba514a9f2c623b5ef4f428ab15b456f238c2fd1551aeb5c4,
   p2 657de6fca92a1212003c879d54e98dd45f08bc94c7852bdbdbba981ae4b4015f,
@@ -390,3 +390,13 @@ bare separator, never on the spaced form):
   Delivery to the LucernaRead/weekly repo is the main line's job.
 - NOT self-certified as finalized: a fresh full independent proof round
   is still required before delivery.
+
+## 14. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-es/svglib.py --target it --reader es --week 2026-w45` (after `--check` dry-run); `_D5_READER = "latin"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 486 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:49 box-title tsize →19 (`EN CIFRAS`, P1, over +60.6px); content12.py:181 tsize →20 (`LA CLAVE`, P2, over +34.5px); content7.py:73 `ERRORI TIPICI　ERRORES TÍPICOS` 23→21pt (P7, over +26.8px). The P1 `EN CIFRAS` overflow also caused the run1 occlusion flag (ink overlapped the P1 body text by 32.9×10.5px); shrinking the title cleared it.
+- run1 verdict: FAILURES: ['6-occlusion', '12-boxtitle', '14-creambox'] (occlusion 1 flag, boxtitle 3 defects, creambox 3 defects). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 249, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 210->210, slack to footer 56.6->56.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 59.3px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-es/`): print PDF 6,092,999 bytes, sha256 `707bcdfe6eb21186f83ef983817a6d720722b0f5e8aea97785342c001f44df7a`; web PDF 563,359 bytes, sha256 `fab84a2ec4f5adeee3c0e1ddd17d76b60c7ea028a32b963f9a1afdfa052680b3`; text.md 55,670 bytes, sha256 `9a7e6fc9525f0e4594a34b09f2e4591bc2c772d0ce5243ced781d43b37fc80ac` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-es.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-es/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

@@ -66,13 +66,13 @@ f.ex("B1", "Sätze bilden", "A che ora apre il Forum Cultura?", "Frageformel am 
 f.ex("B1", "Sätze bilden", "Il freddo arriva lunedì.", "Subjekt + Verb + Zeitangabe",
      "il freddo / arriva / lunedì → ___", instr="Sätze bilden", size=15.5, gap=1)
 f.head("E　TRADUCI", 22, OLIVE, 5)
-f.ex("A2", "翻译", "Am Montag kommt die erste Kälte.", "Vgl. den Originaltext",
+f.ex("A2", "Übersetzung", "Am Montag kommt die erste Kälte.", "Vgl. den Originaltext",
      "Lunedì arriva il primo freddo. → ___", instr="Übersetzen", size=15.5, gap=1)
-f.ex("B1", "翻译", "Das Publikum darf gratis kosten.", "assaggiare gratis = gratis kosten",
+f.ex("B1", "Übersetzung", "Das Publikum darf gratis kosten.", "assaggiare gratis = gratis kosten",
      "Il pubblico può assaggiare gratis. → ___", instr="Übersetzen", size=15.5, gap=1)
-f.ex("B1", "翻译", "Am Sonntagabend spielt Fiorentina gegen Juventus.", "si gioca = es wird gespielt",
+f.ex("B1", "Übersetzung", "Am Sonntagabend spielt Fiorentina gegen Juventus.", "si gioca = es wird gespielt",
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Übersetzen", size=15.5, gap=1)
-f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = müssen",
+f.ex("B2", "Übersetzung", "Ogni previsione deve essere chiara.", "dovere = müssen",
      "Jede Vorhersage muss klar sein. → ___", instr="Übersetzen", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
 f.match_set("B2", "Wörter zuordnen",

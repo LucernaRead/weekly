@@ -1,0 +1,22 @@
+[PASS] selftest-occlusion: RC=0
+[PASS] selftest-creambox: RC=0
+[PASS] selftest-headcheck: RC=0
+[PASS] 1-run: RC=0 TOTAL=150 warnings=0
+[PASS] 2-head_check: RC=0 defects={'findings': []}
+[PASS] 3-d5-census: RC=0 d5=0 curly_in_cjk=0 totals={"elements": 1820, "newsreader_elements": 1674, "curly_total": 4, "curly_in_newsreader": 4, "cjk_sans_elements": 124}
+[PASS] 4-render: RC=0 print=The-Lucerna-VOL3.pdf 6091558 B sha=c0513f07ebad
+[PASS] 5-webpdf: RC=0 web=561965 B sha=01035b0d500c
+[PASS] 6-occlusion: RC=0 flags=0
+[PASS] 7-p8-extract: RC=0 noted=150/150
+[PASS] 8-p8-compare: RC=0 verdict=CLEAN keydiff=[137, 138, 139] missing=[] extra=[]
+[PASS] 9-freeze-baseline: RC=0 8/8 byte-identical
+[PASS] 10-freeze-diff: RC=0 new-CJK-chars=0 new-Latin-strings=240 (run splits, expected)
+[PASS] 11-spill: RC=0 spills=[]
+[PASS] 12-boxtitle: RC=0 defects=0 titles=23 body=242 backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-it/scratch-fanout-it/backup/2026-w45-it-en core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-it/patched/core-it
+[PASS] 13-edge: RC=0 touches=0 nears=0
+[PASS] 14-creambox: RC=0 defects=0 [] P8 lines 209->209 slack_footer 59.6->59.6
+[PASS] 15-textlayer: print-vs-web +0/-0; web-vs-issues +0/-0
+[PASS] 15a-textmd: export RC=0 BYTE-IDENTICAL vs issues: True
+[PASS] 16-census_quotes: RC=0 tail=GRAND TOTAL defective: 0
+[PASS] 18-masthead: masthead: vol='VOL. 2' slogan_runs=5 date="SETTIMANA DAL 2 ALL'8 NOVEMBRE 2026" slogan_right=1335.2 date_x=1438.6 gap=103.4 PASS
+VERDICT run2 2026-w45-it-en: ALL-GREEN

@@ -66,13 +66,13 @@ f.ex("B1", "文を作る", "A che ora apre il Forum Cultura?", "疑問の語句�
 f.ex("B1", "文を作る", "Il freddo arriva lunedì.", "主語 + 動詞 + 時間",
      "il freddo / arriva / lunedì → ___", instr="文を作る", size=15.5, gap=1)
 f.head("E　TRADUCI", 22, OLIVE, 5)
-f.ex("A2", "翻译", "月曜日に最初の寒さがやってきます。", "原文と照らしましょう。",
+f.ex("A2", "翻訳", "月曜日に最初の寒さがやってきます。", "原文と照らしましょう。",
      "Lunedì arriva il primo freddo. → ___", instr="日本語に翻訳", size=15.5, gap=1)
-f.ex("B1", "翻译", "観客は無料で試食できます。", "assaggiare gratis = 無料で試食",
+f.ex("B1", "翻訳", "観客は無料で試食できます。", "assaggiare gratis = 無料で試食",
      "Il pubblico può assaggiare gratis. → ___", instr="日本語に翻訳", size=15.5, gap=1)
-f.ex("B1", "翻译", "日曜の夜、フィオレンティーナ対ユヴェントス。", "si gioca = 試合が行われる",
+f.ex("B1", "翻訳", "日曜の夜、フィオレンティーナ対ユヴェントス。", "si gioca = 試合が行われる",
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="日本語に翻訳", size=15.5, gap=1)
-f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = ～しなければならない",
+f.ex("B2", "翻訳", "Ogni previsione deve essere chiara.", "dovere = ～しなければならない",
      "すべての予報は明確でなければならない。→ ___", instr="イタリア語に翻訳", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
 f.match_set("B2", "単語の組み合わせ",

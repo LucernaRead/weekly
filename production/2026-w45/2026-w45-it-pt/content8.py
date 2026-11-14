@@ -66,13 +66,13 @@ f.ex("B1", "Formar frases", "A che ora apre il Forum Cultura?", "Interrogativa p
 f.ex("B1", "Formar frases", "Il freddo arriva lunedì.", "Sujeito + verbo + tempo",
      "il freddo / arriva / lunedì → ___", instr="Formar frases", size=15.5, gap=1)
 f.head("E　TRADUCI", 22, OLIVE, 5)
-f.ex("A2", "翻译", "Na segunda-feira chega o primeiro frio.", "Ver o texto original.",
+f.ex("A2", "Tradução", "Na segunda-feira chega o primeiro frio.", "Ver o texto original.",
      "Lunedì arriva il primo freddo. → ___", instr="Traduzir para português", size=15.5, gap=1)
-f.ex("B1", "翻译", "O público pode provar de graça.", "assaggiare gratis = provar de graça",
+f.ex("B1", "Tradução", "O público pode provar de graça.", "assaggiare gratis = provar de graça",
      "Il pubblico può assaggiare gratis. → ___", instr="Traduzir para português", size=15.5, gap=1)
-f.ex("B1", "翻译", "No domingo à noite, joga-se Fiorentina–Juventus.", "si gioca = joga-se",
+f.ex("B1", "Tradução", "No domingo à noite, joga-se Fiorentina–Juventus.", "si gioca = joga-se",
      "Domenica sera si gioca Fiorentina–Juventus. → ___", instr="Traduzir para português", size=15.5, gap=1)
-f.ex("B2", "翻译", "Ogni previsione deve essere chiara.", "dovere = dever",
+f.ex("B2", "Tradução", "Ogni previsione deve essere chiara.", "dovere = dever",
      "Cada previsão deve ser clara. → ___", instr="Traduzir para italiano", size=15.5, gap=1)
 f.head("F　LE PAROLE DEL METEO", 22, OLIVE, 5)
 f.match_set("B2", "Ligar palavras",

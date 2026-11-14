@@ -47,7 +47,7 @@ f.box("LA SETTIMANA IN CIFRE　Numbers", [
     ("50+ — gli eventi del Forum Cultura di Milano, dal 3 all'8 novembre(50+ Forum Cultura events in Milan, 3-8 November)", "serif", False, INK, 20.5, 1.35),
     ("19 — i paesi dei pasticceri alla finale del Panettone a Milano(countries at the Panettone final in Milan)", "serif", False, INK, 20.5, 1.35),
     ("11ª — la giornata di Serie A del fine settimana(Serie A matchday this weekend)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("ADESSO TU　Now you try", 25)
 f.ex("A2", "Complete the sentence", "freddo", "il primo freddo = the first cold",
      "Lunedì 2 novembre arriva il primo ___ vero della stagione.", size=20, gap=7)
@@ -88,7 +88,7 @@ p.text(gx + 22, byy + 76, "Dates per event calendars; times may change.", 16.5, 
 # ---- sommario (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　CONTENTS", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　CONTENTS", 21, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "Il freddo e il 2 novembre", "A2"),
     ("Pag. 3", "Panettone e torrone", "A2→B1"),

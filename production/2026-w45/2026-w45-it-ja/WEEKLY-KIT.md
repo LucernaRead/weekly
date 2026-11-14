@@ -104,5 +104,15 @@ tools/venv/bin/python render.py
 
 ## Final files (round 2)
 
-- Print PDF `La-Lucerna-VOL2-JA.pdf`: 20,236,595 bytes, sha256 4f66a914729d70233eea3f68379250454e5ee3ea984cb7e60414e0470ecf670a
-- Web PDF `La-Lucerna-VOL2-JA-web.pdf`: 3,509,235 bytes, sha256 d3b629deed6b33c9eb5df9b5cff8282ab37feaa9159da17c44f27174402da423
+- Print PDF `La-Lucerna-VOL2-JA.pdf`: 12,016,510 bytes, sha256 4378035f00a05fcfedc75342ad10bd88118733b23ca240c807ed5b176dcc3000
+- Web PDF `La-Lucerna-VOL2-JA-web.pdf`: 996,062 bytes, sha256 5b202d2e6c845219a59a509c6dc1dc666eb2304792c342b9e6cb7ec6f29863a5
+
+## D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-ja/svglib.py --target it --reader ja --week 2026-w45` (after `--check` dry-run); `_D5_READER = "cjk"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 337 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:49 box-title tsize →20 (`　数字で今週`, P1, over +42.6px). The same overflow caused the run1 occlusion flag (ink overlapped the P1 body text by 14.6×11.8px); shrinking the title cleared it.
+- run1 verdict: FAILURES: ['6-occlusion', '12-boxtitle', '14-creambox'] (occlusion 1 flag, boxtitle 1 defect, creambox 1 defect). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 217, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 211->211, slack to footer 57.6->57.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 72.3px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-ja/`): print PDF 12,016,510 bytes, sha256 `4378035f00a05fcfedc75342ad10bd88118733b23ca240c807ed5b176dcc3000`; web PDF 996,062 bytes, sha256 `5b202d2e6c845219a59a509c6dc1dc666eb2304792c342b9e6cb7ec6f29863a5`; text.md 56,547 bytes, sha256 `d479249b8c1dfb7ed1ed0c7ecfe15fdf9eeabbb8e6b9ad5574be3c96a791ac16` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-ja.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-ja/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

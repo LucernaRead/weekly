@@ -99,5 +99,15 @@ tools/venv/bin/python render.py
 
 ## Final files (round 4)
 
-- Print PDF `La-Lucerna-VOL2-EN.pdf`: 7,173,236 bytes, sha256 6103191a82e2de6b703d909ebe0f2c578fe7b98fa09fffc9c4ef08a3aa774eb3
-- Web PDF `La-Lucerna-VOL2-EN-web.pdf`: 3,570,974 bytes, sha256 6f038cbd364fd44a66bcdb9de0181885bd7c180e73bc83dec00c2fe057432f37
+- Print PDF `La-Lucerna-VOL2-EN.pdf`: 6,091,558 bytes, sha256 c0513f07ebadb79d39ce11a26ee1d54451a41a91b0f1ff2405db82dfcd69160b
+- Web PDF `La-Lucerna-VOL2-EN-web.pdf`: 561,965 bytes, sha256 01035b0d500c7c261e717ccfa6315dad3e41144a7132077b846d9b745b955210
+
+## D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-en/svglib.py --target it --reader en --week 2026-w45` (after `--check` dry-run); `_D5_READER = "latin"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 488 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:50 box-title tsize →21 (`Numbers`, P1, over +30.6px); content12.py:91 `IN QUESTO NUMERO　CONTENTS` 24→21pt (P1, over +40.2px); content7.py:73 `ERRORI TIPICI　Common mistakes` 23→22pt (P7, over +9.8px).
+- run1 verdict: FAILURES: ['12-boxtitle', '14-creambox'] (boxtitle 3 defects, creambox 3 defects). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 240, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 209->209, slack to footer 59.6->59.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 103.4px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-en/`): print PDF 6,091,558 bytes, sha256 `c0513f07ebadb79d39ce11a26ee1d54451a41a91b0f1ff2405db82dfcd69160b`; web PDF 561,965 bytes, sha256 `01035b0d500c7c261e717ccfa6315dad3e41144a7132077b846d9b745b955210`; text.md 55,137 bytes, sha256 `cf0b41ad6bc186dd80255a4fa2c04b9128a98fe0ef276e9b0f4f734528704ee9` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-en.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-en/GATES-SUMMARY.txt` (copy of the scratch run2 summary).

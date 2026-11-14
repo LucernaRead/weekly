@@ -55,8 +55,8 @@
   - run.py: `tools/venv/bin/python` — Python 3.12.3, Pillow 13.0.0, cairosvg 2.9.1, pypdf 6.21.2.
   - render.py: `tools/venv/bin/python` — Python 3.12.3, Pillow 13.0.0, cairosvg 2.9.1, pypdf 6.21.2.
 - Final build: FLOW OVERFLOW 0, HEAD TOO WIDE 0; TOTAL 150; by page {1: 10, 2: 18, 3: 18, 4: 18, 5: 18, 6: 18, 7: 12, 8: 38}; by level {A2: 47, B1: 70, B2: 33}; model words 81; P7 col3 ends 1673.0 (core value, 13px clear of the FRASI rule at 1686); P8-keys flow ends y=2514 (38px clear of bottom 2552); P8-ex flow ends y=965 (bottom 1332).
-- Print PDF: `La-Lucerna-VOL2-FR.pdf` — 7,207,873 bytes, sha256 `5abb80f209355a3b43033b14008207b5f12e6305626551d6d216d9c78410af27`, 8 pages.
-- Web PDF: `La-Lucerna-VOL2-FR-web.pdf` — 3,644,909 bytes (< 10 MB), sha256 `d154fc10ec78839453d34b2de7af57e5b8b4b3700683fdb4e83f803857b69f6a`, 8 pages.
+- Print PDF: `La-Lucerna-VOL2-FR.pdf` — 6,091,311 bytes, sha256 `75e90ca8fb769ccff320e3bcef320534107e6ac35ed07fc4eebd112dabe4b5da`, 8 pages.
+- Web PDF: `La-Lucerna-VOL2-FR-web.pdf` — 561,735 bytes (< 10 MB), sha256 `243c4bcbbe4d74859c2a0a25497830be8f5c22d5dff5257712dbfefe8f5c5071`, 8 pages.
 - SVG sha256 (final, after fix round 4): p1 `a551611531cfaa2fdd26f383d1cf50a989af57c6c7ea3f9934b6193ce9e9e6e2`, p2 `b35596fe82b3f8aa5408b744bcad71b70735b40b6e39b3b96967d1ebd9c2f136`, p3 `11b326aa595a2daba042c6b5fe59edf704ebd3c6c6d5d2cc11c82cf6f5b9fe94`, p4 `bd8b3cc44b71778e6491c86dfad7781c2a04b7757b509fae6db42abdd42c60a4`, p5 `a4adc4e39500fd0821ead76d6694645eef49e4c0745bef651ff45d4f3b067598`, p6 `2c3d1fbaeac06685205e596d279933453221eb99cf1d03c42b0e13301ab35c0e`, p7 `f4a80672bf861c79160c0ac28e264b569360a3aa54f5d7ffee89b93dab08eb2d`, p8 `c4cf720a4687a520b6f6bffee58622ca0148901234bca4f375e91b0a69b1635e` (round 4 changed only P1, as expected — P2–P8 hashes are unchanged from the round-3 run, confirming build determinism).
 
 ## 7. Gates (all measured, final files)
@@ -98,3 +98,13 @@
 
 ## 11. Open gate
 **Independent proofread has NOT run — marked PENDING.** No GitHub repo insert and no Discord post were made (parent handles both after the proofread passes).
+
+## 12. D5 rebuild (2026-11-14)
+
+- Scope: D5-only (new style already in repo; no §1.1 port assembly). Installer: `apply_variant.py --svglib patched/2026-w45-it-fr/svglib.py --target it --reader fr --week 2026-w45` (after `--check` dry-run); `_D5_READER = "latin"`; routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block retained (5 occurrences).
+- Core (shared, once for the family): `apply_variant.py --patch-core it --week 2026-w45` → `production/2026-w45/core-it/svglib.py` +95/−3 lines, `_D5_READER = "latin"` (D24: closer syncs patched as-is).
+- Baseline (pre-D5 production copy, all clean before install): run TOTAL 150, 0 warnings; print/web text layer vs shipped web PDF char-multiset diff 0; text.md export BYTE-IDENTICAL vs issues; pre-D5 census D5 violations 495 (>0).
+- run1 → run2 fixes (font sizes only, zero wording changes): content12.py:50 box-title tsize 20→18 (`EN CHIFFRES`, P1, over +29.2px); content12.py:182 tsize 20→18 (`À RETENIR`, P2, over +23.0px); content12.py:91 `IN QUESTO NUMERO　SOMMAIRE` 24→21pt (P1, over +45.2px); content7.py:73 `ERRORI TIPICI　ERREURS TYPES` 23→22pt (P7, over +6.8px); content7.py:84 `LA PAROLA　MOT DE LA SEMAINE` 23→21pt (P7, over +29.5px).
+- run1 verdict: FAILURES: ['12-boxtitle', '14-creambox'] (boxtitle 5 defects, creambox 5 defects). run2 verdict: **ALL-GREEN** (17 gates + D18 masthead). run TOTAL 150 / head_check 0 defects / d5 census 0 / render RC=0 / webpdf RC=0 (<7 MB) / occlusion 0 / p8 extract 150/150, compare CLEAN keydiff=[137, 138, 139] / freeze baseline 8/8 / freeze diff vs base new-CJK 0 (new-Latin 245, run splits) / spill 0 / boxtitle 0 / edge 0 touches 0 nears / creambox 0 (P8 lines 210->210, slack to footer 59.6->59.6) / text layer print=web=issues diff 0 / text.md BYTE-IDENTICAL / census_quotes 0 defective / masthead slogan–date gap 107.4px PASS.
+- New deliverables (run2, builder originals in `scratch-2026-w45-it/patched/2026-w45-it-fr/`): print PDF 6,091,311 bytes, sha256 `75e90ca8fb769ccff320e3bcef320534107e6ac35ed07fc4eebd112dabe4b5da`; web PDF 561,735 bytes, sha256 `243c4bcbbe4d74859c2a0a25497830be8f5c22d5dff5257712dbfefe8f5c5071`; text.md 57,049 bytes, sha256 `16155ed27e57ed45e06357add4366fba6f62e9cead0aeff04240b3a547a13224` (diff = 4 行：137–140 标签，F1 修复，D33；其余逐字节相同). Pin lines above updated to these values. Web PDF bytes are not reproducible across runs (font-subset timestamps); closer must copy the builder original, never re-run webpdf.
+- D5 report: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w45-it-fr.md`; gates log: `production/notes/2026-w45/g-it/scratch-d5-rebuild-it/logs/2026-w45-it-fr/GATES-SUMMARY.txt` (copy of the scratch run2 summary).
