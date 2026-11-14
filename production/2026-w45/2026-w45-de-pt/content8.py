@@ -71,7 +71,7 @@ bf.ex("B1", "Escolha múltipla", "B", "Hoffenheim–Schalke no domingo às 19:30
       "Wann spielt Hoffenheim gegen Schalke? A. Samstag 18.30 Uhr · B. Sonntag 19.30 Uhr · C. Freitag 20.30 Uhr", size=19.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D　SÄTZE BAUEN　Construir frases", 24)
+bf.head("D　SÄTZE BAUEN　Construir frases", 22)
 bf.ex("A2", "Construir frases", "Die Bundesliga beginnt am Freitag.", "expressão de tempo primeiro, verbo em segundo",
       "die Bundesliga / beginnt / am Freitag → ___", instr="Monte a frase", size=19.5, gap=8)
 bf.ex("A2", "Construir frases", "Wir schauen Bayern bei Atlético.", "ordem sujeito–verbo–objeto",

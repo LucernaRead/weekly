@@ -31,7 +31,7 @@ sy3 = 200
 sh = 45 + 33 * len(facts) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in facts)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "FERIENWECHSEL　Vakantiewissel", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "FERIENWECHSEL　Vakantiewissel", 22, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -42,7 +42,7 @@ sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "SCHULWÖRTER　Schoolwoorden", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "SCHULWÖRTER　Schoolwoorden", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -159,7 +159,7 @@ tl = [("6 Mio.", "Menschen in Deutschland brauchen Pflege (ARD „Hart aber fair
 tlh = 45 + 30.5 * len(tl) + 29.11 * sum(len(wrap(t, "serif", False, 20.5, CW - 152)) for yr, t in tl)
 p.rect(ix, 200, CW, tlh, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DIE ZAHLEN　Cijfers van de week", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DIE ZAHLEN　Cijfers van de week", 23, "sans", True, OLIVE)
 yy3 += 52
 for yr, t in tl:
     p.text(ix + 22, yy3 + 21, yr, 21, "sans", True, OLIVE)

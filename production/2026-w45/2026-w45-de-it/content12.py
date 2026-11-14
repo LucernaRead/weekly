@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "ENGLISCHE WOCHE — DANN DER 9. SPIELTAG!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "ENGLISCHE WOCHE — DANN DER 9. SPIELTAG!", 40, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Dienstag bis Sonntag: Champions League, Europa League, Bundesliga — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "Settimana di calcio　Champions, Europa League, Bundesliga", 22, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Vedi pagina 4　Seite 4", 18, "sans", False, GOOSE, anchor="end")
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Le cinque domande della Germania.", 19, "sans", False
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommario", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommario", 23, "sans", True, OLIVE)
 som = [
     ("S.2", "Tankrabatt & Pflege", "A2"),
     ("S.3", "Ferienwechsel & Herbst", "A2→B1"),
@@ -184,7 +184,7 @@ sy3 = 200
 sh = 45 + 33 * len(zapf) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zapf)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Alla pompa", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Alla pompa", 22, "sans", True, OLIVE)
 yy3 += 52
 for t in zapf:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12

@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　Números", [
     ("9 — Spiele hat der 9. Spieltag der Bundesliga (9 jogos na 9ª rodada)", "serif", False, INK, 20.5, 1.35),
     ("6 — deutsche Teams spielen in Europa (6 times alemães jogam na Europa)", "serif", False, INK, 20.5, 1.35),
     ("14,04 — Cent pro Liter beträgt der Tankrabatt (14,04 centavos por litro)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("JETZT ÜBEN　Pratique agora", 25)
 f.ex("A2", "Completar frases", "Englische", "semana inglesa",
      "Diese Woche ist eine ___ Woche: viele Spiele in wenigen Tagen.", size=20.5)
@@ -184,7 +184,7 @@ sy3 = 200
 sh = 45 + 33 * len(zapf) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zapf)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Na bomba", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Na bomba", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in zapf:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -218,7 +218,7 @@ sy3 = ey3 + eh + 26
 sh = 45 + 33 * len(zew) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zew)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "ZEW IN KÜRZE　ZEW em resumo", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "ZEW IN KÜRZE　ZEW em resumo", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in zew:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12

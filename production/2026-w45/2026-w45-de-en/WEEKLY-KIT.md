@@ -347,8 +347,8 @@ size 1400 × 1938 pt):
 
 | PDF | Bytes | SHA-256 |
 |-----|-------|---------|
-| Die-Lucerna-VOL2-EN.pdf (print) | 4,137,635 | 9d12db530cc871cac670fd6e5b624a531cefd29052bbecdc23eeb647ef77611d |
-| Die-Lucerna-VOL2-EN-web.pdf (web) | 4,094,288 | fc7676359c54a8ac062451dc9c394e3f2dd354403ecd4b7e80bd876ab47f467c |
+| Die-Lucerna-VOL2-EN.pdf (print) | 2,982,106 | d5c9671b91051114952509ce4c9b43431fd681aeeca72c8923410db1c4bf5ca4 (D5 重建，2026-11-14；旧配方值 4,137,635 B 已过期，见末节 D5 记录） |
+| Die-Lucerna-VOL2-EN-web.pdf (web) | 928,717 | 86337907dbe72e5d3a0e8f5250202d8a347cb4828ccd394412d42f52c2517e41 (D5 重建，2026-11-14；旧配方值 4,094,288 B 已过期，见末节 D5 记录） |
 
 Edition SVG SHA-256 (disk, final state):
 
@@ -381,7 +381,7 @@ overlaps, no cut-off text, no missing boxes. Observed and accepted as
 frozen-core inheritance (not edition defects): the German
 low-quote style (`„…"`, e.g. P2's column-continuation
 `„verschwindet "`), and the P6 chart's 0.2-clearance label (§5).
-The web PDF (4,094,288 B) is under the 10 MB repo limit.
+The web PDF (928,717 B) is under the 10 MB repo limit.
 
 ## 11. Provenance notes and self-repair checklist (read before proofreading)
 
@@ -447,3 +447,13 @@ transform.py, assets/CREDITS.md + fussball.jpg + kopfball.jpg).
 Edition dir: `files/weekly-report-w45-de-en/` (svg/ ×8, cards/ ×8,
 Die-Lucerna-VOL2-EN.pdf, Die-Lucerna-VOL2-EN-web.pdf, ABSTRACT.txt,
 this WEEKLY-KIT.md).
+
+## D5 重建记录（2026-11-14，W43/W45/W46 D5 重修 Phase 1）
+
+- **原因**：D5 缺陷——讲解层拉丁/西里尔字母落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者），违反 SOP §1.1 字体表。本版修前 census：D5 拉丁 626、西里尔 0、弯引号 CJK 0；花括号总量 43，全在 Newsreader 内。
+- **安装**：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target de --reader en --week 2026-w45`（先 `--check` dry-run 通过）。`_D5_READER = 'latin'`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2 保留（每版 5 处，`_QUOTE_CLS` 4 处）。Core 落盘：`--patch-core de --week 2026-w45`（PLAN 授权），只改 `production/2026-w45/core-de/svglib.py`。
+- **二次修复（只改字号，零文字改动）**：盒标题 5 处：content12.py:43 f.box tsize 23→22（Numbers）、content12.py:89 24→22（In this issue）、content12.py:187 24→22（At the pump）、content34.py:46 24→22（Autumn words）、content7.py:72 23→21（Toolbox）。
+- **P8**：行数 213→213，距页脚线余量 41.6→41.6 px（y=2596 线、页底 2700）；p8 compare CLEAN（keydiff [137, 138, 139, 150]，预期读者键）。
+- **新交付物（D5 重建，2026-11-14）**：印 PDF `d5c9671b91051114952509ce4c9b43431fd681aeeca72c8923410db1c4bf5ca4`（2,982,106 B）；网 PDF `86337907dbe72e5d3a0e8f5250202d8a347cb4828ccd394412d42f52c2517e41`（928,717 B，<7MB）。印 PDF 缩小系字体子集变化（拉丁文移出 CJK 字体），文字内容不变（文字层 print=web 多重集差 0）。网 PDF 非确定性（同源重建可差数 B），以最终实测值为准；closer 须拷 builder run2 原件，绝不重跑 webpdf。版内 SVG 针脚表（本 KIT 旧表）已随 D5 重排过期，新值见本版 D5 报告 §5。
+- **text.md**：D5 不改文字内容；交付件为已核实导出器（`hidden_files/style-port-de/export_de_w45.py`，试跑 BYTE-IDENTICAL）重出，vs `issues/` 已发 `.text.md` BYTE-IDENTICAL（48,183 B）。门 15b/15d 残差为 run-split artifact（15b SVG-only 全为裸数字、MD-only 全为 instruction/gloss 层词，零内容词差；15d `a2→b1`/`a2→b2` 断 run 拆分），按 D21/D22/D27 口径以 15a + native verifier ADOPT 验收。
+- **D5 门禁（17 门 + D18，run2，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（928,717 B <7MB）；occlusion 0（含自检 6 类全触发）；p8 extract 150/150；p8 compare CLEAN；freeze 基线 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 0；spill 0；boxtitle 0；edge 0 TOUCH 0 NEAR；creambox PASS 0 缺陷；文字层 print=web 多重集差 0；census_quotes 0 defective；D18 刊头间距 40.0px。日志：`hidden_files/d5-redo/scratch-2026-w45-de/logs/2026-w45-de-en/`（`GATES-SUMMARY.txt` 为总表）。D5 报告：`production/notes/2026-w45/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w45-de-en.md`。

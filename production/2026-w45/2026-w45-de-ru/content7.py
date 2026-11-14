@@ -84,7 +84,7 @@ rh = 62 + 30 + len(wrap(label, "sans", True, 20, CW - 44)) * 29 \
     + len(wrap(defer, "serif", False, 20.5, CW - 44)) * 29.5 + 8 \
     + len(wrap(reader, "serif", False, 21, CW - 44)) * 30 + 8 \
     + len(wrap(invite, "serif", False, 20.5, CW - 44)) * 29.5 + 8 \
-    + len(wrap(note_ru, "sans", False, 19.5, CW - 44)) * 28 + 8 \
+    + len(wrap(note_ru, "sans", False, 19.0, CW - 44)) * 28 + 8 \
     + len(wrap(invite_ru, "serif", False, 20.5, CW - 44)) * 29.5 + 40 + 32
 # NOTE (fix1): the +16 corrects the readers-box formula's per-paragraph
 # transition undercount (each drawn para adds its size on top of the
@@ -98,7 +98,7 @@ yy3 = p.para(ix + 22, yy3 + 20, label, 20, "sans", True, OLIVE, CW - 44, 1.42)
 yy3 = p.para(ix + 22, yy3 + 20.5, defer, 20.5, "serif", False, INK, CW - 44, 1.42) + 8
 yy3 = p.para(ix + 22, yy3 + 21, reader, 21, "serif", False, INK, CW - 44, 1.42) + 8
 yy3 = p.para(ix + 22, yy3 + 20.5, invite, 20.5, "serif", False, INK, CW - 44, 1.42) + 8
-yy3 = p.para(ix + 22, yy3 + 19.5, note_ru, 19.5, "sans", False, GREY, CW - 44, 1.42) + 8
+yy3 = p.para(ix + 22, yy3 + 19.0, note_ru, 19.0, "sans", False, GREY, CW - 44, 1.42) + 8
 p.para(ix + 22, yy3 + 20.5, invite_ru, 20.5, "serif", False, INK, CW - 44, 1.42)
 wy3 = ry + rh + 16
 p.rect(ix, wy3, CW, 150, fill=BOX)
@@ -127,8 +127,8 @@ for i, (q, zh, tag) in enumerate(phrases):
     qlines = len(wrap(quote, "serif", True, 20.5, CW))
     p.para(cx, cyy + 21, quote, 20.5, "serif", True, INK, CW, 1.38)
     t_y = cyy + 21 + (qlines - 1) * 28.3 + 36
-    tlines = len(wrap(zh, "sans", False, 19, CW))
-    p.para(cx, t_y, zh, 19, "sans", False, GREY, CW, 1.35)
+    tlines = len(wrap(zh, "sans", False, 18.5, CW))
+    p.para(cx, t_y, zh, 18.5, "sans", False, GREY, CW, 1.35)
     p.text(cx, t_y + (tlines - 1) * 25.6 + 30, tag, 18, "sans", True, OLIVE)
 
 # --- error clinic ---

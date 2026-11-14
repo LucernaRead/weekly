@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　Chiffres", [
     ("9 — Spiele hat der 9. Spieltag der Bundesliga (9 matches de la 9e journée)", "serif", False, INK, 20.5, 1.35),
     ("6 — deutsche Teams spielen in Europa (6 équipes allemandes en Europe)", "serif", False, INK, 20.5, 1.35),
     ("14,04 — Cent pro Liter beträgt der Tankrabatt (taxe en moins par litre)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("JETZT ÜBEN　Entraînez-vous", 25)
 f.ex("A2", "à compléter", "Englische", "semaine anglaise",
      "Diese Woche ist eine ___ Woche: viele Spiele in wenigen Tagen.", size=20.5)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Les cinq questions qui agitent l'Allemagne.", 19, "sa
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommaire", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommaire", 23, "sans", True, OLIVE)
 som = [
     ("S.2", "Tankrabatt & Pflege", "A2"),
     ("S.3", "Ferienwechsel & Herbst", "A2→B1"),
@@ -184,7 +184,7 @@ sy3 = 200
 sh = 45 + 33 * len(zapf) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zapf)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　À la pompe", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　À la pompe", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in zapf:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12

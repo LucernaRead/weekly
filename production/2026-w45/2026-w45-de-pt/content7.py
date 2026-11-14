@@ -92,7 +92,7 @@ rh = 62 + 30 + len(wrap(label, "sans", True, 20, CW - 44)) * 29 \
 # the word box below (occlusion COVER flag on the first fix1 render).
 p.rect(ix, ry, CW, rh, fill="#f0eee5")
 yy3 = ry + 16
-p.text(ix + 22, yy3 + 26, "LESERBRIEFE　Cartas dos leitores", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "LESERBRIEFE　Cartas dos leitores", 22, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 20, label, 20, "sans", True, OLIVE, CW - 44, 1.42)
 yy3 = p.para(ix + 22, yy3 + 20.5, defer, 20.5, "serif", False, INK, CW - 44, 1.42) + 8
@@ -102,7 +102,7 @@ yy3 = p.para(ix + 22, yy3 + 19.5, note_pt, 19.5, "sans", False, GREY, CW - 44, 1
 p.para(ix + 22, yy3 + 20.5, invite_pt, 20.5, "serif", False, INK, CW - 44, 1.42)
 wy3 = ry + rh + 16
 p.rect(ix, wy3, CW, 150, fill=BOX)
-p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Mais uma palavra", 22, "sans", True, OLIVE)
+p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Mais uma palavra", 21, "sans", True, OLIVE)
 p.para(ix + 22, wy3 + 78, "«der Tankrabatt» (Seite 2): die gesenkte Steuer auf Benzin und Diesel. Desconto no combustível.", 20.5, "serif", False, INK, CW - 44, 1.42)
 print("P7 col3 ends", wy3 + 150)
 

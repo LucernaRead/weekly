@@ -71,7 +71,7 @@ bf.ex("B1", "meerkeuze", "B", "Hoffenheim–Schalke op zondag om 19.30 uur",
       "Wann spielt Hoffenheim gegen Schalke? A. Samstag 18.30 Uhr · B. Sonntag 19.30 Uhr · C. Freitag 20.30 Uhr", size=19.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D　SÄTZE BAUEN　Zinnen bouwen", 24)
+bf.head("D　SÄTZE BAUEN　Zinnen bouwen", 23)
 bf.ex("A2", "zinnen bouwen", "Die Bundesliga beginnt am Freitag.", "tijdsbepaling vooraan, werkwoord op plaats 2",
       "die Bundesliga / beginnt / am Freitag → ___", instr="Vorm de zin", size=19.5, gap=8)
 bf.ex("A2", "zinnen bouwen", "Wir schauen Bayern bei Atlético.", "onderwerp–werkwoord–voorwerp",

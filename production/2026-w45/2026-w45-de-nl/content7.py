@@ -69,7 +69,7 @@ tb = ["14,04 Cent = 14,04 cent per liter",
 tbh = 62 + sum(len(wrap(t, "serif", False, 20.5, CW - 44)) * 29.5 + 6 for t in tb) + 110
 p.rect(ix, CTOP, CW, tbh, fill=BOX)
 yy3 = CTOP + 16
-p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Op zak", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Op zak", 22, "sans", True, OLIVE)
 yy3 += 52
 for t in tb:
     yy3 = p.para(ix + 22, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 44, 1.42) + 6

@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　今週の数字", [
     ("9 — Spiele hat der 9. Spieltag der Bundesliga（第9節は9試合）", "serif", False, INK, 20.5, 1.35),
     ("6 — deutsche Teams spielen in Europa（ドイツの6チームが欧州で戦う）", "serif", False, INK, 20.5, 1.35),
     ("14,04 — Cent pro Liter beträgt der Tankrabatt（1リットル14.04セント減税）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("JETZT ÜBEN　すぐ練習", 25)
 f.ex("A2", "文完成", "Englische", "サッカー週間",
      "Diese Woche ist eine ___ Woche: viele Spiele in wenigen Tagen.", size=20.5)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "今週ドイツで最も話題の五つの問い。",
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　今号の内容", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　今号の内容", 23, "sans", True, OLIVE)
 som = [
     ("S.2", "Tankrabatt & Pflege", "A2"),
     ("S.3", "Ferienwechsel & Herbst", "A2→B1"),

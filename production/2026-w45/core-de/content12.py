@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　数字看本周", [
     ("9 — Spiele hat der 9. Spieltag der Bundesliga（德甲第 9 轮共 9 场比赛）", "serif", False, INK, 20.5, 1.35),
     ("6 — deutsche Teams spielen in Europa（6 支德国球队出战欧战）", "serif", False, INK, 20.5, 1.35),
     ("14,04 — Cent pro Liter beträgt der Tankrabatt（每升油减税 14.04 欧分）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("JETZT ÜBEN　即学即练", 25)
 f.ex("A2", "完成句子", "Englische", "一周双赛",
      "Diese Woche ist eine ___ Woche: viele Spiele in wenigen Tagen.", size=20.5)

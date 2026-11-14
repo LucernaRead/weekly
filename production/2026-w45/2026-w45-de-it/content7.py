@@ -69,7 +69,7 @@ tb = ["14,04 Cent = 14,04 cent al litro",
 tbh = 62 + sum(len(wrap(t, "serif", False, 20.5, CW - 44)) * 29.5 + 6 for t in tb) + 110
 p.rect(ix, CTOP, CW, tbh, fill=BOX)
 yy3 = CTOP + 16
-p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Gli utili", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Gli utili", 21, "sans", True, OLIVE)
 yy3 += 52
 for t in tb:
     yy3 = p.para(ix + 22, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 44, 1.42) + 6
@@ -102,7 +102,7 @@ yy3 = p.para(ix + 22, yy3 + 19.5, note_it, 19.5, "sans", False, GREY, CW - 44, 1
 p.para(ix + 22, yy3 + 20.5, invite_it, 20.5, "serif", False, INK, CW - 44, 1.42)
 wy3 = ry + rh + 16
 p.rect(ix, wy3, CW, 150, fill=BOX)
-p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Una parola in più", 22, "sans", True, OLIVE)
+p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Una parola in più", 21, "sans", True, OLIVE)
 p.para(ix + 22, wy3 + 78, "«der Tankrabatt» (Seite 2): die gesenkte Steuer auf Benzin und Diesel. Sconto sul carburante.", 20.5, "serif", False, INK, CW - 44, 1.42)
 print("P7 col3 ends", wy3 + 150)
 

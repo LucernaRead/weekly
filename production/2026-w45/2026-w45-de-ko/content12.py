@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　숫자로 보기", [
     ("9 — Spiele hat der 9. Spieltag der Bundesliga (분데스리가 9라운드는 총 9경기)", "serif", False, INK, 20.5, 1.35),
     ("6 — deutsche Teams spielen in Europa (6개 독일 팀이 유럽 대항전에 나서요)", "serif", False, INK, 20.5, 1.35),
     ("14,04 — Cent pro Liter beträgt der Tankrabatt (리터당 14.04센트 세금 인하)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("JETZT ÜBEN　바로 연습", 25)
 f.ex("A2", "문장 완성", "Englische", "주중과 주말 연속 경기",
      "Diese Woche ist eine ___ Woche: viele Spiele in wenigen Tagen.", size=20.5)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "독일에서 이번 주 화제가 된 다섯 가지 �
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　이번 호 목차", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　이번 호 목차", 23, "sans", True, OLIVE)
 som = [
     ("S.2", "Tankrabatt & Pflege", "A2"),
     ("S.3", "Ferienwechsel & Herbst", "A2→B1"),

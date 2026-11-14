@@ -209,7 +209,7 @@ for lab, v, zh in bars:
     p.rect(MX + 470, byy + 4, v * 17, 30, fill=OLIVE)
     p.text(MX + 470 + v * 17 + 16, byy + 26, f"{v} %", 22, "sans", True, OLIVE)
     byy += 52
-p.text(MX, byy + 22, "ÜBUNGSDATEN　練習データ — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage.（この図の数字は編集部の練習例であり、本物の調査ではありません。）", 19.5, "sans", False, GREY)
+p.text(MX, byy + 22, "ÜBUNGSDATEN　練習データ — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage.（この図の数字は編集部の練習例であり、本物の調査ではありません。）", 18, "sans", False, GREY)
 
 # ---- P6 exercises ----
 ey = 1808

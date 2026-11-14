@@ -184,7 +184,7 @@ sy3 = 200
 sh = 45 + 33 * len(zapf) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zapf)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Bij de pomp", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AN DER ZAPFSÄULE　Bij de pomp", 22, "sans", True, OLIVE)
 yy3 += 52
 for t in zapf:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -218,7 +218,7 @@ sy3 = ey3 + eh + 26
 sh = 45 + 33 * len(zew) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in zew)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "ZEW IN KÜRZE　ZEW in het kort", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "ZEW IN KÜRZE　ZEW in het kort", 23, "sans", True, OLIVE)
 yy3 += 52
 for t in zew:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
