@@ -130,8 +130,41 @@ tools/p8.py compare：**CLEAN，150 = 150**，无缺失无多余；keydiff 18 �
 ## 11. 文件与复现
 
 - 交付：`svg/`（8）、`cards/`（8 PNG，1950×2700）、`A-Lucerna-VOL2-IT.pdf`（印刷版，**3,469,993 B**，8 页，SHA-256 `ddedb5135e74f7f3b8ffe11979b53997825fe718f35fb134e0e3a37e84110b0f`）、`A-Lucerna-VOL2-IT-web.pdf`（网页版，**3,483,035 B** < 10 MB，8 页，SHA-256 `6cab53914433d2e6f733aa23b4c14bfc6eb362e0eafd5acce077b14ec40d1a1a`）、`WEEKLY-KIT.md`、`ABSTRACT.txt`（意大利语单行、无 ASCII 双引号）。
+
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT) + F-A fix (2026-11-14, D36, see F-A fix section at the end of this KIT): print master `A-Lucerna-VOL2-pt-it.pdf` **2277499 B** · sha256 `a953cda487bfd4c040ae89009976cf0af9d93b3ed0ef8b7c8a072a7213ed1cc2`; render-web `A-Lucerna-VOL2-pt-it-web.pdf` **3107658 B** · sha256 `aa3ea31612055790f9489d6a7c1432cab49a9dd123965749443d5bfb0727b5d2`; web (issues-type) `2026-w45-pt-it.web.pdf` **758846 B** · sha256 `46fcf721084e19cc3b8f9369c7a5d8769f8266bfe6e4e8a93ec60a1ecd75d490` (< 7 MB); text.md differs from the shipped version by exactly 2 lines (F-A fix, D36 + D34 typo, D34; sha256 `5ac9aaaf182da96935158ecdbcfed74d9a6184e8df487e4d681e020c4c1f2cf4`, 32169 B; run2 value was BYTE-IDENTICAL, 32172 B, `fd4c46f75dcddad173d6a102bbcb0d7bbddfe166ff00dddb3021de29612a7075`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
 - 制作源码：`hidden_files/weekly-report-w45-pt-it-build/`（bslib4.py、svglib.py、content12/34/56/7/8.py、run.py、render.py、transform.py、gates-scan.py、BUILD-LOG.md、各轮 sha256 基线、freeze-diff.json、occlusion-*.json、gates-scan.json）。
 - 复现：先取 W45 PT×EN 构建目录复制为本构建目录并改指 OUT/BASE 至 weekly-report-w45-pt-it，再运行 transform.py（一次），然后单进程 `run.py` + `render.py`。**解释器：tools/venv/bin/python（Python 3.12.3，PIL 13.0.0，含 cairosvg；系统 python3 无 cairosvg，不可用）**。transform.py 内含全部修复轮（FIX 顺序遮蔽修复 + FIX2 P7 修复），不得只改 content 文件。
 - 8 张卡片逐页目视检查：P1–P8 全部看过，无重叠、无截断、无压框（P3 日历框末行沿框线外为核心原样，见 §8）；页数 8（4 的倍数）、页脚 8/8 标核心 VOL 号（VOL.2）、配对徽章/页眉页脚齐全。
 - 跨族残留重扫：中文残留 0（逐页证实）、西里尔/韩文/假名 0、英文独立词 0（仅有的 COMPLETE 两处为核心冻结葡语栏目标题 «COMPLETE COM OS NÚMEROS» / «COMPLETE A CRÔNICA»，与核心逐字节相同）、英文 gloss 前缀 «Note |» 0、«Page N of» 0。
 - 未做：未发 Discord、未往主聊天发卡片/PDF、未建 cron、未碰 weekly-git、未改核心/W43 目录（只读对照）；入仓与发布由主线安排（届时需 insert.py + lint 门槛）；本版不自我认证定稿，仍需一次全新完整独立校对。
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-it/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-it.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition installed with `apply_variant.py --svglib patched/2026-w45-pt-it/svglib.py --target pt --reader it --week 2026-w45`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 33140 = 33140 = 33140 chars, multiset diff 0; baseline web PDF 835379 B; print PDF 2776840 B (`fdcfb9a06a2095ae…`); pre-fix census D5 Latin 496, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 4 items, sizes only, no wording changed):
+
+- P1-headline `AGORA VOCÊ　ORA TOCCA A TE`: content12.py:49 `f.head` 25→22
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+- P1 `IN BREVE`: content12.py:131 `p.text` 24→21
+
+P8: 245→245 lines, footer slack 59.9→59.9 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=2, all in Newsreader); render RC=0; webpdf RC=0 (758849 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 257, run splits); spill 0; boxtitle 0 DEFECT (27 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 33140 chars, multiset diff 0; textmd carryover 1/1 residual (svg 33140 = md 33140 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 42.8 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL2-pt-it.pdf` 2277499 B (`a953cda487bfd4c0…`); render-web `A-Lucerna-VOL2-pt-it-web.pdf` 3107658 B (`aa3ea31612055790…`); web (issues-type) `2026-w45-pt-it.web.pdf` 758846 B (`46fcf721084e19cc…`); text.md differs from the shipped version by exactly 1 line (F-A fix, D36; `a6d3b58758838686…`, 32170 B). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-it/2026-w45-pt-it.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).
+
+## F-A fix (2026-11-14, D36 — reproof finding F-A)
+
+Reproof (`FAMILY-W45-PT-REPROOF.md` §8) found P7 B1 bridge sentence wrongly said chegar/dormir (chegou, dormiu) take an accent — neither word carries one. Fix: minimal edit at `content7.py:35` (nl: `b.expl`), verb names chegar/dormir → sair/cair, examples chegou/dormiu → saíram/caíram; sentence structure and all other words unchanged. PT original line 34 (`Atenção ao acento: saíram, caíram.`) untouched. The other 5 editions (ja/ko/ru/zh-cn/zh-tw) were not touched — their line only vaguely says "note the accent" and is not a finding.
+
+**Fix gates** (in `fix/`, `GATES-SUMMARY.txt`): run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0; render RC=0; webpdf RC=0 (758846 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138]; freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 257 (unchanged from run2)); spill 0; boxtitle 0 DEFECT (27 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects (P8 245→245，slack 59.9→59.9); text layer print=web 33136 chars, multiset diff 0; print-vs-issued multiset diff 22 = exactly the F-A character delta (9 new vs 13 old, verified by `pdftotext` counters); textmd carryover vs NEW text.md **1/1 residual** (only the known D34 typo `domingo 15` vs `8`); carryover vs ISSUED md 5/5 (D34 + the 4 F-A tokens); masthead gap (D18) 42.8 px PASS; census_quotes 0 defective. Fix verdict carries the expected 15a red (the对照 is the issued edition); acceptance is by diff content, not verdict wording.
+
+**Fix deliverables**: print master `A-Lucerna-VOL2-pt-it.pdf` 2277499 B (`a953cda487bfd4c040ae89009976cf0af9d93b3ed0ef8b7c8a072a7213ed1cc2`); render-web `A-Lucerna-VOL2-pt-it-web.pdf` 3107658 B (`aa3ea31612055790f9489d6a7c1432cab49a9dd123965749443d5bfb0727b5d2`); web (issues-type) `2026-w45-pt-it.web.pdf` 758846 B (`46fcf721084e19cc3b8f9369c7a5d8769f8266bfe6e4e8a93ec60a1ecd75d490`); new text.md `2026-w45-pt-it.text.md.new` 32169 B (`5ac9aaaf182da96935158ecdbcfed74d9a6184e8df487e4d681e020c4c1f2cf4`) — issued text.md with the identical 2-line substitutions at lines 352 (F-A) and 34 (D34) (pt has no text.md exporter; see Exporter note). P7 visually checked on the rendered print PDF (100 dpi): new bridge sentence complete, no overflow or collision; de full page checked. Fixed `content7.py` propagated to BOTH `production/2026-w45/2026-w45-pt-it/content7.py` and `patched/2026-w45-pt-it/content7.py`; `diff -q` confirms production == patched == fix. F-B (D34 typo, 11 issued `.text.md` line 34) fixed by the closer on the delivered files with re-pin (see D5-pin line).

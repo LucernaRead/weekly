@@ -14,6 +14,8 @@
 | `cards/p1-capa.png` … `cards/p8-avaliacao.png` | 8 张渲染卡片（已全部逐页目视） |
 | `Lucerna-VOL2-KO.pdf` | 印刷版，8 页，8,438,601 字节，sha256 `52f531ca1ed6983e461b093d8c5522f236b1e45c114ed7f5e61c77ff70378db8` |
 | `Lucerna-VOL2-KO-web.pdf` | 网页版，8 页，3,361,090 字节，sha256 `b7d2ea809578fba28a1f1de54e0b71f0a77848950a8f45ead5d1458eb90e07b8` |
+
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL2-pt-ko.pdf` **3579889 B** · sha256 `6a58c64da109198276ab9e63c76f2087f19a5f608928b0a885180baebb30a91e`; render-web `A-Lucerna-VOL2-pt-ko-web.pdf` **2997452 B** · sha256 `900f381158b4fcf596688f03d63b1b82cc9fb2988f5a2782e5642cf1b989b85d`; web (issues-type) `2026-w45-pt-ko.web.pdf` **992354 B** · sha256 `8ca305ec40d687ba9914e6ebf76606b660ec393d17c9fe00447f6417a16ad803` (< 7 MB); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; sha256 `f4ee84ab5e500b498eca296869e14b79b32ac9a74dfe83f95293383443a9d247`, 32117 B; run2 value was BYTE-IDENTICAL, 32118 B, `3f17df397e50f908ef8fd9388bbed58949ec86910aef3f1fd07fa60c67997fb6`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
 | `WEEKLY-KIT.md` | 本文件 |
 | `ABSTRACT.txt` | 韩语单行摘要，无 ASCII 双引号，含本周真实主题关键词 + 学习者搜索短语 |
 
@@ -127,3 +129,24 @@
 
 - 独立校对未做：本版仅通过构建方自查，**不得称为定稿**。
 - 入仓（LucernaRead/weekly）、Discord 投递、主聊天发布均未做（任务范围外；Discord 投递仍处暂停令下）。
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold) under per-character routing; CJK characters stay in Noto Sans CJK (JP/KR/SC per reader). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-ko/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-ko.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition installed with `apply_variant.py --svglib patched/2026-w45-pt-ko/svglib.py --target pt --reader ko --week 2026-w45` (mode=cjk), `_D5_READER = "cjk"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 27886 = 27886 = 27886 chars, multiset diff 0; baseline web PDF 1104845 B; print PDF 6532489 B (`2e4b6e5dccb7b5e8…`); pre-fix census D5 Latin 333, Cyrillic 0, curly in CJK 1; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 2 items, sizes only, no wording changed):
+
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+
+P8: 243→243 lines, footer slack 41.7→41.7 px.
+
+**Gates run2** (17 gates; family gates.py via the runner (see the D5 report §G17); the scripted G17 call is unrunnable (stale paths)) — **ALL-GREEN (17/17 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=4, all in Newsreader); render RC=0; webpdf RC=0 (992354 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 216, run splits); spill 0; boxtitle 0 DEFECT (40 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 27886 chars, multiset diff 0; textmd carryover 1/1 residual (svg 27886 = md 27886 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 148.3 px PASS; census_quotes 0 defective; G17 runner verdict: no D5 content defect (all patched-only findings are run-split measurement artifacts).
+
+**New deliverables**: print master `A-Lucerna-VOL2-pt-ko.pdf` 3579889 B (`6a58c64da1091982…`); render-web `A-Lucerna-VOL2-pt-ko-web.pdf` 2997452 B (`900f381158b4fcf5…`); web (issues-type) `2026-w45-pt-ko.web.pdf` 992354 B (`8ca305ec40d687ba…`); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; `f4ee84ab5e500b49…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-ko/2026-w45-pt-ko.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).

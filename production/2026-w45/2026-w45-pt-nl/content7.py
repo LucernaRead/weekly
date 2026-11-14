@@ -32,7 +32,7 @@ b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
 b.head("B1　O PRETÉRITO PERFEITO", 24)
 b.para("Para contar a semana, usamos o pretérito perfeito: eu revisei, ele chegou, ele dormiu. Revisar é regular: eu revisei, ele revisou.", 21.5)
 b.para("E o modelo é simples: chegar → chegou; dormir → dormiu; separar → separei. Atenção ao acento: saíram, caíram.", 21.5)
-b.expl("Uitleg — Om de week te vertellen gebruiken we de pretérito perfeito; revisar is regelmatig (revisei); chegar en dormir krijgen een accent in de verleden tijd: chegou, dormiu.")
+b.expl("Uitleg — Om de week te vertellen gebruiken we de pretérito perfeito; revisar is regelmatig (revisei); sair en cair krijgen een accent in de verleden tijd: saíram, caíram.")
 b.ex("B1", "Voltooi de zin", "revisei", "revisar, verleden tijd: revisei",
      "Eu ___ (revisar) um pouco por dia.", instr="Vul in", size=20.5, gap=10)
 b.ex("B1", "Voltooi de zin", "chegou", "chegar, verleden tijd: chegou",
@@ -81,7 +81,7 @@ wt = "« feriadão »: sábado, domingo e segunda — três dias de descanso."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("feriadão = het lange feestweekend, drie dagen.", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA　WOORD VAN DE WEEK", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WOORD VAN DE WEEK", 20, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "feriadão = het lange feestweekend, drie dagen.", 20, "sans", False, GREY, CW - 44, 1.42)

@@ -1,0 +1,22 @@
+GATES-FIX 2026-w45-pt-en  2026-11-14T16:13:36Z  reader=en
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=4 curly_in_newsreader=4 noto_sans_elements=0
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=760205
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-en/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-en/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/baseline/2026-w45-pt-zh-cn/svg/p8-avaliacao.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-en/svg/p8-avaliacao.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: gates.py)
+G10 freeze_diff_vs_base: p8: +44 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 28 (unexpected 28) TOTAL added CJK characters: 0 TOTAL added Latin strings: 248 (unexpected 248) 
+G11 spill: SPILL_SWEEP 2026-w45-pt-en: 32 boxes, 60 candidates, 0 SPILL, 60 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-pt-en: 25 titles, 256 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: EDGE_SCAN 2026-w45-pt-en: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-avaliacao.svg: lines 246->246 slack_footer 59.9->59.9 CREAMBOX PASS 0 defects 
+G15a textlayer: print=32313 web=32313 issued=32317 diff_pw=0 diff_pi=22
+G15b carryover vs ISSUED md: rc=1 svg tokens: 4970 (unique 978); md tokens: 4970 (unique 977) CARRYOVER: FAIL 
+G15b carryover vs NEW md: rc=1 svg tokens: 4970 (unique 978); md tokens: 4970 (unique 978) CARRYOVER: FAIL 
+G15c masthead(D18): 2026-w45-pt-en: SVG gap=53.0px (slogan_x=562.5 date_x=1440.5) model_gap=62.1px (slogan_w=852.9 date_w=421.5) PASS
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: present — scripted run skipped (D35: unrunnable); runner evidence separate
+GATES-FIX DONE 2026-w45-pt-en

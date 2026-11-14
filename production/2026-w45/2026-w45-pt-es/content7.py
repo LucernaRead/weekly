@@ -32,7 +32,7 @@ b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
 b.head("B1　O PRETÉRITO PERFEITO", 24)
 b.para("Para contar a semana, usamos o pretérito perfeito: eu revisei, ele chegou, ele dormiu. Revisar é regular: eu revisei, ele revisou.", 21.5)
 b.para("E o modelo é simples: chegar → chegou; dormir → dormiu; separar → separei. Atenção ao acento: saíram, caíram.", 21.5)
-b.bridge("Para contar la semana usamos el pretérito perfeito; revisar es regular (revisei); chegar y dormir llevan acento en el pasado: chegou, dormiu.")
+b.bridge("Para contar la semana usamos el pretérito perfeito; revisar es regular (revisei); sair y cair llevan acento en el pasado: saíram, caíram.")
 b.ex("B1", "Completa la frase", "revisei", "revisar, pretérito perfeito: revisei",
      "Eu ___ (revisar) um pouco por dia.", instr="Completa", size=20.5, gap=10)
 b.ex("B1", "Completa la frase", "chegou", "chegar, pretérito perfeito: chegou",

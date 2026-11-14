@@ -122,6 +122,8 @@ main chat, no cron was created, weekly-git was not touched.**
 PDF sha256: print `a952fcefde109f84ca0fcfc3e7c1981b47184d45432e7b04460b694822a03242`,
 web `beea22b7ea91b02e5c0b8304b2710c1154efeae2a808633f921df5e562a59f29`.
 
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT) + F-A fix (2026-11-14, D36, see F-A fix section at the end of this KIT): print master `A-Lucerna-VOL2-pt-de.pdf` **2283788 B** · sha256 `2252f2e4beffd881783232adcabf61000d4dfa53889badb62d01ed466d35cbd9`; render-web `A-Lucerna-VOL2-pt-de-web.pdf` **3126032 B** · sha256 `df87994a71f406035f7e87acacfa16b944400034591c0814bba0ed8a2b8c6c1f`; web (issues-type) `2026-w45-pt-de.web.pdf` **765166 B** · sha256 `8a13a7b48875973516cae278ea08f6c02e7c9c56735a626e3986e5f58af821d1` (< 7 MB); text.md differs from the shipped version by exactly 2 lines (F-A fix, D36 + D34 typo, D34; sha256 `7c48ba1d82aed9f562c61404f4cae161079cfb49817308466fae2e2c611fcb2f`, 31851 B; run2 value was BYTE-IDENTICAL, 31854 B, `29af1ae8c0d243576a86d86dcb3aefd671509f4c8b8d6ac8f709c8b423269351`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
+
 ## 4. Re-aimed items (the ONLY content changes vs the core)
 
 Translation exercises legitimately re-aim at the reader's language (W43 KIT §4 pattern):
@@ -330,3 +332,36 @@ Additional scans (same-baseline ink spacing, decoded entities):
 - Repo insert (insert.py + lint) and any Discord delivery are for the
   main line to arrange; per the standing delivery pause, nothing was
   pushed or posted by this build.
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-de/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-de.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition installed with `apply_variant.py --svglib patched/2026-w45-pt-de/svglib.py --target pt --reader de --week 2026-w45`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 32844 = 32844 = 32844 chars, multiset diff 0; baseline web PDF 842662 B; print PDF 2782654 B (`5f17ea0d43f0aaef…`); pre-fix census D5 Latin 488, Cyrillic 0, curly in CJK 1; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 6 items, sizes only, no wording changed):
+
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+- P1 `ZAHLEN` box: content12.py:48 `f.box` close, `tsize` 23→20
+- P1 `IN KÜRZE`: content12.py:131 `p.text` 24→21
+- P7 `HÄUFIGE FEHLER`: content7.py:73 `p.text` 23→20
+- P7 `WORT DER WOCHE`: content7.py:84 `p.text` 23→22
+
+P8: 222→222 lines, footer slack 43.0→43.0 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=3, all in Newsreader); render RC=0; webpdf RC=0 (765166 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 251, run splits); spill 0; boxtitle 0 DEFECT (25 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 32844 chars, multiset diff 0; textmd carryover 1/1 residual (svg 32844 = md 32844 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 72.2 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL2-pt-de.pdf` 2283788 B (`2252f2e4beffd881…`); render-web `A-Lucerna-VOL2-pt-de-web.pdf` 3126032 B (`df87994a71f40603…`); web (issues-type) `2026-w45-pt-de.web.pdf` 765166 B (`8a13a7b488759735…`); text.md differs from the shipped version by exactly 1 line (F-A fix, D36; `d51cb19e36a4e6f7…`, 31852 B). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-de/2026-w45-pt-de.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).
+
+## F-A fix (2026-11-14, D36 — reproof finding F-A)
+
+Reproof (`FAMILY-W45-PT-REPROOF.md` §8) found P7 B1 bridge sentence wrongly said chegar/dormir (chegou, dormiu) take an accent — neither word carries one. Fix: minimal edit at `content7.py:35` (nl: `b.expl`), verb names chegar/dormir → sair/cair, examples chegou/dormiu → saíram/caíram; sentence structure and all other words unchanged. PT original line 34 (`Atenção ao acento: saíram, caíram.`) untouched. The other 5 editions (ja/ko/ru/zh-cn/zh-tw) were not touched — their line only vaguely says "note the accent" and is not a finding.
+
+**Fix gates** (in `fix/`, `GATES-SUMMARY.txt`): run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0; render RC=0; webpdf RC=0 (765166 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138]; freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 251 (unchanged from run2)); spill 0; boxtitle 0 DEFECT (25 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects (P8 222→222，slack 43.0→43.0); text layer print=web 32840 chars, multiset diff 0; print-vs-issued multiset diff 22 = exactly the F-A character delta (9 new vs 13 old, verified by `pdftotext` counters); textmd carryover vs NEW text.md **1/1 residual** (only the known D34 typo `domingo 15` vs `8`); carryover vs ISSUED md 5/5 (D34 + the 4 F-A tokens); masthead gap (D18) 72.2 px PASS; census_quotes 0 defective. Fix verdict carries the expected 15a red (the对照 is the issued edition); acceptance is by diff content, not verdict wording.
+
+**Fix deliverables**: print master `A-Lucerna-VOL2-pt-de.pdf` 2283788 B (`2252f2e4beffd881783232adcabf61000d4dfa53889badb62d01ed466d35cbd9`); render-web `A-Lucerna-VOL2-pt-de-web.pdf` 3126032 B (`df87994a71f406035f7e87acacfa16b944400034591c0814bba0ed8a2b8c6c1f`); web (issues-type) `2026-w45-pt-de.web.pdf` 765166 B (`8a13a7b48875973516cae278ea08f6c02e7c9c56735a626e3986e5f58af821d1`); new text.md `2026-w45-pt-de.text.md.new` 31851 B (`7c48ba1d82aed9f562c61404f4cae161079cfb49817308466fae2e2c611fcb2f`) — issued text.md with the identical 2-line substitutions at lines 352 (F-A) and 34 (D34) (pt has no text.md exporter; see Exporter note). P7 visually checked on the rendered print PDF (100 dpi): new bridge sentence complete, no overflow or collision; de full page checked. Fixed `content7.py` propagated to BOTH `production/2026-w45/2026-w45-pt-de/content7.py` and `patched/2026-w45-pt-de/content7.py`; `diff -q` confirms production == patched == fix. F-B (D34 typo, 11 issued `.text.md` line 34) fixed by the closer on the delivered files with re-pin (see D5-pin line).

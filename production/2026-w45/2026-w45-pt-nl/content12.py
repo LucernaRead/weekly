@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　CIJFERS", [
     ("13h — os portões fecham (13h: de poorten sluiten, wie te laat is komt er niet in)", "serif", False, INK, 20, 1.35),
     ("13h30–19h — a prova do dia 8 (het examen van dag 8, 13:30 tot 19:00)", "serif", False, INK, 20, 1.35),
     ("5h30 — a duração da prova do dia 8 (het examen van dag 8 duurt vijf en een half uur)", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　AAN DE SLAG", 25)
 f.ex("A2", "Voltooi de zin", "feriadão", "feriadão = het lange feestweekend",
      "A semana começa com o ___ de Finados.", size=19.5, gap=6)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Wie te laat komt, komt er na 13h niet meer in.", 19, 
 # ---- conteúdo (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 22, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "O feriadão e a revisão", "A2"),
     ("Pág. 3", "Finados, o dia da memória", "A2→B1"),
@@ -121,14 +121,14 @@ caption(p, ix, iy + 320, iw,
         "Foto: Gary Todd / Wikimedia Commons — CC0")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
-f2.head("A SEMANA EM DOIS DOMINGOS", 25)
+f2.head("A SEMANA EM DOIS DOMINGOS", 22)
 f2.para("Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.", 22.5)
 f2.para("No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.", 22.5)
 f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 21, "sans", True, OLIVE)
 brefs = [
     ("O FERIADÃO", "Segunda, 2: Finados, feriado nacional — feriadão de 31 a 2. (Página 2)"),
     ("O ENEM", "Domingo, 8: primeiro dia — redação, Linguagens e Humanas. (Página 6)"),
@@ -252,7 +252,7 @@ e.ex("A2", "Voltooi de zin", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Vul in", size=20, gap=8)
 e.ex("A2", "Voltooi de zin", "é", "ser, tegenwoordige tijd (ela): é",
      "A missa de Finados ___ (ser) um momento calmo.", instr="Vul in", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("Uitleg — Vul de getallen van pagina 1 en 2 in.")
 e.ex("A2", "Voltooi de zin", "1", "12h tot 13h = 1 uur",
      "Os portões ficam abertos ___ hora.", instr="Vul in", size=20, gap=8)

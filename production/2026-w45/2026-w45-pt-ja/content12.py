@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　今週の数字", [
     ("13h — os portões fecham（13時閉門、遅刻は入場不可）", "serif", False, INK, 20, 1.35),
     ("13h30–19h — a prova do dia 8（試験13:30から19:00まで）", "serif", False, INK, 20, 1.35),
     ("5h30 — a duração da prova do dia 8（試験時間5時間半）", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　すぐ練習", 25)
 f.ex("A2", "文の完成", "feriadão", "feriadão = 連休",
      "A semana começa com o ___ de Finados.", size=19.5, gap=6)
@@ -121,7 +121,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: Gary Todd / Wikimedia Commons — CC0")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
-f2.head("A SEMANA EM DOIS DOMINGOS", 25)
+f2.head("A SEMANA EM DOIS DOMINGOS", 22)
 f2.para("Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.", 22.5)
 f2.para("No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.", 22.5)
 f2.end_report()
@@ -252,7 +252,7 @@ e.ex("A2", "文の完成", "começa", "começar：ela → começa",
      "A prova ___ (começar) às 13h30.", instr="空所補充", size=20, gap=8)
 e.ex("A2", "文の完成", "é", "ser 現在形 ela の形：é",
      "A missa de Finados ___ (ser) um momento calmo.", instr="空所補充", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.bridge("1・2ページの数字で空所を補ってください。")
 e.ex("A2", "文の完成", "1", "12時から13時 = 1時間",
      "Os portões ficam abertos ___ hora.", instr="空所補充", size=20, gap=8)

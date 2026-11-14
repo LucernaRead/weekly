@@ -1,0 +1,22 @@
+GATES-FIX 2026-w45-pt-de  2026-11-14T16:10:06Z  reader=de
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=3 curly_in_newsreader=3 noto_sans_elements=0
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=765166
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-de/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-de/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/baseline/2026-w45-pt-zh-cn/svg/p8-avaliacao.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-de/svg/p8-avaliacao.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: baseline/build-copy/content12.py, baseline/build-copy/content34.py, baseline/build-copy/content56.py, baseline/build-copy/content7.py, baseline/build-copy/content8.py, baseline/build-copy/render.py, proof/audit2.py, proof/freeze-baseline/build-copy/content12.py, proof/freeze-baseline/build-copy/content34.py, proof/freeze-baseline/build-copy/content56.py, proof/freeze-baseline/build-copy/content7.py, proof/freeze-baseline/build-copy/content8.py, proof/freeze-baseline/build-copy/render.py, proof/repro/content12.py, proof/repro/content34.py, proof/repro/content56.py, proof/repro/content7.py, proof/repro/content8.py, proof/repro/render.py, repro-check2/content12.py, repro-check2/content34.py, repro-check2/content56.py, repro-check2/content7.py, repro-check2/content8.py, repro-check2/render.py)
+G10 freeze_diff_vs_base: p8: +44 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 28 (unexpected 28) TOTAL added CJK characters: 0 TOTAL added Latin strings: 251 (unexpected 251) 
+G11 spill: SPILL_SWEEP 2026-w45-pt-de: 32 boxes, 63 candidates, 0 SPILL, 63 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-pt-de: 25 titles, 251 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: EDGE_SCAN 2026-w45-pt-de: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-avaliacao.svg: lines 222->222 slack_footer 43.0->43.0 CREAMBOX PASS 0 defects 
+G15a textlayer: print=32840 web=32840 issued=32844 diff_pw=0 diff_pi=22
+G15b carryover vs ISSUED md: rc=1 svg tokens: 4878 (unique 996); md tokens: 4878 (unique 995) CARRYOVER: FAIL 
+G15b carryover vs NEW md: rc=1 svg tokens: 4878 (unique 996); md tokens: 4878 (unique 996) CARRYOVER: FAIL 
+G15c masthead(D18): 2026-w45-pt-de: SVG gap=72.2px (slogan_x=581.7 date_x=1440.5) model_gap=81.3px (slogan_w=814.5 date_w=421.5) PASS
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: N/A (no gates.py in this edition)
+GATES-FIX DONE 2026-w45-pt-de

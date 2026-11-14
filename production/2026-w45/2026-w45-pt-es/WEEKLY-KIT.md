@@ -82,6 +82,8 @@ Las 8 tarjetas leídas página a página: ortografía y acentuación del españo
 - `svg/` ×8, `cards/` ×8 (1950×2700)
 - PDF de impresión: `Lucerna-VOL2-ES.pdf` — 3.471.166 bytes, sha256 `83fa3515fbfefd9f2b84ec31f425808e6420a250aaffbcc5fe4ed9c0088ddc06`
 - PDF web: `Lucerna-VOL2-ES-web.pdf` — 3.494.583 bytes (< 10 MB), sha256 `892eb78d9e91e7fd5865082abe05e90e01b37108d9be1f18bb3c77e1d5d64762`
+
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT) + F-A fix (2026-11-14, D36, see F-A fix section at the end of this KIT): print master `A-Lucerna-VOL2-pt-es.pdf` **2279787 B** · sha256 `5ab8f976742ff018d86ccd9d41e453c3b37a99616bd0ad7e094bd07be6498421`; render-web `A-Lucerna-VOL2-pt-es-web.pdf` **3112573 B** · sha256 `703d95bb9cbc5637bbb395ba23c5b8b394cbae192e48576e9dd7799498bda964`; web (issues-type) `2026-w45-pt-es.web.pdf` **761152 B** · sha256 `74eccc8e2c6257c5d338ca71cdc127a8c84adf2ff0eacada1641243555897d64` (< 7 MB); text.md differs from the shipped version by exactly 2 lines (F-A fix, D36 + D34 typo, D34; sha256 `ad15135b8dc9ca5838bc181222dee33ecb404f43faaae2d8f9f4816472cab7e2`, 31980 B; run2 value was BYTE-IDENTICAL, 31983 B, `b34b54658ce011002747336e4da5b1a24a3d93a9c96819a7d4b8bac204e247ba`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
 - `ABSTRACT.txt` (una línea, sin comillas ASCII dobles, en español)
 
 ## Reproducción
@@ -97,3 +99,35 @@ cd hidden_files/weekly-report-w45-pt-es-build
 Intérpretes (ambos, run.py y render.py): `tools/venv/bin/python` — Python 3.12.3, Pillow 13.0.0, cairosvg 2.9.1, pypdf 6.21.2. El python3 del sistema (también 3.12.3, Pillow 10.2.0) no tiene cairosvg y no se usó; sus métricas PIL difieren, por lo que no debe usarse para re-renderizar.
 
 Entrega: solo repositorio GitHub cuando se inserte (Discord en pausa por instrucción del usuario). Estado del constructor: **builder-complete** (la aprobación final exige la relectura independiente, no realizada aquí).
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-es/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-es.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition installed with `apply_variant.py --svglib patched/2026-w45-pt-es/svglib.py --target pt --reader es --week 2026-w45`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 33208 = 33208 = 33208 chars, multiset diff 0; baseline web PDF 837975 B; print PDF 2778311 B (`5daec56ce7f66171…`); pre-fix census D5 Latin 493, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 5 items, sizes only, no wording changed):
+
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+- P1 `EN CIFRAS` box: content12.py:48 `f.box` close, `tsize` 20→19
+- P1 `EN ESTA EDICIÓN`: content12.py:89 `p.text` 24→21
+- P1 `BREVE`: content12.py:131 `p.text` 24→23
+
+P8: 240→240 lines, footer slack 45.3→45.3 px.
+
+**Gates run2** (17 gates; family gates.py via the runner (see the D5 report §G17); the scripted G17 call is unrunnable (stale paths)) — **ALL-GREEN (17/17 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=2, all in Newsreader); render RC=0; webpdf RC=0 (761154 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 247, run splits); spill 0; boxtitle 0 DEFECT (27 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 33208 chars, multiset diff 0; textmd carryover 1/1 residual (svg 33208 = md 33208 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 45.7 px PASS; census_quotes 0 defective; G17 runner verdict: no D5 content defect (all patched-only findings are run-split measurement artifacts).
+
+**New deliverables**: print master `A-Lucerna-VOL2-pt-es.pdf` 2279787 B (`5ab8f976742ff018…`); render-web `A-Lucerna-VOL2-pt-es-web.pdf` 3112573 B (`703d95bb9cbc5637…`); web (issues-type) `2026-w45-pt-es.web.pdf` 761152 B (`74eccc8e2c6257c5…`); text.md differs from the shipped version by exactly 1 line (F-A fix, D36; `0be17947c1b1dd1e…`, 31981 B). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-es/2026-w45-pt-es.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).
+
+## F-A fix (2026-11-14, D36 — reproof finding F-A)
+
+Reproof (`FAMILY-W45-PT-REPROOF.md` §8) found P7 B1 bridge sentence wrongly said chegar/dormir (chegou, dormiu) take an accent — neither word carries one. Fix: minimal edit at `content7.py:35` (nl: `b.expl`), verb names chegar/dormir → sair/cair, examples chegou/dormiu → saíram/caíram; sentence structure and all other words unchanged. PT original line 34 (`Atenção ao acento: saíram, caíram.`) untouched. The other 5 editions (ja/ko/ru/zh-cn/zh-tw) were not touched — their line only vaguely says "note the accent" and is not a finding.
+
+**Fix gates** (in `fix/`, `GATES-SUMMARY.txt`): run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0; render RC=0; webpdf RC=0 (761152 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138]; freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 250 (run2 247; +3 is the new F-A words sair/cair/saíram/caíram as added run strings, expected)); spill 0; boxtitle 0 DEFECT (27 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects (P8 240→240，slack 45.3→45.3); text layer print=web 33204 chars, multiset diff 0; print-vs-issued multiset diff 22 = exactly the F-A character delta (9 new vs 13 old, verified by `pdftotext` counters); textmd carryover vs NEW text.md **1/1 residual** (only the known D34 typo `domingo 15` vs `8`); carryover vs ISSUED md 5/5 (D34 + the 4 F-A tokens); masthead gap (D18) 45.7 px PASS; census_quotes 0 defective. G17 runner (en/es/nl): fix runner log byte-identical to the builder patched runner log after path normalisation. Fix verdict carries the expected 15a red (the对照 is the issued edition); acceptance is by diff content, not verdict wording.
+
+**Fix deliverables**: print master `A-Lucerna-VOL2-pt-es.pdf` 2279787 B (`5ab8f976742ff018d86ccd9d41e453c3b37a99616bd0ad7e094bd07be6498421`); render-web `A-Lucerna-VOL2-pt-es-web.pdf` 3112573 B (`703d95bb9cbc5637bbb395ba23c5b8b394cbae192e48576e9dd7799498bda964`); web (issues-type) `2026-w45-pt-es.web.pdf` 761152 B (`74eccc8e2c6257c5d338ca71cdc127a8c84adf2ff0eacada1641243555897d64`); new text.md `2026-w45-pt-es.text.md.new` 31980 B (`ad15135b8dc9ca5838bc181222dee33ecb404f43faaae2d8f9f4816472cab7e2`) — issued text.md with the identical 2-line substitutions at lines 352 (F-A) and 34 (D34) (pt has no text.md exporter; see Exporter note). P7 visually checked on the rendered print PDF (100 dpi): new bridge sentence complete, no overflow or collision; de full page checked. Fixed `content7.py` propagated to BOTH `production/2026-w45/2026-w45-pt-es/content7.py` and `patched/2026-w45-pt-es/content7.py`; `diff -q` confirms production == patched == fix. F-B (D34 typo, 11 issued `.text.md` line 34) fixed by the closer on the delivered files with re-pin (see D5-pin line).

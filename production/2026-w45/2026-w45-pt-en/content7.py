@@ -32,7 +32,7 @@ b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
 b.head("B1　O PRETÉRITO PERFEITO", 24)
 b.para("Para contar a semana, usamos o pretérito perfeito: eu revisei, ele chegou, ele dormiu. Revisar é regular: eu revisei, ele revisou.", 21.5)
 b.para("E o modelo é simples: chegar → chegou; dormir → dormiu; separar → separei. Atenção ao acento: saíram, caíram.", 21.5)
-b.bridge("To tell the week's story we use the pretérito perfeito; revisar is regular (revisei); chegar and dormir take an accent in the past: chegou, dormiu.")
+b.bridge("To tell the week's story we use the pretérito perfeito; revisar is regular (revisei); sair and cair take an accent in the past: saíram, caíram.")
 b.ex("B1", "Complete the sentence", "revisei", "revisar, past tense: revisei",
      "Eu ___ (revisar) um pouco por dia.", instr="Fill in", size=20.5, gap=10)
 b.ex("B1", "Complete the sentence", "chegou", "chegar, past tense: chegou",
@@ -81,7 +81,7 @@ wt = "« feriadão »: sábado, domingo e segunda — três dias de descanso."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("feriadão = the long holiday weekend.", "sans", False, 20, CW - 44)) * 29 + 30
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA　WORD OF THE WEEK", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WORD OF THE WEEK", 21, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "feriadão = the long holiday weekend.", 20, "sans", False, GREY, CW - 44, 1.42)

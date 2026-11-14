@@ -16,6 +16,8 @@
 | `cards/p1-capa.png` … `cards/p8-avaliacao.png` | 8 張卡片 |
 | `A-Lucerna-VOL2.pdf` | 印刷 PDF，8 頁，16,014,280 位元組，SHA-256 `bfa13dce60f93228c109e2374bda68e3a76635b489df913ee7620a429f0c2ed6` |
 | `A-Lucerna-VOL2-web.pdf` | 網路 PDF，8 頁，3,296,578 位元組，SHA-256 `83a98bf01587d6c3cbc553ae96100ef0179bfff94463140030690764131ec60b` |
+
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL2-pt-zh-tw.pdf` **3665353 B** · sha256 `313e0adb5d0e7d5f045dac2225176da9a99de2c81d8cb9878f014c6d673f14f8`; render-web `A-Lucerna-VOL2-pt-zh-tw-web.pdf` **2931086 B** · sha256 `074d0abdcb226121536a56a45b176647c9ec12f5f32aac179031727d74378af5`; web (issues-type) `2026-w45-pt-zh-tw.web.pdf` **1167585 B** · sha256 `c6b0610f3f362c84c619188247b218b87a40a4a01f9ff8c84b77efde79844f4d` (< 7 MB); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; sha256 `81023ec8adc54e2f5da201ddde6d3639564d711ee8da83ed7753f98f1808ccd9`, 31384 B; run2 value was BYTE-IDENTICAL, 31385 B, `d294ee3920b309d5f82f9fd3fa850f5690988060df4d06311203acdcf38f21b5`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
 | `WEEKLY-KIT.md` | 本檔 |
 | `ABSTRACT.txt` | 繁體中文單行摘要，無 ASCII 雙引號，139 字 |
 
@@ -172,3 +174,24 @@ tools/venv/bin/python render.py
 - `run.py`：`tools/venv/bin/python`，Python 3.12.3，PIL 13.0.0。
 - `render.py`：`tools/venv/bin/python`，Python 3.12.3，PIL 13.0.0（系統 python3 無 cairosvg，故 render.py 一律用 venv；系統 python3 為 3.12.3 / PIL 10.2.0，未用於渲染）。
 - 凍結部分位元組復現以差分證明為準，不依賴解釋器選擇。
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold) under per-character routing; CJK characters stay in Noto Sans CJK (JP/KR/SC per reader). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-zh-tw/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-zh-tw.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition installed with `apply_variant.py --svglib patched/2026-w45-pt-zh-tw/svglib.py --target pt --reader zh-tw --week 2026-w45` (mode=cjk), `_D5_READER = "cjk"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 26984 = 26984 = 26984 chars, multiset diff 0; baseline web PDF 1515589 B; print PDF 14072049 B (`25f2aa5e6125020a…`); pre-fix census D5 Latin 331, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 2 items, sizes only, no wording changed):
+
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+
+P8: 207→207 lines, footer slack 58.4→58.4 px.
+
+**Gates run2** (17 gates; family gates.py via the runner (see the D5 report §G17); the scripted G17 call is unrunnable (stale paths)) — **ALL-GREEN (17/17 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=0, all in Newsreader); render RC=0; webpdf RC=0 (1167585 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 220, run splits); spill 0; boxtitle 0 DEFECT (31 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 26984 chars, multiset diff 0; textmd carryover 1/1 residual (svg 26984 = md 26984 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 137.5 px PASS; census_quotes 0 defective; G17 runner verdict: no D5 content defect (all patched-only findings are run-split measurement artifacts).
+
+**New deliverables**: print master `A-Lucerna-VOL2-pt-zh-tw.pdf` 3665353 B (`313e0adb5d0e7d5f…`); render-web `A-Lucerna-VOL2-pt-zh-tw-web.pdf` 2931086 B (`074d0abdcb226121…`); web (issues-type) `2026-w45-pt-zh-tw.web.pdf` 1167585 B (`c6b0610f3f362c84…`); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; `81023ec8adc54e2f…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-zh-tw/2026-w45-pt-zh-tw.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).

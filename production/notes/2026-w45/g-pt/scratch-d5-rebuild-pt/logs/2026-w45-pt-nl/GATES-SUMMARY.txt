@@ -1,0 +1,22 @@
+GATES-FIX 2026-w45-pt-nl  2026-11-14T16:26:00Z  reader=nl
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=2 curly_in_newsreader=2 noto_sans_elements=0
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=762459
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-nl/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-nl/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/baseline/2026-w45-pt-zh-cn/svg/p8-avaliacao.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/fix/2026-w45-pt-nl/svg/p8-avaliacao.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: gates.py, proof/freeze-baseline/build-copy/content12.py, proof/freeze-baseline/build-copy/content34.py, proof/freeze-baseline/build-copy/content56.py, proof/freeze-baseline/build-copy/content7.py, proof/freeze-baseline/build-copy/content8.py, proof/freeze-baseline/build-copy/render.py)
+G10 freeze_diff_vs_base: p8: +44 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 28 (unexpected 28) TOTAL added CJK characters: 0 TOTAL added Latin strings: 245 (unexpected 245) 
+G11 spill: SPILL_SWEEP 2026-w45-pt-nl: 32 boxes, 57 candidates, 0 SPILL, 57 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-pt-nl: 25 titles, 258 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: EDGE_SCAN 2026-w45-pt-nl: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-avaliacao.svg: lines 256->256 slack_footer 47.4->47.4 CREAMBOX PASS 0 defects 
+G15a textlayer: print=33285 web=33285 issued=33289 diff_pw=0 diff_pi=22
+G15b carryover vs ISSUED md: rc=1 svg tokens: 4977 (unique 988); md tokens: 4977 (unique 987) CARRYOVER: FAIL 
+G15b carryover vs NEW md: rc=1 svg tokens: 4977 (unique 988); md tokens: 4977 (unique 988) CARRYOVER: FAIL 
+G15c masthead(D18): 2026-w45-pt-nl: SVG gap=31.6px (slogan_x=541.1 date_x=1440.5) model_gap=26.4px (slogan_w=924.3 date_w=421.5) PASS
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: present — scripted run skipped (D35: unrunnable); runner evidence separate
+GATES-FIX DONE 2026-w45-pt-nl

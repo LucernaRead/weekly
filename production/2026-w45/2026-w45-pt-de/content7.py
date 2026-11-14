@@ -32,7 +32,7 @@ b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
 b.head("B1　O PRETÉRITO PERFEITO", 24)
 b.para("Para contar a semana, usamos o pretérito perfeito: eu revisei, ele chegou, ele dormiu. Revisar é regular: eu revisei, ele revisou.", 21.5)
 b.para("E o modelo é simples: chegar → chegou; dormir → dormiu; separar → separei. Atenção ao acento: saíram, caíram.", 21.5)
-b.bridge("Die Woche erzählt man im Pretérito Perfeito; revisar ist regelmäßig (revisei); bei chegar und dormir auf den Akzent achten: chegou, dormiu.")
+b.bridge("Die Woche erzählt man im Pretérito Perfeito; revisar ist regelmäßig (revisei); bei sair und cair auf den Akzent achten: saíram, caíram.")
 b.ex("B1", "完成句子", "revisei", "revisar, Vergangenheit: revisei",
      "Eu ___ (revisar) um pouco por dia.", instr="Ausfüllen", size=20.5, gap=10)
 b.ex("B1", "完成句子", "chegou", "chegar, Vergangenheit: chegou",
@@ -70,7 +70,7 @@ errs = [
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 198
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERROS COMUNS　HÄUFIGE FEHLER", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERROS COMUNS　HÄUFIGE FEHLER", 20, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
@@ -81,7 +81,7 @@ wt = "« feriadão »: sábado, domingo e segunda — três dias de descanso."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("feriadão = langes Feiertagswochenende.", "sans", False, 20, CW - 44)) * 29 + 28
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA　WORT DER WOCHE", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WORT DER WOCHE", 22, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "feriadão = langes Feiertagswochenende.", 20, "sans", False, GREY, CW - 44, 1.42)

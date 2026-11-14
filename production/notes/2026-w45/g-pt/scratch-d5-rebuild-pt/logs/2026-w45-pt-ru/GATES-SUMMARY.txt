@@ -1,0 +1,22 @@
+GATES 2026-w45-pt-ru  2026-11-14T15:07:16Z  reader=ru
+selftests: == occlusion_audit --selftest selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent RC=0 == d5_creambox_audit --selftest p1-test.svg: els 1->1 lines 1->1 diff 1 moved 0 defects 1 observe 0   DEFECT abs box#0 y=150.0 'A MUCH LONGER BOX TITLE THAT OVERFLOWS' over={'right': 162.0} ratios: n=1 median=1.0 boldT=1.0 boldF=None P8 p1-test.svg: lines 1->1 slack_footer 2446.0->2446.0 CREAMBOX FAIL 1 defects p1-test.svg: els 1->1 lines 1->1 diff 0 moved 0 defects 0 observe 0 ratios: n=1 median=1.0 boldT=1.0 boldF=None P8 p1-test.svg: lines 1->1 slack_footer 2446.0->2446.0 CREAMBOX PASS 0 defects p1-test.svg: els 1->1 lines 1->1 diff 0 moved 0 defects 0 observe 0 ratios: n=1 median=1.0 boldT=1.0 boldF=None P8 p1-test.svg: lines 1->1 slack_footer 2446.0->2446.0 CREAMBOX PASS 0 defects SELFTEST OK: widened title -> 1 defect; identical pair -> 0; old-style baseline shim -> 0 (fallback path exercised) RC=0 == head_check --selftest SELFTEST OK: dirty log -> 2 findings (P7-col3, P8-battery); clean log -> 0; missing file reported RC=0 
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=775
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=1007923
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/patched/2026-w45-pt-ru/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/patched/2026-w45-pt-ru/svg/p8-avaliacao.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/baseline/2026-w45-pt-zh-cn/svg/p8-avaliacao.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-pt/patched/2026-w45-pt-ru/svg/p8-avaliacao.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: proof/freeze-baseline/build-copy/content12.py, proof/freeze-baseline/build-copy/content34.py, proof/freeze-baseline/build-copy/content56.py, proof/freeze-baseline/build-copy/content7.py, proof/freeze-baseline/build-copy/content8.py, proof/freeze-baseline/build-copy/render.py, proof/reg-core/content12.py, proof/reg-core/content34.py, proof/reg-core/content56.py, proof/reg-core/content7.py, proof/reg-core/content8.py, proof/reg-core/render.py, proof/reg-ru/content12.py, proof/reg-ru/content34.py, proof/reg-ru/content56.py, proof/reg-ru/content7.py, proof/reg-ru/content8.py, proof/reg-ru/render.py)
+G10 freeze_diff_vs_base: p8: +47 strings / -15 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 20 (unexpected 20) TOTAL added CJK characters: 0 TOTAL added Latin strings: 163 (unexpected 163) 
+G11 spill: SPILL_SWEEP 2026-w45-pt-ru: 32 boxes, 63 candidates, 0 SPILL, 63 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-pt-ru: 31 titles, 313 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: EDGE_SCAN 2026-w45-pt-ru: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-avaliacao.svg: lines 264->265 slack_footer 44.3->44.3 CREAMBOX PASS 0 defects 
+G15a textlayer: print=33207 web=33207 issued=33207 diff_pw=0 diff_pi=0
+G15b carryover: rc=1 svg tokens: 4840 (unique 991); md tokens: 4840 (unique 991) CARRYOVER: FAIL 
+G15c masthead(D18): 2026-w45-pt-ru: SVG gap=95.7px (slogan_x=579.1 date_x=1466.6) model_gap=-104.9px (slogan_w=1238.9 date_w=395.4) PASS
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: rc=1                ~~~~~~~~^^^ IndexError: list index out of range 
+GATES DONE 2026-w45-pt-ru

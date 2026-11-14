@@ -121,7 +121,7 @@ caption(p, ix, iy + 320, iw,
         "Foto: Gary Todd / Wikimedia Commons — CC0")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
-f2.head("A SEMANA EM DOIS DOMINGOS", 25)
+f2.head("A SEMANA EM DOIS DOMINGOS", 22)
 f2.para("Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.", 22.5)
 f2.para("No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.", 22.5)
 f2.end_report()
@@ -252,7 +252,7 @@ e.ex("A2", "完成句子", "começa", "começar：ela → começa",
      "A prova ___ (começar) às 13h30.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "é", "ser 現在時 ela 形式：é",
      "A missa de Finados ___ (ser) um momento calmo.", instr="填空", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("用第 1、2 版的數字填空。")
 e.ex("A2", "完成句子", "1", "12 點到 13 點 = 1 小時",
      "Os portões ficam abertos ___ hora.", instr="填空", size=20, gap=8)

@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　CHIFFRES", [
     ("13h — os portões fecham (13 h : après, plus d’entrée)", "serif", False, INK, 20, 1.35),
     ("13h30–19h — a prova do dia 8 (examen de 13 h 30 à 19 h)", "serif", False, INK, 20, 1.35),
     ("5h30 — a duração da prova do dia 8 (durée : cinq heures et demie)", "serif", False, INK, 20, 1.35),
-], tsize=21)
+], tsize=19)
 f.head("AGORA VOCÊ　À VOUS", 25)
 f.ex("A2", "完成句子", "feriadão", "feriadão = long week-end de pont",
      "A semana começa com o ___ de Finados.", size=19.5, gap=6)
@@ -121,14 +121,14 @@ caption(p, ix, iy + 320, iw,
         "Foto: Gary Todd / Wikimedia Commons — CC0")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-tv")
-f2.head("A SEMANA EM DOIS DOMINGOS", 25)
+f2.head("A SEMANA EM DOIS DOMINGOS", 22)
 f2.para("Domingo 1º: os jogos de ida da Copa do Brasil. Domingo 8: o primeiro dia do Enem. Entre um domingo e outro, o Brasil revisa, descansa e joga.", 22.5)
 f2.para("No sábado, 31 de outubro, foi Halloween: festas à fantasia em todo o país — e, para os candidatos, a última festa antes da prova.", 22.5)
 f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 21, "sans", True, OLIVE)
 brefs = [
     ("O FERIADÃO", "Segunda, 2: Finados, feriado nacional — feriadão de 31 a 2. (Página 2)"),
     ("O ENEM", "Domingo, 8: primeiro dia — redação, Linguagens e Humanas. (Página 6)"),
@@ -252,7 +252,7 @@ e.ex("A2", "完成句子", "começa", "começar : ela começa",
      "A prova ___ (começar) às 13h30.", instr="Compléter", size=20, gap=8)
 e.ex("A2", "完成句子", "é", "ser, présent ela : é",
      "A missa de Finados ___ (ser) um momento calmo.", instr="Compléter", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.bridge("Complétez avec les chiffres des pages 1 et 2.")
 e.ex("A2", "完成句子", "1", "De 12 h à 13 h = 1 heure",
      "Os portões ficam abertos ___ hora.", instr="Compléter", size=20, gap=8)

@@ -128,6 +128,8 @@ Lucerna 学习者周报葡萄牙语版第二期。期号周：2026-11-02（周�
 
 - 交付：`svg/`（8）、`cards/`（8 PNG，1950×2700）、`A-Lucerna-VOL2.pdf`（印刷版，15.96 MB）、
   `A-Lucerna-VOL2-web.pdf`（JPEG 页 q85，**3.27 MB**，低于实测约 10 MB 上限）。
+
+- D5 rebuild (2026-11-14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL2.pdf` **3598537 B** · sha256 `f1ada85dd6cbaff6945725abf87f837db1da04e842786e3453bc29dc9efae60a`; render-web `A-Lucerna-VOL2-web.pdf` **2934623 B** · sha256 `78a1ce1b586c61a290fb8ce2cdce0914d1cf9998c180b39c64f8d6002ecb8368`; web (issues-type) `2026-w45-pt-zh-cn.web.pdf` **1067516 B** · sha256 `cb2338ef8d79dc1e631eb90e36fae4429780517cb4f218e2e85b20946f64654c` (< 7 MB); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; sha256 `e3f627f81c9afaeba7d4aaeb3def8c30d97843950f926bbfea2cb6fd98acfd70`, 31313 B; run2 value was BYTE-IDENTICAL, 31314 B, `cff1ef9dbdd8f434bba164a75de2ebd3ab61c418f32688546e80e78a2bc84e9d`). Pre-D5 KIT pins above are D1-era values, already expired before this rebuild.
 - 制作源码：`hidden_files/weekly-report-w45-pt-build/`（bslib4.py、svglib.py、
   content12/34/56/7/8.py、run.py、render.py、assets/），复用 W43 葡语核心版管线
   （Python → SVG → CairoSVG → PNG/PDF），仅改 OUT 路径、页脚与内容，未发明新管线。
@@ -203,3 +205,24 @@ Lucerna 学习者周报葡萄牙语版第二期。期号周：2026-11-02（周�
 - P3/P5 栏尾留白：与往期定稿版式先例一致的呼吸留白，不影响阅读，保留。
 - 报名人数只写「超 500 万」不写精确数：精确数未经独立证实，宁缺毋滥，保留模糊表述。
 - 选举结果与市场数字整期不写：来源权威不足，宁缺毋滥，保留缺口并在此登记。
+
+## D5 rebuild (2026-11-14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold) under per-character routing; CJK characters stay in Noto Sans CJK (JP/KR/SC per reader). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w45-pt/logs/2026-w45-pt-zh-cn/`; per-edition report: `production/notes/2026-w45/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w45-pt-zh-cn.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w45` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template, inert per D24); this edition IS the core, and the reader copy carries `_D5_READER = "cjk"` (the patched 2026-w45-pt-zh-cn differs from production core-pt by only that one line, W43 precedent; --check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 27116 = 27116 = 27116 chars, multiset diff 0; baseline web PDF 1264469 B; print PDF 14019850 B (`6a7f323462c1edc8…`); pre-fix census D5 Latin 338, Cyrillic 0, curly in CJK 1; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 2 items, sizes only, no wording changed):
+
+- P1-tv head `A SEMANA EM DOIS DOMINGOS`: content12.py:124 `f2.head` 25→22
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:255 `e.head` 25→22
+
+P8: 207→207 lines, footer slack 58.4→58.4 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=4, all in Newsreader); render RC=0; webpdf RC=0 (1067516 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[] (this edition IS the core); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 226, run splits); spill 0; boxtitle 0 DEFECT (31 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 27116 chars, multiset diff 0; textmd carryover 1/1 residual (svg 27116 = md 27116 tokens; the single residual is the known issued-md typo `domingo 15` vs `8`, all 11 editions — needs coordinator ruling); masthead gap (D18) 137.5 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL2.pdf` 3598537 B (`f1ada85dd6cbaff6…`); render-web `A-Lucerna-VOL2-web.pdf` 2934623 B (`78a1ce1b586c61a2…`); web (issues-type) `2026-w45-pt-zh-cn.web.pdf` 1067516 B (`cb2338ef8d79dc1e…`); text.md differs from the shipped version by exactly 1 line (D34 typo, D34; `e3f627f81c9afaeb…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: no textmd/export/derive files in any production pt dir; `transform.py` in pt-de/pt-fr is a content fan-out transform, not a textmd exporter). The issued `issues/2026-w45/2026-w45-pt-zh-cn/2026-w45-pt-zh-cn.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0). Live tool md5 `6dc093c207b0d72b6d387c04e46066f2` (W45-calibrated 2026-11-14; see the family report).
