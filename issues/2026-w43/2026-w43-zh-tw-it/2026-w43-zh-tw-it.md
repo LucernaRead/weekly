@@ -17,8 +17,8 @@ nativeLabel: "Italiano"
 exercises: 150
 pages: 8
 pdf: 2026-w43-zh-tw-it.pdf
-pdfBytes: 3676660
-pdfSha256: 5e9364392013bf883d9b9124692493ba65dd8bb51326862fa689c72f3a326b9c
+pdfBytes: 3037376
+pdfSha256: 7a20bc32cc31f23de7a4a5734cf8cbf1b3858309b581a96e7875af7d31e14b1b
 discordThread: "1562312921759875144"
 draft: false
 ---

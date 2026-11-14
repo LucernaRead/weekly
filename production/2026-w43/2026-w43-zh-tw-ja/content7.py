@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zh-tw-ja/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P7 · language focus
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("語言 · ことばの焦点", "Lucerna", "語言聚焦 · 三個級別,三個主題 · 3つのレベル、3つのテーマ")
+p.band("語言　ことばの焦点", "Lucerna", "語言聚焦　三個級別,三個主題　3つのレベル、3つのテーマ")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 天氣的話 · 天気の言葉", 24)
+a.head("A2　天氣的話　天気の言葉", 24)
 a.para("台風の週は天気の言葉がニュースにあふれる — よく出る6つを覚えよう:海上颱風警報(海上への警報)、陸上颱風警報(陸上への警報)、共伴效應(台風と季節風の相乗効果)、外圍環流(台風の外側の循環)、豪雨(大雨より激しい雨)、停班停課(仕事と学校が休みになること)。", 21.5)
 a.glossline("今週のニュースを貫く天気の言葉6つ — 一度覚えれば一週間読める。")
 a.para("警報は2種類:台風がまだ海にいるうちに海上警報が先に出て、陸に近づくと陸上警報になる。大雨より激しい雨が豪雨。", 21.5)
@@ -30,7 +30,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 日子與節日 · 休日と祭日", 24)
+b.head("B1　日子與節日　休日と祭日", 24)
 b.para("今週の日々は特別。言葉はグループで覚えると身につく:休み（連假、補假）、移動（疏運）、祭りの楽しみ（登高、討糖、星光大道）。", 21.5)
 b.glossline("グループで覚えよう:休み(連假/補假)、移動(疏運)、祭りの楽しみ(登高/討糖/星光大道)。")
 b.para("連假は続けて休める数日間のこと;祝日が週末と重なって平日に振り替えた休みが補假;そして皆を運ぶために増発される電車やバスの体制が疏運。", 21.5)
@@ -47,7 +47,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 在地說法 · 現地の言い方", 24)
+c.head("B2　在地說法　現地の言い方", 24)
 c.para("台湾と香港、それぞれに地元の言い方がある。台湾では Threads の愛称が「脆」;良い投稿は「留友看」(友達に見せるために保存)と保存され;注音符号で採点する褒め言葉が「ㄅ級分」。", 21.5)
 c.glossline("台湾のネット新語3つ — いずれも2026年5月の PopDaily ミームまとめから。今週のニュースではない。")
 c.para("香港では、ハロウィーンは「哈囉喂」、鍋は「打邊爐」、安くて美味しいのは「抵食」;蟹は「両」で量り、グルメ祭りの券は「品味券」。", 21.5)
@@ -71,21 +71,21 @@ errs = [
     ("「我明天放四天假去玩」", "→「我請了四天假去玩」", "請假 = 自分から休みを申請すること;放假 = 全員に与えられる休み。"),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易錯診所 · 間違いクリニック", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易錯診所　間違いクリニック", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「先看警報，再決定出不出門。」 — 文型「先…再…」は2つの動作の順序を示す:先にX、次にY。台風の週にぴったり:先查公告，再改行程(まずお知らせを確認し、それから予定を変える)。"
 wcn = "文型:先…再… — 先にX、次にY。この文型で自分の文を作ってみよう。"
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本週句式 · 今週の文型", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本週句式　今週の文型", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -93,9 +93,9 @@ ly = wy + wh + 12
 lt = "「編輯好:重陽節我跟阿公去登高,他走得比我還快!晚上我們吃大閘蟹,蟹黃真的好多。下週我想去看台灣大賽。——台北小讀者(編輯範例)」"
 lcn = "これは編集部の例文で、本物の投書ではない。VOL.2では本物の読者の手紙と、第8版の最優秀作文を掲載する！"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 26
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "讀者園地 · 読者の広場", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "讀者園地　読者の広場", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -104,8 +104,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本週金句 · 今週のフレーズ — 本文から一字一句そのまま", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本週金句　今週のフレーズ — 本文から一字一句そのまま", 27, "sans", True, OLIVE)
 quotes = [
     ("「路徑還有變數,會不會登陸,還沒有人知道」", "進路はまだ変わりうる;上陸するかどうかは、まだ誰にも分からない。", "p. 1"),
     ("「請四天假,換九天連假」", "4日休みを取って、9連休に。", "p. 2"),
@@ -125,9 +125,9 @@ for i, (q, en, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 146 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期預告 · 次号予告(VOL.2)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "台灣大賽冠軍出爐!美酒佳餚巡禮開幕直擊,天母搞什麼鬼主活動、福隆沙雕最後一天,還有你們的來信和第 8 版最佳作文。下週見!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期預告　次号予告(VOL.2)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "台灣大賽冠軍出爐!美酒佳餚巡禮開幕直擊,天母搞什麼鬼主活動、福隆沙雕最後一天,還有你們的來信和第 8 版最佳作文。下週見!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-lang.svg")

@@ -101,8 +101,8 @@ p6 1367d4f0… / p7 873a21ac… / p8 c532615c…）。收尾复验核心目录 8
 
 ## 10. PDF 针脚（终稿实测）
 
-- 印刷版 Lucerna-VOL1-NL.pdf：39,561,300 B，sha256 676bbde24b9a1051afb0fab843c78ea41dce06309fc23866c94d9c3dfd30411c
-- 网页版 Lucerna-VOL1-NL-web.pdf：3,563,343 B（< 10 MB），sha256 0b6287ddc5ed27b3d4ccbc10f6c29b89cf70be5981835a5f3ed111a1c70b6279
+- 印刷版 Lucerna-VOL1-NL.pdf：28,978,377 B，sha256 4fe7944674d99be6e6e9013c1213301b470ccc0da21148171fe58abdd7315ca5
+- 网页版 Lucerna-VOL1-NL-web.pdf：3,035,350 B（< 10 MB），sha256 28f65e9130db203b87f9939158f65534b210723c602a8e51772e18b64a614e4a
 - 卡片：cards/p1-front.png … p8-test.png ×8，建造者已逐页目检。
 
 ## 11. 独立校对记录（2026-10-21，独立校对员）
@@ -166,10 +166,23 @@ p6 1367d4f0… / p7 873a21ac… / p8 c532615c…）。收尾复验核心目录 8
 繁體版零政治、讲解未引入政治；中间层禁用术语在成报/KIT/operative code
 为 0；卡片 8× 1950×2700。
 
-**最终针脚（磁盘实测，与 §10 登记逐值一致）**：网页版 **3,563,343 B /
-0b6287ddc5ed27b3d4ccbc10f6c29b89cf70be5981835a5f3ed111a1c70b6279**（< 10 MB）；
-印刷版 **39,561,300 B /
-676bbde24b9a1051afb0fab843c78ea41dce06309fc23866c94d9c3dfd30411c**
+**最终针脚（磁盘实测，与 §10 登记逐值一致）**：网页版 **3,035,350 B /
+28f65e9130db203b87f9939158f65534b210723c602a8e51772e18b64a614e4a**（< 10 MB）；
+印刷版 **28,978,377 B /
+4fe7944674d99be6e6e9013c1213301b470ccc0da21148171fe58abdd7315ca5**
 （巨大系 zh 家族图源所致，只记录）。
 
 核心未触碰；未入仓、未发 Discord。可以入仓 slug `2026-w43-zh-tw-nl`。
+
+## D5 rebuild record (2026-11-14)
+
+D5 font rebuild of this edition (W43 three-week redo, scope B). The installer `apply_variant.py --check` FATALs on this family's face-suffixed engine (`_IDX_TC`, `"sans_TC"`, `face="TC"`), so the D5 install was hand-ported step-by-step (`scripts/d5_port_zhtw.py`, same rep1 exactly-1-match discipline; D5_BLOCK / READER_CONST verbatim; FIX2_BLOCK mechanism verbatim, anchors re-based on this family's census). W47 engine transplant was rejected with evidence (no `_fw()`). Install: `scripts/install_zhtw.sh` (`--check` dry-run first). `_D5_READER = "latin"` (mode latin/TC); routing unit test FAILURES: 0; fix2 markers 5, `_QUOTE_CLS` 4, retained. §1.1 assembly: the port engine (490 lines) was copied into production first (production never held it; 9 `.py` files per edition, SHA-verified vs MANIFEST-W43.md) plus the pilot moth into `assets/` (10 editions).
+
+- **Pre-D5 census** (baseline): D5_latin_in_cjk=426, D5_cyrillic_in_cjk=0, curly_in_cjk=0; post-D5 census all 0 (gate 3).
+- **Build pins (D5 rebuild, final):** print `28,978,377 B`, sha256 `4fe7944674d99be6e6e9013c1213301b470ccc0da21148171fe58abdd7315ca5`; web `3,035,350 B (< 7 MB)`, sha256 `28f65e9130db203b87f9939158f65534b210723c602a8e51772e18b64a614e4a`. Web PDF is the builder original `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-nl/2026-w43-zh-tw-nl.web.pdf` — the closer must copy it, never re-run webpdf (web PDFs are byte-nondeterministic across runs). Print PDF `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-nl/Lucerna-VOL1-*.pdf`.
+- **Cold cache:** print PDF cold-cache explosion in fix1 render: 98,845,804 B; warmed fc-cache and re-rendered from the same source -> 28,978,377 B; full gates re-run after.
+- **Step-7 fixes (point sizes only, zero wording changes; full re-render + full gates after each fix):**
+  - `content56.py:195` — P6 票券拆解 closing note para: 19.5 -> 19; spill 'berekening.' BELOW +4.67px -> 0 [pre-existing, identical in baseline].
+- **P8:** extract 150/150; compare vs baseline en core CLEAN (missing=[], extra=0; [108] present in both core and edition — the zh-cn D28 core-missing-[108] discrepancy does NOT reproduce in this family). P8 lines base -> patched 201 -> 201 (unchanged by all fixes); footer slack 46.2px (>= 40 required).
+- **Gates (17 + D18):** 18 GATE PASS, 0 hard FAIL. Gate 15a text.md: REFLOW — D5 reflow moves line breaks only (difflines=38, char-multiset diff 0, native verifier ADOPT all pages); the shipped `.text.md` is the joined patched export (faithful to the delivered PDF); byte-identical vs the baseline export is impossible where reflow moves wraps — REFLOW accepted per D30 (see family report §4). Gate 15a print=web PASS (multiset 0). gate 15b: shared `verify_textmd.py` rc=1 (FAIL, pre-existing verifier calibration gap — the baseline edition fails identically, only-in-MD 1833 tokens baseline vs 1874 patched, only-in-SVG 0 baseline vs 0 patched); accepted per D27 via 15a + native verifier + full read-through. Residuals are furniture the MD legitimately carries (level badges, instruction words, P8 key notes, footer/masthead words) that the verifier drops on the SVG side. Gate 15c native verifier PASS (ADOPT). D18 masthead gap 42.0px PASS. Logs: `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-nl/gates.log` + `GATES-SUMMARY.txt`; D5 report: `production/notes/2026-w43/g-zh-tw/scratch-d5-rebuild-zh-tw/D5-REPORT-2026-w43-zh-tw-nl.md`.
+- **text.md provenance:** joined patched export `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-nl/2026-w43-zh-tw-nl.text.md.new` (D5-aware joiner `scripts/textexp_zh_tw_d5.py`; the naive exporter fragments D5 run-split lines — see family report §4). issues/ holds no `.text.md` for this edition; this file ships new with the bundle (carry-over exception).

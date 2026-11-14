@@ -3,27 +3,27 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zh-tw-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P5 · youth
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("青年 · Jeugd", "Lucerna", "第 5 版 · 金鐘獎雙夜與萬聖節地圖 · Golden Bell-avonden en de Halloweenkaart")
+p.band("青年　Jeugd", "Lucerna", "第5版　金鐘獎雙夜與萬聖節地圖　Golden Bell-avonden en de Halloweenkaart")
 f = Flow(p, [(COLX[i], CW) for i in range(3)], 208, 2540, tag="P5-main")
-f.title("金鐘獎61:連兩晚的電視大日子", 34)
+f.title("金鐘獎61:連兩晚的電視大日子", 32)
 f.para("台灣電視界最大的獎「金鐘獎」,今年第61屆,連辦兩晚:週五(10月23日)是節目類,主持人陳漢典;週六(10月24日)是戲劇類,主持人陳庭妮。地點都在台北流行音樂中心。")
 f.para("兩晚都一樣:下午5點先走星光大道,晚上7點典禮開始。戲劇類的入圍名單裡,《我們與惡的距離 II》和《忘了我記得》各入圍13項,並列第一,是今年的大熱門。")
 f.para("最熱鬧的是「最具人氣戲劇節目獎」:粉絲投票到週六下午5點截止,結果當晚在典禮上公佈。這週颱風靠近,主辦單位說,正密切注意天氣,兩晚典禮照常準備。")
 f.gloss("De 61e Golden Bell Awards duren twee avonden in het Taipei Music Center: programmaprijzen op vrijdag, dramaprijzen op zaterdag. Twee drama's leiden met elk 13 nominaties, en de populariteitsstemming sluit zaterdag om 17:00.")
-f.title("萬聖節地圖 · 台灣:天母改期,桃園開城", 34)
+f.title("萬聖節地圖　台灣:天母改期,桃園開城", 32)
 f.para("台北天母的「天母搞什麼鬼」今年第18屆,原訂週五、週六舉行,因為薔琵颱風,10月19日宣佈改期:「百鬼夜行」討糖踩街改到週日(10月25日)晚上7點,從新光三越天母店出發,沿忠誠路二段走;主活動改到下週一(10月26日)在天母運動公園,下期再報。")
 f.para("颱風改了日期,卻改不了大家過節的心情。今年有塔麻歌子30週年聯名,250家商圈店家免費討糖,三大百貨共發4,500個限量南瓜桶;往年參加人數超過30萬人次,整條街都是變裝的人。")
 f.para("桃園萬聖城週六(10月24日)開城,做到11月1日:今年第一次和史努比(PEANUTS)聯名,有9座主題裝置,每晚還有動畫秀。六福村的「墓碑鎮」也開放到11月22日。")
-f.title("萬聖節地圖 · 香港:哈囉喂開玩", 34)
+f.title("萬聖節地圖　香港:哈囉喂開玩", 32)
 f.para("香港海洋公園的「哈囉喂全園祭」做到11月1日,主題是「詭魅墓會」,由王嘉爾擔任創意總監。四大驚嚇體驗,驚嚇指數從5到5+;「日連夜」驚嚇場次這個週末連開三天(10月23日到25日),鬼屋下午5點開到晚上11點。香港迪士尼的萬聖節活動也做到11月1日;週六、週日晚上,還有萬聖節限定的電車和觀光巴士。")
 f.gloss("In Hongkong draait het Halloween Fest van Ocean Park dit weekend schrikavonden (spookhuizen 17:00-23:00), met Jackson Wang als creatief directeur; Disney's Halloween Time loopt ook tot 1 nov.")
-f.head("讀懂了嗎? · Begrepen?", 28)
+f.head("讀懂了嗎?　Begrepen?", 28)
 f.ex("B1", "單選", "A", "De programmaprijzen zijn op vrijdagavond.",
      "節目類金鐘獎在哪天頒?", opts=["A. 週五", "B. 週六", "C. 週日"], size=22.5, gap=8)
 f.ex("B1", "單選", "B", "De ceremonie begint om 19:00; de rode loper is om 17:00.",
@@ -36,7 +36,7 @@ f.ex("B1", "單選", "B", "De tyfoon dwong het Tianmu-evenement te verplaatsen."
      "天母踩街為什麼改期?", opts=["A. 下大雨", "B. 颱風", "C. 人太多"], size=22.5, gap=8)
 f.ex("B1", "單選", "A", "De optocht verhuisde naar zondag 19:00.",
      "踩街改到哪天幾點?", opts=["A. 週日19:00", "B. 週六19:00", "C. 週一19:00"], size=22.5, gap=8)
-f.head("填一填 · Vul in", 28)
+f.head("填一填　Vul in", 28)
 f.ex("B1", "完成句子", "陳庭妮", "Chen Ting-ni presenteert de drama-avond.",
      "戲劇類金鐘獎的主持人是___。", instr="Vul in", size=22.5, gap=8)
 f.ex("B1", "完成句子", "忠誠路", "De optocht loopt langs de Zhongchengweg, sectie 2.",
@@ -56,7 +56,7 @@ f.match_set("B1", "配對",
              "Táoyuán Wànshèng Chéng — met Snoopy, opent zaterdag.",
              "Hāluōwèi — het Halloween Fest van Ocean Park, met Jackson Wang als regisseur."],
             instr="Koppel")
-f.head("算一算 · Reken uit", 28)
+f.head("算一算　Reken uit", 28)
 f.ex("B1", "完成句子", "26", "13 + 13 = 26 nominaties voor de twee drama's samen.",
      "兩部戲的入圍項數加起來:13 + 13 = ___項。", instr="Vul in", size=22.5, gap=8)
 f.ex("B1", "完成句子", "2", "Van 17:00 tot 19:00 is 2 uur.",
@@ -74,9 +74,9 @@ image(p, "pumpkin.jpg", rx, iy2, CW, 290)
 cy2 = caption(p, rx, iy2 + 290 + 6, CW, "南瓜燈準備好了,你呢?",
               "Photo: Benjamin Balazs — CC0 (Wikimedia Commons)")
 by = int(cy2) + 18
-p.rect(rx, by, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 430, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "週末行程 · Weekendplan", 25, "sans", True, OLIVE); yy += 56
+p.text(rx + 22, yy + 26, "週末行程　Weekendplan", 25, "sans", True, OLIVE); yy += 56
 for t in [
     "週五晚:金鐘獎節目類(北流)",
     "週六17:00:人氣獎投票截止",
@@ -86,9 +86,9 @@ for t in [
 ]:
     yy = p.para(rx + 22, yy + 24, "· " + t, 22.5, "serif", False, INK, CW - 44, 1.32) + 8
 wx, wy, ww = COLX[2], 1620, 2 * CW + GUT
-p.rect(wx, wy, ww, 620, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(wx, wy, ww, 620, fill=BOX)
 yy = wy + 20
-p.text(wx + 26, yy + 28, "週末行程表 · Weekendplanner", 26, "sans", True, OLIVE); yy += 66
+p.text(wx + 26, yy + 28, "週末行程表　Weekendplanner", 26, "sans", True, OLIVE); yy += 66
 yy = p.para(wx + 26, yy + 22, "Als de tyfoon iets verplaatst, controleer dan de laatste aankondiging voordat je de deur uitgaat.", 20, "sans", False, GREY, ww - 52, 1.35) + 8
 for t in [
     "週五 10/23:金鐘獎節目類(台北流行音樂中心)· 台灣大賽 G5(如有需要)· 海洋公園驚嚇場次",
@@ -104,10 +104,10 @@ print("P5 saved, exercises so far:", len(REG))
 # ============================================================ P6 · deep read
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深讀 · Diep gelezen", "Lucerna", "第 6 版 · 美酒佳餚巡禮倒數 · Aftellen naar het Wine & Dine Festival")
+p.band("深讀　Diep gelezen", "Lucerna", "第6版　美酒佳餚巡禮倒數　Aftellen naar het Wine & Dine Festival")
 f = Flow(p, [(COLX[0], 3 * CW + 2 * GUT)], 208, 1150, tag="P6-lead")
-f.title("美酒佳餚巡禮:三百多個攤位,把世界搬到海邊", 38)
-f.byline("Redactieverslag · Bronnen: Hong Kong Tourism Board, de evenementenpagina's van de HKTB en Hongkongse mediagidsen (oktober 2026)")
+f.title("美酒佳餚巡禮:三百多個攤位,把世界搬到海邊", 32)
+f.byline("Redactieverslag　Bronnen: Hong Kong Tourism Board, de evenementenpagina's van de HKTB en Hongkongse mediagidsen (oktober 2026)")
 f.para("下週四(10月29日),香港旅發局的旗艦活動「美酒佳餚巡禮」在中環海濱活動空間和添馬公園開幕,做到11月1日(日)。今年的主題是「品味世界之最」:逾340個攤位、約31個國家及地區參加。三百四十多個攤位,把世界搬到海邊——走一圈,等於環遊世界吃一遍。")
 f.para("今年有兩個第一次:第一次設「品酒導賞路線」,有人帶你一攤一攤喝、一攤一攤吃;星期五、六的晚上,今年第一次開到凌晨一時,海邊的晚餐可以慢慢吃。門票10月12日起公開發售,這個星期是最後搶票期。")
 f.para("最大的話題,是兩位韓國《黑白大廚》名廚來港。Edward Lee 參加10月30日的「歲月之味」十手聯乘晚宴,每位2,380港幣;崔鉉碩10月31日和香港主廚溫有成做四手聯乘午宴,每位1,580港幣。名廚的場次票最少,想吃要先搶。")
@@ -116,13 +116,13 @@ f.end_report()
 
 # ---- chart: ticket prices, bars drawn from zero, exactly proportional ----
 chy = 1030
-p.hline(MX, COLX[0] + 3 * CW + 2 * GUT, chy - 18, GOLD, 2)
-p.text(MX, chy + 28, "門票一覽 · Ticketprijzen (HK$) — balken naar verhouding met de prijs getekend", 27, "sans", True, OLIVE)
-rows = [("入場券", 40, GOLD), ("品味券(單張)", 25, GOLD), ("品味證", 258, OLIVE), ("尊尚品酒證", 558, OLIVE)]
+p.hline(MX, COLX[0] + 3 * CW + 2 * GUT, chy - 18, OLIVE, 2)
+p.text(MX, chy + 28, "門票一覽　Ticketprijzen (HK$) — balken naar verhouding met de prijs getekend", 27, "sans", True, OLIVE)
+rows = [("入場券", 40, OLIVE), ("品味券(單張)", 25, OLIVE), ("品味證", 258, OLIVE), ("尊尚品酒證", 558, OLIVE)]
 BX = MX + 215           # bar origin (the zero line)
 SCALE = 1.8             # px per HK$
 ry = chy + 58
-p.add(f'<line x1="{BX}" y1="{ry - 8}" x2="{BX}" y2="{ry + 4 * 54 - 22}" stroke="#57523f" stroke-width="1.6"/>')
+p.add(f'<line x1="{BX}" y1="{ry - 8}" x2="{BX}" y2="{ry + 4 * 54 - 22}" stroke="{GREY}" stroke-width="1.6"/>')
 for label, val, colr in rows:
     p.text(BX - 16, ry + 26, label, 23, "serif", True, INK, anchor="end")
     p.rect(BX, ry, val * SCALE, 34, fill=colr)
@@ -130,13 +130,13 @@ for label, val, colr in rows:
     ry += 54
 for tick in (0, 200, 400):
     tx = BX + tick * SCALE
-    p.add(f'<line x1="{tx}" y1="{ry - 30}" x2="{tx}" y2="{ry - 22}" stroke="#57523f" stroke-width="1.6"/>')
+    p.add(f'<line x1="{tx}" y1="{ry - 30}" x2="{tx}" y2="{ry - 22}" stroke="{GREY}" stroke-width="1.6"/>')
     p.text(tx, ry + 4, str(tick), 19, "sans", False, GREY, anchor="middle")
 p.para(MX, ry + 30, "Bron: ticketprijzen gepubliceerd door de HKTB. Beide passen bevatten proefmunten en een wijnglas; de rechterkolom rekent uit welke pas het voordeligst is.", 20, "sans", False, GREY, 3 * CW + 2 * GUT, 1.35)
 chart_end = ry + 66
 
 e = Flow(p, [(COLX[i], CW) for i in range(3)], int(chart_end) + 26, 2540, tag="P6-ex")
-e.head("看圖答題 · Lees de grafiek", 28)
+e.head("看圖答題　Lees de grafiek", 28)
 e.ex("B2", "單選", "B", "De pas bundelt posten ter waarde van in totaal HK$400.",
      "品味證的內容總值是多少?", opts=["A. 258港幣", "B. 400港幣", "C. 640港幣"], size=22.5, gap=8)
 e.ex("B2", "單選", "B", "400 - 258 = 142 bespaard tegenover los kopen.",
@@ -147,7 +147,7 @@ e.ex("B2", "單選", "B", "558 - 258 = 300 Hongkongse dollars.",
      "尊尚品酒證比品味證貴多少?", opts=["A. 258港幣", "B. 300港幣", "C. 558港幣"], size=22.5, gap=8)
 e.ex("B2", "完成句子", "800", "2.380 - 1.580 = 800 Hongkongse dollars.",
      "兩場名廚活動:晚宴2,380元、午宴1,580元,相差___元。", instr="Vul in", size=22.5, gap=8)
-e.head("讀懂了嗎? · Begrepen?", 28)
+e.head("讀懂了嗎?　Begrepen?", 28)
 e.ex("B2", "單選", "A", "Aan de Central Harbourfront en in Tamar Park.",
      "活動在哪裡舉行?", opts=["A. 中環海濱", "B. 尖沙咀", "C. 香港迪士尼"], size=22.5, gap=8)
 e.ex("B2", "單選", "B", "29 okt tot 1 nov is 4 dagen.",
@@ -158,7 +158,7 @@ e.ex("B2", "單選", "A", "Het tienhandendiner van Edward Lee is op 30 okt.",
      "Edward Lee 的晚宴在哪天?", opts=["A. 10月30日", "B. 10月31日", "C. 11月1日"], size=22.5, gap=8)
 e.ex("B2", "單選", "A", "Choi Hyun-seok kookt de lunch met Wan Yau-shing.",
      "崔鉉碩的午宴和誰聯乘?", opts=["A. 溫有成", "B. Edward Lee", "C. 王嘉爾"], size=22.5, gap=8)
-e.head("填一填 · Vul in", 28)
+e.head("填一填　Vul in", 28)
 e.ex("B2", "完成句子", "世界", "Het thema is 'Proef het beste van de wereld'.",
      "今年的主題是「品味___之最」。", instr="Vul in", size=22.5, gap=8)
 e.ex("B2", "完成句子", "340", "Meer dan 340 kraampjes doen mee.",
@@ -187,15 +187,15 @@ image(p, "wine.jpg", rx, iy2, CW, 250)
 cy2 = caption(p, rx, iy2 + 250 + 6, CW, "美酒配小食,是巡禮的主角。",
               "Photo: Jon Sullivan — Public domain (Wikimedia Commons)")
 by = int(cy2) + 16
-p.rect(rx, by, CW, 504, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(rx, by, CW, 504, fill=BOX)
 yy = by + 18
-p.text(rx + 22, yy + 26, "票券拆解 · De pas uitgesplitst", 23, "sans", True, OLIVE); yy += 54
+p.text(rx + 22, yy + 26, "票券拆解　De pas uitgesplitst", 23, "sans", True, OLIVE); yy += 54
 yy = p.para(rx + 22, yy + 21, "De 品味證 (proefpas) kost HK$258 en bundelt voor HK$400 aan posten: toegang HK$40 + 8 proefmunten HK$200 + een standaard wijnglas HK$160 — een besparing van HK$142.", 20.5, "sans", False, INK, CW - 44, 1.38) + 6
 yy = p.para(rx + 22, yy + 21, "De 尊尚品酒證 (premiumpas) kost HK$558 en bundelt HK$900: toegang HK$40 + 16 munten HK$400 + het premiumglas HK$260 + toegang tot de premiumzone en e-vouchers HK$200 — een besparing van HK$342.", 20.5, "sans", False, INK, CW - 44, 1.38) + 6
-p.para(rx + 22, yy + 20, "Gewaarderd volgens de officiële uitsplitsing; besparingen: onze berekening.", 19.5, "sans", False, GREY, CW - 44, 1.32)
+p.para(rx + 22, yy + 20, "Gewaarderd volgens de officiële uitsplitsing; besparingen: onze berekening.", 19, "sans", False, GREY, CW - 44, 1.32)
 sy = by + 522
 p.text(rx, sy + 28, "副篇:週年慶的兩種買法", 25, "sans", True, OLIVE)
-p.hline(rx, rx + CW, sy + 42, GOLD, 2)
+p.hline(rx, rx + CW, sy + 42, OLIVE, 2)
 yy = p.para(rx, sy + 42 + 26, "今年週年慶有兩個畫面:一邊,工商時報點名首日熱賣品是 iPhone 18 Pro Max 和 Apple Watch 12,高價 3C 第一天就賣得最好;另一邊,更多人拿著攻略算滿千送百,一千元、一千元地湊。有人說,這叫「K 型消費」。", 22, "serif", False, INK, CW, 1.42)
 yy = p.para(rx, yy + 26, "熱度看數字:新光三越首波六店,開賣第一天業績破 15.5 億元新台幣,來客逾 14.5 萬人次;信義新天地的寶可夢遊行,預購期單日就吸了 31 萬人次。", 22, "serif", False, INK, CW, 1.42)
 p.para(rx, yy + 24, "Twee manieren om de uitverkoop te beleven: dure tech verkoopt op dag één uit, terwijl iedereen verderop bonnen telt tot op de laatste honderd dollar.", 19.5, "sans", False, GREY, CW, 1.32)

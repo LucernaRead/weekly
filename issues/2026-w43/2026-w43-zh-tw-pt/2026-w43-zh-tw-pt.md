@@ -17,8 +17,8 @@ nativeLabel: "Português"
 exercises: 150
 pages: 8
 pdf: 2026-w43-zh-tw-pt.pdf
-pdfBytes: 3683008
-pdfSha256: 7d5ec7e0528f18e76365b2dca12ef8f46db0104d8236ac7e9a5016b3ca903095
+pdfBytes: 3047164
+pdfSha256: 3631765ddf7418d7dd24ceb82fe63e717aa6493b893fbc1eba29c22bc523cb65
 discordThread: "1562312921759875144"
 draft: false
 ---

@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zh-tw-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P8 · test & keys
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("測驗與答案 · Teste e respostas", "Lucerna", "第 8 版 · 本週大測驗 + 全部答案 · O teste da semana e todas as respostas")
+p.band("測驗與答案　Teste e respostas", "Lucerna", "第8版　本週大測驗 + 全部答案　O teste da semana e todas as respostas")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判斷對錯 · Verdadeiro ou falso", 21, OLIVE, 5)
+f.head("A　判斷對錯　Verdadeiro ou falso", 21, OLIVE, 5)
 f.ex("A2", "完形單選", "A", "O Duplo Nove é o 9/9 lunar.",
      "重陽節在農曆九月初九。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "O feriado de Hong Kong foi segunda, 19 de outubro, não 20.",
@@ -25,7 +25,7 @@ f.ex("B1", "完形單選", "B", "Os prêmios de drama são no sábado; os de pro
      "金鐘獎戲劇類在週五頒獎。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("B1", "完形單選", "A", "400 - 258 = 142 economizados com o passe de degustação.",
      "品味證比逐樣買便宜142港幣。(A. 對 · B. 錯)", size=13.8, gap=0)
-f.head("B · 本週大測驗 · O grande quiz", 21, OLIVE, 5)
+f.head("B　本週大測驗　O grande quiz", 21, OLIVE, 5)
 f.ex("A2", "單選", "B", "O alerta marítimo pode sair na noite de quarta-feira.",
      "海上颱風警報最快哪晚發佈? A. 週一 · B. 週三 · C. 週五", size=13.8, gap=0)
 f.ex("A2", "單選", "B", "Tire 4 dias de folga e ganhe 9 dias livres.",
@@ -46,7 +46,7 @@ f.ex("B2", "單選", "B", "O passe premium reúne HK$ 900 em itens.",
      "尊尚品酒證的內容總值是? A. 558港幣 · B. 900港幣 · C. 400港幣", size=13.8, gap=0)
 f.ex("B2", "單選", "A", "Cuì é o apelido taiwanês do Threads.",
      "哪個說法對? A. 「脆」是台灣對 Threads 的暱稱 · B. 「脆」是一種餅乾 · C. 「脆」是香港用法", size=13.8, gap=0)
-f.head("C · 完成句子 · Complete as frases", 21, OLIVE, 5)
+f.head("C　完成句子　Complete as frases", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "共伴", "Tufão mais monção: o efeito conjunto.",
      "颱風加東北季風,叫___效應。", instr="Complete", size=13.8, gap=0)
 f.ex("A2", "完成句子", "登高", "Subir bem alto é o costume do Duplo Nove.",
@@ -67,7 +67,7 @@ f.ex("B2", "完成句子", "品味", "Os cupons são as pǐnwèi quàn (fichas d
      "美酒佳餚巡禮的券,叫___券。", instr="Complete", size=13.8, gap=0)
 f.ex("B2", "完成句子", "留友", "Liú yǒu kàn — salve para os amigos lerem.",
      "看到好文存起來給朋友,叫「___看」。", instr="Complete", size=13.8, gap=0)
-f.head("D · 讀一讀,答一答 · Leia e responda", 21, OLIVE, 5)
+f.head("D　讀一讀,答一答　Leia e responda", 21, OLIVE, 5)
 f.para("阿哲住在台北。光復節連假,他週六晚上在家看台灣大賽第六戰(如果有需要)。週日晚上七點,他去天母看百鬼夜行踩街,還拿到一個南瓜桶。週一是補假,他睡到自然醒,下午去信義新天地逛週年慶,買了一雙鞋:2,600元,滿千送百,他拿到200元回饋券。三天連假,他過得很開心。", 15, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "Ele assiste à Série de Taiwan no sábado à noite.",
      "阿哲週六晚上看什麼? A. 金鐘獎 · B. 台灣大賽 · C. 電影", size=13.8, gap=0)
@@ -79,7 +79,7 @@ f.ex("B1", "單選", "B", "2.600 = dois milhares cheios, então 2 × 100 = 200 d
      "鞋子2,600元,他拿到多少回饋券? A. 100元 · B. 200元 · C. 260元", size=13.8, gap=0)
 f.ex("B2", "單選", "A", "Ordem: beisebol, depois o desfile, depois as compras.",
      "這三天他的順序是? A. 先看球,再踩街,再逛街 · B. 先逛街,再看球 · C. 先踩街,再逛街,再看球", size=13.8, gap=0)
-f.head("E · 情景說話 · Diga no contexto", 21, OLIVE, 5)
+f.head("E　情景說話　Diga no contexto", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "Veja o alerta antes de sair durante um tufão.",
      "— 明天會下雨嗎? — 颱風來了,先看___再出門。(A. 警報 · B. 菜單)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "2.000 = dois milhares, então 200 em vales.",
@@ -92,7 +92,7 @@ f.ex("B1", "完形單選", "A", "Os resultados saem na cerimônia de sábado.",
      "— 人氣獎結果何時知道? — 週六___公佈。(A. 典禮當晚 · B. 下週一)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "A", "Liú yǒu kàn — salve o post para os amigos.",
      "— 這篇文不錯。 — 我先存起來,___看。(A. 留友 · B. 哈囉)", size=13.8, gap=0)
-f.head("F · 寫一寫 · Redação", 21, OLIVE, 5)
+f.head("F　寫一寫　Redação", 21, OLIVE, 5)
 MODELO = ("光復節連假有三天。第一天,我在家看台灣大賽,如果打到第六戰,我一定準時打開電視。"
           "第二天晚上七點,我去天母看百鬼夜行,順便討糖。"
           "第三天是補假,我想睡晚一點,下午去信義新天地逛週年慶。"
@@ -105,13 +105,13 @@ f.para("Resposta-modelo: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · Respostas — em ordem de página, com uma breve nota em português para cada exercício", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Todas as notas em português · ✓ = o modelo de redação", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　Respostas — em ordem de página, com uma breve nota em português para cada exercício", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Todas as notas em português　✓ = o modelo de redação", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Página {pg} —", 13.0, "sans", True, OLIVE, lh=1.13, gap=1, split=False)
     for e_ in by_page[pg]:

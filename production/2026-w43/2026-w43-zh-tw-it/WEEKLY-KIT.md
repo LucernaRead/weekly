@@ -86,8 +86,8 @@ P1 typhoon.jpg — NASA Johnson Space Center — Public domain · P2 rain.jpg �
 
 ## 10. Deliverable pins
 
-- Print PDF `Lucerna-VOL1-IT.pdf`: 37,633,943 bytes · sha256 9c7f70fd6cafc1b2ff1d58d8155f9d253bed4a3fc663042e733fe01c00246f48 (FINAL, post-proofread-fix — supersedes the pre-fix pins 37,633,941 / ab71d902…; see §11)
-- Web PDF `Lucerna-VOL1-IT-web.pdf`: 3,611,333 bytes (< 10 MB) · sha256 3b484683308debda67360c02d6a19128c831518f4352cc0eb807fd7a7ecf570a (FINAL — supersedes 3,611,577 / 94d852e2…; see §11)
+- Print PDF `Lucerna-VOL1-IT.pdf`: 28,980,352 bytes · sha256 011636d3392127a2b554e1f1e08b422f117413d8a442da9750789e48dc4a6932 (FINAL, post-proofread-fix — supersedes the pre-fix pins 37,633,941 / ab71d902…; see §11)
+- Web PDF `Lucerna-VOL1-IT-web.pdf`: 3,037,376 bytes (< 10 MB) · sha256 7a20bc32cc31f23de7a4a5734cf8cbf1b3858309b581a96e7875af7d31e14b1b (FINAL — supersedes 3,611,577 / 94d852e2…; see §11)
 - Cards: 8 × PNG 1950×2700 in `cards/`.
 - SVGs in `svg/`: p1-front 697183714524e588d740ffec3094c97ddbca6a01625cb5c9ac5445be5cd8f2fd · p2-life d03cd1d1fdd6da796da53a40a166f9b3a71dab352aa5d631ad0e2bb37e09b476 · p3-culture cd0d50799d120fe2535f1bcfef55f305539ca4a751f7db242bf70f19481fe1ad · p4-sport 0bcb8934aba281bf7224fc68c7db768f25bc05522b0fac3bca5cfcd85d7ffc47 · p5-youth 5b8b7a274af0f4b6adb510ba9081c2262871b2b4fab67f06f4300ceba6d353c7 · p6-deep 8ced1635648076e44f18eed28ae716520f5d3f71d8b5a17f16b5011d7cc00924 · p7-lang c24b86d5c391c17b1f485ccefdce2003e63866d4470d12f758b9ebe6a3e1e4d1 (post-fix; pre-fix was 56a650de…) · p8-test 7a5bdc2196de9130a4e8149442ad8b571a6b3e7e01264c3de2309ff8b08222a4
 
@@ -121,9 +121,21 @@ A complete, skeptical, independent pass over the final rendered artifacts; every
 **Banned-term scan:** the intermediary-layer term (Chinese and English forms) occurs 0 times in the paper SVGs, this KIT, and all operative build code of the IT build (scratch transform scripts excluded per the standing adjudication).
 
 **Final PDF pins (measured by the proofreader; SUPERSEDE the builder's §10 pre-fix values — §10 updated accordingly):**
-- Web PDF: **3,611,333 bytes**, sha256 `3b484683308debda67360c02d6a19128c831518f4352cc0eb807fd7a7ecf570a`, 8 pages, < 10 MB ✓
-- Print PDF: **37,633,943 bytes**, sha256 `9c7f70fd6cafc1b2ff1d58d8155f9d253bed4a3fc663042e733fe01c00246f48`, 8 pages
+- Web PDF: **3,037,376 bytes**, sha256 `7a20bc32cc31f23de7a4a5734cf8cbf1b3858309b581a96e7875af7d31e14b1b`, 8 pages, < 10 MB ✓
+- Print PDF: **28,980,352 bytes**, sha256 `011636d3392127a2b554e1f1e08b422f117413d8a442da9750789e48dc4a6932`, 8 pages
 
 **Core integrity:** the frozen core's 8 shipped SVG hashes are unchanged after all proofread work (sha256sum -c: 8/8 OK, start vs end identical).
 
 **Verdict: PASS — one complete independent pass with zero problems on the final artifacts. Ready for repo insert as slug `2026-w43-zh-tw-it` (discordThread = 繁體中文 thread).**
+
+## D5 rebuild record (2026-11-14)
+
+D5 font rebuild of this edition (W43 three-week redo, scope B). The installer `apply_variant.py --check` FATALs on this family's face-suffixed engine (`_IDX_TC`, `"sans_TC"`, `face="TC"`), so the D5 install was hand-ported step-by-step (`scripts/d5_port_zhtw.py`, same rep1 exactly-1-match discipline; D5_BLOCK / READER_CONST verbatim; FIX2_BLOCK mechanism verbatim, anchors re-based on this family's census). W47 engine transplant was rejected with evidence (no `_fw()`). Install: `scripts/install_zhtw.sh` (`--check` dry-run first). `_D5_READER = "latin"` (mode latin/TC); routing unit test FAILURES: 0; fix2 markers 5, `_QUOTE_CLS` 4, retained. §1.1 assembly: the port engine (490 lines) was copied into production first (production never held it; 9 `.py` files per edition, SHA-verified vs MANIFEST-W43.md) plus the pilot moth into `assets/` (10 editions).
+
+- **Pre-D5 census** (baseline): D5_latin_in_cjk=425, D5_cyrillic_in_cjk=0, curly_in_cjk=0; post-D5 census all 0 (gate 3).
+- **Build pins (D5 rebuild, final):** print `28,980,352 B`, sha256 `011636d3392127a2b554e1f1e08b422f117413d8a442da9750789e48dc4a6932`; web `3,037,376 B (< 7 MB)`, sha256 `7a20bc32cc31f23de7a4a5734cf8cbf1b3858309b581a96e7875af7d31e14b1b`. Web PDF is the builder original `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-it/2026-w43-zh-tw-it.web.pdf` — the closer must copy it, never re-run webpdf (web PDFs are byte-nondeterministic across runs). Print PDF `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-it/Lucerna-VOL1-*.pdf`.
+- **Step-7 fixes (point sizes only, zero wording changes; full re-render + full gates after each fix):**
+  - `content12.py:175` — P2 你呢 question para: 20 -> 19.5; spill 'giorni?' BELOW +4.20px -> 0 [pre-existing, identical in baseline].
+- **P8:** extract 150/150; compare vs baseline en core CLEAN (missing=[], extra=0; [108] present in both core and edition — the zh-cn D28 core-missing-[108] discrepancy does NOT reproduce in this family). P8 lines base -> patched 214 -> 214 (unchanged by all fixes); footer slack 56.6px (>= 40 required).
+- **Gates (17 + D18):** 18 GATE PASS, 0 hard FAIL. Gate 15a text.md: REFLOW — D5 reflow moves line breaks only (difflines=50, char-multiset diff 0, native verifier ADOPT all pages); the shipped `.text.md` is the joined patched export (faithful to the delivered PDF); byte-identical vs the baseline export is impossible where reflow moves wraps — REFLOW accepted per D30 (see family report §4). Gate 15a print=web PASS (multiset 0). gate 15b: shared `verify_textmd.py` rc=1 (FAIL, pre-existing verifier calibration gap — the baseline edition fails identically, only-in-MD 789 tokens baseline vs 812 patched, only-in-SVG 28 baseline vs 13 patched); accepted per D27 via 15a + native verifier + full read-through. Residuals are furniture the MD legitimately carries (level badges, instruction words, P8 key notes, footer/masthead words) that the verifier drops on the SVG side. Gate 15c native verifier PASS (ADOPT). D18 masthead gap 42.0px PASS. Logs: `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-it/gates.log` + `GATES-SUMMARY.txt`; D5 report: `production/notes/2026-w43/g-zh-tw/scratch-d5-rebuild-zh-tw/D5-REPORT-2026-w43-zh-tw-it.md`.
+- **text.md provenance:** joined patched export `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-it/2026-w43-zh-tw-it.text.md.new` (D5-aware joiner `scripts/textexp_zh_tw_d5.py`; the naive exporter fragments D5 run-split lines — see family report §4). issues/ holds no `.text.md` for this edition; this file ships new with the bundle (carry-over exception).

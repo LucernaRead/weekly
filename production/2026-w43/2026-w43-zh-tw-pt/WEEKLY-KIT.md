@@ -88,8 +88,8 @@ Read all 8 pages end-to-end in the rendered text. Re-derived all 150 keys agains
 
 ## 12. Deliverables (files/weekly-report-zh-tw-pt/)
 - `svg/` ×8, `cards/` ×8 (1950×2700 PNG).
-- Print PDF `Lucerna-VOL1-PT.pdf` — **37,638,298 bytes**, sha256 `2e9e5262ce04eafd507e902946cf0709ead4b0c9a5d63a09356bf2b321e2571e`.
-- Web PDF `Lucerna-VOL1-PT-web.pdf` — **3,620,452 bytes (< 10 MB)**, sha256 `4b5b3ac5ff630ac12cdb6bfeb621ac53071d51b012da022bba1c5ffdcac434ab`.
+- Print PDF `Lucerna-VOL1-PT.pdf` — **28,989,983 bytes**, sha256 `e4320d2adfeb83ad6f3119799aec17247bd40de91c86ba807b50c7cfca003c2f`.
+- Web PDF `Lucerna-VOL1-PT-web.pdf` — **3,047,164 bytes (< 10 MB)**, sha256 `3631765ddf7418d7dd24ceb82fe63e717aa6493b893fbc1eba29c22bc523cb65`.
 
 ## 13. Independent proofread record (COMPLETE — PASS, zero problems)
 
@@ -110,7 +110,20 @@ Independent, skeptical pass on the final rendered artifacts; nothing taken on tr
 - **Furniture:** badge, all 8 left footers and all «Página N de 8» strings byte-exact against the claimed PT column pattern; gloss prefix «Nota — » throughout (11 gloss boxes); masthead «Lucerna»; no English explanation residue anywhere.
 - **Images:** embedded payloads + geometry byte-identical to the core per page (1/1/2/1/2/2/0/0); every printed credit byte-identical to the core and matching the core KIT (§9).
 - **Banned-term scan:** the intermediary-layer term = 0 occurrences (both written forms) in the paper, this KIT, and the operative build code.
-- **PDF pins (measured by the proofreader):** web `Lucerna-VOL1-PT-web.pdf` — **3,620,452 bytes (< 10 MB)**, sha256 `4b5b3ac5ff630ac12cdb6bfeb621ac53071d51b012da022bba1c5ffdcac434ab`; print `Lucerna-VOL1-PT.pdf` — **37,638,298 bytes**, sha256 `2e9e5262ce04eafd507e902946cf0709ead4b0c9a5d63a09356bf2b321e2571e` — both identical to §12.
+- **PDF pins (measured by the proofreader):** web `Lucerna-VOL1-PT-web.pdf` — **3,047,164 bytes (< 10 MB)**, sha256 `3631765ddf7418d7dd24ceb82fe63e717aa6493b893fbc1eba29c22bc523cb65`; print `Lucerna-VOL1-PT.pdf` — **28,989,983 bytes**, sha256 `e4320d2adfeb83ad6f3119799aec17247bd40de91c86ba807b50c7cfca003c2f` — both identical to §12.
 - **Core integrity:** the frozen core's 8 shipped SVG sha256 re-verified after all work — unchanged (c37cb10e… / 494af3da… / 15315e2e… / 02d393f9… / fc677f71… / 1367d4f0… / 873a21ac… / c532615c…).
 
 **Verdict: PASS — one complete independent pass, zero problems. Ready for repo insert as slug `2026-w43-zh-tw-pt`.**
+
+## D5 rebuild record (2026-11-14)
+
+D5 font rebuild of this edition (W43 three-week redo, scope B). The installer `apply_variant.py --check` FATALs on this family's face-suffixed engine (`_IDX_TC`, `"sans_TC"`, `face="TC"`), so the D5 install was hand-ported step-by-step (`scripts/d5_port_zhtw.py`, same rep1 exactly-1-match discipline; D5_BLOCK / READER_CONST verbatim; FIX2_BLOCK mechanism verbatim, anchors re-based on this family's census). W47 engine transplant was rejected with evidence (no `_fw()`). Install: `scripts/install_zhtw.sh` (`--check` dry-run first). `_D5_READER = "latin"` (mode latin/TC); routing unit test FAILURES: 0; fix2 markers 5, `_QUOTE_CLS` 4, retained. §1.1 assembly: the port engine (490 lines) was copied into production first (production never held it; 9 `.py` files per edition, SHA-verified vs MANIFEST-W43.md) plus the pilot moth into `assets/` (10 editions).
+
+- **Pre-D5 census** (baseline): D5_latin_in_cjk=429, D5_cyrillic_in_cjk=0, curly_in_cjk=0; post-D5 census all 0 (gate 3).
+- **Build pins (D5 rebuild, final):** print `28,989,983 B`, sha256 `e4320d2adfeb83ad6f3119799aec17247bd40de91c86ba807b50c7cfca003c2f`; web `3,047,164 B (< 7 MB)`, sha256 `3631765ddf7418d7dd24ceb82fe63e717aa6493b893fbc1eba29c22bc523cb65`. Web PDF is the builder original `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-pt/2026-w43-zh-tw-pt.web.pdf` — the closer must copy it, never re-run webpdf (web PDFs are byte-nondeterministic across runs). Print PDF `scratch-2026-w43-zh-tw/patched/2026-w43-zh-tw-pt/Lucerna-VOL1-*.pdf`.
+- **Step-7 fixes (point sizes only, zero wording changes; full re-render + full gates after each fix):**
+  - `content56.py:195` — P6 票券拆解 closing note para: 19.5 -> 19; spill +7.22px -> +6.56px (last line 'economias sao contas nossas.') [pre-existing (+7.22 in baseline), D5-worsened].
+  - `content56.py:190` — P6 票券拆解 box height: 504 -> 514; spill +6.56px -> 0 (same geometry as fr fix) [box-grow, DE KIT adjudication-5 precedent].
+- **P8:** extract 150/150; compare vs baseline en core CLEAN (missing=[], extra=0; [108] present in both core and edition — the zh-cn D28 core-missing-[108] discrepancy does NOT reproduce in this family). P8 lines base -> patched 203 -> 203 (unchanged by all fixes); footer slack 42.6px (>= 40 required).
+- **Gates (17 + D18):** 18 GATE PASS, 0 hard FAIL. Gate 15a text.md: REFLOW — D5 reflow moves line breaks only (difflines=44, char-multiset diff 0, native verifier ADOPT all pages); the shipped `.text.md` is the joined patched export (faithful to the delivered PDF); byte-identical vs the baseline export is impossible where reflow moves wraps — REFLOW accepted per D30 (see family report §4). Gate 15a print=web PASS (multiset 0). gate 15b: no `pt` table in shared `verify_textmd.py` (rc=2, tool gap — tables exist per reader; `pt` was never calibrated); accepted per D27 via 15a + native verifier + full read-through (only-in-SVG 0 tokens). Gate 15c native verifier PASS (ADOPT). D18 masthead gap 42.0px PASS. Logs: `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-pt/gates.log` + `GATES-SUMMARY.txt`; D5 report: `production/notes/2026-w43/g-zh-tw/scratch-d5-rebuild-zh-tw/D5-REPORT-2026-w43-zh-tw-pt.md`.
+- **text.md provenance:** joined patched export `scratch-2026-w43-zh-tw/logs/2026-w43-zh-tw-pt/2026-w43-zh-tw-pt.text.md.new` (D5-aware joiner `scripts/textexp_zh_tw_d5.py`; the naive exporter fragments D5 run-split lines — see family report §4). issues/ holds no `.text.md` for this edition; this file ships new with the bundle (carry-over exception).

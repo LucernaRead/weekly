@@ -17,8 +17,8 @@ nativeLabel: "日本語"
 exercises: 150
 pages: 8
 pdf: 2026-w43-zh-tw-ja.pdf
-pdfBytes: 3991214
-pdfSha256: bd2aac937a27d1808ad51ca07a11da20549ee8964dc92f2f791275fb32424320
+pdfBytes: 3742362
+pdfSha256: 327ba94f410b6bb9ee0d18df960617733a4628ad5ef1f422d49d0d09522344b6
 discordThread: "1562312921759875144"
 draft: false
 ---
