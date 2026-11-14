@@ -253,7 +253,7 @@ e.ex("B1", '문장 완성', "digita", "digitar：ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr='빈칸 채우기', size=20, gap=8)
 e.ex("A2", '문장 완성', "fecha", "fechar：ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr='빈칸 채우기', size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl('1·2면의 숫자로 빈칸을 채우세요.')
 e.ex("A2", '문장 완성', "4.352", '투표소 총 4.352곳이 주소를 바꿨어요',
      "___ seções eleitorais mudaram de endereço.", instr='빈칸 채우기', size=20, gap=8)

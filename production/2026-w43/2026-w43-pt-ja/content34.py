@@ -18,7 +18,7 @@ f.para("Durante muitos anos, a guitarra perdeu espaço no Brasil. Um estudo publ
 f.para("Mas a história mudou. Desde 2021, as buscas por guitarra crescem todos os anos: no total, já subiram 53%. Em 2026, a guitarra chegou a 75% do volume de buscas do violão — o instrumento mais brasileiro de todos. A guitarra elétrica e o violão acústico, outra vez lado a lado.")
 f.para("Por quê? Os jovens descobrem bandas antigas nos vídeos curtos, compram a primeira guitarra e aprendem com aulas na internet. E há o ritual da semana: na sexta-feira, o país inteiro assiste ao debate na TV. No Brasil, a música e a televisão moram na mesma casa: a família se reúne, comenta, canta junto.")
 f.gloss('a busca 検索 · cair 下落する · crescer 増える · o volume 量、規模 · lado a lado 並んで、一緒に。')
-f.head("DOIS INSTRUMENTOS, UM PAÍS", 25)
+f.head("DOIS INSTRUMENTOS, UM PAÍS", 24)
 f.para("O violão é o instrumento da roda de amigos, da praia e do samba. A guitarra é o som do rock e dos grandes shows. Nesta semana, os dois dividem a mesma notícia: o Brasil voltou a procurar música — e a procurar com as mãos.")
 f.para("Na página 5, outra votação famosa da semana: a enquete de A Fazenda. Mas antes, uma pergunta para você, leitor: qual é o instrumento da sua vida?")
 f.end_report()

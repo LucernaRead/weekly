@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　CIJFERS", [
     ("4.352 — as seções eleitorais que mudaram de endereço (de stembureaus die van adres veranderden)", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país (alle stembureaus van het land)", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo (stemmen op zondag, tijd van Brasília)", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　AAN DE SLAG", 25)
 f.ex("A2", "Voltooi de zin", "segundo", "segundo turno = de tweede ronde",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "Zoekinteresse — geen stemintentie", 19, "sans", Fal
 # ---- conteúdo (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 22, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "Como votar, passo a passo", "A2"),
     ("Pág. 3", "A volta da guitarra", "A2→B1"),
@@ -129,7 +129,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 21, "sans", True, OLIVE)
 brefs = [
     ("O VOTO", "Domingo, das 8h às 17h: confira sua seção no e-Título antes de sair. (Página 2)"),
     ("O DEBATE", "Sexta-feira, 23, na TV Globo, depois do Jornal Nacional. (Página 6)"),
@@ -253,7 +253,7 @@ e.ex("B1", "Voltooi de zin", "digita", "digitar: ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="Vul in", size=20, gap=8)
 e.ex("A2", "Voltooi de zin", "fecha", "fechar: ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="Vul in", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("Uitleg — Vul de getallen van pagina 1 en 2 in.")
 e.ex("A2", "Voltooi de zin", "4.352", "in totaal 4.352 stembureaus met nieuw adres",
      "___ seções eleitorais mudaram de endereço.", instr="Vul in", size=20, gap=8)

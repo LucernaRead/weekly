@@ -81,7 +81,7 @@ wt = "« urna » é a máquina onde o eleitor digita o número e confirma o voto
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("urna = the voting machine — and voting itself: voltar às urnas (back to the polls), as urnas abrem (polls open).", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA　WORD OF THE WEEK", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WORD OF THE WEEK", 21, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "urna = the voting machine — and voting itself: voltar às urnas (back to the polls), as urnas abrem (polls open).", 20, "sans", False, GREY, CW - 44, 1.42)

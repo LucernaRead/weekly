@@ -93,3 +93,22 @@
 - 家具逐页核对：徽章、页脚串、《Страница N из 8》（N 与页序逐页合）、gloss 前缀 «Пояснение — »、P8 分隔、双语章节头、P7 俄式页标签全合 FR×RU 定式；P5 计划框与 P1 数字框俄语括注为半角 + 空格（D7 修复在版）。
 - 残留全扫：荷兰语家具 = 0、禁用术语纸面 SVG 与 operative code = 0（KIT 仅 §1 改名记录提及原方法名，与已入仓多版先例同形；expl() = 定义 1 + 调用 21）；图片载荷与几何逐页与核心全等（4 图），署名行与核心逐字同、与核心 KIT 的 Commons CREDITS 记录对应。
 - 最终针脚（磁盘实测，与 §7 登记逐字全合）：网页版 3,729,701 B / sha256 1eecb367…；印刷版 6,380,386 B / sha256 a13eb843…。
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-ru.pdf` **5626667 B** · sha256 `e2830aeb4ea28d2bb5ecd9deed1e588f2038e7978c967f35d35f66401973a6ad`; render-web `A-Lucerna-VOL1-pt-ru-web.pdf` **3331472 B** · sha256 `9053be6a3f27cd94033097a18a23a891ebf7f43be4aed25d2d7edde406a46318`; web (issues-type) `2026-w43-pt-ru.web.pdf` **894153 B** · sha256 `0511cef1e6dbe15e09b2be9bbc02b1936305ead22a15660aec5f6b49e1dd856b` (< 7 MB); text.md byte-identical to the shipped version (sha256 `a6f97d1180377b6f6953afca12781bd21991730090bd73d6850400d62053a9d9`). Pre-D5 KIT pins above (print 6,380,386 B (sha256 `a13eb843…`); render-web 3,729,701 B (sha256 `1eecb367…`)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-ru/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-ru.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-ru/svglib.py --target pt --reader ru --week 2026-w43`, `_D5_READER = "ru"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 43,357 = 43,357 = 43,357 chars, multiset diff 0; baseline web PDF 769,137 B; print PDF 5,862,783 B (`3371066e…`); pre-fix census D5 Latin 346, Cyrillic 256, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 0 items — no head or box-title overflow; the Russian heads already fit at 25 pt, so no size change was needed).
+
+P8: 215→215 lines, footer slack 40.7→40.7 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=0); render RC=0; webpdf RC=0 (894,153 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 170, run splits); spill 0; boxtitle 0 DEFECT (30 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 101,101 chars, multiset diff 0; textmd carryover PASS 0/0 (svg 5144 = md 5144 tokens); masthead gap (D18) 88.4 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-ru.pdf` 5,626,667 B (`e2830aeb…`); render-web `A-Lucerna-VOL1-pt-ru-web.pdf` 3,331,472 B (`9053be6a…`); web (issues-type) `2026-w43-pt-ru.web.pdf` 894,153 B (`0511cef1…`); text.md byte-identical to the shipped version (`a6f97d11…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-ru/2026-w43-pt-ru.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).

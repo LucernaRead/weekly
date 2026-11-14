@@ -70,7 +70,7 @@ errs = [
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 178
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERROS COMUNS　HÄUFIGE FEHLER", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERROS COMUNS　HÄUFIGE FEHLER", 20, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
@@ -81,7 +81,7 @@ wt = "« urna » é a máquina onde o eleitor digita o número e confirma o voto
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("urna = die elektronische Wahlurne — auch die Wahl selbst: voltar às urnas, as urnas abrem.", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "A PALAVRA　WORT DER WOCHE", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "A PALAVRA　WORT DER WOCHE", 22, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "urna = die elektronische Wahlurne — auch die Wahl selbst: voltar às urnas, as urnas abrem.", 20, "sans", False, GREY, CW - 44, 1.42)

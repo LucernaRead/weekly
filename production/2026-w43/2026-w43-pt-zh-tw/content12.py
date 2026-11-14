@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　數字看本週", [
     ("4.352 — as seções eleitorais que mudaram de endereço（更換了地址的投票站）", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país（全國投票站總數）", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo（週日投票，巴西利亞時間）", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　即學即練", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = 第二輪",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -82,7 +82,7 @@ for i, (lab, vol, bw) in enumerate(gt):
     byy += 92
 p.text(gx + 22, byy + 16, "Dados do Google, em torno do 1º turno:", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "interesse de busca — não é voto.", 18.5, "sans", False, GREY)
-p.text(gx + 22, byy + 76, "第一輪前後Google數據：搜尋熱度，非投票意向", 19, "sans", False, GREY)
+p.text(gx + 22, byy + 76, "第一輪前後Google數據：搜尋熱度，非投票意向", 18, "sans", False, GREY)
 
 # ---- conteúdo (col 3) ----
 sy = 1312
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar：ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar：ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="填空", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("用第 1、2 版的數字填空。")
 e.ex("A2", "完成句子", "4.352", "共 4.352 個投票站換址",
      "___ seções eleitorais mudaram de endereço.", instr="填空", size=20, gap=8)

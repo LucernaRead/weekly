@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　CIFRAS", [
     ("4.352 — as seções eleitorais que mudaram de endereço (los colegios electorales que cambiaron de dirección)", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país (el total de colegios electorales del país)", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo (el horario de votación del domingo, hora de Brasília)", "serif", False, INK, 20, 1.35),
-])
+], tsize=21)
 f.head("AGORA VOCÊ　AHORA TÚ", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = la segunda vuelta",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -87,7 +87,7 @@ p.text(gx + 22, byy + 76, "Datos de Google: no es un voto.", 19, "sans", False, 
 # ---- conteúdo (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　EN ESTA EDICIÓN", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　EN ESTA EDICIÓN", 21, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "Como votar, passo a passo", "A2"),
     ("Pág. 3", "A volta da guitarra", "A2→B1"),
@@ -129,7 +129,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　BREVE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　BREVE", 22, "sans", True, OLIVE)
 brefs = [
     ("O VOTO", "Domingo, das 8h às 17h: confira sua seção no e-Título antes de sair. (Página 2)"),
     ("O DEBATE", "Sexta-feira, 23, na TV Globo, depois do Jornal Nacional. (Página 6)"),
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar: ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="Completa", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar: ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="Completa", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("Usa los números de las páginas 1 y 2.")
 e.ex("A2", "完成句子", "4.352", "4.352 colegios cambiaron de dirección",
      "___ seções eleitorais mudaram de endereço.", instr="Completa", size=20, gap=8)

@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　CIFRE", [
     ("4.352 — as seções eleitorais que mudaram de endereço (i seggi elettorali che hanno cambiato indirizzo)", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país (il totale dei seggi elettorali del paese)", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo (l'orario del voto di domenica, ora di Brasília)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("AGORA VOCÊ　TOCCA A TE", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = il ballottaggio",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -129,7 +129,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BREVE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BREVE", 21, "sans", True, OLIVE)
 brefs = [
     ("O VOTO", "Domingo, das 8h às 17h: confira sua seção no e-Título antes de sair. (Página 2)"),
     ("O DEBATE", "Sexta-feira, 23, na TV Globo, depois do Jornal Nacional. (Página 6)"),
@@ -176,7 +176,7 @@ f.head("E SE EU NÃO VOTAR?", 25)
 f.para("Se você não votar e não justificar, paga a multa eleitoral e fica com uma pendência no título de eleitor. A palavra «multa eleitoral» foi uma das buscas que mais cresceram no Google antes do primeiro turno: +350%. Melhor conferir tudo antes: local, documento e horário.", 23.5)
 f.box("PARA NÃO ERRAR　DA RICORDARE", [
     ("«Confira a seção, leve o documento, chegue no horário.» Três passos e o domingo fica tranquilo: o resto é com a urna.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.gloss("o título de eleitor = il titolo elettorale · a zona eleitoral = la circoscrizione · justificar = giustificare l'assenza · a multa = la multa · obrigatório = obbligatorio.")
 f.end_report()
 
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar, presente (ele): digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="Completa", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar, presente (ela): fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="Completa", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("Completa con i numeri delle pagine 1 e 2.")
 e.ex("A2", "完成句子", "4.352", "in tutto 4.352 seggi hanno cambiato indirizzo",
      "___ seções eleitorais mudaram de endereço.", instr="Completa", size=20, gap=8)

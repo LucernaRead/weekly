@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　CHIFFRES", [
     ("4.352 — as seções eleitorais que mudaram de endereço (les bureaux de vote qui ont changé d'adresse)", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país (le total des bureaux de vote du pays)", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo (les heures de vote du dimanche, heure de Brasília)", "serif", False, INK, 20, 1.35),
-], tsize=21)
+], tsize=19)
 f.head("AGORA VOCÊ　À VOUS", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = le second tour",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -129,7 +129,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 21, "sans", True, OLIVE)
 brefs = [
     ("O VOTO", "Domingo, das 8h às 17h: confira sua seção no e-Título antes de sair. (Página 2)"),
     ("O DEBATE", "Sexta-feira, 23, na TV Globo, depois do Jornal Nacional. (Página 6)"),
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar, présent (ele) : digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="Compléter", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar, présent (ela) : fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="Compléter", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl("Complétez avec les chiffres des pages 1 et 2.")
 e.ex("A2", "完成句子", "4.352", "4.352 bureaux de vote ont changé d'adresse au total",
      "___ seções eleitorais mudaram de endereço.", instr="Compléter", size=20, gap=8)

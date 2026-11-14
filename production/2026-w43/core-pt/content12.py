@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　数字看本周", [
     ("4.352 — as seções eleitorais que mudaram de endereço（更换了地址的投票站）", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país（全国投票站总数）", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo（周日投票，巴西利亚时间）", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　即学即练", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = 第二轮",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar：ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar：ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="填空", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.bridge("用第 1、2 版的数字填空。")
 e.ex("A2", "完成句子", "4.352", "共 4.352 个投票站换址",
      "___ seções eleitorais mudaram de endereço.", instr="填空", size=20, gap=8)

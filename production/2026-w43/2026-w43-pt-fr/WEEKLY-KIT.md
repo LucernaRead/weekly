@@ -63,6 +63,30 @@ Relecteur indépendant, passe complète sur les artefacts livrés (SVG + cartes 
 - **Vérifications pixel** (cartes 1950×2700) : note AS BUSCAS encre jusqu'à x=1814 (bord 1885) ; sous-titre AS BUSCAS 1867 ≤ 1885 ; titre CHIFFRES à 21 pt : 927 ≤ 961 ; titre ERROS : 1796 ≤ 1885 ; glose A PALAVRA : encre lignes 1801–1815, filet aux lignes 1843–1844 → ≥28 px d'air, non-défaut confirmé ; bas des flux de clés P8 : 2521 / 2552 / 2521 / 2475 (bande de pied à 2580) ; artefact texte-texte page 1 (wordmark 168 pt vs ligne d'édition) : encre réelle séparée par 2 lignes libres (301–302) → non-défaut.
 - **Faits et calendrier 2026** : 15 affirmations jour/date revérifiées une à une (25 oct. = dimanche, 23 = vendredi, 21 = mercredi, 20 = mardi, 4/11/18 = dimanches, 31 = samedi, 1er nov. = dimanche, 2 = lundi, 8/15 = dimanches) — 15/15 correctes. Aucun pourcentage de sondage : uniquement des intérêts de recherche Google, légendés comme tels.
 - **PDF** : web 3 698 531 o, sha256 dbbd0fb372f620ec7ca9e6f6b8da0f028bdce24f1396f5cd2a8e016ee51d09bb ; print 6 452 529 o, sha256 f4f12027f583c04d8c611cfd5ce927c7ae0082632385fc011eded7b326d8fbb9 ; 8 pages chacun.
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-fr.pdf` **5355925 B** · sha256 `6123da875b9d6593ba32cef448eeb1a25afa3b4421e98c62842e3cbc2ddb1473`; render-web `A-Lucerna-VOL1-pt-fr-web.pdf` **3316072 B** · sha256 `021b3b2b118437e47859faba149ff2b2ffd94453bb651f7ee47ef9f1524e0c87`; web (issues-type) `2026-w43-pt-fr.web.pdf` **643289 B** · sha256 `769a9b85a2ac0c1b3b1efce52400d863c19129d5aeb005ce08f61934f6fd9acd` (< 7 MB); text.md byte-identical to the shipped version (sha256 `e7aa6bfc2245bccc217cdf269722c0ae0a6fabff37516c55e7b9cdf9def60808`). Pre-D5 KIT pins above (print 6,452,529 B (sha256 `f4f12027…`); render-web 3,698,531 B (sha256 `dbbd0fb3…`)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
 - **Terme intermédiaire interdit** : 0 occurrence dans le papier, ce KIT et le code (vérifié par grep sur les deux formes, chinoise et anglaise).
 
 Aucune correction n'a été nécessaire : rien n'a été re-rendu, le noyau n'a pas été touché. Verdict : **PASS — prêt pour l'insertion au dépôt** (diffusion Discord en pause sur instruction de l'utilisateur).
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-fr/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-fr.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-fr/svglib.py --target pt --reader fr --week 2026-w43`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 45,245 = 45,245 = 45,247 chars, multiset diff 0; baseline web PDF 719,345 B; print PDF 5,857,157 B (`f3caffed…`); pre-fix census D5 Latin 497, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 4 items, sizes only, no wording changed):
+
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:256 `e.head` 25→22
+- P3-main head `DOIS INSTRUMENTOS, UM PAÍS`: content34.py:21 `f.head` 25→24
+- P1 `CHIFFRES` box: content12.py:47 `f.box` close, `tsize` 21→19
+- P1 `EN BREF`: content12.py:132 `p.text` 24→21
+
+P8: 226→226 lines, footer slack 44.7→44.7 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=0); render RC=0; webpdf RC=0 (643,289 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 256, run splits); spill 0; boxtitle 0 DEFECT (26 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 101,372 chars, multiset diff 0; textmd carryover PASS 0/0 (svg 5255 = md 5255 tokens); masthead gap (D18) 10.4 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-fr.pdf` 5,355,925 B (`6123da87…`); render-web `A-Lucerna-VOL1-pt-fr-web.pdf` 3,316,072 B (`021b3b2b…`); web (issues-type) `2026-w43-pt-fr.web.pdf` 643,289 B (`769a9b85…`); text.md byte-identical to the shipped version (`e7aa6bfc…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-fr/2026-w43-pt-fr.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).

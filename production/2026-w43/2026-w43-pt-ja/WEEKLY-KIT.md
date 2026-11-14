@@ -107,4 +107,29 @@
 - 日历（TZ America/Sao_Paulo 实测）：10-25 Sun（次轮投票）、10-21 Wed（Prova do Fazendeiro)、10-23 Fri（Globo 辩论）、10-31 Sat、11-01 Sun（Copa 半决赛首回合）、11-02 Mon（Finados)、11-08/11-15 Sun（Enem）——与纸面全合。讲解层无国际政治新增（巴西国内选举程序为核心冻结内容）。
 - 残留：简体特有字 = 0、中文讲解残留 = 0、西里尔 = 0、荷/俄/西家具 = 0、纸面禁用术语 = 0（scratch 检索模式引用 confined + §7 已披露；svglib docstring 的 'paper' 为日语核心共享库逐字继承、零渲染出现）。
 - 最终针脚（磁盘实测，与 §9 登记逐字全合）：印刷 `A-Lucerna-VOL1-JA.pdf` **18,314,710 B** / sha256 `b74f4f3e90a088866ecaa6e1609a87c44c101e7fb8c4f267b2a7c2d993166a79`，8 页；网页 `A-Lucerna-VOL1-JA-web.pdf` **3,615,057 B** / sha256 `1578e889dbed2169b8d71bc79523ad6a74266df45cf5fbff1c007207299a26de`，8 页。
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-ja.pdf` **10080879 B** · sha256 `5ab27aab81c5fa3322dc820a9119ddc00c07ae6453ecfc4f4d17cc579e8f52d8`; render-web `A-Lucerna-VOL1-pt-ja-web.pdf` **3234894 B** · sha256 `9489e9120b733e82b8bb79c0a9e1aee5680d1d1a47a74e865d1adfcb85aa5e67`; web (issues-type) `2026-w43-pt-ja.web.pdf` **1080542 B** · sha256 `cd3f4f275971737bf516daa41d939d761b6c950f729fc8def2ba359d02297e8c` (< 7 MB); text.md byte-identical to the shipped version (sha256 `3d56febcbffaad40514596a606234832335405a4658f1d04ba41ce0902042537`). Pre-D5 KIT pins above (print 18,314,710 B (sha256 `b74f4f3e…`); render-web 3,615,057 B (sha256 `1578e889…`)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
 - 校对工件：`hidden_files/proof-pt-ja/`（freeze diff / p8 / occl JSON、AST 注册表比对、自备扫描脚本与裁剪图）。未入仓、未发 Discord。
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-ja/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-ja.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-ja/svglib.py --target pt --reader ja --week 2026-w43`, `_D5_READER = "cjk"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 37,733 = 37,733 = 37,733 chars, multiset diff 0; baseline web PDF 1,297,752 B; print PDF 16,831,278 B (`3709be1b…`); pre-fix census D5 Latin 343, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 3 items, sizes only, no wording changed):
+
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:256 `e.head` 25→22
+- P3-main head `DOIS INSTRUMENTOS, UM PAÍS`: content34.py:21 `f.head` 25→24
+- P1 box: content12.py:47 `f.box` close, `tsize` 23→20
+
+P8: 226→226 lines, footer slack 42.7→42.7 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **15/16 gates — textmd FAIL only (see note below)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=0); render RC=0; webpdf RC=0 (1,080,542 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 240, run splits); spill 0; boxtitle 0 DEFECT (28 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 96,792 chars, multiset diff 0; textmd carryover **FAIL 10/14** (svg 5646 vs md 5650 tokens) — see note below; masthead gap (D18) 56.6 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-ja.pdf` 10,080,879 B (`5ab27aab…`); render-web `A-Lucerna-VOL1-pt-ja-web.pdf` 3,234,894 B (`9489e912…`); web (issues-type) `2026-w43-pt-ja.web.pdf` 1,080,542 B (`cd3f4f27…`); text.md byte-identical to the shipped version (`3d56febc…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-ja/2026-w43-pt-ja.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).
+
+**textmd residual (frozen-tool limit, not a content defect)**: under the frozen `tools/verify_textmd.py` (additive pt calibration only — see family report §5.0b), this edition's carryover residual is 10/14 tokens. Clearing it needs generic-rule changes the coordinator has frozen; whether to allow them is pending the coordinator's decision. The print=web text layer (gate 15, 96,792 chars, multiset diff 0) independently confirms the content is unchanged.

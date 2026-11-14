@@ -121,6 +121,7 @@
 - **代碼骨架核**（tokenize 去字串對照）：content34/56/7/8 與核心**完全相同**；content12 唯一差 = 徽章一處調用（19→19.5pt、加粗、GREY→BRICK，§3 登記家具）；svglib 差恰 = TC 面切換四行；bslib4 差恰 = 頁腳串 + expl 改名 + gloss 前綴；render.py 僅 OUT 改道。P8 答案生成邏輯逐字未動 → 破折號式由構造保持（README 第 8/14 條）。expl() 調用 21 處 + 定義 1 處；operative code 中橋接詞 = 0（僅 scratch/transform.py 搜尋串，按先例披露）。
 - **occlusion_audit.py**（自檢 OK）：本版終局 1 旗 = 核心 1 旗，數值全同——P1 數字盒題 «A SEMANA EM NÚMEROS · 數字看本週» 右墨 968.5 > 框 961.0，兩版同字串同值（核心 «数字看本周» 同值），建造者已預登記為凍結核心化妝項，獨立複測確認未惡化，裁定非缺陷。
 - **針腳獨立實測**（與自報全等）：網頁版 3,515,949 B / sha256 82890d61164c554f252764e2598a933161efaebc68bd264c49c437322fe1fe40；印刷版 18,305,238 B / a8e8102f590abc1fa73de400cacd216efc0c0cd5926a55e5f33279411365c43e；均 8 頁。
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-zh-tw.pdf` **7143708 B** · sha256 `ddbe4e1e0767baa560e8580bb57cbb83a39860ecdf88eaef3c860b74d0b14d58`; render-web `A-Lucerna-VOL1-pt-zh-tw-web.pdf` **3135271 B** · sha256 `c2ec27437ccfabbeb86a7c8045ed403980fe8728e1404352542bb4b56edd6067`; web (issues-type) `2026-w43-pt-zh-tw.web.pdf` **1093758 B** · sha256 `5ec32860d37179ec25bbf65942950fdc9c0d39a0da23440100c6c83bebc0b567` (< 7 MB); text.md byte-identical to the shipped version (sha256 `612b6beb750ab677791d176b0dcecac21ed23330126f6b0c47c623a4f891e58d`). Pre-D5 KIT pins above (print 18,305,238 B (sha256 `a8e8102f…`); render-web 3,515,949 B (sha256 `82890d61…`)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
 
 ### 人工核（獨立）
 - **150 鍵全量重推導**：校對者從葡語正文逐題重推 #1–#150（理解/填空/配對/造句/翻譯/判斷），與註冊表及 P8 印刷答案塊逐條全合，含算術複核（982+514+431+312=2,239；350+350=700；900−250=650；66.026>66.000；#150 範文 92 詞元與核心同口徑、80–100 區間內）。
@@ -134,3 +135,28 @@
 - **卡面目檢**：8 張卡逐張看畢，TC 面渲染無缺字/方框；P6 條形與數值成比例、標籤無遮擋。
 
 **結論：PASS。本版可入倉（入倉由主線執行）。**
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-zh-tw/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-zh-tw.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-zh-tw/svglib.py --target pt --reader zh-tw --week 2026-w43`, `_D5_READER = "cjk"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 36,685 = 36,685 = 36,685 chars, multiset diff 0; baseline web PDF 1,441,322 B; print PDF 16,777,337 B (`0ff7cdb0…`); pre-fix census D5 Latin 344, Cyrillic 0, curly in CJK 0; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 4 items, sizes only, no wording changed):
+
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:256 `e.head` 25→22
+- P3-main head `DOIS INSTRUMENTOS, UM PAÍS`: content34.py:21 `f.head` 25→24
+- P1 box: content12.py:47 `f.box` close, `tsize` 23→20
+- P1 body line `第一輪前後Google數據：搜尋熱度，非投票意向`: content12.py:85 `p.text` 19→18
+
+(The P1 body line is the only body-text size change in the family; every other fix is a head or box title.)
+
+P8: 207→207 lines, footer slack 57.4→57.4 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=0); render RC=0; webpdf RC=0 (1,093,758 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 238, run splits); spill 0; boxtitle 0 DEFECT (28 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 93,519 chars, multiset diff 0; textmd carryover PASS 0/0 (svg 5422 = md 5422 tokens); masthead gap (D18) 130.8 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-zh-tw.pdf` 7,143,708 B (`ddbe4e1e…`); render-web `A-Lucerna-VOL1-pt-zh-tw-web.pdf` 3,135,271 B (`c2ec2743…`); web (issues-type) `2026-w43-pt-zh-tw.web.pdf` 1,093,758 B (`5ec32860…`); text.md byte-identical to the shipped version (`612b6beb…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-zh-tw/2026-w43-pt-zh-tw.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).

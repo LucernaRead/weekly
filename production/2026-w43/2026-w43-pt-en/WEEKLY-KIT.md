@@ -140,6 +140,7 @@ Credits as in the core build's assets/CREDITS.md; no image or credit line altere
 
 - Deliverables (this directory): `svg/` ×8 · `cards/` ×8 PNG (1950×2700) ·
   `A-Lucerna-VOL1.pdf` (print, 6.45 MB) · `A-Lucerna-VOL1-web.pdf` (**3.65 MB < 10 MB**)
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-en.pdf` **5355937 B** · sha256 `b239d3afeaeb8ef0197b8b8f9408bf21016fb846e82f4443aa000b6ef8a86e05`; render-web `A-Lucerna-VOL1-pt-en-web.pdf` **3259826 B** · sha256 `0727cced252f5c00f4342bc07a79d2c9bff2bcfb6c75e02bdc03b2da138bc71d`; web (issues-type) `2026-w43-pt-en.web.pdf` **643354 B** · sha256 `b5a688f63f73a718c178d87a731538624ffd7d59a75cf957eaf6c1287969214f` (< 7 MB); text.md byte-identical to the shipped version (sha256 `14ab3c10096f58d60faf9ee127bcc241b0ab4a05dff9f212095c54a09b5472ed`). Pre-D5 KIT pins above (print 6,453,109 B (no SHA in this KIT); render-web 3,654,979 B (no SHA in this KIT)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
   · this kit.
 - Build copy: `hidden_files/weekly-report-pt-en-build/` (the core build directory
   `hidden_files/weekly-report-pt-build/` was copied, never modified).
@@ -246,3 +247,28 @@ Footer rule y=2580 (painted after the keys); CONTENT_BOTTOM = 2540.
 
 Final deliverables after the proofread rebuild: print PDF 6,453,109 B; web PDF
 3,654,979 B (< 10 MB); totals above are the rebuilt edition's measurements.
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-en/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-en.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-en/svglib.py --target pt --reader en --week 2026-w43`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 42,944 = 42,944 = 42,944 chars, multiset diff 0; baseline web PDF 721,761 B; print PDF 5,856,582 B (`e9145a3c…`); pre-fix census D5 Latin 492, Cyrillic 0, curly in CJK 1; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 6 items, sizes only, no wording changed):
+
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:256 `e.head` 25→22
+- P3-main head `DOIS INSTRUMENTOS, UM PAÍS`: content34.py:21 `f.head` 25→24
+- P1 `IN NUMBERS` box: content12.py:47 `f.box` close, `tsize` 20→18
+- P1 `IN BRIEF`: content12.py:132 `p.text` 24→21
+- P2 `THE MANTRA` box: content12.py:179 `f.box` close, `tsize` 23→21
+- P7 `WORD OF THE WEEK`: content7.py:84 `p.text` 23→21
+
+P8: 195→195 lines, footer slack 51.3→51.3 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=4, all in Newsreader); render RC=0; webpdf RC=0 (643,354 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 243, run splits); spill 0; boxtitle 0 DEFECT (22 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 99,798 chars, multiset diff 0; textmd carryover PASS 0/0 (svg 5248 = md 5248 tokens); masthead gap (D18) 46.3 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-en.pdf` 5,355,937 B (`b239d3af…`); render-web `A-Lucerna-VOL1-pt-en-web.pdf` 3,259,826 B (`0727cced…`); web (issues-type) `2026-w43-pt-en.web.pdf` 643,354 B (`b5a688f6…`); text.md byte-identical to the shipped version (`14ab3c10…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-en/2026-w43-pt-en.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).

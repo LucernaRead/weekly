@@ -76,6 +76,7 @@ full German. The Portuguese layer is frozen (proof below).
 | Full-width punctuation in final SVGs | **0** |
 | Print PDF | `A-Lucerna-VOL1-DE.pdf` — 6,456,333 B |
 | Web PDF | `A-Lucerna-VOL1-DE-web.pdf` — 3,667,040 B (< 10 MB Discord limit) |
+- D5 rebuild (2026-11-13–14, see D5 rebuild section at the end of this KIT): print master `A-Lucerna-VOL1-pt-de.pdf` **5360413 B** · sha256 `2787b0dacd85fef60055829cea7a79e8ae952435c3135e44ca258d5618ce66fa`; render-web `A-Lucerna-VOL1-pt-de-web.pdf` **3288552 B** · sha256 `be3415464d7494e842298dc61b3b252d98e78bbb39f5f4a679d9e992eaa54739`; web (issues-type) `2026-w43-pt-de.web.pdf` **647839 B** · sha256 `e9bbb7255a10002b01865289a71acf7ddc120967d513a4722f02e41d225ee801` (< 7 MB); text.md byte-identical to the shipped version (sha256 `552a05b172e0464e1076b171383cb4674b82951b223238b1e160143510e5259d`). Pre-D5 KIT pins above (print 6,456,333 B (no SHA in this KIT); render-web 3,667,040 B (no SHA in this KIT)) are D1-era values, already expired before this rebuild (toolchain drift: Bold/Italic subset split in tools/webpdf.py commit 40963281).
 
 ## 4. Re-aimed items (the ONLY content changes vs the core)
 
@@ -216,3 +217,28 @@ problems found; no fixes, no re-render needed.**
   KIT and is not the banned intermediary-language term. Not a defect.
 
 **Verdict: PASS — final.**
+
+## D5 rebuild (2026-11-13–14, D5-only)
+
+SOP §1.1 font fix: the explanation layer's Latin letters move from Noto Sans CJK to Newsreader (SemiBold). No commit, no push — insertion is done by the closer after an independent re-proof. Work log: `hidden_files/d5-redo/scratch-2026-w43-pt/logs/2026-w43-pt-de/`; per-edition report: `production/notes/2026-w43/g-pt/scratch-d5-rebuild-pt/D5-REPORT-2026-w43-pt-de.md`.
+
+**Install**: core landed with `apply_variant.py --patch-core pt --week 2026-w43` (production `core-pt/svglib.py`, `_D5_READER = "latin"` — the core template); this edition installed with `apply_variant.py --svglib patched/2026-w43-pt-de/svglib.py --target pt --reader de --week 2026-w43`, `_D5_READER = "latin"` (--check dry-run clean, RC 0); routing unit test `test_d5_routing.py` FAILURES: 0; fix2 block kept (5 occurrences).
+
+**Baseline** (pre-fix production build): run TOTAL 150, 0 warnings; print/web/issued text layers 42,769 = 42,769 = 42,769 chars, multiset diff 0; baseline web PDF 725,903 B; print PDF 5,847,638 B (`15eedd5f…`); pre-fix census D5 Latin 491, Cyrillic 0, curly in CJK 3; baseline P8 noted 150/150.
+
+**Defects and fixes** (run1: 6 items, sizes only, no wording changed):
+
+- P2-ex head `C　COMPLETE COM OS NÚMEROS`: content12.py:256 `e.head` 25→22
+- P3-main head `DOIS INSTRUMENTOS, UM PAÍS`: content34.py:21 `f.head` 25→24
+- P1 `ZAHLEN` box: content12.py:47 `f.box` close, `tsize` 23→20
+- P1 `IN KÜRZE`: content12.py:132 `p.text` 24→21
+- P7 `HÄUFIGE FEHLER`: content7.py:73 `p.text` 23→20
+- P7 `WORT DER WOCHE`: content7.py:84 `p.text` 23→22
+
+P8: 219→219 lines, footer slack 44.7→44.7 px.
+
+**Gates run2** (16 gates; no family gates.py for pt) — **ALL-GREEN (16/16 gates)**: run TOTAL 150, 0 warnings; head_check 0 defects; d5 census 0/0/0 (curly_total=6, all in Newsreader); render RC=0; webpdf RC=0 (647,839 B < 7 MB); occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN, keydiff=[137, 138] (the registered reader-language keys); freeze baseline 8/8; freeze diff added CJK chars 0 (added Latin strings 252, run splits); spill 0; boxtitle 0 DEFECT (24 titles); edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web 99,624 chars, multiset diff 0; textmd carryover PASS 0/0 (svg 5161 = md 5161 tokens); masthead gap (D18) 65.5 px PASS; census_quotes 0 defective.
+
+**New deliverables**: print master `A-Lucerna-VOL1-pt-de.pdf` 5,360,413 B (`2787b0da…`); render-web `A-Lucerna-VOL1-pt-de-web.pdf` 3,288,552 B (`be341546…`); web (issues-type) `2026-w43-pt-de.web.pdf` 647,839 B (`e9bbb725…`); text.md byte-identical to the shipped version (`552a05b1…`). Still 150 exercises.
+
+**Exporter note**: pt has no `.text.md` exporter (verified: the `ru_textmd.py` trial differed by 757 lines). The issued `issues/2026-w43/2026-w43-pt-de/2026-w43-pt-de.text.md` is carried over BYTE-IDENTICAL; content identity is verified by `verify_textmd.py` carryover jointly with gate 15 (print=web text layer diff 0).

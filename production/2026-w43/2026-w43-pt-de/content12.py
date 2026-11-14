@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　ZAHLEN", [
     ("4.352 — as seções eleitorais que mudaram de endereço (mit neuer Adresse)", "serif", False, INK, 20, 1.35),
     ("499.248 — o total de seções eleitorais do país (alle Wahllokale des Landes)", "serif", False, INK, 20, 1.35),
     ("8h–17h — o horário da votação de domingo (die Wahlzeit am Sonntag)", "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　SIE SIND DRAN", 25)
 f.ex("A2", "完成句子", "segundo", "segundo turno = Stichwahl",
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -129,7 +129,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN KÜRZE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN KÜRZE", 21, "sans", True, OLIVE)
 brefs = [
     ("O VOTO", "Domingo, das 8h às 17h: confira sua seção no e-Título antes de sair. (Página 2)"),
     ("O DEBATE", "Sexta-feira, 23, na TV Globo, depois do Jornal Nacional. (Página 6)"),
@@ -253,7 +253,7 @@ e.ex("B1", "完成句子", "digita", "digitar: ele digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr="Ausfüllen", size=20, gap=8)
 e.ex("A2", "完成句子", "fecha", "fechar: ela fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr="Ausfüllen", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.bridge("Ergänzen Sie die Zahlen von Seite 1 und 2.")
 e.ex("A2", "完成句子", "4.352", "insgesamt 4.352 neue Adressen",
      "___ seções eleitorais mudaram de endereço.", instr="Ausfüllen", size=20, gap=8)

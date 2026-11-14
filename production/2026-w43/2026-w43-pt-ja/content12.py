@@ -44,7 +44,7 @@ f.box("A SEMANA EM NÚMEROS　今週の数字", [
     ('4.352 — as seções eleitorais que mudaram de endereço（住所が変わった投票所）', "serif", False, INK, 20, 1.35),
     ('499.248 — o total de seções eleitorais do país（全国の投票所の総数）', "serif", False, INK, 20, 1.35),
     ('8h–17h — o horário da votação de domingo（日曜日の投票、ブラジリア時間）', "serif", False, INK, 20, 1.35),
-])
+], tsize=20)
 f.head("AGORA VOCÊ　すぐ練習", 25)
 f.ex("A2", '文の完成', "segundo", 'segundo turno = 決選投票',
      "Domingo é o ___ turno das eleições.", size=19.5, gap=6)
@@ -253,7 +253,7 @@ e.ex("B1", '文の完成', "digita", "digitar：ele → digita",
      "Na urna, o eleitor ___ (digitar) o número do candidato.", instr='空所補充', size=20, gap=8)
 e.ex("A2", '文の完成', "fecha", "fechar：ela → fecha",
      "A votação ___ (fechar) às cinco da tarde.", instr='空所補充', size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22)
 e.expl('1・2ページの数字で空所を補ってください。')
 e.ex("A2", '文の完成', "4.352", '合計4.352 か所の投票所が移転',
      "___ seções eleitorais mudaram de endereço.", instr='空所補充', size=20, gap=8)
