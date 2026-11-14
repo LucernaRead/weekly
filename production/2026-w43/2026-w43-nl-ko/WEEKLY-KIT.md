@@ -104,8 +104,8 @@
 
 | 文件 | 字节 | SHA-256 |
 |---|---|---|
-| `De-Lucerna-VOL1-KO-web.pdf` | 3,596,459（< 10 MB ✓) | `55ddd2d0b1586a7146b4d8b9e56d25753bd1f357cf85e6a45aac7a7bbeb4a0c4` |
-| `De-Lucerna-VOL1-KO.pdf`（印刷） | 15,329,981 | `3dcf35a1a03cf6a59730ce1c4d9ddd08f5c631c56357f1e465c45f473b008959` |
+| `De-Lucerna-VOL1-KO-web.pdf` | 3,228,964（< 10 MB ✓) | `5166f2be7f670c2505783dace963bacfce084c197166e409519b128ddb170ef3` |
+| `De-Lucerna-VOL1-KO.pdf`（印刷） | 11,439,623 | `dd68175755ab77f7c60a016a232b130d9bf844d16a05451ffc513163232f2b1e` |
 
 （建造者交付针脚：网页 3,597,751 B / `d28d28e5…`、印刷 15,330,894 B / `9f4476be…`，校对修复后已被上行终值取代。)
 
@@ -144,3 +144,16 @@ extract 核心独立复证 = 150/150（印全注）；compare **CLEAN 150 = 150*
 - 残留全扫：汉字 = 0、西里尔 = 0、假名 = 0、CJK 标点 = 0（全角残留仅冻结中立注内冒号 ×4，与核心逐字节同）、他列家具 = 0、禁用术语（paper/KIT/operative）= 0。
 
 svg ×8（p1-voorpagina / p2-leven / p3-cultuur / p4-sport / p5-jongeren / p6-verdieping / p7-taal / p8-toets）、cards ×8 同名 PNG，均在本目录。
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-ko/svglib.py --target nl --reader cjk --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "cjk"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 323.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `De-Lucerna-VOL1-KO.pdf` 14,670,583 B (sha256 `1895f1aca0764d366c69076872575a6b4301edc5c7c84298fed36df5e81db513` — pre-D5 build, superseded); web `De-Lucerna-VOL1-KO-web.pdf` 1,292,625 B (sha256 `dbf4dd2b7e40e0343b9b17d8fbb9afcde4f55799b08f56e26d9e000b123fd8af`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P6 p.text `AFSCHAFFEN OF NIET?　폐지냐 유지냐` over +6.4 px (right) → size 21 → 20 (`content56.py:166`).
+- P8: 213 → 213 lines, slack to footer rule 55.7 → 55.7 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-ko/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-ko.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `De-Lucerna-VOL1-KO.pdf` 11,439,623 B, sha256 `dd68175755ab77f7c60a016a232b130d9bf844d16a05451ffc513163232f2b1e`; web `De-Lucerna-VOL1-KO-web.pdf` 3,228,964 B, sha256 `5166f2be7f670c2505783dace963bacfce084c197166e409519b128ddb170ef3` (< 10 MB); text-layer web `2026-w43-nl-ko.web.pdf` 1,167,749 B, sha256 `322eb67fc82eeb00f93d414d7395e2eb73cce627818535fe400f1415ea4a7dd2` (< 7 MB); `2026-w43-nl-ko.text.md` 41,009 B, sha256 `45263f5c16069696c09fd6752106763cc8c10165227209870d9801b2188a5da9`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-ko/2026-w43-nl-ko.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.

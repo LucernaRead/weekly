@@ -87,8 +87,8 @@ Weekday claims appearing in the Italian layer, checked with `date` (Europe/Amste
 ## 11. Deliverables (files/weekly-report-nl-it/)
 
 - svg/ ×8, cards/ ×8 (1950×2700 PNG).
-- Print PDF: De-Lucerna-VOL1-IT.pdf — **10,628,454 bytes, sha256 6f5126998ef7d56a81b70e6f1955a0caab0b21d9c9cd2660b9800af396f42473** (8 pages).
-- Web PDF: De-Lucerna-VOL1-IT-web.pdf — **3,694,236 bytes (< 10 MB), sha256 9c271172c1431f1a0c5501c5ad3175229acfa378a79bd50c0d4eb20aea278e38** (8 pages).
+- Print PDF: De-Lucerna-VOL1-IT.pdf — **9,672,998 bytes, sha256 5329735aea20e17036c398c0fa5983146ead740e3f1183a19b6c52b757fd2aaa** (8 pages).
+- Web PDF: De-Lucerna-VOL1-IT-web.pdf — **3,303,623 bytes (< 10 MB), sha256 c1ad3d009a45f2c3c252c9beccfd104da7c61b3f7e1c3fe16cb3080880deb57c** (8 pages).
 
 ## 12. Independent proofread record (2026-10-21, independent proofreader — not the builder)
 
@@ -115,3 +115,16 @@ Weekday claims appearing in the Italian layer, checked with `date` (Europe/Amste
 12. **PDFs (measured by the proofreader)** — web PDF De-Lucerna-VOL1-IT-web.pdf: **3,694,236 bytes, sha256 9c271172c1431f1a0c5501c5ad3175229acfa378a79bd50c0d4eb20aea278e38** (< 10 MB), 8 pages; print PDF De-Lucerna-VOL1-IT.pdf: **10,628,454 bytes, sha256 6f5126998ef7d56a81b70e6f1955a0caab0b21d9c9cd2660b9800af396f42473**, 8 pages — both exactly as §11 claims. Cards: a fresh CairoSVG render of the shipped P7 SVG is pixel-identical to the shipped card (max diff 0); P7 and P8 cards visually inspected in full — clean.
 
 **Cleared for repo insertion** as slug 2026-w43-nl-it with the §11 pins above. (Independent proofreader; no repo insert, no posts made — per scope.)
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-it/svglib.py --target nl --reader latin --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 485.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `De-Lucerna-VOL1-IT.pdf` 10,262,514 B (sha256 `282a193d040458f58daefe8f3a8bb7e5bbacff555cb27cc6e17bd3c1d1439a98` — pre-D5 build, superseded); web `De-Lucerna-VOL1-IT-web.pdf` 983,852 B (sha256 `ac18c6c254a93d630199d3dff70afe39e618813fc327db9f3a87d839dbeb9310`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P2 box title `ZO ONTHOUD JE HET　IL TRUCCO` over +18.0 px (right) → f.box tsize 23 → 21 (`content12.py:185`).
+- P8: 241 → 241 lines, slack to footer rule 35.9 → 35.9 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-it/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-it.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `De-Lucerna-VOL1-IT.pdf` 9,672,998 B, sha256 `5329735aea20e17036c398c0fa5983146ead740e3f1183a19b6c52b757fd2aaa`; web `De-Lucerna-VOL1-IT-web.pdf` 3,303,623 B, sha256 `c1ad3d009a45f2c3c252c9beccfd104da7c61b3f7e1c3fe16cb3080880deb57c` (< 10 MB); text-layer web `2026-w43-nl-it.web.pdf` 904,963 B, sha256 `c2777867cb8ac337d779ae36cb90131d1ceff08d4bcc17cee1bc5cf919b67b73` (< 7 MB); `2026-w43-nl-it.text.md` 40,546 B, sha256 `dd255a7535ffd213f2e0ff2ec1b1bc703f8856e992278daa348e41ff7bd79a3b`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-it/2026-w43-nl-it.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.

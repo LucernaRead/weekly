@@ -88,7 +88,7 @@ p.text(gx + 22, byy + 102, 'Снимок 20 октября: цифры — оц�
 # ---- inhoud (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, 'IN DEZE EDITIE　В ЭТОМ НОМЕРЕ', 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, 'IN DEZE EDITIE　В ЭТОМ НОМЕРЕ', 23, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "De wintertijd, stap voor stap", "A2"),
     ("Pag. 3", "Design en herfstvakantie", "A2→B1"),

@@ -106,8 +106,8 @@ The original core build (`hidden_files/weekly-report-nl-build/`) was copied, nev
 
 - `svg/` — 8 SVG sources (p1-voorpagina … p8-toets)
 - `cards/` — 8 page PNGs, 1950×2700
-- `De-Lucerna-VOL1-EN.pdf` — print PDF, 10,591,746 bytes
-- `De-Lucerna-VOL1-EN-web.pdf` — web PDF, 3,671,349 bytes (< 10 MB Discord limit)
+- `De-Lucerna-VOL1-EN.pdf` — print PDF, 9,674,082 bytes
+- `De-Lucerna-VOL1-EN-web.pdf` — web PDF, 3,273,556 bytes (< 10 MB Discord limit)
 - `WEEKLY-KIT.md` — this file
 
 ## Carried-over VOL.2 promises (printed in this issue; must be honoured)
@@ -137,3 +137,24 @@ Frozen-core diff clean (every hunk apparatus, furniture, badge, the documented E
 ### Final verdict
 
 **Zero-problem full pass achieved** on the final render (build log: zero FLOW OVERFLOW / HEAD TOO WIDE warnings). The NL × EN edition is final.
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-en/svglib.py --target nl --reader latin --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 485.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `De-Lucerna-VOL1-EN.pdf` 10,225,339 B (sha256 `bf099696136ce5dcd2f7ccda14f7b2b71e671ec4c82a2f9d285d6122fecff87f` — pre-D5 build, superseded); web `De-Lucerna-VOL1-EN-web.pdf` 982,189 B (sha256 `06dc91d206fb5ae315e0365b2a9659a86ef5f18ac770d9fec5e2e7092066056d`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P1 box title `DE WEEK IN CIJFERS　IN NUMBERS` over +39.2 px (right) → f.box tsize 23 → 20 (`content12.py:48`).
+  - P1 p.text `IN DEZE EDITIE　IN THIS ISSUE` over +8.5 px (right) → size 24 → 23 (`content12.py:92`).
+  - P2 box title `ZO ONTHOUD JE HET　REMEMBER` over +34.0 px (right) → f.box tsize 23 → 21 (`content12.py:183`).
+  - P5 box title `ZO PLAN JE ADE　FESTIVAL TIPS` over +4.8 px (right) → f.box tsize 23 → 22 (`content56.py:28`).
+  - P6 p.text `AFSCHAFFEN OF NIET?　ABOLISH IT?` over +30.6 px (right) → size 21 → 19 (`content56.py:166`).
+  - P7 p.text `HET WOORD　WORD OF THE WEEK` over +38.1 px (right) → size 23 → 20 (`content7.py:84`).
+  - Occlusion LINEX (pre-existing in the shipped edition, also present in the pre-D5 baseline): P1 word-panel English gloss `Change the time on a clock — back one hour.` (baseline y=1846.2) struck through by the fixed full-width rule at y=1844 (`content12.py`). Same defect class as core-nl KIT PATCH (2026-10-21 回补二), where the core fixed it by moving the rule 1844 → 1853; the other 10 nl editions already carry 1853 — only en still has 1844. Fixed here by the §4 size route instead: Dutch gloss para `de tijd op je klok veranderen — deze week één uur achteruit.` 21.5 → 18 pt (`content12.py:114`), which lifts the English gloss above the rule (text box bottom 1841.3 vs rule top 1843.4). The rule stays at 1844 in en; aligning it to 1853 is a one-line change for the re-proof to consider, not done here.
+  - Occlusion TEXTX: P1 `IN NUMBERS` title ink overlapped the exercise line `Het Amsterdam Dance Event is dit jaar __` by 11.5×6.4 px — resolved by the P1 box-title fix above.
+  - Exporter note: the `IN DEZE EDITIE …` panel heading shrank 24 → 23 pt, crossing the exporter's ≥24 pt heading heuristic, so the scratch exporter (`export_text_w43nl.py`) gained an explicit heading rule for it (same pattern as the P3b italic-serif fix). The re-export is still byte-identical to the shipped `.text.md`.
+- P8: 232 → 232 lines, slack to footer rule 49.6 → 49.6 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-en/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-en.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `De-Lucerna-VOL1-EN.pdf` 9,674,082 B, sha256 `8d536fc473dd1ba615dcd91bedfc779696c0e033718598b2b55225f39a1ee3ac`; web `De-Lucerna-VOL1-EN-web.pdf` 3,273,556 B, sha256 `8eed4f6ed8a7be698807cad2c4c357962a6535483bd86a085e16034d6ac180c4` (< 10 MB); text-layer web `2026-w43-nl-en.web.pdf` 906,041 B, sha256 `f362ee16bb395ba5a09cfa1e4c206911a5544cc7efda0d2c6164ab4cf765e1d4` (< 7 MB); `2026-w43-nl-en.text.md` 39,216 B, sha256 `43ce6d494d6dcbb7858242b819436a1473f7b9b6c671dccbae3d12baf9d646c0`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-en/2026-w43-nl-en.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.

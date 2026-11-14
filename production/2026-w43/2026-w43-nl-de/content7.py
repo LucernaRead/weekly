@@ -81,7 +81,7 @@ wt = "«eropuit» betekent: het huis uit gaan om iets leuks te doen — naar een
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("eropuit = hinausgehen und etwas Schönes tun.", "sans", False, 20, CW - 44)) * 29 + 28
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "HET WOORD　WORT DER WOCHE", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "HET WOORD　WORT DER WOCHE", 21, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "eropuit = hinausgehen und etwas Schönes tun.", 20, "sans", False, GREY, CW - 44, 1.42)

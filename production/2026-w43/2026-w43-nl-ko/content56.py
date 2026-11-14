@@ -163,7 +163,7 @@ bt = [
 bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
 p.rect(ix, by6, CW, bh, fill="#f0eee5")
 yy3 = by6 + 16
-p.text(ix + 22, yy3 + 26, "AFSCHAFFEN OF NIET?　폐지냐 유지냐", 21, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AFSCHAFFEN OF NIET?　폐지냐 유지냐", 20, "sans", True, OLIVE)
 yy3 += 52
 for t, k, b, fl, s, lh in bt:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8

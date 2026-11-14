@@ -25,7 +25,7 @@ f.box("ZO PLAN JE ADE　FESTIVAL TIPS", [
     ("2. Reis met de trein of de fiets (go by train or bike)", "serif", False, INK, 21, 1.36),
     ("3. Drink water tussen het dansen door (drink water between dances)", "serif", False, INK, 21, 1.36),
     ("4. Spreek een plek af als je je vrienden kwijtraakt (agree a meeting point if you lose your friends)", "serif", False, INK, 21, 1.36),
-])
+], tsize=22)
 f.gloss("de artiest = a performer · de locatie = a venue · de ruzie = a row, a quarrel · de kandidaat = a contestant · het avontuur = an adventure.")
 f.end_report()
 
@@ -163,7 +163,7 @@ bt = [
 bh = 62 + sum(len(wrap(t, "serif", False, 21, CW - 44)) * 29.5 + 8 for t, *_ in bt) + 16 + 30
 p.rect(ix, by6, CW, bh, fill="#f0eee5")
 yy3 = by6 + 16
-p.text(ix + 22, yy3 + 26, "AFSCHAFFEN OF NIET?　ABOLISH IT?", 21, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AFSCHAFFEN OF NIET?　ABOLISH IT?", 19, "sans", True, OLIVE)
 yy3 += 52
 for t, k, b, fl, s, lh in bt:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21, "serif", False, INK, CW - 44, 1.4) + 8

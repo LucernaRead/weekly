@@ -46,7 +46,7 @@ f.box("DE WEEK IN CIJFERS　EN CIFRAS", [
     ("25 — de dag in oktober waarop de wintertijd begint (el día de octubre en que empieza el horario de invierno)", "serif", False, INK, 20, 1.35),
     ("30 — de jaren van het Amsterdam Dance Event (los años del Amsterdam Dance Event)", "serif", False, INK, 20, 1.35),
     ("2.500 — de ontwerpers op de Dutch Design Week, ongeveer (aprox.: los diseñadores de la Design Week)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("NU JIJ　AHORA TÚ", 25)
 f.ex("A2", "Completar las frases", "herfstvakantie", "herfstvakantie = las vacaciones de otoño",
      "De regio's Midden en Zuid hebben de hele week ___.", size=19.5, gap=6)
@@ -177,11 +177,11 @@ f.para("En de vakantie? De regio's Midden en Zuid hebben de hele week herfstvaka
 f.para("Tot slot: de nacht zelf is speciaal. Het uur van 02:00 tot 03:00 komt twee keer voor. Wie om half drie wakker wordt, weet dus niet of het de eerste of de tweede keer half drie is!")
 f.para("Wordt het nu vroeger donker? Ja en nee: 's avonds is het eerder donker, maar 's ochtends is het eerder licht. De dag wordt niet korter — het licht schuift alleen een uur.")
 f.para("Nederland doet dit niet alleen: in heel Europa gaat de klok in dezelfde nacht achteruit. Wie in het weekend naar Duitsland of Frankrijk reist, hoeft dus niets extra's te doen: overal is het even laat.")
-f.head("ETEN BESTELLEN WORDT HELDER", 25)
+f.head("ETEN BESTELLEN WORDT HELDER", 22)
 f.para("Ander nieuws van dinsdag: Thuisbezorgd en Uber Eats stoppen met verborgen kosten. Wie eten bestelt, ziet voortaan vóór het betalen alle extra kosten duidelijk op het scherm. Miljoenen klanten krijgen een kortingsbon als compensatie, schrijven NU.nl en het AD.")
 f.box("ZO ONTHOUD JE HET　EL TRUCO", [
     ("«Voorjaar vooruit, najaar achteruit.» En in de nacht van zaterdag op zondag geldt: één uur langer slapen.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=22)
 f.gloss("het ezelsbruggetje: la frase para recordarlo · verzetten: mover, ajustar · de wekker: el despertador · de kortingsbon: el cupón de descuento · verborgen: oculto · de ovenklok: el reloj del horno.")
 f.end_report()
 

@@ -70,7 +70,7 @@ errs = [
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 192
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORES FRECUENTES", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORES FRECUENTES", 22, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
@@ -81,7 +81,7 @@ wt = "«eropuit» betekent: het huis uit gaan om iets leuks te doen — naar een
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("eropuit = salir de paseo: ir a un museo, al bosque o a un festival.", "sans", False, 20, CW - 44)) * 29 + 28
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 21, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "eropuit = salir de paseo: ir a un museo, al bosque o a un festival.", 20, "sans", False, GREY, CW - 44, 1.42)

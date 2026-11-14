@@ -99,10 +99,25 @@ p1 db377cb78f11c77b0d2c0d51e346caec · p2 97d6162cc33bc2b9130bf5243dcbce6e · p3
 ## 十一、产物（files/weekly-report-nl-fr/）
 
 - `svg/` ×8、`cards/` ×8（1950×2700 PNG）
-- 印刷 PDF：`De-Lucerna-VOL1-FR.pdf` — 10,630,281 B，sha256 `6cccdc2aae7bbcd540dc7896dfbdbafa2aabbb582102b6e742567f1d6443cac6`
-- 网络 PDF：`De-Lucerna-VOL1-FR-web.pdf` — 3,725,471 B（< 10 MB，JPEG q85 @1400px），sha256 `b78d842772f4717ee7186fcb965378d6aefc10b8e7f4040b39501efc4e1257b1`
+- 印刷 PDF：`De-Lucerna-VOL1-FR.pdf` — 9,677,412 B，sha256 `910199e6967fe6941cf82c26238c7a2d5fd7cbdd8c890c1ff319b9d4b6e2f8d6`
+- 网络 PDF：`De-Lucerna-VOL1-FR-web.pdf` — 3,326,020 B（< 10 MB，JPEG q85 @1400px），sha256 `0ea5a11a520fbed51b5b59267ae3a4ba089e4263792a0480bdf6965df16dd738`
 
 ## 十二、校对状态
 
 - 构建者自校：全轮完成（计数/键 diff/星期/金句/图片/几何审计/盒界/8 卡肉眼）。
 - **独立校对：PENDING** — 待独立校对员零问题轮后由上级入库（本构建未入 GitHub 仓、未发 Discord）。
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-fr/svglib.py --target nl --reader latin --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 488.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `De-Lucerna-VOL1-FR.pdf` 10,264,583 B (sha256 `1ab6c7be81fa384a83e9967dd0dbb7a14b6fac551c3cbdd32a18015365edd594` — pre-D5 build, superseded); web `De-Lucerna-VOL1-FR-web.pdf` 988,708 B (sha256 `3b6419e25a4888b547dc615b35aa6a93bfd3e7779b0bfbfda21856e3ecb04fae`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P1 box title `DE WEEK IN CIJFERS　CHIFFRES` over +3.2 px (right) → f.box tsize 23 → 22 (`content12.py:49`).
+  - P6 p.text `AFSCHAFFEN OF NIET?　SUPPRIMER` over +23.6 px (right) → size 21 → 19 (`content56.py:166`).
+  - P7 p.text `HET WOORD　MOT DE LA SEMAINE` over +44.1 px (right) → size 23 → 20 (`content7.py:84`).
+- P8: 235 → 235 lines, slack to footer rule 35.9 → 35.9 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-fr/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-fr.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `De-Lucerna-VOL1-FR.pdf` 9,677,412 B, sha256 `910199e6967fe6941cf82c26238c7a2d5fd7cbdd8c890c1ff319b9d4b6e2f8d6`; web `De-Lucerna-VOL1-FR-web.pdf` 3,326,020 B, sha256 `0ea5a11a520fbed51b5b59267ae3a4ba089e4263792a0480bdf6965df16dd738` (< 10 MB); text-layer web `2026-w43-nl-fr.web.pdf` 909,402 B, sha256 `271619d29b1ef348c28e43e671df983b757ec8a0503a669ecd5aef97cecb28f7` (< 7 MB); `2026-w43-nl-fr.text.md` 40,826 B, sha256 `adcd00148b58c32a7dd3f691b40c260ee18e8125e87f3e2fd42085a06baf8e3f`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-fr/2026-w43-nl-fr.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.

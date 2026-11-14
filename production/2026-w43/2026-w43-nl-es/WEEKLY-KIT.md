@@ -71,8 +71,8 @@
 ## 十、产物（files/weekly-report-nl-es/）
 
 - svg/ ×8（p1-voorpagina … p8-toets）、cards/ ×8（1950×2700）。
-- Lucerna-VOL1-ES.pdf（印刷版）：10,631,740 B · sha256 6c3a5c1d052817d781e43dfae9b1080339d7a68c0a50d02d0b84b23269a1ac78
-- Lucerna-VOL1-ES-web.pdf（网络版，JPEG q85）：3,731,507 B（< 10 MB ✓） · sha256 5398b3bcbbf094db26975ce4d8ef6bccb6a0b4cadada0a6afca3c0eed18d8c8e
+- Lucerna-VOL1-ES.pdf（印刷版）：9,678,729 B · sha256 5834d2e73b0b19973f395cf2888123990674d637842c70ffee1f833734be93fc
+- Lucerna-VOL1-ES-web.pdf（网络版，JPEG q85）：3,333,802 B（< 10 MB ✓） · sha256 0d7fb72dc7250c15a5a4678e731d3aa5236cf32a74d0407f72143a144cba1186
 - WEEKLY-KIT.md（本文件）。
 
 ## 十一、校对状态
@@ -90,3 +90,19 @@
   9. **图片与 PDF**：8 页图片载荷与核心逐字节相同（逐页哈希一致）；每图署名与所放图片对应（P1 Westertoren、P2 怀表、P3 Kinderdijk + 秋林、P4 1912 国家队、P5 运河船）。Web PDF 独立实测 3,731,507 B（< 10 MB）、sha256 5398b3bcbbf094db26975ce4d8ef6bccb6a0b4cadada0a6afca3c0eed18d8c8e，与 KIT 钉值一致；印刷版 10,631,740 B、sha256 6c3a5c1d…ac78 亦一致。
   10. **禁词扫描**：中间层术语（中文形与英文形）在报纸 SVG、本 KIT、构建代码中均为 0（«ezelsbruggetje» 为冻结荷兰语正文词汇，不计）。
   - 结论：构建者全部声明经独立复核属实；本版通过出厂门，可由主线入仓。本轮未动构建、未重渲染。
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-es/svglib.py --target nl --reader latin --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 486.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `Lucerna-VOL1-ES.pdf` 10,265,569 B (sha256 `477a7504ff07444c0ed58821e7847a7a57758a11348dc9222a32f24b9ad8f00a` — pre-D5 build, superseded); web `Lucerna-VOL1-ES-web.pdf` 989,731 B (sha256 `6203c1b08bdf141e213d12cc06b32f2a59b6682033c48d2ea711f8fa52ba34c6`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P1 box title `DE WEEK IN CIJFERS　EN CIFRAS` over +10.2 px (right) → f.box tsize 23 → 22 (`content12.py:49`).
+  - P2 box title `ZO ONTHOUD JE HET　EL TRUCO` over +8.0 px (right) → f.box tsize 23 → 22 (`content12.py:184`).
+  - P7 p.text `PAS OP!　ERRORES FRECUENTES` over +10.1 px (right) → size 23 → 22 (`content7.py:73`).
+  - P7 p.text `HET WOORD　PALABRA SEMANAL` over +32.1 px (right) → size 23 → 21 (`content7.py:84`).
+- P8: 243 → 243 lines, slack to footer rule 35.9 → 35.9 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-es/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-es.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `Lucerna-VOL1-ES.pdf` 9,678,729 B, sha256 `5834d2e73b0b19973f395cf2888123990674d637842c70ffee1f833734be93fc`; web `Lucerna-VOL1-ES-web.pdf` 3,333,802 B, sha256 `0d7fb72dc7250c15a5a4678e731d3aa5236cf32a74d0407f72143a144cba1186` (< 10 MB); text-layer web `2026-w43-nl-es.web.pdf` 910,732 B, sha256 `5e6f187b8a004596e8676c67975276ece2822bac4b4279d894f09f59573db866` (< 7 MB); `2026-w43-nl-es.text.md` 40,698 B, sha256 `c4b8bd1e6602d35dd00577d30c7161196293d562d84122c18c56f88e6ed819c9`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-es/2026-w43-nl-es.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.

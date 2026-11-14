@@ -99,8 +99,8 @@ P8 逐栏最低基线与净距见 §七.5，全部 ≥40px。**构建方审计�
 
 | 文件 | 字节 | 备注 |
 |---|---|---|
-| De-Lucerna-VOL1-DE.pdf（印刷版） | 10,631,591 | md5 87752cef03a4… |
-| De-Lucerna-VOL1-DE-web.pdf（网络版） | 3,728,576 | md5 c82efd747238…；<10MB，可直接上传 Discord |
+| De-Lucerna-VOL1-DE.pdf（印刷版） | 9,676,577 | md5 4afd0913bafc… |
+| De-Lucerna-VOL1-DE-web.pdf（网络版） | 3,340,246 | md5 3e18dfef3dd0…；<10MB，可直接上传 Discord |
 | cards/*.png ×8 | — | 1950×2700 |
 | svg/*.svg ×8 | — | 最终版面源 |
 
@@ -136,3 +136,19 @@ Discord 交付（投 Nederlands 串、禁 #general）与 weekly 仓入库由主�
 **修复后交付物（取代 §十中两份 PDF 的数值）：** 印刷版 De-Lucerna-VOL1-DE.pdf **10,631,705 B**（md5 8fee5c3840305b3c9…）；网络版 De-Lucerna-VOL1-DE-web.pdf **3,732,695 B**（md5 03444b5c1d6adb6e…，<10MB）。第 2–8 版 SVG 与卡片未变。
 
 **最终结论：独立校对完整一轮零问题，本版定稿（PASS）。** 构建方陈述除 §七裁定 1 的取舍理由与裁定 4 的栏宽数字外，余皆经复测成立。
+
+## D5 rebuild (13 Nov 2026; this build supersedes all earlier deliverable figures in this KIT)
+
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib 2026-w43-nl-de/svglib.py --target nl --reader latin --week 2026-w43` (`--check` dry-run first, RC=0). `_D5_READER = "latin"`. Routing unit test `test_d5_routing.py`: FAILURES: 0. D1 fix2 retained.
+- Pre-rebuild census (`d5_census.py`, D5 elements in the pre-D5 SVGs): 490.
+- Baseline (pre-D5 rebuild, venv, disk-measured): run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; print `De-Lucerna-VOL1-DE.pdf` 10,265,829 B (sha256 `de308988d6d0b70c4ade6091ff5d6e299d16caa94dfd62adbfcd1a1a99c283d5` — pre-D5 build, superseded); web `De-Lucerna-VOL1-DE-web.pdf` 990,108 B (sha256 `bb5e668e26f32f140e424961104849ce1ba4979971176b58323cc50d7ffce7d8`). Text layer print vs shipped web PDF multiset diff 0 (Python `len()` chars). The KIT-recorded print/web figures predate the §1.1 style port and the D1 re-render and are superseded by the disk-measured baselines above.
+- Defects found by the 17 gates (run 1) and fixed by size only — text unchanged throughout:
+  - Feature heads `ETEN BESTELLEN WORDT HELDER` (P2) / `EROPUIT IN DE HERFSTVAKANTIE` (P3) HEAD TOO WIDE at 25 pt (advance 472.2/466.0 px vs column 422.5 px) → head size 25 → 22 (`content12.py` P2 head, `content34.py:20`).
+  - P1 box title `DE WEEK IN CIJFERS　IN ZAHLEN` over +17.2 px (right) → f.box tsize 23 → 21 (`content12.py:50`).
+  - P2 box title `ZO ONTHOUD JE HET　MERKREIM` over +29.0 px (right) → f.box tsize 23 → 21 (`content12.py:185`).
+  - P6 p.text `AFSCHAFFEN OF NIET?　ABSCHAFFEN` over +43.6 px (right) → size 21 → 18 (`content56.py:166`).
+  - P7 p.text `HET WOORD　WORT DER WOCHE` over +17.1 px (right) → size 23 → 21 (`content7.py:84`).
+- P8: 255 → 255 lines, slack to footer rule 35.9 → 35.9 px (unchanged by §4; `content8.py` untouched).
+- Gates (full re-run after fixes, run 2): **ALL-GREEN** — run.py TOTAL 150, 0 FLOW OVERFLOW, 0 HEAD TOO WIDE; head_check 0; d5 census 0; render RC=0; webpdf RC=0, web < 7 MB; occlusion 0 flags; p8 extract 150/150; p8 compare CLEAN; freeze baseline 8/8 byte-identical; freeze diff vs baseline added CJK 0; spill 0 SPILL; boxtitle 0 DEFECT; edge 0 TOUCH 0 NEAR; creambox PASS 0 defects; text layer print=web multiset 0, text.md BYTE-IDENTICAL; census_quotes 0 defective. Logs: `hidden_files/d5-redo/scratch-2026-w43-nl/gates/2026-w43-nl-de/` (`GATES-SUMMARY.txt` master). Full record: `production/notes/2026-w43/g-nl/scratch-d5-rebuild-nl/D5-REPORT-2026-w43-nl-de.md`.
+- New deliverables (rebuilt 13 Nov 2026): print `De-Lucerna-VOL1-DE.pdf` 9,676,577 B, sha256 `471c9a64b0b5b254c3932cd910467819763ae6a09420bd44146726c3c6ed9e2e`; web `De-Lucerna-VOL1-DE-web.pdf` 3,340,246 B, sha256 `d01f2a0161b1d771d9240bc5b7ae7c70f7d29a924fc9ff2236cb4d78558925dd` (< 10 MB); text-layer web `2026-w43-nl-de.web.pdf` 908,573 B, sha256 `afa14aa221556ceb7d8189c54a56c2c854411b3e2141adab03234ba23bc0160c` (< 7 MB); `2026-w43-nl-de.text.md` 39,856 B, sha256 `deed3a5a9cae537f1998710c8126f600b10cabdaea7d5c2c2f36c87251360186`, **BYTE-IDENTICAL** to the shipped `issues/2026-w43/2026-w43-nl-de/2026-w43-nl-de.text.md` (exported from the build source with the scratch exporter `hidden_files/d5-redo/scratch-2026-w43-nl/export_text_w43nl.py`, W46 generic AST exporter + W43-nl italic-serif fix + `IN DEZE EDITIE` heading fix).
+- Status: builder DONE, all gates green. Independent re-proof (SOP §8) is the coordinator's separate step; no commit, no push by the builder.
