@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1　SCHEIDBARE WERKWOORDEN", 24)
+b.head("B1　SCHEIDBARE WERKWOORDEN", 22)
 b.para("Deze week doen we iets met scheidbare werkwoorden: meedoen (deed mee, meegedaan), opruimen (ruimde op, opgeruimd) en vastzetten (zette vast, vastgezet). Het eerste deel gaat in de zin naar het einde.", 21.5)
 b.para("Voorbeeld: «Ik doe mee aan de Klimaatweek.» «Wij hebben de tuin opgeruimd.» «Zij zette de losse spullen vast.» Let op de volgorde: het deel staat achteraan.", 21.5)
 b.bridge("meedoen = participar: ik doe mee; opruimen = arrumar: wij hebben opgeruimd; vastzetten = prender: zij zette vast.")

@@ -223,7 +223,7 @@ for i, (t, lab, cn) in enumerate(codes):
     p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 116, t, 40, "serif", True, OLIVE)
     yy = p.para(bx + 216, dy + 92, lab, 21.5, "serif", False, INK, CW - 238, 1.36)
-    p.para(bx + 216, yy + 20, cn, 19, "sans", False, GREY, CW - 238, 1.3)
+    p.para(bx + 216, yy + 20, cn, 18, "sans", False, GREY, CW - 238, 1.3)
 p.para(MX, dy + 234, "Let op: een waarschuwing is geen voorspelling voor het hele land — kijk altijd naar jouw eigen plaats. Meer over de codes lees je op pagina 6.", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P2 exercises ----

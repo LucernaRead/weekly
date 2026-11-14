@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1　SCHEIDBARE WERKWOORDEN", 24)
+b.head("B1　SCHEIDBARE WERKWOORDEN", 22)
 b.para("Deze week doen we iets met scheidbare werkwoorden: meedoen (deed mee, meegedaan), opruimen (ruimde op, opgeruimd) en vastzetten (zette vast, vastgezet). Het eerste deel gaat in de zin naar het einde.", 21.5)
 b.para("Voorbeeld: «Ik doe mee aan de Klimaatweek.» «Wij hebben de tuin opgeruimd.» «Zij zette de losse spullen vast.» Let op de volgorde: het deel staat achteraan.", 21.5)
 b.bridge("meedoen: participar — ik doe mee; opruimen: recoger — wij hebben opgeruimd; vastzetten: fijar — zij zette vast.")
@@ -70,7 +70,7 @@ errs = [
 eh = 62 + sum((len(wrap(r[0], "serif", True, 21.5, CW - 44)) + len(wrap(r[1], "serif", False, 20.5, CW - 44)) + len(wrap(r[2], "sans", False, 19.5, CW - 44))) * 29.5 + 10 for r in errs) + 16 + 192
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORES FRECUENTES", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "PAS OP!　ERRORES FRECUENTES", 22, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
@@ -81,7 +81,7 @@ wt = "«meedoen» betekent: deelnemen, erbij zijn. In de Klimaatweek doet heel N
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("meedoen = participar: en la Semana del Clima participa todo el país.", "sans", False, 20, CW - 44)) * 29 + 28
 p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "HET WOORD　PALABRA SEMANAL", 21, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "meedoen = participar: en la Semana del Clima participa todo el país.", 20, "sans", False, GREY, CW - 44, 1.42)

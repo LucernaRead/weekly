@@ -286,23 +286,23 @@ VOL.3.» No reader, letter, name or quote was invented for this edition.
 ## 9. Deliverables (files/weekly-report-w45-nl-it/)
 
 - svg/ ×8, cards/ ×8 (1950×2700 PNG).
-- Print PDF: De-Lucerna-VOL2-IT.pdf — **7,915,647 bytes, sha256
-  fee7c18ccf19e3884ec5e3cc94add80542392ce4ffc235a55d84327b668a3c74**
+- Print PDF: De-Lucerna-VOL2-IT.pdf — **6,936,528 bytes, sha256
+  df125df75fbd395aa90a526b4238f74eb17b97fb27c5deb79213730d88becaa2**
   (8 pages).
-- Web PDF: De-Lucerna-VOL2-IT-web.pdf — **3,658,192 bytes (< 10 MB),
-  sha256 5f1e481ac83ae22bf911cbc7c808a6623c5ee5826187905e3746960cfeec8a19**
+- Web PDF: De-Lucerna-VOL2-IT-web.pdf — **1,014,884 bytes (< 10 MB),
+  sha256 b415b96a3253f3c383d54ebc78356ddfa1ddc519d3d5dbda764e42705f9ce36f**
   (8 pages).
 - WEEKLY-KIT.md (this file), ABSTRACT.txt (Italian, one line, no ASCII
   double quotes).
 - Edition SVG sha256 (final render):
-  - p1 b00135f11671894678785408ff457c189238f33f22211ff87429e6bb6b5eb21d
-  - p2 10cb6dd8a247e74c9bd670f47b708008977059b6db3868ef0174534d58777be4
-  - p3 6454819376591e6bd0630e4ebf8bee6f459a6da7ffe4eadf2dcade7f69d08668
-  - p4 1542119759458439f110aa049672a06d6646179df7614299cbfc305bf21274ab
-  - p5 4428f969dd8c15d5aab6b59eb3b2a7a585060f19d460a5d3bf18b00c34ed047b
-  - p6 e79c935eac38bc30d712f6e0c392c3052a0bf980a0830ef13d8197386a890c2a
-  - p7 adbdaf99e5ddbefe85916042923615b02326587e704b2f2d38e923ac6a72e57d
-  - p8 444b41a423bb617e010adec14fdb8dbce1acebcaf7e59c45977b891b5a346ae2
+  - p1 0bb10658cfbe01d4a8d927d504ae50ff318ca5c5283911766ca3fde791d30da2
+  - p2 3ae1a201cb4d47b921b2feb7851100d4f55ba2e12eee9b3d04dcafb8b54534e7
+  - p3 45acc68e89f076256a0ecd59907a929a1db4ff66806c5130c8f1a814ac3ba515
+  - p4 e7946412fc4733b14af410af3c931b618aa5d6dda35cca638a07d1d7fbc6fa51
+  - p5 bd2f32f24e826cc5005a0c20891b97218f059c6944a78d4923e504c61d5f4e09
+  - p6 ba3f9f83b86818f85320899c3cd7cd811bbfc54f76f1759c5b3b51e21c33946f
+  - p7 7cfb6222e6365b7e2a36faf31622786f840c2b8f1742c16fc8d2d2ca5d4085e5
+  - p8 deccabd2aaa7892881642b13b020ccfdc150c0c3e2696ad7e72d142160db5c82
 
 ## 10. Delivery note
 
@@ -311,3 +311,22 @@ Discord, NOT messaged anywhere (per task instruction). Handoff to the
 parent agent for independent proofread and repo insert. This edition is
 NOT self-certified: a fresh full independent proof round is still required
 before finalization.
+
+## 11. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: 讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1 字体修复）。D5-only 家族：新样式已在仓，单版施工只装 D5、重渲一次。
+
+- Core 落盘（全家共用一次，v1 执行）：`apply_variant.py --patch-core nl --week 2026-w45 --i-understand-this-writes-production` → `production/2026-w45/core-nl/svglib.py` +95/−3 行，`_D5_READER = "latin"`（D24：按 patched 原样同步，不特殊处理）。
+- 本版安装：`apply_variant.py --svglib patched/2026-w45-nl-it/svglib.py --target nl --reader it --week 2026-w45`（先 `--check` dry-run，mode=latin）。装后 `_D5_READER = "latin"`。
+- 路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 块保留（svglib.py 含 fix2 标记 13 处，安装器日志 "added fix2 block"）。
+- 基线（修前生产版，venv 重建）：`run.py` RC=0，**TOTAL 150**，0 FLOW OVERFLOW / 0 HEAD TOO WIDE；印 PDF 7,524,223 字节；印/网文字层 vs issues 已发 web PDF 字符多重集差 **0**；修前普查 D5 违规 **拉丁 500**（>0，符合装机前提）。旧 pin 与基线实测不符（de 例：KIT 印 7,918,211 B，基线实测 7,526,971 B）——KIT SHA 滞后（PLAN 修正案：基线永不以 KIT SHA 为准），本节 pin 以实测发运值订正，旧 §9 pin 已同步更新为本次值。
+- 导出器（第 0 步自验）：`scratch-2026-w45-nl/export_text_w45nl.py`（AST 导出，源自 content*.py 字面量，绝不从 PDF 反提；无 hardcode，标题由参数传入）。基线试跑 vs issues 已发 `.text.md` **11/11 BYTE-IDENTICAL**；patched 导出同样 BYTE-IDENTICAL（门 15）。
+- 修复（run1 → run2）：共 **4 处**，只动字号，零文字改动。run1 缺陷：栏头超宽 3 处（ru 除外，ru 栏头未超）、occlusion TEXTX 1 处（P7 B1 栏头 'SCHEIDBARE WERKWOORDEN' 与 'B2' 重叠 5.2×17.8px；ru 除外）、boxtitle/creambox 1 处（ru/zh-cn/zh-tw 为 0），ru 另有 spill 1 处（codes 行注 'внимательны' 框底溢出 BELOW +13.34px）。
+  - `content56.py:162` p.text VOOR OF TEGEN?　PRO O CONTRO?：21 → **20**（宽 403.2px，超 3.1px；修后 384.0px，余量 14.1px）。
+  - `content12.py:177` 栏头 DRIE ACTIES VOOR DEZE WEEK：25 → **24**（宽 425.0px；修后 408.0px）。
+  - `content34.py:21` 栏头 TWEEDEHANDS IS OOK CULTUUR：25 → **23**（宽 456.7px；修后 420.1px）。
+  - `content7.py:32` 栏头 B1　SCHEIDBARE WERKWOORDEN：24 → **22**（宽 455.7px；修后 417.8px）。
+- 门禁（run2，全套 16 门 + D18）：**ALL-GREEN**。run TOTAL 150 / head_check 0 defects / d5 census 拉丁 0、西里尔 0、CJK 内花括号 0 / render RC=0 / webpdf RC=0（网 PDF 1,014,884 B < 7 MB）/ occlusion 0 flags（selftest 6 类全触发）/ p8 extract 150/150 / p8 compare CLEAN（missing=[] extra=0，keydiff=[137, 138]，137/138 为读者语重定向真重 aim，已裁定，非缺陷) / freeze baseline 8/8 / freeze diff vs base 新增 CJK 字符 **0**（新增拉丁 strings 466，D5 run 拆分所致；对照是 base 修前生产版，不是 core）/ spill 0（1 OBSERVE）/ boxtitle 0 / edge 0 TOUCH 0 NEAR / creambox 0 defects（P8 223 → 223 行，距页脚线余量 46.6px）/ 文字层 print=web 字符多重集差 **0**（34,639 字符），text.md BYTE-IDENTICAL / census_quotes 0 defective / D18 刊头 gap **89.8px** > 0。
+- 补充校验 G15b（carryover，诊断性，不计入 verdict）：共享 `verify_textmd.py` 对 nl 目标家族未标定（表按 pt 目标语格式标定），patched 与基线同态 FAIL（de 例：SVG-only 711 / MD-only 1119，基线 711 / 1121；ru、zh-cn 基线与 patched 残差完全相同）——D27 类已知工具口径差，非 D5 回归；内容不变的证据以门 15（AST 导出器 BYTE-IDENTICAL + print=web 差 0）为准。
+- 最终 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder 原件，绝不重跑 webpdf）：印 PDF `De-Lucerna-VOL2-IT.pdf` 6,936,528 B，SHA-256 `df125df75fbd395aa90a526b4238f74eb17b97fb27c5deb79213730d88becaa2`；网 PDF `2026-w45-nl-it.web.pdf` 1,014,884 B，SHA-256 `b415b96a3253f3c383d54ebc78356ddfa1ddc519d3d5dbda764e42705f9ce36f`；text.md 39,809 B，SHA-256 `6da6a6f123ed0706ed075cad1ac54c8dd1f5a693ebf1c01950f5176cd2434e95`（与 issues 已发版 BYTE-IDENTICAL）。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-nl/patched/2026-w45-nl-it/`；门禁总表复本（D29）：`production/notes/2026-w45/g-nl/scratch-d5-rebuild-nl/logs/2026-w45-nl-it/GATES-SUMMARY.txt`。

@@ -47,7 +47,7 @@ f.box("DE WEEK IN CIJFERS　IN ZAHLEN", [
     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt (Bäume und Sträucher, Samstag)", "serif", False, INK, 20, 1.35),
     ("70+ — de musea die open zijn op Museumnacht (Museen, über 70)", "serif", False, INK, 20, 1.35),
     ("9 — de wedstrijden van speelronde 12 in de Eredivisie (12. Spieltag)", "serif", False, INK, 20, 1.35),
-])
+], tsize=21)
 f.head("NU JIJ　JETZT BIST DU DRAN", 25)
 f.ex("A2", "ergänzen", "8", "Die Klimaatweek dauert vom 2. bis 8. November",
      "De Klimaatweek duurt van maandag 2 tot en met zondag ___ november.", size=19.5, gap=6)
@@ -69,7 +69,7 @@ gy = 588
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "DEZE WEEK", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "　DIESE WOCHE", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Agenda van de week　TERMINE DER WOCHE", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "Agenda van de week　TERMINE DER WOCHE", 18, "sans", False, GREY)
 gt = [
     ("MA 2", "Klimaatweek begint"),
     ("DI 3", "Crossing Border, Den Haag"),
@@ -132,7 +132,7 @@ f2.end_report()
 # col 3 IN HET KORT
 bx = COLX[3]
 p.rect(bx, 1874, CW, 430, fill=BOX)
-p.text(bx + 22, 1914, "IN HET KORT　KURZ GEMELDET", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "IN HET KORT　KURZ GEMELDET", 22, "sans", True, OLIVE)
 brefs = [
     ("DE KLIMAATWEEK · P.2", "2–8 november. Coevorden deelt zaterdag 200 bomen uit."),
     ("DE MUSEA · P.3", "Zaterdagavond Museumnacht: 70+ musea open tot 02:00 uur."),
@@ -175,11 +175,11 @@ f.para("De makkelijkste actie is een boom planten. In de herfst is de grond nog 
 f.para("Een tweede actie is energie besparen: korter douchen, de verwarming één graad lager zetten, de fiets nemen in plaats van de auto. Kleine stappen, zeggen de organisatoren, maar samen maken ze een groot verschil.")
 f.para("En het weer zelf? Het KNMI waarschuwt met kleuren: geel, oranje en rood. Geel betekent: let op, het weer kan gevaarlijk zijn. Oranje: het is gevaarlijk, bereid je voor. Rood: het is zeer gevaarlijk, blijf liever binnen. De waarschuwingen zijn tegenwoordig lokaal: ze gelden voor jouw eigen omgeving, niet voor een hele provincie.")
 f.para("Wat doe jij deze week? Plant een boom, spaar energie of ga met de fiets naar school. En praat erover met je vrienden: het klimaat is van ons allemaal.")
-f.head("DRIE ACTIES VOOR DEZE WEEK", 25)
+f.head("DRIE ACTIES VOOR DEZE WEEK", 24)
 f.para("Eén: plant iets groens, al is het maar een struik op je balkon. Twee: bespaar energie, bijvoorbeeld met de verwarming één graad lager. Drie: neem de fiets voor korte ritten — gezond voor jou en goed voor de lucht.")
 f.box("ZO ONTHOUD JE HET　MERKSATZ", [
     ("«Geel is let op, oranje is gevaarlijk, rood is blijf binnen.» En de waarschuwing geldt voor jouw eigen omgeving.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.gloss("het klimaat = Klima · wortelen = Wurzeln schlagen · besparen = sparen · de verwarming = Heizung · de waarschuwing = Warnung · lokaal = lokal.")
 f.end_report()
 

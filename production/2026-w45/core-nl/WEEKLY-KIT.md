@@ -98,7 +98,7 @@ cd ~/workspace/goals/lucernaread-social-media-operations/tools
 ## 10. Delivery note
 
 - This core edition is delivered as files only. NOT pushed to git, NOT posted to Discord, NOT messaged anywhere (per task instruction). Handoff to the parent agent for repo insert.
-- Files: `files/weekly-report-w45-nl-core/` — `svg/` (8 SVGs), `cards/` (8 PNGs), `De-Lucerna-VOL2.pdf` (20,574,293 bytes), `De-Lucerna-VOL2-web.pdf` (3,473,315 bytes, under the 10 MB limit), `WEEKLY-KIT.md`, `ABSTRACT.txt`.
+- Files: `files/weekly-report-w45-nl-core/` — `svg/` (8 SVGs), `cards/` (8 PNGs), `De-Lucerna-VOL2.pdf` (8,680,227 bytes), `De-Lucerna-VOL2-web.pdf` (1,374,515 bytes, under the 10 MB limit), `WEEKLY-KIT.md`, `ABSTRACT.txt`.
 
 ## 11. Fix-1 record (2026-10-26, against independent proof `hidden_files/w45/nl-core-independent-proof.md`)
 
@@ -108,3 +108,22 @@ Fixes only — no other content changed; ABSTRACT untouched; no git push, no Dis
 2. **P7 promise disclosure (PROMISE GAP):** no letters/texts fabricated. An on-page disclosure was added inside the P7 BRIEVEN VAN LEZERS box itself (Dutch: «Ter perse: nog geen echte brieven of beste pagina-8-teksten binnen — daarom dit voorbeeld; belofte naar VOL.3.»; Chinese: «截稿时未收到真实来信或第 8 版最佳作文，刊登示例信，承诺顺延 VOL.3。»), with the existing labeling («Li (voorbeeldbrief van de redactie)» + «编辑部示例信，非真实来信») kept verbatim. Layout only, to make room: BRIEVEN box height +250 (formula + a measured +50 correction, after the first re-render showed the last line 21px below the box edge), ZINNEN section moved down (fy 1712 → 1951), golden-sentence row pitch 158 → 90, VOLGENDE WEEK box 2404 → 2439; no quote or preview text changed. Final P7 visually re-checked: all BRIEVEN lines inside the box, no overlap anywhere on the page.
 3. **P8 key 99 (MINOR):** «Rood komt weinig voor in Nederland.» → «Rood komt weinig voor.», matching the exercise prompt and the P6 article sentence. No note repeated the added words, so no other change was needed.
 - Full re-render after the fixes (see fix log `hidden_files/w45/nl-core-fix1.md` for counts, warnings, and occlusion-audit results). This edition is NOT self-certified: a fresh full independent proof round is still required before finalization.
+
+## 12. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: 讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1 字体修复）。D5-only 家族：新样式已在仓，单版施工只装 D5、重渲一次。
+
+- Core 落盘（全家共用一次，v1 执行）：`apply_variant.py --patch-core nl --week 2026-w45 --i-understand-this-writes-production` → `production/2026-w45/core-nl/svglib.py` +95/−3 行，`_D5_READER = "latin"`（D24：按 patched 原样同步，不特殊处理）。
+- 本版安装：`apply_variant.py --svglib patched/2026-w45-nl-zh-cn/svglib.py --target nl --reader zh-cn --week 2026-w45`（先 `--check` dry-run，mode=cjk）。装后 `_D5_READER = "cjk"`。
+  注：core-nl 目录本身即 (nl, zh-cn) 版目录（core-doubles，无独立 `2026-w45-nl-zh-cn` 生产目录）；安装器报 "D5 block already present (skip); rewrote _D5_READER -> 'cjk'"，D5 块来自 --patch-core，_D5_READER 由安装器按读者重写。
+- 路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 块保留（svglib.py 含 fix2 标记 13 处，安装器日志 "added fix2 block"）。
+- 基线（修前生产版，venv 重建）：`run.py` RC=0，**TOTAL 150**，0 FLOW OVERFLOW / 0 HEAD TOO WIDE；印 PDF 19,960,278 字节；印/网文字层 vs issues 已发 web PDF 字符多重集差 **0**；修前普查 D5 违规 **拉丁 332、CJK 内花括号 1**（>0，符合装机前提）。旧 pin 与基线实测不符（de 例：KIT 印 7,918,211 B，基线实测 7,526,971 B）——KIT SHA 滞后（PLAN 修正案：基线永不以 KIT SHA 为准），本节 pin 以实测发运值订正；本版 KIT 无独立 pin 节（Files 行记核心版数值），旧值未动，pin 只记本节。
+- 导出器（第 0 步自验）：`scratch-2026-w45-nl/export_text_w45nl.py`（AST 导出，源自 content*.py 字面量，绝不从 PDF 反提；无 hardcode，标题由参数传入）。基线试跑 vs issues 已发 `.text.md` **11/11 BYTE-IDENTICAL**；patched 导出同样 BYTE-IDENTICAL（门 15）。
+- 修复（run1 → run2）：共 **3 处**，只动字号，零文字改动。run1 缺陷：栏头超宽 3 处（ru 除外，ru 栏头未超）、occlusion TEXTX 1 处（P7 B1 栏头 'SCHEIDBARE WERKWOORDEN' 与 'B2' 重叠 5.2×17.8px；ru 除外）、boxtitle/creambox 0 处（ru/zh-cn/zh-tw 为 0），ru 另有 spill 1 处（codes 行注 'внимательны' 框底溢出 BELOW +13.34px）。
+  - `content12.py:175` 栏头 DRIE ACTIES VOOR DEZE WEEK：25 → **24**（宽 425.0px；修后 408.0px）。
+  - `content34.py:21` 栏头 TWEEDEHANDS IS OOK CULTUUR：25 → **23**（宽 456.7px；修后 420.1px）。
+  - `content7.py:32` 栏头 B1　SCHEIDBARE WERKWOORDEN：24 → **22**（宽 455.7px；修后 417.8px）。
+- 门禁（run2，全套 16 门 + D18）：**ALL-GREEN**。run TOTAL 150 / head_check 0 defects / d5 census 拉丁 0、西里尔 0、CJK 内花括号 0（花括号 2 处均在 Newsreader 衬线分支，fix2 引号归衬线，CJK 内 0） / render RC=0 / webpdf RC=0（网 PDF 1,374,515 B < 7 MB）/ occlusion 0 flags（selftest 6 类全触发）/ p8 extract 150/150 / p8 compare CLEAN（missing=[] extra=0，keydiff=[]) / freeze baseline 8/8 / freeze diff vs base 新增 CJK 字符 **0**（新增拉丁 strings 436，D5 run 拆分所致；对照是 base 修前生产版，不是 core）/ spill 0（1 OBSERVE）/ boxtitle 0 / edge 0 TOUCH 0 NEAR / creambox 0 defects（P8 220 → 220 行，距页脚线余量 57.4px）/ 文字层 print=web 字符多重集差 **0**（28,811 字符），text.md BYTE-IDENTICAL / census_quotes 0 defective / D18 刊头 gap **105.1px** > 0。
+- 补充校验 G15b（carryover，诊断性，不计入 verdict）：共享 `verify_textmd.py` 对 nl 目标家族未标定（表按 pt 目标语格式标定），patched 与基线同态 FAIL（de 例：SVG-only 711 / MD-only 1119，基线 711 / 1121；ru、zh-cn 基线与 patched 残差完全相同）——D27 类已知工具口径差，非 D5 回归；内容不变的证据以门 15（AST 导出器 BYTE-IDENTICAL + print=web 差 0）为准。
+- 最终 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder 原件，绝不重跑 webpdf）：印 PDF `De-Lucerna-VOL2.pdf` 8,680,227 B，SHA-256 `e48156b3241b9ba39f8c5b0bff4b60a78b25601093c8d9c954590a4e71a3813b`；网 PDF `2026-w45-nl-zh-cn.web.pdf` 1,374,515 B，SHA-256 `60fa63c07776651530fe9bbe797d921eb690406af2dc49f333d6bb7b206f61d8`；text.md 37,544 B，SHA-256 `5ba5a91896b1b51bd567617dbc54809d88fe49b6ca461716c6fdf60854b377a2`（与 issues 已发版 BYTE-IDENTICAL）。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-nl/patched/2026-w45-nl-zh-cn/`；门禁总表复本（D29）：`production/notes/2026-w45/g-nl/scratch-d5-rebuild-nl/logs/2026-w45-nl-zh-cn/GATES-SUMMARY.txt`。

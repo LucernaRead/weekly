@@ -46,7 +46,7 @@ f.box("DE WEEK IN CIJFERS　EN CIFRAS", [
     ("200 — de bomen en struiken die Coevorden zaterdag uitdeelt (árboles y arbustos de Coevorden, el sábado)", "serif", False, INK, 20, 1.35),
     ("70+ — de musea die open zijn op Museumnacht (los museos abiertos en la Museumnacht, más de 70)", "serif", False, INK, 20, 1.35),
     ("9 — de wedstrijden van speelronde 12 in de Eredivisie (partidos de la jornada 12)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("NU JIJ　AHORA TÚ", 25)
 f.ex("A2", "Completar las frases", "8", "La Semana del Clima es del 2 al 8 de noviembre",
      "De Klimaatweek duurt van maandag 2 tot en met zondag ___ november.", size=19.5, gap=6)
@@ -173,11 +173,11 @@ f.para("De makkelijkste actie is een boom planten. In de herfst is de grond nog 
 f.para("Een tweede actie is energie besparen: korter douchen, de verwarming één graad lager zetten, de fiets nemen in plaats van de auto. Kleine stappen, zeggen de organisatoren, maar samen maken ze een groot verschil.")
 f.para("En het weer zelf? Het KNMI waarschuwt met kleuren: geel, oranje en rood. Geel betekent: let op, het weer kan gevaarlijk zijn. Oranje: het is gevaarlijk, bereid je voor. Rood: het is zeer gevaarlijk, blijf liever binnen. De waarschuwingen zijn tegenwoordig lokaal: ze gelden voor jouw eigen omgeving, niet voor een hele provincie.")
 f.para("Wat doe jij deze week? Plant een boom, spaar energie of ga met de fiets naar school. En praat erover met je vrienden: het klimaat is van ons allemaal.")
-f.head("DRIE ACTIES VOOR DEZE WEEK", 25)
+f.head("DRIE ACTIES VOOR DEZE WEEK", 24)
 f.para("Eén: plant iets groens, al is het maar een struik op je balkon. Twee: bespaar energie, bijvoorbeeld met de verwarming één graad lager. Drie: neem de fiets voor korte ritten — gezond voor jou en goed voor de lucht.")
 f.box("ZO ONTHOUD JE HET　EL TRUCO", [
     ("«Geel is let op, oranje is gevaarlijk, rood is blijf binnen.» En de waarschuwing geldt voor jouw eigen omgeving.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=22)
 f.gloss("het klimaat: el clima · wortelen: echar raíces · besparen: ahorrar · de verwarming: la calefacción · de waarschuwing: la advertencia · lokaal: local.")
 f.end_report()
 

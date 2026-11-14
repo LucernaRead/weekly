@@ -1,0 +1,28 @@
+G1 run: PASS TOTAL 150, 0 overflow, 0 head-too-wide
+G2 head_check: PASS 0 defects
+G3 d5_census: PASS CENSUS PASS
+G4 render: PASS rc=0 (print PDF present)
+G5 webpdf: PASS rc=0, 1017208 B < 7MB
+G6 occlusion: PASS 0 flags
+G7 p8 extract: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-nl/patched/2026-w45-nl-de/svg/p8-toets.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8 compare: CLEAN rc=0
+G9 freeze baseline: 8/8
+G10 freeze diff vs base: rc=0
+p1: +53 strings / -18 strings; CJK core 20 -> edition 20; added CJK chars: 0 ; added Latin strings: 35 (unexpected 35)
+p2: +50 strings / -18 strings; CJK core 16 -> edition 16; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+p3: +42 strings / -12 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 26 (unexpected 26)
+p4: +38 strings / -12 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 25 (unexpected 25)
+p5: +41 strings / -13 strings; CJK core 14 -> edition 14; added CJK chars: 0 ; added Latin strings: 27 (unexpected 27)
+p6: +49 strings / -20 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 34 (unexpected 34)
+G11 spill: PASS 0 SPILL (1 OBSERVE)
+G12 boxtitle: PASS 0 DEFECT
+G13 edge: PASS 0 TOUCH 0 NEAR
+G14 creambox: PASS 0 defects
+ratios: n=406 median=1.04 boldT=1.057 boldF=1.0
+P8 p8-toets.svg: lines 219->219 slack_footer 53.8->53.8
+G15 text layer: PASS print=web A chars=34749 B chars=34749 multiset_diff=0, text.md BYTE-IDENTICAL
+G15b carryover (supplementary): rc=2 ERROR: cannot infer reader from /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-nl/patched/2026-w45-nl-de; pass --reader
+G16 census_quotes: PASS 0 defective
+slogan_total=733.2 date_total=452.2 slogan_right=1341.6 date_left=1409.8 GAP=68.2
+D18 masthead: PASS gap > 0
+VERDICT: ALL-GREEN (16 gates + D18)

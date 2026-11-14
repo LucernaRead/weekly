@@ -123,13 +123,33 @@ tables.json has **no established JA-native furniture column** (`furniture ja --t
 ## 10. Delivery note
 
 - This edition is delivered as **builder-complete only**. It is NOT finalized: finalization requires an independent proofread round (which must re-run every gate independently and must not take this KIT's values on trust).
-- Files: `files/weekly-report-w45-nl-ja/` — `svg/` (8 SVGs), `cards/` (8 PNGs), `De-Lucerna-VOL2-JA.pdf` (20,540,632 bytes, 8 pages), `De-Lucerna-VOL2-JA-web.pdf` (3,584,046 bytes, 8 pages, under the 10 MB limit), `WEEKLY-KIT.md`, `ABSTRACT.txt`.
+- Files: `files/weekly-report-w45-nl-ja/` — `svg/` (8 SVGs), `cards/` (8 PNGs), `De-Lucerna-VOL2-JA.pdf` (13,707,711 bytes, 8 pages), `De-Lucerna-VOL2-JA-web.pdf` (1,471,608 bytes, 8 pages, under the 10 MB limit), `WEEKLY-KIT.md`, `ABSTRACT.txt`.
 - NOT pushed to git, NOT posted to Discord, NOT messaged anywhere (per task instruction). Handoff to the parent agent for independent proofread and repo insert. Repo insert data: slug `2026-w45-nl-ja`, abstract heading `概要` (tables.json languages.ja.abstract_heading), web-PDF pins in §1 table below (verify at insert time from the actual file).
 
 ## 11. Final pins (disk-measured, final render)
 
 | File | Bytes | SHA-256 |
 |---|---|---|
-| De-Lucerna-VOL2-JA.pdf (print, 8 pp.) | 20,540,632 | `64fb9b6d95ca844d0bc98fbfe85db96ec53c791dd54cfd574fec1da214f17b40` |
-| De-Lucerna-VOL2-JA-web.pdf (web, 8 pp.) | 3,584,046 | `3b18ca1a9ca6b76114b8cccd3f40999c41cf5eff829829287b0af170870cbbf4` |
+| De-Lucerna-VOL2-JA.pdf (print, 8 pp.) | 13,707,711 | `61ae77c2cf4994aa620dc00bdd3b65645fb20e2040a17b6a3f09c1ecc54ef98c` |
+| De-Lucerna-VOL2-JA-web.pdf (web, 8 pp.) | 1,471,608 | `cbff4dbcda62d74c42ab7600c89e59c4c6df2bf74b3f920d5a24f18c2d9e2466` |
 | svg/ ×8 · cards/ ×8 PNG (1950×2700) | — | rendered from the same single-process run.py + render.py round; full hashes in build/final-sha256.txt |
+
+## 12. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: 讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1 字体修复）。D5-only 家族：新样式已在仓，单版施工只装 D5、重渲一次。
+
+- Core 落盘（全家共用一次，v1 执行）：`apply_variant.py --patch-core nl --week 2026-w45 --i-understand-this-writes-production` → `production/2026-w45/core-nl/svglib.py` +95/−3 行，`_D5_READER = "latin"`（D24：按 patched 原样同步，不特殊处理）。
+- 本版安装：`apply_variant.py --svglib patched/2026-w45-nl-ja/svglib.py --target nl --reader ja --week 2026-w45`（先 `--check` dry-run，mode=cjk）。装后 `_D5_READER = "cjk"`。
+- 路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 块保留（svglib.py 含 fix2 标记 13 处，安装器日志 "added fix2 block"）。
+- 基线（修前生产版，venv 重建）：`run.py` RC=0，**TOTAL 150**，0 FLOW OVERFLOW / 0 HEAD TOO WIDE；印 PDF 20,024,988 字节；印/网文字层 vs issues 已发 web PDF 字符多重集差 **0**；修前普查 D5 违规 **拉丁 325**（>0，符合装机前提）。旧 pin 与基线实测不符（de 例：KIT 印 7,918,211 B，基线实测 7,526,971 B）——KIT SHA 滞后（PLAN 修正案：基线永不以 KIT SHA 为准），本节 pin 以实测发运值订正，旧 §11 pin 已同步更新为本次值。
+- 导出器（第 0 步自验）：`scratch-2026-w45-nl/export_text_w45nl.py`（AST 导出，源自 content*.py 字面量，绝不从 PDF 反提；无 hardcode，标题由参数传入）。基线试跑 vs issues 已发 `.text.md` **11/11 BYTE-IDENTICAL**；patched 导出同样 BYTE-IDENTICAL（门 15）。
+- 修复（run1 → run2）：共 **5 处**，只动字号，零文字改动。run1 缺陷：栏头超宽 3 处（ru 除外，ru 栏头未超）、occlusion TEXTX 1 处（P7 B1 栏头 'SCHEIDBARE WERKWOORDEN' 与 'B2' 重叠 5.2×17.8px；ru 除外）、boxtitle/creambox 2 处（ru/zh-cn/zh-tw 为 0），ru 另有 spill 1 处（codes 行注 'внимательны' 框底溢出 BELOW +13.34px）。
+  - `content12.py:48` 奶油框标题 DE WEEK IN CIJFERS　数字で見る今週：tsize — → **tsize=20**（宽 442.7px，超框 38.2px；修后 384.9px，余量 17.6px）。
+  - `content56.py:142` p.text DE GRAFIEK　グラフ（練習データ）：24 → **22**（宽 426.1px，超 25.6px；修后 390.6px，余量 7.9px）。
+  - `content12.py:175` 栏头 DRIE ACTIES VOOR DEZE WEEK：25 → **24**（宽 425.0px；修后 408.0px）。
+  - `content34.py:21` 栏头 TWEEDEHANDS IS OOK CULTUUR：25 → **23**（宽 456.7px；修后 420.1px）。
+  - `content7.py:32` 栏头 B1　SCHEIDBARE WERKWOORDEN：24 → **22**（宽 455.7px；修后 417.8px）。
+- 门禁（run2，全套 16 门 + D18）：**ALL-GREEN**。run TOTAL 150 / head_check 0 defects / d5 census 拉丁 0、西里尔 0、CJK 内花括号 0 / render RC=0 / webpdf RC=0（网 PDF 1,471,608 B < 7 MB）/ occlusion 0 flags（selftest 6 类全触发）/ p8 extract 150/150 / p8 compare CLEAN（missing=[] extra=0，keydiff=[137, 138]，137/138 为读者语重定向真重 aim，已裁定，非缺陷) / freeze baseline 8/8 / freeze diff vs base 新增 CJK 字符 **0**（新增拉丁 strings 424，D5 run 拆分所致；对照是 base 修前生产版，不是 core）/ spill 0（1 OBSERVE）/ boxtitle 0 / edge 0 TOUCH 0 NEAR / creambox 0 defects（P8 201 → 201 行，距页脚线余量 43.3px）/ 文字层 print=web 字符多重集差 **0**（29,760 字符），text.md BYTE-IDENTICAL / census_quotes 0 defective / D18 刊头 gap **30.7px** > 0。
+- 补充校验 G15b（carryover，诊断性，不计入 verdict）：共享 `verify_textmd.py` 对 nl 目标家族未标定（表按 pt 目标语格式标定），patched 与基线同态 FAIL（de 例：SVG-only 711 / MD-only 1119，基线 711 / 1121；ru、zh-cn 基线与 patched 残差完全相同）——D27 类已知工具口径差，非 D5 回归；内容不变的证据以门 15（AST 导出器 BYTE-IDENTICAL + print=web 差 0）为准。
+- 最终 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder 原件，绝不重跑 webpdf）：印 PDF `De-Lucerna-VOL2-JA.pdf` 13,707,711 B，SHA-256 `61ae77c2cf4994aa620dc00bdd3b65645fb20e2040a17b6a3f09c1ecc54ef98c`；网 PDF `2026-w45-nl-ja.web.pdf` 1,471,608 B，SHA-256 `cbff4dbcda62d74c42ab7600c89e59c4c6df2bf74b3f920d5a24f18c2d9e2466`；text.md 40,190 B，SHA-256 `7da1234cf87d917d680484682770484aae7fddf621ea9c30adc166abd6802a11`（与 issues 已发版 BYTE-IDENTICAL）。
+- Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-nl/patched/2026-w45-nl-ja/`；门禁总表复本（D29）：`production/notes/2026-w45/g-nl/scratch-d5-rebuild-nl/logs/2026-w45-nl-ja/GATES-SUMMARY.txt`。
