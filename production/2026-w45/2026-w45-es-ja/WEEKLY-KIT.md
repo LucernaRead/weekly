@@ -26,10 +26,10 @@
   driver `run.py` (shared exercise registry); no content module was ever
   imported inside the core build dir.
 - **Deliverables (this dir):** `svg/` ×8, `cards/` ×8 (1950×2700 PNG),
-  `La-Lucerna-VOL2-JA.pdf` (print, 8 pp., 21,775,658 B,
-  sha256 `7ebbf37e2514197c71c3cdb612875a1e219e1eeacb97880beac4f62c0abd680b`),
-  `La-Lucerna-VOL2-JA-web.pdf` (web, 8 pp., 3,639,992 B < 10 MB,
-  sha256 `56ed27fd1b6ff17b6f9d4741ef9652756f25f6daa83170406c8d5dded64cc35d`),
+  `La-Lucerna-VOL2-JA.pdf` (print, 8 pp., 11,190,743 B,
+  sha256 `8d2f6b05353da908d2d4b4af5229546fd51303d690b6dd870f34a4f947789731`) (D5 rebuild, 2026-11-14; old 21,775,658 B expired),
+  `La-Lucerna-VOL2-JA-web.pdf` (web, 8 pp., 1,031,078 B < 10 MB,
+  sha256 `b14c29b460b5630369db364c051ee9689b40c1cf99cc4cbbae6b1c2ea6d5ffcf`) (D5 rebuild, 2026-11-14; old 3,639,992 B expired),
   `WEEKLY-KIT.md`, `ABSTRACT.txt` (Japanese, one line, no ASCII double quotes).
 - **SVG sha256 (full):**
   p1 `098de92d91f15c2e…` · p2 `d5bbf5d10f1d4ae7…` · p3 `b8cd0e6a4c83bf20…` ·
@@ -476,3 +476,51 @@ as an exact unique literal with a count assertion (count == 1).
   the label-trim acceptability judgment, the audit-0 result, and the
   P7 card) before any final claim.
 
+## D5 rebuild (2026-11-14)
+
+D5 + §1.1 merged rebuild of the W45 ES × JA edition (D5 font scope B).
+Builder: scratch `hidden_files/d5-redo/scratch-2026-w45-es/`, family report
+`hidden_files/d5-redo/FAMILY-W45-ES-BUILD.md`. KIT custody: this KIT was updated
+in the builder scratch (`patched/2026-w45-es-ja/WEEKLY-KIT.md`); the closer syncs
+it into production with the rebuilt sources (for zh-cn, into
+`production/2026-w45/core-es/WEEKLY-KIT.md`, byte-identical).
+
+- Install: `apply_variant.py --patch-core es --week 2026-w45` (core-es svglib
+  landed in production, `_D5_READER = "latin"`); this edition `--check` dry-run
+  passed, `_D5_READER = "cjk"` (svglib.py L100); `test_d5_routing.py`
+  FAILURES: 0; fix2 retained (U+201C 1 hit, `_QUOTE_CLS` 4 hits).
+  Pre-D5 census (baseline): 342 (lat 342 / cyr 0 / curly-in-CJK 0) — all > 0, as required for a D5 rebuild.
+- Step-7 fixes (font sizes only; no wording changed):
+  - `content12.py:48`: f.box title “LA SEMANA EN CIFRAS　今週の数字” tsize 23 -> 21 (run1 over +22.5px; run2 margin 14.6px)
+  - `content12.py:184`: f.box title “EL CALENDARIO　今週のカレンダー” tsize 23 -> 21.5 (run1 over +8.4px; run2 margin 18.5px)
+  - `content34.py:127`: P4 box title “EL CLÁSICO, UNA SEMANA DESPUÉS” 23 -> 19.5 (run1 over +51.5px, was +2.5px; run2 margin 17.3px)
+  - `content56.py:27`: f.box title “EL PLAN DEL PUENTE　連休の計画” tsize 23 -> 22 (run1 over +5.0px; run2 margin 12.8px)
+  - `content7.py:79`: P7 clinic box title “ERRORES TÍPICOS　よくある間違い” 23 -> 21.5 (run1 over +8.7px; run2 margin 17.9px)
+- Gates (run2b, full re-run after fixes): G1 TOTAL 150, 0 warnings; G2 head_check 0;
+  G3 d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0 (ru: Noto Sans elements 787);
+  G4 render rc=0; G5 webpdf rc=0, web PDF < 7 MB; G6 occlusion 0 flags; G7 p8 extract
+  150/150; G8 p8 compare CLEAN, keydiff [137, 138]; G9 freeze baseline 8/8;
+  G10 freeze diff vs base: added CJK 1 (P6 U+3000 run split, located in all 11
+  editions — the known es-family case, accepted per task instruction; added Latin
+  strings are reflow re-splits, token multiset unchanged);
+  G11 spill 2 SPILL (frozen-core, identical lines/positions in the shipped baseline —
+  P1 last list item +10.4px and P7 letters line +12.0px below their box bottoms;
+  not D5-caused, carried for reproof adjudication);
+  G12 boxtitle 0 DEFECT; G13 edge 0 TOUCH 0 NEAR; G14 creambox PASS 0 defects;
+  G15a text layer print=web=issued diff 0, native verifier ADOPT (0 UNEXPECTED);
+  G16 census_quotes 0 defective; G17 N/A (no family gates.py for es);
+  D18 masthead SVG gap 60.4px PASS; D37 submasthead N/A (y=372, above box top 588).
+- P8: lines 234 -> 234 (run1 -> run2, unchanged), slack_footer 41.0px
+  (footer line y=2596, page bottom 2700 — positive margin, no overflow).
+- New deliverables (builder run2b originals; the closer MUST copy these files,
+  never re-run webpdf — web PDF bytes are not reproducible across runs):
+  - Print PDF `La-Lucerna-VOL2-es-ja.pdf`: 11,190,743 B, SHA-256 `8d2f6b05353da908d2d4b4af5229546fd51303d690b6dd870f34a4f947789731`
+  - Web PDF `2026-w45-es-ja.web.pdf`: 1,031,078 B, SHA-256 `b14c29b460b5630369db364c051ee9689b40c1cf99cc4cbbae6b1c2ea6d5ffcf`
+  - text.md `2026-w45-es-ja.text.md` (exporter `textexp_es.py`, D16-fixed;
+    native verifier ADOPT; exercise sequence + per-page token multiset equal to shipped)
+- Old pins: the pre-D5 print/web values elsewhere in this KIT are expired (see the
+  notes on the updated pin rows above). Edition SVG hash tables, cards tables and
+  historical fix-round records were NOT updated (out of scope for D5; the D5 report
+  notes where they went stale).
+- Logs / report: `scratch-2026-w45-es/logs/2026-w45-es-ja/GATES-SUMMARY-run2b.txt`;
+  D5 report `production/notes/2026-w45/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w45-es-ja.md`.

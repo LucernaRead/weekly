@@ -76,7 +76,7 @@ for _w, _r, _n in errs:
 eh = _sim - 200 + 12
 p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　よくある間違い", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ERRORES TÍPICOS　よくある間違い", 21.5, "sans", True, OLIVE)
 yy3 += 44
 for wrong, right, cn in errs:
     yy3 = p.para(bx + 22, yy3 + 17, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)

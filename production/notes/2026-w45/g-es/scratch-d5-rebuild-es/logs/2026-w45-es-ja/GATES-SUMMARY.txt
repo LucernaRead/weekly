@@ -1,0 +1,24 @@
+GATES 2026-w45-es-ja tag=run2b 2026-11-14T18:36:15Z reader=ja
+selftests: occlusion selftest: selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent creambox selftest: P8 p1-test.svg: lines 1->1 slack_footer 2446.0->2446.0 CREAMBOX PASS 0 defects SELFTEST OK: widened title -> 1 defect; identical pair -> 0; old-style baseline shim -> 0 (fallback path exercised) head_check selftest: SELFTEST OK: dirty log -> 2 findings (P7-col3, P8-battery); clean log -> 0; missing file reported 
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=1031078
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-ja/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-ja/svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-zh-cn/svg/p8-ejercicios.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-ja/svg/p8-ejercicios.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: repro/build/content12.py, repro/build/content34.py, repro/build/content56.py, repro/build/content7.py, repro/build/content8.py, repro/build/render.py)
+G10 freeze_diff_vs_base: p8: +174 strings / -70 strings; CJK core 1386 -> edition 1386; added CJK chars: 0 ; added Latin strings: 56 (unexpected 56) TOTAL added CJK characters: 1 TOTAL added Latin strings: 264 (unexpected 264) 
+G11 spill: SPILL_SWEEP 2026-w45-es-ja: 30 boxes, 97 candidates, 2 SPILL, 95 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-es-ja: 23 titles, 393 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: EDGE_SCAN 2026-w45-es-ja: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-ejercicios.svg: lines 234->234 slack_footer 41.0->41.0 CREAMBOX PASS 0 defects 
+G15a textlayer: print=31045 web=31045 issued=31045 diff_pw=0 diff_pi=0
+G15a text.md: DIFF 82 lines
+G15c native verifier: rc=0 verdict: ADOPT (0 UNEXPECTED) 
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: N/A (no family gates.py for es)
+D18 masthead: 2026-w45-es-ja: SVG gap=60.4px (slogan_x=600.7 date_x=1409.7) model_gap=-88.0px (slogan_w=1091.4 date_w=452.3) PASS
+D37 submasthead: 2026-w45-es-ja: y=372 line_end_x=1191.7 box_top=588 N/A (line above box top, no overlap possible) (4 runs, 16pt bold=False) :: スペイン語テキスト　日本語の解説 — 日本語読者のための版
+GATES DONE 2026-w45-es-ja tag=run2b

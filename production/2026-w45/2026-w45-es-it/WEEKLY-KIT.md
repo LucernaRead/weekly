@@ -206,10 +206,10 @@ Final full build: **zero FLOW OVERFLOW / zero HEAD TOO WIDE** on all
 ## 7. Deliverables (`files/weekly-report-w45-es-it/`)
 
 - `svg/` ×8, `cards/` ×8 (1950×2700 PNG, all verified)
-- Print PDF: `La-Lucerna-VOL2-IT.pdf` — **7,156,450 bytes**,
-  sha256 `f975d8e62f75874b7ba9ecf7594dd7ca572c771eaa104dd133c524b4ac185da0`, 8 pages
-- Web PDF: `La-Lucerna-VOL2-IT-web.pdf` — **3,713,123 bytes** (< 10 MB),
-  sha256 `839c53796bbaf1bb77f40524ba20ca58542826b5101a2f0becfb49cad97142c7`, 8 pages
+- Print PDF: `La-Lucerna-VOL2-IT.pdf` — **6,024,328 bytes** (D5 rebuild, 2026-11-14; old 7,156,450 bytes expired),
+  sha256 `c7680fdab56565331fbf7db53c85fce560b4a7116c89ac82688b93e0a81323d7`, 8 pages
+- Web PDF: `La-Lucerna-VOL2-IT-web.pdf` — **569,716 bytes** (< 10 MB; D5 rebuild, 2026-11-14; old 3,713,123 bytes expired),
+  sha256 `f4650b23b515c2c3a4f19906cf4adfc4999062ce8fe59b85fb4602936b2ef774`, 8 pages
 - `WEEKLY-KIT.md` (this file), `ABSTRACT.txt` (Italian, one line, no
   ASCII double quotes)
 
@@ -246,3 +246,53 @@ verified), `hidden_files/w45-es-it-rowcheck.py` (same-baseline scan),
 **Independent proofread has NOT run — marked PENDING.** No GitHub repo
 insert and no Discord post were made (parent handles both after the
 proofread passes). No final-edition claim is made here.
+
+## D5 rebuild (2026-11-14)
+
+D5 + §1.1 merged rebuild of the W45 ES × IT edition (D5 font scope B).
+Builder: scratch `hidden_files/d5-redo/scratch-2026-w45-es/`, family report
+`hidden_files/d5-redo/FAMILY-W45-ES-BUILD.md`. KIT custody: this KIT was updated
+in the builder scratch (`patched/2026-w45-es-it/WEEKLY-KIT.md`); the closer syncs
+it into production with the rebuilt sources (for zh-cn, into
+`production/2026-w45/core-es/WEEKLY-KIT.md`, byte-identical).
+
+- Install: `apply_variant.py --patch-core es --week 2026-w45` (core-es svglib
+  landed in production, `_D5_READER = "latin"`); this edition `--check` dry-run
+  passed, `_D5_READER = "latin"` (svglib.py L100); `test_d5_routing.py`
+  FAILURES: 0; fix2 retained (U+201C 1 hit, `_QUOTE_CLS` 4 hits).
+  Pre-D5 census (baseline): 493 (lat 493 / cyr 0 / curly-in-CJK 0) — all > 0, as required for a D5 rebuild.
+- Step-7 fixes (font sizes only; no wording changed):
+  - `content12.py:26`: P1 headline “¡LA VIVIENDA DECIDE LA CAMPAÑA!” 46 -> 38.5 (run1 TEXTX overlap 130.9px; run2 margin 17.9px)
+  - `content12.py:49`: f.box title “LA SEMANA EN CIFRAS　IN CIFRE” tsize 23 -> 21.5 (run1 over +17.5px; run2 margin 10.3px)
+  - `content12.py:92`: P1 contents box title “EN ESTA EDICIÓN　IL NUMERO” 24 -> 23 (run1 over +3.7px; run2 margin 13.1px)
+  - `content12.py:185`: f.box title “EL CALENDARIO　IL CALENDARIO” tsize 23 -> 21 (run1 over +23.4px; run2 margin 13.8px)
+  - `content34.py:127`: P4 box title “EL CLÁSICO, UNA SEMANA DESPUÉS” 23 -> 19.5 (run1 over +51.5px, was +2.5px; run2 margin 17.3px)
+  - `content7.py:79`: P7 clinic box title “ERRORES TÍPICOS　ERRORI TIPICI” 23 -> 21 (run1 over +26.7px; run2 margin 10.5px)
+- Gates (run2b, full re-run after fixes): G1 TOTAL 150, 0 warnings; G2 head_check 0;
+  G3 d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0 (ru: Noto Sans elements 787);
+  G4 render rc=0; G5 webpdf rc=0, web PDF < 7 MB; G6 occlusion 0 flags; G7 p8 extract
+  150/150; G8 p8 compare CLEAN, keydiff [137, 138]; G9 freeze baseline 8/8;
+  G10 freeze diff vs base: added CJK 1 (P6 U+3000 run split, located in all 11
+  editions — the known es-family case, accepted per task instruction; added Latin
+  strings are reflow re-splits, token multiset unchanged);
+  G11 spill 2 SPILL (frozen-core, identical lines/positions in the shipped baseline —
+  P1 last list item +10.4px and P7 letters line +12.0px below their box bottoms;
+  not D5-caused, carried for reproof adjudication);
+  G12 boxtitle 0 DEFECT; G13 edge 0 TOUCH 0 NEAR; G14 creambox PASS 0 defects;
+  G15a text layer print=web=issued diff 0, native verifier ADOPT (0 UNEXPECTED);
+  G16 census_quotes 0 defective; G17 N/A (no family gates.py for es);
+  D18 masthead SVG gap 19.8px PASS; D37 submasthead PASS, margin 106.4px (y=614).
+- P8: lines 249 -> 249 (run1 -> run2, unchanged), slack_footer 46.7px
+  (footer line y=2596, page bottom 2700 — positive margin, no overflow).
+- New deliverables (builder run2b originals; the closer MUST copy these files,
+  never re-run webpdf — web PDF bytes are not reproducible across runs):
+  - Print PDF `La-Lucerna-VOL2-es-it.pdf`: 6,024,328 B, SHA-256 `c7680fdab56565331fbf7db53c85fce560b4a7116c89ac82688b93e0a81323d7`
+  - Web PDF `2026-w45-es-it.web.pdf`: 569,716 B, SHA-256 `f4650b23b515c2c3a4f19906cf4adfc4999062ce8fe59b85fb4602936b2ef774`
+  - text.md `2026-w45-es-it.text.md` (exporter `textexp_es.py`, D16-fixed;
+    native verifier ADOPT; exercise sequence + per-page token multiset equal to shipped)
+- Old pins: the pre-D5 print/web values elsewhere in this KIT are expired (see the
+  notes on the updated pin rows above). Edition SVG hash tables, cards tables and
+  historical fix-round records were NOT updated (out of scope for D5; the D5 report
+  notes where they went stale).
+- Logs / report: `scratch-2026-w45-es/logs/2026-w45-es-it/GATES-SUMMARY-run2b.txt`;
+  D5 report `production/notes/2026-w45/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w45-es-it.md`.

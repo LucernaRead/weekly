@@ -46,7 +46,7 @@ f.box("LA SEMANA EN CIFRAS　이번 주 숫자", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29 (29일 선거까지 27일 남았어요)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (11월 2일에 쉬는 9개 자치주예요)", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre (10월 CIS 조사)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("AHORA TÚ　바로 연습해요", 25)
 f.ex("A2", "문장 완성", "programas", "las listas ya están presentadas; ahora se escriben los programas",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)

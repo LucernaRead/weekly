@@ -12,7 +12,7 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 2　SEGUNDA EDICIÓN", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "SEMANAL EN ESPAÑOL　UM NÚMERO POR SEMANA　O ESPANHOL QUE A ESPANHA LÊ", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 92, "SEMANAL EN ESPAÑOL　UM NÚMERO POR SEMANA　O ESPANHOL QUE A ESPANHA LÊ", 16, "sans", False, GREY, anchor="middle", spacing=1.7)
 p.text(RIGHT, 92, "SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SEMANÁRIO ESPANHOL　VOL.2　LA VIVIENDA　EL PUENTE　EL FÚTBOL", 36, "serif", True, OLIVE, anchor="middle", spacing=4)
@@ -181,7 +181,7 @@ f.box("EL CALENDARIO　O calendário da semana", [
     ("Viernes 6 — Liga, jornada 12: Sevilla–Alavés, 21:00 (sexta: abre a jornada 12)", "serif", False, INK, 21, 1.36),
     ("Sábado 7 — Valencia–Real Madrid, 21:00, en Mestalla (sábado: Valencia–Real Madrid)", "serif", False, INK, 21, 1.36),
     ("Domingo 8 — NFL en el Bernabéu, 15:30; Atlético–Barça, 21:00 (domingo: NFL e Atlético–Barça)", "serif", False, INK, 21, 1.36),
-], tsize=19)
+], tsize=18)
 f.head("DECIR LA FECHA", 25)
 f.para("En español, la fecha se dice así: «el lunes 2 de noviembre». Primero el día de la semana, luego el número y luego el mes. Los días y los meses van en minúscula: lunes, noviembre. Y ojo: el primero del mes no es «el primero», es «el uno»: el 1 de noviembre.", 23)
 f.gloss("festivo (de festa) · el puente (a ponte) · la comunidad (a comunidade autónoma) · anochecer (anoitecer) · el horario de invierno (o horário de inverno).")

@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 38.5, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 27 días para el 29-N: las listas están cerradas y los programas, en marcha.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "27 DAYS TO THE ELECTION　HOUSING DECIDES THE CAMPAIGN", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "THIS ISSUE'S TOP STORY　SEE PAGES 2 AND 6", 18, "sans", False, GOOSE, anchor="end")
@@ -45,7 +45,7 @@ f.box("LA SEMANA EN CIFRAS　Numbers", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29(27 days to the 29 November election)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta(communities with a holiday on 2 November)", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre(CIS, October)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　Now you try", 25)
 f.ex("A2", "Sentence completion", "programas", "the lists are in; now the programmes are being written",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)

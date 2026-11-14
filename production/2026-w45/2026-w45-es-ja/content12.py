@@ -45,7 +45,7 @@ f.box("LA SEMANA EN CIFRAS　今週の数字", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29（29日の選挙まで27日）", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta（11月2日に休みの自治州）", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre（10月のCISデータ）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("AHORA TÚ　すぐ練習", 25)
 f.ex("A2", "文の完成", "programas", "las listas ya están presentadas; ahora se escriben los programas",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)
@@ -181,7 +181,7 @@ f.box("EL CALENDARIO　今週のカレンダー", [
     ("Viernes 6 — Liga, jornada 12: Sevilla–Alavés, 21:00（金曜はリーグ第12節が開幕）", "serif", False, INK, 21, 1.36),
     ("Sábado 7 — Valencia–Real Madrid, 21:00, en Mestalla（土曜はバレンシア対レアル）", "serif", False, INK, 21, 1.36),
     ("Domingo 8 — NFL en el Bernabéu, 15:30; Atlético–Barça, 21:00（日曜はNFLマドリード戦＋アトレティコ–バルサ）", "serif", False, INK, 21, 1.36),
-])
+], tsize=21.5)
 f.head("DECIR LA FECHA", 25)
 f.para("En español, la fecha se dice así: «el lunes 2 de noviembre». Primero el día de la semana, luego el número y luego el mes. Los días y los meses van en minúscula: lunes, noviembre. Y ojo: el primero del mes no es «el primero», es «el uno»: el 1 de noviembre.", 23)
 f.gloss("festivo 休みの · el puente 連休 · la comunidad 自治州 · anochecer 日暮れ · el horario de invierno 冬時間。")

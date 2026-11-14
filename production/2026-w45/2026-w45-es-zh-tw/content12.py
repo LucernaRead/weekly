@@ -45,7 +45,7 @@ f.box("LA SEMANA EN CIFRAS　數字看本週", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29（距 29 日大選 27 天）", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta（11 月 2 日放假的自治區）", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre（CIS 十月數據）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("AHORA TÚ　即學即練", 25)
 f.ex("A2", "完成句子", "programas", "las listas ya están presentadas; ahora se escriben los programas",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)

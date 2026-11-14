@@ -215,10 +215,10 @@ with **only the explanation layer translated** — no reader, letter or quote in
 
 ## 11. PDF pins (final render)
 
-- Print: `La-Lucerna-VOL2-NL.pdf` — **7,163,203 bytes**, 8 pages,
-  sha256 `7e0398c1412ac99e0934331f8672488347e9fc1fe7373a13e788c8b725c3fbec`.
-- Web: `La-Lucerna-VOL2-NL-web.pdf` — **3,739,003 bytes (< 10 MB)**, 8 pages,
-  sha256 `4130e4bef0c5d8150200307ed5fac2705929d95948edc1676408fcbc7bc7b549`.
+- Print: `La-Lucerna-VOL2-NL.pdf` — **6,028,566 bytes** (F1 fix, 2026-11-14; run2b 6,028,562 bytes expired), 8 pages,
+  sha256 `3d621b1c22e45ec090941f7de6af9f0b75a0e298075f5893fdd102cab3cca252`.
+- Web: `La-Lucerna-VOL2-NL-web.pdf` — **573,954 bytes (< 10 MB)** (F1 fix, 2026-11-14; run2b 573,966 bytes expired), 8 pages,
+  sha256 `fd946c15b3bde860bde46a42ff8fd24822f87fefe4dbb93c79b3b9ddfb7ad8b4`.
 - Cards: all 8 PNGs 1950×2700 (rendered from these SVGs by the build's
   `render.py`: CairoSVG print PDF + JPEG q85 @1400px web PDF, the core's recipe).
 - Edition SVG sha256:
@@ -288,3 +288,96 @@ phrase («Spaans leren met Spaans nieuws»).
   2. Edition P1 retains two frozen accented references `(Página 4)` and `(Páginas 4 y 5)`, byte-identical to core P1 — the edition-wide "zero (Página" claim was false; corrected to P7-tags-only (§5). Paper correct as frozen core text.
   3. Embedded image payloads: P3 `39eaac9360…f4655` (470,292 B, = asset `castanas.jpg`), P5 `70542c15d5…eaa57d` (346,249 B, = asset `kuerbis.jpg`); core = edition byte-identical (§10 corrected; builder-draft hashes had no source).
 - Only KIT text was edited; no SVG/card/PDF touched, paper hashes unchanged. Per the JA KIT-only precedent, no new proof round is needed. FINALIZED. Proofreader's P1 Dutch-shortening observation is accepted as a variant, not a defect.
+
+## D5 rebuild (2026-11-14)
+
+D5 + §1.1 merged rebuild of the W45 ES × NL edition (D5 font scope B).
+Builder: scratch `hidden_files/d5-redo/scratch-2026-w45-es/`, family report
+`hidden_files/d5-redo/FAMILY-W45-ES-BUILD.md`. KIT custody: this KIT was updated
+in the builder scratch (`patched/2026-w45-es-nl/WEEKLY-KIT.md`); the closer syncs
+it into production with the rebuilt sources (for zh-cn, into
+`production/2026-w45/core-es/WEEKLY-KIT.md`, byte-identical).
+
+- Install: `apply_variant.py --patch-core es --week 2026-w45` (core-es svglib
+  landed in production, `_D5_READER = "latin"`); this edition `--check` dry-run
+  passed, `_D5_READER = "latin"` (svglib.py L100); `test_d5_routing.py`
+  FAILURES: 0; fix2 retained (U+201C 1 hit, `_QUOTE_CLS` 4 hits).
+  Pre-D5 census (baseline): 502 (lat 502 / cyr 0 / curly-in-CJK 0) — all > 0, as required for a D5 rebuild.
+- Step-7 fixes (font sizes only; no wording changed):
+  - `content12.py:15`: P1 masthead slogan 17 -> 16 (D18 gap run1 -4.7px -> run2 +17.7px; also un-merged the slogan/date lines in text.md, G15c HOLD -> ADOPT)
+  - `content12.py:25`: P1 headline “¡LA VIVIENDA DECIDE LA CAMPAÑA!” 46 -> 45 (run1 TEXTX overlap 7.1px; run2 margin 12.8px)
+  - `content12.py:48`: f.box title “LA SEMANA EN CIFRAS　In cijfers” tsize 23 -> 22 (run1 over +6.5px; run2 margin 11.5px)
+  - `content12.py:91`: P1 contents box title “EN ESTA EDICIÓN　In dit nummer” 24 -> 22 (run1 over +21.7px; run2 margin 13.5px)
+  - `content34.py:127`: P4 box title “EL CLÁSICO, UNA SEMANA DESPUÉS” 23 -> 19.5 (run1 over +51.5px, was +2.5px; run2 margin 17.3px)
+- Gates (run2b, full re-run after fixes): G1 TOTAL 150, 0 warnings; G2 head_check 0;
+  G3 d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0 (ru: Noto Sans elements 787);
+  G4 render rc=0; G5 webpdf rc=0, web PDF < 7 MB; G6 occlusion 0 flags; G7 p8 extract
+  150/150; G8 p8 compare CLEAN, keydiff [137, 138]; G9 freeze baseline 8/8;
+  G10 freeze diff vs base: added CJK 1 (P6 U+3000 run split, located in all 11
+  editions — the known es-family case, accepted per task instruction; added Latin
+  strings are reflow re-splits, token multiset unchanged);
+  G11 spill 2 SPILL (frozen-core, identical lines/positions in the shipped baseline —
+  P1 last list item +10.4px and P7 letters line +12.0px below their box bottoms;
+  not D5-caused, carried for reproof adjudication);
+  G12 boxtitle 0 DEFECT; G13 edge 0 TOUCH 0 NEAR; G14 creambox PASS 0 defects;
+  G15a text layer print=web=issued diff 0, native verifier ADOPT (0 UNEXPECTED);
+  G16 census_quotes 0 defective; G17 N/A (no family gates.py for es);
+  D18 masthead SVG gap 17.7px PASS; D37 submasthead N/A (y=372, above box top 588).
+- P8: lines 239 -> 239 (run1 -> run2, unchanged), slack_footer 47.7px
+  (footer line y=2596, page bottom 2700 — positive margin, no overflow).
+- New deliverables (F1 fix originals, 2026-11-14 — supersede the run2b values;
+  the closer MUST copy these files, never re-run webpdf — web PDF bytes are
+  not reproducible across runs; full F1 record in `## F1 fix (2026-11-14)` below):
+  - Print PDF `La-Lucerna-VOL2-es-nl.pdf`: 6,028,566 B, SHA-256 `3d621b1c22e45ec090941f7de6af9f0b75a0e298075f5893fdd102cab3cca252` (run2b was 6,028,562 B, `31f7659d…`)
+  - Web PDF `2026-w45-es-nl.web.pdf`: 573,954 B, SHA-256 `fd946c15b3bde860bde46a42ff8fd24822f87fefe4dbb93c79b3b9ddfb7ad8b4` (run2b was 573,966 B, `416f133b…`)
+  - text.md `2026-w45-es-nl.text.md` (exporter `textexp_es.py`, D16-fixed;
+    vs run2b export exactly 1 line differs — the E144a fix; vs shipped `.text.md`
+    114 diff lines = 110 reflow lines (unchanged from run2b) + the 4-line F1 hunk)
+- Old pins: the pre-D5 print/web values elsewhere in this KIT are expired (see the
+  notes on the updated pin rows above). Edition SVG hash tables, cards tables and
+  historical fix-round records were NOT updated (out of scope for D5; the D5 report
+  notes where they went stale).
+- Logs / report: `scratch-2026-w45-es/logs/2026-w45-es-nl/GATES-SUMMARY-run2b.txt`;
+  D5 report `production/notes/2026-w45/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w45-es-nl.md`.
+
+## F1 fix (2026-11-14)
+
+Independent reproof (`FAMILY-W45-ES-REPROOF.md` §11, verdict NOT PASSED) found one
+content finding, F1: nl P8 E144a glossed `junta electoral` as `het stembureau`
+(a polling station), not the electoral board. The other 10 editions all say
+"electoral commission/board" (de `Wahlkommission`, en `the electoral board`,
+fr `la commission électorale`, it `commissione elettorale`, ja/ko `選挙管理委員会`,
+pt `comissão eleitoral`, ru `избирательная комиссия`, zh-cn `选举委员会`,
+zh-tw `選舉委員會`). The answer letter `a` was correct; only the Dutch gloss was wrong.
+
+- Baseline verified pre-existing, not a D5 regression: `het stembureau` in
+  `content8.py:85` in production, patched and baseline alike, and in the shipped
+  `issues/2026-w45/2026-w45-es-nl/2026-w45-es-nl.text.md` L3102.
+- Fix (one word, same line, no rewording): `content8.py:85`
+  `junta electoral = het stembureau — a` → `junta electoral = de kiescommissie — a`.
+  `py_compile` clean. Applied identically to production
+  (`production/2026-w45/2026-w45-es-nl/content8.py`), patched and the fix
+  workspace; three-way `diff -q` identical (see fix report §6).
+- Rebuild (tag fix, `fc-cache -f` warmed first): run rc=0, render rc=0,
+  webpdf rc=0, textexp rc=0, TOTAL 150. Re-export via `textexp_es.py` (D16-fixed):
+  vs run2b export exactly 1 line differs (E144a, L3100); vs shipped `.text.md`
+  114 diff lines = the same 110 reflow lines as run2b + the 4-line F1 hunk.
+- Gates (tag fix, 16 + D18 + D37, full re-run): all green except the two expected
+  F1 consequences — G15a text.md DIFF 114 lines (110 reflow + F1 hunk) and G15c
+  native verifier HOLD (rc=1, 2 UNEXPECTED blocks, both exactly the E144a
+  token/line change vs the shipped text.md; all other sections token-identical,
+  exercise sequences equal). G15a text layer: print=35990 web=35990 issued=35988,
+  diff_pw=0, diff_pi=18 (exactly the one-word multiset difference). G10 p8
+  +83/−33 strings (was +82/−32 — the one changed string). P8 lines 239→239,
+  slack_footer 47.7px unchanged; P8 page visually checked, new gloss fully in frame.
+- New deliverables (fix originals; closer MUST copy these files, never re-run webpdf):
+  - Print PDF `La-Lucerna-VOL2-es-nl.pdf`: 6,028,566 B, SHA-256 `3d621b1c22e45ec090941f7de6af9f0b75a0e298075f5893fdd102cab3cca252`
+  - Web PDF `2026-w45-es-nl.web.pdf`: 573,954 B, SHA-256 `fd946c15b3bde860bde46a42ff8fd24822f87fefe4dbb93c79b3b9ddfb7ad8b4`
+  - text.md: 47,107 B, SHA-256 `e9e218d164623423a143148bfe5185b5ba643525370b4f940ab4918bce00a9c1`
+  - Only the p8 SVG changed: `p8-ejercicios` SHA-256 `71dc415ee6daa979fdbefd585c38288d426e7806c6bcc10fa9c798f85062faca`
+    (was `89551a8ffd39…`); p1–p7 SVGs byte-identical to run2b.
+- Other 10 editions untouched: their patched print PDFs remain byte + SHA-256
+  identical to builder §9 values (verified 2026-11-14).
+- Logs / report: `scratch-2026-w45-es/fix/logs/2026-w45-es-nl/GATES-SUMMARY-fix.txt`
+  (run2b table archived at `fix/logs/run2-summaries/`); fix report
+  `hidden_files/d5-redo/FAMILY-W45-ES-FIX.md`. Awaits independent reproof v2.

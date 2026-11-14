@@ -1,0 +1,24 @@
+GATES 2026-w45-es-de tag=run2 2026-11-14T18:21:55Z reader=de
+selftests: occlusion selftest: selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent creambox selftest: P8 p1-test.svg: lines 1->1 slack_footer 2446.0->2446.0 CREAMBOX PASS 0 defects SELFTEST OK: widened title -> 1 defect; identical pair -> 0; old-style baseline shim -> 0 (fallback path exercised) head_check selftest: SELFTEST OK: dirty log -> 2 findings (P7-col3, P8-battery); clean log -> 0; missing file reported 
+G1 run: TOTAL=150 warns=0 PASS
+G2 head_check: HEAD CHECK PASS 0 defects 
+G3 d5_census: TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=1 curly_in_newsreader=1 noto_sans_elements=0
+G4 render: render_rc=0
+G5 webpdf: webpdf_rc=0 web_bytes=575311
+G6 occlusion: rc=0 /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-de/svg: 0 flags 
+G7 p8_extract: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-de/svg/p8-ejercicios.svg: noted set = 150 of 150 (parse: lines) 
+G8 p8_compare: rc=0 core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-zh-cn/svg/p8-ejercicios.svg: 150 noted edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-es/patched/2026-w45-es-de/svg/p8-ejercicios.svg: 150 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline: baseline: 8/8 SVGs byte-identical (repointed files: proof/freeze-baseline/build-copy/content12.py, proof/freeze-baseline/build-copy/content34.py, proof/freeze-baseline/build-copy/content56.py, proof/freeze-baseline/build-copy/content7.py, proof/freeze-baseline/build-copy/content8.py, proof/freeze-baseline/build-copy/render.py, proof/freeze-corebuild/build-copy/content12.py, proof/freeze-corebuild/build-copy/content34.py, proof/freeze-corebuild/build-copy/content56.py, proof/freeze-corebuild/build-copy/content7.py, proof/freeze-corebuild/build-copy/content8.py, proof/freeze-corebuild/build-copy/render.py, proof/freeze-debuild/build-copy/content12.py, proof/freeze-debuild/build-copy/content34.py, proof/freeze-debuild/build-copy/content56.py, proof/freeze-debuild/build-copy/content7.py, proof/freeze-debuild/build-copy/content8.py, proof/freeze-debuild/build-copy/render.py, proof/transform-rerun/content12.py, proof/transform-rerun/content34.py, proof/transform-rerun/content56.py, proof/transform-rerun/content7.py, proof/transform-rerun/content8.py, proof/transform-rerun/render.py)
+G10 freeze_diff_vs_base: p8: +84 strings / -33 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 40 (unexpected 40) TOTAL added CJK characters: 1 TOTAL added Latin strings: 268 (unexpected 268) 
+G11 spill: SPILL_SWEEP 2026-w45-es-de: 30 boxes, 81 candidates, 2 SPILL, 79 OBSERVE
+G12 boxtitle: BOXTITLE 2026-w45-es-de: 21 titles, 281 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+G13 edge: EDGE_SCAN 2026-w45-es-de: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: P8 p8-ejercicios.svg: lines 243->243 slack_footer 41.7->41.7 CREAMBOX PASS 0 defects 
+G15a textlayer: print=35656 web=35656 issued=35656 diff_pw=0 diff_pi=0
+G15a text.md: DIFF 94 lines
+G15c native verifier: rc=0 verdict: ADOPT (0 UNEXPECTED) 
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+G17 gates.py: N/A (no family gates.py for es)
+D18 masthead: 2026-w45-es-de: SVG gap=32.9px (slogan_x=573.2 date_x=1409.7) model_gap=34.8px (slogan_w=845.8 date_w=452.3) PASS
+D37 submasthead: 2026-w45-es-de: y=614 line_end_x=1379.2 box_left=1439.5 margin=60.3px (3 runs, 16pt bold=False) PASS :: SPANISCHER TEXT　DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIG
+GATES DONE 2026-w45-es-de tag=run2

@@ -24,7 +24,7 @@ f.box("EL PLAN DEL PUENTE　O plano da ponte", [
     ("3. El domingo 8, 15:30: la NFL en el Bernabéu (domingo à tarde: a NFL em Madrid)", "serif", False, INK, 21, 1.36),
     ("4. El domingo 8, 21:00: Atlético–Barça en el Metropolitano (domingo à noite: Atlético–Barça)", "serif", False, INK, 21, 1.36),
     ("5. Y el lunes 9: vuelta a clase y al trabajo; la campaña empieza el viernes 13 (volta às aulas e ao trabalho; a campanha começa dia 13)", "serif", False, INK, 21, 1.36),
-], tsize=20)
+], tsize=18.5)
 f.gloss("el emparrillado (o campo com forma de grelha) · el himno (o hino) · el touchdown (o touchdown) · la calabaza (a abóbora).")
 f.end_report()
 

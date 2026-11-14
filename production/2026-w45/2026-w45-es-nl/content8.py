@@ -82,7 +82,7 @@ f.match_set("B2", "Woorden combineren",
              "una encuesta de opinión",
              "las personas entrevistadas"],
             ["c", "d", "b", "a"],
-            ["sondeo = een opiniepeiling — c", "muestra = de geïnterviewden — d", "margen de error = foutmarge — b", "junta electoral = het stembureau — a"],
+            ["sondeo = een opiniepeiling — c", "muestra = de geïnterviewden — d", "margen de error = foutmarge — b", "junta electoral = de kiescommissie — a"],
             instr="Combineer")
 f.head("G　DIÁLOGO EN LA INMOBILIARIA", 22, OLIVE, 5)
 f.ex("B1", "Cloze-meerkeuze", "A", "alquiler = huur",

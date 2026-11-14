@@ -459,11 +459,11 @@ primero del mes no es «el primero», es
 
 «el uno»: el 1 de noviembre.
 
-译注｜festivo 放假的 · el puente 连休 ·
+译注｜festivo 放假的 · el puente 连休 · la
 
-la comunidad 自治区 · anochecer 天黑
+comunidad 自治区 · anochecer 天黑 · el
 
-· el horario de invierno 冬令时。
+horario de invierno 冬令时。
 
 ¿SABÍAS QUE…?
 
@@ -764,11 +764,11 @@ para unos y el trabajo para otros
 
 (página 2).
 
-译注｜sobrio 克制的 · el homenaje 纪念
+译注｜sobrio 克制的 · el homenaje 纪念表
 
-表彰 · el disfraz 服装（化装） · el
+彰 · el disfraz 服装（化装） · el boniato 红
 
-boniato 红薯 · el cementerio 墓地。
+薯 · el cementerio 墓地。
 
 LO QUE QUEDA DEL OTOÑO
 
@@ -820,9 +820,9 @@ flores a los cementerios.
 
 el 31? Escribe dos frases en español.
 
-你最喜欢哪一夜：29 日、31 日还是 1 日？
+你最喜欢哪一夜：29 日、31 日还是 1 日
 
-31 日你吃了什么？写两句寄来。
+？31 日你吃了什么？写两句寄来。
 
 EJERCICIOS　第3版练习
 
@@ -886,9 +886,9 @@ B　PALABRAS DEL TEXTO
 
 用方框里的词填空。
 
-flores · cementerio · castañas · disfraz
+flores · cementerio · castañas · disfraz ·
 
-· memoria
+memoria
 
 A2
 
@@ -1444,11 +1444,9 @@ trabajo; la campaña empieza el viernes
 
 译注｜el emparrillado 美式足球场（烤架
 
-形场地） · el himno 国歌 · el
+形场地） · el himno 国歌 · el touchdown
 
-touchdown 达阵得分 · la calabaza 南瓜
-
-。
+达阵得分 · la calabaza 南瓜。
 
 Calabazas en un mercado agrícola: el sábado 31,
 
@@ -1552,9 +1550,9 @@ B　PALABRAS DEL TEXTO
 
 用方框里的词填空。注意：有的词要变位。
 
-himno · estadio · touchdown · disfraz
+himno · estadio · touchdown · disfraz ·
 
-· calabaza · acoger
+calabaza · acoger
 
 B1
 
@@ -1841,11 +1839,11 @@ Podemos
 
 3,1 %
 
-CIS, instituto público · trabajo de campo del 1 al 6 de octubre de 2026 · 5.025 entrevistas · margen
+CIS, instituto público · trabajo de campo del 1 al 6 de octubre de 2026 · 5.025 entrevistas · margen ±1,4
 
-±1,4 puntos · publicado el 14 de octubre. Los demás sondeos dibujan otro mapa: aquí solo se
+puntos · publicado el 14 de octubre. Los demás sondeos dibujan otro mapa: aquí solo se publica esta
 
-publica esta serie, con su fuente y su fecha.
+serie, con su fuente y su fecha.
 
 EL PROBLEMA Nº 1: LA VIVIENDA
 
@@ -2298,9 +2296,9 @@ promesa pasa al VOL.3.
 
 读者来信与第 8 版最佳作文，故本期登载
 
-编辑部示例信，承诺顺延至 VOL.3。欢迎来
+编辑部示例信，承诺顺延至 VOL.3。欢迎
 
-信！
+来信！
 
 FRASES DE LA SEMANA　本周金句（逐字摘自本期文章）
 

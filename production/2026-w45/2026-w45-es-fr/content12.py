@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 41.5, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 27 días para el 29-N: las listas están cerradas y los programas, en marcha.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "PLUS QUE 27 JOURS AVANT LE 29-N　LE LOGEMENT DÉCIDE", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "À LA UNE　VOIR PAGES 2 ET 6", 18, "sans", False, GOOSE, anchor="end")
@@ -45,7 +45,7 @@ f.box("LA SEMANA EN CIFRAS　EN CHIFFRES", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29(27 jours avant le vote du 29)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta(communautés en congé le lundi 2)", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre(baromètre CIS d'octobre)", "serif", False, INK, 20.5, 1.35),
-], tsize=21)
+], tsize=18.5)
 f.head("AHORA TÚ　À TOI DE JOUER", 25)
 f.ex("A2", "完成句子", "programas", "listes déjà déposées, programmes en cours d'écriture",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)
@@ -88,7 +88,7 @@ p.text(gx + 22, byy + 102, "Cinq clés, sans chiffres inventés.", 19, "sans", F
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　SOMMAIRE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　SOMMAIRE", 23, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El puente del lunes 2", "A2"),
     ("Pág. 3", "Tres noches de otoño", "A2→B1"),
@@ -181,7 +181,7 @@ f.box("EL CALENDARIO　LE CALENDRIER", [
     ("Viernes 6 — Liga, jornada 12: Sevilla–Alavés, 21:00(vendredi : ouverture de la 12e journée de Liga)", "serif", False, INK, 21, 1.36),
     ("Sábado 7 — Valencia–Real Madrid, 21:00, en Mestalla(samedi : Valence contre le Real à Mestalla)", "serif", False, INK, 21, 1.36),
     ("Domingo 8 — NFL en el Bernabéu, 15:30; Atlético–Barça, 21:00(dimanche : la NFL au Bernabéu et Atlético–Barça)", "serif", False, INK, 21, 1.36),
-])
+], tsize=20.5)
 f.head("DECIR LA FECHA", 25)
 f.para("En español, la fecha se dice así: «el lunes 2 de noviembre». Primero el día de la semana, luego el número y luego el mes. Los días y los meses van en minúscula: lunes, noviembre. Y ojo: el primero del mes no es «el primero», es «el uno»: el 1 de noviembre.", 23)
 f.gloss("festivo = en congé · el puente = le pont · la comunidad = la communauté autonome · anochecer = la tombée de la nuit · el horario de invierno = l'heure d'hiver.")

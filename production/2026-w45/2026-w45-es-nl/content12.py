@@ -12,7 +12,7 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 2　SEGUNDA EDICIÓN", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ELKE WEEK　HET SPAANS DAT DE SPANJAARDEN LEZEN", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(975, 92, "CADA SEMANA EN ESPAÑOL　ELKE WEEK　HET SPAANS DAT DE SPANJAARDEN LEZEN", 16, "sans", False, GREY, anchor="middle", spacing=1.7)
 p.text(RIGHT, 92, "SEMANA DEL 2 AL 8 DE NOVIEMBRE DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SPAANS WEEKBLAD　VOL.2　LA VIVIENDA　EL PUENTE　EL FÚTBOL", 36, "serif", True, OLIVE, anchor="middle", spacing=4)
@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 45, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 27 días para el 29-N: las listas están cerradas y los programas, en marcha.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "NOG 27 DAGEN　HUISVESTING BESLIST DE CAMPAGNE", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "HOOFDVERHAAL　ZIE PAGINA 2 EN 6", 18, "sans", False, GOOSE, anchor="end")
@@ -45,7 +45,7 @@ f.box("LA SEMANA EN CIFRAS　In cijfers", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29(nog 27 dagen tot de verkiezingen van 29 november)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta(regio's met een feestdag op 2 november)", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre(CIS, oktober)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("AHORA TÚ　Probeer het nu", 25)
 f.ex("A2", "Zinnen aanvullen", "programas", "lijsten ingediend; nu de programma's geschreven",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)
@@ -88,7 +88,7 @@ p.text(gx + 22, byy + 102, "Vijf sleutels — geen verzonnen cijfers.", 19, "san
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "EN ESTA EDICIÓN　In dit nummer", 22, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "El puente del lunes 2", "A2"),
     ("Pág. 3", "Tres noches de otoño", "A2→B1"),

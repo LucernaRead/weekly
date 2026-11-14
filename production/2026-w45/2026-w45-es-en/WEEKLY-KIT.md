@@ -164,7 +164,55 @@
 
 - `svg/` 8 pages · `cards/` 8 PNGs (1950×2700)
 - `La-Lucerna-VOL2-EN.pdf` (print) · `La-Lucerna-VOL2-EN-web.pdf` (web)
+- D5 rebuild pins (2026-11-14): print 6,027,388 B, sha256 `2be68fe27662f77f1d49af955a740da1eea0096a6415ea8553bbe084a5a02ff2`; web 572,797 B, sha256 `377455e343fcefdbfa83075afc0a1a028319e37e78f725481508b3d0a545138e`
 - This KIT · `ABSTRACT.txt`
 
 Not delivered to Discord, not posted to the main chat, not pushed to any repo
 — delivery is the parent line's job; this edition awaits independent proofread.
+
+## D5 rebuild (2026-11-14)
+
+D5 + §1.1 merged rebuild of the W45 ES × EN edition (D5 font scope B).
+Builder: scratch `hidden_files/d5-redo/scratch-2026-w45-es/`, family report
+`hidden_files/d5-redo/FAMILY-W45-ES-BUILD.md`. KIT custody: this KIT was updated
+in the builder scratch (`patched/2026-w45-es-en/WEEKLY-KIT.md`); the closer syncs
+it into production with the rebuilt sources (for zh-cn, into
+`production/2026-w45/core-es/WEEKLY-KIT.md`, byte-identical).
+
+- Install: `apply_variant.py --patch-core es --week 2026-w45` (core-es svglib
+  landed in production, `_D5_READER = "latin"`); this edition `--check` dry-run
+  passed, `_D5_READER = "latin"` (svglib.py L100); `test_d5_routing.py`
+  FAILURES: 0; fix2 retained (U+201C 1 hit, `_QUOTE_CLS` 4 hits).
+  Pre-D5 census (baseline): 495 (lat 495 / cyr 0 / curly-in-CJK 0) — all > 0, as required for a D5 rebuild.
+- Step-7 fixes (font sizes only; no wording changed):
+  - `content12.py:25`: P1 headline “¡LA VIVIENDA DECIDE LA CAMPAÑA!” 46 -> 38.5 (run1 TEXTX overlap 137.0px; run2 margin 11.8px)
+  - `content12.py:48`: f.box title “LA SEMANA EN CIFRAS　Numbers” tsize 23 -> 21.5 (run1 over +10.5px; run2 margin 16.6px)
+  - `content34.py:127`: P4 box title “EL CLÁSICO, UNA SEMANA DESPUÉS” 23 -> 19.5 (run1 over +51.5px, was +2.5px; run2 margin 17.3px)
+- Gates (run2, full re-run after fixes): G1 TOTAL 150, 0 warnings; G2 head_check 0;
+  G3 d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0 (ru: Noto Sans elements 787);
+  G4 render rc=0; G5 webpdf rc=0, web PDF < 7 MB; G6 occlusion 0 flags; G7 p8 extract
+  150/150; G8 p8 compare CLEAN, keydiff [137, 138]; G9 freeze baseline 8/8;
+  G10 freeze diff vs base: added CJK 1 (P6 U+3000 run split, located in all 11
+  editions — the known es-family case, accepted per task instruction; added Latin
+  strings are reflow re-splits, token multiset unchanged);
+  G11 spill 2 SPILL (frozen-core, identical lines/positions in the shipped baseline —
+  P1 last list item +10.4px and P7 letters line +12.0px below their box bottoms;
+  not D5-caused, carried for reproof adjudication);
+  G12 boxtitle 0 DEFECT; G13 edge 0 TOUCH 0 NEAR; G14 creambox PASS 0 defects;
+  G15a text layer print=web=issued diff 0, native verifier ADOPT (0 UNEXPECTED);
+  G16 census_quotes 0 defective; G17 N/A (no family gates.py for es);
+  D18 masthead SVG gap 136.6px PASS; D37 submasthead N/A (y=372, above box top 588).
+- P8: lines 239 -> 239 (run1 -> run2, unchanged), slack_footer 58.5px
+  (footer line y=2596, page bottom 2700 — positive margin, no overflow).
+- New deliverables (builder run2 originals; the closer MUST copy these files,
+  never re-run webpdf — web PDF bytes are not reproducible across runs):
+  - Print PDF `La-Lucerna-VOL2-es-en.pdf`: 6,027,388 B, SHA-256 `2be68fe27662f77f1d49af955a740da1eea0096a6415ea8553bbe084a5a02ff2`
+  - Web PDF `2026-w45-es-en.web.pdf`: 572,797 B, SHA-256 `377455e343fcefdbfa83075afc0a1a028319e37e78f725481508b3d0a545138e`
+  - text.md `2026-w45-es-en.text.md` (exporter `textexp_es.py`, D16-fixed;
+    native verifier ADOPT; exercise sequence + per-page token multiset equal to shipped)
+- Old pins: the pre-D5 print/web values elsewhere in this KIT are expired (see the
+  notes on the updated pin rows above). Edition SVG hash tables, cards tables and
+  historical fix-round records were NOT updated (out of scope for D5; the D5 report
+  notes where they went stale).
+- Logs / report: `scratch-2026-w45-es/logs/2026-w45-es-en/GATES-SUMMARY-run2.txt`;
+  D5 report `production/notes/2026-w45/g-es/scratch-d5-rebuild-es/D5-REPORT-2026-w45-es-en.md`.

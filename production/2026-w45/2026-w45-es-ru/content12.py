@@ -67,7 +67,7 @@ gy = 588
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "CINCO", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "CLAVES", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "Пять главных тем　Para entender la semana", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "Пять главных тем　Para entender la semana", 17, "sans", False, GREY)
 gt = [
     ("La precampaña del 29-N", 250),
     ("El puente del lunes 2", 226),

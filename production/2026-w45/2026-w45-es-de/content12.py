@@ -23,7 +23,7 @@ p.text(975, 614, "SPANISCHER TEXT　DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR D
 
 # band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "¡LA VIVIENDA DECIDE LA CAMPAÑA!", 40, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Faltan 27 días para el 29-N: las listas están cerradas y los programas, en marcha.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "NOCH 27 TAGE BIS ZUR WAHL　DIE WOHNUNG ENTSCHEIDET", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "TITELTHEMA　SEITEN 2 UND 6", 18, "sans", False, GOOSE, anchor="end")
@@ -46,7 +46,7 @@ f.box("LA SEMANA EN CIFRAS　ZAHLEN", [
     ("27 — días faltan el lunes 2 para las elecciones del domingo 29 (noch 27 Tage bis zur Wahl am 29.)", "serif", False, INK, 20.5, 1.35),
     ("9 — comunidades donde el lunes 2 de noviembre es fiesta (Regionen mit Feiertag am 2. November)", "serif", False, INK, 20.5, 1.35),
     ("55,7 — % que cita la vivienda como el principal problema, según el CIS de octubre (CIS vom Oktober)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21.5)
 f.head("AHORA TÚ　DU BIST DRAN", 25)
 f.ex("A2", "完成句子", "programas", "las listas ya están presentadas; ahora se escriben los programas",
      "Las listas ya están presentadas: ahora los partidos escriben sus ___.", size=20.5)

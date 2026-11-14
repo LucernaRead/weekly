@@ -24,7 +24,7 @@ f.box("EL PLAN DEL PUENTE　連休の計画", [
     ("3. El domingo 8, 15:30: la NFL en el Bernabéu（日曜午後：NFLマドリード戦）", "serif", False, INK, 21, 1.36),
     ("4. El domingo 8, 21:00: Atlético–Barça en el Metropolitano（日曜夜：アトレティコ対バルサ）", "serif", False, INK, 21, 1.36),
     ("5. Y el lunes 9: vuelta a clase y al trabajo; la campaña empieza el viernes 13（学校・仕事へ戻る；選挙戦は13日に始まる）", "serif", False, INK, 21, 1.36),
-])
+], tsize=22)
 f.gloss("el emparrillado アメフト場（グリル形のフィールド） · el himno 国歌 · el touchdown タッチダウン · la calabaza カボチャ。")
 f.end_report()
 

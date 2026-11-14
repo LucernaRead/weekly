@@ -124,7 +124,7 @@ f.end_report()
 # col 3: Clásico data box + ¿Y tú? (sequential)
 bx = COLX[3]
 p.rect(bx, 200, CW, 376, fill=BOX)
-p.text(bx + 22, 240, "EL CLÁSICO, UNA SEMANA DESPUÉS", 23, "sans", True, OLIVE)
+p.text(bx + 22, 240, "EL CLÁSICO, UNA SEMANA DESPUÉS", 19.5, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Domingo 25 de octubre, 21:00 · Spotify Camp Nou · Jornada 10 de LaLiga. El Madrid ganó 2–1 con dos goles de Mbappé: primera derrota liguera del Barça. Una semana después, el Barça responde en Europa (martes, Aston Villa) y en el Metropolitano (domingo, Atlético).", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 602
 etvous = "¿Y tú? El domingo a las 21:00, ¿qué miras: el Atlético–Barça o la NFL? ¿Y quién gana en el Metropolitano? Escribe dos frases en español."
