@@ -5,15 +5,15 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from svglib import *
 
 PW, PH = 1950, 2700
-MX = 65                       # left/right margin
-CW = 434                      # column width
+MX = 88                       # left/right margin (SOP 1.1: 66pt)
+CW = 422.5                    # column width (1774 - 3*28) / 4
 GUT = 28
 COLX = [MX + i * (CW + GUT) for i in range(4)]      # 65, 527, 989, 1451
 RIGHT = MX + 4 * CW + 3 * GUT                       # 1885
-CONTENT_BOTTOM = 2540         # nothing below this except footer
+CONTENT_BOTTOM = 2560         # nothing below this except footer
 ASSETS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
 
-LV_COLOR = {"A2": "#3e4c2a", "B1": "#8a6d3b", "B2": "#a4553a"}
+LV_COLOR = {"A2": "#5c6e30", "B1": "#46581f", "B2": "#37402f"}
 
 # ---------------- exercise registry (keys on P8 are generated from this) ----------------
 REG = []
@@ -34,18 +34,17 @@ def image(p, fname, x, y, w, h):
     path = os.path.join(ASSETS, fname)
     p.add(f'<image x="{x}" y="{y}" width="{w}" height="{h}" '
           f'preserveAspectRatio="xMidYMid slice" href="{img_uri(path)}"/>')
-    p.rect(x, y, w, h, fill="none", stroke=LINE, sw=1.4)
     return y + h
 
 def caption(p, x, y, w, fr, credit=""):
     y = p.para(x, y + 24, fr, 19, "serif", False, GREY, w, 1.35)
     if credit:
-        y = p.para(x, y + 2, credit, 15.5, "sans", False, "#8a8168", w, 1.3)
+        y = p.para(x, y + 2, credit, 15.5, "sans", False, GREY, w, 1.3)
     return y
 
 def chip(p, x, ytop, level):
-    p.rect(x, ytop, 60, 30, fill=LV_COLOR[level], rx=6)
-    p.text(x + 30, ytop + 22, level, 19, "sans", True, "#fdfaf0", anchor="middle")
+    p.rect(x, ytop, 60, 30, fill=LV_COLOR[level], rx=2.7)
+    p.text(x + 30, ytop + 22, level, 19, "sans", True, "#ffffff", anchor="middle")
     return 60
 
 # ---------------- page ----------------
@@ -54,28 +53,26 @@ class BSPage4(Page):
         self.w, self.h = PW, PH
         self.parts = []
         self.add(f'<rect width="{PW}" height="{PH}" fill="{PAPER}"/>')
-        self.add(f'<rect x="28" y="28" width="{PW-56}" height="{PH-56}" fill="none" stroke="{INK}" stroke-width="3.4"/>')
-        self.add(f'<rect x="40" y="40" width="{PW-80}" height="{PH-80}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
 
     def band(self, title_left, title_right, sub=""):
-        self.rect(52, 52, PW - 104, 98, fill=DARK)
-        self.text(78, 116, title_left, 36, "sans", True, "#f3edda")
-        self.text(PW - 78, 116, title_right, 36, "serif", True, "#f3edda", anchor="end")
+        self.rect(88, 72, PW - 176, 110, fill=CLOTH)
+        self.text(118, 142, title_left, 46, "sans", True, ONCLOTH)
+        self.text(PW - 118, 142, title_right, 46, "serif", True, ONCLOTH, anchor="end")
         if sub:
-            self.text(PW - 78, 142, sub, 19, "sans", False, "#b3a06a", anchor="end")
-        return 178
+            self.text(PW - 118, 168, sub, 18, "sans", False, GOOSE, anchor="end")
+        return 210
 
     def foot(self, n, total=8):
-        self.hline(MX, RIGHT, 2580, GOLD, 1.6)
-        self.text(MX, 2624, "Die Lucerna · HEBDOMADAIRE ALLEMAND VOL.1 · TEXTE EN ALLEMAND · EXPLICATIONS EN FRANÇAIS", 20, "sans", False, GREY)
-        self.text(RIGHT, 2624, f"Page {n} sur {total}", 20, "sans", False, GREY, anchor="end")
+        self.hline(MX, RIGHT, 2596, LINE, 1.2)
+        self.text(MX, 2624, "Die Lucerna　HEBDOMADAIRE ALLEMAND VOL.1　TEXTE EN ALLEMAND　EXPLICATIONS EN FRANÇAIS", 17, "sans", False, GREY)
+        self.text(RIGHT, 2624, f"Page {n} sur {total}", 17, "sans", False, GREY, anchor="end")
 
     def shead(self, x, y, s, w, size=29, color=OLIVE):
         self.text(x, y, s, size, "sans", True, color)
-        self.hline(x, x + w, y + 13, GOLD, 2)
+        self.hline(x, x + w, y + 13, OLIVE, 2)
         return y + 13
 
-    def strip(self, y, h, text, fill=DARK, tcolor="#f3edda", size=27):
+    def strip(self, y, h, text, fill=CLOTH, tcolor=ONCLOTH, size=27):
         self.rect(MX, y, RIGHT - MX, h, fill=fill)
         self.text((MX + RIGHT) / 2, y + h / 2 + size * 0.36, text, size, "sans", True, tcolor, anchor="middle")
         return y + h
@@ -116,16 +113,16 @@ class Flow:
                 print(f"  !! FLOW OVERFLOW [{self.tag}] col {self.ci} y={self.y:.0f} need {h:.0f} bottom {self.bottom}")
                 self.y = self.bottom  # clamp; visual QA will catch
 
-    def _ph(self, s, size, kind, bold, w, lh):
-        return len(wrap(s, kind, bold, size, w)) * size * lh
+    def _ph(self, s, size, kind, bold, w, lh, italic=False):
+        return len(wrap(s, kind, bold, size, w, italic)) * size * lh
 
-    def para(self, s, size=25, kind="serif", bold=False, fill=INK, lh=1.52, gap=10, split=True):
+    def para(self, s, size=24, kind="serif", bold=False, fill=INK, lh=1.52, gap=10, split=True, italic=False):
         if not split:
-            h = self._ph(s, size, kind, bold, self.w, lh)
+            h = self._ph(s, size, kind, bold, self.w, lh, italic)
             self._fit(h + gap)
-            self.y = self.p.para(self.x, self.y + size, s, size, kind, bold, fill, self.w, lh) + gap
+            self.y = self.p.para(self.x, self.y + size, s, size, kind, bold, fill, self.w, lh, italic=italic) + gap
             return self.y
-        lines = wrap(s, kind, bold, size, self.w)
+        lines = wrap(s, kind, bold, size, self.w, italic)
         while lines:
             maxk = int((self.bottom - self.y - size) // (size * lh)) + 1
             if maxk < 1 and self.ci < len(self.cols) - 1:
@@ -136,7 +133,7 @@ class Flow:
             take, lines = lines[:k], lines[k:]
             base = self.y + size
             for i, ln in enumerate(take):
-                self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill)
+                self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill, italic=italic)
             self.y = base + k * size * lh
             if lines:
                 if self.ci < len(self.cols) - 1:
@@ -145,7 +142,7 @@ class Flow:
                 else:
                     base = self.y + size
                     for i, ln in enumerate(lines):
-                        self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill)
+                        self.p.text(self.x, base + i * size * lh, ln, size, kind, bold, fill, italic=italic)
                     self.y = base + len(lines) * size * lh
                     lines = []
         self.y += gap
@@ -162,11 +159,11 @@ class Flow:
         self.y = self.p.shead(self.x, self.y + size, s, self.w, size, fill) + gap
         return self.y
 
-    def title(self, s, size=38, gap=9, fill=INK):
-        return self.para(s, size, "serif", True, fill, 1.22, gap, split=False)
+    def title(self, s, size=38, gap=9, fill=INK, italic=False):
+        return self.para(s, size, "serif", True, fill, 1.22, gap, split=False, italic=italic)
 
     def byline(self, s, gap=10):
-        return self.para(s, 19, "sans", False, GREY, 1.3, gap)
+        return self.para(s, 17, "sans", False, GREY, 1.3, gap)
 
     def rule(self, gap=10):
         self._fit(4 + gap)
@@ -183,7 +180,7 @@ class Flow:
         total += pad - 5
         self._fit(total + gap)
         x, y0 = self.x, self.y
-        self.p.rect(x, y0, self.w, total, fill=fill, stroke=LINE, sw=1.4)
+        self.p.rect(x, y0, self.w, total, fill=fill)
         yy = y0 + pad
         if title:
             self.p.text(x + pad, yy + tsize - 4, title, tsize, "sans", True, OLIVE)
@@ -194,9 +191,9 @@ class Flow:
         return self.y
 
     def gloss(self, s, gap=12):
-        return self.box("", [("Note — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f1ead6", gap=gap)
+        return self.box("", [("Note — " + s, "sans", False, GREY, 20.5, 1.45)], fill="#f0eee5", gap=gap)
 
-    def ex(self, level, typ, key, note, body, opts=None, instr=None, size=24, gap=11):
+    def ex(self, level, typ, key, note, body, opts=None, instr=None, size=23, gap=11):
         n = reg_ex(level, typ, key, note)
         hh = 36
         bh = self._ph(body, size, "serif", False, self.w, 1.45)

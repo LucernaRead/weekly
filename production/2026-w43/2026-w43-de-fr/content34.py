@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-de-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURE (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("KULTUR · Culture", "Die Lucerna", "A2 → B1 · Zwei Feste an einem Tag · Deux fêtes le même jour")
+p.band("KULTUR　Culture", "Die Lucerna", "A2 → B1　Zwei Feste an einem Tag　Deux fêtes le même jour")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("Zwei Feste an einem Tag: Halloween trifft den Reformationstag", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: A2 → B1")
+f.title("Zwei Feste an einem Tag: Halloween trifft den Reformationstag", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: A2 → B1")
 f.para("Am Samstag, dem 31. Oktober, ist in Deutschland viel los: Zwei Feste fallen auf denselben Tag. Die Kinder feiern Halloween — und neun Bundesländer haben einen Feiertag: den Reformationstag.")
 f.para("Was ist Halloween? Kinder ziehen Kostüme an und gehen am Abend von Haus zu Haus. Sie rufen: „Süßes oder Saures!“ und bekommen Süßigkeiten. In den Fenstern leuchten Kürbisse mit Gesichtern, und in vielen Straßen stehen Kerzen und kleine Lichter. Die Geschäfte sind schon bereit: Die Discounter verkaufen seit dem 12. Oktober Kostüme und Dekoration.")
 f.para("Und der Reformationstag? An diesem Tag im Jahr 1517 soll Martin Luther seine 95 Thesen an die Tür der Schlosskirche in Wittenberg genagelt haben. Damit begann die Reformation — die Kirche teilte sich, und Europa veränderte sich. Heute ist der Tag ein gesetzlicher Feiertag in Brandenburg, Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen, Sachsen, Sachsen-Anhalt, Schleswig-Holstein und Thüringen.")
@@ -32,8 +32,8 @@ facts = ["Der 31. Oktober ist in neun Bundesländern ein Feiertag — 2026 fäll
          "Allerheiligen am 1. November ist ein stiller Feiertag: keine lauten Feste, die Geschäfte bleiben zu.",
          "Mehr als 600 geschnitzte Kürbisse leuchten in Funny-World (Kappel-Grafenhausen)."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 14
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 34  # D5 fix run2
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "ZWEI FESTE, EIN TAG", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -42,9 +42,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "Und Sie? Verkleiden Sie sich an Halloween? Oder ist der 31. Oktober für Sie ein ruhiger Tag? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Vous vous déguisez pour Halloween ? Ou le 31 octobre est-il un jour calme pour vous ? Écrivez deux phrases en allemand !", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "UND SIE? · À vous", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "UND SIE?　À vous", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Vous vous déguisez pour Halloween ? Ou le 31 octobre est-il un jour calme pour vous ? Écrivez deux phrases en allemand !", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -52,11 +52,11 @@ print("P3 col3 ends", ey3 + eh)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Exercices de la page 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Les niveaux se mélangent — chaque réponse par son numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · RICHTIG ODER FALSCH?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Exercices de la page 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Les niveaux se mélangent — chaque réponse par son numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P3-ex")
+e.head("A　RICHTIG ODER FALSCH?", 25)
 e.expl("Lisez l'article page 3. Vrai ou faux ?")
 e.ex("A2", "vrai/faux", "Richtig", "neuf Länder ont la Fête de la Réforme comme jour férié",
      "Der Reformationstag ist in neun Bundesländern ein Feiertag. Richtig oder falsch?", instr="Vrai ou faux ?", size=20, gap=8)
@@ -68,7 +68,7 @@ e.ex("B1", "vrai/faux", "Falsch", "le 31 octobre tombe un samedi cette année �
      "Der 31. Oktober gibt den Menschen in diesem Jahr einen freien Freitag. Richtig oder falsch?", instr="Vrai ou faux ?", size=20, gap=8)
 e.ex("A2", "vrai/faux", "Richtig", "plus de 600 citrouilles à Funny-World",
      "In Funny-World leuchten mehr als 600 Kürbisse. Richtig oder falsch?", instr="Vrai ou faux ?", size=20, gap=8)
-e.head("B · WÖRTER AUS DEM TEXT", 25)
+e.head("B　WÖRTER AUS DEM TEXT", 25)
 e.expl("Complétez avec les mots du cadre.")
 e.para("Kostüm · Kürbis · Feiertag · Süßes · Kerze", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "à compléter", "Kostüm", "les enfants enfilent un Kostüm (déguisement)",
@@ -81,7 +81,7 @@ e.ex("A2", "à compléter", "Süßes", "Süßes oder Saures!",
      "Die Kinder rufen an der Tür: „___ oder Saures!“", instr="Compléter", size=20, gap=8)
 e.ex("A2", "à compléter", "Kerzen", "Kerzen = des bougies (pluriel)",
      "In vielen Straßen stehen ___ und kleine Lichter.", instr="Compléter", size=20, gap=8)
-e.head("C · LESEVERSTEHEN", 25)
+e.head("C　LESEVERSTEHEN", 25)
 e.expl("Choisissez la bonne réponse.")
 e.ex("A2", "QCM", "B", "les enfants vont de maison en maison le soir",
      "Wann gehen die Kinder von Haus zu Haus? A. am Morgen · B. am Abend · C. in der Nacht um drei", size=20, gap=8)
@@ -91,7 +91,7 @@ e.ex("B1", "QCM", "B", "la Toussaint est le 1er novembre",
      "Allerheiligen ist am... A. 31. Oktober · B. 1. November · C. 2. November", size=20, gap=8)
 e.ex("B1", "QCM", "B", "les citrouilles décorent les abords du zoo souterrain",
      "Wo stehen die Kürbisse dann im Zoo? A. Im Restaurant. · B. Rund um den Unterirdischen Zoo. · C. Am Eingang.", size=20, gap=8)
-e.head("D · SÄTZE BAUEN", 25)
+e.head("D　SÄTZE BAUEN", 25)
 e.expl("Mettez les mots dans le bon ordre pour former une phrase.")
 e.ex("A2", "construction de phrase", "Die Kinder rufen an der Tür: Süßes oder Saures!", "sujet + verbe en deuxième position",
      "die Kinder / rufen / an der Tür / Süßes oder Saures → ___", instr="Former une phrase", size=20, gap=8)
@@ -109,11 +109,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · Sport", "Die Lucerna", "LEVEL B1 · Champions League & Bundesliga · La Ligue des champions et la Bundesliga")
+p.band("SPORT　Sport", "Die Lucerna", "LEVEL B1　Champions League & Bundesliga　La Ligue des champions et la Bundesliga")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("Königsklasse in der Woche der zwei Zeiten", 37)
-f.byline("Von der Lucerna-Sportredaktion · Leseniveau: B1")
+f.title("Königsklasse in der Woche der zwei Zeiten", 32)
+f.byline("Von der Lucerna-Sportredaktion　Leseniveau: B1")
 f.para("Was für eine Fußballwoche! Am Dienstag und Mittwoch spielt die Champions League ihren 3. Spieltag, am Freitag beginnt die Bundesliga — und am Sonntag wechselt mittendrin die Zeit: Die Liga spielt zum ersten Mal in dieser Saison in der Winterzeit.")
 f.para("Der Dienstag brachte zwei deutsche Spiele. Borussia Dortmund gewann am Dienstagabend 2:1 bei Sabah FK in Baku. Der BVB nahm die drei Punkte mit nach Hause. Der VfB Stuttgart spielte zu Hause 1:1 gegen Atlético Madrid: Julián Álvarez machte den Ausgleich für die Spanier — ein Punkt für den VfB.")
 f.para("Heute Abend (Anstoß 21.00 Uhr) wird es noch größer: Der FC Bayern empfängt den FC Arsenal, und RB Leipzig spielt bei Real Madrid. Für Leipzig ist es ein schwerer Abend: Am Wochenende verlor die Mannschaft in der Liga 1:6 bei den Bayern. In Madrid muss Leipzig mutiger spielen. Ob das gegen Real reicht? Die Antwort gibt es heute Nacht.")
@@ -124,15 +124,15 @@ f.end_report()
 
 # col 3: Klassiker box + Und Sie (sequential)
 bx = COLX[3]
-p.rect(bx, 200, CW, 330, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 330, fill=BOX)
 p.text(bx + 22, 240, "DER KLASSIKER RUFT", 23, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Am Samstag, dem 31. Oktober, spielen die Bayern bei Borussia Dortmund — das größte Spiel der Hinrunde. Halloween, Feiertag und der Klassiker an einem Tag: Die nächste Ausgabe wird voll! (Seite 7)", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 556
 etvous = "Und Sie? Für wen sind Sie am Wochenende — Bayern, Dortmund oder Leipzig? Und wer gewinnt den Klassiker am 31. Oktober? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Vous supportez qui, ce week-end — le Bayern, Dortmund ou Leipzig ? Et qui gagne le Klassiker le 31 octobre ? Écrivez deux phrases en allemand !", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "UND SIE? · À vous", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "UND SIE?　À vous", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "Vous supportez qui, ce week-end — le Bayern, Dortmund ou Leipzig ? Et qui gagne le Klassiker le 31 octobre ? Écrivez deux phrases en allemand !", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -140,7 +140,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "DER 7. SPIELTAG · La 7e journée", 26, "sans", True, OLIVE)
+p.text(MX, ty, "DER 7. SPIELTAG　La 7e journée", 26, "sans", True, OLIVE)
 rows = [
     ("Fr 23.10.", "20.30 (MESZ)", "VfB Stuttgart – Borussia Mönchengladbach"),
     ("Sa 24.10.", "18.30 (MESZ)", "Borussia Dortmund – Eintracht Frankfurt (Topspiel)"),
@@ -153,7 +153,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -162,11 +162,11 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · Exercices de la page 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Les niveaux se mélangent — chaque réponse par son numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · LESEVERSTEHEN", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　Exercices de la page 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Les niveaux se mélangent — chaque réponse par son numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P4-ex")
+e.head("A　LESEVERSTEHEN", 25)
 e.expl("Lisez l'article page 4 et choisissez la bonne réponse.")
 e.ex("B1", "QCM", "A", "Dortmund gagne 2:1 à l'extérieur contre Sabah",
      "Dortmund spielte am Dienstag... A. 2:1 in Baku · B. 1:1 zu Hause · C. 0:2 in Madrid", size=20, gap=8)
@@ -178,7 +178,7 @@ e.ex("B1", "QCM", "A", "la journée commence vendredi à 20 h 30 avec Stuttgart�
      "Der Spieltag beginnt am Freitag mit... A. Stuttgart–Gladbach · B. Dortmund–Frankfurt · C. Freiburg–Bayern", size=20, gap=8)
 e.ex("B1", "QCM", "B", "dimanche, l'heure d'hiver (MEZ) s'applique déjà",
      "Am Sonntag gilt schon die... A. Sommerzeit · B. Winterzeit · C. Frühlingszeit", size=20, gap=8)
-e.head("B · DIE WÖRTER", 25)
+e.head("B　DIE WÖRTER", 25)
 e.match_set("B1", "appariement",
             ["der Ausgleich", "der Spieltag", "der Anstoß", "die Königsklasse"],
             ["der Moment, in dem ein Spiel beginnt",
@@ -188,7 +188,7 @@ e.match_set("B1", "appariement",
             ["b", "c", "a", "d"],
             ["Ausgleich = l'égalisation, b", "Spieltag = la journée, c", "Anstoß = le coup d'envoi, a", "Königsklasse = le surnom de la Ligue des champions, d"],
             instr="Relier les paires")
-e.head("C · KOMPARATIV", 25)
+e.head("C　KOMPARATIV", 25)
 e.expl("Complétez avec le comparatif (le mot entre parenthèses est la forme de base).")
 e.ex("B1", "à compléter", "größer", "groß → größer (la plus grande nuit de la semaine)",
      "Der Mittwoch ist noch ___ (groß) als der Dienstag: Bayern gegen Arsenal!", instr="Compléter", size=20, gap=8)
@@ -198,7 +198,7 @@ e.ex("B1", "à compléter", "später", "spät → später (le coup d'envoi de ve
      "Das Freitagsspiel beginnt ___ (spät) als die Sonntagsspiele.", instr="Compléter", size=20, gap=8)
 e.ex("B1", "à compléter", "mehr", "viel → mehr (les supporters en veulent plus)",
      "Die Fans wollen ___ (viel) Tore sehen.", instr="Compléter", size=20, gap=8)
-e.head("D · DAS PRÄTERITUM", 25)
+e.head("D　DAS PRÄTERITUM", 25)
 e.expl("Mettez les phrases au Präteritum (passé simple).")
 e.ex("B1", "transformation", "Dortmund gewann 2:1 in Baku.", "gewinnen → gewann",
      "Dortmund gewinnt 2:1 in Baku. → ___", instr="Réécrire", size=20, gap=8)

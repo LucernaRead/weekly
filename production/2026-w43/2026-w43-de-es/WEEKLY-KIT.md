@@ -51,6 +51,29 @@ Spanish runs longer than the core's Chinese; the following explanation strings w
 - The proofreader's own independent audit (separate implementation, positive control validated — COVER/LINEX/FOOTER/EDGE/TEXTX all fire on synthetic defects): **COVER 0, LINEX 0, EDGE 0, FOOTER-crossing 0 on both editions**; TEXTX only the shared P1 masthead pair.
 - Pixel adjudications on the shipped cards: P1 masthead — wordmark ink rows 141–264, edition-line ink from row 295, ≈30 rows of clear air (band-model artefact, non-defect). P4 fixture table — all 7 rows render cleanly inside their zebra bands (the 18 flags are the audit matching each row's text to the previous row's rect; identical in the core). P2/P3/P5 facts boxes — the flagged last lines („besser, sagen die Reifenexperten." / „(Kappel-Grafenhausen)." / „die Ferien.") render fully visible below the box border with the following box clear beneath: the cosmetic border-crossing class documented in the core KIT (sweep observations, deliberately not fixed), no information hidden, nothing struck through.
 
-**Deliverables (verified by the proofreader):** svg/ ×8, cards/ ×8 (1950×2700), print PDF `Lucerna-VOL1-ES.pdf` 10,503,920 B sha256 `7b6f20a8d934666723f7175589ef659391277af6fcda2633af2b11d990210c77`, web PDF `Lucerna-VOL1-ES-web.pdf` **4,283,213 B (< 10 MB)** sha256 `f2d1f3ef2694151e9af304a60bd83f5eb637226861d3d57ba4b9f4d4335c9bcc`.
+**Deliverables (D5 重建，2026-11-13):** svg/ ×8, cards/ ×8 (1950×2700), print PDF `The-Lucerna-VOL1-de-es.pdf` 9,357,158 B sha256 `661e99b2d2c14cf9b29035dd5c1f33b253290010a3ba71b3cd66abcfaad4280c`, web PDF `2026-w43-de-es.web.pdf` **1,469,088 B (< 7 MB)** sha256 `01c044ea24c90d9d7e0aa59620b66d7986db7e0b46cafdfb180847d93725f62e`. 旧配方值 10,503,920 B / 4,283,213 B 已过期，见末节 D5 记录。
 
 **VERDICT: PASS** — one complete independent pass, zero problems in the paper. No fixes were needed and nothing was re-rendered; the only repair made by the proofreader is this KIT completion record. This edition is clear for repo insert by the parent line. (Discord delivery is paused; nothing posted.)
+## D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 670、西里尔 0、弯引号 CJK 0。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target de --reader es --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "latin"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 33 个全在 Newsreader。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；重建 SVG 8/8 与 port fanout 逐字节相同；印 PDF 与 fanout BYTE-IDENTICAL。基线实测（§1.1 组装版）：印 PDF `91932d71e114b89a7638efa5d221402ee820eb2ce3576bd8f1313139454d592d`（9947962 B）、网 PDF `e14539b0d2f81ccfe0dcf3ba1197739d0ee3f104757d3dec05b4f9d1e8995db9`（1556483 B）。本 KIT 上方旧值（更旧配方）已过期，以上两值为准。
+- **二次修复（只动字号与断行，文字零改动；实测 advance，patched svglib `text_w`，sans bold；栏宽 CW=422.5，盒标题内宽 404.5，P7 两 p.text 标题内宽 400.5）**：
+  1. `content12.py:25` P1 band 标题 36→31pt（与最紧 band-right 左界 ru 1542.0 间隙 76.7px）。
+  2. `content12.py:124` herbst 头 25→22pt（框宽 422.5；25pt 430.2 超 7.7px，22pt 378.6）。
+  3. `content12.py:47` numbers 盒 `f.box` 加 tsize=21（最差 +25.8；21pt 最大 392.8 < 404.5）。
+  4. `content12.py:89` contents `IN DIESER AUSGABE` 24→22pt（最差 +9.0）。
+  5. `content12.py:175` merksatz 盒 `f.box` 加 tsize=21（最差 +25.5；21pt 最大 392.5 < 404.5）。
+  6. `content34.py:35` / `content56.py:34` P3/P5 facts 盒 +14→+34（末行溢出约 12.7px；en 家先例）。
+  7. `content56.py:56` P5 Saturday-plan 头 24→22pt（nl +55.3；22pt 829.3 < 849.4）。
+  8. `content56.py:155` P6 timeline 头 24→22pt（pt +10.3；22pt 376.1 < 400.5）。
+  9. `content7.py:72` Toolbox 23→21pt（最差 +23.0；21pt 最大 386.4 < 400.5；22pt en 404.7 仍超）。
+  10. `content7.py:92` NOCH EIN WORT 22→21pt（最差 +11.6；21pt 393.0 < 400.5）。
+  11. `content8.py:74` P8 D 组头 24→22pt（it 428.3、nl 431.5 均超 422.5；22pt 最大 395.6）。
+  12. `content56.py:204` P6 图注 19.5→18pt（es 仅有；18pt 右界 1795.7 < 1832）。
+- P2 例外（run2b）：P2 facts 盒改回 +14（高度不变），facts 正文 21.5→21pt（wrap 8→7 行，盒底 356，余 22.1px）；P3/P5 保持 +34。
+- **P8**：行数 225→229，距页脚线余量 33.3px；p8 compare CLEAN（keydiff [137, 138, 150]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `661e99b2d2c14cf9b29035dd5c1f33b253290010a3ba71b3cd66abcfaad4280c`（9357158 B）；网 PDF `01c044ea24c90d9d7e0aa59620b66d7986db7e0b46cafdfb180847d93725f62e`（1469088 B）。印 PDF 缩小系字体子集变化（拉丁文移出 CJK 字体），文字内容不变（文字层 print=web 多重集差 0）。网 PDF 非确定性（同源重建可差 1 字节），以最终实测值为准。
+- **text.md**：D5 不改文字内容；交付件为 port `.text.md.new` 原样沿用（BYTE-IDENTICAL，51137 B，sha256 `8f3547d131244e2c441f460d62785d59bdd57f4adcc97d00a8f40e016b418782`，570 条目 / 150 习题）；重建后重出 token-identical（rewrap RC=0）。本家 `issues/` 无已发 `.text.md`，基线以 port fanout 为准。
+- **D5 门禁（17 门，run2b，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（1469088 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 0；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=575，中位 1.003）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A；D18 刊头间距 44.6px。日志：`hidden_files/d5-redo/scratch-2026-w43-de/logs/2026-w43-de-es/`（`GATES-SUMMARY.txt` 为总表）。D5 报告：`production/notes/2026-w43/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w43-de-es.md`。

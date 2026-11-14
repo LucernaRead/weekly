@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-de-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · YOUTH / LIBRARIES (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("JUGEND · 청소년", "Die Lucerna", "LEVEL B1 · Ferien & Bibliotheken · 방학과 도서관")
+p.band("JUGEND　청소년", "Die Lucerna", "LEVEL B1　Ferien & Bibliotheken　방학과 도서관")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P5-main")
-f.title("Ferien ohne Schule: Die Stadt gehört den Lesern", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: B1")
+f.title("Ferien ohne Schule: Die Stadt gehört den Lesern", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: B1")
 f.para("Ferien — und die Schule ist zu. Was machen die Kinder und Jugendlichen in Berlin? In dieser Woche gehört die Stadt den Leserinnen und Lesern: Die Berliner Bibliotheken machen eine ganze Aktionswoche, denn am Samstag ist der Tag der Bibliotheken.")
 f.para("Es gibt Bibliotheks-Bingo, eine Wand mit Lieblingsbüchern und „Book-Blind-Dates“. Wie funktioniert ein Book-Blind-Date? Das Buch ist eingepackt, man sieht nur drei Stichworte. Man wählt ein Buch, ohne es zu kennen. Erst zu Hause packt man es aus — eine Überraschung wie ein Geschenk.")
 f.para("Warum der 24. Oktober? Das Datum erinnert an Karl Preusker: Am 24. Oktober 1828 gründete er in Großenhain in Sachsen eine Bibliothek — aus ihr wurde die erste öffentliche Bibliothek Deutschlands. Seit 1995 feiert das Land am 24. Oktober den Tag der Bibliotheken; Schirmherr war damals Bundespräsident Richard von Weizsäcker. Mehr als 8 000 Bibliotheken gibt es heute in Deutschland.")
@@ -31,8 +31,8 @@ facts = ["11 Bundesländer haben gleichzeitig Herbstferien — der Höhepunkt is
          "Mehr als 8 000 Bibliotheken gibt es in Deutschland.",
          "Am Montag (26. Oktober) gehen sechs Länder zurück in die Schule — Baden-Württemberg startet dann in die Ferien."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 14
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 34  # D5 fix run2
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "FERIEN IN ZAHLEN", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -41,9 +41,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "Und Sie? Wann waren Sie das letzte Mal in einer Bibliothek? Und welches Buch würden Sie als Blind Date wählen? Schreiben Sie zwei Sätze auf Deutsch!"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("마지막으로 도서관에 간 것은 언제인가요? 블라인드 데이트로 어떤 책을 고를까요? 독일어로 두 문장을 써서 보내 주세요.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "UND SIE? · 여러분은요?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "UND SIE?　여러분은요?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "마지막으로 도서관에 간 것은 언제인가요? 블라인드 데이트로 어떤 책을 고를까요? 독일어로 두 문장을 써서 보내 주세요.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -52,8 +52,8 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- Samstag-Plan wide box (cols 0-2) ----
 sx, swd = span_x(0, 2)
-p.rect(sx, 1120, swd, 300, fill=BOX, stroke=LINE, sw=1.4)
-p.text(sx + 24, 1162, "DER SAMSTAG-PLAN DER REDAKTION · 편집부의 토요일 계획", 24, "sans", True, OLIVE)
+p.rect(sx, 1120, swd, 300, fill=BOX)
+p.text(sx + 24, 1162, "DER SAMSTAG-PLAN DER REDAKTION　편집부의 토요일 계획", 22, "sans", True, OLIVE)  # D5 fix run2
 planrows = [
     ("9.30 Uhr", "In die Bibliothek: Bingo spielen und ein Book-Blind-Date wählen."),
     ("12.00 Uhr", "Auf dem Markt einen schönen Kürbis kaufen."),
@@ -63,17 +63,17 @@ planrows = [
 ]
 pyy = 1184
 for t, txt in planrows:
-    p.text(sx + 24, pyy + 24, t, 21, "sans", True, BRICK)
+    p.text(sx + 24, pyy + 24, t, 21, "sans", True, OLIVE)
     p.text(sx + 190, pyy + 24, txt, 21.5, "serif", False, INK)
     pyy += 45
 
 # ---- P5 exercises ----
 ey = 1500
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · 5면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "정답은 8면에 · 문제는 수준이 섞여 있어요 · 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · LESEVERSTEHEN", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　5면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "정답은 8면에　문제는 수준이 섞여 있어요　번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P5-ex")
+e.head("A　LESEVERSTEHEN", 25)
 e.expl("5면 기사를 읽고 정답을 고르세요.")
 e.ex("B1", "객관식", "B", "도서관의 날이라 행사 주간이에요",
      "Die Aktionswoche gibt es, weil... A. die Schule neu ist · B. der Tag der Bibliotheken ist · C. Halloween ausfällt", size=20, gap=8)
@@ -85,7 +85,7 @@ e.ex("B1", "객관식", "B", "Preusker는 1828년 Großenhain에서",
      "Karl Preusker gründete seine Bibliothek im Jahr... A. 1517 · B. 1828 · C. 1995", size=20, gap=8)
 e.ex("A2", "객관식", "B", "10월 31일은 할로윈",
      "Am 31. Oktober ist... A. der Schulanfang · B. Halloween · C. der Bibliothekstag", size=20, gap=8)
-e.head("B · WÖRTER AUS DEM TEXT", 25)
+e.head("B　WÖRTER AUS DEM TEXT", 25)
 e.expl("상자 속 단어로 빈칸을 채우세요.")
 e.para("Bibliothek · Stichworte · Überraschung · eingepackt · Lieblingsbuch · leihen", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "문장 완성", "Stichworten", "nach drei + 3격 복수 Stichworten",
@@ -100,7 +100,7 @@ e.ex("A2", "문장 완성", "Bibliothek", "도서관에서 책을 빌려요",
      "In der ___ kann man Bücher leihen.", instr="빈칸", size=20, gap=8)
 e.ex("B1", "문장 완성", "leihen", "möchte + 원형은 문장 끝에",
      "Ich möchte dieses Buch ___ — für drei Wochen.", instr="빈칸", size=20, gap=8)
-e.head("C · SÄTZE MIT «WEIL»", 25)
+e.head("C　SÄTZE MIT «WEIL»", 25)
 e.expl("weil로 두 문장을 연결하세요 (동사는 문장 끝에).")
 e.ex("B1", "문장 전환", "Die Kinder freuen sich, weil Ferien sind.", "weil 문장은 동사가 끝에",
      "Die Kinder freuen sich. Es sind Ferien. (weil) → ___", instr="바꿔 쓰기", size=20, gap=8)
@@ -110,7 +110,7 @@ e.ex("B1", "문장 전환", "Er bleibt zu Hause, weil er ein Buch lesen will.", 
      "Er bleibt zu Hause. Er will ein Buch lesen. (weil) → ___", instr="바꿔 쓰기", size=20, gap=8)
 e.ex("B1", "문장 전환", "Sie kauft ein Kostüm, weil Halloween am 31. Oktober ist.", "ist가 끝에",
      "Sie kauft ein Kostüm. Halloween ist am 31. Oktober. (weil) → ___", instr="바꿔 쓰기", size=20, gap=8)
-e.head("D · RICHTIG ODER FALSCH?", 25)
+e.head("D　RICHTIG ODER FALSCH?", 25)
 e.expl("맞는지 틀린지 판단하세요.")
 e.ex("A2", "참/거짓 판단", "Richtig", "독일에 도서관 8,000곳 넘어",
      "Mehr als 8 000 Bibliotheken gibt es in Deutschland. Richtig oder falsch?", instr="판단", size=20, gap=8)
@@ -126,11 +126,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · DEEP READ (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("VERTIEFUNG · 심층 읽기", "Die Lucerna", "LEVEL B2 · Die große Debatte · 큰 토론")
+p.band("VERTIEFUNG　심층 읽기", "Die Lucerna", "LEVEL B2　Die große Debatte　큰 토론")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P6-main")
-f.title("Soll die Zeitumstellung abgeschafft werden?", 37)
-f.byline("Von der Lucerna-Redaktion · Leseniveau: B2")
+f.title("Soll die Zeitumstellung abgeschafft werden?", 32)
+f.byline("Von der Lucerna-Redaktion　Leseniveau: B2")
 f.para("Zweimal im Jahr steht die EU vor derselben Frage: vor oder zurück? An diesem Sonntag ist es wieder so weit. Doch warum gibt es die Sommerzeit überhaupt — und warum bleibt sie, obwohl so viele Menschen sie nicht mehr wollen?")
 f.para("Deutschland stellte die Uhren zum ersten Mal am 30. April 1916 um — mitten im Ersten Weltkrieg sollte Tageslicht Energie sparen. Nach dem Zweiten Weltkrieg endete die Praxis 1950. Erst am 6. April 1980 führten beide deutsche Staaten die Sommerzeit wieder ein; seitdem gilt sie ohne Unterbrechung.")
 f.para("Die Argumente sind bekannt: Die Freunde der Sommerzeit lieben die hellen Abende im Sommer. Die Kritiker sagen, der Körper leide unter dem Wechsel — und der Nutzen für die Energie sei heute klein.")
@@ -150,17 +150,17 @@ tl = [("1916", "Deutschland stellt zum ersten Mal um (30. April)."),
 tlh = 52
 for yr, t in tl:
     tlh += 30 + len(wrap(t, "serif", False, 20.5, CW - 44)) * 29 + 10
-p.rect(ix, 200, CW, tlh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, 200, CW, tlh, fill=BOX)
 yy3 = 216
-p.text(ix + 22, yy3 + 26, "DIE ZEITLINIE · 타임라인", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DIE ZEITLINIE　타임라인", 22, "sans", True, OLIVE)  # D5 fix run2
 yy3 += 52
 for yr, t in tl:
-    p.text(ix + 22, yy3 + 21, yr, 21, "sans", True, BRICK)
+    p.text(ix + 22, yy3 + 21, yr, 21, "sans", True, OLIVE)
     yy3 = p.para(ix + 92, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 114, 1.42) + 10
 hy3 = 200 + tlh + 26
 health = "Die Grippezeit kommt. Die STIKO empfiehlt die Impfung besonders für Menschen ab 60 Jahren, für Schwangere ab dem zweiten Drittel, für Menschen mit chronischen Krankheiten und für alle, die in Pflege und Medizin arbeiten. Der Schutz baut sich in 10 bis 14 Tagen auf. Impfen lassen kann man sich beim Hausarzt und in Apotheken (ab 18 Jahren)."
 hh = 62 + len(wrap(health, "serif", False, 21, CW - 44)) * 30 + 10 + len(wrap("독감 철이 와요: STIKO는 60세 이상, 임산부 (중기부터), 만성질환자와 의료·돌봄 종사자에게 접종을 권해요. 면역은 10–14일에 생겨요.", "sans", False, 19.5, CW - 44)) * 28 + 20
-p.rect(ix, hy3, CW, hh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, hy3, CW, hh, fill="#f0eee5")
 yy3 = hy3 + 16
 p.text(ix + 22, yy3 + 26, "GESUND DURCH DEN HERBST", 22.5, "sans", True, OLIVE)
 yy3 += 50
@@ -171,10 +171,10 @@ print("P6 col3 ends", hy3 + hh)
 
 # ---- Pro & Contra wide box (cols 0-2) ----
 sx, swd = span_x(0, 2)
-p.rect(sx, 1120, swd, 252, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(sx + 24, 1162, "PRO & CONTRA · 찬성과 반대 — die Argumente der Debatte", 24, "sans", True, OLIVE)
-p.text(sx + 24, 1210, "PRO SOMMERZEIT", 21, "sans", True, BRICK)
-p.text(sx + 24 + (swd - 48) // 2, 1210, "CONTRA — GEGEN DIE UMSTELLUNG", 21, "sans", True, BRICK)
+p.rect(sx, 1120, swd, 252, fill="#f0eee5")
+p.text(sx + 24, 1162, "PRO & CONTRA　찬성과 반대 — die Argumente der Debatte", 24, "sans", True, OLIVE)
+p.text(sx + 24, 1210, "PRO SOMMERZEIT", 21, "sans", True, OLIVE)
+p.text(sx + 24 + (swd - 48) // 2, 1210, "CONTRA — GEGEN DIE UMSTELLUNG", 21, "sans", True, OLIVE)
 pro = ["Helle Abende im Sommer: mehr Zeit draußen, im Café und beim Sport.",
        "Feste und Märkte am Abend leben vom langen Licht."]
 contra = ["Der Körper leidet unter dem Wechsel, sagen die Kritiker.",
@@ -190,8 +190,8 @@ for t in contra:
 
 # ---- practice chart (full width) ----
 cy = 1420
-p.hline(MX, RIGHT, cy - 12, GOLD, 2)
-p.text(MX, cy + 28, "WAS MACHEN DIE DEUTSCHEN MIT DER EXTRA STUNDE? · 늘어난 한 시간으로 무엇을 할까요?", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, cy - 12, OLIVE, 2)
+p.text(MX, cy + 28, "WAS MACHEN DIE DEUTSCHEN MIT DER EXTRA STUNDE?　늘어난 한 시간으로 무엇을 할까요?", 26, "sans", True, OLIVE)
 bars = [("länger schlafen", 46, "더 자기"), ("Zeit mit der Familie", 22, "가족과 함께"),
         ("ein Buch lesen", 18, "책 읽기"), ("Sport machen", 14, "운동")]
 byy = cy + 58
@@ -199,17 +199,17 @@ for lab, v, zh in bars:
     p.text(MX, byy + 26, lab, 22, "serif", True, INK)
     p.text(MX + 330, byy + 26, zh, 20, "sans", False, GREY)
     p.rect(MX + 470, byy + 4, v * 24, 30, fill=OLIVE)
-    p.text(MX + 470 + v * 24 + 16, byy + 26, f"{v} %", 22, "sans", True, BRICK)
+    p.text(MX + 470 + v * 24 + 16, byy + 26, f"{v} %", 22, "sans", True, OLIVE)
     byy += 52
-p.text(MX, byy + 22, "ÜBUNGSDATEN · 연습 데이터 — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage. (이 숫자는 편집부의 연습 예시이며 실제 설문조사가 아니에요.)", 19.5, "sans", False, GREY)
+p.text(MX, byy + 22, "ÜBUNGSDATEN　연습 데이터 — Diese Zahlen sind ein Übungsbeispiel der Redaktion zum Lesen von Diagrammen, keine echte Umfrage. (이 숫자는 편집부의 연습 예시이며 실제 설문조사가 아니에요.)", 19.5, "sans", False, GREY)
 
 # ---- P6 exercises ----
 ey = 1808
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ÜBUNGEN · 6면 연습", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "정답은 8면에 · 문제는 수준이 섞여 있어요 · 번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · DAS DIAGRAMM LESEN", 25, gap=9)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ÜBUNGEN　6면 연습", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "정답은 8면에　문제는 수준이 섞여 있어요　번호로 찾으세요", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P6-ex")
+e.head("A　DAS DIAGRAMM LESEN", 25, gap=9)
 e.expl("위의 연습 차트를 보고 정답을 고르세요.")
 e.ex("B1", "객관식", "B", "46%가 더 자요",
      "Wie viele Prozent schlafen länger? A. 22 % · B. 46 % · C. 18 %", size=20, gap=7)
@@ -223,7 +223,7 @@ e.ex("B1", "객관식", "A", "운동 14%",
      "Wie viele Prozent machen Sport? A. 14 % · B. 18 % · C. 22 %", size=20, gap=7)
 e.ex("B2", "객관식", "B", "46+22+18+14=100",
      "Die vier Zahlen zusammen ergeben... A. 90 % · B. 100 % · C. 110 %", size=20, gap=7)
-e.head("B · LESEVERSTEHEN (B2)", 25, gap=9)
+e.head("B　LESEVERSTEHEN (B2)", 25, gap=9)
 e.expl("6면 심층 기사를 읽고 정답을 고르세요.")
 e.ex("B2", "객관식", "B", "1916년 4월 30일 처음",
      "Wann stellte Deutschland die Uhren zum ersten Mal um? A. 1950 · B. 1916 · C. 1980", size=20, gap=7)
@@ -233,7 +233,7 @@ e.ex("B2", "객관식", "B", "회원국 정부들이 합의하지 못했어요",
      "Warum blieb die Umstellung? A. Die Bürger wollten sie. · B. Die Regierungen wurden sich nicht einig. · C. Das Parlament sagte Nein.", size=20, gap=7)
 e.ex("B1", "객관식", "A", "답변 460만 건",
      "Wie viele Antworten kamen 2018 zurück? A. 4,6 Millionen · B. 460 000 · C. 84 Millionen", size=20, gap=7)
-e.head("C · GRAMMATIK", 25, gap=9)
+e.head("C　GRAMMATIK", 25, gap=9)
 e.expl("괄호 속 형태로 빈칸을 채우세요.")
 e.ex("B2", "문장 완성", "werden", "수동태: werden + Partizip II",
      "Die Uhren ___ (werden) am Sonntag umgestellt.", instr="빈칸", size=20, gap=7)
@@ -243,7 +243,7 @@ e.ex("B1", "문장 완성", "abschaffen", "wollen + 원형은 문장 끝에",
      "84 Prozent wollten die Umstellung ___. (abschaffen)", instr="빈칸", size=20, gap=7)
 e.ex("B2", "문장 완성", "stimmte", "stimmen의 과거형 stimmte",
      "Im März 2019 ___ das Parlament für das Ende. (stimmen)", instr="빈칸", size=20, gap=7)
-e.head("D · WÖRTER DER DEBATTE", 25, gap=9)
+e.head("D　WÖRTER DER DEBATTE", 25, gap=9)
 e.expl("상자 속 단어로 빈칸을 채우세요.")
 e.para("Umstellung · Mehrheit · abschaffen · Mitgliedstaaten", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("B1", "문장 완성", "Umstellung", "Umstellung은 해마다 두 번",

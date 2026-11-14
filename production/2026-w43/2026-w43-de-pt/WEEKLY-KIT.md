@@ -116,8 +116,8 @@ In `files/weekly-report-de-pt/`: `svg/` ×8, `cards/` ×8 PNG (1950×2700), prin
 
 | file | bytes | sha256 |
 |---|---|---|
-| Lucerna-VOL1-PT.pdf (print) | 10,484,251 | 07fdebec7f5f58bae2db030dc4a036535d4665e23d20be9623aa0e2ac83b66a1 |
-| Lucerna-VOL1-PT-web.pdf | 4,266,385 | 05a0ea95598308e1a8ab62e14bf90df5487a4181a29c872572dd56a5f00675f6 |
+| The-Lucerna-VOL1-de-pt.pdf (print) | 9,360,031 | de1a15071e7ec7de6957effc596bd2526bb1031c6fbd789fcf6e3f26c5d24c79 |
+| 2026-w43-de-pt.web.pdf | 1,471,934 | 9ded968023edde7aaff1cc153bb61f34471f9a18e667b31f646375884aaf6f1 |
 
 Web PDF < 10 MB ✓ (1400 px-wide JPEG pages, q85 — the finalized core recipe). Final SVGs (sha256): p1 710fb692…, p2 cb807038…, p3 faf45392…, p4 91d5772f…, p5 1fa99440…, p6 5498d084…, p7 3a7dd7b7…, p8 9eaacb1d… (full values in the build log).
 
@@ -152,4 +152,27 @@ Builder's own proofread complete (this KIT). **Independent proofread: PASS** (20
 - Residues: CJK/full-width = 0; Dutch/Russian/other-column furniture = 0; banned intermediary term = 0 in paper/KIT/operative code (scratch transform scripts + basecheck core copies only, the disclosed exception); `expl()` rename verified (def + 22 call sites).
 - Images: embedded JPEG payloads md5-identical to core on P1/P2/P3/P5; credit lines byte-identical (Courtney Celley / USFWS, NIST, USDA). P2 facts-box region pixel-identical to core (the core's box-bottom graze is inherited unchanged, German text frozen).
 - Brazilian PT: no EP-only spellings/constructions found («você» throughout; the single «está a» hit is estar + article, not the EP progressive).
-- **Final pins (measured post-fix):** print `Lucerna-VOL1-PT.pdf` 10,484,289 B, sha256 `62b5312287cb94542e75c7b68bcf272f5d7e3be1c8259a7326e3aa2fc63c1e04`; web `Lucerna-VOL1-PT-web.pdf` 4,268,240 B, sha256 `030ba97c573b8d7136cd1170ee182cd0bc61b562a617bb11b22e509c85c214ae`; both 8 pages. (Pre-fix builder pins were also verified as measured: 10,484,251 B / 07fdebec… and 4,266,385 B / 05a0ea95…; only P1 changed.)
+- **Final pins (D5 重建，2026-11-13):** print `The-Lucerna-VOL1-de-pt.pdf` 9,360,031 B, sha256 `de1a15071e7ec7de6957effc596bd2526bb1031c6fbd789fcf6e3f26c5d24c79`; web `2026-w43-de-pt.web.pdf` 1,471,934 B, sha256 `9ded968023edde7aaff1cc153bb61f34471f9a18e667b31f646375884aaf6f1`; both 8 pages. (Pre-D5 builder pins were also verified as measured: 10,484,289 B / 62b53122… and 4,268,240 B / 030ba97c…; only P1 changed.)
+## D5 重建记录（2026-11-13，W43/W45/W46 D5+§1.1 合并重修 Phase 1）
+
+- **原因**：D5 缺陷——sans 层拉丁/西里尔字符落入 Noto Sans CJK 而非 Newsreader（拉丁读者）/ Noto Sans（俄语读者）。本版修前 census：D5 拉丁 660、西里尔 0、弯引号 CJK 0。
+- **安装**：`tools/mechanism-w47/apply_variant.py --svglib <版>/svglib.py --target de --reader pt --week 2026-w43`（先 `--check` dry-run 通过）。`_D5_READER = "latin"`。路由单元测试 `test_d5_routing.py` FAILURES: 0。fix2（U+201C/U+201D/U+2019 → serif）保留：本版弯引号 33 个全在 Newsreader。
+- **基线**：重建前先证基线干净——`run.py` TOTAL 150、0 警告；重建 SVG 8/8 与 port fanout 逐字节相同；印 PDF 与 fanout BYTE-IDENTICAL。基线实测（§1.1 组装版）：印 PDF `50732a94fc4233e0f1c12eb00d0e8087a21e371ac3df17149a8048f97eae72d1`（9950637 B）、网 PDF `1c636e17111d437f21748e926a6195ef5fcc5e3ece6c47b88d5b30a0bf09dcd7`（1559224 B）。本 KIT 上方旧值（更旧配方）已过期，以上两值为准。
+- **二次修复（只动字号与断行，文字零改动；实测 advance，patched svglib `text_w`，sans bold；栏宽 CW=422.5，盒标题内宽 404.5，P7 两 p.text 标题内宽 400.5）**：
+  1. `content12.py:25` P1 band 标题 36→31pt（与最紧 band-right 左界 ru 1542.0 间隙 76.7px）。
+  2. `content12.py:124` herbst 头 25→22pt（框宽 422.5；25pt 430.2 超 7.7px，22pt 378.6）。
+  3. `content12.py:47` numbers 盒 `f.box` 加 tsize=21（最差 +25.8；21pt 最大 392.8 < 404.5）。
+  4. `content12.py:89` contents `IN DIESER AUSGABE` 24→22pt（最差 +9.0）。
+  5. `content12.py:175` merksatz 盒 `f.box` 加 tsize=21（最差 +25.5；21pt 最大 392.5 < 404.5）。
+  6. `content34.py:35` / `content56.py:34` P3/P5 facts 盒 +14→+34（末行溢出约 12.7px；en 家先例）。
+  7. `content56.py:56` P5 Saturday-plan 头 24→22pt（nl +55.3；22pt 829.3 < 849.4）。
+  8. `content56.py:155` P6 timeline 头 24→22pt（pt +10.3；22pt 376.1 < 400.5）。
+  9. `content7.py:72` Toolbox 23→21pt（最差 +23.0；21pt 最大 386.4 < 400.5；22pt en 404.7 仍超）。
+  10. `content7.py:92` NOCH EIN WORT 22→21pt（最差 +11.6；21pt 393.0 < 400.5）。
+  11. `content8.py:74` P8 D 组头 24→22pt（it 428.3、nl 431.5 均超 422.5；22pt 最大 395.6）。
+
+- P2 例外（run2b）：P2 facts 盒改回 +14（高度不变），facts 正文 21.5→21pt（wrap 8→7 行，盒底 356，余 22.1px）；P3/P5 保持 +34。
+- **P8**：行数 226→232，距页脚线余量 33.3px；p8 compare CLEAN（keydiff [137, 138, 150]）。
+- **新交付物（D5 重建，2026-11-13）**：印 PDF `de1a15071e7ec7de6957effc596bd2526bb1031c6fbd789fcf6e3f26c5d24c79`（9360031 B）；网 PDF `9ded968023edde7aaff1cc153bb61f34471f9a18e667b31f646375884aaf6f1c`（1471934 B）。印 PDF 缩小系字体子集变化（拉丁文移出 CJK 字体），文字内容不变（文字层 print=web 多重集差 0）。网 PDF 非确定性（同源重建可差 1 字节），以最终实测值为准。
+- **text.md**：D5 不改文字内容；交付件为 port `.text.md.new` 原样沿用（BYTE-IDENTICAL，50552 B，sha256 `dc78fcc39c140c98ad299c3f49f67ade33ceb74cc86bca879728d12c476452f0`，570 条目 / 150 习题）；重建后重出 token-identical（rewrap RC=0）。本家 `issues/` 无已发 `.text.md`，基线以 port fanout 为准。
+- **D5 门禁（17 门，run2b，全绿 ALL-GREEN）**：run TOTAL 150、警告 0；head_check PASS 0 缺陷；d5 census 拉丁 0 / 西里尔 0 / 弯引号 CJK 0；render RC=0；webpdf RC=0（1471934 B <7MB）；occlusion 0（含自检）；p8 extract 150/150；p8 compare CLEAN；freeze baseline 8/8；freeze diff vs base 新增 CJK 字符 TOTAL 0；spill 0；boxtitle 0；edge 0/0；creambox PASS 0 缺陷（ratios n=568，中位 1.003）；文字层 print=web 多重集差 0；census_quotes 0 defective；家族 gates.py N/A；D18 刊头间距 62.0px。日志：`hidden_files/d5-redo/scratch-2026-w43-de/logs/2026-w43-de-pt/`（`GATES-SUMMARY.txt` 为总表）。D5 报告：`production/notes/2026-w43/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w43-de-pt.md`。
