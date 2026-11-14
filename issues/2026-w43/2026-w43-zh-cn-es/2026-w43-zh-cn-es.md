@@ -17,8 +17,8 @@ nativeLabel: "Español"
 exercises: 150
 pages: 8
 pdf: 2026-w43-zh-cn-es.pdf
-pdfBytes: 3375808
-pdfSha256: 2ea596cf675b289b20a78d3df993ccd49c46c248188ddab65c00c87186bf14f4
+pdfBytes: 2906453
+pdfSha256: 3de6944289843b28b7aaa7f334262b03efbaaaf37f839eec1d08f875f39e45f4
 discordThread: "1562312827774042172"
 draft: false
 ---

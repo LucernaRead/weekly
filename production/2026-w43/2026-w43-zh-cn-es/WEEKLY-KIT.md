@@ -155,8 +155,8 @@ Full table in the core build's `assets/CREDITS.md` (copied with this build's ass
 
 | File | Bytes | sha256 |
 |---|---|---|
-| Lucerna-VOL1-ES.pdf (print) | 68,841,777 | 9c7fe77961bf8c66cf16d816ee29ce3b78dc20c8086ece7f5fd7ca9e859bbc71 |
-| Lucerna-VOL1-ES-web.pdf (web) | 3,269,256 | 7063569373e2a09aae1064a504ea2e5598a43e24f2fe05ceaee26208091ecfa6 |
+| Lucerna-VOL1-ES.pdf (print) | 55,562,444 | 6a24cbde3765390faebc050e581e6df43136d7012666370c4f8cc98e24334f44 |
+| Lucerna-VOL1-ES-web.pdf (web) | 2,906,453 | 3de6944289843b28b7aaa7f334262b03efbaaaf37f839eec1d08f875f39e45f4 |
 
 Web PDF 3.27 MB < 10 MB ✓ (JPEG pages q85 @1400px, same recipe as the core).
 
@@ -264,3 +264,41 @@ cd hidden_files/weekly-report-zhcn-es-build
   print PDF 68,841,812 B, sha256 bc92cead59147f8f8955a92b5499e94b7968c78aaae994e5086c5663a160295b;
   **web PDF 3,266,898 B (< 10 MB), sha256 53ba3cfbcf867c6dbdbfc840f8798ea0eb7e544b22119d380d2389ba7c8b26f3.**
   Verdict: **PASS — cleared for repo insert with these pins.**
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-es/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-es.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "latin"`（mode=latin variant=SC），
+svglib.py 与基线差 99 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 66,882,161 字节（SHA-match）；
+印/网文字层差 0（24,879 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 472、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**（run1 → run2；修法只动字号/内容侧几何常数，未动任何文字内容；每处修复后全量重渲 + 全部门禁重跑）：
+
+| # | 门 | 位置 / 内容 | 实测 | 修法 | P8 |
+|---|---|---|---|---|---|
+| F1 | G6 occlusion | P1 版行 `TEXTOS EN CHINO SIMPLIFICADO　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES`（content12.py:23，16pt sans，anchor middle x=975，y=612） | Newsreader 西班牙语 run x=764.0，墨水右缘 1486.0；`本周热搜`标题墨水起于 1461.5 → 重叠 24.5×6.0px。基线（单 CJK run）右缘 1428.6，occlusion 0 flags——D5 引起（Newsreader 拉丁宽约 13%；整行 907.1→1022.1px）。PIL 实测：15pt → 右缘 1454.1（余量 7.4px）；14.5pt → 1438.1（23.4px） | `content12.py:23` 16→**15** |
+| F2 | G11 boxtitle | P1 热搜框出处 `Fuente: espejo de búsquedas de Weibo (rddh.cn)`（content12.py:86，18.5pt，x=1461.5，y=1224） | Newsreader ink_r 1870.2，框右 1862 → 超 +8.5px。boxtitle 工具称“无基线、新溢出”是错的：同一行在基线 SVG 同位置，PIL 实测 CJK 18.5pt ink_r 1879.8（超 +17.8）——既有缺陷，D5 反而收窄。仍修（门禁须绿；en 家先例：既有 spill 照修） | `content12.py:86` 18.5→**17.5**（Newsreader ink_r 1848.1，余量 13.9px） |
+
+**门禁 run2（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（2,906,453 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 279，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（41 titles，453 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 24,879 字符）；
+text.md BYTE-IDENTICAL（43,322 B）；15b CARRYOVER FAIL（397/1363；基线对照亦 FAIL 376/1348），按 D27 口径验收。
+native verifier 915/915 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 310.6px PASS。P8：857 节点，距页脚线余量 35.85px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1-ES.pdf` 55,562,444 字节（SHA-256 `6a24cbde3765390faebc050e581e6df43136d7012666370c4f8cc98e24334f44`）；网 `Lucerna-VOL1-ES-web.pdf` 2,906,453 字节（SHA-256 `3de6944289843b28b7aaa7f334262b03efbaaaf37f839eec1d08f875f39e45f4`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `164f069e076e45cb6a65422ce1f7947a140f2bf5873ebfadf34c5052d53ba12b`）。D5 前值：印 68,841,777 字节、网 3,269,256 字节（`70635693…`，issues 已发版）。
+练习仍为 150 题。

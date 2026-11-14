@@ -200,11 +200,11 @@ the labeled editor's example in the readers' corner (P7 note, French).
 ## DELIVERABLES (this directory)
 
 - `svg/` — 8 page SVGs (p1-touiban … p8-ceyan) · `cards/` — 8 PNGs (1950×2700)
-- `Lucerna-VOL1-FR.pdf` — print PDF, 67,691,279 bytes ·
-  sha256 8a5ec2f72b98a84ed0161665c03bc46021eaa0c3f2109bb05929d0957af642cf
+- `Lucerna-VOL1-FR.pdf` — print PDF, 55,560,229 bytes ·
+  sha256 691046f95181e989a7dad0d10c60ba3ae919920a90bf3855ea2211075ec10698
 - `Lucerna-VOL1-FR-web.pdf` — web PDF (JPEG pages q85 @1400px),
-  **3,252,490 bytes (< 10 MB)** ·
-  sha256 37631ed7f213f830393aabd53d8b7800001f02ed9ed5d339cfc7667e728ad19a
+  **2,904,167 bytes (< 7 MB)** ·
+  sha256 5e41f2309e3be1323da04d899ca5b3b2085b8874e3aee56db9c5bc8f6a582804
 
 ## REPRODUCTION
 
@@ -217,3 +217,40 @@ cd hidden_files/weekly-report-zhcn-fr-build
 ```
 Venv `/tmp/wp-venv` (cairosvg, pillow, pypdf, opencc). Never use
 /opt/meta-chromium (hangs in this VM).
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-fr/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-fr.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "latin"`（mode=latin variant=SC），
+svglib.py 与基线差 99 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 64,564,628 字节（SHA-match）；
+印/网文字层差 0（24,687 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 473、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**（run1 → run2；修法只动字号/内容侧几何常数，未动任何文字内容；每处修复后全量重渲 + 全部门禁重跑）：
+
+| # | 门 | 位置 / 内容 | 实测 | 修法 | P8 |
+|---|---|---|---|---|---|
+| F1 | G10 spill | P2 词语卡第 4 卡（红包）gloss `de l'argent dans une enveloppe rouge, porte-bonheur`（content12.py:229 数据；渲染 content12.py:236，19pt sans） | gloss 折 2 行，第 2 行 `porte-bonheur` 基线 1776.76，框底 1768.0 → 跌出 +8.76px。既有缺陷，非 D5 引起：同一行在基线 SVG 同 y=1776.76。仍修（门禁须绿；en 家先例照修） | `content12.py:236` gloss 间距 `yy + 19` → **`yy + 5`**（4 卡 gloss 整体上移 14px；预测第 2 行基线 1762.76，余量 5.24px） |
+
+**门禁 run2（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（2,904,167 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 272，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（41 titles，454 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 24,687 字符）；
+text.md BYTE-IDENTICAL（42,735 B）；15b CARRYOVER FAIL（454/1399；基线对照亦 FAIL 433/1379），按 D27 口径验收。
+native verifier 907/907 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 297.3px PASS。P8：835 节点，距页脚线余量 49.65px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1-FR.pdf` 55,560,229 字节（SHA-256 `691046f95181e989a7dad0d10c60ba3ae919920a90bf3855ea2211075ec10698`）；网 `Lucerna-VOL1-FR-web.pdf` 2,904,167 字节（SHA-256 `5e41f2309e3be1323da04d899ca5b3b2085b8874e3aee56db9c5bc8f6a582804`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `c3e85966b5bae112c351ce07df1cf382b6faa6d3bb4614c002af31ac69e6690d`）。D5 前值：印 67,691,279 字节、网 3,252,490 字节（`37631ed7…`，issues 已发版）。
+练习仍为 150 题。

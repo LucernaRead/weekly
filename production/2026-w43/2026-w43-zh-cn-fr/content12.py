@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zhcn-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · 头版 (A2) =================
@@ -11,31 +11,31 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 1 · 第 1 号", 23, "sans", True, OLIVE)
-p.text(975, 92, "每周读中文 · Lire du vrai chinois, chaque semaine", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "2026年10月19日（周一）— 25日（周日）", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "HEBDOMADAIRE CHINOIS · VOL.1 · 双11 · 大闸蟹 · 霜降", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "给学中文的人的周报 — Lire la vraie Chine, en chinois", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 1　第1号", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "每周读中文　Lire du vrai chinois, chaque semaine", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "2026年10月19日（周一）— 25日（周日）", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "HEBDOMADAIRE CHINOIS　VOL.1　双11　大闸蟹　霜降", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 372, "给学中文的人的周报 — Lire la vraie Chine, en chinois", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 # pairing badge: which text, which explanation language, which reader
-p.text(975, 434, "TEXTES EN CHINOIS SIMPLIFIÉ · EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES", 19.5, "sans", True, BRICK, anchor="middle")
+p.text(975, 612, "TEXTES EN CHINOIS SIMPLIFIÉ　EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES", 16, "sans", False, GREY, anchor="middle")
 
 # band
-p.rect(MX, 458, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 512, "双11到了「付尾款周」!周二晚 8 点,天猫付尾款", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 556, "京东已经开卖;现货一直卖到 11 月 13 日,这一周就能买。", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 512, "付尾款周", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 556, "Semaine du solde à payer · horaires page 2", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "双11到了「付尾款周」!周二晚8点,天猫付尾款", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "京东已经开卖;现货一直卖到11月13日,这一周就能买。", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "付尾款周", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "Semaine du solde à payer　horaires page 2", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "头条 · À la une", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "双11到了「付尾款」的这一周", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 30, "周二 20:00,天猫付尾款、现货开售——今年的购物季来得更早,也更长", 25, "serif", False, GREY)
+hy = 610
+p.text(MX, hy + 26, "头条　À la une", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "双11到了「付尾款」的这一周", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 30, "周二20:00,天猫付尾款、现货开售——今年的购物季来得更早,也更长", 25, "serif", False, GREY)
 hy += 46
-p.text(MX, hy + 28, "Rédaction Lucerna · Niveau de lecture A2", 20, "sans", False, GREY)
+p.text(MX, hy + 28, "Rédaction Lucerna　Niveau de lecture A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("今年的双11来得早。京东10月12日晚上8点就开始卖现货,10月20日晚上8点还有「开门红」。", size=24)
@@ -45,13 +45,13 @@ f.para("现货会一直卖到11月13日。所以这一周,不用等11月11日,�
 f.para("这一周,手机上最常见的话是:定金、尾款、满减、凑单、红包口令。第2版有双11日历和买东西的办法。", size=24)
 f.para("这是《Lucerna》简体中文版第1号。每周,我们用简单的中文,带你读真正的中国新闻。欢迎你!", size=24)
 f.gloss("yùshòu 预售 — la prévente : on commande avant le jour de vente · dìngjīn 定金 — l'acompte · wěikuǎn 尾款 — le solde, payé plus tard · xiànhuò 现货 — les articles en stock, prêts à partir.")
-f.box("数字看本周 · La semaine en chiffres", [
+f.box("数字看本周　La semaine en chiffres", [
     ("20 oct., 20 h — Tmall : paiement du solde ouvert ; début des ventes en stock", "serif", False, INK, 20, 1.35),
     ("13 nov. — dernier jour de la période de vente en stock", "serif", False, INK, 20, 1.35),
     ("15 oct. — début des préventes Taobao et Tmall", "serif", False, INK, 20, 1.35),
     ("N° 8 — le rang de « 大闸蟹价格 » dans l'instantané des recherches, colonne de droite", "serif", False, INK, 20, 1.35),
 ])
-f.head("即学即练 · À vous de jouer", 25)
+f.head("即学即练　À vous de jouer", 25)
 f.ex("A2", "完成句子", "12", "JD.com a ouvert ses ventes en stock le 12 oct.",
      "京东10月___日开始卖现货。", instr="Complétez", size=19.5, gap=6)
 f.ex("A2", "完成句子", "10", "La prévente de Tmall a commencé au mois 10, octobre.",
@@ -68,10 +68,10 @@ f.end_report()
 
 # ---- search heat box (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
-p.text(gx + 22, gy + 40, "本周热搜 · Recherches en vogue", 25, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "大家在搜什么 · Ce que l'on cherche", 22, "sans", True, OLIVE)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
+p.text(gx + 22, gy + 40, "本周热搜　Recherches en vogue", 25, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "大家在搜什么　Ce que l'on cherche", 22, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Instantané miroir des recherches Weibo", 19, "sans", False, GREY)
 topics = [
     "大闸蟹价格争议 — 第 8 位",
@@ -80,7 +80,7 @@ topics = [
 ]
 byy = gy + 150
 for i, t in enumerate(topics):
-    yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 20, "serif", True, INK, gw - 44, 1.32)
+    yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 19, "serif", True, INK, gw - 44, 1.32)
     byy = yy_t + 10
 p.para(gx + 22, byy + 12, "Les rangs et les chiffres de popularité viennent d'un instantané miroir tiers pris le 21 oct. à 00 h 30. Les chiffres sont approximatifs : considérez-les comme un simple repère. Les trois sujets sont traités dans ce numéro.", 18.5, "sans", False, GREY, gw - 44, 1.35)
 p.text(gx + 22, gy + 636, "Source : miroir des recherches Weibo (rddh.cn)", 18.5, "sans", False, GREY)
@@ -88,8 +88,8 @@ p.text(gx + 22, gy + 664, "Instantané : 21/10/2026, 00 h 30", 19, "sans", False
 
 # ---- contents (col 3) ----
 sy = 1296
-p.rect(gx, sy, gw, 330, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "本期目录 · Sommaire", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 330, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "本期目录　Sommaire", 24, "sans", True, OLIVE)
 som = [
     ("2版", "双11日历与本周生活", "A2"),
     ("3版", "重阳刚过,霜降要来", "A2→B1"),
@@ -101,16 +101,17 @@ som = [
 ]
 yy = sy + 82
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 108, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 37
 
 # ---- word of the week (col 3) ----
 my = 1636
-p.text(gx, my + 24, "本周词 · Mot de la semaine", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-p.para(gx, my + 76, "「尾款」 wěikuǎn — le solde : la dernière partie du prix que l'on paie. 先付定金,后付尾款 (d'abord l'acompte, puis le solde). Exemple : 「尾款付完,快递就来了。」", 21.5, "serif", False, INK, gw, 1.4)
+p.text(gx, my + 24, "本周词　Mot de la semaine", 22, "sans", True, OLIVE)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "「尾款」 wěikuǎn", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 102, "le solde : la dernière partie du prix que l'on paie. 先付定金,后付尾款 (d'abord l'acompte, puis le solde). Exemple : 「尾款付完,快递就来了。」", 21.5, "serif", False, INK, gw, 1.4)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -127,8 +128,8 @@ f2.para("这一周又买东西,又过节气:周五是霜降,秋天快要过完�
 f2.end_report()
 # col 3 brief box
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "快讯 · En bref", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "快讯　En bref", 24, "sans", True, OLIVE)
 brefs = [
     ("霜降", "周五霜降:吃柿子,加衣服,看红叶。(第 3 版)"),
     ("体操", "中国体操男队在世锦赛拿到铜牌。(第 4 版)"),
@@ -136,15 +137,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "闪电问答 · Quiz éclair", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Lisez la page 1 et choisissez · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "闪电问答　Quiz éclair", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Lisez la page 1 et choisissez　答案见第8版", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "单选", "A", "Le paiement du solde a ouvert le 20 oct.",
       "天猫付尾款是哪一天? A. 10月20日 · B. 11月11日 · C. 10月15日", size=21)
 qf.ex("A2", "单选", "B", "En prévente, on paie d'abord l'acompte.",
@@ -161,19 +162,19 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · 生活 (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("生活 · Vie quotidienne", "Lucerna", "Niveau A2 · 双11日历 · 霜降生活 · Calendrier et vie de fin d'automne")
+p.band("生活　Vie quotidienne", "Lucerna", "Niveau A2　双11日历　霜降生活　Calendrier et vie de fin d'automne")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("双11日历:哪天付钱,哪天收货", 37)
-f.byline("Rédaction Lucerna · Niveau de lecture A2")
+f.title("双11日历:哪天付钱,哪天收货", 32)
+f.byline("Rédaction Lucerna　Niveau de lecture A2")
 f.para("双11不是一天,是一段时间。今年从10月中旬就开始了。先记住三个日子:10月15日、10月20日、11月13日。")
 f.para("10月15日晚上8点,淘宝、天猫开始预售。预售时先付定金,把喜欢的东西订下来。定金不多,但付了定金,就要记得付尾款。")
 f.para("10月20日晚上8点付尾款。尾款就是总价减去定金。付完尾款,商家就发货。京东10月20日晚上8点还有「开门红」,很多现货直接开卖。")
 f.para("从10月20日到11月13日是现货期。不想等预售的人,可以在这段时间直接买。这一周包裹很多,收货可能比平时慢一点。")
 f.gloss("zǒngjià 总价 — le prix total · fāhuò 发货 — expédier la marchandise · shāngjiā 商家 — un vendeur, une boutique.")
-f.head("满减怎么玩 · Le principe du 满减", 25)
+f.head("满减怎么玩　Le principe du 满减", 25)
 f.para("Les boutiques proposent souvent des offres comme « 满300减50 » : 300 yuans d'achat, 50 de moins. C'est le 满减 (mǎnjiǎn), la remise dès un montant atteint. Si votre panier n'atteint pas 300, vous ajoutez un petit article pour compléter : c'est le 凑单 (còudān). L'exemple ci-dessous utilise des chiffres d'exercice.")
-f.box("Exemple d'exercice · 练习例子", [
+f.box("Exemple d'exercice　练习例子", [
     ("一件外套 260 元,一条围巾 60 元,一起 320 元。", "serif", False, INK, 20, 1.35),
     ("满 300 减 50,实付 270 元。先付定金 30 元,尾款是 270 − 30 = 240 元。", "serif", False, INK, 20, 1.35),
 ])
@@ -182,7 +183,7 @@ f.para("10月23日,星期五,是霜降。霜降是二十四节气里的第十八
 f.para("霜降的时候,早上的草地上会有白白的霜。天气一天比一天冷,要记得加衣服。老话说:「补冬不如补霜降。」霜降时吃得好一点,冬天身体才好。")
 f.para("霜降吃柿子。还有一句话:「霜降吃柿子,嘴唇不会裂。」这个周末,去看看红叶、吃一个柿子,就是很好的安排。")
 f.gloss("jiéqì 节气 — les 24 termes solaires qui partagent l'année · shuāng 霜 — le givre · lìdōng 立冬 — le début de l'hiver, le 7 nov.")
-f.box("本周生活小日历 · Les dates", [
+f.box("本周生活小日历　Les dates", [
     ("周二 20:00 — 天猫付尾款,京东「开门红」", "serif", False, INK, 20, 1.35),
     ("周五 — 霜降:吃柿子,赏红叶,加衣服", "serif", False, INK, 20, 1.35),
     ("周六 01:00 — S16 瑞士轮开打(第 5 版)", "serif", False, INK, 20, 1.35),
@@ -199,18 +200,18 @@ facts = ["霜降是二十四节气里的第 18 个。",
          "上周日(10 月 18 日)是重阳节,故事在第 3 版。"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "你知道吗 · Le saviez-vous ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "你知道吗　Le saviez-vous ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "你呢?你住的地方,霜降的时候冷不冷?这个双11,你想买什么?写两句中文寄来。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Et vous ? Fait-il froid chez vous ? Que voulez-vous acheter pour ce 双11 ? Écrivez deux phrases en chinois.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "说说你自己 · Et vous ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "说说你自己　Et vous ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Et vous ? Fait-il froid chez vous ? Que voulez-vous acheter pour ce 双11 ? Écrivez deux phrases en chinois.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -218,8 +219,8 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- word strip ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "购物词语卡 · Cartes de mots : les achats", 28, "sans", True, OLIVE)
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "购物词语卡　Cartes de mots : les achats", 28, "sans", True, OLIVE)
 p.text(RIGHT, dy + 28, "Quatre mots présents dans toutes les applis d'achat", 20, "sans", False, GREY, anchor="end")
 words = [
     ("定金", "dìngjīn · l'acompte", "une petite partie du prix, payée d'abord"),
@@ -229,19 +230,19 @@ words = [
 ]
 for i, (t, lab, en) in enumerate(words):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 106, t, 34, "serif", True, OLIVE)
     yy = p.para(bx + 22, dy + 140, lab, 20.5, "serif", False, INK, CW - 44, 1.32)
-    p.para(bx + 22, yy + 19, en, 19, "sans", False, GREY, CW - 44, 1.3)
-p.para(MX, dy + 234, "Retenez la phrase : 「先付定金,后付尾款,买满三百还能减五十。」", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
+    p.para(bx + 22, yy + 5, en, 19, "sans", False, GREY, CW - 44, 1.3)
+p.para(MX, dy + 222, "Retenez la phrase : 「先付定金,后付尾款,买满三百还能减五十。」", 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P2 exercises ----
 ey = dy + 250
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "练习 · Exercices", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "练习　Exercices", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　答案见第8版", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · 读一读选一选 · Lire et choisir", 25)
+e.head("A　读一读选一选　Lire et choisir", 25)
 e.expl("Lisez la page 2 et choisissez la meilleure réponse.")
 e.ex("A2", "单选", "A", "La première date clé de la saison : le 15 oct.",
      "双11第一个要记的日子是哪天? A. 10月15日 · B. 11月11日 · C. 11月13日", size=19, gap=6)
@@ -253,7 +254,7 @@ e.ex("A2", "单选", "B", "C'est le 18e terme solaire.",
      "霜降是第几个节气? A. 第16个 · B. 第18个 · C. 第24个", size=19, gap=6)
 e.ex("A2", "单选", "A", "Le début de l'hiver suit ce terme.",
      "霜降以后是哪个节气? A. 立冬 · B. 冬至 · C. 寒露", size=19, gap=6)
-e.head("B · 词语填空 · Mots à compléter", 25)
+e.head("B　词语填空　Mots à compléter", 25)
 e.expl("Complétez chaque blanc avec le mot juste.")
 e.ex("A2", "完成句子", "定金", "dìngjīn : l'acompte payé en prévente.",
      "预售时先付___。", instr="Complétez", size=19, gap=6)
@@ -265,7 +266,7 @@ e.ex("A2", "完成句子", "霜", "shuāng : le givre blanc sur l'herbe.",
      "霜降的早上,草地上有白白的___。", instr="Complétez", size=19, gap=6)
 e.ex("B1", "完成句子", "节气", "jiéqì : c'est le dernier terme solaire de l'automne.",
      "二十四___里,霜降是秋天的最后一个。", instr="Complétez", size=19, gap=6)
-e.head("C · 数字与日期 · Chiffres et dates", 25)
+e.head("C　数字与日期　Chiffres et dates", 25)
 e.expl("Utilisez l'exemple d'exercice de cette page.")
 e.ex("A2", "完成句子", "260", "Le manteau coûte 260 yuans dans l'exemple.",
      "练习例子里,外套___元。", instr="Complétez", size=19, gap=6)
@@ -275,7 +276,7 @@ e.ex("B1", "完成句子", "270", "320 − 50 = 270 yuans après la remise.",
      "满减以后实付___元。", instr="Complétez", size=19, gap=6)
 e.ex("B1", "完成句子", "240", "Le solde : 270 − 30 = 240 yuans.",
      "练习例子里的尾款是___元。", instr="Complétez", size=19, gap=6)
-e.head("D · 词语配对 · Associations", 25)
+e.head("D　词语配对　Associations", 25)
 e.match_set("A2", "词汇配对",
             ["定金", "尾款", "满减", "节气"],
             ["划分一年的 24 个时间点",

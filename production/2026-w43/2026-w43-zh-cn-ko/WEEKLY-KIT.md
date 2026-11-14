@@ -71,8 +71,8 @@
 
 ## 8. 实测针脚（最终产物，磁盘实测）
 
-- 网页 PDF：Lucerna-VOL1-web.pdf — **3,053,308 B** · sha256 `e7c7f69f3ef552845dd3b1dfcd1f666e0384d05130a5d11dd3b4800c1841d439`（< 10 MB ✓）
-- 印刷 PDF：Lucerna-VOL1.pdf — **63,137,268 B** · sha256 `64735d9514224c537cea358942c56afe0446c3e3a484985a5d272ca100ec8fac`
+- 网页 PDF：Lucerna-VOL1-web.pdf — **3,399,555 B** · sha256 `5060746a59f00f1b7696b2400d74f856ee06ba61dda762974c22e25f95e66e0f`（< 7 MB ✓）
+- 印刷 PDF：Lucerna-VOL1.pdf — **60,279,792 B** · sha256 `f96ebda380f21f646c879802ceae044c184ed29de5d11767dcc1d7f3bfb5b838`
 - svg ×8、cards ×8（1950×2700）；练习 150（A2 56 · B1 65 · B2 29）；页数 8。
 - 核心完整性：收尾 freeze.py baseline 8/8 逐字节，核心出货目录未被触碰。
 
@@ -93,4 +93,37 @@
 - **日历**（Asia/Shanghai `date` 实测）：10/18 周日（重阳）、10/19 周一、10/20 周二 20:00（付尾款）、10/23 周五（霜降）、10/24 周六（S16 凌晨场）、11/7 立冬 — 与冻结正文及韩注全合。
 - **残留**：英语散文残留 = 0（≥4 连词拉丁串扫描零命中；存留仅署名行/品牌/专名/拼音词目）；他列家具 = 0；bridge/桥接 于页面与 operative code = 0（核心无 bridge()，讲解法即 gloss()，实证）；paper 于渲染文本 = 0，代码中 4 处为 svglib/bslib4 的 PAPER 纸色常量与 docstring（与核心同数 4，继承库代码，非术语）；杂散引号：本版 `'` 仅 «'붕괴'» ×2 = 4 个（P8 #92 注等），与核心 «'crash'» ×2 同位同数，余页差额全为英语所有格撇号的正当去除，每页本版 ≤ 核心；svglib.py 与核心 md5 逐字节同（59fddd17…）。
 - **卡面**：8 页卡片全部肉眼核毕，韩文字形无缺字/方框，无溢出。
-- **最终针脚（校对员磁盘实测，与 §8 一致）**：网页 PDF 3,053,308 B · sha256 `e7c7f69f3ef552845dd3b1dfcd1f666e0384d05130a5d11dd3b4800c1841d439`（8 页，<10 MB）；印刷 PDF 63,137,268 B · sha256 `64735d9514224c537cea358942c56afe0446c3e3a484985a5d272ca100ec8fac`（8 页）；SVG sha256 前缀 p1 d331d10a · p2 60986d0d · p3 441e98a4 · p4 cfaf779f · p5 6d1d0abd · p6 4dca7b51 · p7 384cc46a · p8 8c72f220。校对 scratch 在 hidden_files/proof-zh-cn-ko/。
+- **最终针脚（校对员磁盘实测，与 §8 一致）**：网页 PDF 3,399,555 B · sha256 `5060746a59f00f1b7696b2400d74f856ee06ba61dda762974c22e25f95e66e0f`（8 页，<7 MB）；印刷 PDF 60,279,792 B · sha256 `f96ebda380f21f646c879802ceae044c184ed29de5d11767dcc1d7f3bfb5b838`（8 页）；SVG sha256 前缀 p1 d331d10a · p2 60986d0d · p3 441e98a4 · p4 cfaf779f · p5 6d1d0abd · p6 4dca7b51 · p7 384cc46a · p8 8c72f220。校对 scratch 在 hidden_files/proof-zh-cn-ko/。
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-ko/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-ko.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "cjk"`（mode=cjk variant=KR），
+svglib.py 与基线差 141 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 62,355,555 字节（SHA-match）；
+印/网文字层差 0（17,356 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 247、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**：run1 零缺陷，无需修复（一次通过）。
+
+**门禁 run1（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（3,399,555 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 137，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（51 titles，813 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 17,356 字符）；
+text.md BYTE-IDENTICAL（43,912 B）；15b CARRYOVER FAIL（207/4134；基线对照亦 FAIL 188/3921），按 D27 口径验收。
+native verifier 907/907 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 365.7px PASS。P8：2595 节点，距页脚线余量 35.85px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1.pdf` 60,279,792 字节（SHA-256 `f96ebda380f21f646c879802ceae044c184ed29de5d11767dcc1d7f3bfb5b838`）；网 `Lucerna-VOL1-web.pdf` 3,399,555 字节（SHA-256 `5060746a59f00f1b7696b2400d74f856ee06ba61dda762974c22e25f95e66e0f`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `8c7080f6c0c96b3e655d8c0c6b122e1918b044063ff2169dece5b566853fbd7f`）。D5 前值：印 63,137,268 字节、网 3,053,308 字节（`e7c7f69f…`，issues 已发版）。
+练习仍为 150 题。

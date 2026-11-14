@@ -99,8 +99,8 @@
 
 | 文件 | 字节 | sha256 |
 |---|---|---|
-| Lucerna-VOL1-RU.pdf（印刷） | 58,820,453 | d03e3a5591b427222b22b8908504b0345139f72b69f8ab93e3f6621a91f77207 |
-| Lucerna-VOL1-RU-web.pdf（网页） | 3,262,495 | 67d928fb4b87beda61e9134c188bc0432747a3d4549b49ca137beed5a08e26b8 |
+| Lucerna-VOL1-RU.pdf（印刷） | 56,162,944 | bb0ed8baf4ae6e7aa3557091927dc4b93f8a0ce452a4f166a8e4d5b16a56ffc2 |
+| Lucerna-VOL1-RU-web.pdf（网页） | 3,142,097 | ee0b2f977d3ae80616f46e5306d2fc2752bca9edc2dc3d23bb582c4606e5b371 |
 
 - 网页 PDF 3.26 MB < 10 MB ✓；两 PDF 均 8 页。
 - svg ×8、cards ×8 齐全（`files/weekly-report-zh-cn-ru/svg|cards`）。
@@ -135,6 +135,43 @@
 
 **红线与残留**：正文 + 俄语讲解政治词扫描 = 0（中国国内政治亦 0）；英语讲解残留 = 0（新增串拉丁词全为拼音碎片/专名/署名，P7 一处 «Friday evening, Oct 23» 为俄语讲解内引例，属冻结教学例）；荷兰语残留 = 0；禁用术语在纸面/KIT/operative 代码/scratch 全域 = 0。
 
-**终针脚（实测）**：印刷版 Lucerna-VOL1-RU.pdf 58,820,453 B · sha256 d03e3a5591b427222b22b8908504b0345139f72b69f8ab93e3f6621a91f77207 · 8 页；网页版 Lucerna-VOL1-RU-web.pdf 3,262,495 B · sha256 67d928fb4b87beda61e9134c188bc0432747a3d4549b49ca137beed5a08e26b8 · 8 页（< 10 MB）——与 KIT §1 登记全同。
+**终针脚（实测）**：印刷版 Lucerna-VOL1-RU.pdf 56,162,944 B · sha256 bb0ed8baf4ae6e7aa3557091927dc4b93f8a0ce452a4f166a8e4d5b16a56ffc2 · 8 页；网页版 Lucerna-VOL1-RU-web.pdf 3,142,097 B · sha256 ee0b2f977d3ae80616f46e5306d2fc2752bca9edc2dc3d23bb582c4606e5b371 · 8 页（< 7 MB）——与 KIT §1 登记全同。
 
 **裁定：PASS（完整独立一轮零问题，无需修复）。** 未入仓、未发 Discord。
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-ru/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-ru.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "ru"`（mode=ru variant=SC），
+svglib.py 与基线差 99 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 57,699,622 字节（SHA-match）；
+印/网文字层差 0（23,881 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 249、西里尔 329、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**（run1 → run2；修法只动字号/内容侧几何常数，未动任何文字内容；每处修复后全量重渲 + 全部门禁重跑）：
+
+| # | 门 | 位置 / 内容 | 实测 | 修法 | P8 |
+|---|---|---|---|---|---|
+| F1 | G11 boxtitle + G13 creambox（同一项，两门同计） | P1 热搜框出处 `Источник: зеркало горячих поисков (rddh.cn)`（content12.py:86，18.5pt，x=1461.5，y=1224） | Noto Sans ink_r 1881.5，框右 1862 → 超 +19.5px。creambox 基线同行超 +9.5px——既有缺陷，D5 加重（Noto Sans 西里尔墨水比 Noto Sans CJK SC 的西里尔宽：基线 ink_r 1871.5，patched 1881.5）。PIL 校准：PIL advance 宽在此低估 Noto Sans 墨水 9.0px（PIL 411.0 → 1872.5 vs 工具 1881.5；CJK 基线 PIL 与工具一致，1871.4 vs 1871.5）。计入 +9.0 墨水修正：17.5pt → ink_r ≈1859.3（余量 2.7px，太薄）；**17pt → ink_r ≈1847.5–1848.2，余量 ≈13.8–14.5px** | `content12.py:86` 18.5→**17** |
+
+**门禁 run2（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 805（D26 旧分支：Latin AND Cyrillic → Noto Sans）；
+render RC=0；webpdf RC=0（3,142,097 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 113，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（41 titles，504 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 23,881 字符）；
+text.md BYTE-IDENTICAL（51,254 B）；15b CARRYOVER FAIL（203/2066；基线对照亦 FAIL 204/2055），按 D27 口径验收。
+native verifier 915/915 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 219.1px PASS。P8：2284 节点，距页脚线余量 35.85px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1-RU.pdf` 56,162,944 字节（SHA-256 `bb0ed8baf4ae6e7aa3557091927dc4b93f8a0ce452a4f166a8e4d5b16a56ffc2`）；网 `Lucerna-VOL1-RU-web.pdf` 3,142,097 字节（SHA-256 `ee0b2f977d3ae80616f46e5306d2fc2752bca9edc2dc3d23bb582c4606e5b371`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `7bb9804db2971d230ad7e537be424e0a74c66b7926cc29cd8e56bd798e35e715`）。D5 前值：印 58,820,453 字节、网 3,262,495 字节（`67d928fb…`，issues 已发版）。
+练习仍为 150 题。

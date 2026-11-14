@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-zh-cn-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 青年 (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("青年 · Jugend", "Lucerna", "Niveau B1 · 电竞 S16 · 维密秀 · 红包口令 · Worlds S16 & die Modenschau")
+p.band("青年　Jugend", "Lucerna", "Niveau B1　电竞 S16　维密秀　红包口令　Worlds S16 & die Modenschau")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-feature")
-f.title("看S16要通宵了", 37)
-f.byline("Lucerna-Redaktion · Leseniveau B1")
+f.title("看S16要通宵了", 32)
+f.byline("Lucerna-Redaktion　Leseniveau B1")
 f.para("《英雄联盟》全球总决赛 S16 正在美国举行。比赛从10月15日到11月14日,在三个城市打:洛杉矶、艾伦和纽约。")
 f.para("10月15日到18日是入围赛,在洛杉矶。10月23日到31日是瑞士轮,在得克萨斯州的艾伦市。11月初,还是在艾伦打淘汰赛。")
 f.para("总决赛在11月14日举行,地点是纽约的巴克莱中心。换成北京时间,是11月15日凌晨3点。难怪网友说:「看S16,要通宵了!」")
@@ -26,7 +26,7 @@ f.para("10月19日星期一早上7点30分(北京时间),维多利亚的秘密�
 f.para("中国模特刘雯也走秀了。这是她第十次走上维密的舞台。对中国观众来说,她的出场是最大的看点之一。")
 f.para("这场秀在洛杉矶举行,换成北京时间是早上7点30分。很多中国观众一大早就在手机上看直播,一边看,一边在网上聊天。")
 f.gloss("zǒuxiù 走秀 — über den Laufsteg gehen · mótè 模特 — ein Model · zhíbō 直播 — ein Livestream.")
-f.box("这一周的高频词 · Wörter der Woche", [
+f.box("这一周的高频词　Wörter der Woche", [
     ("红包口令 — ein Codewort, das ein Geschäft ausgibt: in der Shopping-App eingeben und ein rotes Päckchen abholen.", "serif", False, INK, 20, 1.35),
     ("双11 期间,大家在群里互相发口令,一起领红包。", "serif", False, INK, 20, 1.35),
 ])
@@ -43,18 +43,18 @@ facts = ["10月23日—31日 — 瑞士轮(美国艾伦)",
          "北京时间11月15日 03:00 — 总决赛开打"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "S16 小日历 · S16-Termine", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "S16小日历　S16-Termine", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "你呢?你会为了看比赛通宵吗?你最喜欢哪支队?写两句中文寄来。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Und Sie? Würden Sie für ein Spiel die ganze Nacht wach bleiben? Welches Team unterstützen Sie? Schreiben Sie zwei Sätze auf Chinesisch.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "说说你自己 · Und Sie?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "说说你自己　Und Sie?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Und Sie? Würden Sie für ein Spiel die ganze Nacht wach bleiben? Welches Team unterstützen Sie? Schreiben Sie zwei Sätze auf Chinesisch.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -62,11 +62,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "练习 · Übungen", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "练习　Übungen", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8　答案见第8版", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · 读一读选一选 · Lesen & wählen", 25)
+e.head("A　读一读选一选　Lesen & wählen", 25)
 e.glossline("Lesen Sie Seite 5 und wählen Sie die beste Antwort.")
 e.ex("B1", "单选", "A", "S16 (Worlds 2026) wird in den USA gespielt.",
      "S16 在哪个国家举行? A. 美国 · B. 中国 · C. 韩国", size=19, gap=6)
@@ -78,7 +78,7 @@ e.ex("B1", "单选", "B", "Die LPL schickt vier Teams: AL, BLG, TES, IG.",
      "LPL 有几支队打 S16? A. 三支 · B. 四支 · C. 十九支", size=19, gap=6)
 e.ex("B1", "单选", "A", "Die Modenschau: Mo., 19. Okt., Pekinger Zeit, Livestream.",
      "维密秀在北京时间哪天直播? A. 10月19日 · B. 10月20日 · C. 11月14日", size=19, gap=6)
-e.head("B · 词语填空 · Wörter einsetzen", 25)
+e.head("B　词语填空　Wörter einsetzen", 25)
 e.glossline("Setzen Sie in jede Lücke das richtige Wort.")
 e.ex("B1", "完成句子", "通宵", "tōngxiāo — für ein Spiel die ganze Nacht wach bleiben.",
      "看比赛看到天亮,这叫___。", instr="Ausfüllen", size=19, gap=6)
@@ -90,7 +90,7 @@ e.ex("B1", "完成句子", "口令", "kǒulìng — Codewort eingeben, rotes Pä
      "在 App 里输入___,就能领红包。", instr="Ausfüllen", size=19, gap=6)
 e.ex("A2", "完成句子", "四", "Vier LPL-Teams spielen bei S16.",
      "十九支队里,LPL 有___支。", instr="Ausfüllen", size=19, gap=6)
-e.head("C · 时间换算 · Zeit umrechnen", 25)
+e.head("C　时间换算　Zeit umrechnen", 25)
 e.glossline("Rechnen Sie die Zeiten in Pekinger Zeit um.")
 e.ex("B1", "完成句子", "15", "Der 14. Nov. in New York ist der 15. Nov. in Peking.",
      "总决赛在美国时间11月14日,北京时间是11月___日。", instr="Ausfüllen", size=19, gap=6)
@@ -100,7 +100,7 @@ e.ex("B1", "完成句子", "4", "Einige spätere Spiele beginnen um 04:00 Uhr Pe
      "后面的比赛,有的在凌晨___点开始。", instr="Ausfüllen", size=19, gap=6)
 e.ex("B2", "完成句子", "难怪", "难怪 nánguài — kein Wunder: alle bleiben wach.",
      "比赛在凌晨三点开始,___网友说要通宵。", instr="Ausfüllen", size=19, gap=6)
-e.head("D · 词语配对 · Zuordnen", 25)
+e.head("D　词语配对　Zuordnen", 25)
 e.match_set("B1", "词汇配对",
             ["入围赛", "瑞士轮", "淘汰赛", "总决赛"],
             ["最后一场比赛,决定冠军",
@@ -118,11 +118,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 深读 (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深读 · Vertiefung", "Lucerna", "Niveau B2 · 大闸蟹价格争议 · Stürzt der Krabbenpreis wirklich ab?")
+p.band("深读　Vertiefung", "Lucerna", "Niveau B2　大闸蟹价格争议　Stürzt der Krabbenpreis wirklich ab?")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1180, tag="P6-feature")
-f.title("大闸蟹「价格崩盘」,是真的吗?", 37)
-f.byline("Lucerna-Redaktion · Leseniveau B2")
+f.title("大闸蟹「价格崩盘」,是真的吗?", 32)
+f.byline("Lucerna-Redaktion　Leseniveau B2")
 f.para("这几天,网上有文章说:大闸蟹「全面滞销」,价格「暴跌超过40%」。大闸蟹真的卖不动了吗?我们查了数据,也看了行业里的说法。")
 f.para("先看价格。北京新发地市场的数据说:中秋节那天,约三两的母蟹平均77.5元一斤。10月6日,价格是57.5元一斤。10月15日以后,价格触底,又慢慢涨回来。")
 f.para("从77.5元到57.5元,便宜了20元,大约是25.8%。这个数字,比网上的「暴跌40%」小得多。")
@@ -136,8 +136,8 @@ f.end_report()
 
 # ---- price chart (cols 0-2), bars exactly proportional from zero ----
 ly = 1210
-p.text(MX, ly + 26, "新发地批发价:约三两母蟹(元/斤)· Xinfadi-Großhandelspreise", 26, "sans", True, OLIVE)
-p.hline(MX, COLX[2] + CW, ly + 40, GOLD, 2)
+p.text(MX, ly + 26, "新发地批发价:约三两母蟹(元/斤)　Xinfadi-Großhandelspreise", 26, "sans", True, OLIVE)
+p.hline(MX, COLX[2] + CW, ly + 40, OLIVE, 2)
 rows = [("中秋节当天", 77.5), ("10月6日", 57.5)]
 SCALE = 6.0
 by0 = ly + 66
@@ -145,8 +145,8 @@ for i, (name, val) in enumerate(rows):
     yy = by0 + i * 64
     p.text(MX, yy + 34, name, 24, "sans", True, INK)
     bw_ = val * SCALE
-    p.rect(MX + 190, yy + 6, bw_, 34, fill=OLIVE if i == 0 else GOLD)
-    p.text(MX + 190 + bw_ + 16, yy + 34, f"{val} 元/斤", 24, "serif", True, INK)
+    p.rect(MX + 190, yy + 6, bw_, 34, fill=OLIVE)
+    p.text(MX + 190 + bw_ + 16, yy + 34, f"{val}元/斤", 24, "serif", True, INK)
 p.para(MX, by0 + 2 * 64 + 22, "Die Balken beginnen bei 0 (6 px = 1 Yuan). Die Preise erreichten nach dem 15. Okt. den Tiefpunkt und stiegen wieder; für den Anstieg meldeten die Berichte keine Zahl, darum kein Balken dafür. Quellen: 新浪财经 (Sina Finance) und 华龙网 (20.10.2026); 中华网 (10.10.2026).", 20.5, "serif", False, GREY, 1388, 1.4)
 
 # col 3: crab + facts + minicrabs
@@ -159,9 +159,9 @@ facts = ["阳澄湖 9 月 28 日开捕",
          "九月圆脐,十月尖"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "蟹的小知识 · Krabbenwissen", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "蟹的小知识　Krabbenwissen", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in facts:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
@@ -173,11 +173,11 @@ print("P6 col3 ends", ay3 + 300)
 
 # ---- P6 exercises ----
 ey = 1560
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "练习 · Übungen", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Lösungen auf Seite 8 · 答案见第 8 版", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "练习　Übungen", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Lösungen auf Seite 8　答案见第8版", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · 读一读选一选 · Lesen & wählen", 25)
+e.head("A　读一读选一选　Lesen & wählen", 25)
 e.glossline("Lesen Sie Seite 6 und wählen Sie die beste Antwort.")
 e.ex("B2", "单选", "B", "Netzbeiträge behaupteten: Preise um über 40 % gestürzt.",
      "网上的文章说大闸蟹价格怎么样? A. 涨了40% · B. 暴跌超过40% · C. 完全没变", size=19, gap=6)
@@ -189,7 +189,7 @@ e.ex("B2", "单选", "B", "20 ÷ 77,5 ≈ 25,8 % — der wirkliche Rückgang.",
      "真正算一下,价格大约降了多少? A. 40% · B. 25.8% · C. 2.58%", size=19, gap=6)
 e.ex("B2", "单选", "A", "Die Saison am Yangcheng-See öffnete am 28. Sept.",
      "阳澄湖大闸蟹什么时候开捕? A. 9月28日 · B. 10月18日 · C. 中秋节当天", size=19, gap=6)
-e.head("B · 词语填空 · Wörter einsetzen", 25)
+e.head("B　词语填空　Wörter einsetzen", 25)
 e.glossline("Setzen Sie in jede Lücke das richtige Wort.")
 e.ex("B2", "完成句子", "滞销", "zhìxiāo — Ware, die sich nicht verkauft.",
      "东西卖不动,叫___。", instr="Ausfüllen", size=19, gap=6)
@@ -201,7 +201,7 @@ e.ex("B2", "完成句子", "产量", "chǎnliàng — erwartete Produktion: etwa
      "今年阳澄湖大闸蟹预计总___约1.01万吨。", instr="Ausfüllen", size=19, gap=6)
 e.ex("B2", "完成句子", "夸张", "kuāzhāng — die „Crash“-Schlagzeile ist übertrieben.",
      "「崩盘」的说法太___了。", instr="Ausfüllen", size=19, gap=6)
-e.head("C · 数字与计算 · Rechnen", 25)
+e.head("C　数字与计算　Rechnen", 25)
 e.glossline("Rechnen Sie mit den Preisen von Seite 6.")
 e.ex("B2", "完成句子", "20", "77,5 − 57,5 = 20 Yuan billiger.",
      "77.5 − 57.5 = ___元。", instr="Ausfüllen", size=19, gap=6)
@@ -211,7 +211,7 @@ e.ex("B1", "完成句子", "重量", "三两 beschreibt das Gewicht der Krabbe (
      "约三两的母蟹,「三两」说的是蟹的___。", instr="Ausfüllen", size=19, gap=6)
 e.ex("B1", "完成句子", "10", "Mitteilung: 18. Okt.; Stellungnahme: 19. Okt.",
      "协会___月18日发通知,19日发声明。", instr="Ausfüllen", size=19, gap=6)
-e.head("D · 词语配对 · Zuordnen", 25)
+e.head("D　词语配对　Zuordnen", 25)
 e.match_set("B2", "词汇配对",
             ["蟹黄", "蟹膏", "蟹券", "圆脐"],
             ["买蟹的礼品券",

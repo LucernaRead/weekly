@@ -127,10 +127,10 @@ politics, per the zh-edition rule.
 ## Deliverables and PDF pins
 
 - `svg/` ×8, `cards/` ×8 (1950×2700) in this directory.
-- Print PDF: `Lucerna-VOL1-IT.pdf` — 67,291,606 bytes —
-  sha256 `cb99ae772c661cd136857d866d850c0a75dd0eb1e7197aea9db5159220439fe9`
-- Web PDF: `Lucerna-VOL1-IT-web.pdf` — 3,246,493 bytes (< 10 MB) —
-  sha256 `d61b31da346d90f9682fc7c51a15df0c95dfbfa706850eae61f00b5015433d99`
+- Print PDF: `Lucerna-VOL1-IT.pdf` — 55,554,488 bytes —
+  sha256 `eb866375cbb5c9ffa98a9d5fc13ffde89c2e00da08d33278e058c3ac77548d8a`
+- Web PDF: `Lucerna-VOL1-IT-web.pdf` — 2,898,352 bytes (< 7 MB) —
+  sha256 `1031a7a0504a585696b1e7c736a38f8bcefbb6f18ec11cb8f2c307e69732865e`
   (These pins supersede the builder's originals — 67,291,731 /
   `d62ba9f0…` and 3,246,674 / `6c8b8cec…` — after the proofreader's
   P7 title fix and full re-render; see the proofread record below.)
@@ -248,7 +248,40 @@ faithful rendering of the actual core note.
 **Core integrity.** The frozen core's shipped SVG hashes were recorded
 before the pass and re-verified after all work: unchanged, 8/8.
 
-**Final pins.** Web PDF 3,246,493 B, sha256
-`d61b31da346d90f9682fc7c51a15df0c95dfbfa706850eae61f00b5015433d99`
-(< 10 MB); print PDF 67,291,606 B, sha256
-`cb99ae772c661cd136857d866d850c0a75dd0eb1e7197aea9db5159220439fe9`.
+**Final pins.** Web PDF 2,898,352 B, sha256
+`1031a7a0504a585696b1e7c736a38f8bcefbb6f18ec11cb8f2c307e69732865e`
+(< 7 MB); print PDF 55,554,488 B, sha256
+`eb866375cbb5c9ffa98a9d5fc13ffde89c2e00da08d33278e058c3ac77548d8a`.
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-it/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-it.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "latin"`（mode=latin variant=SC），
+svglib.py 与基线差 99 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 65,332,640 字节（SHA-match）；
+印/网文字层差 0（25,046 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 464、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**：run1 零缺陷，无需修复（一次通过）。
+
+**门禁 run1（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（2,898,352 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 269，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（41 titles，449 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 25,046 字符）；
+text.md BYTE-IDENTICAL（43,551 B）；15b CARRYOVER FAIL（394/1497；基线对照亦 FAIL 373/1482），按 D27 口径验收。
+native verifier 915/915 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 303.2px PASS。P8：856 节点，距页脚线余量 34.22px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1-IT.pdf` 55,554,488 字节（SHA-256 `eb866375cbb5c9ffa98a9d5fc13ffde89c2e00da08d33278e058c3ac77548d8a`）；网 `Lucerna-VOL1-IT-web.pdf` 2,898,352 字节（SHA-256 `1031a7a0504a585696b1e7c736a38f8bcefbb6f18ec11cb8f2c307e69732865e`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `5bf84c071c95ebc676ff25db08ef86d46fd4a68720e02061965c620eee011a4b`）。D5 前值：印 67,291,606 字节、网 3,246,493 字节（`d61b31da…`，issues 已发版）。
+练习仍为 150 题。

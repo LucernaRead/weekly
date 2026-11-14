@@ -125,8 +125,8 @@ Printed in PT as `Foto: <artist> — CC0 (Wikimedia Commons)`; the 1896 image as
 
 ## 10. Deliverables
 - svg/ ×8 · cards/ ×8 (1950×2700 PNG)
-- Print PDF: Lucerna-VOL1-PT.pdf — 67,307,684 bytes · sha256 78c33cb80955221f8b50437f1ece0e4799385bb7cd0a75a6d81e49c18a1fa5c1
-- Web PDF: Lucerna-VOL1-PT-web.pdf — 3,263,463 bytes (< 10 MB ✓) · sha256 3fb977b1f73079fbbd874eaf1515eb820e0054ccb02f63e3e44f0fab792382f4
+- Print PDF: Lucerna-VOL1-PT.pdf — 55,564,053 bytes · sha256 eecb50bce0fdda297aa91564473495d66232cc5cedb8867aaddf8464bfcbff6f
+- Web PDF: Lucerna-VOL1-PT-web.pdf — 2,908,240 bytes (< 7 MB ✓) · sha256 2a00a18ead9082f8574d70d77aa9d9546d1076d4bb85e9fef389f33e7473d032
 
 ## 11. Proofread status
 - Builder's full proofread: DONE — all 8 pages read end-to-end from the rendered cards;
@@ -191,9 +191,46 @@ Printed in PT as `Foto: <artist> — CC0 (Wikimedia Commons)`; the 1896 image as
   - Furniture: badge, footers, `Página N de 8`, gloss prefix `Nota — `, masthead
     `Lucerna` verified verbatim on all pages against §5. The intermediary-layer term:
     0 occurrences in the paper, this KIT, and the operative build code.
-  - PDFs (measured by the proofreader): web 3,263,463 bytes (< 10 MB ✓) sha256
-    3fb977b1f73079fbbd874eaf1515eb820e0054ccb02f63e3e44f0fab792382f4; print
-    67,307,684 bytes sha256 78c33cb80955221f8b50437f1ece0e4799385bb7cd0a75a6d81e49c18a1fa5c1.
+  - PDFs (measured by the proofreader): web 2,908,240 bytes (< 7 MB ✓) sha256
+    2a00a18ead9082f8574d70d77aa9d9546d1076d4bb85e9fef389f33e7473d032; print
+    55,564,053 bytes sha256 eecb50bce0fdda297aa91564473495d66232cc5cedb8867aaddf8464bfcbff6f.
   - Core integrity: the frozen core's 8 shipped SVG sha256 re-verified at the end of
     the pass — all unchanged (d75ee1bc… / 0addf9e7… / c1fc3eda… / 84233560… /
     db594dd2… / 2987188a… / 4f598f28… / 8ac2807b…), matching §1's baseline values.
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-pt/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-pt.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "latin"`（mode=latin variant=SC），
+svglib.py 与基线差 99 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 144,208,249 字节（SHA-MISMATCH（冷缓存膨胀；fanout 64,569,287））；
+印/网文字层差 0（24,560 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 466、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**（run1 → run2；修法只动字号/内容侧几何常数，未动任何文字内容；每处修复后全量重渲 + 全部门禁重跑）：
+
+| # | 门 | 位置 / 内容 | 实测 | 修法 | P8 |
+|---|---|---|---|---|---|
+| F1 | G6 occlusion | P1 版行 `TEXTOS EM CHINÊS SIMPLIFICADO　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA`（content12.py:23，16pt sans，anchor middle x=975，y=612） | Newsreader 葡语 run x=763.6，墨水右缘 1496.6；`本周热搜`标题墨水起于 1461.5 → 重叠 35.1×9.5px。基线（单 CJK run）总宽 926.1px，右缘 1438.0，occlusion 0 flags——D5 引起（整行 926.1→1044.1px）。PIL 实测：15pt → 右缘 1464.4（仍盖 −2.9px）；**14.5pt → 右缘 1448.1，余量 13.4px**；14pt → 1431.8（29.7px） | `content12.py:23` 16→**14.5**（15pt 不够——实测，非假设） |
+
+**门禁 run2（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（2,908,240 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 278，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（41 titles，457 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 24,560 字符）；
+text.md BYTE-IDENTICAL（43,589 B）；15b **N/A**：共享工具无 `pt` 表（rc=2），按 D27 口径以 15a + 15c 验收。
+native verifier 915/915 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 298.2px PASS。P8：856 节点，距页脚线余量 34.22px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1-PT.pdf` 55,564,053 字节（SHA-256 `eecb50bce0fdda297aa91564473495d66232cc5cedb8867aaddf8464bfcbff6f`）；网 `Lucerna-VOL1-PT-web.pdf` 2,908,240 字节（SHA-256 `2a00a18ead9082f8574d70d77aa9d9546d1076d4bb85e9fef389f33e7473d032`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `05e8604af2aa0eb555f3b3ca31cb3d57a5fc0576a041d1214d3f52c60e0e2326`）。D5 前值：印 67,307,684 字节、网 3,263,463 字节（`3fb977b1…`，issues 已发版）。
+练习仍为 150 题。

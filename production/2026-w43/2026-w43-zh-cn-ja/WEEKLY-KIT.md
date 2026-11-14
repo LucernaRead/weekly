@@ -113,6 +113,39 @@
 
 ### §10.4 终版针脚（修复后实测，取代 §7）
 
-- 网页 PDF：Lucerna-VOL1-web.pdf — **3,085,339 B**（< 10 MB）· sha256 **174cfc7b8ee2769d2d7d910ee5db0bfb7a0bd190a957c07b066cdcb4569a778e**
-- 印刷 PDF：Lucerna-VOL1.pdf — **61,630,665 B** · sha256 **28a3253187b46f0099eefb50e62f2dc2985d56679705cbf215ea75e2a87c8067**
+- 网页 PDF：Lucerna-VOL1-web.pdf — **3,461,253 B**（< 7 MB）· sha256 **d14080d3f60ac697a80b624a865d9a8f31daca213aaca436f0633cb7e46a59e0**
+- 印刷 PDF：Lucerna-VOL1.pdf — **60,018,403 B** · sha256 **db10324c412be18e6ca54f839c0d45f58b33bd26f7358b36d4a9760b14a3c746**
 - 校对 scratch：hidden_files/proof-zh-cn-ja/（归因/注册表/几何/扫描脚本与 json 证据、改道副本 build-hy/build-ja 与对照渲染）。
+
+## D5 重建记录（2026-11-14，D5-only）
+
+SOP §1.1 字体修复：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader（ru 读者版 Latin AND Cyrillic → Noto Sans，D26 旧分支）。
+施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：
+`hidden_files/d5-redo/scratch-2026-w43-zh-cn/logs/2026-w43-zh-cn-ja/`；
+逐版报告：`production/notes/2026-w43/g-zh-cn/scratch-d5-rebuild-zh-cn/D5-REPORT-2026-w43-zh-cn-ja.md`。
+
+**装机**：installer 无法在 face= 引擎上运行（`cmap: pattern found 0x, expected 1`），改由手 port
+脚本 `scripts/d5_port_zhcn.py`（`scripts/install_zhcn.sh`，`logs/install.log`，`INSTALL DONE fail=0`）；
+本版 port RC=0，路由单元测试 `scripts/test_d5_routing_zhcn.py` **FAILURES: 0**（66 PASS）；
+fix2 块保留（5 处）+ `_QUOTE_CLS` 4 处；装后 `_D5_READER = "cjk"`（mode=cjk variant=JP），
+svglib.py 与基线差 141 行。
+
+**基线**（修前生产版）：run TOTAL 150，0 警告；印 PDF 61,272,616 字节（SHA-match）；
+印/网文字层差 0（17,467 字符）；残差 {·:164, —:1}；修前普查 D5 拉丁 249、西里尔 0、
+弯引号在 CJK 0；基线 P8 noted 150/150。
+
+**缺陷与修法**：run1 零缺陷，无需修复（一次通过）。
+
+**门禁 run1（全套 17 门 + D18，ALL-GREEN）**：run TOTAL 150、0 警告；head_check 0；d5 census lat 0 / cyr 0 / curly_cjk 0 / noto 0；
+render RC=0；webpdf RC=0（3,461,253 B < 7 MB）；occlusion 0 flags；p8 extract noted 150/150；
+p8 compare **CLEAN**（core 150 vs 本版 150，missing=[] extra_count=0 keydiff=[]；[108] 两边都在，无 EXTRA_ONLY、无 SHORT）；
+freeze baseline 8/8；freeze diff 新增 CJK 字符 0（新增拉丁 strings 138，run 拆分所致）；
+spill 0；boxtitle 0 DEFECT（25 titles，550 body lines，1 marginal）；
+edge 0/0；creambox PASS 0 defects；文字层 print=web 差 0（各 17,467 字符）；
+text.md BYTE-IDENTICAL（43,577 B）；15b CARRYOVER FAIL（198/3711；基线对照亦 FAIL 176/3651），按 D27 口径验收。
+native verifier 907/907 UNEXPECTED 0；census_quotes 0 defective；本家无 gates.py；
+D18 刊头 slogan/date 间隙 349.1px PASS。P8：1408 节点，距页脚线余量 35.85px（正，无溢出）。
+
+**新交付物**：印 `Lucerna-VOL1.pdf` 60,018,403 字节（SHA-256 `db10324c412be18e6ca54f839c0d45f58b33bd26f7358b36d4a9760b14a3c746`）；网 `Lucerna-VOL1-web.pdf` 3,461,253 字节（SHA-256 `d14080d3f60ac697a80b624a865d9a8f31daca213aaca436f0633cb7e46a59e0`，< 7 MB）；
+text.md 与 fanout BYTE-IDENTICAL（SHA-256 `0e7d0540b18166c6a02f363dc515a43aef59630c06106b35dd6b0d021df149f9`）。D5 前值：印 61,630,665 字节、网 3,085,339 字节（`174cfc7b…`，issues 已发版）。
+练习仍为 150 题。
