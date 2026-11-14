@@ -320,3 +320,15 @@ exactly what was proofread.
 
 **Verdict: PASS — one complete independent pass, zero problems. The
 edition is final and cleared for repo insertion with the pins in item 12.**
+
+## 14. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-it/svglib.py --target ru --reader it --week 2026-w43`（`_D5_READER = "latin"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 22,257,214 B（MANIFEST +0.001%），网 PDF 2,331,826 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 454、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=411`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 153（run 拆分）；spill 0（173 OBSERVE）；boxtitle 0 DEFECT（58 titles, 716 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=408, median 1.021；P8 208→208 行，slack 44.5→44.5px）；文字层 print=web 差 0（40,410 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 279.2px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-it/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-it.pdf` **21,910,845 B**，sha256 `4697e0e4a1014d46572c5a3c63d7ffd4db9f48544df3cc94695cbe387dabf6df`；网 PDF `2026-w43-ru-it.web.pdf` **2,285,122 B**，sha256 `30176f1b9fc9ea03e3e183ac841e22cb1bf1a3bf81b80d9f63616f539ca85fb6`；text.md **60,839 B**，sha256 `919bee16aa994b6442972a3bf1fba19e4bb9f3798f68a2db622ce56d9bad38fd`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-it.md`。本版 pin 此前只在独立校对记录（§13）中以实测值出现（印 22,608,651 B / 网 3,650,021 B）；该记录为历史实测，不改；新 pin 只记于本节。

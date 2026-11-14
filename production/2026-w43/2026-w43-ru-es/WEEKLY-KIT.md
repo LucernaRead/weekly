@@ -163,11 +163,11 @@ readers' corner (P7 note, Spanish).
 ## 10. Deliverables (this directory)
 
 - `svg/` — 8 page SVGs (p1-pervaya … p8-test) · `cards/` — 8 PNGs (1950×2700)
-- `Lucerna-VOL1-ES.pdf` — print PDF, 22,611,243 bytes ·
-  sha256 b39cf4a64eea8f3747b3cd65eb94e599b9eebf79a78f0030278c2332a228e193
+- `Lucerna-VOL1-ES.pdf` — print PDF, 21,917,264 bytes (D5 rebuild 2026-11-14; D5 前 22,611,243 bytes) ·
+  sha256 424677f81a6b02b0698a38b142a8755f6e949a9db3e04a8bfef9585cd2c27c12
 - `Lucerna-VOL1-ES-web.pdf` — web PDF (JPEG pages q85 @1400px),
-  **3,683,458 bytes (< 10 MB)** ·
-  sha256 05f06b27e85d73064046edfda1fc3bd114f10190d217284aa1b932d2a9963b9c
+  **2,291,565 bytes (< 10 MB)** (D5 前 3,683,458 bytes) ·
+  sha256 b94de2d0eade77a1d537070b6e44ecbd56230c71fc034ae6948639c997f8051b
 
 ## 11. Reproduction
 
@@ -253,3 +253,15 @@ claims in §§1–7 were verified independently, not trusted:
     struck-through text; Spanish apparatus, boxes and footers as designed.
 
 This edition is clear for repo insert by the main line.
+
+## 13. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-es/svglib.py --target ru --reader es --week 2026-w43`（`_D5_READER = "latin"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 22,259,857 B（MANIFEST +0.001%），网 PDF 2,335,763 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 458、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=411`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 154（run 拆分）；spill 0（173 OBSERVE）；boxtitle 0 DEFECT（58 titles, 717 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=409, median 1.012；P8 208→208 行，slack 44.5→44.5px）；文字层 print=web 差 0（40,866 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 392.0px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-es/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-es.pdf` **21,917,264 B**，sha256 `424677f81a6b02b0698a38b142a8755f6e949a9db3e04a8bfef9585cd2c27c12`；网 PDF `2026-w43-ru-es.web.pdf` **2,291,565 B**，sha256 `b94de2d0eade77a1d537070b6e44ecbd56230c71fc034ae6948639c997f8051b`；text.md **61,537 B**，sha256 `df78b3753f770b47ea2f2b649de5ff4bbe2363d57194ea675ca43be0aae5521c`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-es.md`。KIT 内独立校对记录（§12）引用的旧 pin（印 22,611,243 B / 网 3,683,458 B）为 D5 前实测值，系历史记录，不改。

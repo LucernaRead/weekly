@@ -150,8 +150,8 @@ in both languages („Übungsdaten — keine echte Statistik"), bars 34/28/22/16
 
 - `files/weekly-report-ru-de/svg/` — 8 final SVGs
 - `files/weekly-report-ru-de/cards/` — 8 cards (1950×2700 PNG)
-- `files/weekly-report-ru-de/Lucerna-VOL1-DE.pdf` — print PDF, **22,613,373 bytes**
-- `files/weekly-report-ru-de/Lucerna-VOL1-DE-web.pdf` — web PDF, **3,678,837 bytes** (< 10 MB Discord limit)
+- `files/weekly-report-ru-de/Lucerna-VOL1-DE.pdf` — print PDF, **21,917,907 bytes** (D5 rebuild 2026-11-14; D5 前 22,613,373 bytes) — sha256 `2f688f3f8bd3e5a8b896e18517d500735816273550f92c69f7fe1caa9e396c04`
+- `files/weekly-report-ru-de/Lucerna-VOL1-DE-web.pdf` — web PDF, **2,292,159 bytes** (D5 rebuild 2026-11-14; D5 前 3,678,837 bytes) — sha256 `2861dafdc5460f80f7cfaa29d87dd605128b8821efd54ea643f332ad60a27e4d` (< 10 MB Discord limit)
 - Build: `hidden_files/weekly-report-ru-de-build/` (run.py → render.py; audit_ru_de.py alongside)
 
 ## 12. Independent proofread record (second pair of eyes, 2026-10-21)
@@ -219,3 +219,16 @@ stand as built.
 
 **Final verdict.** One complete independent pass found **zero problems**. The RU × DE
 edition is final and ready to post.
+
+## 13. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-de/svglib.py --target ru --reader de --week 2026-w43`（`_D5_READER = "latin"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 22,261,264 B（MANIFEST +0.001%），网 PDF 2,336,205 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 453、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D1 (boxtitle/creambox, P1): 出处行越框 +3.5px（基线 −5.5px）— `content12.py:85` 19→18pt。
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=411`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 151（run 拆分）；spill 0（171 OBSERVE）；boxtitle 0 DEFECT（58 titles, 715 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=405, median 1.022；P8 212→212 行，slack 61.0→61.0px）；文字层 print=web 差 0（40,487 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 294.0px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-de/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-de.pdf` **21,917,907 B**，sha256 `2f688f3f8bd3e5a8b896e18517d500735816273550f92c69f7fe1caa9e396c04`；网 PDF `2026-w43-ru-de.web.pdf` **2,292,159 B**，sha256 `2861dafdc5460f80f7cfaa29d87dd605128b8821efd54ea643f332ad60a27e4d`；text.md **60,804 B**，sha256 `0f6cd66c590b820e98afbfdd999a91932ad6ee3e3e569e5a13610b1fc05d7a11`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-de.md`。

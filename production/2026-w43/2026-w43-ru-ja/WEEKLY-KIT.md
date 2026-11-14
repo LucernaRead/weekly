@@ -106,6 +106,18 @@ Full independent re-run, nothing taken from the builder's self-report. Scratch: 
 - **Calendar** (Europe/Moscow, `date`-verified): Oct 18 Sun (Father's Day, 3rd Sunday), 19 Mon, 21 Wed, 22 Thu, 23 Fri, 24 Sat, 25 Sun, 26 Mon, 28 Wed, 31 Sat, Nov 3 Tue, Nov 4 Wed (День народного единства); P6 strip letters сб вс пн вт ср чт пт сб вс пн вт ср for Oct 24–Nov 4 all match.
 - **Red line / residue**: politics-term scan of the whole edition = 0 hits; Chinese explanation residue = 0 in substance — exactly 4 core CJK strings survive verbatim, all Japanese-inherent (吸血鬼 note #76, 生活/文化 band titles, 三学期制 strip); simplified-only glyphs = 0; operative build code carries no banned intermediary term (scratch copies + this KIT's rename record only, per disclosure).
 - **Short tails**: 10 under a uniform metric vs JA core 55, EN×JA 15, ES×JA 10, FR×JA 14 — family-normal.
-- **Pins (disk-measured)**: web PDF 3,552,214 B sha256 c0a5ad2f43f16651b21ada7fc9c27459d964eb4bd2007e12755c66b3adc196b4; print PDF 30,488,773 B sha256 30b9d934312fb2725a93e0ab0bb01e2a0947b58112d6bbbd44272309001a6cc7 — identical to §8.
+- **Pins (disk-measured, D5 rebuild 2026-11-14)**: web PDF 2,630,672 B sha256 acbbd472185284daa2e36fa3d8d5c0edd6d51deb4e61580455be4ab65456d681; print PDF 27,661,599 B sha256 34ce972b51b9adf426e5db93e5b2a876a1100af4fdce5c13ca1d36c74a370da9 — D5 前 KIT 值（web 3,552,214 B / print 30,488,773 B）已滞后，以本次实测为准。
 
 **Verdict: PASS — zero problems. Cleared for repo insert as slug 2026-w43-ru-ja via tools/insert.py.**
+
+## §10 D5 重建記錄（2026-11-14）
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-ja/svglib.py --target ru --reader ja --week 2026-w43`（`_D5_READER = "latin"`，diff +120/−7）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 27,697,168 B（MANIFEST +0.001%），网 PDF 2,652,626 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 206、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=406`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 67（run 拆分）；spill 0（169 OBSERVE）；boxtitle 0 DEFECT（58 titles, 744 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=401, median 1.009；P8 231→231 行，slack 61.4→61.4px）；文字层 print=web 差 0（34,976 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 402.5px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-ja/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-ja.pdf` **27,661,599 B**，sha256 `34ce972b51b9adf426e5db93e5b2a876a1100af4fdce5c13ca1d36c74a370da9`；网 PDF `2026-w43-ru-ja.web.pdf` **2,630,672 B**，sha256 `acbbd472185284daa2e36fa3d8d5c0edd6d51deb4e61580455be4ab65456d681`；text.md **60,813 B**，sha256 `e7d0658af396359739ee5529c2207e8f8f0835dea945742bc79fbd9af0c492f0`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-ja.md`。§8 pin 行已同步为本次实测值；§9 独立校对记录中“identical to §8”一句指 D5 前的核对，不改。

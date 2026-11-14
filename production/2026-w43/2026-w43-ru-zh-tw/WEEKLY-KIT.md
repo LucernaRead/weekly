@@ -82,8 +82,8 @@
 
 ## §11 實測針腳
 
-- 印刷 PDF `Lucerna-VOL1.pdf`：**26,360,627 B**，sha256 `8655371ebd976adb9be8f94e592be1f4decb7607279b97e21f226a17f7cd9aac`
-- 網頁 PDF `Lucerna-VOL1-web.pdf`：**3,488,650 B**（<10 MB），sha256 `44cb72ba2ec7da86772b25ddc5394429a946a88e252b36c21b8e5782dbfe3b8a`
+- 印刷 PDF `Lucerna-VOL1.pdf`：**23,136,062 B**（D5 重建 2026-11-14；D5 前 26,360,627 B），sha256 `6b14b7cc9b719ed76316bf4ebc3f994dc4ca8b9fc95a1b7f51c813ae56eb0b11`
+- 網頁 PDF `Lucerna-VOL1-web.pdf`：**2,612,295 B**（<10 MB）（D5 前 3,488,650 B），sha256 `aba679270b80c8d08accce682267f6f44362227cd77de4f14f81abe57c2b2ae7`
 - svg ×8 · cards ×8 · 構建日誌零 FLOW OVERFLOW / HEAD TOO WIDE。
 - 證據檔：施工副本 scratch/（transform.py、cjk_literals.json、scan_set.json、core_reg.json、my_reg.json、freeze-diff-final.json、occlusion-final.json、scans-final.txt、edition-full-text.txt、adj-*.png 裁定裁圖）。
 
@@ -100,3 +100,15 @@
 - gloss 逐框點數：P2 [3,3,3] · P3 [3,3] · P4 [4] · P5 [3,2] · P6 [3] 與核心逐框全等，一項不少。P7 金句 8 條逐字回溯原文驗真、頁標籤全對。svglib diff 恰 §4 登記 4 處功能變更 + docstring 1 處。家具逐項合 EN×ZH-TW KIT §3：徽章 (975,574) 22pt BRICK 插入式（README 第 20 條家族裁定，隨 RU×KO 先例）成立；頁腳 8/8、頁碼、P8 頭/帶/分隔 ×8 全合。撇號逐頁 = 核心（P5 «Хиллоуин'26» ×1）。禁用術語於出貨 SVG = 0；operative code 中 bridge = 0（expl() 定義 1 + 調用 20），svglib 首行 docstring «weekly-paper» 為核心庫自有原文（繼承性標識，同 PAPER 先例裁定不計缺陷）。
 - 日曆（Europe/Moscow 實查）：10-19 週一 · 10-24 週六 · 10-25 週日 · 10-28 週三 · 10-31 週六 · 11-04 週三，及 10-18 週日（父親節·十月第三個週日）、10-22 週四、10-23 週五、11-01 週日全合；俄國國內生活口徑，零國際政治。卡面肉眼核 P1/P8 全頁 + P2 gloss 區：TC 面無缺字/方框，西里爾正常。
 - 最終針腳（校對者實測，與建造者自報全長逐字全合）：印刷 26,360,627 B · sha256 `8655371ebd976adb9be8f94e592be1f4decb7607279b97e21f226a17f7cd9aac`；網頁 3,488,650 B · sha256 `44cb72ba2ec7da86772b25ddc5394429a946a88e252b36c21b8e5782dbfe3b8a`（各 8 頁）。
+
+## §13 D5 重建記錄（2026-11-14）
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-zh-tw/svglib.py --target ru --reader zh-tw --week 2026-w43`（`_D5_READER = "cjk"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 23,152,085 B（MANIFEST +0.001%），网 PDF 2,623,799 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 206、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:106` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:235` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=414`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 67（run 拆分）；spill 0（177 OBSERVE）；boxtitle 0 DEFECT（58 titles, 734 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=392, median 1.015；P8 229→229 行，slack 61.4→61.4px）；文字层 print=web 差 0（34,196 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 513.8px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-zh-tw/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-zh-tw.pdf` **23,136,062 B**，sha256 `6b14b7cc9b719ed76316bf4ebc3f994dc4ca8b9fc95a1b7f51c813ae56eb0b11`；网 PDF `2026-w43-ru-zh-tw.web.pdf` **2,612,295 B**，sha256 `aba679270b80c8d08accce682267f6f44362227cd77de4f14f81abe57c2b2ae7`；text.md **58,350 B**，sha256 `fbb0f25518eec8f70df127854fb2bcd6920664925a2fb3101cfc08b00f1446bf`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-zh-tw.md`。§12 獨立校對記錄末尾重複引用的舊針腳（印刷 26,360,627 B / 網頁 3,488,650 B）為 D5 前實測值，係歷史記錄，不改。

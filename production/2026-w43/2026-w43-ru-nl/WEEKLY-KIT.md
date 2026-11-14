@@ -134,10 +134,10 @@ compare the core's own print). Not an edition defect.
 ## 7. Deliverables & PDF pins (measured on disk)
 
 - files/weekly-report-ru-nl/ — svg ×8, cards ×8, WEEKLY-KIT.md (this file).
-- Print PDF `Lucerna-VOL1-NL.pdf`: **22,609,562 B**, sha256
-  a0c01319a7916f89813e4edce69ae20830af10722fe2c60898477cd7d4fb42bf
-- Web PDF `Lucerna-VOL1-NL-web.pdf`: **3,655,800 B** (< 10 MB), sha256
-  d82f711e7b51e36172a68a59e60e38f98d23e8fc926d75feb93eb7d22174b43a
+- Print PDF `Lucerna-VOL1-NL.pdf`: **21,910,121 B** (D5 rebuild 2026-11-14; D5 前 22,609,562 B), sha256
+  8b22336723990a6ca947a05e10cd9b730038f74da1b65bece7102ef2fa525712
+- Web PDF `Lucerna-VOL1-NL-web.pdf`: **2,284,380 B** (< 10 MB) (D5 前 3,655,800 B), sha256
+  79207a11d7ed351ef802ac38220f566924cc2a555951e230a7a0630805cc8d93
 
 No repo insert, no Discord — per scope. Next step: independent proofread, then
 insert via tools/insert.py (slug 2026-w43-ru-nl, discordThread = Russian thread).
@@ -215,3 +215,17 @@ reg-pt.json, freeze-diff.json, p8-compare.json, occlusion.json, per-page text du
   (print size inherited from the core's image sources; recorded, not treated).
 
 Ready for repo insert via tools/insert.py (slug 2026-w43-ru-nl).
+
+## 9. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-nl/svglib.py --target ru --reader nl --week 2026-w43`（`_D5_READER = "latin"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 22,257,842 B（MANIFEST +0.001%），网 PDF 2,331,803 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 461、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- D5 (occlusion LINEX P7, D5 新增, run2 新发现): 纠错栏第 4 条荷兰语注 19.5pt 绕 2 行，`eh` +26.52px — `content7.py:70` `eh` wrap 与 `:78` p.para 两处同改，19.5→19pt。
+- D6 (occlusion LINEX P1, 基线同款, run2 新发现): 每周一词释义第 2 行 `temperatuur daalt.` 下行字母触 row-B 分隔线 y=1844 — `content12.py:116` 分隔线 1844→1848。
+- 门禁（run3）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=404`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 148（run 拆分）；spill 0（174 OBSERVE）；boxtitle 0 DEFECT（58 titles, 715 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=404, median 1.019；P8 241→241 行，slack 44.5→44.5px）；文字层 print=web 差 0（40,169 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 282.9px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-nl/GATES-SUMMARY-run3.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-nl.pdf` **21,910,121 B**，sha256 `8b22336723990a6ca947a05e10cd9b730038f74da1b65bece7102ef2fa525712`；网 PDF `2026-w43-ru-nl.web.pdf` **2,284,380 B**，sha256 `79207a11d7ed351ef802ac38220f566924cc2a555951e230a7a0630805cc8d93`；text.md **61,077 B**，sha256 `96a8fbbe4457ad147bf38770c668e7669c01ed34a70425cf6f7262a429d2cf13`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-nl.md`。§8 独立校对记录重复引用的旧 pin（印 22,609,562 B / 网 3,655,800 B）为 D5 前实测值，系历史记录，不改。

@@ -10,8 +10,8 @@
 
 | File | Bytes | SHA-256 |
 |---|---|---|
-| Lucerna-VOL1-KO.pdf (print) | 24,343,479 | 59a3c344e5bf84a665a59ce72768fc052af534c6523d37c8f39ea47e9f55e69b |
-| Lucerna-VOL1-KO-web.pdf (web, < 10 MB) | 3,532,952 | 4e6a1a340b6b654c8d464979fcebf778bd7ebb1ebed3118e51530592ff962e98 |
+| Lucerna-VOL1-KO.pdf (print) | 23,047,969 | 7e26fa97f258ad154d816e96138cab2823e7b28cfc9d2f54266fe68642a014d5 | (D5 rebuild 2026-11-14; D5 前 24,343,479)
+| Lucerna-VOL1-KO-web.pdf (web, < 10 MB) | 2,444,935 | 6a0d9cbececf8b7d4694ac11b67fd7bbf8adaa54cfa42367d22db690160ef2ea | (D5 前 3,532,952)
 | svg/ × 8 | p1 1,018,497 · p2 320,502 · p3 1,157,971 · p4 302,454 · p5 489,193 · p6 983,933 · p7 28,668 · p8 61,634 | — |
 | cards/ × 8 (1950×2700 PNG) | p1 1,347,148 · p2 1,016,811 · p3 1,364,928 · p4 839,111 · p5 960,661 · p6 905,252 · p7 685,115 · p8 1,012,143 | — |
 
@@ -109,3 +109,15 @@ All builder claims re-derived independently; scratch in hidden_files/proof-ru-ko
 - **P7**: all 8 quotes verbatim from this issue's articles (whitespace-normalised check incl. the long quote 2), page-tag distribution identical to the core.
 - **Calendar** (real 2026, Europe/Moscow): Oct 19 Mon · 21 Wed · 22 Thu · 23 Fri · 24 Sat · 25 Sun · 28 Wed · 31 Sat · Nov 4 Wed · Nov 5 Thu; holidays Oct 24–Nov 4 = 12 days; ministry Oct 26–Nov 3 = 9 days. Red line: no geopolitics lexicon anywhere in the Korean layer ( sole «핵» hit is «핵심» in a section sub-line).
 - **Final pins (measured on disk after the fix)**: web PDF 3,532,952 B / sha256 4e6a1a34…; print PDF 24,343,479 B / sha256 59a3c344… (§1 updated).
+
+## 10. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-ko/svglib.py --target ru --reader ko --week 2026-w43`（`_D5_READER = "latin"`，diff +68/−7）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 23,078,364 B（MANIFEST +0.001%），网 PDF 2,457,865 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 206、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:105` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:234` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=415`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 67（run 拆分）；spill 0（222 OBSERVE）；boxtitle 0 DEFECT（67 titles, 825 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=395, median 1.017；P8 232→232 行，slack 49.1→49.1px）；文字层 print=web 差 0（35,520 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 534.0px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-ko/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-ko.pdf` **23,047,969 B**，sha256 `7e26fa97f258ad154d816e96138cab2823e7b28cfc9d2f54266fe68642a014d5`；网 PDF `2026-w43-ru-ko.web.pdf` **2,444,935 B**，sha256 `6a0d9cbececf8b7d4694ac11b67fd7bbf8adaa54cfa42367d22db690160ef2ea`；text.md **60,886 B**，sha256 `fd2ad76e8bba916a9ef32b8b3e1d8ce43fc5891496e5296c5a35ba3327dbe951`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-ko.md`。§1 pin 表已同步为本次实测值；§9 独立校对记录引用的旧 pin（印 24,343,479 B / 网 3,532,952 B）为 D5 前实测值，系历史记录，不改。

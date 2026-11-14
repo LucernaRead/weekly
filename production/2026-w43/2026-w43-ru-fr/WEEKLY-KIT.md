@@ -7,8 +7,8 @@ The Russian core issue (VOL.1, «Первый снег») reissued for French-sp
 - Week: 19–25 October 2026 · VOL.1
 - Pages: 8 (1950×2700), warm ivory — identical layout to the core
 - Exercises: **150** — A2 54 · B1 72 · B2 24 (registry identical to the core)
-- Print PDF: `Lucerna-VOL1-FR.pdf` (22,574,325 B, sha256 `bac9302fa89a2918ef31cca755bb8a10337ad528183bdc03a3632077ab22a54d`)
-- Web PDF: `Lucerna-VOL1-FR-web.pdf` (3,674,650 B < 10 MB, sha256 `acb965f6be666ad5806b3ddd3552f2f9ccc853c92ddf292f4a2f997d086a10c9`)
+- Print PDF: `Lucerna-VOL1-FR.pdf` (21,921,744 B, sha256 `951e298c4710594d29b96bfbc38e289cbd6adad23492037d427fb3bcbf480829`) (D5 rebuild 2026-11-14; D5 前 22,574,325 B, sha256 `bac9302f…`)
+- Web PDF: `Lucerna-VOL1-FR-web.pdf` (2,293,087 B < 10 MB, sha256 `3987d4cfaf12baa601ef2e2c345e3064cf33bd85359f64805a4f7d3fc4f592df`) (D5 前 3,674,650 B, sha256 `acb965f6…`)
 - Build: `hidden_files/weekly-report-ru-fr-build/` (seeded from the RU × DE build; see §2 for the core-conformance audit of that seed)
 
 ## 1. Method
@@ -207,3 +207,17 @@ nothing in §§1–7; baseline = the frozen CORE `files/weekly-report-ru-vol1/`)
 **Verdict: PASS.** No defects found; nothing fixed, nothing re-rendered — the
 shipped artifacts stand as built. Cleared for repo insert by the parent
 (Discord delivery remains paused per the user's 2026-10-21 instruction).
+
+## 9. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-fr/svglib.py --target ru --reader fr --week 2026-w43`（`_D5_READER = "latin"`，diff +63/−2）；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 22,247,761 B（MANIFEST +0.001%），网 PDF 2,334,215 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 458、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D1 (OBSERVE, 不修): P1 出处行越框 +5.5px，基线已越 +6.5px。
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- D4 (occlusion LINEX P7, D5 新增): 纠错栏第 4 条法语注 19.5pt 绕 2 行，`eh` +26.52px — `content7.py:70` `eh` wrap 与 `:78` p.para 两处同改，19.5→19pt。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=411`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 151（run 拆分）；spill 0（175 OBSERVE）；boxtitle 0 DEFECT（58 titles, 717 body lines, 1 OBSERVE (D1, pre-existing)）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=408, median 1.017；P8 208→208 行，slack 44.5→44.5px）；文字层 print=web 差 0（40,717 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[137, 138]；刊头标语→日期间距 306.5px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-fr/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1-ru-fr.pdf` **21,921,744 B**，sha256 `951e298c4710594d29b96bfbc38e289cbd6adad23492037d427fb3bcbf480829`；网 PDF `2026-w43-ru-fr.web.pdf` **2,293,087 B**，sha256 `3987d4cfaf12baa601ef2e2c345e3064cf33bd85359f64805a4f7d3fc4f592df`；text.md **61,186 B**，sha256 `81a0f17a7e34842f64dd82e2306f5954712e58849bf977fc484ad6ad0e3bf1ea`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-fr.md`。KIT 内独立校对（§8）引用的旧 pin（印 22,574,325 B / 网 3,674,650 B）为 D5 前实测值，系历史记录，不改。

@@ -217,8 +217,8 @@ is referred to here only by description, never printed).
 
 - `files/weekly-report-ru-vol1/svg/` — p1-pervaya … p8-test (8 SVG)
 - `files/weekly-report-ru-vol1/cards/` — 8 page PNGs (1950×2700)
-- `files/weekly-report-ru-vol1/Lucerna-VOL1.pdf` — full print PDF (33.0 MB)
-- `files/weekly-report-ru-vol1/Lucerna-VOL1-web.pdf` — Discord web PDF (3.49 MB)
+- `files/weekly-report-ru-vol1/Lucerna-VOL1.pdf` — full print PDF (23,085,681 B, D5 rebuild 2026-11-14; D5 前 33.0 MB), sha256 `9d3b05460311e8212b906272599b81acd66fbf4fa2951060008bc35c0c211701`
+- `files/weekly-report-ru-vol1/Lucerna-VOL1-web.pdf` — Discord web PDF (2,541,611 B, D5 前 3.49 MB), sha256 `c4dc7cbf42125bdb568c36cdc34885cbf4595a6ec84f2d64f6f7c77ee382a163`
 - Build code + image assets + CREDITS.md in `hidden_files/weekly-report-ru-build/`
 
 ## 11. Independent proofread record (second pair of eyes, 2026-10-21)
@@ -313,3 +313,15 @@ checks above were re-run green on the final artifacts. The issue is final.
 - **复核**：改前先以未改构建源全量重跑，8 版 SVG 与发布版逐字节相同（工具链可复现，基线可信）；全量重建构建警告 FLOW OVERFLOW 0 · HEAD TOO WIDE 0。修复后逐栏最低基线：第 1 栏 2531.40（第 40 题）、第 2 栏 2530.45（第 80 题折行行尾）、第 3 栏 2532.59（第 119 题）、第 4 栏 2216.08（第 150 题）——**全版最低基线 2532.59，距页脚线 47.4，页脚带内无任何答案文字**。按审计同法（PIL 实测字宽、字形框 −0.88em…+0.30em、覆盖率/页脚带/出界三项）全版扫描：先以发布前文件作对照跑，恰命中第 41、82 两行（复现审计缺陷 #7，其余各版 0 标记，扫描方法有效）；修复后 8 版合计 **0 标记**。8 张 PNG 全部目检，第 8 版另裁左右底部特写复核：四栏收尾整齐，第 41、82、119、150 题清晰可读，页脚无重叠。
 - **产物尺寸**：印刷 PDF 33,006,595 B（33.0 MB）；网页版 PDF 3,485,718 B（3.49 MB，< 10 MB 上限）。
 - **状态**：本补丁版为当前定稿；已发 Discord 的旧网页版 PDF 应由主线以本版替换重发。
+
+## 13. D5 rebuild (2026-11-14)
+
+D5 + §1.1 合并重建（2026-11-14；builder v3 接替 v2，v2 死于 2026-11-14 ~02:55 UTC 第 5 波 restart drain）。本节 supersedes 上述旧印/网 pin 行（以实测发运值为准；KIT 旧 SHA 不可作基线）。
+
+- 装机：`apply_variant.py --patch-core ru --week 2026-w43`（core-ru `_D5_READER = "latin"`，+263/−28）+ 本版 `apply_variant.py --svglib patched/2026-w43-ru-zh-cn/svglib.py --target ru --reader zh-cn --week 2026-w43`（`_D5_READER = "cjk"`，diff 仅 _D5_READER 一行（vs core-ru））；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2 保留。
+- 基线：run TOTAL 150，0 警告；印 PDF 29,794,525 B（MANIFEST +0.001%），网 PDF 2,664,147 B，`pdf_text_diff_ru.py` + TRIM_ARGS → IDENTICAL；修前普查 D5 拉丁 206、西里尔 0。
+- 缺陷与修法（只动字号/断行与规则线位置，不动文字）：
+- D2 (occlusion TEXTX, P1): `'A2' overlaps 'кино' 7.4×11.2px` — `content12.py:103` 目录标题 20→19pt。
+- D3 (occlusion LINEX P2 ×6, 基线同款): `content12.py:232` 规则线 `ey−12`→`ey−8`。
+- 门禁（run2）：全套 17 门 ALL-GREEN。run TOTAL 150；head_check 0；d5 census 拉丁/西里尔/弯引号在 CJK 均 0（弯引号总数 0；`noto_sans_elements=422`）；freeze baseline 8/8；freeze diff 新增 CJK 0、新增拉丁 strings 75（run 拆分）；spill 0（177 OBSERVE）；boxtitle 0 DEFECT（58 titles, 734 body lines）；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（n=392, median 1.015；P8 229→229 行，slack 61.4→61.4px）；文字层 print=web 差 0（34,242 字）；text.md BYTE-IDENTICAL；census_quotes 0 defective；p8 compare CLEAN，keydiff=[] (this edition IS the core)；刊头标语→日期间距 513.8px PASS。日志：`hidden_files/d5-redo/scratch-2026-w43-ru/logs/2026-w43-ru-zh-cn/GATES-SUMMARY-run2.txt`。
+- 新交付物（实测）：印 PDF `Lucerna-VOL1.pdf` **23,085,681 B**，sha256 `9d3b05460311e8212b906272599b81acd66fbf4fa2951060008bc35c0c211701`；网 PDF `2026-w43-ru-zh-cn.web.pdf` **2,541,611 B**，sha256 `c4dc7cbf42125bdb568c36cdc34885cbf4595a6ec84f2d64f6f7c77ee382a163`；text.md **59,584 B**，sha256 `a4e4e1ebcda84963b2b6a8a94af91292e93293e7697a2546f14518d9b37c6d7f`，与 fanout `.text.md.new` BYTE-IDENTICAL。D5 报告：`production/notes/2026-w43/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w43-ru-zh-cn.md`。

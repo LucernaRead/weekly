@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ru-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · ПЕРВАЯ ПОЛОСА (A2) =================
@@ -11,32 +11,32 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 1 · ПЕРВЫЙ ВЫПУСК", 23, "sans", True, OLIVE)
-p.text(975, 92, "КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ · 每週一期 · 讀俄羅斯人正在讀的俄語", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "НЕДЕЛЯ С 19 ПО 25 ОКТЯБРЯ 2026 ГОДА", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "РУССКАЯ ГАЗЕТА · VOL.1 · ПЕРВЫЙ СНЕГ · КАНИКУЛЫ · ДЕРБИ", 40, "serif", True, INK, anchor="middle")
-p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 1　ПЕРВЫЙ ВЫПУСК", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "КАЖДУЮ НЕДЕЛЮ ПО-РУССКИ　每週一期　讀俄羅斯人正在讀的俄語", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "НЕДЕЛЯ С 19 ПО 25 ОКТЯБРЯ 2026 ГОДА", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "РУССКАЯ ГАЗЕТА　VOL.1　ПЕРВЫЙ СНЕГ　КАНИКУЛЫ　ДЕРБИ", 36, "serif", True, OLIVE, anchor="middle", spacing=8)
+p.text(975, 372, "ЕЖЕНЕДЕЛЬНАЯ ГАЗЕТА ДЛЯ ИЗУЧАЮЩИХ РУССКИЙ ЯЗЫК — НАСТОЯЩАЯ РОССИЯ, ПО-РУССКИ", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 # pairing badge (ZH-TW column inserted form: RU core y=372 subtitle is frozen target text;
-# RUxKO precedent — inserted at y=574, 22pt BRICK, between the dark band and the headline)
-p.text(975, 574, "俄語正文 · 繁體中文講解 — 給繁體中文讀者的版本", 22, "sans", True, BRICK, anchor="middle")
+# RUxKO precedent — inserted at y=574, 22pt brick-red, between the dark band and the headline)
+p.text(975, 614, "俄語正文　繁體中文講解 — 給繁體中文讀者的版本", 16, "sans", False, GREY, anchor="middle")
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "ПЕРВЫЙ СНЕГ — УЖЕ НА ЭТОЙ НЕДЕЛЕ!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Синоптики ждут первые снежинки в Москве 21–23 октября. Но прогнозы расходятся.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "本週第一場雪", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "預報有分歧 · 詳見第 2 版", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "ПЕРВЫЙ СНЕГ — УЖЕ НА ЭТОЙ НЕДЕЛЕ!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Синоптики ждут первые снежинки в Москве 21–23 октября. Но прогнозы расходятся.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "本週第一場雪", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "預報有分歧　詳見第2版", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "ГЛАВНАЯ ТЕМА · 頭條", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "Первый снег — уже на этой неделе!", 44, "serif", True, INK, 1388, 1.2)
+hy = 610
+p.text(MX, hy + 26, "ГЛАВНАЯ ТЕМА　頭條", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "Первый снег — уже на этой неделе!", 53, "serif", True, INK, 1323, 1.06)
 p.text(MX, hy + 30, "А в субботу начинаются каникулы — целых 12 дней отдыха", 25, "serif", False, GREY)
 hy += 46
-p.text(MX, hy + 28, "От редакции Lucerna · Уровень чтения: A2", 20, "sans", False, GREY)
+p.text(MX, hy + 28, "От редакции Lucerna　Уровень чтения: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Первый снег может выпасть уже на этой неделе. Синоптики ждут первые снежинки в среду, в четверг или в пятницу — с 21 по 23 октября. На улице будет около нуля градусов.", size=24)
@@ -45,13 +45,13 @@ f.para("А у школьников — последняя учебная нед�
 f.para("В четверг в кино выходят четыре новые сказки — об этом на 3-й странице. А в воскресенье — главное футбольное дерби страны: ЦСКА играет со «Спартаком». Начало в 16:00 по московскому времени.", size=24)
 f.para("Это первый номер Lucerna по-русски. Каждую неделю мы пишем о настоящей России — просто и честно. Приятного чтения!", size=24)
 f.expl("講解｜синоптики 氣象預報員 · снежинки 雪花 · расходятся 不一致（指預報）。")
-f.box("НЕДЕЛЯ В ЦИФРАХ · 數字看本週", [
+f.box("НЕДЕЛЯ В ЦИФРАХ　數字看本週", [
     ("12 — дней осенних каникул: с 24 октября по 4 ноября", "serif", False, INK, 20, 1.35),
     ("4 — новые сказки в кино в четверг, 22 октября（週四上映的童話電影）", "serif", False, INK, 20, 1.35),
     ("8 — матчей в 12-м туре чемпионата России по футболу（俄超第 12 輪）", "serif", False, INK, 20, 1.35),
     ("215 — лет назад, 19 октября 1811 года, открылся Царскосельский лицей", "serif", False, INK, 20, 1.35),
 ])
-f.head("СЕЙЧАС ВЫ · 即學即練", 25)
+f.head("СЕЙЧАС ВЫ　即學即練", 25)
 f.ex("A2", "完成句子", "снег", "первый снег = 第一場雪",
      "Первый ___ может выпасть уже на этой неделе.", size=19.5, gap=6)
 f.ex("A2", "完成句子", "23", "預報窗口：21–23 日",
@@ -68,10 +68,10 @@ f.end_report()
 
 # ---- media heat box (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "О ЧЁМ ПИШУТ", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "СМИ · 媒體在談什麼", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "СМИ　媒體在談什麼", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Главные темы недели в российских СМИ", 19, "sans", False, GREY)
 topics = [
     "Первый снег в Москве: когда он выпадет?",
@@ -85,12 +85,12 @@ for i, t in enumerate(topics):
     yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 20, "serif", True, INK, gw - 44, 1.32)
     byy = yy_t + 26
 p.text(gx + 22, gy + 636, "По российским СМИ, 15–20 октября 2026 г.", 18.5, "sans", False, GREY)
-p.text(gx + 22, gy + 664, "據俄羅斯媒體 10 月 15–20 日報導", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 664, "據俄羅斯媒體10月15–20日報導", 19, "sans", False, GREY)
 
 # ---- contents (col 3) ----
 sy = 1296
-p.rect(gx, sy, gw, 330, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ · 本期目錄", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 330, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　本期目錄", 24, "sans", True, OLIVE)
 som = [
     ("Стр. 2", "Шины, погода, День отца", "A2"),
     ("Стр. 3", "Лицей и сказки в кино", "A2→B1"),
@@ -102,17 +102,18 @@ som = [
 ]
 yy = sy + 82
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
-    p.text(gx + 108, yy, t, 20, "serif", False, INK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
+    p.text(gx + 108, yy, t, 19, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 37
 
 # ---- word of the week (col 3) ----
 my = 1636
-p.text(gx, my + 24, "СЛОВО НЕДЕЛИ · 本週單字", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "«похолодает» — станет холодно, температура ниже. Завтра похолодает: будет около нуля.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "похолодает = 要變冷了，氣溫要降下來。", 19, "sans", False, GREY, gw, 1.35)
+p.text(gx, my + 24, "СЛОВО НЕДЕЛИ　本週單字", 22, "sans", True, OLIVE)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "«похолодает»", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 108, "станет холодно, температура ниже. Завтра похолодает: будет около нуля.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 10, "похолодает = 要變冷了，氣溫要降下來。", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -123,15 +124,15 @@ caption(p, ix, iy + 320, iw,
         "Зима в русском городе. Скоро так будет и в Москве: синоптики ждут первый снег уже 21–23 октября. (Страница 2)",
         "Картина: Константин Юон, «Зима. Ростов» — общественное достояние (Wikimedia Commons)")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-school")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-school")
 f2.head("ПОСЛЕДНЯЯ УЧЕБНАЯ НЕДЕЛЯ", 25)
 f2.para("Понедельник, 19 октября, — первый день последней учебной недели. В пятницу школьники идут в школу в последний раз — а потом отдыхают двенадцать дней.", 22.5)
 f2.para("Что делать на каникулах? На 6-й странице — большой разбор и идеи для всей семьи.", 22.5)
 f2.end_report()
 # col 3 КОРОТКО
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "КОРОТКО · 快訊", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "КОРОТКО　快訊", 24, "sans", True, OLIVE)
 brefs = [
     ("СНЕГ", "Первые снежинки — 21–23 октября. Снег выпадет и быстро растает: это ещё не зима."),
     ("КАНИКУЛЫ", "С 24 октября по 4 ноября — 12 дней. 4 ноября — День народного единства."),
@@ -139,15 +140,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "БЛИЦ-ВИКТОРИНА · 閃電問答", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "讀頭版，選出正確答案 · 答案見第 8 版", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "БЛИЦ-ВИКТОРИНА　閃電問答", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "讀頭版，選出正確答案　答案見第8版", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "單選", "B", "預報窗口：21–23 日",
       "Первый снег в Москве ждут... A. в ноябре · B. 21–23 октября · C. в декабре", size=21)
 qf.ex("A2", "單選", "B", "10 月 24 日是星期六",
@@ -164,11 +165,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · ЖИЗНЬ (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("ЖИЗНЬ · 生活", "Lucerna", "УРОВЕНЬ A2 · Погода, шины и поздравления · 天氣、輪胎與祝福")
+p.band("ЖИЗНЬ　生活", "Lucerna", "УРОВЕНЬ A2　Погода, шины и поздравления　天氣、輪胎與祝福")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("Первый снег: что говорят синоптики", 37)
-f.byline("От редакции Lucerna · Уровень чтения: A2")
+f.title("Первый снег: что говорят синоптики", 32)
+f.byline("От редакции Lucerna　Уровень чтения: A2")
 f.para("На этой неделе в Москве похолодает. Днём будет около нуля градусов, а ночью — ещё холоднее. Синоптики говорят: первый снег может быть в среду, 21 октября, в четверг или в пятницу.")
 f.para("Прогнозы расходятся: один синоптик обещает снег в среду, а другой — мокрый снег в конце октября. Поэтому не верьте только одному прогнозу: смотрите прогноз каждый день.")
 f.para("Настоящего снежного покрова ещё не будет: снег выпадет и быстро растает. Но первый снег — это знак: зима близко. Пора доставать тёплую одежду: шапку, шарф, перчатки и тёплую куртку.")
@@ -193,7 +194,7 @@ facts = ["Первый снег в Москве ждут 21–23 октября,
          "Каникулы у школьников — с 24 октября по 4 ноября: 12 дней."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "ЗНАЕТЕ ЛИ ВЫ?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -202,9 +203,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "А вы? Что вы делаете, когда выпадает первый снег: радуетесь, фотографируете или просто надеваете тёплую куртку? Напишите два предложения по-русски и пришлите в редакцию: лучшие мы напечатаем в VOL.2 (страница 7, «Письма читателей»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？初雪時你做什麼？寫兩句俄語寄給編輯部。", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "А ВЫ? · 說說你自己", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "А ВЫ?　說說你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "你呢？初雪時你做什麼？寫兩句俄語寄給編輯部。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -212,9 +213,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- weather words strip ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "СЛОВА О ПОГОДЕ · 天氣詞", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "Четыре слова о первом снеге · 關於初雪的四個詞", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "СЛОВА О ПОГОДЕ　天氣詞", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "Четыре слова о первом снеге　關於初雪的四個詞", 20, "sans", False, GREY, anchor="end")
 words = [
     ("похолодает", "станет холодно", "要變冷"),
     ("выпадет снег", "снег начнёт падать", "要下雪"),
@@ -223,7 +224,7 @@ words = [
 ]
 for i, (t, lab, cn) in enumerate(words):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 106, t, 34, "serif", True, OLIVE)
     yy = p.para(bx + 22, dy + 140, lab, 20.5, "serif", False, INK, CW - 44, 1.32)
     p.para(bx + 22, yy + 19, cn, 19, "sans", False, GREY, CW - 44, 1.3)
@@ -231,11 +232,11 @@ p.para(MX, dy + 234, "Запомните пару: снег выпадает (н
 
 # ---- P2 exercises ----
 ey = dy + 250
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "УПРАЖНЕНИЯ · 第 2 版練習", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 8, OLIVE, 2)
+p.text(MX, ey + 28, "УПРАЖНЕНИЯ　第2版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · ПОНИМАНИЕ", 25)
+e.head("A　ПОНИМАНИЕ", 25)
 e.expl("讀第 2 版文章，選出正確答案。")
 e.ex("A2", "單選", "B", "預報窗口：21–23 日",
      "Первый снег в Москве ждут... A. в конце октября · B. 21–23 октября · C. в ноябре", size=19, gap=6)
@@ -247,7 +248,7 @@ e.ex("A2", "單選", "B", "+5…+7 度換輪胎",
      "Резину меняют, когда на улице... A. ноль градусов · B. плюс пять — семь градусов · C. минус десять градусов", size=19, gap=6)
 e.ex("A2", "單選", "C", "父親節是 10 月 18 日",
      "День отца в России был... A. 19 октября · B. 25 октября · C. 18 октября", size=19, gap=6)
-e.head("B · СЛОВА О ПОГОДЕ", 25)
+e.head("B　СЛОВА О ПОГОДЕ", 25)
 e.expl("用方框裡的詞或正確的動詞形式填空。")
 e.ex("A2", "完成句子", "похолодает", "похолодать → похолодает（將來時）",
      "Завтра ___: будет около нуля градусов. (похолодать)", instr="填空", size=19, gap=6)
@@ -259,7 +260,7 @@ e.ex("A2", "完成句子", "шарф", "шапка 和 шарф 都是冬衣",
      "Надень шапку и ___: на улице холодно!", instr="填空", size=19, gap=6)
 e.ex("B1", "完成句子", "очереди", "очередь 的複數：очереди",
      "На шиномонтаже сейчас большие ___.", instr="填空", size=19, gap=6)
-e.head("C · ЧИСЛА И ДАТЫ", 25)
+e.head("C　ЧИСЛА И ДАТЫ", 25)
 e.expl("用第 1、2 版的數字和日期填空。")
 e.ex("A2", "完成句子", "24", "10 月 24 日星期六",
      "Каникулы начинаются ___ октября.", instr="填空", size=19, gap=6)
@@ -269,7 +270,7 @@ e.ex("A2", "完成句子", "25", "10 月 25 日星期日",
      "Дерби ЦСКА — «Спартак» будет ___ октября.", instr="填空", size=19, gap=6)
 e.ex("B1", "完成句子", "шестой", "自 2021 年起第六次：шестой раз",
      "В 2026 году День отца отмечают уже в ___ раз.", instr="填空", size=19, gap=6)
-e.head("D · ПОЗДРАВЛЕНИЯ", 25)
+e.head("D　ПОЗДРАВЛЕНИЯ", 25)
 e.match_set("A2", "詞彙配對",
             ["С Днём отца!", "С днём рождения!", "С Новым годом!", "Желаю здоровья!"],
             ["это пожелание: мы желаем человеку быть здоровым",
