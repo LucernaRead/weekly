@@ -35,6 +35,7 @@ import tables as T
 TEXT_RE = re.compile(r"<text([^>]*)>(.*?)</text>", re.S)
 HEADER_RE = re.compile(r"^—\s*(.{0,24}?\d.{0,12}?)\s*—$")
 CJK = re.compile(r"[\u2e80-\u9fff\u3040-\u30ff\uac00-\ud7af\uff00-\uffef]")
+_COLON_RE = re.compile(r"^([^:—;.!?()（）]{1,40}):\s+(\S.*)$")
 
 
 def load_texts(path):
@@ -183,6 +184,17 @@ def detect_note(seg):
         return (True, seg[:g[0]].strip(), "paren")
     if dash:
         return (bool(dash[1]), dash[0], "dash")
+    # 2026-11-14 (D31, W45 en es/pt [150]): colon style "label: note"
+    # ("Pregunta abierta: ...", "Questão aberta: ..."). Fallback only:
+    # paren/dash/check have already failed, so a colon here cannot be
+    # inside a detected key (125 such keys exist in W43 alone, e.g. ru
+    # [150] "Открытый вопрос: критерии"). The key excludes "—" so a
+    # colon inside a dash note whose separator lost its space (ru
+    # [91/93/106], "—Верно: ...") can never fire here; ";.!?" and the
+    # 40-char bound exclude sentence keys; ": " excludes times/scores.
+    m = _COLON_RE.match(seg)
+    if m:
+        return (True, m.group(1).strip(), "colon")
     return (False, seg, "none")
 
 
