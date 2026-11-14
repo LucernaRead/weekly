@@ -22,9 +22,9 @@ moth(p, 975, 420)
 
 # dark band: election + clocks
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 42, "sans", True, ONCLOTH)  # D5: 46->42 (P1 dark-band overlap 139.4px; 42 alone still -3.5px, see subtitle)
 p.text(MX + 30, 568, "Election Day is Tuesday, November 3. On Sunday, November 1, America turned its clocks back one hour.", 25, "serif", False, "#cac8ba")
-p.text(RIGHT - 30, 524, "MARTEDÌ ELEZIONI", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 524, "MARTEDÌ ELEZIONI", 25, "sans", True, GOOSE, anchor="end")  # D5: 27->25 (with title 42, gap +18.1px)
 p.text(RIGHT - 30, 568, "Elezioni martedì 3 novembre　Vedi p. 6", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
@@ -43,7 +43,7 @@ f.bridge("Spiegazione | a midterm = medio termine · a ballot = scheda · a race
 f.box("THE WEEK IN NUMBERS　In cifre", [
     ("Nov 3 — Election Day (elezioni) · 435 — seats in the House, all on the ballot (tutti i 435 seggi da rieleggere)", "serif", False, INK, 20.5, 1.35),
     ("Nov 6 — two films open (due film in uscita) · Nov 8 — NFL in Madrid + F1 in São Paulo (due gare domenica)", "serif", False, INK, 20.5, 1.35),
-], gap=6)
+], tsize=21, gap=6)  # D5: title 23->21 (P1 title over +3.5px right)
 f.head("TRY IT NOW　Prova subito", 25, gap=8)
 f.ex("A2", "Completare le frasi", "ballot", "ballot = scheda elettorale",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -190,7 +190,7 @@ sav = ["Most of the United States fell back on Sunday, November 1 — Arizona an
        "The night of November 1 has 25 hours : the hour from 1 to 2 a.m. happens twice.",
        "Halloween was Saturday, October 31 : costumes, pumpkins, and full candy bags."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34  # D5: +14->+34 (P2 'bags.' spilled +12.74px below box)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

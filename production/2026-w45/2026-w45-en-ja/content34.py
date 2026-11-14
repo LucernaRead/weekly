@@ -105,7 +105,7 @@ f.para("In Brazil, Formula 1 races the São Paulo Grand Prix, the second race af
 f.para("And there is more : NASCAR races at Homestead-Miami, the WTA Finals begin at Indian Wells, and in Arlington, Texas, Alycia Baumgardner defends her women's lightweight title against Elif Nur Turhan. One Sunday is not enough — good thing the week has seven days.")
 f.box("WHY MADRID ?　なぜマドリードへ？", [
     ("The NFL plays games outside the United States every year, so new fans can see the sport live. Madrid joins London, Munich and São Paulo on the international map.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (P4 title over +19.1px right)
 f.para("How do you follow five sports in one day ? Choose one game to watch fully, and follow the others on your phone. That is the modern fan : one screen for the game, one screen for the scores.")
 f.para("On Saturday, November 7, the warm-up is already on : Major League Soccer plays its late-season fixtures, including Charlotte against Inter Miami and Atlanta against the New York Red Bulls. The weekend starts on Saturday — and it does not stop.")
 f.gloss("a fixture 日程の中の1試合 · a title 優勝の称号 · to defend （王座を）守る · a fan ファン。")
@@ -166,7 +166,7 @@ v4.box("SUNDAY, NOVEMBER 8　日曜の試合", [
     ("F1 : São Paulo Grand Prix, Brazil. NASCAR : Homestead-Miami.", "serif", False, INK, 21.5, 1.42),
     ("WTA Finals begin, Indian Wells. Boxing : Baumgardner–Turhan, Arlington.", "serif", False, INK, 21.5, 1.42),
     ("SATURDAY, NOVEMBER 7 : MLS — Charlotte–Inter Miami ; Atlanta–New York Red Bulls.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5: title 23->21 (P4 title over +14.9px right)
 v4.head("ONE SCREEN, TWO SCREENS", 25)
 v4.para("The modern fan watches one game fully and follows the others on a phone. Try it in English : « The score is 14–10. » « Who scored ? » « Madrid is winning ! » — short sentences, live English.", 22)
 v4.bridge("観戦英語｜スコア、誰が得点したか、誰がリードしているか——短い文こそ実況英語。")

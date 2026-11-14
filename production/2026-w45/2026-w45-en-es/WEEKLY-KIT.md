@@ -11,10 +11,12 @@ delivery, no repo insert, no cron was made under this task.
 
 - `svg/` — 8 pages of SVG sources (p1-front … p8-exercices)
 - `cards/` — 8 full-page PNGs, 1950×2700 (all 8 visually inspected, §八）
-- `The-Lucerna-VOL2-ES.pdf` — merged 8-page print PDF, **17,292,956 bytes**,
-  sha256 `382f1e81b1249123b1ca2d28ebb53d825f82c55ece01f822f576e27fd9b733f1`
-- `The-Lucerna-VOL2-ES-web.pdf` — compressed 8-page PDF, **4,004,747 bytes**
-  (< 10 MB), sha256 `6282726a0a79ee6ce72131372e4ccc4c5243015c8e087e9853903dc2b4f23e13`
+- `The-Lucerna-VOL2-en-es.pdf` — merged 8-page print PDF, **16,272,481 bytes**,
+  sha256 `1779152f27b423aa5a82d28fc24617f57674a715c07f596a72e8b990dcb1f366`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 17,292,956 bytes)
+- `2026-w45-en-es.web.pdf` — compressed 8-page PDF, **1,959,081 bytes**
+  (< 7 MB), sha256 `0356ee55b724a48d8eee80a9c38ae3deeb15c56b7aece9ec1f3e3f25f31b63b7`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 4,004,747 bytes)
 - 本文件 + `ABSTRACT.txt`（西班牙语单行、无 ASCII 双引号，见 §九）
 
 构建代码在 `hidden_files/weekly-report-w45-en-es-build/`：`transform.py`
@@ -225,3 +227,52 @@ cd ~/workspace/goals/lucernaread-social-media-operations/tools
   8/8（freeze baseline），故沿用。
 - 本构建不推 git、不发 Discord（按任务指令，入仓由上级主线串行完成）。
 - 附记：本报告不自认终审——仍需新一轮完整独立校对零问题后方可定稿。
+
+## 十三、D5 重建（2026-11-14，builder；非校对轮）
+
+D5：讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1
+字体表违规修正）。安装器：
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader es --week 2026-w45`
+（先 `--check` dry-run）；`_D5_READER = "latin"`；路由测试
+`test_d5_routing.py` FAILURES: 0；fix2 保留（9 处）。
+
+基线（D5 前，venv 重建）：TOTAL 150，0 FLOW，0 HEAD；印 PDF
+16,770,209 字节，sha256 1d675a37…（全值见
+`style-port-en/MANIFEST-W45-D1.md`）；D5 前 census 520 项违规。
+
+Run-1 缺陷，均为字号调整，零文字改动（修复后全量重渲 + 16 门全跑；
+P8 行数 198 → 196，页脚 slack 32.7 → 33.7）：
+
+- 标题过宽（单栏宽 422.5px）：`content12.py:47` "TRY IT NOW
+  Practica al momento" 25 → 24pt（439.1px → 421.5px，余 1.0px）；
+  `content56.py:109` "READ THE CHART Lee el gráfico" 25 → 24pt
+  （430.4px → 413.1px）；`content7.py:48` "THE TOOLBOX Herramientas"
+  27 → 25pt（423.9px → 392.5px）。
+- P1 深色带标题 46 → 42pt（标题/副标题重叠 63.0px；副标题
+  "Martes electoral" 保持 27pt，修复后 gap +72.9px）。
+- P2 DID YOU KNOW 框溢出："bags." 框底 BELOW +12.74px（已发基线即有）；
+  `content12.py:193` 框高公式 `+ 14` → `+ 34`。
+- 框标题 tsize 23 → 21pt："THE WEEK IN NUMBERS En cifras"
+  （+21.5px）；"WHY MADRID? ¿Por qué Madrid?"（+13.1px）；"SUNDAY,
+  NOVEMBER 8 Domingo"（+2.9px）；"TOO CLOSE TO CALL Muy reñido"
+  （+5.2px）。
+
+Run-2 门禁（2026-11-14）：16/16 ALL-GREEN + D18 刊头 gap 119.6px（g8 经 R1 落盘后重跑 PASS，D32；原 15/16 为落盘前状态）。
+d5 census 0/0/0（拉丁 0，西里尔 0，花括号 CJK 0）。p8 抽取 150/150。
+Freeze 基线 8/8；freeze diff vs 基线新增 CJK 0（拉丁新增 340，D5
+预期行切分）。Spill 0，boxtitle 0，edge 0，creambox 0 缺陷。文字层
+print = web（字符多重集差 0）；text.md
+（`scratch-prep-p3b/en_textmd_w45.py`，label "Spanish (es)"）与已发版
+BYTE-IDENTICAL（43,634 字节）。
+
+g8 p8 对照 PASS（R1 landed, D32；extract core 78 / ed 78，compare CLEAN，exit 0，keydiff=[137, 138, 139, 140, 150]；patched 与基线重跑均为 CLEAN）。落盘前为 SHORT missing=[150]（本版 77 noted，core 78）：150 号注释在 SVG 与文字层中全文印出（"150. Pregunta abierta: véanse los puntos en el recuadro de redacción; el modelo está en el recuadro de esta página (Se puntúa por puntos)"），为冒号式，`tools/p8.py` `detect_note()` 落盘前只认括号式 `key (note)` 与破折号式 `key — note`；R1 冒号式规则（D32）落盘后 [150] 以 `method='colon'` 检出。已发基线重跑同样 CLEAN，印 PDF 与清单字节精确一致。未改内容迁就抽取器。葡语版有相同的 [150] 情形，同样 PASS。
+
+D5 终值 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder
+原件，绝不重跑 webpdf）：印 `The-Lucerna-VOL2-en-es.pdf`
+16,272,481 字节
+sha256 1779152f27b423aa5a82d28fc24617f57674a715c07f596a72e8b990dcb1f366；
+网 `2026-w45-en-es.web.pdf` 1,959,081 字节
+sha256 0356ee55b724a48d8eee80a9c38ae3deeb15c56b7aece9ec1f3e3f25f31b63b7。
+Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-es/`；
+单版报告 `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-es.md`。

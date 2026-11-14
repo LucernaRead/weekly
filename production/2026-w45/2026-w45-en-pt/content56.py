@@ -106,7 +106,7 @@ f.box("A PRACTICE BALLOT　Cédula", [
 f.para("A note on numbers in this issue : this paper prints no poll figures and no predictions. Polls change, and a learner's paper should teach the system, not guess the result. On Wednesday morning, the results will speak for themselves — and next week's issue will report them.")
 f.gloss("to register, inscrever-se (cadastro de eleitores) · a governor, um governador · to shape laws, influenciar as leis · patience, paciência.")
 # practice chart
-f.head("READ THE CHART　Leia o gráfico", 25)
+f.head("READ THE CHART　Leia o gráfico", 24)  # D5: 25->24 (HEAD TOO WIDE, 432.6 > 422.5)
 f.para("Why do voters vote early ? A practice survey of 100 early voters gives four reasons. The chart is teaching data, not a real poll.", 22)
 # chart bars drawn via flow-adjacent page calls is complex; use text bars in flow
 for lab, pct, bw in [("No lines", 38, 280), ("Work on Tuesday", 29, 214), ("Travel plans", 21, 155), ("Habit", 12, 88)]:

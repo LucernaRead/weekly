@@ -21,7 +21,7 @@ f.para("Third, they read — on their phones. Friends send messages : « Did you
 f.para("And the children ? They watch too, from the sofa, and they ask the best questions : « Why is that state red ? » « Why does it take so long ? » « Can we stay up until the end ? » The answer to the last question is usually : no. The results will still be there in the morning.")
 f.box("TOO CLOSE TO CALL　Muy reñido", [
     ("When a race is very close, channels do not call a winner. They wait. « Too close to call » is the most honest sentence on election night — and the most repeated.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (P5 title over +5.2px right)
 f.para("If you want to practise election-night English, try this : watch ten minutes of results coverage in English, and write down five sentences you hear. « Too close to call » will certainly be one of them. The other four are your homework.")
 f.gloss("a map (elecciones) un mapa · too close to call demasiado reñido, sin decidir · a second screen una segunda pantalla (el móvil).")
 f.head("A　COMPREHENSION", 25)
@@ -106,7 +106,7 @@ f.box("A PRACTICE BALLOT　Papeleta", [
 f.para("A note on numbers in this issue : this paper prints no poll figures and no predictions. Polls change, and a learner's paper should teach the system, not guess the result. On Wednesday morning, the results will speak for themselves — and next week's issue will report them.")
 f.gloss("to register inscribirse (registro de votantes) · a governor un gobernador · to shape laws influir en las leyes · patience paciencia.")
 # practice chart
-f.head("READ THE CHART　Lee el gráfico", 25)
+f.head("READ THE CHART　Lee el gráfico", 24)  # D5: 25->24 (HEAD TOO WIDE, 430.4 > 422.5)
 f.para("Why do voters vote early ? A practice survey of 100 early voters gives four reasons. The chart is teaching data, not a real poll.", 22)
 # chart bars drawn via flow-adjacent page calls is complex; use text bars in flow
 for lab, pct, bw in [("No lines", 38, 280), ("Work on Tuesday", 29, 214), ("Travel plans", 21, 155), ("Habit", 12, 88)]:

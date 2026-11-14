@@ -43,7 +43,7 @@ f.bridge("讲解｜a midterm 中期选举 · a ballot 选票 · a race 一场竞
 f.box("THE WEEK IN NUMBERS　数字看本周", [
     ("Nov 3 — Election Day（选举日） · 435 — seats in the House, all on the ballot（众议院全部席位改选）", "serif", False, INK, 20.5, 1.35),
     ("Nov 6 — two films open（两部电影上映） · Nov 8 — NFL in Madrid + F1 in São Paulo（周日两场大赛）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5: title 23->21 (P1 title over +36.5px right in Noto Sans)
 f.head("TRY IT NOW　即学即练", 25)
 f.ex("A2", "完成句子", "ballot", "ballot = 纸选票",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -190,7 +190,7 @@ sav = ["Most of the United States fell back on Sunday, November 1 — Arizona an
        "The night of November 1 has 25 hours : the hour from 1 to 2 a.m. happens twice.",
        "Halloween was Saturday, October 31 : costumes, pumpkins, and full candy bags."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34  # D5: +14->+34 (P2 'bags.' spilled +12.74px below box)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

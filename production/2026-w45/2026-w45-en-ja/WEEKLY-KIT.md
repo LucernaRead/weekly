@@ -13,10 +13,12 @@ proofread still required before any shipping claim.**
 
 - `svg/` — 8 pages of SVG sources (p1-front … p8-exercices)
 - `cards/` — 8 full-page PNGs, 1950×2700
-- `The-Lucerna-VOL2-JA.pdf` — merged 8-page PDF, **31,114,365 bytes**,
-  sha256 `943448ee5aff62bb8250546164afe0e606b1a2b92675fdc3e7f1cade55a99cac`
-- `The-Lucerna-VOL2-JA-web.pdf` — compressed PDF, **3,943,144 bytes**,
-  sha256 `995de98a686023da7dcbb1e5704e5f2ae8c3dd461522f84a7850e0c63bae5478`
+- `The-Lucerna-VOL2-en-ja.pdf` — merged 8-page PDF, **21,737,637 bytes**,
+  sha256 `52d9c81e3ae7df8d339d65f5d438940defc49e30a36278aad04fa27a73927323`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 31,114,365 bytes)
+- `2026-w45-en-ja.web.pdf` — compressed PDF, **2,344,125 bytes**,
+  sha256 `c9d6e7ef08d005996aa48b04e8ac874889c5dc360ca8715fcdabc59e4d8123f9`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 3,943,144 bytes)
   (page JPEGs q85 at 1400 px wide)
 - 本文件 + `ABSTRACT.txt`（日语单行、无 ASCII 双引号）
 
@@ -202,3 +204,54 @@ $PY render.py      # svg -> cards PNG -> 印刷 PDF -> 网页 PDF
   cairosvg 2.9.1，pypdf 6.21.2（系统 python3 无 cairosvg，不可用）
 - run.py 解释器/PIL 选择自由，但须字节复现同族基线 SVG（除有意改动外）；
   本版 SVG 由上述 venv 产出。
+
+## 13. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader ja --week 2026-w45`
+(`--check` dry-run first; "CJK index already JP"); `_D5_READER = "cjk"`;
+routing test `test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+29,669,298 bytes sha256
+a59b0686… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+384 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 198 → 198, footer slack
+32.7 → 32.7):
+
+- Head too wide (single-column width 422.5px): `content8.py:71`
+  "D SENTENCES 文の完成と書きかえ" 24 → 22pt (441.5px; 23pt still
+  423.2px).
+- P1 dark-band title 46 → 44pt (title/subtitle overlap 9.5px vs
+  "火曜は選挙日"; subtitle stays 27pt, gap after fix +58.3px).
+- `content12.py:205` "AND YOU? あなたのことを話そう" p.text 24 → 23pt
+  (403.3px > 400.5px available, over +2.8px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: "THE WEEK IN NUMBERS 今週の数字"
+  (+36.5px); "WHY MADRID? なぜマドリードへ？" (+19.1px); "SUNDAY,
+  NOVEMBER 8 日曜の試合" (+14.9px); "A PRACTICE BALLOT 練習用投票用紙"
+  (+38.4px).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 233.8px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0).
+p8 extract 150/150; p8 compare vs core CLEAN (core 78 → edition 78,
+keydiff [137, 138, 139, 140, 150]). Freeze baseline 8/8; freeze diff vs
+baseline added CJK 0 (Latin added 332, expected D5 run-splits). Spill 0,
+boxtitle 0, edge 0, creambox 0 defects. Text layer print = web (multiset
+diff 0); text.md (`scratch-prep-p3b/en_textmd_w45.py`, label
+"Japanese (ja)") BYTE-IDENTICAL vs issued (44,274 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-ja.pdf` 21,737,637 bytes
+sha256 52d9c81e3ae7df8d339d65f5d438940defc49e30a36278aad04fa27a73927323;
+web `2026-w45-en-ja.web.pdf` 2,344,125 bytes
+sha256 c9d6e7ef08d005996aa48b04e8ac874889c5dc360ca8715fcdabc59e4d8123f9.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ja/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-ja.md`.

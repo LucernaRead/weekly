@@ -263,11 +263,15 @@ forms below are copied from that edition unless marked W45-specific.
   (Recorded separately per the build brief; both are the same venv.)
 - Web PDF recipe (finalized core recipe, as in render.py): pages
   downscaled to 1400px wide, JPEG q85.
-- Final files (round 4):
-  - print PDF `The-Lucerna-VOL2-PT.pdf` — **17,295,650 bytes**,
-    sha256 `ed231eafd83df10cd62dc3cfd7a595263099efdda98c7086d42c9bf1079ae5c9`
-  - web PDF `The-Lucerna-VOL2-PT-web.pdf` — **4,008,688 bytes**,
-    sha256 `a91be6abb1e0adb8a8c1850ab3f34114748fbef86394453ffc111a5c56fc93c9`
+- Final files (D5 rebuild, 2026-11-14; round-4 pins were print
+  17,295,650 bytes sha256
+  `ed231eafd83df10cd62dc3cfd7a595263099efdda98c7086d42c9bf1079ae5c9`,
+  web 4,008,688 bytes sha256
+  `a91be6abb1e0adb8a8c1850ab3f34114748fbef86394453ffc111a5c56fc93c9`):
+  - print PDF `The-Lucerna-VOL2-en-pt.pdf` — **16,275,116 bytes**,
+    sha256 `09fdfabcf8d1c83a35306f7dd426d16647eba2fe251344a6472d0379292a1414`
+  - web PDF `2026-w45-en-pt.web.pdf` — **1,961,710 bytes**,
+    sha256 `c2eeeb10b858e8ae1ce62a397f0e0b077ae22f4c696fbb73abff1ad0b17ca9a8`
   - SVGs (round 4): p1 `41e61130cd66083291b749466a66b324f1142b53d878dd80f986ca9ba9ceb951`,
     p2 `d8d1079f6ccb8baae07148fe66a7c14e9d4121d5e601e852e1a1ace3135f1629`,
     p3 `ea45e0e7bdce8aea4ec5dfaf2c0bcacb81c376549a183c287442db765cc591f5`,
@@ -356,3 +360,51 @@ forms below are copied from that edition unless marked W45-specific.
 - Open for the independent proofreader: re-run all §6 tools from the
   §7 commands, re-view all 8 cards, and confirm the §8 round-4
   subtitle shift. Nothing in this KIT claims final sign-off.
+
+## 11. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader pt --week 2026-w45`
+(`--check` dry-run first); `_D5_READER = "latin"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+16,773,031 bytes sha256
+b130e143… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+521 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 199 → 200, footer slack
+32.7 → 32.7):
+
+- Head too wide (single-column width 422.5px): `content56.py:109`
+  "READ THE CHART Leia o gráfico" 25 → 24pt (432.6px → 415.3px).
+- P1 dark-band title 46 → 42pt (title/subtitle overlap 67.5px vs
+  "Terça de eleições"; 44pt alone leaves only +0.3px; subtitle stays
+  27pt, gap after fix +68.4px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: "THE WEEK IN NUMBERS Números" (+23.5px);
+  "SUNDAY, NOVEMBER 8 Domingo" (+2.9px).
+
+Run-2 gates (2026-11-14): 16/16 ALL-GREEN + D18 masthead gap 133.2px (g8 re-run PASS after R1 landed, D32; 15/16 was the pre-landing state).
+d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0). p8 extract
+150/150. Freeze baseline 8/8; freeze diff vs baseline added CJK 0
+(Latin added 337, expected D5 run-splits). Spill 0, boxtitle 0, edge 0,
+creambox 0 defects. Text layer print = web (multiset diff 0); text.md
+(`scratch-prep-p3b/en_textmd_w45.py`, label "Portuguese (pt)")
+BYTE-IDENTICAL vs issued (43,565 bytes).
+
+g8 p8 compare PASS (R1 landed, D32; extract core 78 / ed 78, compare CLEAN, exit 0, keydiff=[137, 138, 139, 140, 150]; patched and baseline re-runs both CLEAN). Before landing it was SHORT missing=[150] (edition 77 noted vs core 78): a pre-existing extractor blind spot, not a content gap — the 150 note IS printed verbatim in the SVG and the text layer ("150. Questão aberta: veja os pontos no quadro de redação; o modelo está no quadro desta página (Pontua-se por pontos)"), in colon style, which `tools/p8.py` `detect_note()` did not recognise before R1 (it recognised only paren style `key (note)` and dash style `key — note`); after the R1 colon rule (D32) [150] is detected with `method='colon'`. The shipped baseline re-run is likewise CLEAN, with a byte-exact print PDF vs the manifest. No content was changed to game the extractor. The sibling es edition has the identical [150] artifact, likewise PASS.
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-pt.pdf` 16,275,116 bytes
+sha256 09fdfabcf8d1c83a35306f7dd426d16647eba2fe251344a6472d0379292a1414;
+web `2026-w45-en-pt.web.pdf` 1,961,710 bytes
+sha256 c2eeeb10b858e8ae1ce62a397f0e0b077ae22f4c696fbb73abff1ad0b17ca9a8.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-pt/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-pt.md`.

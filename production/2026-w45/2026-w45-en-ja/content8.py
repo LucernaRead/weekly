@@ -68,7 +68,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "読解", k, nt, body, size=20.5)
 
 # ---- D. sentence building ----
-bf.head("D　SENTENCES　文の完成と書きかえ", 24, gap=8)
+bf.head("D　SENTENCES　文の完成と書きかえ", 22, gap=8)  # D5: 24->22 (HEAD TOO WIDE, 441.5 > 422.5; 23 still 423.2)
 d_items = [
     ("A2", "On Friday, they are going to watch the cat film.", "are going to + 原形",
      "Be going to : « On Friday, they (watch) the cat film. » → ___"),

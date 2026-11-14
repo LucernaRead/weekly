@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # dark band: election + clocks
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 42, "sans", True, ONCLOTH)  # D5: 46->42 (P1 dark-band overlap 127.9px)
 p.text(MX + 30, 568, "Election Day is Tuesday, November 3. On Sunday, November 1, America turned its clocks back one hour.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "ÉLECTIONS MARDI", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Mardi 3 novembre, jour des élections　page 6", 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.instrline("Note | a midterm = mi-mandat · a ballot = bulletin de vote · a ra
 f.box("THE WEEK IN NUMBERS　Chiffres", [
     ("Nov 3 — Election Day (jour des élections) · 435 — seats in the House, all on the ballot (tous les sièges en jeu)", "serif", False, INK, 20.5, 1.35),
     ("Nov 6 — two films open (deux films) · Nov 8 — NFL in Madrid + F1 in São Paulo (deux rendez-vous dimanche)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5: title 23->21 (title over +12.5px right)
 f.head("TRY IT NOW　À vous de jouer", 25)
 f.ex("A2", "Compléter", "ballot", "ballot = le bulletin de vote",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -173,7 +173,7 @@ f.para("And what about Saturday night ? On Saturday, October 31, it was Hallowee
 f.para("Halloween and the clock change belong together in America : one night of costumes, then one night of an extra hour. Two autumn rituals, one weekend — and both are now just passed, not coming.")
 f.box("DO THE MATHS　À vous de calculer", [
     ("From 2 a.m. back to 1 a.m. : the night of November 1 has 25 hours, not 24. One extra hour — one extra hour of sleep, if you use it well.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (title over +14.7px right)
 f.head("WHAT IS ON THIS WEEK ?", 25)
 f.para("Second story of the week — and it is on your screen. On Friday, November 6, two films open in cinemas : « The Cat in the Hat », with the famous cat from Dr. Seuss, and « Godzilla Minus Zero », the new film from Takashi Yamazaki. One for children, one for monster fans — and both for a Friday night out.", 23.5)
 f.para("On television and streaming, the week is just as full. New shows arrive on Wednesday, Thursday and Friday, and on Sunday night, a famous reality reunion closes the week. Page 3 has the full screen guide.", 23.5)
@@ -190,7 +190,7 @@ sav = ["Most of the United States fell back on Sunday, November 1 — Arizona an
        "The night of November 1 has 25 hours : the hour from 1 to 2 a.m. happens twice.",
        "Halloween was Saturday, October 31 : costumes, pumpkins, and full candy bags."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34  # D5: +14->+34 (P2 'bags.' spilled +12.74px below box)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)

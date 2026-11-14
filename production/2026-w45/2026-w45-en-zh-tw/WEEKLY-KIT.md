@@ -113,11 +113,50 @@
 
 | 產物 | 字節 | SHA-256 |
 |---|---|---|
-| Lucerna-VOL2-ZHTW.pdf（印刷） | 28,641,015 | fdc31a7580dfc34cb81ecf650054693e24ed70332d06f9fcd9856864cc91ca10 |
-| Lucerna-VOL2-ZHTW-web.pdf（網頁，< 10 MB） | 3,712,890 | 199611acc1e3cc2a0f809ab786aac9030e96166d8f067aba6700766607708e98 |
+| The-Lucerna-VOL2-en-zh-tw.pdf（印刷，D5 重建 2026-11-14；原 pin 28,641,015 字節） | 17,596,339 | 7ea0ac087c63cc30649b2c3c6b8f7b6ac5bfdd3493b436c693458fd7acd49841 |
+| 2026-w45-en-zh-tw.web.pdf（網頁，< 7 MB；D5 重建 2026-11-14；原 pin 3,712,890 字節） | 2,321,870 | f4738767535eccf80fe9ee762c80285ed3c55a8552df4321f16a857494666637 |
 
 - svg ×8、cards ×8（1950×2700）齊備；雙 PDF 各 8 頁。
 - 練習總量 150（A2 60 · B1 69 · B2 21）；印刷注 78 條。
 - 建造 scratch（變換表、差分 JSON、審計 JSON、P8 雙 dump、登記表雙 dump、幾何掃描、裁圖、構建日誌）皆在 `hidden_files/weekly-report-w45-en-zh-tw-build/scratch/` 與 `tools/scratch/`（diff-w45-en-zh-tw.json、occlusion2.json、p8-compare2.txt）內，在此披露。
 - W43 偏差清單（相對 W43 同配對版）：VOL.1→VOL.2；P8 印刷集 62→78（核心集本身變化，顯式集強制）；P8 注式半角化沿用 W43 式（核心全角式已改）；P1 徽章／頁腳／頁碼／gloss 前綴／引號裁定與 W43 同配對版逐字同；新增主題詞彙（慕尼黑／馬德里／哥斯拉／印地安泉等）皆為 W45 核心事實，無 W43 對應項；讀者園地披露按 W45 協調員裁定重寫（3 事實＋顯性邀請），非沿用 W43 披露。
 - 狀態 PENDING：待獨立校對；建造者不入倉、不投遞、不宣布定稿。
+
+## §9 D5 重建（2026-11-14，builder；非校對輪）
+
+D5：講解層拉丁/西里爾字母由 Newsreader 改為 Noto Sans CJK（SOP §1.1
+字體表違規修正）。安裝器：
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader zh-tw --week 2026-w45`
+（先 `--check` dry-run，TC face）；`_D5_READER = "cjk"`；路由測試
+`test_d5_routing.py` FAILURES: 0；fix2 保留（9 處）。
+
+基線（D5 前，venv 重建）：TOTAL 150，0 FLOW，0 HEAD；印 PDF
+27,135,158 字節，sha256 4e17c14d…（全值見
+`style-port-en/MANIFEST-W45-D1.md`）；D5 前 census 374 項違規。
+
+Run-1 缺陷，均為字號調整，零文字改動（修復後全量重渲 + 16 門全跑；
+P8 行數 199 → 198，頁腳 slack 32.7 → 32.7）：
+
+- P1 框標題 "THE WEEK IN NUMBERS　數字看本週" 右溢 +36.5px：
+  `content12.py:46` f.box tsize 23 → 21。
+- P2 DID YOU KNOW 框溢出："bags." 框底 BELOW +12.74px（已發基線即有）；
+  `content12.py:193` 框高公式 `+ 14` → `+ 34`。
+
+Run-2 門禁（2026-11-14）：16/16 PASS + D18 刊頭 gap 289.1px —
+OVERALL ALL-GREEN。d5 census 0/0/0（拉丁 0，西里爾 0，花括號 CJK 0）。
+p8 抽取 150/150；p8 對照 core CLEAN（core 78 → 本版 78，keydiff
+[137, 138, 139, 140, 150]）。Freeze 基線 8/8；freeze diff vs 基線新增
+CJK 0（拉丁新增 326，D5 預期行切分）。Spill 0，boxtitle 0，edge 0，
+creambox 0 缺陷。文字層 print = web（字符多重集差 0）；text.md
+（`scratch-prep-p3b/en_textmd_w45.py`，label "Traditional Chinese
+(zh-tw)"）與已發版 BYTE-IDENTICAL（41,601 字節）。
+
+D5 終值 pin（builder 原件；網 PDF 跨次字節不確定，closer 須拷 builder
+原件，絕不重跑 webpdf）：印 `The-Lucerna-VOL2-en-zh-tw.pdf`
+17,596,339 字節
+sha256 7ea0ac087c63cc30649b2c3c6b8f7b6ac5bfdd3493b436c693458fd7acd49841；
+網 `2026-w45-en-zh-tw.web.pdf` 2,321,870 字節
+sha256 f4738767535eccf80fe9ee762c80285ed3c55a8552df4321f16a857494666637。
+Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-zh-tw/`；
+單版報告 `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-zh-tw.md`。

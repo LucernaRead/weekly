@@ -22,7 +22,7 @@ f.box("AT HOME THIS WEEK　Thuis kijken", [
     ("Wed Nov 4 — « A Dog's Perfect Christmas » and « Taken : Natalee Holloway » arrive on Netflix.", "serif", False, INK, 21.5, 1.4),
     ("Thu Nov 5 — « Black Doves » Season 2 begins. Fri Nov 6 — « Under Siege » Season 1 and « Unprotected : Murder in Galicia ».", "serif", False, INK, 21.5, 1.4),
     ("Sun Nov 8 — « Love Is Blind : The Reunion » closes the week. One week, one screen, many stories.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (P3 title over +25.9px right)
 f.para("A film is not only a story — it is also English practice. Listen for three things : the catchphrase (the line everybody repeats), the joke (why does the room laugh ?), and the ending (happy, sad, or open ?). After the film, try to tell the story in five English sentences.")
 f.para("And if you stay at home, the same rule works for a series : one episode, five sentences, in English. The best five-sentence reviews will be printed in VOL.3 — send yours to the newsroom.")
 f.gloss("to open = (film) in première gaan · a monster = monster · a catchphrase = slogan, gevleugelde zin · a series = serie.")
@@ -80,7 +80,7 @@ cy3 = caption(p, ix, 670, CW, "A cat in art : « Cat and Flowers », an illustra
 v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
 v3.box("THE CAT'S HAT　De hoed van de kat", [
     ("Red and white stripes, much too tall — the most famous hat in children's books. In the film, the hat is back, and so is the trouble.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5: title 23->21 (P3 title over +19.7px right)
 v3.head("FIVE SENTENCES", 25)
 v3.para("After any film or episode, tell the story in five English sentences : who, where, what happened, the surprise, the ending. Five sentences are enough — and they are excellent practice.", 22)
 v3.para("Example : « A cat comes to a house. Two children are bored. The cat plays games. The house is a mess. Then the cat cleans it all up. » Now it is your turn.", 22)
@@ -105,7 +105,7 @@ f.para("In Brazil, Formula 1 races the São Paulo Grand Prix, the second race af
 f.para("And there is more : NASCAR races at Homestead-Miami, the WTA Finals begin at Indian Wells, and in Arlington, Texas, Alycia Baumgardner defends her women's lightweight title against Elif Nur Turhan. One Sunday is not enough — good thing the week has seven days.")
 f.box("WHY MADRID ?　Waarom Madrid?", [
     ("The NFL plays games outside the United States every year, so new fans can see the sport live. Madrid joins London, Munich and São Paulo on the international map.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (P4 title over +10.1px right)
 f.para("How do you follow five sports in one day ? Choose one game to watch fully, and follow the others on your phone. That is the modern fan : one screen for the game, one screen for the scores.")
 f.para("On Saturday, November 7, the warm-up is already on : Major League Soccer plays its late-season fixtures, including Charlotte against Inter Miami and Atlanta against the New York Red Bulls. The weekend starts on Saturday — and it does not stop.")
 f.gloss("a fixture = wedstrijd (in het speelschema) · a title = kampioenstitel · to defend = (titel) verdedigen · a fan = fan.")

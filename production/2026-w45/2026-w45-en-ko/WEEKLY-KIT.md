@@ -154,10 +154,12 @@ Final SVG sha256 (round 3; `round3-baseline.sha256`):
 
 Final PDFs:
 
-- Print `The-Lucerna-VOL2-KO.pdf`: 21,530,330 bytes,
-  sha256 `9a805dba23f7a6dc2d25f9e196d2fe8b9300dfdd178f43f973a76254ba0539b1`
-- Web `The-Lucerna-VOL2-KO-web.pdf`: 3,898,955 bytes,
-  sha256 `8ce20818fbc8ba537f08f505d0109f4bafca2e5713309e2b0eb2e0b45a4fa4df`
+- Print `The-Lucerna-VOL2-en-ko.pdf`: 17,028,319 bytes,
+  sha256 `4378ab8084c52c683582d37d56e24ebe193f3fff46bd1979eb9ccb7450d599c9`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 21,530,330 bytes)
+- Web `2026-w45-en-ko.web.pdf`: 2,125,506 bytes,
+  sha256 `d5122bcef6f0452a2449330ad5a1d61e51784d0be696f18cb22f7d7807702474`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 3,898,955 bytes)
 - Card PNG sha256 in `hidden_files/weekly-report-w45-en-ko-build/round3-cards-pdfs.sha256`.
 
 ## 6. P8 translation redirections and readers' corner (coordinator ruling applied)
@@ -381,3 +383,45 @@ PDF. Per SOP §8.4 this fix round changed rendered output, so a fresh
 full independent proofread is still required — this section reports
 fix-complete only and does not declare the edition final.
 
+
+## 11. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader ko --week 2026-w45`
+(`--check` dry-run first; "SC -> KR"); `_D5_READER = "cjk"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+19,689,752 bytes sha256
+6332cfb1… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+383 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 197 → 196, footer slack
+32.7 → 32.7):
+
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- `content34.py:25` f.box "AT HOME THIS WEEK 집에서 볼 것" tsize 23 →
+  21pt (+1.3px over; creambox passed, boxtitle stricter).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 315.9px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0).
+p8 extract 150/150; p8 compare vs core CLEAN (core 78 → edition 78,
+keydiff [137, 138, 139, 140, 150]). Freeze baseline 8/8; freeze diff vs
+baseline added CJK 0 (Latin added 338, expected D5 run-splits). Spill 0,
+boxtitle 0, edge 0, creambox 0 defects. Text layer print = web (multiset
+diff 0); text.md (`scratch-prep-p3b/en_textmd_w45.py`, label
+"Korean (ko)") BYTE-IDENTICAL vs issued (43,926 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-ko.pdf` 17,028,319 bytes
+sha256 4378ab8084c52c683582d37d56e24ebe193f3fff46bd1979eb9ccb7450d599c9;
+web `2026-w45-en-ko.web.pdf` 2,125,506 bytes
+sha256 d5122bcef6f0452a2449330ad5a1d61e51784d0be696f18cb22f7d7807702474.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ko/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-ko.md`.

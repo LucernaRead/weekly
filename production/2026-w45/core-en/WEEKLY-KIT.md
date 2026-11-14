@@ -14,8 +14,10 @@ only this explanation layer is replaced per reader native language.
 
 - `svg/` — 8 pages of SVG sources (p1-front … p8-exercices)
 - `cards/` — 8 full-page PNGs, 1950×2700
-- `The-Lucerna-VOL2.pdf` — merged 8-page PDF, 31,113,553 bytes
-- `The-Lucerna-VOL2-web.pdf` — compressed PDF, 3,695,227 bytes
+- `The-Lucerna-VOL2-en-zh-cn.pdf` — merged 8-page PDF, 17,533,881 bytes
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 31,113,553 bytes)
+- `2026-w45-en-zh-cn.web.pdf` — compressed PDF, 2,230,690 bytes
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 3,695,227 bytes)
   (page JPEGs q85 at 1400 px wide)
 - 本文件 + `ABSTRACT.txt`
 
@@ -223,3 +225,47 @@ going … warms up for Sunday's games."，与第 4 版一致；赛程与日期�
 `The-Lucerna-VOL2.pdf` 31,114,501 字节、
 `The-Lucerna-VOL2-web.pdf` 3,712,305 字节（各 8 版）。
 本轮不自认终审——仍需第三轮完整独立校对零问题后方可定稿。
+
+## 附记、D5 重建（2026-11-14，builder；非校对轮）
+
+D5：讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1
+字体表违规修正）。安装器：
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader zh-cn --week 2026-w45`
+（先 `--check` dry-run）；patched 版 `_D5_READER = "cjk"`；路由测试
+`test_d5_routing.py` FAILURES: 0；fix2 保留（9 处）。注意：production
+core-en 经 `--patch-core en --week 2026-w45` 落盘后常驻值为
+`_D5_READER = "latin"`（与 patched zh-cn 的 `"cjk"` 不同）；按 D24，
+closer 按 patched 原样同步，不特殊处理。
+
+基线（D5 前，venv 重建）：TOTAL 150，0 FLOW，0 HEAD；印 PDF
+29,602,026 字节，sha256 a9679ac5…（全值见
+`style-port-en/MANIFEST-W45-D1.md`）；D5 前 census 380 项违规
+（拉丁 378，花括号 CJK 2）。
+
+Run-1 缺陷，均为字号调整，零文字改动（修复后全量重渲 + 16 门全跑；
+P8 行数 197 → 200，页脚 slack 32.7 → 32.7）：
+
+- P1 框标题 "THE WEEK IN NUMBERS　数字看本周" 右溢 +36.5px：
+  `content12.py:46` f.box tsize 23 → 21。
+- P2 DID YOU KNOW 框溢出："bags." 框底 BELOW +12.74px（已发基线即有）；
+  `content12.py:193` 框高公式 `+ 14` → `+ 34`。
+
+Run-2 门禁（2026-11-14）：16/16 PASS + D18 刊头 gap 289.1px —
+OVERALL ALL-GREEN。d5 census 0/0/0（拉丁 0，西里尔 0，花括号 CJK 0；
+Newsreader 内花括号 4 处，D5 不覆盖）。p8 抽取 150/150；p8 对照
+core CLEAN（core 78 → 本版 78，keydiff []）。Freeze 基线 8/8；
+freeze diff vs 基线新增 CJK 0（拉丁新增 388，D5 预期行切分）。
+Spill 0，boxtitle 0，edge 0，creambox 0 缺陷。文字层 print = web
+（字符多重集差 0）；text.md（`scratch-prep-p3b/en_textmd_w45.py`，
+label "Simplified Chinese (zh-cn)"）与已发版 BYTE-IDENTICAL（41,586
+字节）。
+
+D5 终值 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder
+原件，绝不重跑 webpdf）：印 `The-Lucerna-VOL2-en-zh-cn.pdf`
+17,533,881 字节
+sha256 4dc061f4245ab9f7fe0c2a80904ff6db394bf86b11d89dc5cdb78241b2fe7dce；
+网 `2026-w45-en-zh-cn.web.pdf` 2,230,690 字节
+sha256 2bc9703557332e4463ce319f85899ce740718614518d78874bd5754dd397395a。
+Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-zh-cn/`；
+单版报告 `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-zh-cn.md`。

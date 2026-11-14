@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # dark band: election + clocks
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "AMERICA VOTES ON TUESDAY — AND THE CLOCKS FELL BACK !", 44, "sans", True, ONCLOTH)  # D5: 46->44 (P1 dark-band overlap 9.5px; gap +58.3px)
 p.text(MX + 30, 568, "Election Day is Tuesday, November 3. On Sunday, November 1, America turned its clocks back one hour.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "火曜は選挙日", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "11月3日火曜は選挙日　詳しくは6ページ", 18, "sans", False, GOOSE, anchor="end")
@@ -43,7 +43,7 @@ f.bridge("解説 — a midterm 中間選挙 · a ballot 投票用紙 · a race 1
 f.box("THE WEEK IN NUMBERS　今週の数字", [
     ("Nov 3 — Election Day（選挙日） · 435 — seats in the House, all on the ballot（下院の全議席が改選）", "serif", False, INK, 20.5, 1.35),
     ("Nov 6 — two films open（映画2本が公開） · Nov 8 — NFL in Madrid + F1 in São Paulo（日曜の2大試合）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5: title 23->21 (P1 title over +36.5px right)
 f.head("TRY IT NOW　すぐ練習", 25)
 f.ex("A2", "文の完成", "ballot", "ballot = 投票用紙",
      "You mark your choice on a ___ and put it in the box.", size=20.5)
@@ -190,7 +190,7 @@ sav = ["Most of the United States fell back on Sunday, November 1 — Arizona an
        "The night of November 1 has 25 hours : the hour from 1 to 2 a.m. happens twice.",
        "Halloween was Saturday, October 31 : costumes, pumpkins, and full candy bags."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34  # D5: +14->+34 (P2 'bags.' spilled +12.74px below box)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
@@ -202,7 +202,7 @@ etvous = "And you ? Did you sleep one hour more on Sunday ? What did you do on O
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("日曜は1時間多く眠れた？英語で2文、編集部へ送ろう。", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "AND YOU ?　あなたのことを話そう", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "AND YOU ?　あなたのことを話そう", 23, "sans", True, OLIVE)  # D5: 24->23 (P2 title over +2.8px right, 403.3 > 400.5)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "日曜は1時間多く眠れた？英語で2文、編集部へ送ろう。", 20, "sans", False, GREY, CW - 44, 1.42)

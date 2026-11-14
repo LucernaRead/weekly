@@ -68,7 +68,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "Compréhension écrite", k, nt, body, size=20.5)
 
 # ---- D. sentence building ----
-bf.head("D　SENTENCES　Phrases à former", 24, gap=8)
+bf.head("D　SENTENCES　Phrases à former", 23, gap=8)  # D5: 24->23 (HEAD TOO WIDE, 423.7 > 422.5)
 d_items = [
     ("A2", "On Friday, they are going to watch the cat film.", "are going to + verbe de base",
      "Be going to : « On Friday, they (watch) the cat film. » → ___"),

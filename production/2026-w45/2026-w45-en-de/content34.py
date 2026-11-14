@@ -80,7 +80,7 @@ cy3 = caption(p, ix, 670, CW, "A cat in art : « Cat and Flowers », an illustra
 v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
 v3.box("THE CAT'S HAT　Der Hut der Katze", [
     ("Red and white stripes, much too tall — the most famous hat in children's books. In the film, the hat is back, and so is the trouble.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5: title 23->21 (P3 title over +11.7px right)
 v3.head("FIVE SENTENCES", 25)
 v3.para("After any film or episode, tell the story in five English sentences : who, where, what happened, the surprise, the ending. Five sentences are enough — and they are excellent practice.", 22)
 v3.para("Example : « A cat comes to a house. Two children are bored. The cat plays games. The house is a mess. Then the cat cleans it all up. » Now it is your turn.", 22)

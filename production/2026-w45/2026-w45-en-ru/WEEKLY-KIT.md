@@ -11,10 +11,12 @@ delivery, no repo insert, no cron was made under this task.
 
 - `svg/` — 8 pages of SVG sources (p1-front … p8-exercices)
 - `cards/` — 8 full-page PNGs, 1950×2700 (all 8 visually inspected, §八）
-- `The-Lucerna-VOL2-RU.pdf` — merged 8-page print PDF, **17,213,550 bytes**,
-  sha256 `6e2d9a37cd638df74ef356db835b29a3ce3ed486cdb9e6afada84c3105e55938`
-- `The-Lucerna-VOL2-RU-web.pdf` — compressed 8-page PDF, **4,026,624 bytes**
-  (< 10 MB), sha256 `e6d78a24f161218885a21860c246cd6351cfadd439acd7054db97fc9d5b0456d`
+- `The-Lucerna-VOL2-en-ru.pdf` — merged 8-page print PDF, **16,516,502 bytes**,
+  sha256 `11c3472bace30268fe3b103e40ddd534e252dea231c7376850a05f8e0e2db973`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 17,213,550 bytes)
+- `2026-w45-en-ru.web.pdf` — compressed 8-page PDF, **2,190,261 bytes**
+  (< 7 MB), sha256 `fe22efd81faa61d3fe2c89a1a1dcd703d16bd3c62c406a540a7b18e334201551`
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 4,026,624 bytes)
 - 本文件 + `ABSTRACT.txt`（俄语单行、无 ASCII 双引号，见 §九）
 
 构建代码在 `hidden_files/weekly-report-w45-en-ru-build/`：`transform.py`
@@ -242,3 +244,49 @@ cd ~/workspace/goals/lucernaread-social-media-operations/tools
   8/8（freeze baseline），故沿用。
 - 本构建不推 git、不发 Discord（按任务指令，入仓由上级主线串行完成）。
 - 附记：本报告不自认终审——仍需新一轮完整独立校对零问题后方可定稿。
+
+## 十三、D5 重建（2026-11-14，builder；非校对轮）
+
+D5：讲解层拉丁/西里尔字母由 Newsreader 改为 Noto Sans CJK（SOP §1.1
+字体表违规修正）。安装器：
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader ru --week 2026-w45`
+（先 `--check` dry-run）；`_D5_READER = "ru"`，用 installer 输出的旧
+分支（Latin AND Cyrillic → Noto Sans，D26；fix-xru 只限 W47，绝未带
+入本轮）；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（9 处）。
+
+基线（D5 前，venv 重建）：TOTAL 150，0 FLOW，0 HEAD；印 PDF
+16,707,935 字节，sha256 99643b61…（全值见
+`style-port-en/MANIFEST-W45-D1.md`）；D5 前 census 704 项违规
+（拉丁 398，西里尔 306）。
+
+Run-1 缺陷，均为尺寸调整，零文字改动（修复后全量重渲 + 16 门全跑；
+P8 行数 200 → 200，页脚 slack 32.7 → 32.7；两处溢出在已发基线中
+均已存在，基线 spill_sweep 同为 2 SPILL）：
+
+- P2 DID YOU KNOW 框溢出："bags." 框底 BELOW +12.74px；
+  `content12.py:193` 框高公式 `+ 14` → `+ 34`。
+- P7 读者园地框溢出："опубликуем полученные письма." 框底 BELOW
+  +10.00px（框 (989.0, 1878.0, 873.0, 300.0)，底 2178.0；编者按段
+  `content7.py:115`，20pt sans）；框高 300 → 316（`content7.py`，
+  `p.rect(rx, by7 + 8, rw, 316, fill=BOX)`；距 NEXT WEEK 框 24px，
+  修复后余 8px）。
+
+Run-2 门禁（2026-11-14）：16/16 PASS + D18 刊头 gap 149.9px —
+OVERALL ALL-GREEN。d5 census 0/0/0（拉丁 0，西里尔 0，花括号 CJK 0），
+`noto_sans_elements=802`（ru-reader 须 >0 ✓）。p8 抽取 150/150；
+p8 对照 core CLEAN（core 78 → 本版 78，keydiff
+[137, 138, 139, 140, 150]）。Freeze 基线 8/8；freeze diff vs 基线新增
+CJK 0（拉丁新增 227，D5 预期行切分）。Spill 0，boxtitle 0，edge 0，
+creambox 0 缺陷。文字层 print = web（字符多重集差 0）；text.md
+（`scratch-prep-p3b/en_textmd_w45.py`，label "Russian (ru)"）与已发版
+BYTE-IDENTICAL（50,295 字节）。
+
+D5 终值 pin（builder 原件；网 PDF 跨次字节不确定，closer 须拷 builder
+原件，绝不重跑 webpdf）：印 `The-Lucerna-VOL2-en-ru.pdf`
+16,516,502 字节
+sha256 11c3472bace30268fe3b103e40ddd534e252dea231c7376850a05f8e0e2db973；
+网 `2026-w45-en-ru.web.pdf` 2,190,261 字节
+sha256 fe22efd81faa61d3fe2c89a1a1dcd703d16bd3c62c406a540a7b18e334201551。
+Builder scratch：`hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ru/`；
+单版报告 `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-ru.md`。

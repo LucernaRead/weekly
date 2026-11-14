@@ -45,7 +45,7 @@ cC.box("THE EXAMPLE　Beispiel", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-tools")
-cD.head("THE TOOLBOX　Werkzeugkiste", 27)
+cD.head("THE TOOLBOX　Werkzeugkiste", 25)  # D5: 27->25 (HEAD TOO WIDE, 438.0 > 422.5)
 cD.para("Three sentences to keep in your pocket, one for each level :", 22.5)
 cD.para("A2 — « It is one o'clock — again ! »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « The clocks fell back on Sunday. »", 22.5)
@@ -96,7 +96,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("THE ERROR CLINIC　Fehlerklinik", 25)
+cf.head("THE ERROR CLINIC　Fehlerklinik", 24)  # D5: 25->24 (HEAD TOO WIDE, 436.1 > 422.5)
 cf.bridge("Jeder Satz enthält einen Fehler: Finde ihn und korrigiere den Satz.")
 cf.ex("A2", "Fehlerkorrektur", "He doesn't like voting early.", "3. Person: doesn't + Grundform",
      "✗ « He don't like voting early. »", instr="Fehlerkorrektur", size=22.5)

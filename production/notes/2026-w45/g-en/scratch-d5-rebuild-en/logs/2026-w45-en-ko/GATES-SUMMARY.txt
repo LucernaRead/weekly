@@ -1,0 +1,69 @@
+GATES 2026-w45-en-ko run2 2026-11-14T12:56:30Z
+g1 run: PASS TOTAL=150 FLOW=0 HEAD=0
+HEAD CHECK PASS 0 defects
+g2 head_check: PASS
+p6-politique.svg: els=321 news=238 cjk_sans=79 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-langue.svg: els=521 news=325 cjk_sans=187 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p8-exercices.svg: els=967 news=610 cjk_sans=354 noto_sans=0 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0
+CENSUS PASS
+g3 d5_census: PASS
+g4 render: PASS RC=0 print=17028319B sha=4378ab80
+g5 webpdf: PASS 2125506B sha=d5122bce
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ko/svg: 0 flags 
+g6 occlusion: PASS 0 flags
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ko/svg/p8-exercices.svg: noted set = 78 of 150 (parse: joined)
+  set: [11, 12, 14, 19, 29, 30, 31, 33, 41, 44, 47, 48, 51, 58, 64, 66, 67, 68, 69, 71, 74, 82, 83, 84, 85, 86, 87, 88, 89, 91, 92, 93, 100, 102, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+g7 p8_extract: PASS RC=0
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-zh-cn/svg/p8-exercices.svg: 78 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-ko/svg/p8-exercices.svg: 78 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 140, 150]
+g8 p8_compare: PASS RC=0
+  OK  p6-politique.svg core 967fe8b24b96efc1 produced 967fe8b24b96efc1
+  OK  p7-langue.svg core a66528cc6efad8ad produced a66528cc6efad8ad
+  OK  p8-exercices.svg core 3babb9faef49676b produced 3babb9faef49676b
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+g9 freeze_baseline: PASS RC=0
+p5: +156 strings / -28 strings; CJK core 184 -> edition 184; added CJK chars: 0 ; added Latin strings: 22 (unexpected 22)
+p6: +163 strings / -25 strings; CJK core 200 -> edition 200; added CJK chars: 0 ; added Latin strings: 21 (unexpected 21)
+p7: +381 strings / -42 strings; CJK core 472 -> edition 472; added CJK chars: 0 ; added Latin strings: 37 (unexpected 37)
+p8: +812 strings / -106 strings; CJK core 884 -> edition 884; added CJK chars: 0 ; added Latin strings: 156 (unexpected 156)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 338 (unexpected 338)
+added-CJK TOTAL: ?
+g10 freeze_diff_vs_base: PASS RC=0
+P8 box=(989.0,1500.0,873.0,276.0) bottom=1776.0
+   ABOVE -56.95px x=989.0 y=1443.0 [observe] 'in the United States.'
+SPILL_SWEEP 2026-w45-en-ko: 25 boxes, 130 candidates, 0 SPILL, 130 OBSERVE
+g11 spill: PASS
+== 2026-w45-en-ko  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/patched/core-en backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-en/scratch-fanout-en/backup/2026-w45-en-ko
+BOXTITLE 2026-w45-en-ko: 50 titles, 305 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+g12 boxtitle: PASS
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 55.8, 'left': 65.9, 'right': 60.8}
+EDGE_SCAN 2026-w45-en-ko: 8 pages, 0 TOUCH, 0 NEAR
+g13 edge: PASS
+p8-exercices.svg: els 261->967 lines 197->196 diff 76 moved 22 defects 0 observe 0
+ratios: n=429 median=1.02 boldT=1.057 boldF=0.979
+P8 p8-exercices.svg: lines 197->196 slack_footer 32.7->32.7
+CREAMBOX PASS 0 defects
+g14 creambox: PASS
+print chars=39266 web chars=39266
+print-vs-web multiset diff: +0 -0
+print whitespace=8921 web whitespace=8921
+issued chars=39398
+web-vs-issued multiset diff: +0 -0
+issued whitespace=9053
+TEXTCHECK PASS
+g15a text_layer: PASS text.md: BYTE-IDENTICAL (export RC=0)
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+g16 census_quotes: PASS
+slogan: 'WEEKLY IN ENGLISH\u3000매주 발행\u3000미국이 읽는 영어'... size=17.0 total=455.9 right=1203.0
+date: 'WEEK OF NOVEMBER 2 TO 8, 2026' size=17.0 total=343.2 left=1518.8
+D18 gap = 315.9px  PASS
+calib slogan first-run x=747.0 expect=747.0 err=-0.0
+calib date first-run x=1518.8 expect=1518.8 err=-0.0
+D18 masthead: PASS
+OVERALL: ALL-GREEN

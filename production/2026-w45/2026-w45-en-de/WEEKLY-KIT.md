@@ -16,8 +16,10 @@ then re-ran transform + run + render), `run.py` (single-process driver),
 Core (frozen, untouched): `files/weekly-report-w45-en-core/` (VOL.2).
 Core build code: `hidden_files/weekly-report-w45-en-build/`.
 
-Print PDF: `The-Lucerna-VOL2-DE.pdf` — 17,295,556 bytes.
-Web PDF: `The-Lucerna-VOL2-DE-web.pdf` — 4,027,862 bytes.
+Print PDF: `The-Lucerna-VOL2-en-de.pdf` — 16,272,573 bytes (D5 rebuild,
+2026-11-14; round-4 pin was 17,295,556 bytes).
+Web PDF: `2026-w45-en-de.web.pdf` — 1,959,185 bytes (D5 rebuild, 2026-11-14;
+round-4 pin was 4,027,862 bytes).
 SHA-256 values are in the final verification section (§11) and in
 `hidden_files/weekly-report-w45-en-de-build/run4-baseline.sha256`.
 
@@ -284,11 +286,15 @@ governor = Gouverneur · to shape laws = Gesetze prägen · patience = Geduld.`
   p6 3e2187b37acb2883c0aaef95f8e1bca21ec36e4327d4b5e69b8638e791152a79,
   p7 5a2684096010839c3b7c86be1b5fe45b730588c5546b3827b21b7e7080105083,
   p8 4de34a135cc831bfbbf5ec285be29d4758424dc16f37f0f9ab184d8fe18c8a9b.
-- Final edition PDF sha256 (also recorded in run4-baseline.sha256):
-  print 17,295,556 bytes,
+- Final edition PDF sha256 (D5 rebuild, 2026-11-14; supersedes the round-4
+  pins, also recorded in run4-baseline.sha256: print 17,295,556 bytes
   sha256 0605300932508500a7fbd13c4e506fd1b88c9ea4b86620c1e568224bdecb2d82;
-  web 4,027,862 bytes,
-  sha256 c0edc0c215f16aef316bc65ac2e245ddc9eece7ac614d2b4e0c5b9ddfb63f4c5.
+  web 4,027,862 bytes
+  sha256 c0edc0c215f16aef316bc65ac2e245ddc9eece7ac614d2b4e0c5b9ddfb63f4c5):
+  print 16,272,573 bytes,
+  sha256 3aada2592ff064d09e31e25e676fb4da9f3e3ce7e4e1c37284e447a48849c629;
+  web 1,959,185 bytes,
+  sha256 5c449c836bc2368a8840647a67aeb3bfaa4c1a9c33e7d35d38abd4fc9e0028e8.
 - Honest notes: P1-headline flow ends 1823/1828 (5px slack — tight but
   clear of the row-B rule at 1844); P7-B1 column ends 1129/1150 (21px slack
   — tightest column on P7); P1 band line 1 needed a visual catch that
@@ -304,3 +310,52 @@ governor = Gouverneur · to shape laws = Gesetze prägen · patience = Geduld.`
   text (VOL.3 promise). Everything else follows the W43 shipped forms
   verbatim (badge, footer, gloss prefix, P8 separators, P8 rendering
   parameters, D head form, writing-key form).
+
+## 12. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader de --week 2026-w45`
+(`--check` dry-run first); `_D5_READER = "latin"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+16,772,670 bytes sha256
+acf76b9c… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+540 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 220 → 220, footer slack
+34.9 → 34.8):
+
+- Heads too wide (single-column width 422.5px): `content7.py:48`
+  "THE TOOLBOX Werkzeugkiste" 27 → 25pt (438.0px); `content7.py:99`
+  "THE ERROR CLINIC Fehlerklinik" 25 → 24pt (436.1px).
+- P1 dark-band title 46 → 42pt + subtitle "DIENSTAG WAHLTAG" 27 → 25pt
+  (title/subtitle overlap 154.9px; gap after fix +3.8px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: `content34.py:83` "THE CAT'S HAT Der Hut
+  der Katze" (+11.7px); `content56.py:105` "A PRACTICE BALLOT
+  Stimmzettel" (+16.4px).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 204.0px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0).
+p8 extract 150/150; p8 compare vs core EXTRA_ONLY (core 78 → edition
+150, keydiff [137, 138, 139, 140, 150], unchanged from §5). Freeze
+baseline 8/8; freeze diff vs baseline added CJK 0 (Latin added 352,
+expected D5 run-splits). Spill 0, boxtitle 0, edge 0, creambox 0 defects.
+Text layer print = web (multiset diff 0); text.md
+(`scratch-prep-p3b/en_textmd_w45.py`, label "German (de)") BYTE-IDENTICAL
+vs issued (43,327 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-de.pdf` 16,272,573 bytes
+sha256 3aada2592ff064d09e31e25e676fb4da9f3e3ce7e4e1c37284e447a48849c629;
+web `2026-w45-en-de.web.pdf` 1,959,185 bytes
+sha256 5c449c836bc2368a8840647a67aeb3bfaa4c1a9c33e7d35d38abd4fc9e0028e8.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-de/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-de.md`.

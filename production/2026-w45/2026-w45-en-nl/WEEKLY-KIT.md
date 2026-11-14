@@ -235,13 +235,16 @@ cd ~/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-rep
 ## 12. Deliverables
 
 `files/weekly-report-w45-en-nl/`: svg/ ×8, cards/ ×8 (1950×2700 PNG),
-The-Lucerna-VOL2-NL.pdf (print), The-Lucerna-VOL2-NL-web.pdf,
+The-Lucerna-VOL2-en-nl.pdf (print), 2026-w45-en-nl.web.pdf,
 this KIT, ABSTRACT.txt (Dutch, single line, no ASCII double quotes).
 
 | file | bytes | sha256 |
 |---|---|---|
-| The-Lucerna-VOL2-NL.pdf | 17,294,737 | d839bf9885cae89961e865aea4794f5d909a7fbf18cbc2f0f6df514d96e58f37 |
-| The-Lucerna-VOL2-NL-web.pdf | 4,032,284 | 1d8d5de624df09bb7d11a6765bbbaebc575943d09cfe05e9016a5f46cb480206 |
+| The-Lucerna-VOL2-en-nl.pdf | 16,269,866 | 849ad5b20a25319e4a4da8b119ef6a5ec6482bf03d0855540590550ee0a2fa3f |
+| 2026-w45-en-nl.web.pdf | 1,956,471 | 705572ca1318c4c3b013a0fbec8db2f01a6f81273bf19b2093246640a3c7a702 |
+
+(D5 rebuild, 2026-11-14; pre-D5 pins were print 17,294,737 bytes /
+web 4,032,284 bytes.)
 
 ## 13. Final pins (measured on the final artifacts)
 
@@ -256,6 +259,57 @@ this KIT, ABSTRACT.txt (Dutch, single line, no ASCII double quotes).
   - p8-exercices.svg eabc5c5df1be51983b4ca0602b5b1c89303ab1b5b16efe225a4336e73f0b06a1
 - Determinism: a fresh single-process re-run reproduced all 8 SVGs
   byte-identically; the re-rendered PDFs match the round-4 bytes above.
-- Print PDF: 8 pages · Web PDF: 8 pages, 4,032,284 bytes (< 10 MB).
+  (D5 rebuild, 2026-11-14: the D5 pins are in §12 and §14; web PDF
+  bytes are non-deterministic across runs — copy the builder's file,
+  never re-run webpdf.)
+- Print PDF: 8 pages · Web PDF: 8 pages, 1,956,471 bytes (< 7 MB).
 - Core shipped SVG hashes re-verified unchanged at the end: 8/8
   identical to the §1 table.
+
+## 14. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader nl --week 2026-w45`
+(`--check` dry-run first); `_D5_READER = "latin"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+16,772,038 bytes sha256
+c3096f1f… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+546 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 217 → 219, footer slack
+34.8 → 34.9):
+
+- Head too wide (single-column width 422.5px): `content8.py:43`
+  "B MULTIPLE CHOICE Meerkeuze" 24 → 22pt (441.1px; 23pt still 422.7px).
+- P1 dark-band title 46 → 42pt (title/subtitle overlap 115.8px vs
+  "VERKIEZINGSDAG"; subtitle stays 27pt, gap after fix +20.1px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: "AT HOME THIS WEEK Thuis kijken"
+  (+25.9px); "THE CAT'S HAT De hoed van de kat" (+19.7px);
+  "WHY MADRID? Waarom Madrid?" (+10.1px).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 110.7px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0).
+p8 extract 150/150; p8 compare vs core EXTRA_ONLY (core 78 → edition
+150, keydiff [137, 138, 139, 140, 150], unchanged from §5). Freeze
+baseline 8/8; freeze diff vs baseline added CJK 0 (Latin added 374,
+expected D5 run-splits). Spill 0, boxtitle 0, edge 0, creambox 0 defects.
+Text layer print = web (multiset diff 0); text.md
+(`scratch-prep-p3b/en_textmd_w45.py`, label "Dutch (nl)")
+BYTE-IDENTICAL vs issued (43,361 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-nl.pdf` 16,269,866 bytes
+sha256 849ad5b20a25319e4a4da8b119ef6a5ec6482bf03d0855540590550ee0a2fa3f;
+web `2026-w45-en-nl.web.pdf` 1,956,471 bytes
+sha256 705572ca1318c4c3b013a0fbec8db2f01a6f81273bf19b2093246640a3c7a702.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-nl/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-nl.md`.

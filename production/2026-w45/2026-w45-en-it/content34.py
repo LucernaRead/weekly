@@ -166,7 +166,7 @@ v4.box("SUNDAY, NOVEMBER 8　Domenica", [
     ("F1 : São Paulo Grand Prix, Brazil. NASCAR : Homestead-Miami.", "serif", False, INK, 21.5, 1.42),
     ("WTA Finals begin, Indian Wells. Boxing : Baumgardner–Turhan, Arlington.", "serif", False, INK, 21.5, 1.42),
     ("SATURDAY, NOVEMBER 7 : MLS — Charlotte–Inter Miami ; Atlanta–New York Red Bulls.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)  # D5: title 23->21 (P4 title over +13.9px right)
 v4.head("ONE SCREEN, TWO SCREENS", 25)
 v4.para("The modern fan watches one game fully and follows the others on a phone. Try it in English : « The score is 14–10. » « Who scored ? » « Madrid is winning ! » — short sentences, live English.", 22)
 v4.bridge("Inglese del calcio | punteggio, chi ha segnato, chi è in vantaggio: le frasi brevi sono l'inglese in diretta.")

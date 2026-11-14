@@ -12,8 +12,8 @@
 
 - `svg/` — 8 pages of SVG sources (p1-front … p8-exercices)
 - `cards/` — 8 full-page PNGs, 1950×2700 (all 8 viewed by the builder)
-- `The-Lucerna-VOL2-FR-print.pdf` — merged 8-page PDF, 17,295,418 bytes · sha256 408a67f7b25d2fb509ed6c6f6252fa1ffc7f0d8e9ca7c2f43e1ff923c04d0c74
-- `The-Lucerna-VOL2-FR-web.pdf` — compressed PDF, 3,884,123 bytes (< 10 MB) · sha256 5e32b328302815cec138f9b352a62f23d70152124d04f4f1385efd67dddb4706
+- `The-Lucerna-VOL2-en-fr.pdf` — merged 8-page PDF, 16,274,490 bytes · sha256 1e9f867cf60829988180b2a1a31e46741342440ea324ff84a2b325ed9ff9e496 (D5 rebuild, 2026-11-14; pre-D5 pin was 17,295,418 bytes)
+- `2026-w45-en-fr.web.pdf` — compressed PDF, 1,961,129 bytes (< 7 MB) · sha256 c3372b088008fb84070d8e1999bb81dd1991ef8ab42f74677bd21e11508b93c7 (D5 rebuild, 2026-11-14; pre-D5 pin was 3,884,123 bytes)
 - This file + `ABSTRACT.txt`
 
 SVG sha256 (final): p1 03aedc904164f05f8ffb8b3e66e146e1d153ce062e16ebac536f1d84c9960595 · p2 d8cb1ea3eb36a5795eb9659be97a9504583a1c187bbc3385f38f788185ca1409 · p3 123b64f5e019c9905246dfa2aef05a1d6df6da33dbd6175f14d829c53b2406d8 · p4 146ad42712719644f0d459a7f1a7357c55b2a4b3c4d0239ec7b86de70a7591ba · p5 eb749740b4e7efe3869db2d5eb3f5d0594425e27daabb8627eefacfe72f76286 · p6 dff0138924e5aa0880a5b210da82481b941f3737f2a0646d7953276ee4ac08bd · p7 4ca6df6eee69a27ef5f5eff844f9d41dcc169326e67575f84a11e0571d323b24 · p8 5aeadb180e5c921f74f088a3bdc3d064acc384f36c2d7a8e7ce8544390d6817e.
@@ -105,3 +105,52 @@ Interpreters (both recorded, as required): `run.py` runs under `tools/venv/bin/p
 2. Full proofread to zero problems (SOP gate) — this build report is builder self-check + mechanical gates only.
 3. Repo insert (insert.py) and any delivery are the parent line's serialized work; this task deliberately did not touch weekly-git.
 4. VOL.3 must honour the carried promises: real readers' letters + best VOL.1 page-8 writing deferred (readers' corner disclosure), Nov 11 Veterans Day, Nov 15 NFL Munich, midterm results (teaser).
+
+## 10. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader fr --week 2026-w45`
+(`--check` dry-run first); `_D5_READER = "latin"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+16,823,290 bytes sha256
+010d1f3a… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+588 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 211 → 211, footer slack
+46.7 → 33.8):
+
+- Head too wide (single-column width 422.5px): `content8.py:71`
+  "D SENTENCES Phrases à former" 24 → 23pt (423.7px).
+- P1 dark-band title 46 → 42pt (title/subtitle overlap 127.9px;
+  subtitle "ÉLECTIONS MARDI" stays 27pt, gap after fix +8.0px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: "THE WEEK IN NUMBERS Chiffres" (+12.5px);
+  "DO THE MATHS À vous de calculer" (+14.7px); "AT HOME THIS WEEK À la
+  maison" (+14.9px); "WHY MADRID? Pourquoi Madrid?" (+24.1px);
+  "A PRACTICE BALLOT Bulletin test" (+16.4px).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 214.1px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0;
+44 curly quotes remain in Newsreader, which D5 does not cover). p8
+extract 150/150; p8 compare vs core EXTRA_ONLY (core 78 → edition 150,
+keydiff [137, 138, 139, 140, 150], unchanged from §4). Freeze baseline
+8/8; freeze diff vs baseline added CJK 0 (Latin added 388, expected D5
+run-splits). Spill 0, boxtitle 0, edge 0, creambox 0 defects. Text layer
+print = web (multiset diff 0); text.md (`scratch-prep-p3b/en_textmd_w45.py`,
+label "French (fr)") BYTE-IDENTICAL vs issued (43,997 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-fr.pdf` 16,274,490 bytes
+sha256 1e9f867cf60829988180b2a1a31e46741342440ea324ff84a2b325ed9ff9e496;
+web `2026-w45-en-fr.web.pdf` 1,961,129 bytes
+sha256 c3372b088008fb84070d8e1999bb81dd1991ef8ab42f74677bd21e11508b93c7.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-fr/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-fr.md`.

@@ -210,10 +210,12 @@ image was added, replaced or re-credited in this edition.
 
 ## Final files (recorded after ABSTRACT.txt and this KIT were written; writing them does not alter the PDFs)
 
-- Print PDF: The-Lucerna-VOL2-IT.pdf — 17,290,297 bytes —
-  sha256 9f7d94ad572374ed5a1b8f82316c152c8ac516166b4a5eb99563ae174ac6efdb
-- Web PDF: The-Lucerna-VOL2-IT-web.pdf — 3,999,180 bytes —
-  sha256 d3607b57c36bb7f1705c107b8073c936d7a8e103508bc22da52d730bc6c8eec4
+- Print PDF: The-Lucerna-VOL2-en-it.pdf — 16,267,953 bytes —
+  sha256 b84f3d7c1a962ae17f02936a6f2fc5b49a2bd16fa91f9b3d7cbd4bb916e29221
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 17,290,297 bytes)
+- Web PDF: 2026-w45-en-it.web.pdf — 1,954,554 bytes —
+  sha256 cc9a4441c931aca4d59d09e4b93be8cd9897aad75f45a241de1985c8b5568159
+  (D5 rebuild, 2026-11-14; pre-D5 pin was 3,999,180 bytes)
 - SVG sha256: p1-front 25d35d28df905cfc3f5d9c1ce81317d852600749ecec9cf8b50864166f8d4491 ·
   p2-life d0300e6137515369a6f994fe6bb3cd682c0465904639d75482f93fe97628e330 ·
   p3-culture 94bb11e8df05753c1cfdec635ca895fdf19034f9bbb16ac7d6e6cdea931bd88c ·
@@ -227,3 +229,51 @@ image was added, replaced or re-credited in this edition.
 
 Built, all gates above measured green. **Not declared final — pending independent proofread.**
 No Discord post, no main-chat card/PDF dump, no cron, no weekly-git touch, no core/W43 modification.
+
+## D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+D5: explanation-layer Latin/Cyrillic letters move from Newsreader to
+Noto Sans CJK (SOP §1.1 font table violation fixed). Installer:
+`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib
+<edition>/svglib.py --target en --reader it --week 2026-w45`
+(`--check` dry-run first); `_D5_READER = "latin"`; routing test
+`test_d5_routing.py` FAILURES: 0; fix2 retained (9 matches).
+
+Baseline (pre-D5, venv rebuild): TOTAL 150, 0 FLOW, 0 HEAD; print PDF
+16,767,959 bytes sha256
+7059fb1f… (full in `style-port-en/MANIFEST-W45-D1.md`); pre-D5 d5 census
+518 violations.
+
+Run-1 defects, all size-only, zero wording changes (full re-render +
+full 16-gate battery after the fix; P8 lines 207 → 205, footer slack
+32.7 → 32.7):
+
+- Head too wide (single-column width 422.5px): `content56.py:109`
+  "READ THE CHART Leggi il grafico" 25 → 23pt (448.9px; 24pt still
+  430.9px).
+- P1 dark-band title 46 → 42pt + subtitle "MARTEDÌ ELEZIONI" 27 → 25pt
+  (title/subtitle overlap 139.4px; 42pt alone still −3.5px; gap after
+  fix +18.1px).
+- P2 DID YOU KNOW box spill: "bags." BELOW box +12.74px (pre-existing in
+  the shipped baseline); `content12.py:193` box-height formula `+ 14` →
+  `+ 34`.
+- Box titles tsize 23 → 21pt: "THE WEEK IN NUMBERS In cifre" (+3.5px);
+  "SUNDAY, NOVEMBER 8 Domenica" (+13.9px).
+
+Run-2 gates (2026-11-14): 16/16 PASS + D18 masthead gap 86.7px —
+OVERALL ALL-GREEN. d5 census 0/0/0 (Latin 0, Cyrillic 0, curly-in-CJK 0).
+p8 extract 150/150; p8 compare vs core EXTRA_ONLY (core 78 → edition
+150, keydiff [137, 138, 139, 140, 150]). Freeze baseline 8/8; freeze
+diff vs baseline added CJK 0 (Latin added 343, expected D5 run-splits).
+Spill 0, boxtitle 0, edge 0, creambox 0 defects. Text layer print = web
+(multiset diff 0); text.md (`scratch-prep-p3b/en_textmd_w45.py`, label
+"Italian (it)") BYTE-IDENTICAL vs issued (43,889 bytes).
+
+Final D5 pins (builder originals; web PDF bytes are non-deterministic
+across runs — the closer must copy the builder's file, never re-run
+webpdf): print `The-Lucerna-VOL2-en-it.pdf` 16,267,953 bytes
+sha256 b84f3d7c1a962ae17f02936a6f2fc5b49a2bd16fa91f9b3d7cbd4bb916e29221;
+web `2026-w45-en-it.web.pdf` 1,954,554 bytes
+sha256 cc9a4441c931aca4d59d09e4b93be8cd9897aad75f45a241de1985c8b5568159.
+Builder scratch: `hidden_files/d5-redo/scratch-2026-w45-en/patched/2026-w45-en-it/`;
+per-edition report `production/notes/2026-w45/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w45-en-it.md`.

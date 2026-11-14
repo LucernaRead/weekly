@@ -102,7 +102,7 @@ f.para("How does a voter vote ? First, register — in most states, before Elect
 f.para("And after Tuesday ? Counting continues. Mail ballots take time to open and check. Close races take longer. Channels call a race only when the maths is clear — and when it is not clear, they say the honest sentence : too close to call. Patience is part of the system, not a failure of it.")
 f.box("A PRACTICE BALLOT　Bulletin test", [
     ("For Governor : ☐ Candidate A · ☐ Candidate B. For the House : ☐ Candidate C · ☐ Candidate D. Names are codes here — this ballot teaches how to mark, not whom to choose.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)  # D5: title 23->21 (title over +16.4px right)
 f.para("A note on numbers in this issue : this paper prints no poll figures and no predictions. Polls change, and a learner's paper should teach the system, not guess the result. On Wednesday morning, the results will speak for themselves — and next week's issue will report them.")
 f.gloss("to register = s’inscrire (sur les listes électorales) · a governor = le gouverneur · to shape laws = influencer les lois · patience = la patience.")
 # practice chart

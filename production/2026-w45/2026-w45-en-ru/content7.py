@@ -109,7 +109,7 @@ cf.ex("B1", "Исправить", "She is going to watch the film on Friday.", "
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.rect(rx, by7 + 8, rw, 316, fill=BOX)  # D5: 300->316 (P7 editorial note spilled +10.00px below box; 24px gap to NEXT WEEK box leaves 8px)
 p.text(rx + 24, by7 + 48, "READERS' CORNER　Уголок читателя", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« On Sunday, I slept one hour more — and I still woke up late ! » — M. L., a reader in Chicago (editor's example : no real reader letters had arrived when this issue went to press, so the example stays, honestly labeled)", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 206, "Примечание редакции: в VOL.1 было обещано публиковать настоящие письма в VOL.2, но к сдаче номера редакция не получила ни настоящих писем, ни лучшего сочинения с 8-й страницы VOL.1; мы ничего не выдумываем, а пример остаётся помеченным. Присылайте ваши письма и сочинения! В VOL.3 мы опубликуем полученные письма.", 20, "sans", False, GREY, rw - 48, 1.4)
