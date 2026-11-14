@@ -93,8 +93,8 @@ The key-flow block from KO×EN's proofread fix was built into this edition's con
 
 - `svg/` — 8 page SVGs (1950×2700).
 - `cards/` — 8 PNG cards (1950×2700); **all 8 viewed by the builder after the final render** — badge, German apparatus, both P1 fixes, the §F fix, P7 band clearance and all footers confirmed on the renders.
-- `Lucerna-VOL1-DE.pdf` — print PDF, 8 pages, 34,666,674 B.
-- `Lucerna-VOL1-DE-web.pdf` — web PDF, 8 pages, **3,138,794 B** (< 10 MB Discord limit).
+- `Lucerna-VOL1-DE.pdf` — print PDF, 8 pages, 32,301,268 B, sha256 `c2528343a9b70cbeef1e540d5e047d3857626eea9f293a9452e4c441cc33c0f2` (D5 rebuild, 2026-11-13).
+- `Lucerna-VOL1-DE-web.pdf` — web PDF, 8 pages, **2,015,613 B**, sha256 `6c8fb93dbfa8b659a1829e2e326835d6b5d1db87d8d9d8563ea9ddd01b32cce0` (D5 rebuild, 2026-11-13; < 7 MB).
 - `WEEKLY-KIT.md` — this file.
 
 **Status: BUILDER-COMPLETE.** Next step per SOP: independent proofread of this edition (fresh eyes, full pass), then repo insert + Discord delivery to the 한국어 thread by the parent flow. Not posted by the builder.
@@ -117,3 +117,15 @@ What was verified independently (own extraction, own registry dump, own audit co
 **Two documentation nits in this KIT (not paper defects, recorded for accuracy):** §9's char totals for DE P1 (2283/2809) and P8 (7981/9805) do not reproduce under the stated extraction — independent measurement gives P1 2275/2801 and P8 7979/9801; the core totals DO reproduce exactly with the same method, so the DE figures appear to predate the §7 fixes. §5 quotes the core #150 registry answer approximately; the actual registry line is '(开放题，范文如下)'. Neither affects the paper.
 
 **Status after independent proofread: FINAL (proofread gate passed).** Web PDF 3,138,794 B < 10 MB. Not posted by the proofreader; repo insert + Discord delivery are the parent flow's steps.
+
+## 12. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-de.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-de-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 437、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,649,786 B、sha256 `ceccc86f252ad1e506a6b4601c2bb10aac3994de8f256ab5a5983ba8bf426d4c`；基线网 PDF 2,121,489 B、sha256 `7bbb421cfbcbcc2f4e4625b072b083eb6b22730fa5c0e001d961fbb6b4be5d34`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；门 17 4 flags 全系 `audit_ko_de.py` 的 `path_bbox` 误报（把 moth 路径 `d` 属性相对命令当绝对坐标，假 bbox 盖住刊头带；目检刊头 `VOL. 1 제1호` 无遮挡；基线/fanout 同条件各 1 flag），不修。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2015613 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=384，中位 1.011，粗体 1.04，常规 1.001；P8 243→244 行，距页脚线余量 47.2px）；文字层 print=web 多重集差 0（各 29402 字符）；census_quotes 0 defective；D18 刊头间距 GAP=252.8；门 17：4 flags，全系 `path_bbox` 误报，不修。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-DE.pdf` 32,301,268 B、sha256 `c2528343a9b70cbeef1e540d5e047d3857626eea9f293a9452e4c441cc33c0f2`；网 PDF `Lucerna-VOL1-DE-web.pdf` 2,015,613 B、sha256 `6c8fb93dbfa8b659a1829e2e326835d6b5d1db87d8d9d8563ea9ddd01b32cce0`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-de/2026-w43-ko-de.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-de.text.md` 21,687 B、sha256 `8cfe419b02bc84a5da5f93242ab977047ef7d952d114037e78e6f54817a52054`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 34,666,674 B / 网 3,138,794 B，旧配方）已过期——基线实测印 34,649,786 B。本节交付物行已更新为上述 D5 新值。

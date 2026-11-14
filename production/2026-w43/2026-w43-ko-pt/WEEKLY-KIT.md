@@ -142,8 +142,8 @@ mention (landfall explicitly undecided). Image file-photo disclaimers intact
 ## 10. Deliverables
 
 - `svg/` ×8, `cards/` ×8 (1950×2700 PNG).
-- Print PDF `Lucerna-VOL1-PT.pdf`: **34,455,961 bytes**, sha256 `0ec4749458ff88fde19199bd96f82e585a1b301ebec52d5902c60251ef17da6b`
-- Web PDF `Lucerna-VOL1-PT-web.pdf`: **3,102,816 bytes** (< 10 MB ✓), sha256 `20ae1dd972723d82c31ff88a36bd0aea18508be6301a7423e234d64b18ea834b`
+- Print PDF `Lucerna-VOL1-PT.pdf`: **32,303,151 bytes**, sha256 `11c1a26260e6af8955f855b143833bccd9c33e3a11c6ea0d02df4643b540a2c0` (D5 rebuild, 2026-11-13)
+- Web PDF `Lucerna-VOL1-PT-web.pdf`: **2,018,022 bytes** (< 7 MB ✓), sha256 `68b65e57ed39300508d1f6befc4099fff46be12ac4473c429c22908328816e0c` (D5 rebuild, 2026-11-13)
 - Independent proofread: **COMPLETE — PASS, zero problems** (2026-10-21, see §11). No fixes were required; the shipped artifacts are the builder's, byte-identical to the start of the pass.
 
 ## 11. Independent proofread record (2026-10-21) — PASS, ZERO PROBLEMS
@@ -164,3 +164,15 @@ A complete, skeptical, independent pass over the final rendered artifacts. No de
 - **Core integrity:** the core's shipped SVG sha256 set at pass end == pass start (8/8 unchanged). The frozen core was never edited; verification builds ran only from scratch copies with repointed outputs.
 
 **Verdict: PASS — one complete independent pass, zero problems. The edition is ready for repo insert by the parent line.**
+
+## 12. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-pt.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-pt-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 424、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,439,664 B、sha256 `5f1de259ca533d01e4a607f9dd7cd8bfe2784e1e2291ae40b0c4763b7681fa80`；基线网 PDF 2,113,789 B、sha256 `494f51047e8545c33a53835cdac0d7f182902aa760ce905ef4c19c83da7a157a`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_pt.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2018022 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=376，中位 1.008，粗体 1.04，常规 0.988；P8 214→219 行，距页脚线余量 62.7px）；文字层 print=web 多重集差 0（各 28742 字符）；census_quotes 0 defective；D18 刊头间距 GAP=336.6；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-PT.pdf` 32,303,151 B、sha256 `11c1a26260e6af8955f855b143833bccd9c33e3a11c6ea0d02df4643b540a2c0`；网 PDF `Lucerna-VOL1-PT-web.pdf` 2,018,022 B、sha256 `68b65e57ed39300508d1f6befc4099fff46be12ac4473c429c22908328816e0c`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-pt/2026-w43-ko-pt.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-pt.text.md` 21,674 B、sha256 `2c3a4c1254545c1b535f533cab7aace885c2138bd0b764ec5133e415d687a272`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 34,455,961 B / 网 3,102,816 B，旧配方）已过期——基线实测印 34,439,664 B。本节交付物行已更新为上述 D5 新值。

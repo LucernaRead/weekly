@@ -69,8 +69,8 @@
   3. svglib.py docstring 尾随的一处核心期中文题材词在注释行内移除（仅文档字符串，不入任何渲染路径；与 KO×PT 先例同）。
   其余各页看图无缺陷：家具对齐、双语栏头、图片与署名行（NASA / Gary Todd CC0 / Matsumura Keibun / Paul Cézanne / Bain News Service / US Army / Elijah Flores CC0 / lumoplank CC0，均为核心冻结署名）皆与核心同位。
 - 成品针脚（实测）：
-  - 印刷 PDF `Lucerna-VOL1-RU.pdf`：**32,788,084 B**，sha256 `b9d0e914081d493f2f26a7c7b4c16dcc4be0095455702b64dbb4e3a584a60914`（校对修复后终值，见 §8）
-  - 网页 PDF `Lucerna-VOL1-RU-web.pdf`：**3,117,781 B**（<10 MB），sha256 `689d9414ead462d954ebc823b525ed28513b1f68f1dfb01f7deca1e7bb90e4fb`（校对修复后终值，见 §8）
+  - 印刷 PDF `Lucerna-VOL1-RU.pdf`：**32,481,258 B**，sha256 `656fde90e1a50f4890bd11481e36dc924fd5ac01ebb7bc743fe4bc135416e654`（D5 重建，2026-11-13；旧校对修复后终值见 §8，已过期）
+  - 网页 PDF `Lucerna-VOL1-RU-web.pdf`：**2,193,789 B**（<7 MB），sha256 `dc09f52980fb7b58ea4dd985dd728c75b998b528985d745bc4509edb8a61b536`（D5 重建，2026-11-13；旧校对修复后终值见 §8，已过期）
   - svg ×8、cards ×8 与核心同名同版式。
 
 ## 7. 待办
@@ -88,3 +88,15 @@
 - **家具/P7/残留**：FR×RU 定式逐项在版（徽章、页脚 ×8、«Страница N из 8»、«Пояснение — »、P8 分隔 «— СТРАНИЦА 1–8 —» 各一、P7 标签 (Страница N) 分布 (1,1,2,2,3,4,5,6) = 核心）；P7 八句短语逐字继承、出现次数与核心逐条相等（ standalone (6면) 为正文交叉引用，两版同位）；图片元素逐页与核心字节相同、8 条署名逐字同核心；中文讲解残留 = 0、荷兰语残留 = 0、禁用术语 paper/KIT/operative code = 0（变换脚本 confined 于 build 的 scratch/ 子目录，与 §5 披露一致）。
 - **最终针脚（磁盘实测）**：网页版 3,117,781 B / sha256 `689d9414…`；印刷版 32,788,084 B / sha256 `b9d0e914…`（全文见 §6）。
 - 入仓与 Discord：按当前指令均暂停，定稿后仅由主线处理。
+
+## 9. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-ru.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-ru-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "ru"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 214、西里尔 242、弯引号在 CJK 0；基线印 PDF 32,775,265 B、sha256 `7997c2488054625e1575a72104d9358fb8fd80b42c3729e480e01de6a2c8f048`；基线网 PDF 2,066,270 B、sha256 `13b588e7bd136a68085215b6675325ad15b65cfaad536e326a655180ab5de040`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 真缺陷 1 项：P1 盒标题 `숫자로 보는 이번 주　Неделя в цифрах` 23pt advance 418.0px > 框内宽 404.5px（门 12/14 同报 +14.7px）→ `content12.py:52` 该 `f.box` 加 `tsize=22`（f.box 开行 :47；22pt=399.8px，余量 4.7px）；run2 门 12/14 均 0 DEFECT。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=16 FAIL=3）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2193789 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=382，中位 1.0，粗体 0.956，常规 1.026；P8 221→222 行，距页脚线余量 46.2px）；文字层 print=web 多重集差 0（各 28116 字符）；census_quotes 0 defective；D18 刊头间距 GAP=320.3；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-RU.pdf` 32,481,258 B、sha256 `656fde90e1a50f4890bd11481e36dc924fd5ac01ebb7bc743fe4bc135416e654`；网 PDF `Lucerna-VOL1-RU-web.pdf` 2,193,789 B、sha256 `dc09f52980fb7b58ea4dd985dd728c75b998b528985d745bc4509edb8a61b536`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-ru/2026-w43-ko-ru.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-ru.text.md` 23,687 B、sha256 `c4f29a29478e2af740dada1f992345f756b168b6f66daa1b46dc71668fadc722`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 32,788,084 B / 网 3,117,781 B，校对修复后终值，旧配方）已过期——基线实测印 32,775,265 B。本节交付物行已更新为上述 D5 新值。

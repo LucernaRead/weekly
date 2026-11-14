@@ -60,8 +60,8 @@
 2. 变换脚本内置后置断言定义错误，曾把新写入的日语串误报为「未映射」——以独立 verify_transform.py 复核为准（源值残留 0 / 225 值全在位），非版本缺陷，仅此记录。
 
 ## §8 实测针脚（交付时从磁盘实测）
-- 印刷 PDF `Lucerna-VOL1.pdf`:**38,932,149 B** · sha256 `84e61ad8b63d17248a5d2f643b8505bba3a2ecc9c8dab6df394420dcd435dfe9`
-- 网页 PDF `Lucerna-VOL1-web.pdf`:**2,967,634 B**（<10 MB) · sha256 `08b3ee483cbf1c8f8b75d3c6e59ec8ed6ca73d0f7111a9babdaaf2c6dcf9eee3`
+- 印刷 PDF `Lucerna-VOL1-JA.pdf`:**36,837,019 B** · sha256 `20dafa6557ba13c8738de12b71b8e460c68921641278a0d8957a4d107bf4d9b6`（D5 重建，2026-11-13）
+- 网页 PDF `Lucerna-VOL1-JA-web.pdf`:**2,385,938 B**（<7 MB) · sha256 `c4235d170870b9360ac190ecf4d42631909cec542933d183e675c99c2c78845f`（D5 重建，2026-11-13）
 - 交付物：svg ×8、cards ×8、本 KIT。未入仓、未发 Discord。
 
 ## §9 独立校对记录（2026-10-22，校对员独立复跑，零问题 PASS）
@@ -78,3 +78,15 @@
 - **日历**（Asia/Seoul 实测）：10-19 周一 · 10-20 周二 · 10-21 周三 · 10-23 周五 · 10-25 周日 · 11-02 周一 · 修能 11-19 周四，与纸面全合；D-29 算术（10-21 → 11-19 = 29 天）合。
 - **针脚复核**（磁盘实测，与 §8 登记全等）：印刷 38,932,149 B · 84e61ad8…；网页 2,967,634 B · 08b3ee48…；各 8 页。卡片 P1/P7/P8 目检无缺字。
 - **结论：PASS（整轮零问题，讲解层零修改）**。未入仓、未发 Discord。
+
+## §10 D5 重建记录（2026-11-13）
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-ja.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-ja-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "cjk"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 215、西里尔 0、弯引号在 CJK 0；基线印 PDF 38,916,446 B、sha256 `1fedcfc7bd0b8024dcccf62fde449da35270613ca0d1a6a84e8be4e535a31918`；基线网 PDF 2,446,548 B、sha256 `915e3537618c0762f99b788753685154c85138d37f8bb5a0e30580138c5ff71f`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 真缺陷 1 项：P2 盒标题 `「D-데이」 사용법　「D-day」の使い方` 23pt advance 414.2px > 框内宽 404.5px（门 12/14 同报 +9.8px）→ `content12.py:186` 该 `f.box` 加 `tsize=22`（f.box 开行 :182；22pt=396.2px，余量 8.3px）；run2 门 12/14 均 0 DEFECT。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=16 FAIL=3）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2385938 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=357，中位 1.009，粗体 1.04，常规 1.0；P8 196→197 行，距页脚线余量 48.9px）；文字层 print=web 多重集差 0（各 22192 字符）；census_quotes 0 defective；D18 刊头间距 GAP=305.4；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-JA.pdf` 36,837,019 B、sha256 `20dafa6557ba13c8738de12b71b8e460c68921641278a0d8957a4d107bf4d9b6`；网 PDF `Lucerna-VOL1-JA-web.pdf` 2,385,938 B、sha256 `c4235d170870b9360ac190ecf4d42631909cec542933d183e675c99c2c78845f`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-ja/2026-w43-ko-ja.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-ja.text.md` 21,593 B、sha256 `01f95134e72d7ebd165c68f7d0eaf3517b02aa4e7bdef00cc83b9fb0a3f3ef11`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（§8：印 38,932,149 B / 网 2,967,634 B，旧配方）已过期——基线实测印 38,916,446 B；旧 KIT 称印 PDF 为 `Lucerna-VOL1.pdf`，本次重建印 PDF 名为 `Lucerna-VOL1-JA.pdf`。本节交付物行已更新为上述 D5 新值。

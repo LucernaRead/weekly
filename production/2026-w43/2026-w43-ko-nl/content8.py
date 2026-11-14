@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ko-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · 시험과 답 =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("시험과 답 · Toets en antwoorden", "Lucerna", "제8면 · 이번 주의 큰 시험 + 모든 답")
+p.band("시험과 답　Toets en antwoorden", "Lucerna", "제8면　이번 주의 큰 시험 + 모든 답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 이번 주 연표", 21, OLIVE, 5)
+f.head("A　이번 주 연표", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "A", "Champi is tyfoon nr. 30 van dit jaar",
      "태풍 참피는 제___호 태풍이에요. (A. 30 · B. 13)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "Het weerinstituut wijzigde de voorspelling op de 21e",
@@ -29,7 +29,7 @@ f.ex("B1", "Cloze", "A", "Op de kaart van de bosdienst: Seoraksan op de 20e",
      "산림청 지도로 설악산 절정은 10월 ___일이에요. (A. 20 · B. 25)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "A", "Meer dan 1,5 miljoen bezoekers voor Chiikawa",
      "치이카와 영화의 관객은 ___만 명이 넘어요. (A. 150 · B. 15)", size=13.8, gap=0)
-f.head("B · 일반 문제", 21, OLIVE, 5)
+f.head("B　일반 문제", 21, OLIVE, 5)
 f.ex("A2", "Meerkeuze", "A", "Dit jaar 551.864 kandidaten",
      "올해 수험생은 몇 명이에요? A. 551,864명 · B. 1,312명 · C. 75,000명", size=13.8, gap=0)
 f.ex("B1", "Meerkeuze", "B", "Examenlocaties in het hele land: 1.312",
@@ -46,7 +46,7 @@ f.ex("B1", "Meerkeuze", "B", "Weatheri: Seoraksan op de 25e",
      "웨더아이와 국립공원공단의 설악산 절정은 며칠이에요? A. 10월 20일 · B. 10월 25일 · C. 11월 4일", size=13.8, gap=0)
 f.ex("A2", "Meerkeuze", "A", "De Korean Series begint op 2 november",
      "한국시리즈는 언제부터예요? A. 11월 2일 · B. 10월 25일 · C. 11월 19일", size=13.8, gap=0)
-f.head("C · 읽고 답하기", 21, OLIVE, 5)
+f.head("C　읽고 답하기", 21, OLIVE, 5)
 f.para("민준이는 대학생이에요. 이번 주 금요일에 친구와 하늘공원에 가요. 억새축제의 마지막 날이에요. 토요일에는 집에서 태풍 소식을 봐요. 일요일에는 야구 플레이오프를 봐요. 민준이는 KIA를 응원해요.", 15, lh=1.3, split=False)
 f.ex("A2", "Meerkeuze", "B", "Minjun gaat vrijdag naar het Haneulpark",
      "민준이는 금요일에 어디에 가요? A. 청송 · B. 하늘공원 · C. 제주도", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Meerkeuze", "B", "Zaterdag kijkt hij naar het tyfoonnieuws",
      "토요일에 민준이는 무엇을 해요? A. 산에 가요 · B. 태풍 소식을 봐요 · C. 시험을 봐요", size=13.8, gap=0)
 f.ex("B1", "Meerkeuze", "C", "Minjun is voor KIA",
      "민준이는 어느 팀을 응원해요? A. LG · B. 삼성 · C. KIA", size=13.8, gap=0)
-f.head("D · 문장 만들기", 21, OLIVE, 5)
+f.head("D　문장 만들기", 21, OLIVE, 5)
 f.ex("A2", "Zinnen bouwen", "저는 금요일에 하늘공원에 가요.", "Volgorde: onderwerp + tijd + plaats + werkwoord",
      "저는 / 금요일에 / 하늘공원에 가요 → ___", instr="Bouw", size=13.8, gap=0)
 f.ex("A2", "Zinnen bouwen", "태풍이 북쪽으로 오고 있어요.", "북쪽으로 = naar het noorden",
@@ -65,7 +65,7 @@ f.ex("B1", "Zinnen bouwen", "우리는 단풍을 보러 가요.", "보러 가요
      "우리는 / 단풍을 / 보러 가요 → ___", instr="Bouw", size=13.8, gap=0)
 f.ex("B1", "Zinnen bouwen", "누나는 도서관에서 공부해요.", "Plaats van de handeling: «에서»",
      "누나는 / 도서관에서 / 공부해요 → ___", instr="Bouw", size=13.8, gap=0)
-f.head("E · 번역", 21, OLIVE, 5)
+f.head("E　번역", 21, OLIVE, 5)
 f.ex("A2", "Vertaling", "De koers van de tyfoon kan nog veranderen.", "Vergelijk met blz. 1",
      "태풍의 경로는 아직 바뀔 수 있어요. → ___", instr="Vertaal", size=13.8, gap=0)
 f.ex("A2", "Vertaling", "Er zijn nog 29 dagen tot het examen.", "Vergelijk met blz. 2",
@@ -74,7 +74,7 @@ f.ex("B1", "Vertaling", "주말에는 최신 날씨를 확인하세요.", "Verge
      "Controleer dit weekend het nieuwste weerbericht. → ___", instr="Vertaal", size=13.8, gap=0)
 f.ex("B2", "Vertaling", "저는 금요일에 하늘공원에 억새를 보러 가요.", "Vergelijk met blz. 3",
      "Ik ga vrijdag naar het Haneulpark om het zilvergras te zien. → ___", instr="Vertaal", size=13.8, gap=0)
-f.head("F · 이번 주의 말", 21, OLIVE, 5)
+f.head("F　이번 주의 말", 21, OLIVE, 5)
 f.match_set("B2", "Koppelen",
             ["북상하다", "절정", "진로", "수험생"],
             ["시험을 보는 학생",
@@ -84,7 +84,7 @@ f.match_set("B2", "Koppelen",
             ["b", "c", "d", "a"],
             ["북상하다 = naar het noorden b", "절정 = de piek, de mooiste tijd c", "진로 = koers d", "수험생 = examenkandidaat a"],
             instr="Koppel")
-f.head("G · 도서관에서", 21, OLIVE, 5)
+f.head("G　도서관에서", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "A", "Het examen is op 19 november",
      "— 수능이 언제예요? — 11월 ___이에요. (A. 19일 · B. 21일)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "Op de examenochtend rijdt de metro vaker",
@@ -95,7 +95,7 @@ f.ex("B1", "Cloze", "B", "D-29 = nog 29 dagen",
      "— D-29가 뭐예요? — 시험까지 29일이 ___ 뜻이에요. (A. 지났다는 · B. 남았다는)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "Om aan te moedigen zeg je «힘내세요» (zet 'm op!)",
      "— 응원 한마디 해 주세요. — ___! (A. 안녕히 가세요 · B. 힘내세요)", size=13.8, gap=0)
-f.head("H · 써 보기", 21, OLIVE, 5)
+f.head("H　써 보기", 21, OLIVE, 5)
 MODELO = ("나의 가을 주말은 야구와 단풍의 주말이에요. "
           "토요일 아침에는 먼저 태풍 소식을 확인해요. 바람이 강하면 밖에 나가지 않아요. "
           "오후에는 집에서 야구 플레이오프를 봐요. 저는 KIA를 응원해요. "
@@ -110,13 +110,13 @@ f.para("예: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 답 =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "답 · Antwoorden — per pagina, zoek het nummer op", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Bij elk antwoord een korte notitie in het Nederlands · ✓ = opgave met voorbeeld", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "답　Antwoorden — per pagina, zoek het nummer op", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Bij elk antwoord een korte notitie in het Nederlands　✓ = opgave met voorbeeld", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Pagina {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

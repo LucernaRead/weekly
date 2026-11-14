@@ -133,8 +133,8 @@ core). Every page footer labels the pairing:
 
 | File | Bytes |
 |---|---|
-| Lucerna-VOL1-EN.pdf (print) | 33,831,694 |
-| Lucerna-VOL1-EN-web.pdf | 3,048,383 |
+| Lucerna-VOL1-EN.pdf (print) | 32,293,666 |
+| Lucerna-VOL1-EN-web.pdf | 2,007,794 |
 | svg/ (8) · cards/ (8 PNG, 1950×2700) | — |
 
 Reproduce: in `hidden_files/weekly-report-ko-en-build/`, run `run.py` then
@@ -213,3 +213,15 @@ finds ZERO problems. The KO × EN edition is FINAL.** (Not posted — posting is
 the parent agent's step. Note for the parent: the P2 D-day rule graze recorded
 in §3 exists in the frozen core as well, per the builder's flag; the core was
 not touched in this proofread.)
+
+## 9. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-en.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-en-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 425、西里尔 0、弯引号在 CJK 0；基线印 PDF 33,787,126 B、sha256 `147322d266a9a7a9ab294869aac458e1325388de32aed3ee2d595d0392c964a7`；基线网 PDF 2,080,550 B、sha256 `00ccb491ec5fde240b19ae61105055d1c2c3e6ee838a4d5b517941d47002b3b0`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_en.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2007794 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=376，中位 1.013，粗体 1.04，常规 0.996；P8 230→231 行，距页脚线余量 51.7px）；文字层 print=web 多重集差 0（各 28229 字符）；census_quotes 0 defective；D18 刊头间距 GAP=287.3；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-EN.pdf` 32,293,666 B、sha256 `bb91ca2a8fc07db6bf1dd2b571a579ca0da8a816a1e14832c4272b2c7c878f78`；网 PDF `Lucerna-VOL1-EN-web.pdf` 2,007,794 B、sha256 `b6b87d5f0e134f4843e3acc815e4a9baa42973fc6262fa0a6b1fb2ef57ebdfbf`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-en/2026-w43-ko-en.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-en.text.md` 21,415 B、sha256 `f5aa116a4a8f662b8bbfd849c406ef5a42079ca0c025cd72d57b08cbc3b9a406`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 33,831,694 B / 网 3,048,383 B，旧配方）已过期——基线实测印 33,787,126 B。本节交付物行已更新为上述 D5 新值。

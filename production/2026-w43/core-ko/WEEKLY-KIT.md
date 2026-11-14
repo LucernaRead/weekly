@@ -115,8 +115,8 @@ Full per-image records: `hidden_files/weekly-report-ko-build/assets/CREDITS.md`.
 
 - `svg/` — p1-pyoji, p2-saenghwal, p3-munhwa, p4-seupocheu, p5-cheongnyeon, p6-gipi, p7-mal, p8-siheom
 - `cards/` — the same 8 pages as 1950×2700 PNGs
-- `Lucerna-VOL1.pdf` — print PDF, 34.80 MB
-- `Lucerna-VOL1-web.pdf` — web PDF, 2.90 MB (under the ~10 MB Discord limit)
+- `Lucerna-VOL1.pdf` — print PDF, 33,743,010 B, sha256 `caa42268d93c1d5f8e88051a3e4f87a9e052cc6ac49d42898d11ad206923786e` (D5 rebuild, 2026-11-13)
+- `Lucerna-VOL1-web.pdf` — web PDF, 2,307,439 B, sha256 `860b830d9dc1c9fe8f39ceabf5f641d7d768b0bbe27948921d3242dd25f349a4` (D5 rebuild, 2026-11-13; < 7 MB)
 
 ## Reproduction
 
@@ -199,3 +199,15 @@ No text changed.
 - Final sizes: print PDF 34,800,245 B; web PDF 2,896,878 B (< 10 MB).
   The copy already posted to Discord predates this patch; the parent line
   should replace it with this build.
+
+## D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-zh-cn.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-zh-cn-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "cjk"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 214、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,785,035 B、sha256 `476fdc73a8d01336b9b01409c4a19db12fd474c31d9913279813227bce82f16e`；基线网 PDF 2,339,820 B、sha256 `25fe8049ea62f297b89f68046af92a5f06eaf142d59406803616da76aa4878f3`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_zh-cn.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2307439 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff []）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=355，中位 1.011，粗体 1.04，常规 1.0；P8 196→197 行，距页脚线余量 49.9px）；文字层 print=web 多重集差 0（各 21437 字符）；census_quotes 0 defective；D18 刊头间距 GAP=360.1；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1.pdf` 33,743,010 B、sha256 `caa42268d93c1d5f8e88051a3e4f87a9e052cc6ac49d42898d11ad206923786e`；网 PDF `Lucerna-VOL1-web.pdf` 2,307,439 B、sha256 `860b830d9dc1c9fe8f39ceabf5f641d7d768b0bbe27948921d3242dd25f349a4`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-zh-cn/2026-w43-ko-zh-cn.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-zh-cn.text.md` 20,974 B、sha256 `353610ae3e96b7f61e5264aeef0307f80ed3393726ae5873f02bf18174182e0b`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（34.80 MB / 2.90 MB，旧配方，无 SHA）已过期。本节交付物行已更新为上述 D5 新值。

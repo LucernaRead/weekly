@@ -4,7 +4,7 @@ Week: **Monday 19 – Sunday 25 October 2026** · Pairing: **Korean target text 
 
 Core: `files/weekly-report-ko-vol1/` (build `hidden_files/weekly-report-ko-build/`).
 This edition's build: `hidden_files/weekly-report-ko-fr-build/` (content12.py, content34.py, content56.py, content7.py, content8.py, bslib4.py, svglib.py, render.py, run.py, audit_ko_fr.py, audit_titles.py, assets/ + CREDITS.md).
-Deliverables here: `svg/` (8), `cards/` (8 PNG @1950×2700), `Lucerna-VOL1-FR.pdf` (print, 8 pp, 34,244,147 B, sha256 d3a2804ee3ed6ed0b4832b4c22fc612b9a4ba1a586d26fce1f59108dfd8a362a), `Lucerna-VOL1-FR-web.pdf` (web, 8 pp, **3,125,107 B**, sha256 7ca28fed5e1dbb56aaedbd320a6e76135fd4a8bcba4ea99311281854068c8b23 — under the measured ~10 MB server limit).
+Deliverables here: `svg/` (8), `cards/` (8 PNG @1950×2700), `Lucerna-VOL1-FR.pdf` (print, 8 pp, 32,299,082 B, sha256 b6bdc15de1b1cd2ae33594025ca678a44278fd843288ee80a6f4034642f6c4fe — D5 rebuild, 2026-11-13), `Lucerna-VOL1-FR-web.pdf` (web, 8 pp, **2,013,800 B**, sha256 0095e92a08e25ec37010d98a97a9e64a9e864b51fe9466db41a6331cd52d5e80 — D5 rebuild, 2026-11-13; < 7 MB).
 
 ## 1. Baseline proof (fan-out method step 1)
 
@@ -121,3 +121,17 @@ python audit_titles.py ../../files/weekly-report-ko-fr/svg
 ```
 
 Delivery (per the 2026-10-21 ruling): GitHub weekly repo only, by the parent agent after the independent proofread; Discord delivery is paused; nothing was posted or inserted by the builder.
+
+## 11. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-fr.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-fr-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 428、西里尔 0、弯引号在 CJK 0；基线印 PDF 33,996,123 B、sha256 `f1f7eb3d365ae529585d9787537640a7d8a00b7c8e1ff8e68450b2ca9f6a7d0d`；基线网 PDF 2,094,973 B、sha256 `fdb3e291470066872ac75fc977cf08cd14173815ce3b39099972f69be59ed2fd`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 真缺陷 1 项：P1 栏头 `지금 바로 연습　Exercices immédiats` 25pt advance 425.4px > 栏 422.5px → `content12.py:53` `f.head(..., 25)` → **24**（24pt=408.3px，余量 14.2px）；门 1 重跑 PASS。
+- 门 2 残留（非 patched 缺陷）：门 2 把 patched run.log 与 frozen baseline run.log 一并传给 `head_check.py`，唯一 finding 是基线日志第 2 行的同一旧警告；patched 0 defects。**提请协调员裁定**（是否豁免基线侧 finding 或改门只扫 patched 日志）。
+- 门 17 误报：4 flags 全系 `audit_ko_fr.py` 的 `path_bbox` 误报（§5.1 同类），不修。
+- 门禁 run2：PASS=17 FAIL=2（run1：PASS=17 FAIL=2）。run TOTAL 150；head_check FAIL（1 defect，全系基线侧旧警告；patched 0 defects，提请协调员裁定）；d5 census 0/0/0；render RC=0；webpdf RC=0（2013800 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=379，中位 1.007，粗体 1.04，常规 0.987；P8 240→245 行，距页脚线余量 48.7px）；文字层 print=web 多重集差 0（各 29524 字符）；census_quotes 0 defective；D18 刊头间距 GAP=321.1；门 17：4 flags，全系 `path_bbox` 误报，不修。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-FR.pdf` 32,299,082 B、sha256 `b6bdc15de1b1cd2ae33594025ca678a44278fd843288ee80a6f4034642f6c4fe`；网 PDF `Lucerna-VOL1-FR-web.pdf` 2,013,800 B、sha256 `0095e92a08e25ec37010d98a97a9e64a9e864b51fe9466db41a6331cd52d5e80`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-fr/2026-w43-ko-fr.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-fr.text.md` 21,897 B、sha256 `44a4cffc7f04b0f844fc56a3eea08c4342c4317316310d5217b501b6d3ce0f4c`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 34,244,147 B / 网 3,125,107 B，旧配方）已过期——基线实测印 33,996,123 B。本节交付物行已更新为上述 D5 新值。

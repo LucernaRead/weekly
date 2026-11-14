@@ -87,8 +87,8 @@ Final run on the shipped ES SVGs: **0 COVER, 0 COVER-IMG, 0 LINEX, 0 FOOTER, 0 E
 
 In `files/weekly-report-ko-es/`: `svg/` ×8, `cards/` ×8 (1950×2700), print + web PDFs, this KIT.
 
-- Print PDF `Lucerna-VOL1-ES.pdf`: **34,453,333 B**, sha256 `a9e8acebad62e219ec065e8e551bb1f8f4009ce8ba24101c592df3ae292d9c17`
-- Web PDF `Lucerna-VOL1-ES-web.pdf`: **3,115,958 B** (< 10 MB), sha256 `f20a6a64142d440b32efeebc4e82773b6853b377f32806327943b6be0299f4b7`
+- Print PDF `Lucerna-VOL1-ES.pdf`: **32,299,760 B**, sha256 `04f39f85e127ff2f371a48d7673d112bd615cb48385c1dfc99f959784b488eb7` (D5 rebuild, 2026-11-13)
+- Web PDF `Lucerna-VOL1-ES-web.pdf`: **2,014,558 B** (< 7 MB), sha256 `149e7eb96c061158820ca5dcf5b6be65e831b6f1a4869ed9b0dc79eca422a409` (D5 rebuild, 2026-11-13)
 
 ## 9. Gate status
 
@@ -110,3 +110,15 @@ Builder's full proofread + audits complete (above). **Independent proofread: PAS
 12. **Deliverables re-verified by the proofreader** — web PDF 3,115,958 B, sha256 `f20a6a64142d440b32efeebc4e82773b6853b377f32806327943b6be0299f4b7`, 8 pages, < 10 MB; print PDF 34,453,333 B, sha256 `a9e8acebad62e219ec065e8e551bb1f8f4009ce8ba24101c592df3ae292d9c17`, 8 pages. Pins match §8 exactly.
 
 **Process disclosure (two proofreader-side incidents, both fully verified harmless):** (a) The proofreader's sandbox rebuild script failed to rewrite output paths (the build files carry a literal `~/…` inside `expanduser`), so sandbox rebuilds wrote into the real `files/` SVG dirs, overwriting shipped core + ES SVGs in place. Verified harmless: all 8 core SVG sha256 == the §1 baseline table; all 16 cards (core + ES) pixel-identical to fresh renders of the on-disk SVGs; PDFs untouched. The run independently re-proved the baseline claim (8/8). (b) Later, a direct import of the core's `content8.py` (which renders on execution and needs the full driver context) briefly wrote a partial-registry P8 variant over the core's `p8-siheom.svg`. The proofreader immediately restored it by running the core build through its proper driver (all five content modules, REG 150) and verified **all 8 core SVGs byte-identical to the §1 baseline table, including P8 = `bd3b245f…`**. The ES content-module import crashed before any save (ES file mtimes/hashes/content unchanged; the ES proofread above was performed on the shipped state).
+
+## 10. D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-es.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-es-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 427、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,436,845 B、sha256 `cf4e8a245e8b7964a6e74e629394a5b1ea1c934fa3010faf310272d3080ede0c`；基线网 PDF 2,111,245 B、sha256 `bdd246917c34df700c48cee9cf3408c2b08a79c2be5a2ee086bc3010ab7af740`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_es.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2014558 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=378，中位 1.008，粗体 1.04，常规 0.988；P8 237→238 行，距页脚线余量 45.6px）；文字层 print=web 多重集差 0（各 29380 字符）；census_quotes 0 defective；D18 刊头间距 GAP=336.1；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-ES.pdf` 32,299,760 B、sha256 `04f39f85e127ff2f371a48d7673d112bd615cb48385c1dfc99f959784b488eb7`；网 PDF `Lucerna-VOL1-ES-web.pdf` 2,014,558 B、sha256 `149e7eb96c061158820ca5dcf5b6be65e831b6f1a4869ed9b0dc79eca422a409`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-es/2026-w43-ko-es.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-es.text.md` 21,826 B、sha256 `b1030867277595f89a8aa157e60ea205873dcfb49d9973ff5455d443da09e656`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 34,453,333 B / 网 3,115,958 B，旧配方）已过期——基线实测印 34,436,845 B。本节交付物行已更新为上述 D5 新值。

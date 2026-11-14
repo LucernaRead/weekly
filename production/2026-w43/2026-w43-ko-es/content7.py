@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ko-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · 말 공부 (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("말 공부 · Lengua", "Lucerna", "언어 포커스 · 세 가지 레벨, 세 가지 주제 · Tres niveles, tres temas")
+p.band("말 공부　Lengua", "Lucerna", "언어 포커스　세 가지 레벨, 세 가지 주제　Tres niveles, tres temas")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 날씨의 말", 24)
+a.head("A2　날씨의 말", 24)
 a.para("태풍 소식을 읽을 때 자주 보는 말이 있어요. '북상하다'는 북쪽으로 올라가다예요. 태풍이 가는 길을 '진로'라고 해요.", 21.5)
 a.para("태풍이 가까이 와서 비와 바람이 강해지는 곳은, 태풍의 '영향권'에 들어요. 영향권 소식은 기상청에서 자주 확인하세요.", 21.5)
 a.expl("영향권 = zona de influencia · 가까이 = cerca, al acercarse")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 날짜 세는 말", 24)
+b.head("B1　날짜 세는 말", 24)
 b.para("한국에서는 중요한 날까지 남은 날짜를 'D-29'처럼 써요. 오늘이 10월 21일, 수능이 11월 19일이니까 오늘이 D-29예요.", 21.5)
 b.para("내일이 바로 그날이면 D-1, 오늘이 바로 그날이면 D-데이예요. 달력에서 날짜를 셀 때 자주 쓰는 말이에요.", 21.5)
 b.expl("남다 = quedar, restar · 바로 = justo, precisamente")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 예보 읽는 법", 24)
+c.head("B2　예보 읽는 법", 24)
 c.para("예보를 읽을 때는 날짜와 함께 '기준'을 봐야 해요. 산림청은 잎의 50%, 웨더아이는 산 전체의 80%를 절정의 기준으로 해요.", 21.5)
 c.para("기준이 다르면 날짜도 달라져요. 그래서 소식을 읽을 때 '어떤 기준인가요?'를 먼저 생각하세요. (6면)", 21.5)
 c.expl("기준 = criterio, norma · 먼저 확인하다 = comprobar primero")
@@ -68,21 +68,21 @@ errs = [
     ("「저는 학생이에요. 이름은 민준입니다」", "→ 한 글에서는 문체를 하나로 해요: '이름은 민준이에요'.", "En un mismo texto, un solo estilo de habla."),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "실수 병원 · La clínica de errores", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "실수 병원　La clínica de errores", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「〜까지 ○일 남았어요」 — '수능까지 29일 남았어요.' 날짜를 셀 때 쓰는 틀이에요. 물어볼 때는 '〜까지 얼마 남았어요?'라고 해요."
 wcn = "La estructura: «quedan ○ días para ~». Para preguntar: «〜까지 얼마 남았어요?»"
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "이번 주의 틀 · La frase modelo", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "이번 주의 틀　La frase modelo", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -90,9 +90,9 @@ ly = wy + wh + 12
 lt = "「안녕하세요. 저는 대학생이에요. 금요일에 하늘공원에 가요. 억새가 보고 싶어요. 일요일에는 야구 플레이오프를 봐요!」 — 독자 편지의 예"
 lcn = "Ejemplo de la redacción, no es una carta real. ¡El VOL.2 traerá cartas reales y la mejor redacción!"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 26
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "독자의 편지 · Cartas de los lectores", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "독자의 편지　Cartas de los lectores", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -101,8 +101,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "이번 주의 문장 · Frases de la semana (textuales, de este número)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "이번 주의 문장　Frases de la semana (textuales, de este número)", 27, "sans", True, OLIVE)
 quotes = [
     ("「경로는 아직 바뀔 수 있어요」", "La trayectoria puede cambiar todavía.", "1면"),
     ("「자세한 소식은 4면에 있어요」", "Los detalles están en la pág. 4.", "1면"),
@@ -122,9 +122,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 150 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "다음 주 · La semana que viene (VOL.2)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "준플레이오프 결과와 플레이오프 소식을 전해요. 태풍 참피는 어디로 갔을까요? 실제 진로를 확인해요. 단풍은 절정이 됐을까요? 10월 31일 할로윈 소식도 있어요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "다음 주　La semana que viene (VOL.2)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "준플레이오프 결과와 플레이오프 소식을 전해요. 태풍 참피는 어디로 갔을까요? 실제 진로를 확인해요. 단풍은 절정이 됐을까요? 10월 31일 할로윈 소식도 있어요. 여러분의 편지와 8면 쓰기 우수작도 실어요. 기대해 주세요!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-mal.svg")

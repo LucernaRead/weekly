@@ -99,8 +99,8 @@
 
 | 檔案 | 位元組 | SHA-256 |
 |---|---|---|
-| Lucerna-VOL1-ZHTW.pdf（印刷） | 34,835,242 | 9e9cf86f07eb22359ecd67ad6ecfeb1289c684ad2c6f0477de2e48f7ebc90861 |
-| Lucerna-VOL1-ZHTW-web.pdf（網頁） | 2,899,618 | 3b78519f2ccca5a7eb302db2fee75f63f53b6e4b963210d0b9ce75c0b811eba9 |
+| Lucerna-VOL1-ZHTW.pdf（印刷） | 33,794,704 | e4e0a365eb5c279c7d01de527f88bd580f6aa763015d593258cd10897bdd4486 |
+| Lucerna-VOL1-ZHTW-web.pdf（網頁） | 2,410,385 | 0641fead7005cb077613577e4a700a725d8942171affe0ac294ac03a7265dbde |
 
 網頁 PDF 2.90 MB < 10 MB。SVG ×8、cards ×8 同目錄。未入倉、未發 Discord。
 
@@ -131,3 +131,15 @@
 | Lucerna-VOL1-ZHTW-web.pdf（網頁） | 2,899,567 | 31657b70db3ecf459e0f764d55169dc778f6b7d41ac2d96db0142ed1e771e676 |
 
 雙 PDF 各 8 頁。校對 scratch 在 `hidden_files/proof-ko-zh-tw/`。未入倉、未發 Discord。
+
+## §10 D5 重建記錄（2026-11-13）
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-zh-tw.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-zh-tw-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "cjk"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 214、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,841,882 B、sha256 `b5490aa147a712d059660f163bc6c75a926fcd588bb5ddddc02483b1132f9785`；基线网 PDF 2,456,304 B、sha256 `dddb8b0dd4dcb9b6714c1915acbd632255e5be63330018f15b7052d74bf50749`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_zh-tw.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2410385 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=358，中位 1.011，粗体 1.04，常规 1.0；P8 196→197 行，距页脚线余量 48.9px）；文字层 print=web 多重集差 0（各 21399 字符）；census_quotes 0 defective；D18 刊头间距 GAP=360.1；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-ZHTW.pdf` 33,794,704 B、sha256 `e4e0a365eb5c279c7d01de527f88bd580f6aa763015d593258cd10897bdd4486`；网 PDF `Lucerna-VOL1-ZHTW-web.pdf` 2,410,385 B、sha256 `0641fead7005cb077613577e4a700a725d8942171affe0ac294ac03a7265dbde`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-zh-tw/2026-w43-ko-zh-tw.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-zh-tw.text.md` 21,040 B、sha256 `98ffc6e2e4cb2572c0f33116fe34fcc2c3946035e02490029762026274a7a2e3`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（§8：印 34,835,242 B / 网 2,899,618 B；§9 校对终值：印 34,835,259 B / 网 2,899,567 B；两处互不一致，旧配方）已过期——基线实测印 34,841,882 B。本节交付物行已更新为上述 D5 新值。

@@ -89,8 +89,8 @@ All public domain / CC0, Commons-verified 2026-10-21 (full records in the core b
 ## Deliverables
 
 - `svg/` ×8, `cards/` ×8 PNG (1950×2700 each).
-- Print PDF `Lucerna-VOL1-IT.pdf`: **34,450,127 B** (final, post-proofread-fix), 8 pages, sha256 `0817b807136809f077a29a2ab7dd359ebe96c868ff9d94cb20e9e105728914c7` — builder's original was 34,450,138 B / `7cd878ab…`, superseded.
-- Web PDF `Lucerna-VOL1-IT-web.pdf`: **3,092,430 B** (< 10 MB, final, post-proofread-fix), 8 pages, sha256 `a775b1918573376279b426602ad272cc3258257d03a2da4e321fa69aba634818` — builder's original was 3,092,612 B / `c91bdaf0…`, superseded.
+- Print PDF `Lucerna-VOL1-IT.pdf`: **32,292,387 B** (D5 rebuild, 2026-11-13), 8 pages, sha256 `7c6d7395db0728b5602a8802dea98c557c55970617d9e5cf744a8eb130c9a228` — supersedes the post-proofread-fix value 34,450,127 B / `0817b807…`.
+- Web PDF `Lucerna-VOL1-IT-web.pdf`: **2,006,832 B** (< 7 MB, D5 rebuild, 2026-11-13), 8 pages, sha256 `b6d87852dc940c6eb0cacc98727d32781b31a07fae1a10a9364ee4a14053210b` — supersedes the post-proofread-fix value 3,092,430 B / `a775b191…`.
 
 ## Proofread record
 
@@ -124,3 +124,15 @@ All public domain / CC0, Commons-verified 2026-10-21 (full records in the core b
 **Final PDF pins (supersede the builder's).** Web `Lucerna-VOL1-IT-web.pdf`: **3,092,430 B**, sha256 `a775b1918573376279b426602ad272cc3258257d03a2da4e321fa69aba634818`, 8 pages, < 10 MB ✓. Print `Lucerna-VOL1-IT.pdf`: **34,450,127 B**, sha256 `0817b807136809f077a29a2ab7dd359ebe96c868ff9d94cb20e9e105728914c7`, 8 pages. (Builder's pins — web 3,092,612 B / `c91bdaf0…`, print 34,450,138 B / `7cd878ab…` — were verified accurate for the pre-fix artifacts and are superseded by the fix.)
 
 **Core integrity.** The frozen core was never edited; its 8 shipped SVG sha256 are unchanged at the end of this work (p1 `f7db1604…`, p2 `f38afa34…`, p3 `f5a258a4…`, p4 `6ceb1f22…`, p5 `0adf32b9…`, p6 `e5e849ad…`, p7 `d8219859…`, p8 `bd3b245f…`, identical to the values recorded at the start of the pass).
+
+## D5 rebuild (2026-11-13)
+
+D5 rebuild (2026-11-13–14；builder：W43 ko 家三任；不 commit、不 push；独立重校另派他人；入仓由 closer 做）。D5 报告：`production/notes/2026-w43/g-ko/scratch-d5-rebuild-ko/D5-REPORT-2026-w43-ko-it.md`；门禁日志：`hidden_files/d5-redo/scratch-2026-w43-ko/logs/2026-w43-ko-it-run2/GATES-SUMMARY.txt`。
+
+- 装机：移植模板 `tools/mechanism-w47/svglib-ko-d5.py`（539 行）原样装为版内 `svglib.py`，仅改写 `_D5_READER = "latin"`；core-ko 落盘同模板（`production/2026-w43/core-ko/svglib.py`，+333/−40）。路由单元测试 `test_d5_routing.py`：**FAILURES: 0**；fix2 保留（`_QUOTE_CLS` 在位）。ko-ru 无 fix-xru（W43 重建标准，见家族报告 §0）。
+- 基线：`run.py` TOTAL 150、0 警告（fr 例外：基线唯一警告为 port 已知良性 HEAD TOO WIDE，见 D5 报告 §二）；修前普查 D5 拉丁 427、西里尔 0、弯引号在 CJK 0；基线印 PDF 34,433,754 B、sha256 `0b62babae16171b10d7bc43a38364a3f656a88dd945b1ee73a6e20e74738d531`；基线网 PDF 2,105,460 B、sha256 `2a9f774619a31cad0cc2b80dffe512d0d43dd06b9b876b73e3945e92c3b3b69a`。
+- 缺陷与修复（只动字号，文字内容未动）：
+- run1 无真缺陷；唯一 FAIL 为门 17 缺脚本 SKIP（production 与 fanout 均无 `audit_ko_it.py`），不是 FAIL，不阻塞。
+- 门禁 run2：PASS=18 FAIL=1（run1：PASS=18 FAIL=1）。run TOTAL 150；head_check PASS 0 defects；d5 census 0/0/0；render RC=0；webpdf RC=0（2006832 B <7MB）；occlusion 0；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138]）；freeze baseline 8/8；freeze diff vs base 新增 CJK 0；spill 0；boxtitle 0 DEFECT；edge 0/0；creambox PASS 0 defects（ratios n=379，中位 1.011，粗体 1.04，常规 0.995；P8 228→229 行，距页脚线余量 48.9px）；文字层 print=web 多重集差 0（各 29095 字符）；census_quotes 0 defective；D18 刊头间距 GAP=325.3；门 17：SKIP（无此脚本）。
+- 新交付物（实测发运值）：印 PDF `Lucerna-VOL1-IT.pdf` 32,292,387 B、sha256 `7c6d7395db0728b5602a8802dea98c557c55970617d9e5cf744a8eb130c9a228`；网 PDF `Lucerna-VOL1-IT-web.pdf` 2,006,832 B、sha256 `b6d87852dc940c6eb0cacc98727d32781b31a07fae1a10a9364ee4a14053210b`（<7MB，待 closer 换入 `issues/2026-w43/2026-w43-ko-it/2026-w43-ko-it.pdf` 并更新 pin）；新建 text.md `2026-w43-ko-it.text.md` 21,701 B、sha256 `4f514c9328fccc890215035fd7e95e29d970a6f945e3c22b78c07ce9430eeab9`，与 fanout `.text.md.new` BYTE-IDENTICAL，`verify_textexp_ko.py --edition` ADOPT。
+- KIT 旧值（印 34,450,127 B / 网 3,092,430 B，校对修复后终值，旧配方）已过期——基线实测印 34,433,754 B。本节交付物行已更新为上述 D5 新值。
