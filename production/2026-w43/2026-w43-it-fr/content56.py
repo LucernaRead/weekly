@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-it-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · GIOVANI (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("GIOVANI · JEUNESSE", "La Lucerna", "LIVELLO B1 · Lucca Comics e il cinema dei giovani · Lucca Comics et le cinéma des jeunes")
+p.band("GIOVANI　JEUNESSE", "La Lucerna", "LIVELLO B1　Lucca Comics e il cinema dei giovani　Lucca Comics et le cinéma des jeunes")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P5-main")
-f.title("Lucca si prepara: tra una settimana è Comics & Games", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: B1")
+f.title("Lucca si prepara: tra una settimana è Comics & Games", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: B1")
 f.para("Manca una settimana all'evento giovane più grande d'Italia: Lucca Comics & Games. La 60ª edizione, con il tema «Legacy», apre mercoledì 28 ottobre e chiude domenica 1° novembre, il giorno di Ognissanti.")
 f.para("I numeri sono da record: al massimo 80.000 visitatori al giorno dentro le mura di Lucca. I biglietti costano da 26,50 a 34,50 euro; l'abbonamento per i cinque giorni costa 95 euro.")
 f.para("Questa è la settimana dei preparativi: il termine per ricevere il braccialetto a casa è scaduto il 16 ottobre, e ora i fan preparano i cosplay, studiano le code e organizzano il viaggio. Per molti giovani è la festa più importante dell'autunno.")
@@ -39,7 +39,7 @@ facts = ["60ª edizione, tema «Legacy»: dal 28 ottobre al 1° novembre.",
          "Biglietti: 26,50–34,50 €; abbonamento di 5 giorni: 95 €."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LUCCA IN NUMERI", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -48,9 +48,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Vai a Lucca o resti a guardare film? Scrivi due frasi in italiano."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Tu vas à Lucca ou tu restes regarder des films ? Écris deux phrases et envoie-les.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · ET TOI ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　ET TOI ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Tu vas à Lucca ou tu restes regarder des films ? Écris deux phrases et envoie-les.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -58,7 +58,7 @@ ky3 = ey3 + eh + 26
 kb = ("Secondo Google, nel 2026 le ricerche italiane sul caffè non sono mai state così alte: l'espresso resta il numero uno, la moka resta amatissima in Italia, e crescono il flat white e il latte d'avena. "
       "Record anche per le ricerche sulla «skincare coreana», la cura della pelle in stile coreano.")
 kh = 62 + len(wrap(kb, "serif", False, 21.5, CW - 44)) * 30.5 + 16
-p.rect(ix, ky3, CW, kh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, ky3, CW, kh, fill=BOX)
 yy3 = ky3 + 16
 p.text(ix + 22, yy3 + 26, "COSA CERCANO GLI ITALIANI", 22, "sans", True, OLIVE)
 yy3 += 52
@@ -67,53 +67,53 @@ print("P5 col3 ends", ky3 + kh)
 
 # ---- P5 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · EXERCICES", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　EXERCICES", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P5-ex")
+e.head("A　COMPRENSIONE", 25)
 e.expl("Lisez l'article page 5 et choisissez la bonne réponse.")
-e.ex("B1", "单选", "B", "Lucca Comics en est à sa 60e édition",
+e.ex("B1", "Choix unique", "B", "Lucca Comics en est à sa 60e édition",
      "Lucca Comics & Games è alla sua... A. 50ª edizione · B. 60ª edizione · C. 21ª edizione", size=20, gap=8)
-e.ex("B1", "单选", "B", "ouverture le mercredi 28 octobre",
+e.ex("B1", "Choix unique", "B", "ouverture le mercredi 28 octobre",
      "Il festival di Lucca apre... A. il 25 ottobre · B. il 28 ottobre · C. il 1° novembre", size=20, gap=8)
-e.ex("B1", "单选", "C", "le pass de cinq jours coûte 95 €",
+e.ex("B1", "Choix unique", "C", "le pass de cinq jours coûte 95 €",
      "L'abbonamento per cinque giorni costa... A. 34,50 € · B. 80 € · C. 95 €", size=20, gap=8)
-e.ex("B1", "单选", "A", "Alice nella città est la section des jeunes",
+e.ex("B1", "Choix unique", "A", "Alice nella città est la section des jeunes",
      "Alice nella città è... A. una sezione per i giovani · B. un'app · C. un film muto", size=20, gap=8)
-e.ex("B1", "单选", "A", "la date limite pour le bracelet à domicile était le 16 octobre",
+e.ex("B1", "Choix unique", "A", "la date limite pour le bracelet à domicile était le 16 octobre",
      "Il termine per il braccialetto a casa è scaduto... A. il 16 ottobre · B. il 22 ottobre · C. il 28 ottobre", size=20, gap=8)
-e.head("B · LE PAROLE DEL TESTO", 25)
+e.head("B　LE PAROLE DEL TESTO", 25)
 e.expl("Complétez avec les mots du cadre. Attention : certains mots passent au pluriel.")
 e.para("cosplay · braccialetto · coda · anteprima · muto · abbonamento", 20, "sans", True, OLIVE, 1.35, 6)
-e.ex("B1", "完成句子", "braccialetto", "braccialetto = le bracelet",
+e.ex("B1", "Compléter les phrases", "braccialetto", "braccialetto = le bracelet",
      "Per entrare a Lucca serve il ___ al polso.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "anteprima", "anteprima = l'avant-première",
+e.ex("B1", "Compléter les phrases", "anteprima", "anteprima = l'avant-première",
      "Un film visto per la prima volta dal pubblico è un'___.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "muti", "muti = muets (masculin pluriel)",
+e.ex("B1", "Compléter les phrases", "muti", "muti = muets (masculin pluriel)",
      "I film di cento anni fa sono ___: senza parole.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "abbonamento", "abbonamento = le pass, l'abonnement",
+e.ex("B1", "Compléter les phrases", "abbonamento", "abbonamento = le pass, l'abonnement",
      "Con l'___ di cinque giorni entri sempre.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "coda", "coda = la file d'attente",
+e.ex("B1", "Compléter les phrases", "coda", "coda = la file d'attente",
      "Davanti ai padiglioni c'è sempre una lunga ___.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "cosplay", "cosplay = le costume de cosplay",
+e.ex("B1", "Compléter les phrases", "cosplay", "cosplay = le costume de cosplay",
      "Molti fan preparano un ___ da indossare a Lucca.", instr="Compléter", size=20, gap=8)
-e.head("C · IL FUTURO", 25)
+e.head("C　IL FUTURO", 25)
 e.expl("Complétez au futuro semplice (le futur simple).")
-e.ex("B1", "完成句子", "prepareremo", "preparare au futur, noi : prepareremo",
+e.ex("B1", "Compléter les phrases", "prepareremo", "preparare au futur, noi : prepareremo",
      "Domani noi ___ (preparare) i cosplay.", instr="Compléter", size=20, gap=8)
-e.ex("B2", "完成句子", "andrò", "andare, futur irrégulier : andrò",
+e.ex("B2", "Compléter les phrases", "andrò", "andare, futur irrégulier : andrò",
      "La prossima settimana io ___ (andare) a Lucca.", instr="Compléter", size=20, gap=8)
-e.ex("B2", "完成句子", "ci saranno", "esserci au futur : ci saranno (il y aura)",
+e.ex("B2", "Compléter les phrases", "ci saranno", "esserci au futur : ci saranno (il y aura)",
      "A Lucca ___ (esserci) migliaia di giovani.", instr="Compléter", size=20, gap=8)
-e.ex("B1", "完成句子", "chiuderà", "chiudere au futur : chiuderà",
+e.ex("B1", "Compléter les phrases", "chiuderà", "chiudere au futur : chiuderà",
      "Il festival di Lucca ___ (chiudere) il 1° novembre.", instr="Compléter", size=20, gap=8)
-e.head("D · VERO O FALSO?", 25)
-e.ex("B1", "判断对错", "Vero", "maximum 80 000 visiteurs par jour",
+e.head("D　VERO O FALSO?", 25)
+e.ex("B1", "Vrai ou faux", "Vero", "maximum 80 000 visiteurs par jour",
      "A Lucca entrano al massimo 80.000 visitatori al giorno. Vero o falso?", instr="Vrai ou faux", size=20, gap=8)
-e.ex("B1", "判断对错", "Vero", "les soirées de cinéma muet sont à la Casa del Cinema",
+e.ex("B1", "Vrai ou faux", "Vero", "les soirées de cinéma muet sont à la Casa del Cinema",
      "Le serate di cinema muto sono alla Casa del Cinema. Vero o falso?", instr="Vrai ou faux", size=20, gap=8)
-e.ex("B2", "判断对错", "Falso", "l'espresso reste la recherche n° 1 sur le café",
+e.ex("B2", "Vrai ou faux", "Falso", "l'espresso reste la recherche n° 1 sur le café",
      "L'espresso non è più la ricerca numero uno sul caffè. Vero o falso?", instr="Vrai ou faux", size=20, gap=8)
 e.end_report()
 p.foot(5)
@@ -123,11 +123,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · APPROFONDIMENTO (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("APPROFONDIMENTO · EN PROFONDEUR", "La Lucerna", "LIVELLO B2 · La manovra 2027 · Le budget 2027")
+p.band("APPROFONDIMENTO　EN PROFONDEUR", "La Lucerna", "LIVELLO B2　La manovra 2027　Le budget 2027")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1520, tag="P6-main")
-f.title("La manovra 2027: perché il voto slitta al 28 ottobre", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: B2 · La politica nazionale italiana")
+f.title("La manovra 2027: perché il voto slitta al 28 ottobre", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: B2　La politica nazionale italiana")
 f.para("È la storia politica italiana della settimana: la manovra, la legge di bilancio per il 2027. Lunedì 19 ottobre i leader della coalizione si sono incontrati a Palazzo Chigi, a Roma. Ma il voto del Consiglio dei ministri non arriva venerdì 23 ottobre, come previsto: slitta a mercoledì 28 ottobre circa.")
 f.para("Perché il rinvio? Il punto difficile è il contributo di circa 5 miliardi di euro chiesto a banche e assicurazioni. La cifra è nel Documento programmatico di bilancio (il DPB), il piano che l'Italia ha mandato a Bruxelles il 15 ottobre.")
 f.para("Il DPB pubblica le previsioni per il 2027: la crescita è stimata a +0,8% e il deficit è al 3,4% del PIL, il prodotto interno lordo. Sono previsioni, non risultati: numeri che descrivono un piano, non ancora la realtà.")
@@ -138,7 +138,7 @@ f.end_report()
 
 # col 3: timeline + leggere i numeri (sequential, measured)
 bx = COLX[3]
-p.rect(bx, 200, CW, 640, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 640, fill=BOX)
 p.text(bx + 22, 240, "LA STRADA DELLA MANOVRA", 22, "sans", True, OLIVE)
 steps = [
     ("15 OTT.", "L'Italia manda a Bruxelles il DPB, il documento con il piano di bilancio."),
@@ -148,13 +148,13 @@ steps = [
 ]
 sy3 = 282
 for w, t in steps:
-    p.text(bx + 22, sy3 + 21, w, 20, "sans", True, BRICK)
+    p.text(bx + 22, sy3 + 21, w, 20, "sans", True, OLIVE)
     sy3 = p.para(bx + 164, sy3 + 21, t, 21, "serif", False, INK, CW - 186, 1.4) + 16
 by3 = 866
 bb = ("Davanti a un numero politico, fai tre domande: chi lo pubblica? Quando? "
       "È una previsione o un dato finale? Senza queste tre risposte, una cifra dice poco.")
 bh = 62 + len(wrap(bb, "serif", False, 21.5, CW - 44)) * 30.5 + 16
-p.rect(bx, by3, CW, bh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, by3, CW, bh, fill="#f0eee5")
 yy3 = by3 + 16
 p.text(bx + 22, yy3 + 26, "LEGGERE I NUMERI", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -163,14 +163,14 @@ print("P6 col3 ends", by3 + bh)
 
 # ---- DPB chart (published figures, honestly captioned) ----
 gy = 1566
-p.hline(MX, RIGHT, gy - 18, GOLD, 2)
-p.text(MX, gy + 10, "LE CIFRE DEL DPB · LES CHIFFRES DU DPB (Documento programmatico di bilancio, 15 octobre 2026)", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, gy - 18, OLIVE, 2)
+p.text(MX, gy + 10, "LE CIFRE DEL DPB　LES CHIFFRES DU DPB (Documento programmatico di bilancio, 15 octobre 2026)", 26, "sans", True, OLIVE)
 dpb = [("Banche e assicurazioni (contributo chiesto)", 5.0),
        ("Famiglie e spese sociali", 5.0),
        ("Aiuto alle imprese", 3.4)]
 bx1, bw_, bhh = MX, 2 * CW + GUT, 322
-p.rect(bx1, gy + 28, bw_, bhh, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx1 + 22, gy + 68, "TRE VOCI DEL PIANO · miliardi di euro", 21, "sans", True, INK)
+p.rect(bx1, gy + 28, bw_, bhh, fill=BOX)
+p.text(bx1 + 22, gy + 68, "TRE VOCI DEL PIANO　miliardi di euro", 21, "sans", True, INK)
 yy = gy + 96
 for lab, v in dpb:
     p.text(bx1 + 22, yy + 24, lab, 20, "serif", True, INK)
@@ -181,8 +181,8 @@ for lab, v in dpb:
 p.para(bx1 + 22, gy + bhh - 62, "Tre voci pubblicate nel DPB del 15 ottobre — non è il totale della manovra (circa 23,5 miliardi).", 17.5, "sans", False, GREY, bw_ - 44, 1.3)
 # right box: percentages
 bx2 = COLX[2]
-p.rect(bx2, gy + 28, bw_, bhh, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx2 + 22, gy + 68, "LE PREVISIONI 2027 · LES PRÉVISIONS 2027", 21, "sans", True, INK)
+p.rect(bx2, gy + 28, bw_, bhh, fill=BOX)
+p.text(bx2 + 22, gy + 68, "LE PREVISIONI 2027　LES PRÉVISIONS 2027", 21, "sans", True, INK)
 p.para(bx2 + 22, gy + 118, "Crescita stimata: +0,8%", 23, "serif", True, INK, bw_ - 44, 1.35)
 p.para(bx2 + 22, gy + 158, "Deficit: 3,4% del PIL", 23, "serif", True, INK, bw_ - 44, 1.35)
 p.para(bx2 + 22, gy + 198, "Sono previsioni del piano, non dati finali: il futuro si scrive con i numeri che arrivano dopo.", 19.5, "serif", False, INK, bw_ - 44, 1.4)
@@ -190,51 +190,51 @@ p.para(bx2 + 22, gy + bhh - 62, "Fonte: DPB, documento mandato a Bruxelles il 15
 
 # ---- P6 exercises ----
 ey = 1930
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · EXERCICES", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · LEGGERE IL GRAFICO", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　EXERCICES", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Exercices mélangés par niveau, cherchez par numéro", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P6-ex")
+e.head("A　LEGGERE IL GRAFICO", 25)
 e.expl("Regardez les deux graphiques : choisissez.")
-e.ex("B2", "单选", "B", "la contribution des banques : environ 5 milliards",
+e.ex("B2", "Choix unique", "B", "la contribution des banques : environ 5 milliards",
      "Il contributo chiesto a banche e assicurazioni è di... A. 3,4 miliardi · B. 5 miliardi · C. 23,5 miliardi", size=18, gap=2)
-e.ex("B2", "单选", "A", "familles et dépenses sociales : environ 5 milliards",
+e.ex("B2", "Choix unique", "A", "familles et dépenses sociales : environ 5 milliards",
      "Per le famiglie e le spese sociali il piano prevede... A. 5 miliardi · B. 3,4 miliardi · C. 0,8 miliardi", size=18, gap=2)
-e.ex("B2", "单选", "B", "5 + 5 + 3,4 = 13,4 (ce n'est pas le total)",
+e.ex("B2", "Choix unique", "B", "5 + 5 + 3,4 = 13,4 (ce n'est pas le total)",
      "Le tre voci del grafico, insieme, fanno... A. 10 miliardi · B. 13,4 miliardi · C. 23,5 miliardi", size=18, gap=2)
-e.ex("B2", "单选", "A", "5 − 3,4 = 1,6",
+e.ex("B2", "Choix unique", "A", "5 − 3,4 = 1,6",
      "La differenza tra le famiglie (5) e le imprese (3,4) è... A. 1,6 miliardi · B. 2,6 miliardi · C. 8,4 miliardi", size=18, gap=2)
-e.ex("B2", "单选", "B", "croissance prévue en 2027 : +0,8 %",
+e.ex("B2", "Choix unique", "B", "croissance prévue en 2027 : +0,8 %",
      "La crescita prevista per il 2027 è... A. +3,4% · B. +0,8% · C. +5%", size=18, gap=2)
-e.ex("B2", "单选", "A", "le déficit est à 3,4 % du PIB",
+e.ex("B2", "Choix unique", "A", "le déficit est à 3,4 % du PIB",
      "Il deficit previsto è il... A. 3,4% del PIL · B. 34% del PIL · C. 0,8% del PIL", size=18, gap=2)
-e.head("B · COMPRENSIONE", 25)
-e.ex("B2", "单选", "B", "le vote est reporté au 28 octobre environ",
+e.head("B　COMPRENSIONE", 25)
+e.ex("B2", "Choix unique", "B", "le vote est reporté au 28 octobre environ",
      "Il voto del Consiglio dei ministri... A. è già avvenuto il 19 ottobre · B. slitta a circa il 28 ottobre · C. è cancellato", size=18, gap=2)
-e.ex("B2", "单选", "A", "le point difficile : la contribution des banques",
+e.ex("B2", "Choix unique", "A", "le point difficile : la contribution des banques",
      "Il punto difficile della manovra è... A. il contributo di banche e assicurazioni · B. il nome della legge · C. la data del voto", size=18, gap=2)
-e.ex("B2", "单选", "A", "le DPB a été envoyé à Bruxelles le 15 octobre",
+e.ex("B2", "Choix unique", "A", "le DPB a été envoyé à Bruxelles le 15 octobre",
      "Il DPB è stato mandato a Bruxelles... A. il 15 ottobre · B. il 19 ottobre · C. il 28 ottobre", size=18, gap=2)
-e.ex("B2", "单选", "B", "ce sont des prévisions, pas des résultats finaux",
+e.ex("B2", "Choix unique", "B", "ce sont des prévisions, pas des résultats finaux",
      "Le cifre del DPB sono... A. risultati finali · B. previsioni · C. errori di stampa", size=18, gap=2)
-e.head("C · IL CONGIUNTIVO", 25)
-e.ex("B2", "完成句子", "slitti", "è possibile che + subjonctif : slitti",
+e.head("C　IL CONGIUNTIVO", 25)
+e.ex("B2", "Compléter les phrases", "slitti", "è possibile che + subjonctif : slitti",
      "È possibile che il voto ___ (slittare) ancora.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "controllino", "bisogna che + subjonctif : controllino",
+e.ex("B2", "Compléter les phrases", "controllino", "bisogna che + subjonctif : controllino",
      "Bisogna che i lettori ___ (controllare) sempre la fonte.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "riunisce", "scrivono che énonce un fait : indicatif, riunisce",
+e.ex("B2", "Compléter les phrases", "riunisce", "scrivono che énonce un fait : indicatif, riunisce",
      "I giornali scrivono che il Consiglio si ___ (riunire) mercoledì 28.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "sia", "è importante che + subjonctif : sia",
+e.ex("B2", "Compléter les phrases", "sia", "è importante che + subjonctif : sia",
      "È importante che la manovra ___ (essere) chiara per tutti.", instr="Compléter", size=18, gap=2)
-e.head("D · LE PAROLE DEL DIBATTITO", 25)
+e.head("D　LE PAROLE DEL DIBATTITO", 25)
 e.expl("Complétez avec les mots du cadre : manovra · rinvio · miliardo · previsione")
-e.ex("B2", "完成句子", "manovra", "manovra = le budget",
+e.ex("B2", "Compléter les phrases", "manovra", "manovra = le budget",
      "La legge di bilancio si chiama anche la ___.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "miliardo", "un miliardo = un milliard",
+e.ex("B2", "Compléter les phrases", "miliardo", "un miliardo = un milliard",
      "Un ___ è mille milioni di euro.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "rinvio", "rinvio = le report",
+e.ex("B2", "Compléter les phrases", "rinvio", "rinvio = le report",
      "Il voto arriva più tardi del previsto: è un ___.", instr="Compléter", size=18, gap=2)
-e.ex("B2", "完成句子", "previsione", "previsione = la prévision",
+e.ex("B2", "Compléter les phrases", "previsione", "previsione = la prévision",
      "Un numero che descrive il futuro, non il presente, è una ___.", instr="Compléter", size=18, gap=2)
 e.end_report()
 p.foot(6)

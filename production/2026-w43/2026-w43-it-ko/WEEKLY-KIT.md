@@ -223,10 +223,10 @@ Italian terms identical and in the same order (script-verified):
 
 ## §10 Measured pins (final artifacts)
 
-- Print PDF `La-Lucerna-VOL1-KO.pdf`: 13,551,173 bytes,
-  sha256 `5f8f6ce3fea1301dccd131253dc3d1dc9f98e15e4f27aa295d4263b0ad8db138`
-- Web PDF `La-Lucerna-VOL1-KO-web.pdf`: **3,535,633 bytes (< 10 MB)**,
-  sha256 `ad64c38acba0cb86b55c9124cb95f2a759688dfff6d7bcf33391b9a82289e306`
+- Print PDF `The-Lucerna-VOL1-it-ko.pdf`: 9783110 bytes (D5 rebuild),
+  sha256 `d8aa2a1bd8cd341986e6d0fd6e307e83ba84eceae36e3438bdfca2b1b4ddaf12`
+- Web PDF `2026-w43-it-ko.web.pdf`: **1391994 bytes (< 7 MB)** (D5 rebuild, tools/webpdf.py shipped file),
+  sha256 `2ba5a801da277f3b8b572919c349ef9b4b0b7f51633fbd4a5eebe2c0590a0549`
 - (Pins superseded by the §11 proofread fix, 2026-10-22; pre-fix pins
   were print 13,551,260 / `93e18b46…`, web 3,536,014 / `76bdf156…`,
   p2 SVG `4a7a2981…`.)
@@ -348,3 +348,17 @@ builds; no module ever imported or run inside the core build dir).
 
 **Verdict: PASS** — final full pass after the fix found zero problems.
 Slug for insert: `2026-w43-it-ko`.
+
+---
+
+## §12 D5 重建记录（2026-11-13）
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader ko --week 2026-w43`，`_D5_READER = "cjk"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（12736868 B）；修前普查 D5 拉丁 340 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:48` P1 盒 `LA SETTIMANA IN CIFRE　금주 숫자` tsize 23→21（385.4，余 19.1px；22pt 仅余 0.8px 太薄，不取）; `content12.py:91` P1 `IN QUESTO NUMERO　이번 호 차례` p.text 24→22（381.6，余 18.9px；23pt 仅余 1.5px 太薄，不取）。
+- P8：行数 229→229，距页脚线余量 44.3 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-ko.pdf` `d8aa2a1bd8cd341986e6d0fd6e307e83ba84eceae36e3438bdfca2b1b4ddaf12`（9783110 B；修前 `121a32b854d0e2b6257b710a72afadf8b52ad19ef01538d637314eb612422318`，12736868 B）；网 PDF（tools/webpdf.py）`2ba5a801da277f3b8b572919c349ef9b4b0b7f51633fbd4a5eebe2c0590a0549`（1391994 B；已发版 `6262d77239e789726525bba2aecd83a3c1ca3dd4ff987ebde4e80e02da2d1121`，1564485 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（57415 B，SHA `a978d3549e9e5b66790b3735e275b468871821fb0a5ef7579d5413fd5d488157`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（38 titles、458 body lines）/ edge 0/0 / creambox PASS 0 defects（n=387）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 552.0 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-ko/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-ko.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

@@ -69,11 +69,25 @@ Intact. The chart components (5,0 + 5,0 + 3,4 = 13,4) still do not sum to the pr
 
 ## 8. Deliverable pins
 
-- Print PDF `La-Lucerna-VOL1-NL.pdf`: **9,078,939 bytes**, sha256 `dc27f1a5b3a95ea1d96c4942366912baf240e54e9cafb462d891e7aea300c17f`
-- Web PDF `La-Lucerna-VOL1-NL-web.pdf`: **3,627,469 bytes** (< 10 MB), sha256 `e15d2a51205bd6a1b20d210d1198ef946019a7bec093f18be811814ded1fc0e8`
+- Print PDF `The-Lucerna-VOL1-it-nl.pdf`: **7988112 bytes** (D5 rebuild), sha256 `b54042834b16e4dd703a7db419c9c51cba8108a2d7a00c9a61820eb54c0cc566`
+- Web PDF `2026-w43-it-nl.web.pdf`: **1135104 bytes** (D5 rebuild, tools/webpdf.py shipped file, < 7 MB), sha256 `67231ca901eef5935cb4a12cf2a488e9ec9166c5b94bce6184eb39a5840ee17c` (old 3,627,469 B value was the render.py-era web PDF)
 - `svg/` ×8 and `cards/` ×8 (1950×2700) in this directory.
 
 ## 9. Proofread record
 
 - **Builder's full pass: DONE.** All 8 pages read end-to-end in the final render; all 150 keys re-derived (registry diff = §3, nothing else); every weekday/date claim checked against the real 2026 calendar (clock change Sun 25 Oct; Artemisia opens Wed 21 Oct; Napoli–Roma Sat 24 Oct 18:00; vote slips to Wed 28 Oct; Lucca opens Wed 28 Oct; Allerheiligen Sun 1 Nov — all correct); totals = core; Manovra disclosure verified on P6 and P8 (§6).
 - **Independent proofread: PASS** (2026-10-21, fresh independent pass over the final artifacts, zero problems; no fixes required, no re-render). Verified: freeze.py baseline 8/8 byte-identical + core hashes unchanged start→end (bd04af2f…/ff75206e…/9ce43c3d…/aac8356c…/079552c8…/5d553abe…/9b4daf76…/58f37fd4…); freeze.py diff fully classified, edition CJK = 0 / added CJK = 0 on all pages; fresh registry dumps from both builds — 150 = 150, page/level meta identical, registry key diffs exactly {137, 138, 150} as §3; p8.py compare independently CLEAN 150 = 150 EQUAL (the tool's extra keydiff numbers are note-language/segmentation artifacts — #12 «mezza» and #101 «Sono» print byte-identical keys at identical y-coordinates 1732.24 / 2088.16 in both editions); occlusion_audit.py (selftest first) 0 flags, 0 NEW vs core, with pixel adjudication of every builder-fixed site (errors-box title, letter box vs FRASI rule, word-of-week gloss, P1/P2 tsize=20 titles, P6 instruction) — all clear; Manovra disclosure intact (frozen P6 caption byte-identical; #85 note «5 + 5 + 3,4 = 13,4 (niet het totaal)» on P8; #86 byte-identical); dash-style adjudication confirmed from core code + SVG; P7's 8 quotes verbatim, each exactly 2× in both editions, tags (1,1,2,2,3,4,5,6); all weekday/date claims re-verified against the real 2026 calendar; writing model hand-counted at exactly 90 words, byte-identical to the core; ~75 keys re-derived by hand from the articles — all correct; all 27 compressed notes (§3) spot-checked semantically equivalent; images byte-identical per page, credits byte-identical to the core (KIT §8 table matches); banned intermediary term 0 in SVGs/KIT/operative code (`expl()` rename complete; only CJK in code is the inherited non-rendering svglib.py docstring). Final pins re-measured from disk: web 3,627,469 B / e15d2a51205bd6a1b20d210d1198ef946019a7bec093f18be811814ded1fc0e8; print 9,078,939 B / dc27f1a5b3a95ea1d96c4942366912baf240e54e9cafb462d891e7aea300c17f. Proofreader scratch: `hidden_files/proof-it-nl/scratch/`.
+
+---
+
+## 10. D5 rebuild (2026-11-13)
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader nl --week 2026-w43`，`_D5_READER = "latin"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（8503017 B）；修前普查 D5 拉丁 492 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:48` P1 盒 `LA SETTIMANA IN CIFRE　IN CIJFERS` tsize 20→19（387.2，余 17.3px）; `content12.py:91` P1 `IN QUESTO NUMERO　INHOUD` p.text 24→23（387.6，余 12.9px）; `content12.py:181` P2 盒 `LA FRASE PER RICORDARE　EZELSBRUG` tsize 20→18（395.3，余 9.2px）; `content7.py:84` P7 `LA PAROLA　WOORD VAN DE WEEK` p.text 23→20（386.5，余 14.0px）。
+- P8：行数 199→199，距页脚线余量 57.4 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-nl.pdf` `b54042834b16e4dd703a7db419c9c51cba8108a2d7a00c9a61820eb54c0cc566`（7988112 B；修前 `1413a9933e261ee57edfd7a7e799972d6cead14a7b3398460bf6a8e83b0627f4`，8503017 B）；网 PDF（tools/webpdf.py）`67231ca901eef5935cb4a12cf2a488e9ec9166c5b94bce6184eb39a5840ee17c`（1135104 B；已发版 `f79861a4c4fbaf69bf619c182b4fec021b753dc0506cb2a20a8910b4d22bf352`，1243932 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（54793 B，SHA `361150794cb3db165093dbd12ccd22bacd213e2c6b8d06ffab5591de83a8bb21`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（24 titles、243 body lines）/ edge 0/0 / creambox PASS 0 defects（n=404）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 179.3 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-nl/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-nl.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

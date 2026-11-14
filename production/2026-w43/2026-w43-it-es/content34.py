@@ -3,23 +3,23 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-it-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · CULTURA (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("CULTURA · CULTURA", "La Lucerna", "A2 → B1 · Le sagre d'autunno · Las fiestas de otoño")
+p.band("CULTURA　CULTURA", "La Lucerna", "A2 → B1　Le sagre d'autunno　Las fiestas de otoño")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1560, tag="P3-main")
-f.title("Le sagre d'autunno: il tartufo bianco è il re", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: A2 → B1")
+f.title("Le sagre d'autunno: il tartufo bianco è il re", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: A2 → B1")
 f.para("In autunno, l'Italia mangia fuori casa. Nei paesi e nelle città è la stagione delle sagre: feste di piazza con i prodotti della terra. Il re della stagione è il tartufo bianco, il fungo più prezioso d'Italia.")
 f.para("Ad Alba, in Piemonte, la Fiera del Tartufo Bianco è aperta dal 10 ottobre al 6 dicembre: quasi due mesi di mercati, profumi e piatti speciali. La fiera è iniziata sabato 10 ottobre e chiude domenica 6 dicembre.")
 f.para("Questo fine settimana, sabato 24 e domenica 25 ottobre, Montaione, in Toscana, celebra la sua festa del tartufo. E a Bagolino, in Lombardia, il weekend è del formaggio Bagòss: un formaggio di montagna dal nome difficile e dal sapore forte.")
 f.para("Sempre sabato 24 ottobre apre a Volterra Volterragusto, una festa dei sapori della Toscana. E ovunque, nelle piazze, si trovano le castagne arrosto: l'autunno italiano ha il profumo della castagna calda.")
 f.gloss("il tartufo = la trufa · la sagra = la fiesta gastronómica · il profumo = el aroma · arrosto = asado · la pittrice = la pintora.")
-f.head("UNA GRANDE PITTRICE A FIRENZE", 25)
+f.head("UNA GRANDE PITTRICE A FIRENZE", 22)
 f.para("Mercoledì 21 ottobre apre a Firenze, al Museo degli Innocenti, la mostra «Artemisia Gentileschi a Firenze». Artemisia (1593–1656 circa) è una delle pittrici più famose del Seicento: le sue donne sono forti, coraggiose e vive.")
 f.para("La mostra resta aperta fino al 4 aprile 2027 e presenta anche due opere di Caravaggio, il grande maestro della luce e dell'ombra. La pittura antica diventa notizia di questa settimana perché la mostra apre proprio mercoledì.")
 f.end_report()
@@ -34,7 +34,7 @@ facts = ["Alba: la Fiera del Tartufo Bianco dura dal 10 ottobre al 6 dicembre.",
          "Bagolino (Lombardia): weekend del formaggio Bagòss, il 24 e 25 ottobre."]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LE SAGRE DEL WEEKEND", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -43,9 +43,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Qual è il piatto dell'autunno nel tuo paese? Scrivi due frasi in italiano e mandale alla redazione."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Y en tu tierra, qué se come en otoño? Escribe dos frases y envíalas.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · ¿Y TÚ?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　¿Y TÚ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "¿Y en tu tierra, qué se come en otoño? Escribe dos frases y envíalas.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -57,11 +57,11 @@ print("P3 col3 ends", acy)
 
 # ---- P3 exercises ----
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · EJERCICIOS", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · Ejercicios mezclados por nivel, busca por el número", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　EJERCICIOS", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　Ejercicios mezclados por nivel, busca por el número", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P3-ex")
+e.head("A　COMPRENSIONE", 25)
 e.expl("Lee el artículo de la página 3 y elige la respuesta correcta.")
 e.ex("A2", "Opción múltiple", "B", "la fiesta de la trufa blanca está en Alba",
      "La Fiera del Tartufo Bianco è a... A. Bagolino · B. Alba · C. Volterra", size=20, gap=8)
@@ -73,7 +73,7 @@ e.ex("B1", "Opción múltiple", "A", "la exposición de Artemisia abre el miérc
      "La mostra su Artemisia apre... A. mercoledì 21 ottobre · B. sabato 24 ottobre · C. domenica 25 ottobre", size=20, gap=8)
 e.ex("B1", "Opción múltiple", "B", "la exposición incluye también dos obras de Caravaggio",
      "Nella mostra ci sono anche opere di... A. Leonardo · B. Caravaggio · C. Michelangelo", size=20, gap=8)
-e.head("B · LE PAROLE DEL TESTO", 25)
+e.head("B　LE PAROLE DEL TESTO", 25)
 e.expl("Completa con las palabras del cuadro.")
 e.para("tartufo · sagra · profumo · castagne · pittrice · formaggio", 20, "sans", True, OLIVE, 1.35, 6)
 e.ex("A2", "Completar", "tartufo", "tartufo = la trufa",
@@ -88,7 +88,7 @@ e.ex("B1", "Completar", "pittrice", "pittrice = la pintora",
      "Artemisia è una grande ___ del Seicento.", instr="Completa", size=20, gap=8)
 e.ex("A2", "Completar", "formaggio", "formaggio = el queso",
      "Il Bagòss è un ___ di montagna.", instr="Completa", size=20, gap=8)
-e.head("C · IL PASSATO PROSSIMO", 25)
+e.head("C　IL PASSATO PROSSIMO", 25)
 e.expl("Completa en passato prossimo, con el auxiliar avere o essere.")
 e.ex("B1", "Completar", "è iniziata", "iniziare lleva essere, femenino: è iniziata",
      "La fiera ___ (iniziare) il 10 ottobre.", instr="Completa", size=20, gap=8)
@@ -98,7 +98,7 @@ e.ex("B1", "Completar", "è andato", "andare lleva essere: è andato",
      "Marco ___ (andare) alla sagra sabato.", instr="Completa", size=20, gap=8)
 e.ex("B1", "Completar", "hanno aperto", "aprire lleva avere: hanno aperto",
      "Le sagre ___ (aprire) il fine settimana.", instr="Completa", size=20, gap=8)
-e.head("D · COSTRUISCI LE FRASI", 25)
+e.head("D　COSTRUISCI LE FRASI", 25)
 e.expl("Forma una frase correcta con estas palabras.")
 e.ex("B1", "Formar frases", "La fiera è iniziata il 10 ottobre.", "sujeto + essere + participio",
      "la fiera / è iniziata / il 10 ottobre → ___", instr="Forma la frase", size=20, gap=8)
@@ -114,11 +114,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · SPORT (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("SPORT · DEPORTE", "La Lucerna", "LIVELLO B1 · La Serie A e l'Europa · La Serie A y Europa")
+p.band("SPORT　DEPORTE", "La Lucerna", "LIVELLO B1　La Serie A e l'Europa　La Serie A y Europa")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1080, tag="P4-main")
-f.title("L'ottava giornata: Napoli–Roma e Inter–Fiorentina", 37)
-f.byline("Dalla redazione sportiva de La Lucerna · Livello di lettura: B1")
+f.title("L'ottava giornata: Napoli–Roma e Inter–Fiorentina", 32)
+f.byline("Dalla redazione sportiva de La Lucerna　Livello di lettura: B1")
 f.para("È una settimana di grande calcio. Mercoledì sera l'Inter gioca in Champions League a San Siro contro lo Shakhtar Donetsk (21:00), e giovedì l'Atalanta è in trasferta ad Amsterdam contro l'Ajax, in Conference League. Attenzione: queste partite si giocano dopo la chiusura del giornale — qui sono una presentazione, senza risultati.")
 f.para("Poi arriva l'ottava giornata di Serie A, da venerdì 23 a domenica 25 ottobre. La partita più attesa è sabato 24 ottobre alle 18:00: Napoli–Roma, la grande sfida tra il Sud e la capitale.")
 f.para("Domenica 25 ottobre, alle 12:30, l'Inter incontra la Fiorentina a San Siro. È una partita speciale: è la prima della domenica con l'ora solare. Chi guarda la partita a pranzo ha già dormito un'ora in più.")
@@ -128,15 +128,15 @@ f.end_report()
 
 # col 3: data box + e tu? (sequential)
 bx = COLX[3]
-p.rect(bx, 200, CW, 436, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, 436, fill=BOX)
 p.text(bx + 22, 240, "LE PARTITE DA SEGNARE", 23, "sans", True, OLIVE)
 p.para(bx + 22, 282, "Mercoledì 21 ottobre, 21:00 · Inter – Shakhtar Donetsk (Champions League, San Siro) — si gioca dopo la chiusura del giornale. Giovedì 22 ottobre · Ajax – Atalanta (Conference League, Amsterdam) — presentazione. Sabato 24 ottobre, 18:00 · Napoli – Roma (Serie A, 8ª giornata). Domenica 25 ottobre, 12:30 · Inter – Fiorentina (Serie A) — la prima partita con l'ora solare.", 21.5, "serif", False, INK, CW - 44, 1.42)
 ey3 = 662
 etvous = "E tu? Quale partita guardi questo fine settimana? Scrivi due frasi in italiano."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Qué partido ves este fin de semana? Escribe dos frases en italiano y envíalas.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(bx, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(bx + 22, yy3 + 26, "E TU? · ¿Y TÚ?", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "E TU?　¿Y TÚ?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "¿Qué partido ves este fin de semana? Escribe dos frases en italiano y envíalas.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -144,7 +144,7 @@ print("P4 col3 ends", ey3 + eh)
 
 # ---- fixture table (full width) ----
 ty = 1140
-p.text(MX, ty, "LA SETTIMANA DEL CALCIO · LA SEMANA DEL FÚTBOL", 26, "sans", True, OLIVE)
+p.text(MX, ty, "LA SETTIMANA DEL CALCIO　LA SEMANA DEL FÚTBOL", 26, "sans", True, OLIVE)
 rows = [
     ("Mer 21.10", "21:00 · Champions", "Inter – Shakhtar Donetsk (San Siro) — partita della sera, dopo la chiusura del giornale"),
     ("Gio 22.10", "Conference League", "Ajax – Atalanta (Amsterdam) — presentazione, senza risultato"),
@@ -155,7 +155,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -164,11 +164,11 @@ p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 # ---- P4 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · EJERCICIOS", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · Ejercicios mezclados por nivel, busca por el número", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · COMPRENSIONE", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　EJERCICIOS", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　Ejercicios mezclados por nivel, busca por el número", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P4-ex")
+e.head("A　COMPRENSIONE", 25)
 e.expl("Lee el artículo de la página 4 y elige la respuesta correcta.")
 e.ex("B1", "Opción múltiple", "B", "el Inter juega el miércoles contra el Shakhtar Donetsk",
      "L'Inter gioca mercoledì contro... A. l'Ajax · B. lo Shakhtar Donetsk · C. la Roma", size=20, gap=8)
@@ -180,7 +180,7 @@ e.ex("B1", "Opción múltiple", "C", "el Atalanta juega el jueves fuera de casa,
      "L'Atalanta gioca giovedì... A. a San Siro · B. a Roma · C. ad Amsterdam", size=20, gap=8)
 e.ex("B1", "Opción múltiple", "B", "previas, sin resultados",
      "Le partite di mercoledì e giovedì, in questo giornale, sono... A. risultati finali · B. presentazioni senza risultati · C. cancellate", size=20, gap=8)
-e.head("B · LE PAROLE", 25)
+e.head("B　LE PAROLE", 25)
 e.match_set("B1", "Emparejar",
             ["la giornata", "la sfida", "la trasferta", "San Siro"],
             ["lo stadio dell'Inter e del Milan, a Milano",
@@ -190,7 +190,7 @@ e.match_set("B1", "Emparejar",
             ["c", "b", "d", "a"],
             ["giornata = una jornada del campeonato: c", "sfida = el duelo entre dos equipos fuertes: b", "trasferta = el partido fuera de casa: d", "San Siro = el estadio de Milán: a"],
             instr="Empareja")
-e.head("C · I COMPARATIVI", 25)
+e.head("C　I COMPARATIVI", 25)
 e.expl("Completa con el comparativo de la palabra entre paréntesis (datos: la tabla de partidos).")
 e.ex("B1", "Completar", "più tardi", "las 18:00 son más tarde que las 12:30: più tardi",
      "Napoli–Roma comincia ___ di Inter–Fiorentina. (tardi)", instr="Completa", size=20, gap=8)
@@ -200,7 +200,7 @@ e.ex("B1", "Completar", "più bella", "più + bella, opinión subjetiva",
      "Per i tifosi, Napoli–Roma è la partita ___ del weekend. (bella)", instr="Completa", size=20, gap=8)
 e.ex("B2", "Transformación", "meglio", "el comparativo de bene es irregular: meglio",
      "L'Inter gioca bene. → L'Inter gioca ___ (bene).", instr="Completa", size=20, gap=8)
-e.head("D · IL PASSATO DELLO SPORT", 25)
+e.head("D　IL PASSATO DELLO SPORT", 25)
 e.expl("Completa en passato prossimo.")
 e.ex("B1", "Completar", "ha vinto", "vincere: ha vinto",
      "La mia squadra ___ (vincere) la partita di ieri.", instr="Completa", size=20, gap=8)

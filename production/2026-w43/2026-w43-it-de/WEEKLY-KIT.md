@@ -168,8 +168,8 @@ the exercise registry accumulates in order.
 
 - `svg/` — 8 page SVGs (p1-prima … p8-valutazione)
 - `cards/` — 8 page PNGs (1950 px wide)
-- `La-Lucerna-VOL1-DE.pdf` — print PDF, 9,081,683 bytes
-- `La-Lucerna-VOL1-DE-web.pdf` — web PDF, 3,644,645 bytes (< 10 MB, Discord-ready)
+- `The-Lucerna-VOL1-it-de.pdf` — print PDF (D5 rebuild), 7992185 bytes, sha256 `41e1b19bab758e8b9d975e162a42c1b80da0412521e97c18b9653db33444d92a`
+- `2026-w43-it-de.web.pdf` — web PDF (D5 rebuild, tools/webpdf.py shipped file), 1139228 bytes, sha256 `00be9ed120daf735072b5ca5384a7d9987d97a241830f471fa3c00eca6764795` (< 7 MB; old 3,644,645 B value was the render.py-era web PDF)
 - `WEEKLY-KIT.md` — this file
 
 ---
@@ -236,3 +236,17 @@ required; no re-render.** The builder's claims held at every point checked.
 
 Verdict: **FINAL — passes the SOP gate (one complete independent pass, zero
 problems).**
+
+---
+
+## D5 REBUILD (2026-11-13)
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader de --week 2026-w43`，`_D5_READER = "latin"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（8506029 B）；修前普查 D5 拉丁 487 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:51` P1 盒 `LA SETTIMANA IN CIFRE　ZAHLEN` tsize 23→21（400.0，余 4.5px）; `content12.py:185` P2 盒 `LA FRASE PER RICORDARE　MERKSATZ` tsize 19→18（388.0，余 16.5px）; `content7.py:84` P7 `LA PAROLA　WORT DER WOCHE` p.text 23→22（384.8，余 15.7px）。
+- P8：行数 205→205，距页脚线余量 57.4 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-de.pdf` `41e1b19bab758e8b9d975e162a42c1b80da0412521e97c18b9653db33444d92a`（7992185 B；修前 `7c9b56c87a753189777902370e1f7e4be1708329e2a9479a35f492898298cce0`，8506029 B）；网 PDF（tools/webpdf.py）`00be9ed120daf735072b5ca5384a7d9987d97a241830f471fa3c00eca6764795`（1139228 B；已发版 `418b1f185fc49e0d0ad90ff7f69aedfcd5843b998e569d6635243bcd848b6b7f`，1255301 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（56023 B，SHA `6004269de5fad3e8eb2f654e7318f873d119ff9e72475dba62d472445bccb526`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（26 titles、237 body lines）/ edge 0/0 / creambox PASS 0 defects（n=400）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 380.5 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-de/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-de.md`。gate 2 复核重跑：原 run2 已 PASS，二任照令重跑，结果一致。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

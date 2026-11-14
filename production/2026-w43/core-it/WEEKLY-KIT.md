@@ -100,8 +100,8 @@ cd ~/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-rep
 
 - `svg/` 8 张（p1-prima / p2-vita / p3-cultura / p4-sport / p5-giovani / p6-approfondimento / p7-lingua / p8-valutazione）
 - `cards/` 8 张 PNG（1950×2700）
-- `La-Lucerna-VOL1.pdf`（印刷版，22.9 MB）
-- `La-Lucerna-VOL1-web.pdf`（Discord 版，3.48 MB，< 10 MB 上限）
+- `The-Lucerna-VOL1-it-zh-cn.pdf`（印刷版，D5 重建，9325711 B，sha256 `d8e6db8696db0ed1d9a19a761507588465fd13231d1c197145aa68914fc63156`）
+- `2026-w43-it-zh-cn.web.pdf`（网页版，D5 重建，tools/webpdf.py 发运件，1474552 B，sha256 `0c918ba5dd1e19f4b2c4af703b463649871eae1bf6e9c0f60131d4f603c89a0d`，< 7 MB；旧 3.48 MB 值为 render.py 时代网页 PDF）
 - 本 KIT
 - 构建代码：`hidden_files/weekly-report-it-build/`（bslib4.py / svglib.py / content12/34/56/7/8.py / run.py / render.py / assets/）
 
@@ -176,3 +176,17 @@ cd ~/workspace/goals/lucernaread-social-media-operations/hidden_files/weekly-rep
 - **产物尺寸**：印刷 PDF 22,914,252 B；网页版 PDF **3,460,204 B**（< 10 MB），SHA-256 `5fe1bf28b351bd0aeb8fab4ebfef2b897ff223698f3cfb8a2321bcbe711d7a52`（旧版为 3,460,551 B / `ed7228c5…`）。
 - **仓库**：LucernaRead/weekly `issues/2026-w43/2026-w43-it-zh-cn/` 已换新 PDF 并重钉 pdfBytes/pdfSha256，md 正文附更正说明；提交 4037c90（元数据）+ 99b619e（PDF），远端 main 已确认 = 99b619e；`node lint.mjs --require-pdf` 绿（36 版）。
 - **状态**：本补丁版为当前定稿。Discord 投递按用户指令暂停，本更正不入队、不发帖——仅仓库更正。
+
+---
+
+## 15. D5 重建记录（2026-11-13）
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader zh-cn --week 2026-w43`，`_D5_READER = "cjk"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（21422077 B）；修前普查 D5 拉丁 347 / 西里尔 0 / 弯引号 CJK 3。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 `UNA GRANDE PITTRICE A FIRENZE` 25→22（470.9→414.4，余 8.1px）; `content12.py:48` P1 盒 `LA SETTIMANA IN CIFRE　数字看本周` tsize 23→20（447.1→388.8，余 15.7px）。
+- P8：行数 199→199，距页脚线余量 57.4 px；p8 compare CLEAN（keydiff []）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-zh-cn.pdf` `d8e6db8696db0ed1d9a19a761507588465fd13231d1c197145aa68914fc63156`（9325711 B；修前 `73f91e8973ec101059a56c8e8756446b50bf9bff03a9df4bff7d94189b11f333`，21422077 B）；网 PDF（tools/webpdf.py）`0c918ba5dd1e19f4b2c4af703b463649871eae1bf6e9c0f60131d4f603c89a0d`（1474552 B；已发版 `9247160a0440e713e4963bc3ee2a3a7a5768759982ed9483538b771e9c670a7c`，1844301 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（52417 B，SHA `30cdd55f7049fcef09ddb6657e35b6db834fe8cee6cdc00a8c20674357dddf78`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（28 titles、325 body lines）/ edge 0/0 / creambox PASS 0 defects（n=384）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 415.2 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-zh-cn/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-zh-cn.md`。gate 2 补跑：原 run2 循环 gate 2 BLOCKED（归档事故，非内容缺陷），二任重跑后 PASS。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

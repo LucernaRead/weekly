@@ -284,7 +284,21 @@ taken from the builder's claims.
 ## 11. Deliverables
 
 - `svg/` ×8 · `cards/` ×8 (1950×2700)
-- Print PDF `Lucerna-VOL1-PT.pdf`: **9,080,307 bytes**,
-  sha256 521939bccba1e33e9daf78a26ac51c9648646e2db2ff3068192fe875d33d6425
-- Web PDF `Lucerna-VOL1-PT-web.pdf`: **3,635,785 bytes** (< 10 MB),
-  sha256 5bd79e739df2a12955ccf0c5fdcb1b0c52e20c423ef01201eeafe729b167d93d
+- Print PDF `The-Lucerna-VOL1-it-pt.pdf`: **7993706 bytes** (D5 rebuild),
+  sha256 3545bc095caeac83cdb17ea6a1ce8c2fcd40a2166469caf98490c98bbd5ae303
+- Web PDF `2026-w43-it-pt.web.pdf`: **1140731 bytes** (D5 rebuild, tools/webpdf.py shipped file, < 7 MB),
+  sha256 97d324d24fdec553ca2701bdd5c4fd0186498caf90b6a87da074e7292fe4bf79 (old 3,635,785 B value was the render.py-era web PDF)
+
+---
+
+## 13. D5 rebuild (2026-11-13)
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader pt --week 2026-w43`，`_D5_READER = "latin"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（8679477 B）；修前普查 D5 拉丁 483 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:48` P1 盒 `LA SETTIMANA IN CIFRE · EM NÚMEROS` tsize 20→18（393.9，余 10.6px）; `content12.py:91` P1 `IN QUESTO NUMERO · SUMÁRIO` p.text 24→22（381.7，余 18.8px；23pt 仅余 1.4px 太薄，不取）; `content7.py:73` P7 `ERRORI TIPICI · CLÍNICA DE ERROS` p.text 23→21（394.9，余 5.6px）; `content7.py:84` P7 `LA PAROLA · A PALAVRA DA SEMANA` p.text 23→19（378.4，余 22.1px；20pt 仅余 2.2px 太薄，不取）。
+- P8：行数 200→200，距页脚线余量 56.4 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-pt.pdf` `3545bc095caeac83cdb17ea6a1ce8c2fcd40a2166469caf98490c98bbd5ae303`（7993706 B；修前 `8cb1fdebf7829e02ad880ef14471addd8e5730256ac97ff5680560ea406a374d`，8679477 B）；网 PDF（tools/webpdf.py）`97d324d24fdec553ca2701bdd5c4fd0186498caf90b6a87da074e7292fe4bf79`（1140731 B；已发版 `64d9128badb107ceaba09ee7e3b6ed04d7b9296298e3ccb85cb625919c4a3da3`，1252808 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（55095 B，SHA `78af23786f12d4fd090fd47b7495c4cc5b1dab21a294cf64b0a54e9bb4454fef`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（18 titles、231 body lines）/ edge 0/0 / creambox PASS 0 defects（n=395）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 197.3 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-pt/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-pt.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

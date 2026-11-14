@@ -16,8 +16,8 @@
 ## §2 交付物与实测针脚
 
 - svg ×8、cards ×8（1950×2700）、印刷 PDF、网页 PDF，位于 files/weekly-report-it-ja/。
-- 网页 PDF：**3,546,696 B**，sha256 `032d894773dec443674056d59efde36c8cce6b87ae61c877057493e798ac65f3`（< 10 MB）。
-- 印刷 PDF：**22,120,468 B**，sha256 `ab08dd29ff8cefa45bf1624e6288d2f6f1003c1803acafcfad9b412d6f50b5ba`。
+- 网页 PDF：**1590179 B**，sha256 `7c6b701e811b48f761398884aa664246a118b68b3d778e561d1bfa9a94690450`（D5 重建，tools/webpdf.py 发运件，< 7 MB；旧 3,546,696 B 值为 render.py 时代网页 PDF）。
+- 印刷 PDF：**13919631 B**，sha256 `dcf2cd70ee2ba57b86aa75c439ecff0ad2add1cff3a091611408a5d1776a2386`（D5 重建）。
 
 ## §3 JA 列家具（照 EN×JA KIT §3 定式，目标名 = イタリア語）
 
@@ -98,4 +98,18 @@
 - **gloss/P7**：gloss 词条 P2–P6 = 5/5/4/4/5 同数同序、P1 expl 4 条；8 金句逐字回溯原文（P1/P2/P3/P4/P5/P6 原文逐条命中）、(Pagina N) 标签计数双版全同 {1:2, 2:2, 3:1, 4:1, 5:1, 6:1}。
 - **日历（Europe/Rome 实测）**：10-10 六、10-19 一、10-20 二、10-21 三、10-22 四、10-23 五、10-24 六、10-25 日（ora solare）、10-28 三、10-31 六、11-01 日、11-02 一、12-06 日、2027-03-28 日——与纸面全合。
 - **残留**：西里尔 0、韩字 0；他列家具 0（«Pagina » 12 处全为冻结意语互见标签，«van 8» = 0）；禁用术语纸面 paper/KIT/operative/bridge = 0；无假名汉字串逐条裁定全为日语固有表记（国の予算案・全国的・2点・難点・未来形等），中文讲解残留 = 0；讲解无国际政治新增。
-- **最终针脚（磁盘实测，与 §2 登记逐字全合）**：网页 PDF 3,546,696 B / sha256 032d894773dec443674056d59efde36c8cce6b87ae61c877057493e798ac65f3；印刷 PDF 22,120,468 B / sha256 ab08dd29ff8cefa45bf1624e6288d2f6f1003c1803acafcfad9b412d6f50b5ba。未入仓、未发 Discord。
+- **最终针脚（D5 重建 2026-11-13，磁盘实测，与 §2 登记逐字全合）**：网页 PDF 1590179 B / sha256 7c6b701e811b48f761398884aa664246a118b68b3d778e561d1bfa9a94690450；印刷 PDF 13919631 B / sha256 dcf2cd70ee2ba57b86aa75c439ecff0ad2add1cff3a091611408a5d1776a2386。未入仓、未发 Discord。
+
+---
+
+## §11 D5 重建记录（2026-11-13）
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader ja --week 2026-w43`，`_D5_READER = "cjk"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（21087394 B）；修前普查 D5 拉丁 341 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:48` P1 盒 `LA SETTIMANA IN CIFRE · 数字で今週` tsize 23→20（383.7，余 20.8px；21pt 仅余 1.5px 太薄，不取）; `content12.py:70` P1 Trends 行 `火曜の検索　Cosa cerca l'Italia (Google Trends)` p.text 19→18（387.9，距盒右缘 12.6px）; `content12.py:91` P1 `IN QUESTO NUMERO · 今号の内容` p.text 24→23（391.7，余 8.8px）; `content12.py:181` P2 盒 `LA FRASE PER RICORDARE · 覚え方` tsize 23→22（399.8，余 4.7px）。
+- P8：行数 209→209，距页脚线余量 57.4 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-ja.pdf` `dcf2cd70ee2ba57b86aa75c439ecff0ad2add1cff3a091611408a5d1776a2386`（13919631 B；修前 `b602ca1c7d5b67d932062607cc6241f300e51c662a6af5cec9a75104556bde30`，21087394 B）；网 PDF（tools/webpdf.py）`7c6b701e811b48f761398884aa664246a118b68b3d778e561d1bfa9a94690450`（1590179 B；已发版 `53a34b8aa9cc337763e7c51f3cbdf7db1eeb2a0eab370f872d775a0afa0c13ae`，1912174 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（56222 B，SHA `8680b796df4a68bc428f2c8d87f68fff4a8d3e61315fb71b2d1a0888b54ed34c`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（28 titles、331 body lines）/ edge 0/0 / creambox PASS 0 defects（n=395）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 306.8 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-ja/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-ja.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

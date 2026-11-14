@@ -78,8 +78,8 @@
 
 ## §11 交付物与针脚（实测）
 - files/weekly-report-it-ru/svg/ ×8；cards/ ×8
-- 印刷 PDF：La-Lucerna-VOL1-RU.pdf — 9,003,540 B — sha256 6f8413f734d5c5f5d2847d021a2cdd688b4b5f347519d9547ed091ba45a2c1b7
-- 网页 PDF：La-Lucerna-VOL1-RU-web.pdf — 3,636,241 B（< 10 MB ✓）— sha256 09f3dd18412d6884ad5a96c01591e17de8751c53a782b467d97d2b25826bdcf2
+- 印刷 PDF：The-Lucerna-VOL1-it-ru.pdf — 8304953 B（D5 重建）— sha256 1757db6f8df4e172141118fd0a0acd22cb37436a37a66f58a4db240e41197f17
+- 网页 PDF：2026-w43-it-ru.web.pdf — 1380713 B（D5 重建，tools/webpdf.py 发运件，< 7 MB ✓）— sha256 45e2d2aff9bbc9b6914e70eeaa12305b9a73949dff2d1113c62da52b9fe4bb1c（旧 3,636,241 B 值为 render.py 时代网页 PDF）
 - build 目录：hidden_files/weekly-report-it-ru-build/（scratch/ 变换脚本在内，见 §4 披露）
 - 未入仓、未发 Discord（按当前投递暂停与分工）。
 
@@ -92,3 +92,17 @@
 - 家具逐页核对与 §3 定式全合（徽章/页脚/«Страница N из 8»/«Пояснение — »/«— СТРАНИЦА N —»/P7 标签序列 (1,1,2,2,3,4,5,6)/双语章节头）。P7 引文逐字同核心、标签页码全对。日历对照真实 2026 全合（10-21 Wed、10-24 Sat、10-25 Sun、10-28 Wed、11-01 Sun）。
 - 残留全扫：CJK 原始字符 = 0；P7 «Pagina» = 0；禁用术语 paper/KIT/operative code = 0（build scratch/transform.py 的改名搜索模式为 §4 已披露例外，实测仅此一处）；expl() 改名完成。图片 <image> 元素与署名行逐页与核心字节相同（4 图 4 署名对应）。
 - 终针脚（实测，与 §11 一致）：网页版 3,636,241 B / 09f3dd18412d6884ad5a96c01591e17de8751c53a782b467d97d2b25826bdcf2；印刷版 9,003,540 B / 6f8413f734d5c5f5d2847d021a2cdd688b4b5f347519d9547ed091ba45a2c1b7。
+
+---
+
+## §13 D5 重建记录（2026-11-13）
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader ru --week 2026-w43`，`_D5_READER = "ru"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（8582759 B）；修前普查 D5 拉丁 336 / 西里尔 247 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content12.py:86` P1 Trends 脚注 `Google Trends, вторник: цифры приблизительные.` p.text 16.5→15.5（393.5，余 7.0px）。
+- P8：行数 229→229，距页脚线余量 40.7 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-ru.pdf` `1757db6f8df4e172141118fd0a0acd22cb37436a37a66f58a4db240e41197f17`（8304953 B；修前 `95f518e54708b0e8a7018a6c07eb49a953d7c4fd333f24e61de672205c5f43e0`，8582759 B）；网 PDF（tools/webpdf.py）`45e2d2aff9bbc9b6914e70eeaa12305b9a73949dff2d1113c62da52b9fe4bb1c`（1380713 B；已发版 `f825279b9b0ced3c1348332f4e3c4098e36a9a4474a5b8ec8ff940b506470073`，1284722 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（65134 B，SHA `bd2a48b86a028b52c19558370ec8a98d3e6006e9c916edfadeabd03375eab728`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（26 titles、293 body lines）/ edge 0/0 / creambox PASS 0 defects（n=403）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 354.2 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-ru/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-ru.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

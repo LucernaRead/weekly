@@ -58,8 +58,8 @@ English runs wider than Chinese, so a handful of explanation-layer strings were 
 
 - `svg/` — 8 page SVGs (p1-prima … p8-valutazione)
 - `cards/` — 8 PNG cards, 1950×2700
-- `La-Lucerna-VOL1-EN.pdf` — print PDF, 9,078,736 B, 8 pages (size after the proofread geometry fixes below)
-- `La-Lucerna-VOL1-EN-web.pdf` — web PDF, 3,630,225 B (**< 10 MB** ✓)
+- `The-Lucerna-VOL1-it-en.pdf` — print PDF (D5 rebuild), 7995110 B, 8 pages, sha256 `5174f985235ada26acfddb6a64a0f5eabcae389a71696a7bbba7bda82ef796dd`
+- `2026-w43-it-en.web.pdf` — web PDF (D5 rebuild, tools/webpdf.py shipped file), 1139183 B, sha256 `0c49b7b5afd976de3792c069e2ca1eb4bb2033665e591fe8d2f6e32ccf669c6e` (**< 7 MB** ✓; old 3,630,225 B value was the render.py-era web PDF)
 - Build sources: `hidden_files/weekly-report-it-en-build/` (copy of the core build; original untouched)
 
 Not posted to Discord — delivery is the parent agent's call.
@@ -92,3 +92,17 @@ During this proofread the frozen core's own files were re-rendered by a parallel
 ### Second pass
 
 After the two fixes, the whole issue was re-rendered and a complete second pass run (full node diff, registry diff, CJK scan, occlusion sweep, containment check, geometry measurements, full views of the changed pages and crops of both fixed areas): **zero problems**. The edition is final under the SOP gate.
+
+---
+
+## D5 rebuild (2026-11-13)
+
+D5 + §1.1 合并重建记录（2026-11-13；一任 builder 至 run2 循环，二任 builder 接手核实 + gate 2 补跑；不 commit、不 push；独立重校另派他人）。
+
+- 装机：`apply_variant.py --patch-core it --week 2026-w43 --i-understand-this-writes-production`（core-it 落盘 `_D5_READER = "latin"`）；本版 `apply_variant.py --svglib <版>/svglib.py --target it --reader en --week 2026-w43`，`_D5_READER = "latin"`；路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（U+201C/U+201D/U+2019 → serif）保留。
+- 基线：run TOTAL 150、0 警告；SVG 8/8 与 fanout 逐字节相同；印 PDF 与 fanout SHA 一致（8526959 B）；修前普查 D5 拉丁 490 / 西里尔 0 / 弯引号 CJK 0。
+- 二次修复（只动字号，文字零改动；盒修法行号指 tsize 行，D19）：`content34.py:22` P3 头 25→22; `content12.py:51` P1 盒 `LA SETTIMANA IN CIFRE　Numbers` tsize 23→21（397.2，余 7.3px）; `content12.py:94` P1 `IN QUESTO NUMERO　CONTENTS` p.text 24→21（385.3，余 15.2px）; `content7.py:73` P7 `ERRORI TIPICI　COMMON ERRORS` p.text 23→21（394.9，余 5.6px）; `content7.py:84` P7 `LA PAROLA　WORD OF THE WEEK` p.text 23→21（387.1，余 13.4px）。
+- P8：行数 201→201，距页脚线余量 53.1 px；p8 compare CLEAN（keydiff [137, 138]）。
+- 新交付物：印 PDF `The-Lucerna-VOL1-it-en.pdf` `5174f985235ada26acfddb6a64a0f5eabcae389a71696a7bbba7bda82ef796dd`（7995110 B；修前 `1ffd541d5167596bd35b7b84ef4725be2e49bfcd07cf9d4c16301b76f6eed01b`，8526959 B）；网 PDF（tools/webpdf.py）`0c49b7b5afd976de3792c069e2ca1eb4bb2033665e591fe8d2f6e32ccf669c6e`（1139183 B；已发版 `3becceabe661d26155b5726656691ffe869761900b0dc4c04e7c4c8efe5a1add`，1245514 B）；text.md 与 fanout `.text.md.new` BYTE-IDENTICAL（55327 B，SHA `ad3417cd7065e604f3548d4e043399c601e281c224755d9f2245d6d4b52390ba`），W43 it issues/ 内无已发 `.text.md`，closer 落仓时新建补入。
+- 门禁 run2 ALL-GREEN（18 门：run TOTAL 150 / head_check 0 / d5 census 0/0/0 / render RC=0 / webpdf RC=0 / occlusion 0 / p8 extract 150/150 / p8 compare CLEAN / freeze baseline 8/8 / freeze diff 新增 CJK TOTAL 0 / spill 0 / boxtitle 0 DEFECT（20 titles、245 body lines）/ edge 0/0 / creambox PASS 0 defects（n=405）/ 文字层 print=web 多重集差 0 / census_quotes 0 defective / 家族 gates.py N/A / 刊头间距 367.5 px PASS）。日志：`hidden_files/d5-redo/scratch-2026-w43-it/logs/2026-w43-it-en/GATES-SUMMARY.txt`；D5 报告：`production/notes/2026-w43/g-it/scratch-d5-rebuild-it/D5-REPORT-2026-w43-it-en.md`。
+- 本 KIT 交付物行已更新为以上 D5 新值；旧针脚为旧配方值，已过期，以上实测发运值为准。

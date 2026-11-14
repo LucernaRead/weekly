@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-it-vol1/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · VALUTAZIONE E RISPOSTE =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("VALUTAZIONE E RISPOSTE · 练习与答案", "La Lucerna", "第 8 版 · La grande prova della settimana + tutte le risposte")
+p.band("VALUTAZIONE E RISPOSTE　练习与答案", "La Lucerna", "第8版　La grande prova della settimana + tutte le risposte")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "B", "tornare indietro = 往回拨",
      "Domenica l'orologio torna ___ di un'ora. (A. avanti · B. indietro)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "换时之夜有 25 小时",
@@ -29,7 +29,7 @@ f.ex("B1", "完形单选", "A", "卢卡 10 月 28 日开幕：apre",
      "Lucca Comics ___ il 28 ottobre. (A. apre · B. chiude)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "B", "10 月 28 日是周三",
      "Il voto sulla manovra è atteso per ___ 28 ottobre. (A. lunedì · B. mercoledì)", size=15.5, gap=1)
-f.head("B · DOMANDE GENERALI", 22, OLIVE, 5)
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
 f.ex("A2", "单选", "B", "03:00 变回 02:00",
      "Il cambio dell'ora: alle 03:00 → ... A. 04:00 · B. 02:00 · C. 01:00", size=15.5, gap=1)
 f.ex("A2", "单选", "B", "«meteo oggi» 是热搜第一",
@@ -46,7 +46,7 @@ f.ex("B2", "单选", "B", "DPB 数字是预测",
      "Le cifre del DPB sono... A. risultati · B. previsioni · C. voti", size=15.5, gap=1)
 f.ex("B1", "单选", "B", "诸圣节今年是 11 月 1 日周日",
      "Ognissanti, quest'anno, è... A. lunedì 2 novembre · B. domenica 1° novembre · C. sabato 31 ottobre", size=15.5, gap=1)
-f.head("C · LEGGI E RISPONDI", 22, OLIVE, 5)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
 f.para("Giulia vive a Lucca: mercoledì 28 ottobre va a Lucca Comics con il suo cosplay. Paolo vive a Roma: domenica 25 va all'Auditorium per l'ultimo giorno della Festa del Cinema. Sabato, Giulia e Paolo dormono un'ora in più: domenica comincia l'ora solare.", 16.5, lh=1.3, split=False)
 f.ex("A2", "单选", "B", "Giulia 去卢卡漫画节",
      "Chi va a Lucca Comics? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "单选", "B", "cosplay 是 Giulia 的",
      "Il cosplay è di... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
 f.ex("A2", "单选", "A", "标题概括两座城、两个节",
      "Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
-f.head("D · COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
 f.ex("A2", "造句", "Domenica dormiamo un'ora in più.", "时间词在前",
      "domenica / dormiamo / un'ora in più → ___", instr="造句", size=15.5, gap=1)
 f.ex("B1", "造句", "La fiera è iniziata il 10 ottobre.", "主语 + essere + 分词 + 日期",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "A che ora comincia la partita?", "疑问词组在句首",
      "a che ora / comincia / la partita / ? → ___", instr="造句", size=15.5, gap=1)
 f.ex("B1", "造句", "Il voto slitta a mercoledì.", "主语 + 动词 + 介词短语",
      "il voto / slitta / a mercoledì → ___", instr="造句", size=15.5, gap=1)
-f.head("E · TRADUCI", 22, OLIVE, 5)
+f.head("E　TRADUCI", 22, OLIVE, 5)
 f.ex("A2", "翻译", "周日我们多睡一个小时。", "对照原文",
      "Domenica dormiamo un'ora in più. → ___", instr="翻译", size=15.5, gap=1)
 f.ex("B1", "翻译", "展览一直开放到四月。", "resta aperta = 持续开放",
@@ -74,7 +74,7 @@ f.ex("B1", "翻译", "Sabato alle 18:00 si gioca Napoli–Roma.", "si gioca = �
      "周六 18 点，那不勒斯对罗马。→ ___", instr="翻译", size=15.5, gap=1)
 f.ex("B2", "翻译", "Ogni cifra deve avere una fonte.", "dovere = 必须",
      "每个数字都必须有来源。→ ___", instr="翻译", size=15.5, gap=1)
-f.head("F · LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
 f.match_set("B2", "词汇配对",
             ["la manovra", "il rinvio", "il miliardo", "la previsione"],
             ["un numero che descrive il futuro",
@@ -84,7 +84,7 @@ f.match_set("B2", "词汇配对",
             ["b", "c", "d", "a"],
             ["manovra=预算法案 b", "rinvio=迟于预定到达 c", "miliardo=十亿 d", "previsione=描述未来的数字 a"],
             instr="把词和释义配对")
-f.head("G · DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
 f.ex("B1", "完形单选", "B", "tartufo = 松露",
      "— Cerco il ___ bianco famoso. (A. biglietto · B. tartufo)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "A", "castagne arrosto 烤栗子",
@@ -95,7 +95,7 @@ f.ex("B1", "完形单选", "A", "pagare con carta 刷卡",
      "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
 f.ex("B1", "完形单选", "B", "美食节持续到周日",
      "— La sagra è in piazza fino a ___. (A. aprile · B. domenica)", size=15.5, gap=1)
-f.head("H · SCRIVI TU", 22, OLIVE, 5)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
 MODELO = ("Domenica 25 ottobre mi sveglio tardi: nella notte l'orologio è tornato indietro e ho dormito un'ora in più. "
           "Sabato sera ho cambiato gli orologi di casa: quello del forno e quello vecchio in cucina. "
           "Faccio colazione con calma e vado al mercato con mia sorella. A pranzo guardiamo Inter–Fiorentina: "
@@ -110,13 +110,13 @@ f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RISPOSTE =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "RISPOSTE · 参考答案 — 按版面分页排列，找到题号即可", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "每题附一句中文简析 · 带 ✓ 的为范文题", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "RISPOSTE　参考答案 — 按版面分页排列，找到题号即可", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "每题附一句中文简析　带 ✓ 的为范文题", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
