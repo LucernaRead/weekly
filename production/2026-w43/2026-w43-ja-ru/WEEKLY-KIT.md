@@ -67,3 +67,21 @@
 - Print PDF `Lucerna-VOL1-RU.pdf`: **37,928,127 B**, sha256 `7ef477c7e8dd063ea060d92d52c3ad2050259f03e8bfdaac3871cd0f38ecb19d`
 - Web PDF `Lucerna-VOL1-RU-web.pdf`: **3,231,054 B** (< 10 MB), sha256 `3ede999afccfbc4f007b766cfd6261095f21b0e0df4182936c4f71692c37480a`
 - Not inserted, not posted — insert (slug `2026-w43-ja-ru`) by the main line after independent proofread.
+
+---
+
+## D5 rebuild (2026-11-13)
+
+SOP §1.1 字体修复（D5）：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader；西里尔字母改走 Noto Sans；日文正文仍走 Noto Sans/Serif CJK JP。施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：`hidden_files/d5-redo/scratch-2026-w43-ja/logs/2026-w43-ja-ru/`；逐版报告：`production/notes/2026-w43/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w43-ja-ru.md`。
+
+**装机**：移植模板路线（D5-METHOD §1.7；安装器拒单已实测，见家族报告 §3–§4）。本版 svglib 取 `svglib-ja-d5.py`，`_D5_READER = "ru"`，与模板 diff 恰好 1 行（`_D5_READER` 一行）；旧 `_D5_READER == "ru"` 分支在位（拉丁 AND 西里尔 → Noto Sans）；`test_d5_routing.py` FAILURES: 0；旧分支路由探针 0 失败（拉丁→sans_noto、西里尔→sans_noto、fix2→news、CJK→sans）；fix2 + kinsoku 齐全。
+
+**基线**：run TOTAL 150；SVG 8/8 与 fanout 相同；印 PDF 37,533,904 B；pdfdiff vs 已发件 IDENTICAL 8/8；修前普查 D5 拉丁 214。
+
+**D26 纠正（2026-11-14）**：Q4 原裁定（以安装器输出为准、即 fix-xru 态）已被协调员 D26（2026-11-14 ~04:30，PLAN Amendments）取代——W43/W45/W46 的 ru-reader 版一律用安装器态旧分支；fix-xru 仅属 W47，不带入三周重修。证据：(1) 安装器正典代码 `tools/mechanism-w47/apply_variant.py` D5_BLOCK（L96–108）写明 `_D5_READER == "ru"` routes Latin AND Cyrillic to Noto Sans；(2) SOP §1.1 L64 字体表“俄语读者用 Noto Sans”，L67 Newsreader 无西里尔字形；(3) W43 已入仓并独立重校通过的 en-ru、es-ru 均为旧分支。Q4 所据前提是错的：安装器并不输出 fix-xru。本版 2026-11-14 按 D26 重装（模板 + `_D5_READER="ru"`）+ 重建 + 重门禁；原 fix-xru 态作废。
+
+**run1→run2 缺陷与修法**：D26 重建 run1 出 2 门新红，同根——P2 餅图注 credit「写真：Fumikas Sagisavas — CC0（Wikimedia Commons）」在 Noto Sans 下宽 424.8px、超 CW 422.5，贪心断行 + kinsoku 尾字下移致「Common / s）」两行（15c HOLD）；图注多 1 行致“あなたは？”框下移 20.15px，末行俄语墨盒顶 1553.8 触季节横线 y=1554（occlusion LINEX 1 旗）。修法（只动字号，未动文字）：仅该图注 credit 字号 15.5→15.0pt（实测 411.2px，复归一行；`bslib4.py` 的 `caption()` 加 `credit_size` 参数默认 15.5，`content12.py` 餅图注调用传 15.0；余 6 处 caption 调用不动）。其余 4 条长 credit（Bain/Hersom/Kratochvil 等）基线即 2 行、布局已计入，不动。run2 全量重建 + 全部门重跑。
+
+**门禁（run2）**：17 门 + D18 中 16 门 + D18 全绿——run 150 / head_check 0 / d5 census 0（noto_sans_elements=745）/ render RC=0 / webpdf RC=0（2,697,920 B）/ occlusion 0 / p8 extract 150/150 / p8 compare CLEAN（keydiff [137, 138]）/ freeze baseline 8/8 / freeze diff 新增 CJK 0（新增拉丁 strings TOTAL 89，run 拆分）/ spill 0 / boxtitle 0 DEFECT / edge 0 TOUCH 0 NEAR / creambox PASS 0 defects（P8 237→238 行，slack 49.4px）/ print=web 文字层差 0 / census_quotes 0 defective / 刊头间距 266.0px PASS。门 15b `verify_textmd.py` carryover FAIL 为工具-格式口径差（基线同跑亦 FAIL；D27 裁定：权威证据为 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT，0 UNEXPECTED）。
+
+**新交付物（run2 实测值）**：印 PDF `Lucerna-VOL1-RU.pdf` 37,658,315 B / SHA-256 `bfbd7b5aad026a8bb1c5ae44e79edeea9f22b9c982117336463a2bea34ecf278`；网 PDF `2026-w43-ja-ru.web.pdf` 2,697,920 B / SHA-256 `d6373f0c2316c5225794f5faae0ba833a48ac7d4c4ffad5bff6b513d5a625c53`（D5 前已发版 2,627,129 B，`29d162d735b1…`）；text.md **新建** 54,776 B / SHA-256 `d71da6d92f3e8c1689e40e2d41ec880deabcc156c5531257d75a7d14fb804f25`。（run1 fix-xru 态旧值作废：印 37,584,200 B / `fb3ad433…`、网 2,624,973 B / `f42fbcd4…`、text.md 54,775 B / `93be6414…`。）

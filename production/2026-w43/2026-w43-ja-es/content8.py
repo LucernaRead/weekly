@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · テストと答え =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("テストと答え · Test y respuestas", "Lucerna", "第 8 面 · 週の大きなテスト + 全ての答え")
+p.band("テストと答え　Test y respuestas", "Lucerna", "第8面　週の大きなテスト + 全ての答え")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.head("A　週のクロニクル", 21, OLIVE, 5)
 f.ex("B1", "Texto con huecos", "A", "El partido 1 es el sábado 24 de octubre",
      "日本シリーズの第1戦は、10月24日（___）です。(A. 土よう日 · B. 日よう日)", size=13.8, gap=0)
 f.ex("B1", "Texto con huecos", "A", "El último día de los Juegos Para Asiáticos también es el 24",
@@ -29,7 +29,7 @@ f.ex("B1", "Texto con huecos", "A", "La Semana de la Lectura empieza el martes 2
      "読書週間は、10月 ___ 日（火）からです。(A. 27 · B. 31)", size=13.8, gap=0)
 f.ex("B1", "Texto con huecos", "B", "Halloween es el sábado 31 de octubre",
      "ハロウィンは、10月 ___ 日（土）です。(A. 30 · B. 31)", size=13.8, gap=0)
-f.head("B · 一般問題", 21, OLIVE, 5)
+f.head("B　一般問題", 21, OLIVE, 5)
 f.ex("A2", "Opción múltiple", "B", "45 países y regiones",
      "アジアパラ競技大会に参加した国と地域は？ A. 18 · B. 45 · C. 282", size=13.8, gap=0)
 f.ex("A2", "Opción múltiple", "A", "282 deportistas japoneses",
@@ -46,7 +46,7 @@ f.ex("A2", "Opción múltiple", "B", "La exposición del Shōsōin, hasta el 9 d
      "正倉院展はいつまでですか。 A. 11月1日 · B. 11月9日 · C. 10月31日", size=13.8, gap=0)
 f.ex("B1", "Opción múltiple", "C", "SoftBank: 91 victorias en la temporada",
      "ソフトバンクのレギュラーシーズンの勝ち数は？ A. 71 · B. 49 · C. 91", size=13.8, gap=0)
-f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.head("C　読んで答えましょう", 21, OLIVE, 5)
 f.para("ケンは大学生です。今週の土よう日、横浜スタジアムで日本シリーズの第1戦があります。ケンはチケットを買うことができませんでしたから、テレビで応援します。日よう日は、奈良の正倉院展へ行くつもりです。来週の読書週間には、図書館で本を3冊借りたいと思っています。", 15, lh=1.3, split=False)
 f.ex("A2", "Opción múltiple", "B", "Ken anima el sábado desde casa ante el televisor",
      "ケンは土よう日に何をしますか。 A. スタジアムへ行く · B. テレビで応援する · C. 奈良へ行く", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Opción múltiple", "A", "El domingo va a la exposición del Shōsō
      "日よう日の予定は？ A. 正倉院展 · B. 図書館 · C. ハロウィン", size=13.8, gap=0)
 f.ex("B1", "Opción múltiple", "B", "Quiere tomar prestados 3 libros",
      "読書週間に借りたい本は？ A. 2冊 · B. 3冊 · C. 9冊", size=13.8, gap=0)
-f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.head("D　文を作りましょう", 21, OLIVE, 5)
 f.ex("A2", "Formar una frase", "私は土よう日に試合を見ます。", "Sujeto + tiempo + objeto + verbo",
      "私は / 土よう日に / 試合を見ます → ___", instr="Forma una frase", size=13.8, gap=0)
 f.ex("A2", "Formar una frase", "紅葉は今週末が見頃です。", "見頃 = época ideal",
@@ -65,7 +65,7 @@ f.ex("B1", "Formar una frase", "図書館で本を借ります。", "El lugar de
      "図書館で / 本を / 借ります → ___", instr="Forma una frase", size=13.8, gap=0)
 f.ex("B1", "Formar una frase", "ジェラードンは1,342点で優勝しました。", "Puntos + で + 優勝",
      "ジェラードンは / 1,342点で / 優勝しました → ___", instr="Forma una frase", size=13.8, gap=0)
-f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.head("E　翻訳しましょう", 21, OLIVE, 5)
 f.ex("A2", "Traducción", "La procesión sale del jardín imperial de Kioto a las 12.", "Ver página 3",
      "行列は京都御苑を12時に出発します。 → ___", instr="Traduce", size=13.8, gap=0)
 f.ex("B1", "Traducción", "Tirar basura cuesta una multa de 2.000 yenes.", "Ver página 5",
@@ -74,7 +74,7 @@ f.ex("B1", "Traducción", "読書週間は来週の火よう日から始まり�
      "La Semana de la Lectura empieza el martes que viene. → ___", instr="Traduce", size=13.8, gap=0)
 f.ex("B2", "Traducción", "私は池袋のハロウィンのイベントに行きたいです。", "Ver página 5 (el evento de Ikebukuro)",
      "Quiero ir al evento de Halloween de Ikebukuro. → ___", instr="Traduce", size=13.8, gap=0)
-f.head("F · 今週のことば", 21, OLIVE, 5)
+f.head("F　今週のことば", 21, OLIVE, 5)
 f.match_set("B2", "Emparejar",
             ["見頃", "福袋", "行列", "勝率"],
             ["勝った割合（.650など）",
@@ -84,7 +84,7 @@ f.match_set("B2", "Emparejar",
             ["b", "c", "d", "a"],
             ["見頃 = época ideal, b", "福袋 = bolsa sorpresa, c", "行列 = procesión, d", "勝率 = porcentaje de victorias, a"],
             instr="Une palabra y definición")
-f.head("G · 図書館で", 21, OLIVE, 5)
+f.head("G　図書館で", 21, OLIVE, 5)
 f.ex("B1", "Texto con huecos", "A", "見せてください = muéstremela, por favor",
      "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
 f.ex("B1", "Texto con huecos", "A", "借りられます = poder tomar prestado (forma potencial)",
@@ -95,7 +95,7 @@ f.ex("B1", "Texto con huecos", "A", "La bolsa sorpresa de libros es lo más popu
      "— おすすめはありますか。— 『本の ___ 』が人気です。(A. 福袋 · B. 行列)", size=13.8, gap=0)
 f.ex("B1", "Texto con huecos", "A", "どういたしまして = de nada",
      "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
-f.head("H · 書いてみましょう", 21, OLIVE, 5)
+f.head("H　書いてみましょう", 21, OLIVE, 5)
 MODELO = ("私の秋の週末は、スポーツと読書の週末です。"
           "土よう日は、友達と家で日本シリーズを見ます。私はDeNAを応援します。"
           "試合の後は、近くの公園へ紅葉を見に行きます。"
@@ -110,13 +110,13 @@ f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 答え =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答え · Respuestas — ordenadas por página, busca el número", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Una breve explicación en español por respuesta · ✓ = ejercicio con modelo", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答え　Respuestas — ordenadas por página, busca el número", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Una breve explicación en español por respuesta　✓ = ejercicio con modelo", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Página {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

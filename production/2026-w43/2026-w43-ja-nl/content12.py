@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · 表紙 (A2) =================
@@ -11,30 +11,30 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 1 · 第1号", 23, "sans", True, OLIVE)
-p.text(975, 92, "毎週、日本語で · Elke week · 日本人が読んでいる日本語を読む", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "2026年10月19日（月）〜25日（日）", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 248, "Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 316, "日本語版 · VOL.1 · 日本シリーズ · 紅葉 · 読書の秋", 40, "serif", True, INK, anchor="middle")
-p.text(975, 356, "TEKSTEN IN HET JAPANS · UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS", 19, "sans", True, BRICK, anchor="middle")
-p.text(975, 390, "日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 406, INK, 3); p.hline(MX, RIGHT, 413, INK, 1.2)
+p.text(MX, 92, "VOL. 1　第1号", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "毎週、日本語で　Elke week　日本人が読んでいる日本語を読む", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "2026年10月19日（月）〜25日（日）", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 248, "Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 316, "日本語版　VOL.1　日本シリーズ　紅葉　読書の秋", 36, "serif", True, OLIVE, anchor="middle", spacing=11.5)
+p.text(975, 356, "TEKSTEN IN HET JAPANS　UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS", 16, "sans", False, GREY, anchor="middle")
+p.text(975, 390, "日本語を学ぶ人のための週刊新聞 — 本物の日本を、日本語で", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "土よう日、日本シリーズが始まる！", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "横浜スタジアムで DeNA 対 ソフトバンク — 2年ぶりの対決です。第1戦は18時30分。", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "Zaterdag beginnen de Japan Series", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "De rematch na twee jaar · zie pagina 4", 21, "sans", False, "#b3a06a", anchor="end")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "土よう日、日本シリーズが始まる！", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "横浜スタジアムで DeNA 対ソフトバンク — 2年ぶりの対決です。第1戦は18時30分。", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "Zaterdag beginnen de Japan Series", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "De rematch na twee jaar　zie pagina 4", 18, "sans", False, GOOSE, anchor="end")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "トップニュース · Hoofdnieuws", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "土よう日、日本シリーズが始まる！", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 30, "DeNA 対 ソフトバンク — 2年ぶりの同じ対決です", 25, "serif", False, GREY)
+hy = 590
+p.text(MX, hy + 26, "トップニュース　Hoofdnieuws", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "土よう日、日本シリーズが始まる！", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 30, "DeNA 対ソフトバンク — 2年ぶりの同じ対決です", 25, "serif", False, GREY)
 hy += 46
-p.text(MX, hy + 28, "Lucerna編集部 · 読むレベル：A2", 20, "sans", False, GREY)
+p.text(MX, hy + 28, "Lucerna編集部　読むレベル：A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("日本シリーズの第1戦は、10月24日（土よう日）の18時30分、横浜スタジアムです。戦うのは、横浜DeNAベイスターズと福岡ソフトバンクホークスです。", size=24)
@@ -43,13 +43,13 @@ f.para("第2戦は25日（日よう日）の18時です。チケットの一般�
 f.para("土よう日は、愛知・名古屋の『アジアパラ競技大会』の最終日でもあります。大会は18日（日よう日）に始まりました。日本で初めてのアジアパラ競技大会です。スポーツが熱い週末になります。", size=24)
 f.para("『Lucerna』日本語版の第1号です。毎週、本物の日本のニュースを、やさしい日本語でお届けします。どうぞ楽しんでください！", size=24)
 f.gloss("戦う strijden · 勝ち上がる al winnend doorgaan · 第1戦 wedstrijd 1 · お届けします wij bezorgen het u.")
-f.box("数字で見る今週 · In cijfers", [
+f.box("数字で見る今週　In cijfers", [
     ("45 — アジアパラ競技大会に参加する国と地域の数（過去最多）", "serif", False, INK, 20, 1.35),
     ("18 — アジアパラ競技大会の競技の数", "serif", False, INK, 20, 1.35),
     ("2 — 日本シリーズは、2年ぶりの同じ対決です", "serif", False, INK, 20, 1.35),
     ("18:30 — 日本シリーズ第1戦の開始時間（土よう日）", "serif", False, INK, 20, 1.35),
 ])
-f.head("今すぐ練習 · Meteen oefenen", 25)
+f.head("今すぐ練習　Meteen oefenen", 25)
 f.ex("A2", "zinnen aanvullen", "土よう日", "Wedstrijd 1 is op zaterdag 24 oktober",
      "日本シリーズの第1戦は、10月24日（___）です。", size=19.5, gap=6)
 f.ex("A2", "zinnen aanvullen", "18", "Wedstrijd 1 begint om 18.30 uur",
@@ -66,8 +66,8 @@ f.end_report()
 
 # ---- search heat box (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "検索の熱ワード", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "GOOGLEトレンド日本", 24, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "10月17日のまとめ（note掲載）より", 19, "sans", False, GREY)
@@ -82,15 +82,15 @@ for i, t in enumerate(topics):
     yy_t = p.para(gx + 22, byy + 22, f"{i+1}. {t}", 20, "serif", True, INK, gw - 44, 1.32)
     byy = yy_t + 26
 yy_n = p.para(gx + 22, byy + 24, "検索数は概数です。日本の「今、熱い言葉」の目安にしてください。", 19, "serif", False, GREY, gw - 44, 1.35)
-p.para(gx + 22, yy_n + 24, "この4つの言葉は、今週の新聞のテーマです。", 19, "serif", False, GREY, gw - 44, 1.35)
-p.para(gx + 22, yy_n + 52, "Deze vier woorden zijn de thema's van dit nummer.", 18.5, "sans", False, GREY, gw - 44, 1.35)
-p.text(gx + 22, gy + 636, "データ：Googleトレンド日本（10月17日）", 18.5, "sans", False, GREY)
-p.text(gx + 22, gy + 664, "Geschatte waarden, van 17 oktober.", 19, "sans", False, GREY)
+yy_m = p.para(gx + 22, yy_n + 24, "この4つの言葉は、今週の新聞のテーマです。", 19, "serif", False, GREY, gw - 44, 1.35)
+p.para(gx + 22, yy_m + 2, "Vier woorden, thema's van dit nummer.", 18.5, "sans", False, GREY, gw - 44, 1.35)
+p.text(gx + 22, gy + 662, "データ：Googleトレンド日本（10月17日）", 18.5, "sans", False, GREY)
+p.text(gx + 22, gy + 690, "Geschatte waarden, van 17 oktober.", 19, "sans", False, GREY)
 
 # ---- contents (col 3) ----
 sy = 1296
-p.rect(gx, sy, gw, 330, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "この号の内容 · In dit nummer", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 330, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "この号の内容　In dit nummer", 24, "sans", True, OLIVE)
 som = [
     ("2面", "紅葉と秋の食", "A2"),
     ("3面", "時代祭と週末の文化", "A2→B1"),
@@ -102,17 +102,18 @@ som = [
 ]
 yy = sy + 82
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 108, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 37
 
 # ---- word of the week (col 3) ----
 my = 1636
-p.text(gx, my + 24, "今週のことば · Woord van de week", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "「見頃（みごろ）」 — 見るのにいちばんいい時。花や紅葉がいちばん美しい時です。今週末、北の地方で紅葉が見頃になります。", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "見頃 (migoro) = de mooiste kijktijd.", 19, "sans", False, GREY, gw, 1.35)
+p.text(gx, my + 24, "今週のことば　Woord van de week", 22, "sans", True, OLIVE)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "「見頃（みごろ）」", 21.5, "serif", False, INK, italic=True)
+wy = p.para(gx, my + 102, "見るのにいちばんいい時。花や紅葉がいちばん美しい時です。今週末、北の地方で紅葉が見頃になります。", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, wy + 8, "見頃 (migoro) = de mooiste kijktijd.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1844, LINE, 1.2)
@@ -129,8 +130,8 @@ f2.para("土よう日は、日本シリーズの開幕と、アジアパラ競�
 f2.end_report()
 # col 3 brief box
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "短いニュース · Kort nieuws", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "短いニュース　Kort nieuws", 24, "sans", True, OLIVE)
 brefs = [
     ("紅葉", "日光のいろは坂は、23日（金）から見頃です。（2面）"),
     ("文化", "奈良の正倉院展は、24日（土）から。11月9日までです。（3面）"),
@@ -138,15 +139,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.36) + 8
 
 # ---- lightning quiz ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "クイズ · Bliksemquiz", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Lees de voorpagina en kies het juiste antwoord · Antwoorden op pagina 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "クイズ　Bliksemquiz", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Lees de voorpagina en kies het juiste antwoord　Antwoorden op pagina 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "meerkeuze", "A", "Wedstrijd 1 is op 24 oktober (za)",
       "日本シリーズの第1戦はいつですか。 A. 24日（土） · B. 25日（日） · C. 22日（木）", size=21)
 qf.ex("A2", "meerkeuze", "B", "Wedstrijd 1 is in Yokohama",
@@ -163,11 +164,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · 生活 (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("生活 · くらし", "Lucerna", "レベル A2 · 紅葉と秋の味覚 · Herfstbladeren en herfstsmaken")
+p.band("生活　くらし", "Lucerna", "レベル A2　紅葉と秋の味覚　Herfstbladeren en herfstsmaken")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("紅葉前線、南へ — 今週末は北の山が見頃です", 37)
-f.byline("Lucerna編集部 · 読むレベル：A2")
+f.title("紅葉前線、南へ — 今週末は北の山が見頃です", 32)
+f.byline("Lucerna編集部　読むレベル：A2")
 f.para("秋が深くなりました。紅葉前線は北から南へ下りています。今週末、北の地方の山や公園で、紅葉がいちばん美しくなります。")
 f.para("日本気象株式会社（tenki.jp）の10月14日の予想では、奥入瀬渓流は15日から見頃です。日光のいろは坂は23日（金よう日）から、裏磐梯の五色沼と北海道の大沼公園は24日（土よう日）から見頃です。層雲峡は、21日の時点で、もう葉が落ち始めていました。この予想は、天気で変わることがあります。")
 f.para("京都の高尾など、本州の平地の見頃は、もっと後です。11月の半ばから終わりごろです。ですから、『紅葉狩り』に出かける人は、この週末、北の地方へ行きます。")
@@ -176,7 +177,7 @@ f.head("東京では「餅」が人気", 25)
 f.para("Googleは10月8日、世界の10の都市の『食トレンド』を発表しました。東京では、『餅』の言葉がある口コミが、前の年より168%増えました。")
 f.para("『抹茶』の言葉があるメニューも、10都市のほとんどで増えました。シカゴでは82%、サンティアゴでは84%増えました。秋は、食の季節でもあります。")
 f.gloss("口コミ online reviews · 増える toenemen · 発表する bekendmaken.")
-f.box("『見頃』の使い方 · Zo werkt het", [
+f.box("『見頃』の使い方　Zo werkt het", [
     ("「桜の見頃は3月です」", "serif", False, INK, 20, 1.35),
     ("「今年の紅葉は、11月が見頃です」", "serif", False, INK, 20, 1.35),
     ("「見頃を過ぎると、葉が落ちます」", "serif", False, INK, 20, 1.35),
@@ -193,7 +194,7 @@ facts = ["日光のいろは坂の見頃は、23日（金）からです。",
          "京都・高尾の見頃は、11月の半ばからです。"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "知っていますか", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -206,9 +207,9 @@ cy4 = caption(p, ix, my3 + 180, CW, "手作りの餅。東京では『餅』の�
 ey3 = cy4 + 18
 etvous = "あなたは？今週末、どこへ紅葉を見に行きたいですか。日本語で2文、書いて、送ってください。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("En jij? Waar wil je dit weekend naar de herfstbladeren kijken? Schrijf twee zinnen in het Japans en stuur ze op.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "あなたは？ · En jij?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "あなたは？　En jij?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "En jij? Waar wil je dit weekend naar de herfstbladeren kijken? Schrijf twee zinnen in het Japans en stuur ze op.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -216,9 +217,9 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- season words strip ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "季節のことば · Seizoenswoorden", 28, "sans", True, OLIVE)
-p.text(RIGHT, dy + 28, "紅葉の季節の4つの言葉 · Vier woorden voor het herfstseizoen", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "季節のことば　Seizoenswoorden", 28, "sans", True, OLIVE)
+p.text(RIGHT, dy + 28, "紅葉の季節の4つの言葉　Vier woorden voor het herfstseizoen", 20, "sans", False, GREY, anchor="end")
 words = [
     ("見頃（みごろ）", "いちばん美しい時", "de mooiste kijktijd"),
     ("紅葉狩り", "紅葉を見に行くこと", "eropuit voor de herfstbladeren"),
@@ -227,7 +228,7 @@ words = [
 ]
 for i, (t, lab, cn) in enumerate(words):
     bx = COLX[i]
-    p.rect(bx, dy + 52, CW, 150, fill=BOX, stroke=LINE, sw=1.4)
+    p.rect(bx, dy + 52, CW, 150, fill=BOX)
     p.text(bx + 22, dy + 106, t, 34, "serif", True, OLIVE)
     yy = p.para(bx + 22, dy + 140, lab, 20.5, "serif", False, INK, CW - 44, 1.32)
     p.para(bx + 22, yy + 19, cn, 19, "sans", False, GREY, CW - 44, 1.3)
@@ -235,11 +236,11 @@ p.para(MX, dy + 234, "文で覚えましょう：『紅葉前線が下りて、�
 
 # ---- P2 exercises ----
 ey = dy + 250
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · Oefeningen van pagina 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Antwoorden op pagina 8 · Niveaus gemengd: zoek je nummer op", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　Oefeningen van pagina 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Antwoorden op pagina 8　Niveaus gemengd: zoek je nummer op", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("第2版の文章を読んで、正しい答えを選んでください。")
 e.ex("A2", "meerkeuze", "B", "De herfstfront daalt van noord naar zuid",
      "紅葉前線は、どちらへ下りていますか。 A. 南から北 · B. 北から南 · C. 東から西", size=19, gap=6)
@@ -251,7 +252,7 @@ e.ex("A2", "meerkeuze", "C", "De migoro in Takao (Kyoto) is vanaf half november"
      "京都・高尾の見頃はいつですか。 A. 今週末 · B. 10月の終わり · C. 11月の半ばから", size=19, gap=6)
 e.ex("A2", "meerkeuze", "B", "In Tokio namen de reviews over mochi toe",
      "東京で増えたのは、どんな口コミですか。 A. 抹茶 · B. 餅 · C. 紅葉", size=19, gap=6)
-e.head("B · ことば", 25)
+e.head("B　ことば", 25)
 e.expl("言葉や数字を入れてください。")
 e.ex("A2", "zinnen aanvullen", "見頃", "見頃 = de mooiste kijktijd",
      "紅葉がいちばん美しい時を「___」と言います。", instr="Vul in", size=19, gap=6)
@@ -263,7 +264,7 @@ e.ex("B1", "zinnen aanvullen", "82", "Matcha op het menu in Chicago: +82%",
      "シカゴでは、抹茶のメニューが ___ %増えました。", instr="Vul in", size=19, gap=6)
 e.ex("A2", "zinnen aanvullen", "落ち葉", "落ち葉 = gevallen bladeren",
      "木から落ちた葉を「___」と言います。", instr="Vul in", size=19, gap=6)
-e.head("C · 数字と日付", 25)
+e.head("C　数字と日付", 25)
 e.expl("第1・2版の数字と日付で答えてください。")
 e.ex("A2", "zinnen aanvullen", "15", "De migoro van de Oirase-beek begint op de 15e",
      "奥入瀬渓流の見頃は ___ 日からです。", instr="Vul in", size=19, gap=6)
@@ -273,7 +274,7 @@ e.ex("A2", "zinnen aanvullen", "8", "Google maakte het op 8 oktober bekend",
      "Googleの発表は10月 ___ 日でした。", instr="Vul in", size=19, gap=6)
 e.ex("B1", "zinnen aanvullen", "84", "Santiago: +84%",
      "サンティアゴでは、抹茶のメニューが ___ %増えました。", instr="Vul in", size=19, gap=6)
-e.head("D · ペアにしましょう", 25)
+e.head("D　ペアにしましょう", 25)
 e.match_set("A2", "combineren",
             ["日光のいろは坂", "大沼公園", "京都・高尾", "奥入瀬渓流"],
             ["見頃は15日から",

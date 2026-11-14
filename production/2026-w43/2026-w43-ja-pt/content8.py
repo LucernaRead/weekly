@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · テストと答え =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("テストと答え · Teste e respostas", "Lucerna", "Página 8 · 週の大きなテスト + 全ての答え")
+p.band("テストと答え　Teste e respostas", "Lucerna", "Página 8　週の大きなテスト + 全ての答え")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.head("A　週のクロニクル", 21, OLIVE, 5)
 f.ex("B1", "cloze", "A", "O jogo 1 é no sábado, 24 de outubro",
      "日本シリーズの第1戦は、10月24日（___）です。(A. 土よう日 · B. 日よう日)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "O último dia dos Jogos Para-Asiáticos também é 24",
@@ -29,7 +29,7 @@ f.ex("B1", "cloze", "A", "A Semana da Leitura começa na terça, 27 de outubro",
      "読書週間は、10月 ___ 日（火）からです。(A. 27 · B. 31)", size=13.8, gap=0)
 f.ex("B1", "cloze", "B", "Halloween é no sábado, 31 de outubro",
      "ハロウィンは、10月 ___ 日（土）です。(A. 30 · B. 31)", size=13.8, gap=0)
-f.head("B · 一般問題", 21, OLIVE, 5)
+f.head("B　一般問題", 21, OLIVE, 5)
 f.ex("A2", "escolha múltipla", "B", "Participaram 45 países e regiões",
      "アジアパラ競技大会に参加した国と地域は？ A. 18 · B. 45 · C. 282", size=13.8, gap=0)
 f.ex("A2", "escolha múltipla", "A", "Atletas japoneses: 282",
@@ -46,7 +46,7 @@ f.ex("A2", "escolha múltipla", "B", "A exposição do Shosoin vai até 9 de nov
      "正倉院展はいつまでですか。 A. 11月1日 · B. 11月9日 · C. 10月31日", size=13.8, gap=0)
 f.ex("B1", "escolha múltipla", "C", "SoftBank: 91 vitórias na temporada",
      "ソフトバンクのレギュラーシーズンの勝ち数は？ A. 71 · B. 49 · C. 91", size=13.8, gap=0)
-f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.head("C　読んで答えましょう", 21, OLIVE, 5)
 f.para("ケンは大学生です。今週の土よう日、横浜スタジアムで日本シリーズの第1戦があります。ケンはチケットを買うことができませんでしたから、テレビで応援します。日よう日は、奈良の正倉院展へ行くつもりです。来週の読書週間には、図書館で本を3冊借りたいと思っています。", 15, lh=1.3, split=False)
 f.ex("A2", "escolha múltipla", "B", "No sábado, Ken torce pela TV",
      "ケンは土よう日に何をしますか。 A. スタジアムへ行く · B. テレビで応援する · C. 奈良へ行く", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "escolha múltipla", "A", "No domingo, a exposição do Shosoin",
      "日よう日の予定は？ A. 正倉院展 · B. 図書館 · C. ハロウィン", size=13.8, gap=0)
 f.ex("B1", "escolha múltipla", "B", "Na Semana da Leitura, quer pegar 3 livros",
      "読書週間に借りたい本は？ A. 2冊 · B. 3冊 · C. 9冊", size=13.8, gap=0)
-f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.head("D　文を作りましょう", 21, OLIVE, 5)
 f.ex("A2", "construção de frases", "私は土よう日に試合を見ます。", "Sujeito + tempo + objeto + verbo",
      "私は / 土よう日に / 試合を見ます → ___", instr="Construa a frase", size=13.8, gap=0)
 f.ex("A2", "construção de frases", "紅葉は今週末が見頃です。", "見頃 = o período de maior beleza",
@@ -65,7 +65,7 @@ f.ex("B1", "construção de frases", "図書館で本を借ります。", "O lug
      "図書館で / 本を / 借ります → ___", instr="Construa a frase", size=13.8, gap=0)
 f.ex("B1", "construção de frases", "ジェラードンは1,342点で優勝しました。", "Pontos + で + 優勝 (vencer)",
      "ジェラードンは / 1,342点で / 優勝しました → ___", instr="Construa a frase", size=13.8, gap=0)
-f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.head("E　翻訳しましょう", 21, OLIVE, 5)
 f.ex("A2", "tradução", "O cortejo parte do Kyoto Gyoen às 12.", "Veja a página 3",
      "行列は京都御苑を12時に出発します。 → ___", instr="Traduza para o português", size=13.8, gap=0)
 f.ex("B1", "tradução", "Se jogar lixo, a multa é de 2.000 ienes.", "Veja a página 5",
@@ -74,7 +74,7 @@ f.ex("B1", "tradução", "読書週間は来週の火よう日から始まりま
      "A Semana da Leitura começa na próxima terça-feira. → ___", instr="Traduza para o japonês", size=13.8, gap=0)
 f.ex("B2", "tradução", "私は池袋のハロウィンのイベントに行きたいです。", "Veja a página 5 (o evento de Ikebukuro)",
      "Quero ir ao evento de Halloween de Ikebukuro. → ___", instr="Traduza para o japonês", size=13.8, gap=0)
-f.head("F · 今週のことば", 21, OLIVE, 5)
+f.head("F　今週のことば", 21, OLIVE, 5)
 f.match_set("B2", "associação",
             ["見頃", "福袋", "行列", "勝率"],
             ["勝った割合（.650など）",
@@ -84,7 +84,7 @@ f.match_set("B2", "associação",
             ["b", "c", "d", "a"],
             ["見頃 = o período de maior beleza (b)", "福袋 = um pacote-surpresa de livros (c)", "行列 = um cortejo (d)", "勝率 = porcentagem de vitórias (a)"],
             instr="Associe as palavras")
-f.head("G · 図書館で", 21, OLIVE, 5)
+f.head("G　図書館で", 21, OLIVE, 5)
 f.ex("B1", "cloze", "A", "見せてください = mostre, por favor",
      "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "借りられます = pode pegar (forma potencial)",
@@ -95,7 +95,7 @@ f.ex("B1", "cloze", "A", "A «fukubukuro de livros» é o sucesso da biblioteca"
      "— おすすめはありますか。— 『本の ___ 』が人気です。(A. 福袋 · B. 行列)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "どういたしまして = de nada",
      "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
-f.head("H · 書いてみましょう", 21, OLIVE, 5)
+f.head("H　書いてみましょう", 21, OLIVE, 5)
 MODELO = ("私の秋の週末は、スポーツと読書の週末です。"
           "土よう日は、友達と家で日本シリーズを見ます。私はDeNAを応援します。"
           "試合の後は、近くの公園へ紅葉を見に行きます。"
@@ -110,13 +110,13 @@ f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 答え =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答え · Respostas — agrupadas por página: basta procurar o seu número", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Uma nota breve em português para cada resposta · ✓ = a pergunta com o texto-modelo", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答え　Respostas — agrupadas por página: basta procurar o seu número", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Uma nota breve em português para cada resposta　✓ = a pergunta com o texto-modelo", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Página {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

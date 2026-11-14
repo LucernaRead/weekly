@@ -105,3 +105,17 @@
 - 列定式核（EN×ZH-TW KIT §3 + README #20）：徽章／頁腳 «Lucerna · 日語週報 VOL.1 · 正文日語 · 講解繁體中文»／頁碼 «第 N 版 / 共 8 版»／P8 頭 «答え · 參考答案 — …» 雙語帶／分隔 «— 第 N 版 —»／gloss 前綴 «譯注｜»（P7 expl 三行屬 JA 家族 «解説» 行式，無前缀，與核心同式）／報頭 Lucerna 無冠詞——逐項在版核對全合。gloss 點數（按 `·` 切分，#21）：gloss() 盒 41=41 逐盒全等 [4,4,3｜5,4,4,4｜4,4,5]，P7 expl 讲解 9=9（3 行 × 3 條，修復後仍 3 條）。P7 短語 8 條日語原文與核心逐字全等且各於標籤頁正文恰出現 1 次（逐字摘錄成立）；頁標籤分布 （第N版） {1:2,2:2,3:1,4:1,5:1,6:1} = 核心。
 - 日曆（Asia/Tokyo 實曆核）：10/17 六（予選會）· 10/19 一 · 10/20 二 · 10/22 四（時代祭）· 10/24 六 G1 18:30 · 10/25 日 G2 18:00 · 10/27 二–11/9 一（読書週間）· 10/31 六——全合。各頁引號計數與核心全等（8/8 頁）。殘留掃描：他列家具 = 0；bridge/paper 於頁面與 operative code = 0（expl() 改名在版證實；scratch 引用按 §2 披露例外）。卡面肉眼核（P1 報頭、P7 卡塊修復後、P8 E 區裁切 + 全 8 卡）：TC 無缺字／方框，日語字形正常。
 - 證據目錄：hidden_files/proof-ja-zh-tw/（freeze/p8 JSON、註冊表雙份 dump、kinsoku/samerow/scans/orphan 腳本與輸出、裁切圖）。
+
+---
+
+## D5 rebuild (2026-11-13)
+
+SOP §1.1 字体修复（D5）：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader；西里尔字母改走 Noto Sans；日文正文仍走 Noto Sans/Serif CJK JP。施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：`hidden_files/d5-redo/scratch-2026-w43-ja/logs/2026-w43-ja-zh-tw/`；逐版报告：`production/notes/2026-w43/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w43-ja-zh-tw.md`。
+
+**装机**：移植模板路线（D5-METHOD §1.7；安装器拒单已实测，见家族报告 §3–§4）。本版 svglib 取 `svglib-ja-d5.py`，`_D5_READER = "cjk"`，与 W47 对应模式参照逐字节相同；`test_d5_routing.py` FAILURES: 0；fix2 + kinsoku 齐全。zh-tw face= 剥离：patched bslib4.py + content12/34/56/7/8 机械剥离 face 参数/实参（只改 plumbing，不改文字；重建校验通过）。
+
+**基线**：run TOTAL 150；SVG 8/8 与 fanout 相同；印 PDF 39,602,336 B；pdfdiff vs 已发件 IDENTICAL 8/8；修前普查 D5 拉丁 214。
+
+**门禁**：17 门 + D18 中 16 门 + D18 全绿——run 150 / head_check 0 / d5 census 0 / render RC=0 / webpdf RC=0（2,982,953 B）/ occlusion 0 / p8 extract 150/150 / p8 compare CLEAN（keydiff [137, 138]）/ freeze baseline 8/8 / freeze diff 新增 CJK 0 / spill 0 / boxtitle 0 DEFECT / edge 0 TOUCH 0 NEAR / creambox PASS 0 defects（P8 196→196 行，slack 48.9px）/ print=web 文字层差 0 / census_quotes 0 defective / 刊头间距 303.4px PASS。门 15b `verify_textmd.py` carryover FAIL 为工具-格式口径差（基线同跑亦 FAIL；权威证据为 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT，0 UNEXPECTED）。
+
+**新交付物（实测值）**：印 PDF `Lucerna-VOL1.pdf` 37,694,319 B / SHA-256 `ca6e492357e4387c98cc256b384950fcb6499982b9b25d4d9c93839d2b05612d`；网 PDF `2026-w43-ja-zh-tw.web.pdf` 2,982,953 B / SHA-256 `0f9c2e4cd6589b9f4a7362f0387c7bded3dbd4686e61ff06f9b024f278f4d20e`（D5 前已发版 3,288,794 B，`62cb786caa09…`）；text.md **新建** 44,848 B / SHA-256 `aa6005bd5351cf24460b8cff50fc48fd43ec2189a257502fdf1d51028fcaf6f5`。

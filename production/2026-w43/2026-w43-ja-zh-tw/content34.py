@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · 文化 (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("文化 · ぶんか", "Lucerna", "レベル A2→B1 · 時代祭と週末 · 時代祭與週末", face="TC", sub_face="TC")
+p.band("文化　ぶんか", "Lucerna", "レベル A2→B1　時代祭と週末　時代祭與週末")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P3-feature")
-f.title("歩く歴史の本 — 京都の時代祭", 37)
-f.byline("Lucerna編集部 · 読むレベル：A2→B1")
+f.title("歩く歴史の本 — 京都の時代祭", 32)
+f.byline("Lucerna編集部　読むレベル：A2→B1")
 f.para("10月22日（木よう日）は、京都の『時代祭』の日です。時代祭は、京都の三大祭りの一つです。昔の服を着た約2,000人の行列が、町を歩きます。")
 f.para("行列は、京都御苑を12時に出発します。平安神宮に着くのは、14時30分ごろです。行列は『逆の歴史』です。最初は明治時代の姿で、最後は、平安京ができた時代の姿です。歩きながら、日本の長い歴史を見ることができます。")
 f.para("土よう日（24日）からは、奈良国立博物館で『正倉院展』が始まります。11月9日までです。正倉院の宝物を近くで見ることができる、秋だけの特別な展覧会です。")
@@ -35,7 +35,7 @@ cal = ["22日（木）時代祭 — 京都、12時に出発",
        "25日（日）流鏑馬神事 — 大阪天満宮、15時"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in cal) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "週末の文化カレンダー", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -43,22 +43,22 @@ for t in cal:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
 ey3 = sy3 + sh + 26
 etvous = "あなたは？三つのイベントの中で、どれを見たいですか。日本語で2文、書いて送ってください。"
-eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？三個活動中最想看哪個？寫兩句日語寄來。", "sans", False, 20, CW - 44, face="TC")) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("你呢？三個活動中最想看哪個？寫兩句日語寄來。", "sans", False, 20, CW - 44)) * 29 + 20
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "あなたは？ · 說說你自己", 24, "sans", True, OLIVE, face="TC")
+p.text(ix + 22, yy3 + 26, "あなたは？　說說你自己", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(ix + 22, yy3 + 20, "你呢？三個活動中最想看哪個？寫兩句日語寄來。", 20, "sans", False, GREY, CW - 44, 1.42, face="TC")
+p.para(ix + 22, yy3 + 20, "你呢？三個活動中最想看哪個？寫兩句日語寄來。", 20, "sans", False, GREY, CW - 44, 1.42)
 print("P3 col3 ends", ey3 + eh)
 
 # ---- P3 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · 第 3 版練習", 28, "sans", True, OLIVE, face="TC")
-p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end", face="TC")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　第3版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("第3版の文章を読んで、正しい答えを選んでください。")
 e.ex("A2", "單選", "A", "時代祭在10月22日（週四）",
      "時代祭があるのは何日ですか。 A. 22日（木） · B. 24日（土） · C. 25日（日）", size=19, gap=6)
@@ -70,7 +70,7 @@ e.ex("B1", "單選", "C", "正倉院展在奈良",
      "正倉院展はどこですか。 A. 京都 · B. 大阪 · C. 奈良", size=19, gap=6)
 e.ex("B1", "單選", "A", "流鏑馬射的是箭",
      "流鏑馬神事では、何を射ますか。 A. 矢 · B. ボール · C. 花", size=19, gap=6)
-e.head("B · ことば", 25)
+e.head("B　ことば", 25)
 e.expl("言葉や数字を入れてください。")
 e.ex("A2", "完成句子", "行列", "行列＝遊行隊伍",
      "昔の服を着た人の列を「___」と言います。", instr="填空", size=19, gap=6)
@@ -82,7 +82,7 @@ e.ex("A2", "完成句子", "9", "正倉院展到11月9日",
      "正倉院展は11月 ___ 日までです。", instr="填空", size=19, gap=6)
 e.ex("A2", "完成句子", "三大", "時代祭是京都三大祭之一",
      "時代祭は京都の ___ 祭りの一つです。", instr="填空", size=19, gap=6)
-e.head("C · 文を作りましょう", 25)
+e.head("C　文を作りましょう", 25)
 e.expl("言葉を並べて、正しい文を作ってください。")
 e.ex("B1", "造句", "行列は12時に出発します。", "主語＋時間＋動詞",
      "行列は / 12時に / 出発します → ___", instr="造句", size=19, gap=6)
@@ -92,7 +92,7 @@ e.ex("B1", "造句", "正倉院展は土よう日から始まります。", "從
      "正倉院展は / 土よう日から / 始まります → ___", instr="造句", size=19, gap=6)
 e.ex("B1", "造句", "馬に乗って矢を射ます。", "て形連接動作",
      "馬に乗って / 矢を / 射ます → ___", instr="造句", size=19, gap=6)
-e.head("D · ペアにしましょう", 25)
+e.head("D　ペアにしましょう", 25)
 e.match_set("B1", "詞彙配對",
             ["時代祭", "正倉院展", "流鏑馬神事", "日本シリーズ第1戦"],
             ["横浜 — 土よう日18時30分",
@@ -110,11 +110,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · スポーツ (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("スポーツ · 體育", "Lucerna", "レベル B1 · 日本シリーズ詳報 · 日本大賽詳報", face="TC", sub_face="TC")
+p.band("スポーツ　體育", "Lucerna", "レベル B1　日本シリーズ詳報　日本大賽詳報")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P4-feature")
-f.title("2年ぶりの同じ対決 — DeNA対ソフトバンク", 37)
-f.byline("Lucerna編集部 · 読むレベル：B1")
+f.title("2年ぶりの同じ対決 — DeNA対ソフトバンク", 32)
+f.byline("Lucerna編集部　読むレベル：B1")
 f.para("今年の日本シリーズは、2024年と同じ対決です。横浜DeNAベイスターズは、セントラル・リーグの3位でした。クライマックスシリーズで阪神に勝って、日本シリーズに出場します。")
 f.para("相手は、福岡ソフトバンクホークスです。ソフトバンクはパシフィック・リーグの優勝チームで、日本ハムに勝ちました。レギュラーシーズンの成績は、91勝49敗3分け、勝率は.650でした。DeNAは71勝69敗3分けでした。")
 f.para("2024年は、3位のDeNAが優勝しました。今年はどちらが勝つでしょう。第1戦は24日（土）18時30分、第2戦は25日（日）18時、どちらも横浜スタジアムです。この新聞が届く時、試合はまだ始まっていません。結果は来週の新聞でお知らせします！")
@@ -124,11 +124,11 @@ f.para("来年1月2日・3日の『第103回箱根駅伝』の予選会が、10�
 f.para("1位は東洋大学で、タイムは10時間31分30秒でした。最後の10位は法政大学です。法政大学は、11位の国士舘大学より1分46秒速かったです。年明けの本戦が、今から楽しみです。")
 f.para("『箱根駅伝予選会 結果』は、17日のGoogleトレンドでも5万回以上検索されました。予選会は、駅伝シーズンの始まりの合図です。大学生たちは、自分の大学の名前を背負って走ります。お正月の本戦では、たくさんの人が道やテレビで応援します。")
 f.gloss("予選会 預選賽 · 合計タイム 總時間 · 本戦 正賽 · 背負って 背負著。")
-f.box("日本シリーズの日程 · 大賽日程", [
+f.box("日本シリーズの日程　大賽日程", [
     ("第1戦 — 10月24日（土）18時30分、横浜スタジアム", "serif", False, INK, 20, 1.35),
     ("第2戦 — 10月25日（日）18時、横浜スタジアム", "serif", False, INK, 20, 1.35),
     ("チケットの一般発売は、22日（木）12時に始まりました", "serif", False, INK, 20, 1.35),
-], title_face="TC")
+])
 f.end_report()
 
 # col 3: waseda image + Ohtani box
@@ -139,7 +139,7 @@ cy3 = caption(p, ix, 490, CW, "1911年の早稲田大学野球部。日本の野
 ot = "Googleトレンド日本（10月17日）のまとめでは、『大谷翔平』の検索は20万回以上でした。大谷選手のホームランと、ドジャースがポストシーズンで敗退したニュースで、検索が増えたそうです。『山本由伸』も2万回以上でした。"
 oy = cy3 + 24
 oh = 62 + len(wrap(ot, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("※まとめにない結果や点数は、本紙では書きません。", "serif", False, 19.5, CW - 44)) * 27 + 20
-p.rect(ix, oy, CW, oh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, oy, CW, oh, fill=BOX)
 yy3 = oy + 16
 p.text(ix + 22, yy3 + 26, "検索でもスター", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -149,8 +149,8 @@ print("P4 col3 ends", oy + oh)
 
 # ---- qualifier table (full width) ----
 ty = 1490
-p.text(MX, ty + 26, "箱根駅伝・予選会の10校 · 預選賽出線的10所大學", 26, "sans", True, OLIVE)
-p.hline(MX, RIGHT, ty + 40, GOLD, 2)
+p.text(MX, ty + 26, "箱根駅伝・予選会の10校　預選賽出線的10所大學", 26, "sans", True, OLIVE)
+p.hline(MX, RIGHT, ty + 40, OLIVE, 2)
 schools_l = ["1位 東洋大学 — 10時間31分30秒", "2位 中央学院大学", "3位 東海大学", "4位 専修大学", "5位 東京農業大学"]
 schools_r = ["6位 山梨学院大学", "7位 大東文化大学", "8位 神奈川大学", "9位 日本体育大学", "10位 法政大学"]
 colw2 = (RIGHT - MX - GUT) // 2
@@ -162,11 +162,11 @@ p.para(MX, ty + 84 + 5 * 40 + 6, "予選会は10月17日（土）、立川であ
 
 # ---- P4 exercises ----
 ey = 1840
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · 第 4 版練習", 28, "sans", True, OLIVE, face="TC")
-p.text(RIGHT, ey + 28, "答案見第 8 版 · 題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end", face="TC")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　第4版練習", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "答案見第8版　題目可跨級混排，按題號找答案", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("第4版の文章を読んで、正しい答えを選んでください。")
 e.ex("B1", "單選", "B", "今年的對決是DeNA對軟銀",
      "今年の日本シリーズの対決は？ A. DeNA対日本ハム · B. DeNA対ソフトバンク · C. 阪神対ソフトバンク", size=19, gap=6)
@@ -178,7 +178,7 @@ e.ex("B1", "單選", "B", "2024年奪冠的是DeNA",
      "2024年の日本シリーズで優勝したのは？ A. ソフトバンク · B. DeNA · C. 阪神", size=19, gap=6)
 e.ex("B1", "單選", "B", "第2戰在25日（週日）18時",
      "第2戦はいつですか。 A. 24日（土）18時30分 · B. 25日（日）18時 · C. 22日（木）12時", size=19, gap=6)
-e.head("B · 数字", 25)
+e.head("B　数字", 25)
 e.expl("第4版の数字を入れてください。")
 e.ex("B1", "完成句子", "91", "軟銀例行賽91勝",
      "ソフトバンクは ___ 勝しました。", instr="填空", size=19, gap=6)
@@ -190,7 +190,7 @@ e.ex("B1", "完成句子", "10", "東洋大學用時10小時31分30秒",
      "予選会の1位、東洋大学のタイムは ___ 時間31分30秒でした。", instr="填空", size=19, gap=6)
 e.ex("B1", "完成句子", "1", "法政比國士館快1分46秒",
      "法政大学は国士舘大学より ___ 分46秒速かったです。", instr="填空", size=19, gap=6)
-e.head("C · 駅伝", 25)
+e.head("C　駅伝", 25)
 e.expl("箱根駅伝の記事から答えてください。")
 e.ex("B1", "單選", "B", "預選賽在立川舉行",
      "予選会はどこでありましたか。 A. 箱根 · B. 立川 · C. 横浜", size=19, gap=6)
@@ -200,7 +200,7 @@ e.ex("B1", "單選", "A", "晉級正賽的是10所大學",
      "本戦に出るのは何校ですか。 A. 10校 · B. 11校 · C. 45校", size=19, gap=6)
 e.ex("B1", "單選", "B", "箱根接力正賽在1月2日·3日",
      "箱根駅伝の本戦はいつですか。 A. 12月31日 · B. 1月2日・3日 · C. 2月1日", size=19, gap=6)
-e.head("D · 正しい・正しくない", 25)
+e.head("D　正しい・正しくない", 25)
 e.expl("文が正しければ○、正しくなければ×を書いてください。")
 e.ex("B1", "判斷對錯", "×", "第1戦は土よう日です",
      "第1戦は日よう日です。", instr="判斷", size=19, gap=6)

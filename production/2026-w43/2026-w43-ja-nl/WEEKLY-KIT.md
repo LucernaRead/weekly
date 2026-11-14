@@ -110,3 +110,17 @@ Fonts: Noto Serif/Sans CJK (JP face) + UnifrakturMaguntia (masthead). Never use 
 - **PDF pins (measured from disk by the proofreader)**: print `Lucerna-VOL1-NL.pdf` **42,002,941 B**, sha256 `180bbbc8092916659d3e4ded2f13a117b16928bf177959635733cf75e3dcec3b`; web `Lucerna-VOL1-NL-web.pdf` **3,183,532 B** (< 10 MB), sha256 `7a9814bd79da0fec769797047c7abc3b1d9002f5e4b9cb04f019a1b0dbd8726e` — identical to §8.
 
 Housekeeping note (not an edition defect): a stray `home/` tree at the goal root — leftover scratch output of an earlier proof, produced by the same OUT-path mangling this proofreader initially reproduced — was removed during this pass after its contents were verified to be scratch only; both editions' shipped trees were re-hashed intact afterwards.
+
+---
+
+## D5 rebuild (2026-11-13)
+
+SOP §1.1 字体修复（D5）：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader；西里尔字母改走 Noto Sans；日文正文仍走 Noto Sans/Serif CJK JP。施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：`hidden_files/d5-redo/scratch-2026-w43-ja/logs/2026-w43-ja-nl/`；逐版报告：`production/notes/2026-w43/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w43-ja-nl.md`。
+
+**装机**：移植模板路线（D5-METHOD §1.7；安装器拒单已实测，见家族报告 §3–§4）。本版 svglib 取 `svglib-ja-d5.py`，`_D5_READER = "latin"`，与 W47 对应模式参照逐字节相同；`test_d5_routing.py` FAILURES: 0；fix2 + kinsoku 齐全。
+
+**基线**：run TOTAL 150；SVG 8/8 与 fanout 相同；印 PDF 41,605,674 B；pdfdiff vs 已发件 IDENTICAL 8/8；修前普查 D5 拉丁 420。
+
+**门禁**：17 门 + D18 中 16 门 + D18 全绿——run 150 / head_check 0 / d5 census 0 / render RC=0 / webpdf RC=0（2,525,599 B）/ occlusion 0 / p8 extract 150/150 / p8 compare CLEAN（keydiff [137, 138]）/ freeze baseline 8/8 / freeze diff 新增 CJK 0 / spill 0 / boxtitle 0 DEFECT / edge 0 TOUCH 0 NEAR / creambox PASS 0 defects（P8 215→215 行，slack 50.4px）/ print=web 文字层差 0 / census_quotes 0 defective / 刊头间距 293.8px PASS。门 15b `verify_textmd.py` carryover FAIL 为工具-格式口径差（基线同跑亦 FAIL；权威证据为 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT，0 UNEXPECTED）。
+
+**新交付物（实测值）**：印 PDF `Lucerna-VOL1-NL.pdf` 37,483,815 B / SHA-256 `72f9fee6fb90ec8da87ab04326c4195b68d6f9646b97f1cf92691605a0c3710b`；网 PDF `2026-w43-ja-nl.web.pdf` 2,525,599 B / SHA-256 `fee25ed1c8f18975c043d47935c6fda29883917c6983d10213e13f395d489740`（D5 前已发版 2,724,867 B，`d2b48ae1c207…`）；text.md **新建** 46,911 B / SHA-256 `a01b527ceb2c9e6f66aa91db494d215c7836360771eb550d54198d866679af80`。

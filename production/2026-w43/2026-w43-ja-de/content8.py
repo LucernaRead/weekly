@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-de/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · テストと答え =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("テストと答え · Test und Antworten", "Lucerna", "第 8 面 · 週の大きなテスト + 全ての答え")
+p.band("テストと答え　Test und Antworten", "Lucerna", "第8面　週の大きなテスト + 全ての答え")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.head("A　週のクロニクル", 21, OLIVE, 5)
 f.ex("B1", "Lückentext", "A", "Spiel 1 ist am Sa, 24. Oktober",
      "日本シリーズの第1戦は、10月24日（___）です。(A. 土よう日 · B. 日よう日)", size=13.8, gap=0)
 f.ex("B1", "Lückentext", "A", "Auch die Para-Asienspiele enden am 24.",
@@ -29,7 +29,7 @@ f.ex("B1", "Lückentext", "A", "Die Lesewoche beginnt am Di, 27. Oktober",
      "読書週間は、10月 ___ 日（火）からです。(A. 27 · B. 31)", size=13.8, gap=0)
 f.ex("B1", "Lückentext", "B", "Halloween ist am Sa, 31. Oktober",
      "ハロウィンは、10月 ___ 日（土）です。(A. 30 · B. 31)", size=13.8, gap=0)
-f.head("B · 一般問題", 21, OLIVE, 5)
+f.head("B　一般問題", 21, OLIVE, 5)
 f.ex("A2", "Multiple Choice", "B", "45 Länder und Regionen",
      "アジアパラ競技大会に参加した国と地域は？ A. 18 · B. 45 · C. 282", size=13.8, gap=0)
 f.ex("A2", "Multiple Choice", "A", "282 japanische Sportler",
@@ -46,7 +46,7 @@ f.ex("A2", "Multiple Choice", "B", "Die Shosoin-Ausstellung endet am 9. November
      "正倉院展はいつまでですか。 A. 11月1日 · B. 11月9日 · C. 10月31日", size=13.8, gap=0)
 f.ex("B1", "Multiple Choice", "C", "SoftBank gewann 91 Spiele",
      "ソフトバンクのレギュラーシーズンの勝ち数は？ A. 71 · B. 49 · C. 91", size=13.8, gap=0)
-f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.head("C　読んで答えましょう", 21, OLIVE, 5)
 f.para("ケンは大学生です。今週の土よう日、横浜スタジアムで日本シリーズの第1戦があります。ケンはチケットを買うことができませんでしたから、テレビで応援します。日よう日は、奈良の正倉院展へ行くつもりです。来週の読書週間には、図書館で本を3冊借りたいと思っています。", 15, lh=1.3, split=False)
 f.ex("A2", "Multiple Choice", "B", "Ken feuert zu Hause vor dem Fernseher an",
      "ケンは土よう日に何をしますか。 A. スタジアムへ行く · B. テレビで応援する · C. 奈良へ行く", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Multiple Choice", "A", "Am Sonntag geht es zur Shosoin-Ausstellung",
      "日よう日の予定は？ A. 正倉院展 · B. 図書館 · C. ハロウィン", size=13.8, gap=0)
 f.ex("B1", "Multiple Choice", "B", "Er möchte drei Bücher ausleihen",
      "読書週間に借りたい本は？ A. 2冊 · B. 3冊 · C. 9冊", size=13.8, gap=0)
-f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.head("D　文を作りましょう", 21, OLIVE, 5)
 f.ex("A2", "Satzbau", "私は土よう日に試合を見ます。", "Subjekt + Zeit + Objekt + Verb",
      "私は / 土よう日に / 試合を見ます → ___", instr="Satz bilden", size=13.8, gap=0)
 f.ex("A2", "Satzbau", "紅葉は今週末が見頃です。", "見頃 = die schönste Zeit",
@@ -65,7 +65,7 @@ f.ex("B1", "Satzbau", "図書館で本を借ります。", "Der Handlungsort ste
      "図書館で / 本を / 借ります → ___", instr="Satz bilden", size=13.8, gap=0)
 f.ex("B1", "Satzbau", "ジェラードンは1,342点で優勝しました。", "Punktzahl + で + 優勝しました",
      "ジェラードンは / 1,342点で / 優勝しました → ___", instr="Satz bilden", size=13.8, gap=0)
-f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.head("E　翻訳しましょう", 21, OLIVE, 5)
 f.ex("A2", "Übersetzen", "Der Festzug startet um 12:00 Uhr am Kyoto Gyoen.", "Siehe Seite 3",
      "行列は京都御苑を12時に出発します。 → ___", instr="Übersetzen", size=13.8, gap=0)
 f.ex("B1", "Übersetzen", "Wer Müll wegwirft, zahlt 2.000 Yen Strafe.", "Siehe Seite 5",
@@ -74,7 +74,7 @@ f.ex("B1", "Übersetzen", "読書週間は来週の火よう日から始まり�
      "Die Lesewoche beginnt nächsten Dienstag. → ___", instr="Übersetzen", size=13.8, gap=0)
 f.ex("B2", "Übersetzen", "私は池袋のハロウィンのイベントに行きたいです。", "Siehe Seite 5 (das Event in Ikebukuro)",
      "Ich möchte zum Halloween-Event in Ikebukuro gehen. → ___", instr="Übersetzen", size=13.8, gap=0)
-f.head("F · 今週のことば", 21, OLIVE, 5)
+f.head("F　今週のことば", 21, OLIVE, 5)
 f.match_set("B2", "Zuordnen",
             ["見頃", "福袋", "行列", "勝率"],
             ["勝った割合（.650など）",
@@ -84,7 +84,7 @@ f.match_set("B2", "Zuordnen",
             ["b", "c", "d", "a"],
             ["見頃 = die schönste Zeit (b)", "福袋 = ein Set mit verborgenem Inhalt (c)", "行列 = der Festzug (d)", "勝率 = die Siegquote (a)"],
             instr="Wörter zuordnen")
-f.head("G · 図書館で", 21, OLIVE, 5)
+f.head("G　図書館で", 21, OLIVE, 5)
 f.ex("B1", "Lückentext", "A", "見せてください = bitte zeigen Sie mir",
      "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
 f.ex("B1", "Lückentext", "A", "借りられます = ausleihen können (Potenzialform)",
@@ -95,7 +95,7 @@ f.ex("B1", "Lückentext", "A", "Die Buch-Glückspakete sind sehr beliebt",
      "— おすすめはありますか。— 『本の ___ 』が人気です。(A. 福袋 · B. 行列)", size=13.8, gap=0)
 f.ex("B1", "Lückentext", "A", "どういたしまして = gern geschehen",
      "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
-f.head("H · 書いてみましょう", 21, OLIVE, 5)
+f.head("H　書いてみましょう", 21, OLIVE, 5)
 MODELO = ("私の秋の週末は、スポーツと読書の週末です。"
           "土よう日は、友達と家で日本シリーズを見ます。私はDeNAを応援します。"
           "試合の後は、近くの公園へ紅葉を見に行きます。"
@@ -110,13 +110,13 @@ f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 答え =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答え · Antworten — nach Seiten geordnet; einfach die Nummer suchen", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Zu jeder Antwort eine kurze Anmerkung · ✓ = die Mustertext-Aufgabe", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答え　Antworten — nach Seiten geordnet; einfach die Nummer suchen", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Zu jeder Antwort eine kurze Anmerkung　✓ = die Mustertext-Aufgabe", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Seite {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

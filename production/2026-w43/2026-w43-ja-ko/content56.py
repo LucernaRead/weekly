@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 若者・エンタメ (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band('若者・エンタメ · 청년', "Lucerna", 'レベル B1 · コントとハロウィン · 개그와 할로윈')
+p.band('若者・エンタメ　청년', "Lucerna", 'レベル B1　コントとハロウィン　개그와 할로윈')
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P5-feature")
-f.title("ジェラードンが優勝！キングオブコント2026", 37)
-f.byline("Lucerna編集部 · 読むレベル：B1")
+f.title("ジェラードンが優勝！キングオブコント2026", 32)
+f.byline("Lucerna編集部　読むレベル：B1")
 f.para("10月17日（土）、東京・赤坂のTBSで『キングオブコント2026』の決勝がありました。優勝は、コントのグループ『ジェラードン』です。第19代の王者で、賞金は1,000万円です。")
 f.para("点数は、671点と671点で、合計1,342点でした。2位の『かえる亭』とは、33点の差でした。今年は、負けたチームがもう一度戦う『敗者復活』がありました。審査員も、5人から7人に増えました。")
 f.para("決勝の後も、話は終わりません。『キングオブコント2026』は、20日（火）のトレンドでも1位でした。テレビの前で笑った人も多い週末でした。")
@@ -35,7 +35,7 @@ words5 = ["ボケ — わざと変なことを言う人",
           "ネタ — コントの話の内容"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in words5) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "コントのことば", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -44,9 +44,9 @@ for t in words5:
 ey3 = sy3 + sh + 26
 etvous = "あなたは？ハロウィンに、どんな仮装をしたいですか。日本語で2文、書いて、送ってください。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap('여러분은요? 할로윈에 하고 싶은 분장을 일본어로 두 문장 써서 보내 주세요.', "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, 'あなたは？ · 여러분은요?', 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, 'あなたは？　여러분은요?', 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, '여러분은요? 할로윈에 하고 싶은 분장을 일본어로 두 문장 써서 보내 주세요.', 20, "sans", False, GREY, CW - 44, 1.42)
@@ -54,11 +54,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, '練習 · 5면 연습', 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, '정답은 8면 · 레벨이 섞인 문제예요. 번호로 찾으세요', 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, '練習　5면 연습', 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, '정답은 8면　레벨이 섞인 문제예요. 번호로 찾으세요', 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("コントの記事を読んで、正しい答えを選んでください。")
 e.ex("B1", '객관식', "A", '결승은 10월 17일(토)',
      "キングオブコントの決勝は何日でしたか。 A. 17日（土） · B. 20日（火） · C. 31日（土）", size=19, gap=6)
@@ -70,7 +70,7 @@ e.ex("B1", '객관식', "B", '합계는 1,342점이에요',
      "ジェラードンの合計点は？ A. 671点 · B. 1,342点 · C. 33点", size=19, gap=6)
 e.ex("B1", '객관식', "B", '심사위원이 7명으로 늘었어요',
      "審査員は何人に増えましたか。 A. 5人 · B. 7人 · C. 19人", size=19, gap=6)
-e.head("B · 数字", 25)
+e.head("B　数字", 25)
 e.expl("第5版の数字を入れてください。")
 e.ex("B1", '문장 완성', "19", '제19대 우승자',
      "ジェラードンは第 ___ 代の王者です。", instr='빈칸 채우기', size=19, gap=6)
@@ -82,7 +82,7 @@ e.ex("B1", '문장 완성', "2,000", '쓰레기를 버리면 벌금 2,000엔',
      "ゴミを捨てると、罰金は ___ 円です。", instr='빈칸 채우기', size=19, gap=6)
 e.ex("B1", '문장 완성', "1", '하치코 동상은 11월 1일까지 울타리 안에 있어요',
      "ハチ公の像がフェンスの中にあるのは、11月 ___ 日までです。", instr='빈칸 채우기', size=19, gap=6)
-e.head("C · 正しい・正しくない", 25)
+e.head("C　正しい・正しくない", 25)
 e.expl("渋谷のルールについて、正しければ○、正しくなければ×を書いてください。")
 e.ex("B1", '읽기 판단', "×", '길에서는 술을 마실 수 없어요',
      "渋谷では、夜、道でお酒を飲むことができます。", instr='참 / 거짓', size=19, gap=6)
@@ -92,7 +92,7 @@ e.ex("B1", '읽기 판단', "×", '코스프레 축제는 이케부쿠로예요'
      "コスプレフェスは渋谷であります。", instr='참 / 거짓', size=19, gap=6)
 e.ex("B1", '읽기 판단', "○", '할로윈은 10월 31일(토)',
      "ハロウィンは10月31日（土）です。", instr='참 / 거짓', size=19, gap=6)
-e.head("D · 文を完成しましょう", 25)
+e.head("D　文を完成しましょう", 25)
 e.expl("第5版の文を完成してください。")
 e.ex("B1", '문장 완성', "飲む", '飲むことができません = 마실 수 없다',
      "駅の近くでは、道でお酒を ___ ことができません。", instr='빈칸 채우기', size=19, gap=6)
@@ -110,11 +110,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 深読み (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深読み · ふかよみ", "Lucerna", 'レベル B2 · アジアパラ競技大会 · 아시아 패러 대회 깊이 읽기')
+p.band("深読み　ふかよみ", "Lucerna", 'レベル B2　アジアパラ競技大会　아시아 패러 대회 깊이 읽기')
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P6-feature")
-f.title("日本で初めてのアジアパラ競技大会", 37)
-f.byline("Lucerna編集部 · 読むレベル：B2")
+f.title("日本で初めてのアジアパラ競技大会", 32)
+f.byline("Lucerna編集部　読むレベル：B2")
 f.para("『第5回アジアパラ競技大会 愛知・名古屋2026』は、10月18日（日）に始まりました。最終日は24日（土）です。アジアパラ競技大会が日本で開かれるのは、今回が初めてです。")
 f.para("参加した国と地域は45で、過去最多でした。競技は18あります。日本の選手団は282人です。そのうち120人は初めての出場で、17人は2024年のパリ・パラリンピックの金メダリストです。")
 f.para("この大会は、2028年のロサンゼルス・パラリンピックへの道でもあります。たとえば車いすテニスでは、優勝した選手がロサンゼルス大会への出場権を直接得ることができます。（アジアデイリーの報道による）")
@@ -134,7 +134,7 @@ facts6 = ["45 — 参加した国と地域（過去最多）",
           "120 — 初めて出場する日本の選手"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts6) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "大会の数字", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -144,9 +144,9 @@ print("P6 col3 ends", sy3 + sh)
 
 # ---- practice chart (full width) ----
 chy = 1500
-p.text(MX, chy + 26, 'グラフを読もう · 그래프 읽기', 26, "sans", True, OLIVE)
-p.text(RIGHT, chy + 26, '練習用データ · 연습용 데이터', 21, "sans", True, BRICK, anchor="end")
-p.hline(MX, RIGHT, chy + 40, GOLD, 2)
+p.text(MX, chy + 26, 'グラフを読もう　그래프 읽기', 26, "sans", True, OLIVE)
+p.text(RIGHT, chy + 26, '練習用データ　연습용 데이터', 21, "sans", True, OLIVE, anchor="end")
+p.hline(MX, RIGHT, chy + 40, OLIVE, 2)
 p.text(MX, chy + 78, "会場で聞いた「見たい競技」（練習用データ — 実際の調査ではありません）", 22, "serif", True, INK)
 chart = [("車いすテニス", 34), ("水泳", 28), ("陸上", 22), ("その他", 16)]
 byy = chy + 104
@@ -159,11 +159,11 @@ p.para(MX, byy + 22, "このグラフは練習用データです。数字は全�
 
 # ---- P6 exercises ----
 ey = 1900
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, '練習 · 6면 연습', 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, '정답은 8면 · 레벨이 섞인 문제예요. 번호로 찾으세요', 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, '練習　6면 연습', 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, '정답은 8면　레벨이 섞인 문제예요. 번호로 찾으세요', 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("第6版の文章を読んで、正しい答えを選んでください。")
 e.ex("B2", '객관식', "B", '일본 개최는 처음이에요(대회는 제5회)',
      "アジアパラ競技大会が日本で開かれるのは？ A. 2回目 · B. 初めて · C. 毎年", size=19, gap=6)
@@ -175,7 +175,7 @@ e.ex("B2", '객관식', "A", '처음 출전하는 일본 선수는 120명',
      "初めて出場する日本の選手は？ A. 120人 · B. 282人 · C. 17人", size=19, gap=6)
 e.ex("B2", '객관식', "B", '휠체어 테니스 우승자는 로스앤젤레스에 직행해요',
      "車いすテニスの優勝者は、どこへの出場権を直接得ますか。 A. パリ大会 · B. ロサンゼルス大会 · C. 名古屋大会", size=19, gap=6)
-e.head("B · グラフ", 25)
+e.head("B　グラフ", 25)
 e.expl("練習用データのグラフを見て答えてください。")
 e.ex("B2", '문장 완성', "車いすテニス", '그래프에서 가장 인기 있는 것은 휠체어 테니스예요',
      "「見たい競技」で1位は ___ です。", instr='빈칸 채우기', size=19, gap=6)
@@ -189,7 +189,7 @@ e.ex("B2", '문장 완성', "62", '34 + 28 = 62',
      "車いすテニスと水泳を合わせると ___ %です。", instr='빈칸 채우기', size=19, gap=6)
 e.ex("B2", '문장 완성', "100", '네 항목 합계 100%',
      "4つの数字を全部足すと ___ %になります。", instr='빈칸 채우기', size=19, gap=6)
-e.head("C · 数字と事実", 25)
+e.head("C　数字と事実", 25)
 e.expl("第6版の数字を入れてください。")
 e.ex("B2", '문장 완성', "17", '그중 17명은 파리 패럴림픽 금메달리스트예요',
      "日本の選手282人のうち、金メダリストは ___ 人です。", instr='빈칸 채우기', size=19, gap=6)
@@ -199,7 +199,7 @@ e.ex("B2", '문장 완성', "5", '이 대회는 제5회 아시아 패러 대회�
      "この大会は第 ___ 回のアジアパラ競技大会です。", instr='빈칸 채우기', size=19, gap=6)
 e.ex("B2", '문장 완성', "2028", '다음 패럴림픽은 2028년 로스앤젤레스예요',
      "ロサンゼルスのパラリンピックは ___ 年です。", instr='빈칸 채우기', size=19, gap=6)
-e.head("D · 正しい・正しくない", 25)
+e.head("D　正しい・正しくない", 25)
 e.expl("正しければ○、正しくなければ×を書いてください。")
 e.ex("B2", '읽기 판단', "×", '일본에서 열리는 것은 처음이에요',
      "この大会は、日本で2回目です。", instr='참 / 거짓', size=19, gap=6)

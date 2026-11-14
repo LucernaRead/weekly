@@ -6,7 +6,7 @@ import cairosvg
 from PIL import Image
 from pypdf import PdfWriter, PdfReader
 
-BASE = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-vol1")
+BASE = os.path.dirname(os.path.abspath(__file__))
 SVGS = sorted(glob.glob(os.path.join(BASE, "svg", "*.svg")))
 assert len(SVGS) == 8, SVGS
 
@@ -31,13 +31,14 @@ with open(print_pdf, "wb") as fh:
     writer.write(fh)
 print("print PDF:", print_pdf, os.path.getsize(print_pdf))
 
-# web PDF: JPEG pages at 1400px wide, q85
-imgs = []
-for pp in png_paths:
-    im = Image.open(pp).convert("RGB")
-    w, h = im.size
-    im = im.resize((1400, int(h * 1400 / w)), Image.LANCZOS)
-    imgs.append(im)
+# web PDF via tools/webpdf.py (vector text layer, SOP appendix 4)
+import subprocess, sys
 web_pdf = os.path.join(BASE, "Lucerna-VOL1-web.pdf")
-imgs[0].save(web_pdf, save_all=True, append_images=imgs[1:], quality=85)
+tools = os.path.expanduser("~/workspace/weekly-git/tools")
+r = subprocess.run([sys.executable, os.path.join(tools, "webpdf.py"), os.path.join(BASE, "svg"), web_pdf],
+                   capture_output=True, text=True)
+print(r.stdout)
+print(r.stderr, file=sys.stderr)
+if r.returncode != 0:
+    raise SystemExit(f"webpdf.py failed: {r.returncode}")
 print("web PDF:", web_pdf, os.path.getsize(web_pdf))

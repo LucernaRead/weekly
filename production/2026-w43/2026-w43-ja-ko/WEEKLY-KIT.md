@@ -99,3 +99,17 @@
 - 残留：简体专有字扫描命中仅 参/着（日语新字体固有，冻结正文）→ 简体中文讲解残留 = 0；Han-only 串 65 条全为日语正文/家具；bridge 页面/operative code = 0，expl( 调用 22 处合登记。
 - 日历（Asia/Tokyo `date -d` 实测）：10/22 Thu、10/24 Sat（G1 18:30)、10/25 Sun、10/27 Tue、10/31 Sat、11/9 Mon 与正文全合。
 - 终针脚见 §8（已同步为修复后实测值）；两 PDF 均 8 页，cards ×8 在位。未入仓、未发 Discord。
+
+---
+
+## D5 rebuild (2026-11-13)
+
+SOP §1.1 字体修复（D5）：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader；西里尔字母改走 Noto Sans；日文正文仍走 Noto Sans/Serif CJK JP。施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：`hidden_files/d5-redo/scratch-2026-w43-ja/logs/2026-w43-ja-ko/`；逐版报告：`production/notes/2026-w43/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w43-ja-ko.md`。
+
+**装机**：移植模板路线（D5-METHOD §1.7；安装器拒单已实测，见家族报告 §3–§4）。本版 svglib 取 `svglib-ja-d5.py`，`_D5_READER = "cjk"`，与 W47 对应模式参照逐字节相同；`test_d5_routing.py` FAILURES: 0；fix2 + kinsoku 齐全。
+
+**基线**：run TOTAL 150；SVG 8/8 与 fanout 相同；印 PDF 40,068,374 B；pdfdiff vs 已发件 IDENTICAL 8/8；修前普查 D5 拉丁 214。
+
+**门禁**：17 门 + D18 中 16 门 + D18 全绿——run 150 / head_check 0 / d5 census 0 / render RC=0 / webpdf RC=0（2,728,520 B）/ occlusion 0 / p8 extract 150/150 / p8 compare CLEAN（keydiff [137, 138]）/ freeze baseline 8/8 / freeze diff 新增 CJK 0 / spill 0 / boxtitle 0 DEFECT / edge 0 TOUCH 0 NEAR / creambox PASS 0 defects（P8 196→196 行，slack 48.9px）/ print=web 文字层差 0 / census_quotes 0 defective / 刊头间距 303.2px PASS。门 15b `verify_textmd.py` carryover FAIL 为工具-格式口径差（基线同跑亦 FAIL；权威证据为 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT，0 UNEXPECTED）。
+
+**新交付物（实测值）**：印 PDF `Lucerna-VOL1.pdf` 40,035,875 B / SHA-256 `378f9808d6bd9918d32c25e3d1d77825f5ab0687fdfb249f34af21290bbfb722`；网 PDF `2026-w43-ja-ko.web.pdf` 2,728,520 B / SHA-256 `2f62a5b318c043962d2289aa251b58fc5f77a11a92a4df966154b7c211b6124b`（D5 前已发版 2,782,053 B，`facd9df55802…`）；text.md **新建** 47,827 B / SHA-256 `891cf136fa7aeab2d5478bb71dd5756289b95ba90b14d106cc85ca1ccaf08594`。

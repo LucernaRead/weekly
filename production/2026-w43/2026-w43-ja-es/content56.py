@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P5 · 若者・エンタメ (B1) =================
 CURPAGE[0] = 5
 p = BSPage4()
-p.band("若者・エンタメ · Jóvenes", "Lucerna", "レベル B1 · コントとハロウィン · Comedia y Halloween")
+p.band("若者・エンタメ　Jóvenes", "Lucerna", "レベル B1　コントとハロウィン　Comedia y Halloween")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1500, tag="P5-feature")
-f.title("ジェラードンが優勝！キングオブコント2026", 37)
-f.byline("Lucerna編集部 · 読むレベル：B1")
+f.title("ジェラードンが優勝！キングオブコント2026", 32)
+f.byline("Lucerna編集部　読むレベル：B1")
 f.para("10月17日（土）、東京・赤坂のTBSで『キングオブコント2026』の決勝がありました。優勝は、コントのグループ『ジェラードン』です。第19代の王者で、賞金は1,000万円です。")
 f.para("点数は、671点と671点で、合計1,342点でした。2位の『かえる亭』とは、33点の差でした。今年は、負けたチームがもう一度戦う『敗者復活』がありました。審査員も、5人から7人に増えました。")
 f.para("決勝の後も、話は終わりません。『キングオブコント2026』は、20日（火）のトレンドでも1位でした。テレビの前で笑った人も多い週末でした。")
@@ -35,7 +35,7 @@ words5 = ["ボケ — わざと変なことを言う人",
           "ネタ — コントの話の内容"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in words5) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "コントのことば", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -44,9 +44,9 @@ for t in words5:
 ey3 = sy3 + sh + 26
 etvous = "あなたは？ハロウィンに、どんな仮装をしたいですか。日本語で2文、書いて、送ってください。"
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("¿Y tú? ¿De qué quieres disfrazarte en Halloween? Escribe dos frases en japonés y envíalas.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "あなたは？ · Cuéntanos", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "あなたは？　Cuéntanos", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "¿Y tú? ¿De qué quieres disfrazarte en Halloween? Escribe dos frases en japonés y envíalas.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -54,11 +54,11 @@ print("P5 col3 ends", ey3 + eh)
 
 # ---- P5 exercises ----
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · Ejercicios de la página 5", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · Niveles mezclados: busca por número", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　Ejercicios de la página 5", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　Niveles mezclados: busca por número", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P5-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("コントの記事を読んで、正しい答えを選んでください。")
 e.ex("B1", "Opción múltiple", "A", "La final fue el sábado 17 de octubre",
      "キングオブコントの決勝は何日でしたか。 A. 17日（土） · B. 20日（火） · C. 31日（土）", size=19, gap=6)
@@ -70,7 +70,7 @@ e.ex("B1", "Opción múltiple", "B", "Puntuación total: 1.342 puntos",
      "ジェラードンの合計点は？ A. 671点 · B. 1,342点 · C. 33点", size=19, gap=6)
 e.ex("B1", "Opción múltiple", "B", "El jurado pasó a 7 personas",
      "審査員は何人に増えましたか。 A. 5人 · B. 7人 · C. 19人", size=19, gap=6)
-e.head("B · 数字", 25)
+e.head("B　数字", 25)
 e.expl("第5版の数字を入れてください。")
 e.ex("B1", "Completar", "19", "Es el 19.º campeón",
      "ジェラードンは第 ___ 代の王者です。", instr="Completa", size=19, gap=6)
@@ -82,7 +82,7 @@ e.ex("B1", "Completar", "2,000", "Tirar basura: multa de 2.000 yenes",
      "ゴミを捨てると、罰金は ___ 円です。", instr="Completa", size=19, gap=6)
 e.ex("B1", "Completar", "1", "Hachikō estará vallado hasta el 1 de noviembre",
      "ハチ公の像がフェンスの中にあるのは、11月 ___ 日までです。", instr="Completa", size=19, gap=6)
-e.head("C · 正しい・正しくない", 25)
+e.head("C　正しい・正しくない", 25)
 e.expl("渋谷のルールについて、正しければ○、正しくなければ×を書いてください。")
 e.ex("B1", "Verdadero o falso", "×", "No se puede beber alcohol en la calle",
      "渋谷では、夜、道でお酒を飲むことができます。", instr="Verdadero/falso", size=19, gap=6)
@@ -92,7 +92,7 @@ e.ex("B1", "Verdadero o falso", "×", "El festival de cosplay es en Ikebukuro",
      "コスプレフェスは渋谷であります。", instr="Verdadero/falso", size=19, gap=6)
 e.ex("B1", "Verdadero o falso", "○", "Halloween es el sábado 31 de octubre",
      "ハロウィンは10月31日（土）です。", instr="Verdadero/falso", size=19, gap=6)
-e.head("D · 文を完成しましょう", 25)
+e.head("D　文を完成しましょう", 25)
 e.expl("第5版の文を完成してください。")
 e.ex("B1", "Completar", "飲む", "飲むことができません = no se puede beber",
      "駅の近くでは、道でお酒を ___ ことができません。", instr="Completa", size=19, gap=6)
@@ -110,11 +110,11 @@ print("P5 saved, exercises so far:", len(REG))
 # ================= P6 · 深読み (B2) =================
 CURPAGE[0] = 6
 p = BSPage4()
-p.band("深読み · ふかよみ", "Lucerna", "レベル B2 · アジアパラ競技大会 · Los Juegos Para Asiáticos, a fondo")
+p.band("深読み　ふかよみ", "Lucerna", "レベル B2　アジアパラ競技大会　Los Juegos Para Asiáticos, a fondo")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1440, tag="P6-feature")
-f.title("日本で初めてのアジアパラ競技大会", 37)
-f.byline("Lucerna編集部 · 読むレベル：B2")
+f.title("日本で初めてのアジアパラ競技大会", 32)
+f.byline("Lucerna編集部　読むレベル：B2")
 f.para("『第5回アジアパラ競技大会 愛知・名古屋2026』は、10月18日（日）に始まりました。最終日は24日（土）です。アジアパラ競技大会が日本で開かれるのは、今回が初めてです。")
 f.para("参加した国と地域は45で、過去最多でした。競技は18あります。日本の選手団は282人です。そのうち120人は初めての出場で、17人は2024年のパリ・パラリンピックの金メダリストです。")
 f.para("この大会は、2028年のロサンゼルス・パラリンピックへの道でもあります。たとえば車いすテニスでは、優勝した選手がロサンゼルス大会への出場権を直接得ることができます。（アジアデイリーの報道による）")
@@ -134,7 +134,7 @@ facts6 = ["45 — 参加した国と地域（過去最多）",
           "120 — 初めて出場する日本の選手"]
 sy3 = cy3 + 24
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts6) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "大会の数字", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -144,9 +144,9 @@ print("P6 col3 ends", sy3 + sh)
 
 # ---- practice chart (full width) ----
 chy = 1500
-p.text(MX, chy + 26, "グラフを読もう · Leemos el gráfico", 26, "sans", True, OLIVE)
-p.text(RIGHT, chy + 26, "練習用データ · Datos de práctica", 21, "sans", True, BRICK, anchor="end")
-p.hline(MX, RIGHT, chy + 40, GOLD, 2)
+p.text(MX, chy + 26, "グラフを読もう　Leemos el gráfico", 26, "sans", True, OLIVE)
+p.text(RIGHT, chy + 26, "練習用データ　Datos de práctica", 21, "sans", True, OLIVE, anchor="end")
+p.hline(MX, RIGHT, chy + 40, OLIVE, 2)
 p.text(MX, chy + 78, "会場で聞いた「見たい競技」（練習用データ — 実際の調査ではありません）", 22, "serif", True, INK)
 chart = [("車いすテニス", 34), ("水泳", 28), ("陸上", 22), ("その他", 16)]
 byy = chy + 104
@@ -159,11 +159,11 @@ p.para(MX, byy + 22, "このグラフは練習用データです。数字は全�
 
 # ---- P6 exercises ----
 ey = 1900
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "練習 · Ejercicios de la página 6", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Respuestas en la página 8 · Niveles mezclados: busca por número", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "練習　Ejercicios de la página 6", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Respuestas en la página 8　Niveles mezclados: busca por número", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P6-ex")
-e.head("A · 理解", 25)
+e.head("A　理解", 25)
 e.expl("第6版の文章を読んで、正しい答えを選んでください。")
 e.ex("B2", "Opción múltiple", "B", "Primera vez en Japón (es la 5.ª edición)",
      "アジアパラ競技大会が日本で開かれるのは？ A. 2回目 · B. 初めて · C. 毎年", size=19, gap=6)
@@ -175,7 +175,7 @@ e.ex("B2", "Opción múltiple", "A", "120 japoneses debutan en esta edición",
      "初めて出場する日本の選手は？ A. 120人 · B. 282人 · C. 17人", size=19, gap=6)
 e.ex("B2", "Opción múltiple", "B", "El campeón de tenis en silla va directo a Los Ángeles",
      "車いすテニスの優勝者は、どこへの出場権を直接得ますか。 A. パリ大会 · B. ロサンゼルス大会 · C. 名古屋大会", size=19, gap=6)
-e.head("B · グラフ", 25)
+e.head("B　グラフ", 25)
 e.expl("練習用データのグラフを見て答えてください。")
 e.ex("B2", "Completar", "車いすテニス", "El más votado: el tenis en silla de ruedas",
      "「見たい競技」で1位は ___ です。", instr="Completa", size=19, gap=6)
@@ -189,7 +189,7 @@ e.ex("B2", "Completar", "62", "34 + 28 = 62",
      "車いすテニスと水泳を合わせると ___ %です。", instr="Completa", size=19, gap=6)
 e.ex("B2", "Completar", "100", "Los cuatro valores suman 100 %",
      "4つの数字を全部足すと ___ %になります。", instr="Completa", size=19, gap=6)
-e.head("C · 数字と事実", 25)
+e.head("C　数字と事実", 25)
 e.expl("第6版の数字を入れてください。")
 e.ex("B2", "Completar", "17", "17 son medallistas de oro de París 2024",
      "日本の選手282人のうち、金メダリストは ___ 人です。", instr="Completa", size=19, gap=6)
@@ -199,7 +199,7 @@ e.ex("B2", "Completar", "5", "Es la 5.ª edición de los Juegos Para Asiáticos"
      "この大会は第 ___ 回のアジアパラ競技大会です。", instr="Completa", size=19, gap=6)
 e.ex("B2", "Completar", "2028", "Los Paralímpicos de Los Ángeles serán en 2028",
      "ロサンゼルスのパラリンピックは ___ 年です。", instr="Completa", size=19, gap=6)
-e.head("D · 正しい・正しくない", 25)
+e.head("D　正しい・正しくない", 25)
 e.expl("正しければ○、正しくなければ×を書いてください。")
 e.ex("B2", "Verdadero o falso", "×", "Es la primera vez que se celebran en Japón",
      "この大会は、日本で2回目です。", instr="Verdadero/falso", size=19, gap=6)

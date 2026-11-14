@@ -142,3 +142,17 @@ Method: everything re-derived independently; the builder's claims were not trust
 **Verification (this edition).** Pages 1–6 and 8 SVGs byte-identical to the previously shipped files. P7 SVG differs in exactly 4 text elements — the two seam line pairs, at unchanged coordinates (A2 lines at y=369.54/402.22: …本を読む季節で→…本を読む季 / す。→節です。; B1 lines at y=336.86/369.54: …スタジアムで大き→…スタジアム / な声が聞こえます。→で大きな声が聞こえます。); concatenated text identical on all 8 pages; exercise registry unchanged (150). Geometric occlusion audit (ink-extent, synthetic positive control passed): flags 24 → 22, the delta being exactly the two P7 TEXTX seam flags removed, zero new flags. Pixel check on the rendered P7 card: seam (a) B1 ink now ends at column 962, B2 ink starts 994 (31 clear columns); seam (b) A2 ink ends 502, B1 ink starts 528 (25 clear columns) — glyphs no longer touch at either seam.
 
 **Pins.** Web PDF: 3,185,683 B / sha256 519608cef8a07d977174caba10787d0670412ef0bd664c56412a8e766798ec3f → **3,186,184 B / sha256 6dee5721afa3017c6c67fc71b689602949efae271b7105f60ddf8a9b8fb0f124**. Print PDF: 42,005,328 B → 42,005,324 B. Repo re-pin by the main line.
+
+---
+
+## D5 rebuild (2026-11-13)
+
+SOP §1.1 字体修复（D5）：讲解层拉丁字母由 Noto Sans CJK 改走 Newsreader；西里尔字母改走 Noto Sans；日文正文仍走 Noto Sans/Serif CJK JP。施工不 commit、不 push；入仓由独立重校后的 closer 做。工作日志：`hidden_files/d5-redo/scratch-2026-w43-ja/logs/2026-w43-ja-pt/`；逐版报告：`production/notes/2026-w43/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w43-ja-pt.md`。
+
+**装机**：移植模板路线（D5-METHOD §1.7；安装器拒单已实测，见家族报告 §3–§4）。本版 svglib 取 `svglib-ja-d5.py`，`_D5_READER = "latin"`，与 W47 对应模式参照逐字节相同；`test_d5_routing.py` FAILURES: 0；fix2 + kinsoku 齐全。
+
+**基线**：run TOTAL 150；SVG 8/8 与 fanout 相同；印 PDF 41,607,204 B；pdfdiff vs 已发件 IDENTICAL 8/8；修前普查 D5 拉丁 418。
+
+**门禁**：17 门 + D18 中 16 门 + D18 全绿——run 150 / head_check 0 / d5 census 0 / render RC=0 / webpdf RC=0（2,533,330 B）/ occlusion 0 / p8 extract 150/150 / p8 compare CLEAN（keydiff [137, 138]）/ freeze baseline 8/8 / freeze diff 新增 CJK 0 / spill 0 / boxtitle 0 DEFECT / edge 0 TOUCH 0 NEAR / creambox PASS 0 defects（P8 221→221 行，slack 50.4px）/ print=web 文字层差 0 / census_quotes 0 defective / 刊头间距 279.9px PASS。门 15b `verify_textmd.py` carryover FAIL 为工具-格式口径差（基线同跑亦 FAIL；权威证据为 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT，0 UNEXPECTED）。
+
+**新交付物（实测值）**：印 PDF `Lucerna-VOL1-PT.pdf` 37,491,218 B / SHA-256 `83e222c52e65d8757dba6d6b952233c12fb655d791dec4b74d733a2752927dac`；网 PDF `2026-w43-ja-pt.web.pdf` 2,533,330 B / SHA-256 `31e4846b1fa38729ba9270518c4113dd87dbffe131e5267d76bec2a21989f01f`（D5 前已发版 2,731,539 B，`95925c197708…`）；text.md **新建** 47,074 B / SHA-256 `4f01e3a1006a1a50550b8d6baf7937b5ab3d0258cf234ed38801060a1297885a`。

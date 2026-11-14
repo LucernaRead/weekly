@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-ja-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · テストと答え =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("テストと答え · Test et réponses", "Lucerna", "第 8 面 · 週の大きなテスト + 全ての答え")
+p.band("テストと答え　Test et réponses", "Lucerna", "第8面　週の大きなテスト + 全ての答え")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.head("A　週のクロニクル", 21, OLIVE, 5)
 f.ex("B1", "Texte à trous", "A", "Le match 1 : samedi 24 octobre",
      "日本シリーズの第1戦は、10月24日（___）です。(A. 土よう日 · B. 日よう日)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "Le dernier jour des Jeux para-asiatiques est aussi le 24",
@@ -29,7 +29,7 @@ f.ex("B1", "Texte à trous", "A", "La Semaine de la lecture commence le mardi 27
      "読書週間は、10月 ___ 日（火）からです。(A. 27 · B. 31)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "B", "Halloween tombe le samedi 31 octobre",
      "ハロウィンは、10月 ___ 日（土）です。(A. 30 · B. 31)", size=13.8, gap=0)
-f.head("B · 一般問題", 21, OLIVE, 5)
+f.head("B　一般問題", 21, OLIVE, 5)
 f.ex("A2", "Choix multiple", "B", "45 pays et régions participants",
      "アジアパラ競技大会に参加した国と地域は？ A. 18 · B. 45 · C. 282", size=13.8, gap=0)
 f.ex("A2", "Choix multiple", "A", "282 athlètes japonais",
@@ -46,7 +46,7 @@ f.ex("A2", "Choix multiple", "B", "L'exposition du Shosoin dure jusqu'au 9 novem
      "正倉院展はいつまでですか。 A. 11月1日 · B. 11月9日 · C. 10月31日", size=13.8, gap=0)
 f.ex("B1", "Choix multiple", "C", "SoftBank : 91 victoires en saison",
      "ソフトバンクのレギュラーシーズンの勝ち数は？ A. 71 · B. 49 · C. 91", size=13.8, gap=0)
-f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.head("C　読んで答えましょう", 21, OLIVE, 5)
 f.para("ケンは大学生です。今週の土よう日、横浜スタジアムで日本シリーズの第1戦があります。ケンはチケットを買うことができませんでしたから、テレビで応援します。日よう日は、奈良の正倉院展へ行くつもりです。来週の読書週間には、図書館で本を3冊借りたいと思っています。", 15, lh=1.3, split=False)
 f.ex("A2", "Choix multiple", "B", "Samedi, Ken encourage devant sa télévision",
      "ケンは土よう日に何をしますか。 A. スタジアムへ行く · B. テレビで応援する · C. 奈良へ行く", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Choix multiple", "A", "Dimanche, l'exposition du Shosoin",
      "日よう日の予定は？ A. 正倉院展 · B. 図書館 · C. ハロウィン", size=13.8, gap=0)
 f.ex("B1", "Choix multiple", "B", "Il veut emprunter trois livres pendant la Semaine de la lecture",
      "読書週間に借りたい本は？ A. 2冊 · B. 3冊 · C. 9冊", size=13.8, gap=0)
-f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.head("D　文を作りましょう", 21, OLIVE, 5)
 f.ex("A2", "Former une phrase", "私は土よう日に試合を見ます。", "Sujet + temps + complément + verbe",
      "私は / 土よう日に / 試合を見ます → ___", instr="Former une phrase", size=13.8, gap=0)
 f.ex("A2", "Former une phrase", "紅葉は今週末が見頃です。", "見頃 = le meilleur moment",
@@ -65,7 +65,7 @@ f.ex("B1", "Former une phrase", "図書館で本を借ります。", "Le lieu de
      "図書館で / 本を / 借ります → ___", instr="Former une phrase", size=13.8, gap=0)
 f.ex("B1", "Former une phrase", "ジェラードンは1,342点で優勝しました。", "Score + で + 優勝しました",
      "ジェラードンは / 1,342点で / 優勝しました → ___", instr="Former une phrase", size=13.8, gap=0)
-f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.head("E　翻訳しましょう", 21, OLIVE, 5)
 f.ex("A2", "Traduction", "Le cortège part du jardin impérial de Kyoto à 12 h.", "Voir page 3",
      "行列は京都御苑を12時に出発します。 → ___", instr="Traduction", size=13.8, gap=0)
 f.ex("B1", "Traduction", "Jeter des déchets coûte 2 000 yens d'amende.", "Voir page 5",
@@ -74,7 +74,7 @@ f.ex("B1", "Traduction", "読書週間は来週の火よう日から始まりま
      "La Semaine de la lecture commence mardi prochain. → ___", instr="Traduction", size=13.8, gap=0)
 f.ex("B2", "Traduction", "私は池袋のハロウィンのイベントに行きたいです。", "Voir page 5 (l'événement d'Ikebukuro)",
      "Je veux aller à l'événement d'Halloween d'Ikebukuro. → ___", instr="Traduction", size=13.8, gap=0)
-f.head("F · 今週のことば", 21, OLIVE, 5)
+f.head("F　今週のことば", 21, OLIVE, 5)
 f.match_set("B2", "Appariement",
             ["見頃", "福袋", "行列", "勝率"],
             ["勝った割合（.650など）",
@@ -83,8 +83,8 @@ f.match_set("B2", "Appariement",
              "昔の服を着た人の列"],
             ["b", "c", "d", "a"],
             ["見頃 = le meilleur moment (b)", "福袋 = un ensemble de livres au contenu caché (c)", "行列 = le cortège (d)", "勝率 = le pourcentage de victoires (a)"],
-            instr="Associez chaque mot à sa définition")
-f.head("G · 図書館で", 21, OLIVE, 5)
+            instr="Associez mot et définition")
+f.head("G　図書館で", 21, OLIVE, 5)
 f.ex("B1", "Texte à trous", "A", "見せてください = montrez-moi, s'il vous plaît",
      "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "借りられます = pouvoir emprunter (forme potentielle)",
@@ -95,7 +95,7 @@ f.ex("B1", "Texte à trous", "A", "Les « 本の福袋 » sont très populaires 
      "— おすすめはありますか。— 『本の ___ 』が人気です。(A. 福袋 · B. 行列)", size=13.8, gap=0)
 f.ex("B1", "Texte à trous", "A", "どういたしまして = je vous en prie",
      "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
-f.head("H · 書いてみましょう", 21, OLIVE, 5)
+f.head("H　書いてみましょう", 21, OLIVE, 5)
 MODELO = ("私の秋の週末は、スポーツと読書の週末です。"
           "土よう日は、友達と家で日本シリーズを見ます。私はDeNAを応援します。"
           "試合の後は、近くの公園へ紅葉を見に行きます。"
@@ -110,13 +110,13 @@ f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 答え =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答え · Réponses — classées par page, cherchez le numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Une courte explication en français pour chaque réponse · ✓ = exercice avec modèle", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答え　Réponses — classées par page, cherchez le numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Une courte explication en français pour chaque réponse　✓ = exercice avec modèle", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Page {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:
