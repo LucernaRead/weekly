@@ -447,3 +447,76 @@ p5 `5f70d05d086b499b2a62026b56d17fc0c661849e1c32f97b159f31cd5e81ab98`,
 p6 `687c6d729360a0e700698f8c7823faeafd83c1fb340626457b59ab6425352919`,
 p7 `4c8fb3565faa1d255290ce89c3a1cb8e00c7f4954650489e98e416a4ec5c8342`,
 p8 `c78125b6b3a03f77531e53f36042b09f7cafd12752bfa1abbae5f651a996b099`.
+
+## D5 rebuild (2026-11-14)
+
+- 范围：D5 + §1.1 合并重建。旧样式生产源 → §1.1 组装（`style-port-ja` fanout，
+  MANIFEST-W45.md 逐文件 SHA 校验；svglib 另经 D1 波校验：反向还原 canonical §2a
+  hunk 后 SHA 与 MANIFEST 一致，11/11）+ D5 安装，一次重渲。
+- 安装：移植模板 `svglib-ja-d5.py` 原样装为版内 `svglib.py`，仅改 `_D5_READER`
+  一行 → `"cjk"`（CJK 读者：与 W47 ja-ko svglib 逐字节相同）。
+  路由单元测试 `test_d5_routing.py` FAILURES: 0；fix2（弯引号 → Newsreader）
+  保留；kinsoku（`NO_START`）齐全。zh-tw 另剥离 face= plumbing（`bslib4.py` + `content*.py` 共 106 处，只改 plumbing，不改任何文字；剥离后 `face` 残留 0，`py_compile` 全过）。
+  core 落盘：模板原样拷为 `production/2026-w45/core-ja/svglib.py`（`_D5_READER = "latin"`，
+  与 W47 core-ja svglib 逐字节相同，28,392 B）；安装器 `--patch-core` 对旧式 core
+  拒单已实测（`FATAL: old-style svglib (no _char_font)`，日志 `logs/installer-refusal-core.log`）。
+- 基线（组装后新样式源，scratch `baseline/`）：run.py TOTAL 150、FLOW 0、
+  HEAD 0；SVG 8/8 与 fanout 逐字节相同；textexp 与 fanout `.text.md.new`
+  逐字节相同（44568 B）；印 PDF 26004909 B，
+  SHA 与 fanout 印 PDF 一致（`df60c47b2143a345ef69a18ccfbbbc136d4312d57fc60407dcb1a838c88ef3a9`）；网 PDF 文字层与已发网 PDF
+  `pdf_text_diff_ja.py` IDENTICAL 8/8；印/网文字层多重集差 0；修前普查
+  d5_latin_in_cjk 206（>0 ✓）、curly_in_cjk 0。
+  网 PDF 字节与 fanout 不符为预期：`tools/webpdf.py` 2026-11-11 改版（commit `40963281`，
+  weight + italic face resolution），D1 波（11-09）所用为旧版；文字层一致为准。
+- 二次修复：
+- F1: P1 信用行（右栏奶油框内） — 字号 18.5→18.0（只改该行，不改文案） (`content12.py:87` 18.5 → 18.0); P8 boxtitle 1 DEFECT（P1 [BODY] over=+6.5px right；与 de 同行同几何，基线同报，pre-existing，非 D5 引入）→P8 1251 元素，boxtitle 0 DEFECT 行，页脚余量 76.0px
+- 门禁（16 门 + D18 + D37；门 17 N/A，本家无 gates.py）：**ALL-GREEN**
+- 1 run: PASS
+- 2 head_check: PASS
+- 3 D5 census: PASS (latin None / cyrillic None / curly-in-CJK None)
+- 4 render: PASS
+- 5 webpdf: PASS
+- 6 occlusion: PASS
+- 7 p8 extract: PASS (noted 150/150)
+- 8 p8 compare: PASS (CLEAN, keydiff [138])
+- 9 freeze baseline: PASS
+- 10 freeze diff: PASS
+- 11 spill: PASS
+- 12 boxtitle: PASS
+- 13 edge: PASS
+- 14 creambox: PASS (P8 1251 元素，末行 y=2624.0，距页底余量 76.0px)
+- 15a print=web: PASS
+- 15b carryover: FAIL (D27: 共享校验器 ja 格式已知口径差，基线亦 FAIL；验收见 15a+15c)
+- 15c native verify: PASS
+- 16 census_quotes: PASS
+- 17 gates.py: PASS
+- D18 masthead: PASS (gap 327.2px)
+- D37 P1 y~612: PASS (end 257.2pt vs 框缘 1439.5pt, over -1182.3pt)
+- 新交付物（实测，scratch `patched/2026-w45-ja-zh-tw/`）：
+  - 印 PDF `Lucerna-VOL2-ZHTW.pdf`：**24935962 B**，
+    sha256 `592719d357886f2c43dfe6cdbcbda151e86b93e31a726ca3349c782a17f41109`（49 个嵌入字体）。
+  - 网 PDF `2026-w45-ja-zh-tw.web.pdf`：**2628268 B**（< 7 MB），sha256 `a0d804d943c16a01a064f16bd1707d2dbb377e4b12c3680cd4c2bf0cacb80181`。
+  - `2026-w45-ja-zh-tw.text.md`（新建；W45 ja 无已发 `.text.md`）：**44565 B**，
+    sha256 `d2c3475ded04eef0f3cf551223168bc583a4dc125fafad330ac3d2a36180dd59`；基线导出与 fanout `.text.md.new` 逐字节相同，
+    D5 导出经 ja 原生校验器 `verify_textexp_ja.py --edition` ADOPT（0 UNEXPECTED）。
+- 日志：`logs/2026-w45-ja-zh-tw/GATES-SUMMARY.txt`（总表）；D5 报告
+  `production/notes/2026-w45/g-ja/scratch-d5-rebuild-ja/D5-REPORT-2026-w45-ja-zh-tw.md`。
+  本节只追加，不改上文旧 pin（旧 pin 为 port 前旧样式值，已过时；新值以本节为准）。
+
+## D5 fix — 重校 F1/F2 (2026-11-15)
+
+- 来源：独立重校 `FAMILY-W45-JA-REPROOF.md` §8，verdict NOT PASSED。F1/F2 均为基线既有、D5 零回归（patched 与基线逐字相同）；按 D33/D36 前例计为 finding，须修。本节只追加，不改上文 `## D5 rebuild (2026-11-14)` 节；本节 pin 为最新实测值，以本节为准。
+- F1：P8 答案区 31 条注释未译成中文（题号 11, 12, 13, 14, 15, 19, 21, 22, 23, 24, 27, 28, 61, 62, 63, 64, 76, 77, 78, 80, 83, 84, 85, 86, 87, 98, 99, 100, 111, 112, 119）。修法：按 de/ko/ru 对照措辞逐条译成繁体中文（27/28 的 ＝ 后释义亦译；80 补中文释义）；不改答案字母、题号与事实。改动文件（patched/ 与 production 同步改动，改后两边逐字一致；patched↔production 全文件 diff 与修前逐字节相同，既有 plumbing 差——content12 行号差 1、face= 剥离、band 分隔符——原样保留）：
+  - `content12.py:245` 题 11–15、`content12.py:263` 题 19、`content12.py:269` 题 21–24、`content12.py:285` 题 27、28（`match_set` 注释表行）
+  - `content34.py:209` 题 61–64
+  - `content56.py:88` 题 76–78、80、`content56.py:174` 题 83–87、`content56.py:210` 题 98–100
+  - `content7.py:56` 题 111、112
+  - `content8.py:28` 题 119
+  逐条译文对照见 fix 报告 `FAMILY-W45-JA-FIX.md` §1。任务书“只改 content8.py”与源码实测不符（仅题 119 在 `content8.py`；其余 30 条分属 `content12.py`/`content34.py`/`content56.py`/`content7.py`，以 REG 注册顺序模拟 150/150 核实），以源码实测为准。
+- F2：本版无（zh-cn 专属；本版 `content34.py:104` 的 `オーケストラ＝杉並 d` 繁体 並 正确，不动）。
+- 门禁（fix 后重跑，`logs/2026-w45-ja-zh-tw/GATES-SUMMARY.txt`）：除 15c 外与 builder 终表逐字段相同；15a print=web 差仍为 0（印/网各 16357 字符，修前 16416）；15c 原生校验器 HOLD（UNEXPECTED 12 块 = 仅 F1 的 31 行；P1–P7 tokens identical；REWRAP 30 与修前相同）——内容修复的预期形态（fix verdict 天生带 15c 红；15b 仍为 D27 已知口径差 FAIL，不计）。其余门全 PASS；ALL-GREEN=False 唯一原因即 15c HOLD。P8 1251 元素、末行 y=2624.0、余量 76.0px，均与修前相同。门 9 freeze baseline 8/8 PASS；因 ALL-GREEN=False，freeze build-copy 未按惯例删除（42M，暂留 scratch，待 closer 处置）。
+- 新交付物（fix 后实测，scratch `patched/2026-w45-ja-zh-tw/`；以下 pin 取代上节同名 pin）：
+  - 印 PDF `Lucerna-VOL2-ZHTW.pdf`：**24942060 B**（修前 24935962 B），sha256 `c780d0af0f2baa727d5148ed189e40a52d5472a2dc23d220545cea50ee02bfdc`（修前 `592719d357886f2c43dfe6cdbcbda151e86b93e31a726ca3349c782a17f41109`）。
+  - 网 PDF `2026-w45-ja-zh-tw.web.pdf`：**2642116 B**（修前 2628268 B），sha256 `95de660c4b8a071471272a2e71376fb277a19f0f311b58475b64d0b80237c99d`（修前 `a0d804d943c16a01a064f16bd1707d2dbb377e4b12c3680cd4c2bf0cacb80181`）。
+  - `2026-w45-ja-zh-tw.text.md`：**44378 B**（修前 44565 B），sha256 `9a894ff2ef476498d1f4bd158f3c0ee3cf8b46db0c727c07ca015f7d197872e5`（修前 `d2c3475ded04eef0f3cf551223168bc583a4dc125fafad330ac3d2a36180dd59`）；与 builder text.md 的 diff 恰为 F1 的 31 行（62 个 diff 行，无其他改动、无换行移动）。
+- 日志：`logs/2026-w45-ja-zh-tw/GATES-SUMMARY.txt`（fix 后总表，复本已同步进 `production/notes/2026-w45/g-ja/scratch-d5-rebuild-ja/logs/2026-w45-ja-zh-tw/`，D29 `cmp` 逐字节验）；fix 报告 `hidden_files/d5-redo/FAMILY-W45-JA-FIX.md`。

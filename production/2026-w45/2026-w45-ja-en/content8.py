@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-en/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · テストと答え =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("テストと答え · Test and answers", "Lucerna", "第 8 面 · 週の大きなテスト + 全ての答え")
+p.band("テストと答え　Test and answers", "Lucerna", "第8面　週の大きなテスト + 全ての答え")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 週のクロニクル", 21, OLIVE, 5)
+f.head("A　週のクロニクル", 21, OLIVE, 5)
 f.ex("B1", "cloze", "A", "Culture Day is November 3 (Tuesday)",
      "文化の日は、11月3日（___）です。(A. 火よう日 · B. 土よう日)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "Reading Week runs to November 9",
@@ -29,7 +29,7 @@ f.ex("B1", "cloze", "A", "Nabe dinners are 1.5 times last year's",
      "鍋の食卓は、去年の ___ 倍になりました。(A. 1.5 · B. 2)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "The Kobe light-up starts on the 7th",
      "神戸のライトアップは、___ 日から始まります。(A. 7 · B. 3)", size=13.8, gap=0)
-f.head("B · 一般問題", 21, OLIVE, 5)
+f.head("B　一般問題", 21, OLIVE, 5)
 f.ex("A2", "multiple choice", "A", "The Suginami event is a family orchestra",
      "杉並区のイベントは何ですか。 A. 家族オーケストラ · B. 伝統工芸展 · C. 野球の試合", size=13.8, gap=0)
 f.ex("B1", "multiple choice", "B", "The exhibition runs to November 8",
@@ -46,7 +46,7 @@ f.ex("B2", "multiple choice", "A", "Kyushu travel searches are nearly twice last
      "九州の旅の検索は、去年と比べてどうなりましたか。 A. ほぼ2倍 · B. 半分 · C. 同じ", size=13.8, gap=0)
 f.ex("A2", "multiple choice", "A", "The slogan is 「静かだけど、冒険中。」",
      "読書週間のスローガンは？ A. 静かだけど、冒険中。 · B. 本の秋 · C. 紅葉の秋", size=13.8, gap=0)
-f.head("C · 読んで答えましょう", 21, OLIVE, 5)
+f.head("C　読んで答えましょう", 21, OLIVE, 5)
 f.para("ミカは高校生です。今週の火よう日は文化の日です。ミカは家族と金沢へ行くつもりです。伝統工芸展とライトアップを見たいです。土よう日には、友達と神戸へ紅葉を見に行くつもりです。読書週間には、図書館で本を2冊借りたいと思っています。", 15, lh=1.3, split=False)
 f.ex("A2", "multiple choice", "B", "On Tuesday Mika goes to Kanazawa with her family",
      "ミカは火よう日に何をしますか。 A. 神戸へ行く · B. 家族と金沢へ行く · C. 図書館へ行く", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "multiple choice", "A", "On Saturday she goes to Kobe with friends",
      "土よう日にどこへ行きますか。 A. 神戸 · B. 金沢 · C. 杉並区", size=13.8, gap=0)
 f.ex("B1", "multiple choice", "B", "She wants to borrow 2 books for Reading Week",
      "読書週間に借りたい本は？ A. 3冊 · B. 2冊 · C. 9冊", size=13.8, gap=0)
-f.head("D · 文を作りましょう", 21, OLIVE, 5)
+f.head("D　文を作りましょう", 21, OLIVE, 5)
 f.ex("A2", "sentence building", "私は火よう日に金沢へ行きます。", "subject + time + place + verb",
      "私は / 火よう日に / 金沢へ行きます → ___", instr="Build a sentence", size=13.8, gap=0)
 f.ex("A2", "sentence building", "紅葉は今週末が見頃です。", "見頃 = best viewing season",
@@ -65,7 +65,7 @@ f.ex("B1", "sentence building", "図書館で本を借ります。", "use 「で
      "図書館で / 本を / 借ります → ___", instr="Build a sentence", size=13.8, gap=0)
 f.ex("B1", "sentence building", "ソフトバンクは2連勝でスタートしました。", "starting with two straight wins",
      "ソフトバンクは / 2連勝で / スタートしました → ___", instr="Build a sentence", size=13.8, gap=0)
-f.head("E · 翻訳しましょう", 21, OLIVE, 5)
+f.head("E　翻訳しましょう", 21, OLIVE, 5)
 f.ex("A2", "translation", "Culture Day is November 3.", "See page 3",
      "文化の日は11月3日です。 → ___", instr="Translate", size=13.8, gap=0)
 f.ex("B1", "translation", "If you drop litter, the fine is 2,000 yen.", "See page 5",
@@ -74,7 +74,7 @@ f.ex("B1", "translation", "読書週間は10月27日から始まります。", "
      "Reading Week starts on October 27. → ___", instr="Translate", size=13.8, gap=0)
 f.ex("B2", "translation", "神戸の紅葉のライトアップを見に行きたいです。", "See page 6 (Kobe illuminations)",
      "I want to go to Kobe to see the autumn-leaf illuminations. → ___", instr="Translate", size=13.8, gap=0)
-f.head("F · 今週のことば", 21, OLIVE, 5)
+f.head("F　今週のことば", 21, OLIVE, 5)
 f.match_set("B2", "matching",
             ["見頃", "鍋", "落葉", "予算"],
             ["木から落ちた葉",
@@ -84,7 +84,7 @@ f.match_set("B2", "matching",
             ["b", "d", "a", "c"],
             ["見頃 = best viewing season b", "鍋 = one-pot dish d", "落葉 = fallen leaves a", "予算 = budget c"],
             instr="Match words to meanings")
-f.head("G · 図書館で", 21, OLIVE, 5)
+f.head("G　図書館で", 21, OLIVE, 5)
 f.ex("B1", "cloze", "A", "見せてください = please show",
      "— 本を借りたいです。— はい、カードを ___ ください。(A. 見せて · B. 見て)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "借りられます = can borrow (potential form)",
@@ -95,7 +95,7 @@ f.ex("B1", "cloze", "A", "「紅葉の本」 is popular",
      "— おすすめはありますか。— 『___ 』の本が人気です。(A. 紅葉 · B. 野球)", size=13.8, gap=0)
 f.ex("B1", "cloze", "A", "どういたしまして = you're welcome",
      "— ありがとうございました。— ___ 。(A. どういたしまして · B. さようなら)", size=13.8, gap=0)
-f.head("H · 書いてみましょう", 21, OLIVE, 5)
+f.head("H　書いてみましょう", 21, OLIVE, 5)
 MODELO = ("私の11月の週末は、文化と紅葉の週末です。"
           "火よう日は、家族と金沢へ行きます。伝統工芸展とライトアップを見たいです。"
           "土よう日は、友達と神戸へ紅葉を見に行きます。夜は、ライトアップを見ます。"
@@ -110,13 +110,13 @@ f.para("例： " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= 答え =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答え · Answers — grouped by page; just find your number", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "A short English note with every answer · ✓ = the model-text item", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答え　Answers — grouped by page; just find your number", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "A short English note with every answer　✓ = the model-text item", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— Page {pg} —", 13.3, "sans", True, OLIVE, lh=1.16, gap=2, split=False)
     for e_ in by_page[pg]:

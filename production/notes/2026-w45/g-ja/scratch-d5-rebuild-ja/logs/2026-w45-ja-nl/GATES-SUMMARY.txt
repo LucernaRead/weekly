@@ -1,0 +1,23 @@
+GATES-SUMMARY 2026-w45-ja-nl  ALL-GREEN=True
+rebuild: print 24750794B sha 752de3fa32a1eba9 fonts 49 | web 2240657B sha 407913e453006f7c | text.md 46864B sha 6fb2339c938b77ae
+gate 1: pass=True {"rc": 0, "total": 150, "flow": 0, "head": 0, "pass": true}
+gate 2: pass=True {"rc": 0, "defects": 0, "pass": true, "tail": "HEAD CHECK PASS 0 defects"}
+gate 3: pass=True {"rc": 0, "totals": {"elements": 3567, "newsreader_elements": 2061, "curly_total": 1, "curly_in_newsreader": 1, "cjk_sans_elements": 275}, "noto_sans_elements_ru": 0, "pass": true}
+gate 4: pass=True {"rc": 0, "pass": true}
+gate 5: pass=True {"rc": 0, "bytes": 2240657, "pass": true}
+gate 6: pass=True {"rc": 0, "flags": 0, "pass": true, "tail": "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ja/patched/2026-w45-ja-nl/svg: 0 flags"}
+gate 7: pass=True {"rc": 0, "noted": 150, "pass": true, "tail": "  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 4"}
+gate 8: pass=True {"rc": 0, "verdict": "CLEAN", "keydiff": [137, 138], "expected": [137, 138], "pass": true}
+gate 9: pass=True {"rc": 0, "match": "8/8", "pass": true, "tail": "core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)", "build_copy": "deleted (ALL-GREEN)"}
+gate 10: pass=True {"rc": 0, "json": {"core_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ja/baseline/2026-w45-ja-nl/svg", "edition_svg": "/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ja/patched/2026-w45-ja-nl/svg", "runtime": {"executable": "/home/hatch/workspace/weekly-git/tools/venv/bin/python", "pillow": "13.0.0", "freetype": "2.14.3"}, "pages": {"1": {"added_strings": [{"text": " ", "count": 6}, {"text": "11", "count": 1}, {"text": "2", "count": 3}, {"text": "2026", "count": 1}, {"text": "
+gate 11: pass=True {"rc": 0, "spill": 0, "observe": null, "pass": true, "tail": "SPILL_SWEEP 2026-w45-ja-nl: 32 boxes, 76 candidates, 0 SPILL, 76 OBSERVE"}
+gate 12: pass=True {"rc": 0, "defects": 0, "backup": true, "pass": true, "tail": "BOXTITLE 2026-w45-ja-nl: 35 titles, 479 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal"}
+gate 13: pass=True {"rc": 0, "touch": 0, "near": 0, "pass": true, "tail": "EDGE_SCAN 2026-w45-ja-nl: 8 pages, 0 TOUCH, 0 NEAR"}
+gate 14: pass=True {"rc": 0, "defects": 0, "json": {"pages": {"p1-hyoushi.svg": {"elements_base": 320, "elements_patch": 385, "fam_base": {"Noto Sans CJK JP": 68, "UnifrakturMaguntia": 1, "Noto Serif CJK JP": 144, "Newsreader": 107}, "fam_patch": {"Newsreader": 189, "Noto Sans CJK JP": 51, "UnifrakturMaguntia": 1, "Noto Serif CJK JP": 144}, "chars_base": {"Noto Sans CJK JP": 949, "UnifrakturMaguntia": 7, "Noto Serif CJK JP": 1056, "Newsreader": 242}, "chars_patch": {"Newsreader": 949, "Noto Sans CJK JP": 242, "UnifrakturMaguntia": 7, "Noto Serif CJK JP": 1056}, "lines_base": 100, "lines_patch": 100, "lines_same"
+gate 15a: pass=True {"diff": 0, "print_chars": 22249, "web_chars": 22249, "pass": true}
+gate 15b: pass=False {"rc": 1, "pass": false, "note": "D27 known tool gap for ja format (baseline also FAILs); not a finding", "tail": "CARRYOVER: FAIL"}
+gate 15c: pass=True {"rc": 0, "adopt": true, "pass": true, "tail": "verdict: ADOPT (0 UNEXPECTED)"}
+gate 16: pass=True {"rc": 0, "pass": true, "tail": "GRAND TOTAL defective: 0"}
+gate 17: pass=True {"pass": true, "note": "N/A: ja family has no gates.py"}
+gate D18: pass=True {"gap": 317.5, "groups": 3, "pass": true}
+gate D37: pass=True {"end_x": 334.1, "box_edge": 1439.5, "over": -1105.4, "pass": true, "descriptor": [[538.3, 746.4, "TEKSTEN IN HET JAPANS"], [746.4, 762.4, "　"], [762.4, 1411.6, "UITLEG IN HET NEDERLANDS — DE EDITIE VOOR NEDERLANDSTALIGE LEZERS"]]}

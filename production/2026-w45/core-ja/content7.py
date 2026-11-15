@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ja-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · ことば (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("ことば · 语言", "Lucerna", "言語フォーカス · 三つのレベル、三つのテーマ · 三个级别，三个主题")
+p.band("ことば　语言", "Lucerna", "言語フォーカス　三つのレベル、三つのテーマ　三个级别，三个主题")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 本と読書のことば", 24)
+a.head("A2　本と読書のことば", 24)
 a.para("読書週間は、今週も続いています。10月27日（火よう日）に始まり、11月9日（月よう日）までです。今年のスローガンは『静かだけど、冒険中。』です。秋は『読書の秋』。本を読む季節です。", 21.5)
 a.para("図書館では、読書週間のイベントがあります。本の紹介や読み聞かせです。静かな場所で、本の世界へ出かけましょう。", 21.5)
 a.bridge("読書週間 读书周 · 紹介 介绍 · 読み聞かせ 朗读。")
@@ -29,7 +29,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 紅葉のことば", 24)
+b.head("B1　紅葉のことば", 24)
 b.para("紅葉の季節のことばを覚えましょう。『見頃』は、紅葉がいちばん美しい時です。『紅葉狩り』は、紅葉を見に行くことです。『ライトアップ』は、夜に光で照らすことです。", 21.5)
 b.para("『落葉』は、木から落ちた葉です。見頃が過ぎると、落葉の季節になります。北から南へ、紅葉の見頃は移っていきます。", 21.5)
 b.bridge("見頃 最佳观赏期 · 紅葉狩り 看红叶出游 · 落葉 落叶")
@@ -45,7 +45,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 数字を読む", 24)
+c.head("B2　数字を読む", 24)
 c.para("数字の読み方を練習しましょう。『1.5倍』は、去年の1倍に、半分（0.5倍）を足した数です。つまり、去年より50%多い、という意味です。", 21.5)
 c.para("『73%』は、100人のうち73人、という意味です。4人のうち3人ぐらい、と考えると分かりやすいです。『1,300万食』は、1,300万回食べられた、という数です。", 21.5)
 c.bridge("〜倍 倍 · 〜% 百分之〜 · 〜万食 万份。")
@@ -53,9 +53,9 @@ c.ex("B2", "单选", "B", "1.5倍＝比去年多50%",
      "『1.5倍』の意味は？ A. 去年と同じ · B. 去年より50%多い · C. 去年の半分", size=20.5, gap=10)
 c.ex("B2", "单选", "A", "73%≈4人中的3人",
      "『73%』は、4人のうち何人ぐらいですか。 A. 3人ぐらい · B. 1人ぐらい · C. 4人全部", size=20.5, gap=10)
-c.ex("B2", "完成句子", "1.5", "鍋の食卓は去年の1.5倍",
+c.ex("B2", "完成句子", "1.5", "火锅餐桌是去年的1.5倍",
      "鍋の食卓は、去年の ___ 倍になりました。（2面）", instr="填空", size=20.5, gap=10)
-c.ex("B2", "完成句子", "1,300", "サクサクdeコパンが1,300万食",
+c.ex("B2", "完成句子", "1,300", "サクサクdeコパン1,300万份",
      "『サクサクdeコパン』は ___ 万食を超えました。（2面）", instr="填空", size=20.5, gap=10)
 c.end_report()
 
@@ -68,21 +68,21 @@ errs = [
     ("「金沢に紅葉を見ます」", "→ 場所は『で』：『金沢で紅葉を見ます』。", "动作发生的场所用「で」。"),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "まちがい診療所 · 易错诊所", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "まちがい診療所　易错诊所", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "『ゆるく整える』 — ゆるく（無理をしないで）＋整える（体と心をよくする）。忙しい人でも、ゆっくり体を整える、という意味です。"
 wcn = "句式拆解：轻松地调理身心。"
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "今週のフレーム · 本周句式", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "今週のフレーム　本周句式", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -91,9 +91,9 @@ lt = "「こんにちは。私は中学生です。読書週間には、図書�
 ld = "※この手紙は編集部の例です。締め切りまでに、本当の読者の手紙と第8版の作文の優秀作は届きませんでした。VOL.3に載せます。"
 lcn = "编辑部示例信，非真实来信。截至截稿，未收到真实来信与第8版最佳作文；VOL.3将刊登收到的来信与佳作。"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(ld, "serif", False, 20.5, CW - 44)) * 29 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 26 + 16
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "読者の手紙 · 读者园地", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "読者の手紙　读者园地", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 20, ld, 20.5, "serif", False, GREY, CW - 44, 1.42) + 10
@@ -103,8 +103,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "今週のフレーズ · 本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "今週のフレーズ　本周金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
 quotes = [
     ("「文化の日は、11月3日（火よう日）です。」", "文化日是11月3日星期二。", "第1面"),
     ("「ゆっくり、ゆるく整える日本の11月です。」", "这是一个慢慢地、轻松调理的日本11月。", "第1面"),
@@ -124,9 +124,9 @@ for i, (q, cn, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 132 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "来週 · 下期预告 (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "来週　下期预告 (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "読書週間が終わります（9日・月）。日本シリーズの最終結果も総括します。紅葉の見頃の続きと、読者の手紙と第8版の作文の優秀作も載せます。お楽しみに！", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-kotoba.svg")
