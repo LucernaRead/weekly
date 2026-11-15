@@ -112,7 +112,7 @@ f.para("Пример: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 p.hline(MX, RIGHT, 1264, OLIVE, 2)
-p.text(MX, 1302, "ОТВЕТЫ　LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN", 25, "sans", True, OLIVE)
+p.text(MX, 1302, "ОТВЕТЫ　LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN", 23, "sans", True, OLIVE)
 p.text(RIGHT, 1302, "Jede Lösung mit einer kurzen deutschen Erläuterung　✓ markiert Mustertextaufgaben", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:

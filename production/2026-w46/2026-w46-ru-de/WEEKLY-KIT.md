@@ -121,3 +121,23 @@ Root cause: the 20.5 pt bridge wrapped to two lines; when only one line fit at t
 - Visual checks at full frame: P5 card (this edition), plus the D2/D3 pages where applicable (P3/P4 in D2 editions, P8 in ja) — instructions complete at home positions, no stray fragments, no overflow, footer clear.
 - Full fix report + gate JSONs/logs: `hidden_files/w46/ru-fix/FIX-REPORT.md` and `hidden_files/w46/ru-fix/`. A Round 2 independent proofread follows; re-gating does not replace it.
 - Delivery: still finalized, NOT pushed, NOT posted — repo insertion remains the coordinator's (serialized) step. No git push, no Discord post, no user message was made from this fix work.
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target ru --reader de --week 2026-w46`（先 `--check` 干跑）；模式 latin；`_D5_READER` 在 `svglib.py:107` = `latin`；fix2 保留（`_QUOTE_CLS` ×4）；ru 目标语内容走旧 `_D5_READER == "ru"` 分支（D26；fix-xru 为 W47-only，未引入）；`test_d5_routing.py` **FAILURES: 0**。
+- 修前普查（基线）：D5 Latin in CJK 441、Cyrillic in CJK 0、curly in CJK 0；修后 run2 普查全 0（G3 PASS）。
+- 修复 2 处（只降字号，探针：SVG 实测墨宽线性缩放、取留 ≥2px 余量的最大适配字号）：
+  - `content56.py:135` P6 标题 `ЗА И ПРОТИВ　PRO UND CONTRA` 24→22pt（G12/G14 +25.7px；探针余量 8.1px；D47，见下）
+  - `content8.py:115` P8 刊头 `ОТВЕТЫ　LÖSUNGEN — …` 25→23pt（G6 真碰撞 +82.4px；探针余量 0.6px；D47，见下）
+- 终轮门禁（run2）：16/19 scored gates PASS。G6 仅剩 P1 斜体 `предзимье` 旗标——D41 量测 artifact（见家族报告 §0，基线同态、300 dpi 像素实隙 1.9 SVG 单位，重校复核）；其余 18 门全绿。
+- D47：本版导出器 `###` 行丢失 2 行（p.text 标题压到 24pt 以下，`textexp_ru.py:169` 阈值）：
+  - `### ЗА И ПРОТИВ　PRO UND CONTRA`（已发版第 347 行）
+  - `### ОТВЕТЫ　LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN`（已发版第 514 行）
+  builder 只记录、不补行；closer 按 D47 补行后 text.md 即已发版值（字节 + SHA 见下已发版行）。G15a/G15c 因此 HOLD（非内容缺失：标题文字仍在终轮印 PDF 文字层内，PDF 文字层与已发版去空白多重集差 0）。
+
+### D5 deliverable pins (run2, builder originals)
+
+- 印 PDF `Lucerna-VOL3-ru-de.pdf`：14204989 字节，SHA-256 `bb108ea0a3c1299f764e4914eb13c5c36512e3191c8c2518c0a34420d0831731`
+- 网 PDF `2026-w46-ru-de.web.pdf`：2324509 字节，SHA-256 `053e4399d047a3af863973d83850c0c77c19367ac97be29b38deb7173e4d4dc1`（网 PDF 非确定性，以终轮实测为准；closer 拷 builder 原件，绝不重跑 webpdf）
+- text.md（导出器输出，`logs/2026-w46-ru-de/2026-w46-ru-de.text.md.run2`）：54804 字节，SHA-256 `aba0c199d58a216b30817d9c4cb132bf044b1ddc622e03395ae81327974c0548`
+- text.md（已发版值，D47 closer 补行后即此值）：54925 字节，SHA-256 `94d20967435353ab83f50917b1d43d097562514c31559e713854500b249e3948`

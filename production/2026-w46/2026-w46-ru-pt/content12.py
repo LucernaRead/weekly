@@ -44,7 +44,7 @@ f.box("НЕДЕЛЯ В ЦИФРАХ　EM NÚMEROS", [
     ("10 — ноября, вторник: День полиции(10 de novembro — Dia da Polícia)", "serif", False, INK, 20, 1.35),
     ("11 — ноября, среда: день распродажи 11.11(o dia dos descontos)", "serif", False, INK, 20, 1.35),
     ("20 — рабочих дней в ноябре всего(20 dias úteis em novembro)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22)
 f.head("СЕЙЧАС ВЫ　AGORA VOCÊ", 25)
 f.ex("A2", "Completar frases", "9", "Segunda-feira, 9 de novembro",
      "Обычная неделя начинается ___ ноября.", size=19.5, gap=6)
@@ -64,7 +64,7 @@ gx, gw = COLX[3], CW
 gy = 588
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "О ЧЁМ ПИШУТ", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "СМИ　O QUE DIZEM OS MEDIA", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "СМИ　O QUE DIZEM OS MEDIA", 24, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Главные темы недели в российских СМИ", 19, "sans", False, GREY)
 topics = [
     "Обычная неделя: пять рабочих дней",

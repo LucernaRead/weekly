@@ -112,7 +112,7 @@ f.para("Пример: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 p.hline(MX, RIGHT, 1264, OLIVE, 2)
-p.text(MX, 1302, "ОТВЕТЫ　RESPOSTAS — ORDENADAS POR PÁGINA; PROCURE O NÚMERO DO EXERCÍCIO", 25, "sans", True, OLIVE)
+p.text(MX, 1302, "ОТВЕТЫ　RESPOSTAS — ORDENADAS POR PÁGINA; PROCURE O NÚMERO DO EXERCÍCIO", 24.5, "sans", True, OLIVE)
 p.text(RIGHT, 1302, "Cada resposta com uma breve nota em português　✓ = texto modelo", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:

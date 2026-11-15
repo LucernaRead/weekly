@@ -1,0 +1,24 @@
+GATES-SUMMARY 2026-w46-ru-de run2 — 16/19 scored gates PASS
+patched dir: 2026-w46-ru-de
+G1 run: PASS — TOTAL=150 OVF=0 HDW=0
+G2 head_check: PASS — HEAD CHECK PASS 0 defects
+G3 d5_census: PASS — D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=354
+G4 render: PASS — render_rc=0
+G5 webpdf: PASS — web=2324509 B
+G6 occlusion: FAIL — flags=1
+  G6 flag:  — {"page": "p1-pervaya.svg", "class": "TEXTX", "text": "предзимье", "box": [1450.7, 1700.2, 1568.5, 1717.2], "detail": "ink overlaps '»' by 4.8x9.8px", "by": "text@665"}
+G7 p8_extract: PASS — noted=150/150
+G8 p8_compare: PASS — CLEAN keydiff=[137, 138, 139, 140] missing=[] extra=[]
+G9 freeze_baseline: PASS — 8/8 (core integrity: shipped core SVGs unchanged by the run (8 files re-hashed))
+G10 freeze_diff: PASS — CJK added 0; Latin added 145
+G11 spill: PASS — SPILL=0
+G12 boxtitle: PASS — defects=0 titles=56 body_lines=655 backup_dir=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-ru/backup/scratch-fanout-w46-ru/backup/2026-w46-ru-de
+G13 edge: PASS — pages=8 TOUCH=0 NEAR=0
+G14 creambox: PASS — P8 lines 236->236 slack 43.5->43.5; ratios n=388 med=1.04 boldT=1.04 boldF=1.002
+G15a textlayer+text.md: FAIL — /home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead. |   warnings.warn( | chars print=35641 web=35641 issued=35851 | print-web raw multiset diff=0 strippe ;; pdfdiff: verdict: IDENTICAL
+G15b carryover (record only): RECORD — carryover: reader=de edition=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-ru/patched/2026-w46-ru-de textmd=/home/hatch/workspace/weekly-git/issues/2026-w46/2026-w46-ru-de/2026-w46-ru-de.text.md | svg tokens: 3903 (unique 1194); md tokens: 5367 (unique 1214) | SVG dropped: {'<p1-masthead-row y=92>': 8, '<continuation-fragment>': 112, '<wordma
+G15c native_verify: FAIL — GEN', 1), ('NACH', 1), ('SEITEN', 1), ('GEORDNET;', 1), ('AUFGABENNUMMER', 1), ('SUCHEN', 1)] |        new=[] |   lines old=['### ЗА И ПРОТИВ\u3000PRO UND CONTRA'] |        new=[] |   lines old=['### ОТВЕТЫ\u3000LÖSUNGEN — NACH SEITEN GEORDNET; AUFGABENNUMMER SUCHEN'] |        new=[] | verdict: HOLD
+G16 quotes: PASS — defective=0
+D18 masthead: PASS — gap=119.7px centre=975.0 date_end=1862.0
+D37 badge: PASS — y=372.0 margin=60.9px end=1378.6
+RESULT: NOT-GREEN (16/19)

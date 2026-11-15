@@ -44,7 +44,7 @@ f.box("НЕДЕЛЯ В ЦИФРАХ　EN CHIFFRES", [
     ("10 — ноября, вторник: День полиции(10 novembre — Jour de la police)", "serif", False, INK, 20, 1.35),
     ("11 — ноября, среда: день распродажи 11.11(le jour des soldes)", "serif", False, INK, 20, 1.35),
     ("20 — рабочих дней в ноябре всего(20 jours de travail en novembre)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22.5)
 f.head("СЕЙЧАС ВЫ　À VOUS", 25)
 f.ex("A2", "Compléter", "9", "Lundi 9 novembre",
      "Обычная неделя начинается ___ ноября.", size=19.5, gap=6)
@@ -82,7 +82,7 @@ p.text(gx + 22, gy + 664, "D’après les médias russes, novembre 2026", 19, "s
 
 sy = 1296
 p.rect(gx, sy, gw, 330, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　AU SOMMAIRE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　AU SOMMAIRE", 22.5, "sans", True, OLIVE)
 som = [
     ("Стр. 2", "День полиции 10 ноября", "A2"),
     ("Стр. 3", "Кино в ноябре", "A2→B1"),

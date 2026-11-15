@@ -1,0 +1,24 @@
+GATES-SUMMARY 2026-w46-ru-ko run2 — 18/19 scored gates PASS
+patched dir: 2026-w46-ru-ko
+G1 run: PASS — TOTAL=150 OVF=0 HDW=0
+G2 head_check: PASS — HEAD CHECK PASS 0 defects
+G3 d5_census: PASS — D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=357
+G4 render: PASS — render_rc=0
+G5 webpdf: PASS — web=2491653 B
+G6 occlusion: FAIL — flags=1
+  G6 flag:  — {"page": "p1-pervaya.svg", "class": "TEXTX", "text": "предзимье", "box": [1450.7, 1700.2, 1568.5, 1717.2], "detail": "ink overlaps '»' by 4.8x9.8px", "by": "text@765"}
+G7 p8_extract: PASS — noted=150/150
+G8 p8_compare: PASS — CLEAN keydiff=[137, 138, 139, 140] missing=[] extra=[]
+G9 freeze_baseline: PASS — 8/8 (core integrity: shipped core SVGs unchanged by the run (8 files re-hashed))
+G10 freeze_diff: PASS — CJK added 0; Latin added 67
+G11 spill: PASS — SPILL=0
+G12 boxtitle: PASS — defects=0 titles=66 body_lines=761 backup_dir=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-ru/backup/scratch-fanout-w46-ru/backup/2026-w46-ru-ko
+G13 edge: PASS — pages=8 TOUCH=0 NEAR=0
+G14 creambox: PASS — P8 lines 222->222 slack 35.6->35.6; ratios n=384 med=1.026 boldT=1.04 boldF=0.994
+G15a textlayer+text.md: PASS — /home/hatch/workspace/weekly-git/tools/venv/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead. |   warnings.warn( | chars print=30130 web=30130 issued=30346 | print-web raw multiset diff=0 strippe ;; pdfdiff: verdict: IDENTICAL
+G15b carryover (record only): RECORD — carryover: reader=ko edition=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-ru/patched/2026-w46-ru-ko textmd=/home/hatch/workspace/weekly-git/issues/2026-w46/2026-w46-ru-ko/2026-w46-ru-ko.text.md | svg tokens: 4231 (unique 1191); md tokens: 7620 (unique 1184) | SVG dropped: {'<p1-masthead-row y=92>': 11, '<continuation-fragment>': 269, '<wordm
+G15c native_verify: PASS — ЕЛИ: tokens identical (67) |   G　ДИАЛОГ В ПУНКТЕ ВЫДАЧИ: tokens identical (144) |   H　НАПИШИТЕ САМИ: tokens identical (210) |   Answers: tokens identical (1854) | line classes: {'SEP': 0, 'CJK': 0, 'WORD': 0, 'FURN': 0, 'FURNOK': 0, 'REWRAP': 0, 'TRIM': 0, 'OTHER': 0} | verdict: ADOPT (0 UNEXPECTED)
+G16 quotes: PASS — defective=0
+D18 masthead: PASS — gap=222.1px centre=975.0 date_end=1862.0
+D37 badge: PASS — y=614.0 margin=282.8px end=1156.7
+RESULT: NOT-GREEN (18/19)

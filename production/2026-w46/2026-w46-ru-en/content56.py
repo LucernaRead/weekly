@@ -132,7 +132,7 @@ sy6b = sy6 + sh6 + 24
 sh6b = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in pc) + 32
 p.rect(bx, sy6b, CW, sh6b, fill="#f0eee5")
 yy6 = sy6b + 16
-p.text(bx + 22, yy6 + 26, "ЗА И ПРОТИВ　FOR AND AGAINST", 24, "sans", True, OLIVE)
+p.text(bx + 22, yy6 + 26, "ЗА И ПРОТИВ　FOR AND AGAINST", 22, "sans", True, OLIVE)
 yy6 += 52
 for t in pc:
     yy6 = p.para(bx + 22, yy6 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12

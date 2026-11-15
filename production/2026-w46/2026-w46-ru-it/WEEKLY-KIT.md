@@ -147,3 +147,18 @@ The character š (U+0161, LATIN SMALL LETTER S WITH CARON) has no glyph in the r
 - Change isolation (sha256 vs pre-fix manifest): only this edition's files changed — P8 SVG + P8 card, both PDFs, `.text.md`, and this KIT; the other 7 SVGs/cards, ABSTRACT.txt, the other 10 editions, and the frozen RU core are byte-identical to pre-fix. The only shared-source change is the two `ru_maps.py` it-spec lines above.
 - Full fix report + gate JSONs/logs: `hidden_files/w46/ru-fix-round3/FIX-REPORT.md` and `hidden_files/w46/ru-fix-round3/`. A Round 3 independent proofread follows; re-gating does not replace it.
 - Delivery: still finalized, NOT pushed, NOT posted — repo insertion remains the coordinator's (serialized) step. No git push, no Discord post, no user message was made from this fix work.
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target ru --reader it --week 2026-w46`（先 `--check` 干跑）；模式 latin；`_D5_READER` 在 `svglib.py:107` = `latin`；fix2 保留（`_QUOTE_CLS` ×4）；ru 目标语内容走旧 `_D5_READER == "ru"` 分支（D26；fix-xru 为 W47-only，未引入）；`test_d5_routing.py` **FAILURES: 0**。
+- 修前普查（基线）：D5 Latin in CJK 435、Cyrillic in CJK 0、curly in CJK 8；修后 run2 普查全 0（G3 PASS）。
+- 修复 2 处（只降字号，探针：SVG 实测墨宽线性缩放、取留 ≥2px 余量的最大适配字号）：
+  - `content12.py:67` P1 媒体盒 `СМИ　COSA DICONO I MEDIA` 27→25pt（G12/G14 +23.4px；探针余量 5.7px）
+  - `content7.py:69` P7 标题 `ОШИБКИ　CLINICA DEGLI ERRORI` 23→21.5pt（G12/G14 +24.6px；探针余量 0.8px）
+- 终轮门禁（run2）：18/19 scored gates PASS。G6 仅剩 P1 斜体 `предзимье` 旗标——D41 量测 artifact（见家族报告 §0，基线同态、300 dpi 像素实隙 1.9 SVG 单位，重校复核）；其余 18 门全绿。
+
+### D5 deliverable pins (run2, builder originals)
+
+- 印 PDF `Lucerna-VOL3-ru-it.pdf`：14198729 字节，SHA-256 `e22d3618fa12eae242bd5867b64277782f21052b3ef911383678ede8ff10938e`
+- 网 PDF `2026-w46-ru-it.web.pdf`：2318221 字节，SHA-256 `056f0714d4962bafb816573f7200fb75a48a21e0ed5b3140d707011868bd40f1`（网 PDF 非确定性，以终轮实测为准；closer 拷 builder 原件，绝不重跑 webpdf）
+- text.md（导出器输出，`logs/2026-w46-ru-it/2026-w46-ru-it.text.md.run2`）：55293 字节，SHA-256 `6cdb16b179959b984a21eef10e327ff243bfce24c57445ba89daa7e740343f54`

@@ -44,7 +44,7 @@ f.box("НЕДЕЛЯ В ЦИФРАХ　IN NUMBERS", [
     ("10 — ноября, вторник: День полиции(10 November — Police Day)", "serif", False, INK, 20, 1.35),
     ("11 — ноября, среда: день распродажи 11.11(the sale day)", "serif", False, INK, 20, 1.35),
     ("20 — рабочих дней в ноябре всего(20 working days in November)", "serif", False, INK, 20, 1.35),
-])
+], tsize=22.5)
 f.head("СЕЙЧАС ВЫ　TRY IT NOW", 25)
 f.ex("A2", "fill-in", "9", "Monday 9 November",
      "Обычная неделя начинается ___ ноября.", size=19.5, gap=6)
@@ -64,7 +64,7 @@ gx, gw = COLX[3], CW
 gy = 588
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "О ЧЁМ ПИШУТ", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "СМИ　WHAT THE MEDIA SAY", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "СМИ　WHAT THE MEDIA SAY", 25, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Главные темы недели в российских СМИ", 19, "sans", False, GREY)
 topics = [
     "Обычная неделя: пять рабочих дней",
@@ -82,7 +82,7 @@ p.text(gx + 22, gy + 664, "From Russian media, November 2026", 19, "sans", False
 
 sy = 1296
 p.rect(gx, sy, gw, 330, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　IN THIS ISSUE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "В ЭТОМ НОМЕРЕ　IN THIS ISSUE", 23.5, "sans", True, OLIVE)
 som = [
     ("Стр. 2", "День полиции 10 ноября", "A2"),
     ("Стр. 3", "Кино в ноябре", "A2→B1"),

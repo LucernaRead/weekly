@@ -64,7 +64,7 @@ gx, gw = COLX[3], CW
 gy = 588
 p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "О ЧЁМ ПИШУТ", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 76, "СМИ　COSA DICONO I MEDIA", 27, "sans", True, OLIVE)
+p.text(gx + 22, gy + 76, "СМИ　COSA DICONO I MEDIA", 25, "sans", True, OLIVE)
 p.text(gx + 22, gy + 106, "Главные темы недели в российских СМИ", 19, "sans", False, GREY)
 topics = [
     "Обычная неделя: пять рабочих дней",

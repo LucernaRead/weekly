@@ -112,7 +112,7 @@ f.para("Пример: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 p.hline(MX, RIGHT, 1264, OLIVE, 2)
-p.text(MX, 1302, "ОТВЕТЫ　ANTWOORDEN — PER PAGINA GERANGSCHIKT; ZOEK HET OPGAVENUMMER", 25, "sans", True, OLIVE)
+p.text(MX, 1302, "ОТВЕТЫ　ANTWOORDEN — PER PAGINA GERANGSCHIKT; ZOEK HET OPGAVENUMMER", 24.5, "sans", True, OLIVE)
 p.text(RIGHT, 1302, "Elk antwoord met een korte Nederlandse toelichting　✓ = modeltekst", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:

@@ -8,11 +8,11 @@ NOTO_DIR = "/usr/share/fonts/truetype/noto"
 NEWS_DIR = "/home/hatch/.local/share/fonts"
 DEJAVU_DIR = "/usr/share/fonts/truetype/dejavu"
 
-def _sc_index(path):
+def _jp_index(path):
     for i in range(12):
         try:
             f = ImageFont.truetype(path, 40, index=i)
-            if f.getname()[0].endswith("SC"):
+            if f.getname()[0].endswith("JP"):
                 return i
         except Exception:
             break
@@ -22,7 +22,7 @@ _SERIF = os.path.join(FONTS_DIR, "NotoSerifCJK-Regular.ttc")
 _SERIF_B = os.path.join(FONTS_DIR, "NotoSerifCJK-Bold.ttc")
 _SANS = os.path.join(FONTS_DIR, "NotoSansCJK-Regular.ttc")
 _SANS_B = os.path.join(FONTS_DIR, "NotoSansCJK-Bold.ttc")
-_IDX = {p: _sc_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
+_IDX = {p: _jp_index(p) for p in (_SERIF, _SERIF_B, _SANS, _SANS_B)}
 _NEWS = os.path.join(NEWS_DIR, "Newsreader-Regular.ttf")
 _NEWS_B = os.path.join(NEWS_DIR, "Newsreader-SemiBold.ttf")
 _NEWS_I = os.path.join(NEWS_DIR, "Newsreader-Italic.ttf")
@@ -78,8 +78,8 @@ _CMAP = {
 _CYR = range(0x0400, 0x0530)  # Cyrillic + Cyrillic Supplement
 _FAMILY = {"news": "Newsreader", "news_i": "Newsreader",
            "noto": "Noto Serif", "noto_i": "Noto Serif",
-           "serif": "Noto Serif CJK SC",
-           "sans": "Noto Sans CJK SC", "sans_noto": "Noto Sans",
+           "serif": "Noto Serif CJK JP",
+           "sans": "Noto Sans CJK JP", "sans_noto": "Noto Sans",
            "sans_noto_i": "Noto Sans", "deja": "DejaVu Sans"}
 _PATH = {
     ("serif", False, "news"): _NEWS, ("serif", True, "news"): _NEWS_B,
@@ -96,6 +96,16 @@ _PATH = {
 _IDX2 = {("serif", False, "serif"): _IDX[_SERIF], ("serif", True, "serif"): _IDX[_SERIF_B],
          ("sans", False, "sans"): _IDX[_SANS], ("sans", True, "sans"): _IDX[_SANS_B]}
 
+# --- D5 reader routing (SOP 1.1, 2026-11-11) ------------------------------
+# _D5_READER is rewritten by this installer (mechanism/apply_variant.py)
+# to the edition's READER language: "latin" (de/en/es/fr/it/nl/pt),
+# "ru" (ru), or "cjk" (ja/ko/zh-cn/zh-tw). latin/cjk share routing today
+# (Latin never sits in a CJK face: SOP "不用思源宋体自带的拉丁字形排西文");
+# ru routes Latin+Cyrillic to Noto Sans (Medium 500 / Bold 700 exact).
+# The installer is the ONLY writer of this line; nothing else in the file
+# branches on reader language.
+_D5_READER = "cjk"
+
 def _char_font(ch, kind, bold, italic=False):
     cp = ord(ch)
     if kind == "serif":
@@ -110,13 +120,64 @@ def _char_font(ch, kind, bold, italic=False):
         if cp in _CMAP["serif_b" if bold else "serif"]:
             return "serif"
         return "deja"
+    # fix2 (2026-11-11, proof2 D1/D2 in core-de; ported 2026-11-12 to this
+    # edition, extended to three codepoints): U+201C/U+201D/U+2019 are
+    # full-width (advance 1000/1000em) in Noto Sans CJK SC/TC — their ink
+    # sits at the right edge of the cell, so a sans quote leaves a wide
+    # white gap before it. Newsreader's quotes are the narrow glyphs the
+    # other pairs already use (~0.44em). Route these three codepoints
+    # through the serif branch, which assigns them their Newsreader class:
+    # the characters stay the same everywhere (source, text.md, PDF text
+    # layers) and only the rendered glyph changes. Blast radius, verified
+    # by SVG census on the shipped build: exactly 2 glyphs in this edition
+    # (both P8, D2 key note); no other sans string holds
+    # any of the three codepoints.
+    # No new string literal is written here on purpose: freeze_direct.py
+    # accounts source literals against tr_<lang>.py, and the class name
+    # 'news' occurs in no tr literal — a literal 'news' would fail its
+    # source level. The class is therefore derived, not spelled.
+    if ch in ("\u201c", "\u201d", "\u2019"):
+        # italic=False on purpose: the serif branch with italic would pick
+        # the "news_i" class, which has no ("sans", ...) _PATH row.
+        return _char_font(ch, "serif", bold)
+    # D5 (2026-11-11, SOP 1.1; base: pt-fr pilot patch): the sans layer is
+    # the explanation layer. Pilot rules, verbatim in the else-branch:
+    # Latin/digits/punct in the Newsreader cmap -> "news"; Cyrillic in
+    # _CYR and the Noto Sans cmap -> "sans_noto"; everything else keeps
+    # the existing CJK path. Order matters: fix2 quotes above stay first;
+    # cmap membership (not hand-kept codepoint lists) decides each rule,
+    # so uncovered characters fall through to CJK/deja. Two deliberate
+    # extensions over the pilot patch (see template banner + MECHANISM.md):
+    # (1) _D5_READER == "ru" routes Latin AND Cyrillic to Noto Sans;
+    # (2) italic Cyrillic -> "sans_noto_i" in BOTH modes (core-ru parity;
+    # the pilot had no italic Cyrillic; the weekly word is serif-italic,
+    # so sans-italic is rare, but ru-core already ships this rule and the
+    # uniform patch must not regress it for ru-target editions).
+    # Class-name literals are spelled here, as core-ru already does in its
+    # shipped _char_font ("sans_noto"/"news"); tools/freeze.py (the actual
+    # gate) has no source-literal accounting, and no freeze_direct.py
+    # exists in the repo (searched 2026-11-11) — the fix2 comment's
+    # caution is preserved verbatim for the _QUOTE_CLS derivation below.
     if italic and cp in _CYR and cp in _CMAP["sans_noto_i"]:
         return "sans_noto_i"
-    if cp in _CYR and cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
-        return "sans_noto"
+    if _D5_READER == "ru":
+        if cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"
+    else:
+        if cp in _CMAP["news_b" if bold else "news"]:
+            return "news"
+        if cp in _CYR and cp in _CMAP["sans_noto_b" if bold else "sans_noto"]:
+            return "sans_noto"
     if cp in _CMAP["sans_b" if bold else "sans"]:
         return "sans"
     return "deja"
+
+# fix2: _PATH entries for the Newsreader class inside sans runs, keyed by the
+# derived class name (see _char_font). _pil resolves ("sans", bold, "news")
+# to the Newsreader faces, mirroring the ("serif", bold, "news") rows.
+_QUOTE_CLS = _char_font("\u201c", "serif", False)
+_PATH[("sans", False, _QUOTE_CLS)] = _NEWS
+_PATH[("sans", True, _QUOTE_CLS)] = _NEWS_B
 
 def _pil(kind, bold, cls, size):
     key = (kind, bold, cls, size)
@@ -171,6 +232,58 @@ def wrap(text, kind, bold, size, max_w, italic=False):
             cur = tok.lstrip() if tok == " " else tok
     if cur.strip():
         lines.append(cur.rstrip())
+    # kinsoku shori (KO build): a line must not START with closing punctuation —
+    # pull the previous line's last character down (oidashi). Line count unchanged.
+    # A line must not END with opening punctuation either — push it to the next line.
+    NO_START = "。、，．！？：；）」』】％ー…‥・)]}〉》.,!?%:;"
+    NO_END = "「『（【〈《([{"
+    for i in range(1, len(lines)):
+        guard = 0
+        while lines[i] and lines[i][0] in NO_START and len(lines[i - 1]) > 1 and guard < 8:
+            lines[i] = lines[i - 1][-1] + lines[i]
+            lines[i - 1] = lines[i - 1][:-1].rstrip()
+            guard += 1
+    for i in range(len(lines) - 1):
+        guard = 0
+        while lines[i] and lines[i][-1] in NO_END and len(lines[i]) > 1 and guard < 8:
+            lines[i + 1] = lines[i][-1] + lines[i + 1]
+            lines[i] = lines[i][:-1].rstrip()
+            guard += 1
+    # POST-KINSOKU WIDTH REPAIR (zhtw build; lesson from zhcn VOL.1): the two
+    # kinsoku passes above move glyphs without re-measuring, and can leave a
+    # line WIDER than max_w, which then overflows its column / loses a glyph.
+    # Repair by pushing overflowing tail glyphs to the next line, re-apply the
+    # kinsoku repairs, and repeat a few rounds; then verify every final width.
+    for _round in range(8):
+        moved = False
+        for i in range(len(lines)):
+            while len(lines[i]) > 1 and text_w(lines[i], kind, bold, size) > max_w + 0.5:
+                ch = lines[i][-1]
+                lines[i] = lines[i][:-1].rstrip()
+                if i + 1 < len(lines):
+                    lines[i + 1] = ch + lines[i + 1]
+                else:
+                    lines.append(ch)
+                moved = True
+        for i in range(1, len(lines)):
+            guard = 0
+            while lines[i] and lines[i][0] in NO_START and len(lines[i - 1]) > 1 and guard < 8:
+                lines[i] = lines[i - 1][-1] + lines[i]
+                lines[i - 1] = lines[i - 1][:-1].rstrip()
+                guard += 1
+                moved = True
+        for i in range(len(lines) - 1):
+            guard = 0
+            while lines[i] and lines[i][-1] in NO_END and len(lines[i]) > 1 and guard < 8:
+                lines[i + 1] = lines[i][-1] + lines[i + 1]
+                lines[i] = lines[i][:-1].rstrip()
+                guard += 1
+                moved = True
+        if not moved:
+            break
+    for ln in lines:
+        if text_w(ln, kind, bold, size) > max_w + 0.5:
+            print(f"  !! WRAP WIDTH still too wide ({text_w(ln, kind, bold, size):.0f} > {max_w}): {ln[:26]!r}")
     return lines
 
 # --- three-colour moth (brand mark) on the masthead rule ----------------------

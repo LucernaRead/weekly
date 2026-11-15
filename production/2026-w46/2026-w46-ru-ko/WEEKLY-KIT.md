@@ -117,3 +117,16 @@ D2: clean in this edition — untouched for D2.
 - Visual checks at full frame: P5 card (this edition), plus the D2/D3 pages where applicable (P3/P4 in D2 editions, P8 in ja) — instructions complete at home positions, no stray fragments, no overflow, footer clear.
 - Full fix report + gate JSONs/logs: `hidden_files/w46/ru-fix/FIX-REPORT.md` and `hidden_files/w46/ru-fix/`. A Round 2 independent proofread follows; re-gating does not replace it.
 - Delivery: still finalized, NOT pushed, NOT posted — repo insertion remains the coordinator's (serialized) step. No git push, no Discord post, no user message was made from this fix work.
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target ru --reader ko --week 2026-w46`（先 `--check` 干跑）；模式 cjk；`_D5_READER` 在 `svglib.py:107` = `cjk`；fix2 保留（`_QUOTE_CLS` ×4）；ru 目标语内容走旧 `_D5_READER == "ru"` 分支（D26；fix-xru 为 W47-only，未引入）；`test_d5_routing.py` **FAILURES: 0**。
+- 修前普查（基线）：D5 Latin in CJK 205、Cyrillic in CJK 0、curly in CJK 0；修后 run2 普查全 0（G3 PASS）。
+- 修复 0 处（run1 除 G6 D41 接受项外全绿，无需降字号）。
+- 终轮门禁（run2）：18/19 scored gates PASS。G6 仅剩 P1 斜体 `предзимье` 旗标——D41 量测 artifact（见家族报告 §0，基线同态、300 dpi 像素实隙 1.9 SVG 单位，重校复核）；其余 18 门全绿。
+
+### D5 deliverable pins (run2, builder originals)
+
+- 印 PDF `Lucerna-VOL3-ru-ko.pdf`：15354076 字节，SHA-256 `d715a35c2ca0d589bb3a0ad68fef9daad8e2c2bdcd3a43a01cfe4728b26a1f23`
+- 网 PDF `2026-w46-ru-ko.web.pdf`：2491653 字节，SHA-256 `1cadcd701df7b36178ae340c18f100b9d99581c7e0edc19019d35d0298e516c3`（网 PDF 非确定性，以终轮实测为准；closer 拷 builder 原件，绝不重跑 webpdf）
+- text.md（导出器输出，`logs/2026-w46-ru-ko/2026-w46-ru-ko.text.md.run2`）：55905 字节，SHA-256 `ab8d95738915bdf13494a4a67de608f7b380ff324d4d415ac0416bad36c9b4da`
