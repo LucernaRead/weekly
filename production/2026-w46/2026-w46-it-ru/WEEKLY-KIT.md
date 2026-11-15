@@ -45,6 +45,12 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
   7. F1: `content12.py` items 16–19 full-width colon → half-width colon.
   Changed pages vs pre-fix snapshot (SVG sha256): P1, P2, P4, P7, P8; all other pages byte-identical. ABSTRACT.txt unchanged (still valid: single line, no ASCII double quotes).
 
+
+- D5 rebuild deliverable pin (run2, 2026-11-15; build names, verified in `GATES-SUMMARY-run2.txt`):
+  - print `The-Lucerna-VOL3-it-ru.pdf` — 6,354,279 bytes, sha256 `8aeba5aa2f5d63a0493ddafc1b7f6f69d49e21b891d1673a7443c635fda1e4ee`
+  - web `2026-w46-it-ru.web.pdf` — 801,833 bytes, sha256 `14e3fade5a892633c8403a1f9d62f7d0baaac531c091897ff110829828ab8433`
+  - text `2026-w46-it-ru.text.md.new` — 67,357 bytes, sha256 `c5a3bd5b0ee4621e04c9f848f0ab26a59c6659a7ef749f4382f2fe0a648a5552`
+
 ## 8. Gates
 - Builder self-check: 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; TOTAL 150; levels A2 47 / B1 70 / B2 33; pages 10/18/18/18/18/18/12/38; model text 98 words. Build log `hidden_files/w46/it-finish/rerun2-ru.log` (final render).
 - `tools/freeze.py diff` vs core (log `hidden_files/w46/it-finish/freeze3-ru.log`): all pages compared; TOTAL added CJK characters 0. No CJK characters in shipped SVGs (post-fix; see fix record). Removed strings are Chinese explanation/furniture strings only; no Italian body string was removed or added (Italian-heavy added strings are frozen box titles and P7 grammar trigger phrases, adjudicated).
@@ -77,3 +83,16 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
 - `ABSTRACT.txt` — Russian, one line, no ASCII double quotes.
 - `WEEKLY-KIT.md` — this file.
 - Gate logs: `hidden_files/w46/it-finish/freeze3-ru.log`, `p8-3-ru.log`, `occlusion3-ru.log`.
+
+## 11. D5 rebuild (2026-11-15)
+- Scope: D1+D5 in one pass. Production svglib was pre-D1 (D1 fix 0, Newsreader 0, no `_D5_READER`); patched svglib = fanout §1.1 set + D5 install (PLAN D10).
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --target it --reader ru --week 2026-w46` (--check dry run rc=0, then install rc=0). `_D5_READER` at `svglib.py:100` = "ru" (old branch); fix2 ×5 kept; fix-xru 0 (D26, W47-only); `test_d5_routing.py` FAILURES: 0.
+- Pre-repair census (baseline, `d5_census.py`): Latin in CJK 348, Cyrillic in CJK 250, curly in CJK 0.
+- run1 gates 18/20: G12 boxtitle (body) ×1, G14 creambox (audit crash).
+- Repairs (font size only, no text changed; probe = `text_w` with this edition's own svglib):
+
+| file:line | what | old → new | overage | probe |
+|---|---|---|---|---|
+| `content12.py:86` | P1 calendar note (body line) | 16.5 → 15.5 | +17.5px | 392.7px / 400.5 |
+
+- Final gates run2 20/20 (19 verdicts + G15b record-only). G15a IDENTICAL after intended transforms (SEP 87, WORD 1); G15c UNEXPECTED=0, entries=648, exercises=150; D47 `### Risposte` 1/1, 0 lost; D18 gap 168.0px; D37 +32.3pt (overlap).

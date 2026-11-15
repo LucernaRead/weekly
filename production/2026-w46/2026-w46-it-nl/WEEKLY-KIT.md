@@ -42,6 +42,12 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
   8. REGRESSION CAUGHT + FIXED IN-ROUND: the first (longer) Dutch D2 notes pushed P8 keys 1 line past the bottom (`FLOW OVERFLOW [P8-keys]`, 9 px). Notes shortened below their original lengths (`Beide om 20.45 uur: zondag niet later dan donderdag: più tardi` / `… donderdag niet eerder dan zondag: più presto`); re-render clean, 0 overflows.
   Changed pages vs pre-fix snapshot (SVG sha256): P1, P2, P4, P7, P8; all other pages byte-identical. ABSTRACT.txt unchanged (still valid: single line, no ASCII double quotes).
 
+
+- D5 rebuild deliverable pin (run2, 2026-11-15; build names, verified in `GATES-SUMMARY-run2.txt`):
+  - print `The-Lucerna-VOL3-it-nl.pdf` — 6,089,510 bytes, sha256 `f5f2ae497d22ece727323145995403cd8b9b8218bd5a66aeae822aa15e385e1f`
+  - web `2026-w46-it-nl.web.pdf` — 559,816 bytes, sha256 `67482186681ab49a5ad7595979f8a8d61662a15bcbad565f3b5e5f8e8efa8f4f`
+  - text `2026-w46-it-nl.text.md.new` — 55,180 bytes, sha256 `724bbdcda3a13806d19f5ba6309fa7f5dd53a209da05b0b99fb0bceecbea70bb`
+
 ## 8. Gates
 - Builder self-check: 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; TOTAL 150; levels A2 47 / B1 70 / B2 33; pages 10/18/18/18/18/18/12/38; model text 98 words. Build log `hidden_files/w46/it-finish/rerun-nl.log` (final render).
 - `tools/freeze.py diff` vs core (log `hidden_files/w46/it-finish/freeze2-nl.log`): all pages compared; TOTAL added CJK characters 0. No CJK characters in shipped SVGs. Removed strings are Chinese explanation/furniture strings only; no Italian body string was removed or added (Italian-heavy added strings are frozen box titles and P7 grammar trigger phrases, adjudicated).
@@ -74,3 +80,19 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
 - `ABSTRACT.txt` — Dutch, one line, no ASCII double quotes.
 - `WEEKLY-KIT.md` — this file.
 - Gate logs: `hidden_files/w46/it-finish/freeze2-nl.log`, `p8-2-nl.log`, `occlusion2-nl.log`.
+
+## 11. D5 rebuild (2026-11-15)
+- Scope: D1+D5 in one pass. Production svglib was pre-D1 (D1 fix 0, Newsreader 0, no `_D5_READER`); patched svglib = fanout §1.1 set + D5 install (PLAN D10).
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --target it --reader nl --week 2026-w46` (--check dry run rc=0, then install rc=0). `_D5_READER` at `svglib.py:100` = latin; fix2 ×5 kept; fix-xru 0 (D26, W47-only); `test_d5_routing.py` FAILURES: 0.
+- Pre-repair census (baseline, `d5_census.py`): Latin in CJK 489, Cyrillic in CJK 0, curly in CJK 0.
+- run1 gates 16/20: G1 HEAD TOO WIDE ×2, G2 ×2, G12 boxtitle ×2, G14 creambox (audit crash).
+- Repairs (font size only, no text changed; probe = `text_w` with this edition's own svglib):
+
+| file:line | what | old → new | overage | probe |
+|---|---|---|---|---|
+| `content12.py:257` | P2-ex D head `D LE PAROLE DI SAN MARTINO` | 25 → 23 | 436.6px / 422.5 | 401.7px |
+| `content56.py:221` | P6-ex D head `D LE PAROLE DELLA MANOVRA` | 25 → 23 | 446.0px / 422.5 | 410.3px |
+| `content12.py:90` | P1 contents title `IN QUESTO NUMERO INHOUD` | 24 → 23 | +4.2px | 387.6px / 400.5 |
+| `content7.py:84` | P7 box title `LA PAROLA WOORD VAN DE WEEK` | 23 → 20 | +44.5px | 386.5px / 400.5 |
+
+- Final gates run2 20/20 (19 verdicts + G15b record-only). G15a IDENTICAL after intended transforms (SEP 87, WORD 1); G15c UNEXPECTED=0, entries=648, exercises=150; D47 `### Risposte` 1/1, 0 lost; D18 gap 67.8px; D37 −5.6pt, no vertical overlap (row y=372).

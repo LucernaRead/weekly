@@ -68,6 +68,12 @@
   5. D5 (CORE): `content8.py` P8 §G notes 146–148 normalized to `=` like item 145: `mandorle 杏仁` → `mandorle = 杏仁`, `quanto costa? 多少钱` → `quanto costa? = 多少钱`, `pagare con carta 刷卡` → `pagare con carta = 刷卡`.
   Changed pages vs pre-fix snapshot (SVG sha256): P1, P2, P4, P7, P8; all other pages byte-identical. ABSTRACT.txt unchanged (still valid: single line, no ASCII double quotes).
 
+
+- D5 rebuild deliverable pin (run3, 2026-11-15; build names, verified in `GATES-SUMMARY-run3.txt`):
+  - print `The-Lucerna-VOL3-it.pdf` — 7,421,626 bytes, sha256 `5c233acaaca951c2bec1e0c96bbdf83d1decd1257021ea9ac43dea297dc2254a`
+  - web `2026-w46-it-zh-cn.web.pdf` — 881,591 bytes, sha256 `9226a03ea5e980209fbf4a97eb3a780616c1e497111b7f21e49b88b668df4f27`
+  - text `2026-w46-it-zh-cn.text.md.new` — 52,972 bytes, sha256 `b4db0b227caabd7394f40f2f1638e612d9aa4627f911b034e7df5ef927095e7c`
+
 ## 8. Gates (core)
 - Builder self-check: build log 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; TOTAL 150; levels A2 47 / B1 70 / B2 33; pages 10/18/18/18/18/18/12/38; model text 98 words.
 - `tools/occlusion_audit.py` (selftest OK): 0 flags on the 8 shipped SVGs (incl. LINEX + same-baseline furniture scan + chart GRAZE element-check).
@@ -89,3 +95,18 @@
 - `ABSTRACT.txt` — Simplified Chinese, one line, no ASCII double quotes.
 - `WEEKLY-KIT.md` — this file.
 - Build log + gate outputs: `hidden_files/w46/it-gates.log` (coordinator copy) and `hidden_files/w46/core-build.log`.
+
+## 10. D5 rebuild (2026-11-15)
+- Scope: D1+D5 in one pass. Production svglib was pre-D1 (D1 fix 0, Newsreader 0, no `_D5_READER`); patched svglib = fanout §1.1 set + D5 install (PLAN D10).
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --target it --reader core-it --week 2026-w46` (--check dry run rc=0, then install rc=0). `_D5_READER` at `svglib.py:100` = cjk (as zh-cn); fix2 ×5 kept; fix-xru 0 (D26, W47-only); `test_d5_routing.py` FAILURES: 0.
+- Pre-repair census (baseline, `d5_census.py`): Latin in CJK 347, Cyrillic in CJK 0, curly in CJK 1.
+- run1 gates 15/20: G1 HEAD TOO WIDE ×2, G2 ×2, G6 occlusion ×1, G12 boxtitle ×1, G14 creambox (audit crash); run2 18/20 (G1/G2 — the two D heads were missed in the run2 round, fixed in run3).
+- Repairs (font size only, no text changed; probe = `text_w` with this edition's own svglib):
+
+| file:line | what | old → new | overage | probe |
+|---|---|---|---|---|
+| `content12.py:49` | P1 f.box title `LA SETTIMANA IN CIFRE 数字看本周` (`tsize=` closing line) | 23 (default) → 20 | +42.6px | 388.8px / 404.5 |
+| `content12.py:257` | P2-ex D head `D LE PAROLE DI SAN MARTINO` (run3 — missed in run2 round) | 25 → 23 | 436.6px / 422.5 | 401.7px |
+| `content56.py:221` | P6-ex D head `D LE PAROLE DELLA MANOVRA` (run3 — missed in run2 round) | 25 → 23 | 446.0px / 422.5 | 410.3px |
+
+- Final gates run3 20/20 (19 verdicts + G15b record-only). G15a IDENTICAL after intended transforms (SEP 74, SEP+CJK 14, WORD 1); G15c UNEXPECTED=0, entries=648, exercises=150; D47 `### Risposte` 1/1, 0 lost; D18 gap 155.2px; D37 N/A (no descriptor row).

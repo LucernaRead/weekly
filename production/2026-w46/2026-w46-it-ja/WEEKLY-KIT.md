@@ -38,6 +38,12 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
   4. Q1 (all 11, CORE, query resolved as ERROR): `content7.py` B2 column `la finale è a Perugia` has no referent anywhere in the issue — the only `finale` mentions are the Panettone finale (no location given) and `quarti di finale` (Mar 2027, no location); Perugia hosts Eurochocolate (an opening, not a finale). Replaced with the verified fact `la Festa del Torrone è a Cremona` (P1 + P3). No referent was invented.
   Changed pages vs pre-fix snapshot (SVG sha256): P1, P2, P4, P7, P8; all other pages byte-identical. ABSTRACT.txt unchanged (still valid: single line, no ASCII double quotes).
 
+
+- D5 rebuild deliverable pin (run2, 2026-11-15; build names, verified in `GATES-SUMMARY-run2.txt`):
+  - print `The-Lucerna-VOL3-it-ja.pdf` — 11,185,676 bytes, sha256 `75cc5ea34647f2940eb8a967f105fc055ea55e34880db990ecd80f62b04bf9e8`
+  - web `2026-w46-it-ja.web.pdf` — 972,047 bytes, sha256 `e63b00cbb242c2f6b663704ee67600710337aa8a3501d3d8b16bd1cf835b6fb4`
+  - text `2026-w46-it-ja.text.md.new` — 58,101 bytes, sha256 `cf3f4af3f6f62e815963ded0c60019838b4fefc9b97fd147c4490eca2aab1ec4`
+
 ## 8. Gates
 - Builder self-check: 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; TOTAL 150; levels A2 47 / B1 70 / B2 33; pages 10/18/18/18/18/18/12/38; model text 98 words. Build log `hidden_files/w46/it-finish/rerun-ja.log` (final render).
 - `tools/freeze.py diff` vs core (log `hidden_files/w46/it-finish/freeze2-ja.log`): all pages compared; TOTAL added CJK characters 3015. Added CJK = the Japanese explanation layer itself (kana/kanji). String-set review: 0 Simplified-Chinese-only marker strings; Latin runs in added strings are frozen Italian furniture/grammar items only. Removed strings are Chinese explanation/furniture strings only; no Italian body string was removed or added (Italian-heavy added strings are frozen box titles and P7 grammar trigger phrases, adjudicated).
@@ -70,3 +76,17 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
 - `ABSTRACT.txt` — Japanese, one line, no ASCII double quotes.
 - `WEEKLY-KIT.md` — this file.
 - Gate logs: `hidden_files/w46/it-finish/freeze2-ja.log`, `p8-2-ja.log`, `occlusion2-ja.log`.
+
+## 11. D5 rebuild (2026-11-15)
+- Scope: D1+D5 in one pass. Production svglib was pre-D1 (D1 fix 0, Newsreader 0, no `_D5_READER`); patched svglib = fanout §1.1 set + D5 install (PLAN D10).
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --target it --reader ja --week 2026-w46` (--check dry run rc=0, then install rc=0). `_D5_READER` at `svglib.py:100` = cjk; fix2 ×5 kept; fix-xru 0 (D26, W47-only); `test_d5_routing.py` FAILURES: 0. CJK index SC→JP; kinsoku block ported from core-zh-tw.
+- Pre-repair census (baseline, `d5_census.py`): Latin in CJK 341, Cyrillic in CJK 0, curly in CJK 0.
+- run1 gates 17/20: G1 HEAD TOO WIDE ×2, G2 ×2, G14 creambox (audit crash).
+- Repairs (font size only, no text changed; probe = `text_w` with this edition's own svglib):
+
+| file:line | what | old → new | overage | probe |
+|---|---|---|---|---|
+| `content12.py:257` | P2-ex D head `D LE PAROLE DI SAN MARTINO` | 25 → 23 | 436.6px / 422.5 | 401.7px |
+| `content56.py:221` | P6-ex D head `D LE PAROLE DELLA MANOVRA` | 25 → 23 | 446.0px / 422.5 | 410.3px |
+
+- Final gates run2 20/20 (19 verdicts + G15b record-only). G15a IDENTICAL after intended transforms (SEP 85, SEP+CJK 2, WORD 1); G15c UNEXPECTED=0, entries=648, exercises=150; D47 `### Risposte` 1/1, 0 lost; D18 gap 110.4px; D37 N/A (short label, no — row).

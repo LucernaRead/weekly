@@ -3,7 +3,7 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P1 · PRIMA PAGINA (A2) =================
@@ -11,28 +11,28 @@ CURPAGE[0] = 1
 p = BSPage4()
 
 # top strip
-p.text(MX, 92, "VOL. 3 · TERZA EDIZIONE", 23, "sans", True, OLIVE)
-p.text(975, 92, "OGNI SETTIMANA IN ITALIANO · ИТАЛЬЯНСКИЙ, КОТОРЫЙ ЧИТАЮТ ИТАЛЬЯНЦЫ", 21, "sans", False, GREY, anchor="middle")
-p.text(RIGHT, 92, "SETTIMANA DAL 9 AL 15 NOVEMBRE 2026", 23, "sans", False, GREY, anchor="end")
-p.hline(MX, RIGHT, 112, GOLD, 1.6)
-p.text(975, 262, "La Lucerna", 168, family="UnifrakturMaguntia", anchor="middle")
-p.text(975, 330, "ИТАЛЬЯНСКИЙ · VOL.3 · SAN MARTINO · IL VINO NUOVO · L'ITALIA", 46, "serif", True, INK, anchor="middle")
-p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 19, "sans", False, GREY, anchor="middle")
-p.hline(MX, RIGHT, 392, INK, 3); p.hline(MX, RIGHT, 401, INK, 1.2)
+p.text(MX, 92, "VOL. 3　TERZA EDIZIONE", 17, "sans", True, OLIVE, spacing=1.7)
+p.text(975, 92, "OGNI SETTIMANA IN ITALIANO　ИТАЛЬЯНСКИЙ, КОТОРЫЙ ЧИТАЮТ ИТАЛЬЯНЦЫ", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SETTIMANA DAL 9 AL 15 NOVEMBRE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 262, "La Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
+p.text(975, 330, "ИТАЛЬЯНСКИЙ　VOL.3　SAN MARTINO　IL VINO NUOVO　L'ITALIA", 36, "serif", True, OLIVE, anchor="middle", spacing=11.0)
+p.text(975, 372, "IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA", 16, "sans", False, GREY, anchor="middle")
+p.hline(MX, RIGHT, 420, OLIVE, 2)
+moth(p, 975, 420)
 
 # band
-p.rect(MX, 424, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 30, 478, "SAN MARTINO, IL VINO NUOVO!", 36, "sans", True, "#f3edda")
-p.text(MX + 30, 522, "Tre giorni di sole, castagne e cantine aperte: l'autunno italiano si assaggia.", 23, "serif", False, "#e8dfc8")
-p.text(RIGHT - 30, 478, "Эта неделя — неделя святого Мартина", 24, "sans", True, "#b3a06a", anchor="end")
-p.text(RIGHT - 30, 522, "Неделя святого Мартина · См. стр. 2", 21, "sans", False, "#b3a06a", anchor="end")
-p.text(975, 574, "ТЕКСТЫ НА ИТАЛЬЯНСКОМ · ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ", 22, "sans", True, BRICK, anchor="middle")
+p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 30, 524, "SAN MARTINO, IL VINO NUOVO!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 568, "Tre giorni di sole, castagne e cantine aperte: l'autunno italiano si assaggia.", 25, "serif", False, "#cac8ba")
+p.text(RIGHT - 30, 524, "Эта неделя — неделя святого Мартина", 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 568, "Неделя святого Мартина　См. стр. 2", 18, "sans", False, GOOSE, anchor="end")
+p.text(975, 612, "ТЕКСТЫ НА ИТАЛЬЯНСКОМ　ОБЪЯСНЕНИЯ НА РУССКОМ — ВЫПУСК ДЛЯ РУССКОЯЗЫЧНЫХ ЧИТАТЕЛЕЙ", 16, "sans", True, GREY, anchor="middle")
 
 # ---- headline (span cols 0-2) ----
-hy = 580
-p.text(MX, hy + 26, "LA NOTIZIA · ГЛАВНАЯ НОВОСТЬ", 22, "sans", True, BRICK)
-hy = p.para(MX, hy + 92, "San Martino porta il vino nuovo: l'Italia assaggia l'autunno", 44, "serif", True, INK, 1388, 1.2)
-p.text(MX, hy + 28, "Dalla redazione de La Lucerna · Livello di lettura: A2", 20, "sans", False, GREY)
+hy = 610
+p.text(MX, hy + 26, "LA NOTIZIA　ГЛАВНАЯ НОВОСТЬ", 17, "sans", True, OLIVE)
+hy = p.para(MX, hy + 92, "San Martino porta il vino nuovo: l'Italia assaggia l'autunno", 53, "serif", True, INK, 1323, 1.06)
+p.text(MX, hy + 28, "Dalla redazione de La Lucerna　Livello di lettura: A2", 17, "sans", False, GREY)
 hy += 48
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], hy, 1828, tag="P1-headline")
 f.para("Mercoledì 11 novembre è San Martino: secondo il proverbio, «a San Martino ogni mosto diventa vino». Si aprono le cantine, si assaggia il vino nuovo e si mangiano le castagne: è l'estate di San Martino, tre giorni di sole dopo il primo freddo.")
@@ -48,7 +48,7 @@ f.box("LA SETTIMANA IN CIFRE", [
     ("32-я — Eurochocolate в Перудже, с 13 ноября (32-й Eurochocolate, Перуджа)", "serif", False, INK, 20.5, 1.35),
     ("29-я — Festa del Torrone в Кремоне (29-й Фестиваль торроне, Кремона)", "serif", False, INK, 20.5, 1.35),
 ])
-f.head("ADESSO TU · ТЕПЕРЬ ВЫ", 25)
+f.head("ADESSO TU　ТЕПЕРЬ ВЫ", 25)
 f.ex("A2", "Дополнить предложения", "San Martino", "День святого Мартина — 11 ноября",
      "Mercoledì 11 novembre è ___.", size=20, gap=7)
 f.ex("A2", "Дополнить предложения", "mosto", "mosto = сусло/молодое вино",
@@ -65,11 +65,11 @@ f.end_report()
 
 # ---- la settimana (col 3) ----
 gx, gw = COLX[3], CW
-gy = 580
-p.rect(gx, gy, gw, 700, fill=BOX, stroke=LINE, sw=1.4)
+gy = 588
+p.rect(gx, gy, gw, 700, fill=BOX)
 p.text(gx + 22, gy + 40, "LA SETTIMANA", 27, "sans", True, OLIVE)
 p.text(gx + 22, gy + 76, "GIORNO PER GIORNO", 27, "sans", True, OLIVE)
-p.text(gx + 22, gy + 106, "План недели · Cosa succede", 19, "sans", False, GREY)
+p.text(gx + 22, gy + 106, "План недели　Cosa succede", 19, "sans", False, GREY)
 sett = [
     "LUN 9 — Eurogruppo a Bruxelles; il Festival dei Popoli si è chiuso ieri.",
     "MAR 10 — Cantine Aperte a San Martino: il vino nuovo si assaggia.",
@@ -83,12 +83,12 @@ for t in sett:
     byy = p.para(gx + 22, byy + 16, t, 20, "serif", False, INK, gw - 44, 1.36) + 6
 p.text(gx + 22, byy + 16, "Le date sono quelle del calendario", 18.5, "sans", False, GREY)
 p.text(gx + 22, byy + 42, "degli eventi; gli orari possono cambiare.", 18.5, "sans", False, GREY)
-p.text(gx + 22, byy + 76, "Даты — по календарям; время может измениться.", 16.5, "sans", False, GREY)
+p.text(gx + 22, byy + 76, "Даты — по календарям; время может измениться.", 15.5, "sans", False, GREY)
 
 # ---- sommario (col 3) ----
 sy = 1312
-p.rect(gx, sy, gw, 340, fill="#f1ead6", stroke=LINE, sw=1.4)
-p.text(gx + 22, sy + 40, "IN QUESTO NUMERO · ОБЗОР", 24, "sans", True, OLIVE)
+p.rect(gx, sy, gw, 340, fill="#f0eee5")
+p.text(gx + 22, sy + 40, "IN QUESTO NUMERO　ОБЗОР", 24, "sans", True, OLIVE)
 som = [
     ("Pag. 2", "San Martino e il vino nuovo", "A2"),
     ("Pag. 3", "Torrone e cioccolato", "A2→B1"),
@@ -100,7 +100,7 @@ som = [
 ]
 yy = sy + 84
 for pg, t, lv in som:
-    p.text(gx + 22, yy, pg, 21, "sans", True, BRICK)
+    p.text(gx + 22, yy, pg, 21, "sans", True, OLIVE)
     p.text(gx + 88, yy, t, 20, "serif", False, INK)
     p.text(gx + gw - 22, yy, lv, 18, "sans", True, OLIVE, anchor="end")
     yy += 40
@@ -108,29 +108,30 @@ for pg, t, lv in som:
 # ---- parola della settimana (col 3) ----
 my = 1652
 p.text(gx, my + 24, "LA PAROLA DELLA SETTIMANA", 22, "sans", True, OLIVE)
-p.hline(gx, gx + gw, my + 38, GOLD, 2)
-y2 = p.para(gx, my + 76, "« l'estate di San Martino » : tre giorni miti dopo il primo freddo, con il sole della leggenda del mantello diviso.", 21.5, "serif", False, INK, gw, 1.4)
-p.para(gx, y2 + 28, "«Лето святого Мартина»: три мягких дня.", 19, "sans", False, GREY, gw, 1.35)
+p.hline(gx, gx + gw, my + 38, OLIVE, 2)
+p.text(gx, my + 76, "« l'estate di San Martino »", 21.5, "serif", False, INK, italic=True)
+y2 = p.para(gx, my + 108, "tre giorni miti dopo il primo freddo, con il sole della leggenda del mantello diviso.", 21.5, "serif", False, INK, gw, 1.4)
+p.para(gx, y2 + 10, "«Лето святого Мартина»: три мягких дня.", 19, "sans", False, GREY, gw, 1.35)
 
 # ---- row B ----
 p.hline(MX, RIGHT, 1864, LINE, 1.2)
 iy = 1874
 ix, iw = span_x(0, 2)
-p.rect(ix, iy, iw, 320, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, iy, iw, 320, fill=BOX)
 illus_frost(p, ix + iw // 2 - 70, iy + 80, 2.0)
 caption(p, ix, iy + 320, iw,
         "Il fiocco di neve e il sole di San Martino: il primo freddo è arrivato, ma la tradizione promette tre giorni miti — «tre giorni e un pochino». (Pagina 2)",
         "Disegno della redazione")
 # col 2 mini feature
-f2 = Flow(p, [(COLX[2], CW)], 1874, 2290, tag="P1-freddo")
+f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-freddo")
 f2.head("IL SOLE DI NOVEMBRE", 25)
 f2.para("Giornate più corte, le cantine aperte, le piazze che profumano di castagne: l'Italia di novembre mostra questa settimana il suo autunno più dolce.", 22.5)
 f2.para("Il suo regalo per i lettori è un bicchiere di vino nuovo — da assaggiare, non da bere in fretta. Prendilo — e continua a leggere a pagina 2!", 22.5)
 f2.end_report()
 # col 3 IN BREVE
 bx = COLX[3]
-p.rect(bx, 1874, CW, 430, fill=BOX, stroke=LINE, sw=1.4)
-p.text(bx + 22, 1914, "IN BREVE · КОРОТКО", 24, "sans", True, OLIVE)
+p.rect(bx, 1874, CW, 430, fill=BOX)
+p.text(bx + 22, 1914, "IN BREVE　КОРОТКО", 24, "sans", True, OLIVE)
 brefs = [
     ("FESTIVAL", "Il Festival dei Popoli si è chiuso domenica 8 novembre: 86 film a Firenze. (Pagina 2)"),
     ("MANOVRA", "Il Consiglio dei ministri ha approvato il disegno di legge il 28 ottobre: non è ancora legge. (Pagina 6)"),
@@ -138,15 +139,15 @@ brefs = [
 ]
 byy = 1944
 for h, b in brefs:
-    p.text(bx + 22, byy + 22, h, 20, "sans", True, BRICK)
+    p.text(bx + 22, byy + 22, h, 20, "sans", True, OLIVE)
     byy = p.para(bx + 22, byy + 50, b, 20, "serif", False, INK, CW - 44, 1.30) + 8
 
 # ---- quiz lampo ----
 qy = 2312
-p.hline(MX, RIGHT, qy, GOLD, 2)
-p.text(MX, qy + 36, "QUIZ LAMPO · БЛИЦ-ВИКТОРИНА", 26, "sans", True, OLIVE)
-p.text(RIGHT, qy + 36, "Прочитайте первую страницу и выберите правильный ответ · Ответы на странице 8", 20, "sans", False, GREY, anchor="end")
-qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2540, tag="P1-quiz")
+p.hline(MX, RIGHT, qy, OLIVE, 2)
+p.text(MX, qy + 36, "QUIZ LAMPO　БЛИЦ-ВИКТОРИНА", 26, "sans", True, OLIVE)
+p.text(RIGHT, qy + 36, "Прочитайте первую страницу и выберите правильный ответ　Ответы на странице 8", 20, "sans", False, GREY, anchor="end")
+qf = Flow(p, [(COLX[i], CW) for i in range(4)], qy + 54, 2560, tag="P1-quiz")
 qf.ex("A2", "Один ответ", "A", "День святого Мартина — среда, 11 ноября",
       "San Martino è... A. mercoledì 11 novembre · B. sabato 14 novembre · C. domenica 1° novembre", size=21)
 qf.ex("A2", "Один ответ", "B", "Легенда о святом Мартине: разделённый плащ",
@@ -163,11 +164,11 @@ print("P1 saved, exercises so far:", len(REG))
 # ================= P2 · VITA (A2) =================
 CURPAGE[0] = 2
 p = BSPage4()
-p.band("VITA · ЖИЗНЬ", "La Lucerna", "LIVELLO A2 · San Martino e il vino nuovo · Святой Мартин и молодое вино")
+p.band("VITA　ЖИЗНЬ", "La Lucerna", "LIVELLO A2　San Martino e il vino nuovo　Святой Мартин и молодое вино")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P2-feature")
-f.title("San Martino in casa e in cantina: vino nuovo, castagne, oca", 37)
-f.byline("Dalla redazione de La Lucerna · Livello di lettura: A2")
+f.title("San Martino in casa e in cantina: vino nuovo, castagne, oca", 32)
+f.byline("Dalla redazione de La Lucerna　Livello di lettura: A2")
 f.para("San Martino si sente a tavola: le castagne arrosto scaldano le mani, il vino nuovo si assaggia nelle cantine e, in molte case, si prepara l'oca arrosto. È la festa dell'autunno che diventa inverno, con il profumo del mosto che diventa vino.")
 f.para("La leggenda è semplice e bella: Martino, soldato romano, incontra un mendicante che trema di freddo e divide con lui il mantello. La notte dopo, racconta la tradizione, il sole torna: per tre giorni fa quasi estate. «L'estate di San Martino dura tre giorni e un pochino», dice il proverbio.")
 f.para("Un tempo, l'11 novembre era anche un giorno di traslochi: «fare San Martino» voleva dire cambiare casa, perché molti contratti di lavoro nei campi finivano in autunno. Oggi la parola resta, e le feste di paese restano: fiere, bancarelle, oca e castagne in tutta Italia.")
@@ -189,7 +190,7 @@ facts = ["L'11 novembre è San Martino: il proverbio dice che ogni mosto diventa
          "Cantine Aperte a San Martino: dal 1° al 15 novembre, vino nuovo nelle cantine."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "LO SAPEVI?", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -198,9 +199,9 @@ for t in facts:
 ey3 = sy3 + sh + 26
 etvous = "E tu? Hai mai assaggiato il vino nuovo o le castagne arrosto? Scrivi due frasi in italiano e mandale alla redazione: le migliori escono nel VOL.4 (pagina 7, «Lettere dei lettori»)."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Ты пробовал молодое вино или жареные каштаны? Напиши два предложения по-итальянски в редакцию.", "sans", False, 20, CW - 44)) * 29 + 20
-p.rect(ix, ey3, CW, eh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, ey3, CW, eh, fill="#f0eee5")
 yy3 = ey3 + 16
-p.text(ix + 22, yy3 + 26, "E TU? · А ты?", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "E TU?　А ты?", 24, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(ix + 22, yy3 + 21, etvous, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(ix + 22, yy3 + 20, "Ты пробовал молодое вино или жареные каштаны? Напиши два предложения по-итальянски в редакцию.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -208,19 +209,19 @@ print("P2 col3 ends", ey3 + eh)
 
 # ---- Il 11 novembre wide box ----
 dy = 1566
-p.hline(MX, RIGHT, dy - 12, GOLD, 2)
-p.text(MX, dy + 28, "L'11 NOVEMBRE · День святого Мартина", 28, "sans", True, OLIVE)
+p.hline(MX, RIGHT, dy - 12, OLIVE, 2)
+p.text(MX, dy + 28, "L'11 NOVEMBRE　День святого Мартина", 28, "sans", True, OLIVE)
 p.text(RIGHT, dy + 28, "Un santo, un mantello, tre giorni di sole", 20, "sans", False, GREY, anchor="end")
 p.para(MX, dy + 72, "Martino di Tours visse nel IV secolo: soldato romano, poi vescovo. La sua festa è l'11 novembre, il giorno della sua sepoltura, nel 397. La leggenda del mantello diviso è diventata un'immagine dell'autunno europeo: un gesto di generosità, e il sole che torna per tre giorni.", 22.5, "serif", False, INK, RIGHT - MX, 1.45)
 p.para(MX, dy + 196, "Attenzione alla parola: «mosto» è il succo d'uva prima che diventi vino. «Fare San Martino», invece, è un modo di dire antico: vuol dire traslocare, cambiare casa.", 21, "serif", False, INK, RIGHT - MX, 1.45)
 
 # ---- P2 exercises ----
 ey = dy + 282
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "ESERCIZI · УПРАЖНЕНИЯ СТРАНИЦЫ 2", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Ответы на стр. 8 · Уровни смешаны — ищите по номеру", 20, "sans", False, GREY, anchor="end")
-e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P2-ex")
-e.head("A · CHE COSA SERVE?", 25)
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "ESERCIZI　УПРАЖНЕНИЯ СТРАНИЦЫ 2", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Ответы на стр. 8　Уровни смешаны — ищите по номеру", 20, "sans", False, GREY, anchor="end")
+e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2560, tag="P2-ex")
+e.head("A　CHE COSA SERVE?", 25)
 e.bridge("Дополните предложения по-итальянски.")
 e.ex("A2", "Дополнить предложения", "mosto", "mosto = сусло/молодое вино",
      "A San Martino ogni ___ diventa vino.", instr="Вставить", size=20, gap=8)
@@ -232,7 +233,7 @@ e.ex("A2", "Дополнить предложения", "mantello", "mantello = 
      "Martino divide il suo ___ con il mendicante.", instr="Вставить", size=20, gap=8)
 e.ex("A2", "Дополнить предложения", "oca", "oca = гусь",
      "In molte case si prepara l'___ arrosto.", instr="Вставить", size=20, gap=8)
-e.head("B · IL PRESENTE", 25)
+e.head("B　IL PRESENTE", 25)
 e.bridge("Дополните глаголы в настоящем времени.")
 e.ex("A2", "Дополнить предложения", "divide", "dividere: Martino → divide",
      "Martino ___ il mantello con il mendicante.", instr="Вставить", size=20, gap=8)
@@ -244,7 +245,7 @@ e.ex("A2", "Дополнить предложения", "mangiamo", "mangiare: n
      "Noi ___ le castagne arrosto.", instr="Вставить", size=20, gap=8)
 e.ex("A2", "Дополнить предложения", "dura", "durare: l'estate → dura (оно)",
      "L'estate di San Martino ___ tre giorni e un pochino.", instr="Вставить", size=20, gap=8)
-e.head("C · COMPRENSIONE", 25)
+e.head("C　COMPRENSIONE", 25)
 e.bridge("Прочитайте статью на странице 2 и выберите правильный ответ.")
 e.ex("A2", "Один ответ", "B", "Легенда о святом Мартине: разделённый плащ",
      "La leggenda di San Martino racconta... A. un viaggio · B. un mantello diviso · C. una gara", size=20, gap=8)
@@ -254,7 +255,7 @@ e.ex("A2", "Один ответ", "C", "Погреба открыты до 15 н
      "Cantine Aperte a San Martino dura fino al... A. 7 novembre · B. 11 novembre · C. 15 novembre", size=20, gap=8)
 e.ex("B1", "Один ответ", "B", "Festival dei Popoli: 86 фильмов",
      "Il Festival dei Popoli ha presentato... A. 50 film · B. 86 film · C. 19 film", size=20, gap=8)
-e.head("D · LE PAROLE DI SAN MARTINO", 25)
+e.head("D　LE PAROLE DI SAN MARTINO", 25)
 e.match_set("A2", "Слова и значения",
             ["il mosto", "la cantina", "il mantello", "traslocare"],
             ["il luogo dove si fa e si conserva il vino",

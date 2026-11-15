@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-es/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · VALUTAZIONE E RISPOSTE =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("VALUTAZIONE E RISPOSTE · EJERCICIOS Y RESPUESTAS", "La Lucerna", "Página 8 · La grande prova della settimana + tutte le risposte")
+p.band("VALUTAZIONE E RISPOSTE　EJERCICIOS Y RESPUESTAS", "La Lucerna", "Página 8　La grande prova della settimana + tutte le risposte")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1332, tag="P8-ex")
-f.head("A · COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
 f.ex("B1", "Texto con huecos", "B", "San Martín = San Martino",
      "Mercoledì 11 novembre è ___. (A. Natale · B. San Martino)", size=15.5, gap=1)
 f.ex("B1", "Texto con huecos", "A", "El mosto se convierte en vino nuevo",
@@ -29,7 +29,7 @@ f.ex("B1", "Texto con huecos", "A", "Bélgica–Italia el domingo por la noche",
      "Belgio–Italia si gioca domenica ___. (A. sera · B. mattina)", size=15.5, gap=1)
 f.ex("B1", "Texto con huecos", "B", "Scrittorincittà está en Cuneo",
      "Scrittorincittà è a ___. (A. Milano · B. Cuneo)", size=15.5, gap=1)
-f.head("B · DOMANDE GENERALI", 22, OLIVE, 5)
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
 f.ex("A2", "Una opción", "B", "El verano de San Martín dura tres días y un poco más",
      "L'estate di San Martino dura... A. un mese · B. tre giorni e un pochino · C. un'ora", size=15.5, gap=1)
 f.ex("A2", "Una opción", "B", "El manto, Martín lo compartió con el mendigo",
@@ -46,7 +46,7 @@ f.ex("B2", "Una opción", "B", "Una propuesta del gobierno aún no es ley",
      "«Il governo propone»... A. è già legge · B. non è ancora legge · C. è un errore", size=15.5, gap=1)
 f.ex("B1", "Una opción", "B", "El Festival dei Popoli terminó el 8 de noviembre",
      "Il Festival dei Popoli si è chiuso... A. il 31 ottobre · B. l'8 novembre · C. il 15 novembre", size=15.5, gap=1)
-f.head("C · LEGGI E RISPONDI", 22, OLIVE, 5)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
 f.para("Giulia vive a Cuneo: mercoledì 11 novembre va a Scrittorincittà e ascolta un autore. Paolo vive a Cremona: sabato 14 novembre va alla Festa del Torrone. Domenica, Giulia e Paolo guardano Belgio–Italia: è San Martino, ma il calcio non si ferma.", 16.5, lh=1.3, split=False)
 f.ex("A2", "Una opción", "B", "Giulia va a Scrittorincittà el miércoles",
      "Chi va a Scrittorincittà? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "Una opción", "B", "Giulia es quien escucha al autor",
      "L'autore è ascoltato da... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
 f.ex("A2", "Una opción", "A", "El mejor título: dos ciudades, dos fiestas",
      "Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
-f.head("D · COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
 f.ex("A2", "Formar frases", "Mercoledì è San Martino.", "El tiempo va primero",
      "mercoledì / è / San Martino → ___", instr="Formar frases", size=15.5, gap=1)
 f.ex("B1", "Formar frases", "Eurochocolate è a Perugia dal 13 novembre.", "Sujeto + essere + lugar",
@@ -65,7 +65,7 @@ f.ex("B1", "Formar frases", "A che ora gioca l'Italia?", "Interrogación primero
      "a che ora / gioca / l'Italia / ? → ___", instr="Formar frases", size=15.5, gap=1)
 f.ex("B1", "Formar frases", "Il vino nuovo si assaggia in cantina.", "sujeto + verbo + lugar",
      "il vino nuovo / si assaggia / in cantina → ___", instr="Formar frases", size=15.5, gap=1)
-f.head("E · TRADUCI", 22, OLIVE, 5)
+f.head("E　TRADUCI", 22, OLIVE, 5)
 f.ex("A2", "翻译", "En San Martín, el mosto se convierte en vino.", "Comparar con el original",
      "A San Martino ogni mosto diventa vino. → ___", instr="Traduce", size=15.5, gap=1)
 f.ex("B1", "翻译", "El jueves por la noche: Italia–Francia.", "si gioca = se juega",
@@ -74,7 +74,7 @@ f.ex("B1", "翻译", "El domingo por la noche: Bélgica–Italia.", "si gioca = 
      "Domenica sera si gioca Belgio–Italia. → ___", instr="Traduce", size=15.5, gap=1)
 f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = deber",
      "Cada cifra debe ser clara. → ___", instr="Traduce", size=15.5, gap=1)
-f.head("F · LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
 f.match_set("B2", "Emparejar palabras",
             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
             ["la parte del sistema fiscale, un livello di reddito",
@@ -84,7 +84,7 @@ f.match_set("B2", "Emparejar palabras",
             ["d", "c", "b", "a"],
             ["manovra=ley de presupuestos d", "deficit=déficit c", "copertura=financiación b", "scaglione=tramo a"],
             instr="Emparejar")
-f.head("G · DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
 f.ex("B1", "Texto con huecos", "B", "torrone = turrón",
      "— Cerco il ___ di Cremona. (A. biglietto · B. torrone)", size=15.5, gap=1)
 f.ex("B1", "Texto con huecos", "A", "mandorle = almendras",
@@ -95,7 +95,7 @@ f.ex("B1", "Texto con huecos", "A", "pagare con carta = pagar con tarjeta",
      "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
 f.ex("B1", "Texto con huecos", "B", "La fiesta dura hasta el 22 de noviembre",
      "— La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre)", size=15.5, gap=1)
-f.head("H · SCRIVI TU", 22, OLIVE, 5)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
 MODELO = ("Mercoledì 11 novembre metto la sciarpa e vado in cantina: è San Martino e il vino nuovo si assaggia. "
           "A scuola parliamo della leggenda del mantello diviso e dell'estate di tre giorni. "
           "Sabato assaggio il torrone con la mia famiglia: preferisco quello di Cremona, con le mandorle e il miele. "
@@ -111,13 +111,13 @@ f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RISPOSTE =================
-p.hline(MX, RIGHT, 1344, GOLD, 2)
-p.text(MX, 1382, "RISPOSTE · RESPUESTAS — por página, busca el número del ejercicio", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1382, "Cada respuesta lleva una nota breve · ✓ marca el ejercicio de escritura", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1344, OLIVE, 2)
+p.text(MX, 1382, "RISPOSTE　RESPUESTAS — por página, busca el número del ejercicio", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1382, "Cada respuesta lleva una nota breve　✓ marca el ejercicio de escritura", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.14, gap=2, split=False)
     for e_ in by_page[pg]:

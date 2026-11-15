@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · VALUTAZIONE E RISPOSTE =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("VALUTAZIONE E RISPOSTE · ПРОВЕРКА И ОТВЕТЫ", "La Lucerna", "Страница 8 · La grande prova della settimana + tutte le risposte")
+p.band("VALUTAZIONE E RISPOSTE　ПРОВЕРКА И ОТВЕТЫ", "La Lucerna", "Страница 8　La grande prova della settimana + tutte le risposte")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1332, tag="P8-ex")
-f.head("A · COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
 f.ex("B1", "Текст с пропусками", "B", "Святой Мартин = San Martino",
      "Mercoledì 11 novembre è ___. (A. Natale · B. San Martino)", size=15.5, gap=1)
 f.ex("B1", "Текст с пропусками", "A", "Сусло становится молодым вином",
@@ -29,7 +29,7 @@ f.ex("B1", "Текст с пропусками", "A", "Бельгия–Итал
      "Belgio–Italia si gioca domenica ___. (A. sera · B. mattina)", size=15.5, gap=1)
 f.ex("B1", "Текст с пропусками", "B", "Scrittorincittà проходит в Кунео",
      "Scrittorincittà è a ___. (A. Milano · B. Cuneo)", size=15.5, gap=1)
-f.head("B · DOMANDE GENERALI", 22, OLIVE, 5)
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
 f.ex("A2", "Один ответ", "B", "Лето святого Мартина длится три дня и чуть больше",
      "L'estate di San Martino dura... A. un mese · B. tre giorni e un pochino · C. un'ora", size=15.5, gap=1)
 f.ex("A2", "Один ответ", "B", "Плащ Мартин разделил с нищим",
@@ -46,7 +46,7 @@ f.ex("B2", "Один ответ", "B", "Предложение правител�
      "«Il governo propone»... A. è già legge · B. non è ancora legge · C. è un errore", size=15.5, gap=1)
 f.ex("B1", "Один ответ", "B", "Festival dei Popoli завершился 8 ноября",
      "Il Festival dei Popoli si è chiuso... A. il 31 ottobre · B. l'8 novembre · C. il 15 novembre", size=15.5, gap=1)
-f.head("C · LEGGI E RISPONDI", 22, OLIVE, 5)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
 f.para("Giulia vive a Cuneo: mercoledì 11 novembre va a Scrittorincittà e ascolta un autore. Paolo vive a Cremona: sabato 14 novembre va alla Festa del Torrone. Domenica, Giulia e Paolo guardano Belgio–Italia: è San Martino, ma il calcio non si ferma.", 16.5, lh=1.3, split=False)
 f.ex("A2", "Один ответ", "B", "Джулия идёт на Scrittorincittà в среду",
      "Chi va a Scrittorincittà? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "Один ответ", "B", "Именно Джулия слушает
      "L'autore è ascoltato da... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
 f.ex("A2", "Один ответ", "A", "Заголовок объединяет два города и два праздника",
      "Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
-f.head("D · COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
 f.ex("A2", "Составить предложения", "Mercoledì è San Martino.", "Сначала указание времени",
      "mercoledì / è / San Martino → ___", instr="Составить предложения", size=15.5, gap=1)
 f.ex("B1", "Составить предложения", "Eurochocolate è a Perugia dal 13 novembre.", "Подлежащее + essere + место + дата",
@@ -65,7 +65,7 @@ f.ex("B1", "Составить предложения", "A che ora gioca l'Itali
      "a che ora / gioca / l'Italia / ? → ___", instr="Составить предложения", size=15.5, gap=1)
 f.ex("B1", "Составить предложения", "Il vino nuovo si assaggia in cantina.", "подлежащее + глагол + место",
      "il vino nuovo / si assaggia / in cantina → ___", instr="Составить предложения", size=15.5, gap=1)
-f.head("E · TRADUCI", 22, OLIVE, 5)
+f.head("E　TRADUCI", 22, OLIVE, 5)
 f.ex("A2", "翻译", "В день святого Мартина сусло становится вином.", "Сверить с оригиналом",
      "A San Martino ogni mosto diventa vino. → ___", instr="Переведите", size=15.5, gap=1)
 f.ex("B1", "翻译", "В четверг вечером: Италия–Франция.", "si gioca = играется",
@@ -74,7 +74,7 @@ f.ex("B1", "翻译", "В воскресенье вечером: Бельгия�
      "Domenica sera si gioca Belgio–Italia. → ___", instr="Переведите", size=15.5, gap=1)
 f.ex("B2", "翻译", "Ogni cifra deve essere chiara.", "dovere = должен",
      "Каждая цифра должна быть ясной. → ___", instr="Переведите", size=15.5, gap=1)
-f.head("F · LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
 f.match_set("B2", "Слова и значения",
             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
             ["la parte del sistema fiscale, un livello di reddito",
@@ -84,7 +84,7 @@ f.match_set("B2", "Слова и значения",
             ["d", "c", "b", "a"],
             ["manovra=бюджетный закон d", "deficit=дефицит c", "copertura=финансирование b", "scaglione=налоговая ступень a"],
             instr="Соединить")
-f.head("G · DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
 f.ex("B1", "Текст с пропусками", "B", "torrone = нуга",
      "— Cerco il ___ di Cremona. (A. biglietto · B. torrone)", size=15.5, gap=1)
 f.ex("B1", "Текст с пропусками", "A", "mandorle = миндаль",
@@ -95,7 +95,7 @@ f.ex("B1", "Текст с пропусками", "A", "pagare con carta = пла
      "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
 f.ex("B1", "Текст с пропусками", "B", "Фестиваль Torrone идёт до 22 ноября",
      "— La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre)", size=15.5, gap=1)
-f.head("H · SCRIVI TU", 22, OLIVE, 5)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
 MODELO = ("Mercoledì 11 novembre metto la sciarpa e vado in cantina: è San Martino e il vino nuovo si assaggia. "
           "A scuola parliamo della leggenda del mantello diviso e dell'estate di tre giorni. "
           "Sabato assaggio il torrone con la mia famiglia: preferisco quello di Cremona, con le mandorle e il miele. "
@@ -111,13 +111,13 @@ f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RISPOSTE =================
-p.hline(MX, RIGHT, 1344, GOLD, 2)
-p.text(MX, 1382, "RISPOSTE · ОТВЕТЫ — по страницам: ищите по номеру задачи", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1382, "К каждой задаче — пояснение · ✓ — задание с образцом", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1344, OLIVE, 2)
+p.text(MX, 1382, "RISPOSTE　ОТВЕТЫ — по страницам: ищите по номеру задачи", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1382, "К каждой задаче — пояснение　✓ — задание с образцом", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— СТРАНИЦА {pg} —", 14, "sans", True, OLIVE, lh=1.14, gap=2, split=False)
     for e_ in by_page[pg]:

@@ -2,15 +2,15 @@
 
 ## Prima
 
-VOL. 3 · TERZA EDIZIONE
+VOL. 3　TERZA EDIZIONE
 
-OGNI SETTIMANA IN ITALIANO · 每周一期 · 读意大利人正在读的意大利语
+OGNI SETTIMANA IN ITALIANO　每周一期　读意大利人正在读的意大利语
 
 SETTIMANA DAL 9 AL 15 NOVEMBRE 2026
 
 La Lucerna
 
-意 大 利 语 周 报 · VOL.3 · SAN MARTINO · IL VINO NUOVO · L'ITALIA
+意大利语周报　VOL.3　SAN MARTINO　IL VINO NUOVO　L'ITALIA
 
 IL GIORNALE SETTIMANALE PER IMPARARE — L'ITALIA VERA, IN ITALIANO, DALL'ITALIA
 
@@ -20,13 +20,13 @@ Tre giorni di sole, castagne e cantine aperte: l'autunno italiano si assaggia.
 
 本周是圣马丁周
 
-圣马丁之周 · 详见第 2 版
+圣马丁之周　详见第2版
 
-LA NOTIZIA · 头条
+LA NOTIZIA　头条
 
 San Martino porta il vino nuovo: l'Italia assaggia l'autunno
 
-Dalla redazione de La Lucerna · Livello di lettura: A2
+Dalla redazione de La Lucerna　Livello di lettura: A2
 
 Mercoledì 11 novembre è San Martino: secondo il proverbio, «a San Martino ogni mosto diventa vino». Si aprono le cantine, si assaggia il vino nuovo e si mangiano le castagne: è l'estate di San Martino, tre giorni di sole dopo il primo freddo.
 
@@ -42,7 +42,7 @@ Questa è la terza edizione de La Lucerna in italiano. Benvenuti a San Martino!
 
 讲解｜l'estate di San Martino 圣马丁的夏天 · il mosto 葡萄汁/新酒 · la cantina 酒窖 · assaggiare 品尝。
 
-LA SETTIMANA IN CIFRE · 数字看本周
+LA SETTIMANA IN CIFRE　数字看本周
 
 11 — novembre, il giorno di San Martino, mercoledì（圣马丁节，11 月 11 日周三）
 
@@ -52,7 +52,7 @@ LA SETTIMANA IN CIFRE · 数字看本周
 
 29ª — l'edizione della Festa del Torrone a Cremona（克雷莫纳牛轧糖节第 29 届）
 
-ADESSO TU · 即学即练
+ADESSO TU　即学即练
 
 1. [A2 · 完成句子] Mercoledì 11 novembre è ___. — key: San Martino (圣马丁节在 11 月 11 日)
 
@@ -70,7 +70,7 @@ LA SETTIMANA
 
 GIORNO PER GIORNO
 
-本周日程 · Cosa succede, giorno per giorno
+本周日程　Cosa succede, giorno per giorno
 
 LUN 9 — Eurogruppo a Bruxelles; il Festival dei Popoli si è chiuso ieri.
 
@@ -90,7 +90,7 @@ degli eventi; gli orari possono cambiare.
 
 日程以各活动日历为准，时间可能有变。
 
-IN QUESTO NUMERO · 本期目录
+IN QUESTO NUMERO　本期目录
 
 Pag. 2
 
@@ -136,7 +136,9 @@ tutti
 
 LA PAROLA DELLA SETTIMANA
 
-« l'estate di San Martino » : tre giorni miti dopo il primo freddo, con il sole della leggenda del mantello diviso.
+« l'estate di San Martino »
+
+tre giorni miti dopo il primo freddo, con il sole della leggenda del mantello diviso.
 
 “圣马丁的夏天”：初寒之后三天温和天气。
 
@@ -150,7 +152,7 @@ Giornate più corte, le cantine aperte, le piazze che profumano di castagne: l'I
 
 Il suo regalo per i lettori è un bicchiere di vino nuovo — da assaggiare, non da bere in fretta. Prendilo — e continua a leggere a pagina 2!
 
-IN BREVE · 快讯
+IN BREVE　快讯
 
 FESTIVAL
 
@@ -164,9 +166,9 @@ RICERCA
 
 I Giorni della Ricerca AIRC durano fino al 15 novembre. (Pagina 4)
 
-QUIZ LAMPO · 闪电问答
+QUIZ LAMPO　闪电问答
 
-读头版，选出正确答案 · 答案见第 8 版
+读头版，选出正确答案　答案见第8版
 
 7. [A2 · 单选] San Martino è... A. mercoledì 11 novembre · B. sabato 14 novembre · C. domenica 1° novembre — key: A (圣马丁节在 11 月 11 日周三)
 
@@ -178,15 +180,15 @@ QUIZ LAMPO · 闪电问答
 
 ## Vita
 
-VITA · 生活
+VITA　生活
 
 La Lucerna
 
-LIVELLO A2 · San Martino e il vino nuovo · 圣马丁与新酒
+LIVELLO A2　San Martino e il vino nuovo　圣马丁与新酒
 
 San Martino in casa e in cantina: vino nuovo, castagne, oca
 
-Dalla redazione de La Lucerna · Livello di lettura: A2
+Dalla redazione de La Lucerna　Livello di lettura: A2
 
 San Martino si sente a tavola: le castagne arrosto scaldano le mani, il vino nuovo si assaggia nelle cantine e, in molte case, si prepara l'oca arrosto. È la festa dell'autunno che diventa inverno, con il profumo del mosto che diventa vino.
 
@@ -204,7 +206,7 @@ Nello stesso weekend si è chiuso il Forum Cultura di Milano, con più di 50 eve
 
 发稿时预算法案尚未成为法律，详见第 6 版。
 
-LA FRASE PER RICORDARE · 口诀
+LA FRASE PER RICORDARE　口诀
 
 «A San Martino ogni mosto diventa vino.» Così dice il proverbio: l'11 novembre il mosto è pronto, e il vino nuovo si assaggia.
 
@@ -218,13 +220,13 @@ La leggenda del mantello diviso spiega l'estate di tre giorni.
 
 Cantine Aperte a San Martino: dal 1° al 15 novembre, vino nuovo nelle cantine.
 
-E TU? · 说说你自己
+E TU?　说说你自己
 
 E tu? Hai mai assaggiato il vino nuovo o le castagne arrosto? Scrivi due frasi in italiano e mandale alla redazione: le migliori escono nel VOL.4 (pagina 7, «Lettere dei lettori»).
 
 你尝过新酒或烤栗子吗？写两句意大利语寄给编辑部。
 
-L'11 NOVEMBRE · 圣马丁节
+L'11 NOVEMBRE　圣马丁节
 
 Un santo, un mantello, tre giorni di sole
 
@@ -232,11 +234,11 @@ Martino di Tours visse nel IV secolo: soldato romano, poi vescovo. La sua festa 
 
 Attenzione alla parola: «mosto» è il succo d'uva prima che diventi vino. «Fare San Martino», invece, è un modo di dire antico: vuol dire traslocare, cambiare casa.
 
-ESERCIZI · 第 2 版练习
+ESERCIZI　第2版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-A · CHE COSA SERVE?
+A　CHE COSA SERVE?
 
 用意大利语补全句子。
 
@@ -250,7 +252,7 @@ A · CHE COSA SERVE?
 
 15. [A2 · 完成句子] In molte case si prepara l'___ arrosto. — key: oca (oca = 鹅) [填空]
 
-B · IL PRESENTE
+B　IL PRESENTE
 
 补全动词的现在时形式。
 
@@ -264,7 +266,7 @@ B · IL PRESENTE
 
 20. [A2 · 完成句子] L'estate di San Martino ___ tre giorni e un pochino. — key: dura (durare：l'estate → dura（它）) [填空]
 
-C · COMPRENSIONE
+C　COMPRENSIONE
 
 读第 2 版文章，选出正确答案。
 
@@ -276,7 +278,7 @@ C · COMPRENSIONE
 
 24. [B1 · 单选] Il Festival dei Popoli ha presentato... A. 50 film · B. 86 film · C. 19 film — key: B (民俗电影节 86 部影片)
 
-D · LE PAROLE DI SAN MARTINO
+D　LE PAROLE DI SAN MARTINO
 
 25–28. [A2 · 词汇配对] 把词和释义配对
 
@@ -290,15 +292,15 @@ D · LE PAROLE DI SAN MARTINO
 
 ## Cultura
 
-CULTURA · 文化
+CULTURA　文化
 
 La Lucerna
 
-A2 → B1 · Torrone, cioccolato e tartufo · 牛轧糖、巧克力与松露
+A2 → B1　Torrone, cioccolato e tartufo　牛轧糖、巧克力与松露
 
 Due feste dolci: il torrone a Cremona, il cioccolato a Perugia
 
-Dalla redazione de La Lucerna · Livello di lettura: A2 → B1
+Dalla redazione de La Lucerna　Livello di lettura: A2 → B1
 
 Il secondo weekend della Festa del Torrone è a Cremona, sabato 14 e domenica 15 novembre: laboratori per i più piccoli, degustazioni e una maxi racchetta da tennis fatta di torrone, per il tennis in carrozzina. Domenica 15 novembre arriva anche il Treno Storico Arlecchino, da Milano a Cremona, e lo spettacolo delle Terre di mezzo in piazza del Comune.
 
@@ -326,17 +328,17 @@ Perugia, 13–22 novembre: Eurochocolate, 32ª edizione, «Fate dolci».
 
 Alba: la Fiera del Tartufo Bianco continua fino al 6 dicembre.
 
-E TU? · 说说你自己
+E TU?　说说你自己
 
 E tu? Preferisci il torrone o il cioccolato? Scrivi due frasi in italiano e mandale alla redazione.
 
 你更喜欢牛轧糖还是巧克力？写两句寄来。
 
-ESERCIZI · 第 3 版练习
+ESERCIZI　第3版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-A · COMPRENSIONE
+A　COMPRENSIONE
 
 读第 3 版文章，选出正确答案。
 
@@ -350,7 +352,7 @@ A · COMPRENSIONE
 
 33. [B1 · 单选] La Fiera del Tartufo Bianco di Alba chiude... A. il 22 novembre · B. il 6 dicembre · C. l'8 novembre — key: B (阿尔巴松露节到 12 月 6 日)
 
-B · LE PAROLE DEL TESTO
+B　LE PAROLE DEL TESTO
 
 用方框里的词填空。
 
@@ -368,7 +370,7 @@ torrone · cioccolato · laboratorio · degustazione · tartufo · mandorle
 
 39. [A2 · 完成句子] Il ___ bianco è il fungo più prezioso d'Italia. — key: tartufo (tartufo = 松露) [填空]
 
-C · IL PASSATO PROSSIMO
+C　IL PASSATO PROSSIMO
 
 用 passato prossimo（近过去时）补全，注意助动词 avere / essere。
 
@@ -380,7 +382,7 @@ C · IL PASSATO PROSSIMO
 
 43. [B1 · 完成句子] Perugia ___ (aprire) Eurochocolate venerdì. — key: ha aperto (aprire 用 avere：ha aperto) [填空]
 
-D · COSTRUISCI LE FRASI
+D　COSTRUISCI LE FRASI
 
 把词组成正确的句子。
 
@@ -392,15 +394,15 @@ D · COSTRUISCI LE FRASI
 
 ## Sport
 
-SPORT · 体育
+SPORT　体育
 
 La Lucerna
 
-LIVELLO B1 · Le notti azzurre e il tennis · 国家队之夜与网球
+LIVELLO B1　Le notti azzurre e il tennis　国家队之夜与网球
 
 Due notti azzurre: Francia a San Siro, Belgio a Bruxelles
 
-Dalla redazione sportiva de La Lucerna · Livello di lettura: B1
+Dalla redazione sportiva de La Lucerna　Livello di lettura: B1
 
 È una settimana di grande calcio, senza Serie A: il campionato si ferma per la sosta delle nazionali. Giovedì 12 novembre, alle 20.45, l'Italia gioca a San Siro con la Francia, nella quinta giornata di Nations League. Domenica 15 novembre, alle 20.45, gli Azzurri chiudono il girone a Bruxelles, con il Belgio.
 
@@ -418,13 +420,13 @@ LE PARTITE DA SEGNARE
 
 Giovedì 12 novembre, ore 20.45 · Italia – Francia, a San Siro, Nations League. Domenica 15 novembre, ore 20.45 · Belgio – Italia, a Bruxelles. Domenica 15 novembre · ATP Finals a Torino: iniziano le gare all'Inalpi Arena.
 
-E TU? · 说说你自己
+E TU?　说说你自己
 
 E tu? Quale partita guardi giovedì sera? Scrivi due frasi in italiano.
 
 周四晚上你看哪场比赛？写两句意大利语寄来。
 
-LA SETTIMANA DELLO SPORT · 体育周
+LA SETTIMANA DELLO SPORT　体育周
 
 Gio 12.11
 
@@ -458,11 +460,11 @@ Atalanta – Inter — la sera, a Bergamo
 
 Attenzione: le partite dell'Italia di giovedì e domenica e le gare di tennis si giocano dopo la chiusura di questa edizione — per questo qui sono presentazioni, senza risultati. I risultati della Serie A, invece, sono nel prossimo numero.
 
-ESERCIZI · 第 4 版练习
+ESERCIZI　第4版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-A · COMPRENSIONE
+A　COMPRENSIONE
 
 读第 4 版文章，选出正确答案。
 
@@ -476,7 +478,7 @@ A · COMPRENSIONE
 
 51. [B1 · 单选] Le ATP Finals si giocano... A. a Milano · B. a Torino · C. a Bruxelles — key: B (ATP 总决赛在都灵)
 
-B · LE PAROLE
+B　LE PAROLE
 
 52–55. [B1 · 词汇配对] 把词和释义配对
 
@@ -488,7 +490,7 @@ B · LE PAROLE
 
 55. la presentazione — il racconto prima della partita, senza risultati (key a · presentazione=赛前介绍 a)
 
-C · I COMPARATIVI
+C　I COMPARATIVI
 
 用括号里词的比较级填空（数据看赛程表）。
 
@@ -500,7 +502,7 @@ C · I COMPARATIVI
 
 59. [B2 · 句型转换] L'Italia gioca bene. → L'Italia gioca ___ (bene). — key: meglio (bene 的比较级是不规则的 meglio) [填空]
 
-D · IL PASSATO DELLO SPORT
+D　IL PASSATO DELLO SPORT
 
 用 passato prossimo 补全。
 
@@ -516,15 +518,15 @@ D · IL PASSATO DELLO SPORT
 
 ## Giovani
 
-GIOVANI · 青年
+GIOVANI　青年
 
 La Lucerna
 
-LIVELLO B1 · Leggere, guardare, giocare · 阅读、观看、游戏
+LIVELLO B1　Leggere, guardare, giocare　阅读、观看、游戏
 
 I giovani leggono: libri a Cuneo, cinema a Milano, calcio in festa
 
-Dalla redazione de La Lucerna · Livello di lettura: B1
+Dalla redazione de La Lucerna　Livello di lettura: B1
 
 Dall'11 al 15 novembre, a Cuneo, torna Scrittorincittà: più di cento autori incontrano i lettori e presentano i libri appena usciti, con il tema di quest'anno, «Finestrini». È una festa per chi ama leggere: si entra in un libro come da un finestrino, e si guarda il mondo da un altro punto di vista.
 
@@ -560,17 +562,17 @@ Filmmaker Festival, Milano: dal 14 al 22 novembre, cinema indipendente.
 
 Offside Festival, Milano: dal 12 al 15 novembre, calcio e cultura.
 
-E TU? · 说说你自己
+E TU?　说说你自己
 
 E tu? Preferisci un libro, un film o una partita? Scrivi due frasi in italiano.
 
 你更喜欢书、电影还是比赛？写两句寄来。
 
-ESERCIZI · 第 5 版练习
+ESERCIZI　第5版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-A · COMPRENSIONE
+A　COMPRENSIONE
 
 读第 5 版文章，选出正确答案。
 
@@ -584,7 +586,7 @@ A · COMPRENSIONE
 
 69. [B1 · 单选] L'Offside Festival parla di... A. calcio e cultura · B. solo libri · C. solo dolci — key: A (Offside 讲足球与文化)
 
-B · LE PAROLE DEL TESTO
+B　LE PAROLE DEL TESTO
 
 用方框里的词填空。注意：有的词要变成复数。
 
@@ -602,7 +604,7 @@ finestrino · autore · indipendente · sperimentazione · ospite · castagne
 
 75. [B1 · 完成句子] Il Filmmaker Festival è il festival della ___. — key: sperimentazione (sperimentazione = 实验/探索) [填空]
 
-C · IL FUTURO
+C　IL FUTURO
 
 用将来时（futuro semplice）补全。
 
@@ -614,7 +616,7 @@ C · IL FUTURO
 
 79. [B2 · 完成句子] Eurochocolate ___ (durare) fino al 22 novembre. — key: durerà (durare 将来时：durerà) [填空]
 
-D · VERO O FALSO?
+D　VERO O FALSO?
 
 80. [B1 · 判断对错] Scrittorincittà ha più di 100 autori. Vero o falso? — key: Vero (作家进城有 100 多位作者) [判断]
 
@@ -624,15 +626,15 @@ D · VERO O FALSO?
 
 ## Approfondimento
 
-APPROFONDIMENTO · 深读
+APPROFONDIMENTO　深读
 
 La Lucerna
 
-LIVELLO B2 · La manovra spiegata · 预算法案详解
+LIVELLO B2　La manovra spiegata　预算法案详解
 
 La manovra, spiegata piano: 26 miliardi, il Parlamento decide
 
-Dalla redazione de La Lucerna · Livello di lettura: B2 · La legge di bilancio e i numeri
+Dalla redazione de La Lucerna　Livello di lettura: B2　La legge di bilancio e i numeri
 
 La manovra è la legge di bilancio: il documento che dice come lo Stato spende e dove trova i soldi. Il Documento programmatico di bilancio (DPB), mandato a Bruxelles il 15 ottobre, prevede per il 2027 una crescita del +0,8% e un deficit del 3,4% del PIL. Il 28 ottobre il Consiglio dei ministri ha approvato il disegno di legge: circa 26 miliardi di euro, secondo le ricostruzioni dei giornali.
 
@@ -668,9 +670,9 @@ LEGGERE I NUMERI
 
 Davanti a una cifra della manovra, fai tre domande: chi la pubblica? Quando? È una proposta del governo o una legge votata? Senza queste tre risposte, un numero dice poco.
 
-LE MINIME DI ESEMPIO · 练习用示例最低温 (DATI INVENTATI PER L'ESERCIZIO)
+LE MINIME DI ESEMPIO　练习用示例最低温 (DATI INVENTATI PER L'ESERCIZIO)
 
-MINIME DI ESEMPIO · gradi, dati inventati
+MINIME DI ESEMPIO　gradi, dati inventati
 
 Torino 6°
 
@@ -694,11 +696,11 @@ Il testo definitivo si conosce solo alla fine dell'iter in Parlamento.
 
 Le cifre della manovra si aggiornano con il dibattito: controllale prima di citarle.
 
-ESERCIZI · 第 6 版练习
+ESERCIZI　第6版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-A · LEGGERE IL GRAFICO
+A　LEGGERE IL GRAFICO
 
 看上面的练习图表，选出正确答案。
 
@@ -714,7 +716,7 @@ A · LEGGERE IL GRAFICO
 
 88. [B2 · 单选] «Il governo propone»... A. non è ancora legge · B. è già legge · C. è un errore — key: A (政府提议不等于法律)
 
-B · COMPRENSIONE
+B　COMPRENSIONE
 
 89. [B2 · 单选] La manovra è... A. una festa · B. la legge di bilancio · C. un film — key: B (法案是预算法)
 
@@ -724,7 +726,7 @@ B · COMPRENSIONE
 
 92. [B2 · 单选] La crescita prevista per il 2027 è... A. +3,4% · B. +0,8% · C. +5% — key: B (2027 增长预测 +0,8%)
 
-C · IL CONGIUNTIVO
+C　IL CONGIUNTIVO
 
 93. [B2 · 完成句子] È probabile che domani ___ (piovere) in pianura. — key: piova (è probabile che + 虚拟式 piova) [填空]
 
@@ -734,7 +736,7 @@ C · IL CONGIUNTIVO
 
 96. [B2 · 完成句子] È importante che la cifra ___ (essere) chiara per tutti. — key: sia (è importante che + 虚拟式 sia) [填空]
 
-D · LE PAROLE DELLA MANOVRA
+D　LE PAROLE DELLA MANOVRA
 
 用方框里的词填空：manovra · deficit · copertura · scaglione
 
@@ -748,13 +750,13 @@ D · LE PAROLE DELLA MANOVRA
 
 ## Lingua
 
-LINGUA · 语言
+LINGUA　语言
 
 La Lucerna
 
-聚焦语言 · Tre livelli, tre strumenti · 三个级别，三件工具
+聚焦语言　Tre livelli, tre strumenti　三个级别，三件工具
 
-A2 · IL FUTURO
+A2　IL FUTURO
 
 Per i piani della settimana usiamo il futuro semplice: andremo a Cuneo, assaggeremo il vino nuovo, guarderemo Italia–Francia. Le forme sono regolari: andare → andrò, assaggiare → assaggerò, guardare → guarderò.
 
@@ -770,7 +772,7 @@ E per il tempo: ci sarà il sole di San Martino, durerà tre giorni. Il verbo è
 
 104. [A2 · 单选] L'estate di San Martino... A. dura tre giorni · B. durerà tre giorni · C. durava tre giorni — key: B (durerà 是 durare 的将来时)
 
-B1 · IL PASSATO PROSSIMO
+B1　IL PASSATO PROSSIMO
 
 Per raccontare il weekend usiamo il passato prossimo: ausiliare + participio. Con essere — per verbi come arrivare e andare — il participio cambia con la persona: è arrivato (il treno), sono andati (i visitatori).
 
@@ -786,7 +788,7 @@ Con avere: abbiamo assaggiato, ha aperto. Il participio con avere non cambia.
 
 108. [B1 · 单选] Perugia ___ Eurochocolate. A. è aperta · B. ha aperto · C. sono aperti — key: B (aprire 用 avere + 不变分词)
 
-B2 · IL CONGIUNTIVO
+B2　IL CONGIUNTIVO
 
 Con «è probabile che», «è possibile che» e «bisogna che» usiamo il congiuntivo: piova (piovere), nevichi (nevicare), sia (essere). È la grammatica della probabilità, la stessa di pagina 6.
 
@@ -802,7 +804,7 @@ Ma dopo «so che» e «i giornali scrivono che» resta l'indicativo: il sole tor
 
 112. [B2 · 单选] «So che il sole...» A. torni · B. torna · C. tornare — key: B (so che + 陈述式 torna)
 
-ERRORI TIPICI · 常见错误
+ERRORI TIPICI　常见错误
 
 «Fa freddi.»
 
@@ -828,7 +830,7 @@ andare 用 essere 作助动词
 
 mosto 是单数，动词用单数
 
-LA PAROLA · 本周生词
+LA PAROLA　本周生词
 
 « il mosto » è il succo d'uva prima che diventi vino. Questa settimana vive a pagina 2, a San Martino.
 
@@ -840,7 +842,7 @@ LETTERE DEI LETTORI
 
 这是编辑部示例，非真实来信。截稿时未收到真实来信与第 8 版最佳作文，承诺顺延 VOL.4，请寄信给编辑部。
 
-FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）
+FRASI DELLA SETTIMANA　本周金句（逐字摘自本期文章）
 
 «tre giorni di sole dopo il primo freddo»
 
@@ -874,19 +876,19 @@ FRASI DELLA SETTIMANA · 本周金句（逐字摘自本期文章）
 
 政府批准不等于已经是法律。 (Pagina 6)
 
-LA PROSSIMA SETTIMANA · 下期预告 (VOL.4)
+LA PROSSIMA SETTIMANA　下期预告 (VOL.4)
 
 Domenica 22 novembre: chiude la Festa del Torrone a Cremona. La Serie A torna il 21–23 novembre, con i risultati dell'11ª giornata. E poi: le vostre lettere vere e i testi migliori della pagina 8. A lunedì!
 
 ## Valutazione e risposte
 
-VALUTAZIONE E RISPOSTE · 练习与答案
+VALUTAZIONE E RISPOSTE　练习与答案
 
 La Lucerna
 
-第 8 版 · La grande prova della settimana + tutte le risposte
+第8版　La grande prova della settimana + tutte le risposte
 
-A · COMPLETA LA CRONACA
+A　COMPLETA LA CRONACA
 
 113. [B1 · 完形单选] Mercoledì 11 novembre è ___. (A. Natale · B. San Martino) — key: B (圣马丁 = San Martino)
 
@@ -904,7 +906,7 @@ A · COMPLETA LA CRONACA
 
 120. [B1 · 完形单选] Scrittorincittà è a ___. (A. Milano · B. Cuneo) — key: B (作家进城在库内奥)
 
-B · DOMANDE GENERALI
+B　DOMANDE GENERALI
 
 121. [A2 · 单选] L'estate di San Martino dura... A. un mese · B. tre giorni e un pochino · C. un'ora — key: B (圣马丁的夏天持续三天多一点)
 
@@ -922,7 +924,7 @@ B · DOMANDE GENERALI
 
 128. [B1 · 单选] Il Festival dei Popoli si è chiuso... A. il 31 ottobre · B. l'8 novembre · C. il 15 novembre — key: B (民俗电影节 11 月 8 日闭幕)
 
-C · LEGGI E RISPONDI
+C　LEGGI E RISPONDI
 
 Giulia vive a Cuneo: mercoledì 11 novembre va a Scrittorincittà e ascolta un autore. Paolo vive a Cremona: sabato 14 novembre va alla Festa del Torrone. Domenica, Giulia e Paolo guardano Belgio–Italia: è San Martino, ma il calcio non si ferma.
 
@@ -934,7 +936,7 @@ Giulia vive a Cuneo: mercoledì 11 novembre va a Scrittorincittà e ascolta un a
 
 132. [A2 · 单选] Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo» — key: A (标题概括两个城市、两个节日)
 
-D · COSTRUISCI LE FRASI
+D　COSTRUISCI LE FRASI
 
 133. [A2 · 造句] mercoledì / è / San Martino → ___ — key: Mercoledì è San Martino. (时间词在前) [造句]
 
@@ -944,7 +946,7 @@ D · COSTRUISCI LE FRASI
 
 136. [B1 · 造句] il vino nuovo / si assaggia / in cantina → ___ — key: Il vino nuovo si assaggia in cantina. (主语 + 动词 + 地点) [造句]
 
-E · TRADUCI
+E　TRADUCI
 
 137. [A2 · 翻译] A San Martino ogni mosto diventa vino. → ___ — key: 圣马丁节葡萄汁变成酒。 (对照原文) [翻译]
 
@@ -954,7 +956,7 @@ E · TRADUCI
 
 140. [B2 · 翻译] 每个数字都必须清楚。→ ___ — key: Ogni cifra deve essere chiara. (dovere = 必须) [翻译]
 
-F · LE PAROLE DELLA MANOVRA
+F　LE PAROLE DELLA MANOVRA
 
 141–144. [B2 · 词汇配对] 把词和释义配对
 
@@ -966,7 +968,7 @@ F · LE PAROLE DELLA MANOVRA
 
 144. lo scaglione — la parte del sistema fiscale, un livello di reddito (key a · scaglione=税级 a)
 
-G · DIALOGO ALLA SAGRA
+G　DIALOGO ALLA SAGRA
 
 145. [B1 · 完形单选] — Cerco il ___ di Cremona. (A. biglietto · B. torrone) — key: B (torrone = 牛轧糖)
 
@@ -978,7 +980,7 @@ G · DIALOGO ALLA SAGRA
 
 149. [B1 · 完形单选] — La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre) — key: B (牛轧糖节持续到 11 月 22 日)
 
-H · SCRIVI TU
+H　SCRIVI TU
 
 写作题（无唯一答案）；范文（98 词）见下。
 
@@ -986,9 +988,9 @@ H · SCRIVI TU
 
 Testo modello: Mercoledì 11 novembre metto la sciarpa e vado in cantina: è San Martino e il vino nuovo si assaggia. A scuola parliamo della leggenda del mantello diviso e dell'estate di tre giorni. Sabato assaggio il torrone con la mia famiglia: preferisco quello di Cremona, con le mandorle e il miele. Giovedì sera guardiamo Italia–Francia in televisione, alle 20.45. Domenica, poi, il Belgio: due notti azzurre in una settimana. San Martino è arrivato, ma la settimana è dolce: vino nuovo, castagne e calcio, come nel giornale. Lunedì prossimo racconto tutto alla classe, con le parole nuove di San Martino.
 
-RISPOSTE · 参考答案 — 按版面分页排列，找到题号即可
+RISPOSTE　参考答案 — 按版面分页排列，找到题号即可
 
-每题附一句中文简析 · 带 ✓ 的为范文题
+每题附一句中文简析　带 ✓ 的为范文题
 
 ### Risposte
 

@@ -41,6 +41,12 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
   5. F1: `content12.py` P8 items 16–19 notes, full-width colon U+FF1A → half-width colon (`dividere：…` → `dividere: …`, same for assaggiare/aprire/mangiare), matching items 20/60/61.
   Changed pages vs pre-fix snapshot (SVG sha256): P1, P2, P4, P7, P8; all other pages byte-identical. ABSTRACT.txt unchanged (still valid: single line, no ASCII double quotes).
 
+
+- D5 rebuild deliverable pin (run2, 2026-11-15; build names, verified in `GATES-SUMMARY-run2.txt`):
+  - print `The-Lucerna-VOL3-it-de.pdf` — 6,094,041 bytes, sha256 `167a5f9b452b4b136d52d3c4b9043925d3fbbe773af45ccff856cabd2c260127`
+  - web `2026-w46-it-de.web.pdf` — 564,425 bytes, sha256 `67a4fa151b88e71f14f807a6e0d1b0fdbb9bc3bdc26cfb8d72e27daeffe266a7`
+  - text `2026-w46-it-de.text.md.new` — 55,733 bytes, sha256 `8fda16960269c40e5f18f866d7139bf541d56030de42039b817c38c4bab9fb99`
+
 ## 8. Gates
 - Builder self-check: 0 FLOW OVERFLOW / 0 HEAD TOO WIDE; TOTAL 150; levels A2 47 / B1 70 / B2 33; pages 10/18/18/18/18/18/12/38; model text 98 words. Build log `hidden_files/w46/it-finish/rerun2-de.log` (final render).
 - `tools/freeze.py diff` vs core (log `hidden_files/w46/it-finish/freeze3-de.log`): all pages compared; TOTAL added CJK characters 0. No CJK characters in shipped SVGs. Removed strings are Chinese explanation/furniture strings only; no Italian body string was removed or added (Italian-heavy added strings are frozen box titles and P7 grammar trigger phrases, adjudicated).
@@ -73,3 +79,18 @@ Identical to the core — see `files/weekly-report-w46-it-core/WEEKLY-KIT.md` §
 - `ABSTRACT.txt` — German, one line, no ASCII double quotes.
 - `WEEKLY-KIT.md` — this file.
 - Gate logs: `hidden_files/w46/it-finish/freeze3-de.log`, `p8-3-de.log`, `occlusion3-de.log`.
+
+## 11. D5 rebuild (2026-11-15)
+- Scope: D1+D5 in one pass. Production svglib was pre-D1 (D1 fix 0, Newsreader 0, no `_D5_READER`); patched svglib = fanout §1.1 set + D5 install (PLAN D10).
+- Install: `hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --target it --reader de --week 2026-w46` (--check dry run rc=0, then install rc=0). `_D5_READER` at `svglib.py:100` = latin; fix2 ×5 kept; fix-xru 0 (D26, W47-only); `test_d5_routing.py` FAILURES: 0.
+- Pre-repair census (baseline, `d5_census.py`): Latin in CJK 491, Cyrillic in CJK 0, curly in CJK 1.
+- run1 gates 16/20: G1 HEAD TOO WIDE ×2, G2 ×2, G12 boxtitle ×1, G14 creambox (audit crash).
+- Repairs (font size only, no text changed; probe = `text_w` with this edition's own svglib):
+
+| file:line | what | old → new | overage | probe |
+|---|---|---|---|---|
+| `content12.py:258` | P2-ex D head `D LE PAROLE DI SAN MARTINO` | 25 → 23 | 436.6px / 422.5 | 401.7px |
+| `content56.py:221` | P6-ex D head `D LE PAROLE DELLA MANOVRA` | 25 → 23 | 446.0px / 422.5 | 410.3px |
+| `content7.py:73` | P7 box title `ERRORI TIPICI TYPISCHE FEHLER` | 23 → 20 | +37.8px | 381.1px / 400.5 |
+
+- Final gates run2 20/20 (19 verdicts + G15b record-only). G15a IDENTICAL after intended transforms (SEP 87, WORD 1, TRIM 1); G15c UNEXPECTED=0, entries=648, exercises=150; D47 `### Risposte` 1/1, 0 lost; D18 gap 163.2px; D37 +21.3pt (overlap).

@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w46-it-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · VALUTAZIONE E RISPOSTE =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("VALUTAZIONE E RISPOSTE · 練習與答案", "La Lucerna", "第 8 版 · La grande prova della settimana + tutte le risposte")
+p.band("VALUTAZIONE E RISPOSTE　練習與答案", "La Lucerna", "第8版　La grande prova della settimana + tutte le risposte")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1332, tag="P8-ex")
-f.head("A · COMPLETA LA CRONACA", 22, OLIVE, 5)
+f.head("A　COMPLETA LA CRONACA", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "B", "聖馬丁 = San Martino",
      "Mercoledì 11 novembre è ___. (A. Natale · B. San Martino)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "A", "葡萄汁變新酒",
@@ -29,7 +29,7 @@ f.ex("B1", "完形單選", "A", "比利時對義大利在週日晚上",
      "Belgio–Italia si gioca domenica ___. (A. sera · B. mattina)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "B", "作家進城在庫內奧",
      "Scrittorincittà è a ___. (A. Milano · B. Cuneo)", size=15.5, gap=1)
-f.head("B · DOMANDE GENERALI", 22, OLIVE, 5)
+f.head("B　DOMANDE GENERALI", 22, OLIVE, 5)
 f.ex("A2", "單選", "B", "聖馬丁的夏天持續三天多一點",
      "L'estate di San Martino dura... A. un mese · B. tre giorni e un pochino · C. un'ora", size=15.5, gap=1)
 f.ex("A2", "單選", "B", "斗篷是 Martino 分給乞丐的",
@@ -46,7 +46,7 @@ f.ex("B2", "單選", "B", "政府提議不等於法律",
      "«Il governo propone»... A. è già legge · B. non è ancora legge · C. è un errore", size=15.5, gap=1)
 f.ex("B1", "單選", "B", "民俗電影節 11 月 8 日閉幕",
      "Il Festival dei Popoli si è chiuso... A. il 31 ottobre · B. l'8 novembre · C. il 15 novembre", size=15.5, gap=1)
-f.head("C · LEGGI E RISPONDI", 22, OLIVE, 5)
+f.head("C　LEGGI E RISPONDI", 22, OLIVE, 5)
 f.para("Giulia vive a Cuneo: mercoledì 11 novembre va a Scrittorincittà e ascolta un autore. Paolo vive a Cremona: sabato 14 novembre va alla Festa del Torrone. Domenica, Giulia e Paolo guardano Belgio–Italia: è San Martino, ma il calcio non si ferma.", 16.5, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "Giulia 週三去作家進城",
      "Chi va a Scrittorincittà? A. Paolo · B. Giulia · C. i due", size=15.5, gap=1)
@@ -56,7 +56,7 @@ f.ex("A2", "單選", "B", "作家是 Giulia 聽的",
      "L'autore è ascoltato da... A. Paolo · B. Giulia · C. nessuno", size=15.5, gap=1)
 f.ex("A2", "單選", "A", "標題概括兩個城市、兩個節日",
      "Il titolo migliore è... A. «Due città, due feste» · B. «La manovra» · C. «Il meteo»", size=15.5, gap=1)
-f.head("D · COSTRUISCI LE FRASI", 22, OLIVE, 5)
+f.head("D　COSTRUISCI LE FRASI", 22, OLIVE, 5)
 f.ex("A2", "造句", "Mercoledì è San Martino.", "時間詞在前",
      "mercoledì / è / San Martino → ___", instr="造句", size=15.5, gap=1)
 f.ex("B1", "造句", "Eurochocolate è a Perugia dal 13 novembre.", "主語 + essere + 地點 + 日期",
@@ -65,7 +65,7 @@ f.ex("B1", "造句", "A che ora gioca l'Italia?", "疑問詞組在句首",
      "a che ora / gioca / l'Italia / ? → ___", instr="造句", size=15.5, gap=1)
 f.ex("B1", "造句", "Il vino nuovo si assaggia in cantina.", "主語 + 動詞 + 地點",
      "il vino nuovo / si assaggia / in cantina → ___", instr="造句", size=15.5, gap=1)
-f.head("E · TRADUCI", 22, OLIVE, 5)
+f.head("E　TRADUCI", 22, OLIVE, 5)
 f.ex("A2", "翻譯", "聖馬丁節葡萄汁變成酒。", "對照原文",
      "A San Martino ogni mosto diventa vino. → ___", instr="翻譯", size=15.5, gap=1)
 f.ex("B1", "翻譯", "週四晚上義大利對法國。", "si gioca = 進行比賽",
@@ -74,7 +74,7 @@ f.ex("B1", "翻譯", "週日晚上，比利時對義大利。", "si gioca = 進�
      "Domenica sera si gioca Belgio–Italia. → ___", instr="翻譯", size=15.5, gap=1)
 f.ex("B2", "翻譯", "Ogni cifra deve essere chiara.", "dovere = 必須",
      "每個數字都必須清楚。→ ___", instr="翻譯", size=15.5, gap=1)
-f.head("F · LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
+f.head("F　LE PAROLE DELLA MANOVRA", 22, OLIVE, 5)
 f.match_set("B2", "詞彙配對",
             ["la manovra", "il deficit", "la copertura", "lo scaglione"],
             ["la parte del sistema fiscale, un livello di reddito",
@@ -84,7 +84,7 @@ f.match_set("B2", "詞彙配對",
             ["d", "c", "b", "a"],
             ["manovra=預算法案 d", "deficit=赤字 c", "copertura=資金來源 b", "scaglione=稅級 a"],
             instr="把詞和釋義配對")
-f.head("G · DIALOGO ALLA SAGRA", 22, OLIVE, 5)
+f.head("G　DIALOGO ALLA SAGRA", 22, OLIVE, 5)
 f.ex("B1", "完形單選", "B", "torrone = 牛軋糖",
      "— Cerco il ___ di Cremona. (A. biglietto · B. torrone)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "A", "mandorle = 杏仁",
@@ -95,7 +95,7 @@ f.ex("B1", "完形單選", "A", "pagare con carta = 刷卡",
      "— Pago con ___. (A. carta · B. cosplay)", size=15.5, gap=1)
 f.ex("B1", "完形單選", "B", "牛軋糖節持續到 11 月 22 日",
      "— La festa dura fino al ___. (A. 6 dicembre · B. 22 novembre)", size=15.5, gap=1)
-f.head("H · SCRIVI TU", 22, OLIVE, 5)
+f.head("H　SCRIVI TU", 22, OLIVE, 5)
 MODELO = ("Mercoledì 11 novembre metto la sciarpa e vado in cantina: è San Martino e il vino nuovo si assaggia. "
           "A scuola parliamo della leggenda del mantello diviso e dell'estate di tre giorni. "
           "Sabato assaggio il torrone con la mia famiglia: preferisco quello di Cremona, con le mandorle e il miele. "
@@ -111,13 +111,13 @@ f.para("Testo modello: " + MODELO, 16, lh=1.3, split=False)
 f.end_report()
 
 # ================= RISPOSTE =================
-p.hline(MX, RIGHT, 1344, GOLD, 2)
-p.text(MX, 1382, "RISPOSTE · 全部答案與簡析（第 1–8 版）", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1382, "每題附一句中文簡析 · 帶 ✓ 的為範文題", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1344, OLIVE, 2)
+p.text(MX, 1382, "RISPOSTE　全部答案與簡析（第1–8版）", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1382, "每題附一句中文簡析　帶 ✓ 的為範文題", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2552, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1408, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— PAGINA {pg} —", 14, "sans", True, OLIVE, lh=1.14, gap=2, split=False)
     for e_ in by_page[pg]:
