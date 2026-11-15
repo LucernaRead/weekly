@@ -1,18 +1,18 @@
-# Le Lucerna · 法语周报 VOL.4
+# Le Lucerna · 法语周报 VOL.3
 
 2026年11月9日至15日当周 · 150道练习 · A2–B2 · 正文法语 · 讲解简体中文
 
 # Page 1
 
-VOL. 4 · 总第 4 期
+VOL. 3　总第3期
 
-HEBDOMADAIRE EN FRANÇAIS · 每周一期 · 读法国人正在读的法语
+HEBDOMADAIRE EN FRANÇAIS　每周一期　读法国人正在读的法语
 
 SEMAINE DU 9 AU 15 NOVEMBRE 2026
 
 Le Lucerna
 
-法 语 周 报 · VOL.4 · 参议院的一周
+法语周报　VOL.3　参议院的一周
 
 LE JOURNAL DES APPRENANTS DE FRANÇAIS — LIRE LA VRAIE VIE, EN FRANÇAIS
 
@@ -20,17 +20,17 @@ LUNDI 9 NOVEMBRE : LE SÉNAT PREND LE RELAIS !
 
 Le budget de la Sécurité sociale arrive au Sénat. Mercredi, le pays se souvient.
 
-参议院接棒 · 11 月 11 日纪念日
+参议院接棒　11月11日纪念日
 
-迪耶普集市周末 · 详见第 3、6 版
+迪耶普集市周末　详见第3、6版
 
-法语正文 · 简体中文讲解 — 给简体中文读者的版本
+法语正文　简体中文讲解 — 给简体中文读者的版本
 
-POLITIQUE · MÉMOIRE · GASTRONOMIE · LA UNE · 纪念与集市
+POLITIQUE　MÉMOIRE　GASTRONOMIE　LA UNE　纪念与集市
 
 Le Sénat débat, la France se souvient, Dieppe fait la fête
 
-Par la rédaction du Lucerna · Niveau de lecture : A2
+Par la rédaction du Lucerna　Niveau de lecture : A2
 
 Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. Le texte arrive dans la version du gouvernement : le 23 octobre, les députés avaient rejeté la partie « recettes » par 115 voix contre 1, et la partie « dépenses » n'avait pas été examinée.
 
@@ -44,7 +44,7 @@ Trois rendez-vous, une seule semaine : le Sénat pour le débat, le 11 novembre 
 
 > 译注｜le Sénat 参议院 · un débat 辩论 · se souvenir 纪念 · un hareng 鲱鱼 · une foire 集市。
 
-### LES DATES · 本周三件大事
+### LES DATES　本周三件大事
 
 lun. 9 nov. — le Sénat ouvre la discussion
 
@@ -52,7 +52,7 @@ mer. 11 nov. — l'Armistice, jour férié
 
 sam. 14 – dim. 15 nov. — la foire de Dieppe
 
-### À VOUS ! · 即学即练
+### À VOUS !　即学即练
 
 1. Lundi 9 novembre, le ___ ouvre la discussion sur le budget.
 
@@ -70,7 +70,7 @@ CETTE SEMAINE
 
 JOUR PAR JOUR
 
-本周日程 · 11 月 9 日至 15 日
+本周日程　11月9日至15日
 
 lun. 9
 
@@ -106,7 +106,7 @@ aura lieu la semaine suivante.
 
 参议院正式投票在下周举行。
 
-DANS CE NUMÉRO · 本期目录
+DANS CE NUMÉRO　本期目录
 
 p.2
 
@@ -152,7 +152,9 @@ tous
 
 LE MOT DE LA SEMAINE
 
-« prendre le relais » : succéder à quelqu'un, continuer son travail.
+« prendre le relais »
+
+succéder à quelqu'un, continuer son travail.
 
 接棒；接手继续。
 
@@ -166,7 +168,7 @@ Le 23 octobre, l'Assemblée nationale a rejeté les recettes du budget de la Sé
 
 Au moment où nous écrivons, le 2 novembre, le vote du mardi 3 novembre n'a pas encore eu lieu. Son résultat sera dans le VOL.5.
 
-EN BREF · 快讯
+EN BREF　快讯
 
 MASTERS
 
@@ -180,9 +182,9 @@ PARIS PHOTO
 
 Vernissage mercredi 11 novembre, sur invitation ; ouverture jeudi 12. (page 5)
 
-QUIZ ÉCLAIR · 闪电问答
+QUIZ ÉCLAIR　闪电问答
 
-读头版，选出正确答案 · 答案见第 8 版
+读头版，选出正确答案　答案见第8版
 
 7. La discussion au Sénat commence... A. lundi 9 · B. mercredi 11 · C. samedi 14
 
@@ -194,13 +196,13 @@ QUIZ ÉCLAIR · 闪电问答
 
 # Page 2
 
-## VIE QUOTIDIENNE · 生活
+## VIE QUOTIDIENNE　生活
 
-*NIVEAU A2 · La semaine coupée · 被切成两半的一周*
+*NIVEAU A2　La semaine coupée　被切成两半的一周*
 
 ## Mercredi 11 novembre : la semaine coupée en deux
 
-*Par la rédaction · Niveau de lecture : A2*
+*Par la rédaction　Niveau de lecture : A2*
 
 Cette semaine est coupée en deux : lundi et mardi, on travaille et on débat ; mercredi 11 novembre, on s'arrête. C'est un jour férié au milieu de la semaine, et beaucoup de Français en profitent pour souffler, partir en famille ou visiter un musée.
 
@@ -236,15 +238,15 @@ La flamme brûle depuis 1923.
 
 Paris Photo ouvre jeudi 12.
 
-ET VOUS ? · 说说你自己
+ET VOUS ?　说说你自己
 
 Et vous ? Racontez votre mercredi 11 novembre en deux phrases : cérémonie, musée, ou promenade ? Les meilleurs textes paraîtront dans le VOL.5 (page 7).
 
 说说你的 11 月 11 日：写两句法语寄来。
 
-DIRE LA DATE · 这样说日期
+DIRE LA DATE　这样说日期
 
-11 月 9 日星期一 · 注意：星期与日期要搭配
+11月9日星期一　注意：星期与日期要搭配
 
 lundi 9 novembre
 
@@ -268,11 +270,11 @@ dimanche 15 novembre
 
 Exemples : Le mercredi 11 novembre, c'est l'Armistice. · Lundi 9 novembre, le Sénat ouvre la discussion. · Dimanche 15 novembre, les Bleus jouent à Bordeaux.
 
-EXERCICES · 第 2 版练习
+EXERCICES　第2版练习
 
-答案见第 8 版 · 题目可跨级混排，按题号找答案
+答案见第8版　题目可跨级混排，按题号找答案
 
-### A · QUELLE DATE ?
+### A　QUELLE DATE ?
 
 *用法语补全日期（注意星期与数字）。*
 
@@ -284,7 +286,7 @@ EXERCICES · 第 2 版练习
 
 14. France – Turquie, c'est ___ 15 novembre. [填空]
 
-### B · LE FUTUR PROCHE
+### B　LE FUTUR PROCHE
 
 *用 aller + 动词原形改写（最近将来时）。*
 
@@ -296,7 +298,7 @@ EXERCICES · 第 2 版练习
 
 18. À Dieppe, vous (goûter) des harengs. → ___ [改写]
 
-### C · COMPRÉHENSION
+### C　COMPRÉHENSION
 
 *读第 2 版文章，选出正确答案。*
 
@@ -306,19 +308,19 @@ EXERCICES · 第 2 版练习
 
 21. Paris Photo ouvre au public... A. jeudi 12 · B. mercredi 11 · C. dimanche 15
 
-### D · LES MOTS
+### D　LES MOTS
 
 22–25 une gerbe — un bouquet de fleurs déposé en hommage / une flamme — le feu qui brûle sans s'éteindre / un musée — le lieu où l'on regarde des œuvres / un vernissage — la première soirée d'une exposition [配对]
 
 # Page 3
 
-## CULTURE · 文化
+## CULTURE　文化
 
-*NIVEAU A2 → B1 · Armistice, Dieppe · 停战纪念与迪耶普*
+*NIVEAU A2 → B1　Armistice, Dieppe　停战纪念与迪耶普*
 
 ## Le 11 novembre : se souvenir, puis faire la fête
 
-*Par la rédaction · Niveau de lecture : A2 → B1*
+*Par la rédaction　Niveau de lecture : A2 → B1*
 
 Le 11 novembre 1918, à 11 heures, les armes se sont tues. La Première Guerre mondiale était finie. Depuis, chaque 11 novembre, la France se souvient : c'est le jour de l'Armistice, un jour férié, un jour de silence et de mémoire.
 
@@ -334,7 +336,7 @@ L'entrée est libre, et la fête est populaire : on goûte, on écoute de la mus
 
 > 译注｜se taire 停止说话、沉默 · un soldat 士兵 · une boutonnière 扣眼、襟花 · un grill 烤架 · défiler 列队行进 · libre 免费的、自由的。
 
-### À VOUS ! · 即学即练
+### À VOUS !　即学即练
 
 *判断对错（Vrai / Faux）。*
 
@@ -366,7 +368,7 @@ L'entrée est libre, et la fête est populaire : on goûte, on écoute de la mus
 
 37. (pas) La foire est à Paris. → ___ [改写]
 
-### DIEPPE · 迪耶普小题
+### DIEPPE　迪耶普小题
 
 *即学即练 · 迪耶普集市小题。*
 
@@ -386,7 +388,7 @@ L'entrée est libre, et la fête est populaire : on goûte, on écoute de la mus
 
 *Planche botanique, Flora de Filipinas (Blanco), XIXe siècle, domaine public*
 
-LES MOTS DU SOUVENIR · 纪念词表
+LES MOTS DU SOUVENIR　纪念词表
 
 un mort — 死者、阵亡者
 
@@ -408,13 +410,13 @@ un défilé — 游行、列队
 
 une visite guidée — 导览参观
 
-ZOOM · LES DATES EN CHIFFRES
+ZOOM　LES DATES EN CHIFFRES
 
 1918 : l'Armistice. 1920 : le Soldat inconnu. 1922 : le jour férié. 1923 : la flamme. 2026 : la 56e foire de Dieppe.
 
 1918 年停战、1920 年无名战士、1922 年定为假日、1923 年点燃长明火；迪耶普集市今年第 56 届。
 
-DATES À RETENIR · 本周日历
+DATES À RETENIR　本周日历
 
 mer. 11 nov.
 
@@ -440,13 +442,13 @@ Un jour férié au milieu de la semaine : une bonne coupure, ou une semaine cass
 
 # Page 4
 
-## SPORT · 体育
+## SPORT　体育
 
-*NIVEAU B1 · Tennis, Bleus · 网球与法国队*
+*NIVEAU B1　Tennis, Bleus　网球与法国队*
 
 ## Le Masters est fini, Turin commence
 
-*Par la rédaction · Niveau de lecture : B1*
+*Par la rédaction　Niveau de lecture : B1*
 
 C'était le dernier grand tournoi de la saison : le Rolex Paris Masters, 41e édition, sur dur, en salle, à la Paris La Défense Arena de Nanterre. Le tableau comptait 56 joueurs ; les finales ont eu lieu dimanche 8 novembre, comme prévu, avec la finale du simple, la finale du double et la finale du simple en fauteuil.
 
@@ -460,7 +462,7 @@ Et le football ? Pas de Ligue 1 ce week-end : c'est la trêve internationale, et
 
 > 译注｜un forfait 退赛、弃权 · le tenant du titre 卫冕冠军 · la course 积分争夺、赛跑 · valider 确认、锁定 · la trêve 休战期、间歇期 · un sélectionneur 国家队主教练。
 
-### À VOUS ! · 即学即练
+### À VOUS !　即学即练
 
 *读第 4 版文章，选出正确答案。*
 
@@ -494,7 +496,7 @@ Jeudi 12, à Milan, puis dimanche 15, à Bordeaux : deux soirs, deux matches, et
 
 *译注｜un choc 强强对决 · familier 熟悉的。*
 
-### LE DÉBAT · 讨论
+### LE DÉBAT　讨论
 
 Turin sans Sinner : un tournoi plus ouvert, ou un tournoi moins beau ? Discutez en classe : deux phrases pour, deux phrases contre.
 
@@ -510,7 +512,7 @@ LES CHIFFRES DU SPORT
 
 大师赛决赛结果截稿时未出，见 VOL.5。
 
-LES MOTS DU TENNIS · 网球词表
+LES MOTS DU TENNIS　网球词表
 
 le tennis — 网球
 
@@ -528,11 +530,11 @@ un adversaire — 对手
 
 un titre — 冠军头衔
 
-À SUIVRE · 拭目以待
+À SUIVRE　拭目以待
 
 Les résultats du Masters de Paris seront dans le VOL.5 : le nom du vainqueur, les finalistes, et la liste complète des huit joueurs de Turin.
 
-### MICRO-DRILLS · 即学即练
+### MICRO-DRILLS　即学即练
 
 *用 forfait / finale / groupes / trêve / Bordeaux / Milan 填空。*
 
@@ -548,7 +550,7 @@ Les résultats du Masters de Paris seront dans le VOL.5 : le nom du vainqueur, l
 
 61. Italie – France, jeudi 12, à ___.
 
-LE DÉBAT · 讨论
+LE DÉBAT　讨论
 
 Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? La question reste posée pour Turin.
 
@@ -556,13 +558,13 @@ Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? 
 
 # Page 5
 
-## JEUNESSE & MUSIQUE · 青年
+## JEUNESSE & MUSIQUE　青年
 
-*NIVEAU B1 · Paris Photo, cinéma · 摄影与电影*
+*NIVEAU B1　Paris Photo, cinéma　摄影与电影*
 
 ## Paris Photo : deux cents ans de photographie
 
-*Par la rédaction · Niveau de lecture : B1*
+*Par la rédaction　Niveau de lecture : B1*
 
 Du jeudi 12 au dimanche 15 novembre, le Grand Palais devient une immense galerie : c'est la 29e édition de Paris Photo, le salon de la photographie. Cette année est spéciale : on y fête les 200 ans de la photographie, née en 1826. Des galeries et des éditeurs de 38 pays montrent des tirages, des livres et des installations.
 
@@ -574,7 +576,7 @@ Pourquoi ce salon plaît-il aux jeunes ? Parce qu'on n'y reste pas assis : on re
 
 > 译注｜un tirage 照片印制、版画 · une galerie 画廊 · feuilleter 翻阅 · une installation 装置艺术 · un braquage 持械抢劫（电影题材） · repousser 推迟。
 
-### À VOUS ! · 即学即练
+### À VOUS !　即学即练
 
 *读第 5 版文章，选出正确答案。*
 
@@ -626,7 +628,7 @@ Mercredi 11 : vernissage de Paris Photo (invités) + cinéma. Jeudi 12 – diman
 
 本周看展、看电影、去迪耶普：三件事都安排在同一周。
 
-MOTS DE LA PHOTO · 摄影词表
+MOTS DE LA PHOTO　摄影词表
 
 une photo — 照片
 
@@ -644,13 +646,13 @@ une œuvre — 作品
 
 le public — 观众
 
-LE CINÉMA DU MERCREDI · 周三电影
+LE CINÉMA DU MERCREDI　周三电影
 
 Mercredi 11 novembre, jour férié : « Il faut brûler Maman » (Albert Dupontel), « Scrooge » (Ti West, avec Johnny Depp), un film de braquage (David Leitch), et la ressortie de « Dune ». « Kaamelott » est repoussé au 10 mars 2027.
 
 11 月 11 日周三上映；《卡美洛》推迟到 2027 年 3 月 10 日。
 
-LE DÉBAT · 讨论
+LE DÉBAT　讨论
 
 Une photo vaut-elle mille mots ? Discutez en classe : deux phrases pour, deux phrases contre. Et vous, quelle photo raconterait votre semaine ?
 
@@ -658,13 +660,13 @@ Une photo vaut-elle mille mots ? Discutez en classe : deux phrases pour, deux ph
 
 # Page 6
 
-## POLITIQUE & CHIFFRES · 时事
+## POLITIQUE & CHIFFRES　时事
 
-*NIVEAU B2 · Budget au Sénat · 参议院的预算*
+*NIVEAU B2　Budget au Sénat　参议院的预算*
 
 ## Au Sénat, cette semaine : le budget de la Sécu
 
-*Par la rédaction · Niveau de lecture : B2*
+*Par la rédaction　Niveau de lecture : B2*
 
 Cette semaine, le Sénat examine le projet de loi de financement de la Sécurité sociale pour 2027. La discussion générale s'ouvre lundi 9 novembre ; ensuite, les sénateurs discutent les articles, un par un. Le texte qu'ils examinent est celui du gouvernement, dans sa version initiale.
 
@@ -676,7 +678,7 @@ La règle est simple : si la première partie est rejetée, les amendements vot�
 
 > 译注｜un projet de loi 法案草案 · les recettes （预算）收入 · les dépenses 支出 · une commission （议会）委员会 · une navette 两院往返审议 · paritaire 对等的、联合的。
 
-LE CALENDRIER · 预算日程（结果未出）
+LE CALENDRIER　预算日程（结果未出）
 
 Programme prévu, susceptible de changer — ne pas confondre avec des résultats.
 
@@ -700,7 +702,7 @@ Source : ordre du jour du Sénat ; NosParlementaires.
 
 本页日程为计划安排，3 日投票结果尚未产生，下期跟进。
 
-### LIRE LE CALENDRIER · 读日程
+### LIRE LE CALENDRIER　读日程
 
 *读上图日程，选出正确答案。*
 
@@ -716,7 +718,7 @@ Source : ordre du jour du Sénat ; NosParlementaires.
 
 84. Le Parlement a cinquante jours, jusqu'au... A. 9 nov. · B. 26 nov. · C. 18 déc.
 
-### LES MOTS · 词汇
+### LES MOTS　词汇
 
 85–88 un sénateur — un élu du Sénat / rejeter — dire non à un texte / un vote — la décision ensemble / une commission — le groupe qui prépare [配对]
 
@@ -748,7 +750,7 @@ Après « il est prévu que », le verbe passe au subjonctif : examiner → exam
 
 91. Le budget de la Sécu est ___ (important) que le budget de l'État. (aussi)
 
-### MICRO-DRILLS · 即学即练
+### MICRO-DRILLS　即学即练
 
 *用 examine / ont rejeté / part / peut / connus 填空。*
 
@@ -770,7 +772,7 @@ Après « il est prévu que », le verbe passe au subjonctif : examiner → exam
 
 9 nov. — le Sénat ouvre la discussion.
 
-### LE DÉBAT · 讨论
+### LE DÉBAT　讨论
 
 Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».
 
@@ -778,11 +780,11 @@ Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux p
 
 # Page 7
 
-## LANGUE EN MAIN · 精讲
+## LANGUE EN MAIN　精讲
 
-*A2 → B2 · Les phrases de la semaine · 本周金句*
+*A2 → B2　Les phrases de la semaine　本周金句*
 
-### NIVEAU A2 · 基础
+### NIVEAU A2　基础
 
 ### LE FUTUR PROCHE
 
@@ -796,7 +798,7 @@ aller + infinitif : « Le Sénat va ouvrir la discussion lundi. » « Nous allon
 
 « Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. » — la phrase du lundi, à dire le matin. (page 1)
 
-### NIVEAU B1 · 进阶
+### NIVEAU B1　进阶
 
 ### LE PASSÉ COMPOSÉ, ENCORE
 
@@ -810,7 +812,7 @@ plus / moins / aussi + adjectif (+ que) : « Une finale qu'on ne connaît pas d'
 
 « Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? » — le comparatif du débat sportif (page 4).
 
-### NIVEAU B2 · 挑战
+### NIVEAU B2　挑战
 
 ### IL EST PRÉVU QUE + SUBJONCTIF
 
@@ -824,7 +826,7 @@ plus / moins / aussi + adjectif (+ que) : « Une finale qu'on ne connaît pas d'
 
 « Le texte part au Sénat. » — la phrase courte des journaux, à retenir telle quelle.
 
-### BOÎTE À OUTILS · 工具箱
+### BOÎTE À OUTILS　工具箱
 
 Trois phrases à garder dans la poche, une pour chaque niveau :
 
@@ -838,9 +840,9 @@ Gardez aussi le réflexe du journal : chaque phrase de la semaine vient d'un art
 
 *工具箱｜本期三句随身句，按级各一；金句全部出自本期文章，回读原文最有效。*
 
-LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）
+LES PHRASES DE LA SEMAINE　本周金句（全部出自本期文章）
 
-每句一个语法点 + 一道小题 · 答案见第 8 版
+每句一个语法点 + 一道小题　答案见第8版
 
 « Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. » (page 1)
 
@@ -890,7 +892,7 @@ LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）
 
 104. Le texte est celui du ___.
 
-### CLINIQUE DES ERREURS · 易错诊所
+### CLINIQUE DES ERREURS　易错诊所
 
 *每句有一处错误：找出来并改正。*
 
@@ -902,7 +904,7 @@ LES PHRASES DE LA SEMAINE · 本周金句（全部出自本期文章）
 
 108. ✗ « La foire a lieu samedi 15 novembre. » [改错]
 
-LE COURRIER DES LECTEURS · 读者园地
+LE COURRIER DES LECTEURS　读者园地
 
 « Mon mercredi 11 novembre : le matin, j'ai regardé la cérémonie à la télévision ; l'après-midi, j'ai marché jusqu'au monument aux morts et j'ai lu vingt pages. » — Exemple de la rédaction (ce texte n'est pas une lettre de lecteur).
 
@@ -912,7 +914,7 @@ Note de la rédaction : aucun texte du VOL.3 n'était arrivé au moment de mettr
 
 编辑部说明：截至付印，编辑部尚未收到 VOL.3 的投稿作文，故本期刊登标注明确的编辑部示例；VOL.5 将兑现点评真实投稿的承诺。
 
-LA SEMAINE PROCHAINE · VOL.5 下周预告
+LA SEMAINE PROCHAINE　VOL.5 下周预告
 
 Mercredi 18 novembre : le vote solennel du Sénat est prévu. Jeudi 19 novembre : le beaujolais nouveau arrive. Dimanche 22 novembre : les finales de Turin. Les résultats du Masters, et vos lettres, enfin !
 
@@ -920,11 +922,11 @@ Mercredi 18 novembre : le vote solennel du Sénat est prévu. Jeudi 19 novembre 
 
 # Page 8
 
-## EXERCICES & RÉPONSES · 练习与答案
+## EXERCICES & RÉPONSES　练习与答案
 
-*综合评估 ÉVALUATION · 答案在本版下方*
+*综合评估 ÉVALUATION　答案在本版下方*
 
-### A · TEXTE À TROUS · 完形填空
+### A　TEXTE À TROUS　完形填空
 
 Théo a dix-sept ans. Le (109)___ 9 novembre, il se lève tôt : le Sénat ouvre la discussion. Avec sa classe, il va à (110)___ pour la cérémonie du 11 novembre. « Les (111)___ du Masters seront dans le VOL.5 », dit son professeur. Le soir, Théo raconte : « À Dieppe, on a (112)___ des harengs, un régal ! » Paris Photo (113)___ au Grand Palais. Théo a (114)___ les photos. Les Bleus (115)___ dimanche, et il l'(116)___ dans son cahier.
 
@@ -946,7 +948,7 @@ Théo a dix-sept ans. Le (109)___ 9 novembre, il se lève tôt : le Sénat ouvre
 
 116. A. écrit · B. écrivent · C. écris
 
-### B · CHOIX MULTIPLE · 单选
+### B　CHOIX MULTIPLE　单选
 
 117. La discussion au Sénat commence... A. dimanche 8 · B. lundi 9 · C. mercredi 11
 
@@ -964,7 +966,7 @@ Théo a dix-sept ans. Le (109)___ 9 novembre, il se lève tôt : le Sénat ouvre
 
 124. Le beaujolais nouveau arrive... A. le 11 nov. · B. le 15 nov. · C. le 19 nov.
 
-### C · LECTURE · 阅读理解
+### C　LECTURE　阅读理解
 
 Samedi matin, la famille Martin prend le train pour Dieppe. Samedi 14 novembre, à 10 heures, ils assistent à l'inauguration au pont Colbert, avec la Banda SP76. L'après-midi, ils goûtent des harengs grillés et ils visitent les quais. Dimanche 15, ils rentrent à Paris et ils regardent les Bleus à la télévision. « Mémoire le mercredi, saveurs le week-end ! » dit Monsieur Martin. Le soir, les enfants dorment tôt : lundi, c'est l'école.
 
@@ -978,7 +980,7 @@ Samedi matin, la famille Martin prend le train pour Dieppe. Samedi 14 novembre, 
 
 129. Lundi, les enfants... A. retournent à l'école · B. restent à Dieppe · C. vont au Sénat
 
-### D · PHRASES · 完成句子与转换
+### D　PHRASES　完成句子与转换
 
 130. Futur proche : « Le Sénat ouvre la discussion lundi. » → ___
 
@@ -990,7 +992,7 @@ Samedi matin, la famille Martin prend le train pour Dieppe. Samedi 14 novembre, 
 
 134. Subjonctif : « Il est prévu que le Sénat (examiner) le texte lundi. » → ___
 
-### E · TRADUCTION · 翻译
+### E　TRADUCTION　翻译
 
 135. Traduisez : 读一份日程，本身就是在了解法国。
 
@@ -1002,54 +1004,54 @@ Samedi matin, la famille Martin prend le train pour Dieppe. Samedi 14 novembre, 
 
 139. Traduisez : 人们尚不知道结果。
 
-### F · LES MOTS · 词汇配对
+### F　LES MOTS　词汇配对
 
 140–144 un sénateur — un élu du Sénat / une gerbe — un bouquet déposé en hommage / un tirage — une photographie imprimée / une foire — une grande fête populaire / un bleuet — la petite fleur bleue du 11 novembre [配对]
 
-### G · DIALOGUE · 对话补全
+### G　DIALOGUE　对话补全
 
 — Bonjour madame, c'est la foire de Dieppe ? — Oui ! — Pour (145)___, le 14 novembre : je veux des (146)___ pour ma famille. — Goûtez celui-ci ! Vous voulez les (147)___ au grill ? — Oui, donnez-moi votre (148)___. — Voilà. Bon (149)___ ! — Merci !
 
-H · ÉCRITURE · 写作
+H　ÉCRITURE　写作
 
 Écrivez un petit texte (80 à 100 mots) : « Mon mercredi 11 novembre ». Racontez : une cérémonie, un musée, une promenade. Les meilleurs textes paraîtront dans le VOL.5 (page 7, « Le courrier des lecteurs »).
 
 用法语写 80–100 词：我的 11 月 11 日星期三。写清一个仪式、一个博物馆或一次散步。
 
-MODÈLE · 范文
+MODÈLE　范文
 
 Mercredi 11 novembre, je me suis levé tôt : c'était un jour férié, mais un jour de mémoire. Le matin, j'ai regardé la cérémonie à la télévision : la flamme, la gerbe, la minute de silence. L'après-midi, nous avons marché jusqu'au monument aux morts de notre ville et nous avons lu les noms gravés dans la pierre. Le soir, nous avons mangé une soupe et j'ai lu vingt pages de mon roman français. Jeudi, je suis retourné à l'école avec une photo de Paris Photo dans la tête. C'était une semaine coupée en deux, mais une semaine pleine.
 
-RÉPONSES · 全部答案与简析（第 1–8 版）
+RÉPONSES　全部答案与简析（第1–8版）
 
-— 第 1 版 —
+— 第1版 —
 
 1. Sénat · 2. mercredi · 3. harengs（迪耶普鲱鱼节） · 4. 115（115–1 否决） · 5. flamme（长明火） · 6. Dieppe（集市在迪耶普） · 7. A（参议院周一开议） · 8. B（纪念日在周三） · 9. C（集市在迪耶普） · 10. A（法土之战在波尔多）
 
-— 第 2 版 —
+— 第2版 —
 
 11. mercredi · 12. lundi（周一 9 日） · 13. jeudi（周四 12 日） · 14. dimanche（周日 15 日） · 15. Le Sénat va ouvrir la discussion lundi.（aller + 原形） · 16. Nous allons visiter Paris Photo jeudi. · 17. Tu vas raconter ton mercredi férié.（tu → vas） · 18. Vous allez goûter des harengs à Dieppe. · 19. C（仪式 11 点开始） · 20. B（矢车菊象征纪念日） · 21. A（摄影展周四开放） · 22. a（gerbe=花圈 a） · 23. b · 24. c · 25. d
 
-— 第 3 版 —
+— 第3版 —
 
 26. Vrai（停战 1918 年） · 27. Vrai · 28. Faux（11 日是假日） · 29. Faux · 30. Vrai（鲱鱼是鱼王） · 31. gerbe（献花圈） · 32. bleuet（纪念日之花） · 33. quais（集市在码头） · 34. grills（烤架冒烟） · 35. La flamme ne s'éteint jamais. · 36. On n'oublie pas les morts pour la France. · 37. La foire n'est pas à Paris. · 38. 56e（第 56 届） · 39. samedi · 40. pont Colbert（科尔贝桥出发） · 41. B（扇贝是港口象征） · 42. 14 heures（导览 14 点出发） · 43. libre（免费入场）
 
-— 第 4 版 —
+— 第4版 —
 
 44. B（决赛在周日 8 日） · 45. A（辛纳膝伤退赛） · 46. C（都灵 15 日开赛） · 47. B（法土之战在波尔多） · 48. A · 49. a · 50. b · 51. c · 52. d · 53. plus vite（室内球速更快） · 54. plus grand（都灵规模更大） · 55. moins longue（间歇期更短） · 56. forfait（因伤退赛） · 57. finale（单打决赛在周日） · 58. groupes（两组各四人） · 59. trêve（国家队比赛间歇期） · 60. Bordeaux（波尔多主场） · 61. Milan（米兰客场）
 
-— 第 5 版 —
+— 第5版 —
 
 62. B（第 29 届） · 63. A · 64. C（周四向公众开放） · 65. B（晚场票 26 欧） · 66. A（卡美洛推迟上映） · 67. Grand Palais（大皇宫） · 68. légende（照片图注） · 69. vernissage（开幕酒会凭邀请） · 70. photographes（女性摄影师） · 71. Depp（德普主演） · 72. mercredi（周三上映新片） · 73. a · 74. b · 75. c · 76. d · 77. jeudi（周四首日） · 78. deux billets（买两张票）
 
-— 第 6 版 —
+— 第6版 —
 
 79. B（10 月 23 日 115–1 否决） · 80. B（周二 3 日：收入部分） · 81. B（委员会 4 日出报告） · 82. A（周一 9 日开议） · 83. C（政府原版文本） · 84. B（50 天期限至 26 日） · 85. a · 86. b · 87. c（vote=投票 c） · 88. d · 89. plus long（参议院辩论更长） · 90. moins simple（预算更复杂） · 91. aussi important（同样重要） · 92. examine（参议院审议预算） · 93. ont rejeté（议员否决收入部分） · 94. part（法案送交参议院） · 95. peut（日程仍可能变动） · 96. connus（结果尚未揭晓）
 
-— 第 7 版 —
+— 第7版 —
 
 97. ouvre（il → ouvre） · 98. tues · 99. brûle · 100. fêter（fêter 庆祝） · 101. roi（roi 国王、鱼王） · 102. seront（将来时 seront） · 103. lire（lire 阅读） · 104. gouvernement（政府的文本） · 105. La flamme ne s'éteint jamais.（ne...jamais：否定要加 ne） · 106. Les sénateurs examinent le texte lundi.（主谓一致：sénateurs 复数 → examinent） · 107. Il est prévu que le Sénat examine le texte.（虚拟式：examine，不加 s） · 108. La foire a lieu samedi 14 novembre.（事实：集市在 14 日，不是 15 日）
 
-— 第 8 版 —
+— 第8版 —
 
 109. A（11 月 9 日是星期一） · 110. A（仪式在巴黎） · 111. A（结果见 VOL.5） · 112. B（品尝语境 → goûté） · 113. C（se tenir 举行） · 114. A（avoir + 过去分词（不配合）） · 115. B（les Bleus 复数 → jouent） · 116. A（elle écrit 她写） · 117. B（参议院周一开议） · 118. A（献花圈致敬） · 119. B（无名战士在凯旋门下） · 120. B（si + imparfait → 条件式） · 121. A（主语三单 → semble） · 122. B（法国队主语三单 → reçoit） · 123. A（摄影沙龙） · 124. C（博若莱新酒 19 日） · 125. C（开幕式 10 点） · 126. A（品尝烤鲱鱼） · 127. B（周日回家看法队） · 128. A（周一要上学） · 129. A（周一返校） · 130. Le Sénat va ouvrir la discussion lundi.（aller + 原形） · 131. Si tu venais samedi, tu verrais la foire.（si + 半过去时） · 132. Il a goûté les harengs à Dieppe.（passé composé：a + 过去分词） · 133. Selon moi, la semaine est bien remplie.（selon moi = 在我看来） · 134. Il est prévu que le Sénat examine le texte lundi.（il est prévu que + 虚拟式） · 135. Lire un programme, c'est déjà comprendre la France.（lire un programme = 读日程） · 136. Il court plus vite que son frère.（比较级 plus vite） · 137. Les élèves sont en vacances depuis le 9 novembre.（depuis + 日期） · 138. Ce soir, nous allons préparer nos affaires.（futur proche + préparer） · 139. On ne connaît pas encore les résultats.（ne...pas encore = 尚未） · 140. a（sénateur=参议员 a） · 141. b（gerbe=花圈 b） · 142. c（tirage=印制 c） · 143. d（foire=集市 d） · 144. e（bleuet=矢车菊 e） · 145. samedi（11 月 14 日星期六） · 146. harengs (des harengs)（在集市买鲱鱼） · 147. griller（griller 烤（原形）） · 148. recette（recette 做法、菜谱） · 149. week-end（Bon week-end ! 周末愉快） · 150. 开放题 — 要点见写作框，范文在第 8 版写作框内（按要点给分）

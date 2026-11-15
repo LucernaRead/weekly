@@ -24,9 +24,9 @@ p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LUNDI 9 NOVEMBRE : LE SÉNAT PREND LE RELAIS !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LUNDI 9 NOVEMBRE : LE SÉNAT PREND LE RELAIS !", 44, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Le budget de la Sécurité sociale arrive au Sénat. Mercredi, le pays se souvient.", 25, "serif", False, "#cac8ba")
-p.text(RIGHT - 30, 524, E["band_r1"], 27, "sans", True, GOOSE, anchor="end")
+p.text(RIGHT - 30, 524, E["band_r1"], 24, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, E["band_r2"], 18, "sans", False, GOOSE, anchor="end")
 
 p.text(975, 612, E["badge"], 16, "sans", False, GREY, anchor="middle")
@@ -89,7 +89,7 @@ p.text(gx + 22, byy + 76, E["agenda_note"], 19, "sans", False, GREY)
 
 sy = 1280
 p.rect(gx, sy, gw, 372, fill="#f0eee5")
-p.text(gx + 22, sy + 40, E["sommaire_title"], 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, E["sommaire_title"], 21, "sans", True, OLIVE)
 som = [
     ("p.2", "La semaine coupée en deux", "A2"),
     ("p.3", "Armistice et foire de Dieppe", "A2→B1"),
@@ -121,7 +121,7 @@ caption(p, ix, iy + 320, iw,
         "Paris, un matin de novembre : la ville débat, se souvient, et prépare déjà le week-end de Dieppe.",
         "Eugène Atget (1857-1927), photographie, domaine public")
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-budget")
-f2.head(E["head_budget3"], 25)
+f2.head(E["head_budget3"], 24)
 f2.para("Le 23 octobre, l'Assemblée nationale a rejeté les recettes du budget de la Sécurité sociale, par 115 voix contre 1. Le texte part au Sénat dans sa version initiale.", 21)
 f2.para("Au moment où nous écrivons, le 2 novembre, le vote du mardi 3 novembre n'a pas encore eu lieu. Son résultat sera dans le VOL.5.", 21)
 f2.end_report()

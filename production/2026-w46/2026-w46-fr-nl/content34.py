@@ -81,7 +81,7 @@ for m in mots:
     yy3 += 37
 zy3 = by3 + 452 + 26
 p.rect(ix, zy3, CW, 476, fill="#f0eee5")
-p.text(ix + 22, zy3 + 40, E["head_zoom"], 23, "sans", True, OLIVE)
+p.text(ix + 22, zy3 + 40, E["head_zoom"], 22, "sans", True, OLIVE)
 illus_flame(p, ix + 22, zy3 + 58, s=0.85)
 p.para(ix + 70, zy3 + 78, "1918 : l'Armistice. 1920 : le Soldat inconnu. 1922 : le jour férié. 1923 : la flamme. 2026 : la 56e foire de Dieppe.", 21.5, "serif", False, INK, CW - 92, 1.42)
 p.para(ix + 22, zy3 + 300, E["zoom_note"], 20, "sans", False, GREY, CW - 44, 1.4)
@@ -158,7 +158,7 @@ f.para("Turin sans Sinner : un tournoi plus ouvert, ou un tournoi moins beau ? D
 f.box("LES PHRASES DU COMMENTATEUR", [
     ("« Allez ! » — " + E["box_allez"] + " · « Quelle action ! » — " + E["box_action"], "serif", False, INK, 21.5, 1.42),
     ("« Il marque ! » — " + E["box_marque"] + " · « C'est gagné ! » — " + E["box_gagne"], "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)
 f.end_report()
 
 ix = COLX[3]
@@ -168,7 +168,7 @@ p.para(ix + 22, 278, "41e édition du Masters en 2026. 56 joueurs au tableau. 8 
 p.para(ix + 22, 520, E["chiffres_note"], 21.5, "serif", False, INK, CW - 44, 1.42)
 vy = 696
 p.rect(ix, vy, CW, 416, fill="#f0eee5")
-p.text(ix + 22, vy + 40, E["head_mots_tennis"], 23, "sans", True, OLIVE)
+p.text(ix + 22, vy + 40, E["head_mots_tennis"], 21, "sans", True, OLIVE)
 mots4 = E["mots_tennis"]
 yy4 = vy + 82
 for m in mots4:

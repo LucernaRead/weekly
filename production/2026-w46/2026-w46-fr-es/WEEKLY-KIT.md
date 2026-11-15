@@ -50,3 +50,33 @@
 - `tools/p8.py compare`：CLEAN，核心与本版印出注记集均为 121/150，missing=[]、extra=0、uncertain=[]，keydiff=[150]（仅 #150 写作题母语注记，属预期）。
 - `tools/occlusion_audit.py`：0 旗标（每次运行自检 OK）；PDF 校验：8 页，文字层齐全，网页版与大报版 pdftotext 字节相等（46530 字节）。
 - 改动页人工复核：P3 否定三题（题干/桥接语/ P8 键 37）逐项验过；未引入新缺陷。F-MAIL 旗标（读者来信邮箱核实）非文本缺陷，仍待协调员在入仓前核实，本次未动相关措辞。
+
+## 补记：D5 字体重建（2026-11-15）
+
+D5-only 重建：基线已是新样式（§1.1 已在 style-port 落仓），本次只换字体路由（拉丁/西里尔进 Newsreader、ru 进 Noto Sans、CJK 留 CJK 面）+ 只降字号修复 D5 引入的越框/重叠，零文案改动。装机与门禁见家族报告 `hidden_files/d5-redo/FAMILY-W46-FR-BUILD.md`。
+
+### D5 交付物 pin（run2 终轮实测）
+
+- 印 PDF（`render.py` 直出）：8 页，8,680,457 字节，SHA-256 `72afe3c9f7aa0e8f3d0b9b10adedcce965a74fd5cc4a24016df20be77328411f`。
+- 网 PDF（`tools/webpdf.py`）：8 页，1,206,561 字节（< 7 MB），SHA-256 `be385859a7596d1739ca6e56789b03378b973abb0f7b650e2c417f506f033fcc`。
+- `.text.md`：45,660 字节，SHA-256 `ccca43880f69b832aa01b7fcc5fd17def009485770e924b66281be2e470a5962`，与 `issues/2026-w46/2026-w46-fr-es/2026-w46-fr-es.text.md` 逐字节一致（取件：`2026-w46-fr-es.text.md.new` 新导出件；目录内同名 `.text.md` 为旧 fanout 产物，见家族报告 §8）。
+- 基线印 PDF（修前生产版）：9,173,346 字节，SHA-256 `00f2429ee0eb4da794481ec33cfcbc0494e6b0c095e2cdae4258b614b2672f55`。
+
+### D5 重建记录
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target fr --reader es --week 2026-w46`（先 `--check` 干跑；core-fr 按读者 zh-cn 装 cjk）。`_D5_READER = "latin"`（svglib.py:100）；fix2 保留（`_QUOTE_CLS`=4、`fix2`=5）；`test_d5_routing.py` **FAILURES: 0**。
+- 修前普查：D5 Latin in CJK / Cyrillic in CJK = 547/0；curly_in_cjk 0/0。
+- run1 14/19；修复 13 处（全为字号缩小），run2 19/19：
+  - `content12.py:27` 46→44pt（与对侧合计间隙 14.4px）：P1 band title G6 TEXTX
+  - `content12.py:29` 27→23pt（与对侧合计间隙 14.4px）：P1 band_r1 G6 TEXTX
+  - `content12.py:124` 25→24pt（探针余量 16.1px）：P1-budget head HDW
+  - `content34.py:84` 23→22pt（探针余量 9.8px）：P3 zoom creambox +7.6
+  - `content34.py:171` 23→21pt（探针余量 9.5px）：P4 mots_tennis creambox +27.3
+  - `content56.py:72` 23→22pt（探针余量 10.6px）：P5 mots_photo creambox +6.7
+  - `content56.py:80` 23→22pt（探针余量 4.4px）：P5 cine creambox +14.3
+  - `content56.py:127` 25→23pt（探针余量 11.3px）：P6-ex head HDW
+  - `content56.py:159` 25→23pt（探针余量 11.5px）：P6-opinion head HDW
+  - `content56.py:165` 25→24pt（探针余量 12.4px）：P6-micro head HDW
+  - `content7.py:38` 24→23pt（探针余量 11.5px）：P7-B2 head HDW
+  - `content34.py:161` 加 `tsize=21`（默认 23→21pt，探针余量 2.0px）：P4 COMMENTATEUR f.box tsize 23->21
+  - `content56.py:189` 加 `tsize=21`（默认 23→21pt，探针余量 12.8px）：P6 3dates f.box tsize 23->21

@@ -1,0 +1,29 @@
+GATES baseline/2026-w46-fr-ja baseline 2026-11-15T19:45:38Z
+python: 13.0.0 venv=/home/hatch/workspace/weekly-git/tools/venv/bin/python
+G1 run: PASS (TOTAL 150, OVF=0, HDW=0)
+G2 head_check: rc=0 HEAD CHECK PASS 0 defects
+G3 d5_census: rc=1 TOTAL: D5_latin_in_cjk=417 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=0 CENSUS FAIL 417 violations 
+G4 render: PASS (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-fr/baseline/2026-w46-fr-ja/The-Lucerna-VOL3-fr-ja.pdf)
+G5 webpdf: PASS (1883304 B)
+G6 occlusion: rc=0 0 flags /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-fr/baseline/2026-w46-fr-ja/svg: 0 flags 
+G7 p8 extract: rc=0 noted 121/150   set: [3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 20, 21, 22, 26, 28, 30, 31, 32, 33, 34, 38, 40, 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 87, 89, 90, 91, 92, 93, 94, 95, 96, 97, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+G8 p8 compare: rc=0 edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-fr/baseline/2026-w46-fr-ja/svg/p8-exercices.svg: 121 noted status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[150] 
+G9 freeze baseline: rc=0 8/8 core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+G10 freeze diff: rc=0 p8: +0 strings / -0 strings; CJK core 1018 -> edition 1018; added CJK chars: 0 ; added Latin strings: 0 (unexpected 0) TOTAL added CJK characters: 0 TOTAL added Latin strings: 0 (unexpected 0) 
+G11 spill: rc=0 SPILL_SWEEP 2026-w46-fr-ja: 33 boxes, 98 candidates, 0 SPILL, 98 OBSERVE
+G12 boxtitle: rc=0 BOXTITLE 2026-w46-fr-ja: 27 titles, 271 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+G13 edge: rc=0 EDGE_SCAN 2026-w46-fr-ja: 8 pages, 0 TOUCH, 0 NEAR
+G14 creambox: rc=0 P8 p8-exercices.svg: lines 184->184 slack_footer 33.7->33.7 CREAMBOX PASS 0 defects 
+G15a textcheck: rc=0
+    print-vs-web multiset diff: (0, 0) (sum 0)
+    web-vs-issues multiset diff: (0, 0) (sum 0)
+    print-vs-issues multiset diff: (0, 0) (sum 0)
+    text.md new-vs-issues: BYTE-IDENTICAL bytes=46066 sha=da25fecb2c3367472f1c874ac8c4b7e24adb01c889bb0e899545e1d089217ce3
+    issues text.md bytes=46066 sha=da25fecb2c3367472f1c874ac8c4b7e24adb01c889bb0e899545e1d089217ce3
+G15b carryover: rc=1 (record only) CARRYOVER: FAIL
+G15c native verifier: ADOPT (BYTE-IDENTICAL, 0 UNEXPECTED)
+G16 census_quotes: rc=0 GRAND TOTAL defective: 0
+D18/D37: D18 masthead y=[92.0] gap=165.4px (strapline_end=1346.8 date_start=1512.2) PASS
+D18/D37: D37 badge y=[612.0] end=1193.4px margin=184.6pt PASS
+D18/D37: INFO subtitle y=[372.0] end=1270.3px (full-width design, no gate)
+END GATES baseline/2026-w46-fr-ja baseline

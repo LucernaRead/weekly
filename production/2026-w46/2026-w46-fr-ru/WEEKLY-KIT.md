@@ -59,3 +59,20 @@
 - `tools/p8.py compare`：CLEAN，核心与本版印出注记集均为 121/150，missing=[]、extra=0、uncertain=[]，keydiff=[150]（仅 #150 写作题母语注记，属预期）。
 - `tools/occlusion_audit.py`：0 旗标（每次运行自检 OK）；PDF 校验：8 页，文字层齐全，网页版与大报版 pdftotext 字节相等（51372 字节）。
 - 改动页人工复核：P3 否定三题（题干/桥接语/ P8 键 37）逐项验过；第 135 题题干 + P8 对话区逐行验过，`Merci !` 完整可见；P4 `familier` 词注及 surrounding 正文验过；未引入新缺陷。F-MAIL 旗标（读者来信邮箱核实）非文本缺陷，仍待协调员在入仓前核实，本次未动相关措辞。
+
+## 补记：D5 字体重建（2026-11-15）
+
+D5-only 重建：基线已是新样式（§1.1 已在 style-port 落仓），本次只换字体路由（拉丁/西里尔进 Newsreader、ru 进 Noto Sans、CJK 留 CJK 面）+ 只降字号修复 D5 引入的越框/重叠，零文案改动。装机与门禁见家族报告 `hidden_files/d5-redo/FAMILY-W46-FR-BUILD.md`。
+
+### D5 交付物 pin（run2 终轮实测）
+
+- 印 PDF（`render.py` 直出）：8 页，8,977,846 字节，SHA-256 `4d2c6440f259d823c9fecf36a290cb64963bf9f6d261db6bbb2a8dcac166d1c1`。
+- 网 PDF（`tools/webpdf.py`）：8 页，1,462,831 字节（< 7 MB），SHA-256 `32828794342f20331b5d9118883475f2bd5ad224062cac35d29e877acb7b73b7`。
+- `.text.md`：49,954 字节，SHA-256 `c34508d1ead03f247ffa9be2d6d12a1bdcb8e888a42c10bfa4c00a166ca70c51`，与 `issues/2026-w46/2026-w46-fr-ru/2026-w46-fr-ru.text.md` 逐字节一致（取件：`2026-w46-fr-ru.text.md.new` 新导出件；目录内同名 `.text.md` 为旧 fanout 产物，见家族报告 §8）。
+- 基线印 PDF（修前生产版）：9,232,415 字节，SHA-256 `9b2c17d1ba2ad0222909320b9d7bddfb5bdecee74094e5001c05d4ca68678c8b`。
+
+### D5 重建记录
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target fr --reader ru --week 2026-w46`（先 `--check` 干跑；core-fr 按读者 zh-cn 装 cjk）。`_D5_READER = "ru"`（svglib.py:100）；fix2 保留（`_QUOTE_CLS`=4、`fix2`=5）；`test_d5_routing.py` **FAILURES: 0**。
+- 修前普查：D5 Latin in CJK / Cyrillic in CJK = 437/319；curly_in_cjk 0/0。
+- run1 即 19/19 全绿，零修复；run2 重建复核仍 19/19。

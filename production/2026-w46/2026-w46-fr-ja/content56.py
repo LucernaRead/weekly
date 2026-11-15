@@ -124,7 +124,7 @@ p.text(chx + 22, byy + 16, "Source : ordre du jour du Sénat ; NosParlementaires
 p.text(chx + 22, byy + 44, E["chart_note"], 19, "sans", False, GREY)
 
 e6 = Flow(p, [(COLX[0], CW), (COLX[1], CW)], chy + 436 + 24, 2560, tag="P6-ex")
-e6.head(E["head_lire"], 25)
+e6.head(E["head_lire"], 23)
 e6.bridge(E["bridge_chart"])
 e6.ex("B2", "图表读数", "B", E["n_chart1"],
       "Le 23 octobre, les recettes ont été... A. adoptées · B. rejetées · C. reportées", size=22)
@@ -156,13 +156,13 @@ g.box("LES PHRASES DES JOURNAUX", [
     ("« Ce calendrier peut encore bouger. » — " + E["box_bouger"], "serif", False, INK, 21.5, 1.42),
     ("« Les résultats ne sont pas connus. » — " + E["box_connus"], "serif", False, INK, 21.5, 1.42),
 ])
-g.head("IL EST PRÉVU QUE + SUBJONCTIF", 25)
+g.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 g.para("Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. C'est la forme des journaux quand le programme est prévu mais pas encore réalisé.", 23.5)
 g.bridge(E["bridge_prevu"])
 g.end_report()
 
 g2 = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 1330, 2560, tag="P6-micro")
-g2.head(E["head_comp6"], 25)
+g2.head(E["head_comp6"], 24)
 g2.bridge(E["bridge_comp6"])
 g2.ex("B1", "完成句子", "plus long", E["n_comp6a"],
       "Un débat au Sénat est ___ (long) qu'un concert.", size=21.5)
@@ -186,7 +186,7 @@ g2.box(E["head_3dates"], [
     ("23 oct. — rejet 115–1 des recettes de la Sécu.", "serif", False, INK, 21.5, 1.42),
     ("3 nov. — vote solennel sur les recettes.", "serif", False, INK, 21.5, 1.42),
     ("9 nov. — le Sénat ouvre la discussion.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)
 g2.head(E["head_debat"], 25)
 g2.para("Faut-il annoncer un programme avant les résultats ? Discutez en classe : deux phrases pour, deux phrases contre — en distinguant « prévu » et « décidé ».", 23.5)
 g2.bridge(E["bridge_debat6"])

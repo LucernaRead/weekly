@@ -35,7 +35,7 @@ cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
 cC.head(E["head_niv_b2"], 27)
-cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 24)
+cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 cC.para("« Il est prévu que le Sénat examine le budget lundi. » Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. (page 6)", 22.5)
 cC.head("SI + CONDITIONNEL", 24)
 cC.para("« Si la première partie est rejetée, les amendements votés en séance tombent. » Si + présent, puis présent ou futur : la règle du budget, en une phrase. Pour l'hypothèse, on passe au conditionnel : si j'étais libre, j'irais à Dieppe.", 22.5)
@@ -45,7 +45,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head(E["head_outils"], 27)
+cD.head(E["head_outils"], 25)
 cD.para(E["outils_intro"], 22.5)
 cD.para("A2 — « Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? »", 22.5, "serif", True, OLIVE)

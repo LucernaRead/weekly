@@ -35,7 +35,7 @@ cB.end_report()
 
 cC = Flow(p, [(COLX[2], CW), (COLX[3], CW)], 200, 1150, tag="P7-B2")
 cC.head(E["head_niv_b2"], 27)
-cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 24)
+cC.head("IL EST PRÉVU QUE + SUBJONCTIF", 23)
 cC.para("« Il est prévu que le Sénat examine le budget lundi. » Après « il est prévu que », le verbe passe au subjonctif : examiner → examine, voter → vote, changer → change. (page 6)", 22.5)
 cC.head("SI + CONDITIONNEL", 24)
 cC.para("« Si la première partie est rejetée, les amendements votés en séance tombent. » Si + présent, puis présent ou futur : la règle du budget, en une phrase. Pour l'hypothèse, on passe au conditionnel : si j'étais libre, j'irais à Dieppe.", 22.5)
@@ -45,7 +45,7 @@ cC.box("LA PHRASE EXEMPLE", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-outils")
-cD.head(E["head_outils"], 27)
+cD.head(E["head_outils"], 26)
 cD.para(E["outils_intro"], 22.5)
 cD.para("A2 — « Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Une finale qu'on ne connaît pas d'avance : plus excitante ou plus frustrante ? »", 22.5, "serif", True, OLIVE)
@@ -56,8 +56,8 @@ cD.end_report()
 
 py = 1160
 p.hline(MX, RIGHT, py - 14, OLIVE, 2)
-p.text(MX, py + 26, E["head_phrases"], 27, "sans", True, OLIVE)
-p.text(RIGHT, py + 26, E["phrases_sub"], 20, "sans", False, GREY, anchor="end")
+p.text(MX, py + 26, E["head_phrases"], 24, "sans", True, OLIVE)
+p.text(RIGHT, py + 26, E["phrases_sub"], 19, "sans", False, GREY, anchor="end")
 pf = Flow(p, [(COLX[i], CW) for i in range(4)], py + 52, 1830, tag="P7-phrases")
 phrases = [
     ("« Lundi 9 novembre, le Sénat ouvre la discussion sur le budget de la Sécurité sociale pour 2027. » (page 1)",
@@ -86,7 +86,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head(E["head_clinic"], 25)
+cf.head(E["head_clinic"], 22)
 cf.bridge(E["bridge_clinic"])
 cf.ex("A2", "改错", "La flamme ne s'éteint jamais.", E["n_cl1"],
       "✗ « La flamme s'éteint jamais. »", instr=E["instr_correct"], size=22.5)

@@ -121,7 +121,7 @@ caption(p, ix, iy + 320, iw,
         "Paris, un matin de novembre : la ville débat, se souvient, et prépare déjà le week-end de Dieppe.",
         "Eugène Atget (1857-1927), photographie, domaine public")
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-budget")
-f2.head(E["head_budget3"], 25)
+f2.head(E["head_budget3"], 24)
 f2.para("Le 23 octobre, l'Assemblée nationale a rejeté les recettes du budget de la Sécurité sociale, par 115 voix contre 1. Le texte part au Sénat dans sa version initiale.", 21)
 f2.para("Au moment où nous écrivons, le 2 novembre, le vote du mardi 3 novembre n'a pas encore eu lieu. Son résultat sera dans le VOL.5.", 21)
 f2.end_report()
