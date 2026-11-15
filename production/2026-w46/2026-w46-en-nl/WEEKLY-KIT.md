@@ -23,7 +23,7 @@ No layout adjustments vs core: occlusion audit clean; no string was shortened.
 - `p8.py compare` (explicit P8 SVG paths, total 150): EXTRA_ONLY, 70→150 (adjudicated acceptance per DECISION.md — the edition prints all 150 notes vs the core's 70; keydiff [137, 138, 139, 140, 150] = the four EN→NL translation keys + the open writing item, all expected) — PASS (JSON: `hidden_files/w46/final-nl-p8.json`).
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0 — PASS (JSON: `hidden_files/w46/final-nl-freeze.json`).
 - Visual card pass: P1 + P8 inspected at full frame (all other pages covered by the geometric gates + same-baseline scan); no overflow/overlap, no missing glyphs/tofu, footer intact, images present with credits.
-- Web PDF: `The-Lucerna-VOL3-web.pdf`, 1,553,358 bytes (< 7 MB), text layer 48,507 bytes via pdftotext. Print PDF kept: `The-Lucerna-VOL3.pdf` (15,188,830 bytes).
+- Web PDF: `2026-w46-en-nl.web.pdf`, 1,399,678 bytes (< 7 MB), SHA-256 `9749499f4c645da2f24c131bb5bbc75040870e6dd85ca7253b941bdbbf5457ee`. Print PDF kept: `The-Lucerna-VOL3-en-nl.pdf` (14,177,107 bytes, SHA-256 `e7480b282e0b4d9181e1675ffa7f43dadbc0337f6a5318694bc0c8502988d059`)（D5 重建，2026-11-15；旧配方值 1,441,726 / 14,667,704 B 已过期，见末节 D5 记录。）
 - `2026-w46-en-nl.text.md` (45,348 bytes): exported from the fan-out source manuscript via AST (`hidden_files/w46/en_textmd.py`, never from PDF/SVG) + registry answers appended; verified byte-identical to a fresh deterministic re-export; 8 pages, 150 numbered answers.
 - `ABSTRACT.txt` (463 bytes): single line + trailing newline, no ASCII double quotes, reader-native.
 
@@ -55,3 +55,19 @@ Source-only fixes per `hidden_files/w46/en-proofread-gates/proofreader-verdict-r
 - `<slug>.text.md` regenerated with the canonical `hidden_files/w46/en_textmd.py` (uniform family format; headers verbatim). Old text.md preserved under `hidden_files/w46/en-fix/old-textmd/`. For this edition the diff vs the old file is exactly the fix lines listed above.
 - Re-gates on the final artifacts: build log zero `FLOW OVERFLOW` / `HEAD TOO WIDE`, TOTAL 150; canonical `occlusion_audit.py` 0 flags, selftest OK; `rowcheck46.py` 0 same-baseline collisions, 0 gloss-count mismatches, P6 chart-label GRAZE 0.0%; registry re-measured (core): 150 unique exercises 1–150, per-page 10/17/18/18/18/18/12/39, A2 60 / B1 69 / B2 21.
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0. `p8.py compare --total 150`: EXTRA_ONLY, 70→150, extra 80 (adjudicated list), missing [], uncertain [], keydiff [137, 138, 139, 140, 150] legitimate. Web PDF 1,553,717 bytes (< 7 MB), pdftotext 48,518 bytes (equal to print extraction, 8 pages); print PDF 15,189,192 bytes; text.md 45,359 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-EN-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "latin"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-en/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_latin_in_cjk=544 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0。
+- run1 门禁 13/5；修复（只降字号/调框高，零文案改动；探针 `bin/probe_fix.py` 量测在案，取留 ≥2px 余量的最大适配字号，P1 CJK 数字盒 21pt 例外见家族报告 §0.2）：
+- `content12.py:123` FOUR COUNTRIES 25→24
+- `content12.py:193/200` DID YOU KNOW 盒高 +14→+34、间距 +26→+6
+- `content8.py:43` B MULTIPLE CHOICE 24→22（gap=8 保留）
+- `content34.py:83` P3 Scrooge-nacht `tsize=22`；`:108` P4 Waarom München? `tsize=21`
+- `content7.py:112` P7 读者信箱 rect 300→318
+- 终轮（run2）门禁 18/0 全绿：TOTAL exercises: 150, OVF=0, HDW=0；patched 0 defects (baseline-side findings: 0, D25)；CENSUS PASS；render render rc=0, print 14177107 B；web web 1399678 B <7MB；0 flags；extract rc=0 (see p8-extract.json)；EXTRA_ONLY, rc=0；8/8 byte-identical；CJK added 0 (Latin added 371, run-split)；spill 0；BOXTITLE 2026-w46-en-nl: 36 titles, 175 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal；0 TOUCH 0 NEAR；CREAMBOX PASS 0 defects；；15b carryover 仅记录（CARRYOVER: FAIL）；15c N/A（en 导出器家族）；0 defective；D18 slogan 'WEEKLY IN ENGLISH\u3000Elke week\u3000Waar de ' end_x=1330.1 date_start_x=1506.9 gap=176.8px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)；D37 badge y=372 'TEKSTEN IN HET ENGELS\u3000UITLEG IN HET NEDERLANDS — DE EDITIE V' end_x=1413.7 cream_left=1439.5 margin=25.8px (PASS)。P8 行数/距页脚线余量 34.8->34.9px。
+- 新旧 SHA：印 PDF 14,667,704 B `b2501fa8d49e785e08672695b9ac244968143a026520b7aac15671c0c359ce07` → 14,177,107 B `e7480b282e0b4d9181e1675ffa7f43dadbc0337f6a5318694bc0c8502988d059`；网 PDF 1,441,726 B `794a6bb351ed077789609425d5eac5d1cf44c7a10d2041a1b5eaa1b2b4c97c99` → 1,399,678 B `9749499f4c645da2f24c131bb5bbc75040870e6dd85ca7253b941bdbbf5457ee`；text.md 44,935 B `578af9d063673d2f6cc3e434f69af672bd67dce24f709efbff914ee4881a7274`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-en/logs/2026-w46-en-nl/GATES-SUMMARY.txt`（终轮）；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-en/notes/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w46-en-nl.md`。

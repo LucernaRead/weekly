@@ -78,7 +78,7 @@ cd ~/workspace/goals/lucernaread-social-media-operations/tools
 ./venv/bin/python webpdf.py ../files/weekly-report-w46-en-core/svg ../files/weekly-report-w46-en-core/The-Lucerna-VOL3-web.pdf
 ```
 
-- Print PDF: `The-Lucerna-VOL3.pdf` (27,918,600 bytes). Web PDF: `The-Lucerna-VOL3-web.pdf` (2,017,005 bytes, < 7 MB, text layer 45,011 bytes via pdftotext, consistent with print text).
+- Web PDF: `2026-w46-en-zh-cn.web.pdf`, 1,666,411 bytes (< 7 MB), SHA-256 `9287b167a9e7be681dc0517f44eccf41d4ffc4ffc69082e5cc714110d026e8fe`. Print PDF kept: `The-Lucerna-VOL3-en-zh-cn.pdf` (15,434,179 bytes, SHA-256 `ebe1c0039027a495d9f080883b6ec0c851c5a4aa53aaff3b8221052d4d4c5da2`)（D5 重建，2026-11-15；旧配方值 1,833,011 / 26,757,171 B 已过期，见末节 D5 记录。）
 - `2026-w46-en-zh-cn.text.md`: exported from the source manuscript via AST (`hidden_files/w46/export_textmd.py`), headings/paragraphs/exercises in original order + registry answers appended; never extracted from PDF.
 
 ## 8. Proofread record (builder self-check, 2 Nov 2026)
@@ -104,3 +104,18 @@ Source-only fixes per `hidden_files/w46/en-proofread-gates/proofreader-verdict-r
 - `<slug>.text.md` regenerated with the canonical `hidden_files/w46/en_textmd.py` (uniform family format; headers verbatim). NOTE: the old file was produced by a different/older exporter walk (band headings absent, raw `ex` args, `{...}` P8 placeholders); the new export is more complete (resolved P8 numbers, phrases section) and re-exportable deterministically. Old file preserved under `hidden_files/w46/en-fix/old-textmd/`.
 - Re-gates on the final artifacts: build log zero `FLOW OVERFLOW` / `HEAD TOO WIDE`, TOTAL 150; canonical `occlusion_audit.py` 0 flags, selftest OK; `rowcheck46.py` 0 same-baseline collisions, 0 gloss-count mismatches, P6 chart-label GRAZE 0.0%; registry re-measured (core): 150 unique exercises 1–150, per-page 10/17/18/18/18/18/12/39, A2 60 / B1 69 / B2 21.
 - `p8.py extract --total 150`: 70 noted. Freeze: core is the baseline. Web PDF `The-Lucerna-VOL3-web.pdf` 2,017,005 bytes (< 7 MB), pdftotext 45,003 bytes (equal to the print-PDF extraction by the same method, 8 pages); print PDF 27,918,597 bytes; text.md 43,545 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-EN-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "cjk"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-en/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_latin_in_cjk=373 D5_cyrillic_in_cjk=0 curly_in_cjk=2 curly_total=4。
+- run1 门禁 13/5；修复（只降字号/调框高，零文案改动；探针 `bin/probe_fix.py` 量测在案，取留 ≥2px 余量的最大适配字号，P1 CJK 数字盒 21pt 例外见家族报告 §0.2）：
+- `content12.py:123` FOUR COUNTRIES 25→24
+- `content12.py:193` DID YOU KNOW 盒高 +14→+34，`content12.py:200` 两盒间距 +26→+6
+- `content12.py:46` P1 数字盒 `tsize=21`
+- `content34.py:169` P4 周日赛程 `tsize=22`
+- 终轮（run2）门禁 18/0 全绿：TOTAL exercises: 150, OVF=0, HDW=0；patched 0 defects (baseline-side findings: 0, D25)；CENSUS PASS；render render rc=0, print 15434179 B；web web 1666411 B <7MB；0 flags；extract rc=0 (see p8-extract.json)；CLEAN, rc=0；8/8 byte-identical；CJK added 0 (Latin added 371, run-split)；spill 0；BOXTITLE 2026-w46-en-zh-cn: 37 titles, 233 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal；0 TOUCH 0 NEAR；CREAMBOX PASS 0 defects；；15b carryover 仅记录（CARRYOVER: FAIL）；15c N/A（en 导出器家族）；0 defective；D18 slogan 'WEEKLY IN ENGLISH\u3000每周一期\u3000读英语世界正在谈的事' end_x=1229.8 date_start_x=1506.9 gap=277.1px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)；D37 badge y=372 "THE LEARNERS' WEEKLY — REAL LIFE, IN ENGLISH, FROM LONDON TO" end_x=1302.6 cream_left=1439.5 margin=136.9px (PASS)。P8 行数/距页脚线余量 52.8->33.7px。
+- 新旧 SHA：印 PDF 26,757,171 B `ff08f65652f6d8e2232da7894245ef0ea622642a209170f4af72a53c0ce76285` → 15,434,179 B `ebe1c0039027a495d9f080883b6ec0c851c5a4aa53aaff3b8221052d4d4c5da2`；网 PDF 1,833,011 B `cc83acfb7a85e432b7c582b74b06f02324391a18f970ed7c6db2e7cd7cd2afc8` → 1,666,411 B `9287b167a9e7be681dc0517f44eccf41d4ffc4ffc69082e5cc714110d026e8fe`；text.md 43,160 B `604fbf0bf3e8182b7aef06934679f59e7d771741e74906e52507175352b04373`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-en/logs/2026-w46-en-zh-cn/GATES-SUMMARY.txt`（终轮）；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-en/notes/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w46-en-zh-cn.md`。

@@ -157,6 +157,14 @@ def detect_note(seg):
     # dash with spaces on both sides, so a dash directly before a CJK char
     # can only be this lost-space artifact: restore the space before testing.
     seg = re.sub(r" —(?=[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7a3])", " — ", seg)
+    # 2026-11-15 (D5, W46 en ko Q150): mirror variant — the space BEFORE
+    # the dash is lost instead (run break falls before the dash, '문제— 기준';
+    # source writes '열린 문제 — 기준은 …', patched SVG splits the line into
+    # runs and the leading space of the dash run is dropped). Same
+    # justification as above: source E values always write ' — ' with spaces
+    # on both sides, so a dash directly after a CJK char can only be this
+    # lost-space artifact.
+    seg = re.sub(r"(?<=[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7a3])— ", " — ", seg)
     g = last_paren_group(seg)
     dash = None
     if " — " in seg:

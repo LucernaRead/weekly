@@ -40,7 +40,7 @@ for n, (lv, _k, _nt), opts in zip(cnums, cloze_defs, [
     bf.para(f"{n}. [{lv}] {opts}", 19.5, "sans", False, INK, 1.32, 2)
 
 # ---- B. single choice ----
-bf.head("B　MULTIPLE CHOICE　Meerkeuze", 24, gap=8)
+bf.head("B　MULTIPLE CHOICE　Meerkeuze", 22, gap=8)
 mcq = [
     ("A2", "B", "11 uur = eleven o'clock", "The silence begins at 11 a.m. In words : ... A. ten o'clock · B. eleven o'clock · C. twelve o'clock"),
     ("A2", "A", "we → wear (infinitief)", "On Wednesday, we ___ a poppy. A. wear · B. wears · C. wearing"),

@@ -80,7 +80,7 @@ cy3 = caption(p, ix, 670, CW, "A ghost in art : Marley's Ghost visits Scrooge, i
 v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
 v3.box("SCROOGE'S NIGHT　Scrooge-nacht", [
     ("Three ghosts, one night : Past, Present, and Yet to Come. By morning, Scrooge is a new man — and Christmas is saved, six weeks early.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 v3.head("FIVE SENTENCES", 25)
 v3.para("After any film or episode, tell the story in five English sentences : who, where, what happened, the surprise, the ending. Five sentences are enough — and they are excellent practice.", 22)
 v3.para("Example : « A ghost comes to a house. A miser is cold and alone. Three ghosts visit him. He sees his past, his present and his future. Then he is warm again. » Now it is your turn.", 22)
@@ -105,7 +105,7 @@ f.para("In Turin, Italy, tennis begins its season finale : the ATP Finals, from 
 f.para("And in Madrid, football takes the stage : Spain play England in the Nations League on Sunday night, three days after England play Croatia at Wembley on Thursday, November 12. Scotland play North Macedonia at Hampden Park on Friday, November 13. One Sunday is not enough — good thing the week has seven days.")
 f.box("WHY MUNICH ?　Waarom München?", [
     ("The NFL plays games outside the United States every year, so new fans can see the sport live. Munich hosted NFL games in 2022 and 2024, and will host again in 2028. This year there are nine international games in all — a record.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.para("How do you follow three sports in one day ? Choose one game to watch fully, and follow the others on your phone. That is the modern fan : one screen for the game, one screen for the scores.", 23.5)
 f.para("The Allianz Arena holds 70,000 people — bigger than most NFL stadiums. And next week ? The Ashes begin : Australia against England in the first Test in Perth, from Saturday, November 21. Cricket's oldest rivalry, back in Australia. The weekend starts on Sunday — and it does not stop.", 23.5)
 f.gloss("a fixture = een wedstrijd (op het schema) · a group = een groep · a finale = de finale · a star = een ster.")

@@ -68,7 +68,7 @@ for lv, k, nt, body in read_qs:
     bf.ex(lv, "読解", k, nt, body, size=20.5, gap=8)
 
 # ---- D. sentence building ----
-bf.head("D　SENTENCES　文の完成と書きかえ", 24, gap=8)
+bf.head("D　SENTENCES　文の完成と書きかえ", 22, gap=8)
 d_items = [
     ("A2", "On Friday, they will watch the appeal show.", "will + 動詞の原形",
      "Will future : « On Friday, they (watch) the appeal show. » → ___"),

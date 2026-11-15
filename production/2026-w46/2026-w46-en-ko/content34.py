@@ -166,7 +166,7 @@ v4.box("SUNDAY, NOVEMBER 15　일요일 일정", [
     ("ATP Finals begin, Turin. Nations League : Spain–England, Madrid, 7:45 p.m.", "serif", False, INK, 21.5, 1.42),
     ("THURSDAY, NOVEMBER 12 : England–Croatia, Wembley. FRIDAY, NOVEMBER 13 : Scotland–North Macedonia, Hampden.", "serif", False, INK, 21.5, 1.42),
     ("MONDAY, NOVEMBER 16 : Chargers–Ravens close NFL Week 10.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)
 v4.head("ONE SCREEN, TWO SCREENS", 25)
 v4.para("The modern fan watches one game fully and follows the others on a phone. Try it in English : « The score is 14–10. » « Who scored ? » « Munich is winning ! » — short sentences, live English.", 22)
 v4.bridge("경기 영어｜점수, 누가 득점했는지, 누가 앞서는지 — 짧은 문장이 생중계 영어예요.")

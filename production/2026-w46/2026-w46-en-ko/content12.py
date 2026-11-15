@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # dark band: eleven eleven
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "ELEVEN ELEVEN — AND TWO MINUTES OF SILENCE !", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "ELEVEN ELEVEN — AND TWO MINUTES OF SILENCE !", 45, "sans", True, ONCLOTH)
 p.text(MX + 30, 568, "Wednesday, November 11, at 11 a.m., Britain, Canada, Australia and America stop for two minutes.", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "11월 11일 오전 11시　2분간의 묵념", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "참전 용사의 날　전몰자 추모일　자세한 내용은 2면에", 18, "sans", False, GOOSE, anchor="end")
@@ -120,7 +120,7 @@ caption(p, ix, iy + 320, iw,
         "Claude Monet — public domain, via Wikimedia Commons")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-countries")
-f2.head("FOUR COUNTRIES, ONE MINUTE", 25)
+f2.head("FOUR COUNTRIES, ONE MINUTE", 24)
 f2.para("One silence, four names. In the United States it is Veterans Day. In Britain it is Remembrance Day. In Canada and Australia, the name is the same too — with the same poppy and the same 11 a.m. silence.", 22.5)
 f2.para("Remember on Wednesday, laugh on Friday, watch sport on Sunday. See you on page 2 !", 22.5)
 f2.end_report()
@@ -190,14 +190,14 @@ sav = ["The Cenotaph was unveiled on November 11, 1920 — two years after the a
        "The two-minute silence is held at 11 a.m. on November 11 in Britain, Canada, Australia and New Zealand.",
        "Diwali's main night was Sunday, November 8 : lamps, sweets and family, on the darkest night of the lunar month."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
-ey3 = sy3 + sh + 26
+ey3 = sy3 + sh + 6
 etvous = "And you ? Do you wear a poppy in November ? What does your country do on November 11 ? Write two sentences in English for VOL.4."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("11월 11일, 여러분의 나라는 무엇을 하나요? 영어로 두 문장을 써서 편집부에 보내세요.", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")

@@ -80,7 +80,7 @@ cy3 = caption(p, ix, 670, CW, "A ghost in art : Marley's Ghost visits Scrooge, i
 v3 = Flow(p, [(ix, CW)], int(cy3) + 18, 2560, tag="P3-col3")
 v3.box("SCROOGE'S NIGHT　スクルージの夜", [
     ("Three ghosts, one night : Past, Present, and Yet to Come. By morning, Scrooge is a new man — and Christmas is saved, six weeks early.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=22)
 v3.head("FIVE SENTENCES", 25)
 v3.para("After any film or episode, tell the story in five English sentences : who, where, what happened, the surprise, the ending. Five sentences are enough — and they are excellent practice.", 22)
 v3.para("Example : « A ghost comes to a house. A miser is cold and alone. Three ghosts visit him. He sees his past, his present and his future. Then he is warm again. » Now it is your turn.", 22)
@@ -166,7 +166,7 @@ v4.box("SUNDAY, NOVEMBER 15　日曜の試合", [
     ("ATP Finals begin, Turin. Nations League : Spain–England, Madrid, 7:45 p.m.", "serif", False, INK, 21.5, 1.42),
     ("THURSDAY, NOVEMBER 12 : England–Croatia, Wembley. FRIDAY, NOVEMBER 13 : Scotland–North Macedonia, Hampden.", "serif", False, INK, 21.5, 1.42),
     ("MONDAY, NOVEMBER 16 : Chargers–Ravens close NFL Week 10.", "serif", False, INK, 21.5, 1.42),
-])
+], tsize=21)
 v4.head("ONE SCREEN, TWO SCREENS", 25)
 v4.para("The modern fan watches one game fully and follows the others on a phone. Try it in English : « The score is 14–10. » « Who scored ? » « Munich is winning ! » — short sentences, live English.", 22)
 v4.bridge("観戦英語｜スコア、誰が得点したか、誰がリードしているか——短い文こそ実況英語。")

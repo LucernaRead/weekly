@@ -43,7 +43,7 @@ f.instrline("Note | an armistice = l’armistice · a veteran = un ancien combat
 f.box("THE WEEK IN NUMBERS　Chiffres", [
     ("Nov 11, 11:00 — the silence (le silence) · 1918 — the armistice (l’armistice)", "serif", False, INK, 20.5, 1.35),
     ("Nov 13 (ven.) — Children in Need + Ebenezer · Nov 15 (dim.) — NFL Munich + ATP Finals", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)
 f.head("TRY IT NOW　À vous de jouer", 25)
 f.ex("A2", "Compléter", "armistice", "armistice = l’armistice",
      "The fighting stopped with an ___ in 1918.", size=20.5)
@@ -120,7 +120,7 @@ caption(p, ix, iy + 320, iw,
         "Claude Monet — public domain, via Wikimedia Commons")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-countries")
-f2.head("FOUR COUNTRIES, ONE MINUTE", 25)
+f2.head("FOUR COUNTRIES, ONE MINUTE", 24)
 f2.para("One silence, four names. In the United States it is Veterans Day. In Britain it is Remembrance Day. In Canada and Australia, the name is the same too — with the same poppy and the same 11 a.m. silence.", 22.5)
 f2.para("Remember on Wednesday, laugh on Friday, watch sport on Sunday. See you on page 2 !", 22.5)
 f2.end_report()
@@ -173,7 +173,7 @@ f.para("And what about the weekend just gone ? On Sunday, November 8, it was Rem
 f.para("This week looks forward too. On Wednesday, November 11, shoppers mark Singles' Day — 11.11, the biggest online shopping day in China, now copied around the world. On Friday, November 13, Britain's Children in Need appeal takes over television. Page 5 has the story of Pudsey the bear.")
 f.box("ELEVEN ELEVEN　Onze heures onze", [
     ("11 a.m. on the 11th day of the 11th month : the eleventh hour. Two minutes of silence — 120 seconds. Tradition says the first minute is for the dead, the second for the living who came home.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.head("WHAT IS ON THIS WEEK ?", 25)
 f.para("Second story of the week — and it is on your screen. On Friday, November 13, two films open : « Ebenezer », a dark new Scrooge from Dickens, and « How to Rob a Bank », a heist comedy. One ghost story, one bank story — and both for a Friday night out.", 23.5)
 f.para("On television, the week is just as full. The Children in Need appeal show is live on Friday night, and the ATP Finals begin in Turin on Sunday. Page 3 has the film guide, page 4 the sport.", 23.5)
@@ -190,14 +190,14 @@ sav = ["The Cenotaph was unveiled on November 11, 1920 — two years after the a
        "The two-minute silence is held at 11 a.m. on November 11 in Britain, Canada, Australia and New Zealand.",
        "Diwali's main night was Sunday, November 8 : lamps, sweets and family, on the darkest night of the lunar month."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
-ey3 = sy3 + sh + 26
+ey3 = sy3 + sh + 6
 etvous = "And you ? Do you wear a poppy in November ? What does your country do on November 11 ? Write two sentences in English for VOL.4."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("Que fait ton pays le 11 novembre ? Écris deux phrases pour la rédaction.", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")

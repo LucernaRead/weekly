@@ -45,7 +45,7 @@ cC.box("THE EXAMPLE　El ejemplo", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-tools")
-cD.head("THE TOOLBOX　Herramientas", 27)
+cD.head("THE TOOLBOX　Herramientas", 26)
 cD.para("Three sentences to keep in your pocket, one for each level :", 22.5)
 cD.para("A2 — « At eleven o'clock — we stop. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Dickens wrote the story in 1843.»", 22.5)

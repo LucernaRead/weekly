@@ -23,7 +23,7 @@ No layout adjustments vs core: occlusion audit clean; no string was shortened.
 - `p8.py compare` (explicit P8 SVG paths, total 150): CLEAN, 70→70 — PASS (JSON: `hidden_files/w46/final-pt-p8.json`).
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0 — PASS (JSON: `hidden_files/w46/final-pt-freeze.json`).
 - Visual card pass: P1 + P8 inspected at full frame (all other pages covered by the geometric gates + same-baseline scan); no overflow/overlap, no missing glyphs/tofu, footer intact, images present with credits.
-- Web PDF: `The-Lucerna-VOL3-web.pdf`, 1,557,321 bytes (< 7 MB), text layer 46,067 bytes via pdftotext. Print PDF kept: `The-Lucerna-VOL3.pdf` (15,189,755 bytes).
+- Web PDF: `2026-w46-en-pt.web.pdf`, 1,405,181 bytes (< 7 MB), SHA-256 `e51307b135474f69125a7bb2e5e35ddd1da5e8907f56879d6c5e4f7f7115f0a4`. Print PDF kept: `The-Lucerna-VOL3-en-pt.pdf` (14,182,624 bytes, SHA-256 `bfa60f3d045a498559f315418a3effdb1546a10746d83548d2e1d75fe8758871`)（D5 重建，2026-11-15；旧配方值 1,442,599 / 14,668,657 B 已过期，见末节 D5 记录。）
 - `2026-w46-en-pt.text.md` (45,792 bytes): exported from the fan-out source manuscript via AST (`hidden_files/w46/en_textmd.py`, never from PDF/SVG) + registry answers appended; verified byte-identical to a fresh deterministic re-export; 8 pages, 150 numbered answers.
 - `ABSTRACT.txt` (494 bytes): single line + trailing newline, no ASCII double quotes, reader-native.
 
@@ -60,3 +60,19 @@ Source-only fixes per `hidden_files/w46/en-proofread-gates/proofreader-verdict-r
 - `<slug>.text.md` regenerated with the canonical `hidden_files/w46/en_textmd.py` (uniform family format; headers verbatim). Old text.md preserved under `hidden_files/w46/en-fix/old-textmd/`. For this edition the diff vs the old file is exactly the fix lines listed above.
 - Re-gates on the final artifacts: build log zero `FLOW OVERFLOW` / `HEAD TOO WIDE`, TOTAL 150; canonical `occlusion_audit.py` 0 flags, selftest OK; `rowcheck46.py` 0 same-baseline collisions, 0 gloss-count mismatches, P6 chart-label GRAZE 0.0%; registry re-measured (core): 150 unique exercises 1–150, per-page 10/17/18/18/18/18/12/39, A2 60 / B1 69 / B2 21.
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0. `p8.py compare --total 150`: CLEAN, 70→70, missing [], uncertain [], keydiff [137, 138, 139, 140, 150] legitimate. Web PDF 1,557,531 bytes (< 7 MB), pdftotext 46,077 bytes (equal to print extraction, 8 pages); print PDF 15,189,961 bytes; text.md 45,802 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-EN-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "latin"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-en/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_latin_in_cjk=515 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0。
+- run1 门禁 13/5；修复（只降字号/调框高，零文案改动；探针 `bin/probe_fix.py` 量测在案，取留 ≥2px 余量的最大适配字号，P1 CJK 数字盒 21pt 例外见家族报告 §0.2）：
+- `content12.py:123` FOUR COUNTRIES 25→24
+- `content12.py:193/200` DID YOU KNOW 盒高 +14→+34、间距 +26→+6
+- `content56.py:109` READ THE CHART 25→24
+- `content12.py:46` P1 Números `tsize=21`
+- `content34.py:108` P4 Porquê Munique? `tsize=22`；`:169` P4 Domingo `tsize=21`
+- 终轮（run2）门禁 18/0 全绿：TOTAL exercises: 150, OVF=0, HDW=0；patched 0 defects (baseline-side findings: 0, D25)；CENSUS PASS；render render rc=0, print 14182624 B；web web 1405181 B <7MB；0 flags；extract rc=0 (see p8-extract.json)；CLEAN, rc=0；8/8 byte-identical；CJK added 0 (Latin added 345, run-split)；spill 0；BOXTITLE 2026-w46-en-pt: 34 titles, 176 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal；0 TOUCH 0 NEAR；CREAMBOX PASS 0 defects；；15b carryover 仅记录（ERROR: no verify_textmd table for reader 'pt' yet — calibrate it from that edition's own SVG/.text.md until its residual is 0, then add it to READER_TABLES in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/tools/verify_textmd.py）；15c N/A（en 导出器家族）；0 defective；D18 slogan 'WEEKLY IN ENGLISH\u3000Todas as semanas\u3000D' end_x=1348.4 date_start_x=1506.9 gap=158.5px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)；D37 badge y=372 'TEXTOS EM INGLÊS\u3000EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS' end_x=1432.0 cream_left=1439.5 margin=7.5px (PASS)。P8 行数/距页脚线余量 32.7->32.7px。
+- 新旧 SHA：印 PDF 14,668,657 B `4ec6be86002d1a14b77bc1aa5c31f09e3da69baf968ba92815d3dfb90e350883` → 14,182,624 B `bfa60f3d045a498559f315418a3effdb1546a10746d83548d2e1d75fe8758871`；网 PDF 1,442,599 B `aa10ee53e475666e22771aa9c366a1f110a0daa21c8c59e1e888b5e698abe93b` → 1,405,181 B `e51307b135474f69125a7bb2e5e35ddd1da5e8907f56879d6c5e4f7f7115f0a4`；text.md 45,377 B `a0d79ff0c87f5db4eb2a4354423d13052a9c17c26fac9e559853b820f14058b7`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-en/logs/2026-w46-en-pt/GATES-SUMMARY.txt`（终轮）；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-en/notes/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w46-en-pt.md`。

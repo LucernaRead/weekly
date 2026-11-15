@@ -23,7 +23,7 @@
 - `p8.py compare` (explicit P8 SVG paths, total 150): CLEAN, 70→70 — PASS (JSON: `hidden_files/w46/final-ja-p8.json`).
 - `freeze.py diff` vs core: exit 0 (plain diff, no --strict-cjk), TOTAL added CJK characters 2,188 — the Japanese explanation layer, expected — PASS (JSON: `hidden_files/w46/final-ja-freeze.json`).
 - Visual card pass: P1 + P8 inspected at full frame (all other pages covered by the geometric gates + same-baseline scan); no overflow/overlap, no missing glyphs/tofu, footer intact, images present with credits.
-- Web PDF: `The-Lucerna-VOL3-web.pdf`, 2,082,455 bytes (< 7 MB), text layer 47,289 bytes via pdftotext. Print PDF kept: `The-Lucerna-VOL3.pdf` (27,094,821 bytes).
+- Web PDF: `2026-w46-en-ja.web.pdf`, 1,759,693 bytes (< 7 MB), SHA-256 `eef28e9ae5b9cb6534f4d0bd7f2f0cfd69e320292aac9082693548f79a635d4f`. Print PDF kept: `The-Lucerna-VOL3-en-ja.pdf` (19,632,806 bytes, SHA-256 `80cf6369e42cb2a706de1e52c511a08f69a4fb8c6633f4373a9b74efd2133374`)（D5 重建，2026-11-15；旧配方值 1,892,676 / 25,976,528 B 已过期，见末节 D5 记录。）
 - `2026-w46-en-ja.text.md` (46,120 bytes): exported from the fan-out source manuscript via AST (`hidden_files/w46/en_textmd.py`, never from PDF/SVG) + registry answers appended; verified byte-identical to a fresh deterministic re-export; 8 pages, 150 numbered answers.
 - `ABSTRACT.txt` (493 bytes): single line + trailing newline, no ASCII double quotes, reader-native.
 
@@ -55,3 +55,21 @@ Source-only fixes per `hidden_files/w46/en-proofread-gates/proofreader-verdict-r
 - `<slug>.text.md` regenerated with the canonical `hidden_files/w46/en_textmd.py` (uniform family format; headers verbatim). Old text.md preserved under `hidden_files/w46/en-fix/old-textmd/`. For this edition the diff vs the old file is exactly the fix lines listed above.
 - Re-gates on the final artifacts: build log zero `FLOW OVERFLOW` / `HEAD TOO WIDE`, TOTAL 150; canonical `occlusion_audit.py` 0 flags, selftest OK; `rowcheck46.py` 0 same-baseline collisions, 0 gloss-count mismatches, P6 chart-label GRAZE 0.0%; registry re-measured (core): 150 unique exercises 1–150, per-page 10/17/18/18/18/18/12/39, A2 60 / B1 69 / B2 21.
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 2,188 (exactly the KIT claim; all Japanese explanation layer). `p8.py compare --total 150`: CLEAN, 70→70, missing [], uncertain [], keydiff [137, 138, 139, 140, 150] legitimate. Web PDF 2,082,457 bytes (< 7 MB), pdftotext 47,288 bytes (equal to print extraction, 8 pages); print PDF 27,094,823 bytes; text.md 46,119 bytes. No other defect applied to this edition.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-EN-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "cjk"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-en/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_latin_in_cjk=375 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0。
+- run1 门禁 11/7；修复（只降字号/调框高，零文案改动；探针 `bin/probe_fix.py` 量测在案，取留 ≥2px 余量的最大适配字号，P1 CJK 数字盒 21pt 例外见家族报告 §0.2）：
+- `content12.py:123` FOUR COUNTRIES 25→24
+- `content12.py:193/200` DID YOU KNOW 盒高 +14→+34、间距 +26→+6
+- `content8.py:71` D SENTENCES 24→22（gap=8 保留）
+- `content12.py:25` 暗带左标题 46→44
+- `content12.py:46` P1 今週の数字 `tsize=21`；`content12.py:205` AND YOU 标题 24→23
+- `content34.py:83` P3 スクルージの夜 `tsize=22`；`:169` P4 日曜の試合 `tsize=21`
+- `content56.py:105` P6 練習用投票用紙 `tsize=20`
+- 终轮（run2）门禁 18/0 全绿：TOTAL exercises: 150, OVF=0, HDW=0；patched 0 defects (baseline-side findings: 0, D25)；CENSUS PASS；render render rc=0, print 19632806 B；web web 1759693 B <7MB；0 flags；extract rc=0 (see p8-extract.json)；CLEAN, rc=0；8/8 byte-identical；CJK added 0 (Latin added 323, run-split)；spill 0；BOXTITLE 2026-w46-en-ja: 37 titles, 250 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal；0 TOUCH 0 NEAR；CREAMBOX PASS 0 defects；；15b carryover 仅记录（CARRYOVER: FAIL）；15c N/A（en 导出器家族）；0 defective；D18 slogan 'WEEKLY IN ENGLISH\u3000毎週1回\u3000英語圏で話題のこと' end_x=1217.0 date_start_x=1506.9 gap=289.9px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)；D37 badge y=372 '英語テキスト\u3000日本語の解説 — 日本語読者のための版' end_x=1168.3 cream_left=1439.5 margin=271.2px (PASS)。P8 行数/距页脚线余量 32.7->32.7px。
+- 新旧 SHA：印 PDF 25,976,528 B `6d08eeb422ce8f057465313154a69821d425b627cc1f175675a69f02785a07db` → 19,632,806 B `80cf6369e42cb2a706de1e52c511a08f69a4fb8c6633f4373a9b74efd2133374`；网 PDF 1,892,676 B `162ebc7bfdaab2b9b9bf2cae2059d748faf00adf18dc4651b34a3206a0c3f71a` → 1,759,693 B `eef28e9ae5b9cb6534f4d0bd7f2f0cfd69e320292aac9082693548f79a635d4f`；text.md 45,737 B `7693cc0ca1b6d7a6184feadd1d83286df497a7bd18fdded929a8e35973b89f94`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-en/logs/2026-w46-en-ja/GATES-SUMMARY.txt`（终轮）；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-en/notes/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w46-en-ja.md`。

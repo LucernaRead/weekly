@@ -43,7 +43,7 @@ f.bridge("讲解｜an armistice 停战协定 · a veteran 退伍军人 · to fal
 f.box("THE WEEK IN NUMBERS　数字看本周", [
     ("Nov 11, 11:00 — the silence（默哀） · 1918 — the armistice（停战）", "serif", False, INK, 20.5, 1.35),
     ("Nov 13 — Children in Need + Ebenezer（周五） · Nov 15 — NFL Munich + ATP Finals（周日）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)
 f.head("TRY IT NOW　即学即练", 25)
 f.ex("A2", "完成句子", "armistice", "armistice = 停战协定",
      "The fighting stopped with an ___ in 1918.", size=20.5)
@@ -120,7 +120,7 @@ caption(p, ix, iy + 320, iw,
         "Claude Monet — public domain, via Wikimedia Commons")
 # col 2 mini feature
 f2 = Flow(p, [(COLX[2], CW)], 1874, 2300, tag="P1-countries")
-f2.head("FOUR COUNTRIES, ONE MINUTE", 25)
+f2.head("FOUR COUNTRIES, ONE MINUTE", 24)
 f2.para("One silence, four names. In the United States it is Veterans Day. In Britain it is Remembrance Day. In Canada and Australia, the name is the same too — with the same poppy and the same 11 a.m. silence.", 22.5)
 f2.para("Remember on Wednesday, laugh on Friday, watch sport on Sunday. See you on page 2 !", 22.5)
 f2.end_report()
@@ -190,14 +190,14 @@ sav = ["The Cenotaph was unveiled on November 11, 1920 — two years after the a
        "The two-minute silence is held at 11 a.m. on November 11 in Britain, Canada, Australia and New Zealand.",
        "Diwali's main night was Sunday, November 8 : lamps, sweets and family, on the darkest night of the lunar month."]
 sy3 = cy3 + 24
-sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 14
+sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 12 for t in sav) + 34
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "DID YOU KNOW ?", 24, "sans", True, OLIVE)
 yy3 += 52
 for t in sav:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12
-ey3 = sy3 + sh + 26
+ey3 = sy3 + sh + 6
 etvous = "And you ? Do you wear a poppy in November ? What does your country do on November 11 ? Write two sentences in English for VOL.4."
 eh = 62 + len(wrap(etvous, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("11 月 11 日，你的国家做什么？写两句英语寄给编辑部。", "sans", False, 20, CW - 44)) * 29 + 20
 p.rect(ix, ey3, CW, eh, fill="#f0eee5")

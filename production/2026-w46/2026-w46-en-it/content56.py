@@ -106,7 +106,7 @@ f.box("A PRACTICE BALLOT　Scheda", [
 f.para("A note on numbers in this issue : this paper prints no poll figures and no predictions, and no results it cannot verify. When the verified results are in, VOL.4 will report them — who won, and what changes. Patience is part of the system, not a failure of it.")
 f.gloss("to call a race = proclamare il risultato · to certify = certificare · a runoff = il ballottaggio · patience = la pazienza.")
 # practice chart
-f.head("READ THE CHART　Leggi il grafico", 25)
+f.head("READ THE CHART　Leggi il grafico", 23)
 f.para("How long did the last midterm take ? In 2022, the count ran past election night. The chart is history, not a prediction for 2026.", 22)
 for lab in ["Senate decided : 4 days after Election Day (2022)",
             "House decided : 8 days after Election Day (2022)",

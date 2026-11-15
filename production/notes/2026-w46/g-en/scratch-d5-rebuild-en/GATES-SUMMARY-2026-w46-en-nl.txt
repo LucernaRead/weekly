@@ -1,0 +1,22 @@
+=== gates 2026-w46-en-nl (patched=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-en/patched/2026-w46-en-nl) ===
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — patched 0 defects (baseline-side findings: 0, D25)
+PASS  G3 — CENSUS PASS
+PASS  G4 — render rc=0, print 14177107 B
+PASS  G5 — web 1399678 B <7MB
+PASS  G6 — 0 flags
+PASS  G7 — extract rc=0 (see p8-extract.json)
+PASS  G8 — EXTRA_ONLY, rc=0
+PASS  G9 — 8/8 byte-identical
+PASS  G10 — CJK added 0 (Latin added 371, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-en-nl: 28 boxes, 108 candidates, 0 SPILL, 108 OBSERVE
+PASS  G12 — BOXTITLE 2026-w46-en-nl: 36 titles, 175 body lines, 0 DEFECT, 0 OBSERVE, 1 marginal
+PASS  G13 — 0 TOUCH 0 NEAR
+PASS  G14 — CREAMBOX PASS 0 defects
+PASS  G15a — print chars=99859 web chars=99859 stripped-multiset-diff=0; text.md BYTE-IDENTICAL
+G15b (record-only): rc=1 — CARRYOVER: FAIL
+G15c (record-only): N/A — en exporter family, no native verifier (W45-EN-REPROOF D27)
+PASS  G16 — 0 defective
+PASS  D18 — D18 slogan 'WEEKLY IN ENGLISH\u3000Elke week\u3000Waar de ' end_x=1330.1 date_start_x=1506.9 gap=176.8px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)
+PASS  D37 — D37 badge y=372 'TEKSTEN IN HET ENGELS\u3000UITLEG IN HET NEDERLANDS — DE EDITIE V' end_x=1413.7 cream_left=1439.5 margin=25.8px (PASS)
+=== 2026-w46-en-nl: 18 PASS / 0 FAIL ===

@@ -109,7 +109,7 @@ cf.ex("B1", "Исправить", "She will watch the film on Friday.", "Пос�
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.rect(rx, by7 + 8, rw, 318, fill=BOX)
 p.text(rx + 24, by7 + 48, "READERS' CORNER　Уголок читателя", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« I wore a poppy all week, and I stood still at eleven. Two minutes felt very long — and very short, at the same time. » — an editor's example : no real reader letters had arrived when this issue went to press, so the example stands, honestly labeled", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 206, "Примечание редакции | VOL.2 обещал опубликовать настоящие письма читателей в VOL.3, но к моменту сдачи номера редакция не получила ни одного настоящего письма и ни одной работы VOL.2 — этот выпуск говорит об этом честно и не выдумывает письма. Присылай своё письмо и свою работу; с VOL.4 мы будем публиковать полученные настоящие письма.", 20, "sans", False, GREY, rw - 48, 1.4)

@@ -1,0 +1,22 @@
+=== gates 2026-w46-en-pt (patched=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-en/patched/2026-w46-en-pt) ===
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — patched 0 defects (baseline-side findings: 0, D25)
+PASS  G3 — CENSUS PASS
+PASS  G4 — render rc=0, print 14182624 B
+PASS  G5 — web 1405181 B <7MB
+PASS  G6 — 0 flags
+PASS  G7 — extract rc=0 (see p8-extract.json)
+PASS  G8 — CLEAN, rc=0
+PASS  G9 — 8/8 byte-identical
+PASS  G10 — CJK added 0 (Latin added 345, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-en-pt: 28 boxes, 105 candidates, 0 SPILL, 105 OBSERVE
+PASS  G12 — BOXTITLE 2026-w46-en-pt: 34 titles, 176 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+PASS  G13 — 0 TOUCH 0 NEAR
+PASS  G14 — CREAMBOX PASS 0 defects
+PASS  G15a — print chars=94665 web chars=94665 stripped-multiset-diff=0; text.md BYTE-IDENTICAL
+G15b (record-only): rc=2 — ERROR: no verify_textmd table for reader 'pt' yet — calibrate it from that edition's own SVG/.text.md until its residual is 0, then add it to READER_TABLES in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/tools/verify_textmd.py
+G15c (record-only): N/A — en exporter family, no native verifier (W45-EN-REPROOF D27)
+PASS  G16 — 0 defective
+PASS  D18 — D18 slogan 'WEEKLY IN ENGLISH\u3000Todas as semanas\u3000D' end_x=1348.4 date_start_x=1506.9 gap=158.5px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)
+PASS  D37 — D37 badge y=372 'TEXTOS EM INGLÊS\u3000EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS' end_x=1432.0 cream_left=1439.5 margin=7.5px (PASS)
+=== 2026-w46-en-pt: 18 PASS / 0 FAIL ===

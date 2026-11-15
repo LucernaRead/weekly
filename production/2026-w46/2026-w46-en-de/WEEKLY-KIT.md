@@ -18,7 +18,7 @@
 - `occlusion_audit.py`: 0 flags — PASS (first run 11 flags, all fixed in source and re-rendered).
 - `p8.py compare`: EXTRA_ONLY, adjudicated — PASS (see above).
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0 — PASS.
-- Web PDF: `The-Lucerna-VOL3-web.pdf`, 1,555,388 bytes (< 7 MB), text layer 48,472 bytes via pdftotext. Print PDF kept: `The-Lucerna-VOL3.pdf` (15,190,760 bytes).
+- Web PDF: `2026-w46-en-de.web.pdf`, 1,402,509 bytes (< 7 MB), SHA-256 `645f89003c5283f166a72d12db1d3ef1596d25e0465af721ea5a4163c050718b`. Print PDF kept: `The-Lucerna-VOL3-en-de.pdf` (14,179,912 bytes, SHA-256 `bc68a33fa76da6ce8dfdffc5cb990fb969243dedaa22d8202ed598604367a3d2`)（D5 重建，2026-11-15；旧配方值 1,443,113 / 14,669,384 B 已过期，见末节 D5 记录。）
 - `2026-w46-en-de.text.md`: exported from the fan-out source manuscript via AST (`hidden_files/w46/export_textmd.py`) + registry answers appended.
 
 ## Fix record — independent proofread Round 1 fixes (fix worker, 2026-11-03)
@@ -30,3 +30,20 @@ Source-only fixes per `hidden_files/w46/en-proofread-gates/proofreader-verdict-r
 - `<slug>.text.md` regenerated with the canonical `hidden_files/w46/en_textmd.py` (uniform family format; headers verbatim). NOTE: the old file was produced by a different/older exporter walk (band headings absent, raw `ex` args, `{...}` P8 placeholders); the new export is more complete (resolved P8 numbers, phrases section) and re-exportable deterministically. Old file preserved under `hidden_files/w46/en-fix/old-textmd/`.
 - Re-gates on the final artifacts: build log zero `FLOW OVERFLOW` / `HEAD TOO WIDE`, TOTAL 150; canonical `occlusion_audit.py` 0 flags, selftest OK; `rowcheck46.py` 0 same-baseline collisions, 0 gloss-count mismatches, P6 chart-label GRAZE 0.0%; registry re-measured (core): 150 unique exercises 1–150, per-page 10/17/18/18/18/18/12/39, A2 60 / B1 69 / B2 21.
 - `freeze.py diff` vs core: exit 0, TOTAL added CJK characters 0 (P8 residual: 2 U+FF1B semicolons inside frozen keys, adjudicated non-defect). `p8.py compare --total 150`: EXTRA_ONLY, 70→150, extra 80 (adjudicated list), missing [], uncertain [], keydiff [137, 138, 139, 140, 150] legitimate. Web PDF 1,555,468 bytes (< 7 MB), pdftotext 48,519 bytes (equal to print extraction, 8 pages); print PDF 15,190,847 bytes; text.md 45,344 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-EN-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "latin"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-en/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_latin_in_cjk=546 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0。
+- run1 门禁 11/7；修复（只降字号/调框高，零文案改动；探针 `bin/probe_fix.py` 量测在案，取留 ≥2px 余量的最大适配字号，P1 CJK 数字盒 21pt 例外见家族报告 §0.2）：
+- `content12.py:123` FOUR COUNTRIES 25→24
+- `content12.py:193/200` DID YOU KNOW 盒高 +14→+34、间距 +26→+6
+- `content7.py:48` THE TOOLBOX 27→25；`content7.py:99` THE ERROR CLINIC 25→24
+- `content34.py:83` P3 Scrooge `tsize=22`；`:108` P4 Warum München? `tsize=21`；`:169` P4 Sonntag `tsize=22`
+- `content56.py:105` P6 Stimmzettel `tsize=22`
+- `content7.py:112` P7 读者信箱 rect 300→318
+- 终轮（run2）门禁 18/0 全绿：TOTAL exercises: 150, OVF=0, HDW=0；patched 0 defects (baseline-side findings: 0, D25)；CENSUS PASS；render render rc=0, print 14179912 B；web web 1402509 B <7MB；0 flags；extract rc=0 (see p8-extract.json)；EXTRA_ONLY, rc=0；8/8 byte-identical；CJK added 0 (Latin added 359, run-split)；spill 0；BOXTITLE 2026-w46-en-de: 36 titles, 179 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal；0 TOUCH 0 NEAR；CREAMBOX PASS 0 defects；；15b carryover 仅记录（CARRYOVER: FAIL）；15c N/A（en 导出器家族）；0 defective；D18 slogan 'WEEKLY IN ENGLISH\u3000Jede Woche neu\u3000Was' end_x=1392.0 date_start_x=1506.9 gap=114.9px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)；D37 badge y=372 'ENGLISCHER TEXT\u3000DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTS' end_x=1380.4 cream_left=1439.5 margin=59.1px (PASS)。P8 行数/距页脚线余量 34.9->34.8px。
+- 新旧 SHA：印 PDF 14,669,384 B `b314cc5bac4037b94d4065724103de853e9416acaa8ffc12fb2925ce9b96679e` → 14,179,912 B `bc68a33fa76da6ce8dfdffc5cb990fb969243dedaa22d8202ed598604367a3d2`；网 PDF 1,443,113 B `71a2a7310daed60409c904a863e3e88a200b7cc8f281501ccf49c9a73fb09d57` → 1,402,509 B `645f89003c5283f166a72d12db1d3ef1596d25e0465af721ea5a4163c050718b`；text.md 44,922 B `375f756cba2cee70b902ddb95767e00f6dd42a0760450495afeab0619c37bedc`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-en/logs/2026-w46-en-de/GATES-SUMMARY.txt`（终轮）；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-en/notes/g-en/scratch-d5-rebuild-en/D5-REPORT-2026-w46-en-de.md`。

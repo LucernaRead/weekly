@@ -45,7 +45,7 @@ cC.box("THE EXAMPLE　Beispiel", [
 cC.end_report()
 
 cD = Flow(p, [(COLX[3], CW)], 200, 1150, tag="P7-tools")
-cD.head("THE TOOLBOX　Werkzeugkiste", 27)
+cD.head("THE TOOLBOX　Werkzeugkiste", 25)
 cD.para("Three sentences to keep in your pocket, one for each level :", 22.5)
 cD.para("A2 — « At eleven o'clock — we stop. »", 22.5, "serif", True, OLIVE)
 cD.para("B1 — « Dickens wrote the story in 1843.»", 22.5)
@@ -96,7 +96,7 @@ pf.end_report()
 by7 = 1870
 p.hline(MX, RIGHT, by7 - 14, OLIVE, 2)
 cf = Flow(p, [(COLX[0], CW), (COLX[1], CW)], by7 + 8, 2268, tag="P7-clinic")
-cf.head("THE ERROR CLINIC　Fehlerklinik", 25)
+cf.head("THE ERROR CLINIC　Fehlerklinik", 24)
 cf.bridge("Jeder Satz enthält einen Fehler: Finde ihn und korrigiere den Satz.")
 cf.ex("A2", "Fehlerkorrektur", "He doesn't remember them.", "3. Person: doesn't + Grundform",
      "✗ « He don't remember them. »", instr="Fehlerkorrektur", size=22.5)
@@ -109,7 +109,7 @@ cf.ex("B1", "Fehlerkorrektur", "She will watch the film on Friday.", "Nach will 
 cf.end_report()
 
 rx, rw = span_x(2, 2)
-p.rect(rx, by7 + 8, rw, 300, fill=BOX)
+p.rect(rx, by7 + 8, rw, 318, fill=BOX)
 p.text(rx + 24, by7 + 48, "READERS' CORNER　Leserecke", 24, "sans", True, OLIVE)
 p.para(rx + 24, by7 + 86, "« I wore a poppy all week, and I stood still at eleven. Two minutes felt very long — and very short, at the same time. » — an editor's example : no real reader letters had arrived when this issue went to press, so the example stands, honestly labeled", 21.5, "serif", False, INK, rw - 48, 1.42)
 p.para(rx + 24, by7 + 206, "Anmerkung der Redaktion | VOL.2 hatte versprochen, in VOL.3 echte Leserbriefe zu drucken, doch bis Redaktionsschluss sind keine echten Briefe und keine VOL.2-Schreibbeiträge eingegangen — diese Ausgabe sagt das ehrlich und erfindet keine Briefe. Schicke uns deinen Brief und deinen Text; ab VOL.4 drucken wir die echten Briefe, die ankommen.", 20, "sans", False, GREY, rw - 48, 1.4)

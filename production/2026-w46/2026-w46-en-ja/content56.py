@@ -102,7 +102,7 @@ f.para("Leads can change as the count goes on. In some states, the votes cast on
 f.para("The last midterm, in 2022, tells the same story. The Senate was not decided until the Saturday after Election Day, and the House until the Wednesday after. Nobody knows whether this year will be faster or slower — and this paper will not guess.")
 f.box("A PRACTICE BALLOT　練習用投票用紙", [
     ("For Governor : ☐ Candidate A · ☐ Candidate B. For the House : ☐ Candidate C · ☐ Candidate D. Names are codes here — this ballot teaches how to mark, not whom to choose.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=20)
 f.para("A note on numbers in this issue : this paper prints no poll figures and no predictions, and no results it cannot verify. When the verified results are in, VOL.4 will report them — who won, and what changes. Patience is part of the system, not a failure of it.")
 f.gloss("to call a race 選挙結果を発表すること · to certify 正式に認証する · a runoff 決選投票 · patience 忍耐。")
 # practice chart

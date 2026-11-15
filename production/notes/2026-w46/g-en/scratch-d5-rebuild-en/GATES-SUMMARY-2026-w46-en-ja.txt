@@ -1,0 +1,22 @@
+=== gates 2026-w46-en-ja (patched=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-en/patched/2026-w46-en-ja) ===
+PASS  G1 — TOTAL exercises: 150, OVF=0, HDW=0
+PASS  G2 — patched 0 defects (baseline-side findings: 0, D25)
+PASS  G3 — CENSUS PASS
+PASS  G4 — render rc=0, print 19632806 B
+PASS  G5 — web 1759693 B <7MB
+PASS  G6 — 0 flags
+PASS  G7 — extract rc=0 (see p8-extract.json)
+PASS  G8 — CLEAN, rc=0
+PASS  G9 — 8/8 byte-identical
+PASS  G10 — CJK added 0 (Latin added 323, run-split)
+PASS  G11 — SPILL_SWEEP 2026-w46-en-ja: 28 boxes, 111 candidates, 0 SPILL, 111 OBSERVE
+PASS  G12 — BOXTITLE 2026-w46-en-ja: 37 titles, 250 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+PASS  G13 — 0 TOUCH 0 NEAR
+PASS  G14 — CREAMBOX PASS 0 defects
+PASS  G15a — print chars=89588 web chars=89588 stripped-multiset-diff=0; text.md BYTE-IDENTICAL
+G15b (record-only): rc=1 — CARRYOVER: FAIL
+G15c (record-only): N/A — en exporter family, no native verifier (W45-EN-REPROOF D27)
+PASS  G16 — 0 defective
+PASS  D18 — D18 slogan 'WEEKLY IN ENGLISH\u3000毎週1回\u3000英語圏で話題のこと' end_x=1217.0 date_start_x=1506.9 gap=289.9px [calib centre=975.0 vs 975, date_end=1862.0 vs 1862.0] (PASS)
+PASS  D37 — D37 badge y=372 '英語テキスト\u3000日本語の解説 — 日本語読者のための版' end_x=1168.3 cream_left=1439.5 margin=271.2px (PASS)
+=== 2026-w46-en-ja: 18 PASS / 0 FAIL ===
