@@ -71,6 +71,7 @@ All 12 Hinweis gloss boxes; every bilingual section head (Chinese half kept, Ger
 - **Readers' corner:** frozen Traditional disclosure intact (延期披露…你的來信,下一期見。) + German disclosure stating no genuine letters exist + explicit open invitation in German ("Beispielbrief der Redaktion — kein echter Brief. … bis Redaktionsschluss kam nichts Veröffentlichbares — das Beispiel bleibt, und die Einladung bleibt offen: Schicken Sie uns Ihren Brief!"). The frozen example letter itself (台北小讀者) is untouched target text.
 - **Residual-Latin adjudication:** full English-apparatus remnant scan over the rendered text: ZERO (checked strings include "Explanations in English", "This week", "Word of the week", "Quick quiz", "Did you get it", "Fill in", "Over to you", "Work it out", "Practice example", "All notes in English", "Model answer", "Open task", "Notes", "p. N", "Answer keys", "Language focus", "Deep read", "Test & keys", "Readers' corner", "Phrases of the week", "Next week" — no hits). Every remaining Latin token in the 772-token inventory adjudicates to one of: (i) German word or standard German loanword (Test, Quiz, Team, Shows, Code, Scan, live, online, per, pro); (ii) frozen target-text proper noun/theme/title (Fintech Nexus: Bridging the World, Building the Future; SUPER STAGE; SOLID TIDES; JUMP; Trick or Treat; Taiwan Series; Hong Kong FinTech Week; venue/event names; film titles Jurassic World / Shrek / Kung Fu Panda / Back to the Future); (iii) verbatim Commons credit (Photo: … — CC0 / Public domain (Wikimedia Commons)); (iv) masthead/footer/label (Lucerna, VOL.2, Seite N von 8, NT$ currency code, FAQ source name, exercise letters A–D and S. tags); or (v) the regex artifact "amp" from SVG "&amp;" escaping (rendered glyph is "&"). No English explanation residue remains.
 - **Cards eyeballed:** all 8 cards viewed page by page — no overflow, no overlap, no footer collision, badge/footers/gloss boxes/fixed boxes/chart labels/keys all clean. P8 keys end well above the footer rule; P7 teaser band ends 2555.86, clear of the 2580 rule.
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT.
 
 ## 6. Layout adjudications (wording/geometry only; Chinese text never touched)
 
@@ -96,8 +97,8 @@ python3 render.py   # cards + print/web PDFs
 
 ## 8. PDF pins (delivered files)
 
-- Print: Lucerna-VOL2-DE.pdf — 8 pages, 20,850,433 bytes, SHA-256 c8ba558624659bd70c68cd9ddc86a06ac89ecaf88e21e9f730f51d2d3bdda3e2
-- Web: Lucerna-VOL2-DE-web.pdf — 8 pages, 3,440,559 bytes (< 10 MB), SHA-256 25d5ebb196b4e16c3d349aa18ff77510465352f860e9b1c7f202fba3cc577e16
+- Print: Lucerna-VOL2-DE.pdf — 8 pages, 10,668,176 bytes, SHA-256 e4933658ce9b441f3700ff80622a4c859d7893f090098adabfc38a4da5d5dc4a
+- Web: Lucerna-VOL2-DE-web.pdf — 8 pages, 1,891,042 bytes (< 10 MB), SHA-256 2aeb6bd660fe6d12f85a53d6a7a19ec08f740d63d0f93054419fecad36a57d5c
 - Cards: 8 PNGs, each 1950×2700 RGB.
 
 ## 9. Facts as finalized in the core — unchanged

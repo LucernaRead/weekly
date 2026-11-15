@@ -57,6 +57,7 @@ Method: CJK characters extracted from the shipped SVG `<text>` nodes of (a) this
 - Images: payloads byte-identical to core per page (SHA-256 first 16: p1 `ac4dfe2ad3a43cd3`, p2 `a40e7a2b265beba6`, p4 `18ad8ae06fac2860` — the adjudicated Washington-team 1908 photo, provenance CLOSED per the core KIT coordinator adjudication 2026-10-27 and unchanged here, p5 `bcbada13a5ae19d6`; p3/p6/p7/p8 have no photos). Commons Artist credits verbatim: p1 `Photo: Wilfredor — CC0 (Wikimedia Commons)`, p2 `Photo: CorraleH — CC0 (Wikimedia Commons)`, p4 `Photo: Bain News Service — Public domain (Wikimedia Commons)`, p5 `Photo: Benjamin Balazs — CC0 (Wikimedia Commons)`.
 - Readers' corner: frozen Traditional disclosure `lt2` rendered **line-for-line identical to the core** (same 5 wrapped lines, same baselines); Italian disclosure present — `Lettera di esempio della redazione, non vera. Avviso di rinvio: il VOL.1 aveva promesso lettere vere e i migliori testi di pagina 8 da questo numero; alla chiusura non ne era arrivato nessuno pubblicabile, quindi resta l'esempio. Scrivici!` — states no genuine letters exist + explicit open invitation (`Scrivici!`).
 - Cards: **all 8 eyeballed clean** (1950×2700 PNGs) — no overflow, no overlap, no footer collision; P7 teaser/footer clearance confirmed visually; P1 badge legible.
+- **D5 rebuild (2026-11-14):** 18/19 gates green; gate 11 spill is a pre-existing baseline-identical residual (P2 +4.20px, accepted per PLAN L223 precedent). Gate 15a REFLOW (accepted, D30) — multiset diff 0, native verifier ADOPT.
 
 ## 6. Furniture three-way (core · W43 zh-tw-it · this edition)
 
@@ -112,14 +113,14 @@ SVG SHA-256 (full):
 
 | file | SHA-256 |
 |---|---|
-| p1-front.svg | 1518337cb789da0f62f9c3b11320c0a9ac52adddff3bef2efde85ad26ea1c2c5 |
-| p2-life.svg | ec016d3a99d033deef8500344f2c875f3417487acf21f8daaff2c866f7b33f51 |
-| p3-culture.svg | 43366e952d1efed9d4d86fe7fc0a0fdd674c08fd2ae1798eb525fa35acc44a15 |
-| p4-sport.svg | d71f5f8b09d862c9de66476510d3beb330b0420470f8df368a2420092085efe0 |
-| p5-youth.svg | 79ebc140b5d4e623102dc1907ffe720de7f797544e5a983e6bc2f9c2f51d1bd7 |
-| p6-deep.svg | ea4e52346cf2722f9e068f1708bb67b3fb9a1391c6311325d7caacd4a1440961 |
-| p7-lang.svg | 335eca8c9aff661c50c02caca9ab927ab39956c149bd7f8e9e4bf6e90ad91065 |
-| p8-test.svg | 9c632c151ab56a6939d162bd3015ef69e2a859af11ea843a0100e2e339e01173 |
+| p1-front.svg | 3b8adc49d8146ba93efc7a974c09b014c898e362d92d6b91c8479dbce8a40498 |
+| p2-life.svg | 0fa074f32da95e1958c5bf94a272fd2edefb6ee5f90d3ed43c58e57269778de9 |
+| p3-culture.svg | ba0cb606edf6b7fd1ce1de9f7a2fdefd9575eeab62008d87e1e5d12d16f1be24 |
+| p4-sport.svg | 47a4225bda25b724569af3a9d6999123efabe38a18fc4884b978e41e0b8ca799 |
+| p5-youth.svg | d792ebd646d544b9396d4d000f50e84d46f2b3dfcf7e1c0ef0ff68382cff1134 |
+| p6-deep.svg | ab6723f82196b3179d2d61ad55fba8d743352f81573aad9018177525717a0278 |
+| p7-lang.svg | 795ca3f1b87fa8d58378562d4f1ec2e05441664d85466359d336df73ffc4a09c |
+| p8-test.svg | 482839c6b435cddabb45fe4ccbc1aed8a484f9ef5e55c7866f14639719d1a25b |
 
 Cards (1950×2700 PNG): p1 1,056,140 · p2 1,224,313 · p3 1,012,173 · p4 982,255 · p5 1,279,794 · p6 882,977 · p7 878,156 · p8 1,042,311 bytes.
 
@@ -127,8 +128,8 @@ PDFs (8 pages each):
 
 | file | bytes | SHA-256 |
 |---|---|---|
-| `Lucerna-VOL2-IT.pdf` (print) | 20,069,224 | be06fcfa7b27643553af72267e37c8a4f7cdccca779d6c9f4e334d2b05a93e38 |
-| `Lucerna-VOL2-IT-web.pdf` (web) | 3,456,580 (< 10 MB) | 5b5c111ed1eca5467b12d4e32412576d20bbbe055302a2e8ababb3bc57a96c15 |
+| `Lucerna-VOL2-IT.pdf` (print) | 10,661,736 | 8311e6503b3fff5e73b6a23aacfdc99c1494c770c3c24fadac84d303d2707ef7 |
+| `Lucerna-VOL2-IT-web.pdf` (web) | 1,886,583 (< 10 MB) | e0299352a1e411c95f45985cbaa266fd03d30d7728d860e1cb51162b874ba6c5 |
 
 ## 11. Per-page contents
 

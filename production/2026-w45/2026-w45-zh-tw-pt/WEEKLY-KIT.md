@@ -137,6 +137,7 @@ P4 term↔info → `Associe nome e informação`; content56 word↔definition �
   shortened wording).
 - All 8 cards (1950×2700 PNG) eyeballed clean: no overflow, overlap, footer collision,
   or image/credit misplacement on any page.
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT.
 
 ## 8. Residual-Latin adjudication (full-render sweep, not just added strings)
 
@@ -245,21 +246,21 @@ against the delivered SVGs:
 
 SVG SHA-256 (final):
 
-- p1-front.svg `3d8481de100e9787dce9beffc4f64ed196df8f3f671a29a7023f792675b10a94`
-- p2-life.svg `99bcb003f2c4161af63bee1db143d8b03d8df5329c1ac58daa7d876c676b97c2`
-- p3-culture.svg `aac1e5fc867795b4b9db53298791026f9714f9e739645f4b738f655ecfd7cdf9`
-- p4-sport.svg `cbf88009a967b1ad28cfa1f9b0524ad8f7603ce62bc7b54433dc9afc5c2f9ab6`
-- p5-youth.svg `23b7ad0b3b43cdc85a1ad20fa7893adeeab8803ba77e5744226433edf8e2731d`
-- p6-deep.svg `2012bf23a67baf1cb2d5492ad0f849244ed41bafa01341d75ea5c9450943184e`
-- p7-lang.svg `32799b27dad4ea22af5ddb2b6906904bfc10aea8e78e05d28cb0b632a19c56fd`
-- p8-test.svg `236b96ae89ed8529cd8cbb03c7049fb9e23d0b3eef7c0abbc1885bd5925a30b0` (fix round §13; p1–p7 hashes unchanged)
+- p1-front.svg `06b9d02ab4c07131dbb27f0b40a8c09f5cb0008ec9c7ccd15b90070e14bd89cd`
+- p2-life.svg `81e88fc5846d5ba11d6fdcdd80a32638cff5e852ffbdc2fac5450806bb83daf1`
+- p3-culture.svg `d38a3e1393283b55af053ea641f4bb1994495c1f95164c5b95f8de0f8c1403a9`
+- p4-sport.svg `34c325b3bbc57d53288e4f8e3013df30f9a01ef89317886985331b44cefb3cf5`
+- p5-youth.svg `5a2b395259b0dbe6c29c2a1866f07ff84f64a2ea9570965ab62e012bc6fbda1d`
+- p6-deep.svg `84f37194693349aa0a103f85a3254eb035d94fa928b09dabe377e2a0331f1c82`
+- p7-lang.svg `bd657778f25a98ef7b0e3986c82075e3aab3ee85b8a53b1dc3a294c9cfaf6012`
+- p8-test.svg `f27a681d06065c60d9b37f2965ba1962369756ab1a50db9e5498624de19bef19` (fix round §13; p1–p7 hashes unchanged)
 
 PDF pins (8 pages each, regenerated from the final SVGs):
 
-- Print `Lucerna-VOL2-PT.pdf`: **20,845,651 bytes**,
-  SHA-256 `fc85e26f31aa89e92ab0b550af2e8f23e2cff27fc308d4f8808e0369f005d85c` (fix round §13; supersedes the pre-fix pin 20,848,230 B / `18f7ca8f…`)
-- Web `Lucerna-VOL2-PT-web.pdf`: **3,510,596 bytes (< 10 MB)**,
-  SHA-256 `380e91d19a69082d68ff407762622119ce1e3305a67c3cd0006cbefb8e0c9b0e` (fix round §13; supersedes the pre-fix pin 3,507,192 B / `ca73db6b…`)
+- Print `Lucerna-VOL2-PT.pdf`: **10,668,335 bytes**,
+  SHA-256 `664782e03190f364ac9b2e3168131d5876db9d238b3e7ebc819807aa67fdd2c2` (fix round §13; supersedes the pre-fix pin 20,848,230 B / `18f7ca8f…`)
+- Web `Lucerna-VOL2-PT-web.pdf`: **1,890,832 bytes (< 10 MB)**,
+  SHA-256 `db0b94185bcc94acd1cfa7489e833dd18a2d146586d13c2dc24ac5000bbb97c9` (fix round §13; supersedes the pre-fix pin 3,507,192 B / `ca73db6b…`)
 
 Cards: 8 PNGs 1950×2700 in `cards/`, all eyeballed clean (§7).
 

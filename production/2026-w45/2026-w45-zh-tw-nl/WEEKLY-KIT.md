@@ -88,6 +88,7 @@ svglib `_fw` rules (read from svglib.py): comma/semicolon/colon directly adjacen
 - Readers' corner: frozen Traditional disclosure intact + Dutch disclosure stating no genuine letters exist + explicit open invitation in Dutch (5-line form, see §7).
 - Cards: all 8 eyeballed clean (no overflow/overlap/footer collision; badge/footers/gloss boxes/fixed boxes/chart labels/keys clean; P7 teaser clear of footer; P2 boxes; P4 chart).
 - P7 geometry (final): columns a2 1529 (= core), b1 1463 (= core), b2 1529 (core 1496; +1 line, ≤1560 nominal bottom, no warning); col3 ends 1687.36; teaser ends 2485.36 (footer rule 2580 — clear). Core P7 col3 geometry for reference: clinic box eh 648.36; frame wh 312.5 (wt 5 lines, wcn 2 lines); letter lh 560.5; col3_end 1745.36; teaser ends 2543.36.
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT.
 
 ## 6. Rendered-output sweep (coordinator additional check — passed)
 
@@ -158,8 +159,8 @@ Old web PDF < 10 MB: yes (3,395,927 bytes). Cards: 8 × 1950×2700 PNG in `cards
 
 | file | bytes | SHA-256 |
 |---|---|---|
-| Lucerna-VOL2-NL.pdf (print) | 20,844,849 | b6e3a207b89626786a66e448b3badfb251691366e3c607c8d93057a5b1b97b8f |
-| Lucerna-VOL2-NL-web.pdf (web) | 3,395,098 | 590e04aabf9f3724c54266d5ee89448b98e3caa9e6267316a51999193665ba90 |
+| Lucerna-VOL2-NL.pdf (print) | 10,661,182 | 00f3b2ca7305adb15070bf77d93fec067a9bc8c8bd2cb4de07630f433ee6d61b |
+| Lucerna-VOL2-NL-web.pdf (web) | 1,883,972 | fbe39c85d8c5f01936ac7d6b1af5ec292cf90abf9b400ffe5cce245578ae3689 |
 
 - Delivery dir remains flat (svg/, cards/, 2 PDFs, KIT, ABSTRACT.txt); ABSTRACT.txt untouched (351 B, unchanged mtime). Nothing else was touched: badge, footer, gloss counts, golden sentences, images, P8 dash style, AI handling (verbatim 人工智慧＋), or any other passing gate. Canonical build dir's `content7.py` now carries the +50 line (the only .py difference vs the pre-fix build); fix logs saved as `build-fix.log` / `render-fix.log` there.
 

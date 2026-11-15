@@ -131,6 +131,7 @@ ALONE + one-process driver):
   ONLY in gloss-box heights (Korean glosses are shorter, e.g. P4
   x=527 y=357.0 height 294.3→264.575; P6 x=989 y=208 height
   353.75→294.3) — text-driven boxes, not chart bars.
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT. **F1 fix (2026-11-15, see §17):** print/web pins in §14 updated to the fix rebuild values; gates re-run 17/19 with the only two non-PASS lines (GATE 15, GATE 15c) being the expected F1 content delta itself (multiset 8 = `원`×2 → `NT$`×2; P8 native verifier MISMATCH confined to answer 141).
 
 ## 7. ×KO orphan scan (README #16, window 10–45) — 0 defects
 
@@ -343,8 +344,8 @@ confirms both are present in the delivered SVGs (穿 = U+7A7F).
 
 | file | pages | bytes | SHA-256 |
 |---|---|---|---|
-| `Lucerna-VOL2-KO.pdf` (print) | 8 | 15,287,199 | `bc5573a559188fb59e8676953df3b521504a071dbf6994e0470c26ce38bcc494` |
-| `Lucerna-VOL2-KO-web.pdf` (web) | 8 | 3,281,709 | `685b612f248f3372f882e32de0003baf10e7f0541e5abe515ad54a7b82799a68` |
+| `Lucerna-VOL2-KO.pdf` (print) | 8 | 12,454,880 | `21a2ecb8d4e7a3dede08dcfe8e8559e9ba38ff77c74590f56f5445053c7c4f39` |
+| `Lucerna-VOL2-KO-web.pdf` (web) | 8 | 2,121,041 | `416a0f4fb178aba63b324c466c4abb7577192c17d675e396c0edfb8639b5708a` |
 
 Web PDF is under 10 MB. PDF naming follows the W45 sibling convention
 (suffixed, unlike W43's plain names). Render log `build/render1-cards.log`.
@@ -384,3 +385,13 @@ Web PDF is under 10 MB. PDF naming follows the W45 sibling convention
   columns without block segmentation, it will over-flag normal
   word-boundary wraps — use the segmented scan in §7 as the reference.
 - P4 provenance: CLOSED per §12; do not re-litigate.
+
+## 17. F1 fix (2026-11-15, independent reproof finding F1)
+
+- **Finding:** P8 answer 141 wrote the NT$4,100 Taipei travel-fair buffet coupon price as `4,100원` (Korean won). Pre-existing, not D5-introduced: the baseline naive export carries the identical line (line 5808), and `baseline/2026-w45-zh-tw-ko/content8.py:77` is byte-identical to the builder source. The story text (same file, L72) says `4張一共4,100元`; the other 9 editions' answer 141 carries no currency unit; this edition itself uses `NT$` everywhere else (`NT$2,400 + NT$1,600 = NT$4,000`, `NT$6,200 − NT$1,200 = NT$5,000`, Cathay `NT$13,433`).
+- **Fix (only change):** `content8.py:77`, `4장 세트 쿠폰은 4,100원이에요(정가 8,200원).` → `4장 세트 쿠폰은 NT$4,100이에요(정가 NT$8,200).` — currency units only; stem, answer letter (A), and all other wording untouched. Applied identically to scratch `patched/2026-w45-zh-tw-ko/content8.py` and production `production/2026-w45/2026-w45-zh-tw-ko/content8.py` (`cmp` clean); `diff` vs baseline `content8.py` is exactly this one line.
+- **Rebuild (patched only, ko):** run → render → webpdf → joiner textexp, `tools/venv/bin/python`, `fc-cache -f` warmed first. TOTAL 150. Print `Lucerna-VOL2-KO.pdf` 12,454,880 B, SHA-256 `21a2ecb8d4e7a3dede08dcfe8e8559e9ba38ff77c74590f56f5445053c7c4f39`; web `2026-w45-zh-tw-ko.web.pdf` 2,121,041 B, SHA-256 `416a0f4fb178aba63b324c466c4abb7577192c17d675e396c0edfb8639b5708a`; text `2026-w45-zh-tw-ko.text.md.new` 53,965 B, SHA-256 `ff9c86522fc81a24931ff5595b6d074ca73b66350abd873d661414927b7574a6`.
+- **text.md diff vs builder delivery:** exactly one hunk, answer 141 only — the single line re-exports as 11 run-split lines (`4장 세트 쿠폰은` / `NT$4,100` / `이에요` / `(` / `정가` / `NT$8,200).`); whitespace-stripped char multiset diff vs builder text.md is exactly 8 (`N`+2, `T`+2, `$`+2, `원`−2), i.e. the F1 change and nothing else.
+- **Gates re-run (ko only, full suite):** PASS=17 FAIL=2. All green except GATE 15 and GATE 15c, which are the F1 delta itself measured against the pre-fix baseline对照: 15a multiset 8 with the exact composition above, difflines 98 (builder 86 + 12 F1 run-split lines); 15c native verifier P1–P7 ADOPT, title ADOPT, P8 MISMATCH with first diff at char 5309, exactly at answer 141 (`4,100원이에요(정가 8,200원)` → `NT$4,100이에요(정가 NT$8,200)`). Print=web text multiset diff 0. 15b shared verifier rc=1/1, same as builder (D27 diagnostic). P8 lines 167→167, footer slack 38.9px, unchanged. P8 page eyeballed clean; answer 141 reads `NT$4,100이에요(정가 NT$8,200).` in full, in-box.
+- **Unmoved proof:** p1–p7 SVG SHA-256 (first 16) identical to builder `deliverables.json` pins; only `p8-test.svg` changed (`2d3abfb19b0f3817` → `4ea737e0538feff4`). No other edition touched; no commit/push; scratch not cleared.
+- **Closer:** copy the fix originals (patched print/web PDFs + `logs/2026-w45-zh-tw-ko/2026-w45-zh-tw-ko.text.md.new`), never re-run webpdf; update `issues/` `.md` `pdfBytes`/`pdfSha256` to the §14 fix values when landing. Fix report: `hidden_files/d5-redo/FAMILY-W45-ZH-TW-FIX.md`.

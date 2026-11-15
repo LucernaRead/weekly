@@ -1,0 +1,37 @@
+GATES-SUMMARY 2026-w45-zh-tw-ko (patched rebuild)
+run: TOTAL 150 (see run.log)
+gates PASS=17 FAIL=2 (16 numbered + D18 + D37; 15a REFLOW per D30, 15b D27 diagnostic)
+GATE 1: PASS run TOTAL 150, 0 FLOW, 0 HEAD
+GATE 2: PASS head_check 0 defects
+GATE 3: PASS d5 census PASS (latin 0, cyrillic 0, curly-in-CJK 0)
+GATE 4: PASS render RC=0, print PDF written
+GATE 5: PASS webpdf RC=0, web 2121041 B <7MB
+GATE 6: PASS occlusion selftest OK, 0 flags
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+GATE 9: PASS freeze baseline 8/8
+GATE 10: PASS freeze diff vs BASE: added CJK 0 (strict-cjk)
+GATE 11: PASS spill 0 (0 SPILL)
+GATE 12: PASS boxtitle 0 DEFECT (BOXTITLE 2026-w45-zh-tw-ko: 47 titles, 1108 body lines, 0 DEFECT)
+GATE 13: PASS edge 0 TOUCH 0 NEAR (EDGE_SCAN 2026-w45-zh-tw-ko: 8 pages, 0 TOUCH, 0 NEAR)
+GATE 14: PASS creambox PASS 0 defects (selftest OK)
+GATE 15 print=web: PASS multiset diff 0
+GATE 15c: FAIL native verifier rc=1
+GATE 15a: FAIL multiset=8 native_rc=1 difflines=98
+GATE 15: FAIL print=web rc=0 multiset=8 native_rc=1
+GATE 16: PASS census_quotes 0 defective
+GATE D18: PASS masthead gaps >0 (see measure-p1.log)
+GATE D37: PASS no P1 line crosses right-box edge (see measure-p1.log)
+--- P8 ---
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+--- creambox P8 rows/slack ---
+totals: {'defects': 0, 'observes': 0, 'elements_base': 3120, 'elements_patch': 6886, 'lines_base': 1014, 'lines_patch': 1014, 'lines_diff': 8, 'moved': 169}
+p8: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 644, 'last_baselines': [2512.0, 2526.5, 2526.5, 2540.5, 2555.1, 2555.1], 'last_strings': ['39. 金色 — 푸룽의 모래는 황금빛이에요.', '80. b — 踩街 — 분장하고 거리를 행진하는 것이에요.', '120. C — 여행 박람회는 월요일 11월 9일까지 이어져요.', '40. 侏羅紀世界 — 쥬라기 월드는 영화 캐릭터 중 하나예요.', '81. c — 南瓜桶 — 간식을 담는 호박 바구니예요.', '121. A — 강철 축제는 11월 22일까지 열려요.'], 'max_ink_bottom': 2557.1, 'slack_to_footer_rule_2596': 38.9, 'slack_to_page_bottom_2700': 142.9}, 'patch': {'n_flow_elements': 2592, 'last_baselines': [2555.1, 2555.1, 2555.1, 2555.1, 2555.1, 2555.1], 'last_strings': [' ', '22', '일까지', ' ', '열려요', '.'], 'max_ink_bottom': 2557.1, 'slack_to_footer_rule_2596': 38.9, 'slack_to_page_bottom_2700': 142.9}, 'lines_base': 167, 'lines_patch': 167}
+--- text.md ---
+whitespace-stripped char multiset diff: 8 {'T': 2, '$': 2, '원': -2, 'N': 2}
+15a difflines: 98
+--- files ---
+print: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-ko/Lucerna-VOL2-KO.pdf 12454880 B
+web: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-ko/2026-w45-zh-tw-ko.web.pdf 2121041 B
+text.md: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/logs/2026-w45-zh-tw-ko/2026-w45-zh-tw-ko.text.md.new 53965 B

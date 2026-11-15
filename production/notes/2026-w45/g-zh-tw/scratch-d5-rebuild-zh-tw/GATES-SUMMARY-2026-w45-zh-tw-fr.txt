@@ -1,0 +1,37 @@
+GATES-SUMMARY 2026-w45-zh-tw-fr (patched rebuild)
+run: TOTAL 150 (see run.log)
+gates PASS=19 FAIL=0 (16 numbered + D18 + D37; 15a REFLOW per D30, 15b D27 diagnostic)
+GATE 1: PASS run TOTAL 150, 0 FLOW, 0 HEAD
+GATE 2: PASS head_check 0 defects
+GATE 3: PASS d5 census PASS (latin 0, cyrillic 0, curly-in-CJK 0)
+GATE 4: PASS render RC=0, print PDF written
+GATE 5: PASS webpdf RC=0, web 1889159 B <7MB
+GATE 6: PASS occlusion selftest OK, 0 flags
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+GATE 9: PASS freeze baseline 8/8
+GATE 10: PASS freeze diff vs BASE: added CJK 0 (strict-cjk)
+GATE 11: PASS spill 0 (0 SPILL)
+GATE 12: PASS boxtitle 0 DEFECT (BOXTITLE 2026-w45-zh-tw-fr: 40 titles, 457 body lines, 0 DEFECT)
+GATE 13: PASS edge 0 TOUCH 0 NEAR (EDGE_SCAN 2026-w45-zh-tw-fr: 8 pages, 0 TOUCH, 0 NEAR)
+GATE 14: PASS creambox PASS 0 defects (selftest OK)
+GATE 15 print=web: PASS multiset diff 0
+GATE 15c: PASS native verifier ADOPT (all pages)
+GATE 15a: REFLOW (accepted, D30) difflines=138 multiset=0 native=ADOPT
+GATE 15: PASS print=web multiset 0 + 15a REFLOW (D30) + 15c native ADOPT
+GATE 16: PASS census_quotes 0 defective
+GATE D18: PASS masthead gaps >0 (see measure-p1.log)
+GATE D37: PASS no P1 line crosses right-box edge (see measure-p1.log)
+--- P8 ---
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+--- creambox P8 rows/slack ---
+totals: {'defects': 0, 'observes': 0, 'elements_base': 2885, 'elements_patch': 3306, 'lines_base': 1070, 'lines_patch': 1057, 'lines_diff': 205, 'moved': 160}
+p8: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 664, 'last_baselines': [2513.6, 2514.8, 2528.2, 2541.1, 2543.3, 2556.8], 'last_strings': ["76. 購物車 — Listez d'abord votre panier, p", '112. 泡湯 — Se baigner dans une source cha', "n'avez pas besoin.", '39. 金色 — Le sable de Fulong est doré.', '— Page 8 —', '77. B — 6 200 − 1 200 = 5 000, exactemen'], 'max_ink_bottom': 2559.8, 'slack_to_footer_rule_2596': 36.2, 'slack_to_page_bottom_2700': 140.2}, 'patch': {'n_flow_elements': 905, 'last_baselines': [2527.6, 2541.1, 2541.1, 2541.1, 2541.1, 2543.3], 'last_strings': ['77. B — 6 200 − 1 200 = 5 000, exactemen', '39. ', '金色', ' ', '— Le sable de Fulong est doré.', '— Page 8 —'], 'max_ink_bottom': 2546.3, 'slack_to_footer_rule_2596': 49.7, 'slack_to_page_bottom_2700': 153.7}, 'lines_base': 200, 'lines_patch': 189}
+--- text.md ---
+whitespace-stripped char multiset diff: 0 {}
+15a difflines: 138
+--- files ---
+print: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-fr/Lucerna-VOL2-FR.pdf 10666358 B
+web: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-fr/2026-w45-zh-tw-fr.web.pdf 1889159 B
+text.md: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/logs/2026-w45-zh-tw-fr/2026-w45-zh-tw-fr.text.md.new 52345 B

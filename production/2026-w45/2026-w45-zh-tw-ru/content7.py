@@ -4,17 +4,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-tw-ru/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P7 · language focus
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("語言 · Языковой фокус", "Lucerna", "語言聚焦 · 三個級別,三個主題 · Три уровня, три темы")
+p.band("語言　Языковой фокус", "Lucerna", "語言聚焦　三個級別,三個主題　Три уровня, три темы")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 展會的話 · Слова о ярмарке", 24)
+a.head("A2　展會的話　Слова о ярмарке", 24)
 a.para("Четыре полезных слова этой недели: 旅展 (туристическая ярмарка), 攤位 (стенд), 集章 (сбор печатей) и 吉祥物大遊行 (парад маскотов). Выучите их — и вся ярмарка станет понятной.", 21.5)
 a.glossline("Четыре слова о ярмарке: 旅展, 攤位, 集章, 吉祥物大遊行.")
 a.para("旅展 — сокращение от 旅行展覽會 (туристическая выставка). 攤位 — стенд внутри ярмарки; на тайбэйской их 1 600. 集章 — сбор печатей: соберите все шесть — и получите приз.", 21.5)
@@ -31,7 +31,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 球賽與節氣 · Игры и сезоны", 24)
+b.head("B1　球賽與節氣　Игры и сезоны", 24)
 b.para("Спорт и сезоны делят заголовки этой недели. Сгруппируйте слова — и они запомнятся: победа （封王、完封） и зима （立冬、進補）.", 21.5)
 b.glossline("Сгруппируйте слова: победа (封王/完封), зима (立冬/進補).")
 b.para("封王 означает завоевание чемпионства; 完封 означает сухую игру — соперник не набрал ни одного очка. 立冬 — солнечный термин, начинающий зиму; 進補 — питательная горячая еда перед холодными месяцами.", 21.5)
@@ -48,7 +48,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 港台說法 · Местная речь", 24)
+c.head("B2　港台說法　Местная речь", 24)
 c.para("Тайвань и Гонконг говорят по-своему. На этой неделе: 打卡 (отметка с фото), 討糖 (выпрашивание угощений), 踩街 (шествие по улицам в костюмах) и 泡湯 (купание в горячем источнике).", 21.5)
 c.glossline("Четыре местных слова из этого номера: 打卡, 討糖, 踩街, 泡湯.")
 c.para("打卡 начиналось как отметка на работе, а на ярмарке — публикация фото «я был здесь». 討糖 — слова детей в магазинах на Хэллоуин; 踩街 — сам парад в костюмах; 泡湯 — осенняя ванна в горячем источнике.", 21.5)
@@ -70,44 +70,44 @@ errs = [
     ("「立冬就是冬至」", "→「立冬是冬天開始,冬至是白天最短的一天」", "Лидун начинает зиму, а солнцестояние — самый короткий день."),
     ("「金融科技週在台北開幕」", "→「金融科技週在香港開幕」", "Проверьте город: финтех-неделя — в Гонконге, не в Тайбэе."),
 ]
-eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.0, CW - 44)) * 26.52 for r in errs)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易錯診所 · Клиника ошибок", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易錯診所　Клиника ошибок", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
-    yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
+    yy3 = p.para(bx + 22, yy3 + 20, en, 19.0, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「先去集章，再去看表演。」 — 先…再…: сначала X, потом Y. Придумайте своё: 先比價，再結帳 (сначала сравните цены, потом платите)."
 wcn = "Конструкция 先…再… — сначала X, потом Y. Составьте своё предложение."
-wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 19.5, CW - 44)) * 29 + 28
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本週句式 · Конструкция недели", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本週句式　Конструкция недели", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
+p.para(bx + 22, yy3 + 20, wcn, 19.5, "sans", False, GREY, CW - 44, 1.42)
 ly = wy + wh + 12
 lt = "「編輯好:上週我去天母討糖,拿到一顆很大的糖果!這週我想去旅展看吉祥物大遊行,還想集滿6大綠道的章。——台北小讀者(編輯範例)」"
 lcn = "Пример от редакции — не настоящее письмо. VOL.1 обещал настоящие письма и лучшие сочинения с 8-й страницы с этого номера, но пригодного не поступило: пример остаётся — пишите нам!"
 lt2 = "延期披露:VOL.1曾預告本期起刊登真實讀者來信和第8版最佳作文;截至截稿,本報未收到可刊登的真實來信與投稿,因此本期仍刊登編輯範例,並繼續公開徵集。你的來信,下一期見。"
-lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lt2, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 36
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lt2, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 19.5, CW - 44)) * 29 + 36
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "讀者園地 · Уголок читателя", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "讀者園地　Уголок читателя", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 21, lt2, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
-p.para(bx + 22, yy3 + 20, lcn, 20, "sans", False, GREY, CW - 44, 1.42)
+p.para(bx + 22, yy3 + 20, lcn, 19.5, "sans", False, GREY, CW - 44, 1.42)
 col3_end = ly + lh
 print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本週金句 · Фразы недели — слово в слово из статей этого номера", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本週金句　Фразы недели — слово в слово из статей этого номера", 27, "sans", True, OLIVE)
 quotes = [
     ("「用手機轉帳、掃碼付款、網上買保險，都是金融科技」", "Плати телефоном, сканируй для оплаты, покупай страховку онлайн — это и есть финтех.", "Страница 1"),
     ("「123個國家及城市、1,600個攤位」", "123 страны и города, 1 600 стендов.", "Страница 1"),
@@ -127,9 +127,9 @@ for i, (q, en, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 138 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期預告 · На следующей неделе (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "下週三雙11,你買了什麼?下週一旅展最後一天直擊,高雄鋼雕藝術節展到11月22日,還有你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期預告　На следующей неделе (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "下週三雙11,你買了什麼?下週一旅展最後一天直擊,高雄鋼雕藝術節展到11月22日,還有你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-lang.svg")

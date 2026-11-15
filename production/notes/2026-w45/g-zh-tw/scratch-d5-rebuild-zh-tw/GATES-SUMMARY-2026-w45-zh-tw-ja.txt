@@ -1,0 +1,37 @@
+GATES-SUMMARY 2026-w45-zh-tw-ja (patched rebuild)
+run: TOTAL 150 (see run.log)
+gates PASS=19 FAIL=0 (16 numbered + D18 + D37; 15a REFLOW per D30, 15b D27 diagnostic)
+GATE 1: PASS run TOTAL 150, 0 FLOW, 0 HEAD
+GATE 2: PASS head_check 0 defects
+GATE 3: PASS d5 census PASS (latin 0, cyrillic 0, curly-in-CJK 0)
+GATE 4: PASS render RC=0, print PDF written
+GATE 5: PASS webpdf RC=0, web 2511546 B <7MB
+GATE 6: PASS occlusion selftest OK, 0 flags
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+GATE 9: PASS freeze baseline 8/8
+GATE 10: PASS freeze diff vs BASE: added CJK 0 (strict-cjk)
+GATE 11: PASS spill 0 (0 SPILL)
+GATE 12: PASS boxtitle 0 DEFECT (BOXTITLE 2026-w45-zh-tw-ja: 20 titles, 628 body lines, 0 DEFECT)
+GATE 13: PASS edge 0 TOUCH 0 NEAR (EDGE_SCAN 2026-w45-zh-tw-ja: 8 pages, 0 TOUCH, 0 NEAR)
+GATE 14: PASS creambox PASS 0 defects (selftest OK)
+GATE 15 print=web: PASS multiset diff 0
+GATE 15c: PASS native verifier ADOPT (all pages)
+GATE 15a: REFLOW (accepted, D30) difflines=128 multiset=0 native=ADOPT
+GATE 15: PASS print=web multiset 0 + 15a REFLOW (D30) + 15c native ADOPT
+GATE 16: PASS census_quotes 0 defective
+GATE D18: PASS masthead gaps >0 (see measure-p1.log)
+GATE D37: PASS no P1 line crosses right-box edge (see measure-p1.log)
+--- P8 ---
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+--- creambox P8 rows/slack ---
+totals: {'defects': 0, 'observes': 0, 'elements_base': 2786, 'elements_patch': 3857, 'lines_base': 987, 'lines_patch': 985, 'lines_diff': 87, 'moved': 188}
+p8: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 642, 'last_baselines': [2526.5, 2526.5, 2526.5, 2555.1, 2555.1, 2555.1], 'last_strings': ['39. 金色 — 福隆の砂は金色。', '80. b — 踩街 — 仮装して街をパレードすること。', '120. C — 旅展は11月9日（月）まで開催。', '40. 侏羅紀世界 — ジュラシック・ワールドは映画キャラクターの一つ。', '81. c — 南瓜桶 — お菓子入れのパンプキンバケツ。', '121. A — 鉄の彫刻祭は11月22日まで。'], 'max_ink_bottom': 2558.1, 'slack_to_footer_rule_2596': 37.9, 'slack_to_page_bottom_2700': 141.9}, 'patch': {'n_flow_elements': 1299, 'last_baselines': [2555.1, 2555.1, 2555.1, 2555.1, 2555.1, 2555.1], 'last_strings': ['121. A — ', '鉄の彫刻祭は', '11', '月', '22', '日まで。'], 'max_ink_bottom': 2558.1, 'slack_to_footer_rule_2596': 37.9, 'slack_to_page_bottom_2700': 141.9}, 'lines_base': 146, 'lines_patch': 146}
+--- text.md ---
+whitespace-stripped char multiset diff: 0 {}
+15a difflines: 128
+--- files ---
+print: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-ja/Lucerna-VOL2.pdf 16784370 B
+web: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-ja/2026-w45-zh-tw-ja.web.pdf 2511546 B
+text.md: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/logs/2026-w45-zh-tw-ja/2026-w45-zh-tw-ja.text.md.new 53419 B

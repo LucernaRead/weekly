@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-tw-ko/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P8 · test & keys
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("測驗與答案 · 시험과 정답", "Lucerna", "第 8 版 · 本週大測驗 + 全部答案 · 이번 주 시험과 모든 정답")
+p.band("測驗與答案　시험과 정답", "Lucerna", "第8版　本週大測驗 + 全部答案　이번 주 시험과 모든 정답")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判斷對錯 · 참 / 거짓", 21, OLIVE, 5)
+f.head("A　判斷對錯　참 / 거짓", 21, OLIVE, 5)
 f.ex("A2", "完形單選", "A", "핀테크 위크는 월요일 11월 2일에 개막해요.",
      "香港金融科技週週一(11月2日)開幕。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "입동은 11월 7일이에요, 11월 6일이 아니에요.",
@@ -26,7 +26,7 @@ f.ex("B1", "完形單選", "A", "모래 축제는 10월 26일에 마감했어요
      "福隆沙雕藝術季10月26日結束。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "B", "여행 박람회는 11월 6일 정오에 열어요, 10:00가 아니에요.",
      "旅展首日上午10點開門。(A. 對 · B. 錯)", size=13.8, gap=0)
-f.head("B · 本週大測驗 · 이번 주 종합 퀴즈", 21, OLIVE, 5)
+f.head("B　本週大測驗　이번 주 종합 퀴즈", 21, OLIVE, 5)
 f.ex("A2", "單選", "B", "메인 콘퍼런스는 11월 2~3일이에요.",
      "金融科技週主會議是哪兩天? A. 11月1、2日 · B. 11月2、3日 · C. 11月5、6日", size=13.8, gap=0)
 f.ex("A2", "單選", "C", "여행 박람회는 월요일 11월 9일까지 이어져요.",
@@ -47,7 +47,7 @@ f.ex("B2", "單選", "C", "총 개방 시간: 6 + 8 + 8 + 8 = 30시간.",
      "旅展4天總開放時數是幾小時? A. 24 · B. 28 · C. 30", size=13.8, gap=0)
 f.ex("B2", "單選", "B", "스탬프 챌린지에는 6대 그린웨이가 있어요.",
      "6大綠道集章挑戰有幾個集章點? A. 4個 · B. 6個 · C. 9個", size=13.8, gap=0)
-f.head("C · 完成句子 · 빈칸 채우기", 21, OLIVE, 5)
+f.head("C　完成句子　빈칸 채우기", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "金融科技", "핀테크: 기술로 금융 서비스를 운영하는 것이에요.",
      "用手機轉帳、掃碼付款,都是___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("A2", "完成句子", "立冬", "입동이 겨울을 시작해요.",
@@ -68,19 +68,19 @@ f.ex("B2", "完成句子", "全球擴張", "글로벌 확장: 제품을 전 세�
      "幫新創公司把產品賣到世界各地,叫___。", instr="빈칸 채우기", size=13.8, gap=0)
 f.ex("B2", "完成句子", "人工智慧", "금융 안의 AI는 人工智慧＋예요.",
      "銀行、投資、保險用___看數據、抓風險。", instr="빈칸 채우기", size=13.8, gap=0)
-f.head("D · 讀一讀,答一答 · 읽고 답하기", 21, OLIVE, 5)
+f.head("D　讀一讀,答一答　읽고 답하기", 21, OLIVE, 5)
 f.para("阿哲住在台北。週五(11月6日)中午12點,他去南港展覽館看旅展,下午2點看了吉祥物大遊行。週六是立冬,他和家人吃薑母鴨。週日他又去旅展,買了一組11月8日限定的探索廚房自助餐券,4張一共4,100元,準備帶家人去吃自助餐。", 15, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "그는 금요일 정오에 여행 박람회에 가요.",
      "阿哲週五中午去哪裡? A. 大巨蛋 · B. 南港展覽館 · C. 駁二", size=13.8, gap=0)
 f.ex("B1", "單選", "B", "퍼레이드는 14:00에 있어요.",
      "吉祥物大遊行在週五幾點? A. 12:00 · B. 14:00 · C. 19:00", size=13.8, gap=0)
-f.ex("B1", "單選", "A", "4장 세트 쿠폰은 4,100원이에요(정가 8,200원).",
+f.ex("B1", "單選", "A", "4장 세트 쿠폰은 NT$4,100이에요(정가 NT$8,200).",
      "一組探索廚房自助餐券4張一共多少錢? A. 4,100元 · B. 8,200元 · C. 1,600元", size=13.8, gap=0)
 f.ex("B1", "單選", "A", "그는 토요일에 입동 전골로 생강 오리를 먹어요.",
      "阿哲週六和家人吃什麼? A. 薑母鴨 · B. 冰品 · C. 生魚片", size=13.8, gap=0)
 f.ex("B2", "單選", "A", "순서: 박람회, 그다음 입동 전골, 그다음 뷔페용 쿠폰 세트예요.",
      "這三天他的順序是? A. 先看旅展,再吃薑母鴨,再買餐券去吃自助餐 · B. 先吃自助餐,再看旅展 · C. 先吃薑母鴨,再看旅展,再買券", size=13.8, gap=0)
-f.head("E · 情景說話 · 상황 말하기", 21, OLIVE, 5)
+f.head("E　情景說話　상황 말하기", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "여행 박람회는 금요일 정오에 열어요.",
      "— 旅展哪天開? — 週五___開幕。(A. 中午12點 · B. 晚上7點)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "입동은 겨울의 첫 절기예요.",
@@ -93,7 +93,7 @@ f.ex("B1", "完形單選", "A", "마스코트 퍼레이드는 매일 14:00에 �
      "— 吉祥物大遊行每天幾點? — 下午___點。(A. 2 · B. 7)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "A", "먼저 가격을 비교하고, 그다음 결제하세요: 先比價，再結帳.",
      "— 雙11怎麼買才聰明? — 先___，再結帳。(A. 比價 · B. 亂買)", size=13.8, gap=0)
-f.head("F · 寫一寫 · 쓰기", 21, OLIVE, 5)
+f.head("F　寫一寫　쓰기", 21, OLIVE, 5)
 MODELO = ("旅展從11月6日到11月9日。我想週六去南港展覽館,先看吉祥物大遊行,再去集章。"
           "立冬那天,我想和家人吃薑母鴨,幫身體進補。"
           "旅展有1,600個攤位,我想慢慢逛,不要趕時間。"
@@ -107,20 +107,20 @@ f.para("모범 답안: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · 모든 정답과 해설 — 페이지 순서대로, 문제마다 짧은 해설과 함께", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "모든 해설은 한국어 · ✓ = 쓰기 모범 답안", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　모든 정답과 해설 — 페이지 순서대로, 문제마다 짧은 해설과 함께", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "모든 해설은 한국어　✓ = 쓰기 모범 답안", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— 제 {pg} 면 —", 12.8, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
+    af.para(f"— 제 {pg} 면 —", 13.0, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":
             txt = f"{e_['n']}. ✓ {e_['note']}"
-        af.para(txt, 12.8, "sans", False, INK, lh=1.12, gap=1, split=False)
+        af.para(txt, 13.0, "sans", False, INK, lh=1.12, gap=1, split=False)
 af.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-test.svg")

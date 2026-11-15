@@ -72,6 +72,7 @@ Two separate AI strings were both translated (the zh-cn content8:62 AI-variant t
 - **Readers' corner:** frozen Traditional disclosure intact (延期披露…你的來信,下一期見。) + Russian disclosure stating no genuine letters exist + explicit open invitation in Russian ("Пример от редакции — не настоящее письмо. VOL.1 обещал настоящие письма и лучшие сочинения с 8-й страницы с этого номера, но пригодного не поступило: пример остаётся — пишите нам!"). The frozen example letter itself (台北小讀者) is untouched target text.
 - **Residual-Latin adjudication:** full Latin-token inventory over the rendered text (50 distinct tokens): every remaining Latin token adjudicates to one of: (i) exercise/section letters (A–F, a–d) and frame variables (X, Y); (ii) frozen target-text proper noun/theme/title (Fintech Nexus: Bridging the World, Building the Future; SUPER STAGE; SOLID TIDES; JUMP; Trick or Treat; CTBC; TSNA; MVP; ITF; StartmeupHK; the "x" in "FinTech Week x StartmeupHK"); (iii) verbatim Commons credit (Photo: … — CC0 / Public domain (Wikimedia Commons)); (iv) masthead/footer/label (Lucerna, VOL.2, Страница N из 8, NT$ currency code, FAQ source name). No English explanation residue remains (checked strings include "Explanations in English", "This week", "Word of the week", "Quick quiz", "Did you get it", "Fill in", "Over to you", "Work it out", "Practice example", "All notes in English", "Model answer", "Open task", "Notes", "Answer keys", "Language focus", "Deep read", "Test & keys", "Readers' corner", "Phrases of the week", "Next week" — no hits).
 - **Cards eyeballed:** all 8 cards viewed page by page — no overflow, no overlap, no footer collision, badge/footers/gloss boxes/fixed boxes/chart labels/keys all clean. P8 keys end well above the footer rule; P7 teaser band ends 2553.36, clear of the 2580 rule. Non-blocking note: P7 B1 glossline/paragraph show the core typesetter's own fullwidth-paren spacing (e.g. "（封王/完封） ," — the identical pattern renders in the core's English strings too); inherited behavior, not a defect introduced by this build.
+- **D5 rebuild (2026-11-14):** 18/19 gates green; gate 11 spill is a pre-existing baseline-identical residual (P3 +0.20px, accepted per PLAN L223 precedent). Gate 15a REFLOW (accepted, D30) — multiset diff 0, native verifier ADOPT.
 
 ## 6. Coordinator additional check (2026-10-28, rendered-output sweep + Gate 10 repoint)
 
@@ -93,8 +94,8 @@ python3 render.py   # cards + print/web PDFs
 
 ## 8. PDF pins (delivered files)
 
-- Print: Lucerna-VOL2-RU.pdf — 8 pages, 13,595,492 bytes, SHA-256 829aa69964ead07542de1471b93cc26a386dd03673918d215613416524a1edaf
-- Web: Lucerna-VOL2-RU-web.pdf — 8 pages, 3,479,333 bytes (< 10 MB), SHA-256 18977332a09cff97bbc0f2869951bb3cb5a632a2be076f259d555d7fb9b21138
+- Print: Lucerna-VOL2-RU.pdf — 8 pages, 11,229,253 bytes, SHA-256 170e0e97019a066286b71c9d8993e0f9ca834b6be5a037761eb562cc2739d5b4
+- Web: Lucerna-VOL2-RU-web.pdf — 8 pages, 2,105,259 bytes (< 10 MB), SHA-256 6b2f0dfcc103f256ccc720713cd252f124554743d944f727ba5ddc55aaa35569
 - Cards: 8 PNGs, each 1950×2700 RGB.
 
 ## 9. Facts as finalized in the core — unchanged

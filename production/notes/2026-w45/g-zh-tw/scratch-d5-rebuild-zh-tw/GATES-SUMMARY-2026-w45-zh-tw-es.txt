@@ -1,0 +1,37 @@
+GATES-SUMMARY 2026-w45-zh-tw-es (patched rebuild)
+run: TOTAL 150 (see run.log)
+gates PASS=19 FAIL=0 (16 numbered + D18 + D37; 15a REFLOW per D30, 15b D27 diagnostic)
+GATE 1: PASS run TOTAL 150, 0 FLOW, 0 HEAD
+GATE 2: PASS head_check 0 defects
+GATE 3: PASS d5 census PASS (latin 0, cyrillic 0, curly-in-CJK 0)
+GATE 4: PASS render RC=0, print PDF written
+GATE 5: PASS webpdf RC=0, web 1888333 B <7MB
+GATE 6: PASS occlusion selftest OK, 0 flags
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+GATE 9: PASS freeze baseline 8/8
+GATE 10: PASS freeze diff vs BASE: added CJK 0 (strict-cjk)
+GATE 11: PASS spill 0 (0 SPILL)
+GATE 12: PASS boxtitle 0 DEFECT (BOXTITLE 2026-w45-zh-tw-es: 40 titles, 461 body lines, 0 DEFECT)
+GATE 13: PASS edge 0 TOUCH 0 NEAR (EDGE_SCAN 2026-w45-zh-tw-es: 8 pages, 0 TOUCH, 0 NEAR)
+GATE 14: PASS creambox PASS 0 defects (selftest OK)
+GATE 15 print=web: PASS multiset diff 0
+GATE 15c: PASS native verifier ADOPT (all pages)
+GATE 15a: REFLOW (accepted, D30) difflines=274 multiset=0 native=ADOPT
+GATE 15: PASS print=web multiset 0 + 15a REFLOW (D30) + 15c native ADOPT
+GATE 16: PASS census_quotes 0 defective
+GATE D18: PASS masthead gaps >0 (see measure-p1.log)
+GATE D37: PASS no P1 line crosses right-box edge (see measure-p1.log)
+--- P8 ---
+GATE 7: PASS p8 extract 150/150
+GATE 8: PASS p8 compare CLEAN (CLEAN [] [] [])
+--- creambox P8 rows/slack ---
+totals: {'defects': 0, 'observes': 0, 'elements_base': 2888, 'elements_patch': 3312, 'lines_base': 1045, 'lines_patch': 1034, 'lines_diff': 464, 'moved': 555}
+p8: {'page': 'p8-test.svg', 'base': {'n_flow_elements': 664, 'last_baselines': [2514.2, 2527.1, 2528.2, 2542.8, 2555.6, 2556.8], 'last_strings': ['— Página 8 —', '38. 哈瑪星 (El parque ferroviario de Hamase', 'necesites.)', '113. A (La Semana FinTech abre el lunes ', '39. 金色 (La arena de Fulong es dorada.)', '77. B (6.200 − 1.200 = 5.000, justo el p'], 'max_ink_bottom': 2559.8, 'slack_to_footer_rule_2596': 36.2, 'slack_to_page_bottom_2700': 140.2}, 'patch': {'n_flow_elements': 906, 'last_baselines': [2555.6, 2555.6, 2555.6, 2555.6, 2556.8, 2556.8], 'last_strings': ['39. ', '金色', ' ', '(La arena de Fulong es dorada.)', '77. B (6.200 − 1.200 = 5.000, justo el p', '114. B (Lidong es el 7 de noviembre, no '], 'max_ink_bottom': 2560.8, 'slack_to_footer_rule_2596': 35.2, 'slack_to_page_bottom_2700': 139.2}, 'lines_base': 174, 'lines_patch': 165}
+--- text.md ---
+whitespace-stripped char multiset diff: 0 {}
+15a difflines: 274
+--- files ---
+print: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-es/Lucerna-VOL2-ES.pdf 10665886 B
+web: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/patched/2026-w45-zh-tw-es/2026-w45-zh-tw-es.web.pdf 1888333 B
+text.md: /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-zh-tw/logs/2026-w45-zh-tw-es/2026-w45-zh-tw-es.text.md.new 52327 B

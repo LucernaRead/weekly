@@ -4,17 +4,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zh-tw-nl/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P7 · language focus
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("語言 · Taalfocus", "Lucerna", "語言聚焦 · 三個級別,三個主題 · Drie niveaus, drie onderwerpen")
+p.band("語言　Taalfocus", "Lucerna", "語言聚焦　三個級別,三個主題　Drie niveaus, drie onderwerpen")
 
 # ---- A2 column ----
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · 展會的話 · Beurswoorden", 24)
+a.head("A2　展會的話　Beurswoorden", 24)
 a.para("De beurzen van deze week geven je vier nuttige woorden: 旅展 (reisbeurs), 攤位 (stand), 集章 (stempels verzamelen) en 吉祥物大遊行 (mascotteparade). Leer ze één keer en alles wordt duidelijk.", 21.5)
 a.glossline("Vier beurswoorden: 旅展, 攤位, 集章, 吉祥物大遊行.")
 a.para("旅展 is een afkorting van 旅行展覽會 (reisttentoonstelling). Een 攤位 is één stand op de beurs; Taipei heeft er 1.600. 集章 betekent stempels verzamelen op vaste punten — verzamel alle zes Greenway-stempels en win een prijs.", 21.5)
@@ -31,7 +31,7 @@ a.end_report()
 
 # ---- B1 column ----
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · 球賽與節氣 · Sport & seizoenen", 24)
+b.head("B1　球賽與節氣　Sport & seizoenen", 24)
 b.para("Sport en seizoenen delen de koppen van deze week. Groepeer de woorden en ze blijven hangen: winnen （封王、完封） en winter （立冬、進補）.", 21.5)
 b.glossline("Groepeer de woorden: winnen (封王/完封), winter (立冬/進補).")
 b.para("封王 betekent het kampioenschap pakken; 完封 betekent de andere ploeg op 0 houden. 立冬 is de zonneterm waarmee de winter begint; 進補 is voedzaam heet eten vóór de koude maanden.", 21.5)
@@ -48,7 +48,7 @@ b.end_report()
 
 # ---- B2 column ----
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · 港台說法 · Lokaal taalgebruik", 24)
+c.head("B2　港台說法　Lokaal taalgebruik", 24)
 c.para("Taiwan en Hongkong hebben elk hun eigen zegswijze. Deze week: 打卡 (inchecken met een foto), 討糖 (trick-or-treaten), 踩街 (straatparade in kostuum) en 泡湯 (warmwaterbad).", 21.5)
 c.glossline("Vier lokale woorden uit dit nummer: 打卡, 討糖, 踩街, 泡湯.")
 c.para("打卡 begon als inklokken op het werk, maar op een beurs of festival betekent het een foto plaatsen: 'Ik was hier'. 討糖 is wat kinderen met Halloween bij winkels zeggen; 踩街 is de gekostumeerde optocht; 泡湯 is een warmwaterbad in de herfst.", 21.5)
@@ -71,21 +71,21 @@ errs = [
     ("「金融科技週在台北開幕」", "→「金融科技週在香港開幕」", "Controleer de stad: de FinTech Week opent in Hongkong, niet in Taipei."),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "易錯診所 · Foutenkliniek", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "易錯診所　Foutenkliniek", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, en in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, en, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "「先去集章，再去看表演。」 — het frame 先…再… geeft de volgorde aan: eerst X, dan Y. Maak er zelf een: 先比價，再結帳 (vergelijk eerst, betaal dan)."
 wcn = "Frame: 先…再… — eerst X, dan Y."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(wcn, "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "本週句式 · Zinspatroon", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "本週句式　Zinspatroon", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, wcn, 20, "sans", False, GREY, CW - 44, 1.42)
@@ -94,9 +94,9 @@ lt = "「編輯好:上週我去天母討糖,拿到一顆很大的糖果!這週�
 lcn = "Voorbeeldbrief — geen echte. Uitstel: VOL.1 beloofde echte brieven en pagina-8-schrijfwerk vanaf dit nummer, maar er kwam niets binnen — voorbeeld blijft, uitnodiging open. Stuur je brief in!"
 lt2 = "延期披露:VOL.1曾預告本期起刊登真實讀者來信和第8版最佳作文;截至截稿,本報未收到可刊登的真實來信與投稿,因此本期仍刊登編輯範例,並繼續公開徵集。你的來信,下一期見。"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lt2, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(lcn, "sans", False, 20, CW - 44)) * 29 + 50
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
-p.text(bx + 22, yy3 + 26, "讀者園地 · Lezershoek", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "讀者園地　Lezershoek", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, lt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 yy3 = p.para(bx + 22, yy3 + 21, lt2, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
@@ -106,8 +106,8 @@ print("P7 col3 ends", col3_end)
 
 # ---- phrases of the week (verbatim from this issue) ----
 fy = max(1712, col3_end + 44)
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "本週金句 · Zinnen van de week — woord voor woord uit de artikelen van dit nummer", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "本週金句　Zinnen van de week — woord voor woord uit de artikelen van dit nummer", 27, "sans", True, OLIVE)
 quotes = [
     ("「用手機轉帳、掃碼付款、網上買保險，都是金融科技」", "Betaal met je telefoon, scan om te betalen, koop online een verzekering — dat is fintech.", "p. 1"),
     ("「123個國家及城市、1,600個攤位」", "123 landen en steden, 1.600 stands.", "p. 1"),
@@ -127,9 +127,9 @@ for i, (q, en, pg) in enumerate(quotes):
 
 # ---- next week ----
 py = fy + 66 + 4 * 138 + 18
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "下期預告 · Volgende week (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "下週三雙11,你買了什麼?下週一旅展最後一天直擊,高雄鋼雕藝術節展到11月22日,還有你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "下期預告　Volgende week (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "下週三雙11,你買了什麼?下週一旅展最後一天直擊,高雄鋼雕藝術節展到11月22日,還有你們的來信和第8版最佳作文。下週見!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 print("P7 teaser ends", py + 118)
 p.foot(7)
 p.save(f"{OUT}/p7-lang.svg")

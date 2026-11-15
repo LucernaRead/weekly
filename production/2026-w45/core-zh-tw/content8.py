@@ -4,16 +4,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-zhtw-core/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ============================================================ P8 · test & keys
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("測驗與答案 · Test & keys", "Lucerna", "第 8 版 · 本週大測驗 + 全部答案 · This week's test and every answer key")
+p.band("測驗與答案　Test & keys", "Lucerna", "第8版　本週大測驗 + 全部答案　This week's test and every answer key")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · 判斷對錯 · True or false", 21, OLIVE, 5)
+f.head("A　判斷對錯　True or false", 21, OLIVE, 5)
 f.ex("A2", "完形單選", "A", "FinTech Week opens Monday, Nov 2.",
      "香港金融科技週週一(11月2日)開幕。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "Lidong is Nov 7, not Nov 6.",
@@ -26,7 +26,7 @@ f.ex("B1", "完形單選", "A", "The sand festival closed Oct 26.",
      "福隆沙雕藝術季10月26日結束。(A. 對 · B. 錯)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "B", "The travel fair opens at noon on Nov 6, not 10:00.",
      "旅展首日上午10點開門。(A. 對 · B. 錯)", size=13.8, gap=0)
-f.head("B · 本週大測驗 · The big quiz", 21, OLIVE, 5)
+f.head("B　本週大測驗　The big quiz", 21, OLIVE, 5)
 f.ex("A2", "單選", "B", "The main conference is Nov 2-3.",
      "金融科技週主會議是哪兩天? A. 11月1、2日 · B. 11月2、3日 · C. 11月5、6日", size=13.8, gap=0)
 f.ex("A2", "單選", "C", "The travel fair runs to Monday, Nov 9.",
@@ -47,7 +47,7 @@ f.ex("B2", "單選", "C", "Total opening hours: 6 + 8 + 8 + 8 = 30.",
      "旅展4天總開放時數是幾小時? A. 24 · B. 28 · C. 30", size=13.8, gap=0)
 f.ex("B2", "單選", "B", "The stamp challenge covers 6 Greenways.",
      "6大綠道集章挑戰有幾個集章點? A. 4個 · B. 6個 · C. 9個", size=13.8, gap=0)
-f.head("C · 完成句子 · Fill in", 21, OLIVE, 5)
+f.head("C　完成句子　Fill in", 21, OLIVE, 5)
 f.ex("A2", "完成句子", "金融科技", "Fintech: technology running financial services.",
      "用手機轉帳、掃碼付款,都是___。", instr="Fill in", size=13.8, gap=0)
 f.ex("A2", "完成句子", "立冬", "Lidong starts winter.",
@@ -68,7 +68,7 @@ f.ex("B2", "完成句子", "全球擴張", "Global expansion: selling products w
      "幫新創公司把產品賣到世界各地,叫___。", instr="Fill in", size=13.8, gap=0)
 f.ex("B2", "完成句子", "人工智慧", "AI inside finance is 人工智慧＋.",
      "銀行、投資、保險用___看數據、抓風險。", instr="Fill in", size=13.8, gap=0)
-f.head("D · 讀一讀,答一答 · Read and answer", 21, OLIVE, 5)
+f.head("D　讀一讀,答一答　Read and answer", 21, OLIVE, 5)
 f.para("阿哲住在台北。週五(11月6日)中午12點,他去南港展覽館看旅展,下午2點看了吉祥物大遊行。週六是立冬,他和家人吃薑母鴨。週日他又去旅展,買了一組11月8日限定的探索廚房自助餐券,4張一共4,100元,準備帶家人去吃自助餐。", 15, lh=1.3, split=False)
 f.ex("A2", "單選", "B", "He goes to the travel fair on Friday at noon.",
      "阿哲週五中午去哪裡? A. 大巨蛋 · B. 南港展覽館 · C. 駁二", size=13.8, gap=0)
@@ -80,7 +80,7 @@ f.ex("B1", "單選", "A", "He eats ginger duck for Lidong on Saturday.",
      "阿哲週六和家人吃什麼? A. 薑母鴨 · B. 冰品 · C. 生魚片", size=13.8, gap=0)
 f.ex("B2", "單選", "A", "Order: fair, then Lidong pot, then the coupon set for a buffet.",
      "這三天他的順序是? A. 先看旅展,再吃薑母鴨,再買餐券去吃自助餐 · B. 先吃自助餐,再看旅展 · C. 先吃薑母鴨,再看旅展,再買券", size=13.8, gap=0)
-f.head("E · 情景說話 · Say it in context", 21, OLIVE, 5)
+f.head("E　情景說話　Say it in context", 21, OLIVE, 5)
 f.ex("B1", "完形單選", "A", "The travel fair opens Friday at noon.",
      "— 旅展哪天開? — 週五___開幕。(A. 中午12點 · B. 晚上7點)", size=13.8, gap=0)
 f.ex("A2", "完形單選", "B", "Lidong is the first solar term of winter.",
@@ -93,7 +93,7 @@ f.ex("B1", "完形單選", "A", "The mascot parade is at 14:00 daily.",
      "— 吉祥物大遊行每天幾點? — 下午___點。(A. 2 · B. 7)", size=13.8, gap=0)
 f.ex("B2", "完形單選", "A", "Compare prices first, then pay: 先比價，再結帳.",
      "— 雙11怎麼買才聰明? — 先___，再結帳。(A. 比價 · B. 亂買)", size=13.8, gap=0)
-f.head("F · 寫一寫 · Writing", 21, OLIVE, 5)
+f.head("F　寫一寫　Writing", 21, OLIVE, 5)
 MODELO = ("旅展從11月6日到11月9日。我想週六去南港展覽館,先看吉祥物大遊行,再去集章。"
           "立冬那天,我想和家人吃薑母鴨,幫身體進補。"
           "旅展有1,600個攤位,我想慢慢逛,不要趕時間。"
@@ -107,20 +107,20 @@ f.para("Model answer: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
 # ================= keys =================
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "答案 · Answer keys — in page order, with a short English note for every item", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "All notes in English · ✓ = the writing model", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "答案　Answer keys — in page order, with a short English note for every item", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "All notes in English　✓ = the writing model", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
-    af.para(f"— Page {pg} —", 12.8, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
+    af.para(f"— Page {pg} —", 13.0, "sans", True, OLIVE, lh=1.12, gap=1, split=False)
     for e_ in by_page[pg]:
         txt = f"{e_['n']}. {e_['key']} — {e_['note']}"
         if e_["type"] == "寫作":
             txt = f"{e_['n']}. ✓ {e_['note']}"
-        af.para(txt, 12.8, "sans", False, INK, lh=1.12, gap=1, split=False)
+        af.para(txt, 13.0, "sans", False, INK, lh=1.12, gap=1, split=False)
 af.end_report()
 p.foot(8)
 p.save(f"{OUT}/p8-test.svg")

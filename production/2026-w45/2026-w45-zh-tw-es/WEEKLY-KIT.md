@@ -222,6 +222,7 @@ U+4E00–U+9FFF):
 - All 8 cards eyeballed: no overflow, no overlap, no footer collision,
   chart bars/labels fully visible, P7 readers'-corner last line fully
   inside its box, P7 teaser clear of the footer rule.
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT.
 
 ## 7. Residual-Latin adjudication (every Latin string, one by one)
 
@@ -298,16 +299,16 @@ delivered SVGs, warnings=0, exit code 0**
 
 | file | bytes | sha256 |
 |---|---|---|
-| Lucerna-VOL2-ES.pdf (print, 8 pages) | 20844689 | 243110e0b95bcf868d38e34fa27a8bc8cca8eaf52f9e14c89a8421a1ab399026 |
-| Lucerna-VOL2-ES-web.pdf (web, 8 pages) | 3515785 | 7c6f77e053d165a349562ed5c0b4571d310e9dfe5f6b2ed9590890d92efb4595 |
-| svg/p1-front.svg | 251290 | c1ec15215fbd54699184e3e79cb093737829eb1d4dfc1c1c7f7bb107ba0267d6 |
-| svg/p2-life.svg | 357535 | 2a0fc6522da4c2483d41b70fe5bcdabbeb8573db0fe55d3ac1619885f7111814 |
-| svg/p3-culture.svg | 29438 | 4ebd3ea113c6f063bf43d9015a562ccb2c613168a4459e4346327a2a05ccef3e |
-| svg/p4-sport.svg | 221863 | 98560a64e4251c6a0893e37e3c82a499f89ae385b58784ec2029f5eb78c47149 |
-| svg/p5-youth.svg | 741217 | 93b732d67c4c805a25053275794395f4eceae425449bb18608003e4d32650624 |
-| svg/p6-deep.svg | 29410 | 4eaed6620f92050d4d789ba0146a03afcc2a380e57664703ce99fa7538a161fc |
-| svg/p7-lang.svg | 30288 | bc54632d07eca7a2df1edd0fe537ce33bfe87bca71e82179be2c7876cafd5fff |
-| svg/p8-test.svg | 60018 | 3ac7ac37801ae5a16f62c73ad4c345bb8b7613e7f413c4c39754d92583bb6161 |
+| Lucerna-VOL2-ES.pdf (print, 8 pages) | 10665886 | eae66cad7c0cccf9f6d24498ddabe6f55ad4e370c69473851a481e6fb5c8bd70 |
+| Lucerna-VOL2-ES-web.pdf (web, 8 pages) | 1888333 | 2d86c67fee3b7fef0e0256fd3d3a749d020e402ba5f9564de95b3cf5913f6f71 |
+| svg/p1-front.svg | 271223 | c18d96f8dfede7e7f6cb0f3c1ae0b12e2b0423244c81d7f3dfc8a45735ca5985 |
+| svg/p2-life.svg | 376025 | 8e4ef91618a23886015b2a2ceda5e8554c2310feac89ce5c1e983a5b4904180b |
+| svg/p3-culture.svg | 50055 | 9fe6ef89c96812b82b00b6cc9e19b080c053337a0f01379ce61e533089b96551 |
+| svg/p4-sport.svg | 246689 | e9ee2c099d5c8acb2e48963ab4e3d9b2aa6a5fc7bbb936e145de86bcf22dc983 |
+| svg/p5-youth.svg | 762741 | 29569090c784b41375f1c80ae808ffba8c0a3d3a70f3167aec4f00a321d6ac9b |
+| svg/p6-deep.svg | 49351 | 81d340b8dcc4dc0d8a9919065890017a0421437ff966e9551e2c189010534f1d |
+| svg/p7-lang.svg | 53399 | f97588325cef4cf9749cf5a25a59a18fc2e73318b19eb7194c5f6f8cb478e670 |
+| svg/p8-test.svg | 130404 | d3896b20ba043b4b6e86136e413c63f1daa6e1a7c52ed81719e980370717b3bf |
 
 Web PDF 3,515,785 B < 10 MB. Cards are the 09:00 render of the final
 SVGs (card SHA-256 spot-checked against the eyeballed files: p1

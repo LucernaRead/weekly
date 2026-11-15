@@ -52,6 +52,7 @@ Image payloads byte-identical to core on all 8 pages (counts 1/1/0/1/1/0/0/0; P4
 - **P7 geometry**: col3 ends 1744.86 (core 1745.36), teaser ends 2542.86 (core 2543.36, footer rule at 2580 — clear); A2 column ink max 1551.35 ≤ 1560 design bottom (flow-end 1594 is trailing gap only); B1/B2 flow ends 1529.
 - **Residual-Latin adjudication**: every Latin string in the edition SVGs was listed and classified one by one. French explanation layer throughout; frozen target-text citations byte-identical to the core (event theme « Fintech Nexus: Bridging the World, Building the Future », StartmeupHK, ITF, SUPER STAGE, SOLID TIDES, Trick or Treat, JUMP, MVP, TSNA, C.C. Mercedes, Pier-2, Cathay Pacific Taipei-Tokyo, trail transliterations, NT$, VOL.2, level chips, option letters); photo credits verbatim (« Photo: Wilfredor — CC0 (Wikimedia Commons) », « Photo: CorraleH — CC0 (Wikimedia Commons) », « Photo: Bain News Service — Public domain (Wikimedia Commons) », « Photo: Benjamin Balazs — CC0 (Wikimedia Commons) »); W43-precedent « — Page N — » separators and « p. N » tags. **Zero English explanation residue** (marker scan for « Fill in », « Answer keys », « Word of the week », « Over to you », « Did you get it », « in English », « Traditional Chinese text », « English explanations », « Notes｜ », « Staff report », etc.: none present; the single « Vrai ou faux » hit is the French section head itself).
 - **Visual QA**: all 8 rendered cards eyeballed page by page — no overflow, no overlap, no footer collision, image/credit placement confirmed. Non-blocking notes: P4 title « 棒球詞卡 · Les mots du baseball » wraps to two lines (clean wrap inside the flow, no overlap, core geometry otherwise unchanged); P7-A2 flow-end 1594 vs 1560 bottom is trailing gap only (ink ends 1551.35).
+- **D5 rebuild (2026-11-14):** 19/19 gates green (16 numbered + D18 + D37) on the final patched rebuild; gate 15a REFLOW (accepted, D30) — whitespace-stripped char multiset diff 0, native verifier ADOPT.
 
 ## Fix record (all folded into `transform_fr.py`, never left as direct build-copy edits)
 
@@ -89,3 +90,9 @@ Tools evidence files: `tools/scratch/baseline-w45-zhtw` (baseline), `tools/scrat
 ## Delivery note
 
 This builder does not claim finalization (independent proofread is separate), does not post to Discord, does not send cards/PDFs into the main chat, creates no cron, and does not touch `weekly-git` pushes or `insert.py`.
+
+## D5 rebuild (2026-11-14, §1.1 + D5)
+
+- Print `Lucerna-VOL2-FR.pdf`: **10,666,358 bytes**, 8 pages, SHA-256 `e9da18917ec7d38dfb5641a4f6874df36da9e8c5e6f58d2bfb222c37fc24d9ae`.
+- Web `Lucerna-VOL2-FR-web.pdf`: **1,889,159 bytes**, 8 pages (< 7 MB), SHA-256 `3a6ab34dbbbe0b4c895fc8adbcfba671f6a9d952bae966175ca5ff0a03cd7a8b`.
+- Text `2026-w45-zh-tw-fr.text.md`: 52345 bytes, SHA-256 `0ad10d87f10fcaaea217abe0b6c90e628cf17202078de8a98caa7580bdc70528` (joiner export, D30 REFLOW — see §0 of the family build report).

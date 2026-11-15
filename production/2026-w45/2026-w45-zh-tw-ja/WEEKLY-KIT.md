@@ -134,6 +134,7 @@ The 3 error-clinic 「…」 lines are not phrases and count 1× each, as expect
 - Stray ASCII apostrophes in rendered text: edition **0** (core: 28, all in the
   English notes now replaced).
 - Zero FLOW OVERFLOW / HEAD TOO WIDE warnings in both the delivered run and Gate 10.
+- **D5 rebuild (2026-11-14):** 19/19 gates green on the final patched rebuild (round 3; P4 gloss 20.5→19.5→19.0pt fix, P5 gloss 20.5→19.5pt); gate 15a REFLOW (accepted, D30) — multiset diff 0, native verifier ADOPT.
 
 ## 8. Occlusion fixes folded into the transform
 
@@ -255,22 +256,22 @@ on the TC face.
 ## 16. Artifact pins (delivered)
 
 SVG SHA-256:
-p1-front `dc36d99206915d076365d95826e664e73a5065b64bed90177d18a51b815eaac5`,
-p2-life `45872bce8345bbaf8863e4ff3bd16df40ab069686bd51808826eff1bcc1437bd`,
-p3-culture `aa58b266ec10b54a19197f2ba8903a2dd742d920a1c3eb4d9661f4c3a0634ce4`,
-p4-sport `701bd92da8f101e3a8d8296bc468c90422d30a56027a35edd2e2275a13b749d1`,
-p5-youth `326b641e72cc71c816345ab891457aa6cd3ba1edb97924461727307939fbb9e9`,
-p6-deep `9970560b86c78ba1550985495910d203767ba8a77821099a27f590f7c91d2b29`,
-p7-lang `e07438a80eccc83423562bbd9155744e2533bdb7d6d077f24d8c78c687ffd9c3`,
-p8-test `d0f58c06a5f7cb6b45f9a070932d06031e16d9449ae4192a6c647c0ddccedc1e`.
+p1-front `05af8ee0a8f01d4202858e392ff00349690fb9033b47c2812675b83d78bb1ccf`,
+p2-life `447bbdd65cf624de76e8f816ac5b89040d8c605eeafefc2b1c33b69098ef669c`,
+p3-culture `7e02f7e71de186c5dd211c64afcb09469e03ddaad60041f77dc2f04fc336f811`,
+p4-sport `5111a131e37fbf3699566cae77af8c75128ba2c4ab1e21aee86d45a237333892`,
+p5-youth `87a67c98faea5cb6144283f5e7a0b34bcc92ddca170757e8812e5170dc1af52d`,
+p6-deep `7fdd8ec1c43e4a6cb1bb943318d6030c8a96d76d3ed795f447305f394bf6bf70`,
+p7-lang `03277a69d879a55fa1e7c59b827740117852925c20c6de82fcf3bf8b8456cb4a`,
+p8-test `7530a925a2928a2ccc7b2ce9aae80ce5fe04a082e1e0e9062400f2625297f168`.
 
 Card PNG bytes (all 1950×2700): p1 1,131,378; p2 1,270,402; p3 1,072,967;
 p4 1,044,850; p5 1,337,283; p6 945,176; p7 1,088,820; p8 1,291,502.
 
-Print PDF `Lucerna-VOL2.pdf`: **17,606,366 bytes**, 8 pages,
-SHA-256 `2a65419a5a206153b2ca8926a6a81c03b3fa8e3a9a72afdf7617d0b62630e945`.
-Web PDF `Lucerna-VOL2-web.pdf`: **3,309,173 bytes**, 8 pages (< 10 MB),
-SHA-256 `eebf0102e4ad37c39a90d50fce831842b4fcae9b2e22a02bcd7d44c5394b189f`.
+Print PDF `Lucerna-VOL2.pdf`: **16,784,370 bytes**, 8 pages,
+SHA-256 `995310a7b8000db0d41d4caa90b7d2e8a78b09ec4f269a6597d384cde8ea920f`.
+Web PDF `Lucerna-VOL2-web.pdf`: **2,511,546 bytes**, 8 pages (< 10 MB),
+SHA-256 `c4e62ee226bb776d65c92010b58c396d009ce1f682c117960665407781b90c4c`.
 
 Core SVGs re-hashed unchanged at the end (prefixes in §1 all match baseline).
 
