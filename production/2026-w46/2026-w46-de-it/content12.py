@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 38, "sans", True, ONCLOTH)  # D5 fix run1
 p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "SETTIMANA DELLA NAZIONALE　SAN MARTINO E NFL", 21, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Vedi pagina 4", 18, "sans", False, GOOSE, anchor="end")
@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　In numeri", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (la Germania ha 5 punti dopo quattro partite)", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln (la sessione di carnevale inizia alle 11.11)", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München (la partita NFL inizia domenica alle 15.30)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5 fix run1
 f.head("JETZT ÜBEN　Ora tocca a te", 25)
 f.ex("A2", "completare", "Länderspielpause", "settimana di sosta per le nazionali",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Le cinque domande che agitano la Germania.", 19, "san
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommario", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommario", 22, "sans", True, OLIVE)
 som = [
     ("S.2", "11. November & Alltag", "A2"),
     ("S.3", "St. Martin & Karneval", "A2→B1"),

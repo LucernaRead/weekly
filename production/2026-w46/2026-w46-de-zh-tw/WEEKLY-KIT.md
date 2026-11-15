@@ -64,9 +64,9 @@ build sources via `hidden_files/w46/export_textmd.py` (AST, in order).
 - Freeze diff (`tools/freeze.py diff --strict-cjk`): **exit 1, ADJUDICATED — TOTAL added CJK characters: 1,043 (all Traditional Chinese)**.
   Log: `hidden_files/w46/de-zh-tw-freeze.txt` (+ `.json`).
 - Web/print text: `pdftotext` normalised text identical, 47,211 bytes.
-- Web PDF `Die-Lucerna-VOL3-ZH-TW-web.pdf` 2,038,435 bytes (< 7 MB); print
-  PDF `Die-Lucerna-VOL3-ZH-TW.pdf` 16,633,773 bytes (local print master;
-  the repo ships the web PDF as `<slug>.pdf`).
+- Web PDF `2026-w46-de-zh-tw.web.pdf` 1,394,237 bytes (< 7 MB), SHA-256 `6f3c2ef6b7555b02679fe4fc7caf0a60c8bca384535005bf19d786a158600d10`; print
+  PDF `The-Lucerna-VOL3-de-zh-tw.pdf` 4,481,705 bytes (local print master; SHA-256 `67a42ee18444d5f74b76237c2a4ecc465b627ef2218f1024deab0880fd624b0b`;
+  the repo ships the web PDF as `<slug>.pdf`)（D5 重建，2026-11-15；旧配方值 2,038,435 / 16,633,773 B 已过期，见末节 D5 记录。）
 
 ## 4. Defects fixed / notes
 
@@ -96,3 +96,15 @@ Kinsoku (wrap-level fix, CJK editions — core/zh-cn/zh-tw/ja/ko `svglib.py` onl
 All fixes were applied at the source (build-dir `content*.py` / `svglib.py` + `ABSTRACT.txt`) and fully re-rendered; no SVG/PDF was hand-edited. `.text.md` was regenerated from the source manuscript. Re-gate evidence (final artifacts, 2026-11-03): freeze/p8/occlusion via `tools/freeze.py`, `tools/p8.py`, `tools/occlusion_audit.py` (selftest OK); counts re-measured with the proofreader's `count_exercises.py` (149 numbered + writing item 150 = 150; per-page 10/18/18/18/18/18/12/38; level chips A2 57 / B1 70 / B2 14 / 8 untagged 113–120 — identical to the proofreader's `counts.json`); P6 bars 782/578/340px = 46/34/20; MUSTER 84 words; P7 golden sentences exactly 2× each; every web PDF ≤ 7 MB with `pdftotext` bytes > 0 and web/print normalised text equal; fix verifier `hidden_files/w46/de-fix/verify_fixes.py` 188 checks, 0 failures. P8 keydiff note: the measured set is [137, 138, 139, 140, 150] — 140 is the fourth E-section translation item, the same legitimate class as 137–139 (the verdict text listed [137, 138, 139, 150], omitting 140); 150 is the open-task label. Full report: `hidden_files/w46/de-fix/FIX-REPORT.md`.
 
 Gate evidence (this edition): freeze STRICT-CJK exit 1 by design, +1043 added CJK (adjudicated Traditional); p8.py CLEAN 150/150, keydiff [137, 138, 139, 140, 150]; occlusion 0 flags; web PDF 2038468 bytes, pdftotext 101973 bytes; `.text.md` 37707 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-DE-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target de --reader zh-tw --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "cjk"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-de/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_lat=435、D5_cyr=0、curly_in_cjk=0、curly_total=30。
+- run1 门禁 17/19；修复（只降字号，零文案改动）：
+- `content12.py:43–47` P1 数字盒 `f.box` 加 `tsize=21`（标题右越 25.8px，23pt；22pt 仍越 7.0px）
+- 终轮（run2）门禁 19/19 全绿：run TOTAL 150、0 warnings；head_check 0 defects；d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0（ru-reader Noto Sans 元素 958 个 >0，预期）；render/webpdf rc=0；occlusion 0 flags（自测 6 类全触发）；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138, 139, 150]，zh-cn `[]` 自比）；freeze 基线 8/8；freeze diff 新增 CJK 0、新增 Latin 字符串 393（断 run 拆分，仅记录）；spill 0；boxtitle 0 DEFECT；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（P8 行数 203->200，slack_footer 47.0->43.9px）；15a print=web 字符多重集差 0 + text.md BYTE-IDENTICAL；15b carryover 仅记录（4x '把'、4x '裏'）；15c native verifier ADOPT（0 UNEXPECTED）；census_quotes 0 defective；D18 刊头间隙 181.0px；D37 副刊头余量 287.3px。
+- 新旧 SHA：印 PDF 14,819,426 B `d12e9685a40f4af9ea87829ad78c073b0c1a2bbae7e9ddab12b93497bbca25a7` → 4,481,705 B `67a42ee18444d5f74b76237c2a4ecc465b627ef2218f1024deab0880fd624b0b`；网 PDF 1,810,020 B `efe824a3c23bf3fa082b1677fe949dcb962f935e8bd6d9111bf6912e76fce643` → 1,394,237 B `6f3c2ef6b7555b02679fe4fc7caf0a60c8bca384535005bf19d786a158600d10`；text.md 46,547 B `c9b58a1bdaeefadb3d5e8dac79e7cbb41747edde871f2f731c6b091c1e0b28a7`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-de/logs/2026-w46-de-zh-tw/GATES-SUMMARY.txt`（终轮）、`logs/2026-w46-de-zh-tw-build-run2.log`；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-de/notes/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w46-de-zh-tw.md`。

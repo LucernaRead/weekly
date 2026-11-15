@@ -1,0 +1,260 @@
+== gates 2026-w46-de-pt run2 2026-11-15T06:57:15Z ==
+--- selftests
+occlusion selftest rc=0
+creambox selftest rc=0
+head_check selftest rc=0
+--- G1 run
+P8 saved, TOTAL exercises: 150
+GATE 1-run PASS TOTAL 150 OVF=0 HDW=0
+--- G2 head_check
+HEAD CHECK PASS 0 defects
+GATE 2-head PASS rc=0
+--- G3 d5 census
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=30 curly_in_newsreader=30 noto_sans_elements=0
+CENSUS PASS
+GATE 3-census PASS rc=0
+--- G4 render
+GATE 4-render PASS build log render rc
+--- G5 webpdf
+GATE 5-webpdf PASS web=935274 B rc=0
+--- G6 occlusion
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/2026-w46-de-pt/svg: 0 flags 
+GATE 6-occlusion PASS rc=0
+--- G7 p8 extract
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/2026-w46-de-pt/svg/p8-uebungen.svg: noted set = 150 of 150 (parse: joined)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+GATE 7-p8ext PASS rc=0
+--- G8 p8 compare (core = patched zh-cn)
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/2026-w46-de-zh-cn/svg/p8-uebungen.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/2026-w46-de-pt/svg/p8-uebungen.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138, 139, 150]
+GATE 8-p8cmp PASS rc=0
+--- G9 freeze baseline
+  OK  p5-jugend.svg core daf606eea9910ec6 produced daf606eea9910ec6
+  OK  p6-vertiefung.svg core 9fe1c8e4f0d3227d produced 9fe1c8e4f0d3227d
+  OK  p7-sprache.svg core e70cbdbb7926d662 produced e70cbdbb7926d662
+  OK  p8-uebungen.svg core c8c549ef8a0ffc7f produced c8c549ef8a0ffc7f
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+GATE 9-freeze PASS rc=0
+--- G10 freeze diff vs base
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 400 (unexpected 400)
+cjk_added_total=0 latin_added_total=400
+GATE 10-fzdiff PASS added CJK=0 (must be 0); added Latin strings=400 (run-split, informational)
+--- G11 spill
+== 2026-w46-de-pt  (/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/2026-w46-de-pt)
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   BELOW +37.00px x=538.5 y=1630.7 [observe] 'JETZT ÜBEN'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   BELOW +37.00px x=731.9 y=1630.7 [observe] 'Agora pratica'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   ABOVE -38.72px x=538.5 y=1138.7 [observe] '· ausverkauft = esgotado.'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=1005.9 y=1233.2 [observe] 'B1'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=989.0 y=1263.7 [observe] 'Deutschland hat nach vier Spielen ___'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=989.0 y=1293.4 [observe] 'Punkte.'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=1005.9 y=1356.2 [observe] 'B1'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=989.0 y=1386.7 [observe] 'Am Sonntag ist auch ___: ein stiller'
+P1 box=(538.5,1177.4,422.5,416.2) bottom=1593.7
+   SIDE x=989.0 y=1416.4 [observe] 'Gedenktag.'
+P1 box=(1439.5,588.0,422.5,700.0) bottom=1288.0
+   ABOVE -20.00px x=1728.1 y=568.0 [observe] 'Ver página 4'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   BELOW +24.00px x=1439.5 y=1676.0 [observe] 'DAS WORT DER WOCHE'
+P1 box=(1439.5,1312.0,422.5,340.0) bottom=1652.0
+   ABOVE -38.00px x=1461.5 y=1274.0 [observe] 'As cinco perguntas que agitam a Alemanha.'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   BELOW +58.00px x=1658.5 y=2348.0 [observe] 'Respostas na página 8'
+P1 box=(1439.5,1874.0,422.5,416.0) bottom=2290.0
+   ABOVE -43.80px x=1439.5 y=1830.2 [observe] 'Um jogo sem espectadores. Ver página 4.'
+P2 box=(538.5,888.2,422.5,234.8) bottom=1123.0
+   ABOVE -46.48px x=538.5 y=841.7 [observe] 'leuchtet und feiert.'
+P2 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P2 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1595.0 y=168.0 [observe] '11 de novembro e o dia a dia'
+P2 box=(1439.5,553.2,422.5,327.2) bottom=880.4
+   ABOVE -45.53px x=1461.5 y=507.6 [observe] 'Deutschland.'
+P2 box=(1439.5,906.4,422.5,291.1) bottom=1197.5
+   ABOVE -45.53px x=1461.5 y=860.8 [observe] 'Stutenkerl oder Martinsmann.'
+P2 box=(1439.5,1223.5,422.5,296.6) bottom=1520.1
+   ABOVE -47.60px x=1461.5 y=1175.9 [observe] 'frases em alemão!'
+P3 box=(538.5,1323.4,422.5,205.1) bottom=1528.6
+   ABOVE -46.48px x=538.5 y=1277.0 [observe] 'dazu auf Seite 2.'
+P3 box=(1439.5,200.0,422.5,388.2) bottom=588.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P3 box=(1439.5,200.0,422.5,388.2) bottom=588.2
+   ABOVE -32.00px x=1501.2 y=168.0 [observe] 'São Martinho, carnaval e um olhar atrás'
+P3 box=(1439.5,614.2,422.5,456.7) bottom=1071.0
+   ABOVE -45.53px x=1461.5 y=568.7 [observe] 'närrisch, abends still.'
+P3 box=(1439.5,1097.0,422.5,320.1) bottom=1417.1
+   ABOVE -45.53px x=1461.5 y=1051.4 [observe] 'das Kostüm — fato'
+P3 box=(1439.5,1443.1,422.5,169.6) bottom=1612.7
+   ABOVE -48.20px x=1461.5 y=1394.9 [observe] 'frases em alemão!'
+P4 box=(989.0,416.4,422.5,175.4) bottom=591.8
+   ABOVE -46.48px x=989.0 y=369.9 [observe] 'am 24. bis 26. November zurück.'
+P4 box=(1439.5,848.9,422.5,307.1) bottom=1156.0
+   ABOVE -50.30px x=1439.5 y=798.6 [observe] 'Foto: DVIDS (Armed Forces Soccer Championship, Destin,'
+P4 box=(1439.5,848.9,422.5,307.1) bottom=1156.0
+   ABOVE -30.15px x=1439.5 y=818.7 [observe] 'Florida, 2010) — public domain'
+P5 box=(989.0,379.9,422.5,175.4) bottom=555.3
+   ABOVE -46.48px x=989.0 y=333.4 [observe] 'Mehr dazu auf Seite 4.'
+P5 box=(989.0,379.9,422.5,175.4) bottom=555.3
+   SIDE x=1461.5 y=383.1 [observe] 'In vielen Klassen werden Laternen'
+P5 box=(989.0,379.9,422.5,175.4) bottom=555.3
+   SIDE x=1461.5 y=413.6 [observe] 'für St. Martin gebastelt.'
+P5 box=(989.0,379.9,422.5,175.4) bottom=555.3
+   SIDE x=1461.5 y=477.1 [observe] 'Am 11. November: Karneval am'
+P5 box=(989.0,379.9,422.5,175.4) bottom=555.3
+   SIDE x=1461.5 y=507.6 [observe] 'Vormittag, Laternen am Abend.'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P5 box=(1439.5,200.0,422.5,327.2) bottom=527.2
+   ABOVE -32.00px x=1606.0 y=168.0 [observe] 'Lanternas, canções e escola'
+P5 box=(1439.5,553.2,422.5,426.2) bottom=979.4
+   ABOVE -45.53px x=1461.5 y=507.6 [observe] 'Vormittag, Laternen am Abend.'
+P5 box=(1439.5,1005.4,422.5,320.1) bottom=1325.5
+   ABOVE -45.53px x=1461.5 y=959.8 [observe] 'der Stern — estrela'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1124.9 [observe] 'Laterne gebastelt? Welches Lied'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1155.4 [observe] 'singen Sie im November? Schreiben'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1186.0 [observe] 'Sie zwei Sätze auf Deutsch!'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1246.5 [observe] 'Fez uma lanterna em criança? Que'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1274.9 [observe] 'canção canta em novembro? Escreva'
+P5 box=(88.0,1120.0,1323.5,300.0) bottom=1420.0
+   SIDE x=1461.5 y=1303.3 [observe] 'duas frases em alemão!'
+P6 box=(989.0,695.8,422.5,205.1) bottom=900.9
+   ABOVE -36.48px x=989.0 y=659.3 [observe] 'Debatte weiter.'
+P6 box=(989.0,695.8,422.5,205.1) bottom=900.9
+   SIDE x=1461.5 y=761.7 [observe] '27.11.'
+P6 box=(1439.5,200.0,422.5,635.5) bottom=835.5
+   ABOVE -58.00px x=1559.0 y=142.0 [observe] 'Die Lucerna'
+P6 box=(1439.5,861.5,422.5,399.9) bottom=1261.4
+   ABOVE -42.11px x=1569.5 y=819.4 [observe] 'geplant.'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1127.6 [observe] 'Dia de recordação: recordar pede silêncio'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1155.3 [observe] '— quase todos concordam. Imposto sobre'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1183.0 [observe] 'a eletricidade: quanto desce ainda está em'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1210.7 [observe] 'aberto. Ambos afetam quase todas as'
+P6 box=(88.0,1120.0,1323.5,252.0) bottom=1372.0
+   SIDE x=1461.5 y=1238.4 [observe] 'famílias.'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   BELOW +34.00px x=104.2 y=881.6 [observe] 'A2'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   BELOW +35.00px x=160.0 y=882.6 [observe] '101.'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   BELOW +35.00px x=230.0 y=882.6 [observe] 'Complete'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   ABOVE -46.48px x=88.0 y=622.9 [observe] 'gespielt.'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   SIDE x=556.5 y=697.8 [observe] 'lese, weil das Buch spannend ist.“'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   SIDE x=555.4 y=779.2 [observe] 'B1'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   SIDE x=538.5 y=809.2 [observe] 'Im November ist die Nacht ___ (lang) als der'
+P7 box=(88.0,669.4,422.5,178.2) bottom=847.6
+   SIDE x=538.5 y=838.2 [observe] 'Tag.'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   BELOW +34.00px x=555.4 y=779.2 [observe] 'B1'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   BELOW +35.00px x=610.5 y=780.2 [observe] '105.'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   BELOW +35.00px x=680.5 y=780.2 [observe] 'Complete'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   ABOVE -46.48px x=538.5 y=549.9 [observe] '— das Verb steht am Ende des Satzes.'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   SIDE x=1007.0 y=633.4 [observe] 'BEISPIELE'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   SIDE x=1007.0 y=668.4 [observe] '„Meiner Meinung nach braucht das'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   SIDE x=1007.0 y=697.8 [observe] 'Gedenken Stille.“'
+P7 box=(538.5,596.4,422.5,148.8) bottom=745.2
+   SIDE x=1007.0 y=727.2 [observe] 'die Einigung gelingt.“'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +34.00px x=1005.9 y=808.6 [observe] 'B2'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1061.0 y=809.6 [observe] '109.'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   BELOW +35.00px x=1131.0 y=809.6 [observe] 'Complete'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   ABOVE -46.48px x=989.0 y=549.9 [observe] 'fraglich, ob ...'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=614.4 [observe] 'opinião'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=670.1 [observe] 'Ich finde, dass = acho que'
+P7 box=(989.0,596.4,422.5,178.2) bottom=774.6
+   SIDE x=1461.5 y=725.7 [observe] 'Es ist fraglich, ob ... = é duvidoso que'
+P7 box=(1439.5,330.0,422.5,414.5) bottom=744.5
+   BELOW +58.00px x=1461.5 y=802.5 [observe] 'LESERBRIEFE'
+P7 box=(1439.5,330.0,422.5,414.5) bottom=744.5
+   BELOW +58.00px x=1657.2 y=802.5 [observe] 'Cartas'
+P7 box=(1439.5,760.5,422.5,552.5) bottom=1313.0
+   BELOW +56.00px x=1461.5 y=1369.0 [observe] 'NOCH EIN WORT'
+P7 box=(1439.5,760.5,422.5,552.5) bottom=1313.0
+   BELOW +56.00px x=1672.5 y=1369.0 [observe] 'Mais uma palavra'
+P7 box=(1439.5,760.5,422.5,552.5) bottom=1313.0
+   ABOVE -34.84px x=1461.5 y=725.7 [observe] 'Es ist fraglich, ob ... = é duvidoso que'
+P7 box=(1439.5,1329.0,422.5,150.0) bottom=1479.0
+   ABOVE -54.08px x=1461.5 y=1274.9 [observe] 'nenhuma carta real tinha chegado até ao'
+P7 box=(1439.5,1329.0,422.5,150.0) bottom=1479.0
+   ABOVE -26.39px x=1461.5 y=1302.6 [observe] 'fecho. Enviem-nos as vossas para VOL.4!'
+SPILL_SWEEP 2026-w46-de-pt: 32 boxes, 83 candidates, 0 SPILL, 83 OBSERVE
+GATE 11-spill PASS rc=0
+--- G12 boxtitle
+== 2026-w46-de-pt  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/patched/core-de backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w46-de/scratch-fanout-de/backup/2026-w46-de-pt
+BOXTITLE 2026-w46-de-pt: 48 titles, 243 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+GATE 12-boxtitle PASS rc=0
+--- G13 edge
+  P1: clean min_dist_pt={'top': 57.6, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P2: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 55.8}
+  P3: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P4: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.4}
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.4}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.5, 'right': 64.4}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 63.7}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 47.2}
+EDGE_SCAN 2026-w46-de-pt: 8 pages, 0 TOUCH, 0 NEAR
+GATE 13-edge PASS rc=0
+--- G14 creambox
+P8 p8-uebungen.svg: lines 229->230 slack_footer 40.3->40.3
+CREAMBOX PASS 0 defects
+GATE 14-creambox PASS rc=0
+--- G15a print=web + text.md
+textcheck print-vs-web: A=106059 chars B=106059 chars raw-diff=0 stripped-diff=0
+GATE 15a-text PASS textcheck rc=0 cmp rc=0
+--- G15b carryover (record only, D21/D22/D27)
+ERROR: no verify_textmd table for reader 'pt' yet — calibrate it from that edition's own SVG/.text.md until its residual is 0, then add it to READER_TABLES in /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/tools/verify_textmd.py
+GATE 15b RECORD-ONLY rc=2
+--- G15c native verifier (verify_de_w46, adapted paths)
+shipped WORD line present (expected): True
+WORD split lines found in new: True
+shipped duplicates explained: 6
+TRIM seen: {'old': True, 'new': False}
+TRIM plain lines seen: 0 (expect 0)
+VERDICT: ADOPT (0 UNEXPECTED)
+GATE 15c-native PASS rc=0
+--- G16 census_quotes
+    Newsreader (ok): U+201Cx30
+GRAND TOTAL defective: 0
+GATE 16-quotes PASS rc=0
+--- D18 masthead gap
+D18 2026-w46-de-pt: vol_end=360.8 slogan_end=1403.7 date_start=1459.3 gap=55.6 (PASS)
+  D18 calibration: slogan measured width=850.6, renderer-implied=857.4
+D37 2026-w46-de-pt: y=372 end=1428.5 box_left=1439.5 margin=11.0 (PASS)
+D37-ctx330 2026-w46-de-pt: y=330 end=1860.7 (full-width subtitle, info only)
+GATE D18 PASS see d18-d37.log
+--- D37 sub-masthead margin
+GATE D37 PASS see d18-d37.log
+== gates 2026-w46-de-pt run2 SCORE pass=19 fail=0 2026-11-15T06:58:33Z ==

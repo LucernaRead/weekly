@@ -12,8 +12,8 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 3　DRITTE AUSGABE", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH　CHAQUE SEMAINE　L'ALLEMAND QUE LISENT LES ALLEMANDS", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
-p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH　CHAQUE SEMAINE　L'ALLEMAND QUE LISENT LES ALLEMANDS", 16, "sans", False, GREY, anchor="middle", spacing=1.7)  # D5 fix run1 D18
+p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 16, "sans", False, GREY, anchor="end", spacing=1.7)  # D5 fix run1 D18
 p.text(975, 262, "Die Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "JOURNAL ALLEMAND　VOL.3　ÉQUIPE NATIONALE　SAINT-MARTIN　NFL", 36, "serif", True, OLIVE, anchor="middle", spacing=5.8)
 p.text(975, 372, "TEXTE EN ALLEMAND　EXPLICATIONS EN FRANÇAIS — L'ÉDITION POUR LES LECTEURS FRANCOPHONES", 16, "sans", True, OLIVE, anchor="middle")
@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 38, "sans", True, ONCLOTH)  # D5 fix run1
 p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "SEMAINE INTERNATIONALE　SAINT-MARTIN & NFL", 22, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Voir page 4", 18, "sans", False, GOOSE, anchor="end")
@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　En chiffres", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (l'Allemagne a 5 points après quatre matches)", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln (le carnaval commence à 11 h 11)", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München (le match NFL commence dimanche à 15 h 30)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5 fix run1
 f.head("JETZT ÜBEN　À toi de jouer", 25)
 f.ex("A2", "à compléter", "Länderspielpause", "semaine de trêve internationale",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Les cinq questions qui agitent l'Allemagne.", 19, "sa
 # ---- sommaire (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommaire", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "IN DIESER AUSGABE　Sommaire", 22, "sans", True, OLIVE)
 som = [
     ("S.2", "11. November & Alltag", "A2"),
     ("S.3", "St. Martin & Karneval", "A2→B1"),

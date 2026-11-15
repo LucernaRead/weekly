@@ -22,7 +22,7 @@ moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 38, "sans", True, ONCLOTH)  # D5 fix run1
 p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "INTERLANDWEEK　SINT MAARTEN EN NFL", 27, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Zie pagina 4", 18, "sans", False, GOOSE, anchor="end")
@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　In cijfers", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (Duitsland heeft 5 punten na vier wedstrijden)", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln (het carnavalsseizoen begint om 11.11 uur)", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München (de NFL-wedstrijd begint zondag om 15.30 uur)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 fix run1
 f.head("JETZT ÜBEN　Nu oefenen", 25)
 f.ex("A2", "invullen", "Länderspielpause", "interlandweek",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)

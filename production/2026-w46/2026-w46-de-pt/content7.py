@@ -95,7 +95,7 @@ yy3 = p.para(ix + 22, yy3 + 20.5, invite, 20.5, "serif", False, INK, CW - 44, 1.
 p.para(ix + 22, yy3 + 19.5, chinese, 19.5, "sans", False, GREY, CW - 44, 1.42)
 wy3 = ry + rh + 16
 p.rect(ix, wy3, CW, 150, fill=BOX)
-p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Mais uma palavra", 22, "sans", True, OLIVE)
+p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Mais uma palavra", 21, "sans", True, OLIVE)
 p.para(ix + 22, wy3 + 78, "«das Geisterspiel» (Seite 4) : ein Spiel ohne Zuschauer im Stadion. Jogo fantasma: um jogo sem espectadores.", 20.5, "serif", False, INK, CW - 44, 1.42)
 print("P7 col3 ends", wy3 + 150)
 

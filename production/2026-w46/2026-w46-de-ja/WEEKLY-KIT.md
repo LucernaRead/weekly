@@ -64,9 +64,9 @@ build sources via `hidden_files/w46/export_textmd.py` (AST, in order).
 - Freeze diff (`tools/freeze.py diff --strict-cjk`): **exit 1, ADJUDICATED — TOTAL added CJK characters: 3,276 (all Japanese script)**.
   Log: `hidden_files/w46/de-ja-freeze.txt` (+ `.json`).
 - Web/print text: `pdftotext` normalised text identical, 50,614 bytes.
-- Web PDF `Die-Lucerna-VOL3-JA-web.pdf` 1,744,916 bytes (< 7 MB); print
-  PDF `Die-Lucerna-VOL3-JA.pdf` 18,319,846 bytes (local print master;
-  the repo ships the web PDF as `<slug>.pdf`).
+- Web PDF `2026-w46-de-ja.web.pdf` 1,382,368 bytes (< 7 MB), SHA-256 `3a0f1534dfec97211668acfdbd67ff452644bec76d5b25cdfd3d5f9c36e3376c`; print
+  PDF `The-Lucerna-VOL3-de-ja.pdf` 9,001,800 bytes (local print master; SHA-256 `38e2be03ec6c309d043d4156845cf9c89bd050a90c0d8b09c08bd7ca863741bf`;
+  the repo ships the web PDF as `<slug>.pdf`)（D5 重建，2026-11-15；旧配方值 1,744,916 / 18,319,846 B 已过期，见末节 D5 记录。）
 
 ## 4. Defects fixed / notes
 
@@ -97,3 +97,15 @@ Kinsoku (wrap-level fix, CJK editions — core/zh-cn/zh-tw/ja/ko `svglib.py` onl
 All fixes were applied at the source (build-dir `content*.py` / `svglib.py` + `ABSTRACT.txt`) and fully re-rendered; no SVG/PDF was hand-edited. `.text.md` was regenerated from the source manuscript. Re-gate evidence (final artifacts, 2026-11-03): freeze/p8/occlusion via `tools/freeze.py`, `tools/p8.py`, `tools/occlusion_audit.py` (selftest OK); counts re-measured with the proofreader's `count_exercises.py` (149 numbered + writing item 150 = 150; per-page 10/18/18/18/18/18/12/38; level chips A2 57 / B1 70 / B2 14 / 8 untagged 113–120 — identical to the proofreader's `counts.json`); P6 bars 782/578/340px = 46/34/20; MUSTER 84 words; P7 golden sentences exactly 2× each; every web PDF ≤ 7 MB with `pdftotext` bytes > 0 and web/print normalised text equal; fix verifier `hidden_files/w46/de-fix/verify_fixes.py` 188 checks, 0 failures. P8 keydiff note: the measured set is [137, 138, 139, 140, 150] — 140 is the fourth E-section translation item, the same legitimate class as 137–139 (the verdict text listed [137, 138, 139, 150], omitting 140); 150 is the open-task label. Full report: `hidden_files/w46/de-fix/FIX-REPORT.md`.
 
 Gate evidence (this edition): freeze STRICT-CJK exit 1 by design, +3275 added CJK (adjudicated reader Japanese); p8.py CLEAN 150/150, keydiff [137, 138, 139, 140, 150]; occlusion 0 flags; web PDF 1751022 bytes, pdftotext 104728 bytes; `.text.md` 40519 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-DE-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target de --reader ja --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "cjk"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-de/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_lat=436、D5_cyr=0、curly_in_cjk=0、curly_total=30。
+- run1 门禁 17/19；修复（只降字号，零文案改动）：
+- `content34.py:46` + `content56.py:45` P3/P5 圣马丁词盒标题 24→22pt（右越 9.0px ×2）
+- 终轮（run2）门禁 19/19 全绿：run TOTAL 150、0 warnings；head_check 0 defects；d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0（ru-reader Noto Sans 元素 958 个 >0，预期）；render/webpdf rc=0；occlusion 0 flags（自测 6 类全触发）；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138, 139, 150]，zh-cn `[]` 自比）；freeze 基线 8/8；freeze diff 新增 CJK 0、新增 Latin 字符串 392（断 run 拆分，仅记录）；spill 0；boxtitle 0 DEFECT；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（P8 行数 188->188，slack_footer 40.2->40.2px）；15a print=web 字符多重集差 0 + text.md BYTE-IDENTICAL；15b carryover 仅记录（4x 'イ'、4x 'テ'）；15c native verifier ADOPT（0 UNEXPECTED）；census_quotes 0 defective；D18 刊头间隙 116.0px；D37 副刊头余量 255.5px。
+- 新旧 SHA：印 PDF 16,932,572 B `c2b748c5f0b69a731a2affde70b587aa2600004e7d7458ae6a9d3c2e15f3954a` → 9,001,800 B `38e2be03ec6c309d043d4156845cf9c89bd050a90c0d8b09c08bd7ca863741bf`；网 PDF 1,601,829 B `9c9b3a3643cf4b14051a58c44c3cb07ab2fd3a236cb0caaa8b3ea5efdc46d7fe` → 1,382,368 B `3a0f1534dfec97211668acfdbd67ff452644bec76d5b25cdfd3d5f9c36e3376c`；text.md 49,621 B `6d0e53aa374d6c3b8893ea3d1dae1cf62164ba4589e291acf085c3e63c6babfd`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-de/logs/2026-w46-de-ja/GATES-SUMMARY.txt`（终轮）、`logs/2026-w46-de-ja-build-run2.log`；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-de/notes/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w46-de-ja.md`。

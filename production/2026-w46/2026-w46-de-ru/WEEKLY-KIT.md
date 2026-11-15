@@ -64,15 +64,15 @@ build sources via `hidden_files/w46/export_textmd.py` (AST, in order).
 - Freeze diff (`tools/freeze.py diff --strict-cjk`): **exit 0, TOTAL added CJK characters: 0**.
   Log: `hidden_files/w46/de-ru-freeze.txt` (+ `.json`).
 - Web/print text: `pdftotext` normalised text identical, 56,396 bytes.
-- Web PDF `Die-Lucerna-VOL3-RU-web.pdf` 1,105,087 bytes (< 7 MB); print
-  PDF `Die-Lucerna-VOL3-RU.pdf` 40,640,945 bytes (local print master;
-  the repo ships the web PDF as `<slug>.pdf`).
+- Web PDF `2026-w46-de-ru.web.pdf` 1,188,960 bytes (< 7 MB), SHA-256 `9f65fb1140b4da96d9793de52a7fbe7fcead0fe06b7d066fd293bdea1e7d6c6e`; print
+  PDF `The-Lucerna-VOL3-de-ru.pdf` 3,313,508 bytes (local print master; SHA-256 `730256db624b46cf4a8132e965e761ccd1b3b05b2239f3a66b900e63958ebf0d`;
+  the repo ships the web PDF as `<slug>.pdf`)（D5 重建，2026-11-15；旧配方值 1,105,087 / 40,640,945 B 已过期，见末节 D5 记录。）
 
 ## 4. Defects fixed / notes
 
 First build: HEAD TOO WIDE on P8 A-head (“Текст с пропусками”) → “Пропуски”. First occlusion audit: 3 flags (Fragen subtitle too long → shortened; “IN DIESER AUSGABE · Содержание” → bare head; P7 word-box gloss 3 lines → shortened, measured 2 lines). Final audit: 0 flags. The verify paren-check string in the edition script was mis-authored at first (“3-е лицо, ед. число”); corrected to the actual key form “(3-е лицо ед. ч.)” — the keys themselves were always half-width.
 
-Transform: 379 replacements, CJK leaks NONE. P8 keydiff [137, 138, 139, 150] is legitimate translation re-aiming (E-section). NOTE: the local print PDF is 40,640,945 bytes — CairoSVG embeds the full CJK fonts when Cyrillic glyphs are used; the shippable web PDF is 1,105,087 bytes (< 7 MB) and the repo ships the web PDF.
+Transform: 379 replacements, CJK leaks NONE. P8 keydiff [137, 138, 139, 150] is legitimate translation re-aiming (E-section). NOTE: the local print PDF is 3,313,508 bytes — CairoSVG embeds the full CJK fonts when Cyrillic glyphs are used; the shippable web PDF is 1,188,960 bytes (< 7 MB) and the repo ships the web PDF.（D5 重建 2026-11-15 更新；旧值已过期，见末节 D5 记录。）
 
 ## 5. Honest shortfalls
 
@@ -97,3 +97,15 @@ M-2 fit accommodation (es/fr/it/nl/pt/ru): the full-form P6 gloss wraps to 5 lin
 All fixes were applied at the source (build-dir `content*.py` / `svglib.py` + `ABSTRACT.txt`) and fully re-rendered; no SVG/PDF was hand-edited. `.text.md` was regenerated from the source manuscript. Re-gate evidence (final artifacts, 2026-11-03): freeze/p8/occlusion via `tools/freeze.py`, `tools/p8.py`, `tools/occlusion_audit.py` (selftest OK); counts re-measured with the proofreader's `count_exercises.py` (149 numbered + writing item 150 = 150; per-page 10/18/18/18/18/18/12/38; level chips A2 57 / B1 70 / B2 14 / 8 untagged 113–120 — identical to the proofreader's `counts.json`); P6 bars 782/578/340px = 46/34/20; MUSTER 84 words; P7 golden sentences exactly 2× each; every web PDF ≤ 7 MB with `pdftotext` bytes > 0 and web/print normalised text equal; fix verifier `hidden_files/w46/de-fix/verify_fixes.py` 188 checks, 0 failures. P8 keydiff note: the measured set is [137, 138, 139, 140, 150] — 140 is the fourth E-section translation item, the same legitimate class as 137–139 (the verdict text listed [137, 138, 139, 150], omitting 140); 150 is the open-task label. Full report: `hidden_files/w46/de-fix/FIX-REPORT.md`.
 
 Gate evidence (this edition): freeze exit 0, added CJK 0; p8.py CLEAN 150/150, keydiff [137, 138, 139, 140, 150]; occlusion 0 flags; web PDF 1105562 bytes, pdftotext 112527 bytes; `.text.md` 45792 bytes.
+
+## D5 重建记录
+
+D5 字体修 + §1.1 样式重建，2026-11-15，builder 报告 `hidden_files/d5-redo/FAMILY-W46-DE-BUILD.md`。
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target de --reader ru --week 2026-w46`（先 `--check` 干跑），`_D5_READER = "ru"`；路由测试 `test_d5_routing.py` FAILURES: 0；fix2 保留（`_QUOTE_CLS` ×4、`fix2` ×5）。core 模板 `patched/core-de/svglib.py` 以 latin reader 装机（`--patch-core` 未跑，见家族报告 §10）。
+- 修前普查（D5 census）：D5_lat=458、D5_cyr=395、curly_in_cjk=0、curly_total=30。
+- run1 门禁 19/19（run1 即全绿，无修复）；修复（只降字号，零文案改动）：
+- 无。run1 即 19/19 全绿。
+- 终轮（run1）门禁 19/19 全绿：run TOTAL 150、0 warnings；head_check 0 defects；d5 census Latin 0 / Cyrillic 0 / curly-in-CJK 0（ru-reader Noto Sans 元素 958 个 >0，预期）；render/webpdf rc=0；occlusion 0 flags（自测 6 类全触发）；p8 extract 150/150；p8 compare CLEAN（keydiff [137, 138, 139, 150]，zh-cn `[]` 自比）；freeze 基线 8/8；freeze diff 新增 CJK 0、新增 Latin 字符串 245（断 run 拆分，仅记录）；spill 0；boxtitle 0 DEFECT；edge 0 TOUCH 0 NEAR；creambox PASS 0 defects（P8 行数 216->216，slack_footer 40.2->40.2px）；15a print=web 字符多重集差 0 + text.md BYTE-IDENTICAL；15b carryover 仅记录（4x 'дополните'、3x 'text'）；15c native verifier ADOPT（0 UNEXPECTED）；census_quotes 0 defective；D18 刊头间隙 68.8px；D37 副刊头余量 58.1px。
+- 新旧 SHA：印 PDF 3,611,393 B `4d37a0a34b087c0fbc4a3c807756d411d46c6c9a71e39a99be6787e988052099` → 3,313,508 B `730256db624b46cf4a8132e965e761ccd1b3b05b2239f3a66b900e63958ebf0d`；网 PDF 1,066,386 B `18297247599de9d826323547a5ff28b4234e5209be48c1f55266d14652ca18e4` → 1,188,960 B `9f65fb1140b4da96d9793de52a7fbe7fcead0fe06b7d066fd293bdea1e7d6c6e`；text.md 55,295 B `8e0c938c8b3f9eebc48e4b0a038b0fe305f58b1bb2794d2475eeef1ab7da2d72`（与 `issues/` 逐字节一致）。
+- 日志：`hidden_files/d5-redo/scratch-2026-w46-de/logs/2026-w46-de-ru/GATES-SUMMARY.txt`（终轮）、`logs/2026-w46-de-ru-build-run1.log`；D5 报告 `hidden_files/d5-redo/scratch-2026-w46-de/notes/g-de/scratch-d5-rebuild-de/D5-REPORT-2026-w46-de-ru.md`。

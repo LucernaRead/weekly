@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　數字看本週", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League（四輪過後德國隊 5 分）", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln（11 點 11 分狂歡季開幕）", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München（週日 15 點 30 分 NFL 開球）", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=21)  # D5 fix run1: P1 numbers-box title +25.8px over right edge at 23pt
 f.head("JETZT ÜBEN　即學即練", 25)
 f.ex("A2", "完成句子", "Länderspielpause", "國家隊比賽周",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)

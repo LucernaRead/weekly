@@ -42,7 +42,7 @@ sy3 = sy3 + sh + 26
 sh = 45 + 33 * len(words) + 30.53 * sum(len(wrap(t, "serif", False, 21.5, CW - 44)) for t in words)
 p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
-p.text(ix + 22, yy3 + 26, "MARTINSWÖRTER　Sint Maarten", 24, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "MARTINSWÖRTER　Sint Maarten", 22, "sans", True, OLIVE)
 yy3 += 52
 for t in words:
     yy3 = p.para(ix + 22, yy3 + 21, t, 21.5, "serif", False, INK, CW - 44, 1.42) + 12

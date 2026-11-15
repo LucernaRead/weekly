@@ -16,13 +16,13 @@ p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH　TODA SEMANA　O ALEMÃO QUE OS ALEM�
 p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "Die Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SEMANÁRIO ALEMÃO　VOL.3　SELEÇÃO　SÃO MARTINHO　NFL", 36, "serif", True, OLIVE, anchor="middle", spacing=11.0)
-p.text(975, 372, "TEXTOS EM ALEMÃO　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 16, "sans", True, OLIVE, anchor="middle")
+p.text(975, 372, "TEXTOS EM ALEMÃO　EXPLICAÇÕES EM PORTUGUÊS — A EDIÇÃO PARA OS LEITORES DE LÍNGUA PORTUGUESA", 15, "sans", True, OLIVE, anchor="middle")  # D5 fix run1
 p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 38, "sans", True, ONCLOTH)  # D5 fix run1
 p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "SEMANA DA SELEÇÃO　SÃO MARTINHO E NFL", 25, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Ver página 4", 18, "sans", False, GOOSE, anchor="end")
@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　Números", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (a Alemanha tem 5 pontos após quatro jogos)", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln (a sessão de carnaval começa às 11.11)", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München (o jogo da NFL começa domingo às 15.30)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 fix run1
 f.head("JETZT ÜBEN　Agora pratica", 25)
 f.ex("A2", "Completar frases", "Länderspielpause", "semana de pausa das seleções",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)

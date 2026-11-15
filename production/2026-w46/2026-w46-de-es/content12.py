@@ -16,13 +16,13 @@ p.text(975, 92, "WÖCHENTLICH AUF DEUTSCH　CADA SEMANA　EL ALEMÁN QUE LEEN LO
 p.text(RIGHT, 92, "WOCHE VOM 9. BIS 15. NOVEMBER 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "Die Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SEMANARIO ALEMÁN　VOL.3　SELECCIÓN　SAN MARTÍN　NFL", 36, "serif", True, OLIVE, anchor="middle", spacing=11.3)
-p.text(975, 372, "TEXTOS EN ALEMÁN　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 16, "sans", True, OLIVE, anchor="middle")
+p.text(975, 372, "TEXTOS EN ALEMÁN　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 15, "sans", True, OLIVE, anchor="middle")  # D5 fix run1
 p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 
 # football band
 p.rect(MX, 470, RIGHT - MX, 118, fill=CLOTH)
-p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 46, "sans", True, ONCLOTH)
+p.text(MX + 30, 524, "LÄNDERSPIELWOCHE — SERBIEN, KARNEVAL, NFL!", 38, "sans", True, ONCLOTH)  # D5 fix run1
 p.text(MX + 30, 568, "Montag bis Sonntag: Nationalelf, St. Martin, American Football — alles in einer Woche", 25, "serif", False, "#cac8ba")
 p.text(RIGHT - 30, 524, "SEMANA DE SELECCIONES　SAN MARTÍN Y NFL", 24, "sans", True, GOOSE, anchor="end")
 p.text(RIGHT - 30, 568, "Ver página 4", 18, "sans", False, GOOSE, anchor="end")
@@ -44,7 +44,7 @@ f.box("DIE WOCHE IN ZAHLEN　En cifras", [
     ("5 — Punkte hat Deutschland nach vier Spielen in der Nations League (Alemania suma 5 puntos tras cuatro partidos)", "serif", False, INK, 20.5, 1.35),
     ("11.11 — um 11.11 Uhr beginnt die Karnevalssession in Köln (el carnaval empieza a las 11.11)", "serif", False, INK, 20.5, 1.35),
     ("15.30 — um 15.30 Uhr beginnt das NFL-Spiel in München (el partido de la NFL empieza el domingo a las 15.30)", "serif", False, INK, 20.5, 1.35),
-])
+], tsize=22)  # D5 fix run1: P1 numbers-box title +10.8px over right edge at 23pt
 f.head("JETZT ÜBEN　A practicar", 25)
 f.ex("A2", "completar", "Länderspielpause", "semana de parón de selecciones",
      "Diese Woche ist ___: Die Bundesliga spielt nicht, die Nationalmannschaft spielt.", size=20.5)

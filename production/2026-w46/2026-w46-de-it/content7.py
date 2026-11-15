@@ -69,7 +69,7 @@ tb = ["11.11 Uhr = 11.11",
 tbh = 62 + sum(len(wrap(t, "serif", False, 20.5, CW - 44)) * 29.5 + 6 for t in tb) + 110
 p.rect(ix, CTOP, CW, tbh, fill=BOX)
 yy3 = CTOP + 16
-p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Attrezzi", 23, "sans", True, OLIVE)
+p.text(ix + 22, yy3 + 26, "DER WERKZEUGKASTEN　Attrezzi", 21, "sans", True, OLIVE)
 yy3 += 52
 for t in tb:
     yy3 = p.para(ix + 22, yy3 + 20.5, t, 20.5, "serif", False, INK, CW - 44, 1.42) + 6
@@ -95,7 +95,7 @@ yy3 = p.para(ix + 22, yy3 + 20.5, invite, 20.5, "serif", False, INK, CW - 44, 1.
 p.para(ix + 22, yy3 + 19.5, chinese, 19.5, "sans", False, GREY, CW - 44, 1.42)
 wy3 = ry + rh + 16
 p.rect(ix, wy3, CW, 150, fill=BOX)
-p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Ancora una parola", 22, "sans", True, OLIVE)
+p.text(ix + 22, wy3 + 40, "NOCH EIN WORT　Ancora una parola", 20, "sans", True, OLIVE)
 p.para(ix + 22, wy3 + 78, "«das Geisterspiel» (Seite 4) : ein Spiel ohne Zuschauer im Stadion. Partita fantasma: una partita senza spettatori.", 20.5, "serif", False, INK, CW - 44, 1.42)
 print("P7 col3 ends", wy3 + 150)
 
