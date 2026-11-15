@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ru-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P8 · ТЕСТ И ОТВЕТЫ =================
 CURPAGE[0] = 8
 p = BSPage4()
-p.band("ТЕСТ И ОТВЕТЫ · Test et réponses", "Lucerna", "PAGE 8 · Большой тест недели + все ответы")
+p.band("ТЕСТ И ОТВЕТЫ　Test et réponses", "Lucerna", "PAGE 8　Большой тест недели + все ответы")
 
 f = Flow(p, [(COLX[i], CW) for i in range(4)], 180, 1252, tag="P8-ex")
-f.head("A · ХРОНИКА НЕДЕЛИ", 21, OLIVE, 5)
+f.head("A　ХРОНИКА НЕДЕЛИ", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "A", "Le 4 novembre, jour férié",
      "Выходной посреди недели — ___ ноября. (A. 4 · B. 5)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "Le 3 novembre, journée de travail courte",
@@ -29,7 +29,7 @@ f.ex("B1", "Cloze", "B", "Rentrée le 5 novembre",
      "Школьники идут в школу ___ ноября. (A. 4 · B. 5)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "A", "Un code promo est un code de réduction",
      "Промокод — это код со ___. (A. скидкой · B. списком)", size=13.8, gap=0)
-f.head("B · ОБЩИЕ ВОПРОСЫ", 21, OLIVE, 5)
+f.head("B　ОБЩИЕ ВОПРОСЫ", 21, OLIVE, 5)
 f.ex("A2", "Choix", "B", "Le 4 novembre, Journée de l'unité nationale",
      "Когда День народного единства? A. 2 ноября · B. 4 ноября · C. 5 ноября", size=13.8, gap=0)
 f.ex("B1", "Choix", "B", "Congé jeudi et vendredi : 5 jours d'affilée",
@@ -46,7 +46,7 @@ f.ex("B1", "Choix", "A", "La 13e journée se termine lundi",
      "Когда закрывается 13-й тур? A. 2 ноября · B. 6 ноября · C. 8 ноября", size=13.8, gap=0)
 f.ex("A2", "Choix", "B", "Un code promo est un code de réduction",
      "Что такое промокод? A. Список · B. Код со скидкой · C. Магазин", size=13.8, gap=0)
-f.head("C · ЧИТАЙТЕ И ОТВЕЧАЙТЕ", 21, OLIVE, 5)
+f.head("C　ЧИТАЙТЕ И ОТВЕЧАЙТЕ", 21, OLIVE, 5)
 f.para("Маша учится в школе в Москве. На этой неделе у неё последние дни каникул: в среду, 4 ноября, — праздник, а в четверг — снова в школу. В среду Маша пойдёт на ярмарку с семьёй. А в субботу она будет смотреть футбол: «Краснодар» играет с ЦСКА. Маша болеет за «Краснодар».", 15, lh=1.3, split=False)
 f.ex("A2", "Choix", "B", "Les derniers jours de congé de Macha",
      "Что у Маши на этой неделе? A. Экзамены · B. Последние дни каникул · C. Новая школа", size=13.8, gap=0)
@@ -56,7 +56,7 @@ f.ex("A2", "Choix", "B", "Rentrée jeudi",
      "Когда Маша снова идёт в школу? A. В среду · B. В четверг · C. В субботу", size=13.8, gap=0)
 f.ex("B1", "Choix", "B", "Macha soutient Krasnodar",
      "За кого болеет Маша? A. За ЦСКА · B. За «Краснодар» · C. За «Спартак»", size=13.8, gap=0)
-f.head("D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ", 21, OLIVE, 5)
+f.head("D　СОБЕРИТЕ ПРЕДЛОЖЕНИЯ", 21, OLIVE, 5)
 f.ex("A2", "Phrases", "В четверг школьники идут в школу.", "Le moment d'abord, le verbe en deuxième position",
      "в четверг / школьники / идут в школу → ___", instr="Phrases", size=13.8, gap=0)
 f.ex("A2", "Phrases", "Мы берём отпуск в четверг и в пятницу.", "Sujet + verbe + moment",
@@ -65,7 +65,7 @@ f.ex("B1", "Phrases", "В субботу будет главный матч ту
      "в субботу / будет / главный матч тура → ___", instr="Phrases", size=13.8, gap=0)
 f.ex("B1", "Phrases", "Сначала составьте список покупок.", "Impératif + objet",
      "сначала / составьте / список покупок → ___", instr="Phrases", size=13.8, gap=0)
-f.head("E · ПЕРЕВЕДИТЕ", 21, OLIVE, 5)
+f.head("E　ПЕРЕВЕДИТЕ", 21, OLIVE, 5)
 f.ex("A2", "Traduction", "Mercredi 4 novembre, c'est un jour férié.", "Comparez page 3",
      "В среду, 4 ноября, — выходной. → ___", instr="Traduire en français", size=13.8, gap=0)
 f.ex("B1", "Traduction", "Un code promo est un code de réduction.", "Comparez page 5",
@@ -74,7 +74,7 @@ f.ex("B1", "Traduction", "В субботу «Краснодар» играет 
      "Le samedi, Krasnodar joue contre le CSKA. → ___", instr="Traduire en russe", size=13.8, gap=0)
 f.ex("B2", "Traduction", "Поздравляю с Днём народного единства!", "поздравляю + с + instrumental",
      "Je souhaite à tout le monde une bonne Journée de l'unité nationale ! → ___", instr="Traduire en russe", size=13.8, gap=0)
-f.head("F · СЛОВА НЕДЕЛИ", 21, OLIVE, 5)
+f.head("F　СЛОВА НЕДЕЛИ", 21, OLIVE, 5)
 f.match_set("B2", "Appariement",
             ["выходной", "промокод", "пауза", "ярмарка"],
             ["код со скидкой",
@@ -84,7 +84,7 @@ f.match_set("B2", "Appariement",
             ["d", "a", "c", "b"],
             ["Jour de congé d", "Code promo a", "Pause c", "Foire b"],
             instr="Associer")
-f.head("G · ДИАЛОГ В МАГАЗИНЕ", 21, OLIVE, 5)
+f.head("G　ДИАЛОГ В МАГАЗИНЕ", 21, OLIVE, 5)
 f.ex("B1", "Cloze", "A", "скидка = réduction",
      "— Здравствуйте! На эту куртку есть ___? (A. скидка · B. список)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "скидка 20%",
@@ -95,7 +95,7 @@ f.ex("B1", "Cloze", "A", "его = le code promo (masculin)",
      "— Отлично! Введите ___ в приложении. (A. его · B. её)", size=13.8, gap=0)
 f.ex("B1", "Cloze", "B", "Bonnes courses",
      "— Спасибо! Хороших ___! (A. скидок · B. покупок)", size=13.8, gap=0)
-f.head("H · НАПИШИТЕ САМИ", 21, OLIVE, 5)
+f.head("H　НАПИШИТЕ САМИ", 21, OLIVE, 5)
 MODELO = ("Моя неделя с праздником посреди недели начинается в понедельник, 2 ноября. "
           "В понедельник и во вторник я работаю, а в среду, 4 ноября, — выходной. "
           "В среду я пойду на ярмарку с семьёй: куплю еду и подарки. "
@@ -110,13 +110,13 @@ f.ex("B1", "Rédaction", "(Question ouverte — texte modèle ci-dessous)", f"Le
 f.para("Пример: " + MODELO, 14.5, lh=1.3, split=False)
 f.end_report()
 
-p.hline(MX, RIGHT, 1264, GOLD, 2)
-p.text(MX, 1302, "ОТВЕТЫ · Réponses — classées par page ; cherchez votre numéro", 25, "sans", True, OLIVE)
-p.text(RIGHT, 1302, "Chaque réponse avec une courte note en français · ✓ = exercice à texte modèle", 19.5, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, 1264, OLIVE, 2)
+p.text(MX, 1302, "ОТВЕТЫ　Réponses — classées par page ; cherchez votre numéro", 25, "sans", True, OLIVE)
+p.text(RIGHT, 1302, "Chaque réponse avec une courte note en français　✓ = exercice à texte modèle", 19.5, "sans", False, GREY, anchor="end")
 by_page = {}
 for e_ in REG:
     by_page.setdefault(e_["page"], []).append(e_)
-af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2540, tag="P8-keys")
+af = Flow(p, [(COLX[i], CW) for i in range(4)], 1328, 2560, tag="P8-keys")
 for pg in sorted(by_page):
     af.para(f"— СТРАНИЦА {pg} —", 13.3, "sans", True, OLIVE, lh=1.13, gap=2, split=False)
     for e_ in by_page[pg]:

@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ru-pt/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · ЯЗЫК (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("ЯЗЫК · Língua", "Lucerna", "Фокус на язык · Три уровня, три темы · Três níveis, três temas")
+p.band("ЯЗЫК　Língua", "Lucerna", "Фокус на язык　Три уровня, три темы　Três níveis, três temas")
 
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · НЕДЕЛЯ СЛОВАМИ", 24)
+a.head("A2　НЕДЕЛЯ СЛОВАМИ", 24)
 a.para("О неделе говорим так: выходной — день, когда не работают; будни — рабочие дни; сокращённый день — день на час короче. Примеры: «В среду — выходной», «3 ноября — сокращённый день».", 21.5)
 a.para("Отпуск — это дни отдыха от работы. Взять отпуск — значит не работать несколько дней. Пример: «Я беру отпуск в четверг».", 21.5)
 a.bridge("выходной dia de folga; будни dias úteis; сокращённый день dia de trabalho reduzido.")
@@ -27,7 +27,7 @@ a.ex("A2", "Completar frases", "отдыха", "отдых от работы = f
 a.end_report()
 
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · СЛОВА ПОКУПОК", 24)
+b.head("B1　СЛОВА ПОКУПОК", 24)
 b.para("Слова распродажи: скидка — товар стоит дешевле; цена — сколько стоит товар; список — что вы хотите купить. Пример: «Сначала составьте список, потом сравните цены».", 21.5)
 b.para("Промокод вводят при покупке: код даёт скидку. Глагол «вводить» — ввести: «Введите промокод!» — так пишут в приложениях.", 21.5)
 b.bridge("скидка desconto; цена preço; список lista; ввести промокод digitar o código promocional.")
@@ -42,7 +42,7 @@ b.ex("B1", "Completar frases", "цены", "сравнить цены = comparar
 b.end_report()
 
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · КАК ССЫЛАТЬСЯ", 24)
+c.head("B2　КАК ССЫЛАТЬСЯ", 24)
 c.para("Когда факт — не ваш, а из прессы, говорите так: «по сообщениям торговой прессы» или «торговая пресса пишет». Это честно: читатель знает, откуда факт.", 21.5)
 c.para("Неуверенность — тоже по-русски: «может быть» — возможно; «может быть меньше» — возможно, будет меньше. Говорить «может быть» — признак хорошего уровня!", 21.5)
 c.bridge("по сообщениям segundo relatos; пишет escreve; может быть talvez.")
@@ -64,20 +64,20 @@ errs = [
     ("«Распродажа с 22 октябрь»", "→ Родительный падеж: «с 22 октября».", "«с» + genitivo: с 22 октября."),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ОШИБКИ · Clínica de erros", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ОШИБКИ　Clínica de erros", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "«промокод» — код со скидкой: его вводят при покупке, и цена становится ниже."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("промокод = código promocional.", "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "СЛОВО · A palavra", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "СЛОВО　A palavra", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "промокод = código promocional.", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -85,8 +85,8 @@ ly = wy + wh + 12
 lt = "«Здравствуйте! Я учу русский язык и читаю Lucerna. В среду, 4 ноября, я тоже отдохну: пойду на ярмарку с семьёй!» — М. (пример от редакции)"
 disc_ru = "Настоящих писем и лучших сочинений к сроку сдачи не поступило: здесь снова пример от редакции. Обещание переносится на VOL.3."
 disc_pt = "Sem cartas reais nem textos: exemplo da redação; promessa para o VOL.3."
-lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(disc_ru, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(disc_pt, "sans", False, 20, CW - 44)) * 29 + 26
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(disc_ru, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(disc_pt, "sans", False, 20, CW - 44)) * 29 + 46  # D5 rebuild 2026-11-14 (run1 fix): +20 — lh undercounted the rendered flow by 10.7px (G11 SPILL: last note baseline below box bottom); box bottom 1727.6 -> 1747.6, quotes rule at 1756 untouched
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "ПИСЬМА ЧИТАТЕЛЕЙ", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -96,8 +96,8 @@ p.para(bx + 22, yy3 + 20, disc_pt, 20, "sans", False, GREY, CW - 44, 1.42)
 print("P7 col3 ends", ly + lh)
 
 fy = 1770
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ · Frases da semana (transcritas deste número)", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ　Frases da semana (transcritas deste número)", 27, "sans", True, OLIVE)
 quotes = [
     ("«Среда, 4 ноября, — выходной посреди рабочей недели»", "Quarta-feira, 4 de novembro, é um dia de folga no meio da semana de trabalho.", "Страница 1"),
     ("«Как жить неделю с праздником посреди недели»", "Como viver uma semana com um feriado no meio?", "Страница 1"),
@@ -116,9 +116,9 @@ for i, (q, cn, pg) in enumerate(quotes):
     p.para(cx, yyq + 20, cn + " (" + pg + ")", 19.5, "sans", False, GREY, colw, 1.35)
 
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ · Na próxima semana (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "11 ноября — день распродажи 11.11: что купили читатели? Плюс итоги 14-го тура и ваши письма. До понедельника!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ　Na próxima semana (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "11 ноября — день распродажи 11.11: что купили читатели? Плюс итоги 14-го тура и ваши письма. До понедельника!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-yazyk.svg")
 print("P7 saved, exercises so far:", len(REG))

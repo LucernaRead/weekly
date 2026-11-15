@@ -1,0 +1,98 @@
+== gates 2026-w45-ru-it tag=run2 mode=patched 02:26:21
+/dev/mapper/rv  150G   79G   70G  54% /home/hatch
+GREEN G1 run TOTAL 150, 0 warnings
+HEAD CHECK PASS 0 defects
+GREEN G2 head_check PASS 0 defects
+p1-pervaya.svg: els=877 news=462 cjk_sans=20 noto_sans=72 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p2-zhizn.svg: els=978 news=519 cjk_sans=16 noto_sans=53 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p3-kultura.svg: els=769 news=412 cjk_sans=15 noto_sans=38 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p4-sport.svg: els=753 news=433 cjk_sans=14 noto_sans=41 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p5-molodezh.svg: els=726 news=393 cjk_sans=13 noto_sans=31 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p6-razbor.svg: els=821 news=447 cjk_sans=16 noto_sans=55 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p7-yazyk.svg: els=927 news=513 cjk_sans=13 noto_sans=57 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+p8-test.svg: els=1721 news=1048 cjk_sans=15 noto_sans=34 D5_lat=0 D5_cyr=0 curly_cjk=0 curly=0
+TOTAL: D5_latin_in_cjk=0 D5_cyrillic_in_cjk=0 curly_in_cjk=0 curly_total=0 curly_in_newsreader=0 noto_sans_elements=381
+CENSUS PASS
+GREEN G3 census 0/0/0
+G4 render: render.py RC=0 print=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/2026-w45-ru-it/Lucerna-VOL2-ru-it.pdf 12885514 B
+G5 webpdf: webpdf.py RC=0 web=2191897 B
+GREEN G4 render RC=0
+GREEN G5 webpdf RC=0, 2191897 B <7MB
+selftest OK: planted classes fired {'BOXTITLE': 1, 'COVER': 1, 'EDGE': 1, 'FOOTER': 1, 'LINEX': 1, 'TEXTX': 1}; clean controls silent
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/2026-w45-ru-it/svg: 2 flags {'TEXTX': 2}
+  [TEXTX] p1-pervaya.svg 'сокращённый' — ink overlaps 'день' by 3.1x16.2px
+  [TEXTX] p1-pervaya.svg 'день' — ink overlaps '»' by 3.4x9.8px
+RED G6 occlusion selftest=0 audit=1
+/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/2026-w45-ru-it/svg/p8-test.svg: noted set = 150 of 150 (parse: lines)
+  set: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+G7 p8 extract noted=?/150 RC=0
+GREEN G7 p8 extract ?/150
+core    /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/2026-w45-ru-zh-cn/svg/p8-test.svg: 150 noted
+edition /home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/2026-w45-ru-it/svg/p8-test.svg: 150 noted
+status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138]
+keydiff: [137, 138]
+verdict: CLEAN
+missing : []
+extra : []
+[108] in edition noted_set: False
+GREEN G8 p8 compare CLEAN exit 0
+  OK  p5-molodezh.svg core 25346ef180879187 produced 25346ef180879187
+  OK  p6-razbor.svg core eae3fa2f1ade31b7 produced eae3fa2f1ade31b7
+  OK  p7-yazyk.svg core 3ffc07b95698f939 produced 3ffc07b95698f939
+  OK  p8-test.svg core aa2211fd7180806b produced aa2211fd7180806b
+core integrity: shipped core SVGs unchanged by the run (8 files re-hashed)
+GREEN G9 freeze baseline 8/8
+p3: +39 strings / -14 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 21 (unexpected 21)
+p4: +31 strings / -12 strings; CJK core 14 -> edition 14; added CJK chars: 0 ; added Latin strings: 16 (unexpected 16)
+p5: +28 strings / -11 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 15 (unexpected 15)
+p6: +34 strings / -14 strings; CJK core 16 -> edition 16; added CJK chars: 0 ; added Latin strings: 17 (unexpected 17)
+p7: +25 strings / -10 strings; CJK core 13 -> edition 13; added CJK chars: 0 ; added Latin strings: 13 (unexpected 13)
+p8: +33 strings / -13 strings; CJK core 15 -> edition 15; added CJK chars: 0 ; added Latin strings: 17 (unexpected 17)
+TOTAL added CJK characters: 0
+TOTAL added Latin strings: 145 (unexpected 145)
+GREEN G10 freeze diff RC=0 (see CJK TOTAL in log)
+P7 box=(1439.5,1254.6,422.5,493.0) bottom=1747.6
+   ABOVE -23.91px x=1461.5 y=1230.7 [observe] 'промокод'
+P7 box=(1439.5,1254.6,422.5,493.0) bottom=1747.6
+   ABOVE -23.91px x=1564.2 y=1230.7 [observe] '= codice promozionale.'
+SPILL_SWEEP 2026-w45-ru-it: 31 boxes, 157 candidates, 0 SPILL, 157 OBSERVE
+GREEN G11 spill 0 SPILL
+== 2026-w45-ru-it  core=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/patched/core-ru backup=/home/hatch/workspace/goals/lucernaread-social-media-operations/hidden_files/d5-redo/scratch-2026-w45-ru/scratch-fanout-ru/backup/2026-w45-ru-it
+BOXTITLE 2026-w45-ru-it: 52 titles, 691 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal
+GREEN G12 boxtitle 0 DEFECT
+  P5: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.4}
+  P6: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 64.4}
+  P7: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+  P8: clean min_dist_pt={'top': 54.0, 'bottom': 53.6, 'left': 65.9, 'right': 66.2}
+EDGE_SCAN 2026-w45-ru-it: 8 pages, 0 TOUCH, 0 NEAR
+GREEN G13 edge 0 TOUCH 0 NEAR
+p6-razbor.svg: els 801->821 lines 95->95 diff 0 moved 74 defects 0 observe 0
+p7-yazyk.svg: els 912->927 lines 85->85 diff 0 moved 99 defects 0 observe 0
+p8-test.svg: els 1701->1721 lines 241->241 diff 0 moved 93 defects 0 observe 0
+ratios: n=393 median=1.026 boldT=1.04 boldF=0.998
+P8 p8-test.svg: lines 241->241 slack_footer 44.5->44.5
+CREAMBOX PASS 0 defects
+GREEN G14 creambox PASS 0 defects (selftest OK)
+print chars: 28259 web chars: 28259
+print-vs-web multiset diff: 0
+G15b text.md BYTE-IDENTICAL vs fanout .text.md.new (54389 B)
+  H · НАПИШИТЕ САМИ: tokens identical (155)
+  Answers: tokens identical (1278)
+line classes: {'SEP': 25, 'CJK': 0, 'WORD': 0, 'FURN': 0, 'FURNOK': 0, 'REWRAP': 0, 'TRIM': 0, 'OTHER': 0}
+verdict: ADOPT (0 UNEXPECTED)
+GREEN G15 print=web diff 0 + text.md BYTE-IDENTICAL + verify ADOPT
+  p6-razbor.svg: defective=0
+  p7-yazyk.svg: defective=0
+  p8-test.svg: defective=0
+  TOTAL defective: 0
+GRAND TOTAL defective: 0
+GREEN G16 census_quotes 0 defective
+G17 family gates.py: N/A (ru family has no gates.py; port-era audit_ru_*.py is not a gate)
+runs=28
+slogan_tail='IL RUSSO CHE LEGGE LA RUSSIA' slogan_end_x=1351.6
+date_head='НЕДЕЛЯ' date_start_x=1489.4
+D18 masthead gap=137.8px
+GREEN D18 masthead gap >0 (see log)
+D37 N/A: no sub-masthead line at y~612-614
+GREEN D37 sub-masthead within box (see log)
+== gates 2026-w45-ru-it tag=run2 mode=patched RESULT: NOT-GREEN ==

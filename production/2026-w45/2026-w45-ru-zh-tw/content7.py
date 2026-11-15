@@ -3,16 +3,16 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ru-zh-tw/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P7 · ЯЗЫК (A2/B1/B2) =================
 CURPAGE[0] = 7
 p = BSPage4()
-p.band("ЯЗЫК · 語言", "Lucerna", "Фокус на язык · Три уровня, три темы · 三個級別，三個主題")
+p.band("ЯЗЫК　語言", "Lucerna", "Фокус на язык　Три уровня, три темы　三個級別，三個主題")
 
 a = Flow(p, [(COLX[0], CW)], 200, 1560, tag="P7-a2")
-a.head("A2 · НЕДЕЛЯ СЛОВАМИ", 24)
+a.head("A2　НЕДЕЛЯ СЛОВАМИ", 24)
 a.para("О неделе говорим так: выходной — день, когда не работают; будни — рабочие дни; сокращённый день — день на час короче. Примеры: «В среду — выходной», «3 ноября — сокращённый день».", 21.5)
 a.para("Отпуск — это дни отдыха от работы. Взять отпуск — значит не работать несколько дней. Пример: «Я беру отпуск в четверг».", 21.5)
 a.expl("выходной 休息日；будни 工作日；сокращённый день 縮短工作日。")
@@ -27,7 +27,7 @@ a.ex("A2", "完成句子", "отдыха", "отдых от работы = 休�
 a.end_report()
 
 b = Flow(p, [(COLX[1], CW)], 200, 1560, tag="P7-b1")
-b.head("B1 · СЛОВА ПОКУПОК", 24)
+b.head("B1　СЛОВА ПОКУПОК", 24)
 b.para("Слова распродажи: скидка — товар стоит дешевле; цена — сколько стоит товар; список — что вы хотите купить. Пример: «Сначала составьте список, потом сравните цены».", 21.5)
 b.para("Промокод вводят при покупке: код даёт скидку. Глагол «вводить» — ввести: «Введите промокод!» — так пишут в приложениях.", 21.5)
 b.expl("скидка 折扣；цена 價格；список 清單；ввести промокод 輸入促銷碼。")
@@ -42,7 +42,7 @@ b.ex("B1", "完成句子", "цены", "сравнить цены = 比價",
 b.end_report()
 
 c = Flow(p, [(COLX[2], CW)], 200, 1560, tag="P7-b2")
-c.head("B2 · КАК ССЫЛАТЬСЯ", 24)
+c.head("B2　КАК ССЫЛАТЬСЯ", 24)
 c.para("Когда факт — не ваш, а из прессы, говорите так: «по сообщениям торговой прессы» или «торговая пресса пишет». Это честно: читатель знает, откуда факт.", 21.5)
 c.para("Неуверенность — тоже по-русски: «может быть» — возможно; «может быть меньше» — возможно, будет меньше. Говорить «может быть» — признак хорошего уровня!", 21.5)
 c.expl("по сообщениям 據……報導；пишет 寫道；может быть 可能。")
@@ -64,20 +64,20 @@ errs = [
     ("«Распродажа с 22 октябрь»", "→ Родительный падеж: «с 22 октября».", "с 表起點用屬格：с 22 октября。"),
 ]
 eh = 74 + sum(72 + len(wrap(r[0], "serif", True, 21.5, CW - 44)) * 29.24 + len(wrap(r[1], "serif", False, 20.5, CW - 44)) * 27.88 + len(wrap(r[2], "sans", False, 19.5, CW - 44)) * 26.52 for r in errs)
-p.rect(bx, 200, CW, eh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, 200, CW, eh, fill=BOX)
 yy3 = 216
-p.text(bx + 22, yy3 + 26, "ОШИБКИ · 易錯診所", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "ОШИБКИ　易錯診所", 23, "sans", True, OLIVE)
 yy3 += 54
 for wrong, right, cn in errs:
-    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, BRICK, CW - 44, 1.36)
+    yy3 = p.para(bx + 22, yy3 + 21, wrong, 21.5, "serif", True, OLIVE, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 21, right, 20.5, "serif", False, INK, CW - 44, 1.36)
     yy3 = p.para(bx + 22, yy3 + 20, cn, 19.5, "sans", False, GREY, CW - 44, 1.36) + 10
 wy = 200 + eh + 12
 wt = "«промокод» — код со скидкой: его вводят при покупке, и цена становится ниже."
 wh = 62 + len(wrap(wt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap("промокод = 促銷碼，結賬時輸入。", "sans", False, 20, CW - 44)) * 29 + 28
-p.rect(bx, wy, CW, wh, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(bx, wy, CW, wh, fill="#f0eee5")
 yy3 = wy + 16
-p.text(bx + 22, yy3 + 26, "СЛОВО · 本週生詞", 23, "sans", True, OLIVE)
+p.text(bx + 22, yy3 + 26, "СЛОВО　本週生詞", 23, "sans", True, OLIVE)
 yy3 += 52
 yy3 = p.para(bx + 22, yy3 + 21, wt, 21.5, "serif", False, INK, CW - 44, 1.42) + 10
 p.para(bx + 22, yy3 + 20, "промокод = 促銷碼，結賬時輸入。", 20, "sans", False, GREY, CW - 44, 1.42)
@@ -87,7 +87,7 @@ disc_ru = "Настоящих писем и лучших сочинений к �
 disc_cn = "截至交稿時未收到真實來信與最佳作文，仍為編輯部示例；承諾順延至 VOL.3。"
 invite_cn = "歡迎把你的俄語來信寄給編輯部！"
 lh = 62 + len(wrap(lt, "serif", False, 21.5, CW - 44)) * 30.5 + 12 + len(wrap(disc_ru, "serif", False, 21.5, CW - 44)) * 30.5 + 10 + len(wrap(disc_cn, "sans", False, 20, CW - 44)) * 29 + 29 + 20
-p.rect(bx, ly, CW, lh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, ly, CW, lh, fill=BOX)
 yy3 = ly + 16
 p.text(bx + 22, yy3 + 26, "ПИСЬМА ЧИТАТЕЛЕЙ", 23, "sans", True, OLIVE)
 yy3 += 52
@@ -98,8 +98,8 @@ p.para(bx + 22, yy3, invite_cn, 20, "sans", False, GREY, CW - 44, 1.42)
 print("P7 col3 ends", ly + lh)
 
 fy = 1770
-p.hline(MX, RIGHT, fy - 14, GOLD, 2)
-p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ · 本週金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
+p.hline(MX, RIGHT, fy - 14, OLIVE, 2)
+p.text(MX, fy + 24, "ФРАЗЫ НЕДЕЛИ　本週金句（逐字摘自本期文章）", 27, "sans", True, OLIVE)
 quotes = [
     ("«Среда, 4 ноября, — выходной посреди рабочей недели»", "11 月 4 日星期三，是工作週中間的休息日。", "Страница 1"),
     ("«Как жить неделю с праздником посреди недели»", "夾著一個假日的一週該怎麼過？", "Страница 1"),
@@ -118,9 +118,9 @@ for i, (q, cn, pg) in enumerate(quotes):
     p.para(cx, yyq + 20, cn + " (" + pg + ")", 19.5, "sans", False, GREY, colw, 1.35)
 
 py = 2404
-p.rect(MX, py, RIGHT - MX, 118, fill=DARK)
-p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ · 下期預告 (VOL.3)", 24, "sans", True, "#e8dfc8")
-p.para(MX + 28, py + 84, "11 ноября — день распродажи 11.11: что купили читатели? Плюс итоги 14-го тура и ваши письма. До понедельника!", 21, "serif", False, "#f3edda", RIGHT - MX - 56, 1.36)
+p.rect(MX, py, RIGHT - MX, 118, fill=CLOTH)
+p.text(MX + 28, py + 44, "СЛЕДУЮЩАЯ НЕДЕЛЯ　下期預告 (VOL.3)", 24, "sans", True, ONCLOTH)
+p.para(MX + 28, py + 84, "11 ноября — день распродажи 11.11: что купили читатели? Плюс итоги 14-го тура и ваши письма. До понедельника!", 21, "serif", False, "#cac8ba", RIGHT - MX - 56, 1.36)
 p.foot(7)
 p.save(f"{OUT}/p7-yazyk.svg")
 print("P7 saved, exercises so far:", len(REG))

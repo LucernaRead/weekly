@@ -135,8 +135,8 @@ cd hidden_files/weekly-report-w45-ru-build
 ```
 
 Outputs in this dir: `svg/` (8 SVGs), `cards/` (8 page PNGs),
-`Lucerna-VOL2.pdf` (23,191,026 bytes, print), `Lucerna-VOL2-web.pdf`
-(3,035,942 bytes, web, under the 10 MB Discord server limit).
+`Lucerna-VOL2.pdf` (14,038,120 bytes, print), `Lucerna-VOL2-web.pdf`
+(2,419,402 bytes, web, under the 10 MB Discord server limit).
 Final build: zero FLOW OVERFLOW / HEAD TOO WIDE warnings; TOTAL 150;
 model words 84.
 
@@ -220,3 +220,13 @@ Finalized, NOT pushed, NOT posted: per the task brief, repo insertion is done
 by the parent line (serialized) and inserts are currently BLOCKED behind an
 unrelated push outage, so this core queues for insert after finalization.
 No git push, no Discord post, no user message was made from this build.
+
+## 10. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-zh-cn/svglib.py --target ru --reader zh-cn --week 2026-w45` (--check dry-run first). `_D5_READER = "cjk"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- 本版即 core-ru（core-doubles）：KIT 在此，生产源同步目标亦为 core-ru。注意 D24：core svglib `_D5_READER` 常量惰性，closer 同步 patched zh-cn svglib 后变为 "cjk"，两种状态均可接受。
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 20,748,010 bytes, sha256 `25b38c1229887c5a06835ee4eac02750c388dd37600b6c393259ac1a476d8f13`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 204 (>0); P8 150/150, keydiff=[]; D18 gap 297.4px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）；G2 脚本日志路径 bug（RC=2）→ 补 run-baseline.log，run2 G2 GREEN.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[]; G10 added Latin 75, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 721; run1 718 body lines); G14 P8 210 / 35.6 lines/slack; D18 289.9px; D37 N/A（本版无副刊头行）. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-zh-cn/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2.pdf` 14,038,120 bytes, sha256 `5edcb1e4399941e6f359e696b50c84098d186bb1ae191bb6bf42d4431325f5ef`; web `2026-w45-ru-zh-cn.web.pdf` 2,419,402 bytes, sha256 `0036d73b3cc2b8621a024987aae3f76308597fc31627b49bdef57276b92c165e`; text.md `2026-w45-ru-zh-cn.text.md` (NEW file — issues/ has no ru `.text.md`) 52,017 bytes, sha256 `774a38ced476c422697696b74d1486f06bf5581d6487a1b03270a4e4cd9344a1`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-zh-cn.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-zh-cn/GATES-SUMMARY.txt` (D29).

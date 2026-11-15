@@ -249,10 +249,10 @@
 
 - files/weekly-report-w45-ru-ja/svg/ — 8 SVGs (p1-pervaya … p8-test)
 - files/weekly-report-w45-ru-ja/cards/ — 8 card PNGs (1950×2700)
-- Print PDF: Lucerna-VOL2-JA.pdf — 18,194,817 B, 8 pages,
-  sha256 044da00c592d0aa988f71506d464541c949d8b2b46946155c5461debe9bf20f2
-- Web PDF: Lucerna-VOL2-JA-web.pdf — 3,104,219 B (< 10 MB), 8 pages,
-  sha256 da5124c824411a68ed695bf3fdda6118dc47ccf27e69612541b480e09544c8e0
+- Print PDF: Lucerna-VOL2-JA.pdf — 16,128,164 B, 8 pages,
+  sha256 183acf2d63291fa0dbc7e4877b1932206b2d929ace6f9b7dff2979ec2ac3c178
+- Web PDF: Lucerna-VOL2-JA-web.pdf — 2,484,226 B (< 10 MB), 8 pages,
+  sha256 03d18d52c5b6e15377aaa58b1d8de947ba63326a1108e76a50fb4dd4e6ff6c41
 - ABSTRACT.txt — one Japanese line, no ASCII double quotes, naming the real
   W45 topics (4 Nov Wednesday holiday, 3 Nov short day, 11.11 smart shopping,
   6–8 Nov RPL round 14) + a learner search phrase （ロシア語ニュースでロシア語を
@@ -269,3 +269,12 @@ insert, no Discord post, no user message was made from this build.
 
 - Independent proof (hidden_files/w45/ru-ja-proof/REPORT.md): paper ZERO defects (freeze exact, p8 CLEAN true diffs only [137,138], occlusion 0 + NEW 0, gloss 26, images byte-identical, P7 golden 2×, 150, 8 cards visual, PDFs match §9 pins, badge three-way = W43 shipped, P7 B2 「書いている」 wrap judged CJK-normal, not a problem); sole item was KIT §4 total added CJK 2342 vs measured 2343. Coordinator independently re-ran freeze.py diff and confirmed per-page 185/243/171/159/167/209/285/924 = 2343 (freeze.py prints TOTAL 2343). KIT text only (§4 corrected above); paper verified untouched (PDF sizes/SHAs = §9 pins, SVGs retain build mtimes, only KIT edited). Per the JA KIT-only precedent, no new proof round needed. FINALIZED.
 - Process note (not a paper issue): the proofreader's registry rerun landed its OUT redirect in the shared scratch dir `goals/lucernaread-social-media-operations/tmp/` and its cleanup deleted other groups' regenerable scratch dumps there (`regdump-core`, `regdump-ko`, `w45ko-debug`). Delivered files were verified unaffected (mtime/SHA rechecked). No action: those dumps are regenerable if any running builder needs them; proofreaders must not clean shared scratch dirs.
+
+## §12 D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-ja/svglib.py --target ru --reader ja --week 2026-w45` (--check dry-run first). `_D5_READER = "cjk"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 16,149,279 bytes, sha256 `26fccfb16ec3879ce5b296f5fa1f3f59070ede68c4a477edabac82995f6f5c16`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 204 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 198.3px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）；F-1 NameError: face（kinsoku 移植块 3 处调用去 face 参，重跑 RC=0）.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 67, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 741; run1 738 body lines); G14 P8 199 / 61.4 lines/slack; D18 190.9px; D37 N/A（本版无副刊头行）. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-ja/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-ja.pdf` 16,128,164 bytes, sha256 `183acf2d63291fa0dbc7e4877b1932206b2d929ace6f9b7dff2979ec2ac3c178`; web `2026-w45-ru-ja.web.pdf` 2,484,226 bytes, sha256 `03d18d52c5b6e15377aaa58b1d8de947ba63326a1108e76a50fb4dd4e6ff6c41`; text.md `2026-w45-ru-ja.text.md` (NEW file — issues/ has no ru `.text.md`) 53,262 bytes, sha256 `d156bb302c4abf6f6368f08749ab96cee5992ecbe4bc83648d01460ec3a72b1b`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-ja.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-ja/GATES-SUMMARY.txt` (D29).

@@ -103,8 +103,8 @@ Split week (2–3 Nov work, 4 Nov Wednesday holiday, 3 Nov one hour shorter, sch
 
 - `files/weekly-report-w45-ru-de/svg/` — 8 final SVGs
 - `files/weekly-report-w45-ru-de/cards/` — 8 cards (1950×2700 PNG)
-- `files/weekly-report-w45-ru-de/Lucerna-VOL2-DE.pdf` — print PDF, 8 pages, **13,557,259 bytes**
-- `files/weekly-report-w45-ru-de/Lucerna-VOL2-DE-web.pdf` — web PDF, 8 pages, **3,222,331 bytes** (< 10 MB)
+- `files/weekly-report-w45-ru-de/Lucerna-VOL2-DE.pdf` — print PDF, 8 pages, **12,897,546 bytes**
+- `files/weekly-report-w45-ru-de/Lucerna-VOL2-DE-web.pdf` — web PDF, 8 pages, **2,200,977 bytes** (< 10 MB)
 - `files/weekly-report-w45-ru-de/WEEKLY-KIT.md` — this file
 - `files/weekly-report-w45-ru-de/ABSTRACT.txt` — one-line German abstract
 - Build: `hidden_files/weekly-report-w45-ru-de-build/` (run.py → render.py; transform script at `tools/scratch/transform-w45-ru-de.py`)
@@ -112,3 +112,12 @@ Split week (2–3 Nov work, 4 Nov Wednesday holiday, 3 Nov one hour shorter, sch
 ## 13. Delivery status
 
 Builder-complete, NOT proofread-finalized, NOT pushed, NOT posted: per the task brief, repo insertion is done by the parent line (serialized) and independent proofread is still pending. No git push, no Discord post, no user message, no cron was made from this build.
+
+## 14. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-de/svglib.py --target ru --reader de --week 2026-w45` (--check dry-run first). `_D5_READER = "latin"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 13,239,648 bytes, sha256 `d662ffd3a04152c490026c653b68ca8cabffc7548aa262f0255cbd35397cab4a`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 446 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 199.8px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）；D37 量测脚本 bug（RC=1）→ 同 y 分组修复，基线 de 复测 104.5px.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 154, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 697; run1 696 body lines); G14 P8 235 / 45.7 lines/slack; D18 150.3px; D37 margin 60.9px. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-de/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-de.pdf` 12,897,546 bytes, sha256 `be86911378df926363ed72275c3c258b4470da4013590567079828147cc6051d`; web `2026-w45-ru-de.web.pdf` 2,200,977 bytes, sha256 `bfd915cfcb473073e2b3d2bcf4f23e8eb89bdc266e0f0b00e0e118b8e44b4d95`; text.md `2026-w45-ru-de.text.md` (NEW file — issues/ has no ru `.text.md`) 54,556 bytes, sha256 `c9533f0ee2bd9a68a958f68c2d1630775a7dd53f3b461f81d0b0a13a11ac71a9`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-de.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-de/GATES-SUMMARY.txt` (D29).

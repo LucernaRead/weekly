@@ -223,8 +223,8 @@ prática da redação para os exercícios — não são estatísticas reais.»).
 ## 11. Deliverables and PDF pins
 
 - files/weekly-report-w45-ru-pt/svg/ ×8, cards/ ×8 (1950×2700 PNG)
-- Print PDF: Lucerna-VOL2-PT.pdf — 13,556,944 bytes — 8 pages
-- Web PDF: Lucerna-VOL2-PT-web.pdf — 3,203,592 bytes (< 10 MB) — 8 pages
+- Print PDF: Lucerna-VOL2-PT.pdf — 12,894,699 bytes — 8 pages
+- Web PDF: Lucerna-VOL2-PT-web.pdf — 2,201,117 bytes (< 10 MB) — 8 pages
 - ABSTRACT.txt (Portuguese, one line, no ASCII double quotes — see §12)
 - Build tree: hidden_files/weekly-report-w45-ru-pt-build/ (content
   modules, render.py, run.py, scratch/ with transform.py, build.log,
@@ -252,3 +252,12 @@ e como usar o caso instrumental depois de с.
 - No Discord post, no main-chat card/PDF dump, no cron created, no
   weekly-git contact. Finalized-edition routing is the coordinator's
   call after independent proofread.
+
+## 14. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-pt/svglib.py --target ru --reader pt --week 2026-w45` (--check dry-run first). `_D5_READER = "latin"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 13,252,107 bytes, sha256 `db40c92c87edc40ab84069d14ea68e712f0704af525e8370a5734119a07b4329`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 440 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 225.2px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 145, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 690; run1 689 body lines); G14 P8 236 / 49.9 lines/slack; D18 176.2px; D37 N/A（本版无副刊头行）. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-pt/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-pt.pdf` 12,894,699 bytes, sha256 `ec8e8396d6903fda0f57a143324d0eb3912f162fbcbd50114833567d18830a91`; web `2026-w45-ru-pt.web.pdf` 2,201,117 bytes, sha256 `1b8e072673dfee2e94a9ba7e62588e251a7d400e5ac85ebad97c7d3d6c9cccfa`; text.md `2026-w45-ru-pt.text.md` (NEW file — issues/ has no ru `.text.md`) 55,579 bytes, sha256 `5dfca5b6ed99baa3dd65288e856bec7700b2254fe5b2a5b0358d8e99552de9a0`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-pt.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-pt/GATES-SUMMARY.txt` (D29).

@@ -3,17 +3,17 @@ import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from bslib4 import *
 
-OUT = os.path.expanduser("~/workspace/goals/lucernaread-social-media-operations/files/weekly-report-w45-ru-fr/svg")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "svg")
 os.makedirs(OUT, exist_ok=True)
 
 # ================= P3 · КУЛЬТУРА (A2→B1) =================
 CURPAGE[0] = 3
 p = BSPage4()
-p.band("КУЛЬТУРА · Culture", "Lucerna", "УРОВЕНЬ A2 → B1 · День народного единства и среда в городе · Journée de l'unité nationale et mercredi en ville")
+p.band("КУЛЬТУРА　Culture", "Lucerna", "УРОВЕНЬ A2 → B1　День народного единства и среда в городе　Journée de l'unité nationale et mercredi en ville")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1540, tag="P3-feature")
-f.title("4 ноября: один день праздника", 37)
-f.byline("От редакции Lucerna · Уровень чтения: A2 → B1")
+f.title("4 ноября: один день праздника", 32)
+f.byline("От редакции Lucerna　Уровень чтения: A2 → B1")
 f.para("В среду, 4 ноября, в России — выходной. Праздник называется День народного единства. Праздник появился в 2005 году и напоминает о событиях 1612 года, но сегодня это прежде всего обычный выходной посреди недели.")
 f.para("Как отмечают этот день? В среду города устраивают ярмарки и концерты. Люди гуляют с семьёй, покупают еду и подарки на ярмарке и слушают музыку.")
 f.para("Для школьников среда — последний день каникул: в четверг уже снова в школу. Поэтому среда — день семьи: утром можно выспаться, днём пойти на ярмарку, а вечером вернуться домой.")
@@ -32,7 +32,7 @@ facts = ["4 ноября — День народного единства, вы�
          "В четверг, 5 ноября, — снова в школу."]
 sy3 = 200
 sh = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in facts) + 32
-p.rect(ix, sy3, CW, sh, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(ix, sy3, CW, sh, fill=BOX)
 yy3 = sy3 + 16
 p.text(ix + 22, yy3 + 26, "ГЛАВНОЕ — КОРОТКО", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -43,7 +43,7 @@ ideas = ["Утром — выспаться: никуда не спешить.",
          "Вечером — домой, к семье: среда короткая."]
 sy3b = sy3 + sh + 24
 shb = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in ideas) + 32
-p.rect(ix, sy3b, CW, shb, fill="#f1ead6", stroke=LINE, sw=1.4)
+p.rect(ix, sy3b, CW, shb, fill="#f0eee5")
 yy3 = sy3b + 16
 p.text(ix + 22, yy3 + 26, "КАК ПРОВЕСТИ СРЕДУ", 24, "sans", True, OLIVE)
 yy3 += 52
@@ -52,11 +52,11 @@ for t in ideas:
 print("P3 col3 ends", sy3b + shb)
 
 ey = 1620
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "УПРАЖНЕНИЯ · Exercices de la page 3", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Niveaux mélangés — cherchez votre numéro", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "УПРАЖНЕНИЯ　Exercices de la page 3", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Niveaux mélangés — cherchez votre numéro", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P3-ex")
-e.head("A · ПОНИМАНИЕ", 25)
+e.head("A　ПОНИМАНИЕ", 25)
 e.bridge("Lisez les articles de la page 3 et choisissez la bonne réponse.")
 e.ex("A2", "Choix", "B", "Le 4 novembre, Journée de l'unité nationale",
      "День народного единства — это... A. 2 ноября · B. 4 ноября · C. 5 ноября", size=20, gap=8)
@@ -68,7 +68,7 @@ e.ex("A2", "Choix", "C", "Rentrée jeudi",
      "Школьники идут в школу... A. в среду · B. в пятницу · C. в четверг", size=20, gap=8)
 e.ex("B1", "Choix", "A", "Parce que mercredi est le dernier jour de congé",
      "Почему среда — день семьи? A. Это последний день каникул · B. Это выходной в субботу · C. Это первый день каникул", size=20, gap=8)
-e.head("B · ГЛАГОЛЫ И ФОРМЫ", 25)
+e.head("B　ГЛАГОЛЫ И ФОРМЫ", 25)
 e.bridge("Mettez le verbe à la bonne forme ou au bon cas.")
 e.ex("B1", "Compléter", "устраивают", "устраивать → устраивают",
      "Города ___ ярмарки и концерты. (устраивать)", instr="Compléter", size=20, gap=8)
@@ -80,7 +80,7 @@ e.ex("A2", "Compléter", "выспаться", "выспаться = faire la gr
      "Утром можно ___. (выспаться)", instr="Compléter", size=20, gap=8)
 e.ex("B1", "Compléter", "ноября", "4 + génitif : ноября",
      "В среду, 4 ___ , — выходной. (ноябрь)", instr="Compléter", size=20, gap=8)
-e.head("C · ПРАЗДНИК", 25)
+e.head("C　ПРАЗДНИК", 25)
 e.match_set("B1", "Appariement",
             ["ярмарка", "концерт", "выходной", "путешествие"],
             ["день, когда не работают",
@@ -90,7 +90,7 @@ e.match_set("B1", "Appariement",
             ["b", "d", "a", "c"],
             ["Foire b", "Concert d", "Jour de congé a", "Voyage c"],
             instr="Associer")
-e.head("D · СОБЕРИТЕ ПРЕДЛОЖЕНИЯ", 25)
+e.head("D　СОБЕРИТЕ ПРЕДЛОЖЕНИЯ", 25)
 e.bridge("Formez des phrases correctes avec les mots.")
 e.ex("A2", "Phrases", "Города устраивают ярмарки и концерты.", "Sujet + verbe + objet",
      "города / устраивают / ярмарки и концерты → ___", instr="Phrases", size=20, gap=8)
@@ -108,11 +108,11 @@ print("P3 saved, exercises so far:", len(REG))
 # ================= P4 · СПОРТ (B1) =================
 CURPAGE[0] = 4
 p = BSPage4()
-p.band("СПОРТ · Sport", "Lucerna", "УРОВЕНЬ B1 · 14-й тур: последний перед паузой · 14e journée : la dernière avant la pause")
+p.band("СПОРТ　Sport", "Lucerna", "УРОВЕНЬ B1　14-й тур: последний перед паузой　14e journée : la dernière avant la pause")
 
 f = Flow(p, [(COLX[0], CW), (COLX[1], CW), (COLX[2], CW)], 200, 1100, tag="P4-main")
-f.title("14-й тур: последний перед паузой", 37)
-f.byline("От спортивной редакции Lucerna · Уровень чтения: B1")
+f.title("14-й тур: последний перед паузой", 32)
+f.byline("От спортивной редакции Lucerna　Уровень чтения: B1")
 f.para("В понедельник, 2 ноября, закрывается 13-й тур: «Крылья Советов» играют с «Зенитом» в 18:00. А уже в пятницу начинается 14-й тур чемпионата России.")
 f.para("В пятницу «Локомотив» играет с «Рубином». Главный матч тура — в субботу, 7 ноября: «Краснодар» играет с ЦСКА в 19:30 на «Ozon Арене».")
 f.para("В воскресенье, 8 ноября, — три матча: «Спартак» играет с «Акроном» в 16:15, «Зенит» — с «Ростовом», а «Крылья Советов» — с «Оренбургом».")
@@ -130,7 +130,7 @@ tour = ["14-й тур: 6–8 ноября.",
         "15-й тур — только 20 ноября: потом пауза."]
 sy4 = cy4 + 22
 sh4 = 62 + sum(len(wrap(t, "serif", False, 21.5, CW - 44)) * 30.5 + 33 for t in tour) + 32
-p.rect(bx, sy4, CW, sh4, fill=BOX, stroke=LINE, sw=1.4)
+p.rect(bx, sy4, CW, sh4, fill=BOX)
 yy4 = sy4 + 16
 p.text(bx + 22, yy4 + 26, "ТУР В ЦИФРАХ", 24, "sans", True, OLIVE)
 yy4 += 52
@@ -139,7 +139,7 @@ for t in tour:
 print("P4 col3 ends", sy4 + sh4)
 
 ty = 1160
-p.text(MX, ty, "14-Й ТУР: КАЛЕНДАРЬ · Calendrier de la 14e journée", 26, "sans", True, OLIVE)
+p.text(MX, ty, "14-Й ТУР: КАЛЕНДАРЬ　Calendrier de la 14e journée", 26, "sans", True, OLIVE)
 rows = [
     ("Пт 6.11.", "—", "«Локомотив» — «Рубин» — первый матч тура"),
     ("Сб 7.11.", "19:30", "«Краснодар» — ЦСКА — главный матч (Ozon Арена)"),
@@ -150,7 +150,7 @@ rows = [
 yy = ty + 16
 for i, (d, t, m) in enumerate(rows):
     p.rect(MX, yy, RIGHT - MX, 44, fill="#f4efe0" if i % 2 == 0 else "#efe8d2")
-    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, BRICK)
+    p.text(MX + 18, yy + 29, d, 20.5, "sans", True, OLIVE)
     p.text(MX + 185, yy + 29, t, 20, "sans", False, GREY)
     p.text(MX + 430, yy + 29, m, 21, "serif", False, INK)
     yy += 44
@@ -158,11 +158,11 @@ tnote = "Внимание: время московское. После тура 
 p.para(MX, yy + 26, tnote, 20.5, "serif", False, INK, RIGHT - MX, 1.42)
 
 ey = 1580
-p.hline(MX, RIGHT, ey - 12, GOLD, 2)
-p.text(MX, ey + 28, "УПРАЖНЕНИЯ · Exercices de la page 4", 28, "sans", True, OLIVE)
-p.text(RIGHT, ey + 28, "Réponses page 8 · Niveaux mélangés — cherchez votre numéro", 20, "sans", False, GREY, anchor="end")
+p.hline(MX, RIGHT, ey - 12, OLIVE, 2)
+p.text(MX, ey + 28, "УПРАЖНЕНИЯ　Exercices de la page 4", 28, "sans", True, OLIVE)
+p.text(RIGHT, ey + 28, "Réponses page 8　Niveaux mélangés — cherchez votre numéro", 20, "sans", False, GREY, anchor="end")
 e = Flow(p, [(COLX[i], CW) for i in range(4)], ey + 56, 2580, tag="P4-ex")
-e.head("A · ПОНИМАНИЕ", 25)
+e.head("A　ПОНИМАНИЕ", 25)
 e.bridge("Lisez l'article de la page 4 et choisissez la bonne réponse.")
 e.ex("B1", "Choix", "B", "La 14e journée commence vendredi",
      "14-й тур начинается... A. в понедельник · B. в пятницу · C. в воскресенье", size=20, gap=8)
@@ -174,7 +174,7 @@ e.ex("B1", "Choix", "A", "La 15e journée, le 20 novembre",
      "15-й тур будет... A. 20 ноября · B. 8 ноября · C. 6 ноября", size=20, gap=8)
 e.ex("B1", "Choix", "B", "La 13e journée se termine lundi",
      "13-й тур закрывается... A. в воскресенье · B. в понедельник · C. в субботу", size=20, gap=8)
-e.head("B · КАЛЕНДАРЬ И ДАТЫ", 25)
+e.head("B　КАЛЕНДАРЬ И ДАТЫ", 25)
 e.bridge("Complétez avec les chiffres et les mots de la page 4.")
 e.ex("A2", "Compléter", "2", "Lundi 2 novembre",
      "13-й тур закрывается ___ ноября.", instr="Compléter", size=20, gap=8)
@@ -186,7 +186,7 @@ e.ex("A2", "Compléter", "16:15", "Début 16 h 15",
      "«Спартак» — «Акрон» начинается в ___ (время).", instr="Compléter", size=20, gap=8)
 e.ex("B1", "Compléter", "20", "20 novembre",
      "15-й тур будет ___ ноября.", instr="Compléter", size=20, gap=8)
-e.head("C · КОМАНДЫ И МАТЧИ", 25)
+e.head("C　КОМАНДЫ И МАТЧИ", 25)
 e.match_set("B1", "Appariement",
             ["«Локомотив»", "«Краснодар»", "«Спартак»", "«Зенит»"],
             ["играет с ЦСКА в субботу в 19:30",
@@ -196,7 +196,7 @@ e.match_set("B1", "Appariement",
             ["b", "a", "c", "d"],
             ["Lokomotiv b", "Krasnodar a", "Spartak c", "Zénith d"],
             instr="Associer")
-e.head("D · ВРЕМЯ ГЛАГОЛА", 25)
+e.head("D　ВРЕМЯ ГЛАГОЛА", 25)
 e.bridge("Mettez les verbes entre parenthèses au bon temps.")
 e.ex("B1", "Compléter", "играет", "играть → играет",
      "В субботу «Краснодар» ___ с ЦСКА. (играть)", instr="Compléter", size=20, gap=8)

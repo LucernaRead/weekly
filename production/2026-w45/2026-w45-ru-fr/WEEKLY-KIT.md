@@ -110,8 +110,8 @@ Split week (2–3 Nov work, 4 Nov Wednesday holiday, 3 Nov one hour shorter, sch
 
 - `files/weekly-report-w45-ru-fr/svg/` — 8 final SVGs (sha256: p1 d513d03e…, p2 48003025…, p3 d3d1a8ef…, p4 28f872c0…, p5 df751ed5…, p6 697b64a8…, p7 c5f43b47…, p8 66e4d713…)
 - `files/weekly-report-w45-ru-fr/cards/` — 8 cards (1950×2700 PNG)
-- `files/weekly-report-w45-ru-fr/Lucerna-VOL2-FR.pdf` — print PDF, 8 pages, **13,518,341 bytes**, sha256 `3bfa593e86e2a2479e46943e0b7aecdacb5b5f843755918b169ce01fd4cb0d0f`
-- `files/weekly-report-w45-ru-fr/Lucerna-VOL2-FR-web.pdf` — web PDF, 8 pages, **3,197,163 bytes** (< 10 MB), sha256 `df56e15e4fb717a1e827456ada2e62bcec1d8bb9bb70a9eacb785867c940d71e`
+- `files/weekly-report-w45-ru-fr/Lucerna-VOL2-FR.pdf` — print PDF, 8 pages, **12,891,171 bytes**, sha256 `1b73e962b8784cc24e0e4f5ee76c1ee68e49fd1220b0ae05b8ed924553656961`
+- `files/weekly-report-w45-ru-fr/Lucerna-VOL2-FR-web.pdf` — web PDF, 8 pages, **2,197,560 bytes** (< 10 MB), sha256 `ae77ce594a5a4343f91dceee2d9d6df762b64bb2dcea5e8d07a5b6a8a846f697`
 - `files/weekly-report-w45-ru-fr/WEEKLY-KIT.md` — this file
 - `files/weekly-report-w45-ru-fr/ABSTRACT.txt` — one-line French abstract, no ASCII double quotes
 - Build: `hidden_files/weekly-report-w45-ru-fr-build/` (run.py → render.py; transform script at `tools/scratch/transform-w45-ru-fr.py`; verification scripts at `tools/scratch/verify-w45-ru-fr.py`, `tools/scratch/check-w45-ru-fr-p6-baseline.py`, `tools/scratch/check-w45-ru-fr-extra.py`; final run log at `tools/scratch/run-w45-ru-fr2.log`)
@@ -129,3 +129,12 @@ Builder-complete, NOT proofread-finalized, NOT pushed, NOT posted: per the task 
 ## 15. Coordinator adjudication (2026-10-27, documentation only, no render change)
 
 - Independent proof (hidden_files/w45/ru-fr-proof/REPORT.md): ZERO PROBLEMS, cleared to finalize. Badge slot single item ACCEPTED as-is: edition badge (975,372) 20pt bold #a4553a in-place replacement is byte-consistent with W43 shipped ru-fr; README #20's (975,574) 22pt insert describes French-as-target, not this edition. This matches the standing RU slot rule (372 family: ru-en/ru-fr/ru-it/ru-pt; 574 family: ru-de/ru-es). Future RU×FR proofs must NOT re-flag badge slot. FINALIZED.
+
+## 16. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-fr/svglib.py --target ru --reader fr --week 2026-w45` (--check dry-run first). `_D5_READER = "latin"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 13,200,889 bytes, sha256 `2ac01cb8e5937fe4d84cac3edd4a3aae9f388cd0ead396485f267af867138e1f`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 443 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 206.8px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 148, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 693; run1 692 body lines); G14 P8 238 / 59.2 lines/slack; D18 148.0px; D37 N/A（本版无副刊头行）. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-fr/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-fr.pdf` 12,891,171 bytes, sha256 `1b73e962b8784cc24e0e4f5ee76c1ee68e49fd1220b0ae05b8ed924553656961`; web `2026-w45-ru-fr.web.pdf` 2,197,560 bytes, sha256 `ae77ce594a5a4343f91dceee2d9d6df762b64bb2dcea5e8d07a5b6a8a846f697`; text.md `2026-w45-ru-fr.text.md` (NEW file — issues/ has no ru `.text.md`) 54,219 bytes, sha256 `b8a42c9fd50468cd013d94e2bea989b5750d6f963c0ad8fe6e6b24c0e38ca682`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-fr.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-fr/GATES-SUMMARY.txt` (D29).

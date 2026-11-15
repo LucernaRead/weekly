@@ -108,8 +108,8 @@ Split week (2–3 Nov work, 4 Nov Wednesday holiday, 3 Nov one hour shorter, sch
 
 - `files/weekly-report-w45-ru-it/svg/` — 8 final SVGs
 - `files/weekly-report-w45-ru-it/cards/` — 8 cards (1950×2700 PNG)
-- `files/weekly-report-w45-ru-it/Lucerna-VOL2-IT.pdf` — print PDF, 8 pages, **13,551,274 bytes**, sha256 `20bd14c011d1bc03f475fda5ac03d5bb5a447097bbe30074911f9b8edd2079a7`
-- `files/weekly-report-w45-ru-it/Lucerna-VOL2-IT-web.pdf` — web PDF, 8 pages, **3,173,183 bytes** (< 10 MB), sha256 `b393544320f532ec16d01bbe3fa14e0eace27101b80a20858b86661375a5ab88`
+- `files/weekly-report-w45-ru-it/Lucerna-VOL2-IT.pdf` — print PDF, 8 pages, **12,885,514 bytes**, sha256 `f29cdd86f350204c6bd474452b7d427928cf484605203f222cc61eda2af6d436`
+- `files/weekly-report-w45-ru-it/Lucerna-VOL2-IT-web.pdf` — web PDF, 8 pages, **2,191,897 bytes** (< 10 MB), sha256 `14d9988cd7aebc0f9ebdcd967f5fe95ee850fe8182b4c18a654b1c725d5abd3d`
 - `files/weekly-report-w45-ru-it/WEEKLY-KIT.md` — this file
 - `files/weekly-report-w45-ru-it/ABSTRACT.txt` — one-line Italian abstract (see §13)
 - Build: `hidden_files/weekly-report-w45-ru-it-build/` (run.py → render.py; transform script at `tools/scratch/transform-w45-ru-it.py`; verification script + log at `hidden_files/weekly-report-w45-ru-it-build/verify.py`, `verify-w45-ru-it.log`; build log `run-w45-ru-it.log`)
@@ -148,3 +148,12 @@ Final SVG sha256:
 ## 15. Delivery status
 
 Builder-complete, NOT proofread-finalized, NOT pushed, NOT posted: per the task brief, repo insertion is done by the parent line (serialized) and independent proofread is still pending. No git push, no Discord post, no user message, no cron was made from this build. Weekly-git was not touched.
+
+## 16. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-it/svglib.py --target ru --reader it --week 2026-w45` (--check dry-run first). `_D5_READER = "latin"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 13,209,302 bytes, sha256 `1396778a54cd1c11a9807f70a8c76cbeba342c2ca7b9aa31e76b1cf6f672a6ec`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 440 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 199.2px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 145, added CJK 0; G11 0 SPILL; G12 0 DEFECT (52 / 691; run1 690 body lines); G14 P8 241 / 44.5 lines/slack; D18 137.8px; D37 N/A（本版无副刊头行）. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-it/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-it.pdf` 12,885,514 bytes, sha256 `f29cdd86f350204c6bd474452b7d427928cf484605203f222cc61eda2af6d436`; web `2026-w45-ru-it.web.pdf` 2,191,897 bytes, sha256 `14d9988cd7aebc0f9ebdcd967f5fe95ee850fe8182b4c18a654b1c725d5abd3d`; text.md `2026-w45-ru-it.text.md` (NEW file — issues/ has no ru `.text.md`) 54,389 bytes, sha256 `4aa600565a47cf70741d7a1f27095e5bb2849f87b82c75d45537d48cc7f397e6`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-it.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-it/GATES-SUMMARY.txt` (D29).

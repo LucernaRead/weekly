@@ -24,8 +24,8 @@ patterns inside the transform script, confined there.
 
 | File | Bytes | SHA-256 |
 |---|---|---|
-| Lucerna-VOL2-KO.pdf (print, 8 pages) | 15,078,056 | 6f21c3217ac2fdc6b38850c7ffc949d871954007d3ab0bde8b38fddcdb59a878 |
-| Lucerna-VOL2-KO-web.pdf (web, 8 pages, < 10 MB) | 3,090,198 | c8d333abeb734480249ae62ac47293f5d3ca04a6391720bb458f8efab0b05016 |
+| Lucerna-VOL2-KO.pdf (print, 8 pages) | 14,018,223 | a035f67ee2bee8c90342e11dbffacceb17a446ec030c8e371ea7aa48f9edcbd2 |
+| Lucerna-VOL2-KO-web.pdf (web, 8 pages, < 10 MB) | 2,340,208 | 4d4b733ead7be63dc3d0c16d2c307206a3cb2b1fdf3059e833912f2316a3ffa8 |
 | svg/ × 8 | p1 976,160 · p2 31,459 · p3 25,304 · p4 300,655 · p5 736,803 · p6 28,548 · p7 26,764 · p8 59,928 | full hashes in §15 |
 | cards/ × 8 (1950×2700 PNG) | p1 1,109,719 · p2 734,709 · p3 633,531 · p4 760,113 · p5 790,332 · p6 592,680 · p7 605,862 · p8 941,838 | — |
 | WEEKLY-KIT.md (this file) | — | — |
@@ -393,3 +393,13 @@ was made from this fix round. Fix log: `hidden_files/weekly-report-w45-ru-ko-bui
   (was 15,078,049 / `01681c2b…`); web 3,090,198 bytes
   `c8d333abeb734480249ae62ac47293f5d3ca04a6391720bb458f8efab0b05016`
   (was 3,091,048 / `d23437e0…`). §1 and §15 updated to these values.
+
+## 18. D5 rebuild (2026-11-14, builder run; not a proofread round)
+
+- Installer: `apply_variant.py --patch-core ru --week 2026-w45` (core, family-shared) + `--svglib patched/2026-w45-ru-ko/svglib.py --target ru --reader ko --week 2026-w45` (--check dry-run first). `_D5_READER = "cjk"`; routing test FAILURES: 0; fix2 retained (4). D26: old `if _D5_READER == "ru":` branch present, fix-xru 0.
+- 本节 pins 取代 §17 Fix round 的 pins（该节为历史记录，未改动）；§1 表格的 PDF 两行已同步更新为 D5 值，SVG/卡片行仍为修复轮 files/ 产物实测（closer 同步重渲后更新）。
+- Baseline (pre-D5 production): TOTAL 150, 0 warnings; print 14,047,271 bytes, sha256 `e7854e84368ab351b6f9f7a736e22cab4e531869267d5ee1c53886bcb0c23570`; text layer print=web multiset diff 0; pre-D5 census D5 Latin 204 (>0); P8 150/150, keydiff=[137, 138]; D18 gap 256.4px; G6 2 TEXTX (pre-existing, adjudicated); G11 1 SPILL（既有缺陷，基线同值）.
+- Run-1 defects and fixes (font-size / box-height only, no copy changed): G6 2 TEXTX — adjudicated audit false positive, no fix (audit measures italic runs with REGULAR face; 300 dpi pixel proof: real gap ~2.5 SVG units, nominal touch 0.15 units = 0.016 mm; identical in the shipped baseline; D22 class). G11 1 SPILL → Fix A（content7.py 盒高公式尾数 +26→+46，盒高 +20）；G6 +7 LINEX → Fix B（err gloss 19.5→19.0pt，eh→805.36，整栏 −2.72px vs 基线）.
+- Run-2 gates (02:05–02:42 UTC 2026-11-15): 16/16 + D18 + D37 green except G6 TEXTX ×2 (adjudicated). G8 CLEAN keydiff=[137, 138]; G10 added Latin 67, added CJK 0; G11 0 SPILL; G12 0 DEFECT (61 / 796; run1 787 body lines); G14 P8 236 / 49.1 lines/slack; D18 224.4px; D37 margin 282.8px. Script RESULT reads NOT-GREEN on the adjudicated G6 only; family verdict ALL-GREEN modulo the F-2 adjudication.
+- Final pins (builder originals in scratch `patched/2026-w45-ru-ko/`; closer copies the web PDF, never re-runs webpdf): print `Lucerna-VOL2-ru-ko.pdf` 14,018,223 bytes, sha256 `a035f67ee2bee8c90342e11dbffacceb17a446ec030c8e371ea7aa48f9edcbd2`; web `2026-w45-ru-ko.web.pdf` 2,340,208 bytes, sha256 `4d4b733ead7be63dc3d0c16d2c307206a3cb2b1fdf3059e833912f2316a3ffa8`; text.md `2026-w45-ru-ko.text.md` (NEW file — issues/ has no ru `.text.md`) 53,561 bytes, sha256 `ace3e3f2ef7f69f31c0e9d9fe0dd1521fdc3ec90ec77cf6af759f949156c6cd2`, BYTE-IDENTICAL vs fanout `.text.md.new`. 150 exercises, unchanged.
+- Scratch: `hidden_files/d5-redo/scratch-2026-w45-ru/`; family report `hidden_files/d5-redo/FAMILY-W45-RU-BUILD.md` (§9 pins); per-edition report `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/D5-REPORT-2026-w45-ru-ko.md`; gates summary copy `production/notes/2026-w45/g-ru/scratch-d5-rebuild-ru/logs/2026-w45-ru-ko/GATES-SUMMARY.txt` (D29).
