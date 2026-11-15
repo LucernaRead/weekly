@@ -12,8 +12,8 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 3　TERCEIRA EDIÇÃO", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　IL PORTOGHESE CHE LEGGE IL BRASILE, OGNI SETTIMANA", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
-p.text(RIGHT, 92, "SEMANA DE 9 A 15 DE NOVEMBRO DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　IL PORTOGHESE CHE LEGGE IL BRASILE, OGNI SETTIMANA", 16, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SEMANA DE 9 A 15 DE NOVEMBRO DE 2026", 16, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "A Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SETTIMANALE PORTOGHESE　VOL.3　ENEM, DIA 2　PROCLAMAÇÃO DA REPÚBLICA　O FUTEBOL DECIDE", 30, "serif", True, OLIVE, anchor="middle", spacing=0)
 p.text(975, 372, "TESTI IN PORTOGHESE　SPIEGAZIONI IN ITALIANO — L’EDIZIONE PER I LETTORI ITALIANI", 16, "sans", False, GREY, anchor="middle")
@@ -46,7 +46,7 @@ f.box("A SEMANA EM NÚMEROS　IN CIFRE", [
     ("13h30–18h30 — a prova do dia 15 (la prova del 15, dalle 13:30 alle 18:30)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 domande: 45 + 45)", "serif", False, INK, 20, 1.35),
 ], tsize=20)
-f.head("AGORA VOCÊ　ORA TOCCA A TE", 25)
+f.head("AGORA VOCÊ　ORA TOCCA A TE", 24)
 f.ex("A2", "Completare la frase", "proclamação", "proclamação = proclamazione (della Repubblica)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
 f.ex("A2", "Completare la frase", "feriado", "feriado = festa",
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BREVE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BREVE", 20, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -252,7 +252,7 @@ e.ex("A2", "Completare la frase", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Completa", size=20, gap=8)
 e.ex("A2", "Completare la frase", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Completa", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Completa con i numeri delle pagine 1 e 2.")
 e.ex("A2", "Completare la frase", "1", "Dalle 12 alle 13 = 1 ora",
      "Os portões ficam abertos ___ hora.", instr="Completa", size=20, gap=8)

@@ -68,3 +68,19 @@ render.py 仅产卡片 + 印刷 PDF，不产旧式 web PDF。Web PDF：tools/ven
 ## 8. .text.md 说明
 
 本目录内 2026-w46-pt-zh-cn.text.md 由构建源稿（content 模块）导出、按印刷顺序排列（标题、段落、栏目、练习 1–150 含答案要点、P8 答案区以练习内答案呈现），并与渲染文本逐行比对，非 PDF 反抽。供站点单期页正文与搜索用（weekly 仓 AGENTS.md 规则 4/9）。
+
+## D5 交付物 pin（2026-11-15，run2 实测）
+
+- 印刷版 PDF：`A-Lucerna-VOL3.pdf`，3595933 字节，SHA-256 `24745549a3927ea40ad9987a0d796440abfc3d381f553f7257ce22eddf4a616f`。
+- 网页版 PDF：`2026-w46-pt-core.web.pdf`，1061356 字节（<7 MB），SHA-256 `810e67800d26b5f803013154e3e85987defe3268960c30fe83f24338647cc30b`。
+- `.text.md`：`core-pt.text.md`（run2 carry-over，与 `issues/` 已发版 BYTE-IDENTICAL），32509 字节，SHA-256 `206d0c2eb06a8f5f0987d94f8731d5e5a65773930795e52ae78695c9eab9a8a4`。
+- 网 PDF 非确定性：以上为终轮实测值，closer 拷 builder 原件，勿重跑 webpdf。
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target pt --reader de --week 2026-w46`（先 `--check` 干跑，全干净）。模式 latin；`_D5_READER = "latin"`（`svglib.py:100`）；`test_d5_routing.py` **FAILURES: 0**；fix2 保留（`_QUOTE_CLS` ×4）。未跑 `--patch-core`（D40：builder 永不写 production；closer 从 `patched/` 同步）。
+- 修前 D5 普查（基线）：Latin 345、Cyrillic 0、curly_in_cjk 0（`d5_census`）；修后全 0（G3）。
+- 修复（只降字号，探针：SVG 实测墨宽线性缩放、取留 ≥2px 余量的最大适配字号）：
+- content12.py:255 `e.head("C　COMPLETE COM OS NÚMEROS", 25)` → 22.5pt（探针余量 8.6px）
+- D47（导出器 24pt `###` 阈值）：无（本版无 24pt `p.text` 标题被压到阈值以下；run1→run2 导出 `###` 多重集差 0）。按 D47，builder 只记录、不补行；closer 落仓时只核实、不补行（D49）。
+- 终轮门禁 run2：计分门 18/18 全绿（G1–G14 + G15a + G16 + D18 + D37；G15b 仅记录，G15c N/A——pt 无原生校验器，carry-over 路线按 PLAN §2.1）。text.md 状态：carry-over，与已发版 BYTE-IDENTICAL。

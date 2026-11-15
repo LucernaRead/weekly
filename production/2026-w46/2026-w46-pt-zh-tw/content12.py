@@ -252,7 +252,7 @@ e.ex("A2", "完成句子", "começa", "começar：ela → começa",
      "A prova ___ (começar) às 13h30.", instr="填空", size=20, gap=8)
 e.ex("A2", "完成句子", "termina", "terminar：ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="填空", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("用第 1、2 版的數字填空。")
 e.ex("A2", "完成句子", "1", "12 點到 13 點 = 1 小時",
      "Os portões ficam abertos ___ hora.", instr="填空", size=20, gap=8)

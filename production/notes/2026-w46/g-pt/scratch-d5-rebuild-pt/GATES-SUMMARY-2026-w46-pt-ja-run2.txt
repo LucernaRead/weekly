@@ -1,0 +1,23 @@
+===== gates 2026-w46-pt-ja round=run2 area=patched 16:14:17 =====
+G1 run PASS TOTAL=150 OVF=0 HDW=0
+G2 head_check rc=0 0 defect (log g2.run2.log)
+G3 d5_census rc=0 latin=0 cyrillic=0 curly_in_cjk=0 curly_total=0 noto_sans=0
+G4 render PASS print=A-Lucerna-VOL3-pt-ja.pdf 8657034 B
+G5 webpdf PASS web=2026-w46-pt-ja.web.pdf 1194877 B (<7MB)
+G6 occlusion rc=0 0 flag
+G7 p8_extract rc=0 noted=150/150
+G8 p8_compare rc=0 status: CLEAN  missing=[] extra_count=0 uncertain=[] keydiff=[137, 138] 
+G9 freeze_baseline rc=0 baseline: 8/8 SVGs byte-identical (repointed files: none)
+G10 freeze_diff rc=0 cjk_added_total=0 latin_added=220
+G11 spill rc=0 SPILL_SWEEP 2026-w46-pt-ja: 32 boxes, 118 candidates, 0 SPILL, 118 OBSERVE 
+G12 boxtitle rc=0 BOXTITLE 2026-w46-pt-ja: 29 titles, 370 body lines, 0 DEFECT, 0 OBSERVE, 0 marginal 
+G13 edge rc=0 EDGE_SCAN 2026-w46-pt-ja: 8 pages, 0 TOUCH, 0 NEAR 
+G14 creambox rc=0 p7-lingua.svg: els 176->276 lines 93->93 diff 3 moved 16 defects 0 observe 0 p8-avaliacao.svg: els 907->966 lines 219->219 diff 0 moved 35 defects 0 observe 0 CREAMBOX PASS 0 defects 
+G15a print=28779 web=28779 issued=28779 print-web_diff=0 print-issued_diff=0
+G15a text.md BYTE-IDENTICAL (33281 B)
+G15b carryover (record-only, D27) rc=1   1x '150' CARRYOVER: FAIL 
+G15c native verifier N/A (record-only) — pt has no native verifier; carry-over route per PLAN §2.1 (W45 pt precedent; EN precedent W45-EN-REPROOF D27)
+G16 census_quotes rc=0   p8-avaliacao.svg: defective=0   TOTAL defective: 0 GRAND TOTAL defective: 0 
+D18 gap=125.7 slogan_centre=975.0 (vs 975) date_end=1862.0 (vs 1862=RIGHT) slogan_end=1302.9 date_start=1428.6 verdict=PASS
+D37 y=372 badge_end=1200.2 cream_left=1439.5 margin=239.3 verdict=PASS
+===== gates 2026-w46-pt-ja round=run2 done =====

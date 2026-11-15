@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　数字で見る今週", [
     ("13h — os portões fecham（13 時閉門、遅刻は入場不可）", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15（15 日の試験、13:30〜18:30）", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45（90 問：45 + 45）", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=17.5)
 f.head("AGORA VOCÊ　さあ、あなたも", 25)
 f.ex("A2", "文を完成させる", "proclamação", "proclamação = 宣言（共和国宣言）",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -252,7 +252,7 @@ e.ex("A2", "文を完成させる", "começa", "começar：ela → começa",
      "A prova ___ (começar) às 13h30.", instr="空欄を埋める", size=20, gap=8)
 e.ex("A2", "文を完成させる", "termina", "terminar：ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="空欄を埋める", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("1・2 ページの数字で埋めよう。")
 e.ex("A2", "文を完成させる", "1", "12 時から 13 時 = 1 時間",
      "Os portões ficam abertos ___ hora.", instr="空欄を埋める", size=20, gap=8)

@@ -16,7 +16,7 @@ p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　EL PORTUGUÉS QUE LEE BRASIL, CADA 
 p.text(RIGHT, 92, "SEMANA DE 9 A 15 DE NOVEMBRO DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "A Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "SEMANARIO EN PORTUGUÉS　VOL.3　ENEM, DIA 2　PROCLAMAÇÃO DA REPÚBLICA　O FUTEBOL DECIDE", 30, "serif", True, OLIVE, anchor="middle", spacing=0)
-p.text(975, 372, "TEXTOS EN PORTUGUÉS　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 16, "sans", False, GREY, anchor="middle")
+p.text(975, 372, "TEXTOS EN PORTUGUÉS　EXPLICACIONES EN ESPAÑOL — LA EDICIÓN PARA LOS LECTORES HISPANOHABLANTES", 15.5, "sans", False, GREY, anchor="middle")
 p.hline(MX, RIGHT, 420, OLIVE, 2)
 moth(p, 975, 420)
 
@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　EN CIFRAS", [
     ("13h — os portões fecham (13h: cierre, quien llega tarde no entra)", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15 (la prueba del 15, de 13:30 a 18:30)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 preguntas: 45 + 45)", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=18.5)
 f.head("AGORA VOCÊ　AHORA TÚ", 25)
 f.ex("A2", "Completar la frase", "proclamação", "proclamação = proclamación (de la República)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Después de las 13h ya no se entra.", 19, "sans", Fal
 # ---- conteúdo (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　EN ESTA EDICIÓN", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　EN ESTA EDICIÓN", 20, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "Prova e feriado no domingo", "A2"),
     ("Pág. 3", "Proclamação: 137 anos", "A2→B1"),
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　BREVE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　BREVE", 21.5, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -252,7 +252,7 @@ e.ex("A2", "Completar la frase", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Completa", size=20, gap=8)
 e.ex("A2", "Completar la frase", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Completa", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Completa con los números de las páginas 1 y 2.")
 e.ex("A2", "Completar la frase", "1", "De 12h a 13h = 1 hora",
      "Os portões ficam abertos ___ hora.", instr="Completa", size=20, gap=8)

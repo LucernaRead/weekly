@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　EN CHIFFRES", [
     ("13h — os portões fecham (13h : fermeture, les retardataires restent dehors)", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15 (l’épreuve du 15, de 13h30 à 18h30)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 questions : 45 + 45)", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=17)
 f.head("AGORA VOCÊ　À TOI DE JOUER", 25)
 f.ex("A2", "Compléter la phrase", "proclamação", "proclamação = proclamation (de la République)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　EN BREF", 20.5, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -252,7 +252,7 @@ e.ex("A2", "Compléter la phrase", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Complète", size=20, gap=8)
 e.ex("A2", "Compléter la phrase", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Complète", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Complète avec les chiffres des pages 1 et 2.")
 e.ex("A2", "Compléter la phrase", "1", "De 12h à 13h = 1 heure",
      "Os portões ficam abertos ___ hora.", instr="Complète", size=20, gap=8)

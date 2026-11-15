@@ -36,3 +36,21 @@
 - 重建与重门：由核心 build 目录全新复制 + 修复后 transform 重建（`hidden_files/w46/pt-fix/`，日志见该目录 logs/）；构建自检 `gates.py` FAILURES: none，TOTAL 150（A2 49 / B1 70 / B2 31），0 FLOW OVERFLOW / HEAD TOO WIDE。`freeze.py diff` vs 核心版 added CJK 0；`p8.py compare` CLEAN 150/150，keydiff [137,138]（翻译重定向，属正常）；`occlusion_audit.py` 0 flags，selftest OK；P8/P7 全帧目检通过。门禁 JSON/日志见 `hidden_files/w46/pt-fix/gates/`。
 - 最终文件：`.text.md` 33286 字节（480 行）；Web PDF 886398 字节（<7 MB），pdftotext 45429 字节；印刷版 PDF 3489110 字节。
 - Round 2 独立校对在后，本修复不替代。
+
+## D5 交付物 pin（2026-11-15，run2 实测）
+
+- 印刷版 PDF：`A-Lucerna-VOL3-FR.pdf`，2281048 字节，SHA-256 `382f5609e2928db86fd87c769d23ae98c176526b34db15d556d49e59c22be2cb`。
+- 网页版 PDF：`2026-w46-pt-fr.web.pdf`，762405 字节（<7 MB），SHA-256 `c699e229f4a7b7e5a9845e1ee2affda1e5c2ad66943ed7484865ad07219e5311`。
+- `.text.md`：`2026-w46-pt-fr.text.md`（run2 carry-over，与 `issues/` 已发版 BYTE-IDENTICAL），33281 字节，SHA-256 `14bc5aa41bf07c9bb2f5a2199053b9290e400fe4a783814dfc07adb06945c9e4`。
+- 网 PDF 非确定性：以上为终轮实测值，closer 拷 builder 原件，勿重跑 webpdf。
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target pt --reader fr --week 2026-w46`（先 `--check` 干跑，全干净）。模式 latin；`_D5_READER = "latin"`（`svglib.py:100`）；`test_d5_routing.py` **FAILURES: 0**；fix2 保留（`_QUOTE_CLS` ×4）。未跑 `--patch-core`（D40：builder 永不写 production；closer 从 `patched/` 同步）。
+- 修前 D5 普查（基线）：Latin 501、Cyrillic 0、curly_in_cjk 21（`d5_census`）；修后全 0（G3）。
+- 修复（只降字号，探针：SVG 实测墨宽线性缩放、取留 ≥2px 余量的最大适配字号）：
+- content12.py:48 `], tsize=20)` → `], tsize=17)`（数字盒标题 `A SEMANA EM NÚMEROS　EN CHIFFRES`，探针余量 11.7px）
+- content12.py:131 `EM POUCAS PALAVRAS　EN BREF` 24 → 20.5pt（探针余量 4.6px；D47：`###` 行自导出丢失，见 D5 节）
+- content12.py:255 `e.head("C　COMPLETE COM OS NÚMEROS", 25)` → 22.5pt（探针余量 8.6px）
+- D47（导出器 24pt `###` 阈值）：1 行：`EM POUCAS PALAVRAS　EN BREF`（已发版第 52 行 `### Em poucas palavras`；标题文字仍在终轮印 PDF 文字层内，G15a 差 0）。按 D47，builder 只记录、不补行；closer 落仓时只核实、不补行（D49）。
+- 终轮门禁 run2：计分门 18/18 全绿（G1–G14 + G15a + G16 + D18 + D37；G15b 仅记录，G15c N/A——pt 无原生校验器，carry-over 路线按 PLAN §2.1）。text.md 状态：carry-over，与已发版 BYTE-IDENTICAL。

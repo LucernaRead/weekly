@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　IN NUMBERS", [
     ("13h — os portões fecham (13h: gates close, latecomers do not get in)", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15 (the day-15 exam, 13:30 to 18:30)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 questions: 45 + 45)", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=17.5)
 f.head("AGORA VOCÊ　NOW YOU TRY", 25)
 f.ex("A2", "Complete the sentence", "proclamação", "proclamação = proclamation (of the Republic)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BRIEF", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN BRIEF", 20.5, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -175,7 +175,7 @@ f.head("E SE EU CHEGAR TARDE?", 25)
 f.para("Se você chegar depois das 13h, os portões já fecharam — e não há segunda chamada. O domingo 15 não aceita atraso: melhor chegar cedo e esperar do que correr no último minuto. E lembre: no segundo dia, a prova termina às 18h30, não às 19h.", 23.5)
 f.box("PARA NÃO ERRAR　THE MANTRA", [
     ("«Confira o cartão, durma bem, chegue cedo.» Três passos e o domingo fica tranquilo: no feriado, confira também o transporte.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=21)
 f.gloss("a proclamação = proclamation · o feriado = holiday · a natureza = natural sciences · a matemática = mathematics · conferir = to check · a escala = the rota.")
 f.end_report()
 
@@ -252,7 +252,7 @@ e.ex("A2", "Complete the sentence", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Fill in", size=20, gap=8)
 e.ex("A2", "Complete the sentence", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Fill in", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Fill in with numbers from pages 1 and 2.")
 e.ex("A2", "Complete the sentence", "1", "12h to 13h = 1 hour",
      "Os portões ficam abertos ___ hora.", instr="Fill in", size=20, gap=8)

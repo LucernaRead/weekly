@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　IN CIJFERS", [
     ("13h — os portões fecham (13 uur: dicht, te laat is te laat)", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15 (het examen van de 15e, 13:30 tot 18:30)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 vragen: 45 + 45)", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=18.5)
 f.head("AGORA VOCÊ　NU JIJ", 25)
 f.ex("A2", "Zin afmaken", "proclamação", "proclamação = proclamatie (van de Republiek)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -86,7 +86,7 @@ p.text(gx + 22, byy + 76, "Na 13 uur kom je er niet meer in.", 19, "sans", False
 # ---- conteúdo (col 3) ----
 sy = 1312
 p.rect(gx, sy, gw, 340, fill="#f0eee5")
-p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 24, "sans", True, OLIVE)
+p.text(gx + 22, sy + 40, "NESTA EDIÇÃO　IN DEZE EDITIE", 21, "sans", True, OLIVE)
 som = [
     ("Pág. 2", "Prova e feriado no domingo", "A2"),
     ("Pág. 3", "Proclamação: 137 anos", "A2→B1"),
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　KORTOM", 20, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -252,7 +252,7 @@ e.ex("A2", "Zin afmaken", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Vul in", size=20, gap=8)
 e.ex("A2", "Zin afmaken", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Vul in", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Vul in met de cijfers van pagina 1 en 2.")
 e.ex("A2", "Zin afmaken", "1", "Van 12 tot 13 uur = 1 uur",
      "Os portões ficam abertos ___ hora.", instr="Vul in", size=20, gap=8)

@@ -12,8 +12,8 @@ p = BSPage4()
 
 # top strip
 p.text(MX, 92, "VOL. 3　TERCEIRA EDIÇÃO", 17, "sans", True, OLIVE, spacing=1.7)
-p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　DAS PORTUGIESISCH, DAS BRASILIEN LIEST, JEDE WOCHE", 17, "sans", False, GREY, anchor="middle", spacing=1.7)
-p.text(RIGHT, 92, "SEMANA DE 9 A 15 DE NOVEMBRO DE 2026", 17, "sans", False, GREY, anchor="end", spacing=1.7)
+p.text(975, 92, "TODA SEMANA EM PORTUGUÊS　DAS PORTUGIESISCH, DAS BRASILIEN LIEST, JEDE WOCHE", 16, "sans", False, GREY, anchor="middle", spacing=1.7)
+p.text(RIGHT, 92, "SEMANA DE 9 A 15 DE NOVEMBRO DE 2026", 16, "sans", False, GREY, anchor="end", spacing=1.7)
 p.text(975, 262, "A Lucerna", 196, family="UnifrakturMaguntia", anchor="middle")
 p.text(975, 330, "PORTUGIESISCHE WOCHENZEITUNG　VOL.3　ENEM, DIA 2　PROCLAMAÇÃO DA REPÚBLICA　O FUTEBOL DECIDE", 28, "serif", True, OLIVE, anchor="middle", spacing=0)
 p.text(975, 372, "PORTUGIESISCHER TEXT　DEUTSCHE ERKLÄRUNGEN — DIE AUSGABE FÜR DEUTSCHSPRACHIGE LESER", 16, "sans", False, GREY, anchor="middle")
@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　IN ZAHLEN", [
     ("13h — os portões fecham (13 Uhr: Tore schließen, zu spät ist zu spät)", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15 (Prüfung am 15., 13:30 bis 18:30 Uhr)", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45 (90 Fragen: 45 + 45)", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=18)
 f.head("AGORA VOCÊ　JETZT DU", 25)
 f.ex("A2", "Satz vervollständigen", "proclamação", "proclamação = Ausrufung (der Republik)",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -128,7 +128,7 @@ f2.end_report()
 # col 3 EM POUCAS PALAVRAS
 bx = COLX[3]
 p.rect(bx, 1874, CW, 436, fill=BOX)
-p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN KÜRZE", 24, "sans", True, OLIVE)
+p.text(bx + 22, 1914, "EM POUCAS PALAVRAS　IN KÜRZE", 19.5, "sans", True, OLIVE)
 brefs = [
     ("O ENEM", "Domingo, 15: segundo dia — Natureza e Matemática, das 13h30 às 18h30. (Página 6)"),
     ("O FERIADO", "Domingo, 15: Proclamação da República, 137 anos — cai no domingo, sem folga extra. (Página 3)"),
@@ -175,7 +175,7 @@ f.head("E SE EU CHEGAR TARDE?", 25)
 f.para("Se você chegar depois das 13h, os portões já fecharam — e não há segunda chamada. O domingo 15 não aceita atraso: melhor chegar cedo e esperar do que correr no último minuto. E lembre: no segundo dia, a prova termina às 18h30, não às 19h.", 23.5)
 f.box("PARA NÃO ERRAR　DIE MERKREGEL", [
     ("«Confira o cartão, durma bem, chegue cedo.» Três passos e o domingo fica tranquilo: no feriado, confira também o transporte.", "serif", False, INK, 21.5, 1.4),
-])
+], tsize=19)
 f.gloss("a proclamação = Ausrufung · o feriado = Feiertag · a natureza = Naturwissenschaften · a matemática = Mathematik · conferir = prüfen · a escala = der Dienstplan.")
 f.end_report()
 
@@ -252,7 +252,7 @@ e.ex("A2", "Satz vervollständigen", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="Ergänzen", size=20, gap=8)
 e.ex("A2", "Satz vervollständigen", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="Ergänzen", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("Ergänze mit den Zahlen von Seite 1 und 2.")
 e.ex("A2", "Satz vervollständigen", "1", "12 bis 13 Uhr = 1 Stunde",
      "Os portões ficam abertos ___ hora.", instr="Ergänzen", size=20, gap=8)

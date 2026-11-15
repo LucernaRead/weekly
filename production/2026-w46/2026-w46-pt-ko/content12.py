@@ -45,7 +45,7 @@ f.box("A SEMANA EM NÚMEROS　숫자로 보는 한 주", [
     ("13h — os portões fecham（13시 폐문, 지각하면 입장 불가）", "serif", False, INK, 20, 1.35),
     ("13h30–18h30 — a prova do dia 15（15일 시험, 13:30~18:30）", "serif", False, INK, 20, 1.35),
     ("90 — as questões do dia 15: 45 + 45（90문제: 45 + 45）", "serif", False, INK, 20, 1.35),
-], tsize=20)
+], tsize=17.5)
 f.head("AGORA VOCÊ　이제 당신 차례", 25)
 f.ex("A2", "문장 완성하기", "proclamação", "proclamação = 선포（공화국 선포）",
      "A ___ da República é no dia 15.", size=19.5, gap=6)
@@ -252,7 +252,7 @@ e.ex("A2", "문장 완성하기", "começa", "começar: ela → começa",
      "A prova ___ (começar) às 13h30.", instr="빈칸 채우기", size=20, gap=8)
 e.ex("A2", "문장 완성하기", "termina", "terminar: ela → termina",
      "A prova ___ (terminar) às 18h30.", instr="빈칸 채우기", size=20, gap=8)
-e.head("C　COMPLETE COM OS NÚMEROS", 25)
+e.head("C　COMPLETE COM OS NÚMEROS", 22.5)
 e.bridge("1·2면의 숫자로 채우세요.")
 e.ex("A2", "문장 완성하기", "1", "12시부터 13시 = 1시간",
      "Os portões ficam abertos ___ hora.", instr="빈칸 채우기", size=20, gap=8)

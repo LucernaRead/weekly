@@ -38,3 +38,19 @@
 
 - 本版 Round 1 PASS，未重渲染、未修改。修复工 hash 复核：全部制品与修复前快照一致；核心 build 目录未动。
 - 合法 CJK 标点保留已验：P8 10 条答案注 10/10 全角冒号 ：；SVG 全量 FF1A=54、U+3002=48（含 P8 42 处 ：），.text.md FF1A=9、U+3002=32。未重跑三门禁（制品未变）。
+
+## D5 交付物 pin（2026-11-15，run2 实测）
+
+- 印刷版 PDF：`A-Lucerna-VOL3-pt-zh-tw.pdf`，3656598 字节，SHA-256 `b9914e56a5eba7ea85d8a9d2beab81cc7e16e48dcbc43c536fe8b99b42431703`。
+- 网页版 PDF：`2026-w46-pt-zh-tw.web.pdf`，1150873 字节（<7 MB），SHA-256 `6016eaa65c21060b4efd44ad1475e2e657f34bee2ec509b979f660b904341962`。
+- `.text.md`：`2026-w46-pt-zh-tw.text.md`（run2 carry-over，与 `issues/` 已发版 BYTE-IDENTICAL），32509 字节，SHA-256 `0517ea5f57030dfbe53ea0ed77cf7a8d13cb5f0b31623d19317238ce5033c170`。
+- 网 PDF 非确定性：以上为终轮实测值，closer 拷 builder 原件，勿重跑 webpdf。
+
+## D5 rebuild (2026-11-15, D5-only)
+
+- 装机：`hidden_files/d5-redo/tools/mechanism-w47/apply_variant.py --svglib <patched> --target pt --reader zh-tw --week 2026-w46`（先 `--check` 干跑，全干净）。模式 cjk；`_D5_READER = "cjk"`（`svglib.py:100`）；`test_d5_routing.py` **FAILURES: 0**；fix2 保留（`_QUOTE_CLS` ×4）。未跑 `--patch-core`（D40：builder 永不写 production；closer 从 `patched/` 同步）。
+- 修前 D5 普查（基线）：Latin 344、Cyrillic 0、curly_in_cjk 0（`d5_census`）；修后全 0（G3）。
+- 修复（只降字号，探针：SVG 实测墨宽线性缩放、取留 ≥2px 余量的最大适配字号）：
+- content12.py:255 `e.head("C　COMPLETE COM OS NÚMEROS", 25)` → 22.5pt（探针余量 8.6px）
+- D47（导出器 24pt `###` 阈值）：无（本版无 24pt `p.text` 标题被压到阈值以下；run1→run2 导出 `###` 多重集差 0）。按 D47，builder 只记录、不补行；closer 落仓时只核实、不补行（D49）。
+- 终轮门禁 run2：计分门 18/18 全绿（G1–G14 + G15a + G16 + D18 + D37；G15b 仅记录，G15c N/A——pt 无原生校验器，carry-over 路线按 PLAN §2.1）。text.md 状态：carry-over，与已发版 BYTE-IDENTICAL。
